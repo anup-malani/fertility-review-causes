@@ -1,0 +1,166 @@
+# PROTOCOL — Fertility-Explanations Systematic Review
+
+**Principal Investigator:** Anup Malani
+**Research Assistants:** Alexandra ___, Shravan ___
+**Status:** Draft v0.1 — pending PI approval, then pre-registration on OSF before any screening begins.
+
+## 1. Aim
+
+To produce the authoritative reference work evaluating, for every major proposed explanation of fertility variation and decline, two questions:
+
+1. **Is the explanation causally credible?** (i.e., is there well-identified evidence that the proposed cause actually affects fertility, and at what effect size)
+2. **Is the explanation demographically significant?** (i.e., does the proposed cause account for a meaningful fraction of the observed fertility variation in the period(s) it claims to explain)
+
+These two questions are distinct. An explanation can be causally credible but demographically trivial (real but small), or demographically significant in cross-section but causally unidentified (correlated but unproven).
+
+## 2. Three phenomena to explain
+
+Each hypothesis is evaluated against **three** target phenomena. The same explanation may be significant for one and not another:
+
+- **Pre-modern (PM):** pre-1870 fertility variation across populations and within populations over time, including hunter-gatherer / agriculturalist / pastoralist baselines.
+- **First Demographic Transition (FDT):** TFR decline from ~5–7 to ~2.5–3.5 in modernizing societies, roughly 1870–1965 in the West (later elsewhere).
+- **Second Demographic Transition (SDT):** TFR decline from ~2.5–3.5 to ~1.3–2.0, roughly 1965–present, OECD then global.
+
+A "verdict" on a hypothesis is therefore a 3-tuple: { significance for PM, significance for FDT, significance for SDT }.
+
+## 3. Four categories of explanation
+
+Hypotheses are sorted into one of four categories. Cross-category hypotheses are assigned to the **primary mechanism** with a flagged cross-reference.
+
+- **Demographic** — proximate determinants and population-structure mechanisms (mortality decline, marriage timing, breastfeeding/lactational amenorrhea, contraceptive technology and access, sex ratios, tempo effects).
+- **Economic** — relative prices, opportunity costs, and household optimization (quantity-quality tradeoff, female wage growth, child-rearing costs, housing costs, urbanization, pension crowding-out of old-age insurance motive for children, dynastic-capital and Becker-Barro motives, credit constraints).
+- **Biological** — physiological capacity and exposure (fecundity changes with age, age at menarche, infectious disease, environmental toxins / endocrine disruptors, nutrition / energy availability, paternal age, ART access).
+- **Cultural** — preferences, values, norms, and ideational diffusion (postmaterialism, religiosity decline, individualism, female autonomy / education-as-empowerment, social-network and peer effects, secular ideational change à la Lesthaeghe).
+
+**Cross-category resolution rule:** Assign to the category of the most proximate causal mechanism. Female labor-force participation → Economic (wage channel) with cross-ref to Cultural (norm channel). Child mortality decline → Demographic (replacement) with cross-ref to Economic (q-q tradeoff via reduced expected cost per surviving child).
+
+## 4. Operational definitions
+
+### 4.1 Causal credibility (GRADE-style rating)
+
+We adapt GRADE (used in Cochrane Reviews) for observational and quasi-experimental research:
+
+| Rating | Evidence pattern |
+|---|---|
+| **High** | Multiple well-identified RCTs or natural experiments converging on a consistent effect size, across multiple settings. |
+| **Moderate** | Quasi-experimental designs (IV, DiD, RD, event-study) with credible identification, replicated across ≥2 settings, broadly consistent in direction and magnitude. |
+| **Low** | Cross-sectional or panel with controls, no clear identification; or one credible quasi-experiment without replication. |
+| **Very low** | Correlational only, mechanism speculative, or evidence pattern inconsistent. |
+
+The rating applies to the **causal claim**, not the existence of the correlation.
+
+### 4.2 Demographic significance
+
+For each hypothesis × phenomenon pair, compute:
+
+- **Decomposition share** — what fraction of the observed TFR change is attributable to the hypothesized cause, using the best available decomposition (Bongaarts proximate determinants for demographic hypotheses; Oaxaca-Blinder for cross-country economic comparisons; Lee-Carter or component-projection for time-series). Reported as a point estimate with bootstrap CI.
+- **Slope sufficiency** — given the literature's best estimate of the causal effect size (d fertility / d X), and the observed range of X over the target period, can the effect plausibly produce the observed range of TFR? Sufficient / partial / insufficient.
+- **R² benchmarks** — within-country time-series R² and cross-country within-period R² of TFR on X (alone and conditional on standard controls).
+
+A hypothesis is **demographically significant** for a phenomenon if its decomposition share ≥ 10% **or** its slope-sufficiency is "sufficient" **or** its conditional R² ≥ 0.15. The 10% / 0.15 thresholds are conventional; thresholds will be pre-registered on OSF and reported alongside results so readers can apply their own.
+
+### 4.3 Verdict structure (per hypothesis)
+
+| | Causal credibility | Demographic significance |
+|---|---|---|
+| Pre-modern | (GRADE rating) | (significant / partial / not significant / insufficient data) |
+| FDT | (GRADE rating) | (significant / partial / not significant / insufficient data) |
+| SDT | (GRADE rating) | (significant / partial / not significant / insufficient data) |
+
+## 5. Methodology pipeline
+
+For each hypothesis, the following stages are executed. **Bold** indicates a human-in-the-loop gate; everything else is AI-executed and AI-verified with RA sample-checking.
+
+1. **Hypothesis approved into the master list (HYPOTHESES.md).** AI proposes candidates per category; PI approves.
+2. Search strategy drafted (query strings for OpenAlex, Semantic Scholar, Crossref, plus demography-specific sources: Demographic Research, Pop & Dev Review, Population Studies, Vienna Yearbook, PAA).
+3. Searches executed, results deduplicated, search log written to `literature/search-logs/{hypothesis-slug}.json`.
+4. Title/abstract screen against pre-registered inclusion criteria. **RA spot-checks 5–10% of decisions.**
+5. Full-text retrieval. **RA procures PDFs the AI can't access** (UChicago library proxy, ILL, emailing authors).
+6. Full-text screen. **RA spot-checks 5–10%.**
+7. Data extraction into structured template (`extraction/{hypothesis-slug}.csv`). **RA verifies a random 10% sample against PDFs.**
+8. Risk-of-bias assessment per study (ROBINS-I for observational; RoB 2 for any RCTs).
+9. Meta-analysis (R `metafor`) if ≥3 studies with extractable effect sizes; narrative synthesis otherwise.
+10. Demographic-significance computation against PM / FDT / SDT using extracted estimates + macro datasets (HFD, WPP, Maddison, Gapminder).
+11. GRADE rating — judge panel of 3 independent agent raters; **disagreements > 1 level escalate to PI.**
+12. Chapter draft using fixed template (Section 6).
+13. **RA lay-readability check** — RA reads the chapter and flags any passage that doesn't make sense to a smart undergrad, or any claim that smells overconfident given the cited evidence.
+14. PI review and sign-off.
+
+After all chapters are signed off:
+
+15. Cross-chapter contradiction check (workflow scans every chapter for claims that conflict with claims in other chapters).
+16. Book compilation (LaTeX).
+17. JEL-style summary article (~20k words).
+
+## 6. Chapter template
+
+Every chapter has the same structure:
+
+```
+# Chapter [N]: [Hypothesis name]
+
+**Category:** [Demographic / Economic / Biological / Cultural]
+**Primary mechanism:** [one-sentence mechanism statement]
+**Cross-references:** [other chapters with related mechanisms]
+
+## 1. The claim
+[2–4 sentences: precise statement of the causal claim, including direction and units]
+
+## 2. Theoretical mechanism
+[½–1 page: how the cause produces fertility change, with citations to the formative theoretical statements]
+
+## 3. Search strategy
+[Query strings, databases searched, date range, inclusion/exclusion criteria. Reproducible.]
+
+## 4. PRISMA flow
+[Diagram + table: records identified → after deduplication → after title/abstract screen → after full-text screen → included in synthesis]
+
+## 5. Included studies
+[Table: author-year, country, period, design, sample, effect-size estimate, RoB rating]
+
+## 6. Quantitative synthesis
+[Forest plot if applicable. Pooled effect, heterogeneity (I², τ²), moderator analyses, sensitivity, publication-bias check (funnel + Egger)]
+
+## 7. Demographic significance
+### 7.1 Pre-modern
+[Decomposition share, slope-sufficiency, R²; verdict]
+### 7.2 FDT
+[Same]
+### 7.3 SDT
+[Same]
+
+## 8. GRADE rating
+[Per-phenomenon rating with justification]
+
+## 9. Verdict
+[The 3×2 verdict table from §4.3]
+
+## 10. Open questions and recommended studies
+[What evidence would change the verdict? What study designs would be most informative?]
+
+## 11. References
+```
+
+## 7. Tooling
+
+- **Citation management:** Zotero group library (`fertility-explanations-review`), synced with the repo's `literature/bib/` directory via Better BibTeX.
+- **Search APIs:** OpenAlex (free, broad coverage), Semantic Scholar (free, AI-augmented), Crossref. PubMed for biological hypotheses.
+- **Meta-analysis:** R with `metafor`. Python `statsmodels` as fallback. AI generates the analysis script; RA verifies sample by re-running.
+- **Macro datasets:** Human Fertility Database, UN WPP, Gapminder, Maddison, World Bank WDI. Cached locally in `data/raw/`.
+- **Pre-registration:** OSF. Each hypothesis gets a pre-registered protocol entry before screening begins.
+
+## 8. Pre-registration
+
+Before any screening for a given hypothesis begins, the following are locked on OSF:
+
+- Inclusion / exclusion criteria
+- Search query strings
+- Data extraction template
+- Statistical analysis plan (random-effects model, heterogeneity tests, sensitivity analyses, publication-bias diagnostics)
+- Demographic-significance thresholds
+
+Deviations from pre-registration are reported in the chapter as "deviations from protocol" with justification.
+
+## 9. Update cadence
+
+Chapters are versioned. The review is a **living document** — when major new evidence is published, the relevant chapter is updated and the version log records the change. Annual full-corpus search rerun.

@@ -1,0 +1,46 @@
+# OS files
+.DS_Store
+
+# Per-session/machine config
+.mcp.json
+.claude/
+
+# Editor files
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Stata
+*.log
+
+# LaTeX auxiliary files
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.out
+*.toc
+
+# Beamer auxiliary files
+*.nav
+*.snm
+*.vrb
+
+# Compiled PDFs (regenerable from source)
+*.pdf
+
+# Workflow outputs
+literature/pdfs/
+temp/
