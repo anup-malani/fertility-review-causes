@@ -6,6 +6,12 @@ Phenomena codes: PM = pre-modern, FDT = First Demographic Transition, SDT = Seco
 
 ## Demographic
 
+[Claude: we need to define exactly what constitutes demographic vs cultural vs biological vs economic explanations. We need clear boundaries. For example, child mortality decline makes sense, but the insurance component seems more economic. We’ll have to decide which category it falls into. The contraception one is complicated. On the one hand, it's just a mechanism for reducing births. It doesn't ask the question why it is that people want to reduce births. The deeper one that contraception breaks the link between sex and reproduction is more of a biological explanation than a demographic one, so let me do some boundary setting. We'll also need to separate proximate from root causes. It seems a lot of demographic literature is about mechanisms rather than about causes. For example, the mechanisms by which social learning occurs are different than the question of why people learn, which is really a cultural explanation, something that falls within cultural evolution. 
+
+Do you agree that demography is mainly about mechanisms, with a set of underlying root causes? If we organize it that way, we can think of demography as covering the different mechanisms and the root causes (economics, biology, culture, and cultural evolution).
+
+Should we organize it that way, or should we do it the other way around? First, we organize at a macro level into economics, biology, and culture, and then, within each of those, we use the demography literature that talks about the specific mechanisms. I suspect the latter approach is better or easier to follow than the former. What do you think?]
+
 ### Child Mortality Decline (Replacement and Insurance Effects)
 - **slug:** `child-mortality-decline-replacement`
 - **claim:** Falling infant and child mortality reduces desired and realized fertility through reduced replacement births and reduced hoarding/insurance births, lowering TFR roughly in proportion to the gap between gross and net reproduction rates.

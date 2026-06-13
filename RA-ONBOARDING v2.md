@@ -125,7 +125,7 @@ Before our first sync:
   ```
   git clone https://github.com/anup-malani/fertility-review-causes.git
   ```
-- [ ] Create a Zotero account and send me the email. I'll add you to the group library.
+- [ ] (No reference-manager account needed to start.) The bibliography is repo-native — source of truth is `datastore/studies.json`, and `.bib` files are generated with `make bib`. If we later add a shared Zotero group for PDF sharing, I'll ask for your account email then.
 - [ ] Confirm you have UChicago library proxy access (sign into the library website remotely; if it works, you're set).
 - [ ] Create an OSF account (osf.io) with your UChicago email.
 - [ ] Install **both** the Claude Code CLI and the Claude desktop app on your laptop. I'll send my own user guides separately. Read those before our first sync rather than waiting for me to walk you through it.

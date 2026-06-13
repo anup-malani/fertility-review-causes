@@ -62,7 +62,7 @@ Escalation channel: Slack to Anup with `[FERT-REVIEW]` prefix; mirror in `escala
 You need accounts/access to:
 
 - GitHub access to `anup-malani/fertility-review-causes` (Anup will add you), then `git clone https://github.com/anup-malani/fertility-review-causes.git`
-- Zotero account, joined to group library `fertility-explanations-review`
+- Repo-native bibliography: the source of truth is `datastore/studies.json` (DOI-keyed); `.bib` files are generated with `make bib`. No reference-manager account is required to start. (A shared Zotero group may be added later purely for PDF sharing — Anup will set it up if and when we need it.)
 - UChicago library proxy (your UChicago login)
 - Claude Code CLI installed locally (Anup will help)
 - OSF account for pre-registration entries

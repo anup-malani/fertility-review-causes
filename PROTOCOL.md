@@ -143,7 +143,8 @@ Every chapter has the same structure:
 
 ## 7. Tooling
 
-- **Citation management:** Zotero group library (`fertility-explanations-review`), synced with the repo's `literature/bib/` directory via Better BibTeX.
+- **Citation management (source of truth):** A repo-native, DOI-keyed registry of screened/included studies at `datastore/studies.json`. The screening and dedup stages write to it; per-hypothesis `.bib` files in `literature/bib/` are **generated** from it via `make bib` (never hand-edited). Because the registry lives in git, the bibliography is versioned, diffable in PRs, and the citation-check happens in code review. Agents (Claude or Codex) read and write the registry directly.
+- **Citation management (optional convenience layer):** A Zotero group library may be added later *only* as a shared PDF store with one-click browser capture for the source-procurer role. If used, it exports **into** `literature/bib/`; it is never the system of record.
 - **Search APIs:** OpenAlex (free, broad coverage), Semantic Scholar (free, AI-augmented), Crossref. PubMed for biological hypotheses.
 - **Meta-analysis:** R with `metafor`. Python `statsmodels` as fallback. AI generates the analysis script; RA verifies sample by re-running.
 - **Macro datasets:** Human Fertility Database, UN WPP, Gapminder, Maddison, World Bank WDI. Cached locally in `data/raw/`.
