@@ -121,7 +121,10 @@ You don't run this one. I do, because the design questions are still open. Once 
 
 Before our first sync:
 
-- [ ] Send me the GitHub username you want added to `anup-malani/fertility-explanations-review` (private repo).
+- [ ] Send me the GitHub username you want added to `anup-malani/fertility-review-causes` (private repo). Once I've added you and you've accepted the email invite, clone it:
+  ```
+  git clone https://github.com/anup-malani/fertility-review-causes.git
+  ```
 - [ ] Create a Zotero account and send me the email. I'll add you to the group library.
 - [ ] Confirm you have UChicago library proxy access (sign into the library website remotely; if it works, you're set).
 - [ ] Create an OSF account (osf.io) with your UChicago email.
