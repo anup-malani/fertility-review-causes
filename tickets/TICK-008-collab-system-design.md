@@ -1,9 +1,9 @@
 # TICK-008: Design team collaboration / ticketing system
-**Status:** done
-**Assigned:** Shravan
-**Parallel-safe:** yes
-**Blocks:** —
-**Blocked by:** —
+**Status:** done  
+**Assigned:** Shravan  
+**Parallel-safe:** yes  
+**Blocks:** —  
+**Blocked by:** —  
 **Touches:** `tickets/`, `decisions/2026-06-14-collab-system-design.md`
 
 ## Description
