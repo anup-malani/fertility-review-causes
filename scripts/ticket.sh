@@ -10,7 +10,7 @@
 # decisions/2026-06-14-collab-system-design.md.
 #
 # Usage:
-#   scripts/ticket.sh claim  NNN   # sync main, create+push tick-NNN-slug, mark ticket in-progress
+#   scripts/ticket.sh claim  NNN   # sync main, create+push NNN-slug branch, mark ticket in-progress
 #   scripts/ticket.sh submit NNN   # push the branch and open a PR into main (uses gh if present)
 #   scripts/ticket.sh close  NNN   # mark ticket done, then merge + delete the branch
 #
@@ -39,7 +39,9 @@ matches=(tickets/TICK-"$num"-*.md)
 shopt -u nullglob
 [ "${#matches[@]}" -eq 1 ] || die "expected exactly one tickets/TICK-$num-*.md, found ${#matches[@]}"
 ticket="${matches[0]}"
-branch=$(basename "$ticket" .md | tr '[:upper:]' '[:lower:]')   # e.g. tick-008-collab-system-design
+# Branch name = the ticket number + slug, lowercased, with the TICK- prefix dropped.
+# e.g. TICK-008-collab-system-design -> 008-collab-system-design
+branch=$(basename "$ticket" .md | sed -E 's/^TICK-//' | tr '[:upper:]' '[:lower:]')
 
 # Replace the first "**Status:** ..." line in the ticket (portable across GNU/BSD sed).
 set_status() {

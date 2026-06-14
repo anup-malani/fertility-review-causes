@@ -33,12 +33,12 @@ fallback for any tool that cannot run the helper.
 The helper runs the active Mode B loop for you. Three commands per ticket:
 
 ```
-scripts/ticket.sh claim  NNN   # sync main, create + push tick-NNN-slug, mark the ticket in-progress
+scripts/ticket.sh claim  NNN   # sync main, create + push NNN-slug, mark the ticket in-progress
 scripts/ticket.sh submit NNN   # push your branch and open the PR into main (uses gh if available)
 scripts/ticket.sh close  NNN   # mark the ticket done, then merge + delete the branch
 ```
 
-`claim` derives the slug from the ticket filename, refuses if a `tick-NNN-*` branch already exists on
+`claim` derives the slug from the ticket filename, refuses if a `NNN-*` branch already exists on
 `origin` (someone else has it), and flips the ticket's `Status:` line for you. You still: move the
 ticket's row on the `QUEUE.md` board, do the work, and — before `close` — write the `## Log`
 (**Result** + **Workflow impact**, see "Closing a ticket"). Everything git-shaped is automated; only
@@ -51,11 +51,11 @@ Each ticket gets its own branch; the **pushed branch is the claim** — visible 
 
 1. **Sync `main`.** `git checkout main && git pull`.
 2. **Pick + check.** Take the first **Open** ticket for you or `any`. Run `git branch -r`: if
-   `tick-NNN-*` already exists on `origin`, it is taken. Also check `Touches:` overlap with other
+   `NNN-*` already exists on `origin`, it is taken. Also check `Touches:` overlap with other
    live branches.
-3. **Claim it.** `git checkout -b tick-NNN-slug`, set the ticket `Status: in-progress` + your name,
+3. **Claim it.** `git checkout -b NNN-slug`, set the ticket `Status: in-progress` + your name,
    add its **In progress** row in `QUEUE.md`, then push the branch immediately:
-   `git push -u origin tick-NNN-slug`. First to push the branch wins; a name clash is rejected.
+   `git push -u origin NNN-slug`. First to push the branch wins; a name clash is rejected.
    *(`scripts/ticket.sh claim NNN` does steps 1–3.)*
 4. **Do the work on the branch.** Commit as you go — your pushed branch shows everyone it is live.
 5. **Open a PR into `main`.** Any same-file conflict with another ticket is resolved at PR review on
@@ -110,7 +110,7 @@ two notes:
 ### Stale claims (24h rule) — both modes
 
 A claim is **stale** if it has shown no new commits for more than 24h. Anyone may reclaim it: pull,
-release it back to **Open** (Mode A) or take over / delete the `tick-NNN-*` branch (Mode B), and
+release it back to **Open** (Mode A) or take over / delete the `NNN-*` branch (Mode B), and
 note the reclaim in the ticket's `## Log`. This keeps an abandoned session from blocking a ticket
 forever.
 

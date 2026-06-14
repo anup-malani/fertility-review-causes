@@ -86,7 +86,7 @@ and tickets/README.md. Left `in-progress` pending confirmation at the next sync 
 
 **Result.** Switched the team's active coordination mode from A (push-to-main) to **B
 (branch-per-ticket with PR merge)** and added a thin helper so the heavier loop costs almost no
-manual git. Each ticket is now worked on its own `tick-NNN-slug` branch — the pushed branch *is* the
+manual git. Each ticket is now worked on its own `NNN-slug` branch — the pushed branch *is* the
 claim — and merged via PR, so `main` stays clean and every change gets a review gate before parallel
 tracks begin.
 
@@ -107,5 +107,5 @@ tracks begin.
 
 Branches are created per ticket *at claim time* (the branch is the claim), so unstarted tickets were
 intentionally **not** pre-branched — doing so would falsely mark them as taken. The active branch for
-this ticket is `tick-008-collab-system-design`. Left `in-progress` pending confirmation at the next
+this ticket is `008-collab-system-design`. Left `in-progress` pending confirmation at the next
 sync.

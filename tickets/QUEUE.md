@@ -4,7 +4,7 @@ Last updated: 2026-06-14
 
 Pick the first open ticket assigned to you or `any`. Before starting, pull/sync, then **claim** it
 before doing the work. The active mode is **Mode B (branch-per-ticket)** — the simplest path is
-`scripts/ticket.sh claim NNN`, which creates and pushes the `tick-NNN-slug` branch and flips the
+`scripts/ticket.sh claim NNN`, which creates and pushes the `NNN-slug` branch and flips the
 ticket status; then move its row to **In progress** below. (See `README.md` for the full loop and
 the Mode A fallback.) Do not start a blocked ticket until its dependency is done. Parallel-safe
 tickets can be worked concurrently.
@@ -25,7 +25,7 @@ tickets can be worked concurrently.
 
 | Ticket | Title | Owner | Branch (the claim) | Claimed (UTC) | Touches |
 |--------|-------|-------|--------------------|---------------|---------|
-| [TICK-008](TICK-008-collab-system-design.md) | Design collab/ticketing system (Mode B implementation) | Shravan | `tick-008-collab-system-design` | 2026-06-14 20:43 | `tickets/`, `decisions/2026-06-14-collab-system-design.md`, `AGENTS.md`, `RA-PLAYBOOK.md`, `scripts/ticket.sh` |
+| [TICK-008](TICK-008-collab-system-design.md) | Design collab/ticketing system (Mode B implementation) | Shravan | `008-collab-system-design` | 2026-06-14 20:43 | `tickets/`, `decisions/2026-06-14-collab-system-design.md`, `AGENTS.md`, `RA-PLAYBOOK.md`, `scripts/ticket.sh` |
 
 ## Blocked — waiting on dependency
 

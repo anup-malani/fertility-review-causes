@@ -141,10 +141,10 @@ The claim is a **pushed branch** named for the ticket, not a shared-file edit. A
 *is* the claim — visible, timestamped, and self-documenting. Session loop:
 
 1. **Sync `main`.** `git checkout main && git pull`.
-2. **Check for conflicts.** `git branch -r` plus the **In progress** board: if `tick-NNN-*` already
+2. **Check for conflicts.** `git branch -r` plus the **In progress** board: if `NNN-*` already
    exists on `origin`, the ticket is taken. Also check `Touches:` overlap with other live branches.
-3. **Claim.** `git checkout -b tick-NNN-slug`, set the ticket `Status: in-progress` + your name and
-   add its **In progress** row, then **push the branch immediately**: `git push -u origin tick-NNN-slug`.
+3. **Claim.** `git checkout -b NNN-slug`, set the ticket `Status: in-progress` + your name and
+   add its **In progress** row, then **push the branch immediately**: `git push -u origin NNN-slug`.
    The pushed branch is the claim; first to push wins, and a name clash is rejected by the remote.
 4. **Do the work on the branch**, committing as you go. In-progress work is visible to everyone via
    `git branch -r` the *moment you push* — not only when you finish.
@@ -154,7 +154,7 @@ The claim is a **pushed branch** named for the ticket, not a shared-file edit. A
 6. **Close.** Merge the PR, set `Status: done`, `## Log` note, move the row to **Done**, delete the
    branch.
 
-(The 24h stale rule applies to branches identically: a `tick-NNN-*` branch with no commits in 24h
+(The 24h stale rule applies to branches identically: a `NNN-*` branch with no commits in 24h
 is reclaimable — take it over or delete it, note in the `## Log`.)
 
 **Best when:** multiple contributors work concurrently, *especially* if they may touch the same
@@ -198,7 +198,7 @@ real parallel load makes shared-`main` collisions frequent.
   PR-based git may stumble.
   *Proposed mitigation: reserve Solution B for when parallel load justifies it; document the
   six-step branch loop in `README.md` so the steps are mechanical, not improvised.*
-- **Stale branches accumulate.** Abandoned `tick-NNN-*` branches clutter the remote.
+- **Stale branches accumulate.** Abandoned `NNN-*` branches clutter the remote.
   *Proposed mitigation: apply the 24h stale rule to branches; delete branches on merge as step 6.*
 
 **Both**

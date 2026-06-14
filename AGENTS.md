@@ -65,7 +65,7 @@ literature/search-logs/← per-hypothesis search logs (PRISMA)
 All work is tracked in `tickets/`. Before starting any task: **pull/sync, then claim** the next
 open ticket *before* doing the work, following the active mode's loop in `tickets/README.md`
 (currently **Mode B, branch-per-ticket**: the fastest path is `scripts/ticket.sh claim NNN`, which
-creates and pushes the `tick-NNN-slug` branch — the branch *is* the claim — and flips the ticket to
+creates and pushes the `NNN-slug` branch — the branch *is* the claim — and flips the ticket to
 `in-progress`; then move its row to the **In progress** board in `QUEUE.md`). When done, close it per
 the **"Closing a ticket"** rule in `tickets/README.md`: the `## Log` must carry a **Result** and,
 when applicable, a **Workflow impact / future behavior** note. Never work outside a ticket without
@@ -90,7 +90,7 @@ ambiguous protocol, cross-category hypothesis placement, pre-registration deviat
 ### Commits
 Meaningful messages. No manual steps between raw input and output — everything reproducible
 from source. Use the active coordination mode in `tickets/README.md` (currently **Mode B**: work on a
-`tick-NNN-slug` branch and merge into `main` via PR — `scripts/ticket.sh` runs the loop; Mode A,
+`NNN-slug` branch and merge into `main` via PR — `scripts/ticket.sh` runs the loop; Mode A,
 push-to-main, remains the documented fallback). See `decisions/2026-06-14-collab-system-design.md`.
 
 ### LLM-agnosticism
