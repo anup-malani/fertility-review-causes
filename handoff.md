@@ -23,15 +23,15 @@ AGENTS.md (give this to whatever LLM you're using at session start).
 
 ### Question 1: Task dependencies (the ticket system)
 
-Some tasks can be done at the same time (parallel); others must wait for something else to finish first (serial). A picture:
+Some tasks can be done at the same time (parallel); others must wait for something else to finish first (serial). | Task | Can start when… |
+|------|----------------|
+| 1A | immediately |
+| 1B | immediately — run alongside 1A, they don't touch each other |
+| 2A | 1A is done |
+| 2B | 1B is done |
+| **C** | **both 2A AND 2B are done — not just one of them** |
 
-```
-[Task 1A] ─────────────► [Task 2A] ──┐
-                                       ├──► [Task C]
-[Task 1B] ─────────────► [Task 2B] ──┘
-```
-
-1A and 1B can be worked simultaneously. 2A cannot start until 1A is done. 2B cannot start until 1B is done. Task C cannot start until *both* 2A and 2B are finished — not just one of them.
+1A and 1B can be worked simultaneously. 2A cannot start until 1A is done. 2B cannot start until 1B is done. Task C cannot start until *both* 2A and 2B are finished — the last row is the key case.
 
 The `tickets/` system encodes this with the `Blocked by` field. Our QUEUE.md separates open (start now) from blocked (wait). This is a solved problem for this project.
 
