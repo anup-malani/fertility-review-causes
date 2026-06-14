@@ -34,13 +34,14 @@ title, abstract, year, venue, relevance score
    ```
 5. Append to `prisma/{slug}-search-log.md` for PRISMA flow tracking
 
-**Pilot hypothesis:** `quantity-quality-tradeoff` (chosen in PROTOCOL.md §7). Run this
-workflow on that hypothesis first as calibration before scaling.
+**Pilot hypothesis:** `old-age-security-pensions`. Run this workflow on that hypothesis
+first as calibration before scaling. (Q-Q tradeoff was the original choice but is
+high-complexity; old-age security is mid-complexity and better suited for teaching the pipeline.)
 
 ## Acceptance criteria
 - [ ] Workflow script implemented and not a stub
-- [ ] Tested end-to-end on `quantity-quality-tradeoff`
-- [ ] Output file written to `literature/search-logs/quantity-quality-tradeoff.json`
+- [ ] Tested end-to-end on `old-age-security-pensions`
+- [ ] Output file written to `literature/search-logs/old-age-security-pensions.json`
 - [ ] PRISMA log entry written
 - [ ] Results look reasonable (not empty, not hallucinated)
 - [ ] Committed
