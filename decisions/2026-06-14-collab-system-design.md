@@ -1,9 +1,13 @@
 # Decision: Team collaboration / coordination system
 
 **Date:** 2026-06-14
-**Author:** Shravan Haribalaraman (RA) + Claude Code session
+
+**Author:** Shravan Haribalaraman (RA)
+
 **Decided by:** Shravan (TICK-008); pending PI confirmation at next sync
+
 **Status:** Active — applies to all contributors (Anup, Alexandra, Shravan) and any AI assistant
+
 **Review trigger (milestone, not a fixed date):** Revisit once the system has actually faced
 concurrent work — concretely, at the **close of the RA pilot (Phase 1)**, when all three
 contributors have worked one hypothesis together (or earlier if collisions surface during it).
