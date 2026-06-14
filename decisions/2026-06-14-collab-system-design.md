@@ -4,7 +4,12 @@
 **Author:** Shravan Haribalaraman (RA) + Claude Code session
 **Decided by:** Shravan (TICK-008); pending PI confirmation at next sync
 **Status:** Active — applies to all contributors (Anup, Alexandra, Shravan) and any AI assistant
-**Review date:** 2026-09-14 (revisit once the pipeline is running in parallel tracks and we have seen real concurrent work)
+**Review trigger (milestone, not a fixed date):** Revisit once the system has actually faced
+concurrent work — concretely, at the **close of the RA pilot (Phase 1)**, when all three
+contributors have worked one hypothesis together (or earlier if collisions surface during it).
+Re-confirm again **once Phase 2 parallel tracks are underway**, since separate hypotheses on a
+shared `main` exercise a different collision mode than everyone editing one hypothesis. The point
+is to review on evidence of real concurrent load, not on the calendar.
 
 ## Context
 
@@ -153,8 +158,8 @@ Supporting rules:
   small; treat a conflict on `QUEUE.md` as the intended detector, not a failure, and resolve it in
   git.*
 - **Convention decay.** Pure-convention systems rot if unenforced.
-  *Proposed mitigation: keep the loop short and in `README.md`, and re-evaluate at the 2026-09-14
-  review — if collisions prove common, adopt branch-per-ticket (Option 2) or a thin helper script
+  *Proposed mitigation: keep the loop short and in `README.md`, and re-evaluate at the milestone
+  review (see header) — if collisions prove common, adopt branch-per-ticket (Option 2) or a thin helper script
   to enforce the protocol mechanically.*
 
 ## What this does NOT solve
@@ -174,8 +179,8 @@ implemented now* — the team should adopt it only if the limit actually bites i
     `main`, so overlapping edits are resolved at review time on a branch instead of colliding
     directly on `main`.*
 
-These are documented limits, not oversights. The 2026-09-14 review should check whether the
-residual races actually bite in practice before adding heavier machinery.
+These are documented limits, not oversights. The milestone review (see header) should check whether
+the residual races actually bite in practice before adding heavier machinery.
 
 ## Future / next steps
 
@@ -183,7 +188,8 @@ This design is intentionally the minimum that works under today's constraints (p
 convention). The likely evolution, in rough order:
 
 1. **Run it through the RA pilot (Phase 1) and Phase 2** and watch for real collisions. The
-   2026-09-14 review is the decision point.
+   milestone review (see header) is the decision point — triggered by real concurrent work, not a
+   fixed date.
 2. **If push-to-main collisions become common, switch to a branch workflow — and adopt Option 2
    (branch-per-ticket) as the upgrade.** It is the strongest of the options considered: a pushed
    branch is an isolated, timestamped, self-documenting claim that makes in-progress work visible
