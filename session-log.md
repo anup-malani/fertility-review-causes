@@ -257,3 +257,7 @@ into tickets and a decisions file. Session ends with Anup about to edit HYPOTHES
 - [ ] **TICK-008 (Shravan):** design real-time coordination layer on top of ticket system
 - [ ] **TICK-011:** recategorize HYPOTHESES.md by root cause vs proximate mechanism (Claude drafts)
 - [ ] **TICK-005:** PI + RA readability pass on PROTOCOL.md and RA-PLAYBOOK.md
+
+**Addendum:** TICK-011 (recategorize HYPOTHESES.md) merged into TICK-001 — they were the
+same job (decide structure + re-slot). TICK-001 now has two explicit sub-steps: A = Anup's
+decision pass (in progress), B = Claude re-slots once A is committed. TICK-011 closed.
