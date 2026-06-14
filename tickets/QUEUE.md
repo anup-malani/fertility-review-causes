@@ -2,10 +2,10 @@
 
 Last updated: 2026-06-14
 
-Pick the first open ticket assigned to you or `any`. Before starting, `git pull`, then **claim**
-it: move its row to **In progress** below and push that change before doing the work (see
-`README.md`). Do not start a blocked ticket until its dependency is done. Parallel-safe tickets can
-be worked concurrently.
+Pick the first open ticket assigned to you or `any`. Before starting, pull/sync, then **claim** it
+(move its row to **In progress** below) before doing the work — using whichever mode is active in
+`README.md` (Mode A pushes the claim to `main`; Mode B pushes a `tick-NNN-*` branch). Do not start
+a blocked ticket until its dependency is done. Parallel-safe tickets can be worked concurrently.
 
 ---
 
