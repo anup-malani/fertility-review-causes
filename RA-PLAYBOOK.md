@@ -7,7 +7,15 @@ This is your operating manual. Read it once front-to-back; refer back when in do
 You have five jobs. They are listed by frequency:
 
 ### A. Pipeline operator (daily-to-weekly)
-You run the workflows. For each hypothesis we work on, you execute the pipeline stages from `PROTOCOL.md` §5 in order. The workflows are saved under `.claude/workflows/` — invoke them via Claude Code. You don't need to understand the statistics; you need to make sure each stage runs to completion, the output looks reasonable, and the next stage can begin.
+You run the workflows. **Step zero, every session:** pull/sync and *claim* your ticket before doing
+any work, following the active coordination mode in `tickets/README.md` (currently Mode B,
+branch-per-ticket — the one-command path is `scripts/ticket.sh claim NNN`, which makes the claim for
+you). Then, for each hypothesis we work on, you execute the pipeline stages from `PROTOCOL.md` §5 in
+order. The workflows are saved under `.claude/workflows/` — invoke them via Claude Code. You don't
+need to understand the statistics; you need to make sure each stage runs to completion, the output
+looks reasonable, and the next stage can begin. When you close a ticket, follow the "Closing a
+ticket" rule in `tickets/README.md`: write a **Result** and, when the ticket changes how we work, a
+**Workflow impact / future behavior** note.
 
 ### B. Sanity validator (every chapter draft)
 After the AI produces a chapter, you read it as a smart undergraduate would. Flag anything that:
@@ -75,7 +83,7 @@ Optional (try as part of meta-experiments):
 
 ## Weekly cadence
 
-- **Monday:** 30-min sync with Anup. Status of in-progress hypotheses, escalations from the past week, plan for the week.
+- **Monday:** 30-min sync with Anup. Status of in-progress hypotheses, escalations from the past week, plan for the week. **Standing coordination check:** any claim collisions, `QUEUE.md` conflicts, or stale (>24h) claims this week? Does the concurrency we actually saw justify switching coordination modes (see `decisions/2026-06-14-collab-system-design.md` §3.4)?
 - **Wed/Thu:** mid-week check-in (async, email/iMessage). Anything blocked?
 - **Friday:** end-of-week summary — what shipped, what's escalated, what's blocked. Sent by email and appended to `session-log.md`.
 

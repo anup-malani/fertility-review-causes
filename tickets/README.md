@@ -12,10 +12,58 @@ itself as the signal. There are **two co-equal ways to do this**, and the team r
 time**. Both share the same `QUEUE.md` board, `Touches:` field, and 24h stale rule; they differ
 only in how you claim.
 
-**Current mode: A (push-to-main).** Switching to Mode B is a team decision (see
-`decisions/2026-06-14-collab-system-design.md`). Do not mix modes — everyone uses the same one.
+**Current mode: B (branch-per-ticket).** This line is the single source of truth for the active mode
+— nothing else restates it. Switching modes is a team decision: edit this line, add a dated entry to
+**Mode history** below, and append a one-liner to `decisions/2026-06-14-collab-system-design.md`.
+Do not mix modes — everyone uses the same one.
 
-### Mode A — push-to-main (claim-commit)
+**The easy way: use the helper.** `scripts/ticket.sh` runs the whole Mode B loop in three commands —
+`claim`, `submit`, `close` (see **Using the helper** below). It is the recommended path and keeps the
+branch workflow to almost no manual git. The step-by-step loop is written out underneath only as the
+fallback for any tool that cannot run the helper.
+
+**Mode history**
+- 2026-06-14 — Mode A (push-to-main) adopted at setup.
+- 2026-06-14 — Switched to **Mode B** (branch-per-ticket): a pushed branch surfaces in-progress work
+  immediately, keeps `main` clean, and adds a PR review gate before parallel tracks begin. Helper
+  `scripts/ticket.sh` added so the heavier loop stays low-effort.
+
+### Using the helper (recommended) — `scripts/ticket.sh`
+
+The helper runs the active Mode B loop for you. Three commands per ticket:
+
+```
+scripts/ticket.sh claim  NNN   # sync main, create + push tick-NNN-slug, mark the ticket in-progress
+scripts/ticket.sh submit NNN   # push your branch and open the PR into main (uses gh if available)
+scripts/ticket.sh close  NNN   # mark the ticket done, then merge + delete the branch
+```
+
+`claim` derives the slug from the ticket filename, refuses if a `tick-NNN-*` branch already exists on
+`origin` (someone else has it), and flips the ticket's `Status:` line for you. You still: move the
+ticket's row on the `QUEUE.md` board, do the work, and — before `close` — write the `## Log`
+(**Result** + **Workflow impact**, see "Closing a ticket"). Everything git-shaped is automated; only
+the judgment parts are left to you. If you cannot run the helper, follow the manual loop below.
+
+### Mode B — branch-per-ticket (PR merge) — ACTIVE
+
+Each ticket gets its own branch; the **pushed branch is the claim** — visible to everyone via
+`git branch -r` the moment you push, and merged via a PR that gives a review checkpoint.
+
+1. **Sync `main`.** `git checkout main && git pull`.
+2. **Pick + check.** Take the first **Open** ticket for you or `any`. Run `git branch -r`: if
+   `tick-NNN-*` already exists on `origin`, it is taken. Also check `Touches:` overlap with other
+   live branches.
+3. **Claim it.** `git checkout -b tick-NNN-slug`, set the ticket `Status: in-progress` + your name,
+   add its **In progress** row in `QUEUE.md`, then push the branch immediately:
+   `git push -u origin tick-NNN-slug`. First to push the branch wins; a name clash is rejected.
+   *(`scripts/ticket.sh claim NNN` does steps 1–3.)*
+4. **Do the work on the branch.** Commit as you go — your pushed branch shows everyone it is live.
+5. **Open a PR into `main`.** Any same-file conflict with another ticket is resolved at PR review on
+   the branch, never directly on `main`. *(`scripts/ticket.sh submit NNN`.)*
+6. **Close it.** Merge the PR, set `Status: done`, write the `## Log` note, move the row to **Done**
+   in `QUEUE.md`, then delete the branch. *(`scripts/ticket.sh close NNN` does the merge + delete.)*
+
+### Mode A — push-to-main (claim-commit) — fallback, not currently active
 
 Everyone pushes to `main`; the claim is a tiny status change pushed *before* you start, so a
 rejected push tells you someone got there first.
@@ -34,26 +82,30 @@ rejected push tells you someone got there first.
 6. **Close it.** Set `Status: done`, write a one-paragraph `## Log` note, move the row to **Done**
    in `QUEUE.md`, then commit and push.
 
-### Mode B — branch-per-ticket (PR merge)
-
-Each ticket gets its own branch; the **pushed branch is the claim** — visible to everyone via
-`git branch -r` the moment you push, and merged via a PR that gives a review checkpoint.
-
-1. **Sync `main`.** `git checkout main && git pull`.
-2. **Pick + check.** Take the first **Open** ticket for you or `any`. Run `git branch -r`: if
-   `tick-NNN-*` already exists on `origin`, it is taken. Also check `Touches:` overlap with other
-   live branches.
-3. **Claim it.** `git checkout -b tick-NNN-slug`, set the ticket `Status: in-progress` + your name,
-   add its **In progress** row in `QUEUE.md`, then push the branch immediately:
-   `git push -u origin tick-NNN-slug`. First to push the branch wins; a name clash is rejected.
-4. **Do the work on the branch.** Commit as you go — your pushed branch shows everyone it is live.
-5. **Open a PR into `main`.** Any same-file conflict with another ticket is resolved at PR review on
-   the branch, never directly on `main`.
-6. **Close it.** Merge the PR, set `Status: done`, write the `## Log` note, move the row to **Done**
-   in `QUEUE.md`, then delete the branch.
-
 That is the whole system. Do not start work that does not have a ticket. If something needs doing
 and there is no ticket for it, create one first.
+
+### Closing a ticket — the result must change behavior (both modes)
+
+A ticket is **not** done when the solution is written; it is done when the result is stated *and*,
+where applicable, it has actually changed how we work. Every closed ticket's `## Log` must contain
+two notes:
+
+1. **Result** (always) — one or two sentences: what you decided or produced.
+
+2. **Workflow impact / future behavior** (when applicable) — present whenever the ticket changes how
+   anyone works going forward. It must answer three things:
+   - **Changes future behavior?** yes / no.
+   - **Implemented in** — the repo file(s) that *enact* the change (e.g. `AGENTS.md`,
+     `RA-PLAYBOOK.md`, `tickets/README.md`, a workflow script). A decision that no operating file
+     points to is **not done** — it is inert until a file contributors actually read tells them to
+     behave differently.
+   - **Do differently** — what future humans or AI assistants should now do (or stop doing).
+
+   Omit this note only if the ticket genuinely changes nothing about future workflow (e.g. a one-off
+   data fix). If you omit it, say so in one line so the omission is deliberate, not forgotten.
+
+(Rationale and full statement: `decisions/2026-06-14-collab-system-design.md` §3.5.)
 
 ### Stale claims (24h rule) — both modes
 
@@ -82,7 +134,15 @@ What needs to be done and why, in plain English.
 - [ ] Specific, checkable outcome
 
 ## Log
-<!-- When you close this ticket, write: date, who, what you did. -->
+<!-- On close, write date + who, then fill in the two notes below (see "Closing a ticket" above). -->
+
+**Result.** <One or two sentences: what you decided or produced.>
+
+**Workflow impact / future behavior.** <When the ticket changes how we work:>
+- Changes future behavior? <yes / no>
+- Implemented in: <repo file(s) that enact the change, e.g. `AGENTS.md`, `tickets/README.md`>
+- Do differently: <what future humans or AI assistants should now do.>
+<!-- Omit the impact note only if nothing about future workflow changes; if so, say so in one line. -->
 ```
 
 ---
