@@ -114,3 +114,29 @@ Spans 2026-06-08 through 2026-06-10. Three threads: (1) authored and sent the RA
 - [ ] **Revisit `.gitignore`**: `.claude/` is currently gitignored, which means implemented workflow scripts (including `enumerate-hypotheses.mjs`) are not tracked. Reproducibility argues for tracking at least `.claude/workflows/`
 - [ ] Implement `literature-search.mjs` (workflow #2): query strings for OpenAlex/Semantic Scholar/Crossref/PubMed, execute, dedupe, write `literature/search-logs/{slug}.json`
 - [ ] First RA sync Saturday 2026-06-13 at 10am CT
+
+## [2026-06-13 08:40] — RA setup before kickoff: repo rename, collaborators, repo-native bibliography, comms
+
+Pre-meeting session (before the 10am first RA sync) to clear everything Anup owed Alexandra Zhou and Shravan Haribalaraman. Surfaced the real onboarding thread, which lived in the **UChicago** Gmail account (not personal) — both RAs had already replied with usernames, Zotero emails, and questions that had gone unanswered since Jun 8.
+
+### What changed
+
+- **Repo renamed** `anup-malani/fertility-review` → **`anup-malani/fertility-review-causes`** (GitHub + local dir + git remote). Name chosen by PI. All scaffold/history preserved; old URL auto-redirects.
+- **Both RAs added as collaborators** (write): `AlexandraZ27`, `shravanh7472`. Clears Shravan's Jun 10 follow-up ("I don't think I've been added").
+- **Repo-name references fixed** in `RA-ONBOARDING v2.md` and `RA-PLAYBOOK.md` (docs had pointed at the never-existent `fertility-explanations-review`); added explicit `git clone` command. Commit `fe1facd`.
+- **Bibliography re-architected to repo-native** (PI decision after an options assessment): source of truth is now `datastore/studies.json` (DOI-keyed registry); `literature/bib/*.bib` are generated build artifacts via `make bib`. Added `scripts/make_bib.py`, `Makefile`, `datastore/README.md` (record schema). Zotero demoted to an optional future PDF-sharing layer — **no RA reference-manager account needed to start**. PROTOCOL §7, playbook, onboarding all updated. Commit `ae1f280`. Generator tested end-to-end (empty → graceful; sample study → correct BibTeX).
+- **Slack deferred** (PI chose email/iMessage for now). All 7 Slack references across the three docs replaced with email/iMessage + `escalation-log.md`; dedicated channel revisited once pipeline cadence is clear. Commit pushed.
+- **Email sent** from `amalani@uchicago.edu`, threaded into the onboarding conversation (msg `19ec33128f31e142`, CC Shravan): confirms GitHub access + answers Shravan's unanswered Jun 8 Claude-Max question.
+
+### Decisions & Rationale
+
+- **AI-tooling funding:** Project funds **Claude Max via monthly gift** (through research stipend); OpenAI/Codex has *no* gift-subscription equivalent (only ChatGPT Business seats, which PI won't manage). RAs may self-fund Codex (Alexandra already bought Codex Pro). Plan: gift Shravan a Max plan immediately (he has no AI sub); Alexandra keeps her Codex and pings when she hits limits — **don't start her monthly Max clock until she actually needs it** (avoid idle burn). Gifted Max bridges until UChicago's Claude contract (~1 month out) provides plans. Email asks both to affirmatively confirm before PI proceeds tomorrow.
+- **Bibliography = repo-native, not Zotero:** pipeline finds papers via structured scholarly APIs (OpenAlex/S2/Crossref/PubMed) that already return DOIs+metadata, so the "library" is a machine-maintained registry, not a human-clipped reference manager. Git gives versioning, PR-diffable citation-checking, and direct agent read/write. Zotero kept only as optional PDF convenience. Encoded in `datastore/README.md` + PROTOCOL §7.
+- **Email account lesson:** the onboarding thread was in the UChicago account; a personal-only search missed all RA replies. Always check both Gmail accounts for RA/work threads.
+
+### Open Items (this session)
+
+- [ ] Both RAs to **accept GitHub email invites** before they can clone (in their court)
+- [ ] Awaiting RA **affirmative confirmation of the funding plan**; then PI gifts Shravan a Claude Max plan (tomorrow)
+- [ ] Alexandra: buy + gift Claude Max only when she reports hitting Codex limits
+- [ ] Optionally point RAs at `assistants/teaching-assistant/ai-training/` guides (the promised "user guides"); may skip since they're on Codex
