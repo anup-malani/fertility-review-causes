@@ -1,50 +1,73 @@
-# Ticket System
+# How we track work
 
-LLM-agnostic work-tracking for the fertility-review-causes project.
-Works with Claude, Codex, or any AI assistant. Also readable by humans.
+This folder is our ticketing system. It works for any contributor — human or AI, Claude or Codex.
 
-## Workflow
+---
 
-1. **Start a session:** read `QUEUE.md` to find the next open ticket assigned to you or `any`.
-2. **Pick a ticket:** open `TICK-NNN-slug.md`, change `Status` to `in-progress`, add your name.
+## The three-file loop
+
+Every session, do this:
+
+1. **Read `QUEUE.md`** — find the first open ticket assigned to you or `any`.
+2. **Open that ticket** (`TICK-NNN-slug.md`), change `Status` to `in-progress`, add your name.
 3. **Do the work.**
-4. **Close a ticket:** change `Status` to `done`, append a completion note in the `## Log` section, update `QUEUE.md` (move ticket to Done section or strike it).
-5. **Create a ticket:** copy the template below, assign the next unused TICK-NNN, add to `QUEUE.md` in the right position (parallel or sequential).
+4. **Close the ticket** — change `Status` to `done`, write a one-paragraph note in the `## Log` section, strike the ticket in `QUEUE.md`.
 
-## Ticket template
+That is the whole system. Do not start work that does not have a ticket. If something needs doing and there is no ticket for it, create one first.
+
+---
+
+## What a ticket looks like
 
 ```markdown
-# TICK-NNN: Title
-**Status:** open
-**Assigned:** unassigned | Anup | Alexandra | Shravan | any
+# TICK-NNN: Short title
+**Status:** open | in-progress | done | blocked
+**Assigned:** Anup | Alexandra | Shravan | any
 **Parallel-safe:** yes | no
-**Blocks:** (TICK-NNN if applicable)
-**Blocked by:** (TICK-NNN if applicable)
+**Blocks:** TICK-NNN
+**Blocked by:** TICK-NNN
 
 ## Description
-What needs to be done and why.
+What needs to be done and why, in plain English.
 
 ## Acceptance criteria
-- [ ] ...
+- [ ] Specific, checkable outcome
 
 ## Log
-<!-- Append completion note here when done. Include date and who closed it. -->
+<!-- When you close this ticket, write: date, who, what you did. -->
 ```
 
-## Status values
+---
 
-- `open` — not started
-- `in-progress` — actively being worked; note who picked it up
-- `done` — completed; completion note in Log section
-- `blocked` — cannot start; blocked-by ticket not yet done
+## Parallel-safe means you can start it now
 
-## Parallel-safe
+- `yes` — safe to pick up alongside other open tickets
+- `no` — depends on another ticket finishing first; see `Blocked by`
 
-- `yes` — can be worked concurrently with other open tickets
-- `no` — depends on another ticket's output; check `Blocked by`
+Check `QUEUE.md` before picking a ticket to make sure you are not about to duplicate someone else's in-progress work.
 
-## Escalation
+---
 
-If you hit an ambiguity or blocker that isn't covered by PROTOCOL.md or RA-PLAYBOOK.md,
-do not guess. Create a ticket with status `blocked`, note what you're waiting for, and
-email Anup with `[FERT-REVIEW]` in the subject.
+## Creating a ticket
+
+Copy the template above. Assign the next unused number (look at the highest existing TICK-NNN). Add it to `QUEUE.md` in the right place — open tickets at the top, blocked tickets below. Note any dependencies.
+
+---
+
+## Escalating to Anup
+
+Email amalani@uchicago.edu with `[FERT-REVIEW]` in the subject. iMessage for anything urgent.
+Mirror the escalation in `escalation-log.md` in the repo root.
+
+Escalate when: a citation cannot be verified, the protocol is ambiguous, a hypothesis does
+not fit cleanly into one category, or any deviation from the pre-registered plan is needed.
+
+---
+
+## What this system does not yet solve
+
+The current system tracks parallel tasks well. It does not yet handle real-time coordination —
+knowing what another contributor's AI is doing mid-session, or detecting conflicts when two
+people are working on related hypotheses at the same time. That is an open design problem
+assigned to Shravan (TICK-008). If you run into a coordination gap before that is solved,
+email Anup.
