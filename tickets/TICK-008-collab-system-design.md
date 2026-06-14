@@ -1,9 +1,10 @@
 # TICK-008: Design team collaboration / ticketing system
-**Status:** open
+**Status:** done
 **Assigned:** Shravan
 **Parallel-safe:** yes
 **Blocks:** —
 **Blocked by:** —
+**Touches:** `tickets/`, `decisions/2026-06-14-collab-system-design.md`
 
 ## Description
 
@@ -51,4 +52,17 @@ job is to evaluate and improve it, and optionally to propose a coordination laye
 - [ ] Committed
 
 ## Log
-<!-- Append completion note here when done. -->
+
+**2026-06-14 — Shravan (Claude Code).** Evaluated the existing `tickets/` system: adequate for
+problem #1 (dependency tracking via `Blocked by`/`Blocks`, `Parallel-safe`, QUEUE.md open/blocked/
+done split) — no redesign warranted; only weakness is QUEUE↔ticket dependency drift, a discipline
+issue. For problem #2 (coordination), wrote `decisions/2026-06-14-collab-system-design.md`: a
+pure-convention, git-native **claim-commit** protocol — pull → check → claim → push the claim
+*before* doing work, so a rejected push surfaces collisions. Added a `Touches:` field (related-work
+conflict surface) and a 24h stale-claim rule. Rejected a dedicated `ACTIVE.md` (folded the live
+view into QUEUE.md to avoid a third drifting source of truth), an external tool, and a helper
+script. Implemented per PI parameters (no branch workflow, pure convention, conservative changes):
+updated `tickets/README.md` (session loop with claiming, stale rule, template `Touches:` field,
+honest "does/doesn't solve" section) and `tickets/QUEUE.md` (new **In progress** section).
+Documented the branch-per-ticket upgrade (Option 2) as the strongest future option if we adopt a
+branch workflow. Dogfooded the protocol by claiming this ticket under it.
