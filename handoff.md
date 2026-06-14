@@ -8,6 +8,21 @@
 
 ---
 
+## TODAY — 2026-06-14 (pick up here after HYPOTHESES.md edit)
+
+**Step 1 (in progress):** Finish TICK-001 — edit `HYPOTHESES.md`. Goal: before noon.
+After saving and committing, mark TICK-001 done in its ticket file and in QUEUE.md.
+
+**Step 2 (immediately after):** Start a new Claude Code session and say:
+> "TICK-001 is done. Let's implement literature-search.mjs and run the pre-pilot on the time-cost/income-substitution hypothesis."
+
+That kicks off TICK-009 → TICK-012 in sequence. The full pre-pilot pipeline in one session
+if possible; if not, split across two.
+
+**Decision on file:** `decisions/2026-06-14-piloting-sequence.md`
+
+---
+
 ## What this project is
 
 Cochrane-style systematic review of every major proposed explanation for fertility decline.

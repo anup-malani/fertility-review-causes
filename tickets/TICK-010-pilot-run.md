@@ -3,7 +3,7 @@
 **Assigned:** any
 **Parallel-safe:** no (sequential pipeline)
 **Blocks:** —
-**Blocked by:** TICK-009
+**Blocked by:** TICK-012
 
 ## Description
 

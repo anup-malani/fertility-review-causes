@@ -1,6 +1,6 @@
 # Work Queue
 
-Last updated: 2026-06-14 (updated)
+Last updated: 2026-06-14
 
 Pick the first open ticket assigned to you or `any`. Do not start a blocked ticket until its
 dependency is done. Parallel-safe tickets can be worked concurrently.
@@ -24,8 +24,9 @@ dependency is done. Parallel-safe tickets can be worked concurrently.
 |--------|-------|----------|------------|
 | [TICK-006](TICK-006-osf-preregistration.md) | OSF pre-registration | Anup | TICK-001, TICK-005 |
 | [TICK-009](TICK-009-literature-search-mjs.md) | Implement literature-search.mjs | any | TICK-001 |
-| [TICK-010](TICK-010-pilot-run.md) | Run pilot on quantity-quality tradeoff | any | TICK-009 |
 | [TICK-011](TICK-011-hypotheses-recategorization.md) | Recategorize HYPOTHESES.md (root vs proximate) | Claude → Anup | TICK-001 |
+| [TICK-012](TICK-012-prepilot-time-cost.md) | Pre-pilot (Anup + Claude): time-cost/income-substitution | Anup + Claude | TICK-001, TICK-009 |
+| [TICK-010](TICK-010-pilot-run.md) | RA pilot Phase 1: old-age security/pensions | All three | TICK-012 |
 
 ## Done
 
