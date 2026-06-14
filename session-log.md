@@ -198,3 +198,62 @@ work queue.
 **Immediate action (today):** TICK-007 — gift Shravan Claude Max.
 Shravan also asked whether UChicago Enterprise (~1 month) supports Claude Code CLI — answer is
 yes (Enterprise API + OAuth works with Claude Code); confirm to Shravan when gifting.
+
+---
+
+## [2026-06-14 continued] — Ticketing email sent; pilot hypothesis decisions; pre-pilot plan
+
+### Summary
+
+Second block of the June 14 session. Sent the ticketing-system email to RAs, decided the
+piloting sequence, switched the pilot hypothesis from Q-Q to old-age security, added the
+pre-pilot concept (Anup + Claude on time-cost/income-substitution), and formalized everything
+into tickets and a decisions file. Session ends with Anup about to edit HYPOTHESES.md (TICK-001).
+
+### What changed
+
+- **Ticketing email sent** (amalani@uchicago.edu → Alexandra + Shravan, msg 19ec6c59db41f5e6):
+  explains the dependency model with an HTML table, names Shravan's TICK-008, previews
+  piloting email coming separately.
+- **tickets/README.md** rewritten for RA readability: three-file loop, template, escalation,
+  and explicit "what this system does not yet solve" section for Shravan.
+- **TICK-007 closed** — Anup gifted Shravan Claude Max directly (2026-06-14).
+- **TICK-011 created** — Claude drafts root-cause vs proximate-mechanism recategorization of
+  all 65 hypotheses; Anup reviews. Blocked by TICK-001.
+- **Pilot hypothesis switched** from Q-Q tradeoff (high-complexity) to old-age security /
+  pensions (mid-complexity). Updated TICK-009 and TICK-010.
+- **TICK-012 created** — pre-pilot: Anup + Claude run full pipeline privately on time-cost /
+  income-substitution before RAs see it. Blocked by TICK-001 + TICK-009. TICK-010 (RA pilot)
+  now blocked by TICK-012.
+- **`decisions/2026-06-14-piloting-sequence.md`** written — formal record of pre-pilot →
+  RA pilot → Phase 2 sequence with rationale.
+- **`handoff.md`** updated with TODAY section (two-step pickup instruction) and the full
+  piloting decision table.
+- **Piloting email drafted** (not sent) — awaits TICK-001 completion; Anup will start new
+  session to send it and kick off the pre-pilot.
+
+### Decisions & Rationale
+
+- **Q-Q tradeoff dropped as pilot.** Too complex (large literature, many offshoots). Stays
+  on the hypothesis list; evaluated in Phase 2.
+- **Old-age security / pensions as RA pilot hypothesis.** Mid-complexity: clear theory
+  (Caldwell 1976, Neher 1971, Cigno), manageable literature (~30-60 papers), mix of study
+  designs, RAs can follow without economics background. Good pedagogical moment: narrow
+  (state pensions) vs broad (children as insurance) readings exercises phenomena coding.
+- **Time-cost / income-substitution as pre-pilot hypothesis.** Slightly more theoretical;
+  Becker 1965 time-allocation + Mincer 1963 female labor supply. Note: overlaps with
+  women's opportunity cost / FLFP hypothesis already in HYPOTHESES.md — check after TICK-001
+  whether they need to be differentiated or are the same slug.
+- **Pre-pilot rationale.** All 11 workflow stubs currently throw on invocation. Implementing
+  and debugging them with just Anup + Claude means failures are invisible to RAs. Pre-pilot
+  also answers: which pipeline stages require PI judgment vs can be RA-delegated?
+
+### Open items
+
+- [ ] **TICK-001 (in progress):** Anup finishes HYPOTHESES.md edit — goal before noon 2026-06-14
+- [ ] **Next session:** implement `literature-search.mjs` (TICK-009) and run pre-pilot on
+  time-cost/income-substitution (TICK-012)
+- [ ] **Piloting email:** draft ready; send after TICK-001 is committed
+- [ ] **TICK-008 (Shravan):** design real-time coordination layer on top of ticket system
+- [ ] **TICK-011:** recategorize HYPOTHESES.md by root cause vs proximate mechanism (Claude drafts)
+- [ ] **TICK-005:** PI + RA readability pass on PROTOCOL.md and RA-PLAYBOOK.md
