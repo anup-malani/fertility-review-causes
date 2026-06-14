@@ -107,7 +107,7 @@ Don't try to resolve these. Flag them and I take it:
 - You read a chapter and can't follow the argument.
 - Any deviation from the pre-registered protocol.
 
-Channel: Slack to me with `[FERT-REVIEW]` prefix; mirror the flag in `escalation-log.md`.
+Channel: email me with `[FERT-REVIEW]` in the subject (iMessage for anything urgent); mirror the flag in `escalation-log.md`. We'll stand up a dedicated channel once the pipeline is running and we see what cadence we actually need.
 
 ## 6. Where we are right now
 
@@ -134,8 +134,8 @@ Before our first sync:
 ## 8. Cadence
 
 - **Monday:** 30-min sync. Status, escalations, plan for the week.
-- **Wed/Thu:** async check-in on Slack. Blocked on anything?
-- **Friday:** end-of-week summary in Slack, mirrored to `session-log.md`.
+- **Wed/Thu:** async check-in by email/iMessage. Blocked on anything?
+- **Friday:** end-of-week summary by email, mirrored to `session-log.md`.
 
 ## 9. Things to keep in mind
 

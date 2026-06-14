@@ -55,7 +55,7 @@ These conditions trigger an escalation to Anup. Don't try to resolve these yours
 | Lay-readability check: you can't follow the argument | Either the writing is bad or the reasoning is muddled. PI decides. |
 | Pre-registration deviation needed | Any change to the locked search strategy, inclusion criteria, or analysis plan goes to PI before execution. |
 
-Escalation channel: Slack to Anup with `[FERT-REVIEW]` prefix; mirror in `escalation-log.md` in the repo.
+Escalation channel: email Anup with `[FERT-REVIEW]` in the subject (iMessage if urgent); mirror in `escalation-log.md` in the repo.
 
 ## Tooling setup
 
@@ -66,7 +66,7 @@ You need accounts/access to:
 - UChicago library proxy (your UChicago login)
 - Claude Code CLI installed locally (Anup will help)
 - OSF account for pre-registration entries
-- Slack workspace `fertility-review` (Anup will set up)
+- No dedicated chat workspace yet — escalations and check-ins go by email/iMessage for now, always mirrored to `escalation-log.md`. We'll add a dedicated channel once the pipeline cadence is clear.
 
 Optional (try as part of meta-experiments):
 - Elicit, Consensus, Scite (free tiers)
@@ -76,8 +76,8 @@ Optional (try as part of meta-experiments):
 ## Weekly cadence
 
 - **Monday:** 30-min sync with Anup. Status of in-progress hypotheses, escalations from the past week, plan for the week.
-- **Wed/Thu:** mid-week check-in (async, Slack). Anything blocked?
-- **Friday:** end-of-week summary — what shipped, what's escalated, what's blocked. Posted to Slack and appended to `session-log.md`.
+- **Wed/Thu:** mid-week check-in (async, email/iMessage). Anything blocked?
+- **Friday:** end-of-week summary — what shipped, what's escalated, what's blocked. Sent by email and appended to `session-log.md`.
 
 ## A non-exhaustive list of things that go wrong (so you know what to look for)
 
