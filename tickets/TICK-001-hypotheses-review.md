@@ -1,5 +1,5 @@
 # TICK-001: PI review of HYPOTHESES.md
-**Status:** open
+**Status:** in-progress
 **Assigned:** Anup
 **Parallel-safe:** yes
 **Blocks:** TICK-006, TICK-009

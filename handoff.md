@@ -19,6 +19,36 @@ AGENTS.md (give this to whatever LLM you're using at session start).
 
 ---
 
+## How the work is organized — two separate questions
+
+### Question 1: Task dependencies (the ticket system)
+
+Some tasks can be done at the same time (parallel); others must wait for something else to finish first (serial). A picture:
+
+```
+[Task 1A] ─────────────► [Task 2A] ──┐
+                                       ├──► [Task C]
+[Task 1B] ─────────────► [Task 2B] ──┘
+```
+
+1A and 1B can be worked simultaneously. 2A cannot start until 1A is done. 2B cannot start until 1B is done. Task C cannot start until *both* 2A and 2B are finished — not just one of them.
+
+The `tickets/` system encodes this with the `Blocked by` field. Our QUEUE.md separates open (start now) from blocked (wait). This is a solved problem for this project.
+
+The one thing the ticket system does not yet handle: two people picking up the same ticket at the same time. That is Shravan's TICK-008 — a lightweight real-time coordination layer on top.
+
+### Question 2: How we run the research (the piloting approach)
+
+Separate from task ordering is the question of *what* the tasks are and how we assign the 65 hypotheses across three contributors. **Decision (2026-06-14):**
+
+- **Phase 1 (weeks 1–2):** All three work through one hypothesis together — the pilot (quantity-quality tradeoff). Anup sets pace, RAs do sub-tasks. Goal: everyone knows what "done" looks like at each pipeline stage. Output: first chapter.
+- **Phase 2 (weeks 3+):** RAs each take separate hypotheses and run them independently. Parallel tracks. Anup reviews chapters.
+- **Optional Phase 2b (week 3–4):** Both RAs take the *same* hypothesis independently with their own AI tool, compare processes. Captures AI-tool differences. Lives in `meta-experiments/`.
+
+This decision will be sent to RAs in a follow-up email after Phase 1 is underway.
+
+---
+
 ## Work queue
 
 All pending work is tracked in `tickets/QUEUE.md`. Start there. Do not create ad-hoc tasks
