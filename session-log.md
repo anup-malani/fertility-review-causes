@@ -137,6 +137,64 @@ Pre-meeting session (before the 10am first RA sync) to clear everything Anup owe
 ### Open Items (this session)
 
 - [ ] Both RAs to **accept GitHub email invites** before they can clone (in their court)
-- [ ] Awaiting RA **affirmative confirmation of the funding plan**; then PI gifts Shravan a Claude Max plan (tomorrow)
-- [ ] Alexandra: buy + gift Claude Max only when she reports hitting Codex limits
-- [ ] Optionally point RAs at `assistants/teaching-assistant/ai-training/` guides (the promised "user guides"); may skip since they're on Codex
+- [x] Shravan confirmed funding plan (message 17, 2026-06-14 03:04 UTC) → gift Max now (TICK-007)
+- [ ] Alexandra: Max plan waiting when she hits Codex limits; no action until she reports it
+- [ ] Optionally point RAs at `assistants/teaching-assistant/ai-training/` guides; may skip
+
+---
+
+## [2026-06-14] — RA kickoff debrief; ticket system; AGENTS.md
+
+**Agent:** primary
+**Machine:** MacBookPro
+**Working directory:** /Users/amalani/github/fertility/fertility-review-causes
+
+### Summary
+
+Post-kickoff session. Reviewed the full onboarding email thread (17 messages, UChicago account,
+thread 19ea817c430b8b49). Shravan confirmed the funding plan overnight (2026-06-14 03:04 UTC) —
+go ahead with Claude Max gift. Alexandra keeps Codex Pro; kickoff went fine. Key outcome from
+the meeting: Shravan assigned to design the team collaboration/ticketing system, LLM-agnostic,
+using Superpowers as a design aid. Anup confirmed the system must be indifferent to which LLM
+the contributor uses.
+
+This session: scaffolded the ticket system (`tickets/`), wrote `AGENTS.md` (LLM-agnostic
+context file for any AI opening the repo), updated session log and handoff.
+
+### What changed
+
+- `AGENTS.md` created — root-level AI context file; the file RAs give to Claude or Codex at
+  the start of a session to orient the assistant without re-explaining the project
+- `tickets/` directory created with README, QUEUE.md, and 10 individual TICK-*.md files
+  covering all open items through TICK-010 (pilot run)
+- `session-log.md` updated (this entry)
+- `handoff.md` updated
+
+### RA kickoff (2026-06-13 10am CT) outcomes
+
+- Meeting was on Shravan's Zoom link; Anup joined from ongoing 9:30 call
+- Alexandra shared Superpowers (github.com/obra/superpowers) as a potential framework; Anup
+  clarified it solves the planning/methodology problem, not the multi-human coordination problem
+- One assignment given: Shravan to design the team coordination/ticketing system (TICK-008),
+  with Superpowers as an optional design tool, but the final system must be LLM-agnostic
+- Shravan confirmed he'll work Superpowers into the design process (message 15)
+
+### Decisions & Rationale
+
+- **AGENTS.md as the RA-facing AI context file.** Each RA, regardless of which LLM they use,
+  gives `AGENTS.md` to their AI at session start. The file is intentionally LLM-agnostic: no
+  Claude-specific or Codex-specific instructions. CLAUDE.md stays as the PI's Claude-specific
+  configuration; AGENTS.md is the shared, RA-facing layer. Not promoting to decisions/ —
+  the file itself is the durable artifact.
+- **Ticket system is a proposal, not final.** `tickets/` is a first-draft system that TICK-008
+  (Shravan's assignment) should evaluate and improve. The scaffolded system intentionally uses
+  only markdown files and git, no external services.
+
+### Pending (moved to tickets/)
+
+All open items are now tracked as tickets in `tickets/QUEUE.md`. See that file for the ordered
+work queue.
+
+**Immediate action (today):** TICK-007 — gift Shravan Claude Max.
+Shravan also asked whether UChicago Enterprise (~1 month) supports Claude Code CLI — answer is
+yes (Enterprise API + OAuth works with Claude Code); confirm to Shravan when gifting.
