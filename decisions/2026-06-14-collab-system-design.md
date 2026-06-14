@@ -34,14 +34,19 @@ solves **two separate problems** (framing from `handoff.md`):
 - **Git-native** — state lives in version-controlled files, not a third-party service.
 - **Low overhead** — contributors should spend their time on research, not on managing the system.
 
-**PI-set parameters for this design (2026-06-14):**
+**Design parameters (2026-06-14):**
 
-- Pure convention — no helper scripts; markdown + git discipline only.
 - Keep changes to `tickets/` conservative; do not redesign the working system.
 - Stale-claim threshold: 24h.
-- **Current operating mode: push-to-main (Solution A).** The PI chose push-to-main for now. This
-  doc specifies the branch-per-ticket alternative (Solution B) as a **co-equal, ready-to-adopt**
-  solution — not a someday upgrade. The team runs one mode at a time and may switch by decision.
+- **Current operating mode: branch-per-ticket (Solution B), as of 2026-06-14.** The team began on
+  push-to-main (Solution A) and switched to Solution B the same day: a pushed branch makes
+  in-progress work visible immediately, `main` stays clean, and every ticket gets a PR review gate.
+  The two modes are co-equal and share scaffolding; the team runs one at a time and may switch back
+  by decision.
+- **A thin, optional helper is provided** (`scripts/ticket.sh`) so the branch-per-ticket loop costs
+  contributors as little effort as possible — one command to claim, one to open the PR, one to close.
+  It is a convenience wrapper over plain `git`; the manual loop in `tickets/README.md` stays the
+  fallback any assistant can follow, so the system remains git-native and tool-agnostic.
 
 ## Part 1 — Evaluation of problem #1 (the existing `tickets/` system)
 
@@ -78,8 +83,8 @@ We specify **two co-equal solutions**, not a default plus a fallback. Each is fu
 ready to run; each is best suited to a different level of concurrency. The team runs **one mode at
 a time** — mixing them mid-stream breaks coordination — and switching is a team decision, not a
 redesign, because both reuse the same ticket/QUEUE/`Touches` scaffolding. As of 2026-06-14 the
-team operates in **Solution A** per PI choice; **Solution B** is equally specified and ready to
-adopt the moment parallel load warrants it.
+team operates in **Solution B** (branch-per-ticket); **Solution A** remains specified and ready to
+fall back to if the branch + PR overhead is not worth it at low load.
 
 ### Options surveyed
 
@@ -91,9 +96,12 @@ Three options were rejected; the two that survived are developed in full below a
 - **A dedicated live board file (`tickets/ACTIVE.md`).** Rejected — a *second* source of truth
   alongside ticket `Status` and `QUEUE.md`, a third place to update per claim and a third place to
   drift. `QUEUE.md` already serves as the board; the live view belongs there.
-- **A helper script to automate claiming** (`scripts/claim.sh`). Rejected — violates pure
-  convention, and a script is a dependency each assistant must shell out to and parse, versus a
-  protocol any assistant can simply follow.
+- **A helper script to automate the loop** (`scripts/ticket.sh`). Initially deferred to keep the
+  system pure-convention. **Re-adopted under Solution B** as a *thin, optional* wrapper: the
+  branch-per-ticket loop has more steps than push-to-main, so a one-command claim / submit / close
+  sharply lowers contributor effort. It stays git-native (it only wraps `git`, with an optional
+  `gh` step for the PR) and never becomes a hard dependency — the manual loop in `tickets/README.md`
+  is preserved for any assistant that cannot or prefers not to run it.
 
 ### Shared scaffolding (used by both solutions)
 
@@ -133,10 +141,10 @@ The claim is a **pushed branch** named for the ticket, not a shared-file edit. A
 *is* the claim — visible, timestamped, and self-documenting. Session loop:
 
 1. **Sync `main`.** `git checkout main && git pull`.
-2. **Check for conflicts.** `git branch -r` plus the **In progress** board: if `tick-NNN-*` already
+2. **Check for conflicts.** `git branch -r` plus the **In progress** board: if `NNN-*` already
    exists on `origin`, the ticket is taken. Also check `Touches:` overlap with other live branches.
-3. **Claim.** `git checkout -b tick-NNN-slug`, set the ticket `Status: in-progress` + your name and
-   add its **In progress** row, then **push the branch immediately**: `git push -u origin tick-NNN-slug`.
+3. **Claim.** `git checkout -b NNN-slug`, set the ticket `Status: in-progress` + your name and
+   add its **In progress** row, then **push the branch immediately**: `git push -u origin NNN-slug`.
    The pushed branch is the claim; first to push wins, and a name clash is rejected by the remote.
 4. **Do the work on the branch**, committing as you go. In-progress work is visible to everyone via
    `git branch -r` the *moment you push* — not only when you finish.
@@ -146,7 +154,7 @@ The claim is a **pushed branch** named for the ticket, not a shared-file edit. A
 6. **Close.** Merge the PR, set `Status: done`, `## Log` note, move the row to **Done**, delete the
    branch.
 
-(The 24h stale rule applies to branches identically: a `tick-NNN-*` branch with no commits in 24h
+(The 24h stale rule applies to branches identically: a `NNN-*` branch with no commits in 24h
 is reclaimable — take it over or delete it, note in the `## Log`.)
 
 **Best when:** multiple contributors work concurrently, *especially* if they may touch the same
@@ -190,7 +198,7 @@ real parallel load makes shared-`main` collisions frequent.
   PR-based git may stumble.
   *Proposed mitigation: reserve Solution B for when parallel load justifies it; document the
   six-step branch loop in `README.md` so the steps are mechanical, not improvised.*
-- **Stale branches accumulate.** Abandoned `tick-NNN-*` branches clutter the remote.
+- **Stale branches accumulate.** Abandoned `NNN-*` branches clutter the remote.
   *Proposed mitigation: apply the 24h stale rule to branches; delete branches on merge as step 6.*
 
 **Both**
@@ -226,13 +234,119 @@ what makes either gap small.
 
 Both modes are first-class and ready. The team operates one at a time:
 
-1. **Start in Solution A** (current PI choice) while concurrency is low — it is the lighter mode.
-2. **Switch to Solution B** when parallel work makes shared-`main` collisions or same-file conflicts
-   frequent, or when the team wants a PR review gate. The milestone review (see header) — close of
-   the RA pilot, and again once Phase 2 parallel tracks are underway — is the natural point to make
-   this call **on evidence**, not anticipation.
-3. The switch is a team decision recorded here; because both modes share scaffolding, it costs no
-   rework beyond agreeing on the date and everyone adopting the same loop.
+1. **Solution B is active** (branch-per-ticket): in-progress work is visible at branch-push time,
+   `main` stays clean, and every ticket carries a PR review gate. The thin `scripts/ticket.sh` helper
+   keeps its extra steps near-zero-effort.
+2. **Fall back to Solution A** only if the branch + PR overhead is not worth it at the load we
+   actually see. The milestone review (see header) — close of the RA pilot, and again once Phase 2
+   tracks are underway — is the natural point to make that call **on evidence**, not anticipation.
+3. Any switch is a team decision recorded in the **Switch log** below; because both modes share
+   scaffolding, it costs no rework beyond agreeing on the date and everyone adopting the same loop.
 
-The throughline: two co-equal, fully-specified modes; pick the one the observed concurrency
-justifies, and switch deliberately rather than drifting between them.
+The throughline: two co-equal, fully-specified modes; run the one the observed concurrency justifies,
+and switch deliberately rather than drifting between them.
+
+**Switch log**
+
+- **2026-06-14 — A → B.** Adopted Solution A (push-to-main) at setup, then switched to **Solution B**
+  (branch-per-ticket) the same day to make in-progress work visible the moment a branch is pushed,
+  keep `main` clean, and gain a PR review gate ahead of parallel tracks. Added `scripts/ticket.sh`
+  so the heavier loop stays low-effort. Enacted in `tickets/README.md` (active-mode line + loop),
+  `AGENTS.md`, and `RA-PLAYBOOK.md`.
+
+## Part 3 — Implementing this into our workstream
+
+The implementation rests on three commitments: (1) the active mode has exactly **one** place it is
+recorded; (2) the claim loop is **in front of every contributor at session start**, whatever AI they
+drive; and (3) the decision to switch modes is **triggered by real events on our timeline**, with a
+recurring prompt that forces the review to actually happen.
+
+### 3.1 One source of truth for the active mode
+
+The active mode is recorded in exactly one place: the **`Current mode:` line at the top of
+`tickets/README.md`**. AGENTS.md, this decision doc, and `QUEUE.md` all *point to* that line; none of
+them restate the mode. Switching modes is therefore a three-touch operation that cannot drift:
+
+1. Edit the `Current mode:` line in `tickets/README.md`.
+2. Append a dated one-liner to a short **Mode history** list in `tickets/README.md` (who/when/why).
+3. Append a one-line entry under "Choosing and switching" in this decision doc.
+
+This is the same anti-drift discipline Part 1 flagged: never store the same state in two files. The
+mode is state; it lives in one file.
+
+### 3.2 The claim loop reaches every contributor at session start
+
+Coordination only works if every contributor runs the loop *before* touching files — including AIs
+that have no memory of it. We rely on the files each session reads first:
+
+- **AGENTS.md** is the first file every assistant reads (it says so on line 3). Its "Orient yourself"
+  list and "Core conventions" section are amended to make **pull → check → claim → push the claim**
+  a standing session-start instruction, with a pointer to the full loop in `tickets/README.md`. The
+  stale line *"Push to `main`; no branch workflow yet"* is corrected — it now contradicts the
+  documented modes — to reference the active mode instead.
+- **`tickets/README.md`** remains the canonical, full description of both loops (written under
+  TICK-008's first pass). It is the single place the mechanics live in detail.
+- **RA-PLAYBOOK.md** — the RA operating manual — gets a pointer from the Pipeline-operator role
+  (Role A) to the claim loop, so an RA running the pipeline claims their ticket as step zero.
+
+Because all three are plain markdown read at session start, the protocol is LLM-agnostic by
+construction: Claude, Codex, or any future tool inherits it just by reading the orientation files.
+
+### 3.3 Mode and review-triggers tied to the piloting phases
+
+The active mode maps directly onto `decisions/2026-06-14-piloting-sequence.md`. The team has adopted
+**Solution B** for all phases, so the only open question per phase is whether B's overhead keeps
+earning its keep:
+
+| Piloting phase | Concurrency | Mode | What to watch |
+|---|---|---|---|
+| **Pre-pilot** (Anup + Claude, time-cost hyp.) | Effectively single-writer | **B** | Whether branch + PR overhead feels heavy at single-writer load; if so, falling back to A is on the table. |
+| **RA pilot Phase 1** (all three, one hypothesis together) | First real concurrency | **B** | That branches surface in-progress work as intended and PRs catch same-file conflicts. **This is the milestone review in this doc's header.** |
+| **Phase 2** (RAs independent, separate hypotheses) | Sustained parallel | **B** | Stale-branch accumulation; PR-review latency. This is the load B is built for. |
+
+So the "review trigger (milestone, not a fixed date)" in the header is operationalized: it fires at
+the **close of Phase 1** and again **once Phase 2 is underway**, on evidence of real load — to
+confirm B is still the right call, or to fall back to A.
+
+### 3.4 Make the review actually happen (cadence hook)
+
+Pure-convention systems decay if nothing forces a check (see Risks → *Convention decay*). We attach
+the review to a routine that already recurs: the weekly sync (RA-PLAYBOOK.md → Weekly cadence) gains
+a **standing agenda item**:
+
+> *Coordination check: any claim collisions, stale (>24h) branches, or PR-review backlog this week?
+> Is the active mode still the right call for the load we actually saw?*
+
+This converts the milestone review from a thing we hope to remember into a recurring prompt. If
+branch + PR overhead is not paying for itself at low load, that is the documented signal to fall
+back to Mode A; if collisions ever became frequent under A, that is the signal to return to B.
+
+### 3.5 Generalization — the ticket-closure rule (made permanent)
+
+The deepest output of this reopen is not specific to coordination. TICK-008 establishes a norm about
+*how we close any ticket*: a ticket is done when (a) its result is stated **and** (b) that result has
+actually changed how we work. We institutionalize it so it binds every future ticket:
+
+- The **closing step** in `tickets/README.md` (and the ticket template's `## Log`) is amended:
+  closing a ticket requires two notes — a **Result** (always; what you decided or produced) and,
+  when applicable, a **Workflow impact / future behavior** note stating whether the ticket changes
+  future behavior, which repo file(s) implement that change, and what future humans or AI assistants
+  should do differently. A decision with no corresponding behavior-change edit is, by this rule, not
+  done.
+- **Rationale.** A decision doc nothing points to is inert; a convention no operating file mentions is
+  forgotten by the next session. Binding closure to an enacting edit is what converts *"we decided X"*
+  into *"we do X."* It is also self-checking: the `Touches:`/edited-artifact list in the Log is a
+  visible record that the behavior change happened.
+
+### 3.6 Summary of enacting edits
+
+| Artifact | Edit | Effect on behavior |
+|---|---|---|
+| `tickets/README.md` | Holds the single `Current mode:` line + a **Mode history** list; closing step requires result + enacting-artifact note | One mode-of-record; every closed ticket must show its behavior change |
+| `AGENTS.md` | Claim loop added to session-start orientation + Core conventions; stale "no branch workflow" line corrected to point at the active mode | Every assistant claims before working, regardless of which AI |
+| `RA-PLAYBOOK.md` | Pipeline-operator role points to the claim loop; weekly-sync agenda gains the coordination-check item | RAs claim as step zero; the mode review recurs and cannot be silently skipped |
+| `scripts/ticket.sh` | Thin helper for the active (branch-per-ticket) loop: `claim` / `submit` / `close` | One command per step keeps Solution B's heavier loop near-zero-effort for RAs |
+| `decisions/2026-06-14-collab-system-design.md` (this file) | Part 3 added; **Switch log** appended on any mode change | Implementation is recorded and switching stays one-touch-per-file |
+
+These edits are what make the decision live. They are applied as part of working this ticket;
+the ticket's `## Log` lists them, dogfooding §3.5.
