@@ -1,18 +1,17 @@
-# TICK-001: PI review of HYPOTHESES.md
+# TICK-001: Review and recategorize HYPOTHESES.md
 **Status:** in-progress
-**Assigned:** Anup
+**Assigned:** Anup (decisions) + Claude (mechanical re-slotting)
 **Parallel-safe:** yes
-**Blocks:** TICK-006, TICK-009
+**Blocks:** TICK-006, TICK-009, TICK-012
 **Blocked by:** —
 
 ## Description
 
-`HYPOTHESES.md` was populated by `enumerate-hypotheses.mjs` with 65 hypotheses (Demographic 11,
-Economic 21, Biological 12, Cultural 21) and annotated with `**why:**` plain-English glosses.
-It is a draft. Anup needs to review it before it becomes the authoritative input to
-`literature-search.mjs`.
+`HYPOTHESES.md` was populated by `enumerate-hypotheses.mjs` with 65 hypotheses and annotated
+with `**why:**` glosses. It is a draft. This ticket covers the full review-and-restructure job
+in two sequential sub-steps:
 
-Specific sub-tasks:
+### Sub-step A — Anup's decision pass (in progress)
 
 1. **Cull.** Remove duplicates or hypotheses too weak to merit a full chapter.
 
@@ -28,24 +27,31 @@ Specific sub-tasks:
    - Migration selection effects
    - Polygyny / marriage-market structure
 
-3. **Organize at a higher level.** Current four-category split (Demographic / Economic /
-   Biological / Cultural) may be supplemented or replaced by a cross-cutting organizing
-   principle. Options discussed: proximate-determinants vs. preference-shifters vs.
-   constraint-relaxers; supply-vs-demand; PM-only vs. FDT vs. SDT. PI to decide.
+3. **Decide the organizing structure.** The current four-category split (Demographic /
+   Economic / Biological / Cultural) conflates root causes with proximate mechanisms.
+   Proposed two-tier structure:
+   - **Root causes** — *why* people want fewer children: Economic, Biological, Cultural/evolutionary
+   - **Proximate mechanisms** — *how* fertility responds: Demographic mechanisms (child
+     mortality, contraception, marriage patterns, birth spacing, etc.)
+   Resolve the boundary-setting note at lines 9–13 and remove it.
 
-4. **Resolve the boundary-setting note.** Line 9–13 of `HYPOTHESES.md` contains a Claude-
-   generated note asking whether Demographic hypotheses are really mechanisms rather than root
-   causes, and whether the file should organize by root cause (economics/biology/culture) and
-   treat demography as the mechanism layer. PI to decide and remove the note.
+4. **Commit the culled/added/restructured list** (even if re-slotting is not yet done).
 
-5. **Commit and mark DRAFT → approved** in the file header.
+### Sub-step B — Claude re-slots (after Sub-step A is committed)
+
+Once Anup has decided the structure, Claude reads the updated hypothesis list and re-slots
+all entries into the approved two-tier structure, flagging genuinely ambiguous cases.
+Anup reviews the re-slotting and approves or adjusts. Claude commits the final version
+and updates the header to `Status: APPROVED — [date]`.
 
 ## Acceptance criteria
 - [ ] All 10 surprising-absence candidates reviewed (add, defer, or explicitly exclude)
 - [ ] Boundary-setting note (lines 9–13) resolved and removed
-- [ ] Higher-level organizing principle documented (even if "keep current four-category split")
+- [ ] Organizing structure decided and documented
+- [ ] Sub-step A committed
+- [ ] All 65 hypotheses re-slotted into approved structure (Sub-step B)
 - [ ] Header changed from `Status: DRAFT` to `Status: APPROVED — [date]`
-- [ ] Committed
+- [ ] Final version committed
 
 ## Log
 <!-- Append completion note here when done. -->
