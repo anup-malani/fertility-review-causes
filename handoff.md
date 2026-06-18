@@ -8,25 +8,39 @@
 
 ---
 
-## TODAY — 2026-06-14 (pick up here after HYPOTHESES.md edit)
+## TODAY — 2026-06-18 (pick up here)
 
-**Step 1 (in progress):** Finish TICK-001 — edit `HYPOTHESES.md`. Goal: before noon.
-After saving and committing, mark TICK-001 done in its ticket file and in QUEUE.md.
+**TICK-001 is functionally complete.** The hypothesis list has been fully reorganized (v2–v4) and extended (v5). Start TICK-009 (implement `literature-search.mjs`) in the next session.
 
-**Step 2 (immediately after):** Start a new Claude Code session and say:
+**Step 1 (next session):** Start a new Claude Code session and say:
 > "TICK-001 is done. Let's implement literature-search.mjs and run the pre-pilot on the time-cost/income-substitution hypothesis."
 
-That kicks off TICK-009 → TICK-012 in sequence. The full pre-pilot pipeline in one session
-if possible; if not, split across two.
+That kicks off TICK-009 → TICK-012 in sequence.
 
-**Decision on file:** `decisions/2026-06-14-piloting-sequence.md`
+**Decisions on file:** `decisions/2026-06-14-proximate-vs-root-cause-categories.md` and `decisions/2026-06-14-piloting-sequence.md`
+
+---
+
+## HYPOTHESES.md status (2026-06-18)
+
+| Version | Description | Status |
+|---------|-------------|--------|
+| v1 = `HYPOTHESES.md` | Original 65 entries, 4 flat categories | Preserved as authoritative v1 |
+| v2 | Two-tier structure + PI inline comments | Archived |
+| v3 | 47 entries, 5 sections, Economic sub-structured | Archived |
+| v4 | v3 + hierarchical outline codes (A/B/C/D/E) | Archived |
+| **v5** | **61 active entries + 2 deprecated; 14 new entries from bookmark + literature sweep** | **Current working version** |
+
+New in v5: A.23 (co-residence), A.24 (dating apps), B.6 (microplastics/PFAS), B.7 (antidepressants), C.2.h (digital leisure substitution), C.3.g (student debt), D.3.a–c (psychological distress sub-section: mental health, climate anxiety, despair).
+
+Sweep log: `literature/search-logs/hypothesis-sweep-2026-06-14.md`
 
 ---
 
 ## What this project is
 
 Cochrane-style systematic review of every major proposed explanation for fertility decline.
-65 hypotheses across four categories (Demographic / Economic / Biological / Cultural), each
+65 hypotheses in two tiers — Proximate Causes (mechanisms) + three root-cause categories (Economic / Biological / Cultural) — each
 evaluated against three phenomena (pre-modern, FDT, SDT). Per-hypothesis GRADE rating of
 causal credibility + demographic-significance verdict. Chapter per hypothesis is the atomic
 deliverable. Methodology: PROTOCOL.md. RA operating manual: RA-PLAYBOOK.md. AI context:
