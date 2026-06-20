@@ -320,3 +320,54 @@ Implemented `literature-search.mjs` (TICK-009) fully: two-pass workflow (dry-run
 - [ ] **Run calibration:** batch 1 on `old-age-security-pension-crowdout` after `calibrate-screen.mjs` is built
 - [ ] **gbrain save:** gbrain MCP tools unavailable this session; run `/mexit` at next session start to push session to brain
 - [ ] **TICK-002, TICK-003, TICK-004, TICK-005:** still open; lower priority than calibration workflow
+
+---
+
+## [2026-06-20 14:44] — Build calibrate-screen.mjs and run batch 1
+
+**Agent:** primary
+**Machine:** MacBookPro
+**Working directory:** /Users/amalani/github/fertility/fertility-review-causes
+
+### Summary
+
+Built `calibrate-screen.mjs` — the iterative Haiku/Sonnet calibration workflow specified in `handoff.md` — and immediately ran batch 1 on `old-age-security-pension-crowdout`. The workflow fetched 103 papers from OpenAlex (fewer than the target 1,000 — see open items), dual-screened them in parallel 100-paper chunks with Haiku and Sonnet, computed divergence statistics, and wrote a calibration report and routing rule. The stopping criterion (Haiku FN rate < 3%) was met on the first batch: Haiku FN rate = 0%, agreement rate = 81.6%, Sonnet uncertain rate = 17.5%. Four confusion papers (Haiku UNCERTAIN / Sonnet decisive) were diagnosed and three targeted prompt revision suggestions were produced.
+
+### Inputs
+
+- `handoff.md` — full implementation spec for `calibrate-screen.mjs`
+- `literature/search-logs/old-age-security-pension-crowdout-query-draft.md` — 2-axis OpenAlex query (text body read; JSON block at bottom is stale 3-axis version)
+- `literature/search-logs/llm-screen-prompt.md` — LLM screening prompt validated 2026-06-20
+- `.claude/workflows/literature-search.mjs` — pattern reference for schema and Python API call conventions
+
+### Outputs
+
+- `.claude/workflows/calibrate-screen.mjs` — fully implemented (330 lines); inputs: `{ slug, batchNumber, promptPath, haikuModel, sonnetModel }`; Phases: load resources → cursor-paginate OpenAlex → dual-screen in parallel chunk pipelines → divergence analysis (pure JS) → calibration report + optional routing rule
+- `literature/search-logs/old-age-security-pension-crowdout-calibration-batch-1.md` — calibration report: 103 papers, 0% FN, 0% FP, 81.6% agreement, 17.5% Sonnet uncertain; stopping criterion MET; 4 confusion cases diagnosed; 3 prompt revision suggestions
+- `literature/search-logs/old-age-security-pension-crowdout-routing-rule.md` — routing rule: Haiku primary, ~4% escalation to Sonnet; cost estimate $58.49 for 79,727 papers vs. $191.34 pure Sonnet
+
+### Methodology
+
+**Workflow architecture:** `calibrate-screen.mjs` uses a parallel pipeline: two concurrent `pipeline()` calls (one Haiku, one Sonnet), each processing 100-paper chunks via sub-agents. Pure JS divergence analysis (no agent) computes FN/FP/confusion/agreement rates. A single report-writing agent receives the full annotated divergence lists and generates the markdown report. Routing rule agent fires conditionally only when stopping criterion is met.
+
+**Args injection workaround:** top-level `Workflow({ scriptPath })` does not inject `args` into the child script. Used a thin wrapper workflow that calls `workflow(childPath, args)` to pass `{ slug, batchNumber }` cleanly to the calibration script. Documented as existing TICK-004 issue.
+
+**promptPath default:** set to `literature/search-logs/llm-screen-prompt.md` (the actual file location) rather than the slug-specific `{slug}-llm-screen-prompt.md` from the spec, since the slug-specific file doesn't exist yet. Future hypotheses should write their prompt to `{slug}-llm-screen-prompt.md` and pass that path explicitly.
+
+**OpenAlex query read from text body:** the `### OpenAlex (primary)` code block in the query-draft file (2-axis query, no mechanism AND). The JSON block at the bottom of the same file is stale (3-axis) and was deliberately not used.
+
+### Decisions & Rationale
+
+- **`promptPath` defaults to non-slug path** — `llm-screen-prompt.md` is the actual file; slug-specific naming to be enforced for future hypotheses. `[needs promotion]` — fold into a prompt management decision when multiple hypotheses have their own prompts.
+- **Stopping criterion met on batch 1 with only 103 papers** — accept the result but treat it as preliminary; the fetch underdelivered (target 1,000) so the sample is small. Before the full run on 79,727 papers, verify the fetch reliably delivers the full batch size by debugging the cursor pagination. `[needs promotion]` — decision on minimum calibration sample size.
+
+### Open Items
+
+- [ ] **Debug fetch underdelivery:** batch 1 fetch returned 103 papers instead of 1,000. Likely a cursor pagination early-exit in the Python script (network timeout or empty results after one page). Fix before running full screen on 79,727 papers. Run batch 2 with fixed fetch to confirm FN rate holds at 0%.
+- [ ] **Apply prompt revisions from calibration report** before full run: three targeted changes to handle missing-abstract papers, birth-outcome framing, and joint child-allowance/pension papers — see `calibration-batch-1.md` §Prompt Revision Suggestions.
+- [ ] **Flip `dryRun` default** in `literature-search.mjs` to `false` before running pass 2 on OAS.
+- [ ] **Run full LLM screen** (79,727 papers via routing rule) once fetch is debugged and prompt revised.
+- [ ] **Promote decisions:** iterative calibration design + one-per-category reusability plan (flagged last session); minimum calibration sample size (flagged this session).
+- [ ] **Fix `args` injection** in Workflow harness (TICK-004) — wrapper workaround works but shouldn't be permanent.
+- [ ] **gbrain save:** push session notes to brain via `/mexit` at next session start.
+- [ ] **TICK-002, TICK-003, TICK-005:** still open, lower priority than full screen run.
