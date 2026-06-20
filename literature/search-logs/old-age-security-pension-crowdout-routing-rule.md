@@ -1,9 +1,9 @@
 # Routing Rule: old-age-security-pension-crowdout
 
-**Derived from:** 3 calibration batches — stopping criterion met at batch 3
+**Derived from:** 4 calibration batches — stopping criterion met at batch 4
 **Models:** Haiku=claude-haiku-4-5-20251001 (primary), Sonnet=claude-sonnet-4-6 (escalation)
 **Haiku FN rate at convergence:** 0.7% (below 3% threshold)
-**Haiku FP rate:** 2.3%
+**Haiku FP rate:** 4%
 
 ## Routing Logic
 
@@ -18,20 +18,20 @@
 ## Cost Estimate for Full Run
 
 Total papers in OpenAlex: 79,727
-Estimated Sonnet escalation rate: ~20% (~15,945 papers)
+Estimated Sonnet escalation rate: ~8% (~6,617 papers)
 
 | Component | Cost |
 |-----------|------|
 | Haiku — all 79,727 papers | ~$51.03 |
-| Sonnet — escalated ~15,945 papers | ~$38.27 |
-| **Total (routing rule)** | **~$89.29** |
+| Sonnet — escalated ~6,617 papers | ~$15.88 |
+| **Total (routing rule)** | **~$66.91** |
 | Pure Sonnet baseline | ~$191.34 |
 
 ## Calibration History
 
 | Batch | Papers | Agreement | Haiku FN | Haiku FP | Sonnet Uncertain | Criterion |
 |-------|--------|-----------|----------|----------|------------------|-----------|
-| 3 | 1000 | 73% | 0.7% | 2.3% | 7.9% | MET |
+| 4 | 999 | 83.1% | 0.7% | 4% | 7% | MET |
 
 ## How to Apply
 
