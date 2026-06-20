@@ -1,6 +1,6 @@
 # Handoff — fertility-review-causes
 
-**Last updated:** 2026-06-14
+**Last updated:** 2026-06-20
 **PI:** Anup Malani
 **RAs:** Alexandra Zhou (zhitongz@uchicago.edu, Codex Pro), Shravan Haribalaraman (shravanh@uchicago.edu, Claude Max pending)
 **Repo:** https://github.com/anup-malani/fertility-review-causes (private)
@@ -8,16 +8,140 @@
 
 ---
 
-## TODAY — 2026-06-18 (pick up here)
+## TODAY — 2026-06-21 (pick up here)
 
-**TICK-001 is functionally complete.** The hypothesis list has been fully reorganized (v2–v4) and extended (v5). Start TICK-009 (implement `literature-search.mjs`) in the next session.
+**Meeting with RAs at 10am today.** Alexandra and Shravan were emailed last night to complete `literature-search-training.md` (now committed, they can `git pull`) and bring hand-crafted queries for `old-age-security-pension-crowdout` (C.3.c). At the meeting: compare their queries + the tool's draft → merge to envelope → approve final query → decide on calibration run.
 
-**Step 1 (next session):** Start a new Claude Code session and say:
-> "TICK-001 is done. Let's implement literature-search.mjs and run the pre-pilot on the time-cost/income-substitution hypothesis."
+**Step 1 (next session):** Build `calibrate-screen.mjs` — the iterative Haiku/Sonnet calibration workflow described in detail below. Then run it on the old-age-security hypothesis.
 
-That kicks off TICK-009 → TICK-012 in sequence.
+---
 
-**Decisions on file:** `decisions/2026-06-14-proximate-vs-root-cause-categories.md` and `decisions/2026-06-14-piloting-sequence.md`
+## SESSION LOG — 2026-06-20
+
+### What was accomplished
+
+**TICK-009 complete: `literature-search.mjs` fully implemented.**
+- Two-pass architecture: `dryRun: true` writes query draft and exits; pass 2 (with `queriesFile`) executes searches
+- Phase 1: agent reads HYPOTHESES-v5.md by slug, drafts per-database boolean queries + inclusion/exclusion criteria + rationale using QUERY_SCHEMA structured output
+- Phase 2: parallel agents query OpenAlex, Semantic Scholar, Crossref, PubMed (bio only) via Python/Bash
+- Phase 3: deduplication in JS (DOI primary, normalized title fallback); writes `literature/search-logs/{slug}.json`
+- Known issue: `args` global not injected when calling via top-level `Workflow()` tool with `scriptPath`. Workaround: defaults hardcoded in script (`slug = args?.slug || 'old-age-security-pension-crowdout'`, `dryRun` defaults to `true`). Fix needed before production: pass inputs via a JSON sidecar file or wrap in a named workflow.
+
+**Dry run completed on `old-age-security-pension-crowdout`.**
+- Query draft: `literature/search-logs/old-age-security-pension-crowdout-query-draft.md`
+- Tool initially proposed 3-axis query (CAUSE × FERTILITY × MECHANISM)
+- Calibration test against 12 seminal papers: mechanism AND produced **83% false negative rate** (10/12 seminal papers missed) — papers that study pension→fertility rarely use mechanism labels in their abstracts
+- Decision: **drop mechanism AND**, go to 2-axis (CAUSE × FERTILITY)
+- Added `NOT "global burden of disease"` to exclude GBD epidemiology papers (main FP cluster identified via discriminating phrase analysis on 200-paper sample)
+- 2-axis query returns ~81,648 results in OpenAlex — not directly screenable
+
+**LLM screening layer designed and validated.**
+- Prompt: `literature/search-logs/llm-screen-prompt.md`
+- Key clause: causal direction ("pension → fertility, NOT fertility → pension sustainability") — this is the discriminating feature no keyword could capture
+- Test: 24 papers (12 RELEVANT, 12 NOT_RELEVANT), 100% recall, 100% precision, all HIGH confidence
+- Gray zones identified: OLG macro models (fertility as 3rd-order equilibrium), QQ-tradeoff papers with OAS mentions
+
+**Pipeline architecture decided.**
+Three-stage pipeline for all 61 hypotheses:
+1. **Boolean search** (maximize recall, accept high FP) — existing `literature-search.mjs`
+2. **LLM calibration screen** (iterative prompt optimization; Haiku as primary, Sonnet as teacher/gold standard) — `calibrate-screen.mjs` to build
+3. **Human title/abstract screen** — existing `screen-titles-abstracts.mjs` (stub; to implement)
+
+**RAs emailed.** Training session email sent (message ID: 19ee5cbe426877fb) to zhitongz@uchicago.edu (CC: shravanh@uchicago.edu). Subject: "Tonight's assignment — literature search training (before tomorrow's 10am meeting)." `literature-search-training.md` committed (commit 16317e6) so they can `git pull`.
+
+### Commits this session
+- `16317e6` — Add literature-search-training.md for RA pilot session
+- `eccff64` — Add OAS query draft and LLM screening prompt for pilot hypothesis
+
+---
+
+## NEXT SESSION — BUILD `calibrate-screen.mjs`
+
+### What it does
+
+Iterative Haiku/Sonnet calibration workflow. Runs both models on 1,000 papers at a time from the Boolean search results. Compares divergences. Writes a calibration report. Human reviews, revises the prompt, increments batch. Repeat until false negative rate (Haiku says NOT_RELEVANT, Sonnet says RELEVANT) drops below 3% for two consecutive batches. Then apply the final routing rule to the remaining papers.
+
+**Why this design:**
+- FP at the Boolean stage costs only LLM tokens. FN at the Boolean stage is unrecoverable.
+- FP at the LLM stage adds human screening burden. FN at the LLM stage is also unrecoverable.
+- Haiku is fast and cheap ($12 for 81K abstracts) but makes confident errors on ambiguous abstracts.
+- Sonnet is the ground truth ($147 for 81K) but we don't need to run it on everything if we have a routing rule.
+- Iterative calibration derives the routing rule empirically: run both on batches of 1K, find where they diverge, revise the prompt until divergence stabilizes.
+- Total cost per hypothesis: ~$10 calibration (5 batches × 1K) + ~$27 full run (Haiku + ~10% Sonnet escalation) = ~$37 vs. $147 pure Sonnet.
+
+**Reusability plan — run once per major category:**
+- Economic (C section): this hypothesis (old-age-security-pension-crowdout) is the pilot
+- Biological (B section): pick one (e.g., `endocrine-disruptors-fecundity`)
+- Cultural (D section): pick one (e.g., `secularization-religiosity`)
+- Proximate (A section): pick one (e.g., `marriage-timing-union-formation`)
+- Frameworks (E section): skip — small section, use economic routing rule
+Each calibration produces a category-specific routing rule and a document of abstract patterns that required prompt revision. Those documents inform subsequent hypotheses in the same category.
+
+### Implementation spec for `calibrate-screen.mjs`
+
+**Input:** `args = { slug, batchNumber, promptPath, haikuModel, sonnetModel }`
+- `slug`: hypothesis slug (default: `'old-age-security-pension-crowdout'`)
+- `batchNumber`: which 1K batch to process (default: 1; batch N = papers (N-1)*1000 to N*1000)
+- `promptPath`: path to the screening prompt markdown file (default: `literature/search-logs/{slug}-llm-screen-prompt.md`)
+- `haikuModel`: override (default: `'claude-haiku-4-5-20251001'`)
+- `sonnetModel`: override (default: `'claude-sonnet-4-6'`)
+
+**Data source:** The 81K papers are NOT pre-fetched. The workflow re-queries OpenAlex using the approved query from `{slug}-query-draft.md` (machine-readable JSON block at the bottom), paginated using OpenAlex cursor, skipping to the right batch offset.
+
+**Phase 1 — Fetch batch:** agent queries OpenAlex for papers (batch_number-1)*1000 to batch_number*1000, returns 1K paper records (title, abstract, doi, year).
+
+**Phase 2 — Dual screen:** `parallel()` of two agents:
+- Agent A: Haiku — screens all 1K abstracts using the prompt, returns `{ paperId, verdict, confidence, reason }[]`
+- Agent B: Sonnet — same prompt, same papers, returns same schema
+
+**Phase 3 — Compare divergences:** Script (JS, no agent) computes:
+- Agreement rate (both RELEVANT, both NOT_RELEVANT, both UNCERTAIN)
+- Haiku FN rate: papers where Haiku=NOT_RELEVANT, Sonnet=RELEVANT (dangerous)
+- Haiku FP rate: papers where Haiku=RELEVANT, Sonnet=NOT_RELEVANT (annoying but safe)
+- Haiku confusion rate: papers where Haiku=UNCERTAIN, Sonnet=RELEVANT or NOT_RELEVANT
+- Sonnet UNCERTAIN rate: papers where Sonnet itself is UNCERTAIN (gray zone)
+
+**Phase 4 — Write calibration report:** agent writes `literature/search-logs/{slug}-calibration-batch-{n}.md` containing:
+- Summary stats (agreement rate, FN rate, FP rate, Sonnet UNCERTAIN rate)
+- Whether stopping criterion met: FN rate < 3%
+- Annotated list of all divergent papers (title, both verdicts, both reasons)
+- **Prompt revision suggestions**: agent analyzes divergence patterns and proposes specific additions to the screening prompt to fix systematic errors
+- Stopping recommendation: continue to next batch, or converged
+
+**Phase 5 — Write routing rule (only when stopping criterion met):** writes `literature/search-logs/{slug}-routing-rule.md`:
+- Recommended Haiku confidence threshold for routing to Sonnet
+- Estimated cost per 1K papers under this routing rule
+- Observed FN rate at this threshold
+
+**Output:** returns `{ batchNumber, agreementRate, haikuFnRate, haikuFpRate, stoppingCriterionMet, reportPath }`
+
+### Prompt schema (for calibration agent screening output)
+
+Each screened paper should return:
+```json
+{
+  "paperId": "string (doi or title hash)",
+  "title": "string",
+  "verdict": "RELEVANT | NOT_RELEVANT | UNCERTAIN",
+  "confidence": "HIGH | MEDIUM | LOW",
+  "reason": "string (one sentence)"
+}
+```
+
+### After calibration converges
+
+Once the routing rule is derived for the economic category:
+1. Update `literature/search-logs/llm-screen-prompt.md` with the final prompt version
+2. Run full screen on 81K papers using routing rule (Haiku primary, Sonnet for MEDIUM/LOW/UNCERTAIN)
+3. Output: `literature/search-logs/old-age-security-pension-crowdout.json` updated with `llm_verdict`, `llm_confidence`, `llm_reason` fields on each paper
+4. Hand survivors to `screen-titles-abstracts.mjs` for human review
+
+### Known issues / open questions
+- `args` global not injected in top-level `Workflow({ scriptPath })` calls — fix the workflow harness or pass inputs via a JSON sidecar; document in TICK-004
+- Retrieval cap still open: do we re-query OpenAlex per batch (cursor-paginated), or do we store all 81K to a local file first? Cursor approach is simpler but requires re-auth each batch. Local file approach requires ~50MB disk but is faster and more reliable for iteration.
+- The `literature-search.mjs` `dryRun` default is currently `true` — flip to `false` before running pass 2 on this hypothesis.
+
+---
 
 ---
 
