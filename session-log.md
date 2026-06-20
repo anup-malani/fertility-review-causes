@@ -261,3 +261,62 @@ into tickets and a decisions file. Session ends with Anup about to edit HYPOTHES
 **Addendum:** TICK-011 (recategorize HYPOTHESES.md) merged into TICK-001 — they were the
 same job (decide structure + re-slot). TICK-001 now has two explicit sub-steps: A = Anup's
 decision pass (in progress), B = Claude re-slots once A is committed. TICK-011 closed.
+
+---
+
+## 2026-06-20 22:00 — literature-search.mjs implemented; LLM screening pipeline designed
+
+**Agent:** primary
+**Machine:** MacBookPro
+**Working directory:** /Users/amalani/github/fertility/fertility-review-causes
+
+### Summary
+
+Implemented `literature-search.mjs` (TICK-009) fully: two-pass workflow (dry-run writes query draft; pass 2 executes searches, deduplicates, writes search log JSON). Ran dry-run on pilot hypothesis `old-age-security-pension-crowdout`. Discovered the initial 3-axis query had an 83% false negative rate on seminal papers and switched to a 2-axis design. Designed and validated an LLM screening prompt (100% recall, 100% precision on 24-paper test set). Decided on a three-stage pipeline (Boolean → iterative LLM calibration → human screen) with a novel iterative Haiku/Sonnet comparison approach to derive routing rules cheaply per hypothesis category. Emailed RAs the training session assignment for tonight; they will bring hand-crafted queries to the 10am meeting on 2026-06-21.
+
+### Inputs
+
+- `HYPOTHESES-v5.md` — hypothesis entry for `old-age-security-pension-crowdout` (C.3.c)
+- `literature-search-training.md` — training guide (already committed; context for RA pedagogy decisions)
+- OpenAlex API — 200-paper sample from 2-axis query (81,648 total results)
+- Gold-standard set of 12 seminal papers (Neher 1971, Nugent 1985, Cigno & Rosati 1996, Boldrin & Jones 2005, Billari & Galasso 2009, Sinn 2004, Fenge & Meier 2005, Ehrlich & Lui 1991, Cigno 1993, Rosenzweig 1988, Zhang & Zhang 2004, Entwisle & Winegarden 1984)
+
+### Outputs
+
+- `.claude/workflows/literature-search.mjs` — fully implemented (810 lines); gitignored; two-pass; Phases 1/2/3; JS dedup in workflow body; Python/Bash API calls per database
+- `literature/search-logs/old-age-security-pension-crowdout-query-draft.md` — 2-axis approved query draft with NOT GBD clause; retrieval cap flagged as open; LLM screening layer noted as preferred resolution
+- `literature/search-logs/llm-screen-prompt.md` — Sonnet/Haiku screening prompt; validated 12/12 recall, 12/12 precision; causal direction clause is the key discriminating feature
+- `literature-search-training.md` — committed (16317e6); RAs emailed to complete tonight
+- `handoff.md` — updated with full `calibrate-screen.mjs` implementation spec for next session
+- `decisions/2026-06-20-boolean-query-two-axis.md` — promoted decision
+- `decisions/2026-06-20-llm-screening-pipeline.md` — promoted decision
+
+### Methodology
+
+**Query calibration:** tested 3-axis query against 12 known seminal papers via OpenAlex API; measured mechanism-term hit rate in titles + reconstructed abstracts. 83% FNR → dropped mechanism axis.
+
+**Discriminating phrase analysis:** pulled 200-paper sample from 2-axis query; classified relevant vs. false positive using heuristic signals; ran bigram/trigram frequency analysis across both groups to find distinguishing features. Found GBD cluster (27% of FPs) but no generalizable positive discriminator. Concluded: LLM layer is required, keyword AND insufficient.
+
+**Prompt validation:** constructed 24-paper test set (12 RELEVANT, 12 NOT_RELEVANT) covering clean cases and hard cases (reversed causal direction papers). Applied screening prompt via agent. 100% performance. Key finding: causal direction clause does the work that no keyword can.
+
+**Iterative calibration design:** derived from observation that Haiku is unreliable on ambiguous abstracts but cheap ($12/81K), while Sonnet is reliable but expensive ($147/81K). Run both on 1K-paper batches; compare divergences; revise prompt; repeat until Haiku FN rate vs. Sonnet < 3% for 2 consecutive batches. Routing rule then applied to full corpus. Estimated total cost per hypothesis: ~$37.
+
+### Decisions & Rationale
+
+- **Mechanism AND dropped from boolean query** — 83% FNR on known seminal papers; empirical papers in this literature avoid mechanism labels in abstracts. Promoted to `decisions/2026-06-20-boolean-query-two-axis.md`.
+- **Three-stage pipeline adopted** (Boolean → LLM calibration screen → human screen) — cost asymmetry: FP costs tokens, FN is unrecoverable; LLM layer handles precision so boolean layer can maximize recall. Promoted to `decisions/2026-06-20-llm-screening-pipeline.md`.
+- **Iterative 1K-batch calibration** — avoids running $147 Sonnet on full corpus before prompt is optimized; calibration converges in ~5 batches (~$10); derives category-specific routing rule that generalizes across hypotheses in same section. `[needs promotion]` — flag for next session.
+- **One calibration per major category** (economic, biological, cultural, proximate; skip frameworks) — abstract structure is homogeneous within a section; routing rule derived from one hypothesis generalizes within the section. `[needs promotion]` — flag for next session.
+- **Sonnet as primary model for LLM screen** (not Haiku alone) — causal direction distinction requires nuanced reading of academic prose; Haiku makes confident errors on ambiguous abstracts; $135 difference per hypothesis is justified given permanent cost of false negatives.
+- **RA training before tool run** — training guide sent first so RAs draft queries independently; their queries and the tool's serve as mutual benchmarks; envelope of both is the final query. Rationale in `literature-search-training.md`.
+
+### Open Items
+
+- [ ] **2026-06-21 10am:** RA meeting — compare Alexandra's, Shravan's, and tool's queries for `old-age-security-pension-crowdout`; merge to envelope; approve final query
+- [ ] **Next session:** build `calibrate-screen.mjs` (full spec in `handoff.md`)
+- [ ] **Promote decisions:** iterative 1K-batch calibration + one-per-category reusability plan both need `decisions/` files
+- [ ] **Fix `args` injection bug:** `args` global not injected when calling `Workflow({ scriptPath })` from top-level; hardcoded defaults are the current workaround; file against TICK-004 (gitignore/workflow harness)
+- [ ] **Flip `dryRun` default** in `literature-search.mjs` to `false` before running pass 2
+- [ ] **Run calibration:** batch 1 on `old-age-security-pension-crowdout` after `calibrate-screen.mjs` is built
+- [ ] **gbrain save:** gbrain MCP tools unavailable this session; run `/mexit` at next session start to push session to brain
+- [ ] **TICK-002, TICK-003, TICK-004, TICK-005:** still open; lower priority than calibration workflow
