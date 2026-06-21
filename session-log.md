@@ -4,6 +4,58 @@ Cumulative session log. Each entry records what happened, what was produced, and
 
 ---
 
+## [2026-06-20 20:00] — Full LLM screen pipeline built, run, and protocol redesign decision
+
+**Agent:** primary
+**Machine:** MacBookPro
+**Working directory:** /Users/amalani/github/fertility/fertility-review-causes
+
+### Summary
+
+Resumed from prior session where `calibrate-screen.mjs` had been built and batch 1 completed. Ran calibration batches 2–4 (applying prompt revisions after each), validated the paperId fix (OpenAlex work ID as primary key), built `full-screen-oas.mjs` for the production screen, and completed two full runs against the OAS/pension-crowdout corpus. Discovered two bugs (200-paper Haiku chunk size causing 59% escalation; OpenAlex `search=` cursor cap at ~6,400 papers) and fixed both. Second run used sub-query decomposition across 9 CAUSE terms, reaching 12,369 unique papers. Combined results: 12,508 papers screened, 2,003 flagged for human review. Session ended when PI identified that 2,000 papers/hypothesis × 65 hypotheses = 130,000 human-reviewed abstracts is unworkable, triggering a protocol redesign decision: add a Sonnet ranking stage to cut each hypothesis to ~100 papers before human eyes touch it.
+
+### Inputs
+
+- Prior calibration batch 1 report and routing rule
+- OpenAlex API (79,727 papers for OAS query)
+- Emails from Shravan (file not found) and Alexandra (GitHub invite expired)
+
+### Outputs
+
+- `literature/search-logs/llm-screen-prompt.md` — 6 prompt revisions applied (batches 2–4)
+- `literature/search-logs/old-age-security-pension-crowdout-calibration-batch-{2,3,4}.md` — calibration reports
+- `literature/search-logs/old-age-security-pension-crowdout-routing-rule.md` — updated after batch 4
+- `literature/search-logs/old-age-security-pension-crowdout-batch2-unmatched.md` — paperId bug analysis
+- `literature/search-logs/old-age-security-pension-crowdout-screened.json` — 12,508 papers, first LLM screen pass (Run 1 inflated; Run 2 credible)
+- `literature/search-logs/old-age-security-pension-crowdout-screen-summary.md` — screen run summary
+- `.claude/workflows/full-screen-oas.mjs` — production screen workflow (sub-query decomposition, 100-paper chunks, appends to screened.json, cache-aware)
+- `handoff.md` — updated with new three-stage pipeline design and next-session instructions
+
+### Methodology
+
+**Calibration:** 4 batches × 1K papers; Haiku FN rate converged to 0.7% by batch 3, held at 0.7% in batch 4. Prompt revised 6 times total (3 after batch 2, 3 after batch 3). Key issues resolved: VOC framework coverage, OLG endogenous-fertility recognition, title-level crowdout language, reverse-causation exclusion sharpening.
+
+**Production fetch:** OpenAlex `search=` parameter caps cursor pagination at ~6,400 results regardless of total. Fix: decompose query into 9 sub-queries (one per CAUSE term), run in parallel, deduplicate by OpenAlex work ID. Reached 12,369 unique papers.
+
+**Production screen:** Haiku in 100-paper chunks (200-paper chunks caused 59% escalation in first run). Routing rule: RELEVANT+HIGH/MEDIUM → include; NOT_RELEVANT+HIGH → exclude; everything else → Sonnet re-screen. Results appended to master screened.json; cache-aware (skips already-screened papers).
+
+### Decisions & Rationale
+
+- **Three-stage LLM pipeline adopted** — current two-stage (screen → human) produces ~2K/hypothesis × 65 = 130K human abstracts. New design: strict Haiku screen (~300–500) → Sonnet ranking (top 100) → human review. Promoted to `handoff.md`.
+- **Flip screening tie-breaker** — from "lean RELEVANT when uncertain" to "mark NOT_RELEVANT when uncertain." Increases FN rate slightly but cuts human review pile dramatically. To be validated in batch 5.
+- **Sub-query decomposition as standard fetch method** — `search=` cursor cap is a hard constraint; decomposition by CAUSE term is the workaround for all future hypotheses.
+
+### Open Items
+
+- [ ] Revise `llm-screen-prompt.md` — flip tie-breaker, tighten RELEVANT criteria
+- [ ] Run calibration batch 5 to validate tighter prompt (target: FN < 3%, pass rate ~2–4%)
+- [ ] Clear Run 1 inflated records from screened.json and re-run full screen with new prompt
+- [ ] Build `rank-papers.mjs` (spec in handoff.md)
+- [ ] Update `PROTOCOL.md §5` with three-stage pipeline
+- [ ] RA meeting 2026-06-21 10am — review query drafts, introduce new pipeline to RAs
+
+---
+
 ## [2026-06-06 17:05] — Project scaffolding via Workflow tool
 
 **Agent:** primary

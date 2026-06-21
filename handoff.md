@@ -1,311 +1,163 @@
 # Handoff — fertility-review-causes
 
-**Last updated:** 2026-06-20
+**Last updated:** 2026-06-20 (evening)
 **PI:** Anup Malani
-**RAs:** Alexandra Zhou (zhitongz@uchicago.edu, Codex Pro), Shravan Haribalaraman (shravanh@uchicago.edu, Claude Max pending)
-**Repo:** https://github.com/anup-malani/fertility-review-causes (private)
-**Prior handoffs:** [`handoff-2026-06-06.md`](./handoff-2026-06-06.md)
+**RAs:** Alexandra Zhou (zhitongz@uchicago.edu), Shravan Haribalaraman (shravanh@uchicago.edu)
 
 ---
 
-## TODAY — 2026-06-21 (pick up here)
+## State of the Project
 
-**Meeting with RAs at 10am today.** Alexandra and Shravan were emailed last night to complete `literature-search-training.md` (now committed, they can `git pull`) and bring hand-crafted queries for `old-age-security-pension-crowdout` (C.3.c). At the meeting: compare their queries + the tool's draft → merge to envelope → approve final query → decide on calibration run.
+We completed the first full LLM screening pass on the OAS/pension-crowdout hypothesis and discovered a fundamental protocol problem: the current two-stage pipeline (Boolean search → LLM screen → human review) produces ~2,000 papers per hypothesis for human review. With 65 hypotheses, that is 130,000 human-reviewed abstracts — completely unworkable for two RAs.
 
-**Step 1 (next session):** Build `calibrate-screen.mjs` — the iterative Haiku/Sonnet calibration workflow described in detail below. Then run it on the old-age-security hypothesis.
-
----
-
-## SESSION LOG — 2026-06-20
-
-### What was accomplished
-
-**TICK-009 complete: `literature-search.mjs` fully implemented.**
-- Two-pass architecture: `dryRun: true` writes query draft and exits; pass 2 (with `queriesFile`) executes searches
-- Phase 1: agent reads HYPOTHESES-v5.md by slug, drafts per-database boolean queries + inclusion/exclusion criteria + rationale using QUERY_SCHEMA structured output
-- Phase 2: parallel agents query OpenAlex, Semantic Scholar, Crossref, PubMed (bio only) via Python/Bash
-- Phase 3: deduplication in JS (DOI primary, normalized title fallback); writes `literature/search-logs/{slug}.json`
-- Known issue: `args` global not injected when calling via top-level `Workflow()` tool with `scriptPath`. Workaround: defaults hardcoded in script (`slug = args?.slug || 'old-age-security-pension-crowdout'`, `dryRun` defaults to `true`). Fix needed before production: pass inputs via a JSON sidecar file or wrap in a named workflow.
-
-**Dry run completed on `old-age-security-pension-crowdout`.**
-- Query draft: `literature/search-logs/old-age-security-pension-crowdout-query-draft.md`
-- Tool initially proposed 3-axis query (CAUSE × FERTILITY × MECHANISM)
-- Calibration test against 12 seminal papers: mechanism AND produced **83% false negative rate** (10/12 seminal papers missed) — papers that study pension→fertility rarely use mechanism labels in their abstracts
-- Decision: **drop mechanism AND**, go to 2-axis (CAUSE × FERTILITY)
-- Added `NOT "global burden of disease"` to exclude GBD epidemiology papers (main FP cluster identified via discriminating phrase analysis on 200-paper sample)
-- 2-axis query returns ~81,648 results in OpenAlex — not directly screenable
-
-**LLM screening layer designed and validated.**
-- Prompt: `literature/search-logs/llm-screen-prompt.md`
-- Key clause: causal direction ("pension → fertility, NOT fertility → pension sustainability") — this is the discriminating feature no keyword could capture
-- Test: 24 papers (12 RELEVANT, 12 NOT_RELEVANT), 100% recall, 100% precision, all HIGH confidence
-- Gray zones identified: OLG macro models (fertility as 3rd-order equilibrium), QQ-tradeoff papers with OAS mentions
-
-**Pipeline architecture decided.**
-Three-stage pipeline for all 61 hypotheses:
-1. **Boolean search** (maximize recall, accept high FP) — existing `literature-search.mjs`
-2. **LLM calibration screen** (iterative prompt optimization; Haiku as primary, Sonnet as teacher/gold standard) — `calibrate-screen.mjs` to build
-3. **Human title/abstract screen** — existing `screen-titles-abstracts.mjs` (stub; to implement)
-
-**RAs emailed.** Training session email sent (message ID: 19ee5cbe426877fb) to zhitongz@uchicago.edu (CC: shravanh@uchicago.edu). Subject: "Tonight's assignment — literature search training (before tomorrow's 10am meeting)." `literature-search-training.md` committed (commit 16317e6) so they can `git pull`.
-
-### Commits this session
-- `16317e6` — Add literature-search-training.md for RA pilot session
-- `eccff64` — Add OAS query draft and LLM screening prompt for pilot hypothesis
+The session ended with a decision to redesign the LLM pipeline to a three-stage process that brings each hypothesis down to ~100 papers for human review before any human eyes touch it.
 
 ---
 
-## NEXT SESSION — BUILD `calibrate-screen.mjs`
+## What Was Accomplished This Session
 
-### What it does
+### calibrate-screen.mjs — built and validated (4 batches)
 
-Iterative Haiku/Sonnet calibration workflow. Runs both models on 1,000 papers at a time from the Boolean search results. Compares divergences. Writes a calibration report. Human reviews, revises the prompt, increments batch. Repeat until false negative rate (Haiku says NOT_RELEVANT, Sonnet says RELEVANT) drops below 3% for two consecutive batches. Then apply the final routing rule to the remaining papers.
+`calibrate-screen.mjs` is fully implemented. It fetches 1K papers from OpenAlex, dual-screens with Haiku + Sonnet in parallel 100-paper chunks, computes divergence statistics, and writes a calibration report + routing rule.
 
-**Why this design:**
-- FP at the Boolean stage costs only LLM tokens. FN at the Boolean stage is unrecoverable.
-- FP at the LLM stage adds human screening burden. FN at the LLM stage is also unrecoverable.
-- Haiku is fast and cheap ($12 for 81K abstracts) but makes confident errors on ambiguous abstracts.
-- Sonnet is the ground truth ($147 for 81K) but we don't need to run it on everything if we have a routing rule.
-- Iterative calibration derives the routing rule empirically: run both on batches of 1K, find where they diverge, revise the prompt until divergence stabilizes.
-- Total cost per hypothesis: ~$10 calibration (5 batches × 1K) + ~$27 full run (Haiku + ~10% Sonnet escalation) = ~$37 vs. $147 pure Sonnet.
+Four calibration batches completed on `old-age-security-pension-crowdout`:
 
-**Reusability plan — run once per major category:**
-- Economic (C section): this hypothesis (old-age-security-pension-crowdout) is the pilot
-- Biological (B section): pick one (e.g., `endocrine-disruptors-fecundity`)
-- Cultural (D section): pick one (e.g., `secularization-religiosity`)
-- Proximate (A section): pick one (e.g., `marriage-timing-union-formation`)
-- Frameworks (E section): skip — small section, use economic routing rule
-Each calibration produces a category-specific routing rule and a document of abstract patterns that required prompt revision. Those documents inform subsequent hypotheses in the same category.
+| Batch | Papers | Agreement | Haiku FN | Haiku FP | Confusion | Criterion |
+|-------|--------|-----------|----------|----------|-----------|-----------|
+| 1 | 103 | 81.6% | 0% | 0% | 3.9% | MET |
+| 2 | 930 | 78.3% | 1.0% | 4.5% | 7.5% | MET |
+| 3 | 1,000 | 73% | 0.7% | 2.3% | 19.3% | MET |
+| 4 | 999 | 83.1% | 0.7% | 4.0% | 7.6% | MET |
 
-### Implementation spec for `calibrate-screen.mjs`
+Six prompt revisions applied across batches (see `literature/search-logs/llm-screen-prompt.md`, validation header). paperId fix applied: OpenAlex work ID (`W1234567890`) used as primary key, eliminating batch-2 unmatched-paper bug.
 
-**Input:** `args = { slug, batchNumber, promptPath, haikuModel, sonnetModel }`
-- `slug`: hypothesis slug (default: `'old-age-security-pension-crowdout'`)
-- `batchNumber`: which 1K batch to process (default: 1; batch N = papers (N-1)*1000 to N*1000)
-- `promptPath`: path to the screening prompt markdown file (default: `literature/search-logs/{slug}-llm-screen-prompt.md`)
-- `haikuModel`: override (default: `'claude-haiku-4-5-20251001'`)
-- `sonnetModel`: override (default: `'claude-sonnet-4-6'`)
+### full-screen-oas.mjs — built and run twice
 
-**Data source:** The 81K papers are NOT pre-fetched. The workflow re-queries OpenAlex using the approved query from `{slug}-query-draft.md` (machine-readable JSON block at the bottom), paginated using OpenAlex cursor, skipping to the right batch offset.
+**Run 1** (combined query, 200-paper Haiku chunks — buggy):
+- 6,400 papers fetched (OpenAlex `search=` cursor cap hit)
+- 59% escalation rate due to chunk-size bug; results inflated
+- 1,480 flagged for human review (not reliable)
 
-**Phase 1 — Fetch batch:** agent queries OpenAlex for papers (batch_number-1)*1000 to batch_number*1000, returns 1K paper records (title, abstract, doi, year).
+**Run 2** (sub-query decomposition, 100-paper Haiku chunks — correct):
+- 9 parallel sub-queries (one per CAUSE term), 12,369 unique papers
+- 523 flagged for human review (credible)
 
-**Phase 2 — Dual screen:** `parallel()` of two agents:
-- Agent A: Haiku — screens all 1K abstracts using the prompt, returns `{ paperId, verdict, confidence, reason }[]`
-- Agent B: Sonnet — same prompt, same papers, returns same schema
+**Combined master screened.json:** 12,508 papers total; 2,003 for human review (but Run 1 numbers are inflated — see below).
 
-**Phase 3 — Compare divergences:** Script (JS, no agent) computes:
-- Agreement rate (both RELEVANT, both NOT_RELEVANT, both UNCERTAIN)
-- Haiku FN rate: papers where Haiku=NOT_RELEVANT, Sonnet=RELEVANT (dangerous)
-- Haiku FP rate: papers where Haiku=RELEVANT, Sonnet=NOT_RELEVANT (annoying but safe)
-- Haiku confusion rate: papers where Haiku=UNCERTAIN, Sonnet=RELEVANT or NOT_RELEVANT
-- Sonnet UNCERTAIN rate: papers where Sonnet itself is UNCERTAIN (gray zone)
+### OpenAlex cursor cap discovery
 
-**Phase 4 — Write calibration report:** agent writes `literature/search-logs/{slug}-calibration-batch-{n}.md` containing:
-- Summary stats (agreement rate, FN rate, FP rate, Sonnet UNCERTAIN rate)
-- Whether stopping criterion met: FN rate < 3%
-- Annotated list of all divergent papers (title, both verdicts, both reasons)
-- **Prompt revision suggestions**: agent analyzes divergence patterns and proposes specific additions to the screening prompt to fix systematic errors
-- Stopping recommendation: continue to next batch, or converged
+`search=` caps cursor pagination at ~6,400 results regardless of the 79,727 total. Sub-query decomposition (9 searches, one per CAUSE term, deduplicated by OpenAlex work ID) doubled coverage to ~12,369 unique papers but still cannot reach all 79,727. Remaining papers are lower-relevance by OpenAlex ranking.
 
-**Phase 5 — Write routing rule (only when stopping criterion met):** writes `literature/search-logs/{slug}-routing-rule.md`:
-- Recommended Haiku confidence threshold for routing to Sonnet
-- Estimated cost per 1K papers under this routing rule
-- Observed FN rate at this threshold
+### RA emails and repo access
 
-**Output:** returns `{ batchNumber, agreementRate, haikuFnRate, haikuFpRate, stoppingCriterionMet, reportPath }`
-
-### Prompt schema (for calibration agent screening output)
-
-Each screened paper should return:
-```json
-{
-  "paperId": "string (doi or title hash)",
-  "title": "string",
-  "verdict": "RELEVANT | NOT_RELEVANT | UNCERTAIN",
-  "confidence": "HIGH | MEDIUM | LOW",
-  "reason": "string (one sentence)"
-}
-```
-
-### After calibration converges
-
-Once the routing rule is derived for the economic category:
-1. Update `literature/search-logs/llm-screen-prompt.md` with the final prompt version
-2. Run full screen on 81K papers using routing rule (Haiku primary, Sonnet for MEDIUM/LOW/UNCERTAIN)
-3. Output: `literature/search-logs/old-age-security-pension-crowdout.json` updated with `llm_verdict`, `llm_confidence`, `llm_reason` fields on each paper
-4. Hand survivors to `screen-titles-abstracts.mjs` for human review
-
-### Known issues / open questions
-- `args` global not injected in top-level `Workflow({ scriptPath })` calls — fix the workflow harness or pass inputs via a JSON sidecar; document in TICK-004
-- Retrieval cap still open: do we re-query OpenAlex per batch (cursor-paginated), or do we store all 81K to a local file first? Cursor approach is simpler but requires re-auth each batch. Local file approach requires ~50MB disk but is faster and more reliable for iteration.
-- The `literature-search.mjs` `dryRun` default is currently `true` — flip to `false` before running pass 2 on this hypothesis.
+- Shravan (`shravanh7472`): repo was never pushed; fixed, replied with instructions.
+- Alexandra (`AlexandraZ27`): GitHub invite expired while traveling; new invite sent, email sent with repo link.
+- Both have Write access (confirmed via `gh` CLI).
+- Both assigned `literature-search-training.md` exercise due 2026-06-21 10am.
 
 ---
 
----
+## NEXT SESSION: Protocol Redesign + Re-screen
 
-## HYPOTHESES.md status (2026-06-18)
+### The Core Problem
 
-| Version | Description | Status |
-|---------|-------------|--------|
-| v1 = `HYPOTHESES.md` | Original 65 entries, 4 flat categories | Preserved as authoritative v1 |
-| v2 | Two-tier structure + PI inline comments | Archived |
-| v3 | 47 entries, 5 sections, Economic sub-structured | Archived |
-| v4 | v3 + hierarchical outline codes (A/B/C/D/E) | Archived |
-| **v5** | **61 active entries + 2 deprecated; 14 new entries from bookmark + literature sweep** | **Current working version** |
+Current pipeline delivers ~2,000 papers/hypothesis for human review. At 65 hypotheses = 130,000 abstracts. Unworkable.
 
-New in v5: A.23 (co-residence), A.24 (dating apps), B.6 (microplastics/PFAS), B.7 (antidepressants), C.2.h (digital leisure substitution), C.3.g (student debt), D.3.a–c (psychological distress sub-section: mental health, climate anxiety, despair).
+**Target:** ~100 papers/hypothesis for human review, with LLM doing the heavy filtering.
 
-Sweep log: `literature/search-logs/hypothesis-sweep-2026-06-14.md`
-
----
-
-## What this project is
-
-Cochrane-style systematic review of every major proposed explanation for fertility decline.
-65 hypotheses in two tiers — Proximate Causes (mechanisms) + three root-cause categories (Economic / Biological / Cultural) — each
-evaluated against three phenomena (pre-modern, FDT, SDT). Per-hypothesis GRADE rating of
-causal credibility + demographic-significance verdict. Chapter per hypothesis is the atomic
-deliverable. Methodology: PROTOCOL.md. RA operating manual: RA-PLAYBOOK.md. AI context:
-AGENTS.md (give this to whatever LLM you're using at session start).
-
----
-
-## How the work is organized — two separate questions
-
-### Question 1: Task dependencies (the ticket system)
-
-Some tasks can be done at the same time (parallel); others must wait for something else to finish first (serial). | Task | Can start when… |
-|------|----------------|
-| 1A | immediately |
-| 1B | immediately — run alongside 1A, they don't touch each other |
-| 2A | 1A is done |
-| 2B | 1B is done |
-| **C** | **both 2A AND 2B are done — not just one of them** |
-
-1A and 1B can be worked simultaneously. 2A cannot start until 1A is done. 2B cannot start until 1B is done. Task C cannot start until *both* 2A and 2B are finished — the last row is the key case.
-
-The `tickets/` system encodes this with the `Blocked by` field. Our QUEUE.md separates open (start now) from blocked (wait). This is a solved problem for this project.
-
-The one thing the ticket system does not yet handle: two people picking up the same ticket at the same time. That is Shravan's TICK-008 — a lightweight real-time coordination layer on top.
-
-### Question 2: How we run the research (the piloting approach)
-
-Separate from task ordering is the question of *what* the tasks are and how we assign the 65 hypotheses across three contributors. **Decision (2026-06-14):**
-
-- **Phase 1 (weeks 1–2):** All three work through one hypothesis together — the pilot (quantity-quality tradeoff). Anup sets pace, RAs do sub-tasks. Goal: everyone knows what "done" looks like at each pipeline stage. Output: first chapter.
-- **Phase 2 (weeks 3+):** RAs each take separate hypotheses and run them independently. Parallel tracks. Anup reviews chapters.
-- **Optional Phase 2b (week 3–4):** Both RAs take the *same* hypothesis independently with their own AI tool, compare processes. Captures AI-tool differences. Lives in `meta-experiments/`.
-
-This decision will be sent to RAs in a follow-up email after Phase 1 is underway.
-
----
-
-## Work queue
-
-All pending work is tracked in `tickets/QUEUE.md`. Start there. Do not create ad-hoc tasks
-outside the ticket system.
-
-**Summary as of 2026-06-14:**
-
-| Priority | Ticket | Title | Who | Status |
-|----------|--------|-------|-----|--------|
-| 1 | TICK-007 | Gift Shravan Claude Max | Anup | open — do today |
-| 2 | TICK-002 | Fix Cultural-count in Merge Notes | any | open — quick |
-| 3 | TICK-003 | Promote batch-edits lesson | any | open — quick |
-| 4 | TICK-004 | Revisit .gitignore for .claude/workflows/ | any | open — quick |
-| 5 | TICK-008 | Design collab/ticketing system | Shravan | open — this week |
-| 6 | TICK-001 | PI review of HYPOTHESES.md | Anup | open — blocks pipeline |
-| 7 | TICK-005 | PROTOCOL.md + RA-PLAYBOOK.md readability pass | All | open — blocks OSF |
-| — | TICK-006 | OSF pre-registration | Anup | blocked (TICK-001, TICK-005) |
-| — | TICK-009 | Implement literature-search.mjs | any | blocked (TICK-001) |
-| — | TICK-010 | Run pilot (quantity-quality tradeoff) | any | blocked (TICK-009) |
-
----
-
-## State as of 2026-06-14
-
-### Done
-
-- **Project scaffolded** (2026-06-06): PROTOCOL.md, RA-PLAYBOOK.md, HYPOTHESES.md stub, full
-  directory tree, 13 workflow stubs, git + GitHub remote.
-- **RA onboarding** (2026-06-08 to 2026-06-10): RA-ONBOARDING v2.md authored and emailed.
-- **Weekly sync set up:** Saturdays 10-11am CT, 2026-06-13 through 2026-08-15 (July 4 skip).
-  Calendar event `uhni8vjlodg47msojg9cdgrd8g`.
-- **enumerate-hypotheses.mjs implemented and run** (2026-06-10): 65 hypotheses, 4 categories,
-  annotated with `**why:**` glosses.
-- **Repo renamed** `fertility-review` → `fertility-review-causes` (2026-06-13).
-- **Both RAs added as GitHub collaborators**: AlexandraZ27, shravanh7472 (2026-06-13).
-- **Bibliography system re-architected**: `datastore/studies.json` → `make bib`; Zotero
-  optional (2026-06-13).
-- **Slack deferred**: comms via email/iMessage + `escalation-log.md` (2026-06-13).
-- **RA kickoff held** (2026-06-13 10am CT): Alexandra + Shravan on Zoom. Went fine.
-  Assignment: Shravan to design team coordination/ticketing system (LLM-agnostic).
-- **Ticket system scaffolded** (2026-06-14): `tickets/` with QUEUE.md and TICK-001–010.
-- **AGENTS.md created** (2026-06-14): LLM-agnostic AI context file at repo root.
-
-### Pending immediate action (Anup, today)
-
-**TICK-007 — Gift Shravan Claude Max.**
-Shravan confirmed the plan (email thread 19ea817c430b8b49, message 17, 2026-06-14 03:04 UTC).
-When gifting, also reply to the thread confirming:
-1. Max plan gifted (instructions to activate)
-2. UChicago Enterprise (~1 month out) does support Claude Code CLI — Shravan's question
-3. Alexandra's Max plan standing by when she hits Codex limits
-
----
-
-## RA status
-
-| RA | GitHub | LLM | Status |
-|----|--------|-----|--------|
-| Alexandra Zhou | AlexandraZ27 | Codex Pro ($100/mo, self-funded) | Access confirmed; kickoff attended |
-| Shravan Haribalaraman | shravanh7472 | Claude Max (to be gifted by Anup) | Access confirmed; kickoff attended; Max pending |
-
----
-
-## Key artifacts
-
-| Artifact | Path | Notes |
-|----------|------|-------|
-| AI context file (RA-facing) | `AGENTS.md` | Give to Claude/Codex at session start |
-| Work queue | `tickets/QUEUE.md` | Start here each session |
-| Hypothesis list | `HYPOTHESES.md` | DRAFT; 65 entries; needs PI review (TICK-001) |
-| Methodology | `PROTOCOL.md` | Shareable; needs readability pass (TICK-005) |
-| RA operating manual | `RA-PLAYBOOK.md` | Needs readability pass (TICK-005) |
-| RA onboarding | `RA-ONBOARDING v2.md` | Sent to RAs 2026-06-08 |
-| Bibliography generator | `scripts/make_bib.py` | Run via `make bib` |
-| Bibliography source | `datastore/studies.json` | DOI-keyed; edit here, not in .bib files |
-| Implemented workflows | `.claude/workflows/enumerate-hypotheses.mjs` | Gitignored; TICK-004 addresses this |
-| Stub workflows | `.claude/workflows/literature-search.mjs` et al. | 11 stubs; throw on invocation |
-| Session log | `session-log.md` | Cumulative |
-| Decisions | `decisions/` | Durable design decisions |
-
----
-
-## Next session quick-start
+### New Three-Stage LLM Pipeline
 
 ```
-1. cd /Users/amalani/github/fertility/fertility-review-causes
-2. Read this handoff.md (you're here)
-3. Read tickets/QUEUE.md — pick the first open ticket assigned to you or 'any'
-4. If Anup: do TICK-007 (gift Shravan Max) first — takes 5 minutes
+Boolean search (OpenAlex sub-query decomposition)
+    ↓  ~12,000 papers
+Stage 1: Haiku strict screen  (tightened prompt)
+    ↓  ~300–500 papers
+Stage 2: Sonnet relevance ranking  (new rank-papers.mjs)
+    ↓  top 100 papers
+Stage 3: Human title/abstract review
+    ↓  ~20–30 papers flagged
+Stage 4: LLM full-text analysis
 ```
+
+### Stage 1: Tighten llm-screen-prompt.md
+
+**Flip the uncertainty tie-breaker.** Change:
+> "When uncertain: lean toward RELEVANT (false negatives are more costly than false positives in this pipeline)."
+
+To:
+> "When uncertain: mark NOT_RELEVANT. Only mark RELEVANT if there is clear evidence in the title or abstract that the paper directly studies the causal effect of pension/old-age security systems on fertility or childbearing decisions. If you cannot tell, exclude."
+
+**Tighten RELEVANT criteria.** The paper must:
+- Directly estimate the pension→fertility effect (empirical study with pension as the treatment variable), OR
+- Develop a structural/theoretical model where pension policy is the explicit causal driver of equilibrium fertility
+
+**Demote or remove** criteria that pulled in background/foundation papers:
+- OLG models where fertility is endogenous but no pension policy named → NOT_RELEVANT
+- VOC framework papers mentioning OAS as one component among many → NOT_RELEVANT unless OAS is the primary focus
+- Broad demographic transition surveys → NOT_RELEVANT
+
+**Expected outcome:** pass rate drops from ~8% to ~2–4%, yielding ~250–500 survivors from 12,500 papers.
+
+### Stage 2: Build rank-papers.mjs (does not exist yet)
+
+`.claude/workflows/rank-papers.mjs` — takes `{ slug, inputPath, topN }`:
+
+1. Reads RELEVANT + UNCERTAIN papers from screened.json
+2. Sonnet scores each paper on three dimensions (0–10):
+   - **Causal quality**: RCT/natural experiment=10, structural estimation=8, panel IV=7, DiD=6, panel OLS=4, cross-sectional=2
+   - **Hypothesis directness**: pension/OAS is primary treatment and fertility is primary outcome=10; one of several=5; background=1
+   - **Influence**: top journal + seminal status (Neher, Nugent, Ehrlich, Boldrin, Cigno etc.)=10
+3. Keep top `topN` (default 100), write ranked list to `literature/search-logs/{slug}-ranked.md`
+4. Flag top 20 as priority reads
+
+### Implementation Order Next Session
+
+1. **Revise `llm-screen-prompt.md`** — flip tie-breaker, tighten RELEVANT criteria
+2. **Run calibration batch 5** (`calibrate-screen.mjs`, `batchNumber: 5`) to validate new prompt:
+   - Target: FN rate still < 3%
+   - Target: pass rate drops from ~8% to ~2–4%
+   - If FN spikes > 5%, loosen one criterion at a time
+3. **Clear Run 1 inflated records** from screened.json (or delete and re-screen fresh):
+   ```bash
+   # Option: delete and start fresh
+   rm literature/search-logs/old-age-security-pension-crowdout-screened.json
+   ```
+4. **Re-run full-screen-oas.mjs** with new prompt on all 12K papers
+5. **Build rank-papers.mjs** and run on survivors → get to ~100
+6. **Update PROTOCOL.md §5** to document three-stage design
+
+### Key Files
+
+| File | Status | Notes |
+|------|--------|-------|
+| `.claude/workflows/calibrate-screen.mjs` | Done | `{ slug, batchNumber, promptPath }` |
+| `.claude/workflows/full-screen-oas.mjs` | Done | Sub-query decomp, 100-paper chunks, appends to screened.json |
+| `.claude/workflows/rank-papers.mjs` | **NOT YET BUILT** | Build next session — see spec above |
+| `literature/search-logs/llm-screen-prompt.md` | Needs revision | Flip tie-breaker, tighten criteria |
+| `literature/search-logs/old-age-security-pension-crowdout-screened.json` | Exists (Run 1 inflated) | Clear before re-screen |
+| `literature/search-logs/old-age-security-pension-crowdout-routing-rule.md` | Done | Update after batch 5 |
+| `PROTOCOL.md §5` | Needs update | Add Stage 2 (LLM ranking) |
+
+### Open Questions for PI
+
+1. **Acceptable FN rate with tighter prompt?** Tightening will increase FNs. Current 0.7% FN was with lenient prompt. Acceptable range with strict prompt: 3–5%? (Missed papers are borderline by definition.) PI should decide the tradeoff before batch 5.
+
+2. **Target N for human review per hypothesis?** Proposal is 100. If tighter screen yields 200–300 survivors, use ranking stage to cut to 100, or accept larger pile?
+
+3. **Re-screen Run 1 papers?** Run 1's 1,480 flagged records are inflated by the 200-chunk bug. Recommend clearing and re-screening all 12K papers with new prompt (~$5 in tokens, ~60 min). Confirm before doing.
 
 ---
 
-## Patterns and lessons learned
+## RA Meeting — 2026-06-21 10am
 
-### enumerate-hypotheses.mjs
-Ran end-to-end without intervention. Merge agent's count self-report (60) disagreed with
-actual file (65). Lesson: verify counts by reading the file, not the agent summary.
+Both RAs should arrive with:
+1. A hand-crafted boolean search query for ≥2 databases
+2. A one-paragraph annotated comparison of the four databases
+3. A mock search log entry for their query
 
-### Batch edits via script, not agent
-Agents doing many sequential Edit calls on one file stall (the `annotate-hypotheses` workflow
-stalled after ~47/65 edits). Better pattern: agent returns structured data → apply
-programmatically. Recovery: extract cached StructuredOutput from agent jsonl transcripts,
-apply via Python regex. See `temp/apply_explanations.py`. TICK-003 promotes this to decisions/.
+Do NOT share queries with each other before the meeting. Anup has the machine-generated version for comparison.
 
-### Email account discipline
-RA replies came to the UChicago account. Always check both Gmail accounts for RA threads.
+Agenda:
+- Compare three query versions (Anup's machine version + Shravan's + Alexandra's)
+- Decide on final approved query
+- Discuss the new three-stage pipeline and what RA role looks like at Stage 3 (human review of top 100)
