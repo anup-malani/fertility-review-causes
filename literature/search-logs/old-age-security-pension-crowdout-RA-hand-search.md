@@ -1,7 +1,7 @@
 # RA hand-crafted search — Old-Age Security and Pension Crowdout (C.3.c)
 
-Author: Shravan (RA). Session: pilot-0 literature-search training. Date: 2026-06-20.
-Purpose: the three practice-task outputs, built by hand BEFORE consulting the tool's
+Author: Shravan (RA).  Session: pilot-0 literature-search training.  Date: 2026-06-20.
+ Purpose: the three practice-task outputs, built by hand BEFORE consulting the tool's
 draft (`old-age-security-pension-crowdout-query-draft.md`). These are the benchmark
 against which the tool's queries get compared.
 
@@ -52,7 +52,7 @@ AND
 ```
 
 ### Lessons banked during drafting
-- A query is a hypothesis; the live count is the test. v3 looked clean and returned 10x
+- A query is a hypothesis; the live count is the test. Tier 2 looked clean and returned 10x
   the expected volume for a reason neither RA nor Claude predicted in advance.
 - Removing overlapping effect synonyms ("parity", "family size", "number of children")
   barely moved the count (4,462 -> 3,350) because those papers also match "fertility".
