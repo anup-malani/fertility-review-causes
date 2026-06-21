@@ -1,8 +1,8 @@
 # RA hand-crafted search — Old-Age Security and Pension Crowdout (C.3.c)
 
-Author: Shravan (RA).
-Session: pilot-0 literature-search training. 
-Date: 2026-06-20.
+Author: Shravan (RA).  
+Session: pilot-0 literature-search training.  
+Date: 2026-06-20.  
 Purpose: the three practice-task outputs, built by hand BEFORE consulting the tool's
 draft (`old-age-security-pension-crowdout-query-draft.md`). These are the benchmark
 against which the tool's queries get compared.
