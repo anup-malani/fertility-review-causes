@@ -73,8 +73,8 @@ For each hypothesis, the following stages are executed. **Bold** indicates a hum
 
 1. **Hypothesis approved into the master list (HYPOTHESES.md).** AI proposes candidates per category; PI approves.
 2. Search strategy drafted (query strings for OpenAlex, Semantic Scholar, Crossref, plus demography-specific sources: Demographic Research, Pop & Dev Review, Population Studies, Vienna Yearbook, PAA).
-3. Searches executed, results deduplicated, search log written to `literature/search-logs/{hypothesis-slug}.json`.
-4. Title/abstract screen against pre-registered inclusion criteria. **RA spot-checks 5–10% of decisions.**
+3. Literature search and AI screening — two phases (see §5.1 below).
+4. **RA title/abstract review** of the union of Phase 1 and Phase 2 RELEVANT papers; target 60–100 papers for full-text retrieval. RA flags each paper for retrieval or exclusion.
 5. Full-text retrieval. **RA procures PDFs the AI can't access** (UChicago library proxy, ILL, emailing authors).
 6. Full-text screen. **RA spot-checks 5–10%.**
 7. Data extraction into structured template (`extraction/{hypothesis-slug}.csv`). **RA verifies a random 10% sample against PDFs.**
@@ -85,6 +85,39 @@ For each hypothesis, the following stages are executed. **Bold** indicates a hum
 12. Chapter draft using fixed template (Section 6).
 13. **RA lay-readability check** — RA reads the chapter and flags any passage that doesn't make sense to a smart undergrad, or any claim that smells overconfident given the cited evidence.
 14. PI review and sign-off.
+
+### 5.1 Literature search and AI screening
+
+The search pipeline has two phases with orthogonal recall mechanisms: keyword relevance ranking (Phase 1) and citation network proximity (Phase 2). The two phases together screen approximately 200–600 papers per hypothesis rather than the ~12,000 that a full OpenAlex cursor pull would require.
+
+**Phase 1 — Sequential Saturation Search (`sequential-screen.mjs`)**
+
+Papers are pulled from OpenAlex in batches of 100, ordered by OpenAlex's default relevance ranking (no explicit `sort` parameter). Each batch is screened immediately by Claude Haiku against the hypothesis inclusion criteria. The yield rate — the fraction of each batch that passes as RELEVANT — is tracked across batches.
+
+Stopping rules (first met):
+- Yield < 5% for 2 consecutive batches, OR
+- 1,000 total papers screened, OR
+- OpenAlex cursor exhausted.
+
+Expected output: 20–50 RELEVANT seed papers from approximately 200–400 screened.
+
+Rationale: OpenAlex relevance scores are monotonically decreasing across pages for a given query. Saturation sampling exploits this property to concentrate screening effort on the most relevant portion of the retrieval set rather than screening exhaustively to a hard cursor cap (~6,400 results for `search=` queries).
+
+**Phase 2 — Citation Snowball (`snowball-citations.mjs`)**
+
+Phase 2 expands coverage via the citation network, using the Phase 1 RELEVANT papers as seeds.
+
+- **Phase 2a (backward citations):** All `referenced_works` for every Phase 1 RELEVANT seed are fetched from OpenAlex. Metadata is batch-retrieved and each new paper is Haiku-screened.
+- **Phase 2b (forward citations):** For the top 15 Phase 1 seeds ranked by Haiku confidence score, citing papers are fetched in parallel from three sources:
+  - OpenAlex: `filter=cites:{openalex_id}`
+  - Semantic Scholar: `/graph/v1/paper/{id}/citations`
+  - Web of Science (optional, requires `WOS_API_KEY`): `/citing?uniqueId={wos_uid}` — uses the UChicago institutional key.
+
+All papers retrieved in Phase 2 are deduplicated against the Phase 1 corpus before screening. Maximum snowball depth is 2 rounds, consistent with standard practice (Wohlin 2014); round 3 returns less than 5% new material and is not performed. Expected output: 20–50 additional RELEVANT papers.
+
+**PRISMA documentation**
+
+Phase 1 and Phase 2 are tracked separately in the PRISMA flow diagram. Each phase has its own "identified," "screened," "excluded," and "included" counts. The union of Phase 1 RELEVANT and Phase 2 RELEVANT papers forms the input to the RA title/abstract review in step 4 above.
 
 After all chapters are signed off:
 
