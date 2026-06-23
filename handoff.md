@@ -1,6 +1,6 @@
 # Handoff — fertility-review-causes
 
-**Last updated:** 2026-06-20 (evening)
+**Last updated:** 2026-06-23
 **PI:** Anup Malani
 **RAs:** Alexandra Zhou (zhitongz@uchicago.edu), Shravan Haribalaraman (shravanh@uchicago.edu)
 
@@ -8,156 +8,136 @@
 
 ## State of the Project
 
-We completed the first full LLM screening pass on the OAS/pension-crowdout hypothesis and discovered a fundamental protocol problem: the current two-stage pipeline (Boolean search → LLM screen → human review) produces ~2,000 papers per hypothesis for human review. With 65 hypotheses, that is 130,000 human-reviewed abstracts — completely unworkable for two RAs.
-
-The session ended with a decision to redesign the LLM pipeline to a three-stage process that brings each hypothesis down to ~100 papers for human review before any human eyes touch it.
+The OAS/pension-crowdout pilot has completed both automated search phases (sequential saturation screen + citation snowball) and produced 583 RELEVANT papers. The `prioritize-papers.mjs` workflow is built and ready to run. The next session should run prioritization, review the tier breakdown, and hand Tier 1 papers to the RAs for full-text retrieval.
 
 ---
 
-## What Was Accomplished This Session
+## Pipeline Architecture (Finalized)
 
-### calibrate-screen.mjs — built and validated (4 batches)
+The old plan (single 12K-paper bulk screen → rank-papers.mjs) was discarded. The final design has three automated phases before any human touches papers:
 
-`calibrate-screen.mjs` is fully implemented. It fetches 1K papers from OpenAlex, dual-screens with Haiku + Sonnet in parallel 100-paper chunks, computes divergence statistics, and writes a calibration report + routing rule.
+```
+Phase 1 — Sequential Saturation Screen   (sequential-screen.mjs)
+    Pull OpenAlex in relevance-ranked batches of 100
+    Haiku screens each batch; stop when yield < 5% for 2 consecutive batches
+    Output: ~200 RELEVANT seeds
+        ↓
+Phase 2 — Citation Snowball              (snowball-citations.mjs)
+    Backward: referenced_works of top-50 seeds → Haiku screen
+    Forward:  papers citing top-15 seeds via OpenAlex + Semantic Scholar → Haiku screen
+    Output: ~200-400 additional RELEVANT papers
+        ↓
+Phase 3 — Prioritization                 (prioritize-papers.mjs)  ← NOT YET RUN
+    Fetch abstracts from OpenAlex for all RELEVANT papers
+    Sonnet scores each paper: evidence type (0–4) + identification (0–3) + centrality (0–3)
+    Composite 0–10; Tier 1 (≥7) = definitely retrieve; Tier 2 (4–6) = retrieve if needed
+    Output: ranked list with tier assignments
+        ↓
+RA title/abstract review                                           ← NOT YET STARTED
+    RAs review Tier 1 papers, flag for full-text retrieval
+    Target: ~60–100 papers retrieved
+```
 
-Four calibration batches completed on `old-age-security-pension-crowdout`:
-
-| Batch | Papers | Agreement | Haiku FN | Haiku FP | Confusion | Criterion |
-|-------|--------|-----------|----------|----------|-----------|-----------|
-| 1 | 103 | 81.6% | 0% | 0% | 3.9% | MET |
-| 2 | 930 | 78.3% | 1.0% | 4.5% | 7.5% | MET |
-| 3 | 1,000 | 73% | 0.7% | 2.3% | 19.3% | MET |
-| 4 | 999 | 83.1% | 0.7% | 4.0% | 7.6% | MET |
-
-Six prompt revisions applied across batches (see `literature/search-logs/llm-screen-prompt.md`, validation header). paperId fix applied: OpenAlex work ID (`W1234567890`) used as primary key, eliminating batch-2 unmatched-paper bug.
-
-### full-screen-oas.mjs — built and run twice
-
-**Run 1** (combined query, 200-paper Haiku chunks — buggy):
-- 6,400 papers fetched (OpenAlex `search=` cursor cap hit)
-- 59% escalation rate due to chunk-size bug; results inflated
-- 1,480 flagged for human review (not reliable)
-
-**Run 2** (sub-query decomposition, 100-paper Haiku chunks — correct):
-- 9 parallel sub-queries (one per CAUSE term), 12,369 unique papers
-- 523 flagged for human review (credible)
-
-**Combined master screened.json:** 12,508 papers total; 2,003 for human review (but Run 1 numbers are inflated — see below).
-
-### OpenAlex cursor cap discovery
-
-`search=` caps cursor pagination at ~6,400 results regardless of the 79,727 total. Sub-query decomposition (9 searches, one per CAUSE term, deduplicated by OpenAlex work ID) doubled coverage to ~12,369 unique papers but still cannot reach all 79,727. Remaining papers are lower-relevance by OpenAlex ranking.
-
-### RA emails and repo access
-
-- Shravan (`shravanh7472`): repo was never pushed; fixed, replied with instructions.
-- Alexandra (`AlexandraZ27`): GitHub invite expired while traveling; new invite sent, email sent with repo link.
-- Both have Write access (confirmed via `gh` CLI).
-- Both assigned `literature-search-training.md` exercise due 2026-06-21 10am.
+Rationale for saturation sampling vs. bulk pull: OpenAlex relevance scores are monotonically decreasing, so the most relevant papers come first. Screening stops when yield drops, rather than pulling all ~79K papers. Full design documented in PROTOCOL.md §5.1.
 
 ---
 
-## NEXT SESSION: Protocol Redesign + Re-screen
+## OAS Pilot — Current Numbers
 
-### The Core Problem
+| Phase | Papers screened | RELEVANT | UNCERTAIN |
+|-------|---------------:|--------:|----------:|
+| Phase 1 — Sequential screen | 1,099 | 194 | 124 |
+| Phase 2a — Backward snowball | 517 | 44 | — |
+| Phase 2b — Forward snowball | 1,405 | 345 | 532 |
+| **Total** | **3,021** | **583** | — |
 
-Current pipeline delivers ~2,000 papers/hypothesis for human review. At 65 hypotheses = 130,000 abstracts. Unworkable.
+Phase 1 yield curve (stopped at 1,000-paper hard cap, not natural saturation):
 
-**Target:** ~100 papers/hypothesis for human review, with LLM doing the heavy filtering.
+| Batch | Yield | Note |
+|-------|------:|------|
+| 1 | 36.0% | |
+| 2 | 23.0% | |
+| 3–5 | 18–25% | persistently high |
+| 6 | 8.0% | first drop |
+| 7–8 | 13.0% | rebounded |
+| 9 | 21.0% | still high |
+| 10–11 | 7–8% | finally dropping |
 
-### New Three-Stage LLM Pipeline
+**Implication:** 1,000-paper cap hit before natural saturation. Consider raising to 2,000 for next hypothesis, or running two sequential-screen passes back-to-back.
+
+All RELEVANT papers: **583 total**. This is 5–10× the 60–100 target for RA review, which is why prioritization is the immediate next step.
+
+---
+
+## Immediate Next Steps
+
+### 1. Run prioritize-papers.mjs
 
 ```
-Boolean search (OpenAlex sub-query decomposition)
-    ↓  ~12,000 papers
-Stage 1: Haiku strict screen  (tightened prompt)
-    ↓  ~300–500 papers
-Stage 2: Sonnet relevance ranking  (new rank-papers.mjs)
-    ↓  top 100 papers
-Stage 3: Human title/abstract review
-    ↓  ~20–30 papers flagged
-Stage 4: LLM full-text analysis
+Workflow({ scriptPath: '.claude/workflows/prioritize-papers.mjs',
+           args: { slug: 'old-age-security-pension-crowdout' } })
 ```
 
-### Stage 1: Tighten llm-screen-prompt.md
+Output: `literature/search-logs/old-age-security-pension-crowdout-prioritized.json`
 
-**Flip the uncertainty tie-breaker.** Change:
-> "When uncertain: lean toward RELEVANT (false negatives are more costly than false positives in this pipeline)."
+After it completes, check the tier breakdown. If Tier 1 has 30–80 papers, send that list to RAs. If Tier 1 is too large (>100), filter further by Tier 1 + llm_confidence=HIGH.
 
-To:
-> "When uncertain: mark NOT_RELEVANT. Only mark RELEVANT if there is clear evidence in the title or abstract that the paper directly studies the causal effect of pension/old-age security systems on fertility or childbearing decisions. If you cannot tell, exclude."
+### 2. RA title/abstract review
 
-**Tighten RELEVANT criteria.** The paper must:
-- Directly estimate the pension→fertility effect (empirical study with pension as the treatment variable), OR
-- Develop a structural/theoretical model where pension policy is the explicit causal driver of equilibrium fertility
+Hand RAs the Tier 1 prioritized list as a CSV or Google Sheet with columns: rank, title, year, journal, doi, compositeScore, scoreRationale, llm_reason. RAs mark each paper: RETRIEVE / EXCLUDE / UNSURE.
 
-**Demote or remove** criteria that pulled in background/foundation papers:
-- OLG models where fertility is endogenous but no pension policy named → NOT_RELEVANT
-- VOC framework papers mentioning OAS as one component among many → NOT_RELEVANT unless OAS is the primary focus
-- Broad demographic transition surveys → NOT_RELEVANT
+### 3. Full-text retrieval
 
-**Expected outcome:** pass rate drops from ~8% to ~2–4%, yielding ~250–500 survivors from 12,500 papers.
+RAs retrieve PDFs for RETRIEVE papers using UChicago library proxy and ILL. Target: 40–80 PDFs.
 
-### Stage 2: Build rank-papers.mjs (does not exist yet)
+### 4. Raise hard cap for next hypothesis
 
-`.claude/workflows/rank-papers.mjs` — takes `{ slug, inputPath, topN }`:
+Edit `sequential-screen.mjs` line 40: `const HARD_CAP = 2000`. Yield never hit natural saturation at 1,000; 2,000 should catch the tail.
 
-1. Reads RELEVANT + UNCERTAIN papers from screened.json
-2. Sonnet scores each paper on three dimensions (0–10):
-   - **Causal quality**: RCT/natural experiment=10, structural estimation=8, panel IV=7, DiD=6, panel OLS=4, cross-sectional=2
-   - **Hypothesis directness**: pension/OAS is primary treatment and fertility is primary outcome=10; one of several=5; background=1
-   - **Influence**: top journal + seminal status (Neher, Nugent, Ehrlich, Boldrin, Cigno etc.)=10
-3. Keep top `topN` (default 100), write ranked list to `literature/search-logs/{slug}-ranked.md`
-4. Flag top 20 as priority reads
+---
 
-### Implementation Order Next Session
-
-1. **Revise `llm-screen-prompt.md`** — flip tie-breaker, tighten RELEVANT criteria
-2. **Run calibration batch 5** (`calibrate-screen.mjs`, `batchNumber: 5`) to validate new prompt:
-   - Target: FN rate still < 3%
-   - Target: pass rate drops from ~8% to ~2–4%
-   - If FN spikes > 5%, loosen one criterion at a time
-3. **Clear Run 1 inflated records** from screened.json (or delete and re-screen fresh):
-   ```bash
-   # Option: delete and start fresh
-   rm literature/search-logs/old-age-security-pension-crowdout-screened.json
-   ```
-4. **Re-run full-screen-oas.mjs** with new prompt on all 12K papers
-5. **Build rank-papers.mjs** and run on survivors → get to ~100
-6. **Update PROTOCOL.md §5** to document three-stage design
-
-### Key Files
+## Key Files
 
 | File | Status | Notes |
 |------|--------|-------|
-| `.claude/workflows/calibrate-screen.mjs` | Done | `{ slug, batchNumber, promptPath }` |
-| `.claude/workflows/full-screen-oas.mjs` | Done | Sub-query decomp, 100-paper chunks, appends to screened.json |
-| `.claude/workflows/rank-papers.mjs` | **NOT YET BUILT** | Build next session — see spec above |
-| `literature/search-logs/llm-screen-prompt.md` | Needs revision | Flip tie-breaker, tighten criteria |
-| `literature/search-logs/old-age-security-pension-crowdout-screened.json` | Exists (Run 1 inflated) | Clear before re-screen |
-| `literature/search-logs/old-age-security-pension-crowdout-routing-rule.md` | Done | Update after batch 5 |
-| `PROTOCOL.md §5` | Needs update | Add Stage 2 (LLM ranking) |
+| `.claude/workflows/sequential-screen.mjs` | Done | Phase 1 |
+| `.claude/workflows/snowball-citations.mjs` | Done | Phase 2 |
+| `.claude/workflows/prioritize-papers.mjs` | **Built, not yet run** | Phase 3 — run next |
+| `literature/search-logs/old-age-security-pension-crowdout-sequential-screened.json` | Done | 1,099 screened, 194 RELEVANT |
+| `literature/search-logs/old-age-security-pension-crowdout-snowball.json` | Done | 1,922 screened, 389 RELEVANT |
+| `literature/search-logs/old-age-security-pension-crowdout-prioritized.json` | **Does not exist yet** | Created by prioritize-papers.mjs |
+| `literature/search-logs/llm-screen-prompt.md` | Done (rev 9) | Changes 7–9 applied; tie-breaker = NOT_RELEVANT |
+| `PROTOCOL.md` | Done | §5.1 documents two-phase pipeline |
 
-### Open Questions for PI
-
-1. **Acceptable FN rate with tighter prompt?** Tightening will increase FNs. Current 0.7% FN was with lenient prompt. Acceptable range with strict prompt: 3–5%? (Missed papers are borderline by definition.) PI should decide the tradeoff before batch 5.
-
-2. **Target N for human review per hypothesis?** Proposal is 100. If tighter screen yields 200–300 survivors, use ranking stage to cut to 100, or accept larger pile?
-
-3. **Re-screen Run 1 papers?** Run 1's 1,480 flagged records are inflated by the 200-chunk bug. Recommend clearing and re-screening all 12K papers with new prompt (~$5 in tokens, ~60 min). Confirm before doing.
+Temp files (not committed, safe to delete after prioritization):
+- `temp/old-age-security-pension-crowdout-seq-batch-*.json` — Phase 1 raw batches
+- `temp/old-age-security-pension-crowdout-seq-verdicts-batch-*.json` — Phase 1 verdicts
+- `temp/old-age-security-pension-crowdout-snowball-*.json` — Phase 2 intermediate files
 
 ---
 
-## RA Meeting — 2026-06-21 10am
+## Design Decisions and Rationale
 
-Both RAs should arrive with:
-1. A hand-crafted boolean search query for ≥2 databases
-2. A one-paragraph annotated comparison of the four databases
-3. A mock search log entry for their query
+**Why saturation sampling instead of full cursor pull?**
+OpenAlex caps `search=` pagination at ~6,400 results. The prior approach pulled all 6,400 and screened them all (~$30, ~90 min), yielding ~500 RELEVANT. Saturation sampling screens only the top-ranked portion and stops when yield drops; it typically screened ~1,000 papers while the forward snowball recovers papers missed by keyword ranking.
 
-Do NOT share queries with each other before the meeting. Anup has the machine-generated version for comparison.
+**Why TOP_N_BACKWARD = 50 and TOP_N_FORWARD = 15?**
+With 194 seeds, running sequential referenced_works calls for all seeds exceeds the 180s agent timeout. TOP_N_BACKWARD = 50 caps sequential API calls to ~30s. TOP_N_FORWARD = 15 caps the parallel forward agents to a manageable concurrency level (15 agents × forward citations from OpenAlex + Semantic Scholar).
 
-Agenda:
-- Compare three query versions (Anup's machine version + Shravan's + Alexandra's)
-- Decide on final approved query
-- Discuss the new three-stage pipeline and what RA role looks like at Stage 3 (human review of top 100)
+**Why prompt changes 7–9?**
+Prior prompt (changes 1–6) had yield of ~8% after 1,000 papers, producing 194 RELEVANT. Combined with snowball this grew to 583. Changes 7–9 tighten the RELEVANT criteria and flip the tie-breaker to NOT_RELEVANT. These changes apply to future hypotheses — not retroactively to OAS since the pilot is already complete.
+
+**Why Sonnet for prioritization, not Haiku?**
+Scoring on evidence type and causal identification requires genuine understanding of study design (natural experiment vs. OLS vs. theory). Haiku makes too many errors on this judgment. Sonnet is more expensive but this is a one-time pass over 583 papers, not a bulk-screen.
+
+---
+
+## Open Questions
+
+1. **Tier 1 size after prioritization.** If the composite score distribution is flat (many papers score 5–6), Tier 1 may be too small or too large. May need to adjust tier thresholds or add a fourth tier.
+
+2. **Phase 1 hard cap.** Yield curve for OAS never hit natural saturation at 1,000 papers. Raise to 2,000 for next hypothesis? Tradeoff: ~2× cost and time, but better recall.
+
+3. **Applying the new pipeline to other hypotheses.** The three workflow files are slug-parameterized and reusable. Next hypothesis to pilot: recommend one with a large empirical literature (e.g., education-fertility or female-labor-supply-fertility) to stress-test the pipeline before running all 65.
+
+4. **RA role going forward.** RAs have not yet done a human screening pass on the OAS corpus. Once Tier 1 is identified, schedule a 2-hour session for RAs to work through titles and confirm retrieval decisions before ordering PDFs.
