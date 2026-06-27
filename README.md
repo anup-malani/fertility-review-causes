@@ -13,6 +13,16 @@ Start here before doing anything else in this repo:
 - **HYPOTHESES.md** — the master hypothesis list. Populated by `.claude/workflows/enumerate-hypotheses.mjs` and PI-approved before any subsequent workflow runs.
 - **.claude/workflows/** — the 13 pipeline workflows (enumeration → literature search → screening → acquisition → extraction → risk-of-bias → meta-analysis → demographic significance → GRADE rating → chapter synthesis → readability check → cross-chapter check, plus the end-to-end `pilot.mjs`).
 
+## Current search-method experiments
+
+The OAS/pension-crowdout pilot is the active methodological test case for the literature-search stage. Current method notes live in `literature/search-logs/`:
+
+- `old-age-security-pension-crowdout-hybrid-discovery-method.md` — Shravan's citation-first/top-down snowball experiment. Useful as a recall complement, but not adopted as the primary method because OpenAlex citation graph gaps capped recall.
+- `old-age-security-pension-crowdout-gold-anchored-keyword-method.md` — Shravan's proposed v2 primary method: DOI-keyed quasi-gold set, external search-string backbone, fold-local term mining, and cross-validated recall under a screening budget.
+- `old-age-security-pension-crowdout-query-clustering-method.md` — Alexandra/Codex prototype: anchor-guided query clustering, cluster scoring, budget allocation, deterministic pre-LLM ranking, and cluster-balanced snowball. Experimental; implemented in ignored `temp/` scripts, not yet adopted into `PROTOCOL.md`.
+
+Do not treat experimental search notes as protocol unless `PROTOCOL.md` is updated.
+
 ## Repository Structure
 
 ```

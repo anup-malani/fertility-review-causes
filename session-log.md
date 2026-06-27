@@ -167,6 +167,8 @@ Spans 2026-06-08 through 2026-06-10. Three threads: (1) authored and sent the RA
 - [ ] Implement `literature-search.mjs` (workflow #2): query strings for OpenAlex/Semantic Scholar/Crossref/PubMed, execute, dedupe, write `literature/search-logs/{slug}.json`
 - [ ] First RA sync Saturday 2026-06-13 at 10am CT
 
+---
+
 ## [2026-06-13 08:40] — RA setup before kickoff: repo rename, collaborators, repo-native bibliography, comms
 
 Pre-meeting session (before the 10am first RA sync) to clear everything Anup owed Alexandra Zhou and Shravan Haribalaraman. Surfaced the real onboarding thread, which lived in the **UChicago** Gmail account (not personal) — both RAs had already replied with usernames, Zotero emails, and questions that had gone unanswered since Jun 8.
@@ -423,3 +425,59 @@ Built `calibrate-screen.mjs` — the iterative Haiku/Sonnet calibration workflow
 - [ ] **Fix `args` injection** in Workflow harness (TICK-004) — wrapper workaround works but shouldn't be permanent.
 - [ ] **gbrain save:** push session notes to brain via `/mexit` at next session start.
 - [ ] **TICK-002, TICK-003, TICK-005:** still open, lower priority than full screen run.
+
+---
+
+## [2026-06-27] — OAS alternative search prototypes: audit, query clustering, anchor-guided ranking
+
+**Agent:** Codex
+**Machine:** Alexandra workspace
+**Working directory:** `/Users/alexandra/Library/CloudStorage/Box-Box/fertility-review-causes`
+
+### Summary
+
+Explored alternatives to the OAS baseline search process after Shravan's method notes identified the limits of citation-first snowballing and proposed a gold-anchored keyword method. Built three ignored `temp/` prototypes: an API-backed recall audit, a fresh clustered-search workflow, and an anchor-guided query-clustering workflow. Documented the anchor-guided method in a committed method note and drafted an email to Anup from Alexandra's perspective.
+
+### Outputs
+
+- `literature/search-logs/old-age-security-pension-crowdout-query-clustering-method.md` — method note in the style of Shravan's OAS method memos.
+- `temp/audit_search_workflow.py` and `temp/audit-search-workflow-report.md` — recall audit using decomposed OpenAlex/Crossref/Semantic Scholar-like query routes.
+- `temp/clustered_search_workflow.py` and `temp/clustered-search-workflow-report.md` — fresh clustered saturation + cluster-balanced snowball workflow, not using Anup's existing OAS outputs.
+- `temp/anchor_guided_search_workflow.py` and `temp/anchor-guided-search-workflow-report.md` — full anchor-guided query-clustering prototype.
+- `temp/email-to-anup-query-clustering-method.md` — draft email explaining the prototype, relation to Shravan's methods, and rate-limit issues.
+
+### Methodology
+
+The final prototype used hand-built OAS anchors, OpenAlex anchor resolution with DOI-first lookup and title-similarity guard, cluster scoring from anchor recovery/local yield/noise, budget allocation across query clusters, deterministic pre-LLM paper ranking, cluster-balanced snowball, and a top-100 RA/LLM handoff.
+
+Latest completed anchor-guided run:
+
+| Metric | Count |
+|---|---:|
+| Anchors resolved | 12 / 12 |
+| Keyword union after deduplication | 356 |
+| Snowball union after deduplication | 132 |
+| Final ranked union | 466 |
+| RA/LLM handoff rows | 100 |
+
+Top-100 handoff composition: Tier 1 = 87, Tier 2 = 13.
+
+### Issues Encountered
+
+- OpenAlex returned repeated `429 Too Many Requests` errors during repeated anchor resolution, cluster sampling, keyword pulls, and snowball calls.
+- One OpenAlex `Retry-After` header was extremely large; the script was interrupted to avoid sleeping for hours.
+- The workflow was patched with request throttling and capped retry/backoff, but a production version needs persistent caching and resumable stages before any heavy rerun.
+- The prototype uses deterministic heuristics, not Anup's strict LLM prompt; it should not be treated as production screening.
+
+### Decisions & Rationale
+
+- **Do not scrape Google Scholar.** Use Google Scholar, if at all, as a manual audit source for anchors. The automated prototype uses reproducible API-backed sources.
+- **Use query clustering as an operational layer, not a replacement for validation.** The best synthesis is Shravan's gold-anchored keyword method for validation plus query clustering for budget allocation/search routing.
+- **Keep prototypes in ignored `temp/`.** They are useful for method exploration but not yet formal pipeline code.
+
+### Open Items
+
+- [ ] PI decision: baseline pipeline vs. gold-anchored keyword method vs. query-clustering complement.
+- [ ] Add persistent request cache and resume files before rerunning anchor-guided search at scale.
+- [ ] Compare query-clustering output against the DOI-keyed quasi-gold set once assembled.
+- [ ] If adopted, promote from `temp/` prototype into tracked workflow infrastructure and update `PROTOCOL.md`.

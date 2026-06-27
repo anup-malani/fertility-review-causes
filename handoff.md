@@ -1,6 +1,6 @@
 # Handoff — fertility-review-causes
 
-**Last updated:** 2026-06-23
+**Last updated:** 2026-06-27
 **PI:** Anup Malani
 **RAs:** Alexandra Zhou (zhitongz@uchicago.edu), Shravan Haribalaraman (shravanh@uchicago.edu)
 
@@ -8,13 +8,19 @@
 
 ## State of the Project
 
-The OAS/pension-crowdout pilot has completed both automated search phases (sequential saturation screen + citation snowball) and produced 583 RELEVANT papers. The `prioritize-papers.mjs` workflow is built and ready to run. The next session should run prioritization, review the tier breakdown, and hand Tier 1 papers to the RAs for full-text retrieval.
+The OAS/pension-crowdout pilot has completed the PI baseline pipeline through prioritization. The prioritized output exists at `literature/search-logs/old-age-security-pension-crowdout-prioritized.json`: **542 scored RELEVANT papers**, with **74 Tier 1** papers for RA review.
+
+Two additional search-method design notes were added by Shravan:
+- `old-age-security-pension-crowdout-hybrid-discovery-method.md` — citation-first/top-down snowball experiment, evaluated but not adopted as the primary method.
+- `old-age-security-pension-crowdout-gold-anchored-keyword-method.md` — proposed v2 primary method using a DOI-keyed quasi-gold set and cross-validated keyword recall.
+
+Alexandra/Codex also prototyped an anchor-guided query-clustering alternative in ignored `temp/` scripts and documented it in `old-age-security-pension-crowdout-query-clustering-method.md`. This is **not adopted protocol**; it is a comparison candidate.
 
 ---
 
-## Pipeline Architecture (Finalized)
+## Current Baseline Pipeline Architecture
 
-The old plan (single 12K-paper bulk screen → rank-papers.mjs) was discarded. The final design has three automated phases before any human touches papers:
+The old plan (single 12K-paper bulk screen → rank-papers.mjs) was discarded. The current baseline design has three automated phases before any human touches papers:
 
 ```
 Phase 1 — Sequential Saturation Screen   (sequential-screen.mjs)
@@ -27,7 +33,7 @@ Phase 2 — Citation Snowball              (snowball-citations.mjs)
     Forward:  papers citing top-15 seeds via OpenAlex + Semantic Scholar → Haiku screen
     Output: ~200-400 additional RELEVANT papers
         ↓
-Phase 3 — Prioritization                 (prioritize-papers.mjs)  ← NOT YET RUN
+Phase 3 — Prioritization                 (prioritize-papers.mjs)  ← RUN
     Fetch abstracts from OpenAlex for all RELEVANT papers
     Sonnet scores each paper: evidence type (0–4) + identification (0–3) + centrality (0–3)
     Composite 0–10; Tier 1 (≥7) = definitely retrieve; Tier 2 (4–6) = retrieve if needed
@@ -38,7 +44,7 @@ RA title/abstract review                                           ← NOT YET S
     Target: ~60–100 papers retrieved
 ```
 
-Rationale for saturation sampling vs. bulk pull: OpenAlex relevance scores are monotonically decreasing, so the most relevant papers come first. Screening stops when yield drops, rather than pulling all ~79K papers. Full design documented in PROTOCOL.md §5.1.
+Rationale for saturation sampling vs. bulk pull: OpenAlex relevance scores are monotonically decreasing, so the most relevant papers come first. Screening stops when yield drops, rather than pulling all ~79K papers. Full design documented in PROTOCOL.md §5.1. The newer method notes question whether one OpenAlex ranking should be trusted as the primary recall mechanism.
 
 ---
 
@@ -65,34 +71,30 @@ Phase 1 yield curve (stopped at 1,000-paper hard cap, not natural saturation):
 
 **Implication:** 1,000-paper cap hit before natural saturation. Consider raising to 2,000 for next hypothesis, or running two sequential-screen passes back-to-back.
 
-All RELEVANT papers: **583 total**. This is 5–10× the 60–100 target for RA review, which is why prioritization is the immediate next step.
+All RELEVANT papers before prioritization: **583 total**. The committed prioritized file scores **542** papers (all RELEVANT in that file): Tier 1 = **74**, Tier 2 = **255**, Tier 3 = **213**.
 
 ---
 
 ## Immediate Next Steps
 
-### 1. Run prioritize-papers.mjs
+### 1. Decide which search method governs the next pilot
 
-```
-Workflow({ scriptPath: '.claude/workflows/prioritize-papers.mjs',
-           args: { slug: 'old-age-security-pension-crowdout' } })
-```
-
-Output: `literature/search-logs/old-age-security-pension-crowdout-prioritized.json`
-
-After it completes, check the tier breakdown. If Tier 1 has 30–80 papers, send that list to RAs. If Tier 1 is too large (>100), filter further by Tier 1 + llm_confidence=HIGH.
+The baseline pipeline is ready for RA review, but three search-method options now need PI choice before generalizing beyond OAS:
+- Baseline sequential saturation + snowball + prioritization.
+- Shravan's gold-anchored keyword method with cross-validated recall.
+- Alexandra/Codex anchor-guided query clustering as an operational alternative or complement.
 
 ### 2. RA title/abstract review
 
-Hand RAs the Tier 1 prioritized list as a CSV or Google Sheet with columns: rank, title, year, journal, doi, compositeScore, scoreRationale, llm_reason. RAs mark each paper: RETRIEVE / EXCLUDE / UNSURE.
+If proceeding with the baseline OAS output, hand RAs the 74 Tier 1 prioritized papers as a CSV or Google Sheet with columns: rank, title, year, journal, doi, compositeScore, scoreRationale, llm_reason. RAs mark each paper: RETRIEVE / EXCLUDE / UNSURE.
 
 ### 3. Full-text retrieval
 
 RAs retrieve PDFs for RETRIEVE papers using UChicago library proxy and ILL. Target: 40–80 PDFs.
 
-### 4. Raise hard cap for next hypothesis
+### 4. Resolve API/rate-limit strategy before reruns
 
-Edit `sequential-screen.mjs` line 40: `const HARD_CAP = 2000`. Yield never hit natural saturation at 1,000; 2,000 should catch the tail.
+Alternative query-clustering runs encountered OpenAlex `429 Too Many Requests` during repeated anchor resolution, cluster sampling, keyword pulls, and snowball calls. Any production rerun should include caching, resume support, polite throttling, bounded retry/backoff, and DOI-keyed dedup before increasing query volume.
 
 ---
 
@@ -102,17 +104,21 @@ Edit `sequential-screen.mjs` line 40: `const HARD_CAP = 2000`. Yield never hit n
 |------|--------|-------|
 | `.claude/workflows/sequential-screen.mjs` | Done | Phase 1 |
 | `.claude/workflows/snowball-citations.mjs` | Done | Phase 2 |
-| `.claude/workflows/prioritize-papers.mjs` | **Built, not yet run** | Phase 3 — run next |
+| `.claude/workflows/prioritize-papers.mjs` | Done | Phase 3 — output committed |
 | `literature/search-logs/old-age-security-pension-crowdout-sequential-screened.json` | Done | 1,099 screened, 194 RELEVANT |
 | `literature/search-logs/old-age-security-pension-crowdout-snowball.json` | Done | 1,922 screened, 389 RELEVANT |
-| `literature/search-logs/old-age-security-pension-crowdout-prioritized.json` | **Does not exist yet** | Created by prioritize-papers.mjs |
+| `literature/search-logs/old-age-security-pension-crowdout-prioritized.json` | Done | 542 scored; Tier 1 = 74 |
+| `literature/search-logs/old-age-security-pension-crowdout-hybrid-discovery-method.md` | Done | Shravan citation-first experiment; not primary |
+| `literature/search-logs/old-age-security-pension-crowdout-gold-anchored-keyword-method.md` | Done | Shravan v2 proposed method |
+| `literature/search-logs/old-age-security-pension-crowdout-query-clustering-method.md` | Drafted | Alexandra/Codex alternative prototype |
 | `literature/search-logs/llm-screen-prompt.md` | Done (rev 9) | Changes 7–9 applied; tie-breaker = NOT_RELEVANT |
 | `PROTOCOL.md` | Done | §5.1 documents two-phase pipeline |
 
-Temp files (not committed, safe to delete after prioritization):
+Temp files (ignored, not committed; preserve while evaluating search-method prototypes):
 - `temp/old-age-security-pension-crowdout-seq-batch-*.json` — Phase 1 raw batches
 - `temp/old-age-security-pension-crowdout-seq-verdicts-batch-*.json` — Phase 1 verdicts
 - `temp/old-age-security-pension-crowdout-snowball-*.json` — Phase 2 intermediate files
+- `temp/anchor_guided_search_workflow.py` and `temp/*anchor-guided*` — query-clustering prototype and outputs
 
 ---
 
@@ -134,10 +140,10 @@ Scoring on evidence type and causal identification requires genuine understandin
 
 ## Open Questions
 
-1. **Tier 1 size after prioritization.** If the composite score distribution is flat (many papers score 5–6), Tier 1 may be too small or too large. May need to adjust tier thresholds or add a fourth tier.
+1. **Primary search method for the next hypothesis.** Should the next pilot use the baseline PI pipeline, Shravan's gold-anchored keyword method, the anchor-guided query-clustering method, or some hybrid?
 
-2. **Phase 1 hard cap.** Yield curve for OAS never hit natural saturation at 1,000 papers. Raise to 2,000 for next hypothesis? Tradeoff: ~2× cost and time, but better recall.
+2. **Gold set construction.** Shravan's v2 method depends on a DOI-keyed quasi-gold set, especially a keyword-disconnected Tier B. This is the binding resource.
 
-3. **Applying the new pipeline to other hypotheses.** The three workflow files are slug-parameterized and reusable. Next hypothesis to pilot: recommend one with a large empirical literature (e.g., education-fertility or female-labor-supply-fertility) to stress-test the pipeline before running all 65.
+3. **API hygiene.** Repeated experimental runs now trigger OpenAlex 429 rate limits. Future scripts need persistent caches, resume files, and request throttling before larger reruns.
 
-4. **RA role going forward.** RAs have not yet done a human screening pass on the OAS corpus. Once Tier 1 is identified, schedule a 2-hour session for RAs to work through titles and confirm retrieval decisions before ordering PDFs.
+4. **RA role going forward.** RAs have not yet done a human screening pass on the OAS corpus. If the baseline output is accepted, schedule a 2-hour session for RAs to work through the 74 Tier 1 papers and confirm retrieval decisions before ordering PDFs.
