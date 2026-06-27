@@ -1,6 +1,6 @@
 # Work Queue
 
-Last updated: 2026-06-14
+Last updated: 2026-06-27
 
 Pick the first open ticket assigned to you or `any`. Before starting, pull/sync, then **claim** it
 (move its row to **In progress** below) before doing the work — using whichever mode is active in
@@ -41,3 +41,4 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 | [TICK-007](TICK-007-gift-shravan-claude-max.md) | Gift Shravan Claude Max | 2026-06-14 |
 | [TICK-011](TICK-011-hypotheses-recategorization.md) | Recategorize HYPOTHESES.md | 2026-06-14 (merged into TICK-001) |
 | [TICK-008](TICK-008-collab-system-design.md) | Design team collaboration/ticketing system | 2026-06-14 |
+| [TICK-013](TICK-013-agent-interop-doc.md) | Document Claude / Codex interop | 2026-06-27 |

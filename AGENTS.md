@@ -91,6 +91,7 @@ from source. Push to `main`; no branch workflow yet.
 The repo is designed to be used with any AI assistant. All instructions live in `.md` files
 that any LLM can read. Workflow scripts (`.mjs`) are Claude-specific; Codex users follow the
 same pipeline logic via their own agentic tooling, recording outputs in the same paths.
+For concrete Claude-to-Codex stage mappings, see `docs/agent-interop.md`.
 
 ---
 
