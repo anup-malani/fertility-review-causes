@@ -473,11 +473,16 @@ Top-100 handoff composition: Tier 1 = 87, Tier 2 = 13.
 
 - **Do not scrape Google Scholar.** Use Google Scholar, if at all, as a manual audit source for anchors. The automated prototype uses reproducible API-backed sources.
 - **Use query clustering as an operational layer, not a replacement for validation.** The best synthesis is Shravan's gold-anchored keyword method for validation plus query clustering for budget allocation/search routing.
+- **Meeting feedback from Anup: query clustering has substantive value.** It helps different keyword families and disciplines speak to each other, rather than relying on one broad OpenAlex ranking.
+- **Meeting feedback from Anup: keep canonical theory papers.** The meta-analysis/effect-size subset should be empirical, but search outputs should include canonical theory papers for the chapter's JEL-style theory section.
+- **Shravan synthesis handoff.** The query-clustering method note now includes implementation-facing synthesis notes: inputs, outputs, what worked, what failed, and ways to improve the method before combining it with the gold-anchored design.
 - **Keep prototypes in ignored `temp/`.** They are useful for method exploration but not yet formal pipeline code.
 
 ### Open Items
 
 - [ ] PI decision: baseline pipeline vs. gold-anchored keyword method vs. query-clustering complement.
+- [ ] Shravan synthesizes the free-search methods, using the query-clustering note §8 for the Alexandra/Codex method summary.
+- [ ] Build separate anchor lists for empirical validation/meta-analysis recall and canonical theory-section coverage.
 - [ ] Add persistent request cache and resume files before rerunning anchor-guided search at scale.
 - [ ] Compare query-clustering output against the DOI-keyed quasi-gold set once assembled.
 - [ ] If adopted, promote from `temp/` prototype into tracked workflow infrastructure and update `PROTOCOL.md`.

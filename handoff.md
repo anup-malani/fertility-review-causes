@@ -16,6 +16,12 @@ Two additional search-method design notes were added by Shravan:
 
 Alexandra/Codex also prototyped an anchor-guided query-clustering alternative in ignored `temp/` scripts and documented it in `old-age-security-pension-crowdout-query-clustering-method.md`. This is **not adopted protocol**; it is a comparison candidate.
 
+Anup's meeting feedback on 2026-06-27 clarified two objectives for the revised search design:
+- Query clustering is substantively useful because different keyword families help literatures from different disciplines speak to each other, rather than forcing the search through one OpenAlex relevance ranking.
+- Canonical theory papers should remain in search outputs because chapters should have a JEL-style theory section, even though the formal meta-analysis/effect-size subset should be empirical.
+
+Shravan will synthesize the free-search methods. The query-clustering note now includes a dedicated synthesis section with the method's inputs, outputs, what worked, what failed, and improvement paths, so it can be combined with the gold-anchored keyword design.
+
 ---
 
 ## Current Baseline Pipeline Architecture
@@ -84,6 +90,10 @@ The baseline pipeline is ready for RA review, but three search-method options no
 - Shravan's gold-anchored keyword method with cross-validated recall.
 - Alexandra/Codex anchor-guided query clustering as an operational alternative or complement.
 
+Meeting update: query clustering should be treated as a way to preserve disciplinary vocabulary diversity, not only as an API-budget device. Theory papers should be retained for theory-section coverage; empirical papers remain the validation anchors and meta-analysis candidates.
+
+Shravan synthesis task: compare the baseline search, citation-snowball complement, gold-anchored keyword method, and query-clustering wrapper. For query clustering, use `old-age-security-pension-crowdout-query-clustering-method.md` §8 as the implementation-facing summary.
+
 ### 2. RA title/abstract review
 
 If proceeding with the baseline OAS output, hand RAs the 74 Tier 1 prioritized papers as a CSV or Google Sheet with columns: rank, title, year, journal, doi, compositeScore, scoreRationale, llm_reason. RAs mark each paper: RETRIEVE / EXCLUDE / UNSURE.
@@ -142,7 +152,7 @@ Scoring on evidence type and causal identification requires genuine understandin
 
 1. **Primary search method for the next hypothesis.** Should the next pilot use the baseline PI pipeline, Shravan's gold-anchored keyword method, the anchor-guided query-clustering method, or some hybrid?
 
-2. **Gold set construction.** Shravan's v2 method depends on a DOI-keyed quasi-gold set, especially a keyword-disconnected Tier B. This is the binding resource.
+2. **Gold set construction.** Shravan's v2 method depends on a DOI-keyed quasi-gold set, especially a keyword-disconnected Tier B. This is the binding resource. Empirical papers should validate meta-analysis recall; canonical theory papers should be retained separately for theory-section coverage.
 
 3. **API hygiene.** Repeated experimental runs now trigger OpenAlex 429 rate limits. Future scripts need persistent caches, resume files, and request throttling before larger reruns.
 

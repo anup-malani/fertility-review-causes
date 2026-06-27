@@ -19,7 +19,7 @@ The OAS/pension-crowdout pilot is the active methodological test case for the li
 
 - `old-age-security-pension-crowdout-hybrid-discovery-method.md` — Shravan's citation-first/top-down snowball experiment. Useful as a recall complement, but not adopted as the primary method because OpenAlex citation graph gaps capped recall.
 - `old-age-security-pension-crowdout-gold-anchored-keyword-method.md` — Shravan's proposed v2 primary method: DOI-keyed quasi-gold set, external search-string backbone, fold-local term mining, and cross-validated recall under a screening budget.
-- `old-age-security-pension-crowdout-query-clustering-method.md` — Alexandra/Codex prototype: anchor-guided query clustering, cluster scoring, budget allocation, deterministic pre-LLM ranking, and cluster-balanced snowball. Experimental; implemented in ignored `temp/` scripts, not yet adopted into `PROTOCOL.md`.
+- `old-age-security-pension-crowdout-query-clustering-method.md` — Alexandra/Codex prototype: anchor-guided query clustering, cluster scoring, budget allocation, deterministic pre-LLM ranking, and cluster-balanced snowball. Anup's meeting feedback: query clustering is useful because different keyword families let economics, demography, and related disciplines speak to each other; canonical theory papers should remain in search outputs for the JEL-style theory section, even though the meta-analysis subset is empirical. Section 8 is written for Shravan's synthesis of the free-search methods, including inputs, outputs, limitations, and improvement paths. Experimental; implemented in ignored `temp/` scripts, not yet adopted into `PROTOCOL.md`.
 
 Do not treat experimental search notes as protocol unless `PROTOCOL.md` is updated.
 
