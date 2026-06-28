@@ -76,6 +76,37 @@ title.search → Crossref query.bibliographic fallback), similarity-guarded (tok
 executes the project-wide action items already on record (re-key on DOI, audit corrupted
 records) — now quantified, not anecdotal.
 
+#### Corruption diagnosis — WHERE it occurs (script `09_corruption_diagnostic.py`)
+
+Record-level DOI validity, split by pipeline source (strong-ID core):
+
+| source | with-DOI correct | verdict breakdown |
+|---|---|---|
+| **phase1** (keyword saturation) | **8/8 = 100%** | 5 more had no DOI |
+| **phase2** (citation snowball) | **3/26 = 11%** | 14 invalid-404, 9 wrong-paper, 4 no-DOI |
+
+**It is a DOI/record misalignment in the snowball step, not LLM hallucination.** Every one
+of the 9 wrong-paper DOIs is a *real DOI that belongs to a different paper already in this
+corpus* (shuffle test: all 9 "elsewhere in corpus = True"). The (title, W-ID) pair stays
+correct; only the DOI column is mis-joined. Same-W-ID records confirm it: `W1512976090`
+("What Explains Fertility?") carries the correct `ssrn.1406946` in its phase1 row and the
+wrong `qje/qjac038` (Abadie clustering-SE paper) in its phase2 row; `W4307711611` (Namibia)
+is correct in phase1 (`pol.20200466`) and gets another OAS paper's DOI in phase2.
+
+Refinement: phase2/**forward** rows have intact W-IDs but shuffled DOIs; the few broken
+W-IDs (chemistry/404) are phase2/**backward** rows. Bug lives in `snowball-citations.mjs`
+(Phase 2b) DOI/metadata assignment.
+
+**Actionable consequences:**
+1. **Phase1 DOIs are trustworthy** — fast-track them into the gold set without agent
+   resolution. (My dedup's "prefer published over working-paper" rule wrongly preferred the
+   corrupt phase2 DOI in several clusters; correct rule for THIS corpus: **prefer the phase1
+   DOI**.)
+2. **Corpus-wide fix is targeted and cheap:** re-fetch each record's DOI from OpenAlex by its
+   (intact, forward-row) W-ID, bypassing the shuffled DOI column — rather than a full re-pull.
+3. The headline "~71% of distinct-study DOIs wrong" is real but is an artifact of dedup
+   picking phase2 DOIs; the cleaner statement is **phase1 100% clean / phase2 ~11% clean.**
+
 - Scripts: `02_resolve_dois.py` (title→DOI w/ guard), `03_verify_dois.py` (DOI→title
   verification), `04_authoritative_resolve.py` (authoritative by-title re-resolution +
   on-disk corruption audit).
