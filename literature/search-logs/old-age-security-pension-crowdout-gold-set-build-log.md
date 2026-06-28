@@ -187,6 +187,15 @@ each record's DOI from OpenAlex by W-ID, title-guarded. Run on the full 542-pape
   share W-ID `W4307711611`; naive re-fetch gave id19 the Namibia DOI — caught by a
   uniqueness guard. Gold set stays **14/35** verified.
 
+### Output paper tiers (consensus tiering) — done, see separate doc
+
+3 output tiers formulated (commensurable with Anup's compositeScore tiers and Alexandra's
+relevant/maybe/not), based on **convergence of independent inclusion signals + gold-anchoring**;
+instantiated on the existing corpus as a demonstration. Tier 1 Core 83 / Tier 2 1,126 /
+Tier 3 1,531 / excluded 5,347. Full definition, counts, and the orthogonal-channel finding:
+`old-age-security-pension-crowdout-tiers-summary.md` (+ `*-tiers.json`,
+`source/build/goldset/12_instantiate_tiers.py`).
+
 ### 1c. Canon/theory + anchor related-work — NOT STARTED
 
 Per spec §3, Tier A also includes canon (Neher 1971, Nugent 1985, Cigno & Rosati 1996,
