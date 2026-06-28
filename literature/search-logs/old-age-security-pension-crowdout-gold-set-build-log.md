@@ -167,6 +167,26 @@ resolves and title+authors+year all match; write a JSON array to `resolver_agent
 Then `07_verify_agent_dois.py` re-verifies deterministically (the agent's confidence is not
 trusted).
 
+### 1b (corpus data-hygiene) — W-ID re-fetch (`10_wid_refetch.py`, `11_apply_to_goldset.py`)
+
+The phase-2 step shuffled the DOI column but left W-IDs (forward rows) intact, so re-fetch
+each record's DOI from OpenAlex by W-ID, title-guarded. Run on the full 542-paper corpus.
+
+- **275 distinct W-ID→DOI corrections recovered** (title-verified), committed as
+  `*-wid-doi-corrected-map.json`. Use this to re-key the corpus.
+- **Corpus-wide source split CONFIRMED:** of checkable on-disk DOIs, **phase1 = 0% wrong
+  (0/110)**, **phase2 = 47% wrong (67/141)**. Independently corroborates step 09 (Crossref:
+  phase1 8/8, phase2 3/26). The DOI corruption is a phase-2-only phenomenon.
+- **⚠ OpenAlex daily budget exhausted mid-run** (resets midnight UTC). So the broken-W-ID
+  tail (~89 "404" + 42 "drift") is **overstated** — a mix of genuinely-dead W-IDs and
+  budget-blocked requests. The 275 recoveries are solid; the dead-W-ID counts need a clean
+  **rerun after the UTC reset** for true numbers (and likely more recoveries).
+- **Did NOT shrink the gold-set residual.** The 21 hard residuals have dead/collided W-IDs
+  *and* shuffled DOIs → only title/author resolution works for them (manual or post-reset
+  agent retry). Also found a **W-ID collision**: id18 (Namibia) and id19 (Farm Families)
+  share W-ID `W4307711611`; naive re-fetch gave id19 the Namibia DOI — caught by a
+  uniqueness guard. Gold set stays **14/35** verified.
+
 ### 1c. Canon/theory + anchor related-work — NOT STARTED
 
 Per spec §3, Tier A also includes canon (Neher 1971, Nugent 1985, Cigno & Rosati 1996,
@@ -188,9 +208,13 @@ Cigno–Werding, Fenge–Scheubel), DOI-resolved authoritatively the same way, t
 
 ## Next steps (resume here)
 
+0. **After UTC midnight (OpenAlex budget reset):** rerun `10_wid_refetch.py` (cache will
+   skip the 275 done; only the budget-blocked tail re-queries) to get true dead-W-ID counts
+   and recover more corpus DOIs. Then a Crossref/web agent-retry on the gold residual.
 1. **RA residual pass** on `*-tier-a-manual-handoff.md` (21 studies). Suggested order:
    drop Category A (4) unless Shravan confirms they're real; optional automated **retry**
    on B/C/D (≈17) after API cooldown before hand-resolving (could shrink the pile a lot).
+   (W-ID re-fetch did NOT help these — their W-IDs are dead/collided.)
 2. **Part 1c** — assemble canon/theory + anchor related-work, resolve via the same resolver,
    then **stratify** the full Tier A and freeze the validation core. Reach 60–100.
 3. **Part 2** — Tier B (keyword-disconnected; orthogonal source = snowball + prior-review

@@ -35,6 +35,16 @@ AGENT FLEET (proposes)       N general-purpose agents, ~7 studies each. Prompt t
 08_build_deliverables.py     frozen verified set + categorized manual-handoff sheet
 ```
 
+## Corpus data-hygiene (re-key the corrupted DOI column)
+
+`09_corruption_diagnostic.py` localizes the corruption (phase1 0% wrong / phase2 47% wrong;
+the wrong DOIs are real DOIs of other corpus papers → a snowball DOI/record shuffle, not
+hallucination). `10_wid_refetch.py` re-fetches each record's DOI from OpenAlex **by its
+intact W-ID** (title-guarded) → `*-wid-doi-corrected-map.json` (275 corrections). `11_*`
+applies it to the gold set with a **W-ID-collision uniqueness guard**. Caveat: OpenAlex
+enforces a daily $ budget; runs that exhaust it return 404-looking errors — rerun after the
+UTC reset for true dead-W-ID counts.
+
 ## Exploratory steps (kept for provenance/audit; NOT the production path)
 
 `02`–`06` are the journey that established the corruption finding and showed pure-API
