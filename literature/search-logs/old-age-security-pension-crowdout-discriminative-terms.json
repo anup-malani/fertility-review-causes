@@ -1,0 +1,1739 @@
+[
+  {
+    "term": "fertility",
+    "block": "fertility",
+    "z": 18.26,
+    "log_odds": 1.41,
+    "gold": 200,
+    "neg": 763,
+    "is_bigram": false
+  },
+  {
+    "term": "security",
+    "block": "pension-oas",
+    "z": 15.12,
+    "log_odds": 1.56,
+    "gold": 117,
+    "neg": 374,
+    "is_bigram": false
+  },
+  {
+    "term": "endogenous",
+    "block": "other",
+    "z": 15.08,
+    "log_odds": 3.98,
+    "gold": 66,
+    "neg": 17,
+    "is_bigram": false
+  },
+  {
+    "term": "old age",
+    "block": "pension-oas",
+    "z": 12.24,
+    "log_odds": 2.26,
+    "gold": 47,
+    "neg": 72,
+    "is_bigram": true
+  },
+  {
+    "term": "old",
+    "block": "other",
+    "z": 11.56,
+    "log_odds": 2.01,
+    "gold": 48,
+    "neg": 95,
+    "is_bigram": false
+  },
+  {
+    "term": "age security",
+    "block": "pension-oas",
+    "z": 11.31,
+    "log_odds": 3.26,
+    "gold": 33,
+    "neg": 18,
+    "is_bigram": true
+  },
+  {
+    "term": "social security",
+    "block": "pension-oas",
+    "z": 11.23,
+    "log_odds": 1.35,
+    "gold": 82,
+    "neg": 327,
+    "is_bigram": true
+  },
+  {
+    "term": "endogenous fertility",
+    "block": "fertility",
+    "z": 11.19,
+    "log_odds": 4.61,
+    "gold": 46,
+    "neg": 6,
+    "is_bigram": true
+  },
+  {
+    "term": "pensions",
+    "block": "pension-oas",
+    "z": 10.2,
+    "log_odds": 1.52,
+    "gold": 56,
+    "neg": 186,
+    "is_bigram": false
+  },
+  {
+    "term": "age",
+    "block": "other",
+    "z": 8.85,
+    "log_odds": 1.35,
+    "gold": 51,
+    "neg": 202,
+    "is_bigram": false
+  },
+  {
+    "term": "growth",
+    "block": "other",
+    "z": 8.21,
+    "log_odds": 1.58,
+    "gold": 34,
+    "neg": 105,
+    "is_bigram": false
+  },
+  {
+    "term": "pay you",
+    "block": "other",
+    "z": 8.17,
+    "log_odds": 2.26,
+    "gold": 21,
+    "neg": 32,
+    "is_bigram": true
+  },
+  {
+    "term": "social",
+    "block": "other",
+    "z": 7.86,
+    "log_odds": 0.86,
+    "gold": 88,
+    "neg": 594,
+    "is_bigram": false
+  },
+  {
+    "term": "intergenerational",
+    "block": "pension-oas",
+    "z": 7.36,
+    "log_odds": 1.97,
+    "gold": 20,
+    "neg": 41,
+    "is_bigram": false
+  },
+  {
+    "term": "you",
+    "block": "other",
+    "z": 7.33,
+    "log_odds": 1.89,
+    "gold": 21,
+    "neg": 47,
+    "is_bigram": false
+  },
+  {
+    "term": "pay",
+    "block": "other",
+    "z": 7.22,
+    "log_odds": 1.85,
+    "gold": 21,
+    "neg": 49,
+    "is_bigram": false
+  },
+  {
+    "term": "children",
+    "block": "fertility",
+    "z": 7.2,
+    "log_odds": 1.34,
+    "gold": 34,
+    "neg": 135,
+    "is_bigram": false
+  },
+  {
+    "term": "payg",
+    "block": "pension-oas",
+    "z": 6.27,
+    "log_odds": 2.58,
+    "gold": 11,
+    "neg": 12,
+    "is_bigram": false
+  },
+  {
+    "term": "generations",
+    "block": "other",
+    "z": 6.12,
+    "log_odds": 2.43,
+    "gold": 11,
+    "neg": 14,
+    "is_bigram": false
+  },
+  {
+    "term": "security fertility",
+    "block": "both",
+    "z": 5.91,
+    "log_odds": 5.37,
+    "gold": 19,
+    "neg": 1,
+    "is_bigram": true
+  },
+  {
+    "term": "child care",
+    "block": "fertility",
+    "z": 5.8,
+    "log_odds": 2.78,
+    "gold": 9,
+    "neg": 8,
+    "is_bigram": true
+  },
+  {
+    "term": "you pension",
+    "block": "pension-oas",
+    "z": 5.73,
+    "log_odds": 2.34,
+    "gold": 10,
+    "neg": 14,
+    "is_bigram": true
+  },
+  {
+    "term": "pensions endogenous",
+    "block": "pension-oas",
+    "z": 5.72,
+    "log_odds": 3.73,
+    "gold": 9,
+    "neg": 3,
+    "is_bigram": true
+  },
+  {
+    "term": "overlapping",
+    "block": "other",
+    "z": 5.63,
+    "log_odds": 4.21,
+    "gold": 10,
+    "neg": 2,
+    "is_bigram": false
+  },
+  {
+    "term": "overlapping generations",
+    "block": "other",
+    "z": 5.63,
+    "log_odds": 4.21,
+    "gold": 10,
+    "neg": 2,
+    "is_bigram": true
+  },
+  {
+    "term": "theory",
+    "block": "other",
+    "z": 5.6,
+    "log_odds": 1.92,
+    "gold": 12,
+    "neg": 26,
+    "is_bigram": false
+  },
+  {
+    "term": "fertility social",
+    "block": "fertility",
+    "z": 5.53,
+    "log_odds": 5.18,
+    "gold": 15,
+    "neg": 1,
+    "is_bigram": true
+  },
+  {
+    "term": "intergenerational transfers",
+    "block": "pension-oas",
+    "z": 5.45,
+    "log_odds": 3.61,
+    "gold": 8,
+    "neg": 3,
+    "is_bigram": true
+  },
+  {
+    "term": "payg pensions",
+    "block": "pension-oas",
+    "z": 5.45,
+    "log_odds": 3.61,
+    "gold": 8,
+    "neg": 3,
+    "is_bigram": true
+  },
+  {
+    "term": "transfers",
+    "block": "pension-oas",
+    "z": 5.31,
+    "log_odds": 1.68,
+    "gold": 13,
+    "neg": 36,
+    "is_bigram": false
+  },
+  {
+    "term": "security endogenous",
+    "block": "pension-oas",
+    "z": 5.21,
+    "log_odds": 4.0,
+    "gold": 8,
+    "neg": 2,
+    "is_bigram": true
+  },
+  {
+    "term": "hypothesis",
+    "block": "other",
+    "z": 5.15,
+    "log_odds": 3.49,
+    "gold": 7,
+    "neg": 3,
+    "is_bigram": false
+  },
+  {
+    "term": "allowances",
+    "block": "other",
+    "z": 5.15,
+    "log_odds": 3.49,
+    "gold": 7,
+    "neg": 3,
+    "is_bigram": false
+  },
+  {
+    "term": "endogenous growth",
+    "block": "other",
+    "z": 5.07,
+    "log_odds": 4.92,
+    "gold": 11,
+    "neg": 1,
+    "is_bigram": true
+  },
+  {
+    "term": "economic growth",
+    "block": "other",
+    "z": 4.52,
+    "log_odds": 1.44,
+    "gold": 12,
+    "neg": 43,
+    "is_bigram": true
+  },
+  {
+    "term": "security hypothesis",
+    "block": "pension-oas",
+    "z": 4.44,
+    "log_odds": 4.52,
+    "gold": 7,
+    "neg": 1,
+    "is_bigram": true
+  },
+  {
+    "term": "pension",
+    "block": "pension-oas",
+    "z": 4.43,
+    "log_odds": 0.52,
+    "gold": 71,
+    "neg": 697,
+    "is_bigram": false
+  },
+  {
+    "term": "support",
+    "block": "other",
+    "z": 4.41,
+    "log_odds": 1.39,
+    "gold": 12,
+    "neg": 45,
+    "is_bigram": false
+  },
+  {
+    "term": "value children",
+    "block": "fertility",
+    "z": 4.4,
+    "log_odds": 3.16,
+    "gold": 5,
+    "neg": 3,
+    "is_bigram": true
+  },
+  {
+    "term": "care policies",
+    "block": "other",
+    "z": 4.36,
+    "log_odds": 2.88,
+    "gold": 5,
+    "neg": 4,
+    "is_bigram": true
+  },
+  {
+    "term": "rural india",
+    "block": "other",
+    "z": 4.23,
+    "log_odds": 4.38,
+    "gold": 6,
+    "neg": 1,
+    "is_bigram": true
+  },
+  {
+    "term": "capital",
+    "block": "other",
+    "z": 4.2,
+    "log_odds": 1.31,
+    "gold": 12,
+    "neg": 49,
+    "is_bigram": false
+  },
+  {
+    "term": "motives",
+    "block": "other",
+    "z": 4.17,
+    "log_odds": 2.49,
+    "gold": 5,
+    "neg": 6,
+    "is_bigram": false
+  },
+  {
+    "term": "optimal",
+    "block": "other",
+    "z": 4.13,
+    "log_odds": 1.54,
+    "gold": 9,
+    "neg": 29,
+    "is_bigram": false
+  },
+  {
+    "term": "human capital",
+    "block": "other",
+    "z": 4.02,
+    "log_odds": 1.6,
+    "gold": 8,
+    "neg": 24,
+    "is_bigram": true
+  },
+  {
+    "term": "security family",
+    "block": "pension-oas",
+    "z": 3.98,
+    "log_odds": 4.21,
+    "gold": 5,
+    "neg": 1,
+    "is_bigram": true
+  },
+  {
+    "term": "you social",
+    "block": "other",
+    "z": 3.98,
+    "log_odds": 4.21,
+    "gold": 5,
+    "neg": 1,
+    "is_bigram": true
+  },
+  {
+    "term": "child",
+    "block": "fertility",
+    "z": 3.98,
+    "log_odds": 0.85,
+    "gold": 23,
+    "neg": 155,
+    "is_bigram": false
+  },
+  {
+    "term": "altruism",
+    "block": "other",
+    "z": 3.92,
+    "log_odds": 3.34,
+    "gold": 4,
+    "neg": 2,
+    "is_bigram": false
+  },
+  {
+    "term": "child allowances",
+    "block": "fertility",
+    "z": 3.92,
+    "log_odds": 3.34,
+    "gold": 4,
+    "neg": 2,
+    "is_bigram": true
+  },
+  {
+    "term": "age pensions",
+    "block": "pension-oas",
+    "z": 3.82,
+    "log_odds": 2.66,
+    "gold": 4,
+    "neg": 4,
+    "is_bigram": true
+  },
+  {
+    "term": "human",
+    "block": "other",
+    "z": 3.77,
+    "log_odds": 1.29,
+    "gold": 10,
+    "neg": 42,
+    "is_bigram": false
+  },
+  {
+    "term": "markets",
+    "block": "other",
+    "z": 3.76,
+    "log_odds": 1.78,
+    "gold": 6,
+    "neg": 15,
+    "is_bigram": false
+  },
+  {
+    "term": "family fertility",
+    "block": "fertility",
+    "z": 3.7,
+    "log_odds": 2.45,
+    "gold": 4,
+    "neg": 5,
+    "is_bigram": true
+  },
+  {
+    "term": "pensions fertility",
+    "block": "both",
+    "z": 3.69,
+    "log_odds": 6.92,
+    "gold": 20,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "reform fertility",
+    "block": "fertility",
+    "z": 3.68,
+    "log_odds": 4.0,
+    "gold": 4,
+    "neg": 1,
+    "is_bigram": true
+  },
+  {
+    "term": "saving fertility",
+    "block": "both",
+    "z": 3.68,
+    "log_odds": 4.0,
+    "gold": 4,
+    "neg": 1,
+    "is_bigram": true
+  },
+  {
+    "term": "fertility germany",
+    "block": "fertility",
+    "z": 3.68,
+    "log_odds": 4.0,
+    "gold": 4,
+    "neg": 1,
+    "is_bigram": true
+  },
+  {
+    "term": "incentive",
+    "block": "other",
+    "z": 3.57,
+    "log_odds": 2.27,
+    "gold": 4,
+    "neg": 6,
+    "is_bigram": false
+  },
+  {
+    "term": "savings",
+    "block": "pension-oas",
+    "z": 3.5,
+    "log_odds": 1.26,
+    "gold": 9,
+    "neg": 39,
+    "is_bigram": false
+  },
+  {
+    "term": "policies",
+    "block": "other",
+    "z": 3.44,
+    "log_odds": 0.85,
+    "gold": 17,
+    "neg": 114,
+    "is_bigram": false
+  },
+  {
+    "term": "fertility related",
+    "block": "fertility",
+    "z": 3.4,
+    "log_odds": 3.06,
+    "gold": 3,
+    "neg": 2,
+    "is_bigram": true
+  },
+  {
+    "term": "security rural",
+    "block": "pension-oas",
+    "z": 3.4,
+    "log_odds": 3.06,
+    "gold": 3,
+    "neg": 2,
+    "is_bigram": true
+  },
+  {
+    "term": "bequests",
+    "block": "other",
+    "z": 3.4,
+    "log_odds": 3.06,
+    "gold": 3,
+    "neg": 2,
+    "is_bigram": false
+  },
+  {
+    "term": "fertility theory",
+    "block": "fertility",
+    "z": 3.4,
+    "log_odds": 3.06,
+    "gold": 3,
+    "neg": 2,
+    "is_bigram": true
+  },
+  {
+    "term": "public education",
+    "block": "other",
+    "z": 3.4,
+    "log_odds": 3.06,
+    "gold": 3,
+    "neg": 2,
+    "is_bigram": true
+  },
+  {
+    "term": "age support",
+    "block": "other",
+    "z": 3.4,
+    "log_odds": 3.06,
+    "gold": 3,
+    "neg": 2,
+    "is_bigram": true
+  },
+  {
+    "term": "insurance",
+    "block": "pension-oas",
+    "z": 3.37,
+    "log_odds": 0.89,
+    "gold": 15,
+    "neg": 96,
+    "is_bigram": false
+  },
+  {
+    "term": "altruistic",
+    "block": "other",
+    "z": 3.31,
+    "log_odds": 2.66,
+    "gold": 3,
+    "neg": 3,
+    "is_bigram": false
+  },
+  {
+    "term": "children old",
+    "block": "fertility",
+    "z": 3.3,
+    "log_odds": 3.73,
+    "gold": 3,
+    "neg": 1,
+    "is_bigram": true
+  },
+  {
+    "term": "savings fertility",
+    "block": "both",
+    "z": 3.3,
+    "log_odds": 3.73,
+    "gold": 3,
+    "neg": 1,
+    "is_bigram": true
+  },
+  {
+    "term": "growth fertility",
+    "block": "fertility",
+    "z": 3.3,
+    "log_odds": 3.73,
+    "gold": 3,
+    "neg": 1,
+    "is_bigram": true
+  },
+  {
+    "term": "fertility retirement",
+    "block": "both",
+    "z": 3.3,
+    "log_odds": 3.73,
+    "gold": 3,
+    "neg": 1,
+    "is_bigram": true
+  },
+  {
+    "term": "dynastic",
+    "block": "other",
+    "z": 3.3,
+    "log_odds": 3.73,
+    "gold": 3,
+    "neg": 1,
+    "is_bigram": false
+  },
+  {
+    "term": "security saving",
+    "block": "pension-oas",
+    "z": 3.3,
+    "log_odds": 3.73,
+    "gold": 3,
+    "neg": 1,
+    "is_bigram": true
+  },
+  {
+    "term": "security reform",
+    "block": "pension-oas",
+    "z": 3.28,
+    "log_odds": 1.67,
+    "gold": 5,
+    "neg": 14,
+    "is_bigram": true
+  },
+  {
+    "term": "externalities",
+    "block": "other",
+    "z": 3.17,
+    "log_odds": 2.38,
+    "gold": 3,
+    "neg": 4,
+    "is_bigram": false
+  },
+  {
+    "term": "fertility education",
+    "block": "fertility",
+    "z": 3.17,
+    "log_odds": 2.38,
+    "gold": 3,
+    "neg": 4,
+    "is_bigram": true
+  },
+  {
+    "term": "fertility human",
+    "block": "fertility",
+    "z": 3.17,
+    "log_odds": 2.38,
+    "gold": 3,
+    "neg": 4,
+    "is_bigram": true
+  },
+  {
+    "term": "pension system",
+    "block": "pension-oas",
+    "z": 3.11,
+    "log_odds": 0.79,
+    "gold": 16,
+    "neg": 115,
+    "is_bigram": true
+  },
+  {
+    "term": "public pensions",
+    "block": "pension-oas",
+    "z": 3.11,
+    "log_odds": 1.27,
+    "gold": 7,
+    "neg": 30,
+    "is_bigram": true
+  },
+  {
+    "term": "value",
+    "block": "other",
+    "z": 3.08,
+    "log_odds": 1.54,
+    "gold": 5,
+    "neg": 16,
+    "is_bigram": false
+  },
+  {
+    "term": "public",
+    "block": "other",
+    "z": 3.05,
+    "log_odds": 0.65,
+    "gold": 22,
+    "neg": 185,
+    "is_bigram": false
+  },
+  {
+    "term": "payg pension",
+    "block": "pension-oas",
+    "z": 3.02,
+    "log_odds": 2.17,
+    "gold": 3,
+    "neg": 5,
+    "is_bigram": true
+  },
+  {
+    "term": "fertility child",
+    "block": "fertility",
+    "z": 3.02,
+    "log_odds": 2.17,
+    "gold": 3,
+    "neg": 5,
+    "is_bigram": true
+  },
+  {
+    "term": "strategic",
+    "block": "other",
+    "z": 3.02,
+    "log_odds": 2.17,
+    "gold": 3,
+    "neg": 5,
+    "is_bigram": false
+  },
+  {
+    "term": "pension systems",
+    "block": "pension-oas",
+    "z": 2.95,
+    "log_odds": 0.97,
+    "gold": 10,
+    "neg": 59,
+    "is_bigram": true
+  },
+  {
+    "term": "economies",
+    "block": "other",
+    "z": 2.87,
+    "log_odds": 1.99,
+    "gold": 3,
+    "neg": 6,
+    "is_bigram": false
+  },
+  {
+    "term": "fertility behaviour",
+    "block": "fertility",
+    "z": 2.87,
+    "log_odds": 1.99,
+    "gold": 3,
+    "neg": 6,
+    "is_bigram": true
+  },
+  {
+    "term": "fertility rural",
+    "block": "fertility",
+    "z": 2.87,
+    "log_odds": 1.99,
+    "gold": 3,
+    "neg": 6,
+    "is_bigram": true
+  },
+  {
+    "term": "fertility decisions",
+    "block": "fertility",
+    "z": 2.84,
+    "log_odds": 1.6,
+    "gold": 4,
+    "neg": 12,
+    "is_bigram": true
+  },
+  {
+    "term": "developing countries",
+    "block": "other",
+    "z": 2.82,
+    "log_odds": 1.38,
+    "gold": 5,
+    "neg": 19,
+    "is_bigram": true
+  },
+  {
+    "term": "system",
+    "block": "other",
+    "z": 2.75,
+    "log_odds": 0.57,
+    "gold": 23,
+    "neg": 212,
+    "is_bigram": false
+  },
+  {
+    "term": "philippines",
+    "block": "other",
+    "z": 2.72,
+    "log_odds": 1.84,
+    "gold": 3,
+    "neg": 7,
+    "is_bigram": false
+  },
+  {
+    "term": "india",
+    "block": "other",
+    "z": 2.7,
+    "log_odds": 0.99,
+    "gold": 8,
+    "neg": 46,
+    "is_bigram": false
+  },
+  {
+    "term": "childcare",
+    "block": "fertility",
+    "z": 2.64,
+    "log_odds": 1.46,
+    "gold": 4,
+    "neg": 14,
+    "is_bigram": false
+  },
+  {
+    "term": "taiwan",
+    "block": "other",
+    "z": 2.54,
+    "log_odds": 1.39,
+    "gold": 4,
+    "neg": 15,
+    "is_bigram": false
+  },
+  {
+    "term": "fertility behavior",
+    "block": "fertility",
+    "z": 2.46,
+    "log_odds": 1.6,
+    "gold": 3,
+    "neg": 9,
+    "is_bigram": true
+  },
+  {
+    "term": "lifetime",
+    "block": "other",
+    "z": 2.46,
+    "log_odds": 1.6,
+    "gold": 3,
+    "neg": 9,
+    "is_bigram": false
+  },
+  {
+    "term": "contribution pension",
+    "block": "pension-oas",
+    "z": 2.46,
+    "log_odds": 1.6,
+    "gold": 3,
+    "neg": 9,
+    "is_bigram": true
+  },
+  {
+    "term": "decisions",
+    "block": "other",
+    "z": 2.43,
+    "log_odds": 0.95,
+    "gold": 7,
+    "neg": 42,
+    "is_bigram": false
+  },
+  {
+    "term": "good",
+    "block": "other",
+    "z": 2.34,
+    "log_odds": 1.5,
+    "gold": 3,
+    "neg": 10,
+    "is_bigram": false
+  },
+  {
+    "term": "longevity",
+    "block": "other",
+    "z": 2.28,
+    "log_odds": 1.22,
+    "gold": 4,
+    "neg": 18,
+    "is_bigram": false
+  },
+  {
+    "term": "public pension",
+    "block": "pension-oas",
+    "z": 2.24,
+    "log_odds": 0.87,
+    "gold": 7,
+    "neg": 46,
+    "is_bigram": true
+  },
+  {
+    "term": "security motive",
+    "block": "pension-oas",
+    "z": 2.18,
+    "log_odds": 6.92,
+    "gold": 7,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "motive",
+    "block": "other",
+    "z": 2.18,
+    "log_odds": 6.92,
+    "gold": 7,
+    "neg": 0,
+    "is_bigram": false
+  },
+  {
+    "term": "rural",
+    "block": "other",
+    "z": 2.08,
+    "log_odds": 0.6,
+    "gold": 12,
+    "neg": 107,
+    "is_bigram": false
+  },
+  {
+    "term": "demographic change",
+    "block": "other",
+    "z": 2.05,
+    "log_odds": 1.08,
+    "gold": 4,
+    "neg": 21,
+    "is_bigram": true
+  },
+  {
+    "term": "pension fertility",
+    "block": "both",
+    "z": 2.02,
+    "log_odds": 6.92,
+    "gold": 6,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "revisited",
+    "block": "other",
+    "z": 2.02,
+    "log_odds": 1.25,
+    "gold": 3,
+    "neg": 13,
+    "is_bigram": false
+  },
+  {
+    "term": "fertility pension",
+    "block": "both",
+    "z": 2.02,
+    "log_odds": 6.92,
+    "gold": 6,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "systems",
+    "block": "other",
+    "z": 1.99,
+    "log_odds": 0.6,
+    "gold": 11,
+    "neg": 98,
+    "is_bigram": false
+  },
+  {
+    "term": "education",
+    "block": "other",
+    "z": 1.96,
+    "log_odds": 0.62,
+    "gold": 10,
+    "neg": 87,
+    "is_bigram": false
+  },
+  {
+    "term": "economic",
+    "block": "other",
+    "z": 1.91,
+    "log_odds": 0.4,
+    "gold": 21,
+    "neg": 233,
+    "is_bigram": false
+  },
+  {
+    "term": "saving",
+    "block": "pension-oas",
+    "z": 1.9,
+    "log_odds": 0.72,
+    "gold": 7,
+    "neg": 54,
+    "is_bigram": false
+  },
+  {
+    "term": "fertility endogenous",
+    "block": "fertility",
+    "z": 1.85,
+    "log_odds": 6.92,
+    "gold": 5,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "plans",
+    "block": "other",
+    "z": 1.84,
+    "log_odds": 1.12,
+    "gold": 3,
+    "neg": 15,
+    "is_bigram": false
+  },
+  {
+    "term": "micro",
+    "block": "other",
+    "z": 1.75,
+    "log_odds": 1.06,
+    "gold": 3,
+    "neg": 16,
+    "is_bigram": false
+  },
+  {
+    "term": "developing",
+    "block": "other",
+    "z": 1.73,
+    "log_odds": 0.79,
+    "gold": 5,
+    "neg": 36,
+    "is_bigram": false
+  },
+  {
+    "term": "pension reform",
+    "block": "pension-oas",
+    "z": 1.67,
+    "log_odds": 0.59,
+    "gold": 8,
+    "neg": 72,
+    "is_bigram": true
+  },
+  {
+    "term": "defined contribution",
+    "block": "other",
+    "z": 1.67,
+    "log_odds": 1.0,
+    "gold": 3,
+    "neg": 17,
+    "is_bigram": true
+  },
+  {
+    "term": "replacement",
+    "block": "other",
+    "z": 1.59,
+    "log_odds": 0.95,
+    "gold": 3,
+    "neg": 18,
+    "is_bigram": false
+  },
+  {
+    "term": "demographic transition",
+    "block": "other",
+    "z": 1.54,
+    "log_odds": 0.69,
+    "gold": 5,
+    "neg": 40,
+    "is_bigram": true
+  },
+  {
+    "term": "life cycle",
+    "block": "other",
+    "z": 1.52,
+    "log_odds": 0.9,
+    "gold": 3,
+    "neg": 19,
+    "is_bigram": true
+  },
+  {
+    "term": "design",
+    "block": "other",
+    "z": 1.52,
+    "log_odds": 0.9,
+    "gold": 3,
+    "neg": 19,
+    "is_bigram": false
+  },
+  {
+    "term": "parents",
+    "block": "other",
+    "z": 1.45,
+    "log_odds": 0.86,
+    "gold": 3,
+    "neg": 20,
+    "is_bigram": false
+  },
+  {
+    "term": "children philippines",
+    "block": "fertility",
+    "z": 1.43,
+    "log_odds": 6.92,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "pensions child",
+    "block": "both",
+    "z": 1.43,
+    "log_odds": 6.92,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "ssrn",
+    "block": "other",
+    "z": 1.43,
+    "log_odds": 6.92,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": false
+  },
+  {
+    "term": "related",
+    "block": "other",
+    "z": 1.43,
+    "log_odds": 0.72,
+    "gold": 4,
+    "neg": 31,
+    "is_bigram": false
+  },
+  {
+    "term": "related pensions",
+    "block": "pension-oas",
+    "z": 1.43,
+    "log_odds": 6.92,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "pension child",
+    "block": "both",
+    "z": 1.43,
+    "log_odds": 6.92,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "stochastic fertility",
+    "block": "fertility",
+    "z": 1.43,
+    "log_odds": 6.92,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "zur",
+    "block": "other",
+    "z": 1.43,
+    "log_odds": 6.92,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": false
+  },
+  {
+    "term": "child policies",
+    "block": "fertility",
+    "z": 1.43,
+    "log_odds": 6.92,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "endogenous demographic",
+    "block": "other",
+    "z": 1.43,
+    "log_odds": 6.92,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "incentive children",
+    "block": "fertility",
+    "z": 1.43,
+    "log_odds": 6.92,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "motive fertility",
+    "block": "fertility",
+    "z": 1.43,
+    "log_odds": 6.92,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "behavior",
+    "block": "other",
+    "z": 1.43,
+    "log_odds": 0.72,
+    "gold": 4,
+    "neg": 31,
+    "is_bigram": false
+  },
+  {
+    "term": "cycle",
+    "block": "other",
+    "z": 1.38,
+    "log_odds": 0.81,
+    "gold": 3,
+    "neg": 21,
+    "is_bigram": false
+  },
+  {
+    "term": "behaviour",
+    "block": "other",
+    "z": 1.38,
+    "log_odds": 0.81,
+    "gold": 3,
+    "neg": 21,
+    "is_bigram": false
+  },
+  {
+    "term": "labor",
+    "block": "other",
+    "z": 1.34,
+    "log_odds": 0.39,
+    "gold": 11,
+    "neg": 124,
+    "is_bigram": false
+  },
+  {
+    "term": "family",
+    "block": "other",
+    "z": 1.32,
+    "log_odds": 0.29,
+    "gold": 19,
+    "neg": 241,
+    "is_bigram": false
+  },
+  {
+    "term": "reform",
+    "block": "other",
+    "z": 1.31,
+    "log_odds": 0.34,
+    "gold": 14,
+    "neg": 168,
+    "is_bigram": false
+  },
+  {
+    "term": "size",
+    "block": "other",
+    "z": 1.28,
+    "log_odds": 0.64,
+    "gold": 4,
+    "neg": 34,
+    "is_bigram": false
+  },
+  {
+    "term": "defined",
+    "block": "other",
+    "z": 1.25,
+    "log_odds": 0.73,
+    "gold": 3,
+    "neg": 23,
+    "is_bigram": false
+  },
+  {
+    "term": "stochastic",
+    "block": "other",
+    "z": 1.25,
+    "log_odds": 0.73,
+    "gold": 3,
+    "neg": 23,
+    "is_bigram": false
+  },
+  {
+    "term": "labor supply",
+    "block": "other",
+    "z": 1.23,
+    "log_odds": 0.61,
+    "gold": 4,
+    "neg": 35,
+    "is_bigram": true
+  },
+  {
+    "term": "fertility decline",
+    "block": "fertility",
+    "z": 1.13,
+    "log_odds": 0.65,
+    "gold": 3,
+    "neg": 25,
+    "is_bigram": true
+  },
+  {
+    "term": "incentives",
+    "block": "other",
+    "z": 1.02,
+    "log_odds": 0.59,
+    "gold": 3,
+    "neg": 27,
+    "is_bigram": false
+  },
+  {
+    "term": "security system",
+    "block": "pension-oas",
+    "z": 1.02,
+    "log_odds": 0.59,
+    "gold": 3,
+    "neg": 27,
+    "is_bigram": true
+  },
+  {
+    "term": "investment",
+    "block": "other",
+    "z": 0.92,
+    "log_odds": 0.45,
+    "gold": 4,
+    "neg": 42,
+    "is_bigram": false
+  },
+  {
+    "term": "change",
+    "block": "other",
+    "z": 0.91,
+    "log_odds": 0.36,
+    "gold": 6,
+    "neg": 70,
+    "is_bigram": false
+  },
+  {
+    "term": "care",
+    "block": "other",
+    "z": 0.82,
+    "log_odds": 0.23,
+    "gold": 11,
+    "neg": 149,
+    "is_bigram": false
+  },
+  {
+    "term": "non",
+    "block": "other",
+    "z": 0.82,
+    "log_odds": 0.46,
+    "gold": 3,
+    "neg": 31,
+    "is_bigram": false
+  },
+  {
+    "term": "international",
+    "block": "other",
+    "z": 0.82,
+    "log_odds": 0.46,
+    "gold": 3,
+    "neg": 31,
+    "is_bigram": false
+  },
+  {
+    "term": "labor force",
+    "block": "other",
+    "z": 0.73,
+    "log_odds": 0.41,
+    "gold": 3,
+    "neg": 33,
+    "is_bigram": true
+  },
+  {
+    "term": "transition",
+    "block": "other",
+    "z": 0.72,
+    "log_odds": 0.26,
+    "gold": 7,
+    "neg": 92,
+    "is_bigram": false
+  },
+  {
+    "term": "force participation",
+    "block": "other",
+    "z": 0.65,
+    "log_odds": 0.36,
+    "gold": 3,
+    "neg": 35,
+    "is_bigram": true
+  },
+  {
+    "term": "contribution",
+    "block": "other",
+    "z": 0.65,
+    "log_odds": 0.36,
+    "gold": 3,
+    "neg": 35,
+    "is_bigram": false
+  },
+  {
+    "term": "benefits",
+    "block": "other",
+    "z": 0.57,
+    "log_odds": 0.24,
+    "gold": 5,
+    "neg": 67,
+    "is_bigram": false
+  },
+  {
+    "term": "supply",
+    "block": "other",
+    "z": 0.47,
+    "log_odds": 0.22,
+    "gold": 4,
+    "neg": 55,
+    "is_bigram": false
+  },
+  {
+    "term": "economy",
+    "block": "other",
+    "z": 0.38,
+    "log_odds": 0.18,
+    "gold": 4,
+    "neg": 58,
+    "is_bigram": false
+  },
+  {
+    "term": "private",
+    "block": "other",
+    "z": 0.34,
+    "log_odds": 0.19,
+    "gold": 3,
+    "neg": 43,
+    "is_bigram": false
+  },
+  {
+    "term": "demographic",
+    "block": "other",
+    "z": 0.22,
+    "log_odds": 0.05,
+    "gold": 16,
+    "neg": 271,
+    "is_bigram": false
+  },
+  {
+    "term": "market",
+    "block": "other",
+    "z": 0.21,
+    "log_odds": 0.09,
+    "gold": 5,
+    "neg": 81,
+    "is_bigram": false
+  },
+  {
+    "term": "decline",
+    "block": "other",
+    "z": 0.21,
+    "log_odds": 0.11,
+    "gold": 3,
+    "neg": 47,
+    "is_bigram": false
+  },
+  {
+    "term": "germany",
+    "block": "other",
+    "z": 0.19,
+    "log_odds": 0.07,
+    "gold": 6,
+    "neg": 99,
+    "is_bigram": false
+  },
+  {
+    "term": "risk",
+    "block": "other",
+    "z": 0.11,
+    "log_odds": 0.05,
+    "gold": 5,
+    "neg": 85,
+    "is_bigram": false
+  },
+  {
+    "term": "italy",
+    "block": "other",
+    "z": 0.03,
+    "log_odds": 0.02,
+    "gold": 3,
+    "neg": 53,
+    "is_bigram": false
+  },
+  {
+    "term": "force",
+    "block": "other",
+    "z": 0.0,
+    "log_odds": 0.0,
+    "gold": 3,
+    "neg": 54,
+    "is_bigram": false
+  },
+  {
+    "term": "marriage",
+    "block": "other",
+    "z": -0.11,
+    "log_odds": -0.06,
+    "gold": 3,
+    "neg": 58,
+    "is_bigram": false
+  },
+  {
+    "term": "reforms",
+    "block": "other",
+    "z": -0.16,
+    "log_odds": -0.08,
+    "gold": 3,
+    "neg": 60,
+    "is_bigram": false
+  },
+  {
+    "term": "retirement",
+    "block": "pension-oas",
+    "z": -0.17,
+    "log_odds": -0.04,
+    "gold": 14,
+    "neg": 266,
+    "is_bigram": false
+  },
+  {
+    "term": "countries",
+    "block": "other",
+    "z": -0.27,
+    "log_odds": -0.09,
+    "gold": 8,
+    "neg": 161,
+    "is_bigram": false
+  },
+  {
+    "term": "participation",
+    "block": "other",
+    "z": -0.28,
+    "log_odds": -0.14,
+    "gold": 3,
+    "neg": 65,
+    "is_bigram": false
+  },
+  {
+    "term": "mortality",
+    "block": "other",
+    "z": -0.28,
+    "log_odds": -0.14,
+    "gold": 3,
+    "neg": 65,
+    "is_bigram": false
+  },
+  {
+    "term": "africa",
+    "block": "other",
+    "z": -0.3,
+    "log_odds": -0.16,
+    "gold": 3,
+    "neg": 66,
+    "is_bigram": false
+  },
+  {
+    "term": "long term",
+    "block": "other",
+    "z": -0.43,
+    "log_odds": -0.22,
+    "gold": 3,
+    "neg": 72,
+    "is_bigram": true
+  },
+  {
+    "term": "rate",
+    "block": "other",
+    "z": -0.5,
+    "log_odds": -0.25,
+    "gold": 3,
+    "neg": 75,
+    "is_bigram": false
+  },
+  {
+    "term": "south",
+    "block": "other",
+    "z": -0.52,
+    "log_odds": -0.26,
+    "gold": 3,
+    "neg": 76,
+    "is_bigram": false
+  },
+  {
+    "term": "long",
+    "block": "other",
+    "z": -0.57,
+    "log_odds": -0.25,
+    "gold": 4,
+    "neg": 100,
+    "is_bigram": false
+  },
+  {
+    "term": "implications",
+    "block": "other",
+    "z": -0.6,
+    "log_odds": -0.3,
+    "gold": 3,
+    "neg": 80,
+    "is_bigram": false
+  },
+  {
+    "term": "welfare",
+    "block": "pension-oas",
+    "z": -0.63,
+    "log_odds": -0.27,
+    "gold": 4,
+    "neg": 103,
+    "is_bigram": false
+  },
+  {
+    "term": "term",
+    "block": "other",
+    "z": -0.69,
+    "log_odds": -0.34,
+    "gold": 3,
+    "neg": 85,
+    "is_bigram": false
+  },
+  {
+    "term": "japan",
+    "block": "other",
+    "z": -0.76,
+    "log_odds": -0.33,
+    "gold": 4,
+    "neg": 111,
+    "is_bigram": false
+  },
+  {
+    "term": "sustainability",
+    "block": "other",
+    "z": -0.81,
+    "log_odds": -0.4,
+    "gold": 3,
+    "neg": 92,
+    "is_bigram": false
+  },
+  {
+    "term": "financial",
+    "block": "other",
+    "z": -1.45,
+    "log_odds": -0.66,
+    "gold": 3,
+    "neg": 137,
+    "is_bigram": false
+  },
+  {
+    "term": "life",
+    "block": "other",
+    "z": -1.57,
+    "log_odds": -0.62,
+    "gold": 4,
+    "neg": 173,
+    "is_bigram": false
+  },
+  {
+    "term": "aging",
+    "block": "other",
+    "z": -1.6,
+    "log_odds": -0.53,
+    "gold": 6,
+    "neg": 225,
+    "is_bigram": false
+  },
+  {
+    "term": "china",
+    "block": "other",
+    "z": -1.71,
+    "log_odds": -0.47,
+    "gold": 9,
+    "neg": 308,
+    "is_bigram": false
+  },
+  {
+    "term": "policy",
+    "block": "other",
+    "z": -2.26,
+    "log_odds": -0.77,
+    "gold": 5,
+    "neg": 274,
+    "is_bigram": false
+  },
+  {
+    "term": "population",
+    "block": "other",
+    "z": -2.26,
+    "log_odds": -0.6,
+    "gold": 9,
+    "neg": 376,
+    "is_bigram": false
+  }
+]

@@ -310,6 +310,32 @@ fuzzier recall matching than DOI; (2) the snowball was seeded off the keyword-so
 Tier B is *less* keyword-biased than Tier A but not perfectly independent; (3) UNCERTAINs must be
 RA-adjudicated into R/NR before final recall numbers.
 
+## Part 3 — Term sourcing, split by leakage (2026-06-29, step 21 + backbone agent)
+
+Two **separate** artifacts (merging breaks the leakage discipline). Full writeup:
+`*-part3-term-sourcing-summary.md`.
+
+- **3a External backbone (leakage-free, fixed every fold) — `*-external-backbone.json`:** terms
+  from *published* prior-review search strings. **Fertility block 12** (verbatim from
+  Bergsvik/Fauske/Hart + Thomas et al. fertility reviews — `fertilit*`, `birth-rate*`, `total/
+  cohort/completed fertility`, `parity progression`, `childbear*`…). **Pension/OAS block 31** (the
+  thin block — no dedicated OAS-fertility review exists; anchored on Perera et al. 2022 Campbell
+  social-protection string verbatim + Tomaz 2024 + JEL H55 vocab: `pension*`, `old age security`,
+  `social security`, `provident fund`, `superannuation`, `annuities`, `(non-)contributory`, `cash
+  transfer*`…). 5 sources w/ DOIs. Bergsvik's string was in its companion protocol (SocArXiv
+  `t8vsg`), fetched via OSF. Caveat: social-protection origin makes the pension block broad
+  (`health insurance`, `cash transfer`, `safety net`) → high recall, some off-topic pull; CV decides.
+- **3b Discriminative extraction (`21_discriminative_terms.py`) — `*-discriminative-terms.{json,md}`:**
+  Fightin'-Words weighted log-odds (informative Dirichlet prior, z-scored) over TITLES,
+  gold-positive (303) vs **4,537 on-disk NOT_RELEVANT**. **193 ranked candidates** (30 fert / 35
+  pens / 9 both / 119 context). Top: `fertility` 18.3, `security` 15.1, `endogenous` 15.1, `old
+  age` 12.2, `social security` 11.2, `endogenous fertility` 11.2, `pensions` 10.2, `payg` 6.3,
+  `security fertility` 5.9 (19g/1n). Contrast is relevant-vs-NEAR-MISS (negatives passed PI filter).
+  Built + validated on full gold here; **run fold-locally in Part 4** (keeps CV uncircular).
+- **Backbone × expansion gap analysis:** gold-mining's genuine value-add beyond the backbone is the
+  OAS *theory* vocabulary the policy reviews lack — `intergenerational (transfers)`, `payg`,
+  `value of children`, broader `child*`. That's the buyable marginal recall Part-4 CV will quantify.
+
 ## Key decisions (this session)
 
 - **2026-06-28:** scratchpad-first, promote to `.claude/workflows/` once CV validates.
@@ -337,10 +363,12 @@ RA-adjudicated into R/NR before final recall numbers.
 3. ✅ **Part 2 DONE (grow)** (steps 18–20): Tier B core **247** (unbiased def-1; agent/web
    resolver banned). *Remaining:* RA adjudication of the 52 UNCERTAINs into R/NR (don't auto-drop);
    optional precision spot-check of the 133 title-keyed RELEVANT; then freeze with Tier A.
-4. **Part 3** — external term backbone + discriminative term extraction vs. the 4,540 on-disk
-   NOT_RELEVANT negatives. ← NEXT
+4. ✅ **Part 3 DONE** (step 21 + backbone agent): external backbone (12 fert + 31 pens, leakage-free)
+   + discriminative extractor (193 ranked terms, fightin'-words). Extractor runs fold-locally in P4.
 5. **Freeze** the validation core (Tier A + Tier B) on RA sign-off; then **Part 4** 10-fold CV
-   over the breadth-vector grid; refit → production query; promote to `.claude/workflows/`.
+   over the breadth-vector grid (2-block query: fertility AND pension/OAS; backbone fixed +
+   fold-local gold-mined expansion at breadth N); refit → production query; promote to
+   `.claude/workflows/`. ← NEXT
 
 ## Open questions for PI
 

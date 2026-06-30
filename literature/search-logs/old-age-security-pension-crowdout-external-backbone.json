@@ -1,0 +1,92 @@
+{
+  "fertility_block": [
+    "fertilit*",
+    "birth rate",
+    "birth-rate*",
+    "fertility rate",
+    "fertility-rate*",
+    "total fertility rate",
+    "cohort fertility rate",
+    "completed fertility",
+    "lifetime fertility",
+    "parity progression",
+    "childbear*",
+    "number of children"
+  ],
+  "pension_oas_block": [
+    "pension*",
+    "social pension*",
+    "public pension",
+    "old age pension",
+    "old-age pension",
+    "old age assistance",
+    "old age security",
+    "old-age security",
+    "old-age support",
+    "social security",
+    "social insurance",
+    "national insurance",
+    "health insurance",
+    "provident fund",
+    "superannuation",
+    "annuities",
+    "retirement",
+    "retire*",
+    "pension benefits",
+    "non-contributory",
+    "contributory",
+    "social grant",
+    "social assistance",
+    "income maintenance",
+    "income support",
+    "social safety net",
+    "social transfer",
+    "cash transfer*",
+    "conditional cash transfer",
+    "unconditional cash transfer",
+    "in-kind transfer*"
+  ],
+  "sources": [
+    {
+      "review": "Bergsvik, Fauske & Hart - 'Can Policies Stall the Fertility Fall? A Systematic Review of the (Quasi-)Experimental Literature'",
+      "year": 2021,
+      "doi": "10.1111/padr.12431",
+      "where": "Verbatim search strings published in the companion protocol (Fauske, Hart & Bergsvik 2020, SocArXiv preprint t8vsg, https://osf.io/preprints/socarxiv/t8vsg), Appendices 1-4 (per-database strings for Epistemonikos, Cochrane, Ovid MEDLINE, Web of Science, RePEc/EconPapers). The fertility-outcome cluster is: (birth-rate* OR fertility-rate* OR \"birth rate\" OR \"fertility rate\" OR \"completed fertility\" OR \"parity progression\" OR \"total fertility rate\" OR \"cohort fertility rate\" OR \"lifetime fertility\"), plus '*fertility*' and the Cochrane form ((birth or fertilit*) NEXT rate*) and MeSH 'Birth Rate'.",
+      "blocks_contributed": ["fertility", "pension (transfer-adjacent only)"],
+      "notes": "Primary, fully verbatim source for the fertility block. Its policy terms cover leave/childcare/transfers (parental leave, cash transfers, cash allowances, tax*, lump-sum, cash-for-care) and housing - NO pension/old-age terms, as anticipated."
+    },
+    {
+      "review": "Thomas, Rowe, Williamson & Lin - 'The effect of leave policies on increasing fertility: a systematic review'",
+      "year": 2022,
+      "doi": "10.1057/s41599-022-01270-w",
+      "where": "Humanities and Social Sciences Communications 9:262. Full per-database Boolean string is in Supplementary Appendix B (search procedure for 'Academic Search Complete'); not reproduced in main text (only retrieved as confirmatory). Main text + Fig.1 confirm the fertility/childbearing concept and 16-database search (Scopus, WoS, EconLit, Medline, PsycINFO, Sociological Abstracts, etc.).",
+      "blocks_contributed": ["fertility"],
+      "notes": "Confirms 'childbearing'/'fertility' as the outcome concept across a large demographic-economics database set; verbatim wildcard list sits in the supplement."
+    },
+    {
+      "review": "Perera et al. - 'Impact of social protection on gender equality in low- and middle-income countries: A systematic review of reviews' (Campbell Collaboration)",
+      "year": 2022,
+      "doi": "10.1002/cl2.1240",
+      "where": "Verbatim search strategy in the published protocol (Perera et al. 2021, Campbell Systematic Reviews; PMC8356277), Appendix A, Academic Search Complete (run 23/02/2021), social-protection concept group. Term list (verbatim): \"Social assistance\", \"Social Pension*\", \"Public Pension\", \"Pension*\", \"Old Age Assistance\", \"Old Age Pension\", \"In-kind Transfer*\", \"Conditional Cash Transfer\", \"Unconditional Cash Transfer\", \"Cash Transfer*\", \"Social Transfer\", \"Income Maintenance\", \"Income Support\", \"Social grant\", \"Social Safety Net\", \"Non-contributory\", \"Contributory\", \"Annuities\", \"Health Insurance\", \"National Insurance\", \"Social Insurance\", \"Social Security\", \"Social Welfare\", \"Death Benefit\", \"Disability Grant*\", \"Unemployment Benefit*\" (plus leave/childcare/voucher/housing terms not carried over here).",
+      "blocks_contributed": ["pension"],
+      "notes": "PRIMARY verbatim source for the pension/old-age-security block. A published systematic-review search string, so leakage-free, even though the review's outcome is gender equality (not fertility) - it is being used here only as external controlled vocabulary for the pension/social-protection concept."
+    },
+    {
+      "review": "Tomaz et al. - 'Associations between retirement, social security policies and the health of older people: a systematic review'",
+      "year": 2024,
+      "doi": "10.1186/s12889-024-19979-5",
+      "where": "BMC Public Health. Methods + Table 1. Indexed search used (\"social security\" AND \"aging\") across Embase, WoS, Scopus, PubMed, CINAHL, ASSIA, APA PsycNet; PROSPERO CRD42021225820. PICO intervention defined verbatim as 'retirement guarantees ... pension benefits, health insurance, subsidized assistance and other contributory schemes'.",
+      "blocks_contributed": ["pension"],
+      "notes": "Confirms 'social security', 'retirement', 'pension benefits', 'health insurance', 'contributory schemes' as concept vocabulary. The executed Boolean string itself is thin (just 'social security' AND 'aging')."
+    },
+    {
+      "review": "Old-age-security-motive empirical literature (author keywords + JEL controlled vocabulary)",
+      "year": 1980,
+      "doi": "n/a (cluster of works)",
+      "where": "Willis (1980) NBER w0372 'The Old Age Security Hypothesis and Population Growth' (names the hypothesis: 'old age security'); social-pension/fertility quasi-experimental paper on Namibia (RePEc gat/wpaper/1933; CEPREMAP docweb2002) with author keywords verbatim: 'Fertility; Old-age pensions; Social security; Africa; Difference-in-differences'; JEL H55 = 'Social Security and Public Pensions', J13 = 'Fertility'.",
+      "blocks_contributed": ["pension", "fertility"],
+      "notes": "Supplies the OAS-theory naming ('old age security', 'old-age pensions') and the canonical fertility x social-security intersection vocabulary as standard controlled terminology, since no dedicated OAS-pension-fertility systematic review exists."
+    }
+  ],
+  "notes": "FERTILITY block is well-sourced and largely verbatim: every term except 'childbear*' and 'number of children' is taken directly from the Bergsvik/Fauske 2020 protocol search strings (Appendices 1-4); 'childbear*'/'number of children' are added as standard demographic controlled vocabulary (childbearing is the outcome concept named in Thomas et al. 2022 and across demography). PENSION/OAS block is THINNER and more vocabulary-driven: there is NO dedicated systematic review of pension/social-security effects on fertility or of the 'children as old-age security' motive, so it has no purpose-built published string. The block is therefore assembled from (a) a verbatim published social-protection review search string (Perera et al. 2021 protocol, Appendix A) - the strongest external anchor, (b) a retirement/social-security health review (Tomaz et al. 2024), and (c) author keywords + JEL controlled vocabulary from the OAS-motive empirical literature (Willis 1980; Namibia social-pension study). Terms 'provident fund', 'superannuation', 'old-age support', and 'old[- ]age security' are standard international social-security terminology (ILO/SSA usage) included to cover non-Western pension systems and the theoretical motive; they are NOT from a single published string but are defensible controlled vocabulary. Leakage-free guarantee holds: none of these terms derive from our own labeled gold papers - all come from other authors' published methods sections, registered protocols, or standard JEL/MeSH/ILO vocabulary."
+}
