@@ -336,6 +336,31 @@ Two **separate** artifacts (merging breaks the leakage discipline). Full writeup
   OAS *theory* vocabulary the policy reviews lack — `intergenerational (transfers)`, `payg`,
   `value of children`, broader `child*`. That's the buyable marginal recall Part-4 CV will quantify.
 
+## Part 4 — CV scaffold (2026-06-29, step 22, DRY RUN)
+
+Built the 10-fold CV engine over the per-block breadth vector (`22_cv_breadth.py`): 2-block query
+`(fertility) AND (pension/OAS)`; backbone fixed every fold + **fold-local** gold-mined expansion
+(mined from training-fold gold only vs the fixed 4,540 negatives → uncircular); title-only matching
+(conservative lower bound — abstracts unavailable for most golds); per-block miss diagnostics;
+on-disk budget proxy (negatives matched); `openalex_universe()` stubbed for Part-4-full. Grid
+Nf×Np ∈ {0,3,6,10,15,20,30}². **DRY RUN on un-frozen gold** — wire OpenAlex counts + rerun after
+freeze. Deliverables: `*-cv-breadth-dryrun.{json,md}`.
+
+**Dry-run findings (challenge spec assumptions — confirm post-freeze):**
+1. **SIGN FLIP — Recall(A) < Recall(B)** (correction ≈ **−6% backbone-only → −10% at peak
+   Nf=Np=30, total recall 56%→71%**), NOT the positive value the method assumed. Driver: Tier A
+   now carries the Part-1c theory canon (Ehrlich–Lui, Boldrin–Jones…) whose titles lack surface
+   fertility/pension vocab; Tier B (def-1, unbiased — NOT adversarial) is keyword-richer. Reading:
+   the query is **not inflated toward keyword-sourced papers**; it slightly UNDER-recalls the
+   abstract theory canon. This is the direct, expected consequence of the def-1 choice.
+2. **The FERTILITY block binds, not pension** (held-out misses ~50 fert vs ~25 pens) — opposite of
+   §3's "pension is the thin block". Much relevant work says children/sons/value-of-children/
+   family-size, not fertility/birth → spend fertility-block breadth there.
+3. **Title-only ceiling ≈ 70%**, saturating near N≈20–30; abstract matching should lift it.
+4. **Implication:** def-1's correction answers "is the query biased toward keyword-sourced papers?"
+   (here: no). To ALSO bound the worst-case vocabulary ceiling, report the adversarial
+   (vocab-disconnected, def-3) subset recall as a SECONDARY number — revisit with Shravan.
+
 ## Key decisions (this session)
 
 - **2026-06-28:** scratchpad-first, promote to `.claude/workflows/` once CV validates.
@@ -365,10 +390,12 @@ Two **separate** artifacts (merging breaks the leakage discipline). Full writeup
    optional precision spot-check of the 133 title-keyed RELEVANT; then freeze with Tier A.
 4. ✅ **Part 3 DONE** (step 21 + backbone agent): external backbone (12 fert + 31 pens, leakage-free)
    + discriminative extractor (193 ranked terms, fightin'-words). Extractor runs fold-locally in P4.
-5. **Freeze** the validation core (Tier A + Tier B) on RA sign-off; then **Part 4** 10-fold CV
-   over the breadth-vector grid (2-block query: fertility AND pension/OAS; backbone fixed +
-   fold-local gold-mined expansion at breadth N); refit → production query; promote to
-   `.claude/workflows/`. ← NEXT
+5. ✅ **Part 4 SCAFFOLD done** (step 22, dry run): CV engine works; surfaced sign-flip
+   (Recall(A)<Recall(B)), fertility-block binds, ~70% title-only ceiling. **Part-4-full TODO:**
+   (a) freeze validation core after sign-offs; (b) wire `openalex_universe()` for real budget K;
+   (c) add abstract matching; (d) decide on secondary def-3 adversarial ceiling number;
+   (e) pick (Nf,Np) on the recall/budget frontier; refit on full gold → production query;
+   (f) run production query → two-stage LLM screen; promote to `.claude/workflows/`. ← NEXT
 
 ## Open questions for PI
 
