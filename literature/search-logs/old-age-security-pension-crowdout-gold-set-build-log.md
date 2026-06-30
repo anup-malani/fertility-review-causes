@@ -181,11 +181,60 @@ each record's DOI from OpenAlex by W-ID, title-guarded. Run on the full 542-pape
   tail (~89 "404" + 42 "drift") is **overstated** — a mix of genuinely-dead W-IDs and
   budget-blocked requests. The 275 recoveries are solid; the dead-W-ID counts need a clean
   **rerun after the UTC reset** for true numbers (and likely more recoveries).
+- **✅ CLEAN RERUN 2026-06-29 (budget reset) — resolves both open questions:**
+  1. **No additional recoveries; the 275 were already complete and correct.** Today's
+     `wid_doi_map.json` is **byte-identical** to the committed `*-wid-doi-corrected-map.json`
+     (same 275 distinct W-IDs, same DOIs, 0 changed values). The budget block had cost us
+     nothing — it hit during the dead-tail single-lookup fallback, not the recoveries.
+     (Step-10 stderr reports 301 `RECOVERED_DOI` *records*; these collapse to 275 distinct
+     W-IDs once duplicate paperIds are deduped — 542 records / 473 distinct W-IDs.)
+  2. **The broken tail is GENUINE, not budget-inflated** (overturns the bullet above). With
+     the budget confirmed live (384 batch resolutions, HTTP 200 throughout), the run produced
+     the *exact same* **89 `WID_404` + 42 `WID_DRIFT`**. Direct probes of 4 `WID_404` W-IDs
+     all return HTTP 404; `WID_DRIFT` W-IDs resolve to unrelated papers (chemistry, Indonesian
+     law, photoimmunotherapy data). These W-IDs are dead/reassigned in OpenAlex itself.
+  - Full clean status breakdown (542 records): `RECOVERED_DOI` 301 / `WID_404` 89 /
+    `RECOVERED_NO_DOI` 73 / `WID_DRIFT` 42 / `NO_WID` 37. Of 265 records with an on-disk DOI:
+    68 corrected (different) + 197 matched (consistent w/ the phase1-clean / phase2-shuffle split).
+  - **Confirms the W-ID path cannot recover the gold residuals.** The dead tail includes a
+    known gold miss — "Children as a Form of Retirement Saving" (`W2133124695`, HTTP 404).
+    So the remaining live part of step 0 is the **Crossref/web title-resolution agent-retry**
+    on the gold residual; W-ID re-fetch is exhausted for them.
 - **Did NOT shrink the gold-set residual.** The 21 hard residuals have dead/collided W-IDs
   *and* shuffled DOIs → only title/author resolution works for them (manual or post-reset
   agent retry). Also found a **W-ID collision**: id18 (Namibia) and id19 (Farm Families)
   share W-ID `W4307711611`; naive re-fetch gave id19 the Namibia DOI — caught by a
   uniqueness guard. Gold set stays **14/35** verified.
+
+### 1b (residual retry) — 2026-06-29, agent fleet + verifier (steps 13–15)
+
+Retried the 21 unverified residuals after the OpenAlex/S2 reset. Pipeline: deterministic
+Crossref pass (`13_crossref_retry.py`) → 4-agent resolver fleet (`resolver_agent_retry_*.json`)
+→ deterministic verifier (`14_verify_retry.py`) → apply (`15_apply_retry.py`).
+
+**Outcome: +1 verified, +1 title-keyed, 4 dropped, 15 hard residual.** Gold core **14 → 15**.
+- **id1 ACCEPTED** (manual): Fenge & Scheubel "Pensions and fertility: back to the roots"
+  (J Pop Econ 2016, `10.1007/s00148-016-0608-x`). Verifier *false-negative* — J=0.40 because
+  the corpus title ("…Evidence from Germany") is a corrupted paraphrase; Crossref-confirmed.
+  (Same class as id17 last run.)
+- **id15/16/19/20 DROPPED.** Agents confirmed category A (15/16/20) are corrupted/chimeric —
+  no real paper exists (candidates 404 or unrelated, e.g. a Philippines typhoon paper). id19 =
+  duplicate of id18 (both → Rossi & Godard `10.1257/pol.20200466`). → **35 → 31 real studies.**
+- **id28 TITLE-KEYED**: real WP (Zelu/Iranzo/Perez-Laborda, Ghana, IZA-BREAD 2023) with no DOI
+  anywhere → kept as a title-keyed gold item.
+- **15 HARD RESIDUAL** (0,3,4,5,6,10,11,21,22,26,27,30,31,32,33): genuinely unresolvable now.
+  Candidate DOIs confirmed wrong-paper (id4 restud→Duranton-Turner urban growth; id22
+  chieco→Knight-Gunatilaka happiness), fabricated/404, or unregistered SSRN handles (id30–33;
+  SSRN also Cloudflare-blocked). **Key finding: with APIs uncapped the retry barely moved the
+  residual → it's a real recall/identifiability ceiling, not an API/rate-limit artifact**
+  (falsifies the prior "retry will shrink the pile a lot" hope). RA hand-resolution
+  (library/EconLit/author contact) or title-keying is the only remaining path.
+
+**Method note:** the J≥0.50 guard is sound for *verifying a proposed DOI* but false-matches
+when used to *select* from blind Crossref search (id5 Ecuador→Korea, id6 rural-China→wrong
+Zhang, both ~J0.5) → `13_crossref_retry.py` requires J≥0.80 for search auto-accept. id1 shows
+the converse failure (false-reject on a corrupted source title) → agent-evidence + RA
+adjudication stays the backstop. Full audit: `*-tier-a-retry-disposition.md`.
 
 ### Output paper tiers (consensus tiering) — done, see separate doc
 
@@ -196,12 +245,35 @@ Tier 3 1,531 / excluded 5,347. Full definition, counts, and the orthogonal-chann
 `old-age-security-pension-crowdout-tiers-summary.md` (+ `*-tiers.json`,
 `source/build/goldset/12_instantiate_tiers.py`).
 
-### 1c. Canon/theory + anchor related-work — NOT STARTED
+### 1c. Canon/theory + anchor related-work — DONE 2026-06-29 (steps 16–17)
 
-Per spec §3, Tier A also includes canon (Neher 1971, Nugent 1985, Cigno & Rosati 1996,
-Boldrin & Jones 2005, etc.) + anchor related-work (Danzer–Zyska, Boldrin–De Nardi–Jones,
-Cigno–Werding, Fenge–Scheubel), DOI-resolved authoritatively the same way, then stratified
-(theory / each natural-experiment setting / each era). Target size 80–100, floor 60.
+Per spec §3, Tier A also includes canon + anchor related-work, DOI-resolved the same way,
+then stratified. **Shravan approved both inclusion calls (2026-06-29):** (a) keep foundational
+growth-theory fertility models (Becker–Barro etc.) even where OAS isn't the *central*
+mechanism; (b) children-as-insurance/risk (Cain) is in scope (it IS the OAS mechanism).
+
+**Canon assembled & resolved (`16_canon_seed.py` → `canon_resolved.json`): 40 papers — 35
+DOI-verified, 5 title-keyed, 0 unresolved.** Strata: theory-foundational 6 (Leibenstein,
+Neher, Willis, Nugent, Caldwell, Becker 1960), theory-formal 23 (Becker–Barro, Barro–Becker,
+Ehrlich–Lui, Nishimura–Zhang, Cigno 1993, Wigger, Boldrin–Jones, Sinn, BDNJ, Cigno–Werding,
++ expansion: Bental, Eckstein–Wolpin, Prinz, Zhang 1995, Rosati, van Groezen–Leers–Meijdam,
+Zhang–Zhang, Fenge–Meier ×2, Ehrlich–Kim, Hirazawa–Yakita, Yew–Zhang, Cremer–Gahvari–Pestieau),
+empirical-classic 11 (Cain ×2, Hohm, Entwisle–Winegarden, Nugent–Gillaspy, Cigno–Rosati ×2,
+Jensen, Rendall–Bahchieva, Galasso–Gatti–Profeta, Cigno–Casolaro–Rosati). DOIs resolved by the
+same untrusted-hint→Crossref-verify method; **my recalled DOIs were wrong in ~15/35 cases and
+Crossref title-search (J=1.0) corrected every one** — re-confirms the no-trust-recalled-DOI rule.
+Two manual accepts (verifier FNs from dropped subtitles): Cigno 1993. Minor polish deferred: a
+few resolved to the SSRN/WP version (Fenge–Meier 2005, Galasso et al) where a published VoR
+also exists — prefer VoR at freeze.
+
+**Full Tier A stratified draft (`17_assemble_tier_a.py` → `tier_a_draft.json`,
+`*-tier-a-stratified-draft.md`): 56 usable (50 DOI + 6 title-key).** By stratum: theory-found 6
+/ theory-formal 23 / empirical-classic 11 / empirical-modern 16. Empirical settings span
+S.Africa, Namibia, Ghana, China ×4, Bangladesh, Italy, Germany ×2 (one FDT-era = id14 Bismarck),
+Europe ×3, cross-country ×2. **Floor gap = 4** (60 floor); the 15 hard residuals + minor canon
+clear it. Total real distinct in scope incl. pending residuals = **71** (inside the 80–100 band's
+reach). **NOT frozen** — validation core freezes on RA sign-off (§7); residuals sit in a dev pool
+and graduate as human resolution lands.
 
 ---
 
@@ -217,17 +289,20 @@ Cigno–Werding, Fenge–Scheubel), DOI-resolved authoritatively the same way, t
 
 ## Next steps (resume here)
 
-0. **After UTC midnight (OpenAlex budget reset):** rerun `10_wid_refetch.py` (cache will
-   skip the 275 done; only the budget-blocked tail re-queries) to get true dead-W-ID counts
-   and recover more corpus DOIs. Then a Crossref/web agent-retry on the gold residual.
-1. **RA residual pass** on `*-tier-a-manual-handoff.md` (21 studies). Suggested order:
-   drop Category A (4) unless Shravan confirms they're real; optional automated **retry**
-   on B/C/D (≈17) after API cooldown before hand-resolving (could shrink the pile a lot).
-   (W-ID re-fetch did NOT help these — their W-IDs are dead/collided.)
-2. **Part 1c** — assemble canon/theory + anchor related-work, resolve via the same resolver,
-   then **stratify** the full Tier A and freeze the validation core. Reach 60–100.
+0. ✅ **DONE 2026-06-29.** W-ID refetch rerun (275 confirmed complete; dead tail genuine, not
+   budget-inflated) + Crossref/web agent-retry on the residual (steps 13–15): +1 verified
+   (id1), +1 title-keyed (id28), 4 dropped, 15 hard residual. See §"1b (residual retry)".
+1. ✅ **DONE (auto portion).** The automated residual retry replaced step 1's "auto-retry on
+   B/C/D" — it barely shrank the pile, so the 15 hard residuals now need **human** resolution
+   (library/EconLit/author contact) or title-keying. Category A confirmed not-real (dropped).
+   *Pending PI/Shravan sign-off:* the id1 manual-accept and the 4 drops. Audit:
+   `*-tier-a-retry-disposition.md`.
+2. ✅ **Part 1c DONE** (steps 16–17): canon 40 (35 DOI + 5 TK) → Tier A draft **56 usable**
+   (50 DOI + 6 TK), stratified. *Remaining:* (a) RA sign-off to freeze the validation core;
+   (b) optional minor canon top-up / residual resolution to clear the 60 floor (gap 4) and push
+   toward 80–100; (c) at freeze, prefer published VoR over the few SSRN/WP DOIs.
 3. **Part 2** — Tier B (keyword-disconnected; orthogonal source = snowball + prior-review
-   inclusions). **Resolver's agent/web method is banned here.**
+   inclusions). **Resolver's agent/web method is banned here.** ← NEXT
 4. **Part 3** — external term backbone + discriminative term extraction vs. the 4,540 on-disk
    NOT_RELEVANT negatives.
 

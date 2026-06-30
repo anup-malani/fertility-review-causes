@@ -44,3 +44,7 @@ __pycache__/
 # Workflow outputs
 literature/pdfs/
 temp/
+
+# Gold-set build: API response cache + regenerable intermediate JSONs (deliverables live in literature/search-logs/)
+source/build/goldset/cache/
+source/build/goldset/*.json

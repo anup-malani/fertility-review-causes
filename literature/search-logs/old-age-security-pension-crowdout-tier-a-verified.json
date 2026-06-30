@@ -1,5 +1,19 @@
 [
   {
+    "id": 1,
+    "canonical_doi": "10.1007/s00148-016-0608-x",
+    "alt_dois": [],
+    "is_working_paper": false,
+    "registered_title": "Pensions and fertility: back to the roots",
+    "title": "Pensions and Fertility: Evidence from Germany",
+    "year": 2016,
+    "provenance_tier": "A",
+    "stratum": null,
+    "source": "on-disk-44 (strong-ID empirical)",
+    "resolution": "agent-proposed + RA manual-accept (Crossref-confirmed Fenge & Scheubel, J Pop Econ 2016). Verifier title-guard FN: J=0.40 vs corrupted corpus title.",
+    "note": "verifier FN; real title 'Pensions and fertility: back to the roots' (Fenge & Scheubel)"
+  },
+  {
     "id": 2,
     "title": "Grandmothers and Granddaughters: Old Age Pension and Intra-household Allocation in South Africa",
     "canonical_doi": "10.1093/wber/lhg013",
