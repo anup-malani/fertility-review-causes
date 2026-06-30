@@ -277,6 +277,39 @@ and graduate as human resolution lands.
 
 ---
 
+## Part 2 — Tier B assembly (2026-06-29, steps 18–20)
+
+**Definition decision (Shravan):** Tier B = **definition (1)** — an *unbiased* sample of relevant
+papers w.r.t. keyword-findability, taken from the orthogonally-SOURCED snowball set **whole**.
+We do **NOT** filter for keyword-absence/vocabulary-disconnection (the rejected defs 2/3) — the
+snowball's citation-graph sourcing delivers the unbiasedness; filtering on findability would
+re-introduce the very selection bias we correct for. ("Unbiased, without trying to be orthogonal.")
+
+- **Frame (`18_tierb_frame.py`): 319 distinct** snowball `llm_verdict==RELEVANT`, minus Tier A
+  gold + the 15 residuals, deduped by title. (389 relevant − 50 overlap − 20 dup.)
+- **Resolution via OpenAlex citation graph (`19_tierb_resolve.py`) — agent/web resolver BANNED
+  here (§3/§8).** 156 DOI-resolved, 34 alive-no-DOI, 33 WID_DRIFT, 96 WID_404. The **40%
+  dead/drift rate is genuine** (snowball-corpus W-ID rot; 5 dead W-IDs directly probed → 404 with
+  budget live), not a budget artifact. **Decision (Shravan): keep dead/drift papers, title-keyed**
+  — dropping them would bias Tier B toward findable papers (dead-W-ID correlates with age/non-
+  English/obscurity → keyword-hardness). Recall-matching credits a hit on title OR DOI.
+- **Precision audit (`20`, 6-agent relevance screen over title+abstract, one rubric):**
+  **Tier B core = 247 RELEVANT** (114 DOI-keyed + 133 title-keyed); **52 UNCERTAIN → RA
+  adjudication queue** (NOT auto-dropped — auto-dropping the mostly-title-only UNCERTAINs would
+  re-bias toward abstracted papers); **20 NOT_RELEVANT dropped** (citation noise: child-allowance
+  OLG w/o pension mechanism, dynastic-growth, off-topic; agents also caught inflated snow_reasons).
+  Agents correctly screened WID_DRIFT papers on title (their OpenAlex abstract/venue belong to the
+  wrong drifted paper) → assembly nulls drift-target year/venue/authors.
+
+**Combined gold set: Tier A 56 + Tier B core 247 = 303** (+52 Tier-B UNCERTAIN pending RA).
+Deliverables: `*-tier-b-frame.json`, `*-tier-b-resolved.json`, `*-tier-b-screened.json`,
+`*-tier-b-uncertain-queue.json`, `*-tier-b-summary.md`. Scripts `18`/`19`/`20`.
+
+**Caveats (state when reporting Recall(A)−Recall(B)):** (1) ~54% of Tier B is title-keyed →
+fuzzier recall matching than DOI; (2) the snowball was seeded off the keyword-sourced PI set, so
+Tier B is *less* keyword-biased than Tier A but not perfectly independent; (3) UNCERTAINs must be
+RA-adjudicated into R/NR before final recall numbers.
+
 ## Key decisions (this session)
 
 - **2026-06-28:** scratchpad-first, promote to `.claude/workflows/` once CV validates.
@@ -301,10 +334,13 @@ and graduate as human resolution lands.
    (50 DOI + 6 TK), stratified. *Remaining:* (a) RA sign-off to freeze the validation core;
    (b) optional minor canon top-up / residual resolution to clear the 60 floor (gap 4) and push
    toward 80–100; (c) at freeze, prefer published VoR over the few SSRN/WP DOIs.
-3. **Part 2** — Tier B (keyword-disconnected; orthogonal source = snowball + prior-review
-   inclusions). **Resolver's agent/web method is banned here.** ← NEXT
+3. ✅ **Part 2 DONE (grow)** (steps 18–20): Tier B core **247** (unbiased def-1; agent/web
+   resolver banned). *Remaining:* RA adjudication of the 52 UNCERTAINs into R/NR (don't auto-drop);
+   optional precision spot-check of the 133 title-keyed RELEVANT; then freeze with Tier A.
 4. **Part 3** — external term backbone + discriminative term extraction vs. the 4,540 on-disk
-   NOT_RELEVANT negatives.
+   NOT_RELEVANT negatives. ← NEXT
+5. **Freeze** the validation core (Tier A + Tier B) on RA sign-off; then **Part 4** 10-fold CV
+   over the breadth-vector grid; refit → production query; promote to `.claude/workflows/`.
 
 ## Open questions for PI
 
