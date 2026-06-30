@@ -138,6 +138,24 @@ def openalex_universe(fert_terms, pens_terms):
        ((f1 OR f2 ...) AND (p1 OR p2 ...)) and return meta.count. Not called in the dry run."""
     raise NotImplementedError("wire in Part-4-full after the query is frozen")
 
+# ---- HEADLINE METRICS for Part-4-full (decided with Shravan 2026-06-29) ----
+# Under def-1, Tier B is the UNBIASED sample, so:
+#   PRIMARY  = Recall(B)            -- honest query recall on a representative relevant sample.
+#   DIAGNOSTIC = Recall(A) - Recall(B)  -- "is the query inflated toward keyword-sourced papers?"
+#               (dry run: ~0/slightly negative => NO inflation; the slight A<B is Tier A's theory canon).
+#   CEILING PROBE = Recall(B | title lacks query vocab)  -- the hard-tail conditional, NOT a separate
+#               def-3 tier. Operational def: a Tier-B paper is "vocab-hard" if its TITLE fails the
+#               2-block query; the conditional recall = of those, how many the query recovers via
+#               ABSTRACT match. *** Requires abstract matching (Part-4-full item #3); with title-only
+#               it is ~0 by construction, so DO NOT report it until abstracts are wired. *** Report as a
+#               BOUND, not a pinned estimate (n~38, SE~±8%; powered for gross gaps per §6, not fine tuning).
+#               Caveat: even this bound is optimistic — def-1 Tier B was snowball-seeded off the keyword
+#               set + screened partly on vocab, so truly vocab-disconnected papers are under-represented.
+#   ALSO report Recall by empirical-vs-theory (the decision-relevant coarse cut; the sign flip showed
+#               recall dies on the theory canon).
+def conditional_hardtail_recall(*a, **k):
+    raise NotImplementedError("Part-4-full: Recall(B | title fails 2-block query), measured via abstract match")
+
 def main():
     gold=load_gold(); bb_f,bb_p=load_backbone(); nc,nn=neg_counts()
     print(f"gold {len(gold)} (A {sum(1 for g in gold if g['tier']=='A')}, B {sum(1 for g in gold if g['tier']=='B')}); "
@@ -173,9 +191,13 @@ def main():
        "says children/sons/value-of-children/family-size, not fertility/birth. → spend fertility-block breadth.",
        "3. **Title-only ceiling ≈ 70%**, saturating near N≈20–30. Abstract matching (Part-4-full) "
        "should lift this; it's a conservative lower bound.",
-       "4. **Implication:** def-1's correction answers 'is the query biased toward keyword-sourced "
-       "papers?' (here: no). To ALSO bound the worst-case vocabulary ceiling, report the adversarial "
-       "(vocab-disconnected) subset recall as a secondary number — the def-3 probe discussed at design.","",
+       "4. **Metric decision (Shravan 2026-06-29):** under def-1, **Recall(B) is the PRIMARY** honest "
+       "estimate; **Recall(A)−Recall(B) is a DIAGNOSTIC** ('is the query inflated toward keyword-sourced "
+       "papers?' — here: no). The worst-case vocabulary ceiling is reported NOT as a separate def-3 tier "
+       "but as **Recall(B | title fails the 2-block query), measured via ABSTRACT match** — a hard-tail "
+       "conditional, reported as a BOUND (n~38, powered for gross gaps not fine tuning; needs abstract "
+       "matching, so deferred to Part-4-full). Also report empirical-vs-theory recall (where the canon "
+       "tail lives). Caveat: this bound is itself optimistic (Tier B snowball-seeded off the keyword set).","",
        "## Recall surface (CV held-out recall by breadth vector)","",
        "| Nf \\ Np | "+" | ".join(str(n) for n in GRID)+" |",
        "|"+"---|"*(len(GRID)+1)]

@@ -357,9 +357,15 @@ freeze. Deliverables: `*-cv-breadth-dryrun.{json,md}`.
    §3's "pension is the thin block". Much relevant work says children/sons/value-of-children/
    family-size, not fertility/birth → spend fertility-block breadth there.
 3. **Title-only ceiling ≈ 70%**, saturating near N≈20–30; abstract matching should lift it.
-4. **Implication:** def-1's correction answers "is the query biased toward keyword-sourced papers?"
-   (here: no). To ALSO bound the worst-case vocabulary ceiling, report the adversarial
-   (vocab-disconnected, def-3) subset recall as a SECONDARY number — revisit with Shravan.
+4. **Metric decision (Shravan 2026-06-29):** under def-1, **Recall(B) is PRIMARY** (honest estimate);
+   **Recall(A)−Recall(B) is a DIAGNOSTIC** ("query inflated toward keyword-sourced papers?" — here no).
+   Worst-case ceiling = **Recall(B | title fails the 2-block query), measured via ABSTRACT match** —
+   a hard-tail conditional within the unbiased Tier B, NOT a separate def-3 tier. Report as a BOUND
+   (n~38; powered for gross gaps, not fine tuning; **needs abstract matching → Part-4-full**). With
+   title-only it's ~0 by construction, so do not report until abstracts are wired. Also report
+   empirical-vs-theory recall (where the canon tail lives). Caveat: the bound is itself optimistic
+   (Tier B was snowball-seeded off the keyword set + screened partly on vocab). Stubbed in step 22 as
+   `conditional_hardtail_recall()`.
 
 ## Key decisions (this session)
 
@@ -393,7 +399,8 @@ freeze. Deliverables: `*-cv-breadth-dryrun.{json,md}`.
 5. ✅ **Part 4 SCAFFOLD done** (step 22, dry run): CV engine works; surfaced sign-flip
    (Recall(A)<Recall(B)), fertility-block binds, ~70% title-only ceiling. **Part-4-full TODO:**
    (a) freeze validation core after sign-offs; (b) wire `openalex_universe()` for real budget K;
-   (c) add abstract matching; (d) decide on secondary def-3 adversarial ceiling number;
+   (c) add abstract matching; (d) ✅ DECIDED — ceiling = Recall(B | title fails query) via abstract
+   (`conditional_hardtail_recall()`) + Recall(B) primary / A−B diagnostic / empirical-vs-theory split;
    (e) pick (Nf,Np) on the recall/budget frontier; refit on full gold → production query;
    (f) run production query → two-stage LLM screen; promote to `.claude/workflows/`. ← NEXT
 
