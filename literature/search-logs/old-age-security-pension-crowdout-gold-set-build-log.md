@@ -404,6 +404,47 @@ freeze. Deliverables: `*-cv-breadth-dryrun.{json,md}`.
    (e) pick (Nf,Np) on the recall/budget frontier; refit on full gold → production query;
    (f) run production query → two-stage LLM screen; promote to `.claude/workflows/`. ← NEXT
 
+## 2026-07-01 — GACS Phase E run on OAS (meta-analysis-ready set + PDFs; steps 23–29)
+
+First end-to-end run of the Task-B canonical workflow's **output stage (Phase E)** on the OAS
+pilot, via the **legacy-migration path** (re-tier the existing screened corpus under the unified
+tier function rather than re-running the live production search). Deliverables for the day:
+a meta-analysis-ready **DOI list** and a **folder of PDFs**.
+
+**Scope decisions (Shravan):** meta-analysis-ready = (T1 ∪ T2) ∩ empirical evidence bar. Bar set
+to **evidenceType == 4** (natural/quasi-experiments) after ET≥2 returned 354 (too broad; target
+was 50–80). The 52 Tier-B UNCERTAINs do not gate this set (UNCERTAIN → T3 by construction).
+
+**Pipeline (`source/build/goldset/`):**
+1. **23** — assemble the 1,209 T1∪T2 candidates from `-tiers.json`; one cached, budget-aware
+   OpenAlex enrichment pass (abstract, fresh DOI, OA-pdf urls, authors), W-ID-rot-tolerant
+   (title-guard). 474 already carried Anup's scores; 735 did not.
+2. **24a/24b** — score the 735 via 15 parallel Sonnet agents on a rubric **reconstructed from
+   Anup's 542** (verified `compositeScore == evidenceType + identification + centrality`, 542/542;
+   ET scale: 0 qual / 1 theory / 2 observational / 3 proxy-IV / 4 nat-exp). All 735 scored.
+3. **25** — merge scores over all 1,209; apply the ET==4 bar → 69 records.
+4. **26 / 26b** — finalize DOIs (C3 layered by trust: gold-RA-verified → title-verified corrected-map
+   → OpenAlex-guarded → Crossref title-search J≥0.80; C2 guard throughout) + title-based gold match.
+5. **26c** — collapse to **distinct studies**: dropped **3 ICPSR "Data and Code for…" deposits**
+   (`10.3886/…`, scored ET4 off the deposit description — not papers) and merged **4
+   published+preprint version-variants**. → **62 distinct studies** (42 DOIs resolved / 20
+   title-keyed = the dead-WID Tier-B snowball canon: Chile, Children-as-Retirement-Saving, rural
+   China, Ghana, Austria, Hungary).
+6. **27 / 28 / 29** — PDF acquisition. **24 OA PDFs** auto-fetched (OpenAlex OA-url + Unpaywall +
+   pass-2 landing-page `citation_pdf_url` extraction, all %PDF-validated). **38 residual handed
+   off** as a click-ready want-list. ⚠ pass-2's discovery channels (OpenAlex anonymous search +
+   Semantic Scholar) were **anonymously rate-limited during the run** ("use a free API key"), so the
+   38 are **unmeasured, not a paywall verdict** — many likely have free copies. To finish cleanly:
+   get free OpenAlex + S2 API keys, re-run step 28.
+
+**Deliverables:** `output/{slug}-metaanalysis-doi-list.md` (OUTPUT 1),
+`literature/pdfs/{slug}/` + `output/{slug}-pdf-wantlist.md` (OUTPUT 2), intermediate artifacts
+`-metaanalysis-{candidates,ready,ready-final,studies}.json`, `-oa-enrichment.json`,
+`-newscores.json`, `-routing-counts.json`, `-dedupe-log.json`, `-{crossref-recovered,doi-backfill,pdf-manifest}.json`.
+
+**Broader set retained:** `-metaanalysis-ready.json` holds the full ET≥2 set (354) if the
+observational tier is ever wanted back.
+
 ## Open questions for PI
 
 - The corpus-DOI corruption is project-wide, not OAS-specific (~71% of on-disk DOIs wrong on

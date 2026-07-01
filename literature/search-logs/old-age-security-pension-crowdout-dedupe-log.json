@@ -1,0 +1,39 @@
+{
+  "dropped_nonpapers": [
+    {
+      "paperId": "W7161025843",
+      "title": "Data and Code for: The Old-Age Security Motive for Fertility: Evidence from the Extension of Social Pensions in Namibia",
+      "doi": "10.3886/e141081v1-202739"
+    },
+    {
+      "paperId": "W7161001608",
+      "title": "Data and Code for: The Old-Age Security Motive for Fertility: Evidence from the Extension of Social Pensions in Namibia",
+      "doi": "10.3886/e141081v1-202740"
+    },
+    {
+      "paperId": "W7161049216",
+      "title": "Data and Code for: The Old-Age Security Motive for Fertility: Evidence from the Extension of Social Pensions in Namibia",
+      "doi": "10.3886/e141081v1-202741"
+    }
+  ],
+  "merged_version_groups": [
+    {
+      "title": "The Old-Age Security Motive for Fertility: Evidence from the Extension of Social Pensions in Namibia",
+      "kept": "W4307711611",
+      "kept_doi": "10.1257/pol.20200466",
+      "n_versions": 3
+    },
+    {
+      "title": "What Explains Fertility? Evidence from Italian Pension Reforms",
+      "kept": "W1512976090",
+      "kept_doi": "10.2139/ssrn.1406946",
+      "n_versions": 2
+    },
+    {
+      "title": "Does Pension Privatization Increase Fertility? Evidence from Chile's 1981 Reform",
+      "kept": "W2219186617",
+      "kept_doi": null,
+      "n_versions": 2
+    }
+  ]
+}
