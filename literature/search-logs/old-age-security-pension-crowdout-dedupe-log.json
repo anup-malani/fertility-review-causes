@@ -18,6 +18,12 @@
   ],
   "merged_version_groups": [
     {
+      "title": "Pensions and Fertility: Microeconomic Evidence",
+      "kept": "W3013628590",
+      "kept_doi": "10.1257/pol.20200440",
+      "n_versions": 2
+    },
+    {
       "title": "The Old-Age Security Motive for Fertility: Evidence from the Extension of Social Pensions in Namibia",
       "kept": "W4307711611",
       "kept_doi": "10.1257/pol.20200466",
@@ -34,6 +40,95 @@
       "kept": "W2219186617",
       "kept_doi": null,
       "n_versions": 2
+    },
+    {
+      "title": "Rearranging the Family?",
+      "kept": "W4253984199",
+      "kept_doi": "10.3368/jhr.xl.1.186",
+      "n_versions": 2,
+      "merge": "author+containment"
+    },
+    {
+      "title": "Old-age support and fertility in rural China: Does the new rural pension scheme matter?",
+      "kept": "W3035169938",
+      "kept_doi": "10.1371/journal.pone.0234657",
+      "merge": "web-hunt-duplicate"
+    },
+    {
+      "title": "The Impact of Social Security on Fertility: A Quasi-Experimental Study Using China New Rural Social Pension Scheme",
+      "kept": "W3035169938",
+      "kept_doi": "10.1371/journal.pone.0234657",
+      "merge": "web-hunt-duplicate"
+    },
+    {
+      "title": "The impact of pension reform on fertility: Evidence from China",
+      "kept": "W3035169938",
+      "kept_doi": "10.1371/journal.pone.0234657",
+      "merge": "web-hunt-duplicate"
+    },
+    {
+      "title": "Social Security and Fertility: Evidence from a Pension Reform in China",
+      "kept": "W3035169938",
+      "kept_doi": "10.1371/journal.pone.0234657",
+      "merge": "web-hunt-duplicate"
+    },
+    {
+      "title": "Pensions and Fertility in Austria",
+      "kept": "W3013628590",
+      "kept_doi": "10.1257/pol.20200440",
+      "merge": "web-hunt-duplicate"
+    },
+    {
+      "title": "The Old-Age Security Motive for Fertility: Evidence from the Extension of Retirement Coverage in Rural China",
+      "kept": "W4307711611",
+      "kept_doi": "10.1257/pol.20200466",
+      "merge": "web-hunt-duplicate"
+    },
+    {
+      "title": "Effects of Pension Reform on Household Fertility and Saving Behaviors: Evidence from China's New Rural Social Pension Scheme",
+      "kept": "W3035169938",
+      "kept_doi": "10.1371/journal.pone.0234657",
+      "merge": "web-hunt-duplicate"
+    },
+    {
+      "title": "Social Security and Fertility: Evidence from China",
+      "kept": "W3035169938",
+      "kept_doi": "10.1371/journal.pone.0234657",
+      "merge": "web-hunt-duplicate"
+    }
+  ],
+  "dropped_phantoms": [
+    {
+      "paperId": "W2219186617",
+      "title": "Does Pension Privatization Increase Fertility? Evidence from Chile's 1981 Reform"
+    },
+    {
+      "paperId": "W2133124695",
+      "title": "Children as a Form of Retirement Saving: Evidence from a Pension Reform in Chile"
+    },
+    {
+      "paperId": "W4425374551",
+      "title": "The effect of social insurance on savings and fertility: evidence from China New Cooperative Medical Scheme"
+    },
+    {
+      "paperId": "W4376430019",
+      "title": "Social Security as a Commitment Mechanism: Theory and Evidence from Rural China"
+    },
+    {
+      "paperId": "W4214162398",
+      "title": "The impact of social security on fertility: Quasi-experimental evidence from pension reforms in Hungary"
+    },
+    {
+      "paperId": "W2131777609",
+      "title": "An analysis of the relationship between old age pension and fertility: Evidence from a New Pension in Turkey"
+    },
+    {
+      "paperId": "W3046614462",
+      "title": "Old-Age Security Hypothesis and Fertility Decisions: Evidence from a Social Pension Reform"
+    },
+    {
+      "paperId": "W2020905893",
+      "title": "The Consequences of Raising the Retirement Age: Evidence from Pension Reforms in Europe"
     }
   ]
 }

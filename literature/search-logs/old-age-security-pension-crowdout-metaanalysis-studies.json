@@ -22,7 +22,22 @@
     "wid_status": "OK",
     "doi_final": "10.1257/pol.20200440",
     "doi_trust": "gold-RA-verified",
-    "doi_flag": null
+    "doi_flag": null,
+    "alt_versions": [
+      {
+        "paperId": "W4287831143",
+        "doi": "10.2139/ssrn.3564878",
+        "year": 2020,
+        "trust": "crossref-search(J>=0.80)"
+      },
+      {
+        "paperId": "W2130449408",
+        "doi": null,
+        "year": null,
+        "trust": "UNRESOLVED",
+        "merge": "web-hunt-duplicate"
+      }
+    ]
   },
   {
     "paperId": "W4307711611",
@@ -62,6 +77,13 @@
         "doi": "10.2139/ssrn.3492985",
         "year": 2019,
         "trust": "corrected-map(title-verified)"
+      },
+      {
+        "paperId": "W3155219741",
+        "doi": null,
+        "year": null,
+        "trust": "UNRESOLVED",
+        "merge": "web-hunt-duplicate"
       }
     ]
   },
@@ -178,7 +200,51 @@
     "wid_status": "OK",
     "doi_final": "10.1371/journal.pone.0234657",
     "doi_trust": "gold-RA-verified",
-    "doi_flag": null
+    "doi_flag": null,
+    "alt_versions": [
+      {
+        "paperId": "7b9527c28b6012f98fde5b9de44862e3c45b87ab",
+        "doi": null,
+        "year": null,
+        "trust": "UNRESOLVED",
+        "merge": "web-hunt-duplicate"
+      },
+      {
+        "paperId": "W4434267745",
+        "doi": null,
+        "year": null,
+        "trust": "UNRESOLVED",
+        "merge": "web-hunt-duplicate"
+      },
+      {
+        "paperId": "W4210234699",
+        "doi": null,
+        "year": null,
+        "trust": "UNRESOLVED",
+        "merge": "web-hunt-duplicate"
+      },
+      {
+        "paperId": "W4427283827",
+        "doi": null,
+        "year": null,
+        "trust": "UNRESOLVED",
+        "merge": "web-hunt-duplicate"
+      },
+      {
+        "paperId": "W4392688048",
+        "doi": null,
+        "year": 2023,
+        "trust": "UNRESOLVED",
+        "merge": "web-hunt-duplicate"
+      },
+      {
+        "paperId": "W2960183524",
+        "doi": null,
+        "year": null,
+        "trust": "UNRESOLVED",
+        "merge": "web-hunt-duplicate"
+      }
+    ]
   },
   {
     "paperId": "W2789327011",
@@ -391,168 +457,6 @@
     "doi_flag": null
   },
   {
-    "paperId": "7b9527c28b6012f98fde5b9de44862e3c45b87ab",
-    "title": "Old-age support and fertility in rural China: Does the new rural pension scheme matter?",
-    "authors": [],
-    "year": null,
-    "tier": 2,
-    "channel": "S",
-    "in_gold": false,
-    "evidenceType": 4,
-    "identification": 3,
-    "centrality": 3,
-    "compositeScore": 10,
-    "mechanism": "llm_reason explicitly notes 'naturally experiment'; Population Studies 2015 paper tests whether China's New Rural Pension Scheme causally reduced fertility, making the OAS-fertility crowdout the primary question with quasi-experimental identification.",
-    "scoreRationale": "llm_reason explicitly notes 'naturally experiment'; Population Studies 2015 paper tests whether China's New Rural Pension Scheme causally reduced fertility, making the OAS-fertility crowdout the primary question with quasi-experimental identification.",
-    "score_source": "anup-prioritized",
-    "doi": null,
-    "oa_urls": [],
-    "wid_status": "NO_WID",
-    "doi_final": null,
-    "doi_trust": "UNRESOLVED",
-    "doi_flag": "NO_WID"
-  },
-  {
-    "paperId": "W2219186617",
-    "title": "Does Pension Privatization Increase Fertility? Evidence from Chile's 1981 Reform",
-    "authors": [],
-    "year": null,
-    "tier": 2,
-    "channel": "S",
-    "in_gold": false,
-    "evidenceType": 4,
-    "identification": 3,
-    "centrality": 3,
-    "compositeScore": 10,
-    "mechanism": "Natural experiment exploiting Chile's 1981 pension privatization reform to estimate whether pension policy affects fertility \u2014 textbook quasi-experimental identification and the OAS-fertility link is the sole research question.",
-    "scoreRationale": "Natural experiment exploiting Chile's 1981 pension privatization reform to estimate whether pension policy affects fertility \u2014 textbook quasi-experimental identification and the OAS-fertility link is the sole research question.",
-    "score_source": "anup-prioritized",
-    "doi": null,
-    "oa_urls": [],
-    "wid_status": "WID_404",
-    "doi_final": null,
-    "doi_trust": "UNRESOLVED",
-    "doi_flag": "WID_404",
-    "alt_versions": [
-      {
-        "paperId": "W3200494699",
-        "doi": null,
-        "year": null,
-        "trust": "UNRESOLVED"
-      }
-    ]
-  },
-  {
-    "paperId": "W2133124695",
-    "title": "Children as a Form of Retirement Saving: Evidence from a Pension Reform in Chile",
-    "authors": [],
-    "year": null,
-    "tier": 2,
-    "channel": "S",
-    "in_gold": false,
-    "evidenceType": 4,
-    "identification": 3,
-    "centrality": 3,
-    "compositeScore": 10,
-    "mechanism": "Published in Review of Economic Studies; uses a pension reform in Chile as a natural experiment to estimate the effect of pension generosity on fertility \u2014 textbook quasi-experimental identification of the OAS-fertility crowdout hypothesis.",
-    "scoreRationale": "Published in Review of Economic Studies; uses a pension reform in Chile as a natural experiment to estimate the effect of pension generosity on fertility \u2014 textbook quasi-experimental identification of the OAS-fertility crowdout hypothesis.",
-    "score_source": "anup-prioritized",
-    "doi": null,
-    "oa_urls": [],
-    "wid_status": "WID_404",
-    "doi_final": null,
-    "doi_trust": "UNRESOLVED",
-    "doi_flag": "WID_404"
-  },
-  {
-    "paperId": "W4425374551",
-    "title": "The effect of social insurance on savings and fertility: evidence from China New Cooperative Medical Scheme",
-    "authors": [],
-    "year": null,
-    "tier": 2,
-    "channel": "S",
-    "in_gold": false,
-    "evidenceType": 4,
-    "identification": 3,
-    "centrality": 3,
-    "compositeScore": 10,
-    "mechanism": "Abstract missing; scoring on title + llm_reason: quasi-experimental study of China's New Cooperative Medical Scheme (health insurance expansion) on savings and fertility \u2014 exogenous policy rollout provides credible causal identification, and the OAS-substitution mechanism (social insurance reducing fertility demand) is the primary hypothesis.",
-    "scoreRationale": "Abstract missing; scoring on title + llm_reason: quasi-experimental study of China's New Cooperative Medical Scheme (health insurance expansion) on savings and fertility \u2014 exogenous policy rollout provides credible causal identification, and the OAS-substitution mechanism (social insurance reducing fertility demand) is the primary hypothesis.",
-    "score_source": "anup-prioritized",
-    "doi": null,
-    "oa_urls": [],
-    "wid_status": "WID_404",
-    "doi_final": null,
-    "doi_trust": "UNRESOLVED",
-    "doi_flag": "WID_404"
-  },
-  {
-    "paperId": "W4434267745",
-    "title": "The Impact of Social Security on Fertility: A Quasi-Experimental Study Using China New Rural Social Pension Scheme",
-    "authors": [],
-    "year": null,
-    "tier": 2,
-    "channel": "S",
-    "in_gold": false,
-    "evidenceType": 4,
-    "identification": 3,
-    "centrality": 3,
-    "compositeScore": 10,
-    "mechanism": "Abstract missing; scoring on title alone: quasi-experimental study explicitly on the impact of social security on fertility using China's New Rural Social Pension Scheme rollout \u2014 natural experiment with exogenous variation, and the social-security-to-fertility causal effect is the stated primary question.",
-    "scoreRationale": "Abstract missing; scoring on title alone: quasi-experimental study explicitly on the impact of social security on fertility using China's New Rural Social Pension Scheme rollout \u2014 natural experiment with exogenous variation, and the social-security-to-fertility causal effect is the stated primary question.",
-    "score_source": "anup-prioritized",
-    "doi": null,
-    "oa_urls": [],
-    "wid_status": "WID_404",
-    "doi_final": null,
-    "doi_trust": "UNRESOLVED",
-    "doi_flag": "WID_404"
-  },
-  {
-    "paperId": "W4210234699",
-    "title": "The impact of pension reform on fertility: Evidence from China",
-    "authors": [],
-    "year": null,
-    "tier": 2,
-    "channel": "S",
-    "in_gold": false,
-    "evidenceType": 4,
-    "identification": 3,
-    "centrality": 3,
-    "compositeScore": 10,
-    "mechanism": "Abstract missing; China Economic Review paper on pension reform impact on fertility in China \u2014 China's staggered pension reforms provide quasi-experimental variation; OAS\u2013fertility is the primary question.",
-    "scoreRationale": "Abstract missing; China Economic Review paper on pension reform impact on fertility in China \u2014 China's staggered pension reforms provide quasi-experimental variation; OAS\u2013fertility is the primary question.",
-    "score_source": "anup-prioritized",
-    "doi": null,
-    "oa_urls": [],
-    "wid_status": "WID_404",
-    "doi_final": null,
-    "doi_trust": "UNRESOLVED",
-    "doi_flag": "WID_404"
-  },
-  {
-    "paperId": "W4427283827",
-    "title": "Social Security and Fertility: Evidence from a Pension Reform in China",
-    "authors": [],
-    "year": null,
-    "tier": 2,
-    "channel": "S",
-    "in_gold": false,
-    "evidenceType": 4,
-    "identification": 3,
-    "centrality": 3,
-    "compositeScore": 10,
-    "mechanism": "Abstract missing; scoring on title + llm_reason: natural experiment using China pension reform to test whether social security expansion reduces fertility \u2014 quasi-experimental causal identification, and the social-security-to-fertility crowdout is explicitly the primary research question.",
-    "scoreRationale": "Abstract missing; scoring on title + llm_reason: natural experiment using China pension reform to test whether social security expansion reduces fertility \u2014 quasi-experimental causal identification, and the social-security-to-fertility crowdout is explicitly the primary research question.",
-    "score_source": "anup-prioritized",
-    "doi": null,
-    "oa_urls": [],
-    "wid_status": "WID_404",
-    "doi_final": null,
-    "doi_trust": "UNRESOLVED",
-    "doi_flag": "WID_404"
-  },
-  {
     "paperId": "c88179a76826e89c899a3720591c672d5fa5549c",
     "title": "Pension Policy Reform and Fertility: Micro Evidence from Ghana",
     "authors": [],
@@ -597,72 +501,6 @@
     "doi_flag": null
   },
   {
-    "paperId": "W4376430019",
-    "title": "Social Security as a Commitment Mechanism: Theory and Evidence from Rural China",
-    "authors": [],
-    "year": null,
-    "tier": 2,
-    "channel": "S",
-    "in_gold": false,
-    "evidenceType": 4,
-    "identification": 3,
-    "centrality": 3,
-    "compositeScore": 10,
-    "mechanism": "Abstract missing; title and llm_reason confirm quasi-experimental test of whether rural pension introduction in China reduces OAS motive for fertility; causal identification via natural experiment, OAS-fertility is primary question.",
-    "scoreRationale": "Abstract missing; title and llm_reason confirm quasi-experimental test of whether rural pension introduction in China reduces OAS motive for fertility; causal identification via natural experiment, OAS-fertility is primary question.",
-    "score_source": "anup-prioritized",
-    "doi": null,
-    "oa_urls": [],
-    "wid_status": "WID_404",
-    "doi_final": null,
-    "doi_trust": "UNRESOLVED",
-    "doi_flag": "WID_404"
-  },
-  {
-    "paperId": "W4214162398",
-    "title": "The impact of social security on fertility: Quasi-experimental evidence from pension reforms in Hungary",
-    "authors": [],
-    "year": null,
-    "tier": 2,
-    "channel": "S",
-    "in_gold": false,
-    "evidenceType": 4,
-    "identification": 3,
-    "centrality": 3,
-    "compositeScore": 10,
-    "mechanism": "Quasi-experimental identification using pension reforms in Hungary to estimate the causal effect of social security on fertility \u2014 this is the exact empirical strategy sought and the OAS-fertility link is the sole research question.",
-    "scoreRationale": "Quasi-experimental identification using pension reforms in Hungary to estimate the causal effect of social security on fertility \u2014 this is the exact empirical strategy sought and the OAS-fertility link is the sole research question.",
-    "score_source": "anup-prioritized",
-    "doi": null,
-    "oa_urls": [],
-    "wid_status": "WID_404",
-    "doi_final": null,
-    "doi_trust": "UNRESOLVED",
-    "doi_flag": "WID_404"
-  },
-  {
-    "paperId": "W2130449408",
-    "title": "Pensions and Fertility in Austria",
-    "authors": [],
-    "year": null,
-    "tier": 2,
-    "channel": "S",
-    "in_gold": false,
-    "evidenceType": 4,
-    "identification": 3,
-    "centrality": 3,
-    "compositeScore": 10,
-    "mechanism": "Abstract missing; title directly pairs pensions and fertility in Austria \u2014 the JPED venue and Austrian context strongly suggest a pension reform quasi-experiment identifying the causal OAS-fertility effect, making this a top-priority paper.",
-    "scoreRationale": "Abstract missing; title directly pairs pensions and fertility in Austria \u2014 the JPED venue and Austrian context strongly suggest a pension reform quasi-experiment identifying the causal OAS-fertility effect, making this a top-priority paper.",
-    "score_source": "anup-prioritized",
-    "doi": null,
-    "oa_urls": [],
-    "wid_status": "WID_404",
-    "doi_final": null,
-    "doi_trust": "UNRESOLVED",
-    "doi_flag": "WID_404"
-  },
-  {
     "paperId": "W4411215817",
     "title": "Pension Reforms and Fertility: Evidence from a Natural Experiment in Italy",
     "authors": [
@@ -690,133 +528,6 @@
     "doi_flag": "WID_DRIFT"
   },
   {
-    "paperId": "W2131777609",
-    "title": "An analysis of the relationship between old age pension and fertility: Evidence from a New Pension in Turkey",
-    "authors": [
-      "Adcock",
-      "Trout"
-    ],
-    "year": 2007,
-    "tier": 2,
-    "channel": "S",
-    "in_gold": false,
-    "evidenceType": 4,
-    "identification": 3,
-    "centrality": 3,
-    "compositeScore": 10,
-    "mechanism": "Title promises quasi-experimental analysis of a new pension in Turkey as a natural experiment for the OAS-fertility link \u2014 primary research question is exactly the hypothesis; abstract text is erroneous (chemistry paper mix-up) so scored on title alone; abstract missing.",
-    "scoreRationale": "Title promises quasi-experimental analysis of a new pension in Turkey as a natural experiment for the OAS-fertility link \u2014 primary research question is exactly the hypothesis; abstract text is erroneous (chemistry paper mix-up) so scored on title alone; abstract missing.",
-    "score_source": "anup-prioritized",
-    "doi": "10.1002/poc.1247",
-    "oa_urls": [],
-    "wid_status": "WID_DRIFT",
-    "doi_final": null,
-    "doi_trust": "UNRESOLVED",
-    "doi_flag": "WID_DRIFT"
-  },
-  {
-    "paperId": "W3155219741",
-    "title": "The Old-Age Security Motive for Fertility: Evidence from the Extension of Retirement Coverage in Rural China",
-    "authors": [],
-    "year": null,
-    "tier": 2,
-    "channel": "S",
-    "in_gold": false,
-    "evidenceType": 4,
-    "identification": 3,
-    "centrality": 3,
-    "compositeScore": 10,
-    "mechanism": "AEJ Applied paper explicitly titled 'The Old-Age Security Motive for Fertility: Evidence from the Extension of Retirement Coverage in Rural China' \u2014 this is the canonical quasi-experimental study using pension rollout as exogenous variation, with OAS\u2013fertility as the sole research question.",
-    "scoreRationale": "AEJ Applied paper explicitly titled 'The Old-Age Security Motive for Fertility: Evidence from the Extension of Retirement Coverage in Rural China' \u2014 this is the canonical quasi-experimental study using pension rollout as exogenous variation, with OAS\u2013fertility as the sole research question.",
-    "score_source": "anup-prioritized",
-    "doi": null,
-    "oa_urls": [],
-    "wid_status": "WID_404",
-    "doi_final": null,
-    "doi_trust": "UNRESOLVED",
-    "doi_flag": "WID_404"
-  },
-  {
-    "paperId": "W3046614462",
-    "title": "Old-Age Security Hypothesis and Fertility Decisions: Evidence from a Social Pension Reform",
-    "authors": [],
-    "year": null,
-    "tier": 2,
-    "channel": "S",
-    "in_gold": false,
-    "evidenceType": 4,
-    "identification": 3,
-    "centrality": 3,
-    "compositeScore": 10,
-    "mechanism": "Title 'Old-Age Security Hypothesis and Fertility Decisions: Evidence from a Social Pension Reform' explicitly signals a quasi-experimental design exploiting a pension reform as an instrument, with the OAS-fertility causal link as the primary research question \u2014 maximum score on all dimensions.",
-    "scoreRationale": "Title 'Old-Age Security Hypothesis and Fertility Decisions: Evidence from a Social Pension Reform' explicitly signals a quasi-experimental design exploiting a pension reform as an instrument, with the OAS-fertility causal link as the primary research question \u2014 maximum score on all dimensions.",
-    "score_source": "anup-prioritized",
-    "doi": null,
-    "oa_urls": [],
-    "wid_status": "WID_404",
-    "doi_final": null,
-    "doi_trust": "UNRESOLVED",
-    "doi_flag": "WID_404"
-  },
-  {
-    "paperId": "W4392688048",
-    "title": "Effects of Pension Reform on Household Fertility and Saving Behaviors: Evidence from China's New Rural Social Pension Scheme",
-    "authors": [
-      "Nakamura",
-      "Ohler",
-      "Householder",
-      "Nagaya",
-      "Sato",
-      "Okuyama",
-      "Ogata",
-      "Daar",
-      "Hoa",
-      "Choyke",
-      "Kobayashi"
-    ],
-    "year": 2023,
-    "tier": 2,
-    "channel": "S",
-    "in_gold": false,
-    "evidenceType": 4,
-    "identification": 3,
-    "centrality": 3,
-    "compositeScore": 10,
-    "mechanism": "Abstract is scrambled (medical text), scoring on title + llm_reason: quasi-experimental study of China's New Rural Social Pension Scheme reform on household fertility \u2014 natural experiment with plausibly exogenous pension rollout, pension-fertility link is the primary research question.",
-    "scoreRationale": "Abstract is scrambled (medical text), scoring on title + llm_reason: quasi-experimental study of China's New Rural Social Pension Scheme reform on household fertility \u2014 natural experiment with plausibly exogenous pension rollout, pension-fertility link is the primary research question.",
-    "score_source": "anup-prioritized",
-    "doi": "10.1158/1535-7163.c.6537658",
-    "oa_urls": [
-      "http://dx.doi.org/10.1158/1535-7163.c.6537658"
-    ],
-    "wid_status": "WID_DRIFT",
-    "doi_final": null,
-    "doi_trust": "UNRESOLVED",
-    "doi_flag": "WID_DRIFT"
-  },
-  {
-    "paperId": "W2960183524",
-    "title": "Social Security and Fertility: Evidence from China",
-    "authors": [],
-    "year": null,
-    "tier": 2,
-    "channel": "S",
-    "in_gold": false,
-    "evidenceType": 4,
-    "identification": 3,
-    "centrality": 3,
-    "compositeScore": 10,
-    "mechanism": "Abstract missing; RAND Journal of Economics (doi pattern) paper on social security and fertility in China \u2014 China's pension rollout provides plausibly exogenous variation, making this likely a quasi-experimental study with OAS\u2013fertility as the primary question.",
-    "scoreRationale": "Abstract missing; RAND Journal of Economics (doi pattern) paper on social security and fertility in China \u2014 China's pension rollout provides plausibly exogenous variation, making this likely a quasi-experimental study with OAS\u2013fertility as the primary question.",
-    "score_source": "anup-prioritized",
-    "doi": null,
-    "oa_urls": [],
-    "wid_status": "WID_404",
-    "doi_final": null,
-    "doi_trust": "UNRESOLVED",
-    "doi_flag": "WID_404"
-  },
-  {
     "paperId": "W3125165008",
     "title": "Fertility and Financial Development: Evidence from U.S. Counties in the 19th Century",
     "authors": [
@@ -838,33 +549,6 @@
     "oa_urls": [],
     "wid_status": "OK",
     "doi_final": "10.3386/w20491",
-    "doi_trust": "crossref-search(J>=0.80)",
-    "doi_flag": null
-  },
-  {
-    "paperId": "W4287831143",
-    "title": "Pensions and Fertility: Micro-Economic Evidence",
-    "authors": [
-      "Danzer",
-      "Zyska"
-    ],
-    "year": 2020,
-    "tier": 2,
-    "channel": "K",
-    "in_gold": false,
-    "evidenceType": 4,
-    "identification": 3,
-    "centrality": 3,
-    "compositeScore": 10,
-    "mechanism": "pension-crowdout-fertility",
-    "scoreRationale": "Brazil rural pension expansion quasi-experiment; event study, DiD, IV show pension generosity cuts fertility. Core evidence.",
-    "score_source": "step24-agent",
-    "doi": null,
-    "oa_urls": [
-      "https://docs.iza.org/dp13048.pdf"
-    ],
-    "wid_status": "OK",
-    "doi_final": "10.2139/ssrn.3564878",
     "doi_trust": "crossref-search(J>=0.80)",
     "doi_flag": null
   },
@@ -953,31 +637,6 @@
     "doi_final": "10.1108/caer-01-2014-0003",
     "doi_trust": "openalex-fresh(guarded)",
     "doi_flag": null
-  },
-  {
-    "paperId": "W2020905893",
-    "title": "The Consequences of Raising the Retirement Age: Evidence from Pension Reforms in Europe",
-    "authors": [
-      "Naderi",
-      "Khonsari"
-    ],
-    "year": 2011,
-    "tier": 2,
-    "channel": "S",
-    "in_gold": false,
-    "evidenceType": 4,
-    "identification": 3,
-    "centrality": 2,
-    "compositeScore": 9,
-    "mechanism": "Abstract missing; title and llm_reason confirm quasi-experimental analysis of European pension reforms (retirement age changes) on fertility; strong causal design, OAS-fertility is a primary tested hypothesis.",
-    "scoreRationale": "Abstract missing; title and llm_reason confirm quasi-experimental analysis of European pension reforms (retirement age changes) on fertility; strong causal design, OAS-fertility is a primary tested hypothesis.",
-    "score_source": "anup-prioritized",
-    "doi": "10.1007/s10765-011-0946-6",
-    "oa_urls": [],
-    "wid_status": "WID_DRIFT",
-    "doi_final": null,
-    "doi_trust": "UNRESOLVED",
-    "doi_flag": "WID_DRIFT"
   },
   {
     "paperId": "W2891994215",
@@ -1088,32 +747,6 @@
     "doi_flag": null
   },
   {
-    "paperId": "W4253984199",
-    "title": "Rearranging the Family?",
-    "authors": [
-      "Edmonds",
-      "Mammen",
-      "Miller"
-    ],
-    "year": 2005,
-    "tier": 2,
-    "channel": "K",
-    "in_gold": false,
-    "evidenceType": 4,
-    "identification": 3,
-    "centrality": 2,
-    "compositeScore": 9,
-    "mechanism": "social-pension-living-arrangements",
-    "scoreRationale": "South Africa pension age discontinuity (RD); shifts coresidence toward childbearing-age women and young children. Fertility-adjacent.",
-    "score_source": "step24-agent",
-    "doi": "10.3368/jhr.xl.1.186",
-    "oa_urls": [],
-    "wid_status": "OK",
-    "doi_final": "10.3368/jhr.xl.1.186",
-    "doi_trust": "openalex-fresh(guarded)",
-    "doi_flag": null
-  },
-  {
     "paperId": "W3122011789",
     "title": "The Impact of Social Pensions on Intergenerational Relationships: Comparative Evidence from China",
     "authors": [
@@ -1168,6 +801,40 @@
     "doi_flag": null
   },
   {
+    "paperId": "W4253984199",
+    "title": "Rearranging the Family?",
+    "authors": [
+      "Edmonds",
+      "Mammen",
+      "Miller"
+    ],
+    "year": 2005,
+    "tier": 2,
+    "channel": "K",
+    "in_gold": false,
+    "evidenceType": 4,
+    "identification": 3,
+    "centrality": 2,
+    "compositeScore": 9,
+    "mechanism": "social-pension-living-arrangements",
+    "scoreRationale": "South Africa pension age discontinuity (RD); shifts coresidence toward childbearing-age women and young children. Fertility-adjacent.",
+    "score_source": "step24-agent",
+    "doi": "10.3368/jhr.xl.1.186",
+    "oa_urls": [],
+    "wid_status": "OK",
+    "doi_final": "10.3368/jhr.xl.1.186",
+    "doi_trust": "openalex-fresh(guarded)",
+    "doi_flag": null,
+    "alt_versions": [
+      {
+        "paperId": "W1853612500",
+        "doi": "10.3386/w10306",
+        "year": 2004,
+        "trust": "openalex-fresh(guarded)"
+      }
+    ]
+  },
+  {
     "paperId": "W2163894594",
     "title": "Do Public Transfers Crowd Out Private Support to the Elderly? Evidence from a Randomized Experiment in Ecuador",
     "authors": [
@@ -1190,34 +857,6 @@
     "doi_final": null,
     "doi_trust": "UNRESOLVED",
     "doi_flag": "WID_DRIFT"
-  },
-  {
-    "paperId": "W1853612500",
-    "title": "Rearranging the Family? Income Support and Elderly Living Arrangements in a Low Income Country",
-    "authors": [
-      "Edmonds",
-      "Mammen",
-      "Miller"
-    ],
-    "year": 2004,
-    "tier": 2,
-    "channel": "K",
-    "in_gold": false,
-    "evidenceType": 4,
-    "identification": 3,
-    "centrality": 1,
-    "compositeScore": 8,
-    "mechanism": "pension/living arrangements",
-    "scoreRationale": "RD on South African social-pension benefit formula; strong quasi-experimental ID but outcome is elderly living arrangements, not fertility.",
-    "score_source": "step24-agent",
-    "doi": "10.3386/w10306",
-    "oa_urls": [
-      "https://doi.org/10.3386/w10306"
-    ],
-    "wid_status": "OK",
-    "doi_final": "10.3386/w10306",
-    "doi_trust": "openalex-fresh(guarded)",
-    "doi_flag": null
   },
   {
     "paperId": "W3192594421",

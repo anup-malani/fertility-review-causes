@@ -1,0 +1,173 @@
+[
+  {
+    "n": 1,
+    "paperId": "7b9527c28b6012f98fde5b9de44862e3c45b87ab",
+    "query_title": "Old-age support and fertility in rural China: Does the new rural pension scheme matter?",
+    "category": "DUP_OF_INCLUDED",
+    "maps_to_doi": "10.1371/journal.pone.0234657",
+    "confidence": "medium",
+    "evidence": "No exact-title paper found; reads as a garbled variant of the Shen/Zheng/Yang NRPS->fertility study."
+  },
+  {
+    "n": 2,
+    "paperId": "W2219186617",
+    "query_title": "Does Pension Privatization Increase Fertility? Evidence from Chile's 1981 Reform",
+    "category": "PHANTOM",
+    "maps_to_doi": null,
+    "confidence": "high",
+    "evidence": "Extensive search found NO empirical Chile-1981 pension-privatization->fertility study; all Chile-1981 hits concern pension finance, not fertility."
+  },
+  {
+    "n": 3,
+    "paperId": "W2133124695",
+    "query_title": "Children as a Form of Retirement Saving: Evidence from a Pension Reform in Chile",
+    "category": "PHANTOM",
+    "maps_to_doi": null,
+    "confidence": "high",
+    "evidence": "No Chile paper by this title; 'children as retirement saving' appears only as a theory framing, not a Chile empirical study."
+  },
+  {
+    "n": 4,
+    "paperId": "W4425374551",
+    "query_title": "The effect of social insurance on savings and fertility: evidence from China New Cooperative Medical Scheme",
+    "category": "PHANTOM",
+    "maps_to_doi": null,
+    "confidence": "medium",
+    "evidence": "No NCMS->savings+fertility paper; nearest real study (Bai & Wu, NCMS & consumption) is off-topic (consumption, not fertility)."
+  },
+  {
+    "n": 5,
+    "paperId": "W4434267745",
+    "query_title": "The Impact of Social Security on Fertility: A Quasi-Experimental Study Using China New Rural Social Pension Scheme",
+    "category": "DUP_OF_INCLUDED",
+    "maps_to_doi": "10.1371/journal.pone.0234657",
+    "confidence": "high",
+    "evidence": "Clean topical match to Shen/Zheng/Yang (NRPS, DiD on CFPS). No distinct paper of this title exists."
+  },
+  {
+    "n": 6,
+    "paperId": "W4210234699",
+    "query_title": "The impact of pension reform on fertility: Evidence from China",
+    "category": "DUP_OF_INCLUDED",
+    "maps_to_doi": "10.1371/journal.pone.0234657",
+    "confidence": "high",
+    "evidence": "Garbled variant of the Shen NRPS->fertility study; no separate paper located."
+  },
+  {
+    "n": 7,
+    "paperId": "W4427283827",
+    "query_title": "Social Security and Fertility: Evidence from a Pension Reform in China",
+    "category": "DUP_OF_INCLUDED",
+    "maps_to_doi": "10.1371/journal.pone.0234657",
+    "confidence": "medium",
+    "evidence": "No distinct paper found across RePEc/SSRN/Scholar; best match is the Shen NRPS study (likely duplicate)."
+  },
+  {
+    "n": 8,
+    "paperId": "c88179a76826e89c899a3720591c672d5fa5549c",
+    "query_title": "Pension Policy Reform and Fertility: Micro Evidence from Ghana",
+    "category": "NEW_PDF_UNAVAIL",
+    "maps_to_doi": null,
+    "confidence": "high",
+    "evidence": "REAL distinct paper: Zelu, Iranzo & Perez-Laborda, 'Pension Policy Reform and Fertility: Micro Evidence from Ghana' (URV WP, IZA/BREAD GLMLIC 2023). Exact-title match. OA PDF at conference.iza.org/.../zelu_b34232.pdf currently returns 503 - retry."
+  },
+  {
+    "n": 9,
+    "paperId": "W4376430019",
+    "query_title": "Social Security as a Commitment Mechanism: Theory and Evidence from Rural China",
+    "category": "PHANTOM",
+    "maps_to_doi": null,
+    "confidence": "high",
+    "evidence": "No 'social security as a commitment mechanism / rural China' paper locatable; title appears fabricated."
+  },
+  {
+    "n": 10,
+    "paperId": "W4214162398",
+    "query_title": "The impact of social security on fertility: Quasi-experimental evidence from pension reforms in Hungary",
+    "category": "PHANTOM",
+    "maps_to_doi": null,
+    "confidence": "medium",
+    "evidence": "No quasi-experimental Hungarian pension->fertility study exists; the country in the title matches no real paper."
+  },
+  {
+    "n": 11,
+    "paperId": "W2130449408",
+    "query_title": "Pensions and Fertility in Austria",
+    "category": "DUP_OF_INCLUDED",
+    "maps_to_doi": "10.1257/pol.20200440",
+    "confidence": "medium",
+    "evidence": "'Pensions and Fertility' uniquely identifies Danzer & Zyska (AEJ:EP 2023, IZA DP 13048); setting is garbled (real setting Brazil, not Austria)."
+  },
+  {
+    "n": 12,
+    "paperId": "W2131777609",
+    "query_title": "An analysis of the relationship between old age pension and fertility: Evidence from a New Pension in Turkey",
+    "category": "PHANTOM",
+    "maps_to_doi": null,
+    "confidence": "medium",
+    "evidence": "Zero exact-title hits; setting confirmed not Turkey. Its stored abstract is an organic-chemistry paper (W2131777609 is a documented WID-drift corrupt record) - so nothing real to resolve to. Ghost."
+  },
+  {
+    "n": 13,
+    "paperId": "W3155219741",
+    "query_title": "The Old-Age Security Motive for Fertility: Evidence from the Extension of Retirement Coverage in Rural China",
+    "category": "DUP_OF_INCLUDED",
+    "maps_to_doi": "10.1257/pol.20200466",
+    "confidence": "medium",
+    "evidence": "Title stem 'The Old-Age Security Motive for Fertility: Evidence from the Extension of...' is verbatim Rossi & Godard (AEJ:EP 2022); setting garbled (real setting Namibia, not Rural China)."
+  },
+  {
+    "n": 14,
+    "paperId": "W3046614462",
+    "query_title": "Old-Age Security Hypothesis and Fertility Decisions: Evidence from a Social Pension Reform",
+    "category": "PHANTOM",
+    "maps_to_doi": null,
+    "confidence": "low",
+    "evidence": "Loose paraphrase; best thematic match is the Rossi & Godard Namibia paper (i.e. likely a duplicate of #13), but no verbatim anchor - unverifiable."
+  },
+  {
+    "n": 15,
+    "paperId": "W4392688048",
+    "query_title": "Effects of Pension Reform on Household Fertility and Saving Behaviors: Evidence from China's New Rural Social Pension Scheme",
+    "category": "DUP_OF_INCLUDED",
+    "maps_to_doi": "10.1371/journal.pone.0234657",
+    "confidence": "medium",
+    "evidence": "NRPS setting anchor matches Shen/Zheng/Yang; '...and Saving Behaviors' + 2023 date do not match the real 2020 paper."
+  },
+  {
+    "n": 16,
+    "paperId": "W2960183524",
+    "query_title": "Social Security and Fertility: Evidence from China",
+    "category": "DUP_OF_INCLUDED",
+    "maps_to_doi": "10.1371/journal.pone.0234657",
+    "confidence": "medium",
+    "evidence": "Generalized/garbled form of the Shen NRPS->fertility study; no more authoritative match exists."
+  },
+  {
+    "n": 17,
+    "paperId": "W2020905893",
+    "query_title": "The Consequences of Raising the Retirement Age: Evidence from Pension Reforms in Europe",
+    "category": "PHANTOM",
+    "maps_to_doi": null,
+    "confidence": "high",
+    "evidence": "The real 2011 paper with this title (Staubli & Zweimueller) is a LABOR-MARKET study of older-worker employment - NOT fertility. Wrong-topic trap; correctly rejected."
+  },
+  {
+    "n": 18,
+    "paperId": "W2163894594",
+    "query_title": "Do Public Transfers Crowd Out Private Support to the Elderly? Evidence from a Randomized Experiment in Ecuador",
+    "category": "NEW_FETCHED",
+    "maps_to_doi": "10.4284/0038-4038-2013.055",
+    "confidence": "medium",
+    "evidence": "Real on-topic paper: Amuedo-Dorantes & Juarez, old-age transfers crowding out private gifts - setting MEXICO ('70 y Mas'), NOT Ecuador, and method is triple-difference, NOT the RCT the corrupted title claims. PDF fetched. RA: confirm this is the intended study."
+  },
+  {
+    "n": 19,
+    "paperId": "W2920531183",
+    "query_title": "The impact of non-contributory pensions : a case study for Costa Rica",
+    "category": "NEW_FETCHED",
+    "maps_to_doi": null,
+    "confidence": "high",
+    "evidence": "Real exact-title match: Elizondo, Flores & Quinto (2018), 'The Impact of Non-contributory Pensions: A Case Study for Costa Rica', Barcelona School of Economics. PDF fetched. NOTE: a master's-project working paper - RA confirm it meets the evidence bar."
+  }
+]
