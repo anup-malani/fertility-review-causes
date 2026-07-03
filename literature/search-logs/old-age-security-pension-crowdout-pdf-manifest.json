@@ -94,8 +94,11 @@
     "doi": "10.1016/j.jpubeco.2023.104928",
     "tier": 1,
     "evidenceType": 4,
-    "status": "NEEDS_MANUAL",
-    "reason": "OA links failed/non-PDF"
+    "status": "FETCHED",
+    "reason": "OA links failed/non-PDF",
+    "file": "W4386765626__fertility-and-parental-retirement.pdf",
+    "source_url": "https://pure.uva.nl/ws/files/169114580/1-s2.0-S004727272300110X-main.pdf",
+    "via": "pass3"
   },
   {
     "paperId": "W4292265064",
@@ -450,8 +453,11 @@
     "doi": "10.16538/j.cnki.jfe.20210615.302",
     "tier": 2,
     "evidenceType": 4,
-    "status": "NEEDS_MANUAL",
-    "reason": "no OA source"
+    "status": "FETCHED",
+    "reason": "no OA source",
+    "file": "W3192594421__does-the-expansion-of-kindergarten-supply-increase-fertility.pdf",
+    "source_url": "https://qks.sufe.edu.cn/J/PDFFull/2964828e-0dd3-4178-a383-83d1156dc11c.pdf",
+    "via": "pass3"
   },
   {
     "paperId": "W2215620666",
@@ -557,8 +563,11 @@
     "doi": "10.18235/0011359",
     "tier": 2,
     "evidenceType": 4,
-    "status": "NEEDS_MANUAL",
-    "reason": "OA links failed/non-PDF"
+    "status": "FETCHED",
+    "reason": "OA links failed/non-PDF",
+    "file": "W1503653122__labor-informality-and-the-incentive-effects-of-social-securi.pdf",
+    "source_url": "http://idbdocs.iadb.org/wsdocs/getdocument.aspx?docnum=35968282",
+    "via": "pass3"
   },
   {
     "paperId": "W2036320766",

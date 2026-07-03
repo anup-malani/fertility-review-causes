@@ -1,0 +1,447 @@
+{
+  "n_studies": 44,
+  "covered": 28,
+  "missing": 16,
+  "studies": [
+    {
+      "paperId": "W3013628590",
+      "title": "Pensions and Fertility: Microeconomic Evidence",
+      "doi": "10.1257/pol.20200440",
+      "tier": 1,
+      "evidenceType": 4,
+      "n_versions": 3,
+      "covered": true,
+      "file": "W4287831143__pensions-and-fertility-micro-economic-evidence.pdf"
+    },
+    {
+      "paperId": "W4307711611",
+      "title": "The Old-Age Security Motive for Fertility: Evidence from the Extension of Social Pensions in Namibia",
+      "doi": "10.1257/pol.20200466",
+      "tier": 1,
+      "evidenceType": 4,
+      "n_versions": 4,
+      "covered": true,
+      "file": "W4307711611__the-old-age-security-motive-for-fertility-evidence-from-the-.pdf"
+    },
+    {
+      "paperId": "W1512976090",
+      "title": "What Explains Fertility? Evidence from Italian Pension Reforms",
+      "doi": "10.2139/ssrn.1406946",
+      "tier": 1,
+      "evidenceType": 4,
+      "n_versions": 2,
+      "covered": true,
+      "file": "W1512976090__what-explains-fertility-evidence-from-italian-pension-reform.pdf"
+    },
+    {
+      "paperId": "W4409334223",
+      "title": "The impact of long-term care insurance on family fertility behaviour: evidence from China",
+      "doi": "10.1080/00036846.2025.2490215",
+      "tier": 1,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": false,
+      "file": null
+    },
+    {
+      "paperId": "W3153555531",
+      "title": "The Introduction of Bismarck's Social Security System and its Effects on Marriage and Fertility in Prussia",
+      "doi": "10.1111/padr.12426",
+      "tier": 1,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": true,
+      "file": "W3153555531__the-introduction-of-bismarck-s-social-security-system-and-it.pdf"
+    },
+    {
+      "paperId": "W3035169938",
+      "title": "The fertility effects of public pension: Evidence from the new rural pension scheme in China",
+      "doi": "10.1371/journal.pone.0234657",
+      "tier": 1,
+      "evidenceType": 4,
+      "n_versions": 7,
+      "covered": true,
+      "file": "W3035169938__the-fertility-effects-of-public-pension-evidence-from-the-ne.pdf"
+    },
+    {
+      "paperId": "W2789327011",
+      "title": "The intergenerational education spillovers of pension reform",
+      "doi": "10.1007/s00148-018-0690-3",
+      "tier": 1,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": false,
+      "file": null
+    },
+    {
+      "paperId": "W2530434795",
+      "title": "Retirement, intergenerational time transfers, and fertility",
+      "doi": "10.1016/j.euroecorev.2020.103392",
+      "tier": 1,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": false,
+      "file": null
+    },
+    {
+      "paperId": "W4402894665",
+      "title": "Children as insurance revisited: Impact of children on private insurance adoption among older parents",
+      "doi": "10.1111/jori.12492",
+      "tier": 1,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": false,
+      "file": null
+    },
+    {
+      "paperId": "W4386765626",
+      "title": "Fertility and parental retirement",
+      "doi": "10.1016/j.jpubeco.2023.104928",
+      "tier": 1,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": true,
+      "file": "W4386765626__fertility-and-parental-retirement.pdf"
+    },
+    {
+      "paperId": "W4292265064",
+      "title": "Are children substitutes for assets? Evidence from Bangladesh",
+      "doi": "10.1080/19439342.2022.2111588",
+      "tier": 1,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": false,
+      "file": null
+    },
+    {
+      "paperId": "W2792120605",
+      "title": "Children's education and parental old age survival - Quasi-experimental evidence on the intergenerational effects of human capital investment",
+      "doi": "10.1016/j.jhealeco.2018.01.008",
+      "tier": 1,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": false,
+      "file": null
+    },
+    {
+      "paperId": "W2745511536",
+      "title": "Grandparental availability for child care and maternal labor force participation: pension reform evidence from Italy",
+      "doi": "10.1007/s00148-017-0683-7",
+      "tier": 1,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": true,
+      "file": "W2745511536__grandparental-availability-for-child-care-and-maternal-labor.pdf"
+    },
+    {
+      "paperId": "W2031247455",
+      "title": "Grandmothers and Granddaughters: Old Age Pension and Intra-household Allocation in South Africa",
+      "doi": "10.3386/w8061",
+      "tier": 1,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": true,
+      "file": "W2031247455__grandmothers-and-granddaughters-old-age-pension-and-intra-ho.pdf"
+    },
+    {
+      "paperId": "c88179a76826e89c899a3720591c672d5fa5549c",
+      "title": "Pension Policy Reform and Fertility: Micro Evidence from Ghana",
+      "doi": null,
+      "tier": 2,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": false,
+      "file": null
+    },
+    {
+      "paperId": "W2049018376",
+      "title": "Pensions and Fertility: Evidence from Germany",
+      "doi": "10.1007/s00148-016-0608-x",
+      "tier": 2,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": false,
+      "file": null
+    },
+    {
+      "paperId": "W4411215817",
+      "title": "Pension Reforms and Fertility: Evidence from a Natural Experiment in Italy",
+      "doi": null,
+      "tier": 2,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": true,
+      "file": "W4411215817__pension-reforms-and-fertility-evidence-from-a-natural-experi.pdf"
+    },
+    {
+      "paperId": "W3125165008",
+      "title": "Fertility and Financial Development: Evidence from U.S. Counties in the 19th Century",
+      "doi": "10.3386/w20491",
+      "tier": 2,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": true,
+      "file": "W3125165008__fertility-and-financial-development-evidence-from-u-s-counti.pdf"
+    },
+    {
+      "paperId": "W4407610952",
+      "title": "The intergenerational impact of pension reforms: How grandmothers\u2019 pension eligibility affects daughters\u2019 fertility",
+      "doi": "10.1016/j.econlet.2025.112239",
+      "tier": 2,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": false,
+      "file": null
+    },
+    {
+      "paperId": "W1804378147",
+      "title": "Relationship between Receipt of a Social Protection Grant for a Child and Second Pregnancy Rates among South African Women: A Cohort Study",
+      "doi": "10.1371/journal.pone.0137352",
+      "tier": 2,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": true,
+      "file": "W1804378147__relationship-between-receipt-of-a-social-protection-grant-fo.pdf"
+    },
+    {
+      "paperId": "W2131124455",
+      "title": "Children, old-age support and pension in rural China",
+      "doi": "10.1108/caer-01-2014-0003",
+      "tier": 2,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": false,
+      "file": null
+    },
+    {
+      "paperId": "W2891994215",
+      "title": "The Long-Term Consequences of Having Fewer Children in Old Age: Evidence from China\u2019s \u201cLater, Longer, Fewer\u201d Campaign",
+      "doi": "10.3386/w25041",
+      "tier": 2,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": true,
+      "file": "W2891994215__the-long-term-consequences-of-having-fewer-children-in-old-a.pdf"
+    },
+    {
+      "paperId": "W3123778891",
+      "title": "Pension Coverage for Parents and Educational Investment in Children: Evidence from Urban China",
+      "doi": "10.1596/1813-9450-7457",
+      "tier": 2,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": false,
+      "file": null
+    },
+    {
+      "paperId": "W4323362945",
+      "title": "The US baby boom and the 1935 Social Security Act",
+      "doi": "10.1080/1081602x.2023.2178478",
+      "tier": 2,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": false,
+      "file": null
+    },
+    {
+      "paperId": "W4313856762",
+      "title": "The One-Child Policy and Household Saving",
+      "doi": "10.1093/jeea/jvad001",
+      "tier": 2,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": true,
+      "file": "W4313856762__the-one-child-policy-and-household-saving.pdf"
+    },
+    {
+      "paperId": "W3122011789",
+      "title": "The Impact of Social Pensions on Intergenerational Relationships: Comparative Evidence from China",
+      "doi": "10.2139/ssrn.2960540",
+      "tier": 2,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": true,
+      "file": "W3122011789__the-impact-of-social-pensions-on-intergenerational-relations.pdf"
+    },
+    {
+      "paperId": "W2890409652",
+      "title": "Is There an Effect of Incremental Welfare Benefits on Fertility Behavior? A Look at the Family Cap",
+      "doi": "10.3386/w9093",
+      "tier": 2,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": true,
+      "file": "W2890409652__is-there-an-effect-of-incremental-welfare-benefits-on-fertil.pdf"
+    },
+    {
+      "paperId": "W4253984199",
+      "title": "Rearranging the Family?",
+      "doi": "10.3368/jhr.xl.1.186",
+      "tier": 2,
+      "evidenceType": 4,
+      "n_versions": 2,
+      "covered": true,
+      "file": "W4253984199__rearranging-the-family.pdf"
+    },
+    {
+      "paperId": "W2163894594",
+      "title": "Do Public Transfers Crowd Out Private Support to the Elderly? Evidence from a Randomized Experiment in Ecuador",
+      "doi": null,
+      "tier": 2,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": true,
+      "file": "W2163894594__old-age-government-transfers-and-the-crowding-out-of-private.pdf"
+    },
+    {
+      "paperId": "W3192594421",
+      "title": "Does the Expansion of Kindergarten Supply Increase Fertility\uff1fQuasi-natural Experimental Evidence from Establishing Kindergartens by Social Forces",
+      "doi": "10.16538/j.cnki.jfe.20210615.302",
+      "tier": 2,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": true,
+      "file": "W3192594421__does-the-expansion-of-kindergarten-supply-increase-fertility.pdf"
+    },
+    {
+      "paperId": "W2215620666",
+      "title": "OLD\u2010AGE PENSION AND EXTENDED FAMILIES: HOW IS ADULT CHILDREN'S INTERNAL MIGRATION AFFECTED?",
+      "doi": "10.1111/coep.12161",
+      "tier": 2,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": true,
+      "file": "W2215620666__old-age-pension-and-extended-families-how-is-adult-children-.pdf"
+    },
+    {
+      "paperId": "W3171472213",
+      "title": "Do Cash Transfers Improve Birth Outcomes? Evidence from Matched Vital Statistics, Program and Social Security Data",
+      "doi": "10.3386/w17690",
+      "tier": 2,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": true,
+      "file": "W3171472213__do-cash-transfers-improve-birth-outcomes-evidence-from-match.pdf"
+    },
+    {
+      "paperId": "W2920531183",
+      "title": "The impact of non-contributory pensions : a case study for Costa Rica",
+      "doi": null,
+      "tier": 2,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": true,
+      "file": "W2920531183__the-impact-of-non-contributory-pensions-a-case-study-for-cos.pdf"
+    },
+    {
+      "paperId": "W4311207666",
+      "title": "The Effect of Financial Resources on Homeownership, Marriage, and Fertility: Evidence from State Lotteries",
+      "doi": "10.3386/w30743",
+      "tier": 2,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": true,
+      "file": "W4311207666__the-effect-of-financial-resources-on-homeownership-marriage-.pdf"
+    },
+    {
+      "paperId": "W2520756541",
+      "title": "Does Social Security Crowd Out Private Savings?",
+      "doi": "10.18452/5502",
+      "tier": 2,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": true,
+      "file": "W2520756541__does-social-security-crowd-out-private-savings.pdf"
+    },
+    {
+      "paperId": "W2474148148",
+      "title": "The Impact of Rural Pensions in China on Labor Migration",
+      "doi": "10.1093/wber/lhw032",
+      "tier": 2,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": false,
+      "file": null
+    },
+    {
+      "paperId": "W4367674499",
+      "title": "Traditional Institutions in Modern Times: Dowries as Pensions When Sons Migrate",
+      "doi": "10.3386/w31176",
+      "tier": 2,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": true,
+      "file": "W4367674499__traditional-institutions-in-modern-times-dowries-as-pensions.pdf"
+    },
+    {
+      "paperId": "W4298059185",
+      "title": "The Effect of Public Pension Wealth on Saving and Expenditure",
+      "doi": "10.17848/wp15-223",
+      "tier": 2,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": false,
+      "file": null
+    },
+    {
+      "paperId": "W2836129448",
+      "title": "The impact of parental leave policy on the intensity of labour-market participation of mothers: Do the number of children and pre-birth work engagement matter?",
+      "doi": "10.1177/0958928718776826",
+      "tier": 2,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": false,
+      "file": null
+    },
+    {
+      "paperId": "W3095962911",
+      "title": "Will You Marry Me, Later?",
+      "doi": "10.3368/jhr.58.3.1219-10621r2",
+      "tier": 2,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": true,
+      "file": "W3095962911__will-you-marry-me-later.pdf"
+    },
+    {
+      "paperId": "W1503653122",
+      "title": "Labor Informality and the Incentive Effects of Social Security: Evidence from a Health Reform in Uruguay",
+      "doi": "10.18235/0011359",
+      "tier": 2,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": true,
+      "file": "W1503653122__labor-informality-and-the-incentive-effects-of-social-securi.pdf"
+    },
+    {
+      "paperId": "W2036320766",
+      "title": "Female Employment Reduces Fertility in Rural Senegal",
+      "doi": "10.1371/journal.pone.0122086",
+      "tier": 2,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": true,
+      "file": "W2036320766__female-employment-reduces-fertility-in-rural-senegal.pdf"
+    },
+    {
+      "paperId": "W3186592265",
+      "title": "The child penalty: evidence from Spain",
+      "doi": "10.1007/s13209-021-00241-9",
+      "tier": 2,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": true,
+      "file": "W3186592265__the-child-penalty-evidence-from-spain.pdf"
+    },
+    {
+      "paperId": "W4386437941",
+      "title": "Health and labor market effects of an unanticipated rise in retirement age. Evidence from the 2012 Italian pension reform",
+      "doi": "10.1002/hec.4749",
+      "tier": 2,
+      "evidenceType": 4,
+      "n_versions": 1,
+      "covered": false,
+      "file": null
+    }
+  ]
+}

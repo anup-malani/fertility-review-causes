@@ -28,8 +28,19 @@ OUT = ROOT / "output"
 SLUG = "old-age-security-pension-crowdout"
 
 STOP = {"the","a","an","of","and","in","on","for","from","to","its","by","new","is","with","evidence"}
+def ttokens(t):
+    # delete intra-word hyphens/apostrophes (micro-economic -> microeconomic, children's -> childrens)
+    # BEFORE splitting on remaining punctuation, so punctuation variants collapse to one token set.
+    s = re.sub(r"[-'’]", "", (t or "").lower())
+    return {w for w in re.sub(r"[^a-z0-9\s]", " ", s).split() if w not in STOP}
 def tkey(t):
-    return " ".join(sorted(w for w in re.sub(r"[^a-z0-9\s]", " ", (t or "").lower()).split() if w not in STOP))[:70]
+    return " ".join(sorted(ttokens(t)))[:70]
+
+def first_author(r):
+    a = r.get("authors") or []
+    if not a: return None
+    s = re.sub(r"[^a-z]", "", (a[0] or "").split()[-1].lower()) if a[0] else ""
+    return s if len(s) >= 3 else None
 
 TRUST_RANK = {"gold-RA-verified": 0, "gold-RA-verified(title)": 0, "corrected-map(title-verified)": 1,
               "crossref-search(J>=0.80)": 2, "openalex-fresh(guarded)": 3, "UNRESOLVED": 9}
@@ -72,12 +83,76 @@ def main():
             merged_log.append({"title": canon["title"], "kept": canon["paperId"],
                                "kept_doi": canon["doi_final"], "n_versions": len(v)})
         studies.append(canon)
+
+    # Second pass: catch working-paper/published version-variants whose titles differ in LENGTH
+    # (one is a subtitle-extended version of the other), which the title-key pass cannot see.
+    # Conservative guard: same first-author surname + year within 3 + one title's content-token
+    # set is a subset of the other's (smaller side >= 2 tokens). Guards against WID-drift garbage
+    # metadata by requiring the author key to be a real (>=3 char) surname.
+    merged = True
+    while merged:
+        merged = False
+        for i in range(len(studies)):
+            for j in range(i + 1, len(studies)):
+                a, b = studies[i], studies[j]
+                fa, fb = first_author(a), first_author(b)
+                if not fa or fa != fb: continue
+                ya, yb = a.get("year"), b.get("year")
+                if ya and yb and abs(ya - yb) > 3: continue
+                ta, tb = ttokens(a["title"]), ttokens(b["title"])
+                small = ta if len(ta) <= len(tb) else tb
+                if len(small) >= 2 and (ta <= tb or tb <= ta):
+                    pair = sorted([a, b], key=canon_sort)
+                    keep, drop = dict(pair[0]), pair[1]
+                    keep["alt_versions"] = keep.get("alt_versions", []) + [
+                        {"paperId": drop["paperId"], "doi": drop["doi_final"],
+                         "year": drop.get("year"), "trust": drop["doi_trust"]}] + drop.get("alt_versions", [])
+                    merged_log.append({"title": keep["title"], "kept": keep["paperId"],
+                                       "kept_doi": keep["doi_final"],
+                                       "n_versions": 1 + len(keep["alt_versions"]),
+                                       "merge": "author+containment"})
+                    studies = [s for k2, s in enumerate(studies) if k2 not in (i, j)] + [keep]
+                    merged = True
+                    break
+            if merged: break
+
+    # Third/fourth pass: apply the web-hunt disposition (step 33). Gated on the disposition file so
+    # the base pipeline is unaffected. (a) DUP_OF_INCLUDED: corrupted-title dead-WID entries a web
+    # hunt mapped to a paper ALREADY in the set -> merge into that canonical study by DOI. (b)
+    # PHANTOM: entries with no real paper on the web (ghost/hallucinated forward-citation records,
+    # dead W-IDs, mis-joined metadata) -> drop entirely. Both were RA-confirmed.
+    dropped_phantoms = []
+    disp_p = SL / f"{SLUG}-nodoi-web-hunt-disposition.json"
+    if disp_p.exists():
+        disp = json.load(open(disp_p))
+        forced = {d["paperId"]: d["maps_to_doi"] for d in disp
+                  if d["category"] == "DUP_OF_INCLUDED" and d["maps_to_doi"]}
+        phantoms = {d["paperId"] for d in disp if d["category"] == "PHANTOM"}
+        by_doi = {s["doi_final"]: s for s in studies if s.get("doi_final")}
+        keep = []
+        for s in studies:
+            if s["paperId"] in phantoms:
+                dropped_phantoms.append({"paperId": s["paperId"], "title": s["title"]})
+                continue
+            tgt = forced.get(s["paperId"])
+            if tgt and tgt in by_doi and by_doi[tgt] is not s:
+                canon = by_doi[tgt]
+                canon.setdefault("alt_versions", []).append(
+                    {"paperId": s["paperId"], "doi": s.get("doi_final"), "year": s.get("year"),
+                     "trust": s.get("doi_trust"), "merge": "web-hunt-duplicate"})
+                merged_log.append({"title": s["title"], "kept": canon["paperId"],
+                                   "kept_doi": canon["doi_final"], "merge": "web-hunt-duplicate"})
+            else:
+                keep.append(s)
+        studies = keep
+
     studies.sort(key=lambda r: (r["tier"], -(r.get("compositeScore") or 0)))
 
     json.dump(studies, open(SL / f"{SLUG}-metaanalysis-studies.json", "w"), indent=2)
     json.dump({"dropped_nonpapers": [{"paperId": r["paperId"], "title": r["title"],
                                       "doi": r["doi_final"]} for r in nonpapers],
-               "merged_version_groups": merged_log},
+               "merged_version_groups": merged_log,
+               "dropped_phantoms": dropped_phantoms},
               open(SL / f"{SLUG}-dedupe-log.json", "w"), indent=2)
 
     res = sum(1 for r in studies if r["doi_final"])
@@ -87,7 +162,7 @@ def main():
     L = ["# Old-Age-Security / Pension-Crowdout — Meta-Analysis-Ready DOI List\n",
          "**Hypothesis:** old-age-security / pension crowdout of fertility  ",
          "**Set:** meta-analysis-ready = (Tier 1 ∪ Tier 2) ∩ evidenceType == 4 (natural/quasi-experiments), deduped to distinct studies  ",
-         f"**Distinct studies = {len(studies)}**  (from {len(papers)} paper-records; {len(rows)-len(papers)} non-paper deposits dropped, {len(papers)-len(studies)} version-variants merged)  ",
+         f"**Distinct studies = {len(studies)}**  (from {len(papers)} paper-records; {len(rows)-len(papers)} non-paper deposits dropped, {len(papers)-len(studies)-len(dropped_phantoms)} version-variants merged, {len(dropped_phantoms)} ghost/phantom entries dropped)  ",
          "pipeline: GACS Phase E on the OAS pilot (legacy-migration path)  ",
          "**Generated by:** `source/build/goldset/26c_dedupe_studies.py`\n",
          f"DOIs resolved: **{res}/{len(studies)}**  ·  trust: " +
@@ -116,8 +191,8 @@ def main():
     (OUT / f"{SLUG}-metaanalysis-doi-list.md").write_text("\n".join(L) + "\n")
 
     print(f"{len(rows)} records -> {len(studies)} distinct studies "
-          f"({len(nonpapers)} non-papers dropped, {len(papers)-len(studies)} versions merged) | "
-          f"DOIs {res}/{len(studies)} resolved")
+          f"({len(nonpapers)} non-papers dropped, {len(papers)-len(studies)-len(dropped_phantoms)} versions merged, "
+          f"{len(dropped_phantoms)} phantoms dropped) | DOIs {res}/{len(studies)} resolved")
     print(f"OUTPUT 1 (deduped) -> output/{SLUG}-metaanalysis-doi-list.md")
 
 if __name__ == "__main__":
