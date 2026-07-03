@@ -74,37 +74,47 @@ fertility. Separate theory from empirical claims.]
 
 [Sensitivity analyses, funnel/Egger if appropriate, and design limitations.]
 
-## 8. Demographic Significance
+## 8. External Validity and Transportability
 
-### 8.1 Pre-Modern Fertility Variation
+[Separate internal causal credibility from whether the estimate transports to PM, FDT, and SDT
+settings. Code and discuss welfare-state baseline, family-transfer dependence, baseline fertility,
+pension coverage, treatment margin, urban/rural context, and kinship or son-preference context.]
+
+| Study | Setting | Mechanism strength | PM relevance | FDT relevance | SDT relevance | Transportability concern |
+|---|---|---|---|---|---|---|
+| [Author year] | [country/period/population] | [high/moderate/low] | [high/moderate/low] | [high/moderate/low] | [high/moderate/low] | [short rationale] |
+
+## 9. Demographic Significance
+
+### 9.1 Pre-Modern Fertility Variation
 
 [Slope sufficiency, decomposition share, or why evidence is insufficient.]
 
-### 8.2 First Demographic Transition
+### 9.2 First Demographic Transition
 
 [Slope sufficiency and historical applicability.]
 
-### 8.3 Second Demographic Transition
+### 9.3 Second Demographic Transition
 
 [Slope sufficiency and contemporary applicability.]
 
-## 9. Summary of Findings and GRADE
+## 10. Summary of Findings and GRADE
 
 | Outcome/phenomenon | Studies | Effect | Certainty | Interpretation |
 |---|---:|---|---|---|
 | [Outcome] | [n] | [estimate] | [GRADE] | [plain-language statement] |
 
-## 10. Interpretation for Economics Readers
+## 11. Interpretation for Economics Readers
 
 [Explain what the evidence implies for theory, mechanisms, model calibration, external validity,
 and policy relevance. Be explicit about what is causal, what is descriptive, and what remains
 speculative.]
 
-## 11. Open Questions and High-Value Studies
+## 12. Open Questions and High-Value Studies
 
 [Designs or data that would most improve the verdict.]
 
-## 12. Reproducibility Appendix
+## 13. Reproducibility Appendix
 
 - Search logs: `[path]`
 - RA review sheet: `[path]`
@@ -113,6 +123,6 @@ speculative.]
 - Risk-of-bias table: `[path]`
 - Meta-analysis code and outputs: `[path]`
 
-## 13. References
+## 14. References
 
 [Generated bibliography.]

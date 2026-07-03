@@ -113,6 +113,8 @@ Pool estimates only if all conditions hold:
 3. Comparable time horizon.
 4. Independent study units, or robust variance/cluster handling is implemented.
 5. Risk-of-bias profile is not dominated by `critical` studies.
+6. Transportability profile is comparable enough that a pooled estimate has a coherent target
+   setting interpretation.
 
 Do not pool:
 
@@ -121,6 +123,8 @@ Do not pool:
 - Pension-as-old-age-security effects with grandparent-childcare effects unless the estimand is
   clearly labelled as a broader pension/fertility pathway.
 - Multiple specifications from the same study as if they were independent.
+- Estimates whose external-validity coding indicates sharply different target contexts, unless the
+  model is explicitly a heterogeneous-effects or narrative synthesis.
 
 ## 6. Preferred Estimate Selection
 
@@ -143,6 +147,7 @@ At minimum, report:
 - Excluding high/serious risk-of-bias studies.
 - Excluding non-primary mechanism studies, such as grandparent-childcare channels in an
   old-age-security chapter.
+- Excluding studies with `low` or `unclear` transportability to the target phenomenon.
 - Fixed-effect vs. random-effects model when pooling is possible.
 
 ## 8. Escalation Triggers
@@ -155,6 +160,8 @@ Escalate to PI before synthesis if:
 - A study reports multiple plausible primary estimates with different implications.
 - A fertility-adjacent outcome is the only evidence for a target phenomenon.
 - A published version and working paper disagree.
+- External-validity coding changes the target-phenomenon verdict, such as a strong internally valid
+  result that is low-transportability for SDT.
 
 ## 9. Reporting Language
 

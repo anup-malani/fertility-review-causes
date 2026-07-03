@@ -29,6 +29,18 @@ One row per included empirical study.
 | `design` | yes | RCT, DiD, event study, IV, RD, panel FE, OLS, structural, qualitative, theory. |
 | `identification_source` | yes | Source of identifying variation, e.g. reform rollout, age cutoff, eligibility rule. |
 | `data_source` | no | Survey/admin dataset or macro source. |
+| `setting_income_level` | no | `low_income`, `lower_middle_income`, `upper_middle_income`, `high_income`, `historical`, or `mixed`. |
+| `welfare_state_baseline` | yes | Pre-treatment welfare/pension baseline: `none_or_minimal`, `emerging`, `mature`, `mixed`, or `unclear`. |
+| `pre_reform_old_age_support_norm` | yes | Dominant old-age support arrangement before treatment: `family_children`, `state_pension`, `private_savings`, `mixed`, or `unclear`. |
+| `family_transfer_dependence` | yes | Importance of family/children for old-age support: `high`, `moderate`, `low`, or `unclear`. |
+| `baseline_fertility_level` | no | Baseline fertility level or qualitative category if numeric baseline is unavailable. |
+| `baseline_pension_coverage` | no | Baseline pension or old-age insurance coverage before the treatment. |
+| `treatment_margin` | yes | `new_coverage`, `benefit_generosity`, `eligibility_age`, `long_term_care_insurance`, `financial_market_access`, `other`, or `unclear`. |
+| `urban_rural` | no | `urban`, `rural`, `mixed`, `national`, or `unclear`. |
+| `kinship_system_or_son_preference` | no | Relevant kinship, lineage, co-residence, or son-preference context. |
+| `period_target_relevance` | yes | Pipe-separated target relevance: `PM`, `FDT`, `SDT`, `none`, or combinations such as `FDT|SDT`. |
+| `transportability_to_target` | yes | Overall transportability judgment for this project: `high`, `moderate`, `low`, or `unclear`. |
+| `external_validity_rationale` | yes | Short explanation of why the setting does or does not transport to PM/FDT/SDT. |
 | `included_stream` | yes | `empirical_meta`, `empirical_narrative`, `theory`, `exclude_after_fulltext`. |
 | `fulltext_decision` | yes | `INCLUDE_EMPIRICAL`, `INCLUDE_THEORY`, `EXCLUDE`, `UNSURE_PI`. |
 | `fulltext_reason` | yes | Short rationale for inclusion/exclusion. |
@@ -103,6 +115,8 @@ One row per paper marked `RETRIEVE` or `UNSURE` at title/abstract review.
 | `doi` | yes if available | Canonical DOI. |
 | `title` | yes | Paper title. |
 | `pdf_status` | yes | `available`, `needs_manual`, `not_found`, `bad_file`. |
+| `manifest_status` | no | Retrieval manifest status or `MANUAL` for user-provided PDFs. |
+| `expected_pdf_path` | yes if available | Local path to the PDF used for screening. |
 | `fulltext_decision` | yes | `INCLUDE_EMPIRICAL`, `INCLUDE_THEORY`, `EXCLUDE`, `UNSURE_PI`. |
 | `exclusion_reason` | no | Required when excluded. |
 | `included_stream` | yes | `empirical_meta`, `empirical_narrative`, `theory`, `none`. |

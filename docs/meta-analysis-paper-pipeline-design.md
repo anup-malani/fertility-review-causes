@@ -31,7 +31,9 @@ standalone review paper.
 4. **Economics-facing interpretation is explicit.** Meta-analysis outputs are translated into
    economically interpretable units, heterogeneous-margin explanations, and slope-sufficiency
    calculations against observed fertility changes.
-5. **Human gates are narrow and logged.** RA and PI judgments should occur at full-text inclusion,
+5. **External validity is coded, not buried.** Each study records the setting features that govern
+   whether an internally credible estimate transports to PM, FDT, or SDT contexts.
+6. **Human gates are narrow and logged.** RA and PI judgments should occur at full-text inclusion,
    extraction verification, risk-of-bias disputes, effect harmonization choices, and GRADE disputes.
 
 ## 3. Inputs
@@ -127,7 +129,25 @@ Domain judgments are `low`, `moderate`, `serious`, `critical`, or `no informatio
 rationale. Identification credibility is an economics-specific extension used to bridge ROBINS-I
 with quasi-experimental designs.
 
-### Stage 6: Effect Harmonization
+### Stage 6: External Validity and Transportability
+
+Code setting features that determine whether each internally credible estimate transports to PM,
+FDT, and SDT contexts:
+
+- Income level and welfare-state baseline.
+- Pre-reform old-age support norms and family-transfer dependence.
+- Baseline fertility and baseline pension coverage.
+- Treatment margin, including whether the shock is new coverage, benefit generosity, eligibility,
+  long-term care insurance, or financial-market substitution.
+- Urban/rural context and kinship or son-preference institutions.
+- Target-phenomenon relevance: `PM`, `FDT`, `SDT`, combinations, or `none`.
+
+The synthesis should separate two judgments: internal causal credibility in the study setting and
+transportability to each target phenomenon. An internally credible pension expansion study in rural
+or historical settings may have high mechanism relevance but limited SDT transportability if family
+old-age support is weak in the target setting.
+
+### Stage 7: Effect Harmonization
 
 Convert estimates into a hierarchy of comparable fertility units:
 
@@ -140,7 +160,7 @@ Convert estimates into a hierarchy of comparable fertility units:
 The pipeline should retain original estimates even when harmonization is impossible. Harmonization
 assumptions must be explicit and reversible.
 
-### Stage 7: Quantitative Synthesis
+### Stage 8: Quantitative Synthesis
 
 Pool only estimates with compatible estimands, outcomes, exposure scales, and follow-up windows.
 Default model:
@@ -152,7 +172,7 @@ Default model:
 If pooling is inappropriate, produce grouped tables and a narrative synthesis organized by design,
 country/period, treatment margin, and outcome margin.
 
-### Stage 8: Demographic Significance
+### Stage 9: Demographic Significance
 
 Translate causal estimates into demographic relevance:
 
@@ -164,7 +184,7 @@ Translate causal estimates into demographic relevance:
 This is the key bridge from Cochrane-style causal evidence to the project’s core question:
 does the mechanism matter enough to explain fertility decline?
 
-### Stage 9: GRADE and Summary of Findings
+### Stage 10: GRADE and Summary of Findings
 
 Create a per-phenomenon GRADE judgment for PM, FDT, and SDT:
 
@@ -175,7 +195,7 @@ Create a per-phenomenon GRADE judgment for PM, FDT, and SDT:
 Output a summary-of-findings table with effect size, number of studies, settings, certainty, and
 plain-language interpretation.
 
-### Stage 10: Hybrid Chapter/Paper Draft
+### Stage 11: Hybrid Chapter/Paper Draft
 
 Generate a chapter whose main text reads like a JEL review and whose methods/results audit trail
 meets Cochrane expectations. The chapter should not hide uncertainty in prose; it should use
@@ -190,11 +210,12 @@ Cochrane/GRADE certainty language while preserving economics interpretation.
 5. Evidence map and included studies.
 6. Risk of bias and identification quality.
 7. Quantitative synthesis or structured narrative synthesis.
-8. Demographic significance for PM/FDT/SDT.
-9. GRADE certainty and summary of findings.
-10. Interpretation for economics readers.
-11. Open questions and high-value research designs.
-12. References and reproducibility appendix.
+8. External validity and transportability to PM/FDT/SDT.
+9. Demographic significance for PM/FDT/SDT.
+10. GRADE certainty and summary of findings.
+11. Interpretation for economics readers.
+12. Open questions and high-value research designs.
+13. References and reproducibility appendix.
 
 ## 7. Human Review Gates
 
@@ -213,7 +234,7 @@ Cochrane/GRADE certainty language while preserving economics interpretation.
 1. Freeze RA review decisions and PDF status.
 2. Build the full-text screen and retrieval reconciliation scripts.
 3. Populate the extraction templates for OAS.
-4. Implement risk-of-bias table generation.
+4. Implement risk-of-bias and transportability table generation.
 5. Implement effect harmonization and meta-analysis scripts.
 6. Generate PRISMA, summary-of-findings, and demographic-significance outputs.
 7. Draft the OAS chapter from structured outputs.

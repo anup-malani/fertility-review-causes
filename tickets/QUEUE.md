@@ -13,6 +13,8 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 
 | Ticket | Title | Assigned | Parallel-safe |
 |--------|-------|----------|---------------|
+| [TICK-016](TICK-016-oas-data-extraction.md) | OAS full-text data extraction | any | no |
+| [TICK-017](TICK-017-oas-risk-of-bias.md) | OAS risk-of-bias assessment | any | no |
 | [TICK-002](TICK-002-cultural-count-fix.md) | Fix Cultural-count in Merge Notes | any | yes |
 | [TICK-003](TICK-003-promote-batch-edits-lesson.md) | Promote batch-edits lesson to decisions/ | any | yes |
 | [TICK-004](TICK-004-gitignore-workflows.md) | Revisit .gitignore for .claude/workflows/ | any | yes |
@@ -33,9 +35,6 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 | [TICK-009](TICK-009-literature-search-mjs.md) | Implement literature-search.mjs | any | TICK-001 |
 | [TICK-012](TICK-012-prepilot-time-cost.md) | Pre-pilot (Anup + Claude): time-cost/income-substitution | Anup + Claude | TICK-001, TICK-009 |
 | [TICK-010](TICK-010-pilot-run.md) | RA pilot Phase 1: old-age security/pensions | All three | TICK-012 |
-| [TICK-015](TICK-015-oas-fulltext-screen.md) | OAS full-text screen and retrieval reconciliation | any | RA review decisions |
-| [TICK-016](TICK-016-oas-data-extraction.md) | OAS full-text data extraction | any | TICK-015 |
-| [TICK-017](TICK-017-oas-risk-of-bias.md) | OAS risk-of-bias assessment | any | TICK-015 |
 | [TICK-018](TICK-018-oas-effect-harmonization-meta-analysis.md) | OAS effect harmonization and meta-analysis | any | TICK-016, TICK-017 |
 | [TICK-019](TICK-019-oas-demographic-significance-and-chapter.md) | OAS demographic significance and hybrid chapter draft | any | TICK-018 |
 
@@ -48,3 +47,4 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 | [TICK-008](TICK-008-collab-system-design.md) | Design team collaboration/ticketing system | 2026-06-14 |
 | [TICK-013](TICK-013-agent-interop-doc.md) | Document Claude / Codex interop | 2026-06-27 |
 | [TICK-014](TICK-014-meta-analysis-paper-pipeline-design.md) | Design meta-analysis-to-paper pipeline | 2026-07-03 |
+| [TICK-015](TICK-015-oas-fulltext-screen.md) | OAS full-text screen and retrieval reconciliation | 2026-07-03 |
