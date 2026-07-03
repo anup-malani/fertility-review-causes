@@ -8,6 +8,21 @@ pipeline: GACS Phase E on the OAS pilot (legacy-migration path)
 
 DOIs resolved: **40/44**  ·  trust: UNRESOLVED 4 · corrected-map(title-verified) 1 · crossref-search(J>=0.80) 3 · gold-RA-verified 13 · gold-RA-verified(title) 1 · openalex-fresh(guarded) 22
 
+## Column legend
+
+| Column | Meaning |
+|---|---|
+| **#** | Row index. |
+| **DOI** | Resolved DOI. `⚠ UNRESOLVED (…)` marks the 4 genuine working papers with no registered DOI (the reason — `NO_WID` / `WID_DRIFT` — notes why the identifier is missing). |
+| **Title / Authors / Year** | Bibliographic identity of the distinct study. |
+| **Tier** | Inclusion tier from the channel-convergence tiering. **T1 (core)** = a gold-set member **or** a paper found by more than one channel (keyword *and* snowball). **T2** = relevant, but found through a single channel. *(T3 = the uncertain recall net; not included in this meta-analysis-ready set.)* |
+| **ET** | `evidenceType` — the study's design/identification strength, 0–4: **0** qualitative · **1** theory · **2** observational · **3** proxy/IV · **4** natural/quasi-experiment. This set is filtered to **ET = 4**. |
+| **comp** | `compositeScore` — Sonnet's relevance score (higher = stronger fit). Used to **sort within** a tier, not to define the tier. |
+| **channel** | How the paper was **discovered**: **K** = keyword search · **S** = citation snowball · **K&S** = found by both. |
+| **gold** | **★** marks a frozen **gold-set anchor** — an RA-verified reference study the search is required to recover. |
+| **DOI trust** | Provenance/strength of the DOI resolution, strongest first: **gold-RA-verified** (hand-checked by an RA) · **corrected-map(title-verified)** (recovered from the corrected W-ID→DOI map, title-confirmed) · **crossref-search(J≥0.80)** (auto-matched at high title similarity) · **openalex-fresh(guarded)** (pulled live from OpenAlex, passed the title guard) · **gold-RA-verified(title)** (RA-verified but title-keyed — no DOI exists) · **UNRESOLVED** (no registered DOI found). |
+| **alt versions** | Number of duplicate version-variants (e.g. working paper + published article) merged into this one distinct study. |
+
 | # | DOI | Title | Authors | Year | Tier | ET | comp | channel | gold | DOI trust | alt versions |
 |--:|---|---|---|--:|:--:|:--:|:--:|:--:|:--:|---|--:|
 | 1 | `10.1257/pol.20200440` | Pensions and Fertility: Microeconomic Evidence | Danzer & Zyska | 2023 | T1 | 4 | 10 | K&S | ★ | gold-RA-verified | 2 |
