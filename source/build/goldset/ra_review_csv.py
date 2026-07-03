@@ -134,7 +134,13 @@ def build_ra_review_csvs(logs_dir, output_dir, slug):
     logs_dir = Path(logs_dir)
     output_dir = Path(output_dir)
 
-    final_records = load_json(logs_dir / f"{slug}-metaanalysis-ready-final.json")
+    studies_path = logs_dir / f"{slug}-metaanalysis-studies.json"
+    if studies_path.exists():
+        final_records = load_json(studies_path)
+        source_file = studies_path.name
+    else:
+        final_records = load_json(logs_dir / f"{slug}-metaanalysis-ready-final.json")
+        source_file = f"{slug}-metaanalysis-ready-final.json"
     candidates = load_json(logs_dir / f"{slug}-metaanalysis-candidates.json")
     prioritized = load_json(logs_dir / f"{slug}-prioritized.json")["papers"]
     sequential = load_json(logs_dir / f"{slug}-sequential-screened.json")["papers"]
@@ -184,4 +190,5 @@ def build_ra_review_csvs(logs_dir, output_dir, slug):
         "total": len(final_records),
         "review": len(review_rows),
         "audit": len(audit_rows),
+        "source_file": source_file,
     }

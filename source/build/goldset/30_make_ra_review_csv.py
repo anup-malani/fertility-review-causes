@@ -2,13 +2,17 @@
 """
 Step 30 - Build the RA review CSV from the finalized GACS meta-analysis-ready set.
 
-Input : {slug}-metaanalysis-ready-final.json plus scoring/screening metadata
+Input : {slug}-metaanalysis-studies.json (preferred; same clean distinct-study set as the
+        DOI list), falling back to {slug}-metaanalysis-ready-final.json plus
+        scoring/screening metadata
 Output: temp/{slug}-ra-review.csv
         temp/{slug}-unresolved-audit.csv
 
-The RA review sheet excludes records whose DOI identity is not trusted. Unresolved/title-keyed
-records are routed to the audit sheet first, because RA review should not treat unverified
-paper identities as normal review candidates.
+The RA review sheet uses the same cleaner distinct-study procedure as the DOI list: merged
+version variants, dropped non-paper deposits, and dropped ghost/phantom entries. It also excludes
+records whose DOI identity is not trusted. Unresolved/title-keyed records are routed to the audit
+sheet first, because RA review should not treat unverified paper identities as normal review
+candidates.
 """
 from pathlib import Path
 
@@ -30,8 +34,8 @@ def main():
         slug=SLUG,
     )
     print(
-        f"{result['total']} finalized records -> {result['review']} RA-review rows, "
-        f"{result['audit']} unresolved audit rows"
+        f"{result['total']} records from {result['source_file']} -> "
+        f"{result['review']} RA-review rows, {result['audit']} unresolved audit rows"
     )
     print(f"RA review -> {result['review_path']}")
     print(f"Unresolved audit -> {result['audit_path']}")

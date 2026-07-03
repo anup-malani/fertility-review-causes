@@ -63,7 +63,9 @@ cross-checks). Keep for the data-hygiene write-up; don't run them as the method.
 
 ## RA review sheet
 
-`30_make_ra_review_csv.py` builds `temp/{slug}-ra-review.csv` from the finalized GACS
-meta-analysis-ready set and routes `doi_trust == "UNRESOLVED"` or blank-DOI records to
-`temp/{slug}-unresolved-audit.csv`. The RA review sheet should contain only DOI-trusted paper
-identities; unresolved/title-keyed records need independent verification before review.
+`30_make_ra_review_csv.py` builds `temp/{slug}-ra-review.csv` from
+`{slug}-metaanalysis-studies.json`, the same deduped distinct-study set used for the DOI list
+(version variants merged, non-paper deposits and confirmed phantom records dropped). It routes
+`doi_trust == "UNRESOLVED"` or blank-DOI records to `temp/{slug}-unresolved-audit.csv`. The RA
+review sheet should contain only DOI-trusted paper identities; unresolved/title-keyed records need
+independent verification before review.
