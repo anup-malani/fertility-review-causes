@@ -60,3 +60,10 @@ cross-checks). Keep for the data-hygiene write-up; don't run them as the method.
 - **Do NOT use the agent-fleet/web method to resolve Tier B** (keyword-disconnected tier) —
   it would contaminate Tier B toward findability and break the Recall(A)−Recall(B) correction.
 - Freeze outputs; provenance every DOI (source + evidence).
+
+## RA review sheet
+
+`30_make_ra_review_csv.py` builds `temp/{slug}-ra-review.csv` from the finalized GACS
+meta-analysis-ready set and routes `doi_trust == "UNRESOLVED"` or blank-DOI records to
+`temp/{slug}-unresolved-audit.csv`. The RA review sheet should contain only DOI-trusted paper
+identities; unresolved/title-keyed records need independent verification before review.
