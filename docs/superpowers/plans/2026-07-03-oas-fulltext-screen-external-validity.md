@@ -135,6 +135,38 @@ rows 10
 incomplete 0
 ```
 
+### Task 3A: Exception-Based RA Verification Sheets
+
+**Files:**
+- Create: `output/old-age-security-pension-crowdout-study-extraction-review.csv`
+- Create: `output/old-age-security-pension-crowdout-effect-extraction-review-template.csv`
+- Modify: `extraction/schema.md`
+- Modify: `docs/meta-analysis-paper-pipeline-design.md`
+
+- [ ] **Step 1: Document the adjacent review-column convention**
+
+For every characteristic that needs verification, reviewer-facing sheets use:
+
+```text
+characteristic
+characteristic_ra_decision
+characteristic_ra_notes
+```
+
+Blank `characteristic_ra_decision` means approved by default. Nonblank values are `FIX`,
+`UNSURE_PI`, or `EXCLUDE`.
+
+- [ ] **Step 2: Generate the study-level review sheet**
+
+Create one row per study from `extraction/old-age-security-pension-crowdout-studies.csv`, with
+adjacent RA review columns for bibliographic identity, design, setting, inclusion stream, and
+external-validity fields.
+
+- [ ] **Step 3: Generate the effect-level review template**
+
+Create a header-only template for effect extraction review using the same adjacent review-column
+pattern. Populate rows after effect extraction.
+
 ### Task 4: Commit Handoff
 
 **Files:**

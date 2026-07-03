@@ -112,6 +112,16 @@ Create two linked tables:
 
 Every numeric extraction must include source page/table/figure and a confidence flag.
 
+For human verification, generate reviewer-facing copies with adjacent columns for each
+characteristic:
+
+```text
+{characteristic}, {characteristic}_ra_decision, {characteristic}_ra_notes
+```
+
+Blank RA decision cells mean approved. Reviewers only mark fields that are wrong, ambiguous, or
+should be excluded. This keeps human review fast while preserving field-level accountability.
+
 ### Stage 5: Risk of Bias
 
 Use a ROBINS-I-inspired table for observational/quasi-experimental work:

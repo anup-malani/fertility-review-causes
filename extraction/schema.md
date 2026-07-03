@@ -6,6 +6,28 @@ assessment, effect harmonization, meta-analysis, demographic significance, and c
 Use one study-level table and one estimate-level table. A single paper can contribute multiple
 estimate rows.
 
+## RA Verification Convention
+
+Reviewer-facing verification sheets use an exception-based format. For each characteristic that
+needs human verification, place the extracted value next to two review columns:
+
+```text
+{characteristic}
+{characteristic}_ra_decision
+{characteristic}_ra_notes
+```
+
+Blank `{characteristic}_ra_decision` means the reviewer approves the extracted value. Reviewers
+only need to mark fields that are wrong, ambiguous, or should be excluded. Valid nonblank decisions:
+
+- `FIX` — value is wrong; corrected value or instruction goes in `{characteristic}_ra_notes`.
+- `UNSURE_PI` — reviewer cannot adjudicate; PI decision required.
+- `EXCLUDE` — value or estimate should not be used for synthesis.
+
+This convention applies to both study-level characteristics and estimate-level characteristics.
+The source-of-truth extraction tables remain compact; reviewer-facing sheets may duplicate columns
+to make human checking faster.
+
 ## Study-Level Table: `{slug}-studies.csv`
 
 One row per included empirical study.

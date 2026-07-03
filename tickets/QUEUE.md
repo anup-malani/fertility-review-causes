@@ -13,7 +13,6 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 
 | Ticket | Title | Assigned | Parallel-safe |
 |--------|-------|----------|---------------|
-| [TICK-016](TICK-016-oas-data-extraction.md) | OAS full-text data extraction | any | no |
 | [TICK-017](TICK-017-oas-risk-of-bias.md) | OAS risk-of-bias assessment | any | no |
 | [TICK-002](TICK-002-cultural-count-fix.md) | Fix Cultural-count in Merge Notes | any | yes |
 | [TICK-003](TICK-003-promote-batch-edits-lesson.md) | Promote batch-edits lesson to decisions/ | any | yes |
@@ -25,7 +24,7 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 
 | Ticket | Title | Owner | Claimed (UTC) | Touches |
 |--------|-------|-------|---------------|---------|
-| _(none)_ | | | | |
+| [TICK-016](TICK-016-oas-data-extraction.md) | OAS full-text data extraction | Codex | 2026-07-03 | extraction/old-age-security-pension-crowdout-studies.csv, extraction/old-age-security-pension-crowdout-effects.csv, output/*extraction-review*.csv |
 
 ## Blocked — waiting on dependency
 
