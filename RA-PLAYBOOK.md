@@ -22,10 +22,16 @@ Use the escalation log (Section "Escalation rules" below) for anything you flag.
 
 ### C. Source procurer (as needed)
 The AI can't always get the PDF it needs. When the pipeline flags a missing source, you procure it:
-1. Try the UChicago library proxy first (your UChicago login + the library website).
-2. If not there, request via Interlibrary Loan (UChicago library website → ILL).
-3. If still not there, email the author directly (template in `meta-experiments/source-procurement/`).
-4. Last resort: archive.org, Internet Archive Scholar.
+1. Confirm the paper is on the current retrieval list and has not been excluded by RA/PI review.
+2. Check whether a published version exists. If yes, retrieve the published/version-of-record PDF,
+   even if that requires manual download through the UChicago library proxy.
+3. If no published version is available, retrieve the best working-paper, preprint, or author
+   manuscript version and make the version status clear in the filename or notes.
+4. If the published article has a corrigendum, erratum, appendix, or supplement, keep it as a
+   companion file and note the relationship in the checklist or extraction notes.
+5. If not available through UChicago, request via Interlibrary Loan (UChicago library website → ILL).
+6. If still not there, email the author directly (template in `meta-experiments/source-procurement/`).
+7. Last resort: archive.org, Internet Archive Scholar.
 
 Drop retrieved PDFs in `literature/pdfs/{hypothesis-slug}/` with filename `{first-author}-{year}-{short-title}.pdf`.
 
