@@ -70,6 +70,26 @@ One row per included empirical study.
 | `extraction_status` | yes | `not_started`, `extracted`, `ra_verified`, `needs_pi`. |
 | `notes` | no | Free text. |
 
+## Theory-Source Table: `{slug}-theory-sources.csv`
+
+One row per theory, conceptual, or canonical mechanism source used for the JEL-style theory section.
+These rows are not empirical studies and do not enter effect-size synthesis.
+
+| Column | Required | Description |
+|---|---:|---|
+| `theory_id` | yes | Stable local ID, preferably `{slug}_theory_{nn}`. |
+| `title` | yes | Full source title. |
+| `authors` | yes | Semicolon-separated author names. |
+| `year` | yes if available | Publication year. |
+| `venue` | no | Journal, book, working-paper series, or publisher. |
+| `doi` | no | DOI when available; blank for books/chapters without DOI. |
+| `stratum` | yes | `theory_foundational`, `theory_formal`, `mechanism_background`, or `empirical_classic_background`. |
+| `mechanism_role` | yes | Short description of how the source informs the chapter mechanism. |
+| `use_in_chapter` | yes | `theory_section`, `mechanism_background`, `historical_context`, or `do_not_use`. |
+| `source_status` | yes | `VERIFIED`, `TITLE_KEY`, `UNRESOLVED`, or other source-resolution status. |
+| `retrieval_status` | yes | `retrieved`, `not_retrieved`, `not_needed`, or `needs_manual`. |
+| `notes` | no | Version, retrieval, or interpretation notes. |
+
 ## Estimate-Level Table: `{slug}-effects.csv`
 
 One row per estimate, contrast, or model specification that may enter synthesis.

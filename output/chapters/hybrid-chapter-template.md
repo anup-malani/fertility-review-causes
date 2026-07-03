@@ -22,6 +22,10 @@ can explain PM, FDT, and/or SDT fertility variation.]
 [JEL-style explanation of the mechanism, intellectual genealogy, and why the cause should affect
 fertility. Separate theory from empirical claims.]
 
+| Theory source | Mechanism role | Use in chapter |
+|---|---|---|
+| [Author year] | [foundational model / wealth-flows / PAYG model / intergenerational-transfer mechanism] | [theory_section / mechanism_background] |
+
 ## 3. Search and Inclusion Methods
 
 **Search method:** [GACS / other]  
@@ -119,6 +123,7 @@ speculative.]
 - Search logs: `[path]`
 - RA review sheet: `[path]`
 - PDF manifest/want-list: `[path]`
+- Theory-source table: `[path]`
 - Extraction tables: `[path]`
 - Risk-of-bias table: `[path]`
 - Meta-analysis code and outputs: `[path]`

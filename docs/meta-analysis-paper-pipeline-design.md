@@ -47,6 +47,7 @@ standalone review paper.
 | Retrieved PDFs | `literature/pdfs/{slug}/` | RA/source procurer | Named by `paperId` and short title where possible. |
 | Search method | `literature/search-logs/canonical-search-workflow.md` | Team synthesis | Describes GACS methodology and recall accounting. |
 | Extraction schema | `extraction/schema.md` | This design | Defines one row per estimate. |
+| Theory-source table | `extraction/{slug}-theory-sources.csv` | Canon/gold-set stage + RA review | Canonical theory and mechanism papers for the JEL-style section; kept separate from empirical synthesis. |
 | Reference corpus | `literature/reference-corpus/` | RA/Codex | JEL and Cochrane exemplars for structure and style. |
 
 ## 4. Outputs
@@ -56,6 +57,7 @@ standalone review paper.
 | Full-text screen | `extraction/{slug}-fulltext-screen.csv` | Record inclusion/exclusion after PDFs. |
 | Extraction table | `extraction/{slug}-effects.csv` | One row per usable estimate or contrast. |
 | Study table | `extraction/{slug}-studies.csv` | One row per included study. |
+| Theory-source table | `extraction/{slug}-theory-sources.csv` | Canonical theory, intellectual genealogy, and mechanism sources. |
 | Risk-of-bias table | `extraction/{slug}-risk-of-bias.csv` | ROBINS-I style domain judgments. |
 | Harmonized effects | `output/tables/{slug}-harmonized-effects.csv` | Estimates converted to target units with assumptions. |
 | Meta-analysis outputs | `output/tables/{slug}-meta-analysis-summary.csv`, `output/figures/{slug}-forest-*.pdf` | Pooled or grouped evidence. |
@@ -101,7 +103,24 @@ Screen each retrieved full text against pre-specified criteria:
 Output one row per full-text paper with decision `INCLUDE_EMPIRICAL`, `INCLUDE_THEORY`,
 `EXCLUDE`, or `UNSURE_PI`.
 
-### Stage 4: Structured Extraction
+### Stage 4: Theory Stream Construction
+
+Build a separate theory-source table before or alongside empirical extraction. The theory stream
+should include canonical fertility economics, old-age-security, wealth-flows, intergenerational
+transfer, PAYG/social-security, and child-as-asset models. These sources are not counted as
+empirical studies and do not enter effect-size synthesis.
+
+The theory-source table should record:
+
+- Bibliographic identity and DOI/title-key status.
+- Whether the source is foundational theory, formal model, conceptual mechanism, or
+  empirical-classic background.
+- The mechanism role it plays in the chapter.
+- Whether a full text has been retrieved and whether the source has been RA-verified.
+
+The chapter uses this table for the JEL-style mechanism and intellectual-genealogy section.
+
+### Stage 5: Structured Empirical Extraction
 
 Create two linked tables:
 
@@ -122,7 +141,7 @@ characteristic:
 Blank RA decision cells mean approved. Reviewers only mark fields that are wrong, ambiguous, or
 should be excluded. This keeps human review fast while preserving field-level accountability.
 
-### Stage 5: Risk of Bias
+### Stage 6: Risk of Bias
 
 Use a ROBINS-I-inspired table for observational/quasi-experimental work:
 
@@ -139,7 +158,7 @@ Domain judgments are `low`, `moderate`, `serious`, `critical`, or `no informatio
 rationale. Identification credibility is an economics-specific extension used to bridge ROBINS-I
 with quasi-experimental designs.
 
-### Stage 6: External Validity and Transportability
+### Stage 7: External Validity and Transportability
 
 Code setting features that determine whether each internally credible estimate transports to PM,
 FDT, and SDT contexts:
@@ -157,7 +176,7 @@ transportability to each target phenomenon. An internally credible pension expan
 or historical settings may have high mechanism relevance but limited SDT transportability if family
 old-age support is weak in the target setting.
 
-### Stage 7: Effect Harmonization
+### Stage 8: Effect Harmonization
 
 Convert estimates into a hierarchy of comparable fertility units:
 
@@ -170,7 +189,7 @@ Convert estimates into a hierarchy of comparable fertility units:
 The pipeline should retain original estimates even when harmonization is impossible. Harmonization
 assumptions must be explicit and reversible.
 
-### Stage 8: Quantitative Synthesis
+### Stage 9: Quantitative Synthesis
 
 Pool only estimates with compatible estimands, outcomes, exposure scales, and follow-up windows.
 Default model:
@@ -182,7 +201,7 @@ Default model:
 If pooling is inappropriate, produce grouped tables and a narrative synthesis organized by design,
 country/period, treatment margin, and outcome margin.
 
-### Stage 9: Demographic Significance
+### Stage 10: Demographic Significance
 
 Translate causal estimates into demographic relevance:
 
@@ -194,7 +213,7 @@ Translate causal estimates into demographic relevance:
 This is the key bridge from Cochrane-style causal evidence to the project’s core question:
 does the mechanism matter enough to explain fertility decline?
 
-### Stage 10: GRADE and Summary of Findings
+### Stage 11: GRADE and Summary of Findings
 
 Create a per-phenomenon GRADE judgment for PM, FDT, and SDT:
 
@@ -205,7 +224,7 @@ Create a per-phenomenon GRADE judgment for PM, FDT, and SDT:
 Output a summary-of-findings table with effect size, number of studies, settings, certainty, and
 plain-language interpretation.
 
-### Stage 11: Hybrid Chapter/Paper Draft
+### Stage 12: Hybrid Chapter/Paper Draft
 
 Generate a chapter whose main text reads like a JEL review and whose methods/results audit trail
 meets Cochrane expectations. The chapter should not hide uncertainty in prose; it should use
@@ -220,12 +239,13 @@ Cochrane/GRADE certainty language while preserving economics interpretation.
 5. Evidence map and included studies.
 6. Risk of bias and identification quality.
 7. Quantitative synthesis or structured narrative synthesis.
-8. External validity and transportability to PM/FDT/SDT.
-9. Demographic significance for PM/FDT/SDT.
-10. GRADE certainty and summary of findings.
-11. Interpretation for economics readers.
-12. Open questions and high-value research designs.
-13. References and reproducibility appendix.
+8. Theory-source table and mechanism map.
+9. External validity and transportability to PM/FDT/SDT.
+10. Demographic significance for PM/FDT/SDT.
+11. GRADE certainty and summary of findings.
+12. Interpretation for economics readers.
+13. Open questions and high-value research designs.
+14. References and reproducibility appendix.
 
 ## 7. Human Review Gates
 
@@ -243,7 +263,7 @@ Cochrane/GRADE certainty language while preserving economics interpretation.
 
 1. Freeze RA review decisions and PDF status.
 2. Build the full-text screen and retrieval reconciliation scripts.
-3. Populate the extraction templates for OAS.
+3. Populate the OAS theory-source table and empirical extraction templates.
 4. Implement risk-of-bias and transportability table generation.
 5. Implement effect harmonization and meta-analysis scripts.
 6. Generate PRISMA, summary-of-findings, and demographic-significance outputs.
