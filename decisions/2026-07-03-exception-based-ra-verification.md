@@ -40,8 +40,8 @@ Before downloading PDFs, confirm the exact papers and versions needed:
   linked in notes rather than treated as separate included studies unless they report distinct
   empirical evidence.
 
-Use reviewer-facing verification sheets with adjacent value/review columns for every characteristic
-that needs human review:
+Use reviewer-facing verification sheets with adjacent value/review columns for every substantive
+characteristic that needs human judgment:
 
 ```text
 {characteristic}
@@ -66,6 +66,10 @@ This convention applies to:
 
 The compact source-of-truth extraction tables remain under `extraction/`. Reviewer-facing sheets
 may duplicate columns under `output/` to make checking faster.
+
+Do not add RA decision/notes columns by default for simple bibliographic or source-location fields
+such as DOI, title, authors, year, journal/series, paper ID, or PDF path. These should remain visible
+as plain context columns unless a specific ticket calls for identity verification.
 
 ## Rationale
 

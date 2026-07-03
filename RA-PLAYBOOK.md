@@ -50,7 +50,7 @@ You maintain the `escalation-log.md` — a running list of issues flagged, who h
 ## Verification sheets
 
 For study-level and effect-level extraction review, use the exception-based verification sheets in
-`output/`. Each characteristic has three adjacent columns:
+`output/`. Substantive characteristics that need human judgment have three adjacent columns:
 
 ```text
 {characteristic}
@@ -69,6 +69,9 @@ For the OAS pilot, start with
 `output/old-age-security-pension-crowdout-study-extraction-review.csv`. Check the paper identity,
 setting, treatment/exposure, design, inclusion stream, and external-validity fields. Then use the
 effect-level review sheet after numeric estimates are extracted.
+
+Bibliographic/source fields such as DOI, title, authors, year, journal/series, paper ID, and PDF
+path may appear as plain context columns without RA decision/notes columns.
 
 ## Escalation rules
 
