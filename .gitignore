@@ -41,6 +41,9 @@ __pycache__/
 # Compiled PDFs (regenerable from source)
 *.pdf
 
+# Reference-corpus PDFs are curated design inputs, not generated outputs
+!literature/reference-corpus/**/*.pdf
+
 # Workflow outputs
 literature/pdfs/
 temp/

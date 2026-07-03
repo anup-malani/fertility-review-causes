@@ -5,8 +5,8 @@ Step 30 - Build the RA review CSV from the finalized GACS meta-analysis-ready se
 Input : {slug}-metaanalysis-studies.json (preferred; same clean distinct-study set as the
         DOI list), falling back to {slug}-metaanalysis-ready-final.json plus
         scoring/screening metadata
-Output: temp/{slug}-ra-review.csv
-        temp/{slug}-unresolved-audit.csv
+Output: output/{slug}-ra-review.csv
+        output/{slug}-unresolved-audit.csv
 
 The RA review sheet uses the same cleaner distinct-study procedure as the DOI list: merged
 version variants, dropped non-paper deposits, and dropped ghost/phantom entries. It also excludes
@@ -30,7 +30,7 @@ def main():
     root = repo_root()
     result = build_ra_review_csvs(
         logs_dir=root / "literature" / "search-logs",
-        output_dir=root / "temp",
+        output_dir=root / "output",
         slug=SLUG,
     )
     print(
