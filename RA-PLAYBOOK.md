@@ -41,6 +41,29 @@ Anup will tell you which tools and which stages to test, but you drive the compa
 ### E. Quality auditor (continuous)
 You maintain the `escalation-log.md` — a running list of issues flagged, who handled them, and the resolution.
 
+## Verification sheets
+
+For study-level and effect-level extraction review, use the exception-based verification sheets in
+`output/`. Each characteristic has three adjacent columns:
+
+```text
+{characteristic}
+{characteristic}_ra_decision
+{characteristic}_ra_notes
+```
+
+Blank `{characteristic}_ra_decision` means you approve the extracted value. Only mark cells that
+need action:
+
+- `FIX` — the value is wrong; put the corrected value or instruction in the notes cell.
+- `UNSURE_PI` — you cannot adjudicate; PI decision required.
+- `EXCLUDE` — the value or estimate should not be used for synthesis.
+
+For the OAS pilot, start with
+`output/old-age-security-pension-crowdout-study-extraction-review.csv`. Check the paper identity,
+setting, treatment/exposure, design, inclusion stream, and external-validity fields. Then use the
+effect-level review sheet after numeric estimates are extracted.
+
 ## Escalation rules
 
 These conditions trigger an escalation to Anup. Don't try to resolve these yourself:
