@@ -1,0 +1,111 @@
+# Extraction Schema
+
+**Purpose:** Define the structured data needed to move from full-text PDFs to risk-of-bias
+assessment, effect harmonization, meta-analysis, demographic significance, and chapter drafting.
+
+Use one study-level table and one estimate-level table. A single paper can contribute multiple
+estimate rows.
+
+## Study-Level Table: `{slug}-studies.csv`
+
+One row per included empirical study.
+
+| Column | Required | Description |
+|---|---:|---|
+| `study_id` | yes | Stable local ID, preferably `{first_author}_{year}_{short_slug}`. |
+| `paper_id` | yes | OpenAlex W-ID or local hash from GACS. |
+| `doi` | yes if available | Canonical DOI from the clean DOI list. |
+| `title` | yes | Full study title. |
+| `authors` | yes | Semicolon-separated author names. |
+| `year` | yes | Publication or working-paper year. |
+| `journal_or_series` | no | Journal, working-paper series, or institution. |
+| `country_or_region` | yes | Country, region, or multi-country scope. |
+| `period_start` | no | First year of sample period. |
+| `period_end` | no | Last year of sample period. |
+| `population` | yes | Target population, e.g. rural married women, households, adult children. |
+| `treatment_or_exposure` | yes | Policy, institution, or variable changing old-age security. |
+| `mechanism_stream` | yes | `old_age_security`, `grandparent_childcare`, `intergenerational_transfer`, `other`. |
+| `primary_outcome_family` | yes | `fertility`, `fertility_adjacent`, `non_fertility`. |
+| `design` | yes | RCT, DiD, event study, IV, RD, panel FE, OLS, structural, qualitative, theory. |
+| `identification_source` | yes | Source of identifying variation, e.g. reform rollout, age cutoff, eligibility rule. |
+| `data_source` | no | Survey/admin dataset or macro source. |
+| `included_stream` | yes | `empirical_meta`, `empirical_narrative`, `theory`, `exclude_after_fulltext`. |
+| `fulltext_decision` | yes | `INCLUDE_EMPIRICAL`, `INCLUDE_THEORY`, `EXCLUDE`, `UNSURE_PI`. |
+| `fulltext_reason` | yes | Short rationale for inclusion/exclusion. |
+| `pdf_path` | yes if included | Local path to the PDF used for extraction. |
+| `extraction_status` | yes | `not_started`, `extracted`, `ra_verified`, `needs_pi`. |
+| `notes` | no | Free text. |
+
+## Estimate-Level Table: `{slug}-effects.csv`
+
+One row per estimate, contrast, or model specification that may enter synthesis.
+
+| Column | Required | Description |
+|---|---:|---|
+| `effect_id` | yes | Stable ID, e.g. `{study_id}_e01`. |
+| `study_id` | yes | Links to study-level table. |
+| `estimand_label` | yes | Short label: main DiD, IV parity 2+, event-study 10-year effect, etc. |
+| `is_primary_estimate` | yes | `yes` if authors' preferred/main estimate for this outcome. |
+| `outcome_name` | yes | Exact outcome name from paper. |
+| `outcome_family` | yes | `birth_probability`, `completed_fertility`, `tfr`, `parity_progression`, `intentions`, `contraception`, `other`. |
+| `outcome_unit_original` | yes | Original units, e.g. percentage points, births per woman, log births. |
+| `effect_original` | yes | Reported point estimate. |
+| `se_original` | no | Reported or computed standard error. |
+| `ci_lower_original` | no | Lower confidence interval. |
+| `ci_upper_original` | no | Upper confidence interval. |
+| `p_value` | no | Reported p-value. |
+| `n_observations` | no | Observations in model. |
+| `n_clusters` | no | Cluster count if relevant. |
+| `model_specification` | yes | Controls/fixed effects/model notes. |
+| `comparison_group` | no | Control or reference group. |
+| `treatment_scale_original` | yes | Original treatment scale, e.g. eligible vs not, pension wealth, reform exposure. |
+| `followup_window` | no | Time horizon after exposure. |
+| `subgroup` | no | Sex, parity, age, income, region, etc. |
+| `harmonized_outcome_unit` | no until harmonized | Target unit after conversion. |
+| `effect_harmonized` | no until harmonized | Converted effect. |
+| `se_harmonized` | no until harmonized | Converted standard error. |
+| `harmonization_method` | no until harmonized | Formula or rule used. |
+| `meta_analysis_group` | no until harmonized | Pooling group ID or `not_poolable`. |
+| `risk_of_bias_overall` | no until RoB | Overall risk-of-bias judgment. |
+| `extract_page` | yes | Page/table/figure location in PDF. |
+| `extract_quote_or_note` | yes | Short paraphrase or compliant excerpt locating the number. |
+| `extracted_by` | yes | Agent or RA name. |
+| `ra_verified` | yes | `yes`, `no`, or `not_sampled`. |
+| `needs_pi` | yes | `yes` if interpretation/harmonization is ambiguous. |
+
+## Risk-of-Bias Table: `{slug}-risk-of-bias.csv`
+
+One row per included empirical study.
+
+| Column | Required | Description |
+|---|---:|---|
+| `study_id` | yes | Links to study table. |
+| `confounding` | yes | `low`, `moderate`, `serious`, `critical`, `no_information`. |
+| `selection` | yes | Selection into study/sample. |
+| `exposure_classification` | yes | Correct classification of treatment/exposure. |
+| `deviations` | yes | Deviations from intended intervention/exposure. |
+| `missing_data` | yes | Missing data/attrition risk. |
+| `outcome_measurement` | yes | Outcome validity and measurement timing. |
+| `reported_result_selection` | yes | Selective reporting/model mining risk. |
+| `identification_credibility` | yes | Economics-specific judgment on research design. |
+| `overall` | yes | Worst-domain rule, with PI override allowed only if explained. |
+| `rationale` | yes | Short explanation with page/table references where possible. |
+| `assessed_by` | yes | Agent/RA name. |
+| `ra_verified` | yes | `yes`, `no`, or `not_sampled`. |
+
+## Full-Text Screen Table: `{slug}-fulltext-screen.csv`
+
+One row per paper marked `RETRIEVE` or `UNSURE` at title/abstract review.
+
+| Column | Required | Description |
+|---|---:|---|
+| `paper_id` | yes | GACS paper ID. |
+| `doi` | yes if available | Canonical DOI. |
+| `title` | yes | Paper title. |
+| `pdf_status` | yes | `available`, `needs_manual`, `not_found`, `bad_file`. |
+| `fulltext_decision` | yes | `INCLUDE_EMPIRICAL`, `INCLUDE_THEORY`, `EXCLUDE`, `UNSURE_PI`. |
+| `exclusion_reason` | no | Required when excluded. |
+| `included_stream` | yes | `empirical_meta`, `empirical_narrative`, `theory`, `none`. |
+| `screened_by` | yes | Agent/RA name. |
+| `ra_verified` | yes | `yes`, `no`, or `not_sampled`. |
+| `notes` | no | Free text. |
