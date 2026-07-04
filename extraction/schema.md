@@ -67,6 +67,7 @@ One row per included empirical study.
 | `fulltext_decision` | yes | `INCLUDE_EMPIRICAL`, `INCLUDE_THEORY`, `EXCLUDE`, `UNSURE_PI`. |
 | `fulltext_reason` | yes | Short rationale for inclusion/exclusion. |
 | `pdf_path` | yes if included | Local path to the PDF used for extraction. |
+| `pdf_filename` | yes if included | PDF basename for Spotlight/manual lookup. This is a plain context field in RA review sheets. |
 | `extraction_status` | yes | `not_started`, `extracted`, `ra_verified`, `needs_pi`. |
 | `notes` | no | Free text. |
 
