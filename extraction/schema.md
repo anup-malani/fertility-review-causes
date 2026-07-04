@@ -83,6 +83,7 @@ These rows are not empirical studies and do not enter effect-size synthesis.
 | `year` | yes if available | Publication year. |
 | `venue` | no | Journal, book, working-paper series, or publisher. |
 | `doi` | no | DOI when available; blank for books/chapters without DOI. |
+| `pdf_filename` | yes | Expected local PDF filename for Spotlight/manual retrieval, e.g. `{author}-{year}-{short-title}.pdf`. |
 | `stratum` | yes | `theory_foundational`, `theory_formal`, `mechanism_background`, or `empirical_classic_background`. |
 | `mechanism_role` | yes | Short description of how the source informs the chapter mechanism. |
 | `use_in_chapter` | yes | `theory_section`, `mechanism_background`, `historical_context`, or `do_not_use`. |

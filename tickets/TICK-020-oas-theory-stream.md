@@ -15,6 +15,7 @@ how PAYG/social-security systems interact with endogenous fertility.
 
 ## Acceptance criteria
 - [ ] Theory-source table contains canonical foundational and formal-model sources.
+- [ ] Each row has a `pdf_filename` field that can be used for Spotlight/manual retrieval.
 - [ ] Each row has a mechanism role and use-in-chapter field.
 - [ ] Published/version-of-record sources are preferred where available.
 - [ ] Missing or book/chapter-only sources are marked `TITLE_KEY` or `needs_manual` rather than forced into DOI workflows.
