@@ -41,12 +41,15 @@ for. The original task was a head-to-head race of the three methods on false-neg
 false-positive rate, cost, and replicability, ending in a recommendation — the best single method, an
 amalgam, or a weighted average. Asserting that the routes converge is convenient and may well be true,
 but it is not the same as *showing* the paper-for-paper disagreement between the three delivered
-Tier-1 sets. That comparison is still owed; the data to run it retrospectively already exist (the
-three legacy OAS Tier-1 sets), and it is scheduled — its protocol is specified in §7.1. Until it is
-run, treat convergence as a hypothesis this document builds on, not a settled result. The constructive
-task here is therefore twofold: **document the one pipeline the three routes point to, wiring each
-person's contribution into the leg it hardens — and specify the comparison that will test the
-convergence claim rather than assume it.**
+Tier-1 sets. That comparison has now been **run** (§7.1, `37_method_comparison.py`), and it does not
+support the strong reading: the three Tier-1 sets agree on only 8 of 200 papers (pairwise Jaccard
+0.07–0.13). Convergence at the level of a shared *architecture* is real and is what this document
+builds on; convergence at the level of the *selected papers* is not — so "three routes, one spine"
+should be read as a claim about the pipeline shape, not the output. The comparison also surfaced that
+only one of the three sets survives as frozen data, which is part of why convergence could be asserted
+but not shown. The constructive task here is therefore twofold: **document the one pipeline the three
+routes point to, wiring each person's contribution into the leg it hardens — and report the comparison
+(§7.1) that tests the convergence claim rather than assuming it.**
 
 ## 2. Framing and attribution
 
@@ -371,8 +374,11 @@ The PI's review (companion critique) sets the bar: GACS is a promising design sh
 the review's adopted search. Five moves, in priority order, close the gap. The first three are
 sequenced; §7.1 and §7.2 specify concretely the two the earlier draft left implicit.
 
-1. **Run the head-to-head comparison the assignment asked for** — retrospective, on the legacy OAS
-   corpus. Protocol in §7.1. This is the actual owed deliverable, and the data already exist.
+1. **Run the head-to-head comparison the assignment asked for** — *(Done — `37_method_comparison.py`,
+   §7.1.)* Weak convergence (Jaccard 0.07–0.13), FN 9/10 vs 7/10 vs 7/10, off-cell-empirical 27–57%
+   across all three, and only Anup's set survives as frozen data. **Residual:** it re-grades on the demo
+   corpus with reconstructed rules, not three frozen independent runs — which a clean end-to-end run
+   (move 2) plus corpus-freezing would fix.
 2. **Freeze the gold, then do one clean end-to-end production run.** RA-adjudicate the 52 Tier-B
    UNCERTAINs and sign off Tier A, then run gold-freeze → tuned query → fresh screen → tiers *once*,
    end to end, with the real OpenAlex budget wired in — replacing the three component stand-ins (the CV
@@ -391,22 +397,31 @@ sequenced; §7.1 and §7.2 specify concretely the two the earlier draft left imp
 5. **Replicate on a second hypothesis** — ideally a well-studied one with prior meta-analyses — to
    exercise the cold-start bootstrap (§A3) and convert "designed to generalize" into "generalizes."
 
-### 7.1 Head-to-head comparison protocol (owed deliverable)
+### 7.1 Head-to-head comparison (run — `37_method_comparison.py`, report `{slug}-method-comparison.md`)
 
-Take the three independently-delivered Tier-1 sets on the legacy OAS corpus and report, against a
-single **adjudicated inclusion set** (the RA-signed Cell-A verdicts):
+The three methods were raced against the 10-study estimand-ready ground truth on the disagreement
+matrix, false-negative rate, false-positive rate, cost, and replicability. **First finding, before any
+metric: only one of the three sets survives as frozen data** — Anup's. Alexandra's live-OpenAlex
+prototype outputs (and script) are gone; Shravan's gold-anchored production query never ran
+independently (`tiers.json` is the unified tiering demonstrated on Anup's corpus). So each method is
+operationalized as a reproducible *rule* over the common 8,087-paper corpus; Anup's and the
+gold-anchored rules are faithful, Alexandra's is a labeled reconstruction of her lexical-triage
+principle. Results:
 
-- **Disagreement matrix** — pairwise overlap of the three Tier-1 sets, paper by paper (Jaccard plus
-  the raw shared/unique counts), so the convergence claim of §1 is *shown*, not asserted.
-- **False-negative rate** per method — adjudicated-included papers the method missed.
-- **False-positive rate** per method — method Tier-1 papers the adjudication excluded.
-- **Cost** per method — OpenAlex budget and LLM spend.
-- **Replicability** per method — can a second RA reproduce the set from the written spec?
+- **Convergence is weak.** The three Tier-1 sets agree on only 8 of 200 papers (pairwise Jaccard
+  0.07–0.13) — "three routes, one spine" overstates the paper-level overlap.
+- **FN (recall of the 10 effect-identifying studies):** Anup 9/10, gold-anchored 7/10, Alexandra 7/10
+  — but the gold rule's extra misses are single-channel truth papers that route to its Tier-2 by
+  design (a boundary artifact, not method-level loss).
+- **FP:** raw FP is degenerate (~90% for all); the meaningful off-cell-empirical rate is Anup 27%,
+  gold-anchored 56%, Alexandra 57% — **every method admits 27–57% off-cell empirics into Tier-1**.
+- **Replicability** is the sharpest real differentiator: only the committed methods can be re-run.
 
-Then recommend the best single method, an amalgam, or a weighted average — the question the assignment
-posed. GACS is the amalgam candidate; this comparison is what earns it (or doesn't) the canonical slot,
-rather than the convergence assertion standing in for the test. *(The revision author intends to run
-this once the pipeline is finalized.)*
+The recommendation the assignment asked for: no search rule is estimand-precise on its own (the
+off-cell finding), so the value of the harmonized pipeline is **not** that the methods converge but
+that they share the same downstream gap — which the point-1 estimand gate closes regardless of which
+search wins. Freeze every method's corpus before any future bake-off (the reason Alexandra's had to be
+reconstructed). Full numbers, caveats, and the demo-corpus limitations are in the report.
 
 ### 7.2 Parameter defaults (proposed — fit and confirm in the clean run)
 
@@ -462,7 +477,7 @@ itself perform.
 | # | PI critique | Response in this revision |
 |---|---|---|
 | 1 | Optimizes topical recall; the binding constraint is estimand precision (44 → ~10 under the estimand). | **Conceded; gate added AND implemented.** Estimand-cell tags on gold anchors (A3), estimand fields required from Sonnet (D2b), an **estimand-ready pooling set** distinct from the topical set (E1), **estimand-filtered recall** as a reported target (E3). Now *run* on the pilot — `34_estimand_gate.py`, write-up `canonical-search-workflow-estimand-gate.md`: output set 40 → 10; corrected scorecard 7 of 15 anchors off-cell (reconciles with the PI's "7 of 14"). The automated gate is calibrated against the RA (100% precision / 80% recall, blind; `35a`/`35b`), so it runs on hypotheses with no RA pass. And the recall is **re-graded** (`36a`/`36b`): topical Recall(B) 72.5% → estimand-filtered 82.5%, Tier B being 65% theory / 23% empirical primary-cell. **Critique #1 closed** — recall of the target was never the constraint; the target's definition was. |
-| 2 | Answered a different question — a synthesized 4th method, not the assigned head-to-head; convergence asserted, not shown. | **Conceded.** §1 downgrades convergence from "warrant" to "hypothesis"; the **comparison protocol** (disagreement matrix + FP/FN + cost + replicability) is specified in §7.1 as the owed deliverable and is scheduled to run. |
+| 2 | Answered a different question — a synthesized 4th method, not the assigned head-to-head; convergence asserted, not shown. | **Conceded and now run** (`37_method_comparison.py`, §7.1). Disagreement matrix + FN + FP + cost + replicability vs the 10-study truth. Convergence is weak (agree on 8/200, Jaccard 0.07–0.13); FN 9/10 (Anup) vs 7/10 (gold, Tier-1 boundary) vs 7/10 (Alexandra); off-cell-empirical 27–57% across all three; only Anup's set survives as frozen data. Search choice is second-order to the estimand gate. |
 | 3 | Validated in components, not end to end; the decision can't be made yet. | **Conceded.** Status line reframed to "validated in components, pending a clean run"; the single end-to-end run is §7, move 2. |
 | 4 | 72% is both low (vs. Cochrane near-complete) and soft (dry run, un-frozen, title-only). | **Conceded.** E3 adds an explicit **benchmark** paragraph: 72% is a title-only lower bound, near-complete recall is the target, and the adoption bar is estimand-filtered Recall(B) on a frozen gold with a pre-set target. |
 | 5 | Circularity acknowledged but not escaped — Tier B's snowball was seeded off the keyword set. | **Conceded, stated at point of use.** E3 now flags the residual keyword bias in Recall(B) wherever the number is quoted; §7.1's independent adjudicated inclusion set is the non-circular check. |
