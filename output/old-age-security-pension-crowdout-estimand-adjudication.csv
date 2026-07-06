@@ -1,0 +1,41 @@
+rank,title,authors,year,doi,ra_decision,estimand_cell,off_cell_reason,is_gold_anchor,gold_id
+1,Pensions and Fertility: Microeconomic Evidence,Danzer; Zyska,2023,10.1257/pol.20200440,RETRIEVE,PRIMARY,,yes,E24
+2,The Old-Age Security Motive for Fertility: Evidence from the Extension of Social Pensions in Namibia,Rossi; Godard,2022,10.1257/pol.20200466,RETRIEVE,PRIMARY,,yes,E18
+3,What Explains Fertility? Evidence from Italian Pension Reforms,Billari; Galasso,2009,10.2139/ssrn.1406946,RETRIEVE,PRIMARY,,yes,E17
+4,The impact of long-term care insurance on family fertility behaviour: evidence from China,Han; Tao; Wang; Zhang,2025,10.1080/00036846.2025.2490215,RETRIEVE,PRIMARY,,yes,E34
+5,The Introduction of Bismarck's Social Security System and its Effects on Marriage and Fertility in Prussia,Guinnane; Streb,2021,10.1111/padr.12426,RETRIEVE,PRIMARY,,yes,E14
+6,The fertility effects of public pension: Evidence from the new rural pension scheme in China,Shen; Zheng; Yang,2020,10.1371/journal.pone.0234657,RETRIEVE,PRIMARY,,yes,E12
+7,The intergenerational education spillovers of pension reform,Yuan; Li; Johnston,2018,10.1007/s00148-018-0690-3,EXCLUDE,OFF:fertility-as-cause,Treats fertility as exogenous,yes,E8
+8,"Retirement, intergenerational time transfers, and fertility",Eibich; Siedler,2020,10.1016/j.euroecorev.2020.103392,EXCLUDE,OFF:different-channel,Different mechanism (retired parents reduce the cost of children),yes,E13
+9,Children as insurance revisited: Impact of children on private insurance adoption among older parents,Ci,2024,10.1111/jori.12492,RETRIEVE,PRIMARY,,yes,E29
+10,Fertility and parental retirement,Ilciukas,2023,10.1016/j.jpubeco.2023.104928,EXCLUDE,OFF:different-channel,Different mechanism (retired parents reduce the cost of children),yes,E25
+11,Are children substitutes for assets? Evidence from Bangladesh,Ruthbah,2022,10.1080/19439342.2022.2111588,EXCLUDE,OFF:fertility-as-cause,Fertility is treatment not outcome,yes,E23
+12,Children's education and parental old age survival - Quasi-experimental evidence on the intergenerational effects of human capital investment,Neve; Fink,2018,10.1016/j.jhealeco.2018.01.008,EXCLUDE,OFF:outcome-not-fertility,Fertility is not an outcome,yes,E9
+13,Grandparental availability for child care and maternal labor force participation: pension reform evidence from Italy,Bratti; Frattini; Scervini,2017,10.1007/s00148-017-0683-7,EXCLUDE,OFF:outcome-not-fertility,Fertility is not an outcome,yes,E7
+14,Grandmothers and Granddaughters: Old Age Pension and Intra-household Allocation in South Africa,Duflo,2000,10.3386/w8061,EXCLUDE,OFF:outcome-not-fertility,Fertility is not an outcome,yes,E2
+16,Pensions and Fertility: Evidence from Germany,,,10.1007/s00148-016-0608-x,RETRIEVE,PRIMARY,,yes,E1
+18,Fertility and Financial Development: Evidence from U.S. Counties in the 19th Century,Basso; Cuberes,2013,10.3386/w20491,RETRIEVE,PRIMARY,,no,
+19,The intergenerational impact of pension reforms: How grandmothers’ pension eligibility affects daughters’ fertility,Akyol; Atalay,2025,10.1016/j.econlet.2025.112239,EXCLUDE,OFF:different-channel,Different mechanism (retired parents reduce the cost of children),no,
+20,Relationship between Receipt of a Social Protection Grant for a Child and Second Pregnancy Rates among South African Women: A Cohort Study,Rosenberg; Pettifor; Nguyen; Westreich; Bor; Bärnighausen; Mee; Twine; Tollman; Kahn,2015,10.1371/journal.pone.0137352,EXCLUDE,OFF:different-cause,Different mechanism (subsidy),no,
+21,"Children, old-age support and pension in rural China",Zhang,2015,10.1108/caer-01-2014-0003,EXCLUDE,OFF:reverse-direction,Reverse causation (studies the effect of children on pension take up),no,
+22,"The Long-Term Consequences of Having Fewer Children in Old Age: Evidence from China’s “Later, Longer, Fewer” Campaign",Chen; Fang,2018,10.3386/w25041,EXCLUDE,OFF:reverse-direction,Reverse causation (studies the effect of children on old age support),no,
+23,Pension Coverage for Parents and Educational Investment in Children: Evidence from Urban China,Mu; Du,2015,10.1596/1813-9450-7457,EXCLUDE,OFF:outcome-not-fertility,Fertility is not an outcome,no,
+24,The US baby boom and the 1935 Social Security Act,Galofré‐Vilà,2023,10.1080/1081602x.2023.2178478,RETRIEVE,PRIMARY,,no,
+25,The One-Child Policy and Household Saving,Choukhmane; Coeurdacier; Jin,2023,10.1093/jeea/jvad001,EXCLUDE,OFF:outcome-not-fertility,Fertility is not an outcome,no,
+26,The Impact of Social Pensions on Intergenerational Relationships: Comparative Evidence from China,Chen; Eggleston; Sun,2017,10.2139/ssrn.2960540,EXCLUDE,OFF:outcome-not-fertility,Fertility is not an outcome,no,
+27,Is There an Effect of Incremental Welfare Benefits on Fertility Behavior? A Look at the Family Cap,Kearney,2002,10.3386/w9093,EXCLUDE,OFF:different-cause,Different treatment,no,
+28,Rearranging the Family?,Edmonds; Mammen; Miller,2005,10.3368/jhr.xl.1.186,EXCLUDE,OFF:outcome-not-fertility,Fertility is not an outcome,no,
+30,Does the Expansion of Kindergarten Supply Increase Fertility？Quasi-natural Experimental Evidence from Establishing Kindergartens by Social Forces,Tao,2021,10.16538/j.cnki.jfe.20210615.302,EXCLUDE,OFF:different-cause,Different treatment,no,
+31,OLD‐AGE PENSION AND EXTENDED FAMILIES: HOW IS ADULT CHILDREN'S INTERNAL MIGRATION AFFECTED?,Chen,2015,10.1111/coep.12161,EXCLUDE,OFF:outcome-not-fertility,Fertility is not an outcome,no,
+32,"Do Cash Transfers Improve Birth Outcomes? Evidence from Matched Vital Statistics, Program and Social Security Data",Amarante; Manacorda; Miguel; Vigorito,2012,10.3386/w17690,EXCLUDE,OFF:outcome-not-fertility,Fertility is not an outcome,no,
+34,"The Effect of Financial Resources on Homeownership, Marriage, and Fertility: Evidence from State Lotteries",Bulman; Goodman; Isen,2022,10.3386/w30743,EXCLUDE,OFF:different-cause,Different treatment,no,
+35,Does Social Security Crowd Out Private Savings?,Lehmann‐Hasemeyer; Streb,2016,10.18452/5502,EXCLUDE,OFF:outcome-not-fertility,Fertility is not an outcome,no,
+36,The Impact of Rural Pensions in China on Labor Migration,Eggleston; Sun; Zhan,2016,10.1093/wber/lhw032,EXCLUDE,OFF:outcome-not-fertility,Fertility is not an outcome,no,
+37,Traditional Institutions in Modern Times: Dowries as Pensions When Sons Migrate,Bau; Khanna; Low; Voena,2023,10.3386/w31176,EXCLUDE,OFF:outcome-not-fertility,Fertility is not an outcome,no,
+38,The Effect of Public Pension Wealth on Saving and Expenditure,Lachowska; Myck,2015,10.17848/wp15-223,EXCLUDE,OFF:outcome-not-fertility,Fertility is not an outcome,no,
+39,The impact of parental leave policy on the intensity of labour-market participation of mothers: Do the number of children and pre-birth work engagement matter?,Valentová,2018,10.1177/0958928718776826,EXCLUDE,OFF:outcome-not-fertility,Fertility is not an outcome,no,
+40,"Will You Marry Me, Later?",Bellés‐Obrero; Lombardi,2020,10.3368/jhr.58.3.1219-10621r2,EXCLUDE,OFF:off-topic,Irrelevant to OAS,no,
+41,Labor Informality and the Incentive Effects of Social Security: Evidence from a Health Reform in Uruguay,Bérgolo; Cruces,2011,10.18235/0011359,EXCLUDE,OFF:outcome-not-fertility,Fertility is not an outcome,no,
+42,Female Employment Reduces Fertility in Rural Senegal,Broeck; Maertens,2015,10.1371/journal.pone.0122086,EXCLUDE,OFF:different-cause,Different treatment,no,
+43,The child penalty: evidence from Spain,Quinto; Hospido; Sanz,2021,10.1007/s13209-021-00241-9,EXCLUDE,OFF:fertility-as-cause,Fertility is treatment not outcome,no,
+44,Health and labor market effects of an unanticipated rise in retirement age. Evidence from the 2012 Italian pension reform,Serrano‐Alarcón; Ardito; Leombruni; Kentikelenis; d’Errico; Odone; Costa; Stückler; IWGRH,2023,10.1002/hec.4749,EXCLUDE,OFF:outcome-not-fertility,Fertility is not an outcome,no,
