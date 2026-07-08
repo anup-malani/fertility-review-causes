@@ -1,0 +1,32 @@
+{
+  "hypothesis": "old-age-security-pension-crowdout",
+  "freeze_date": "2026-07-08",
+  "frozen_by": "Shravan (RA) — approved as recommended; blind second read by Claude (Opus)",
+  "tier_a_anchors": 56,
+  "tier_b_before": 247,
+  "tier_b_promoted": 10,
+  "tier_b_after": 257,
+  "uncertains_adjudicated": 52,
+  "uncertains_included": 10,
+  "uncertains_excluded": 42,
+  "promotions_by_cell": {
+    "THEORY": 9,
+    "OFF": 1
+  },
+  "tier_b_estimand_cells": {
+    "THEORY": 169,
+    "PRIMARY": 57,
+    "OFF:reverse-direction": 6,
+    "OFF:different-cause": 3,
+    "OFF:outcome-not-fertility": 13,
+    "OFF:fertility-as-cause": 6,
+    "OFF:different-channel": 2,
+    "OFF": 1
+  },
+  "primary_cell_denominator": 57,
+  "note": "All promotions are THEORY/OFF (0 PRIMARY), so the frozen gold is denominator-neutral for estimand-filtered Recall(B); it enlarges only the topical/theory tail. 3 corrupted + 34 title-only UNCERTAINs excluded (conservative denominator, abstract-or-live-DOI hygiene gate).",
+  "provenance": [
+    "40_freeze_adjudicate_uncertains.py",
+    "41_freeze_gold.py"
+  ]
+}
