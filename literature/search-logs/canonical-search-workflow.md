@@ -388,9 +388,15 @@ sequenced; §7.1 and §7.2 specify concretely the two the earlier draft left imp
    calibrated against the RA (100% precision / 80% recall, blind; `35a`/`35b`) so it runs on hypotheses
    with no RA pass, and Tier B has been estimand-tagged and the recall **re-graded** (`36a`/`36b`):
    topical Recall(B) 72.5% → estimand-filtered **82.5%**, with Tier B revealed as 65% theory / 23%
-   empirical primary-cell. See `canonical-search-workflow-estimand-gate.md`. **Residual:** the Tier-B
-   tags are automated, not RA-signed — a spot audit of the theory routing would harden the 82.5%. This
-   closes the PI's first critique.
+   empirical primary-cell. See `canonical-search-workflow-estimand-gate.md`. **Residual now closed by
+   audit** (`39a`/`39b`, `{slug}-estimand-tag-audit.md`): the Tier-B tags were double-screened — an
+   independent blind second reader re-tagged a 129-of-247 audit (a *census* of all 99 abstract-bearing
+   papers + 30 title-only), and the group-level disagreements were RA-adjudicated. On the adjudicable
+   stratum, auto agrees with the adjudication on **93% (kappa 0.84)**, with **zero THEORY→PRIMARY
+   leakage** (0/67 — the theory routing the PI flagged does not hide any empirical estimate) and PRIMARY
+   precision 9/11 (the two misses are off-cell empirics the gate *over*-admitted, so correcting them
+   tightens the pooling set). Estimand Recall(B) is stable to <1pp (82.5% → 81.8% audit-corrected;
+   envelope 81.8–83.0%). This closes the PI's first critique.
 4. **Fit every parameter and write the defaults down** (§7.2), then hand the pipeline to a second RA to
    run without the author present. If they can reproduce a run from the written defaults, the "no oral
    tradition" bar is met.
@@ -433,7 +439,7 @@ a written starting value, not a blank to be filled from memory.
 |---|---|---|
 | CV breadth grid (Nf, Np) | {0, 10, 20, 30, 40} | Pilot CV saturated at N ≈ 20–30; the grid brackets it. |
 | CV folds | 10 | Standard; used in the pilot; enough folds given ~50 empirical anchors. |
-| Cluster-merge overlap threshold | Jaccard ≥ 0.6 on retrieved gold sets | Merges near-synonymous families (pilot: formal-pensions ≈ SS/PAYG) without collapsing distinct ones. |
+| Cluster-merge overlap threshold | Jaccard ≥ 0.6 on retrieved gold sets | Merges near-synonymous families without collapsing distinct ones. **Run** (`38`): on the frozen gold, *no* family pair reaches 0.6 — the expected formal-pensions ≈ SS/PAYG merge does not hold (Jaccard 0.29, overlap coef 0.45), so the five stay distinct (see below). |
 | Snowball saturation — yield floor | < 1 new relevant / 50 records pulled | Diminishing-returns cutoff on the scarce OpenAlex budget. |
 | Snowball saturation — consecutive rounds | 2 rounds below floor | Guards against a single lumpy dip. |
 | Forward-citation cap | topic-specific seeds only, ≤ 1 hop | Forward citations explode on broad theory anchors; 7 of 8 pilot ghosts were forward. |
@@ -442,8 +448,15 @@ a written starting value, not a blank to be filled from memory.
 | Haiku recall calibration | recall ≥ 0.98 vs. frozen gold | Haiku false-negatives are unrecoverable; near-1.0 required. |
 | Bootstrap gold-size floor | ≥ 30 empirical anchors before CV | Below this the fold-local term mining is too noisy (pilot gold ≈ 31 empirical). |
 
-*(Still open: the sub-cluster **overlap test** on the existing gold, to settle the pilot's cluster
-count — five hand-estimated versus three or four empirically.)*
+**Cluster count — overlap test run** (`38_cluster_overlap.py`, `{slug}-cluster-overlap.md`). The five
+hand-estimated cause-axis families were expected to collapse to three or four; on the frozen gold they
+do **not**. Under the §7.2 rule (Jaccard ≥ 0.6 on retrieved gold sets) no pair merges — the count is
+**five**. The closest pair, formal-pensions × SS/PAYG, is exactly the one §7.2 assumed near-synonymous,
+but it shares only 29% of its combined retrieval (Jaccard 0.29, overlap coefficient 0.45); the count
+would fall to four only if the merge bar were relaxed to ≈0.25. So the hand-estimated "≈" overstated
+the overlap: the families pull *different* papers and each earns its own search budget. (Caveat: 56/303
+gold anchors and 148/247 Tier B are title-only; abstracts could nudge a borderline pair, though not the
+block structure.)
 
 ### 7.3 Remaining engineering / hygiene items
 
@@ -476,12 +489,12 @@ itself perform.
 
 | # | PI critique | Response in this revision |
 |---|---|---|
-| 1 | Optimizes topical recall; the binding constraint is estimand precision (44 → ~10 under the estimand). | **Conceded; gate added AND implemented.** Estimand-cell tags on gold anchors (A3), estimand fields required from Sonnet (D2b), an **estimand-ready pooling set** distinct from the topical set (E1), **estimand-filtered recall** as a reported target (E3). Now *run* on the pilot — `34_estimand_gate.py`, write-up `canonical-search-workflow-estimand-gate.md`: output set 40 → 10; corrected scorecard 7 of 15 anchors off-cell (reconciles with the PI's "7 of 14"). The automated gate is calibrated against the RA (100% precision / 80% recall, blind; `35a`/`35b`), so it runs on hypotheses with no RA pass. And the recall is **re-graded** (`36a`/`36b`): topical Recall(B) 72.5% → estimand-filtered 82.5%, Tier B being 65% theory / 23% empirical primary-cell. **Critique #1 closed** — recall of the target was never the constraint; the target's definition was. |
+| 1 | Optimizes topical recall; the binding constraint is estimand precision (44 → ~10 under the estimand). | **Conceded; gate added AND implemented.** Estimand-cell tags on gold anchors (A3), estimand fields required from Sonnet (D2b), an **estimand-ready pooling set** distinct from the topical set (E1), **estimand-filtered recall** as a reported target (E3). Now *run* on the pilot — `34_estimand_gate.py`, write-up `canonical-search-workflow-estimand-gate.md`: output set 40 → 10; corrected scorecard 7 of 15 anchors off-cell (reconciles with the PI's "7 of 14"). The automated gate is calibrated against the RA (100% precision / 80% recall, blind; `35a`/`35b`), so it runs on hypotheses with no RA pass. And the recall is **re-graded** (`36a`/`36b`): topical Recall(B) 72.5% → estimand-filtered 82.5%, Tier B being 65% theory / 23% empirical primary-cell. And the automated Tier-B tags are now **spot-audited** by blind double-screening (`39a`/`39b`, `{slug}-estimand-tag-audit.md`): 93% agreement / kappa 0.84 on the abstract census, zero THEORY→PRIMARY leakage, recall stable to <1pp. **Critique #1 closed** — recall of the target was never the constraint; the target's definition was, and the tags behind it hold up under audit. |
 | 2 | Answered a different question — a synthesized 4th method, not the assigned head-to-head; convergence asserted, not shown. | **Conceded and now run** (`37_method_comparison.py`, §7.1). Disagreement matrix + FN + FP + cost + replicability vs the 10-study truth. Convergence is weak (agree on 8/200, Jaccard 0.07–0.13); FN 9/10 (Anup) vs 7/10 (gold, Tier-1 boundary) vs 7/10 (Alexandra); off-cell-empirical 27–57% across all three; only Anup's set survives as frozen data. Search choice is second-order to the estimand gate. |
 | 3 | Validated in components, not end to end; the decision can't be made yet. | **Conceded.** Status line reframed to "validated in components, pending a clean run"; the single end-to-end run is §7, move 2. |
 | 4 | 72% is both low (vs. Cochrane near-complete) and soft (dry run, un-frozen, title-only). | **Conceded.** E3 adds an explicit **benchmark** paragraph: 72% is a title-only lower bound, near-complete recall is the target, and the adoption bar is estimand-filtered Recall(B) on a frozen gold with a pre-set target. |
 | 5 | Circularity acknowledged but not escaped — Tier B's snowball was seeded off the keyword set. | **Conceded, stated at point of use.** E3 now flags the residual keyword bias in Recall(B) wherever the number is quoted; §7.1's independent adjudicated inclusion set is the non-circular check. |
-| 6 | Too complex for anyone but its author; unset knobs = oral tradition. | **Addressed.** §7.2 gives a **parameter-defaults table** (default + one-line justification per knob), and §7, move 4 hands the pipeline to a second RA as the replicability test. |
+| 6 | Too complex for anyone but its author; unset knobs = oral tradition. | **Addressed.** §7.2 gives a **parameter-defaults table** (default + one-line justification per knob), and §7, move 4 hands the pipeline to a second RA as the replicability test. The one knob that was still hand-estimated — the cluster count — is now **run** (`38_cluster_overlap.py`): the five cause-axis families stay five under the merge rule (no pair reaches Jaccard 0.6; the assumed formal-pensions ≈ SS/PAYG merge is refuted at 0.29). |
 | 7 | One hypothesis; generalization (the property most needed) untested. | **Conceded.** §7, move 5 keeps second-hypothesis replication (well-studied, with prior meta-analyses) to exercise the cold-start bootstrap. |
 
 **Kept at the PI's recommendation:** the frozen-gold instrument, fold-local discriminative-term mining,
