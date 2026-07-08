@@ -1,0 +1,54 @@
+{
+  "deghosted": true,
+  "selected_breadth": {
+    "Nf": 30,
+    "Np": 30
+  },
+  "cv_recall_selected": 0.6471,
+  "neg_matched_selected": 57,
+  "recall": {
+    "topical": [
+      0.6641221374045801,
+      87,
+      131
+    ],
+    "empirical": [
+      0.5,
+      19,
+      38
+    ],
+    "estimand_primary": [
+      0.7647058823529411,
+      13,
+      17
+    ],
+    "theory": [
+      0.7311827956989247,
+      68,
+      93
+    ],
+    "primary_high_conf": [
+      0.6666666666666666,
+      2,
+      3
+    ],
+    "tier_a": [
+      0.6071428571428571,
+      34,
+      56
+    ]
+  },
+  "tier_b_cells": {
+    "PRIMARY": 17,
+    "THEORY": 93,
+    "OFF:reverse-direction": 5,
+    "OFF:different-cause": 2,
+    "OFF:outcome-not-fertility": 8,
+    "OFF:fertility-as-cause": 3,
+    "OFF:different-channel": 2,
+    "OFF": 1
+  },
+  "tier_b_n": 131,
+  "prereg_bar_estimand": 0.8,
+  "estimand_pass": false
+}
