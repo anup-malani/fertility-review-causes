@@ -1,0 +1,55 @@
+{
+  "freeze_date": "2026-07-08",
+  "selected_breadth": {
+    "Nf": 15,
+    "Np": 30
+  },
+  "cv_recall_selected": 0.6837,
+  "neg_matched_selected": 56,
+  "recall": {
+    "topical": [
+      0.7003891050583657,
+      180,
+      257
+    ],
+    "empirical": [
+      0.6590909090909091,
+      58,
+      88
+    ],
+    "estimand_primary": [
+      0.8245614035087719,
+      47,
+      57
+    ],
+    "theory": [
+      0.7218934911242604,
+      122,
+      169
+    ],
+    "primary_high_conf": [
+      0.8823529411764706,
+      15,
+      17
+    ],
+    "tier_a": [
+      0.6071428571428571,
+      34,
+      56
+    ]
+  },
+  "tier_b_cells": {
+    "THEORY": 169,
+    "PRIMARY": 57,
+    "OFF:reverse-direction": 6,
+    "OFF:different-cause": 3,
+    "OFF:outcome-not-fertility": 13,
+    "OFF:fertility-as-cause": 6,
+    "OFF:different-channel": 2,
+    "OFF": 1
+  },
+  "prereg_bar_estimand": 0.8,
+  "prereg_bar_topical": 0.72,
+  "estimand_pass": true,
+  "topical_pass": false
+}
