@@ -1,0 +1,25 @@
+{
+  "rebuilt_tier_b": 177,
+  "added_anchors": 25,
+  "primary_denominator": 31,
+  "primary_hits": 25,
+  "estimand_recall_B": 0.8065,
+  "topical_recall_B": 0.678,
+  "selected_breadth": {
+    "Nf": 30,
+    "Np": 30
+  },
+  "gate": 0.8,
+  "gate_passed": true,
+  "action": "PROCEED_TO_SCREEN",
+  "tier_b_cells": {
+    "PRIMARY": 31,
+    "THEORY": 117,
+    "OFF:reverse-direction": 5,
+    "OFF:different-cause": 2,
+    "OFF:outcome-not-fertility": 8,
+    "OFF:fertility-as-cause": 6,
+    "OFF:different-channel": 2,
+    "OFF": 6
+  }
+}

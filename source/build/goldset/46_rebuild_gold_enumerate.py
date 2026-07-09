@@ -30,9 +30,9 @@ HERE = Path(__file__).resolve().parent
 REPO = HERE.parents[2]
 LOGS = REPO / "literature" / "search-logs"
 
-# reuse the de-ghost verifier (probe_openalex / probe_crossref + match gates)
-spec = importlib.util.spec_from_file_location("dg", HERE / "44_deghost_gold.py")
-dg = importlib.util.module_from_spec(spec); spec.loader.exec_module(dg)
+# Verify via Crossref (free; canon papers are DOI-registered) — OpenAlex budget is metered/dry.
+spec = importlib.util.spec_from_file_location("dg8", HERE / "48_deghost_corpus_crossref.py")
+dg8 = importlib.util.module_from_spec(spec); spec.loader.exec_module(dg8)
 
 # Canon enumeration — landmark OAS/pension <-> fertility empirical + theory papers,
 # each as (author, year, title, cell). The existence gate confirms or rejects; the model's
@@ -78,29 +78,22 @@ CANDIDATES = [
 
 def main():
     verified, rejected, unverified = [], [], []
-    try:
-        for i, (auth, yr, title, cell) in enumerate(CANDIDATES):
-            oa_status, hit = dg.probe_openalex(title, auth, yr)      # may raise BudgetExhausted
-            cr_status = None
-            if oa_status != "FOUND":
-                cr_status, hit = dg.probe_crossref(title, auth, yr)
-            if hit and hit.get("doi"):
-                verified.append({"enum_author": auth, "enum_year": yr, "enum_title": title,
-                                 "cell": cell, "doi": hit["doi"], "matched_title": hit["matched_title"],
-                                 "resolved_year": hit.get("year"), "source": hit["source"]})
-            elif oa_status == "ABSENT" and cr_status == "ABSENT":
-                rejected.append({"enum_author": auth, "enum_year": yr, "enum_title": title,
-                                 "cell": cell, "reason": "existence gate: OpenAlex AND Crossref both confirm no match"})
-            else:
-                unverified.append({"enum_author": auth, "enum_year": yr, "enum_title": title,
-                                   "cell": cell, "oa": oa_status, "cr": cr_status})
-            if (i + 1) % 10 == 0:
-                print(f"  probed {i+1}/{len(CANDIDATES)}; {len(verified)} verified, {len(rejected)} rejected, {len(unverified)} unconfirmed", file=sys.stderr)
-    except dg.BudgetExhausted as e:
-        print(f"\nBUDGET EXHAUSTED ({e}) — HALT-AND-RESUME after midnight-UTC reset; cached probes persist.", file=sys.stderr)
-        sys.exit(3)
+    for i, (auth, yr, title, cell) in enumerate(CANDIDATES):
+        cr_status, hit = dg8.crossref(title, auth, yr)              # Crossref existence gate (free)
+        if cr_status == "FOUND" and hit.get("doi"):
+            verified.append({"enum_author": auth, "enum_year": yr, "enum_title": title,
+                             "cell": cell, "doi": hit["doi"], "matched_title": hit["matched_title"],
+                             "resolved_year": hit.get("year"), "source": hit["source"]})
+        elif cr_status == "ABSENT":
+            rejected.append({"enum_author": auth, "enum_year": yr, "enum_title": title,
+                             "cell": cell, "reason": "existence gate: Crossref confirms no match"})
+        else:
+            unverified.append({"enum_author": auth, "enum_year": yr, "enum_title": title,
+                               "cell": cell, "cr": cr_status})
+        if (i + 1) % 10 == 0:
+            print(f"  probed {i+1}/{len(CANDIDATES)}; {len(verified)} verified, {len(rejected)} rejected, {len(unverified)} unconfirmed", file=sys.stderr)
     if unverified:
-        print(f"⚠️  {len(unverified)} candidates UNCONFIRMED (API outage) — NOT rejected; re-run after reset.", file=sys.stderr)
+        print(f"⚠️  {len(unverified)} candidates UNCONFIRMED (Crossref outage) — NOT rejected.", file=sys.stderr)
 
     json.dump(verified, open(LOGS / f"{SLUG}-gold-rebuild-verified.json", "w"), indent=2, ensure_ascii=False)
     json.dump(rejected, open(LOGS / f"{SLUG}-gold-rebuild-rejected.json", "w"), indent=2, ensure_ascii=False)
@@ -112,7 +105,8 @@ def main():
     have = {(g.get("doi") or "").lower().replace("https://doi.org/","") for g in dg_B if g.get("doi")}
     net_new = [v for v in verified if v["doi"] not in have]
     net_primary = sum(1 for v in net_new if v["cell"] == "PRIMARY")
-    surviving_primary = 17
+    dg_tags = {t["id"]: t for t in json.load(open(HERE / "estimand_tierb_tags_deghosted.json"))}
+    surviving_primary = sum(1 for g in dg_B if dg_tags.get(g.get("paperId"), {}).get("cell") == "PRIMARY")
     running_primary = surviving_primary + net_primary
 
     L = [f"# Gold rebuild — existence-gated canon enumeration (channel 2) — {SLUG}", "",
