@@ -1,0 +1,2541 @@
+{
+  "slug": "old-age-security-pension-crowdout",
+  "exported": 1783637608192,
+  "decisions": {
+    "W2022403542": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783635922992
+    },
+    "W4230955513": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783636060553
+    },
+    "W2046361189": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783636083620
+    },
+    "W2338799371": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783636137102
+    },
+    "W2088799776": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783636159746
+    },
+    "W2036636895": {
+      "v": "demote",
+      "bucket": "different-cause",
+      "note": "",
+      "ts": 1783636263915
+    },
+    "W2088985964": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783636482154
+    },
+    "W3166527634": {
+      "v": "demote",
+      "bucket": "other",
+      "note": "not a paper -- just an appendix",
+      "ts": 1783636494449
+    },
+    "W2045582700": {
+      "v": "demote",
+      "bucket": "different-cause",
+      "note": "",
+      "ts": 1783636513666
+    },
+    "W643491437": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783636539106
+    },
+    "W4409334223": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783636549450
+    },
+    "W2107888072": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783636557895
+    },
+    "W4307711611": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783636568828
+    },
+    "W1590954098": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783636580964
+    },
+    "W1512976090": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783636595893
+    },
+    "W2006194183": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783636616276
+    },
+    "W2382108032": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783636642765
+    },
+    "W1846122930": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783636662388
+    },
+    "W2606207160": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783636668863
+    },
+    "W2995464673": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783636685308
+    },
+    "W7135853640": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783636702386
+    },
+    "W1625570086": {
+      "v": "demote",
+      "bucket": "fertility-is-cause",
+      "note": "",
+      "ts": 1783636717585
+    },
+    "W7161025843": {
+      "v": "demote",
+      "bucket": "other",
+      "note": "not a paper -- just data & code",
+      "ts": 1783636726364
+    },
+    "W1597299047": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783636741909
+    },
+    "W4403023195": {
+      "v": "demote",
+      "bucket": "different-cause",
+      "note": "",
+      "ts": 1783636771951
+    },
+    "W7161597634": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783636788283
+    },
+    "W3123572076": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783636803493
+    },
+    "W4391684015": {
+      "v": "demote",
+      "bucket": "not-oas",
+      "note": "",
+      "ts": 1783636816828
+    },
+    "W1530069702": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783636872031
+    },
+    "W1983191203": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783636896839
+    },
+    "W2163084143": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783636905483
+    },
+    "W4400936083": {
+      "v": "demote",
+      "bucket": "outcome-not-fertility",
+      "note": "",
+      "ts": 1783636916055
+    },
+    "W2181863141": {
+      "v": "demote",
+      "bucket": "different-cause",
+      "note": "",
+      "ts": 1783636937831
+    },
+    "W1512323099": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783636954964
+    },
+    "W2332460960": {
+      "v": "demote",
+      "bucket": "outcome-not-fertility",
+      "note": "",
+      "ts": 1783636962133
+    },
+    "W2739032792": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783636971386
+    },
+    "W3007724749": {
+      "v": "demote",
+      "bucket": "different-cause",
+      "note": "",
+      "ts": 1783636986042
+    },
+    "W2735326742": {
+      "v": "demote",
+      "bucket": "different-cause",
+      "note": "",
+      "ts": 1783636992547
+    },
+    "W4399643577": {
+      "v": "demote",
+      "bucket": "different-cause",
+      "note": "",
+      "ts": 1783637013715
+    },
+    "W1598068461": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637029809
+    },
+    "W1965959030": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637042077
+    },
+    "W2211962715": {
+      "v": "demote",
+      "bucket": "different-cause",
+      "note": "",
+      "ts": 1783637111479
+    },
+    "W4399827198": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637128017
+    },
+    "W2211089790": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637135105
+    },
+    "W2170777707": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637162776
+    },
+    "W1982325724": {
+      "v": "demote",
+      "bucket": "different-cause",
+      "note": "",
+      "ts": 1783637185284
+    },
+    "W3013628590": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637194470
+    },
+    "W4383684838": {
+      "v": "demote",
+      "bucket": "different-cause",
+      "note": "",
+      "ts": 1783637202938
+    },
+    "W2035788155": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637214714
+    },
+    "W2356937407": {
+      "v": "demote",
+      "bucket": "different-cause",
+      "note": "",
+      "ts": 1783637237018
+    },
+    "W4389499634": {
+      "v": "demote",
+      "bucket": "different-cause",
+      "note": "",
+      "ts": 1783637264792
+    },
+    "W2084107624": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637284470
+    },
+    "W1555888750": {
+      "v": "demote",
+      "bucket": "different-cause",
+      "note": "",
+      "ts": 1783637291586
+    },
+    "W3035169938": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637304038
+    },
+    "W4361800754": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637328027
+    },
+    "W3153555531": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637336722
+    },
+    "W4389499749": {
+      "v": "demote",
+      "bucket": "outcome-not-fertility",
+      "note": "",
+      "ts": 1783637353282
+    },
+    "W7128403021": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637369647
+    },
+    "W4388062597": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637381825
+    },
+    "W4299843965": {
+      "v": "confirm",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637388804
+    },
+    "W2100923443": {
+      "v": "demote",
+      "bucket": "different-cause",
+      "note": "",
+      "ts": 1783637393928
+    },
+    "W2057674663": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637416967
+    },
+    "W24128513": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637419763
+    },
+    "W7163402961": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637429672
+    },
+    "W2883841160": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637437583
+    },
+    "W7143773991": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637439816
+    },
+    "W4395011166": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637443226
+    },
+    "W1994312041": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637445800
+    },
+    "W810747496": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637447844
+    },
+    "W4281384809": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637452450
+    },
+    "W4415173740": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637454498
+    },
+    "W4303646148": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637456885
+    },
+    "W912762066": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637459172
+    },
+    "W4360985011": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637460148
+    },
+    "W3122416337": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637460494
+    },
+    "W4411729011": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637460960
+    },
+    "W4413478120": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637461312
+    },
+    "W4406852400": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637461861
+    },
+    "W4410884758": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637462032
+    },
+    "W2886299870": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637462966
+    },
+    "W2972334576": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637463132
+    },
+    "W2031268801": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637463293
+    },
+    "W2496130293": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637463459
+    },
+    "W3154804496": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637463638
+    },
+    "W4388062346": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637463813
+    },
+    "W4405964394": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637463971
+    },
+    "W4405968493": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637464105
+    },
+    "W1992847819": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637464295
+    },
+    "W2210637591": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637464489
+    },
+    "W3125444103": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637464677
+    },
+    "W2749373474": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637464876
+    },
+    "W2579746782": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637465040
+    },
+    "W1560000721": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637465383
+    },
+    "W2560411256": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637465677
+    },
+    "W216871533": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637465853
+    },
+    "W4408074300": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637466023
+    },
+    "W4324363461": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637466176
+    },
+    "W2037030453": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637466340
+    },
+    "W3123377463": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637466490
+    },
+    "W2341021758": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637503243
+    },
+    "W1602829365": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637505364
+    },
+    "W2155077804": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637515232
+    },
+    "W3208810542": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637517342
+    },
+    "W1881805643": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637518748
+    },
+    "W1643465958": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637521627
+    },
+    "W4299143631": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637524901
+    },
+    "W2495747527": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637525835
+    },
+    "W4302309890": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637526473
+    },
+    "W4408898135": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637529021
+    },
+    "W1531108406": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637536289
+    },
+    "W2752229416": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637541872
+    },
+    "W2358195170": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637545167
+    },
+    "W2063094059": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637546945
+    },
+    "W2895977434": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637549861
+    },
+    "W3123778891": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637551814
+    },
+    "W2504575467": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637552253
+    },
+    "W2386572963": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637552577
+    },
+    "W2036937846": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637552864
+    },
+    "W3126136216": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637553232
+    },
+    "W4361795481": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637554304
+    },
+    "W2776631321": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637554755
+    },
+    "W1968782652": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637555395
+    },
+    "W4392919455": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637555797
+    },
+    "W4414155628": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637556169
+    },
+    "W3108618597": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637556497
+    },
+    "W2915280617": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637556835
+    },
+    "W4302088185": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637557134
+    },
+    "W7163649056": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637557765
+    },
+    "W7135820972": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637558128
+    },
+    "W2079333811": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637558463
+    },
+    "W2350154603": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637558798
+    },
+    "W4407531642": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637559120
+    },
+    "W2218933715": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637559485
+    },
+    "W2759240757": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637559778
+    },
+    "W2500072955": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637560056
+    },
+    "W1159447135": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637560356
+    },
+    "W1482203027": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637560652
+    },
+    "W1498426071": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637560901
+    },
+    "W161360622": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637561157
+    },
+    "W2186289715": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637561453
+    },
+    "W2134613747": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637576068
+    },
+    "W2336459513": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637562012
+    },
+    "W4235268563": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637578977
+    },
+    "W2337986896": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637580040
+    },
+    "W4307690347": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637585479
+    },
+    "W4388707253": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637587179
+    },
+    "W4229376737": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637587745
+    },
+    "W3090401051": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637588127
+    },
+    "W3045743627": {
+      "v": "not",
+      "bucket": "",
+      "note": "",
+      "ts": 1783637588477
+    }
+  },
+  "rows": [
+    {
+      "group": "pooling",
+      "id": "W2022403542",
+      "title": "An Old-Age Security Incentive for Children in the Philippines and Taiwan",
+      "is_gold": true,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W4230955513",
+      "title": "Are Old-Age Security and the Utility of Children in Rural India Really Unimportant?",
+      "is_gold": true,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W2046361189",
+      "title": "Competitive Human Markets, Interfamily Transfers, and Below-Replacement Fertility",
+      "is_gold": true,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W2338799371",
+      "title": "Institutions and the search for security in old age: Fertility behavior, labor force participation, savings, insurance, and bequests in rural Thailand",
+      "is_gold": true,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W2088799776",
+      "title": "Old Age Pensions and Fertility in Rural Areas of Less Developed Countries: Some Evidence from Mexico",
+      "is_gold": true,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W2036636895",
+      "title": "Old-age security motives, labor markets, and farm family fertility in antebellum American",
+      "is_gold": true,
+      "gate_cell": "PRIMARY",
+      "verdict": "demote",
+      "ra_label": "off-cell",
+      "off_cell_bucket": "different-cause",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W2088985964",
+      "title": "Pensions and fertility: in search of a link",
+      "is_gold": true,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W3166527634",
+      "title": "Pensions and Fertility: Micro-Economic Evidence",
+      "is_gold": true,
+      "gate_cell": "PRIMARY",
+      "verdict": "demote",
+      "ra_label": "off-cell",
+      "off_cell_bucket": "other",
+      "note": "not a paper -- just an appendix"
+    },
+    {
+      "group": "pooling",
+      "id": "W2045582700",
+      "title": "Risk and Insurance: Perspectives on Fertility and Agrarian Change in India and Bangladesh",
+      "is_gold": true,
+      "gate_cell": "PRIMARY",
+      "verdict": "demote",
+      "ra_label": "off-cell",
+      "off_cell_bucket": "different-cause",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W643491437",
+      "title": "Social Security, Saving and Fertility",
+      "is_gold": true,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W4409334223",
+      "title": "The impact of long-term care insurance on family fertility behaviour: evidence from China",
+      "is_gold": true,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W2107888072",
+      "title": "The Impact of Social Security on Saving and Fertility in Germany",
+      "is_gold": true,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W4307711611",
+      "title": "The Old-Age Security Motive for Fertility: Evidence from the Extension of Social Pensions in Namibia",
+      "is_gold": true,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W1590954098",
+      "title": "The Role of Social Security in Household Decisions: VAR Estimates of Saving and Fertility Behaviour in Germany",
+      "is_gold": true,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W1512976090",
+      "title": "What Explains Fertility? Evidence from Italian Pension Reforms",
+      "is_gold": true,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W2006194183",
+      "title": "A reappraisal of the social security-fertility hypothesis: A bidirectional approach",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W2382108032",
+      "title": "An Empirical Study of the Fertility Rate Adjustment Feasibility by the Social Security Level",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W1846122930",
+      "title": "An Empirical Test of the Effect of Social Security on Fertility in the United States",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W2606207160",
+      "title": "Bismarck in the bedroom? Pension reform and fertility: Evidence 1870-2010",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W2995464673",
+      "title": "Bismarck to no effect: Fertility decline and the introduction of social insurance in Prussia",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W7135853640",
+      "title": "Children and old age security",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W1625570086",
+      "title": "Children, support in old age and social insurance in rural China",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "demote",
+      "ra_label": "off-cell",
+      "off_cell_bucket": "fertility-is-cause",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W7161025843",
+      "title": "Data and Code for: The Old-Age Security Motive for Fertility: Evidence from the Extension of Social Pensions in Namibia",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "demote",
+      "ra_label": "off-cell",
+      "off_cell_bucket": "other",
+      "note": "not a paper -- just data & code"
+    },
+    {
+      "group": "pooling",
+      "id": "W1597299047",
+      "title": "Did Rising Out-Migration Cause Fertility to Decline in Antebellum New England? A Life-Cycle Perspective on Old-Age Security Motives, Child Default, and Farm-Family Fertility",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W4403023195",
+      "title": "Does parents’ retirement influence the fertility intentions of subsequent generations among internal migrant populations? Evidence from China",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "demote",
+      "ra_label": "off-cell",
+      "off_cell_bucket": "different-cause",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W7161597634",
+      "title": "Does Social Security Coverage Shape Fertility Intentions? Evidence from the China General Social Survey",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W3123572076",
+      "title": "Fertility decisions and pension reforms. Evidence from natural experiments in Italy",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W4391684015",
+      "title": "Fertility decisions and the norm of intergenerational support to aging parents",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "demote",
+      "ra_label": "off-cell",
+      "off_cell_bucket": "not-oas",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W1530069702",
+      "title": "Fertility Effects of the Pension System and Other Intergenerational Transfers: Test on Hungarian Data",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W1983191203",
+      "title": "Fertility impact of high-coverage public pensions in sub-Saharan Africa",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W2163084143",
+      "title": "Fertility Impact of Social Transfers in Sub-Saharan Africa – What About Pensions?",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W4400936083",
+      "title": "FERTILITY REDUCTION AS A METHOD OF POPULATION ADAPTATION TO PENSION SYSTEM DYNAMIC CHANGE",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "demote",
+      "ra_label": "off-cell",
+      "off_cell_bucket": "outcome-not-fertility",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W2181863141",
+      "title": "Fertility, contraceptive use and intra-familial transfers in rural Malawi",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "demote",
+      "ra_label": "off-cell",
+      "off_cell_bucket": "different-cause",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W1512323099",
+      "title": "Has social security influenced family formation and fertility in OECD countries? An economic and econometric analysis",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W2332460960",
+      "title": "High Fertility as Risk-Insurance",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "demote",
+      "ra_label": "off-cell",
+      "off_cell_bucket": "outcome-not-fertility",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W2739032792",
+      "title": "Impact of social security on fertility – a panel data analysis",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W3007724749",
+      "title": "INCOME, SOCIAL SECURITY AND CHINESE FAMILIES’ “TWO-CHILD” DECISIONS: EVIDENCE FROM URBAN RESIDENTS’ FERTILITY INTENTIONS",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "demote",
+      "ra_label": "off-cell",
+      "off_cell_bucket": "different-cause",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W2735326742",
+      "title": "Influence of women’s workforce participation and pensions on total fertility rate: a theoretical and econometric study",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "demote",
+      "ra_label": "off-cell",
+      "off_cell_bucket": "different-cause",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W4399643577",
+      "title": "Level of Urbanization, Social Security Satisfaction and Fertility Intentions",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "demote",
+      "ra_label": "off-cell",
+      "off_cell_bucket": "different-cause",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W1598068461",
+      "title": "Old Age Pensions Public Expenditures and Fertility in European Countries",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W1965959030",
+      "title": "Old age security and the utility of children in Rural India",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W2211962715",
+      "title": "Old Age Security Value of Children and Development: Cross-National Evidence",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "demote",
+      "ra_label": "off-cell",
+      "off_cell_bucket": "different-cause",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W4399827198",
+      "title": "Old Age Security: Impacts of Social Security Systems on Households’ Fertility Decisions",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W2211089790",
+      "title": "Old age, risk, security and children: an empirical evidence from rural India.",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W2170777707",
+      "title": "Old-Age Security Value of Children",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W1982325724",
+      "title": "Old-age security, religious celibacy, and aggregate fertility in a Tibetan population",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "demote",
+      "ra_label": "off-cell",
+      "off_cell_bucket": "different-cause",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W3013628590",
+      "title": "Pensions and Fertility: Microeconomic Evidence",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W4383684838",
+      "title": "Rearing cost, endowment insurance and fertility desire",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "demote",
+      "ra_label": "off-cell",
+      "off_cell_bucket": "different-cause",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W2035788155",
+      "title": "Social security and fertility: An international perspective",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W2356937407",
+      "title": "Social Security Expectation,Birth Rate and Population Quality",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "demote",
+      "ra_label": "off-cell",
+      "off_cell_bucket": "different-cause",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W4389499634",
+      "title": "The Economic Old Age Security Value of Children in the Philippines and Taiwan in the Middle 1970'S.",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "demote",
+      "ra_label": "off-cell",
+      "off_cell_bucket": "different-cause",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W2084107624",
+      "title": "The effects of child-related benefits and pensions on fertility by birth order: A test on Hungarian data",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W1555888750",
+      "title": "The effects of education, health, and social security on fertility in developing countries",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "demote",
+      "ra_label": "off-cell",
+      "off_cell_bucket": "different-cause",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W3035169938",
+      "title": "The fertility effects of public pension: Evidence from the new rural pension scheme in China",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W4361800754",
+      "title": "The Impact of Social Security on Fertility Willingness in OECD Countries",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W3153555531",
+      "title": "The Introduction of Bismarck's Social Security System and its Effects on Marriage and Fertility in Prussia",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W4389499749",
+      "title": "The Security Dem and for Children in Peninsular Malaysia.",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "demote",
+      "ra_label": "off-cell",
+      "off_cell_bucket": "outcome-not-fertility",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W7128403021",
+      "title": "Unveiling the ripple effect: how long-term care insurance alters family fertility decisions in China",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W4388062597",
+      "title": "Using Qualitative Data for Understanding Old-Age Security and Fertility",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W4299843965",
+      "title": "What explains fertilit? Evidence from Italian Pension reforms",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "confirm",
+      "ra_label": "in-cell",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "pooling",
+      "id": "W2100923443",
+      "title": "Women's status and fertility in developing countries: Son preference and economic security",
+      "is_gold": false,
+      "gate_cell": "PRIMARY",
+      "verdict": "demote",
+      "ra_label": "off-cell",
+      "off_cell_bucket": "different-cause",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W2057674663",
+      "title": "<i>Report of the Illinois Public Aid Commission Covering the Period 1943-1944</i>.<i>Increased Costs for Old Age Pensions in Illinois: Should Financially Able Children be Relieved of Responsibility for Aiding Their Needy Parents</i>.",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W24128513",
+      "title": "A feasibility study on the only-child dual insurance and parental old-age pension systems.",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W7163402961",
+      "title": "A study on the intergenerational transmission of fertility levels in Northeast China",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W2883841160",
+      "title": "Analysis of the Causes of Low Fertility Rate and Study of Family Social Security System Against the Background of qUniversal Two-Childq Policy",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W7143773991",
+      "title": "Analyzing the Effect of Number of Children on Japan’s Household Savings Rate Using the Japan Household Panel Survey",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W4395011166",
+      "title": "Boomerang children and parental retirement outcomes",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W1994312041",
+      "title": "Child Health and Household Resources in South Africa: Evidence from the Old Age Pension Program",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W810747496",
+      "title": "Child Welfare in Rural Ethiopia: The role of Transfers, Old Age Support and Child Ability",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W4281384809",
+      "title": "Child-to-Parent Intergenerational Transfers, Social Security, and Child Wealth Building",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W4415173740",
+      "title": "Children and Household Savings in the Philippines",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W4303646148",
+      "title": "Children and Retirement Income Adequacy",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W912762066",
+      "title": "Competing Demands: Financially Dependent Children and Parental Retirement",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W4360985011",
+      "title": "Cross-national differences in the association between intergenerational support and fertility in East Asia",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W3122416337",
+      "title": "Do Adult Children Matter? The Effects of National Health Insurance on Retirement Behavior: Evidance from Taiwan",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W4411729011",
+      "title": "Do Public Transfers Crowd Out Private Transfers from Adult Children to Their Empty-Nest Older Parents in Rural China? The Role of Grandchild Care",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W4413478120",
+      "title": "Does intergenerational financial support increase fertility willingness: evidence from the Chinese General Social survey",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W4406852400",
+      "title": "Does Old Age Social Security Help Children? The Impact of Social Security on Grandchild Resources",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W4410884758",
+      "title": "Does Old-Age Social Security Help Children? The Impact of Social Security on Grandchild Resources",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W2886299870",
+      "title": "Does the New Rural Pension Scheme crowd out private transfers from children to parents? Empirical evidence from China",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W2972334576",
+      "title": "Earning Risks, Parental Schooling Investment, and Old-Age Income Support From Children",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W2031268801",
+      "title": "Education policy in a non-altruistic model of intergenerational transfers with endogenous fertility",
+      "is_gold": false,
+      "gate_cell": "THEORY",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W2496130293",
+      "title": "Elderly Parents, Adult Children and the Romanian Transnational Family: An Intergenerational Solidarity Approach",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W3154804496",
+      "title": "Estimation on Chinese families who lost their only child and the fiscal sustainability of the social assistance system",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W4388062346",
+      "title": "Fertility, Mortality, and Intergenerational Transfers: Comparisons across Steady States",
+      "is_gold": false,
+      "gate_cell": "THEORY",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W4405964394",
+      "title": "FINANCIAL TRANSFERS BETWEEN OLDER FILIPINOS AND THEIR ADULT CHILDREN: THE ROLE OF EDUCATION AND PUBLIC PENSIONS",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W4405968493",
+      "title": "FINANCIAL TRANSFERS BETWEEN OLDER FILIPINOS AND THEIR ADULT CHILDREN: THE ROLE OF EDUCATION AND PUBLIC PENSIONS",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W1992847819",
+      "title": "Financial Transfers from Living Parents to Adult Children: Who Is Helped and Why?",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W2210637591",
+      "title": "Government Debt in an Intergenerational Model of Economic Growth Endogenous Fertility and Elastic Labor with an Application to Japan",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W3125444103",
+      "title": "Grandparental availability for child care and maternal labor force participation: Pension reform evidence from Italy",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W2749373474",
+      "title": "How working mothers combine paid work with looking after children and the implications for their pensions",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W2579746782",
+      "title": "Intergenerational child care a fertility intentions : The Swedish welfare context",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W1560000721",
+      "title": "Intergenerational Child Care Support and the Fluctuating Fertility: A Note",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W2560411256",
+      "title": "Intergenerational Comparison of Value of Children among Urban Women Population in Mashhad, Iran, 2014",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W216871533",
+      "title": "Intergenerational inter vivos transfers: What is the pattern and level of financial support parents provide their adult children?",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W4408074300",
+      "title": "Intergenerational Relationship Types and Attitude Toward Retirement: Do Gender and Number of Children Matter?",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W4324363461",
+      "title": "Intergenerational Support and Second-Child Fertility Intention in the Chinese Sandwich Generation: The Parallel Mediation Model of Double Burnout",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W2037030453",
+      "title": "Intergenerational transfers and fertility: Trade-off between human capital and child labour",
+      "is_gold": false,
+      "gate_cell": "THEORY",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W3123377463",
+      "title": "Intergenerational Transfers and the Fertility-Income Relationship",
+      "is_gold": false,
+      "gate_cell": "THEORY",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W2341021758",
+      "title": "Intergenerational transfers and the fertility-income relationship: intergenerational transfers and fertility",
+      "is_gold": false,
+      "gate_cell": "THEORY",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W1602829365",
+      "title": "Intergenerational Transfers Motivated by Altruism from Children towards Parents : Dynamic Macro-economic Theory (Mathematical Economics)",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W2155077804",
+      "title": "Introduction to Special Section for Journal of Cross-Cultural Psychology: Value of Children: A Concept for Better Understanding Cross-Cultural Variations in Fertility Behavior and Intergenerational Relationships",
+      "is_gold": false,
+      "gate_cell": "THEORY",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W3208810542",
+      "title": "JSIT19-05: The Impact of Social Security Eligibility on Transfers to Elderly Parents and Wealth-Building among Adult Children",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W1881805643",
+      "title": "Labor Supply And Retirement Policy In An Overlapping Generations Model With Stochastic Fertility",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W1643465958",
+      "title": "Life-Cycle and Intergenerational Effects of Child Care Reforms",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W4299143631",
+      "title": "Modernising social security for lone parents: avoiding fertility and unemployment traps when reforming social policy in Northern Europe",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W2495747527",
+      "title": "Modernising social security for lone parents: avoiding fertility and unemployment traps when reforming social policy in Northern Europe",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W4302309890",
+      "title": "Modernising social security for lone parents: avoiding fertility and unemployment traps when reforming social policy in Northern Europe",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W4408898135",
+      "title": "More children, more blessings? The effect of children on depression symptom in old age",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W1531108406",
+      "title": "Old Age Security and the Roles of Children, Education, Savings and Pensions: Some Findings from Rural Cost-Rica",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W2752229416",
+      "title": "Old age support and intergenerational relations in urban China: Maintenance of obligations between older parents and children.",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W2358195170",
+      "title": "On Social Pension Insurance System for Lost Only Child Family",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W2063094059",
+      "title": "Parental Repayment Hypothesis in Intergenerational Financial Transfers from Adult Children to Elderly Parents: Evidence from Hong Kong",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W2895977434",
+      "title": "Parental Transfers, Intra-household Bargaining and Fertility Decision",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W3123778891",
+      "title": "Pension Coverage for Parents and Educational Investment in Children: Evidence from Urban China",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W2504575467",
+      "title": "Pensions and Children",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W2386572963",
+      "title": "Probing into the Development of the Social Insurance System of Modern Fertility",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W2036937846",
+      "title": "Public Debt, Child Allowances and Pension Benefits with Endogenous Fertility",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W3126136216",
+      "title": "Public debt, child allowances, and pension benefits with endogenous fertility",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W4361795481",
+      "title": "Public Pensions and Income Transfer Between the Elderly and Their Children",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W2776631321",
+      "title": "Raising Children to Work Hard: Altruism, Work Norms, and Social Insurance*",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W1968782652",
+      "title": "Reassessing the Insurance Effect: A Qualitative Analysis of Fertility Behavior in Senegal and Zimbabwe",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W4392919455",
+      "title": "Research on old-age security of parents of one-child families in China in the new era",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W4414155628",
+      "title": "Research on the Aging Pressure and Declining Birth Rate in the Pension System",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W3108618597",
+      "title": "Security in old age for older single women without children",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W2915280617",
+      "title": "Social Pensions and Child Health in Rural China",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W4302088185",
+      "title": "Social security support for children",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W7163649056",
+      "title": "Supplementary file 1_A study on the intergenerational transmission of fertility levels in Northeast China.docx",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W7135820972",
+      "title": "Taking into Account Number of Children in Pension System",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W2079333811",
+      "title": "Taxation and Intergenerational Transfers with Family-Size Heterogeneity: Do Parents with More Children Prefer Higher Taxes?",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W2350154603",
+      "title": "The Analysis of Chinese Financing Balance of Social Security Pressed By Below-replacement Fertility and Population Aging",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W4407531642",
+      "title": "The associations of cash transfers with parental investment and couples’ fertility among low-income Serbian Roma",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W2218933715",
+      "title": "The Elasticity of Intergenerational Substitution, Parental Altruism, and Fertility Choice",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W2759240757",
+      "title": "The Impact of Raising Children on Retirement Security",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W2500072955",
+      "title": "The Impact of Social Health Insurance on Household Fertility Decisions",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W1159447135",
+      "title": "The impact of the South African old age pension on the educational attainment of children",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W1482203027",
+      "title": "The Intergenerational Transmission of the Value of Children in Contemporary Chinese Families: Taiwan and Mainland China Compared",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W1498426071",
+      "title": "The One-Child Policy and Household Savings",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W161360622",
+      "title": "The One-Child Policy and Household Savings in China",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W2186289715",
+      "title": "The One-Child Policy and Household Savings in China* PRELIMINARY",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W2134613747",
+      "title": "The Value of Children and Immigrants in a Pay-As-You-Go Pension System: A Proposal for a Partial Transition to a Funded System",
+      "is_gold": true,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W2336459513",
+      "title": "The Zambian Government Unconditional Social Cash Transfer Programme Does not Increase Fertility",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W4235268563",
+      "title": "Unconditional Government Social Cash Transfers in Africa do not Increase Fertility",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W2337986896",
+      "title": "Unconditional Government Social Cash Transfers in Africa Do Not Increase Fertility : Issue Brief",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W4307690347",
+      "title": "Upbringing of Child by a Parent for the Purpose of Determination of Retirement Age and Increase of Old-Age Pension",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W4388707253",
+      "title": "Who Does “Endowment Insurance” Support: The Elderly or Their Grown-up Children?",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W4229376737",
+      "title": "Will Downward Intergenerational Housing Support Increase Parents’ Expectations for Old-Age Care from Adult Children? Evidence from China",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W3090401051",
+      "title": "Will Ending the One-Child Policy and Raising the Retirement Age Enhance the Sustainability of China’s Basic Pension System?",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    },
+    {
+      "group": "uncertain",
+      "id": "W3045743627",
+      "title": "“Children are our pension”: Livelihood diversification, social security, and kinship constraints among East African refugees",
+      "is_gold": false,
+      "gate_cell": "OFF",
+      "verdict": "not",
+      "ra_label": "not relevant",
+      "off_cell_bucket": "",
+      "note": ""
+    }
+  ]
+}
