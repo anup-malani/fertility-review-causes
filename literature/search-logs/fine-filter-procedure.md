@@ -67,53 +67,64 @@ qualitatively ("pensions significantly reduced fertility"), or in a form we cann
 metric. Those papers inform the **narrative synthesis** but not the **forest plot**. This is the
 sharp new line the fine filter draws.
 
-### 4.1 The target parameter **[CONFIRM]**
+### 4.1 Two nested sets — CONFIRMED 2026-07-09 (Shravan)
 
-To pool, every study must reduce to one commensurable quantity. Proposed:
+Not one metric but **two sets**, split by what each study can support, and mapped to the two verdicts
+the review owes every hypothesis:
 
-- **Primary estimand:** the **semi-elasticity of fertility with respect to old-age-security /
-  pension wealth** — the % (or level) change in a fertility outcome per unit increase in pension
-  wealth (or per unit of the reform's wealth-equivalent). This is the economically meaningful
-  *crowd-out* object and the structural parameter the chapter is about.
-- **Problem:** many identifying studies exploit reforms and report the effect of *eligibility* or
-  *exposure*, not of a wealth amount — so the primary semi-elasticity is not directly recoverable
-  for them.
-- **Proposed fix — two nested extractable sets (mirrors the topical/estimand nesting already in
-  GACS §E1):**
-  1. **Extractable-primary:** studies reporting (or allowing reconstruction of) the wealth-denominated
-     semi-elasticity. Pool these directly → the headline number.
-  2. **Extractable-standardized:** the broader set, harmonized to a **standardized effect size**
-     (partial correlation coefficient *r*, or a standardized regression coefficient) computable from
-     any regression reporting a coefficient + uncertainty + N. Pool these as the main quantitative
-     synthesis; the primary subset is a sensitivity/anchor check. Every conversion carries documented
-     assumptions.
+- **Causal set (inner) → causal-credibility (GRADE).** Studies that credibly identify OAS → fertility.
+  Parameter of interest = the **identified effect on fertility itself** (a level change in TFR /
+  completed fertility / births), *not* a semi-elasticity. Because the ~10 reform studies and the
+  wealth studies express treatment on different scales, the causal set is pooled in **sub-groups by
+  treatment type** (reform, pension-wealth, eligibility, …), reported side by side — no forced
+  conversion to a single grand mean.
+- **R² set (outer) → demographic-significance.** All extractable studies, reporting the **partial R² /
+  partial correlation** — the share of fertility variance the OAS measure explains once controls are
+  in. Recoverable from almost any regression's t-stat + df, so the 28 observational studies are usable.
 
-  **[CONFIRM with Shravan]:** (a) is the semi-elasticity the right primary object, or do you want the
-  *elasticity* (%/%) or a per-SD effect? (b) is *r* the right common metric for the broad pool, or a
-  standardized mean difference / % effect on the TFR? This choice defines the whole meta-analysis.
+**Nesting:** causal ⊆ R². Every causal study yields an association too, so it appears in **both** — its
+identified effect in the inner forest plot, its explained-variance in the outer table. Association-only
+studies (no clean identification) sit in the outer set alone.
 
-### 4.2 What "extractable" requires
+**Two asymmetries, kept honest:**
+- The **causal set gets a real pooled estimate** (random-effects, by treatment-type subgroup). The
+  **R² set does NOT pool** the same way — it is synthesized **descriptively** (a tabulated distribution
+  of explanatory power across studies), not averaged into one number.
+- **Partial R² is the *extracted* quantity** for the outer set. **Share of the actual fertility decline
+  attributable to OAS** — the most demographically meaningful number — is *derived downstream*
+  (effect-size × change-in-OAS-exposure), **not** an extraction target, because studies rarely report it.
 
-A study passes extractability if, for the target relationship, we can obtain **all** of:
+### 4.2 What "extractable" requires — two records per study
+
+The extraction pulls **up to two records** from each study: a **causal-effect record** (only if the
+study credibly identifies the effect) and an **R² record** (if any regression on fertility is reported).
+
+**Causal-effect record** passes if, for the target relationship, we can obtain **all** of:
 
 | Field | Requirement |
 |---|---|
-| point estimate | signed magnitude of the effect |
+| point estimate | signed level effect on the fertility outcome |
 | uncertainty | SE, CI, or t / (p + df) — enough to weight the study |
-| treatment definition + units | what varied, in what units (wealth, eligibility, reform dummy) |
+| treatment definition + **type** | what varied, in what units, tagged: reform / pension-wealth / eligibility / coverage / other (sets the subgroup) |
 | outcome definition + units | TFR, births, parity, completed fertility, etc. |
 | sample | N, population, setting, period |
-| mapping | direct value of, or a documented conversion to, the chosen effect size (§4.1) |
+| identification | the design that makes it causal (DiD, RD, IV, natural experiment) |
+| **reported_magnitude** | the authors' own demographic-magnitude statement if any ("0.65 fewer children", "~10% of the decline") — feeds the derived attributable share (§4.4) |
 
-Miss any of these irrecoverably → **not extractable** → routed to narrative synthesis, recorded, not
-pooled. Passing the estimand gate but failing here is expected and fine; it is a real, reported outcome.
+**R² record** passes if the study reports a regression of a fertility outcome on the OAS measure with
+enough to recover a **partial R² / partial correlation** (coefficient + t or SE + df, or a reported
+R²/ΔR²). This is a lower bar, so most of the 28 observational studies clear it.
+
+Miss the causal record but clear the R² record → the study is **R²-set only**. Miss both irrecoverably
+→ routed to **narrative synthesis**, recorded, not pooled. Passing the estimand gate but failing
+extraction is expected and fine; it is a real, reported outcome.
 
 ### 4.3 Operationalization (calibrated, like the estimand gate)
 
-1. **Extraction pass (Sonnet over full text + results tables).** Emits the §4.2 structured record +
-   `can_extract` (bool) + `confidence` + the raw quoted table/sentence the number came from
-   (auditability). Full text is required — **abstracts are insufficient for extraction**; this raises
-   the PDF-coverage bar (see §5).
+1. **Extraction pass (Sonnet over full text + results tables).** Emits, per study, up to two structured
+   records (§4.2) each with `can_extract` (bool) + `confidence` + the **raw quoted table/sentence** the
+   number came from (auditability), plus the causal record's `treatment_type` subgroup tag. Full text is
+   required — **abstracts are insufficient for extraction**; this raises the PDF-coverage bar (see §5).
 2. **Calibrate against an RA-extracted gold subset.** Hand-extract ~15–20 of the confirmed pool, then
    score the LLM on (i) the `can_extract` decision (precision/recall/κ, as with the estimand gate's
    κ≈0.86) and (ii) numeric agreement on the extracted estimate and SE. Report the calibration before
@@ -121,6 +132,44 @@ pooled. Passing the estimand gate but failing here is expected and fine; it is a
 3. **RA verifies every pooled number.** Extraction errors corrupt the estimate directly, so the RA
    confirms the point estimate + uncertainty for each study that enters the pool (the auditable quote
    makes this fast). This is the human gate for stage 2, analogous to the estimand RA gate.
+
+**Two hygiene guards learned on the pilot (2026-07-09):**
+- *Existence check must hit doi.org, not Crossref.* DataCite DOIs (SSRN 10.2139, EconStor 10.4419,
+  university theses 10.25549/10.7907) 404 on the Crossref API but resolve fine — a Crossref-only check
+  false-flags live papers as absent (the recurring "couldn't confirm ≠ confirmed negative" trap). Check
+  the DOI resolver.
+- *PDF-text quality must be screened before extraction.* Some PDFs embed custom-encoded fonts with no
+  ToUnicode map; pymupdf then returns constant-offset gibberish. Screen by common-English-word ratio
+  (clean ≈ 0.30, corrupt < 0.10) and route corrupt files to re-acquisition/OCR — never feed gibberish
+  to the extractor (step 56a `looks_corrupt`).
+
+### 4.4 Demographic significance — the derived attributable share (CONFIRMED 2026-07-09)
+
+Partial R² is **not** the demographic-significance measure: at micro-panel N (10⁶) it collapses to ~0
+even for a precisely-estimated effect, so it tracks statistical precision, not explanatory magnitude.
+Significance is instead a **derived** quantity:
+
+> **attributable decline = (per-unit causal effect) × (actual change in OAS exposure)**,
+> **share = attributable decline ÷ total observed fertility decline**, over the setting/period.
+
+- Ingredient 1 (per-unit effect) comes from the **causal set**. Ingredients 2–3 (OAS-exposure change,
+  total fertility decline) are **external macro facts** (ILO World Social Protection coverage/spending;
+  HFD/WPP TFR series; pension-introduction dates for the historical FDT cases) — not in the study.
+- **Anchor with `reported_magnitude`:** many papers already state their own counterfactual (Namibia
+  "0.65 fewer children" / "3 children over 25 yrs"; Brazil "~1.3 fewer / ~10% decline"; China "0.119
+  fewer"). Extract it; use it to sanity-check our reconstruction.
+- **Two altitudes.** The **per-setting share** (how much of *that* setting's decline OAS explains) is
+  the solid primitive — effect valid in its own setting, data exist. The **per-transition verdict**
+  (FDT / SDT / pre-modern — what the review owes) is a **bounded synthesis** on top: reason from the
+  setting-level shares + how far/fast OAS actually expanded in that transition; report a range ("X–Y%
+  where OAS expanded substantially; negligible where it didn't"), **never** a mechanical average of one
+  country's coefficient extrapolated worldwide.
+- **The R² set is demoted** from "the significance verdict" to an **associational corroboration layer** —
+  its real job is housing the ~28 observational-only studies that can't enter the causal set, showing
+  whether a fertility~OAS association appears and its sign. The significance number comes from the
+  derived shares, not partial R².
+- **External input flagged:** the OAS-exposure-over-time dataset is real assembly work; **deferred**
+  until all 40 effects are extracted, so we build coverage series only for the settings we actually have.
 
 ---
 
@@ -137,19 +186,20 @@ flagged, not silently dropped (silent drops bias the pool toward easy-to-obtain 
 ## 6. Sequence & outputs
 
 ```
-in-cell set (RA-signed, step 52)
-  → 53  study-level dedup            (reuse 26c)
-  → 54  existence re-affirm          (reuse 44/48 three-state verifier)
-  → 55  PDF coverage reconcile       (reuse 27/28/30; flag extraction-blocked)
-  → 56  extraction pass (Sonnet)     + can_extract + auditable quote
-  → 57  calibrate vs RA gold subset  (κ + numeric agreement)
-  → 58  RA verify pooled numbers     (human gate)
-  → 59  assemble pooling-ready set   + per-study harmonized effect size
+in-cell set (RA-signed, step 52; the 40-study confirmed pool)
+  → 53  resolve W-IDs → DOIs + study-level dedup   (reuse 26/26c corrected-maps; FREE, no OpenAlex)
+  → 54  existence re-affirm                         (reuse 44/48 three-state verifier)
+  → 55  PDF coverage reconcile                      (reuse 27/28/30; flag extraction-blocked)
+  → 56  extraction pass (Sonnet)                    two records/study + can_extract + auditable quote
+  → 57  calibrate vs RA gold subset                 (κ on can_extract + numeric agreement)
+  → 58  RA verify pooled numbers                    (human gate)
+  → 59  assemble the two sets                       causal (by treatment subgroup) + R² (descriptive)
 ```
 
-**Outputs:** `{slug}-pooling-ready-set.json/.md` (studies + harmonized effect sizes + provenance
-quote per number), `{slug}-extraction-calibration.md` (LLM-vs-RA), `{slug}-narrative-only.md` (in-cell
-but not extractable — reported, not pooled), `{slug}-extraction-blocked.md` (no full text).
+**Outputs:** `{slug}-causal-set.json/.md` (identified effects on fertility, tagged by treatment type,
++ provenance quote per number), `{slug}-r2-set.json/.md` (partial-R² table, descriptive), `{slug}-
+extraction-calibration.md` (LLM-vs-RA), `{slug}-narrative-only.md` (in-cell, neither record extractable),
+`{slug}-extraction-blocked.md` (no full text).
 
 ---
 
@@ -160,16 +210,18 @@ but not extractable — reported, not pooled), `{slug}-extraction-blocked.md` (n
   coarse output unchanged.
 - Extractability is deliberately *downstream* of the estimand gate: we only try to extract numbers from
   papers already confirmed in-cell, so we never spend extraction effort on off-cell papers.
-- The two-nested-set design (§4.1) keeps a defensible economically-meaningful primary estimate without
-  throwing away studies that can only support the standardized pool — the same "sharp definition beats
-  more papers" logic that drove the estimand gate.
+- The two-nested-set design (§4.1) splits the pool along the two verdicts the review owes each
+  hypothesis — causal set → causal-credibility, R² set → demographic-significance — so the fine filter's
+  output feeds both halves of the chapter directly, not just a forest plot.
 
 ---
 
-## 8. Decisions for Shravan before implementation
+## 8. Decisions — RESOLVED 2026-07-09 (Shravan)
 
-1. **[CONFIRM] Target parameter** (§4.1): primary = semi-elasticity of fertility w.r.t. pension
-   wealth? And the common metric for the broad pool = partial correlation *r*?
-2. **[CONFIRM] Two nested sets** (primary + standardized) vs a single strict pool.
-3. **Scope:** run the fine filter on the OAS pool now (after your RA gate), or design-only until the
-   pool is finalized?
+1. **Target parameter:** causal set = **identified effect on fertility** (level, TFR/completed
+   fertility/births), pooled by **treatment-type subgroup**; outer set = **partial R²**. Share-of-decline
+   is derived downstream, not extracted.
+2. **Structure:** **two nested sets** (causal ⊆ R²). Causal set = random-effects meta-analysis; R² set =
+   descriptive synthesis (no single pooled R²).
+3. **Scope:** run on the 40-study OAS pool now — start with the decision-independent steps 53–55 while
+   building the extraction gate (56).
