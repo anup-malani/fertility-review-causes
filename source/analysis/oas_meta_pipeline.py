@@ -182,12 +182,28 @@ def make_effect_review_sheet(effects_path: Path, review_path: Path) -> None:
     validate_required_columns(effects_path, EFFECT_REQUIRED_COLUMNS)
     rows = read_csv(effects_path)
     review_columns = make_effect_review_columns()
+    annotation_columns = [
+        column
+        for column in review_columns
+        if column.endswith("_ra_decision") or column.endswith("_ra_notes")
+    ]
+    existing_annotations: dict[str, dict[str, str]] = {}
+    if review_path.exists():
+        for row in read_csv(review_path):
+            effect_id = row.get("effect_id", "")
+            if effect_id:
+                existing_annotations[effect_id] = {
+                    column: row.get(column, "") for column in annotation_columns
+                }
+
     review_rows: list[dict[str, str]] = []
     for row in rows:
+        effect_id = row.get("effect_id", "")
+        saved_annotations = existing_annotations.get(effect_id, {})
         review_row: dict[str, str] = {}
         for column in review_columns:
             if column.endswith("_ra_decision") or column.endswith("_ra_notes"):
-                review_row[column] = ""
+                review_row[column] = saved_annotations.get(column, "")
             else:
                 review_row[column] = row.get(column, "")
         review_rows.append(review_row)

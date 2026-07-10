@@ -11,6 +11,7 @@ from oas_meta_pipeline import (
     REVIEW_FIELDS,
     harmonize_effect_row,
     make_effect_review_columns,
+    make_effect_review_sheet,
     validate_required_columns,
 )
 
@@ -33,6 +34,50 @@ class OASMetaPipelineTests(unittest.TestCase):
         self.assertIn("extract_page_ra_notes", columns)
         self.assertNotIn("pdf_filename_ra_decision", columns)
         self.assertNotIn("pdf_filename_ra_notes", columns)
+
+    def test_make_effect_review_sheet_preserves_existing_annotations(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp_path = Path(tmp)
+            effects_path = tmp_path / "effects.csv"
+            review_path = tmp_path / "review.csv"
+            effect_row = {column: "" for column in EFFECT_REQUIRED_COLUMNS}
+            effect_row.update(
+                {
+                    "effect_id": "e1",
+                    "study_id": "s1",
+                    "pdf_filename": "study.pdf",
+                    "effect_original": "-12",
+                }
+            )
+            with effects_path.open("w", newline="", encoding="utf-8") as handle:
+                writer = csv.DictWriter(handle, fieldnames=EFFECT_REQUIRED_COLUMNS)
+                writer.writeheader()
+                writer.writerow(effect_row)
+
+            review_columns = make_effect_review_columns()
+            review_row = {column: "" for column in review_columns}
+            review_row.update(
+                {
+                    "effect_id": "e1",
+                    "study_id": "s1",
+                    "pdf_filename": "study.pdf",
+                    "effect_original": "-10",
+                    "effect_original_ra_decision": "FIX",
+                    "effect_original_ra_notes": "Use table 2 estimate.",
+                }
+            )
+            with review_path.open("w", newline="", encoding="utf-8") as handle:
+                writer = csv.DictWriter(handle, fieldnames=review_columns)
+                writer.writeheader()
+                writer.writerow(review_row)
+
+            make_effect_review_sheet(effects_path, review_path)
+
+            with review_path.open(newline="", encoding="utf-8") as handle:
+                rows = list(csv.DictReader(handle))
+            self.assertEqual(rows[0]["effect_original"], "-12")
+            self.assertEqual(rows[0]["effect_original_ra_decision"], "FIX")
+            self.assertEqual(rows[0]["effect_original_ra_notes"], "Use table 2 estimate.")
 
     def test_harmonize_percentage_points(self):
         row = {
