@@ -1,0 +1,11 @@
+study_id,country_or_region,period_start,period_end,primary_outcome_family,derived_period_target_relevance,needs_human_review,derivation_basis
+danzer_zyska_2023_brazil_pensions,Brazil,1981,2014,fertility,FDT|SDT,no,Brazil sample window spans high/transition fertility in the 1980s and near/below-replacement fertility by the 2010s.
+rossi_godard_2022_namibia_pensions,Namibia,1990,2012,fertility,FDT,no,Namibia remains above replacement during the verified 1990-2012 study window; this is a late first-transition setting.
+billari_galasso_2009_italy_pension_reforms,Italy,1998,2004,fertility,SDT,no,"Italy is already a low-fertility, below-replacement setting during the verified 1998-2004 analysis window."
+han_tao_wang_zhang_2025_china_ltci,China,2012,2020,fertility,SDT,yes,"China is below replacement during 2012-2020, but the one-child/two-child-policy environment means SDT interpretation should be treated cautiously."
+guinnane_streb_2021_prussia_social_security,Prussia,1881,1910,fertility,FDT,no,Prussia 1881-1910 falls in the classic first demographic transition window.
+shen_zheng_yang_2020_china_nrps,China,2010,2014,fertility,SDT,yes,"China is below replacement during 2010-2014, but fertility is policy-constrained; SDT interpretation should be treated cautiously."
+ci_2024_children_insurance,China,2010,2018,non_fertility,SDT,yes,"China is below replacement during 2010-2018; this row is mechanism evidence with a non-fertility outcome, so target-period relevance is contextual."
+fenge_scheubel_2017_germany_pensions,Imperial Germany,1895,1907,fertility,FDT,no,Imperial Germany 1895-1907 is a first-demographic-transition setting.
+basso_bodenhorn_cuberes_2014_us_financial_development,United States,1850,1850,fertility,PM|FDT,no,United States 1850 is pre-1870 and directly adjacent to the nineteenth-century fertility transition.
+galofre_vila_2023_us_baby_boom,United States,1940,1960,fertility,FDT,no,United States 1940-1960 is before the project SDT boundary and sits within the late first-transition/baby-boom period.

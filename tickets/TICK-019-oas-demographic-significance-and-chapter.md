@@ -20,3 +20,7 @@ Compute demographic significance for PM/FDT/SDT and draft the OAS hybrid JEL/Coc
 
 ## Log
 <!-- Append completion note here when done. -->
+- 2026-07-09: Added `output/chapters/old-age-security-pension-crowdout.md` as a first chapter
+  draft at the user's request, using Anup's PI v4 review, the 2026-07-05 meeting summary, and
+  current extraction tables. Ticket remains blocked for formal completion until TICK-018 supplies
+  effect harmonization, risk-of-bias, demographic-significance, and final GRADE outputs.

@@ -26,7 +26,20 @@ only need to mark fields that are wrong, ambiguous, or should be excluded. Valid
 
 This convention applies to both study-level characteristics and estimate-level characteristics.
 The source-of-truth extraction tables remain compact; reviewer-facing sheets may duplicate columns
-to make human checking faster.
+to make human checking faster. Plain context fields such as PDF locator and PDF filename should stay
+near the left edge of reviewer-facing sheets so RAs can locate the source before checking
+substantive fields. Reviewer-facing `pdf_path` columns may use just the PDF basename when the file
+location is otherwise implicit from the hypothesis PDF folder.
+
+For meta-analysis review passes, keep the study-level reviewer-facing sheet narrower than the full
+study schema. Include only identifiers, PDF locator, bibliographic context, treatment/outcome/design
+fields, inclusion decision, extraction status, and notes. If the review task is only to approve or
+flag extracted fields, RA decision columns alone are sufficient; omit RA notes columns unless
+free-text corrections or escalation rationales are needed. Target-period coding can be derived after
+review from verified country/region and start/end years using country-year fertility data, with only
+ambiguous cases routed back for human judgment. Richer external-validity and setting descriptors can
+remain in the source extraction table or chapter-context tables unless the current review pass
+specifically asks RAs to verify them.
 
 ## Study-Level Table: `{slug}-studies.csv`
 
@@ -48,6 +61,7 @@ One row per included empirical study.
 | `treatment_or_exposure` | yes | Policy, institution, or variable changing old-age security. |
 | `mechanism_stream` | yes | `old_age_security`, `grandparent_childcare`, `intergenerational_transfer`, `other`. |
 | `primary_outcome_family` | yes | `fertility`, `fertility_adjacent`, `non_fertility`. |
+| `primary_outcome_measure` | yes in meta-analysis review sheets | Paper-visible dependent-variable label or outcome wording used by the main estimate, e.g. `Newborn child (under one year old)` or `probability of birth`. Do not normalize here; harmonized labels belong in the effect-level harmonization fields. |
 | `design` | yes | RCT, DiD, event study, IV, RD, panel FE, OLS, structural, qualitative, theory. |
 | `identification_source` | yes | Source of identifying variation, e.g. reform rollout, age cutoff, eligibility rule. |
 | `data_source` | no | Survey/admin dataset or macro source. |
@@ -79,12 +93,13 @@ These rows are not empirical studies and do not enter effect-size synthesis.
 | Column | Required | Description |
 |---|---:|---|
 | `theory_id` | yes | Stable local ID, preferably `{slug}_theory_{nn}`. |
+| `pdf_path` | yes if available | PDF basename or expected local path used for theory-section extraction. Plain context field in review sheets. |
+| `pdf_filename` | yes | Expected local PDF filename for Spotlight/manual retrieval, e.g. `{author}-{year}-{short-title}.pdf`. |
 | `title` | yes | Full source title. |
 | `authors` | yes | Semicolon-separated author names. |
 | `year` | yes if available | Publication year. |
 | `venue` | no | Journal, book, working-paper series, or publisher. |
 | `doi` | no | DOI when available; blank for books/chapters without DOI. |
-| `pdf_filename` | yes | Expected local PDF filename for Spotlight/manual retrieval, e.g. `{author}-{year}-{short-title}.pdf`. |
 | `stratum` | yes | `theory_foundational`, `theory_formal`, `mechanism_background`, or `empirical_classic_background`. |
 | `mechanism_role` | yes | Short description of how the source informs the chapter mechanism. |
 | `use_in_chapter` | yes | `theory_section`, `mechanism_background`, `historical_context`, or `do_not_use`. |
@@ -100,6 +115,8 @@ One row per estimate, contrast, or model specification that may enter synthesis.
 |---|---:|---|
 | `effect_id` | yes | Stable ID, e.g. `{study_id}_e01`. |
 | `study_id` | yes | Links to study-level table. |
+| `pdf_path` | yes if available in review sheets | PDF basename or local path used for extraction. Plain context field; no RA decision/notes columns by default. |
+| `pdf_filename` | yes if available in review sheets | PDF basename for Spotlight/manual lookup. Plain context field; no RA decision/notes columns by default. |
 | `estimand_label` | yes | Short label: main DiD, IV parity 2+, event-study 10-year effect, etc. |
 | `is_primary_estimate` | yes | `yes` if authors' preferred/main estimate for this outcome. |
 | `outcome_name` | yes | Exact outcome name from paper. |

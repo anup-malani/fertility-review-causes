@@ -20,3 +20,6 @@ Extract study-level and estimate-level data from included OAS full texts using `
 ## Log
 <!-- Append completion note here when done. -->
 - 2026-07-03: Claimed by Codex. First subtask is to add exception-based RA verification tables for study-level and effect-level extraction fields.
+- 2026-07-09: Alexandra completed the study-level RA review sheet. No nonblank RA decision flags
+  were present, so reviewed fields were treated as approved by default and synced back to
+  `extraction/old-age-security-pension-crowdout-studies.csv`.
