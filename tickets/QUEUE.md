@@ -50,3 +50,4 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 | [TICK-018](TICK-018-oas-effect-harmonization-meta-analysis.md) | OAS effect harmonization and meta-analysis | 2026-07-09 |
 | [TICK-021](TICK-021-oas-target-period-derivation.md) | Derive OAS target-period relevance from verified study windows | 2026-07-09 |
 | [TICK-022](TICK-022-oas-multi-outcome-effect-extraction.md) | OAS multi-outcome effect extraction | 2026-07-10 |
+| [TICK-023](TICK-023-oas-review-sheet-source-columns.md) | OAS effect review sheet source columns | 2026-07-10 |

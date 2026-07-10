@@ -46,7 +46,7 @@ characteristic that needs human judgment:
 ```text
 {characteristic}
 {characteristic}_ra_decision
-{characteristic}_ra_notes
+{characteristic}_source
 ```
 
 Blank `{characteristic}_ra_decision` means the reviewer approves the extracted value by default.
@@ -54,9 +54,12 @@ RAs only mark fields that are wrong, ambiguous, or should be excluded.
 
 Valid nonblank decisions:
 
-- `FIX` — value is wrong; corrected value or instruction goes in `{characteristic}_ra_notes`.
+- `FIX` — value is wrong; reviewer replaces `{characteristic}` with the corrected value when
+  the correction is clear.
 - `UNSURE_PI` — reviewer cannot adjudicate; PI decision required.
 - `EXCLUDE` — value or estimate should not be used for synthesis.
+
+The `{characteristic}_source` column is an audit locator, usually a PDF page, table, or figure.
 
 This convention applies to:
 

@@ -100,8 +100,30 @@ def make_effect_review_columns() -> list[str]:
     context = ["effect_id", "study_id", "pdf_filename"]
     columns: list[str] = context[:]
     for field in REVIEW_FIELDS:
-        columns.extend([field, f"{field}_ra_decision", f"{field}_ra_notes"])
+        columns.extend([field, f"{field}_ra_decision", f"{field}_source"])
     return columns
+
+
+def make_effect_source_note(row: dict[str, str], field: str) -> str:
+    value = (row.get(field) or "").strip()
+    if field == "needs_pi":
+        return "Codex extraction flag based on ambiguity or PI-needed judgment."
+    if field == "mechanism_cell":
+        return "Protocol mechanism-cell coding; checked against extracted estimate context."
+    if field == "extract_page":
+        return "PDF locator recorded during extraction."
+    if field == "extract_quote_or_note":
+        return "Extraction note from the cited PDF location."
+    if not value:
+        return "Not reported in extracted estimate."
+
+    locator = (row.get("extract_page") or "").strip()
+    note = (row.get("extract_quote_or_note") or "").strip()
+    if locator:
+        return locator
+    if note:
+        return note[:137] + "..." if len(note) > 140 else note
+    return "Extracted from the cited PDF."
 
 
 def _decimal(value: str) -> Decimal | None:
@@ -190,7 +212,7 @@ def make_effect_review_sheet(effects_path: Path, review_path: Path) -> None:
     annotation_columns = [
         column
         for column in review_columns
-        if column.endswith("_ra_decision") or column.endswith("_ra_notes")
+        if column.endswith("_ra_decision")
     ]
     existing_annotations: dict[str, dict[str, str]] = {}
     if review_path.exists():
@@ -207,8 +229,11 @@ def make_effect_review_sheet(effects_path: Path, review_path: Path) -> None:
         saved_annotations = existing_annotations.get(effect_id, {})
         review_row: dict[str, str] = {}
         for column in review_columns:
-            if column.endswith("_ra_decision") or column.endswith("_ra_notes"):
+            if column.endswith("_ra_decision"):
                 review_row[column] = saved_annotations.get(column, "")
+            elif column.endswith("_source"):
+                field = column[: -len("_source")]
+                review_row[column] = make_effect_source_note(row, field)
             else:
                 review_row[column] = row.get(column, "")
         review_rows.append(review_row)

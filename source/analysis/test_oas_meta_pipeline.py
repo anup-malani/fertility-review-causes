@@ -29,11 +29,12 @@ class OASMetaPipelineTests(unittest.TestCase):
         self.assertIn("pdf_filename", columns)
         self.assertIn("effect_original", columns)
         self.assertIn("effect_original_ra_decision", columns)
-        self.assertIn("effect_original_ra_notes", columns)
+        self.assertIn("effect_original_source", columns)
         self.assertIn("extract_page_ra_decision", columns)
-        self.assertIn("extract_page_ra_notes", columns)
+        self.assertIn("extract_page_source", columns)
         self.assertNotIn("pdf_filename_ra_decision", columns)
-        self.assertNotIn("pdf_filename_ra_notes", columns)
+        self.assertNotIn("pdf_filename_source", columns)
+        self.assertNotIn("effect_original_ra_notes", columns)
 
     def test_make_effect_review_sheet_preserves_existing_annotations(self):
         with tempfile.TemporaryDirectory() as tmp:
@@ -47,6 +48,7 @@ class OASMetaPipelineTests(unittest.TestCase):
                     "study_id": "s1",
                     "pdf_filename": "study.pdf",
                     "effect_original": "-12",
+                    "extract_page": "PDF page 12, Table 2",
                 }
             )
             with effects_path.open("w", newline="", encoding="utf-8") as handle:
@@ -63,7 +65,6 @@ class OASMetaPipelineTests(unittest.TestCase):
                     "pdf_filename": "study.pdf",
                     "effect_original": "-10",
                     "effect_original_ra_decision": "FIX",
-                    "effect_original_ra_notes": "Use table 2 estimate.",
                 }
             )
             with review_path.open("w", newline="", encoding="utf-8") as handle:
@@ -77,7 +78,8 @@ class OASMetaPipelineTests(unittest.TestCase):
                 rows = list(csv.DictReader(handle))
             self.assertEqual(rows[0]["effect_original"], "-12")
             self.assertEqual(rows[0]["effect_original_ra_decision"], "FIX")
-            self.assertEqual(rows[0]["effect_original_ra_notes"], "Use table 2 estimate.")
+            self.assertEqual(rows[0]["effect_original_source"], "PDF page 12, Table 2")
+            self.assertNotIn("effect_original_ra_notes", rows[0])
 
     def test_harmonize_percentage_points(self):
         row = {

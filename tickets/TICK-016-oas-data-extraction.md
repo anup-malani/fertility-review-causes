@@ -14,7 +14,7 @@ Extract study-level and estimate-level data from included OAS full texts using `
 - [ ] Study-level table exists with one row per included empirical study.
 - [ ] Estimate-level table exists with one row per extractable estimate.
 - [ ] Every numeric estimate has page/table/figure source information.
-- [ ] RA verification tables use adjacent value / RA decision / RA notes columns; blank RA decisions mean approved.
+- [ ] RA verification tables use adjacent value / RA decision / source columns; blank RA decisions mean approved.
 - [ ] Ambiguous estimates are flagged with `needs_pi = yes`.
 
 ## Log

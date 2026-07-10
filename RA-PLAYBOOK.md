@@ -55,15 +55,19 @@ For study-level and effect-level extraction review, use the exception-based veri
 ```text
 {characteristic}
 {characteristic}_ra_decision
-{characteristic}_ra_notes
+{characteristic}_source
 ```
 
 Blank `{characteristic}_ra_decision` means you approve the extracted value. Only mark cells that
 need action:
 
-- `FIX` — the value is wrong; put the corrected value or instruction in the notes cell.
+- `FIX` — the value is wrong; replace the extracted value in `{characteristic}` with the
+  corrected value if you found it, or leave the value and mark `UNSURE_PI` if PI judgment is needed.
 - `UNSURE_PI` — you cannot adjudicate; PI decision required.
 - `EXCLUDE` — the value or estimate should not be used for synthesis.
+
+The `{characteristic}_source` column is for audit only. It briefly points to where the extraction
+came from, usually a PDF page, table, or figure; do not edit it unless the locator itself is wrong.
 
 For the OAS pilot, start with
 `output/old-age-security-pension-crowdout-study-extraction-review.csv`. Check the paper identity,
@@ -71,7 +75,7 @@ setting, treatment/exposure, design, inclusion stream, and external-validity fie
 effect-level review sheet after numeric estimates are extracted.
 
 Bibliographic/source fields such as DOI, title, authors, year, journal/series, paper ID, and PDF
-path may appear as plain context columns without RA decision/notes columns.
+path may appear as plain context columns without RA decision/source columns.
 
 ## Escalation rules
 

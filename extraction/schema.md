@@ -14,15 +14,19 @@ needs human verification, place the extracted value next to two review columns:
 ```text
 {characteristic}
 {characteristic}_ra_decision
-{characteristic}_ra_notes
+{characteristic}_source
 ```
 
 Blank `{characteristic}_ra_decision` means the reviewer approves the extracted value. Reviewers
 only need to mark fields that are wrong, ambiguous, or should be excluded. Valid nonblank decisions:
 
-- `FIX` — value is wrong; corrected value or instruction goes in `{characteristic}_ra_notes`.
+- `FIX` — value is wrong; reviewer replaces the extracted value in `{characteristic}` when the
+  correction is clear.
 - `UNSURE_PI` — reviewer cannot adjudicate; PI decision required.
 - `EXCLUDE` — value or estimate should not be used for synthesis.
+
+The `{characteristic}_source` column is an audit locator, not a free-text review field. Keep it
+brief, usually a PDF page, table, or figure reference.
 
 This convention applies to both study-level characteristics and estimate-level characteristics.
 The source-of-truth extraction tables remain compact; reviewer-facing sheets may duplicate columns
@@ -34,12 +38,12 @@ location is otherwise implicit from the hypothesis PDF folder.
 For meta-analysis review passes, keep the study-level reviewer-facing sheet narrower than the full
 study schema. Include only identifiers, PDF locator, bibliographic context, treatment/outcome/design
 fields, inclusion decision, extraction status, and notes. If the review task is only to approve or
-flag extracted fields, RA decision columns alone are sufficient; omit RA notes columns unless
-free-text corrections or escalation rationales are needed. Target-period coding can be derived after
-review from verified country/region and start/end years using country-year fertility data, with only
-ambiguous cases routed back for human judgment. Richer external-validity and setting descriptors can
-remain in the source extraction table or chapter-context tables unless the current review pass
-specifically asks RAs to verify them.
+flag extracted fields, use RA decision columns plus brief source columns. Reviewers put clear
+corrections directly in the value cell and mark `UNSURE_PI` when a free-text rationale would be
+needed. Target-period coding can be derived after review from verified country/region and start/end
+years using country-year fertility data, with only ambiguous cases routed back for human judgment.
+Richer external-validity and setting descriptors can remain in the source extraction table or
+chapter-context tables unless the current review pass specifically asks RAs to verify them.
 
 ## Study-Level Table: `{slug}-studies.csv`
 
@@ -115,8 +119,8 @@ One row per estimate, contrast, or model specification that may enter synthesis.
 |---|---:|---|
 | `effect_id` | yes | Stable ID, e.g. `{study_id}_e01`. |
 | `study_id` | yes | Links to study-level table. |
-| `pdf_path` | yes if available in review sheets | PDF basename or local path used for extraction. Plain context field; no RA decision/notes columns by default. |
-| `pdf_filename` | yes if available in review sheets | PDF basename for Spotlight/manual lookup. Plain context field; no RA decision/notes columns by default. |
+| `pdf_path` | yes if available in review sheets | PDF basename or local path used for extraction. Plain context field; no RA decision/source columns by default. |
+| `pdf_filename` | yes if available in review sheets | PDF basename for Spotlight/manual lookup. Plain context field; no RA decision/source columns by default. |
 | `estimand_label` | yes | Short label: main DiD, IV parity 2+, event-study 10-year effect, etc. |
 | `is_primary_estimate` | yes | `yes` if authors' preferred/main estimate for this outcome. |
 | `outcome_name` | yes | Exact outcome name from paper. |

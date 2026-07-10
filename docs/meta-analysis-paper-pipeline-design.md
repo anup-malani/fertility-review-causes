@@ -135,11 +135,13 @@ For human verification, generate reviewer-facing copies with adjacent columns fo
 characteristic:
 
 ```text
-{characteristic}, {characteristic}_ra_decision, {characteristic}_ra_notes
+{characteristic}, {characteristic}_ra_decision, {characteristic}_source
 ```
 
 Blank RA decision cells mean approved. Reviewers only mark fields that are wrong, ambiguous, or
-should be excluded. This keeps human review fast while preserving field-level accountability.
+should be excluded; clear corrections go directly in the value cell. The source column gives a
+brief page/table/figure locator for auditing. This keeps human review fast while preserving
+field-level accountability.
 
 ### Stage 6: Risk of Bias
 

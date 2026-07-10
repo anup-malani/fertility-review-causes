@@ -150,11 +150,12 @@ For every characteristic that needs verification, reviewer-facing sheets use:
 ```text
 characteristic
 characteristic_ra_decision
-characteristic_ra_notes
+characteristic_source
 ```
 
 Blank `characteristic_ra_decision` means approved by default. Nonblank values are `FIX`,
-`UNSURE_PI`, or `EXCLUDE`.
+`UNSURE_PI`, or `EXCLUDE`; clear corrections go directly in the value cell, while
+`characteristic_source` gives the PDF/table/figure locator.
 
 - [ ] **Step 2: Generate the study-level review sheet**
 
