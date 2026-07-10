@@ -1,5 +1,5 @@
 # TICK-018: OAS effect harmonization and meta-analysis
-**Status:** blocked
+**Status:** done
 **Assigned:** any
 **Parallel-safe:** no
 **Blocks:** TICK-019
@@ -20,3 +20,7 @@ synthesis or structured narrative synthesis according to `docs/meta-analysis-eff
 
 ## Log
 <!-- Append completion note here when done. -->
+- 2026-07-09: Harmonized-effects table, meta-analysis summary, summary-of-findings table, and
+  evidence-map data generated. Current synthesis is quantitative but not pooled: all 10 rows are
+  retained as `not_poolable` because treatment scale, follow-up window, and sign orientation are
+  not yet compatible enough for cross-study pooling.

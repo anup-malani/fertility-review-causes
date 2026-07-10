@@ -1,5 +1,5 @@
 # TICK-017: OAS risk-of-bias assessment
-**Status:** blocked
+**Status:** done
 **Assigned:** any
 **Parallel-safe:** yes
 **Blocks:** TICK-018, TICK-019
@@ -19,3 +19,5 @@ Assess risk of bias for each included empirical OAS study using the ROBINS-I-ins
 
 ## Log
 <!-- Append completion note here when done. -->
+- 2026-07-09: Initial ROBINS-I-inspired risk-of-bias table completed for included empirical OAS
+  studies. All rows remain pending RA/PI verification.

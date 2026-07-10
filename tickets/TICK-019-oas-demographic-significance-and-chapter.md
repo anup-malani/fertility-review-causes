@@ -3,7 +3,7 @@
 **Assigned:** any
 **Parallel-safe:** no
 **Blocks:** none
-**Blocked by:** TICK-018
+**Blocked by:** TICK-020; demographic-significance macro pass
 **Touches:** output/tables/old-age-security-pension-crowdout-demographic-significance.csv, output/chapters/old-age-security-pension-crowdout.md
 
 ## Description
@@ -24,3 +24,6 @@ Compute demographic significance for PM/FDT/SDT and draft the OAS hybrid JEL/Coc
   draft at the user's request, using Anup's PI v4 review, the 2026-07-05 meeting summary, and
   current extraction tables. Ticket remains blocked for formal completion until TICK-018 supplies
   effect harmonization, risk-of-bias, demographic-significance, and final GRADE outputs.
+- 2026-07-09: Chapter updated with quantitative synthesis outputs and reproducibility appendix
+  links. TICK-018 is now complete, but this ticket remains open because the demographic-significance
+  table and theory-stream dependency are not complete.

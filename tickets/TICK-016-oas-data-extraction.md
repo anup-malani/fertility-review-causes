@@ -1,5 +1,5 @@
 # TICK-016: OAS full-text data extraction
-**Status:** in-progress
+**Status:** done
 **Assigned:** Codex
 **Parallel-safe:** no
 **Blocks:** TICK-017, TICK-018
@@ -23,3 +23,6 @@ Extract study-level and estimate-level data from included OAS full texts using `
 - 2026-07-09: Alexandra completed the study-level RA review sheet. No nonblank RA decision flags
   were present, so reviewed fields were treated as approved by default and synced back to
   `extraction/old-age-security-pension-crowdout-studies.csv`.
+- 2026-07-09: Effect-level extraction table and RA verification sheet completed for current
+  retrieved OAS PDFs. Extracted 10 main effects with PDF page/table locators; two rows are marked
+  `needs_pi = yes` for missing uncertainty or estimand interpretation.
