@@ -93,7 +93,63 @@ class OASMetaPipelineTests(unittest.TestCase):
         self.assertEqual(out["harmonized_outcome_unit"], "probability_of_birth")
         self.assertEqual(out["effect_harmonized"], "-0.12")
         self.assertEqual(out["se_harmonized"], "0.03")
-        self.assertEqual(out["meta_analysis_group"], "cell_a_birth_probability")
+        self.assertEqual(out["meta_analysis_group"], "not_poolable")
+        self.assertEqual(
+            out["poolability_reason"],
+            "requires_treatment_scale_followup_and_sign_orientation_before_pooling",
+        )
+
+    def test_cell_a_birth_probability_rows_without_compatibility_metadata_do_not_pool(self):
+        rows = [
+            {
+                "effect_id": "e1",
+                "outcome_family": "birth_probability",
+                "outcome_unit_original": "percentage_points",
+                "effect_original": "-0.9",
+                "se_original": "0.3",
+                "mechanism_cell": "A",
+                "treatment_scale_original": "Rural pension reform exposure",
+                "followup_window": "Short run after reform",
+                "needs_pi": "no",
+            },
+            {
+                "effect_id": "e2",
+                "outcome_family": "birth_probability",
+                "outcome_unit_original": "percentage_points",
+                "effect_original": "-17.3",
+                "se_original": "4.3",
+                "mechanism_cell": "A",
+                "treatment_scale_original": "Post x InitialNeeds",
+                "followup_window": "Post pension extension",
+                "needs_pi": "no",
+            },
+            {
+                "effect_id": "e3",
+                "outcome_family": "birth_probability",
+                "outcome_unit_original": "percentage_points",
+                "effect_original": "0.664",
+                "se_original": "0.286",
+                "mechanism_cell": "A",
+                "treatment_scale_original": "Pension-cut reform discontinuity",
+                "followup_window": "+/- 7 years around thresholds",
+                "needs_pi": "no",
+            },
+        ]
+
+        outputs = [harmonize_effect_row(row) for row in rows]
+
+        self.assertTrue(all(row["effect_harmonized"] for row in outputs))
+        self.assertTrue(all(row["se_harmonized"] for row in outputs))
+        self.assertEqual(
+            {row["meta_analysis_group"] for row in outputs}, {"not_poolable"}
+        )
+        self.assertEqual(
+            {
+                row["poolability_reason"]
+                for row in outputs
+            },
+            {"requires_treatment_scale_followup_and_sign_orientation_before_pooling"},
+        )
 
     def test_harmonize_non_poolable_completed_fertility_without_se(self):
         row = {
@@ -109,7 +165,10 @@ class OASMetaPipelineTests(unittest.TestCase):
         self.assertEqual(out["harmonized_outcome_unit"], "births_per_woman")
         self.assertEqual(out["effect_harmonized"], "-1.3")
         self.assertEqual(out["meta_analysis_group"], "not_poolable")
-        self.assertIn("missing_standard_error", out["poolability_reason"])
+        self.assertEqual(
+            out["poolability_reason"],
+            "requires_treatment_scale_followup_and_sign_orientation_before_pooling",
+        )
 
 
 if __name__ == "__main__":

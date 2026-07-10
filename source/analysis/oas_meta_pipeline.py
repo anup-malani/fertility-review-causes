@@ -119,6 +119,11 @@ def _format_decimal(value: Decimal | None) -> str:
     return format(normalized, "f")
 
 
+COMPATIBILITY_REQUIRED_REASON = (
+    "requires_treatment_scale_followup_and_sign_orientation_before_pooling"
+)
+
+
 def harmonize_effect_row(row: dict[str, str]) -> dict[str, str]:
     out = dict(row)
     effect = _decimal(row.get("effect_original", ""))
@@ -147,9 +152,8 @@ def harmonize_effect_row(row: dict[str, str]) -> dict[str, str]:
         out["effect_harmonized"] = _format_decimal(effect / Decimal("100"))
         out["se_harmonized"] = _format_decimal(se / Decimal("100")) if se is not None else ""
         out["harmonization_method"] = "percentage_points_divided_by_100"
-        if cell == "A" and se is not None:
-            out["meta_analysis_group"] = "cell_a_birth_probability"
-            out["poolability_reason"] = "poolable_birth_probability_if_followup_windows_match"
+        if cell == "A":
+            out["poolability_reason"] = COMPATIBILITY_REQUIRED_REASON
         else:
             out["poolability_reason"] = "missing_standard_error_or_wrong_cell"
         return out
@@ -159,9 +163,8 @@ def harmonize_effect_row(row: dict[str, str]) -> dict[str, str]:
         out["effect_harmonized"] = _format_decimal(effect)
         out["se_harmonized"] = _format_decimal(se)
         out["harmonization_method"] = "already_births_per_woman"
-        if cell == "A" and se is not None:
-            out["meta_analysis_group"] = "cell_a_completed_fertility"
-            out["poolability_reason"] = "poolable_completed_fertility_if_treatment_scales_match"
+        if cell == "A":
+            out["poolability_reason"] = COMPATIBILITY_REQUIRED_REASON
         else:
             out["poolability_reason"] = "missing_standard_error_or_wrong_cell"
         return out
@@ -228,7 +231,8 @@ def write_meta_analysis_summary(harmonized_path: Path, summary_path: Path) -> No
                     "pooled_se": "",
                     "rationale": (
                         "Rows are non-poolable because outcome units, treatment scales, "
-                        "standard errors, or mechanism cells are incompatible."
+                        "follow-up windows, sign orientation, standard errors, or "
+                        "mechanism cells are incompatible or not yet coded."
                     ),
                 }
             )
