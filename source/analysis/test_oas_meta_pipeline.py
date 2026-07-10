@@ -28,8 +28,11 @@ class OASMetaPipelineTests(unittest.TestCase):
         self.assertIn("pdf_filename", columns)
         self.assertIn("effect_original", columns)
         self.assertIn("effect_original_ra_decision", columns)
+        self.assertIn("effect_original_ra_notes", columns)
         self.assertIn("extract_page_ra_decision", columns)
+        self.assertIn("extract_page_ra_notes", columns)
         self.assertNotIn("pdf_filename_ra_decision", columns)
+        self.assertNotIn("pdf_filename_ra_notes", columns)
 
     def test_harmonize_percentage_points(self):
         row = {

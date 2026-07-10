@@ -98,7 +98,7 @@ def make_effect_review_columns() -> list[str]:
     context = ["effect_id", "study_id", "pdf_filename"]
     columns: list[str] = context[:]
     for field in REVIEW_FIELDS:
-        columns.extend([field, f"{field}_ra_decision"])
+        columns.extend([field, f"{field}_ra_decision", f"{field}_ra_notes"])
     return columns
 
 
