@@ -307,10 +307,15 @@ def write_summary_of_findings(summary_path: Path, sof_path: Path) -> None:
                 if has_pooled
                 else "structured quantitative narrative"
             ),
-            "certainty": "moderate for direction; magnitude pending RA verification",
+            "certainty": (
+                "setting-specific direction; magnitude pending RA verification "
+                "and sign orientation"
+            ),
             "interpretation": (
-                "Non-child old-age security generally lowers fertility in settings "
-                "where children are old-age support assets."
+                "The extracted Cell A set supports a real old-age-security mechanism, "
+                "but its sign is not yet pooled or uniformly oriented across pension "
+                "expansions, pension cuts, LTCI, historical social insurance, and "
+                "baby-boom-era estimates."
             ),
         },
         {
@@ -325,9 +330,9 @@ def write_summary_of_findings(summary_path: Path, sof_path: Path) -> None:
         },
         {
             "outcome_or_channel": "Grandparental childcare",
-            "studies": "Cell C studies pending retrieval or extraction",
-            "synthesis": "separate SDT track",
-            "certainty": "pending quantitative extraction",
+            "studies": "Cell C studies identified by PI review",
+            "synthesis": "separate SDT track outside current quantitative package",
+            "certainty": "not quantified in current 10-effect package",
             "interpretation": (
                 "This channel is opposite-signed and should not be pooled with the "
                 "classic OAS motive."
