@@ -176,3 +176,33 @@ def harmonize_effect_row(row: dict[str, str]) -> dict[str, str]:
 
     out["poolability_reason"] = "unsupported_outcome_family_or_unit"
     return out
+
+
+def make_effect_review_sheet(effects_path: Path, review_path: Path) -> None:
+    validate_required_columns(effects_path, EFFECT_REQUIRED_COLUMNS)
+    rows = read_csv(effects_path)
+    review_columns = make_effect_review_columns()
+    review_rows: list[dict[str, str]] = []
+    for row in rows:
+        review_row: dict[str, str] = {}
+        for column in review_columns:
+            if column.endswith("_ra_decision") or column.endswith("_ra_notes"):
+                review_row[column] = ""
+            else:
+                review_row[column] = row.get(column, "")
+        review_rows.append(review_row)
+    write_csv(review_path, review_rows, review_columns)
+
+
+def main() -> None:
+    effects_path = ROOT / "extraction" / f"{SLUG}-effects.csv"
+    review_path = ROOT / "output" / f"{SLUG}-effect-extraction-review.csv"
+    harmonized_path = ROOT / "output" / "tables" / f"{SLUG}-harmonized-effects.csv"
+    if effects_path.exists():
+        make_effect_review_sheet(effects_path, review_path)
+        rows = [harmonize_effect_row(row) for row in read_csv(effects_path)]
+        write_csv(harmonized_path, rows, HARMONIZED_COLUMNS)
+
+
+if __name__ == "__main__":
+    main()
