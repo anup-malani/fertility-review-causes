@@ -86,7 +86,7 @@ The PI review also identifies Ruthbah (2022) as a parallel mechanism paper from 
 
 The SDT case depends on the grandparental-childcare channel. The PI review names three studies: Eibich and Siedler (Germany), Ilciukas (Netherlands), and Akyol and Atalay (Australia). These studies are not classic children-as-pensions evidence. They identify a different mechanism: pension or retirement policy changes grandparents' availability, which changes adult children's fertility.
 
-The sign is the key. Retired grandparents can lower childcare costs. If retirement eligibility expands, fertility can rise. If retirement ages increase or early pensions shrink, grandparents remain at work, childcare help falls, and fertility can fall. That sign matches the SDT era better than the classic OAS motive does. The summary-of-findings table keeps Cell C on a separate SDT track pending retrieval or extraction; it is not pooled with classic OAS estimates.
+The sign is the key. Retired grandparents can lower childcare costs. If retirement eligibility expands, fertility can rise. If retirement ages increase or early pensions shrink, grandparents remain at work, childcare help falls, and fertility can fall. That sign matches the SDT era better than the classic OAS motive does. The summary-of-findings table keeps Cell C on a separate SDT track outside the current 10-effect quantitative package; it is not pooled with classic OAS estimates.
 
 ### 5.4 Cell D: Indirect Chain Evidence
 
@@ -157,9 +157,9 @@ Magnitude certainty remains pending RA verification because the current effect r
 
 | Outcome or channel | Studies | Synthesis | Certainty | Interpretation |
 |---|---|---|---|---|
-| Classic old-age-security motive | Cell A extracted studies | Structured quantitative narrative | Moderate for direction; magnitude pending RA verification | Non-child old-age security generally lowers fertility in settings where children are old-age support assets. |
+| Classic old-age-security motive | Cell A extracted studies | Structured quantitative narrative | Moderate for mechanism direction in the strongest classic pension-crowdout cases; magnitude pending RA verification | The extracted Cell A set supports a real old-age-security mechanism, but the sign and interpretation remain setting-specific until pension cuts, LTCI, historical social insurance, and baby-boom-era estimates are sign-oriented and verified. |
 | Children as old-age-security assets | Cell B mechanism studies | Not pooled with fertility effects | Low-to-moderate | Mechanism evidence supports children and purchased old-age security as substitutes, but it does not estimate fertility effects. |
-| Grandparental childcare | Cell C studies pending retrieval or extraction | Separate SDT track | Pending quantitative extraction | This channel is opposite-signed and should not be pooled with the classic OAS motive. |
+| Grandparental childcare | Cell C studies identified by PI review | Separate SDT track outside the current 10-effect quantitative package | Awaiting separate Cell C quantitative package | This channel is opposite-signed and should not be pooled with the classic OAS motive. |
 | Demographic significance | All extracted studies plus target-period derivation | Slope-sufficiency pending macro-data pass | Low pending computation | Current evidence supports a real mechanism but does not yet quantify its share of PM, FDT, or SDT fertility change. |
 
 ## 11. Interpretation for Economics Readers
