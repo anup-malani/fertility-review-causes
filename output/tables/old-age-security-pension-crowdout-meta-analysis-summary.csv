@@ -1,0 +1,4 @@
+meta_analysis_group,n_effects,synthesis_type,pooled_effect,pooled_se,rationale
+cell_a_birth_probability,3,fixed_effect_inverse_variance_screening,-0.001204701343178091384695117295,0.002067655123193668028957821128,Screening estimate only; random-effects synthesis should replace this if heterogeneity warrants and enough comparable estimates exist.
+cell_a_completed_fertility,1,not_pooled,,,Fewer than three compatible effects with standard errors.
+not_poolable,6,structured_narrative,,,"Rows are non-poolable because outcome units, treatment scales, standard errors, or mechanism cells are incompatible."

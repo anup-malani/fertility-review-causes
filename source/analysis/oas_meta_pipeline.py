@@ -210,14 +210,176 @@ def make_effect_review_sheet(effects_path: Path, review_path: Path) -> None:
     write_csv(review_path, review_rows, review_columns)
 
 
+def write_meta_analysis_summary(harmonized_path: Path, summary_path: Path) -> None:
+    rows = read_csv(harmonized_path)
+    groups: dict[str, list[dict[str, str]]] = {}
+    for row in rows:
+        groups.setdefault(row.get("meta_analysis_group", "not_poolable"), []).append(row)
+
+    summary_rows: list[dict[str, str]] = []
+    for group, group_rows in sorted(groups.items()):
+        if group == "not_poolable":
+            summary_rows.append(
+                {
+                    "meta_analysis_group": group,
+                    "n_effects": str(len(group_rows)),
+                    "synthesis_type": "structured_narrative",
+                    "pooled_effect": "",
+                    "pooled_se": "",
+                    "rationale": (
+                        "Rows are non-poolable because outcome units, treatment scales, "
+                        "standard errors, or mechanism cells are incompatible."
+                    ),
+                }
+            )
+            continue
+
+        effects = [_decimal(row.get("effect_harmonized", "")) for row in group_rows]
+        ses = [_decimal(row.get("se_harmonized", "")) for row in group_rows]
+        usable = [
+            (effect, se)
+            for effect, se in zip(effects, ses)
+            if effect is not None and se is not None and se != 0
+        ]
+        if len(usable) < 3:
+            summary_rows.append(
+                {
+                    "meta_analysis_group": group,
+                    "n_effects": str(len(group_rows)),
+                    "synthesis_type": "not_pooled",
+                    "pooled_effect": "",
+                    "pooled_se": "",
+                    "rationale": "Fewer than three compatible effects with standard errors.",
+                }
+            )
+            continue
+
+        weights = [Decimal("1") / (se * se) for _, se in usable]
+        weight_sum = sum(weights)
+        pooled = sum(
+            effect * weight for (effect, _), weight in zip(usable, weights)
+        ) / weight_sum
+        pooled_se = (Decimal("1") / weight_sum).sqrt()
+        summary_rows.append(
+            {
+                "meta_analysis_group": group,
+                "n_effects": str(len(usable)),
+                "synthesis_type": "fixed_effect_inverse_variance_screening",
+                "pooled_effect": _format_decimal(pooled),
+                "pooled_se": _format_decimal(pooled_se),
+                "rationale": (
+                    "Screening estimate only; random-effects synthesis should replace "
+                    "this if heterogeneity warrants and enough comparable estimates exist."
+                ),
+            }
+        )
+
+    write_csv(
+        summary_path,
+        summary_rows,
+        [
+            "meta_analysis_group",
+            "n_effects",
+            "synthesis_type",
+            "pooled_effect",
+            "pooled_se",
+            "rationale",
+        ],
+    )
+
+
+def write_summary_of_findings(summary_path: Path, sof_path: Path) -> None:
+    summary_rows = read_csv(summary_path)
+    has_pooled = any(
+        row["synthesis_type"] == "fixed_effect_inverse_variance_screening"
+        for row in summary_rows
+    )
+    rows = [
+        {
+            "outcome_or_channel": "Classic old-age-security motive",
+            "studies": "Cell A extracted studies",
+            "synthesis": (
+                "pooled where compatible"
+                if has_pooled
+                else "structured quantitative narrative"
+            ),
+            "certainty": "moderate for direction; magnitude pending RA verification",
+            "interpretation": (
+                "Non-child old-age security generally lowers fertility in settings "
+                "where children are old-age support assets."
+            ),
+        },
+        {
+            "outcome_or_channel": "Children as old-age-security assets",
+            "studies": "Cell B mechanism studies",
+            "synthesis": "not pooled with fertility effects",
+            "certainty": "low-to-moderate",
+            "interpretation": (
+                "Mechanism evidence supports children and purchased old-age security "
+                "as substitutes, but it does not estimate fertility effects."
+            ),
+        },
+        {
+            "outcome_or_channel": "Grandparental childcare",
+            "studies": "Cell C studies pending retrieval or extraction",
+            "synthesis": "separate SDT track",
+            "certainty": "pending quantitative extraction",
+            "interpretation": (
+                "This channel is opposite-signed and should not be pooled with the "
+                "classic OAS motive."
+            ),
+        },
+        {
+            "outcome_or_channel": "Demographic significance",
+            "studies": "All extracted studies plus target-period derivation",
+            "synthesis": "slope-sufficiency pending macro-data pass",
+            "certainty": "low pending computation",
+            "interpretation": (
+                "Current evidence supports a real mechanism but does not yet quantify "
+                "its share of PM, FDT, or SDT fertility change."
+            ),
+        },
+    ]
+    write_csv(
+        sof_path,
+        rows,
+        ["outcome_or_channel", "studies", "synthesis", "certainty", "interpretation"],
+    )
+
+
+def write_evidence_map(harmonized_path: Path, evidence_map_path: Path) -> None:
+    rows = read_csv(harmonized_path)
+    fields = [
+        "effect_id",
+        "study_id",
+        "mechanism_cell",
+        "outcome_family",
+        "harmonized_outcome_unit",
+        "effect_harmonized",
+        "meta_analysis_group",
+        "poolability_reason",
+        "needs_pi",
+    ]
+    write_csv(evidence_map_path, rows, fields)
+
+
 def main() -> None:
     effects_path = ROOT / "extraction" / f"{SLUG}-effects.csv"
     review_path = ROOT / "output" / f"{SLUG}-effect-extraction-review.csv"
-    harmonized_path = ROOT / "output" / "tables" / f"{SLUG}-harmonized-effects.csv"
+    tables_dir = ROOT / "output" / "tables"
+    figures_dir = ROOT / "output" / "figures"
+    harmonized_path = tables_dir / f"{SLUG}-harmonized-effects.csv"
+    meta_summary_path = tables_dir / f"{SLUG}-meta-analysis-summary.csv"
+    sof_path = tables_dir / f"{SLUG}-summary-of-findings.csv"
+    evidence_map_path = figures_dir / f"{SLUG}-evidence-map.csv"
+
     if effects_path.exists():
         make_effect_review_sheet(effects_path, review_path)
         rows = [harmonize_effect_row(row) for row in read_csv(effects_path)]
         write_csv(harmonized_path, rows, HARMONIZED_COLUMNS)
+        write_meta_analysis_summary(harmonized_path, meta_summary_path)
+        write_summary_of_findings(meta_summary_path, sof_path)
+        write_evidence_map(harmonized_path, evidence_map_path)
 
 
 if __name__ == "__main__":
