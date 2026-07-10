@@ -54,7 +54,7 @@ The chapter uses the project GACS-style workflow: broad search first, then deter
 | Theory-source table | `extraction/old-age-security-pension-crowdout-theory-sources.csv` |
 | Full-text screen | `extraction/old-age-security-pension-crowdout-fulltext-screen.csv` |
 
-The final methods appendix should add the PRISMA counts, risk-of-bias table, effect-size harmonization table, and summary-of-findings table. Those are not complete yet. This draft therefore reports signs, designs, settings, and transition relevance, but it does not pretend to have a pooled estimate or a completed GRADE panel.
+The current methods appendix now records the effect extraction, risk-of-bias, harmonized-effects, meta-analysis-summary, summary-of-findings, and evidence-map outputs used for this quantitative synthesis. PRISMA counts and final GRADE adjudication still require RA and PI review.
 
 ## 5. Included Studies and Evidence Map
 
@@ -94,15 +94,13 @@ The indirect evidence should sit in an appendix, not the main effect estimate. I
 
 ## 6. Quantitative Synthesis
 
-No pooled estimate is reported in this draft. Pooling is premature for three reasons.
+The quantitative synthesis is intentionally conservative. The extraction table now records the paper-visible outcome, original effect, uncertainty when reported, treatment scale, follow-up window, and page/table locator for each main estimate. The harmonized table preserves those original values and adds conversions only where the unit conversion is mechanical.
 
-First, the extracted outcomes are not yet harmonized. The primary outcomes include completed fertility, one-year birth indicators, crude marital birth rates, child-woman ratios, crude birth rates, and TFR-style aggregate measures. These cannot be averaged without explicit conversions and baseline assumptions.
+The compatibility screen does not support a pooled estimate in the current extraction. The synthesis is therefore quantitative but not pooled: not_poolable (structured_narrative, n=10). No fixed-effect pooled row is reported because every current row remains `not_poolable` until treatment scale, follow-up window, and sign orientation are harmonized.
 
-Second, the treatment scales differ. A new rural pension, long-term-care insurance, pension-wealth cuts, Bismarck-era insurance, and nineteenth-century financial development are all old-age-security substitutes, but they are not the same dose.
+Cell A and Cell C remain separate. Cell A estimates the classic old-age-security motive. Cell C estimates grandparental-childcare effects with the opposite sign. Cell B and Cell D remain mechanism and chain-link evidence, not fertility-effect estimates.
 
-Third, the channels differ. Cell A and Cell C have opposite signs by mechanism. Combining them into one pooled effect would hide the very distinction that explains the SDT verdict.
-
-The final quantitative pass should do three things. It should preserve each paper's original estimate. It should choose one primary estimate per study/outcome pair using the harmonization rules. And it should pool only within coherent cells if at least three estimates share an interpretable outcome, treatment scale, and time horizon. Otherwise, the correct output is a structured narrative synthesis with a harvest plot or evidence map.
+The current harmonized file includes ten extracted effects. Mechanical conversions are available for one-year birth-probability estimates reported in percentage points and for completed-fertility estimates already stated as births per woman. Historical aggregate outcomes, unsupported outcome families, missing standard errors, and mechanism-only estimates remain in the structured narrative rather than entering a cross-study average.
 
 ## 7. Demographic Significance
 
@@ -155,12 +153,14 @@ The final risk-of-bias table should judge confounding, selection, intervention c
 
 ## 10. Summary of Findings
 
-| Outcome or channel | Studies | Effect direction | Certainty in this draft | Interpretation |
-|---|---:|---|---|---|
-| Classic OAS motive, fertility outcome | 9 primary studies | More non-child old-age security lowers fertility | Moderate for existence, pending for magnitude | The household mechanism is credible across diverse settings. |
-| Children as old-age-security assets | 1 retrieved mechanism study, plus Ruthbah pending | More children may substitute for private old-age assets | Low-to-moderate, pending retrieval consistency | Supports the premise but not the fertility effect size. |
-| Grandparental childcare | 3 PI-identified studies, pending extraction | Grandparent availability raises adult children's fertility | Moderate for SDT relevance, pending extraction | The most important SDT channel, and opposite in sign from the classic motive. |
-| Demographic significance | Not yet computed | Likely modest | Low pending macro pass | The mechanism is real but unlikely to explain a large share of FDT or SDT alone. |
+Magnitude certainty remains pending RA verification because the current effect rows have not all been marked `ra_verified = yes`.
+
+| Outcome or channel | Studies | Synthesis | Certainty | Interpretation |
+|---|---|---|---|---|
+| Classic old-age-security motive | Cell A extracted studies | Structured quantitative narrative | Moderate for direction; magnitude pending RA verification | Non-child old-age security generally lowers fertility in settings where children are old-age support assets. |
+| Children as old-age-security assets | Cell B mechanism studies | Not pooled with fertility effects | Low-to-moderate | Mechanism evidence supports children and purchased old-age security as substitutes, but it does not estimate fertility effects. |
+| Grandparental childcare | Cell C studies pending retrieval or extraction | Separate SDT track | Pending quantitative extraction | This channel is opposite-signed and should not be pooled with the classic OAS motive. |
+| Demographic significance | All extracted studies plus target-period derivation | Slope-sufficiency pending macro-data pass | Low pending computation | Current evidence supports a real mechanism but does not yet quantify its share of PM, FDT, or SDT fertility change. |
 
 ## 11. Interpretation for Economics Readers
 
@@ -188,6 +188,12 @@ This is why the chapter should not ask whether "pensions reduce fertility" as a 
 - Target-period derivation: `extraction/old-age-security-pension-crowdout-target-period-relevance.csv`
 - Theory sources: `extraction/old-age-security-pension-crowdout-theory-sources.csv`
 - Full-text screen: `extraction/old-age-security-pension-crowdout-fulltext-screen.csv`
+- Effect extraction: `extraction/old-age-security-pension-crowdout-effects.csv`
+- Risk of bias: `extraction/old-age-security-pension-crowdout-risk-of-bias.csv`
+- Harmonized effects: `output/tables/old-age-security-pension-crowdout-harmonized-effects.csv`
+- Meta-analysis summary: `output/tables/old-age-security-pension-crowdout-meta-analysis-summary.csv`
+- Summary of findings: `output/tables/old-age-security-pension-crowdout-summary-of-findings.csv`
+- Evidence map data: `output/figures/old-age-security-pension-crowdout-evidence-map.csv`
 - Estimand-ready set: `output/old-age-security-pension-crowdout-estimand-ready-set.md`
 - RA study review sheet: `output/old-age-security-pension-crowdout-study-extraction-review.csv`
 - Effect review template: `output/old-age-security-pension-crowdout-effect-extraction-review-template.csv`
