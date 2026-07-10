@@ -1,6 +1,6 @@
 # Work Queue
 
-Last updated: 2026-07-03
+Last updated: 2026-07-10
 
 Pick the first open ticket assigned to you or `any`. Before starting, pull/sync, then **claim** it
 (move its row to **In progress** below) before doing the work — using whichever mode is active in
@@ -49,3 +49,4 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 | [TICK-017](TICK-017-oas-risk-of-bias.md) | OAS risk-of-bias assessment | 2026-07-09 |
 | [TICK-018](TICK-018-oas-effect-harmonization-meta-analysis.md) | OAS effect harmonization and meta-analysis | 2026-07-09 |
 | [TICK-021](TICK-021-oas-target-period-derivation.md) | Derive OAS target-period relevance from verified study windows | 2026-07-09 |
+| [TICK-022](TICK-022-oas-multi-outcome-effect-extraction.md) | OAS multi-outcome effect extraction | 2026-07-10 |

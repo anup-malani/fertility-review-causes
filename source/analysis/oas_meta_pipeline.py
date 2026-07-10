@@ -80,7 +80,9 @@ def read_csv(path: Path) -> list[dict[str, str]]:
 def write_csv(path: Path, rows: list[dict[str, str]], fieldnames: list[str]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fieldnames, extrasaction="ignore")
+        writer = csv.DictWriter(
+            handle, fieldnames=fieldnames, extrasaction="ignore", lineterminator="\n"
+        )
         writer.writeheader()
         writer.writerows(rows)
 
@@ -332,7 +334,7 @@ def write_summary_of_findings(summary_path: Path, sof_path: Path) -> None:
             "outcome_or_channel": "Grandparental childcare",
             "studies": "Cell C studies identified by PI review",
             "synthesis": "separate SDT track outside current quantitative package",
-            "certainty": "not quantified in current 10-effect package",
+            "certainty": "not quantified in current quantitative package",
             "interpretation": (
                 "This channel is opposite-signed and should not be pooled with the "
                 "classic OAS motive."
