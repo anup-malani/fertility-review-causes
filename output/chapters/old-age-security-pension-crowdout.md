@@ -102,6 +102,8 @@ Cell A and Cell C remain separate. Cell A estimates the classic old-age-security
 
 The current harmonized file includes ten extracted effects. Mechanical conversions are available for one-year birth-probability estimates reported in percentage points and for completed-fertility estimates already stated as births per woman. Historical aggregate outcomes, unsupported outcome families, missing standard errors, and mechanism-only estimates remain in the structured narrative rather than entering a cross-study average.
 
+The `outcome_family` field is a harmonization bucket, not a replacement for the paper's own dependent-variable wording. The paper-visible variable is preserved in `outcome_name`; `outcome_family` only groups those variables into broad comparison classes such as `birth_probability`, `completed_fertility`, `crude_birth_rate`, `child_woman_ratio`, or `other`. Binary or annual birth indicators are coded as `birth_probability`; children-ever-born or number-of-children measures as `completed_fertility`; aggregate rate measures as `crude_birth_rate`; child-woman-ratio measures as `child_woman_ratio`; and non-fertility or nonstandard outcomes as `other`.
+
 ## 7. Demographic Significance
 
 ### 7.1 Pre-Modern Fertility Variation
