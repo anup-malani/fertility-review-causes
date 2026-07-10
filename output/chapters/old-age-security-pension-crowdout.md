@@ -9,7 +9,7 @@
 
 ## 1. Bottom-Line Verdict
 
-Old-age security is a real household fertility mechanism, but not a single transition-level story. The clean direct evidence points in one direction: when households receive a credible substitute for children as old-age support, fertility falls. That finding is strongest in rural, historical, and developing settings where children still plausibly insure old age. It does not mean state pensions caused the First Demographic Transition. Public pensions mostly arrived after that decline had begun. The better-timed first-transition version is financial development: banks and savings instruments gave households a non-child way to move resources into old age. The Second Demographic Transition is different again. The old-age-security motive is mostly saturated and often wrong-signed in rich low-fertility countries, but retirement policy also works through grandparental childcare. That channel points the right way for the SDT: later retirement and tighter early pensions keep grandparents at work, reduce childcare help, and lower fertility. The chapter's verdict is therefore narrow. The mechanism is causally credible, demographically modest, and reaches the SDT mainly through the childcare channel, not through the classic children-as-pensions motive.
+Old-age security is a real household fertility mechanism, but not a single transition-level story. The strongest classic pension-crowdout cases are mostly negative: when households receive a credible substitute for children as old-age support, fertility often falls in settings where children still plausibly insure old age. The current extracted Cell A effects also include positive, nonnegative, or ambiguous estimates in long-term-care insurance, Bismarck/Prussia, and U.S. Social Security/baby-boom settings, so direction is channel- and setting-specific. It does not mean state pensions caused the First Demographic Transition. Public pensions mostly arrived after that decline had begun. The better-timed first-transition version is financial development: banks and savings instruments gave households a non-child way to move resources into old age. The Second Demographic Transition is different again. The old-age-security motive is mostly saturated and often wrong-signed in rich low-fertility countries, but retirement policy also works through grandparental childcare. That channel points the right way for the SDT: later retirement and tighter early pensions keep grandparents at work, reduce childcare help, and lower fertility. The chapter's verdict is therefore narrow. The mechanism is causally credible, demographically modest, and reaches the SDT mainly through the childcare channel, not through the classic children-as-pensions motive.
 
 | Phenomenon | Causal credibility | Demographic significance | Bottom line |
 |---|---|---|---|
@@ -74,7 +74,7 @@ Nine studies estimate the forward pathway from non-child old-age security to fer
 | Basso, Bodenhorn, and Cuberes (2014) | United States, 1850 | Financial development | "child-woman ratio; crude birth rate" | Historical cross-county analysis | PM / FDT | The best-timed FDT mechanism: financial markets substitute for children before state pensions mature. |
 | Galofre-Vila (2023) | United States, 1940-1960 | 1935 Social Security Act | "total fertility rate...; number of own children under the age of five; number of children ever born" | Historical panel / census analysis | FDT | FDT-adjacent evidence, but weaker for the classic negative OAS motive because the baby-boom setting and sign require careful interpretation. |
 
-The strongest pattern is directional. Across countries, periods, and designs, the classic Cell A evidence does not show sign reversals: more non-child old-age security is associated with lower fertility, and pension-wealth cuts are associated with higher fertility. That sign agreement is meaningful, but it is not enough for the final chapter. The next pass must extract primary effect sizes, uncertainty, table/page locations, and any reported R-squared or variance-share measures.
+The current extraction records one primary estimate per included quantitative study where available, with original units, uncertainty when reported, and page/table locators. The remaining limits are RA verification, `needs_pi = yes` adjudication, compatible harmonization and sign orientation, and demographic-significance computation, including any reported R-squared or variance-share measures.
 
 ### 5.2 Cell B: Mechanism Evidence
 
@@ -86,7 +86,7 @@ The PI review also identifies Ruthbah (2022) as a parallel mechanism paper from 
 
 The SDT case depends on the grandparental-childcare channel. The PI review names three studies: Eibich and Siedler (Germany), Ilciukas (Netherlands), and Akyol and Atalay (Australia). These studies are not classic children-as-pensions evidence. They identify a different mechanism: pension or retirement policy changes grandparents' availability, which changes adult children's fertility.
 
-The sign is the key. Retired grandparents can lower childcare costs. If retirement eligibility expands, fertility can rise. If retirement ages increase or early pensions shrink, grandparents remain at work, childcare help falls, and fertility can fall. That sign matches the SDT era better than the classic OAS motive does. The grandparental-childcare studies therefore belong at the center of the SDT discussion, but they must be retrieved and extracted before the final quantitative synthesis.
+The sign is the key. Retired grandparents can lower childcare costs. If retirement eligibility expands, fertility can rise. If retirement ages increase or early pensions shrink, grandparents remain at work, childcare help falls, and fertility can fall. That sign matches the SDT era better than the classic OAS motive does. The summary-of-findings table keeps Cell C on a separate SDT track pending retrieval or extraction; it is not pooled with classic OAS estimates.
 
 ### 5.4 Cell D: Indirect Chain Evidence
 
@@ -145,11 +145,11 @@ The final chapter should keep internal validity and external validity separate. 
 
 ## 9. Risk of Bias and Identification Quality
 
-A formal ROBINS-I-style table is still pending. The qualitative identification ranking is clear enough for a first draft.
+A Codex-stage ROBINS-I-inspired table has been generated for the included empirical studies, but all rows remain pending RA/PI verification.
 
-The strongest direct evidence comes from quasi-experimental pension expansions or eligibility changes with credible comparison groups: Rossi and Godard, Danzer and Zyska, and the grandparental-childcare studies named in the PI review. The historical evidence is important but more exposed to confounding, measurement, and ecological inference concerns. The China evidence is useful but needs careful treatment because fertility policy and pension policy overlap in time and because SDT transportability is weak. Mechanism studies such as Ci are internally relevant but do not estimate the fertility outcome.
+The table covers confounding, selection, exposure classification, deviations, missing data, outcome measurement, reported-result selection, and identification credibility. Each current row has `ra_verified = no`, so the judgments should be treated as an audit scaffold rather than final risk-of-bias adjudication.
 
-The final risk-of-bias table should judge confounding, selection, intervention classification, deviations from intended exposure, missing data, outcome measurement, reported-result selection, and identification credibility. Any numeric claim in the final draft should trace to a page, table, or figure.
+The strongest direct evidence comes from quasi-experimental pension expansions or eligibility changes with credible comparison groups: Rossi and Godard, Danzer and Zyska, and the grandparental-childcare studies named in the PI review. The historical evidence is important but more exposed to confounding, measurement, and ecological inference concerns. The China evidence is useful but needs careful treatment because fertility policy and pension policy overlap in time and because SDT transportability is weak. Mechanism studies such as Ci are internally relevant but do not estimate the fertility outcome. Any numeric claim in the final draft should trace to a page, table, or figure.
 
 ## 10. Summary of Findings
 
@@ -170,9 +170,9 @@ This is why the chapter should not ask whether "pensions reduce fertility" as a 
 
 ## 12. Open Questions and High-Value Next Steps
 
-1. Extract one primary effect estimate per Cell A study, with original units, standard errors or confidence intervals, and page/table/figure locations.
+1. RA-verify the extracted primary effects, resolve `needs_pi = yes` rows, and add any reported R-squared or variance-share measures.
 2. Retrieve and extract the three Cell C grandparental-childcare studies because they carry the SDT verdict.
-3. Complete the risk-of-bias table and separate identification credibility from transportability.
+3. RA/PI-verify the generated risk-of-bias table and refine the identification and transportability narrative.
 4. Build the demographic-significance table for PM, FDT, and SDT using slope sufficiency, decomposition share where possible, and reported R-squared or variance-share measures where available.
 5. Decide whether Ghana and Ruthbah should be added to the retrieved corpus before the final chapter.
 6. Move Cell D chain-link studies to an appendix table instead of dropping them.
@@ -184,6 +184,8 @@ This is why the chapter should not ask whether "pensions reduce fertility" as a 
 - Style guide: `docs/appellate-style-guide.md`
 - Pipeline design: `docs/meta-analysis-paper-pipeline-design.md`
 - Effect harmonization rules: `docs/meta-analysis-effect-size-harmonization.md`
+- Meta-analysis pipeline: `source/analysis/oas_meta_pipeline.py`
+- Meta-analysis pipeline tests: `source/analysis/test_oas_meta_pipeline.py`
 - Study extraction: `extraction/old-age-security-pension-crowdout-studies.csv`
 - Target-period derivation: `extraction/old-age-security-pension-crowdout-target-period-relevance.csv`
 - Theory sources: `extraction/old-age-security-pension-crowdout-theory-sources.csv`
