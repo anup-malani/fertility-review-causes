@@ -606,9 +606,125 @@ grandparental childcare separate.
 
 ### Open Items
 
-- [ ] Extract the Cell C grandparental-childcare studies.
+- [x] Extract the Cell C grandparental-childcare studies.
 - [ ] Finalize GRADE/summary adjudication after Cell C extraction.
 - [ ] Create the RA readability-check queue for the chapter.
+
+---
+
+## [2026-07-11] — OAS Cell C grandparental-childcare extraction completed
+
+**Agent:** Codex
+**Machine:** Alexandra workspace
+**Working directory:** `/Users/alexandra/Library/CloudStorage/Box-Box/fertility-review-causes`
+
+### Summary
+
+Renamed the newly downloaded Cell C PDFs and extracted the PI-identified
+grandparental-childcare evidence into the OAS source extraction files. Cell C is now a separate
+SDT track in the meta-analysis pipeline rather than a pending/unquantified channel.
+
+### Outputs
+
+- `literature/pdfs/old-age-security-pension-crowdout/eibich-siedler-2020-retirement-intergenerational-time-transfers-fertility-european-economic-review.pdf`
+- `literature/pdfs/old-age-security-pension-crowdout/ilciukas-2023-fertility-parental-retirement-journal-of-public-economics.pdf`
+- `literature/pdfs/old-age-security-pension-crowdout/akyol-atalay-2025-intergenerational-impact-pension-reforms-grandmothers-fertility-economics-letters.pdf`
+- `extraction/old-age-security-pension-crowdout-studies.csv` — added 3 Cell C studies.
+- `extraction/old-age-security-pension-crowdout-effects.csv` — added 8 Cell C effect rows.
+- `extraction/old-age-security-pension-crowdout-risk-of-bias.csv` — added Cell C risk-of-bias rows.
+- `extraction/old-age-security-pension-crowdout-target-period-relevance.csv` — added Cell C study windows.
+- `output/old-age-security-pension-crowdout-effect-extraction-review.csv` — regenerated review sheet.
+- `output/tables/old-age-security-pension-crowdout-demographic-significance.csv` — SDT Cell C now
+  `partial_pending_slope_scaling`.
+
+### Result
+
+All three Cell C studies classify as SDT by the replacement-status TFR rule. After orienting to
+greater grandparent availability, the Cell C direction is positive: grandparent availability raises
+fertility, while delayed retirement reduces it. The Cell C effects remain a separate track and are
+not pooled with Cell A old-age-security crowd-out estimates.
+
+### Verification
+
+- `python3 source/analysis/oas_transition_classification.py`
+- `python3 source/analysis/oas_meta_pipeline.py`
+- `python3 -m unittest source/analysis/test_oas_meta_pipeline.py source/analysis/test_oas_transition_classification.py`
+- `git diff --check`
+
+### Open Items
+
+- [ ] Scale Cell C estimates against observed retirement-age changes and childcare availability.
+- [ ] Finalize GRADE/summary adjudication.
+- [ ] Create the RA readability-check queue for the chapter.
+
+---
+
+## [2026-07-11] — OAS noob-readable Cell C slope-scaling table
+
+**Agent:** Codex
+**Machine:** Alexandra workspace
+**Working directory:** `/Users/alexandra/Library/CloudStorage/Box-Box/fertility-review-causes`
+
+### Summary
+
+Added a reproducible noob-readable slope-scaling output for the Cell C grandparental-childcare
+track. The table orients every extracted Cell C effect to greater grandparent availability and
+keeps the output separate from Cell A coefficient pooling.
+
+### Outputs
+
+- `output/tables/old-age-security-pension-crowdout-cell-c-slope-scaling.csv`
+- `output/old-age-security-pension-crowdout-cell-c-slope-scaling.md`
+- `source/analysis/oas_meta_pipeline.py` — generator and Cell C availability-orientation logic.
+- `source/analysis/test_oas_meta_pipeline.py` — regression coverage for the new output.
+
+### Result
+
+The table includes 3 studies and 8 effect rows. All 8 are positive after orienting to greater
+grandparent availability. The note states that the rows should not be coefficient-pooled because
+they use different treatment scales.
+
+### Verification
+
+- `python3 source/analysis/oas_meta_pipeline.py`
+- `python3 -m unittest source/analysis/test_oas_meta_pipeline.py source/analysis/test_oas_transition_classification.py`
+- `git diff --check`
+
+---
+
+## [2026-07-11] — OAS Cell C slope-sufficiency screen
+
+**Agent:** Codex
+**Machine:** Alexandra workspace
+**Working directory:** `/Users/alexandra/Library/CloudStorage/Box-Box/fertility-review-causes`
+
+### Summary
+
+Implemented the next noob-meta-analysis step for Cell C: a slope-sufficiency screen comparing
+availability-oriented Cell C effects with observed TFR declines in the corresponding country and
+study window.
+
+### Outputs
+
+- `output/tables/old-age-security-pension-crowdout-cell-c-slope-sufficiency.csv`
+- `output/old-age-security-pension-crowdout-cell-c-slope-sufficiency.md`
+- `output/tables/old-age-security-pension-crowdout-demographic-significance.csv` — SDT Cell C
+  now reports `partial_slope_screening_support`.
+- `source/analysis/oas_meta_pipeline.py` — slope-sufficiency generator.
+- `source/analysis/test_oas_meta_pipeline.py` — coverage for contribution shares and no-decline
+  windows.
+
+### Result
+
+Six Cell C rows are large relative to observed TFR declines in the Netherlands and Australia
+windows. The two Germany rows are not assigned a contribution share because Germany's TFR rises
+slightly over the 1984-2017 SOEP window, so there is no observed decline denominator.
+
+### Verification
+
+- `python3 source/analysis/oas_meta_pipeline.py`
+- `python3 -m unittest source/analysis/test_oas_meta_pipeline.py source/analysis/test_oas_transition_classification.py`
+- `git diff --check`
 
 ---
 

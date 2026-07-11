@@ -135,6 +135,48 @@ DEMOGRAPHIC_SIGNIFICANCE_COLUMNS = [
     "next_required_step",
 ]
 
+CELL_C_SLOPE_COLUMNS = [
+    "effect_id",
+    "study_id",
+    "pdf_filename",
+    "estimand_label",
+    "outcome_name",
+    "outcome_family",
+    "harmonized_outcome_unit",
+    "treatment_scale_harmonized",
+    "reported_effect",
+    "reported_se",
+    "availability_orientation",
+    "availability_oriented_effect",
+    "availability_oriented_se",
+    "plain_english_effect",
+    "pooling_status",
+    "slope_scaling_status",
+    "source_locator",
+]
+
+CELL_C_SLOPE_SUFFICIENCY_COLUMNS = [
+    "effect_id",
+    "study_id",
+    "country_or_region",
+    "period_start",
+    "period_end",
+    "estimand_label",
+    "outcome_name",
+    "harmonized_outcome_unit",
+    "treatment_scale_harmonized",
+    "availability_oriented_effect",
+    "availability_oriented_se",
+    "tfr_start",
+    "tfr_end",
+    "observed_tfr_decline",
+    "effect_share_of_observed_decline",
+    "slope_sufficiency_label",
+    "comparison_basis",
+    "interpretation",
+    "caveat",
+]
+
 
 def read_csv(path: Path) -> list[dict[str, str]]:
     with path.open(newline="", encoding="utf-8") as handle:
@@ -241,6 +283,20 @@ MIXED_OR_BROADER_EFFECT_IDS = {
     "galofre_vila_2023_us_baby_boom_e02",
 }
 
+INCREASE_GRANDPARENT_AVAILABILITY_EFFECT_IDS = {
+    "eibich_siedler_2020_germany_parental_retirement_e01",
+    "eibich_siedler_2020_germany_parental_retirement_e02",
+    "akyol_atalay_2025_australia_grandmothers_pension_e01",
+    "akyol_atalay_2025_australia_grandmothers_pension_e02",
+}
+
+DECREASE_GRANDPARENT_AVAILABILITY_EFFECT_IDS = {
+    "ilciukas_2023_netherlands_parental_retirement_e01",
+    "ilciukas_2023_netherlands_parental_retirement_e02",
+    "ilciukas_2023_netherlands_parental_retirement_e03",
+    "ilciukas_2023_netherlands_parental_retirement_e04",
+}
+
 TREATMENT_SCALE_BY_EFFECT_ID = {
     "danzer_zyska_2023_brazil_pensions_e01": "pension_expansion_binary_exposure",
     "danzer_zyska_2023_brazil_pensions_e02": "pension_expansion_binary_exposure",
@@ -258,6 +314,14 @@ TREATMENT_SCALE_BY_EFFECT_ID = {
     "galofre_vila_2023_us_baby_boom_e01": "broad_social_spending_exposure",
     "galofre_vila_2023_us_baby_boom_e02": "broad_social_spending_exposure",
     "ci_2024_children_insurance_e01": "children_count_as_treatment_mechanism",
+    "eibich_siedler_2020_germany_parental_retirement_e01": "parental_retirement_iv_binary_exposure",
+    "eibich_siedler_2020_germany_parental_retirement_e02": "parental_retirement_iv_binary_exposure",
+    "ilciukas_2023_netherlands_parental_retirement_e01": "delayed_maternal_retirement_reform_assignment",
+    "ilciukas_2023_netherlands_parental_retirement_e02": "one_year_maternal_retirement_delay_iv",
+    "ilciukas_2023_netherlands_parental_retirement_e03": "delayed_maternal_retirement_reform_assignment",
+    "ilciukas_2023_netherlands_parental_retirement_e04": "one_year_maternal_retirement_delay_iv",
+    "akyol_atalay_2025_australia_grandmothers_pension_e01": "maternal_grandmother_pension_eligibility_binary",
+    "akyol_atalay_2025_australia_grandmothers_pension_e02": "maternal_grandmother_pension_eligibility_binary",
 }
 
 
@@ -347,6 +411,8 @@ def harmonize_effect_row(row: dict[str, str]) -> dict[str, str]:
         )
         if cell == "A":
             out["poolability_reason"] = COMPATIBILITY_REQUIRED_REASON
+        elif cell == "C":
+            out["poolability_reason"] = "cell_c_separate_grandparent_childcare_track"
         else:
             out["poolability_reason"] = "missing_standard_error_or_wrong_cell"
         orient_more_oas_effect(out)
@@ -363,6 +429,8 @@ def harmonize_effect_row(row: dict[str, str]) -> dict[str, str]:
         )
         if cell == "A":
             out["poolability_reason"] = COMPATIBILITY_REQUIRED_REASON
+        elif cell == "C":
+            out["poolability_reason"] = "cell_c_separate_grandparent_childcare_track"
         else:
             out["poolability_reason"] = "missing_standard_error_or_wrong_cell"
         orient_more_oas_effect(out)
@@ -759,12 +827,13 @@ def write_summary_of_findings(summary_path: Path, sof_path: Path) -> None:
         },
         {
             "outcome_or_channel": "Grandparental childcare",
-            "studies": "Cell C studies identified by PI review",
-            "synthesis": "separate SDT track outside current quantitative package",
-            "certainty": "not quantified in current quantitative package",
+            "studies": "Extracted Cell C studies identified by PI review",
+            "synthesis": "separate SDT track; not pooled with Cell A",
+            "certainty": "moderate for direction; not coefficient-pooled",
             "interpretation": (
-                "This channel is opposite-signed and should not be pooled with the "
-                "classic OAS motive."
+                "This channel is opposite to the classic old-age-security crowd-out "
+                "logic: greater grandparent availability tends to raise fertility, "
+                "while delayed retirement tends to lower it."
             ),
         },
         {
@@ -775,7 +844,8 @@ def write_summary_of_findings(summary_path: Path, sof_path: Path) -> None:
             "interpretation": (
                 "Current evidence supports partial FDT relevance for the classic OAS "
                 "motive, weak or contextual SDT relevance for the classic motive, "
-                "and unquantified SDT relevance for the grandparental-childcare channel."
+                "and partial SDT relevance for the grandparental-childcare channel "
+                "pending slope scaling."
             ),
         },
     ]
@@ -806,6 +876,22 @@ def _cell_a_rows_for_transition(
     return rows
 
 
+def _cell_c_rows_for_transition(
+    harmonized_rows: list[dict[str, str]],
+    transition_by_study: dict[str, dict[str, str]],
+    token: str,
+) -> list[dict[str, str]]:
+    rows: list[dict[str, str]] = []
+    for row in harmonized_rows:
+        if row.get("mechanism_cell") != "C":
+            continue
+        transition = transition_by_study.get(row.get("study_id", ""), {})
+        label = transition.get("derived_period_target_relevance_tfr", "")
+        if token in label:
+            rows.append(row)
+    return rows
+
+
 def _unique_studies(rows: list[dict[str, str]]) -> set[str]:
     return {row.get("study_id", "") for row in rows if row.get("study_id", "")}
 
@@ -816,6 +902,338 @@ def _oriented_effects(rows: list[dict[str, str]]) -> list[Decimal]:
         for effect in (_decimal(row.get("effect_oriented_more_oas", "")) for row in rows)
         if effect is not None
     ]
+
+
+def _harmonized_effects(rows: list[dict[str, str]]) -> list[Decimal]:
+    return [
+        effect
+        for effect in (_decimal(row.get("effect_harmonized", "")) for row in rows)
+        if effect is not None
+    ]
+
+
+def _cell_c_effects_oriented_more_grandparent_availability(
+    rows: list[dict[str, str]],
+) -> list[Decimal]:
+    oriented: list[Decimal] = []
+    for row in rows:
+        effect = _decimal(row.get("effect_harmonized", ""))
+        if effect is None:
+            continue
+        effect_id = row.get("effect_id", "")
+        if effect_id in DECREASE_GRANDPARENT_AVAILABILITY_EFFECT_IDS:
+            oriented.append(-effect)
+        elif effect_id in INCREASE_GRANDPARENT_AVAILABILITY_EFFECT_IDS:
+            oriented.append(effect)
+    return oriented
+
+
+def _cell_c_availability_orientation(effect_id: str) -> str:
+    if effect_id in DECREASE_GRANDPARENT_AVAILABILITY_EFFECT_IDS:
+        return "sign_flipped_delayed_retirement_reduces_availability"
+    if effect_id in INCREASE_GRANDPARENT_AVAILABILITY_EFFECT_IDS:
+        return "as_reported_treatment_increases_availability"
+    return "uncoded_cell_c_orientation"
+
+
+def _cell_c_oriented_effect(row: dict[str, str]) -> Decimal | None:
+    effect = _decimal(row.get("effect_harmonized", ""))
+    if effect is None:
+        return None
+    effect_id = row.get("effect_id", "")
+    if effect_id in DECREASE_GRANDPARENT_AVAILABILITY_EFFECT_IDS:
+        return -effect
+    if effect_id in INCREASE_GRANDPARENT_AVAILABILITY_EFFECT_IDS:
+        return effect
+    return None
+
+
+def _cell_c_plain_english(row: dict[str, str], oriented_effect: Decimal | None) -> str:
+    unit = row.get("harmonized_outcome_unit", "") or row.get("outcome_unit_original", "")
+    formatted = _format_decimal(oriented_effect)
+    effect_id = row.get("effect_id", "")
+    if not formatted:
+        return "Effect is not numerically oriented to grandparent availability."
+    if effect_id in DECREASE_GRANDPARENT_AVAILABILITY_EFFECT_IDS:
+        return (
+            "Delayed retirement/reduced grandparent availability lowers fertility; "
+            f"oriented to more grandparent availability, the effect is {formatted} {unit}."
+        )
+    if effect_id in INCREASE_GRANDPARENT_AVAILABILITY_EFFECT_IDS:
+        return (
+            "Greater grandparent availability raises fertility; "
+            f"the effect is {formatted} {unit}."
+        )
+    return f"Cell C effect is {formatted} {unit}, but orientation needs review."
+
+
+def make_cell_c_slope_rows(harmonized_rows: list[dict[str, str]]) -> list[dict[str, str]]:
+    rows: list[dict[str, str]] = []
+    for row in harmonized_rows:
+        if row.get("mechanism_cell") != "C":
+            continue
+        oriented_effect = _cell_c_oriented_effect(row)
+        se = _decimal(row.get("se_harmonized", ""))
+        rows.append(
+            {
+                "effect_id": row.get("effect_id", ""),
+                "study_id": row.get("study_id", ""),
+                "pdf_filename": row.get("pdf_filename", ""),
+                "estimand_label": row.get("estimand_label", ""),
+                "outcome_name": row.get("outcome_name", ""),
+                "outcome_family": row.get("outcome_family", ""),
+                "harmonized_outcome_unit": row.get("harmonized_outcome_unit", ""),
+                "treatment_scale_harmonized": row.get("treatment_scale_harmonized", ""),
+                "reported_effect": row.get("effect_harmonized", ""),
+                "reported_se": row.get("se_harmonized", ""),
+                "availability_orientation": _cell_c_availability_orientation(
+                    row.get("effect_id", "")
+                ),
+                "availability_oriented_effect": _format_decimal(oriented_effect),
+                "availability_oriented_se": _format_decimal(se),
+                "plain_english_effect": _cell_c_plain_english(row, oriented_effect),
+                "pooling_status": "do_not_coefficient_pool_distinct_treatment_scales",
+                "slope_scaling_status": "ready_for_manual_or_macro_scale_assumption",
+                "source_locator": "; ".join(
+                    part
+                    for part in [
+                        row.get("extract_page", ""),
+                        row.get("extract_quote_or_note", ""),
+                    ]
+                    if part
+                ),
+            }
+        )
+    return rows
+
+
+def write_cell_c_slope_note(rows: list[dict[str, str]], note_path: Path) -> None:
+    studies = sorted({row["study_id"] for row in rows if row.get("study_id")})
+    units = sorted(
+        {row["harmonized_outcome_unit"] for row in rows if row.get("harmonized_outcome_unit")}
+    )
+    positive = sum(
+        1
+        for row in rows
+        if (_decimal(row.get("availability_oriented_effect", "")) or Decimal("0")) > 0
+    )
+    negative = sum(
+        1
+        for row in rows
+        if (_decimal(row.get("availability_oriented_effect", "")) or Decimal("0")) < 0
+    )
+    lines = [
+        "# Cell C Slope Scaling",
+        "",
+        "## What This Table Does",
+        "",
+        (
+            "This is the noob-readable Cell C synthesis table for the OAS chapter. It "
+            "takes the extracted grandparental-childcare estimates and orients them to "
+            "one interpretation: more grandparent availability."
+        ),
+        "",
+        "## Current Result",
+        "",
+        f"- {len(studies)} studies and {len(rows)} effect rows are included.",
+        f"- Harmonized outcome units present: {', '.join(units) if units else 'none'}.",
+        f"- Direction after orientation: {positive} positive, {negative} negative.",
+        (
+            "- Do not coefficient-pool these rows. The studies use different treatments: "
+            "parental retirement, delayed maternal retirement, and grandmother pension "
+            "eligibility."
+        ),
+        "",
+        "## How To Read It",
+        "",
+        (
+            "A positive availability-oriented effect means greater grandparent availability "
+            "is associated with higher fertility. Ilciukas is sign-flipped because its "
+            "treatment is delayed retirement, which reduces grandparent availability."
+        ),
+        "",
+        "## Next Scaling Step",
+        "",
+        (
+            "To turn this into slope sufficiency, choose a policy-scale assumption such as "
+            "a one-year retirement-age delay or an observed change in grandmother pension "
+            "eligibility, then compare the implied fertility change with the observed SDT "
+            "TFR decline in the same setting."
+        ),
+        "",
+    ]
+    note_path.parent.mkdir(parents=True, exist_ok=True)
+    note_path.write_text("\n".join(lines), encoding="utf-8")
+
+
+def write_cell_c_slope_scaling(
+    harmonized_path: Path, output_path: Path, note_path: Path
+) -> None:
+    rows = make_cell_c_slope_rows(read_csv(harmonized_path))
+    write_csv(output_path, rows, CELL_C_SLOPE_COLUMNS)
+    write_cell_c_slope_note(rows, note_path)
+
+
+def _contribution_label(share: Decimal | None) -> str:
+    if share is None:
+        return "not_computed"
+    if share < Decimal("0.05"):
+        return "small"
+    if share <= Decimal("0.15"):
+        return "moderate"
+    return "large"
+
+
+def _sufficiency_label(
+    share: Decimal | None, decline: Decimal | None, effect: Decimal | None
+) -> str:
+    if decline is not None and decline <= 0:
+        return "not_applicable_no_observed_decline"
+    if effect is None or decline is None:
+        return "not_computed"
+    return _contribution_label(share)
+
+
+def _format_share(value: Decimal | None) -> str:
+    if value is None:
+        return ""
+    return _format_decimal(value.quantize(Decimal("0.0001")))
+
+
+def make_cell_c_slope_sufficiency_rows(
+    slope_rows: list[dict[str, str]], transition_rows: list[dict[str, str]]
+) -> list[dict[str, str]]:
+    transition_by_study = _study_transition_map(transition_rows)
+    rows: list[dict[str, str]] = []
+    for row in slope_rows:
+        transition = transition_by_study.get(row.get("study_id", ""), {})
+        effect = _decimal(row.get("availability_oriented_effect", ""))
+        tfr_start = _decimal(transition.get("tfr_start", ""))
+        tfr_end = _decimal(transition.get("tfr_end", ""))
+        decline = None
+        share = None
+        if tfr_start is not None and tfr_end is not None:
+            decline = tfr_start - tfr_end
+            if decline > 0 and effect is not None:
+                share = abs(effect) / abs(decline)
+        country = transition.get("country_or_region", "")
+        if share is not None:
+            interpretation = (
+                f"Effect is about {(share * Decimal('100')).quantize(Decimal('0.1'))}% "
+                f"of the observed SDT TFR decline in {country}."
+            )
+        elif decline is not None and decline <= 0:
+            interpretation = (
+                f"No slope-sufficiency share computed because TFR did not decline in "
+                f"{country} over this study window."
+            )
+        else:
+            interpretation = (
+                "Effect share is not computed because the effect or TFR decline is missing."
+            )
+        label = _sufficiency_label(share, decline, effect)
+        rows.append(
+            {
+                "effect_id": row.get("effect_id", ""),
+                "study_id": row.get("study_id", ""),
+                "country_or_region": country,
+                "period_start": transition.get("period_start", ""),
+                "period_end": transition.get("period_end", ""),
+                "estimand_label": row.get("estimand_label", ""),
+                "outcome_name": row.get("outcome_name", ""),
+                "harmonized_outcome_unit": row.get("harmonized_outcome_unit", ""),
+                "treatment_scale_harmonized": row.get("treatment_scale_harmonized", ""),
+                "availability_oriented_effect": row.get(
+                    "availability_oriented_effect", ""
+                ),
+                "availability_oriented_se": row.get("availability_oriented_se", ""),
+                "tfr_start": transition.get("tfr_start", ""),
+                "tfr_end": transition.get("tfr_end", ""),
+                "observed_tfr_decline": (
+                    _format_decimal(decline)
+                    if decline is not None and decline > 0
+                    else ""
+                ),
+                "effect_share_of_observed_decline": _format_share(share),
+                "slope_sufficiency_label": label,
+                "comparison_basis": (
+                    "absolute availability-oriented effect divided by absolute observed "
+                    "TFR decline over the study window"
+                ),
+                "interpretation": interpretation,
+                "caveat": (
+                    "Noob-scale comparison only: outcomes include probabilities and births "
+                    "per woman, while observed decline is TFR; use for slope-sufficiency "
+                    "screening, not coefficient pooling."
+                ),
+            }
+        )
+    return rows
+
+
+def write_cell_c_slope_sufficiency_note(
+    rows: list[dict[str, str]], note_path: Path
+) -> None:
+    counts: dict[str, int] = {}
+    for row in rows:
+        label = row.get("slope_sufficiency_label", "not_computed")
+        counts[label] = counts.get(label, 0) + 1
+    count_text = ", ".join(
+        f"{counts[label]} {label}"
+        for label in [
+            "small",
+            "moderate",
+            "large",
+            "not_applicable_no_observed_decline",
+            "not_computed",
+        ]
+        if counts.get(label)
+    )
+    lines = [
+        "# Cell C Slope Sufficiency",
+        "",
+        "## What This Adds",
+        "",
+        (
+            "This table compares each Cell C availability-oriented effect with the observed "
+            "TFR decline in that study's country and window. It is a first-pass magnitude "
+            "screen, not a pooled meta-analysis."
+        ),
+        "",
+        "## Rule",
+        "",
+        "- Share < 5% of observed TFR decline: small.",
+        "- Share between 5% and 15%: moderate.",
+        "- Share > 15%: large.",
+        "",
+        "## Current Result",
+        "",
+        f"- {len(rows)} Cell C effect rows were compared.",
+        f"- Labels: {count_text if count_text else 'none'}.",
+        "",
+        "## Caveat",
+        "",
+        (
+            "The comparison intentionally keeps the math simple for chapter drafting. It "
+            "divides effect magnitudes by observed TFR declines even when the paper outcome "
+            "is a birth probability rather than TFR. Treat the labels as slope-sufficiency "
+            "screening language, not as exact decomposition shares."
+        ),
+        "",
+    ]
+    note_path.parent.mkdir(parents=True, exist_ok=True)
+    note_path.write_text("\n".join(lines), encoding="utf-8")
+
+
+def write_cell_c_slope_sufficiency(
+    slope_path: Path, transition_path: Path, output_path: Path, note_path: Path
+) -> None:
+    rows = make_cell_c_slope_sufficiency_rows(
+        read_csv(slope_path), read_csv(transition_path)
+    )
+    write_csv(output_path, rows, CELL_C_SLOPE_SUFFICIENCY_COLUMNS)
+    write_cell_c_slope_sufficiency_note(rows, note_path)
+
 
 
 def _direction_summary(effects: list[Decimal]) -> str:
@@ -881,8 +1299,14 @@ def write_demographic_significance(
 
     fdt_rows = _cell_a_rows_for_transition(harmonized_rows, transition_by_study, "FDT")
     sdt_rows = _cell_a_rows_for_transition(harmonized_rows, transition_by_study, "SDT")
+    sdt_cell_c_rows = _cell_c_rows_for_transition(
+        harmonized_rows, transition_by_study, "SDT"
+    )
     fdt_effects = _oriented_effects(fdt_rows)
     sdt_effects = _oriented_effects(sdt_rows)
+    sdt_cell_c_effects = _cell_c_effects_oriented_more_grandparent_availability(
+        sdt_cell_c_rows
+    )
 
     rows = [
         {
@@ -957,25 +1381,30 @@ def write_demographic_significance(
         {
             "phenomenon_channel": "SDT_grandparental_childcare",
             "target_phenomenon": "Second Demographic Transition, grandparental-childcare channel",
-            "evidence_base": "Cell C studies identified by PI review but not yet extracted in the quantitative package.",
-            "n_cell_a_studies": "0",
-            "n_oriented_effects": "0",
-            "oriented_effect_direction": "not_quantified",
-            "coefficient_pooling_status": "not_applicable_pending_cell_c_extraction",
-            "slope_sufficiency": "not_computed_pending_cell_c_extraction",
-            "demographic_significance_verdict": "insufficient_data_pending_cell_c_extraction",
+            "evidence_base": "Extracted Cell C studies identified by PI review.",
+            "n_cell_a_studies": str(len(_unique_studies(sdt_cell_c_rows))),
+            "n_oriented_effects": str(len(sdt_cell_c_effects)),
+            "oriented_effect_direction": _direction_summary(sdt_cell_c_effects),
+            "coefficient_pooling_status": "not_coefficient_pooled_separate_cell_c_track",
+            "slope_sufficiency": "large_screening_effects_but_not_formal_decomposition",
+            "demographic_significance_verdict": "partial_slope_screening_support",
             "causal_credibility_summary": (
-                "This is the PI-identified SDT-relevant channel, but it is not represented "
-                "in the current Cell A classic-OAS effect table."
+                "Quasi-experimental evidence from Germany, the Netherlands, and Australia "
+                "supports a fertility-relevant grandparental-childcare channel, but the "
+                "effects use distinct treatment scales and should not be pooled with Cell A."
             ),
-            "transition_classification_basis": "Cell C study windows not yet extracted.",
-            "needs_human_review": "yes",
+            "transition_classification_basis": _transition_basis(
+                sdt_cell_c_rows, transition_by_study
+            ),
+            "needs_human_review": _any_needs_human_review(
+                sdt_cell_c_rows, transition_by_study
+            ),
             "rationale": (
-                "Grandparental childcare has the right conceptual sign for SDT, but the "
-                "chapter cannot quantify it until Eibich-Siedler, Ilciukas, and "
-                "Akyol-Atalay are extracted."
+                "All extracted Cell C studies are below-replacement rich-country settings. "
+                "Their signs indicate that greater grandparent availability raises fertility, "
+                "or that delayed retirement lowers it, matching the PI-identified SDT channel."
             ),
-            "next_required_step": "Retrieve/extract Cell C studies and add them to a separate SDT childcare evidence table.",
+            "next_required_step": "Use the Cell C slope-sufficiency table for chapter language; finalize GRADE and RA readability review.",
         },
     ]
     write_csv(output_path, rows, DEMOGRAPHIC_SIGNIFICANCE_COLUMNS)
@@ -1008,6 +1437,12 @@ def main() -> None:
     sof_path = tables_dir / f"{SLUG}-summary-of-findings.csv"
     transition_path = tables_dir / f"{SLUG}-tfr-transition-classification.csv"
     demographic_significance_path = tables_dir / f"{SLUG}-demographic-significance.csv"
+    cell_c_slope_path = tables_dir / f"{SLUG}-cell-c-slope-scaling.csv"
+    cell_c_note_path = ROOT / "output" / f"{SLUG}-cell-c-slope-scaling.md"
+    cell_c_sufficiency_path = tables_dir / f"{SLUG}-cell-c-slope-sufficiency.csv"
+    cell_c_sufficiency_note_path = (
+        ROOT / "output" / f"{SLUG}-cell-c-slope-sufficiency.md"
+    )
     evidence_map_path = figures_dir / f"{SLUG}-evidence-map.csv"
 
     if effects_path.exists():
@@ -1016,7 +1451,14 @@ def main() -> None:
         write_csv(harmonized_path, rows, HARMONIZED_COLUMNS)
         write_meta_analysis_readiness(harmonized_path, readiness_path)
         write_meta_analysis_summary(harmonized_path, meta_summary_path)
+        write_cell_c_slope_scaling(harmonized_path, cell_c_slope_path, cell_c_note_path)
         if transition_path.exists():
+            write_cell_c_slope_sufficiency(
+                cell_c_slope_path,
+                transition_path,
+                cell_c_sufficiency_path,
+                cell_c_sufficiency_note_path,
+            )
             write_demographic_significance(
                 harmonized_path,
                 readiness_path,

@@ -3,7 +3,7 @@
 **Assigned:** any
 **Parallel-safe:** no
 **Blocks:** none
-**Blocked by:** TICK-020; Cell C extraction; final GRADE/RA review
+**Blocked by:** TICK-020; Cell C slope scaling; final GRADE/RA review
 **Touches:** output/tables/old-age-security-pension-crowdout-demographic-significance.csv, output/chapters/old-age-security-pension-crowdout.md
 
 ## Description
@@ -37,3 +37,21 @@ Compute demographic significance for PM/FDT/SDT and draft the OAS hybrid JEL/Coc
   PM insufficient direct evidence; FDT partial; SDT classic OAS not significant/contextual; SDT
   grandparental childcare pending Cell C extraction. Ticket remains open for theory stream,
   Cell C extraction, final GRADE/summary adjudication, and RA readability check.
+- 2026-07-11: Cell C grandparental-childcare extraction completed for Eibich-Siedler 2020,
+  Ilciukas 2023, and Akyol-Atalay 2025. The SDT grandparental-childcare row now reports
+  `partial_pending_slope_scaling` with positive direction after orienting effects to greater
+  grandparent availability. Ticket remains open for theory stream, Cell C slope scaling, final
+  GRADE/summary adjudication, and RA readability check.
+- 2026-07-11: Added noob-readable Cell C slope-scaling output at
+  `output/tables/old-age-security-pension-crowdout-cell-c-slope-scaling.csv` and interpretation
+  note at `output/old-age-security-pension-crowdout-cell-c-slope-scaling.md`. This orients all 8
+  Cell C effect rows to greater grandparent availability and marks them as not coefficient-pooled
+  because treatment scales differ. Ticket remains open for formal slope-sufficiency comparison
+  against observed SDT fertility changes, final GRADE/summary adjudication, and RA readability
+  check.
+- 2026-07-11: Added Cell C slope-sufficiency screen at
+  `output/tables/old-age-security-pension-crowdout-cell-c-slope-sufficiency.csv` and note at
+  `output/old-age-security-pension-crowdout-cell-c-slope-sufficiency.md`. Six rows are large
+  relative to observed TFR declines in the Netherlands and Australia windows; Germany is marked
+  not applicable because its study window has no observed TFR decline. Ticket remains open for
+  chapter integration, final GRADE/summary adjudication, and RA readability check.

@@ -8,12 +8,16 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from oas_meta_pipeline import (
     EFFECT_REQUIRED_COLUMNS,
+    CELL_C_SLOPE_COLUMNS,
+    CELL_C_SLOPE_SUFFICIENCY_COLUMNS,
     REVIEW_FIELDS,
     harmonize_effect_row,
     make_effect_review_columns,
     make_effect_review_sheet,
     validate_required_columns,
     write_csv,
+    write_cell_c_slope_scaling,
+    write_cell_c_slope_sufficiency,
     write_demographic_significance,
     write_meta_analysis_readiness,
 )
@@ -436,6 +440,14 @@ class OASMetaPipelineTests(unittest.TestCase):
                     "effect_oriented_more_oas": "",
                     "se_oriented_more_oas": "",
                 },
+                {
+                    "study_id": "cell_c_study",
+                    "mechanism_cell": "C",
+                    "effect_harmonized": "0.05",
+                    "se_harmonized": "0.01",
+                    "effect_oriented_more_oas": "",
+                    "se_oriented_more_oas": "",
+                },
             ]
             readiness_rows = [
                 {
@@ -458,6 +470,11 @@ class OASMetaPipelineTests(unittest.TestCase):
                     "study_id": "mechanism_study",
                     "derived_period_target_relevance_tfr": "SDT_contextual",
                     "needs_human_review": "yes",
+                },
+                {
+                    "study_id": "cell_c_study",
+                    "derived_period_target_relevance_tfr": "SDT",
+                    "needs_human_review": "no",
                 },
             ]
             write_csv(harmonized_path, harmonized_rows, list(harmonized_rows[0].keys()))
@@ -482,7 +499,192 @@ class OASMetaPipelineTests(unittest.TestCase):
             self.assertEqual(by_key["SDT_classic_oas"]["needs_human_review"], "yes")
             self.assertEqual(
                 by_key["SDT_grandparental_childcare"]["demographic_significance_verdict"],
-                "insufficient_data_pending_cell_c_extraction",
+                "partial_slope_screening_support",
+            )
+            self.assertEqual(
+                by_key["SDT_grandparental_childcare"]["n_cell_a_studies"],
+                "1",
+            )
+
+    def test_write_cell_c_slope_scaling_orients_availability_effects(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp_path = Path(tmp)
+            harmonized_path = tmp_path / "harmonized.csv"
+            output_path = tmp_path / "cell_c.csv"
+            note_path = tmp_path / "cell_c.md"
+            rows = [
+                {
+                    "effect_id": "ilciukas_2023_netherlands_parental_retirement_e01",
+                    "study_id": "ilciukas_2023_netherlands_parental_retirement",
+                    "pdf_filename": "ilciukas.pdf",
+                    "mechanism_cell": "C",
+                    "estimand_label": "Delayed retirement reform",
+                    "outcome_name": "number of children",
+                    "outcome_family": "completed_fertility",
+                    "harmonized_outcome_unit": "births_per_woman",
+                    "effect_harmonized": "-0.056",
+                    "se_harmonized": "0.021",
+                    "treatment_scale_harmonized": "delayed_maternal_retirement_reform_assignment",
+                    "extract_page": "PDF page 8, Table 2",
+                    "extract_quote_or_note": "RF = -0.056",
+                    "is_primary_estimate": "yes",
+                },
+                {
+                    "effect_id": "akyol_atalay_2025_australia_grandmothers_pension_e01",
+                    "study_id": "akyol_atalay_2025_australia_grandmothers_pension",
+                    "pdf_filename": "akyol.pdf",
+                    "mechanism_cell": "C",
+                    "estimand_label": "Grandmother pension eligibility",
+                    "outcome_name": "Being Mother",
+                    "outcome_family": "birth_probability",
+                    "harmonized_outcome_unit": "probability_of_birth",
+                    "effect_harmonized": "0.046",
+                    "se_harmonized": "0.008",
+                    "treatment_scale_harmonized": "maternal_grandmother_pension_eligibility_binary",
+                    "extract_page": "PDF page 3, Table 3",
+                    "extract_quote_or_note": "Being Mother = 0.046",
+                    "is_primary_estimate": "yes",
+                },
+                {
+                    "effect_id": "cell_a_effect",
+                    "study_id": "classic_oas",
+                    "mechanism_cell": "A",
+                    "effect_harmonized": "-0.1",
+                },
+            ]
+            write_csv(harmonized_path, rows, list(rows[0].keys()))
+
+            write_cell_c_slope_scaling(harmonized_path, output_path, note_path)
+
+            with output_path.open(newline="", encoding="utf-8") as handle:
+                output_rows = list(csv.DictReader(handle))
+            self.assertEqual(len(output_rows), 2)
+            self.assertEqual(list(output_rows[0].keys()), CELL_C_SLOPE_COLUMNS)
+            by_id = {row["effect_id"]: row for row in output_rows}
+            self.assertEqual(
+                by_id["ilciukas_2023_netherlands_parental_retirement_e01"][
+                    "availability_oriented_effect"
+                ],
+                "0.056",
+            )
+            self.assertEqual(
+                by_id["ilciukas_2023_netherlands_parental_retirement_e01"][
+                    "plain_english_effect"
+                ],
+                "Delayed retirement/reduced grandparent availability lowers fertility; oriented to more grandparent availability, the effect is 0.056 births_per_woman.",
+            )
+            self.assertEqual(
+                by_id["akyol_atalay_2025_australia_grandmothers_pension_e01"][
+                    "availability_oriented_effect"
+                ],
+                "0.046",
+            )
+
+            note = note_path.read_text(encoding="utf-8")
+            self.assertIn("Cell C Slope Scaling", note)
+            self.assertIn("Do not coefficient-pool", note)
+            self.assertIn("2 effect rows", note)
+
+    def test_write_cell_c_slope_sufficiency_compares_effect_to_tfr_decline(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp_path = Path(tmp)
+            slope_path = tmp_path / "cell_c.csv"
+            transition_path = tmp_path / "transition.csv"
+            output_path = tmp_path / "sufficiency.csv"
+            note_path = tmp_path / "sufficiency.md"
+            slope_rows = [
+                {
+                    "effect_id": "e1",
+                    "study_id": "s1",
+                    "pdf_filename": "paper.pdf",
+                    "estimand_label": "Grandmother pension eligibility",
+                    "outcome_name": "Being Mother",
+                    "outcome_family": "birth_probability",
+                    "harmonized_outcome_unit": "probability_of_birth",
+                    "treatment_scale_harmonized": "maternal_grandmother_pension_eligibility_binary",
+                    "reported_effect": "0.05",
+                    "reported_se": "0.01",
+                    "availability_orientation": "as_reported_treatment_increases_availability",
+                    "availability_oriented_effect": "0.05",
+                    "availability_oriented_se": "0.01",
+                    "plain_english_effect": "Greater grandparent availability raises fertility.",
+                    "pooling_status": "do_not_coefficient_pool_distinct_treatment_scales",
+                    "slope_scaling_status": "ready_for_manual_or_macro_scale_assumption",
+                    "source_locator": "PDF page 3",
+                }
+            ]
+            transition_rows = [
+                {
+                    "study_id": "s1",
+                    "country_or_region": "Exampleland",
+                    "period_start": "2000",
+                    "period_end": "2020",
+                    "tfr_start": "2.00",
+                    "tfr_end": "1.50",
+                    "derived_period_target_relevance_tfr": "SDT",
+                }
+            ]
+            write_csv(slope_path, slope_rows, CELL_C_SLOPE_COLUMNS)
+            write_csv(transition_path, transition_rows, list(transition_rows[0].keys()))
+
+            write_cell_c_slope_sufficiency(
+                slope_path, transition_path, output_path, note_path
+            )
+
+            with output_path.open(newline="", encoding="utf-8") as handle:
+                rows = list(csv.DictReader(handle))
+            self.assertEqual(len(rows), 1)
+            self.assertEqual(list(rows[0].keys()), CELL_C_SLOPE_SUFFICIENCY_COLUMNS)
+            self.assertEqual(rows[0]["observed_tfr_decline"], "0.5")
+            self.assertEqual(rows[0]["effect_share_of_observed_decline"], "0.1")
+            self.assertEqual(rows[0]["slope_sufficiency_label"], "moderate")
+            self.assertEqual(rows[0]["interpretation"], "Effect is about 10.0% of the observed SDT TFR decline in Exampleland.")
+
+            note = note_path.read_text(encoding="utf-8")
+            self.assertIn("Cell C Slope Sufficiency", note)
+            self.assertIn("1 moderate", note)
+
+    def test_write_cell_c_slope_sufficiency_skips_windows_without_tfr_decline(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp_path = Path(tmp)
+            slope_path = tmp_path / "cell_c.csv"
+            transition_path = tmp_path / "transition.csv"
+            output_path = tmp_path / "sufficiency.csv"
+            note_path = tmp_path / "sufficiency.md"
+            slope_row = {column: "" for column in CELL_C_SLOPE_COLUMNS}
+            slope_row.update(
+                {
+                    "effect_id": "e1",
+                    "study_id": "s1",
+                    "availability_oriented_effect": "0.05",
+                    "availability_oriented_se": "0.01",
+                }
+            )
+            transition_rows = [
+                {
+                    "study_id": "s1",
+                    "country_or_region": "Exampleland",
+                    "period_start": "2000",
+                    "period_end": "2020",
+                    "tfr_start": "1.50",
+                    "tfr_end": "1.70",
+                    "derived_period_target_relevance_tfr": "SDT",
+                }
+            ]
+            write_csv(slope_path, [slope_row], CELL_C_SLOPE_COLUMNS)
+            write_csv(transition_path, transition_rows, list(transition_rows[0].keys()))
+
+            write_cell_c_slope_sufficiency(
+                slope_path, transition_path, output_path, note_path
+            )
+
+            with output_path.open(newline="", encoding="utf-8") as handle:
+                rows = list(csv.DictReader(handle))
+            self.assertEqual(rows[0]["observed_tfr_decline"], "")
+            self.assertEqual(rows[0]["effect_share_of_observed_decline"], "")
+            self.assertEqual(
+                rows[0]["slope_sufficiency_label"],
+                "not_applicable_no_observed_decline",
             )
 
 

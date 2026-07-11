@@ -30,12 +30,29 @@ unclassified by TFR because the local source has no in-window observations. The 
 analytic steps are the broader demographic-significance macro pass and extraction of the
 PI-identified Cell C grandparental-childcare studies.
 
-Update: the OAS demographic-significance table now exists at
-`output/tables/old-age-security-pension-crowdout-demographic-significance.csv`. It records PM as
-insufficient direct evidence, FDT as partial, SDT classic OAS as not significant/contextual, and
-SDT grandparental childcare as insufficient pending Cell C extraction. The next highest-value step
-is therefore not another Cell A pooling attempt; it is Cell C extraction for the PI-identified
-grandparental-childcare papers, followed by final GRADE/summary adjudication.
+Update: the PI-identified Cell C grandparental-childcare studies have now been retrieved and
+extracted: Eibich-Siedler 2020, Ilciukas 2023, and Akyol-Atalay 2025. The OAS
+demographic-significance table now treats SDT grandparental childcare as
+`partial_pending_slope_scaling`, with all Cell C study windows classified as SDT and the effect
+direction positive after orienting to greater grandparent availability. The next highest-value step
+is final GRADE/summary adjudication and slope-sufficiency scaling for Cell C, not another Cell A
+pooling attempt.
+
+Update: a noob-readable Cell C slope-scaling table now exists at
+`output/tables/old-age-security-pension-crowdout-cell-c-slope-scaling.csv`, with a short
+interpretation note at `output/old-age-security-pension-crowdout-cell-c-slope-scaling.md`. It
+orients every Cell C estimate to "more grandparent availability," labels all 8 extracted effects as
+positive on that scale, and explicitly says not to coefficient-pool them because the treatment
+scales differ.
+
+Update: Cell C slope sufficiency has been implemented at
+`output/tables/old-age-security-pension-crowdout-cell-c-slope-sufficiency.csv`, with a short note
+at `output/old-age-security-pension-crowdout-cell-c-slope-sufficiency.md`. Six rows are large
+relative to observed TFR declines in the Netherlands and Australia windows. The two Germany rows
+are marked `not_applicable_no_observed_decline` because Germany's TFR rises slightly over the
+1984-2017 SOEP window, so there is no observed decline denominator. The demographic-significance
+row for SDT grandparental childcare now reports `partial_slope_screening_support`. Next step:
+translate this into chapter language and finalize GRADE/RA readability review.
 
 Key current outputs:
 - `output/tables/old-age-security-pension-crowdout-harmonized-effects.csv`
