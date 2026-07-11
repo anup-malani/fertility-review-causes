@@ -867,3 +867,57 @@ reproducibility appendix.
 
 - `python3 -m unittest source/analysis/test_oas_meta_pipeline.py source/analysis/test_oas_transition_classification.py`
 - `git diff --check`
+
+---
+
+## [2026-07-11] — OAS chapter finalized with pooled summaries and reader-facing polish
+
+**Agent:** Codex
+**Machine:** Alexandra workspace
+**Working directory:** `/Users/alexandra/Library/CloudStorage/Box-Box/fertility-review-causes`
+
+### Summary
+
+Finalized the old-age-security / pensions and fertility chapter as a JEL + Cochrane-style draft.
+The chapter now reports quantitative pooled summaries within outcome family, keeps treatment-scale
+heterogeneity explicit, separates the grandparental childcare channel from the mechanism where
+non-child old-age security replaces children, and uses reader-facing prose rather than RA/workflow
+language in the body.
+
+### Outputs
+
+- `output/chapters/old-age-security-pension-crowdout.md` — final reader-facing chapter draft.
+- `output/tables/old-age-security-pension-crowdout-outcome-specific-pooled-estimates.csv` —
+  outcome-specific fixed-effect summaries:
+  - birth probability: -0.006954 (SE 0.002037; 95% CI -0.010946 to -0.002963),
+  - completed fertility: -0.067672 births per woman (SE 0.026971; 95% CI -0.120536 to -0.014808).
+- `source/analysis/oas_meta_pipeline.py` — writes the outcome-specific pooled-estimates table.
+- `source/analysis/test_oas_meta_pipeline.py` — covers the outcome-specific pooling behavior.
+- `decisions/2026-07-11-oas-conservative-pooling-rule.md` — amended to distinguish strict
+  same-treatment pooling from outcome-specific pooled summaries.
+- `docs/meta-analysis-effect-size-harmonization.md` — documents the same two-layer pooling rule
+  for future hypotheses.
+- `docs/chapter-writing-style-guide.md` — durable writing-style rules from the smart-undergrad
+  review, including avoiding "classic"/"standard" mechanism labels and row-count shorthand.
+- `handoff.md` — updated with the current OAS pooled-summary state and key outputs.
+
+### Reader-Facing Draft Edits
+
+- Renamed the opening section from "Bottom-Line Verdict" to "Verdict".
+- Replaced internal "classic OAS motive" language with explicit mechanism wording, such as
+  "children support parents in old age" and "non-child old-age security replaces children."
+- Replaced row-count references such as "six rows" with author/setting references, especially for
+  Eibich and Siedler, Ilciukas, and Akyol and Atalay.
+- Reworked the methods-heavy synthesis section so the pooled estimates appear as chapter results,
+  with reproducibility details left in the appendix.
+- Drafted an update email for Anup with GitHub links to the chapter and pooled-estimates table.
+
+### Commits
+
+- `eb2f0f7` — `Finalize OAS chapter synthesis`
+- `82f2cb3` — `Polish OAS verdict heading`
+
+### Verification
+
+- `python3 -m unittest source/analysis/test_oas_meta_pipeline.py source/analysis/test_oas_transition_classification.py`
+- `git diff --check`
