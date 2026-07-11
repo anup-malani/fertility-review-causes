@@ -27,6 +27,8 @@ EFFECT_REQUIRED_COLUMNS = [
     "ci_lower_original",
     "ci_upper_original",
     "p_value",
+    "test_statistic_original",
+    "test_statistic_type",
     "n_observations",
     "n_clusters",
     "model_specification",
@@ -53,6 +55,8 @@ REVIEW_FIELDS = [
     "ci_lower_original",
     "ci_upper_original",
     "p_value",
+    "test_statistic_original",
+    "test_statistic_type",
     "model_specification",
     "treatment_scale_original",
     "followup_window",
@@ -143,6 +147,16 @@ def _format_decimal(value: Decimal | None) -> str:
     return format(normalized, "f")
 
 
+def derive_se_from_test_statistic(effect: Decimal | None, row: dict[str, str]) -> Decimal | None:
+    if effect is None:
+        return None
+    statistic_type = (row.get("test_statistic_type") or "").strip().lower()
+    statistic = _decimal(row.get("test_statistic_original", ""))
+    if statistic_type != "t_statistic" or statistic in {None, Decimal("0")}:
+        return None
+    return abs(effect / statistic).quantize(Decimal("0.000001"))
+
+
 COMPATIBILITY_REQUIRED_REASON = (
     "requires_treatment_scale_followup_and_sign_orientation_before_pooling"
 )
@@ -152,6 +166,7 @@ def harmonize_effect_row(row: dict[str, str]) -> dict[str, str]:
     out = dict(row)
     effect = _decimal(row.get("effect_original", ""))
     se = _decimal(row.get("se_original", ""))
+    derived_se = derive_se_from_test_statistic(effect, row) if se is None else None
     family = row.get("outcome_family", "")
     unit = row.get("outcome_unit_original", "")
     cell = row.get("mechanism_cell", "")
@@ -174,8 +189,15 @@ def harmonize_effect_row(row: dict[str, str]) -> dict[str, str]:
     if family == "birth_probability" and unit == "percentage_points":
         out["harmonized_outcome_unit"] = "probability_of_birth"
         out["effect_harmonized"] = _format_decimal(effect / Decimal("100"))
-        out["se_harmonized"] = _format_decimal(se / Decimal("100")) if se is not None else ""
-        out["harmonization_method"] = "percentage_points_divided_by_100"
+        source_se = se if se is not None else derived_se
+        out["se_harmonized"] = (
+            _format_decimal(source_se / Decimal("100")) if source_se is not None else ""
+        )
+        out["harmonization_method"] = (
+            "percentage_points_divided_by_100"
+            if derived_se is None
+            else "percentage_points_divided_by_100_se_derived_from_t_statistic"
+        )
         if cell == "A":
             out["poolability_reason"] = COMPATIBILITY_REQUIRED_REASON
         else:
@@ -185,8 +207,12 @@ def harmonize_effect_row(row: dict[str, str]) -> dict[str, str]:
     if family == "completed_fertility" and unit == "births_per_woman":
         out["harmonized_outcome_unit"] = "births_per_woman"
         out["effect_harmonized"] = _format_decimal(effect)
-        out["se_harmonized"] = _format_decimal(se)
-        out["harmonization_method"] = "already_births_per_woman"
+        out["se_harmonized"] = _format_decimal(se if se is not None else derived_se)
+        out["harmonization_method"] = (
+            "already_births_per_woman"
+            if derived_se is None
+            else "already_births_per_woman_se_derived_from_t_statistic"
+        )
         if cell == "A":
             out["poolability_reason"] = COMPATIBILITY_REQUIRED_REASON
         else:
@@ -196,8 +222,12 @@ def harmonize_effect_row(row: dict[str, str]) -> dict[str, str]:
     if family in {"tfr", "crude_birth_rate", "child_woman_ratio"}:
         out["harmonized_outcome_unit"] = unit
         out["effect_harmonized"] = _format_decimal(effect)
-        out["se_harmonized"] = _format_decimal(se)
-        out["harmonization_method"] = "preserved_original_aggregate_unit"
+        out["se_harmonized"] = _format_decimal(se if se is not None else derived_se)
+        out["harmonization_method"] = (
+            "preserved_original_aggregate_unit"
+            if derived_se is None
+            else "preserved_original_aggregate_unit_se_derived_from_t_statistic"
+        )
         out["poolability_reason"] = "aggregate_or_historical_unit_not_pooled_with_micro_estimates"
         return out
 

@@ -127,10 +127,12 @@ One row per estimate, contrast, or model specification that may enter synthesis.
 | `outcome_family` | yes | `birth_probability`, `completed_fertility`, `tfr`, `parity_progression`, `intentions`, `contraception`, `other`. |
 | `outcome_unit_original` | yes | Original units, e.g. percentage points, births per woman, log births. |
 | `effect_original` | yes | Reported point estimate. |
-| `se_original` | no | Reported or computed standard error. |
+| `se_original` | no | Standard error reported directly by the paper in original units. Do not put t-statistics here. |
 | `ci_lower_original` | no | Lower confidence interval. |
 | `ci_upper_original` | no | Upper confidence interval. |
 | `p_value` | no | Reported p-value. |
+| `test_statistic_original` | no | Reported test statistic, usually a t-statistic in parentheses, when SE is not reported directly. |
+| `test_statistic_type` | no | Type of test statistic, e.g. `t_statistic`. |
 | `n_observations` | no | Observations in model. |
 | `n_clusters` | no | Cluster count if relevant. |
 | `model_specification` | yes | Controls/fixed effects/model notes. |

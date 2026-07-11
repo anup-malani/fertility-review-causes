@@ -43,13 +43,15 @@ class OASMetaPipelineTests(unittest.TestCase):
             review_path = tmp_path / "review.csv"
             effect_row = {column: "" for column in EFFECT_REQUIRED_COLUMNS}
             effect_row.update(
-                {
-                    "effect_id": "e1",
-                    "study_id": "s1",
-                    "pdf_filename": "study.pdf",
-                    "effect_original": "-12",
-                    "extract_page": "PDF page 12, Table 2",
-                }
+            {
+                "effect_id": "e1",
+                "study_id": "s1",
+                "pdf_filename": "study.pdf",
+                "effect_original": "-12",
+                "extract_page": "PDF page 12, Table 2",
+                "test_statistic_original": "",
+                "test_statistic_type": "",
+            }
             )
             with effects_path.open("w", newline="", encoding="utf-8") as handle:
                 writer = csv.DictWriter(handle, fieldnames=EFFECT_REQUIRED_COLUMNS)
@@ -88,6 +90,8 @@ class OASMetaPipelineTests(unittest.TestCase):
             "outcome_unit_original": "percentage_points",
             "effect_original": "-12",
             "se_original": "3",
+            "test_statistic_original": "",
+            "test_statistic_type": "",
             "mechanism_cell": "A",
             "needs_pi": "no",
         }
@@ -101,6 +105,26 @@ class OASMetaPipelineTests(unittest.TestCase):
             "requires_treatment_scale_followup_and_sign_orientation_before_pooling",
         )
 
+    def test_harmonize_derives_se_from_t_statistic(self):
+        row = {
+            "effect_id": "e1",
+            "outcome_family": "birth_probability",
+            "outcome_unit_original": "percentage_points",
+            "effect_original": "4.0",
+            "se_original": "",
+            "test_statistic_original": "3.27",
+            "test_statistic_type": "t_statistic",
+            "mechanism_cell": "A",
+            "needs_pi": "no",
+        }
+        out = harmonize_effect_row(row)
+        self.assertEqual(out["effect_harmonized"], "0.04")
+        self.assertEqual(out["se_harmonized"], "0.01223242")
+        self.assertEqual(
+            out["harmonization_method"],
+            "percentage_points_divided_by_100_se_derived_from_t_statistic",
+        )
+
     def test_cell_a_birth_probability_rows_without_compatibility_metadata_do_not_pool(self):
         rows = [
             {
@@ -109,6 +133,8 @@ class OASMetaPipelineTests(unittest.TestCase):
                 "outcome_unit_original": "percentage_points",
                 "effect_original": "-0.9",
                 "se_original": "0.3",
+                "test_statistic_original": "",
+                "test_statistic_type": "",
                 "mechanism_cell": "A",
                 "treatment_scale_original": "Rural pension reform exposure",
                 "followup_window": "Short run after reform",
@@ -120,6 +146,8 @@ class OASMetaPipelineTests(unittest.TestCase):
                 "outcome_unit_original": "percentage_points",
                 "effect_original": "-17.3",
                 "se_original": "4.3",
+                "test_statistic_original": "",
+                "test_statistic_type": "",
                 "mechanism_cell": "A",
                 "treatment_scale_original": "Post x InitialNeeds",
                 "followup_window": "Post pension extension",
