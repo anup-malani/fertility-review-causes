@@ -33,7 +33,7 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 | [TICK-009](TICK-009-literature-search-mjs.md) | Implement literature-search.mjs | any | TICK-001 |
 | [TICK-012](TICK-012-prepilot-time-cost.md) | Pre-pilot (Anup + Claude): time-cost/income-substitution | Anup + Claude | TICK-001, TICK-009 |
 | [TICK-010](TICK-010-pilot-run.md) | RA pilot Phase 1: old-age security/pensions | All three | TICK-012 |
-| [TICK-019](TICK-019-oas-demographic-significance-and-chapter.md) | OAS demographic significance and hybrid chapter draft | any | TICK-020; demographic-significance macro pass |
+| [TICK-019](TICK-019-oas-demographic-significance-and-chapter.md) | OAS demographic significance and hybrid chapter draft | any | TICK-020; Cell C extraction; final GRADE/RA review |
 
 ## Done
 
@@ -56,3 +56,4 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 | [TICK-026](TICK-026-oas-sign-orientation-treatment-scale.md) | OAS sign orientation and treatment-scale coding | 2026-07-11 |
 | [TICK-027](TICK-027-oas-pooling-rule.md) | OAS conservative pooling rule | 2026-07-11 |
 | [TICK-028](TICK-028-oas-tfr-transition-classification.md) | OAS TFR-based transition classification | 2026-07-11 |
+| [TICK-029](TICK-029-oas-demographic-significance-table.md) | OAS demographic-significance table | 2026-07-11 |

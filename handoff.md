@@ -30,11 +30,19 @@ unclassified by TFR because the local source has no in-window observations. The 
 analytic steps are the broader demographic-significance macro pass and extraction of the
 PI-identified Cell C grandparental-childcare studies.
 
+Update: the OAS demographic-significance table now exists at
+`output/tables/old-age-security-pension-crowdout-demographic-significance.csv`. It records PM as
+insufficient direct evidence, FDT as partial, SDT classic OAS as not significant/contextual, and
+SDT grandparental childcare as insufficient pending Cell C extraction. The next highest-value step
+is therefore not another Cell A pooling attempt; it is Cell C extraction for the PI-identified
+grandparental-childcare papers, followed by final GRADE/summary adjudication.
+
 Key current outputs:
 - `output/tables/old-age-security-pension-crowdout-harmonized-effects.csv`
 - `output/tables/old-age-security-pension-crowdout-meta-analysis-readiness.csv`
 - `output/tables/old-age-security-pension-crowdout-summary-of-findings.csv`
 - `output/tables/old-age-security-pension-crowdout-tfr-transition-classification.csv`
+- `output/tables/old-age-security-pension-crowdout-demographic-significance.csv`
 - `output/chapters/old-age-security-pension-crowdout.md`
 - `decisions/2026-07-11-oas-conservative-pooling-rule.md`
 

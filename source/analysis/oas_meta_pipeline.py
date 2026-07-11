@@ -118,6 +118,23 @@ READINESS_COLUMNS = [
     "study_ids",
 ]
 
+DEMOGRAPHIC_SIGNIFICANCE_COLUMNS = [
+    "phenomenon_channel",
+    "target_phenomenon",
+    "evidence_base",
+    "n_cell_a_studies",
+    "n_oriented_effects",
+    "oriented_effect_direction",
+    "coefficient_pooling_status",
+    "slope_sufficiency",
+    "demographic_significance_verdict",
+    "causal_credibility_summary",
+    "transition_classification_basis",
+    "needs_human_review",
+    "rationale",
+    "next_required_step",
+]
+
 
 def read_csv(path: Path) -> list[dict[str, str]]:
     with path.open(newline="", encoding="utf-8") as handle:
@@ -752,12 +769,13 @@ def write_summary_of_findings(summary_path: Path, sof_path: Path) -> None:
         },
         {
             "outcome_or_channel": "Demographic significance",
-            "studies": "All extracted studies plus target-period derivation",
-            "synthesis": "slope-sufficiency pending macro-data pass",
-            "certainty": "low pending computation",
+            "studies": "All extracted studies plus TFR transition classification",
+            "synthesis": "structured PM/FDT/SDT demographic-significance table",
+            "certainty": "low-to-moderate, channel-specific",
             "interpretation": (
-                "Current evidence supports a real mechanism but does not yet quantify "
-                "its share of PM, FDT, or SDT fertility change."
+                "Current evidence supports partial FDT relevance for the classic OAS "
+                "motive, weak or contextual SDT relevance for the classic motive, "
+                "and unquantified SDT relevance for the grandparental-childcare channel."
             ),
         },
     ]
@@ -766,6 +784,201 @@ def write_summary_of_findings(summary_path: Path, sof_path: Path) -> None:
         rows,
         ["outcome_or_channel", "studies", "synthesis", "certainty", "interpretation"],
     )
+
+
+def _study_transition_map(transition_rows: list[dict[str, str]]) -> dict[str, dict[str, str]]:
+    return {row.get("study_id", ""): row for row in transition_rows if row.get("study_id", "")}
+
+
+def _cell_a_rows_for_transition(
+    harmonized_rows: list[dict[str, str]],
+    transition_by_study: dict[str, dict[str, str]],
+    token: str,
+) -> list[dict[str, str]]:
+    rows: list[dict[str, str]] = []
+    for row in harmonized_rows:
+        if row.get("mechanism_cell") != "A":
+            continue
+        transition = transition_by_study.get(row.get("study_id", ""), {})
+        label = transition.get("derived_period_target_relevance_tfr", "")
+        if token in label:
+            rows.append(row)
+    return rows
+
+
+def _unique_studies(rows: list[dict[str, str]]) -> set[str]:
+    return {row.get("study_id", "") for row in rows if row.get("study_id", "")}
+
+
+def _oriented_effects(rows: list[dict[str, str]]) -> list[Decimal]:
+    return [
+        effect
+        for effect in (_decimal(row.get("effect_oriented_more_oas", "")) for row in rows)
+        if effect is not None
+    ]
+
+
+def _direction_summary(effects: list[Decimal]) -> str:
+    if not effects:
+        return "not_quantified"
+    has_negative = any(effect < 0 for effect in effects)
+    has_positive = any(effect > 0 for effect in effects)
+    if has_negative and has_positive:
+        return "mixed"
+    if has_negative:
+        return "negative"
+    if has_positive:
+        return "positive"
+    return "zero"
+
+
+def _any_needs_human_review(
+    rows: list[dict[str, str]], transition_by_study: dict[str, dict[str, str]]
+) -> str:
+    for row in rows:
+        transition = transition_by_study.get(row.get("study_id", ""), {})
+        if transition.get("needs_human_review") == "yes":
+            return "yes"
+    return "no"
+
+
+def _pooling_status(readiness_rows: list[dict[str, str]]) -> str:
+    statuses = {row.get("recommended_synthesis", "") for row in readiness_rows}
+    if "pool_fixed_effect_same_scale" in statuses:
+        return "pooled_same_scale_subset_available"
+    if "do_not_pool_mixed_treatment_scales" in statuses:
+        return "not_coefficient_pooled_mixed_treatment_scales"
+    return "not_coefficient_pooled"
+
+
+def _transition_basis(
+    rows: list[dict[str, str]], transition_by_study: dict[str, dict[str, str]]
+) -> str:
+    labels = sorted(
+        {
+            transition_by_study.get(row.get("study_id", ""), {}).get(
+                "derived_period_target_relevance_tfr", ""
+            )
+            for row in rows
+            if transition_by_study.get(row.get("study_id", ""), {}).get(
+                "derived_period_target_relevance_tfr", ""
+            )
+        }
+    )
+    return ";".join(labels)
+
+
+def write_demographic_significance(
+    harmonized_path: Path,
+    readiness_path: Path,
+    transition_path: Path,
+    output_path: Path,
+) -> None:
+    harmonized_rows = read_csv(harmonized_path)
+    readiness_rows = read_csv(readiness_path)
+    transition_by_study = _study_transition_map(read_csv(transition_path))
+    pooling_status = _pooling_status(readiness_rows)
+
+    fdt_rows = _cell_a_rows_for_transition(harmonized_rows, transition_by_study, "FDT")
+    sdt_rows = _cell_a_rows_for_transition(harmonized_rows, transition_by_study, "SDT")
+    fdt_effects = _oriented_effects(fdt_rows)
+    sdt_effects = _oriented_effects(sdt_rows)
+
+    rows = [
+        {
+            "phenomenon_channel": "PM",
+            "target_phenomenon": "Pre-modern fertility variation",
+            "evidence_base": "No direct pre-modern Cell A causal estimate in the extracted OAS set.",
+            "n_cell_a_studies": "0",
+            "n_oriented_effects": "0",
+            "oriented_effect_direction": "not_quantified",
+            "coefficient_pooling_status": "not_applicable",
+            "slope_sufficiency": "not_computed_no_direct_estimate",
+            "demographic_significance_verdict": "insufficient_direct_evidence",
+            "causal_credibility_summary": (
+                "Mechanism is theoretically plausible as a background old-age-support motive, "
+                "but the current extracted evidence is not pre-modern causal evidence."
+            ),
+            "transition_classification_basis": "PM not assigned by replacement-status TFR rule.",
+            "needs_human_review": "no",
+            "rationale": (
+                "Children can provide old-age support in pre-modern settings, but this is a "
+                "baseline motive rather than a quantified explanation of variation in the "
+                "current evidence package."
+            ),
+            "next_required_step": "Use theory section and historical narrative; do not report a numeric PM contribution from current Cell A effects.",
+        },
+        {
+            "phenomenon_channel": "FDT",
+            "target_phenomenon": "First Demographic Transition",
+            "evidence_base": "Cell A studies classified as FDT or FDT|SDT by the TFR replacement-status rule.",
+            "n_cell_a_studies": str(len(_unique_studies(fdt_rows))),
+            "n_oriented_effects": str(len(fdt_effects)),
+            "oriented_effect_direction": _direction_summary(fdt_effects),
+            "coefficient_pooling_status": pooling_status,
+            "slope_sufficiency": "partial_not_formally_scaled",
+            "demographic_significance_verdict": "partial",
+            "causal_credibility_summary": (
+                "Credible household-level OAS effects exist in FDT-like settings, but the "
+                "state-pension margin is often late for the classic Western FDT."
+            ),
+            "transition_classification_basis": _transition_basis(fdt_rows, transition_by_study),
+            "needs_human_review": _any_needs_human_review(fdt_rows, transition_by_study),
+            "rationale": (
+                "The sign-oriented Cell A evidence supports the mechanism in above-replacement "
+                "or crossing settings, but treatment scales are not coefficient-pooled and "
+                "historical timing limits claims that state pensions initiated the FDT."
+            ),
+            "next_required_step": "Compute slope sufficiency against observed FDT TFR changes where treatment-scale changes are interpretable.",
+        },
+        {
+            "phenomenon_channel": "SDT_classic_oas",
+            "target_phenomenon": "Second Demographic Transition, classic old-age-security motive",
+            "evidence_base": "Cell A studies classified as SDT or FDT|SDT by the TFR replacement-status rule.",
+            "n_cell_a_studies": str(len(_unique_studies(sdt_rows))),
+            "n_oriented_effects": str(len(sdt_effects)),
+            "oriented_effect_direction": _direction_summary(sdt_effects),
+            "coefficient_pooling_status": pooling_status,
+            "slope_sufficiency": "unlikely_or_contextual_not_formally_scaled",
+            "demographic_significance_verdict": "not_significant_or_contextual",
+            "causal_credibility_summary": (
+                "Below-replacement Cell A evidence exists, but China is policy-constrained "
+                "and mature rich-country pension systems leave little new classic-OAS margin."
+            ),
+            "transition_classification_basis": _transition_basis(sdt_rows, transition_by_study),
+            "needs_human_review": _any_needs_human_review(sdt_rows, transition_by_study),
+            "rationale": (
+                "The classic OAS motive can operate below replacement where pension margins "
+                "are newly changing, but it is not yet a quantitatively credible explanation "
+                "of the rich-country SDT decline."
+            ),
+            "next_required_step": "Separate policy-constrained China from rich-country SDT before any final SDT demographic-significance claim.",
+        },
+        {
+            "phenomenon_channel": "SDT_grandparental_childcare",
+            "target_phenomenon": "Second Demographic Transition, grandparental-childcare channel",
+            "evidence_base": "Cell C studies identified by PI review but not yet extracted in the quantitative package.",
+            "n_cell_a_studies": "0",
+            "n_oriented_effects": "0",
+            "oriented_effect_direction": "not_quantified",
+            "coefficient_pooling_status": "not_applicable_pending_cell_c_extraction",
+            "slope_sufficiency": "not_computed_pending_cell_c_extraction",
+            "demographic_significance_verdict": "insufficient_data_pending_cell_c_extraction",
+            "causal_credibility_summary": (
+                "This is the PI-identified SDT-relevant channel, but it is not represented "
+                "in the current Cell A classic-OAS effect table."
+            ),
+            "transition_classification_basis": "Cell C study windows not yet extracted.",
+            "needs_human_review": "yes",
+            "rationale": (
+                "Grandparental childcare has the right conceptual sign for SDT, but the "
+                "chapter cannot quantify it until Eibich-Siedler, Ilciukas, and "
+                "Akyol-Atalay are extracted."
+            ),
+            "next_required_step": "Retrieve/extract Cell C studies and add them to a separate SDT childcare evidence table.",
+        },
+    ]
+    write_csv(output_path, rows, DEMOGRAPHIC_SIGNIFICANCE_COLUMNS)
 
 
 def write_evidence_map(harmonized_path: Path, evidence_map_path: Path) -> None:
@@ -793,6 +1006,8 @@ def main() -> None:
     readiness_path = tables_dir / f"{SLUG}-meta-analysis-readiness.csv"
     meta_summary_path = tables_dir / f"{SLUG}-meta-analysis-summary.csv"
     sof_path = tables_dir / f"{SLUG}-summary-of-findings.csv"
+    transition_path = tables_dir / f"{SLUG}-tfr-transition-classification.csv"
+    demographic_significance_path = tables_dir / f"{SLUG}-demographic-significance.csv"
     evidence_map_path = figures_dir / f"{SLUG}-evidence-map.csv"
 
     if effects_path.exists():
@@ -801,6 +1016,13 @@ def main() -> None:
         write_csv(harmonized_path, rows, HARMONIZED_COLUMNS)
         write_meta_analysis_readiness(harmonized_path, readiness_path)
         write_meta_analysis_summary(harmonized_path, meta_summary_path)
+        if transition_path.exists():
+            write_demographic_significance(
+                harmonized_path,
+                readiness_path,
+                transition_path,
+                demographic_significance_path,
+            )
         write_summary_of_findings(meta_summary_path, sof_path)
         write_evidence_map(harmonized_path, evidence_map_path)
 

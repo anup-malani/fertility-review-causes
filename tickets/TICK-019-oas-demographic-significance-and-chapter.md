@@ -3,7 +3,7 @@
 **Assigned:** any
 **Parallel-safe:** no
 **Blocks:** none
-**Blocked by:** TICK-020; demographic-significance macro pass
+**Blocked by:** TICK-020; Cell C extraction; final GRADE/RA review
 **Touches:** output/tables/old-age-security-pension-crowdout-demographic-significance.csv, output/chapters/old-age-security-pension-crowdout.md
 
 ## Description
@@ -12,7 +12,7 @@ Compute demographic significance for PM/FDT/SDT and draft the OAS hybrid JEL/Coc
 `output/chapters/hybrid-chapter-template.md`.
 
 ## Acceptance criteria
-- [ ] Demographic-significance table exists for PM, FDT, and SDT.
+- [x] Demographic-significance table exists for PM, FDT, and SDT.
 - [ ] GRADE/summary-of-findings table exists.
 - [ ] Chapter draft follows the hybrid template.
 - [ ] Claims trace to extraction, risk-of-bias, meta-analysis, or theory sources.
@@ -32,3 +32,8 @@ Compute demographic significance for PM/FDT/SDT and draft the OAS hybrid JEL/Coc
   replacement-status rule documented in
   `decisions/2026-07-11-tfr-replacement-transition-classification.md`. This is a prerequisite for
   the full demographic-significance table, not a substitute for slope-sufficiency calculations.
+- 2026-07-11: Demographic-significance table now exists at
+  `output/tables/old-age-security-pension-crowdout-demographic-significance.csv`. Verdicts:
+  PM insufficient direct evidence; FDT partial; SDT classic OAS not significant/contextual; SDT
+  grandparental childcare pending Cell C extraction. Ticket remains open for theory stream,
+  Cell C extraction, final GRADE/summary adjudication, and RA readability check.

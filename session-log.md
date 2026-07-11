@@ -570,6 +570,48 @@ in-window observations.
 
 ---
 
+## [2026-07-11] — OAS demographic-significance table generated
+
+**Agent:** Codex
+**Machine:** Alexandra workspace
+**Working directory:** `/Users/alexandra/Library/CloudStorage/Box-Box/fertility-review-causes`
+
+### Summary
+
+Implemented the OAS demographic-significance table requested for the Anup-style hybrid
+Cochrane/JEL output. The generator uses the TFR transition classification, oriented Cell A effects,
+and conservative no-pooling rule to produce PM/FDT/SDT verdict rows while keeping Cell C
+grandparental childcare separate.
+
+### Outputs
+
+- `source/analysis/oas_meta_pipeline.py` — added `write_demographic_significance`.
+- `source/analysis/test_oas_meta_pipeline.py` — added table-generator coverage.
+- `output/tables/old-age-security-pension-crowdout-demographic-significance.csv` — new table.
+- `output/chapters/old-age-security-pension-crowdout.md` — updated Section 7, Summary of Findings,
+  and reproducibility appendix.
+- `output/tables/old-age-security-pension-crowdout-summary-of-findings.csv` — regenerated language.
+
+### Result
+
+- PM: insufficient direct evidence.
+- FDT: partial demographic significance for the classic OAS motive.
+- SDT classic OAS: not significant or contextual.
+- SDT grandparental childcare: insufficient data pending Cell C extraction.
+
+### Verification
+
+- `python3 -m unittest source/analysis/test_oas_meta_pipeline.py`
+- `python3 source/analysis/oas_transition_classification.py && python3 source/analysis/oas_meta_pipeline.py`
+
+### Open Items
+
+- [ ] Extract the Cell C grandparental-childcare studies.
+- [ ] Finalize GRADE/summary adjudication after Cell C extraction.
+- [ ] Create the RA readability-check queue for the chapter.
+
+---
+
 ## [2026-07-11] — OAS conservative same-scale pooling rule adopted
 
 **Agent:** Codex

@@ -113,6 +113,8 @@ The `outcome_family` field is a harmonization bucket, not a replacement for the 
 
 The first macro pass now classifies each study window using read-only TFR data from Alexandra's `proximate-causes` directory, with derived outputs stored in this repository. The rule is mechanical: if the first and last available in-window TFR observations are both above 2.1, the setting is coded as FDT-relevant; if both are below 2.1, SDT-relevant; if the window crosses from above to below replacement, FDT|SDT; and if no TFR observation exists in the window, the row remains unclassified rather than guessed. This yields Brazil as a crossing FDT|SDT case, Namibia and postwar United States as above-replacement FDT cases, Italy and the China pension/LTCI studies as below-replacement SDT cases, and Prussia, Imperial Germany, and 1850 U.S. financial-development evidence as historical cases without in-window TFR coverage in the local source. China remains flagged for human review because low fertility is policy-constrained.
 
+The demographic-significance table now converts that classification into four verdict rows. PM has insufficient direct evidence. FDT is partial: the sign-oriented Cell A evidence supports the household mechanism in above-replacement or crossing settings, but state pensions are often late for the Western FDT and treatment scales are not coefficient-pooled. The classic OAS motive in the SDT is not significant or only contextual: below-replacement evidence exists, but China is policy-constrained and mature rich-country pension systems leave little new classic-OAS margin. The PI-identified grandparental-childcare channel remains the live SDT channel, but it is still unquantified until the Cell C papers are extracted.
+
 ### 7.1 Pre-Modern Fertility Variation
 
 There is no direct pre-modern causal evidence. The mechanism almost certainly mattered as a background condition: in a world without public pensions, formal insurance, or deep financial markets, children could be old-age support. But a universal condition does not explain variation. If nearly everyone depends on children for old age, that fact helps explain high fertility levels more than differences across populations.
@@ -162,14 +164,14 @@ The strongest direct evidence comes from quasi-experimental pension expansions o
 
 ## 10. Summary of Findings
 
-Magnitude certainty remains limited because the conservative same-scale pooling rule rejects coefficient pooling for the current candidate numeric families. The demographic-significance macro pass is still pending.
+Magnitude certainty remains limited because the conservative same-scale pooling rule rejects coefficient pooling for the current candidate numeric families. The demographic-significance table now supplies structured PM/FDT/SDT verdicts, but Cell C grandparental-childcare extraction is still pending.
 
 | Outcome or channel | Studies | Synthesis | Certainty | Interpretation |
 |---|---|---|---|---|
 | Classic old-age-security motive | Cell A extracted studies | Structured quantitative narrative | Setting-specific direction; not coefficient-pooled under same-scale rule | The extracted Cell A set supports a real old-age-security mechanism after orienting eligible estimates to the effect of more non-child old-age security, but the magnitudes are not coefficient-pooled because the candidate numeric families mix treatment scales. |
 | Children as old-age-security assets | Cell B mechanism studies | Not pooled with fertility effects | Low-to-moderate | Mechanism evidence supports children and purchased old-age security as substitutes, but it does not estimate fertility effects. |
 | Grandparental childcare | Cell C studies identified by PI review | Separate SDT track outside current quantitative package | Not quantified in current quantitative package | This channel is opposite-signed and should not be pooled with the classic OAS motive. |
-| Demographic significance | All extracted studies plus target-period derivation | Slope-sufficiency pending macro-data pass | Low pending computation | Current evidence supports a real mechanism but does not yet quantify its share of PM, FDT, or SDT fertility change. |
+| Demographic significance | All extracted studies plus TFR transition classification | Structured PM/FDT/SDT demographic-significance table | Low-to-moderate, channel-specific | Current evidence supports partial FDT relevance for the classic OAS motive, weak or contextual SDT relevance for the classic motive, and unquantified SDT relevance for grandparental childcare. |
 
 ## 11. Interpretation for Economics Readers
 
@@ -200,6 +202,7 @@ This is why the chapter should not ask whether "pensions reduce fertility" as a 
 - Study extraction: `extraction/old-age-security-pension-crowdout-studies.csv`
 - Target-period derivation: `extraction/old-age-security-pension-crowdout-target-period-relevance.csv`
 - TFR transition classification: `output/tables/old-age-security-pension-crowdout-tfr-transition-classification.csv`
+- Demographic significance: `output/tables/old-age-security-pension-crowdout-demographic-significance.csv`
 - Theory sources: `extraction/old-age-security-pension-crowdout-theory-sources.csv`
 - Full-text screen: `extraction/old-age-security-pension-crowdout-fulltext-screen.csv`
 - Effect extraction: `extraction/old-age-security-pension-crowdout-effects.csv`

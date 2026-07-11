@@ -14,6 +14,7 @@ from oas_meta_pipeline import (
     make_effect_review_sheet,
     validate_required_columns,
     write_csv,
+    write_demographic_significance,
     write_meta_analysis_readiness,
 )
 
@@ -407,6 +408,82 @@ class OASMetaPipelineTests(unittest.TestCase):
             self.assertEqual(row["recommended_synthesis"], "pool_fixed_effect_same_scale")
             self.assertEqual(row["recommended_pooled_effect_more_oas"], "-0.133333")
             self.assertEqual(row["recommended_pooled_se_more_oas"], "0.033333")
+
+    def test_write_demographic_significance_table(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp_path = Path(tmp)
+            harmonized_path = tmp_path / "harmonized.csv"
+            readiness_path = tmp_path / "readiness.csv"
+            transition_path = tmp_path / "transition.csv"
+            output_path = tmp_path / "demographic.csv"
+
+            harmonized_rows = [
+                {
+                    "study_id": "fdt_study",
+                    "mechanism_cell": "A",
+                    "effect_oriented_more_oas": "-0.10",
+                    "se_oriented_more_oas": "0.05",
+                },
+                {
+                    "study_id": "sdt_study",
+                    "mechanism_cell": "A",
+                    "effect_oriented_more_oas": "-0.20",
+                    "se_oriented_more_oas": "0.05",
+                },
+                {
+                    "study_id": "mechanism_study",
+                    "mechanism_cell": "B",
+                    "effect_oriented_more_oas": "",
+                    "se_oriented_more_oas": "",
+                },
+            ]
+            readiness_rows = [
+                {
+                    "analysis_group": "g_birth",
+                    "recommended_synthesis": "do_not_pool_mixed_treatment_scales",
+                }
+            ]
+            transition_rows = [
+                {
+                    "study_id": "fdt_study",
+                    "derived_period_target_relevance_tfr": "FDT",
+                    "needs_human_review": "no",
+                },
+                {
+                    "study_id": "sdt_study",
+                    "derived_period_target_relevance_tfr": "SDT",
+                    "needs_human_review": "yes",
+                },
+                {
+                    "study_id": "mechanism_study",
+                    "derived_period_target_relevance_tfr": "SDT_contextual",
+                    "needs_human_review": "yes",
+                },
+            ]
+            write_csv(harmonized_path, harmonized_rows, list(harmonized_rows[0].keys()))
+            write_csv(readiness_path, readiness_rows, list(readiness_rows[0].keys()))
+            write_csv(transition_path, transition_rows, list(transition_rows[0].keys()))
+
+            write_demographic_significance(
+                harmonized_path, readiness_path, transition_path, output_path
+            )
+
+            with output_path.open(newline="", encoding="utf-8") as handle:
+                rows = list(csv.DictReader(handle))
+            by_key = {row["phenomenon_channel"]: row for row in rows}
+            self.assertEqual(
+                set(by_key),
+                {"PM", "FDT", "SDT_classic_oas", "SDT_grandparental_childcare"},
+            )
+            self.assertEqual(by_key["FDT"]["n_cell_a_studies"], "1")
+            self.assertEqual(by_key["FDT"]["oriented_effect_direction"], "negative")
+            self.assertEqual(by_key["FDT"]["demographic_significance_verdict"], "partial")
+            self.assertEqual(by_key["SDT_classic_oas"]["n_cell_a_studies"], "1")
+            self.assertEqual(by_key["SDT_classic_oas"]["needs_human_review"], "yes")
+            self.assertEqual(
+                by_key["SDT_grandparental_childcare"]["demographic_significance_verdict"],
+                "insufficient_data_pending_cell_c_extraction",
+            )
 
 
 if __name__ == "__main__":
