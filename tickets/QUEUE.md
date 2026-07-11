@@ -13,7 +13,7 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 
 | Ticket | Title | Assigned | Parallel-safe |
 |--------|-------|----------|---------------|
-| [TICK-020](TICK-020-oas-theory-stream.md) | OAS theory stream for JEL-style mechanism section | any | yes |
+| [TICK-019](TICK-019-oas-demographic-significance-and-chapter.md) | OAS demographic significance and hybrid chapter draft | any | no |
 | [TICK-002](TICK-002-cultural-count-fix.md) | Fix Cultural-count in Merge Notes | any | yes |
 | [TICK-003](TICK-003-promote-batch-edits-lesson.md) | Promote batch-edits lesson to decisions/ | any | yes |
 | [TICK-004](TICK-004-gitignore-workflows.md) | Revisit .gitignore for .claude/workflows/ | any | yes |
@@ -33,12 +33,12 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 | [TICK-009](TICK-009-literature-search-mjs.md) | Implement literature-search.mjs | any | TICK-001 |
 | [TICK-012](TICK-012-prepilot-time-cost.md) | Pre-pilot (Anup + Claude): time-cost/income-substitution | Anup + Claude | TICK-001, TICK-009 |
 | [TICK-010](TICK-010-pilot-run.md) | RA pilot Phase 1: old-age security/pensions | All three | TICK-012 |
-| [TICK-019](TICK-019-oas-demographic-significance-and-chapter.md) | OAS demographic significance and hybrid chapter draft | any | TICK-020; Cell C extraction; final GRADE/RA review |
 
 ## Done
 
 | Ticket | Title | Closed |
 |--------|-------|--------|
+| [TICK-020](TICK-020-oas-theory-stream.md) | OAS theory stream for JEL-style mechanism section | 2026-07-11 |
 | [TICK-007](TICK-007-gift-shravan-claude-max.md) | Gift Shravan Claude Max | 2026-06-14 |
 | [TICK-011](TICK-011-hypotheses-recategorization.md) | Recategorize HYPOTHESES.md | 2026-06-14 (merged into TICK-001) |
 | [TICK-008](TICK-008-collab-system-design.md) | Design team collaboration/ticketing system | 2026-06-14 |

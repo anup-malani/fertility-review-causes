@@ -21,11 +21,33 @@ Old-age security is a real household fertility mechanism, but not a single trans
 
 The classic claim is simple. Parents want support in old age. If children are the main way to obtain it, children are partly an investment asset. Give parents another asset, such as a pension, social insurance, long-term-care insurance, or a usable financial market, and the retirement return to an additional child falls. Fertility should fall with it.
 
-The theory stream has two roots. The first is the wealth-flow and children-as-insurance tradition, represented by Neher (1971), Caldwell (1976), Willis (1980), Nugent (1985), and Cigno (1993). These sources treat children as part of an intergenerational transfer system. The second is the formal economic fertility tradition, represented by Becker (1960), Becker and Barro (1988), Barro and Becker (1989), Ehrlich and Lui (1991), Nishimura and Zhang (1992), Sinn (2004), Boldrin, De Nardi, and Jones (2015), and related social-security models. These papers ask how public pensions, private savings, altruism, dynastic motives, and fertility incentives fit together.
+The theory stream is separate from the empirical meta-analysis set. It supplies the economic logic for why the empirical estimand is meaningful, but it does not itself enter the pooled or structured quantitative evidence. The theory-source table now classifies the chapter's theory corpus into four roles: core old-age-security theory, formal pension/fertility models, bridge theory linking social security to demographic trends, and Cell C theory relevant to childcare and retirement timing.
 
-The empirical question is narrower than the theory. The primary estimand is the effect of an exogenous increase in non-child old-age security on fertility, operating through the old-age-security motive. That excludes many papers that mention pensions. A pension study with savings, migration, schooling, coresidence, or elderly health as the outcome may test an important link in the mechanism, but it does not estimate the fertility effect. A study where fertility causes pension take-up or private insurance is mechanism evidence, not the primary effect. A study where pension eligibility changes grandparents' childcare time is a different fertility channel with the opposite sign.
+### 2.1 Core Old-Age-Security Logic
 
-That last distinction matters. A pension can lower fertility by replacing children as old-age insurance. It can also raise fertility by retiring grandparents and increasing childcare help for adult children. Those two effects cannot be pooled as if they measured one object.
+The first theoretical root is the children-as-security and wealth-flow tradition. Neher (1971), Willis (1980), Nugent (1985), Caldwell (1976), and Cigno (1993) all make children part of an intergenerational transfer system rather than only a consumption good. In this view, the fertility decision depends on the expected old-age return to children: labor, coresidence, remittances, care, insurance against income shocks, or claims on family resources. Caldwell's wealth-flow argument is especially useful for demographic-transition framing because it makes the sign depend on the direction of net transfers between generations. When the net economic flow runs from children to parents, high fertility can be privately valuable. When transfers reverse or when non-child assets replace children, the private demand for additional births should fall.
+
+This gives the chapter its primary causal contrast: more non-child old-age security should reduce fertility where children are still a meaningful old-age asset. The contrast is strongest in settings with incomplete pensions, limited private savings, weak insurance markets, and strong family support obligations. It is weaker where public pensions, savings, and insurance are already mature.
+
+### 2.2 Formal Pension and Fertility Models
+
+The second root is the formal economic fertility literature. Becker (1960), Becker and Barro (1988), and Barro and Becker (1989) provide the background economic fertility framework: parents choose child quantity in relation to resources, preferences, intergenerational links, and the cost of children. The old-age-security literature then adds the policy instrument. Ehrlich and Lui (1991), Nishimura and Zhang (1992), Cigno (1993), Wigger (1999), Sinn (2004), Boldrin, De Nardi, and Jones (2015), and related models ask how PAYG pensions, social security, private transfers, fertility incentives, altruism, and enforcement interact.
+
+The formal models matter because they show why public pensions can affect fertility even when households are forward-looking. A PAYG system can replace the implicit family contract in which children support parents. It can also change the enforcement problem: children may no longer need to repay parental investment directly if the state taxes the next generation to finance benefits. Some models therefore predict fertility decline after public pension expansion; others focus on policy corrections such as child allowances, fertility-linked pensions, or family allowances when pension systems create too little private incentive to have children.
+
+### 2.3 Why the Empirical Estimand Is Narrower
+
+The empirical question is narrower than the theory. The primary estimand is the effect of an exogenous increase in non-child old-age security on fertility, operating through the old-age-security motive. That excludes many papers that mention pensions. A pension study with savings, migration, schooling, coresidence, or elderly health as the outcome may test an important link in the mechanism, but it does not estimate the fertility effect. A study where fertility causes pension take-up, savings, or private insurance is mechanism evidence, not the primary effect. A study where pension eligibility changes grandparents' childcare time is a different fertility channel with the opposite sign.
+
+That last distinction matters. A pension can lower fertility by replacing children as old-age insurance. It can also raise fertility by retiring grandparents and increasing childcare help for adult children. Those two effects cannot be pooled as if they measured one object. The theory stream justifies both channels, but the quantitative synthesis keeps them in separate cells.
+
+### 2.4 Implications for PM, FDT, and SDT
+
+For pre-modern fertility variation, the theory is plausible but too general. If nearly everyone lacks formal old-age security, children-as-security can explain high desired fertility levels but not much cross-population variation by itself.
+
+For the First Demographic Transition, the public-pension version is usually late. The better-timed theoretical mechanism is broader asset substitution: financial markets, savings, and insurance reduce the need to rely on children before modern pension systems reach broad coverage.
+
+For the Second Demographic Transition, the classic motive is often saturated in rich countries. The live pension-related channel is therefore less about children as old-age assets and more about intergenerational time. Retirement policy can change grandparents' availability for childcare, and that Cell C mechanism has the opposite sign from classic pension crowd-out.
 
 ## 3. Evidence Cells
 
@@ -55,7 +77,7 @@ The chapter uses the project GACS-style workflow: broad search first, then deter
 | Theory-source table | `extraction/old-age-security-pension-crowdout-theory-sources.csv` |
 | Full-text screen | `extraction/old-age-security-pension-crowdout-fulltext-screen.csv` |
 
-The current methods appendix now records the effect extraction, risk-of-bias, harmonized-effects, meta-analysis-summary, summary-of-findings, and evidence-map outputs used for this quantitative synthesis. PRISMA counts and final GRADE adjudication still require RA and PI review.
+The current methods appendix now records the effect extraction, risk-of-bias, harmonized-effects, meta-analysis-summary, summary-of-findings, and evidence-map outputs used for this quantitative synthesis. The effect-extraction review sheet and the risk-of-bias table have both been RA-approved for this draft. PRISMA counts and final PI sign-off remain separate project-level review steps.
 
 ## 5. Included Studies and Evidence Map
 
@@ -113,7 +135,7 @@ For Cell C, the harmonized table is followed by two noob-facing synthesis output
 
 The current harmonized file includes 24 extracted effects. Mechanical conversions are available for one-year birth-probability estimates reported in percentage points and for completed-fertility estimates already stated as births per woman. Historical aggregate outcomes, unsupported outcome families, missing standard errors, and mechanism-only estimates remain in the structured narrative rather than entering a cross-study average.
 
-After RA review, all current extracted effect rows are treated as verified by default and previously flagged `needs_pi = yes` rows are treated as PI-approved for this analysis pass. The remaining limitation is not source lookup, sign direction, or absence of a pooling rule. It is the substantive fact that binary pension expansions, continuous pension-value exposure, pension cuts, LTCI pilots, financial access, and broad social spending do not define one common treatment contrast.
+After RA review, all current extracted effect rows are treated as verified and previously flagged `needs_pi = yes` rows are treated as PI-approved for this analysis pass. The remaining limitation is not source lookup, sign direction, or absence of a pooling rule. It is the substantive fact that binary pension expansions, continuous pension-value exposure, pension cuts, LTCI pilots, financial access, and broad social spending do not define one common treatment contrast.
 
 The `outcome_family` field is a harmonization bucket, not a replacement for the paper's own dependent-variable wording. The paper-visible variable is preserved in `outcome_name`; `outcome_family` only groups those variables into broad comparison classes such as `birth_probability`, `completed_fertility`, `crude_birth_rate`, `child_woman_ratio`, or `other`. Binary or annual birth indicators are coded as `birth_probability`; children-ever-born or number-of-children measures as `completed_fertility`; aggregate rate measures as `crude_birth_rate`; child-woman-ratio measures as `child_woman_ratio`; and non-fertility or nonstandard outcomes as `other`. When a paper reports multiple relevant quantitative outcome-estimate pairs, each pair receives a separate extraction row; for example, Danzer and Zyska's short-run childbirth probability and completed-fertility decline are distinct rows.
 
@@ -164,11 +186,11 @@ The final chapter should keep internal validity and external validity separate. 
 
 ## 9. Risk of Bias and Identification Quality
 
-A Codex-stage ROBINS-I-inspired table has been generated for the included empirical studies, but all rows remain pending RA/PI verification.
+The ROBINS-I-inspired risk-of-bias table has now been RA-approved for this draft. It covers confounding, selection, exposure classification, deviations, missing data, outcome measurement, reported-result selection, and identification credibility. The table deliberately preserves study-specific rationales with page/table anchors where the extraction identified the relevant estimate.
 
-The table covers confounding, selection, exposure classification, deviations, missing data, outcome measurement, reported-result selection, and identification credibility. Each current row has `ra_verified = no`, so the judgments should be treated as an audit scaffold rather than final risk-of-bias adjudication.
+The strongest direct evidence comes from quasi-experimental pension expansions or eligibility changes with credible comparison groups: Rossi and Godard, Danzer and Zyska, and the grandparental-childcare studies named in the PI review. These rows are generally rated moderate rather than low risk because treatment exposure is policy-generated but not individually randomized, and missing-data documentation is not always fully audited.
 
-The strongest direct evidence comes from quasi-experimental pension expansions or eligibility changes with credible comparison groups: Rossi and Godard, Danzer and Zyska, and the grandparental-childcare studies named in the PI review. The historical evidence is important but more exposed to confounding, measurement, and ecological inference concerns. The China evidence is useful but needs careful treatment because fertility policy and pension policy overlap in time and because SDT transportability is weak. Mechanism studies such as Ci are internally relevant but do not estimate the fertility outcome. Any numeric claim in the final draft should trace to a page, table, or figure.
+The historical evidence is important but more exposed to confounding, measurement, and ecological inference concerns. Guinnane and Streb, Fenge and Scheubel, Basso, Bodenhorn, and Cuberes, and Galofre-Vila are therefore treated as serious risk in the overall risk-of-bias field even when they are valuable for timing and mechanism. The China evidence is useful but needs careful treatment because fertility policy and pension policy overlap in time and because SDT transportability is weak. Mechanism studies such as Ci are internally relevant but do not estimate the fertility outcome. Any numeric claim in the final draft should trace to a page, table, or figure.
 
 ## 10. Summary of Findings
 
@@ -199,8 +221,8 @@ This is why the chapter should not ask whether "pensions reduce fertility" as a 
 ## 12. Open Questions and High-Value Next Steps
 
 1. Treat the current Cell A coefficient evidence as structured quantitative narrative unless a future extraction adds at least three same-scale studies within one outcome family.
-2. RA/PI-verify the generated risk-of-bias table and refine the identification and transportability narrative.
-3. Convert the Cell C slope-sufficiency screen into final prose after RA readability review.
+2. Complete final PI sign-off on the approved effect-extraction and risk-of-bias judgments.
+3. Run a final noob-readability pass after the PI decides whether Ghana, Ruthbah, or additional mechanism-only studies should enter an appendix.
 4. Add decomposition shares or reported R-squared / variance-share measures only where the source papers report enough information.
 5. Decide whether Ghana and Ruthbah should be added to the retrieved corpus before the final chapter.
 6. Move Cell D chain-link studies to an appendix table instead of dropping them.
@@ -286,5 +308,7 @@ Rossi and Godard (2022). The old-age security motive for fertility: evidence fro
 Shen, Zheng, and Yang (2020). The fertility effects of public pension: evidence from the new rural pension scheme in China.
 
 Sinn (2004). The pay-as-you-go pension system as fertility insurance and an enforcement device.
+
+Wigger (1999). Pay-as-you-go financed public pensions in a model of endogenous growth and fertility.
 
 Willis (1980). The old age security hypothesis and population growth.

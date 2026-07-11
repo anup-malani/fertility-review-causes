@@ -805,3 +805,39 @@ calculations, but both are marked `do_not_pool_mixed_treatment_scales`.
 
 - [ ] Run the demographic-significance macro pass for PM, FDT, and SDT.
 - [ ] Retrieve/extract the PI-identified Cell C grandparental-childcare studies for the SDT channel.
+
+---
+
+## [2026-07-11] — OAS theory stream integrated into noob chapter
+
+**Agent:** Codex
+**Machine:** Alexandra workspace
+**Working directory:** `/Users/alexandra/Library/CloudStorage/Box-Box/fertility-review-causes`
+
+### Summary
+
+Completed the OAS theory stream at citation level and integrated it into the noob-readable chapter
+draft. The chapter now separates the JEL-style mechanism section from the empirical meta-analysis
+set and treats the effect-extraction and risk-of-bias sheets as RA-approved.
+
+### Outputs
+
+- `extraction/old-age-security-pension-crowdout-theory-sources.csv` — 29 theory sources now have
+  more specific mechanism roles and chapter-use categories.
+- `output/chapters/old-age-security-pension-crowdout.md` — expanded Section 2 into core OAS logic,
+  formal pension/fertility models, estimand boundaries, and PM/FDT/SDT implications.
+- `extraction/old-age-security-pension-crowdout-risk-of-bias.csv` — RA approval recorded with
+  `ra_verified = yes` on all rows.
+- `tickets/TICK-020-oas-theory-stream.md` and `tickets/QUEUE.md` — TICK-020 closed; TICK-019
+  reopened only for final readability/PI sign-off.
+
+### Result
+
+No additional PDFs were required to complete this citation-level theory integration. Direct
+quotation from theory papers would still require retrieving the theory PDFs listed in
+`extraction/old-age-security-pension-crowdout-theory-sources.csv`.
+
+### Verification
+
+- `python3 -m unittest source/analysis/test_oas_meta_pipeline.py source/analysis/test_oas_transition_classification.py`
+- `git diff --check`

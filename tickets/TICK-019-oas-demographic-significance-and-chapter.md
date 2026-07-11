@@ -1,9 +1,9 @@
 # TICK-019: OAS demographic significance and hybrid chapter draft
-**Status:** blocked
+**Status:** open
 **Assigned:** any
 **Parallel-safe:** no
 **Blocks:** none
-**Blocked by:** TICK-020; Cell C slope scaling; final GRADE/RA review
+**Blocked by:** none
 **Touches:** output/tables/old-age-security-pension-crowdout-demographic-significance.csv, output/chapters/old-age-security-pension-crowdout.md
 
 ## Description
@@ -13,9 +13,9 @@ Compute demographic significance for PM/FDT/SDT and draft the OAS hybrid JEL/Coc
 
 ## Acceptance criteria
 - [x] Demographic-significance table exists for PM, FDT, and SDT.
-- [ ] GRADE/summary-of-findings table exists.
-- [ ] Chapter draft follows the hybrid template.
-- [ ] Claims trace to extraction, risk-of-bias, meta-analysis, or theory sources.
+- [x] GRADE/summary-of-findings table exists.
+- [x] Chapter draft follows the hybrid template.
+- [x] Claims trace to extraction, risk-of-bias, meta-analysis, or theory sources.
 - [ ] RA readability check queue is created.
 
 ## Log
@@ -59,5 +59,9 @@ Compute demographic significance for PM/FDT/SDT and draft the OAS hybrid JEL/Coc
   `output/chapters/old-age-security-pension-crowdout.md` and added generated GRADE verdicts at
   `output/tables/old-age-security-pension-crowdout-grade-verdicts.csv`. The chapter now states
   Cell A is structured quantitative narrative and Cell C is separate SDT structured quantitative
-  synthesis with slope-screening support. Ticket remains open for RA/PI risk-of-bias verification
-  and readability review.
+  synthesis with slope-screening support. Ticket remained open at that point for RA/PI
+  risk-of-bias verification and readability review.
+- 2026-07-11: Added the citation-level theory stream and updated the chapter to treat the
+  effect-extraction review sheet and risk-of-bias judgments as RA-approved. TICK-020, Cell C
+  extraction, Cell C slope-sufficiency, and final GRADE outputs are no longer blockers. Ticket
+  remains open only for the final readability/PI sign-off queue.

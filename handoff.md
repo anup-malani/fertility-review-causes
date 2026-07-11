@@ -59,8 +59,16 @@ Update: the noob-facing meta-analysis language is now integrated into
 reports Cell A as structured quantitative narrative, reports Cell C as a separate SDT structured
 quantitative synthesis, and includes a GRADE-style final rating table. A generated GRADE CSV now
 exists at `output/tables/old-age-security-pension-crowdout-grade-verdicts.csv`. Next step:
-RA/PI readability and risk-of-bias verification; no additional Cell C extraction or slope-scaling
-is pending.
+RA/PI readability and final sign-off; no additional Cell C extraction, slope-scaling, effect review,
+or risk-of-bias review is pending.
+
+Update: the OAS theory stream is now complete at citation level. The theory-source table classifies
+29 foundational/formal/bridge sources by chapter role and flags which sources are verified by DOI or
+title key but not PDF-retrieved. The chapter now has a separate JEL-style mechanism section covering
+core OAS logic, formal pension-fertility models, estimand boundaries, and PM/FDT/SDT implications.
+The effect-extraction review sheet and risk-of-bias judgments are RA-approved. Remaining chapter
+work is final readability/PI sign-off and any optional decision to add Ghana, Ruthbah, or appendix
+mechanism-only sources.
 
 Key current outputs:
 - `output/tables/old-age-security-pension-crowdout-harmonized-effects.csv`
@@ -69,6 +77,7 @@ Key current outputs:
 - `output/tables/old-age-security-pension-crowdout-tfr-transition-classification.csv`
 - `output/tables/old-age-security-pension-crowdout-demographic-significance.csv`
 - `output/chapters/old-age-security-pension-crowdout.md`
+- `extraction/old-age-security-pension-crowdout-theory-sources.csv`
 - `decisions/2026-07-11-oas-conservative-pooling-rule.md`
 
 ---

@@ -1,5 +1,5 @@
 # TICK-020: OAS theory stream for JEL-style mechanism section
-**Status:** open
+**Status:** done
 **Assigned:** any
 **Parallel-safe:** yes
 **Blocks:** TICK-019
@@ -25,3 +25,4 @@ how PAYG/social-security systems interact with endogenous fertility.
 ## Log
 <!-- Append completion note here when done. -->
 - 2026-07-03: Created after noting OAS full-text set only covered empirical papers; initial theory-source table seeded from `old-age-security-pension-crowdout-canon-resolved.json`.
+- 2026-07-11: Completed the citation-level theory stream. `extraction/old-age-security-pension-crowdout-theory-sources.csv` now classifies 29 foundational/formal/bridge sources by chapter role and flags which are citation-verified but not PDF-retrieved. The OAS chapter now has a separate JEL-style mechanism section for core OAS logic, formal pension-fertility models, estimand boundaries, and PM/FDT/SDT implications. Theory PDFs remain optional unless direct quotation from theory papers is required.
