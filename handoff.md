@@ -1,8 +1,33 @@
 # Handoff — fertility-review-causes
 
-**Last updated:** 2026-06-27
+**Last updated:** 2026-07-11
 **PI:** Anup Malani
 **RAs:** Alexandra Zhou (zhitongz@uchicago.edu), Shravan Haribalaraman (shravanh@uchicago.edu)
+
+---
+
+## Current OAS Meta-Analysis State — 2026-07-11
+
+The old-age-security/pension-crowdout chapter now has RA-adjudicated effect extraction,
+meta-analysis readiness output, and PI-assumed sign orientation for the current extracted rows.
+The harmonized effects table adds `pi_approved`, old-age-security treatment direction,
+`effect_oriented_more_oas`, oriented SE, orientation method, and harmonized treatment-scale
+labels. Pension-cut rows are sign-flipped so oriented effects mean the fertility effect of more
+non-child old-age security; broad Social Security Act/baby-boom rows remain unoriented because
+the mechanism is mixed.
+
+The current quantitative synthesis is still screening-only, not a pooled meta-analysis. The two
+candidate numeric families are one-year birth probability and completed fertility / children ever
+born. Both still require a treatment-scale and target-setting rule before a coherent pooled
+estimand can be reported. The next highest-value analytic step is to decide that pooling rule or
+keep the chapter as a structured quantitative narrative, then run the demographic-significance
+macro pass and extract the PI-identified Cell C grandparental-childcare studies.
+
+Key current outputs:
+- `output/tables/old-age-security-pension-crowdout-harmonized-effects.csv`
+- `output/tables/old-age-security-pension-crowdout-meta-analysis-readiness.csv`
+- `output/tables/old-age-security-pension-crowdout-summary-of-findings.csv`
+- `output/chapters/old-age-security-pension-crowdout.md`
 
 ---
 

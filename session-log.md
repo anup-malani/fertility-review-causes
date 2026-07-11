@@ -486,3 +486,50 @@ Top-100 handoff composition: Tier 1 = 87, Tier 2 = 13.
 - [ ] Add persistent request cache and resume files before rerunning anchor-guided search at scale.
 - [ ] Compare query-clustering output against the DOI-keyed quasi-gold set once assembled.
 - [ ] If adopted, promote from `temp/` prototype into tracked workflow infrastructure and update `PROTOCOL.md`.
+
+---
+
+## [2026-07-11] — OAS PI-assumed sign orientation and readiness update
+
+**Agent:** Codex
+**Machine:** Alexandra workspace
+**Working directory:** `/Users/alexandra/Library/CloudStorage/Box-Box/fertility-review-causes`
+
+### Summary
+
+Assumed all current OAS effect rows are PI-approved, then advanced the meta-analysis preparation
+one step by orienting eligible effects to a common sign: the fertility effect of more non-child
+old-age security. Pension-cut estimates are sign-flipped; pension expansions, financial access,
+and LTCI expansions stay in their reported direction; broad Social Security Act/baby-boom rows
+remain unoriented because the mechanism is mixed.
+
+### Outputs
+
+- `source/analysis/oas_meta_pipeline.py` — added PI-assumption fields, OAS treatment direction,
+  oriented effect/SE, orientation method, treatment-scale labels, and oriented readiness summaries.
+- `source/analysis/test_oas_meta_pipeline.py` — added coverage for pension-cut sign flipping,
+  pension-expansion orientation, and resolved `needs_pi` behavior.
+- `output/tables/old-age-security-pension-crowdout-harmonized-effects.csv` — regenerated with
+  sign-oriented OAS columns.
+- `output/tables/old-age-security-pension-crowdout-meta-analysis-readiness.csv` — regenerated
+  with zero unresolved PI flags and screening-only oriented calculations for candidate families.
+- `output/chapters/old-age-security-pension-crowdout.md` — updated to state that the current
+  synthesis is quantitative but not pooled.
+
+### Current Status
+
+The two candidate numeric families are one-year birth probability and completed fertility /
+children ever born. Both remain `screening_only_not_pooled` because treatment scales, follow-up
+windows, and target settings are still not comparable enough for a coherent pooled estimand.
+
+### Verification
+
+- `python3 -m unittest source/analysis/test_oas_meta_pipeline.py`
+- `python3 source/analysis/oas_meta_pipeline.py`
+
+### Open Items
+
+- [ ] Decide the treatment-scale and target-setting rule for whether any candidate numeric family
+  can be pooled.
+- [ ] Run the demographic-significance macro pass for PM, FDT, and SDT.
+- [ ] Retrieve/extract the PI-identified Cell C grandparental-childcare studies for the SDT channel.

@@ -71,6 +71,12 @@ HARMONIZED_COLUMNS = EFFECT_REQUIRED_COLUMNS + [
     "effect_harmonized",
     "se_harmonized",
     "harmonization_method",
+    "pi_approved",
+    "old_age_security_treatment_direction",
+    "effect_oriented_more_oas",
+    "se_oriented_more_oas",
+    "orientation_method",
+    "treatment_scale_harmonized",
     "meta_analysis_group",
     "poolability_reason",
 ]
@@ -85,14 +91,23 @@ READINESS_COLUMNS = [
     "n_with_harmonized_effect",
     "n_with_harmonized_se",
     "n_primary_estimates",
-    "n_needs_pi",
+    "n_unresolved_needs_pi",
+    "n_pi_approved_assumed",
     "n_negative",
     "n_positive",
     "n_zero",
     "effect_min",
     "effect_max",
+    "n_with_oriented_effect",
+    "n_oriented_negative",
+    "n_oriented_positive",
+    "n_oriented_zero",
+    "oriented_effect_min",
+    "oriented_effect_max",
     "screening_fixed_effect",
     "screening_fixed_effect_se",
+    "oriented_screening_fixed_effect",
+    "oriented_screening_fixed_effect_se",
     "synthesis_decision",
     "primary_pooling_blocker",
     "study_ids",
@@ -180,8 +195,88 @@ def derive_se_from_test_statistic(effect: Decimal | None, row: dict[str, str]) -
     return abs(effect / statistic).quantize(Decimal("0.000001"))
 
 
+DECREASE_OAS_EFFECT_IDS = {
+    "billari_galasso_2009_italy_pension_reforms_e01",
+    "billari_galasso_2009_italy_pension_reforms_e02",
+}
+
+INCREASE_OAS_EFFECT_IDS = {
+    "danzer_zyska_2023_brazil_pensions_e01",
+    "danzer_zyska_2023_brazil_pensions_e02",
+    "rossi_godard_2022_namibia_pensions_e01",
+    "rossi_godard_2022_namibia_pensions_e02",
+    "han_tao_wang_zhang_2025_china_ltci_e01",
+    "han_tao_wang_zhang_2025_china_ltci_e02",
+    "guinnane_streb_2021_prussia_social_security_e01",
+    "shen_zheng_yang_2020_china_nrps_e01",
+    "shen_zheng_yang_2020_china_nrps_e02",
+    "fenge_scheubel_2017_germany_pensions_e01",
+    "basso_bodenhorn_cuberes_2014_us_financial_development_e01",
+}
+
+MIXED_OR_BROADER_EFFECT_IDS = {
+    "galofre_vila_2023_us_baby_boom_e01",
+    "galofre_vila_2023_us_baby_boom_e02",
+}
+
+TREATMENT_SCALE_BY_EFFECT_ID = {
+    "danzer_zyska_2023_brazil_pensions_e01": "pension_expansion_binary_exposure",
+    "danzer_zyska_2023_brazil_pensions_e02": "pension_expansion_binary_exposure",
+    "rossi_godard_2022_namibia_pensions_e01": "pension_value_continuous_exposure",
+    "rossi_godard_2022_namibia_pensions_e02": "pension_value_continuous_exposure",
+    "billari_galasso_2009_italy_pension_reforms_e01": "pension_wealth_cut_binary_exposure",
+    "billari_galasso_2009_italy_pension_reforms_e02": "pension_wealth_cut_binary_exposure",
+    "han_tao_wang_zhang_2025_china_ltci_e01": "ltci_pilot_binary_exposure",
+    "han_tao_wang_zhang_2025_china_ltci_e02": "ltci_pilot_binary_exposure",
+    "guinnane_streb_2021_prussia_social_security_e01": "historical_social_insurance_group_dd",
+    "shen_zheng_yang_2020_china_nrps_e01": "pension_participation_iv_exposure",
+    "shen_zheng_yang_2020_china_nrps_e02": "pension_participation_iv_exposure",
+    "fenge_scheubel_2017_germany_pensions_e01": "pension_coverage_share_percentage_point",
+    "basso_bodenhorn_cuberes_2014_us_financial_development_e01": "financial_access_binary_exposure",
+    "galofre_vila_2023_us_baby_boom_e01": "broad_social_spending_exposure",
+    "galofre_vila_2023_us_baby_boom_e02": "broad_social_spending_exposure",
+    "ci_2024_children_insurance_e01": "children_count_as_treatment_mechanism",
+}
+
+
+def orient_more_oas_effect(row: dict[str, str]) -> None:
+    row["pi_approved"] = "yes_assumed"
+    effect_id = row.get("effect_id", "")
+    effect = _decimal(row.get("effect_harmonized", ""))
+    se = _decimal(row.get("se_harmonized", ""))
+    row["treatment_scale_harmonized"] = TREATMENT_SCALE_BY_EFFECT_ID.get(
+        effect_id, "uncoded_treatment_scale"
+    )
+
+    if effect_id in DECREASE_OAS_EFFECT_IDS:
+        row["old_age_security_treatment_direction"] = "decrease_oas"
+        row["effect_oriented_more_oas"] = _format_decimal(-effect) if effect is not None else ""
+        row["se_oriented_more_oas"] = _format_decimal(se)
+        row["orientation_method"] = "sign_flipped_because_treatment_decreases_oas"
+        return
+
+    if effect_id in INCREASE_OAS_EFFECT_IDS:
+        row["old_age_security_treatment_direction"] = "increase_oas"
+        row["effect_oriented_more_oas"] = _format_decimal(effect)
+        row["se_oriented_more_oas"] = _format_decimal(se)
+        row["orientation_method"] = "as_reported_treatment_increases_oas"
+        return
+
+    if effect_id in MIXED_OR_BROADER_EFFECT_IDS:
+        row["old_age_security_treatment_direction"] = "mixed_or_broader_oas"
+        row["effect_oriented_more_oas"] = ""
+        row["se_oriented_more_oas"] = ""
+        row["orientation_method"] = "not_oriented_broader_social_spending_mechanism"
+        return
+
+    row["old_age_security_treatment_direction"] = "not_oas_fertility_effect"
+    row["effect_oriented_more_oas"] = ""
+    row["se_oriented_more_oas"] = ""
+    row["orientation_method"] = "not_oriented_non_fertility_or_uncoded_effect"
+
+
 COMPATIBILITY_REQUIRED_REASON = (
-    "requires_treatment_scale_followup_and_sign_orientation_before_pooling"
+    "requires_treatment_scale_followup_target_setting_before_pooling"
 )
 
 
@@ -200,6 +295,12 @@ def harmonize_effect_row(row: dict[str, str]) -> dict[str, str]:
             "effect_harmonized": "",
             "se_harmonized": "",
             "harmonization_method": "",
+            "pi_approved": "",
+            "old_age_security_treatment_direction": "",
+            "effect_oriented_more_oas": "",
+            "se_oriented_more_oas": "",
+            "orientation_method": "",
+            "treatment_scale_harmonized": "",
             "meta_analysis_group": "not_poolable",
             "poolability_reason": "",
         }
@@ -207,6 +308,7 @@ def harmonize_effect_row(row: dict[str, str]) -> dict[str, str]:
 
     if effect is None:
         out["poolability_reason"] = "missing_or_non_numeric_effect"
+        orient_more_oas_effect(out)
         return out
 
     if family == "birth_probability" and unit == "percentage_points":
@@ -225,6 +327,7 @@ def harmonize_effect_row(row: dict[str, str]) -> dict[str, str]:
             out["poolability_reason"] = COMPATIBILITY_REQUIRED_REASON
         else:
             out["poolability_reason"] = "missing_standard_error_or_wrong_cell"
+        orient_more_oas_effect(out)
         return out
 
     if family == "completed_fertility" and unit == "births_per_woman":
@@ -240,6 +343,7 @@ def harmonize_effect_row(row: dict[str, str]) -> dict[str, str]:
             out["poolability_reason"] = COMPATIBILITY_REQUIRED_REASON
         else:
             out["poolability_reason"] = "missing_standard_error_or_wrong_cell"
+        orient_more_oas_effect(out)
         return out
 
     if family in {"tfr", "crude_birth_rate", "child_woman_ratio"}:
@@ -252,9 +356,11 @@ def harmonize_effect_row(row: dict[str, str]) -> dict[str, str]:
             else "preserved_original_aggregate_unit_se_derived_from_t_statistic"
         )
         out["poolability_reason"] = "aggregate_or_historical_unit_not_pooled_with_micro_estimates"
+        orient_more_oas_effect(out)
         return out
 
     out["poolability_reason"] = "unsupported_outcome_family_or_unit"
+    orient_more_oas_effect(out)
     return out
 
 
@@ -311,7 +417,7 @@ def write_meta_analysis_summary(harmonized_path: Path, summary_path: Path) -> No
                     "pooled_se": "",
                     "rationale": (
                         "Rows are non-poolable because outcome units, treatment scales, "
-                        "follow-up windows, sign orientation, standard errors, or "
+                        "follow-up windows, target settings, standard errors, or "
                         "mechanism cells are incompatible or not yet coded."
                     ),
                 }
@@ -398,10 +504,33 @@ def _fixed_effect_screen(group_rows: list[dict[str, str]]) -> tuple[str, str]:
     )
 
 
+def _fixed_effect_screen_for_fields(
+    group_rows: list[dict[str, str]], effect_field: str, se_field: str
+) -> tuple[str, str]:
+    usable: list[tuple[Decimal, Decimal]] = []
+    for row in group_rows:
+        effect = _decimal(row.get(effect_field, ""))
+        se = _decimal(row.get(se_field, ""))
+        if effect is not None and se is not None and se != 0:
+            usable.append((effect, se))
+    if len(usable) < 3:
+        return "", ""
+    weights = [Decimal("1") / (se * se) for _, se in usable]
+    weight_sum = sum(weights)
+    pooled = sum(effect * weight for (effect, _), weight in zip(usable, weights)) / weight_sum
+    pooled_se = (Decimal("1") / weight_sum).sqrt()
+    return (
+        _format_decimal(pooled.quantize(Decimal("0.000001"))),
+        _format_decimal(pooled_se.quantize(Decimal("0.000001"))),
+    )
+
+
 def _readiness_blocker(group_rows: list[dict[str, str]]) -> str:
     reasons = {row.get("poolability_reason", "") for row in group_rows}
+    if "requires_treatment_scale_followup_target_setting_before_pooling" in reasons:
+        return "treatment_scale_followup_target_setting"
     if "requires_treatment_scale_followup_and_sign_orientation_before_pooling" in reasons:
-        return "treatment_scale_followup_and_sign_orientation"
+        return "treatment_scale_followup_target_setting"
     if "aggregate_or_historical_unit_not_pooled_with_micro_estimates" in reasons:
         return "aggregate_or_historical_unit"
     if "unsupported_outcome_family_or_unit" in reasons:
@@ -423,12 +552,21 @@ def write_meta_analysis_readiness(harmonized_path: Path, readiness_path: Path) -
     for group, group_rows in sorted(grouped.items()):
         effects = [_decimal(row.get("effect_harmonized", "")) for row in group_rows]
         effects_present = [effect for effect in effects if effect is not None]
+        oriented_effects = [
+            _decimal(row.get("effect_oriented_more_oas", "")) for row in group_rows
+        ]
+        oriented_effects_present = [
+            effect for effect in oriented_effects if effect is not None
+        ]
         ses_present = [
             _decimal(row.get("se_harmonized", ""))
             for row in group_rows
             if _decimal(row.get("se_harmonized", "")) is not None
         ]
         screening_effect, screening_se = _fixed_effect_screen(group_rows)
+        oriented_screening_effect, oriented_screening_se = _fixed_effect_screen_for_fields(
+            group_rows, "effect_oriented_more_oas", "se_oriented_more_oas"
+        )
         blocker = _readiness_blocker(group_rows)
         if screening_effect:
             decision = "screening_only_not_pooled"
@@ -450,14 +588,46 @@ def write_meta_analysis_readiness(harmonized_path: Path, readiness_path: Path) -
                 "n_primary_estimates": str(
                     sum(1 for row in group_rows if row.get("is_primary_estimate") == "yes")
                 ),
-                "n_needs_pi": str(sum(1 for row in group_rows if row.get("needs_pi") == "yes")),
+                "n_unresolved_needs_pi": str(
+                    sum(
+                        1
+                        for row in group_rows
+                        if row.get("needs_pi") == "yes"
+                        and row.get("pi_approved") != "yes_assumed"
+                    )
+                ),
+                "n_pi_approved_assumed": str(
+                    sum(1 for row in group_rows if row.get("pi_approved") == "yes_assumed")
+                ),
                 "n_negative": str(sum(1 for effect in effects_present if effect < 0)),
                 "n_positive": str(sum(1 for effect in effects_present if effect > 0)),
                 "n_zero": str(sum(1 for effect in effects_present if effect == 0)),
                 "effect_min": _format_decimal(min(effects_present)) if effects_present else "",
                 "effect_max": _format_decimal(max(effects_present)) if effects_present else "",
+                "n_with_oriented_effect": str(len(oriented_effects_present)),
+                "n_oriented_negative": str(
+                    sum(1 for effect in oriented_effects_present if effect < 0)
+                ),
+                "n_oriented_positive": str(
+                    sum(1 for effect in oriented_effects_present if effect > 0)
+                ),
+                "n_oriented_zero": str(
+                    sum(1 for effect in oriented_effects_present if effect == 0)
+                ),
+                "oriented_effect_min": (
+                    _format_decimal(min(oriented_effects_present))
+                    if oriented_effects_present
+                    else ""
+                ),
+                "oriented_effect_max": (
+                    _format_decimal(max(oriented_effects_present))
+                    if oriented_effects_present
+                    else ""
+                ),
                 "screening_fixed_effect": screening_effect,
                 "screening_fixed_effect_se": screening_se,
+                "oriented_screening_fixed_effect": oriented_screening_effect,
+                "oriented_screening_fixed_effect_se": oriented_screening_se,
                 "synthesis_decision": decision,
                 "primary_pooling_blocker": blocker,
                 "study_ids": ";".join(sorted({row.get("study_id", "") for row in group_rows})),
@@ -483,14 +653,13 @@ def write_summary_of_findings(summary_path: Path, sof_path: Path) -> None:
                 else "structured quantitative narrative"
             ),
             "certainty": (
-                "setting-specific direction; magnitude pending PI adjudication "
-                "of needs_pi rows and sign orientation"
+                "setting-specific direction; magnitude pending treatment-scale adjudication"
             ),
             "interpretation": (
-                "The extracted Cell A set supports a real old-age-security mechanism, "
-                "but its sign is not yet pooled or uniformly oriented across pension "
-                "expansions, pension cuts, LTCI, historical social insurance, and "
-                "baby-boom-era estimates."
+                "The extracted Cell A set supports a real old-age-security mechanism "
+                "after orienting eligible estimates to the effect of more non-child "
+                "old-age security, but the magnitudes are not yet pooled because "
+                "treatment scales and target settings differ."
             ),
         },
         {

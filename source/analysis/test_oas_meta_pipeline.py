@@ -104,7 +104,7 @@ class OASMetaPipelineTests(unittest.TestCase):
         self.assertEqual(out["meta_analysis_group"], "not_poolable")
         self.assertEqual(
             out["poolability_reason"],
-            "requires_treatment_scale_followup_and_sign_orientation_before_pooling",
+            "requires_treatment_scale_followup_target_setting_before_pooling",
         )
 
     def test_harmonize_derives_se_from_t_statistic(self):
@@ -126,6 +126,47 @@ class OASMetaPipelineTests(unittest.TestCase):
             out["harmonization_method"],
             "percentage_points_divided_by_100_se_derived_from_t_statistic",
         )
+
+    def test_orients_pension_cut_as_more_old_age_security_effect(self):
+        row = {
+            "effect_id": "billari_galasso_2009_italy_pension_reforms_e01",
+            "outcome_family": "birth_probability",
+            "outcome_unit_original": "percentage_points",
+            "effect_original": "0.664",
+            "se_original": "0.286",
+            "test_statistic_original": "",
+            "test_statistic_type": "",
+            "mechanism_cell": "A",
+            "treatment_scale_original": "Affected by pension reform discontinuity",
+            "followup_window": "+/- 7 years around contribution thresholds",
+            "needs_pi": "yes",
+        }
+        out = harmonize_effect_row(row)
+        self.assertEqual(out["pi_approved"], "yes_assumed")
+        self.assertEqual(out["old_age_security_treatment_direction"], "decrease_oas")
+        self.assertEqual(out["effect_oriented_more_oas"], "-0.00664")
+        self.assertEqual(out["se_oriented_more_oas"], "0.00286")
+        self.assertEqual(out["orientation_method"], "sign_flipped_because_treatment_decreases_oas")
+
+    def test_orients_pension_expansion_without_sign_flip(self):
+        row = {
+            "effect_id": "rossi_godard_2022_namibia_pensions_e01",
+            "outcome_family": "birth_probability",
+            "outcome_unit_original": "percentage_points",
+            "effect_original": "-17.3",
+            "se_original": "4.3",
+            "test_statistic_original": "",
+            "test_statistic_type": "",
+            "mechanism_cell": "A",
+            "treatment_scale_original": "Post x InitialNeeds in thousand rands",
+            "followup_window": "Post pension extension",
+            "needs_pi": "no",
+        }
+        out = harmonize_effect_row(row)
+        self.assertEqual(out["old_age_security_treatment_direction"], "increase_oas")
+        self.assertEqual(out["effect_oriented_more_oas"], "-0.173")
+        self.assertEqual(out["se_oriented_more_oas"], "0.043")
+        self.assertEqual(out["orientation_method"], "as_reported_treatment_increases_oas")
 
     def test_cell_a_birth_probability_rows_without_compatibility_metadata_do_not_pool(self):
         rows = [
@@ -180,7 +221,7 @@ class OASMetaPipelineTests(unittest.TestCase):
                 row["poolability_reason"]
                 for row in outputs
             },
-            {"requires_treatment_scale_followup_and_sign_orientation_before_pooling"},
+            {"requires_treatment_scale_followup_target_setting_before_pooling"},
         )
 
     def test_harmonize_non_poolable_completed_fertility_without_se(self):
@@ -199,7 +240,7 @@ class OASMetaPipelineTests(unittest.TestCase):
         self.assertEqual(out["meta_analysis_group"], "not_poolable")
         self.assertEqual(
             out["poolability_reason"],
-            "requires_treatment_scale_followup_and_sign_orientation_before_pooling",
+            "requires_treatment_scale_followup_target_setting_before_pooling",
         )
 
     def test_meta_analysis_readiness_reports_screening_only_group(self):
@@ -216,10 +257,13 @@ class OASMetaPipelineTests(unittest.TestCase):
                     "harmonized_outcome_unit": "probability_of_birth",
                     "effect_harmonized": "-0.10",
                     "se_harmonized": "0.05",
+                    "effect_oriented_more_oas": "-0.10",
+                    "se_oriented_more_oas": "0.05",
                     "is_primary_estimate": "yes",
+                    "pi_approved": "yes_assumed",
                     "needs_pi": "no",
                     "poolability_reason": (
-                        "requires_treatment_scale_followup_and_sign_orientation_before_pooling"
+                        "requires_treatment_scale_followup_target_setting_before_pooling"
                     ),
                 },
                 {
@@ -230,10 +274,13 @@ class OASMetaPipelineTests(unittest.TestCase):
                     "harmonized_outcome_unit": "probability_of_birth",
                     "effect_harmonized": "-0.20",
                     "se_harmonized": "0.05",
+                    "effect_oriented_more_oas": "-0.20",
+                    "se_oriented_more_oas": "0.05",
                     "is_primary_estimate": "yes",
+                    "pi_approved": "yes_assumed",
                     "needs_pi": "no",
                     "poolability_reason": (
-                        "requires_treatment_scale_followup_and_sign_orientation_before_pooling"
+                        "requires_treatment_scale_followup_target_setting_before_pooling"
                     ),
                 },
                 {
@@ -244,10 +291,13 @@ class OASMetaPipelineTests(unittest.TestCase):
                     "harmonized_outcome_unit": "probability_of_birth",
                     "effect_harmonized": "0.00",
                     "se_harmonized": "0.10",
+                    "effect_oriented_more_oas": "0.00",
+                    "se_oriented_more_oas": "0.10",
                     "is_primary_estimate": "no",
+                    "pi_approved": "yes_assumed",
                     "needs_pi": "yes",
                     "poolability_reason": (
-                        "requires_treatment_scale_followup_and_sign_orientation_before_pooling"
+                        "requires_treatment_scale_followup_target_setting_before_pooling"
                     ),
                 },
             ]
@@ -261,13 +311,19 @@ class OASMetaPipelineTests(unittest.TestCase):
             self.assertEqual(row["n_effects"], "3")
             self.assertEqual(row["n_studies"], "3")
             self.assertEqual(row["n_with_harmonized_se"], "3")
+            self.assertEqual(row["n_unresolved_needs_pi"], "0")
+            self.assertEqual(row["n_pi_approved_assumed"], "3")
             self.assertEqual(row["n_negative"], "2")
             self.assertEqual(row["n_zero"], "1")
+            self.assertEqual(row["n_with_oriented_effect"], "3")
+            self.assertEqual(row["n_oriented_negative"], "2")
+            self.assertEqual(row["n_oriented_zero"], "1")
             self.assertEqual(row["screening_fixed_effect"], "-0.133333")
+            self.assertEqual(row["oriented_screening_fixed_effect"], "-0.133333")
             self.assertEqual(row["synthesis_decision"], "screening_only_not_pooled")
             self.assertEqual(
                 row["primary_pooling_blocker"],
-                "treatment_scale_followup_and_sign_orientation",
+                "treatment_scale_followup_target_setting",
             )
 
 

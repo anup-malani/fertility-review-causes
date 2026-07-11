@@ -74,7 +74,7 @@ Nine studies estimate the forward pathway from non-child old-age security to fer
 | Basso, Bodenhorn, and Cuberes (2014) | United States, 1850 | Financial development | "child-woman ratio; crude birth rate" | Historical cross-county analysis | PM / FDT | The best-timed FDT mechanism: financial markets substitute for children before state pensions mature. |
 | Galofre-Vila (2023) | United States, 1940-1960 | 1935 Social Security Act | "total fertility rate...; number of own children under the age of five; number of children ever born" | Historical panel / census analysis | FDT | FDT-adjacent evidence, but weaker for the classic negative OAS motive because the baby-boom setting and sign require careful interpretation. |
 
-The current extraction records one primary estimate per included quantitative study where available, with original units, uncertainty when reported, and page/table locators. The remaining limits are RA verification, `needs_pi = yes` adjudication, compatible harmonization and sign orientation, and demographic-significance computation, including any reported R-squared or variance-share measures.
+The current extraction records one primary estimate per included quantitative study where available, with original units, uncertainty when reported, and page/table locators. After RA review, the current pass treats all rows as PI-approved and orients eligible Cell A effects to the fertility effect of more non-child old-age security. The remaining limits are treatment-scale comparability, target-setting comparability, and demographic-significance computation, including any reported R-squared or variance-share measures.
 
 ### 5.2 Cell B: Mechanism Evidence
 
@@ -96,13 +96,15 @@ The indirect evidence should sit in an appendix, not the main effect estimate. I
 
 The quantitative synthesis is intentionally conservative. The extraction table now records the paper-visible outcome, original effect, uncertainty when reported, treatment scale, follow-up window, and page/table locator for each main estimate. The harmonized table preserves those original values and adds conversions only where the unit conversion is mechanical.
 
-The compatibility screen does not support a valid pooled estimate in the current extraction. The synthesis is therefore quantitative but not pooled: not_poolable (structured_narrative, n=16). The post-RA meta-analysis readiness table identifies two candidate numeric families with enough rows for screening calculations: one-year birth probability (five effects from five studies) and completed fertility / children-ever-born (five effects from five studies, four with standard errors). Those calculations are labelled `screening_only_not_pooled`; they are not reported as pooled estimates because the rows still mix treatment scales, follow-up windows, target settings, and sign orientation.
+The compatibility screen does not support a valid pooled estimate in the current extraction. The synthesis is therefore quantitative but not pooled: not_poolable (structured_narrative, n=16). Under the PI-approval assumption, the harmonized table now orients each eligible Cell A estimate so `effect_oriented_more_oas` means the fertility effect of more non-child old-age security. Pension cuts, such as Billari and Galasso, are sign-flipped; pension expansions, financial access, and LTCI expansions are left in the reported direction; broad Social Security Act spending remains unoriented because the mechanism is mixed.
+
+The post-RA meta-analysis readiness table identifies two candidate numeric families with enough rows for screening calculations: one-year birth probability (five oriented effects from five studies) and completed fertility / children-ever-born (four oriented effects with standard errors, plus one broader Social Security Act completed-fertility estimate left unoriented). Those calculations are labelled `screening_only_not_pooled`; they are not reported as pooled estimates because the rows still mix treatment scales, follow-up windows, and target settings.
 
 Cell A and Cell C remain separate. Cell A estimates the classic old-age-security motive. Cell C estimates grandparental-childcare effects with the opposite sign. Cell B and Cell D remain mechanism and chain-link evidence, not fertility-effect estimates.
 
 The current harmonized file includes 16 extracted effects. Mechanical conversions are available for one-year birth-probability estimates reported in percentage points and for completed-fertility estimates already stated as births per woman. Historical aggregate outcomes, unsupported outcome families, missing standard errors, and mechanism-only estimates remain in the structured narrative rather than entering a cross-study average.
 
-After RA review, all current extracted effect rows are treated as verified by default. The remaining uncertainty is not source lookup; it is synthesis judgment. The rows marked `needs_pi = yes` require PI adjudication for interpretation or missing uncertainty, and all candidate numeric groups require sign-orientation and treatment-scale decisions before a pooled effect would have a coherent estimand.
+After RA review, all current extracted effect rows are treated as verified by default and previously flagged `needs_pi = yes` rows are treated as PI-approved for this analysis pass. The remaining uncertainty is not source lookup or sign direction; it is treatment-scale comparability. Candidate numeric groups still require a defensible rule for comparing binary pension expansions, continuous pension-value exposure, pension cuts, LTCI pilots, financial access, and broad social spending before a pooled effect would have a coherent estimand.
 
 The `outcome_family` field is a harmonization bucket, not a replacement for the paper's own dependent-variable wording. The paper-visible variable is preserved in `outcome_name`; `outcome_family` only groups those variables into broad comparison classes such as `birth_probability`, `completed_fertility`, `crude_birth_rate`, `child_woman_ratio`, or `other`. Binary or annual birth indicators are coded as `birth_probability`; children-ever-born or number-of-children measures as `completed_fertility`; aggregate rate measures as `crude_birth_rate`; child-woman-ratio measures as `child_woman_ratio`; and non-fertility or nonstandard outcomes as `other`. When a paper reports multiple relevant quantitative outcome-estimate pairs, each pair receives a separate extraction row; for example, Danzer and Zyska's short-run childbirth probability and completed-fertility decline are distinct rows.
 
@@ -157,11 +159,11 @@ The strongest direct evidence comes from quasi-experimental pension expansions o
 
 ## 10. Summary of Findings
 
-Magnitude certainty remains pending PI adjudication of `needs_pi` rows, sign orientation, and the demographic-significance macro pass.
+Magnitude certainty remains pending treatment-scale adjudication and the demographic-significance macro pass.
 
 | Outcome or channel | Studies | Synthesis | Certainty | Interpretation |
 |---|---|---|---|---|
-| Classic old-age-security motive | Cell A extracted studies | Structured quantitative narrative | Setting-specific direction; magnitude pending PI adjudication and sign orientation | The extracted Cell A set supports a real old-age-security mechanism, but its sign is not yet pooled or uniformly oriented across pension expansions, pension cuts, LTCI, historical social insurance, and baby-boom-era estimates. |
+| Classic old-age-security motive | Cell A extracted studies | Structured quantitative narrative | Setting-specific direction; magnitude pending treatment-scale adjudication | The extracted Cell A set supports a real old-age-security mechanism after orienting eligible estimates to the effect of more non-child old-age security, but the magnitudes are not yet pooled because treatment scales and target settings differ. |
 | Children as old-age-security assets | Cell B mechanism studies | Not pooled with fertility effects | Low-to-moderate | Mechanism evidence supports children and purchased old-age security as substitutes, but it does not estimate fertility effects. |
 | Grandparental childcare | Cell C studies identified by PI review | Separate SDT track outside current quantitative package | Not quantified in current quantitative package | This channel is opposite-signed and should not be pooled with the classic OAS motive. |
 | Demographic significance | All extracted studies plus target-period derivation | Slope-sufficiency pending macro-data pass | Low pending computation | Current evidence supports a real mechanism but does not yet quantify its share of PM, FDT, or SDT fertility change. |
@@ -174,7 +176,7 @@ This is why the chapter should not ask whether "pensions reduce fertility" as a 
 
 ## 12. Open Questions and High-Value Next Steps
 
-1. RA-verify the extracted primary effects, resolve `needs_pi = yes` rows, and add any reported R-squared or variance-share measures.
+1. Decide the treatment-scale and target-setting rule for whether any candidate numeric family can be pooled rather than left as screening-only.
 2. Retrieve and extract the three Cell C grandparental-childcare studies because they carry the SDT verdict.
 3. RA/PI-verify the generated risk-of-bias table and refine the identification and transportability narrative.
 4. Build the demographic-significance table for PM, FDT, and SDT using slope sufficiency, decomposition share where possible, and reported R-squared or variance-share measures where available.
