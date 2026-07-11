@@ -536,6 +536,40 @@ windows, and target settings are still not comparable enough for a coherent pool
 
 ---
 
+## [2026-07-11] — OAS TFR transition classification pass
+
+**Agent:** Codex
+**Machine:** Alexandra workspace
+**Working directory:** `/Users/alexandra/Library/CloudStorage/Box-Box/fertility-review-causes`
+
+### Summary
+
+Read TFR data from Alexandra's local `proximate-causes` directory without writing anything there.
+Implemented a small classifier in this repo that applies the above/below-replacement rule to OAS
+study windows and writes the derived classification table under `output/tables/`.
+
+### Outputs
+
+- `source/analysis/oas_transition_classification.py` — read-only UN TFR loader and replacement-status classifier.
+- `source/analysis/test_oas_transition_classification.py` — unit tests for above-replacement, below-replacement, crossing, contextual, and missing-TFR cases.
+- `output/tables/old-age-security-pension-crowdout-tfr-transition-classification.csv` — study-window TFR classification table.
+- `output/chapters/old-age-security-pension-crowdout.md` — Section 7 updated with the TFR classification result.
+
+### Result
+
+Brazil is classified as FDT|SDT because the window crosses from above to below replacement.
+Namibia and postwar United States are FDT; Italy and the China pension/LTCI rows are SDT. China
+rows are flagged for human review because low fertility is policy-constrained. Prussia, Imperial
+Germany, and 1850 United States are not guessed from TFR because the local source has no
+in-window observations.
+
+### Verification
+
+- `python3 -m unittest source/analysis/test_oas_transition_classification.py`
+- `python3 source/analysis/oas_transition_classification.py`
+
+---
+
 ## [2026-07-11] — OAS conservative same-scale pooling rule adopted
 
 **Agent:** Codex

@@ -51,6 +51,7 @@ The chapter uses the project GACS-style workflow: broad search first, then deter
 | Estimand-ready set | `output/old-age-security-pension-crowdout-estimand-ready-set.md` |
 | Study extraction table | `extraction/old-age-security-pension-crowdout-studies.csv` |
 | Target-period derivation | `extraction/old-age-security-pension-crowdout-target-period-relevance.csv` |
+| TFR transition classification | `output/tables/old-age-security-pension-crowdout-tfr-transition-classification.csv` |
 | Theory-source table | `extraction/old-age-security-pension-crowdout-theory-sources.csv` |
 | Full-text screen | `extraction/old-age-security-pension-crowdout-fulltext-screen.csv` |
 
@@ -109,6 +110,8 @@ After RA review, all current extracted effect rows are treated as verified by de
 The `outcome_family` field is a harmonization bucket, not a replacement for the paper's own dependent-variable wording. The paper-visible variable is preserved in `outcome_name`; `outcome_family` only groups those variables into broad comparison classes such as `birth_probability`, `completed_fertility`, `crude_birth_rate`, `child_woman_ratio`, or `other`. Binary or annual birth indicators are coded as `birth_probability`; children-ever-born or number-of-children measures as `completed_fertility`; aggregate rate measures as `crude_birth_rate`; child-woman-ratio measures as `child_woman_ratio`; and non-fertility or nonstandard outcomes as `other`. When a paper reports multiple relevant quantitative outcome-estimate pairs, each pair receives a separate extraction row; for example, Danzer and Zyska's short-run childbirth probability and completed-fertility decline are distinct rows.
 
 ## 7. Demographic Significance
+
+The first macro pass now classifies each study window using read-only TFR data from Alexandra's `proximate-causes` directory, with derived outputs stored in this repository. The rule is mechanical: if the first and last available in-window TFR observations are both above 2.1, the setting is coded as FDT-relevant; if both are below 2.1, SDT-relevant; if the window crosses from above to below replacement, FDT|SDT; and if no TFR observation exists in the window, the row remains unclassified rather than guessed. This yields Brazil as a crossing FDT|SDT case, Namibia and postwar United States as above-replacement FDT cases, Italy and the China pension/LTCI studies as below-replacement SDT cases, and Prussia, Imperial Germany, and 1850 U.S. financial-development evidence as historical cases without in-window TFR coverage in the local source. China remains flagged for human review because low fertility is policy-constrained.
 
 ### 7.1 Pre-Modern Fertility Variation
 
@@ -192,8 +195,11 @@ This is why the chapter should not ask whether "pensions reduce fertility" as a 
 - Effect harmonization rules: `docs/meta-analysis-effect-size-harmonization.md`
 - Meta-analysis pipeline: `source/analysis/oas_meta_pipeline.py`
 - Meta-analysis pipeline tests: `source/analysis/test_oas_meta_pipeline.py`
+- TFR transition classifier: `source/analysis/oas_transition_classification.py`
+- TFR transition classifier tests: `source/analysis/test_oas_transition_classification.py`
 - Study extraction: `extraction/old-age-security-pension-crowdout-studies.csv`
 - Target-period derivation: `extraction/old-age-security-pension-crowdout-target-period-relevance.csv`
+- TFR transition classification: `output/tables/old-age-security-pension-crowdout-tfr-transition-classification.csv`
 - Theory sources: `extraction/old-age-security-pension-crowdout-theory-sources.csv`
 - Full-text screen: `extraction/old-age-security-pension-crowdout-fulltext-screen.csv`
 - Effect extraction: `extraction/old-age-security-pension-crowdout-effects.csv`

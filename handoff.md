@@ -22,13 +22,19 @@ family, harmonized unit, harmonized treatment scale, usable oriented effect/SE, 
 three independent studies. The two candidate numeric families are one-year birth probability and
 completed fertility / children ever born. Both fail the rule because they mix treatment scales,
 so the chapter should report Cell A as structured quantitative narrative unless new same-scale
-studies are added. The next highest-value analytic steps are the demographic-significance macro
-pass and extraction of the PI-identified Cell C grandparental-childcare studies.
+studies are added. The first TFR-based transition classification pass is now complete using
+read-only UN TFR data from Alexandra's local `proximate-causes` directory. Brazil is FDT|SDT,
+Namibia and postwar United States are FDT, Italy and the China pension/LTCI rows are SDT, China
+is flagged as policy-constrained, and Prussia / Imperial Germany / 1850 U.S. rows remain
+unclassified by TFR because the local source has no in-window observations. The next highest-value
+analytic steps are the broader demographic-significance macro pass and extraction of the
+PI-identified Cell C grandparental-childcare studies.
 
 Key current outputs:
 - `output/tables/old-age-security-pension-crowdout-harmonized-effects.csv`
 - `output/tables/old-age-security-pension-crowdout-meta-analysis-readiness.csv`
 - `output/tables/old-age-security-pension-crowdout-summary-of-findings.csv`
+- `output/tables/old-age-security-pension-crowdout-tfr-transition-classification.csv`
 - `output/chapters/old-age-security-pension-crowdout.md`
 - `decisions/2026-07-11-oas-conservative-pooling-rule.md`
 
