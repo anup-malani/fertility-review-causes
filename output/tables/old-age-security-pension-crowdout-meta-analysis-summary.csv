@@ -1,2 +1,2 @@
 meta_analysis_group,n_effects,synthesis_type,pooled_effect,pooled_se,rationale
-not_poolable,24,structured_narrative,,,"Rows are non-poolable because outcome units, treatment scales, follow-up windows, target settings, standard errors, or mechanism cells are incompatible or not yet coded."
+not_poolable,24,structured_narrative,,,"Rows are non-poolable under the strict same-treatment rule because outcome units, treatment scales, follow-up windows, target settings, standard errors, or mechanism cells are incompatible or not yet coded. See the outcome-specific pooled-estimates table for looser within-outcome summaries."

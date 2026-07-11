@@ -106,7 +106,7 @@ explicitly documented. For cross-country pooling, convert to PPP-adjusted 2020 U
 
 ## 5. Pooling Rules
 
-Pool estimates only if all conditions hold:
+Report a strict same-treatment pooled estimate only if all conditions hold:
 
 1. Same outcome family after harmonization.
 2. Same treatment scale or defensible conversion.
@@ -125,6 +125,13 @@ Do not pool:
 - Multiple specifications from the same study as if they were independent.
 - Estimates whose external-validity coding indicates sharply different target contexts, unless the
   model is explicitly a heterogeneous-effects or narrative synthesis.
+
+When a strict same-treatment estimate is unavailable, the chapter may still report an
+**outcome-specific pooled summary** if rows share the same mechanism cell, outcome family,
+harmonized outcome unit, usable oriented effect, and usable oriented standard error. This summary
+may mix treatment scales, but it must be labeled as an outcome-family quantitative summary rather
+than as a single structural treatment effect. The table must show the included treatment scales,
+effect IDs, study IDs, and a caveat that treatment heterogeneity remains.
 
 ## 6. Preferred Estimate Selection
 

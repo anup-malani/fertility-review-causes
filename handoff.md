@@ -16,13 +16,15 @@ labels. Pension-cut rows are sign-flipped so oriented effects mean the fertility
 non-child old-age security; broad Social Security Act/baby-boom rows remain unoriented because
 the mechanism is mixed.
 
-The current quantitative synthesis is still screening-only, not a coefficient-pooled
-meta-analysis. The adopted conservative pooling rule requires the same mechanism cell, outcome
-family, harmonized unit, harmonized treatment scale, usable oriented effect/SE, and at least
-three independent studies. The two candidate numeric families are one-year birth probability and
-completed fertility / children ever born. Both fail the rule because they mix treatment scales,
-so the chapter should report Cell A as structured quantitative narrative unless new same-scale
-studies are added. The first TFR-based transition classification pass is now complete using
+The current quantitative synthesis now has two pooling layers. The strict same-treatment rule still
+requires the same mechanism cell, outcome family, harmonized unit, harmonized treatment scale,
+usable oriented effect/SE, and at least three independent studies. A looser outcome-specific
+fixed-effect summary is now reported when mechanism cell, outcome family, and harmonized unit match
+even if treatment scales differ. For Cell A, the one-year birth-probability summary is -0.006954
+on the probability-of-birth scale (SE 0.002037; 95% CI -0.010946 to -0.002963; five studies), and
+the completed-fertility summary is -0.067672 births per woman (SE 0.026971; 95% CI -0.120536 to
+-0.014808; three studies). These are outcome-family summaries, not one structural pension-treatment
+effect. The first TFR-based transition classification pass is now complete using
 read-only UN TFR data from Alexandra's local `proximate-causes` directory. Brazil is FDT|SDT,
 Namibia and postwar United States are FDT, Italy and the China pension/LTCI rows are SDT, China
 is flagged as policy-constrained, and Prussia / Imperial Germany / 1850 U.S. rows remain
@@ -73,6 +75,7 @@ mechanism-only sources.
 Key current outputs:
 - `output/tables/old-age-security-pension-crowdout-harmonized-effects.csv`
 - `output/tables/old-age-security-pension-crowdout-meta-analysis-readiness.csv`
+- `output/tables/old-age-security-pension-crowdout-outcome-specific-pooled-estimates.csv`
 - `output/tables/old-age-security-pension-crowdout-summary-of-findings.csv`
 - `output/tables/old-age-security-pension-crowdout-tfr-transition-classification.csv`
 - `output/tables/old-age-security-pension-crowdout-demographic-significance.csv`

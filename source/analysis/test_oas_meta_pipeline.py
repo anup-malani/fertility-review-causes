@@ -11,6 +11,7 @@ from oas_meta_pipeline import (
     CELL_C_SLOPE_COLUMNS,
     CELL_C_SLOPE_SUFFICIENCY_COLUMNS,
     GRADE_VERDICT_COLUMNS,
+    OUTCOME_SPECIFIC_POOLED_COLUMNS,
     REVIEW_FIELDS,
     harmonize_effect_row,
     make_effect_review_columns,
@@ -22,6 +23,7 @@ from oas_meta_pipeline import (
     write_demographic_significance,
     write_grade_verdicts,
     write_meta_analysis_readiness,
+    write_outcome_specific_pooled_estimates,
 )
 
 
@@ -414,6 +416,74 @@ class OASMetaPipelineTests(unittest.TestCase):
             self.assertEqual(row["recommended_synthesis"], "pool_fixed_effect_same_scale")
             self.assertEqual(row["recommended_pooled_effect_more_oas"], "-0.133333")
             self.assertEqual(row["recommended_pooled_se_more_oas"], "0.033333")
+
+    def test_write_outcome_specific_pooled_estimates_pools_with_treatment_caveat(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp_path = Path(tmp)
+            harmonized_path = tmp_path / "harmonized.csv"
+            pooled_path = tmp_path / "pooled.csv"
+            rows = [
+                {
+                    "effect_id": "e1",
+                    "study_id": "s1",
+                    "mechanism_cell": "A",
+                    "outcome_family": "birth_probability",
+                    "harmonized_outcome_unit": "probability_of_birth",
+                    "effect_oriented_more_oas": "-0.10",
+                    "se_oriented_more_oas": "0.05",
+                    "treatment_scale_harmonized": "pension_expansion_binary_exposure",
+                    "is_primary_estimate": "yes",
+                },
+                {
+                    "effect_id": "e2",
+                    "study_id": "s2",
+                    "mechanism_cell": "A",
+                    "outcome_family": "birth_probability",
+                    "harmonized_outcome_unit": "probability_of_birth",
+                    "effect_oriented_more_oas": "-0.20",
+                    "se_oriented_more_oas": "0.05",
+                    "treatment_scale_harmonized": "pension_value_continuous_exposure",
+                    "is_primary_estimate": "yes",
+                },
+                {
+                    "effect_id": "e3",
+                    "study_id": "s3",
+                    "mechanism_cell": "A",
+                    "outcome_family": "birth_probability",
+                    "harmonized_outcome_unit": "probability_of_birth",
+                    "effect_oriented_more_oas": "0.00",
+                    "se_oriented_more_oas": "0.10",
+                    "treatment_scale_harmonized": "ltci_pilot_binary_exposure",
+                    "is_primary_estimate": "no",
+                },
+                {
+                    "effect_id": "mechanism",
+                    "study_id": "s4",
+                    "mechanism_cell": "B",
+                    "outcome_family": "birth_probability",
+                    "harmonized_outcome_unit": "probability_of_birth",
+                    "effect_oriented_more_oas": "-0.90",
+                    "se_oriented_more_oas": "0.10",
+                    "treatment_scale_harmonized": "wrong_cell",
+                    "is_primary_estimate": "yes",
+                },
+            ]
+            write_csv(harmonized_path, rows, list(rows[0].keys()))
+
+            write_outcome_specific_pooled_estimates(harmonized_path, pooled_path)
+
+            with pooled_path.open(newline="", encoding="utf-8") as handle:
+                pooled_rows = list(csv.DictReader(handle))
+            self.assertEqual(len(pooled_rows), 1)
+            row = pooled_rows[0]
+            self.assertEqual(list(row.keys()), OUTCOME_SPECIFIC_POOLED_COLUMNS)
+            self.assertEqual(row["pooled_group"], "cell_a__birth_probability__probability_of_birth")
+            self.assertEqual(row["n_effects"], "3")
+            self.assertEqual(row["n_studies"], "3")
+            self.assertEqual(row["n_treatment_scales"], "3")
+            self.assertEqual(row["pooled_effect"], "-0.133333")
+            self.assertEqual(row["pooled_se"], "0.033333")
+            self.assertIn("not a single structural treatment effect", row["caveat"])
 
     def test_write_demographic_significance_table(self):
         with tempfile.TemporaryDirectory() as tmp:

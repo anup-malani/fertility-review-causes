@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import csv
+import math
 from decimal import Decimal, InvalidOperation
 from pathlib import Path
 
@@ -184,6 +185,30 @@ GRADE_VERDICT_COLUMNS = [
     "grade_rationale",
 ]
 
+OUTCOME_SPECIFIC_POOLED_COLUMNS = [
+    "pooled_group",
+    "mechanism_cell",
+    "outcome_family",
+    "harmonized_outcome_unit",
+    "effect_orientation",
+    "synthesis_type",
+    "n_effects",
+    "n_studies",
+    "n_primary_estimates",
+    "n_treatment_scales",
+    "treatment_scales",
+    "pooled_effect",
+    "pooled_se",
+    "ci_lower_95",
+    "ci_upper_95",
+    "z_statistic",
+    "p_value",
+    "included_effect_ids",
+    "included_study_ids",
+    "interpretation",
+    "caveat",
+]
+
 
 def read_csv(path: Path) -> list[dict[str, str]]:
     with path.open(newline="", encoding="utf-8") as handle:
@@ -254,6 +279,12 @@ def _format_decimal(value: Decimal | None) -> str:
         return ""
     normalized = value.normalize()
     return format(normalized, "f")
+
+
+def _format_decimal_6(value: Decimal | None) -> str:
+    if value is None:
+        return ""
+    return _format_decimal(value.quantize(Decimal("0.000001")))
 
 
 def derive_se_from_test_statistic(effect: Decimal | None, row: dict[str, str]) -> Decimal | None:
@@ -513,9 +544,11 @@ def write_meta_analysis_summary(harmonized_path: Path, summary_path: Path) -> No
                     "pooled_effect": "",
                     "pooled_se": "",
                     "rationale": (
-                        "Rows are non-poolable because outcome units, treatment scales, "
-                        "follow-up windows, target settings, standard errors, or "
-                        "mechanism cells are incompatible or not yet coded."
+                        "Rows are non-poolable under the strict same-treatment rule "
+                        "because outcome units, treatment scales, follow-up windows, "
+                        "target settings, standard errors, or mechanism cells are "
+                        "incompatible or not yet coded. See the outcome-specific "
+                        "pooled-estimates table for looser within-outcome summaries."
                     ),
                 }
             )
@@ -573,6 +606,137 @@ def write_meta_analysis_summary(harmonized_path: Path, summary_path: Path) -> No
             "rationale",
         ],
     )
+
+
+def _normal_two_sided_p_value(z_statistic: Decimal) -> str:
+    p_value = math.erfc(abs(float(z_statistic)) / math.sqrt(2))
+    return _format_decimal_6(Decimal(str(p_value)))
+
+
+def _pooled_interpretation(
+    mechanism_cell: str, outcome_family: str, unit: str, pooled: Decimal
+) -> str:
+    direction = "raises fertility" if pooled > 0 else "lowers fertility" if pooled < 0 else "has no average effect on fertility"
+    if mechanism_cell == "A":
+        return (
+            f"Within the {outcome_family} outcome family, more non-child old-age "
+            f"security {direction} on average on the {unit} scale."
+        )
+    if mechanism_cell == "C":
+        return (
+            f"Within the {outcome_family} outcome family, more grandparent "
+            f"availability {direction} on average on the {unit} scale."
+        )
+    return (
+        f"Within the {outcome_family} outcome family, the pooled estimate "
+        f"{direction} on average on the {unit} scale."
+    )
+
+
+def _rows_for_outcome_specific_pooling(
+    harmonized_rows: list[dict[str, str]]
+) -> list[dict[str, str]]:
+    rows: list[dict[str, str]] = []
+    for row in harmonized_rows:
+        if row.get("mechanism_cell") != "A":
+            continue
+        effect = _decimal(row.get("effect_oriented_more_oas", ""))
+        se = _decimal(row.get("se_oriented_more_oas", ""))
+        if effect is None or se in {None, Decimal("0")}:
+            continue
+        if not row.get("harmonized_outcome_unit"):
+            continue
+        rows.append(row)
+    return rows
+
+
+def write_outcome_specific_pooled_estimates(
+    harmonized_path: Path, pooled_path: Path
+) -> None:
+    rows = _rows_for_outcome_specific_pooling(read_csv(harmonized_path))
+    grouped: dict[tuple[str, str, str], list[dict[str, str]]] = {}
+    for row in rows:
+        key = (
+            row.get("mechanism_cell", ""),
+            row.get("outcome_family", ""),
+            row.get("harmonized_outcome_unit", ""),
+        )
+        grouped.setdefault(key, []).append(row)
+
+    pooled_rows: list[dict[str, str]] = []
+    for (mechanism_cell, outcome_family, unit), group_rows in sorted(grouped.items()):
+        if len(group_rows) < 3:
+            continue
+        effects_and_ses = [
+            (
+                _decimal(row.get("effect_oriented_more_oas", "")),
+                _decimal(row.get("se_oriented_more_oas", "")),
+            )
+            for row in group_rows
+        ]
+        usable = [
+            (effect, se)
+            for effect, se in effects_and_ses
+            if effect is not None and se is not None and se != 0
+        ]
+        if len(usable) < 3:
+            continue
+        weights = [Decimal("1") / (se * se) for _, se in usable]
+        weight_sum = sum(weights)
+        pooled = sum(effect * weight for (effect, _), weight in zip(usable, weights)) / weight_sum
+        pooled_se = (Decimal("1") / weight_sum).sqrt()
+        ci_delta = Decimal("1.96") * pooled_se
+        z_statistic = pooled / pooled_se
+        treatment_scales = sorted(
+            {row.get("treatment_scale_harmonized", "") for row in group_rows}
+        )
+        n_studies = len({row.get("study_id", "") for row in group_rows})
+        synthesis_type = (
+            "outcome_specific_fixed_effect_inverse_variance"
+            if n_studies >= 3
+            else "exploratory_dependent_effect_rows"
+        )
+        caveat = (
+            "Outcome-specific pooled summary; treatment scales differ, so this is "
+            "not a single structural treatment effect."
+        )
+        if n_studies < len(group_rows):
+            caveat += " Multiple effects come from at least one study."
+        pooled_rows.append(
+            {
+                "pooled_group": "__".join(
+                    [f"cell_{mechanism_cell.lower()}", outcome_family, unit]
+                ),
+                "mechanism_cell": mechanism_cell,
+                "outcome_family": outcome_family,
+                "harmonized_outcome_unit": unit,
+                "effect_orientation": "effect_of_more_non_child_old_age_security",
+                "synthesis_type": synthesis_type,
+                "n_effects": str(len(group_rows)),
+                "n_studies": str(n_studies),
+                "n_primary_estimates": str(
+                    sum(1 for row in group_rows if row.get("is_primary_estimate") == "yes")
+                ),
+                "n_treatment_scales": str(len(treatment_scales)),
+                "treatment_scales": ";".join(treatment_scales),
+                "pooled_effect": _format_decimal_6(pooled),
+                "pooled_se": _format_decimal_6(pooled_se),
+                "ci_lower_95": _format_decimal_6(pooled - ci_delta),
+                "ci_upper_95": _format_decimal_6(pooled + ci_delta),
+                "z_statistic": _format_decimal_6(z_statistic),
+                "p_value": _normal_two_sided_p_value(z_statistic),
+                "included_effect_ids": ";".join(row.get("effect_id", "") for row in group_rows),
+                "included_study_ids": ";".join(
+                    sorted({row.get("study_id", "") for row in group_rows})
+                ),
+                "interpretation": _pooled_interpretation(
+                    mechanism_cell, outcome_family, unit, pooled
+                ),
+                "caveat": caveat,
+            }
+        )
+
+    write_csv(pooled_path, pooled_rows, OUTCOME_SPECIFIC_POOLED_COLUMNS)
 
 
 def _analysis_group(row: dict[str, str]) -> str:
@@ -797,29 +961,50 @@ def write_meta_analysis_readiness(harmonized_path: Path, readiness_path: Path) -
     write_csv(readiness_path, readiness_rows, READINESS_COLUMNS)
 
 
-def write_summary_of_findings(summary_path: Path, sof_path: Path) -> None:
+def write_summary_of_findings(
+    summary_path: Path, sof_path: Path, pooled_path: Path | None = None
+) -> None:
     summary_rows = read_csv(summary_path)
+    pooled_rows = read_csv(pooled_path) if pooled_path is not None and pooled_path.exists() else []
     has_pooled = any(
         row["synthesis_type"] == "fixed_effect_inverse_variance_screening"
         for row in summary_rows
+    )
+    has_outcome_specific_pooled = bool(pooled_rows)
+    pooled_group_summary = "; ".join(
+        f"{row['outcome_family']} = {row['pooled_effect']} ({row['harmonized_outcome_unit']})"
+        for row in pooled_rows
+        if row.get("mechanism_cell") == "A"
     )
     rows = [
         {
             "outcome_or_channel": "Classic old-age-security motive",
             "studies": "Cell A extracted studies",
             "synthesis": (
-                "pooled where compatible"
+                "outcome-specific fixed-effect summaries plus structured interpretation"
+                if has_outcome_specific_pooled
+                else "pooled where compatible"
                 if has_pooled
                 else "structured quantitative narrative"
             ),
             "certainty": (
-                "setting-specific direction; not coefficient-pooled under same-scale rule"
+                "setting-specific direction; treatment-scale heterogeneity remains"
+                if has_outcome_specific_pooled
+                else "setting-specific direction; not coefficient-pooled under same-scale rule"
             ),
             "interpretation": (
                 "The extracted Cell A set supports a real old-age-security mechanism "
                 "after orienting eligible estimates to the effect of more non-child "
-                "old-age security, but the magnitudes are not coefficient-pooled "
-                "because the candidate numeric families mix treatment scales."
+                "old-age security. Outcome-specific fixed-effect summaries are "
+                f"reported for: {pooled_group_summary}. These are not interpreted "
+                "as a single structural treatment effect because treatment scales differ."
+                if has_outcome_specific_pooled
+                else (
+                    "The extracted Cell A set supports a real old-age-security mechanism "
+                    "after orienting eligible estimates to the effect of more non-child "
+                    "old-age security, but the magnitudes are not coefficient-pooled "
+                    "because the candidate numeric families mix treatment scales."
+                )
             ),
         },
         {
@@ -1489,6 +1674,7 @@ def main() -> None:
     harmonized_path = tables_dir / f"{SLUG}-harmonized-effects.csv"
     readiness_path = tables_dir / f"{SLUG}-meta-analysis-readiness.csv"
     meta_summary_path = tables_dir / f"{SLUG}-meta-analysis-summary.csv"
+    outcome_pooled_path = tables_dir / f"{SLUG}-outcome-specific-pooled-estimates.csv"
     sof_path = tables_dir / f"{SLUG}-summary-of-findings.csv"
     transition_path = tables_dir / f"{SLUG}-tfr-transition-classification.csv"
     demographic_significance_path = tables_dir / f"{SLUG}-demographic-significance.csv"
@@ -1507,6 +1693,7 @@ def main() -> None:
         write_csv(harmonized_path, rows, HARMONIZED_COLUMNS)
         write_meta_analysis_readiness(harmonized_path, readiness_path)
         write_meta_analysis_summary(harmonized_path, meta_summary_path)
+        write_outcome_specific_pooled_estimates(harmonized_path, outcome_pooled_path)
         write_cell_c_slope_scaling(harmonized_path, cell_c_slope_path, cell_c_note_path)
         write_grade_verdicts(grade_verdicts_path)
         if transition_path.exists():
@@ -1522,7 +1709,7 @@ def main() -> None:
                 transition_path,
                 demographic_significance_path,
             )
-        write_summary_of_findings(meta_summary_path, sof_path)
+        write_summary_of_findings(meta_summary_path, sof_path, outcome_pooled_path)
         write_evidence_map(harmonized_path, evidence_map_path)
 
 
