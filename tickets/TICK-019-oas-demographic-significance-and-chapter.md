@@ -55,3 +55,9 @@ Compute demographic significance for PM/FDT/SDT and draft the OAS hybrid JEL/Coc
   relative to observed TFR declines in the Netherlands and Australia windows; Germany is marked
   not applicable because its study window has no observed TFR decline. Ticket remains open for
   chapter integration, final GRADE/summary adjudication, and RA readability check.
+- 2026-07-11: Integrated the noob-facing meta-analysis into
+  `output/chapters/old-age-security-pension-crowdout.md` and added generated GRADE verdicts at
+  `output/tables/old-age-security-pension-crowdout-grade-verdicts.csv`. The chapter now states
+  Cell A is structured quantitative narrative and Cell C is separate SDT structured quantitative
+  synthesis with slope-screening support. Ticket remains open for RA/PI risk-of-bias verification
+  and readability review.

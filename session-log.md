@@ -692,6 +692,43 @@ they use different treatment scales.
 
 ---
 
+## [2026-07-11] — OAS noob-facing meta-analysis integrated into chapter
+
+**Agent:** Codex
+**Machine:** Alexandra workspace
+**Working directory:** `/Users/alexandra/Library/CloudStorage/Box-Box/fertility-review-causes`
+
+### Summary
+
+Integrated the Cell C slope-sufficiency outputs into the OAS chapter and generated a final
+GRADE-style verdict table. The chapter now presents the noob-readable meta-analysis as structured
+quantitative synthesis rather than coefficient pooling.
+
+### Outputs
+
+- `output/chapters/old-age-security-pension-crowdout.md` — updated bottom-line verdict,
+  quantitative synthesis, Cell C interpretation, summary of findings, and GRADE-style table.
+- `output/tables/old-age-security-pension-crowdout-summary-of-findings.csv` — updated Cell C and
+  demographic-significance language.
+- `output/tables/old-age-security-pension-crowdout-grade-verdicts.csv` — generated GRADE verdicts.
+- `source/analysis/oas_meta_pipeline.py` — GRADE table generator and updated summary language.
+- `source/analysis/test_oas_meta_pipeline.py` — GRADE generator coverage.
+
+### Result
+
+The chapter now says Cell A is a structured quantitative narrative under the conservative no-pooling
+rule. Cell C is a separate SDT structured quantitative synthesis: all eight availability-oriented
+rows are positive, six are large in the slope-sufficiency screen, and the two Germany rows are not
+slope-scaled because the study window has no observed TFR decline.
+
+### Verification
+
+- `python3 source/analysis/oas_meta_pipeline.py`
+- `python3 -m unittest source/analysis/test_oas_meta_pipeline.py source/analysis/test_oas_transition_classification.py`
+- `git diff --check`
+
+---
+
 ## [2026-07-11] — OAS Cell C slope-sufficiency screen
 
 **Agent:** Codex

@@ -10,6 +10,7 @@ from oas_meta_pipeline import (
     EFFECT_REQUIRED_COLUMNS,
     CELL_C_SLOPE_COLUMNS,
     CELL_C_SLOPE_SUFFICIENCY_COLUMNS,
+    GRADE_VERDICT_COLUMNS,
     REVIEW_FIELDS,
     harmonize_effect_row,
     make_effect_review_columns,
@@ -19,6 +20,7 @@ from oas_meta_pipeline import (
     write_cell_c_slope_scaling,
     write_cell_c_slope_sufficiency,
     write_demographic_significance,
+    write_grade_verdicts,
     write_meta_analysis_readiness,
 )
 
@@ -685,6 +687,25 @@ class OASMetaPipelineTests(unittest.TestCase):
             self.assertEqual(
                 rows[0]["slope_sufficiency_label"],
                 "not_applicable_no_observed_decline",
+            )
+
+    def test_write_grade_verdicts_outputs_four_channel_rows(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            output_path = Path(tmp) / "grade.csv"
+            write_grade_verdicts(output_path)
+
+            with output_path.open(newline="", encoding="utf-8") as handle:
+                rows = list(csv.DictReader(handle))
+            self.assertEqual(list(rows[0].keys()), GRADE_VERDICT_COLUMNS)
+            self.assertEqual(len(rows), 4)
+            by_key = {row["phenomenon_channel"]: row for row in rows}
+            self.assertEqual(
+                by_key["SDT_grandparental_childcare"]["causal_credibility"],
+                "moderate",
+            )
+            self.assertEqual(
+                by_key["SDT_grandparental_childcare"]["demographic_significance"],
+                "partial_with_slope_screening_support",
             )
 
 

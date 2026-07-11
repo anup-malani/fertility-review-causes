@@ -54,6 +54,14 @@ are marked `not_applicable_no_observed_decline` because Germany's TFR rises slig
 row for SDT grandparental childcare now reports `partial_slope_screening_support`. Next step:
 translate this into chapter language and finalize GRADE/RA readability review.
 
+Update: the noob-facing meta-analysis language is now integrated into
+`output/chapters/old-age-security-pension-crowdout.md`. The chapter explains the no-pooling rule,
+reports Cell A as structured quantitative narrative, reports Cell C as a separate SDT structured
+quantitative synthesis, and includes a GRADE-style final rating table. A generated GRADE CSV now
+exists at `output/tables/old-age-security-pension-crowdout-grade-verdicts.csv`. Next step:
+RA/PI readability and risk-of-bias verification; no additional Cell C extraction or slope-scaling
+is pending.
+
 Key current outputs:
 - `output/tables/old-age-security-pension-crowdout-harmonized-effects.csv`
 - `output/tables/old-age-security-pension-crowdout-meta-analysis-readiness.csv`

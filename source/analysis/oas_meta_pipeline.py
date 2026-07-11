@@ -177,6 +177,13 @@ CELL_C_SLOPE_SUFFICIENCY_COLUMNS = [
     "caveat",
 ]
 
+GRADE_VERDICT_COLUMNS = [
+    "phenomenon_channel",
+    "causal_credibility",
+    "demographic_significance",
+    "grade_rationale",
+]
+
 
 def read_csv(path: Path) -> list[dict[str, str]]:
     with path.open(newline="", encoding="utf-8") as handle:
@@ -828,12 +835,15 @@ def write_summary_of_findings(summary_path: Path, sof_path: Path) -> None:
         {
             "outcome_or_channel": "Grandparental childcare",
             "studies": "Extracted Cell C studies identified by PI review",
-            "synthesis": "separate SDT track; not pooled with Cell A",
-            "certainty": "moderate for direction; not coefficient-pooled",
+            "synthesis": "separate SDT structured quantitative synthesis; not pooled with Cell A",
+            "certainty": "moderate for direction; large slope-screening effects in declining-TFR windows",
             "interpretation": (
                 "This channel is opposite to the classic old-age-security crowd-out "
                 "logic: greater grandparent availability tends to raise fertility, "
-                "while delayed retirement tends to lower it."
+                "while delayed retirement tends to lower it. Six Cell C rows are large "
+                "relative to observed TFR declines in the Netherlands and Australia; "
+                "the two Germany rows are not slope-scaled because Germany's TFR rises "
+                "over the SOEP study window."
             ),
         },
         {
@@ -845,7 +855,7 @@ def write_summary_of_findings(summary_path: Path, sof_path: Path) -> None:
                 "Current evidence supports partial FDT relevance for the classic OAS "
                 "motive, weak or contextual SDT relevance for the classic motive, "
                 "and partial SDT relevance for the grandparental-childcare channel "
-                "pending slope scaling."
+                "based on the Cell C slope-sufficiency screen."
             ),
         },
     ]
@@ -1235,6 +1245,51 @@ def write_cell_c_slope_sufficiency(
     write_cell_c_slope_sufficiency_note(rows, note_path)
 
 
+def write_grade_verdicts(output_path: Path) -> None:
+    rows = [
+        {
+            "phenomenon_channel": "PM_classic_oas",
+            "causal_credibility": "very_low",
+            "demographic_significance": "insufficient_direct_evidence",
+            "grade_rationale": (
+                "The mechanism is theoretically plausible, but the extracted evidence "
+                "does not contain direct pre-modern causal estimates."
+            ),
+        },
+        {
+            "phenomenon_channel": "FDT_classic_oas",
+            "causal_credibility": "low_to_moderate",
+            "demographic_significance": "partial",
+            "grade_rationale": (
+                "The mechanism is supported in household and historical evidence, but "
+                "state pensions are usually late for the Western FDT; the best-timed "
+                "version is broader financial-market substitution."
+            ),
+        },
+        {
+            "phenomenon_channel": "SDT_classic_oas",
+            "causal_credibility": "low",
+            "demographic_significance": "not_significant_or_contextual",
+            "grade_rationale": (
+                "Rich-country pension systems are mostly saturated by the SDT, and "
+                "some low-fertility evidence comes from policy-constrained China."
+            ),
+        },
+        {
+            "phenomenon_channel": "SDT_grandparental_childcare",
+            "causal_credibility": "moderate",
+            "demographic_significance": "partial_with_slope_screening_support",
+            "grade_rationale": (
+                "Three quasi-experimental rich-country studies point in the same "
+                "availability-oriented direction, and six slope-sufficiency rows are "
+                "large relative to observed TFR declines where a decline denominator exists."
+            ),
+        },
+    ]
+    write_csv(output_path, rows, GRADE_VERDICT_COLUMNS)
+
+
+
 
 def _direction_summary(effects: list[Decimal]) -> str:
     if not effects:
@@ -1443,6 +1498,7 @@ def main() -> None:
     cell_c_sufficiency_note_path = (
         ROOT / "output" / f"{SLUG}-cell-c-slope-sufficiency.md"
     )
+    grade_verdicts_path = tables_dir / f"{SLUG}-grade-verdicts.csv"
     evidence_map_path = figures_dir / f"{SLUG}-evidence-map.csv"
 
     if effects_path.exists():
@@ -1452,6 +1508,7 @@ def main() -> None:
         write_meta_analysis_readiness(harmonized_path, readiness_path)
         write_meta_analysis_summary(harmonized_path, meta_summary_path)
         write_cell_c_slope_scaling(harmonized_path, cell_c_slope_path, cell_c_note_path)
+        write_grade_verdicts(grade_verdicts_path)
         if transition_path.exists():
             write_cell_c_slope_sufficiency(
                 cell_c_slope_path,
