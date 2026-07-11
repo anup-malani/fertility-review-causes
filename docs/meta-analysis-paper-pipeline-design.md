@@ -173,6 +173,13 @@ FDT, and SDT contexts:
 - Urban/rural context and kinship or son-preference institutions.
 - Target-phenomenon relevance: `PM`, `FDT`, `SDT`, combinations, or `none`.
 
+For target-phenomenon relevance, classify FDT versus SDT using replacement status where TFR data
+are available: both endpoints above 2.1 means `FDT`, both below 2.1 means `SDT`, and crossing
+from above to below replacement means `FDT|SDT`. Missing in-window TFR should remain unclassified
+and be escalated to human interpretation rather than guessed from calendar period alone. If macro
+data are read from another local project, treat that project as read-only and write derived outputs
+under this repository. See `decisions/2026-07-11-tfr-replacement-transition-classification.md`.
+
 The synthesis should separate two judgments: internal causal credibility in the study setting and
 transportability to each target phenomenon. An internally credible pension expansion study in rural
 or historical settings may have high mechanism relevance but limited SDT transportability if family
@@ -211,6 +218,8 @@ Translate causal estimates into demographic relevance:
   fertility movement?
 - Decomposition share where macro data allow it.
 - Conditional association benchmarks only as supporting evidence, never as causal proof.
+- TFR-based transition classification as a precursor to slope sufficiency, using the
+  replacement-status rule above.
 
 This is the key bridge from Cochrane-style causal evidence to the project’s core question:
 does the mechanism matter enough to explain fertility decline?

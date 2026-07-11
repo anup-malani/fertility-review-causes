@@ -84,6 +84,12 @@ fertility. Separate theory from empirical claims.]
 settings. Code and discuss welfare-state baseline, family-transfer dependence, baseline fertility,
 pension coverage, treatment margin, urban/rural context, and kinship or son-preference context.]
 
+[When TFR data are available, classify FDT/SDT relevance by replacement status in the study window:
+above-replacement endpoints = FDT, below-replacement endpoints = SDT, above-to-below crossing =
+FDT|SDT. Do not infer classification when the macro source has no in-window TFR observation; flag
+for human interpretation. Treat external data repositories as read-only and store derived
+classification outputs in this project.]
+
 | Study | Setting | Mechanism strength | PM relevance | FDT relevance | SDT relevance | Transportability concern |
 |---|---|---|---|---|---|---|
 | [Author year] | [country/period/population] | [high/moderate/low] | [high/moderate/low] | [high/moderate/low] | [high/moderate/low] | [short rationale] |

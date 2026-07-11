@@ -120,6 +120,10 @@ Optional (try as part of meta-experiments):
 - The AI makes up a paper title that sounds plausible but doesn't exist.
 - The AI extracts a "TFR" value that's actually a CBR (or vice versa).
 - The AI confuses pre-modern (PM) and FDT in a chapter that should clearly distinguish them.
+- The AI classifies a study as FDT or SDT from calendar year or income level without checking
+  whether TFR was above or below replacement during the study window.
+- The AI writes derived data into another local project used as an input source. External project
+  directories, including `proximate-causes`, are read-only unless Anup explicitly says otherwise.
 - The AI applies a search query string that misses the foundational paper everyone in the field knows.
 - The AI's GRADE rating reads "Moderate" but the cited studies are all cross-sectional with no identification.
 - A chapter cites a paper for a finding that the paper, when you actually read it, doesn't make.

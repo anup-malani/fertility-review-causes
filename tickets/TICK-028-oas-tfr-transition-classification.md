@@ -22,3 +22,7 @@ current `fertility-review-causes` repository.
 ## Log
 <!-- Append completion note here when done. -->
 - 2026-07-11 Codex: Added read-only UN TFR classifier, generated `output/tables/old-age-security-pension-crowdout-tfr-transition-classification.csv`, and updated the chapter with the above/below-replacement transition classifications.
+- 2026-07-11 Codex: Promoted the rule to
+  `decisions/2026-07-11-tfr-replacement-transition-classification.md` and cross-referenced it from
+  the protocol, pipeline design, RA playbook, chapter template, and OAS demographic-significance
+  ticket.

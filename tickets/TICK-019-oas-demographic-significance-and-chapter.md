@@ -27,3 +27,8 @@ Compute demographic significance for PM/FDT/SDT and draft the OAS hybrid JEL/Coc
 - 2026-07-09: Chapter updated with quantitative synthesis outputs and reproducibility appendix
   links. TICK-018 is now complete, but this ticket remains open because the demographic-significance
   table and theory-stream dependency are not complete.
+- 2026-07-11: TFR-based target-period classification now exists at
+  `output/tables/old-age-security-pension-crowdout-tfr-transition-classification.csv`, using the
+  replacement-status rule documented in
+  `decisions/2026-07-11-tfr-replacement-transition-classification.md`. This is a prerequisite for
+  the full demographic-significance table, not a substitute for slope-sufficiency calculations.

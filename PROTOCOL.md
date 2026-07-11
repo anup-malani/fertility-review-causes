@@ -23,6 +23,14 @@ Each hypothesis is evaluated against **three** target phenomena. The same explan
 
 A "verdict" on a hypothesis is therefore a 3-tuple: { significance for PM, significance for FDT, significance for SDT }.
 
+For study-window classification, use replacement status when TFR data are available. A study window
+whose first and last available in-window TFR observations are both above 2.1 is FDT-like; both
+below 2.1 is SDT-like; an above-to-below crossing is FDT|SDT. If no in-window TFR observation
+exists, do not guess from calendar period alone; flag the row for human interpretation. Low-fertility
+settings with binding fertility policy, such as China in the one-child / two-child-policy era,
+must be flagged for human review. See
+`decisions/2026-07-11-tfr-replacement-transition-classification.md`.
+
 ## 3. Four categories of explanation
 
 Hypotheses are sorted into one of four categories. Cross-category hypotheses are assigned to the **primary mechanism** with a flagged cross-reference.
@@ -80,7 +88,7 @@ For each hypothesis, the following stages are executed. **Bold** indicates a hum
 7. Data extraction into structured template (`extraction/{hypothesis-slug}.csv`). **RA verifies a random 10% sample against PDFs.**
 8. Risk-of-bias assessment per study (ROBINS-I for observational; RoB 2 for any RCTs).
 9. Meta-analysis (R `metafor`) if ≥3 studies with extractable effect sizes; narrative synthesis otherwise.
-10. Demographic-significance computation against PM / FDT / SDT using extracted estimates + macro datasets (HFD, WPP, Maddison, Gapminder).
+10. Demographic-significance computation against PM / FDT / SDT using extracted estimates + macro datasets (HFD, WPP, Maddison, Gapminder). For target-period classification, read macro data from source repositories as read-only inputs and store derived outputs in this repo.
 11. GRADE rating — judge panel of 3 independent agent raters; **disagreements > 1 level escalate to PI.**
 12. Chapter draft using fixed template (Section 6).
 13. **RA lay-readability check** — RA reads the chapter and flags any passage that doesn't make sense to a smart undergrad, or any claim that smells overconfident given the cited evidence.
