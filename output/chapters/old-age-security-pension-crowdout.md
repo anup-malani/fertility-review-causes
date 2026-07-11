@@ -7,7 +7,7 @@
 **Draft status:** Reader-facing chapter draft
 **Last updated:** 2026-07-11
 
-## 1. Bottom-Line Verdict
+## 1. Verdict
 
 The strongest evidence supports a narrow version of the old-age-security argument. When households receive a credible substitute for children as old-age support, fertility often falls in settings where children still plausibly insure old age. Evidence from other settings points in different directions. Long-term-care insurance in China, social insurance in Bismarckian Prussia, and U.S. Social Security during the baby boom do not all show the same negative fertility response. The effect depends on what kind of old-age security changes and on the demographic setting in which it changes.
 
@@ -15,7 +15,7 @@ That evidence does not imply that state pensions caused the First Demographic Tr
 
 The Second Demographic Transition asks whether pension policy still matters after public pensions and private savings are already widespread. In rich low-fertility countries, new pension policy has less room to reduce fertility by replacing children as old-age insurance. The stronger evidence for these settings supports the grandparental childcare argument. Retirement and pension eligibility affect grandparents' childcare availability, which affects adult children's fertility. More grandparent availability raises fertility; delayed retirement lowers it.
 
-| Phenomenon | Causal credibility | Demographic significance | Bottom line |
+| Phenomenon | Causal credibility | Demographic significance | Verdict |
 |---|---|---|---|
 | PM | Very low direct evidence | Low for variation | The mechanism may explain why high fertility was privately valuable, but not why pre-modern fertility varied across populations. |
 | FDT | Low-to-moderate | Partial | State pensions were too late to start the FDT; financial-market development is the better-timed old-age-security substitute. Outcome-specific pooled summaries for replacing children with non-child old-age security point toward lower fertility. |
