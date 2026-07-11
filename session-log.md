@@ -841,3 +841,29 @@ quotation from theory papers would still require retrieving the theory PDFs list
 
 - `python3 -m unittest source/analysis/test_oas_meta_pipeline.py source/analysis/test_oas_transition_classification.py`
 - `git diff --check`
+
+---
+
+## [2026-07-11] — OAS chapter converted to reader-facing draft
+
+**Agent:** Codex
+**Machine:** Alexandra workspace
+**Working directory:** `/Users/alexandra/Library/CloudStorage/Box-Box/fertility-review-causes`
+
+### Summary
+
+Reworked the OAS chapter so the main text reads for chapter readers rather than for RAs or project
+operators. The substantive argument remains the same, but workflow details now sit in the
+reproducibility appendix.
+
+### Outputs
+
+- `output/chapters/old-age-security-pension-crowdout.md` — removed RA/PI-facing status language
+  from the body, summarized methods for readers, converted work-queue next steps into limitations
+  and extensions, and moved variable-coding/provenance details into the appendix.
+- `tickets/TICK-019-oas-demographic-significance-and-chapter.md` — logged the reader-facing rewrite.
+
+### Verification
+
+- `python3 -m unittest source/analysis/test_oas_meta_pipeline.py source/analysis/test_oas_transition_classification.py`
+- `git diff --check`

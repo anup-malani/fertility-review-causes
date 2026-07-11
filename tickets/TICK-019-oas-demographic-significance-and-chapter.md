@@ -65,3 +65,6 @@ Compute demographic significance for PM/FDT/SDT and draft the OAS hybrid JEL/Coc
   effect-extraction review sheet and risk-of-bias judgments as RA-approved. TICK-020, Cell C
   extraction, Cell C slope-sufficiency, and final GRADE outputs are no longer blockers. Ticket
   remains open only for the final readability/PI sign-off queue.
+- 2026-07-11: Reworked `output/chapters/old-age-security-pension-crowdout.md` from a workflow-facing
+  draft into a reader-facing chapter. Search logs, review-sheet provenance, variable-coding details,
+  and sign-off status now sit in the reproducibility appendix rather than the main argument.

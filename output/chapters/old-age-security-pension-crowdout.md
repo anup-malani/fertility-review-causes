@@ -4,12 +4,14 @@
 **Primary mechanism:** Non-child old-age security reduces the need to have children as retirement insurance.  
 **Second channel:** Pension eligibility can also raise fertility by freeing grandparents' time for childcare.  
 **Target phenomena:** PM / FDT / SDT  
-**Review status:** First chapter draft for RA and PI review  
+**Draft status:** Reader-facing chapter draft
 **Last updated:** 2026-07-11
 
 ## 1. Bottom-Line Verdict
 
-Old-age security is a real household fertility mechanism, but not a single transition-level story. The strongest classic pension-crowdout cases are mostly negative: when households receive a credible substitute for children as old-age support, fertility often falls in settings where children still plausibly insure old age. The current extracted Cell A effects also include positive, nonnegative, or ambiguous estimates in long-term-care insurance, Bismarck/Prussia, and U.S. Social Security/baby-boom settings, so direction is channel- and setting-specific. It does not mean state pensions caused the First Demographic Transition. Public pensions mostly arrived after that decline had begun. The better-timed first-transition version is financial development: banks and savings instruments gave households a non-child way to move resources into old age. The Second Demographic Transition is different again. The old-age-security motive is mostly saturated and often wrong-signed in rich low-fertility countries. The strongest SDT-relevant evidence is now Cell C: retirement and pension eligibility affect grandparents' childcare availability, which affects adult children's fertility. That channel has the opposite sign from classic pension crowd-out. More grandparent availability raises fertility; delayed retirement lowers it. The current chapter is therefore a structured quantitative synthesis, not a coefficient-pooled meta-analysis.
+Old-age security is a real household fertility mechanism, but not a single transition-level story. The strongest classic pension-crowdout cases are mostly negative: when households receive a credible substitute for children as old-age support, fertility often falls in settings where children still plausibly insure old age. Other estimates, especially long-term-care insurance, Bismarck/Prussia, and U.S. Social Security/baby-boom evidence, are positive, nonnegative, or ambiguous, so the sign is channel- and setting-specific.
+
+That pattern does not imply that state pensions caused the First Demographic Transition. Public pensions mostly arrived after that decline had begun. The better-timed first-transition version is financial development: banks and savings instruments gave households a non-child way to move resources into old age. The Second Demographic Transition is different again. In rich low-fertility countries, the classic old-age-security motive is mostly saturated and often wrong-signed. The strongest SDT-relevant evidence is the grandparental-childcare channel: retirement and pension eligibility affect grandparents' childcare availability, which affects adult children's fertility. That channel has the opposite sign from classic pension crowd-out. More grandparent availability raises fertility; delayed retirement lowers it.
 
 | Phenomenon | Causal credibility | Demographic significance | Bottom line |
 |---|---|---|---|
@@ -21,7 +23,7 @@ Old-age security is a real household fertility mechanism, but not a single trans
 
 The classic claim is simple. Parents want support in old age. If children are the main way to obtain it, children are partly an investment asset. Give parents another asset, such as a pension, social insurance, long-term-care insurance, or a usable financial market, and the retirement return to an additional child falls. Fertility should fall with it.
 
-The theory stream is separate from the empirical meta-analysis set. It supplies the economic logic for why the empirical estimand is meaningful, but it does not itself enter the pooled or structured quantitative evidence. The theory-source table now classifies the chapter's theory corpus into four roles: core old-age-security theory, formal pension/fertility models, bridge theory linking social security to demographic trends, and Cell C theory relevant to childcare and retirement timing.
+The theory matters because it separates the chapter's two pension channels. The first channel is asset substitution: children are one way to insure old age, so non-child old-age security can reduce fertility. The second channel is time transfer: retirement changes grandparents' availability for childcare, so pension policy can raise fertility by lowering childcare costs for adult children.
 
 ### 2.1 Core Old-Age-Security Logic
 
@@ -51,7 +53,7 @@ For the Second Demographic Transition, the classic motive is often saturated in 
 
 ## 3. Evidence Cells
 
-The screening output initially treated pensions-and-fertility papers as one set. The PI review and meeting notes split them into four cells. This chapter follows that structure.
+The evidence is clearest when pensions-and-fertility papers are split into four causal cells.
 
 | Cell | What it measures | Use in this chapter |
 |---|---|---|
@@ -60,24 +62,13 @@ The screening output initially treated pensions-and-fertility papers as one set.
 | C. Grandparental childcare | Pension or retirement policy changes childcare help and fertility. | Main SDT-relevant channel. Opposite sign from Cell A. |
 | D. Indirect chain links | Pensions affect savings, schooling, migration, coresidence, health, or other links short of fertility. | Appendix evidence that updates mechanism plausibility. |
 
-The binding filter is the estimand, not the search. The current estimand-ready note lists 10 of 40 reviewed studies as ready after DOI and title screening. The PI recoding turns that into 9 primary Cell A studies plus Ci (2024) as Cell B mechanism evidence. It also rescues three grandparental-childcare papers for Cell C because they carry the SDT verdict even though they are not part of the classic OAS-motive estimate.
+The binding filter is the estimand, not topical relevance. A paper can be about pensions and fertility but still answer the wrong causal question for the classic old-age-security motive. The synthesis therefore separates primary fertility effects, mechanism validation, grandparental childcare, and indirect chain links.
 
 ## 4. Search and Inclusion Methods
 
-The chapter uses the project GACS-style workflow: broad search first, then deterministic and AI-assisted screening, DOI/title-author-year deduplication, RA review, PDF retrieval, full-text screening, and structured extraction. The current chapter draft uses these files as the evidence trail:
+The review began with a broad search for old-age security, pensions, social insurance, financial development, and fertility. Search results were deduplicated by DOI and title-author-year, screened for relevance, retrieved as full text when eligible, and then classified by estimand. The key inclusion rule was not whether a paper mentioned pensions, but whether it identified one of the chapter's causal cells.
 
-| Input | Path |
-|---|---|
-| PI benchmark review | `output/chapters/old-age-security-pension-crowdout-pi-review v4.md` |
-| Meeting summary | `meeting-summaries/2026-07-05-pensions-fertility-review.md` |
-| Estimand-ready set | `output/old-age-security-pension-crowdout-estimand-ready-set.md` |
-| Study extraction table | `extraction/old-age-security-pension-crowdout-studies.csv` |
-| Target-period derivation | `extraction/old-age-security-pension-crowdout-target-period-relevance.csv` |
-| TFR transition classification | `output/tables/old-age-security-pension-crowdout-tfr-transition-classification.csv` |
-| Theory-source table | `extraction/old-age-security-pension-crowdout-theory-sources.csv` |
-| Full-text screen | `extraction/old-age-security-pension-crowdout-fulltext-screen.csv` |
-
-The current methods appendix now records the effect extraction, risk-of-bias, harmonized-effects, meta-analysis-summary, summary-of-findings, and evidence-map outputs used for this quantitative synthesis. The effect-extraction review sheet and the risk-of-bias table have both been RA-approved for this draft. PRISMA counts and final PI sign-off remain separate project-level review steps.
+The main synthesis uses studies that estimate fertility responses to non-child old-age security or to grandparental availability. Mechanism-only studies are retained when they test whether children behave like old-age-security assets, but they are not pooled with fertility effects. Historical and aggregate studies are retained for timing and external-validity evidence, while their higher confounding risk is reflected in the risk-of-bias assessment. The operational search logs, extraction sheets, and reproducibility files are listed in the appendix rather than in the body of the chapter.
 
 ## 5. Included Studies and Evidence Map
 
@@ -97,59 +88,59 @@ Nine studies estimate the forward pathway from non-child old-age security to fer
 | Basso, Bodenhorn, and Cuberes (2014) | United States, 1850 | Financial development | "child-woman ratio; crude birth rate" | Historical cross-county analysis | PM / FDT | The best-timed FDT mechanism: financial markets substitute for children before state pensions mature. |
 | Galofre-Vila (2023) | United States, 1940-1960 | 1935 Social Security Act | "total fertility rate...; number of own children under the age of five; number of children ever born" | Historical panel / census analysis | FDT | FDT-adjacent evidence, but weaker for the classic negative OAS motive because the baby-boom setting and sign require careful interpretation. |
 
-The current extraction records one primary estimate per included quantitative study where available, with original units, uncertainty when reported, and page/table locators. After RA review, the current pass treats all rows as PI-approved and orients eligible Cell A effects to the fertility effect of more non-child old-age security. The remaining limits are treatment-scale comparability, target-setting comparability, and demographic-significance computation, including any reported R-squared or variance-share measures.
+The extraction records one primary estimate per included quantitative study where available, preserving original units, uncertainty when reported, and page/table locators. Eligible Cell A effects are oriented so that the sign is the fertility effect of more non-child old-age security. The main analytic limit is treatment-scale comparability: the studies do not all estimate the same policy contrast.
 
 ### 5.2 Cell B: Mechanism Evidence
 
-Ci (2024) is in the retrieved PDF package, but it should not be pooled with the Cell A fertility effects. Its outcome is private insurance adoption, private pension adoption, or private health insurance, not fertility. It asks whether children substitute for purchased old-age security. That is valuable mechanism evidence. If children reduce private insurance demand, the old-age-security premise becomes more plausible. But the estimand runs the other way.
+Ci (2024) should not be pooled with the Cell A fertility effects. Its outcome is private insurance adoption, private pension adoption, or private health insurance, not fertility. It asks whether children substitute for purchased old-age security. That is valuable mechanism evidence. If children reduce private insurance demand, the old-age-security premise becomes more plausible. But the estimand runs the other way.
 
-The PI review also identifies Ruthbah (2022) as a parallel mechanism paper from Bangladesh. It should be retrieved or at least adjudicated consistently with Ci before the final version.
+Ruthbah (2022), from Bangladesh, appears to be a parallel mechanism paper. It is best treated as a candidate Cell B addition rather than as part of the primary fertility-effect synthesis.
 
 ### 5.3 Cell C: Grandparental-Childcare Evidence
 
-The SDT case depends on the grandparental-childcare channel. The PI review names three studies: Eibich and Siedler (Germany), Ilciukas (Netherlands), and Akyol and Atalay (Australia). These studies are not classic children-as-pensions evidence. They identify a different mechanism: pension or retirement policy changes grandparents' availability, which changes adult children's fertility.
+The SDT case depends on the grandparental-childcare channel. Three studies anchor this cell: Eibich and Siedler (Germany), Ilciukas (Netherlands), and Akyol and Atalay (Australia). These studies are not classic children-as-pensions evidence. They identify a different mechanism: pension or retirement policy changes grandparents' availability, which changes adult children's fertility.
 
 The sign is the key. Retired grandparents can lower childcare costs. If retirement eligibility expands, fertility can rise. If retirement ages increase or early pensions shrink, grandparents remain at work, childcare help falls, and fertility can fall. That sign matches the SDT era better than the classic OAS motive does. The extracted Cell C table includes Eibich and Siedler (Germany), Ilciukas (Netherlands), and Akyol and Atalay (Australia). All are below-replacement, rich-country settings under the TFR classification rule. After orienting every estimate to "more grandparent availability," all eight Cell C effect rows are positive.
 
-The slope-sufficiency screen compares those availability-oriented effects with observed TFR changes in the same country-window. Six rows are large relative to observed TFR declines in the Netherlands and Australia. The two Germany rows are not assigned a slope share because Germany's TFR rises slightly over the 1984-2017 SOEP window, so there is no decline denominator. This is not a decomposition share, but it is enough for the chapter's noob-facing conclusion: Cell C is quantitatively nontrivial where the target window actually has falling TFR.
+The slope-sufficiency screen compares those availability-oriented effects with observed TFR changes in the same country-window. Six rows are large relative to observed TFR declines in the Netherlands and Australia. The two Germany rows are not assigned a slope share because Germany's TFR rises slightly over the 1984-2017 SOEP window, so there is no decline denominator. This is not a decomposition share, but it shows that Cell C is quantitatively nontrivial where the target window actually has falling TFR.
 
 ### 5.4 Cell D: Indirect Chain Evidence
 
-The indirect evidence should sit in an appendix, not the main effect estimate. It includes pension effects on savings, children's schooling, migration, coresidence, old-age support, and related outcomes. These studies help answer whether the mechanism's intermediate links exist. They do not tell us how much fertility changes when old-age security changes.
+The indirect evidence includes pension effects on savings, children's schooling, migration, coresidence, old-age support, and related outcomes. These studies help answer whether the mechanism's intermediate links exist. They do not tell us how much fertility changes when old-age security changes.
 
 ## 6. Quantitative Synthesis
 
-The quantitative synthesis is intentionally conservative. The extraction table now records the paper-visible outcome, original effect, uncertainty when reported, treatment scale, follow-up window, and page/table locator for each main estimate. The harmonized table preserves those original values and adds conversions only where the unit conversion is mechanical.
+The quantitative synthesis is intentionally conservative. For each main estimate, the extraction preserves the paper-visible outcome, original effect, uncertainty when reported, treatment scale, follow-up window, and page/table locator. Harmonization changes units only where the conversion is mechanical.
 
 ### 6.1 How To Read This Meta-Analysis
 
-This chapter does not average coefficients just because all papers mention pensions. Coefficients are pooled only when they share the same mechanism, outcome family, harmonized outcome unit, treatment scale, and usable standard error across at least three independent studies. When that rule fails, the chapter uses structured quantitative synthesis: signs, magnitudes, risk-of-bias judgment, target-window classification, and slope-sufficiency screens. That is the correct noob-readable meta-analysis for this evidence base because it answers the policy question without pretending unlike estimates are one common coefficient.
+This chapter does not average coefficients just because all papers mention pensions. Coefficients are pooled only when they share the same mechanism, outcome family, harmonized outcome unit, treatment scale, and usable standard error across at least three independent studies. When that rule fails, the chapter uses structured quantitative synthesis: signs, magnitudes, risk-of-bias judgment, target-window classification, and slope-sufficiency screens. That approach answers the policy question without pretending unlike estimates are one common coefficient.
 
-The recommended pooling rule is conservative: coefficient estimates are pooled only when they share the same mechanism cell, outcome family, harmonized outcome unit, harmonized treatment scale, and usable oriented standard errors across at least three independent studies. Under the PI-approval assumption, the harmonized table now orients each eligible Cell A estimate so `effect_oriented_more_oas` means the fertility effect of more non-child old-age security. Pension cuts, such as Billari and Galasso, are sign-flipped; pension expansions, financial access, and LTCI expansions are left in the reported direction; broad Social Security Act spending remains unoriented because the mechanism is mixed.
+The pooling rule is conservative: coefficient estimates are pooled only when they share the same mechanism cell, outcome family, harmonized outcome unit, harmonized treatment scale, and usable oriented standard errors across at least three independent studies. Each eligible Cell A estimate is oriented so that the sign means the fertility effect of more non-child old-age security. Pension cuts, such as Billari and Galasso, are sign-flipped; pension expansions, financial access, and LTCI expansions are left in the reported direction; broad Social Security Act spending remains unoriented because the mechanism is mixed.
 
-Applying that rule, the current extraction does not support a valid coefficient-pooled estimate. The post-RA meta-analysis readiness table identifies two candidate numeric families with enough rows for screening calculations: one-year birth probability (five oriented effects from five studies) and completed fertility / children-ever-born (four oriented effects with standard errors, plus one broader Social Security Act completed-fertility estimate left unoriented). Both are marked `do_not_pool_mixed_treatment_scales`. The inverse-variance calculations remain screening-only diagnostics, not reported pooled effects.
+Applying that rule, the evidence does not support a valid coefficient-pooled estimate. Two candidate numeric families have enough rows for screening calculations: one-year birth probability and completed fertility / children-ever-born. Both fail the pooling rule because they mix treatment scales. The inverse-variance calculations are therefore diagnostics, not reported pooled effects.
 
 Cell A and Cell C remain separate. Cell A estimates the classic old-age-security motive. Cell C estimates grandparental-childcare effects with the opposite sign. Cell B and Cell D remain mechanism and chain-link evidence, not fertility-effect estimates.
 
-For Cell C, the harmonized table is followed by two noob-facing synthesis outputs. The first orients all Cell C estimates to greater grandparent availability. Eibich and Siedler's retirement estimates and Akyol and Atalay's pension-eligibility estimates are left as reported because the treatments increase grandparent availability. Ilciukas is sign-flipped because the Dutch reform delayed maternal retirement and reduced grandparent availability. The second output compares the oriented effects with observed TFR declines in the country-window. That screen labels six Netherlands and Australia rows as large, while marking Germany as not applicable because the SOEP window has no TFR decline.
+For Cell C, all estimates are oriented to greater grandparent availability. Eibich and Siedler's retirement estimates and Akyol and Atalay's pension-eligibility estimates are left as reported because the treatments increase grandparent availability. Ilciukas is sign-flipped because the Dutch reform delayed maternal retirement and reduced grandparent availability. The oriented effects are then compared with observed TFR declines in the country-window. Six Netherlands and Australia rows are large on that screen, while Germany is not applicable because the SOEP window has no TFR decline.
 
-The current harmonized file includes 24 extracted effects. Mechanical conversions are available for one-year birth-probability estimates reported in percentage points and for completed-fertility estimates already stated as births per woman. Historical aggregate outcomes, unsupported outcome families, missing standard errors, and mechanism-only estimates remain in the structured narrative rather than entering a cross-study average.
+The harmonized evidence base includes 24 extracted effects. Mechanical conversions are available for one-year birth-probability estimates reported in percentage points and for completed-fertility estimates already stated as births per woman. Historical aggregate outcomes, unsupported outcome families, missing standard errors, and mechanism-only estimates remain in the structured narrative rather than entering a cross-study average.
 
-After RA review, all current extracted effect rows are treated as verified and previously flagged `needs_pi = yes` rows are treated as PI-approved for this analysis pass. The remaining limitation is not source lookup, sign direction, or absence of a pooling rule. It is the substantive fact that binary pension expansions, continuous pension-value exposure, pension cuts, LTCI pilots, financial access, and broad social spending do not define one common treatment contrast.
+The remaining limitation is not source lookup, sign direction, or absence of a pooling rule. It is the substantive fact that binary pension expansions, continuous pension-value exposure, pension cuts, LTCI pilots, financial access, and broad social spending do not define one common treatment contrast.
 
-The `outcome_family` field is a harmonization bucket, not a replacement for the paper's own dependent-variable wording. The paper-visible variable is preserved in `outcome_name`; `outcome_family` only groups those variables into broad comparison classes such as `birth_probability`, `completed_fertility`, `crude_birth_rate`, `child_woman_ratio`, or `other`. Binary or annual birth indicators are coded as `birth_probability`; children-ever-born or number-of-children measures as `completed_fertility`; aggregate rate measures as `crude_birth_rate`; child-woman-ratio measures as `child_woman_ratio`; and non-fertility or nonstandard outcomes as `other`. When a paper reports multiple relevant quantitative outcome-estimate pairs, each pair receives a separate extraction row; for example, Danzer and Zyska's short-run childbirth probability and completed-fertility decline are distinct rows.
+Outcome categories are used only to decide whether estimates are comparable. Binary or annual birth indicators are grouped separately from completed fertility, aggregate crude birth rates, and child-woman ratios. When a paper reports multiple relevant quantitative outcome-estimate pairs, each pair is treated separately; for example, Danzer and Zyska's short-run childbirth probability and completed-fertility decline are distinct pieces of evidence.
 
 ## 7. Demographic Significance
 
-The first macro pass now classifies each study window using read-only TFR data from Alexandra's `proximate-causes` directory, with derived outputs stored in this repository. The rule is mechanical: if the first and last available in-window TFR observations are both above 2.1, the setting is coded as FDT-relevant; if both are below 2.1, SDT-relevant; if the window crosses from above to below replacement, FDT|SDT; and if no TFR observation exists in the window, the row remains unclassified rather than guessed. This yields Brazil as a crossing FDT|SDT case, Namibia and postwar United States as above-replacement FDT cases, Italy and the China pension/LTCI studies as below-replacement SDT cases, and Prussia, Imperial Germany, and 1850 U.S. financial-development evidence as historical cases without in-window TFR coverage in the local source. China remains flagged for human review because low fertility is policy-constrained.
+Demographic significance is assessed by matching each study window to the replacement-status of fertility in the relevant country or region. If the first and last available in-window TFR observations are both above 2.1, the setting is coded as FDT-relevant; if both are below 2.1, SDT-relevant; if the window crosses from above to below replacement, FDT|SDT; and if no TFR observation exists in the window, the row remains unclassified rather than guessed. This yields Brazil as a crossing FDT|SDT case, Namibia and postwar United States as above-replacement FDT cases, Italy and the China pension/LTCI studies as below-replacement SDT cases, and Prussia, Imperial Germany, and 1850 U.S. financial-development evidence as historical cases without in-window TFR coverage. China remains difficult to interpret because low fertility is policy-constrained.
 
-The demographic-significance table now converts that classification into four verdict rows. PM has insufficient direct evidence. FDT is partial: the sign-oriented Cell A evidence supports the household mechanism in above-replacement or crossing settings, but state pensions are often late for the Western FDT and treatment scales are not coefficient-pooled. The classic OAS motive in the SDT is not significant or only contextual: below-replacement evidence exists, but China is policy-constrained and mature rich-country pension systems leave little new classic-OAS margin. The grandparental-childcare channel is the live SDT channel: it is directionally consistent, rich-country, below-replacement evidence, and the slope-sufficiency screen is large for the Netherlands and Australia rows.
+That classification yields four verdicts. PM has insufficient direct evidence. FDT is partial: the sign-oriented Cell A evidence supports the household mechanism in above-replacement or crossing settings, but state pensions are often late for the Western FDT and treatment scales are not coefficient-pooled. The classic OAS motive in the SDT is not significant or only contextual: below-replacement evidence exists, but China is policy-constrained and mature rich-country pension systems leave little new classic-OAS margin. The grandparental-childcare channel is the live SDT channel: it is directionally consistent, rich-country, below-replacement evidence, and the slope-sufficiency screen is large for the Netherlands and Australia rows.
 
 ### 7.1 Pre-Modern Fertility Variation
 
 There is no direct pre-modern causal evidence. The mechanism almost certainly mattered as a background condition: in a world without public pensions, formal insurance, or deep financial markets, children could be old-age support. But a universal condition does not explain variation. If nearly everyone depends on children for old age, that fact helps explain high fertility levels more than differences across populations.
 
-The pre-modern verdict is therefore low. The chapter should point readers to other mechanisms for variation: mortality, marriage systems, land and inheritance, kin support, and local economic constraints. Old-age security may be a baseline motive, not the main source of pre-modern differences.
+The pre-modern verdict is therefore low. Other mechanisms are more plausible explanations for variation: mortality, marriage systems, land and inheritance, kin support, and local economic constraints. Old-age security may be a baseline motive, not the main source of pre-modern differences.
 
 ### 7.2 First Demographic Transition
 
@@ -182,26 +173,26 @@ Those differences are not nuisance details. They determine whether the mechanism
 | Rich below-replacement settings | Grandparental childcare | Most relevant to SDT, but effect size must be checked against the scale of the fertility decline. |
 | Policy-constrained low-fertility settings such as China | Classic motive under new policy expansion | Useful mechanism evidence, weak as standard SDT evidence. |
 
-The final chapter should keep internal validity and external validity separate. A study can be causally credible in its own setting and still weak evidence for a target transition.
+A study can be causally credible in its own setting and still weak evidence for a target transition. Internal validity and external validity therefore have to be judged separately.
 
 ## 9. Risk of Bias and Identification Quality
 
-The ROBINS-I-inspired risk-of-bias table has now been RA-approved for this draft. It covers confounding, selection, exposure classification, deviations, missing data, outcome measurement, reported-result selection, and identification credibility. The table deliberately preserves study-specific rationales with page/table anchors where the extraction identified the relevant estimate.
+Risk of bias is assessed across confounding, selection, exposure classification, deviations, missing data, outcome measurement, reported-result selection, and identification credibility. The most important distinction is between policy-generated micro variation, which is often credible but not randomized, and historical aggregate variation, which is valuable for timing but more exposed to ecological confounding.
 
-The strongest direct evidence comes from quasi-experimental pension expansions or eligibility changes with credible comparison groups: Rossi and Godard, Danzer and Zyska, and the grandparental-childcare studies named in the PI review. These rows are generally rated moderate rather than low risk because treatment exposure is policy-generated but not individually randomized, and missing-data documentation is not always fully audited.
+The strongest direct evidence comes from quasi-experimental pension expansions or eligibility changes with credible comparison groups: Rossi and Godard, Danzer and Zyska, and the grandparental-childcare studies included in Cell C. These rows are generally rated moderate rather than low risk because treatment exposure is policy-generated but not individually randomized, and missing-data documentation is not always fully audited.
 
-The historical evidence is important but more exposed to confounding, measurement, and ecological inference concerns. Guinnane and Streb, Fenge and Scheubel, Basso, Bodenhorn, and Cuberes, and Galofre-Vila are therefore treated as serious risk in the overall risk-of-bias field even when they are valuable for timing and mechanism. The China evidence is useful but needs careful treatment because fertility policy and pension policy overlap in time and because SDT transportability is weak. Mechanism studies such as Ci are internally relevant but do not estimate the fertility outcome. Any numeric claim in the final draft should trace to a page, table, or figure.
+The historical evidence is important but more exposed to confounding, measurement, and ecological inference concerns. Guinnane and Streb, Fenge and Scheubel, Basso, Bodenhorn, and Cuberes, and Galofre-Vila are therefore treated as serious risk in the overall risk-of-bias field even when they are valuable for timing and mechanism. The China evidence is useful but needs careful treatment because fertility policy and pension policy overlap in time and because SDT transportability is weak. Mechanism studies such as Ci are internally relevant but do not estimate the fertility outcome.
 
 ## 10. Summary of Findings
 
-Magnitude certainty remains limited because the conservative same-scale pooling rule rejects coefficient pooling for the current candidate numeric families. The chapter therefore reports structured quantitative synthesis. For Cell A, that means sign orientation and no pooled coefficient. For Cell C, it means availability orientation plus a slope-sufficiency screen against observed TFR declines.
+Magnitude certainty remains limited because the conservative same-scale pooling rule rejects coefficient pooling for the candidate numeric families. The chapter therefore reports structured quantitative synthesis. For Cell A, that means sign orientation and no pooled coefficient. For Cell C, it means availability orientation plus a slope-sufficiency screen against observed TFR declines.
 
 | Outcome or channel | Studies | Synthesis | Certainty | Interpretation |
 |---|---|---|---|---|
 | Classic old-age-security motive | Cell A extracted studies | Structured quantitative narrative | Setting-specific direction; not coefficient-pooled under same-scale rule | The extracted Cell A set supports a real old-age-security mechanism after orienting eligible estimates to the effect of more non-child old-age security, but the magnitudes are not coefficient-pooled because the candidate numeric families mix treatment scales. |
 | Children as old-age-security assets | Cell B mechanism studies | Not pooled with fertility effects | Low-to-moderate | Mechanism evidence supports children and purchased old-age security as substitutes, but it does not estimate fertility effects. |
-| Grandparental childcare | Extracted Cell C studies identified by PI review | Separate SDT structured quantitative synthesis; not pooled with Cell A | Moderate for direction; large slope-screening effects in declining-TFR windows | This channel is opposite to the classic old-age-security crowd-out logic: greater grandparent availability tends to raise fertility, while delayed retirement tends to lower it. Six Cell C rows are large relative to observed TFR declines in the Netherlands and Australia; the two Germany rows are not slope-scaled because Germany's TFR rises over the SOEP study window. |
-| Demographic significance | All extracted studies plus TFR transition classification | Structured PM/FDT/SDT demographic-significance table | Low-to-moderate, channel-specific | Current evidence supports partial FDT relevance for the classic OAS motive, weak or contextual SDT relevance for the classic motive, and partial SDT relevance for the grandparental-childcare channel based on the Cell C slope-sufficiency screen. |
+| Grandparental childcare | Extracted Cell C studies | Separate SDT structured quantitative synthesis; not pooled with Cell A | Moderate for direction; large slope-screening effects in declining-TFR windows | This channel is opposite to the classic old-age-security crowd-out logic: greater grandparent availability tends to raise fertility, while delayed retirement tends to lower it. Six Cell C rows are large relative to observed TFR declines in the Netherlands and Australia; the two Germany rows are not slope-scaled because Germany's TFR rises over the SOEP study window. |
+| Demographic significance | All extracted studies plus TFR transition classification | Structured PM/FDT/SDT demographic-significance table | Low-to-moderate, channel-specific | The evidence supports partial FDT relevance for the classic OAS motive, weak or contextual SDT relevance for the classic motive, and partial SDT relevance for the grandparental-childcare channel based on the Cell C slope-sufficiency screen. |
 
 ## 10.1 GRADE-Style Final Rating
 
@@ -218,16 +209,19 @@ The evidence supports a substitution model, but the substitute changes across ti
 
 This is why the chapter should not ask whether "pensions reduce fertility" as a generic question. The better question is which pension channel operates in which demographic regime. The classic motive lowers fertility where old-age support is scarce and children are useful assets. The childcare channel raises fertility where retired grandparents supply time to adult children. A policy that expands pensions can activate both channels at once. The net sign is empirical.
 
-## 12. Open Questions and High-Value Next Steps
+## 12. Limitations and Extensions
 
-1. Treat the current Cell A coefficient evidence as structured quantitative narrative unless a future extraction adds at least three same-scale studies within one outcome family.
-2. Complete final PI sign-off on the approved effect-extraction and risk-of-bias judgments.
-3. Run a final noob-readability pass after the PI decides whether Ghana, Ruthbah, or additional mechanism-only studies should enter an appendix.
-4. Add decomposition shares or reported R-squared / variance-share measures only where the source papers report enough information.
-5. Decide whether Ghana and Ruthbah should be added to the retrieved corpus before the final chapter.
-6. Move Cell D chain-link studies to an appendix table instead of dropping them.
+The main limitation is common across the evidence base: the studies do not estimate one common treatment contrast. Binary pension expansions, pension-wealth cuts, long-term-care insurance pilots, county financial access, and broad social-spending exposure are all relevant to old-age security, but they are not the same treatment. That is why the chapter reports structured quantitative synthesis rather than a single pooled coefficient.
+
+Two extensions would strengthen the chapter. First, additional same-scale estimates could make coefficient pooling possible within a narrow outcome family. Second, mechanism-only studies such as Ruthbah and indirect chain-link evidence could be organized into an appendix to show how children, savings, insurance, and old-age support interact outside the primary fertility estimand.
 
 ## 13. Reproducibility Appendix
+
+This appendix records how the review was built and where the underlying materials are stored. It is included for auditability; the substantive interpretation does not depend on the reader following the project workflow.
+
+The chapter uses the project GACS-style workflow: broad search first, then deterministic and AI-assisted screening, DOI/title-author-year deduplication, human review, PDF retrieval, full-text screening, structured extraction, risk-of-bias assessment, effect harmonization, and structured quantitative synthesis. The effect-extraction review sheet and the risk-of-bias table have been approved for this draft. PRISMA counts and any final sign-off can be updated here without changing the reader-facing argument.
+
+The `outcome_family` field in the extraction data is a harmonization bucket, not a replacement for the paper's own dependent-variable wording. The paper-visible variable is preserved in `outcome_name`; `outcome_family` only groups those variables into broad comparison classes such as `birth_probability`, `completed_fertility`, `crude_birth_rate`, `child_woman_ratio`, or `other`.
 
 - PI benchmark: `output/chapters/old-age-security-pension-crowdout-pi-review v4.md`
 - Meeting summary: `meeting-summaries/2026-07-05-pensions-fertility-review.md`
