@@ -108,6 +108,11 @@ READINESS_COLUMNS = [
     "screening_fixed_effect_se",
     "oriented_screening_fixed_effect",
     "oriented_screening_fixed_effect_se",
+    "recommended_synthesis",
+    "recommended_pooling_rule",
+    "recommended_pooling_group_key",
+    "recommended_pooled_effect_more_oas",
+    "recommended_pooled_se_more_oas",
     "synthesis_decision",
     "primary_pooling_blocker",
     "study_ids",
@@ -525,6 +530,67 @@ def _fixed_effect_screen_for_fields(
     )
 
 
+def _recommended_pooling(group_rows: list[dict[str, str]]) -> dict[str, str]:
+    usable = [
+        row
+        for row in group_rows
+        if _decimal(row.get("effect_oriented_more_oas", "")) is not None
+        and _decimal(row.get("se_oriented_more_oas", "")) not in {None, Decimal("0")}
+    ]
+    rule = (
+        "Pool coefficient estimates only when mechanism cell, outcome family, "
+        "harmonized unit, treatment scale, and usable "
+        "oriented standard errors match across at least three independent studies."
+    )
+    if len({row.get("study_id", "") for row in usable}) < 3:
+        return {
+            "recommended_synthesis": "do_not_pool_too_few_usable_effects",
+            "recommended_pooling_rule": rule,
+            "recommended_pooling_group_key": "",
+            "recommended_pooled_effect_more_oas": "",
+            "recommended_pooled_se_more_oas": "",
+        }
+
+    treatment_scales = {
+        row.get("treatment_scale_harmonized", "") for row in usable
+    }
+    if len(treatment_scales) != 1:
+        return {
+            "recommended_synthesis": "do_not_pool_mixed_treatment_scales",
+            "recommended_pooling_rule": rule,
+            "recommended_pooling_group_key": "",
+            "recommended_pooled_effect_more_oas": "",
+            "recommended_pooled_se_more_oas": "",
+        }
+
+    pooled_effect, pooled_se = _fixed_effect_screen_for_fields(
+        usable, "effect_oriented_more_oas", "se_oriented_more_oas"
+    )
+    if not pooled_effect:
+        return {
+            "recommended_synthesis": "do_not_pool_too_few_usable_effects",
+            "recommended_pooling_rule": rule,
+            "recommended_pooling_group_key": "",
+            "recommended_pooled_effect_more_oas": "",
+            "recommended_pooled_se_more_oas": "",
+        }
+
+    exemplar = usable[0]
+    key_parts = [
+        exemplar.get("mechanism_cell", ""),
+        exemplar.get("outcome_family", ""),
+        exemplar.get("harmonized_outcome_unit", ""),
+        exemplar.get("treatment_scale_harmonized", ""),
+    ]
+    return {
+        "recommended_synthesis": "pool_fixed_effect_same_scale",
+        "recommended_pooling_rule": rule,
+        "recommended_pooling_group_key": "__".join(key_parts),
+        "recommended_pooled_effect_more_oas": pooled_effect,
+        "recommended_pooled_se_more_oas": pooled_se,
+    }
+
+
 def _readiness_blocker(group_rows: list[dict[str, str]]) -> str:
     reasons = {row.get("poolability_reason", "") for row in group_rows}
     if "requires_treatment_scale_followup_target_setting_before_pooling" in reasons:
@@ -567,6 +633,7 @@ def write_meta_analysis_readiness(harmonized_path: Path, readiness_path: Path) -
         oriented_screening_effect, oriented_screening_se = _fixed_effect_screen_for_fields(
             group_rows, "effect_oriented_more_oas", "se_oriented_more_oas"
         )
+        recommended_pooling = _recommended_pooling(group_rows)
         blocker = _readiness_blocker(group_rows)
         if screening_effect:
             decision = "screening_only_not_pooled"
@@ -628,6 +695,7 @@ def write_meta_analysis_readiness(harmonized_path: Path, readiness_path: Path) -
                 "screening_fixed_effect_se": screening_se,
                 "oriented_screening_fixed_effect": oriented_screening_effect,
                 "oriented_screening_fixed_effect_se": oriented_screening_se,
+                **recommended_pooling,
                 "synthesis_decision": decision,
                 "primary_pooling_blocker": blocker,
                 "study_ids": ";".join(sorted({row.get("study_id", "") for row in group_rows})),
@@ -653,13 +721,13 @@ def write_summary_of_findings(summary_path: Path, sof_path: Path) -> None:
                 else "structured quantitative narrative"
             ),
             "certainty": (
-                "setting-specific direction; magnitude pending treatment-scale adjudication"
+                "setting-specific direction; not coefficient-pooled under same-scale rule"
             ),
             "interpretation": (
                 "The extracted Cell A set supports a real old-age-security mechanism "
                 "after orienting eligible estimates to the effect of more non-child "
-                "old-age security, but the magnitudes are not yet pooled because "
-                "treatment scales and target settings differ."
+                "old-age security, but the magnitudes are not coefficient-pooled "
+                "because the candidate numeric families mix treatment scales."
             ),
         },
         {

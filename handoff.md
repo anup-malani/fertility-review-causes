@@ -16,18 +16,21 @@ labels. Pension-cut rows are sign-flipped so oriented effects mean the fertility
 non-child old-age security; broad Social Security Act/baby-boom rows remain unoriented because
 the mechanism is mixed.
 
-The current quantitative synthesis is still screening-only, not a pooled meta-analysis. The two
-candidate numeric families are one-year birth probability and completed fertility / children ever
-born. Both still require a treatment-scale and target-setting rule before a coherent pooled
-estimand can be reported. The next highest-value analytic step is to decide that pooling rule or
-keep the chapter as a structured quantitative narrative, then run the demographic-significance
-macro pass and extract the PI-identified Cell C grandparental-childcare studies.
+The current quantitative synthesis is still screening-only, not a coefficient-pooled
+meta-analysis. The adopted conservative pooling rule requires the same mechanism cell, outcome
+family, harmonized unit, harmonized treatment scale, usable oriented effect/SE, and at least
+three independent studies. The two candidate numeric families are one-year birth probability and
+completed fertility / children ever born. Both fail the rule because they mix treatment scales,
+so the chapter should report Cell A as structured quantitative narrative unless new same-scale
+studies are added. The next highest-value analytic steps are the demographic-significance macro
+pass and extraction of the PI-identified Cell C grandparental-childcare studies.
 
 Key current outputs:
 - `output/tables/old-age-security-pension-crowdout-harmonized-effects.csv`
 - `output/tables/old-age-security-pension-crowdout-meta-analysis-readiness.csv`
 - `output/tables/old-age-security-pension-crowdout-summary-of-findings.csv`
 - `output/chapters/old-age-security-pension-crowdout.md`
+- `decisions/2026-07-11-oas-conservative-pooling-rule.md`
 
 ---
 

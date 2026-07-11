@@ -259,6 +259,8 @@ class OASMetaPipelineTests(unittest.TestCase):
                     "se_harmonized": "0.05",
                     "effect_oriented_more_oas": "-0.10",
                     "se_oriented_more_oas": "0.05",
+                    "old_age_security_treatment_direction": "increase_oas",
+                    "treatment_scale_harmonized": "pension_expansion_binary_exposure",
                     "is_primary_estimate": "yes",
                     "pi_approved": "yes_assumed",
                     "needs_pi": "no",
@@ -276,6 +278,8 @@ class OASMetaPipelineTests(unittest.TestCase):
                     "se_harmonized": "0.05",
                     "effect_oriented_more_oas": "-0.20",
                     "se_oriented_more_oas": "0.05",
+                    "old_age_security_treatment_direction": "increase_oas",
+                    "treatment_scale_harmonized": "pension_value_continuous_exposure",
                     "is_primary_estimate": "yes",
                     "pi_approved": "yes_assumed",
                     "needs_pi": "no",
@@ -293,6 +297,8 @@ class OASMetaPipelineTests(unittest.TestCase):
                     "se_harmonized": "0.10",
                     "effect_oriented_more_oas": "0.00",
                     "se_oriented_more_oas": "0.10",
+                    "old_age_security_treatment_direction": "increase_oas",
+                    "treatment_scale_harmonized": "ltci_pilot_binary_exposure",
                     "is_primary_estimate": "no",
                     "pi_approved": "yes_assumed",
                     "needs_pi": "yes",
@@ -325,6 +331,82 @@ class OASMetaPipelineTests(unittest.TestCase):
                 row["primary_pooling_blocker"],
                 "treatment_scale_followup_target_setting",
             )
+            self.assertEqual(row["recommended_synthesis"], "do_not_pool_mixed_treatment_scales")
+            self.assertEqual(row["recommended_pooled_effect_more_oas"], "")
+
+    def test_readiness_recommends_pooling_same_treatment_scale_group(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp_path = Path(tmp)
+            harmonized_path = tmp_path / "harmonized.csv"
+            readiness_path = tmp_path / "readiness.csv"
+            rows = [
+                {
+                    "effect_id": "e1",
+                    "study_id": "s1",
+                    "mechanism_cell": "A",
+                    "outcome_family": "birth_probability",
+                    "harmonized_outcome_unit": "probability_of_birth",
+                    "old_age_security_treatment_direction": "increase_oas",
+                    "treatment_scale_harmonized": "pension_expansion_binary_exposure",
+                    "effect_harmonized": "-0.10",
+                    "se_harmonized": "0.05",
+                    "effect_oriented_more_oas": "-0.10",
+                    "se_oriented_more_oas": "0.05",
+                    "is_primary_estimate": "yes",
+                    "pi_approved": "yes_assumed",
+                    "needs_pi": "no",
+                    "poolability_reason": (
+                        "requires_treatment_scale_followup_target_setting_before_pooling"
+                    ),
+                },
+                {
+                    "effect_id": "e2",
+                    "study_id": "s2",
+                    "mechanism_cell": "A",
+                    "outcome_family": "birth_probability",
+                    "harmonized_outcome_unit": "probability_of_birth",
+                    "old_age_security_treatment_direction": "increase_oas",
+                    "treatment_scale_harmonized": "pension_expansion_binary_exposure",
+                    "effect_harmonized": "-0.20",
+                    "se_harmonized": "0.05",
+                    "effect_oriented_more_oas": "-0.20",
+                    "se_oriented_more_oas": "0.05",
+                    "is_primary_estimate": "yes",
+                    "pi_approved": "yes_assumed",
+                    "needs_pi": "no",
+                    "poolability_reason": (
+                        "requires_treatment_scale_followup_target_setting_before_pooling"
+                    ),
+                },
+                {
+                    "effect_id": "e3",
+                    "study_id": "s3",
+                    "mechanism_cell": "A",
+                    "outcome_family": "birth_probability",
+                    "harmonized_outcome_unit": "probability_of_birth",
+                    "old_age_security_treatment_direction": "increase_oas",
+                    "treatment_scale_harmonized": "pension_expansion_binary_exposure",
+                    "effect_harmonized": "0.00",
+                    "se_harmonized": "0.10",
+                    "effect_oriented_more_oas": "0.00",
+                    "se_oriented_more_oas": "0.10",
+                    "is_primary_estimate": "yes",
+                    "pi_approved": "yes_assumed",
+                    "needs_pi": "no",
+                    "poolability_reason": (
+                        "requires_treatment_scale_followup_target_setting_before_pooling"
+                    ),
+                },
+            ]
+            write_csv(harmonized_path, rows, list(rows[0].keys()))
+            write_meta_analysis_readiness(harmonized_path, readiness_path)
+
+            with readiness_path.open(newline="", encoding="utf-8") as handle:
+                readiness_rows = list(csv.DictReader(handle))
+            row = readiness_rows[0]
+            self.assertEqual(row["recommended_synthesis"], "pool_fixed_effect_same_scale")
+            self.assertEqual(row["recommended_pooled_effect_more_oas"], "-0.133333")
+            self.assertEqual(row["recommended_pooled_se_more_oas"], "0.033333")
 
 
 if __name__ == "__main__":

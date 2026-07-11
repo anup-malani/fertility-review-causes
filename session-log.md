@@ -533,3 +533,46 @@ windows, and target settings are still not comparable enough for a coherent pool
   can be pooled.
 - [ ] Run the demographic-significance macro pass for PM, FDT, and SDT.
 - [ ] Retrieve/extract the PI-identified Cell C grandparental-childcare studies for the SDT channel.
+
+---
+
+## [2026-07-11] — OAS conservative same-scale pooling rule adopted
+
+**Agent:** Codex
+**Machine:** Alexandra workspace
+**Working directory:** `/Users/alexandra/Library/CloudStorage/Box-Box/fertility-review-causes`
+
+### Summary
+
+Adopted and implemented the conservative pooling rule for the OAS chapter. Coefficient estimates
+are only pooled when they share mechanism cell, outcome family, harmonized outcome unit,
+harmonized treatment scale, usable oriented effect/SE, and at least three independent studies.
+The rule is now encoded in the analysis pipeline, not only described in prose.
+
+### Outputs
+
+- `decisions/2026-07-11-oas-conservative-pooling-rule.md` — durable design decision.
+- `source/analysis/oas_meta_pipeline.py` — readiness output now reports recommended synthesis,
+  pooling rule, pooling key, and recommended pooled estimate/SE when the rule is satisfied.
+- `source/analysis/test_oas_meta_pipeline.py` — tests cover a same-scale poolable fixture and a
+  mixed-scale non-poolable fixture.
+- `output/tables/old-age-security-pension-crowdout-meta-analysis-readiness.csv` — regenerated
+  with the applied rule.
+- `output/chapters/old-age-security-pension-crowdout.md` — updated to state that current Cell A
+  coefficient evidence remains structured quantitative narrative.
+
+### Result
+
+The current OAS extraction has no coefficient-pooled estimate under the adopted rule. The birth
+probability and completed-fertility candidate families both have enough rows for screening
+calculations, but both are marked `do_not_pool_mixed_treatment_scales`.
+
+### Verification
+
+- `python3 -m unittest source/analysis/test_oas_meta_pipeline.py`
+- `python3 source/analysis/oas_meta_pipeline.py`
+
+### Open Items
+
+- [ ] Run the demographic-significance macro pass for PM, FDT, and SDT.
+- [ ] Retrieve/extract the PI-identified Cell C grandparental-childcare studies for the SDT channel.

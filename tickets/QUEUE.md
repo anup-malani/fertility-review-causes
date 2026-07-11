@@ -54,3 +54,4 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 | [TICK-024](TICK-024-oas-adjudicate-effect-review.md) | OAS adjudicate effect extraction review | 2026-07-10 |
 | [TICK-025](TICK-025-oas-meta-analysis-readiness.md) | OAS meta-analysis readiness analysis | 2026-07-11 |
 | [TICK-026](TICK-026-oas-sign-orientation-treatment-scale.md) | OAS sign orientation and treatment-scale coding | 2026-07-11 |
+| [TICK-027](TICK-027-oas-pooling-rule.md) | OAS conservative pooling rule | 2026-07-11 |
