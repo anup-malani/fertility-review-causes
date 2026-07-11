@@ -5,7 +5,7 @@
 **Second channel:** Pension eligibility can also raise fertility by freeing grandparents' time for childcare.  
 **Target phenomena:** PM / FDT / SDT  
 **Review status:** First chapter draft for RA and PI review  
-**Last updated:** 2026-07-09
+**Last updated:** 2026-07-11
 
 ## 1. Bottom-Line Verdict
 
@@ -96,11 +96,13 @@ The indirect evidence should sit in an appendix, not the main effect estimate. I
 
 The quantitative synthesis is intentionally conservative. The extraction table now records the paper-visible outcome, original effect, uncertainty when reported, treatment scale, follow-up window, and page/table locator for each main estimate. The harmonized table preserves those original values and adds conversions only where the unit conversion is mechanical.
 
-The compatibility screen does not support a pooled estimate in the current extraction. The synthesis is therefore quantitative but not pooled: not_poolable (structured_narrative, n=16). No fixed-effect pooled row is reported because every current row remains `not_poolable` until treatment scale, follow-up window, and sign orientation are harmonized.
+The compatibility screen does not support a valid pooled estimate in the current extraction. The synthesis is therefore quantitative but not pooled: not_poolable (structured_narrative, n=16). The post-RA meta-analysis readiness table identifies two candidate numeric families with enough rows for screening calculations: one-year birth probability (five effects from five studies) and completed fertility / children-ever-born (five effects from five studies, four with standard errors). Those calculations are labelled `screening_only_not_pooled`; they are not reported as pooled estimates because the rows still mix treatment scales, follow-up windows, target settings, and sign orientation.
 
 Cell A and Cell C remain separate. Cell A estimates the classic old-age-security motive. Cell C estimates grandparental-childcare effects with the opposite sign. Cell B and Cell D remain mechanism and chain-link evidence, not fertility-effect estimates.
 
 The current harmonized file includes 16 extracted effects. Mechanical conversions are available for one-year birth-probability estimates reported in percentage points and for completed-fertility estimates already stated as births per woman. Historical aggregate outcomes, unsupported outcome families, missing standard errors, and mechanism-only estimates remain in the structured narrative rather than entering a cross-study average.
+
+After RA review, all current extracted effect rows are treated as verified by default. The remaining uncertainty is not source lookup; it is synthesis judgment. The rows marked `needs_pi = yes` require PI adjudication for interpretation or missing uncertainty, and all candidate numeric groups require sign-orientation and treatment-scale decisions before a pooled effect would have a coherent estimand.
 
 The `outcome_family` field is a harmonization bucket, not a replacement for the paper's own dependent-variable wording. The paper-visible variable is preserved in `outcome_name`; `outcome_family` only groups those variables into broad comparison classes such as `birth_probability`, `completed_fertility`, `crude_birth_rate`, `child_woman_ratio`, or `other`. Binary or annual birth indicators are coded as `birth_probability`; children-ever-born or number-of-children measures as `completed_fertility`; aggregate rate measures as `crude_birth_rate`; child-woman-ratio measures as `child_woman_ratio`; and non-fertility or nonstandard outcomes as `other`. When a paper reports multiple relevant quantitative outcome-estimate pairs, each pair receives a separate extraction row; for example, Danzer and Zyska's short-run childbirth probability and completed-fertility decline are distinct rows.
 
@@ -155,11 +157,11 @@ The strongest direct evidence comes from quasi-experimental pension expansions o
 
 ## 10. Summary of Findings
 
-Magnitude certainty remains pending RA verification because the current effect rows have not all been marked `ra_verified = yes`.
+Magnitude certainty remains pending PI adjudication of `needs_pi` rows, sign orientation, and the demographic-significance macro pass.
 
 | Outcome or channel | Studies | Synthesis | Certainty | Interpretation |
 |---|---|---|---|---|
-| Classic old-age-security motive | Cell A extracted studies | Structured quantitative narrative | Setting-specific direction; magnitude pending RA verification and sign orientation | The extracted Cell A set supports a real old-age-security mechanism, but its sign is not yet pooled or uniformly oriented across pension expansions, pension cuts, LTCI, historical social insurance, and baby-boom-era estimates. |
+| Classic old-age-security motive | Cell A extracted studies | Structured quantitative narrative | Setting-specific direction; magnitude pending PI adjudication and sign orientation | The extracted Cell A set supports a real old-age-security mechanism, but its sign is not yet pooled or uniformly oriented across pension expansions, pension cuts, LTCI, historical social insurance, and baby-boom-era estimates. |
 | Children as old-age-security assets | Cell B mechanism studies | Not pooled with fertility effects | Low-to-moderate | Mechanism evidence supports children and purchased old-age security as substitutes, but it does not estimate fertility effects. |
 | Grandparental childcare | Cell C studies identified by PI review | Separate SDT track outside current quantitative package | Not quantified in current quantitative package | This channel is opposite-signed and should not be pooled with the classic OAS motive. |
 | Demographic significance | All extracted studies plus target-period derivation | Slope-sufficiency pending macro-data pass | Low pending computation | Current evidence supports a real mechanism but does not yet quantify its share of PM, FDT, or SDT fertility change. |
@@ -195,6 +197,7 @@ This is why the chapter should not ask whether "pensions reduce fertility" as a 
 - Effect extraction: `extraction/old-age-security-pension-crowdout-effects.csv`
 - Risk of bias: `extraction/old-age-security-pension-crowdout-risk-of-bias.csv`
 - Harmonized effects: `output/tables/old-age-security-pension-crowdout-harmonized-effects.csv`
+- Meta-analysis readiness: `output/tables/old-age-security-pension-crowdout-meta-analysis-readiness.csv`
 - Meta-analysis summary: `output/tables/old-age-security-pension-crowdout-meta-analysis-summary.csv`
 - Summary of findings: `output/tables/old-age-security-pension-crowdout-summary-of-findings.csv`
 - Evidence map data: `output/figures/old-age-security-pension-crowdout-evidence-map.csv`

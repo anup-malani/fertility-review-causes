@@ -75,6 +75,29 @@ HARMONIZED_COLUMNS = EFFECT_REQUIRED_COLUMNS + [
     "poolability_reason",
 ]
 
+READINESS_COLUMNS = [
+    "analysis_group",
+    "mechanism_cell",
+    "outcome_family",
+    "harmonized_outcome_unit",
+    "n_effects",
+    "n_studies",
+    "n_with_harmonized_effect",
+    "n_with_harmonized_se",
+    "n_primary_estimates",
+    "n_needs_pi",
+    "n_negative",
+    "n_positive",
+    "n_zero",
+    "effect_min",
+    "effect_max",
+    "screening_fixed_effect",
+    "screening_fixed_effect_se",
+    "synthesis_decision",
+    "primary_pooling_blocker",
+    "study_ids",
+]
+
 
 def read_csv(path: Path) -> list[dict[str, str]]:
     with path.open(newline="", encoding="utf-8") as handle:
@@ -349,6 +372,101 @@ def write_meta_analysis_summary(harmonized_path: Path, summary_path: Path) -> No
     )
 
 
+def _analysis_group(row: dict[str, str]) -> str:
+    cell = row.get("mechanism_cell") or "unknown_cell"
+    family = row.get("outcome_family") or "unknown_outcome"
+    unit = row.get("harmonized_outcome_unit") or row.get("outcome_unit_original") or "unharmonized"
+    return f"cell_{cell.lower()}__{family}__{unit}"
+
+
+def _fixed_effect_screen(group_rows: list[dict[str, str]]) -> tuple[str, str]:
+    usable: list[tuple[Decimal, Decimal]] = []
+    for row in group_rows:
+        effect = _decimal(row.get("effect_harmonized", ""))
+        se = _decimal(row.get("se_harmonized", ""))
+        if effect is not None and se is not None and se != 0:
+            usable.append((effect, se))
+    if len(usable) < 3:
+        return "", ""
+    weights = [Decimal("1") / (se * se) for _, se in usable]
+    weight_sum = sum(weights)
+    pooled = sum(effect * weight for (effect, _), weight in zip(usable, weights)) / weight_sum
+    pooled_se = (Decimal("1") / weight_sum).sqrt()
+    return (
+        _format_decimal(pooled.quantize(Decimal("0.000001"))),
+        _format_decimal(pooled_se.quantize(Decimal("0.000001"))),
+    )
+
+
+def _readiness_blocker(group_rows: list[dict[str, str]]) -> str:
+    reasons = {row.get("poolability_reason", "") for row in group_rows}
+    if "requires_treatment_scale_followup_and_sign_orientation_before_pooling" in reasons:
+        return "treatment_scale_followup_and_sign_orientation"
+    if "aggregate_or_historical_unit_not_pooled_with_micro_estimates" in reasons:
+        return "aggregate_or_historical_unit"
+    if "unsupported_outcome_family_or_unit" in reasons:
+        return "unsupported_outcome_family_or_unit"
+    if "missing_or_non_numeric_effect" in reasons:
+        return "missing_or_non_numeric_effect"
+    if "missing_standard_error_or_wrong_cell" in reasons:
+        return "missing_standard_error_or_wrong_cell"
+    return ";".join(sorted(reason for reason in reasons if reason)) or "not_assessed"
+
+
+def write_meta_analysis_readiness(harmonized_path: Path, readiness_path: Path) -> None:
+    rows = read_csv(harmonized_path)
+    grouped: dict[str, list[dict[str, str]]] = {}
+    for row in rows:
+        grouped.setdefault(_analysis_group(row), []).append(row)
+
+    readiness_rows: list[dict[str, str]] = []
+    for group, group_rows in sorted(grouped.items()):
+        effects = [_decimal(row.get("effect_harmonized", "")) for row in group_rows]
+        effects_present = [effect for effect in effects if effect is not None]
+        ses_present = [
+            _decimal(row.get("se_harmonized", ""))
+            for row in group_rows
+            if _decimal(row.get("se_harmonized", "")) is not None
+        ]
+        screening_effect, screening_se = _fixed_effect_screen(group_rows)
+        blocker = _readiness_blocker(group_rows)
+        if screening_effect:
+            decision = "screening_only_not_pooled"
+        elif effects_present:
+            decision = "structured_narrative_only"
+        else:
+            decision = "mechanism_or_unsupported_outcome_only"
+
+        readiness_rows.append(
+            {
+                "analysis_group": group,
+                "mechanism_cell": group_rows[0].get("mechanism_cell", ""),
+                "outcome_family": group_rows[0].get("outcome_family", ""),
+                "harmonized_outcome_unit": group_rows[0].get("harmonized_outcome_unit", ""),
+                "n_effects": str(len(group_rows)),
+                "n_studies": str(len({row.get("study_id", "") for row in group_rows})),
+                "n_with_harmonized_effect": str(len(effects_present)),
+                "n_with_harmonized_se": str(len(ses_present)),
+                "n_primary_estimates": str(
+                    sum(1 for row in group_rows if row.get("is_primary_estimate") == "yes")
+                ),
+                "n_needs_pi": str(sum(1 for row in group_rows if row.get("needs_pi") == "yes")),
+                "n_negative": str(sum(1 for effect in effects_present if effect < 0)),
+                "n_positive": str(sum(1 for effect in effects_present if effect > 0)),
+                "n_zero": str(sum(1 for effect in effects_present if effect == 0)),
+                "effect_min": _format_decimal(min(effects_present)) if effects_present else "",
+                "effect_max": _format_decimal(max(effects_present)) if effects_present else "",
+                "screening_fixed_effect": screening_effect,
+                "screening_fixed_effect_se": screening_se,
+                "synthesis_decision": decision,
+                "primary_pooling_blocker": blocker,
+                "study_ids": ";".join(sorted({row.get("study_id", "") for row in group_rows})),
+            }
+        )
+
+    write_csv(readiness_path, readiness_rows, READINESS_COLUMNS)
+
+
 def write_summary_of_findings(summary_path: Path, sof_path: Path) -> None:
     summary_rows = read_csv(summary_path)
     has_pooled = any(
@@ -365,8 +483,8 @@ def write_summary_of_findings(summary_path: Path, sof_path: Path) -> None:
                 else "structured quantitative narrative"
             ),
             "certainty": (
-                "setting-specific direction; magnitude pending RA verification "
-                "and sign orientation"
+                "setting-specific direction; magnitude pending PI adjudication "
+                "of needs_pi rows and sign orientation"
             ),
             "interpretation": (
                 "The extracted Cell A set supports a real old-age-security mechanism, "
@@ -435,6 +553,7 @@ def main() -> None:
     tables_dir = ROOT / "output" / "tables"
     figures_dir = ROOT / "output" / "figures"
     harmonized_path = tables_dir / f"{SLUG}-harmonized-effects.csv"
+    readiness_path = tables_dir / f"{SLUG}-meta-analysis-readiness.csv"
     meta_summary_path = tables_dir / f"{SLUG}-meta-analysis-summary.csv"
     sof_path = tables_dir / f"{SLUG}-summary-of-findings.csv"
     evidence_map_path = figures_dir / f"{SLUG}-evidence-map.csv"
@@ -443,6 +562,7 @@ def main() -> None:
         make_effect_review_sheet(effects_path, review_path)
         rows = [harmonize_effect_row(row) for row in read_csv(effects_path)]
         write_csv(harmonized_path, rows, HARMONIZED_COLUMNS)
+        write_meta_analysis_readiness(harmonized_path, readiness_path)
         write_meta_analysis_summary(harmonized_path, meta_summary_path)
         write_summary_of_findings(meta_summary_path, sof_path)
         write_evidence_map(harmonized_path, evidence_map_path)

@@ -13,6 +13,8 @@ from oas_meta_pipeline import (
     make_effect_review_columns,
     make_effect_review_sheet,
     validate_required_columns,
+    write_csv,
+    write_meta_analysis_readiness,
 )
 
 
@@ -199,6 +201,74 @@ class OASMetaPipelineTests(unittest.TestCase):
             out["poolability_reason"],
             "requires_treatment_scale_followup_and_sign_orientation_before_pooling",
         )
+
+    def test_meta_analysis_readiness_reports_screening_only_group(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            tmp_path = Path(tmp)
+            harmonized_path = tmp_path / "harmonized.csv"
+            readiness_path = tmp_path / "readiness.csv"
+            rows = [
+                {
+                    "effect_id": "e1",
+                    "study_id": "s1",
+                    "mechanism_cell": "A",
+                    "outcome_family": "birth_probability",
+                    "harmonized_outcome_unit": "probability_of_birth",
+                    "effect_harmonized": "-0.10",
+                    "se_harmonized": "0.05",
+                    "is_primary_estimate": "yes",
+                    "needs_pi": "no",
+                    "poolability_reason": (
+                        "requires_treatment_scale_followup_and_sign_orientation_before_pooling"
+                    ),
+                },
+                {
+                    "effect_id": "e2",
+                    "study_id": "s2",
+                    "mechanism_cell": "A",
+                    "outcome_family": "birth_probability",
+                    "harmonized_outcome_unit": "probability_of_birth",
+                    "effect_harmonized": "-0.20",
+                    "se_harmonized": "0.05",
+                    "is_primary_estimate": "yes",
+                    "needs_pi": "no",
+                    "poolability_reason": (
+                        "requires_treatment_scale_followup_and_sign_orientation_before_pooling"
+                    ),
+                },
+                {
+                    "effect_id": "e3",
+                    "study_id": "s3",
+                    "mechanism_cell": "A",
+                    "outcome_family": "birth_probability",
+                    "harmonized_outcome_unit": "probability_of_birth",
+                    "effect_harmonized": "0.00",
+                    "se_harmonized": "0.10",
+                    "is_primary_estimate": "no",
+                    "needs_pi": "yes",
+                    "poolability_reason": (
+                        "requires_treatment_scale_followup_and_sign_orientation_before_pooling"
+                    ),
+                },
+            ]
+            write_csv(harmonized_path, rows, list(rows[0].keys()))
+            write_meta_analysis_readiness(harmonized_path, readiness_path)
+
+            with readiness_path.open(newline="", encoding="utf-8") as handle:
+                readiness_rows = list(csv.DictReader(handle))
+            self.assertEqual(len(readiness_rows), 1)
+            row = readiness_rows[0]
+            self.assertEqual(row["n_effects"], "3")
+            self.assertEqual(row["n_studies"], "3")
+            self.assertEqual(row["n_with_harmonized_se"], "3")
+            self.assertEqual(row["n_negative"], "2")
+            self.assertEqual(row["n_zero"], "1")
+            self.assertEqual(row["screening_fixed_effect"], "-0.133333")
+            self.assertEqual(row["synthesis_decision"], "screening_only_not_pooled")
+            self.assertEqual(
+                row["primary_pooling_blocker"],
+                "treatment_scale_followup_and_sign_orientation",
+            )
 
 
 if __name__ == "__main__":
