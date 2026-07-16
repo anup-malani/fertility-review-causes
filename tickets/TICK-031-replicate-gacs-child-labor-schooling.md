@@ -23,4 +23,9 @@ run a reproducible production search and screening funnel for the FDT estimand.
 - [ ] Cross-hypothesis lessons and any deviations from the documented GACS prototype are recorded.
 
 ## Log
-<!-- When you close this ticket, write: date, who, what you did. -->
+- 2026-07-16, Alexandra/Codex: Completed the entire pre-RA cold-start citation screen. Seven
+  independently sourced anchors generated a 1,255-record DOI/title-deduplicated citation frame.
+  All 32 blinded title/abstract batches were semantically screened and passed fail-closed schema,
+  ordering, checksum, and coverage validation (1,255/1,255; zero errors): 233 RELEVANT, 128
+  UNCERTAIN, and 894 NOT_RELEVANT. Generated the complete screened frame, estimand report, and
+  exception-based RA review CSV. Work intentionally stops before RA adjudication and gold freeze.

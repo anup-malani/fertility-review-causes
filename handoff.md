@@ -1,5 +1,18 @@
 # Handoff — fertility-review-causes
 
+## Child-labor laws / compulsory-schooling GACS replication — 2026-07-16
+
+TICK-031 has completed the full automated pre-RA cold-start screen. Seven independently sourced
+anchors produced an orthogonal forward/backward citation frame of 1,255 deduplicated records. The
+frame was split into 32 blinded batches and screened against explicit quantum, tempo, theory,
+off-outcome, off-exposure, mode-of-production, and reverse-direction cells. All 1,255 verdicts pass
+the fail-closed validator with zero schema, ordering, checksum, or coverage errors: 233 RELEVANT, 128
+UNCERTAIN, and 894 NOT_RELEVANT. The relevant/uncertain set contains 15 PRIMARY_CS_QUANTUM, 2
+PRIMARY_CL_QUANTUM, 1 PRIMARY_JOINT_QUANTUM, 13 TEMPO, 11 THEORY, 212 OFF_OUTCOME, 97 OFF_EXPOSURE,
+9 MODE_PRODUCTION, and 1 REVERSE records. The next step is RA exception review using
+`output/child-labor-laws-and-schooling-screen-review.csv`; do not freeze the gold or fit the
+production query until that review is adjudicated.
+
 **Last updated:** 2026-07-11
 **PI:** Anup Malani
 **RAs:** Alexandra Zhou (zhitongz@uchicago.edu), Shravan Haribalaraman (shravanh@uchicago.edu)
