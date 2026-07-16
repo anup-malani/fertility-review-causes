@@ -1,0 +1,246 @@
+{
+  "slug": "child-labor-laws-and-schooling",
+  "stage": "blinded_title_abstract_screen_input",
+  "source": "literature/search-logs/child-labor-laws-and-schooling-citation-frame.json",
+  "source_sha256": "12ffc2a84164a4c22e11d35099e07fff28e546b4f3d7db8a9dd1601e96102e6d",
+  "seed": 31031,
+  "batch_size": 40,
+  "records": 1255,
+  "batches": 32,
+  "records_with_abstract": 761,
+  "blinded_fields": [
+    "doi",
+    "authors",
+    "venue",
+    "discovery_channels",
+    "seed_openalex_ids",
+    "gold_status"
+  ],
+  "coverage_verified": true,
+  "manifest": [
+    {
+      "batch": 1,
+      "n": 40,
+      "input": "temp/screen/child-labor-laws-and-schooling/batch_001.json",
+      "input_sha256": "0df16d41b3718b263d89ed70b8b80a6468446cab0a175986e6bccdbd86298c14",
+      "output": "temp/screen/child-labor-laws-and-schooling/verdict_001.json"
+    },
+    {
+      "batch": 2,
+      "n": 40,
+      "input": "temp/screen/child-labor-laws-and-schooling/batch_002.json",
+      "input_sha256": "c461d370eafabf3ceac6510971d03782c934b462cf021b86451060dfbbafceb3",
+      "output": "temp/screen/child-labor-laws-and-schooling/verdict_002.json"
+    },
+    {
+      "batch": 3,
+      "n": 40,
+      "input": "temp/screen/child-labor-laws-and-schooling/batch_003.json",
+      "input_sha256": "c575ce3b5436fb499d68a0b52d42909efe0e678584574f0111b8ce37e9031984",
+      "output": "temp/screen/child-labor-laws-and-schooling/verdict_003.json"
+    },
+    {
+      "batch": 4,
+      "n": 40,
+      "input": "temp/screen/child-labor-laws-and-schooling/batch_004.json",
+      "input_sha256": "9a442b2b71f97f5b1a5a4ee56f799c88b1af7e6be36b3f4f2434d0a97cbf0e35",
+      "output": "temp/screen/child-labor-laws-and-schooling/verdict_004.json"
+    },
+    {
+      "batch": 5,
+      "n": 40,
+      "input": "temp/screen/child-labor-laws-and-schooling/batch_005.json",
+      "input_sha256": "2cd739f98d16479da374579afcfc8e82c3fb4e06e999aa40e0dbfdc850793da7",
+      "output": "temp/screen/child-labor-laws-and-schooling/verdict_005.json"
+    },
+    {
+      "batch": 6,
+      "n": 40,
+      "input": "temp/screen/child-labor-laws-and-schooling/batch_006.json",
+      "input_sha256": "06e923cb02ee75e9ab34ab9c28536bd8373aa58241919e307ba5350d928ab116",
+      "output": "temp/screen/child-labor-laws-and-schooling/verdict_006.json"
+    },
+    {
+      "batch": 7,
+      "n": 40,
+      "input": "temp/screen/child-labor-laws-and-schooling/batch_007.json",
+      "input_sha256": "23f1f1f6b3290f4eee3d2d01d4852a5f358e4ab5f7ef3de04bd528caf74c3fb5",
+      "output": "temp/screen/child-labor-laws-and-schooling/verdict_007.json"
+    },
+    {
+      "batch": 8,
+      "n": 40,
+      "input": "temp/screen/child-labor-laws-and-schooling/batch_008.json",
+      "input_sha256": "a519aeef17d3b71d96c5ffaa1cb43f7f276abc96ac12c48d89844ad2e10df9e2",
+      "output": "temp/screen/child-labor-laws-and-schooling/verdict_008.json"
+    },
+    {
+      "batch": 9,
+      "n": 40,
+      "input": "temp/screen/child-labor-laws-and-schooling/batch_009.json",
+      "input_sha256": "58b98309dd7c03e0a88261244dd77722e343e58b5bcc9f3c20913119f06d107a",
+      "output": "temp/screen/child-labor-laws-and-schooling/verdict_009.json"
+    },
+    {
+      "batch": 10,
+      "n": 40,
+      "input": "temp/screen/child-labor-laws-and-schooling/batch_010.json",
+      "input_sha256": "cc1b3d4e0f71f7753452da6a9c219be20c932745bcd7cb7da3caad3174f3736f",
+      "output": "temp/screen/child-labor-laws-and-schooling/verdict_010.json"
+    },
+    {
+      "batch": 11,
+      "n": 40,
+      "input": "temp/screen/child-labor-laws-and-schooling/batch_011.json",
+      "input_sha256": "27e62351a87f1837079e7b53d9099a0afa0dfc6182764f3e26cc8970d6dcc1b5",
+      "output": "temp/screen/child-labor-laws-and-schooling/verdict_011.json"
+    },
+    {
+      "batch": 12,
+      "n": 40,
+      "input": "temp/screen/child-labor-laws-and-schooling/batch_012.json",
+      "input_sha256": "3c09f6514e15fc6c31c58178726af4a69aa3959db84d51aa8debb11786f40dda",
+      "output": "temp/screen/child-labor-laws-and-schooling/verdict_012.json"
+    },
+    {
+      "batch": 13,
+      "n": 40,
+      "input": "temp/screen/child-labor-laws-and-schooling/batch_013.json",
+      "input_sha256": "efb128cad59ecff2b9d0c3848d71162d862043878879b7a5a199ec5250368a8f",
+      "output": "temp/screen/child-labor-laws-and-schooling/verdict_013.json"
+    },
+    {
+      "batch": 14,
+      "n": 40,
+      "input": "temp/screen/child-labor-laws-and-schooling/batch_014.json",
+      "input_sha256": "194a8b20f46fa42eb40264b171c25f7055f1b4f45e5b267a072c1dc95c97c7d8",
+      "output": "temp/screen/child-labor-laws-and-schooling/verdict_014.json"
+    },
+    {
+      "batch": 15,
+      "n": 40,
+      "input": "temp/screen/child-labor-laws-and-schooling/batch_015.json",
+      "input_sha256": "13ceaadeb46f1a8fcce33a7dc7e3cac1253c88ebf2672b6d84a1dfd4cff40a7c",
+      "output": "temp/screen/child-labor-laws-and-schooling/verdict_015.json"
+    },
+    {
+      "batch": 16,
+      "n": 40,
+      "input": "temp/screen/child-labor-laws-and-schooling/batch_016.json",
+      "input_sha256": "40e3705251ae943c6fa8b5ea2c06b5ccb3957d8cd4914564efb00f5d514310fc",
+      "output": "temp/screen/child-labor-laws-and-schooling/verdict_016.json"
+    },
+    {
+      "batch": 17,
+      "n": 40,
+      "input": "temp/screen/child-labor-laws-and-schooling/batch_017.json",
+      "input_sha256": "8c2c4ceb7d6e59a84997c04d86445d87f77d277f896d8bc979cafb00e817cb93",
+      "output": "temp/screen/child-labor-laws-and-schooling/verdict_017.json"
+    },
+    {
+      "batch": 18,
+      "n": 40,
+      "input": "temp/screen/child-labor-laws-and-schooling/batch_018.json",
+      "input_sha256": "3391e0fb112ba6cc7baffad7037cf0f5f7eb014eb6e5764720e1bda1622aae2c",
+      "output": "temp/screen/child-labor-laws-and-schooling/verdict_018.json"
+    },
+    {
+      "batch": 19,
+      "n": 40,
+      "input": "temp/screen/child-labor-laws-and-schooling/batch_019.json",
+      "input_sha256": "4ec757b9fc068e8e70c01b5f35925f829f8d7088daef4270464c6e802fff53b0",
+      "output": "temp/screen/child-labor-laws-and-schooling/verdict_019.json"
+    },
+    {
+      "batch": 20,
+      "n": 40,
+      "input": "temp/screen/child-labor-laws-and-schooling/batch_020.json",
+      "input_sha256": "68954cb097020544a2be305fc9b8cc47786b3a8ac3850ebb837c1c06a542f0fb",
+      "output": "temp/screen/child-labor-laws-and-schooling/verdict_020.json"
+    },
+    {
+      "batch": 21,
+      "n": 40,
+      "input": "temp/screen/child-labor-laws-and-schooling/batch_021.json",
+      "input_sha256": "ea81fbc600f0548aff8bb6c813815f7cbda43348c35beda22a4b630f72006699",
+      "output": "temp/screen/child-labor-laws-and-schooling/verdict_021.json"
+    },
+    {
+      "batch": 22,
+      "n": 40,
+      "input": "temp/screen/child-labor-laws-and-schooling/batch_022.json",
+      "input_sha256": "4f217bf23e4d63a4aaab283161c982283f7072636a58f543e674879d162a85a8",
+      "output": "temp/screen/child-labor-laws-and-schooling/verdict_022.json"
+    },
+    {
+      "batch": 23,
+      "n": 40,
+      "input": "temp/screen/child-labor-laws-and-schooling/batch_023.json",
+      "input_sha256": "748270ac266eea8237ea94313e0e64275489b0acd787ee9bfcda90b03945899f",
+      "output": "temp/screen/child-labor-laws-and-schooling/verdict_023.json"
+    },
+    {
+      "batch": 24,
+      "n": 40,
+      "input": "temp/screen/child-labor-laws-and-schooling/batch_024.json",
+      "input_sha256": "27498a038940ed1069b57f6b93230ab84d35236b3a90f69b7f6adbc979f2987c",
+      "output": "temp/screen/child-labor-laws-and-schooling/verdict_024.json"
+    },
+    {
+      "batch": 25,
+      "n": 40,
+      "input": "temp/screen/child-labor-laws-and-schooling/batch_025.json",
+      "input_sha256": "182f9503f2ecba9726e96adefda776d4a3141a1161ccfaffeba0f5723c5236ed",
+      "output": "temp/screen/child-labor-laws-and-schooling/verdict_025.json"
+    },
+    {
+      "batch": 26,
+      "n": 40,
+      "input": "temp/screen/child-labor-laws-and-schooling/batch_026.json",
+      "input_sha256": "09c231e618d37f0610aa388a6a8a975b5ff3b2b4fdd249a6b166d924a6c36d0b",
+      "output": "temp/screen/child-labor-laws-and-schooling/verdict_026.json"
+    },
+    {
+      "batch": 27,
+      "n": 40,
+      "input": "temp/screen/child-labor-laws-and-schooling/batch_027.json",
+      "input_sha256": "6a35d23d26e779f16bcaa31123994c7e6212232a118b6fd344cc81db747f66ad",
+      "output": "temp/screen/child-labor-laws-and-schooling/verdict_027.json"
+    },
+    {
+      "batch": 28,
+      "n": 40,
+      "input": "temp/screen/child-labor-laws-and-schooling/batch_028.json",
+      "input_sha256": "2dc80ea06cb9441add0a86892d748ecdf3381a94d836ba1c985e25666f452f9f",
+      "output": "temp/screen/child-labor-laws-and-schooling/verdict_028.json"
+    },
+    {
+      "batch": 29,
+      "n": 40,
+      "input": "temp/screen/child-labor-laws-and-schooling/batch_029.json",
+      "input_sha256": "f86df79d69eb22c538090094d952e0edf5b648d173bdd94cdced4ef4bf3660b8",
+      "output": "temp/screen/child-labor-laws-and-schooling/verdict_029.json"
+    },
+    {
+      "batch": 30,
+      "n": 40,
+      "input": "temp/screen/child-labor-laws-and-schooling/batch_030.json",
+      "input_sha256": "c542a150b142542049a8d0f8d3d1ccdf855af01ccd702ad4924b70c5994d193f",
+      "output": "temp/screen/child-labor-laws-and-schooling/verdict_030.json"
+    },
+    {
+      "batch": 31,
+      "n": 40,
+      "input": "temp/screen/child-labor-laws-and-schooling/batch_031.json",
+      "input_sha256": "363e8ff07525f47a872c9db70ef826e25b5018a326c1736d6b5725c543994e10",
+      "output": "temp/screen/child-labor-laws-and-schooling/verdict_031.json"
+    },
+    {
+      "batch": 32,
+      "n": 15,
+      "input": "temp/screen/child-labor-laws-and-schooling/batch_032.json",
+      "input_sha256": "5c05ad7f536a8929ba93d46094505168ffbd0752bb3e1f08986861760952d1d2",
+      "output": "temp/screen/child-labor-laws-and-schooling/verdict_032.json"
+    }
+  ]
+}
