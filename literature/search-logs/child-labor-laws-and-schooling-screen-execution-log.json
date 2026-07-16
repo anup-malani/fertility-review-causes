@@ -1,0 +1,26 @@
+{
+  "slug": "child-labor-laws-and-schooling",
+  "runs": [
+    {
+      "started_utc": "2026-07-16T22:23:59.407267+00:00",
+      "command_executable": "claude",
+      "command_args": [
+        "-p"
+      ],
+      "selected_batches": [
+        1
+      ],
+      "force": false,
+      "results": [
+        {
+          "batch": 1,
+          "status": "model_error",
+          "returncode": 1,
+          "seconds": 0.64,
+          "stderr_tail": ""
+        }
+      ],
+      "finished_utc": "2026-07-16T22:24:00.046359+00:00"
+    }
+  ]
+}

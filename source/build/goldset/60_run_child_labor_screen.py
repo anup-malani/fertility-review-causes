@@ -4,11 +4,11 @@
 The runner is resumable and fail-closed. It never uses a shell, never overwrites a valid
 existing verdict unless --force is supplied, validates every response before an atomic
 rename, and records a non-secret execution log. Model execution is deliberately explicit:
-pass a command after ``--command --`` only after the operator has authorized that runner.
+pass a command after ``--command`` only after the operator has authorized that runner.
 
 Examples (operator chooses one; do not run both on the same screen):
-  python3 60_run_child_labor_screen.py --command -- claude -p
-  python3 60_run_child_labor_screen.py --batches 1-3 --command -- claude -p
+  python3 60_run_child_labor_screen.py --command claude -p
+  python3 60_run_child_labor_screen.py --batches 1-3 --command claude -p
 
 Use ``--audit`` to inspect readiness without invoking a model.
 """
@@ -120,7 +120,7 @@ def main():
     parser.add_argument("--force", action="store_true", help="replace already-valid selected outputs")
     parser.add_argument("--timeout", type=int, default=900, help="seconds per batch (default 900)")
     parser.add_argument("--command", nargs=argparse.REMAINDER,
-                        help="authorized model argv; prefix with --, e.g. --command -- claude -p")
+                        help="authorized model argv, e.g. --command claude -p")
     args = parser.parse_args()
 
     manifest = json.loads((LOGS / f"{SLUG}-screen-manifest.json").read_text())
@@ -146,7 +146,7 @@ def main():
     if command and command[0] == "--":
         command = command[1:]
     if not command:
-        print("No model invoked. Supply an explicitly authorized argv after --command --.", file=sys.stderr)
+        print("No model invoked. Supply an explicitly authorized argv after --command.", file=sys.stderr)
         return 2
     rubric = (LOGS / f"{SLUG}-screen-rubric.md").read_text()
     run = {
@@ -158,6 +158,7 @@ def main():
         "results": [],
     }
     log = load_log()
+    failed = False
     try:
         for item, inputs, output, valid in statuses:
             number = item["batch"]
@@ -174,13 +175,16 @@ def main():
             except subprocess.TimeoutExpired:
                 run["results"].append({"batch": number, "status": "timeout", "seconds": args.timeout})
                 print(f"batch {number:03d}: TIMEOUT", file=sys.stderr)
+                failed = True
                 break
             seconds = round(time.monotonic() - started, 2)
             if result.returncode != 0:
                 run["results"].append({"batch": number, "status": "model_error",
                                        "returncode": result.returncode, "seconds": seconds,
-                                       "stderr_tail": result.stderr[-1000:]})
+                                       "stderr_tail": result.stderr[-1000:],
+                                       "stdout_tail": result.stdout[-1000:]})
                 print(f"batch {number:03d}: model exit {result.returncode}", file=sys.stderr)
+                failed = True
                 break
             try:
                 payload = json.loads(strip_code_fence(result.stdout))
@@ -188,12 +192,14 @@ def main():
                 run["results"].append({"batch": number, "status": "invalid_json",
                                        "seconds": seconds, "error": str(exc)})
                 print(f"batch {number:03d}: invalid JSON", file=sys.stderr)
+                failed = True
                 break
             errors = validate_payload(payload, inputs, validator, f"batch {number:03d}")
             if errors:
                 run["results"].append({"batch": number, "status": "schema_error",
                                        "seconds": seconds, "errors": errors[:20]})
                 print(f"batch {number:03d}: {len(errors)} validation errors", file=sys.stderr)
+                failed = True
                 break
             atomic_write_json(output, payload)
             run["results"].append({"batch": number, "status": "written_valid", "seconds": seconds})
@@ -202,7 +208,7 @@ def main():
         run["finished_utc"] = datetime.now(timezone.utc).isoformat()
         log["runs"].append(run)
         save_log(log)
-    return 0
+    return 1 if failed else 0
 
 
 if __name__ == "__main__":
