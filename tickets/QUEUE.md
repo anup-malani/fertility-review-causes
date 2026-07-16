@@ -24,6 +24,7 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 
 | Ticket | Title | Owner | Claimed (UTC) | Touches |
 |--------|-------|-------|---------------|---------|
+| [TICK-030](TICK-030-replicate-gacs-agricultural-mode-production.md) | Replicate GACS for agricultural mode of production | Alexandra | 2026-07-16T21:49:19Z | `source/build/goldset/`; `literature/search-logs/agricultural-mode-of-production-*`; project status files |
 
 ## Blocked — waiting on dependency
 
