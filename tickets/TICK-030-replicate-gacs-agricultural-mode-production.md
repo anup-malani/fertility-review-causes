@@ -1,6 +1,6 @@
 # TICK-030: Replicate GACS for agricultural mode of production
-**Status:** in-progress
-**Assigned:** Alexandra
+**Status:** open
+**Assigned:** any
 **Parallel-safe:** no
 **Blocks:** --
 **Blocked by:** --
@@ -22,4 +22,6 @@ and preserve reproducible search and recall artifacts.
 - [ ] Cross-hypothesis lessons and any deviations from the documented GACS prototype are recorded.
 
 ## Log
-<!-- When you close this ticket, write: date, who, what you did. -->
+- 2026-07-16, Alexandra: Released before search implementation at the user's request so the linked
+  child-labor-laws/compulsory-schooling hypothesis can be searched first. No hypothesis-specific
+  production artifacts had been created.
