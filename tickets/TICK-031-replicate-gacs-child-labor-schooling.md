@@ -31,3 +31,8 @@ run a reproducible production search and screening funnel for the FDT estimand.
   ordering, checksum, and coverage validation (1,255/1,255; zero errors): 233 RELEVANT, 128
   UNCERTAIN, and 894 NOT_RELEVANT. Generated the complete screened frame, estimand report, and
   exception-based RA review CSV. Work intentionally stops before RA adjudication and gold freeze.
+- 2026-07-16, Alexandra/Codex: After RA spot review exposed false fertility-outcome classifications,
+  applied a stricter evidence-grounded second pass to the 42-row focused set. The audit requires an
+  explicit covered policy plus fertility outcome for empirical rows and a direct child-policy/fertility
+  link for theory. It preserves RA annotations, routes adjacent evidence out, quarantines one metadata
+  mismatch, and produces 28 strict retrieval candidates without overwriting the edited RA sheet.
