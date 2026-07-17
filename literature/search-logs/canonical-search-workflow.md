@@ -1,9 +1,12 @@
 # Canonical Search Workflow — Gold-Anchored Clustered Search (GACS)
 
-**Status:** revised 2026-07-06, incorporating the PI critique — *validated in components, pending a
-clean end-to-end run, a gold freeze, and an estimand-gated re-measurement.* This is the revised
-design, not yet the review's adopted canonical search; the remaining work is itemized and sequenced
-in §7.
+**Status:** revised 2026-07-08. The PI critique is incorporated **and the clean end-to-end run it
+demanded is done** (2026-07-08, on the OAS pilot): estimand-filtered **Recall(B) = 80.6% (25/31),
+passing** the pre-registered ≥ 0.80 adoption bar on a **frozen, existence-verified gold**. Running the
+pipeline whole surfaced — and forced us to correct — a gold-integrity problem the component checks
+could not catch: the frozen Tier B was ~40% fabricated snowball *ghost* citations, now de-ghosted and
+rebuilt (§7, move 2). The Haiku→Sonnet screen over the ranked corpus has since produced a signed
+40-study pool (see the 2026-07-10 week update). Remaining work is itemized in §7.
 
 **Synthesis author:** Shravan (RA), harmonizing the three independently-developed team methods
 
@@ -16,6 +19,9 @@ in §7.
 - `canonical-search-workflow-estimand-gate.md` — the implementation of the estimand-and-mechanism gate
   (the fix for the PI's first critique): the pilot's output set collapsing 40 → 10 and the corrected
   gold-anchor scorecard. Build step `source/build/goldset/34_estimand_gate.py`.
+- `old-age-security-pension-crowdout-end-to-end-summary.md` — the **2026-07-08 clean end-to-end run**
+  on the pilot: the 80.6% recall number, the ghost-gold finding, and the corrected gold. This is the
+  run record §7 move 2 points to.
 
 **Scope:** the per-hypothesis discovery → screening → tiering pipeline for every chapter of the
 Fertility-Explanations Systematic Review. Designed to be **generalizable** across hypotheses, not
@@ -140,7 +146,14 @@ query must be able to recover:
 - **Resolution.** Gold papers are resolved to canonical records by **title**, and papers whose
   identifiers are dead or have drifted are **kept, keyed on title** — never dropped. Dropping them
   would bias the recall denominator toward easy-to-find papers.
-- **Freeze** the set on RA sign-off.
+- **Existence-verification gate (mandatory, added after the 2026-07-08 run).** Every anchor must
+  resolve to a *real* paper — a live DOI, or a corpus/Crossref record confirming the title exists —
+  before it enters the recall denominator. This is distinct from the resolution rule above: a real
+  paper with a dead or drifted identifier is kept (keyed on title); a title that resolves to **nothing**
+  anywhere is a fabricated *ghost* and is removed. The clean run found the frozen Tier B was ~40% such
+  ghosts — hallucinated snowball titles built out of our own query vocabulary — so this gate is now
+  mandatory and carries to every chapter (§7, move 2).
+- **Freeze** the set on RA sign-off, after the existence gate.
 
 **Cold-start bootstrap.** A brand-new hypothesis has no Anup baseline corpus to mine the gold from,
 and a gold built from a *single* search is captive to that search's blind spots — the recall yardstick
@@ -284,14 +297,16 @@ while under-recovering the estimand:
   keyword-sourced papers.
 - **Estimand-filtered recall** — against the estimand-filtered gold (the primary-cell papers only, per
   the A3 tag). This is the figure that answers the review's actual question: *did we recover the studies
-  that identify the effect the chapter is about?* **Measured** (`36a`/`36b`, report
-  `{slug}-estimand-recall-regrade.md`): all 247 Tier-B papers were estimand-tagged and the CV re-run
-  with the query fixed and the denominator partitioned by cell. Tier B turns out to be **65% theory
-  models and only 23% empirical primary-cell**; re-based on the primary cell, **topical Recall(B) 72.5%
-  → estimand-filtered 82.5%** (88% on high-confidence tags) — the number moves *up*, because the recall
-  the query was losing sat in the theory/off-cell tail, not in the papers that identify the effect. So
-  the pilot's 72% *understated* recall of the target while the "44 meta-analysis-ready" *overstated* the
-  usable set: recall was never the binding constraint — the definition of the target was.
+  that identify the effect the chapter is about?* The **clean end-to-end run** (2026-07-08, §7 move 2)
+  measures it on the **frozen, de-ghosted gold**: **topical Recall(B) 67.8% → estimand-filtered 80.6%
+  (25/31), PASS** vs the pre-registered ≥ 0.80 bar. The number still moves *up* from topical to
+  estimand-filtered, because the recall the query loses sits in the theory/off-cell tail, not in the
+  papers that identify the effect. (An earlier pre-freeze re-grade reported **82.5%**; that figure was
+  **ghost-inflated and is retracted** — the frozen Tier B it graded against was ~40% fabricated
+  citations, §7 move 2. The *direction* of the finding survives the correction; the *level* does not.)
+  So the pilot's topical recall *understated* recovery of the target while the "44 meta-analysis-ready"
+  *overstated* the usable set: recall was never the binding constraint — the definition of the target
+  was.
 
 Also report the hard-tail conditional ceiling (recall on the Tier-B papers the two-axis query misses
 on title, recovered via abstract match) as a **bound** — an optimistic one, because Tier B's snowball
@@ -301,12 +316,13 @@ is the independent adjudicated inclusion set of §7.1). Finally, report per-clus
 (which feed query revision), empirical-versus-theory recall separately, and the budget spent.
 
 **Benchmark.** A Cochrane-style systematic review targets near-complete recall of the eligible
-literature, so a search stage that concedes ~28% is not yet at benchmark. The pilot's ~72% is a
-*title-only, un-frozen, dry-run lower bound* and is expected to move — up with abstract matching, and
-in both directions once the gold freezes — not a final performance figure. The adoption bar this
-document holds itself to: **estimand-filtered Recall(B), measured against a frozen gold on one clean
-end-to-end run, with an explicit target set before the run** (§7, moves 2–3). (The pilot's actual
-numbers are in the companion evaluation.)
+literature, so a search stage that concedes ~19% is not yet at benchmark. The adoption bar this
+document holds itself to — **estimand-filtered Recall(B), measured against a frozen gold on one clean
+end-to-end run, with an explicit target set before the run** — is **now met**: the clean run
+(2026-07-08) passed a pre-registered ≥ 0.80 bar at **80.6%** (§7, move 2). The residual ~19% is the
+quirky-titled canon the snowball, not the keyword query, is meant to catch, and title-only matching
+makes 80.6% a conservative lower bound that abstracts would lift. (The pilot's actual numbers are in
+the companion evaluation.)
 
 ### Substrate (every stage)
 
@@ -379,24 +395,39 @@ sequenced; §7.1 and §7.2 specify concretely the two the earlier draft left imp
    across all three, and only Anup's set survives as frozen data. **Residual:** it re-grades on the demo
    corpus with reconstructed rules, not three frozen independent runs — which a clean end-to-end run
    (move 2) plus corpus-freezing would fix.
-2. **Freeze the gold, then do one clean end-to-end production run.** RA-adjudicate the 52 Tier-B
-   UNCERTAINs and sign off Tier A, then run gold-freeze → tuned query → fresh screen → tiers *once*,
-   end to end, with the real OpenAlex budget wired in — replacing the three component stand-ins (the CV
-   dry run, the legacy tier demonstration, the Phase-E migration) with a single number chain.
+2. **Freeze the gold, then do one clean end-to-end production run.** *(Done — 2026-07-08;
+   `old-age-security-pension-crowdout-end-to-end-summary.md`.)* We RA-adjudicated the Tier-B UNCERTAINs,
+   signed off Tier A, froze the gold (Tier A 56, Tier B 257), pre-registered the ≥ 0.80 bar, and ran
+   gold-freeze → tuned query (Nf=15, Np=30) → recall grade as a single number chain. **The run caught a
+   gold-integrity failure the component checks structurally could not:** the first live OpenAlex pull
+   (11,463 real records) exposed that the frozen Tier B was **~40% fabricated snowball ghost citations**
+   (~60% of the PRIMARY cell) — hallucinated titles built from our own query vocabulary that return
+   nothing in a real search. Neither cross-validation (which never checks existence) nor the tag audit
+   (which checks routing, not existence) could have caught it; only a live search did. We de-ghosted
+   against the live corpus + Crossref (Tier B 257→152, **105 confirmed ghosts**; PRIMARY 57→21), rebuilt
+   with Crossref-gated canon enumeration (+25 verified anchors → **PRIMARY 31**, clearing the ≥30
+   floor), and re-graded: **estimand-filtered Recall(B) = 80.6% (25/31), topical 67.8% — PASS** vs the
+   pre-registered ≥ 0.80 bar. Two intermediate numbers were **retracted** en route (an 82.5% that was
+   ghost-inflated, a 76.5% poisoned by an API rate-limit bug); 80.6% is the number that stands.
+   **Durable method fix:** an **existence-verification gate is now mandatory in gold construction** — no
+   anchor enters a recall denominator without a resolved live DOI (or corpus/Crossref confirmation),
+   folded into A3. **Still open:** the Haiku→Sonnet screen has since produced a signed 40-study pool
+   (week update 2026-07-10); the full live-universe denominator (Part-4-full) stays budget-gated.
 3. **Measure estimand-filtered recall, not just topical recall.** *(Done.)* The gate is implemented
    (`34_estimand_gate.py`; output set 40 → 10, 7 of 15 anchors off-cell), the automated gate is
    calibrated against the RA (100% precision / 80% recall, blind; `35a`/`35b`) so it runs on hypotheses
    with no RA pass, and Tier B has been estimand-tagged and the recall **re-graded** (`36a`/`36b`):
-   topical Recall(B) 72.5% → estimand-filtered **82.5%**, with Tier B revealed as 65% theory / 23%
-   empirical primary-cell. See `canonical-search-workflow-estimand-gate.md`. **Residual now closed by
-   audit** (`39a`/`39b`, `{slug}-estimand-tag-audit.md`): the Tier-B tags were double-screened — an
-   independent blind second reader re-tagged a 129-of-247 audit (a *census* of all 99 abstract-bearing
-   papers + 30 title-only), and the group-level disagreements were RA-adjudicated. On the adjudicable
-   stratum, auto agrees with the adjudication on **93% (kappa 0.84)**, with **zero THEORY→PRIMARY
-   leakage** (0/67 — the theory routing the PI flagged does not hide any empirical estimate) and PRIMARY
-   precision 9/11 (the two misses are off-cell empirics the gate *over*-admitted, so correcting them
-   tightens the pooling set). Estimand Recall(B) is stable to <1pp (82.5% → 81.8% audit-corrected;
-   envelope 81.8–83.0%). This closes the PI's first critique.
+   topical Recall(B) 72.5% → estimand-filtered **82.5%** *(pre-freeze)*, with Tier B revealed as 65%
+   theory / 23% empirical primary-cell. See `canonical-search-workflow-estimand-gate.md`. **Residual
+   closed by audit** (`39a`/`39b`, `{slug}-estimand-tag-audit.md`): the Tier-B tags were double-screened
+   — an independent blind second reader re-tagged a 129-of-247 audit (a *census* of all 99
+   abstract-bearing papers + 30 title-only), and the group-level disagreements were RA-adjudicated. On
+   the adjudicable stratum, auto agrees with the adjudication on **93% (kappa 0.84)**, with **zero
+   THEORY→PRIMARY leakage** (0/67 — the theory routing the PI flagged does not hide any empirical
+   estimate) and PRIMARY precision 9/11 (the two misses are off-cell empirics the gate *over*-admitted).
+   The audit confirms the routing is sound; the **clean end-to-end run (move 2) then re-measured recall
+   on a de-ghosted, frozen gold at 80.6%**, retracting the ghost-inflated 82.5%. This closes the PI's
+   first critique.
 4. **Fit every parameter and write the defaults down** (§7.2), then hand the pipeline to a second RA to
    run without the author present. If they can reproduce a run from the written defaults, the "no oral
    tradition" bar is met.
@@ -465,9 +496,10 @@ block structure.)
   query, and promote the pipeline to `.claude/workflows/`. This *is* the engine for move 2.
 - **Legacy migration** script: fold the existing old-age-security corpus into the unified tier scheme —
   also the substrate for the §7.1 comparison.
-- **PI data-hygiene ticket:** re-key the corpus on DOI; fix the snowball DOI-shuffle bug; and — new,
-  from the pilot — add an *abstract-or-live-DOI* gate plus a harder forward-citation cap on Tier B, to
-  keep ghost citations out of the gold (see the evaluation, §5).
+- **PI data-hygiene ticket:** re-key the corpus on DOI; fix the snowball DOI-shuffle bug. The
+  *existence-verification gate* on Tier B (no anchor without a live DOI / Crossref confirmation) is now
+  **mandatory and in force** after the 2026-07-08 run caught ~40% ghost citations in the frozen gold
+  (A3, §7 move 2); a harder forward-citation cap on Tier B is the remaining prospective guard.
 
 ## 8. Provenance
 
@@ -478,7 +510,8 @@ block structure.)
   `*-gold-set-build-log.md`, Parts 1–4.
 - Companion evaluation of this method on the pilot: `canonical-search-workflow-evaluation.md`.
 - This synthesis: drafted 2026-06-30 from the Task-B design workshop; finalized 2026-07-03; revised
-  2026-07-06 to incorporate the PI critique (see §9).
+  2026-07-06 to incorporate the PI critique (see §9); updated 2026-07-08 with the clean end-to-end run
+  and the existence-verification gold-integrity fix.
 
 ## 9. Changelog — response to the PI critique (2026-07-06)
 
@@ -489,9 +522,9 @@ itself perform.
 
 | # | PI critique | Response in this revision |
 |---|---|---|
-| 1 | Optimizes topical recall; the binding constraint is estimand precision (44 → ~10 under the estimand). | **Conceded; gate added AND implemented.** Estimand-cell tags on gold anchors (A3), estimand fields required from Sonnet (D2b), an **estimand-ready pooling set** distinct from the topical set (E1), **estimand-filtered recall** as a reported target (E3). Now *run* on the pilot — `34_estimand_gate.py`, write-up `canonical-search-workflow-estimand-gate.md`: output set 40 → 10; corrected scorecard 7 of 15 anchors off-cell (reconciles with the PI's "7 of 14"). The automated gate is calibrated against the RA (100% precision / 80% recall, blind; `35a`/`35b`), so it runs on hypotheses with no RA pass. And the recall is **re-graded** (`36a`/`36b`): topical Recall(B) 72.5% → estimand-filtered 82.5%, Tier B being 65% theory / 23% empirical primary-cell. And the automated Tier-B tags are now **spot-audited** by blind double-screening (`39a`/`39b`, `{slug}-estimand-tag-audit.md`): 93% agreement / kappa 0.84 on the abstract census, zero THEORY→PRIMARY leakage, recall stable to <1pp. **Critique #1 closed** — recall of the target was never the constraint; the target's definition was, and the tags behind it hold up under audit. |
+| 1 | Optimizes topical recall; the binding constraint is estimand precision (44 → ~10 under the estimand). | **Conceded; gate added AND implemented.** Estimand-cell tags on gold anchors (A3), estimand fields required from Sonnet (D2b), an **estimand-ready pooling set** distinct from the topical set (E1), **estimand-filtered recall** as a reported target (E3). Now *run* on the pilot — `34_estimand_gate.py`, write-up `canonical-search-workflow-estimand-gate.md`: output set 40 → 10; corrected scorecard 7 of 15 anchors off-cell (reconciles with the PI's "7 of 14"). The automated gate is calibrated against the RA (100% precision / 80% recall, blind; `35a`/`35b`), so it runs on hypotheses with no RA pass. And the recall is **re-graded** (`36a`/`36b`): topical Recall(B) 72.5% → estimand-filtered 82.5% *(pre-freeze; later superseded)*, Tier B being 65% theory / 23% empirical primary-cell. The automated Tier-B tags are **spot-audited** by blind double-screening (`39a`/`39b`, `{slug}-estimand-tag-audit.md`): 93% agreement / kappa 0.84 on the abstract census, zero THEORY→PRIMARY leakage. The **clean end-to-end run** (2026-07-08, §7 move 2) then re-measured on a de-ghosted, frozen gold at **80.6% (PASS ≥ 0.80)**, retracting the ghost-inflated 82.5%. **Critique #1 closed** — recall of the target was never the constraint; the target's definition was, and the estimand gate holds up under audit and a clean run. |
 | 2 | Answered a different question — a synthesized 4th method, not the assigned head-to-head; convergence asserted, not shown. | **Conceded and now run** (`37_method_comparison.py`, §7.1). Disagreement matrix + FN + FP + cost + replicability vs the 10-study truth. Convergence is weak (agree on 8/200, Jaccard 0.07–0.13); FN 9/10 (Anup) vs 7/10 (gold, Tier-1 boundary) vs 7/10 (Alexandra); off-cell-empirical 27–57% across all three; only Anup's set survives as frozen data. Search choice is second-order to the estimand gate. |
-| 3 | Validated in components, not end to end; the decision can't be made yet. | **Conceded.** Status line reframed to "validated in components, pending a clean run"; the single end-to-end run is §7, move 2. |
+| 3 | Validated in components, not end to end; the decision can't be made yet. | **Conceded and now closed.** The single clean end-to-end run is **done** (2026-07-08, §7 move 2): estimand-filtered Recall(B) 80.6%, PASS ≥ 0.80. Running it whole also caught the ghost-gold failure the component checks missed — vindicating the PI's "not yet end-to-end" concern and producing the mandatory existence-verification gate. |
 | 4 | 72% is both low (vs. Cochrane near-complete) and soft (dry run, un-frozen, title-only). | **Conceded.** E3 adds an explicit **benchmark** paragraph: 72% is a title-only lower bound, near-complete recall is the target, and the adoption bar is estimand-filtered Recall(B) on a frozen gold with a pre-set target. |
 | 5 | Circularity acknowledged but not escaped — Tier B's snowball was seeded off the keyword set. | **Conceded, stated at point of use.** E3 now flags the residual keyword bias in Recall(B) wherever the number is quoted; §7.1's independent adjudicated inclusion set is the non-circular check. |
 | 6 | Too complex for anyone but its author; unset knobs = oral tradition. | **Addressed.** §7.2 gives a **parameter-defaults table** (default + one-line justification per knob), and §7, move 4 hands the pipeline to a second RA as the replicability test. The one knob that was still hand-estimated — the cluster count — is now **run** (`38_cluster_overlap.py`): the five cause-axis families stay five under the merge rule (no pair reaches Jaccard 0.6; the assumed formal-pensions ≈ SS/PAYG merge is refuted at 0.29). |
