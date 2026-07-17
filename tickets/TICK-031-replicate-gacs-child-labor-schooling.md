@@ -20,6 +20,8 @@ run a reproducible production search and screening funnel for the FDT estimand.
 - [ ] The live search is run reproducibly with caching, deduplication, and a search log.
 - [ ] The deterministic and LLM screening funnel produces tiered topical and estimand-ready outputs.
 - [ ] Studies belonging primarily to mode of production are routed to TICK-030 rather than combined with this estimand.
+- [ ] Full-text extraction distinguishes child economic return, child quality cost, women's own opportunity cost, timing, knowledge/preferences, and mixed/unclear mechanisms before drafting.
+- [ ] Full-text extraction records whether the law changes the prospective parent's schooling, the expected schooling of future children, or both.
 - [ ] Cross-hypothesis lessons and any deviations from the documented GACS prototype are recorded.
 
 ## Log

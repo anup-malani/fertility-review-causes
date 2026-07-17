@@ -38,6 +38,31 @@ quantum effects must therefore remain distinct.
 - Treat teenage births and postponement as tempo evidence unless completed fertility is also shown.
 - Do not combine the mode-of-production hypothesis with this legal-policy estimand.
 
+## When to adjudicate mechanisms
+
+The title/abstract screen decides whether a paper belongs in the empirical quantum, tempo, theory,
+or adjacent-evidence stream. It does **not** require the RA to determine the exact causal mechanism
+from an abstract. Detailed mechanism coding occurs during full-text extraction, before synthesis or
+chapter drafting.
+
+For every included empirical paper, full-text extraction must distinguish:
+
+- `CHILD_ECONOMIC_RETURN` — restricting children's work lowers their expected financial contribution;
+- `CHILD_QUALITY_COST` — required schooling raises expected parental investment per child;
+- `WOMENS_OPPORTUNITY_COST` — the reform raises a prospective mother's own education or earnings;
+- `MARRIAGE_BIRTH_TIMING` — school enrollment delays marriage, exposure, or births;
+- `KNOWLEDGE_PREFERENCES_CONTRACEPTION` — schooling changes knowledge, preferences, agency, or contraceptive use;
+- `MIXED_OR_UNCLEAR` — the estimate is a total policy effect and the paper does not isolate a channel.
+
+Also record **whose schooling the policy changes**: the prospective parent's own schooling, the
+expected schooling of that parent's future children, or both. A compulsory-schooling reform that
+changes women's own education and fertility is normally `OFF_EXPOSURE` for this chapter unless the
+paper separately identifies the child-economic-return or child-quality-cost channel.
+
+Drafting may report only mechanisms supported by these full-text fields. A reduced-form policy
+effect with `MIXED_OR_UNCLEAR` mechanism may support the law-to-fertility relationship, but it must
+not be described as proof of the child-labor-value channel.
+
 ## Cold-start channels and leakage wall
 
 1. Direct empirical papers identified independently from the hypothesis list and bibliographic
@@ -54,4 +79,3 @@ The initial verified set is stored in
 tempo, theory, and off-outcome anchors so the eventual search is tested on routing as well as topical
 retrieval. Bibliographic identity is verified against publisher/NBER/RePEc pages; substantive
 eligibility remains subject to abstract/full-text screening and RA freeze.
-
