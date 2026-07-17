@@ -2,6 +2,12 @@
 
 ## Child-labor laws / compulsory-schooling GACS replication — 2026-07-16
 
+Alexandra has completed the strict focused RA review. The post-RA quantitative retrieval handoff is
+`output/child-labor-laws-and-schooling-metaanalysis-doi-retrieval.csv`, generated reproducibly by
+step 63. It contains 15 distinct empirical studies: 14 DOI-resolved and one title-only working paper;
+6 are fertility-quantum studies and 9 are fertility-tempo studies. Three redundant version records
+were collapsed. The two RA-corrected theory records are not in this quantitative retrieval list.
+
 TICK-031 has completed the full automated pre-RA cold-start screen. Seven independently sourced
 anchors produced an orthogonal forward/backward citation frame of 1,255 deduplicated records. The
 frame was split into 32 blinded batches and screened against explicit quantum, tempo, theory,

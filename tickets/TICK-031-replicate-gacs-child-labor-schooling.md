@@ -36,3 +36,8 @@ run a reproducible production search and screening funnel for the FDT estimand.
   explicit covered policy plus fertility outcome for empirical rows and a direct child-policy/fertility
   link for theory. It preserves RA annotations, routes adjacent evidence out, quarantines one metadata
   mismatch, and produces 28 strict retrieval candidates without overwriting the edited RA sheet.
+- 2026-07-16, Alexandra/Codex: Converted Alexandra's completed strict RA review into the quantitative
+  full-text retrieval handoff. The reproducible list contains 15 distinct empirical studies: 14 with
+  resolved DOIs and one title-only working paper, split into 6 fertility-quantum and 9 fertility-tempo
+  studies. Three redundant working-paper/version records were collapsed into their preferred published
+  study. RA-corrected theory rows remain outside the meta-analysis retrieval list.
