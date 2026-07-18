@@ -27,6 +27,13 @@ production query until that review is adjudicated.
 
 ## Current OAS Meta-Analysis State — 2026-07-11
 
+Update (2026-07-17): The newly retrieved Zelu, Iranzo, and Pérez-Laborda Ghana pension-reform
+working paper is now included provisionally in the OAS chapter's evidence map, narrative synthesis,
+risk-of-bias discussion, demographic-significance interpretation, and references. Its controlled
+DiD estimate is a 6-percentage-point reduction in pregnancy (SE 3 percentage points; PDF p. 14,
+Table 2). It remains outside the pooled summaries and does not change the GRADE verdict pending
+formal RA extraction and risk-of-bias review.
+
 The old-age-security/pension-crowdout chapter now has RA-adjudicated effect extraction,
 meta-analysis readiness output, and PI-assumed sign orientation for the current extracted rows.
 The harmonized effects table adds `pi_approved`, old-age-security treatment direction,

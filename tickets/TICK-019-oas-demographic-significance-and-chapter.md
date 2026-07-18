@@ -1,6 +1,9 @@
 # TICK-019: OAS demographic significance and hybrid chapter draft
-**Status:** open
-**Assigned:** any
+
+**Status:** In progress
+
+**Owner:** Alexandra
+**Assigned:** Alexandra
 **Parallel-safe:** no
 **Blocks:** none
 **Blocked by:** none
@@ -68,3 +71,6 @@ Compute demographic significance for PM/FDT/SDT and draft the OAS hybrid JEL/Coc
 - 2026-07-11: Reworked `output/chapters/old-age-security-pension-crowdout.md` from a workflow-facing
   draft into a reader-facing chapter. Search logs, review-sheet provenance, variable-coding details,
   and sign-off status now sit in the reproducibility appendix rather than the main argument.
+- 2026-07-17: Claimed to incorporate the newly retrieved Zelu, Iranzo, and Pérez-Laborda Ghana
+  pension-reform working paper into the chapter draft. The paper will remain outside pooled
+  estimates until its extraction and risk-of-bias judgments receive RA review.

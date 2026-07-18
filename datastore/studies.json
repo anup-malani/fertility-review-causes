@@ -1,5 +1,32 @@
 {
   "_schema": "fertility-review-causes/studies@1",
   "_description": "DOI-keyed registry of screened and included studies. SOURCE OF TRUTH for the bibliography. Screening/dedup stages append here; literature/bib/*.bib is generated from this via `make bib` and must never be hand-edited. One object per study, keyed by normalized DOI (lowercase, no URL prefix). Use citekey for BibTeX.",
-  "studies": []
+  "studies": [
+    {
+      "doi": null,
+      "citekey": "zelu2023pension",
+      "type": "unpublished",
+      "title": "Pension Policy Reform and Fertility: Micro Evidence from Ghana",
+      "authors": [
+        "Zelu, Barbara Ama",
+        "Iranzo, Susana",
+        "Perez-Laborda, Alejandro"
+      ],
+      "year": 2023,
+      "venue": "IZA-BREAD G2LM|LIC Conference Working Paper",
+      "hypotheses": [
+        "old-age-security-pension-crowdout"
+      ],
+      "phenomena": [
+        "FDT"
+      ],
+      "screen_status": "included",
+      "exclude_reason": null,
+      "pdf_path": "literature/pdfs/old-age-security-pension-crowdout/zelu-iranzo-perez-laborda-2023-pension-policy-reform-fertility-ghana-working-paper.pdf",
+      "source_api": "title_key",
+      "openalex_id": null,
+      "added_by": "codex",
+      "verified": false
+    }
+  ]
 }
