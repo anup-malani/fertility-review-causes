@@ -1,6 +1,6 @@
 # Work Queue
 
-Last updated: 2026-07-11
+Last updated: 2026-07-22
 
 Pick the first open ticket assigned to you or `any`. Before starting, pull/sync, then **claim** it
 (move its row to **In progress** below) before doing the work — using whichever mode is active in
@@ -14,6 +14,12 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 | Ticket | Title | Assigned | Parallel-safe |
 |--------|-------|----------|---------------|
 | [TICK-030](TICK-030-replicate-gacs-agricultural-mode-production.md) | Replicate GACS for agricultural mode of production | any | no |
+| [TICK-032](TICK-032-b1-fulltext-screen-retrieval.md) | B.1 full-text screen and retrieval (status-fertility stream) | any | no |
+| [TICK-033](TICK-033-b1-effect-extraction.md) | B.1 status-fertility effect extraction | any | no (blocked by TICK-032) |
+| [TICK-034](TICK-034-b1-risk-of-bias.md) | B.1 risk-of-bias assessment | any | yes (blocked by TICK-033) |
+| [TICK-035](TICK-035-b1-status-fertility-meta-analysis.md) | B.1 status-fertility meta-analysis | any | yes (blocked by TICK-033) |
+| [TICK-036](TICK-036-b1-demographic-significance.md) | B.1 demographic-significance pass | any | no (blocked by TICK-034/035) |
+| [TICK-037](TICK-037-b1-chapter-finalization.md) | B.1 chapter finalization and PI review | any | no (blocked by TICK-036) |
 | [TICK-002](TICK-002-cultural-count-fix.md) | Fix Cultural-count in Merge Notes | any | yes |
 | [TICK-003](TICK-003-promote-batch-edits-lesson.md) | Promote batch-edits lesson to decisions/ | any | yes |
 | [TICK-004](TICK-004-gitignore-workflows.md) | Revisit .gitignore for .claude/workflows/ | any | yes |
