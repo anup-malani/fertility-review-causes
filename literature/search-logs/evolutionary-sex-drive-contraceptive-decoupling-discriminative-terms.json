@@ -1,0 +1,1145 @@
+[
+  {
+    "term": "reproductive success",
+    "block": "effect",
+    "z": 7.56,
+    "log_odds": 2.1,
+    "gold": 18,
+    "neg": 40,
+    "is_bigram": true
+  },
+  {
+    "term": "reproductive",
+    "block": "effect",
+    "z": 7.41,
+    "log_odds": 1.31,
+    "gold": 35,
+    "neg": 181,
+    "is_bigram": false
+  },
+  {
+    "term": "success",
+    "block": "other",
+    "z": 7.17,
+    "log_odds": 1.8,
+    "gold": 20,
+    "neg": 61,
+    "is_bigram": false
+  },
+  {
+    "term": "motivation",
+    "block": "cause",
+    "z": 6.69,
+    "log_odds": 2.42,
+    "gold": 12,
+    "neg": 19,
+    "is_bigram": false
+  },
+  {
+    "term": "contemporary",
+    "block": "other",
+    "z": 6.43,
+    "log_odds": 2.44,
+    "gold": 11,
+    "neg": 17,
+    "is_bigram": false
+  },
+  {
+    "term": "childbearing",
+    "block": "effect",
+    "z": 5.85,
+    "log_odds": 1.43,
+    "gold": 19,
+    "neg": 86,
+    "is_bigram": false
+  },
+  {
+    "term": "reproduction",
+    "block": "effect",
+    "z": 5.47,
+    "log_odds": 1.87,
+    "gold": 11,
+    "neg": 31,
+    "is_bigram": false
+  },
+  {
+    "term": "status",
+    "block": "cause",
+    "z": 5.23,
+    "log_odds": 1.28,
+    "gold": 18,
+    "neg": 95,
+    "is_bigram": false
+  },
+  {
+    "term": "childbearing motivations",
+    "block": "both",
+    "z": 5.04,
+    "log_odds": 2.86,
+    "gold": 6,
+    "neg": 6,
+    "is_bigram": true
+  },
+  {
+    "term": "modern",
+    "block": "other",
+    "z": 5.03,
+    "log_odds": 1.78,
+    "gold": 10,
+    "neg": 31,
+    "is_bigram": false
+  },
+  {
+    "term": "childbearing motivation",
+    "block": "both",
+    "z": 4.66,
+    "log_odds": 4.69,
+    "gold": 7,
+    "neg": 1,
+    "is_bigram": true
+  },
+  {
+    "term": "social status",
+    "block": "cause",
+    "z": 4.58,
+    "log_odds": 2.28,
+    "gold": 6,
+    "neg": 11,
+    "is_bigram": true
+  },
+  {
+    "term": "motivations",
+    "block": "cause",
+    "z": 4.48,
+    "log_odds": 2.19,
+    "gold": 6,
+    "neg": 12,
+    "is_bigram": false
+  },
+  {
+    "term": "mating",
+    "block": "cause",
+    "z": 4.2,
+    "log_odds": 1.26,
+    "gold": 12,
+    "neg": 65,
+    "is_bigram": false
+  },
+  {
+    "term": "problem",
+    "block": "other",
+    "z": 4.2,
+    "log_odds": 2.29,
+    "gold": 5,
+    "neg": 9,
+    "is_bigram": false
+  },
+  {
+    "term": "status reproductive",
+    "block": "both",
+    "z": 4.18,
+    "log_odds": 3.14,
+    "gold": 4,
+    "neg": 3,
+    "is_bigram": true
+  },
+  {
+    "term": "variables",
+    "block": "other",
+    "z": 4.16,
+    "log_odds": 3.53,
+    "gold": 4,
+    "neg": 2,
+    "is_bigram": false
+  },
+  {
+    "term": "societies",
+    "block": "other",
+    "z": 4.11,
+    "log_odds": 1.72,
+    "gold": 7,
+    "neg": 23,
+    "is_bigram": false
+  },
+  {
+    "term": "theoretical",
+    "block": "other",
+    "z": 3.89,
+    "log_odds": 2.02,
+    "gold": 5,
+    "neg": 12,
+    "is_bigram": false
+  },
+  {
+    "term": "bateman",
+    "block": "other",
+    "z": 3.88,
+    "log_odds": 4.18,
+    "gold": 4,
+    "neg": 1,
+    "is_bigram": false
+  },
+  {
+    "term": "desires",
+    "block": "other",
+    "z": 3.88,
+    "log_odds": 1.28,
+    "gold": 10,
+    "neg": 53,
+    "is_bigram": false
+  },
+  {
+    "term": "evolutionary",
+    "block": "cause",
+    "z": 3.81,
+    "log_odds": 0.81,
+    "gold": 21,
+    "neg": 188,
+    "is_bigram": false
+  },
+  {
+    "term": "contemporary united",
+    "block": "other",
+    "z": 3.63,
+    "log_odds": 3.25,
+    "gold": 3,
+    "neg": 2,
+    "is_bigram": true
+  },
+  {
+    "term": "wife",
+    "block": "other",
+    "z": 3.63,
+    "log_odds": 3.25,
+    "gold": 3,
+    "neg": 2,
+    "is_bigram": false
+  },
+  {
+    "term": "industrial societies",
+    "block": "other",
+    "z": 3.63,
+    "log_odds": 3.25,
+    "gold": 3,
+    "neg": 2,
+    "is_bigram": true
+  },
+  {
+    "term": "number",
+    "block": "other",
+    "z": 3.6,
+    "log_odds": 1.81,
+    "gold": 5,
+    "neg": 15,
+    "is_bigram": false
+  },
+  {
+    "term": "dimorphism",
+    "block": "other",
+    "z": 3.56,
+    "log_odds": 2.86,
+    "gold": 3,
+    "neg": 3,
+    "is_bigram": false
+  },
+  {
+    "term": "motivational",
+    "block": "cause",
+    "z": 3.49,
+    "log_odds": 3.91,
+    "gold": 3,
+    "neg": 1,
+    "is_bigram": false
+  },
+  {
+    "term": "theoretical problem",
+    "block": "other",
+    "z": 3.49,
+    "log_odds": 3.91,
+    "gold": 3,
+    "neg": 1,
+    "is_bigram": true
+  },
+  {
+    "term": "problem sociobiology",
+    "block": "cause",
+    "z": 3.49,
+    "log_odds": 3.91,
+    "gold": 3,
+    "neg": 1,
+    "is_bigram": true
+  },
+  {
+    "term": "fertility evolutionary",
+    "block": "both",
+    "z": 3.49,
+    "log_odds": 3.91,
+    "gold": 3,
+    "neg": 1,
+    "is_bigram": true
+  },
+  {
+    "term": "cultural reproductive",
+    "block": "effect",
+    "z": 3.49,
+    "log_odds": 3.91,
+    "gold": 3,
+    "neg": 1,
+    "is_bigram": true
+  },
+  {
+    "term": "central theoretical",
+    "block": "other",
+    "z": 3.49,
+    "log_odds": 3.91,
+    "gold": 3,
+    "neg": 1,
+    "is_bigram": true
+  },
+  {
+    "term": "meta",
+    "block": "other",
+    "z": 3.44,
+    "log_odds": 2.58,
+    "gold": 3,
+    "neg": 4,
+    "is_bigram": false
+  },
+  {
+    "term": "principles",
+    "block": "other",
+    "z": 3.32,
+    "log_odds": 1.89,
+    "gold": 4,
+    "neg": 11,
+    "is_bigram": false
+  },
+  {
+    "term": "need",
+    "block": "other",
+    "z": 3.31,
+    "log_odds": 2.37,
+    "gold": 3,
+    "neg": 5,
+    "is_bigram": false
+  },
+  {
+    "term": "status fertility",
+    "block": "both",
+    "z": 3.31,
+    "log_odds": 2.37,
+    "gold": 3,
+    "neg": 5,
+    "is_bigram": true
+  },
+  {
+    "term": "fertility motivation",
+    "block": "both",
+    "z": 3.31,
+    "log_odds": 2.37,
+    "gold": 3,
+    "neg": 5,
+    "is_bigram": true
+  },
+  {
+    "term": "fertility behavior",
+    "block": "effect",
+    "z": 3.17,
+    "log_odds": 2.19,
+    "gold": 3,
+    "neg": 6,
+    "is_bigram": true
+  },
+  {
+    "term": "reproductive behavior",
+    "block": "effect",
+    "z": 3.17,
+    "log_odds": 2.19,
+    "gold": 3,
+    "neg": 6,
+    "is_bigram": true
+  },
+  {
+    "term": "correlation",
+    "block": "other",
+    "z": 3.17,
+    "log_odds": 2.19,
+    "gold": 3,
+    "neg": 6,
+    "is_bigram": false
+  },
+  {
+    "term": "finland",
+    "block": "other",
+    "z": 3.03,
+    "log_odds": 2.04,
+    "gold": 3,
+    "neg": 7,
+    "is_bigram": false
+  },
+  {
+    "term": "central",
+    "block": "other",
+    "z": 3.03,
+    "log_odds": 2.04,
+    "gold": 3,
+    "neg": 7,
+    "is_bigram": false
+  },
+  {
+    "term": "evolutionary demography",
+    "block": "cause",
+    "z": 2.91,
+    "log_odds": 1.92,
+    "gold": 3,
+    "neg": 8,
+    "is_bigram": true
+  },
+  {
+    "term": "industrial",
+    "block": "other",
+    "z": 2.85,
+    "log_odds": 1.54,
+    "gold": 4,
+    "neg": 16,
+    "is_bigram": false
+  },
+  {
+    "term": "2010",
+    "block": "other",
+    "z": 2.79,
+    "log_odds": 1.81,
+    "gold": 3,
+    "neg": 9,
+    "is_bigram": false
+  },
+  {
+    "term": "desires intentions",
+    "block": "other",
+    "z": 2.69,
+    "log_odds": 1.43,
+    "gold": 4,
+    "neg": 18,
+    "is_bigram": true
+  },
+  {
+    "term": "predicts",
+    "block": "other",
+    "z": 2.67,
+    "log_odds": 1.71,
+    "gold": 3,
+    "neg": 10,
+    "is_bigram": false
+  },
+  {
+    "term": "explain",
+    "block": "other",
+    "z": 2.67,
+    "log_odds": 1.71,
+    "gold": 3,
+    "neg": 10,
+    "is_bigram": false
+  },
+  {
+    "term": "partners",
+    "block": "other",
+    "z": 2.67,
+    "log_odds": 1.71,
+    "gold": 3,
+    "neg": 10,
+    "is_bigram": false
+  },
+  {
+    "term": "evolutionary perspective",
+    "block": "cause",
+    "z": 2.61,
+    "log_odds": 1.38,
+    "gold": 4,
+    "neg": 19,
+    "is_bigram": true
+  },
+  {
+    "term": "difference",
+    "block": "other",
+    "z": 2.57,
+    "log_odds": 1.62,
+    "gold": 3,
+    "neg": 11,
+    "is_bigram": false
+  },
+  {
+    "term": "sex",
+    "block": "other",
+    "z": 2.49,
+    "log_odds": 0.64,
+    "gold": 14,
+    "neg": 154,
+    "is_bigram": false
+  },
+  {
+    "term": "framework",
+    "block": "other",
+    "z": 2.37,
+    "log_odds": 1.46,
+    "gold": 3,
+    "neg": 13,
+    "is_bigram": false
+  },
+  {
+    "term": "implications",
+    "block": "other",
+    "z": 2.33,
+    "log_odds": 1.05,
+    "gold": 5,
+    "neg": 34,
+    "is_bigram": false
+  },
+  {
+    "term": "men women",
+    "block": "other",
+    "z": 2.33,
+    "log_odds": 1.2,
+    "gold": 4,
+    "neg": 23,
+    "is_bigram": true
+  },
+  {
+    "term": "resources",
+    "block": "other",
+    "z": 2.28,
+    "log_odds": 1.39,
+    "gold": 3,
+    "neg": 14,
+    "is_bigram": false
+  },
+  {
+    "term": "fertility",
+    "block": "effect",
+    "z": 2.23,
+    "log_odds": 0.31,
+    "gold": 42,
+    "neg": 692,
+    "is_bigram": false
+  },
+  {
+    "term": "desire",
+    "block": "other",
+    "z": 2.21,
+    "log_odds": 1.13,
+    "gold": 4,
+    "neg": 25,
+    "is_bigram": false
+  },
+  {
+    "term": "sexual selection",
+    "block": "cause",
+    "z": 2.2,
+    "log_odds": 1.33,
+    "gold": 3,
+    "neg": 15,
+    "is_bigram": true
+  },
+  {
+    "term": "fitness",
+    "block": "cause",
+    "z": 2.18,
+    "log_odds": 0.98,
+    "gold": 5,
+    "neg": 37,
+    "is_bigram": false
+  },
+  {
+    "term": "relationship",
+    "block": "other",
+    "z": 2.18,
+    "log_odds": 0.98,
+    "gold": 5,
+    "neg": 37,
+    "is_bigram": false
+  },
+  {
+    "term": "pill",
+    "block": "cause",
+    "z": 2.13,
+    "log_odds": 0.86,
+    "gold": 6,
+    "neg": 51,
+    "is_bigram": false
+  },
+  {
+    "term": "baby",
+    "block": "other",
+    "z": 2.12,
+    "log_odds": 1.27,
+    "gold": 3,
+    "neg": 16,
+    "is_bigram": false
+  },
+  {
+    "term": "association",
+    "block": "other",
+    "z": 2.12,
+    "log_odds": 1.27,
+    "gold": 3,
+    "neg": 16,
+    "is_bigram": false
+  },
+  {
+    "term": "but",
+    "block": "other",
+    "z": 2.09,
+    "log_odds": 1.06,
+    "gold": 4,
+    "neg": 27,
+    "is_bigram": false
+  },
+  {
+    "term": "low fertility",
+    "block": "effect",
+    "z": 2.04,
+    "log_odds": 1.03,
+    "gold": 4,
+    "neg": 28,
+    "is_bigram": true
+  },
+  {
+    "term": "men",
+    "block": "other",
+    "z": 2.01,
+    "log_odds": 0.61,
+    "gold": 10,
+    "neg": 114,
+    "is_bigram": false
+  },
+  {
+    "term": "sexual",
+    "block": "cause",
+    "z": 1.93,
+    "log_odds": 0.66,
+    "gold": 8,
+    "neg": 86,
+    "is_bigram": false
+  },
+  {
+    "term": "low",
+    "block": "other",
+    "z": 1.92,
+    "log_odds": 0.85,
+    "gold": 5,
+    "neg": 43,
+    "is_bigram": false
+  },
+  {
+    "term": "demography",
+    "block": "other",
+    "z": 1.88,
+    "log_odds": 0.94,
+    "gold": 4,
+    "neg": 31,
+    "is_bigram": false
+  },
+  {
+    "term": "biological",
+    "block": "other",
+    "z": 1.83,
+    "log_odds": 1.07,
+    "gold": 3,
+    "neg": 20,
+    "is_bigram": false
+  },
+  {
+    "term": "bateman principles",
+    "block": "other",
+    "z": 1.82,
+    "log_odds": 6.91,
+    "gold": 4,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "contraception",
+    "block": "cause",
+    "z": 1.81,
+    "log_odds": 0.72,
+    "gold": 6,
+    "neg": 60,
+    "is_bigram": false
+  },
+  {
+    "term": "sociobiology",
+    "block": "cause",
+    "z": 1.78,
+    "log_odds": 0.88,
+    "gold": 4,
+    "neg": 33,
+    "is_bigram": false
+  },
+  {
+    "term": "demographic",
+    "block": "other",
+    "z": 1.73,
+    "log_odds": 0.58,
+    "gold": 8,
+    "neg": 94,
+    "is_bigram": false
+  },
+  {
+    "term": "strategy",
+    "block": "other",
+    "z": 1.7,
+    "log_odds": 0.98,
+    "gold": 3,
+    "neg": 22,
+    "is_bigram": false
+  },
+  {
+    "term": "behaviour",
+    "block": "other",
+    "z": 1.69,
+    "log_odds": 0.73,
+    "gold": 5,
+    "neg": 49,
+    "is_bigram": false
+  },
+  {
+    "term": "demographic transition",
+    "block": "other",
+    "z": 1.6,
+    "log_odds": 0.78,
+    "gold": 4,
+    "neg": 37,
+    "is_bigram": true
+  },
+  {
+    "term": "mating reproductive",
+    "block": "both",
+    "z": 1.58,
+    "log_odds": 6.91,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "research policy",
+    "block": "other",
+    "z": 1.58,
+    "log_odds": 6.91,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "male dimorphism",
+    "block": "other",
+    "z": 1.58,
+    "log_odds": 6.91,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "ecological",
+    "block": "other",
+    "z": 1.53,
+    "log_odds": 0.87,
+    "gold": 3,
+    "neg": 25,
+    "is_bigram": false
+  },
+  {
+    "term": "matter",
+    "block": "other",
+    "z": 1.53,
+    "log_odds": 0.87,
+    "gold": 3,
+    "neg": 25,
+    "is_bigram": false
+  },
+  {
+    "term": "change",
+    "block": "other",
+    "z": 1.51,
+    "log_odds": 0.59,
+    "gold": 6,
+    "neg": 70,
+    "is_bigram": false
+  },
+  {
+    "term": "second",
+    "block": "other",
+    "z": 1.43,
+    "log_odds": 0.81,
+    "gold": 3,
+    "neg": 27,
+    "is_bigram": false
+  },
+  {
+    "term": "perspective",
+    "block": "other",
+    "z": 1.38,
+    "log_odds": 0.53,
+    "gold": 6,
+    "neg": 75,
+    "is_bigram": false
+  },
+  {
+    "term": "contraceptive",
+    "block": "cause",
+    "z": 1.36,
+    "log_odds": 0.48,
+    "gold": 7,
+    "neg": 93,
+    "is_bigram": false
+  },
+  {
+    "term": "couples",
+    "block": "other",
+    "z": 1.33,
+    "log_odds": 0.74,
+    "gold": 3,
+    "neg": 29,
+    "is_bigram": false
+  },
+  {
+    "term": "genetic",
+    "block": "other",
+    "z": 1.24,
+    "log_odds": 0.69,
+    "gold": 3,
+    "neg": 31,
+    "is_bigram": false
+  },
+  {
+    "term": "policy",
+    "block": "other",
+    "z": 1.22,
+    "log_odds": 0.51,
+    "gold": 5,
+    "neg": 64,
+    "is_bigram": false
+  },
+  {
+    "term": "income",
+    "block": "other",
+    "z": 1.19,
+    "log_odds": 0.56,
+    "gold": 4,
+    "neg": 48,
+    "is_bigram": false
+  },
+  {
+    "term": "fertility desires",
+    "block": "effect",
+    "z": 1.19,
+    "log_odds": 0.66,
+    "gold": 3,
+    "neg": 32,
+    "is_bigram": true
+  },
+  {
+    "term": "populations",
+    "block": "other",
+    "z": 1.15,
+    "log_odds": 0.64,
+    "gold": 3,
+    "neg": 33,
+    "is_bigram": false
+  },
+  {
+    "term": "decisions",
+    "block": "other",
+    "z": 1.11,
+    "log_odds": 0.61,
+    "gold": 3,
+    "neg": 34,
+    "is_bigram": false
+  },
+  {
+    "term": "transition",
+    "block": "other",
+    "z": 1.09,
+    "log_odds": 0.41,
+    "gold": 6,
+    "neg": 87,
+    "is_bigram": false
+  },
+  {
+    "term": "behavior",
+    "block": "other",
+    "z": 1.0,
+    "log_odds": 0.35,
+    "gold": 7,
+    "neg": 110,
+    "is_bigram": false
+  },
+  {
+    "term": "use",
+    "block": "other",
+    "z": 0.98,
+    "log_odds": 0.4,
+    "gold": 5,
+    "neg": 73,
+    "is_bigram": false
+  },
+  {
+    "term": "theory",
+    "block": "other",
+    "z": 0.96,
+    "log_odds": 0.33,
+    "gold": 7,
+    "neg": 112,
+    "is_bigram": false
+  },
+  {
+    "term": "research",
+    "block": "other",
+    "z": 0.96,
+    "log_odds": 0.52,
+    "gold": 3,
+    "neg": 38,
+    "is_bigram": false
+  },
+  {
+    "term": "social",
+    "block": "other",
+    "z": 0.95,
+    "log_odds": 0.23,
+    "gold": 14,
+    "neg": 257,
+    "is_bigram": false
+  },
+  {
+    "term": "wealth",
+    "block": "cause",
+    "z": 0.92,
+    "log_odds": 0.5,
+    "gold": 3,
+    "neg": 39,
+    "is_bigram": false
+  },
+  {
+    "term": "strategies",
+    "block": "other",
+    "z": 0.85,
+    "log_odds": 0.46,
+    "gold": 3,
+    "neg": 41,
+    "is_bigram": false
+  },
+  {
+    "term": "united states",
+    "block": "other",
+    "z": 0.84,
+    "log_odds": 0.34,
+    "gold": 5,
+    "neg": 79,
+    "is_bigram": true
+  },
+  {
+    "term": "power",
+    "block": "other",
+    "z": 0.82,
+    "log_odds": 0.44,
+    "gold": 3,
+    "neg": 42,
+    "is_bigram": false
+  },
+  {
+    "term": "united",
+    "block": "other",
+    "z": 0.81,
+    "log_odds": 0.33,
+    "gold": 5,
+    "neg": 80,
+    "is_bigram": false
+  },
+  {
+    "term": "control",
+    "block": "other",
+    "z": 0.75,
+    "log_odds": 0.4,
+    "gold": 3,
+    "neg": 44,
+    "is_bigram": false
+  },
+  {
+    "term": "states",
+    "block": "other",
+    "z": 0.73,
+    "log_odds": 0.29,
+    "gold": 5,
+    "neg": 84,
+    "is_bigram": false
+  },
+  {
+    "term": "understanding",
+    "block": "other",
+    "z": 0.69,
+    "log_odds": 0.36,
+    "gold": 3,
+    "neg": 46,
+    "is_bigram": false
+  },
+  {
+    "term": "children",
+    "block": "other",
+    "z": 0.64,
+    "log_odds": 0.22,
+    "gold": 7,
+    "neg": 130,
+    "is_bigram": false
+  },
+  {
+    "term": "cultural",
+    "block": "other",
+    "z": 0.59,
+    "log_odds": 0.21,
+    "gold": 6,
+    "neg": 112,
+    "is_bigram": false
+  },
+  {
+    "term": "differences",
+    "block": "other",
+    "z": 0.55,
+    "log_odds": 0.2,
+    "gold": 6,
+    "neg": 114,
+    "is_bigram": false
+  },
+  {
+    "term": "young",
+    "block": "other",
+    "z": 0.54,
+    "log_odds": 0.28,
+    "gold": 3,
+    "neg": 51,
+    "is_bigram": false
+  },
+  {
+    "term": "selection",
+    "block": "cause",
+    "z": 0.51,
+    "log_odds": 0.17,
+    "gold": 7,
+    "neg": 138,
+    "is_bigram": false
+  },
+  {
+    "term": "ecology",
+    "block": "other",
+    "z": 0.34,
+    "log_odds": 0.17,
+    "gold": 3,
+    "neg": 59,
+    "is_bigram": false
+  },
+  {
+    "term": "child",
+    "block": "other",
+    "z": 0.3,
+    "log_odds": 0.12,
+    "gold": 5,
+    "neg": 106,
+    "is_bigram": false
+  },
+  {
+    "term": "male",
+    "block": "other",
+    "z": 0.19,
+    "log_odds": 0.08,
+    "gold": 4,
+    "neg": 89,
+    "is_bigram": false
+  },
+  {
+    "term": "mate",
+    "block": "other",
+    "z": 0.18,
+    "log_odds": 0.09,
+    "gold": 3,
+    "neg": 66,
+    "is_bigram": false
+  },
+  {
+    "term": "pregnancy",
+    "block": "other",
+    "z": 0.02,
+    "log_odds": 0.01,
+    "gold": 3,
+    "neg": 74,
+    "is_bigram": false
+  },
+  {
+    "term": "evolution",
+    "block": "cause",
+    "z": -0.03,
+    "log_odds": -0.01,
+    "gold": 9,
+    "neg": 228,
+    "is_bigram": false
+  },
+  {
+    "term": "intentions",
+    "block": "other",
+    "z": -0.07,
+    "log_odds": -0.03,
+    "gold": 5,
+    "neg": 130,
+    "is_bigram": false
+  },
+  {
+    "term": "population",
+    "block": "other",
+    "z": -0.07,
+    "log_odds": -0.03,
+    "gold": 5,
+    "neg": 130,
+    "is_bigram": false
+  },
+  {
+    "term": "birth",
+    "block": "effect",
+    "z": -0.55,
+    "log_odds": -0.25,
+    "gold": 3,
+    "neg": 110,
+    "is_bigram": false
+  },
+  {
+    "term": "life",
+    "block": "other",
+    "z": -0.61,
+    "log_odds": -0.24,
+    "gold": 4,
+    "neg": 145,
+    "is_bigram": false
+  },
+  {
+    "term": "marriage",
+    "block": "other",
+    "z": -0.81,
+    "log_odds": -0.28,
+    "gold": 5,
+    "neg": 194,
+    "is_bigram": false
+  },
+  {
+    "term": "women",
+    "block": "other",
+    "z": -0.85,
+    "log_odds": -0.18,
+    "gold": 14,
+    "neg": 461,
+    "is_bigram": false
+  },
+  {
+    "term": "family",
+    "block": "other",
+    "z": -1.26,
+    "log_odds": -0.39,
+    "gold": 6,
+    "neg": 278,
+    "is_bigram": false
+  }
+]
