@@ -33,3 +33,15 @@ the frozen screen, and confirm each retrieved study still belongs to its assigne
   **Next lever for the paywalled remainder = authenticated browser (claude-in-chrome via Shravan's
   UChicago-proxied Chrome) or library access — the OAS-equivalent of Alexandra's retrieval step.**
   RA gate over the 95 pooling / 311 uncertain records still outstanding.
+- 2026-07-22 (Claude, claude-in-chrome): drove Shravan's UChicago-authenticated Chrome to try the
+  paywalled remainder. **Access confirmed** (EndNote Click "University of Chicago Library" widget; PDFs
+  render with the campus IP watermark) and the fetch-blob-download primitive works (PNAS von Rueden
+  W2507848855 retrieved, +1 over curl → **20/95 total, 10/52 status-and-reproduction**). **But browser
+  automation does NOT scale against this publisher mix:** Elsevier/ScienceDirect (12 papers) and Royal
+  Society (2) throw an interactive Cloudflare "Verify you are human" checkbox — bot-detection I am not
+  permitted to complete; Wiley (7) returns HTTP 403 on the /doi/pdf(direct) endpoint even inside the
+  authenticated session; the extension also gates screenshots per-domain (JS still runs). Only PNAS
+  served the PDF inline/cleanly. Stopped rather than rabbit-hole. Handoff list of the 71 still-missing
+  DOIs (all streams, status-and-reproduction first): `extraction/…-missing-pdf-dois.csv`. **Best next
+  path = Shravan/RA via Zotero+UChicago proxy or the library's bulk get-it tools, or Shravan clicks the
+  human-check where it appears; the automated ceiling here is ~20.**
