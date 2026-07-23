@@ -23,4 +23,5 @@ with its uncertainty and page/table locator.
 - [ ] Ambiguous estimates flagged `needs_pi = yes`.
 
 ## Log
-<!-- Append completion note here when done. -->
+- 2026-07-22 (Claude, prototype): built the effects table `extraction/evolutionary-sex-drive-contraceptive-decoupling-effects.csv` (schema per extraction/schema.md) on the 20 retrieved PDFs. 8 effect rows: 1 fully extracted (von Rueden Zr=0.19 [0.09,0.31], contraception absent, male), 3 with direction+page locators but effect pending table extraction (Zhang China men+/women-, Hopcroft US men+, all `needs_pi=yes`), 4 routed off-pool (Skirbekk review, Bolund-Lummaa heritability, Lidborg dimorphism-MA external benchmark, Gutierrez pending). Exact table coefficients NOT guessed. Awaits Zotero retrieval of the missing 42 status-and-reproduction DOIs + RA table extraction.
+

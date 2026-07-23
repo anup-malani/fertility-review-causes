@@ -27,4 +27,5 @@ and should be cited as an external benchmark, not silently re-derived.
 - [ ] Result written back into Section 6 of the chapter, replacing the pending paragraph.
 
 ## Log
-<!-- Append completion note here when done. -->
+- 2026-07-22 (Claude, prototype): built `source/analysis/b1_meta_pipeline.py` (Fisher-z harmonization, DerSimonian-Laird random effects, back-transform to r, subgroup pools by contraceptive_availability and sex, conservative >=3-study rule) + `test_b1_meta_pipeline.py` (10 tests, all pass; RE math checked against hand-computed fixtures). Ran on the real effects CSV: `poolable now: 1 | pending extraction: 4` -> every pool correctly "insufficient (<3 studies); reported not pooled". Output `output/tables/…-meta-analysis-summary.csv`; note `output/…-meta-analysis-prototype.md`. Pipeline proven by tests; pooled Section-6 estimate lands when extraction completes. Lidborg 2020/2022 stays an external benchmark (dimorphism != status), not pooled in.
+
