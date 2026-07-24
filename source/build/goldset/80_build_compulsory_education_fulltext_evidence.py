@@ -205,6 +205,32 @@ ROWS = [
         "child_value_mechanism_status": "DIRECT_FORMAL_THEORY", "synthesis_status": "THEORY_NARRATIVE",
         "source_locator": "PDF abstract, introduction pp. 3-4, and comparative-statics section", "pdf_path": "literature/pdfs/compulsory-education/W2073343854__theory-occupational-choice-endogenous-fertility.pdf",
     },
+    {
+        "paperId": "W2753276478", "title": "Human capital and fertility: child vs adult survival",
+        "workstream": "CHILD_ECONOMIC_VALUE_THEORY", "fulltext_decision": "INCLUDE_DIRECT_THEORY",
+        "design": "Overlapping-generations human-capital model", "setting": "Stylized development transition",
+        "reform": "Child-labor regulation discussed as policy implication", "schooling_first_stage": "Model comparative static",
+        "fertility_outcome": "Endogenous fertility and human-capital investment",
+        "effect_summary": "Child labor lowers the cost of children and produces higher fertility and lower education; regulating child labor is needed alongside survival improvements",
+        "persistence_or_rebound": "Steady-state model implications", "completed_fertility": "MODEL_OUTCOME",
+        "mechanism": "Direct child-labor return lowers the net cost of children",
+        "child_value_mechanism_status": "DIRECT_FORMAL_THEORY", "synthesis_status": "THEORY_NARRATIVE",
+        "source_locator": "Published PDF abstract; model discussion pp. 1989-1992; conclusion",
+        "pdf_path": "literature/pdfs/compulsory-education/W2753276478__human-capital-and-fertility-child-vs-adult-survival.pdf",
+    },
+    {
+        "paperId": "W3093523732", "title": "Child mortality, child labor, fertility, and demographics",
+        "workstream": "CHILD_ECONOMIC_VALUE_THEORY", "fulltext_decision": "INCLUDE_THEORY_COUNTEREVIDENCE",
+        "design": "Overlapping-generations model with skilled and unskilled households", "setting": "Stylized developing economy",
+        "reform": "Child-labor ban and education policy", "schooling_first_stage": "Model-imposed policies",
+        "fertility_outcome": "Group-specific fertility and steady-state population composition",
+        "effect_summary": "A child-labor ban decreases fertility for unskilled parents but increases it for skilled parents; aggregate policy implications are not uniformly fertility-reducing",
+        "persistence_or_rebound": "Steady-state population-composition effects", "completed_fertility": "MODEL_OUTCOME",
+        "mechanism": "Removing child earnings changes education and fertility differently by parental skill",
+        "child_value_mechanism_status": "DIRECT_THEORY_HETEROGENEOUS_COUNTEREVIDENCE", "synthesis_status": "THEORY_NARRATIVE",
+        "source_locator": "Repository working-paper version, policy section 4.1 and Propositions 5-6",
+        "pdf_path": "literature/pdfs/compulsory-education/W3093523732__child-mortality-child-labor-fertility-and-demographics.pdf",
+    },
 ]
 
 ROB_FIELDS = [

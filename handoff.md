@@ -3,26 +3,28 @@
 ## Compulsory-education full-text automation — 2026-07-24
 
 Steps 78-80 automate OA PDF retrieval, PDF validation, text extraction, verified accessible-source
-evidence, and preliminary risk-of-bias coding. Current coverage is 14/25 distinct RA-approved
-sources: 9/10 compulsory-schooling tempo papers and 6/16 child-economic-value papers. The exact 11-
+evidence, and preliminary risk-of-bias coding. Current coverage is 16/25 distinct RA-approved
+sources: 9/10 compulsory-schooling tempo papers and 8/16 child-economic-value papers. The exact 9-
 source manual/institutional queue is `output/compulsory-education-pdf-acquisition-queue.csv`.
 
 Two current drafts exist:
 - `output/chapters/compulsory-education-child-economic-value.md` is partial. None of the retrieved
-  empirical papers directly identifies the child-work-value mechanism; 10 approved sources remain
-  inaccessible, including seven theory/mechanism papers and three empirical quantum papers.
+  empirical papers directly identifies the child-work-value mechanism; eight approved sources
+  remain inaccessible, including five theory/mechanism papers and three empirical quantum papers.
 - `output/chapters/tempo-effects-birth-postponement.md` contains a substantive compulsory-schooling
   stream based on 9/10 approved papers. Only Silles remains missing from this stream. It still needs
   specification-level SE extraction and tempo-specific macro scaling, and the full parent chapter
   eventually needs other postponement drivers.
 
 Do not finalize GRADE or demographic significance from the partial tables. The next external action
-is RA institutional retrieval of the 11 queued PDFs. After they are placed in
+is RA institutional retrieval of the nine queued PDFs. After they are placed in
 `literature/pdfs/compulsory-education/` with a `paperId__` filename prefix, rerun steps 78-81.
 Step 81 records 14 verified tempo-effect rows and audits pooling readiness. No outcome family has
 three independent studies with a comparable estimate and standard error, so no pooled estimate was
-generated. The next decision gate is PDF acquisition: obtain the 11 queued sources through the
-UChicago library/ILL, or explicitly authorize a partial child-value chapter based on 6/16 sources.
+generated. A published-version audit retrieved Fioroni and the repository version of Takakura and
+resolved final citations for every remaining record. The next external action is acquisition of the
+nine queued items through the UChicago library; one 2024 Cigno-Rosati ebook covers two queued
+chapters. See `output/compulsory-education-published-version-audit.csv`.
 
 ## Compulsory-education routing — 2026-07-24
 

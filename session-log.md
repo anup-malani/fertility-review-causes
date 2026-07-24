@@ -1114,3 +1114,24 @@ child-value draft.
 - `git diff --check`
 
 ---
+
+# [2026-07-24] — Published-version audit for queued schooling sources
+
+**Agent:** Codex
+**Machine:** Alexandra workspace
+
+### Summary
+
+Checked all 11 queued records against publisher, journal, author, and institutional-repository
+records. Retrieved the open Economics Bulletin version of Fioroni and Osaka's discussion-paper
+version of Takakura's 2023 Economic Modelling article. Resolved final publication details for all
+nine items still requiring library access.
+
+### Outputs and result
+
+- `output/compulsory-education-published-version-audit.csv`
+- Coverage: 16/25 overall; 8/16 child economic value; 9/10 tempo.
+- Remaining library queue: nine records. The two 2024 Cigno-Rosati chapters are in one ebook.
+- Added the two newly accessible theory papers to the evidence builder and child-value draft.
+
+---

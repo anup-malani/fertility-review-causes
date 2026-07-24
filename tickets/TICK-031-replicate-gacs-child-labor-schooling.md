@@ -25,6 +25,11 @@ run a reproducible production search and screening funnel for the FDT estimand.
 - [ ] Cross-hypothesis lessons and any deviations from the documented GACS prototype are recorded.
 
 ## Log
+- 2026-07-24, Alexandra/Codex: Audited published versions for all 11 queued records. Retrieved the
+  published Fioroni article and Takakura's repository manuscript corresponding to the 2023
+  Economic Modelling article, raising coverage to 16/25 overall and 8/16 for child value. Resolved
+  final journal/book citations for the remaining nine records; the two 2024 Cigno-Rosati chapters
+  can be obtained with one second-edition ebook. The remaining queue is ready for UChicago access.
 - 2026-07-24, Alexandra/Codex: Added reproducible step 81 with 14 specification-level tempo-effect
   rows and a four-family pooling-readiness audit. No family meets the minimum of three independent
   studies with comparable estimates and standard errors; no pooled estimate was generated. The

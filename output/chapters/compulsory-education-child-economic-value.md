@@ -4,7 +4,7 @@
 **Primary mechanism:** Compulsory education makes child work harder, reducing the economic return
 parents expect from an additional child and thereby reducing completed fertility.  
 **Target phenomenon:** First Demographic Transition  
-**Draft status:** Partial full-text draft. Six of 16 RA-approved papers are retrieved; the direct
+**Draft status:** Partial full-text draft. Eight of 16 RA-approved papers are retrieved; the direct
 mechanism evidence is not yet fully accessible.
 
 ## 1. The claim
@@ -29,7 +29,10 @@ Hazan and Berdugo provide the most direct formal statement: child labor raises f
 development-trap model, and a temporary prohibition or compulsory-schooling intervention can
 accelerate movement toward a low-child-labor, low-fertility steady state. Mookherjee, Prina, and Ray
 likewise show how stronger child-labor regulation changes education, occupational composition, and
-steady-state fertility.
+steady-state fertility. Fioroni derives the same sign through child costs: child work lowers the cost
+of children and raises fertility. Takakura supplies important heterogeneous counterevidence: banning
+child labor lowers fertility among unskilled parents but raises it among skilled parents in his
+model, so the aggregate sign need not be uniformly negative.
 
 The retrieved Greenwood, Seshadri, and Vandenbroucke working paper formalizes a closely related
 child-productivity mechanism, but it also challenges the policy interpretation. In its historical
@@ -38,7 +41,7 @@ effective child-labor regulation arrived after much of the withdrawal from work 
 occurred. Compulsory-schooling and child-labor laws may therefore be consequences or complements
 of the economic transformation rather than its initiating cause.
 
-Seven additional RA-approved theory/mechanism sources remain unavailable locally. The mechanism
+Five additional RA-approved theory/mechanism sources remain unavailable locally. The mechanism
 section cannot be considered complete until those sources are retrieved and checked.
 
 ## 3. Search and routing
@@ -59,10 +62,10 @@ question; it does not establish the child-value mechanism.
 | RA-approved distinct papers | 16 |
 | Theory/mechanism papers | 10 |
 | Empirical quantum papers | 6 |
-| PDFs retrieved and text-extracted | 6 |
-| Still requiring retrieval | 10 |
+| PDFs retrieved and text-extracted | 8 |
+| Still requiring retrieval | 8 |
 
-The retrieved sources include three empirical papers and three formal/historical theory papers.
+The retrieved sources include three empirical papers and five formal/historical theory papers.
 None empirically estimates the entire claimed mechanism.
 
 ## 5. Available empirical evidence
@@ -103,7 +106,7 @@ in the retrieved empirical evidence.
 
 **FDT causal mechanism: Very low, provisional.** The available full texts contain relevant theory
 and reduced-form policy evidence but no direct empirical test of the full child-work-value chain.
-This rating must be revisited after the 10 missing approved sources are retrieved.
+This rating must be revisited after the eight missing approved sources are retrieved.
 
 ## 9. Provisional verdict
 
@@ -119,7 +122,7 @@ children economically less valuable. It mainly studies other mechanisms.
 The decisive study would connect a binding attendance or child-work restriction to an observed
 decline in child employment and then to parents' completed fertility. Historical staggered reforms
 linked to census fertility and child-employment records are especially valuable. The immediate
-project requirement is retrieval of the 10 approved missing sources listed in the PDF manifest.
+project requirement is retrieval of the eight approved missing sources listed in the PDF manifest.
 
 ## 11. Reproducibility
 
