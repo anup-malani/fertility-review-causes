@@ -71,12 +71,30 @@ despair is D.3.c. Flagged for correction, does not affect this scope.)*
 | `PRIMARY_CARBON_ETHICS` | Ethical concern that an additional child adds carbon emissions / anti-natalism-for-the-planet | Reduced fertility intention or behavior | Primary synthesis |
 | `PRIMARY_ECO_PESSIMISM` | Generalized ecological pessimism / eco-doom about the collective future | Reduced fertility intention or behavior | Primary synthesis |
 | `DESIRE_INDEPENDENCE` | Any of the above | Fertility/intention falls while the *desire* for children is positive or held fixed (fear suppresses a live desire) | Primary / bridge — the value-added cell |
-| `THEORY` | Anti-natalist / eco-ethics philosophy, climate-anxiety psychological construct, without an empirical fertility estimate | No empirical fertility estimate | Theory stream |
+| `ECO_ETHICS_THEORY` | Anti-natalist / eco-ethics philosophy and normative argument about procreation and the planet. Must carry **ecological** content | No empirical fertility estimate | Theory stream |
+| `ANXIETY_CONSTRUCT` | Climate anxiety / eco-distress as the **object** of study — construct development, scale validation, prevalence, latent profiles, predictors | No fertility outcome (climate anxiety is the dependent variable) | Theory stream |
 | `OFF_POSTMATERIALIST_D1a` | Positive self-actualization / autonomy preference, or secular value shift, with no fear content | Fertility | Route to D.1.a |
 | `OFF_CLINICAL_D3a` | General (non-climate-specific) anxiety/depression | Reproductive intention / fertility | Route to D.3.a |
 | `OFF_ECON_C5a` | Personal economic / job / income insecurity as the feared object | Fertility | Route to C.5.a |
-| `OFF_OUTCOME` | Climate anxiety / eco-worry measured with **no** fertility or reproductive-intention outcome | No fertility outcome | Mechanism / context only |
-| `REVERSE` | Parenthood or fertility status affecting climate concern / eco-worry | Climate-attitude outcome | Context, not the effect sought here |
+| `OFF_OTHER` | Non-D.3.b determinant with no sibling-hypothesis home (conflict/war insecurity, partisanship, religious law, gender/care institutions, …) | Fertility | Route out; no sibling queue |
+| `OFF_OUTCOME` | Ecological fear / eco-concern as a determinant of some **other** non-fertility outcome (migration, consumption, politics, mental health) | No fertility outcome | Mechanism / context only |
+| `REVERSE` | Parenthood or fertility **status** affecting climate concern / eco-worry | Climate-attitude outcome | Context, not the effect sought here |
+| `INSUFFICIENT_INFO` | Cannot be routed on the visible record (missing/uninformative abstract) | Unknown | Pairs only with `UNCERTAIN` |
+
+**Taxonomy amendment (Shravan, 2026-07-24), after the A5 wave-1 screen audit.** Wave 1 (200 records,
+5 blinded screeners) exposed four cell-level defects; see `{slug}-screen-wave1-audit.md`. Three changes
+were approved: (G) `INSUFFICIENT_INFO` added, so abstract-less records stop being assigned cells they
+have not earned — under v1 they inflated `THEORY`; (H) `OFF_OTHER` added, so the `OFF_*` routing labels
+stop shipping junk into the D.1.a / D.3.a / C.5.a queues; (J) `THEORY` split into `ECO_ETHICS_THEORY`
+and `ANXIETY_CONSTRUCT`, which also resolves the previously undecidable
+climate-anxiety-as-dependent-variable class. `ECO_ETHICS_THEORY` is narrowed to *ecological*
+anti-natalism — non-ecological (Benatar/Kantian harm-of-existence) anti-natalism routes to `OFF_OTHER`,
+per Wall 2's own logic that the feared object must be specifically ecological.
+
+**Considered and declined (Shravan, 2026-07-24):** widening `REVERSE` to cover parenthood *experience*
+as well as *status*. `REVERSE` stays narrow; reverse-direction papers running through lived experience
+or generativity route to `OFF_OUTCOME`. Both theory cells carry verdict `RELEVANT` and are separated
+downstream — they do **not** count toward empirical recall.
 
 ## The realized-vs-intended level tag (not a routing cell, but mandatory)
 
