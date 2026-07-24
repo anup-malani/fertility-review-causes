@@ -4,7 +4,7 @@
 **Primary mechanism:** Compulsory education makes child work harder, reducing the economic return
 parents expect from an additional child and thereby reducing completed fertility.  
 **Target phenomenon:** First Demographic Transition  
-**Draft status:** Partial full-text draft. Four of 16 RA-approved papers are retrieved; the direct
+**Draft status:** Partial full-text draft. Six of 16 RA-approved papers are retrieved; the direct
 mechanism evidence is not yet fully accessible.
 
 ## 1. The claim
@@ -25,6 +25,12 @@ both costs and returns. A binding schooling requirement removes time from work a
 return side of that calculation. Parents may then substitute from child quantity toward schooling
 and other investments per child.
 
+Hazan and Berdugo provide the most direct formal statement: child labor raises fertility in their
+development-trap model, and a temporary prohibition or compulsory-schooling intervention can
+accelerate movement toward a low-child-labor, low-fertility steady state. Mookherjee, Prina, and Ray
+likewise show how stronger child-labor regulation changes education, occupational composition, and
+steady-state fertility.
+
 The retrieved Greenwood, Seshadri, and Vandenbroucke working paper formalizes a closely related
 child-productivity mechanism, but it also challenges the policy interpretation. In its historical
 account, technological change and rising skill demand explain the decline of child labor, while
@@ -32,7 +38,7 @@ effective child-labor regulation arrived after much of the withdrawal from work 
 occurred. Compulsory-schooling and child-labor laws may therefore be consequences or complements
 of the economic transformation rather than its initiating cause.
 
-Nine additional RA-approved theory/mechanism sources remain unavailable locally. The mechanism
+Seven additional RA-approved theory/mechanism sources remain unavailable locally. The mechanism
 section cannot be considered complete until those sources are retrieved and checked.
 
 ## 3. Search and routing
@@ -53,11 +59,11 @@ question; it does not establish the child-value mechanism.
 | RA-approved distinct papers | 16 |
 | Theory/mechanism papers | 10 |
 | Empirical quantum papers | 6 |
-| PDFs retrieved and text-extracted | 4 |
-| Still requiring retrieval | 12 |
+| PDFs retrieved and text-extracted | 6 |
+| Still requiring retrieval | 10 |
 
-The four retrieved sources are Fort, Schneeweis, and Winter-Ebmer; Geruso and Royer; Cummins; and
-Greenwood, Seshadri, and Vandenbroucke. None directly estimates the entire claimed mechanism.
+The retrieved sources include three empirical papers and three formal/historical theory papers.
+None empirically estimates the entire claimed mechanism.
 
 ## 5. Available empirical evidence
 
@@ -97,7 +103,7 @@ in the retrieved empirical evidence.
 
 **FDT causal mechanism: Very low, provisional.** The available full texts contain relevant theory
 and reduced-form policy evidence but no direct empirical test of the full child-work-value chain.
-This rating must be revisited after the 12 missing approved sources are retrieved.
+This rating must be revisited after the 10 missing approved sources are retrieved.
 
 ## 9. Provisional verdict
 
@@ -113,7 +119,7 @@ children economically less valuable. It mainly studies other mechanisms.
 The decisive study would connect a binding attendance or child-work restriction to an observed
 decline in child employment and then to parents' completed fertility. Historical staggered reforms
 linked to census fertility and child-employment records are especially valuable. The immediate
-project requirement is retrieval of the 12 approved missing sources listed in the PDF manifest.
+project requirement is retrieval of the 10 approved missing sources listed in the PDF manifest.
 
 ## 11. Reproducibility
 
@@ -121,4 +127,3 @@ project requirement is retrieval of the 12 approved missing sources listed in th
 - PDF manifest: `output/compulsory-education-pdf-retrieval-manifest.csv`
 - Extracted evidence: `extraction/compulsory-education-accessible-fulltext-evidence.csv`
 - Preliminary risk of bias: `extraction/compulsory-education-accessible-risk-of-bias-preliminary.csv`
-

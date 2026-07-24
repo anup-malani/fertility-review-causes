@@ -181,6 +181,30 @@ ROWS = [
         "child_value_mechanism_status": "THEORY_RELEVANT_POLICY_CAUSATION_CHALLENGED", "synthesis_status": "THEORY_NARRATIVE",
         "source_locator": "PDF Section 4, especially pp. 27-28", "pdf_path": "literature/pdfs/compulsory-education/W3125141375__technological-progress-and-economic-transformation.pdf",
     },
+    {
+        "paperId": "W1525462723", "title": "Child Labor, Fertility and Economic Growth",
+        "workstream": "CHILD_ECONOMIC_VALUE_THEORY", "fulltext_decision": "INCLUDE_DIRECT_THEORY",
+        "design": "Overlapping-generations growth model", "setting": "Stylized development transition",
+        "reform": "Temporary child-labor prohibition / compulsory schooling", "schooling_first_stage": "Model-imposed policy",
+        "fertility_outcome": "Endogenous fertility in high- and low-child-labor steady states",
+        "effect_summary": "Child labor raises optimal fertility; prohibition accelerates transition from high-child-labor/high-fertility trap to low-child-labor/low-fertility growth path",
+        "persistence_or_rebound": "Policy can move the economy between steady states", "completed_fertility": "MODEL_OUTCOME",
+        "mechanism": "Direct decreased child-labor return and substitution toward education",
+        "child_value_mechanism_status": "DIRECT_FORMAL_THEORY", "synthesis_status": "THEORY_NARRATIVE",
+        "source_locator": "PDF abstract and introduction; policy section", "pdf_path": "literature/pdfs/compulsory-education/W1525462723__child-labor-fertility-economic-growth.pdf",
+    },
+    {
+        "paperId": "W2073343854", "title": "A Theory of Occupational Choice with Endogenous Fertility",
+        "workstream": "CHILD_ECONOMIC_VALUE_THEORY", "fulltext_decision": "INCLUDE_DIRECT_THEORY",
+        "design": "Dynamic general-equilibrium occupational-choice model", "setting": "Stylized steady states",
+        "reform": "Stronger child-labor regulation", "schooling_first_stage": "Comparative static shifts children toward education",
+        "fertility_outcome": "Endogenous steady-state fertility",
+        "effect_summary": "Stronger child-labor regulation shifts skill composition and is associated with lower fertility under the model's steady-state conditions",
+        "persistence_or_rebound": "Steady-state comparative statics", "completed_fertility": "MODEL_OUTCOME",
+        "mechanism": "Regulation changes child labor/education returns and occupational composition",
+        "child_value_mechanism_status": "DIRECT_FORMAL_THEORY", "synthesis_status": "THEORY_NARRATIVE",
+        "source_locator": "PDF abstract, introduction pp. 3-4, and comparative-statics section", "pdf_path": "literature/pdfs/compulsory-education/W2073343854__theory-occupational-choice-endogenous-fertility.pdf",
+    },
 ]
 
 ROB_FIELDS = [

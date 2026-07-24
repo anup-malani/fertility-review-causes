@@ -1079,3 +1079,38 @@ value draft therefore remains partial and its GRADE/demographic verdict cannot b
 - `git diff --check`
 
 ---
+
+# [2026-07-24] — Compulsory-schooling effect extraction and pooling audit
+
+**Agent:** Codex
+**Machine:** Alexandra workspace
+
+### Summary
+
+Retrieved two additional direct theory papers for the child-economic-value mechanism, increasing
+overall accessible coverage to 14/25 and child-value coverage to 6/16. Built a reproducible
+effect-level extraction for the compulsory-schooling tempo stream and audited whether a pooled
+estimate is currently defensible.
+
+### Outputs
+
+- `source/build/goldset/81_build_compulsory_schooling_tempo_effects.py`
+- `extraction/tempo-effects-birth-postponement-compulsory-schooling-effects.csv` (14 effects)
+- `output/tempo-effects-birth-postponement-compulsory-schooling-synthesis-readiness.csv`
+- Updated both chapter drafts, evidence tables, retrieval manifests, handoff, and TICK-031.
+
+### Result and decision gate
+
+No outcome family contains three independent studies with comparable estimates and standard
+errors, so the script deliberately produces no pooled effect. Eleven approved sources remain on
+the institutional/manual acquisition queue: 10 for child economic value and Silles for tempo. The
+next step requires either obtaining those PDFs or an explicit decision to finalize a partial
+child-value draft.
+
+### Verification
+
+- Steps 78-81 rerun successfully: 14/25 PDFs, 14/14 text extractions, 14 evidence rows, 11 empirical
+  risk-of-bias rows, and 14 effect rows.
+- `git diff --check`
+
+---

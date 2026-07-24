@@ -59,9 +59,14 @@ Nine PDFs have been retrieved and text-extracted. The Silles study remains on th
 ## 5. Quantitative synthesis
 
 The direction of the direct attendance effect is consistent: compulsory schooling reduces births
-at ages newly covered by schooling. A single pooled coefficient is not yet appropriate because the
-studies report different age thresholds, probability scales, treatment contrasts, and cumulative
-versus age-specific outcomes. Standard errors still require specification-level extraction.
+at ages newly covered by schooling. The effect-level audit contains 14 estimates from nine
+retrieved studies. Only Wilson currently supplies directly extractable estimates and standard
+errors in a common preferred specification; those three rows come from one study and therefore
+are not independent evidence for pooling. No outcome family has three independent studies with a
+comparable estimate and standard error. A pooled coefficient would consequently create false
+precision across different age thresholds, probability scales, treatment contrasts, and
+cumulative versus age-specific outcomes. The appropriate current synthesis is structured
+quantitative narrative plus age-profile comparison.
 
 The more informative synthesis is the age profile. Geruso and Royer find effects at 16–17 and none
 at 18–19. DeCicca and Krashinsky find effects concentrated at 17–18. Wilson finds a non-monotonic
@@ -87,9 +92,11 @@ on number of children. Thailand documents catch-up after leaving school. These r
 stream relevant to the timing of fertility and teenage-birth policy, but not evidence that it caused
 a comparably large decline in completed fertility.
 
-Tempo-specific demographic scaling remains pending. It should translate the age-specific birth
-reductions into changes in teenage age-specific fertility rates, mean age at first birth, and the
-temporary period-TFR depression. It must not treat the estimates as completed-fertility effects.
+Tempo-specific demographic scaling remains pending because the accessible estimates cannot yet be
+mapped onto a common age-specific fertility-rate scale with sampling uncertainty. It should
+translate the age-specific birth reductions into changes in teenage age-specific fertility rates,
+mean age at first birth, and the temporary period-TFR depression. It must not treat the estimates
+as completed-fertility effects.
 
 ## 8. Preliminary risk of bias and GRADE
 
@@ -126,5 +133,6 @@ tempo scaling.
 - RA-approved stream: `output/tempo-effects-birth-postponement-compulsory-schooling-ra-approved-papers.csv`
 - PDF manifest: `output/compulsory-education-pdf-retrieval-manifest.csv`
 - Extracted evidence: `extraction/compulsory-education-accessible-fulltext-evidence.csv`
+- Effect-level evidence: `extraction/tempo-effects-birth-postponement-compulsory-schooling-effects.csv`
+- Pooling audit: `output/tempo-effects-birth-postponement-compulsory-schooling-synthesis-readiness.csv`
 - Preliminary risk of bias: `extraction/compulsory-education-accessible-risk-of-bias-preliminary.csv`
-

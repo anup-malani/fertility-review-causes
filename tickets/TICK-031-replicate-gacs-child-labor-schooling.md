@@ -25,6 +25,17 @@ run a reproducible production search and screening funnel for the FDT estimand.
 - [ ] Cross-hypothesis lessons and any deviations from the documented GACS prototype are recorded.
 
 ## Log
+- 2026-07-24, Alexandra/Codex: Added reproducible step 81 with 14 specification-level tempo-effect
+  rows and a four-family pooling-readiness audit. No family meets the minimum of three independent
+  studies with comparable estimates and standard errors; no pooled estimate was generated. The
+  tempo draft now reports structured quantitative synthesis as the defensible endpoint pending
+  Silles and further table extraction. The next human gate is acquisition of the 11 queued PDFs or
+  authorization to proceed with a partial 6/16-source child-value chapter.
+- 2026-07-24, Alexandra/Codex: Targeted repository search retrieved Hazan-Berdugo and
+  Mookherjee-Prina-Ray, raising coverage to 14/25 overall and 6/16 in the child-value set. Both are
+  direct formal-theory support for a child-labor-regulation/fertility mechanism. No retrieved
+  empirical paper yet identifies that mechanism. Eleven sources remain queued (10 child-value;
+  one tempo).
 - 2026-07-24, Alexandra/Codex: Automated open-access retrieval and partial full-text synthesis.
   Steps 78-80 now retrieve/validate PDFs, extract cached text, and build verified evidence plus
   preliminary risk-of-bias tables. Coverage is 12/25 distinct approved sources overall, 9/10 for
