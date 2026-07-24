@@ -1,0 +1,202 @@
+[
+  {
+    "paperId": "W4400217632",
+    "title": "Personal and Social Worries Associated with the Likelihood of Having Children",
+    "year": 2024,
+    "doi": "10.1111/padr.12646",
+    "authors": "Kateryna Golovina; Markus Jokela",
+    "venue": "Population and Development Review",
+    "verdict": "RELEVANT",
+    "cell": "PRIMARY_ECO_PESSIMISM",
+    "outcome_level": "REALIZED_FERTILITY",
+    "evidence_type": "observational",
+    "desire_for_children_held_fixed": "no",
+    "route_to": null,
+    "discovery_channels": [
+      "backward_reference",
+      "forward_citation"
+    ],
+    "both_channel": true,
+    "tier": 1,
+    "outcome": "likelihood of becoming a parent",
+    "treatment": "worries about climate change and environmental protection",
+    "reason": "SOEP Cox models show climate-change worry linked to 16 percent lower likelihood of parenthood, net of economic worry."
+  },
+  {
+    "paperId": "W4376638239",
+    "title": "Too worried about the environment to have children? Or more worried about the environment after having children? The reciprocal relationship between environmental concerns and fertility",
+    "year": 2023,
+    "doi": "10.4054/mpidr-wp-2023-023",
+    "authors": "Steffen Peters; Erich Striessnig; Maria Testa; Alessandra Trimarchi; Natalie Nitsche",
+    "venue": null,
+    "verdict": "RELEVANT",
+    "cell": "PRIMARY_ECO_PESSIMISM",
+    "outcome_level": "REALIZED_FERTILITY",
+    "evidence_type": "observational",
+    "desire_for_children_held_fixed": "no",
+    "route_to": null,
+    "discovery_channels": [
+      "backward_reference",
+      "forward_citation"
+    ],
+    "both_channel": true,
+    "tier": 1,
+    "outcome": "transition to first birth, timing, and completed parity by age 40",
+    "treatment": "environmental concern trajectories (GSOEP 1984-2020)",
+    "reason": "Panel test of whether environmental concern predicts realized first-birth quantum and timing."
+  },
+  {
+    "paperId": "W7166509859",
+    "title": "Climate change narratives and first births in the UK",
+    "year": 2026,
+    "doi": "10.21203/rs.3.rs-9482091/v1",
+    "authors": "Ewa Weychert; Daniele Vignoli; Anna Matysiak; Dorota Celińska-Kopczyńska",
+    "venue": "Research Square",
+    "verdict": "RELEVANT",
+    "cell": "PRIMARY_ECO_PESSIMISM",
+    "outcome_level": "REALIZED_FERTILITY",
+    "evidence_type": "observational",
+    "desire_for_children_held_fixed": "unclear",
+    "route_to": null,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "first births",
+    "treatment": "climate change narratives",
+    "reason": "title states the estimand verbatim: climate narratives as determinant of first births"
+  },
+  {
+    "paperId": "W7165518406",
+    "title": "Do Environmentalists Forgo Parenthood? A Life Course Perspective on Fertility Expectations and Behaviors in the <scp>UK</scp>",
+    "year": 2026,
+    "doi": "10.1111/jomf.70095",
+    "authors": "Katya Ivanova; Tobias Rüttenauer",
+    "venue": "Journal of Marriage and the Family",
+    "verdict": "RELEVANT",
+    "cell": "PRIMARY_ECO_PESSIMISM",
+    "outcome_level": "BOTH",
+    "evidence_type": "observational",
+    "desire_for_children_held_fixed": "no",
+    "route_to": null,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "fertility expectations and transition to parenthood",
+    "treatment": "environmentalism index",
+    "reason": "UKHLS panel estimates environmental concern on both stated fertility expectations and realized parenthood."
+  },
+  {
+    "paperId": "W4412670275",
+    "title": "Attitudes towards childbearing, population, and the environment: prevalence, correlates, and connections with fertility outcomes in Sweden",
+    "year": 2025,
+    "doi": "10.1007/s11111-025-00503-9",
+    "authors": "Kirsti M. Jylhä; Martin Kolk; Malcolm Fairbrother",
+    "venue": "Population and Environment",
+    "verdict": "RELEVANT",
+    "cell": "PRIMARY_ECO_PESSIMISM",
+    "outcome_level": "BOTH",
+    "evidence_type": "observational",
+    "desire_for_children_held_fixed": "no",
+    "route_to": null,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "fertility outcomes and childbearing attitudes",
+    "treatment": "climate change worry and eco-reproductive concerns",
+    "reason": "directly estimates climate worry and eco-reproductive concern against Swedish fertility outcomes and childbearing views"
+  },
+  {
+    "paperId": "W4410884918",
+    "title": "The Impact of Air Pollution and Information Access on Women’s Fertility Decisions: Evidence from Thailand",
+    "year": 2025,
+    "doi": "10.1257/pandp.20251127",
+    "authors": "Pasita Chaijaroen; Pallavi Panda",
+    "venue": "AEA Papers and Proceedings",
+    "verdict": "RELEVANT",
+    "cell": "PRIMARY_ECO_PESSIMISM",
+    "outcome_level": "REALIZED_FERTILITY",
+    "evidence_type": "quasi-experimental",
+    "desire_for_children_held_fixed": "no",
+    "route_to": null,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "young women's fertility",
+    "treatment": "PM2.5 exposure operating through information-seeking / climate anxiety",
+    "reason": "IV design routing pollution exposure through climate-anxiety-driven information seeking to lower fertility"
+  },
+  {
+    "paperId": "W4414495777",
+    "title": "The effects of environmentalism on fertility in the United States: changing trends and causality",
+    "year": 2025,
+    "doi": "10.1007/s11111-025-00505-7",
+    "authors": "Frederic Traylor; Youngjin Chae",
+    "venue": "Population and Environment",
+    "verdict": "RELEVANT",
+    "cell": "PRIMARY_ECO_PESSIMISM",
+    "outcome_level": "BOTH",
+    "evidence_type": "observational",
+    "desire_for_children_held_fixed": "no",
+    "route_to": null,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "actual childbearing and ideal family size",
+    "treatment": "environmental support (support for government environmental spending)",
+    "reason": "Estimates the effect of environmental concern on both realized childbearing and stated ideal family size in GSS panels."
+  },
+  {
+    "paperId": "W4365814932",
+    "title": "Personal and social worries associated with the likelihood of having children",
+    "year": 2023,
+    "doi": "10.31235/osf.io/83e4m",
+    "authors": "Kateryna Golovina; Markus Jokela",
+    "venue": null,
+    "verdict": "RELEVANT",
+    "cell": "PRIMARY_ECO_PESSIMISM",
+    "outcome_level": "REALIZED_FERTILITY",
+    "evidence_type": "observational",
+    "desire_for_children_held_fixed": "unclear",
+    "route_to": null,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "likelihood of having a child (Cox hazard)",
+    "treatment": "worries about climate change and environmental protection",
+    "reason": "SOEP panel shows climate and environmental worries lower the hazard of becoming a parent, net of economic worries."
+  },
+  {
+    "paperId": "W2590537621",
+    "title": "A simple endogenous growth model with endogenous fertility and environmental concern",
+    "year": 2017,
+    "doi": "10.1111/sjpe.12125",
+    "authors": "Simone Marsiglio",
+    "venue": "Scottish Journal of Political Economy",
+    "verdict": "RELEVANT",
+    "cell": "PRIMARY_CARBON_ETHICS",
+    "outcome_level": "REALIZED_FERTILITY",
+    "evidence_type": "structural",
+    "desire_for_children_held_fixed": "no",
+    "route_to": null,
+    "discovery_channels": [
+      "backward_reference"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "endogenous fertility / population growth rate",
+    "treatment": "households' concern for environmental quality and their own pollution",
+    "reason": "Growth model in which agents who care about the environment internalise the pollution of added population when choosing fertility."
+  }
+]
