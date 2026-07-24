@@ -2,26 +2,29 @@
 
 **Category:** Economic
 **Hypothesis A:** Compulsory education makes it harder for children to work, lowering their economic value to parents and reducing completed fertility.
-**Hypothesis B:** Compulsory education keeps adolescents in school and directly reduces teenage pregnancy and births.
-**Target phenomena:** Hypothesis A: FDT; Hypothesis B: FDT and SDT
+**Nested tempo stream:** Under `tempo-effects-birth-postponement`, compulsory education keeps adolescents in school and directly reduces teenage pregnancy and births.
+**Target phenomena:** Child-economic-value hypothesis: FDT; compulsory-schooling tempo stream: FDT and SDT
 **Cross-references:** Agricultural mode of production (children's productive value without a law, TICK-030); education and fertility (the quantity-quality tradeoff); old-age security (children as investment assets)
 **Draft status:** Shared evidence-base draft from the RA-approved focused retrieval handoff. It must be separated into one chapter per hypothesis after full-text extraction. Full-text extraction and quantitative pooling are pending.
 **Last updated:** 2026-07-24
 
 This search was originally designed around a combined hypothesis. The project now treats its two
-causal claims as separate hypotheses. The six quantum records are candidates for Hypothesis A, but
+causal claims at different levels. The six quantum records are candidates for the standalone
+child-economic-value hypothesis, but
 they are only reduced-form evidence unless they identify the pathway from compulsory schooling to
-less child work to lower completed fertility. The nine tempo records route to Hypothesis B and test
-the direct effect of school attendance on teenage pregnancy, teenage birth, or age at first birth.
-The shared search files are retained for provenance; the final output will be two chapters.
+less child work to lower completed fertility. The tempo records route to a driver-specific evidence
+stream within the existing `tempo-effects-birth-postponement` hypothesis and test the direct effect
+of school attendance on teenage pregnancy, teenage birth, or age at first birth. The shared search
+files are retained for provenance; the final material will feed the child-economic-value chapter
+and the tempo-postponement chapter.
 
 Two terms carry precise meaning throughout this chapter. "Quantum" fertility is the number of children a woman bears by the end of her childbearing years: completed fertility, children ever born, cohort parity. "Tempo" is the timing of those births: age at first birth, teenage childbearing. A law can change tempo while leaving quantum fixed. It can push a first birth from age 16 to age 19 and still leave the final family the same size. That distinction sets the limits of what this chapter can conclude.
 
-## 1. The two claims
+## 1. The standalone claim and nested tempo stream
 
 Hypothesis A claims that compulsory education reduces completed fertility because required school attendance makes it harder for children to work and lowers the economic return parents receive from an additional child. Its outcome is fertility quantum: births per woman by the end of childbearing.
 
-Hypothesis B claims that compulsory education directly reduces teenage pregnancy and births because adolescents must remain in school. Its outcome is fertility tempo: whether and when a teenage pregnancy or birth occurs. This claim does not require completed fertility to fall; postponed births may be made up later.
+Within the tempo-postponement hypothesis, the compulsory-schooling stream tests whether required enrollment directly reduces teenage pregnancy and births. Its outcome is fertility tempo: whether and when a teenage pregnancy or birth occurs. It does not require completed fertility to fall; postponed births may be made up later.
 
 ## 2. Theoretical mechanism
 
@@ -114,7 +117,7 @@ Most of the studies sit in the SDT window, in already-low-fertility settings. Th
 
 ## 8. GRADE rating
 
-The ratings apply separately to Hypothesis A's completed-fertility claim and Hypothesis B's teenage-birth claim.
+The ratings apply separately to the child-economic-value claim and to the compulsory-schooling evidence stream nested under tempo postponement.
 
 **Pre-modern.** Very low. No treatment existed and no study covers the period.
 
@@ -122,7 +125,7 @@ The ratings apply separately to Hypothesis A's completed-fertility claim and Hyp
 
 **SDT, quantum claim.** Low. Several well-identified studies converge, but they converge on a null or positive completed-fertility effect, which does not support the claim.
 
-**Hypothesis B, teenage-birth claim (FDT and SDT).** Moderate. Multiple regression-discontinuity studies across at least seven countries agree that compulsory schooling delays teenage births through an incapacitation channel. This does not imply an effect on completed fertility, which belongs to Hypothesis A's outcome domain.
+**Compulsory-schooling tempo stream (FDT and SDT).** Moderate. Multiple regression-discontinuity studies across at least seven countries agree that compulsory schooling delays teenage births through an incapacitation channel. This stream contributes causal evidence about one driver to the broader tempo-postponement hypothesis; it does not imply an effect on completed fertility.
 
 ## 9. Provisional routing and verdicts
 
@@ -130,16 +133,16 @@ The ratings apply separately to Hypothesis A's completed-fertility claim and Hyp
 |---|---|---|---|
 | A: child economic value → completed fertility | PM | Very low | Insufficient data |
 | A: child economic value → completed fertility | FDT | Low; direct mechanism evidence absent | Provisionally not significant |
-| B: school attendance → fewer teenage births | FDT | Moderate | Pending tempo-specific scaling |
-| B: school attendance → fewer teenage births | SDT | Moderate | Pending tempo-specific scaling |
+| Tempo postponement—compulsory-schooling stream | FDT | Moderate | Pending tempo-specific scaling |
+| Tempo postponement—compulsory-schooling stream | SDT | Moderate | Pending tempo-specific scaling |
 
-The one-line reading: the existing literature supports Hypothesis B's teenage-birth effect, while it does not yet directly test Hypothesis A's child-economic-value mechanism and does not show a reliable decline in completed fertility.
+The one-line reading: the existing literature supports compulsory schooling as one driver of tempo postponement, while it does not yet directly test the child-economic-value mechanism or show a reliable decline in completed fertility.
 
 ## 10. Open questions and recommended studies
 
 Four gaps would change one or both verdicts if filled.
 
-First, the mechanism gap. No study in the set identifies the child-labor-value channel, the effect of restricting a child's own work on the parent's demand for the next child. A design using a minimum-working-age reform that binds on children's employment, with completed fertility as the outcome, would test Hypothesis A on its own terms rather than through the mother's schooling. Second, the timing gap. The nineteenth-century factory acts and early compulsory-attendance laws have staggered adoption across regions and countries, which supports difference-in-differences on historical parish or census data. Such a study would place credible evidence inside the FDT window for the first time. Third, the completed-fertility gap. The tempo studies follow women only through their twenties. Linking the same reforms to cohort completed fertility would show whether Hypothesis B's delayed teen births are made up later. Fourth, the extraction gap inside this project. Full-text coding of the 15-study focused retrieval handoff, recording each paper's identified channel and whose schooling the law changed, is the immediate next step and is required before any pooled estimate.
+First, the mechanism gap. No study in the set identifies the child-labor-value channel, the effect of restricting a child's own work on the parent's demand for the next child. A design using a minimum-working-age reform that binds on children's employment, with completed fertility as the outcome, would test the standalone hypothesis on its own terms rather than through the mother's schooling. Second, the timing gap. The nineteenth-century factory acts and early compulsory-attendance laws have staggered adoption across regions and countries, which supports difference-in-differences on historical parish or census data. Such a study would place credible evidence inside the FDT window for the first time. Third, the completed-fertility gap. The tempo studies follow women only through their twenties. Linking the same reforms to cohort completed fertility would show whether the compulsory-schooling stream's delayed teen births are made up later. Fourth, the extraction gap inside this project. Full-text coding of the 15-study focused retrieval handoff, recording each paper's identified channel and whose schooling the law changed, is the immediate next step and is required before any pooled estimate.
 
 ## 11. References
 

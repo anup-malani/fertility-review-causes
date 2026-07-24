@@ -21,6 +21,8 @@ fertility quantum and tempo, and route the existing search and draft evidence ac
 - [x] The session log records the split and the next analytical steps for each hypothesis.
 
 ## Log
+- 2026-07-24: Superseded in part by TICK-038. The child-economic-value hypothesis remains
+  standalone; the teenage-birth material is now nested under `tempo-effects-birth-postponement`.
 - 2026-07-24, Alexandra/Codex: Split the master-list entry into
   `compulsory-education-child-economic-value` (quantum) and
   `compulsory-education-teenage-births` (tempo). Reframed the existing chapter as a shared

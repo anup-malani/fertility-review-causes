@@ -1,20 +1,21 @@
 # Handoff — fertility-review-causes
 
-## Compulsory-education hypothesis split — 2026-07-24
+## Compulsory-education routing — 2026-07-24
 
-The former combined `child-labor-laws-and-schooling` hypothesis is now two hypotheses:
-`compulsory-education-child-economic-value` tests whether compulsory education makes child work
-harder, lowers children's economic value to parents, and reduces completed fertility;
-`compulsory-education-teenage-births` tests whether keeping adolescents in school directly reduces
-teenage pregnancy and births. Existing combined-slug search artifacts remain a shared provenance
-set. Route the 6 quantum retrieval records to the economic-value hypothesis, but treat them only as
-reduced-form evidence unless full text identifies the child-work-value channel. Route the 9 tempo
-records to the teenage-birth hypothesis. The current combined chapter is a shared evidence-base
-draft and must become two chapters after full-text extraction.
+The former combined `child-labor-laws-and-schooling` hypothesis now feeds two levels of the master
+framework. `compulsory-education-child-economic-value` remains a standalone quantum hypothesis:
+compulsory education makes child work harder, lowers children's economic value to parents, and may
+reduce completed fertility. Compulsory schooling and teenage births is not a standalone hypothesis;
+it is a driver-specific evidence stream nested under `tempo-effects-birth-postponement`. Existing
+combined-slug search artifacts remain a shared provenance set. Route the 6 quantum retrieval records
+to the economic-value hypothesis, treating them only as reduced-form evidence unless full text
+identifies the child-work-value channel. Route the tempo records to the compulsory-schooling stream
+of the tempo-postponement chapter. The current combined chapter is a shared evidence-base draft that
+will feed those two chapters after full-text extraction.
 
 Implementation has started. Reproducible step 76 now generates two retrieval manifests and two
 study-level extraction sheets. Current routing is 6 candidate studies for the child-economic-value
-workstream and 10 for the teenage-birth workstream; Geruso-Royer appears in both because its
+hypothesis and 10 for the compulsory-schooling tempo stream; Geruso-Royer appears in both because its
 existing record explicitly reports teen and completed fertility. Use
 `extraction/compulsory-education-extraction-guide.md` for controlled values and source-locator/RA
 review conventions. No PDFs have yet been retrieved and all substantive extraction fields are

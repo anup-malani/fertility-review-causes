@@ -923,6 +923,10 @@ language in the body.
 - `git diff --check`
 # [2026-07-24] — Compulsory-education hypothesis split
 
+> Superseded in part later on 2026-07-24: the teenage-birth material was nested as a
+> compulsory-schooling evidence stream under `tempo-effects-birth-postponement`; only the
+> child-economic-value claim remains a standalone hypothesis.
+
 **Agent:** Codex
 **Machine:** Alexandra workspace
 
@@ -960,9 +964,9 @@ sheets, and a controlled-vocabulary extraction guide.
 
 - `source/build/goldset/76_split_compulsory_education_workstreams.py`
 - `output/compulsory-education-child-economic-value-retrieval.csv` (6 candidates)
-- `output/compulsory-education-teenage-births-retrieval.csv` (10 candidates)
+- `output/tempo-effects-birth-postponement-compulsory-schooling-retrieval.csv` (10 candidates)
 - `extraction/compulsory-education-child-economic-value-study-extraction.csv`
-- `extraction/compulsory-education-teenage-births-study-extraction.csv`
+- `extraction/tempo-effects-birth-postponement-compulsory-schooling-study-extraction.csv`
 - `extraction/compulsory-education-extraction-guide.md`
 
 Geruso-Royer is deliberately dual-routed because the existing bibliographic record explicitly
@@ -972,6 +976,38 @@ blank pending PDF review.
 ### Verification
 
 - `PYTHONDONTWRITEBYTECODE=1 python3 source/build/goldset/76_split_compulsory_education_workstreams.py`
+- `git diff --check`
+
+---
+
+# [2026-07-24] — Schooling and teenage births nested under tempo postponement
+
+**Agent:** Codex
+**Machine:** Alexandra workspace
+
+### Summary
+
+Removed `compulsory-education-teenage-births` as a standalone master hypothesis. Compulsory
+schooling now appears as the `COMPULSORY_SCHOOLING_TEENAGE_BIRTHS` driver-specific evidence stream
+within `tempo-effects-birth-postponement`. The child-economic-value/quantum hypothesis remains
+standalone.
+
+### Outputs
+
+- Updated the tempo-postponement entry in `HYPOTHESES.md` with the compulsory-schooling driver,
+  relevant seminal studies, and FDT/SDT coverage.
+- Renamed the tempo retrieval and extraction artifacts to
+  `tempo-effects-birth-postponement-compulsory-schooling-*`.
+- Updated step 76 so generated tempo rows carry hypothesis slug
+  `tempo-effects-birth-postponement` and evidence stream
+  `COMPULSORY_SCHOOLING_TEENAGE_BIRTHS`.
+- Updated the shared draft, extraction guide, handoff, and related tickets.
+
+### Verification
+
+- Step 76 regenerates 6 child-economic-value candidates and 10 compulsory-schooling tempo-stream
+  candidates, with one record shared across workstreams.
+- Routing validation confirms all 10 tempo rows carry the parent hypothesis and nested stream.
 - `git diff --check`
 
 ---

@@ -1,5 +1,5 @@
 # TICK-038: Nest compulsory-schooling teenage births under tempo postponement
-**Status:** in-progress
+**Status:** done
 **Assigned:** Alexandra
 **Parallel-safe:** no
 **Blocks:** --
@@ -16,10 +16,13 @@ status.
 
 ## Acceptance criteria
 
-- [ ] The master list contains no standalone `compulsory-education-teenage-births` hypothesis.
-- [ ] `tempo-effects-birth-postponement` explicitly includes compulsory schooling as a driver-specific evidence stream.
-- [ ] Routing, extraction, chapter, handoff, and ticket documentation use nested-stream terminology.
-- [ ] Generated tempo artifacts remain reproducible and do not lose study-level provenance.
+- [x] The master list contains no standalone `compulsory-education-teenage-births` hypothesis.
+- [x] `tempo-effects-birth-postponement` explicitly includes compulsory schooling as a driver-specific evidence stream.
+- [x] Routing, extraction, chapter, handoff, and ticket documentation use nested-stream terminology.
+- [x] Generated tempo artifacts remain reproducible and do not lose study-level provenance.
 
 ## Log
-<!-- Add completion note when closing. -->
+- 2026-07-24, Alexandra/Codex: Removed the standalone teenage-birth hypothesis and nested its
+  compulsory-schooling evidence under `tempo-effects-birth-postponement`. Renamed the generated
+  tempo retrieval/extraction artifacts, preserved the 10-study routing and dual-routed Geruso-Royer
+  record, and updated the combined draft and project handoffs.

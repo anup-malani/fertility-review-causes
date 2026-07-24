@@ -5,7 +5,7 @@ This is a routing step, not full-text extraction. It creates separate retrieval 
 pre-populated study-level extraction templates for:
 
 1. compulsory education -> lower child economic value -> completed fertility; and
-2. compulsory education -> continued enrollment -> fewer teenage births.
+2. the compulsory-schooling/teenage-birth driver stream nested under tempo postponement.
 
 Studies may appear in both workstreams when the existing record explicitly reports both a quantum
 and a teenage-birth outcome. Blank extraction fields must be completed from full text.
@@ -20,7 +20,9 @@ REPO = HERE.parents[2]
 SOURCE = REPO / "output/child-labor-laws-and-schooling-metaanalysis-doi-retrieval.csv"
 
 A_SLUG = "compulsory-education-child-economic-value"
-B_SLUG = "compulsory-education-teenage-births"
+B_HYPOTHESIS_SLUG = "tempo-effects-birth-postponement"
+B_STREAM_SLUG = "tempo-effects-birth-postponement-compulsory-schooling"
+B_STREAM = "COMPULSORY_SCHOOLING_TEENAGE_BIRTHS"
 
 # The combined handoff assigns Geruso-Royer to quantum because it reports completed fertility,
 # but its abstract also explicitly reports teen fertility. Full text must therefore be screened
@@ -74,9 +76,9 @@ B_FIELDS = IDENTITY_FIELDS + [
 ]
 
 MANIFEST_FIELDS = [
-    "hypothesis_slug", "study_id", "source_retrieval_id", "paper_id", "doi", "doi_url", "title",
+    "hypothesis_slug", "evidence_stream", "study_id", "source_retrieval_id", "paper_id", "doi", "doi_url", "title",
     "authors", "year", "venue", "source_outcome_family", "source_estimand_cell", "route_basis",
-    "also_routed_to_other_hypothesis", "pdf_status",
+    "shared_across_workstreams", "pdf_status",
 ]
 
 
@@ -85,10 +87,11 @@ def read_rows():
         return list(csv.DictReader(handle))
 
 
-def manifest_row(row, slug, index, basis, shared):
+def manifest_row(row, slug, index, basis, shared, evidence_stream=""):
     prefix = "CEV" if slug == A_SLUG else "CETB"
     return {
         "hypothesis_slug": slug,
+        "evidence_stream": evidence_stream,
         "study_id": f"{prefix}-{index:03d}",
         "source_retrieval_id": row["retrieval_id"],
         "paper_id": row["paperId"],
@@ -101,7 +104,7 @@ def manifest_row(row, slug, index, basis, shared):
         "source_outcome_family": row["outcome_family"],
         "source_estimand_cell": row["estimand_cell"],
         "route_basis": basis,
-        "also_routed_to_other_hypothesis": "YES" if shared else "NO",
+        "shared_across_workstreams": "YES" if shared else "NO",
         "pdf_status": "NOT_RETRIEVED",
     }
 
@@ -127,7 +130,7 @@ def extraction_row(manifest):
 def write_csv(path, fields, rows):
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", newline="", encoding="utf-8") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fields)
+        writer = csv.DictWriter(handle, fieldnames=fields, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
 
@@ -158,21 +161,23 @@ def main():
     for index, row in enumerate(b_source, 1):
         shared = row["paperId"] in DUAL_ROUTE
         basis = DUAL_ROUTE.get(row["paperId"], "Tempo record in the RA-approved focused handoff.")
-        b_manifest.append(manifest_row(row, B_SLUG, index, basis, shared))
+        b_manifest.append(manifest_row(
+            row, B_HYPOTHESIS_SLUG, index, basis, shared, evidence_stream=B_STREAM
+        ))
 
     if len(a_manifest) != 6 or len(b_manifest) != 10:
         raise SystemExit(f"Unexpected routing counts: A={len(a_manifest)}, B={len(b_manifest)}")
 
     write_csv(REPO / f"output/{A_SLUG}-retrieval.csv", MANIFEST_FIELDS, a_manifest)
-    write_csv(REPO / f"output/{B_SLUG}-retrieval.csv", MANIFEST_FIELDS, b_manifest)
+    write_csv(REPO / f"output/{B_STREAM_SLUG}-retrieval.csv", MANIFEST_FIELDS, b_manifest)
     write_csv(REPO / f"extraction/{A_SLUG}-study-extraction.csv", A_FIELDS,
               [extraction_row(row) for row in a_manifest])
-    write_csv(REPO / f"extraction/{B_SLUG}-study-extraction.csv", B_FIELDS,
+    write_csv(REPO / f"extraction/{B_STREAM_SLUG}-study-extraction.csv", B_FIELDS,
               [extraction_row(row) for row in b_manifest])
 
     print(f"{A_SLUG}: {len(a_manifest)} candidate studies")
-    print(f"{B_SLUG}: {len(b_manifest)} candidate studies")
-    print(f"dual-routed: {sum(row['also_routed_to_other_hypothesis'] == 'YES' for row in a_manifest)}")
+    print(f"{B_HYPOTHESIS_SLUG} / {B_STREAM}: {len(b_manifest)} candidate studies")
+    print(f"dual-routed: {sum(row['shared_across_workstreams'] == 'YES' for row in a_manifest)}")
 
 
 if __name__ == "__main__":

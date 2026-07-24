@@ -25,6 +25,10 @@ run a reproducible production search and screening funnel for the FDT estimand.
 - [ ] Cross-hypothesis lessons and any deviations from the documented GACS prototype are recorded.
 
 ## Log
+- 2026-07-24, Alexandra/Codex: TICK-038 supersedes the earlier two-hypothesis routing. Compulsory
+  schooling and teenage births is now the `COMPULSORY_SCHOOLING_TEENAGE_BIRTHS` evidence stream
+  nested under `tempo-effects-birth-postponement`, not a standalone hypothesis. The child-economic-
+  value quantum hypothesis remains separate.
 - 2026-07-24, Alexandra/Codex: Started the post-split chapter pipeline. Added reproducible step 76,
   which generates separate retrieval manifests and pre-populated full-text extraction sheets for
   the child-economic-value and teenage-birth hypotheses. The current focused handoff routes 6
@@ -35,7 +39,7 @@ run a reproducible production search and screening funnel for the FDT estimand.
 - 2026-07-24, Alexandra/Codex: The combined hypothesis was split by TICK-032. Quantum records now
   route to `compulsory-education-child-economic-value`, where they count as reduced-form evidence
   unless the child-work-value mechanism is identified. Tempo records route to
-  `compulsory-education-teenage-births`. Existing combined-slug search artifacts remain the shared
+  what was initially named `compulsory-education-teenage-births`. Existing combined-slug search artifacts remain the shared
   provenance record and must not be interpreted as a single estimand.
 - 2026-07-16, Alexandra/Codex: Completed the entire pre-RA cold-start citation screen. Seven
   independently sourced anchors generated a 1,255-record DOI/title-deduplicated citation frame.

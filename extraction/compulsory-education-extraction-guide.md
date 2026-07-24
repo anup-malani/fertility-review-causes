@@ -2,14 +2,14 @@
 
 ## Purpose
 
-The original combined search is a shared discovery source for two hypotheses. Run
+The original combined search supplies one standalone hypothesis and one nested evidence stream. Run
 `source/build/goldset/76_split_compulsory_education_workstreams.py` to regenerate their retrieval
 manifests and blank study-level extraction sheets from the RA-approved focused handoff.
 
 The generated sheets are:
 
 - `compulsory-education-child-economic-value-study-extraction.csv`
-- `compulsory-education-teenage-births-study-extraction.csv`
+- `tempo-effects-birth-postponement-compulsory-schooling-study-extraction.csv`
 
 Do not infer blank fields from titles or abstracts. Complete them from the retrieved full text and
 record a page, table, figure, or appendix locator in the adjacent `_source` field. Under the
@@ -48,9 +48,10 @@ Use these controlled values for `mechanism_directness`:
 The primary outcomes are completed fertility, children ever born, parity, and childlessness.
 Desired fertility is not interchangeable with realized fertility and must be labeled separately.
 
-## Hypothesis B: teenage pregnancy and births
+## Tempo-postponement evidence stream: compulsory schooling and teenage births
 
-The causal chain is:
+This is not a standalone master hypothesis. It is a policy-driver stream under
+`tempo-effects-birth-postponement`. Its causal chain is:
 
 `compulsory education -> continued enrollment -> reduced teenage exposure -> fewer or later teenage births`
 

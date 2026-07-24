@@ -24,7 +24,6 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 
 | Ticket | Title | Owner | Claimed (UTC) | Touches |
 |--------|-------|-------|---------------|---------|
-| [TICK-038](TICK-038-nest-schooling-teen-births-under-tempo.md) | Nest compulsory-schooling teenage births under tempo postponement | Alexandra | 2026-07-24T18:31:34Z | `HYPOTHESES.md`; compulsory-education chapter/extraction/routing docs |
 | [TICK-019](TICK-019-oas-demographic-significance-and-chapter.md) | OAS demographic significance and hybrid chapter draft | Alexandra | 2026-07-17T14:45:00Z | `output/chapters/old-age-security-pension-crowdout.md`; OAS evidence records |
 | [TICK-031](TICK-031-replicate-gacs-child-labor-schooling.md) | Replicate GACS for child-labor laws and compulsory schooling | Alexandra | 2026-07-16T22:00:00Z | `source/build/goldset/`; `literature/search-logs/child-labor-laws-and-schooling-*`; related outputs/status files |
 
@@ -41,6 +40,7 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 
 | Ticket | Title | Closed |
 |--------|-------|--------|
+| [TICK-038](TICK-038-nest-schooling-teen-births-under-tempo.md) | Nest compulsory-schooling teenage births under tempo postponement | 2026-07-24 |
 | [TICK-032](TICK-032-split-compulsory-education-hypotheses.md) | Split compulsory education into value-of-children and teenage-birth hypotheses | 2026-07-24 |
 | [TICK-020](TICK-020-oas-theory-stream.md) | OAS theory stream for JEL-style mechanism section | 2026-07-11 |
 | [TICK-007](TICK-007-gift-shravan-claude-max.md) | Gift Shravan Claude Max | 2026-06-14 |
