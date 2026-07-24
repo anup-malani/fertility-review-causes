@@ -4,8 +4,8 @@
 **Primary mechanism:** Compulsory education makes child work harder, reducing the economic return
 parents expect from an additional child and thereby reducing completed fertility.  
 **Target phenomenon:** First Demographic Transition  
-**Draft status:** Partial full-text draft. Twelve of 16 RA-approved papers are retrieved; the direct
-mechanism evidence is not yet fully accessible.
+**Draft status:** Evidence-complete full-text draft. All 16 RA-approved papers are retrieved and
+incorporated; independent GRADE adjudication and demographic scaling remain.
 
 ## 1. The claim
 
@@ -34,6 +34,14 @@ of children and raises fertility. Takakura supplies important heterogeneous coun
 child labor lowers fertility among unskilled parents but raises it among skilled parents in his
 model, so the aggregate sign need not be uniformly negative.
 
+Emerson and Knabb add an expectations channel: a temporary child-labor ban combined with mandatory
+education can move households from a high-fertility, incomplete-education equilibrium to a
+persistent low-fertility equilibrium. Baland and Robinson are more cautious. Although child labor
+can be inefficient and a ban welfare-improving, its fertility effect is theoretically ambiguous.
+Cigno and Rosati's policy synthesis likewise shows that compulsory education or a partial work
+restriction can establish a self-enforcing higher-education equilibrium, while a total ban may
+require complementary insurance and education policy.
+
 The retrieved Greenwood, Seshadri, and Vandenbroucke working paper formalizes a closely related
 child-productivity mechanism, but it also challenges the policy interpretation. In its historical
 account, technological change and rising skill demand explain the decline of child labor, while
@@ -41,8 +49,10 @@ effective child-labor regulation arrived after much of the withdrawal from work 
 occurred. Compulsory-schooling and child-labor laws may therefore be consequences or complements
 of the economic transformation rather than its initiating cause.
 
-Two additional RA-approved theory/mechanism chapters remain unavailable locally. The mechanism
-section cannot be considered complete until those sources are retrieved and checked.
+Cigno and Rosati's evidence chapter reports historical US estimates in which combined schooling and
+child-work restrictions explain about 10% of the observed fertility decline. This is the closest
+included evidence to the claimed policy mechanism, but the chapter is a secondary synthesis rather
+than a full extraction of the underlying primary study.
 
 ## 3. Search and routing
 
@@ -62,10 +72,10 @@ question; it does not establish the child-value mechanism.
 | RA-approved distinct papers | 16 |
 | Theory/mechanism papers | 10 |
 | Empirical quantum papers | 6 |
-| PDFs retrieved and text-extracted | 12 |
-| Still requiring retrieval | 4 |
+| PDFs retrieved and text-extracted | 16 |
+| Still requiring retrieval | 0 |
 
-The retrieved sources include four empirical papers and eight formal/historical theory papers.
+The retrieved sources include all six empirical papers and all 10 formal/historical theory papers.
 None empirically estimates the entire claimed mechanism.
 
 ## 5. Available empirical evidence
@@ -84,6 +94,16 @@ Cummins studies the 1947 and 1972 English reforms using linked historical regist
 estimated effects on first-marriage fertility are effectively zero, and the analysis rules out a
 substantial negative causal effect. Again, this is evidence about women's own schooling rather than
 the labor value of their future children.
+
+Kan and Lee exploit Taiwan's 1968 extension of compulsory schooling using exact dates of birth and
+whole-population censuses. Their RD estimates show that the reform increased women's education but
+did not change fertility, including completed fertility. Chen and Guo instead find that an
+additional year of reform-induced female education in China reduces total live births by 0.238
+(SE 0.059), without a significant childlessness effect. Their channel analysis emphasizes delayed
+marriage and birth, women's opportunity costs, assortative mating, and child mortality—not the work
+value of children. Lei and coauthors find that exposure to China's law reduces women's desired
+family size by 0.009 child per exposure year but does not measure completed fertility; their
+mechanism is women's opportunity cost and intrahousehold contraceptive bargaining.
 
 Together, the retrieved empirical studies do not directly test the original mechanism. They also do
 not provide a consistent negative reduced-form effect on completed fertility.
@@ -104,9 +124,10 @@ in the retrieved empirical evidence.
 
 ## 8. Provisional GRADE assessment
 
-**FDT causal mechanism: Very low, provisional.** The available full texts contain relevant theory
-and reduced-form policy evidence but no direct empirical test of the full child-work-value chain.
-This rating must be revisited after the four missing approved sources are retrieved.
+**FDT causal mechanism: Very low, evidence-complete but pending independent adjudication.** The full
+approved set contains substantial theory and mixed reduced-form policy evidence but no primary
+empirical study that jointly verifies the compulsory-policy, child-work/value, and completed-
+fertility links.
 
 ## 9. Provisional verdict
 
@@ -117,12 +138,13 @@ This rating must be revisited after the four missing approved sources are retrie
 The present evidence does not show that compulsory education reduced completed fertility by making
 children economically less valuable. It mainly studies other mechanisms.
 
-## 10. Required next evidence
+## 10. Required next analysis
 
 The decisive study would connect a binding attendance or child-work restriction to an observed
 decline in child employment and then to parents' completed fertility. Historical staggered reforms
-linked to census fertility and child-employment records are especially valuable. The immediate
-project requirement is retrieval of the four approved missing sources listed in the PDF manifest.
+linked to census fertility and child-employment records are especially valuable. Within the present
+review, the remaining tasks are independent GRADE adjudication and a sensitivity-bounded FDT scaling
+exercise; no approved full texts remain missing.
 
 ## 11. Reproducibility
 

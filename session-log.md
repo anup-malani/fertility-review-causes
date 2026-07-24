@@ -1155,3 +1155,22 @@ compulsory-schooling tempo set is now available.
 - Remaining: Kan-Lee, two chapters from the 2024 Cigno-Rosati book, and Lei et al.
 
 ---
+
+# [2026-07-24] — Compulsory-education full-text set completed
+
+**Agent:** Codex
+**Machine:** Alexandra workspace
+
+### Summary
+
+Matched the final four unrenamed library files, validated and extracted all PDFs, and incorporated
+Kan-Lee, both Cigno-Rosati chapters, and Lei et al. into the child-value synthesis.
+
+### Result
+
+- Retrieval: 25/25 overall; acquisition queue empty.
+- Workstreams: 10/10 tempo and 16/16 child economic value.
+- Evidence: 25 full-text rows and 15 empirical preliminary risk-of-bias rows.
+- Child-value draft is evidence-complete; independent GRADE adjudication and FDT scaling remain.
+
+---

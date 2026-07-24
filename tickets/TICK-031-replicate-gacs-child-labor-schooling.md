@@ -25,6 +25,11 @@ run a reproducible production search and screening funnel for the FDT estimand.
 - [ ] Cross-hypothesis lessons and any deviations from the documented GACS prototype are recorded.
 
 ## Log
+- 2026-07-24, Alexandra/Codex: Matched and renamed the final four RA-supplied sources (Kan-Lee,
+  Cigno-Rosati chapters 7 and 9, and Lei et al.). Retrieval and extraction are now complete at
+  25/25 overall, 10/10 tempo, and 16/16 child value. Added four evidence rows and two empirical
+  risk-of-bias rows; the child-value draft is evidence-complete but remains pending independent
+  GRADE adjudication and demographic scaling.
 - 2026-07-24, Alexandra/Codex: Identified and safely renamed five RA-supplied library PDFs by
   internal title: Baland-Robinson, Cigno-Rosati chapter 3, Silles, Emerson-Knabb, and Chen-Guo.
   All validate and extract successfully. Coverage is now 21/25 overall, 10/10 tempo, and 12/16
