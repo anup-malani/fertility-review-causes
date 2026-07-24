@@ -1,5 +1,25 @@
 # Handoff — fertility-review-causes
 
+## Compulsory-education full-text automation — 2026-07-24
+
+Steps 78-80 automate OA PDF retrieval, PDF validation, text extraction, verified accessible-source
+evidence, and preliminary risk-of-bias coding. Current coverage is 12/25 distinct RA-approved
+sources: 9/10 compulsory-schooling tempo papers and 4/16 child-economic-value papers. The exact 13-
+source manual/institutional queue is `output/compulsory-education-pdf-acquisition-queue.csv`.
+
+Two current drafts exist:
+- `output/chapters/compulsory-education-child-economic-value.md` is partial. None of the retrieved
+  empirical papers directly identifies the child-work-value mechanism; 12 approved sources remain
+  inaccessible, including nine theory/mechanism papers and three empirical quantum papers.
+- `output/chapters/tempo-effects-birth-postponement.md` contains a substantive compulsory-schooling
+  stream based on 9/10 approved papers. Only Silles remains missing from this stream. It still needs
+  specification-level SE extraction and tempo-specific macro scaling, and the full parent chapter
+  eventually needs other postponement drivers.
+
+Do not finalize GRADE or demographic significance from the partial tables. The next external action
+is RA institutional retrieval of the 13 queued PDFs. After they are placed in
+`literature/pdfs/compulsory-education/` with a `paperId__` filename prefix, rerun steps 78-80.
+
 ## Compulsory-education routing — 2026-07-24
 
 The former combined `child-labor-laws-and-schooling` hypothesis now feeds two levels of the master

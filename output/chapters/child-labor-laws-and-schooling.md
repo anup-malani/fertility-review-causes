@@ -1,5 +1,10 @@
 # Shared Evidence-Base Draft: Compulsory Education and Fertility
 
+> **Superseded as a drafting target (2026-07-24).** This file is retained as the provenance bridge
+> for the original combined search. Current drafts are
+> `output/chapters/compulsory-education-child-economic-value.md` and
+> `output/chapters/tempo-effects-birth-postponement.md`.
+
 **Category:** Economic
 **Hypothesis A:** Compulsory education makes it harder for children to work, lowering their economic value to parents and reducing completed fertility.
 **Nested tempo stream:** Under `tempo-effects-birth-postponement`, compulsory education keeps adolescents in school and directly reduces teenage pregnancy and births.

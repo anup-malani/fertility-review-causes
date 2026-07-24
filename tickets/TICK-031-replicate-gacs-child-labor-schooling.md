@@ -25,6 +25,13 @@ run a reproducible production search and screening funnel for the FDT estimand.
 - [ ] Cross-hypothesis lessons and any deviations from the documented GACS prototype are recorded.
 
 ## Log
+- 2026-07-24, Alexandra/Codex: Automated open-access retrieval and partial full-text synthesis.
+  Steps 78-80 now retrieve/validate PDFs, extract cached text, and build verified evidence plus
+  preliminary risk-of-bias tables. Coverage is 12/25 distinct approved sources overall, 9/10 for
+  the compulsory-schooling tempo stream, and 4/16 for the child-economic-value set. Produced two
+  chapter drafts. Thirteen sources remain on the explicit acquisition queue; 12 belong to the
+  child-value set. Final mechanism adjudication, effect-level pooling, demographic scaling, and
+  GRADE are blocked on those sources and/or later independent review.
 - 2026-07-24, Alexandra/Codex: Reprocessed Alexandra's strict RA relevance decisions into two
   explicit paper sets via step 77. The child-economic-value set contains 16 distinct papers: 10
   theory/mechanism papers and 6 empirical quantum papers flagged as reduced-form pending full-text

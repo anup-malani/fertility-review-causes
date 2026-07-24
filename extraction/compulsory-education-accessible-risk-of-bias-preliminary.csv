@@ -1,0 +1,12 @@
+paperId,design,confounding,selection_or_sorting,treatment_classification,outcome_measurement,missing_data,selective_reporting,overall_preliminary,rationale,status
+W2169373049,Law/cohort quasi-experiment,SERIOUS,MODERATE,MODERATE,LOW,MODERATE,MODERATE,SERIOUS,US law adoption may correlate with state trends; Norway is stronger but estimates need specification-level review.,PRELIMINARY_FULLTEXT
+W2185731654,RD,LOW,LOW,LOW,LOW,LOW,LOW,LOW,"Sharp cohort cutoff, strong first stage, administrative births, extensive falsification; preferred-table verification still pending.",PRELIMINARY_FULLTEXT
+W3006219298,RD,MODERATE,MODERATE,MODERATE,LOW,MODERATE,LOW,MODERATE,Paper cannot fully exclude enrollment manipulation for Roma subgroup; conception-timing evidence strongly supports mechanism.,PRELIMINARY_FULLTEXT
+W4385628385,Donut-hole RD,MODERATE,MODERATE,LOW,LOW,MODERATE,MODERATE,MODERATE,Birth-date heaping motivates donut-hole design; age-specific and subgroup multiplicity require care.,PRELIMINARY_FULLTEXT
+W4412362654,IV staggered DiD,SERIOUS,MODERATE,MODERATE,LOW,MODERATE,MODERATE,SERIOUS,"Exclusion restriction and staggered-policy comparisons are material; estimates identify own-human-capital channels, not pure incapacitation.",PRELIMINARY_FULLTEXT
+W2186769068,Sharp RD,MODERATE,LOW,LOW,MODERATE,MODERATE,MODERATE,MODERATE,"RD is transparent, but household survey fertility measurement and non-monotonic age estimates limit precision.",PRELIMINARY_FULLTEXT
+W2108204833,Cohort policy discontinuity,MODERATE,MODERATE,MODERATE,LOW,MODERATE,MODERATE,MODERATE,Strong policy discontinuity and mechanism pattern; school-start assumptions and cohort trends require specification review.,PRELIMINARY_FULLTEXT
+W2154210580,Compulsory-law IV,MODERATE,MODERATE,LOW,LOW,LOW,LOW,MODERATE,Strong first stage and age-specific falsification pattern; provincial law endogeneity remains a possible concern.,PRELIMINARY_FULLTEXT
+W4409029977,RD,LOW,LOW,LOW,MODERATE,MODERATE,LOW,MODERATE,Large linked sample and robust RD intervals; linkage and marital-fertility measurement remain limitations.,PRELIMINARY_FULLTEXT
+W2411634914,Cross-country IV,MODERATE,MODERATE,MODERATE,LOW,MODERATE,MODERATE,SERIOUS,Multiple reforms and completed-fertility data are strengths; pooled exclusion restriction and heterogeneous reform contexts limit causal comparability.,PRELIMINARY_FULLTEXT
+W3212471012,Fuzzy RD,LOW,MODERATE,LOW,LOW,LOW,LOW,MODERATE,Strong first stage and administrative registers; donut-hole/cohort exclusions and marginal timing estimate warrant caution.,PRELIMINARY_FULLTEXT

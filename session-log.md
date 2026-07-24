@@ -1039,3 +1039,43 @@ unverified.
 - `git diff --check`
 
 ---
+
+# [2026-07-24] — Compulsory-education full-text retrieval and partial drafts
+
+**Agent:** Codex
+**Machine:** Alexandra workspace
+
+### Summary
+
+Automated open-access PDF retrieval, validation, cached text extraction, accessible-source evidence
+coding, and preliminary risk-of-bias assessment. Targeted repository searches increased coverage
+from 7 to 12 of 25 distinct approved sources. Produced two evidence-backed chapter drafts and an
+explicit acquisition queue for the inaccessible remainder.
+
+### Coverage and outputs
+
+- Overall: 12/25 PDFs retrieved and text-extracted; 13 queued.
+- Child-economic-value set: 4/16 retrieved; 12 queued.
+- Compulsory-schooling tempo stream: 9/10 retrieved; Silles queued.
+- `output/chapters/compulsory-education-child-economic-value.md`
+- `output/chapters/tempo-effects-birth-postponement.md`
+- `output/compulsory-education-pdf-retrieval-manifest.csv`
+- `output/compulsory-education-pdf-acquisition-queue.csv`
+- `extraction/compulsory-education-accessible-fulltext-evidence.csv`
+- `extraction/compulsory-education-accessible-risk-of-bias-preliminary.csv`
+
+### Substantive result
+
+The retrieved tempo studies consistently show postponement at compulsory-school ages, often with
+later catch-up or null completed-fertility effects. None of the retrieved empirical papers directly
+tests compulsory education -> reduced child work/value -> lower completed fertility. The child-
+value draft therefore remains partial and its GRADE/demographic verdict cannot be finalized.
+
+### Verification
+
+- Steps 78-80 rerun successfully.
+- Manifest counts validated: 25 total, 12 retrieved, 13 queued.
+- Evidence counts validated: 12 accessible full-text rows and 11 empirical preliminary RoB rows.
+- `git diff --check`
+
+---
