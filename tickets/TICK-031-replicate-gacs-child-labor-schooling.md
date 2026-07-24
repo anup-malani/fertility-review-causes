@@ -25,6 +25,13 @@ run a reproducible production search and screening funnel for the FDT estimand.
 - [ ] Cross-hypothesis lessons and any deviations from the documented GACS prototype are recorded.
 
 ## Log
+- 2026-07-24, Alexandra/Codex: Started the post-split chapter pipeline. Added reproducible step 76,
+  which generates separate retrieval manifests and pre-populated full-text extraction sheets for
+  the child-economic-value and teenage-birth hypotheses. The current focused handoff routes 6
+  candidate studies to the quantum workstream and 10 to the tempo workstream because Geruso-Royer
+  explicitly reports both teen and completed fertility. Added a field guide with controlled
+  mechanism/outcome vocabularies and fail-safe synthesis rules. All extraction fields remain blank
+  pending PDFs; no full-text findings were inferred from abstracts.
 - 2026-07-24, Alexandra/Codex: The combined hypothesis was split by TICK-032. Quantum records now
   route to `compulsory-education-child-economic-value`, where they count as reduced-form evidence
   unless the child-work-value mechanism is identified. Tempo records route to

@@ -944,3 +944,34 @@ existing combined search artifacts as shared provenance and added explicit routi
   extraction and separation into two final chapters.
 
 ---
+
+# [2026-07-24] — Compulsory-education extraction workstreams initialized
+
+**Agent:** Codex
+**Machine:** Alexandra workspace
+
+### Summary
+
+Implemented the first post-split chapter steps without inferring full-text results. Added a
+deterministic routing script, separate retrieval manifests, separate pre-populated extraction
+sheets, and a controlled-vocabulary extraction guide.
+
+### Outputs
+
+- `source/build/goldset/76_split_compulsory_education_workstreams.py`
+- `output/compulsory-education-child-economic-value-retrieval.csv` (6 candidates)
+- `output/compulsory-education-teenage-births-retrieval.csv` (10 candidates)
+- `extraction/compulsory-education-child-economic-value-study-extraction.csv`
+- `extraction/compulsory-education-teenage-births-study-extraction.csv`
+- `extraction/compulsory-education-extraction-guide.md`
+
+Geruso-Royer is deliberately dual-routed because the existing bibliographic record explicitly
+reports both teenage fertility and completed fertility. All substantive extraction cells remain
+blank pending PDF review.
+
+### Verification
+
+- `PYTHONDONTWRITEBYTECODE=1 python3 source/build/goldset/76_split_compulsory_education_workstreams.py`
+- `git diff --check`
+
+---

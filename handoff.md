@@ -12,6 +12,16 @@ reduced-form evidence unless full text identifies the child-work-value channel. 
 records to the teenage-birth hypothesis. The current combined chapter is a shared evidence-base
 draft and must become two chapters after full-text extraction.
 
+Implementation has started. Reproducible step 76 now generates two retrieval manifests and two
+study-level extraction sheets. Current routing is 6 candidate studies for the child-economic-value
+workstream and 10 for the teenage-birth workstream; Geruso-Royer appears in both because its
+existing record explicitly reports teen and completed fertility. Use
+`extraction/compulsory-education-extraction-guide.md` for controlled values and source-locator/RA
+review conventions. No PDFs have yet been retrieved and all substantive extraction fields are
+intentionally blank. The next operational step is PDF retrieval, followed by full-text screening
+and extraction. Separate final PRISMA counts still wait on the broader 1,255-record RA gate and the
+production keyword search.
+
 ## Child-labor laws / compulsory-schooling GACS replication — 2026-07-16
 
 Alexandra has completed the strict focused RA review. The post-RA quantitative retrieval handoff is
