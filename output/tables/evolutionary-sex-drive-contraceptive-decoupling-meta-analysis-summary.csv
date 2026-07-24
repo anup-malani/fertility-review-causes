@@ -1,4 +1,6 @@
 group,k_effects,k_studies,status,pooled_r,r_ci_lower,r_ci_upper,I2_pct,tau2
-overall,1,1,insufficient (<3 studies); reported not pooled,,,,,
+overall,3,2,insufficient (<3 studies); reported not pooled,,,,,
 contraceptive_availability=absent,1,1,insufficient (<3 studies); reported not pooled,,,,,
-sex=male,1,1,insufficient (<3 studies); reported not pooled,,,,,
+contraceptive_availability=present,2,1,insufficient (<3 studies); reported not pooled,,,,,
+sex=female,1,1,insufficient (<3 studies); reported not pooled,,,,,
+sex=male,2,2,insufficient (<3 studies); reported not pooled,,,,,
