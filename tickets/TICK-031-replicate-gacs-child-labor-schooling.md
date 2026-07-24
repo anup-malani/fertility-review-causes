@@ -25,6 +25,11 @@ run a reproducible production search and screening funnel for the FDT estimand.
 - [ ] Cross-hypothesis lessons and any deviations from the documented GACS prototype are recorded.
 
 ## Log
+- 2026-07-24, Alexandra/Codex: Identified and safely renamed five RA-supplied library PDFs by
+  internal title: Baland-Robinson, Cigno-Rosati chapter 3, Silles, Emerson-Knabb, and Chen-Guo.
+  All validate and extract successfully. Coverage is now 21/25 overall, 10/10 tempo, and 12/16
+  child value. Added five evidence rows, two empirical risk-of-bias rows, and three Silles effect
+  rows. Four child-value sources remain absent.
 - 2026-07-24, Alexandra/Codex: Audited published versions for all 11 queued records. Retrieved the
   published Fioroni article and Takakura's repository manuscript corresponding to the 2023
   Economic Modelling article, raising coverage to 16/25 overall and 8/16 for child value. Resolved

@@ -4,7 +4,7 @@
 **Primary mechanism:** Compulsory education makes child work harder, reducing the economic return
 parents expect from an additional child and thereby reducing completed fertility.  
 **Target phenomenon:** First Demographic Transition  
-**Draft status:** Partial full-text draft. Eight of 16 RA-approved papers are retrieved; the direct
+**Draft status:** Partial full-text draft. Twelve of 16 RA-approved papers are retrieved; the direct
 mechanism evidence is not yet fully accessible.
 
 ## 1. The claim
@@ -41,7 +41,7 @@ effective child-labor regulation arrived after much of the withdrawal from work 
 occurred. Compulsory-schooling and child-labor laws may therefore be consequences or complements
 of the economic transformation rather than its initiating cause.
 
-Five additional RA-approved theory/mechanism sources remain unavailable locally. The mechanism
+Two additional RA-approved theory/mechanism chapters remain unavailable locally. The mechanism
 section cannot be considered complete until those sources are retrieved and checked.
 
 ## 3. Search and routing
@@ -62,10 +62,10 @@ question; it does not establish the child-value mechanism.
 | RA-approved distinct papers | 16 |
 | Theory/mechanism papers | 10 |
 | Empirical quantum papers | 6 |
-| PDFs retrieved and text-extracted | 8 |
-| Still requiring retrieval | 8 |
+| PDFs retrieved and text-extracted | 12 |
+| Still requiring retrieval | 4 |
 
-The retrieved sources include three empirical papers and five formal/historical theory papers.
+The retrieved sources include four empirical papers and eight formal/historical theory papers.
 None empirically estimates the entire claimed mechanism.
 
 ## 5. Available empirical evidence
@@ -106,7 +106,7 @@ in the retrieved empirical evidence.
 
 **FDT causal mechanism: Very low, provisional.** The available full texts contain relevant theory
 and reduced-form policy evidence but no direct empirical test of the full child-work-value chain.
-This rating must be revisited after the eight missing approved sources are retrieved.
+This rating must be revisited after the four missing approved sources are retrieved.
 
 ## 9. Provisional verdict
 
@@ -122,7 +122,7 @@ children economically less valuable. It mainly studies other mechanisms.
 The decisive study would connect a binding attendance or child-work restriction to an observed
 decline in child employment and then to parents' completed fertility. Historical staggered reforms
 linked to census fertility and child-employment records are especially valuable. The immediate
-project requirement is retrieval of the eight approved missing sources listed in the PDF manifest.
+project requirement is retrieval of the four approved missing sources listed in the PDF manifest.
 
 ## 11. Reproducibility
 

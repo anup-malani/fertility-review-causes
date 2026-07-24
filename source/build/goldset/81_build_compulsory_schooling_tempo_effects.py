@@ -35,6 +35,9 @@ ROWS = [
     ["W3212471012", "Arendt et al.", "Denmark", "2SLS", "age at first birth", "through age 39", "about 0.5", "", "years", "preferred fuzzy RD", "PDF Table 6 and discussion", "age at first birth", "NO", "marginally significant rounded estimate; different outcome family"],
     ["W4385628385", "Chaijaroen and Panda", "Thailand", "reduced form", "ever birth", "ages 14-15", "-0.04 to -0.05", "", "probability", "preferred donut-hole RD", "PDF Figure 4 discussion, pp. 16-17", "cumulative first-birth probability", "NO", "figure-derived range; standard errors not extracted"],
     ["W4412362654", "Bhattacharjee", "India", "2SLS staggered DiD", "first birth by age 21", "<21", "-0.026", "", "probability", "preferred IV staggered DiD", "PDF Table 4, pp. 15-16", "cumulative first-birth probability", "NO", "standard error not extracted; treatment identifies broader human-capital channel"],
+    ["W2028140859", "Silles", "Great Britain and Northern Ireland", "2SLS", "birth by age 17", "<17", "-0.010", "0.003", "probability per schooling year", "post-contraception birth-cohort polynomial", "Published PDF Table 3, p. 771", "cumulative first-birth probability", "YES", ""],
+    ["W2028140859", "Silles", "Great Britain and Northern Ireland", "2SLS", "birth by age 19", "<19", "-0.037", "0.015", "probability per schooling year", "post-contraception birth-cohort polynomial", "Published PDF Table 3, p. 771", "cumulative first-birth probability", "YES", ""],
+    ["W2028140859", "Silles", "Great Britain and Northern Ireland", "2SLS", "birth by age 20", "<20", "-0.040", "0.016", "probability per schooling year", "post-contraception birth-cohort polynomial", "Published PDF Table 3, p. 771", "cumulative teen motherhood", "YES", ""],
 ]
 
 

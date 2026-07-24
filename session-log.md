@@ -1135,3 +1135,23 @@ nine items still requiring library access.
 - Added the two newly accessible theory papers to the evidence builder and child-value draft.
 
 ---
+
+# [2026-07-24] — RA library PDF intake and extraction
+
+**Agent:** Codex
+**Machine:** Alexandra workspace
+
+### Summary
+
+Matched five unrenamed PDFs by internal title and metadata, renamed them with their stable paper
+IDs, validated their PDF structure, extracted text, and incorporated their evidence. The complete
+compulsory-schooling tempo set is now available.
+
+### Result
+
+- Coverage: 21/25 overall, 10/10 tempo, and 12/16 child economic value.
+- Evidence: 21 full-text rows and 13 empirical preliminary risk-of-bias rows.
+- Tempo extraction: 17 effects; pooling remains unsupported.
+- Remaining: Kan-Lee, two chapters from the 2024 Cigno-Rosati book, and Lei et al.
+
+---

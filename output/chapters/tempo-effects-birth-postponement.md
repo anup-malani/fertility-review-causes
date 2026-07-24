@@ -5,7 +5,7 @@
 transition even if completed cohort fertility changes little.  
 **Driver-specific stream in this draft:** Compulsory schooling and teenage births  
 **Target phenomena:** FDT and SDT  
-**Draft status:** Substantive compulsory-schooling-stream draft. Nine of 10 RA-approved stream papers
+**Draft status:** Substantive compulsory-schooling-stream draft. All 10 RA-approved stream papers
 are retrieved. Other drivers of aggregate postponement still require separate evidence streams.
 
 ## 1. The claim
@@ -34,13 +34,13 @@ first, and whether completed fertility ultimately changes.
 
 The shared compulsory-education search screened 1,255 citation-frame records. Alexandra approved a
 focused tempo set that contains 10 distinct empirical studies after publication-version collapse.
-Nine PDFs have been retrieved and text-extracted. The Silles study remains on the acquisition queue.
+All 10 PDFs have been retrieved and text-extracted.
 
 | Stage | Count |
 |---|---:|
 | RA-approved compulsory-schooling tempo studies | 10 |
-| PDFs retrieved and text-extracted | 9 |
-| Awaiting retrieval | 1 |
+| PDFs retrieved and text-extracted | 10 |
+| Awaiting retrieval | 0 |
 
 ## 4. Included compulsory-schooling studies
 
@@ -55,11 +55,12 @@ Nine PDFs have been retrieved and text-extracted. The Silles study remains on th
 | Arendt, Christensen, and Hjorth-Trolle | Denmark; fuzzy RD | Age at first birth rises about half a year | No effect on number of children; not specifically teen incapacitation |
 | Chaijaroen and Panda | Thailand; donut-hole RD | Ever birth falls 4–5 pp at ages 14–15 and through age 17 | Catch-up after school, significantly higher fertility at age 20 |
 | Bhattacharjee | India; IV staggered DiD | First birth by 21 falls 2.6 pp | Persistent own-human-capital/knowledge channel, not pure incapacitation |
+| Silles | Great Britain and Northern Ireland; compulsory-law IV | Post-contraception IV: birth by 17 falls 1.0 pp and birth by 20 falls 4.0 pp per schooling year | Own-schooling effect; channel not isolated |
 
 ## 5. Quantitative synthesis
 
 The direction of the direct attendance effect is consistent: compulsory schooling reduces births
-at ages newly covered by schooling. The effect-level audit contains 14 estimates from nine
+at ages newly covered by schooling. The effect-level audit contains 17 estimates from all 10
 retrieved studies. Only Wilson currently supplies directly extractable estimates and standard
 errors in a common preferred specification; those three rows come from one study and therefore
 are not independent evidence for pooling. No outcome family has three independent studies with a
@@ -107,8 +108,8 @@ and exclusion restrictions carry the estimate.
 
 **Compulsory-schooling driver stream: Moderate, provisional.** Multiple quasi-experiments across
 countries agree that schooling delays teenage births, and several identify the contemporaneous
-attendance mechanism. Final rating awaits the Silles PDF, specification-level effect extraction,
-and independent GRADE adjudication.
+attendance mechanism. Final rating awaits remaining specification-level effect extraction and
+independent GRADE adjudication.
 
 ## 9. Provisional verdict for this driver
 
@@ -125,8 +126,7 @@ a credible explanation for an equally large reduction in completed fertility.
 The final tempo-postponement chapter must synthesize other upstream drivers—education and career
 returns, marriage postponement, housing and economic constraints, and cultural change—and then
 estimate their combined contribution without double counting. For the compulsory-schooling stream,
-the remaining tasks are retrieval of Silles, effect-level standard-error extraction, and macro
-tempo scaling.
+the remaining tasks are effect-level standard-error extraction and macro tempo scaling.
 
 ## 11. Reproducibility
 
