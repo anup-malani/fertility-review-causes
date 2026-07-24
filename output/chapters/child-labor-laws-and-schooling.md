@@ -1,17 +1,27 @@
-# Chapter 2: Child-Labor Laws and Compulsory Schooling
+# Shared Evidence-Base Draft: Compulsory Education and Fertility
 
 **Category:** Economic
-**Primary mechanism:** Laws that restrict children's work or require school attendance lower the economic return to a child and raise the investment each child needs, so parents choose fewer births.
-**Target phenomena:** PM / FDT / SDT (scoped to the First Demographic Transition)
+**Hypothesis A:** Compulsory education makes it harder for children to work, lowering their economic value to parents and reducing completed fertility.
+**Hypothesis B:** Compulsory education keeps adolescents in school and directly reduces teenage pregnancy and births.
+**Target phenomena:** Hypothesis A: FDT; Hypothesis B: FDT and SDT
 **Cross-references:** Agricultural mode of production (children's productive value without a law, TICK-030); education and fertility (the quantity-quality tradeoff); old-age security (children as investment assets)
-**Draft status:** First full draft from the frozen retrieval set. Full-text extraction and quantitative pooling are pending.
-**Last updated:** 2026-07-17
+**Draft status:** Shared evidence-base draft from the RA-approved focused retrieval handoff. It must be separated into one chapter per hypothesis after full-text extraction. Full-text extraction and quantitative pooling are pending.
+**Last updated:** 2026-07-24
+
+This search was originally designed around a combined hypothesis. The project now treats its two
+causal claims as separate hypotheses. The six quantum records are candidates for Hypothesis A, but
+they are only reduced-form evidence unless they identify the pathway from compulsory schooling to
+less child work to lower completed fertility. The nine tempo records route to Hypothesis B and test
+the direct effect of school attendance on teenage pregnancy, teenage birth, or age at first birth.
+The shared search files are retained for provenance; the final output will be two chapters.
 
 Two terms carry precise meaning throughout this chapter. "Quantum" fertility is the number of children a woman bears by the end of her childbearing years: completed fertility, children ever born, cohort parity. "Tempo" is the timing of those births: age at first birth, teenage childbearing. A law can change tempo while leaving quantum fixed. It can push a first birth from age 16 to age 19 and still leave the final family the same size. That distinction sets the limits of what this chapter can conclude.
 
-## 1. The claim
+## 1. The two claims
 
-Legal limits on child labor and compulsory-schooling mandates reduce completed fertility. The claimed direction runs from a binding law to fewer births per woman. A binding law is a minimum working age, a factory act, a compulsory-attendance rule, or a school-leaving age that changed how much children worked or attended school. Two economic channels carry the effect. A restriction on child work lowers the income a child is expected to bring in. A schooling requirement raises the human-capital investment each child needs. Both lower the net return to an additional child, so the theory predicts lower quantum fertility. This chapter tests whether that predicted fall shows up in credibly identified evidence, and whether it shows up at the time and place of the First Demographic Transition, roughly 1870 to 1965.
+Hypothesis A claims that compulsory education reduces completed fertility because required school attendance makes it harder for children to work and lowers the economic return parents receive from an additional child. Its outcome is fertility quantum: births per woman by the end of childbearing.
+
+Hypothesis B claims that compulsory education directly reduces teenage pregnancy and births because adolescents must remain in school. Its outcome is fertility tempo: whether and when a teenage pregnancy or birth occurs. This claim does not require completed fertility to fall; postponed births may be made up later.
 
 ## 2. Theoretical mechanism
 
@@ -104,7 +114,7 @@ Most of the studies sit in the SDT window, in already-low-fertility settings. Th
 
 ## 8. GRADE rating
 
-The rating applies to the hypothesis's causal claim, that covered laws reduce completed fertility. A separate rating covers the narrower tempo claim, where the evidence is stronger.
+The ratings apply separately to Hypothesis A's completed-fertility claim and Hypothesis B's teenage-birth claim.
 
 **Pre-modern.** Very low. No treatment existed and no study covers the period.
 
@@ -112,23 +122,24 @@ The rating applies to the hypothesis's causal claim, that covered laws reduce co
 
 **SDT, quantum claim.** Low. Several well-identified studies converge, but they converge on a null or positive completed-fertility effect, which does not support the claim.
 
-**Tempo sub-claim (FDT and SDT).** Moderate. Multiple regression-discontinuity studies across at least seven countries agree that compulsory schooling delays teenage births through an incapacitation channel. This is credible but narrower than the hypothesis, and it does not move completed fertility.
+**Hypothesis B, teenage-birth claim (FDT and SDT).** Moderate. Multiple regression-discontinuity studies across at least seven countries agree that compulsory schooling delays teenage births through an incapacitation channel. This does not imply an effect on completed fertility, which belongs to Hypothesis A's outcome domain.
 
-## 9. Verdict
+## 9. Provisional routing and verdicts
 
-| | Causal credibility | Demographic significance |
-|---|---|---|
-| Pre-modern | Very low | Insufficient data |
-| FDT | Low (quantum claim); Moderate (tempo sub-claim) | Not significant for the completed-fertility decline |
-| SDT | Low (quantum claim); Moderate (tempo sub-claim) | Not significant for the completed-fertility decline |
+| Hypothesis | Phenomenon | Causal credibility | Demographic significance |
+|---|---|---|---|
+| A: child economic value → completed fertility | PM | Very low | Insufficient data |
+| A: child economic value → completed fertility | FDT | Low; direct mechanism evidence absent | Provisionally not significant |
+| B: school attendance → fewer teenage births | FDT | Moderate | Pending tempo-specific scaling |
+| B: school attendance → fewer teenage births | SDT | Moderate | Pending tempo-specific scaling |
 
-The one-line reading: child-labor and schooling laws delay births across studies but do not reduce their number, and the credible evidence is too late to bear on the First Demographic Transition it was scoped to explain.
+The one-line reading: the existing literature supports Hypothesis B's teenage-birth effect, while it does not yet directly test Hypothesis A's child-economic-value mechanism and does not show a reliable decline in completed fertility.
 
 ## 10. Open questions and recommended studies
 
-Four gaps would change the verdict if filled.
+Four gaps would change one or both verdicts if filled.
 
-First, the mechanism gap. No study in the set identifies the child-labor-value channel, the effect of restricting a child's own work on the parent's demand for the next child. A design using a minimum-working-age reform that binds on children's employment, with completed fertility as the outcome, would test the hypothesis on its own terms rather than through the mother's schooling. Second, the timing gap. The nineteenth-century factory acts and early compulsory-attendance laws have staggered adoption across regions and countries, which supports difference-in-differences on historical parish or census data. Such a study would place credible evidence inside the FDT window for the first time. Third, the completed-fertility gap. The tempo studies follow women only through their twenties. Linking the same reforms to cohort completed fertility would show whether delayed teen births are made up later, which the current nulls suggest. Fourth, the extraction gap inside this project. Full-text coding of the 15 frozen studies, recording each paper's identified channel and whose schooling the law changed, is the immediate next step and is required before any pooled estimate.
+First, the mechanism gap. No study in the set identifies the child-labor-value channel, the effect of restricting a child's own work on the parent's demand for the next child. A design using a minimum-working-age reform that binds on children's employment, with completed fertility as the outcome, would test Hypothesis A on its own terms rather than through the mother's schooling. Second, the timing gap. The nineteenth-century factory acts and early compulsory-attendance laws have staggered adoption across regions and countries, which supports difference-in-differences on historical parish or census data. Such a study would place credible evidence inside the FDT window for the first time. Third, the completed-fertility gap. The tempo studies follow women only through their twenties. Linking the same reforms to cohort completed fertility would show whether Hypothesis B's delayed teen births are made up later. Fourth, the extraction gap inside this project. Full-text coding of the 15-study focused retrieval handoff, recording each paper's identified channel and whose schooling the law changed, is the immediate next step and is required before any pooled estimate.
 
 ## 11. References
 
@@ -188,7 +199,7 @@ Wilson, T. (2017). Compulsory education and teenage motherhood. University of St
 - Screen report and counts: `literature/search-logs/child-labor-laws-and-schooling-screen-report.md`
 - Strict RA review sheet: `output/child-labor-laws-and-schooling-strict-focused-ra-review.csv`
 - Strict outcome audit: `output/child-labor-laws-and-schooling-strict-outcome-audit.csv`
-- Frozen full-text retrieval list: `output/child-labor-laws-and-schooling-metaanalysis-doi-retrieval.csv`
+- RA-approved focused full-text retrieval handoff: `output/child-labor-laws-and-schooling-metaanalysis-doi-retrieval.csv`
 - Ticket: `tickets/TICK-031-replicate-gacs-child-labor-schooling.md`
 
 Pending before sign-off: full-text extraction with mechanism and whose-schooling coding, risk-of-bias assessment, quantitative pooling of the quantum studies, RA lay-readability check, and PI review.

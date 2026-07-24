@@ -140,14 +140,23 @@ Should we organize it that way, or should we do it the other way around? First, 
 - **cross-ref:** Cultural
 - **notes:** Often blended with q-q; separating direct from quality-investment cost is identification challenge.
 
-### Child Labor Restrictions and Compulsory Schooling
-- **slug:** `child-labor-laws-and-schooling`
-- **claim:** Legal restrictions on child labor and compulsory schooling lower the economic return to children and raise their cost, reducing fertility.
-- **why:** When governments ban child labor and require kids to be in school, children stop being a source of family income and instead become a long-running expense. The whole calculation flips: an extra child no longer pays his or her own way through farm or factory work, so parents want fewer of them.
+### Compulsory Education and the Economic Value of Children
+- **slug:** `compulsory-education-child-economic-value`
+- **claim:** Compulsory education reduces completed fertility by making it harder for children to work, thereby lowering children's economic value to their parents.
+- **why:** When compulsory-attendance rules prevent children from working, families lose part of the income or production an additional child could provide. The reduced economic return to children can lead parents to choose fewer births. Evidence that compulsory schooling changes a prospective mother's own education is only reduced-form evidence for this hypothesis unless it also identifies the child-work-value channel.
 - **phenomena:** FDT
 - **seminal:** Doepke 2004, Doepke and Zilibotti 2005, Hazan and Berdugo 2002, Galor and Moav 2006
-- **cross-ref:** --
-- **notes:** Tightly linked to q-q; policy-driven variation provides identification.
+- **cross-ref:** Compulsory Education and Teenage Births; Mode of Production and Child Economic Value
+- **notes:** Quantum hypothesis. The primary outcome is completed fertility, not birth timing. Tightly linked to q-q; policy-driven variation identifies the law's reduced-form effect but does not by itself identify the child-economic-value mechanism.
+
+### Compulsory Education and Teenage Births
+- **slug:** `compulsory-education-teenage-births`
+- **claim:** Compulsory education reduces teenage births by keeping adolescents in school and limiting the time and circumstances in which pregnancy occurs.
+- **why:** Raising the school-leaving age keeps adolescents enrolled during years when they otherwise face a higher risk of marriage, sexual activity, pregnancy, and first birth. This direct incapacitation effect can delay fertility even if women later make up the postponed births and completed fertility does not change.
+- **phenomena:** FDT, SDT
+- **seminal:** Black, Devereux, and Salvanes 2004; Silles 2010; Kırdar, Dayıoğlu, and Koç 2018; DeCicca and Krashinsky 2019
+- **cross-ref:** Compulsory Education and the Economic Value of Children
+- **notes:** Tempo hypothesis. Primary outcomes are teenage pregnancy, teenage birth, and age at first birth. Completed fertility is a secondary outcome used to test whether postponement changes quantum.
 
 ### Credit Constraints and Liquidity
 - **slug:** `credit-constraints`

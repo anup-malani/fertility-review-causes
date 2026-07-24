@@ -1,5 +1,17 @@
 # Handoff — fertility-review-causes
 
+## Compulsory-education hypothesis split — 2026-07-24
+
+The former combined `child-labor-laws-and-schooling` hypothesis is now two hypotheses:
+`compulsory-education-child-economic-value` tests whether compulsory education makes child work
+harder, lowers children's economic value to parents, and reduces completed fertility;
+`compulsory-education-teenage-births` tests whether keeping adolescents in school directly reduces
+teenage pregnancy and births. Existing combined-slug search artifacts remain a shared provenance
+set. Route the 6 quantum retrieval records to the economic-value hypothesis, but treat them only as
+reduced-form evidence unless full text identifies the child-work-value channel. Route the 9 tempo
+records to the teenage-birth hypothesis. The current combined chapter is a shared evidence-base
+draft and must become two chapters after full-text extraction.
+
 ## Child-labor laws / compulsory-schooling GACS replication — 2026-07-16
 
 Alexandra has completed the strict focused RA review. The post-RA quantitative retrieval handoff is

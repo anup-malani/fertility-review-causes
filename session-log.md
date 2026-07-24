@@ -921,3 +921,26 @@ language in the body.
 
 - `python3 -m unittest source/analysis/test_oas_meta_pipeline.py source/analysis/test_oas_transition_classification.py`
 - `git diff --check`
+# [2026-07-24] — Compulsory-education hypothesis split
+
+**Agent:** Codex
+**Machine:** Alexandra workspace
+
+### Summary
+
+Split the former combined child-labor-laws/compulsory-schooling hypothesis into two causal claims:
+an economic-value/quantum hypothesis and a direct teenage-birth/tempo hypothesis. Preserved the
+existing combined search artifacts as shared provenance and added explicit routing rules for the
+15-study focused retrieval handoff.
+
+### Routing
+
+- Six quantum studies route to `compulsory-education-child-economic-value`; they are reduced-form
+  policy evidence unless they identify compulsory schooling → less child work → lower completed
+  fertility.
+- Nine tempo studies route to `compulsory-education-teenage-births` and test teenage pregnancy,
+  teenage birth, or age at first birth.
+- The existing combined chapter is now labeled a shared evidence-base draft pending full-text
+  extraction and separation into two final chapters.
+
+---

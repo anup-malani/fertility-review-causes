@@ -25,6 +25,11 @@ run a reproducible production search and screening funnel for the FDT estimand.
 - [ ] Cross-hypothesis lessons and any deviations from the documented GACS prototype are recorded.
 
 ## Log
+- 2026-07-24, Alexandra/Codex: The combined hypothesis was split by TICK-032. Quantum records now
+  route to `compulsory-education-child-economic-value`, where they count as reduced-form evidence
+  unless the child-work-value mechanism is identified. Tempo records route to
+  `compulsory-education-teenage-births`. Existing combined-slug search artifacts remain the shared
+  provenance record and must not be interpreted as a single estimand.
 - 2026-07-16, Alexandra/Codex: Completed the entire pre-RA cold-start citation screen. Seven
   independently sourced anchors generated a 1,255-record DOI/title-deduplicated citation frame.
   All 32 blinded title/abstract batches were semantically screened and passed fail-closed schema,
