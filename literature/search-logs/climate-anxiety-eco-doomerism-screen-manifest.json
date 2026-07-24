@@ -1,0 +1,233 @@
+{
+  "slug": "climate-anxiety-eco-doomerism",
+  "stage": "blinded_title_abstract_screen_input",
+  "source": "literature/search-logs/climate-anxiety-eco-doomerism-tier-b-frame.json",
+  "source_sha256": "e0d7212783602ce8211783529f8e3e5b3d8d2e9474ba7faa326fb6cc49e86a5a",
+  "seed": 733,
+  "batch_size": 40,
+  "records": 1170,
+  "batches": 30,
+  "records_with_abstract": 848,
+  "blinded_fields": [
+    "doi",
+    "authors",
+    "venue",
+    "cited_by_count",
+    "discovery_channels",
+    "seed_ids",
+    "gold_status"
+  ],
+  "coverage_verified": true,
+  "manifest": [
+    {
+      "batch": 1,
+      "n": 40,
+      "input": "temp/screen/climate-anxiety-eco-doomerism/batch_001.json",
+      "input_sha256": "4b8215bd531abe4274828b8d071d1289e0d5321f1e1d0fad27aac69906933cd3",
+      "output": "temp/screen/climate-anxiety-eco-doomerism/verdict_001.json"
+    },
+    {
+      "batch": 2,
+      "n": 40,
+      "input": "temp/screen/climate-anxiety-eco-doomerism/batch_002.json",
+      "input_sha256": "df8888f06ec2026819f72edaa6c3c124916ef5ee06ee1d762498ba29e6dd46cb",
+      "output": "temp/screen/climate-anxiety-eco-doomerism/verdict_002.json"
+    },
+    {
+      "batch": 3,
+      "n": 40,
+      "input": "temp/screen/climate-anxiety-eco-doomerism/batch_003.json",
+      "input_sha256": "f5fa80fe28f5dfdb175efa0055509aea25775d5a3866f34b68dc87c4361cddf1",
+      "output": "temp/screen/climate-anxiety-eco-doomerism/verdict_003.json"
+    },
+    {
+      "batch": 4,
+      "n": 40,
+      "input": "temp/screen/climate-anxiety-eco-doomerism/batch_004.json",
+      "input_sha256": "cff26bb62efb434e550223d6f5640f804246142f4cf2d990b16703e91fddba8d",
+      "output": "temp/screen/climate-anxiety-eco-doomerism/verdict_004.json"
+    },
+    {
+      "batch": 5,
+      "n": 40,
+      "input": "temp/screen/climate-anxiety-eco-doomerism/batch_005.json",
+      "input_sha256": "015d5cacad4a01ef209019caa3b9e9de765d07d7fe31038d94a3de499242e067",
+      "output": "temp/screen/climate-anxiety-eco-doomerism/verdict_005.json"
+    },
+    {
+      "batch": 6,
+      "n": 40,
+      "input": "temp/screen/climate-anxiety-eco-doomerism/batch_006.json",
+      "input_sha256": "f973f44d2303dbb9ae421ec8dd1219e112c6f8d519a107f25a44cb0fbaafda5d",
+      "output": "temp/screen/climate-anxiety-eco-doomerism/verdict_006.json"
+    },
+    {
+      "batch": 7,
+      "n": 40,
+      "input": "temp/screen/climate-anxiety-eco-doomerism/batch_007.json",
+      "input_sha256": "2be078bdd72e0c1023738f4a1946c09e5e48a14804113f2f351d9af3d1a65c2c",
+      "output": "temp/screen/climate-anxiety-eco-doomerism/verdict_007.json"
+    },
+    {
+      "batch": 8,
+      "n": 40,
+      "input": "temp/screen/climate-anxiety-eco-doomerism/batch_008.json",
+      "input_sha256": "03c6211792da0916d667f25150f878f34a3c0d8ec8c2eccfe100282f12de3d07",
+      "output": "temp/screen/climate-anxiety-eco-doomerism/verdict_008.json"
+    },
+    {
+      "batch": 9,
+      "n": 40,
+      "input": "temp/screen/climate-anxiety-eco-doomerism/batch_009.json",
+      "input_sha256": "f07a9e9e56a093f3eff901d60198741522a693ad0ce7321ceb43c6e6045b611a",
+      "output": "temp/screen/climate-anxiety-eco-doomerism/verdict_009.json"
+    },
+    {
+      "batch": 10,
+      "n": 40,
+      "input": "temp/screen/climate-anxiety-eco-doomerism/batch_010.json",
+      "input_sha256": "21151f41f0b55c2e4e3bf9a6a79e43be2619c68f84dc795322f97a3fe3a346c2",
+      "output": "temp/screen/climate-anxiety-eco-doomerism/verdict_010.json"
+    },
+    {
+      "batch": 11,
+      "n": 40,
+      "input": "temp/screen/climate-anxiety-eco-doomerism/batch_011.json",
+      "input_sha256": "d9ff5a1c791b9d3447a1f4af22582896fcb9cf9e99a20f05a9677625c71324f6",
+      "output": "temp/screen/climate-anxiety-eco-doomerism/verdict_011.json"
+    },
+    {
+      "batch": 12,
+      "n": 40,
+      "input": "temp/screen/climate-anxiety-eco-doomerism/batch_012.json",
+      "input_sha256": "a14f8429ff65f661e2baa5d88b909633da64d49169851fe3f6e24da2c49fd50f",
+      "output": "temp/screen/climate-anxiety-eco-doomerism/verdict_012.json"
+    },
+    {
+      "batch": 13,
+      "n": 40,
+      "input": "temp/screen/climate-anxiety-eco-doomerism/batch_013.json",
+      "input_sha256": "241ba49ead11a9e4c8286046c6d6f36b4225496d1ae1b58abcc6fa4c5aa9a408",
+      "output": "temp/screen/climate-anxiety-eco-doomerism/verdict_013.json"
+    },
+    {
+      "batch": 14,
+      "n": 40,
+      "input": "temp/screen/climate-anxiety-eco-doomerism/batch_014.json",
+      "input_sha256": "5ae82947731610ad8807aa7feddc27acc93ae7e14d28ed9805429197ced9657a",
+      "output": "temp/screen/climate-anxiety-eco-doomerism/verdict_014.json"
+    },
+    {
+      "batch": 15,
+      "n": 40,
+      "input": "temp/screen/climate-anxiety-eco-doomerism/batch_015.json",
+      "input_sha256": "c8bcf8c441c11b84df31533c3d47455c1ac5f0f842d468a0cce8b1690b5b8af1",
+      "output": "temp/screen/climate-anxiety-eco-doomerism/verdict_015.json"
+    },
+    {
+      "batch": 16,
+      "n": 40,
+      "input": "temp/screen/climate-anxiety-eco-doomerism/batch_016.json",
+      "input_sha256": "4e917b5f77ab43c94226ed626e8d33560c89b8aa6b67e862efe3dfb0077f4799",
+      "output": "temp/screen/climate-anxiety-eco-doomerism/verdict_016.json"
+    },
+    {
+      "batch": 17,
+      "n": 40,
+      "input": "temp/screen/climate-anxiety-eco-doomerism/batch_017.json",
+      "input_sha256": "babea5bc7a703b269b972de9962ab278a73e57020bcb70d2ad71c67739eaf2bb",
+      "output": "temp/screen/climate-anxiety-eco-doomerism/verdict_017.json"
+    },
+    {
+      "batch": 18,
+      "n": 40,
+      "input": "temp/screen/climate-anxiety-eco-doomerism/batch_018.json",
+      "input_sha256": "7ae05f6677d9d22d8c66c6a3d100a9557d0427d30742287660b23f508e58ec7c",
+      "output": "temp/screen/climate-anxiety-eco-doomerism/verdict_018.json"
+    },
+    {
+      "batch": 19,
+      "n": 40,
+      "input": "temp/screen/climate-anxiety-eco-doomerism/batch_019.json",
+      "input_sha256": "f479548b236814d9914ed132ab4f91008cfdd0934311551381da8bb36e6215e2",
+      "output": "temp/screen/climate-anxiety-eco-doomerism/verdict_019.json"
+    },
+    {
+      "batch": 20,
+      "n": 40,
+      "input": "temp/screen/climate-anxiety-eco-doomerism/batch_020.json",
+      "input_sha256": "530523aa85ffb0bcb29e91b949145575827628847dadd746d51741553d203afe",
+      "output": "temp/screen/climate-anxiety-eco-doomerism/verdict_020.json"
+    },
+    {
+      "batch": 21,
+      "n": 40,
+      "input": "temp/screen/climate-anxiety-eco-doomerism/batch_021.json",
+      "input_sha256": "dae7806eecfd26f0ff4165db4b297d3f9458c17a27da9cb606d625c0d8513540",
+      "output": "temp/screen/climate-anxiety-eco-doomerism/verdict_021.json"
+    },
+    {
+      "batch": 22,
+      "n": 40,
+      "input": "temp/screen/climate-anxiety-eco-doomerism/batch_022.json",
+      "input_sha256": "e603443c586781afa50087514212776cb916a6a02873062d7b4cc2c66c1df0cf",
+      "output": "temp/screen/climate-anxiety-eco-doomerism/verdict_022.json"
+    },
+    {
+      "batch": 23,
+      "n": 40,
+      "input": "temp/screen/climate-anxiety-eco-doomerism/batch_023.json",
+      "input_sha256": "b8b853ff19eaf833b87b8c4a6092ba3e7512b2973ae12f2e9d4463a19d228985",
+      "output": "temp/screen/climate-anxiety-eco-doomerism/verdict_023.json"
+    },
+    {
+      "batch": 24,
+      "n": 40,
+      "input": "temp/screen/climate-anxiety-eco-doomerism/batch_024.json",
+      "input_sha256": "775e5145ee5573e8ad5463076745e681ec25d89e00fc5f528342ccce338674c7",
+      "output": "temp/screen/climate-anxiety-eco-doomerism/verdict_024.json"
+    },
+    {
+      "batch": 25,
+      "n": 40,
+      "input": "temp/screen/climate-anxiety-eco-doomerism/batch_025.json",
+      "input_sha256": "cfab3bc97e7aa1abc8ed4b3b15b295de8c60f8b56e52fabefbbfa0464cc49d40",
+      "output": "temp/screen/climate-anxiety-eco-doomerism/verdict_025.json"
+    },
+    {
+      "batch": 26,
+      "n": 40,
+      "input": "temp/screen/climate-anxiety-eco-doomerism/batch_026.json",
+      "input_sha256": "66caa0a33fc88ac7c533953e8472be0eccc3fd6d1eed29f530bfdf6c900a21dc",
+      "output": "temp/screen/climate-anxiety-eco-doomerism/verdict_026.json"
+    },
+    {
+      "batch": 27,
+      "n": 40,
+      "input": "temp/screen/climate-anxiety-eco-doomerism/batch_027.json",
+      "input_sha256": "a97f36fed41c2d439ac505ef4a9c185467926f855541ea21ab1f71488125792e",
+      "output": "temp/screen/climate-anxiety-eco-doomerism/verdict_027.json"
+    },
+    {
+      "batch": 28,
+      "n": 40,
+      "input": "temp/screen/climate-anxiety-eco-doomerism/batch_028.json",
+      "input_sha256": "6eb9b4fc431044013e3f1d125618c41fe824819c407a92dd79a2e83ec85b4813",
+      "output": "temp/screen/climate-anxiety-eco-doomerism/verdict_028.json"
+    },
+    {
+      "batch": 29,
+      "n": 40,
+      "input": "temp/screen/climate-anxiety-eco-doomerism/batch_029.json",
+      "input_sha256": "1a1e9865e03bf2b18929e74104505f0b0c3667bab30a23a56b224bcc14d9785f",
+      "output": "temp/screen/climate-anxiety-eco-doomerism/verdict_029.json"
+    },
+    {
+      "batch": 30,
+      "n": 10,
+      "input": "temp/screen/climate-anxiety-eco-doomerism/batch_030.json",
+      "input_sha256": "49e93bd0d3ab6339329dd023dee1cdfb3ab1da3d1b2042f896817d83890aa1b9",
+      "output": "temp/screen/climate-anxiety-eco-doomerism/verdict_030.json"
+    }
+  ]
+}
