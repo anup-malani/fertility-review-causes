@@ -23,6 +23,13 @@ intentionally blank. The next operational step is PDF retrieval, followed by ful
 and extraction. Separate final PRISMA counts still wait on the broader 1,255-record RA gate and the
 production keyword search.
 
+Alexandra's strict RA-approved relevance sheet has also been split reproducibly by step 77 into two
+paper sets. `output/compulsory-education-child-economic-value-ra-approved-papers.csv` contains 16
+distinct papers (10 theory/mechanism; 6 reduced-form quantum). The quantum papers remain mechanism-
+unverified until full-text review. `output/tempo-effects-birth-postponement-compulsory-schooling-ra-approved-papers.csv`
+contains 10 empirical tempo papers. Geruso-Royer is intentionally in both sets. See
+`output/compulsory-education-ra-approved-mechanism-split.md` for the decision rule and interpretation.
+
 ## Child-labor laws / compulsory-schooling GACS replication — 2026-07-16
 
 Alexandra has completed the strict focused RA review. The post-RA quantitative retrieval handoff is

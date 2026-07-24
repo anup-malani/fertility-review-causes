@@ -25,6 +25,12 @@ run a reproducible production search and screening funnel for the FDT estimand.
 - [ ] Cross-hypothesis lessons and any deviations from the documented GACS prototype are recorded.
 
 ## Log
+- 2026-07-24, Alexandra/Codex: Reprocessed Alexandra's strict RA relevance decisions into two
+  explicit paper sets via step 77. The child-economic-value set contains 16 distinct papers: 10
+  theory/mechanism papers and 6 empirical quantum papers flagged as reduced-form pending full-text
+  mechanism verification. The compulsory-schooling teenage-pregnancy/birth set contains 10
+  empirical tempo papers. Three redundant versions were collapsed; Geruso-Royer is intentionally
+  shared because it reports both teen and completed fertility.
 - 2026-07-24, Alexandra/Codex: TICK-038 supersedes the earlier two-hypothesis routing. Compulsory
   schooling and teenage births is now the `COMPULSORY_SCHOOLING_TEENAGE_BIRTHS` evidence stream
   nested under `tempo-effects-birth-postponement`, not a standalone hypothesis. The child-economic-

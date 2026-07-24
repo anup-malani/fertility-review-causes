@@ -1011,3 +1011,31 @@ standalone.
 - `git diff --check`
 
 ---
+
+# [2026-07-24] — RA-approved compulsory-education papers split by mechanism
+
+**Agent:** Codex
+**Machine:** Alexandra workspace
+
+### Summary
+
+Generated two distinct paper sets from Alexandra's strict relevance-review decisions. The split
+uses RA corrections, collapses redundant bibliographic versions, preserves one substantively
+dual-routed study, and flags quantum policy studies whose child-economic-value mechanism remains
+unverified.
+
+### Outputs
+
+- `source/build/goldset/77_split_ra_approved_compulsory_education_papers.py`
+- `output/compulsory-education-child-economic-value-ra-approved-papers.csv` (16 papers)
+- `output/tempo-effects-birth-postponement-compulsory-schooling-ra-approved-papers.csv` (10 papers)
+- `output/compulsory-education-ra-approved-mechanism-split.md`
+
+### Verification
+
+- Set 1: 10 theory/mechanism + 6 reduced-form quantum papers.
+- Set 2: 10 empirical tempo papers.
+- One shared study: Geruso-Royer.
+- `git diff --check`
+
+---
