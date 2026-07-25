@@ -81,4 +81,5 @@ The split compulsory-education workstreams use the following terminal stages:
 - `83_extract_shanan_primary_evidence.py` validates the 38-page published PDF, caches its text, and
   extracts completed fertility, period fertility, first stages, and the exact 8% decomposition.
 - `84_finalize_compulsory_education_chapter_inputs.py` builds search-flow accounting, the joined
-  included-study table, the Shanan scaling sensitivity interval, and the blank RA readability gate.
+  included-study table, the Shanan scaling sensitivity interval, and the blank RA readability gate
+  with its instructions.
