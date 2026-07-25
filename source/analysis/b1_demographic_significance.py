@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""B.1 demographic-significance and target-period pass (TICK-036).
+"""B.1 demographic-significance and target-period pass (TICK-045).
 
 Places each pooled status-and-reproduction study in a target phenomenon by its observation
 window, then reports a demographic-significance verdict per phenomenon channel.
 
-The pass is deliberately asymmetric, as TICK-036 specifies. The status-and-reproduction
+The pass is deliberately asymmetric, as TICK-045 specifies. The status-and-reproduction
 stream can be dated and classified. The distinctive decoupling claim, that fertility falls
 with the preference for children held fixed, has no identified estimate in the extracted
 set, so it is recorded as unidentified and is never assigned a decline share.

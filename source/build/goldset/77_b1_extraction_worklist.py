@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-"""B.1 TICK-033 step 75: build the full-text extraction worklist.
+"""B.1 TICK-042 step 75: build the full-text extraction worklist.
 
 Joins the PDFs that have actually landed in `literature/pdfs/<slug>/` (named in the
 `W<openalex_id>__<slug>.pdf` convention laid down by `74_b1_ingest_pdfs.py`) against
 the frozen estimand-ready screening set, and reports which of them still owe an
 effect-size extraction.
 
-The output is the RA/PI worklist for TICK-033: one row per landed PDF, ordered so
+The output is the RA/PI worklist for TICK-042: one row per landed PDF, ordered so
 that the poolable core (PROXIMATE_ULTIMATE, the status -> reproductive-success
 dissociation cell that Section 6 of the chapter is waiting on) comes first.
 
@@ -162,13 +162,13 @@ def main() -> None:
     by_cell = Counter(r["cell"] or "(unmatched)" for r in rows)
 
     # Which estimand-ready papers are still missing a PDF, by cell -- this is what
-    # remains of TICK-032 retrieval, and it bounds how large the pool can get.
+    # remains of TICK-041 retrieval, and it bounds how large the pool can get.
     missing_by_cell = Counter(
         r["cell"] for pid, r in screen.items() if pid not in landed
     )
 
     lines = [
-        f"# B.1 full-text extraction worklist (TICK-033)",
+        f"# B.1 full-text extraction worklist (TICK-042)",
         "",
         f"- PDFs landed in convention: **{len(rows)}**",
         f"- estimand-ready set: **{len(screen)}** papers; "

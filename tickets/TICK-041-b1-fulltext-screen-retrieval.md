@@ -1,8 +1,8 @@
-# TICK-032: B.1 full-text screen and retrieval reconciliation
+# TICK-041: B.1 full-text screen and retrieval reconciliation
 **Status:** partial — blocked on human library retrieval (automated ceiling reached at 20/95)
 **Assigned:** any
 **Parallel-safe:** no
-**Blocks:** TICK-033
+**Blocks:** TICK-042
 **Blocked by:** none (frozen screen set exists)
 **Touches:** literature/pdfs/evolutionary-sex-drive-contraceptive-decoupling/, extraction/evolutionary-sex-drive-contraceptive-decoupling-fulltext-screen.csv
 
@@ -21,7 +21,7 @@ the frozen screen, and confirm each retrieved study still belongs to its assigne
 
 ## Log
 - 2026-07-25 (Claude): **This ticket is the binding constraint on the whole B.1 chapter and should not
-  be closed.** Downstream work (TICK-033/034/035/036) was completed on the 20 PDFs that could be got
+  be closed.** Downstream work (TICK-042/034/035/036) was completed on the 20 PDFs that could be got
   automatically, which yielded 5 extractable studies. So the chapter's pooled estimate rests on 5 of
   the 52 status-and-reproduction studies the frozen screen identified — a 10% sample of the intended
   pool, chosen by what happens to be open-access rather than at random. Open-access availability

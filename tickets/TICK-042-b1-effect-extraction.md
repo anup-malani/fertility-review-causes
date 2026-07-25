@@ -1,9 +1,9 @@
-# TICK-033: B.1 status-fertility effect extraction
-**Status:** done (for the retrieved set; bounded by TICK-032 retrieval)
+# TICK-042: B.1 status-fertility effect extraction
+**Status:** done (for the retrieved set; bounded by TICK-041 retrieval)
 **Assigned:** any
 **Parallel-safe:** no
-**Blocks:** TICK-034, TICK-035
-**Blocked by:** TICK-032
+**Blocks:** TICK-043, TICK-044
+**Blocked by:** TICK-041
 **Touches:** extraction/evolutionary-sex-drive-contraceptive-decoupling-studies.csv, extraction/evolutionary-sex-drive-contraceptive-decoupling-effects.csv
 
 ## Description
@@ -24,9 +24,9 @@ with its uncertainty and page/table locator.
 
 ## Log
 - 2026-07-25 (Claude): extraction closed out at **17 effect rows over 5 in-pool studies** (10 in-pool
-  rows, 7 marked `exclude=yes` and routed off-pool). This is the set the TICK-034/035/036 results rest
-  on. It is bounded by retrieval, not by extraction effort: TICK-032 reached 20 of 95 PDFs, so the
+  rows, 7 marked `exclude=yes` and routed off-pool). This is the set the TICK-043/035/036 results rest
+  on. It is bounded by retrieval, not by extraction effort: TICK-041 reached 20 of 95 PDFs, so the
   pooled estimate covers 5 of the 52 status-and-reproduction studies the frozen screen identified.
-  Reopening TICK-032 (library retrieval) is what would widen it.
+  Reopening TICK-041 (library retrieval) is what would widen it.
 - 2026-07-22 (Claude, prototype): built the effects table `extraction/evolutionary-sex-drive-contraceptive-decoupling-effects.csv` (schema per extraction/schema.md) on the 20 retrieved PDFs. 8 effect rows: 1 fully extracted (von Rueden Zr=0.19 [0.09,0.31], contraception absent, male), 3 with direction+page locators but effect pending table extraction (Zhang China men+/women-, Hopcroft US men+, all `needs_pi=yes`), 4 routed off-pool (Skirbekk review, Bolund-Lummaa heritability, Lidborg dimorphism-MA external benchmark, Gutierrez pending). Exact table coefficients NOT guessed. Awaits Zotero retrieval of the missing 42 status-and-reproduction DOIs + RA table extraction.
 

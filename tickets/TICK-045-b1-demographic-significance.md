@@ -1,9 +1,9 @@
-# TICK-036: B.1 demographic-significance and target-period pass
+# TICK-045: B.1 demographic-significance and target-period pass
 **Status:** done
 **Assigned:** any
 **Parallel-safe:** no
-**Blocks:** TICK-037
-**Blocked by:** TICK-034, TICK-035
+**Blocks:** TICK-046
+**Blocked by:** TICK-043, TICK-044
 **Touches:** extraction/evolutionary-sex-drive-contraceptive-decoupling-target-period-relevance.csv, output/tables/evolutionary-sex-drive-contraceptive-decoupling-demographic-significance.csv
 
 ## Description

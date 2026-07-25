@@ -1,9 +1,9 @@
-# TICK-034: B.1 risk-of-bias assessment
+# TICK-043: B.1 risk-of-bias assessment
 **Status:** done
 **Assigned:** any
-**Parallel-safe:** yes (with TICK-035)
-**Blocks:** TICK-036
-**Blocked by:** TICK-033
+**Parallel-safe:** yes (with TICK-044)
+**Blocks:** TICK-045
+**Blocked by:** TICK-042
 **Touches:** extraction/evolutionary-sex-drive-contraceptive-decoupling-risk-of-bias.csv
 
 ## Description
@@ -26,4 +26,4 @@ that the two society types differ on many dimensions beyond contraception.
   **Ratings: 4 of 5 serious, 1 moderate** (von Rueden W2507848855). The serious ratings are driven by
   the confounding domain, as anticipated: these are observational status-fertility associations with no
   quasi-experimental variation anywhere in the extracted set. This is the input that caps the GRADE
-  rating downstream, and it should be read alongside the k=1 leave-one-out fragility noted in TICK-037.
+  rating downstream, and it should be read alongside the k=1 leave-one-out fragility noted in TICK-046.

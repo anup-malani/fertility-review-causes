@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""TICK-035 (prototype): B.1 status-fertility meta-analysis pipeline.
+"""TICK-044 (prototype): B.1 status-fertility meta-analysis pipeline.
 
 Pools the association between an evolutionary status/wealth predictor and reproductive
 success (number of children), moderated by contraceptive availability and sex. This is the

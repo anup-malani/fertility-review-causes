@@ -1,9 +1,9 @@
-# TICK-037: B.1 chapter finalization and PI review
+# TICK-046: B.1 chapter finalization and PI review
 **Status:** awaiting PI review (RA work complete)
 **Assigned:** any
 **Parallel-safe:** no
 **Blocks:** none
-**Blocked by:** TICK-036
+**Blocked by:** TICK-045
 **Touches:** output/chapters/evolutionary-sex-drive-contraceptive-decoupling.md, output/chapters/evolutionary-sex-drive-contraceptive-decoupling-pi-review v1.md
 
 ## Description
@@ -15,9 +15,9 @@ pending placeholders (the Section 6 pooled paragraph and the risk-of-bias summar
 results and takes the chapter through Anup's review.
 
 ## Acceptance criteria
-- [x] Section 6 pending paragraph replaced with the project-native pooled estimate from TICK-035.
-- [x] Risk-of-bias summary (Section 9) reflects the TICK-034 ratings.
-- [x] Demographic-significance verdicts (Section 7, 10.1) reconciled with the TICK-036 table.
+- [x] Section 6 pending paragraph replaced with the project-native pooled estimate from TICK-044.
+- [x] Risk-of-bias summary (Section 9) reflects the TICK-043 ratings.
+- [x] Demographic-significance verdicts (Section 7, 10.1) reconciled with the TICK-045 table.
 - [x] chapter-writing-style-guide.md and stop-slop pass re-run after the numbers land.
 - [x] PI-review packet created; the honest verdict (distinctive decoupling claim unidentified) is preserved.
 - [ ] Anup's review returned and v1 responses applied. **This is the remaining step and it is not RA work.**

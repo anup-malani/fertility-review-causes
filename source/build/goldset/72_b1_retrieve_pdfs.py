@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""TICK-032: retrieve open-access PDFs for the B.1 estimand-ready pooling set.
+"""TICK-041: retrieve open-access PDFs for the B.1 estimand-ready pooling set.
 
 Prioritizes the status-and-reproduction (PROXIMATE_ULTIMATE) stream, which is the
 chapter's poolable cell. Resolves each study's open-access PDF via OpenAlex, downloads

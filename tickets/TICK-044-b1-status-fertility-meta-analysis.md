@@ -1,9 +1,9 @@
-# TICK-035: B.1 status-fertility meta-analysis (moderated by contraceptive availability)
+# TICK-044: B.1 status-fertility meta-analysis (moderated by contraceptive availability)
 **Status:** done
 **Assigned:** any
-**Parallel-safe:** yes (with TICK-034)
-**Blocks:** TICK-036
-**Blocked by:** TICK-033
+**Parallel-safe:** yes (with TICK-043)
+**Blocks:** TICK-045
+**Blocked by:** TICK-042
 **Touches:** source/analysis/b1_meta_pipeline.py, output/tables/evolutionary-sex-drive-contraceptive-decoupling-meta-analysis-summary.csv
 
 ## Description
@@ -44,7 +44,7 @@ and should be cited as an external benchmark, not silently re-derived.
   (2) The headline moderator test — absent versus present contraception — **could not be run**: only one
   study has a contraception-absent population, so the conservative rule correctly refused to pool it.
   The contrast the hypothesis actually predicts therefore remains untested at k=1 (this is DECISION 3 in
-  the TICK-037 PI packet). (3) Leave-one-out shows significance in each sex cell rests on a single
+  the TICK-046 PI packet). (3) Leave-one-out shows significance in each sex cell rests on a single
   study. The chapter's "consistent direction, not a precise magnitude" wording is the defensible claim.
 - 2026-07-22 (Claude, prototype): built `source/analysis/b1_meta_pipeline.py` (Fisher-z harmonization, DerSimonian-Laird random effects, back-transform to r, subgroup pools by contraceptive_availability and sex, conservative >=3-study rule) + `test_b1_meta_pipeline.py` (10 tests, all pass; RE math checked against hand-computed fixtures). Ran on the real effects CSV: `poolable now: 1 | pending extraction: 4` -> every pool correctly "insufficient (<3 studies); reported not pooled". Output `output/tables/…-meta-analysis-summary.csv`; note `output/…-meta-analysis-prototype.md`. Pipeline proven by tests; pooled Section-6 estimate lands when extraction completes. Lidborg 2020/2022 stays an external benchmark (dimorphism != status), not pooled in.
 

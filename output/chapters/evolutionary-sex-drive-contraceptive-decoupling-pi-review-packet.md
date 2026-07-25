@@ -4,7 +4,7 @@
 **From:** Shravan (RA)
 **Date:** 2026-07-25
 **Chapter:** `output/chapters/evolutionary-sex-drive-contraceptive-decoupling.md`
-**Ticket:** TICK-037
+**Ticket:** TICK-046
 
 This packet is the reviewable summary of every judgement call behind the chapter's numbers. It is
 organized so you can sign off on the chapter without re-deriving the pipeline, and so the decisions

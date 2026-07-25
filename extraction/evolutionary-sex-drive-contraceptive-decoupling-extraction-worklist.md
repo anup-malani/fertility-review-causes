@@ -1,4 +1,4 @@
-# B.1 full-text extraction worklist (TICK-033)
+# B.1 full-text extraction worklist (TICK-042)
 
 - PDFs landed in convention: **51**
 - estimand-ready set: **95** papers; **51** of them have a PDF

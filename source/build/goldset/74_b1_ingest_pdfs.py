@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-74_b1_ingest_pdfs.py — B.1 (TICK-032/033). Identify and rename batch-installed PDFs.
+74_b1_ingest_pdfs.py — B.1 (TICK-041/033). Identify and rename batch-installed PDFs.
 
 The RA batch-installs PDFs into literature/pdfs/{slug}/ under whatever names their retrieval tool
 produced (Zotero author-year, numeric dumps, etc.). This script identifies each one from its OWN

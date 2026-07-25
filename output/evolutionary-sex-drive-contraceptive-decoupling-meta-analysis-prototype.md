@@ -1,4 +1,4 @@
-# Status-fertility meta-analysis — prototype note (TICK-033/035)
+# Status-fertility meta-analysis — prototype note (TICK-042/035)
 
 **Status:** PROTOTYPE on partial data (20/95 PDFs retrieved; 10/52 status-and-reproduction). Numbers
 below are illustrative of the machinery, not the chapter's finding. The pooled estimate for Section 6

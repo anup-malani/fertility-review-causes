@@ -210,7 +210,7 @@ The steps still outstanding are the retrieval of additional contraception-absent
 - Study windows with quoted source sentences: `extraction/evolutionary-sex-drive-contraceptive-decoupling-target-period-relevance.csv`
 - Demographic significance and GRADE verdicts: `source/analysis/b1_demographic_significance.py`; outputs `output/tables/evolutionary-sex-drive-contraceptive-decoupling-{demographic-significance,grade-verdicts}.csv`
 - Unit tests for the analysis code: `source/analysis/test_b1_{meta_pipeline,demographic_significance}.py`, run with `python3 <file>` from `source/analysis`
-- Finalization ticket chain (retrieval, extraction, risk of bias, meta-analysis, demographic significance): TICK-032 through TICK-037
+- Finalization ticket chain (retrieval, extraction, risk of bias, meta-analysis, demographic significance): TICK-041 through TICK-046
 - Principal-investigator review packet: `output/chapters/evolutionary-sex-drive-contraceptive-decoupling-pi-review-packet.md`
 - Run-state note: memory `b1-decoupling-run-state.md`
 

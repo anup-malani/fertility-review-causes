@@ -3,7 +3,7 @@
 
 Fixtures are hand-built windows rather than the real extraction, so the window arithmetic is
 checked against cases worked out by hand and not against the code's own output. The FDT timing
-test is the load-bearing one: TICK-036 requires that argument to come from dates, so a
+test is the load-bearing one: TICK-045 requires that argument to come from dates, so a
 regression that silently dated a study into the transition window has to fail here.
 """
 
@@ -98,7 +98,7 @@ class TestVarianceExplained(unittest.TestCase):
 
 
 class TestDistinctiveClaimNeverGetsAShare(unittest.TestCase):
-    """TICK-036 acceptance criterion: the distinctive claim is unidentified, not scored."""
+    """TICK-045 acceptance criterion: the distinctive claim is unidentified, not scored."""
 
     def test_distinctive_row_is_unidentified_and_empty(self):
         sig_rows, grade_rows, _ = d.run()
