@@ -10,7 +10,8 @@ This packet is the reviewable summary of every judgement call behind the chapter
 organized so you can sign off on the chapter without re-deriving the pipeline, and so the decisions
 that are genuinely yours are separated from the ones already settled by the protocol.
 
-Six items need your decision. They are marked **DECISION** and collected in Section 7.
+Six items are marked **DECISION** and collected in Section 7. One of them, DECISION 3, was
+resolved by Shravan on 2026-07-25 and is recorded there as closed; five remain open.
 
 ---
 
@@ -111,10 +112,24 @@ absent and attenuates where it is present.
 - Contraception **absent**: r = +0.19 (von Rueden and Jaeggi, one study)
 - Contraception **present**, male: r = +0.071, CI 0.013 to 0.129 (four studies)
 
-The direction matches the prediction and the gap is not small. But this compares one estimate
-against a pool of four, not two pooled cells, so it is a suggestive contrast rather than a test, and
-the conservative floor of three studies per cell means the absent cell is reported and not pooled.
-The chapter currently withholds this contrast from the reader. See DECISION 3.
+The direction matches the prediction and the gap is not small: the association is roughly two and a
+half times larger where contraception is absent.
+
+It is not a test of the moderator, for two reasons, and the second is the one that binds. The first is
+precision: this compares one estimate against a pool of four, and the conservative floor of three
+studies per cell means the absent cell is reported rather than pooled. The second is confounding, and
+it would survive more studies. The absent estimate comes from non-industrial societies and the present
+estimates from modern administrative and survey samples, and those populations differ in mortality,
+marriage systems, subsistence, and status measurement as well as in contraception. Retrieving more
+natural-fertility studies would tighten the left-hand number and would still leave a
+non-industrial-versus-modern comparison. Identifying the moderator needs variation in contraceptive
+access *within* an otherwise similar population, which nothing in this evidence base provides.
+
+**RESOLVED (Shravan, 2026-07-25): report it, option (b).** Section 6 now sets out the contrast and
+then both reasons it is not a test, leading with confounding rather than sample size, since a reader
+will supply the small-sample caveat themselves and is less likely to supply the other one. Sections 1,
+10, 12 and the appendix were reconciled so that no passage still attributes the missing identification
+to the one-study cell alone.
 
 Note also that the present-cell male association remains **positive and significant**. The strong
 form of the decoupling prediction, that the link should attenuate to zero under contraception, is not
@@ -203,12 +218,12 @@ assumption and include with a sensitivity check. *My recommendation: (a). The po
 that one converted estimate under a debatable assumption would carry real weight, and the narrative
 citation gets the corroboration without the conversion risk.*
 
-**DECISION 3. Report the absent-versus-present contrast?** Section 3.3 gives +0.19 (k = 1) against
-+0.071 (k = 4), directionally exactly as the hypothesis predicts. The chapter currently withholds it
-because one study is not a cell. Options: (a) keep withholding, (b) report descriptively with the
-k = 1 caveat stated in the same sentence. *My recommendation: (b). Withholding a directionally
-confirming contrast because it is underpowered risks looking like we buried the one result favorable
-to the hypothesis. Reporting it with the caveat is more honest in both directions.*
+**DECISION 3. Report the absent-versus-present contrast? RESOLVED, reported.** Section 3.3 gives
++0.19 (k = 1) against +0.071 (k = 4), directionally exactly as the hypothesis predicts. Shravan's call
+on 2026-07-25 was to report it descriptively rather than withhold it, and the chapter has been updated
+accordingly. The caveat is framed around confounding rather than sample size, because confounding is
+the binding limitation and is the one that more retrieval cannot fix. Anup may still wish to review the
+wording in Section 6, but no further decision is outstanding.
 
 **DECISION 4. Fieder within-study aggregation.** Fieder 2005 reports Spearman correlations
 separately for six five-year age classes (male +0.07 to +0.22, female −0.10 to −0.27). I entered the
