@@ -1,0 +1,7 @@
+rater,claim,target_phenomenon,grade,demographic_significance,pi_escalation,reason_summary
+1,Decreased child economic value,FDT,VERY_LOW,INSUFFICIENT_DATA,NO,"Theory is plausible but heterogeneous; empirical studies do not identify the child-work-value mediator; secondary 10% claim is unverified"
+2,Decreased child economic value,FDT,VERY_LOW,INSUFFICIENT_DATA,NO,"Severe mechanism indirectness and inconsistent signs; no replicated natural experiment directly links child value to completed fertility"
+3,Decreased child economic value,FDT,VERY_LOW,INSUFFICIENT_DATA,NO,"No quasi-experiment identifies policy to child work/value to completed fertility; no verified decomposition or scaling estimate"
+1,Decreased teenage pregnancy / birth postponement,FDT_SDT_DRIVER,MODERATE,INSUFFICIENT_DATA,NO,"Multiple quasi-experiments converge on early-birth delay; heterogeneity and catch-up prevent High rating and aggregate scaling"
+2,Decreased teenage pregnancy / birth postponement,FDT_SDT_DRIVER,MODERATE,INSUFFICIENT_DATA,NO,"Replicated RD and IV evidence across settings; residual bias and heterogeneous ages/scales constrain certainty"
+3,Decreased teenage pregnancy / birth postponement,FDT_SDT_DRIVER,MODERATE,INSUFFICIENT_DATA,NO,"Consistent timing effects across settings, but mixed channels and no protocol-grade decomposition or slope sufficiency"

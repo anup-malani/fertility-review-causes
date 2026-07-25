@@ -109,17 +109,17 @@ stages and administrative fertility outcomes. Risks are higher where law adoptio
 with regional trends, where birth-date heaping requires donut-hole choices, or where staggered DiD
 and exclusion restrictions carry the estimate.
 
-**Compulsory-schooling driver stream: Moderate, provisional.** Multiple quasi-experiments across
-countries agree that schooling delays teenage births, and several identify the contemporaneous
-attendance mechanism. Final rating awaits remaining specification-level effect extraction and
-independent GRADE adjudication.
+**Compulsory-schooling driver stream: Moderate (unanimous three-rater panel).** Multiple quasi-
+experiments across countries agree that schooling delays teenage births, and several identify the
+contemporaneous attendance mechanism. Heterogeneous ages and estimands, residual bias in some
+designs, and later catch-up prevent a High rating.
 
 ## 9. Provisional verdict for this driver
 
 | Phenomenon | Causal credibility | Demographic significance |
 |---|---|---|
-| FDT | Moderate for teenage-birth timing | Pending tempo-specific scaling |
-| SDT | Moderate for teenage-birth timing | Pending tempo-specific scaling |
+| FDT | Moderate for teenage-birth timing | Insufficient data for aggregate significance |
+| SDT | Moderate for teenage-birth timing | Insufficient data for aggregate significance |
 
 Compulsory schooling is credible as one cause of birth postponement. It is not, on present evidence,
 a credible explanation for an equally large reduction in completed fertility.
@@ -139,3 +139,4 @@ the remaining tasks are effect-level standard-error extraction and macro tempo s
 - Effect-level evidence: `extraction/tempo-effects-birth-postponement-compulsory-schooling-effects.csv`
 - Pooling audit: `output/tempo-effects-birth-postponement-compulsory-schooling-synthesis-readiness.csv`
 - Preliminary risk of bias: `extraction/compulsory-education-accessible-risk-of-bias-preliminary.csv`
+- GRADE panel: `output/compulsory-education-grade-panel.csv`

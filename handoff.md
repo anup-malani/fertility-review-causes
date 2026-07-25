@@ -29,6 +29,12 @@ classifications are 11 decreased-teen-pregnancy papers, 10 value-of-children the
 papers, three not-explicit/neither-context papers, and one neither paper. Step 80 now reapplies
 these classifications reproducibly instead of restoring the earlier granular AI labels.
 
+The protocol stage-11 GRADE panel is complete. Three independent raters unanimously assigned Very
+Low to the FDT child-economic-value mechanism and Moderate to compulsory schooling as a teenage-
+birth postponement driver. All assigned Insufficient data for aggregate demographic significance.
+Zero-level disagreement means no PI escalation. Panel rows are in
+`output/compulsory-education-grade-panel.csv`.
+
 ## Compulsory-education routing — 2026-07-24
 
 The former combined `child-labor-laws-and-schooling` hypothesis now feeds two levels of the master

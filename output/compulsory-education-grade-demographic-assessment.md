@@ -1,7 +1,6 @@
 # Compulsory-Education GRADE and Demographic-Significance Assessment
 
-Status: AI reviewer assessment after Alexandra's authoritative mechanism review. This is not the
-protocol-required three-rater GRADE panel.
+Status: Final three-rater panel assessment after Alexandra's authoritative mechanism review.
 
 ## Mechanism routing used
 
@@ -14,7 +13,7 @@ protocol-required three-rater GRADE panel.
 
 ## Child economic value — FDT
 
-**AI GRADE assessment: Very low.** Formal theory repeatedly establishes that removing child earnings
+**Panel GRADE assessment: Very low (3/3 raters).** Formal theory repeatedly establishes that removing child earnings
 can lower fertility, but it also supplies ambiguous and heterogeneous counterexamples. The primary
 empirical compulsory-schooling studies do not jointly identify the required chain from policy to
 reduced child work/value to completed fertility. Cigno and Rosati report a historical estimate near
@@ -28,7 +27,7 @@ so none of the three thresholds can be evaluated without importing an unextracte
 
 ## Compulsory schooling as a teenage-birth/postponement driver
 
-**AI GRADE assessment: Moderate.** Multiple RD, IV, and policy-discontinuity studies across the
+**Panel GRADE assessment: Moderate (3/3 raters).** Multiple RD, IV, and policy-discontinuity studies across the
 United Kingdom, North America, Turkey, Hungary, Thailand, India, and Denmark consistently find that
 schooling reforms delay early births. Direct term-time and conception evidence strengthens the
 incapacitation interpretation, while delayed marriage and human-capital channels explain some
@@ -41,8 +40,11 @@ age-specific fertility-rate scale that can be combined with historical reform ex
 therefore establishes a causal timing effect but does not yet meet the protocol's aggregate
 decomposition, slope-sufficiency, or conditional-R-squared threshold.
 
-## Protocol gate
+## Panel reconciliation
 
 PROTOCOL.md stage 11 requires three independent agent raters and escalation when ratings differ by
-more than one level. These AI assessments should remain provisional until that panel is run. No
-additional PDF retrieval is needed.
+more than one level. All three raters independently returned the same two GRADE ratings and the same
+two demographic-significance verdicts. The maximum disagreement is zero levels, so no PI escalation
+is triggered. The secondary historical claim that restrictions explain about 10% of the US decline
+would require extraction of its underlying primary study before it could change the demographic-
+significance verdict. No additional approved-set PDF retrieval is needed.

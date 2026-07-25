@@ -1197,3 +1197,26 @@ chapter narratives to use the human routing.
 - Final GRADE remains subject to the protocol-required three-rater panel.
 
 ---
+
+# [2026-07-25] — Compulsory-education three-rater GRADE panel
+
+**Agent:** Codex coordinating three independent agent raters
+**Machine:** Alexandra workspace
+
+### Result
+
+All three raters independently returned identical judgments:
+
+- Child economic value, FDT: Very Low causal credibility; Insufficient data for demographic
+  significance.
+- Compulsory schooling as a teenage-birth/postponement driver: Moderate causal credibility;
+  Insufficient data for aggregate demographic significance.
+- Maximum GRADE disagreement: zero levels; no PI escalation.
+
+### Outputs
+
+- `output/compulsory-education-grade-panel.csv`
+- Updated `output/compulsory-education-grade-demographic-assessment.md`
+- Updated both chapter drafts and handoff.
+
+---

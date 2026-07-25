@@ -25,6 +25,10 @@ run a reproducible production search and screening funnel for the FDT estimand.
 - [ ] Cross-hypothesis lessons and any deviations from the documented GACS prototype are recorded.
 
 ## Log
+- 2026-07-25, Alexandra/Codex: Completed the protocol-required three-rater GRADE panel. It was
+  unanimous: child economic value = Very Low for FDT; compulsory-schooling teenage-birth timing =
+  Moderate; aggregate demographic significance = Insufficient data for both. Maximum disagreement
+  was zero levels, so no PI escalation was triggered. Updated both drafts and recorded the panel.
 - 2026-07-24, Alexandra/Codex: Reconciled Alexandra's direct mechanism edits and applied three
   confirmed corrections. Step 80 now preserves 25 authoritative classifications: 11 decreased
   teen pregnancy, 10 value of children, three not-explicit/neither-not-explicit, and one neither.

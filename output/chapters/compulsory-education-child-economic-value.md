@@ -4,8 +4,8 @@
 **Primary mechanism:** Compulsory education makes child work harder, reducing the economic return
 parents expect from an additional child and thereby reducing completed fertility.  
 **Target phenomenon:** First Demographic Transition  
-**Draft status:** Evidence-complete full-text draft. All 16 RA-approved papers are retrieved and
-incorporated; independent GRADE adjudication and demographic scaling remain.
+**Draft status:** Evidence-complete full-text draft. All 16 RA-approved papers are incorporated and
+the three-rater GRADE panel is complete; demographic scaling remains limited by insufficient data.
 
 ## 1. The claim
 
@@ -127,10 +127,9 @@ in the retrieved empirical evidence.
 
 ## 8. Provisional GRADE assessment
 
-**FDT causal mechanism: Very low, evidence-complete but pending independent adjudication.** The full
-approved set contains substantial theory and mixed reduced-form policy evidence but no primary
-empirical study that jointly verifies the compulsory-policy, child-work/value, and completed-
-fertility links.
+**FDT causal mechanism: Very low (unanimous three-rater panel).** The full approved set contains
+substantial theory and mixed reduced-form policy evidence but no primary empirical study that
+jointly verifies the compulsory-policy, child-work/value, and completed-fertility links.
 
 ## 9. Provisional verdict
 
@@ -146,8 +145,8 @@ children economically less valuable. It mainly studies other mechanisms.
 The decisive study would connect a binding attendance or child-work restriction to an observed
 decline in child employment and then to parents' completed fertility. Historical staggered reforms
 linked to census fertility and child-employment records are especially valuable. Within the present
-review, the remaining tasks are independent GRADE adjudication and a sensitivity-bounded FDT scaling
-exercise; no approved full texts remain missing.
+review, the remaining quantitative gap is a defensible FDT scaling exercise; no approved full texts
+remain missing.
 
 ## 11. Reproducibility
 
@@ -155,3 +154,4 @@ exercise; no approved full texts remain missing.
 - PDF manifest: `output/compulsory-education-pdf-retrieval-manifest.csv`
 - Extracted evidence: `extraction/compulsory-education-accessible-fulltext-evidence.csv`
 - Preliminary risk of bias: `extraction/compulsory-education-accessible-risk-of-bias-preliminary.csv`
+- GRADE panel: `output/compulsory-education-grade-panel.csv`
