@@ -56,13 +56,40 @@ def nt(t):
     return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9\s]", " ", (t or "").lower())).strip()[:70]
 
 
+# DOI hosts that indicate a preprint / working-paper version rather than the version of record.
+PREPRINT_HOSTS = ("10.31235", "10.31234", "10.21203", "10.2139", "10.1101", "10.31219", "10.31730",
+                  "osf.io", "researchsquare", "ssrn", "biorxiv", "medrxiv", "arxiv", "preprints.org")
+
+
+def is_preprint(r):
+    doi = (r.get("doi") or "").lower()
+    return (not r.get("venue")) or any(h in doi for h in PREPRINT_HOSTS)
+
+
 def dedup(items):
-    seen, out = set(), []
-    for r in items:
-        k = (r.get("doi") or "").lower() or nt(r.get("title"))
-        if k in seen:
+    """Drop duplicates on EITHER identical DOI or identical normalized title.
+
+    The original rule keyed on `doi OR normalized_title`, so any record carrying a DOI never had its
+    title compared. A preprint and its version of record have DIFFERENT DOIs and the SAME title, so
+    both survived and were counted as two distinct studies. That inflated the realized-fertility pool,
+    the scarcest and most load-bearing count in this chapter: the SocArXiv preprint 10.31235/osf.io/83e4m
+    and its Population and Development Review version 10.1111/padr.12646 were both being counted.
+
+    Version-of-record records are processed first so that when a pair collides, the published version
+    is the one kept. Ordering is a stable sort on a deterministic key, so reruns stay byte-identical.
+    """
+    ordered = sorted(enumerate(items), key=lambda p: (is_preprint(p[1]), p[0]))
+    seen_doi, seen_title, out = set(), set(), []
+    for _, r in ordered:
+        doi = (r.get("doi") or "").lower()
+        title = nt(r.get("title"))
+        if (doi and doi in seen_doi) or (title and title in seen_title):
             continue
-        seen.add(k); out.append(r)
+        if doi:
+            seen_doi.add(doi)
+        if title:
+            seen_title.add(title)
+        out.append(r)
     return out
 
 

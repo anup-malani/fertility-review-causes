@@ -3,12 +3,12 @@
 80_d3b_production_query.py - D.3.b (climate anxiety / eco-doomerism), stage A6c.
 
 Mirror of B.1's `70_b1_production_query.py`. Refit the 2-block production query on the FULL gold at
-the CV-chosen breadth (Nf=3, Np=45; A6b showed the cause block binds and effect breadth saturates
-after three terms), then answer the A6c fork WITH NUMBERS before any large universe pull:
+the CV-chosen breadth (Nf=3, Np=30; A6b showed the cause block binds, effect breadth saturates after three terms,
+and recall plateaus at Np=30, so the smaller breadth is chosen at equal recall), then answer the A6c fork WITH NUMBERS before any large universe pull:
 
   1. LOCAL recall (budget-free): match the compiled query against each gold paper's cached title, and
      against title+abstract. The gap is how much abstract matching rescues gold whose title alone does
-     not carry both blocks (A6b's title-only CV ceiling was 64.6%). Reported overall, Recall(A) vs
+     not carry both blocks (A6b's title-only CV ceiling was 65.4%). Reported overall, Recall(A) vs
      Recall(B), on the rare value-added core (DESIRE_INDEPENDENCE + PRIMARY_CARBON_ETHICS), and on
      REALIZED_FERTILITY outcomes.
   2. LIVE universe counts (cheap, one request each, per-page=1 so only meta.count is fetched):
@@ -24,7 +24,7 @@ Inputs : output/{slug}-screen-tiers.json, literature/search-logs/{slug}-tier-a.j
          literature/search-logs/{slug}-tier-b-frame.json (for gold abstracts)
 Output : literature/search-logs/{slug}-production-query.json + {slug}-recall-probe.md
 """
-import json, re, math, sys, subprocess
+import json, re, math, sys, subprocess, time
 from pathlib import Path
 from collections import Counter
 from urllib.parse import quote
@@ -35,7 +35,7 @@ REPO = HERE.parents[2]
 LOGS = REPO / "literature" / "search-logs"
 OUT = REPO / "output"
 MAILTO = "shravanh@uchicago.edu"
-NF, NP = 3, 45
+NF, NP = 3, 30
 ALPHA0 = 1000.0
 MIN_GOLD_FOLD = 2
 PRIMARY_EMPIRICAL = {"PRIMARY_HABITABILITY_FEAR", "PRIMARY_CARBON_ETHICS", "PRIMARY_ECO_PESSIMISM",
@@ -146,16 +146,42 @@ def mine(titles, nc, nn):
     return eff, cau
 
 
-def curl_count(search_field, query):
+# Gold is deduplicated on normalized title. The frame carries preprint/version-of-record pairs under
+# distinct OpenAlex ids (e.g. the SocArXiv and Population and Development Review versions of the same
+# worries-and-childbearing paper). Counting both would weight one study twice in the recall denominator.
+def dedup_gold(gold):
+    seen, out = set(), []
+    for g in gold:
+        k = norm(g["title"])[:70]
+        if k in seen:
+            continue
+        seen.add(k)
+        out.append(g)
+    return out
+
+
+def curl_count(search_field, query, attempts=4):
+    """Fetch meta.count only (per-page=1).
+
+    Retries with backoff: the two counts are issued back to back, and the second was being
+    rate-limited and silently recorded as "(no response)" in the probe, which reads like a query
+    failure rather than a throttle. A standalone repeat of the same request succeeds.
+    """
     url = (f"https://api.openalex.org/works?filter={search_field}:{quote(query, safe='')}"
            f"&per-page=1&mailto={MAILTO}")
-    r = subprocess.run(["curl", "-s", "-m", "40", "-A", f"d3b-review/1.0 (mailto:{MAILTO})", url],
-                       capture_output=True, text=True)
-    try:
-        d = json.loads(r.stdout)
-        return d.get("meta", {}).get("count")
-    except Exception:
-        return None
+    for i in range(attempts):
+        if i:
+            time.sleep(2 * i)
+        r = subprocess.run(["curl", "-s", "-m", "60", "-A", f"d3b-review/1.0 (mailto:{MAILTO})", url],
+                           capture_output=True, text=True)
+        try:
+            count = json.loads(r.stdout).get("meta", {}).get("count")
+        except Exception:
+            count = None
+        if count is not None:
+            return count
+        print(f"  [retry {i+1}/{attempts}] {search_field} count unavailable", file=sys.stderr)
+    return None
 
 
 def clean_term(t):
@@ -187,6 +213,7 @@ def main():
                 and r.get("title")):
             gold.append({"title": r["title"], "abstract": frame_abs.get(r["paperId"], ""),
                          "tier": "B", "cell": r["cell"], "outcome_level": r.get("outcome_level")})
+    gold = dedup_gold(gold)
     neg = [r["title"] for r in rows if r["verdict"] == "NOT_RELEVANT" and r.get("title")]
     nc = Counter()
     for t in neg:

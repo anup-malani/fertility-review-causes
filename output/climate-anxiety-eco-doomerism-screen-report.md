@@ -21,17 +21,17 @@ The A1 scope's frozen decision 2 forbids pooling across outcome levels, so there
 pooling sets and deliberately no combined file. Both are first-class primary synthesis; the
 stated-intention set carries the standing caveat that it measures intention, not behaviour.
 
-- **Stated-intention pool** (RELEVANT ∩ primary cell ∩ non-review ∩ stated/both): **64 distinct** → `climate-anxiety-eco-doomerism-estimand-ready-stated.json`
-  - by cell: PRIMARY_ECO_PESSIMISM 36, PRIMARY_HABITABILITY_FEAR 18, PRIMARY_CARBON_ETHICS 6, DESIRE_INDEPENDENCE 4
-- **Realized-fertility pool** (same ∩ realized/both): **9 distinct** → `climate-anxiety-eco-doomerism-estimand-ready-realized.json`
-  - by cell: PRIMARY_ECO_PESSIMISM 8, PRIMARY_CARBON_ETHICS 1
-- **Theory stream** (RELEVANT/UNCERTAIN ∩ ANXIETY_CONSTRUCT or ECO_ETHICS_THEORY): **145 distinct** → `climate-anxiety-eco-doomerism-theory-stream.json` — SEPARATE; does NOT count toward empirical recall.
-  - by cell: ECO_ETHICS_THEORY 84, ANXIETY_CONSTRUCT 61
+- **Stated-intention pool** (RELEVANT ∩ primary cell ∩ non-review ∩ stated/both): **62 distinct** → `climate-anxiety-eco-doomerism-estimand-ready-stated.json`
+  - by cell: PRIMARY_ECO_PESSIMISM 34, PRIMARY_HABITABILITY_FEAR 18, PRIMARY_CARBON_ETHICS 6, DESIRE_INDEPENDENCE 4
+- **Realized-fertility pool** (same ∩ realized/both): **8 distinct** → `climate-anxiety-eco-doomerism-estimand-ready-realized.json`
+  - by cell: PRIMARY_ECO_PESSIMISM 7, PRIMARY_CARBON_ETHICS 1
+- **Theory stream** (RELEVANT/UNCERTAIN ∩ ANXIETY_CONSTRUCT or ECO_ETHICS_THEORY): **142 distinct** → `climate-anxiety-eco-doomerism-theory-stream.json` — SEPARATE; does NOT count toward empirical recall.
+  - by cell: ECO_ETHICS_THEORY 83, ANXIETY_CONSTRUCT 59
 - Reviews holding a primary cell (excluded from pooling on `evidence_type`, per rubric v2 rule 5): 7
 
 ### The scope's predicted asymmetry, realized
 
-Theory stream 145 distinct vs stated-intention pool 64 distinct (2.3x the empirical core), and a realized-fertility pool of **9**. Outcome levels across the poolable primary set: STATED_INTENTION_OR_ATTITUDE 61, REALIZED_FERTILITY 6, BOTH 3, NA 2.
+Theory stream 142 distinct vs stated-intention pool 62 distinct (2.3x the empirical core), and a realized-fertility pool of **8**. Outcome levels across the poolable primary set: STATED_INTENTION_OR_ATTITUDE 61, REALIZED_FERTILITY 6, BOTH 3, NA 2.
 
 The A1 scope predicted a literature rich on stated belief and intention and near-empty on realized fertility. That prediction is confirmed here, and the realized-fertility thinness is the load-bearing caveat for the whole hypothesis: if that pool is small enough, D.3.b's evidence base speaks to what people *say* about childbearing under ecological dread and only marginally to what they *do*. This is a finding to report, not a search failure — and it is why the two pools are never combined.
 

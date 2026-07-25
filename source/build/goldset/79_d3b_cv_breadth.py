@@ -38,7 +38,7 @@ theory outnumbers the empirical core more than two to one, and counting it would
 
 Two diagnostics beyond B.1's:
   - recall on RARE_CORE (DESIRE_INDEPENDENCE + PRIMARY_CARBON_ETHICS), the value-added cells;
-  - recall on REALIZED_FERTILITY outcomes, which number 9 in the entire frame. If the production
+  - recall on REALIZED_FERTILITY outcomes, which number 8 in the entire frame after dedup. If the production
     query cannot retrieve those, the one stratum that could ever support a realized-fertility pool is
     structurally invisible to it, and that is worth knowing at A6 rather than at A7.
 
@@ -189,7 +189,21 @@ def load():
     nc = Counter()
     for t in neg:
         nc.update(cand_terms(t))
-    return gold, nc, sum(nc.values()), neg
+    return dedup_gold(gold), nc, sum(nc.values()), neg
+
+
+# Gold is deduplicated on normalized title. The frame carries preprint/version-of-record pairs under
+# distinct OpenAlex ids (e.g. the SocArXiv and Population and Development Review versions of the same
+# worries-and-childbearing paper). Counting both would weight one study twice in the recall denominator.
+def dedup_gold(gold):
+    seen, out = set(), []
+    for g in gold:
+        k = norm(g["title"])[:70]
+        if k in seen:
+            continue
+        seen.add(k)
+        out.append(g)
+    return out
 
 
 def cv(gold, nc, nn, Nf, Np):
