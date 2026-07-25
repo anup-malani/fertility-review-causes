@@ -69,3 +69,17 @@ cross-checks). Keep for the data-hygiene write-up; don't run them as the method.
 `doi_trust == "UNRESOLVED"` or blank-DOI records to `output/{slug}-unresolved-audit.csv`. The RA
 review sheet should contain only DOI-trusted paper identities; unresolved/title-keyed records need
 independent verification before review.
+
+## Compulsory-education chapter finalization
+
+The split compulsory-education workstreams use the following terminal stages:
+
+- `80_build_compulsory_education_fulltext_evidence.py` rebuilds the approved-set evidence and
+  preliminary risk-of-bias tables, including Shanan as a labeled post-review ROB supplement.
+- `81_build_compulsory_schooling_tempo_effects.py` builds the tempo effect table and pooling audit.
+- `82_build_compulsory_education_blinded_review.py` builds the judgment-blinded empirical review.
+- `83_extract_shanan_primary_evidence.py` validates the 38-page published PDF, caches its text, and
+  extracts completed fertility, period fertility, first stages, and the exact 8% decomposition.
+- `84_finalize_compulsory_education_chapter_inputs.py` builds search-flow accounting, the joined
+  included-study table, the Shanan scaling sensitivity interval, and the blank RA readability gate
+  with its instructions.

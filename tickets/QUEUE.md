@@ -1,6 +1,6 @@
 # Work Queue
 
-Last updated: 2026-07-22
+Last updated: 2026-07-25
 
 Pick the first open ticket assigned to you or `any`. Before starting, pull/sync, then **claim** it
 (move its row to **In progress** below) before doing the work — using whichever mode is active in
@@ -13,6 +13,7 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 
 | Ticket | Title | Assigned | Parallel-safe |
 |--------|-------|----------|---------------|
+| [TICK-039](TICK-039-compulsory-education-chapter-readability.md) | Compulsory-education chapter lay-readability review | Alexandra | no |
 | [TICK-030](TICK-030-replicate-gacs-agricultural-mode-production.md) | Replicate GACS for agricultural mode of production | any | no |
 | [TICK-032](TICK-032-b1-fulltext-screen-retrieval.md) | B.1 full-text screen and retrieval (status-fertility stream) | any | no |
 | [TICK-033](TICK-033-b1-effect-extraction.md) | B.1 status-fertility effect extraction | any | no (blocked by TICK-032) |
@@ -46,6 +47,9 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 
 | Ticket | Title | Closed |
 |--------|-------|--------|
+| [TICK-040](TICK-040-finish-maternal-education-tempo-draft.md) | Finish maternal-own-education compulsory-schooling tempo draft | 2026-07-25 |
+| [TICK-038](TICK-038-nest-schooling-teen-births-under-tempo.md) | Nest compulsory-schooling teenage births under tempo postponement | 2026-07-24 |
+| [TICK-032](TICK-032-split-compulsory-education-hypotheses.md) | Split compulsory education into value-of-children and teenage-birth hypotheses | 2026-07-24 |
 | [TICK-020](TICK-020-oas-theory-stream.md) | OAS theory stream for JEL-style mechanism section | 2026-07-11 |
 | [TICK-007](TICK-007-gift-shravan-claude-max.md) | Gift Shravan Claude Max | 2026-06-14 |
 | [TICK-011](TICK-011-hypotheses-recategorization.md) | Recategorize HYPOTHESES.md | 2026-06-14 (merged into TICK-001) |

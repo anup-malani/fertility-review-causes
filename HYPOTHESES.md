@@ -96,11 +96,11 @@ Should we organize it that way, or should we do it the other way around? First, 
 ### Tempo Effects and Birth Postponement
 - **slug:** `tempo-effects-birth-postponement`
 - **claim:** Rising mean age at first birth depresses period TFR mechanically during the postponement transition, accounting for a meaningful share of measured low SDT fertility without an equivalent change in completed cohort fertility.
-- **why:** If every woman delays her first birth by a few years, then during the transition period there is a stretch of calendar time when fewer births are recorded — even though each cohort may eventually have the same number of kids. The period TFR drops mechanically because births get pushed into the future. Once the delay stabilizes, measured fertility partly rebounds, so part of 'low fertility' is really a timing artifact, not a true drop in family size.
-- **phenomena:** SDT
-- **seminal:** Bongaarts and Feeney 1998, Sobotka 2004, Goldstein et al. 2009, Lesthaeghe 2010, Goldin 2006, Gustafsson 2001
+- **why:** If every woman delays her first birth by a few years, then during the transition period there is a stretch of calendar time when fewer births are recorded — even though each cohort may eventually have the same number of kids. The period TFR drops mechanically because births get pushed into the future. Once the delay stabilizes, measured fertility partly rebounds, so part of 'low fertility' is really a timing artifact, not a true drop in family size. Compulsory schooling is one identified upstream driver: raising the school-leaving age keeps adolescents enrolled and reduces teenage pregnancy or births through an incapacitation effect.
+- **phenomena:** FDT, SDT
+- **seminal:** Bongaarts and Feeney 1998, Sobotka 2004, Goldstein et al. 2009, Lesthaeghe 2010, Goldin 2006, Gustafsson 2001; Black, Devereux, and Salvanes 2004; Silles 2010; Kırdar, Dayıoğlu, and Koç 2018; DeCicca and Krashinsky 2019
 - **cross-ref:** Economic
-- **notes:** Distinguishes quantum from tempo; central to SDT measurement debate. Tempo-adjusted TFR often closer to replacement. Merged with the Economic "tempo postponement" framing (rising returns to schooling/career as driver of timing).
+- **notes:** Distinguishes quantum from tempo; central to SDT measurement debate. Tempo-adjusted TFR often closer to replacement. Driver-specific evidence streams include compulsory schooling and teenage births, rising returns to schooling/careers, and delayed marriage. Each driver must be evaluated separately before its effect is scaled into the aggregate postponement contribution.
 
 ### Twinning Rates and Multiple Births
 - **slug:** `twinning-multiple-births`
@@ -140,14 +140,14 @@ Should we organize it that way, or should we do it the other way around? First, 
 - **cross-ref:** Cultural
 - **notes:** Often blended with q-q; separating direct from quality-investment cost is identification challenge.
 
-### Child Labor Restrictions and Compulsory Schooling
-- **slug:** `child-labor-laws-and-schooling`
-- **claim:** Legal restrictions on child labor and compulsory schooling lower the economic return to children and raise their cost, reducing fertility.
-- **why:** When governments ban child labor and require kids to be in school, children stop being a source of family income and instead become a long-running expense. The whole calculation flips: an extra child no longer pays his or her own way through farm or factory work, so parents want fewer of them.
+### Compulsory Education and the Economic Value of Children
+- **slug:** `compulsory-education-child-economic-value`
+- **claim:** Compulsory education reduces completed fertility by making it harder for children to work, thereby lowering children's economic value to their parents.
+- **why:** When compulsory-attendance rules prevent children from working, families lose part of the income or production an additional child could provide. The reduced economic return to children can lead parents to choose fewer births. Evidence that compulsory schooling changes a prospective mother's own education is only reduced-form evidence for this hypothesis unless it also identifies the child-work-value channel.
 - **phenomena:** FDT
 - **seminal:** Doepke 2004, Doepke and Zilibotti 2005, Hazan and Berdugo 2002, Galor and Moav 2006
-- **cross-ref:** --
-- **notes:** Tightly linked to q-q; policy-driven variation provides identification.
+- **cross-ref:** Tempo Effects and Birth Postponement; Mode of Production and Child Economic Value
+- **notes:** Quantum hypothesis. The primary outcome is completed fertility, not birth timing. Tightly linked to q-q; policy-driven variation identifies the law's reduced-form effect but does not by itself identify the child-economic-value mechanism.
 
 ### Credit Constraints and Liquidity
 - **slug:** `credit-constraints`

@@ -14,17 +14,104 @@ compulsory schooling, and related human-capital mechanisms; calibrate the query 
 run a reproducible production search and screening funnel for the FDT estimand.
 
 ## Acceptance criteria
-- [ ] The FDT hypothesis and primary/off-cell estimands are specified before screening.
+- [x] The FDT hypothesis and primary/off-cell estimands are specified before screening.
 - [ ] A DOI/title-keyed, provenance-recorded cold-start gold set is built from orthogonal sources and frozen after review.
 - [ ] Query terms and breadth are calibrated without training/test leakage, with recall and candidate-budget results recorded.
 - [ ] The live search is run reproducibly with caching, deduplication, and a search log.
-- [ ] The deterministic and LLM screening funnel produces tiered topical and estimand-ready outputs.
-- [ ] Studies belonging primarily to mode of production are routed to TICK-030 rather than combined with this estimand.
-- [ ] Full-text extraction distinguishes child economic return, child quality cost, women's own opportunity cost, timing, knowledge/preferences, and mixed/unclear mechanisms before drafting.
-- [ ] Full-text extraction records whether the law changes the prospective parent's schooling, the expected schooling of future children, or both.
-- [ ] Cross-hypothesis lessons and any deviations from the documented GACS prototype are recorded.
+- [x] The deterministic and LLM screening funnel produces tiered topical and estimand-ready outputs.
+- [x] Studies belonging primarily to mode of production are routed to TICK-030 rather than combined with this estimand.
+- [x] Full-text extraction distinguishes child economic return, child quality cost, women's own opportunity cost, timing, knowledge/preferences, and mixed/unclear mechanisms before drafting.
+- [x] Full-text extraction records whether the law changes the prospective parent's schooling, the expected schooling of future children, or both.
+- [x] Cross-hypothesis lessons and any deviations from the documented GACS prototype are recorded.
 
 ## Log
+- 2026-07-25, Alexandra/Codex: Built final chapter-support artifacts: explicit GACS/PRISMA
+  accounting, a joined included-study/risk-of-bias audit table, an analytic sensitivity interval
+  for Shanan's decomposition (8.16%; analytic 95% interval 6.09%-10.23%), and the required blank
+  lay-readability review gate for both drafts. The interval treats the exposure change and observed
+  decline as fixed and is not a substitute for the protocol-preferred bootstrap CI. TICK-031 now
+  has only the query-calibration/live-production-search and gold-freeze criteria open; whether the
+  completed cold-start GACS frame substitutes for the standard two-phase search requires a
+  methodological decision before further execution.
+- 2026-07-25, Alexandra/Codex: Acquired and extracted the full Shanan PDF. The primary article
+  resolves the secondary claim: its explicit decomposition is 8%, calculated as
+  `0.48 * 0.85 / 5`, below the protocol's 10% threshold. It also reports completed-fertility
+  effects of -0.301 child (SE 0.044) for any-law exposure at ages 20--30 and -0.108 child
+  (SE 0.024) per additional exit-age year. A renewed independent panel was unanimous: GRADE Low
+  (up from Very low) and demographic significance Partial/below threshold (formerly Insufficient
+  data). No PI escalation was triggered.
+- 2026-07-25, Alexandra/Codex: Followed Cigno-Rosati's historical-US "about 10%" claim to
+  Yannay Shanan (2023), DOI 10.1007/s00148-021-00838-1. The subscription PDF was unavailable,
+  but publisher table pages verified fertility reduced forms plus child-employment and schooling
+  first stages. Added a reproducible six-row primary-study supplement and updated the chapter and
+  demographic-significance assessment. The 10% decomposition remains unauditable because its
+  numerator, denominator, and uncertainty are not exposed in the accessible tables; the prior
+  three-rater GRADE rating is preserved pending renewed adjudication.
+- 2026-07-25, Alexandra/Codex: Completed the protocol-required three-rater GRADE panel. It was
+  unanimous: child economic value = Very Low for FDT; compulsory-schooling teenage-birth timing =
+  Moderate; aggregate demographic significance = Insufficient data for both. Maximum disagreement
+  was zero levels, so no PI escalation was triggered. Updated both drafts and recorded the panel.
+- 2026-07-24, Alexandra/Codex: Reconciled Alexandra's direct mechanism edits and applied three
+  confirmed corrections. Step 80 now preserves 25 authoritative classifications: 11 decreased
+  teen pregnancy, 10 value of children, three not-explicit/neither-not-explicit, and one neither.
+  Cleaned spreadsheet artifacts and updated both drafts. Added an AI GRADE/demographic assessment:
+  child value Very Low / insufficient data; schooling tempo Moderate / insufficient aggregate
+  scaling. Ratings remain provisional under the required three-rater panel.
+- 2026-07-24, Alexandra/Codex: Matched and renamed the final four RA-supplied sources (Kan-Lee,
+  Cigno-Rosati chapters 7 and 9, and Lei et al.). Retrieval and extraction are now complete at
+  25/25 overall, 10/10 tempo, and 16/16 child value. Added four evidence rows and two empirical
+  risk-of-bias rows; the child-value draft is evidence-complete but remains pending independent
+  GRADE adjudication and demographic scaling.
+- 2026-07-24, Alexandra/Codex: Identified and safely renamed five RA-supplied library PDFs by
+  internal title: Baland-Robinson, Cigno-Rosati chapter 3, Silles, Emerson-Knabb, and Chen-Guo.
+  All validate and extract successfully. Coverage is now 21/25 overall, 10/10 tempo, and 12/16
+  child value. Added five evidence rows, two empirical risk-of-bias rows, and three Silles effect
+  rows. Four child-value sources remain absent.
+- 2026-07-24, Alexandra/Codex: Audited published versions for all 11 queued records. Retrieved the
+  published Fioroni article and Takakura's repository manuscript corresponding to the 2023
+  Economic Modelling article, raising coverage to 16/25 overall and 8/16 for child value. Resolved
+  final journal/book citations for the remaining nine records; the two 2024 Cigno-Rosati chapters
+  can be obtained with one second-edition ebook. The remaining queue is ready for UChicago access.
+- 2026-07-24, Alexandra/Codex: Added reproducible step 81 with 14 specification-level tempo-effect
+  rows and a four-family pooling-readiness audit. No family meets the minimum of three independent
+  studies with comparable estimates and standard errors; no pooled estimate was generated. The
+  tempo draft now reports structured quantitative synthesis as the defensible endpoint pending
+  Silles and further table extraction. The next human gate is acquisition of the 11 queued PDFs or
+  authorization to proceed with a partial 6/16-source child-value chapter.
+- 2026-07-24, Alexandra/Codex: Targeted repository search retrieved Hazan-Berdugo and
+  Mookherjee-Prina-Ray, raising coverage to 14/25 overall and 6/16 in the child-value set. Both are
+  direct formal-theory support for a child-labor-regulation/fertility mechanism. No retrieved
+  empirical paper yet identifies that mechanism. Eleven sources remain queued (10 child-value;
+  one tempo).
+- 2026-07-24, Alexandra/Codex: Automated open-access retrieval and partial full-text synthesis.
+  Steps 78-80 now retrieve/validate PDFs, extract cached text, and build verified evidence plus
+  preliminary risk-of-bias tables. Coverage is 12/25 distinct approved sources overall, 9/10 for
+  the compulsory-schooling tempo stream, and 4/16 for the child-economic-value set. Produced two
+  chapter drafts. Thirteen sources remain on the explicit acquisition queue; 12 belong to the
+  child-value set. Final mechanism adjudication, effect-level pooling, demographic scaling, and
+  GRADE are blocked on those sources and/or later independent review.
+- 2026-07-24, Alexandra/Codex: Reprocessed Alexandra's strict RA relevance decisions into two
+  explicit paper sets via step 77. The child-economic-value set contains 16 distinct papers: 10
+  theory/mechanism papers and 6 empirical quantum papers flagged as reduced-form pending full-text
+  mechanism verification. The compulsory-schooling teenage-pregnancy/birth set contains 10
+  empirical tempo papers. Three redundant versions were collapsed; Geruso-Royer is intentionally
+  shared because it reports both teen and completed fertility.
+- 2026-07-24, Alexandra/Codex: TICK-038 supersedes the earlier two-hypothesis routing. Compulsory
+  schooling and teenage births is now the `COMPULSORY_SCHOOLING_TEENAGE_BIRTHS` evidence stream
+  nested under `tempo-effects-birth-postponement`, not a standalone hypothesis. The child-economic-
+  value quantum hypothesis remains separate.
+- 2026-07-24, Alexandra/Codex: Started the post-split chapter pipeline. Added reproducible step 76,
+  which generates separate retrieval manifests and pre-populated full-text extraction sheets for
+  the child-economic-value and teenage-birth hypotheses. The current focused handoff routes 6
+  candidate studies to the quantum workstream and 10 to the tempo workstream because Geruso-Royer
+  explicitly reports both teen and completed fertility. Added a field guide with controlled
+  mechanism/outcome vocabularies and fail-safe synthesis rules. All extraction fields remain blank
+  pending PDFs; no full-text findings were inferred from abstracts.
+- 2026-07-24, Alexandra/Codex: The combined hypothesis was split by TICK-032. Quantum records now
+  route to `compulsory-education-child-economic-value`, where they count as reduced-form evidence
+  unless the child-work-value mechanism is identified. Tempo records route to
+  what was initially named `compulsory-education-teenage-births`. Existing combined-slug search artifacts remain the shared
+  provenance record and must not be interpreted as a single estimand.
 - 2026-07-16, Alexandra/Codex: Completed the entire pre-RA cold-start citation screen. Seven
   independently sourced anchors generated a 1,255-record DOI/title-deduplicated citation frame.
   All 32 blinded title/abstract batches were semantically screened and passed fail-closed schema,

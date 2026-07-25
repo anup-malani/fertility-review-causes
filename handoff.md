@@ -1,5 +1,95 @@
 # Handoff — fertility-review-causes
 
+## Compulsory-education full-text automation — 2026-07-24
+
+Update (2026-07-25): The full Shanan (2023) PDF, DOI `10.1007/s00148-021-00838-1`, is retrieved and
+extracted. It verifies child-employment and attendance first stages, completed-fertility estimates,
+and period-birth estimates. Its explicit historical decomposition is 8%, not the Cigno-Rosati
+chapter's rounded "about 10%": `0.48 * 0.85 / 5 = 0.08`. A renewed three-rater panel unanimously
+upgraded FDT causal credibility from Very low to Low and changed demographic significance from
+Insufficient data to Partial/below the 10% threshold. The study remains a post-review supplement,
+not retroactively part of Alexandra's 16-paper approved set. See
+`extraction/compulsory-education-shanan-primary-study.csv`.
+
+Update (2026-07-25, chapter finalization): Reproducible step 84 now creates shared search-flow
+accounting, a joined included-study/risk-of-bias table, Shanan demographic-scaling sensitivity, and
+the blank RA lay-readability gate. Shanan's 8.16% point estimate has a delta-method sensitivity
+interval of 6.09%-10.23% when only the coefficient SE is propagated; this is not the protocol-
+preferred bootstrap interval. The next human gate is completion of
+`output/compulsory-education-chapters-lay-readability-review.csv`. TICK-031 also needs a PI/method
+decision on whether its completed cold-start GACS citation frame substitutes for the protocol's
+standard two-phase keyword-plus-snowball production search; running a new search without that ruling
+could constitute a pre-registration deviation.
+
+Steps 78-80 automate OA PDF retrieval, PDF validation, text extraction, verified accessible-source
+evidence, and preliminary risk-of-bias coding. Current coverage is 25/25 distinct RA-approved
+sources: 10/10 compulsory-schooling tempo papers and 16/16 child-economic-value papers. The manual
+acquisition queue is empty.
+
+Two current drafts exist:
+- `output/chapters/compulsory-education-child-economic-value.md` is evidence-complete. Shanan is the
+  closest primary study, linking restrictions to child employment, attendance, and completed
+  fertility, but it does not formally mediate the effect through lost child economic value.
+- `output/chapters/tempo-effects-birth-postponement-compulsory-schooling.md` is the completed nested
+  maternal-own-education/teenage-birth driver chapter based on all 10 approved papers. It separates
+  incapacitation, delayed marriage, and longer-run human-capital channels and documents catch-up
+  and completed-fertility nulls. `output/chapters/tempo-effects-birth-postponement.md` remains the
+  parent Temple/tempo chapter and eventually needs its other postponement drivers.
+
+The protocol stage-13 readability gate for these two compulsory-education drafts was deferred by
+Alexandra and is now tracked as TICK-039. The generated checklist targets the child-economic-value
+chapter and the completed nested maternal-own-education driver chapter.
+
+Do not finalize GRADE or demographic significance without independent adjudication. PDF retrieval is
+complete; rerun steps 78-81 whenever source files or extraction coding change.
+Step 81 records 17 verified tempo-effect rows and audits pooling readiness. No outcome family has
+three independent studies with a comparable estimate and standard error, so no pooled estimate was
+generated. A published-version audit retrieved Fioroni and the repository version of Takakura and
+resolved final citations for every record. See
+`output/compulsory-education-published-version-audit.csv`.
+
+Alexandra completed the authoritative mechanism review in the full-text evidence table. Final
+classifications are 11 decreased-teen-pregnancy papers, 10 value-of-children theory/mechanism
+papers, three not-explicit/neither-context papers, and one neither paper. Step 80 now reapplies
+these classifications reproducibly instead of restoring the earlier granular AI labels.
+
+The protocol stage-11 GRADE panel is complete and the child-value rating was renewed after Shanan's
+full-text acquisition. Three independent raters unanimously assign Low to the FDT child-economic-
+value mechanism and Partial/below-threshold demographic significance. The original tempo rating
+remains Moderate with Insufficient data for aggregate demographic significance. Zero-level
+disagreement means no PI escalation. Panel rows are in
+`output/compulsory-education-grade-panel.csv`.
+
+## Compulsory-education routing — 2026-07-24
+
+The former combined `child-labor-laws-and-schooling` hypothesis now feeds two levels of the master
+framework. `compulsory-education-child-economic-value` remains a standalone quantum hypothesis:
+compulsory education makes child work harder, lowers children's economic value to parents, and may
+reduce completed fertility. Compulsory schooling and teenage births is not a standalone hypothesis;
+it is a driver-specific evidence stream nested under `tempo-effects-birth-postponement`. Existing
+combined-slug search artifacts remain a shared provenance set. Route the 6 quantum retrieval records
+to the economic-value hypothesis, treating them only as reduced-form evidence unless full text
+identifies the child-work-value channel. Route the tempo records to the compulsory-schooling stream
+of the tempo-postponement chapter. The current combined chapter is a shared evidence-base draft that
+will feed those two chapters after full-text extraction.
+
+Implementation has started. Reproducible step 76 now generates two retrieval manifests and two
+study-level extraction sheets. Current routing is 6 candidate studies for the child-economic-value
+hypothesis and 10 for the compulsory-schooling tempo stream; Geruso-Royer appears in both because its
+existing record explicitly reports teen and completed fertility. Use
+`extraction/compulsory-education-extraction-guide.md` for controlled values and source-locator/RA
+review conventions. No PDFs have yet been retrieved and all substantive extraction fields are
+intentionally blank. The next operational step is PDF retrieval, followed by full-text screening
+and extraction. Separate final PRISMA counts still wait on the broader 1,255-record RA gate and the
+production keyword search.
+
+Alexandra's strict RA-approved relevance sheet has also been split reproducibly by step 77 into two
+paper sets. `output/compulsory-education-child-economic-value-ra-approved-papers.csv` contains 16
+distinct papers (10 theory/mechanism; 6 reduced-form quantum). The quantum papers remain mechanism-
+unverified until full-text review. `output/tempo-effects-birth-postponement-compulsory-schooling-ra-approved-papers.csv`
+contains 10 empirical tempo papers. Geruso-Royer is intentionally in both sets. See
+`output/compulsory-education-ra-approved-mechanism-split.md` for the decision rule and interpretation.
+
 ## Child-labor laws / compulsory-schooling GACS replication — 2026-07-16
 
 Alexandra has completed the strict focused RA review. The post-RA quantitative retrieval handoff is

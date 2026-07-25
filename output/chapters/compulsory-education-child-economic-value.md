@@ -1,0 +1,198 @@
+# Compulsory Education and the Economic Value of Children
+
+**Category:** Economic  
+**Primary mechanism:** Compulsory education makes child work harder, reducing the economic return
+parents expect from an additional child and thereby reducing completed fertility.  
+**Target phenomenon:** First Demographic Transition  
+**Draft status:** Evidence-complete full-text draft. All 16 RA-approved papers and the post-review
+Shanan primary study are incorporated. A renewed three-rater panel is complete.
+
+## 1. The claim
+
+The hypothesis is not merely that compulsory schooling affects fertility. It claims a particular
+causal chain: compulsory attendance reduces children's work, that loss lowers children's economic
+value to their parents, and parents respond by having fewer children. Its primary outcome is
+completed fertility, not teenage birth timing.
+
+This distinction matters because most quasi-experimental compulsory-schooling studies change the
+prospective mother's own education. Such estimates can identify a reduced-form effect of a law on
+her fertility, but they do not identify the expected work value of her future children.
+
+## 2. Theoretical mechanism
+
+In models where children contribute labor or household production, an additional child provides
+both costs and returns. A binding schooling requirement removes time from work and can lower the
+return side of that calculation. Parents may then substitute from child quantity toward schooling
+and other investments per child.
+
+Hazan and Berdugo provide the most direct formal statement: child labor raises fertility in their
+development-trap model, and a temporary prohibition or compulsory-schooling intervention can
+accelerate movement toward a low-child-labor, low-fertility steady state. Mookherjee, Prina, and Ray
+likewise show how stronger child-labor regulation changes education, occupational composition, and
+steady-state fertility. Fioroni derives the same sign through child costs: child work lowers the cost
+of children and raises fertility. Takakura supplies important heterogeneous counterevidence: banning
+child labor lowers fertility among unskilled parents but raises it among skilled parents in his
+model, so the aggregate sign need not be uniformly negative.
+
+Emerson and Knabb add an expectations channel: a temporary child-labor ban combined with mandatory
+education can move households from a high-fertility, incomplete-education equilibrium to a
+persistent low-fertility equilibrium. Baland and Robinson are more cautious. Although child labor
+can be inefficient and a ban welfare-improving, its fertility effect is theoretically ambiguous.
+Cigno and Rosati's policy synthesis likewise shows that compulsory education or a partial work
+restriction can establish a self-enforcing higher-education equilibrium, while a total ban may
+require complementary insurance and education policy.
+
+The retrieved Greenwood, Seshadri, and Vandenbroucke working paper formalizes a closely related
+child-productivity mechanism, but it also challenges the policy interpretation. In its historical
+account, technological change and rising skill demand explain the decline of child labor, while
+effective child-labor regulation arrived after much of the withdrawal from work had already
+occurred. Compulsory-schooling and child-labor laws may therefore be consequences or complements
+of the economic transformation rather than its initiating cause.
+
+Cigno and Rosati's evidence chapter describes combined schooling and child-work restrictions as
+explaining about 10% of the observed US fertility decline. The underlying primary study is Shanan
+(2023). Its full text shows that the exact back-of-envelope estimate is 8%, not 10%. Exposure to
+any restriction at ages 20--30 predicts a 0.85 percentage-point reduction in annual birth
+probability (SE 0.11 percentage points; baseline 14.3%; Table 7, column 2), while a one-year increase
+in average school exit age predicts a 0.27 percentage-point reduction (SE 0.03; Table 8, column 2).
+The study also documents lower child employment and higher school attendance (Table 2) and directly
+estimates completed fertility: exposure at ages 20--30 predicts 0.301 fewer children (SE 0.044;
+Table 4, column 2), while a one-year higher exit age predicts 0.108 fewer children (SE 0.024; Table
+5, column 2). This is the closest primary evidence to the claimed mechanism.
+
+## 3. Search and routing
+
+The original combined search screened 1,255 citation-frame records. Alexandra's strict focused RA
+review was later divided into mechanism-specific sets. After collapsing publication versions, the
+child-economic-value set contains 16 papers: 10 theory/mechanism papers and six empirical quantum
+papers.
+
+The empirical papers entered this set because they report completed or desired fertility under a
+compulsory-schooling reform. Alexandra's completed mechanism review classifies none of these
+reduced-form papers as direct child-value evidence: Cummins is routed to decreased teenage
+pregnancy, Fort, Chen-Guo, and Kan-Lee are not explicit, and Lei et al. is neither mechanism. Their
+set membership preserves contextual relevance but does not establish the child-value mechanism.
+
+The search flow is a GACS cold-start citation-frame audit rather than the protocol's ordinary
+keyword-search PRISMA flow. It identified and deduplicated 1,255 records; the blinded AI screen
+classified 233 Relevant, 128 Uncertain, and 894 Not relevant. The focused exception sheet contained
+42 records, the strict policy/outcome gate retained 28 retrieval candidates before publication-
+version collapse, and Alexandra's final routing produced 16 distinct child-value papers. Shanan was
+subsequently added as a transparently labeled primary-study supplement. These counts must not be
+presented as a conventional database-keyword PRISMA search.
+
+## 4. Full-text progress
+
+| Stage | Count |
+|---|---:|
+| RA-approved distinct papers | 16 |
+| Theory/mechanism papers | 10 |
+| Empirical quantum papers | 6 |
+| PDFs retrieved and text-extracted | 16 |
+| Still requiring retrieval | 0 |
+| Post-review primary-study supplements | 1 |
+
+The retrieved sources include all six approved empirical papers and all 10 formal/historical theory
+papers. All 10 theory/mechanism papers are classified as value-of-children evidence. Shanan is kept
+outside those RA-approved counts and clearly labeled as a post-review supplement. It verifies child-
+employment and attendance first stages and both completed- and period-fertility reduced forms in the
+same study. It does not directly estimate the monetary value parents place on child work or formally
+estimate mediation through that value.
+
+## 5. Available empirical evidence
+
+Fort, Schneeweis, and Winter-Ebmer use compulsory-schooling reforms across England and Continental
+Europe. Additional schooling is associated with lower completed fertility in England, but not in
+Continental Europe, where the reforms do not reduce biological children or increase childlessness.
+The treatment changes adults' own schooling and does not isolate children's productive value.
+
+Geruso and Royer exploit the 1972 British school-leaving reform. The reform reduces births at ages
+16 and 17, but fertility effects disappear after the teenage years and completed family size by age
+45 is precisely unchanged. Their mechanism evidence points to conceptions prevented while girls
+are required to attend school, not to parents valuing future children less.
+
+Cummins studies the 1947 and 1972 English reforms using linked historical registration records. The
+estimated effects on first-marriage fertility are effectively zero, and the analysis rules out a
+substantial negative causal effect. Again, this is evidence about women's own schooling rather than
+the labor value of their future children.
+
+Kan and Lee exploit Taiwan's 1968 extension of compulsory schooling using exact dates of birth and
+whole-population censuses. Their RD estimates show that the reform increased women's education but
+did not change fertility, including completed fertility. Chen and Guo instead find that an
+additional year of reform-induced female education in China reduces total live births by 0.238
+(SE 0.059), without a significant childlessness effect. Their channel analysis emphasizes delayed
+marriage and birth, women's opportunity costs, assortative mating, and child mortality—not the work
+value of children. Lei and coauthors find that exposure to China's law reduces women's desired
+family size by 0.009 child per exposure year but does not measure completed fertility; their
+mechanism is women's opportunity cost and intrahousehold contraceptive bargaining.
+
+Together, the approved empirical studies do not directly test the original mechanism. They also do
+not provide a consistent negative reduced-form effect on completed fertility. Shanan materially
+narrows the direct-evidence gap: policy exposure predicts less child employment, greater attendance,
+and lower completed fertility. The remaining gap is mechanism isolation. The study combines
+compulsory-schooling and child-labor restrictions and cannot disentangle lost child earnings from
+higher expected child quality or formally estimate their mediated effects.
+
+## 6. Quantitative synthesis
+
+No mechanism-specific pooled estimate is justified. Shanan is the only study with a verified child-
+work first stage and completed-fertility estimate; the remaining studies differ in countries,
+reforms, outcomes, and estimands. Pooling own-schooling coefficients would answer a different
+question.
+
+## 7. Demographic significance
+
+Shanan's explicit calculation attributes 8% of the 1900--1930 decline in annual birth probability
+among 30-year-old native-born women to expanded restriction exposure: exposure rose by 48 percentage
+points, the estimated annual effect is 0.85 percentage points, and observed birth probability fell
+by five percentage points, giving `0.48 * 0.85 / 5 = 0.08`. This is below the protocol's 10%
+demographic-significance threshold. It supports a Partial verdict, not a threshold-significant one.
+The calculation is age-specific, back-of-envelope, and lacks a bootstrap uncertainty interval.
+Propagating only Shanan's reported coefficient SE while treating exposure and the five-point
+historical denominator as fixed yields an analytic 95% interval of 6.1% to 10.2%. The point estimate
+therefore remains below threshold, while its upper sampling bound narrowly exceeds it. This is a
+sensitivity calculation, not the protocol-preferred bootstrap interval.
+
+## 8. Provisional GRADE assessment
+
+**FDT causal mechanism: Low (unanimous renewed three-rater panel).** Shanan supplies one credible
+historical quasi-experiment connecting restrictions, child work and attendance, and completed
+fertility. It does not reach Moderate because the full mechanism has no independent replication,
+policy adoption may retain residual endogeneity, and lost child economic value is inferred rather
+than directly measured as a mediator.
+
+## 9. Provisional verdict
+
+| Phenomenon | Causal credibility | Demographic significance |
+|---|---|---|
+| FDT | Low | Partial; 8% decomposition is below the 10% threshold |
+
+The expanded evidence supports a historically relevant policy-to-child-work-to-completed-fertility
+relationship. It remains uncertain how much operates specifically through lost child earnings
+rather than increased child quality or other bundled schooling effects.
+
+## 10. Required next analysis
+
+The decisive next evidence would independently replicate Shanan and formally mediate the fertility
+effect through reduced child earnings or another measure of children's economic contribution.
+A population-wide TFR or completed-fertility decomposition with uncertainty would improve scaling.
+No approved or supplementary full texts remain missing.
+
+## 11. Reproducibility
+
+- RA-approved set: `output/compulsory-education-child-economic-value-ra-approved-papers.csv`
+- PDF manifest: `output/compulsory-education-pdf-retrieval-manifest.csv`
+- Extracted evidence: `extraction/compulsory-education-accessible-fulltext-evidence.csv`
+- Preliminary risk of bias: `extraction/compulsory-education-accessible-risk-of-bias-preliminary.csv`
+- GRADE panel: `output/compulsory-education-grade-panel.csv`
+- Post-review Shanan extraction: `extraction/compulsory-education-shanan-primary-study.csv`
+- Included-study audit table: `output/compulsory-education-included-studies.csv`
+- Search-flow accounting: `output/compulsory-education-stream-prisma-accounting.csv`
+- Shanan scaling sensitivity: `output/compulsory-education-shanan-demographic-significance.csv`
+- Lay-readability gate: `output/compulsory-education-chapters-lay-readability-review.csv`
+
+## References added in the post-review supplement
+
+Shanan, Y. (2023). The effect of compulsory schooling laws and child labor restrictions on
+fertility: evidence from the early twentieth century. *Journal of Population Economics*, 36(1),
+321--358. https://doi.org/10.1007/s00148-021-00838-1
