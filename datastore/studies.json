@@ -3,6 +3,30 @@
   "_description": "DOI-keyed registry of screened and included studies. SOURCE OF TRUTH for the bibliography. Screening/dedup stages append here; literature/bib/*.bib is generated from this via `make bib` and must never be hand-edited. One object per study, keyed by normalized DOI (lowercase, no URL prefix). Use citekey for BibTeX.",
   "studies": [
     {
+      "doi": "10.1007/s00148-021-00838-1",
+      "citekey": "shanan2023effect",
+      "type": "article",
+      "title": "The Effect of Compulsory Schooling Laws and Child Labor Restrictions on Fertility: Evidence from the Early Twentieth Century",
+      "authors": [
+        "Shanan, Yannay"
+      ],
+      "year": 2023,
+      "venue": "Journal of Population Economics",
+      "hypotheses": [
+        "compulsory-education-child-economic-value"
+      ],
+      "phenomena": [
+        "FDT"
+      ],
+      "screen_status": "included",
+      "exclude_reason": null,
+      "pdf_path": null,
+      "source_api": "openalex_and_publisher",
+      "openalex_id": "W3174215957",
+      "added_by": "codex",
+      "verified": true
+    },
+    {
       "doi": null,
       "citekey": "zelu2023pension",
       "type": "unpublished",

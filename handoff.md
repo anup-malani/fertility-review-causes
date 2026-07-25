@@ -2,6 +2,13 @@
 
 ## Compulsory-education full-text automation — 2026-07-24
 
+Update (2026-07-25): Cigno-Rosati's historical-US "about 10%" claim has been traced to Shanan
+(2023), DOI `10.1007/s00148-021-00838-1`. Publisher Tables 7--8 and 12--14 verify negative fertility
+reduced forms, lower child employment, and higher school attendance. The study is a post-review
+supplement, not retroactively part of Alexandra's 16-paper approved set. The exact 10% decomposition
+remains unauditable from accessible tables, and the pre-supplement three-rater GRADE rating has not
+been changed. See `extraction/compulsory-education-shanan-primary-study.csv`.
+
 Steps 78-80 automate OA PDF retrieval, PDF validation, text extraction, verified accessible-source
 evidence, and preliminary risk-of-bias coding. Current coverage is 25/25 distinct RA-approved
 sources: 10/10 compulsory-schooling tempo papers and 16/16 child-economic-value papers. The manual

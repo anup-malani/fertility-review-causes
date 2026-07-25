@@ -1,6 +1,8 @@
 # Compulsory-Education GRADE and Demographic-Significance Assessment
 
-Status: Final three-rater panel assessment after Alexandra's authoritative mechanism review.
+Status: Final three-rater panel assessment after Alexandra's authoritative mechanism review, with a
+post-panel Shanan primary-study supplement recorded below. The panel rating has not been silently
+changed.
 
 ## Mechanism routing used
 
@@ -21,9 +23,12 @@ reduced child work/value to completed fertility. Cigno and Rosati report a histo
 full primary-study extraction. Directness and consistency therefore require major downgrading.
 
 **Demographic significance: Insufficient data.** The protocol requires a decomposition share,
-slope-sufficiency calculation, or conditional R-squared benchmark. The evidence set has no verified
-primary estimate linking a measured change in child work value to completed fertility over the FDT,
-so none of the three thresholds can be evaluated without importing an unextracted study estimate.
+slope-sufficiency calculation, or conditional R-squared benchmark. The post-panel Shanan extraction
+verifies a policy-to-child-employment first stage and a policy-to-annual-birth-probability reduced
+form, but not the monetary-value mediator or completed fertility. Its reported contribution of
+about 10% is exactly at the protocol threshold, yet the accessible primary tables do not show the
+decomposition numerator, historical denominator, or uncertainty interval. The threshold therefore
+cannot yet be audited.
 
 ## Compulsory schooling as a teenage-birth/postponement driver
 
@@ -48,3 +53,12 @@ two demographic-significance verdicts. The maximum disagreement is zero levels, 
 is triggered. The secondary historical claim that restrictions explain about 10% of the US decline
 would require extraction of its underlying primary study before it could change the demographic-
 significance verdict. No additional approved-set PDF retrieval is needed.
+
+## Post-panel primary-study supplement
+
+The Cigno-Rosati chapter's historical-US claim was traced to Shanan (2023), DOI
+`10.1007/s00148-021-00838-1`. Publisher Tables 7, 8, and 12 verify negative fertility reduced forms;
+Tables 13 and 14 verify lower child employment and higher school attendance. This is materially more
+direct than the evidence available to the panel, but it does not by itself establish mediation
+through child economic value or lifetime fertility quantum. A renewed independent panel is required
+if this supplement is to alter the formal GRADE rating.

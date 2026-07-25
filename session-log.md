@@ -1198,6 +1198,24 @@ chapter narratives to use the human routing.
 
 ---
 
+# [2026-07-25] — Shanan primary-study follow-up
+
+**Agent:** Codex
+**Machine:** Alexandra workspace
+
+### Result
+
+- Traced Cigno-Rosati's historical-US "about 10%" fertility-decline claim to Yannay Shanan (2023),
+  DOI `10.1007/s00148-021-00838-1`.
+- Verified publisher Tables 7, 8, and 12--14: the study reports negative annual-birth-probability
+  reduced forms, lower child employment, and higher school attendance.
+- Added six reproducible extraction rows and registered the study in the DOI-keyed datastore.
+- Kept demographic significance at Insufficient data because the accessible tables do not expose
+  the 10% decomposition numerator, denominator, or uncertainty.
+- Preserved the pre-supplement three-rater GRADE verdict pending renewed independent adjudication.
+
+---
+
 # [2026-07-25] — Compulsory-education three-rater GRADE panel
 
 **Agent:** Codex coordinating three independent agent raters

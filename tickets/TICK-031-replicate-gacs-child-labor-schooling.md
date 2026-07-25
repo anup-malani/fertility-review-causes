@@ -25,6 +25,13 @@ run a reproducible production search and screening funnel for the FDT estimand.
 - [ ] Cross-hypothesis lessons and any deviations from the documented GACS prototype are recorded.
 
 ## Log
+- 2026-07-25, Alexandra/Codex: Followed Cigno-Rosati's historical-US "about 10%" claim to
+  Yannay Shanan (2023), DOI 10.1007/s00148-021-00838-1. The subscription PDF was unavailable,
+  but publisher table pages verified fertility reduced forms plus child-employment and schooling
+  first stages. Added a reproducible six-row primary-study supplement and updated the chapter and
+  demographic-significance assessment. The 10% decomposition remains unauditable because its
+  numerator, denominator, and uncertainty are not exposed in the accessible tables; the prior
+  three-rater GRADE rating is preserved pending renewed adjudication.
 - 2026-07-25, Alexandra/Codex: Completed the protocol-required three-rater GRADE panel. It was
   unanimous: child economic value = Very Low for FDT; compulsory-schooling teenage-birth timing =
   Moderate; aggregate demographic significance = Insufficient data for both. Maximum disagreement
