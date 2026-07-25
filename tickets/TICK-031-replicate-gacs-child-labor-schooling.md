@@ -25,6 +25,12 @@ run a reproducible production search and screening funnel for the FDT estimand.
 - [ ] Cross-hypothesis lessons and any deviations from the documented GACS prototype are recorded.
 
 ## Log
+- 2026-07-24, Alexandra/Codex: Reconciled Alexandra's direct mechanism edits and applied three
+  confirmed corrections. Step 80 now preserves 25 authoritative classifications: 11 decreased
+  teen pregnancy, 10 value of children, three not-explicit/neither-not-explicit, and one neither.
+  Cleaned spreadsheet artifacts and updated both drafts. Added an AI GRADE/demographic assessment:
+  child value Very Low / insufficient data; schooling tempo Moderate / insufficient aggregate
+  scaling. Ratings remain provisional under the required three-rater panel.
 - 2026-07-24, Alexandra/Codex: Matched and renamed the final four RA-supplied sources (Kan-Lee,
   Cigno-Rosati chapters 7 and 9, and Lei et al.). Retrieval and extraction are now complete at
   25/25 overall, 10/10 tempo, and 16/16 child value. Added four evidence rows and two empirical

@@ -24,6 +24,11 @@ generated. A published-version audit retrieved Fioroni and the repository versio
 resolved final citations for every record. See
 `output/compulsory-education-published-version-audit.csv`.
 
+Alexandra completed the authoritative mechanism review in the full-text evidence table. Final
+classifications are 11 decreased-teen-pregnancy papers, 10 value-of-children theory/mechanism
+papers, three not-explicit/neither-context papers, and one neither paper. Step 80 now reapplies
+these classifications reproducibly instead of restoring the earlier granular AI labels.
+
 ## Compulsory-education routing — 2026-07-24
 
 The former combined `child-labor-laws-and-schooling` hypothesis now feeds two levels of the master

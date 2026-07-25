@@ -1174,3 +1174,26 @@ Kan-Lee, both Cigno-Rosati chapters, and Lei et al. into the child-value synthes
 - Child-value draft is evidence-complete; independent GRADE adjudication and FDT scaling remain.
 
 ---
+
+# [2026-07-24] — Alexandra mechanism adjudication reconciled
+
+**Agent:** Codex
+**Machine:** Alexandra workspace
+
+### Summary
+
+Converted Alexandra's direct edits to the evidence table into reproducible step-80 overrides,
+applied three confirmed classifications, removed spreadsheet-added empty columns, and updated both
+chapter narratives to use the human routing.
+
+### Result
+
+- Decreased teen pregnancy: 11 papers.
+- Value of children: 10 papers.
+- Not explicit / neither-not-explicit: three papers.
+- Neither: one paper.
+- AI assessment: Very Low GRADE for the FDT child-value claim and Moderate for schooling as a
+  teenage-birth timing driver; aggregate demographic significance remains insufficient data.
+- Final GRADE remains subject to the protocol-required three-rater panel.
+
+---

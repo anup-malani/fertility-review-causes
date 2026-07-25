@@ -62,8 +62,10 @@ child-economic-value set contains 16 papers: 10 theory/mechanism papers and six 
 papers.
 
 The empirical papers entered this set because they report completed or desired fertility under a
-compulsory-schooling reform. Set membership preserves their relevance to the policy-fertility
-question; it does not establish the child-value mechanism.
+compulsory-schooling reform. Alexandra's completed mechanism review classifies none of these
+reduced-form papers as direct child-value evidence: Cummins is routed to decreased teenage
+pregnancy, Fort, Chen-Guo, and Kan-Lee are not explicit, and Lei et al. is neither mechanism. Their
+set membership preserves contextual relevance but does not establish the child-value mechanism.
 
 ## 4. Full-text progress
 
@@ -76,7 +78,8 @@ question; it does not establish the child-value mechanism.
 | Still requiring retrieval | 0 |
 
 The retrieved sources include all six empirical papers and all 10 formal/historical theory papers.
-None empirically estimates the entire claimed mechanism.
+All 10 theory/mechanism papers are classified as value-of-children evidence. None of the primary
+empirical papers estimates the entire claimed mechanism.
 
 ## 5. Available empirical evidence
 

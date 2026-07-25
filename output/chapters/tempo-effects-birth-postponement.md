@@ -56,6 +56,7 @@ All 10 PDFs have been retrieved and text-extracted.
 | Chaijaroen and Panda | Thailand; donut-hole RD | Ever birth falls 4–5 pp at ages 14–15 and through age 17 | Catch-up after school, significantly higher fertility at age 20 |
 | Bhattacharjee | India; IV staggered DiD | First birth by 21 falls 2.6 pp | Persistent own-human-capital/knowledge channel, not pure incapacitation |
 | Silles | Great Britain and Northern Ireland; compulsory-law IV | Post-contraception IV: birth by 17 falls 1.0 pp and birth by 20 falls 4.0 pp per schooling year | Own-schooling effect; channel not isolated |
+| Cummins | England and Wales; school-leaving-reform RD | No meaningful completed marital-fertility effect | Alexandra routes this paper to decreased teenage pregnancy; it supplies timing context rather than a teen-specific effect estimate |
 
 ## 5. Quantitative synthesis
 
@@ -83,7 +84,9 @@ delayed first birth. India instead attributes persistent early-adult effects to 
 contraception, and human capital and explicitly rejects incapacitation as the main explanation.
 
 Thus compulsory schooling can operate through multiple channels, but the short-lived effects at
-legally covered ages are unusually consistent with direct attendance.
+legally covered ages are unusually consistent with direct attendance. Alexandra's mechanism review
+routes all 10 original tempo papers, plus Cummins, to the decreased-teenage-pregnancy stream;
+Arendt remains relevant as broader first-birth postponement rather than teen-specific evidence.
 
 ## 7. Completed fertility and demographic significance
 

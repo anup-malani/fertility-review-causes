@@ -389,6 +389,37 @@ ROB = [
      "Multiple surveys and first-stage checks are useful, but cohort exposure may share trends with outcomes and desired fertility is not realized completed fertility.", "PRELIMINARY_FULLTEXT"],
 ]
 
+# Alexandra's completed mechanism review. These intentionally replace the more granular AI
+# descriptions in the generated evidence table while the original study details remain in the
+# other extraction fields and chapter prose.
+RA_MECHANISM_OVERRIDES = {
+    "W2169373049": "Decreased teen pregnancy",
+    "W2185731654": "Decreased teen pregnancy",
+    "W3006219298": "Decreased teen pregnancy",
+    "W4385628385": "Decreased teen pregnancy",
+    "W4412362654": "Decreased teen pregnancy",
+    "W2186769068": "Decreased teen pregnancy",
+    "W2108204833": "Decreased teen pregnancy",
+    "W2154210580": "Decreased teen pregnancy",
+    "W4409029977": "Decreased teen pregnancy",
+    "W2411634914": "Neither/Not explicit",
+    "W3212471012": "Decreased teen pregnancy",
+    "W3125141375": "Value of children",
+    "W1525462723": "Value of children",
+    "W2073343854": "Value of children",
+    "W2753276478": "Value of children",
+    "W3093523732": "Value of children",
+    "W2152406420": "Value of children",
+    "W1961684553": "Value of children",
+    "W2117090144": "Value of children",
+    "W2028140859": "Decreased teen pregnancy",
+    "W4224284165": "Not explicit",
+    "W2752104534": "Not explicit",
+    "W4405603403": "Value of children",
+    "W4405602751": "Value of children",
+    "W4415043415": "Neither",
+}
+
 
 def write(path, fields, rows):
     with path.open("w", newline="", encoding="utf-8") as handle:
@@ -398,6 +429,8 @@ def write(path, fields, rows):
 
 
 def main():
+    for row in ROWS:
+        row["mechanism"] = RA_MECHANISM_OVERRIDES[row["paperId"]]
     write(EVIDENCE_OUT, EVIDENCE_FIELDS, ROWS)
     rob_rows = [dict(zip(ROB_FIELDS, row)) for row in ROB]
     write(ROB_OUT, ROB_FIELDS, rob_rows)
