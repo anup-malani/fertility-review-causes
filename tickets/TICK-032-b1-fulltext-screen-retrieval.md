@@ -1,5 +1,5 @@
 # TICK-032: B.1 full-text screen and retrieval reconciliation
-**Status:** open
+**Status:** partial — blocked on human library retrieval (automated ceiling reached at 20/95)
 **Assigned:** any
 **Parallel-safe:** no
 **Blocks:** TICK-033
@@ -14,12 +14,23 @@ quantitative core of the chapter. Retrieve PDFs, reconcile against the OpenAlex/
 the frozen screen, and confirm each retrieved study still belongs to its assigned stream on full text.
 
 ## Acceptance criteria
-- [ ] PDFs retrieved for the status-and-reproduction stream (Section 5.1 studies at minimum).
-- [ ] Full-text screen CSV with one row per retrieved study: stream confirmed / re-routed / excluded, with reason.
-- [ ] The RA gate over the 95 pooling set + 311 uncertain records is recorded (per the OAS TICK-015 pattern).
-- [ ] Re-routed papers (to A.2 / A.4 / D.1.a) are logged, not silently dropped.
+- [~] PDFs retrieved for the status-and-reproduction stream (Section 5.1 studies at minimum). **20 of 95 overall; 10 of 52 in this stream. Automated ceiling — see log.**
+- [x] Full-text screen CSV with one row per retrieved study: stream confirmed / re-routed / excluded, with reason.
+- [ ] The RA gate over the 95 pooling set + 311 uncertain records is recorded (per the OAS TICK-015 pattern). **Outstanding.**
+- [x] Re-routed papers (to A.2 / A.4 / D.1.a) are logged, not silently dropped.
 
 ## Log
+- 2026-07-25 (Claude): **This ticket is the binding constraint on the whole B.1 chapter and should not
+  be closed.** Downstream work (TICK-033/034/035/036) was completed on the 20 PDFs that could be got
+  automatically, which yielded 5 extractable studies. So the chapter's pooled estimate rests on 5 of
+  the 52 status-and-reproduction studies the frozen screen identified — a 10% sample of the intended
+  pool, chosen by what happens to be open-access rather than at random. Open-access availability
+  plausibly correlates with study age, publisher, and field, so this is a potential selection problem
+  on top of a precision problem, and the chapter should not be sent outside the team without either
+  widening retrieval or stating the limit explicitly.
+  **What unblocks it:** the 71 DOIs in `extraction/…-missing-pdf-dois.csv`, retrieved by a human via
+  Zotero + the UChicago proxy or the library's bulk tools. Status-and-reproduction DOIs first — those
+  are the only ones that change the pooled numbers.
 - 2026-07-22 (Claude): Built `source/build/goldset/72_b1_retrieve_pdfs.py` — reproducible OA retrieval
   via OpenAlex (all locations) + Unpaywall fallback, %PDF magic-byte verification (rejects HTML paywall
   pages), idempotent. **Retrieved 19/95** open-access PDFs to the gitignored

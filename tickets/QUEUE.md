@@ -7,6 +7,15 @@ Pick the first open ticket assigned to you or `any`. Before starting, pull/sync,
 `README.md` (Mode A pushes the claim to `main`; Mode B pushes a `tick-NNN-*` branch). Do not start
 a blocked ticket until its dependency is done. Parallel-safe tickets can be worked concurrently.
 
+> ⚠️ **TICK-032 is assigned twice and needs a team decision.** Two unrelated tickets were opened with
+> the same number on 2026-07-24 while the B.1 and schooling workstreams were unmerged:
+> [B.1 full-text screen and retrieval](TICK-032-b1-fulltext-screen-retrieval.md) (open, below) and
+> [Split compulsory education hypotheses](TICK-032-split-compulsory-education-hypotheses.md) (done).
+> The filenames differ so nothing was overwritten, but "TICK-032" is ambiguous in commit messages on
+> both sides. Renumbering either one rewrites references in already-pushed commits, so this is left for
+> the team to settle rather than fixed unilaterally. **Next free number is TICK-041** — claim from
+> there. To avoid a repeat, claim the number by pushing the QUEUE.md row before starting the work.
+
 ---
 
 ## Open — can start now
@@ -15,12 +24,7 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 |--------|-------|----------|---------------|
 | [TICK-039](TICK-039-compulsory-education-chapter-readability.md) | Compulsory-education chapter lay-readability review | Alexandra | no |
 | [TICK-030](TICK-030-replicate-gacs-agricultural-mode-production.md) | Replicate GACS for agricultural mode of production | any | no |
-| [TICK-032](TICK-032-b1-fulltext-screen-retrieval.md) | B.1 full-text screen and retrieval (status-fertility stream) | any | no |
-| [TICK-033](TICK-033-b1-effect-extraction.md) | B.1 status-fertility effect extraction | any | no (blocked by TICK-032) |
-| [TICK-034](TICK-034-b1-risk-of-bias.md) | B.1 risk-of-bias assessment | any | yes (blocked by TICK-033) |
-| [TICK-035](TICK-035-b1-status-fertility-meta-analysis.md) | B.1 status-fertility meta-analysis | any | yes (blocked by TICK-033) |
-| [TICK-036](TICK-036-b1-demographic-significance.md) | B.1 demographic-significance pass | any | no (blocked by TICK-034/035) |
-| [TICK-037](TICK-037-b1-chapter-finalization.md) | B.1 chapter finalization and PI review | any | no (blocked by TICK-036) |
+| [TICK-032](TICK-032-b1-fulltext-screen-retrieval.md) | **B.1 library retrieval of the 71 missing PDFs — needs a human with Zotero + UChicago proxy.** Automated ceiling hit at 20/95; the B.1 pooled estimate rests on 5 studies until this moves | Shravan or Alexandra | no |
 | [TICK-002](TICK-002-cultural-count-fix.md) | Fix Cultural-count in Merge Notes | any | yes |
 | [TICK-003](TICK-003-promote-batch-edits-lesson.md) | Promote batch-edits lesson to decisions/ | any | yes |
 | [TICK-004](TICK-004-gitignore-workflows.md) | Revisit .gitignore for .claude/workflows/ | any | yes |
@@ -31,6 +35,7 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 
 | Ticket | Title | Owner | Claimed (UTC) | Touches |
 |--------|-------|-------|---------------|---------|
+| [TICK-037](TICK-037-b1-chapter-finalization.md) | B.1 chapter finalization — **RA work complete, awaiting Anup's review**; PI packet has 6 numbered decisions | Shravan | 2026-07-25T00:00:00Z | `output/chapters/evolutionary-sex-drive-contraceptive-decoupling{,-pi-review-packet}.md` |
 | [TICK-019](TICK-019-oas-demographic-significance-and-chapter.md) | OAS demographic significance and hybrid chapter draft | Alexandra | 2026-07-17T14:45:00Z | `output/chapters/old-age-security-pension-crowdout.md`; OAS evidence records |
 | [TICK-031](TICK-031-replicate-gacs-child-labor-schooling.md) | Replicate GACS for child-labor laws and compulsory schooling | Alexandra | 2026-07-16T22:00:00Z | `source/build/goldset/`; `literature/search-logs/child-labor-laws-and-schooling-*`; related outputs/status files |
 
@@ -47,6 +52,10 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 
 | Ticket | Title | Closed |
 |--------|-------|--------|
+| [TICK-036](TICK-036-b1-demographic-significance.md) | B.1 demographic-significance pass | 2026-07-25 |
+| [TICK-035](TICK-035-b1-status-fertility-meta-analysis.md) | B.1 status-fertility meta-analysis (5 studies; see ticket for the three cautions) | 2026-07-25 |
+| [TICK-034](TICK-034-b1-risk-of-bias.md) | B.1 risk-of-bias assessment (4 of 5 studies serious) | 2026-07-25 |
+| [TICK-033](TICK-033-b1-effect-extraction.md) | B.1 status-fertility effect extraction (17 effects / 5 studies, bounded by TICK-032) | 2026-07-25 |
 | [TICK-040](TICK-040-finish-maternal-education-tempo-draft.md) | Finish maternal-own-education compulsory-schooling tempo draft | 2026-07-25 |
 | [TICK-038](TICK-038-nest-schooling-teen-births-under-tempo.md) | Nest compulsory-schooling teenage births under tempo postponement | 2026-07-24 |
 | [TICK-032](TICK-032-split-compulsory-education-hypotheses.md) | Split compulsory education into value-of-children and teenage-birth hypotheses | 2026-07-24 |

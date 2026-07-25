@@ -1,5 +1,5 @@
 # TICK-034: B.1 risk-of-bias assessment
-**Status:** open
+**Status:** done
 **Assigned:** any
 **Parallel-safe:** yes (with TICK-035)
 **Blocks:** TICK-036
@@ -15,10 +15,15 @@ Cross-population comparisons between contraceptive and non-contraceptive societi
 that the two society types differ on many dimensions beyond contraception.
 
 ## Acceptance criteria
-- [ ] One row per extracted study with confounding, selection, and identification ratings.
-- [ ] Cross-population (contraceptive vs non-contraceptive) comparisons flagged for the many-differences risk.
-- [ ] Observational status-fertility associations distinguished from any quasi-experimental estimate.
-- [ ] Overall risk field populated (low / moderate / serious) with a one-line rationale.
+- [x] One row per extracted study with confounding, selection, and identification ratings.
+- [x] Cross-population (contraceptive vs non-contraceptive) comparisons flagged for the many-differences risk.
+- [x] Observational status-fertility associations distinguished from any quasi-experimental estimate.
+- [x] Overall risk field populated (low / moderate / serious) with a one-line rationale.
 
 ## Log
-<!-- Append completion note here when done. -->
+- 2026-07-25 (Claude): 5 rows in `extraction/…-risk-of-bias.csv`, one per extracted study, over the
+  full nine-domain schema plus `cross_population`, `overall`, `rationale`, and `ra_verified`.
+  **Ratings: 4 of 5 serious, 1 moderate** (von Rueden W2507848855). The serious ratings are driven by
+  the confounding domain, as anticipated: these are observational status-fertility associations with no
+  quasi-experimental variation anywhere in the extracted set. This is the input that caps the GRADE
+  rating downstream, and it should be read alongside the k=1 leave-one-out fragility noted in TICK-037.
