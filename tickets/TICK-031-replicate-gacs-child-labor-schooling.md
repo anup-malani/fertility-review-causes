@@ -14,17 +14,25 @@ compulsory schooling, and related human-capital mechanisms; calibrate the query 
 run a reproducible production search and screening funnel for the FDT estimand.
 
 ## Acceptance criteria
-- [ ] The FDT hypothesis and primary/off-cell estimands are specified before screening.
+- [x] The FDT hypothesis and primary/off-cell estimands are specified before screening.
 - [ ] A DOI/title-keyed, provenance-recorded cold-start gold set is built from orthogonal sources and frozen after review.
 - [ ] Query terms and breadth are calibrated without training/test leakage, with recall and candidate-budget results recorded.
 - [ ] The live search is run reproducibly with caching, deduplication, and a search log.
-- [ ] The deterministic and LLM screening funnel produces tiered topical and estimand-ready outputs.
-- [ ] Studies belonging primarily to mode of production are routed to TICK-030 rather than combined with this estimand.
-- [ ] Full-text extraction distinguishes child economic return, child quality cost, women's own opportunity cost, timing, knowledge/preferences, and mixed/unclear mechanisms before drafting.
-- [ ] Full-text extraction records whether the law changes the prospective parent's schooling, the expected schooling of future children, or both.
-- [ ] Cross-hypothesis lessons and any deviations from the documented GACS prototype are recorded.
+- [x] The deterministic and LLM screening funnel produces tiered topical and estimand-ready outputs.
+- [x] Studies belonging primarily to mode of production are routed to TICK-030 rather than combined with this estimand.
+- [x] Full-text extraction distinguishes child economic return, child quality cost, women's own opportunity cost, timing, knowledge/preferences, and mixed/unclear mechanisms before drafting.
+- [x] Full-text extraction records whether the law changes the prospective parent's schooling, the expected schooling of future children, or both.
+- [x] Cross-hypothesis lessons and any deviations from the documented GACS prototype are recorded.
 
 ## Log
+- 2026-07-25, Alexandra/Codex: Built final chapter-support artifacts: explicit GACS/PRISMA
+  accounting, a joined included-study/risk-of-bias audit table, an analytic sensitivity interval
+  for Shanan's decomposition (8.16%; analytic 95% interval 6.09%-10.23%), and the required blank
+  lay-readability review gate for both drafts. The interval treats the exposure change and observed
+  decline as fixed and is not a substitute for the protocol-preferred bootstrap CI. TICK-031 now
+  has only the query-calibration/live-production-search and gold-freeze criteria open; whether the
+  completed cold-start GACS frame substitutes for the standard two-phase search requires a
+  methodological decision before further execution.
 - 2026-07-25, Alexandra/Codex: Acquired and extracted the full Shanan PDF. The primary article
   resolves the secondary claim: its explicit decomposition is 8%, calculated as
   `0.48 * 0.85 / 5`, below the protocol's 10% threshold. It also reports completed-fertility

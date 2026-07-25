@@ -357,6 +357,8 @@ ROB_FIELDS = [
 ]
 
 ROB = [
+    ["W3174215957", "Historical state/cohort and neighboring-border quasi-experiment", "SERIOUS", "MODERATE", "MODERATE", "LOW", "LOW", "MODERATE", "SERIOUS",
+     "State/cohort and border designs, placebo exposure, alternative staggered-treatment estimators, and mortality checks strengthen identification; residual policy-adoption endogeneity and bundled schooling/child-labor channels remain material.", "POST_REVIEW_FULLTEXT_SUPPLEMENT"],
     ["W2169373049", "Law/cohort quasi-experiment", "SERIOUS", "MODERATE", "MODERATE", "LOW", "MODERATE", "MODERATE", "SERIOUS",
      "US law adoption may correlate with state trends; Norway is stronger but estimates need specification-level review.", "PRELIMINARY_FULLTEXT"],
     ["W2185731654", "RD", "LOW", "LOW", "LOW", "LOW", "LOW", "LOW", "LOW",

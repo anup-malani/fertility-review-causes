@@ -42,6 +42,14 @@ All 10 PDFs have been retrieved and text-extracted.
 | PDFs retrieved and text-extracted | 10 |
 | Awaiting retrieval | 0 |
 
+The shared search is a GACS cold-start citation-frame audit rather than a conventional keyword-
+database PRISMA flow. It identified and deduplicated 1,255 records; the blinded screen classified
+233 Relevant, 128 Uncertain, and 894 Not relevant. The focused exception sheet contained 42 records,
+and the strict policy/outcome gate retained 28 retrieval candidates before publication-version
+collapse. Alexandra's final mechanism routing produced 10 distinct compulsory-schooling tempo
+papers. The reproducible accounting table labels these stages so they are not mistaken for the
+protocol's future Phase 1/Phase 2 production-search counts.
+
 ## 4. Included compulsory-schooling studies
 
 | Study | Setting/design | Main timing result | Persistence/mechanism |
@@ -129,7 +137,10 @@ a credible explanation for an equally large reduction in completed fertility.
 The final tempo-postponement chapter must synthesize other upstream drivers—education and career
 returns, marriage postponement, housing and economic constraints, and cultural change—and then
 estimate their combined contribution without double counting. For the compulsory-schooling stream,
-the remaining tasks are effect-level standard-error extraction and macro tempo scaling.
+further standard-error extraction would improve the structured effect table but would not presently
+create a poolable family: no family has three independent studies with comparable estimates and
+SEs. Macro tempo scaling remains unavailable without a common age-specific fertility-rate treatment
+scale.
 
 ## 11. Reproducibility
 
@@ -140,3 +151,6 @@ the remaining tasks are effect-level standard-error extraction and macro tempo s
 - Pooling audit: `output/tempo-effects-birth-postponement-compulsory-schooling-synthesis-readiness.csv`
 - Preliminary risk of bias: `extraction/compulsory-education-accessible-risk-of-bias-preliminary.csv`
 - GRADE panel: `output/compulsory-education-grade-panel.csv`
+- Included-study audit table: `output/compulsory-education-included-studies.csv`
+- Search-flow accounting: `output/compulsory-education-stream-prisma-accounting.csv`
+- Lay-readability gate: `output/compulsory-education-chapters-lay-readability-review.csv`

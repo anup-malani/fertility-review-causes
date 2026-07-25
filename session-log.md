@@ -1198,6 +1198,22 @@ chapter narratives to use the human routing.
 
 ---
 
+# [2026-07-25] — Compulsory-education chapter-support finalization
+
+**Agent:** Codex
+**Machine:** Alexandra workspace
+
+### Result
+
+- Added reproducible GACS/PRISMA accounting and a joined included-study/risk-of-bias audit table.
+- Propagated Shanan's reported coefficient SE through the historical decomposition: 8.16% point
+  estimate, analytic 95% sensitivity interval 6.09%-10.23%. This is not a bootstrap CI.
+- Generated the required blank RA lay-readability checklist for both chapter drafts.
+- Identified the remaining methodological gate: whether cold-start GACS substitutes for the
+  protocol's standard two-phase production search. No new search was run pending that decision.
+
+---
+
 # [2026-07-25] — Shanan full-text audit and renewed GRADE panel
 
 **Agent:** Codex coordinating three independent agent raters

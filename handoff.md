@@ -11,6 +11,16 @@ Insufficient data to Partial/below the 10% threshold. The study remains a post-r
 not retroactively part of Alexandra's 16-paper approved set. See
 `extraction/compulsory-education-shanan-primary-study.csv`.
 
+Update (2026-07-25, chapter finalization): Reproducible step 84 now creates shared search-flow
+accounting, a joined included-study/risk-of-bias table, Shanan demographic-scaling sensitivity, and
+the blank RA lay-readability gate. Shanan's 8.16% point estimate has a delta-method sensitivity
+interval of 6.09%-10.23% when only the coefficient SE is propagated; this is not the protocol-
+preferred bootstrap interval. The next human gate is completion of
+`output/compulsory-education-chapters-lay-readability-review.csv`. TICK-031 also needs a PI/method
+decision on whether its completed cold-start GACS citation frame substitutes for the protocol's
+standard two-phase keyword-plus-snowball production search; running a new search without that ruling
+could constitute a pre-registration deviation.
+
 Steps 78-80 automate OA PDF retrieval, PDF validation, text extraction, verified accessible-source
 evidence, and preliminary risk-of-bias coding. Current coverage is 25/25 distinct RA-approved
 sources: 10/10 compulsory-schooling tempo papers and 16/16 child-economic-value papers. The manual

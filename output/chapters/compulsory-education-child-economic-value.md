@@ -73,6 +73,14 @@ reduced-form papers as direct child-value evidence: Cummins is routed to decreas
 pregnancy, Fort, Chen-Guo, and Kan-Lee are not explicit, and Lei et al. is neither mechanism. Their
 set membership preserves contextual relevance but does not establish the child-value mechanism.
 
+The search flow is a GACS cold-start citation-frame audit rather than the protocol's ordinary
+keyword-search PRISMA flow. It identified and deduplicated 1,255 records; the blinded AI screen
+classified 233 Relevant, 128 Uncertain, and 894 Not relevant. The focused exception sheet contained
+42 records, the strict policy/outcome gate retained 28 retrieval candidates before publication-
+version collapse, and Alexandra's final routing produced 16 distinct child-value papers. Shanan was
+subsequently added as a transparently labeled primary-study supplement. These counts must not be
+presented as a conventional database-keyword PRISMA search.
+
 ## 4. Full-text progress
 
 | Stage | Count |
@@ -140,6 +148,10 @@ points, the estimated annual effect is 0.85 percentage points, and observed birt
 by five percentage points, giving `0.48 * 0.85 / 5 = 0.08`. This is below the protocol's 10%
 demographic-significance threshold. It supports a Partial verdict, not a threshold-significant one.
 The calculation is age-specific, back-of-envelope, and lacks a bootstrap uncertainty interval.
+Propagating only Shanan's reported coefficient SE while treating exposure and the five-point
+historical denominator as fixed yields an analytic 95% interval of 6.1% to 10.2%. The point estimate
+therefore remains below threshold, while its upper sampling bound narrowly exceeds it. This is a
+sensitivity calculation, not the protocol-preferred bootstrap interval.
 
 ## 8. Provisional GRADE assessment
 
@@ -174,6 +186,10 @@ No approved or supplementary full texts remain missing.
 - Preliminary risk of bias: `extraction/compulsory-education-accessible-risk-of-bias-preliminary.csv`
 - GRADE panel: `output/compulsory-education-grade-panel.csv`
 - Post-review Shanan extraction: `extraction/compulsory-education-shanan-primary-study.csv`
+- Included-study audit table: `output/compulsory-education-included-studies.csv`
+- Search-flow accounting: `output/compulsory-education-stream-prisma-accounting.csv`
+- Shanan scaling sensitivity: `output/compulsory-education-shanan-demographic-significance.csv`
+- Lay-readability gate: `output/compulsory-education-chapters-lay-readability-review.csv`
 
 ## References added in the post-review supplement
 
