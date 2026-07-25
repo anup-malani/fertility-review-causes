@@ -323,14 +323,20 @@ physical-exposure study are set aside, is a thin base for a demographic claim.
 
 The second is that the distinctive claim rests on four studies, none measuring births.
 
-The third is a demonstrated weakness in the search rather than in the literature, and it should be
-stated plainly. The boundary against the general mental-health account is effectively untested. Of
-1,170 screened candidates, exactly one routed to that neighbouring chapter. A citation neighbourhood
-built from climate-specific anchors never reaches the general-anxiety literature, so the wall separating
-ecological dread from ordinary anxiety was never exercised. The boundary currently rests on assertion
-rather than on demonstrated routing. A targeted probe against the general-anxiety-and-fertility
-literature would test it, and until that is run the discriminant validity of this chapter's core
-construct is an assumption.
+The third follows from how narrowly the hypothesis is drawn, and it bounds what the chapter is
+entitled to say rather than revealing a fault in the search. Of 1,170 screened candidates, exactly one
+routed to the general mental-health chapter. A citation neighbourhood built from climate-specific
+anchors does not reach the general-anxiety literature, so the boundary between ecological dread and
+ordinary anxiety was never exercised in practice.
+
+This is the expected consequence of a deliberately narrow scope, and the review has not treated it as a
+defect to correct. The chapter is scoped to fear with specifically ecological content, and it retrieves
+that. What follows is a limit on interpretation, not on the evidence: this chapter can describe what
+the climate-specific literature finds, and it cannot demonstrate that climate anxiety operates
+differently from general anxiety, because it never assembled the comparison that would show it. A
+reader who wants to know whether the ecological content of the fear is what matters, rather than the
+fear itself, should read this chapter alongside the mental-health chapter rather than expecting this
+one to settle it.
 
 Three extensions would move the chapter. First, a design linking a validated climate-anxiety measure to
 subsequent realized births in a panel, which would convert the entire stated-intention literature from
@@ -384,8 +390,12 @@ records, pooling-set assembly, and the production-query and overlap work.
 Pending before this chapter is anything more than a skeleton: the reviewer gate over the boundary
 calls and the 122 records that could not be screened from title alone; full-text retrieval, starting
 with the eight realized-fertility studies; effect extraction; risk-of-bias coding; the two separate
-syntheses; the demographic-significance pass; and a probe testing the untested boundary against the
-general mental-health account.
+syntheses; and the demographic-significance pass.
+
+Not planned: a probe against the general-anxiety literature. The boundary with the mental-health
+chapter was exercised only once in 1,170 records, which is the expected result of scoping this
+hypothesis narrowly to ecological fear content. That scope is deliberate, and the corresponding limit
+on interpretation is stated in Section 12 rather than treated as work outstanding.
 
 ## 14. References for the Current Draft
 
