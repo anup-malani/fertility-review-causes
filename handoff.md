@@ -27,13 +27,18 @@ sources: 10/10 compulsory-schooling tempo papers and 16/16 child-economic-value 
 acquisition queue is empty.
 
 Two current drafts exist:
-- `output/chapters/compulsory-education-child-economic-value.md` is evidence-complete. None of the
-  primary empirical papers jointly identifies the full child-work-value mechanism; Cigno-Rosati's
-  evidence chapter provides the closest secondary historical synthesis.
-- `output/chapters/tempo-effects-birth-postponement.md` contains a substantive compulsory-schooling
-  stream based on all 10 approved papers. It still needs
-  specification-level SE extraction and tempo-specific macro scaling, and the full parent chapter
-  eventually needs other postponement drivers.
+- `output/chapters/compulsory-education-child-economic-value.md` is evidence-complete. Shanan is the
+  closest primary study, linking restrictions to child employment, attendance, and completed
+  fertility, but it does not formally mediate the effect through lost child economic value.
+- `output/chapters/tempo-effects-birth-postponement-compulsory-schooling.md` is the completed nested
+  maternal-own-education/teenage-birth driver chapter based on all 10 approved papers. It separates
+  incapacitation, delayed marriage, and longer-run human-capital channels and documents catch-up
+  and completed-fertility nulls. `output/chapters/tempo-effects-birth-postponement.md` remains the
+  parent Temple/tempo chapter and eventually needs its other postponement drivers.
+
+The protocol stage-13 readability gate for these two compulsory-education drafts was deferred by
+Alexandra and is now tracked as TICK-039. The generated checklist targets the child-economic-value
+chapter and the completed nested maternal-own-education driver chapter.
 
 Do not finalize GRADE or demographic significance without independent adjudication. PDF retrieval is
 complete; rerun steps 78-81 whenever source files or extraction coding change.

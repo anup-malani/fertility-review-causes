@@ -1198,6 +1198,22 @@ chapter narratives to use the human routing.
 
 ---
 
+# [2026-07-25] — Maternal-own-education tempo-driver chapter
+
+**Agent:** Codex
+**Machine:** Alexandra workspace
+
+### Result
+
+- Deferred the compulsory-education readability gate to TICK-039 at Alexandra's request.
+- Completed `tempo-effects-birth-postponement-compulsory-schooling.md` as a self-contained driver
+  chapter nested under the Temple/tempo first-postponement mechanism.
+- Integrated all 10 RA-approved studies; Cummins is labeled as adjacent context rather than an
+  eleventh approved tempo study.
+- Registered the 10 studies in the DOI-keyed datastore and updated the parent tempo chapter.
+
+---
+
 # [2026-07-25] — Compulsory-education chapter-support finalization
 
 **Agent:** Codex

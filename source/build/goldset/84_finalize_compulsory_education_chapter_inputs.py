@@ -136,7 +136,7 @@ def chapter_sections(path: Path) -> list[str]:
 def build_readability_gate() -> None:
     chapters = [
         OUTPUT / "chapters" / "compulsory-education-child-economic-value.md",
-        OUTPUT / "chapters" / "tempo-effects-birth-postponement.md",
+        OUTPUT / "chapters" / "tempo-effects-birth-postponement-compulsory-schooling.md",
     ]
     rows: list[dict[str, object]] = []
     for chapter in chapters:

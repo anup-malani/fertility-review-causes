@@ -5,8 +5,10 @@
 transition even if completed cohort fertility changes little.  
 **Driver-specific stream in this draft:** Compulsory schooling and teenage births  
 **Target phenomena:** FDT and SDT  
-**Draft status:** Substantive compulsory-schooling-stream draft. All 10 RA-approved stream papers
-are retrieved. Other drivers of aggregate postponement still require separate evidence streams.
+**Draft status:** Parent-chapter draft. The compulsory-schooling/maternal-own-education stream is
+complete as a self-contained nested driver chapter at
+`output/chapters/tempo-effects-birth-postponement-compulsory-schooling.md`. Other drivers of
+aggregate postponement still require separate evidence streams.
 
 ## 1. The claim
 
