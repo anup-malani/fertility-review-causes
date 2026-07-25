@@ -2,12 +2,14 @@
 
 ## Compulsory-education full-text automation — 2026-07-24
 
-Update (2026-07-25): Cigno-Rosati's historical-US "about 10%" claim has been traced to Shanan
-(2023), DOI `10.1007/s00148-021-00838-1`. Publisher Tables 7--8 and 12--14 verify negative fertility
-reduced forms, lower child employment, and higher school attendance. The study is a post-review
-supplement, not retroactively part of Alexandra's 16-paper approved set. The exact 10% decomposition
-remains unauditable from accessible tables, and the pre-supplement three-rater GRADE rating has not
-been changed. See `extraction/compulsory-education-shanan-primary-study.csv`.
+Update (2026-07-25): The full Shanan (2023) PDF, DOI `10.1007/s00148-021-00838-1`, is retrieved and
+extracted. It verifies child-employment and attendance first stages, completed-fertility estimates,
+and period-birth estimates. Its explicit historical decomposition is 8%, not the Cigno-Rosati
+chapter's rounded "about 10%": `0.48 * 0.85 / 5 = 0.08`. A renewed three-rater panel unanimously
+upgraded FDT causal credibility from Very low to Low and changed demographic significance from
+Insufficient data to Partial/below the 10% threshold. The study remains a post-review supplement,
+not retroactively part of Alexandra's 16-paper approved set. See
+`extraction/compulsory-education-shanan-primary-study.csv`.
 
 Steps 78-80 automate OA PDF retrieval, PDF validation, text extraction, verified accessible-source
 evidence, and preliminary risk-of-bias coding. Current coverage is 25/25 distinct RA-approved
@@ -36,10 +38,11 @@ classifications are 11 decreased-teen-pregnancy papers, 10 value-of-children the
 papers, three not-explicit/neither-context papers, and one neither paper. Step 80 now reapplies
 these classifications reproducibly instead of restoring the earlier granular AI labels.
 
-The protocol stage-11 GRADE panel is complete. Three independent raters unanimously assigned Very
-Low to the FDT child-economic-value mechanism and Moderate to compulsory schooling as a teenage-
-birth postponement driver. All assigned Insufficient data for aggregate demographic significance.
-Zero-level disagreement means no PI escalation. Panel rows are in
+The protocol stage-11 GRADE panel is complete and the child-value rating was renewed after Shanan's
+full-text acquisition. Three independent raters unanimously assign Low to the FDT child-economic-
+value mechanism and Partial/below-threshold demographic significance. The original tempo rating
+remains Moderate with Insufficient data for aggregate demographic significance. Zero-level
+disagreement means no PI escalation. Panel rows are in
 `output/compulsory-education-grade-panel.csv`.
 
 ## Compulsory-education routing — 2026-07-24

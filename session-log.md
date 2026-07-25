@@ -1198,6 +1198,23 @@ chapter narratives to use the human routing.
 
 ---
 
+# [2026-07-25] — Shanan full-text audit and renewed GRADE panel
+
+**Agent:** Codex coordinating three independent agent raters
+**Machine:** Alexandra workspace
+
+### Result
+
+- Matched and renamed the downloaded 38-page published PDF and added reproducible text extraction.
+- Verified completed-fertility effects of -0.301 child (SE 0.044) for any-law exposure at ages
+  20--30 and -0.108 child (SE 0.024) per additional average exit-age year.
+- Corrected Cigno-Rosati's rounded "about 10%" description to Shanan's exact 8% decomposition:
+  `0.48 * 0.85 / 5 = 0.08`, below the protocol's 10% threshold.
+- All three renewed raters independently assigned Low GRADE and Partial/below-threshold demographic
+  significance. Zero disagreement means no PI escalation.
+
+---
+
 # [2026-07-25] — Shanan primary-study follow-up
 
 **Agent:** Codex

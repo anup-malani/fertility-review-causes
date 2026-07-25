@@ -4,10 +4,8 @@
 **Primary mechanism:** Compulsory education makes child work harder, reducing the economic return
 parents expect from an additional child and thereby reducing completed fertility.  
 **Target phenomenon:** First Demographic Transition  
-**Draft status:** Evidence-complete full-text draft. All 16 RA-approved papers are incorporated, and
-the Shanan primary study underlying the historical-US scaling claim has been added as a transparent
-post-review supplement. The three-rater GRADE panel predates this supplement; exact demographic
-scaling remains limited by the unavailable decomposition calculation.
+**Draft status:** Evidence-complete full-text draft. All 16 RA-approved papers and the post-review
+Shanan primary study are incorporated. A renewed three-rater panel is complete.
 
 ## 1. The claim
 
@@ -51,17 +49,16 @@ effective child-labor regulation arrived after much of the withdrawal from work 
 occurred. Compulsory-schooling and child-labor laws may therefore be consequences or complements
 of the economic transformation rather than its initiating cause.
 
-Cigno and Rosati's evidence chapter reports historical US estimates in which combined schooling and
-child-work restrictions explain about 10% of the observed fertility decline. A targeted follow-up
-identified the underlying primary study as Shanan (2023). Publisher tables verify that exposure to
+Cigno and Rosati's evidence chapter describes combined schooling and child-work restrictions as
+explaining about 10% of the observed US fertility decline. The underlying primary study is Shanan
+(2023). Its full text shows that the exact back-of-envelope estimate is 8%, not 10%. Exposure to
 any restriction at ages 20--30 predicts a 0.85 percentage-point reduction in annual birth
 probability (SE 0.11 percentage points; baseline 14.3%; Table 7, column 2), while a one-year increase
 in average school exit age predicts a 0.27 percentage-point reduction (SE 0.03; Table 8, column 2).
-The study also documents lower child employment and higher school attendance under the restrictions
-(Tables 13--14). It therefore comes closer than the approved-set empirical studies to connecting the
-policy, child-work, and fertility links. However, the accessible primary tables do not expose the
-calculation behind the reported 10% historical contribution, and the fertility outcome is an annual
-birth probability at ages 20--30 rather than completed fertility.
+The study also documents lower child employment and higher school attendance (Table 2) and directly
+estimates completed fertility: exposure at ages 20--30 predicts 0.301 fewer children (SE 0.044;
+Table 4, column 2), while a one-year higher exit age predicts 0.108 fewer children (SE 0.024; Table
+5, column 2). This is the closest primary evidence to the claimed mechanism.
 
 ## 3. Search and routing
 
@@ -89,9 +86,10 @@ set membership preserves contextual relevance but does not establish the child-v
 
 The retrieved sources include all six approved empirical papers and all 10 formal/historical theory
 papers. All 10 theory/mechanism papers are classified as value-of-children evidence. Shanan is kept
-outside those RA-approved counts and clearly labeled as a post-review supplement. It verifies a
-policy-to-child-employment first stage and a policy-to-fertility reduced form in the same study, but
-does not directly estimate the monetary value parents place on child work or completed fertility.
+outside those RA-approved counts and clearly labeled as a post-review supplement. It verifies child-
+employment and attendance first stages and both completed- and period-fertility reduced forms in the
+same study. It does not directly estimate the monetary value parents place on child work or formally
+estimate mediation through that value.
 
 ## 5. Available empirical evidence
 
@@ -122,51 +120,51 @@ mechanism is women's opportunity cost and intrahousehold contraceptive bargainin
 
 Together, the approved empirical studies do not directly test the original mechanism. They also do
 not provide a consistent negative reduced-form effect on completed fertility. Shanan materially
-narrows the direct-evidence gap but does not eliminate it: policy exposure predicts both less child
-employment and fewer births at ages 20--30, yet the study does not identify the mediated effect
-through lost child economic value or distinguish timing from lifetime quantum.
+narrows the direct-evidence gap: policy exposure predicts less child employment, greater attendance,
+and lower completed fertility. The remaining gap is mechanism isolation. The study combines
+compulsory-schooling and child-labor restrictions and cannot disentangle lost child earnings from
+higher expected child quality or formally estimate their mediated effects.
 
 ## 6. Quantitative synthesis
 
-No mechanism-specific pooled estimate is currently justified. The retrieved studies differ in
-countries, reforms, outcome definitions, and estimands, and none has a verified child-work first
-stage connected to completed fertility. Pooling own-schooling coefficients would answer a different
+No mechanism-specific pooled estimate is justified. Shanan is the only study with a verified child-
+work first stage and completed-fertility estimate; the remaining studies differ in countries,
+reforms, outcomes, and estimands. Pooling own-schooling coefficients would answer a different
 question.
 
 ## 7. Demographic significance
 
-Shanan and the Cigno-Rosati synthesis now supply a reported decomposition share of about 10%, exactly
-at the protocol threshold. The claim is not yet auditable as a protocol-grade demographic-
-significance result because the accessible primary tables do not show its numerator, historical
-fertility-change denominator, or uncertainty interval. The defensible status remains insufficient
-data until the article body or manuscript exposes that calculation; it should not be rounded into a
-threshold-passing result from the secondary chapter alone.
+Shanan's explicit calculation attributes 8% of the 1900--1930 decline in annual birth probability
+among 30-year-old native-born women to expanded restriction exposure: exposure rose by 48 percentage
+points, the estimated annual effect is 0.85 percentage points, and observed birth probability fell
+by five percentage points, giving `0.48 * 0.85 / 5 = 0.08`. This is below the protocol's 10%
+demographic-significance threshold. It supports a Partial verdict, not a threshold-significant one.
+The calculation is age-specific, back-of-envelope, and lacks a bootstrap uncertainty interval.
 
 ## 8. Provisional GRADE assessment
 
-**FDT causal mechanism: Very low (unanimous three-rater panel, before the Shanan supplement).** The
-supplement strengthens directness because one primary study verifies child-employment/schooling
-first stages and a fertility reduced form. It still does not measure lost child economic value as a
-mediator or completed fertility. The formal panel rating is retained as the last adjudicated rating
-and must be reconvened before any rating change.
+**FDT causal mechanism: Low (unanimous renewed three-rater panel).** Shanan supplies one credible
+historical quasi-experiment connecting restrictions, child work and attendance, and completed
+fertility. It does not reach Moderate because the full mechanism has no independent replication,
+policy adoption may retain residual endogeneity, and lost child economic value is inferred rather
+than directly measured as a mediator.
 
 ## 9. Provisional verdict
 
 | Phenomenon | Causal credibility | Demographic significance |
 |---|---|---|
-| FDT | Very low, provisional | Insufficient data |
+| FDT | Low | Partial; 8% decomposition is below the 10% threshold |
 
-The expanded evidence supports a historically relevant policy-to-child-work-to-birth association,
-but it still does not show that compulsory education reduced completed fertility specifically by
-making children economically less valuable.
+The expanded evidence supports a historically relevant policy-to-child-work-to-completed-fertility
+relationship. It remains uncertain how much operates specifically through lost child earnings
+rather than increased child quality or other bundled schooling effects.
 
 ## 10. Required next analysis
 
-The decisive study would connect a binding attendance or child-work restriction to an observed
-decline in child employment and then to parents' completed fertility. Historical staggered reforms
-linked to census fertility and child-employment records are especially valuable. Within the present
-review, the remaining quantitative gap is a defensible FDT scaling exercise; no approved full texts
-remain missing.
+The decisive next evidence would independently replicate Shanan and formally mediate the fertility
+effect through reduced child earnings or another measure of children's economic contribution.
+A population-wide TFR or completed-fertility decomposition with uncertainty would improve scaling.
+No approved or supplementary full texts remain missing.
 
 ## 11. Reproducibility
 

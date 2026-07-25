@@ -25,6 +25,13 @@ run a reproducible production search and screening funnel for the FDT estimand.
 - [ ] Cross-hypothesis lessons and any deviations from the documented GACS prototype are recorded.
 
 ## Log
+- 2026-07-25, Alexandra/Codex: Acquired and extracted the full Shanan PDF. The primary article
+  resolves the secondary claim: its explicit decomposition is 8%, calculated as
+  `0.48 * 0.85 / 5`, below the protocol's 10% threshold. It also reports completed-fertility
+  effects of -0.301 child (SE 0.044) for any-law exposure at ages 20--30 and -0.108 child
+  (SE 0.024) per additional exit-age year. A renewed independent panel was unanimous: GRADE Low
+  (up from Very low) and demographic significance Partial/below threshold (formerly Insufficient
+  data). No PI escalation was triggered.
 - 2026-07-25, Alexandra/Codex: Followed Cigno-Rosati's historical-US "about 10%" claim to
   Yannay Shanan (2023), DOI 10.1007/s00148-021-00838-1. The subscription PDF was unavailable,
   but publisher table pages verified fertility reduced forms plus child-employment and schooling
