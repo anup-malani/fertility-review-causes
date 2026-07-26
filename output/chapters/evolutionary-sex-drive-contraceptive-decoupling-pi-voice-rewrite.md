@@ -1,25 +1,68 @@
-# Chapter: Evolutionary Sex Drive and Contraceptive Decoupling
+# Evolutionary Sex Drive and Contraceptive Decoupling
 
-> **Version: PI voice rewrite.** Rewritten from scratch by Anup Malani from Shravan Haribalaraman's
-> draft (`evolutionary-sex-drive-contraceptive-decoupling.md`) using the `/write-as academic-econ`
-> voice stack. Substance, estimates, citations, GRADE ratings, and verdicts are unchanged from the
-> source; the prose is new. This file is the PI's voice-normalized version, kept for comparison with
-> the source chapter; it is not the chapter of record.
+> **Version: PI voice rewrite (v3).** Rewritten from the original chapter draft for a general reader,
+> following the principal investigator's markup of the previous version. Substance, estimates,
+> citations, GRADE ratings, and verdicts are unchanged from the source; the prose is new. This file is
+> the PI's voice-normalized version, kept for comparison with the source chapter; it is not the
+> chapter of record.
 
-**Category:** Biological
-**Primary mechanism:** Natural selection built a strong drive for sex, not a comparable drive for children, so high fertility was a by-product of a coupled sex-and-reproduction system; modern contraception breaks that coupling, and the evolved drive keeps operating without producing births.
-**Target phenomena:** FDT / SDT (the pill era of the Second Demographic Transition is the sharp case)
-**Cross-references:** modern contraceptive technology (A.2, which closes the gap between how many children people want and how many they have); coital frequency and biological exposure (A.4); postmaterialist acceptance of contraceptive use (D.1.a); the competing account in which people simply want fewer children
-**Draft status:** Principal-investigator voice rewrite of Shravan Haribalaraman's completed draft; substance, estimates, citations, ratings, and verdicts are unchanged from the source. The source chapter is complete and ready for principal-investigator review. The project-native pool of the status-reproduction association in Section 6 has been verified against source tables, risk of bias is coded for every pooled study, and the demographic-significance pass is complete. The chapter runs on the studies whose full texts have been retrieved to date, which is a thinner set than the screen produced. The open item is retrieval of further contraception-absent studies, which would tighten the contraception-absent estimate without identifying the availability moderator, and does not change the chapter's verdict (see appendix).
-**Last updated:** 2026-07-25 (source chapter); 2026-07-26 (this voice rewrite)
+**Category:** Biological  
+**Primary mechanism:** Natural selection built a strong drive for sex and never built a comparable
+drive for children, because sex reliably produced children on its own. High fertility came as a
+by-product. Contraception breaks that arrangement: the drive keeps running and stops producing
+births.  
+**Fertility declines this chapter tests the hypothesis against:** variation in fertility among
+pre-modern populations, the First Demographic Transition (roughly 1870 to 1965), and the Second
+Demographic Transition (1965 to the present). We abbreviate the three PM, FDT, and SDT. The pill era of
+the second is the sharp case.  
+**Related chapters:** modern contraceptive technology (A.2), which treats contraception as the thing
+that lets people reach a family size they had already decided on; how often people have sex and how
+exposed they are to conception (A.4); acceptance of contraceptive use as a matter of changing values
+(D.1.a); shifting family preferences (D.1), which treats the wanted family size itself as the thing
+that shrank; and the competing account in which people simply want fewer children.  
+**Draft status:** Complete draft, rewritten in plain language for a general reader. The pooled
+estimate in Section 6 has been checked back against the tables in the original papers, risk of bias
+is coded for every pooled study, and the demographic-significance pass is done. The chapter runs on
+the studies whose full texts could be obtained, a thinner set than the screen produced.  
+**Last updated:** 2026-07-26
 
-## 1. Verdict
+[Note to co-authors: this file is the stage-13 readability pass on B.1.]
 
-Two claims travel together inside this hypothesis, and the evidence bears on them unequally. The first holds that status stops predicting reproduction once births come under control, so that wealth and social rank lose their ancestral grip on how many children a person ends up with. A large body of studies supports it. The second claim is the one that gives the hypothesis its name: births fall because contraception cuts the tie between sex and reproduction, and they fall on that account whether or not anyone's wish for children has moved. We term the mechanism in that second claim the **by-product channel**, meaning the flow of births that a drive aimed at sex rather than at children used to produce on its own. Scarcely a study in this evidence base identifies the by-product channel, for the plain reason that scarcely a study measures fertility while the wish for children is pinned down.
+## 1. The verdict
 
-That division sets the verdict. Where the literature is well populated, what it tests is the weaker of the two claims. Where the hypothesis is distinctive, it rests on formal models and one descriptive trend, with no identified estimate behind it. We find the hypothesis most plausible for the Second Demographic Transition, when the pill severed sex from reproduction across whole populations, and least useful for anything before 1960, when no technology could do the severing.
+The hypothesis makes two claims, and the evidence treats them very differently. The first claim is
+that status and wealth stop predicting how many children a person has once contraception is
+available. A large body of studies supports it. The second claim is the one the hypothesis is named
+for: births fall because contraception cuts the link between sex and reproduction, and they would
+fall even if nobody's desire for children had changed at all. Almost no study can test that second
+claim.
 
-A second point governs every section below. Asking what fertility would have done had the desire for children stayed constant while contraception spread means separating the by-product channel from a genuine fall in how many children people want. Two other chapters own that fall: modern contraceptive technology (A.2) and shifting family preferences (D.1). Net of those two channels, the share of the fertility decline that belongs to decoupling is not presently estimable and may be small.
+A study identifies an effect when its design can separate the one thing the study claims to measure
+from everything else that could have produced the same pattern in the numbers. A study that cannot do
+the separating leaves the effect unidentified. Unidentified is not a synonym for zero, and it is not
+a complaint about the researchers. It means the number a study reports fits the cause the study names
+and fits other causes just as well, and nothing in the design tells a reader which one did the work.
+That word carries this chapter's verdict, and it is used in that sense throughout.
+
+Testing the second claim would require knowing what fertility would have done if people's wish for
+children had stayed exactly where it was while contraception spread. No study in this evidence base
+builds that comparison. Studies of contraceptive access measure the whole fall in births that follows
+when contraception arrives, and that fall mixes two things together: the severed link between sex and
+reproduction, and a real decline in how many children people want. Pulling those two apart is the
+step nobody has taken.
+
+The decline in how many children people want belongs to two other chapters. Modern contraceptive
+technology (A.2) treats contraception as the thing that closes the gap between the family size people
+want and the family size they end up with. Shifting family preferences (D.1) treats the wanted family
+size itself as the thing that shrank. Net of those two channels, the share of the fertility decline
+that belongs to decoupling is not presently estimable and may be small.
+
+That split sets the verdict. Where the literature is thick, it is testing the weaker claim about
+status and reproduction. Where the hypothesis says something distinctive, it rests on formal models
+and one descriptive trend, with no identified estimate behind it. The hypothesis is most plausible
+for the Second Demographic Transition, when the contraceptive pill severed sex from reproduction
+across whole populations, and least useful for anything before 1960, when no technology could do the
+severing.
 
 | Phenomenon | Causal credibility | Demographic significance | Verdict |
 |---|---|---|---|
@@ -27,41 +70,95 @@ A second point governs every section below. Asking what fertility would have don
 | FDT | Very low for the distinctive claim | Not significant | The Western fertility decline ran mostly before 1960, and the pill arrives at the tail of the window. The decline ran on withdrawal and abstinence, which lower births by matching behavior to a reduced desire for children, the mechanism of A.2 and D.1 rather than of decoupling. |
 | SDT | Moderate for the status-and-reproduction claim; low for the distinctive decoupling claim | Measured association small and self-cancelling; distinctive share unidentified | The status-and-reproduction link turns sex-specific under contraception, which the hypothesis predicts, but the pooled association tracks under two percent of the variance in completed fertility within sex and cancels to near zero across sexes. No study holds the desire for children fixed, so the distinctive claim is unidentified and receives no share. |
 
-## 2. The Claim and Mechanism
+## 2. The claim
 
-Selection equipped people with an appetite for sex and never equipped them with a matching appetite for children. A person feels and acts on the sexual motive; children arrived as its residue, because across the whole of human evolution frequent sex could not help producing them. Contraception dissolves that arrangement. The appetite runs at full strength and yields no births, and nothing of comparable force stands behind children to make up the loss, so the number of births falls. The prediction that marks this hypothesis off from every account in which contraception merely lets people reach a lower target is that births fall whether or not the desire for children has changed.
+Natural selection built a strong drive for sex and never built a comparable drive for children. For
+the whole of human history the first drive delivered the second outcome on its own. People who had
+sex often had children, whether or not children were the point, so selection had no reason to build a
+separate appetite for children on top of an appetite that already produced them.
 
-Behind the argument sits the biologist's split between two kinds of cause. Why a trait was selected is its ultimate cause, which here is reproductive success; what inside the organism delivers the behavior is its proximate cause, which here is sexual desire. Nothing in selection can install a taste for an outcome as such. Selection installs the equipment that generated the outcome under ancestral conditions, and since sex reliably generated children, an appetite for sex sufficed, at lower cost than a separate standing appetite for children would have carried. Dawkins (1976), Trivers (1972), and Symons (1979) work out the general version of the reasoning: creatures execute the drives they were issued instead of computing their own reproductive success.
+Contraception breaks that arrangement. The drive for sex runs at full strength and yields no births,
+and nothing of comparable force stands behind children to make up the loss, so the number of births
+falls. One prediction separates this hypothesis from every account in which contraception merely
+helps people reach a smaller family they had already settled on: births fall even when nobody's wish
+for children has changed.
 
-The demographic content of all this is a mismatch between old equipment and a new technology. Barkow and Burley (1980) put the point flatly. A continuous sex drive was built to serve reproduction, and satisfying that drive without reproducing should send fertility down. Low fertility is itself the thing evolutionary theory has to account for, in Kingsley Davis's (1986) treatment. The sharpest form of the puzzle is a comparison: were people acting to maximize reproductive success, the wealthiest members of modern societies would be raising the largest families, and they are not. The hypothesis thus adopts as its central problem the fact that most endangers it.
+Biologists separate two kinds of cause, and the distinction carries the argument. The reason a trait
+was selected is its ultimate cause, and here that reason is reproductive success. The machinery
+inside the animal that actually delivers the behavior is its proximate cause, and here that machinery
+is sexual desire. Selection cannot install a taste for an outcome directly. It installs the equipment
+that produced the outcome under ancestral conditions, and since sex reliably produced children, an
+appetite for sex was enough, and cheaper than a separate standing appetite for children would have
+been. Dawkins (1976), Trivers (1972), and Symons (1979) work out the general version of the
+reasoning: animals run the drives they were issued rather than calculating their own reproductive
+success.
 
-How far fertility falls is not something the theory predicts, and that silence shapes everything that follows. What the theory does predict is that severing sex from reproduction shuts down the by-product channel that kept fertility high. The size of the subsequent fall turns on residual demand, meaning whatever wish for children survives once the channel is closed, and residual demand is the quantity in dispute. A weak evolved wish, or a strong one supplied by culture, would put a floor under the decline. Measuring that residual is the whole difference between this hypothesis and the account in which people simply came to want fewer children. On why fertility was ever high the theory says something testable. On the magnitude it claims, which is where a demographic cause has to be strong, it says little.
+Barkow and Burley (1980) state the demographic consequence flatly. A continuous sex drive evolved to
+serve reproduction, and once that drive can be satisfied without reproducing, fertility should fall.
+Kingsley Davis (1986) treats low fertility itself as the puzzle evolutionary theory has to solve. The
+sharpest form of the puzzle is a comparison anyone can check: if people acted to maximize the number
+of descendants they leave, the richest people in modern societies would have the largest families,
+and they do not. The hypothesis takes as its central problem the fact that most endangers it.
 
-## 3. How the Evidence Is Organized
+The theory does not predict how far fertility falls, and that silence shapes everything below. It
+predicts that severing sex from reproduction shuts off the mechanism that used to produce high
+fertility without anyone intending it. How far births fall after that depends on how much people
+actually want children once the mechanism is gone, and that quantity is the one in dispute. A weak
+evolved wish for children, or a strong wish supplied by culture, would put a floor under the decline.
+Measuring the wish that remains is the whole difference between this hypothesis and the account in
+which people simply came to want fewer children. On why fertility was ever high, the theory says
+something testable. On the size of the fall it claims, which is where a demographic cause has to be
+strong, it says little.
 
-We sort the studies by the claim each one can address, because three streams here answer three different questions and only one of them reaches the by-product channel.
+## 3. How the evidence sorts
 
-| Evidence stream | What it measures | Role in the chapter |
+The studies fall into three groups, and each group answers a different question. Only one of the
+three reaches the claim the hypothesis is named for.
+
+| Group of studies | What it measures | Role in the chapter |
 |---|---|---|
 | Status and reproduction | Whether an evolutionary predictor of success, such as wealth or social rank, still predicts the number of children a person has, and how that changes once contraception is available. | The best-populated evidence. It tests whether the ancestral link between status and reproduction survives, which the hypothesis predicts it should not. |
 | Desire for children as a distinct drive | Whether the wish for children is a measurable motivation, separate from sexual desire and weaker than a stated family-size target. | Bridge evidence. It bounds the residual demand for children that the whole hypothesis turns on. |
-| Direct decoupling | Whether fertility falls because contraception severs sex from reproduction, with the desire for children held fixed. | The distinctive claim. It is the thinnest stream and contains almost no identified estimate. |
+| Direct decoupling | Whether fertility falls because contraception severs sex from reproduction, with the desire for children held fixed. | The distinctive claim. It is the thinnest group and contains almost no identified estimate. |
 
-We assign a paper to this chapter by the causal question it answers rather than by the subject it announces. Contraception and fertility can be a paper's topic while the question it settles belongs somewhere else. Take a study finding that cheaper contraception helped people who had already decided on smaller families get there: its outcome is the distance between wanted and realized births, which is the estimand of the modern-contraception chapter (A.2), and the paper belongs in that chapter. Our rule for keeping a paper is that it bear on the severing of sex from reproduction itself, or report fertility falling while the desire for children stays fixed.
+A paper's topic does not decide which chapter it belongs to; the causal question it answers does.
+Contraception and fertility can be a paper's subject while the question it settles belongs elsewhere.
+Take a study finding that cheaper contraception helped people who had already decided on smaller
+families get there. Its outcome is the distance between the family size people want and the family
+size they reach, which is the question of the modern-contraception chapter (A.2), and the paper
+belongs in that chapter. This chapter keeps a paper only when the paper speaks to the severing of sex
+from reproduction itself, or reports fertility falling while the desire for children stays fixed.
 
-## 4. Inclusion Approach
+## 4. Which studies the chapter uses
 
-We started from anchor studies chosen independently of one another, covering the three evidence streams and the adjacent topics a search is liable to confuse with them. Building outward from what those anchors cite and from what cites them produced the candidate pool. Citation traversal reaches papers by a route no keyword string travels, so the pool does not carry a keyword search's blind spots. We read every candidate at the title-and-abstract level and placed it in one of the three streams, in a neighboring chapter, or outside the review.
+The search started from a set of independently chosen anchor studies covering the three groups and
+the neighboring topics a search is liable to confuse with them. Building outward from the papers
+those anchors cite, and from the papers that cite them, produced the candidate pool. Following
+citations reaches papers by a route no keyword search travels, so the pool does not inherit a keyword
+search's blind spots. Every candidate was read at the title-and-abstract level and placed in one of
+the three groups, in a neighboring chapter, or outside the review.
 
-Studies enter the main synthesis when they estimate whether an evolutionary predictor still tracks reproduction, whether the desire for children is a drive one can separate out, or whether decoupling lowers fertility with preferences held fixed. A study whose true outcome is the gap between wanted and realized fertility goes to the modern-contraception chapter, and mentioning evolution does not change that. Work from the evolutionary-theory canon feeds a theory stream of its own and counts as no part of the empirical evidence. Appendix entries list the search logs, the screening rules, and the reproducibility files.
+A study enters the main synthesis when it estimates one of three things: whether an evolutionary
+predictor still tracks reproduction, whether the desire for children is a drive one can measure
+separately, or whether decoupling lowers fertility with the desire for children held fixed. A study
+whose real outcome is the gap between wanted and realized fertility goes to the modern-contraception
+chapter, and mentioning evolution does not change that. The evolutionary-theory canon feeds a
+separate reading list and counts as no part of the empirical evidence. Section 13 lists the search
+logs, the screening rules, and the files needed to rerun the work.
 
-## 5. Included Studies and Evidence Map
+Some full texts could not be obtained, so the chapter runs on a thinner set of studies than the screen
+produced. Section 12 says which retrievals are still open and why they leave the verdict where it is.
 
-### 5.1 Evidence on Status and Reproduction
+## 5. The studies
 
-This stream asks whether wealth, social rank, or mate value continues to predict how many children a person has in a world with contraception. Should a positive link survive contraception, the hypothesis is in trouble. Should the link weaken, vanish, or flip, that is the dissociation the hypothesis calls for. Studies corroborated along both citation routes anchor the evidence.
+### 5.1 Status and the number of children
 
-| Study | Setting and period | Predictor tested | Reproductive outcome | Reading |
+This group asks whether wealth, social rank, or mate value still predicts how many children a person
+has once contraception is available. A positive link that survives contraception would count against
+the hypothesis. A link that weakens, disappears, or reverses is the break the hypothesis predicts.
+The studies corroborated along both citation routes anchor the evidence.
+
+| Study | Where and when | What was tested as a predictor | Fertility outcome | Reading |
 |---|---|---|---|---|
 | Kaplan and Hill (1986) | Modern industrial societies | Social class | Reproductive success | Early statement of the puzzle that class stopped predicting reproduction in modern conditions. |
 | Boone and Kessler (1999) | Cross-cultural | Social status | Fertility against long-term fitness | Status can trade against the number of children while still serving reproductive success over the long run. |
@@ -72,83 +169,318 @@ This stream asks whether wealth, social rank, or mate value continues to predict
 | Stulp and Barrett (2016) | Industrial populations | Wealth | Fertility | A review finding that the ancestral positive link between wealth and family size is weak or gone in industrial settings. |
 | Hopcroft (2018) | United States | Status, for men and women | Number of children | Asks whether modern fertility is now working against reproductive success; the link survives for men, not women. |
 
-Nothing else in the chapter is as solid as the pattern this stream produces, and the pattern holds up across settings. Status still buys children where contraception is absent, both in von Rueden and Jaeggi's nonindustrial societies and in historical populations. Introduce contraception and the link thins and splits by sex, holding for men while it disappears or turns negative for women, and what it now operates through is childlessness more than family size. Kohler, Rodgers, and Christensen's twins supply a second signature: fertility differences begin tracking genetic variation once people take control of their births, which is selection re-engaging on fertility. Decoupling is consistent with both signatures. Neither one pins decoupling down as the cause of the aggregate decline, since a status-fertility link that weakens is just as consistent with a shift in what people want that happens to run along status lines.
+Two of those column entries need a word of translation. Completed fertility means the number of
+children a woman actually ended up with by the time she finished childbearing, as opposed to a birth
+rate measured in a single year. Reproductive success is the biologist's term for the same idea seen
+from the point of view of selection, namely how many surviving descendants a person leaves.
 
-### 5.2 Evidence on the Desire for Children as a Distinct Drive
+The pattern across this group is the chapter's strongest empirical result, and it holds across
+settings. Where contraception is absent, in the nonindustrial societies of von Rueden and Jaeggi and
+in historical populations, higher status still brings more children. Where contraception is present,
+the link weakens and splits by sex, surviving for men and vanishing or reversing for women, and it
+runs increasingly through whether a person has any children at all rather than through how many. The
+Danish twin evidence of Kohler, Rodgers, and Christensen adds a second signature: once people control
+their own fertility, differences in how many children they have begin to track genetic differences,
+which means natural selection has re-engaged on fertility. Both findings fit decoupling. Neither one
+identifies decoupling as the cause of the aggregate decline, because a weakened link between status
+and family size fits a change in what people want that happens to run along status lines just as
+well.
 
-The psychological premise under test in this stream is that wanting a child is a genuine motive, weak, and distinct both from sexual desire and from whatever family size a person reports wanting. Warren Miller and coauthors constructed and validated an instrument that measures childbearing motivation directly, showed it carries some genetic loading, and showed it forecasts realized fertility only imperfectly (Miller and Pasta 1988; Miller 1995; Pasta and Miller 2000). A felt longing for a child, in men as well as women, is documented by Rotkirch (2007) as a motivational state of its own. Two things follow at once, and they point opposite ways. A motive directed at children exists and submits to measurement, which tells against the hardest version of the claim that evolution left no desire for children. That same motive is weaker and less controlling than a plain preference model would have it, which tells for the hypothesis. In synthesis the stream sets a bound on the residual demand for children; it estimates no decline.
+### 5.2 Wanting a child as a drive of its own
 
-### 5.3 Evidence on Direct Decoupling
+This group tests the hypothesis's psychological premise, that wanting a child is a real motivation,
+weak, and separate both from sexual desire and from whatever family size a person says they want.
+Warren Miller and coauthors built and validated an instrument that measures childbearing motivation
+directly, showed the measure carries some genetic loading, and showed it predicts realized fertility
+only imperfectly (Miller and Pasta 1988; Miller 1995; Pasta and Miller 2000). Rotkirch (2007)
+documents a felt longing for a child, in men as well as women, as a motivational state in its own
+right. The findings cut two ways at once. A motive aimed at children exists and can be measured,
+which tells against the hardest version of the claim that evolution left no desire for children. That
+same motive is weaker and less decisive than a simple preference model assumes, which tells for the
+hypothesis. In synthesis this group puts a bound on how much demand for children remains once the
+by-product mechanism is gone, and it estimates no decline.
 
-Identified evidence is nearly absent from the stream that gives the hypothesis its name, and the studies in it divide into two groups, neither of which runs the distinctive test. Formal models make up the first group. Kennes and Knowles (2013) and Burke and Pakaluk (2010) construct economic models in which contraception arrives, a sexual revolution follows, and fertility drops. These models deliver a mechanism stated as a mechanism, and no measurement. The second group estimates the total effect of contraceptive access on births. Léridon (2006) puts a demographic magnitude on the introduction of the pill across developed countries. Murphy (1993) splits British fertility change between contraception and employment. Myers (2017) recovers the effect of abortion and contraception access on the outcomes of young women. All three measure the gap-closing effect that the modern-contraception chapter owns, since none of them holds the desire for children fixed.
+### 5.3 Decoupling itself
 
-Nearest to the distinctive claim, without arriving at it, is Finer and Philbin (2014), who track sixty years of American data in which the age of first sex and the age of first birth pull apart. Decoupling is visible there as a descriptive trend, and a descriptive trend identifies nothing. Eckstein, Keane, and Lifshitz (2019) is the one study our extraction codes to the desire-held-fixed question, and its identification comes off the changing structure of careers rather than off any comparison that holds the desire for children constant. One conclusion is forced. Models and proxies test the by-product channel, and no identified estimate of fertility falling because sex was severed from reproduction, with the desire for children held fixed, tests it.
+The group the hypothesis is named for is nearly empty of identified evidence, and its studies divide
+into two kinds, neither of which runs the distinctive test. The first kind is formal models. Kennes
+and Knowles (2013) and Burke and Pakaluk (2010) build economic models in which contraception arrives,
+a sexual revolution follows, and fertility drops. These models state the mechanism as a mechanism and
+measure nothing. The second kind is empirical work whose real outcome is the total effect of
+contraceptive access on births. Léridon (2006) estimates the demographic effect of introducing the
+pill in developed countries. Murphy (1993) splits British fertility change between contraception and
+employment. Myers (2017) estimates the effect of abortion and contraception access on young women's
+outcomes. All three measure the gap-closing effect that belongs to the modern-contraception chapter,
+because none of them holds the desire for children fixed.
 
-### 5.4 Theory Stream
+One study comes closest to the distinctive claim without reaching it. Finer and Philbin (2014)
+document sixty years of American data in which the age of first sex and the age of first birth pull
+apart, which is decoupling visible as a descriptive trend. A trend identifies nothing. The two ages
+could have separated because contraception severed sex from reproduction, or because Americans came
+to want children later in life, and the trend by itself cannot say which. Eckstein, Keane, and
+Lifshitz (2019) is the one study coded to the desire-held-fixed question, and it identifies fertility
+off the changing structure of careers rather than off any comparison that holds the desire for
+children constant. One conclusion follows. Models and proxies test the mechanism the hypothesis is
+named for, and no identified estimate of fertility falling because sex was severed from reproduction,
+with the desire for children held fixed, tests it.
 
-More has been written in evolutionary theory around this hypothesis than exists in its whole empirical evidence base. The line runs from Darwin (1871) through the mid-century synthesis, taking in Barkow and Burley (1980) on the demographic transition, Kingsley Davis (1986) on low fertility as the evolutionary puzzle, and Turke (1989) on the demand for children, and on into modern evolutionary demography. We read that imbalance as the chapter's organizing finding and not as a hole to be filled. Theory here is abundant; the identified test of what the theory distinctively claims is not.
+### 5.4 The theoretical literature
 
-## 6. Quantitative Synthesis
+More has been written in evolutionary theory around this hypothesis than exists in its entire
+empirical evidence base. The line runs from Darwin (1871) through the mid-century synthesis, taking
+in Barkow and Burley (1980) on the demographic transition, Kingsley Davis (1986) on low fertility as
+the evolutionary puzzle, and Turke (1989) on the demand for children, and on into modern evolutionary
+demography. That imbalance is the chapter's organizing finding rather than a hole to be filled.
+Theory here is abundant; the identified test of what the theory distinctively claims does not exist.
 
-Our preferred specification draws, from the Section 5.1 studies, the association between a status or wealth measure and the number of children a person has, pools it under random effects on the Fisher-z scale, and lets the pooled value differ by sex. Sign reverses across the sexes. Men with higher status have more children, at a pooled correlation of about 0.08 (95% confidence interval 0.03 to 0.14, five studies). Women with higher status have fewer, at a pooled correlation of about negative 0.13 (95% confidence interval negative 0.21 to negative 0.04, three studies). Put the sexes together and the association cannot be told from zero (95% confidence interval negative 0.06 to 0.07), the two halves running opposite and cancelling. The poolable stream therefore yields the reversal itself as its headline: for men the evolutionary tie between status and reproduction holds, and for women it inverts, in the populations these studies cover.
+## 6. Putting the numbers together
 
-Only this stream admits pooling at all, and it is the status-and-reproduction stream rather than the distinctive decoupling stream. The desire-for-children studies validate an instrument, and they share no fertility outcome that could be combined. Among the direct-decoupling studies there is no set of comparable identified estimates, most of them measuring the total contraceptive effect that another chapter owns and the remainder being models or a descriptive trend. Nothing in that material supports a pooled decoupling effect, and passing off a total contraceptive effect as a decoupling effect is the confusion this review was built to catch.
+Pooling means combining several studies' estimates into a single number with a single margin of
+error, which is the standard output of a meta-analysis. It works only when the studies answer the
+same question with the same kind of measurement. Only the status-and-children group meets that
+condition. The desire-for-children studies validate a measuring instrument and share no fertility
+outcome that could be combined. The decoupling studies contain no set of comparable identified
+estimates, since most of them measure the total contraceptive effect that belongs to another chapter
+and the rest are models or a descriptive trend. Reporting the total contraceptive effect as though it
+were the decoupling effect would be the confusion this review was built to catch.
 
-Part of the poolable stream has been pooled before us. Lidborg, Cross, and Boothroyd (2020, 2022) assembled dozens of samples on the link between men's physical size and strength and their reproductive and mating success, and reported a small positive association. Their result sits on the pre-decoupling side of the prediction, where an evolutionary predictor retains some force. This chapter needs to know how the status-reproduction link behaves as contraception spreads, and no published meta-analysis has yet estimated that link with contraceptive availability entered as the moderator.
+Part of the poolable group has been pooled before. Lidborg, Cross, and Boothroyd (2020, 2022)
+combined dozens of samples on the link between men's physical size and strength and their
+reproductive and mating success, and found a small positive association. That result sits on the
+pre-decoupling side of the prediction, where an evolutionary predictor still carries some force. This
+chapter needs to know how the link between status and children behaves as contraception spreads, and
+no published meta-analysis has yet estimated the link with contraceptive availability entered as the
+thing that changes it.
 
-![Forest plot, by sex, of the correlation between status and reproduction. Every mark plots one study's Pearson correlation together with its 95 percent confidence interval, and marker area is proportional to that study's inverse-variance weight; men appear in blue and women in orange. Random-effects pooled estimates appear as diamonds. The one contraception-absent study is von Rueden and Jaeggi's synthesis of thirty-three non-industrial societies.](../figures/evolutionary-sex-drive-contraceptive-decoupling-status-repro-forest.png)
+A first pool built for this project is now available, and it reverses sign between men and women. The
+quantity pooled is the correlation between a person's status or wealth and the number of children
+that person has. A correlation is a number between negative one and one describing how tightly two
+things move together: zero means knowing one tells you nothing about the other, and one means knowing
+one tells you the other exactly. For men, higher status predicts more children, at a pooled
+correlation of about 0.08 (95% confidence interval 0.03 to 0.14, five studies). A confidence interval
+is the range of values the data leave plausible, and a range that excludes zero means the data are
+hard to square with no association at all. For women, higher status predicts fewer children, at a
+pooled correlation of about negative 0.13 (95% confidence interval negative 0.21 to negative 0.04,
+three studies). Pooled across both sexes the association cannot be told apart from zero (95%
+confidence interval negative 0.06 to 0.07), because the two sexes pull in opposite directions and
+cancel. The headline result of the poolable group is therefore the reversal itself: the ancestral
+link between status and reproduction holds for men and inverts for women in the populations these
+studies cover.
 
-*Figure 1. Five studies on status and reproductive success, split by sex and pooled under random effects on the Fisher-z scale. Pooling gives a positive association among men (about 0.08) and a negative one among women (about negative 0.13), with the overall value near zero as the two offset. High heterogeneity (I-squared above 96 percent) matches a pool running from small university samples to administrative datasets of several hundred thousand.*
+Figure 1 shows those estimates as a forest plot, which lines up each study's estimate and its error
+bar against the pooled average so a reader can see at a glance how much the studies agree.
 
-This estimate tests the dissociation and leaves the by-product channel unidentified. A prediction about the male link sets this chapter apart from its neighbors: strong where contraception is absent, attenuated where contraception is present. Our data can be arranged against that prediction, and we set the arrangement out before explaining why it falls short of a test.
+![Forest plot of the status-reproduction correlation by sex. Each mark is one study's Pearson correlation with its 95 percent confidence interval, with marker area proportional to the study's inverse-variance weight; blue marks are men, orange marks are women. The diamonds are the random-effects pooled estimates. von Rueden and Jaeggi's synthesis of thirty-three non-industrial societies is the only contraception-absent study.](../figures/evolutionary-sex-drive-contraceptive-decoupling-status-repro-forest.png)
 
-Among men the association runs about 0.19 in the contraception-absent cell, which is von Rueden and Jaeggi's synthesis of thirty-three non-industrial societies, against about 0.07 in the contraception-present cell (95% confidence interval 0.01 to 0.13, four studies). Direction matches the prediction, and the gap is not a small one: the contraception-absent association is roughly two and a half times the size of the other.
+*Figure 1. Status and reproductive success by sex, five studies, random-effects pooling on the
+Fisher-z scale. The pooling model lets the true association differ from study to study instead of
+assuming one common value, and the Fisher-z scale is the standard transformation used when
+correlations are averaged. The pooled association is positive for men (about 0.08) and negative for
+women (about negative 0.13), and near zero overall because the two cancel. Heterogeneity is high
+(I-squared above 96 percent), consistent with the range from small university samples to
+administrative datasets of several hundred thousand.*
 
-Two reasons keep us from reading that comparison as a test of the moderator, and the one that occurs first is the weaker. The weaker reason is precision. A single study carries the contraception-absent side, so nothing distinguishes a real difference from sampling noise, and this review's convention is to report and not pool any cell with fewer than three studies.
+That estimate tests whether the link breaks, and it does not identify the distinctive decoupling
+claim. The prediction that separates this chapter from its neighbors concerns the link among men:
+strong where contraception is absent, weaker where contraception is present. A factor that changes
+the size of an effect is called a moderator, and contraceptive availability is the moderator this
+hypothesis turns on. The data can be arranged against that prediction, and the arrangement is worth
+setting out before the reason it falls short of a test.
 
-Confounding is the binding reason, and more studies would not relieve it. Non-industrial societies supply the contraception-absent estimate; modern administrative and survey samples supply the contraception-present estimates. Between those two sets of populations lie differences in mortality, in marriage systems, in subsistence, and in how status gets measured, alongside the difference in contraception. To read the entire gap as a contraceptive effect is to treat all the rest as held constant, and they are not held constant. That bears on what would count as progress here. Retrieving further natural-fertility studies would purchase precision on the left-hand number while leaving in place a comparison of non-industrial populations against modern ones rather than a comparison of contraception against its absence. Identifying the moderator wants variation in contraceptive access inside a population otherwise similar to itself, and no study in this evidence base supplies it. The moderator on which the hypothesis turns is thus written into the design, suggested by the arrangement of the data, and unidentified.
+Among men the association runs about 0.19 where contraception is absent, which is von Rueden and
+Jaeggi's synthesis of thirty-three non-industrial societies, against about 0.07 where contraception
+is present (95% confidence interval 0.01 to 0.13, four studies). A correlation of 0.19 is a weak
+relationship in ordinary terms. Higher-status men in those societies do have more children on
+average, and a reader trying to guess one man's number of children from his rank alone would still be
+wrong most of the time. The direction matches the prediction and the gap is not small, the
+contraception-absent association running roughly two and a half times the size of the other.
 
-Three cautions ride on these numbers. The first is heterogeneity, which exceeds ninety percent on the I-squared statistic. A pool that runs from samples of a few hundred people to administrative datasets of several hundred thousand, and that mixes income, wealth, and education as the status measure, should show heterogeneity of that order; read the pooled correlations as summaries of a direction that is consistent rather than as a precise common effect. The second is that sample sizes are wildly unequal, from roughly two thousand university employees up to several hundred thousand administrative records, so the largest samples dominate the inverse-variance weighting behind the pooled value. A reader should take the pooled point as a description of large modern administrative populations more than of the smaller studies.
+Two reasons keep that comparison from counting as a test of the moderator, and the reason that comes
+to mind first is the weaker one. The weaker reason is precision. A single study carries the
+contraception-absent side, so there is no way to tell whether the gap reflects a real difference or
+sampling noise, and this review's convention is to report rather than pool any group holding fewer
+than three studies.
 
-The third caution is about verification. A second-reader pass has now read every pooled effect back against its source table, and the pass earned its keep. Two studies came out, each having reported something other than a comparable correlation: one gave an analysis-of-variance F test in place of a status-fertility correlation, and the other proved to be quoting a figure from a different study rather than estimating one of its own. Each of the five survivors was confirmed against the printed table, and the sex reversal came through the check intact. Outstanding are the thin natural-fertility cell, with several studies in retrieval, and the principal-investigator review the appendix scopes.
+Confounding is the binding reason, and more studies would not relieve it. The contraception-absent
+estimate comes from non-industrial societies and the contraception-present estimates come from modern
+administrative and survey samples. Those two sets of populations differ in mortality, in marriage
+systems, in subsistence, and in how status gets measured, on top of differing in contraception.
+Reading the whole gap as a contraceptive effect means treating every one of those other differences
+as though it were held constant, and none of them is. That bears on what would count as progress
+here. More studies of populations without contraception would sharpen the 0.19 figure. The
+comparison would still set non-industrial societies against modern ones rather than setting
+contraception against its absence. Identifying the moderator needs
+variation in contraceptive access inside a population otherwise similar to itself, which no study in
+this evidence base provides. The moderator the hypothesis turns on is written into the design,
+suggested by the arrangement of the data, and unidentified.
 
-## 7. Demographic Significance
+Three cautions attach to these numbers. The first is heterogeneity, meaning the degree to which the
+studies disagree with one another by more than sampling noise would explain. The I-squared statistic
+reports that disagreement as a percentage, and for this pool it runs above ninety percent. A pool
+that spans samples of a few hundred people alongside administrative datasets of several hundred
+thousand, and that mixes income, wealth, and education as the status measure, should disagree that
+much. Read the pooled correlations as summaries of a direction that is consistent rather than as a
+precise common value.
 
-### 7.1 Pre-Modern Fertility Variation
+The second caution is that sample sizes are wildly unequal, running from roughly two thousand
+university employees to several hundred thousand administrative records. Pooling gives more weight to
+the more precisely measured estimates, and precision rises with sample size, so the largest samples
+dominate the pooled value. A reader should treat the pooled point as describing large modern
+administrative populations more than it describes the smaller studies.
 
-No technology could sever sex from reproduction before the modern era, so the sharp mechanism can generate no variation among pre-modern populations. On the pre-modern level of fertility the hypothesis does have something to say. Fertility stood high because sex and reproduction were coupled and the sex drive carried the load, and the contraception-absent evidence confirms the ancestral status-reproduction link that the theory requires as its baseline. Mortality, marriage systems, and subsistence made pre-modern populations differ from one another; decoupling was missing from all of them alike, so it explains none of the differences.
+The third caution concerns how far these values have been checked. A second reader has now read every
+pooled effect back against the table it came from in the original paper, and that check mattered. It
+removed two studies whose reported statistic was not a comparable correlation: one reported an
+analysis-of-variance F test rather than a correlation between status and fertility, and one turned
+out to be quoting a figure from a different study rather than estimating its own. Each of the five
+studies that remain was confirmed against the printed table, and the sex reversal survived the check.
 
-Two qualifications limit the weight that baseline will bear. One study is all the pooled contraception-absent evidence amounts to, von Rueden and Jaeggi's synthesis of thirty-three nonindustrial societies, and however well a single study establishes the association inside those populations, it cannot establish variation across pre-modern ones. That study also lands in the pre-modern cell by fertility regime and not by date: what it aggregates is twentieth-century fieldwork among societies that had yet to pass through the transition, not observation of populations before 1870. Reading pre-transitional status that way is defensible, and it remains an analyst judgement rather than a measurement, which the target-period table flags. Pre-modern significance is accordingly insufficient for variation. The mechanism supplies background for why fertility stood high, and no source of the differences among pre-modern populations.
+## 7. How much of the fertility decline this explains
 
-### 7.2 First Demographic Transition
+### 7.1 Differences among pre-modern populations
 
-Mistiming here is a fact about the evidence rather than an inference about the mechanism, and anyone can check it. We dated every study in the quantitative pool to its observation window. Four of them carry a datable window, and not one observes fertility inside the first transition, which this review dates to roughly 1870 to 1965. Not until 1979 does any observation window in the pool open, fourteen years past the transition's close. So the chapter holds no measurement of the by-product channel at work during the decline it was scoped to help explain, and in-window demographic significance cannot be credited to a mechanism with no in-window evidence.
+No technology could sever sex from reproduction before the modern era, so the mechanism can produce
+no differences among pre-modern populations. The hypothesis does speak to the pre-modern level of
+fertility. Fertility stood high because sex and reproduction were coupled and the sex drive carried
+the load, and the contraception-absent evidence confirms the ancestral link between status and
+reproduction that the theory needs as its baseline. Pre-modern populations differed from one another
+in mortality, in marriage systems, and in subsistence. Decoupling was missing from all of them alike,
+so it explains none of the differences.
 
-Why that should be so is the familiar story. Withdrawal, abstinence, and stopping childbearing early carried most of the Western decline, and each lowers births by bringing behavior into line with a desire for children that had already shrunk. Those are the mechanisms of the modern-contraception and preference-change chapters rather than of decoupling, and the technology that severs sex from reproduction across a whole population shows up at the tail end of the window. Our own decoupling stream is likewise empty of studies from the transition period. The result is the mistiming that also afflicts the child-labor hypothesis: a channel with no existence outside models cannot produce a large fall in completed fertility that largely predates the severing technology. We rate FDT demographic significance not significant, and the mechanism is present but too late and unidentified in this window.
+Two qualifications limit the weight that baseline will bear. The pooled contraception-absent evidence
+amounts to a single study, von Rueden and Jaeggi's synthesis of thirty-three nonindustrial societies,
+and however well one study establishes the association inside those populations, it cannot establish
+variation across pre-modern ones. That study also lands in the pre-modern group by fertility regime
+rather than by date. It aggregates twentieth-century fieldwork in societies that had not yet passed
+through the transition, not observations of populations before 1870. Reading those societies as
+pre-transitional is a defensible judgement, and it remains a judgement rather than a measurement,
+which the target-period table flags. The pre-modern verdict is therefore insufficient for variation.
+The mechanism supplies a background reason fertility stood high and no source of the differences
+among pre-modern populations.
 
-### 7.3 Second Demographic Transition
+### 7.2 The First Demographic Transition
 
-Where the hypothesis is most plausible is also where it is least identified, which makes the Second Demographic Transition the sharp case. After 1965 the pill severs sex from reproduction at scale, as the theory requires, and the status-and-reproduction evidence carries the matching signatures: across rich post-1965 populations the tie between status and family size thins and splits by sex, and fertility turns heritable as it turns voluntary. Those signatures support the relationship the hypothesis describes. They do not measure how much of the decline decoupling produced, as against a genuine change in the number of children people want. What the distinctive claim needs is the fall recovered with the desire for children held fixed, and nothing in the evidence base does that.
+The mistiming here is a fact about the evidence rather than an inference about the mechanism, and any
+reader can check it. Every study in the quantitative pool was dated to the years it observes. Four of
+them carry a datable window, and not one of the four observes fertility inside the first transition,
+which this review places at roughly 1870 to 1965. The earliest observation window in the entire pool
+opens in 1979, fourteen years after the transition closed. The chapter therefore holds no measurement
+of the mechanism at work during the decline it was scoped to help explain. Numbers gathered entirely
+after a decline has ended cannot show what drove it, so this review credits the mechanism with no
+part of that decline.
 
-The dissociation that has been measured is, taken on its own terms, demographically small. Fertility in all four contraception-present studies is observed entirely after 1965, so those studies sit squarely inside the phenomenon. A correlation of about 0.08 for men accounts for under one percent of the variance in completed fertility, and one of about negative 0.13 for women accounts for under two percent. More decisive than either number is the fact that they oppose each other: with the male and female associations running in opposite directions, the aggregate association across sexes cannot be told apart from zero. Aggregate fertility cannot be moved by a gradient that disappears in aggregate. Moving it would require the status distribution to shift so as to weight the sexes differently, and no study in this evidence base estimates that. Underneath the sex reversal lies this vanishing aggregate, which argues against treating the reversal as a large demographic force. Turning these correlations into completed-birth units would take the standard deviation of the fertility outcome in each study, which our extraction does not hold, so we assign no share of the decline here in preference to estimating one loosely.
+The reason the evidence sits outside the window is no mystery. Western fertility fell mainly through
+withdrawal, abstinence, and stopping childbearing early. Each of those lowers births by bringing
+behavior into line with a wish for children that had already shrunk, which makes them the mechanisms
+of the modern-contraception and preference-change chapters rather than of decoupling. The technology
+that severs sex from reproduction across a whole population shows up only at the very end of the
+window. This chapter's own decoupling studies likewise include nothing from the transition
+period. The result is the same mistiming that affects the child-labor hypothesis: a channel that
+exists only in models cannot generate a large fall in completed fertility that mostly predates the
+severing technology. The verdict for the first transition is not significant, and the mechanism is
+present but too late and unidentified in this window.
 
-Our point is not that decoupling contributed nothing after 1965, only that no study measures what it contributed. Two neighboring chapters can produce the same decline without it: the modern-contraception chapter has contraception closing a gap that opened once people came to want fewer children, and the preference-change chapter has the wish for children shrinking on its own. What decoupling adds to those two is the assertion that fertility would have fallen even with the desire for children held fixed, and that assertion is the one no study identifies. Net of the contraception and preference channels, the portion of the SDT decline owed to decoupling is not presently estimable and may be small. Our SDT verdict splits along the same seam. The dissociation the hypothesis predicts is real, well populated, and sex-specific, and it is small enough in aggregate that it cannot carry the decline on its own. The distinctive decoupling claim is unidentified, and we assign it no share of the transition rather than a small one, because a share assigned would be a score given to an estimate that does not exist.
+### 7.3 The Second Demographic Transition
 
-## 8. External Validity and Transportability
+The Second Demographic Transition is where the hypothesis is most plausible and still least
+identified. The pill severs sex from reproduction at scale after 1965, as the theory requires, and
+the status-and-children evidence shows the matching signatures. Across rich post-1965 populations the
+link between status and family size weakens and splits by sex, and fertility becomes heritable as it
+becomes voluntary. Those signatures support the relationship the hypothesis describes. They do not
+measure how large a decline decoupling caused, as against a genuine change in how many children
+people want. The distinctive claim needs the fall recovered with the desire for children held fixed,
+and no study in the evidence base does that.
 
-Two kinds of society make up this evidence base, and which kind a study comes from decides whether the mechanism could operate in that society. The status-and-reproduction studies fall into a nonindustrial and historical group with little or no contraception and a rich group with contraception everywhere. The hypothesis predicts a difference between the two groups, status predicting reproduction among the first and not among the second, and the evidence tracks that division. The division is a strength rather than a nuisance, because comparing the groups is the test.
+The break that has been measured is, on its own terms, demographically small. All four studies of
+contraception-using populations observe fertility entirely after 1965, so they sit squarely inside
+the phenomenon. Squaring a correlation gives the share of the differences between people that the
+predictor accounts for, and squaring these correlations leaves very little. The male correlation of
+about 0.08 accounts for under one percent of the variance in completed fertility, and the female
+correlation of about negative 0.13 accounts for under two percent. Put plainly: line up a thousand
+women who differ in how many children they had, and differences in status account for under two
+percent of that spread, with everything else in their lives accounting for the other ninety-eight.
 
-Transportability binds on the distinctive claim. Severing is sharpest in rich countries after 1965, where the pill is everywhere and the desire for children is already low. Those same conditions make decoupling hardest to tell apart from a genuine fall in the desire for children, both being present together. Contraception is largely missing from the nonindustrial societies in which the status-reproduction baseline is clean, so the decoupling claim admits of no test there. Different places identify the baseline and would identify the decoupling effect, which is one reason the distinctive claim stays open.
+Their opposition matters more than either figure on its own. Higher-status men have slightly more
+children and higher-status women have slightly fewer, so in a population with roughly equal numbers
+of men and women the two effects offset, and the association across both sexes cannot be told apart
+from zero. A gradient that vanishes in aggregate cannot by itself move aggregate fertility. Moving it
+would require the distribution of status to shift in a way that weighted the sexes differently, and
+no study in this evidence base estimates that. This vanishing aggregate sits underneath the sex
+reversal, and it cuts against reading the reversal as a large demographic force. Converting these
+correlations into numbers of births would require the standard deviation of the fertility outcome in
+each study, a measure of how spread out the birth counts are, which the extraction does not hold. No
+share of the decline is assigned here rather than estimated loosely.
 
-## 9. Risk of Bias and Identification Quality
+Decoupling may well have contributed something after 1965. No study measures how much. Two other
+chapters can produce the same decline without it: the modern-contraception chapter explains the
+decline as contraception closing a gap that opened once people came to want fewer children, and the
+preference-change chapter explains it as the wish for children shrinking on its own. Decoupling adds
+one thing to those two accounts, namely the claim that fertility would have fallen even with the
+desire for children held fixed, and no study identifies that claim. Net of the contraception and
+preference channels, the share of the SDT decline that belongs to decoupling is not presently
+estimable and may be small.
 
-Each stream carries its own risk. The status-and-reproduction studies are mostly observational associations between a status measure and completed fertility, drawn from population samples and historical records, and confounding is their chief risk: whatever raises a person's status also travels with education, location, and preferences that move fertility on their own. Comparing across populations, contraceptive against non-contraceptive, adds the risk that societies of the two sorts differ along many dimensions besides contraception. As evidence that the status-reproduction link exists and runs in a given direction these studies are strong, and as evidence that contraception caused the link to decline they are weaker.
+The verdict for the second transition splits along the same seam. The break the hypothesis predicts
+shows up in the data, rests on many studies, and differs between men and women. Measured across a
+whole population it is also too small to carry the decline by itself. The distinctive decoupling claim is unidentified, and this review assigns it
+no share of the transition rather than a small one, because assigning a share would mean scoring an
+estimate that does not exist.
 
-Measurement is the risk in the desire-for-children stream. These are validation studies for an instrument, and a scale whose predictions of fertility are imperfect may be picking up stated attitudes in place of a stable underlying drive. The identification problem that defines this chapter belongs to the direct-decoupling studies. The formal models have internal validity but no empirical anchoring. The empirical papers do identify a real effect of contraceptive access, on the total number of births rather than on the by-product channel with the desire for children held fixed, which makes them credible evidence for another chapter's question.
+## 8. Where the findings travel
 
-We assessed the five studies now in the quantitative pool across the standard observational-study domains: confounding, selection, exposure classification, missing data, outcome measurement, reported-result selection, and identification credibility. Being observational correlations, all five have confounding as their dominant risk, since the traits that raise status also raise education and shift the preferences that move fertility on their own. On causal identification four of the five come out serious overall, status being assigned in none of them and the reported correlation being unadjusted or only lightly adjusted. We rate von Rueden and Jaeggi's meta-analysis moderate instead of serious: restricting the sample to non-industrial societies is a deliberate design choice that limits the contraception confound, which is the one comparison this chapter most needs. An additional serious selection risk attaches to Fieder and colleagues, whose sample is a single employer's university workforce and not a general population. The implication runs the same way throughout. As evidence for the existence and sex-differentiation of the status-reproduction association the pool is strong, and as evidence that contraception caused its modern attenuation the pool is weak, which is the identification gap Section 6 sets out.
+The evidence base spans two very different kinds of society, and which kind a study comes from
+decides whether the mechanism could operate there at all. The status-and-children studies fall into a
+nonindustrial and historical group with little or no contraception and a rich group with
+contraception everywhere. The hypothesis predicts that the two groups should look different, with
+status predicting reproduction in the first and not in the second, and the evidence follows that
+split. The split is a strength rather than a nuisance, because comparing the two groups is the test.
 
-| Study | Confounding | Selection | Identification | Overall |
+The limit falls on the distinctive claim. Severing is sharpest in rich countries after 1965, where
+the pill is widespread and the desire for children is already low. Those same conditions make
+decoupling hardest to tell apart from a genuine fall in the desire for children, since both are
+present at once. Contraception is largely absent from the nonindustrial societies in which the
+status-to-children baseline is clean, so the decoupling claim admits of no test there. The settings
+that pin down the baseline and the settings that would pin down the decoupling effect are different
+places, which is part of why the distinctive claim stays open.
+
+## 9. Weaknesses in the studies
+
+Each group carries its own risk. The status-and-children studies are mostly observational
+associations between a status measure and completed fertility, drawn from population samples and
+historical records. Observational means the researchers watched what people did rather than assigning
+anyone a status, so confounding is the chief risk: whatever raises a person's status also travels
+with education, location, and preferences that move fertility on their own. Comparing contraceptive
+societies against non-contraceptive ones adds the risk that societies of the two kinds differ along
+many dimensions besides contraception. As evidence that the link between status and children exists
+and runs in a given direction these studies are strong, and as evidence that contraception caused the
+link to decline they are weak.
+
+Measurement is the risk in the desire-for-children studies. These are validation studies for an
+instrument, and a scale that predicts fertility imperfectly may be picking up stated attitudes rather
+than a stable underlying drive. The identification problem that defines this chapter belongs to the
+decoupling studies. The formal models have internal validity but no empirical anchoring: their
+conclusions follow from their assumptions, and nothing ties the assumptions to measured data. The
+empirical papers do identify a real effect of contraceptive access, on the total number of births
+rather than on the decoupling channel with the desire for children held fixed, which makes them
+credible evidence for another chapter's question.
+
+The five studies now in the quantitative pool were assessed across the standard domains for
+observational work: confounding, who ends up in the sample, how the exposure is classified, missing
+data, how the outcome is measured, whether the reported result was selected after the fact, and
+whether the design can separate cause from correlation. All five are observational correlations, so
+confounding dominates in every one, since the traits that raise status also raise education and shift
+the preferences that move fertility on their own. Four of the five are rated serious overall on that last
+domain. Nobody assigns a person a social rank, and the correlations these papers report are either
+unadjusted or adjusted only lightly. The fifth, von Rueden and Jaeggi's meta-analysis, is rated
+moderate instead. Its authors chose to restrict the sample to non-industrial societies, and that
+choice holds down the contraception confound in the one comparison this chapter most needs. Fieder
+and colleagues carry an extra serious risk from who is in the sample, since a single employer's
+university workforce is not a general population. The implication runs the same way throughout. The
+pool is strong evidence that the association between status and children exists and differs by sex,
+and weak evidence that contraception caused its modern weakening, which is the identification gap
+Section 6 sets out.
+
+| Study | Confounding | Who is in the sample | Separating cause from correlation | Overall |
 |---|---|---|---|---|
 | von Rueden and Jaeggi 2016 (33 societies) | Moderate | Low | Moderate | Moderate |
 | Hopcroft 2018 (US SIPP) | Serious | Low | Serious | Serious |
@@ -156,20 +488,34 @@ We assessed the five studies now in the quantitative pool across the standard ob
 | Fieder et al. 2005 (Vienna employees) | Serious | Serious | Serious | Serious |
 | Kanazawa 2003 (US GSS) | Moderate | Low | Serious | Serious |
 
-Per-domain ratings and their rationales sit in the risk-of-bias table that the reproducibility appendix lists.
+The full per-domain ratings and the reasons behind them are in the risk-of-bias table listed in
+Section 13.
 
-## 10. Summary of Findings
+## 10. Summary of findings
 
-Certainty runs highest on the status-and-reproduction claim and lowest on the distinctive decoupling claim. For the poolable stream we now have an estimated and table-verified magnitude: a sex reversal, status buying more children for men and fewer for women, cancelling to a near-zero aggregate. Contraceptive availability remains unidentified as a moderator. Arranged one way the evidence displays the predicted attenuation, about 0.19 where contraception is absent against about 0.07 where it is present, and that arrangement sets non-industrial populations beside modern ones, so no contraceptive effect can be read off it.
+Certainty runs highest on the status-and-children claim and lowest on the distinctive decoupling
+claim. For the poolable group the magnitude is now estimated and checked back against source tables:
+a sex reversal in which status buys more children for men and fewer for women, cancelling to a
+near-zero aggregate. Contraceptive availability remains unidentified as a moderator. Arranged one way
+the evidence displays the predicted weakening, about 0.19 where contraception is absent against about
+0.07 where it is present, and that arrangement sets non-industrial populations beside modern ones, so
+no contraceptive effect can be read off it. Three shorthand words carry over from the source files
+into the tables below. The dissociation is the break between status and reproduction set out in
+Section 5.1. Attenuation is the weakening of that link. A cell is one subgroup of the pool, such as
+the four studies of contraception-using populations.
 
-| Evidence stream | Studies | Synthesis | Certainty | Interpretation |
+| Group of studies | Studies | What the synthesis shows | Certainty | Interpretation |
 |---|---|---|---|---|
 | Status and reproduction | The dissociation studies of Section 5.1 | Project-native pool (second-reader verified, five studies): status-reproduction correlation about +0.08 for men and about negative 0.13 for women, a sex reversal that cancels to a near-zero overall association and tracks under two percent of fertility variance within sex; the predicted attenuation is visible (about 0.19 contraception-absent against about 0.07 present) but confounded by the non-industrial-versus-modern contrast, so the availability moderator stays unidentified; Lidborg 2020/2022 pools part of the cell | Moderate for direction, low for magnitude | The ancestral link between status and reproduction survives for men and inverts for women. This tests the dissociation, not the distinctive decoupling claim, which remains unidentified. |
 | Desire for children as a distinct drive | The Miller program and Rotkirch | Narrative; not pooled | Low-to-moderate | A wish for children exists and can be measured, which bounds the residual demand, while being weaker than a simple preference model assumes. |
 | Direct decoupling | Models plus contraceptive-effect studies | Not poolable | Low | Tested by models and a descriptive trend; no identified estimate holds the desire for children fixed while measuring the fertility effect of the severing. |
-| Demographic significance | All streams plus target-period dating of every pooled study | Structured PM/FDT/SDT verdicts, computed | Low-to-moderate, stream-specific | Insufficient for pre-modern variation on one regime-assigned study; not significant for the FDT, where no pooled study observes fertility in-window at all; real but small and self-cancelling for the SDT dissociation; no share assigned to the distinctive claim. |
+| Demographic significance | All groups plus target-period dating of every pooled study | Structured PM/FDT/SDT verdicts, computed | Low-to-moderate, group-specific | Insufficient for pre-modern variation on one regime-assigned study; not significant for the FDT, where no pooled study observes fertility in-window at all; real but small and self-cancelling for the SDT dissociation; no share assigned to the distinctive claim. |
 
-### 10.1 GRADE-Style Final Rating
+### 10.1 Final ratings
+
+GRADE is the scale this review uses to record how much confidence the evidence supports, running from
+Very low through Low and Moderate to High. The table pairs each fertility decline with one of the
+hypothesis's two claims and rates the pair.
 
 | Phenomenon and claim | Causal credibility | Demographic significance | Rationale |
 |---|---|---|---|
@@ -178,53 +524,108 @@ Certainty runs highest on the status-and-reproduction claim and lowest on the di
 | SDT, status-and-reproduction claim | Moderate | Real but quantitatively small and self-cancelling | Five studies agree in direction and the sex reversal survives second-reader verification, but the pooled correlations track under two percent of fertility variance within sex and cancel to near zero across sexes. Rated moderate rather than higher because every study is observational, four of five are serious on risk of bias, and heterogeneity exceeds ninety-six percent. |
 | SDT, distinctive decoupling claim | Low | Unidentified, no share assigned | The mechanism fits the timing, but the evidence is models and one descriptive trend. No study holds the desire for children fixed, and the claim's added value over the contraception and preference chapters rests on exactly that missing contrast. |
 
-We generate these verdicts from the extraction rather than composing them by hand; `source/analysis/b1_demographic_significance.py` writes the table, and the appendix lists it.
+These verdicts are generated from the extracted data rather than composed by hand;
+`source/analysis/b1_demographic_significance.py` writes the table, and Section 13 lists it.
 
-## 11. Interpretation for Economics Readers
+## 11. Reading the hypothesis as an economist
 
-For an economist the hypothesis is best read as a claim about what people were ever choosing in the first place. Children are a good that parents demand in the standard model, and the fertility decline is either a fall in that demand or a fall in its price. This hypothesis says the demand was mostly indirect. People chose sex, and children followed, so a good part of what the data record as demand for children was the shadow of a demand for something else. Once contraception let people buy the sex and skip the children, the shadow demand collapsed.
+An economist can read this hypothesis as a claim about what people were ever choosing in the first
+place. The standard model treats children as a good that parents demand, and explains the fertility
+decline as a fall in that demand or a fall in its price. This hypothesis says the demand was largely
+indirect. People chose sex, children followed, and so part of the demand for children that shows up in
+the data was really a demand for something else casting a shadow. Once contraception let people have
+the sex without the children, that shadow demand disappeared.
 
-There is a testable edge on the distinction, and it is the edge the evidence cannot yet reach. Direct and real demand for children implies that cheap contraception leaves completed fertility close to the number people report wanting. Demand that is mostly a by-product of the sex drive implies the opposite: cheap contraception pushes completed fertility below the reported number, because the by-product channel that used to overshoot the stated preference has been shut off. The discriminating test is the gap between wanted and realized fertility, and specifically its sign. Realized below wanted favors this hypothesis; realized at wanted favors the account in which people simply came to want fewer children. Nothing in the evidence base reports that gap in a form that settles the matter, which is how we can rate the hypothesis plausible and still leave its distinctive contribution unmeasured.
+The distinction has a testable edge, and the evidence cannot yet reach it. If the demand for children
+was real and direct, cheap contraception should leave completed fertility close to the number people
+say they want. If the demand was largely a by-product of the sex drive, cheap contraception should
+push completed fertility below the number people say they want, because the mechanism that used to
+overshoot their stated preference is gone. The discriminating test is the gap between wanted and
+realized fertility, and specifically its sign. Realized below wanted would favor this hypothesis;
+realized at wanted would favor the account in which people simply came to want fewer children. No
+study in the evidence base reports that gap in a form that settles the question, which is how the
+chapter can rate the hypothesis plausible and still leave its distinctive contribution unmeasured.
 
-## 12. Limitations and Extensions
+## 12. Limits and what would settle the question
 
-The chapter's chief limitation is built into the hypothesis and not into the search. The distinctive claim concerns a counterfactual, the path fertility would have taken had the desire for children stayed fixed while contraception spread, and no design in the evidence base constructs that counterfactual. Credible studies here measure one of two other things: the survival of the status-reproduction link, which is a consistency check, or the total effect of contraceptive access, which another chapter owns.
+The chapter's main limit is built into the hypothesis rather than into the search. The distinctive
+claim is about a counterfactual, the path fertility would have taken had the desire for children
+stayed fixed while contraception spread, and no design in the evidence base builds that
+counterfactual. Every credible study here measures one of two other things: whether the link between
+status and children survives, which is a consistency check, or the total effect of contraceptive
+access, which belongs to another chapter.
 
-Three extensions would move the chapter. One is a design that estimates the fertility decline while a documented and stable desire for children is held fixed across a contraception rollout, and that reports whether realized fertility dropped below the stated target. Another is a study tying a validated childbearing-motivation measure to completed fertility within a fully contracepting group, which would put a number on the residual demand for children. A third is a study comparing fertility across differing contraceptive access inside a population otherwise similar to itself, which Section 6 identifies as the design the availability moderator requires, in place of more studies of the kind already pooled.
+Three studies would move the chapter, and none of them exists. The first would estimate the fertility
+decline while a documented and stable desire for children is held fixed across a contraception
+rollout, and would report whether realized fertility fell below the stated target. The second would
+link a validated childbearing-motivation measure to completed fertility inside a fully contracepting
+group, to put a number on how much demand for children remains. The third would compare fertility
+across differing contraceptive access within a population otherwise similar to itself, which Section
+6 identifies as the design the moderator needs.
 
-The project-native meta-analysis buys legibility of the gap. Men can be compared against women in this pool, and the contraception contrast can only be arranged across populations that differ in many things at once. Retrieving further natural-fertility studies stays worth doing, since it would attach a defensible interval to the contraception-absent side, and of the three extensions it is the nearest to hand. Describing that retrieval as identifying the moderator would be wrong. Of the three extensions, only the first would rescue the distinctive claim.
+The meta-analysis built for this project makes the gap legible. The pool can compare men against
+women, and it can arrange the contraception contrast only across populations that differ in many
+things at once.
 
-## 13. Reproducibility Appendix
+Some full texts could not be obtained, so this chapter runs on a thinner set of studies than the
+screen produced. Retrieving more studies of populations without contraception stays worth doing,
+because it would put a defensible interval on the contraception-absent side, and it is the nearest of
+these improvements to hand. That retrieval should not be described as identifying the moderator, and
+it does not change any verdict in this chapter. Of the three designs above, only the first would
+rescue the distinctive claim.
 
-How the review was built, and where its materials sit, is recorded here. Following the pipeline is not required to follow the argument.
+## 13. How the review was built
 
-We ran the project's Gold-Anchored Clustered Search workflow. From twenty independently chosen anchor studies came a citation-based candidate pool of 4,900 deduplicated records, screened blind at the title-and-abstract level into the three evidence streams, into the neighboring chapters, or out. That screen returned 152 relevant records, 311 uncertain, and 4,437 not relevant, yielding an empirical pooling set of 95 distinct studies beside a separate theory stream of 173. Distinctness of the five search families, as against redundancy, was confirmed by a retrieval-overlap test.
+This section records how the review was assembled and where the materials live. A reader can follow
+the argument without following the pipeline.
 
-Our finalization pipeline follows the old-age-security chapter's ticket chain, and for the studies retrieved so far it is complete: full-text retrieval, structured effect extraction, second-reader verification of every pooled effect, risk-of-bias coding, the sex-moderated random-effects meta-analysis, and the demographic-significance and target-period pass. Sections 6, 7, 9, and 10 report those outputs.
+The chapter uses the project's Gold-Anchored Clustered Search workflow. Twenty independently chosen
+anchor studies produced a citation-based candidate pool of 4,900 records once duplicates were
+removed. Each record was screened blind on title and abstract into the three groups of evidence, into
+a neighboring chapter, or out. The screen produced 152 relevant records, 311 uncertain, and 4,437 not
+relevant, and an empirical pooling set of 95 distinct studies alongside a separate reading list of
+173 theoretical works. A retrieval-overlap test confirmed that the five search families reach
+different papers rather than the same ones.
 
-The significance pass rests on two things. We read each pooled study's observation window out of its own full text instead of recalling it, and the target-period table records every window with the quoted source sentence, which is what lets a reader check the first-transition timing argument of Section 7.2 rather than take it on assertion. The pass would ordinarily also cross-check each window against in-window total fertility through the shared classification module. Running that module requires a United Nations fertility series kept in a sibling repository absent from this machine, so the cross-check never ran. Study dates alone drive the window classification reported here, and the script logs the cross-check as unavailable instead of stepping past it in silence. Re-running the pass where that data is available would supply the check and would leave every window in the present table as it stands, all of them being unambiguous.
+For the studies retrieved to date the work is complete: full-text retrieval, structured effect
+extraction, a second-reader check of every pooled effect, risk-of-bias coding, the meta-analysis
+described in Section 6, and the demographic-significance and target-period pass. Sections 6, 7, 9,
+and 10 report those outputs.
 
-Outstanding steps are two: retrieval of more contraception-absent studies, which tightens that side of the contrast and does not identify the moderator, and principal-investigator review.
+Two notes on what the significance pass does and does not rest on. Each pooled study's observation
+window was read out of its own full text rather than recalled, and the windows are recorded with the
+quoted source sentence in the target-period table, so a reader can check the timing argument in
+Section 7.2 rather than take it on trust. Separately, the pass would normally cross-check each window
+against total fertility measured in the same years, using the shared classification module. That
+module needs a United Nations fertility series held in a sibling repository that is not present on
+this machine, so the cross-check did not run. Window classification here rests on study dates alone,
+and the script records the cross-check as unavailable rather than passing over it in silence.
+Re-running the pass where that data is available would add the check; it would not change any window
+in the current table, all of which are unambiguous.
 
-- Search scope and evidence-stream definitions: `literature/search-logs/evolutionary-sex-drive-contraceptive-decoupling-search-scope.md`
-- Screening rules, and where the modern-contraception boundary falls: `literature/search-logs/evolutionary-sex-drive-contraceptive-decoupling-query-clusters.md`, `literature/search-logs/evolutionary-sex-drive-contraceptive-decoupling-screen-rubric.md`
+- Search scope and evidence-group definitions: `literature/search-logs/evolutionary-sex-drive-contraceptive-decoupling-search-scope.md`
+- Screening rules and the boundary with the modern-contraception chapter: `literature/search-logs/evolutionary-sex-drive-contraceptive-decoupling-query-clusters.md`, `literature/search-logs/evolutionary-sex-drive-contraceptive-decoupling-screen-rubric.md`
 - Anchor list and verification log: `literature/search-logs/evolutionary-sex-drive-contraceptive-decoupling-cold-start-anchors.json`, `literature/search-logs/evolutionary-sex-drive-contraceptive-decoupling-cold-start-anchors-log.md`
 - Candidate pool and audit: `literature/search-logs/evolutionary-sex-drive-contraceptive-decoupling-tier-*.{json,md}`
-- Screen report, tiers, pooling set, theory stream: `output/evolutionary-sex-drive-contraceptive-decoupling-{screen-report,screen-tiers,estimand-ready-set,theory-stream}.*`
+- Screen report, tiers, pooling set, and theory list: `output/evolutionary-sex-drive-contraceptive-decoupling-{screen-report,screen-tiers,estimand-ready-set,theory-stream}.*`
 - Retrieval-overlap test: `output/evolutionary-sex-drive-contraceptive-decoupling-cluster-overlap.md`
 - Build scripts: `source/build/goldset/64_b1_*` through `71_b1_*`; PDF ingest and reconciliation: `source/build/goldset/74_b1_ingest_pdfs.py`
-- Effect extraction, second-reader verification, risk of bias: `extraction/evolutionary-sex-drive-contraceptive-decoupling-{effects.csv,effects-workflow.json,verification-queue.md,risk-of-bias.csv}`
+- Effect extraction, second-reader verification, and risk of bias: `extraction/evolutionary-sex-drive-contraceptive-decoupling-{effects.csv,effects-workflow.json,verification-queue.md,risk-of-bias.csv}`
 - Meta-analysis and forest plot: `source/analysis/b1_meta_pipeline.py`, `source/analysis/b1_forest_plot.py`; outputs `output/tables/evolutionary-sex-drive-contraceptive-decoupling-meta-analysis-summary.csv` and `output/figures/evolutionary-sex-drive-contraceptive-decoupling-status-repro-forest.{png,pdf}`
 - Study windows with quoted source sentences: `extraction/evolutionary-sex-drive-contraceptive-decoupling-target-period-relevance.csv`
 - Demographic significance and GRADE verdicts: `source/analysis/b1_demographic_significance.py`; outputs `output/tables/evolutionary-sex-drive-contraceptive-decoupling-{demographic-significance,grade-verdicts}.csv`
 - Unit tests for the analysis code: `source/analysis/test_b1_{meta_pipeline,demographic_significance}.py`, run with `python3 <file>` from `source/analysis`
-- Finalization ticket chain, from retrieval through demographic significance: TICK-041 through TICK-046
-- Principal-investigator review packet: `output/chapters/evolutionary-sex-drive-contraceptive-decoupling-pi-review-packet.md`
-- Run-state note: memory `b1-decoupling-run-state.md`
 
-Complete for the studies retrieved so far: full-text effect extraction carrying the desire-held-fixed flag, its second-reader verification, the sex-moderated random-effects meta-analysis, the risk-of-bias assessment, and the demographic-significance and target-period pass. Pending before sign-off: principal-investigator review of the pooled estimate, of the held-for-cause exclusions, and of the weighting question that pooling administrative samples of several hundred thousand alongside anthropological samples of a few hundred raises, all laid out in the review packet; retrieval of further contraception-absent and natural-fertility studies, which would tighten that estimate without identifying the contraceptive-availability moderator; and a lay-readability check.
+[Note to co-authors: the finalization ticket chain covering retrieval, extraction, risk of bias,
+meta-analysis, and demographic significance is TICK-041 through TICK-046. The review packet is
+`output/chapters/evolutionary-sex-drive-contraceptive-decoupling-pi-review-packet.md`, and the
+run-state note is memory `b1-decoupling-run-state.md`. Still pending before sign-off: review of the
+pooled estimate, of the held-for-cause exclusions, and of the weighting question raised by pooling
+administrative samples of several hundred thousand alongside anthropological samples of a few
+hundred; and retrieval of additional contraception-absent studies, which would tighten that estimate
+without identifying the contraceptive-availability moderator.]
 
-## 14. References for the Current Draft
+## 14. References
 
 Barkow, J. H., and Burley, N. (1980). Human fertility, evolutionary biology, and the demographic transition.
 
