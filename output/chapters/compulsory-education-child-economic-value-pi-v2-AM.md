@@ -20,21 +20,13 @@ estimate, citation, rating, or verdict has moved.]
 
 ## 1. The claim
 
-Compulsory schooling lowers fertility by making children less profitable to their parents. That is
-the claim this chapter evaluates, and it runs as a chain with three links. A school-attendance law
-takes a child out of the field, the workshop, or the family store. The hours the child no longer
-works are earnings the parents no longer collect, so each child is worth less to them in money. And
-parents who expect less money from each child have fewer children.
+This chapter evaluates the claim that compulsory schooling lowers fertility by making children less profitable to their parents. The causal chain has three links. A school-attendance law takes a child out of the field, the workshop, or the family store. The hours the child no longer works are earnings the parents no longer collect, so each child is worth less to them in money. And parents who expect less money from each child have fewer children. This chapter asks whether the evidence supports each link.
 
-Every link has to hold for the claim to be true. A law can raise school attendance without taking
-children out of work, if they work after school and on weekends. Children's work can fall without
-changing what parents want, if the money children brought in was never why parents wanted them. This
-chapter asks whether the evidence carries the chain all the way through.
+[Claude: This is awkward writing: runs as a chain with three links. I deleted the second para because it was redundant. We need to be efficient with academic writing.]
 
-The claim is about how many children a woman has in total, not about when she has them. Demographers
-call that total completed fertility: the number of children a woman has by the end of her
+If the claim is correct, compulsory schooling will affect how many children a woman has in total, not just when she has them. Demographers call that outcome total completed fertility: the number of children a woman has by the end of her
 childbearing years. A reform that moves a birth from age 17 to age 22, and leaves the woman with the
-same number of children at 45, leaves this hypothesis untouched. Birth timing is the subject of a
+same number of children at 45, does not support this hypothesis. Birth timing is the subject of a
 separate chapter in this review, on tempo effects and birth postponement.
 
 ## 2. Almost every available study changes the wrong generation's schooling
@@ -43,16 +35,17 @@ The hypothesis needs a law that changes what a woman's children could have earne
 we found changes what the woman herself learned in school. Those are two different laws acting on two
 different generations, and only one of them is the subject of this chapter.
 
+[Claude: isn't there an easier way to say this: that the hypothesis being tested in this chapter is measured by the number of siblings a child who's subject to compulsory schooling has? Whereas the other chapter that looks at whether or not schooling affects the timing of the female student affects the number of children the student has rather than the number of siblings the student has. Isn't that a clear way to explain the wrong generation problem?]
+
 The strongest of these studies rest on a birth-date cutoff. A country raises its school-leaving age
 from 14 to 16 on a fixed date, so a girl born a week before the cutoff may leave school at 14 and a
 girl born a week after may not. Researchers then compare the two groups, on the reasoning that they
 differ in the law that governed them and in almost nothing else. Economists call a study built on an accident of
 history like that one a quasi-experiment, because the law does the sorting that a coin flip would do
-in a real experiment. The comparison is clean, and it measures one thing: what two more years of her
-own schooling did to her own fertility. Her children were born decades later, under whatever laws and
-labor markets prevailed then. Nothing in the comparison says what those children could have earned.
+in a real experiment. The comparison measures one thing: what two more years of her
+own schooling did to her own fertility. 
 
-An estimate of that kind reports a total and hides a mechanism. Economists call it a reduced-form
+An estimate of this kind reports a total and hides a mechanism. Economists call it a reduced-form
 estimate: it gives the whole effect of the law on the woman's births and says nothing about which
 link in the chain produced it. Such an estimate can be perfectly credible and still be silent on the
 question this chapter asks, which is whether parents had fewer children because children stopped
@@ -103,9 +96,11 @@ child-labor laws are consequences or companions of an economic transformation ra
 Their challenge is aimed at what a law can be credited with, and it bears directly on how much weight
 the estimates in Sections 6 and 7 can carry.
 
+[Claude: this section needs citations. It has the author's names but not the dates. How do we connect it to citations?]
+
 ## 4. How we found the studies
 
-One search supplies this chapter and the chapter on birth postponement, because both hypotheses turn
+This chapter and the chapter on birth postponement use the same literature search, because both hypotheses turn
 on the same school-leaving laws. The search did not begin from a keyword query. It began from seven
 papers, each found independently, and then followed citations in both directions: every paper those
 seven cited, and every paper that cited them. Removing duplicates by DOI and title left 1,255
@@ -131,6 +126,8 @@ Chen and Guo, and Kan and Lee never say explicitly that they are testing the val
 and coauthors belong to neither hypothesis. Keeping the six here preserves useful context and
 establishes nothing about the value of children.
 
+[Claude: This is an AI tell: earned their place. I never write like that. We should add that as an AI towel for the Claude Code session working on voice.]
+
 [Note to co-authors: the counts above are the shared compulsory-education citation-frame accounting,
 and they must not be presented as a conventional keyword-database search. The stage-by-stage file is
 listed in Section 13.]
@@ -152,6 +149,8 @@ All 10 theory papers are classified as evidence about the value of children, and
 papers are in hand. Shanan sits outside those counts and is labeled a supplement throughout the
 chapter.
 
+[Claude: How is the general reader supposed to understand that last paragraph? It's not normal English. What are you trying to say?]
+
 ## 6. The six fertility studies, and whose schooling each one changes
 
 The six studies that measure fertility all change the mother's own schooling, and none of them
@@ -172,6 +171,8 @@ that law bound.
 A coefficient of 0.238 with a standard error of 0.059 is measured tightly enough that the true value
 is very unlikely to be zero.
 
+[Claude: While we have a generalist reader, I don't think we need to explain basic statistics unless it's uncommon for an undergraduate economics major to understand. Instead of explaining the statistics, just explain what the implication of a statistic is for a particular result. For example, if there's something statistically significant, say it is statistically significant. And vice versa. We are trying to teach the economics of fertility and explain what theory and data say about causes. We're not trying to explain statistics That an undergraduate economics major would already understand]
+
 The studies that follow women to the end of their childbearing years find no effect on the number of
 children they had. Geruso and Royer measure completed family size at age 45 and find it precisely
 unchanged, and their own evidence about mechanism points to conceptions prevented while girls were
@@ -191,6 +192,8 @@ number of children a woman ends up with. Fort and coauthors find an effect in En
 Continent. Chen and Guo find an effect and credit other causes for it. Lei and coauthors measure what
 women say they want rather than what they had. Anyone who reads this literature as support for the
 value-of-children claim is reading estimates that were never about the value of children.
+
+[Claude: Once we say that you want to make sure that you study the number of siblings that a child subject to compulsory schooling laws has, rather than the number of offspring that child subject to the compulsory schooling law has, why do we need to review the studies that don't look at the number of siblings but that look at the number of offspring of the children? It seems like those aren't relevant. After you tell us that they're not relevant, what that means is there's really only one study that looks at the right gen, that correct generation, and that is Shannon to 2023, which you discuss in the next section. It seems like this entire section is not necessary or relevant for this chapter. It is relevant for the chapter on how schooling affects the number of children the student has.]
 
 ## 7. Shanan (2023): the one study that moves the right generation
 
@@ -217,9 +220,9 @@ ages 20 to 30 predicts a 0.85 percentage-point reduction in the annual probabili
 one-year increase in the average school exit age predicts a 0.27 percentage-point reduction (SE 0.03;
 Table 8, column 2).
 
-Shanan stops short of the middle link, which is the part the hypothesis most needs. The study never
+Shanan stops short of the middle link. The study never
 puts a figure on what a child's work was worth to their parents, and it never measures how much of
-the fertility effect ran through that lost money rather than through something else. Its treatment
+the fertility effect ran through that lost money rather than through something else. [Claude: What would that something else be? Abstract objections are not as persuasive as precise ones.] Its treatment
 also bundles compulsory schooling together with child-labor restrictions, and the two arrived
 together, so no estimate in the paper can separate the earnings a family lost from the extra
 schooling a family gained. Parents who expect a better-educated child may want fewer children for
@@ -239,6 +242,8 @@ a third. All six change the mother's own schooling, so averaging their coefficie
 well-behaved number about women's education and no number at all about the economic value of
 children.
 
+[Claude: Once we determine there's only one relevant study, there's no reason to even discuss averaging. Right?]
+
 ## 9. How much of the FDT decline this could explain
 
 Expanded exposure to schooling and child-work restrictions accounts for 8% of the decline in the
@@ -248,10 +253,14 @@ three decades. Exposure lowers the annual chance of a birth by 0.85 percentage p
 birth probability fell by five percentage points. Multiplying and dividing gives
 `0.48 * 0.85 / 5 = 0.08`.
 
+[Claude: This is an AI tell: "Shanan gives the arithmetic in full." It's unnecessary text too. Just give the results.]
+
 Our review calls a cause demographically significant for a fertility decline when it accounts for at
 least 10% of that decline. The 8% figure falls below the bar. It supports a verdict of Partial, which
 in this review means the cause is real and moves fertility in the claimed direction while accounting
 for too small a share of the decline to clear the threshold.
+
+[Claude: We do not have an arbitrary threshold for causing something demographically significant. We just list the percentage of change in fertility that causes explain, and that's it. Here it is 8%, and you should just state that.]
 
 Readers should treat the 8% as a fragile number for three reasons. The calculation covers one age,
 30-year-old women, rather than the whole childbearing span. It is a back-of-envelope calculation,
@@ -271,6 +280,8 @@ as explaining about 10% of the observed American fertility decline. The underlyi
 Shanan, and Shanan's own back-of-envelope figure is 8%. A reader who takes the 10% from the review
 chapter would place this hypothesis exactly at the threshold; a reader who goes to the primary study
 finds it below.
+
+[Claude: Another AI tell: "One further caveat sits underneath the arithmetic." Just state the point you are making. But even in this paragraph, I am confused. I thought you said there was only one study on this hypothesis: Shanan. Now there seem to be two, unless Cigno and Rosati relied on the Shannon paper..]
 
 ## 10. Provisional GRADE rating
 
@@ -308,6 +319,8 @@ Any replication will also have to answer Greenwood, Seshadri, and Vandenbroucke.
 identifies the effect only from the dates on which legislatures acted cannot separate the law from
 the shift in demand for skill that came before it, and on their history that shift emptied the
 workshops before the law did.
+
+[Claude: Explain this objection a little bit more completely for a lay reader. For example, explain what might have happened that would cause the Compulsory School Law not to have an effect because the effect occurred before, if that's what you are trying to say.]
 
 A wider scaling exercise would also help. The 8% in Section 9 covers one age group in one country
 over three decades. A decomposition of the total fertility rate, or of completed fertility, across a
