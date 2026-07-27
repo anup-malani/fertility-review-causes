@@ -1,6 +1,6 @@
 # Work Queue
 
-Last updated: 2026-07-25
+Last updated: 2026-07-27
 
 Pick the first open ticket assigned to you or `any`. Before starting, pull/sync, then **claim** it
 (move its row to **In progress** below) before doing the work — using whichever mode is active in
@@ -25,8 +25,9 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 > commit message dated 07-21 to 07-25 against this table; in commit messages from Alexandra's schooling
 > workstream, `TICK-032` means the compulsory-education split and needs no translation.
 >
-> **Next free number is TICK-047.** Claim a number by pushing its QUEUE.md row before starting work,
-> not after. That is what would have prevented the collision.
+> **Next free number is TICK-054.** Claim a number by pushing its QUEUE.md row before starting work,
+> not after. That is what would have prevented the collision. TICK-047 through TICK-053 were claimed
+> for the D.3.b climate-anxiety chain on 2026-07-27.
 
 ---
 
@@ -34,6 +35,7 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 
 | Ticket | Title | Assigned | Parallel-safe |
 |--------|-------|----------|---------------|
+| [TICK-048](TICK-048-d3b-fulltext-retrieval.md) | D.3.b full-text retrieval — mirror the B.1 scripts; realized-8 and desire-independence-4 first. **Watch the OA rate: it is what decides whether D.3.b avoids B.1's selection problem** | any | yes (with the full-62 half of 047) |
 | [TICK-039](TICK-039-compulsory-education-chapter-readability.md) | Compulsory-education chapter lay-readability review | Alexandra | no |
 | [TICK-030](TICK-030-replicate-gacs-agricultural-mode-production.md) | Replicate GACS for agricultural mode of production | any | no |
 | [TICK-041](TICK-041-b1-fulltext-screen-retrieval.md) | **B.1 library retrieval of the 71 missing PDFs — needs a human with Zotero + UChicago proxy.** Automated ceiling hit at 20/95; the B.1 pooled estimate rests on 5 studies until this moves | Shravan or Alexandra | no |
@@ -47,6 +49,7 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 
 | Ticket | Title | Owner | Claimed (UTC) | Touches |
 |--------|-------|-------|---------------|---------|
+| [TICK-047](TICK-047-d3b-ra-gate.md) | D.3.b RA gate — boundary calls + 122 `INSUFFICIENT_INFO`; decisive-12 half gates extraction, Wall 1 (D.1.a) misroutes sampled first | Shravan | 2026-07-27T00:00:00Z | `extraction/climate-anxiety-eco-doomerism-ra-gate.csv`; `literature/search-logs/climate-anxiety-eco-doomerism-ra-gate-log.md` |
 | [TICK-046](TICK-046-b1-chapter-finalization.md) | B.1 chapter finalization — **RA work complete, awaiting Anup's review**; PI packet has 6 numbered decisions | Shravan | 2026-07-25T00:00:00Z | `output/chapters/evolutionary-sex-drive-contraceptive-decoupling{,-pi-review-packet}.md` |
 | [TICK-019](TICK-019-oas-demographic-significance-and-chapter.md) | OAS demographic significance and hybrid chapter draft | Alexandra | 2026-07-17T14:45:00Z | `output/chapters/old-age-security-pension-crowdout.md`; OAS evidence records |
 | [TICK-031](TICK-031-replicate-gacs-child-labor-schooling.md) | Replicate GACS for child-labor laws and compulsory schooling | Alexandra | 2026-07-16T22:00:00Z | `source/build/goldset/`; `literature/search-logs/child-labor-laws-and-schooling-*`; related outputs/status files |
@@ -55,6 +58,11 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 
 | Ticket | Title | Assigned | Blocked by |
 |--------|-------|----------|------------|
+| [TICK-049](TICK-049-d3b-effect-extraction.md) | D.3.b effect extraction — two tables, never combined | any | TICK-047, TICK-048 |
+| [TICK-050](TICK-050-d3b-risk-of-bias.md) | D.3.b risk of bias (adds a common-method-bias domain) | any | TICK-049 |
+| [TICK-051](TICK-051-d3b-two-track-synthesis.md) | D.3.b two-track synthesis; adjusted-vs-unadjusted is the central test | any | TICK-049 |
+| [TICK-052](TICK-052-d3b-demographic-significance.md) | D.3.b demographic significance (SDT only) | any | TICK-050, TICK-051 |
+| [TICK-053](TICK-053-d3b-chapter-finalization.md) | D.3.b chapter finalization and PI review | any | TICK-052 |
 | [TICK-006](TICK-006-osf-preregistration.md) | OSF pre-registration | Anup | TICK-001, TICK-005 |
 | [TICK-009](TICK-009-literature-search-mjs.md) | Implement literature-search.mjs | any | TICK-001 |
 | [TICK-012](TICK-012-prepilot-time-cost.md) | Pre-pilot (Anup + Claude): time-cost/income-substitution | Anup + Claude | TICK-001, TICK-009 |
