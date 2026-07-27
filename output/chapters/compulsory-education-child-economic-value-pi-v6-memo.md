@@ -42,8 +42,7 @@ birth postponement.
 
 ## 2. Theoretical mechanism
 
-Most theoretical papers supporting the main hypothesis in this chapter lay out the following logic
-for it: children produce income, a binding schooling requirement removes their work time, the return
+Most theoretical papers lay out the following logic for the hypothesis motivating this chapter: children produce income, a binding schooling requirement removes their work time, the return
 to an additional child falls, and parents shift from having more children toward spending more on
 each one. The quantity of children and the quality of each are substitutes in the household's
 budget, so a law that raises the price of quantity buys quality instead. Every model below either
@@ -131,8 +130,9 @@ child from every other thing a schooling law changes.
 Nobody randomizes a child's earning capacity, so the literature substitutes the staggered adoption
 of school-leaving and child-labor laws across states or countries and compares cohorts the laws
 bound against cohorts they did not. The timing of a legislature's action supplies variation the
-researcher did not create. Four limitations follow from that substitution, each named here and used
-by name in the sections that follow.
+researcher did not create. Three limitations follow from that substitution, and a fourth affects this
+literature regardless of how treatment is identified. Each is named here and used by name in the
+sections that follow.
 
 1. **Adoption endogeneity: legislatures do not adopt these laws at random.** Places that legislated
    may differ from places that did not in ways the comparison cannot rule out. A state that
@@ -140,7 +140,9 @@ by name in the sections that follow.
    mechanizing, where wages were already rising, or where fertility was already falling, which is the
    history Greenwood and Seshadri (2004) describe, and the design compares that state against one
    where none of it was true. Adoption endogeneity drives the risk-of-bias rating at the close of
-   Section 7 and the causal rating in Section 9.
+   Section 7, which records our review's judgment of how far a study's design could push its estimate
+   away from the truth, on a four-level scale running LOW, MODERATE, SERIOUS, and CRITICAL. It also
+   drives the causal rating in Section 9.
 2. **Policy bundling: the two law types arrive together.** When a state raises the school-leaving age
    and restricts children's employment in the same session, the earnings a child lost cannot be
    separated from what the schooling requirement changed on its own. Section 7 reports the one
@@ -151,13 +153,16 @@ by name in the sections that follow.
    were responding to, so an estimate consistent with the hypothesis is not by itself evidence for the
    hypothesis. Section 7 and the verdict in Section 10 both turn on our inability to tell the two
    accounts apart.
-4. **The wrong-generation problem: most available designs measure the wrong person's fertility.** The
+4. **The wrong-generation problem: most available designs measure the wrong person's fertility.**
+   This one would survive a perfect experiment, because it concerns which outcome a study counts
+   rather than how it assigns treatment. The
    cleanest quasi-experiments change a girl's own schooling and then count her own children, which
    measures how many offspring a female student subject to the law went on to have rather than how
    many siblings she had.
 
-Three generations sit in the wrong-generation problem, and the two chapters that share the
-compulsory-schooling literature test different links between them:
+The wrong-generation problem runs through three generations: a parent, the female student a law
+binds, and her own future children. This chapter and the chapter on tempo effects test different
+links between them:
 
 ```
 parent ──(1)──▶ female student ──(2)──▶ her own children
@@ -278,13 +283,15 @@ restrictions in force are the ones that would govern the work of the children sh
 whether to have.
 
 The restrictions Shanan studies moved children out of paid work and into classrooms, which is the
-first step of the chain in Section 1. Children covered by them were 0.029 less likely to be employed
+first thing the hypothesis needs: the law has to take away the child's earnings before anything else
+can follow. Children covered by them were 0.029 less likely to be employed
 (SE 0.008) against a baseline employment rate of 0.118, a fall of about a quarter, and 0.042 more
 likely to attend school (SE 0.008) against a baseline attendance rate of 0.882. Both effects are
 precisely estimated, and both refer to the generation of children the laws bound.
 
 Women exposed to school-leaving and child-labor restrictions during their own childbearing years had
-fewer children over their lifetimes, which is the third step of the chain. Exposure to any
+fewer children over their lifetimes, which is the last thing the hypothesis needs: parents who expect
+less from each child end up with fewer of them. Exposure to any
 restriction over a woman's ages 20 to 30 lowered her completed fertility by 0.301 children (SE
 0.044) against a sample mean of 3.112, a fall of about a tenth, and a one-year rise in the average
 age at which children in her state left school lowered it by 0.108 children (SE 0.024). Both
@@ -345,8 +352,8 @@ figure: exposure to the restrictions rose by 48 percentage points over those thr
 exposure lowers the annual birth probability by 0.85 percentage points, and the observed birth
 probability fell by 5 percentage points, giving `0.48 * 0.85 / 5 = 0.08`.
 
-Three qualifications attach to the 8% figure, and each says that it answers a narrower question than
-the hypothesis asks. The calculation covers women at a single age, 30, and not the whole childbearing
+Three qualifications limit the 8% figure, each in a different way. The calculation covers women at a
+single age, 30, and not the whole childbearing
 span. It measures the chance of a birth in a given year rather than the number of children a woman
 ends up with, and this hypothesis is about the second. Shanan attaches no uncertainty interval to the
 share, and the sensitivity check our review ran does not repair the omission: propagating only the
@@ -389,9 +396,7 @@ level that governs the distinction, so neither can be placed on the evidence in 
 both reforms counts the female student's own children in any case, so none of them would test
 sibship size even in a setting that qualified.
 
-Both reasons end at the same verdict: a mechanism with almost nothing to act on leaves almost
-nothing for anyone to measure, and a mechanism that could still operate has not been measured
-anywhere the corpus can place in the crossing.
+Both reasons end at the same verdict.
 
 **Verdict: insufficient data**, for two distinct reasons: the hypothesis is close to inapplicable
 where the SDT is best documented, and it is unclassified and untested where it might still apply.
@@ -555,9 +560,8 @@ China 1986.
 
 ## Notes to co-authors, not part of the chapter
 
-[Note to co-authors: the GRADE working file records this panel as final. Sections 9 and 10 stand as
-final on that record; if the panel reopens on the risk-of-bias referral, both revert to
-provisional.]
+[Note to co-authors: the GRADE working file records this panel as final. Sections 9 and 10 are final
+on that record; if the panel reopens on the risk-of-bias referral, both revert to provisional.]
 
 [Note to co-authors: our protocol defines demographic significance by a decomposition share of at
 least 10%, a slope-sufficiency verdict of sufficient, or a conditional R² of at least 0.15. The 8%
