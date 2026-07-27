@@ -14,11 +14,10 @@ own-schooling studies set aside here test the mechanism that chapter examines.
 
 ## 1. The claim
 
-This chapter's hypothesis is a chain of three steps running from a statute to the size of a family.
-A school-attendance or child-labor law takes a child out of paid work. The earnings the parents no
+This chapter examines the effect of a school-attendance or child-labor statute on parents' fertility decisions.
+The causal chain has three steps or links. A school-attendance or child-labor law takes a child out of paid work. The earnings the parents no
 longer collect make each child worth less to them. Parents who expect less money from each child
-have fewer children. Every step has to hold for the hypothesis to be true, and a study that
-establishes one step establishes only that one.
+have fewer children. Every step has to hold for the hypothesis to be true.
 
 Compulsory schooling in this account changes how many children a family ends up with, and not the
 ages at which those children are born. Parents here are not choosing when to have a child; they are
@@ -28,6 +27,8 @@ schooling changed her own fertility neither confirms nor refutes the hypothesis.
 difference between a parent's own schooling and a child's economic value into the test this chapter
 applies to every study in the corpus.
 
+[Claude: this is a confusing second paragraph. I think you can just shorten it by saying you're not interested in tempo effects. You're interested in completed fertility, and you're not interested in the number of kids the female child who is subject to the law has. Rather, you're interested in how many kids her parents have, or equivalently, how many siblings that child has. State that succinctly and move on.]
+
 ## 2. Theoretical mechanism
 
 Most of the theory behind compulsory schooling as a cause of lower fertility runs the same four
@@ -36,6 +37,8 @@ to an additional child falls, and parents shift from having more children toward
 each one. The quantity of children and the quality of each are substitutes in the household's
 budget, so a law that raises the price of quantity buys quality instead. Every model below either
 adds a route to that prediction or denies that the prediction follows.
+
+[Claude: it is confusing when you go from three links in the prior section to four steps here. What is it, three or four? Reading this, I think you could say there are four steps, because a predicate for the theory to work is that children produce income. That's just not true today, but it was true in premodern times, and so it's a different reason why this hypothesis cannot be really tested in the second demographic transition countries.]
 
 Hazan and Berdugo (2001) give the formative statement of the mechanism: child labor and high
 fertility hold each other up in a trap that a one-generation prohibition can break. Poor parents

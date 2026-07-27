@@ -1,9 +1,18 @@
 # Compulsory Education and the Economic Value of Children
 
-> **Version: PI rewrite v5, memo register.** Revised from v4 against the principal investigator's
-> markup of both register drafts, including his instruction to adopt the academic draft's Empirical
-> Strategy section. Substance, estimates, citations, GRADE ratings, and verdicts are unchanged from
-> the source chapter; the prose is new. Not the chapter of record.
+> **Bottom line.** The hypothesis holds that school-attendance and child-labor laws took children out
+> of paid work, made each child worth less to its parents, and so lowered the number of children
+> parents had.
+>
+> One study tests that claim on the right generation: Shanan (2023), on American states over the 1880
+> to 1940 birth cohorts.
+>
+> Causal credibility for the First Demographic Transition is **Low**, because a single study in a
+> single country cannot show that a result holds elsewhere. The pre-modern period and the Second
+> Demographic Transition have no study to rate.
+>
+> The spread of these laws accounts for **8%** of the 1900 to 1930 fall in the annual chance of a
+> birth among 30-year-old native-born American women.
 
 **Category:** Economic  
 **Primary mechanism:** Compulsory attendance and child-labor restrictions reduce children's work,
@@ -12,6 +21,11 @@ fertility.
 **Cross-references:** Tempo effects and birth postponement (compulsory schooling). Geruso and Royer
 (2018) is kept by both chapters, Cummins (2025) is routed there by mechanism, and the six
 own-schooling studies set aside here are on-mechanism there.
+
+> **Version: PI rewrite v6, memo register.** The register chosen by the principal investigator, edited
+> to add a bottom line at the top, name its methodological limitations rather than number them, and
+> disclose the null results in the adjacent literature. Substance, estimates, citations, GRADE
+> ratings, and verdicts are unchanged from the source chapter. Not the chapter of record.
 
 ## 1. The claim
 
@@ -25,8 +39,6 @@ parents of an affected child ended up having. A study that follows a girl bound 
 law and counts her own children twenty years later answers a different question, about how her own
 schooling changed her own fertility, and that question belongs to the chapter on tempo effects and
 birth postponement.
-
-[Claude: the memo is much better than the academic version of this first section about the claim.]
 
 ## 2. Theoretical mechanism
 
@@ -84,8 +96,6 @@ once the economy had already begun to move, so the treatment is endogenous. An e
 the treatment to the statute will then pick up a decline that rising demand for skill had already
 started, which is a challenge to every design described in Section 3.
 
-[Claude: this section is excellent.]
-
 ## 3. Empirical strategy
 
 ### 3.1 The treatment
@@ -121,45 +131,46 @@ child from every other thing a schooling law changes.
 Nobody randomizes a child's earning capacity, so the literature substitutes the staggered adoption
 of school-leaving and child-labor laws across states or countries and compares cohorts the laws
 bound against cohorts they did not. The timing of a legislature's action supplies variation the
-researcher did not create. Four limitations follow from that substitution, and each one governs a
-later section of this chapter.
+researcher did not create. Four limitations follow from that substitution, each named here and used
+by name in the sections that follow.
 
-1. **Legislatures do not adopt these laws at random.** Places that legislated may differ from places
-   that did not in ways the comparison cannot rule out. A state that restricted children's employment
-   in 1910 may be the state where manufacturing was already mechanizing, where wages were already
-   rising, or where fertility was already falling, which is the history Greenwood and Seshadri (2004)
-   describe, and the design compares that state against one where none of it was true. This limitation
-   drives the risk-of-bias rating at the close of Section 7 and the causal rating in Section 9.
-2. **The two law types arrive together.** When a state raises the school-leaving age and restricts
-   children's employment in the same session, the earnings a child lost cannot be separated from what
-   the schooling requirement changed on its own. Section 7 reports the one specification in the record
-   that comes closest to separating them.
-3. **A schooling law also raises what parents expect a child to become.** Lower fertility after such
-   a law may reflect a costlier, better-educated child rather than a less valuable one. The two
-   accounts predict the same direction and differ only in what they say parents were responding to, so
-   an estimate consistent with the hypothesis is not by itself evidence for the hypothesis. Section 7
-   and the verdict in Section 10 both turn on our inability to tell the two accounts apart.
-4. **Most available designs measure the wrong person's fertility**, which we call the
-   wrong-generation problem. The cleanest quasi-experiments change a girl's own schooling and then
-   count her own children, which measures how many offspring a female student subject to the law went
-   on to have rather than how many siblings she had.
+1. **Adoption endogeneity: legislatures do not adopt these laws at random.** Places that legislated
+   may differ from places that did not in ways the comparison cannot rule out. A state that
+   restricted children's employment in 1910 may be the state where manufacturing was already
+   mechanizing, where wages were already rising, or where fertility was already falling, which is the
+   history Greenwood and Seshadri (2004) describe, and the design compares that state against one
+   where none of it was true. Adoption endogeneity drives the risk-of-bias rating at the close of
+   Section 7 and the causal rating in Section 9.
+2. **Policy bundling: the two law types arrive together.** When a state raises the school-leaving age
+   and restricts children's employment in the same session, the earnings a child lost cannot be
+   separated from what the schooling requirement changed on its own. Section 7 reports the one
+   specification in the record that comes closest to separating them.
+3. **The child-quality channel: a schooling law also raises what parents expect a child to become.**
+   Lower fertility after such a law may reflect a costlier, better-educated child rather than a less
+   valuable one. The two accounts predict the same direction and differ only in what they say parents
+   were responding to, so an estimate consistent with the hypothesis is not by itself evidence for the
+   hypothesis. Section 7 and the verdict in Section 10 both turn on our inability to tell the two
+   accounts apart.
+4. **The wrong-generation problem: most available designs measure the wrong person's fertility.** The
+   cleanest quasi-experiments change a girl's own schooling and then count her own children, which
+   measures how many offspring a female student subject to the law went on to have rather than how
+   many siblings she had.
 
 Three generations sit in the wrong-generation problem, and the two chapters that share the
 compulsory-schooling literature test different links between them:
 
 ```
-   parent  →  female student  →  her own children
-        arrow 1            arrow 2
+parent ──(1)──▶ female student ──(2)──▶ her own children
 ```
 
-This chapter tests arrow 1, from the parent to the female student: a law binds the student, and the
+This chapter tests arrow (1), from the parent to the female student: a law binds the student, and the
 outcome is how many children her parents had, which is her sibship size. The chapter on tempo
-effects and birth postponement tests arrow 2: the same law gives the female student more schooling,
+effects and birth postponement tests arrow (2): the same law gives the female student more schooling,
 and the outcome is how many children she herself had.
 
 The wrong-generation problem decides which studies count as evidence in this chapter, and it
 disqualifies most of the published literature on compulsory schooling and fertility. Those studies
-estimate arrow 2, which is the right quantity for a different hypothesis, and they are weighed in
+estimate arrow (2), which is the right quantity for a different hypothesis, and they are weighed in
 the chapter on tempo effects and birth postponement. The two chapters share a literature and divide
 it by whose fertility each estimate describes.
 
@@ -181,8 +192,8 @@ reports teenage fertility for one chapter and completed fertility for the other.
 The sixteen papers kept here divide into ten theory papers and six that estimate fertility under a
 schooling reform, and the six entered on a weaker test than the one this chapter applies. Reporting
 a fertility outcome under an actual reform makes a paper contextually relevant to the question. It
-does not make the paper evidence about the economic value of children, for the reason set out as the
-fourth limitation in Section 3.
+does not make the paper evidence about the economic value of children, because of the
+wrong-generation problem.
 
 ## 5. PRISMA flow
 
@@ -221,34 +232,44 @@ estimates.
 
 | Study | Country and period | Design | Samples | Outcomes and effects (SE) | Risk of bias |
 |---|---|---|---|---|---|
-| Shanan (2023) | United States, 1880–1940 birth cohorts and censuses | State-and-cohort quasi-experiment on compulsory-schooling and child-labor restrictions, with neighboring-border comparisons | 1,369,026 children for the first stage; 335,861 women for completed fertility; 7,241,042 woman-years for the annual birth probability | Exposure to any restriction at ages 20–30: −0.301 completed children (SE 0.044) against a mean of 3.112, and −0.85 percentage points on the annual birth probability (SE 0.11) against a 14.3% baseline | SERIOUS overall, on SERIOUS confounding |
+| Shanan (2023) | United States, 1880–1940 birth cohorts and censuses | State-and-cohort quasi-experiment on compulsory-schooling and child-labor restrictions, with neighboring-border comparisons | 1,369,026 children for the effect on children's work and schooling; 335,861 women for completed fertility; 7,241,042 woman-years for the annual birth probability | Exposure to any restriction at ages 20–30: −0.301 completed children (SE 0.044) against a mean of 3.112, a fall of about a tenth, and −0.85 percentage points on the annual birth probability (SE 0.11) against a 14.3% baseline | SERIOUS overall, on SERIOUS confounding |
 
 The risk-of-bias column records our review's judgment of how much a study's design could bias its
 estimate, on a four-level scale running LOW, MODERATE, SERIOUS, and CRITICAL.
 
 The six other empirical papers all change the female student's own schooling and count her own
-children, so under the fourth limitation in Section 3 none of them is evidence about the economic
-value of children, and Table 2 records what each one measures and why it is set aside.
+children, so by the wrong-generation problem none of them is evidence about the economic value of
+children, and Table 2 records what each one measures and why it is set aside.
 
 **Table 2. The six studies set aside.**
 
 | Study | Setting and reform | Outcome measured and result | Risk of bias | Why it is set aside here |
 |---|---|---|---|---|
-| Fort, Schneeweis, and Winter-Ebmer (2016) | England and seven Continental European countries; extensions implemented 1936–1975 | Completed fertility. More schooling lowers it in England; on the Continent the reforms neither reduce biological children nor raise childlessness. Single-country first stages of 0.22 to 0.40 years of schooling | SERIOUS | Measures the female student's own schooling and her own children |
-| Geruso and Royer (2018) | United Kingdom; 1972 school-leaving reform | Births at 17 fall; completed family size at 45 is zero, with a confidence interval excluding effects larger than one tenth of the ordinary least-squares association. First stage +0.31 years of schooling for women | LOW | Measures her own children, and the authors credit conceptions prevented while girls are required to attend |
+| Fort, Schneeweis, and Winter-Ebmer (2016) | England and seven Continental European countries; extensions implemented 1936–1975 | Completed fertility. More schooling lowers it in England; on the Continent the reforms neither reduce biological children nor raise childlessness. The reforms raised schooling by 0.22 to 0.40 years in the single-country estimates | SERIOUS | Measures the female student's own schooling and her own children |
+| Geruso and Royer (2018) | United Kingdom; 1972 school-leaving reform | Births at 17 fall; completed family size at 45 is zero, with a confidence interval excluding effects larger than one tenth of the ordinary least-squares association. The reform raised women's schooling by 0.31 years | LOW | Measures her own children, and the authors credit conceptions prevented while girls are required to attend |
 | Cummins (2025) | England; 1947 and 1972 reforms, linked registration records | First-marriage fertility effectively zero: the 1947 scaled range runs −0.046 to +0.132 child and the 1972 range −0.030 to +0.061 | MODERATE | Measures her own children; routed to the tempo chapter by its decreased-teenage-pregnancy mechanism |
 | Kan and Lee (2018) | Taiwan; 1968 extension from 6 to 9 years; exact-date discontinuity on whole-population censuses | Women's schooling rose and fertility did not change, completed fertility included | LOW | Measures her own children |
 | Chen and Guo (2022) | China; 1986 law; 2010 Census, married women aged 35 and over; fertility under the one-child policy, which our review requires be flagged | An additional year of reform-induced female schooling lowers total live births by 0.238 (SE 0.059), with no significant effect on childlessness | SERIOUS | Measures her own children; the authors credit delayed marriage, opportunity cost, who marries whom, and child mortality |
 | Lei, Shen, Sun, Xiang, and Zhang (2026) | China; 1986 law, exposure by age; same one-child-policy flag | Each year of exposure lowers a woman's desired family size by 0.009 child, with no detectable effect for men; completed fertility is not measured | SERIOUS | Measures her own intentions rather than her own births, and neither is sibship size |
 
+Most of the set-aside literature found nothing: Geruso and Royer, Cummins, Kan and Lee, and Fort and
+coauthors on the Continent all report no effect on completed fertility, or an effect too small to
+distinguish from none. Those nulls describe the female student's own fertility rather than her
+parents', so they do not refute the hypothesis this chapter tests, but a reader weighing this
+chapter's conclusion should know that the neighboring evidence mostly points at zero.
+
 The six studies answer the question the birth-postponement chapter asks, how a woman's own schooling
 changed her own fertility, and that chapter assesses them. Table 2 reports each estimate with the
-precision the original paper gives it, including the null results, so that a reader can see which
-nulls are tight and which are merely imprecise.
+precision the original paper gives it, so that a reader can see which nulls are tight and which are
+merely imprecise.
 
 ## 7. Quantitative synthesis
 
+### 7.1 Pooling
+
 There is no need to pool estimates here, because only one study meets our search criterion.
+
+### 7.2 Shanan's estimates, in the order the chain states them
 
 Shanan (2023) studies American states across the 1880 to 1940 birth cohorts, a period when states
 passed compulsory-schooling laws and child-labor restrictions together and children still worked for
@@ -265,15 +286,18 @@ precisely estimated, and both refer to the generation of children the laws bound
 Women exposed to school-leaving and child-labor restrictions during their own childbearing years had
 fewer children over their lifetimes, which is the third step of the chain. Exposure to any
 restriction over a woman's ages 20 to 30 lowered her completed fertility by 0.301 children (SE
-0.044) against a sample mean of 3.112, and a one-year rise in the average age at which children in
-her state left school lowered it by 0.108 children (SE 0.024). Both estimates describe the mother's
-lifetime childbearing, and both policy variables describe the generation of her children.
+0.044) against a sample mean of 3.112, a fall of about a tenth, and a one-year rise in the average
+age at which children in her state left school lowered it by 0.108 children (SE 0.024). Both
+estimates describe the mother's lifetime childbearing, and both policy variables describe the
+generation of her children.
 
 Shanan also reports the fertility effect as an annual birth probability rather than as a lifetime
 total. Exposure to any restriction lowered a woman's annual probability of giving birth by 0.85
 percentage points (SE 0.11), and a one-year rise in the average school exit age lowered it by 0.27
 percentage points (SE 0.03), both against a baseline of 14.3%. The decomposition in Section 8.2
-rests on the first of those two period estimates.
+rests on the 0.85-percentage-point effect of exposure to any restriction.
+
+### 7.3 The joint specification and policy bundling
 
 Entering both policy margins, exposure to any restriction and the average school exit age, in the
 same specification leaves each of them negative and several times its standard error, so the
@@ -284,8 +308,10 @@ than anything else in the record to separating lost child earnings from the scho
 and it does not separate them.
 
 The middle step of the chain, the fall in what a child was worth to its parents, is never measured
-in dollars. Shanan infers it from the two steps on either side of it, so the second and third
-limitations in Section 3 both remain in force.
+in dollars. Shanan infers it from the two steps on either side of it, so policy bundling and the
+child-quality channel both remain in force.
+
+### 7.4 The design quality of the only on-target study
 
 The one study this chapter rests on has a design problem it cannot fix, and the problem is that
 states chose when to pass these laws. A state that acted in 1910 may have differed from a state that
@@ -295,8 +321,8 @@ rather than a settled one.
 
 In our review's terms, Shanan has a risk-of-bias rating of SERIOUS overall, driven by SERIOUS
 confounding, on the endogeneity of when states acted and on the bundling of the two laws. Those two
-grounds are the first and second limitations in Section 3, and on the four-level scale of Section 6
-the chapter's only on-target study sits one step from the worst available rating.
+grounds are adoption endogeneity and policy bundling, and on the four-level scale of Section 6 the
+chapter's only on-target study sits one step from the worst available rating.
 
 ## 8. Demographic significance
 
@@ -319,21 +345,20 @@ figure: exposure to the restrictions rose by 48 percentage points over those thr
 exposure lowers the annual birth probability by 0.85 percentage points, and the observed birth
 probability fell by 5 percentage points, giving `0.48 * 0.85 / 5 = 0.08`.
 
-Four qualifications attach to the 8% figure, and the first three say that it answers a narrower
-question than the hypothesis asks. The calculation covers women at a single age, 30, and not the
-whole childbearing span. It measures the chance of a birth in a given year rather than the number of
-children a woman ends up with, and this hypothesis is about the second. Shanan attaches no
-uncertainty interval to the share, and the sensitivity check our review ran does not repair the
-omission: propagating only the uncertainty in Shanan's coefficient, while treating the 48-point rise
-in exposure and the 5-point fall in birth probability as known, gives an analytic 95% interval of
-6.1% to 10.2%, which is narrower than the truth because two of the three inputs are held fixed.
+Three qualifications attach to the 8% figure, and each says that it answers a narrower question than
+the hypothesis asks. The calculation covers women at a single age, 30, and not the whole childbearing
+span. It measures the chance of a birth in a given year rather than the number of children a woman
+ends up with, and this hypothesis is about the second. Shanan attaches no uncertainty interval to the
+share, and the sensitivity check our review ran does not repair the omission: propagating only the
+uncertainty in Shanan's coefficient, while treating the 48-point rise in exposure and the 5-point
+fall in birth probability as known, gives an analytic 95% interval of 6.1% to 10.2%, which is
+narrower than the truth because two of the three inputs are held fixed.
 
-The fourth qualification is that our review has two other routes to judging whether a cause is large
-enough to matter for a decline, and both were checked here without strengthening the case. One asks
-whether an effect of the estimated size, applied over the range the cause actually moved, could
-produce the decline that occurred. The other asks how much of the variation in fertility the cause
-accounts for once standard controls are included. Neither route supports the hypothesis more
-strongly than the 8% does.
+Our review reaches a demographic-significance verdict by two further routes besides a decomposition
+share, and we checked both here. One asks whether an effect of the estimated size, applied over the
+range the cause actually moved, could produce the decline that occurred. The other asks how much of
+the variation in fertility the cause accounts for once standard controls are included. Neither route
+supports the hypothesis more strongly than the 8% does.
 
 Cigno and Rosati (2024a) report that school-leaving and child-labor restrictions explain about 10%
 of the American fertility decline, and their 10% is the same calculation as the 8% above rather than
@@ -364,6 +389,10 @@ level that governs the distinction, so neither can be placed on the evidence in 
 both reforms counts the female student's own children in any case, so none of them would test
 sibship size even in a setting that qualified.
 
+Both reasons end at the same verdict: a mechanism with almost nothing to act on leaves almost
+nothing for anyone to measure, and a mechanism that could still operate has not been measured
+anywhere the corpus can place in the crossing.
+
 **Verdict: insufficient data**, for two distinct reasons: the hypothesis is close to inapplicable
 where the SDT is best documented, and it is unclassified and untested where it might still apply.
 
@@ -376,18 +405,16 @@ Nothing in the record rules out the possibility that states passed these laws fo
 also lowering fertility, and the middle step of the chain is inferred rather than measured.
 
 In our review's terms, three raters scored the FDT causal claim independently and all three returned
-**Low**, the second of the four GRADE levels, which run Very low, Low, Moderate, and High. Our
-review sets replication across two or more settings as the boundary between Low and Moderate, and no
-second study here crosses it. The panel reached Low without Shanan's risk-of-bias rating stated in
-front of it, and that rating, SERIOUS overall on SERIOUS confounding, turns on the same
-policy-adoption endogeneity the panel's own reasoning names, so the rating is referred back to the
-panel with the risk-of-bias assessment attached.
+**Low**. GRADE is an evidence-grading framework borrowed from clinical research, and it rates how
+much confidence a body of evidence supports rather than how large an effect is; its four levels run
+Very low, Low, Moderate, and High, and Low is the second. Our review sets replication across two or
+more settings as the boundary between Low and Moderate, and no second study here crosses it. The
+panel reached Low without Shanan's risk-of-bias rating stated in front of it, and that rating,
+SERIOUS overall on SERIOUS confounding, turns on the same adoption endogeneity the panel's own
+reasoning names, so the rating is referred back to the panel with the risk-of-bias assessment
+attached.
 
 **Pre-modern and SDT are unrated**, because neither has a study to rate.
-
-[Note to co-authors: the GRADE working file records this panel as final. Sections 9 and 10 stand as
-final on that record; if the panel reopens on the risk-of-bias referral, both revert to
-provisional.]
 
 ## 10. Verdict
 
@@ -413,7 +440,8 @@ boundary between Low and Moderate. The replication needs three things: sub-natio
 adopted school-leaving or child-labor laws on a staggered schedule, census or registration records
 that report how many children a woman bore over her whole life, and cohorts old enough to have
 finished childbearing by the time they were counted. The estimate to report is the effect of
-exposure on completed fertility, with the child-work first stage shown in the same paper.
+exposure on completed fertility, with the effect of the laws on children's work shown in the same
+paper.
 
 A study that measures what children actually earned, and traces the fertility effect through that
 measure, would establish the middle step of the chain that Shanan infers from its two ends.
@@ -524,6 +552,12 @@ built to settle it.
 exists for two other hypotheses in the review, which is why Section 8.3 cannot place Taiwan 1968 or
 China 1986.
 - The risk-of-bias assessment is preliminary.
+
+## Notes to co-authors, not part of the chapter
+
+[Note to co-authors: the GRADE working file records this panel as final. Sections 9 and 10 stand as
+final on that record; if the panel reopens on the risk-of-bias referral, both revert to
+provisional.]
 
 [Note to co-authors: our protocol defines demographic significance by a decomposition share of at
 least 10%, a slope-sufficiency verdict of sufficient, or a conditional R² of at least 0.15. The 8%
