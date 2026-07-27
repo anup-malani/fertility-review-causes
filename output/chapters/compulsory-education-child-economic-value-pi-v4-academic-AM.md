@@ -15,11 +15,11 @@ own-schooling studies set aside here are on-mechanism there.
 
 ## 1. The claim
 
-The hypothesis asserts a chain of three links running from a statute to a birth rate: a
+The hypothesis examined in this chapter asserts a three-link causal chain running from a statute to fertility: a
 school-attendance or child-labor law takes a child out of paid work; the earnings the parents no
 longer collect make each child worth less to them; and parents who expect less money from each child
 have fewer children. We call those three steps the chain. Every link in the chain has to hold for the
-hypothesis to be true, and each can fail for reasons that leave the other two intact.
+hypothesis to be true.
 
 The claim places the law's effect on the return side of a household's fertility decision, and it
 concerns a lifetime total rather than the ages at which births occur within a lifetime. Parents in
@@ -29,49 +29,60 @@ to be true, and a study showing that a woman's own schooling changed her own fer
 confirms nor refutes the hypothesis. Section 3 turns the distinction between a parent's own schooling
 and a child's economic value into the test this chapter applies to every study in the corpus.
 
+[Claude: this topic sentence is convoluted and makes no sense. All topic sentences should be straightforward and require very little effort from the reader to understand or process.]
+
 ## 2. Theoretical mechanism
 
-Where children contribute labor, an additional child brings both costs and earnings, so a binding
+Where children contribute labor, a binding
 schooling requirement lowers the return to an additional child and pushes parents to substitute from
 the number of children toward spending on each one. The substitution is the standard household
 response to a price change: the law raises the net cost of a child by stripping out the earnings that
 used to offset it, and parents buy less of a good that has become more expensive relative to its
 alternatives.
 
-Hazan and Berdugo (2001) give the formative statement of the mechanism, in a model where child labor
-and high fertility hold each other up. Poor parents send children to work, working children make
+Hazan and Berdugo (2001) give the formative statement of the mechanism: poor parents send children to work, working children make
 large families affordable, and large families keep household income low enough that the next
 generation must also work. A temporary prohibition or a compulsory-schooling requirement breaks the
 loop, and the economy settles at a steady state with little child labor and low fertility. The
 prohibition need not be permanent, because the new steady state sustains itself once reached.
 
-Mookherjee, Prina, and Ray (2012) reach the same sign through the occupational composition of the
+Mookherjee, Prina, and Ray (2012) reach the same conclusion about the effect of child labor/schooling laws through the occupational composition of the
 economy rather than through the household's budget. Restricting children's work raises the schooling
 of the next generation, the mix of occupations the economy supports shifts toward those that
 schooling opens, and the new mix carries a lower steady-state fertility rate.
 
-Fioroni (2017) reaches the same sign through the price of a child: a working child pays part of
+[Claude: this paragraph needs more explanation. It is still a fairly high-level summary, but you need to explain the logic in a few clear, simple sentences.]
+
+Fioroni (2017) reaches the same conclusion through the price of a child: a working child pays part of
 their own way, so a law that removes the work raises the net cost of a child and parents buy fewer
 of a good that has become more expensive. Child labor in this model raises fertility by making
 children cheap, and the restriction works by taking the discount away.
 
-Emerson and Knabb (2013) reach the same sign through what parents come to expect of a schooled child.
+[Claude: how is this any different than Hazan and Verdugo? Don't give separate paragraphs to mechanisms that are not distinct from previously stated mechanisms or modeling logic. If a paper just follows the logic of an earlier paper, just cite it as saying "see also X".]
+
+Emerson and Knabb (2013) reach the same conclusion through what parents come to expect of a schooled child.
 Households form beliefs about the returns their children will earn, a temporary ban paired with
 mandatory education moves those beliefs toward the schooled child, and the low-fertility pattern
 persists after the ban lapses because the beliefs that sustain it have already changed.
 
-Cigno and Rosati (2005) reach the same sign from a household that chooses the number of children,
+[Claude: this paper reaches this, uses the same logic, except focuses a little bit more on beliefs. Why does it matter that it focuses on beliefs relative to, say, Hazan or Fioroni?]
+
+Cigno and Rosati (2005) reach the same conclusion from a household that chooses the number of children,
 their survival, and their schooling in a single decision, so a restriction on children's work moves
 all three margins at once rather than fertility alone. Cigno and Rosati (2024b) add a policy-design
 result to the same framework: a partial restriction on children's work can sustain a
 higher-education equilibrium on its own, while a total ban may require complementary insurance and
 education policy to hold.
 
-Theory does not settle the sign, and two of the approved papers show why. Baland and Robinson (2000)
+[Claude: instead of saying "it reaches the same sign," it should say "it reaches the same conclusion." The sign issue only comes up in the next few paragraphs.]
+
+While the prior papers offer theories for why child labor or schooling laws lower fertility, there are other papers that suggest these statuted have ambiguous effects on schooling. Baland and Robinson (2000)
 prove that a child-labor ban can raise welfare and still leave its fertility effect ambiguous.
 Takakura (2023) obtains opposite signs for different households, with a ban lowering fertility among
 unskilled parents and raising it among skilled parents, so the national total depends on which
 parents the restriction binds.
+
+[Claude: I fixed the topic sentence to make it more clear. Now the topic sentence does not have to depend on prior topic sentences in order to explain its logic. That should be self-standing. Also, the two theory papers need an explanation. In this paragraph, add two or three sentences that explain why the fertility effect is ambiguous or differs across households. You can't just state the conclusion. You want to give the logic. You need a sentence or two for the logic for each. Give the logic plainly.]
 
 Greenwood and Seshadri (2004) make compulsory-schooling and child-labor laws a consequence of
 technological change rather than a cause of the fertility decline. In their account, technological
@@ -84,6 +95,8 @@ legislative dates. If children were already leaving work when legislatures acted
 the treatment to the passage of a statute charges the statute with a decline that preceded it.
 Section 3 returns to the problem as the first of four costs of the design the literature actually
 uses.
+
+[Claude: we could combine the last two paragraphs. You just have to choose the topic sentence appropriately.]
 
 ## 3. Empirical strategy
 
@@ -155,6 +168,8 @@ affected child's parents. Sections 6 and 7 apply the wrong-generation problem as
 decides which studies are evidence for this hypothesis at all, rather than as one more qualification
 on an estimate.
 
+[Claude: You did an outstanding job with the Empirical Strategies section. This is a template for what we should do in every chapter. Congratulations!]
+
 ## 4. Search strategy
 
 This chapter and the companion chapter on birth postponement share one literature search, because
@@ -217,8 +232,10 @@ The risk-of-bias column records our review's judgment of how far a study's desig
 estimate away from the truth, on a four-level scale running LOW, MODERATE, SERIOUS, and CRITICAL.
 
 Six further studies estimate fertility under a compulsory-schooling reform, and every one of them
-changes the mother's own schooling and then counts her own children, so each measures offspring
+changes the female student's own schooling and then counts her own children, so each measures offspring
 rather than siblings and falls under the wrong-generation problem of Section 3d.
+
+[Claude: Changed mother to female student to make clear who the law is acting on. The generational chain is parent -> female student -> offspring of female student. The hypothesis in this chapter examines the first arrow. The tempo chapter addresses the second arrow. It might actually be helpful, when we talk about the wrong generation problem, to actually draw out this generational chain and point out which arrow applies to which hypothesis.]
 
 **Table 2. The six studies set aside.**
 
@@ -279,6 +296,8 @@ average school exit age fixed, being covered by any restriction lowers the annua
 by 0.0050 (SE 0.0013); holding coverage fixed, a one-year rise in the exit age lowers it by 0.0018
 (SE 0.0004). Both margins stay negative and statistically significant.
 
+[Claude: This is an AI-tell: "neither one carries the whole effect". I rarely use the term "carries the X". Add a voice ticket.]
+
 The joint specification separates two legal instruments without separating the two economic channels,
 because neither coefficient measures what a child's work was worth to the child's parents. The
 earnings channel of Section 1 and the child-quality channel of Section 3d therefore remain joined
@@ -292,6 +311,8 @@ states did not adopt these laws at random, which is the adoption endogeneity of 
 laws bundle two channels that Section 7c shows the joint specification cannot pull apart. On the
 four-level scale of Section 6, the chapter's only on-target study sits one step from the worst
 available rating.
+
+[Claude: Use plain english. This paragraph assumes that the reader fully understands the framework we're applying. That can go into an End Note or something directed at the authors, or somebody that's very technical, so it seems End Note-worthy. Instead, we should have a plain English lay version of this to a reader not familiar with the evaluation structure.]
 
 ## 8. Demographic significance
 
@@ -340,8 +361,7 @@ own calculation gives 8%. The literature holds one calculation here, not two.
 ### 8.3 SDT
 
 The SDT is a fertility transition rather than a date, and a setting belongs to it when fertility there
-is falling from just above replacement to below it and continuing down. Calendar period and national
-income stand in for that condition badly. A compulsory-schooling law passed in a poor country this
+is falling from just above replacement to below it and continuing down. A compulsory-schooling law passed in a poor country this
 decade says nothing about the SDT unless that country's fertility is making the crossing at the time.
 
 Where the SDT is best documented, in rich countries, children's market work is near zero before the
@@ -376,6 +396,8 @@ the chain, which Section 7b shows is inferred from the two ends rather than meas
 
 The panel reached the Low rating without the risk-of-bias assessment stated in front of it, and
 Shanan's SERIOUS rating turns on the same confounding the panel's own reasoning names.
+
+[Claude: Use plain english. This paragraph assumes that the reader fully understands the framework we're applying. That can go into an End Note or something directed at the authors, or somebody that's very technical, so it seems End Note-worthy. Instead, we should have a plain English lay version of this to a reader not familiar with the evaluation structure. An alternative approach is for you to have a paragraph that states the plain summary and then a second paragraph that explains the justification in the context of our framework. That might be better if you want to avoid endnotes and keep the exposition simple.]
 
 **Pre-modern and SDT receive no rating**, because neither has a study to rate.
 

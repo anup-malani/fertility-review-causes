@@ -32,12 +32,14 @@ life, not the ages at which her births occurred.
 
 ## 2. Theoretical mechanism
 
-The predicted sign comes from one step that most models in this literature share: children produce
+Most theoretical papers supporting the main hypothesis in this chapter lay out the following logic for it: children produce
 income, a binding schooling requirement removes their work time, the return to an additional child
 falls, and parents shift from having more children toward spending more on each one. The quantity of
 children and the quality of each are substitutes in the household's budget, so a law that raises the
 price of quantity buys quality instead. Every model below either adds a route to that prediction or
 denies that the prediction follows.
+
+[Claude: I changed the first sentence to be more straightforward for a low-attention, generalist reader.]
 
 Hazan and Berdugo (2001) give the formative statement, in which child labor and high fertility hold
 each other up in a development trap that a temporary ban on child work, or a compulsory-schooling
@@ -54,11 +56,15 @@ lower number of children per family. The fertility change in their model is a by
 occupational change, so it arrives with a lag and depends on how readily the economy absorbs skilled
 workers.
 
+[Claude: this memo version of the chapter does a better job of explaining the logic of Mukherjee than the academic version of this chapter.]
+
 Fioroni (2017) reaches the prediction through the price of a child: a child who works pays for part
 of its own upkeep, so a law that removes children's work raises the net cost of a child, and the
 number parents choose falls for the ordinary reason that a higher price reduces quantity demanded.
 The route runs entirely through current prices and requires no assumption about what parents expect
 their children to become.
+
+[Claude: how does this materially differ from HAzan in a way that matters for the result? A good way to address this is how you distinguish Emerson from Fioroni in the last line of the next paragraph.]
 
 Emerson and Knabb (2013) put the weight on what parents come to expect: a temporary ban on children's
 work paired with a schooling requirement changes the kind of child a household plans for, and once
@@ -73,7 +79,7 @@ once. Their later work adds that a partial restriction on children's work can su
 high-schooling outcome on its own, while a total ban may require insurance and education policy
 alongside it (Cigno and Rosati 2024b).
 
-Two models in the corpus deny that the negative sign is a theorem. Baland and Robinson (2000) show
+Two papers deny that there is necessarily a negative relationship between child labor/schooling laws and fertility. Baland and Robinson (2000) show
 that a child-labor ban can raise welfare and still leave its fertility effect ambiguous, because the
 ban changes both the cost of a child and the return to educating one, and the two effects pull in
 opposite directions. Takakura (2023) obtains opposite signs for different households: a ban lowers
@@ -86,6 +92,8 @@ value of unskilled children's hands; children left work for that reason; and eff
 arrived after much of the withdrawal from work had already happened. On that history, an estimate
 identified from the date a legislature acted charges the law with a decline that rising demand for
 skill had already started, which is a challenge to every design described in Section 3.
+
+[Claude: this paragraph could more clearly state that treatment is endogenous.]
 
 ## 3. Empirical strategy
 
@@ -134,6 +142,8 @@ published literature on compulsory schooling and fertility. Those studies estima
 quantity for a different hypothesis, about how a woman's own schooling changes her own fertility,
 and they are weighed in the chapter on tempo effects and birth postponement. The chapters share a
 literature and divide it by whose fertility each estimate describes.
+
+[Claude: While the memo has been good up until this section, the Empirical Section from the other version of this chapter, the academic one, is better on the Empirical Strategy Section by far. The only good thing about this section is the numbered list of errors. That is helpful.]
 
 ## 4. Search strategy
 
@@ -221,6 +231,8 @@ that a reader can see which nulls are tight and which are merely imprecise.
 
 There is no need to pool estimates here, because only one study meets our search criterion.
 
+[Claude: Perfect sentence.]
+
 Shanan (2023) studies American states across the 1880 to 1940 birth cohorts, a period when states
 passed compulsory-schooling laws and child-labor restrictions together and children still worked for
 pay. Exposure is measured over a woman's own ages 20 to 30, her main childbearing years, so the
@@ -279,7 +291,7 @@ the restrictions rose by 48 percentage points over those three decades, full exp
 annual birth probability by 0.85 percentage points, and the observed birth probability fell by 5
 percentage points, giving `0.48 * 0.85 / 5 = 0.08`.
 
-Four qualifications attach to the 8%, and none of them makes the true share smaller; the first three
+Four qualifications attach to the 8% finding. The first three
 establish that the figure answers a narrower question than the hypothesis asks and carries more
 uncertainty than its stated interval shows. The calculation covers women at a single age, 30, and
 not the whole childbearing span. It measures the chance of a birth in a given year rather than the
