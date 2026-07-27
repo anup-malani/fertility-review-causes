@@ -27,13 +27,17 @@ counts her own children twenty years later is answering a different question, ab
 education changed her own fertility, and that question belongs to the chapter on tempo effects and
 birth postponement. One study in our corpus counts siblings.
 
+[Claude: This type of sentence is an AI tell: One test decides which studies count. Just start with the second sentence. That's the real topic sentence. The AI tell is just duplicative. Also, a missing sentence is one that justifies why we measure siblings. You want to say something like: "Siblings measure how many children the child's parent has."]
+
 The outcome here is completed fertility, the number of children a woman has by the end of her
 childbearing years, rather than the age at which she has them.
+
+[Claude: is this last paragraph necessary once we specify that it's the number of siblings and not the number of offspring the child subject to law has? This caveat seems more appropriate for the tempo chapter, right? Feel free to push back if I'm wrong.]
 
 ## 2. Theoretical mechanism
 
 The models add one step to that chain: parents who get less from each child shift toward spending
-more on each one. Hazan and Berdugo (2001) give the formative statement, in which child labor and
+more on each one. [Claude: What "chain"? You haven't defined that yet. In general, whenever you say something like "that X", make sure that everybody knows what that X is. If there's any uncertainty, spell out what that X really is explicitly.] Hazan and Berdugo (2001) give the formative statement, in which child labor and
 high fertility hold each other up in a development trap, and a temporary prohibition or a
 compulsory-schooling requirement pushes the economy toward a steady state with little child labor
 and low fertility. Four papers reach the same sign by other routes: Mookherjee, Prina, and Ray
@@ -46,12 +50,14 @@ the low-fertility pattern. Cigno and Rosati (2024b) add that a partial restricti
 higher-education equilibrium by itself, while a total ban may need insurance and education policy
 alongside it.
 
+[Claude: does each paper that goes through a different channel deserve a paragraph? This is a fairly dense paragraph, the one above. I'm not sure everybody's gonna see each of the different mechanisms. When it's helpful, and you have to exercise judgment here, when it's helpful to spell out certain pathways or the logic behind the model, do that for the truly distinct models that exist.]
+
 Theory does not settle the sign. Baland and Robinson (2000) prove that a child-labor ban can raise
 welfare and still leave its fertility effect ambiguous. Takakura (2023) gets opposite signs for
 different households: a ban lowers fertility among unskilled parents and raises it among skilled
 parents, so the national total depends on which parents the restriction binds.
 
-One theory makes the law a consequence of the transformation rather than its cause. Greenwood and
+One theory makes the law a consequence of the transformation rather than its cause. [Claude: What is "the transformation". When an object is ambiguous, clarify what it is. We want to minimize uncertainty without adding a lot of words.] Greenwood and
 Seshadri (2004) build the fertility decline, the collapse of child labor, and the rise in skill out
 of technological change. On their account employers came to want skills rather than small hands,
 children left work for that reason, and effective regulation arrived after much of the withdrawal
@@ -63,7 +69,7 @@ decline it followed.
 ## 3. Search strategy
 
 This chapter and the chapter on birth postponement share one literature search, because both
-hypotheses turn on the same school-leaving and child-labor laws. The search did not begin from a
+hypotheses turn on the same school-leaving and child-labor laws. [Claude: what is the difference between a school-leaving and child labor law? You need to define those. In general, we need to imagine having a frame where there is some outcome affected by some treatment. We need to explain what that treatment is and what the outcome is that we measured. The outcome is already defined above, which is completed fertility, but we need to think about what the treatment here is. You've given two: school leaving and child labor laws, but you need to define them and explain how and when you find them. That doesn't exist right now. You jump right into evaluation without setting forth what the ideal experiment would be and when you could do it, which will help frame everything that follows. Now, it is probably true that you don't want to do this in the search strategy section. You may want to do it in a separate empirical strategy section. Query whether that should go before all the search strategy in Prisma flow or it should go after. One argument for why it should go before is because it matches up with theory, so it should follow the theory section. The argument for after is simply that you'll see a set of papers that can help you decide what the standard empirical strategy is. I'm mildly inclined to do the before, simply because we already know what the results of the search strategy and Prisma flow are. We don't really need that in order to be able to explain what we think the optimal strategy is and what the realistic empirical strategy is to the reader. By the way, this is a generic point that we should use for all the chapters that we write in terms of structure.] The search did not begin from a
 keyword query. It began from seven papers, each found independently, and followed citations in both
 directions: every paper those seven cited, and every paper that cited them. A blinded screen of
 titles and abstracts, a focused review of the exceptions that screen set aside, and a strict test
@@ -128,7 +134,7 @@ and they are assessed there.
 
 ## 6. Quantitative synthesis
 
-We pool nothing, and the number of studies is not the reason. Averaging one sibling count with six
+We pool nothing, and the number of studies is not the reason. [Claude, don't say we pull nothing, and the number of studies is not the reason. This is just an AI tell. Again, we should add it to our AI tell list, but in general, just say there's no need to pull studies because there's only one study that meets our search criterion. We probably also don't need the remainder of this paragraph because that should come from that one simple sentence.] Averaging one sibling count with six
 offspring counts mixes two quantities, and averaging the six own-schooling coefficients by
 themselves would produce a well-behaved number about women's education and no number at all about
 the economic value of children.
@@ -138,7 +144,8 @@ compulsory-schooling laws and child-labor restrictions together at a time when c
 work for pay. Exposure is measured over a woman's own ages 20 to 30, her main childbearing years, so
 the restrictions in force are the ones that would govern her children's work.
 
-The first link holds. Children covered by the restrictions were 0.029 less likely to be employed (SE
+The first link holds. [Claude: This is a bad 1. Topic sentence: It's short and doesn't explain anything. If we just listed all the topic sentences in this section, to understand what this section said, you wouldn't understand it. You should be able to have just the list of the topic sentences and fully understand a section. You should be able to do that for the entire paper. Never use a topic sentence that, by itself, does not summarize the paragraph without any context other than the topic sentences and prior topic sentences.
+2. You don't explain what the term "link" is anywhere, or at least not recently, and so it's ambiguous. This also violates the ambiguity rule.  These two arguments apply to the next two paragraphs as well. Come up with a better topic sentence that says what each of these paragraphs does.] Children covered by the restrictions were 0.029 less likely to be employed (SE
 0.008) against a baseline employment rate of 0.118, a fall of about a quarter, and 0.042 more likely
 to attend school (SE 0.008) against a baseline attendance rate of 0.882. Both effects are
 statistically significant, so these laws did move children out of work and into classrooms.
@@ -159,18 +166,18 @@ reasons unrelated to lost wages.
 The paper comes closest to separating the two by entering both policy margins in the same
 specification: whether any restriction was in force lowers the annual birth probability by 0.0050
 (SE 0.0013), and the average school exit age lowers it by 0.0018 (SE 0.0004), each holding the other
-fixed. Both stay negative and statistically significant, so neither margin carries the whole effect.
+fixed. [Claude: This is also about topic sentences. The topic sentence should be clear. If you just read the topic sentence without referencing anything else, you understand what the paragraph is going to say. This doesn't pass that bar.] Both stay negative and statistically significant, so neither margin carries the whole effect.
 Neither margin isolates lost earnings from expected quality on its own, so the separation stays out
 of reach, and this is as close as the record comes.
 
 Shanan is rated Serious overall, driven by serious risk of confounding: states did not adopt these
-laws at random, and the laws bundle two channels. The chapter's only on-target study carries a
+laws at random, and the laws bundle two channels [Claude: Put the word "serious" in the phrase "serious overall". Otherwise, it'll seem weird because the reader won't know whether you're doing a grading or whether you're trying to write a standard set of sentence or phrase, and then you accidentally capitalize the word "serious".]. The chapter's only on-target study carries a
 design rating one step from the worst on the scale.
 
 ## 7. Demographic significance
 
 The three phenomena fail differently, and the difference tells a reader where this hypothesis can
-still be tested. Testing it takes two things at once: children whose market work a law can remove,
+still be tested. [Claude: Same criticism as above. What are the three phenomena? This topic sentence is not "and" alone. Also, do you need the extra part that says "the difference tells the reader where this hypothesis can still be tested"? If so, there should be some part of the sentence or paragraph that explains why that is. I think you actually do that later, so we don't need to do it right here. Meaning, you talk about what the next set of research should be later. That's when you should bring it up, not here.] Testing it takes two things at once: children whose market work a law can remove,
 and a law that removes it. Pre-modern societies have the first and not the second. Rich countries
 during the SDT have the second and not the first. The FDT has both, which is why the corpus holds
 one study rather than none.
@@ -181,7 +188,7 @@ Children worked in every pre-modern economy this review covers, so the mechanism
 and probably operated. It cannot be tested with the tools this chapter uses, because the hypothesis
 is identified from a law that pushed children out of work, and before 1870 no such law existed at a
 scale that would generate a comparison. Insufficient data, and the reason is a missing identifying
-policy rather than a missing mechanism.
+policy rather than a missing mechanism. [Claude: This is a bad paragraph. I think you just basically want to say: children did have economic value in pre-modern society; however, there was not an obvious intervention (i.e., treatment) that reduced their economic value, like compulsory schooling. There were no compulsory schooling laws in pre-modern society. That's all you need to say.]
 
 ### 7.2 FDT
 
@@ -191,7 +198,7 @@ produce it. Exposure to the restrictions rose by 48 percentage points over those
 exposure lowers the annual birth probability by 0.85 percentage points. The observed birth
 probability fell by 5 percentage points over the same window. So `0.48 * 0.85 / 5 = 0.08`.
 
-Three things limit the 8%. It covers women at a single age, 30, rather than the whole childbearing
+Three things limit the 8%. [Claude: Terrible topic sentence does not stand on its own. What does it mean to limit a percentage? The verb and the object just don't go together. Are you trying to say it should be less than 8%? Are you trying to say that the 8% is not informative? Be clear. Don't aim for short topic sentences that are ambiguous.] It covers women at a single age, 30, rather than the whole childbearing
 span. It measures the chance of a birth in a given year rather than the number of children a woman
 ends up with, and this hypothesis is about the second. Shanan attaches no uncertainty to it. And the
 sensitivity check we ran does not fix that: carrying through only the uncertainty in Shanan's
