@@ -2,27 +2,26 @@
 
 Source: `/Users/shravanhari/Downloads/b1/d3b` — APPLIED
 
-Identified and copied: 4 · already present: 0 · unidentified: 0
+Identified and copied: 2 · already present: 4 · unidentified: 0
 
 ## Identified
 
 | Source file | Matched by | work_id | Title |
 |---|---|---|---|
-| `1-s2.0-S266727822400049X-main.pdf` | doi:10.1016/j.joclim.2024.100346 | W4402549764 | Climate emotions, parenting plans, and racial difference in the United |
-| `430mcmullen.pdf` | doi:10.1215/22011919-11713414 | W4412706512 | A Crude, Cruel Crisis |
-| `J of Marriage and Family - 2026 - Ivanova - Do Envir` | doi:10.1111/jomf.70095 | W7165518406 | Do Environmentalists Forgo Parenthood? A Life Course Perspective on Fe |
-| `Population   Development Rev - 2024 - Golovina - Per` | doi:10.1111/padr.12646 | W4400217632 | Personal and Social Worries Associated with the Likelihood of Having C |
+| `J of Marriage and Family - 2022 - Rackin - Environme` | doi:10.1111/jomf.12885 | W4307051760 | Environmental attitudes and fertility desires among US adolescents fro |
+| `panditha-et-al-2026-from-anger-to-adaptation-the-pro` | doi:10.1177/11033088261418378 | W7128694191 | From Anger to Adaptation: The Process of Eco-anxiety in Young Australi |
 
 ### Page-1 head of each identified file (verify the match)
 
-- **W4402549764** ← `1-s2.0-S266727822400049X-main.pdf` (doi:10.1016/j.joclim.2024.100346)
-  > The Journal of Climate Change and Health 19 (2024) 100346 Contents lists available at ScienceDirect The Journal of Climate Change and Health journal homepage: www.elsevier.com/joclim Research article 
+- **W4307051760** ← `J of Marriage and Family - 2022 - Rackin - Environmental attitudes and fertility desires among US adolescents from 2005.pdf` (doi:10.1111/jomf.12885)
+  > Received: 14 July 2021 Revised: 29 August 2022 Accepted: 8 September 2022 DOI: 10.1111/jomf.12885 BRIEF REPORT Environmental attitudes and fertility desires among US adolescents from 2005–2019 Heather
 
-- **W4412706512** ← `430mcmullen.pdf` (doi:10.1215/22011919-11713414)
-  > The Fossil Family and Reproductive Impasse during Climate Change HEATHER MCMULLEN Wolfson Institute of Population Health, Queen Mary University of London, UK KATHARINE DOW Independent Researcher, Lond
+- **W7128694191** ← `panditha-et-al-2026-from-anger-to-adaptation-the-process-of-eco-anxiety-in-young-australians.pdf` (doi:10.1177/11033088261418378)
+  > Original Article From Anger to Adaptation: The Process of Eco-anxiety in Young Australians YOUNG 1–19 © 2026 The Author(s) Article reuse guidelines: in.sagepub.com/journals-permissions-india DOI: 10.1
 
-- **W7165518406** ← `J of Marriage and Family - 2026 - Ivanova - Do Environmentalists Forgo Parenthood  A Life Course Perspective on Fertility.pdf` (doi:10.1111/jomf.70095)
-  > Journal of Marriage and Family ORIGINAL ARTICLE OPEN ACCESS Do Environmentalists Forgo Parenthood? A Life Course Perspective on Fertility Expectations and Behaviors in the UK Katya Ivanova1 | Tobias R
+## Skipped
 
-- **W4400217632** ← `Population   Development Rev - 2024 - Golovina - Personal and Social Worries Associated with the Likelihood of Having.pdf` (doi:10.1111/padr.12646)
-  > Personal and Social Worries Associated with the Likelihood of Having Children KATERYNA GOLOVINA AND M ARKUS J OKELA Previous studies showed that worries about the economic situation and job security a
+- `1-s2.0-S266727822400049X-main.pdf` — target exists: W4402549764__climate-emotions-parenting-plans-and-racial-difference-in-th.pdf
+- `430mcmullen.pdf` — target exists: W4412706512__a-crude-cruel-crisis.pdf
+- `J of Marriage and Family - 2026 - Ivanova - Do Environmental` — target exists: W7165518406__do-environmentalists-forgo-parenthood-a-life-course-perspect.pdf
+- `Population   Development Rev - 2024 - Golovina - Personal an` — target exists: W4400217632__personal-and-social-worries-associated-with-the-likelihood-o.pdf
