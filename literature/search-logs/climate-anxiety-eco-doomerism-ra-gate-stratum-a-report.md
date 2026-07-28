@@ -21,7 +21,7 @@ automated screener saw.
 | Overturns (proposed or RA-decided) | 5 |
 | of which Wall 1 (routed to D.1.a) | 2 |
 | Decided by the RA | 2 |
-| Still flagged for retrieval | 2 |
+| Still flagged for retrieval | 1 |
 
 **5 of the 9 records we could read on full text were
 overturned.** That is the headline number and it should be read as a measure of the
