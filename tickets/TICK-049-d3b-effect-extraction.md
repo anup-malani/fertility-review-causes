@@ -93,6 +93,49 @@ pool without it.
 - [ ] Ambiguous estimates flagged `needs_pi = yes` rather than guessed.
 
 ## Log
+- 2026-07-27 (Claude, figure/table read): **the two blocked estimates are now recovered, and
+  reading them corrected the first pass twice — once against the chapter, once against me.**
+  Method: `pdftoppm -r 400` on the figure pages, rotated, then read visually;
+  `pdftotext -layout` for Jylhä's Table 1. Both are cheap and should be the default
+  next time an estimate is reported as figure-only.
+
+  **Golovina & Jokela, now read off Figures 1 and 2 with CIs:**
+
+  | Estimate | Sample | Model | HR (95% CI) |
+  |---|---|---|---|
+  | Climate-change worry, very worried | Total | 2 (fully adj.) | **0.82 (0.75, 0.90)** |
+  | Climate-change worry, very worried | Childless | 2 | **0.86 (0.79, 0.94)** |
+  | Climate-change worry, very worried | Childless | 1 (min. adj.) | 0.86 (0.73, 1.01) — n.s. |
+  | Environmental-protection worry, very worried | Total | 2 | 0.85 (0.78, 0.94) |
+
+  **CORRECTION 1 — against the chapter.** The chapter quotes "16 percent" for the childless
+  sample, taken from the paper's abstract via the screen record. Figure 2 gives HR 0.86,
+  i.e. **14 percent**. The paper's abstract and its own figure disagree. Quote the figure
+  value with its CI and flag the mismatch at TICK-053.
+
+  **CORRECTION 2 — against my own earlier extraction, and it reverses a finding I reported.**
+  I had recorded from the abstract that economic worry (25%) dominated climate worry (16%)
+  in the same sample, and called it the cleanest Wall 3 benchmark in the review pointing
+  *against* D.3.b. The abstract's 25% is the **minimally adjusted** Model 1 (HR 0.72). In
+  the **fully adjusted** Model 2, economic worry is **not significant** — childless 0.94
+  (0.86, 1.04), total 0.93 (0.85, 1.02) — while climate worry **is** significant in both.
+  Correctly stated, this study finds ecological worry associated with lower fertility where
+  personal economic worry is not. That favours D.3.b over C.5.a and is the opposite of what
+  I reported before reading the figures.
+
+  **Jylhä et al., Table 1 extracted — climate worry is a clean null on all three outcomes:**
+  number of children b=−0.01 (p=0.45), general ideal family size b=−0.03 (p=0.10), fertility
+  intentions b=0.00 (p=0.87). This also corrects my first pass, which had recorded the
+  bivariate r=−0.04 (p<0.001); the multivariate coefficient is null. Overpopulation worry
+  b=−0.11 (p=0.00) and future-generations worry b=**+0.12** (p=0.00) — opposite-signed
+  channels. The general-worries index is itself null (b=−0.05, p=0.06), so this study offers
+  no ecological-vs-general discrimination in either direction.
+
+  **Status: 15 rows, 8 poolable (up from 0), 5 with confidence intervals.** What is still
+  missing before TICK-051: CIs/SEs for the Jylhä coefficients, the Peters body coefficients,
+  and the Weychert CI. `gol_04` — climate worry not surviving adjustment for the summary of
+  all other worries — is unchanged by any of this and remains the single most consequential
+  row in the table.
 - 2026-07-27 (Claude): **first pass on the realized track — 11 effect rows over 4 studies,
   and ZERO are currently poolable.** Tables:
   `extraction/climate-anxiety-eco-doomerism-{studies,effects-realized}.csv`.
