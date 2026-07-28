@@ -1,5 +1,5 @@
 # TICK-050: D.3.b risk-of-bias assessment
-**Status:** open
+**Status:** first pass done on the 5 assessable studies; Helm NOT_ASSESSABLE (no full text); second reader outstanding
 **Assigned:** any
 **Parallel-safe:** yes (with TICK-051)
 **Blocks:** TICK-052
@@ -44,4 +44,24 @@ rating downstream, and it should be reported as such rather than softened.
       syntheses and two separate certainty ratings.
 
 ## Log
+- 2026-07-27 (Claude): 6 rows in `extraction/climate-anxiety-eco-doomerism-risk-of-bias.csv`
+  over the inherited nine domains plus the three D.3.b additions (D.1.a-specific
+  confounding, reverse causality, common-method bias) and one further column this ticket
+  did not anticipate: **`ecological_specificity`**, added because the gate and extraction
+  both showed the Wall 2 discrimination failing *inside* studies rather than across them.
+
+  **Ratings: 3 serious, 2 moderate, 1 not assessable.**
+
+  | Study | Overall | The binding domain |
+  |---|---|---|
+  | Golovina & Jokela | serious | `ecological_specificity` — climate worry does not survive adjustment for the summary of all other worries. Confounding is *low* (adjusts for political attitudes); the study fails on specificity, not on confounding |
+  | Jylhä et al. | moderate | Reverse causality, acknowledged by the authors; the null is well powered and credible |
+  | Peters et al. | moderate | D.1.a confounding serious (no political controls); reverse causality **low** and uniquely so — the only two-directional design in the review |
+  | Weychert et al. | serious | Exposure measurement (news volume, not dread) and reporting (no CIs anywhere, null main effect) |
+  | Saha et al. | serious | Serious on nearly every domain; retained for transportability, not for an effect size |
+  | Helm et al. | **NOT_ASSESSABLE** | Full text unobtainable. Risk of bias must not be graded from an abstract |
+
+  Note the pattern worth carrying to TICK-053: the best-confounded-controlled study is the
+  one that fails ecological specificity, and the one with the cleanest reverse-causality
+  design has no political controls. No study in the realized stratum is strong on both.
 - 2026-07-27 (Claude): opened.

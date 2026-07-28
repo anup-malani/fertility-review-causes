@@ -1,0 +1,11 @@
+effect_id,study_id,data_source,sample,model,effect_type,effect,ci_lower,ci_upper,significant,log_effect,se_log,adjusts_politics,wall1_class
+gol_01,golovina_2024_soep_worries,GSOEP,Total sample,Model 2 (gender/partnership/parity/immigration/region + educ,hazard_ratio,0.82,0.75,0.90,yes,-0.1985,0.0465,yes,ecological_fear
+gol_02,golovina_2024_soep_worries,GSOEP,Childless subsample,Model 2 as above,hazard_ratio,0.86,0.79,0.94,yes,-0.1508,0.0443,yes,ecological_fear
+gol_03,golovina_2024_soep_worries,GSOEP,Childless subsample,Model 1 (minimally adjusted),hazard_ratio,0.86,0.73,1.01,no,-0.1508,0.0828,no,ecological_fear
+gol_05,golovina_2024_soep_worries,GSOEP,Childless subsample,Model 2 (fully adjusted),hazard_ratio,0.94,0.86,1.04,no,-0.0619,0.0485,yes,economic
+gol_06,golovina_2024_soep_worries,GSOEP,Total sample,Model 2,hazard_ratio,0.85,0.78,0.94,yes,-0.1625,0.0476,yes,ecological_fear
+pet_01,peters_2023_soep_reciprocal,GSOEP,Total,"Piecewise-constant hazard (educ, birth year, civil status, i",hazard_ratio,0.92,0.82,1.04,no,-0.0834,0.0606,no,ecological_fear
+pet_02,peters_2023_soep_reciprocal,GSOEP,Females,"Piecewise-constant hazard (educ, birth year, civil status, i",hazard_ratio,0.96,0.83,1.11,no,-0.0408,0.0742,no,ecological_fear
+pet_03,peters_2023_soep_reciprocal,GSOEP,Males,"Piecewise-constant hazard (educ, birth year, civil status, i",hazard_ratio,0.87,0.72,1.05,no,-0.1393,0.0963,no,ecological_fear
+pet_04,peters_2023_soep_reciprocal,GSOEP,Cohort <1970,"Piecewise-constant hazard (educ, birth year, civil status, i",hazard_ratio,0.73,0.57,0.94,yes,-0.3147,0.1276,no,ecological_fear
+pet_05,peters_2023_soep_reciprocal,GSOEP,Cohort >=1970,"Piecewise-constant hazard (educ, birth year, civil status, i",hazard_ratio,0.98,0.85,1.12,no,-0.0202,0.0704,no,ecological_fear

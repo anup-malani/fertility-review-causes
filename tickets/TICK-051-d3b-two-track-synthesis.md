@@ -1,5 +1,5 @@
 # TICK-051: D.3.b two-track synthesis (stated intention and realized fertility, never pooled together)
-**Status:** open
+**Status:** done — pipeline built and run; **pool REFUSED on the realized track for independence, stated track not yet extracted**
 **Assigned:** any
 **Parallel-safe:** yes (with TICK-050)
 **Blocks:** TICK-052
@@ -49,4 +49,30 @@ average it away and a tight pooled estimate is not evidence that the confound is
 - [ ] Forest plot per track via `source/analysis/b1_forest_plot.py` or a D.3.b adaptation.
 
 ## Log
+- 2026-07-27 (Claude): `source/analysis/d3b_meta_pipeline.py` + 13 unit tests (all
+  passing). Outputs in `output/tables/climate-anxiety-eco-doomerism-{realized-summary,
+  pooling-decision,synthesis-report}.{csv,md}`.
+
+  **The pipeline's defining behaviour is that it evaluates the conservative rule and
+  refuses to pool when the rule is not met, recording why.** A synthesis script that emits
+  a pooled number whenever it has two rows is exactly how a chapter reports a structural
+  estimate it has not earned, so the refusal path carries more tests than the happy path.
+
+  **Realized track: 2 poolable rows, 2 studies, 1 independent data source → POOL REFUSED.**
+  Golovina & Jokela and Peters et al. are both GSOEP; counting them as two would
+  double-count one German panel. Jylhä is a different estimand (OLS on number of children,
+  not a hazard ratio) and not harmonisable. Weychert reports no interval at all. The AEA
+  study was never retrieved. **This is a refusal to pool, not a failed pool**, and Section 6
+  must say so in those terms rather than describe a forest plot that does not exist.
+
+  **The pre-specified central test is not estimable.** The adjusted-versus-unadjusted
+  contrast this ticket pre-specified cannot be estimated with 3 independent sources of which
+  1 adjusts for political attitudes. Recorded in the output as not-estimable rather than
+  dropped, so the pre-specification is not quietly abandoned.
+
+  **Stated track: recorded as NOT YET EXTRACTED rather than omitted**, so the absence of a
+  pooled estimate cannot be misread as evidence weighed and found wanting.
+
+  Independence is encoded as a `DATA_SOURCE` map rather than inferred, so adding a study
+  requires an explicit statement about which panel it uses.
 - 2026-07-27 (Claude): opened.

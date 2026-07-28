@@ -1,0 +1,3 @@
+track,poolable_rows,distinct_studies,independent_units,unit_names,metrics,estimates_with_ci,pool_permitted,output_type,reasons_withheld
+realized_fertility,2,2,1,GSOEP,hazard_ratio,2,no,structured summary (NOT a pooled estimate),only 1 independent data source(s) (GSOEP) across 2 study/studies; rule requires >= 3. Studies sharing a source: GSOEP
+stated_intention,0,0,0,,,0,no,NOT YET EXTRACTED,"61 studies in the frozen stated pool; no effect extraction has been run. Absence of a pooled estimate here reflects work not done, not evidence weighed."
