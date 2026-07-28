@@ -49,6 +49,7 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 
 | Ticket | Title | Owner | Claimed (UTC) | Touches |
 |--------|-------|-------|---------------|---------|
+| [TICK-049](TICK-049-d3b-effect-extraction.md) | D.3.b effect extraction — realized track first-pass done, **0 of 11 rows poolable; no recoverable CIs**; second-reader pass outstanding | Shravan | 2026-07-27T00:00:00Z | `extraction/climate-anxiety-eco-doomerism-{studies,effects-realized}.csv` |
 | [TICK-047](TICK-047-d3b-ra-gate.md) | D.3.b RA gate — boundary calls + 122 `INSUFFICIENT_INFO`; decisive-12 half gates extraction, Wall 1 (D.1.a) misroutes sampled first | Shravan | 2026-07-27T00:00:00Z | `extraction/climate-anxiety-eco-doomerism-ra-gate.csv`; `literature/search-logs/climate-anxiety-eco-doomerism-ra-gate-log.md` |
 | [TICK-046](TICK-046-b1-chapter-finalization.md) | B.1 chapter finalization — **RA work complete, awaiting Anup's review**; PI packet has 6 numbered decisions | Shravan | 2026-07-25T00:00:00Z | `output/chapters/evolutionary-sex-drive-contraceptive-decoupling{,-pi-review-packet}.md` |
 | [TICK-019](TICK-019-oas-demographic-significance-and-chapter.md) | OAS demographic significance and hybrid chapter draft | Alexandra | 2026-07-17T14:45:00Z | `output/chapters/old-age-security-pension-crowdout.md`; OAS evidence records |
@@ -58,7 +59,6 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 
 | Ticket | Title | Assigned | Blocked by |
 |--------|-------|----------|------------|
-| [TICK-049](TICK-049-d3b-effect-extraction.md) | D.3.b effect extraction — two tables, never combined | any | TICK-047, TICK-048 |
 | [TICK-050](TICK-050-d3b-risk-of-bias.md) | D.3.b risk of bias (adds a common-method-bias domain) | any | TICK-049 |
 | [TICK-051](TICK-051-d3b-two-track-synthesis.md) | D.3.b two-track synthesis; adjusted-vs-unadjusted is the central test | any | TICK-049 |
 | [TICK-052](TICK-052-d3b-demographic-significance.md) | D.3.b demographic significance (SDT only) | any | TICK-050, TICK-051 |

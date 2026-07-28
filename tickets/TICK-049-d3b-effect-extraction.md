@@ -93,4 +93,49 @@ pool without it.
 - [ ] Ambiguous estimates flagged `needs_pi = yes` rather than guessed.
 
 ## Log
+- 2026-07-27 (Claude): **first pass on the realized track — 11 effect rows over 4 studies,
+  and ZERO are currently poolable.** Tables:
+  `extraction/climate-anxiety-eco-doomerism-{studies,effects-realized}.csv`.
+
+  **Not one estimate in the realized stratum has a recoverable confidence interval.** Of
+  11 rows: 8 are text statements, 2 are text statements whose actual estimate lives in a
+  FIGURE that the text layer cannot recover (Golovina & Jokela's Figures 1 and 2), and 1
+  is a table value reached through text. The two headline numbers the chapter already
+  quotes — 18% and 16% — are **derived** from prose ("the likelihood ... was 18 percent
+  lower"), not transcribed from a table. HR 0.82 and 0.84 are my arithmetic on those
+  sentences. That is precisely the failure B.1 caught at second-reader verification (a
+  number quoted from prose rather than read off a table), so both rows are `needs_pi`
+  and `poolable=no`.
+
+  **Three substantive findings that change what the chapter can conclude.**
+
+  1. **The load-bearing study fails its own ecological-specificity test.** Golovina &
+     Jokela: "After adjusting the models for the summary score of all other worries
+     except the worry of interest, only worries about own health, crime in Germany, and
+     immigration to Germany remained statistically significant." Climate change did not
+     survive. The one realized study that beats the D.1.a confound by design fails the
+     Wall 2 discrimination internally — its climate effect is not separable from general
+     worry. Also: in the childless sample over the full 1984–2020 span the climate
+     association is not significant at all; the 16% is the 2009–2020 window only.
+  2. **Two of the four are nulls, and one estimate runs the wrong way.** Peters et al.
+     (the reverse-causality design the chapter calls its most valuable) finds no
+     significant relationship except for pre-1970 cohorts. Jylhä et al. is a null by the
+     authors' own conclusion — and within it, worry about *future generations* is
+     **positively** associated with number of children (r=+0.06, b=+0.12, p=0.00) while
+     overpopulation worry is negative. Pooling those two channels would average
+     opposite-signed mechanisms.
+  3. **The one large effect is a subgroup interaction in a preprint.** Weychert et al.
+     RR=0.38 holds only for high news exposure among the pro-environmental; the paper
+     reports no significant effect across political orientation.
+
+  **Independence problem for TICK-051:** Golovina & Jokela and Peters et al. both use
+  GSOEP. They are not independent draws and must not be pooled as if they were. That
+  leaves at most 3 independent realized samples (GSOEP, Swedish GGS, UKHLS).
+
+  **Wall 1 measure-content field populated on all 6 studies** (the 3a requirement). One
+  `mixed` in the realized track (Weychert — media exposure, not expressed dread) and one
+  in the stated track (Saha — the operative item is carbon-ethics).
+
+  **Second-reader verification is NOT done.** This is a first pass by one reader and the
+  schema's mandatory per-value check is outstanding. Nothing here may enter a pool.
 - 2026-07-27 (Claude): opened.
