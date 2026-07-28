@@ -165,6 +165,15 @@ def derived_urls(w: dict, up: dict, doi: str) -> list[str]:
             f"https://journals.plos.org/plosone/article/file?id={d}&type=printable"
         )
 
+    # Research Square preprints: 10.21203/rs.3.rs-<id>/v<n> -> /article/rs-<id>/v<n>.pdf
+    m = re.match(r"10\.21203/rs\.3\.(rs-\d+)/v(\d+)", d)
+    if m:
+        out.append(f"https://www.researchsquare.com/article/{m.group(1)}/v{m.group(2)}.pdf")
+
+    # Tried and rejected, recorded so nobody re-derives them: MDPI (/pdf) and PNAS
+    # (/doi/pdf/) both return Cloudflare 403 to a non-browser client, and Springer's
+    # /content/pdf/ path returns 200 with HTML. Those need a human with a browser.
+
     return out
 
 
