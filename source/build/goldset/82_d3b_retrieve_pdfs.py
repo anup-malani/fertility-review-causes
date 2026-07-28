@@ -177,6 +177,37 @@ def derived_urls(w: dict, up: dict, doi: str) -> list[str]:
     return out
 
 
+def europepmc_urls(doi: str) -> list[str]:
+    """Europe PMC's `?pdf=render` endpoint, promoted to a first-class source.
+
+    Found during the TICK-049 sample sweep and it is the single most productive source in
+    this project: it served PNAS, MDPI and Springer PDFs whose publisher sites return
+    Cloudflare 403 to a non-browser client. Europe PMC mirrors the deposited full text and
+    does not bot-block, so it routes around exactly the wall that stopped B.1.
+
+    Caveat that must travel with it: what Europe PMC holds is often the ACCEPTED
+    MANUSCRIPT, not the version of record. The ingest step records version status.
+    """
+    d = (doi or "").replace("https://doi.org/", "")
+    if not d:
+        return []
+    url = ("https://www.ebi.ac.uk/europepmc/webservices/rest/search"
+           f"?query=DOI:%22{d}%22&resultType=core&format=json")
+    try:
+        p = subprocess.run(["curl", "-sL", "--max-time", "35", "-A", UA, url],
+                           check=True, capture_output=True)
+        data = json.loads(p.stdout)
+    except (subprocess.CalledProcessError, json.JSONDecodeError):
+        return []
+    out = []
+    for r in ((data.get("resultList") or {}).get("result") or []):
+        if r.get("pmcid"):
+            out.append(f"https://europepmc.org/articles/{r['pmcid']}?pdf=render")
+            out.append("https://www.ebi.ac.uk/europepmc/webservices/rest/"
+                       f"{r['pmcid']}/fullTextPDF")
+    return out
+
+
 def candidate_urls(w: dict, up: dict, doi: str = "") -> list[str]:
     """Ordered, de-duplicated PDF-URL candidates. Repository (green) copies first,
     since publisher bronze links often serve HTML to a non-browser client. Derived
@@ -203,7 +234,7 @@ def candidate_urls(w: dict, up: dict, doi: str = "") -> list[str]:
     if best.get("url_for_pdf"):
         other.append(best["url_for_pdf"])
     seen, ordered = set(), []
-    for u in green + other + derived_urls(w, up, doi):
+    for u in green + other + europepmc_urls(doi) + derived_urls(w, up, doi):
         if u and u not in seen:
             seen.add(u)
             ordered.append(u)
