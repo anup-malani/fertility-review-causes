@@ -1,5 +1,5 @@
 # TICK-053: D.3.b chapter finalization and PI review
-**Status:** open
+**Status:** RA work complete; chapter review-ready. Awaiting Anup, plus a second-reader verification pass that is not RA-optional
 **Assigned:** any
 **Parallel-safe:** no
 **Blocks:** none
@@ -54,4 +54,31 @@ Run `chapter-writing-style-guide.md` and the stop-slop pass **after** the number
       comes back.)*
 
 ## Log
+- 2026-07-27 (Claude): **chapter rewritten, not filled in.** 4,214 words, 0 PENDING
+  markers, 0 em-dashes (matching the finished OAS/B.1/tempo chapters), all appendix paths
+  verified to resolve.
+
+  The skeleton anticipated filling blanks under a pooled estimate. The evidence did not
+  support one, so Section 6 now states that no pool is reported and gives the reason
+  (2 studies, 1 independent panel), rather than describing a forest plot that does not
+  exist. Section 1's verdict table carries the generated ratings.
+
+  **Both chapter errors found during the gate are fixed.** Section 8 no longer claims the
+  evidence concentrates in Europe and North America without qualification; it names the
+  Bangladesh and rural-Malawi studies as the only evidence on transportability. The
+  Environmental Humanities article is no longer cited under the wrong title carried from
+  OpenAlex metadata, and Section 13 records that error alongside the dedup and retrieval
+  defects.
+
+  **Section 12's general-anxiety limitation is NARROWED, not deleted.** The Wall 2 scope
+  decision of 2026-07-25 stands and no probe was run. But the chapter is no longer silent:
+  Golovina's robustness check and Helm's climate-anxiety-versus-depressive-symptoms
+  contrast are two within-study tests pointing in opposite directions, which is not a
+  resolution but is not nothing.
+
+  Style guide applied. The stop-slop pass has NOT been run and should be, per the ticket.
+  - [ ] Anup's review returned and v1 responses applied.
+  - [ ] Second-reader verification pass over extracted values. **Not optional and not
+        merely procedural: the first pass produced two errors caught only by returning to
+        the source tables and figures, and one of them reversed a reported conclusion.**
 - 2026-07-27 (Claude): opened.
