@@ -93,6 +93,63 @@ pool without it.
 - [ ] Ambiguous estimates flagged `needs_pi = yes` rather than guessed.
 
 ## Log
+- 2026-07-27 (Claude, Peters + Weychert tables): **the remaining blocked estimates are
+  extracted, and the realized track now cannot be pooled at all. That is the finding.**
+
+  **Peters et al., Table A3 (appendix) — first-birth hazard ratios, major environmental
+  concerns vs no/some:**
+
+  | Sample | HR (95% CI) | |
+  |---|---|---|
+  | Total | 0.92 (0.82, 1.04) | n.s. |
+  | Females | 0.96 (0.83, 1.11) | n.s. |
+  | Males | 0.87 (0.72, 1.05) | n.s. |
+  | **Cohort < 1970** | **0.73 (0.57, 0.94)** | significant |
+  | **Cohort ≥ 1970** | **0.98 (0.85, 1.12)** | precise null |
+
+  **The cohort split cuts against the hypothesis's own temporal logic.** D.3.b is scoped
+  SDT-only and describes a 2020s phenomenon among young adults. The effect here exists
+  *only* in the pre-1970 cohort; among those born 1970 or later — the people who actually
+  lived through the climate-anxiety era — it is a precise null. Whatever this association
+  is, it is not the mechanism the hypothesis describes.
+
+  **A second text/table mismatch, same pattern as Golovina's.** The body states "a roughly
+  15% lower likelihood of entering fatherhood for men with major concerns" without
+  qualification; Table A3 gives 0.87 (0.72, 1.05), not significant. Do not carry the 15%
+  into the chapter as a result.
+
+  **Weychert et al., Table 2:** RR 0.38, p<0.01, n=108,185, **no CI or SE reported** — stars
+  only, so it cannot be pooled. Three flags: the main effect of high climate-news exposure
+  is null (0.90 in H1, 1.04–1.05 in H2/H3), so the entire result is the interaction term;
+  0.38 is an interaction coefficient that the paper interprets directly as a subgroup
+  effect ("roughly 62% reduction"), where multiplying the components gives ≈0.54, so the
+  headline may conflate a ratio-of-ratios with a subgroup probability; and the moderator is
+  "Environmental Attitude [Want to do more]", an aspiration measure — the Wall 1 construct.
+  The D.3.b-shaped effect exists only conditional on a D.1.a-type variable.
+
+  **Jylhä reports b and p only — no SEs, no CIs.** They cannot be recovered except by
+  inverting rounded p-values on 2-decimal coefficients, which is false precision. More
+  fundamentally these are OLS coefficients on number of children, a different estimand from
+  the hazard ratios, and are not poolable with them under any harmonisation. Marked
+  `poolable=no`; report side by side.
+
+  ### The synthesis-blocking result for TICK-051
+
+  19 rows, 10 with confidence intervals, and **4 marked poolable — but they reduce to two
+  studies, and those two share a dataset.** Three of the four are Golovina estimates from
+  one sample (only `gol_01` is primary); the fourth is Peters. Both are GSOEP.
+
+  **Under the project's conservative rule of ≥3 independent studies, the realized-fertility
+  track cannot be meta-analysed.** Not "is fragile" — cannot be run. Jylhä is a different
+  estimand, Weychert has no CI, and the AEA study was never retrieved. TICK-051's realized
+  track should be reported as a structured summary, explicitly labelled not a pooled
+  estimate, per the same conservative rule B.1 invoked.
+
+  **And the two GSOEP analyses disagree.** Golovina: HR 0.82–0.86, significant. Peters: HR
+  0.92, not significant, on the same panel. The specifications differ — Golovina uses the
+  climate-change worry item 2009–2020, very-vs-not; Peters a lagged big-environmental-
+  concern dummy 1984–2020 on first birth only — but two analyses of the same data reaching
+  different conclusions is itself a finding the chapter should report rather than resolve.
 - 2026-07-27 (Claude, figure/table read): **the two blocked estimates are now recovered, and
   reading them corrected the first pass twice — once against the chapter, once against me.**
   Method: `pdftoppm -r 400` on the figure pages, rotated, then read visually;
