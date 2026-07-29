@@ -4,12 +4,12 @@
 > comparable drive for children, so births came as a by-product of the sex drive, and that
 > contraception cut the tie and lowered fertility even where the desire for children never changed.
 >
-> The hypothesis bundles two claims the evidence treats very differently. The first claim, that
-> status and wealth stop predicting how many children a person has once contraception is available,
-> is well supported. The second claim, the one the hypothesis is named for, is that births fell
-> because sex was severed from reproduction and would have fallen with the desire for children held
-> constant. Almost no study tests the second claim, because almost none measures fertility while
-> holding that desire fixed.
+> The hypothesis bundles two claims the evidence treats very differently. The
+> **status-and-reproduction claim**, that status and wealth stop predicting how many children a
+> person has once contraception is available, is well supported. The **decoupling claim**, the one
+> the hypothesis is named for, is that births fell because sex was severed from reproduction and
+> would have fallen with the desire for children held constant. Almost no study tests the decoupling
+> claim, because almost none measures fertility while holding that desire fixed.
 >
 > The review's screen judged 95 studies eligible, 51 full texts were obtained, and 8 studies produce
 > every pooled number below. Among men where contraception is present the status-fertility
@@ -51,12 +51,12 @@ separate claim, and a study that establishes one establishes only that one. The 
 demographic prediction, that a population with contraception has fewer births than the same
 population would have had without it.
 
-The clause that separates this hypothesis from its neighbours is that fertility falls even when the
-desire for children does not change. Every account in the modern-contraception chapter (A.2) and the
-preference chapter (D.1) explains lower fertility by people wanting fewer children and getting the
-means to act on that want. This hypothesis claims something further, that births would have fallen
-with the want held constant, and the claim binds together a well-populated proposition about status
-and reproduction with an almost untested proposition about severing.
+The distinctive prediction is that fertility falls even when the desire for children does not change.
+Every account in the modern-contraception chapter (A.2) and the preference chapter (D.1) explains
+lower fertility by people wanting fewer children and getting the means to act on that want. This
+hypothesis claims something further, that births would have fallen with the want held constant, and
+the claim binds a well-populated proposition about status and reproduction to an almost untested
+proposition about severing.
 
 ## 2. Theoretical mechanism
 
@@ -79,17 +79,18 @@ The theory predicts the direction of the change and not its size, and this revie
 theory than measurement, 173 theoretical studies against 95 empirical ones. How far fertility falls
 after the severing depends on the residual demand for children, whether that demand is a weak evolved
 one or a strong one supplied by culture, and the size of that residual is the quantity in dispute
-between this hypothesis and the preference account. The asymmetry between the two literatures is a
-finding rather than a search failure. The theory is rich, and the identified test of its distinctive
-claim is thin.
+between this hypothesis and the preference account. The theory literature runs from Darwin (1871)
+through Barkow and Burley (1980) and Davis (1986) to Turke (1989) on the demand for children and into
+modern evolutionary demography. Its size relative to the empirical evidence is a finding rather than
+a search failure: the theory is rich, and the identified test of its distinctive claim is thin.
 
 ## 3. Empirical strategy
 
 ### 3.1 The treatment
 
 Two different things go by the name contraception in this literature, and the hypothesis is about the
-second one. **Contraceptive availability** is access to the method in a population, which is what
-every study in the evidence base actually varies. **Decoupling** is the severing of sex from
+second one. **Contraceptive availability** means access to the method in a population, and it is the
+thing every study in the evidence base actually varies. **Decoupling** is the severing of sex from
 conception, the thing availability makes possible for the people who use it. A population can gain
 availability and see births fall for reasons that have nothing to do with decoupling, and the
 modern-contraception chapter (A.2) is where the total effect of availability on births is assessed.
@@ -99,8 +100,8 @@ modern-contraception chapter (A.2) is where the total effect of availability on 
 The outcome the hypothesis names is completed fertility at the individual level, the number of
 children a person ends up with. Three neighbouring outcomes are not it. How often people have sex
 belongs to coital frequency and biological exposure (A.4). The gap between the children people wanted
-and the children they had belongs to A.2, because closing that gap is what better contraception does
-for someone whose target was already low. Desired family size itself belongs to shifting family
+and the children they had belongs to A.2, because better contraception closes that gap for someone
+whose target was already low. Desired family size itself belongs to shifting family
 preferences (D.1), which is the account this hypothesis is trying to beat.
 
 The stream that supports a pooled estimate does not measure fertility, it measures the association
@@ -120,13 +121,13 @@ it is the only design that isolates the effect this hypothesis claims.
 
 ### 3.4 The practical designs, and what follows
 
-Two designs carry the empirical literature, and neither constructs the desire-held-fixed contrast.
+The empirical literature uses two designs, and neither constructs the desire-held-fixed contrast.
 **Design A, the cross-population status gradient**, estimates how strongly wealth or rank predicts
 the number of children a person has, and compares that gradient across populations with and without
 contraception. **Design B, the contraceptive rollout**, follows births in a population before and
 after access widens, sometimes exploiting a legal change or a program's staggered arrival.
 
-Design A answers the first of the hypothesis's two claims and cannot reach the second. A gradient
+Design A answers the status-and-reproduction claim and cannot reach the decoupling claim. A gradient
 that is positive without contraception and flat or negative with it is the dissociation the
 hypothesis predicts, and finding it is real evidence about the fate of the ancestral link. The
 finding does not say why the gradient changed. Desired family size is never measured in these
@@ -141,9 +142,8 @@ of decoupling. Exactly one of the 51 retrieved studies is coded as holding the d
 fixed, Eckstein, Keane, and Lifshitz (2019), and it identifies fertility off the changing structure
 of careers rather than off a preference-held-fixed contrast.
 
-Five limitations follow, three of them from the identification strategy and two of them whatever the
-identification strategy is. A perfect experiment would cure the first three and leave the last two
-standing.
+Three limitations follow from how these designs assign treatment, and a perfect experiment would cure
+all three. Each is named here and used by name in the sections below.
 
 - **The population confound.** The contraception-absent and contraception-present estimates come from
   different kinds of society, which differ in mortality, marriage systems, subsistence, and how
@@ -152,6 +152,10 @@ standing.
   shift the preferences that move fertility on their own.
 - **The preference channel.** A design that varies access without measuring desired family size
   cannot separate decoupling from a fall in the desire for children.
+
+Two further limitations concern which outcome a study measures and which populations were observed,
+so a perfect experiment would leave both standing.
+
 - **The gradient is not the decline.** A status gradient measures who has the children, not how many
   births contraception removed, and the two quantities can move independently.
 - **The mistimed-evidence problem.** Of the pooled studies whose observation window this review
@@ -183,7 +187,7 @@ abstract level and sorted into one of the three streams, into a neighbouring cha
 
 The binding filter is the causal question rather than the topic: a paper can be about contraception
 and fertility and still answer A.2's question, and such a paper is routed there. The three streams
-each answer a different question, and only one of them speaks to the distinctive claim.
+each answer a different question, and only one of them bears on the decoupling claim.
 
 **Table 1. The three evidence streams.**
 
@@ -240,7 +244,7 @@ study's design could push its estimate away from the truth, on a scale running L
 Serious, and Critical; Section 9 gives the reasons and Section 13 discloses that the coding is
 unverified.
 
-### 6b. What else the status-and-reproduction stream holds
+### 6b. The rest of the status-and-reproduction stream
 
 Roughly ten large register and census studies in the extraction show the same male-positive and
 female-negative pattern in samples far larger than anything in the pool, and none of them is pooled,
@@ -261,14 +265,19 @@ three-degree-of-freedom F on a four-category income factor, net of education and
 not the same quantity as a zero-order correlation, and the sign was assigned from the paper's text
 rather than read off a table. The direction is the one the rest of the stream shows.
 
-Two other studies belong to the stream and to neither the pool nor the argument's quantitative core.
-Kohler, Rodgers, and Christensen (1999) find that once births became voluntary, differences in
-completed fertility began to track genetic variation among Danish twins, which is a second and
-independent signature of the same regime change. Boone and Kessler (1999) is a simulation, and this
-review routes it to the theory stream rather than treating it as evidence. Lidborg, Cross, and
-Boothroyd (2022) pooled dozens of samples on male physical dimorphism and fitness and found a small
-positive association, and no published meta-analysis estimates the status-fertility link with
-contraceptive availability as the moderator.
+Four further studies belong to the stream and supply no estimate the pool can use. Kohler, Rodgers,
+and Christensen (1999) find that once births became voluntary, differences in completed fertility
+began to track genetic variation among Danish twins, which is a second and independent signature of
+the same regime change. Kaplan and Hill (1986) state the puzzle early, that social class stopped
+predicting reproduction under modern conditions, and Stulp and Barrett (2016) review industrial
+populations and find the ancestral positive link between wealth and family size weak or gone; the
+first was never retrieved and the second is a narrative review. Boone and Kessler (1999) is a
+simulation, and this review routes it to the theory stream rather than treating it as evidence.
+
+No published meta-analysis estimates the status-fertility link with contraceptive availability as the
+moderator, which is why this chapter runs its own pool. Lidborg, Cross, and Boothroyd (2022) is the
+nearest published synthesis: it pooled dozens of samples on male physical dimorphism and fitness and
+found a small positive association, on a predictor other than status.
 
 ### 6c. The desire-for-children stream
 
@@ -370,7 +379,7 @@ more than they describe the smaller studies, since sample sizes run from roughly
 university employees to several hundred thousand administrative records. This review reports rather
 than pools any cell holding fewer than three studies.
 
-### 7e. What verification and the re-pool changed
+### 7e. Two studies removed, three added
 
 A second-reader pass removed two studies from the pool and the re-pool added three, and both
 movements are worth naming because one of them emptied the cell the chapter's argument turned on.
@@ -446,7 +455,7 @@ fertility outcome in each study, which the extraction does not hold.
 The distinctive claim is unidentified under the preference channel, and this review assigns it no
 share rather than a small one. Two other chapters generate the same decline, A.2 through contraception
 closing a gap that opened when people came to want fewer children, and D.1 through the want itself
-shrinking. What decoupling adds over those two is the claim that fertility would have fallen with the
+shrinking. Decoupling adds to those two the claim that fertility would have fallen with the
 desire for children held constant, and no study measures that. Assigning a share would mean scoring
 an estimate that does not exist, and assigning zero would mean treating an absent estimate as
 evidence of absence. **Verdict: the measured dissociation is real but small and self-cancelling;
@@ -468,17 +477,18 @@ rated Serious overall.
 | Fieder et al. (2005), Vienna employees | Serious | Serious | Serious | Serious |
 | Kanazawa (2003), US GSS | Moderate | Low | Serious | Serious |
 
-Three ratings need their reasons stated. von Rueden and Jaeggi is Moderate rather than Serious
-because restricting the synthesis to nonindustrial societies is a deliberate design choice that
-limits the contraception confound, which is the one comparison this chapter most needs. Fieder and
-colleagues carry an additional Serious selection risk, because a single-employer university workforce
-is not a general population. Hopcroft (2018a) has an administrative sample of several hundred
+Three of the ratings turn on a feature of the individual study rather than on status endogeneity.
+von Rueden and Jaeggi is Moderate rather than Serious because restricting the synthesis to
+nonindustrial societies is a deliberate design choice that limits the contraception confound, the
+one comparison this chapter most needs. The Fieder study has an additional Serious selection rating,
+because a single-employer university workforce is not a general population. Hopcroft (2018a) has an
+administrative sample of several hundred
 thousand, which drives its standard error near zero and gives it a quarter of the weight in the
 male contraception-present cell, and precision of that kind is not identification.
 
 Two gaps in the assessment are worth the reader's attention. The three studies the re-pool added are
 not coded at all, so the contraception-absent pool mixes one Moderate rating with three uncoded
-studies. Separately, the corpus holds a published comment on one of the pooled studies, Volscho
+studies. Separately, the corpus contains a published comment on one of the pooled studies, Volscho
 (2005) on Kanazawa (2003), which argues that the sex difference Kanazawa reports is an artifact; its
 full text is not in this working tree, so this review records the comment as existing and unassessed.
 
@@ -511,23 +521,26 @@ extraction; the ratings themselves are this review's judgement.
 Three studies would move this chapter, in descending order of what each would settle.
 
 A design that documents desired family size, then observes a contraception rollout and reports
-whether realized fertility fell below the documented target, would identify the distinctive claim and
-is the only one of the three that could. The comparison it needs is the desire-held-fixed contrast of
-Section 3.3, and the quantity to report is the gap between wanted and realized fertility with its
-sign, which Section 3.5 gives as the discriminating test.
+whether realized fertility fell below the documented target, is the only one of the three that could
+identify the decoupling claim. It builds the desire-held-fixed contrast, and the quantity it reports
+is the gap between wanted and realized fertility with its sign, a fall below the wanted number
+favouring this hypothesis and a landing at that number favouring the preference account.
 
 A study that compares fertility across differing contraceptive access within one population would
 identify the availability moderator, which the cross-population comparison cannot. The population has
 to be similar enough to itself that the population confound does not reappear as a comparison between
 kinds of society, which rules out the between-society contrast the current pool is built on.
 
-Retrieving more natural-fertility studies would put a defensible interval on the contraception-absent
-cell without identifying anything, and it is the nearest of the three to hand. Sorokowski et al.
-(2013) is the concrete target: its Yali correlations of +0.42 for men and +0.27 for women are the
-largest positive contraception-absent values in the corpus and are unpoolable only because the review
-has them secondhand, without a sample size. A study linking a validated childbearing-motivation
-measure to completed fertility in a fully contracepting group would separately put a number on the
-residual demand for children.
+A study linking a validated childbearing-motivation measure to completed fertility in a fully
+contracepting group would put a number on the residual demand for children, which is the quantity
+that decides how far fertility should fall once sex and reproduction come apart. The theory is silent
+on that magnitude, and so is every study now in the pool.
+
+One retrieval, rather than a new study, would tighten the contraception-absent cell, and it is the
+nearest thing to hand. Sorokowski et al. (2013) reports Yali correlations of +0.42 for men and +0.27
+for women, the largest positive contraception-absent values in the corpus, and this review has them
+secondhand and without a sample size. Obtaining the paper would let the estimate enter the pool. It
+would buy precision on one side of a between-population comparison and would identify nothing.
 
 ## 13. Reproducibility and deviations from protocol
 

@@ -305,8 +305,8 @@ MODERATE, SERIOUS, and CRITICAL.
 | Zelu, Iranzo, and Pérez-Laborda (2023), provisional | Ghana, 1999–2017 | Act 766, extending more generous pension benefits to private-sector workers | Pregnancy in the previous year; number of children | −6 pp (SE 3 pp), Table 2, p. 14; number of children negative and not statistically precise, Table 7, p. 17 | Not extracted | Not rated; working draft, no extraction row and no risk-of-bias row |
 
 Three studies estimate the effect of a grandmother's availability on her daughter's fertility, and
-Table 2 gives all eight of their estimates with the reversal on the Dutch study shown in the cell so a
-reader can check it.
+Table 2 gives all eight of their estimates with the reversal on the Dutch study shown in the table so
+a reader can check it.
 
 **Table 2. The grandparent-time channel.**
 
@@ -589,11 +589,11 @@ counts as evidence about this transition is a scope judgment rather than a ratin
 Three moderate-risk quasi-experiments in three below-replacement countries agree in direction, which
 reaches the pattern for Moderate, and two raters docked one level because none of the three studies
 appears in the full-text screen file and their eight effect rows are the only extractions in this
-review marked unverified. The third rater scored Moderate, having verified that the reinstatement of
-all three studies was complete and therefore carried no selection risk, and noting that Eibich and
+review marked unverified. One rater scored Moderate, having verified that the reinstatement of all
+three studies was complete and therefore carried no selection risk, and noting that Eibich and
 Siedler's outcome is a birth in the following year rather than a completed count. All three raters
-escalated, on the ground that the cell is unscreened and unverified and that the magnitude screen does
-not measure what the verdict cited it for.
+escalated, on the ground that this channel's studies are unscreened and unverified and that the
+magnitude screen does not measure what the verdict cited it for.
 
 The panel's grandparent-time verdict is a downgrade on both axes from this chapter's previous rating
 of Moderate for causal credibility and partial demographic significance with slope-screening support.
@@ -644,8 +644,8 @@ report are the two effects and their sum.
 **Whether long-term-care insurance belongs to the grandparent-time channel is an open classification
 question with a consequence.** Insurance that relieves a daughter of nursing her mother frees the
 daughter's time, so Han and coauthors' +0.04 may be a grandparent-time estimate sitting inside a
-retirement-asset pool. Reclassifying it drops the birth-probability pool to four studies and requires
-recomputation. For the pre-modern period, the corresponding gap is variation in whether children could
+retirement-asset pool. Reclassifying it drops the published birth-probability pool from five studies
+to four and the restricted pool from four to three, and both would need recomputing. For the pre-modern period, the corresponding gap is variation in whether children could
 be relied on for old-age support at all, across family systems, inheritance rules, and communal-care
 arrangements.
 
@@ -774,7 +774,8 @@ Section 10 are provisional until that review happens.]
 
 [Note to co-authors: the recall figure in Section 5 was re-measured because the frozen gold set used to
 compute it was found to contain fabricated snowball citations. 105 ghosts were confirmed and removed,
-roughly 40% of Tier B, cutting the primary-cell gold from 57 anchors to 21 before a rebuild to 31. Two
+roughly 40% of the second tier, cutting the gold set for this chapter's causal question from 57
+anchors to 21 before a rebuild to 31. Two
 intermediate recall numbers, 82.5% and 76.5%, were retracted. The 80.6% is the number on the clean
 gold.]
 
