@@ -1,7 +1,7 @@
 # Evolutionary Sex Drive and Contraceptive Decoupling
 
 > **Bottom line.** The hypothesis this chapter examines is the **delink-sex-and-reproduction
-> hypothesis**: natural selection built a strong sex drive and no comparable drive for children, so
+> hypothesis**: natural selection built a strong sex drive and no comparable parental preference for children, so
 > births came as a by-product of the sex drive, and contraception severed sex from reproduction and
 > lowered fertility even where the desire for children never changed.
 >
@@ -56,7 +56,7 @@ producing births. Each step is a separate claim, and a study that establishes on
 only that step. The three steps end in a demographic prediction, that a population with
 contraception has fewer births than the same population would have had without contraception.
 
-The delink-sex-and-reproduction hypothesis bundles two claims, and this chapter rates the two
+The delink-sex-and-reproduction hypothesis bundles two claims, and this chapter evaluates the two
 separately. One is the **status-and-reproduction claim**: that higher status brought more children
 in populations without contraception, and that status and wealth stop predicting how many children a
 person has once contraception is available. The other is the **decoupling claim**: that births fell
