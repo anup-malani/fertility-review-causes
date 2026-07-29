@@ -6,25 +6,30 @@
 > lowered fertility even where the desire for children never changed.
 >
 > The delink-sex-and-reproduction hypothesis bundles two claims, and the evidence treats the two
-> very differently. One is the **status-and-reproduction claim**, that status and wealth stop
-> predicting how many children a person has once contraception is available; that claim is well
-> supported. The other is the **decoupling claim**, which gives this chapter its title: that births
-> fell because contraception severed sex from reproduction and would have fallen with the desire for
-> children held constant. Almost no study tests the decoupling claim, because almost none
-> measures fertility while holding the desire for children fixed.
+> very differently. One is the **status-and-reproduction claim**, which has two halves and the
+> evidence supports only one of them. That status and wealth stop predicting how many children a
+> person has once contraception is available is well supported. That status predicted fertility
+> positively before contraception is not. The other is the **decoupling claim**, which gives this
+> chapter its title: that births fell because contraception severed sex from reproduction and would
+> have fallen with the desire for children held constant. Almost no study tests the decoupling
+> claim, because almost none measures fertility while holding the desire for children fixed.
 >
 > The review's screen judged 95 studies eligible, 51 full texts were obtained, and 8 studies produce
 > every pooled number below. Among men where contraception is present the status-fertility
 > association is about +0.07, among women about −0.13, and the two cancel to near zero in aggregate,
 > each tracking under two percent of the variance in completed fertility. Where contraception is
 > absent, the review's own four-study pool gives −0.06 (95% confidence interval −0.16 to +0.05), so
-> the positive baseline the theory needs is not established by this review's evidence.
+> the hypothesis's predicted fall from a strong status gradient to a weak one has no strong gradient
+> to start from.
 >
-> Causal credibility is **Very low** for the pre-modern period, **Very low** for the decoupling
-> claim during the First Demographic Transition, **Moderate** for the status-and-reproduction claim
-> during the Second Demographic Transition, and **Low** for the decoupling claim there. No share of
-> any fertility decline is assigned to the severing of sex from reproduction. That share is not
-> presently estimable and may be small, and a share that cannot be estimated is not thereby zero.
+> Causal credibility is **Very low** for both pre-modern ratings, **Very low** for the
+> decoupling claim during the First Demographic Transition, **Moderate** for the
+> status-and-reproduction claim during the Second Demographic Transition, and **Low** for the
+> decoupling claim there. The status-and-reproduction claim appears twice in the verdict table
+> because its two halves rest on evidence from different periods, and only the modern half earns the
+> Moderate. No share of any fertility decline is assigned to the
+> severing of sex from reproduction. That share is not presently estimable and may be small, and a
+> share that cannot be estimated is not thereby zero.
 
 **Category:** Biological
 **Primary mechanism:** Natural selection built a continuous sex drive rather than a drive for
@@ -57,9 +62,15 @@ only that step. The three steps end in a demographic prediction, that a populati
 contraception has fewer births than the same population would have had without contraception.
 
 The delink-sex-and-reproduction hypothesis bundles two claims, and this chapter evaluates the two
-separately. One is the **status-and-reproduction claim**: that higher status brought more children
-in populations without contraception, and that status and wealth stop predicting how many children a
-person has once contraception is available. The other is the **decoupling claim**: that births fell
+separately. One is the **status-and-reproduction claim**, which is itself a conjunction of two
+halves. By the **pre-contraceptive gradient**, this chapter means the proposition that higher status
+brought more children in populations without contraception. By the **dissociation under
+contraception**, it means the proposition that status and wealth stop predicting how many children a
+person has once contraception is available. The status-and-reproduction claim asserts a fall from the
+pre-contraceptive gradient to the dissociation under contraception and so needs both halves, and this
+chapter rates each half separately against the period whose evidence bears on it, the
+pre-contraceptive gradient under the pre-modern heading and the dissociation under the Second
+Demographic Transition. The other is the **decoupling claim**: that births fell
 because contraception severed sex from reproduction, and would have fallen even had the desire for
 children stayed constant. By decoupling, this chapter means the severing of sex from reproduction
 and nothing else. The status-and-reproduction claim is about which people have the children; the
@@ -90,8 +101,8 @@ prediction: a sex drive that evolved to serve reproduction, once satisfiable wit
 should leave fertility lower than it was. Kingsley Davis (1986) treats low fertility itself as the
 puzzle evolutionary theory has to explain, noting that if people maximized reproductive success the
 richest would have the most children and they do not. The delink-sex-and-reproduction hypothesis
-therefore names as its central problem the fact that most threatens the hypothesis, that the richest
-do not have the most children.
+therefore takes as its starting point the fact that most threatens it, that the richest do not have
+the most children.
 
 The theory predicts the direction of the change and not its size, and this review found far more
 theory than measurement: 173 theoretical studies against 95 empirical ones. How far fertility falls
@@ -141,9 +152,9 @@ The ideal experiment measures each person's desired family size, randomly assign
 access, holds the desire measure constant, and counts the births that follow. Randomization removes
 every reason access might correlate with wanting children. Holding the desire measure constant
 removes the competing explanation, that fertility fell because people came to want fewer children
-rather than because sex was severed from reproduction. A design that tests the
-delink-sex-and-reproduction hypothesis holding desire constant is the only design that isolates the
-effect the hypothesis claims.
+rather than because sex was severed from reproduction. A design that holds the desire for children
+constant is the only design that isolates the effect the delink-sex-and-reproduction hypothesis
+claims.
 
 ### 3.4 The practical designs, and what follows
 
@@ -154,9 +165,9 @@ the number of children a person has, and compares that gradient across populatio
 contraception. **Design B, the contraceptive rollout**, follows births in a population before and
 after access widens, sometimes exploiting a legal change or a program's staggered arrival.
 
-The status gradient compared across populations answers the status-and-reproduction claim, that
-status stops predicting the number of children once contraception is available, and cannot reach the
-decoupling claim. A gradient that is positive where contraception is absent and flat or negative
+The status gradient compared across populations answers both halves of the status-and-reproduction
+claim, the pre-contraceptive gradient from its contraception-absent samples and the dissociation
+under contraception from its contraception-present ones, and cannot reach the decoupling claim. A gradient that is positive where contraception is absent and flat or negative
 where contraception is present is the dissociation the delink-sex-and-reproduction hypothesis
 predicts, and finding that pattern is real evidence about the fate of the ancestral link between
 status and reproduction. The finding does not say why the gradient changed. Desired family size is
@@ -375,8 +386,8 @@ the Fisher-z scale on which the pooling is done.
 
 ### 7c. The contraception-absent cell, and the attenuation contrast
 
-The attenuation the delink-sex-and-reproduction hypothesis predicts, a strong status gradient where
-contraception is absent and a weak one where contraception is present, does not survive this
+The attenuation the delink-sex-and-reproduction hypothesis predicts, a strong pre-contraceptive
+gradient falling to a weak one where contraception is present, does not survive this
 review's own evidence. This review previously reported the contraception-absent association as 0.19
 against 0.07 where contraception is present, roughly two and a half times larger, on the strength of
 one study, von Rueden and Jaeggi's synthesis of thirty-three nonindustrial societies. Four
@@ -410,9 +421,9 @@ population otherwise similar to itself, which no study in this evidence base pro
 Every study in the contraception-present cell is a rich-country sample, so this review's
 best-populated finding describes wealthy contracepting populations and nothing else. The one large
 non-Western test of the same pattern, Zhang and Santtila (2022), is reported in Section 6b rather
-than pooled, on a metric technicality. The settings that would fix the pre-contraceptive baseline
-and the settings that would identify the effect of severing sex from reproduction are different
-places, which is part of why the decoupling claim stays open.
+than pooled, on a metric technicality. The settings that would pin down the pre-contraceptive
+gradient and the settings that would identify the effect of severing sex from reproduction are
+different places, which is part of why the decoupling claim stays open.
 
 ### 7d. How to read the pooled numbers
 
@@ -452,17 +463,19 @@ has no treatment to vary and cannot explain why pre-modern fertility differed ac
 The delink-sex-and-reproduction hypothesis speaks to the level of pre-modern fertility rather than
 to differences in that level across populations: sex was coupled to reproduction everywhere, the sex
 drive did the work everywhere, and the differences across pre-modern populations came from
-mortality, marriage systems, and subsistence.
+mortality, marriage systems, and subsistence. **Verdict, decoupling claim: insufficient for
+variation.**
 
-The pre-contraceptive baseline the theory needs, higher status bringing more children, is no longer
-established by this review's own contraception-absent evidence. Four such studies pool to a value
-indistinguishable from zero, so the proposition now rests on von Rueden and Jaeggi against two
-studies that point the other way and one that is positive and negligible. von Rueden and Jaeggi, the
+The pre-contraceptive gradient, the half of the status-and-reproduction claim holding that higher
+status brought more children before contraception, is not established by this review's own
+contraception-absent evidence. Four such studies pool to a value indistinguishable from zero, so the
+proposition rests on von Rueden and Jaeggi against two studies that point the other way and one that
+is positive and negligible. von Rueden and Jaeggi, the
 only one of the four with a risk-of-bias rating, is also assigned to the pre-modern period by
 fertility regime rather than by date: its constituent studies are twentieth-century fieldwork in
 populations that had not undergone the transition, not observations of pre-1870 populations, and the
-review's target-period table flags the assignment as an analyst judgement. **Verdict: insufficient
-for variation.**
+review's target-period table flags the assignment as an analyst judgement. **Verdict,
+pre-contraceptive gradient: no positive gradient established.**
 
 ### 8.2 First Demographic Transition
 
@@ -489,10 +502,10 @@ Transition and severs sex from reproduction at scale only after that transition 
 The Second Demographic Transition is the period where the delink-sex-and-reproduction hypothesis is
 most plausible and still least identified, and the hypothesis's two claims separate there more
 sharply than anywhere else in the chapter. The pill severs sex from reproduction at scale after
-1965, as the theory requires. The status-and-reproduction evidence shows the matching signature, a
-link that weakens and turns sex-specific across rich post-1965 populations, and all four studies in
-the contraception-present cell observe fertility entirely after 1965, so they sit squarely inside
-the phenomenon.
+1965, as the theory requires. The dissociation under contraception is where this chapter's evidence is
+strongest, a link that weakens and turns sex-specific across rich post-1965 populations, and all four
+studies in the contraception-present cell observe fertility entirely after 1965, so they sit squarely
+inside the phenomenon.
 
 The sex reversal under contraception is real, well populated, and demographically small. The pooled
 male association tracks 0.73 percent of the variance in completed fertility and the female
@@ -548,14 +561,16 @@ comment as existing and unassessed.
 
 ## 10. GRADE rating
 
-The certainty of this chapter's conclusions is highest for the status-and-reproduction claim under
-contraception and lowest for the decoupling claim everywhere.
+The certainty of this chapter's conclusions is highest for the dissociation under contraception, and
+low or very low for everything else, including the pre-contraceptive gradient that the
+status-and-reproduction claim needs on the other side of its comparison.
 
 | Phenomenon and claim | Causal credibility | Rationale |
 |---|---|---|
-| Pre-modern, decoupling claim | Very low | No treatment exists in the period, so there is no variation to explain. The contraception-absent baseline is four studies pooling to a value indistinguishable from zero, and the best-rated of them is assigned to the pre-modern period by fertility regime rather than by date. |
+| Pre-modern, pre-contraceptive gradient | Very low | Four cross-sectional studies pool to −0.0585 (95 percent confidence interval −0.163 to +0.047). Two are negative, one is positive and under 0.03, and only von Rueden and Jaeggi's is both positive and large. Heterogeneity is 91.0 percent, von Rueden and Jaeggi is the only one of the four with a risk-of-bias rating, and that study is assigned to the period by fertility regime rather than by date. One large positive estimate is held out of the pool for want of a sample size. |
+| Pre-modern, decoupling claim | Very low | No treatment exists in the period, so there is no variation to explain. |
 | FDT, decoupling claim | Very low | The mistimed-evidence problem: no dated study observes fertility inside the 1870 to 1965 window, and the earliest window opens in 1979. The evidence base is empty in-window rather than merely weak. |
-| SDT, status-and-reproduction claim | Moderate | Eight studies, verified against source tables, and a sex reversal that survives verification. Held at Moderate and no higher because status endogeneity applies to every study, four of the five coded studies are Serious, three are uncoded, and heterogeneity exceeds 96 percent within sex. |
+| SDT, dissociation under contraception | Moderate | Eight studies, verified against source tables, and a sex reversal that survives verification. Held at Moderate and no higher because status endogeneity applies to every study, four of the five coded studies are Serious, three are uncoded, and heterogeneity exceeds 96 percent within sex. |
 | SDT, decoupling claim | Low | The preference channel: the evidence is formal models and one descriptive trend, and no study holds the desire for children fixed. Whatever the decoupling claim adds to the modern-contraception and family-preferences chapters rests on the missing contrast. |
 
 The pooled numbers and the window classifications behind these ratings are computed from the
@@ -565,9 +580,10 @@ extraction; the ratings themselves are this review's judgement.
 
 | Phenomenon and claim | Causal credibility | Demographic significance |
 |---|---|---|
-| Pre-modern | Very low | Insufficient for variation |
-| FDT | Very low | Not significant |
-| SDT, status-and-reproduction claim | Moderate | Real, but under two percent of fertility variance within sex and self-cancelling across sexes |
+| Pre-modern, pre-contraceptive gradient | Very low | No positive gradient established: four studies pooling to −0.06, 95 percent confidence interval −0.16 to +0.05 |
+| Pre-modern, decoupling claim | Very low | Insufficient for variation |
+| FDT, decoupling claim | Very low | Not significant |
+| SDT, dissociation under contraception | Moderate | Real, but under two percent of fertility variance within sex and self-cancelling across sexes |
 | SDT, decoupling claim | Low | Unidentified; no share assigned |
 
 ## 12. Open questions and recommended studies
@@ -617,7 +633,14 @@ Every table, rating, and count above is reproducible from the following files:
 - Demographic significance and verdicts: `source/analysis/b1_demographic_significance.py`,
   `output/tables/evolutionary-sex-drive-contraceptive-decoupling-{demographic-significance,grade-verdicts}.csv`
 
-Seven departures from the protocol affect this chapter:
+Eight departures from the protocol affect this chapter:
+
+- The pre-modern pre-contraceptive-gradient row is rated by this rewrite rather than by the
+  protocol's three-rater panel, because the row did not exist when the panel sat. The generated
+  verdicts table `output/tables/evolutionary-sex-drive-contraceptive-decoupling-grade-verdicts.csv`
+  still carries four rows against this chapter's five, and its pre-modern rationale describes the
+  superseded single-study cell, because `b1_demographic_significance.py` builds that row from an
+  effects file the re-pooled cell was never written into.
 
 - Of the 51 retrieved studies, 38 remain unextracted, and 25 of those already have effects recorded in
   the workflow file that never reached the analysis file. The chapter's pool of eight comes from an
@@ -772,10 +795,14 @@ contraception-absent while two other records of the same figure code it present,
 present. The Forbes-400 record codes a 1984 United States sample as contraception-absent, which is
 wrong even though nothing downstream turns on it, since the record is not poolable.]
 
-[Note to co-authors: two ratings were held rather than revisited. The Second Demographic Transition
-status-and-reproduction rating stays at Moderate because the cells it rests on did not move,
-although its evidence is now eight studies rather than five and three of the eight are uncoded for
-risk of bias. The distinctive-claim rating stays at Low, and adding the Pérusse pair does not lift
-it, since one small observational study cannot raise a rating without undercutting the standard the
-rest of the chapter applies. Both should go back to the rating panel with the re-pooled cell and the
-Volscho comment in front of it.]
+[Note to co-authors: two ratings were held rather than revisited and a third was newly assigned. The
+Second Demographic Transition dissociation rating stays at Moderate because the cells it rests on did
+not move, although its evidence is now eight studies rather than five and three of the eight are
+uncoded for risk of bias. The distinctive-claim rating stays at Low, and adding the Pérusse pair does
+not lift it, since one small observational study cannot raise a rating without undercutting the
+standard the rest of the chapter applies. The pre-modern pre-contraceptive-gradient row is new: the
+principal investigator's decision to rate the two halves of the status-and-reproduction claim
+separately created a row the panel never saw, and this rewrite set it at Very low on the re-pooled
+cell. All three should go to the rating panel with the re-pooled cell and the Volscho comment in
+front of it, and the panel's brief should say that the row exists because the claim is comparative
+and its two halves rest on different evidence.]
