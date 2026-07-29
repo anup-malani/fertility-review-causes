@@ -335,40 +335,40 @@ Fisher-z scale on which the pooling is done.
 ### 7c. The contraception-absent cell, and the attenuation contrast
 
 The attenuation the hypothesis predicts, a strong status gradient where contraception is absent and
-a weak one where it is present, does not survive this review's own evidence. The source of this chapter
+a weak one where it is present, does not survive this review's own evidence. This review previously
 reported the contraception-absent association as 0.19 against 0.07 where contraception is present,
 roughly two and a half times larger, on the strength of one study, von Rueden and Jaeggi's synthesis
 of thirty-three nonindustrial societies. Four contraception-absent studies now enter that cell, and
 they pool to **r = −0.0585 (95% confidence interval −0.163 to +0.047, four studies, I² = 91.0)**,
-which replaces the single-study Zr of 0.19. Three of the four point negative. The contraception-
-present cells do not move at all, because every added estimate comes from a population without
-contraception. Method, inputs, weights, and four alternative specifications are in
+which replaces the single-study Zr of 0.19. Two of the four are negative, one is positive and under
+0.03, and only von Rueden and Jaeggi's is both positive and large. The contraception-present cells
+do not move at all, because every added estimate comes from a population without contraception. Method, inputs, weights, and four alternative specifications are in
 `output/tables/evolutionary-sex-drive-contraceptive-decoupling-contraception-absent-pool.md`; every
 specification returns a negative point estimate.
 
 One large positive estimate is held out of the contraception-absent pool, and a reader should weigh
-the pooled number knowing it. Sorokowski et al. (2013) report the correlation between pigs owned and living children
-among the Yali of Papua New Guinea at +0.42 for men and +0.27 for women, the largest positive
-contraception-absent values in the corpus. They reach this project only through the Hopcroft (2018b)
+the pooled number knowing it. Sorokowski et al. (2013) report the correlation between pigs owned and
+living children among the Yali of Papua New Guinea at +0.42 for men and +0.27 for women, the largest
+positive contraception-absent values in the corpus. They reach this project only through the Hopcroft (2018b)
 review, which quotes them without a sample size, and a value with no sample size has no variance and
 so no weight. The negative pooled cell above is therefore computed without the estimate that points
 hardest the other way.
 
 The population confound is why a contrast between the contraception-absent and contraception-present
-cells would not settle the moderator in either direction. The contraception-absent estimates come from nonindustrial, historical, and
-natural-fertility populations, and the contraception-present estimates from modern administrative and
-survey samples, and the two groups differ in mortality, marriage systems, subsistence, and status
-measurement as well as in contraception. Retrieving more natural-fertility studies would buy
-precision on the left-hand number and would still leave a comparison of nonindustrial populations
-against modern ones. Identifying the moderator takes variation in contraceptive access within a
+cells would not settle the moderator in either direction. The contraception-absent estimates come
+from nonindustrial, historical, and natural-fertility populations, and the contraception-present
+estimates from modern administrative and survey samples, and the two groups differ in mortality,
+marriage systems, subsistence, and status measurement as well as in contraception. Retrieving more
+natural-fertility studies would buy precision on the contraception-absent estimate and would still
+leave a comparison of nonindustrial populations against modern ones. Identifying the moderator takes variation in contraceptive access within a
 population otherwise similar to itself, which no study in this evidence base provides.
 
 Every study in the contraception-present cell is a rich-country sample, so this review's
 best-populated finding describes wealthy contracepting populations and nothing else. The one large
 non-Western test of the same pattern, Zhang and Santtila (2022), is reported in Section 6b rather
-than pooled, on a metric technicality. The settings that would fix the
-pre-contraceptive baseline and the settings that would identify the decoupling effect are different
-places, which is part of why the distinctive claim stays open.
+than pooled, on a metric technicality. The settings that would fix the pre-contraceptive baseline and
+the settings that would identify the decoupling effect are different places, which is part of why the
+decoupling claim stays open.
 
 ### 7d. How to read the pooled numbers
 
@@ -388,8 +388,8 @@ movements are worth naming because one of them emptied the cell the chapter's ar
 The second-reader pass read every pooled effect back against its source table and removed Fieder and
 Huber (2007), which reports an analysis-of-variance F rather than a correlation, and the Hopcroft
 (2018b) review, which quotes the Yali correlations from Sorokowski et al. (2013) rather than
-estimating its own. The second removal left the contraception-absent cell holding one study, which
-the source chapter then reported as the whole of the contraception-absent evidence.
+estimating its own. The second removal left the contraception-absent cell holding one study, which this review then
+reported as the whole of the contraception-absent evidence.
 
 The re-pool added three contraception-absent studies whose estimates were extracted and never reached
 the analysis file: Lebuda et al. (2021), Josephson (1993), and Courtiol et al. (2012). Two of the
@@ -410,9 +410,9 @@ the work everywhere, and the differences across pre-modern populations came from
 systems, and subsistence.
 
 The pre-contraceptive baseline the theory needs, higher status bringing more children, is no longer
-established by this review's own contraception-absent evidence. Four contraception-absent studies pool to a value indistinguishable
-from zero, so the proposition that higher status still brought more children where contraception was
-absent now rests on von Rueden and Jaeggi against three studies that point the other way. The single
+established by this review's own contraception-absent evidence. Four such studies pool to a value
+indistinguishable from zero, so the proposition now rests on von Rueden and Jaeggi against two
+studies that point the other way and one that is positive and negligible. The single
 best-rated of the four is also assigned to this cell by fertility regime rather than by date: its
 constituent studies are twentieth-century fieldwork in populations that had not undergone the
 transition, not observations of pre-1870 populations, and the review's target-period table flags the
