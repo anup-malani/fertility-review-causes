@@ -921,6 +921,113 @@ language in the body.
 
 - `python3 -m unittest source/analysis/test_oas_meta_pipeline.py source/analysis/test_oas_transition_classification.py`
 - `git diff --check`
+
+---
+
+## [2026-07-15 09:44] — Meeting prep from RA emails + GitHub divergence sync
+
+**Agent:** primary
+**Machine:** MacBookPro
+**Working directory:** /Users/amalani/github/fertility/fertility-review-causes
+
+### Context
+
+Prep for the 2026-07-12 1:00pm CDT "fertility causes" meeting with Alexandra and Shravan,
+followed by a request to sync the local repo so the RA files were visible.
+
+### What happened
+
+- Reviewed last week's fertility emails across both Gmail accounts (personal + uchicago).
+  Identified three substantive threads:
+  - **Alexandra — "Chapter draft ready" (Jul 11):** first full hypothesis chapter (OAS/pension
+    crowd-out) pushed to GitHub. Pooled by outcome family: birth probability -0.006954 (SE 0.0020);
+    completed fertility -0.067672 births/woman (SE 0.027). Grandparental-childcare kept separate,
+    opposite-signed. This is the template chapter for the review.
+  - **Shravan — filter pipeline (Jul 9):** coarse+fine filter, running end-to-end; deliverable due
+    ~Jul 9-10. Also sent a Gahvari (2009) fertility-as-missing-markets theory paper (FYI).
+  - **Alexandra — "TFR Update" (Jul 12):** the *separate* Bongaarts/life-history decomposition paper
+    with Vivek Moorthy (FSU), not the review. Flagged so it is not confused with the review.
+- Verified v4 review "item #2" (open verification items) against Alexandra's pushed chapter:
+  **3 of 4 already resolved** — #16 Fenge & Scheubel (2017) placed correctly; #17 "Wati & Sudarto
+  2025" phantom absent; Cell C grandparental magnitudes extracted with scale-check shares
+  (Netherlands 30-273%, Australia 46-67% of observed SDT TFR decline; Germany not scaled).
+  **Only open item:** retrieve + integrate the **Ghana** paper (Zelu, Iranzo & Pérez-Laborda 2023,
+  IZA/BREAD G2LM|LIC). It is a Cell A (primary-mechanism), FDT-like case, so adding it can move the
+  headline pooled numbers. IZA conference PDF host returned 503 (still down since 2026-07-05).
+- **GitHub sync:** local `main` had diverged (ahead 2, behind 88). Backed up the 2 local-only commits
+  to branch `backup-local-main-2026-07-12`, stashed uncommitted handoff.md/session-log.md edits
+  (`stash@{0}`), then `git reset --hard origin/main`. Local main now mirrors origin; all RA files
+  present (chapter 42KB + 10 OAS tables + 179 files across output/extraction/prisma/literature).
+  88 new commits = 50 Alexandra, 35 Shravan, 3 Anup.
+
+### Outputs
+
+- No new repo artifacts authored. Repo brought in sync with origin/main (read + reset only).
+- Backup branch `backup-local-main-2026-07-12` and `stash@{0}` preserve the pre-sync local state.
+
+### Open items
+
+- Retrieve the Ghana paper (Zelu, Iranzo & Pérez-Laborda 2023) — IZA host still 503; try an alternate
+  copy (Scholar / authors' pages / IZA DP number), extract to schema, place in Cell A (FDT), and check
+  whether it shifts the pooled birth-probability / completed-fertility estimates.
+- Confirm the new coarse->fine filter re-surfaces Ghana; assign retrieval + extraction to an RA.
+- Decide the shared writing style guide (held "3" email) — RAs are writing chapters without it.
+- Adjacent v4 appendix items: confirm Cell A magnitudes + in-sample R2; replacement-level TFR at
+  treatment with the China one-child-policy caveat.
+- Housekeeping: worktree at ../fertility-review-causes-session (branch pi-review-session) still exists;
+  remove when no longer needed. Recover stash/backup branch only if the 2 superseded commits are wanted.
+
+---
+
+## [2026-07-15 10:37] — Ghana OAS paper retrieved, filed, and forwarded to RAs
+
+**Agent:** primary
+**Machine:** MacBookPro
+**Working directory:** /Users/amalani/github/fertility/fertility-review-causes
+
+### Context
+
+Follow-on to the 09:44 entry. Closes the one open piece of the v4 "item #2": retrieving and
+handing off the Ghana pension-fertility paper (screen study #15, UNRESOLVED / NO_WID, hold-out).
+
+### What happened
+
+- Gave the PI search-ready identifiers for the paper (Zelu, Iranzo & Perez-Laborda; URV ECO-SOS
+  WP 04-2022; IZA G2LM|LIC/BREAD 2023) plus a live alternate host after the IZA conference PDF
+  stayed 503. Web-verified author full names (Barbara Ama Zelu, Susana Iranzo, Alejandro
+  Perez-Laborda, Universitat Rovira i Virgili).
+- PI downloaded a first file that was the WRONG paper: verified via first-page extraction it was
+  "Financial inclusion and women economic empowerment in Ghana" (Emerging Markets Review 62 (2024)
+  101190) — same author team, decoy. Did NOT file or forward it.
+- PI downloaded the correct file; verified first page = "Pension Policy Reform and Fertility: Micro
+  Evidence from Ghana." Key content: 2008 Ghana pension reform (Act 766, impl. 2010), DiD on GLSS
+  data; extending pension eligibility to previously ineligible private-sector workers cut pregnancy
+  probability 6-11 pp (short run) with a negative long-run completed-fertility effect; stronger for
+  matrilineal-culture and Christian women; Cell A / FDT-like; comparators Namibia, Brazil, China.
+- Filed to literature/pdfs/zelu-iranzo-perez-laborda-2023-pension-policy-reform-fertility-ghana-working-paper.pdf
+  (folder is gitignored; PI local copy). sha256 fdf14f7ec7ad2d432f7693df47679a06bf18478d14563c0a70d76295ac2a5c08.
+- Drafted, got PI approval, and sent the handoff email from amalani@uchicago.edu to Alexandra,
+  CC Shravan, with the PDF attached (message ID 19f663544b821a30). Asked Alexandra to extract it
+  into the chapter as Cell A/FDT if not already present.
+
+### Outputs
+
+- literature/pdfs/zelu-...-ghana-working-paper.pdf (gitignored local copy).
+- Email 19f663544b821a30 to Alexandra + Shravan with the PDF.
+
+### Open items (carried forward)
+
+- Alexandra: extract the Ghana paper into the OAS chapter as a Cell A / FDT case; re-run the pooled
+  birth-probability summary (currently -0.0070) — the 6-11 pp estimate may shift it.
+- Shravan: flip screen/audit item #15 from HOLD OUT to resolved now that the PDF exists.
+- Decide the shared writing style guide (held email) — RAs drafting chapters without it.
+- Adjacent v4 items: Cell A magnitudes + in-sample R2; replacement-level TFR + China caveat.
+- Housekeeping: delete the wrong download ~/Downloads/1-s2.0-S1566014124000852-main.pdf; remove the
+  ../fertility-review-causes-session worktree when done; backup branch backup-local-main-2026-07-12
+  and stash@{0} recoverable if the 2 superseded commits are wanted.
+
+---
+
 # [2026-07-24] — Compulsory-education hypothesis split
 
 > Superseded in part later on 2026-07-24: the teenage-birth material was nested as a
@@ -1287,3 +1394,111 @@ All three raters independently returned identical judgments:
 - Updated both chapter drafts and handoff.
 
 ---
+
+
+---
+
+## [2026-07-26 → 07-29] — PI voice rewrites of four chapters; rewrite-chapter pipeline built
+
+**Agent:** primary (Opus 5, 1M context)
+**Machine:** MacBookPro
+**Working directory:** /Users/amalani/github/fertility/fertility-review-causes
+**Branch:** `pi-voice-rewrites` (pushed; 22+ commits ahead of main)
+
+### What this session was
+
+Started as "rewrite the RA chapters in my voice." Became a four-day rebuild of how chapters get
+written, after the first three attempts were rejected. Four chapters ended finished; a fifth was
+screened and found to be a pre-extraction skeleton.
+
+### Chapters, final state
+
+| Slug | Latest | Words | Note |
+|---|---|---|---|
+| `tempo-effects-birth-postponement-compulsory-schooling` | `-pi-v5-memo.md` | 4,947 | Retitled *Compulsory Schooling and the Fertility of the Female Student*; two findings, six verdict rows |
+| `compulsory-education-child-economic-value` | `-pi-v6-memo.md` | 4,479 | GRADE referral discharged; Low confirmed by second panel |
+| `old-age-security-pension-crowdout` | `-pi-v4-memo.md` | 5,898 | Panel run; restricted pools; no pooled completed-fertility number |
+| `evolutionary-sex-drive-contraceptive-decoupling` | `-pi-v5-memo.md` | 5,689 | Contraception-absent pool reversed; referent discipline fixed |
+| `climate-anxiety-eco-doomerism` | source only | — | Screened, not drafted. Structural skeleton, no extraction |
+
+Every intermediate version is on disk as `-pi-v<N>.md`, with PI-annotated stages marked `-AM`.
+
+### Four rounds of rejection, and what each taught
+
+1. **academic-econ register, rejected.** `/write-as` routes on artifact form, so "systematic review
+   chapter" resolved to `academic-econ`. But `CLAUDE.md` names a living web resource and PROTOCOL
+   §5 stage 13 sets the bar at "a smart undergrad." Both facts were in the repo; neither reaches the
+   router. The Mode then produced the defects by design: "coin and reuse a technical label" gave an
+   opaque coinage, "theory before empirics" gave a taxonomy dumped on the reader.
+2. **Over-corrected to lay reader, rejected.** Explained standard errors and meta-analytic pooling to
+   an economics undergraduate. Audience recalibrated: she knows statistics, does not know the
+   economics of fertility. Also: accessible is not verbose.
+3. **Topic sentences, rejected.** "The first link holds." / "Three things limit the 8%." Standard
+   tightened to: each topic sentence stands alone without relying on other topic sentences.
+4. **Referent discipline, rejected.** B.1 carried 13 bare "the hypothesis", 19 "stream", 21 bare
+   section codes, 15 bare "the severing". Eleven of twelve PI comments were that one defect.
+
+### Substantive findings, not writing findings
+
+- **B.1's central pattern reversed.** The chapter reported the status-fertility association as +0.19
+  where contraception is absent against +0.07 where present. The +0.19 rested on one study. Four
+  further estimates already in `…-effects-workflow.json` were pooled under the project's own
+  DerSimonian-Laird method: **r = −0.0585 (95% CI −0.163 to +0.047)**. Four sensitivity
+  specifications all return negative. Sorokowski et al. (2013), +0.42 men / +0.27 women among the
+  Yali, is held out for want of a sample size and is the largest positive value in the corpus.
+- **B.15's grandparent verdict downgraded** by a three-rater panel, from moderate/partial to
+  low_to_moderate/insufficient. Its magnitude support is a screening heuristic the project's own file
+  says is "not exact decomposition shares", with computed shares reaching 273%.
+- **B.15's restricted completed-fertility pool** is 2.65× the published one (−0.179 vs −0.0677),
+  because Italy held 88.3% of the weight at −0.0529 and Italy is the setting the hypothesis says the
+  mechanism does not fit. Reported narratively, no pooled number, because k=2 is below PROTOCOL §5
+  stage 9's threshold.
+- **B.4's cross-reference was false.** It told readers six own-schooling studies were assessed in the
+  tempo chapter; four appeared there zero times. Kan and Lee (the corpus's second LOW-risk null) and
+  Chen and Guo (the only estimate cutting against A.10's conclusion) were in no chapter at all. Fixed
+  by A.10's reframe. This is what PROTOCOL §5 stage 15 exists to catch and stage 15 has never run.
+- **D.3.b may be refuted by a paper in its own screen.** Bisi, Sturm and Van Bavel (2024) randomize
+  climate dread and, per the screen record, move fertility **desire** — the thing D.3.b needs held
+  fixed. `desire_for_children_held_fixed: no`. Nobody has read it.
+
+### Process built
+
+- **`.claude/skills/rewrite-chapter/`** — four phases: screen (claim ledger, number ledger, outline,
+  questions), PI answers, draft from approved outline, verify. Carries all settled decisions.
+- **PROTOCOL §6** gains Empirical strategy as the new §3; sections renumber; verdict entry allows a
+  finding dimension.
+- **PROTOCOL §6.1** gains chapter writing conventions: formulaic opening, hypothesis tag, "By X, I
+  mean" definitions, cross-references in English, mechanisms not metaphors, referent audit.
+- **Two GRADE panels run** (B.15 fresh, B.4 re-rate), rater-level scores committed.
+- **Nine voice tickets filed** to `assistants/voice/tickets/inbox/`.
+
+### Errors worth remembering
+
+- **I briefed a GRADE panel on a false fact.** Told three raters the grandparent studies "did not
+  come through the search." The record shows they did, ranked 8/10/19, and were excluded for a correct
+  reason under a one-channel scope then reinstated when the chapter became two-channel. Two raters
+  downgraded partly on my error. Round quarantined under `output/tables/superseded/`.
+- **I never invoked `/write-as`** for any of the four memo chapters. I paraphrased it into a prompt
+  bullet. The skill's mechanism is holding CORE exemplars in context verbatim; a file path among
+  twenty constraints gets skimmed. Fixed by pasting exemplars into the prompt as literal text.
+- **I carried "the contraception-absent side rests on a single study" as a fidelity requirement**
+  across four drafts without checking it. It was false.
+- **I invented a category error** in the Empirical Strategy section, calling the wrong-generation
+  problem a fourth consequence of the identification strategy when it holds regardless. It passed
+  three drafts and two PI reads.
+- **My gates were all mechanical.** Numbers, overlap, em-dash, grep nets. Every real defect was found
+  by a human read or an ad-hoc measurement. A screen cannot catch an error made upstream of it.
+
+### Open items
+
+- **B.1 bottom line:** box says the status-and-reproduction claim "is well supported"; chapter also
+  says the positive baseline is not established. PI deciding.
+- **Referent audit on B.4 (12 bare "the hypothesis") and B.15 (2).** Never run by reading.
+- **D.3.b:** eight questions await PI answers; Bisi retrieval is the highest-value action.
+- **RAs owe replies** on the 10% threshold, PDF storage location, and naming convention.
+- **PROTOCOL §4.2** still defines significance by the 10% threshold; all four chapters report shares
+  plainly. They disagree until the RAs weigh in.
+- **25 PDFs absent from this working tree** (`literature/pdfs/` gitignored). Blocked three answered
+  questions: A.10 Q5 standard errors, B.15 Q4 Hirazawa and Yakita, part of B.1 Q1.
+- **Lessons ledger** for the voice system: not assembled.
+- **`session-log.md`** has uncommitted local edits carried through a stash-pop conflict resolution.
