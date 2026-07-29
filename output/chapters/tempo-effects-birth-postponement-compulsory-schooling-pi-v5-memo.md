@@ -1,16 +1,16 @@
 # Compulsory Schooling and the Fertility of the Female Student
 
 > **Bottom line.** The hypothesis holds that a law keeping a girl in school longer changes her own
-> fertility. It changes two things, and a reader should not run them together.
+> fertility. The law changes two things, and a reader should not run them together.
 >
 > **Finding A, when she gives birth.** Ten quasi-experiments on school-leaving reforms across nine
 > countries find that a reform delays her first birth for as long as it binds. Causal credibility is
 > **Moderate**.
 >
 > **Finding B, how many children she has in total.** Six quasi-experiments across five settings
-> follow her to the end of childbearing. Both of the two designs rated LOW risk of bias find no
-> effect at all. Causal credibility is **Moderate**, provisionally, because the review's rating panel
-> scored the timing claim and has not yet scored this one.
+> follow her to the end of childbearing. Both designs rated LOW risk of bias find no effect. Causal
+> credibility is **Moderate**, provisionally, because the review's rating panel scored the timing
+> claim and has not yet scored this one.
 >
 > **Which finding matters more.** A change in timing lowers period fertility for a few years and
 > leaves the number of children a woman ends up with untouched. A change in completed fertility is
@@ -42,24 +42,27 @@ of that girl. A school-leaving reform raises the age below which she must stay e
 that her own extra schooling then shows up in her own childbearing.
 
 This hypothesis and the child-economic-value hypothesis divide on whose schooling does the work.
-That one turns on the children: schooling stops a child working, each child is worth less to its
-parents, and the parents have fewer children. Here the schooling belongs to the girl herself, and the
-question is how an extra year or two of it changes the family she goes on to have.
+That hypothesis turns on the children: schooling stops a child working, each child is worth less to
+its parents, and the parents have fewer children. Here the schooling belongs to the girl herself, and
+the question is how an extra year or two of it changes the family she goes on to have.
 
 The chapter asks two questions of the same law, and their answers are not interchangeable. The first
 asks when she gives birth. The second asks how many children she has once her childbearing is over.
 
 A change in timing is temporary and a change in completed fertility is permanent, which is why the
-second question carries most of the weight for explaining why fertility fell. Suppose a reform blocks
-the births that would have happened at 16 and 17, and those births instead happen at 20 and 21. The
+question about completed fertility carries most of the weight for explaining why fertility fell.
+Suppose a reform blocks the births that would have happened at 16 and 17, and those births instead
+happen at 20 and 21. The
 annual number of births per woman falls for a few years and then recovers, and the number of children
 each woman ends up with never moves. A decline built entirely out of postponement reverses itself. A
 decline built out of smaller completed families does not.
 
 ## 2. Theoretical mechanism
 
-Three channels can run from a schooling mandate to a woman's fertility, and they separate on a single
-fact: whether the channel stops working once she ages out of the years the reform newly covers.
+A schooling mandate can change a woman's fertility through three channels: keeping her in a
+classroom, pushing back her marriage, and changing what she knows and what she can earn. Only the
+last of the three keeps working after she ages out of the years a reform newly covers, and that
+difference in timing is the one thing that lets evidence tell the channels apart.
 
 **Incapacitation** operates only while the mandate binds, because it works through where the girl
 spends her days. A girl in a classroom is under adult supervision, among a different set of peers,
@@ -76,8 +79,8 @@ produce the same fall in teenage births, and only one of them is still working a
 years of education alter what she knows about contraception, whom she partners with, what she can
 earn, and how much say she has at home. None of those reverts when she leaves school.
 
-Only the third channel could plausibly change how many children she has, because the first two
-rearrange births across ages without removing any. A girl kept out of a conception at 16 by
+Only the change school makes in the woman herself could plausibly change how many children she has,
+because incapacitation and delayed marriage rearrange births across ages without removing any. A girl kept out of a conception at 16 by
 supervision, or married at 22 instead of 18, still has the same childbearing years ahead of her. That
 is the caution the rest of the chapter carries: a delayed birth is not a prevented birth, and
 distinguishing the two takes a study that follows her long enough to see.
@@ -93,9 +96,10 @@ A **school-leaving reform** raises the age below which a girl must remain enroll
 number of compulsory years. Every study in this chapter uses one. None uses a child-labor law, which
 is the instrument the child-economic-value chapter turns on.
 
-**A year of schooling the reform bought** is the second treatment. Some studies report the effect of
-the reform itself. Others divide that effect by the schooling the reform actually produced and report
-the effect of one more year of school. The two differ by whatever fraction of a year the reform
+**A year of schooling the reform bought** is a different treatment from the reform itself, and
+several studies rescale their estimates into those units. Some studies report the effect of the
+reform. Others divide that effect by the schooling the reform actually produced and report the effect
+of one more year of school. The two differ by whatever fraction of a year the reform
 bought, so a per-reform estimate and a per-year estimate cannot be read against each other.
 
 The reforms in this corpus bought a fraction of a year of schooling where the first stage was
@@ -138,10 +142,11 @@ chapter test different links in it:
 parent ──(1)──▶ female student ──(2)──▶ her own children
 ```
 
-The child-economic-value chapter tests arrow (1), from the parent to the female student: a law binds
-the student, and the outcome is how many children her parents had, which is her sibship size. This
-chapter tests arrow (2): the same law gives the student more schooling, and the outcome is when and
-how many children she herself had. A design that changes the student's own schooling and counts her
+The child-economic-value chapter tests the link from the parent to the female student, and this
+chapter tests the link from the female student to her own children. In arrow (1), a law binds the
+student and the outcome is how many children her parents had, which is her sibship size. In arrow
+(2), the same law gives the student more schooling and the outcome is when and how many children she
+herself had. A design that changes the student's own schooling and counts her
 own children is disqualified there and required here. The two chapters share one literature and
 divide it by whose fertility each estimate describes, which is why every study that chapter sets
 aside is evidence in this one.
@@ -149,10 +154,10 @@ aside is evidence in this one.
 ### 3.4 The practical design and what it costs
 
 Nobody randomizes a girl's schooling, so the literature substitutes school-leaving reforms, comparing
-girls born on either side of a cutoff date or cohorts a reform bound against cohorts it did not.
-Two limitations follow from that substitution, and three more would survive even the ideal experiment.
+girls born on either side of a cutoff date or cohorts a reform bound against cohorts it did not. Five
+limitations run through the rest of the chapter, and each is named here and used by name later.
 
-**Two limitations follow from the substitution.**
+**Two limitations follow from using legislated reforms in place of random assignment.**
 
 1. **Adoption endogeneity.** Where the treatment is a state or provincial law rather than one
    national reform, legislatures chose when to act, and a jurisdiction that legislated may differ
@@ -165,13 +170,13 @@ Two limitations follow from that substitution, and three more would survive even
    spends her adolescence among. The exclusion restriction drives the ratings for Silles and
    Bhattacharjee in Section 6 and reappears in Section 9.
 
-**Three limitations hold regardless of how treatment is assigned.**
+**Three further limitations would survive even the ideal experiment, because none of them turns on
+how treatment was assigned.**
 
 3. **Channel indistinguishability.** A year of school switches all three channels on at once, however
-   that year is assigned, so a randomized experiment would leave this problem exactly where it is. One
-   design escapes it in part: comparing conceptions during school terms against conceptions during
-   holidays isolates incapacitation, because only that channel switches off in August. Section 7.3
-   turns on the designs that escape.
+   that year is assigned, so randomizing the year would not separate them. One design escapes in
+   part: comparing conceptions during school terms against conceptions during holidays isolates
+   incapacitation, because only that channel switches off in August. Section 7.3 uses that contrast.
 4. **The follow-up problem.** The two findings rest on largely separate sets of studies, because most
    studies stop counting at one end or the other. Eight of the ten timing studies never observe
    completed fertility, and four of the six completed-fertility studies never observe teenage timing.
@@ -193,11 +198,11 @@ reconsidered the exceptions that screen set aside; and a strict test asked of ea
 studied an actual schooling law and reported a fertility outcome.
 
 The search kept ten papers on the timing of the student's births, and all ten were retrieved and
-extracted. Six further papers follow the student to the end of her childbearing and count the children
-she had. Five of those six were kept in the other branch of the shared search, and Cummins (2025) was
-routed here afterwards by mechanism. Under the older framing of this chapter, as a claim about timing
-alone, those six were context. Under the question the chapter now asks, they are the evidence for
-Finding B.
+extracted. Six papers follow the student to the end of her childbearing and count the children she
+had. Two of those six are also in the timing set, three were kept for the child-economic-value
+chapter, and Cummins (2025) was routed here afterwards by mechanism. Under the older framing of this
+chapter, as a claim about timing alone, three of the six appeared nowhere in it and a fourth entered
+only as context. Under the question the chapter now asks, all six are evidence for Finding B.
 
 ## 5. PRISMA flow
 
@@ -234,30 +239,32 @@ of the mid-twentieth century to India's Right to Education Act of 2010.
 
 | Study | Setting and reform | Effect on her schooling | Effect on the timing of her births | How long the effect lasted | Risk of bias |
 |---|---|---|---|---|---|
-| Black, Devereux, and Salvanes (2004) | United States state minimum dropout ages; Norway, minimum dropout age 14 to 16 | Attainment rises at covered dropout ages; coefficient not extracted | Teen births fall 0.008 at a dropout age of 16 and 0.015 at 17, being 4.7% and 8.8% of the mean; Norway falls 0.006, about 3.5% | Effects concentrate at covered ages | SERIOUS |
+| Black, Devereux, and Salvanes (2004) | United States state minimum dropout ages; Norway, minimum dropout age 14 to 16 | Attainment rises at covered dropout ages; coefficient not extracted | Teen births fall 0.008 at a dropout age of 16 and 0.015 at 17, which are 4.7% and 8.8% of the mean; Norway falls 0.006, about 3.5% | Effects concentrate at covered ages | SERIOUS |
 | Silles (2011) | Great Britain and Northern Ireland; minimum leaving age 14 to 15 and 15 to 16 | +0.47 years before contraception was widely available, +0.25 years after | Per year of schooling, birth by 17 falls 0.010 (SE 0.003), birth by 19 falls 0.037 (SE 0.015), birth by 20 falls 0.040 (SE 0.016) | Teenage thresholds only | MODERATE |
 | Wilson (2017) | United Kingdom; minimum school-leaving age raised by one year, 1972 | School participation falls about 30 pp at the cutoff | Mother at 16 falls 0.0040 (SE 0.0022), mother at 18 falls 0.0081 (SE 0.0034), mother by 20 falls 0.0088 (SE 0.0053) | Non-monotonic across the teens, positive at 19, gone after 20 | MODERATE |
 | Kırdar, Dayıoğlu, and Koç (2018) | Turkey; compulsory schooling 5 to 8 years, 1997 | Large enrollment rise at targeted ages; coefficient not extracted | Marriage by 16 falls 44%; first birth by 17 falls 36% | Effects disappear after 17 for marriage and 18 for first birth in the published version | MODERATE |
-| Geruso and Royer (2018) | United Kingdom; minimum school-leaving age 15 to 16, 1972 | +0.31 years | Fertility at 17 falls 0.0031 to 0.0034, being 3.1 to 3.4 births per 1,000 | No effects at 18 to 19; essentially zero beyond the teen years | LOW |
+| Geruso and Royer (2018) | United Kingdom; minimum school-leaving age 15 to 16, 1972 | +0.31 years | Fertility at 17 falls 0.0031 to 0.0034, which is 3.1 to 3.4 births per 1,000 | No effects at 18 to 19; essentially zero beyond the teen years | LOW |
 | DeCicca and Krashinsky (2019) | Canada; changes in provincial minimum school-leaving ages | Attainment rises about 6 to 7 pp on the attendance margin | Per year of schooling, birth by 17 falls about 0.02 and birth by 18 about 0.03 | Gone after ages 17 to 18 | MODERATE |
 | Adamecz-Völgyi and Scharle (2020) | Hungary, Roma women; compulsory school-leaving age raised | Enrollment-rule compliance about 78 to 80% | Teenage motherhood falls 13.4% to 26.0%; motherhood delayed about two years | Pregnancy falls during school terms and not during summer or Christmas breaks | MODERATE |
 | Arendt, Christensen, and Hjorth-Trolle (2021) | Denmark; compulsory schooling 7 to 9 years, 1972 | Preferred first-stage F about 118 | Age at first birth rises about 0.5 years | Marginally significant; no effect on the number of children by 39 | MODERATE |
 | Chaijaroen and Panda (2023) | Thailand; compulsory education 6 to 9 years | Lower-secondary completion +7.6 to +8.9 pp | Ever birth falls 0.04 to 0.05 at ages 14 to 15 and stays lower through 17 | Fertility rises after the school years and is significantly higher at 20; catch-up around 20 to 21 | MODERATE |
-| Bhattacharjee (2025) | India; 2010 Right to Education Act, compulsory primary education ages 6 to 14 | +0.645 years; first-stage F above 10 | Sexual activity by 18 falls 7.2 pp; marriage by 21 falls 3.9 pp; first birth by 21 falls 0.026 | Effect becomes more negative in the early twenties rather than fading | SERIOUS |
+| Bhattacharjee (2025) | India; 2010 Right to Education Act, compulsory primary education ages 6 to 14 | +0.645 years; first-stage F above 10 | Sexual activity by 18 falls 7.2 pp; marriage by 21 falls 3.9 pp; first birth by 21 falls 2.6 pp (0.026) | Effect becomes more negative in the early twenties rather than fading | SERIOUS |
 
 The risk-of-bias column records this review's judgment of how far a study's design could push its
 estimate away from the truth, on a four-level scale running LOW, MODERATE, SERIOUS, and CRITICAL.
 
-The ratings across the ten run against the chapter's own emphasis, because the tightest design gives
-the narrowest result and the two most expansive claims come from the two weakest designs. One study is
+The risk-of-bias ratings across the ten timing studies run against the chapter's own emphasis,
+because the tightest design gives the narrowest result and the two most expansive claims come from
+the two weakest designs. One study is
 rated LOW, seven MODERATE, and two SERIOUS. The single LOW-rated study, Geruso and Royer (2018), finds
 an effect confined to age 17, nothing at 18 or 19, and a precise zero on the number of children by 45.
 The two SERIOUS-rated studies are Black and coauthors (2004), who report the largest proportional
 effects anywhere in the corpus, and Bhattacharjee (2025), who supplies the whole case in Section 7.3
 that the effect outlasts school through what education did to the woman herself. Replication across
-nine countries still holds, and it is worth knowing what the replication is replicating.
+nine countries still holds, and the rating pattern qualifies what the replication shows.
 
-Six studies follow the student to the end of her childbearing and count the children she had.
+Six studies follow the student to the end of her childbearing, in Britain, Taiwan, Denmark,
+Continental Europe, and China.
 
 **Table 2. The six studies of how many children she has.**
 
@@ -288,20 +295,21 @@ The study is rated SERIOUS and carries the same one-child-policy flag.
 
 ### 7.1 Why the estimates are not averaged
 
-The seventeen estimates in the timing corpus are not averaged, because they answer different
-questions: some give the effect of a reform and some the effect of a year of school, at different
-ages, on whether a birth had happened by then or on how old the mother was when it did. An average of
-those would be an average of nothing. Five of the seventeen are scaled per year of schooling, and they
-come from two studies, DeCicca and Krashinsky and Silles; the other twelve are per-reform reduced
-forms. Geruso and Royer report in both metrics, a per-reform estimate in the effect file and a
-per-schooling-year scaling in the narrative record.
+This chapter does not average the seventeen estimates in the timing corpus, because they answer
+different questions: some give the effect of a reform and some the effect of a year of school, at
+different ages, on whether a birth had happened by then or on how old the mother was when it did. An
+average of those would be an average of nothing. Five of the seventeen are scaled per year of
+schooling, and they come from two studies, DeCicca and Krashinsky and Silles; the other twelve are
+per-reform reduced forms. Geruso and Royer report in both metrics, a per-reform estimate in the
+effect file and a per-schooling-year scaling in the narrative record.
 
-The pooling audit reaches the same place from the arithmetic. It sorts the seventeen estimates into
-four outcome groups: age at first birth (1 estimate, 1 study), age-specific birth probability (6
-estimates, 3 studies), cumulative first-birth probability (7 estimates, 5 studies), and cumulative
-teen motherhood (3 estimates, 3 studies). Only the last group has three separate studies behind it,
-and only two of its three estimates carry a standard error. Six of the seventeen estimates carry a
-standard error at all, and those six come from two studies, Wilson and Silles.
+The pooling audit blocks an average for a second reason, which is that no outcome group holds enough
+comparable estimates to average. It sorts the seventeen estimates into four outcome groups: age at
+first birth (1 estimate, 1 study), age-specific birth probability (6 estimates, 3 studies),
+cumulative first-birth probability (7 estimates, 5 studies), and cumulative teen motherhood (3
+estimates, 3 studies). Only the last group has three separate studies behind it, and only two of its
+three estimates carry a standard error. Six of the seventeen estimates carry a standard error at all,
+and those six come from two studies, Wilson and Silles.
 
 ### 7.2 Finding A: when she gives birth
 
@@ -314,20 +322,22 @@ positive effect at 19. Chaijaroen and Panda (2023) find fertility in Thailand ri
 years and significantly higher at 20. Bhattacharjee (2025) is the exception, with an effect that
 becomes more negative in the early twenties.
 
-The one estimate in the corpus a reader can weigh in proportional terms comes from the study rated
-LOW. Geruso and Royer's fall in fertility at 17 is about 8% of the teenage birth rate, and scaling it
-by the first stage implies a decline of about 26% per year of schooling. Black and coauthors' three
-estimates are 4.7% and 8.8% of the mean at American dropout ages of 16 and 17, which are two separate
-contrasts rather than the ends of a confidence interval, and about 3.5% in Norway. Turkey's reform
-cuts marriage by 16 by 44% and first birth by 17 by 36%, and Hungary's cuts teenage motherhood by
-13.4% to 26.0% and delays motherhood by about two years. No baseline was extracted for Wilson, Silles,
-DeCicca and Krashinsky, Arendt, Chaijaroen and Panda, or Bhattacharjee, so their percentage-point
-effects cannot be made proportional without returning to the papers.
+Four of the ten timing studies report an effect a reader can weigh against the birth rate it started
+from, and the study rated LOW gives the most useful one. Geruso and Royer's fall in fertility at 17
+is about 8% of the teenage birth rate, and scaling it by the first stage implies a decline of about
+26% per year of schooling. Black and coauthors report two separate American contrasts rather than the
+ends of one interval: teen births fall 4.7% of the mean at a dropout age of 16 and 8.8% at 17, and
+about 3.5% in Norway. Turkey's reform cuts marriage by 16 by 44% and first birth by 17 by 36%, and
+Hungary's cuts teenage motherhood by 13.4% to 26.0% and delays motherhood by about two years. For the
+other six studies no baseline was extracted, so the percentage-point effects reported by Wilson,
+Silles, DeCicca and Krashinsky, Arendt, Chaijaroen and Panda, and Bhattacharjee cannot be made
+proportional without returning to the papers.
 
 ### 7.3 Which channel produces the delay
 
-No single channel carries the literature, and which one operates depends on the setting. Three facts
-establish that, and each reads the shape of an effect to infer what produced it.
+No single channel carries the literature, and which one operates depends on the setting. Three findings
+stand behind that conclusion, one for each channel, and each of them reads the shape of an effect to
+infer what produced it.
 
 Incapacitation has its cleanest support in Hungary, where pregnancies fall during school terms and
 hold steady over the summer and Christmas breaks (Adamecz-Völgyi and Scharle 2020). Only a channel
@@ -354,8 +364,8 @@ English reforms.
 
 The two studies that report a fall in completed fertility are the two rated SERIOUS. Chen and Guo
 (2022) report that an additional year of female schooling lowers total live births by 0.238 (SE
-0.059), which is the one estimate in the corpus that cuts against the rest, and their Chinese women
-were bearing children under a binding one-child policy. Fort, Schneeweis, and Winter-Ebmer (2016)
+0.059), the only quantified estimate in the corpus that cuts against the rest, and their Chinese
+women were bearing children under a binding one-child policy. Fort, Schneeweis, and Winter-Ebmer (2016)
 report a negative effect in England and nothing on the Continent, where the reforms neither reduce
 biological children nor raise childlessness. Both estimates stand against better-identified work in
 their own settings.
@@ -365,11 +375,12 @@ after the school years and is significantly higher at 20, with catch-up around a
 (Chaijaroen and Panda 2023). Wilson's effect in Britain turns positive at 19 before dissipating after
 20.
 
-The follow-up problem sets the limit on all of this. Eight of the ten timing studies never observe
-completed fertility at all: the record says "not reported" or "not observed" for Black and coauthors,
-Silles, Wilson (whose sample stops at 30), Kırdar and coauthors, DeCicca and Krashinsky,
-Adamecz-Völgyi and Scharle, Chaijaroen and Panda, and Bhattacharjee. Their silence is silence, not
-reassurance, and Finding B rests on the six studies in Table 2 rather than on the ten in Table 1.
+The follow-up problem sets the limit on Finding B, because most of the timing studies stop counting
+long before childbearing ends. Eight of the ten timing studies never observe completed fertility: the
+record says "not reported" or "not observed" for Black and coauthors, Silles, Wilson (whose sample
+stops at 30), Kırdar and coauthors, DeCicca and Krashinsky, Adamecz-Völgyi and Scharle, Chaijaroen
+and Panda, and Bhattacharjee. Those eight are silent rather than reassuring, and Finding B therefore
+rests on the six studies in Table 2 rather than on the ten in Table 1.
 
 ## 8. Demographic significance
 
@@ -386,8 +397,8 @@ sit below it, and as a crossing when fertility passes from one side to the other
 Turkey passed its reform in 1997 and India in 2010, both long after the FDT's conventional close, and
 both countries were well above replacement at the time.
 
-Running that rule against United Nations fertility estimates places nine of this chapter's settings
-and leaves six unplaced.
+Applying the replacement rule to United Nations fertility estimates places nine of the chapter's
+fifteen studies and leaves six unplaced.
 
 | Setting and reform | Study | Window | TFR at start | TFR at end | Regime |
 |---|---|---|---:|---:|---|
@@ -401,19 +412,18 @@ and leaves six unplaced.
 | China, 1986 | Chen and Guo | 1986 to 2010 | 2.72 | 1.69 | crossing, policy flag |
 | England, 1936 to 1975 | Fort and coauthors | 1950 to 2005 | 2.24 | 1.76 | crossing |
 
-Exactly one setting stayed above replacement for its whole window and exactly one stayed below,
-which is the most useful thing the classification produces. Turkey is the only setting in the corpus
-observed entirely inside an FDT-like fertility regime, and Denmark the only one observed entirely
-inside an SDT-like one. Everything else crosses, so it bears on both transitions and settles neither
-on its own.
+Turkey is the only setting in this corpus observed entirely inside an FDT-like fertility regime, and
+Denmark the only one observed entirely inside an SDT-like one. Every other placed setting crosses
+replacement during its window, so it bears on both transitions and settles neither on its own.
 
-Six settings could not be placed, because the project's extraction never recorded a reform date for
-them: Black and coauthors on American state laws and the Norwegian reform, Silles on Britain and
-Northern Ireland, DeCicca and Krashinsky on Canadian provinces, Adamecz-Völgyi and Scharle on
-Hungary, Chaijaroen and Panda on Thailand, and Lei and coauthors on the survey year behind their
-Chinese sample. Silles studies the same two British leaving-age changes that Cummins dates to 1947
-and 1972, so her setting is very likely the same crossing, and the classification takes its dates from
-the record rather than from inference.
+Six studies could not be placed in either transition, because the extraction never recorded a reform
+date for them: Black
+and coauthors on American state laws and the Norwegian reform, Silles on Britain and Northern
+Ireland, DeCicca and Krashinsky on Canadian provinces, Adamecz-Völgyi and Scharle on Hungary,
+Chaijaroen and Panda on Thailand, and Lei and coauthors on the survey year behind their Chinese
+sample. Silles studies the same two British leaving-age changes that Cummins dates to 1947 and 1972,
+which points to the same crossing, and the classification still takes its dates from the record
+rather than from inference.
 
 ### 8.2 Pre-modern
 
@@ -441,8 +451,8 @@ would be the finding that mattered for the FDT, and the best-identified estimate
 
 ### 8.4 SDT
 
-The SDT runs into the same scaling problem, on a largely overlapping set of settings. Finding A has
-Denmark, which sat below replacement throughout, plus the crossings in Britain and India. Finding B
+The SDT runs into the scaling problem too, on a largely overlapping set of settings. Finding A has Denmark, which sat below replacement throughout, plus the crossings in
+Britain and India. Finding B
 has Denmark plus the crossings in Britain, Taiwan, and China. Most of the corpus's reforms postdate
 1965 on the calendar, including Britain in 1972, Denmark in 1972, Turkey in 1997, and India in 2010,
 and the calendar is not the test: Turkey and India were both well above replacement when they
@@ -456,15 +466,16 @@ Three raters scored the timing claim independently and all three returned **Mode
 were the same: quasi-experiments across the United Kingdom, North America, Turkey, Hungary, Thailand,
 India, and Denmark converge on a delay in early births, while heterogeneous ages and treatment scales,
 residual bias in some designs, and later catch-up hold the rating below High. This review sets
-replication across two or more settings as the boundary between Low and Moderate, and nine countries
-clears it easily. Adoption endogeneity and the exclusion restriction remain live in several designs,
+replication across two or more settings as the boundary between Low and Moderate, and the timing
+corpus covers nine countries. Adoption endogeneity and the exclusion restriction remain live in
+several designs,
 and the risk-of-bias pattern in Section 6 qualifies what the replication shows without overturning the
 rating.
 
 **Finding B has no panel rating, and this chapter reads the evidence as Moderate pending one.** Six
 quasi-experiments in five settings return a consistent near-zero effect on the number of children the
-student had, including both of the corpus's LOW-rated designs. That clears the two-setting boundary
-comfortably, so Low is too harsh. High is too generous, because two designs disagree, and because the
+student had, including both of the corpus's LOW-rated designs. Five settings clear the two-setting
+boundary, so Low is too harsh. High is too generous, because two designs disagree, and because the
 disagreement is unresolved rather than explained: both dissenting designs are rated SERIOUS, one of
 them observes fertility under a binding one-child policy, and each contradicts better-identified work
 in its own setting. Section 3.4's follow-up problem is the other reason to stop short of High, since
@@ -498,8 +509,9 @@ dip in the birth rate more readily than it explains a fertility decline.
 The scaling problem would be retired by putting every reform onto age-specific fertility rates and
 weighting each by the share of women it actually bound. That analysis converts "insufficient data"
 into a share, and it can be specified from published estimates without collecting anything new. It
-also avoids the error the chapter is currently forced to avoid by silence, which is treating an effect
-estimated per year of schooling as the effect of a policy on a population.
+also keeps the arithmetic honest, because an effect estimated per year of schooling is not the effect
+of a policy on a population, and the chapter currently avoids that confusion only by computing no
+share at all.
 
 The follow-up problem would be retired by a single study reporting conception, marriage, first birth,
 catch-up, and completed fertility for one set of cohorts rather than for several. Two of the fifteen
@@ -507,13 +519,14 @@ studies here answer both of the chapter's questions, and the rest answer one and
 inference across papers with different samples, different reforms, and different countries.
 
 Channel indistinguishability would be narrowed, though not retired, by more contrasts between term
-time and holidays and by fertility measured in administrative birth records. Hungary supplies the only
-term-versus-holiday contrast in the corpus, and it is the single cleanest piece of causal evidence
-here.
+time and holidays and by fertility measured in administrative birth records. Hungary supplies the
+only term-versus-holiday contrast in the corpus, and it is the cleanest piece of causal evidence in
+the chapter.
 
-The six unplaced settings in Section 8.1 need only a reform date each. Recording the year of every
+The six studies the transition classification could not place need only a reform date each, recorded
+in the extraction rather than inferred. Recording the year of every
 reform in the structured extraction, alongside the years over which each study observes fertility,
-would let the transition classification run on the whole corpus rather than on nine settings out of
+would let the transition classification run on the whole corpus rather than on nine studies out of
 fifteen.
 
 ## 12. References
