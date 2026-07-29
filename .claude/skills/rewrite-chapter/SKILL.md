@@ -42,6 +42,14 @@ Test it by extracting every topic sentence, **shuffling them**, and confirming e
 
 **Tells earned on this project, beyond `ai-tells.md`.** Announce-then-state (if deleting a sentence loses no fact, delete it). Anthropomorphic inanimates ("earned their place", "sits underneath", "carries the whole effect", "generations sit in"). Figurative labels standing in for claims ("theory that reverses the arrow"). Unnamed demonstratives — every "that X" names X. Never name a teammate in reader-facing prose. Never describe methodology the project has not run; collaborator-facing material goes in `[Note to co-authors: ...]` at the end, not inline.
 
+**Referent discipline — the failure that cost the most.** Read `PROTOCOL.md` §6.1, which is binding. The short form: Section 1 opens formulaically (*"The hypothesis this chapter examines is X"*), the hypothesis gets a short tag used everywhere thereafter so "the hypothesis" never appears bare, terms are defined in the form *"By X, I mean…"*, cross-referenced chapters are named in English rather than as bare codes, mechanisms are called mechanisms rather than "streams," and "it" is replaced by its referent wherever a reader would have to stop.
+
+One chapter shipped with 13 bare "the hypothesis," 19 "stream," 21 bare section codes and 15 bare "the severing." Eleven of the PI's twelve comments on it were the same defect. **None of it is greppable in general and none of my mechanical gates saw any of it.**
+
+**How to actually condition a draft on the voice, which I got wrong.** Do not write "load `exemplars/memo.md` CORE" as a bullet in an agent prompt. An agent reading a file path among twenty other constraints skims it, and the draft comes back in nobody's voice — the PI's verdict was *"does not match the style in any exemplar."* Either invoke `/write-as` as a skill, or **paste the CORE exemplar paragraphs verbatim into the prompt** as imitation targets. The exemplars work by being present, not by being cited.
+
+Three of the memo CORE exemplars are directly load-bearing for this review. The two-part partition (*"Its provisions, however, had two counterproductive effects. One is… The other is…"*) is the model for introducing a chapter's claims. The definitional move (*"By history, I mean… By counterfactual, I mean…"*) is the antidote to every ambiguous-referent failure. And mechanism-first-magnitude-last is how estimates should arrive: reason from the structure, then give the number.
+
 **Report shares plainly; do not narrate them against the 10% threshold.** A proposal to drop the threshold as a verdict device is with the RAs.
 
 **Make headline estimates interpretable.** B.4 reported −0.301 children and, separately, a mean of 3.112, and never related them. State that the effect is about a tenth of the mean.
@@ -102,6 +110,8 @@ Write to `output/chapters/<slug>-pi-v<N>.md`, incrementing from the highest exis
 ### Phase 4 — Verify
 
 Run in this order. Numbers first, because they are the only unrecoverable failure.
+
+0. **Referent audit, before anything else.** Read the draft as someone who knows economics and nothing about this project. List every phrase that cannot be resolved on one pass and fix all of them. Greppable proxies, which catch some but not most: bare `the hypothesis`, `stream`, bare section codes (`A.2`, `D.1`, …), `the severing|the coupling|the decoupling` unqualified, sentence-initial `It `. **Run the reading walk too — the greps miss the majority.** One chapter passed every mechanical gate I ran and still drew eleven comments, all of them this defect.
 
 1. **Numeric fidelity, hardest gate.** Every entry in `numbers.md` appears in the draft, exactly. Nothing new appears that is not in the ledger or traceable to a named project data file.
 2. **Citations.** Every prose citation carries a year on first mention and matches the reference list.

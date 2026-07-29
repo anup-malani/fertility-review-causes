@@ -194,6 +194,26 @@ Every chapter has the same structure:
 ## 12. References
 ```
 
+### 6.1 Chapter writing conventions
+
+These are conventions for chapters in this review. They are not general writing rules, and they exist because chapters are read by someone with undergraduate economics training, very little time, and several other things competing for attention. She will not re-read a sentence. If a reference is ambiguous she does not puzzle it out; she loses the thread.
+
+**Name the hypothesis, then tag it.** Section 1 opens formulaically: *"The hypothesis this chapter examines is X."* Where the claim has parts, partition them the same way: *"The hypothesis can be broken down into three steps."* Then coin a short tag for the hypothesis and use the tag throughout — the *delink-sex-and-reproduction hypothesis*, the *wrong-generation problem*, the *retirement-asset channel*. **"The hypothesis" must never appear bare.** The formulaic construction is deliberately repetitive; repetition is what makes the referent unmistakable at any entry point.
+
+**Define a term where it first appears, in the form "By X, I mean…".** Every technical term the chapter coins or leans on gets defined once, explicitly, in that construction. This is the single highest-return convention in this section, because most reader confusion in draft chapters has been an undefined noun phrase rather than a hard idea.
+
+**Distinguish the hypothesis from its neighbours, in its own paragraph, early.** Every hypothesis in this review has siblings it can be confused with. Say plainly what separates this one, and what question the neighbouring chapter answers instead.
+
+**Name cross-referenced chapters in English.** Not "belongs to A.2 and D.1" but "belongs to the chapter on modern contraceptive technology and the chapter on shifting family preferences." A code may follow in parentheses; it may never stand alone. No reader has memorised the table of contents.
+
+**Use the mechanism's name, not a metaphor for it.** A body of evidence is a body of evidence, a mechanism is a mechanism. "Stream," "thread," "strand" and similar say nothing a reader can check.
+
+**Replace "it" with its referent** wherever a reader would have to stop and work out which noun is meant.
+
+**Every topic sentence stands alone.** It must summarise its paragraph without depending on the rest of the paragraph, on earlier topic sentences, or on the section heading. Reading only the topic sentences, in order, should give the chapter's whole argument. Length is not the target; self-sufficiency is.
+
+**Before a chapter ships, run a referent audit.** Read it as someone who knows economics and nothing about this project, and list every phrase that cannot be resolved on one pass — every "the hypothesis," "the severing," "the stream," bare "it," bare section code. Fix all of them. Greps catch the phrases named here; only reading catches the rest.
+
 ## 7. Tooling
 
 - **Citation management (source of truth):** A repo-native, DOI-keyed registry of screened/included studies at `datastore/studies.json`. The screening and dedup stages write to it; per-hypothesis `.bib` files in `literature/bib/` are **generated** from it via `make bib` (never hand-edited). Because the registry lives in git, the bibliography is versioned, diffable in PRs, and the citation-check happens in code review. Agents (Claude or Codex) read and write the registry directly.
