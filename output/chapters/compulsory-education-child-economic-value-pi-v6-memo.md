@@ -18,7 +18,7 @@
 **Primary mechanism:** Compulsory attendance and child-labor restrictions reduce children's work,
 lowering the economic return parents expect from an additional child, and so reducing completed
 fertility.  
-**Cross-references:** Tempo effects and birth postponement (compulsory schooling). Geruso and Royer
+**Cross-references:** Compulsory Schooling and the Fertility of the Female Student. Geruso and Royer
 (2018) is kept by both chapters, Cummins (2025) is routed there by mechanism, and the six
 own-schooling studies set aside here are on-mechanism there.
 
@@ -37,8 +37,8 @@ three steps hold, and a study that establishes one step establishes only that on
 The hypothesis is about the parents' fertility, so the number that tests it is how many children the
 parents of an affected child ended up having. A study that follows a girl bound by a school-leaving
 law and counts her own children twenty years later answers a different question, about how her own
-schooling changed her own fertility, and that question belongs to the chapter on tempo effects and
-birth postponement.
+schooling changed her own fertility, and that question belongs to the chapter on the fertility
+of the female student.
 
 ## 2. Theoretical mechanism
 
@@ -161,7 +161,7 @@ sections that follow.
    many siblings she had.
 
 The wrong-generation problem runs through three generations: a parent, the female student a law
-binds, and her own future children. This chapter and the chapter on tempo effects test different
+binds, and her own future children. This chapter and the chapter on the fertility of the female student test different
 links between them:
 
 ```
@@ -170,13 +170,13 @@ parent ──(1)──▶ female student ──(2)──▶ her own children
 
 This chapter tests arrow (1), from the parent to the female student: a law binds the student, and the
 outcome is how many children her parents had, which is her sibship size. The chapter on tempo
-effects and birth postponement tests arrow (2): the same law gives the female student more schooling,
+the fertility of the female student tests arrow (2): the same law gives her more schooling,
 and the outcome is how many children she herself had.
 
 The wrong-generation problem decides which studies count as evidence in this chapter, and it
 disqualifies most of the published literature on compulsory schooling and fertility. Those studies
 estimate arrow (2), which is the right quantity for a different hypothesis, and they are weighed in
-the chapter on tempo effects and birth postponement. The two chapters share a literature and divide
+the chapter on the fertility of the female student. The two chapters share a literature and divide
 it by whose fertility each estimate describes.
 
 ## 4. Search strategy
@@ -190,7 +190,7 @@ sorted every record as relevant, uncertain, or not relevant; a focused review re
 exceptions that screen set aside; and a strict test asked of each surviving paper whether it studied
 an actual schooling or child-labor law and reported a fertility outcome.
 
-This chapter and the chapter on birth postponement share one search, because both hypotheses turn on
+This chapter and the chapter on the fertility of the female student share one search, because both hypotheses turn on
 the same school-leaving and child-labor laws. Geruso and Royer (2018) is kept by both, because it
 reports teenage fertility for one chapter and completed fertility for the other.
 

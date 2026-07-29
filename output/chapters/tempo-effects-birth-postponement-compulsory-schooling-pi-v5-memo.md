@@ -504,6 +504,18 @@ any lasting reduction in the number of children a woman ends up with. Because a 
 period fertility temporarily and a smaller family lowers it permanently, this mechanism explains a
 dip in the birth rate more readily than it explains a fertility decline.
 
+[Note to the RA on this chapter: the verdict table has six rows rather than the three PROTOCOL §4.3
+specifies, and the reason is worth carrying to other chapters. Timing and completed fertility are not
+two aspects of one result; they are two findings with different evidence behind them and different
+consequences. A birth moved from 17 to 21 lowers the period rate for a few years and leaves the
+completed family unchanged. A birth that never happens lowers both, permanently. A single rating
+would have to average a well-supported timing effect against a weakly-supported quantum effect, and
+the average would describe neither. So each finding is rated against each phenomenon, and the §5
+stage 11 panel scores each pair. PROTOCOL §6 has been amended to allow this wherever a chapter
+establishes more than one distinct finding. If a hypothesis you are drafting has the same structure —
+an effect on when births happen and a separate effect on how many — use the same table shape rather
+than collapsing to one row.]
+
 ## 11. Open questions and recommended studies
 
 The scaling problem would be retired by putting every reform onto age-specific fertility rates and

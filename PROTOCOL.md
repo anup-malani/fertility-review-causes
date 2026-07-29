@@ -150,36 +150,48 @@ Every chapter has the same structure:
 ## 2. Theoretical mechanism
 [½–1 page: how the cause produces fertility change, with citations to the formative theoretical statements]
 
-## 3. Search strategy
+## 3. Empirical strategy
+[Four parts, in this order. This section frames every section after it.
+ 3.1 The treatment. Name the actual instrument(s). Where the literature runs two together, distinguish them.
+ 3.2 The outcome. Name it, and say why this outcome and not a neighbouring one.
+ 3.3 The ideal experiment. What you would do with no constraints, holding fixed everything the hypothesis is not about.
+ 3.4 The practical design, and the limitations that follow. Name each limitation, then use the NAME downstream, never the list position.
+ Keep limitations that follow from the identification strategy separate from limitations that hold regardless of it.
+ The gap between the ideal and the practical experiment generates the external-validity analysis (§8) and the causation analysis (§9).]
+
+## 4. Search strategy
 [Query strings, databases searched, date range, inclusion/exclusion criteria. Reproducible.]
 
-## 4. PRISMA flow
+## 5. PRISMA flow
 [Diagram + table: records identified → after deduplication → after title/abstract screen → after full-text screen → included in synthesis]
 
-## 5. Included studies
+## 6. Included studies
 [Table: author-year, country, period, design, sample, effect-size estimate, RoB rating]
 
-## 6. Quantitative synthesis
+## 7. Quantitative synthesis
 [Forest plot if applicable. Pooled effect, heterogeneity (I², τ²), moderator analyses, sensitivity, publication-bias check (funnel + Egger)]
 
-## 7. Demographic significance
-### 7.1 Pre-modern
+## 8. Demographic significance
+### 8.1 Pre-modern
 [Decomposition share, slope-sufficiency, R²; verdict]
-### 7.2 FDT
+### 8.2 FDT
 [Same]
-### 7.3 SDT
+### 8.3 SDT
 [Same]
 
-## 8. GRADE rating
+## 9. GRADE rating
 [Per-phenomenon rating with justification]
 
-## 9. Verdict
-[The 3×2 verdict table from §4.3]
+## 10. Verdict
+[The verdict table from §4.3. Normally 3 rows, one per target phenomenon.
+ Where a chapter establishes more than one distinct finding — e.g. an effect on birth timing and a
+ separate effect on completed fertility — the table gains a finding dimension and each
+ phenomenon-by-finding pair is rated separately by the §5 stage 11 panel.]
 
-## 10. Open questions and recommended studies
+## 11. Open questions and recommended studies
 [What evidence would change the verdict? What study designs would be most informative?]
 
-## 11. References
+## 12. References
 ```
 
 ## 7. Tooling
