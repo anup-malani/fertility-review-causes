@@ -289,7 +289,7 @@ Lei, Shen, Sun, Xiang, and Zhang (2026) belong beside Table 2 rather than inside
 measure what a woman wants rather than what she has. Each year of exposure to China's 1986 law lowers
 a woman's desired number of children by 0.009, with no detectable effect for men, and exposure raises
 schooling by 0.37 to 0.45 years per year of exposure. Realized completed fertility is not estimated.
-The study is rated SERIOUS and carries the same one-child-policy flag.
+The study is rated SERIOUS and has the same one-child-policy flag.
 
 ## 7. Quantitative synthesis
 
@@ -335,7 +335,7 @@ proportional without returning to the papers.
 
 ### 7.3 Which channel produces the delay
 
-No single channel carries the literature, and which one operates depends on the setting. Three findings
+No single channel accounts for the whole literature, and which one operates depends on the setting. Three findings
 stand behind that conclusion, one for each channel, and each of them reads the shape of an effect to
 infer what produced it.
 
@@ -630,7 +630,7 @@ rather than against the bar.]
 
 [Note to co-authors: Wilson's estimate of −0.0081 is filed as an age-specific estimate at 18 in the
 effects file and described as a cumulative effect by 18 in the narrative evidence file. Table 1
-carries the effects file's label, because the pooling audit's family counts are built on it. The
+uses the effects file's label, because the pooling audit's family counts are built on it. The
 narrative file needs correcting or the conflict recording.]
 
 [Note to co-authors: the answer to Question 5 asked for the eight missing standard errors to be
