@@ -512,8 +512,8 @@ completed family unchanged. A birth that never happens lowers both, permanently.
 would have to average a well-supported timing effect against a weakly-supported quantum effect, and
 the average would describe neither. So each finding is rated against each phenomenon, and the §5
 stage 11 panel scores each pair. PROTOCOL §6 has been amended to allow this wherever a chapter
-establishes more than one distinct finding. If a hypothesis you are drafting has the same structure —
-an effect on when births happen and a separate effect on how many — use the same table shape rather
+establishes more than one distinct finding. If a hypothesis you are drafting has the same structure,
+an effect on when births happen and a separate effect on how many, use the same table shape rather
 than collapsing to one row.]
 
 ## 11. Open questions and recommended studies
