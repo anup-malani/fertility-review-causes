@@ -652,10 +652,10 @@ retrieval CSV records all ten studies as NOT_RETRIEVED while the PRISMA accounti
 file both treat them as retrieved and extracted. The chapter carries "10 retrieved and extracted" and
 does not cite the retrieval CSV for that count.]
 
-[Note to co-authors: Section 3, Empirical strategy, is not in the PROTOCOL §6 chapter template. It is
-proposed as a generic insertion between Theoretical mechanism and Search strategy for every chapter,
-so that each later section refers back to a limitation already named rather than introducing it
-fresh.]
+[Note to co-authors: Section 3, Empirical strategy, was added to the PROTOCOL §6 chapter template
+as the new §3 on 2026-07-29, between Theoretical mechanism and Search strategy, and applies to
+every chapter in the review. Each later section refers back to a limitation already named there
+rather than introducing it fresh.]
 
 [Note to co-authors: the transition classification in Section 8.1 should be written to
 `output/tables/tempo-effects-birth-postponement-compulsory-schooling-tfr-transition-classification.csv`

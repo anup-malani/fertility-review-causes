@@ -414,10 +414,12 @@ In our review's terms, three raters scored the FDT causal claim independently an
 much confidence a body of evidence supports rather than how large an effect is; its four levels run
 Very low, Low, Moderate, and High, and Low is the second. Our review sets replication across two or
 more settings as the boundary between Low and Moderate, and no second study here crosses it. The
-panel reached Low without Shanan's risk-of-bias rating stated in front of it, and that rating,
-SERIOUS overall on SERIOUS confounding, turns on the same adoption endogeneity the panel's own
-reasoning names, so the rating is referred back to the panel with the risk-of-bias assessment
-attached.
+first panel reached Low without Shanan's risk-of-bias rating stated in front of it, so the rating was
+referred back with the assessment attached. A second three-rater panel, run with that rating
+supplied, returned Low unanimously. All three raters reasoned that a SERIOUS rating is not a CRITICAL
+one, and that our review's Low band already admits designs with no clear identification at all, so a
+single unreplicated quasi-experiment rated SERIOUS on confounding sits at the floor of Low rather
+than below it. The rating is final.
 
 **Pre-modern and SDT are unrated**, because neither has a study to rate.
 
@@ -560,8 +562,9 @@ China 1986.
 
 ## Notes to co-authors, not part of the chapter
 
-[Note to co-authors: the GRADE working file records this panel as final. Sections 9 and 10 are final
-on that record; if the panel reopens on the risk-of-bias referral, both revert to provisional.]
+[Note to co-authors: the risk-of-bias referral has been discharged. A second three-rater panel was
+run with Shanan's SERIOUS rating supplied and returned Low unanimously, recorded in
+`output/tables/compulsory-education-grade-panel-rerate.csv`. Sections 9 and 10 are final.]
 
 [Note to co-authors: our protocol defines demographic significance by a decomposition share of at
 least 10%, a slope-sufficiency verdict of sufficient, or a conditional R² of at least 0.15. The 8%
@@ -570,7 +573,7 @@ other two routes met no threshold. Sections 8.2 and 10 report the share plainly 
 the bar; the protocol text still defines significance the old way, and the two disagree until that
 edit lands.]
 
-[Note to co-authors: Section 3, Empirical strategy, is not in the PROTOCOL §6 chapter template. It
-is proposed as a generic insertion between Theoretical mechanism and Search strategy for every
-chapter in the review, so that each later section refers back to a limitation already named rather
-than introducing it fresh.]
+[Note to co-authors: Section 3, Empirical strategy, was added to the PROTOCOL §6 chapter template
+as the new §3 on 2026-07-29, between Theoretical mechanism and Search strategy, and applies to
+every chapter in the review. Each later section refers back to a limitation already named there
+rather than introducing it fresh.]

@@ -800,7 +800,7 @@ set records −0.012 (SE 0.003, N 1,326,819). For Shen and coauthors the extract
 extraction file. Danzer's coefficient carries most of the precision in the restricted birth-probability
 pool, so the reconciliation moves the headline number and should be settled before publication.]
 
-[Note to co-authors: Section 3, Empirical strategy, is not in the protocol's chapter template. It is
-proposed as a generic insertion between Theoretical mechanism and Search strategy for every chapter in
-the review, so that each later section refers back to a limitation already named rather than
+[Note to co-authors: Section 3, Empirical strategy, was added to the protocol's chapter template as
+the new §3 on 2026-07-29, between Theoretical mechanism and Search strategy, and applies to every
+chapter in the review. Each later section refers back to a limitation already named there rather than
 introducing it fresh.]

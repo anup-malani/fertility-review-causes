@@ -127,20 +127,20 @@ the number of children a person has, and compares that gradient across populatio
 contraception. **Design B, the contraceptive rollout**, follows births in a population before and
 after access widens, sometimes exploiting a legal change or a program's staggered arrival.
 
-Design A answers the status-and-reproduction claim and cannot reach the decoupling claim. A gradient
-that is positive without contraception and flat or negative with it is the dissociation the
-hypothesis predicts, and finding it is real evidence about the fate of the ancestral link. The
-finding does not say why the gradient changed. Desired family size is never measured in these
-studies, so a fall in the desire for children that happens to correlate with status produces the same
-pattern as decoupling.
+The status gradient compared across populations answers the status-and-reproduction claim and cannot
+reach the decoupling claim. A gradient that is positive without contraception and flat or negative
+with it is the dissociation the hypothesis predicts, and finding it is real evidence about the fate
+of the ancestral link. The finding does not say why the gradient changed. Desired family size is
+never measured in these studies, so a fall in the desire for children that happens to correlate with
+status produces the same pattern as decoupling.
 
-Design B measures the total effect of contraceptive access on births, which belongs to A.2 and D.1
-rather than here. A rollout arrives in a population whose desired family size is already falling, and
-it arrives because that desire is falling; access and preferences move together, and the birth count
-absorbs both. An estimate from Design B is the right answer to A.2's question and is not an estimate
-of decoupling. Exactly one of the 51 retrieved studies is coded as holding the desire for children
-fixed, Eckstein, Keane, and Lifshitz (2019), and it identifies fertility off the changing structure
-of careers rather than off a preference-held-fixed contrast.
+The contraceptive rollout measures the total effect of contraceptive access on births, which belongs
+to A.2 and D.1 rather than here. A rollout arrives in a population whose desired family size is
+already falling, and it arrives because that desire is falling; access and preferences move together,
+and the birth count absorbs both. A rollout estimate is the right answer to A.2's question and is not
+an estimate of decoupling. Exactly one of the 51 retrieved studies is coded as holding the desire for
+children fixed, Eckstein, Keane, and Lifshitz (2019), and it identifies fertility off the changing
+structure of careers rather than off a preference-held-fixed contrast.
 
 Three limitations follow from how these designs assign treatment, and a perfect experiment would cure
 all three. Each is named here and used by name in the sections below.
@@ -302,7 +302,8 @@ The pair is an observational correlation in one small sample, it does not hold t
 children fixed, and a contrast between two outcomes within one sample is not a contrast between two
 treatments.
 
-The rest of the stream divides into models and total-effect studies. Kennes and Knowles (2013) and
+The rest of the direct-decoupling stream divides into formal models and studies whose real outcome
+is the total effect of contraceptive access. Kennes and Knowles (2013) and
 Burke and Pakaluk (2010) build economic models in which contraception drives a sexual revolution and
 lower fertility, which states the mechanism without measuring it. Léridon (2006), Murphy (1993), and
 Myers (2017) estimate the effect of contraceptive or abortion access on births, which is A.2's
@@ -333,7 +334,8 @@ Fisher-z scale on which the pooling is done.
 
 ### 7c. The contraception-absent cell, and the attenuation contrast
 
-The predicted attenuation does not survive this review's own evidence. The source of this chapter
+The attenuation the hypothesis predicts, a strong status gradient where contraception is absent and
+a weak one where it is present, does not survive this review's own evidence. The source of this chapter
 reported the contraception-absent association as 0.19 against 0.07 where contraception is present,
 roughly two and a half times larger, on the strength of one study, von Rueden and Jaeggi's synthesis
 of thirty-three nonindustrial societies. Four contraception-absent studies now enter that cell, and
@@ -344,16 +346,16 @@ contraception. Method, inputs, weights, and four alternative specifications are 
 `output/tables/evolutionary-sex-drive-contraceptive-decoupling-contraception-absent-pool.md`; every
 specification returns a negative point estimate.
 
-One large positive estimate is held out of that pool, and a reader should weigh the pooled number
-knowing it. Sorokowski et al. (2013) report the correlation between pigs owned and living children
+One large positive estimate is held out of the contraception-absent pool, and a reader should weigh
+the pooled number knowing it. Sorokowski et al. (2013) report the correlation between pigs owned and living children
 among the Yali of Papua New Guinea at +0.42 for men and +0.27 for women, the largest positive
 contraception-absent values in the corpus. They reach this project only through the Hopcroft (2018b)
 review, which quotes them without a sample size, and a value with no sample size has no variance and
 so no weight. The negative pooled cell above is therefore computed without the estimate that points
 hardest the other way.
 
-The population confound is why a contrast between the two cells would not settle the moderator in
-either direction. The contraception-absent estimates come from nonindustrial, historical, and
+The population confound is why a contrast between the contraception-absent and contraception-present
+cells would not settle the moderator in either direction. The contraception-absent estimates come from nonindustrial, historical, and
 natural-fertility populations, and the contraception-present estimates from modern administrative and
 survey samples, and the two groups differ in mortality, marriage systems, subsistence, and status
 measurement as well as in contraception. Retrieving more natural-fertility studies would buy
@@ -361,10 +363,10 @@ precision on the left-hand number and would still leave a comparison of nonindus
 against modern ones. Identifying the moderator takes variation in contraceptive access within a
 population otherwise similar to itself, which no study in this evidence base provides.
 
-External validity runs into the same wall from the other side. Every study in the contraception-
-present cell is a rich-country sample, so the review's best-populated finding is a finding about
-wealthy contracepting populations, and the one large non-Western test of it, Zhang and Santtila
-(2022), is reported in Section 6b rather than pooled. The settings that would fix the
+Every study in the contraception-present cell is a rich-country sample, so this review's
+best-populated finding describes wealthy contracepting populations and nothing else. The one large
+non-Western test of the same pattern, Zhang and Santtila (2022), is reported in Section 6b rather
+than pooled, on a metric technicality. The settings that would fix the
 pre-contraceptive baseline and the settings that would identify the decoupling effect are different
 places, which is part of why the distinctive claim stays open.
 
@@ -407,8 +409,8 @@ to the level rather than the variation: sex was coupled to reproduction everywhe
 the work everywhere, and the differences across pre-modern populations came from mortality, marriage
 systems, and subsistence.
 
-The baseline the theory needs for that story is no longer established by this review's own
-contraception-absent evidence. Four contraception-absent studies pool to a value indistinguishable
+The pre-contraceptive baseline the theory needs, higher status bringing more children, is no longer
+established by this review's own contraception-absent evidence. Four contraception-absent studies pool to a value indistinguishable
 from zero, so the proposition that higher status still brought more children where contraception was
 absent now rests on von Rueden and Jaeggi against three studies that point the other way. The single
 best-rated of the four is also assigned to this cell by fertility regime rather than by date: its
@@ -418,8 +420,8 @@ assignment as an analyst judgement. **Verdict: insufficient for variation.**
 
 ### 8.2 First Demographic Transition
 
-The mistimed-evidence problem decides this cell, and it is a property of the evidence rather than an
-inference about the mechanism. Of the four pooled studies whose observation window this review dated,
+The mistimed-evidence problem decides the First Demographic Transition, and it is a property of the
+evidence rather than an inference about the mechanism. Of the four pooled studies whose observation window this review dated,
 none observes fertility inside the First Demographic Transition, which this review places at roughly
 1870 to 1965, and the earliest window opens in 1979, fourteen years after the transition closed. The
 three studies the re-pool added observe pre-transitional populations, Finnish cohorts born between
@@ -427,11 +429,11 @@ three studies the re-pool added observe pre-transitional populations, Finnish co
 the severing technology was absent by construction, so none of them measures the mechanism during the
 decline either.
 
-The substantive reason behind the timing is the technology's arrival date. The Western fertility
-decline ran mostly before 1960, on withdrawal, abstinence, and stopping childbearing early, which
-lower births by matching behaviour to a reduced desire for children rather than by severing sex from
-reproduction. Those are the mechanisms of A.2 and D.1. The pill severs sex from reproduction at
-scale only at the tail of the window. **Verdict: not significant.**
+The Western fertility decline ran mostly before 1960, on withdrawal, abstinence, and stopping
+childbearing early, none of which severs sex from reproduction. All three lower births by matching
+behaviour to a reduced desire for children, which is the mechanism of A.2 and D.1 rather than of
+decoupling. The pill arrives at the tail of the window and severs sex from reproduction at scale
+only after it closes. **Verdict: not significant.**
 
 ### 8.3 Second Demographic Transition
 
@@ -442,7 +444,7 @@ status-and-reproduction evidence shows the matching signature, a link that weake
 sex-specific across rich post-1965 populations, and all four studies in the contraception-present
 cell observe fertility entirely after 1965, so they sit squarely inside the phenomenon.
 
-The dissociation is real, well populated, and demographically small. The pooled male association
+The sex reversal under contraception is real, well populated, and demographically small. The pooled male association
 tracks 0.73 percent of the variance in completed fertility and the female association 1.63 percent,
 both under two percent. More decisive than either figure is their opposition: the male and female
 associations run in opposite directions, so the aggregate association across sexes is
@@ -486,9 +488,8 @@ administrative sample of several hundred
 thousand, which drives its standard error near zero and gives it a quarter of the weight in the
 male contraception-present cell, and precision of that kind is not identification.
 
-Two gaps in the assessment are worth the reader's attention. The three studies the re-pool added are
-not coded at all, so the contraception-absent pool mixes one Moderate rating with three uncoded
-studies. Separately, the corpus contains a published comment on one of the pooled studies, Volscho
+The three studies the re-pool added are not coded at all, so the contraception-absent pool mixes one
+Moderate rating with three uncoded studies. The corpus also contains a published comment on one of the pooled studies, Volscho
 (2005) on Kanazawa (2003), which argues that the sex difference Kanazawa reports is an artifact; its
 full text is not in this working tree, so this review records the comment as existing and unassessed.
 
