@@ -1,8 +1,9 @@
 # Old-Age Security and Pension Crowd-Out
 
-> **Bottom line.** The hypothesis claims two opposite things at once. A pension is a non-child source
-> of old-age support, so it makes a child less necessary and fertility falls. The same pension retires
-> a grandmother, whose time lowers what a child costs her adult daughter, so fertility rises.
+> **Bottom line.** The hypothesis this chapter examines is the **old-age-security hypothesis**, and
+> it claims two opposite things at once. A pension is a non-child source of old-age support, so it
+> makes a child less necessary and fertility falls. The same pension retires a grandmother, whose
+> time lowers what a child costs her adult daughter, so fertility rises.
 >
 > The evidence base is thirteen studies with extracted estimates and risk-of-bias ratings: nine on the
 > retirement-asset channel, three on the grandparent-time channel, and one mechanism study whose
@@ -10,8 +11,9 @@
 > is carried provisionally without an extraction or a rating. Seven of the thirteen are rated moderate
 > risk of bias and six serious; none is rated low.
 >
-> Restricted to the settings the hypothesis is about, where children still plausibly insure old age,
-> more non-child old-age security lowers the annual probability of a birth by **0.007278** (SE
+> Restricted to the settings the old-age-security hypothesis is about, where children still plausibly
+> insure old age, more non-child old-age security lowers the annual probability of a birth by
+> **0.007278** (SE
 > 0.002901, 95% CI −0.012963 to −0.001593), pooling four studies. Danzer and Zyska (2023) record their
 > own Brazilian estimate as 7.6% of the baseline probability that a woman in their sample gives birth
 > in a year, which is the scale to read the pooled figure against.
@@ -41,9 +43,10 @@ rather than the retirement value of a child to its parents.
 
 ## 1. The claim
 
-Where a child is how a person survives old age, that child is partly an investment asset, so any
-other retirement asset lowers the return to having one more. A pension, a private annuity, or a bank
-that will hold savings and pay them back all do the same job as a grown son who sends money home. The
+The hypothesis this chapter examines is the **old-age-security hypothesis**: where a child is how a
+person survives old age, that child is partly an investment asset, so any other retirement asset
+lowers the return to having one more. A pension, a private annuity, or a bank that will hold savings
+and pay them back all do the same job as a grown son who sends money home. The old-age-security
 hypothesis predicts that fertility falls where such a substitute arrives and children were previously
 the only claim on old age.
 
@@ -53,9 +56,10 @@ grandmother and the outcome is counted a generation below her. A pension that le
 working buys her daughter time she would otherwise have to purchase or forgo.
 
 A pension expansion switches both channels on at once, so whether a pension raises or lowers fertility
-is an empirical question rather than a theoretical one. The hypothesis is about a lifetime count of
-children, which matters because roughly half the corpus measures instead whether a woman gave birth
-in a single year, and a policy can move the second without moving the first.
+is an empirical question rather than a theoretical one. The old-age-security hypothesis is about a
+lifetime count of children, which matters because roughly half the corpus measures instead whether a
+woman gave birth in a single year, and a policy can move the annual probability of a birth without
+moving the lifetime count.
 
 ## 2. Theoretical mechanism
 
@@ -107,9 +111,10 @@ the same scale as any other, which is why no single coefficient summarises them.
 
 Treating a bank as an instrument for old-age security is a substitution this chapter makes
 deliberately, and the First Demographic Transition verdict in Section 8.2 depends on a reader
-accepting it. A household that can save and borrow has a non-child way to move resources into old
-age, whether or not a state pension exists, so financial-market access belongs on the same footing as
-a pension under this hypothesis even though no legislature enacted it as retirement policy.
+accepting that substitution. A household that can save and borrow has a non-child way to move
+resources into old age, whether or not a state pension exists, so financial-market access belongs on
+the same footing as a pension under the old-age-security hypothesis even though no legislature
+enacted it as retirement policy.
 
 The grandparent-time studies use three instruments, and the three are not interchangeable: assignment
 by a pension reform (the Netherlands), actual retirement instrumented by eligibility (Germany), and
@@ -127,8 +132,9 @@ Dutch results would appear to contradict the studies they in fact agree with.
 
 ### 3.2 The outcomes
 
-The outcome the hypothesis names is the number of children a woman ends up with, and roughly half the
-corpus reports instead whether she gave birth in a given year. The two answer different questions. A
+The outcome the old-age-security hypothesis names is the number of children a woman ends up with,
+and roughly half the corpus reports instead whether she gave birth in a given year. The two answer
+different questions. A
 policy that moves births earlier or later changes the annual probability for a while and leaves the
 lifetime count untouched, so an estimate on the annual measure cannot establish the claim on its own.
 This chapter therefore reports the two outcomes separately and never averages across them.
@@ -228,9 +234,9 @@ resolved records that OpenAlex returned without a usable identifier.
 The binding inclusion test asked which causal question a paper answers, not whether the paper is about
 pensions. A pension study whose outcome is savings, schooling, or elderly health tests a link in the
 mechanism without estimating a fertility effect. A study in which fertility is the cause and insurance
-purchase the outcome is mechanism evidence running the other way. A study in which pension eligibility
-changes a grandmother's childcare time answers the second of this chapter's two questions rather than
-the first.
+purchase the outcome is mechanism evidence running the other way. A study in which pension
+eligibility changes a grandmother's childcare time answers this chapter's grandparent-time question
+rather than its retirement-asset question.
 
 The three grandparent-time studies were found by this search, ruled off the chapter's causal
 question, and then put back by review, which bears on how much weight their evidence can take. Eibich
@@ -459,10 +465,10 @@ hypothesis. Section 13 records the omission as a deviation.
 
 ## 8. Demographic significance
 
-This chapter reaches a verdict for each of three phenomena and, because the two channels disagree
-about the third, two verdicts for it: pre-modern fertility variation before 1870, the First
-Demographic Transition of roughly 1870 to 1965, and the Second Demographic Transition from 1965 to the
-present.
+This chapter reaches a verdict for each of three phenomena: pre-modern fertility variation before
+1870, the First Demographic Transition of roughly 1870 to 1965, and the Second Demographic Transition
+from 1965 to the present. The Second Demographic Transition receives two verdicts, because the
+retirement-asset and grandparent-time channels disagree about it.
 
 ### 8.1 Pre-modern fertility variation
 
@@ -525,8 +531,9 @@ Chinese studies, Han and coauthors and Shen and coauthors, observe fertility und
 policy, so a Chinese response to a pension measures the birth policy alongside the pension. The two
 Chinese estimates also disagree with each other after orientation, +0.04 against −0.169.
 
-This review's third route to demographic significance was computed for this hypothesis and returned
-nothing. Across six association records, the largest partial R² is 0.0424 against a threshold of 0.15,
+This review's third route to demographic significance was computed for the old-age-security
+hypothesis and returned nothing. Across six association records, the largest partial R² is 0.0424
+against a threshold of 0.15,
 with model R² values running from 0.007 to 0.345.
 
 **Verdict: not significant.**
@@ -645,9 +652,13 @@ report are the two effects and their sum.
 question with a consequence.** Insurance that relieves a daughter of nursing her mother frees the
 daughter's time, so Han and coauthors' +0.04 may be a grandparent-time estimate sitting inside a
 retirement-asset pool. Reclassifying it drops the published birth-probability pool from five studies
-to four and the restricted pool from four to three, and both would need recomputing. For the pre-modern period, the corresponding gap is variation in whether children could
-be relied on for old-age support at all, across family systems, inheritance rules, and communal-care
-arrangements.
+to four and the restricted pool from four to three, and both would need recomputing.
+
+**For the pre-modern period, the missing evidence is variation in whether children could be relied on
+for old-age support at all.** Pre-modern societies differed in family systems, inheritance rules, and
+communal-care arrangements, and no estimate in this corpus measures how any of that variation moved
+fertility. A design would need populations that differed in whether an old person could expect
+support from someone other than a child, with fertility observed across that difference.
 
 ## 12. References
 
