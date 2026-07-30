@@ -11,24 +11,31 @@ Four chapters are finished and clean. A fifth is screened but not drafted.
 
 | Hypothesis | Current file | Words | Status |
 |---|---|---|---|
-| A.10 | `output/chapters/tempo-effects-birth-postponement-compulsory-schooling-pi-v5-memo.md` | 4,947 | Final. Retitled *Compulsory Schooling and the Fertility of the Female Student*. Two findings, six verdict rows. |
-| B.4 | `output/chapters/compulsory-education-child-economic-value-pi-v6-memo.md` | 4,479 | Final. GRADE referral discharged. |
-| B.15 | `output/chapters/old-age-security-pension-crowdout-pi-v4-memo.md` | 5,898 | Final. |
-| B.1 | `output/chapters/evolutionary-sex-drive-contraceptive-decoupling-pi-v5-memo.md` | 5,689 | Final except one PI decision, below. |
+| A.10 | `output/chapters/tempo-effects-birth-postponement-compulsory-schooling-pi-v5-memo.md` | 4,947 | Final. Retitled *Compulsory Schooling and the Fertility of the Female Student*. Two findings, six verdict rows. Tag: the *own-schooling hypothesis*. |
+| B.4 | `output/chapters/compulsory-education-child-economic-value-pi-v6-memo.md` | 4,479 | Final. GRADE referral discharged. Tag: the *lost-child-earnings hypothesis*. |
+| B.15 | `output/chapters/old-age-security-pension-crowdout-pi-v4-memo.md` | 5,898 | Final. Tag: the *old-age-security hypothesis*, above the *retirement-asset* and *grandparent-time* channels. |
+| B.1 | `output/chapters/evolutionary-sex-drive-contraceptive-decoupling-pi-v5-memo.md` | 5,689 | Final. Tag: the *delink-sex-and-reproduction hypothesis*, splitting into the *pre-contraceptive gradient* and the *dissociation under contraception*. |
 | D.3.b | `output/chapters/climate-anxiety-eco-doomerism.md` | — | **Not drafted.** RA's structural skeleton; no full text retrieved, no effects extracted, everything PENDING. |
 
 Every version is on disk as `-pi-v<N>-memo.md`. PI-annotated stages carry `-AM` and are the specification for the version after them. Do not overwrite an `-AM` file.
 
-All four finished chapters pass: zero clefts, zero em-dashes, zero teammate names in reader-facing prose, zero positional back-references, every estimate exact against its chapter's `numbers-v1.md`.
+All four finished chapters pass: zero clefts, zero em-dashes, zero teammate names in reader-facing prose, zero positional back-references, every estimate exact against its chapter's `numbers-v1.md`. As of 2026-07-30 all four also carry a coined hypothesis tag, open Section 1 formulaically, write in one voice ("this review"), name each other in English one way each, and carry causal-credibility ratings in the bottom-line box.
+
+**One follow-up ticket falls out of the B.1 split:** `source/analysis/b1_demographic_significance.py` hardcodes four channels and has no `PM_decoupling` row, so its generated verdicts CSV cannot reproduce the chapter's five-row table. Its `PM_dissociation` row is also stale on the substance, describing the superseded single-study cell, because the script derives it from an effects file the re-pool was never written into. That write-in is already ticketed in B.1's notes to co-authors; the script change is downstream of it.
 
 ---
 
 ## Pending tasks, most immediate first
 
-**1. B.1's bottom line — waiting on the PI, blocks nothing else.**
-The bottom-line box says the status-and-reproduction claim "is well supported." Four paragraphs later the same box says "the positive baseline the theory needs is not established by this review's evidence." Both cannot stand. The claim is comparative and needs a positive baseline; the re-pooled contraception-absent cell is −0.0585 with an interval crossing zero. Do not resolve this without him.
+**1. ~~B.1's bottom line~~ — DONE 2026-07-30, commit `9fa3664`.** The PI chose to split the status-and-reproduction claim into two separately rated halves, the *pre-contraceptive gradient* and the *dissociation under contraception*, following the A.10 multi-finding precedent. The GRADE and verdict tables both go to five rows and agree for the first time; previously the verdict table left its pre-modern row unlabeled by claim while the GRADE table labeled the same row "decoupling claim," and the generated CSV keyed it `PM_dissociation`. Recorded as an eighth protocol departure, because the new row postdates the three-rater panel and `b1_demographic_significance.py` still builds a four-row CSV from an effects file the re-pool was never written into.
 
-**2. Referent audit on B.4 and B.15.** The rule now exists (PROTOCOL §6.1) but these two predate it. B.4 has 12 bare "the hypothesis"; B.15 has 2. Neither has been checked by reading, only by grep. B.1's fix is the worked example of what this looks like: coin a tag, use it everywhere, open Section 1 formulaically.
+**2. ~~Referent audit on B.4 and B.15~~ — DONE 2026-07-30, commits `3c5d97b`, `fa71b9b`, `46d9b16`. Extended to A.10.** Reading found roughly double what grep did: 22 untagged hypothesis references in B.4 (not 12), 9 in B.15 (not 2), 3 in A.10. All four chapters now coin a tag and open Section 1 formulaically — the *lost-child-earnings*, *old-age-security*, and *own-schooling* hypotheses join B.1's *delink-sex-and-reproduction* hypothesis.
+
+The defect grep could never have found: **B.4 referred to A.10 under three different names** ("the chapter on the fertility of the female student", "the birth-postponement chapter", "the tempo chapter"), and one reference was a broken substitution left from the A.10 retitle reading "The chapter on tempo the fertility of the female student." A.10 likewise called B.4 by two names, two of them wrapped across lines and invisible to a single-line grep. The two chapters now name each other one way each, ten times and seven times.
+
+Also fixed: B.4's 17 first-person instances normalized to "this review" (the PI's call, matching B.1 and B.15); numbered diagram arrows named in both A.10 and B.4; positional back-references removed from all three; B.15's orphaned pre-modern sentence in §11 given its own topic sentence; B.15's bottom-line box given a ratings paragraph so all four boxes now carry one.
+
+Note for review: **B.4's commit diff includes a whitespace reflow to 100 columns**, so it reads as 165/162 lines. Use `git diff --word-diff HEAD~2 HEAD~1` or compare word multisets. B.15 and A.10 were done without a global reflow and their diffs are small.
 
 **3. D.3.b.** Four screen artifacts at `temp/rewrite/climate-anxiety-eco-doomerism/`: `evidence-base-v1.md`, `extraction-plan-v1.md`, `questions-v1.md` (8 questions, unanswered), `outline-v1.md`. It cannot be drafted until extraction happens. The highest-value single action in the whole project right now is retrieving **Bisi, Sturm and Van Bavel (2024)**, `10.4054/demres.2024.51.2` — see the finding below.
 
