@@ -1,7 +1,8 @@
 # Compulsory Schooling and the Fertility of the Female Student
 
-> **Bottom line.** The hypothesis holds that a law keeping a girl in school longer changes her own
-> fertility. The law changes two things, and a reader should not run them together.
+> **Bottom line.** The hypothesis this chapter examines is the **own-schooling hypothesis**: a law
+> keeping a girl in school longer changes her own fertility. The law changes two things, and a reader
+> should not run them together.
 >
 > **Finding A, when she gives birth.** Ten quasi-experiments on school-leaving reforms across nine
 > countries find that a reform delays her first birth for as long as it binds. Causal credibility is
@@ -37,14 +38,16 @@ studies that chapter sets aside are assessed here.
 
 ## 1. The claim
 
-The hypothesis examined here holds that a law keeping a girl in school longer changes the fertility
-of that girl. A school-leaving reform raises the age below which she must stay enrolled. The claim is
-that her own extra schooling then shows up in her own childbearing.
+The hypothesis this chapter examines is the **own-schooling hypothesis**: a law keeping a girl in
+school longer changes the fertility of that girl. A school-leaving reform raises the age below which
+she must stay enrolled. The claim is that her own extra schooling then shows up in her own
+childbearing.
 
-This hypothesis and the child-economic-value hypothesis divide on whose schooling does the work.
-That hypothesis turns on the children: schooling stops a child working, each child is worth less to
-its parents, and the parents have fewer children. Here the schooling belongs to the girl herself, and
-the question is how an extra year or two of it changes the family she goes on to have.
+The own-schooling hypothesis and the lost-child-earnings hypothesis divide on whose schooling does
+the work. The lost-child-earnings hypothesis turns on the children: schooling stops a child working,
+each child is worth less to its parents, and the parents have fewer children. Here the schooling
+belongs to the girl herself, and the question is how an extra year or two of it changes the family
+she goes on to have.
 
 The chapter asks two questions of the same law, and their answers are not interchangeable. The first
 asks when she gives birth. The second asks how many children she has once her childbearing is over.
@@ -94,7 +97,7 @@ different depending on which one a study used.
 
 A **school-leaving reform** raises the age below which a girl must remain enrolled, or extends the
 number of compulsory years. Every study in this chapter uses one. None uses a child-labor law, which
-is the instrument the child-economic-value chapter turns on.
+is the instrument the chapter on the economic value of children turns on.
 
 **A year of schooling the reform bought** is a different treatment from the reform itself, and
 several studies rescale their estimates into those units. Some studies report the effect of the
@@ -135,19 +138,19 @@ local marriage market, and the contraception she can get. Because only her own y
 any difference in her childbearing traces to schooling and to nothing else. Because the follow-up
 runs to the end of childbearing, one experiment answers both findings at once.
 
-The generational chain runs through three people, and this chapter and the child-economic-value
-chapter test different links in it:
+The generational chain runs through three people, and this chapter and the chapter on the economic
+value of children test different links in it:
 
 ```
-parent ──(1)──▶ female student ──(2)──▶ her own children
+parent ──the parent's fertility──▶ female student ──the student's fertility──▶ her own children
 ```
 
-The child-economic-value chapter tests the link from the parent to the female student, and this
-chapter tests the link from the female student to her own children. In arrow (1), a law binds the
-student and the outcome is how many children her parents had, which is her sibship size. In arrow
-(2), the same law gives the student more schooling and the outcome is when and how many children she
-herself had. A design that changes the student's own schooling and counts her
-own children is disqualified there and required here. The two chapters share one literature and
+The chapter on the economic value of children tests the parent's fertility, and this chapter tests
+the student's fertility. Under the parent's fertility, a law binds the student and the outcome is how
+many children her parents had, which is her sibship size. Under the student's fertility, the same law
+gives the student more schooling and the outcome is when and how many children she herself had. A
+design that changes the student's own schooling and counts her own children is disqualified in that
+chapter and required here. The two chapters share one literature and
 divide it by whose fertility each estimate describes, which is why every study that chapter sets
 aside is evidence in this one.
 
@@ -199,8 +202,8 @@ studied an actual schooling law and reported a fertility outcome.
 
 The search kept ten papers on the timing of the student's births, and all ten were retrieved and
 extracted. Six papers follow the student to the end of her childbearing and count the children she
-had. Two of those six are also in the timing set, three were kept for the child-economic-value
-chapter, and Cummins (2025) was routed here afterwards by mechanism. Under the older framing of this
+had. Two of those six are also in the timing set, three were kept for the chapter on the economic
+value of children, and Cummins (2025) was routed here afterwards by mechanism. Under the older framing of this
 chapter, as a claim about timing alone, three of the six appeared nowhere in it and a fourth entered
 only as context. Under the question the chapter now asks, all six are evidence for Finding B.
 
@@ -219,12 +222,13 @@ The search screened 1,255 deduplicated records and ended with ten papers on the 
 | Distinct papers after collapsing three duplicate version records | 25 |
 | Kept for this chapter's timing question | 10 |
 | Full texts retrieved and extracted, of the 10 | 10 |
-| Kept for the child-economic-value chapter | 16 |
+| Kept for the chapter on the economic value of children | 16 |
 | Adjacent completed-fertility study routed here afterwards | 1 |
 
 The 28 candidates reconcile to 25 distinct papers because three of the 28 were duplicate records of
-the same work at different publication stages. The 25 then split into 16 for the child-economic-value
-chapter and 10 here, which sums to 26 rather than 25 because Geruso and Royer (2018) is kept by both.
+the same work at different publication stages. The 25 then split into 16 for the chapter on the
+economic value of children and 10 here, which sums to 26 rather than 25 because Geruso and Royer
+(2018) is kept by both.
 A later review of full texts routed 11 papers to the decreased-teen-pregnancy mechanism, being the ten
 timing studies plus Cummins (2025), and 10 to the value-of-children mechanism; it recorded Fort and
 coauthors, Kan and Lee, and Chen and Guo as not explicit on mechanism and Lei and coauthors as
@@ -428,7 +432,7 @@ rather than from inference.
 ### 8.2 Pre-modern
 
 No compulsory-schooling law existed before 1870, so the pre-modern period contains neither a
-treatment nor a study. The hypothesis names something the period does not hold. **Verdict:
+treatment nor a study. The own-schooling hypothesis names something the period does not hold. **Verdict:
 insufficient data** on both findings, for causal credibility and demographic significance alike.
 
 ### 8.3 FDT

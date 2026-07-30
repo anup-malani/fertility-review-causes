@@ -13,8 +13,7 @@
 >
 > Restricted to the settings the old-age-security hypothesis is about, where children still plausibly
 > insure old age, more non-child old-age security lowers the annual probability of a birth by
-> **0.007278** (SE
-> 0.002901, 95% CI −0.012963 to −0.001593), pooling four studies. Danzer and Zyska (2023) record their
+> **0.007278** (SE 0.002901, 95% CI −0.012963 to −0.001593), pooling four studies. Danzer and Zyska (2023) record their
 > own Brazilian estimate as 7.6% of the baseline probability that a woman in their sample gives birth
 > in a year, which is the scale to read the pooled figure against.
 >
@@ -22,6 +21,10 @@
 > completed-fertility effect with a usable standard error, below this review's threshold of three
 > studies for pooling, so both are reported on their own: rural China at −0.169 (SE 0.079) and Namibia
 > at −4.58 (SE 1.63).
+>
+> Causal credibility is **Very low** for the retirement-asset channel in the pre-modern period, **Low
+> to moderate** for that channel during the First Demographic Transition, **Low** for it during the
+> Second Demographic Transition, and **Low to moderate** for the grandparent-time channel there.
 >
 > State pensions arrive too late to have started the Western fertility decline, and the live pension
 > channel in rich low-fertility countries runs through grandmothers rather than through retirement
