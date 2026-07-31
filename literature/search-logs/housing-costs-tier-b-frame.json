@@ -1,104 +1,5 @@
 [
  {
-  "openalex": "W2037422701",
-  "doi": "10.1080/02673031003711469",
-  "title": "Homeownership Regimes and Low Fertility",
-  "norm_title": "homeownership regimes and low fertility",
-  "year": 2010,
-  "type": "article",
-  "venue": "Housing Studies",
-  "cited_by": 196,
-  "seeds_backward": [
-   "r2:delay-expensive",
-   "r2:family-dynamics",
-   "r2:housing-family-intro",
-   "r2:psp-italy"
-  ],
-  "seeds_forward": [
-   "r2:britain-tenure",
-   "r2:mulder-hoform",
-   "r2:nl-formation"
-  ],
-  "n_seeds": 7,
-  "first_found_round": 2,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
-  "openalex": "W2132599910",
-  "doi": "10.4054/demres.2007.17.26",
-  "title": "Fertility differences by housing type",
-  "norm_title": "fertility differences by housing type",
-  "year": 2007,
-  "type": "article",
-  "venue": "Demographic Research",
-  "cited_by": 155,
-  "seeds_backward": [
-   "r2:delay-expensive",
-   "r2:family-dynamics",
-   "r2:housing-family-intro",
-   "r2:psp-italy"
-  ],
-  "seeds_forward": [
-   "r2:britain-tenure",
-   "r2:mulder-hoform",
-   "r2:nl-formation"
-  ],
-  "n_seeds": 7,
-  "first_found_round": 2,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
-  "openalex": "W3136414866",
-  "doi": "10.1080/02673037.2021.1893279",
-  "title": "Housing and fertility: a macro-level, multi-country investigation, 1993-2017",
-  "norm_title": "housing and fertility a macro level multi country investigation 1993 2017",
-  "year": 2021,
-  "type": "article",
-  "venue": "Housing Studies",
-  "cited_by": 118,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r1:lovenheim-mumford",
-   "r1:mulder-billari",
-   "r2:delay-expensive",
-   "r2:family-dynamics",
-   "r2:housing-family-intro",
-   "r2:nl-formation",
-   "r2:psp-italy"
-  ],
-  "n_seeds": 7,
-  "first_found_round": 1,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
-  "openalex": "W2089747765",
-  "doi": "10.1007/s00148-010-0345-5",
-  "title": "Housing and children: simultaneous decisions?\u2014a cohort study of young adults\u2019 housing and family formation decision",
-  "norm_title": "housing and children simultaneous decisions a cohort study of young adults housing and family formation decision",
-  "year": 2010,
-  "type": "article",
-  "venue": "Journal of Population Economics",
-  "cited_by": 80,
-  "seeds_backward": [
-   "r2:delay-expensive",
-   "r2:family-dynamics",
-   "r2:psp-italy"
-  ],
-  "seeds_forward": [
-   "r1:mulder-billari",
-   "r2:britain-tenure",
-   "r2:mulder-hoform",
-   "r2:nl-formation"
-  ],
-  "n_seeds": 7,
-  "first_found_round": 1,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
   "openalex": "W4415509319",
   "doi": "10.1002/psp.70131",
   "title": "Housing Expenditure and Births in Italy",
@@ -115,34 +16,72 @@
    "r2:housing-family-intro",
    "r2:mulder-hoform",
    "r2:nl-formation",
-   "r2:psp-italy"
+   "r2:psp-italy",
+   "r3:china-housing-wealth",
+   "r3:dutch-crisis",
+   "r3:housing-type",
+   "r3:li-global-1870",
+   "r3:us-affordability"
   ],
-  "n_seeds": 7,
+  "n_seeds": 12,
   "first_found_round": 1,
   "provisional_relevance": "RELEVANT_CANDIDATE",
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W2065377959",
-  "doi": "10.1007/s10901-006-9050-9",
-  "title": "Home-ownership and family formation",
-  "norm_title": "home ownership and family formation",
-  "year": 2006,
+  "openalex": "W2089747765",
+  "doi": "10.1007/s00148-010-0345-5",
+  "title": "Housing and children: simultaneous decisions?\u2014a cohort study of young adults\u2019 housing and family formation decision",
+  "norm_title": "housing and children simultaneous decisions a cohort study of young adults housing and family formation decision",
+  "year": 2010,
   "type": "article",
-  "venue": "Journal of Housing and the Built Environment",
-  "cited_by": 195,
+  "venue": "Journal of Population Economics",
+  "cited_by": 80,
   "seeds_backward": [
-   "r1:mulder-billari",
    "r2:delay-expensive",
+   "r2:family-dynamics",
+   "r2:psp-italy",
+   "r3:china-housing-wealth",
+   "r3:dutch-crisis",
+   "r3:wealth-asymmetry"
+  ],
+  "seeds_forward": [
+   "r1:mulder-billari",
+   "r2:britain-tenure",
+   "r2:mulder-hoform",
+   "r2:nl-formation",
+   "r3:housing-type"
+  ],
+  "n_seeds": 11,
+  "first_found_round": 1,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W2037422701",
+  "doi": "10.1080/02673031003711469",
+  "title": "Homeownership Regimes and Low Fertility",
+  "norm_title": "homeownership regimes and low fertility",
+  "year": 2010,
+  "type": "article",
+  "venue": "Housing Studies",
+  "cited_by": 196,
+  "seeds_backward": [
+   "r2:delay-expensive",
+   "r2:family-dynamics",
    "r2:housing-family-intro",
-   "r2:psp-italy"
+   "r2:psp-italy",
+   "r3:china-price-intentions",
+   "r3:dutch-crisis",
+   "r3:us-affordability"
   ],
   "seeds_forward": [
    "r2:britain-tenure",
+   "r2:mulder-hoform",
    "r2:nl-formation"
   ],
-  "n_seeds": 6,
-  "first_found_round": 1,
+  "n_seeds": 10,
+  "first_found_round": 2,
   "provisional_relevance": "RELEVANT_CANDIDATE",
   "tier_b_status": "candidate_unscreened"
  },
@@ -160,12 +99,122 @@
    "r2:family-dynamics",
    "r2:housing-family-intro",
    "r2:mulder-hoform",
-   "r2:psp-italy"
+   "r2:psp-italy",
+   "r3:china-price-intentions",
+   "r3:dutch-crisis",
+   "r3:housing-type",
+   "r3:us-affordability"
   ],
   "seeds_forward": [
    "r2:britain-tenure"
   ],
-  "n_seeds": 6,
+  "n_seeds": 10,
+  "first_found_round": 1,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W2132599910",
+  "doi": "10.4054/demres.2007.17.26",
+  "title": "Fertility differences by housing type",
+  "norm_title": "fertility differences by housing type",
+  "year": 2007,
+  "type": "article",
+  "venue": "Demographic Research",
+  "cited_by": 155,
+  "seeds_backward": [
+   "r2:delay-expensive",
+   "r2:family-dynamics",
+   "r2:housing-family-intro",
+   "r2:psp-italy",
+   "r3:us-affordability"
+  ],
+  "seeds_forward": [
+   "r2:britain-tenure",
+   "r2:mulder-hoform",
+   "r2:nl-formation",
+   "r3:crowding-1975"
+  ],
+  "n_seeds": 9,
+  "first_found_round": 2,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W3136414866",
+  "doi": "10.1080/02673037.2021.1893279",
+  "title": "Housing and fertility: a macro-level, multi-country investigation, 1993-2017",
+  "norm_title": "housing and fertility a macro level multi country investigation 1993 2017",
+  "year": 2021,
+  "type": "article",
+  "venue": "Housing Studies",
+  "cited_by": 118,
+  "seeds_backward": [
+   "r3:dutch-crisis",
+   "r3:us-affordability"
+  ],
+  "seeds_forward": [
+   "r1:lovenheim-mumford",
+   "r1:mulder-billari",
+   "r2:delay-expensive",
+   "r2:family-dynamics",
+   "r2:housing-family-intro",
+   "r2:nl-formation",
+   "r2:psp-italy"
+  ],
+  "n_seeds": 9,
+  "first_found_round": 1,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W2065377959",
+  "doi": "10.1007/s10901-006-9050-9",
+  "title": "Home-ownership and family formation",
+  "norm_title": "home ownership and family formation",
+  "year": 2006,
+  "type": "article",
+  "venue": "Journal of Housing and the Built Environment",
+  "cited_by": 195,
+  "seeds_backward": [
+   "r1:mulder-billari",
+   "r2:delay-expensive",
+   "r2:housing-family-intro",
+   "r2:psp-italy",
+   "r3:housing-type",
+   "r3:us-affordability"
+  ],
+  "seeds_forward": [
+   "r2:britain-tenure",
+   "r2:nl-formation"
+  ],
+  "n_seeds": 8,
+  "first_found_round": 1,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W2532821622",
+  "doi": "10.1093/oxfordjournals.esr.a036390",
+  "title": "Housing tenure and family formation in contemporary Britain",
+  "norm_title": "housing tenure and family formation in contemporary britain",
+  "year": 1985,
+  "type": "article",
+  "venue": "European Sociological Review",
+  "cited_by": 84,
+  "seeds_backward": [
+   "r1:mulder-billari",
+   "r2:housing-family-intro",
+   "r2:mulder-hoform",
+   "r2:nl-formation",
+   "r2:psp-italy",
+   "r3:housing-type",
+   "r3:us-affordability"
+  ],
+  "seeds_forward": [
+   "r3:crowding-1975"
+  ],
+  "n_seeds": 8,
   "first_found_round": 1,
   "provisional_relevance": "RELEVANT_CANDIDATE",
   "tier_b_status": "candidate_unscreened"
@@ -179,7 +228,10 @@
   "type": "article",
   "venue": "Demography",
   "cited_by": 30,
-  "seeds_backward": [],
+  "seeds_backward": [
+   "r3:dutch-crisis",
+   "r3:us-affordability"
+  ],
   "seeds_forward": [
    "r1:mulder-billari",
    "r2:britain-tenure",
@@ -188,7 +240,106 @@
    "r2:nl-formation",
    "r2:psp-italy"
   ],
-  "n_seeds": 6,
+  "n_seeds": 8,
+  "first_found_round": 1,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W2069584552",
+  "doi": "10.1007/s13524-013-0216-2",
+  "title": "Interrelationships Between Childbearing and Housing Transitions in the Family Life Course",
+  "norm_title": "interrelationships between childbearing and housing transitions in the family life course",
+  "year": 2013,
+  "type": "article",
+  "venue": "Demography",
+  "cited_by": 116,
+  "seeds_backward": [
+   "r3:us-affordability"
+  ],
+  "seeds_forward": [
+   "r1:mulder-billari",
+   "r2:britain-tenure",
+   "r2:delay-expensive",
+   "r2:mulder-hoform",
+   "r2:nl-formation",
+   "r3:housing-type"
+  ],
+  "n_seeds": 7,
+  "first_found_round": 1,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W2983123230",
+  "doi": "10.1002/psp.2289",
+  "title": "Fertility intentions of having a second child among the floating population in China: Effects of socioeconomic factors and home ownership",
+  "norm_title": "fertility intentions of having a second child among the floating population in china effects of socioeconomic factors and home ownership",
+  "year": 2019,
+  "type": "article",
+  "venue": "Population Space and Place",
+  "cited_by": 73,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r1:lovenheim-mumford",
+   "r1:mulder-billari",
+   "r2:britain-tenure",
+   "r2:nl-formation",
+   "r2:psp-italy",
+   "r3:crowding-1975",
+   "r3:housing-type"
+  ],
+  "n_seeds": 7,
+  "first_found_round": 1,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W3121393843",
+  "doi": "10.5018/economics-ejournal.ja.2019-38",
+  "title": "The Effect of House Prices on Fertility: Evidence from Canada",
+  "norm_title": "the effect of house prices on fertility evidence from canada",
+  "year": 2015,
+  "type": "article",
+  "venue": "DOAJ (DOAJ: Directory of Open Access Journals)",
+  "cited_by": 32,
+  "seeds_backward": [
+   "r1:daysal-etal",
+   "r3:china-housing-wealth",
+   "r3:dutch-crisis",
+   "r3:li-global-1870",
+   "r3:us-affordability"
+  ],
+  "seeds_forward": [
+   "r1:lovenheim-mumford",
+   "r2:delay-expensive"
+  ],
+  "n_seeds": 7,
+  "first_found_round": 1,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W2800948146",
+  "doi": "10.1080/02673037.2018.1458288",
+  "title": "Housing context and childbearing in Sweden: a cohort study",
+  "norm_title": "housing context and childbearing in sweden a cohort study",
+  "year": 2018,
+  "type": "article",
+  "venue": "Housing Studies",
+  "cited_by": 28,
+  "seeds_backward": [
+   "r3:us-affordability"
+  ],
+  "seeds_forward": [
+   "r1:mulder-billari",
+   "r2:britain-tenure",
+   "r2:mulder-hoform",
+   "r2:nl-formation",
+   "r2:psp-italy",
+   "r3:housing-type"
+  ],
+  "n_seeds": 7,
   "first_found_round": 1,
   "provisional_relevance": "RELEVANT_CANDIDATE",
   "tier_b_status": "candidate_unscreened"
@@ -209,9 +360,34 @@
    "r2:delay-expensive",
    "r2:mulder-hoform",
    "r2:nl-formation",
-   "r2:psp-italy"
+   "r2:psp-italy",
+   "r3:housing-type"
   ],
-  "n_seeds": 6,
+  "n_seeds": 7,
+  "first_found_round": 1,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W4406083342",
+  "doi": "10.1002/psp.2883",
+  "title": "Parental Dependency and Costly Offspring: Housing and Fertility of Young Adults in China's Large City",
+  "norm_title": "parental dependency and costly offspring housing and fertility of young adults in china s large city",
+  "year": 2025,
+  "type": "article",
+  "venue": "Population Space and Place",
+  "cited_by": 7,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r1:lovenheim-mumford",
+   "r1:mulder-billari",
+   "r2:mulder-hoform",
+   "r2:psp-italy",
+   "r3:housing-type",
+   "r3:us-affordability",
+   "r3:wealth-asymmetry"
+  ],
+  "n_seeds": 7,
   "first_found_round": 1,
   "provisional_relevance": "RELEVANT_CANDIDATE",
   "tier_b_status": "candidate_unscreened"
@@ -232,7 +408,57 @@
    "r2:family-dynamics",
    "r2:mulder-hoform",
    "r2:nl-formation",
-   "r2:psp-italy"
+   "r2:psp-italy",
+   "r3:housing-type"
+  ],
+  "n_seeds": 7,
+  "first_found_round": 1,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W4416223623",
+  "doi": "10.1007/s10680-025-09754-6",
+  "title": "Rising House Prices, Falling Fertility? How Rising House Prices Widen Fertility Differences between Tenure Groups",
+  "norm_title": "rising house prices falling fertility how rising house prices widen fertility differences between tenure groups",
+  "year": 2025,
+  "type": "article",
+  "venue": "European Journal of Population / Revue europ\u00e9enne de D\u00e9mographie",
+  "cited_by": 4,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r1:lovenheim-mumford",
+   "r1:mulder-billari",
+   "r2:delay-expensive",
+   "r2:nl-formation",
+   "r3:china-housing-wealth",
+   "r3:dutch-crisis",
+   "r3:us-affordability"
+  ],
+  "n_seeds": 7,
+  "first_found_round": 1,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W2035671284",
+  "doi": "10.1162/rest_a_00266",
+  "title": "Do Family Wealth Shocks Affect Fertility Choices? Evidence from the Housing Market",
+  "norm_title": "do family wealth shocks affect fertility choices evidence from the housing market",
+  "year": 2012,
+  "type": "article",
+  "venue": "The Review of Economics and Statistics",
+  "cited_by": 328,
+  "seeds_backward": [
+   "r1:daysal-etal",
+   "r3:china-housing-wealth",
+   "r3:china-price-intentions",
+   "r3:dutch-crisis",
+   "r3:li-global-1870",
+   "r3:wealth-asymmetry"
+  ],
+  "seeds_forward": [
+   "r3:wealth-asymmetry"
   ],
   "n_seeds": 6,
   "first_found_round": 1,
@@ -240,86 +466,183 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W2069584552",
-  "doi": "10.1007/s13524-013-0216-2",
-  "title": "Interrelationships Between Childbearing and Housing Transitions in the Family Life Course",
-  "norm_title": "interrelationships between childbearing and housing transitions in the family life course",
-  "year": 2013,
+  "openalex": "W2125780906",
+  "doi": "10.1002/psp.1716",
+  "title": "A Home to Plan the First Child? Fertility Intentions and Housing Conditions in Italy",
+  "norm_title": "a home to plan the first child fertility intentions and housing conditions in italy",
+  "year": 2012,
   "type": "article",
-  "venue": "Demography",
-  "cited_by": 116,
-  "seeds_backward": [],
+  "venue": "Population Space and Place",
+  "cited_by": 137,
+  "seeds_backward": [
+   "r3:us-affordability"
+  ],
   "seeds_forward": [
    "r1:mulder-billari",
    "r2:britain-tenure",
-   "r2:delay-expensive",
-   "r2:mulder-hoform",
-   "r2:nl-formation"
-  ],
-  "n_seeds": 5,
-  "first_found_round": 1,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
-  "openalex": "W2532821622",
-  "doi": "10.1093/oxfordjournals.esr.a036390",
-  "title": "Housing tenure and family formation in contemporary Britain",
-  "norm_title": "housing tenure and family formation in contemporary britain",
-  "year": 1985,
-  "type": "article",
-  "venue": "European Sociological Review",
-  "cited_by": 84,
-  "seeds_backward": [
-   "r1:mulder-billari",
-   "r2:housing-family-intro",
    "r2:mulder-hoform",
    "r2:nl-formation",
-   "r2:psp-italy"
+   "r3:housing-type"
   ],
-  "seeds_forward": [],
-  "n_seeds": 5,
+  "n_seeds": 6,
   "first_found_round": 1,
   "provisional_relevance": "RELEVANT_CANDIDATE",
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W2983123230",
-  "doi": "10.1002/psp.2289",
-  "title": "Fertility intentions of having a second child among the floating population in China: Effects of socioeconomic factors and home ownership",
-  "norm_title": "fertility intentions of having a second child among the floating population in china effects of socioeconomic factors and home ownership",
-  "year": 2019,
+  "openalex": "W2099386106",
+  "doi": "10.4054/demres.2012.27.1",
+  "title": "Do women delay family formation in expensive housing markets?",
+  "norm_title": "do women delay family formation in expensive housing markets",
+  "year": 2012,
   "type": "article",
-  "venue": "Population Space and Place",
-  "cited_by": 73,
+  "venue": "Demographic Research",
+  "cited_by": 79,
+  "seeds_backward": [
+   "r2:family-dynamics",
+   "r3:dutch-crisis",
+   "r3:us-affordability"
+  ],
+  "seeds_forward": [
+   "r1:mulder-billari",
+   "r2:mulder-hoform",
+   "r3:housing-type"
+  ],
+  "n_seeds": 6,
+  "first_found_round": 1,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W4294869853",
+  "doi": "10.1080/02673037.2022.2108382",
+  "title": "Homeownership and fertility intentions among migrant population in urban China",
+  "norm_title": "homeownership and fertility intentions among migrant population in urban china",
+  "year": 2022,
+  "type": "article",
+  "venue": "Housing Studies",
+  "cited_by": 24,
   "seeds_backward": [],
   "seeds_forward": [
    "r1:lovenheim-mumford",
    "r1:mulder-billari",
-   "r2:britain-tenure",
    "r2:nl-formation",
-   "r2:psp-italy"
+   "r2:psp-italy",
+   "r3:china-price-intentions",
+   "r3:housing-type"
   ],
-  "n_seeds": 5,
+  "n_seeds": 6,
   "first_found_round": 1,
   "provisional_relevance": "RELEVANT_CANDIDATE",
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W2800948146",
-  "doi": "10.1080/02673037.2018.1458288",
-  "title": "Housing context and childbearing in Sweden: a cohort study",
-  "norm_title": "housing context and childbearing in sweden a cohort study",
-  "year": 2018,
+  "openalex": "W4403835493",
+  "doi": "10.3390/su16219352",
+  "title": "Housing Inclusion Perspective: The Causal Structure of Housing Cost Burden, Fertility Intentions, and Social Housing in Urban China",
+  "norm_title": "housing inclusion perspective the causal structure of housing cost burden fertility intentions and social housing in urban china",
+  "year": 2024,
   "type": "article",
-  "venue": "Housing Studies",
-  "cited_by": 28,
+  "venue": "Sustainability",
+  "cited_by": 5,
   "seeds_backward": [],
   "seeds_forward": [
-   "r1:mulder-billari",
+   "r1:lovenheim-mumford",
    "r2:britain-tenure",
+   "r2:delay-expensive",
+   "r2:family-dynamics",
+   "r2:mulder-hoform",
+   "r3:china-price-intentions"
+  ],
+  "n_seeds": 6,
+  "first_found_round": 1,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W4406684808",
+  "doi": "10.1080/12265934.2025.2452507",
+  "title": "Housing market, social housing, and fertility: evidence from urban China",
+  "norm_title": "housing market social housing and fertility evidence from urban china",
+  "year": 2025,
+  "type": "article",
+  "venue": "International Journal of Urban Sciences",
+  "cited_by": 2,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r1:daysal-etal",
+   "r1:lovenheim-mumford",
+   "r2:britain-tenure",
+   "r2:delay-expensive",
+   "r2:mulder-hoform",
+   "r3:china-price-intentions"
+  ],
+  "n_seeds": 6,
+  "first_found_round": 1,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W4410111576",
+  "doi": "10.2139/ssrn.5208139",
+  "title": "No room, no baby boom -the impact of housing markets on fertility",
+  "norm_title": "no room no baby boom the impact of housing markets on fertility",
+  "year": 2025,
+  "type": "preprint",
+  "venue": "SSRN Electronic Journal",
+  "cited_by": 0,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r1:daysal-etal",
+   "r1:dettling-kearney",
+   "r1:lovenheim-mumford",
+   "r2:delay-expensive",
+   "r2:mulder-hoform",
+   "r3:china-price-intentions"
+  ],
+  "n_seeds": 6,
+  "first_found_round": 1,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W2736179794",
+  "doi": "10.1007/s13524-017-0592-0",
+  "title": "Fertility Intentions and Residential Relocations",
+  "norm_title": "fertility intentions and residential relocations",
+  "year": 2017,
+  "type": "article",
+  "venue": "Demography",
+  "cited_by": 57,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r2:family-dynamics",
    "r2:mulder-hoform",
    "r2:nl-formation",
+   "r2:psp-italy",
+   "r3:housing-type"
+  ],
+  "n_seeds": 5,
+  "first_found_round": 2,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W2470035674",
+  "doi": "10.1080/00779954.2016.1199591",
+  "title": "The effect of the price or rental cost of housing on family size: a theoretical analysis with reference to New Zealand",
+  "norm_title": "the effect of the price or rental cost of housing on family size a theoretical analysis with reference to new zealand",
+  "year": 2016,
+  "type": "article",
+  "venue": "New Zealand Economic Papers",
+  "cited_by": 16,
+  "seeds_backward": [
+   "r3:china-price-intentions",
+   "r3:li-global-1870"
+  ],
+  "seeds_forward": [
+   "r1:lovenheim-mumford",
+   "r2:delay-expensive",
    "r2:psp-italy"
   ],
   "n_seeds": 5,
@@ -372,135 +695,6 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W4403835493",
-  "doi": "10.3390/su16219352",
-  "title": "Housing Inclusion Perspective: The Causal Structure of Housing Cost Burden, Fertility Intentions, and Social Housing in Urban China",
-  "norm_title": "housing inclusion perspective the causal structure of housing cost burden fertility intentions and social housing in urban china",
-  "year": 2024,
-  "type": "article",
-  "venue": "Sustainability",
-  "cited_by": 5,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r1:lovenheim-mumford",
-   "r2:britain-tenure",
-   "r2:delay-expensive",
-   "r2:family-dynamics",
-   "r2:mulder-hoform"
-  ],
-  "n_seeds": 5,
-  "first_found_round": 1,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
-  "openalex": "W4406684808",
-  "doi": "10.1080/12265934.2025.2452507",
-  "title": "Housing market, social housing, and fertility: evidence from urban China",
-  "norm_title": "housing market social housing and fertility evidence from urban china",
-  "year": 2025,
-  "type": "article",
-  "venue": "International Journal of Urban Sciences",
-  "cited_by": 2,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r1:daysal-etal",
-   "r1:lovenheim-mumford",
-   "r2:britain-tenure",
-   "r2:delay-expensive",
-   "r2:mulder-hoform"
-  ],
-  "n_seeds": 5,
-  "first_found_round": 1,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
-  "openalex": "W4410111576",
-  "doi": "10.2139/ssrn.5208139",
-  "title": "No room, no baby boom -the impact of housing markets on fertility",
-  "norm_title": "no room no baby boom the impact of housing markets on fertility",
-  "year": 2025,
-  "type": "preprint",
-  "venue": "SSRN Electronic Journal",
-  "cited_by": 0,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r1:daysal-etal",
-   "r1:dettling-kearney",
-   "r1:lovenheim-mumford",
-   "r2:delay-expensive",
-   "r2:mulder-hoform"
-  ],
-  "n_seeds": 5,
-  "first_found_round": 1,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
-  "openalex": "W2125780906",
-  "doi": "10.1002/psp.1716",
-  "title": "A Home to Plan the First Child? Fertility Intentions and Housing Conditions in Italy",
-  "norm_title": "a home to plan the first child fertility intentions and housing conditions in italy",
-  "year": 2012,
-  "type": "article",
-  "venue": "Population Space and Place",
-  "cited_by": 137,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r1:mulder-billari",
-   "r2:britain-tenure",
-   "r2:mulder-hoform",
-   "r2:nl-formation"
-  ],
-  "n_seeds": 4,
-  "first_found_round": 1,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
-  "openalex": "W2736179794",
-  "doi": "10.1007/s13524-017-0592-0",
-  "title": "Fertility Intentions and Residential Relocations",
-  "norm_title": "fertility intentions and residential relocations",
-  "year": 2017,
-  "type": "article",
-  "venue": "Demography",
-  "cited_by": 57,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r2:family-dynamics",
-   "r2:mulder-hoform",
-   "r2:nl-formation",
-   "r2:psp-italy"
-  ],
-  "n_seeds": 4,
-  "first_found_round": 2,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
-  "openalex": "W4294869853",
-  "doi": "10.1080/02673037.2022.2108382",
-  "title": "Homeownership and fertility intentions among migrant population in urban China",
-  "norm_title": "homeownership and fertility intentions among migrant population in urban china",
-  "year": 2022,
-  "type": "article",
-  "venue": "Housing Studies",
-  "cited_by": 24,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r1:lovenheim-mumford",
-   "r1:mulder-billari",
-   "r2:nl-formation",
-   "r2:psp-italy"
-  ],
-  "n_seeds": 4,
-  "first_found_round": 1,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
   "openalex": "W2962698112",
   "doi": "10.1002/psp.2265",
   "title": "Fertility intention\u2010induced relocation: The mediating role of housing markets",
@@ -514,52 +708,11 @@
    "r2:britain-tenure",
    "r2:delay-expensive",
    "r2:nl-formation",
-   "r2:psp-italy"
+   "r2:psp-italy",
+   "r3:housing-type"
   ],
-  "n_seeds": 4,
+  "n_seeds": 5,
   "first_found_round": 2,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
-  "openalex": "W4406083342",
-  "doi": "10.1002/psp.2883",
-  "title": "Parental Dependency and Costly Offspring: Housing and Fertility of Young Adults in China's Large City",
-  "norm_title": "parental dependency and costly offspring housing and fertility of young adults in china s large city",
-  "year": 2025,
-  "type": "article",
-  "venue": "Population Space and Place",
-  "cited_by": 7,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r1:lovenheim-mumford",
-   "r1:mulder-billari",
-   "r2:mulder-hoform",
-   "r2:psp-italy"
-  ],
-  "n_seeds": 4,
-  "first_found_round": 1,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
-  "openalex": "W4416223623",
-  "doi": "10.1007/s10680-025-09754-6",
-  "title": "Rising House Prices, Falling Fertility? How Rising House Prices Widen Fertility Differences between Tenure Groups",
-  "norm_title": "rising house prices falling fertility how rising house prices widen fertility differences between tenure groups",
-  "year": 2025,
-  "type": "article",
-  "venue": "European Journal of Population / Revue europ\u00e9enne de D\u00e9mographie",
-  "cited_by": 4,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r1:lovenheim-mumford",
-   "r1:mulder-billari",
-   "r2:delay-expensive",
-   "r2:nl-formation"
-  ],
-  "n_seeds": 4,
-  "first_found_round": 1,
   "provisional_relevance": "RELEVANT_CANDIDATE",
   "tier_b_status": "candidate_unscreened"
  },
@@ -577,7 +730,416 @@
    "r1:mulder-billari",
    "r2:delay-expensive",
    "r2:mulder-hoform",
-   "r2:psp-italy"
+   "r2:psp-italy",
+   "r3:housing-type"
+  ],
+  "n_seeds": 5,
+  "first_found_round": 1,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W1878609795",
+  "doi": "10.25336/p6wc98",
+  "title": "A Room to Grow: The Residential Density-Dependence of Childbearing in Europe and the United States",
+  "norm_title": "a room to grow the residential density dependence of childbearing in europe and the united states",
+  "year": 2010,
+  "type": "article",
+  "venue": "Canadian Studies in Population",
+  "cited_by": 3,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r1:mulder-billari",
+   "r2:britain-tenure",
+   "r2:nl-formation",
+   "r3:crowding-1975",
+   "r3:housing-type"
+  ],
+  "n_seeds": 5,
+  "first_found_round": 1,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W4409377337",
+  "doi": "10.1002/psp.70036",
+  "title": "Evaluating Housing Policy Effects on Childbirth Intentions in South Korea: Preferences, Benefits, and Policy Implications",
+  "norm_title": "evaluating housing policy effects on childbirth intentions in south korea preferences benefits and policy implications",
+  "year": 2025,
+  "type": "article",
+  "venue": "Population Space and Place",
+  "cited_by": 3,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r2:delay-expensive",
+   "r2:mulder-hoform",
+   "r2:psp-italy",
+   "r3:china-price-intentions",
+   "r3:housing-type"
+  ],
+  "n_seeds": 5,
+  "first_found_round": 2,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W4378192062",
+  "doi": "10.1007/s12546-023-09308-9",
+  "title": "Homeownership pathways and fertility in urban China",
+  "norm_title": "homeownership pathways and fertility in urban china",
+  "year": 2023,
+  "type": "article",
+  "venue": "Journal of Population Research",
+  "cited_by": 2,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r1:mulder-billari",
+   "r2:delay-expensive",
+   "r2:family-dynamics",
+   "r2:nl-formation",
+   "r3:housing-type"
+  ],
+  "n_seeds": 5,
+  "first_found_round": 1,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W4395680672",
+  "doi": "10.2139/ssrn.4808554",
+  "title": "The Effect of House Prices on Fertility: Evidence from House Purchase Restrictions",
+  "norm_title": "the effect of house prices on fertility evidence from house purchase restrictions",
+  "year": 2024,
+  "type": "preprint",
+  "venue": "SSRN Electronic Journal",
+  "cited_by": 1,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r1:daysal-etal",
+   "r1:lovenheim-mumford",
+   "r2:delay-expensive",
+   "r3:china-housing-wealth",
+   "r3:china-price-intentions"
+  ],
+  "n_seeds": 5,
+  "first_found_round": 1,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W7169191591",
+  "doi": "10.1007/978-3-032-30881-8_60",
+  "title": "Homeownership and Transition to Parenthood in Italy",
+  "norm_title": "homeownership and transition to parenthood in italy",
+  "year": 2026,
+  "type": "book-chapter",
+  "venue": "",
+  "cited_by": 0,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r1:mulder-billari",
+   "r2:family-dynamics",
+   "r2:nl-formation",
+   "r2:psp-italy",
+   "r3:dutch-crisis"
+  ],
+  "n_seeds": 5,
+  "first_found_round": 1,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W1544462608",
+  "doi": "10.1080/02673031003711519",
+  "title": "Housing and First Births in Sweden, 1972\u20132005",
+  "norm_title": "housing and first births in sweden 1972 2005",
+  "year": 2010,
+  "type": "article",
+  "venue": "Housing Studies",
+  "cited_by": 0,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r2:britain-tenure",
+   "r2:mulder-hoform",
+   "r2:nl-formation",
+   "r3:crowding-1975",
+   "r3:housing-type"
+  ],
+  "n_seeds": 5,
+  "first_found_round": 2,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W3028664058",
+  "doi": "10.1016/j.chieco.2020.101496",
+  "title": "House price, fertility rates and reproductive intentions",
+  "norm_title": "house price fertility rates and reproductive intentions",
+  "year": 2020,
+  "type": "article",
+  "venue": "China Economic Review",
+  "cited_by": 98,
+  "seeds_backward": [
+   "r3:li-global-1870"
+  ],
+  "seeds_forward": [
+   "r1:lovenheim-mumford",
+   "r1:mulder-billari",
+   "r2:nl-formation"
+  ],
+  "n_seeds": 4,
+  "first_found_round": 1,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W3175165566",
+  "doi": "10.1016/j.jhe.2021.101787",
+  "title": "Housing wealth, fertility intentions and fertility",
+  "norm_title": "housing wealth fertility intentions and fertility",
+  "year": 2021,
+  "type": "article",
+  "venue": "Journal of Housing Economics",
+  "cited_by": 81,
+  "seeds_backward": [
+   "r3:china-housing-wealth"
+  ],
+  "seeds_forward": [
+   "r1:lovenheim-mumford",
+   "r2:britain-tenure",
+   "r2:delay-expensive"
+  ],
+  "n_seeds": 4,
+  "first_found_round": 1,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W3023795878",
+  "doi": "10.1177/0160017620922885",
+  "title": "Do House Prices Affect Fertility Behavior in China? An Empirical Examination",
+  "norm_title": "do house prices affect fertility behavior in china an empirical examination",
+  "year": 2020,
+  "type": "article",
+  "venue": "International Regional Science Review",
+  "cited_by": 48,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r1:lovenheim-mumford",
+   "r1:mulder-billari",
+   "r2:delay-expensive",
+   "r3:housing-type"
+  ],
+  "n_seeds": 4,
+  "first_found_round": 1,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W3007987552",
+  "doi": "10.1093/rfs/hhaa073",
+  "title": "The Babies of Mortgage Market Deregulation",
+  "norm_title": "the babies of mortgage market deregulation",
+  "year": 2020,
+  "type": "article",
+  "venue": "Review of Financial Studies",
+  "cited_by": 28,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r1:lovenheim-mumford",
+   "r1:mulder-billari",
+   "r3:crowding-1975",
+   "r3:housing-type"
+  ],
+  "n_seeds": 4,
+  "first_found_round": 1,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W3125001667",
+  "doi": "10.1177/0042098015615742",
+  "title": "Do housing options affect child birth decisions? Evidence from Taiwan",
+  "norm_title": "do housing options affect child birth decisions evidence from taiwan",
+  "year": 2015,
+  "type": "article",
+  "venue": "Urban Studies",
+  "cited_by": 17,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r2:britain-tenure",
+   "r2:delay-expensive",
+   "r2:nl-formation",
+   "r3:housing-type"
+  ],
+  "n_seeds": 4,
+  "first_found_round": 2,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W4400391089",
+  "doi": "10.1016/j.jhealeco.2024.102915",
+  "title": "Housing wealth, fertility and children's health in China: A regression discontinuity design",
+  "norm_title": "housing wealth fertility and children s health in china a regression discontinuity design",
+  "year": 2024,
+  "type": "article",
+  "venue": "Journal of Health Economics",
+  "cited_by": 15,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r1:daysal-etal",
+   "r1:lovenheim-mumford",
+   "r3:china-housing-wealth",
+   "r3:china-price-intentions"
+  ],
+  "n_seeds": 4,
+  "first_found_round": 1,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W4387993123",
+  "doi": "10.1016/j.cities.2023.104643",
+  "title": "Perceptions of housing stability and fertility intentions among public housing renters in Guangzhou, China",
+  "norm_title": "perceptions of housing stability and fertility intentions among public housing renters in guangzhou china",
+  "year": 2023,
+  "type": "article",
+  "venue": "Cities",
+  "cited_by": 14,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r1:mulder-billari",
+   "r2:psp-italy",
+   "r3:china-price-intentions",
+   "r3:housing-type"
+  ],
+  "n_seeds": 4,
+  "first_found_round": 1,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W3003563339",
+  "doi": "10.1016/j.eap.2020.01.005",
+  "title": "Are housing property rights important for fertility outcomes in China? Empirical evidence and policy issues",
+  "norm_title": "are housing property rights important for fertility outcomes in china empirical evidence and policy issues",
+  "year": 2020,
+  "type": "article",
+  "venue": "Economic Analysis and Policy",
+  "cited_by": 12,
+  "seeds_backward": [
+   "r3:china-price-intentions"
+  ],
+  "seeds_forward": [
+   "r2:britain-tenure",
+   "r2:family-dynamics",
+   "r2:mulder-hoform"
+  ],
+  "n_seeds": 4,
+  "first_found_round": 2,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W4295539930",
+  "doi": "10.3390/jrfm15090403",
+  "title": "Interest Rates, House Prices, Fertility, and the Macroeconomy",
+  "norm_title": "interest rates house prices fertility and the macroeconomy",
+  "year": 2022,
+  "type": "article",
+  "venue": "Journal of risk and financial management",
+  "cited_by": 7,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r1:daysal-etal",
+   "r1:lovenheim-mumford",
+   "r3:china-housing-wealth",
+   "r3:china-price-intentions"
+  ],
+  "n_seeds": 4,
+  "first_found_round": 1,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W4399789370",
+  "doi": "10.1177/02685809241257863",
+  "title": "Housing prices and family fertility decision-making in China: Effect and mechanism",
+  "norm_title": "housing prices and family fertility decision making in china effect and mechanism",
+  "year": 2024,
+  "type": "article",
+  "venue": "International Sociology",
+  "cited_by": 5,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r1:daysal-etal",
+   "r1:lovenheim-mumford",
+   "r3:china-housing-wealth",
+   "r3:china-price-intentions"
+  ],
+  "n_seeds": 4,
+  "first_found_round": 1,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W4381108710",
+  "doi": "10.2139/ssrn.4473936",
+  "title": "More Credit, Fewer Babies? Bank Credit Expansion, House Price, and Fertility",
+  "norm_title": "more credit fewer babies bank credit expansion house price and fertility",
+  "year": 2023,
+  "type": "preprint",
+  "venue": "SSRN Electronic Journal",
+  "cited_by": 4,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r1:daysal-etal",
+   "r1:lovenheim-mumford",
+   "r3:china-housing-wealth",
+   "r3:china-price-intentions"
+  ],
+  "n_seeds": 4,
+  "first_found_round": 1,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W4322772855",
+  "doi": "10.1080/13504851.2023.2186350",
+  "title": "The impacts of house prices on floating population\u2019s fertility intentions \u2013 evidence from China",
+  "norm_title": "the impacts of house prices on floating population s fertility intentions evidence from china",
+  "year": 2023,
+  "type": "article",
+  "venue": "Applied Economics Letters",
+  "cited_by": 3,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r1:daysal-etal",
+   "r1:lovenheim-mumford",
+   "r3:china-housing-wealth",
+   "r3:china-price-intentions"
+  ],
+  "n_seeds": 4,
+  "first_found_round": 1,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W2566527130",
+  "doi": "10.15709/hswr.2016.36.3.204",
+  "title": "Newly Married Couples\u2018 Housing Assets and Childbirth: Focusing on the Households Married Since 2000",
+  "norm_title": "newly married couples housing assets and childbirth focusing on the households married since 2000",
+  "year": 2016,
+  "type": "article",
+  "venue": "Health and Social Welfare Review",
+  "cited_by": 3,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r1:mulder-billari",
+   "r2:delay-expensive",
+   "r2:mulder-hoform",
+   "r3:housing-type"
   ],
   "n_seeds": 4,
   "first_found_round": 1,
@@ -606,23 +1168,44 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W4378192062",
-  "doi": "10.1007/s12546-023-09308-9",
-  "title": "Homeownership pathways and fertility in urban China",
-  "norm_title": "homeownership pathways and fertility in urban china",
-  "year": 2023,
+  "openalex": "W3160060909",
+  "doi": "10.17045/sthlmuni.14555868.v1",
+  "title": "Childbearing Behavior in the Light of Different Housing Regimes: First Births in Sweden 1975-2004",
+  "norm_title": "childbearing behavior in the light of different housing regimes first births in sweden 1975 2004",
+  "year": 2021,
   "type": "article",
-  "venue": "Journal of Population Research",
+  "venue": "Figshare",
   "cited_by": 2,
   "seeds_backward": [],
   "seeds_forward": [
-   "r1:mulder-billari",
-   "r2:delay-expensive",
-   "r2:family-dynamics",
-   "r2:nl-formation"
+   "r2:britain-tenure",
+   "r2:mulder-hoform",
+   "r3:crowding-1975",
+   "r3:housing-type"
   ],
   "n_seeds": 4,
-  "first_found_round": 1,
+  "first_found_round": 2,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W4403174972",
+  "doi": "10.17208/jkpa.2024.08.59.4.159",
+  "title": "Does the Housing Cost Burden Affect Fertility Intention of Public Housing Residents?: Focusing on the Effect of Rent to Income Ratio",
+  "norm_title": "does the housing cost burden affect fertility intention of public housing residents focusing on the effect of rent to income ratio",
+  "year": 2024,
+  "type": "article",
+  "venue": "\uad6d\ud1a0\uacc4\ud68d",
+  "cited_by": 2,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r2:psp-italy",
+   "r3:china-price-intentions",
+   "r3:housing-type",
+   "r3:wealth-asymmetry"
+  ],
+  "n_seeds": 4,
+  "first_found_round": 2,
   "provisional_relevance": "RELEVANT_CANDIDATE",
   "tier_b_status": "candidate_unscreened"
  },
@@ -648,20 +1231,20 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W7169191591",
-  "doi": "10.1007/978-3-032-30881-8_60",
-  "title": "Homeownership and Transition to Parenthood in Italy",
-  "norm_title": "homeownership and transition to parenthood in italy",
+  "openalex": "W7171437109",
+  "doi": "10.1073/pnas.2602426123",
+  "title": "Can stimulating ownership increase fertility: Evidence from housing interventions in China",
+  "norm_title": "can stimulating ownership increase fertility evidence from housing interventions in china",
   "year": 2026,
-  "type": "book-chapter",
-  "venue": "",
+  "type": "article",
+  "venue": "Proceedings of the National Academy of Sciences",
   "cited_by": 0,
   "seeds_backward": [],
   "seeds_forward": [
+   "r1:lovenheim-mumford",
    "r1:mulder-billari",
-   "r2:family-dynamics",
-   "r2:nl-formation",
-   "r2:psp-italy"
+   "r2:delay-expensive",
+   "r3:china-housing-wealth"
   ],
   "n_seeds": 4,
   "first_found_round": 1,
@@ -669,80 +1252,60 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W3028664058",
-  "doi": "10.1016/j.chieco.2020.101496",
-  "title": "House price, fertility rates and reproductive intentions",
-  "norm_title": "house price fertility rates and reproductive intentions",
-  "year": 2020,
+  "openalex": "W7128083268",
+  "doi": "10.1080/02673037.2026.2617564",
+  "title": "Is a family-friendly home still a prerequisite for childbearing?",
+  "norm_title": "is a family friendly home still a prerequisite for childbearing",
+  "year": 2026,
   "type": "article",
-  "venue": "China Economic Review",
-  "cited_by": 98,
+  "venue": "Housing Studies",
+  "cited_by": 0,
   "seeds_backward": [],
   "seeds_forward": [
-   "r1:lovenheim-mumford",
    "r1:mulder-billari",
-   "r2:nl-formation"
+   "r2:delay-expensive",
+   "r3:dutch-crisis",
+   "r3:us-affordability"
   ],
-  "n_seeds": 3,
+  "n_seeds": 4,
   "first_found_round": 1,
   "provisional_relevance": "RELEVANT_CANDIDATE",
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W3175165566",
-  "doi": "10.1016/j.jhe.2021.101787",
-  "title": "Housing wealth, fertility intentions and fertility",
-  "norm_title": "housing wealth fertility intentions and fertility",
+  "openalex": "W2081775216",
+  "doi": "10.1111/j.1465-7295.2009.00213.x",
+  "title": "THE EFFECT OF HOUSE PRICE ON FERTILITY: EVIDENCE FROM HONG KONG",
+  "norm_title": "the effect of house price on fertility evidence from hong kong",
+  "year": 2010,
+  "type": "article",
+  "venue": "Economic Inquiry",
+  "cited_by": 76,
+  "seeds_backward": [
+   "r3:china-housing-wealth",
+   "r3:china-price-intentions",
+   "r3:li-global-1870"
+  ],
+  "seeds_forward": [],
+  "n_seeds": 3,
+  "first_found_round": 3,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W3217487213",
+  "doi": "10.1007/s00148-021-00879-6",
+  "title": "Housing wealth and fertility: evidence from China",
+  "norm_title": "housing wealth and fertility evidence from china",
   "year": 2021,
   "type": "article",
-  "venue": "Journal of Housing Economics",
-  "cited_by": 81,
+  "venue": "Journal of Population Economics",
+  "cited_by": 50,
   "seeds_backward": [],
   "seeds_forward": [
+   "r1:daysal-etal",
    "r1:lovenheim-mumford",
-   "r2:britain-tenure",
-   "r2:delay-expensive"
-  ],
-  "n_seeds": 3,
-  "first_found_round": 1,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
-  "openalex": "W2099386106",
-  "doi": "10.4054/demres.2012.27.1",
-  "title": "Do women delay family formation in expensive housing markets?",
-  "norm_title": "do women delay family formation in expensive housing markets",
-  "year": 2012,
-  "type": "article",
-  "venue": "Demographic Research",
-  "cited_by": 79,
-  "seeds_backward": [
-   "r2:family-dynamics"
-  ],
-  "seeds_forward": [
-   "r1:mulder-billari",
-   "r2:mulder-hoform"
-  ],
-  "n_seeds": 3,
-  "first_found_round": 1,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
-  "openalex": "W3023795878",
-  "doi": "10.1177/0160017620922885",
-  "title": "Do House Prices Affect Fertility Behavior in China? An Empirical Examination",
-  "norm_title": "do house prices affect fertility behavior in china an empirical examination",
-  "year": 2020,
-  "type": "article",
-  "venue": "International Regional Science Review",
-  "cited_by": 48,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r1:lovenheim-mumford",
-   "r1:mulder-billari",
-   "r2:delay-expensive"
+   "r3:wealth-asymmetry"
   ],
   "n_seeds": 3,
   "first_found_round": 1,
@@ -770,16 +1333,58 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W3121393843",
-  "doi": "10.5018/economics-ejournal.ja.2019-38",
-  "title": "The Effect of House Prices on Fertility: Evidence from Canada",
-  "norm_title": "the effect of house prices on fertility evidence from canada",
-  "year": 2015,
+  "openalex": "W2564508074",
+  "doi": "10.4054/demres.2016.35.54",
+  "title": "Fertility expectations and residential mobility in Britain",
+  "norm_title": "fertility expectations and residential mobility in britain",
+  "year": 2016,
   "type": "article",
-  "venue": "DOAJ (DOAJ: Directory of Open Access Journals)",
-  "cited_by": 32,
+  "venue": "Demographic Research",
+  "cited_by": 22,
   "seeds_backward": [
-   "r1:daysal-etal"
+   "r3:us-affordability"
+  ],
+  "seeds_forward": [
+   "r2:delay-expensive",
+   "r2:nl-formation"
+  ],
+  "n_seeds": 3,
+  "first_found_round": 2,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W2527731065",
+  "doi": "10.2139/ssrn.2846173",
+  "title": "Short-Term Effects of House Prices on Birth Rates",
+  "norm_title": "short term effects of house prices on birth rates",
+  "year": 2016,
+  "type": "preprint",
+  "venue": "SSRN Electronic Journal",
+  "cited_by": 19,
+  "seeds_backward": [
+   "r3:china-housing-wealth"
+  ],
+  "seeds_forward": [
+   "r1:dettling-kearney",
+   "r1:lovenheim-mumford"
+  ],
+  "n_seeds": 3,
+  "first_found_round": 1,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W3116580741",
+  "doi": "10.1002/psp.2413",
+  "title": "Housing costs, self\u2010employment, and fertility",
+  "norm_title": "housing costs self employment and fertility",
+  "year": 2020,
+  "type": "article",
+  "venue": "Population Space and Place",
+  "cited_by": 16,
+  "seeds_backward": [
+   "r3:dutch-crisis"
   ],
   "seeds_forward": [
    "r1:lovenheim-mumford",
@@ -791,19 +1396,19 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W3125001667",
-  "doi": "10.1177/0042098015615742",
-  "title": "Do housing options affect child birth decisions? Evidence from Taiwan",
-  "norm_title": "do housing options affect child birth decisions evidence from taiwan",
-  "year": 2015,
+  "openalex": "W2018346121",
+  "doi": "10.1007/s10834-011-9256-1",
+  "title": "The Crowding-out Effect of Homeownership on Fertility",
+  "norm_title": "the crowding out effect of homeownership on fertility",
+  "year": 2011,
   "type": "article",
-  "venue": "Urban Studies",
-  "cited_by": 17,
+  "venue": "Journal of Family and Economic Issues",
+  "cited_by": 14,
   "seeds_backward": [],
   "seeds_forward": [
    "r2:britain-tenure",
-   "r2:delay-expensive",
-   "r2:nl-formation"
+   "r2:nl-formation",
+   "r3:housing-type"
   ],
   "n_seeds": 3,
   "first_found_round": 2,
@@ -811,39 +1416,40 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W2470035674",
-  "doi": "10.1080/00779954.2016.1199591",
-  "title": "The effect of the price or rental cost of housing on family size: a theoretical analysis with reference to New Zealand",
-  "norm_title": "the effect of the price or rental cost of housing on family size a theoretical analysis with reference to new zealand",
-  "year": 2016,
+  "openalex": "W2227602512",
+  "doi": "",
+  "title": "The Effects of Housing Wealth on Fertility Decisions: Evidence from Japan",
+  "norm_title": "the effects of housing wealth on fertility decisions evidence from japan",
+  "year": 2015,
   "type": "article",
-  "venue": "New Zealand Economic Papers",
-  "cited_by": 16,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r1:lovenheim-mumford",
-   "r2:delay-expensive",
-   "r2:psp-italy"
+  "venue": "Economics bulletin",
+  "cited_by": 9,
+  "seeds_backward": [
+   "r1:daysal-etal",
+   "r3:china-housing-wealth",
+   "r3:wealth-asymmetry"
   ],
+  "seeds_forward": [],
   "n_seeds": 3,
   "first_found_round": 1,
   "provisional_relevance": "RELEVANT_CANDIDATE",
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W3003563339",
-  "doi": "10.1016/j.eap.2020.01.005",
-  "title": "Are housing property rights important for fertility outcomes in China? Empirical evidence and policy issues",
-  "norm_title": "are housing property rights important for fertility outcomes in china empirical evidence and policy issues",
-  "year": 2020,
+  "openalex": "W1981311830",
+  "doi": "10.1080/02732173.1995.9982091",
+  "title": "Effect of housing tenure on fertility",
+  "norm_title": "effect of housing tenure on fertility",
+  "year": 1995,
   "type": "article",
-  "venue": "Economic Analysis and Policy",
-  "cited_by": 12,
-  "seeds_backward": [],
+  "venue": "Sociological Spectrum",
+  "cited_by": 9,
+  "seeds_backward": [
+   "r3:housing-type"
+  ],
   "seeds_forward": [
    "r2:britain-tenure",
-   "r2:family-dynamics",
-   "r2:mulder-hoform"
+   "r3:crowding-1975"
   ],
   "n_seeds": 3,
   "first_found_round": 2,
@@ -891,19 +1497,19 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W1878609795",
-  "doi": "10.25336/p6wc98",
-  "title": "A Room to Grow: The Residential Density-Dependence of Childbearing in Europe and the United States",
-  "norm_title": "a room to grow the residential density dependence of childbearing in europe and the united states",
-  "year": 2010,
+  "openalex": "W4389445056",
+  "doi": "10.1007/s11113-023-09844-5",
+  "title": "The Impact of Supportive Housing Policy Scenarios on Marriage and Fertility Intentions: A Vignette Survey Experimental Study in Shanghai, China",
+  "norm_title": "the impact of supportive housing policy scenarios on marriage and fertility intentions a vignette survey experimental study in shanghai china",
+  "year": 2023,
   "type": "article",
-  "venue": "Canadian Studies in Population",
-  "cited_by": 3,
+  "venue": "Population Research and Policy Review",
+  "cited_by": 6,
   "seeds_backward": [],
   "seeds_forward": [
    "r1:mulder-billari",
-   "r2:britain-tenure",
-   "r2:nl-formation"
+   "r2:psp-italy",
+   "r3:china-price-intentions"
   ],
   "n_seeds": 3,
   "first_found_round": 1,
@@ -911,39 +1517,19 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W2566527130",
-  "doi": "10.15709/hswr.2016.36.3.204",
-  "title": "Newly Married Couples\u2018 Housing Assets and Childbirth: Focusing on the Households Married Since 2000",
-  "norm_title": "newly married couples housing assets and childbirth focusing on the households married since 2000",
-  "year": 2016,
+  "openalex": "W3011450307",
+  "doi": "10.9728/dcs.2020.21.2.327",
+  "title": "The Relationship between Childbirth, Housing and Socio-Economic Factors: The Pattern Analysis using Decision Tree",
+  "norm_title": "the relationship between childbirth housing and socio economic factors the pattern analysis using decision tree",
+  "year": 2020,
   "type": "article",
-  "venue": "Health and Social Welfare Review",
-  "cited_by": 3,
+  "venue": "Journal of Digital Contents Society",
+  "cited_by": 5,
   "seeds_backward": [],
   "seeds_forward": [
-   "r1:mulder-billari",
-   "r2:delay-expensive",
-   "r2:mulder-hoform"
-  ],
-  "n_seeds": 3,
-  "first_found_round": 1,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
-  "openalex": "W4409377337",
-  "doi": "10.1002/psp.70036",
-  "title": "Evaluating Housing Policy Effects on Childbirth Intentions in South Korea: Preferences, Benefits, and Policy Implications",
-  "norm_title": "evaluating housing policy effects on childbirth intentions in south korea preferences benefits and policy implications",
-  "year": 2025,
-  "type": "article",
-  "venue": "Population Space and Place",
-  "cited_by": 3,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r2:delay-expensive",
    "r2:mulder-hoform",
-   "r2:psp-italy"
+   "r2:nl-formation",
+   "r3:housing-type"
   ],
   "n_seeds": 3,
   "first_found_round": 2,
@@ -951,22 +1537,62 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W4395680672",
-  "doi": "10.2139/ssrn.4808554",
-  "title": "The Effect of House Prices on Fertility: Evidence from House Purchase Restrictions",
-  "norm_title": "the effect of house prices on fertility evidence from house purchase restrictions",
-  "year": 2024,
-  "type": "preprint",
-  "venue": "SSRN Electronic Journal",
-  "cited_by": 1,
+  "openalex": "W4414514095",
+  "doi": "10.1007/s12546-025-09402-0",
+  "title": "Does urban housing affordability affect fertility in China",
+  "norm_title": "does urban housing affordability affect fertility in china",
+  "year": 2025,
+  "type": "article",
+  "venue": "Journal of Population Research",
+  "cited_by": 4,
   "seeds_backward": [],
   "seeds_forward": [
-   "r1:daysal-etal",
-   "r1:lovenheim-mumford",
-   "r2:delay-expensive"
+   "r3:china-housing-wealth",
+   "r3:china-price-intentions",
+   "r3:us-affordability"
   ],
   "n_seeds": 3,
-  "first_found_round": 1,
+  "first_found_round": 3,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W2167640214",
+  "doi": "10.13060/00380288.2009.45.6.02",
+  "title": "Housing Affordability in Czech Regions and Demographic Behaviour - Does Housing Affordability Impact Fertility?",
+  "norm_title": "housing affordability in czech regions and demographic behaviour does housing affordability impact fertility",
+  "year": 2009,
+  "type": "article",
+  "venue": "Czech Sociological Review",
+  "cited_by": 3,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r2:britain-tenure",
+   "r3:crowding-1975",
+   "r3:housing-type"
+  ],
+  "n_seeds": 3,
+  "first_found_round": 2,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W4408636255",
+  "doi": "10.3389/fpubh.2025.1328329",
+  "title": "Does inhabitant\u2019s fertility intention respond to housing status in the urban built environment: evidence from China",
+  "norm_title": "does inhabitant s fertility intention respond to housing status in the urban built environment evidence from china",
+  "year": 2025,
+  "type": "article",
+  "venue": "Frontiers in Public Health",
+  "cited_by": 2,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r2:britain-tenure",
+   "r2:psp-italy",
+   "r3:china-price-intentions"
+  ],
+  "n_seeds": 3,
+  "first_found_round": 2,
   "provisional_relevance": "RELEVANT_CANDIDATE",
   "tier_b_status": "candidate_unscreened"
  },
@@ -1033,6 +1659,26 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
+  "openalex": "W4409119166",
+  "doi": "10.1080/00324728.2025.2478929",
+  "title": "Belonging to the neighbourhood, residential mobility, and the transition to parenthood",
+  "norm_title": "belonging to the neighbourhood residential mobility and the transition to parenthood",
+  "year": 2025,
+  "type": "article",
+  "venue": "Population Studies",
+  "cited_by": 1,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r2:delay-expensive",
+   "r2:nl-formation",
+   "r3:housing-type"
+  ],
+  "n_seeds": 3,
+  "first_found_round": 2,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
   "openalex": "W2269158875",
   "doi": "10.2139/ssrn.2585216",
   "title": "Do Housing Options Affect Child Birth Decisions? Evidence from Taiwan",
@@ -1046,6 +1692,26 @@
    "r2:britain-tenure",
    "r2:delay-expensive",
    "r2:nl-formation"
+  ],
+  "n_seeds": 3,
+  "first_found_round": 2,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W4417115105",
+  "doi": "10.21203/rs.3.rs-8107843/v1",
+  "title": "The interconnection of homeownership, marriage and childbearing in the life courses of young male and female adults, by country of origin and generation in Sweden",
+  "norm_title": "the interconnection of homeownership marriage and childbearing in the life courses of young male and female adults by country of origin and generation in sweden",
+  "year": 2025,
+  "type": "preprint",
+  "venue": "Research Square",
+  "cited_by": 1,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r2:nl-formation",
+   "r2:psp-italy",
+   "r3:housing-type"
   ],
   "n_seeds": 3,
   "first_found_round": 2,
@@ -1073,19 +1739,19 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W7171437109",
-  "doi": "10.1073/pnas.2602426123",
-  "title": "Can stimulating ownership increase fertility: Evidence from housing interventions in China",
-  "norm_title": "can stimulating ownership increase fertility evidence from housing interventions in china",
+  "openalex": "W7168258898",
+  "doi": "10.17208/jkpa.2026.06.61.3.23",
+  "title": "Dynamic Interactions among Net Migration of Women of Childbearing Age, Female Employment, Housing Prices, and Fertility: A Comparison between the Capital and Non-Capital Regions",
+  "norm_title": "dynamic interactions among net migration of women of childbearing age female employment housing prices and fertility a comparison between the capital and non capital regions",
   "year": 2026,
   "type": "article",
-  "venue": "Proceedings of the National Academy of Sciences",
+  "venue": "\uad6d\ud1a0\uacc4\ud68d",
   "cited_by": 0,
   "seeds_backward": [],
   "seeds_forward": [
    "r1:lovenheim-mumford",
    "r1:mulder-billari",
-   "r2:delay-expensive"
+   "r3:housing-type"
   ],
   "n_seeds": 3,
   "first_found_round": 1,
@@ -1093,19 +1759,59 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W1544462608",
-  "doi": "10.1080/02673031003711519",
-  "title": "Housing and First Births in Sweden, 1972\u20132005",
-  "norm_title": "housing and first births in sweden 1972 2005",
-  "year": 2010,
+  "openalex": "W637675151",
+  "doi": "",
+  "title": "The Residential Effect on the Risk of Transition to Parenthood in Sweden",
+  "norm_title": "the residential effect on the risk of transition to parenthood in sweden",
+  "year": 2012,
+  "type": "dissertation",
+  "venue": "KTH Publication Database DiVA (KTH Royal Institute of Technology)",
+  "cited_by": 0,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r2:mulder-hoform",
+   "r2:nl-formation",
+   "r3:housing-type"
+  ],
+  "n_seeds": 3,
+  "first_found_round": 2,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W7169552806",
+  "doi": "10.1080/17516234.2026.2704701",
+  "title": "Fertility intention and household consumption patterns among public rental housing residents: evidence from Seoul",
+  "norm_title": "fertility intention and household consumption patterns among public rental housing residents evidence from seoul",
+  "year": 2026,
   "type": "article",
-  "venue": "Housing Studies",
+  "venue": "Journal of Asian Public Policy",
   "cited_by": 0,
   "seeds_backward": [],
   "seeds_forward": [
    "r2:britain-tenure",
-   "r2:mulder-hoform",
-   "r2:nl-formation"
+   "r2:psp-italy",
+   "r3:housing-type"
+  ],
+  "n_seeds": 3,
+  "first_found_round": 2,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W4415443644",
+  "doi": "10.21203/rs.3.rs-7441721/v1",
+  "title": "The Effects of Housing Expenditure Pressure and Gender Preference on the Reproduction Willingness for Young Female Migrants: Evidence from China",
+  "norm_title": "the effects of housing expenditure pressure and gender preference on the reproduction willingness for young female migrants evidence from china",
+  "year": 2025,
+  "type": "preprint",
+  "venue": "Research Square",
+  "cited_by": 0,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r2:psp-italy",
+   "r3:china-housing-wealth",
+   "r3:china-price-intentions"
   ],
   "n_seeds": 3,
   "first_found_round": 2,
@@ -1132,6 +1838,25 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
+  "openalex": "W1973953484",
+  "doi": "10.1016/j.alcr.2014.01.001",
+  "title": "Residential context, migration and fertility in a modern urban society",
+  "norm_title": "residential context migration and fertility in a modern urban society",
+  "year": 2014,
+  "type": "article",
+  "venue": "Advances in Life Course Research",
+  "cited_by": 104,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r2:nl-formation",
+   "r3:housing-type"
+  ],
+  "n_seeds": 2,
+  "first_found_round": 2,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
   "openalex": "W4254487345",
   "doi": "10.31235/osf.io/89gcu",
   "title": "The influence of housing on family size in South Korea: Unstable housing and parity specific risk",
@@ -1151,21 +1876,61 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W3217487213",
-  "doi": "10.1007/s00148-021-00879-6",
-  "title": "Housing wealth and fertility: evidence from China",
-  "norm_title": "housing wealth and fertility evidence from china",
+  "openalex": "W4395475810",
+  "doi": "10.1111/padr.12624",
+  "title": "Fertility Postponement, Economic Uncertainty, and the Increasing Income Prerequisites of Parenthood",
+  "norm_title": "fertility postponement economic uncertainty and the increasing income prerequisites of parenthood",
+  "year": 2024,
+  "type": "article",
+  "venue": "Population and Development Review",
+  "cited_by": 48,
+  "seeds_backward": [
+   "r3:dutch-crisis"
+  ],
+  "seeds_forward": [
+   "r2:family-dynamics"
+  ],
+  "n_seeds": 2,
+  "first_found_round": 2,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W3037455063",
+  "doi": "10.1016/j.jpubeco.2021.104366",
+  "title": "Home prices, fertility, and early-life health outcomes",
+  "norm_title": "home prices fertility and early life health outcomes",
   "year": 2021,
   "type": "article",
-  "venue": "Journal of Population Economics",
-  "cited_by": 50,
-  "seeds_backward": [],
+  "venue": "Journal of Public Economics",
+  "cited_by": 46,
+  "seeds_backward": [
+   "r3:china-housing-wealth"
+  ],
   "seeds_forward": [
-   "r1:daysal-etal",
    "r1:lovenheim-mumford"
   ],
   "n_seeds": 2,
   "first_found_round": 1,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W2086486830",
+  "doi": "10.1086/225997",
+  "title": "The Fertility-Inhibiting Effect of Crowded Apartment Living in a Tight Housing Market",
+  "norm_title": "the fertility inhibiting effect of crowded apartment living in a tight housing market",
+  "year": 1975,
+  "type": "article",
+  "venue": "American Journal of Sociology",
+  "cited_by": 40,
+  "seeds_backward": [
+   "r2:britain-tenure",
+   "r3:housing-type"
+  ],
+  "seeds_forward": [],
+  "n_seeds": 2,
+  "first_found_round": 2,
   "provisional_relevance": "RELEVANT_CANDIDATE",
   "tier_b_status": "candidate_unscreened"
  },
@@ -1189,25 +1954,6 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W3007987552",
-  "doi": "10.1093/rfs/hhaa073",
-  "title": "The Babies of Mortgage Market Deregulation",
-  "norm_title": "the babies of mortgage market deregulation",
-  "year": 2020,
-  "type": "article",
-  "venue": "Review of Financial Studies",
-  "cited_by": 28,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r1:lovenheim-mumford",
-   "r1:mulder-billari"
-  ],
-  "n_seeds": 2,
-  "first_found_round": 1,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
   "openalex": "W3168749274",
   "doi": "10.1016/j.cities.2021.103277",
   "title": "Homeownership out of reach? Intergenerational transfers and homeownership reproduction in middle class families in Rome, Italy",
@@ -1227,6 +1973,25 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
+  "openalex": "W2094971474",
+  "doi": "10.1068/a161303",
+  "title": "The Influence of Fertility, Early Housing-Career, and Socioeconomic Factors on Tenure Determination in Contemporary Britain",
+  "norm_title": "the influence of fertility early housing career and socioeconomic factors on tenure determination in contemporary britain",
+  "year": 1984,
+  "type": "article",
+  "venue": "Environment and Planning A Economy and Space",
+  "cited_by": 25,
+  "seeds_backward": [
+   "r2:nl-formation",
+   "r3:housing-type"
+  ],
+  "seeds_forward": [],
+  "n_seeds": 2,
+  "first_found_round": 2,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
   "openalex": "W3196317587",
   "doi": "10.1177/00420980211040947",
   "title": "Generational variations in the timing of entry into homeownership in Shanghai: The role of family formation and family of origin",
@@ -1238,25 +2003,6 @@
   "seeds_backward": [],
   "seeds_forward": [
    "r2:britain-tenure",
-   "r2:nl-formation"
-  ],
-  "n_seeds": 2,
-  "first_found_round": 2,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
-  "openalex": "W2564508074",
-  "doi": "10.4054/demres.2016.35.54",
-  "title": "Fertility expectations and residential mobility in Britain",
-  "norm_title": "fertility expectations and residential mobility in britain",
-  "year": 2016,
-  "type": "article",
-  "venue": "Demographic Research",
-  "cited_by": 22,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r2:delay-expensive",
    "r2:nl-formation"
   ],
   "n_seeds": 2,
@@ -1284,18 +2030,18 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W2527731065",
-  "doi": "10.2139/ssrn.2846173",
-  "title": "Short-Term Effects of House Prices on Birth Rates",
-  "norm_title": "short term effects of house prices on birth rates",
-  "year": 2016,
-  "type": "preprint",
-  "venue": "SSRN Electronic Journal",
-  "cited_by": 19,
+  "openalex": "W2790470538",
+  "doi": "10.1080/21582041.2018.1433316",
+  "title": "Global demographic change and grandparenthood",
+  "norm_title": "global demographic change and grandparenthood",
+  "year": 2018,
+  "type": "article",
+  "venue": "Contemporary Social Science",
+  "cited_by": 18,
   "seeds_backward": [],
   "seeds_forward": [
-   "r1:dettling-kearney",
-   "r1:lovenheim-mumford"
+   "r1:mulder-billari",
+   "r3:housing-type"
   ],
   "n_seeds": 2,
   "first_found_round": 1,
@@ -1322,37 +2068,38 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W3116580741",
-  "doi": "10.1002/psp.2413",
-  "title": "Housing costs, self\u2010employment, and fertility",
-  "norm_title": "housing costs self employment and fertility",
-  "year": 2020,
+  "openalex": "W2034024285",
+  "doi": "10.1080/19485565.1995.9988902",
+  "title": "Effects of multi\u2010family housing on marital fertility in Iran: Population policy implications",
+  "norm_title": "effects of multi family housing on marital fertility in iran population policy implications",
+  "year": 1995,
   "type": "article",
-  "venue": "Population Space and Place",
-  "cited_by": 16,
-  "seeds_backward": [],
+  "venue": "Social Biology",
+  "cited_by": 18,
+  "seeds_backward": [
+   "r3:housing-type"
+  ],
   "seeds_forward": [
-   "r1:lovenheim-mumford",
-   "r2:delay-expensive"
+   "r3:crowding-1975"
   ],
   "n_seeds": 2,
-  "first_found_round": 1,
+  "first_found_round": 3,
   "provisional_relevance": "RELEVANT_CANDIDATE",
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W4400391089",
-  "doi": "10.1016/j.jhealeco.2024.102915",
-  "title": "Housing wealth, fertility and children's health in China: A regression discontinuity design",
-  "norm_title": "housing wealth fertility and children s health in china a regression discontinuity design",
-  "year": 2024,
+  "openalex": "W4206976708",
+  "doi": "10.1177/01600176211066472",
+  "title": "Impacts of Housing Booms on Fertility in China: A Perspective From Homeownership",
+  "norm_title": "impacts of housing booms on fertility in china a perspective from homeownership",
+  "year": 2022,
   "type": "article",
-  "venue": "Journal of Health Economics",
+  "venue": "International Regional Science Review",
   "cited_by": 15,
   "seeds_backward": [],
   "seeds_forward": [
-   "r1:daysal-etal",
-   "r1:lovenheim-mumford"
+   "r1:lovenheim-mumford",
+   "r3:china-price-intentions"
   ],
   "n_seeds": 2,
   "first_found_round": 1,
@@ -1360,40 +2107,40 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W4387993123",
-  "doi": "10.1016/j.cities.2023.104643",
-  "title": "Perceptions of housing stability and fertility intentions among public housing renters in Guangzhou, China",
-  "norm_title": "perceptions of housing stability and fertility intentions among public housing renters in guangzhou china",
-  "year": 2023,
+  "openalex": "W2078985008",
+  "doi": "10.1371/journal.pone.0051463",
+  "title": "Ownership of Dwelling Affects the Sex Ratio at Birth in Uganda",
+  "norm_title": "ownership of dwelling affects the sex ratio at birth in uganda",
+  "year": 2012,
   "type": "article",
-  "venue": "Cities",
-  "cited_by": 14,
+  "venue": "PLoS ONE",
+  "cited_by": 15,
   "seeds_backward": [],
   "seeds_forward": [
-   "r1:mulder-billari",
-   "r2:psp-italy"
-  ],
-  "n_seeds": 2,
-  "first_found_round": 1,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
-  "openalex": "W2018346121",
-  "doi": "10.1007/s10834-011-9256-1",
-  "title": "The Crowding-out Effect of Homeownership on Fertility",
-  "norm_title": "the crowding out effect of homeownership on fertility",
-  "year": 2011,
-  "type": "article",
-  "venue": "Journal of Family and Economic Issues",
-  "cited_by": 14,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r2:britain-tenure",
-   "r2:nl-formation"
+   "r2:nl-formation",
+   "r3:housing-type"
   ],
   "n_seeds": 2,
   "first_found_round": 2,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W1578574739",
+  "doi": "10.2139/ssrn.1544607",
+  "title": "Do Family Wealth Shocks Affect Fertility Choices? Evidence from the Housing Market Boom and Bust",
+  "norm_title": "do family wealth shocks affect fertility choices evidence from the housing market boom and bust",
+  "year": 2010,
+  "type": "preprint",
+  "venue": "SSRN Electronic Journal",
+  "cited_by": 14,
+  "seeds_backward": [
+   "r1:dettling-kearney",
+   "r3:wealth-asymmetry"
+  ],
+  "seeds_forward": [],
+  "n_seeds": 2,
+  "first_found_round": 1,
   "provisional_relevance": "RELEVANT_CANDIDATE",
   "tier_b_status": "candidate_unscreened"
  },
@@ -1413,6 +2160,26 @@
   ],
   "n_seeds": 2,
   "first_found_round": 1,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W2093798293",
+  "doi": "10.2307/2061200",
+  "title": "The relationship between apartment living and fertility for blacks, Mexican-Americans, and other Americans in Racine, Wisconsin",
+  "norm_title": "the relationship between apartment living and fertility for blacks mexican americans and other americans in racine wisconsin",
+  "year": 1978,
+  "type": "article",
+  "venue": "Demography",
+  "cited_by": 12,
+  "seeds_backward": [
+   "r3:housing-type"
+  ],
+  "seeds_forward": [
+   "r3:crowding-1975"
+  ],
+  "n_seeds": 2,
+  "first_found_round": 3,
   "provisional_relevance": "RELEVANT_CANDIDATE",
   "tier_b_status": "candidate_unscreened"
  },
@@ -1455,6 +2222,65 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
+  "openalex": "W4394819112",
+  "doi": "10.1080/10511482.2024.2328142",
+  "title": "Do Long Commutes Discourage Fertility Intentions Among Young Public Housing Renters in Guangzhou, China?",
+  "norm_title": "do long commutes discourage fertility intentions among young public housing renters in guangzhou china",
+  "year": 2024,
+  "type": "article",
+  "venue": "Housing Policy Debate",
+  "cited_by": 9,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r2:psp-italy",
+   "r3:housing-type"
+  ],
+  "n_seeds": 2,
+  "first_found_round": 2,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W1693336056",
+  "doi": "10.1007/s11150-016-9355-8",
+  "title": "The asymmetric housing wealth effect on childbirth",
+  "norm_title": "the asymmetric housing wealth effect on childbirth",
+  "year": 2017,
+  "type": "article",
+  "venue": "Review of Economics of the Household",
+  "cited_by": 8,
+  "seeds_backward": [
+   "r1:lovenheim-mumford",
+   "r3:china-housing-wealth"
+  ],
+  "seeds_forward": [
+   "r1:lovenheim-mumford"
+  ],
+  "n_seeds": 2,
+  "first_found_round": 1,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W2909074123",
+  "doi": "10.1002/psp.2228",
+  "title": "Adolescent neighbourhood context and transition to parenthood: A longitudinal study",
+  "norm_title": "adolescent neighbourhood context and transition to parenthood a longitudinal study",
+  "year": 2019,
+  "type": "article",
+  "venue": "Population Space and Place",
+  "cited_by": 8,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r2:mulder-hoform",
+   "r3:housing-type"
+  ],
+  "n_seeds": 2,
+  "first_found_round": 2,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
   "openalex": "W2561619311",
   "doi": "10.5018/economics-ejournal.ja.2019-38",
   "title": "The effect of house prices on fertility: evidence from Canada",
@@ -1474,56 +2300,37 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W4295539930",
-  "doi": "10.3390/jrfm15090403",
-  "title": "Interest Rates, House Prices, Fertility, and the Macroeconomy",
-  "norm_title": "interest rates house prices fertility and the macroeconomy",
-  "year": 2022,
+  "openalex": "W1705785736",
+  "doi": "10.1515/zfsoz-2014-0205",
+  "title": "Geburten und die Wohnraumversorgung von Familien: Anpassungen der Wohnung im zeitlichen Verlauf / Childbirth and Room Stress among Families: Housing Adjustments over Time",
+  "norm_title": "geburten und die wohnraumversorgung von familien anpassungen der wohnung im zeitlichen verlauf childbirth and room stress among families housing adjustments over time",
+  "year": 2014,
   "type": "article",
-  "venue": "Journal of risk and financial management",
+  "venue": "Zeitschrift f\u00fcr Soziologie",
   "cited_by": 7,
   "seeds_backward": [],
   "seeds_forward": [
-   "r1:daysal-etal",
-   "r1:lovenheim-mumford"
+   "r2:nl-formation",
+   "r3:housing-type"
   ],
   "n_seeds": 2,
-  "first_found_round": 1,
+  "first_found_round": 2,
   "provisional_relevance": "RELEVANT_CANDIDATE",
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W4389445056",
-  "doi": "10.1007/s11113-023-09844-5",
-  "title": "The Impact of Supportive Housing Policy Scenarios on Marriage and Fertility Intentions: A Vignette Survey Experimental Study in Shanghai, China",
-  "norm_title": "the impact of supportive housing policy scenarios on marriage and fertility intentions a vignette survey experimental study in shanghai china",
-  "year": 2023,
+  "openalex": "W4399107829",
+  "doi": "10.1016/j.labeco.2024.102572",
+  "title": "Do surging house prices discourage fertility? Global evidence, 1870\u20132012",
+  "norm_title": "do surging house prices discourage fertility global evidence 1870 2012",
+  "year": 2024,
   "type": "article",
-  "venue": "Population Research and Policy Review",
+  "venue": "Labour Economics",
   "cited_by": 6,
   "seeds_backward": [],
   "seeds_forward": [
-   "r1:mulder-billari",
-   "r2:psp-italy"
-  ],
-  "n_seeds": 2,
-  "first_found_round": 1,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
-  "openalex": "W4399789370",
-  "doi": "10.1177/02685809241257863",
-  "title": "Housing prices and family fertility decision-making in China: Effect and mechanism",
-  "norm_title": "housing prices and family fertility decision making in china effect and mechanism",
-  "year": 2024,
-  "type": "article",
-  "venue": "International Sociology",
-  "cited_by": 5,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r1:daysal-etal",
-   "r1:lovenheim-mumford"
+   "r1:lovenheim-mumford",
+   "r3:china-price-intentions"
   ],
   "n_seeds": 2,
   "first_found_round": 1,
@@ -1550,25 +2357,6 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W3011450307",
-  "doi": "10.9728/dcs.2020.21.2.327",
-  "title": "The Relationship between Childbirth, Housing and Socio-Economic Factors: The Pattern Analysis using Decision Tree",
-  "norm_title": "the relationship between childbirth housing and socio economic factors the pattern analysis using decision tree",
-  "year": 2020,
-  "type": "article",
-  "venue": "Journal of Digital Contents Society",
-  "cited_by": 5,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r2:mulder-hoform",
-   "r2:nl-formation"
-  ],
-  "n_seeds": 2,
-  "first_found_round": 2,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
   "openalex": "W3131143603",
   "doi": "10.3386/w27469",
   "title": "Home Prices, Fertility, and Early-Life Health Outcomes",
@@ -1580,25 +2368,6 @@
   "seeds_backward": [],
   "seeds_forward": [
    "r1:dettling-kearney",
-   "r1:lovenheim-mumford"
-  ],
-  "n_seeds": 2,
-  "first_found_round": 1,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
-  "openalex": "W4381108710",
-  "doi": "10.2139/ssrn.4473936",
-  "title": "More Credit, Fewer Babies? Bank Credit Expansion, House Price, and Fertility",
-  "norm_title": "more credit fewer babies bank credit expansion house price and fertility",
-  "year": 2023,
-  "type": "preprint",
-  "venue": "SSRN Electronic Journal",
-  "cited_by": 4,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r1:daysal-etal",
    "r1:lovenheim-mumford"
   ],
   "n_seeds": 2,
@@ -1626,18 +2395,56 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W4322772855",
-  "doi": "10.1080/13504851.2023.2186350",
-  "title": "The impacts of house prices on floating population\u2019s fertility intentions \u2013 evidence from China",
-  "norm_title": "the impacts of house prices on floating population s fertility intentions evidence from china",
-  "year": 2023,
+  "openalex": "W3044031111",
+  "doi": "10.4054/demres.2020.43.6",
+  "title": "Transitions to partnership and parenthood: Is China still traditional?",
+  "norm_title": "transitions to partnership and parenthood is china still traditional",
+  "year": 2020,
   "type": "article",
-  "venue": "Applied Economics Letters",
-  "cited_by": 3,
+  "venue": "Demographic Research",
+  "cited_by": 4,
   "seeds_backward": [],
   "seeds_forward": [
-   "r1:daysal-etal",
-   "r1:lovenheim-mumford"
+   "r2:delay-expensive",
+   "r3:housing-type"
+  ],
+  "n_seeds": 2,
+  "first_found_round": 2,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W2342635742",
+  "doi": "10.1515/bog-2016-0004",
+  "title": "Differentiation of reproductive behaviour of the population of the Krak\u00f3w Metropolitan Area in the light of survey research",
+  "norm_title": "differentiation of reproductive behaviour of the population of the krako w metropolitan area in the light of survey research",
+  "year": 2016,
+  "type": "article",
+  "venue": "Bulletin of Geography Socio-economic series",
+  "cited_by": 4,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r3:crowding-1975",
+   "r3:housing-type"
+  ],
+  "n_seeds": 2,
+  "first_found_round": 3,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W4415292321",
+  "doi": "10.1016/j.jue.2025.103812",
+  "title": "Impact of fertility relaxation on the housing market outcomes",
+  "norm_title": "impact of fertility relaxation on the housing market outcomes",
+  "year": 2025,
+  "type": "article",
+  "venue": "Journal of Urban Economics",
+  "cited_by": 2,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r1:lovenheim-mumford",
+   "r3:housing-type"
   ],
   "n_seeds": 2,
   "first_found_round": 1,
@@ -1664,37 +2471,18 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W4408636255",
-  "doi": "10.3389/fpubh.2025.1328329",
-  "title": "Does inhabitant\u2019s fertility intention respond to housing status in the urban built environment: evidence from China",
-  "norm_title": "does inhabitant s fertility intention respond to housing status in the urban built environment evidence from china",
+  "openalex": "W4406768844",
+  "doi": "10.1080/13229400.2025.2452243",
+  "title": "Family migration in Chinese superstar cities: are fertility intentions of migrants affected by co-resident parents?",
+  "norm_title": "family migration in chinese superstar cities are fertility intentions of migrants affected by co resident parents",
   "year": 2025,
   "type": "article",
-  "venue": "Frontiers in Public Health",
+  "venue": "Journal of Family Studies",
   "cited_by": 2,
   "seeds_backward": [],
   "seeds_forward": [
-   "r2:britain-tenure",
-   "r2:psp-italy"
-  ],
-  "n_seeds": 2,
-  "first_found_round": 2,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
-  "openalex": "W3160060909",
-  "doi": "10.17045/sthlmuni.14555868.v1",
-  "title": "Childbearing Behavior in the Light of Different Housing Regimes: First Births in Sweden 1975-2004",
-  "norm_title": "childbearing behavior in the light of different housing regimes first births in sweden 1975 2004",
-  "year": 2021,
-  "type": "article",
-  "venue": "Figshare",
-  "cited_by": 2,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r2:britain-tenure",
-   "r2:mulder-hoform"
+   "r2:psp-italy",
+   "r3:china-price-intentions"
   ],
   "n_seeds": 2,
   "first_found_round": 2,
@@ -1721,40 +2509,40 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W4409119166",
-  "doi": "10.1080/00324728.2025.2478929",
-  "title": "Belonging to the neighbourhood, residential mobility, and the transition to parenthood",
-  "norm_title": "belonging to the neighbourhood residential mobility and the transition to parenthood",
+  "openalex": "W4415742692",
+  "doi": "10.1016/j.ajss.2025.100221",
+  "title": "Housing\u2013fertility interdependencies in South Korea: A dynamic analysis across regional disparities and temporal shifts",
+  "norm_title": "housing fertility interdependencies in south korea a dynamic analysis across regional disparities and temporal shifts",
   "year": 2025,
   "type": "article",
-  "venue": "Population Studies",
+  "venue": "Asian journal of social science",
   "cited_by": 1,
   "seeds_backward": [],
   "seeds_forward": [
-   "r2:delay-expensive",
-   "r2:nl-formation"
+   "r1:daysal-etal",
+   "r3:china-price-intentions"
   ],
   "n_seeds": 2,
-  "first_found_round": 2,
+  "first_found_round": 1,
   "provisional_relevance": "RELEVANT_CANDIDATE",
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W4417115105",
-  "doi": "10.21203/rs.3.rs-8107843/v1",
-  "title": "The interconnection of homeownership, marriage and childbearing in the life courses of young male and female adults, by country of origin and generation in Sweden",
-  "norm_title": "the interconnection of homeownership marriage and childbearing in the life courses of young male and female adults by country of origin and generation in sweden",
-  "year": 2025,
-  "type": "preprint",
-  "venue": "Research Square",
-  "cited_by": 1,
+  "openalex": "W3144108245",
+  "doi": "10.2991/aebmr.k.210319.115",
+  "title": "Housing Purchase Restriction and Birth Rates: An Unintended Consequence of Governmental Intervention",
+  "norm_title": "housing purchase restriction and birth rates an unintended consequence of governmental intervention",
+  "year": 2021,
+  "type": "conference-paper",
+  "venue": "Advances in economics, business and management research/Advances in Economics, Business and Management Research",
+  "cited_by": 0,
   "seeds_backward": [],
   "seeds_forward": [
-   "r2:nl-formation",
-   "r2:psp-italy"
+   "r1:lovenheim-mumford",
+   "r3:china-price-intentions"
   ],
   "n_seeds": 2,
-  "first_found_round": 2,
+  "first_found_round": 1,
   "provisional_relevance": "RELEVANT_CANDIDATE",
   "tier_b_status": "candidate_unscreened"
  },
@@ -1854,18 +2642,37 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W7168258898",
-  "doi": "10.17208/jkpa.2026.06.61.3.23",
-  "title": "Dynamic Interactions among Net Migration of Women of Childbearing Age, Female Employment, Housing Prices, and Fertility: A Comparison between the Capital and Non-Capital Regions",
-  "norm_title": "dynamic interactions among net migration of women of childbearing age female employment housing prices and fertility a comparison between the capital and non capital regions",
+  "openalex": "W7128532933",
+  "doi": "10.2139/ssrn.6213441",
+  "title": "More Credit, More Babies? Bank Credit Expansion, House Prices, and Fertility",
+  "norm_title": "more credit more babies bank credit expansion house prices and fertility",
   "year": 2026,
-  "type": "article",
-  "venue": "\uad6d\ud1a0\uacc4\ud68d",
+  "type": "preprint",
+  "venue": "SSRN Electronic Journal",
   "cited_by": 0,
   "seeds_backward": [],
   "seeds_forward": [
    "r1:lovenheim-mumford",
-   "r1:mulder-billari"
+   "r3:china-housing-wealth"
+  ],
+  "n_seeds": 2,
+  "first_found_round": 1,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W7161591609",
+  "doi": "10.1186/s41118-026-00291-6",
+  "title": "Wealth and childbearing: fertility by parity according to own and parental wealth in Swedish administrative taxation data",
+  "norm_title": "wealth and childbearing fertility by parity according to own and parental wealth in swedish administrative taxation data",
+  "year": 2026,
+  "type": "article",
+  "venue": "Genus",
+  "cited_by": 0,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r1:lovenheim-mumford",
+   "r3:housing-type"
   ],
   "n_seeds": 2,
   "first_found_round": 1,
@@ -1892,25 +2699,6 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W7128083268",
-  "doi": "10.1080/02673037.2026.2617564",
-  "title": "Is a family-friendly home still a prerequisite for childbearing?",
-  "norm_title": "is a family friendly home still a prerequisite for childbearing",
-  "year": 2026,
-  "type": "article",
-  "venue": "Housing Studies",
-  "cited_by": 0,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r1:mulder-billari",
-   "r2:delay-expensive"
-  ],
-  "n_seeds": 2,
-  "first_found_round": 1,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
   "openalex": "W2950485713",
   "doi": "10.13060/23362839.2019.6.1.445",
   "title": "Order and Timing of Home Ownership and Fertility Decisions in Australia",
@@ -1918,25 +2706,6 @@
   "year": 2019,
   "type": "article",
   "venue": "Critical Housing Analysis",
-  "cited_by": 0,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r2:mulder-hoform",
-   "r2:nl-formation"
-  ],
-  "n_seeds": 2,
-  "first_found_round": 2,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
-  "openalex": "W637675151",
-  "doi": "",
-  "title": "The Residential Effect on the Risk of Transition to Parenthood in Sweden",
-  "norm_title": "the residential effect on the risk of transition to parenthood in sweden",
-  "year": 2012,
-  "type": "dissertation",
-  "venue": "KTH Publication Database DiVA (KTH Royal Institute of Technology)",
   "cited_by": 0,
   "seeds_backward": [],
   "seeds_forward": [
@@ -1968,25 +2737,6 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W7169552806",
-  "doi": "10.1080/17516234.2026.2704701",
-  "title": "Fertility intention and household consumption patterns among public rental housing residents: evidence from Seoul",
-  "norm_title": "fertility intention and household consumption patterns among public rental housing residents evidence from seoul",
-  "year": 2026,
-  "type": "article",
-  "venue": "Journal of Asian Public Policy",
-  "cited_by": 0,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r2:britain-tenure",
-   "r2:psp-italy"
-  ],
-  "n_seeds": 2,
-  "first_found_round": 2,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
   "openalex": "W2141855179",
   "doi": "10.1093/humupd/dmr026",
   "title": "Why do people postpone parenthood? Reasons and social policy incentives",
@@ -2005,20 +2755,20 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W2035671284",
-  "doi": "10.1162/rest_a_00266",
-  "title": "Do Family Wealth Shocks Affect Fertility Choices? Evidence from the Housing Market",
-  "norm_title": "do family wealth shocks affect fertility choices evidence from the housing market",
-  "year": 2012,
+  "openalex": "W2106507263",
+  "doi": "10.1093/humupd/dmr040",
+  "title": "Demographic and medical consequences of the postponement of parenthood",
+  "norm_title": "demographic and medical consequences of the postponement of parenthood",
+  "year": 2011,
   "type": "article",
-  "venue": "The Review of Economics and Statistics",
-  "cited_by": 328,
+  "venue": "Human Reproduction Update",
+  "cited_by": 661,
   "seeds_backward": [
-   "r1:daysal-etal"
+   "r3:us-affordability"
   ],
   "seeds_forward": [],
   "n_seeds": 1,
-  "first_found_round": 1,
+  "first_found_round": 3,
   "provisional_relevance": "RELEVANT_CANDIDATE",
   "tier_b_status": "candidate_unscreened"
  },
@@ -2041,20 +2791,20 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W1973953484",
-  "doi": "10.1016/j.alcr.2014.01.001",
-  "title": "Residential context, migration and fertility in a modern urban society",
-  "norm_title": "residential context migration and fertility in a modern urban society",
-  "year": 2014,
+  "openalex": "W4224222032",
+  "doi": "10.1007/s10680-022-09617-4",
+  "title": "Economic Precariousness and the Transition to Parenthood: A Dynamic and Multidimensional Approach",
+  "norm_title": "economic precariousness and the transition to parenthood a dynamic and multidimensional approach",
+  "year": 2022,
   "type": "article",
-  "venue": "Advances in Life Course Research",
-  "cited_by": 104,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r2:nl-formation"
+  "venue": "European Journal of Population / Revue europ\u00e9enne de D\u00e9mographie",
+  "cited_by": 128,
+  "seeds_backward": [
+   "r3:dutch-crisis"
   ],
+  "seeds_forward": [],
   "n_seeds": 1,
-  "first_found_round": 2,
+  "first_found_round": 3,
   "provisional_relevance": "RELEVANT_CANDIDATE",
   "tier_b_status": "candidate_unscreened"
  },
@@ -2167,56 +2917,38 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W4395475810",
-  "doi": "10.1111/padr.12624",
-  "title": "Fertility Postponement, Economic Uncertainty, and the Increasing Income Prerequisites of Parenthood",
-  "norm_title": "fertility postponement economic uncertainty and the increasing income prerequisites of parenthood",
-  "year": 2024,
+  "openalex": "W2088698809",
+  "doi": "10.1080/17538963.2013.764675",
+  "title": "Housing price and fertility rate",
+  "norm_title": "housing price and fertility rate",
+  "year": 2012,
   "type": "article",
-  "venue": "Population and Development Review",
-  "cited_by": 48,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r2:family-dynamics"
-  ],
-  "n_seeds": 1,
-  "first_found_round": 2,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
-  "openalex": "W3037455063",
-  "doi": "10.1016/j.jpubeco.2021.104366",
-  "title": "Home prices, fertility, and early-life health outcomes",
-  "norm_title": "home prices fertility and early life health outcomes",
-  "year": 2021,
-  "type": "article",
-  "venue": "Journal of Public Economics",
-  "cited_by": 46,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r1:lovenheim-mumford"
-  ],
-  "n_seeds": 1,
-  "first_found_round": 1,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
-  "openalex": "W2086486830",
-  "doi": "10.1086/225997",
-  "title": "The Fertility-Inhibiting Effect of Crowded Apartment Living in a Tight Housing Market",
-  "norm_title": "the fertility inhibiting effect of crowded apartment living in a tight housing market",
-  "year": 1975,
-  "type": "article",
-  "venue": "American Journal of Sociology",
-  "cited_by": 40,
+  "venue": "China Economic Journal",
+  "cited_by": 49,
   "seeds_backward": [
-   "r2:britain-tenure"
+   "r3:china-price-intentions"
   ],
   "seeds_forward": [],
   "n_seeds": 1,
-  "first_found_round": 2,
+  "first_found_round": 3,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W2114393725",
+  "doi": "10.4054/demres.2007.17.25",
+  "title": "Migration and first-time parenthood",
+  "norm_title": "migration and first time parenthood",
+  "year": 2007,
+  "type": "article",
+  "venue": "Demographic Research",
+  "cited_by": 39,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r3:housing-type"
+  ],
+  "n_seeds": 1,
+  "first_found_round": 3,
   "provisional_relevance": "RELEVANT_CANDIDATE",
   "tier_b_status": "candidate_unscreened"
  },
@@ -2275,20 +3007,20 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W2094971474",
-  "doi": "10.1068/a161303",
-  "title": "The Influence of Fertility, Early Housing-Career, and Socioeconomic Factors on Tenure Determination in Contemporary Britain",
-  "norm_title": "the influence of fertility early housing career and socioeconomic factors on tenure determination in contemporary britain",
-  "year": 1984,
+  "openalex": "W3170213837",
+  "doi": "10.1080/13504851.2021.1937492",
+  "title": "The impact of the selective two-child policy on residents\u2019 fertility intentions in China",
+  "norm_title": "the impact of the selective two child policy on residents fertility intentions in china",
+  "year": 2021,
   "type": "article",
-  "venue": "Environment and Planning A Economy and Space",
-  "cited_by": 25,
-  "seeds_backward": [
-   "r2:nl-formation"
+  "venue": "Applied Economics Letters",
+  "cited_by": 22,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r3:china-price-intentions"
   ],
-  "seeds_forward": [],
   "n_seeds": 1,
-  "first_found_round": 2,
+  "first_found_round": 3,
   "provisional_relevance": "RELEVANT_CANDIDATE",
   "tier_b_status": "candidate_unscreened"
  },
@@ -2311,6 +3043,24 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
+  "openalex": "W2159782469",
+  "doi": "10.2139/ssrn.1098847",
+  "title": "Do Higher Rents Discourage Fertility? Evidence from US Cities, 1940-2000",
+  "norm_title": "do higher rents discourage fertility evidence from us cities 1940 2000",
+  "year": 2008,
+  "type": "preprint",
+  "venue": "SSRN Electronic Journal",
+  "cited_by": 20,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r3:crowding-1975"
+  ],
+  "n_seeds": 1,
+  "first_found_round": 3,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
   "openalex": "W3126286627",
   "doi": "10.3390/su13031534",
   "title": "Factors Influencing Fertility Intentions of Newlyweds in South Korea: Focus on Demographics, Socioeconomics, Housing Situation, Residential Satisfaction, and Housing Expectation",
@@ -2319,24 +3069,6 @@
   "type": "article",
   "venue": "Sustainability",
   "cited_by": 19,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r1:mulder-billari"
-  ],
-  "n_seeds": 1,
-  "first_found_round": 1,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
-  "openalex": "W2790470538",
-  "doi": "10.1080/21582041.2018.1433316",
-  "title": "Global demographic change and grandparenthood",
-  "norm_title": "global demographic change and grandparenthood",
-  "year": 2018,
-  "type": "article",
-  "venue": "Contemporary Social Science",
-  "cited_by": 18,
   "seeds_backward": [],
   "seeds_forward": [
    "r1:mulder-billari"
@@ -2383,6 +3115,24 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
+  "openalex": "W2052387935",
+  "doi": "10.3917/popu.1404.0659",
+  "title": "Effects of Parental Leave Policies on Second Birth Risks and Women\u2019s Employment Entry",
+  "norm_title": "effects of parental leave policies on second birth risks and women s employment entry",
+  "year": 2015,
+  "type": "article",
+  "venue": "Population (English Edition)",
+  "cited_by": 17,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r3:housing-type"
+  ],
+  "n_seeds": 1,
+  "first_found_round": 3,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
   "openalex": "W2998308097",
   "doi": "10.17016/feds.2020.002",
   "title": "Monetary Policy and Birth Rates: The Effect of Mortgage Rate Pass-Through on Fertility",
@@ -2401,56 +3151,56 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W4206976708",
-  "doi": "10.1177/01600176211066472",
-  "title": "Impacts of Housing Booms on Fertility in China: A Perspective From Homeownership",
-  "norm_title": "impacts of housing booms on fertility in china a perspective from homeownership",
-  "year": 2022,
+  "openalex": "W1956459050",
+  "doi": "",
+  "title": "Effects of Parental Leave Policies on Second Birth Risks and Women's Employment Entry",
+  "norm_title": "effects of parental leave policies on second birth risks and women s employment entry",
+  "year": 2014,
   "type": "article",
-  "venue": "International Regional Science Review",
-  "cited_by": 15,
+  "venue": "Project Muse (Johns Hopkins University)",
+  "cited_by": 16,
   "seeds_backward": [],
   "seeds_forward": [
-   "r1:lovenheim-mumford"
+   "r3:housing-type"
   ],
   "n_seeds": 1,
-  "first_found_round": 1,
+  "first_found_round": 3,
   "provisional_relevance": "RELEVANT_CANDIDATE",
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W2078985008",
-  "doi": "10.1371/journal.pone.0051463",
-  "title": "Ownership of Dwelling Affects the Sex Ratio at Birth in Uganda",
-  "norm_title": "ownership of dwelling affects the sex ratio at birth in uganda",
-  "year": 2012,
+  "openalex": "W2333459580",
+  "doi": "10.2307/2084364",
+  "title": "Housing and the Birth Rate in Sweden",
+  "norm_title": "housing and the birth rate in sweden",
+  "year": 1937,
   "type": "article",
-  "venue": "PLoS ONE",
+  "venue": "American Sociological Review",
   "cited_by": 15,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r2:nl-formation"
-  ],
-  "n_seeds": 1,
-  "first_found_round": 2,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
-  "openalex": "W1578574739",
-  "doi": "10.2139/ssrn.1544607",
-  "title": "Do Family Wealth Shocks Affect Fertility Choices? Evidence from the Housing Market Boom and Bust",
-  "norm_title": "do family wealth shocks affect fertility choices evidence from the housing market boom and bust",
-  "year": 2010,
-  "type": "preprint",
-  "venue": "SSRN Electronic Journal",
-  "cited_by": 14,
   "seeds_backward": [
-   "r1:dettling-kearney"
+   "r3:housing-type"
   ],
   "seeds_forward": [],
   "n_seeds": 1,
-  "first_found_round": 1,
+  "first_found_round": 3,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W4386034471",
+  "doi": "10.1016/j.eap.2023.08.012",
+  "title": "The housing status and two-child fertility willingness of floating population: Evidence from the Chinese General Social Survey",
+  "norm_title": "the housing status and two child fertility willingness of floating population evidence from the chinese general social survey",
+  "year": 2023,
+  "type": "article",
+  "venue": "Economic Analysis and Policy",
+  "cited_by": 14,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r3:china-housing-wealth"
+  ],
+  "n_seeds": 1,
+  "first_found_round": 3,
   "provisional_relevance": "RELEVANT_CANDIDATE",
   "tier_b_status": "candidate_unscreened"
  },
@@ -2527,76 +3277,20 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W2227602512",
-  "doi": "",
-  "title": "The Effects of Housing Wealth on Fertility Decisions: Evidence from Japan",
-  "norm_title": "the effects of housing wealth on fertility decisions evidence from japan",
-  "year": 2015,
+  "openalex": "W3192293237",
+  "doi": "10.1215/00703370-9424636",
+  "title": "Interrelationships Among Fertility, Internal Migration,and Proximity to Nonresident Family:A Multilevel Multiprocess Analysis",
+  "norm_title": "interrelationships among fertility internal migration and proximity to nonresident family a multilevel multiprocess analysis",
+  "year": 2021,
   "type": "article",
-  "venue": "Economics bulletin",
-  "cited_by": 9,
-  "seeds_backward": [
-   "r1:daysal-etal"
-  ],
-  "seeds_forward": [],
-  "n_seeds": 1,
-  "first_found_round": 1,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
-  "openalex": "W1981311830",
-  "doi": "10.1080/02732173.1995.9982091",
-  "title": "Effect of housing tenure on fertility",
-  "norm_title": "effect of housing tenure on fertility",
-  "year": 1995,
-  "type": "article",
-  "venue": "Sociological Spectrum",
+  "venue": "Demography",
   "cited_by": 9,
   "seeds_backward": [],
   "seeds_forward": [
-   "r2:britain-tenure"
+   "r3:housing-type"
   ],
   "n_seeds": 1,
-  "first_found_round": 2,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
-  "openalex": "W4394819112",
-  "doi": "10.1080/10511482.2024.2328142",
-  "title": "Do Long Commutes Discourage Fertility Intentions Among Young Public Housing Renters in Guangzhou, China?",
-  "norm_title": "do long commutes discourage fertility intentions among young public housing renters in guangzhou china",
-  "year": 2024,
-  "type": "article",
-  "venue": "Housing Policy Debate",
-  "cited_by": 9,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r2:psp-italy"
-  ],
-  "n_seeds": 1,
-  "first_found_round": 2,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
-  "openalex": "W1693336056",
-  "doi": "10.1007/s11150-016-9355-8",
-  "title": "The asymmetric housing wealth effect on childbirth",
-  "norm_title": "the asymmetric housing wealth effect on childbirth",
-  "year": 2017,
-  "type": "article",
-  "venue": "Review of Economics of the Household",
-  "cited_by": 8,
-  "seeds_backward": [
-   "r1:lovenheim-mumford"
-  ],
-  "seeds_forward": [
-   "r1:lovenheim-mumford"
-  ],
-  "n_seeds": 1,
-  "first_found_round": 1,
+  "first_found_round": 3,
   "provisional_relevance": "RELEVANT_CANDIDATE",
   "tier_b_status": "candidate_unscreened"
  },
@@ -2612,24 +3306,6 @@
   "seeds_backward": [],
   "seeds_forward": [
    "r2:britain-tenure"
-  ],
-  "n_seeds": 1,
-  "first_found_round": 2,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
-  "openalex": "W2909074123",
-  "doi": "10.1002/psp.2228",
-  "title": "Adolescent neighbourhood context and transition to parenthood: A longitudinal study",
-  "norm_title": "adolescent neighbourhood context and transition to parenthood a longitudinal study",
-  "year": 2019,
-  "type": "article",
-  "venue": "Population Space and Place",
-  "cited_by": 8,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r2:mulder-hoform"
   ],
   "n_seeds": 1,
   "first_found_round": 2,
@@ -2673,42 +3349,6 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W1705785736",
-  "doi": "10.1515/zfsoz-2014-0205",
-  "title": "Geburten und die Wohnraumversorgung von Familien: Anpassungen der Wohnung im zeitlichen Verlauf / Childbirth and Room Stress among Families: Housing Adjustments over Time",
-  "norm_title": "geburten und die wohnraumversorgung von familien anpassungen der wohnung im zeitlichen verlauf childbirth and room stress among families housing adjustments over time",
-  "year": 2014,
-  "type": "article",
-  "venue": "Zeitschrift f\u00fcr Soziologie",
-  "cited_by": 7,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r2:nl-formation"
-  ],
-  "n_seeds": 1,
-  "first_found_round": 2,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
-  "openalex": "W4399107829",
-  "doi": "10.1016/j.labeco.2024.102572",
-  "title": "Do surging house prices discourage fertility? Global evidence, 1870\u20132012",
-  "norm_title": "do surging house prices discourage fertility global evidence 1870 2012",
-  "year": 2024,
-  "type": "article",
-  "venue": "Labour Economics",
-  "cited_by": 6,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r1:lovenheim-mumford"
-  ],
-  "n_seeds": 1,
-  "first_found_round": 1,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
   "openalex": "W2791040498",
   "doi": "10.17208/jkpa.2018.02.53.1.137",
   "title": "The Impact of Regional Housing Price on Marital Status and Childbirth",
@@ -2723,6 +3363,42 @@
   ],
   "n_seeds": 1,
   "first_found_round": 2,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W1992656793",
+  "doi": "10.1080/19485565.1992.9988818",
+  "title": "Household crowding and reproductive behavior",
+  "norm_title": "household crowding and reproductive behavior",
+  "year": 1992,
+  "type": "article",
+  "venue": "Biodemography and Social Biology",
+  "cited_by": 6,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r3:crowding-1975"
+  ],
+  "n_seeds": 1,
+  "first_found_round": 3,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W4413161400",
+  "doi": "10.1016/j.chieco.2025.102528",
+  "title": "The effect of family size on intergenerational support for elderly parents and their life expectancy: Evidence from China\u2019s \u201cLater, Longer, Fewer\u201d campaign",
+  "norm_title": "the effect of family size on intergenerational support for elderly parents and their life expectancy evidence from china s later longer fewer campaign",
+  "year": 2025,
+  "type": "article",
+  "venue": "China Economic Review",
+  "cited_by": 6,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r3:china-housing-wealth"
+  ],
+  "n_seeds": 1,
+  "first_found_round": 3,
   "provisional_relevance": "RELEVANT_CANDIDATE",
   "tier_b_status": "candidate_unscreened"
  },
@@ -2745,6 +3421,42 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
+  "openalex": "W4389451953",
+  "doi": "10.1080/00036846.2023.2289950",
+  "title": "Does fertility intention affect household consumption? Evidence from China",
+  "norm_title": "does fertility intention affect household consumption evidence from china",
+  "year": 2023,
+  "type": "article",
+  "venue": "Applied Economics",
+  "cited_by": 5,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r3:china-price-intentions"
+  ],
+  "n_seeds": 1,
+  "first_found_round": 3,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W2365616508",
+  "doi": "",
+  "title": "Increasing Housing Prices and Secular Fertility Decline in Hong Kong",
+  "norm_title": "increasing housing prices and secular fertility decline in hong kong",
+  "year": 2008,
+  "type": "article",
+  "venue": "China Economic Quarterly",
+  "cited_by": 5,
+  "seeds_backward": [
+   "r3:china-price-intentions"
+  ],
+  "seeds_forward": [],
+  "n_seeds": 1,
+  "first_found_round": 3,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
   "openalex": "W4225155313",
   "doi": "10.1017/dem.2022.8",
   "title": "Income and differential fertility: evidence from oil price shocks",
@@ -2759,24 +3471,6 @@
   ],
   "n_seeds": 1,
   "first_found_round": 1,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
-  "openalex": "W3044031111",
-  "doi": "10.4054/demres.2020.43.6",
-  "title": "Transitions to partnership and parenthood: Is China still traditional?",
-  "norm_title": "transitions to partnership and parenthood is china still traditional",
-  "year": 2020,
-  "type": "article",
-  "venue": "Demographic Research",
-  "cited_by": 4,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r2:delay-expensive"
-  ],
-  "n_seeds": 1,
-  "first_found_round": 2,
   "provisional_relevance": "RELEVANT_CANDIDATE",
   "tier_b_status": "candidate_unscreened"
  },
@@ -2853,20 +3547,20 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W2167640214",
-  "doi": "10.13060/00380288.2009.45.6.02",
-  "title": "Housing Affordability in Czech Regions and Demographic Behaviour - Does Housing Affordability Impact Fertility?",
-  "norm_title": "housing affordability in czech regions and demographic behaviour does housing affordability impact fertility",
-  "year": 2009,
+  "openalex": "W7129105754",
+  "doi": "10.1016/j.cities.2026.106837",
+  "title": "Examining the non-linear relationship between the residential environment and birth rate in Seoul, South Korea",
+  "norm_title": "examining the non linear relationship between the residential environment and birth rate in seoul south korea",
+  "year": 2026,
   "type": "article",
-  "venue": "Czech Sociological Review",
+  "venue": "Cities",
   "cited_by": 3,
   "seeds_backward": [],
   "seeds_forward": [
-   "r2:britain-tenure"
+   "r3:china-price-intentions"
   ],
   "n_seeds": 1,
-  "first_found_round": 2,
+  "first_found_round": 3,
   "provisional_relevance": "RELEVANT_CANDIDATE",
   "tier_b_status": "candidate_unscreened"
  },
@@ -2878,24 +3572,6 @@
   "year": 2022,
   "type": "article",
   "venue": "International Real Estate Review",
-  "cited_by": 2,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r1:lovenheim-mumford"
-  ],
-  "n_seeds": 1,
-  "first_found_round": 1,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
-  "openalex": "W4415292321",
-  "doi": "10.1016/j.jue.2025.103812",
-  "title": "Impact of fertility relaxation on the housing market outcomes",
-  "norm_title": "impact of fertility relaxation on the housing market outcomes",
-  "year": 2025,
-  "type": "article",
-  "venue": "Journal of Urban Economics",
   "cited_by": 2,
   "seeds_backward": [],
   "seeds_forward": [
@@ -2943,38 +3619,20 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W4406768844",
-  "doi": "10.1080/13229400.2025.2452243",
-  "title": "Family migration in Chinese superstar cities: are fertility intentions of migrants affected by co-resident parents?",
-  "norm_title": "family migration in chinese superstar cities are fertility intentions of migrants affected by co resident parents",
-  "year": 2025,
+  "openalex": "W3023836900",
+  "doi": "10.1016/j.regsciurbeco.2008.08.002",
+  "title": "Do higher rents discourage fertility? Evidence from U.S. cities, 1940\u20132000",
+  "norm_title": "do higher rents discourage fertility evidence from u s cities 1940 2000",
+  "year": 2008,
   "type": "article",
-  "venue": "Journal of Family Studies",
+  "venue": "Regional Science and Urban Economics",
   "cited_by": 2,
   "seeds_backward": [],
   "seeds_forward": [
-   "r2:psp-italy"
+   "r3:crowding-1975"
   ],
   "n_seeds": 1,
-  "first_found_round": 2,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
-  "openalex": "W4403174972",
-  "doi": "10.17208/jkpa.2024.08.59.4.159",
-  "title": "Does the Housing Cost Burden Affect Fertility Intention of Public Housing Residents?: Focusing on the Effect of Rent to Income Ratio",
-  "norm_title": "does the housing cost burden affect fertility intention of public housing residents focusing on the effect of rent to income ratio",
-  "year": 2024,
-  "type": "article",
-  "venue": "\uad6d\ud1a0\uacc4\ud68d",
-  "cited_by": 2,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r2:psp-italy"
-  ],
-  "n_seeds": 1,
-  "first_found_round": 2,
+  "first_found_round": 3,
   "provisional_relevance": "RELEVANT_CANDIDATE",
   "tier_b_status": "candidate_unscreened"
  },
@@ -2990,24 +3648,6 @@
   "seeds_backward": [],
   "seeds_forward": [
    "r1:lovenheim-mumford"
-  ],
-  "n_seeds": 1,
-  "first_found_round": 1,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
-  "openalex": "W4415742692",
-  "doi": "10.1016/j.ajss.2025.100221",
-  "title": "Housing\u2013fertility interdependencies in South Korea: A dynamic analysis across regional disparities and temporal shifts",
-  "norm_title": "housing fertility interdependencies in south korea a dynamic analysis across regional disparities and temporal shifts",
-  "year": 2025,
-  "type": "article",
-  "venue": "Asian journal of social science",
-  "cited_by": 1,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r1:daysal-etal"
   ],
   "n_seeds": 1,
   "first_found_round": 1,
@@ -3033,20 +3673,38 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W3144108245",
-  "doi": "10.2991/aebmr.k.210319.115",
-  "title": "Housing Purchase Restriction and Birth Rates: An Unintended Consequence of Governmental Intervention",
-  "norm_title": "housing purchase restriction and birth rates an unintended consequence of governmental intervention",
-  "year": 2021,
-  "type": "conference-paper",
-  "venue": "Advances in economics, business and management research/Advances in Economics, Business and Management Research",
-  "cited_by": 0,
+  "openalex": "W4410305069",
+  "doi": "10.1186/s41118-025-00246-3",
+  "title": "Societal pessimism and trajectories of fertility expectations among Dutch non-parents",
+  "norm_title": "societal pessimism and trajectories of fertility expectations among dutch non parents",
+  "year": 2025,
+  "type": "article",
+  "venue": "Genus",
+  "cited_by": 1,
   "seeds_backward": [],
   "seeds_forward": [
-   "r1:lovenheim-mumford"
+   "r3:dutch-crisis"
   ],
   "n_seeds": 1,
-  "first_found_round": 1,
+  "first_found_round": 3,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W4406483225",
+  "doi": "10.54691/fq8w9z48",
+  "title": "The Impact of Housing Price-to-Income Ratio on Fertility Rate",
+  "norm_title": "the impact of housing price to income ratio on fertility rate",
+  "year": 2025,
+  "type": "article",
+  "venue": "Frontiers in Humanities and Social Sciences",
+  "cited_by": 1,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r3:china-price-intentions"
+  ],
+  "n_seeds": 1,
+  "first_found_round": 3,
   "provisional_relevance": "RELEVANT_CANDIDATE",
   "tier_b_status": "candidate_unscreened"
  },
@@ -3123,42 +3781,6 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W7128532933",
-  "doi": "10.2139/ssrn.6213441",
-  "title": "More Credit, More Babies? Bank Credit Expansion, House Prices, and Fertility",
-  "norm_title": "more credit more babies bank credit expansion house prices and fertility",
-  "year": 2026,
-  "type": "preprint",
-  "venue": "SSRN Electronic Journal",
-  "cited_by": 0,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r1:lovenheim-mumford"
-  ],
-  "n_seeds": 1,
-  "first_found_round": 1,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
-  "openalex": "W7161591609",
-  "doi": "10.1186/s41118-026-00291-6",
-  "title": "Wealth and childbearing: fertility by parity according to own and parental wealth in Swedish administrative taxation data",
-  "norm_title": "wealth and childbearing fertility by parity according to own and parental wealth in swedish administrative taxation data",
-  "year": 2026,
-  "type": "article",
-  "venue": "Genus",
-  "cited_by": 0,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r1:lovenheim-mumford"
-  ],
-  "n_seeds": 1,
-  "first_found_round": 1,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
   "openalex": "W3024244835",
   "doi": "10.1016/j.jpubeco.2013.09.009",
   "title": "House prices and birth rates: The impact of the real estate market on the decision to have a baby",
@@ -3213,24 +3835,6 @@
   "tier_b_status": "candidate_unscreened"
  },
  {
-  "openalex": "W4415443644",
-  "doi": "10.21203/rs.3.rs-7441721/v1",
-  "title": "The Effects of Housing Expenditure Pressure and Gender Preference on the Reproduction Willingness for Young Female Migrants: Evidence from China",
-  "norm_title": "the effects of housing expenditure pressure and gender preference on the reproduction willingness for young female migrants evidence from china",
-  "year": 2025,
-  "type": "preprint",
-  "venue": "Research Square",
-  "cited_by": 0,
-  "seeds_backward": [],
-  "seeds_forward": [
-   "r2:psp-italy"
-  ],
-  "n_seeds": 1,
-  "first_found_round": 2,
-  "provisional_relevance": "RELEVANT_CANDIDATE",
-  "tier_b_status": "candidate_unscreened"
- },
- {
   "openalex": "W3147877060",
   "doi": "",
   "title": "The Role of Global Culture and Values in Regard to the Family Life Cycle in Hong Kong with Specific Regard to Young Adults\u2019 Perceptions of Marriage, Parenthood and Family Responsibility in Late Modernity",
@@ -3263,6 +3867,186 @@
   ],
   "n_seeds": 1,
   "first_found_round": 2,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W7135189692",
+  "doi": "10.18288/1994-5124-2026-1-6-31",
+  "title": "The Policy on Birth Rates and Families With Children: Current Approaches and Assessment of Their Effectiveness",
+  "norm_title": "the policy on birth rates and families with children current approaches and assessment of their effectiveness",
+  "year": 2026,
+  "type": "article",
+  "venue": "Economic Policy",
+  "cited_by": 0,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r3:dutch-crisis"
+  ],
+  "n_seeds": 1,
+  "first_found_round": 3,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W7165518406",
+  "doi": "10.1111/jomf.70095",
+  "title": "Do Environmentalists Forgo Parenthood? A Life Course Perspective on Fertility Expectations and Behaviors in the <scp>UK</scp>",
+  "norm_title": "do environmentalists forgo parenthood a life course perspective on fertility expectations and behaviors in the scp uk scp",
+  "year": 2026,
+  "type": "article",
+  "venue": "Journal of Marriage and the Family",
+  "cited_by": 0,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r3:dutch-crisis"
+  ],
+  "n_seeds": 1,
+  "first_found_round": 3,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W4395083581",
+  "doi": "10.21203/rs.3.rs-4213059/v1",
+  "title": "More father leave, more babies? Father-exclusive parental leave periods and fertility",
+  "norm_title": "more father leave more babies father exclusive parental leave periods and fertility",
+  "year": 2024,
+  "type": "preprint",
+  "venue": "Research Square",
+  "cited_by": 0,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r3:china-price-intentions"
+  ],
+  "n_seeds": 1,
+  "first_found_round": 3,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W4399918973",
+  "doi": "10.1007/978-981-97-0172-8_8",
+  "title": "What Influences Fertility Plans of China\u2019s Migrant Populations? Mechanism Analysis Based on House Prices Perspective",
+  "norm_title": "what influences fertility plans of china s migrant populations mechanism analysis based on house prices perspective",
+  "year": 2024,
+  "type": "book-chapter",
+  "venue": "",
+  "cited_by": 0,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r3:china-price-intentions"
+  ],
+  "n_seeds": 1,
+  "first_found_round": 3,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W4408787615",
+  "doi": "10.17208/jkpa.2025.02.60.1.127",
+  "title": "The Effects of Housing Market Volatility on the Fertility Rate",
+  "norm_title": "the effects of housing market volatility on the fertility rate",
+  "year": 2025,
+  "type": "article",
+  "venue": "\uad6d\ud1a0\uacc4\ud68d",
+  "cited_by": 0,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r3:china-price-intentions"
+  ],
+  "n_seeds": 1,
+  "first_found_round": 3,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W4410757683",
+  "doi": "10.1111/asej.12346",
+  "title": "The differential effects of childbearing on household economic decisions: The contrast between the first and second child",
+  "norm_title": "the differential effects of childbearing on household economic decisions the contrast between the first and second child",
+  "year": 2025,
+  "type": "article",
+  "venue": "Asian Economic Journal",
+  "cited_by": 0,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r3:china-price-intentions"
+  ],
+  "n_seeds": 1,
+  "first_found_round": 3,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W4399547837",
+  "doi": "10.1007/s40622-024-00390-3",
+  "title": "Grandparents \u201con board\u201d: How they translate into the households\u2019 fertility decisions",
+  "norm_title": "grandparents on board how they translate into the households fertility decisions",
+  "year": 2024,
+  "type": "article",
+  "venue": "DECISION",
+  "cited_by": 0,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r3:housing-type"
+  ],
+  "n_seeds": 1,
+  "first_found_round": 3,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W4405366387",
+  "doi": "10.1007/s10680-024-09725-3",
+  "title": "Urban\u2013Rural Disparities in the Transition to Parenthood During Times of Uncertainty: A Multilevel Perspective on Finland",
+  "norm_title": "urban rural disparities in the transition to parenthood during times of uncertainty a multilevel perspective on finland",
+  "year": 2024,
+  "type": "article",
+  "venue": "European Journal of Population / Revue europ\u00e9enne de D\u00e9mographie",
+  "cited_by": 0,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r3:housing-type"
+  ],
+  "n_seeds": 1,
+  "first_found_round": 3,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W7119468718",
+  "doi": "10.1080/00036846.2026.2612657",
+  "title": "Care or cash: how the relaxation of birth control policies reshaped grandparents\u2019 labour supply",
+  "norm_title": "care or cash how the relaxation of birth control policies reshaped grandparents labour supply",
+  "year": 2026,
+  "type": "article",
+  "venue": "Applied Economics",
+  "cited_by": 0,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r3:china-housing-wealth"
+  ],
+  "n_seeds": 1,
+  "first_found_round": 3,
+  "provisional_relevance": "RELEVANT_CANDIDATE",
+  "tier_b_status": "candidate_unscreened"
+ },
+ {
+  "openalex": "W7133969683",
+  "doi": "10.1080/00036846.2026.2635625",
+  "title": "The impact of China\u2019s \u201cDouble Reduction\u201d policy on the fertility and education investment behaviour of Chinese households",
+  "norm_title": "the impact of china s double reduction policy on the fertility and education investment behaviour of chinese households",
+  "year": 2026,
+  "type": "article",
+  "venue": "Applied Economics",
+  "cited_by": 0,
+  "seeds_backward": [],
+  "seeds_forward": [
+   "r3:china-housing-wealth"
+  ],
+  "n_seeds": 1,
+  "first_found_round": 3,
   "provisional_relevance": "RELEVANT_CANDIDATE",
   "tier_b_status": "candidate_unscreened"
  }

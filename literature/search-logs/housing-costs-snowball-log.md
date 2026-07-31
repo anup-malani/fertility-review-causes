@@ -1,8 +1,9 @@
 # Channel-3 citation snowball — housing costs (C.2.c)
 
-**Run:** 2026-07-31, Shravan (TICK-055). **Rounds 1 and 2 complete; round 3 required (§4).**
-**Artifacts:** `housing-costs-snowball-pool.json` (1,368 records) ·
-`housing-costs-tier-b-frame.json` (169 candidates, unscreened)
+**Run:** 2026-07-31, Shravan (TICK-055). **Rounds 1–3 complete. See §4 — the stop rule itself is
+defective, and that is the main methodological result of this run.**
+**Artifacts:** `housing-costs-snowball-pool.json` (1,735 records) ·
+`housing-costs-tier-b-frame.json` (203 candidates, unscreened)
 **Scripts:** `source/build/goldset/c2c/{snowball.sh,twins.sh,snowball_r2.sh,aggregate_rounds.py}`
 
 **Round 1 seeds** — the four `channel2_canon_v5seminal` anchors only: Mulder & Billari 2010,
@@ -33,9 +34,10 @@ through Mulder & Billari. **Round 2 closed that gap** with seven citation-discov
 |---|---|
 | Round 1 pool (4 canon seeds + twins) | 693 |
 | Round 2 pool (7 demography seeds) | 842 pulled, 675 new |
-| **Merged unique pool** | **1,368** |
-| Housing-treatment **and** fertility-outcome core (Tier-B frame) | **169** (106 from r1, 63 new in r2) |
-| Normalized-title duplicate groups | 70 |
+| Round 3 pool (8 modern-price / space / affordability / long-run seeds) | 580 pulled, 367 new |
+| **Merged unique pool** | **1,735** |
+| Housing-treatment **and** fertility-outcome core (Tier-B frame) | **203** (106 r1, 63 r2, 34 r3) |
+| Normalized-title duplicate groups | 82 |
 
 ## 3. The headline number, and the honest reading of it
 
@@ -62,25 +64,49 @@ Two consequences:
   high Recall(B) is close to guaranteed and correspondingly uninformative. **Do not quote a C.2.c
   Recall(B) as evidence the method generalises** without this caveat attached at the point of use.
 
-## 4. Saturation: still NOT reached after round 2 — round 3 is required
+## 4. Saturation — and a defect in the §7.2 stop rule that this run exposed
 
 The §7.2 stop rule is <1 new relevant paper per 50 records pulled, sustained over **2 consecutive**
-rounds (the consecutive requirement guards against a lumpy dip).
+rounds.
 
-| Round | Records pulled | New unique | New relevant (core) | New core per 50 pulled | vs floor 1.0 |
-|---|---|---|---|---|---|
-| 1 | 693 | 693 | 106 | **7.65** | ABOVE |
-| 2 | 842 | 675 | 63 | **3.74** | ABOVE |
+| Round | Pulled | New unique | New relevant (core) | New core per 50 | vs floor 1.0 | Pulled records already seen |
+|---|---|---|---|---|---|---|
+| 1 | 693 | 693 | 106 | **7.65** | ABOVE | 0% |
+| 2 | 842 | 675 | 63 | **3.74** | ABOVE | 20% |
+| 3 | 580 | 367 | 34 | **2.93** | ABOVE | **37%** |
 
-Yield is falling roughly by half per round but is **still ~3.7× the floor.** Extrapolating the decay,
-round 3 lands near 1.8 and round 4 near 0.9 — so the rule likely needs **two more rounds**, and then a
-further confirming round, before the stop is earned. The snowball **must not be declared saturated
-here**, and the Tier-B frame must not be frozen on it.
+**The decay stalled.** Round 1→2 nearly halved the yield (ratio 0.49); round 2→3 barely moved it
+(0.78). On the round-1→2 trend, round 3 should have landed near 1.8; it landed at 2.93.
 
-*Judgement recorded:* stopping at round 2 would be defensible only on budget grounds, not on the
-pre-registered rule. If the team decides to stop early, that is a deviation and belongs in the
-protocol-deviation record rather than being absorbed silently — this is exactly the kind of quiet
-concession the GACS §E3 benchmark paragraph was written about.
+**The reason is that these are not saturation rounds, and the rule does not notice.** Each round I
+added *new seeds chosen to reach an under-covered sub-area* — round 2 the demography family, round 3
+the modern price empirics, the space/crowding cell, affordability, and the long-run panel. That is
+**coverage expansion**, not exhaustion of a fixed frontier. The yield stays above floor because each
+round deliberately opens new territory, so the measured quantity is "is there more literature
+reachable from a *broader* seed set," which stays positive as long as the RA can still name an
+under-reached area.
+
+**§7.2 is ambiguous between two readings and they terminate very differently:**
+
+- *Same-seed reading* — another hop from a fixed seed set. Under this reading the snowball would have
+  stopped at **round 2**, since a second hop from the canon four mostly re-finds round-1 papers.
+- *Expanding-seed reading* — new seeds each round. Under this reading the rule **may never terminate**,
+  because termination depends on RA judgement about what is under-reached rather than on a threshold.
+
+Neither is stated in §7.2, and the difference is not cosmetic: it decides whether this snowball is
+finished. **Recommended rule amendment, for the PI and for every hypothesis, not just C.2.c:**
+
+1. Report **new-core-per-50 and the overlap rate** (share of pulled records already in the pool)
+   together. The overlap rate is the mechanical convergence signal that survives seed expansion:
+   here it climbs **0% → 20% → 37%**, which is honest evidence of convergence even while the
+   yield-per-50 stays high.
+2. Require the stop test to be run **same-seed** — a confirming round that adds no new seeds. That is
+   the only version of the test that measures exhaustion rather than the RA's imagination.
+3. Treat "no under-reached sub-area can be named" as an explicit, recorded stopping condition in its
+   own right, since that is what is actually doing the work.
+
+**Current status under each reading:** stopped and saturated (same-seed); not stopped (expanding-seed).
+The Tier-B frame is therefore **still not frozen**, and §8 sets out what would earn the freeze.
 
 ## 5. Preprint twins degraded the snowball, measurably
 
@@ -157,6 +183,39 @@ Two consequences, both for the PI rather than for the search:
 *Drift check (the hop-2 concern):* round-2 additions do drift toward residential mobility and
 migration. The drift is real but interpretable — it is the demography family's actual subject matter,
 not the snowball wandering off topic — and the routing rules catch it. No seed pruning needed.
+
+## 6c. Round 3 — the most valuable round, and it vindicates two scope calls
+
+Round 3 targeted what rounds 1–2 under-reached, and returned the two clusters the scope doc had
+already singled out as decisive.
+
+**The rent stratum now exists.** `10.1016/j.regsciurbeco.2008.08.007` — *"Do higher rents discourage
+fertility? Evidence from U.S. cities, 1940–2000"* (*Regional Science and Urban Economics*; SSRN twin
+`10.2139/ssrn.1098847`). This is close to the ideal C.2.c study: **rent-identified**, so it isolates
+the cost channel with no wealth offset and **no endogenous tenure split required** — the scope's
+"highest-quality stratum" — over a **60-year US panel**. It should be a priority read alongside the
+wealth-asymmetry paper.
+
+**The historical/FDT cluster now exists, which retrospectively supports the Li 2024 ruling.**
+`10.2307/2084364` — *"Housing and the Birth Rate in Sweden"*, **American Sociological Review, 1937**.
+Plus the rent panel's 1940 start, `10.2307/2061200` (apartment living and fertility, *Demography*
+1978), `10.1080/19485565.1992.9988818` (household crowding and reproductive behaviour), and
+`10.1080/19485565.1995.9988902` (multi-family housing and marital fertility, Iran, 1995).
+
+That matters for the period question. The 2026-07-31 ruling admitted Li 2024 as a single exception
+while leaving the v5 `phenomena` field at SDT. Round 3 shows Li is **not an isolated case**: there is a
+housing-and-fertility literature reaching back to the 1930s. Under the ruling's own terms — "if further
+FDT-era evidence accumulates, the field needs a formal update rather than a second case-by-case
+exception" — **that threshold is now met, and the `phenomena` field should go to the PI.**
+
+**A seed-rule correction, recorded.** The round-3 script states that Yi & Zhang 2010 (*Economic
+Inquiry*, Hong Kong) is keyword-only and not citation-reachable. That was true of the canon-four
+neighbourhood but is **false in general**: it surfaced in round 3 via the modern-price seeds. The
+comment in `snowball_r3.sh` is wrong on that point and the finding it rested on should not be carried
+forward — citation-reachability is a property of the seed set, not of the paper.
+
+The rest of round 3's core is the space/crowding cell (now with genuine historical depth) and further
+China-cluster affordability work.
 
 ## 7. Anchor count against the CV floor
 

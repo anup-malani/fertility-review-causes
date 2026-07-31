@@ -21,6 +21,10 @@ SEED_LABEL = {
     "W1509700920": "r2:nl-formation", "W2131771089": "r2:housing-family-intro",
     "W2532821622": "r2:britain-tenure", "W2099386106": "r2:delay-expensive",
     "W2129646919": "r2:family-dynamics",
+    "W4395481274": "r3:dutch-crisis", "W3217487213": "r3:china-housing-wealth",
+    "W4392854776": "r3:us-affordability", "W1693336056": "r3:wealth-asymmetry",
+    "W3028664058": "r3:china-price-intentions", "W4399107829": "r3:li-global-1870",
+    "W2086486830": "r3:crowding-1975", "W2132599910": "r3:housing-type",
 }
 
 HOUS = re.compile(r"hous|home|rent|mortgag|propert|dwell|real estate|residen|land price|apartment", re.I)

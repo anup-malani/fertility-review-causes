@@ -133,6 +133,25 @@ least four distinct regressors. They are not interchangeable.
   price**: a household that cannot fit a third child into a two-bedroom flat faces a quantity
   constraint, not a price. Distinct estimand, its own cell.
 
+## Evidence-base posture (Shravan, 2026-07-31)
+
+**A thin price-variation evidence base is an acceptable outcome, not a search failure.** The
+meta-analysis is constrained by the studies that exist. If few studies identify off housing *prices*
+— and the round-2 snowball suggests the large `demog-tenure` literature mostly does not, studying
+tenure, housing type, and residential mobility instead — then C.2.c becomes a **theory-heavy chapter**
+resting on a small empirical core, and that is the correct result rather than a reason to loosen the
+walls or the price-variation ruling.
+
+This is the same posture taken on D.3.b's Wall 2 (TICK-047 log, 2026-07-25): a deliberately narrow
+hypothesis is *meant* to rest on less evidence, and the gate's shrinkage of the pools is the right
+outcome.
+
+**Standing obligation attached, as there:** the posture governs how the shrinkage is *interpreted*,
+not whether it is *reported*. That most of the housing-and-fertility literature studies tenure and
+mobility rather than prices is a finding about the field and belongs in the chapter — as does the
+count of studies that survive the price-variation rule. Do not let a theory-heavy chapter quietly
+omit the denominator.
+
 ## The boundary walls
 
 **Wall 1 — C.2.c vs C.3.e (`credit-constraints`): source of exogenous variation. The demonstrated
