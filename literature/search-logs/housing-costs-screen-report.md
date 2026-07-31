@@ -107,11 +107,56 @@ Two near-duplicate groups remain flagged for human review rather than merged
 *is* one paper; and two genuinely distinct residential-greenness papers. Auto-merging on title prefix
 would have been right once and wrong once.
 
+## 4b. RA gate — rent and wealth strata (done)
+
+The two strata the screen flagged as over-admitting have been gated by reading title + abstract for
+every record. `extraction/housing-costs-ra-gate.csv`, 43 records.
+
+| Verdict | n |
+|---|---|
+| DEMOTE_TENURE | 12 |
+| KEEP_PRIMARY_WEALTH_OWNER | 11 |
+| OUT_NO_FERT_OUTCOME | 8 |
+| KEEP_PRIMARY_COST_RENT_IDENTIFIED | 5 |
+| OUT_OTHER | 3 |
+| THEORY | 1 |
+| KEEP_PRIMARY_SPACE_QUANTITY | 1 |
+| KEEP_PRIMARY_COST_RENTER | 1 |
+| OUT_OUTCOME_HEALTH | 1 |
+
+**The screen said 44; the gate keeps 18. A 59% overturn rate.** That is the price-variation ruling
+doing its work, and it confirms the screen report's warning that the automated cell counts are an
+upper bound.
+
+**The rent stratum: 16 → 5.** Surviving as genuinely rent-identified: *Do higher rents discourage
+fertility? (US cities 1940–2000)*, *The effect of the price or rental cost of housing on family size*,
+*The Effect of Public Rental Housing on Birth Interval*, *Working from Home, Land Rents, and
+Fertility*, and *The long-term consequences of youth housing* (rental-apartment allocation as policy
+variation). The other eleven use "renter" as a **sample descriptor**, not a source of variation.
+
+**The wealth stratum: 28 → 11.** Eight had **no fertility outcome at all** — their outcome is entry
+into homeownership, ownership trajectories, or longevity. Six more have ownership *status* as the
+treatment rather than a price, which under the ruling is not price variation.
+
+**`DEMOTE_TENURE` is a real category, not a bin.** These twelve are genuine housing-and-fertility
+studies whose treatment is tenure status. They leave the primary pool but stay in the chapter twice
+over: as context for how tenure and fertility co-move, and as part of the **endogeneity story** —
+ownership is chosen in anticipation of children, which is exactly the threat that makes the
+tenure-split estimates hard to read (scope doc, Consequence 2).
+
+**Two process notes.** One verdict silently failed to apply because the title used a curly apostrophe
+and my key used a straight one — caught only because the script prints unmatched keys, which is why it
+does. And *Housing Expenditure and Births in Italy* was moved from the rent cell to
+`PRIMARY_COST_RENTER`: its treatment bundles rent, mortgage, bills and maintenance, so it is a housing
+**cost** measure and cannot be pooled with rent-identified estimates.
+
+**Still to gate:** the price stratum (48) and space stratum (16), plus the 44 unrouted. On this
+overturn rate, expect the eventual primary pool to be well under half the screen's 108.
+
 ## 5. Next steps
 
-1. **RA gate on the 108 provisional PRIMARY records** — the rent and wealth strata first, since both
-   are known to over-admit and both feed the pooling rule. Expect substantial shrinkage; that is the
-   intended behaviour of the price-variation ruling, not a defect.
+1. ~~RA gate on the rent and wealth strata~~ — **done (§4b), 44 → 18.** Remaining: gate the price
+   stratum (48) and space stratum (16).
 2. **Resolve the 44 unrouted** — 26 need full text, 18 need an abstract or a title-only judgement.
 3. **Retrieve full text for the surviving PRIMARY set**, since tenure conditioning, treatment type,
    parity, and tempo-vs-quantum are all full-text facts (scope doc, "When to adjudicate").
