@@ -115,6 +115,10 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--source", required=True, help="folder of hand-retrieved PDFs")
     ap.add_argument("--apply", action="store_true", help="perform the copies (default: dry run)")
+    ap.add_argument("--assign", action="append", default=[], metavar="FILE=WORKID",
+                    help="manually identify a file the matcher cannot read, e.g. an image-only scan "
+                         "with no text layer. Recorded in the report as `assigned` so the "
+                         "identification is auditable rather than an untracked cp.")
     args = ap.parse_args()
 
     gate = {r["openalex"]: r for r in csv.DictReader(open(GATE)) if r["ra_verdict"].startswith("KEEP")}
@@ -133,6 +137,11 @@ def main() -> int:
             continue
         txt = head_text(src)
         wid, how = None, ""
+        for spec in args.assign:
+            f, _, w = spec.partition("=")
+            if f == fn and w in gate:
+                wid, how = w, "assigned(manual)"
+                break
         for cand in re.findall(r"\b10\.\d{4,9}/[^\s\"'<>,;)\]]+", txt)[:15]:
             c = cand.rstrip(".,;").lower()
             if c in by_doi:
@@ -163,6 +172,9 @@ def main() -> int:
                 r.update({"download_status": "ok", "detail": "hand_retrieved_zotero",
                           "bytes": os.path.getsize(dest), "file": os.path.basename(dest),
                           "version": r.get("version") or "published"})
+                how_r = [h for _, h, w, _, _, _ in identified if w == r["work_id"]][0]
+                if how_r.startswith("assigned"):
+                    r["detail"] = "hand_retrieved_zotero; identity ASSIGNED manually (no text layer)"
         with open(LOG, "w", newline="") as fh:
             w = csv.DictWriter(fh, fieldnames=list(rows[0].keys()))
             w.writeheader()

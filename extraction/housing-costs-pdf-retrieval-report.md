@@ -1,6 +1,6 @@
 # PDF retrieval report — housing costs (C.2.c)
 
-**Run:** 2026-07-31, Shravan (TICK-055)  ·  **Log:** `extraction/housing-costs-pdf-retrieval-log.csv`
+**Run:** 2026-07-31, Shravan (TICK-055/056)  ·  **Log:** `extraction/housing-costs-pdf-retrieval-log.csv`
 **Handoff worklist:** `extraction/housing-costs-retrieval-handoff.csv`
 
 ---
@@ -53,3 +53,41 @@ Two PDFs were retrieved from a **working-paper twin**, not the published article
 ## 5. What this means for sequencing
 
 Extraction cannot start on the identified core: 4 of 15 studies in hand. The `id_strength` labels are also unconfirmed until full text, so **both the pooled estimate and the identified-vs-associational split are currently retrieval-bound** — the same position B.1 reached at TICK-041, where the pooled estimate rested on 5 studies until a human moved it. This should be a ticket with a named owner rather than a line in a report.
+
+---
+
+## 6. UPDATE — hand retrieval complete for the identified core (2026-07-31)
+
+Shravan retrieved the 11 missing QUASI_EXP papers via Zotero + the UChicago proxy.
+`84_c2c_ingest_pdfs.py` identified and filed all 11.
+
+| | before | after |
+|---|---|---|
+| **QUASI_EXP (identified core)** | 4/15 | **15/15** |
+| All gated PRIMARY | 19/78 | 30/78 |
+
+**The identified core is complete. Extraction is no longer retrieval-bound.** The remaining 48 are the
+associational stratum, which does not change the chapter's central estimates.
+
+**Ingest performance:** 10 of 11 identified automatically — 8 by DOI printed in the text, 2 by
+token-containment title match on files named `4808554.pdf` and `pdf.pdf`. Filename discipline was
+correctly unnecessary.
+
+**One file needed manual assignment.** `34574.pdf` — *The Effect of Public Rental Housing on Birth
+Interval of Newlyweds* (국토계획, `10.17208/jkpa.2022.10.57.5.136`) — is a **21-page image-only scan
+with zero extractable text**, so no content-based matcher could ever identify it. Assigned by
+elimination (11 files, 10 matched to 10 distinct works, exactly one target DOI unaccounted for) via a
+new `--assign FILE=WORKID` option, which records the identification as `assigned(manual)` in the
+report and annotates the retrieval log, rather than an untracked `cp`.
+
+### Two flags carried into extraction
+
+1. **The Korean paper needs OCR.** No text layer, and it is in Korean. It is one of the five
+   rent-identified studies and the only policy-assigned-rent design in the pool, so it cannot simply be
+   dropped for convenience. Budget OCR + translation, or treat it as a targeted read.
+2. **`Home prices, fertility, and early-life health outcomes` is still the preprint twin**
+   (`version=preprint_twin`). Daysal et al.'s published *JPubE* version was not among the 11 retrieved.
+   Specifications change between working paper and article — **no number may be extracted from it until
+   reconciled against the published version.**
+
+Text extraction is clean on the other 14 (5,600–21,000 characters over the first three pages).

@@ -1,5 +1,5 @@
 # TICK-056: C.2.c library retrieval of the 59 missing PDFs — needs a human with Zotero + UChicago proxy
-**Status:** open
+**Status:** identified core DONE (15/15) · associational remainder open
 **Assigned:** Shravan or Alexandra
 **Parallel-safe:** yes (no overlap with the D.3.b or B.1 chains)
 **Blocks:** C.2.c extraction, risk of bias, meta-analysis, chapter
@@ -92,5 +92,16 @@ renamed to `download(1).pdf` etc., all four identified.
       substantively, but must be stated rather than happen silently.
 
 ## Log
+- 2026-07-31 (Shravan retrieved, Claude ingested): **the 11 missing QUASI_EXP retrieved and filed —
+  the identified core is now 15/15 and extraction is no longer retrieval-bound.** All gated PRIMARY
+  30/78; the outstanding 48 are the associational stratum and do not move the central estimates.
+  Ingest identified 10 of 11 automatically (8 by DOI in text, 2 by title containment on files called
+  `4808554.pdf` and `pdf.pdf`). **`34574.pdf` — the Korean public-rental-housing paper — is a 21-page
+  image-only scan with no text layer**, so no content matcher could identify it; assigned by
+  elimination through a new `--assign FILE=WORKID` option that records the call as `assigned(manual)`
+  rather than leaving an untracked copy. **Two flags for extraction: that paper needs OCR and
+  translation (and it is the only policy-assigned-rent design in the pool, so it cannot be dropped for
+  convenience), and Daysal et al. is still the preprint twin and may not supply a number until
+  reconciled against the published JPubE version.**
 - 2026-07-31 (Shravan/Claude): opened. Automated ceiling reached at 19/78 (4/15 priority) after three
   passes. Report: `extraction/housing-costs-pdf-retrieval-report.md`.
