@@ -107,11 +107,14 @@ well-evidenced phenomenon.
 
 ## 5. Before the freeze
 
-1. **The `id_strength` labels are provisional.** *(§5.1)* They were assigned from titles and abstracts, and
-   design claims need confirming at full text. Li 2024's global 1870–2012 panel in particular is
-   marked QUASI_EXP on its framing; if it is panel fixed-effects without an instrument it is
-   associational. That matters more than a single relabel: with Li demoted, the FDT cell would rest on
-   *Homes and husbands for all* alone (§4).
+1. ~~The `id_strength` labels are provisional.~~ **DONE — confirmed at full text, 2026-07-31; see
+   `extraction/housing-costs-extraction-report.md`. The identified core is 9, not 15.** The outcome was
+   the mirror image of what was predicted here: **Li 2024 SURVIVED** (house prices instrumented with
+   construction costs and land prices), while *Homes and husbands for all* **left the primary pool
+   entirely** — every estimating table in it has *marriage* as the outcome, and its birth-rate figure is
+   the author's decomposition, not an estimated fertility effect. **So the FDT cell rests on Li alone**,
+   and a GRADE above *very low* is not defensible on n=1. Yi & Zhang (2010) and Wijk (2024) were also
+   demoted to associational.
 2. **Retrieve full text for the 78**, prioritising the 15. Tenure conditioning, treatment type,
    parity, and tempo-vs-quantum are all full-text facts (scope doc, "When to adjudicate").
 3. **Resolve the 5 remaining `UNCERTAIN_NEEDS_FULLTEXT`.**
