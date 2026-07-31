@@ -184,8 +184,60 @@ ownership status; and *Houses Divided: A Model of Intergenerational Transfers…
 metaphorical entirely. Three more were residential *density* or *amenity* studies, which are C.2.g
 urbanization rather than C.2.c housing space.
 
-**Still to gate:** the 44 unrouted (26 `UNCERTAIN_NEEDS_FULLTEXT`, 18 `INSUFFICIENT_INFO`) and the
-non-primary cells if any are contested.
+## 4d. RA gate — the 44 unrouted, and the final counts
+
+**Gate coverage is now 152/152**: all 108 provisional PRIMARY plus all 44 unrouted.
+
+The 44 were the records the screen could not route. Reading them, most were never C.2.c at all — the
+recurring pattern is **"residence" meaning geography or migration rather than housing**: duration of
+residence since migration, residential segregation, urban/rural residence background, place of
+residence in Sweden and Bombay and Nigeria. Those route to C.2.g or out. A second group had no
+fertility outcome (housing inequality, ownership transmission, housing investment), and a third was
+outright off-topic (a couples-relationship curriculum, an OLG property-rights model where "property"
+is not housing, a Lebanese study where the *population and housing survey* is the data source rather
+than the treatment).
+
+**But the 44 were not empty, and two of the finds matter:**
+
+- **`Can stimulating ownership increase fertility? Evidence from housing interventions in China`**
+  (PNAS, 2026) — a **policy intervention**, so it joins the quasi-experimental core.
+- **`Homes and husbands for all: Marriage, housing and the baby boom`** — post-war US housing
+  expansion → marriage → the baby boom. **FDT-era**, admitted under the period ruling, and the second
+  substantial historical study after the 1937 *ASR* Sweden paper.
+
+Also recovered: `Housing and children: simultaneous decisions?` (*J. Population Economics*), which
+models housing and childbearing as jointly determined — valuable less as an effect estimate than as a
+**direct source for the anticipatory-sorting threat**, and `Did the Modern Mortgage Set the Stage for
+the U.S. Baby Boom?`, whose treatment is a mortgage product and therefore routes to **C.3.e** under
+the ruling — flagged to that chapter rather than dropped.
+
+### Final gate counts
+
+| | n |
+|---|---|
+| **PRIMARY surviving** | **78** |
+| — of which **QUASI_EXP** | **15** |
+| — of which **ASSOCIATIONAL** | **63** |
+| DEMOTE_TENURE | 15 |
+| OUT_OTHER | 21 |
+| OUT_NO_FERT_OUTCOME | 11 |
+| REVERSE | 9 |
+| THEORY | 5 |
+| UNCERTAIN_NEEDS_FULLTEXT (unresolved) | 5 |
+| other routed-out cells | 8 |
+
+**The identified evidence base is fifteen studies.** That is the number the chapter's §5 and §6 rest
+on. Sixty-three further studies document an association without exogenous variation and belong in
+their own reported stratum, never pooled with the fifteen.
+
+### A process note on silent match failures
+
+Three verdicts failed to apply silently during this gate — a curly apostrophe, non-breaking spaces
+inside a publisher-supplied title, and one record simply not covered by a key. **All three surfaced
+only because the gate script reports verdict keys that matched nothing and the coverage check counts
+gated-vs-in-scope.** Neither check is decorative: without them the pool would have quietly lost
+records, and a *missing* record is invisible in a way a wrong record is not. Any keyed-verdict step in
+this pipeline should report its non-matches.
 
 ## 5. Next steps
 

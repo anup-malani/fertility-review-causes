@@ -97,6 +97,52 @@ VERDICTS = {
     "examining the non-linear relationship between the re": ("OUT_OTHER", "residential environment amenities, not housing space or price"),
     "geburten und die wohnraumversorgung von familien": ("REVERSE", "births raise space needs; direction reversed"),
     "a room to grow: the residential density-dependence o": ("OUT_OTHER", "residential density; routes to C.2.g"),
+    # ---------------- the 44 unrouted: UNCERTAIN_NEEDS_FULLTEXT (26) ----------------
+    "homes and husbands for all": ("KEEP_PRIMARY_COST_RENTER", "post-war US housing expansion to marriage to the baby boom; FDT-era, admitted under the period ruling"),
+    "can stimulating ownership increase fertility": ("KEEP_PRIMARY_WEALTH_OWNER", "housing intervention as policy treatment; PNAS"),
+    "youth dwellings, higher education, and childbearing": ("KEEP_PRIMARY_SPACE_QUANTITY", "access to youth dwellings as treatment"),
+    "the relationship between childbirth, housing and soc": ("AGGREGATE_UNSPLIT", "multi-dimensional housing characteristics; no isolated price or tenure treatment"),
+    "interrelation between births and the housing market": ("REVERSE", "cointegration, explicitly bidirectional"),
+    "births and housing needs in spain": ("REVERSE", "causality analysis running births to housing need"),
+    "starting a family at your parents": ("OFF_LIVING_ARRANGEMENT_A23", "multigenerational co-residence; A.23 owns the treatment"),
+    "duration of residence in the united states": ("OUT_OTHER", "residence = duration since migration, not housing"),
+    "residential differences in family formation": ("OUT_OTHER", "residential = urban/rural; C.2.g"),
+    "residential segregation and the fertility of immigra": ("OUT_OTHER", "segregation, not a housing price or tenure treatment"),
+    "residence exposure and fertility expectations": ("OUT_OTHER", "residence = urban/rural exposure"),
+    "residence background and fertility in greater bombay": ("OUT_OTHER", "residence background = migrant origin; C.2.g"),
+    "study on changing patterns of reproductive behaviour": ("OUT_OTHER", "place of residence = urban/rural"),
+    "the residential effect on the risk of transition to": ("OUT_OTHER", "place of residence = geography, not housing"),
+    "family development and residential trajectories": ("HOUSING_ONLY_MECHANISM", "residential mobility trajectories"),
+    "does fixed-term employment delay important partnersh": ("OUT_OTHER", "treatment is employment contract; C.5.a"),
+    "ownership of dwelling affects the sex ratio at birth": ("OUT_OUTCOME", "outcome is sex ratio at birth, not fertility quantum; cross-ref A.10"),
+    "the development and implementation of an advanced pr": ("OUT_OUTCOME_HEALTH", "nurse-led prenatal programme; maternal/neonatal outcomes"),
+    "marriage moments": ("OUT_OTHER", "couples relationship curriculum; not housing"),
+    "inter-generational housing inequalities": ("OUT_NO_FERT_OUTCOME", "housing inequality; no fertility outcome"),
+    "the intergenerational transmission of home ownership": ("OUT_NO_FERT_OUTCOME", "outcome is ownership transmission"),
+    "generational divides of household wealth and propens": ("OUT_NO_FERT_OUTCOME", "outcome is housing investment"),
+    "fertility intentions of having a second child among": ("OUT_OTHER", "migrant multi-factor design; housing is a covariate, not the treatment"),
+    "parenting-friendly housing support measures": ("THEORY", "international policy case review; no estimate"),
+    "constructing a housing database for family formation": ("THEORY", "database/methods paper with a housing-policy discussion"),
+    # ---------------- the 44 unrouted: INSUFFICIENT_INFO (18, title only) ----------------
+    "housing and children: simultaneous decisions": ("KEEP_PRIMARY_COST_RENTER", "models housing and childbearing as simultaneous -- also a direct source for the anticipatory-sorting threat"),
+    "are housing property rights important for fertility": ("KEEP_PRIMARY_COST_RENTER", "housing property rights as treatment, China"),
+    "live in peace and enjoy education": ("KEEP_PRIMARY_COST_RENTER", "housing property rights as treatment, China"),
+    "newly married couples": ("KEEP_PRIMARY_WEALTH_OWNER", "housing assets of newlyweds as treatment; Korean"),
+    "housing insecurity and first births in italy": ("KEEP_PRIMARY_COST_RENTER", "housing insecurity as treatment, first births as outcome"),
+    "the impact of supportive housing policy scenarios": ("KEEP_PRIMARY_COST_RENTER", "housing policy scenarios; likely simulation, flag at extraction"),
+    "the baby boom, the baby bust, and the housing market": ("REVERSE", "Mankiw-Weil line: demography to house prices"),
+    "the baby boom, the baby bust and the housing market": ("REVERSE", "Mankiw-Weil line: demography to house prices"),
+    "housing\u2013fertility interdependencies in south korea": ("REVERSE", "explicitly bidirectional dynamic analysis"),
+    "did the modern mortgage set the stage for the u.s. b": ("OFF_CREDIT_C3e", "treatment is mortgage product innovation, i.e. credit terms; routes to C.3.e under the ruling. FDT-era, flag to C.3.e"),
+    "the connections between family formation and first-t": ("DEMOTE_TENURE", "joint family-formation and ownership entry; tenure not price"),
+    "order and timing of home ownership and fertility deci": ("DEMOTE_TENURE", "sequencing of ownership and births; tenure not price"),
+    "property rights and efficiency in olg models": ("THEORY", "general property rights in an OLG model; not housing"),
+    "fertility, child care outside the home": ("OUT_OTHER", "'home' refers to childcare location; C.2.a / C.3.c"),
+    "fertility differentials among the ijo": ("OUT_OTHER", "urban residence; C.2.g"),
+    "marital fertility in lebanon": ("OUT_OTHER", "housing survey is the DATA SOURCE, not the treatment"),
+    "sex ratio, mother": ("OUT_OTHER", "outcome is sex ratio; residence = urban/rural; no DOI"),
+    "reproduction of social inequality through housing": ("UNCERTAIN_NEEDS_FULLTEXT", "three-generational housing inequality; fertility role unclear from title"),
+    "housing and fertility": ("UNCERTAIN_NEEDS_FULLTEXT", "SSRN preprint, title-only, no abstract available"),
 }
 
 # stratum defaults, applied to records the exception table does not name
@@ -107,6 +153,7 @@ STRATUM_DEFAULT = {
 
 # identification strength: quasi-experimental designs named explicitly, else associational
 QUASI_EXP = [
+    "can stimulating ownership increase fertility", "homes and husbands for all",
     "house prices and birth rates", "home prices, fertility, and early-life",
     "the effect of house prices on fertility: evidence from house purchase",
     "housing purchase restriction and birth rates", "do house prices affect fertility behavior in china",
@@ -118,8 +165,17 @@ QUASI_EXP = [
 ]
 
 def norm(t):
-    """Curly vs straight apostrophes silently broke one prefix match. Normalise both sides."""
-    return (t or "").lower().replace("\u2019", "'").replace("\u2018", "'")
+    """Normalise both sides before prefix matching.
+
+    Three silent match failures came through here, each caught only because this script reports
+    verdict keys that matched nothing: a curly apostrophe, and non-breaking spaces (\xa0) inside a
+    publisher-supplied title. Unicode punctuation and whitespace in bibliographic metadata is the
+    rule, not the exception.
+    """
+    import re as _re
+    t = (t or "").lower().replace("\u2019", "'").replace("\u2018", "'")
+    t = t.replace("\u00a0", " ").replace("\u2013", "-").replace("\u2014", "-")
+    return _re.sub(r"\s+", " ", t).strip()
 
 
 frame = json.load(open(SRC))
