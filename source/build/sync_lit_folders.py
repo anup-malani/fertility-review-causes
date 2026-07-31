@@ -1,16 +1,32 @@
 #!/usr/bin/env python3
 """Build and maintain the shared literature folder in Dropbox.
 
-The folder is the single home for PDFs. One subfolder per hypothesis, named
-<code>-<slug>, where both come from HYPOTHESES-v5.md so nothing is typed by hand.
+The folder is the single home for PDFs across every fertility review, not just
+this one. Its top level divides by review question:
+
+    fertility-review-lit/
+      causes/       <- this repo, fertility-review-causes
+      impacts/      <- a future review, if there is one
+      solutions/    <- likewise
+
+and each review folder holds one subfolder per hypothesis, named <code>-<slug>,
+where both come from HYPOTHESES-v5.md so nothing is typed by hand.
+
+The review layer exists because `fertility-review-lit` is a Dropbox *shared*
+folder and access inherits downward. Sharing it with the RAs is the one step in
+this pipeline that cannot be automated — the Dropbox MCP surface is locked to
+view-only links and cannot grant editor rights. Putting every review under one
+shared root means that manual step happens exactly once, no matter how many
+reviews follow.
 
 Codes are unstable: A.10/B.4/B.15 in the 2026-07 handoffs are A.11/C.3.b/C.3.c in
 the current master list. That is why folder names are generated rather than
 authored, and why this script can rename a folder when a code moves without
 touching its contents.
 
-  python3 source/build/sync_lit_folders.py            # active hypotheses only
-  python3 source/build/sync_lit_folders.py --all      # every non-deprecated one
+  python3 source/build/sync_lit_folders.py                 # active hypotheses
+  python3 source/build/sync_lit_folders.py --all           # every live one
+  python3 source/build/sync_lit_folders.py --review impacts
   python3 source/build/sync_lit_folders.py --dry-run
 
 Never deletes. Renames only when it finds exactly one existing folder whose slug
@@ -27,6 +43,8 @@ MASTER = REPO / "HYPOTHESES-v5.md"
 LIT_ROOT = pathlib.Path(
     "/Users/amalani/UChicago Law Dropbox/Anup Malani/fertility/fertility-review-lit"
 )
+# The review this repo owns. Everything this script writes goes under it.
+REVIEW = "causes"
 
 # Hypotheses with a chapter drafted, in progress, or screened.
 ACTIVE = {
@@ -62,10 +80,31 @@ def parse_master(path=MASTER):
     return [r for r in rows if r["slug"]]
 
 
-README = """# fertility-review-lit — where the PDFs live
+ROOT_README = """# fertility-review-lit — papers for the fertility reviews
 
-This is the one home for papers in the fertility-explanations systematic review.
-If a PDF is not here, it does not exist as far as the review is concerned.
+The top level divides by **review question**. Everything below a review folder
+belongs to that review.
+
+| Folder | Review | Repository |
+|---|---|---|
+| `causes/` | What explains fertility variation and decline | `fertility-review-causes` |
+
+Only `causes/` exists today. A later review of impacts or policy responses gets
+its own folder here rather than its own shared folder, because this folder is
+shared once and access inherits downward. Adding a review should never require
+re-sharing anything with anybody.
+
+**Go into `causes/` and read `_README.md` there before filing a paper.** It has
+the folder names, the file-naming rules, and worked examples.
+"""
+
+README = """# causes — papers for the fertility-explanations review
+
+This is the one home for papers in the review of what *causes* fertility
+variation and decline. If a PDF is not here, it does not exist as far as the
+review is concerned.
+
+Repository: `fertility-review-causes`.
 
 ## Where to put a paper
 
@@ -132,6 +171,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--all", action="store_true",
                     help="create a folder for every non-deprecated hypothesis")
+    ap.add_argument("--review", default=REVIEW,
+                    help=f"review folder under the lit root (default: {REVIEW})")
     ap.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
 
@@ -143,10 +184,11 @@ def main():
 
     if not LIT_ROOT.parent.exists():
         sys.exit(f"Dropbox fertility folder not found: {LIT_ROOT.parent}")
+    review_root = LIT_ROOT / args.review
 
     existing = {}
-    if LIT_ROOT.exists():
-        for d in LIT_ROOT.iterdir():
+    if review_root.exists():
+        for d in review_root.iterdir():
             if d.is_dir() and "-" in d.name:
                 code, _, slug = d.name.partition("-")
                 existing.setdefault(slug, []).append(d)
@@ -154,7 +196,7 @@ def main():
     created, renamed, kept = [], [], []
     for r in wanted:
         name = f"{r['code']}-{r['slug']}"
-        target = LIT_ROOT / name
+        target = review_root / name
         if target.exists():
             kept.append(name)
             continue
@@ -169,19 +211,21 @@ def main():
                 target.mkdir(parents=True, exist_ok=True)
 
     if not args.dry_run:
-        LIT_ROOT.mkdir(parents=True, exist_ok=True)
-        (LIT_ROOT / "_README.md").write_text(README)
-        idx = ["# Index — hypothesis code to folder name",
+        review_root.mkdir(parents=True, exist_ok=True)
+        (LIT_ROOT / "_README.md").write_text(ROOT_README)
+        (review_root / "_README.md").write_text(README)
+        idx = [f"# Index — hypothesis code to folder name ({args.review})",
                "",
                "Generated from `HYPOTHESES-v5.md` by `source/build/sync_lit_folders.py`.",
                "Do not edit by hand; codes change and this file is regenerated.",
                "",
+               f"Every folder below lives inside `fertility-review-lit/{args.review}/`.",
                "A folder marked **created** exists. Any other row is a folder you may",
                "create when you have a paper for it, using exactly the name given.",
                "",
                "| Code | Folder name | Hypothesis | Folder exists |",
                "|---|---|---|---|"]
-        have = {p.name for p in LIT_ROOT.iterdir() if p.is_dir()} if LIT_ROOT.exists() else set()
+        have = {p.name for p in review_root.iterdir() if p.is_dir()} if review_root.exists() else set()
         for r in live:
             name = f"{r['code']}-{r['slug']}"
             idx.append(f"| {r['code']} | `{name}` | {r['title']} | "
@@ -191,11 +235,12 @@ def main():
             idx += ["", "## Deprecated — do not file papers here", "",
                     "| Code | Hypothesis |", "|---|---|"]
             idx += [f"| {r['code']} | {r['title']} |" for r in dep]
-        (LIT_ROOT / "_INDEX.md").write_text("\n".join(idx) + "\n")
+        (review_root / "_INDEX.md").write_text("\n".join(idx) + "\n")
         (REPO / "temp").mkdir(exist_ok=True)
         (REPO / "temp" / "hypothesis-codes.json").write_text(json.dumps(rows, indent=1))
 
     print(f"lit root: {LIT_ROOT}")
+    print(f"review:   {args.review}")
     print(f"  {len(live)} live hypotheses in master list, {len(wanted)} folders wanted")
     for n in created:
         print(f"  created  {n}")
