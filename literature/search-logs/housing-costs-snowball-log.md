@@ -1,9 +1,25 @@
 # Channel-3 citation snowball — housing costs (C.2.c)
 
-**Run:** 2026-07-31, Shravan (TICK-055). **Rounds 1–3 complete. See §4 — the stop rule itself is
-defective, and that is the main methodological result of this run.**
-**Artifacts:** `housing-costs-snowball-pool.json` (1,735 records) ·
-`housing-costs-tier-b-frame.json` (203 candidates, unscreened)
+**Run:** 2026-07-31, Shravan (TICK-055). **Rounds 1–4 complete, round 4 being the mechanical
+confirming round. Saturation reached on one reading — see §4.**
+**Artifacts:** `housing-costs-snowball-pool.json` (8,334 records) ·
+`housing-costs-tier-b-frame.json` (231 candidates, unscreened)
+
+> ### ⚠ Correction (2026-07-31, after round 4)
+> An earlier version of this log reported a Tier-B frame of 545, per-round yields of 7.65 / 3.74 /
+> 2.93, and concluded from a "stalled decay" that the §7.2 stop rule is **defective**. **That
+> conclusion is retracted; the stall was an artifact of a bug in my own relevance filter.**
+>
+> The filter matched the bare substrings `hous` and `rent`, so it scored **house**hold, pa**rent**,
+> cur**rent**, and diffe**rent** as housing terms — admitting the entire fertility-economics and
+> transition-to-parenthood literature as "housing core." **58% of the frame (314 of 545 records) were
+> false positives**, and the contamination was worst in exactly the rounds that drove the stall claim
+> (round 3: 34 → 15; round 4: 342 → 75).
+>
+> With word boundaries and a `household` negative lookahead (`relabel_pool.py`, and the fix is now in
+> both aggregators), the decay is **clean and geometric** and the rule behaves correctly. Corrected
+> figures throughout. What survives of the §7.2 critique, and the sharper lesson that replaces it, are
+> in §4.
 **Scripts:** `source/build/goldset/c2c/{snowball.sh,twins.sh,snowball_r2.sh,snowball_r3.sh,aggregate_rounds.py}`
 
 **Round 1 seeds** — the four `channel2_canon_v5seminal` anchors only: Mulder & Billari 2010,
@@ -46,14 +62,16 @@ through Mulder & Billari. **Round 2 closed that gap** with seven citation-discov
 | Round 1 pool (4 canon seeds + twins) | 693 |
 | Round 2 pool (7 demography seeds) | 842 pulled, 675 new |
 | Round 3 pool (8 modern-price / space / affordability / long-run seeds) | 580 pulled, 367 new |
-| **Merged unique pool** | **1,735** |
-| Housing-treatment **and** fertility-outcome core (Tier-B frame) | **203** (106 r1, 63 r2, 34 r3) |
-| Normalized-title duplicate groups | 82 |
+| Round 4 pool (mechanical confirming sweep, 181 seeds) | 7,840 pulled, 7,037 new |
+| **Merged unique pool** | **8,334** |
+| Housing-treatment **and** fertility-outcome core (Tier-B frame) | **231** (93 r1, 48 r2, 15 r3, 75 r4) |
 
 ## 3. The headline number, and the honest reading of it
 
-Of the 106-record housing→fertility core, **19 were already in the 25-record keyword anchor set and 87
-were not — 82% snowball-only**, of which **63 are peer-reviewed journal articles**.
+Of the 93-record round-1 housing→fertility core, **18 were already in the 25-record keyword anchor set
+and 75 were not — 81% snowball-only.** *(Corrected from 106/87/82% under the buggy filter; the finding
+is unchanged, which is itself reassuring — the false positives were spread across the buckets rather
+than concentrated in the snowball-only set.)*
 
 **But that 82% is a breadth miss, not a vocabulary-invisibility miss, and the distinction matters.** I
 checked directly: the 215 fertility-term-only, 188 housing-term-only, and 129 neither-term records
@@ -75,49 +93,58 @@ Two consequences:
   high Recall(B) is close to guaranteed and correspondingly uninformative. **Do not quote a C.2.c
   Recall(B) as evidence the method generalises** without this caveat attached at the point of use.
 
-## 4. Saturation — and a defect in the §7.2 stop rule that this run exposed
+## 4. Saturation — reached, and the corrected reading of the stop rule
 
-The §7.2 stop rule is <1 new relevant paper per 50 records pulled, sustained over **2 consecutive**
-rounds.
+| Round | Seeds | Pulled | New unique | New core | New core per 50 | vs floor 1.0 | Overlap |
+|---|---|---|---|---|---|---|---|
+| 1 | 4 canon + 3 twins | 693 | 693 | 93 | **6.71** | ABOVE | 0% |
+| 2 | 7 demography | 842 | 675 | 48 | **2.85** | ABOVE | 20% |
+| 3 | 8 modern-price / space / long-run | 580 | 367 | 15 | **1.29** | ABOVE | 37% |
+| 4 | **181, mechanical** | 7,840 | 7,037 | 75 | **0.48** | **BELOW** | 10% |
 
-| Round | Pulled | New unique | New relevant (core) | New core per 50 | vs floor 1.0 | Pulled records already seen |
-|---|---|---|---|---|---|---|
-| 1 | 693 | 693 | 106 | **7.65** | ABOVE | 0% |
-| 2 | 842 | 675 | 63 | **3.74** | ABOVE | 20% |
-| 3 | 580 | 367 | 34 | **2.93** | ABOVE | **37%** |
+The decay is clean and geometric — successive ratios 0.42, 0.45, 0.37 — and the **mechanical
+confirming round lands below the floor at 0.48.** That is the strongest available test: it swept the
+entire frontier, seeding from every one of the 181 Tier-B members not already used, and pulled 7,840
+records to find 75 new relevant ones.
 
-**The decay stalled.** Round 1→2 nearly halved the yield (ratio 0.49); round 2→3 barely moved it
-(0.78). On the round-1→2 trend, round 3 should have landed near 1.8; it landed at 2.93.
+**Status: one round below floor. §7.2 requires two consecutive.** A further mechanical round seeded
+from the 231-member frame would, on this decay, land near 0.2 and complete the test. That is the only
+thing standing between here and a defensible freeze.
 
-**The reason is that these are not saturation rounds, and the rule does not notice.** Each round I
-added *new seeds chosen to reach an under-covered sub-area* — round 2 the demography family, round 3
-the modern price empirics, the space/crowding cell, affordability, and the long-run panel. That is
-**coverage expansion**, not exhaustion of a fixed frontier. The yield stays above floor because each
-round deliberately opens new territory, so the measured quantity is "is there more literature
-reachable from a *broader* seed set," which stays positive as long as the RA can still name an
-under-reached area.
+### What the confirming round settled
 
-**§7.2 is ambiguous between two readings and they terminate very differently:**
+**The design worked.** Rounds 1–3 each used seeds *I* picked to reach an under-covered area, which
+makes their yield a measure of RA imagination as much as of the literature. Round 4 removed my
+judgement from seed selection entirely — membership, not choice — and it is the round that produced
+the below-floor reading. The distinction between expanding-seed and same-seed rounds is real and
+worth writing into §7.2, and **a mechanical confirming round should be required before any snowball
+is declared saturated.** That much of the earlier critique stands.
 
-- *Same-seed reading* — another hop from a fixed seed set. Under this reading the snowball would have
-  stopped at **round 2**, since a second hop from the canon four mostly re-finds round-1 papers.
-- *Expanding-seed reading* — new seeds each round. Under this reading the rule **may never terminate**,
-  because termination depends on RA judgement about what is under-reached rather than on a threshold.
+**But the empirical claim that motivated it does not.** The "stalled decay" that I argued showed the
+rule was broken was produced by my own relevance bug (see the correction at the top). On corrected
+counts the rule behaves exactly as designed. The retraction is total on that point.
 
-Neither is stated in §7.2, and the difference is not cosmetic: it decides whether this snowball is
-finished. **Recommended rule amendment, for the PI and for every hypothesis, not just C.2.c:**
+**And my proposed fix was wrong.** I recommended reporting the **overlap rate** as "the convergence
+signal that survives seed expansion," on the strength of its climb 0% → 20% → 37%. Round 4 refutes
+this directly: overlap **fell back to 10%** under mechanical frontier expansion. Overlap measures how
+much a seed set revisits ground the *previous seed sets* covered, so it rises when seeds are chosen
+near explored territory and falls when the frontier genuinely widens. It is a diagnostic of seed
+placement, not of exhaustion. **Do not adopt that recommendation.**
 
-1. Report **new-core-per-50 and the overlap rate** (share of pulled records already in the pool)
-   together. The overlap rate is the mechanical convergence signal that survives seed expansion:
-   here it climbs **0% → 20% → 37%**, which is honest evidence of convergence even while the
-   yield-per-50 stays high.
-2. Require the stop test to be run **same-seed** — a confirming round that adds no new seeds. That is
-   the only version of the test that measures exhaustion rather than the RA's imagination.
-3. Treat "no under-reached sub-area can be named" as an explicit, recorded stopping condition in its
-   own right, since that is what is actually doing the work.
+### The lesson that actually generalises
 
-**Current status under each reading:** stopped and saturated (same-seed); not stopped (expanding-seed).
-The Tier-B frame is therefore **still not frozen**, and §8 sets out what would earn the freeze.
+**A stop rule is only as good as the relevance classifier feeding it, and a broken classifier fails in
+the direction that looks like more work rather than less.** The bug inflated new-relevant counts,
+which held the yield above the floor and made a converging snowball look non-converging. Nothing in
+the pipeline would have caught it: the counts were plausible, monotonically decreasing, and the pool
+was growing as expected. It surfaced only because round 4's output was eyeballed against the venue
+list and the titles were visibly wrong — *Transition to Parenthood*, *Female reproductive ageing*,
+*Household bargaining over fertility*.
+
+Concretely, for every hypothesis: **before trusting any saturation number, print a random sample of
+the records the relevance filter admitted and read them.** A substring filter over titles is doing
+classification work and deserves the scrutiny a classifier gets, not the trust a regex gets. Recommend
+adding this as a required check in §7.2 alongside the mechanical confirming round.
 
 ## 5. Preprint twins degraded the snowball, measurably
 

@@ -27,7 +27,9 @@ SEED_LABEL = {
     "W2086486830": "r3:crowding-1975", "W2132599910": "r3:housing-type",
 }
 
-HOUS = re.compile(r"hous|home|rent|mortgag|propert|dwell|real estate|residen|land price|apartment", re.I)
+# NB: bare "hous"/"rent" matched household, parent, current, different -- 58% false positives.
+# Word boundaries + a household negative-lookahead are load-bearing, not cosmetic.
+HOUS = re.compile(r"\bhous(?!ehold)|\bhome|\brent|\bmortgag|\bpropert|\bdwell|\breal estate|\bresiden|\bapartment|\bland price", re.I)
 FERT = re.compile(r"fertil|birth|babie|baby|natal|reproduc|childbear|family size|family formation|parenthood", re.I)
 
 
