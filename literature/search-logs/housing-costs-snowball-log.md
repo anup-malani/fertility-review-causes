@@ -1,9 +1,9 @@
 # Channel-3 citation snowball — housing costs (C.2.c)
 
-**Run:** 2026-07-31, Shravan (TICK-055). **Rounds 1–4 complete, round 4 being the mechanical
-confirming round. Saturation reached on one reading — see §4.**
-**Artifacts:** `housing-costs-snowball-pool.json` (8,334 records) ·
-`housing-costs-tier-b-frame.json` (231 candidates, unscreened)
+**Run:** 2026-07-31, Shravan (TICK-055). **Rounds 1–5 complete. STOP TEST CLOSED — two consecutive
+below-floor rounds. Caveat on the shape of that result in §4.**
+**Artifacts:** `housing-costs-snowball-pool.json` (10,915 records) ·
+`housing-costs-tier-b-frame.json` (293 candidates, unscreened)
 
 > ### ⚠ Correction (2026-07-31, after round 4)
 > An earlier version of this log reported a Tier-B frame of 545, per-round yields of 7.65 / 3.74 /
@@ -63,8 +63,9 @@ through Mulder & Billari. **Round 2 closed that gap** with seven citation-discov
 | Round 2 pool (7 demography seeds) | 842 pulled, 675 new |
 | Round 3 pool (8 modern-price / space / affordability / long-run seeds) | 580 pulled, 367 new |
 | Round 4 pool (mechanical confirming sweep, 181 seeds) | 7,840 pulled, 7,037 new |
-| **Merged unique pool** | **8,334** |
-| Housing-treatment **and** fertility-outcome core (Tier-B frame) | **231** (93 r1, 48 r2, 15 r3, 75 r4) |
+| Round 5 pool (second mechanical sweep, 75 seeds) | 3,364 pulled, 2,693 new |
+| **Merged unique pool** | **10,915** |
+| Housing-treatment **and** fertility-outcome core (Tier-B frame) | **293** (93 r1, 48 r2, 15 r3, 75 r4, 62 r5) |
 
 ## 3. The headline number, and the honest reading of it
 
@@ -93,23 +94,46 @@ Two consequences:
   high Recall(B) is close to guaranteed and correspondingly uninformative. **Do not quote a C.2.c
   Recall(B) as evidence the method generalises** without this caveat attached at the point of use.
 
-## 4. Saturation — reached, and the corrected reading of the stop rule
+## 4. Saturation — stop test CLOSED, with a caveat on its shape
 
-| Round | Seeds | Pulled | New unique | New core | New core per 50 | vs floor 1.0 | Overlap |
+| Round | Seeds | Pulled | New unique | New core | Per 50 | vs floor 1.0 | Overlap |
 |---|---|---|---|---|---|---|---|
 | 1 | 4 canon + 3 twins | 693 | 693 | 93 | **6.71** | ABOVE | 0% |
 | 2 | 7 demography | 842 | 675 | 48 | **2.85** | ABOVE | 20% |
 | 3 | 8 modern-price / space / long-run | 580 | 367 | 15 | **1.29** | ABOVE | 37% |
 | 4 | **181, mechanical** | 7,840 | 7,037 | 75 | **0.48** | **BELOW** | 10% |
+| 5 | **75, mechanical** | 3,364 | 2,693 | 62 | **0.92** | **BELOW** | 20% |
 
-The decay is clean and geometric — successive ratios 0.42, 0.45, 0.37 — and the **mechanical
-confirming round lands below the floor at 0.48.** That is the strongest available test: it swept the
-entire frontier, seeding from every one of the 181 Tier-B members not already used, and pulled 7,840
-records to find 75 new relevant ones.
+**The §7.2 rule is satisfied: two consecutive rounds below the floor of 1.0 new relevant per 50
+pulled.** The snowball is declared saturated and the Tier-B frame is eligible to freeze.
 
-**Status: one round below floor. §7.2 requires two consecutive.** A further mechanical round seeded
-from the 231-member frame would, on this decay, land near 0.2 and complete the test. That is the only
-thing standing between here and a defensible freeze.
+### The caveat, stated because the numbers do not read as cleanly as the verdict
+
+**Round 5 came in higher than round 4 (0.92 vs 0.48), and only just below the floor.** The sequence is
+a dip and a partial rebound, not a monotone decay. The mechanism is understood: round 4 swept 181
+seeds that were mostly already-explored territory, while round 5 swept the 75 members round 4 had just
+*discovered* — fresher ground, so a higher hit rate. Each mechanical round seeds from the previous
+round's new finds, so the frontier keeps widening a little even as the rule closes. The frame grew
+203 → 231 → 293 across these rounds, which is real growth, not noise.
+
+**Read honestly, this is a slowly-converging process that has met a pre-registered threshold, not a
+process that has visibly exhausted itself.** Both statements are true and the chapter should not
+report only the flattering one.
+
+**Why we stop here anyway.** The floor and the two-consecutive requirement were set in advance. Having
+watched the numbers come in, deciding that 0.92 is "too close" and demanding a sixth round would be
+post-hoc discretion of exactly the kind pre-registration exists to prevent — and it would be
+unfalsifiable, since the rebound mechanism means some further round could always be justified. The
+disciplined move is to honour the rule, record the caveat where anyone quoting the saturation claim
+will see it, and let the **relevance and estimand screen** — the real quality gate — do the rest of
+the work. If a sixth round is ever wanted, it should be triggered by a substantive gap the screen
+reveals, not by dissatisfaction with a number.
+
+**One asymmetry to note rather than bury:** round 4's seeds were drawn from the *pre-correction*
+frame, so some were relevance-filter false positives (*Transition to Parenthood* and similar). That
+does not invalidate the round — extra seeds only widen the frontier and make the yield reading more
+generous, and it still came in below floor — but rounds 4 and 5 are not drawn from identical
+populations and should not be presented as a clean matched pair.
 
 ### What the confirming round settled
 
