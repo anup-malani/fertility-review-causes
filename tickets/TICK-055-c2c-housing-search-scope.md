@@ -60,6 +60,40 @@ general rule rather than a per-chapter note. Feeds the escalation already open f
 - [ ] Tempo-vs-quantum tag required on every included effect, with the A.11 cross-ref.
 
 ## Log
+- 2026-07-31 (Shravan, RA decision): **Li 2024 admitted to the chapter**, so FDT-period evidence is
+  not excluded on period grounds. The v5 `phenomena` field still reads SDT and updating it is a PI
+  call, so the ruling governs *inclusion* while the verdict structure stays SDT-primary. If the
+  snowball turns up more FDT-era evidence, the field needs a formal update rather than a second
+  case-by-case exception.
+- 2026-07-31 (Shravan/Claude): **channel-3 snowball, round 1 of ≥2.** 693-record pool,
+  106-record Tier-B candidate frame. `housing-costs-snowball-{pool.json,log.md}`,
+  `housing-costs-tier-b-frame.json`; scripts in `source/build/goldset/c2c/`.
+  **(1) 82% of the housing→fertility core was snowball-only** — 87 of 106, 63 of them peer-reviewed
+  articles. **But read it honestly: this is a breadth miss, not vocabulary-invisibility.** I checked
+  the 532 off-keyword records for housing papers hiding from the vocabulary and there are
+  essentially none — those buckets are other chapters' canon (C.1.a, C.5.a, C.2.d, Section E). The
+  87 all carry both terms in their titles; the keyword sweep missed them by running few query forms
+  and taking top-25 by citation. **Consequence: a C.2.c Recall(B) will be a weak test** — Tier B here
+  is genuinely keyword-reachable, so a high number is near-guaranteed and largely uninformative. Do
+  not quote it as evidence the method generalises without that caveat attached.
+  **(2) Saturation NOT reached — round 2 is required.** 87 new relevant per 693 pulled ≈ 6.3 per 50,
+  about six times the §7.2 stop floor. Also the seed set is unbalanced (3 econ-price, 1
+  macro-comparative, **zero demog-tenure**); round 2 needs channel-2 canon seeds on the demography
+  side. Keyword-scouted papers were declined as seeds on purpose, Li 2024 included, to keep Tier B
+  non-circular.
+  **(3) The preprint-twin hazard did measurable damage, not hypothetical damage.** The Dettling &
+  Kearney JPubE record carries `cited_by_count = 0` — all 67 forward citations sit on the NBER twin.
+  A snowball off published DOIs alone would have pulled **zero** forward citations from one of four
+  canon seeds, silently. Repaired by merging twin citation sets (`twins.sh`). **This belongs in the
+  pipeline as a standing step**, since every economics hypothesis will hit it. 46 duplicate-title
+  groups / 105 records in the pool; *Partisan Fertility* appears five times.
+  **(4) Two clean Wall 1 tests surfaced**, both routing to C.3.e under the ruling despite
+  housing framing: `10.1093/restud/rdad034` (mortgage rate pass-through → fertility) and
+  `10.1093/rfs/hhaa073` (mortgage market deregulation). Added to the decoy set. Also found
+  `10.1007/s11150-016-9355-8`, "The asymmetric housing wealth effect on childbirth" — directly on the
+  tenure asymmetry the pooling rule is built around, and a priority read.
+  **(5) The ≥30 anchor floor is clearable but not yet cleared** — 63 new candidates are unscreened,
+  and the count that matters is post-screen.
 - 2026-07-31 (Shravan/Claude): **channel-1 anchor sourcing run. 25 anchors, all 25
   existence-verified, zero ghosts.** `housing-costs-cold-start-anchors.{json,md}`.
   **(1) Channel 1 is empty — no systematic review or meta-analysis of housing → fertility exists.**

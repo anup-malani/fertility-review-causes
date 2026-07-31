@@ -2,8 +2,19 @@
 
 **Hypothesis:** C.2.c (HYPOTHESES-v5.md)
 **Hypothesis slug:** `housing-costs`
-**Target phenomenon:** SDT only, per the v5 entry. See "A note on the pre-modern niche" below — the
-pre-modern version of this logic exists but currently lives in A.7, and this scope does not annex it.
+**Target phenomenon:** SDT primary. **FDT-period evidence is not excluded on period grounds** —
+ruling below. See "A note on the pre-modern niche" below for the PM boundary, which this scope does
+not annex.
+
+> **Period ruling (Shravan, 2026-07-31).** The v5 entry scopes C.2.c to SDT only. Li 2024 (*Labour
+> Economics*, `10.1016/j.labeco.2024.102572`) runs a global house-price panel **1870–2012** framed
+> against the fertility transition, and is **admitted to this chapter**. The practical consequence is
+> that a study is not excluded merely because its window predates the SDT. The **`phenomena` field in
+> HYPOTHESES-v5 still reads "SDT"** and updating it is a PI call, not an RA one — so this ruling
+> governs *inclusion* while the formal per-phenomenon verdict structure stays SDT-primary. If further
+> FDT-era evidence accumulates in the snowball, the field needs a formal update rather than a second
+> case-by-case exception; flag it at that point. Every effect carries its period regardless (see the
+> required tags), so the FDT-era estimates stay separable in synthesis.
 **Status:** DRAFT (Shravan, 2026-07-31) — walls, estimand structure, and pooling rule proposed,
 **not yet frozen.** Identifying variation RULED (Shravan, 2026-07-31; see below). Freeze requires a
 second read on the tenure-conditioning decision and sign-off on the pooling rule. Channel-1 anchor
