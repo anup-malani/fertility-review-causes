@@ -150,8 +150,42 @@ does. And *Housing Expenditure and Births in Italy* was moved from the rent cell
 `PRIMARY_COST_RENTER`: its treatment bundles rent, mortgage, bills and maintenance, so it is a housing
 **cost** measure and cannot be pooled with rent-identified estimates.
 
-**Still to gate:** the price stratum (48) and space stratum (16), plus the 44 unrouted. On this
-overturn rate, expect the eventual primary pool to be well under half the screen's 108.
+## 4c. RA gate — price and space strata, and the headline number
+
+All four PRIMARY strata are now gated: **108 screened → 108 gated → 69 survive as PRIMARY.**
+
+But the survival count is not the number that matters. Every KEEP also carries an **identification
+strength**, and the split is stark:
+
+| | n |
+|---|---|
+| **QUASI_EXP** — IV, RD, policy shock, purchase restriction | **13** |
+| **ASSOCIATIONAL** — regional panel correlation, cointegration, spatial econometrics | **56** |
+
+**The identified evidence base for C.2.c is thirteen studies.** The other 56 are regional or
+provincial correlations between house prices and fertility — heavily concentrated in China and Korea —
+with no exogenous variation. Per the scope's identification threats, those "may document an
+association but must not be described as evidence that housing costs *caused* the fertility
+difference": regional prices are endogenous to amenities, industry, and female wages, and households
+sort across regions in anticipation of childbearing. They are real evidence of a correlation and
+should be reported as such, in their own stratum, never pooled with the identified estimates.
+
+The thirteen: Hong Kong (Yi & Zhang), Dettling & Kearney, Daysal et al., the China IV study, Canada,
+Taiwan, the Dutch housing crisis, Li's global 1870–2012 panel, two China purchase-restriction studies,
+the Finnish youth-housing allocation, Korean public rental housing, and the China housing-wealth RD.
+
+**Price stratum 48 → 43 kept**, four routed out (two reverse-direction — an OLG baby-boom model and a
+New Zealand housing-bust paper; one marriage-outcome; one price-to-income ratio moved to
+`AFFORDABILITY_RATIO` on the income confound) and two sent to full text.
+
+**Space stratum 16 → 10 kept.** Two instructive exclusions: *The Crowding-out Effect of Homeownership
+on Fertility* — "crowding-out" is an **economic metaphor**, not physical crowding, so the treatment is
+ownership status; and *Houses Divided: A Model of Intergenerational Transfers…* where "houses" is
+metaphorical entirely. Three more were residential *density* or *amenity* studies, which are C.2.g
+urbanization rather than C.2.c housing space.
+
+**Still to gate:** the 44 unrouted (26 `UNCERTAIN_NEEDS_FULLTEXT`, 18 `INSUFFICIENT_INFO`) and the
+non-primary cells if any are contested.
 
 ## 5. Next steps
 

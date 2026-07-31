@@ -15,6 +15,15 @@ Verdict vocabulary:
   OUT_OTHER            -- treatment is not a housing variable at all
   THEORY               -- typology or model, no identified estimate; theory stream
 
+Every KEEP also carries an ID_STRENGTH, because the price stratum turned out to be dominated by
+regional correlations rather than identified estimates:
+  QUASI_EXP     -- IV, RD, policy shock, purchase restriction, supply-elasticity instrument
+  ASSOCIATIONAL -- regional/provincial panel correlation, cointegration, spatial econometrics; no
+                   exogenous variation. Per the scope's identification threats these may document an
+                   association but must NOT be read as causal -- regional prices are endogenous to
+                   everything, and households sort in anticipation of childbearing.
+  UNKNOWN       -- not determinable from title + abstract; resolve at full text
+
 Rent stratum note: "renter" as a SAMPLE DESCRIPTOR is not rent-identification. Only papers where the
 rent level or a rent-assigning policy is the source of variation stay.
 """
@@ -36,6 +45,7 @@ VERDICTS = {
     "housing context and childbearing in sweden": ("KEEP_PRIMARY_SPACE_QUANTITY", "rental apartment is a housing TYPE here; belongs in the space/type cell"),
     "factors influencing fertility intentions of newl": ("DEMOTE_TENURE", "rental household as a sample category"),
     "perceptions of housing stability and fertility i": ("DEMOTE_TENURE", "public-housing renters are the sample frame; treatment is perceived stability"),
+    "housing policy and family formation": ("UNCERTAIN_NEEDS_FULLTEXT", "title-only record; policy scope not determinable"),
     "the long-term consequences of youth housing for": ("KEEP_PRIMARY_COST_RENT_IDENTIFIED", "allocation of a rental apartment is the treatment; policy variation"),
     "do long commutes discourage fertility intentions": ("OUT_OTHER", "treatment is commute time, not housing price or rent"),
     "housing expenditure and births in italy": ("KEEP_PRIMARY_COST_RENTER", "expenditure treatment bundling rent+mortgage; a cost measure, not rent-identified"),
@@ -71,7 +81,41 @@ VERDICTS = {
     "us baby boomers' homeownership trajectories": ("OUT_NO_FERT_OUTCOME", "outcome is ownership trajectory"),
     "comparing regional patterns of homeownership ent": ("OUT_NO_FERT_OUTCOME", "outcome is homeownership entry"),
     "the longevity benefits of homeownership": ("OUT_OUTCOME_HEALTH", "outcome is longevity"),
+    # ---------------- price stratum: exceptions only ----------------
+    "the baby boom, housing and loanable funds": ("REVERSE", "OLG model of baby-boom effects ON housing; direction reversed"),
+    "is new zealand facing a baby boomer housing bust": ("REVERSE", "demographic structure to house prices"),
+    "analyzing the characteristics of residential poverty": ("HOUSING_ONLY_MECHANISM", "outcome is marriage, not fertility"),
+    "fertility rate, inter-generation wealth transfer and": ("UNCERTAIN_NEEDS_FULLTEXT", "direction not determinable from title/abstract"),
+    "what influences fertility plans of china": ("UNCERTAIN_NEEDS_FULLTEXT", "multi-factor design; housing one of many regressors"),
+    "research on the influence of house price to income r": ("AFFORDABILITY_RATIO", "price-to-income ratio, not a price; income confound bars it from the price pool"),
+    "fertility and female wages: a new link via house pri": ("KEEP_PRIMARY_COST_RENTER", "house price is the CHANNEL from female wages to fertility; cross-ref C.2.e, do not double-count"),
+    # ---------------- space stratum: exceptions only ----------------
+    "the crowding-out effect of homeownership on fertilit": ("DEMOTE_TENURE", "'crowding-out' is an economic metaphor, not physical crowding; treatment is ownership status"),
+    "houses divided: a model of intergenerational transfe": ("THEORY", "'houses' is metaphorical; inequality model, no housing treatment"),
+    "the effect of population density on regional fertili": ("OUT_OTHER", "population density is C.2.g urbanization, not housing space"),
+    "does residential environment matter for urban fertil": ("OUT_OTHER", "treatment is public cultural amenities"),
+    "examining the non-linear relationship between the re": ("OUT_OTHER", "residential environment amenities, not housing space or price"),
+    "geburten und die wohnraumversorgung von familien": ("REVERSE", "births raise space needs; direction reversed"),
+    "a room to grow: the residential density-dependence o": ("OUT_OTHER", "residential density; routes to C.2.g"),
 }
+
+# stratum defaults, applied to records the exception table does not name
+STRATUM_DEFAULT = {
+    "PRIMARY_COST_RENTER": ("KEEP_PRIMARY_COST_RENTER", "house price / housing cost is the stated treatment with a fertility outcome"),
+    "PRIMARY_SPACE_QUANTITY": ("KEEP_PRIMARY_SPACE_QUANTITY", "housing type, size, rooms or crowding is the stated treatment"),
+}
+
+# identification strength: quasi-experimental designs named explicitly, else associational
+QUASI_EXP = [
+    "house prices and birth rates", "home prices, fertility, and early-life",
+    "the effect of house prices on fertility: evidence from house purchase",
+    "housing purchase restriction and birth rates", "do house prices affect fertility behavior in china",
+    "do housing options affect child birth decisions", "do surging house prices discourage fertility",
+    "the effect of house prices on fertility: evidence from canada",
+    "house prices and fertility: can the dutch", "the effect of house price on fertility: evidence from hong kong",
+    "the long-term consequences of youth housing", "the effect of public rental housing",
+    "housing wealth, fertility and children's health",
+]
 
 def norm(t):
     """Curly vs straight apostrophes silently broke one prefix match. Normalise both sides."""
@@ -88,20 +132,25 @@ for r in frame:
             verdict, reason = v, why
             matched.add(pref)
             break
+    if not verdict and r["provisional_cell"] in STRATUM_DEFAULT:
+        verdict, reason = STRATUM_DEFAULT[r["provisional_cell"]]
     if verdict:
-        rows.append((r, verdict, reason))
+        strength = ""
+        if verdict.startswith("KEEP"):
+            strength = "QUASI_EXP" if any(t.startswith(norm(q)) for q in QUASI_EXP) else "ASSOCIATIONAL"
+        rows.append((r, verdict, reason, strength))
 
 with open(OUT, "w", newline="") as fh:
     w = csv.writer(fh)
     w.writerow(["doi", "openalex", "year", "venue", "title", "screen_cell",
-                "ra_verdict", "ra_reason", "gated_by", "gated_date"])
-    for r, v, why in sorted(rows, key=lambda x: x[1]):
+                "ra_verdict", "id_strength", "ra_reason", "gated_by", "gated_date"])
+    for r, v, why, st in sorted(rows, key=lambda x: (x[1], x[3])):
         w.writerow([r["doi"], r["openalex"], r["year"], r["venue"], r["title"],
-                    r["provisional_cell"], v, why, "Shravan/Claude", "2026-07-31"])
+                    r["provisional_cell"], v, st, why, "Shravan/Claude", "2026-07-31"])
 
 from collections import Counter
-c = Counter(v for _, v, _ in rows)
-print(f"gated: {len(rows)} records (rent + wealth strata)")
+c = Counter(v for _, v, _, _ in rows)
+print(f"gated: {len(rows)} records (rent, wealth, price, space strata)")
 for v, n in c.most_common():
     print(f"  {n:>3}  {v}")
 unmatched = set(VERDICTS) - matched
@@ -110,5 +159,8 @@ if unmatched:
     for u in sorted(unmatched):
         print(f"    {u}")
 kept = sum(n for v, n in c.items() if v.startswith("KEEP"))
-print(f"\nsurviving primary from these two strata: {kept} (screen had labelled 44)")
+st = Counter(s for _, v, _, s in rows if v.startswith("KEEP"))
+print(f"\nsurviving PRIMARY: {kept}")
+for k, n in st.most_common():
+    print(f"    {n:>3}  {k}")
 print(f"gate -> {OUT}")
