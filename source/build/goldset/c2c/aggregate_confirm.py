@@ -20,8 +20,9 @@ POOL = "literature/search-logs/housing-costs-snowball-pool.json"
 FRAME = "literature/search-logs/housing-costs-tier-b-frame.json"
 
 # NB: bare "hous"/"rent" matched household, parent, current, different -- 58% false positives.
+# And bare "residen" matched medical RESIDENTS and "residents of X"; narrowed to residential/residence.
 # Word boundaries + a household negative-lookahead are load-bearing, not cosmetic.
-HOUS = re.compile(r"\bhous(?!ehold)|\bhome|\brent|\bmortgag|\bpropert|\bdwell|\breal estate|\bresiden|\bapartment|\bland price", re.I)
+HOUS = re.compile(r"\bhous(?!ehold)|\bhome|\brent|\bmortgag|\bpropert|\bdwell|\breal estate|\bresidential|\bresidence\b|\bapartment|\bland price", re.I)
 FERT = re.compile(r"fertil|birth|babie|baby|natal|reproduc|childbear|family size|family formation|parenthood", re.I)
 
 

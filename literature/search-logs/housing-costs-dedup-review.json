@@ -1,0 +1,142 @@
+{
+ "auto_merged": [
+  {
+   "norm_title": "the effect of house prices on fertility evidence from canada",
+   "kept": "10.5018/economics-ejournal.ja.2019-38",
+   "kept_type": "article",
+   "dropped": [
+    "10.5018/economics-ejournal.ja.2019-38"
+   ]
+  },
+  {
+   "norm_title": "do housing options affect child birth decisions evidence from taiwan",
+   "kept": "10.1177/0042098015615742",
+   "kept_type": "article",
+   "dropped": [
+    "10.2139/ssrn.2585216"
+   ]
+  },
+  {
+   "norm_title": "housing wealth fertility and children s health in china a regression discontinuity design",
+   "kept": "10.1016/j.jhealeco.2024.102915",
+   "kept_type": "article",
+   "dropped": [
+    "10.2139/ssrn.4852579"
+   ]
+  },
+  {
+   "norm_title": "home prices fertility and early life health outcomes",
+   "kept": "10.1016/j.jpubeco.2021.104366",
+   "kept_type": "article",
+   "dropped": [
+    "10.3386/w27469",
+    "10.2139/ssrn.3644070",
+    "10.2139/ssrn.3636646"
+   ]
+  },
+  {
+   "norm_title": "impact of fertility relaxation on the housing market outcomes",
+   "kept": "10.1016/j.jue.2025.103812",
+   "kept_type": "article",
+   "dropped": [
+    "10.2139/ssrn.5011655"
+   ]
+  },
+  {
+   "norm_title": "house prices and birth rates the impact of the real estate market on the decision to have a baby",
+   "kept": "10.1016/j.jpubeco.2013.09.009",
+   "kept_type": "article",
+   "dropped": [
+    "10.3386/w17485"
+   ]
+  },
+  {
+   "norm_title": "monetary policy and birth rates the effect of mortgage rate pass through on fertility",
+   "kept": "10.1093/restud/rdad034",
+   "kept_type": "article",
+   "dropped": [
+    "10.17016/feds.2020.002"
+   ]
+  },
+  {
+   "norm_title": "duration of residence in the united states and the fertility of u s immigrants",
+   "kept": "10.1177/019791839002400102",
+   "kept_type": "article",
+   "dropped": [
+    "10.2307/2546671"
+   ]
+  },
+  {
+   "norm_title": "fertility child care outside the home and pay as you go social security",
+   "kept": "10.1007/s00148-007-0153-8",
+   "kept_type": "article",
+   "dropped": [
+    "10.1007/978-3-319-47644-5_4"
+   ]
+  },
+  {
+   "norm_title": "the baby boom predictability in house prices and interest rates",
+   "kept": "10.17016/ifdp.2005.847",
+   "kept_type": "article",
+   "dropped": [
+    "10.2139/ssrn.870590"
+   ]
+  },
+  {
+   "norm_title": "associations of residential greenness exposure during early pregnancy with the risk of spontaneous abortion the china birth cohort study",
+   "kept": "10.1186/s12302-024-00869-x",
+   "kept_type": "article",
+   "dropped": [
+    "10.21203/rs.3.rs-3253803/v1"
+   ]
+  },
+  {
+   "norm_title": "long run effects of super low fertility on housing markets",
+   "kept": "10.1016/j.econmod.2025.107125",
+   "kept_type": "article",
+   "dropped": [
+    "10.2139/ssrn.4888528"
+   ]
+  }
+ ],
+ "near_duplicates_for_review": [
+  {
+   "prefix": "do family wealth shocks affect fertility choices eviden",
+   "candidates": [
+    {
+     "doi": "10.1162/rest_a_00266",
+     "year": 2012,
+     "title": "Do Family Wealth Shocks Affect Fertility Choices? Evidence from the Housing Market",
+     "venue": "The Review of Economics and Statistics",
+     "type": "article"
+    },
+    {
+     "doi": "10.2139/ssrn.1544607",
+     "year": 2010,
+     "title": "Do Family Wealth Shocks Affect Fertility Choices? Evidence from the Housing Market Boom and Bust",
+     "venue": "SSRN Electronic Journal",
+     "type": "preprint"
+    }
+   ]
+  },
+  {
+   "prefix": "residential greenness and birth outcomes evaluating the",
+   "candidates": [
+    {
+     "doi": "10.1289/ehp.1308049",
+     "year": 2014,
+     "title": "Residential Greenness and Birth Outcomes: Evaluating the Influence of Spatially Correlated Built-Environment Factors",
+     "venue": "Environmental Health Perspectives",
+     "type": "article"
+    },
+    {
+     "doi": "10.1016/j.ecoenv.2021.111915",
+     "year": 2021,
+     "title": "Residential greenness and birth outcomes: Evaluating the mediation and interaction effects of particulate air pollution",
+     "venue": "Ecotoxicology and Environmental Safety",
+     "type": "article"
+    }
+   ]
+  }
+ ]
+}

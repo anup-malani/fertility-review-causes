@@ -99,29 +99,33 @@ Two consequences:
 | Round | Seeds | Pulled | New unique | New core | Per 50 | vs floor 1.0 | Overlap |
 |---|---|---|---|---|---|---|---|
 | 1 | 4 canon + 3 twins | 693 | 693 | 93 | **6.71** | ABOVE | 0% |
-| 2 | 7 demography | 842 | 675 | 48 | **2.85** | ABOVE | 20% |
-| 3 | 8 modern-price / space / long-run | 580 | 367 | 15 | **1.29** | ABOVE | 37% |
-| 4 | **181, mechanical** | 7,840 | 7,037 | 75 | **0.48** | **BELOW** | 10% |
-| 5 | **75, mechanical** | 3,364 | 2,693 | 62 | **0.92** | **BELOW** | 20% |
+| 2 | 7 demography | 842 | 675 | 47 | **2.79** | ABOVE | 20% |
+| 3 | 8 modern-price / space / long-run | 580 | 367 | 14 | **1.21** | ABOVE | 37% |
+| 4 | **181, mechanical** | 7,840 | 7,037 | 69 | **0.44** | **BELOW** | 10% |
+| 5 | **75, mechanical** | 3,364 | 2,693 | 55 | **0.82** | **BELOW** | 20% |
+
+*(Counts final as of the second relevance-filter correction — see §4b. The narrowing removed records
+from every round, so both below-floor readings moved further below the floor and the stop test is
+if anything more securely met than when it was first declared.)*
 
 **The §7.2 rule is satisfied: two consecutive rounds below the floor of 1.0 new relevant per 50
 pulled.** The snowball is declared saturated and the Tier-B frame is eligible to freeze.
 
 ### The caveat, stated because the numbers do not read as cleanly as the verdict
 
-**Round 5 came in higher than round 4 (0.92 vs 0.48), and only just below the floor.** The sequence is
+**Round 5 came in higher than round 4 (0.82 vs 0.44), and not far below the floor.** The sequence is
 a dip and a partial rebound, not a monotone decay. The mechanism is understood: round 4 swept 181
 seeds that were mostly already-explored territory, while round 5 swept the 75 members round 4 had just
 *discovered* — fresher ground, so a higher hit rate. Each mechanical round seeds from the previous
 round's new finds, so the frontier keeps widening a little even as the rule closes. The frame grew
-203 → 231 → 293 across these rounds, which is real growth, not noise.
+203 → 231 → 278 across these rounds, which is real growth, not noise.
 
 **Read honestly, this is a slowly-converging process that has met a pre-registered threshold, not a
 process that has visibly exhausted itself.** Both statements are true and the chapter should not
 report only the flattering one.
 
 **Why we stop here anyway.** The floor and the two-consecutive requirement were set in advance. Having
-watched the numbers come in, deciding that 0.92 is "too close" and demanding a sixth round would be
+watched the numbers come in, deciding that 0.82 is "too close" and demanding a sixth round would be
 post-hoc discretion of exactly the kind pre-registration exists to prevent — and it would be
 unfalsifiable, since the rebound mechanism means some further round could always be justified. The
 disciplined move is to honour the rule, record the caveat where anyone quoting the saturation claim
@@ -169,6 +173,32 @@ Concretely, for every hypothesis: **before trusting any saturation number, print
 the records the relevance filter admitted and read them.** A substring filter over titles is doing
 classification work and deserves the scrutiny a classifier gets, not the trust a regex gets. Recommend
 adding this as a required check in §7.2 alongside the mechanical confirming round.
+
+## 4b. Second relevance-filter correction, and dedup
+
+**The filter was wrong a second time, found the same way.** After fixing the `hous`/`rent` substring
+bug, `\bresiden` was still matching **medical residents** — *"Fertility Knowledge in Obstetrics and
+Gynecology Residents"*, *"a didactic intervention among resident physicians"* — and *"residents of X"*
+meaning inhabitants. Narrowed to `residential|residence`; **15 further false positives removed**
+(frame 293 → 278). Both below-floor readings moved *further* below the floor, so the stop test is more
+securely met than when declared, not less.
+
+This is the second time the sample-read caught a classifier error that the counts alone did not. It is
+the strongest argument for making that read a required step (§4).
+
+**Normalized-title dedup** (`dedup_frame.py`): frame **278 → 264**, 12 exact-title groups collapsed.
+Survivor rule is published article > working paper/preprint > report, then a publisher DOI over an
+SSRN/NBER/OSF one, then citation count. Recovered the expected twins — Daysal et al. absorbed three
+preprint records, Dettling & Kearney its NBER twin, the *ReStud* mortgage paper its FEDS working paper.
+
+**Near-duplicates are flagged, not merged** (`housing-costs-dedup-review.json`). Two groups share a
+55-character prefix: Lovenheim & Mumford's REStat article and its SSRN version, which *is* one paper
+(subtitle differs: "…Housing Market" vs "…Housing Market Boom and Bust"); and two genuinely distinct
+residential-greenness papers from 2014 and 2021. Auto-merging on prefix would have been right once and
+wrong once, which is why it is a review queue rather than a rule.
+
+**43 survivors remain preprint-only or DOI-less** — real grey literature with no published version
+found, not dedup failures. They stay in the frame and carry the flag.
 
 ## 5. Preprint twins degraded the snowball, measurably
 

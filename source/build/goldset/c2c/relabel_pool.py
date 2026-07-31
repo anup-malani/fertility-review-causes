@@ -10,7 +10,7 @@ import re
 POOL = "literature/search-logs/housing-costs-snowball-pool.json"
 FRAME = "literature/search-logs/housing-costs-tier-b-frame.json"
 
-HOUS = re.compile(r"\bhous(?!ehold)|\bhome|\brent|\bmortgag|\bpropert|\bdwell|\breal estate|\bresiden|\bapartment|\bland price", re.I)
+HOUS = re.compile(r"\bhous(?!ehold)|\bhome|\brent|\bmortgag|\bpropert|\bdwell|\breal estate|\bresidential|\bresidence\b|\bapartment|\bland price", re.I)
 FERT = re.compile(r"fertil|birth|babie|baby|natal|reproduc|childbear|family size|family formation|parenthood", re.I)
 PULLED = {1: 693, 2: 842, 3: 580, 4: 7840}
 
