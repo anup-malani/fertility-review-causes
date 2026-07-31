@@ -60,5 +60,33 @@ general rule rather than a per-chapter note. Feeds the escalation already open f
 - [ ] Tempo-vs-quantum tag required on every included effect, with the A.11 cross-ref.
 
 ## Log
+- 2026-07-31 (Shravan/Claude): **scope drafted, not frozen.**
+  `literature/search-logs/housing-costs-search-scope.md`. Six walls, 18 estimand cells, a
+  pre-registered pooling rule, and seven required per-effect tags. What the drafting settled or
+  surfaced beyond the ticket:
+  **(1) The pooling decision, which is the consequential one.** The primary pooled targets are the
+  two tenure-specific channels, pooled *separately*; the aggregate net effect is demoted to a
+  secondary, derived quantity requiring the setting's homeownership rate as a moderator. This means
+  the review does **not** primarily estimate the thing the hypothesis as written claims — the net
+  effect — because that quantity is a composition-weighted average, not a behavioral parameter, and
+  is not transportable across settings. Needs sign-off; it is the analogue of TICK-027 for this
+  chapter and should probably become a `decisions/` entry if it holds.
+  **(2) Rent-identified estimates are a quality stratum, not just another measure.** A rent increase
+  has no offsetting wealth gain for the payer, so rent variation isolates the cost channel without
+  needing the endogenous tenure split at all. Given that the tenure split is C.2.c's main
+  identification weakness, the rent stratum may end up carrying the chapter.
+  **(3) Affordability ratios are close to uninterpretable** and are barred from the price and rent
+  pools. Income sits in the denominator with its own opposite-signed fertility effect (C.1.a), so a
+  negative price-to-income coefficient is consistent with a pure income effect and no price effect.
+  **(4) Two heterogeneity dimensions are load-bearing, not optional:** parity (housing should bind
+  hardest at the birth that requires another bedroom — cross-ref A.8) and tempo-vs-quantum (if
+  housing mostly postpones, the §7 demographic-significance verdict shrinks sharply — cross-ref A.11,
+  precedent at TICK-038).
+  **(5) The Lovenheim and Mumford double-listing is resolved by a source-of-variation rule**: housing
+  price variation → C.2.c regardless of the channel invoked; credit terms at fixed prices → C.3.e.
+  Master-list correction recommended for TICK-001, not made here.
+  **(6) Non-additivity, second instance.** C.2.c → A.23 → fertility has the identical structure to
+  A.10 → A.7 → fertility. Folded into the TICK-054 escalation rather than raised separately, since
+  two instances make it a review-wide rule question rather than a chapter quirk.
 - 2026-07-31 (Shravan/Claude): opened and claimed. No prior C.2.c artifacts in
   `literature/search-logs/`, `extraction/`, or `output/chapters/`.
