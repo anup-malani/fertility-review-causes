@@ -1,10 +1,17 @@
 # Channel-3 citation snowball — housing costs (C.2.c)
 
-**Run:** 2026-07-31, Shravan (TICK-055), round 1 of ≥2
-**Artifacts:** `housing-costs-snowball-pool.json` (693 records) ·
-`housing-costs-tier-b-frame.json` (106 candidates, unscreened)
-**Seeds:** the four `channel2_canon_v5seminal` anchors only — Mulder & Billari 2010,
+**Run:** 2026-07-31, Shravan (TICK-055). **Rounds 1 and 2 complete; round 3 required (§4).**
+**Artifacts:** `housing-costs-snowball-pool.json` (1,368 records) ·
+`housing-costs-tier-b-frame.json` (169 candidates, unscreened)
+**Scripts:** `source/build/goldset/c2c/{snowball.sh,twins.sh,snowball_r2.sh,aggregate_rounds.py}`
+
+**Round 1 seeds** — the four `channel2_canon_v5seminal` anchors only: Mulder & Billari 2010,
 Dettling & Kearney 2014, Lovenheim & Mumford 2013, Daysal et al. 2021.
+**Round 2 seeds** — seven demography-side papers, added because the round-1 seed set was 3
+`econ-price` + 1 `macro-comparative` + **zero `demog-tenure`**. They are **citation-discovered in
+round 1, not keyword-discovered**: the Tier-B integrity constraint is about keyword bias, and a paper
+reached by citation from a canon seed does not reimport it. They sit at hop 2 relative to the original
+canon, so round-2 output was checked for drift (§6b).
 
 ---
 
@@ -23,13 +30,11 @@ Cost: the seed set is unbalanced — three `econ-price`, one `macro-comparative`
 
 | | |
 |---|---|
-| Backward references (≤1 hop, all four seeds) | 187 unique |
-| Forward citations (≤1 hop, seeds + twins) | 551 |
-| Found by both channels | 15 |
-| Found by ≥2 seeds | 93 |
-| **Total unique pool** | **693** |
-| Housing-treatment **and** fertility-outcome core | 106 |
-| Records with no DOI | 40 (2 in the Tier-B frame) |
+| Round 1 pool (4 canon seeds + twins) | 693 |
+| Round 2 pool (7 demography seeds) | 842 pulled, 675 new |
+| **Merged unique pool** | **1,368** |
+| Housing-treatment **and** fertility-outcome core (Tier-B frame) | **169** (106 from r1, 63 new in r2) |
+| Normalized-title duplicate groups | 70 |
 
 ## 3. The headline number, and the honest reading of it
 
@@ -56,12 +61,25 @@ Two consequences:
   high Recall(B) is close to guaranteed and correspondingly uninformative. **Do not quote a C.2.c
   Recall(B) as evidence the method generalises** without this caveat attached at the point of use.
 
-## 4. Saturation: NOT reached — round 2 is required
+## 4. Saturation: still NOT reached after round 2 — round 3 is required
 
-The §7.2 stop rule is <1 new relevant paper per 50 records pulled, sustained over 2 consecutive
-rounds. Round 1 pulled 693 records and returned 87 new relevant ones — **≈6.3 per 50, roughly six
-times the floor.** The snowball is nowhere near exhausted and **must not be stopped here.** Round 2:
-add `demog-tenure` canon seeds (§1), re-run backward and forward, and re-measure the marginal yield.
+The §7.2 stop rule is <1 new relevant paper per 50 records pulled, sustained over **2 consecutive**
+rounds (the consecutive requirement guards against a lumpy dip).
+
+| Round | Records pulled | New unique | New relevant (core) | New core per 50 pulled | vs floor 1.0 |
+|---|---|---|---|---|---|
+| 1 | 693 | 693 | 106 | **7.65** | ABOVE |
+| 2 | 842 | 675 | 63 | **3.74** | ABOVE |
+
+Yield is falling roughly by half per round but is **still ~3.7× the floor.** Extrapolating the decay,
+round 3 lands near 1.8 and round 4 near 0.9 — so the rule likely needs **two more rounds**, and then a
+further confirming round, before the stop is earned. The snowball **must not be declared saturated
+here**, and the Tier-B frame must not be frozen on it.
+
+*Judgement recorded:* stopping at round 2 would be defensible only on budget grounds, not on the
+pre-registered rule. If the team decides to stop early, that is a deviation and belongs in the
+protocol-deviation record rather than being absorbed silently — this is exactly the kind of quiet
+concession the GACS §E3 benchmark paragraph was written about.
 
 ## 5. Preprint twins degraded the snowball, measurably
 
@@ -104,6 +122,39 @@ the survivor.
 - Several **A.23 boundary cases** (boomerang moves, returning to the nest, parental co-residence,
   leaving home) that route out under the ruling but confirm the mediator wall will get heavy traffic.
 
+## 6b. What round 2 changed — and a substantive problem it exposed
+
+The demography seeds worked as intended. The Tier-B frame's venue profile is now genuinely
+two-family: *Population Space and Place* (11), *Housing Studies* (8), *Demographic Research* (5),
+*Demography* (3), *European Sociological Review* (2), *Population Research and Policy Review* (3)
+alongside the economics venues. Round 2 also reached back further in time than round 1 managed —
+including a 1975 *American Journal of Sociology* paper on the fertility-inhibiting effect of crowded
+apartment living, and a 1995 *Sociological Spectrum* paper on housing tenure and fertility.
+
+**But the round exposed a problem with the chapter's own boundary, and it is not a search problem.**
+The `demog-tenure` family largely **does not study prices.** Its centre of gravity is housing *tenure*,
+housing *type*, housing *conditions*, and above all **residential mobility** — "fertility intentions
+and residential relocations," "residential mobility of couples around family formation,"
+"fertility-intention-induced relocation." Under the 2026-07-31 ruling that C.2.c owns **price**
+variation, a large share of this family routes **out** of the chapter: to A.23, to
+`HOUSING_ONLY_MECHANISM`, or to `REVERSE` — and the relocation papers are `REVERSE` almost by
+construction, since they model moving as a *response* to intended fertility.
+
+Two consequences, both for the PI rather than for the search:
+
+1. **C.2.c may end up a predominantly economics chapter**, with the demography literature entering as
+   mechanism, context, and identification-threat documentation rather than as pooled evidence. That is
+   a defensible outcome of the ruling, not a defect — but it should be a decision made with eyes open,
+   because it means the chapter's evidence base is narrower than the topical literature suggests.
+2. **The relocation cluster is the anticipatory-sorting threat, documented by the field itself.** These
+   papers are direct evidence that households move in anticipation of childbearing, which is threat 1
+   in the scope's identification list. They are more valuable to the chapter as a threat model than
+   they would be as effect estimates, and §9 should use them that way.
+
+*Drift check (the hop-2 concern):* round-2 additions do drift toward residential mobility and
+migration. The drift is real but interpretable — it is the demography family's actual subject matter,
+not the snowball wandering off topic — and the routing rules catch it. No seed pruning needed.
+
 ## 7. Anchor count against the CV floor
 
 Pre-snowball: ~20 empirical anchors, below the ≥30 floor. The 63 new peer-reviewed housing→fertility
@@ -113,7 +164,7 @@ now.
 
 ## 8. Next steps, in order
 
-1. **Round 2 of the snowball** — saturation is not reached (§4). Add `demog-tenure` canon seeds.
+1. **Round 3 of the snowball** — saturation is still not reached after round 2 (§4).
 2. **Normalized-title dedup** across the pool, published version surviving (§5).
 3. **Relevance + estimand screen** on the 106-record Tier-B frame, with a second reader on the
    boundary. The Wall 1 credit cases (§6) are where the screen will be tested.
