@@ -5,8 +5,41 @@
 **Target phenomenon:** SDT only, per the v5 entry. See "A note on the pre-modern niche" below — the
 pre-modern version of this logic exists but currently lives in A.7, and this scope does not annex it.
 **Status:** DRAFT (Shravan, 2026-07-31) — walls, estimand structure, and pooling rule proposed,
-**not yet frozen.** Freeze requires a second read on the tenure-conditioning decision and sign-off on
-the pooling rule. Gold anchors not yet sourced.
+**not yet frozen.** Identifying variation RULED (Shravan, 2026-07-31; see below). Freeze requires a
+second read on the tenure-conditioning decision and sign-off on the pooling rule. Channel-1 anchor
+sourcing in progress.
+
+## Ruling on the identifying variation (Shravan, 2026-07-31)
+
+The three-way overlap between C.2.c, C.3.e, and A.23 is resolved by asking **what varies**, not what
+mechanism the author narrates. Each of the three hypotheses is defined by a different underlying
+source of variation:
+
+| Hypothesis | The variation it owns |
+|---|---|
+| **C.2.c** | **Variation in housing prices** |
+| C.3.e | Variation in liquidity / credit constraints |
+| A.23 | Variation in co-residence with parents — whatever drives it (housing costs *or* social norms) |
+
+Two consequences the rule settles immediately:
+
+- **A.23 is not a housing hypothesis.** Co-residence has multiple upstream drivers, and A.23 owns the
+  co-residence variation itself. So a paper exploiting price variation is C.2.c's even when
+  co-residence is the visible mediator, and a paper exploiting variation in co-residence — norm-driven
+  or otherwise — is A.23's even when housing costs are the narrated cause. This is the mediator rule
+  of Wall 2, now grounded in the source of variation rather than in a mechanism judgment.
+- **The home-equity/collateral studies are C.2.c's**, because their identifying variation is a
+  housing price shock, not a change in credit terms. That resolves the Lovenheim and Mumford
+  double-listing (Wall 1).
+
+**Reading applied in this scope, flagged for correction:** "housing prices" is read as *the price of
+housing*, covering both purchase prices and **rents** — rent is the price of housing services, and the
+contrast the ruling draws is against liquidity and co-residence, not against rents. Under this reading
+the rent stratum stays in, and stays the cleanest identification of the cost channel. Two secondary
+cells sit further from the ruling's centre and are marked as such below: affordability ratios (a
+ratio, not a price) and physical space or dwelling size (a quantity constraint at given price — the
+"space constraints" half of the hypothesis title). Neither is dropped; both are demoted out of the
+primary pools.
 
 ## Causal claim
 

@@ -60,6 +60,43 @@ general rule rather than a per-chapter note. Feeds the escalation already open f
 - [ ] Tempo-vs-quantum tag required on every included effect, with the A.11 cross-ref.
 
 ## Log
+- 2026-07-31 (Shravan/Claude): **channel-1 anchor sourcing run. 25 anchors, all 25
+  existence-verified, zero ghosts.** `housing-costs-cold-start-anchors.{json,md}`.
+  **(1) Channel 1 is empty — no systematic review or meta-analysis of housing → fertility exists.**
+  Four probe forms run before concluding it (OpenAlex `type:review`, two title/abstract review
+  phrasings, WebSearch). The one near miss — Grewal et al. 2024, housing prices → *health* — was run
+  down and excluded: its only overlap with this literature is Daysal et al. 2021, included for birth
+  weight and prematurity, not fertility. **Two hypotheses in a row have now found channel 1 empty
+  from opposite causes** (D.3.b too new, C.2.c never synthesised), which suggests GACS §7 move 5
+  should be reported as tested-and-failed on that leg rather than left open.
+  **(2) Tier-B integrity constraint, flagged before it becomes circular.** 20 of the 25 came from my
+  own OpenAlex keyword sweep, which is GACS **channel 4**, not channel 2. They are Tier-A eligible
+  but **must not enter Tier B** — that is exactly how the OAS recall number got inflated. Tier B has
+  to come from a channel-3 snowball off the four canon seeds, which is the next step. Anchor count
+  ~20, still **below the ≥30 CV floor**; the snowball has to close both gaps.
+  **(3) All four v5 seminal names verify**, but the author list for Daysal et al. is incomplete in v5
+  — it omits **Siersbæk**. Correction for TICK-001. Process note: my first Crossref probe for that
+  paper returned nothing and it looked like a ghost; the query string was simply wrong. A single
+  failed lookup is not evidence of non-existence.
+  **(4) `housing` AND `fertility` is a booby-trapped phrase** — both are core vocabulary in animal
+  science (livestock housing, breeding fertility) and agronomy (soil fertility). Dairy-cattle,
+  biochar, and ruminant papers frequently out-ranked the on-topic economics by citation count.
+  Epidemiological "Cohort Profile" papers are a second polluting class. Needs handling in the
+  production query, not at screening, or it is paid for in LLM cost.
+  **(5) The two vocabulary families are real and barely overlap** — `econ-price` (JPubE, REStat,
+  Economic Inquiry, J. Housing Econ) vs `demog-tenure` (Housing Studies as the hub, Demography,
+  Demographic Research, EJP). They surface different papers, not the same papers renamed. Separate
+  cause-axis clusters, separately budgeted.
+  **(6) Preprint twins are pervasive and DOI dedup will not catch them.** Four of the five strongest
+  anchors have NBER/SSRN twins on separate DOIs, and citation counts split across versions — the
+  Dettling & Kearney JPubE record shows c=0 while its NBER twin shows c=67, so a citation-ranked
+  cutoff would keep the working paper and discard the published one. Normalized-title dedup is
+  load-bearing; the published version wins.
+  **(7) New scope question for the PI, separate from A.10's.** Li 2024 (Labour Economics) runs a
+  global house-price panel **1870–2012** framed against the fertility transition, i.e. FDT — but v5
+  scopes C.2.c to **SDT only**, which would exclude the most historically comprehensive study in the
+  pool. Unlike the A.10 war-shock gap the routing target exists; the only question is the period
+  restriction. Does not block the snowball.
 - 2026-07-31 (Shravan/Claude): **scope drafted, not frozen.**
   `literature/search-logs/housing-costs-search-scope.md`. Six walls, 18 estimand cells, a
   pre-registered pooling rule, and seven required per-effect tags. What the drafting settled or
