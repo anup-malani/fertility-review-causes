@@ -65,15 +65,37 @@ For each hypothesis × phenomenon pair, compute:
 - **Slope sufficiency** — given the literature's best estimate of the causal effect size (d fertility / d X), and the observed range of X over the target period, can the effect plausibly produce the observed range of TFR? Sufficient / partial / insufficient.
 - **R² benchmarks** — within-country time-series R² and cross-country within-period R² of TFR on X (alone and conditional on standard controls).
 
-A hypothesis is **demographically significant** for a phenomenon if its decomposition share ≥ 10% **or** its slope-sufficiency is "sufficient" **or** its conditional R² ≥ 0.15. The 10% / 0.15 thresholds are conventional; thresholds will be pre-registered on OSF and reported alongside results so readers can apply their own.
+**No numerical threshold converts these quantities into a verdict.** Report the decomposition share, the slope-sufficiency judgement, and the R² as computed, in the units they come in, and let the reader weigh them. An earlier version of this protocol called a hypothesis demographically significant when its decomposition share reached 10%, or its slope-sufficiency was "sufficient", or its conditional R² reached 0.15. That rule is withdrawn (PI decision with both RAs concurring, 2026-07-31).
+
+The rule was withdrawn for three reasons. The thresholds were conventional rather than derived, so a share of 9.6% and one of 10.4% would have landed on opposite sides of a line that nothing in the data supports. The three routes are not measured in comparable units, so an "or" across them lets the weakest available evidence carry the verdict. And a share is only as meaningful as the decomposition behind it: the compulsory-schooling chapter's 8% covers women at a single age in a single country, and no threshold applied to that number would have made it mean more than it does.
+
+What a chapter must do instead:
+
+- **State the quantity plainly**, with its uncertainty where uncertainty is computable, and with the scope of what it covers. "8% of the 1900–1930 fall in the annual birth probability among 30-year-old native-born American women" is a reportable share; "8%" alone is not.
+- **Say what the quantity does not cover.** Where a share is computed on a period rate but the hypothesis is about completed fertility, say so.
+- **Do not narrate the number against a bar**, and do not describe a hypothesis as "meeting" or "failing" a significance test.
+- **Where a quantity cannot be computed**, say that, and do not substitute a weaker one from another route.
+
+A share that cannot be estimated is not thereby zero, and a share that is small is not thereby unimportant. Both judgements belong to the reader.
 
 ### 4.3 Verdict structure (per hypothesis)
 
 | | Causal credibility | Demographic significance |
 |---|---|---|
-| Pre-modern | (GRADE rating) | (significant / partial / not significant / insufficient data) |
-| FDT | (GRADE rating) | (significant / partial / not significant / insufficient data) |
-| SDT | (GRADE rating) | (significant / partial / not significant / insufficient data) |
+| Pre-modern | (GRADE rating) | (the computed quantity, plus a one-clause characterisation) |
+| FDT | (GRADE rating) | (the computed quantity, plus a one-clause characterisation) |
+| SDT | (GRADE rating) | (the computed quantity, plus a one-clause characterisation) |
+
+The demographic-significance cell carries the number first and a short characterisation after it, so a
+reader who reads only the table sees the quantity rather than a label standing in for it. "Partial;
+8% of the 1900–1930 decline in the annual birth probability at age 30" is the form. Bare labels
+("significant", "not significant") are not, because §4.2 withdrew the rule that would have produced
+them. Where nothing is computable the cell reads "insufficient data" and the chapter says why.
+
+Where a chapter establishes more than one distinct finding, the table gains a finding dimension and
+each phenomenon-by-finding pair is rated separately. Where a single claim is a conjunction whose
+halves rest on evidence from different periods, each half is rated in its own period and the claim is
+named in both rows.
 
 ## 5. Methodology pipeline
 
@@ -231,7 +253,7 @@ Before any screening for a given hypothesis begins, the following are locked on 
 - Search query strings
 - Data extraction template
 - Statistical analysis plan (random-effects model, heterogeneity tests, sensitivity analyses, publication-bias diagnostics)
-- Demographic-significance thresholds
+- Which demographic-significance quantities will be computed, and the decomposition method for each. No threshold is pre-registered, because §4.2 sets none.
 
 Deviations from pre-registration are reported in the chapter as "deviations from protocol" with justification.
 

@@ -793,10 +793,12 @@ anchors to 21 before a rebuild to 31. Two
 intermediate recall numbers, 82.5% and 76.5%, were retracted. The 80.6% is the number on the clean
 gold.]
 
-[Note to co-authors: this review defines demographic significance by a decomposition share of at least
-10%, a slope-sufficiency verdict of sufficient, or a conditional R² of at least 0.15. Section 8 reports
-the computed quantities plainly rather than against those bars, consistent with the treatment in the
-compulsory-education chapter.]
+[Note to co-authors: this review sets no numerical threshold for demographic significance. PROTOCOL
+§4.2 withdrew the old 10% / sufficient / 0.15 rule on 2026-07-31, a PI decision with both RAs
+concurring, so chapters report the computed quantity and let the reader weigh it. Section 8 already
+reported the computed quantities plainly, so this chapter needed no change. The one place a bar still
+appears is Section 8.3's partial R² of 0.0424 "against a threshold of 0.15"; that sentence describes
+what the computation returned when the rule was live and should be reread on the next pass.]
 
 [Note to co-authors: two causal records in this project's own sets never reached the chapter. The
 causal set carries "The Impact of Social Security on Fertility Willingness in OECD Countries" (DOI

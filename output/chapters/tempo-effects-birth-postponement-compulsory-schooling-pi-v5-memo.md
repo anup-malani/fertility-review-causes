@@ -639,10 +639,12 @@ Finding B's Moderate in Sections 9 and 10 is this chapter's reading of the evide
 vote before it becomes a rating of record. The panel's demographic-significance return,
 INSUFFICIENT_DATA from all three raters, carries to both findings unchanged.]
 
-[Note to co-authors: this review defines demographic significance by a decomposition share of at least
-10%, a slope-sufficiency verdict of sufficient, or a conditional R² of at least 0.15. None of the
-three could be computed for either finding, so Sections 8.3 and 8.4 report the obstruction plainly
-rather than against the bar.]
+[Note to co-authors: this review sets no numerical threshold for demographic significance. PROTOCOL
+§4.2 withdrew the old 10% / sufficient / 0.15 rule on 2026-07-31, a PI decision with both RAs
+concurring, so chapters report the computed quantity and let the reader weigh it. None of the three
+quantities could be computed for either finding here, and Sections 8.3 and 8.4 report that
+obstruction plainly. This chapter needed no change when the rule was withdrawn, because it never
+narrated a number against the bar.]
 
 [Note to co-authors: Wilson's estimate of −0.0081 is filed as an age-specific estimate at 18 in the
 effects file and described as a cumulative effect by 18 in the narrative evidence file. Table 1

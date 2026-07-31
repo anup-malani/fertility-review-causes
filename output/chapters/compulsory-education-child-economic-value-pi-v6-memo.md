@@ -569,12 +569,13 @@ China 1986.
 run with Shanan's SERIOUS rating supplied and returned Low unanimously, recorded in
 `output/tables/compulsory-education-grade-panel-rerate.csv`. Sections 9 and 10 are final.]
 
-[Note to co-authors: this review's protocol defines demographic significance by a decomposition
-share of at least 10%, a slope-sufficiency verdict of sufficient, or a conditional R² of at least
-0.15. The 8% point estimate is below the first of those, the analytic upper bound of 10.2% is above
-it, and the other two routes met no threshold. Sections 8.2 and 10 report the share plainly rather
-than against the bar; the protocol text still defines significance the old way, and the two disagree
-until that edit lands.]
+[Note to co-authors: this review sets no numerical threshold for demographic significance. PROTOCOL
+§4.2 withdrew the old 10% / sufficient / 0.15 rule on 2026-07-31, a PI decision with both RAs
+concurring, so chapters report the computed quantity and let the reader weigh it. The disagreement
+this note previously recorded, between a protocol that set a bar and chapters that ignored it, is
+resolved in the chapters' favour. This chapter is the reason the rule was hard to keep: its 8% share
+sits below the old 10% bar while its analytic upper bound of 10.2% sits above, so the verdict would
+have turned on which end of an interval one read.]
 
 [Note to co-authors: Section 3, Empirical strategy, was added to the PROTOCOL §6 chapter template as
 the new §3 on 2026-07-29, between Theoretical mechanism and Search strategy, and applies to every
