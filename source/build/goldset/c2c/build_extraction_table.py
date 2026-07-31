@@ -34,9 +34,11 @@ CONFIRMED = {
     "W4400391089": ("QUASI_EXP", "regression discontinuity + placebo tests", "housing wealth",
                     "owners (pre-2006 purchasers)", "realized births", "SDT",
                     "Strongest single identification in the pool."),
-    "W7171437109": ("QUASI_EXP", "cohort DiD around the 2014 HPF credit-easing reform + IV + PSM + placebo",
-                    "ownership-stimulating policy", "owners", "realized births", "SDT",
-                    "PNAS. Treatment is a policy that stimulates ownership, so it sits at the C.3.e boundary -- check at extraction whether the variation is price or credit."),
+    "W7171437109": ("ROUTED_OUT", "cohort DiD around the 2014 HPF credit-easing reform + IV + PSM + placebo",
+                    "credit terms (down payment, interest rate, loan ceiling)", "owners", "realized births", "SDT",
+                    "PNAS. BOUNDARY CALL RESOLVED: treatment is CREDIT, not price -- the reform lowered down "
+                    "payment ratios, cut interest rates and raised loan ceilings. Routes to C.3.e under the "
+                    "price-variation ruling. Strong design; flagged TO C.3.e rather than dropped."),
     "W4395680672": ("QUASI_EXP", "house purchase restriction policy variation", "price", "unclear",
                     "realized births", "SDT", "SSRN preprint; no published version located."),
     "W3121393843": ("QUASI_EXP", "IV: initial-area house prices for movers", "price", "yes: owners vs renters",
@@ -58,9 +60,15 @@ CONFIRMED = {
     "W2224046657": ("ROUTED_OUT", "IV: shift-share on national building permits x city geography",
                     "housing supply", "n/a", "MARRIAGE (not fertility)", "FDT",
                     "Every estimating table has marriage as the outcome. The '10 percent of the baby-boom rise' figure is the author's DECOMPOSITION applied to a marriage estimate, not an estimated fertility effect. Routes to HOUSING_ONLY_MECHANISM, cross-ref A.7. Retain the decomposition as a demographic-significance input, attributed."),
-    "W4308203433": ("UNREADABLE", "unknown -- 21-page image-only scan, no text layer", "rent (public rental housing)",
-                    "renters", "birth interval", "SDT",
-                    "Korean. Needs OCR + translation. The only policy-assigned-rent design in the pool, so it cannot be dropped for convenience."),
+    "W4308203433": ("ASSOCIATIONAL", "PWP-GT recurrent-event survival model on 2020 Seoul survey data; "
+                    "residents vs non-residents of public rental housing", "rent (public rental housing residence)",
+                    "renters", "birth INTERVAL (tempo, not quantum)", "SDT",
+                    "OCR'd 2026-07-31 via macOS Vision (literature/pdfs/housing-costs/W4308203433__OCR.txt). "
+                    "CORRECTION: I had assumed this was a policy-ASSIGNED rent design and argued it could not be "
+                    "dropped for convenience. It is not. There is no lottery, waitlist, matching, control group or "
+                    "any discussion of selection -- residence in public rental housing is simply compared with "
+                    "non-residence. Selection into public housing is exactly what would need addressing. "
+                    "ASSOCIATIONAL. Outcome is a birth INTERVAL, so it speaks to tempo, not quantum."),
 }
 
 gate = {r["openalex"]: r for r in csv.DictReader(open("extraction/housing-costs-ra-gate.csv"))}

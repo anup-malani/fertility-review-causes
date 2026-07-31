@@ -1,10 +1,16 @@
 #!/usr/bin/env python3
 """Effect-size extraction for the C.2.c identified core (TICK-055, pass 2).
 
-Every figure below was read from the paper's OWN text, never from another paper's citation of it.
-That discipline caught a live error: the 2021 HPR proceedings paper cites Dettling & Kearney as "6
-percent", where D&K's own text says **5 percent**. Numbers taken from literature reviews would have
-propagated that.
+Every figure below is read from the paper's OWN text AND checked to be the paper's OWN estimate
+rather than a number it quotes from someone else. Both halves of that rule earned their keep:
+
+- the 2021 HPR proceedings paper cites Dettling & Kearney as "6 percent" where D&K's own text says
+  **5 percent**; and
+- pass 2 of this extraction initially recorded "+1.28% to +2.11% per $12,000" as Daysal et al.'s
+  estimate. It is their **footnote 4 summarising prior US literature**. Their actual result is
+  +0.27 pp / +2.32% per 100,000 DKK. Caught during the preprint-vs-published reconciliation.
+
+Being inside the right PDF is not sufficient. The number must also be the authors' own.
 
 Sign convention (scope doc, pooling rule): oriented per unit INCREASE in the housing price/wealth
 measure. Tenure channels are recorded separately and are NEVER combined.
@@ -32,9 +38,13 @@ EFFECTS = {
          "China. Robustness range 0.82-1.24 pp."),
     ],
     "W3037455063": [
-        ("wealth_owner", "+$12,000 housing wealth", "+1.28% to +2.11%", "fertility, homeowners", "NO - BLOCKED",
-         "PREPRINT TWIN. Published JPubE version not retrieved; specifications change between versions. "
-         "Recorded for orientation only; may not enter any pooled estimate until reconciled."),
+        ("wealth_owner", "+100,000 DKK (~$12,000) home price", "+0.27 pp (= +2.32% vs mean)",
+         "likelihood of giving birth, women 20-44 who own a home", "yes",
+         "Denmark, population registers. RECONCILED 2026-07-31: the published JPubE abstract reports the "
+         "identical headline (0.27 pp / 2.32%), so the preprint is usable FOR THIS ESTIMATE. Subsidiary "
+         "specifications were not reconciled. CORRECTION: an earlier version of this table recorded "
+         "'+1.28% to +2.11% per $12,000' as Daysal's estimate -- that is footnote 4 summarising PRIOR US "
+         "literature (Lovenheim & Mumford, Dettling & Kearney), not their result."),
     ],
     "W4399107829": [
         ("aggregate", "+10% real house prices", "-0.030 births/woman (10th pctile of fertility)",
@@ -52,9 +62,14 @@ EFFECTS = {
          "aggregate post-treatment birth decline. SSRN preprint, no published version."),
     ],
     "W7171437109": [
-        ("wealth_owner", "housing-provident-fund credit easing (2014)", "+2.73 pp (= +20.8% over a 0.1314 baseline)",
-         "probability of a new child", "FLAGGED", "PNAS. Treatment is CREDIT easing, which under the "
-         "price-variation ruling routes to C.3.e. Boundary call outstanding."),
+        ("credit_access", "housing-provident-fund credit easing (2014)", "+2.73 pp (= +20.8% over a 0.1314 baseline)",
+         "probability of a new child", "NO - ROUTED TO C.3.e",
+         "BOUNDARY CALL RESOLVED 2026-07-31, routed OUT of C.2.c. The reform 'expanded access by lowering "
+         "down payment ratios, reducing interest rates, and raising loan ceilings'; the paper's own framing "
+         "is 'improved access to preferential housing loans' and 'supporting groups facing credit "
+         "constraints'. House prices do not vary -- credit terms do. Under the 2026-07-31 ruling C.3.e owns "
+         "liquidity/credit variation. Flagged TO C.3.e as a strong quasi-experimental study for that "
+         "chapter; it is not a C.2.c price estimate."),
     ],
     "W3144108245": [
         ("aggregate", "HPR policy (DiD)", "birth rate -5.45 'unit' (units not defined)", "birth rate",
@@ -63,8 +78,13 @@ EFFECTS = {
          "accurate and unbiased result'. Units undefined. RECOMMEND DEMOTION from the identified core."),
     ],
     "W4308203433": [
-        ("cost_rent", "public rental housing assignment", "NOT EXTRACTED", "birth interval", "NO - UNREADABLE",
-         "Image-only scan, Korean. Needs OCR + translation."),
+        ("cost_rent", "public rental housing residence (not assignment)", "direction mixed; see note",
+         "birth interval (tempo)", "no (associational; tempo outcome)",
+         "OCR'd via macOS Vision. Finds delayed move-in produced a catch-up effect among non-resident "
+         "households but delayed childbirth among public-rental households, and that second-birth intervals "
+         "shortened sharply after moving in. No selection correction, so not an identified estimate. "
+         "Outcome is a birth INTERVAL -- tempo, not quantum -- so it cannot pool with the quantum estimates "
+         "in any case."),
     ],
 }
 

@@ -168,3 +168,81 @@ of QUASI_EXP**, which would take the identified core from 9 to 8.
   C.3.e) is still open and it is one of the four wealth-channel estimates, so the call matters.
 - **The Korean rent study** — still unreadable; it is the only policy-assigned-rent design.
 - **Harmonisation** — convert all estimates to a common elasticity before any pooling.
+
+---
+
+# Extraction pass 3 — the four open items, worked in order
+
+**Run:** 2026-07-31 · Outputs: `housing-costs-effects.csv` (revised),
+`housing-costs-effects-harmonised.csv`, `literature/pdfs/housing-costs/W4308203433__OCR.txt`
+
+## Item 1 — Daysal reconciliation: PASSES, and it caught an error of mine
+
+The published *JPubE* abstract reports the identical headline to the preprint — **+0.27 percentage
+points, or +2.32%, per 100,000 DKK (≈$12,000)** — so the preprint is usable for that estimate.
+Subsidiary specifications were not reconciled.
+
+**But the reconciliation exposed a mis-attribution in pass 2.** I had recorded Daysal's effect as
+"+1.28% to +2.11% per $12,000". That is their **footnote 4 summarising prior US literature**
+(Lovenheim & Mumford, Dettling & Kearney) — not their result. Corrected to +0.27 pp / +2.32%.
+
+This is the same error I had flagged one pass earlier when catching the HPR paper misquoting Dettling
+& Kearney, and I made it anyway. The rule is now stated in the build script as two conditions, not
+one: **being inside the right PDF is not sufficient; the number must also be the authors' own.**
+
+## Item 2 — PNAS boundary call: ROUTED OUT to C.3.e
+
+The 2014 reform "expanded access by **lowering down payment ratios, reducing interest rates, and
+raising loan ceilings**"; the paper's own framing is "improved access to preferential housing loans"
+and "supporting groups facing credit constraints". **House prices do not vary — credit terms do.**
+Under the 2026-07-31 ruling, C.3.e owns liquidity and credit variation. Routed out, and flagged *to*
+C.3.e as a strong quasi-experimental study for that chapter rather than dropped.
+
+Cost: the identified core falls 9 → 8, and the wealth channel loses one of its four estimates.
+
+## Item 3 — Korean paper OCR'd, and it is not what I assumed
+
+OCR'd with the **macOS Vision framework** via a small Swift bridge (`ocr_vision.swift`) — no
+third-party install; `swiftc` and Vision's `ko-KR` support are already on the machine. 21 pages,
+clean output.
+
+**The result overturns my own characterisation.** I had called this "the only policy-assigned-rent
+design in the pool" and argued it could not be dropped for convenience. It is not a policy-assigned
+design. It is a **PWP-GT recurrent-event survival model on 2020 Seoul survey data**, comparing
+residents of public rental housing with non-residents. There is **no lottery, waitlist, matching,
+control group, or any discussion of selection** — and selection into public housing is precisely what
+would need addressing. Regraded **ASSOCIATIONAL**.
+
+Two further consequences: its outcome is a **birth interval**, so it speaks to **tempo, not quantum**
+and could not pool with the quantum estimates even if it were identified; and the rent-identified
+stratum now has **no quasi-experimental member at all**.
+
+## Item 4 — Harmonisation to a common elasticity
+
+Five poolable estimates arrived in four incompatible units. All are now on one scale — **% change in
+fertility per 1% change in the price/wealth measure, at each study's own sample mean.** Every baseline
+was read from the study's own descriptive-statistics table, visually from the PDF where `pdftotext`
+could not render it (both dollar-denominated studies).
+
+| Channel | Study | Elasticity | Basis |
+|---|---|---|---|
+| **Wealth (owners)** | Dettling & Kearney (US, IV) | **+0.81** | +5.0% per 6.16% (mean price $162,356) |
+| | Daysal et al. (Denmark) | **+0.23** | +2.32% per 10.22% (mean home value 978,070 DKK) |
+| | Ang et al. (China, RD) | **+0.18** | reported as an elasticity |
+| **Cost (non-owners)** | Dettling & Kearney (US, IV) | **−0.39** | −2.4% per 6.16% |
+| **Cost (prospective buyers)** | Liu & Zhang (China, HPR) | **−0.82** | −8.21% per 10% (mean CBR 10.72/1,000) |
+
+**The picture survives harmonisation and gets sharper.** Signs are consistent within channel — three
+positive wealth elasticities, two negative cost elasticities — and the magnitudes are within a factor
+of about four. **Dettling & Kearney is the outlier on both sides**: its owner elasticity (+0.81) is
+three to four times the Danish and Chinese estimates, and it is the single most-cited study in the
+literature. That is worth stating plainly, because a reader anchored on the US result will overestimate
+the wealth channel.
+
+**Linearity is imposed, not tested.** Converting a per-$10,000 effect to an elasticity at the mean
+assumes local linearity; Dettling & Kearney state that assumption explicitly. It is the main thing
+that could move these numbers.
+
+**Recommendation for synthesis, unchanged and now better supported:** with n=3 and n=2 per channel,
+report this as a **structured evidence table**, not a forest plot. The five numbers, their signs, and
+their settings say more than a pooled point estimate with two or three contributing studies would.
