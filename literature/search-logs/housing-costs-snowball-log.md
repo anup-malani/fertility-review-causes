@@ -288,9 +288,8 @@ now.
 
 ## 8. Next steps, in order
 
-1. **Decide the stop, explicitly** (§4). Either run a **same-seed confirming round** — the only test
-   that measures exhaustion rather than the RA's imagination — or record "no under-reached sub-area
-   can be named" as the stopping condition. Do not let the snowball end by simply not continuing.
+1. ~~Decide the stop~~ — **done. Stop test closed at round 5** (§4), two consecutive below-floor
+   rounds, with the shape caveat recorded there.
 2. **Normalized-title dedup** across the pool, published version surviving (§5).
 3. **Relevance + estimand screen** on the 106-record Tier-B frame, with a second reader on the
    boundary. The Wall 1 credit cases (§6) are where the screen will be tested.

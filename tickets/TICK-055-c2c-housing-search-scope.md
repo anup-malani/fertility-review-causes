@@ -60,6 +60,36 @@ general rule rather than a per-chapter note. Feeds the escalation already open f
 - [ ] Tempo-vs-quantum tag required on every included effect, with the A.11 cross-ref.
 
 ## Log
+- 2026-07-31 (Shravan/Claude): **snowball rounds 4–5 (mechanical). STOP TEST CLOSED.** Merged pool
+  **10,915**; Tier-B frame **293**, unscreened. Yields 6.71 / 2.85 / 1.29 / **0.48** / **0.92** per 50
+  against a floor of 1.0 — two consecutive below-floor rounds, so §7.2 is satisfied and the frame is
+  eligible to freeze.
+  **(1) RETRACTION — my "the §7.2 stop rule is defective" claim was wrong, and the cause was my own
+  bug.** The relevance filter matched bare `hous` and `rent`, scoring **hous**ehold, pa**rent**,
+  cur**rent**, and diffe**rent** as housing terms, which admitted the whole fertility-economics and
+  transition-to-parenthood literature as "housing core." **58% of the frame (314 of 545) were false
+  positives**, worst in the rounds the stall claim rested on (r3 34→15, r4 342→75). Fixed with word
+  boundaries and a `household` lookahead (`relabel_pool.py`; fix now in both aggregators). On
+  corrected counts the decay is clean and the rule behaves as designed. **My proposed replacement
+  metric was also wrong**: overlap rate is not a convergence signal — it fell 37% → 10% under
+  mechanical expansion, because it measures seed *placement*, not exhaustion. Do not adopt it.
+  **(2) What survives, and is worth writing into §7.2.** Expanding-seed rounds are not saturation
+  tests, and a **mechanical confirming round** — seeds chosen by frame membership, never by RA
+  judgement — should be required before any snowball is declared saturated. It was the mechanical
+  round that produced the below-floor reading.
+  **(3) The generalisable lesson, which is sharper than the one I got wrong: a stop rule is only as
+  good as the relevance classifier feeding it, and a broken classifier fails in the direction that
+  looks like more work.** The bug inflated new-relevant counts, held yield above the floor, and made a
+  converging snowball look non-converging. Nothing in the pipeline caught it — counts were plausible
+  and monotone. It surfaced only because round 4's titles were eyeballed. **Recommend requiring a read
+  of a random sample of what the relevance filter admits before any saturation number is trusted.**
+  **(4) Caveat on the closing result, recorded rather than buried.** Round 5 (0.92) came in *higher*
+  than round 4 (0.48) and only just below the floor — a dip and partial rebound, not a monotone decay,
+  because each mechanical round seeds from the previous round's new finds. Frame grew 203 → 231 → 293.
+  This is a slowly-converging process that met a pre-registered threshold, not one that visibly
+  exhausted itself. We stop anyway: demanding a sixth round after seeing 0.92 would be post-hoc
+  discretion, and the rebound mechanism makes it unfalsifiable. Any further round should be triggered
+  by a substantive gap the screen reveals.
 - 2026-07-31 (Shravan, RA decision): **a thin price-variation evidence base is an acceptable
   outcome.** The meta-analysis is constrained by the studies that exist; if few identify off housing
   prices, C.2.c becomes a theory-heavy chapter and that is the correct result, not a reason to loosen

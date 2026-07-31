@@ -15,6 +15,7 @@ from collections import defaultdict
 
 MAILTO = "shravanh@uchicago.edu"
 CONFIRM_DIR = sys.argv[1]
+ROUND = int(os.environ.get("ROUND", "4"))  # set ROUND=N for successive mechanical rounds
 POOL = "literature/search-logs/housing-costs-snowball-pool.json"
 FRAME = "literature/search-logs/housing-costs-tier-b-frame.json"
 
@@ -98,7 +99,7 @@ for k in new_ids:
         "venue": ((w.get("primary_location") or {}).get("source") or {}).get("display_name") or "",
         "cited_by": w.get("cited_by_count") or 0,
         "seeds_backward": [], "seeds_forward": [], "n_seeds": 0,
-        "first_found_round": int(os.environ.get("ROUND", "4")),
+        "first_found_round": ROUND,
         "provisional_relevance": "RELEVANT_CANDIDATE" if is_core(title) else "OFF_OR_UNCERTAIN",
     })
     if is_core(title):
@@ -114,7 +115,7 @@ json.dump(frame, open(FRAME, "w"), indent=1)
 pulled = len(pulled_unique)
 per50 = new_core / pulled * 50 if pulled else 0
 overlap = 1 - len(new_ids) / pulled if pulled else 0
-print(f"\n=== ROUND {os.environ.get(chr(34)+chr(82)+chr(69)+chr(85)+chr(78)+chr(68)+chr(34), chr(52))} (mechanical confirming round) ===")
+print(f"\n=== ROUND {ROUND} (mechanical confirming round) ===")
 print(f"  pulled (unique)      : {pulled}")
 print(f"  new unique           : {len(new_ids)}")
 print(f"  new relevant (core)  : {new_core}")
