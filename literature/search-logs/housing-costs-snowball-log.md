@@ -4,7 +4,7 @@
 defective, and that is the main methodological result of this run.**
 **Artifacts:** `housing-costs-snowball-pool.json` (1,735 records) ·
 `housing-costs-tier-b-frame.json` (203 candidates, unscreened)
-**Scripts:** `source/build/goldset/c2c/{snowball.sh,twins.sh,snowball_r2.sh,aggregate_rounds.py}`
+**Scripts:** `source/build/goldset/c2c/{snowball.sh,twins.sh,snowball_r2.sh,snowball_r3.sh,aggregate_rounds.py}`
 
 **Round 1 seeds** — the four `channel2_canon_v5seminal` anchors only: Mulder & Billari 2010,
 Dettling & Kearney 2014, Lovenheim & Mumford 2013, Daysal et al. 2021.
@@ -13,15 +13,26 @@ Dettling & Kearney 2014, Lovenheim & Mumford 2013, Daysal et al. 2021.
 round 1, not keyword-discovered**: the Tier-B integrity constraint is about keyword bias, and a paper
 reached by citation from a canon seed does not reimport it. They sit at hop 2 relative to the original
 canon, so round-2 output was checked for drift (§6b).
+**Round 3 seeds** — eight papers targeting what rounds 1–2 under-reached: the modern price empirics
+(China, Netherlands, US), the space/crowding cell, affordability, and the long-run panel (§6c).
 
 ---
 
-## 1. Seed discipline
+## 1. Seed discipline — stated loosely in round 1, tightened in round 3
 
-Keyword-scouted papers were **deliberately excluded as seeds**, including Li 2024 despite its
-admission to the chapter. GACS A3 restricts Tier B to channels 1–3; seeding a snowball off
-keyword-found papers would centre the citation neighbourhood on the query's own reach and reimport the
-bias Tier B exists to escape. Considered and declined explicitly so the choice is on the record.
+**Round 1's rule:** keyword-scouted papers excluded as seeds outright, Li 2024 included, on the
+grounds that GACS A3 restricts Tier B to channels 1–3 and seeding off keyword-found papers would
+centre the citation neighbourhood on the query's own reach.
+
+**That rule was too crude, and round 3 replaced it.** What must be excluded is a paper reachable
+**only** by keyword — seeding off one imports the query's blind spots. A paper that is already
+**citation-reachable from the canon** (i.e. appears in the merged pool) carries no such bias, whether
+or not a keyword sweep also happened to find it. The operational test is therefore *membership in the
+pool*, not *method of first discovery*.
+
+Under the tightened rule **Li 2024 qualifies and was seeded in round 3**, which also serves its
+admission to the chapter. The round-1 exclusion was conservative rather than wrong, and cost little:
+Li's neighbourhood was reached one round later.
 
 Cost, in round 1: the seed set was unbalanced — three `econ-price`, one `macro-comparative` (Mulder &
 Billari, in *Housing Studies*), **zero pure `demog-tenure`**, so the demography family was reached only
@@ -226,7 +237,9 @@ now.
 
 ## 8. Next steps, in order
 
-1. **Round 3 of the snowball** — saturation is still not reached after round 2 (§4).
+1. **Decide the stop, explicitly** (§4). Either run a **same-seed confirming round** — the only test
+   that measures exhaustion rather than the RA's imagination — or record "no under-reached sub-area
+   can be named" as the stopping condition. Do not let the snowball end by simply not continuing.
 2. **Normalized-title dedup** across the pool, published version surviving (§5).
 3. **Relevance + estimand screen** on the 106-record Tier-B frame, with a second reader on the
    boundary. The Wall 1 credit cases (§6) are where the screen will be tested.
