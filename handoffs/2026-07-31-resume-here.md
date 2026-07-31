@@ -95,7 +95,10 @@ Say "go" and these run roughly in this order.
    panel never saw it. Two other B.1 ratings are queued for the same panel.
 4. **Process the 11 voice tickets** at
    `/Users/amalani/UChicago Law Dropbox/Anup Malani/assistants/voice/tickets/inbox/`. This is the
-   voice assistant's job in its own project, not this repo's.
+   voice assistant's job in its own project, not this repo's. Start with
+   `2026-07-31-lessons-ledger-fertility-rewrites.md`, which is the consolidated field report from this
+   session and says how to handle the other ten — seven of them are already covered by their own
+   07-27 tickets and should not be landed twice.
 
 ---
 
