@@ -110,7 +110,8 @@ well-evidenced phenomenon.
 1. **The `id_strength` labels are provisional.** *(§5.1)* They were assigned from titles and abstracts, and
    design claims need confirming at full text. Li 2024's global 1870–2012 panel in particular is
    marked QUASI_EXP on its framing; if it is panel fixed-effects without an instrument it is
-   associational, and it is currently the only pre-2010-coverage study in the identified set.
+   associational. That matters more than a single relabel: with Li demoted, the FDT cell would rest on
+   *Homes and husbands for all* alone (§4).
 2. **Retrieve full text for the 78**, prioritising the 15. Tenure conditioning, treatment type,
    parity, and tempo-vs-quantum are all full-text facts (scope doc, "When to adjudicate").
 3. **Resolve the 5 remaining `UNCERTAIN_NEEDS_FULLTEXT`.**

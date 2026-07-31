@@ -323,6 +323,10 @@ wealth-asymmetry paper.
 
 **The historical/FDT cluster now exists, which retrospectively supports the Li 2024 ruling.**
 `10.2307/2084364` — *"Housing and the Birth Rate in Sweden"*, **American Sociological Review, 1937**.
+*(Update, after the gate: this paper did not reach the empirical core — the screen routed it
+`AGGREGATE_UNSPLIT`, because its subject is Sweden's public-housing programme rather than a price. It
+stays in Tier B and is worth reading at full text, but the framing here oversold it. See the
+gold-freeze proposal §4.)*
 Plus the rent panel's 1940 start, `10.2307/2061200` (apartment living and fertility, *Demography*
 1978), `10.1080/19485565.1992.9988818` (household crowding and reproductive behaviour), and
 `10.1080/19485565.1995.9988902` (multi-family housing and marital fertility, Iran, 1995).
