@@ -38,6 +38,46 @@ Columns `retrieved_by` / `retrieved_date` / `notes` are there to be filled in as
 Retrieve the 11 QUASI_EXP first. They are the chapter; the remaining 48 are the associational stratum
 and can follow.
 
+## How to do it (Zotero)
+
+**Filenames do not matter.** Save whatever the browser gives you into one folder; the ingest script
+identifies each PDF from its own contents and renames it. Do not rename by hand.
+
+1. **Proxy first.** Zotero → Settings → General → *Library Lookup* / OpenURL resolver set to
+   UChicago's, and sign in to the library proxy in the same browser Zotero Connector uses. Without
+   this, every Elsevier/Wiley/OUP link returns a paywall page and the connector saves an HTML stub
+   rather than a PDF.
+2. **Bulk-add by identifier.** Zotero → **Add Item by Identifier** (the green *magic wand*). It accepts
+   **multiple DOIs pasted at once, one per line**. Paste:
+   - `extraction/housing-costs-retrieval-dois-priority.txt` — **the 11 identified studies. Do these
+     first; they are the chapter.**
+   - `extraction/housing-costs-retrieval-dois-all.txt` — the remaining 52, when you get to them.
+3. **Pull the PDFs.** Select the new items → right-click → **Find Available PDFs**. This is where the
+   proxy earns its keep. Expect a handful to fail even so — SSRN and some Korean journals block it.
+4. **Mop up the failures by hand.** For anything still without an attachment, open the DOI link in the
+   proxied browser and use the Connector, or download and drag the file into the item.
+5. **Seven records have no DOI** and cannot be added by identifier — search them by title in Zotero or
+   the library catalogue. They are listed in the handoff CSV with an empty `doi` column.
+6. **Export to a folder.** Select the items → right-click → **Export Items…** → *Zotero RDF* with
+   *Export Files* ticked, or simply drag the attachments out. Any folder is fine, e.g. `~/Downloads/c2c`.
+7. **Ingest.** From the repo root:
+   ```
+   python3 source/build/goldset/84_c2c_ingest_pdfs.py --source ~/Downloads/c2c          # dry run
+   python3 source/build/goldset/84_c2c_ingest_pdfs.py --source ~/Downloads/c2c --apply
+   ```
+   The dry run prints a table of what it matched, how (DOI or title score), and the first line of each
+   PDF so you can eyeball the match before anything is copied. `--apply` copies into
+   `literature/pdfs/housing-costs/`, renames to `W<id>__<slug>.pdf`, and updates the retrieval log so
+   the log and the directory cannot drift. Nothing is deleted and it is safe to re-run.
+8. **Check the report.** `extraction/housing-costs-pdf-ingest-report.md` lists anything unidentified —
+   usually a wrong download or a paper outside the gated set. Those need a human look.
+
+**Two things the script already handles**, because both broke it in testing:
+working papers frequently print **no DOI** at all, and `pdftotext` mangles ligatures in LaTeX-set
+economics papers (one file's title extracts as *"The asymmetric housing wealth e¤ect on childbirth"*).
+Matching is therefore token-containment scored, not exact — verified end-to-end on four real PDFs
+renamed to `download(1).pdf` etc., all four identified.
+
 ## Acceptance criteria
 - [ ] All 11 missing QUASI_EXP records retrieved, or each recorded as genuinely unobtainable with the
       route tried.
