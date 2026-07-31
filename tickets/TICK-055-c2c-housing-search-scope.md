@@ -1,5 +1,5 @@
 # TICK-055: C.2.c search scope — tenure-conditional sign, pooling rule, walls
-**Status:** in-progress
+**Status:** RA draft complete — chapter written, awaiting PI review; retrieval remainder at TICK-056
 **Assigned:** Shravan
 **Parallel-safe:** yes (no file overlap with the live D.3.b, B.1, or A.10 work)
 **Blocks:** C.2.c cold-start anchors, C.2.c query build (tickets not yet opened)
