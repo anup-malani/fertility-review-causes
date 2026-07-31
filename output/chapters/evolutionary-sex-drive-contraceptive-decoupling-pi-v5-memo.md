@@ -40,7 +40,7 @@ producing births.
 case.
 **Cross-references:** Modern contraceptive technology (A.2), which owns the total effect of
 contraceptive access on births and the gap between the children people want and the children they
-have. Coital frequency and biological exposure (A.4), which owns how often sex happens. Shifting
+have. Coital frequency and fecundability (A.14), which owns how often sex happens. Shifting
 family preferences (D.1), which owns a fall in how many children people want. Postmaterialist
 acceptance of contraceptive use (D.1.a), which owns the change in norms that made contraception
 usable.

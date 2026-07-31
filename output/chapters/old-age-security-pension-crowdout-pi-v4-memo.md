@@ -535,9 +535,8 @@ policy, so a Chinese response to a pension measures the birth policy alongside t
 Chinese estimates also disagree with each other after orientation, +0.04 against −0.169.
 
 This review's third route to demographic significance was computed for the old-age-security
-hypothesis and returned nothing. Across six association records, the largest partial R² is 0.0424
-against a threshold of 0.15,
-with model R² values running from 0.007 to 0.345.
+hypothesis and explains almost none of the variation. Across six association records the largest
+partial R² is 0.0424, with model R² values running from 0.007 to 0.345.
 
 **Verdict: not significant.**
 
@@ -796,9 +795,10 @@ gold.]
 [Note to co-authors: this review sets no numerical threshold for demographic significance. PROTOCOL
 §4.2 withdrew the old 10% / sufficient / 0.15 rule on 2026-07-31, a PI decision with both RAs
 concurring, so chapters report the computed quantity and let the reader weigh it. Section 8 already
-reported the computed quantities plainly, so this chapter needed no change. The one place a bar still
-appears is Section 8.3's partial R² of 0.0424 "against a threshold of 0.15"; that sentence describes
-what the computation returned when the rule was live and should be reread on the next pass.]
+reported the computed quantities plainly, so only one sentence changed: Section 8.3 stated its
+partial R² of 0.0424 "against a threshold of 0.15" and now reports the quantity on its own. The
+remaining threshold in this chapter, the k≥3 rule for pooling in Section 7.3, is a
+meta-analysis rule and is untouched by the §4.2 decision.]
 
 [Note to co-authors: two causal records in this project's own sets never reached the chapter. The
 causal set carries "The Impact of Social Security on Fertility Willingness in OECD Countries" (DOI
