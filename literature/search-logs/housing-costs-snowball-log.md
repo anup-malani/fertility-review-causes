@@ -15,16 +15,17 @@ canon, so round-2 output was checked for drift (§6b).
 
 ---
 
-## 1. Why only four seeds
+## 1. Seed discipline
 
 Keyword-scouted papers were **deliberately excluded as seeds**, including Li 2024 despite its
 admission to the chapter. GACS A3 restricts Tier B to channels 1–3; seeding a snowball off
 keyword-found papers would centre the citation neighbourhood on the query's own reach and reimport the
 bias Tier B exists to escape. Considered and declined explicitly so the choice is on the record.
 
-Cost: the seed set is unbalanced — three `econ-price`, one `macro-comparative` (Mulder & Billari, in
-*Housing Studies*), **zero pure `demog-tenure`**. The demography family is reached only through Mulder
-& Billari. Round 2 should add channel-2 canon seeds on that side.
+Cost, in round 1: the seed set was unbalanced — three `econ-price`, one `macro-comparative` (Mulder &
+Billari, in *Housing Studies*), **zero pure `demog-tenure`**, so the demography family was reached only
+through Mulder & Billari. **Round 2 closed that gap** with seven citation-discovered demography seeds
+(header, §6b).
 
 ## 2. Yield
 
@@ -96,13 +97,15 @@ twins are treated as citation sources, never as separate anchors. **This should 
 the pipeline, not a C.2.c fix** — every economics hypothesis in this review will hit it, because NBER
 and SSRN preprints are where economics citations accumulate.
 
-Within the pool the problem recurs: 46 normalized-title duplicate groups spanning 105 records. The
-worst is *Partisan Fertility and Presidential Elections*, present **five times** (AER: Insights, three
-SSRN records, one OSF preprint). 21 of the 106 Tier-B candidates are preprint-only records.
-Normalized-title dedup is mandatory before this frame is frozen, and the **published** version must be
-the survivor.
+Within the merged pool the problem recurs at scale: **70 normalized-title duplicate groups spanning
+156 records.** The worst is *Partisan Fertility and Presidential Elections*, present **five times**
+(AER: Insights, three SSRN records, one OSF preprint); round 2 added another instance in Kulu & Vikat
+2007, whose MPIDR working paper (`10.4054/mpidr-wp-2007-014`) and *Demographic Research* article are
+both in the frame. **23 of the 169 Tier-B candidates are preprint-only records and 8 carry no DOI at
+all.** Normalized-title dedup is mandatory before this frame is frozen, and the **published** version
+must be the survivor.
 
-## 6. What the round found that changes the chapter
+## 6. What round 1 found that changes the chapter
 
 - **`10.1007/s11150-016-9355-8` — "The asymmetric housing wealth effect on childbirth"** (*Review of
   Economics of the Household*). Directly on the tenure-asymmetry that structures the scope doc's
