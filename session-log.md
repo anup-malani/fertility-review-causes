@@ -1502,3 +1502,97 @@ Every intermediate version is on disk as `-pi-v<N>.md`, with PI-annotated stages
   questions: A.10 Q5 standard errors, B.15 Q4 Hirazawa and Yakita, part of B.1 Q1.
 - **Lessons ledger** for the voice system: not assembled.
 - **`session-log.md`** has uncommitted local edits carried through a stash-pop conflict resolution.
+
+---
+
+## [2026-07-31 10:17] — B.1 claim split, four-chapter referent audit, threshold withdrawn, lit folder built
+
+### What happened
+
+Closed both blocking items from the 07-29 handoff, then took on four more things the PI raised.
+
+**B.1's bottom-line contradiction, resolved by PI decision.** The box called the
+status-and-reproduction claim "well supported" and eleven lines later said the positive baseline it
+needs is not established. Both were true of different conjuncts of one claim. The PI chose to split
+it into two separately rated halves, the **pre-contraceptive gradient** and the **dissociation under
+contraception**, extending the A.10 multi-finding precedent. Section 1 coins and defines both tags.
+The GRADE and verdict tables both went to five rows and agree with each other for the first time:
+previously the verdict table left its pre-modern row unlabeled by claim while the GRADE table called
+the same row "decoupling claim," and the generated CSV keyed it `PM_dissociation` with the claim
+string "Status predicts reproductive success where contraception is absent." The chapter's label was
+the thing out of step, not the script's.
+
+**Referent audit, by reading, on B.4 and B.15 — then extended to A.10.** Reading found roughly twice
+what grep had: 22 untagged hypothesis references in B.4 (recorded as 12), 9 in B.15 (recorded as 2),
+3 in A.10. All four chapters now coin a tag and open Section 1 formulaically. A.10 was signed off
+before PROTOCOL §6.1 existed and carried the same defects; the handoff's task list would have skipped
+it.
+
+**The defect no grep could have found.** B.4 referred to A.10 under three different names — "the
+chapter on the fertility of the female student" (3x), "the birth-postponement chapter" (4x), "the
+tempo chapter" (1x) — so a reader met three imaginary sibling chapters. One reference was a broken
+half-finished substitution from the A.10 retitle reading "The chapter on tempo the fertility of the
+female student," which had survived a session that recorded the cross-references as updated. A.10
+returned the favour with two names for B.4, two of them wrapped across line breaks and invisible to
+line-oriented grep.
+
+**The 10% significance threshold withdrawn.** RAs concurred. PROTOCOL §4.2 rewritten with the
+reasoning recorded so nobody re-invents the bar, §4.3 and §8 updated, three chapter notes rewritten.
+No chapter text needed changing; they were already reporting shares plainly.
+
+**Shared literature folder built and shared.** `fertility/fertility-review-lit/causes/<code>-<slug>`,
+generated from HYPOTHESES-v5.md by `source/build/sync_lit_folders.py` rather than typed. The PI asked
+whether to name it `fertility-review-causes-lit` or add a `causes/` layer; recommended the layer and
+implemented it, because the folder is a Dropbox shared folder, access inherits downward, and granting
+editor rights is the one un-automatable step — under a sibling scheme every future review costs
+another manual share.
+
+**Bisi, Sturm and Van Bavel (2024) retrieved.** Open access, downloaded, filed. Abstract: "The
+exposure to a pessimistic scenario increased the likelihood of low fertility desire in both Belgian
+and Italian respondents." D.3.b's distinctive claim requires desire to stay intact. The premise
+separating D.3.b from D.1.a fails.
+
+**Voice lessons ledger written and filed as a ticket.** RAs emailed the three settled answers.
+
+### Produced
+
+- `PROTOCOL.md` §4.2 rewritten, §4.3 and §8 updated
+- `source/build/sync_lit_folders.py` — generates the Dropbox lit tree, renames on code drift, never deletes
+- `assistants/voice/context/lessons-ledger-fertility-rewrites-2026-07-31.md` + inbox ticket
+- `handoffs/2026-07-31-resume-here.md`; 07-29 handoff marked superseded
+- Email sent to both RAs from amalani@uchicago.edu
+- Ten commits, all pushed to `origin/pi-voice-rewrites`
+
+### What I got wrong, and the general lessons
+
+- **I reflowed B.4 to 100 columns in the same commit as the content edits**, turning ~40 real edits
+  into a 165-line diff. `git diff -w` does not help, because the damage is line re-joining. Caught it
+  before B.15 and A.10 and did those without a reflow. Never mix a rewrap with a content edit.
+- **I introduced a positional back-reference while writing the fix for positional back-references** —
+  "a fall from the first to the second," in the sentence written to fix that exact class. Caught on
+  self-check. Knowing a rule does not prevent violating it.
+- **The one defect a script caught better than a person:** B.1 cited A.4 for coital frequency, but
+  A.4 is Induced Abortion Access; coital frequency is A.14. Validating every parenthetical code
+  against the master list found it instantly. Ten rounds of human reading had not.
+- **Hypothesis codes have drifted and nobody noticed.** A.10/B.4/B.15 in every handoff and chapter
+  are A.11/C.3.b/C.3.c in HYPOTHESES-v5.md. Two of five stale. This is why the folder builder
+  generates names instead of accepting typed ones.
+
+### Open items
+
+- **D.3.b: does it survive as its own chapter, or fold into D.1.a?** PI decision, and it precedes the
+  eight questions in `temp/rewrite/climate-anxiety-eco-doomerism/questions-v1.md`, most of which
+  become moot if it folds.
+- **Hypothesis-code drift needs a PI decision:** renumber the chapters, change the master list, or
+  drop codes from prose and key on slugs. Recommended the third. RAs have been told to flag stale
+  codes, so they will hit it.
+- **Write the three re-pooled studies into `extraction/…-effects.csv`.** One write unblocks three
+  things: `b1_demographic_significance.py` generating five rows instead of four, its stale pre-modern
+  row, and B.1's stale forest plot.
+- **B.1's new pre-modern rating never went to the three-rater panel** — the row postdates it. Two
+  other B.1 ratings are queued for the same panel.
+- **11 voice tickets** await `/process-voice-tickets`; start with the ledger ticket, which routes the
+  other ten and flags the seven already covered.
+- **Confirm the RAs have write access, not read.** Could not verify through the Dropbox API whether
+  the share went out as "Can edit" or "Can view"; view-only would look fine and silently break
+  everything. The email asks them to test by adding a file.
