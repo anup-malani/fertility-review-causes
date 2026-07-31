@@ -61,5 +61,24 @@ that gap, so war-shock papers currently have no home chapter to route to.
 - [ ] Scope frozen with a date and author line, matching the D.3.b convention.
 
 ## Log
+- 2026-07-31 (Shravan/Claude): **scope drafted, deliberately NOT frozen.**
+  `literature/search-logs/sex-ratio-marriage-market-search-scope.md`. Five walls, 16 estimand cells,
+  a pre-registered sign convention. Three things the drafting surfaced that were not in the ticket:
+  **(1)** The PI's prior needs a two-sided answer, not a rebuttal. His premise is about the sex ratio
+  at *birth*, which is not the marriage market's clearing variable — the operational ratio departs
+  from 100 through the growth-plus-spousal-age-gap squeeze, male excess mortality, and migration, and
+  all three peaked during the FDT. But two *aggregation* arguments still support his conclusion: the
+  offset (a reshuffle mostly reallocates births across men, since total births are bounded by women)
+  and the locality of large skews. So "well-identified locally, negligible globally" is a coherent
+  verdict and may be the chapter's. The scope states falsification conditions both ways.
+  **(2)** The sign is unfixed on three independent axes — scarcity direction, denominator, and
+  channel — and exposure and bargaining push *opposite ways* in the same setting. Conditioning on
+  marital status is what separates them, which makes `PRIMARY_BARGAINING_CONDITIONAL` this chapter's
+  value-added cell (the analogue of D.3.b's `DESIRE_INDEPENDENCE`). Pooling is barred across the
+  scarcity direction and across denominators — stricter than the OAS rule, deliberately.
+  **(3)** Wall 1 and the channel tag are **full-text-only facts** in most papers: whether a "sex
+  ratio" is a raw headcount or a quality-weighted marriageable-men index is usually invisible in an
+  abstract. This is structurally identical to the D.3.b stratum-A finding, so an RA-gate bleed-in
+  should be budgeted now rather than discovered at extraction.
 - 2026-07-31 (Shravan/Claude): opened and claimed. No prior A.10 artifacts exist in
   `literature/search-logs/`, `extraction/`, or `output/chapters/`.
