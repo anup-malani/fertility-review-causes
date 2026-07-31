@@ -1,3 +1,8 @@
+> **SUPERSEDED 2026-07-31.** Read `handoffs/2026-07-31-resume-here.md` instead.
+> This file is kept as the record of the voice-rewrite session. Its task list is
+> done or overtaken, and its hypothesis codes (A.10, B.4, B.15) are stale — the
+> master list has those at A.11, C.3.b and C.3.c.
+
 # Handoff — PI voice rewrites, fertility-explanations review
 
 **Session:** 2026-07-26 → 07-29 · **Branch:** `pi-voice-rewrites` (pushed to origin)
