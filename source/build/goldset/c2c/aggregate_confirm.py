@@ -19,10 +19,12 @@ ROUND = int(os.environ.get("ROUND", "4"))  # set ROUND=N for successive mechanic
 POOL = "literature/search-logs/housing-costs-snowball-pool.json"
 FRAME = "literature/search-logs/housing-costs-tier-b-frame.json"
 
-# NB: bare "hous"/"rent" matched household, parent, current, different -- 58% false positives.
-# And bare "residen" matched medical RESIDENTS and "residents of X"; narrowed to residential/residence.
+# Housing-axis filter, corrected THREE times. Each fix was found by reading a sample, never
+# by the counts. Excluded look-alikes: household, housework, housewife, housekeeping, Houston,
+# homeland, homework, "psychometric properties", medical "residents". Bare substrings do not
+# work here -- see the snowball log 4b/4c. This is a cheap PRE-SCREEN, not a relevance definition.
 # Word boundaries + a household negative-lookahead are load-bearing, not cosmetic.
-HOUS = re.compile(r"\bhous(?!ehold)|\bhome|\brent|\bmortgag|\bpropert|\bdwell|\breal estate|\bresidential|\bresidence\b|\bapartment|\bland price", re.I)
+HOUS = re.compile(r"\bhous(?!ehold|ework|ewife|ewives|ekeep|ton)|\bhome(?!land|work)|\brent\w*|\bmortgag|\bdwell|\breal estate|\bresidential|\bresidence\b|\bapartment|\bland price|\bproperty (right|price|tax|market|value|ownership)", re.I)
 FERT = re.compile(r"fertil|birth|babie|baby|natal|reproduc|childbear|family size|family formation|parenthood", re.I)
 
 

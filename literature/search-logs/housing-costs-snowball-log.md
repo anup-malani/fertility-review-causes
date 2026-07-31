@@ -200,6 +200,39 @@ wrong once, which is why it is a review queue rather than a rule.
 **43 survivors remain preprint-only or DOI-less** — real grey literature with no published version
 found, not dedup failures. They stay in the frame and carry the flag.
 
+## 4c. The filter was wrong three times — and the real error is structural
+
+| Fix | What it was matching | Removed | Frame |
+|---|---|---|---|
+| 1 | `hous`→**hous**ehold; `rent`→pa**rent**, cur**rent**, diffe**rent** | 314 | 545 → 231 |
+| 2 | `residen`→medical **residents**, "**residents** of X" | 15 | 293 → 278 |
+| 3 | `hous`→**hous**ework, Hou**ston**; `propert`→psychometric **properties**; `home`→**home**land | 22 | 278 → 256 |
+
+**All three were found by reading a random sample. None was found by the counts**, which stayed
+plausible and monotone throughout. Excluded look-alikes now: household, housework, housewife,
+housekeeping, Houston, homeland, homework, psychometric properties, medical residents.
+
+**The structural error, which is more useful than any of the three fixes.** GACS Phase D specifies a
+*semantic* screen — D1 deterministic ranking, then Haiku for recall, then Sonnet for precision. A
+title regex is a **D1-class instrument**: a cheap ranking aid. I used its output as the **definition of
+the Tier-B frame**, which is a D2-class job. Every bug above is a symptom of that one substitution.
+The lesson is not "write better regexes"; it is that **relevance for a gold set must be decided
+semantically, and a substring filter can only ever pre-sort the queue for that decision.**
+
+Two consequences worth carrying to other hypotheses:
+
+1. **Where the polysemy sits determines how much this bites.** C.2.c's cause axis is unusually bad —
+   *housing* collides with household, housework and animal housing; *fertility* collides with soil and
+   livestock fertility. A hypothesis whose vocabulary is more distinctive will suffer less, but the
+   structural point holds regardless.
+2. **The direction of the failure matters.** These bugs inflated the relevant count, which held the
+   saturation yield above the floor and made a converging snowball look non-converging — the false
+   conclusion in §4 that the stop rule was defective. **A relevance filter that over-admits does not
+   look like an error; it looks like more work to do.**
+
+*Effect on the stop test: none adverse.* Each correction pushed the below-floor rounds further below
+floor (round 4: 0.48 → 0.44 → **0.36**). The test is more securely met at each correction, not less.
+
 ## 5. Preprint twins degraded the snowball, measurably
 
 The dedup hazard flagged at anchor-sourcing did real damage on this run, not hypothetical damage.

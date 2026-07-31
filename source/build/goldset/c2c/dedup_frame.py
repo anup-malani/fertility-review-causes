@@ -18,7 +18,25 @@ papers that share an opening clause.
 """
 import json
 import re
+import unicodedata
 from collections import defaultdict
+
+
+def norm_title(t):
+    """Recomputed here, not trusted from the pool: acronym spacing broke a real match.
+
+    "Evidence from U.S. Cities" and "Evidence from US Cities" are the same paper, but stripping
+    punctuation turns the first into "u s" and the second into "us", so they never collided. Collapse
+    runs of single letters after punctuation removal.
+    """
+    t = unicodedata.normalize("NFKD", (t or "").lower())
+    t = re.sub(r"[^a-z0-9 ]", " ", t)
+    t = re.sub(r"\s+", " ", t).strip()
+    prev = None
+    while prev != t:                      # u s a -> usa, iteratively
+        prev = t
+        t = re.sub(r"\b([a-z]) (?=[a-z]\b)", r"\1", t)
+    return t
 
 FRAME = "literature/search-logs/housing-costs-tier-b-frame.json"
 OUT = "literature/search-logs/housing-costs-tier-b-frame-deduped.json"
@@ -40,7 +58,7 @@ def rank(r):
 frame = json.load(open(FRAME))
 groups = defaultdict(list)
 for r in frame:
-    groups[r["norm_title"]].append(r)
+    groups[norm_title(r["title"])].append(r)
 
 survivors, merged_log = [], []
 for key, rows in groups.items():
