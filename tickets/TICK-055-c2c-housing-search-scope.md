@@ -60,6 +60,38 @@ general rule rather than a per-chapter note. Feeds the escalation already open f
 - [ ] Tempo-vs-quantum tag required on every included effect, with the A.11 cross-ref.
 
 ## Log
+- 2026-07-31 (Shravan, RA decision): **a thin price-variation evidence base is an acceptable
+  outcome.** The meta-analysis is constrained by the studies that exist; if few identify off housing
+  prices, C.2.c becomes a theory-heavy chapter and that is the correct result, not a reason to loosen
+  the walls or the price-variation ruling. Same posture as the D.3.b Wall 2 decision of 2026-07-25,
+  and it carries the same standing obligation: the posture governs how the shrinkage is *interpreted*,
+  not whether it is *reported*. That most of this literature studies tenure and mobility rather than
+  prices is a finding about the field and belongs in the chapter, as does the surviving-study count.
+- 2026-07-31 (Shravan/Claude): **snowball round 3. Merged pool 1,735; Tier-B frame 203.**
+  **(1) Round 3 was the most valuable round and vindicated two scope calls.** It produced **the rent
+  stratum** — `10.1016/j.regsciurbeco.2008.08.007`, "Do higher rents discourage fertility? Evidence
+  from U.S. cities, 1940–2000" — which is close to the ideal C.2.c study: rent-identified, so it
+  isolates the cost channel with no wealth offset and **no endogenous tenure split required**, over a
+  60-year panel. And it produced a **historical cluster** reaching back to "Housing and the Birth Rate
+  in Sweden" (*American Sociological Review*, **1937**), plus apartment-living and crowding studies
+  from 1978–1995.
+  **(2) The period question has outgrown the Li 2024 exception.** That ruling said if further FDT-era
+  evidence accumulated, the `phenomena` field needs a formal update rather than a second case-by-case
+  admission. Round 3 shows a housing-and-fertility literature running back to the 1930s, so **the
+  threshold the ruling set is met and the field should go to Anup.**
+  **(3) Main methodological result: the §7.2 stop rule is defective.** Yield decay stalled — 7.65,
+  3.74, 2.93 per 50 — because each round added seeds targeting a new under-reached area. That is
+  coverage expansion, not exhaustion of a fixed frontier, and the rule cannot tell the difference. It
+  is ambiguous between a **same-seed** reading (this snowball stopped at round 2) and an
+  **expanding-seed** reading (it may never terminate, since termination depends on RA imagination).
+  Recommended amendment, for every hypothesis: report the **overlap rate** alongside yield — it climbs
+  0% → 20% → 37% here and is the convergence signal that survives seed expansion; require the stop
+  test to run **same-seed**; and make "no under-reached sub-area can be named" an explicit recorded
+  stopping condition.
+  **(4) Seed rule tightened.** Round 1 excluded keyword-scouted papers as seeds outright. Round 3
+  replaced that with the test that actually matters — membership in the citation-reachable pool, not
+  method of first discovery — since only a paper reachable *only* by keyword imports the query's blind
+  spots. Li 2024 qualifies under the tightened rule and was seeded.
 - 2026-07-31 (Shravan, RA decision): **Li 2024 admitted to the chapter**, so FDT-period evidence is
   not excluded on period grounds. The v5 `phenomena` field still reads SDT and updating it is a PI
   call, so the ruling governs *inclusion* while the verdict structure stays SDT-primary. If the
