@@ -60,6 +60,32 @@ general rule rather than a per-chapter note. Feeds the escalation already open f
 - [ ] Tempo-vs-quantum tag required on every included effect, with the A.11 cross-ref.
 
 ## Log
+- 2026-07-31 (Shravan/Claude): **risk of bias, demographic significance, and the chapter — RA draft
+  complete.** `output/chapters/housing-costs.md`; `extraction/housing-costs-risk-of-bias.csv`.
+  **(1) Risk of bias confirms the scope's prediction: the exclusion restriction is the binding
+  domain.** Three of six instrumented studies are serious or critical on it alone. First stages are
+  fine; the problem is that supply elasticity, construction costs, land prices and initial-area prices
+  all plausibly reach fertility other than through house prices. Li 2024 is rated **critical** there —
+  land prices instrumenting house prices is close to circular — and Li is the only identified FDT
+  estimate. Clark & Ferrer's IV is ~6x its OLS, which reads as a weak or invalid instrument rather
+  than attenuation removal. Ratings: 1 LOW / 3 MODERATE / 3 SERIOUS / 1 CRITICAL.
+  **(2) Demographic significance is a scale check, not a decomposition, and the reason is a
+  repository-level gap: `data/raw/` is EMPTY.** The protocol's decomposition share and R² benchmarks
+  have no macro panel behind them, for this or any chapter — worth raising separately from C.2.c. SDT
+  splits: significant in high-price-growth Asian settings (Liu & Zhang's own decomposition puts
+  China's purchase-restriction era at ~10.4% of the aggregate birth reduction, at the protocol
+  threshold), insufficient for the Western decline (US real prices net ~flat over the post-2007 window
+  against a ~19% TFR fall). FDT arithmetic clears 10% but rests entirely on the critical-exclusion
+  study, so recorded as **not established** rather than significant.
+  **(3) GRADE: no evidence / very low / low.** SDT is *low* rather than *very low* on sign consistency
+  across four countries and four designs, and does not reach *moderate* because the wealth-channel
+  elasticities span a factor of four across three studies.
+  **(4) No forest plot, deliberately** — five contributing estimates across two channels the pooling
+  rule bars combining. A structured evidence table carries more than a pooled point estimate resting
+  on two or three studies would.
+  *(Process note: this entry initially failed to insert — the scripted edit's anchor text had moved
+  and `str.replace` no-ops silently. Same class as the three silent match failures in the RA gate.
+  Scripted edits to prose files need a match assertion.)*
 - 2026-07-31 (Shravan/Claude): **snowball rounds 4–5 (mechanical). STOP TEST CLOSED.** Merged pool
   **10,915**; Tier-B frame **293**, unscreened. Yields 6.71 / 2.85 / 1.29 / **0.48** / **0.92** per 50
   against a floor of 1.0 — two consecutive below-floor rounds, so §7.2 is satisfied and the frame is
