@@ -25,10 +25,10 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 > commit message dated 07-21 to 07-25 against this table; in commit messages from Alexandra's schooling
 > workstream, `TICK-032` means the compulsory-education split and needs no translation.
 >
-> **Next free number is TICK-056.** Claim a number by pushing its QUEUE.md row before starting work,
+> **Next free number is TICK-057.** Claim a number by pushing its QUEUE.md row before starting work,
 > not after. That is what would have prevented the collision. TICK-047 through TICK-053 were claimed
 > for the D.3.b climate-anxiety chain on 2026-07-27; TICK-054 (A.10) and TICK-055 (C.2.c) on
-> 2026-07-31.
+> 2026-07-31; TICK-056 opens C.2.c library retrieval.
 
 ---
 
@@ -36,6 +36,7 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 
 | Ticket | Title | Assigned | Parallel-safe |
 |--------|-------|----------|---------------|
+| [TICK-056](TICK-056-c2c-library-retrieval.md) | **C.2.c library retrieval of the 59 missing PDFs — needs a human with Zotero + UChicago proxy.** Automated ceiling hit at 19/78; only 4 of the 15 identified studies are in hand, and the identified-vs-associational split stays provisional until they are | Shravan or Alexandra | yes |
 | [TICK-048](TICK-048-d3b-fulltext-retrieval.md) | D.3.b full-text retrieval — mirror the B.1 scripts; realized-8 and desire-independence-4 first. **Watch the OA rate: it is what decides whether D.3.b avoids B.1's selection problem** | any | yes (with the full-62 half of 047) |
 | [TICK-039](TICK-039-compulsory-education-chapter-readability.md) | Compulsory-education chapter lay-readability review | Alexandra | no |
 | [TICK-030](TICK-030-replicate-gacs-agricultural-mode-production.md) | Replicate GACS for agricultural mode of production | any | no |
