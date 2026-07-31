@@ -88,3 +88,83 @@ Effect-size extraction on the confirmed nine, with the scope's required per-effe
 oriented per the pooling rule, baseline ownership rate, parity, tempo-vs-quantum). Expect the poolable
 set to be smaller still: the pooling rule bars combining the two tenure channels, bars combining price
 with rent or affordability, and bars combining outcome levels.
+
+---
+
+# Extraction pass 2 — effect sizes
+
+**Run:** 2026-07-31 · **Output:** `extraction/housing-costs-effects.csv` (13 effect rows, 10 studies)
+
+Every figure was read from **the paper's own text**, never from another paper's citation of it. That
+discipline immediately caught a live error: the 2021 HPR proceedings paper cites Dettling & Kearney as
+**"6 percent"**, where D&K's own text says **5 percent**. Extracting from literature reviews would have
+propagated it into our pooled estimate.
+
+## 1. The substantive result: the tenure-conditional sign prediction holds
+
+The scope doc's central claim — that a house-price rise is a *cost* to renters and prospective buyers
+and a *wealth gain* to owners, so the two channels carry opposite signs — is borne out across
+independent settings and designs:
+
+| Channel | Study | Estimate |
+|---|---|---|
+| **Wealth (owners)** | Dettling & Kearney (US, IV) | **+5.0%** per +$10,000 |
+| | Daysal et al. (Denmark) | +1.28–2.11% per +$12,000 *(blocked, preprint)* |
+| | Ang et al. (China, RD) | **+0.18%** per +1% housing wealth |
+| | PNAS 2026 (China, DiD) | **+2.73 pp** (+20.8% over baseline) |
+| **Cost (non-owners / prospective buyers)** | Dettling & Kearney (US, IV) | **−2.4%** per +$10,000 |
+| | Liu & Zhang (China, HPR) | **−0.88 births/1,000** per +10% |
+
+**Four independent wealth-channel estimates are positive; both cost-channel estimates are negative.**
+Two of the four come from designs (RD, cohort DiD) that did not exist when the pooling rule was
+written. This is the strongest support the chapter has for the rule, and it should be reported as a
+finding rather than assumed.
+
+**The aggregate sign then behaves as the composition account predicts.** Net effects are positive in
+the US (+0.8% at mean ownership) and Canada (+2.0% to +11.8% odds), and negative in China
+(−0.94 pp per 1%) and the global panel (−0.030 births/woman per +10%).
+
+**The apparent China anomaly resolves into the scope's own third category.** Urban Chinese
+homeownership is nominally very high, so a naive owner-vs-renter reading predicts a positive net
+effect; the estimates are firmly negative. The resolution is that the binding group is neither owners
+nor renters but **prospective buyers** — young couples who must purchase to marry. For them a price
+rise is pure cost regardless of the aggregate ownership rate. The scope listed prospective buyers with
+renters on the cost side; China is the setting where that grouping earns its keep, and the chapter
+should say so explicitly rather than reporting an unexplained sign flip.
+
+## 2. Only four effects are poolable
+
+| Poolable | n |
+|---|---|
+| **yes** | **4** |
+| no — not tenure-split | 3 |
+| no — composition-weighted net | 1 |
+| no — quantile-varying | 1 |
+| blocked (preprint twin) | 1 |
+| blocked (quality) | 1 |
+| blocked (unreadable scan) | 1 |
+
+**From a 241-record frame: four poolable effect estimates**, two per channel — and the two within each
+channel are in incompatible units ($10,000 levels vs percentage elasticities vs births per 1,000).
+Harmonisation to a common elasticity is required before anything is pooled, and with n=2 per channel a
+formal meta-analysis is not obviously the right instrument. **A structured evidence table with the
+signs, magnitudes and settings laid out may be more honest than a forest plot with two points on it.**
+That is a recommendation for the synthesis stage, not a decision taken here.
+
+## 3. One recommended demotion
+
+**`Housing Purchase Restriction and Birth Rates` (2021) should leave the identified core.** It is a
+conference-proceedings paper (Atlantis Press, not peer-reviewed); its reported effect is "birth rates
+dropped roughly 5.45 unit" with the unit never defined; the authors describe their own coefficients as
+"unlikely and ambiguous" and close by asking readers to "replicate our results… to draw a more
+accurate and unbiased result". It also carries the misquoted D&K figure. **Recommend regrading it out
+of QUASI_EXP**, which would take the identified core from 9 to 8.
+
+## 4. Open items
+
+- **Daysal et al.** — reconcile the preprint against the published *JPubE* version before its estimate
+  is usable.
+- **PNAS 2026** — treatment is a credit-easing reform; the price-vs-credit boundary call (C.2.c vs
+  C.3.e) is still open and it is one of the four wealth-channel estimates, so the call matters.
+- **The Korean rent study** — still unreadable; it is the only policy-assigned-rent design.
+- **Harmonisation** — convert all estimates to a common elasticity before any pooling.
