@@ -36,7 +36,6 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 
 | Ticket | Title | Assigned | Parallel-safe |
 |--------|-------|----------|---------------|
-| [TICK-056](TICK-056-c2c-library-retrieval.md) | **C.2.c library retrieval of the 59 missing PDFs — needs a human with Zotero + UChicago proxy.** Automated ceiling hit at 19/78; only 4 of the 15 identified studies are in hand, and the identified-vs-associational split stays provisional until they are | Shravan or Alexandra | yes |
 | [TICK-048](TICK-048-d3b-fulltext-retrieval.md) | D.3.b full-text retrieval — mirror the B.1 scripts; realized-8 and desire-independence-4 first. **Watch the OA rate: it is what decides whether D.3.b avoids B.1's selection problem** | any | yes (with the full-62 half of 047) |
 | [TICK-039](TICK-039-compulsory-education-chapter-readability.md) | Compulsory-education chapter lay-readability review | Alexandra | no |
 | [TICK-030](TICK-030-replicate-gacs-agricultural-mode-production.md) | Replicate GACS for agricultural mode of production | any | no |
@@ -76,6 +75,7 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 
 | Ticket | Title | Closed |
 |--------|-------|--------|
+| [TICK-056](TICK-056-c2c-library-retrieval.md) | C.2.c library retrieval — identified core 15/15 via Zotero; associational remainder closed with a recommendation not to pursue | 2026-07-31 |
 | [TICK-045](TICK-045-b1-demographic-significance.md) | B.1 demographic-significance pass | 2026-07-25 |
 | [TICK-044](TICK-044-b1-status-fertility-meta-analysis.md) | B.1 status-fertility meta-analysis (5 studies; see ticket for the three cautions) | 2026-07-25 |
 | [TICK-043](TICK-043-b1-risk-of-bias.md) | B.1 risk-of-bias assessment (4 of 5 studies serious) | 2026-07-25 |

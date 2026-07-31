@@ -1,5 +1,5 @@
 # TICK-056: C.2.c library retrieval of the 59 missing PDFs — needs a human with Zotero + UChicago proxy
-**Status:** identified core DONE (15/15) · associational remainder open
+**Status:** DONE — identified core 15/15; associational remainder closed with a recommendation not to pursue
 **Assigned:** Shravan or Alexandra
 **Parallel-safe:** yes (no overlap with the D.3.b or B.1 chains)
 **Blocks:** C.2.c extraction, risk of bias, meta-analysis, chapter
@@ -92,6 +92,22 @@ renamed to `download(1).pdf` etc., all four identified.
       substantively, but must be stated rather than happen silently.
 
 ## Log
+- 2026-07-31 (Shravan/Claude): **CLOSED.** Second automated pass over the 48 outstanding recovered
+  **nothing** — five distinct routes now exhausted at 30/78. All 48 are associational, 38 `closed`,
+  7 with no DOI. Identified core stays 15/15, so the chapter's estimates are unaffected.
+  **Recommendation: do not spend a human retrieval session on these.** They cannot change the pooled
+  estimates, and the characterisation they would support (a direction-of-association tally) needs full
+  texts to produce what would still be a vote count — an instrument that ignores precision and sample
+  size. If the stratum is to be characterised, retrieve a **stated-rule random sample of 10–15** and
+  read those fully instead.
+  **The automated direction tally failed validation and is withdrawn** — a paper whose abstract says
+  apartment dwellers "reduced their fertility" was classified POSITIVE. Fourth substring-based
+  instrument in this chapter to fail a sample read. Artifact retained but every row marked REJECTED.
+  **One robust qualitative finding survives**, from the abstracts' own framing rather than a
+  classifier: several associational studies explicitly describe the effect as tenure-conditional or
+  theoretically ambiguous (Clark & Ferrer; *Impacts of Housing Booms on Fertility in China*). **The
+  field itself recognises the opposing-channels structure the pooling rule is built on.** Written up
+  at `extraction/housing-costs-associational-stratum-note.md`.
 - 2026-07-31 (Shravan retrieved, Claude ingested): **the 11 missing QUASI_EXP retrieved and filed —
   the identified core is now 15/15 and extraction is no longer retrieval-bound.** All gated PRIMARY
   30/78; the outstanding 48 are the associational stratum and do not move the central estimates.
