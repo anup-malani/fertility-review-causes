@@ -9,7 +9,8 @@ This folder is our ticketing system. It works for any contributor — human or A
 Three people may be working this repo at once, each driving a different AI. To avoid two people
 grabbing the same ticket, we **claim** a ticket — announce it before doing the work — using git
 itself as the signal. There are **two co-equal ways to do this**, and the team runs **one at a
-time**. Both share the same `QUEUE.md` board, `Touches:` field, and 24h stale rule; they differ
+time**. Both share the same `QUEUE.md` board, `Touches:` field, and stale rule (24h, or 72h for
+hypothesis tickets); they differ
 only in how you claim.
 
 **Current mode: B (branch-per-ticket).** This line is the single source of truth for the active mode
@@ -107,16 +108,89 @@ two notes:
 
 (Rationale and full statement: `decisions/2026-06-14-collab-system-design.md` §3.5.)
 
-### Stale claims (24h rule) — both modes
+### Stale claims (24h rule, 72h for hypothesis tickets) — both modes
 
 A claim is **stale** if it has shown no new commits for more than 24h. Anyone may reclaim it: pull,
 release it back to **Open** (Mode A) or take over / delete the `NNN-*` branch (Mode B), and
 note the reclaim in the ticket's `## Log`. This keeps an abandoned session from blocking a ticket
 forever.
 
+**Hypothesis tickets get 72h instead of 24h.** A hypothesis usually runs one or two days, so a single
+gap day in the middle is normal working rhythm rather than abandonment, and 24h would flag it as
+stale while the owner is still on it.
+
 ---
 
-## What a ticket looks like
+## Hypothesis tickets: one ticket, one branch, one hypothesis
+
+**A hypothesis is one ticket and one branch, start to finish.** The ticket opens when you take the
+hypothesis and closes when its chapter is drafted and reviewed. Do not split a hypothesis into a chain
+of stage tickets. The stages live in the acceptance criteria, and the branch is `NNN-<hypothesis-slug>`
+exactly as for any other ticket.
+
+This replaces the chain pattern used for B.1 (TICK-041 to 046) and D.3.b (TICK-047 to 053). Chains
+reserve numbers for stages nobody has scoped yet, so when the shape of the work changes the numbers
+churn, which is what forced the B.1 renumbering. The single-ticket shape has already been run: TICK-055
+took C.2.c from search scope to a drafted chapter with risk of bias and demographic significance
+complete, inside one working day. **In-flight chains are not converted** — B.1 and D.3.b finish as
+they are.
+
+**A hypothesis ticket has no `## Description`.** The hypothesis is fully specified in
+`HYPOTHESES-v5.md` under its slug, which carries the claim, the mechanism, the phenomena, the seminal
+citations, the cross-references, and the known objections. Restating any of it in the ticket creates a
+second copy that drifts. Name the slug in a `**Hypothesis:**` field and stop.
+
+### When a hypothesis needs a second ticket
+
+Only one stage earns its own ticket: **full-text retrieval that blocks on library access.** It is the
+one stage that needs different hands (Zotero plus the UChicago proxy) and can stall for weeks. B.1 has
+sat at 20 of 95 PDFs since 2026-07-25 for exactly this reason. When it happens, open one retrieval
+sub-ticket, hand it to whoever has library access, and let the hypothesis ticket carry on against the
+records you do have. TICK-056 is the precedent: it recovered 15 of 15 and unblocked C.2.c extraction.
+
+Every other stage stays inside the hypothesis ticket.
+
+### What a hypothesis ticket looks like
+
+```markdown
+# TICK-NNN: <Code and name, e.g. D.1.a Postmaterialism, Individualism, and Secularization>
+**Status:** open
+**Assigned:** Anup | Alexandra | Shravan
+**Hypothesis:** `hypothesis-slug` — HYPOTHESES-v5.md §<code>
+**Parallel-safe:** yes | no
+**Blocks:** TICK-NNN
+**Blocked by:** TICK-NNN
+**Touches:** literature/search-logs/<slug>-*, extraction/<slug>-*, output/chapters/<slug>.md
+
+<!-- No ## Description. The slug above is the specification. -->
+
+## Acceptance criteria
+<!-- The PROTOCOL §5 pipeline, in order. Delete any stage the hypothesis genuinely does not reach,
+     and say in the Log why. -->
+- [ ] 2. Search strategy and scope drafted
+- [ ] 3. Literature search and AI screening, both phases (§5.1)
+- [ ] 4. RA title/abstract review
+- [ ] 5. Full-text retrieval  <!-- sub-ticket if it blocks on library access -->
+- [ ] 6. Full-text screen, RA spot-checks 5–10%
+- [ ] 7. Extraction to `extraction/<slug>.csv`, RA verifies a random 10%
+- [ ] 8. Risk-of-bias assessment per study
+- [ ] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise
+- [ ] 10. Demographic significance against PM / FDT / SDT
+- [ ] 11. GRADE rating, 3 independent raters
+- [ ] 12. Chapter draft on the §6 template
+- [ ] 13. RA lay-readability check
+- [ ] 14. PI review and sign-off
+
+## Log
+<!-- A dated entry per stage as you go, then the two closing notes. -->
+```
+
+The `**Status:** open` line and the `## Log` heading are load-bearing for `scripts/ticket.sh`; see the
+four constraints under "Creating a ticket" above.
+
+---
+
+## What a non-hypothesis ticket looks like
 
 ```markdown
 # TICK-NNN: Short title

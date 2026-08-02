@@ -46,7 +46,6 @@ tickets can be worked concurrently.
 
 | Ticket | Title | Assigned | Parallel-safe |
 |--------|-------|----------|---------------|
-| [TICK-061](TICK-061-one-ticket-per-hypothesis.md) | One ticket and one branch per hypothesis; retire the stage chain | Shravan | yes |
 | [TICK-048](TICK-048-d3b-fulltext-retrieval.md) | D.3.b full-text retrieval — mirror the B.1 scripts; realized-8 and desire-independence-4 first. **Watch the OA rate: it is what decides whether D.3.b avoids B.1's selection problem** | any | yes (with the full-62 half of 047) |
 | [TICK-039](TICK-039-compulsory-education-chapter-readability.md) | Compulsory-education chapter lay-readability review | Alexandra | no |
 | [TICK-030](TICK-030-replicate-gacs-agricultural-mode-production.md) | Replicate GACS for agricultural mode of production | any | no |
@@ -66,6 +65,7 @@ tickets can be worked concurrently.
 
 | Ticket | Title | Owner | Branch (the claim) | Claimed (UTC) | Touches |
 |--------|-------|-------|--------------------|---------------|---------|
+| [TICK-061](TICK-061-one-ticket-per-hypothesis.md) | One ticket and one branch per hypothesis; retire the stage chain | Shravan | `061-one-ticket-per-hypothesis` | 2026-08-02T00:00:00Z | `tickets/README.md`, `decisions/2026-08-02-one-ticket-per-hypothesis.md` |
 | [TICK-055](TICK-055-c2c-housing-search-scope.md) | C.2.c search scope — tenure-conditional sign (price is a cost to renters, a wealth gain to owners), pooling rule, and the C.3.e wall that a shared seminal citation proves is broken | Shravan | — | 2026-07-31T00:00:00Z | `literature/search-logs/housing-costs-search-scope.md` |
 | [TICK-054](TICK-054-a10-search-scope.md) | A.10 search scope — **drafted, PARKED pending Anup** on the unenumerated war-shock hypothesis and the non-additive-proximate-causes rule. Anchor sourcing is not blocked by the park | Shravan | — | 2026-07-31T00:00:00Z | `literature/search-logs/sex-ratio-marriage-market-search-scope.md` |
 | [TICK-049](TICK-049-d3b-effect-extraction.md) | D.3.b effect extraction — realized track first-pass done, **0 of 11 rows poolable; no recoverable CIs**; second-reader pass outstanding | Shravan | — | 2026-07-27T00:00:00Z | `extraction/climate-anxiety-eco-doomerism-{studies,effects-realized}.csv` |
