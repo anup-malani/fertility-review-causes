@@ -177,7 +177,7 @@ Claiming and working the ticket still happen on a branch, unchanged.
 Each of these fails later, at claim or close time, rather than when you create the file:
 
 1. **The filename becomes the branch name**, lowercased with the `TICK-` prefix dropped, so
-   `TICK-061-document-ticket-creation-rule.md` yields branch `061-document-ticket-creation-rule`. Keep
+   `TICK-060-document-ticket-creation-rule.md` yields branch `060-document-ticket-creation-rule`. Keep
    the slug short and hyphenated, with no spaces.
 2. **Exactly one `tickets/TICK-NNN-*.md` may exist.** Two files sharing a number and `claim` aborts
    with a count error.

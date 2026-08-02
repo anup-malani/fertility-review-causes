@@ -27,10 +27,18 @@ tickets can be worked concurrently.
 > commit message dated 07-21 to 07-25 against this table; in commit messages from Alexandra's schooling
 > workstream, `TICK-032` means the compulsory-education split and needs no translation.
 >
-> **Next free number is TICK-062.** Claim a number by pushing its QUEUE.md row before starting work,
+> **Next free number is TICK-061.** Claim a number by pushing its QUEUE.md row before starting work,
 > not after. That is what would have prevented the collision. TICK-047 through TICK-053 were claimed
 > for the D.3.b climate-anxiety chain on 2026-07-27; TICK-054 (A.10) and TICK-055 (C.2.c) on
 > 2026-07-31; TICK-056 opens C.2.c library retrieval.
+>
+> **One further renumber on 2026-08-02: TICK-061 → TICK-060.** The number 060 was first given to a
+> D.1.a search-scope ticket that was withdrawn before anyone claimed it, and the ticket-creation-rule
+> ticket moved down into the freed number so the sequence stays contiguous.
+> **Commits `1cfaebe`, `bd7e3be`, `ae14c64`, `9449f01` and PR #2 all name TICK-061 and mean the
+> ticket-creation-rule ticket, now TICK-060.** One commit, `eecf024`, names TICK-060 and means the
+> withdrawn D.1.a ticket; its full text is recoverable with
+> `git show eecf024:tickets/TICK-060-d1a-search-scope.md`.
 
 ---
 
@@ -38,7 +46,6 @@ tickets can be worked concurrently.
 
 | Ticket | Title | Assigned | Parallel-safe |
 |--------|-------|----------|---------------|
-| [TICK-060](TICK-060-d1a-search-scope.md) | D.1.a search scope — postmaterialism, individualism, secularization. The canonical SDT framework and the hardest causal-credibility case in the list; 17 records already routed in from the D.3.b gate | Shravan | yes |
 | [TICK-048](TICK-048-d3b-fulltext-retrieval.md) | D.3.b full-text retrieval — mirror the B.1 scripts; realized-8 and desire-independence-4 first. **Watch the OA rate: it is what decides whether D.3.b avoids B.1's selection problem** | any | yes (with the full-62 half of 047) |
 | [TICK-039](TICK-039-compulsory-education-chapter-readability.md) | Compulsory-education chapter lay-readability review | Alexandra | no |
 | [TICK-030](TICK-030-replicate-gacs-agricultural-mode-production.md) | Replicate GACS for agricultural mode of production | any | no |
@@ -65,7 +72,6 @@ tickets can be worked concurrently.
 | [TICK-046](TICK-046-b1-chapter-finalization.md) | B.1 chapter finalization — **RA work complete, awaiting Anup's review**; PI packet has 6 numbered decisions | Shravan | — | 2026-07-25T00:00:00Z | `output/chapters/evolutionary-sex-drive-contraceptive-decoupling{,-pi-review-packet}.md` |
 | [TICK-019](TICK-019-oas-demographic-significance-and-chapter.md) | OAS demographic significance and hybrid chapter draft | Alexandra | — | 2026-07-17T14:45:00Z | `output/chapters/old-age-security-pension-crowdout.md`; OAS evidence records |
 | [TICK-031](TICK-031-replicate-gacs-child-labor-schooling.md) | Replicate GACS for child-labor laws and compulsory schooling | Alexandra | — | 2026-07-16T22:00:00Z | `source/build/goldset/`; `literature/search-logs/child-labor-laws-and-schooling-*`; related outputs/status files |
-| [TICK-008](TICK-008-collab-system-design.md) | Design collab/ticketing system (Mode B implementation) | Shravan | `008-collab-system-design` | 2026-06-14 20:43 | `tickets/`, `decisions/2026-06-14-collab-system-design.md`, `AGENTS.md`, `RA-PLAYBOOK.md`, `scripts/ticket.sh` |
 
 ## Blocked — waiting on dependency
 
@@ -84,7 +90,8 @@ tickets can be worked concurrently.
 
 | Ticket | Title | Closed |
 |--------|-------|--------|
-| [TICK-061](TICK-061-document-ticket-creation-rule.md) | Document where ticket creation happens under Mode B, plus the four `ticket.sh` constraints on new ticket files. First ticket run end-to-end through the Mode B loop | 2026-08-02 |
+| [TICK-060](TICK-060-document-ticket-creation-rule.md) | Document where ticket creation happens under Mode B, plus the four `ticket.sh` constraints on new ticket files. First ticket run end-to-end through the Mode B loop. **Numbered TICK-061 in commit history** | 2026-08-02 |
+| [TICK-008](TICK-008-collab-system-design.md) | Design team collaboration/ticketing system; Mode B implementation and `scripts/ticket.sh` | 2026-08-02 |
 | [TICK-059](TICK-059-rewrite-marriage-market-voice-stack.md) | Rewrite marriage-market chapter with voice-stack | 2026-08-01 |
 | [TICK-058](TICK-058-marriage-market-assortative-mating-scoping.md) | Marriage-market and assortative-mating scoping search and chapter scaffold | 2026-08-01 |
 | [TICK-057](TICK-057-install-voice-stack.md) | Install voice-stack for Codex | 2026-08-01 |

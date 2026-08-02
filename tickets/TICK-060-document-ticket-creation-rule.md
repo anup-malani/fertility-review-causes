@@ -1,4 +1,6 @@
-# TICK-061: Document where ticket creation happens under Mode B
+# TICK-060: Document where ticket creation happens under Mode B
+<!-- Numbered TICK-061 while it was worked; renumbered to 060 on 2026-08-02. Commits bd7e3be,
+     ae14c64, 9449f01, 1cfaebe and PR #2 all name TICK-061 and refer to this ticket. -->
 **Status:** done
 **Assigned:** Shravan
 **Parallel-safe:** yes
@@ -9,8 +11,8 @@
 ## Description
 
 Mode B says not to commit ticket work directly to `main`, but it never says where ticket *creation*
-goes. The gap surfaced immediately after the 2026-08-02 switch, when TICK-060 had to be created and
-there was no rule to follow.
+goes. The gap surfaced immediately after the 2026-08-02 switch, on the first ticket that had to be
+created under Mode B, when there was no rule to follow.
 
 The answer that makes the system work is that creation goes on `main` and creation alone. Reserving a
 number is only useful if everyone can see the reservation, and a number sitting on an unmerged branch

@@ -1,5 +1,5 @@
 # TICK-008: Design team collaboration / ticketing system
-**Status:** in-progress  
+**Status:** done
 **Assigned:** Shravan  
 **Parallel-safe:** yes  
 **Blocks:** —  
