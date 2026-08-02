@@ -1,5 +1,5 @@
 # TICK-061: One ticket and one branch per hypothesis
-**Status:** in-progress
+**Status:** done
 **Assigned:** Shravan
 **Parallel-safe:** yes
 **Blocks:** none
