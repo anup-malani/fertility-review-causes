@@ -14,10 +14,8 @@ Working example: D.1.a, slug `postmaterialism-individualism-secularization`.
 ### 1. Open Terminal and go to the repo
 
 ```bash
-cd "/Users/shravanhari/~/Anup RA/projects/fertility-review-causes"
+cd [wherever the repo lives]
 ```
-
-Quotes required — your repo sits under a directory literally named `~`.
 
 ### 2. Sync
 
