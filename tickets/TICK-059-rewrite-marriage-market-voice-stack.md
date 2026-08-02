@@ -1,5 +1,5 @@
 # TICK-059: Rewrite marriage-market chapter with voice-stack
-**Status:** in-progress
+**Status:** done
 **Assigned:** Alexandra
 **Parallel-safe:** yes
 **Touches:** `output/chapters/marriage-market-economics.md`; `tickets/QUEUE.md`
@@ -11,10 +11,14 @@ conventions retained for evidence and uncertainty. Preserve the preliminary stat
 boundaries.
 
 ## Acceptance criteria
-- [ ] The chapter explains the mechanism from primitives for a smart undergraduate.
-- [ ] Paragraphs lead with claims and technical terms are glossed on first use.
-- [ ] The rewrite does not add unverified findings, final ratings, or PRISMA claims.
-- [ ] The completed draft passes a manual voice-stack tell screen.
+- [x] The chapter explains the mechanism from primitives for a smart undergraduate.
+- [x] Paragraphs lead with claims and technical terms are glossed on first use.
+- [x] The rewrite does not add unverified findings, final ratings, or PRISMA claims.
+- [x] The completed draft passes a manual voice-stack tell screen.
 
 ## Log
-<!-- When you close this ticket, write: date, who, what you did. -->
+2026-08-01, Alexandra/Codex: Rebuilt the chapter in the accessible social-explainer register,
+opening with a concrete balanced-headcount/thin-suitable-pool example and deriving the matching
+mechanism one link at a time. Preserved the protocol structure, evidence boundaries, provisional
+status, and pending ratings. The red-pen pass found no decorative connectives, rhetorical questions,
+or em dashes.

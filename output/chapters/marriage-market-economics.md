@@ -12,72 +12,117 @@ not occurred.
 
 ## 1. The claim
 
-People choose children jointly with a partner in most settings, so the market for partners can
-constrain fertility even when desired family size stays unchanged. A shortage of economically
-stable or otherwise compatible partners can delay unions, prevent them, or change who matches with
-whom. Each response can change births, but the size and even the sign of the effect depend on whether
-people adapt by marrying across education groups, cohabiting, or having children outside marriage.
+Finding a partner constrains fertility because most people still raise children with someone else.
+Suppose a woman wants two children but also wants a partner with a stable job and a similar outlook
+on family life. Her city may contain equal numbers of women and men, yet relatively few men who meet
+those conditions. She can wait, choose a different kind of partner, have a child without a partner,
+or have fewer children than she wanted. The local headcount never changed, but the pool of partners
+she considers suitable did.
 
-This chapter concerns partner quality and matching costs. A raw shortage of men or women belongs to
-the separate sex-ratio chapter. The distinction matters because a market can contain equal numbers
-of men and women while still containing too few partners who meet the other side's education,
-employment, or income criteria.
+The hypothesis is that changes in this suitable-partner pool alter fertility. Education, earnings,
+employment, incarceration, and the difficulty of meeting compatible people can affect who forms a
+union and when. Delayed or foregone unions may reduce births, especially where childbearing remains
+closely tied to marriage. Adaptation through cohabitation, marriage across education groups, or
+nonmarital childbearing can absorb some or all of the effect.
 
-## 2. Theoretical mechanism
+This chapter studies partner characteristics and matching costs. A raw shortage of men or women
+belongs to the separate sex-ratio chapter. The distinction is concrete: 100 men and 100 women create
+a balanced headcount, but the partner market may still be unbalanced if many of the men lack the
+employment, education, or other traits women seek, or if men and women disagree about how work and
+childcare should be divided.
 
-Becker's marriage model starts with the gains two people can obtain by forming a household. Those
-gains may come from sharing goods, dividing paid work and household work, raising children, or
-combining complementary traits. A match forms when its gains exceed the value of remaining single
-and continuing to search. Education, earnings, employment, and expectations about household work
-can therefore affect both a person's attractiveness as a partner and the value of a particular
-pairing.
+## 2. The theoretical mechanism
 
-Assortative mating means that people with similar traits pair more often than random matching would
-predict. Educational homogamy is the special case in which partners have similar schooling.
-Homogamy can arise from preferences, because schools and workplaces determine whom people meet, or
-because similarly educated partners produce larger household gains. Schwartz and Mare document
-substantial changes in educational homogamy in the United States, and later work finds that the
-reversal of the education gap has produced more couples in which the woman has more schooling than
-the man. These patterns establish that matching changes. They do not by themselves show that
-matching changes cause fertility to fall.
+### Why a partner market exists
 
-The fertility pathway has three steps. Partner characteristics first change the set of acceptable
-or attainable matches. Match opportunities then change union formation, union timing, or the type
-of partner selected. Those changes finally affect births through exposure to partnered childbearing,
-household income, bargaining, and the division of childcare. A credible test must identify at least
-the first and last steps; a mediation claim must also show that the middle step carries the effect.
+A partnership creates gains that neither person can obtain as easily alone. Two people can share a
+home, insure each other against income shocks, divide paid and unpaid work, and raise children
+together. Each person compares those gains with the value of remaining single and continuing to
+search. A union forms when both people prefer the match to their available alternatives.
 
-Adaptation can break the pathway. College-educated women who face fewer college-educated men may
-marry men with less schooling, and people who do not marry may cohabit or have children outside
-marriage. Kearney and Wilson provide a useful warning: fracking booms raised less-educated men's
-earnings and increased both marital and nonmarital births, but did not measurably increase marriage.
-The shock affected fertility without restoring the marriage pattern that motivated the hypothesis.
+Gary Becker turned this idea into a model of marriage. The model treats potential partners as two
+sides of a market, much as workers and employers form a labor market. People differ in traits that
+matter to a household, including earnings, education, preferences, and skill at household work.
+Those traits determine how much a particular pair can gain from joining their lives.
+
+### Why similar people often pair
+
+People pair with similar partners more often than chance would predict. Schools, workplaces, and
+neighborhoods place similar people in the same rooms. Similar partners may also agree more easily
+about spending, careers, and children, or may produce larger gains by combining their resources.
+Researchers call the general pattern *assortative mating*. When the shared trait is education, a
+couple with similar schooling is an educationally homogamous couple.
+
+Observed similarity cannot reveal its own cause. Imagine that almost every physician is married to
+another highly educated professional. The pattern could reflect a preference for education, the
+people physicians meet in medical school and at work, or the income and lifestyle the couple can
+build together. The same pattern also tells us little about fertility. We still need to know whether
+a change in partner availability altered union formation or births.
+
+Schwartz and Mare document substantial changes in educational homogamy in the United States.
+Greenwood and coauthors also study educational sorting and household inequality. These papers show
+that matching patterns change over time, which is an important premise of the hypothesis. Neither
+descriptive pattern alone establishes that assortative mating caused fertility to change.
+
+### How matching can reach fertility
+
+The proposed mechanism has three links. Partner characteristics first change the set of acceptable
+or attainable matches. The change in available matches then affects whether people form a union,
+how long they search, and whom they choose. Union formation and partner type finally affect births
+through the years exposed to partnered childbearing, household income, bargaining over family size,
+and the division of childcare.
+
+A study can support one link without supporting the whole chain. A paper showing that an education
+gap lowers marriage rates establishes a matching response but no fertility response. A paper showing
+that men's earnings raise birth rates establishes an economic response but may leave marriage
+untested. The strongest design would measure the initial shock, the resulting matches, and completed
+fertility for the same affected cohorts.
+
+### Why the effect can disappear or change sign
+
+People can respond to a thin partner pool in several ways. A college-educated woman who cannot find
+a college-educated man may marry a man with less schooling. A couple may cohabit instead of marrying.
+A person may have a child while single. Each response weakens the link between a shortage of
+preferred spouses and total births.
+
+Kearney and Wilson's study of fracking booms shows why the adjustment margin matters. The booms
+raised the earnings of men without college degrees. Both marital and nonmarital births increased,
+but marriage did not measurably increase. Better male earnings affected fertility without restoring
+the marriage pattern that motivated the marriageable-men account. Any synthesis that examines only
+marriage would miss part of the response.
+
+The sign can also differ by sex. Better male employment may raise household income and make men more
+attractive as partners, both of which can increase births. Better female employment raises income
+too, but it can also raise the earnings a woman gives up when she leaves work to care for a child.
+A useful study must therefore preserve male and female shocks rather than average them together.
 
 ## 3. Search strategy
 
-The preliminary search separated six clusters: marriage-market theory; educational sorting;
-education-gap mismatch; partner economic prospects; gender-specific labor demand; and studies that
-observe fertility by couple type. Searches targeted publisher and working-paper pages from AEA,
-NBER, IZA, Demographic Research, Springer, Oxford Academic, and related journal or institutional
-repositories. Candidate searches combined terms such as `marriage market`, `marriageable men`,
-`assortative mating`, `educational hypogamy`, and `partner mismatch` with `fertility`, `birth`,
-`parity`, and `childlessness`.
+The preliminary search used six routes into the literature: marriage-market theory; educational
+sorting; education-gap mismatch; partner economic prospects; gender-specific labor demand; and
+fertility observed by couple type. Searches targeted AEA, NBER, IZA, Demographic Research, Springer,
+Oxford Academic, and related journal or institutional repositories. Search strings joined terms
+such as `marriage market`, `marriageable men`, `assortative mating`, `educational hypogamy`, and
+`partner mismatch` with `fertility`, `birth`, `parity`, and `childlessness`.
 
-The formal review will include studies only when a fertility outcome appears with a marriage-market
-treatment or an identified matching pathway. Studies that report only marriage or spouse type will
-enter the mechanism stream. Studies that compare the fertility of observed couple types will be
-kept descriptive unless the match itself is exogenously shifted. The full draft queries, boundary
-rules, and candidate trail are recorded in
-`literature/search-logs/marriage-market-economics-search-scope.md` and
-`literature/search-logs/marriage-market-economics-scoping-candidates.csv`.
+The evidence screen asks one simple question first: does the study connect a partner-market
+treatment to a fertility outcome? A study that reports marriage or spouse type without births enters
+the mechanism stream. A study that compares fertility across observed couple types remains
+descriptive unless an external event changed the match. A schooling reform belongs primarily to an
+education chapter unless the design identifies the pathway through partner composition.
 
-The current search is preparatory because hypothesis approval and OSF preregistration remain open.
-No PRISMA counts should be inferred from the candidate list, and the candidate list must not be
-treated as the included-study set.
+The full draft queries, inclusion rules, and boundary decisions appear in
+`literature/search-logs/marriage-market-economics-search-scope.md`. The 14 sources located in the
+first pass appear in `literature/search-logs/marriage-market-economics-scoping-candidates.csv`, with
+an identifier, source link, evidence role, and verification status for each candidate.
+
+The 2026-08-01 search was preparatory. Hypothesis approval and OSF preregistration remain open, so
+the candidate map is not an included-study set and its counts are not PRISMA counts.
 
 ## 4. PRISMA flow
 
-Pending the preregistered production search and human title-and-abstract review.
+The PRISMA flow will be populated after the preregistered production search and human
+title-and-abstract review.
 
 | Stage | Records |
 |---|---:|
@@ -89,54 +134,62 @@ Pending the preregistered production search and human title-and-abstract review.
 
 ## 5. Included studies
 
-No study is formally included yet. The scoping pass nevertheless reveals three distinct evidence
-streams that the production review should preserve.
+No study is formally included yet. The scoping search found three evidence streams that answer
+different questions and should remain separate.
 
-| Evidence stream | Examples from scoping | What it can establish now |
+| Evidence stream | Examples from scoping | What the stream may establish |
 |---|---|---|
-| Gender-specific economic shocks with fertility outcomes | Schaller (2016); Kearney and Wilson (2018); Autor, Dorn, and Hanson (2019) | Potential causal effects of male versus female economic prospects on births |
-| Upstream schooling shocks with match and fertility outcomes | Lavy and Zablotsky (2015); Geruso and Royer (2018) | Matching is one possible pathway, alongside direct schooling and preference channels |
-| Sorting and mismatch studies | Schwartz and Mare (2005); Raymo and Iwasawa (2005); Lichter, Price, and Swigert (2020) | Changes in partner composition and union formation, without an identified fertility effect |
+| Gender-specific economic shocks with fertility outcomes | Schaller (2016); Kearney and Wilson (2018); Autor, Dorn, and Hanson (2019) | Whether changes in men's and women's economic prospects cause births to change |
+| Schooling shocks with matching and fertility outcomes | Lavy and Zablotsky (2015); Geruso and Royer (2018) | Whether matching is a plausible pathway alongside school attendance, preferences, and other education channels |
+| Sorting and mismatch studies | Schwartz and Mare (2005); Raymo and Iwasawa (2005); Lichter, Price, and Swigert (2020) | How partner composition and union formation change, without an identified fertility effect |
+
+The table does not rank study quality. Full texts must first confirm each treatment, outcome,
+estimate, and mechanism claim.
 
 ## 6. Quantitative synthesis
 
-No pooling is justified at this stage. The candidate causal studies use different treatments and
-outcomes: trade exposure, fracking, and gender-specific labor demand; total, marital, nonmarital,
-and age-specific births. The production extraction must first determine whether at least three
-independent studies share a treatment direction, fertility outcome family, unit, and usable standard
-error. Otherwise the chapter will use a structured quantitative narrative.
+No pooled estimate is justified from the scoping evidence. The candidate causal studies examine
+different events, including trade competition, fracking booms, and broader changes in
+gender-specific labor demand. They report different outcomes, including total births, marital
+births, nonmarital births, and births within particular age ranges. Combining those coefficients
+would produce a precise-looking number with no stable interpretation.
 
-The early pattern is informative but incomplete. Schaller reports that stronger male labor demand
-is associated with higher fertility, while stronger female labor demand has a smaller negative
-association. Autor, Dorn, and Hanson find that trade shocks which reduce young men's relative
-economic position also reduce marriage and fertility. Kearney and Wilson find that an improvement
-in men's earnings raises births but does not raise marriage. Together these studies suggest that
-relative economic prospects matter for fertility, while casting doubt on a simple chain in which
-male earnings affect births only by changing marriage.
+The early results nevertheless show why the hypothesis deserves a full review. Schaller finds that
+stronger male labor demand is associated with higher birth rates, while stronger female labor
+demand has smaller negative effects. Autor, Dorn, and Hanson find that trade shocks which reduce
+young men's relative employment and earnings also reduce marriage and fertility. Kearney and Wilson
+find the reverse earnings shock raises births but does not raise marriage. The three studies point
+toward a fertility response to relative economic prospects, while the fracking result warns against
+treating marriage as the only channel.
+
+The production extraction will test whether at least three independent studies share a treatment
+direction, outcome family, unit, and usable standard error. If no comparable set exists, the chapter
+will report estimates side by side and explain why they cannot be pooled.
 
 ## 7. Demographic significance
 
 ### 7.1 Pre-modern
 
-The master hypothesis does not currently target pre-modern fertility. No assessment is planned
-unless the approved scope changes.
+The master hypothesis does not target pre-modern fertility. No assessment is planned unless the
+approved scope changes.
 
 ### 7.2 First Demographic Transition
 
-Evidence status: pending. Historical matching and marriage-market studies may describe relevant
-mechanisms, but the scoping pass has not verified a causal estimate that can be scaled against an
-FDT fertility decline.
+The FDT assessment is pending. Historical matching studies may document relevant behavior, but the
+scoping search has not verified a causal estimate that can be scaled against an observed FDT
+fertility decline.
 
 ### 7.3 Second Demographic Transition
 
-Evidence status: pending. Most candidate empirical evidence comes from recent high-income settings,
-which makes SDT relevance plausible. Demographic significance still requires a verified causal
-slope and an observed change in the matching treatment on a comparable scale.
+The SDT assessment is also pending. Most candidate causal studies concern recent high-income
+settings, which makes the period relevant. Demographic significance still requires two quantities
+on compatible scales: a credible fertility response to a matching treatment and the actual change
+in that treatment over the study population's fertility decline.
 
 ## 8. GRADE rating
 
-No rating has been assigned. The protocol requires full-text extraction, risk-of-bias assessment,
-and three independent raters before a GRADE judgment.
+No GRADE rating has been assigned. The protocol requires full-text extraction, risk-of-bias
+assessment, and three independent ratings before the chapter can judge causal credibility.
 
 ## 9. Verdict
 
@@ -148,21 +201,23 @@ and three independent raters before a GRADE judgment.
 
 ## 10. Open questions and recommended studies
 
-The largest evidence gap is a design that shifts partner composition and then follows completed
-fertility. Education expansions can change the relative supply of educated men and women, but they
-also change wages, preferences, school attendance, and contraception knowledge. A useful design
-would exploit a sex-specific education or labor-market shock across well-defined partner markets,
-measure the resulting matches, and decompose its fertility effect through union formation and
-partner type.
+The main evidence gap is a study that changes the composition of the partner pool and follows
+completed fertility. Education expansions offer possible variation because they can change the
+relative supply of educated men and women across cohorts and places. Yet education also changes
+wages, preferences, time in school, and knowledge about contraception. A credible design must
+separate the matching pathway from those competing channels.
 
-The review must also determine how often people adapt to an education mismatch by partnering down
-or outside marriage. That response separates a genuine fertility constraint from a temporary
-matching inconvenience. Studies need outcomes for singlehood, cohabitation, marriage, first birth,
-higher-order births, and completed fertility in the same cohorts.
+The second gap concerns adaptation. Researchers need to observe singlehood, cohabitation, marriage,
+first births, later births, and completed fertility for the same cohorts. Those outcomes reveal
+whether a shortage of preferred partners prevents family formation or merely changes its timing and
+legal form.
+
+The most informative future study would combine a sex-specific education or labor-market shock with
+a clearly defined partner market. The study would measure how the shock changes the available pool,
+which matches form, and how many children affected people eventually have. That sequence would let
+researchers test the complete mechanism instead of inferring it from one link.
 
 ## 11. References
 
 References remain provisional until candidates pass production screening and enter
-`datastore/studies.json`. Verified candidate identities and source links appear in the scoping
-candidate file.
-
+`datastore/studies.json`. Verified identities and source links appear in the scoping candidate file.
