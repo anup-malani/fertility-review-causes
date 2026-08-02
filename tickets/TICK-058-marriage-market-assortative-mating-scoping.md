@@ -1,5 +1,5 @@
 # TICK-058: Marriage-market and assortative-mating scoping search and chapter scaffold
-**Status:** in-progress
+**Status:** done
 **Assigned:** Alexandra
 **Parallel-safe:** yes
 **Blocked by:** Production screening and final synthesis depend on TICK-001 and TICK-006
@@ -13,11 +13,15 @@ scaffold without final GRADE or demographic-significance judgments. Formal produ
 waits for hypothesis approval and preregistration.
 
 ## Acceptance criteria
-- [ ] A dated search-scope file states the causal estimand, boundaries, databases, draft queries,
+- [x] A dated search-scope file states the causal estimand, boundaries, databases, draft queries,
       inclusion/exclusion criteria, and the preregistration limitation.
-- [ ] Candidate sources have verified bibliographic identities and an auditable search trail.
-- [ ] The chapter follows the protocol template and clearly labels uncompleted evidence stages.
-- [ ] No final GRADE or demographic-significance verdict is assigned before human gates.
+- [x] Candidate sources have verified bibliographic identities and an auditable search trail.
+- [x] The chapter follows the protocol template and clearly labels uncompleted evidence stages.
+- [x] No final GRADE or demographic-significance verdict is assigned before human gates.
 
 ## Log
-<!-- When you close this ticket, write: date, who, what you did. -->
+2026-08-01, Alexandra/Codex: Completed a preliminary six-cluster search, verified 14 candidate
+bibliographic identities against publisher or institutional records, wrote the causal boundary and
+estimand rules, and drafted the protocol chapter scaffold. The work separates causal fertility
+studies from descriptive sorting studies and leaves PRISMA, extraction, pooling, demographic
+significance, and GRADE pending approval and preregistration.

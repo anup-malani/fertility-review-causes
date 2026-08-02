@@ -1,5 +1,21 @@
 # Handoff — fertility-review-causes
 
+## Marriage-market and assortative-mating scoping — 2026-08-01
+
+TICK-058 completed the preliminary search scope and chapter scaffold for
+`marriage-market-economics`. The dated scope defines the boundary between raw sex-ratio headcounts
+and quality-weighted partner availability, plus separate cells for causal fertility evidence,
+matching mediation, mechanism-only union evidence, and descriptive couple-type fertility. The
+scoping map contains 14 publisher- or institution-verified candidate identities. Its early evidence
+pattern is that gender-specific economic shocks have causal fertility estimates, while most
+assortative-mating studies describe sorting without identifying a fertility effect.
+
+The draft at `output/chapters/marriage-market-economics.md` follows the protocol template but assigns
+no PRISMA counts, included-study status, pooled estimate, demographic-significance verdict, or GRADE
+rating. Production screening waits for hypothesis approval and preregistration under TICK-001 and
+TICK-006. The next hypothesis-specific step after those gates is a frozen OpenAlex/Semantic Scholar/
+Crossref search followed by RA title-and-abstract review and full-text retrieval.
+
 ## Compulsory-education full-text automation — 2026-07-24
 
 Update (2026-07-25): The full Shanan (2023) PDF, DOI `10.1007/s00148-021-00838-1`, is retrieved and
