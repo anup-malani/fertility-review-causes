@@ -158,7 +158,34 @@ Check `QUEUE.md` before picking a ticket to make sure you are not about to dupli
 
 ## Creating a ticket
 
-Copy the template above. Assign the next unused number (look at the highest existing TICK-NNN). Add it to `QUEUE.md` in the right place — open tickets at the top, blocked tickets below. Note any dependencies.
+Creating a ticket is not claiming one. Copy the template above, take the next number, add the row to
+`QUEUE.md` in the right place (open tickets at the top, blocked tickets below), note any dependencies,
+and push. A branch appears later, when someone claims it.
+
+**Take the number from the "Next free number" banner at the top of `QUEUE.md`, and bump the banner in
+the same commit.** Do not scan for the highest existing `TICK-NNN`. Scanning is what produced the
+TICK-032 double assignment on 2026-07-25, because the two colliding workstreams each scanned a `main`
+that did not yet show the other's number.
+
+**Commit ticket creation to `main`, even under Mode B.** Mode B's rule against committing to `main`
+governs ticket *work*, not ticket *creation*. Reserving a number is only useful if everyone can see
+the reservation, and a number sitting on an unmerged branch stays invisible until that branch lands.
+Claiming and working the ticket still happen on a branch, unchanged.
+
+### Four things `scripts/ticket.sh` requires of a new ticket file
+
+Each of these fails later, at claim or close time, rather than when you create the file:
+
+1. **The filename becomes the branch name**, lowercased with the `TICK-` prefix dropped, so
+   `TICK-061-document-ticket-creation-rule.md` yields branch `061-document-ticket-creation-rule`. Keep
+   the slug short and hyphenated, with no spaces.
+2. **Exactly one `tickets/TICK-NNN-*.md` may exist.** Two files sharing a number and `claim` aborts
+   with a count error.
+3. **The status line must read exactly `**Status:** open`.** `claim` rewrites it with a `sed` anchored
+   on `^\*\*Status:\*\*`, so any other format means the flip silently does nothing and the ticket looks
+   unclaimed while a branch exists for it.
+4. **Include the `## Log` heading from the start**, even empty. `close` refuses to run on a ticket
+   that has none.
 
 ---
 

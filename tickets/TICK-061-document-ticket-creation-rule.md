@@ -43,4 +43,29 @@ produced the TICK-032 collision.
       scan for the highest existing number.
 
 ## Log
-<!-- On close, write date + who, then fill in the two notes below (see tickets/README.md, "Closing a ticket"). -->
+- 2026-08-02 (Shravan/Claude): **all four acceptance criteria met** in `tickets/README.md`, "Creating
+  a ticket". Two things the drafting settled beyond the ticket:
+  **(1) The banner instruction was actively wrong, not merely absent.** The section told contributors
+  to "look at the highest existing TICK-NNN," which is the exact method that produced the TICK-032
+  collision: both colliding workstreams scanned a `main` that did not yet show the other's number. The
+  `QUEUE.md` next-free banner exists because scanning failed, so the README was pointing at the
+  discredited method while the banner sat three files away. Replaced, with the bump-in-the-same-commit
+  requirement made explicit.
+  **(2) Constraint 3 is the dangerous one and deserves its stated failure mode.** A malformed
+  `**Status:**` line does not error. `claim` still creates and pushes the branch, so the ticket reads
+  `open` on the board while a branch exists for it, which is the one state the whole claim mechanism is
+  built to prevent. Documented with that consequence attached rather than as a formatting nit.
+
+**Result.** Documented that ticket creation is committed to `main` while claiming and working stay on
+a branch, replaced the highest-number scan with the `QUEUE.md` next-free banner, and wrote down the
+four constraints `scripts/ticket.sh` places on a new ticket file.
+
+**Workflow impact / future behavior.**
+- Changes future behavior? **Yes.**
+- Implemented in: `tickets/README.md` ("Creating a ticket", plus its new subsection on the
+  `ticket.sh` constraints).
+- Do differently: take the next ticket number from the `QUEUE.md` banner rather than scanning for the
+  highest file, and bump the banner in the same commit. Commit the new ticket to `main`; do not open a
+  branch for creation alone. Name the file so its slug works as a branch name, keep exactly one file
+  per number, write the status line as `**Status:** open` verbatim, and include the `## Log` heading
+  from the start.
