@@ -1,5 +1,5 @@
 # TICK-063: D.1.b Cultural Westernization and Developmental Idealism
-**Status:** open
+**Status:** in-progress
 **Assigned:** Shravan
 **Hypothesis:** `caldwell-wealth-flows-westernization` — HYPOTHESES-v5.md §D.1.b
 **Parallel-safe:** yes
