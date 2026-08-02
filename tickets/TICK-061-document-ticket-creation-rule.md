@@ -1,5 +1,5 @@
 # TICK-061: Document where ticket creation happens under Mode B
-**Status:** in-progress
+**Status:** done
 **Assigned:** Shravan
 **Parallel-safe:** yes
 **Blocks:** none
