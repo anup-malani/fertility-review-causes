@@ -1,0 +1,6 @@
+study,channel,elasticity_pct_per_pct,reported_effect_pct,implied_price_change_pct,baseline_source,linearity_assumed
+"Dettling & Kearney (US, IV)",wealth_owner,0.812,5.0,6.16,"mean MSA home price $162,356 (Table 1, Aggregate Variables)",yes
+"Dettling & Kearney (US, IV)",cost_nonowner,-0.39,-2.4,6.16,same baseline,yes
+Daysal et al. (Denmark),wealth_owner,0.227,2.32,10.22,"mean estimated home value at purchase 9.7807 x 100,000 DKK (Table 1, Summary Statistics)",yes
+"Ang et al. (China, RD)",wealth_owner,0.18,0.18,1.0,already reported as an elasticity,no
+"Liu & Zhang (China, HPR)",cost_prospective_buyer,-0.821,-8.208955223880597,10.0,"mean birth rate 10.72 per 1,000 in sample; effect -0.88 per 1,000",yes

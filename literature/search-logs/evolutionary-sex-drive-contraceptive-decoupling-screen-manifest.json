@@ -1,0 +1,884 @@
+{
+  "slug": "evolutionary-sex-drive-contraceptive-decoupling",
+  "stage": "blinded_title_abstract_screen_input",
+  "source": "literature/search-logs/evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json",
+  "source_sha256": "76a379683697a0860f75715dad2e6ac786e2c61d2a2d0bec84e181d3e41c9abd",
+  "seed": 811,
+  "batch_size": 40,
+  "records": 4900,
+  "batches": 123,
+  "records_with_abstract": 3120,
+  "blinded_fields": [
+    "doi",
+    "authors",
+    "venue",
+    "cited_by_count",
+    "discovery_channels",
+    "seed_ids",
+    "gold_status"
+  ],
+  "coverage_verified": true,
+  "manifest": [
+    {
+      "batch": 1,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_001.json",
+      "input_sha256": "5a555f5db7690300377e4c9a615f20c2bd7dfccbcc03b75719699eeb596476ec",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_001.json"
+    },
+    {
+      "batch": 2,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_002.json",
+      "input_sha256": "9294a5d63449ac1bb988f2627092fac6aa852440d27ec8d604fc2c4e503dcca6",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_002.json"
+    },
+    {
+      "batch": 3,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_003.json",
+      "input_sha256": "1e9713477d98cc198936da9d0947f6f6acef2676527ef9f2a1a1fd969b074ca2",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_003.json"
+    },
+    {
+      "batch": 4,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_004.json",
+      "input_sha256": "d3b12f4ac7b1a897aa1fa1a6513c7144438fef97e38835e1c2f35cc6c83f85bb",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_004.json"
+    },
+    {
+      "batch": 5,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_005.json",
+      "input_sha256": "79a6ad1432d9656cbdfb1b7ae3ebfa086683ca8974008f065155a9a1cecd7968",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_005.json"
+    },
+    {
+      "batch": 6,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_006.json",
+      "input_sha256": "ce8f18c67fb6862d72a588e2c5e58693daa035c4cfc2bc523832255f27e13818",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_006.json"
+    },
+    {
+      "batch": 7,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_007.json",
+      "input_sha256": "f782cbff2b137d5241d3f96b8c1cf54308aeeca4bd9334dace603cc21f408282",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_007.json"
+    },
+    {
+      "batch": 8,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_008.json",
+      "input_sha256": "14acdd88825ea40ed3ef31dc464eeabbe87f37e137e5f323d695e26469a1a9ec",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_008.json"
+    },
+    {
+      "batch": 9,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_009.json",
+      "input_sha256": "a34343f9e54c396909a319343d60a7e7ec88d39ca2ab752da66011c1514d86dc",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_009.json"
+    },
+    {
+      "batch": 10,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_010.json",
+      "input_sha256": "165113e50f73a278c42494c9dc4a6b0bdf581c4cb4b8239f8a0dffca32bb9efa",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_010.json"
+    },
+    {
+      "batch": 11,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_011.json",
+      "input_sha256": "721cef679a87708daf655d20e47344643657a20b67e8d63cbc0e9ee35d6279a3",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_011.json"
+    },
+    {
+      "batch": 12,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_012.json",
+      "input_sha256": "18b497ab4f9549472dc5846377baaf68fd0a4f19e63f84fa6cf2fd52f2612b4f",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_012.json"
+    },
+    {
+      "batch": 13,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_013.json",
+      "input_sha256": "c1932d1bcd6f7c579345cb02b3ac23081db1a9d8a545f4eaba6e6513d0d4807d",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_013.json"
+    },
+    {
+      "batch": 14,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_014.json",
+      "input_sha256": "ac3814cfb708727fd23c2382a039b39ab3f281a3a902de71d278d8680f3e58de",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_014.json"
+    },
+    {
+      "batch": 15,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_015.json",
+      "input_sha256": "f80f69420e6ab044376d97a0f6b35893fd862d02ab47ddfa19159d6acf10f28b",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_015.json"
+    },
+    {
+      "batch": 16,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_016.json",
+      "input_sha256": "590a9e998a102ba49e6bcb99fd43e967e7b11a08fabd4b3b08fbb0aa33b48e0b",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_016.json"
+    },
+    {
+      "batch": 17,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_017.json",
+      "input_sha256": "f646c9a1d48d56ca1d940fa8fbb968f9a9043ac17d25187801bcd4e16309af42",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_017.json"
+    },
+    {
+      "batch": 18,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_018.json",
+      "input_sha256": "0d298d69b11abeb9449ed7038867d41b24585c4685d4f6ddacf78eb161b8102e",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_018.json"
+    },
+    {
+      "batch": 19,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_019.json",
+      "input_sha256": "24ef7bdc4d140b22d724bed3b842569cb1d93f4537c497467a8a62a044359887",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_019.json"
+    },
+    {
+      "batch": 20,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_020.json",
+      "input_sha256": "4f1f140bcb1898360648bce3b813baea229dc8cfe1781eec6ede05bdd318cbd5",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_020.json"
+    },
+    {
+      "batch": 21,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_021.json",
+      "input_sha256": "ab50d80bc7fc4a75810d22bd4217ac50c80462509c058cf55d53cdee9e75bd68",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_021.json"
+    },
+    {
+      "batch": 22,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_022.json",
+      "input_sha256": "cf010b47f6fa3fef4168bfddd9d02e7b91d3080b4fd6403c0efc8a477d117659",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_022.json"
+    },
+    {
+      "batch": 23,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_023.json",
+      "input_sha256": "0f11217217a70b6f7745201505b00ee2f1a67f55ce720478464580c6e97519dd",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_023.json"
+    },
+    {
+      "batch": 24,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_024.json",
+      "input_sha256": "db1eb6cf131a3aa5a14fdfb19cd094ac08e468c5eec237d7eb0a913b4d54261d",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_024.json"
+    },
+    {
+      "batch": 25,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_025.json",
+      "input_sha256": "cda43bf1e3436b598d6b5131bab6cdb0d89132a91890cb1eea8e68c1c0cb9dd5",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_025.json"
+    },
+    {
+      "batch": 26,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_026.json",
+      "input_sha256": "1a7abc0696aa0c09a8336bffff982510b03c5db960a46c578227c2b4de6d7b67",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_026.json"
+    },
+    {
+      "batch": 27,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_027.json",
+      "input_sha256": "f649cf93836d3448d28ff38805067f2e52bc75172ddfddbc1101deedbc51ecbb",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_027.json"
+    },
+    {
+      "batch": 28,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_028.json",
+      "input_sha256": "423e374ea76a9f280cb09cd1d1ebb480886948fe159b470175a7938feda2a64b",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_028.json"
+    },
+    {
+      "batch": 29,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_029.json",
+      "input_sha256": "6ca3a050c9b206f42471692cd1ef78dacde0aa88986e0aebf44f9bdc01451488",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_029.json"
+    },
+    {
+      "batch": 30,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_030.json",
+      "input_sha256": "1bdbd090abc208a32f49cc68303ceee6995dcfbd3ceb6115b454739fc1ae6818",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_030.json"
+    },
+    {
+      "batch": 31,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_031.json",
+      "input_sha256": "b85d1a2ebe107e85a04f96dd050c4258c2820fda65e992dfc2f4181e787d0b2c",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_031.json"
+    },
+    {
+      "batch": 32,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_032.json",
+      "input_sha256": "80cd6a20330774f51548f40eda29eab92912286d9ddbee62f342124e2d085f96",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_032.json"
+    },
+    {
+      "batch": 33,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_033.json",
+      "input_sha256": "987d089ced58c6ab041dec193b67762918cfce26b6c94bd073a7a987421d3cb8",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_033.json"
+    },
+    {
+      "batch": 34,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_034.json",
+      "input_sha256": "0c53e9c44ad9d23f653d3f088928ce89263c4a79ab603e5c11eaf86d20b5d60a",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_034.json"
+    },
+    {
+      "batch": 35,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_035.json",
+      "input_sha256": "8a9916cf083f220388f1d6e3e4434434f067fb5790a98cf467ae22ae50cda845",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_035.json"
+    },
+    {
+      "batch": 36,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_036.json",
+      "input_sha256": "2e87ebcaee0b3bbf65ab30bbafe413fa756e601d8c32e75aace11efba05dcc38",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_036.json"
+    },
+    {
+      "batch": 37,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_037.json",
+      "input_sha256": "56f482261f7f41cdef1c98a8e00451c253509f26d22d3a304012abe0a521d00a",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_037.json"
+    },
+    {
+      "batch": 38,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_038.json",
+      "input_sha256": "9160dc4a1c906cd1a67fdf3c5455be527573344944eccc38f6335613a5774be4",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_038.json"
+    },
+    {
+      "batch": 39,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_039.json",
+      "input_sha256": "470d73852cf38c42dc979929c69b13279dd6482dd66708671e14ca0e630e4071",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_039.json"
+    },
+    {
+      "batch": 40,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_040.json",
+      "input_sha256": "c60454908da2b6102ca1a190ef6be269df6268f9faa1245cc43bc3b1bd067d8e",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_040.json"
+    },
+    {
+      "batch": 41,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_041.json",
+      "input_sha256": "1b20523efdab47d83caa9cccaa5d181a44418f955d2cdd2c1e43958b0f02e359",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_041.json"
+    },
+    {
+      "batch": 42,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_042.json",
+      "input_sha256": "048a229d48800e910bce8ce1895fb710622c2a8cd01667416d2104a8cba91e43",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_042.json"
+    },
+    {
+      "batch": 43,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_043.json",
+      "input_sha256": "04a8dd8eca13c8f8ba4d060bc2f2482e2852bcadd8fa969a2cca8524b1e91924",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_043.json"
+    },
+    {
+      "batch": 44,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_044.json",
+      "input_sha256": "c33f0952e9e360539fe51848264b568e6589b6ff5473b6e29dc6481ec38d35dd",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_044.json"
+    },
+    {
+      "batch": 45,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_045.json",
+      "input_sha256": "ab90dcb18a1c9d3cf4b4ef5ff8f52da1e9af53d0d7d966be0baf6bd2a36446c4",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_045.json"
+    },
+    {
+      "batch": 46,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_046.json",
+      "input_sha256": "4f51038dfa717fb616ca73f5f007a6e563c1abd032299616da9765cfd6838a36",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_046.json"
+    },
+    {
+      "batch": 47,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_047.json",
+      "input_sha256": "2b132e187b381b5a3344ccf71fd257d390e0242ff616774d4e0d2055d8065a58",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_047.json"
+    },
+    {
+      "batch": 48,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_048.json",
+      "input_sha256": "ff466c784406f032a95c91d892006cfbaee5cab5030dc0ec90c941917f57ec97",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_048.json"
+    },
+    {
+      "batch": 49,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_049.json",
+      "input_sha256": "a15a9f307291c053baf8d98a5e688307327e9dd5429ef718316315edae3239fa",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_049.json"
+    },
+    {
+      "batch": 50,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_050.json",
+      "input_sha256": "042d9359eaff353ceb52386c3e45eb48833a050e00f7e90ff1d42bb09220fbe2",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_050.json"
+    },
+    {
+      "batch": 51,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_051.json",
+      "input_sha256": "fd40784dcdb91decc0a61e372053c03647d1982fa73d1d9115fefa19fc9d8a29",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_051.json"
+    },
+    {
+      "batch": 52,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_052.json",
+      "input_sha256": "6ebe6f15ca0b3f0eaa68c9fd66515a941840efd7b790ef5566b65e8c65046ec4",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_052.json"
+    },
+    {
+      "batch": 53,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_053.json",
+      "input_sha256": "004e88e8ea4349591992f13c80fb5ec697bce986f9b2bbdd218beb582605ccbe",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_053.json"
+    },
+    {
+      "batch": 54,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_054.json",
+      "input_sha256": "bf9a0ce1a7b089622f1b3e3f5355eeac65dbdb0485361d9262c96fd8c4588432",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_054.json"
+    },
+    {
+      "batch": 55,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_055.json",
+      "input_sha256": "04c2b29a2bac87767b421a649e4c7d7e333e800325f9e8dd1e7cf41dae297237",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_055.json"
+    },
+    {
+      "batch": 56,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_056.json",
+      "input_sha256": "7c77568b303b314e733ac64576a1e6d196414c42498f839c0d13aea7da6af071",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_056.json"
+    },
+    {
+      "batch": 57,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_057.json",
+      "input_sha256": "02db88ccd957f4c69866ea12629ee968851ee36adc269a15d41fe96e23ff5540",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_057.json"
+    },
+    {
+      "batch": 58,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_058.json",
+      "input_sha256": "6434e8a038364eb95e37f422b965850c687886afd6d5cb7e4f83db794ddff93a",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_058.json"
+    },
+    {
+      "batch": 59,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_059.json",
+      "input_sha256": "a879bfe56cb4aa0da748265fe7862b67a44692d7d074bb8370791aee445da677",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_059.json"
+    },
+    {
+      "batch": 60,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_060.json",
+      "input_sha256": "f94e99726f76fc4512f3383f1d577e60f5a36d29c64f5ccbdfbdc2ce677dbf4d",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_060.json"
+    },
+    {
+      "batch": 61,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_061.json",
+      "input_sha256": "01288ecaf4f7a715da69403dd6109466b46182fc9551b81e8159f5b16e97c857",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_061.json"
+    },
+    {
+      "batch": 62,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_062.json",
+      "input_sha256": "e6f2a56e51f71917299f6224638ec18fbc146b1413b89846d6f8c4c0466af834",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_062.json"
+    },
+    {
+      "batch": 63,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_063.json",
+      "input_sha256": "67a8dceca66501280f71cdb37e01289e0cfa9428d212285c517f94257fac21b8",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_063.json"
+    },
+    {
+      "batch": 64,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_064.json",
+      "input_sha256": "0a284e8681379eca936bd6918b49251deebad217864aae8d1b8eace576641db4",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_064.json"
+    },
+    {
+      "batch": 65,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_065.json",
+      "input_sha256": "92d732025af6084f79db03e05e238f00b4725c4e92d9f7fd73b529330693b243",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_065.json"
+    },
+    {
+      "batch": 66,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_066.json",
+      "input_sha256": "5bde0b38ad314ae43238931405cf0d4d27e52c2014a1814e0d40e9888ddcca6c",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_066.json"
+    },
+    {
+      "batch": 67,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_067.json",
+      "input_sha256": "c5b1de8a4dcffb502f6b60ab9060b2cc43a8ceef052fdb6ed46b25f2ac192aec",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_067.json"
+    },
+    {
+      "batch": 68,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_068.json",
+      "input_sha256": "e4ccbce636d96ba4f2b43a0e6ba994dc85c7647fb580d844cfb710fe5ff8be26",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_068.json"
+    },
+    {
+      "batch": 69,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_069.json",
+      "input_sha256": "e77a95f508c470203178f073524c75c6cdfaef26722317112c3e400e19174246",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_069.json"
+    },
+    {
+      "batch": 70,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_070.json",
+      "input_sha256": "b3a5ff1280b908f33f4d87673836e54ee31a7459839354f73279fa823a80c393",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_070.json"
+    },
+    {
+      "batch": 71,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_071.json",
+      "input_sha256": "a745ee38935e8f6eea945018af59753d2e970ddb9529e776507c39eab5ec1977",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_071.json"
+    },
+    {
+      "batch": 72,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_072.json",
+      "input_sha256": "5ad8ab9960d5e632d26aab3eab343aa05b181cd05ea087188547238cd63257be",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_072.json"
+    },
+    {
+      "batch": 73,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_073.json",
+      "input_sha256": "e9a0344e660cf1ba21ab2d51fd084a783ed144398bd3530ca05aafcd26434a61",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_073.json"
+    },
+    {
+      "batch": 74,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_074.json",
+      "input_sha256": "b901830c4b10c8cf3cc4dc801cba29ce62198831db8ab7dd5ffee8f1bfc6a347",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_074.json"
+    },
+    {
+      "batch": 75,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_075.json",
+      "input_sha256": "f38f67bf88415b6da471abfc18cae60262ccda078f2c051257e111a04fd6d291",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_075.json"
+    },
+    {
+      "batch": 76,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_076.json",
+      "input_sha256": "1eb884a2dab08000299d8a32b7e6b26dd6c2f0969029df53b9130e97e9685935",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_076.json"
+    },
+    {
+      "batch": 77,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_077.json",
+      "input_sha256": "81359cbbcd8a6e4916d35448d414fd55c47bef2fadbccea71eb491778b8bab0c",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_077.json"
+    },
+    {
+      "batch": 78,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_078.json",
+      "input_sha256": "e0a1e32543a94f2770fc10d6de70cbd47176c9d90cbce073f20705220a526023",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_078.json"
+    },
+    {
+      "batch": 79,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_079.json",
+      "input_sha256": "00a37e67cee53a29f27b3b695d9dc3f3703b79eba8cc6dc30d0db5aa23fff395",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_079.json"
+    },
+    {
+      "batch": 80,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_080.json",
+      "input_sha256": "626a9a3c14ce02fd1e14a65d2dcf587f58748b67dc5b14da1101585cddd6864a",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_080.json"
+    },
+    {
+      "batch": 81,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_081.json",
+      "input_sha256": "a84388ca3fad5aff7a95490d410e94d081be19594e7fd6ceaaab152a1c9af9c6",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_081.json"
+    },
+    {
+      "batch": 82,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_082.json",
+      "input_sha256": "26a70e0b63c2bf3860167487457e4442969f0ba59fd34ab402a85039fd375317",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_082.json"
+    },
+    {
+      "batch": 83,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_083.json",
+      "input_sha256": "52c7485ae7308d8f79c9e6538de16eb36610f9998ab000cc85b0cb73c222f511",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_083.json"
+    },
+    {
+      "batch": 84,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_084.json",
+      "input_sha256": "577ae985b5e1a2563bd8b9df987f4ee34e84ea8a1403a3af7ff3ff3111828ec2",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_084.json"
+    },
+    {
+      "batch": 85,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_085.json",
+      "input_sha256": "6931d671be3d68dec0c18a3fee85234c172c3839790269ce1a00b8ef373136fd",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_085.json"
+    },
+    {
+      "batch": 86,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_086.json",
+      "input_sha256": "f64f89da42396a99ae80e53c5216ec1c7d3e257d7c04db4eb4039ee648f73ee2",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_086.json"
+    },
+    {
+      "batch": 87,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_087.json",
+      "input_sha256": "ab39a12bff6c9022e454914b98057673c08c744e255e5794be3689e4e89ae0a2",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_087.json"
+    },
+    {
+      "batch": 88,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_088.json",
+      "input_sha256": "67c7e8a4d83b12bdc4552f459ea538845ae7ebdb8690e1bd003d5625321ffcba",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_088.json"
+    },
+    {
+      "batch": 89,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_089.json",
+      "input_sha256": "a4c2572f4d1cb646e2f6990ec3467e0417e367f1ccd2964613bb78948f017309",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_089.json"
+    },
+    {
+      "batch": 90,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_090.json",
+      "input_sha256": "a4ba5fb635f7ec053f8d90e5880cd6aa99d9a56506f8c245b9bc628dd395dd4d",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_090.json"
+    },
+    {
+      "batch": 91,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_091.json",
+      "input_sha256": "9e9cf3db90810248d60f0a9cf9d7d07b5faf1690353a50352d53a090abb7b58d",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_091.json"
+    },
+    {
+      "batch": 92,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_092.json",
+      "input_sha256": "89690f368ef3ce1d4f7fffada5180862da4e0b5f338b3b66fc6d2fcb693a3338",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_092.json"
+    },
+    {
+      "batch": 93,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_093.json",
+      "input_sha256": "e247a1a3a8dff132d9c4e288a46c07f777e55f92794b51ae30f45f447e7e51ff",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_093.json"
+    },
+    {
+      "batch": 94,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_094.json",
+      "input_sha256": "3e780be13d2281ace3d4bc23639740d278fb7e41cac45e2d5325f71d3f33d811",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_094.json"
+    },
+    {
+      "batch": 95,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_095.json",
+      "input_sha256": "ae0eeaa85d49a15b53b284ca4e9db18640dff8ccafe552e9fd2bf4009f2d8f21",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_095.json"
+    },
+    {
+      "batch": 96,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_096.json",
+      "input_sha256": "928ebebd93b687ee5498a741f4f396bb0b1f23e855d594f20b273ec9461fcdf4",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_096.json"
+    },
+    {
+      "batch": 97,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_097.json",
+      "input_sha256": "cefb975baf9b1e535f9af479947f3279d74b567e19c4535e91026a12ffa3ebc7",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_097.json"
+    },
+    {
+      "batch": 98,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_098.json",
+      "input_sha256": "ba4e97fb81068d0e05cda01912bde964abe6c0790735fb869fae047e2d0efa1b",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_098.json"
+    },
+    {
+      "batch": 99,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_099.json",
+      "input_sha256": "7b8a01ca42cd95f268cb6fe11ddd19cb889b6b35c9dd116cf862a315a4291cc1",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_099.json"
+    },
+    {
+      "batch": 100,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_100.json",
+      "input_sha256": "c5c9d80571b70e9db52b9360a33db20c262abe72a17672af943ff9801ccbb204",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_100.json"
+    },
+    {
+      "batch": 101,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_101.json",
+      "input_sha256": "779d7cd85a372f5dc4bf7da8823e64bffab3f7b62a69fca79da565f566d93fb9",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_101.json"
+    },
+    {
+      "batch": 102,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_102.json",
+      "input_sha256": "53caf1717df5668ecae57b2cc62910da44a55774ef32efce023bc6e51dcff122",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_102.json"
+    },
+    {
+      "batch": 103,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_103.json",
+      "input_sha256": "561b41a63e613cc559d18e0aa8f927dea76d7cbbcf2a5a862bf079197f7206f8",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_103.json"
+    },
+    {
+      "batch": 104,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_104.json",
+      "input_sha256": "987e4e590d9ed2961ccbd6493f5477899da74d0c2a2071d914e7f3a141aa66f4",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_104.json"
+    },
+    {
+      "batch": 105,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_105.json",
+      "input_sha256": "2f3e7f5ed084dcd97aa20897ea089cd9ca1e2d0143635d7d21cf26cadf0ebd77",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_105.json"
+    },
+    {
+      "batch": 106,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_106.json",
+      "input_sha256": "ca8199c047d61521e7cd9a6f00d5d68e3c452c29e320c3836e5f1aabae833a59",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_106.json"
+    },
+    {
+      "batch": 107,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_107.json",
+      "input_sha256": "496f9b02dcb97350277bbcb54cf3de1f0f6b3c82da710ba79a0d5d4720588390",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_107.json"
+    },
+    {
+      "batch": 108,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_108.json",
+      "input_sha256": "0ef6e3b93e635fa741f4ae8739e965986a381afe522ce42d62116b2bc85758c3",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_108.json"
+    },
+    {
+      "batch": 109,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_109.json",
+      "input_sha256": "f0ef98ba09655e681f5d90a09c4c9d57ba74d7a2ac36849ffc2a838137719394",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_109.json"
+    },
+    {
+      "batch": 110,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_110.json",
+      "input_sha256": "d6c30aa5a12f435a5b4e2e9af4da535ece0178293522ef329d9e42da840939e6",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_110.json"
+    },
+    {
+      "batch": 111,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_111.json",
+      "input_sha256": "4bfdb770b313f23ec213a6c1b2b765d576b98acc41fca4f5e4edab7c55864b93",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_111.json"
+    },
+    {
+      "batch": 112,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_112.json",
+      "input_sha256": "458ed7644fdc3d947263a15d3e1cb1393b1a9395fd9790ad3cb6004ab831b820",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_112.json"
+    },
+    {
+      "batch": 113,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_113.json",
+      "input_sha256": "f41b6ba320ffe507a126a8dec37e9fb2bcee7907d6fb697e8a3687ecb50cc1b2",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_113.json"
+    },
+    {
+      "batch": 114,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_114.json",
+      "input_sha256": "75b90a8191d6f9ea875d827a7b28a704f49d5f4d1a013ae9e717f5a307605583",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_114.json"
+    },
+    {
+      "batch": 115,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_115.json",
+      "input_sha256": "a8c3b8856afffd47d0c8a8dc5f4606bcef72ff5b6ecec0120769f64c6b950ac2",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_115.json"
+    },
+    {
+      "batch": 116,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_116.json",
+      "input_sha256": "9b9db5121a983c7614f5d52aea7aa4f4fb153a814c7ea982dbbecc21853a99e3",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_116.json"
+    },
+    {
+      "batch": 117,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_117.json",
+      "input_sha256": "7b5301f12000fffc2c82ffca3b79d055922254a01005a44c0ac3048114aaf4a5",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_117.json"
+    },
+    {
+      "batch": 118,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_118.json",
+      "input_sha256": "550f91911aab89cc00ab274b7c5798edf0eddf4fbaeb9c57e7fbcfe8cbd0544d",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_118.json"
+    },
+    {
+      "batch": 119,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_119.json",
+      "input_sha256": "6a62aef9cb140098907284463e6359db9f0860cce813d46a846cac6e7c24a432",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_119.json"
+    },
+    {
+      "batch": 120,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_120.json",
+      "input_sha256": "104f9aaa280701db5f399ac30513ad0a86b3455db64a085b3f1de80bc5fa3f2f",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_120.json"
+    },
+    {
+      "batch": 121,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_121.json",
+      "input_sha256": "a7d2381f7ae851b092ece7ee5c790d238d9519314782b3838731212d5085faaa",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_121.json"
+    },
+    {
+      "batch": 122,
+      "n": 40,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_122.json",
+      "input_sha256": "df11b7dc5ce4c1db0d3369a970c5750d32a3c6f360eb128a66e8653eda9c6ba8",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_122.json"
+    },
+    {
+      "batch": 123,
+      "n": 20,
+      "input": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/batch_123.json",
+      "input_sha256": "a29588a231819d637f0544bf174239a57b14fbdd4e08f5f8247c0aa4161a7498",
+      "output": "temp/screen/evolutionary-sex-drive-contraceptive-decoupling/verdict_123.json"
+    }
+  ]
+}

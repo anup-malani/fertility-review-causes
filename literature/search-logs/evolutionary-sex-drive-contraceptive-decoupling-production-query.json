@@ -1,0 +1,79 @@
+{
+  "slug": "evolutionary-sex-drive-contraceptive-decoupling",
+  "breadth": {
+    "Nf": 10,
+    "Np": 20
+  },
+  "effect_block": {
+    "backbone": [
+      "fertility",
+      "fertilit*",
+      "birth*",
+      "reproductive success",
+      "reproduction",
+      "reproductive",
+      "childbearing",
+      "childbear*",
+      "number of children",
+      "offspring",
+      "completed fertility",
+      "family size",
+      "childless*",
+      "fecundit*",
+      "natality",
+      "parity"
+    ],
+    "mined_expansion": [
+      "reproductive success",
+      "reproductive",
+      "childbearing",
+      "cultural reproductive",
+      "reproduction",
+      "childbearing desires",
+      "fertility behavior",
+      "reproductive behavior",
+      "childlessness",
+      "fertility transition"
+    ]
+  },
+  "cause_block": {
+    "backbone": [
+      "decoupl*",
+      "dissociat*",
+      "uncoupl*",
+      "sever*",
+      "sex from reproduction",
+      "sex without reproduction",
+      "sex without conception",
+      "sex drive",
+      "sexual selection",
+      "contracepti*",
+      "oral contraceptive*",
+      "the pill",
+      "birth control",
+      "family planning"
+    ],
+    "mined_expansion": [
+      "motivation",
+      "status",
+      "motivations",
+      "social status",
+      "problem sociobiology",
+      "motivational",
+      "mating",
+      "motivations desires",
+      "ultimate",
+      "pill",
+      "contraceptive pill",
+      "sexual selection",
+      "evolutionary demography",
+      "evolutionary perspective",
+      "sociobiology",
+      "sexual",
+      "fitness",
+      "mating success",
+      "evolutionary",
+      "contraceptive"
+    ]
+  }
+}

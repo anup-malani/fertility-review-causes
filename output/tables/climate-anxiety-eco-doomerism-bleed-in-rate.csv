@@ -1,0 +1,5 @@
+track,reading,definition,bleed_in,studies_classified,rate,ci95_lower,ci95_upper,sample_selected,sample_in_hand,sample_coverage,coverage_above_two_thirds
+stated_intention,strict,environmental_values_or_behaviour only,1,15,0.067,0.012,0.298,22,16,0.727,yes
+stated_intention,broad,environmental_values_or_behaviour + mixed,5,15,0.333,0.152,0.583,22,16,0.727,yes
+realized_fertility,strict,"Traylor & Chae, Ivanova & Ruttenauer",2,8,0.250,0.071,0.591,8,8,1.000,"yes (census, not a sample)"
+realized_fertility,broad,"+ Weychert (media exposure, not dread)",3,8,0.375,0.137,0.694,8,8,1.000,"yes (census, not a sample)"

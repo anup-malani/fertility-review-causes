@@ -1,0 +1,1911 @@
+[
+  {
+    "paperId": "W2306841286",
+    "title": "Wealth, fertility and adaptive behaviour in industrial populations",
+    "year": 2016,
+    "doi": "10.1098/rstb.2015.0153",
+    "authors": "Gert Stulp; Louise Barrett",
+    "venue": "Philosophical Transactions of the Royal Society B Biological Sciences",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "review",
+    "holds_child_preference_fixed": "no",
+    "discovery_channels": [
+      "backward_reference",
+      "forward_citation"
+    ],
+    "both_channel": true,
+    "tier": 1,
+    "outcome": "fertility (number of children) in industrial populations",
+    "treatment": "wealth/status (evolutionary predictor)",
+    "reason": "Reviews evolutionary explanations for why wealth and fertility have become decoupled in modern industrial populations."
+  },
+  {
+    "paperId": "W2137522241",
+    "title": "The effects of sex and childlessness on the association between status and reproductive output in modern society",
+    "year": 2007,
+    "doi": "10.1016/j.evolhumbehav.2007.05.004",
+    "authors": "Martin Fieder; Susanne Huber",
+    "venue": "Evolution and Human Behavior",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "backward_reference",
+      "forward_citation"
+    ],
+    "both_channel": true,
+    "tier": 1,
+    "outcome": "reproductive output",
+    "treatment": "status",
+    "reason": "Title indicates a status-reproductive-output dissociation study moderated by sex and childlessness in modern society, classic Pérusse-type territory."
+  },
+  {
+    "paperId": "W2033659528",
+    "title": "Can Evolutionary Psychology Explain Reproductive Behavior in the Contemporary United States?",
+    "year": 2003,
+    "doi": "10.1111/j.1533-8525.2003.tb00559.x",
+    "authors": "Satoshi Kanazawa",
+    "venue": "Sociological Quarterly",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "backward_reference",
+      "forward_citation"
+    ],
+    "both_channel": true,
+    "tier": 1,
+    "outcome": "number of sex partners and coital frequency vs. number of children",
+    "treatment": "male wealth/status",
+    "reason": "Replicates Perusse's dissociation test: wealthy men have more sex partners and higher coital frequency but not more children, directly evidencing the sex-reproduction decoupling under modern contraception."
+  },
+  {
+    "paperId": "W2109418124",
+    "title": "Is Fertility Behavior in Our Genes? Findings from a Danish Twin Study",
+    "year": 1999,
+    "doi": "10.1111/j.1728-4457.1999.00253.x",
+    "authors": "Hans‐Peter Kohler; Joseph Lee Rodgers; Kaare Christensen",
+    "venue": "Population and Development Review",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "quasi-experimental",
+    "holds_child_preference_fixed": "no",
+    "discovery_channels": [
+      "backward_reference",
+      "forward_citation"
+    ],
+    "both_channel": true,
+    "tier": 1,
+    "outcome": "fertility across natural- vs controlled-fertility birth cohorts",
+    "treatment": "genetic disposition (twin study)",
+    "reason": "Danish twin study contrasts genetic influence on fertility/motivation in a natural-fertility cohort (1870-1910) vs a deliberately-controlled-fertility cohort (1953-64), a Pérusse-type test of how contraceptive availability changes the link between an underlying predictor and realized fertility."
+  },
+  {
+    "paperId": "W2120592749",
+    "title": "More Status or More Children? Social Status, Fertility Reduction, and Long-Term Fitness",
+    "year": 1999,
+    "doi": "10.1016/s1090-5138(99)00011-2",
+    "authors": "James L. Boone; Karen L. Kessler",
+    "venue": "Evolution and Human Behavior",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "backward_reference",
+      "forward_citation"
+    ],
+    "both_channel": true,
+    "tier": 1,
+    "outcome": "fertility reduction / long-term fitness",
+    "treatment": "social status",
+    "reason": "Title directly examines whether status trades off against realized fertility and long-term fitness, the classic proximate-vs-ultimate dissociation test."
+  },
+  {
+    "paperId": "W2145503575",
+    "title": "Childbearing motivation and its measurement",
+    "year": 1995,
+    "doi": "10.1017/s0021932000023087",
+    "authors": "Warren B. Miller",
+    "venue": "Journal of Biosocial Science",
+    "verdict": "RELEVANT",
+    "cell": "MOTIVATION_DISTINCTNESS",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "no",
+    "discovery_channels": [
+      "backward_reference",
+      "forward_citation"
+    ],
+    "both_channel": true,
+    "tier": 1,
+    "outcome": "childbearing motivation construct (Childbearing Questionnaire)",
+    "treatment": "n/a",
+    "reason": "Develops and validates a childbearing-motivation instrument distinct from sexual motivation, matching the motivation-distinctness estimand."
+  },
+  {
+    "paperId": "W2044971057",
+    "title": "Ecological demography: A synthetic focus in evolutionary anthropology",
+    "year": 1993,
+    "doi": "10.1002/evan.1360010507",
+    "authors": "Bobbi S. Low",
+    "venue": "Evolutionary Anthropology Issues News and Reviews",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "review",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "backward_reference",
+      "forward_citation"
+    ],
+    "both_channel": true,
+    "tier": 1,
+    "outcome": "sexual access vs. reproductive success (children)",
+    "treatment": "status/resource control (wealth)",
+    "reason": "Evolutionary-anthropology synthesis explicitly distinguishing status-driven sexual access from reproductive success across pre-industrial and demographic-transition societies, matching the proximate/ultimate dissociation estimand."
+  },
+  {
+    "paperId": "W2062505457",
+    "title": "Heritable and environmental variables affect reproduction-related behaviors, but not ultimate reproductive success",
+    "year": 1993,
+    "doi": "10.1016/0191-8869(93)90091-g",
+    "authors": "Linda Mealey; Nancy L. Segal",
+    "venue": "Personality and Individual Differences",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "backward_reference",
+      "forward_citation"
+    ],
+    "both_channel": true,
+    "tier": 1,
+    "outcome": "ultimate reproductive success (dissociation)",
+    "treatment": "heritable and environmental variation in reproduction-related behaviors",
+    "reason": "Title indicates a Perusse-type dissociation test: behavior-genetic variables predict reproduction-related behaviors but not actual reproductive success."
+  },
+  {
+    "paperId": "W2034017057",
+    "title": "Resources, reproduction, and mate competition in human populations",
+    "year": 1987,
+    "doi": "10.1017/s0140525x00047981",
+    "authors": "Mark V. Flinn",
+    "venue": "Behavioral and Brain Sciences",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "review",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "backward_reference",
+      "forward_citation"
+    ],
+    "both_channel": true,
+    "tier": 1,
+    "outcome": "mating vs. reproductive success",
+    "treatment": "resources/status and mate competition",
+    "reason": "Title and evolutionary-anthropology framing directly match the proximate/ultimate resources-mating-reproduction test central to B.1, though the abstract is unavailable."
+  },
+  {
+    "paperId": "W7164505717",
+    "title": "I Do Not Need a Second Child, But My Child Needs a Sibling: A Grounded Theory Study on the Fertility Desire for the Second Child in Chinese Post One-Child Policy Era",
+    "year": 2026,
+    "doi": "10.1177/0192513x261459402",
+    "authors": "Yue Song; Xinru Wan",
+    "venue": "Journal of Family Issues",
+    "verdict": "RELEVANT",
+    "cell": "MOTIVATION_DISTINCTNESS",
+    "evidence_type": "other",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "fertility desire for a second child (qualitative motive themes)",
+    "treatment": "n/a",
+    "reason": "Grounded-theory study of the content and determinants of childbearing desire, matching the motivation-distinctness/desire-for-children cell."
+  },
+  {
+    "paperId": "W7168297084",
+    "title": "Sociosexual orientation, life history strategy, and reproductive success: A large-scale cross-cultural analysis across 92 contemporary societies",
+    "year": 2026,
+    "doi": "10.1016/j.evolhumbehav.2026.106938",
+    "authors": "Dmitry Grigoryev; Albina Gallyamova; Albina Gallyamova; Elizaveta Komyaginskaya; Elizaveta Komyaginskaya; Oulmann Zerhouni; Oulmann Zerhouni; Fanny Lalot; Fanny Lalot; Laith Al-Shawaf; Laith Al-Shawaf; Linda H. Lidborg",
+    "venue": "Evolution and Human Behavior",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "reproductive success",
+    "treatment": "sociosexual orientation / life history strategy",
+    "reason": "Cross-cultural test of whether sociosexual/mating orientation translates into actual reproductive success, bearing on sexual-versus-reproductive motivation dissociation."
+  },
+  {
+    "paperId": "W4413962581",
+    "title": "What do we need kids for? Childbearing motivations, personal values, and socio-demographic differences",
+    "year": 2025,
+    "doi": "10.3389/fpsyg.2025.1612384",
+    "authors": "Eugene Tartakovsky; Mor Mizrahi",
+    "venue": "Frontiers in Psychology",
+    "verdict": "RELEVANT",
+    "cell": "MOTIVATION_DISTINCTNESS",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "childbearing motivations (four motive clusters) and their link to personal values",
+    "treatment": "n/a",
+    "reason": "Directly studies childbearing motivations as a distinct psychological construct, matching the motivation-distinctness cell's childbearing-motivation/desire-for-children work."
+  },
+  {
+    "paperId": "W4383998759",
+    "title": "A matter of time: Bateman's principles and mating success as count and duration across social strata in contemporary Finland",
+    "year": 2023,
+    "doi": "10.1098/rspb.2023.1061",
+    "authors": "Linus Andersson; Marika Jalovaara; Jan Saarela; Caroline Uggla",
+    "venue": "Proceedings of the Royal Society B Biological Sciences",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "no",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "reproductive success (fertility)",
+    "treatment": "mating success (mate count, cumulated union duration)",
+    "reason": "Tests Bateman's principles (mating success predicting reproductive success) using contemporary Finnish register data, a modern contracepting population, finding the mating-success-to-fertility link is weakened/altered (e.g., multiple mates associated with lower reproductive success) -- a proximate-ultimate dissociation test in a post-contraception setting."
+  },
+  {
+    "paperId": "W4285739789",
+    "title": "A Double-Track Pathway to Fast Strategy in Humans and Its Personality Correlates",
+    "year": 2022,
+    "doi": "10.3389/fpsyg.2022.889730",
+    "authors": "Fernando Gutiérrez; Josep M. Peri; Eva Baillés; B Sureda; Miguel Gárriz; Gemma Vall; Myriam Cavero; Aïda Mallorquí; José Ruiz Rodríguez",
+    "venue": "Frontiers in Psychology",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "no",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "reproductive effort (offspring count, age at reproduction) vs sociosexuality (mating outcome)",
+    "treatment": "personality/fast-slow life-history strategy",
+    "reason": "Tests two ostensibly linked life-history axes -- reproductive effort and sociosexual/mating behavior -- and finds them independent, a mating-vs-reproduction dissociation pattern."
+  },
+  {
+    "paperId": "W4281629095",
+    "title": "A matter of time: Bateman’s principles and mating success as count and duration in contemporary Finland",
+    "year": 2022,
+    "doi": "10.31235/osf.io/sdfk2",
+    "authors": "Linus Andersson; Marika Jalovaara; Jan Saarela; Caroline Uggla",
+    "venue": null,
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "reproductive success (children born)",
+    "treatment": "mating success (number/duration of co-residential unions)",
+    "reason": "Bateman-type dissociation test using contemporary Finnish register data comparing mating success to reproductive success, finding the association weak/negative once union duration is adjusted for."
+  },
+  {
+    "paperId": "W4213111197",
+    "title": "A meta-analysis of the association between male dimorphism and fitness outcomes in humans",
+    "year": 2022,
+    "doi": "10.7554/elife.65031",
+    "authors": "Linda H Lidborg; Catharine Penelope Cross; Lynda G Boothroyd",
+    "venue": "eLife",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "review",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "mating success vs. reproductive/offspring-viability outcomes",
+    "treatment": "masculine traits (voice pitch, height, testosterone, strength/muscularity, facial masculinity, digit ratio)",
+    "reason": "Meta-analysis testing whether evolutionary predictors of masculinity/mating effort translate into mating success versus actual reproductive outcomes, a Perusse-type proximate-ultimate dissociation test."
+  },
+  {
+    "paperId": "W4281874455",
+    "title": "Childbearing motivation at the onset of emerging adulthood",
+    "year": 2022,
+    "doi": "10.1080/13676261.2022.2080536",
+    "authors": "Monika Mynarska; Jolanta Rytel",
+    "venue": "Journal of Youth Studies",
+    "verdict": "RELEVANT",
+    "cell": "MOTIVATION_DISTINCTNESS",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "desire/motivation for children among emerging adults",
+    "treatment": "n/a",
+    "reason": "Empirically studies childbearing motivation and desire for children as a distinct psychological construct in teens, matching the desire-for-children evidence class named in the rubric."
+  },
+  {
+    "paperId": "W4300863165",
+    "title": "Estudio transcultural Brasil-Perú sobre las motivaciones para la parentalidad y sus variables predictoras",
+    "year": 2022,
+    "doi": "10.22235/cp.v16i2.2266",
+    "authors": "Giuliana Violeta Vásquez Varas; Juliane Callegaro Borsa",
+    "venue": "Ciencias Psicológicas",
+    "verdict": "RELEVANT",
+    "cell": "MOTIVATION_DISTINCTNESS",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "positive motivations for parenthood",
+    "treatment": "n/a",
+    "reason": "cross-cultural study of predictors of parenthood motivation, i.e. desire-for-children/childbearing-motivation work"
+  },
+  {
+    "paperId": "W4212888291",
+    "title": "Husband’s income, wife’s income, and number of biological children in the U.S.",
+    "year": 2022,
+    "doi": "10.1080/19485565.2022.2037070",
+    "authors": "Rosemary L. Hopcroft",
+    "venue": "Biodemography and Social Biology",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "number of biological children",
+    "treatment": "husband's and wife's income (status)",
+    "reason": "Tests status (income) against number of biological children fathered/borne, finding the status-fertility relationship persists in a post-transition society -- a Perusse-type proximate/ultimate test."
+  },
+  {
+    "paperId": "W4205087032",
+    "title": "Social Status Predicts Different Mating and Reproductive Outcomes for Men and Women in China: Evidence from the 2010-2017 CGSS Data",
+    "year": 2022,
+    "doi": "10.21203/rs.3.rs-1005378/v1",
+    "authors": "Yikang Zhang; Pekka Santtila",
+    "venue": "Research Square",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "mating outcome vs. reproductive outcome (gender-differentiated, post-contraception China)",
+    "treatment": "social status",
+    "reason": "Title directly tests status predicting divergent mating vs. reproductive outcomes, a proximate-ultimate dissociation test."
+  },
+  {
+    "paperId": "W4285098037",
+    "title": "Social status predicts different mating and reproductive success for men and women in China: evidence from the 2010–2017 CGSS data",
+    "year": 2022,
+    "doi": "10.1007/s00265-022-03209-2",
+    "authors": "Yikang Zhang; Pekka Santtila",
+    "venue": "Behavioral Ecology and Sociobiology",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "mating success vs. reproductive success (childlessness, parity)",
+    "treatment": "social status / relative spousal status",
+    "reason": "Evolutionary-psychology test of status predicting mating vs. reproductive success separately, matching the Pérusse-type dissociation design."
+  },
+  {
+    "paperId": "W4308189911",
+    "title": "What a (Young) Woman Wants: Concurrent Effects of Desire to Avoid Pregnancy and Desire for Sex on Sexual Intercourse and Contraceptive Use",
+    "year": 2022,
+    "doi": "10.1215/00703370-10295826",
+    "authors": "Michelle A. Eilers",
+    "venue": "Demography",
+    "verdict": "RELEVANT",
+    "cell": "MOTIVATION_DISTINCTNESS",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "sexual intercourse and contraceptive use",
+    "treatment": "desire for sex vs. desire to avoid pregnancy",
+    "reason": "Weekly panel study showing desire for sex and desire to avoid pregnancy are distinct, sometimes competing motivations shaping sexual/contraceptive behavior, directly bearing on the distinctness of sexual vs. reproductive motivation."
+  },
+  {
+    "paperId": "W3189658004",
+    "title": "Contemporary selection pressures in modern societies? Which factors best explain variance in human reproduction and mating?",
+    "year": 2021,
+    "doi": "10.1016/j.evolhumbehav.2021.08.001",
+    "authors": "Martin Fieder; Susanne Huber",
+    "venue": "Evolution and Human Behavior",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "review",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "Variance in human reproduction and mating in modern (contemporary selection-pressure) societies",
+    "treatment": "n/a",
+    "reason": "Title directly asks which evolutionary factors best explain variance in reproduction versus mating in modern societies, matching the proximate/ultimate dissociation estimand; abstract empty but title is unambiguous."
+  },
+  {
+    "paperId": "W3124469204",
+    "title": "Creativity, Mating, and Reproductive Successes Outside the WEIRD World",
+    "year": 2021,
+    "doi": "10.1080/10400419.2020.1870816",
+    "authors": "Izabela Lebuda; Piotr Sorokowski; Agata Groyecka-Bernard; Michalina Marczak; Aleksandra Gajda; Dorota Maria Jankowska; Maciej Karwowski",
+    "venue": "Creativity Research Journal",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "no",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "number of spouses (mating outcome) vs number of offspring (reproductive outcome)",
+    "treatment": "creativity (mating-effort proxy)",
+    "reason": "Tests whether creativity's effect on reproductive success is mediated by mating success in a natural-fertility-control (non-contracepting) population, a mating-vs-reproduction dissociation design contrasted with WEIRD populations."
+  },
+  {
+    "paperId": "W3189023842",
+    "title": "Is Reproductive Orientation Associated with Sexual Satisfaction Among Partnered U.S. Women?",
+    "year": 2021,
+    "doi": "10.1007/s10508-021-01984-z",
+    "authors": "Karina M. Shreffler; Larry Gibbs; Stacy Tiemeyer; Julia McQuillan; Arthur L. Greil",
+    "venue": "Archives of Sexual Behavior",
+    "verdict": "RELEVANT",
+    "cell": "MOTIVATION_DISTINCTNESS",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "sexual satisfaction",
+    "treatment": "reproductive orientation (desire for children)",
+    "reason": "Title directly examines the relationship between reproductive orientation and sexual satisfaction, bearing on the distinctness of reproductive vs. sexual motivation."
+  },
+  {
+    "paperId": "W3191001840",
+    "title": "Long-term mating positively predicts both reproductive fitness and parental investment",
+    "year": 2021,
+    "doi": "10.1017/s0021932021000407",
+    "authors": "Janko Međedović",
+    "venue": "Journal of Biosocial Science",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "no",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "reproductive fitness (offspring/grand-offspring number) and parental investment",
+    "treatment": "long-term vs short-term mating effort (partner duration, number of sexual partners)",
+    "reason": "Tests whether an evolutionary predictor of reproduction (mating effort) still predicts realized reproductive success in a modern post-industrial (contraception-available) population."
+  },
+  {
+    "paperId": "W3169288680",
+    "title": "Predictor Variables of Childbearing Motivations in Brazilian Women and Men",
+    "year": 2021,
+    "doi": "10.1590/1982-4327e3112",
+    "authors": "Giuliana Violeta Vásquez Varas; Juliane Callegaro Borsa",
+    "venue": "Paidéia (Ribeirão Preto)",
+    "verdict": "RELEVANT",
+    "cell": "MOTIVATION_DISTINCTNESS",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "no",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "positive/negative childbearing motivation (PCM/NCM)",
+    "treatment": "n/a",
+    "reason": "Examines psychological/sociodemographic predictors of childbearing motivation, the desire-for-children construct central to motivation-distinctness work."
+  },
+  {
+    "paperId": "W4313047577",
+    "title": "Warren Miller y el Modelo T-D-I-B de toma de decisiones reproductivas: Una revisión teórica",
+    "year": 2021,
+    "doi": "10.34019/1982-1247.2022.v16.31757",
+    "authors": "Giuliana Violeta Vásquez Varas; Juliane Callegaro Borsa",
+    "venue": "Revista Psicologia em Pesquisa",
+    "verdict": "RELEVANT",
+    "cell": "MOTIVATION_DISTINCTNESS",
+    "evidence_type": "review",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "reproductive decision-making (traits-desires-intentions-behaviors)",
+    "treatment": "n/a",
+    "reason": "Theoretical review of Warren Miller's T-D-I-B model of reproductive decisions, a childbearing-motivation/desire-for-children framework bearing on motivation distinctness."
+  },
+  {
+    "paperId": "W3136660395",
+    "title": "Childbearing Motivation Questionnaire",
+    "year": 2020,
+    "doi": "10.15448/1980-8623.2020.4.36089",
+    "authors": "Giuliana Violeta Vásquez Varas; Juliane Callegaro Borsa",
+    "venue": "Psico",
+    "verdict": "RELEVANT",
+    "cell": "MOTIVATION_DISTINCTNESS",
+    "evidence_type": "other",
+    "holds_child_preference_fixed": "no",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "positive/negative childbearing motivation (psychometric)",
+    "treatment": "n/a",
+    "reason": "Validates a childbearing-motivation questionnaire distinguishing positive/negative motives for children, bearing on the distinctness of reproductive motivation."
+  },
+  {
+    "paperId": "W3008004256",
+    "title": "Effects of wife’s and husband’s income on wife’s reproduction: an evolutionary perspective on human mating",
+    "year": 2020,
+    "doi": "10.1080/19485565.2019.1689351",
+    "authors": "Martin Fieder; Susanne Huber",
+    "venue": "Biodemography and Social Biology",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "no",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "wife's number of children / probability of childlessness",
+    "treatment": "wife's and husband's income (status/wealth proxy)",
+    "reason": "Tests the evolutionary prediction that status/wealth predicts reproduction using modern cross-country census data, a proximate-vs-ultimate dissociation test in a contraception-available era."
+  },
+  {
+    "paperId": "W4288083533",
+    "title": "Is male dimorphism under sexual selection in humans? A meta-analysis",
+    "year": 2020,
+    "doi": "10.1101/2020.03.06.980896",
+    "authors": "Linda H. Lidborg; Catharine Cross; Lynda G. Boothroyd",
+    "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "mating success vs. reproductive/offspring outcomes",
+    "treatment": "masculine traits (voice pitch, height, testosterone, strength/muscularity)",
+    "reason": "Meta-analyzes whether evolutionarily-favored masculine traits predict mating success separately from reproductive/offspring outcomes, a mating-vs-reproduction dissociation test."
+  },
+  {
+    "paperId": "W3040752503",
+    "title": "Is male dimorphism under sexual selection in humans? A meta-analysis",
+    "year": 2020,
+    "doi": "10.17605/osf.io/phc4x",
+    "authors": "Linda H. Lidborg; Lynda G. Boothroyd",
+    "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "no",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "mating outcomes vs reproductive/offspring viability outcomes",
+    "treatment": "masculine traits (voice pitch, height, digit ratio, testosterone, strength)",
+    "reason": "Meta-analysis of evolutionary predictors distinguishing mating success from reproductive outcomes."
+  },
+  {
+    "paperId": "W2911359109",
+    "title": "Career and Family Decisions: Cohorts Born 1935-1975",
+    "year": 2019,
+    "doi": "10.3982/ecta14474",
+    "authors": "Zvi Eckstein; Michael P. Keane; Osnat Lifshitz",
+    "venue": "Econometrica",
+    "verdict": "RELEVANT",
+    "cell": "PRIMARY_DESIRE_INDEPENDENCE",
+    "evidence_type": "structural",
+    "holds_child_preference_fixed": "yes",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "fertility, marriage, employment across cohorts",
+    "treatment": "contraception technology (one of four exogenous factors)",
+    "reason": "Life-cycle structural model explicitly assumes fixed preferences and quantifies contraception technology's independent contribution to fertility/marriage changes across cohorts."
+  },
+  {
+    "paperId": "W2967777227",
+    "title": "Fertility Desires of Childless Poles: Which Childbearing Motives Matter for Men and Women?",
+    "year": 2019,
+    "doi": "10.1177/0192513x19868257",
+    "authors": "Monika Mynarska; Jolanta Rytel",
+    "venue": "Journal of Family Issues",
+    "verdict": "RELEVANT",
+    "cell": "MOTIVATION_DISTINCTNESS",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "no",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "fertility desire among childless adults",
+    "treatment": "childbearing motives",
+    "reason": "Direct study of childbearing-motivation determinants of the desire for children among childless Poles, matching the motivation-distinctness estimand."
+  },
+  {
+    "paperId": "W2883642277",
+    "title": "Childbearing Motivations and Desires, Fertility Beliefs, and Contraceptive Use among Urban African-American Adolescents and Young Adults with STI Histories",
+    "year": 2018,
+    "doi": "10.1007/s11524-018-0282-2",
+    "authors": "Kamila A. Alexander; Nancy Perrin; Jacky M. Jennings; Jonathan M. Ellen; Maria Trent",
+    "venue": "Journal of Urban Health",
+    "verdict": "RELEVANT",
+    "cell": "MOTIVATION_DISTINCTNESS",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "childbearing motivations/desires and contraceptive use",
+    "treatment": "n/a",
+    "reason": "Title explicitly studies childbearing motivations and desires alongside contraceptive use, matching the motivation-distinctness construct."
+  },
+  {
+    "paperId": "W2791607709",
+    "title": "IS FERTILITY AFTER THE DEMOGRAPHIC TRANSITION MALADAPTIVE?",
+    "year": 2018,
+    "doi": "10.1017/s0021932018000032",
+    "authors": "Rosemary L. Hopcroft",
+    "venue": "Journal of Biosocial Science",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "completed fertility post-demographic-transition",
+    "treatment": "status/wealth (sex-specific)",
+    "reason": "Tests whether status/wealth predicts fertility differently by sex after the demographic transition, an evolutionary-predictor-vs-fertility-outcome analysis."
+  },
+  {
+    "paperId": "W2859705526",
+    "title": "Number of Childbearing Partners, Status, and the Fertility of Men and Women in the U.S.",
+    "year": 2018,
+    "doi": "10.3389/fsoc.2018.00022",
+    "authors": "Rosemary L. Hopcroft",
+    "venue": "Frontiers in Sociology",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "number of childbearing partners and fertility",
+    "treatment": "socioeconomic status/income/net worth",
+    "reason": "Tests the evolutionary prediction that status/resources differentially predict mating (childbearing partners) versus realized fertility for men and women in the contemporary U.S., a Perusse-type proximate/ultimate dissociation test."
+  },
+  {
+    "paperId": "W2752280684",
+    "title": "Sex Differences in the Effects of Personal Resources, Family Resources, and Multiple Partners on Fertility",
+    "year": 2017,
+    "doi": "10.2139/ssrn.3014146",
+    "authors": "Rosemary L. Hopcroft",
+    "venue": "SSRN Electronic Journal",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "fertility",
+    "treatment": "personal resources, family resources, multiple partners",
+    "reason": "Title indicates a sex-differentiated test of evolutionary predictors (resources, mating effort proxied by multiple partners) on fertility, matching the Perusse-type dissociation design even without an abstract."
+  },
+  {
+    "paperId": "W2744471961",
+    "title": "The Power of Abortion Policy: Reexamining the Effects of Young Women’s Access to Reproductive Control",
+    "year": 2017,
+    "doi": "10.1086/694293",
+    "authors": "Caitlin Knowles Myers",
+    "venue": "Journal of Political Economy",
+    "verdict": "RELEVANT",
+    "cell": "PRIMARY_DECOUPLING",
+    "evidence_type": "quasi-experimental",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "sexual behavior vs family formation (marriage/motherhood timing)",
+    "treatment": "pill and abortion policy access",
+    "reason": "Diff-in-diff shows pill access raised sexual activity without a corresponding change in family formation, testing dissociation of sex from reproductive/family outcomes."
+  },
+  {
+    "paperId": "W2270535203",
+    "title": "An implicit ambivalence-indifference dimension of childbearing desires in the National Survey of Family Growth",
+    "year": 2016,
+    "doi": "10.4054/demres.2016.34.7",
+    "authors": "Warren B. Miller; Jo Jones; David J. Pasta",
+    "venue": "Demographic Research",
+    "verdict": "RELEVANT",
+    "cell": "MOTIVATION_DISTINCTNESS",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "implicit ambivalence-indifference in childbearing desire",
+    "treatment": "n/a",
+    "reason": "Directly measures the desire-for-children construct (ambivalence/indifference dimension), matching the childbearing-motivation cell."
+  },
+  {
+    "paperId": "W2507848855",
+    "title": "Men’s status and reproductive success in 33 nonindustrial societies: Effects of subsistence, marriage system, and reproductive strategy",
+    "year": 2016,
+    "doi": "10.1073/pnas.1606800113",
+    "authors": "Christopher von Rueden; Adrian V. Jaeggi",
+    "venue": "Proceedings of the National Academy of Sciences",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "review",
+    "holds_child_preference_fixed": "no",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "reproductive success (mating success, fertility, offspring mortality)",
+    "treatment": "male status/wealth/mating effort",
+    "reason": "Meta-analysis testing an evolutionary status predictor against mating-success versus reproductive-success outcomes, the classic proximate-ultimate dissociation design."
+  },
+  {
+    "paperId": "W2569471003",
+    "title": "Relationship of motivation for motherhood with some sociodemographic variables and gender identity",
+    "year": 2016,
+    "doi": "10.5937/psistra1602127v",
+    "authors": "Georgije Vuletić; Teodora Vuletić",
+    "venue": "Psiholoska istrazivanja",
+    "verdict": "RELEVANT",
+    "cell": "MOTIVATION_DISTINCTNESS",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "Motivation for motherhood and its sociodemographic/gender-identity correlates",
+    "treatment": "n/a",
+    "reason": "Desire-for-children/childbearing-motivation survey work bearing on reproductive motivation as a psychological construct."
+  },
+  {
+    "paperId": "W2520541949",
+    "title": "The effects of resource availability and the demographic transition on the genetic correlation between number of children and grandchildren in humans",
+    "year": 2016,
+    "doi": "10.1038/hdy.2016.81",
+    "authors": "Elisabeth Bolund; Virpi Lummaa",
+    "venue": "Heredity",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "quasi-experimental",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "genetic correlation between children and grandchildren counts",
+    "treatment": "resource availability and demographic transition (pre/post contraception)",
+    "reason": "Title indicates a test of whether genetic control of fertility persists across the demographic transition, a classic evolutionary predictor-vs-realized-fertility dissociation design, even though the abstract is missing."
+  },
+  {
+    "paperId": "W2307439586",
+    "title": "The evolved psychological mechanisms of fertility motivation: hunting for causation in a sea of correlation",
+    "year": 2016,
+    "doi": "10.1098/rstb.2015.0151",
+    "authors": "Lisa McAllister; Gillian Pepper; Sandra Virgo; David A. Coall",
+    "venue": "Philosophical Transactions of the Royal Society B Biological Sciences",
+    "verdict": "RELEVANT",
+    "cell": "MOTIVATION_DISTINCTNESS",
+    "evidence_type": "review",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "psychological mechanisms of fertility motivation",
+    "treatment": "n/a",
+    "reason": "Reviews the psychological mechanisms underlying human fertility motivation and decisions, directly bearing on whether reproductive motivation is a distinct psychological construct."
+  },
+  {
+    "paperId": "W1883333499",
+    "title": "Assessment of the Relationship Between the Use of Birth Control Pill and the Characteristics of Mate Selection",
+    "year": 2014,
+    "doi": "10.1111/jsm.12566",
+    "authors": "Alessio Gori; Marco Giannini; Giuseppe Craparo; Vincenzo Caretti; Ilaria Nannini; Renee Madathil; David Schuldberg",
+    "venue": "The Journal of Sexual Medicine",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "mate-selection masculinity preference (cycle-linked)",
+    "treatment": "birth control pill use",
+    "reason": "Compares pill users vs. non-users on cycle-linked mate-preference indicators, a dissociation test of contraception's effect on an evolved mating-psychology predictor."
+  },
+  {
+    "paperId": "W2134830579",
+    "title": "Childbearing motivational patterns of primiparous women of advanced age and their partners",
+    "year": 2014,
+    "doi": "10.1080/02646838.2014.910866",
+    "authors": "Maryse Guedes; María Cristina Canavarro",
+    "venue": "Journal of Reproductive and Infant Psychology",
+    "verdict": "RELEVANT",
+    "cell": "MOTIVATION_DISTINCTNESS",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "childbearing motivation patterns (positive/negative)",
+    "treatment": "n/a",
+    "reason": "Uses a Childbearing Motivations Scale to characterize distinct reproductive-motivation patterns, directly bearing on the desire-for-children construct."
+  },
+  {
+    "paperId": "W2109548976",
+    "title": "Ecological variation in wealth–fertility relationships in Mongolia: the ‘central theoretical problem of sociobiology’ not a problem after all?",
+    "year": 2014,
+    "doi": "10.1098/rspb.2014.1733",
+    "authors": "Alexandra Alvergne; Virpi Lummaa",
+    "venue": "Proceedings of the Royal Society B Biological Sciences",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "fertility and reproductive fitness",
+    "treatment": "wealth / market integration",
+    "reason": "Tests the wealth-fertility relationship in Mongolia as a sociobiological dissociation problem, finding selection favors status enhancement over fertility maximization -- a Perusse-type proximate/ultimate test."
+  },
+  {
+    "paperId": "W2189488620",
+    "title": "Innovations and Implications of Life Style Drugs in an Aging Population 1",
+    "year": 2014,
+    "doi": null,
+    "authors": "Jacob LaRiviere",
+    "venue": null,
+    "verdict": "RELEVANT",
+    "cell": "PRIMARY_DECOUPLING",
+    "evidence_type": "quasi-experimental",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "natality and other demographic outcomes",
+    "treatment": "Viagra introduction (sexual-activity-enabling drug)",
+    "reason": "Uses Viagra's introduction as a natural experiment testing whether an exogenous increase in sexual-activity capability affects natality, finding dissociation between the sex-enabling treatment and fertility."
+  },
+  {
+    "paperId": "W1545249723",
+    "title": "Pomiar motywacji do posiadania dzieci wśród osób bezdzietnych. Polska adaptacja Kwestionariusza Motywów Rodzicielskich",
+    "year": 2014,
+    "doi": null,
+    "authors": "Monika Mynarska; Jolanta Rytel",
+    "venue": "Polskie Forum Psychologiczne",
+    "verdict": "RELEVANT",
+    "cell": "MOTIVATION_DISTINCTNESS",
+    "evidence_type": "other",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "Motivation to have children (parental motives) among childless adults",
+    "treatment": "n/a",
+    "reason": "Psychometric adaptation of a Parental Motives Questionnaire measuring desire-for-children as a distinct construct."
+  },
+  {
+    "paperId": "W1966706839",
+    "title": "Sex differences in the relationship between status and number of offspring in the contemporary U.S.",
+    "year": 2014,
+    "doi": "10.1016/j.evolhumbehav.2014.10.003",
+    "authors": "Rosemary L. Hopcroft",
+    "venue": "Evolution and Human Behavior",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "number of offspring",
+    "treatment": "status",
+    "reason": "Empty abstract but title is a direct status-vs-offspring-number sex-differences study in the contemporary (post-contraception) US, matching the Perusse-type proximate/ultimate dissociation estimand."
+  },
+  {
+    "paperId": "W2064173477",
+    "title": "THE POWER OF THE LITTLE BLUE PILL: INNOVATIONS AND IMPLICATIONS OF LIFESTYLE DRUGS IN AN AGING POPULATION",
+    "year": 2014,
+    "doi": "10.1111/ecin.12147",
+    "authors": "Jacob LaRiviere; Hendrik Wolff",
+    "venue": "Economic Inquiry",
+    "verdict": "RELEVANT",
+    "cell": "PRIMARY_DECOUPLING",
+    "evidence_type": "quasi-experimental",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "natality and other population outcomes",
+    "treatment": "Viagra introduction (change in capacity/frequency for sexual activity)",
+    "reason": "Natural experiment testing whether an exogenous change in a determinant of sexual activity (Viagra availability) shifts natality, finding no significant natality effect -- a direct test of the sex-reproduction dissociation."
+  },
+  {
+    "paperId": "W2049035283",
+    "title": "Trends in Ages at Key Reproductive Transitions in the United States, 1951–2010",
+    "year": 2014,
+    "doi": "10.1016/j.whi.2014.02.002",
+    "authors": "Lawrence B. Finer; Jesse Philbin",
+    "venue": "Women s Health Issues",
+    "verdict": "RELEVANT",
+    "cell": "PRIMARY_DECOUPLING",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "widening interval between age at first sex and age at first birth",
+    "treatment": "contraceptive use following sexual debut",
+    "reason": "Documents a lengthening gap between first sex and first childbearing attributable to contraceptive use, a direct empirical decoupling metric."
+  },
+  {
+    "paperId": "W2112724428",
+    "title": "An evolutionary approach to change of status–fertility relationship in human fertility transition",
+    "year": 2013,
+    "doi": "10.1093/beheco/art091",
+    "authors": "Jianghua Liu; Virpi Lummaa",
+    "venue": "Behavioral Ecology",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "marriage chance/timing and lifetime fertility",
+    "treatment": "male socioeconomic status",
+    "reason": "Life-history records spanning the Finnish fertility transition testing how status-related differentials in marriage/mating relate to differentials in lifetime fertility, a Perusse-type proximate-ultimate dissociation test."
+  },
+  {
+    "paperId": "W207698877",
+    "title": "Can technological change account for the sexual revolution",
+    "year": 2013,
+    "doi": null,
+    "authors": "John Kennes; John Knowles",
+    "venue": "ePrints Soton (University of Southampton)",
+    "verdict": "RELEVANT",
+    "cell": "PRIMARY_DECOUPLING",
+    "evidence_type": "structural",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "marriage and birth-rate declines via the sexual revolution",
+    "treatment": "contraceptive/abortion access liberalization",
+    "reason": "Structural model in which better contraception severs sex from unwanted-parenthood risk, driving the sexual revolution and explaining marriage/birth-rate decline."
+  },
+  {
+    "paperId": "W2060394766",
+    "title": "Childbearing Motivations Scale: Construction of a New Measure and its Preliminary Psychometric Properties",
+    "year": 2013,
+    "doi": "10.1007/s10826-013-9824-0",
+    "authors": "Maryse Guedes; Marco Pereira; Raquel Pires; Paula Saraiva Carvalho; María Cristina Canavarro",
+    "venue": "Journal of Child and Family Studies",
+    "verdict": "RELEVANT",
+    "cell": "MOTIVATION_DISTINCTNESS",
+    "evidence_type": "other",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "childbearing motivation construct",
+    "treatment": "n/a",
+    "reason": "Construction/validation of a Childbearing Motivations Scale, directly bearing on measuring reproductive motivation as a distinct psychological construct."
+  },
+  {
+    "paperId": "W2002775668",
+    "title": "Desenvolvimento e Validação Factorial da Escala de Motivos face à Parentalidade",
+    "year": 2013,
+    "doi": "10.1590/1982-43272354201303",
+    "authors": "Marisa Matias; Anne Marie Fontaine",
+    "venue": "Paidéia (Ribeirão Preto)",
+    "verdict": "RELEVANT",
+    "cell": "MOTIVATION_DISTINCTNESS",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "motives/desire for parenthood (scale)",
+    "treatment": "n/a",
+    "reason": "develops and validates a factorial scale of motives for having children, i.e. desire-for-children/childbearing-motivation instrument work"
+  },
+  {
+    "paperId": "W2147825262",
+    "title": "Baby longing and men’s reproductive motivation",
+    "year": 2012,
+    "doi": "10.1553/populationyearbook2011s283",
+    "authors": "Anna Rotkirch",
+    "venue": "Vienna Yearbook of Population Research",
+    "verdict": "RELEVANT",
+    "cell": "MOTIVATION_DISTINCTNESS",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "baby longing / reproductive motivation intensity by sex",
+    "treatment": "n/a",
+    "reason": "Directly measures childbearing-motivation ('baby longing') as a distinct psychological construct and its demographic effects, core to the motivation-distinctness cell."
+  },
+  {
+    "paperId": "W2070189763",
+    "title": "Childlessness drives the sex difference in the association between income and reproductive success of modern Europeans",
+    "year": 2012,
+    "doi": "10.1016/j.evolhumbehav.2012.03.003",
+    "authors": "Julia A. Barthold; Mikko Myrskylä; Owen R. Jones",
+    "venue": "Evolution and Human Behavior",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "reproductive success, moderated by childlessness",
+    "treatment": "income (status/wealth)",
+    "reason": "Tests income-reproductive success association in modern (contracepting) Europeans with childlessness as key driver, a Pérusse-type dissociation test."
+  },
+  {
+    "paperId": "W2133919918",
+    "title": "Facial attractiveness and fertility in populations with low levels of modern birth control",
+    "year": 2012,
+    "doi": "10.1016/j.evolhumbehav.2012.01.002",
+    "authors": "Antonio S. Silva; Virpi Lummaa; Ulrich Müller; Michel Raymond; Alexandra Alvergne",
+    "venue": "Evolution and Human Behavior",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "fertility in populations with low modern birth-control use",
+    "treatment": "facial attractiveness (mating cue)",
+    "reason": "Tests an evolutionary mating-attractiveness predictor against realized fertility specifically in populations with low modern contraceptive prevalence, the classic pre-contraception baseline for a proximate/ultimate dissociation test."
+  },
+  {
+    "paperId": "W2117546824",
+    "title": "Natural and sexual selection in a monogamous historical human population",
+    "year": 2012,
+    "doi": "10.1073/pnas.1118174109",
+    "authors": "Alexandre Courtiol; Jenni E. Pettay; Markus Jokela; Anna Rotkirch; Virpi Lummaa",
+    "venue": "Proceedings of the National Academy of Sciences",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "no",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "mating success vs reproductive success (selection differentials)",
+    "treatment": "wealth (variance in mating success)",
+    "reason": "Decomposes natural vs sexual selection into mating-success and reproductive-success components in a historical monogamous population, an evolutionary-predictor/sexual-vs-reproductive-outcome test."
+  },
+  {
+    "paperId": "W2070206307",
+    "title": "Childbearing motivations, pregnancy desires, and perceived partner response to a pregnancy among urban female youth: does HIV-infection status make a difference?",
+    "year": 2011,
+    "doi": "10.1080/09540121.2011.596514",
+    "authors": "Sarah Finocchario‐Kessler; Michael Sweat; Jacinda K. Dariotis; Jean Anderson; Jacky M. Jennings; Jean Keller; Amita A. Vyas; Maria Trent",
+    "venue": "AIDS Care",
+    "verdict": "RELEVANT",
+    "cell": "MOTIVATION_DISTINCTNESS",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "Childbearing motivations and pregnancy desire",
+    "treatment": "HIV-infection status",
+    "reason": "Childbearing-motivation/pregnancy-desire survey work bearing on reproductive motivation as a distinct construct."
+  },
+  {
+    "paperId": "W2113608106",
+    "title": "Early History of Oral Contraceptive Pill in Finland: The Diffusion of the New Contraceptive and Fertility Patterns",
+    "year": 2011,
+    "doi": "10.23979/fypr.45065",
+    "authors": "Aura Pasila",
+    "venue": "Finnish Yearbook of Population Research",
+    "verdict": "RELEVANT",
+    "cell": "PRIMARY_DECOUPLING",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "fertility patterns/decline",
+    "treatment": "diffusion of the oral contraceptive pill",
+    "reason": "Directly examines whether pill diffusion coincided with/caused Finland's fertility decline, though causal connection explicitly not established."
+  },
+  {
+    "paperId": "W2121104936",
+    "title": "Emotional regulation of fertility decision making: What is the nature and structure of “baby fever”?",
+    "year": 2011,
+    "doi": "10.1037/a0024954",
+    "authors": "Gary L. Brase; Sandra L. Brase",
+    "venue": "Emotion",
+    "verdict": "RELEVANT",
+    "cell": "MOTIVATION_DISTINCTNESS",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "no",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "desire for a baby (\"baby fever\") vs. general sexual desire",
+    "treatment": "n/a",
+    "reason": "Empirically distinguishes desire for a child from general sexual desire, evidencing distinctness of reproductive vs. sexual motivation."
+  },
+  {
+    "paperId": "W2110080372",
+    "title": "Physical attractiveness influences reproductive success of modern men",
+    "year": 2011,
+    "doi": "10.1007/s10164-011-0274-0",
+    "authors": "Pavol Prokop; Peter Fedor",
+    "venue": "Journal of Ethology",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "reproductive success",
+    "treatment": "physical attractiveness",
+    "reason": "Title reports attractiveness predicting reproductive success in modern (post-contraception) men, a Perusse-type dissociation test."
+  },
+  {
+    "paperId": "W2202116867",
+    "title": "The Impact of Emergency Contraception on Dating and Marriage",
+    "year": 2011,
+    "doi": null,
+    "authors": "Andrew Zuppann",
+    "venue": "RePEc: Research Papers in Economics",
+    "verdict": "RELEVANT",
+    "cell": "PRIMARY_DECOUPLING",
+    "evidence_type": "quasi-experimental",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "premarital sexual activity, STI rates, marriage timing, birth/single-motherhood rates",
+    "treatment": "OTC access to emergency contraception (state policy natural experiment)",
+    "reason": "Models and tests how improved contraceptive access severs pregnancy risk from sexual activity, increasing sex/STIs while shifting marriage and birth outcomes -- the decoupling mechanism itself."
+  },
+  {
+    "paperId": "W2152913572",
+    "title": "Serial monogamy increases reproductive success in men but not in women",
+    "year": 2010,
+    "doi": "10.1093/beheco/arq078",
+    "authors": "Markus Jokela; Anna Rotkirch; Ian J. Rickard; Jenni E. Pettay; Virpi Lummaa",
+    "venue": "Behavioral Ecology",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "no",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "number of offspring (reproductive success)",
+    "treatment": "number of spouses (mating success)",
+    "reason": "Tests whether mating success (spouse turnover) translates into reproductive success in a modern contracepting US population, a Pérusse-type dissociation test."
+  },
+  {
+    "paperId": "W1978998822",
+    "title": "Socioeconomic status, education, and reproduction in modern women: An evolutionary perspective",
+    "year": 2010,
+    "doi": "10.1002/ajhb.21048",
+    "authors": "Susanne Huber; Fred L. Bookstein; Martin Fieder",
+    "venue": "American Journal of Human Biology",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "reproductive output (number of children)",
+    "treatment": "socioeconomic status / education / income",
+    "reason": "Tests evolutionary predictors of fertility against modern reproductive output, framed explicitly as an evolutionary account of the demographic-transition mismatch."
+  },
+  {
+    "paperId": "W2157459463",
+    "title": "The Contraceptive Revolution and the Second Demographic Transition: An Economic Model of Sex, Fertility, and Marriage",
+    "year": 2010,
+    "doi": null,
+    "authors": "Joseph Burke; Michael Pakaluk",
+    "venue": "RePEc: Research Papers in Economics",
+    "verdict": "RELEVANT",
+    "cell": "PRIMARY_DECOUPLING",
+    "evidence_type": "structural",
+    "holds_child_preference_fixed": "no",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "sexual activity and fertility (ambiguous effect), plus marriage/divorce rates",
+    "treatment": "increase in contraceptive efficacy",
+    "reason": "Structural economic model in which higher contraceptive efficacy raises sexual activity but has ambiguous effects on realized fertility, directly modeling the sex-reproduction decoupling behind the Second Demographic Transition."
+  },
+  {
+    "paperId": "W1994304248",
+    "title": "Low fertility in contemporary humans and the mate value of their children: sex-specific effects on social status indicators",
+    "year": 2009,
+    "doi": "10.1016/j.evolhumbehav.2009.07.007",
+    "authors": "Ralf Kaptijn; Fleur Thomése; T.G. van Tilburg; Aart C. Liefbroer; Dorly J. H. Deeg",
+    "venue": "Evolution and Human Behavior",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "fertility (sex-specific dissociation)",
+    "treatment": "social status/mate value",
+    "reason": "Title indicates an evolutionary dissociation test between status/mate-value and realized fertility in contemporary low-fertility humans (Perusse-type proximate-ultimate test); abstract absent."
+  },
+  {
+    "paperId": "W2142274576",
+    "title": "Social and biological determinants of reproductive success in Swedish males and females born 1915–1929",
+    "year": 2009,
+    "doi": "10.1016/j.evolhumbehav.2009.03.007",
+    "authors": "Anna Goodman; Ilona Koupil",
+    "venue": "Evolution and Human Behavior",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "no",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "reproductive success",
+    "treatment": "social and biological status factors",
+    "reason": "Examines social and biological determinants of reproductive success in a Swedish cohort spanning the contraceptive era, fitting the proximate/ultimate dissociation genre."
+  },
+  {
+    "paperId": "W2092413559",
+    "title": "Fertility trends by social status",
+    "year": 2008,
+    "doi": "10.4054/demres.2008.18.5",
+    "authors": "Vegard Skirbekk",
+    "venue": "Demographic Research",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "review",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "fertility trends across centuries and regions",
+    "treatment": "social status/wealth",
+    "reason": "Reviews the status-fertility relationship across centuries and regions, the classic evolutionary-predictor-vs-realized-fertility dissociation test central to the pre/post-contraception decoupling literature."
+  },
+  {
+    "paperId": "W2043680014",
+    "title": "The measurement of childbearing motivation in couples considering the use of assisted reproductive technology",
+    "year": 2008,
+    "doi": "10.1080/19485565.2008.9989129",
+    "authors": "Warren B. Miller; Susan G. Millstein; David J. Pasta",
+    "venue": "Biodemography and Social Biology",
+    "verdict": "RELEVANT",
+    "cell": "MOTIVATION_DISTINCTNESS",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "childbearing motivation subscales (desire for parenthood, genetic relatedness, pregnancy experience)",
+    "treatment": "n/a",
+    "reason": "Psychometric decomposition of childbearing/desire-for-children motivation among ART-seeking couples, matching the rubric's explicit desire-for-children-work example under motivation distinctness."
+  },
+  {
+    "paperId": "W2160075105",
+    "title": "All that she wants is a(nother) baby’? Longing for children as a fertility incentive of growing importance",
+    "year": 2007,
+    "doi": "10.1556/jep.2007.1010",
+    "authors": "Anna Rotkirch",
+    "venue": "Journal of Evolutionary Psychology",
+    "verdict": "RELEVANT",
+    "cell": "MOTIVATION_DISTINCTNESS",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "no",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "evolved desire/longing for children",
+    "treatment": "n/a",
+    "reason": "Directly examines whether an evolved desire for children exists and how it differs from mate-selection/hormonal drives, bearing on reproductive-vs-sexual motivation distinctness."
+  },
+  {
+    "paperId": "W2113366338",
+    "title": "Demographic effects of the introduction of steroid contraception in developed countries",
+    "year": 2006,
+    "doi": "10.1093/humupd/dml025",
+    "authors": "Henri Léridon",
+    "venue": "Human Reproduction Update",
+    "verdict": "RELEVANT",
+    "cell": "PRIMARY_DECOUPLING",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "fertility trend/decline across developed countries",
+    "treatment": "introduction/diffusion of steroid (pill) contraception",
+    "reason": "Directly tests the causal link between pill diffusion and fertility decline at the country level, finding no systematic correlation and attributing effects mainly to reduced unwanted pregnancies and norm change."
+  },
+  {
+    "paperId": "W2146190914",
+    "title": "An  Empirical Test of a Possible Solution to “the Central Theoretical Problem of Human Sociobiology”",
+    "year": 2005,
+    "doi": "10.1556/jcep.3.2005.3-4.3",
+    "authors": "Satoshi Kanazawa",
+    "venue": "Journal of Cultural and Evolutionary Psychology",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "yes",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "strength of sexual-activity-to-reproduction link (dissociation)",
+    "treatment": "intelligence / ability to use evolutionarily novel modern contraception",
+    "reason": "Tests Kanazawa's hypothesis that modern contraception decouples sexual activity from reproduction more strongly among the more intelligent, while explicitly finding no class/intelligence difference in desired number of children (GSS data)."
+  },
+  {
+    "paperId": "W2149316138",
+    "title": "Money and Sex, The Illusory Universal Sex Difference: Comment on Kanazawa",
+    "year": 2005,
+    "doi": "10.1111/j.1533-8525.2005.00033.x",
+    "authors": "Thomas W. Volscho",
+    "venue": "Sociological Quarterly",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "number of sex partners / coital frequency",
+    "treatment": "male income/status",
+    "reason": "Re-examines Kanazawa's Perusse-type evolutionary test of income/status predicting sexual (copulatory) behavior rather than reproduction."
+  },
+  {
+    "paperId": "W2164643379",
+    "title": "Status and Reproduction in Humans: New Evidence for the Validity of Evolutionary Explanations on Basis of a University Sample",
+    "year": 2005,
+    "doi": "10.1111/j.1439-0310.2005.01129.x",
+    "authors": "Martin Fieder; Susanne Huber; Fred L. Bookstein; Karoline Iber; Katrin Schäfer; Georg Winckler; Bernard Wallner",
+    "venue": "Ethology",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "no",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "offspring count (reproductive success)",
+    "treatment": "status/position in institutional hierarchy",
+    "reason": "Tests the Pérusse-type dissociation of status from reproductive success in a modern (contraception-available) sample versus traditional societies."
+  },
+  {
+    "paperId": "W4242064462",
+    "title": "CAN EVOLUTIONARY PSYCHOLOGY EXPLAIN REPRODUCTIVE BEHAVIOR IN THE CONTEMPORARY UNITED STATES?",
+    "year": 2003,
+    "doi": "10.1525/tsq.2003.44.2.291",
+    "authors": "Satoshi Kanazawa",
+    "venue": "Sociological Quarterly",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "sex partners/coital frequency vs completed fertility",
+    "treatment": "male wealth/status (evolutionary predictor)",
+    "reason": "Replicates Perusse-type dissociation: wealthy men have more sex partners/coital frequency but not more children given contraception."
+  },
+  {
+    "paperId": "W1995884647",
+    "title": "Succès social et succès reproductif dans les sociétés modernes : une analyse sociobiologique",
+    "year": 2003,
+    "doi": "10.7202/015043ar",
+    "authors": "Daniel Pérusse",
+    "venue": "Anthropologie et Sociétés",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "review",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "backward_reference"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "reproductive success",
+    "treatment": "social success/status",
+    "reason": "Sociobiological theoretical model and literature review testing whether social success still predicts reproductive success in modern societies."
+  },
+  {
+    "paperId": "W1977273192",
+    "title": "The Motivational Substrate of Unintended and Unwanted Pregnancy1",
+    "year": 2002,
+    "doi": "10.1111/j.1751-9861.2002.tb00073.x",
+    "authors": "Warren B. Miller; David J. Pasta",
+    "venue": "Journal of Applied Biobehavioral Research",
+    "verdict": "RELEVANT",
+    "cell": "MOTIVATION_DISTINCTNESS",
+    "evidence_type": "structural",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "contraceptive-use regularity and pregnancy wantedness",
+    "treatment": "biologically based childbearing-motivation substrate",
+    "reason": "Models a biologically based childbearing-motivation substrate, conscious and unconscious, driving contraceptive behavior and pregnancy wantedness — bears on the distinctness of reproductive motivation."
+  },
+  {
+    "paperId": "W1975944792",
+    "title": "Reproductive and Contraceptive Attitudes as Predictors of Condom Use Among Women in an HIV Prevention Intervention",
+    "year": 2001,
+    "doi": "10.1300/j013v33n03_08",
+    "authors": "Rebecca J. Cabral; Christine Galavotti; Kay Armstrong; Brian Morrow; Linda Fogarty",
+    "venue": "Women & Health",
+    "verdict": "RELEVANT",
+    "cell": "MOTIVATION_DISTINCTNESS",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "no",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "condom-use consistency",
+    "treatment": "childbearing motivation / contraceptive attitudes",
+    "reason": "Measures childbearing motivation as a distinct psychological construct predicting contraceptive/sexual behavior (desire for a baby lowers condom-use consistency)."
+  },
+  {
+    "paperId": "W108975355",
+    "title": "A Heritability Study of Childbearing Motivation",
+    "year": 2000,
+    "doi": "10.1007/978-1-4615-4467-8_7",
+    "authors": "David J. Pasta; Warren B. Miller",
+    "venue": null,
+    "verdict": "RELEVANT",
+    "cell": "MOTIVATION_DISTINCTNESS",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "childbearing motivation",
+    "treatment": "genetic/heritable factors",
+    "reason": "Directly studies childbearing motivation as a heritable psychological construct, bearing on the distinctness of reproductive motivation from sexual motivation."
+  },
+  {
+    "paperId": "W95434836",
+    "title": "Genetic Influences on Childbearing Motivation: Further Testing a Theoretical Framework",
+    "year": 2000,
+    "doi": "10.1007/978-1-4615-4467-8_4",
+    "authors": "Warren B. Miller; David J. Pasta; James P. MacMurray; Donn Muhleman; David E. Comings",
+    "venue": null,
+    "verdict": "RELEVANT",
+    "cell": "MOTIVATION_DISTINCTNESS",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "childbearing motivation",
+    "treatment": "genetic influences",
+    "reason": "Directly tests genetic influences on childbearing motivation, the desire-for-children construct central to MOTIVATION_DISTINCTNESS."
+  },
+  {
+    "paperId": "W2075641763",
+    "title": "Couple childbearing desires, intentions, and births",
+    "year": 1997,
+    "doi": "10.2307/3038288",
+    "authors": "Elizabeth Thomson",
+    "venue": "Demography",
+    "verdict": "RELEVANT",
+    "cell": "MOTIVATION_DISTINCTNESS",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "no",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "subsequent births",
+    "treatment": "spouses' childbearing desires/intentions",
+    "reason": "Panel study testing whether couples' childbearing desires and intentions predict births, directly probing the desire-fertility link central to the desire-independence estimand."
+  },
+  {
+    "paperId": "W2085844753",
+    "title": "Monogamy, contraception and the cultural and reproductive success hypothesis",
+    "year": 1993,
+    "doi": "10.1017/s0140525x00030089",
+    "authors": "William Irons",
+    "venue": "Behavioral and Brain Sciences",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "reproductive success",
+    "treatment": "monogamy / contraception",
+    "reason": "Title directly tests a cultural-and-reproductive-success hypothesis linking monogamy and contraception to reproductive success, a Perusse-type dissociation test, though the abstract text is unavailable."
+  },
+  {
+    "paperId": "W2079157741",
+    "title": "Motivational and nonmotivational determinants of child-number desires",
+    "year": 1993,
+    "doi": "10.1007/bf02209405",
+    "authors": "Warren B. Miller; David J. Pasta",
+    "venue": "Population and Environment",
+    "verdict": "RELEVANT",
+    "cell": "MOTIVATION_DISTINCTNESS",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "backward_reference"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "child-number desires",
+    "treatment": "n/a",
+    "reason": "Title directly addresses motivational determinants of child-number desires, matching the reproductive-motivation-distinctness estimand cell even absent abstract."
+  },
+  {
+    "paperId": "W2095194540",
+    "title": "Social dominance attainment, testosterone, libido and reproductive success",
+    "year": 1993,
+    "doi": "10.1017/s0140525x00030107",
+    "authors": "Theodore D. Kemper",
+    "venue": "Behavioral and Brain Sciences",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "no",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "reproductive success",
+    "treatment": "social dominance attainment / testosterone / libido",
+    "reason": "Title indicates a direct test of status/testosterone/libido as evolutionary predictors against reproductive success, matching the proximate-ultimate dissociation estimand (abstract unavailable)."
+  },
+  {
+    "paperId": "W2025712052",
+    "title": "Some evidence on cultural and reproductive success in the United States",
+    "year": 1993,
+    "doi": "10.1017/s0140525x00030053",
+    "authors": "Norval D. Glenn",
+    "venue": "Behavioral and Brain Sciences",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "reproductive success",
+    "treatment": "cultural/status variables",
+    "reason": "Title indicates a cultural/status-predictor-of-reproductive-success study, matching the Perusse-type dissociation-test cell."
+  },
+  {
+    "paperId": "W2163381596",
+    "title": "Status, reproductive success, and marrying polygynously",
+    "year": 1993,
+    "doi": "10.1016/0162-3095(93)90027-f",
+    "authors": "Steven C. Josephson",
+    "venue": "Ethology and Sociobiology",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "reproductive success",
+    "treatment": "status/polygynous marriage",
+    "reason": "Title indicates a classic evolutionary status-to-reproductive-success (mating effort) design, the Pérusse-type proximate-ultimate dissociation test."
+  },
+  {
+    "paperId": "W2004893837",
+    "title": "The Contraceptive Pill and Women's Employment as Factors in Fertility Change in Britain 1963–1980: A Challenge to the Conventional View",
+    "year": 1993,
+    "doi": "10.1080/0032472031000146986",
+    "authors": "Michael Murphy",
+    "venue": "Population Studies",
+    "verdict": "RELEVANT",
+    "cell": "PRIMARY_DECOUPLING",
+    "evidence_type": "quasi-experimental",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "backward_reference"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "aggregate fertility change, Britain 1963-1980",
+    "treatment": "diffusion of the oral contraceptive pill (incl. 'pill scares' as natural shocks)",
+    "reason": "Tests pill diffusion, including sudden 'pill scare' shocks, as the main proximate determinant driving fertility decline, directly bearing on the severing technology's effect on realized fertility."
+  },
+  {
+    "paperId": "W2090184462",
+    "title": "Personality traits and developmental experiences as antecedents of childbearing motivation",
+    "year": 1992,
+    "doi": "10.2307/2061731",
+    "authors": "Warren B. Miller",
+    "venue": "Demography",
+    "verdict": "RELEVANT",
+    "cell": "MOTIVATION_DISTINCTNESS",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "backward_reference"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "childbearing motivation (positive and negative)",
+    "treatment": "personality traits / developmental experiences",
+    "reason": "Directly studies childbearing motivation as a distinct psychological construct shaped by traits and experience."
+  },
+  {
+    "paperId": "W2056369386",
+    "title": "A model of fertility motivation, desires, and expectations early in women's reproductive careers",
+    "year": 1988,
+    "doi": "10.1080/19485565.1988.9988704",
+    "authors": "Warren B. Miller; David J. Pasta",
+    "venue": "Biodemography and Social Biology",
+    "verdict": "RELEVANT",
+    "cell": "MOTIVATION_DISTINCTNESS",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "backward_reference"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "fertility motivation, desires, expectations",
+    "treatment": "n/a",
+    "reason": "Structural model treating childbearing motivation as a distinct antecedent construct from desires and expectations, matching the motivation-distinctness cell."
+  },
+  {
+    "paperId": "W2078971449",
+    "title": "Reproductive success and occupational class in eighteenth‐century lancashire, England",
+    "year": 1986,
+    "doi": "10.1080/19485565.1986.9988627",
+    "authors": "Austin L. Hughes",
+    "venue": "Biodemography and Social Biology",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "no",
+    "discovery_channels": [
+      "backward_reference"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "reproductive success (children reared to age 21)",
+    "treatment": "occupational class/status (farmers vs craftsmen)",
+    "reason": "Classic evolutionary-demography test of status predicting reproductive success in a pre-contraceptive population."
+  },
+  {
+    "paperId": "W2083085551",
+    "title": "Sexual strategies and social-class differences in fitness in modern industrial societies",
+    "year": 1986,
+    "doi": "10.1017/s0140525x00022111",
+    "authors": "Hillard Kaplan; Kim Hill",
+    "venue": "Behavioral and Brain Sciences",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "backward_reference"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "fitness (reproductive success) in modern industrial societies",
+    "treatment": "social class / sexual strategy",
+    "reason": "Examines whether social-class-linked sexual strategies still translate into reproductive fitness in modern contracepting societies, a Pérusse-type dissociation test."
+  },
+  {
+    "paperId": "W2016019417",
+    "title": "The reproductive success of wealthy Americans",
+    "year": 1984,
+    "doi": "10.1016/0162-3095(84)90034-7",
+    "authors": "Susan M. Essock-Vitale",
+    "venue": "Ethology and Sociobiology",
+    "verdict": "RELEVANT",
+    "cell": "PROXIMATE_ULTIMATE",
+    "evidence_type": "observational",
+    "holds_child_preference_fixed": "unclear",
+    "discovery_channels": [
+      "backward_reference"
+    ],
+    "both_channel": false,
+    "tier": 2,
+    "outcome": "reproductive success",
+    "treatment": "wealth/status",
+    "reason": "Classic sociobiological study testing whether wealth/status predicts reproductive success among Americans in a modern, contracepted society (Pérusse-type dissociation territory)."
+  }
+]

@@ -1,11 +1,34 @@
 # Work Queue
 
-Last updated: 2026-07-24
+Last updated: 2026-07-27
 
 Pick the first open ticket assigned to you or `any`. Before starting, pull/sync, then **claim** it
 (move its row to **In progress** below) before doing the work — using whichever mode is active in
 `README.md` (Mode A pushes the claim to `main`; Mode B pushes a `tick-NNN-*` branch). Do not start
 a blocked ticket until its dependency is done. Parallel-safe tickets can be worked concurrently.
+
+> **The B.1 ticket chain was renumbered on 2026-07-25 (032–037 → 041–046).** TICK-032 had been
+> assigned twice while the B.1 and schooling workstreams sat unmerged: to B.1 full-text retrieval and
+> to the compulsory-education split. Alexandra's TICK-032 keeps the number; the whole B.1 chain moved
+> up so it stays contiguous and no number is ambiguous.
+>
+> | Was | Now | Ticket |
+> |---|---|---|
+> | TICK-032 | [TICK-041](TICK-041-b1-fulltext-screen-retrieval.md) | B.1 full-text screen and retrieval |
+> | TICK-033 | [TICK-042](TICK-042-b1-effect-extraction.md) | B.1 effect extraction |
+> | TICK-034 | [TICK-043](TICK-043-b1-risk-of-bias.md) | B.1 risk of bias |
+> | TICK-035 | [TICK-044](TICK-044-b1-status-fertility-meta-analysis.md) | B.1 meta-analysis |
+> | TICK-036 | [TICK-045](TICK-045-b1-demographic-significance.md) | B.1 demographic significance |
+> | TICK-037 | [TICK-046](TICK-046-b1-chapter-finalization.md) | B.1 chapter finalization |
+>
+> **Commits pushed before 2026-07-25 name the old numbers.** Read `TICK-032` through `TICK-037` in any
+> commit message dated 07-21 to 07-25 against this table; in commit messages from Alexandra's schooling
+> workstream, `TICK-032` means the compulsory-education split and needs no translation.
+>
+> **Next free number is TICK-058.** Claim a number by pushing its QUEUE.md row before starting work,
+> not after. That is what would have prevented the collision. TICK-047 through TICK-053 were claimed
+> for the D.3.b climate-anxiety chain on 2026-07-27; TICK-054 (A.10) and TICK-055 (C.2.c) on
+> 2026-07-31; TICK-056 opens C.2.c library retrieval.
 
 ---
 
@@ -13,8 +36,10 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 
 | Ticket | Title | Assigned | Parallel-safe |
 |--------|-------|----------|---------------|
+| [TICK-048](TICK-048-d3b-fulltext-retrieval.md) | D.3.b full-text retrieval — mirror the B.1 scripts; realized-8 and desire-independence-4 first. **Watch the OA rate: it is what decides whether D.3.b avoids B.1's selection problem** | any | yes (with the full-62 half of 047) |
 | [TICK-039](TICK-039-compulsory-education-chapter-readability.md) | Compulsory-education chapter lay-readability review | Alexandra | no |
 | [TICK-030](TICK-030-replicate-gacs-agricultural-mode-production.md) | Replicate GACS for agricultural mode of production | any | no |
+| [TICK-041](TICK-041-b1-fulltext-screen-retrieval.md) | **B.1 library retrieval of the 71 missing PDFs — needs a human with Zotero + UChicago proxy.** Automated ceiling hit at 20/95; the B.1 pooled estimate rests on 5 studies until this moves | Shravan or Alexandra | no |
 | [TICK-002](TICK-002-cultural-count-fix.md) | Fix Cultural-count in Merge Notes | any | yes |
 | [TICK-003](TICK-003-promote-batch-edits-lesson.md) | Promote batch-edits lesson to decisions/ | any | yes |
 | [TICK-004](TICK-004-gitignore-workflows.md) | Revisit .gitignore for .claude/workflows/ | any | yes |
@@ -25,7 +50,12 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 
 | Ticket | Title | Owner | Claimed (UTC) | Touches |
 |--------|-------|-------|---------------|---------|
-| [TICK-041](TICK-041-install-voice-stack.md) | Install voice-stack for Codex | Alexandra | 2026-08-01T00:00:00Z | `AGENTS.md`; ticket files |
+| [TICK-057](TICK-057-install-voice-stack.md) | Install voice-stack for Codex | Alexandra | 2026-08-01T00:00:00Z | `AGENTS.md`; ticket files |
+| [TICK-055](TICK-055-c2c-housing-search-scope.md) | C.2.c search scope — tenure-conditional sign (price is a cost to renters, a wealth gain to owners), pooling rule, and the C.3.e wall that a shared seminal citation proves is broken | Shravan | 2026-07-31T00:00:00Z | `literature/search-logs/housing-costs-search-scope.md` |
+| [TICK-054](TICK-054-a10-search-scope.md) | A.10 search scope — **drafted, PARKED pending Anup** on the unenumerated war-shock hypothesis and the non-additive-proximate-causes rule. Anchor sourcing is not blocked by the park | Shravan | 2026-07-31T00:00:00Z | `literature/search-logs/sex-ratio-marriage-market-search-scope.md` |
+| [TICK-049](TICK-049-d3b-effect-extraction.md) | D.3.b effect extraction — realized track first-pass done, **0 of 11 rows poolable; no recoverable CIs**; second-reader pass outstanding | Shravan | 2026-07-27T00:00:00Z | `extraction/climate-anxiety-eco-doomerism-{studies,effects-realized}.csv` |
+| [TICK-047](TICK-047-d3b-ra-gate.md) | D.3.b RA gate — boundary calls + 122 `INSUFFICIENT_INFO`; decisive-12 half gates extraction, Wall 1 (D.1.a) misroutes sampled first | Shravan | 2026-07-27T00:00:00Z | `extraction/climate-anxiety-eco-doomerism-ra-gate.csv`; `literature/search-logs/climate-anxiety-eco-doomerism-ra-gate-log.md` |
+| [TICK-046](TICK-046-b1-chapter-finalization.md) | B.1 chapter finalization — **RA work complete, awaiting Anup's review**; PI packet has 6 numbered decisions | Shravan | 2026-07-25T00:00:00Z | `output/chapters/evolutionary-sex-drive-contraceptive-decoupling{,-pi-review-packet}.md` |
 | [TICK-019](TICK-019-oas-demographic-significance-and-chapter.md) | OAS demographic significance and hybrid chapter draft | Alexandra | 2026-07-17T14:45:00Z | `output/chapters/old-age-security-pension-crowdout.md`; OAS evidence records |
 | [TICK-031](TICK-031-replicate-gacs-child-labor-schooling.md) | Replicate GACS for child-labor laws and compulsory schooling | Alexandra | 2026-07-16T22:00:00Z | `source/build/goldset/`; `literature/search-logs/child-labor-laws-and-schooling-*`; related outputs/status files |
 
@@ -33,6 +63,10 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 
 | Ticket | Title | Assigned | Blocked by |
 |--------|-------|----------|------------|
+| [TICK-050](TICK-050-d3b-risk-of-bias.md) | D.3.b risk of bias (adds a common-method-bias domain) | any | TICK-049 |
+| [TICK-051](TICK-051-d3b-two-track-synthesis.md) | D.3.b two-track synthesis; adjusted-vs-unadjusted is the central test | any | TICK-049 |
+| [TICK-052](TICK-052-d3b-demographic-significance.md) | D.3.b demographic significance (SDT only) | any | TICK-050, TICK-051 |
+| [TICK-053](TICK-053-d3b-chapter-finalization.md) | D.3.b chapter finalization and PI review | any | TICK-052 |
 | [TICK-006](TICK-006-osf-preregistration.md) | OSF pre-registration | Anup | TICK-001, TICK-005 |
 | [TICK-009](TICK-009-literature-search-mjs.md) | Implement literature-search.mjs | any | TICK-001 |
 | [TICK-012](TICK-012-prepilot-time-cost.md) | Pre-pilot (Anup + Claude): time-cost/income-substitution | Anup + Claude | TICK-001, TICK-009 |
@@ -42,6 +76,11 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 
 | Ticket | Title | Closed |
 |--------|-------|--------|
+| [TICK-056](TICK-056-c2c-library-retrieval.md) | C.2.c library retrieval — identified core 15/15 via Zotero; associational remainder closed with a recommendation not to pursue | 2026-07-31 |
+| [TICK-045](TICK-045-b1-demographic-significance.md) | B.1 demographic-significance pass | 2026-07-25 |
+| [TICK-044](TICK-044-b1-status-fertility-meta-analysis.md) | B.1 status-fertility meta-analysis (5 studies; see ticket for the three cautions) | 2026-07-25 |
+| [TICK-043](TICK-043-b1-risk-of-bias.md) | B.1 risk-of-bias assessment (4 of 5 studies serious) | 2026-07-25 |
+| [TICK-042](TICK-042-b1-effect-extraction.md) | B.1 status-fertility effect extraction (17 effects / 5 studies, bounded by TICK-041) | 2026-07-25 |
 | [TICK-040](TICK-040-finish-maternal-education-tempo-draft.md) | Finish maternal-own-education compulsory-schooling tempo draft | 2026-07-25 |
 | [TICK-038](TICK-038-nest-schooling-teen-births-under-tempo.md) | Nest compulsory-schooling teenage births under tempo postponement | 2026-07-24 |
 | [TICK-032](TICK-032-split-compulsory-education-hypotheses.md) | Split compulsory education into value-of-children and teenage-birth hypotheses | 2026-07-24 |

@@ -1,0 +1,1775 @@
+[
+  {
+    "term": "climate",
+    "block": "cause",
+    "z": 8.05,
+    "log_odds": 0.93,
+    "gold": 127,
+    "neg": 136,
+    "is_bigram": false
+  },
+  {
+    "term": "anxiety",
+    "block": "cause",
+    "z": 6.7,
+    "log_odds": 2.36,
+    "gold": 37,
+    "neg": 7,
+    "is_bigram": false
+  },
+  {
+    "term": "climate change",
+    "block": "cause",
+    "z": 5.31,
+    "log_odds": 0.74,
+    "gold": 80,
+    "neg": 106,
+    "is_bigram": true
+  },
+  {
+    "term": "reproductive",
+    "block": "effect",
+    "z": 5.04,
+    "log_odds": 1.38,
+    "gold": 30,
+    "neg": 19,
+    "is_bigram": false
+  },
+  {
+    "term": "eco",
+    "block": "cause",
+    "z": 4.66,
+    "log_odds": 2.45,
+    "gold": 18,
+    "neg": 3,
+    "is_bigram": false
+  },
+  {
+    "term": "change",
+    "block": "other",
+    "z": 4.47,
+    "log_odds": 0.6,
+    "gold": 80,
+    "neg": 124,
+    "is_bigram": false
+  },
+  {
+    "term": "concerns",
+    "block": "cause",
+    "z": 3.94,
+    "log_odds": 1.58,
+    "gold": 16,
+    "neg": 8,
+    "is_bigram": false
+  },
+  {
+    "term": "ethics",
+    "block": "cause",
+    "z": 3.82,
+    "log_odds": 1.71,
+    "gold": 14,
+    "neg": 6,
+    "is_bigram": false
+  },
+  {
+    "term": "eco anxiety",
+    "block": "cause",
+    "z": 3.81,
+    "log_odds": 2.45,
+    "gold": 12,
+    "neg": 2,
+    "is_bigram": true
+  },
+  {
+    "term": "young",
+    "block": "other",
+    "z": 3.69,
+    "log_odds": 1.39,
+    "gold": 16,
+    "neg": 10,
+    "is_bigram": false
+  },
+  {
+    "term": "climate anxiety",
+    "block": "cause",
+    "z": 3.41,
+    "log_odds": 3.72,
+    "gold": 13,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "people",
+    "block": "other",
+    "z": 3.39,
+    "log_odds": 1.15,
+    "gold": 17,
+    "neg": 14,
+    "is_bigram": false
+  },
+  {
+    "term": "young people",
+    "block": "other",
+    "z": 3.27,
+    "log_odds": 1.77,
+    "gold": 10,
+    "neg": 4,
+    "is_bigram": true
+  },
+  {
+    "term": "students",
+    "block": "other",
+    "z": 3.27,
+    "log_odds": 1.77,
+    "gold": 10,
+    "neg": 4,
+    "is_bigram": false
+  },
+  {
+    "term": "emotions",
+    "block": "cause",
+    "z": 3.18,
+    "log_odds": 1.92,
+    "gold": 9,
+    "neg": 3,
+    "is_bigram": false
+  },
+  {
+    "term": "ecological",
+    "block": "cause",
+    "z": 3.12,
+    "log_odds": 1.33,
+    "gold": 12,
+    "neg": 8,
+    "is_bigram": false
+  },
+  {
+    "term": "crisis",
+    "block": "cause",
+    "z": 3.12,
+    "log_odds": 1.33,
+    "gold": 12,
+    "neg": 8,
+    "is_bigram": false
+  },
+  {
+    "term": "procreation",
+    "block": "effect",
+    "z": 3.08,
+    "log_odds": 2.15,
+    "gold": 8,
+    "neg": 2,
+    "is_bigram": false
+  },
+  {
+    "term": "climate crisis",
+    "block": "cause",
+    "z": 3.04,
+    "log_odds": 1.68,
+    "gold": 9,
+    "neg": 4,
+    "is_bigram": true
+  },
+  {
+    "term": "emotional",
+    "block": "cause",
+    "z": 2.95,
+    "log_odds": 1.82,
+    "gold": 8,
+    "neg": 3,
+    "is_bigram": false
+  },
+  {
+    "term": "university",
+    "block": "other",
+    "z": 2.95,
+    "log_odds": 1.82,
+    "gold": 8,
+    "neg": 3,
+    "is_bigram": false
+  },
+  {
+    "term": "coping",
+    "block": "other",
+    "z": 2.9,
+    "log_odds": 2.56,
+    "gold": 7,
+    "neg": 1,
+    "is_bigram": false
+  },
+  {
+    "term": "worries",
+    "block": "cause",
+    "z": 2.9,
+    "log_odds": 2.56,
+    "gold": 7,
+    "neg": 1,
+    "is_bigram": false
+  },
+  {
+    "term": "change anxiety",
+    "block": "cause",
+    "z": 2.7,
+    "log_odds": 1.71,
+    "gold": 7,
+    "neg": 3,
+    "is_bigram": true
+  },
+  {
+    "term": "mitigation",
+    "block": "other",
+    "z": 2.6,
+    "log_odds": 1.92,
+    "gold": 6,
+    "neg": 2,
+    "is_bigram": false
+  },
+  {
+    "term": "responses",
+    "block": "other",
+    "z": 2.6,
+    "log_odds": 1.92,
+    "gold": 6,
+    "neg": 2,
+    "is_bigram": false
+  },
+  {
+    "term": "environmental",
+    "block": "cause",
+    "z": 2.53,
+    "log_odds": 0.48,
+    "gold": 37,
+    "neg": 65,
+    "is_bigram": false
+  },
+  {
+    "term": "era",
+    "block": "other",
+    "z": 2.45,
+    "log_odds": 2.32,
+    "gold": 5,
+    "neg": 1,
+    "is_bigram": false
+  },
+  {
+    "term": "development validation",
+    "block": "other",
+    "z": 2.45,
+    "log_odds": 2.32,
+    "gold": 5,
+    "neg": 1,
+    "is_bigram": true
+  },
+  {
+    "term": "children",
+    "block": "other",
+    "z": 2.38,
+    "log_odds": 0.67,
+    "gold": 19,
+    "neg": 27,
+    "is_bigram": false
+  },
+  {
+    "term": "justice",
+    "block": "other",
+    "z": 2.37,
+    "log_odds": 1.08,
+    "gold": 9,
+    "neg": 8,
+    "is_bigram": false
+  },
+  {
+    "term": "reproductive decision",
+    "block": "both",
+    "z": 2.32,
+    "log_odds": 3.72,
+    "gold": 6,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "validation",
+    "block": "other",
+    "z": 2.31,
+    "log_odds": 1.77,
+    "gold": 5,
+    "neg": 2,
+    "is_bigram": false
+  },
+  {
+    "term": "climate mitigation",
+    "block": "cause",
+    "z": 2.31,
+    "log_odds": 1.77,
+    "gold": 5,
+    "neg": 2,
+    "is_bigram": true
+  },
+  {
+    "term": "population",
+    "block": "other",
+    "z": 2.22,
+    "log_odds": 0.52,
+    "gold": 25,
+    "neg": 42,
+    "is_bigram": false
+  },
+  {
+    "term": "associated",
+    "block": "other",
+    "z": 2.21,
+    "log_odds": 1.33,
+    "gold": 6,
+    "neg": 4,
+    "is_bigram": false
+  },
+  {
+    "term": "psychological",
+    "block": "other",
+    "z": 2.2,
+    "log_odds": 0.97,
+    "gold": 9,
+    "neg": 9,
+    "is_bigram": false
+  },
+  {
+    "term": "reproductive intentions",
+    "block": "effect",
+    "z": 2.17,
+    "log_odds": 2.15,
+    "gold": 4,
+    "neg": 1,
+    "is_bigram": true
+  },
+  {
+    "term": "change concern",
+    "block": "cause",
+    "z": 2.17,
+    "log_odds": 2.15,
+    "gold": 4,
+    "neg": 1,
+    "is_bigram": true
+  },
+  {
+    "term": "making",
+    "block": "other",
+    "z": 2.13,
+    "log_odds": 1.11,
+    "gold": 7,
+    "neg": 6,
+    "is_bigram": false
+  },
+  {
+    "term": "planning",
+    "block": "other",
+    "z": 2.11,
+    "log_odds": 3.72,
+    "gold": 5,
+    "neg": 0,
+    "is_bigram": false
+  },
+  {
+    "term": "population ethics",
+    "block": "cause",
+    "z": 2.11,
+    "log_odds": 3.72,
+    "gold": 5,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "responses climate",
+    "block": "cause",
+    "z": 2.11,
+    "log_odds": 3.72,
+    "gold": 5,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "grief",
+    "block": "cause",
+    "z": 2.11,
+    "log_odds": 3.72,
+    "gold": 5,
+    "neg": 0,
+    "is_bigram": false
+  },
+  {
+    "term": "university students",
+    "block": "other",
+    "z": 2.09,
+    "log_odds": 1.42,
+    "gold": 5,
+    "neg": 3,
+    "is_bigram": true
+  },
+  {
+    "term": "intentions",
+    "block": "effect",
+    "z": 2.03,
+    "log_odds": 0.54,
+    "gold": 20,
+    "neg": 33,
+    "is_bigram": false
+  },
+  {
+    "term": "decision making",
+    "block": "cause",
+    "z": 2.0,
+    "log_odds": 1.13,
+    "gold": 6,
+    "neg": 5,
+    "is_bigram": true
+  },
+  {
+    "term": "environmentally",
+    "block": "cause",
+    "z": 1.97,
+    "log_odds": 1.58,
+    "gold": 4,
+    "neg": 2,
+    "is_bigram": false
+  },
+  {
+    "term": "desire",
+    "block": "other",
+    "z": 1.97,
+    "log_odds": 1.58,
+    "gold": 4,
+    "neg": 2,
+    "is_bigram": false
+  },
+  {
+    "term": "government",
+    "block": "other",
+    "z": 1.97,
+    "log_odds": 1.58,
+    "gold": 4,
+    "neg": 2,
+    "is_bigram": false
+  },
+  {
+    "term": "responsibility",
+    "block": "other",
+    "z": 1.97,
+    "log_odds": 1.58,
+    "gold": 4,
+    "neg": 2,
+    "is_bigram": false
+  },
+  {
+    "term": "era climate",
+    "block": "cause",
+    "z": 1.89,
+    "log_odds": 3.72,
+    "gold": 4,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "scp",
+    "block": "other",
+    "z": 1.89,
+    "log_odds": 3.72,
+    "gold": 4,
+    "neg": 0,
+    "is_bigram": false
+  },
+  {
+    "term": "natalism",
+    "block": "other",
+    "z": 1.89,
+    "log_odds": 3.72,
+    "gold": 4,
+    "neg": 0,
+    "is_bigram": false
+  },
+  {
+    "term": "change qualitative",
+    "block": "other",
+    "z": 1.89,
+    "log_odds": 3.72,
+    "gold": 4,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "overpopulation",
+    "block": "cause",
+    "z": 1.89,
+    "log_odds": 3.72,
+    "gold": 4,
+    "neg": 0,
+    "is_bigram": false
+  },
+  {
+    "term": "reproductive justice",
+    "block": "effect",
+    "z": 1.89,
+    "log_odds": 3.72,
+    "gold": 4,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "existential",
+    "block": "cause",
+    "z": 1.89,
+    "log_odds": 3.72,
+    "gold": 4,
+    "neg": 0,
+    "is_bigram": false
+  },
+  {
+    "term": "awareness",
+    "block": "other",
+    "z": 1.86,
+    "log_odds": 1.17,
+    "gold": 5,
+    "neg": 4,
+    "is_bigram": false
+  },
+  {
+    "term": "having children",
+    "block": "effect",
+    "z": 1.86,
+    "log_odds": 1.17,
+    "gold": 5,
+    "neg": 4,
+    "is_bigram": true
+  },
+  {
+    "term": "adolescents",
+    "block": "other",
+    "z": 1.86,
+    "log_odds": 1.17,
+    "gold": 5,
+    "neg": 4,
+    "is_bigram": false
+  },
+  {
+    "term": "choices",
+    "block": "other",
+    "z": 1.86,
+    "log_odds": 1.17,
+    "gold": 5,
+    "neg": 4,
+    "is_bigram": false
+  },
+  {
+    "term": "mitigate",
+    "block": "other",
+    "z": 1.84,
+    "log_odds": 1.92,
+    "gold": 3,
+    "neg": 1,
+    "is_bigram": false
+  },
+  {
+    "term": "distress",
+    "block": "cause",
+    "z": 1.84,
+    "log_odds": 1.92,
+    "gold": 3,
+    "neg": 1,
+    "is_bigram": false
+  },
+  {
+    "term": "kids",
+    "block": "other",
+    "z": 1.84,
+    "log_odds": 1.92,
+    "gold": 3,
+    "neg": 1,
+    "is_bigram": false
+  },
+  {
+    "term": "most effective",
+    "block": "other",
+    "z": 1.84,
+    "log_odds": 1.92,
+    "gold": 3,
+    "neg": 1,
+    "is_bigram": true
+  },
+  {
+    "term": "emergency",
+    "block": "other",
+    "z": 1.84,
+    "log_odds": 1.92,
+    "gold": 3,
+    "neg": 1,
+    "is_bigram": false
+  },
+  {
+    "term": "coping strategies",
+    "block": "other",
+    "z": 1.84,
+    "log_odds": 1.92,
+    "gold": 3,
+    "neg": 1,
+    "is_bigram": true
+  },
+  {
+    "term": "hope",
+    "block": "cause",
+    "z": 1.84,
+    "log_odds": 1.92,
+    "gold": 3,
+    "neg": 1,
+    "is_bigram": false
+  },
+  {
+    "term": "recommendations",
+    "block": "other",
+    "z": 1.84,
+    "log_odds": 1.92,
+    "gold": 3,
+    "neg": 1,
+    "is_bigram": false
+  },
+  {
+    "term": "emerging",
+    "block": "other",
+    "z": 1.84,
+    "log_odds": 1.92,
+    "gold": 3,
+    "neg": 1,
+    "is_bigram": false
+  },
+  {
+    "term": "externalities",
+    "block": "other",
+    "z": 1.84,
+    "log_odds": 1.92,
+    "gold": 3,
+    "neg": 1,
+    "is_bigram": false
+  },
+  {
+    "term": "earth",
+    "block": "other",
+    "z": 1.84,
+    "log_odds": 1.92,
+    "gold": 3,
+    "neg": 1,
+    "is_bigram": false
+  },
+  {
+    "term": "personal",
+    "block": "other",
+    "z": 1.84,
+    "log_odds": 1.92,
+    "gold": 3,
+    "neg": 1,
+    "is_bigram": false
+  },
+  {
+    "term": "review",
+    "block": "other",
+    "z": 1.81,
+    "log_odds": 0.58,
+    "gold": 14,
+    "neg": 22,
+    "is_bigram": false
+  },
+  {
+    "term": "having",
+    "block": "other",
+    "z": 1.8,
+    "log_odds": 0.97,
+    "gold": 6,
+    "neg": 6,
+    "is_bigram": false
+  },
+  {
+    "term": "loss",
+    "block": "other",
+    "z": 1.72,
+    "log_odds": 1.23,
+    "gold": 4,
+    "neg": 3,
+    "is_bigram": false
+  },
+  {
+    "term": "insights",
+    "block": "other",
+    "z": 1.72,
+    "log_odds": 1.23,
+    "gold": 4,
+    "neg": 3,
+    "is_bigram": false
+  },
+  {
+    "term": "photography",
+    "block": "other",
+    "z": 1.64,
+    "log_odds": 3.71,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": false
+  },
+  {
+    "term": "auto",
+    "block": "other",
+    "z": 1.64,
+    "log_odds": 3.71,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": false
+  },
+  {
+    "term": "qualitative auto",
+    "block": "other",
+    "z": 1.64,
+    "log_odds": 3.71,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "government recommendations",
+    "block": "other",
+    "z": 1.64,
+    "log_odds": 3.71,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "environmental concerns",
+    "block": "cause",
+    "z": 1.64,
+    "log_odds": 0.97,
+    "gold": 5,
+    "neg": 5,
+    "is_bigram": true
+  },
+  {
+    "term": "fear",
+    "block": "cause",
+    "z": 1.64,
+    "log_odds": 3.71,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": false
+  },
+  {
+    "term": "pregnancy intentions",
+    "block": "effect",
+    "z": 1.64,
+    "log_odds": 3.71,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "change population",
+    "block": "other",
+    "z": 1.64,
+    "log_odds": 3.71,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "change reproductive",
+    "block": "effect",
+    "z": 1.64,
+    "log_odds": 3.71,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "reproductive concerns",
+    "block": "both",
+    "z": 1.64,
+    "log_odds": 3.71,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "education government",
+    "block": "other",
+    "z": 1.64,
+    "log_odds": 3.71,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "change awareness",
+    "block": "other",
+    "z": 1.64,
+    "log_odds": 3.71,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "miss",
+    "block": "other",
+    "z": 1.64,
+    "log_odds": 3.71,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": false
+  },
+  {
+    "term": "eco reproductive",
+    "block": "both",
+    "z": 1.64,
+    "log_odds": 3.71,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "avoid",
+    "block": "other",
+    "z": 1.64,
+    "log_odds": 3.71,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": false
+  },
+  {
+    "term": "individual actions",
+    "block": "other",
+    "z": 1.64,
+    "log_odds": 3.71,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "bringing",
+    "block": "other",
+    "z": 1.64,
+    "log_odds": 3.71,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": false
+  },
+  {
+    "term": "mitigation gap",
+    "block": "other",
+    "z": 1.64,
+    "log_odds": 3.71,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "population policy",
+    "block": "other",
+    "z": 1.64,
+    "log_odds": 3.71,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "anti",
+    "block": "other",
+    "z": 1.64,
+    "log_odds": 3.71,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": false
+  },
+  {
+    "term": "intentions insights",
+    "block": "effect",
+    "z": 1.64,
+    "log_odds": 3.71,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "auto photography",
+    "block": "other",
+    "z": 1.64,
+    "log_odds": 3.71,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "emotional responses",
+    "block": "cause",
+    "z": 1.64,
+    "log_odds": 3.71,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "miss most",
+    "block": "other",
+    "z": 1.64,
+    "log_odds": 3.71,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "procreative",
+    "block": "effect",
+    "z": 1.64,
+    "log_odds": 3.71,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": false
+  },
+  {
+    "term": "change worries",
+    "block": "cause",
+    "z": 1.64,
+    "log_odds": 3.71,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "gap",
+    "block": "other",
+    "z": 1.64,
+    "log_odds": 3.71,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": false
+  },
+  {
+    "term": "discourse",
+    "block": "other",
+    "z": 1.64,
+    "log_odds": 3.71,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": false
+  },
+  {
+    "term": "gap education",
+    "block": "other",
+    "z": 1.64,
+    "log_odds": 3.71,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "worldwide",
+    "block": "other",
+    "z": 1.64,
+    "log_odds": 3.71,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": false
+  },
+  {
+    "term": "ethics population",
+    "block": "cause",
+    "z": 1.64,
+    "log_odds": 3.71,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "effective individual",
+    "block": "other",
+    "z": 1.64,
+    "log_odds": 3.71,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "types",
+    "block": "other",
+    "z": 1.64,
+    "log_odds": 3.71,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": false
+  },
+  {
+    "term": "recommendations miss",
+    "block": "other",
+    "z": 1.64,
+    "log_odds": 3.71,
+    "gold": 3,
+    "neg": 0,
+    "is_bigram": true
+  },
+  {
+    "term": "concern",
+    "block": "cause",
+    "z": 1.62,
+    "log_odds": 0.62,
+    "gold": 10,
+    "neg": 15,
+    "is_bigram": false
+  },
+  {
+    "term": "youth",
+    "block": "other",
+    "z": 1.61,
+    "log_odds": 0.84,
+    "gold": 6,
+    "neg": 7,
+    "is_bigram": false
+  },
+  {
+    "term": "footprint",
+    "block": "cause",
+    "z": 1.56,
+    "log_odds": 1.33,
+    "gold": 3,
+    "neg": 2,
+    "is_bigram": false
+  },
+  {
+    "term": "actions",
+    "block": "other",
+    "z": 1.56,
+    "log_odds": 1.33,
+    "gold": 3,
+    "neg": 2,
+    "is_bigram": false
+  },
+  {
+    "term": "effective",
+    "block": "other",
+    "z": 1.56,
+    "log_odds": 1.33,
+    "gold": 3,
+    "neg": 2,
+    "is_bigram": false
+  },
+  {
+    "term": "nature",
+    "block": "other",
+    "z": 1.56,
+    "log_odds": 1.33,
+    "gold": 3,
+    "neg": 2,
+    "is_bigram": false
+  },
+  {
+    "term": "should",
+    "block": "other",
+    "z": 1.56,
+    "log_odds": 1.33,
+    "gold": 3,
+    "neg": 2,
+    "is_bigram": false
+  },
+  {
+    "term": "worry",
+    "block": "cause",
+    "z": 1.56,
+    "log_odds": 1.33,
+    "gold": 3,
+    "neg": 2,
+    "is_bigram": false
+  },
+  {
+    "term": "decision",
+    "block": "other",
+    "z": 1.43,
+    "log_odds": 0.72,
+    "gold": 6,
+    "neg": 8,
+    "is_bigram": false
+  },
+  {
+    "term": "context",
+    "block": "other",
+    "z": 1.43,
+    "log_odds": 0.81,
+    "gold": 5,
+    "neg": 6,
+    "is_bigram": false
+  },
+  {
+    "term": "exploring",
+    "block": "other",
+    "z": 1.43,
+    "log_odds": 0.72,
+    "gold": 6,
+    "neg": 8,
+    "is_bigram": false
+  },
+  {
+    "term": "development",
+    "block": "other",
+    "z": 1.43,
+    "log_odds": 0.66,
+    "gold": 7,
+    "neg": 10,
+    "is_bigram": false
+  },
+  {
+    "term": "individual",
+    "block": "other",
+    "z": 1.43,
+    "log_odds": 0.81,
+    "gold": 5,
+    "neg": 6,
+    "is_bigram": false
+  },
+  {
+    "term": "childbearing",
+    "block": "effect",
+    "z": 1.34,
+    "log_odds": 0.53,
+    "gold": 9,
+    "neg": 15,
+    "is_bigram": false
+  },
+  {
+    "term": "policy",
+    "block": "other",
+    "z": 1.31,
+    "log_odds": 0.55,
+    "gold": 8,
+    "neg": 13,
+    "is_bigram": false
+  },
+  {
+    "term": "change mental",
+    "block": "other",
+    "z": 1.27,
+    "log_odds": 0.97,
+    "gold": 3,
+    "neg": 3,
+    "is_bigram": true
+  },
+  {
+    "term": "out",
+    "block": "other",
+    "z": 1.27,
+    "log_odds": 0.97,
+    "gold": 3,
+    "neg": 3,
+    "is_bigram": false
+  },
+  {
+    "term": "most",
+    "block": "other",
+    "z": 1.27,
+    "log_odds": 0.97,
+    "gold": 3,
+    "neg": 3,
+    "is_bigram": false
+  },
+  {
+    "term": "like",
+    "block": "other",
+    "z": 1.27,
+    "log_odds": 0.97,
+    "gold": 3,
+    "neg": 3,
+    "is_bigram": false
+  },
+  {
+    "term": "mediating",
+    "block": "other",
+    "z": 1.27,
+    "log_odds": 0.97,
+    "gold": 3,
+    "neg": 3,
+    "is_bigram": false
+  },
+  {
+    "term": "systematic review",
+    "block": "other",
+    "z": 1.24,
+    "log_odds": 0.68,
+    "gold": 5,
+    "neg": 7,
+    "is_bigram": true
+  },
+  {
+    "term": "well being",
+    "block": "other",
+    "z": 1.24,
+    "log_odds": 0.78,
+    "gold": 4,
+    "neg": 5,
+    "is_bigram": true
+  },
+  {
+    "term": "decisions",
+    "block": "other",
+    "z": 1.24,
+    "log_odds": 0.78,
+    "gold": 4,
+    "neg": 5,
+    "is_bigram": false
+  },
+  {
+    "term": "differences",
+    "block": "other",
+    "z": 1.24,
+    "log_odds": 0.68,
+    "gold": 5,
+    "neg": 7,
+    "is_bigram": false
+  },
+  {
+    "term": "well",
+    "block": "other",
+    "z": 1.24,
+    "log_odds": 0.78,
+    "gold": 4,
+    "neg": 5,
+    "is_bigram": false
+  },
+  {
+    "term": "futures",
+    "block": "other",
+    "z": 1.24,
+    "log_odds": 0.78,
+    "gold": 4,
+    "neg": 5,
+    "is_bigram": false
+  },
+  {
+    "term": "strategies",
+    "block": "other",
+    "z": 1.02,
+    "log_odds": 0.62,
+    "gold": 4,
+    "neg": 6,
+    "is_bigram": false
+  },
+  {
+    "term": "politics",
+    "block": "other",
+    "z": 1.01,
+    "log_odds": 0.72,
+    "gold": 3,
+    "neg": 4,
+    "is_bigram": false
+  },
+  {
+    "term": "beliefs",
+    "block": "other",
+    "z": 1.01,
+    "log_odds": 0.72,
+    "gold": 3,
+    "neg": 4,
+    "is_bigram": false
+  },
+  {
+    "term": "bangladesh",
+    "block": "other",
+    "z": 1.01,
+    "log_odds": 0.72,
+    "gold": 3,
+    "neg": 4,
+    "is_bigram": false
+  },
+  {
+    "term": "age",
+    "block": "other",
+    "z": 0.89,
+    "log_odds": 0.46,
+    "gold": 5,
+    "neg": 9,
+    "is_bigram": false
+  },
+  {
+    "term": "perceptions",
+    "block": "other",
+    "z": 0.89,
+    "log_odds": 0.46,
+    "gold": 5,
+    "neg": 9,
+    "is_bigram": false
+  },
+  {
+    "term": "world",
+    "block": "other",
+    "z": 0.86,
+    "log_odds": 0.37,
+    "gold": 7,
+    "neg": 14,
+    "is_bigram": false
+  },
+  {
+    "term": "population growth",
+    "block": "other",
+    "z": 0.83,
+    "log_odds": 0.48,
+    "gold": 4,
+    "neg": 7,
+    "is_bigram": true
+  },
+  {
+    "term": "being",
+    "block": "other",
+    "z": 0.83,
+    "log_odds": 0.48,
+    "gold": 4,
+    "neg": 7,
+    "is_bigram": false
+  },
+  {
+    "term": "sustainable",
+    "block": "cause",
+    "z": 0.8,
+    "log_odds": 0.37,
+    "gold": 6,
+    "neg": 12,
+    "is_bigram": false
+  },
+  {
+    "term": "vulnerable",
+    "block": "other",
+    "z": 0.77,
+    "log_odds": 0.53,
+    "gold": 3,
+    "neg": 5,
+    "is_bigram": false
+  },
+  {
+    "term": "individuals",
+    "block": "other",
+    "z": 0.77,
+    "log_odds": 0.53,
+    "gold": 3,
+    "neg": 5,
+    "is_bigram": false
+  },
+  {
+    "term": "mental",
+    "block": "other",
+    "z": 0.73,
+    "log_odds": 0.37,
+    "gold": 5,
+    "neg": 10,
+    "is_bigram": false
+  },
+  {
+    "term": "systematic",
+    "block": "other",
+    "z": 0.73,
+    "log_odds": 0.37,
+    "gold": 5,
+    "neg": 10,
+    "is_bigram": false
+  },
+  {
+    "term": "future",
+    "block": "other",
+    "z": 0.65,
+    "log_odds": 0.24,
+    "gold": 9,
+    "neg": 21,
+    "is_bigram": false
+  },
+  {
+    "term": "factors",
+    "block": "other",
+    "z": 0.65,
+    "log_odds": 0.37,
+    "gold": 4,
+    "neg": 8,
+    "is_bigram": false
+  },
+  {
+    "term": "perception",
+    "block": "other",
+    "z": 0.56,
+    "log_odds": 0.37,
+    "gold": 3,
+    "neg": 6,
+    "is_bigram": false
+  },
+  {
+    "term": "reproduction",
+    "block": "effect",
+    "z": 0.56,
+    "log_odds": 0.37,
+    "gold": 3,
+    "neg": 6,
+    "is_bigram": false
+  },
+  {
+    "term": "mortality",
+    "block": "other",
+    "z": 0.56,
+    "log_odds": 0.37,
+    "gold": 3,
+    "neg": 6,
+    "is_bigram": false
+  },
+  {
+    "term": "childfree",
+    "block": "effect",
+    "z": 0.53,
+    "log_odds": 0.24,
+    "gold": 6,
+    "neg": 14,
+    "is_bigram": false
+  },
+  {
+    "term": "qualitative",
+    "block": "other",
+    "z": 0.44,
+    "log_odds": 0.21,
+    "gold": 5,
+    "neg": 12,
+    "is_bigram": false
+  },
+  {
+    "term": "environmentalism",
+    "block": "cause",
+    "z": 0.38,
+    "log_odds": 0.24,
+    "gold": 3,
+    "neg": 7,
+    "is_bigram": false
+  },
+  {
+    "term": "consumption",
+    "block": "other",
+    "z": 0.38,
+    "log_odds": 0.24,
+    "gold": 3,
+    "neg": 7,
+    "is_bigram": false
+  },
+  {
+    "term": "fertility intentions",
+    "block": "effect",
+    "z": 0.37,
+    "log_odds": 0.14,
+    "gold": 8,
+    "neg": 21,
+    "is_bigram": true
+  },
+  {
+    "term": "mental health",
+    "block": "other",
+    "z": 0.33,
+    "log_odds": 0.18,
+    "gold": 4,
+    "neg": 10,
+    "is_bigram": true
+  },
+  {
+    "term": "education",
+    "block": "other",
+    "z": 0.31,
+    "log_odds": 0.15,
+    "gold": 5,
+    "neg": 13,
+    "is_bigram": false
+  },
+  {
+    "term": "environment",
+    "block": "cause",
+    "z": 0.29,
+    "log_odds": 0.13,
+    "gold": 6,
+    "neg": 16,
+    "is_bigram": false
+  },
+  {
+    "term": "implications",
+    "block": "other",
+    "z": 0.2,
+    "log_odds": 0.13,
+    "gold": 3,
+    "neg": 8,
+    "is_bigram": false
+  },
+  {
+    "term": "italy",
+    "block": "other",
+    "z": 0.2,
+    "log_odds": 0.13,
+    "gold": 3,
+    "neg": 8,
+    "is_bigram": false
+  },
+  {
+    "term": "environmental concern",
+    "block": "cause",
+    "z": 0.2,
+    "log_odds": 0.13,
+    "gold": 3,
+    "neg": 8,
+    "is_bigram": true
+  },
+  {
+    "term": "child",
+    "block": "other",
+    "z": 0.18,
+    "log_odds": 0.08,
+    "gold": 6,
+    "neg": 17,
+    "is_bigram": false
+  },
+  {
+    "term": "growth",
+    "block": "other",
+    "z": 0.17,
+    "log_odds": 0.07,
+    "gold": 7,
+    "neg": 20,
+    "is_bigram": false
+  },
+  {
+    "term": "women",
+    "block": "other",
+    "z": 0.07,
+    "log_odds": 0.03,
+    "gold": 7,
+    "neg": 21,
+    "is_bigram": false
+  },
+  {
+    "term": "gender",
+    "block": "other",
+    "z": 0.06,
+    "log_odds": 0.03,
+    "gold": 4,
+    "neg": 12,
+    "is_bigram": false
+  },
+  {
+    "term": "relationship",
+    "block": "other",
+    "z": -0.1,
+    "log_odds": -0.06,
+    "gold": 3,
+    "neg": 10,
+    "is_bigram": false
+  },
+  {
+    "term": "perceived",
+    "block": "other",
+    "z": -0.1,
+    "log_odds": -0.06,
+    "gold": 3,
+    "neg": 10,
+    "is_bigram": false
+  },
+  {
+    "term": "global",
+    "block": "other",
+    "z": -0.17,
+    "log_odds": -0.06,
+    "gold": 9,
+    "neg": 30,
+    "is_bigram": false
+  },
+  {
+    "term": "united states",
+    "block": "other",
+    "z": -0.23,
+    "log_odds": -0.13,
+    "gold": 3,
+    "neg": 11,
+    "is_bigram": true
+  },
+  {
+    "term": "related",
+    "block": "other",
+    "z": -0.3,
+    "log_odds": -0.15,
+    "gold": 4,
+    "neg": 15,
+    "is_bigram": false
+  },
+  {
+    "term": "adults",
+    "block": "other",
+    "z": -0.35,
+    "log_odds": -0.2,
+    "gold": 3,
+    "neg": 12,
+    "is_bigram": false
+  },
+  {
+    "term": "states",
+    "block": "other",
+    "z": -0.35,
+    "log_odds": -0.2,
+    "gold": 3,
+    "neg": 12,
+    "is_bigram": false
+  },
+  {
+    "term": "united",
+    "block": "other",
+    "z": -0.47,
+    "log_odds": -0.26,
+    "gold": 3,
+    "neg": 13,
+    "is_bigram": false
+  },
+  {
+    "term": "attitudes",
+    "block": "cause",
+    "z": -0.58,
+    "log_odds": -0.23,
+    "gold": 6,
+    "neg": 25,
+    "is_bigram": false
+  },
+  {
+    "term": "perspective",
+    "block": "other",
+    "z": -0.58,
+    "log_odds": -0.32,
+    "gold": 3,
+    "neg": 14,
+    "is_bigram": false
+  },
+  {
+    "term": "china",
+    "block": "other",
+    "z": -0.68,
+    "log_odds": -0.37,
+    "gold": 3,
+    "neg": 15,
+    "is_bigram": false
+  },
+  {
+    "term": "parenthood",
+    "block": "other",
+    "z": -0.96,
+    "log_odds": -0.5,
+    "gold": 3,
+    "neg": 18,
+    "is_bigram": false
+  },
+  {
+    "term": "social",
+    "block": "other",
+    "z": -0.96,
+    "log_odds": -0.37,
+    "gold": 6,
+    "neg": 30,
+    "is_bigram": false
+  },
+  {
+    "term": "family",
+    "block": "other",
+    "z": -0.96,
+    "log_odds": -0.4,
+    "gold": 5,
+    "neg": 26,
+    "is_bigram": false
+  },
+  {
+    "term": "countries",
+    "block": "other",
+    "z": -0.96,
+    "log_odds": -0.4,
+    "gold": 5,
+    "neg": 26,
+    "is_bigram": false
+  },
+  {
+    "term": "behavior",
+    "block": "other",
+    "z": -1.04,
+    "log_odds": -0.54,
+    "gold": 3,
+    "neg": 19,
+    "is_bigram": false
+  },
+  {
+    "term": "health",
+    "block": "other",
+    "z": -1.24,
+    "log_odds": -0.39,
+    "gold": 9,
+    "neg": 46,
+    "is_bigram": false
+  },
+  {
+    "term": "pregnancy",
+    "block": "other",
+    "z": -1.32,
+    "log_odds": -0.59,
+    "gold": 4,
+    "neg": 27,
+    "is_bigram": false
+  },
+  {
+    "term": "air pollution",
+    "block": "other",
+    "z": -1.35,
+    "log_odds": -0.67,
+    "gold": 3,
+    "neg": 23,
+    "is_bigram": true
+  },
+  {
+    "term": "risk",
+    "block": "other",
+    "z": -1.39,
+    "log_odds": -0.61,
+    "gold": 4,
+    "neg": 28,
+    "is_bigram": false
+  },
+  {
+    "term": "europe",
+    "block": "other",
+    "z": -1.42,
+    "log_odds": -0.7,
+    "gold": 3,
+    "neg": 24,
+    "is_bigram": false
+  },
+  {
+    "term": "pollution",
+    "block": "other",
+    "z": -1.45,
+    "log_odds": -0.64,
+    "gold": 4,
+    "neg": 29,
+    "is_bigram": false
+  },
+  {
+    "term": "air",
+    "block": "other",
+    "z": -1.52,
+    "log_odds": -0.66,
+    "gold": 4,
+    "neg": 30,
+    "is_bigram": false
+  },
+  {
+    "term": "carbon",
+    "block": "cause",
+    "z": -1.67,
+    "log_odds": -0.8,
+    "gold": 3,
+    "neg": 28,
+    "is_bigram": false
+  },
+  {
+    "term": "fertility",
+    "block": "effect",
+    "z": -1.81,
+    "log_odds": -0.32,
+    "gold": 30,
+    "neg": 139,
+    "is_bigram": false
+  }
+]
