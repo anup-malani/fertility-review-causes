@@ -27,7 +27,7 @@ tickets can be worked concurrently.
 > commit message dated 07-21 to 07-25 against this table; in commit messages from Alexandra's schooling
 > workstream, `TICK-032` means the compulsory-education split and needs no translation.
 >
-> **Next free number is TICK-060.** Claim a number by pushing its QUEUE.md row before starting work,
+> **Next free number is TICK-061.** Claim a number by pushing its QUEUE.md row before starting work,
 > not after. That is what would have prevented the collision. TICK-047 through TICK-053 were claimed
 > for the D.3.b climate-anxiety chain on 2026-07-27; TICK-054 (A.10) and TICK-055 (C.2.c) on
 > 2026-07-31; TICK-056 opens C.2.c library retrieval.
@@ -38,6 +38,7 @@ tickets can be worked concurrently.
 
 | Ticket | Title | Assigned | Parallel-safe |
 |--------|-------|----------|---------------|
+| [TICK-060](TICK-060-d1a-search-scope.md) | D.1.a search scope — postmaterialism, individualism, secularization. The canonical SDT framework and the hardest causal-credibility case in the list; 17 records already routed in from the D.3.b gate | Shravan | yes |
 | [TICK-048](TICK-048-d3b-fulltext-retrieval.md) | D.3.b full-text retrieval — mirror the B.1 scripts; realized-8 and desire-independence-4 first. **Watch the OA rate: it is what decides whether D.3.b avoids B.1's selection problem** | any | yes (with the full-62 half of 047) |
 | [TICK-039](TICK-039-compulsory-education-chapter-readability.md) | Compulsory-education chapter lay-readability review | Alexandra | no |
 | [TICK-030](TICK-030-replicate-gacs-agricultural-mode-production.md) | Replicate GACS for agricultural mode of production | any | no |
