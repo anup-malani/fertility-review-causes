@@ -47,7 +47,7 @@ specification:
 ```markdown
 # TICK-062: D.1.a Postmaterialism, Individualism, and Secularization
 **Status:** open
-**Assigned:** Shravan
+**Assigned:** [Alexandra/Anup/Shravan -- type in your name]
 **Hypothesis:** `postmaterialism-individualism-secularization` — HYPOTHESES-v5.md §D.1.a
 **Parallel-safe:** yes
 **Blocks:** none
