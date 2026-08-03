@@ -1,11 +1,13 @@
 # Work Queue
 
-Last updated: 2026-07-27
+Last updated: 2026-08-02
 
 Pick the first open ticket assigned to you or `any`. Before starting, pull/sync, then **claim** it
-(move its row to **In progress** below) before doing the work — using whichever mode is active in
-`README.md` (Mode A pushes the claim to `main`; Mode B pushes a `tick-NNN-*` branch). Do not start
-a blocked ticket until its dependency is done. Parallel-safe tickets can be worked concurrently.
+before doing the work. The active mode is **Mode B (branch-per-ticket)** — the simplest path is
+`scripts/ticket.sh claim NNN`, which creates and pushes the `NNN-slug` branch and flips the
+ticket status; then move its row to **In progress** below. (See `README.md` for the full loop and
+the Mode A fallback.) Do not start a blocked ticket until its dependency is done. Parallel-safe
+tickets can be worked concurrently.
 
 > **The B.1 ticket chain was renumbered on 2026-07-25 (032–037 → 041–046).** TICK-032 had been
 > assigned twice while the B.1 and schooling workstreams sat unmerged: to B.1 full-text retrieval and
@@ -25,10 +27,18 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 > commit message dated 07-21 to 07-25 against this table; in commit messages from Alexandra's schooling
 > workstream, `TICK-032` means the compulsory-education split and needs no translation.
 >
-> **Next free number is TICK-061.** Claim a number by pushing its QUEUE.md row before starting work,
+> **Next free number is TICK-064.** Claim a number by pushing its QUEUE.md row before starting work,
 > not after. That is what would have prevented the collision. TICK-047 through TICK-053 were claimed
 > for the D.3.b climate-anxiety chain on 2026-07-27; TICK-054 (A.10) and TICK-055 (C.2.c) on
 > 2026-07-31; TICK-056 opens C.2.c library retrieval.
+>
+> **One further renumber on 2026-08-02: TICK-061 → TICK-060.** The number 060 was first given to a
+> D.1.a search-scope ticket that was withdrawn before anyone claimed it, and the ticket-creation-rule
+> ticket moved down into the freed number so the sequence stays contiguous.
+> **Commits `1cfaebe`, `bd7e3be`, `ae14c64`, `9449f01` and PR #2 all name TICK-061 and mean the
+> ticket-creation-rule ticket, now TICK-060.** One commit, `eecf024`, names TICK-060 and means the
+> withdrawn D.1.a ticket; its full text is recoverable with
+> `git show eecf024:tickets/TICK-060-d1a-search-scope.md`.
 
 ---
 
@@ -36,6 +46,9 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 
 | Ticket | Title | Assigned | Parallel-safe |
 |--------|-------|----------|---------------|
+| [TICK-063](TICK-063-caldwell-wealth-flows-westernization.md) | D.1.b Cultural Westernization and Developmental Idealism
+ | Shravan | yes |
+| [TICK-062](TICK-062-postmaterialism-individualism-secularization.md) | D.1.a Postmaterialism, Individualism, and Secularization | Shravan | yes |
 | [TICK-048](TICK-048-d3b-fulltext-retrieval.md) | D.3.b full-text retrieval — mirror the B.1 scripts; realized-8 and desire-independence-4 first. **Watch the OA rate: it is what decides whether D.3.b avoids B.1's selection problem** | any | yes (with the full-62 half of 047) |
 | [TICK-039](TICK-039-compulsory-education-chapter-readability.md) | Compulsory-education chapter lay-readability review | Alexandra | no |
 | [TICK-030](TICK-030-replicate-gacs-agricultural-mode-production.md) | Replicate GACS for agricultural mode of production | any | no |
@@ -48,16 +61,20 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 
 ## In progress — claimed, do not duplicate
 
-| Ticket | Title | Owner | Claimed (UTC) | Touches |
-|--------|-------|-------|---------------|---------|
-| [TICK-060](TICK-060-second-voice-stack-pass-marriage-market.md) | Second voice-stack pass on marriage-market chapter | Alexandra | 2026-08-02T00:00:00Z | marriage-market chapter; ticket files |
-| [TICK-055](TICK-055-c2c-housing-search-scope.md) | C.2.c search scope — tenure-conditional sign (price is a cost to renters, a wealth gain to owners), pooling rule, and the C.3.e wall that a shared seminal citation proves is broken | Shravan | 2026-07-31T00:00:00Z | `literature/search-logs/housing-costs-search-scope.md` |
-| [TICK-054](TICK-054-a10-search-scope.md) | A.10 search scope — **drafted, PARKED pending Anup** on the unenumerated war-shock hypothesis and the non-additive-proximate-causes rule. Anchor sourcing is not blocked by the park | Shravan | 2026-07-31T00:00:00Z | `literature/search-logs/sex-ratio-marriage-market-search-scope.md` |
-| [TICK-049](TICK-049-d3b-effect-extraction.md) | D.3.b effect extraction — realized track first-pass done, **0 of 11 rows poolable; no recoverable CIs**; second-reader pass outstanding | Shravan | 2026-07-27T00:00:00Z | `extraction/climate-anxiety-eco-doomerism-{studies,effects-realized}.csv` |
-| [TICK-047](TICK-047-d3b-ra-gate.md) | D.3.b RA gate — boundary calls + 122 `INSUFFICIENT_INFO`; decisive-12 half gates extraction, Wall 1 (D.1.a) misroutes sampled first | Shravan | 2026-07-27T00:00:00Z | `extraction/climate-anxiety-eco-doomerism-ra-gate.csv`; `literature/search-logs/climate-anxiety-eco-doomerism-ra-gate-log.md` |
-| [TICK-046](TICK-046-b1-chapter-finalization.md) | B.1 chapter finalization — **RA work complete, awaiting Anup's review**; PI packet has 6 numbered decisions | Shravan | 2026-07-25T00:00:00Z | `output/chapters/evolutionary-sex-drive-contraceptive-decoupling{,-pi-review-packet}.md` |
-| [TICK-019](TICK-019-oas-demographic-significance-and-chapter.md) | OAS demographic significance and hybrid chapter draft | Alexandra | 2026-07-17T14:45:00Z | `output/chapters/old-age-security-pension-crowdout.md`; OAS evidence records |
-| [TICK-031](TICK-031-replicate-gacs-child-labor-schooling.md) | Replicate GACS for child-labor laws and compulsory schooling | Alexandra | 2026-07-16T22:00:00Z | `source/build/goldset/`; `literature/search-logs/child-labor-laws-and-schooling-*`; related outputs/status files |
+> Rows with `—` in the **Branch** column were claimed under Mode A, before the 2026-08-02 switch to
+> Mode B. They are valid claims, but `scripts/ticket.sh claim` cannot see them: its only collision
+> check is whether a `NNN-*` branch exists on `origin`. **Read this board before claiming** until
+> these rows have drained.
+
+| Ticket | Title | Owner | Branch (the claim) | Claimed (UTC) | Touches |
+|--------|-------|-------|--------------------|---------------|---------|
+| [TICK-055](TICK-055-c2c-housing-search-scope.md) | C.2.c search scope — tenure-conditional sign (price is a cost to renters, a wealth gain to owners), pooling rule, and the C.3.e wall that a shared seminal citation proves is broken | Shravan | — | 2026-07-31T00:00:00Z | `literature/search-logs/housing-costs-search-scope.md` |
+| [TICK-054](TICK-054-a10-search-scope.md) | A.10 search scope — **drafted, PARKED pending Anup** on the unenumerated war-shock hypothesis and the non-additive-proximate-causes rule. Anchor sourcing is not blocked by the park | Shravan | — | 2026-07-31T00:00:00Z | `literature/search-logs/sex-ratio-marriage-market-search-scope.md` |
+| [TICK-049](TICK-049-d3b-effect-extraction.md) | D.3.b effect extraction — realized track first-pass done, **0 of 11 rows poolable; no recoverable CIs**; second-reader pass outstanding | Shravan | — | 2026-07-27T00:00:00Z | `extraction/climate-anxiety-eco-doomerism-{studies,effects-realized}.csv` |
+| [TICK-047](TICK-047-d3b-ra-gate.md) | D.3.b RA gate — boundary calls + 122 `INSUFFICIENT_INFO`; decisive-12 half gates extraction, Wall 1 (D.1.a) misroutes sampled first | Shravan | — | 2026-07-27T00:00:00Z | `extraction/climate-anxiety-eco-doomerism-ra-gate.csv`; `literature/search-logs/climate-anxiety-eco-doomerism-ra-gate-log.md` |
+| [TICK-046](TICK-046-b1-chapter-finalization.md) | B.1 chapter finalization — **RA work complete, awaiting Anup's review**; PI packet has 6 numbered decisions | Shravan | — | 2026-07-25T00:00:00Z | `output/chapters/evolutionary-sex-drive-contraceptive-decoupling{,-pi-review-packet}.md` |
+| [TICK-019](TICK-019-oas-demographic-significance-and-chapter.md) | OAS demographic significance and hybrid chapter draft | Alexandra | — | 2026-07-17T14:45:00Z | `output/chapters/old-age-security-pension-crowdout.md`; OAS evidence records |
+| [TICK-031](TICK-031-replicate-gacs-child-labor-schooling.md) | Replicate GACS for child-labor laws and compulsory schooling | Alexandra | — | 2026-07-16T22:00:00Z | `source/build/goldset/`; `literature/search-logs/child-labor-laws-and-schooling-*`; related outputs/status files |
 
 ## Blocked — waiting on dependency
 
@@ -76,6 +93,9 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 
 | Ticket | Title | Closed |
 |--------|-------|--------|
+| [TICK-061](TICK-061-one-ticket-per-hypothesis.md) | One ticket and one branch per hypothesis; PROTOCOL §5 stages become the checklist. **Pending PI confirmation at the Monday sync** | 2026-08-02 |
+| [TICK-060](TICK-060-document-ticket-creation-rule.md) | Document where ticket creation happens under Mode B, plus the four `ticket.sh` constraints on new ticket files. First ticket run end-to-end through the Mode B loop. **Numbered TICK-061 in commit history** | 2026-08-02 |
+| [TICK-008](TICK-008-collab-system-design.md) | Design team collaboration/ticketing system; Mode B implementation and `scripts/ticket.sh` | 2026-08-02 |
 | [TICK-059](TICK-059-rewrite-marriage-market-voice-stack.md) | Rewrite marriage-market chapter with voice-stack | 2026-08-01 |
 | [TICK-058](TICK-058-marriage-market-assortative-mating-scoping.md) | Marriage-market and assortative-mating scoping search and chapter scaffold | 2026-08-01 |
 | [TICK-057](TICK-057-install-voice-stack.md) | Install voice-stack for Codex | 2026-08-01 |
@@ -90,7 +110,6 @@ a blocked ticket until its dependency is done. Parallel-safe tickets can be work
 | [TICK-020](TICK-020-oas-theory-stream.md) | OAS theory stream for JEL-style mechanism section | 2026-07-11 |
 | [TICK-007](TICK-007-gift-shravan-claude-max.md) | Gift Shravan Claude Max | 2026-06-14 |
 | [TICK-011](TICK-011-hypotheses-recategorization.md) | Recategorize HYPOTHESES.md | 2026-06-14 (merged into TICK-001) |
-| [TICK-008](TICK-008-collab-system-design.md) | Design team collaboration/ticketing system | 2026-06-14 |
 | [TICK-013](TICK-013-agent-interop-doc.md) | Document Claude / Codex interop | 2026-06-27 |
 | [TICK-014](TICK-014-meta-analysis-paper-pipeline-design.md) | Design meta-analysis-to-paper pipeline | 2026-07-03 |
 | [TICK-015](TICK-015-oas-fulltext-screen.md) | OAS full-text screen and retrieval reconciliation | 2026-07-03 |
