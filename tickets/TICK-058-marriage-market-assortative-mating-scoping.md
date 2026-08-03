@@ -1,5 +1,5 @@
 # TICK-058: Marriage-market and assortative-mating scoping search and chapter scaffold
-**Status:** done
+**Status:** in-progress
 **Assigned:** Alexandra
 **Parallel-safe:** yes
 **Blocked by:** Production screening and final synthesis depend on TICK-001 and TICK-006
@@ -25,3 +25,6 @@ bibliographic identities against publisher or institutional records, wrote the c
 estimand rules, and drafted the protocol chapter scaffold. The work separates causal fertility
 studies from descriptive sorting studies and leaves PRISMA, extraction, pooling, demographic
 significance, and GRADE pending approval and preregistration.
+
+2026-08-02, Alexandra/Codex: Reopened the hypothesis ticket under the new one-ticket-per-hypothesis
+rule for a fresh voice-stack rewrite requested by the user.

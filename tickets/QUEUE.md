@@ -68,6 +68,7 @@ tickets can be worked concurrently.
 
 | Ticket | Title | Owner | Branch (the claim) | Claimed (UTC) | Touches |
 |--------|-------|-------|--------------------|---------------|---------|
+| [TICK-058](TICK-058-marriage-market-assortative-mating-scoping.md) | Marriage-market and assortative-mating hypothesis | Alexandra | `058-marriage-market-economics` | 2026-08-02T00:00:00Z | `literature/search-logs/marriage-market-economics-*`; chapter; bibliography registry |
 | [TICK-055](TICK-055-c2c-housing-search-scope.md) | C.2.c search scope — tenure-conditional sign (price is a cost to renters, a wealth gain to owners), pooling rule, and the C.3.e wall that a shared seminal citation proves is broken | Shravan | — | 2026-07-31T00:00:00Z | `literature/search-logs/housing-costs-search-scope.md` |
 | [TICK-054](TICK-054-a10-search-scope.md) | A.10 search scope — **drafted, PARKED pending Anup** on the unenumerated war-shock hypothesis and the non-additive-proximate-causes rule. Anchor sourcing is not blocked by the park | Shravan | — | 2026-07-31T00:00:00Z | `literature/search-logs/sex-ratio-marriage-market-search-scope.md` |
 | [TICK-049](TICK-049-d3b-effect-extraction.md) | D.3.b effect extraction — realized track first-pass done, **0 of 11 rows poolable; no recoverable CIs**; second-reader pass outstanding | Shravan | — | 2026-07-27T00:00:00Z | `extraction/climate-anxiety-eco-doomerism-{studies,effects-realized}.csv` |
@@ -97,7 +98,6 @@ tickets can be worked concurrently.
 | [TICK-060](TICK-060-document-ticket-creation-rule.md) | Document where ticket creation happens under Mode B, plus the four `ticket.sh` constraints on new ticket files. First ticket run end-to-end through the Mode B loop. **Numbered TICK-061 in commit history** | 2026-08-02 |
 | [TICK-008](TICK-008-collab-system-design.md) | Design team collaboration/ticketing system; Mode B implementation and `scripts/ticket.sh` | 2026-08-02 |
 | [TICK-059](TICK-059-rewrite-marriage-market-voice-stack.md) | Rewrite marriage-market chapter with voice-stack | 2026-08-01 |
-| [TICK-058](TICK-058-marriage-market-assortative-mating-scoping.md) | Marriage-market and assortative-mating scoping search and chapter scaffold | 2026-08-01 |
 | [TICK-057](TICK-057-install-voice-stack.md) | Install voice-stack for Codex | 2026-08-01 |
 | [TICK-056](TICK-056-c2c-library-retrieval.md) | C.2.c library retrieval — identified core 15/15 via Zotero; associational remainder closed with a recommendation not to pursue | 2026-07-31 |
 | [TICK-045](TICK-045-b1-demographic-significance.md) | B.1 demographic-significance pass | 2026-07-25 |
