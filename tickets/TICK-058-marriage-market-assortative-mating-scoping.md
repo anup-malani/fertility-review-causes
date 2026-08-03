@@ -28,3 +28,7 @@ significance, and GRADE pending approval and preregistration.
 
 2026-08-02, Alexandra/Codex: Reopened the hypothesis ticket under the new one-ticket-per-hypothesis
 rule for a fresh voice-stack rewrite requested by the user.
+
+2026-08-02, Alexandra/Codex: Rewrote the claim, matching model, causal chain, adaptation discussion,
+and quantitative-synthesis opening in the current social-explainer voice. The revision preserves all
+pending evidence judgments and passes the manual red-pen and AI-tell screens.

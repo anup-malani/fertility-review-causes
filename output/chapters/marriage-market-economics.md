@@ -12,46 +12,47 @@ not occurred.
 
 ## 1. The claim
 
-Finding a partner constrains fertility because most people still raise children with someone else.
-Suppose a woman wants two children but also wants a partner with a stable job and a similar outlook
-on family life. Her city may contain equal numbers of women and men, yet relatively few men who meet
-those conditions. She can wait, choose a different kind of partner, have a child without a partner,
-or have fewer children than she wanted. The local headcount never changed, but the pool of partners
-she considers suitable did.
+Fertility depends partly on whether people find someone with whom they want to raise a child.
+Imagine a town with 100 single women and 100 single men. The headcount looks balanced. Yet the town
+can still have a matching problem if many people cannot find a partner with the education, earnings,
+stability, or approach to family life they are willing to accept. Some residents will wait. Others
+will broaden their search, cohabit, raise a child outside marriage, or end up with fewer children
+than they wanted.
 
-The hypothesis is that changes in this suitable-partner pool alter fertility. Education, earnings,
-employment, incarceration, and the difficulty of meeting compatible people can affect who forms a
-union and when. Delayed or foregone unions may reduce births, especially where childbearing remains
-closely tied to marriage. Adaptation through cohabitation, marriage across education groups, or
-nonmarital childbearing can absorb some or all of the effect.
+The hypothesis is that changes in the supply of suitable partners alter fertility. Partner
+characteristics affect whether a union forms, when it forms, and which two people form it. A delay
+can shorten the years available for childbearing, while a union that never forms can remove those
+years altogether. The effect should be strongest where births remain closely tied to marriage and
+weakest where people readily adapt through cohabitation, nonmarital childbearing, or partnerships
+across education and income groups.
 
-This chapter studies partner characteristics and matching costs. A raw shortage of men or women
-belongs to the separate sex-ratio chapter. The distinction is concrete: 100 men and 100 women create
-a balanced headcount, but the partner market may still be unbalanced if many of the men lack the
-employment, education, or other traits women seek, or if men and women disagree about how work and
-childcare should be divided.
+The suitable-partner mechanism differs from a numerical shortage of one sex. The sex-ratio chapter
+asks what happens when the town contains 130 men and 70 women. This chapter asks why matching may
+fail even when the town contains 100 of each. The treatment is the characteristics of available
+partners and the cost of finding a workable match.
 
 ## 2. The theoretical mechanism
 
 ### Why a partner market exists
 
-A partnership creates gains that neither person can obtain as easily alone. Two people can share a
-home, insure each other against income shocks, divide paid and unpaid work, and raise children
-together. Each person compares those gains with the value of remaining single and continuing to
-search. A union forms when both people prefer the match to their available alternatives.
+A partnership lets two people do things that would be harder or more expensive alone. Partners can
+share a home, protect each other against income shocks, divide paid and unpaid work, and raise
+children together. Each person compares those benefits with remaining single and continuing to
+search. A union forms only when both people prefer the match to their available alternatives.
 
-Gary Becker turned this idea into a model of marriage. The model treats potential partners as two
-sides of a market, much as workers and employers form a labor market. People differ in traits that
-matter to a household, including earnings, education, preferences, and skill at household work.
-Those traits determine how much a particular pair can gain from joining their lives.
+Gary Becker expressed the same idea as a market. Potential partners resemble workers and employers
+in one limited respect: each side searches among alternatives, and a match must benefit both sides.
+Earnings, education, preferences, and skill at household work affect what a pair can accomplish
+together. The model therefore predicts that a change in these traits can change both who pairs and
+how many people pair at all.
 
 ### Why similar people often pair
 
 People pair with similar partners more often than chance would predict. Schools, workplaces, and
-neighborhoods place similar people in the same rooms. Similar partners may also agree more easily
-about spending, careers, and children, or may produce larger gains by combining their resources.
-Researchers call the general pattern *assortative mating*. When the shared trait is education, a
-couple with similar schooling is an educationally homogamous couple.
+neighborhoods place similar people in the same rooms. Similar partners may agree more easily about
+spending, careers, and children, or may gain more by combining their resources. Researchers call
+this pattern *assortative mating*. A couple with similar schooling is *educationally homogamous*;
+homogamy simply means that the partners share a measured trait.
 
 Observed similarity cannot reveal its own cause. Imagine that almost every physician is married to
 another highly educated professional. The pattern could reflect a preference for education, the
@@ -66,10 +67,10 @@ descriptive pattern alone establishes that assortative mating caused fertility t
 
 ### How matching can reach fertility
 
-The proposed mechanism has three links. Partner characteristics first change the set of acceptable
-or attainable matches. The change in available matches then affects whether people form a union,
-how long they search, and whom they choose. Union formation and partner type finally affect births
-through the years exposed to partnered childbearing, household income, bargaining over family size,
+The proposed mechanism has three links. First, partner characteristics change the set of matches a
+person can attain and is willing to accept. Second, that set affects whether a union forms, how long
+the search lasts, and which match is chosen. Third, union formation and partner type affect births
+through time available for partnered childbearing, household income, bargaining over family size,
 and the division of childcare.
 
 A study can support one link without supporting the whole chain. A paper showing that an education
@@ -80,10 +81,10 @@ fertility for the same affected cohorts.
 
 ### Why the effect can disappear or change sign
 
-People can respond to a thin partner pool in several ways. A college-educated woman who cannot find
-a college-educated man may marry a man with less schooling. A couple may cohabit instead of marrying.
-A person may have a child while single. Each response weakens the link between a shortage of
-preferred spouses and total births.
+Adaptation can stop a thin partner pool from becoming a fertility decline. A college-educated woman
+who cannot find a college-educated man may marry a man with less schooling. A couple may cohabit
+instead of marrying, and a person may have a child while single. Each response weakens the link
+between a shortage of preferred spouses and total births.
 
 Kearney and Wilson's study of fracking booms shows why the adjustment margin matters. The booms
 raised the earnings of men without college degrees. Both marital and nonmarital births increased,
@@ -148,19 +149,19 @@ estimate, and mechanism claim.
 
 ## 6. Quantitative synthesis
 
-No pooled estimate is justified from the scoping evidence. The candidate causal studies examine
-different events, including trade competition, fracking booms, and broader changes in
-gender-specific labor demand. They report different outcomes, including total births, marital
-births, nonmarital births, and births within particular age ranges. Combining those coefficients
-would produce a precise-looking number with no stable interpretation.
+No pooled estimate is justified from the scoping evidence because the candidate studies do not
+estimate the same thing. One examines trade competition, another examines fracking booms, and a
+third constructs broader changes in labor demand for men and women. Their outcomes also differ:
+total births, marital births, nonmarital births, and births within particular age ranges. Averaging
+the coefficients would attach one number to several different questions.
 
-The early results nevertheless show why the hypothesis deserves a full review. Schaller finds that
-stronger male labor demand is associated with higher birth rates, while stronger female labor
-demand has smaller negative effects. Autor, Dorn, and Hanson find that trade shocks which reduce
-young men's relative employment and earnings also reduce marriage and fertility. Kearney and Wilson
-find the reverse earnings shock raises births but does not raise marriage. The three studies point
-toward a fertility response to relative economic prospects, while the fracking result warns against
-treating marriage as the only channel.
+The three studies still tell a coherent early story. Schaller finds that stronger demand for men's
+labor is associated with higher birth rates, while stronger demand for women's labor has smaller
+negative effects. Autor, Dorn, and Hanson find that trade shocks which reduce young men's relative
+employment and earnings also reduce marriage and fertility. Kearney and Wilson study a shock in the
+opposite direction: fracking raises less-educated men's earnings and births, yet marriage does not
+rise. Male economic prospects appear to affect fertility, but the fracking result shows that the
+effect need not travel through marriage alone.
 
 The production extraction will test whether at least three independent studies share a treatment
 direction, outcome family, unit, and usable standard error. If no comparable set exists, the chapter
@@ -213,8 +214,8 @@ whether a shortage of preferred partners prevents family formation or merely cha
 legal form.
 
 The most informative future study would combine a sex-specific education or labor-market shock with
-a clearly defined partner market. The study would measure how the shock changes the available pool,
-which matches form, and how many children affected people eventually have. That sequence would let
+a defined partner market. The study would measure how the shock changes the available pool, which
+matches form, and how many children affected people ultimately have. That sequence would let
 researchers test the complete mechanism instead of inferring it from one link.
 
 ## 11. References
