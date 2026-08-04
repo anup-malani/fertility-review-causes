@@ -23,6 +23,28 @@
 - [ ] 14. PI review and sign-off
 
 ## Log
+- 2026-08-03 (Shravan, PI-relayed guidance): **a hypothesis is a treatment × outcome pair. Mediators
+  and mechanisms do not define it and do not route a paper.** Scope doc rewritten onto that spine; the
+  cause → effect-plus-mechanism version is at commit `8811c17`. What the rewrite changed:
+  **(1) Routing collapsed to a two-question test** — is the regressor a value measure of the specified
+  content, and is the dependent variable fertility. Eleven walls became **seven**, because the four
+  that existed to adjudicate mediators dissolved: A.3/A.6/A.20 merged into one wall that simply names
+  their treatments, and the root-cause-versus-proximate reasoning behind it is gone. D.1.a owns any
+  estimate whose regressor is a value measure, including when the fitted effect plainly runs through
+  contraceptive use or marriage timing.
+  **(2) The non-additivity item is demoted out of the walls.** Under this definition it is **not a
+  scoping problem at all** — the treatments differ, so routing is clean and no study is double-counted.
+  It reappears only at §7, where overlapping shares of one decline get added. Stays folded into
+  TICK-054, out of this chapter's scope.
+  **(3) Ruling 2 got sharper, not weaker.** The measure-content bar restates as a **degenerate-pair
+  rule**: when the treatment measure and the outcome measure are the same construct, there is no pair.
+  Own approval of childlessness against own childlessness is one variable measured twice.
+  **(4) A new recommendation falls straight out of the definition.** Five treatments against one
+  outcome is **five pairs, hence arguably five hypotheses**, and the master list should probably split
+  D.1.a starting with S3 (secularization), the only one with a rateable evidence base. Precedent at
+  TICK-032.
+  **(5) The convention needs a home in `PROTOCOL.md`.** It changes routing in every chapter, not only
+  this one, and a convention no operating file states is inert per the ticket-closing rule. Escalated.
 - 2026-08-03 (Shravan/Claude): **scope drafted, deliberately NOT frozen.**
   `literature/search-logs/postmaterialism-individualism-secularization-search-scope.md`. Five strata,
   eleven walls, 25 estimand cells, ten required per-effect tags, five pre-registered rulings. The
