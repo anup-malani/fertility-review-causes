@@ -23,6 +23,42 @@
 - [ ] 14. PI review and sign-off
 
 ## Log
+- 2026-08-03 (Shravan/Claude): **Tier-1 design probe. Tier 1 exists and it is three studies.**
+  `literature/search-logs/{slug}-tier1-design-probe.md`; script
+  `source/build/goldset/90_d1a_tier1_design_probe.py`. 24 narrow probes, all under the five-operator
+  cap, 257 distinct records unioned client-side — the structure the cap forces, and the pattern the
+  production query will have to use.
+  **(1) Three credible Tier 1 candidates, all S3, all published since 2018:** Political Islam,
+  Marriage and Fertility (*AJS* 2018, `10.1086/696193`); Secularization and low fertility, on declining
+  church membership (*Social Science Research* 2026, `10.1016/j.ssresearch.2026.103371`); and a
+  religious-leader intervention in Georgia (*JPopE* 2025, `10.1007/s00148-025-01092-5`).
+  **(2) The empty shock families are as informative as the full ones, and the chapter should say so.**
+  Blue laws and Sunday trading: **zero**. Clergy-scandal shocks: **zero**. State atheism: five hits,
+  none with a fertility outcome. The Gruber-Hungerman design family has been applied to religiosity and
+  then to drinking, drug use and crime, never to fertility; the Soviet and Albanian campaigns are the
+  largest deliberate secularization shocks in history and appear never to have been used to identify a
+  fertility effect. That is a specific checkable gap and it belongs in §10 as the recommended study.
+  **(3) S1 is not empty of estimates, only of identified ones** — a refinement on the scope. Found
+  Lesthaeghe and Surkyn 1988 (*PDR*, 719c, a v5 seminal name now confirmed), an explicit empirical
+  horse-race between the competing accounts (*PDR* 2022, `10.1111/padr.12490`, priority read), and a
+  German-language postmaterialism-to-fertility study from 1990. So S1 can be *reported* without being
+  *rated* above Very Low, which is a better chapter section than "no evidence exists."
+  **(4) New question the scope missed: language coverage.** The German study is a reminder that the
+  continental European core of this literature is not all in English, and Lesthaeghe's early work is
+  partly Dutch and French. An English-only production query would systematically drop exactly the
+  FDT-era material Ruling 4 just admitted. Needs a decision at the query build, not a default.
+  **(5) The single most useful paper found today is a `REVERSE` record.**
+  `10.1093/esr/jcac060`, "Does forming a nuclear family increase religiosity? Longitudinal evidence
+  from the BHPS" (*ESR* 2022) sizes the reverse arrow. It carries no effect estimate for this chapter
+  and it measures the binding risk-of-bias domain, so it should be cited in the risk-of-bias section
+  rather than buried in a context list.
+  **(6) Fernández and Fogli 2009 confirmed** (`10.1257/mac.1.1.146`, 1242c) — the most-cited record in
+  the whole union, listed as seminal under A.19, and Wall 5 says its routing turns on proxy content.
+  Must be read at full text before assignment, never routed from the abstract.
+  **(7) The clinical collision recurs inside the design probes** — `design_iv` returned livestock
+  reproduction and haemophilia, and the Hutterite probe returned human-genetics work on HLA antigens
+  next to the demography. Three separate probe designs now. It is a property of the outcome vocabulary,
+  not of any one query, and the production query needs the exclusion built in from the start.
 - 2026-08-03 (Shravan/Claude): **cold-start channel-1 probe run, per pair. Channel 1 is empty for
   four of the five pairs.** `literature/search-logs/{slug}-channel1-probe.md`; script
   `source/build/goldset/89_d1a_channel1_probe.py`; raw at `temp/d1a/`.
