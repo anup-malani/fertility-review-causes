@@ -23,6 +23,46 @@
 - [ ] 14. PI review and sign-off
 
 ## Log
+- 2026-08-03 (Shravan/Claude): **channel-3 snowball round 1. 2,423 pulled, 1,970 distinct, 86
+  relevant, yield 1.77 per 50 against a floor of 1.0 — saturation NOT reached, round 2 required.**
+  `literature/search-logs/{slug}-snowball-log.md`; scripts `93_d1a_snowball_r1.py`,
+  `94_d1a_relabel_pool.py`; canon resolution at `{slug}-canon-seed-resolution.md` (`92_...`).
+  **(1) The frame is built off Crossref and Semantic Scholar, not OpenAlex, and this should stay that
+  way.** Forced first: **OpenAlex has moved its free tier to a metered budget**, and scripts 89–92
+  exhausted a full day's allowance in about an hour. The six UNCONFIRMED rows in 92 are that, not
+  missing papers — the three-state rule held twice today. But it is also *better*: PROTOCOL §5.1
+  already names both providers, and building Tier B off a different provider than the one that
+  produced Tier A makes the frame orthogonal in infrastructure as well as method, so Recall(B) is a
+  stronger test. **Request a Semantic Scholar API key before the next chapter's snowball** —
+  unauthenticated S2 throttled partway through.
+  **(2) The relevance filter was wrong in BOTH directions and a hand audit is the only thing that
+  found it.** Bug A: `reproduc\w+` admitted *social* reproduction and reproductive **health** —
+  it scored Bourdieu's *Reproduction in Education, Culture and Society* as on-pair. Bug B, worse:
+  quoted phrases carried from OpenAlex query syntax into a Python verbose regex, where
+  `"second demographic transition"` matches only text containing literal quote characters, so **the
+  chapter's most central phrase never matched anything.** Corrected 79 → 86 relevant, 1.63 → 1.77.
+  **The lesson sharpens C.2.c's:** a classifier can be wrong in both directions at once, the errors
+  partially cancel, and the summary statistic is therefore the last place either shows up. A net
+  movement of seven records concealed two errors that each distorted the frame. Read admitted *and*
+  rejected samples, not just admitted.
+  **(3) A self-inflicted seed error, stated plainly.** van de Kaa 1987 — the most-cited SDT statement
+  in the field, ~1,950 citations — contributed **2** forward citations because I hand-typed a DOI into
+  the seed table. Script 92 had already resolved it correctly and reported that the work carries **no
+  registered DOI**; I did not read my own resolver's output. This is the exact failure the existence
+  gate exists to prevent, committed one step after building the gate. Consequences: the round-1 frame
+  under-reaches the SDT family by roughly its central work's citation neighbourhood, so **1.77 is a
+  lower bound on coverage, not a stable saturation reading**; and **seed tables must be generated from
+  resolver output, never typed** — a process change, not just a fix.
+  **(4) Seed criterion recorded: specificity of the citation neighbourhood, not fame.** Hofstede 1980
+  (15,158c) and Schwartz 1992 both resolve and are deliberately NOT seeded — they are canon for a
+  *construct*, not for this pair, and would bury the frame. The obvious alternative, keyword-filtering
+  the frame down to fertility papers, is **refused on purpose**: it would inflate Recall(B), which is
+  the OAS and C.2.c error. Also: the resolver caught **Schwartz 1992 resolving to the wrong paper**
+  entirely, and it carries `RESOLVED_DISCREPANT`.
+  **(5) v5 seminal field audited** (`92_...`). Verified: Lesthaeghe 1983, van de Kaa 1987, Lesthaeghe
+  and Surkyn 1988, Norris and Inglehart 2004. **Lesthaeghe and van de Kaa 1986 and Hagestad and Call
+  2007 did not resolve**; Frejka and Westoff 2008 is UNCONFIRMED on budget exhaustion, not absence.
+  Re-run after the OpenAlex reset before drawing any conclusion about the two unresolved names.
 - 2026-08-03 (Shravan/Claude): **cold-start anchor set built and existence-gated. 48 anchors, 31
   empirical, the ≥30 CV floor CLEARED, zero ghosts.**
   `literature/search-logs/{slug}-cold-start-anchors.{json,md}`; script
