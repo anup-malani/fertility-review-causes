@@ -23,6 +23,39 @@
 - [ ] 14. PI review and sign-off
 
 ## Log
+- 2026-08-03 (Shravan/Claude): **cold-start channel-1 probe run, per pair. Channel 1 is empty for
+  four of the five pairs.** `literature/search-logs/{slug}-channel1-probe.md`; script
+  `source/build/goldset/89_d1a_channel1_probe.py`; raw at `temp/d1a/`.
+  **(1) The result inverts the scope's prediction, and the inversion is the finding.** The scope
+  expected reviews to exist for secularization and not for postmaterialism, individualism, or
+  consumerism. The negative half holds. The positive half does not: `religion AND fertility` with
+  `type:review` returns **zero across all fields**, and the only syntheses that exist are two
+  sub-Saharan Africa regional ones. Religion and fertility has been studied for a century and never
+  systematically synthesised outside one region. So the pair expected to carry the chapter is the
+  pair that cannot be bootstrapped from external authority, and its anchors have to come from
+  channels 2 and 3.
+  **(2) Third chapter running to find channel 1 thin or empty** — D.3.b (literature too new), C.2.c
+  (never synthesised), D.1.a (four pairs empty, fifth regional). Three different causes, one outcome.
+  **GACS §7 move 5 should now be reported as tested and failing on this leg rather than left open**;
+  in practice the bootstrap runs on channels 2 and 3.
+  **(3) Two production-query hazards found, both of which have to be fixed in the query rather than
+  paid for at screening.** The bare outcome axis collides head-on with clinical medicine — *fertility*
+  reads as IVF, *birth* as birth weight, and OpenAlex stemming matched *individualism* to
+  "individualiSED dosing of follitropin delta"; the top-cited hit across three separate pairs was a
+  systematic review of antenatal care. Same class as C.2.c's `housing AND fertility` against livestock
+  housing. Second, **OpenAlex throttles boolean searches above five operators** and returns a rate-limit
+  error, which a GACS cause axis with eight OR'd terms exceeds on its own. Worth checking against the
+  production-query builders already written for B.1, D.3.b, and C.2.c: a throttled query that still
+  returns a plausible count is the failure mode that does not announce itself, which is the shape of
+  the C.2.c relevance-filter bug.
+  **(4) Positive controls were run before any pair was declared empty**, per the C.2.c lesson that a
+  failed lookup usually means a wrong query string. All four pass, including Zaidi and Morgan 2017
+  (301c) and Lesthaeghe and Wilson's 1986 Princeton EFP secularization chapter — **the FDT-era anchor
+  Ruling 4 was written to admit, now confirmed to exist.**
+  **(5) Thirteen S3 anchor candidates surfaced incidentally and none is a natural experiment.** Every
+  one is Tier 3 or Tier 4 on the face of its title. The Tier 1 material the chapter needs — church-tax
+  reform, blue-law repeal, state secularization campaigns, clergy-scandal shocks — will have to be
+  sought by *design* vocabulary rather than by topic. That is the next probe.
 - 2026-08-03 (Shravan, PI-relayed guidance): **a hypothesis is a treatment × outcome pair. Mediators
   and mechanisms do not define it and do not route a paper.** Scope doc rewritten onto that spine; the
   cause → effect-plus-mechanism version is at commit `8811c17`. What the rewrite changed:
