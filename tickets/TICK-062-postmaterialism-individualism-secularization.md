@@ -23,6 +23,37 @@
 - [ ] 14. PI review and sign-off
 
 ## Log
+- 2026-08-03 (Shravan/Claude): **cold-start anchor set built and existence-gated. 48 anchors, 31
+  empirical, the ≥30 CV floor CLEARED, zero ghosts.**
+  `literature/search-logs/{slug}-cold-start-anchors.{json,md}`; script
+  `source/build/goldset/91_d1a_cold_start_anchors.py`. Composition: 31 EMPIRICAL / 4 THEORY /
+  10 DECOY / 2 CHANNEL1_REVIEW / 1 REVERSE. Empirical by pair **S3 23, S1 5, S5 2, S2 1**; by design
+  tier **Tier 1: 3, Tier 2: 6, Tier 3: 21, Tier 4: 1**. The composition is the chapter's shape in
+  miniature and it matches what Ruling 3 predicted: three-quarters of the anchor set can support
+  nothing above Very Low.
+  **(1) The existence gate false-ghosted 24 of 45 anchors on its first run, and the bug was mine.**
+  The check used `curl -I -L`, which follows doi.org's 302 through to the publisher — and Annual
+  Reviews, the AEA, Oxford and Wiley all answer an automated request with **403**. The gate read those
+  403s as non-existence and reported Zaidi and Morgan 2017 and Fernández and Fogli 2009 as fabricated,
+  an hour after OpenAlex had confirmed both live. **The correct test is whether doi.org KNOWS the
+  identifier — 302 registered, 404 unknown — and the redirect must not be followed.** Publisher
+  bot-blocking is not evidence about whether a paper exists. This is the same class as the C.2.c
+  false-ghost call, and it fails in the direction that looks like diligence: a gate that invents
+  ghosts reads as rigour right up until it deletes a real literature.
+  **(2) Fixed properly rather than patched: the gate now takes three independent existence witnesses**
+  — registered DOI, live Crossref record, PubMed identifier — and calls GHOST only when all three fail.
+  **(3) The third witness was not defensive coding; it caught a real case.** "Human fertility and
+  religions in sub-Saharan Africa" (*Afr J Reprod Health* 2023) is a real paper carrying PMID 37584963
+  whose DOI was never registered with Crossref. Under the resolution rule that is the dead-identifier
+  case: keep, key on title, do not drop. Recorded as `VERIFIED_TITLE_KEYED`. **The blind spot is
+  systematic, not incidental — a Crossref-plus-doi.org gate false-ghosts journals outside the
+  Anglo-European publishing infrastructure**, which would thin the anchor set in exactly the direction
+  this chapter's geographic-skew limitation already runs. Worth propagating to the other chapters'
+  gates.
+  **(4) A reproducibility gap found and closed.** Ten selected anchors were first seen in ad-hoc
+  probes run at the terminal rather than in scripts 89 or 90, so they lived in a session transcript
+  and nowhere a script could read. The set would not have rebuilt from the repo alone. Fixed with a
+  live OpenAlex-by-DOI fallback; bibliographic fields still never come from a hand-typed literal.
 - 2026-08-03 (Shravan/Claude): **Tier-1 design probe. Tier 1 exists and it is three studies.**
   `literature/search-logs/{slug}-tier1-design-probe.md`; script
   `source/build/goldset/90_d1a_tier1_design_probe.py`. 24 narrow probes, all under the five-operator
