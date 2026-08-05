@@ -23,6 +23,14 @@
 - [ ] 14. PI review and sign-off
 
 ## Log
+- 2026-08-04 (PI ruling, relayed by Shravan): **whichever stop rule is hit first is the one used.**
+  Applied to the round-2 escalation: the PROTOCOL §5.1 two-round depth cap was hit first, since the
+  GACS §7.2 yield floor was never reached in either round, so **the cap binds and the snowball is
+  closed at round 2.** Round 3 is not run and is not pending. Channel 3 is complete; D.1.a's search
+  stage now moves to the Tier-A production query. **Escalated: the convention is general, not
+  D.1.a-specific, and needs to land in `PROTOCOL.md`** — it resolves the same conflict wherever a
+  yield rule and a depth cap coexist, and a convention no operating file states is inert. Second
+  convention this chapter has sent to PROTOCOL, after the treatment × outcome routing definition.
 - 2026-08-04 (Shravan/Claude): **channel-3 snowball round 2. 11,610 pulled, 410 new relevant, yield
   1.77 per 50 against a floor of 1.0 — saturation NOT reached, and the depth cap now blocks the
   round the yield rule calls for.** `literature/search-logs/{slug}-snowball-log.md` (rewritten to

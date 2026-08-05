@@ -45,9 +45,12 @@ previous chapter reached round 2 above the floor.
   "round 3 returns less than 5% new material." That prediction is false here: round 2 returned 7,652
   records unseen in round 1, against a round-1 pool of 1,970.
 
-So the depth cap says stop and the yield rule says continue. **Round 3 is not run** — the cap is the
-narrower committed constraint and an RA should not spend it unilaterally — and the choice is escalated
-with the numbers attached. The substantive question is whether the D.1.a frame is genuinely
+So the depth cap says stop and the yield rule says continue. **RESOLVED (PI, 2026-08-04): whichever
+stop rule is hit first governs.** The depth cap was hit first — the yield floor was never reached in
+either round — so the cap binds and **the snowball is closed at round 2**. Round 3 is not run and is
+not pending authorisation. The general convention (first rule hit wins) applies to every chapter and
+belongs in `PROTOCOL.md`, which is escalated separately; a convention no operating file states is
+inert. The substantive question is whether the D.1.a frame is genuinely
 non-convergent or whether generation-2 seeding inflates yield mechanically, since seeding 82 on-pair
 papers guarantees on-pair neighbourhoods. **The honest reading is that round 2's 1.77 is not
 comparable to round 1's 1.75**: round 1 was seeded from 9 framework statements and reviews, round 2
