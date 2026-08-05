@@ -5,6 +5,14 @@
 .mcp.json
 .claude/
 
+# API credentials. Scripts read these from the environment (OPENALEX_API_KEY, S2_API_KEY);
+# .env holds them for local runs and must never be committed.
+.env
+.env.*
+!.env.example
+*.key
+secrets/
+
 # Editor files
 *.swp
 *.swo

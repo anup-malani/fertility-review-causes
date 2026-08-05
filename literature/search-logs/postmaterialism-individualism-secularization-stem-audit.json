@@ -1,0 +1,445 @@
+{
+ "slug": "postmaterialism-individualism-secularization",
+ "stage": "C1-diagnostic",
+ "dead_below": 200,
+ "n_wildcard_terms": 45,
+ "n_dead": 24,
+ "terms": [
+  {
+   "cluster": "OUTCOME",
+   "query_term": "childbear*",
+   "sent_as": "childbear",
+   "count": 0,
+   "dead": true
+  },
+  {
+   "cluster": "OUTCOME",
+   "query_term": "childless*",
+   "sent_as": "childless",
+   "count": 2586,
+   "dead": false
+  },
+  {
+   "cluster": "OUTCOME",
+   "query_term": "fertilit*",
+   "sent_as": "fertilit",
+   "count": 63,
+   "dead": true
+  },
+  {
+   "cluster": "OUTCOME",
+   "query_term": "fertility intention*",
+   "sent_as": "fertility intention",
+   "count": 331,
+   "dead": false
+  },
+  {
+   "cluster": "OUTCOME",
+   "query_term": "fertility preference*",
+   "sent_as": "fertility preference",
+   "count": 780,
+   "dead": false
+  },
+  {
+   "cluster": "OUTCOME",
+   "query_term": "generative* verhalten",
+   "sent_as": "generative verhalten",
+   "count": 32,
+   "dead": true
+  },
+  {
+   "cluster": "OUTCOME",
+   "query_term": "nuptialit*",
+   "sent_as": "nuptialit",
+   "count": 0,
+   "dead": true
+  },
+  {
+   "cluster": "OUTCOME",
+   "query_term": "procreat*",
+   "sent_as": "procreat",
+   "count": 0,
+   "dead": true
+  },
+  {
+   "cluster": "OUTCOME",
+   "query_term": "reproductive decision*",
+   "sent_as": "reproductive decision",
+   "count": 1891,
+   "dead": false
+  },
+  {
+   "cluster": "OUTCOME",
+   "query_term": "reproductive intention*",
+   "sent_as": "reproductive intention",
+   "count": 124,
+   "dead": true
+  },
+  {
+   "cluster": "OUTCOME",
+   "query_term": "want* children",
+   "sent_as": "want children",
+   "count": 856,
+   "dead": false
+  },
+  {
+   "cluster": "S1_POSTMATERIALISM",
+   "query_term": "emancipative value*",
+   "sent_as": "emancipative value",
+   "count": 61,
+   "dead": true
+  },
+  {
+   "cluster": "S1_POSTMATERIALISM",
+   "query_term": "post-materialis*",
+   "sent_as": "post-materialis",
+   "count": 25,
+   "dead": true
+  },
+  {
+   "cluster": "S1_POSTMATERIALISM",
+   "query_term": "postmaterial value*",
+   "sent_as": "postmaterial value",
+   "count": 47,
+   "dead": true
+  },
+  {
+   "cluster": "S1_POSTMATERIALISM",
+   "query_term": "postmaterialis*",
+   "sent_as": "postmaterialis",
+   "count": 0,
+   "dead": true
+  },
+  {
+   "cluster": "S1_POSTMATERIALISM",
+   "query_term": "self-expression value*",
+   "sent_as": "self-expression value",
+   "count": 66,
+   "dead": true
+  },
+  {
+   "cluster": "S1_POSTMATERIALISM",
+   "query_term": "survival value*",
+   "sent_as": "survival value",
+   "count": 2876,
+   "dead": false
+  },
+  {
+   "cluster": "S1_POSTMATERIALISM",
+   "query_term": "value orientation*",
+   "sent_as": "value orientation",
+   "count": 8053,
+   "dead": false
+  },
+  {
+   "cluster": "S2_INDIVIDUALISM",
+   "query_term": "extended famil*",
+   "sent_as": "extended famil",
+   "count": 5,
+   "dead": true
+  },
+  {
+   "cluster": "S2_INDIVIDUALISM",
+   "query_term": "individualist*",
+   "sent_as": "individualist",
+   "count": 945,
+   "dead": false
+  },
+  {
+   "cluster": "S3_SECULARIZATION",
+   "query_term": "denomination*",
+   "sent_as": "denomination",
+   "count": 2455,
+   "dead": false
+  },
+  {
+   "cluster": "S3_SECULARIZATION",
+   "query_term": "evangelic*",
+   "sent_as": "evangelic",
+   "count": 71,
+   "dead": true
+  },
+  {
+   "cluster": "S3_SECULARIZATION",
+   "query_term": "islam*",
+   "sent_as": "islam",
+   "count": 407036,
+   "dead": false
+  },
+  {
+   "cluster": "S3_SECULARIZATION",
+   "query_term": "religio*",
+   "sent_as": "religio",
+   "count": 2041,
+   "dead": false
+  },
+  {
+   "cluster": "S3_SECULARIZATION",
+   "query_term": "secular*",
+   "sent_as": "secular",
+   "count": 34326,
+   "dead": false
+  },
+  {
+   "cluster": "S3_SECULARIZATION",
+   "query_term": "secularis*",
+   "sent_as": "secularis",
+   "count": 26,
+   "dead": true
+  },
+  {
+   "cluster": "S4_CHILDLESSNESS_NORM",
+   "query_term": "acceptability of childless*",
+   "sent_as": "acceptability of childless",
+   "count": 2,
+   "dead": true
+  },
+  {
+   "cluster": "S4_CHILDLESSNESS_NORM",
+   "query_term": "approval of childless*",
+   "sent_as": "approval of childless",
+   "count": 0,
+   "dead": true
+  },
+  {
+   "cluster": "S4_CHILDLESSNESS_NORM",
+   "query_term": "attitudes toward childless*",
+   "sent_as": "attitudes toward childless",
+   "count": 26,
+   "dead": true
+  },
+  {
+   "cluster": "S4_CHILDLESSNESS_NORM",
+   "query_term": "attitudes towards childless*",
+   "sent_as": "attitudes towards childless",
+   "count": 18,
+   "dead": true
+  },
+  {
+   "cluster": "S4_CHILDLESSNESS_NORM",
+   "query_term": "childfree identit*",
+   "sent_as": "childfree identit",
+   "count": 0,
+   "dead": true
+  },
+  {
+   "cluster": "S4_CHILDLESSNESS_NORM",
+   "query_term": "intentional childless*",
+   "sent_as": "intentional childless",
+   "count": 13,
+   "dead": true
+  },
+  {
+   "cluster": "S4_CHILDLESSNESS_NORM",
+   "query_term": "norm* about childless*",
+   "sent_as": "norm about childless",
+   "count": 0,
+   "dead": true
+  },
+  {
+   "cluster": "S4_CHILDLESSNESS_NORM",
+   "query_term": "stigma of childless*",
+   "sent_as": "stigma of childless",
+   "count": 34,
+   "dead": true
+  },
+  {
+   "cluster": "S4_CHILDLESSNESS_NORM",
+   "query_term": "voluntary childless*",
+   "sent_as": "voluntary childless",
+   "count": 295,
+   "dead": false
+  },
+  {
+   "cluster": "S5_CONSUMERISM",
+   "query_term": "acquisitive*",
+   "sent_as": "acquisitive",
+   "count": 805,
+   "dead": false
+  },
+  {
+   "cluster": "S5_CONSUMERISM",
+   "query_term": "consumption aspiration*",
+   "sent_as": "consumption aspiration",
+   "count": 90,
+   "dead": true
+  },
+  {
+   "cluster": "S5_CONSUMERISM",
+   "query_term": "lifestyle aspiration*",
+   "sent_as": "lifestyle aspiration",
+   "count": 64,
+   "dead": true
+  },
+  {
+   "cluster": "S5_CONSUMERISM",
+   "query_term": "material value*",
+   "sent_as": "material value",
+   "count": 6478,
+   "dead": false
+  },
+  {
+   "cluster": "S5_CONSUMERISM",
+   "query_term": "materialistic value*",
+   "sent_as": "materialistic value",
+   "count": 339,
+   "dead": false
+  },
+  {
+   "cluster": "S5_CONSUMERISM",
+   "query_term": "possession*",
+   "sent_as": "possession",
+   "count": 15980,
+   "dead": false
+  },
+  {
+   "cluster": "S5_CONSUMERISM",
+   "query_term": "status good*",
+   "sent_as": "status good",
+   "count": 946,
+   "dead": false
+  },
+  {
+   "cluster": "GENERIC_VALUES",
+   "query_term": "belief*",
+   "sent_as": "belief",
+   "count": 163415,
+   "dead": false
+  },
+  {
+   "cluster": "GENERIC_VALUES",
+   "query_term": "gender attitude*",
+   "sent_as": "gender attitude",
+   "count": 8559,
+   "dead": false
+  },
+  {
+   "cluster": "GENERIC_VALUES",
+   "query_term": "gender role attitude*",
+   "sent_as": "gender role attitude",
+   "count": 2044,
+   "dead": false
+  }
+ ],
+ "membership_tests": [
+  {
+   "doi": "10.1016/j.ssresearch.2026.103371",
+   "paper": "Secularization and low fertility: how declining church membership changes childbearing",
+   "term": "secular",
+   "matches": false,
+   "count": 0
+  },
+  {
+   "doi": "10.1016/j.ssresearch.2026.103371",
+   "paper": "Secularization and low fertility: how declining church membership changes childbearing",
+   "term": "secularization",
+   "matches": true,
+   "count": 1
+  },
+  {
+   "doi": "10.1016/j.ssresearch.2026.103371",
+   "paper": "Secularization and low fertility: how declining church membership changes childbearing",
+   "term": "secularisation",
+   "matches": false,
+   "count": 0
+  },
+  {
+   "doi": "10.1016/j.ssresearch.2026.103371",
+   "paper": "Secularization and low fertility: how declining church membership changes childbearing",
+   "term": "church",
+   "matches": true,
+   "count": 1
+  },
+  {
+   "doi": "10.1016/j.ssresearch.2026.103371",
+   "paper": "Secularization and low fertility: how declining church membership changes childbearing",
+   "term": "church attendance",
+   "matches": false,
+   "count": 0
+  },
+  {
+   "doi": "10.1016/j.ssresearch.2026.103371",
+   "paper": "Secularization and low fertility: how declining church membership changes childbearing",
+   "term": "fertility",
+   "matches": true,
+   "count": 1
+  },
+  {
+   "doi": "10.1016/j.ssresearch.2026.103371",
+   "paper": "Secularization and low fertility: how declining church membership changes childbearing",
+   "term": "childbearing",
+   "matches": true,
+   "count": 1
+  },
+  {
+   "doi": "10.1016/j.ssresearch.2026.103371",
+   "paper": "Secularization and low fertility: how declining church membership changes childbearing",
+   "term": "childbear",
+   "matches": false,
+   "count": 0
+  },
+  {
+   "doi": "10.1007/s00148-025-01092-5",
+   "paper": "Religiously inspired baby boom: evidence from Georgia",
+   "term": "religio",
+   "matches": false,
+   "count": 0
+  },
+  {
+   "doi": "10.1007/s00148-025-01092-5",
+   "paper": "Religiously inspired baby boom: evidence from Georgia",
+   "term": "religious",
+   "matches": false,
+   "count": 0
+  },
+  {
+   "doi": "10.1007/s00148-025-01092-5",
+   "paper": "Religiously inspired baby boom: evidence from Georgia",
+   "term": "religiously",
+   "matches": true,
+   "count": 1
+  },
+  {
+   "doi": "10.1007/s00148-025-01092-5",
+   "paper": "Religiously inspired baby boom: evidence from Georgia",
+   "term": "religiosity",
+   "matches": false,
+   "count": 0
+  },
+  {
+   "doi": "10.1007/s00148-025-01092-5",
+   "paper": "Religiously inspired baby boom: evidence from Georgia",
+   "term": "baby boom",
+   "matches": true,
+   "count": 1
+  },
+  {
+   "doi": "10.1007/s00148-025-01092-5",
+   "paper": "Religiously inspired baby boom: evidence from Georgia",
+   "term": "fertility",
+   "matches": false,
+   "count": 0
+  },
+  {
+   "doi": "10.1086/696193",
+   "paper": "Political Islam, Marriage and Fertility (retrieved -- negative control)",
+   "term": "islam",
+   "matches": true,
+   "count": 1
+  },
+  {
+   "doi": "10.1086/696193",
+   "paper": "Political Islam, Marriage and Fertility (retrieved -- negative control)",
+   "term": "marriage",
+   "matches": true,
+   "count": 1
+  },
+  {
+   "doi": "10.1086/696193",
+   "paper": "Political Islam, Marriage and Fertility (retrieved -- negative control)",
+   "term": "fertility",
+   "matches": true,
+   "count": 1
+  }
+ ]
+}

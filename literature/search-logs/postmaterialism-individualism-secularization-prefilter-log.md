@@ -2,15 +2,11 @@
 
 Removes the clinical/veterinary collision and the book reviews mechanically, so the paid screen is not spent reading obstetrics abstracts. No model, no scoring, no threshold: a named term fires or it does not, and **every drop is attributable to the term that caused it**.
 
-> ## ⚠ CALIBRATED ON AN INCOMPLETE CORPUS
-
-> `GENERIC_VALUES` had not finished pulling when this ran, so the term list is tuned on **11,425** records rather than the full universe. The counts below will move. **This filter must be re-run and its rejected sample re-read once C1 completes** — a filter validated at one order of magnitude has been wrong at the next three times on this chapter.
-
-- corpus in: **11,425**
-- kept for screening: **10,234**
-- dropped: **1,017** (8.9%)
-- routed to the book-review retrieval worklist: **174**
-- gold records present in the corpus and run through the filter: **303**
+- corpus in: **17,281**
+- kept for screening: **15,243**
+- dropped: **1,844** (10.7%)
+- routed to the book-review retrieval worklist: **194**
+- gold records present in the corpus and run through the filter: **330**
 - **gold lost: 0**  ← gate passed
 
 ## Design
@@ -38,102 +34,113 @@ Kept in the source so a later reader does not re-propose an exclusion this run a
 
 | term | dropped | rescued | rescue share |
 |---|---|---|---|
-| `OBSTETRIC:birth ?weight` | 230 | 43 | 16% |
-| `OBSTETRIC:preterm` | 140 | 24 | 15% |
-| `type=book-review` | 88 | 0 | 0% |
-| `AGRONOMY:soils?` | 81 | 3 | 4% |
+| `OBSTETRIC:birth ?weight` | 376 | 55 | 13% |
+| `OBSTETRIC:preterm` | 228 | 36 | 14% |
+| `type=book-review` | 193 | 0 | 0% |
+| `AGRONOMY:soils?` | 161 | 13 | 7% |
+| `OBSTETRIC:neonat\w+` | 121 | 13 | 10% |
+| `ART_CLINICAL:embryos?` | 102 | 11 | 10% |
 | `SECULAR_TERM_OF_ART:secular trends?` | 75 | 38 | 34% |
-| `OBSTETRIC:neonat\w+` | 61 | 10 | 14% |
-| `ART_CLINICAL:embryos?` | 43 | 9 | 17% |
-| `OBSTETRIC:gestational` | 39 | 6 | 13% |
-| `ART_CLINICAL:in vitro` | 35 | 5 | 12% |
-| `OBSTETRIC:obstetric\w*` | 32 | 14 | 30% |
-| `OBSTETRIC:caesarean` | 32 | 3 | 9% |
-| `OBSTETRIC:fetal` | 30 | 1 | 3% |
-| `OBSTETRIC:cervical` | 27 | 5 | 16% |
-| `OBSTETRIC:cesarean` | 24 | 13 | 35% |
+| `ART_CLINICAL:in vitro` | 66 | 6 | 8% |
+| `OBSTETRIC:fetal` | 64 | 2 | 3% |
+| `OBSTETRIC:gestational` | 63 | 7 | 10% |
+| `OBSTETRIC:cervical` | 60 | 18 | 23% |
+| `OBSTETRIC:obstetric\w*` | 56 | 22 | 28% |
+| `OBSTETRIC:caesarean` | 52 | 8 | 13% |
+| `OBSTETRIC:ultraso\w+` | 46 | 8 | 15% |
+| `OBSTETRIC:cesarean` | 46 | 19 | 29% |
+| `OBSTETRIC:antenatal` | 41 | 24 | 37% |
+| `ART_CLINICAL:ivf` | 40 | 5 | 11% |
+| `ART_CLINICAL:sperm` | 38 | 4 | 10% |
+| `ANIMAL_LAB:cattle` | 38 | 0 | 0% |
+| `AGRONOMY:crops?` | 38 | 1 | 3% |
+| `ART_CLINICAL:endometri\w+` | 34 | 4 | 11% |
+| `ART_CLINICAL:ovarian` | 34 | 10 | 23% |
+| `ART_CLINICAL:semen` | 31 | 2 | 6% |
+| `AGRONOMY:yields?` | 30 | 2 | 6% |
+| `OBSTETRIC:trimester` | 28 | 3 | 10% |
+| `ANIMAL_LAB:rats?` | 28 | 0 | 0% |
+| `ART_CLINICAL:blastocysts?` | 28 | 2 | 7% |
+| `OBSTETRIC:perinat\w+` | 27 | 13 | 32% |
+| `ART_CLINICAL:blastocyst` | 24 | 2 | 8% |
 | `SECULAR_TERM_OF_ART:secular changes?` | 23 | 11 | 32% |
-| `ANIMAL_LAB:cattle` | 22 | 0 | 0% |
-| `ART_CLINICAL:sperm` | 21 | 2 | 9% |
-| `ART_CLINICAL:ovarian` | 19 | 5 | 21% |
-| `OBSTETRIC:perinat\w+` | 18 | 12 | 40% |
-| `OBSTETRIC:trimester` | 17 | 0 | 0% |
-| `AGRONOMY:yields?` | 17 | 1 | 6% |
-| `ART_CLINICAL:ivf` | 17 | 2 | 11% |
-| `ART_CLINICAL:semen` | 17 | 2 | 11% |
-| `AGRONOMY:crops?` | 17 | 1 | 6% |
-| `OBSTETRIC:placent\w+` | 16 | 1 | 6% |
-| `ANIMAL_LAB:rats?` | 15 | 0 | 0% |
-| `OBSTETRIC:ultraso\w+` | 14 | 1 | 7% |
-| `ART_CLINICAL:endometri\w+` | 13 | 2 | 13% |
-| `OBSTETRIC:antenatal` | 13 | 13 | 50% |
-| `ART_CLINICAL:assisted reproductive technolog\w+` | 11 | 8 | 42% |
-| `ART_CLINICAL:blastocysts?` | 11 | 1 | 8% |
-| `ART_CLINICAL:blastocyst` | 10 | 1 | 9% |
-| `ANIMAL_LAB:sheep` | 9 | 1 | 10% |
-| `ART_CLINICAL:follicles?` | 9 | 0 | 0% |
-| `ART_CLINICAL:progesterone` | 8 | 2 | 20% |
-| `ART_CLINICAL:oocytes?` | 8 | 7 | 47% |
-| `ANIMAL_LAB:calves` | 7 | 0 | 0% |
-| `ANIMAL_LAB:mice` | 6 | 1 | 14% |
-| `OBSTETRIC:intrapartum` | 6 | 0 | 0% |
-| `AGRONOMY:seedlings?` | 6 | 0 | 0% |
-| `AGRONOMY:fertili[sz]ers?` | 6 | 0 | 0% |
-| `AGRONOMY:manure` | 6 | 0 | 0% |
-| `ANIMAL_LAB:calving` | 5 | 0 | 0% |
+| `ART_CLINICAL:oocytes?` | 22 | 9 | 29% |
+| `OBSTETRIC:placent\w+` | 21 | 1 | 5% |
+| `ART_CLINICAL:progesterone` | 19 | 2 | 10% |
+| `ART_CLINICAL:follicles?` | 17 | 1 | 6% |
+| `ART_CLINICAL:assisted reproductive technolog\w+` | 15 | 10 | 40% |
+| `ANIMAL_LAB:calves` | 13 | 0 | 0% |
+| `ANIMAL_LAB:mice` | 12 | 2 | 14% |
+| `ANIMAL_LAB:sheep` | 12 | 1 | 8% |
+| `OBSTETRIC:intrapartum` | 12 | 2 | 14% |
+| `ART_CLINICAL:cryopreservation` | 11 | 8 | 42% |
+| `AGRONOMY:fertili[sz]ers?` | 11 | 0 | 0% |
+| `AGRONOMY:wheat` | 10 | 0 | 0% |
+| `ANIMAL_LAB:heifers?` | 10 | 0 | 0% |
+| `OBSTETRIC:cervix` | 10 | 0 | 0% |
+| `ANIMAL_LAB:bovine` | 9 | 1 | 10% |
+| `ART_CLINICAL:icsi` | 9 | 0 | 0% |
+| `ANIMAL_LAB:calving` | 8 | 0 | 0% |
+| `AGRONOMY:forage` | 8 | 1 | 11% |
+| `OBSTETRIC:apgar` | 8 | 0 | 0% |
+| `ART_CLINICAL:insemination` | 8 | 2 | 20% |
+| `AGRONOMY:manure` | 8 | 0 | 0% |
+| `AGRONOMY:maize` | 7 | 0 | 0% |
+| `ANIMAL_LAB:goats?` | 7 | 1 | 12% |
+| `ANIMAL_LAB:murine` | 7 | 0 | 0% |
+| `AGRONOMY:seedlings?` | 7 | 0 | 0% |
+| `OBSTETRIC:amniotic` | 7 | 0 | 0% |
+| `ANIMAL_LAB:sows?` | 6 | 0 | 0% |
+| `AGRONOMY:pasture` | 5 | 0 | 0% |
 | `ART_CLINICAL:follitropin` | 5 | 0 | 0% |
-| `AGRONOMY:maize` | 5 | 0 | 0% |
-| `ANIMAL_LAB:goats?` | 5 | 0 | 0% |
-| `OBSTETRIC:cervix` | 5 | 0 | 0% |
-| `ART_CLINICAL:cryopreservation` | 4 | 7 | 64% |
-| `AGRONOMY:wheat` | 4 | 0 | 0% |
-| `AGRONOMY:forage` | 4 | 1 | 20% |
-| `OBSTETRIC:apgar` | 4 | 0 | 0% |
-| `ANIMAL_LAB:murine` | 4 | 0 | 0% |
-| `ART_CLINICAL:insemination` | 4 | 2 | 33% |
-| `ANIMAL_LAB:livestock` | 4 | 2 | 33% |
-| `ANIMAL_LAB:sows?` | 4 | 0 | 0% |
-| `AGRONOMY:pasture` | 3 | 0 | 0% |
-| `ANIMAL_LAB:bovine` | 3 | 1 | 25% |
-| `ART_CLINICAL:icsi` | 3 | 0 | 0% |
-| `ANIMAL_LAB:swine` | 3 | 0 | 0% |
-| `ANIMAL_LAB:boars?` | 3 | 0 | 0% |
-| `ANIMAL_LAB:broilers?` | 3 | 0 | 0% |
-| `OBSTETRIC:amniotic` | 3 | 0 | 0% |
-| `ANIMAL_LAB:buffalo\w*` | 3 | 0 | 0% |
+| `ANIMAL_LAB:swine` | 5 | 0 | 0% |
+| `AGRONOMY:cropping` | 5 | 1 | 17% |
+| `ANIMAL_LAB:livestock` | 5 | 4 | 44% |
+| `AGRONOMY:paddy` | 5 | 0 | 0% |
+| `ANIMAL_LAB:buffalo\w*` | 5 | 0 | 0% |
+| `OBSTETRIC:foetal` | 4 | 0 | 0% |
+| `ANIMAL_LAB:boars?` | 4 | 0 | 0% |
+| `ANIMAL_LAB:broilers?` | 4 | 0 | 0% |
+| `ART_CLINICAL:follicular` | 4 | 0 | 0% |
+| `ART_CLINICAL:gonadotroph?ins?` | 4 | 0 | 0% |
+| `OBSTETRIC:uterocervical` | 3 | 0 | 0% |
+| `ART_CLINICAL:luteal` | 3 | 1 | 25% |
+| `ANIMAL_LAB:drosophila` | 3 | 2 | 40% |
+| `ART_CLINICAL:cryopreserved` | 3 | 0 | 0% |
+| `AGRONOMY:legumes?` | 3 | 0 | 0% |
+| `AGRONOMY:nutrient uptake` | 3 | 0 | 0% |
+| `AGRONOMY:biochar` | 3 | 0 | 0% |
+| `OBSTETRIC:neonate` | 3 | 1 | 25% |
+| `ANIMAL_LAB:ewes?` | 3 | 0 | 0% |
 | `ART_CLINICAL:spermatid\w*` | 2 | 0 | 0% |
-| `ANIMAL_LAB:drosophila` | 2 | 1 | 33% |
 | `ART_CLINICAL:azoospermi\w+` | 2 | 0 | 0% |
-| `AGRONOMY:cropping` | 2 | 0 | 0% |
 | `AGRONOMY:agronom\w+` | 2 | 1 | 33% |
-| `ANIMAL_LAB:heifers?` | 2 | 0 | 0% |
 | `ANIMAL_LAB:stallions?` | 2 | 0 | 0% |
-| `AGRONOMY:paddy` | 2 | 0 | 0% |
-| `AGRONOMY:legumes?` | 2 | 0 | 0% |
-| `AGRONOMY:nutrient uptake` | 2 | 0 | 0% |
 | `ART_CLINICAL:embryonic` | 2 | 1 | 33% |
 | `ART_CLINICAL:spermatozoa` | 2 | 0 | 0% |
 | `ART_CLINICAL:in-vitro` | 2 | 0 | 0% |
-| `ART_CLINICAL:intracytoplasmic` | 2 | 0 | 0% |
-| `AGRONOMY:biochar` | 2 | 0 | 0% |
-| `OBSTETRIC:uterocervical` | 1 | 0 | 0% |
+| `AGRONOMY:tillage` | 2 | 0 | 0% |
+| `ART_CLINICAL:intracytoplasmic` | 2 | 1 | 33% |
+| `ART_CLINICAL:estrous` | 2 | 0 | 0% |
+| `ART_CLINICAL:cumulus` | 2 | 0 | 0% |
+| `ART_CLINICAL:varicocele` | 2 | 0 | 0% |
 | `AGRONOMY:horticultur\w+` | 1 | 0 | 0% |
-| `ART_CLINICAL:luteal` | 1 | 1 | 50% |
 | `ANIMAL_LAB:mares?` | 1 | 0 | 0% |
 | `SECULAR_TERM_OF_ART:secular variations?` | 1 | 2 | 67% |
-| `OBSTETRIC:foetal` | 1 | 0 | 0% |
 | `ANIMAL_LAB:porcine` | 1 | 0 | 0% |
-| `ART_CLINICAL:cryopreserved` | 1 | 0 | 0% |
-| `ART_CLINICAL:follicular` | 1 | 0 | 0% |
 | `ART_CLINICAL:ovulation` | 1 | 0 | 0% |
 | `ANIMAL_LAB:hatchability` | 1 | 0 | 0% |
-| `AGRONOMY:tillage` | 1 | 0 | 0% |
-| `OBSTETRIC:neonate` | 1 | 1 | 50% |
+| `ANIMAL_LAB:rams?` | 1 | 0 | 0% |
+| `ART_CLINICAL:ovulatory` | 1 | 0 | 0% |
+| `ANIMAL_LAB:stud` | 1 | 0 | 0% |
+| `ANIMAL_LAB:zebrafish` | 1 | 0 | 0% |
+| `AGRONOMY:compost\w*` | 1 | 0 | 0% |
 
 Terms that fired but **never** caused a drop (every hit was rescued) — these are carrying no weight and are candidates for removal:
 
+- `AGRONOMY:germination` (1 rescued)
 - `ANIMAL_LAB:semen quality` (1 rescued)
-- `OBSTETRIC:eclampsi\w+` (1 rescued)
+- `OBSTETRIC:eclampsi\w+` (3 rescued)
 - `OBSTETRIC:stillbirths?` (5 rescued)
 - `SECULAR_TERM_OF_ART:secular declines?` (1 rescued)
 - `SECULAR_TERM_OF_ART:secular increases?` (1 rescued)
@@ -142,7 +149,7 @@ Terms that fired but **never** caused a drop (every hit was rescued) — these a
 
 The first version of this filter sent all 262 book reviews to `OFF_OTHER`. Reading the rejected sample showed what that deletes — reviews of **Jones and Grupp, *Modernization, Value Change, and Fertility in the Soviet Union***, **Yaukey, *Fertility Differences in a Modernizing Country***, and **Fukuda, *Marriage and fertility behaviour in Japan — Economic status and value orientation***. Those are on-pair monographs and the review is the only trace of them the pull returned. **This chapter has hit an indexing gap on books, chapters, dissertations and non-English work five separate times**, so dropping the reviews thins the corpus in precisely the direction it is already weakest.
 
-A review carrying a demographic or religious signal is therefore routed to `BOOK_REVIEW_LEAD` — **174** records. It is not evidence and does not go to the screen; the *reviewed work* is what to chase. The remaining 88 carry no signal and drop.
+A review carrying a demographic or religious signal is therefore routed to `BOOK_REVIEW_LEAD` — **194** records. It is not evidence and does not go to the screen; the *reviewed work* is what to chase. The remaining 68 carry no signal and drop.
 
 ### The leads
 
@@ -186,7 +193,7 @@ A review carrying a demographic or religious signal is therefore routed to `BOOK
 - julie crawford. Marvelous Protestantism: Monstrous Births in Post-Reformation England. Pp. x + 270. Baltimore and London: The Johns Hopkins University
 - The Birth of the Islamic Reform Movement in Saudi Arabia: Muhammad ibn Abd al-Wahhab (1703/4-1792) and the Beginnings of the Unitarian Empire in Arabi
 - The Birth of a Legal Institution: The Formation of the Waqf in Third-Century A.H. Hanafi Legal Discourse, by Peter C. Hennigan. Studies in Islamic Law
-- … and 134 more in `postmaterialism-individualism-secularization-prefilter.json`
+- … and 154 more in `postmaterialism-individualism-secularization-prefilter.json`
 
 ## What this filter does NOT do
 

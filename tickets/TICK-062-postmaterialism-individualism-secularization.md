@@ -23,6 +23,50 @@
 - [ ] 14. PI review and sign-off
 
 ## Log
+- 2026-08-05 (Shravan/Claude): **C1 COMPLETE — 17,281 records, every cluster reads `complete: yes`.
+  And the completed pull exposes a defect in the FROZEN PRODUCTION QUERY: 24 of its 45 wildcard
+  terms retrieve almost nothing, and two of the chapter's three Tier-1 natural experiments are
+  missing from the corpus as a direct result.** `{slug}-live-corpus.json`,
+  `{slug}-live-search-log.md`, `{slug}-stem-audit.{json,md}`; new script `105_d1a_stem_audit.py`.
+  **DO NOT screen this corpus — the query needs repair and C1 needs re-running first.**
+  **(1) The pull finished cleanly once authenticated.** All six clusters complete, no budget stop.
+  `GENERIC_VALUES` reads 11,232 of 11,233 — one record of index drift across a 57-page read, not a
+  truncation; the cursor ran to exhaustion, which is the completeness signal that matters.
+  **(2) Live gold recall is 80.8% (B-only) against A6b's CV 92.1%**, with A-only 78.9% and both-
+  channels 91.7%. `103_` anticipated a gap and pre-labelled it *"a finding about the index rather
+  than about the query"*. **It is neither. The validated query and the executed query are different
+  queries.**
+  **(3) The mechanism.** The frozen query carries wildcard stems; OpenAlex rejects a star outright,
+  so `oa_term()` strips it and sends the bare stem. That is safe only when the stem is itself a word
+  that stems to the same root as its inflections. **24 of 45 are not**: `procreat` = 0,
+  `nuptialit` = 0, `childbear` = 0, **`postmaterialis` = 0**, `fertilit` = 63, `secularis` = 26.
+  **(4) A second failure mode that a count-based audit cannot see, and it is the one that did the
+  damage.** `secular` returns **34,326** records and **does not match "Secularization"**; `religio`
+  returns 2,041 and **does not match "Religiously"**. Healthy counts, wrong postings. Only a
+  conjunctive membership test (`filter=doi:<doi>,title.search:<term>`) catches it. This is how
+  *Secularization and low fertility* (`10.1016/j.ssresearch.2026.103371`) and *Religiously inspired
+  baby boom* (`10.1007/s00148-025-01092-5`) were missed — **both confirmed present in OpenAlex by
+  free DOI lookup, so this is a query hole and not an indexing gap.** The Tier-1 stratum is three
+  studies total; the live query returns one.
+  **(5) It corrects the correction at `654a491`, which was itself a correction.** That commit
+  retracted A6c's "no prefix matching" reading because `childless` and `childlessness` both return
+  2,586 — one postings list — and concluded no wildcard expansion was needed. **The generalisation
+  was drawn from a single pair.** It holds for *inflection* and fails for *derivation*
+  (secular/secularization, religious/religiously), which is most of this query's vocabulary.
+  **(6) The most consequential consequence is a substantive claim that was about to be false.** A6b
+  recorded that S4 earns zero sole credit and asked whether the cluster is "buying coverage of a
+  literature that does not exist and the chapter should say so." **8 of S4's 9 wildcard terms are
+  dead.** The stratum retrieves nothing because its terms are broken, not because the field is
+  empty — a methods artifact one step from being written into the chapter as a finding about
+  demography.
+  **(7) A6c already required this and it was not enforced.** Its entry states *"the compiled query
+  must be emitted with wildcards expanded before C1 consumes it; the artifact still carries stems,
+  and a consumer that passes them through reproduces the failure."* The artifact still carries
+  stems, and the consumer passed them through. **The repair is to expand every wildcard into
+  explicit morphological variants and verify each against a live count before re-freezing.**
+  **(8) Pre-filter re-run at full corpus scale and the gate holds.** 17,281 → 15,243 screened,
+  1,844 dropped (10.7%), 194 book-review leads, **330 gold tested and 0 lost** — up from 303 at
+  11,425, so the filter survives the order-of-magnitude re-audit it was flagged for.
 - 2026-08-05 (Shravan/Claude): **The OpenAlex budget wall is a MISSING FREE API KEY, not a provider
   limitation — and that retracts a premise this chapter has been operating on since 8/03.**
   `103_d1a_live_search.py` now reads `OPENALEX_API_KEY` and reports the tier it is on before
