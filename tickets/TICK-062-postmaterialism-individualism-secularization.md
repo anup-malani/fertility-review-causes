@@ -23,6 +23,70 @@
 - [ ] 14. PI review and sign-off
 
 ## Log
+- 2026-08-04 (Shravan/Claude): **channel-3 snowball round 2. 11,610 pulled, 410 new relevant, yield
+  1.77 per 50 against a floor of 1.0 — saturation NOT reached, and the depth cap now blocks the
+  round the yield rule calls for.** `literature/search-logs/{slug}-snowball-log.md` (rewritten to
+  cover both rounds), `{slug}-canon-reresolution.md`; scripts `95_d1a_canon_reresolve.py`,
+  `96_d1a_snowball_r2.py`, `97_d1a_rescore_pools.py`; shared modules `d1a_relevance.py`,
+  `d1a_fetch.py`. Tier B stands at **495 relevant records** (85 + 410).
+  **(1) ESCALATION — two committed rules give opposite answers and I did not pick one.** GACS §7.2
+  stops after two consecutive rounds below 1.0 per 50; both rounds are above it and round 2's
+  extension leg is at **2.01**. PROTOCOL §5.1 caps snowball depth at **2 rounds** on Wohlin 2014's
+  claim that round 3 returns under 5% new material — and that prediction is plainly false here, since
+  round 2 returned **7,652** records unseen in round 1 against a round-1 pool of 1,970. Round 3 is
+  **not run**: the cap is the narrower committed constraint and spending it is not an RA call.
+  **The accompanying caveat is mine and it cuts against my own number:** round 2's 1.77 is not
+  comparable to round 1's 1.75, because round 1 was seeded from 9 framework statements and round 2
+  from 82 papers already known to be on-pair. A flat yield under a far more on-pair seed set is weak
+  evidence of saturation, not strong evidence against it.
+  **(2) The round-1 seed error cost much less than round 1 feared, and that is worth saying plainly.**
+  van de Kaa 1987 repaired from **2 to 1,316** forward citations (seeded by S2 paperId read from the
+  resolver, since three providers now agree the work carries no DOI). But only **22** relevant records
+  were reachable *solely* from the repaired seeds — 0.53 per 50, below the floor. The SDT family is
+  densely cross-citing and round 1's other five SDT seeds had already covered that neighbourhood.
+  **Round 1's yield was not materially biased.** The process change stands; the alarm is retired.
+  **(3) All three of round 1's `UNCONFIRMED` seed cells were `NOT_INDEXED`, not retryable.** Round 1
+  recorded them as network failures and expected a retry to fix them. It never would have. Fernández's
+  *Does Culture Matter?* — the **only** econ-of-culture seed — is absent from Semantic Scholar
+  entirely, so round 1 attributed to a failed pull what is actually an indexing gap. Both SSA reviews
+  are likewise absent, one of them the unregistered-DOI record `91` already flagged. **Third
+  independent hit on the non-Anglo-European indexing gap**, running in the same direction as the
+  chapter's geographic-skew limitation. The pull layer now distinguishes four states — `OK`,
+  `UNCONFIRMED` (network), `NOT_INDEXED` (index), `NO_REFS_DEPOSITED` (publisher metadata) — because
+  a zero that means three different things cannot support any of the three sentences.
+  **(4) Three transport bugs, each reporting missing data as measured data, and the second one is the
+  same defect this project keeps committing.** (a) S2's 429 body was cached as a successful empty
+  pull, because the guard tested equality against a *prefix* of the real message; it surfaced only
+  because it hit van de Kaa, where `n=0` was obviously wrong. (b) The fix for (a) scanned bodies for a
+  bare `"429"`, **which matched the Unix timestamp `1429894924000` inside a valid Crossref record** —
+  the third unanchored-substring bug in this codebase after `hous` in C.2.c and `reproduc\w+` in v1,
+  and the first in the transport layer, which is why it presented as a network symptom. Fixed by
+  making the HTTP status code the primary signal. (c) Reactive backoff cannot survive an unauthenticated
+  rate limit — the run reached gen-2 seed 6 of 82 in seven minutes and would have logged the rest as
+  missing literature; proactive per-host pacing finished the same run with **zero** throttle retries.
+  **An S2 API key is now the outstanding operational request for the second chapter running.**
+  **(5) The relevance filter went to v3, and v3 exists because v2's fix was wrong at scale.** v2 added
+  a design-descriptor exclusion (`cross-cultural` is a sampling frame, not a value measure) and was
+  validated on the 3 records it touched. At round-2 scale it touched 43, and about half were on-pair
+  records being discarded — including Colleran and Mace's *cultural evolution of fertility decline*,
+  which is cultural transmission of fertility norms and is precisely this chapter's treatment. v3
+  keeps only genuine sampling frames. **The generalisable lesson: each version was validated on the
+  sample available when it was written and each was wrong in a way that appeared only at the next
+  order of magnitude. The sample that produces a hypothesis cannot also test it.** Both pools are
+  re-scored under one filter version by `97_`, since otherwise a yield change is partly a change in
+  the literature and partly a change in the ruler.
+  **(6) OpenAlex canon resolution is dead, not throttled, and this is not a D.1.a problem.** The
+  re-run the round-1 log demanded was performed and returned `UNCONFIRMED` on all sixteen rows: the
+  budget *had* reset, but a title search costs $0.001 against a daily free allowance that does not
+  cover sixteen of them. `95` re-resolves every row against Crossref **and** S2 and reports agreement
+  as its own field. It recovered two v5 seminal names `92` could not confirm (Frejka and Westoff 2008;
+  Hagestad and Call 2007) and produced three findings worth propagating: **a Jaccard title gate
+  false-negatives on subtitle drops** — Hagestad and Call scored 0.43 against a 0.55 threshold with
+  both surnames and the year matching exactly, and every resolver in this tree gates on Jaccard alone;
+  **Inglehart and Baker 2000 carries two registered DOIs** with citations split 2,454 / 5,379 across
+  JSTOR and SAGE, the C.2.c twin problem now inside the canon seed table; and **cross-provider
+  agreement is not a correctness guarantee** — both providers agree on Hofstede 1980 and both resolve
+  it to a 1982 book review by a different author.
 - 2026-08-03 (Shravan/Claude): **channel-3 snowball round 1. 2,423 pulled, 1,970 distinct, 86
   relevant, yield 1.77 per 50 against a floor of 1.0 — saturation NOT reached, round 2 required.**
   `literature/search-logs/{slug}-snowball-log.md`; scripts `93_d1a_snowball_r1.py`,

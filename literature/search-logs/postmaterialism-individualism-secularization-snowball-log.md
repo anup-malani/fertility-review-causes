@@ -2,153 +2,254 @@
 
 **Hypothesis:** D.1.a, slug `postmaterialism-individualism-secularization`
 **Stage:** GACS Phase A3, channel 3 — the orthogonal Tier-B frame
-**Scripts:** `93_d1a_snowball_r1.py` (pull), `94_d1a_relabel_pool.py` (re-score, no network)
-**Raw:** `temp/d1a/snowball-r1-pool.json`, `-relabelled.json`, `relabel-diff.md`
+**Scripts:** `93_d1a_snowball_r1.py` (round 1), `96_d1a_snowball_r2.py` (round 2),
+`97_d1a_rescore_pools.py` (re-score both pools, no network),
+`95_d1a_canon_reresolve.py` (seed resolution)
+**Shared modules:** `d1a_relevance.py` (the one relevance definition), `d1a_fetch.py` (the one fetcher)
+**Raw:** `temp/d1a/snowball-r{1,2}-pool-scored.json`, `temp/d1a/rescore-audit.md`
 
 ---
 
-## Round 1 — complete, with two corrections and one acknowledged gap
+## Both rounds, scored under relevance filter v3
 
-| Quantity | Value |
-|---|---|
-| Records pulled | 2,423 |
-| Distinct after normalized-title dedup | 1,970 |
-| Relevant (corrected) | **86** |
-| Yield per 50 pulled | **1.77** |
-| Stop floor (§7.2) | 1.0 |
-| Multi-seed overlap | 105 |
-| **Saturation** | **not reached — round 2 required** |
+| | Round 1 | Round 2 |
+|---|---|---|
+| Records pulled | 2,423 | 11,610 |
+| Distinct after normalized-title dedup | 1,970 | 8,558 |
+| New vs. the previous round | — | 7,652 |
+| **Relevant (new)** | **85** | **410** |
+| **Yield per 50 pulled** | **1.75** | **1.77** |
+| Stop floor (GACS §7.2) | 1.0 | 1.0 |
+| **Saturation** | not reached | **not reached** |
 
-Nine seeds, all channel-1 or channel-2. Backward citations from Crossref reference lists, forward
-citations from Semantic Scholar.
+Round 2 splits into a repair leg and an extension leg, and they are measured separately because they
+answer different questions.
 
----
+| Leg | Pulled | New relevant | Yield / 50 |
+|---|---|---|---|
+| **A — repair of round 1's incomplete pull** | 2,080 | 22 | 0.53 |
+| **B — generation 2** (8 new canon seeds + 82 round-1 relevant records) | 9,530 | 383 | 2.01 |
 
-## Provider change: the frame is built off Crossref and Semantic Scholar, not OpenAlex
-
-**Forced.** OpenAlex has moved its free tier to a metered budget. The probe runs in scripts 89 to 92
-exhausted a full day's allowance in roughly an hour, and the API began answering `{"error":"Rate
-limit exceeded","message":"Insufficient budget ... Resets at midnight UTC"}`. A snowball is an order
-of magnitude more requests than a probe, so it could not run there. **The six `UNCONFIRMED` rows in
-the canon-seed resolution (92) are this, not missing papers** — the three-state discipline held the
-line correctly, for the second time in one day.
-
-**Also better, and worth keeping after the budget resets.** PROTOCOL §5.1 already names Semantic
-Scholar and Crossref as Phase 2b citation sources. Building the Tier-B frame on a *different provider*
-than the one that produced Tier A makes the frame orthogonal in infrastructure as well as in method,
-so Recall(B) measured against it is a stronger test than one measured inside OpenAlex's own graph.
-Recommended as the standing arrangement rather than a workaround.
-
-**Operational note for every chapter:** unauthenticated Semantic Scholar throttles hard and returned
-`Too Many Requests` partway through this run. An API key should be requested before the next chapter's
-snowball.
+Tier B now stands at **495 relevant records** (85 + 410).
 
 ---
 
-## The relevance filter was wrong in both directions, and a hand audit is what caught it
+## The stop rule and the depth cap now disagree, and it needs a PI decision
 
-The C.2.c run left a standing requirement: read a random sample of what the relevance filter admits
-before trusting any saturation number. A 45-record hand read found two bugs.
+Two committed rules give opposite answers here and the conflict has not arisen before because no
+previous chapter reached round 2 above the floor.
 
-**Bug A — false positives.** `reproduc\w+` on the outcome axis admits *social* reproduction and
-*reproductive health*, neither of which is a fertility outcome. It scored Bourdieu's *Reproduction in
-Education, Culture and Society* as an on-pair record, along with church-led adolescent
-sexual-and-reproductive-health programmes and an anthropological critique titled "Culture and
-Reproduction." Left alone it would have admitted the whole sociology-of-education and SRH-services
-literatures. This is D.1.a's version of the C.2.c bug where bare `hous` and `rent` matched
-h**ous**ehold and pa**rent**.
+- **GACS §7.2** stops on *two consecutive rounds* below 1.0 new relevant per 50. Both rounds are
+  above it, and round 2's extension leg is at 2.01 — the frame is not converging, it is accelerating.
+- **PROTOCOL §5.1** caps snowball depth at **2 rounds**, citing Wohlin 2014, on the grounds that
+  "round 3 returns less than 5% new material." That prediction is false here: round 2 returned 7,652
+  records unseen in round 1, against a round-1 pool of 1,970.
 
-**Bug B — false negatives, and the more damaging of the two.** Quoted phrases were carried from
-OpenAlex query syntax into a Python verbose regex, where `"second\s+demographic\s+transition"` matches
-only text containing literal double-quote characters. **The chapter's single most central phrase
-therefore never matched anything.** "An alternative perspective on the Second Demographic Transition
-in East Asia" was rejected for having no treatment term. `"family size"` and `"number of children"`
-failed the same way on the outcome axis.
-
-**Corrected: 79 → 86 relevant, yield 1.63 → 1.77 per 50.** Six removed, thirteen gained, both sets
-hand-checked in `temp/d1a/relabel-diff.md`. The net movement is small and the *direction* is the
-point: the filter was simultaneously admitting the sociology of education and rejecting every paper
-that named the Second Demographic Transition. An aggregate that moves by seven records concealed two
-errors that would each have distorted the frame.
-
-**The generalisable lesson is a narrower version of C.2.c's.** That run concluded a stop rule is only
-as good as the relevance classifier feeding it. This run adds: a classifier can be wrong in both
-directions at once, and the two errors partially cancel in the aggregate, so the summary statistic is
-the last place either will show up. Only a hand read of admitted *and* rejected records finds both.
+So the depth cap says stop and the yield rule says continue. **Round 3 is not run** — the cap is the
+narrower committed constraint and an RA should not spend it unilaterally — and the choice is escalated
+with the numbers attached. The substantive question is whether the D.1.a frame is genuinely
+non-convergent or whether generation-2 seeding inflates yield mechanically, since seeding 82 on-pair
+papers guarantees on-pair neighbourhoods. **The honest reading is that round 2's 1.77 is not
+comparable to round 1's 1.75**: round 1 was seeded from 9 framework statements and reviews, round 2
+from 82 papers already known to be on-pair. A yield that stays flat while the seed set becomes far
+more on-pair is weak evidence of saturation, not strong evidence against it. Recorded as a limitation
+on the statistic rather than resolved here.
 
 ---
 
-## Seed error, self-inflicted, and the gap it leaves
+## The repair leg: the round-1 seed error cost less than it looked like it would
 
-**van de Kaa 1987 — the most-cited SDT statement in the field, roughly 1,950 citations — contributed
-2 forward citations to this round, because the seed DOI was wrong.** The canon resolver in script 92
-had resolved it correctly and reported that the work carries **no registered DOI** (OpenAlex
-`W63025791`). I then hand-typed `10.2307/2057518` into the seed table rather than reading the
-resolver's output. It resolved to a different record.
+Round 1 recorded that van de Kaa 1987 — the most-cited SDT statement in the field — contributed **2**
+forward citations because the seed table carried a hand-typed DOI for a work that has none, and that
+its 1.75 was therefore "a lower bound on coverage, not a stable saturation reading."
 
-This is the identical failure the whole existence-gate discipline exists to prevent, committed inside
-my own seed table one step after building the gate. Two things follow:
+**Repaired: 2 → 1,316 forward citations**, seeded by Semantic Scholar paperId read from `95`'s
+resolver output. Lesthaeghe and Surkyn 1988, which hit round 1's 600-record cap, was pulled uncapped
+to 764. Both were pulled uncapped on purpose; fixing a seed and then truncating it at 46% of its
+neighbourhood would have left the same gap, smaller.
 
-1. **The round-1 frame under-reaches the SDT demography family** by approximately the citation
-   neighbourhood of its central work. The 1.77 yield is measured on an incomplete pull and should be
-   read as a lower bound on coverage, not as a stable saturation reading.
-2. **Seed tables must be generated from resolver output, never typed.** The fix for round 2 is to have
-   93 read its seeds from `temp/d1a/canon-seeds.json` and to seed identifier-less works by Semantic
-   Scholar title lookup rather than by a fabricated DOI. Recorded as a process change, not just a
-   correction.
-
-Round 2 must therefore do three things: re-seed van de Kaa properly, add the round-1 relevant records
-as second-generation seeds, and re-measure yield on the completed pull.
+**The result is reassuring and slightly deflating: only 22 relevant records were reachable *solely*
+from the repaired seeds**, a yield of 0.53 per 50 — below the floor. The SDT demography family is
+densely cross-citing, so round 1's other five SDT seeds had already covered most of van de Kaa's
+neighbourhood. **Round 1's 1.75 was therefore not materially biased by the seed error.** That does not
+retire the process change it produced — seed tables are generated from resolver output, never typed,
+and `96` reads its seeds from `95`'s JSON — but it does size the damage honestly rather than leaving
+the round-1 warning standing as if unresolved.
 
 ---
 
-## Seed selection: canonical status is not the criterion
+## Four states, not two: what a zero in this table means
 
-Hofstede 1980 (15,158 citations) and Schwartz 1992 both resolve, and neither is seeded. Their citation
-neighbourhoods are the management and cross-cultural-psychology literatures — they are canon for a
-*construct*, not for this treatment × outcome pair — and seeding them would bury the frame in off-pair
-records and make the yield statistic meaningless. **The seed criterion is the specificity of the
-citation neighbourhood, not the fame of the work.**
+Round 1 reported seed cells as `OK` or `UNCONFIRMED`. That is too few states, and collapsing them
+manufactured absences. Round 2 distinguishes:
 
-The obvious alternative fix, keyword-filtering the frame down to fertility papers, is **refused on
-purpose**: it would bias Tier B toward keyword-reachable work and inflate Recall(B), which is exactly
-the error the OAS and C.2.c runs were burned by. A frame that is expensive to screen is the price of a
-frame that can measure recall honestly.
+| State | Meaning | Cells |
+|---|---|---|
+| `OK` | the provider answered with records | — |
+| `UNCONFIRMED` | the provider did not answer — a fact about the **network** | **0** |
+| `NOT_INDEXED` | the provider answered and does not hold this work — a fact about the **index** | 9 |
+| `NO_REFS_DEPOSITED` | Crossref holds the work; the publisher deposited no reference list | 15 |
 
-Separately, the resolver flagged **Schwartz 1992 as resolving to the wrong paper** — "Individual
-values and delinquency" (2016, 35 citations) rather than the 1992 *Advances in Experimental Social
-Psychology* chapter. It carries `RESOLVED_DISCREPANT` and must not be treated as verified.
+**All three of round 1's `UNCONFIRMED` cells were actually `NOT_INDEXED`.** They were never going to
+resolve on a retry, and the round-1 log's hope that they would was misplaced:
 
----
+- **Fernández, *Does Culture Matter?*** — Semantic Scholar does not index this Handbook chapter at
+  all. It was the economics-of-culture family's **only** seed, and round 1 attributed that family's
+  under-reach to a failed pull. It is an indexing gap, not a thin literature, and the fix was to seed
+  the family through Enke 2019 instead.
+- **Both sub-Saharan Africa reviews** are absent from the provider each was queried against. The AJRH
+  2023 review is the same record `91` recorded as `VERIFIED_TITLE_KEYED` — a real paper whose DOI was
+  never registered with Crossref. **This chapter has now hit the non-Anglo-European indexing gap from
+  three independent directions**, and it runs in exactly the direction of the geographic-skew
+  limitation already in the scope.
 
-## Seed-level detail
-
-| Seed | Channel | Family | Backward | Forward |
-|---|---|---|---|---|
-| Zaidi & Morgan 2017 | ch2 | demography-SDT | 118 | 257 |
-| Lesthaeghe 2020 (Genus) | ch2 | demography-SDT | 99 | 21 |
-| Lesthaeghe 2014 (PNAS) | ch2 | demography-SDT | 22 | 571 |
-| Fernández, *Does Culture Matter?* | ch2 | econ-of-culture | 52 | UNCONFIRMED |
-| SSA religions review 2023 | ch1 | sociology-of-religion | UNCONFIRMED | 9 |
-| SSA religion/religiosity review 2021 | ch1 | sociology-of-religion | 0 | UNCONFIRMED |
-| **van de Kaa 1987** | ch2 | demography-SDT | 0 | **2 — WRONG SEED, see above** |
-| Lesthaeghe & Surkyn 1988 | ch2 | demography-SDT | 0 | 600 (cap) |
-| Norris & Inglehart 2004 | ch2 | sociology-of-religion | 515 | 157 |
-
-Three `UNCONFIRMED` cells are Semantic Scholar throttling and one is the unregistered-DOI review;
-none is evidence of absence. Lesthaeghe & Surkyn hit the 600 forward cap and has more available.
+`NO_REFS_DEPOSITED` matters for the same reason. Lesthaeghe 1983 in *PDR* returns zero references and
+obviously has them; Crossref reference deposition is optional and widely skipped. A backward count of
+0 is a statement about a publisher's metadata, never about a paper citing nothing.
 
 ---
 
-## What round 1 tells us about the literature
+## Three transport bugs, each of which reported missing data as measured data
 
-**The overlap rate is 105 of 1,970, about 5%.** C.2.c found overlap rate is not a convergence signal
-under expanding seeds, so it is recorded here as a descriptive statistic rather than a stop criterion.
-At 5% the nine seeds are reaching largely disjoint neighbourhoods, which is consistent with the
-scope's prediction of four barely-overlapping vocabulary families and argues against declaring
-saturation early.
+All three were found in one session, and all three fail in the direction that looks like a finding.
 
-**The frame is dominated by demography-SDT.** Six of nine seeds sit in that family, and the
-sociology-of-religion empirical literature is reached mainly through Norris and Inglehart. The
-economics-of-culture family is represented by one seed whose forward pull failed. Round 2 needs seeds
-from the under-reached families, which is the same correction C.2.c had to make after its round 1.
+**1. A throttle cached as a successful empty pull.** Semantic Scholar answers a rate limit with
+`{"message": "Too Many Requests. Please wait and try again...", "code": "429"}`. The guard tested
+`message == "Too Many Requests"` — equality against a *prefix* of the real message. It never fired, so
+the 429 body was cached as a valid response and the caller read `data or []` off it and recorded zero.
+It surfaced only because the first seed it hit was van de Kaa, where `n=0` was obviously wrong; on any
+of the 82 generation-2 seeds it would have looked entirely normal.
+
+**2. A rate-limit detector that matched a timestamp.** The fix for (1) scanned response bodies for
+markers including a bare `"429"`. That substring occurs inside the Unix timestamp `1429894924000` in
+Crossref's record for Inglehart 1977, so valid responses were classified as throttles, retried six
+times, and recorded as `UNCONFIRMED`. **This is the third instance in this codebase of an unanchored
+substring match against text that was never meant to be searched** — after `hous` matching
+h*ous*ehold in C.2.c and `reproduc\w+` matching social reproduction in this chapter's v1 filter — and
+the first inside the transport layer, which is why it presented as a network symptom rather than a
+screening error. Fixed by making the **HTTP status code** the primary signal and demoting body
+sniffing to a fallback for providers that answer 200 with an error payload.
+
+**3. Reactive backoff cannot survive an unauthenticated rate limit.** Exponential backoff alone meant
+that once S2 began refusing, every subsequent request also refused and burned the full retry ladder
+(~113s) before returning `UNCONFIRMED`. The run reached generation-2 seed 6 of 82 in seven minutes and
+would have recorded most of the remainder as missing literature. Replaced with **proactive pacing** —
+a minimum interval per host — after which the same run completed with **zero** throttle retries.
+**An API key for Semantic Scholar remains the outstanding operational request**, now for the second
+chapter running.
+
+---
+
+## The relevance filter, versions 2 and 3, and why a fix is not evidence for itself
+
+The standing requirement from C.2.c — read a sample of what the filter admits *and* rejects before
+trusting any saturation number — has now caught a defect on all three passes.
+
+**v2** came out of hand-reading the audit sample v1 left behind. `culture|cultural` was matching
+**design descriptors**: `cross-cultural` is a sampling frame and not a value measure, and it had
+admitted a sociosexual-orientation paper whose treatment belongs to a different chapter. Seventeen of
+round 1's 86 relevant records hung on `culture`/`cultural` alone, so a fifth of the frame was exposed
+even though only two records were actually wrong. The naive fix — reject anything containing a design
+descriptor — was **tested and rejected**, because it drops *"Journal of Cross-Cultural Psychology:
+Value of Children"*, which is squarely on-pair and whose descriptor sits in the venue name. Replaced
+by **strip-then-rematch**: delete the idiom spans, then test what survives.
+
+**v3 corrects v2, and the reason is the most transferable thing here.** v2 also treated
+`socio-cultural` and `cultural evolution` as design descriptors. Across round 1's 3 affected records
+that looked right. Across round 2's 43 it was plainly wrong — roughly half were on-pair records being
+discarded: *"Socio-Cultural Practices and Fertility Behavior among Banyankole Families"*, *"How
+socio-cultural factors and opportunity costs shape the transition to a third child"*, and Colleran and
+Mace's *"The cultural evolution of fertility decline"*, which is cultural transmission of fertility
+norms and is exactly this chapter's treatment. `cross-cultural` describes the **sample**;
+`socio-cultural` is an ordinary adjective for the **thing measured**.
+
+**Each version was validated on the sample available when it was written, and each was wrong in a way
+that only appeared at the next order of magnitude.** v1 was audited on 45 records and shipped two
+bugs. v2 was validated on the 3 records its change touched and shipped a false-negative class that
+needed 43 records to become visible. The sample that produces a hypothesis cannot also test it.
+
+Both pools are re-scored under v3 by `97_`, because round 1 at v2 and round 2 at v3 would produce a
+change in yield that is partly a change in the literature and partly a change in the ruler.
+
+---
+
+## Seed-level detail, round 2
+
+| Seed | Leg | Family | Backward | Forward | Note |
+|---|---|---|---|---|---|
+| van de Kaa 1987 | A | demography-SDT | 0 | **1,316** | repaired; seeded by S2 paperId, no DOI exists |
+| Lesthaeghe & Surkyn 1988 | A | demography-SDT | — | 764 | round-1 cap lifted |
+| Fernández, *Does Culture Matter?* | A | econ-of-culture | — | `NOT_INDEXED` | not in S2 at all |
+| SSA religions review 2023 | A | sociology-of-religion | `NOT_INDEXED` | — | unregistered DOI |
+| SSA religion/religiosity 2021 | A | sociology-of-religion | — | `NOT_INDEXED` | OSF preprint |
+| Frejka & Westoff 2008 | B1 | sociology-of-religion | 47 | 194 | v5 seminal; `92` left it UNCONFIRMED |
+| McQuillan 2004 | B1 | sociology-of-religion | 106 | 463 | |
+| Hagestad & Call 2007 | B1 | sociology-of-religion | 50 | 82 | v5 seminal; rescued by `95`'s subtitle gate |
+| Lesthaeghe 1983 | B1 | demography-SDT | `NO_REFS` | 600 (cap) | v5 seminal, resolved in `92`, never seeded |
+| Enke 2019 | B1 | econ-of-culture | `NO_REFS` | 68 | the family round 1 reached with one dead seed |
+| Voas 2009 | B1 | sociology-of-religion | 11 | 474 | **judgement call** |
+| Inglehart 1977 | B1 | values-psychology | `NO_REFS` | 600 (cap) | **judgement call** |
+| Inglehart & Baker 2000 | B1 | values-psychology | 57 | 600 (cap) | **judgement call**; twin DOIs, both pulled |
+| 82 round-1 relevant records | B2 | gen2 | — | — | forward capped at 200 each |
+
+**Seeds truncated by a cap, named rather than buried:** Lesthaeghe 1983, Inglehart 1977, Inglehart &
+Baker 2000, and two generation-2 seeds (*Cultural and Economic Approaches to Fertility*, *When Does
+Religion Influence Fertility*). Two round-1 relevant records carried neither a DOI nor an S2 id and
+could not be seeded at all.
+
+**The three judgement calls are recorded as judgement calls.** Voas 2009 and the two Inglehart works
+sit closer to construct canon than to pair canon, which is the criterion round 1 used to exclude
+Hofstede and Schwartz. They were seeded anyway because postmaterialism and individualism have no
+channel-1 review and no seed of any kind, so refusing them makes those strata unreachable through
+channel 3 entirely. They did not swamp the frame. Round 1's exclusion criterion — **specificity of the
+citation neighbourhood, not fame** — otherwise holds unchanged, and it is worth noting that all four
+construct-canon works excluded under it are also the four that failed to resolve cleanly in `95`.
+
+---
+
+## Canon seed resolution moved off OpenAlex permanently
+
+Round 1 recorded six `UNCONFIRMED` rows in `92` as OpenAlex budget exhaustion and instructed the next
+session to re-run after the reset. **That re-run was attempted and returned `UNCONFIRMED` on all
+sixteen rows.** The budget had reset; it is simply too small to run the resolver — a title search
+costs $0.001 against a daily free allowance that does not cover sixteen of them, while a single-work
+fetch by ID still succeeds.
+
+So the finding is sharper than round 1's "OpenAlex has moved to a metered budget": **the free tier can
+no longer support channel-2 canon resolution at all, and no amount of waiting fixes it.** Every
+chapter's resolver needs to move, not just this one's. `95` re-resolves every row against **both**
+Crossref and Semantic Scholar, and reports cross-provider agreement as its own field. Full detail in
+`{slug}-canon-reresolution.md`; four results matter here.
+
+**1. Two v5 seminal names that `92` could not confirm are real.** Frejka and Westoff 2008 resolves on
+both providers. Hagestad and Call 2007 resolves on Crossref with 82 citations — see (2).
+
+**2. A Jaccard title gate false-negatives on subtitle drops, and this one nearly cost a v5 seminal
+name.** Hagestad and Call was queried as *"Pathways to childlessness: a life course perspective"* and
+is indexed as *"Pathways to Childlessness"*. Jaccard divides by the union, so four extra query tokens
+against three shared ones gives 0.43 — under the 0.55 gate — for a record whose **both author surnames
+and year match exactly**. It would have been recorded as a second v5 seminal name that does not exist.
+Containment of the shorter title is 1.0. **Every resolver in this tree gates on Jaccard alone and will
+fail the same way**; worth propagating alongside `91`'s false-ghost fix.
+
+**3. One work, two registered DOIs, citations split across them.** Inglehart and Baker 2000 is
+`10.2307/2657288` (JSTOR, 2,454 citations) and `10.1177/000312240006500103` (SAGE, 5,379) — one *ASR*
+article. This is the NBER/SSRN twin problem from C.2.c appearing **inside the canon seed table**.
+Both are seeded; dropping either loses whatever share of the forward neighbourhood cites that version.
+
+**4. Cross-provider agreement is not a correctness guarantee, demonstrated in the run that introduced
+it.** Crossref and S2 **agree** on Hofstede 1980 — and both resolve it to a 1982 *Design Studies* book
+review by Sydney Gregory rather than to Hofstede's book. Providers sharing upstream metadata agree on
+shared errors. Hofstede is deliberately not seeded, so nothing operational turns on it, but the caveat
+belongs next to the method.
+
+---
+
+## Round 3, if it is authorised
+
+1. Seed the families still reached through a single work: econ-of-culture rests on Enke 2019 alone
+   now that Fernández is known to be unindexed.
+2. Re-seed the two `NOT_INDEXED` regional reviews by title against a provider that holds them, rather
+   than by DOI against one that does not.
+3. Lift the generation-2 forward cap on the two truncated gen-2 seeds and on the three capped canon
+   seeds before treating any yield number as converged.

@@ -55,6 +55,9 @@ Output: temp/d1a/snowball-r1-pool.json
 """
 import json, os, re, subprocess, sys, time, urllib.parse
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))  # 94 loads this file by path, not name
+from d1a_fetch import Fetcher  # noqa: E402
+
 SLUG = "postmaterialism-individualism-secularization"
 MAILTO = "shravanh@uchicago.edu"
 UA = f"fertility-review/1.0 (mailto:{MAILTO})"
@@ -65,7 +68,7 @@ os.makedirs(TMP, exist_ok=True)
 POOL = os.path.join(TMP, "snowball-r1-pool.json")
 OUT_MD = os.path.join(LOGS, f"{SLUG}-snowball-log.md")
 CACHE_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "d1a_snowball_cache.json")
-cache = json.load(open(CACHE_PATH)) if os.path.exists(CACHE_PATH) else {}
+FETCH = Fetcher(CACHE_PATH, UA)
 
 FWD_CAP = 600          # per seed; guards against a canon work with an enormous neighbourhood
 S2_PAGE = 100
@@ -84,48 +87,20 @@ SEEDS = {
     "Norris & Inglehart 2004 (Sacred and Secular)": ("10.1017/cbo9780511791017", "ch2", "sociology-of-religion"),
 }
 
-# Relevance labelling. WORD-BOUNDARY ANCHORED, deliberately.
-# The C.2.c run's headline methodological failure was a relevance filter matching bare `hous` and
-# `rent`, which scored hOUSEhold, paRENT, cuRRENT and diffeRENT as housing terms and made 58% of the
-# frame false positives -- inflating yield and making a converging snowball look non-converging.
-# D.1.a's equivalents are worse, not better: `value` matches evaluation and valuable, `individual`
-# matches "individual-level" and "individualised", `material` matches materials science, and
-# `religio` is fine but `secular` also appears in "secular trend", a demography term of art meaning a
-# long-run trend with no religious content at all.
-TREATMENT = re.compile(r"""\b(
-    religio\w* | secular(?:ism|ization|isation|ity)\b | church\w* | denominational?\b | faith\b |
-    postmaterialis\w* | post-materialis\w* | individualism\b | individualist\w* |
-    individuali[sz]ation\b | collectivism\b | autonomy\b | kinship\b |
-    ideational\b | second\s+demographic\s+transition | consumerism\b | materialism\b |
-    values?\b | norms?\b | culture\b | cultural\b | attitudes?\b | belief\w*
-)""", re.I | re.X)
-OUTCOME = re.compile(r"""\b(
-    fertility\b | fertilit\w+ | birth\b | births\b | birthrate\b | childbearing\b | childless\w* |
-    childfree\b | parity\b | natality\b | family\s+size | number\s+of\s+children |
-    tfr\b | nuptialit\w+ | procreat\w+ |
-    reproductive\s+(?:behavio\w+|success|intention\w*|decision\w*|career|outcome\w*)
-)""", re.I | re.X)
-# "secular trend" is a demography idiom with no religious content -- excluded explicitly.
-SECULAR_TREND = re.compile(r"\bsecular\s+(trend|decline|increase|change\s+in\s+height)", re.I)
+# Relevance labelling now lives in d1a_relevance.py, imported here so there is exactly one definition
+# in the tree. The bug history above is what round 1 found; the patterns, and the v2 design-descriptor
+# fix that round 2's hand read added, are in the module.
+from d1a_relevance import OUTCOME, TREATMENT, VERSION as RELEVANCE_VERSION, relevant  # noqa: E402,F401
 
 
-def get(url, tries=5, sleep=1.2):
-    key = f"g::{url}"
-    if key in cache:
-        return cache[key]
-    for a in range(tries):
-        out = subprocess.run(["curl", "-s", "-m", "50", "-A", UA, url], capture_output=True, text=True)
-        if out.returncode == 0 and out.stdout.strip().startswith("{"):
-            try:
-                d = json.loads(out.stdout)
-            except Exception:  # noqa: BLE001
-                time.sleep(sleep * (a + 2)); continue
-            if "error" in d or d.get("message") == "Too Many Requests":
-                time.sleep(sleep * (a + 2) * 2); continue
-            cache[key] = d
-            return d
-        time.sleep(sleep * (a + 2))
-    return None
+# The cached fetcher moved to d1a_fetch.py. The copy that lived here tested
+# `d.get("message") == "Too Many Requests"` against Semantic Scholar's actual 429 body, which begins
+# with that string and continues for another eighty characters, so the guard never fired and a
+# throttle response was cached as a successful empty pull. Round 1's stored numbers are unaffected
+# -- the cache was audited entry by entry and no round-1 cell was zeroed this way -- but that was
+# luck. Round 2 caught it on van de Kaa 1987, where n=0 was obviously wrong. See d1a_fetch.py.
+def get(url, sleep=None):
+    return FETCH.get(url, sleep=sleep)
 
 
 def crossref_refs(doi):
@@ -167,22 +142,6 @@ def norm_title(t):
     return re.sub(r"[^a-z0-9]+", " ", (t or "").lower()).strip()
 
 
-def relevant(rec):
-    """Returns (is_relevant, reason). Requires BOTH axes -- the treatment x outcome definition."""
-    blob = f"{rec.get('title', '')} {rec.get('venue', '')}"
-    if not blob.strip():
-        return False, "no title"
-    t = TREATMENT.search(blob)
-    o = OUTCOME.search(blob)
-    if t and SECULAR_TREND.search(blob) and t.group(0).lower().startswith("secular"):
-        return False, "secular-trend idiom, no religious content"
-    if t and o:
-        return True, f"treatment={t.group(0)}; outcome={o.group(0)}"
-    if not t:
-        return False, "no treatment term"
-    return False, "no outcome term"
-
-
 def main():
     seeds_done, pool = {}, {}
     for label, (doi, ch, fam) in SEEDS.items():
@@ -209,7 +168,7 @@ def main():
                     pool[key]["doi"] = rec["doi"]
             else:
                 pool[key] = {**rec, "seen_from": [label]}
-        json.dump(cache, open(CACHE_PATH, "w"))
+        FETCH.save()
 
     for k, v in pool.items():
         ok, why = relevant(v)
