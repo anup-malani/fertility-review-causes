@@ -60,10 +60,13 @@ SLUG = "postmaterialism-individualism-secularization"
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
 LOGS = os.path.join(ROOT, "literature", "search-logs")
-CORPUS = os.path.join(LOGS, f"{SLUG}-live-corpus.json")
-OUT_JSON = os.path.join(LOGS, f"{SLUG}-prefilter.json")
-OUT_MD = os.path.join(LOGS, f"{SLUG}-prefilter-log.md")
-OUT_SAMPLE = os.path.join(LOGS, f"{SLUG}-prefilter-rejected-sample.md")
+# `--query v2` reads the repaired query's corpus and writes `-v2` outputs, so v1's record survives.
+_V2 = "--query" in sys.argv and sys.argv[sys.argv.index("--query") + 1] == "v2"
+SUF = "-v2" if _V2 else ""
+CORPUS = os.path.join(LOGS, f"{SLUG}-live-corpus{SUF}.json")
+OUT_JSON = os.path.join(LOGS, f"{SLUG}-prefilter{SUF}.json")
+OUT_MD = os.path.join(LOGS, f"{SLUG}-prefilter-log{SUF}.md")
+OUT_SAMPLE = os.path.join(LOGS, f"{SLUG}-prefilter-rejected-sample{SUF}.md")
 
 _spec = importlib.util.spec_from_file_location("cv", os.path.join(HERE, "101_d1a_cv_breadth.py"))
 cv = importlib.util.module_from_spec(_spec)

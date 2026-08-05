@@ -41,7 +41,7 @@ Usage:
 Output: literature/search-logs/{slug}-live-corpus.json
         literature/search-logs/{slug}-live-search-log.md
 """
-import json, os, re, subprocess, sys, time, urllib.parse
+import hashlib, json, os, re, subprocess, sys, time, urllib.parse
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import importlib.util
@@ -70,9 +70,13 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
 LOGS = os.path.join(ROOT, "literature", "search-logs")
 CACHE_DIR = os.path.join(HERE, "cache", "d1a_live_search")
 os.makedirs(CACHE_DIR, exist_ok=True)
-PQ = os.path.join(LOGS, f"{SLUG}-production-query.json")
-OUT_JSON = os.path.join(LOGS, f"{SLUG}-live-corpus.json")
-OUT_MD = os.path.join(LOGS, f"{SLUG}-live-search-log.md")
+# The query artifact is selectable so the repaired v2 can be pulled without destroying the record of
+# what v1 returned. `--query v2` reads `{slug}-production-query-v2.json` and writes `-v2` outputs.
+QV = "v2" if "--query" in sys.argv and sys.argv[sys.argv.index("--query") + 1] == "v2" else "v1"
+SUF = "" if QV == "v1" else "-v2"
+PQ = os.path.join(LOGS, f"{SLUG}-production-query{SUF}.json")
+OUT_JSON = os.path.join(LOGS, f"{SLUG}-live-corpus{SUF}.json")
+OUT_MD = os.path.join(LOGS, f"{SLUG}-live-search-log{SUF}.md")
 
 PER_PAGE = 200
 SLEEP = 0.6
@@ -169,7 +173,13 @@ def pull_cluster(cluster, filt, counts_only=False):
         if OA_KEY:
             params["api_key"] = OA_KEY
         url = "https://api.openalex.org/works?" + urllib.parse.urlencode(params)
-        key = f"{cluster}__{'count' if counts_only else pages}"
+        # THE CACHE KEY MUST CARRY THE QUERY. It used to be `{cluster}__{page}` alone, which means a
+        # re-run under a DIFFERENT query would replay the previous query's pages and report them as
+        # a fresh pull -- the truncated-pull-reads-as-complete failure, except the corpus would be
+        # complete and simply be the answer to the wrong question. Hashing the filter makes a changed
+        # query miss the cache by construction rather than by anyone remembering to clear it.
+        qh = hashlib.sha1(filt.encode()).hexdigest()[:8]
+        key = f"{cluster}__{qh}__{'count' if counts_only else pages}"
         try:
             d = fetch(url, key)
         except BudgetExhausted:
@@ -223,8 +233,9 @@ def main():
             incomplete.append(cluster)
             # Re-read the cached pages so the partial pull is recorded rather than discarded.
             recs, total, pages, complete = [], None, 0, False
+            qh = hashlib.sha1(filt.encode()).hexdigest()[:8]
             while True:
-                cf = os.path.join(CACHE_DIR, f"{cluster}__{pages}.json")
+                cf = os.path.join(CACHE_DIR, f"{cluster}__{qh}__{pages}.json")
                 if not os.path.exists(cf):
                     break
                 with open(cf) as fh:
