@@ -40,7 +40,7 @@ that look complete, which is this chapter's signature failure mode.
 Output: literature/search-logs/{slug}-production-query.json   (the compiled query, C1 consumes this)
         literature/search-logs/{slug}-recall-probe.md
 """
-import json, os, sys, urllib.parse
+import json, os, re, sys, urllib.parse
 from collections import Counter
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -55,7 +55,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
 LOGS = os.path.join(ROOT, "literature", "search-logs")
 N_OUT, N_TRT = 20, 10          # chosen at A6b on the recall-vs-budget frontier
-OA_MAX_CALLS = 10              # hard cap; the free daily allowance is roughly a dozen searches
+OA_MAX_CALLS = 20              # hard cap; the free daily allowance is roughly a dozen searches
 OA_COST_PER_CALL = 0.001       # from the 95_ rate-limit body: "This request costs $0.001"
 
 FETCH = Fetcher(os.path.join(HERE, "d1a_query_cache.json"), UA)
@@ -88,8 +88,21 @@ def s2_phrase(t):
 
 
 def oa_phrase(t):
-    t = t.strip().lower()
-    return t[:-1] if t.endswith("*") else t
+    """A term as OpenAlex `title.search` syntax: NO WILDCARDS, because the field is stemmed.
+
+    This function's first version stripped only a TRAILING star, which left internal stars in
+    multi-word terms and made OpenAlex reject the whole query with a message that turned out to be
+    the most useful thing in this stage: *"Wildcards (* or ?) require the exact (no-stem) field.
+    `title.search` is stemmed."*
+
+    That single sentence reverses this script's original conclusion. `title.search` stems at index
+    time, so `childless` and `childlessness` both return 2,586 -- identical, the same postings list.
+    The earlier reading, that OpenAlex "has no prefix matching" because `fertilit` returned 63
+    against 114,008 for `fertility`, was measuring the wrong thing: `fertilit` is not a word and
+    stems to nothing, so of course it matches almost nothing. Stemming does the work wildcards were
+    added for, and every star is simply removed.
+    """
+    return re.sub(r"[*?]", "", t.strip().lower()).strip()
 
 
 def main():
@@ -184,6 +197,25 @@ def main():
         if d is None:
             return "UNCONFIRMED"
         return (d.get("meta") or {}).get("count")
+
+    # THE WHOLE CLUSTER QUERY GOES IN ONE REQUEST, and these are the counts that matter. Two
+    # comma-joined filters -- outcome OR-list AND cluster OR-list -- with 67 OR'd terms on one side,
+    # accepted without complaint. The per-term decomposition this script originally costed at 123
+    # metered requests is not required, and no wildcard expansion is needed because `title.search`
+    # is stemmed. These counts are TITLE-ONLY and therefore comparable to the CV, which selected the
+    # query on title-only recall; the Semantic Scholar counts above are title-AND-abstract.
+    oa_out = "|".join(sorted({oa_phrase(t) for t in out_terms if oa_phrase(t)}))
+    for c in cv.CLUSTERS:
+        oa_cl = "|".join(sorted({oa_phrase(t) for t in trt_terms[c] if oa_phrase(t)}))
+        k = f"{c}__title_only_full_query"
+        oa["counts"][k] = oa_count(f"title.search:{oa_out},title.search:{oa_cl}")
+        print(f"  OA[title-only full query] {c:24s} {oa['counts'][k]}", file=sys.stderr)
+    oa["title_only_query_form"] = {
+        "outcome_filter": f"title.search:{oa_out}",
+        "cluster_filters": {c: "title.search:" + "|".join(
+            sorted({oa_phrase(t) for t in trt_terms[c] if oa_phrase(t)})) for c in cv.CLUSTERS},
+        "note": "comma joins the two filters as AND; no wildcards, the field is stemmed",
+    }
 
     # SYNTAX NOTE, and the first run got this wrong in a way that returned plausible numbers.
     # OpenAlex conjoins filters with a COMMA. Written as `title.search:fertility AND religio` the
@@ -323,34 +355,57 @@ def main():
           "terms, which are narrower than intended as a result. These are concentrated in S4 and S5, "
           "whose backbones are almost entirely multi-word phrases — so the two clusters A6b already "
           "flagged as earning almost no credit are also the two most degraded by this limit.", "",
-          "## 3. Which provider can run this query", "",
-          "**This is a live question for the first time on this project.** Every previous chapter ran "
-          "C1 on OpenAlex. Three findings from this chapter make that unsafe here — the free tier is "
-          "metered and did not cover a sixteen-row canon resolution (`95_`), boolean searches above "
-          "five operators are throttled (channel-1 probe), and `title.search` has no prefix matching "
-          "at all (measured above).", "",
-          "| | OpenAlex | Semantic Scholar bulk |", "|---|---|---|",
-          "| accepts the full conjunction in one request | **no** (operator ceiling) | "
-          "**no** (4,094-byte request line) |",
-          f"| decomposition unit | **per term** | **per cluster** |",
-          f"| requests for the full query | **{n_narrow}** | **{len(cv.CLUSTERS)}** |",
-          "| supports prefix wildcards | **no** | yes (unquoted `stem*`) |",
-          f"| cost, first page only | **${feasibility['openalex']['estimated_cost_usd_first_page_only']}** | $0 |",
-          "| binding constraint | daily budget | unauthenticated throttling |", "",
-          "**Neither provider takes the query whole**, which is not what this script was drafted "
-          "expecting — the recommendation was going to be \"send it to S2 in one request\" until the "
-          "attempt returned HTTP 400. The decision therefore turns on the DECOMPOSITION UNIT, and "
-          f"there the gap is wide: OpenAlex needs one metered request per term (**{n_narrow}**, and "
-          f"that is a floor counting one page each), while S2 needs one free request per cluster "
-          f"(**{len(cv.CLUSTERS)}**).", "",
-          "**Recommendation: run C1 on Semantic Scholar bulk search**, decomposed by cluster and "
-          "unioned client-side, with OpenAlex kept for targeted count checks where its metering is "
-          "affordable. Two conditions attach. First, **the Semantic Scholar API key requested since "
-          "the D.3.b snowball is now on the critical path**, not a convenience: unauthenticated "
-          "throttling is the only thing standing between this plan and a completed pull. Second, "
-          "**whichever provider is used, the compiled query must be emitted with wildcards already "
-          "expanded** — the artifact this script writes still carries stems, and a consumer that "
-          "passes them through unexamined reproduces the silent failure measured above.", ""]
+          "## 3. Which provider can run this query — CORRECTED", "",
+          "**This section reverses the conclusion this script was drafted to reach, and the reversal "
+          "came from an error message.** The draft recommended Semantic Scholar bulk search on the "
+          "grounds that OpenAlex needed one metered request per term. Feeding OpenAlex the full "
+          "cluster query returned: *\"Wildcards (* or ?) require the exact (no-stem) field. "
+          "`title.search` is stemmed.\"* — which says the field does at index time what the query "
+          "was using wildcards to do at search time.", "",
+          "Three consequences, each measured:", "",
+          "1. **No wildcard expansion is needed on OpenAlex.** `childless` and `childlessness` both "
+          "return 2,586 — the same postings list. The earlier reading that OpenAlex \"has no prefix "
+          "matching\", inferred from `fertilit` returning 63 against 114,008 for `fertility`, was "
+          "measuring the wrong thing: `fertilit` is not a word and stems to nothing.",
+          "2. **The whole cluster query fits in one request** — two comma-joined filters, 67 OR'd "
+          "outcome terms against the cluster's terms, accepted without complaint. The 123-narrow-query "
+          "cost model does not apply.",
+          "3. **And the decisive one: the Semantic Scholar counts are title-AND-ABSTRACT and are not "
+          "comparable to the CV.** A6b selected this query on TITLE-ONLY recall. S2's bulk endpoint "
+          "cannot restrict to titles, so its numbers describe a different operationalisation than the "
+          "one that was validated. Running C1 there would not be the query the CV measured.", "",
+          "| cluster | OpenAlex, title-only (faithful to CV) | Semantic Scholar, title+abstract |",
+          "|---|---|---|"]
+    for c in cv.CLUSTERS:
+        oa_n = oa["counts"].get(f"{c}__title_only_full_query")
+        s2_n = s2_counts.get(c)
+        ratio = (f"{s2_n / oa_n:.0f}x" if isinstance(oa_n, int) and oa_n and isinstance(s2_n, int)
+                 else "")
+        L.append(f"| `{c}` | {oa_n:,} |".replace("{:,}", "") if isinstance(oa_n, int) else
+                 f"| `{c}` | {oa_n} |")
+        L[-1] = (f"| `{c}` | **{oa_n:,}** | {s2_n:,} ({ratio}) |"
+                 if isinstance(oa_n, int) and isinstance(s2_n, int) else f"| `{c}` | {oa_n} | {s2_n} |")
+    oa_tot = sum(v for k, v in oa["counts"].items()
+                 if k.endswith("__title_only_full_query") and isinstance(v, int))
+    L += [f"| **sum (upper bound, overlap unmeasured)** | **{oa_tot:,}** | "
+          f"{s2_counts['SUM_OF_CLUSTERS_UPPER_BOUND']:,} |", "",
+          "The gap is 19x to 39x per cluster. **This is the same trap the OAS chapter documented** in "
+          "`43_live_search.py`: \"title_and_abstract.search on the same terms returns 251,950 because "
+          "bare mined singles ... precise as title tokens ... explode across abstracts; title.search "
+          "returns ~11.7k.\" Terms selected for title precision are not title-and-abstract terms, and "
+          "a universe count taken on the wrong field overstates the pull by more than an order of "
+          "magnitude.", "",
+          "**Corrected recommendation: run C1 on OpenAlex `title.search`**, one request per cluster, "
+          f"cursor-paginated, against a title-only universe of **{oa_tot:,}** records before dedup. "
+          "That is affordable under the metered tier at roughly one request per 200 records, it is "
+          "the operationalisation the CV validated, and it needs no wildcard expansion. Semantic "
+          "Scholar remains the right provider for citation work (the snowball) and for records "
+          "OpenAlex does not index, where its abstract-inclusive matching is a feature rather than a "
+          "confound.", "",
+          "**What was nearly shipped.** Had the S2 recommendation stood, C1 would have pulled against "
+          "a 498,007-record title-and-abstract universe, retrieved a differently-defined corpus than "
+          "the one the CV measured, and reported a recall figure that no longer described the query "
+          "in use. The error was caught by a provider's error message, not by the metric.", ""]
     if miss_examples:
         L += ["## Gold the compiled query misses even with abstracts", ""]
         L += [f"- {t}" for t in miss_examples] + [""]

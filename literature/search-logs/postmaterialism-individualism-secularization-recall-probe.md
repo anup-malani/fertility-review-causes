@@ -58,22 +58,31 @@ Measured this run, not assumed. Both failures return a plausible non-zero count 
 
 **Neither provider supports a phrase prefix**, so the wildcard is dropped from **26** multi-word terms, which are narrower than intended as a result. These are concentrated in S4 and S5, whose backbones are almost entirely multi-word phrases — so the two clusters A6b already flagged as earning almost no credit are also the two most degraded by this limit.
 
-## 3. Which provider can run this query
+## 3. Which provider can run this query — CORRECTED
 
-**This is a live question for the first time on this project.** Every previous chapter ran C1 on OpenAlex. Three findings from this chapter make that unsafe here — the free tier is metered and did not cover a sixteen-row canon resolution (`95_`), boolean searches above five operators are throttled (channel-1 probe), and `title.search` has no prefix matching at all (measured above).
+**This section reverses the conclusion this script was drafted to reach, and the reversal came from an error message.** The draft recommended Semantic Scholar bulk search on the grounds that OpenAlex needed one metered request per term. Feeding OpenAlex the full cluster query returned: *"Wildcards (* or ?) require the exact (no-stem) field. `title.search` is stemmed."* — which says the field does at index time what the query was using wildcards to do at search time.
 
-| | OpenAlex | Semantic Scholar bulk |
+Three consequences, each measured:
+
+1. **No wildcard expansion is needed on OpenAlex.** `childless` and `childlessness` both return 2,586 — the same postings list. The earlier reading that OpenAlex "has no prefix matching", inferred from `fertilit` returning 63 against 114,008 for `fertility`, was measuring the wrong thing: `fertilit` is not a word and stems to nothing.
+2. **The whole cluster query fits in one request** — two comma-joined filters, 67 OR'd outcome terms against the cluster's terms, accepted without complaint. The 123-narrow-query cost model does not apply.
+3. **And the decisive one: the Semantic Scholar counts are title-AND-ABSTRACT and are not comparable to the CV.** A6b selected this query on TITLE-ONLY recall. S2's bulk endpoint cannot restrict to titles, so its numbers describe a different operationalisation than the one that was validated. Running C1 there would not be the query the CV measured.
+
+| cluster | OpenAlex, title-only (faithful to CV) | Semantic Scholar, title+abstract |
 |---|---|---|
-| accepts the full conjunction in one request | **no** (operator ceiling) | **no** (4,094-byte request line) |
-| decomposition unit | **per term** | **per cluster** |
-| requests for the full query | **123** | **6** |
-| supports prefix wildcards | **no** | yes (unquoted `stem*`) |
-| cost, first page only | **$0.123** | $0 |
-| binding constraint | daily budget | unauthenticated throttling |
+| `S1_POSTMATERIALISM` | **330** | 7,722 (23x) |
+| `S2_INDIVIDUALISM` | **841** | 32,846 (39x) |
+| `S3_SECULARIZATION` | **3,058** | 57,144 (19x) |
+| `S4_CHILDLESSNESS_NORM` | **2,221** | 41,291 (19x) |
+| `S5_CONSUMERISM` | **445** | 15,636 (35x) |
+| `GENERIC_VALUES` | **11,228** | 343,368 (31x) |
+| **sum (upper bound, overlap unmeasured)** | **18,123** | 498,007 |
 
-**Neither provider takes the query whole**, which is not what this script was drafted expecting — the recommendation was going to be "send it to S2 in one request" until the attempt returned HTTP 400. The decision therefore turns on the DECOMPOSITION UNIT, and there the gap is wide: OpenAlex needs one metered request per term (**123**, and that is a floor counting one page each), while S2 needs one free request per cluster (**6**).
+The gap is 19x to 39x per cluster. **This is the same trap the OAS chapter documented** in `43_live_search.py`: "title_and_abstract.search on the same terms returns 251,950 because bare mined singles ... precise as title tokens ... explode across abstracts; title.search returns ~11.7k." Terms selected for title precision are not title-and-abstract terms, and a universe count taken on the wrong field overstates the pull by more than an order of magnitude.
 
-**Recommendation: run C1 on Semantic Scholar bulk search**, decomposed by cluster and unioned client-side, with OpenAlex kept for targeted count checks where its metering is affordable. Two conditions attach. First, **the Semantic Scholar API key requested since the D.3.b snowball is now on the critical path**, not a convenience: unauthenticated throttling is the only thing standing between this plan and a completed pull. Second, **whichever provider is used, the compiled query must be emitted with wildcards already expanded** — the artifact this script writes still carries stems, and a consumer that passes them through unexamined reproduces the silent failure measured above.
+**Corrected recommendation: run C1 on OpenAlex `title.search`**, one request per cluster, cursor-paginated, against a title-only universe of **18,123** records before dedup. That is affordable under the metered tier at roughly one request per 200 records, it is the operationalisation the CV validated, and it needs no wildcard expansion. Semantic Scholar remains the right provider for citation work (the snowball) and for records OpenAlex does not index, where its abstract-inclusive matching is a feature rather than a confound.
+
+**What was nearly shipped.** Had the S2 recommendation stood, C1 would have pulled against a 498,007-record title-and-abstract universe, retrieved a differently-defined corpus than the one the CV measured, and reported a recall figure that no longer described the query in use. The error was caught by a provider's error message, not by the metric.
 
 ## Gold the compiled query misses even with abstracts
 

@@ -251,9 +251,15 @@
    "SUM_OF_CLUSTERS_UPPER_BOUND": 498007
   },
   "openalex": {
-   "calls_made": 7,
-   "capped_at": 10,
+   "calls_made": 13,
+   "capped_at": 20,
    "counts": {
+    "S1_POSTMATERIALISM__title_only_full_query": 330,
+    "S2_INDIVIDUALISM__title_only_full_query": 841,
+    "S3_SECULARIZATION__title_only_full_query": 3058,
+    "S4_CHILDLESSNESS_NORM__title_only_full_query": 2221,
+    "S5_CONSUMERISM__title_only_full_query": 445,
+    "GENERIC_VALUES__title_only_full_query": 11228,
     "S1_POSTMATERIALISM": 0,
     "S2_INDIVIDUALISM": 3,
     "S3_SECULARIZATION": 1,
@@ -265,6 +271,18 @@
     "query": "title.search:fertility|fertilit|birth rate|birthrate|births|childbearing",
     "n_terms_ored": 6,
     "result": 354142
+   },
+   "title_only_query_form": {
+    "outcome_filter": "title.search:baby boom|baby bust|biological success|birth cohorts|birth rate|birthrate|births|child-free|childbear|childbearing|childfree|childless|childlessness|children fertility|completed family|desire for children|desire to have children|family formation|family size|fecundidad|fecundidade|fertilit|fertility|fertility behavior|fertility behaviour|fertility change|fertility childbearing|fertility decline|fertility intention|fertility intentions|fertility preference|fertility preferences|fertility related|fertility sub|fertility united|fruchtbarkeit|f\u00e9condit\u00e9|geburtenrate|generative verhalten|have a child|having children|influence fertility|kindertal|kinderzahl|marital fertility|natalidad|natality|natalit\u00e9|nombre d'enfants|number of children|nuptialit|parity|procreat|reproductive behavior|reproductive behaviour|reproductive decision|reproductive intention|reproductive success|tfr|total fertility rate|voluntary childlessness|vruchtbaarheid|want children|women fertility",
+    "cluster_filters": {
+     "S1_POSTMATERIALISM": "title.search:emancipative value|european values study|ideational|ideational change|modernization|post-industrial|post-materialis|postindustrial|postmaterial value|postmaterialis|postmaterialismus|postmodern|self-expression value|silent revolution|survival value|value change|value orientation|value orientations|world values survey",
+     "S2_INDIVIDUALISM": "title.search:autonomy|collectivism|cousin marriage|extended famil|familialism|familism|female autonomy|individualisation|individualism|individualist|individualization|kin intensity|kinship intensity|kinship tightness|self-direction|women autonomy",
+     "S3_SECULARIZATION": "title.search:affiliation|belief in god|canonical secularization|catholic|church attendance|clergy|denomination|evangelic|faith|influence religion|islam|muslim|orthodox|prayer frequency|protestant|religio|religion|religion education|religion religiosity|religiosity|religious|religious affiliation|religious attendance|religious groups|religious salience|religiousness|secular|secularis|service attendance",
+     "S4_CHILDLESSNESS_NORM": "title.search:acceptability of childless|approval of childless|attitudes toward childless|attitudes towards childless|child-free|childfree|childfree identit|childlessness as a choice|intentional childless|norm about childless|stigma of childless|voluntary childless",
+     "S5_CONSUMERISM": "title.search:acquisitive|aspirational consumption|conspicuous consumption|consumerism|consumerist|consumption aspiration|lifestyle aspiration|material value|material values|materialism|materialism scale|materialistic|materialistic value|possession|richins|status good",
+     "GENERIC_VALUES": "title.search:attitude|attitudes|belief|changing value|cultural|cultural change|culture|gender attitude|gender attitudes|gender role attitude|ideals|norms|preferences|second demographic|second demographic transition|value|value children|value of children|values|worldview"
+    },
+    "note": "comma joins the two filters as AND; no wildcards, the field is stemmed"
    }
   }
  },
