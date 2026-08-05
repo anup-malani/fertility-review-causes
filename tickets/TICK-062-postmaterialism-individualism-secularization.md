@@ -23,6 +23,41 @@
 - [ ] 14. PI review and sign-off
 
 ## Log
+- 2026-08-04 (Shravan/Claude): **A3 complete — gold set assembled and frozen. Tier A 48 anchors (31
+  empirical, CV floor 30 cleared); Tier B 495 records taken whole.**
+  `literature/search-logs/{slug}-tier-a.json`, `-tier-b-frame.json`, `-tier-ab-log.md`,
+  `-tier-b-backfill.md`; scripts `98_d1a_assemble_gold.py`, `99_d1a_backfill_gold.py`; third shared
+  module `d1a_titles.py`. **Next stage is A4, term population** — the Tier-A half of step 3, which
+  D.1.a has not started: `discriminative-terms` → `cv-breadth` → `production-query` → `tier-a`
+  screen → `recall-probe`. B.1 has 17 search-log artifacts at this stage and D.1.a now has 11.
+  **(1) Enrichment moved to S2's batch endpoint — three calls instead of 543.** B.1 and D.3.b
+  enriched from OpenAlex, which is no longer viable at the free tier. Same substitution the snowball
+  made, and it keeps Tier B orthogonal to OpenAlex in infrastructure as well as method.
+  **(2) Two defects the assembly did not report and inspection did.** 27 of 495 "titles" were entire
+  citation strings — Crossref reference lists carry an `unstructured` field when the publisher
+  deposited a formatted reference, and `93_`/`96_` fall back to it. Left alone, every author surname
+  and journal name in those strings would have entered the A4 candidate vocabulary as subject matter,
+  and the records would have failed the recall probe for reasons unrelated to query quality. Second,
+  abstracts reached only 36%; that does not block A4 (titles only, per D.3.b) but binds at A6c, where
+  the title-versus-title-and-abstract operationalisation is chosen on measured recall and cannot be
+  chosen honestly at 36%. A Crossref backfill took DOIs 385 → 416 and abstracts to **51%**.
+  **(3) The guard refused 79 of 110 and the refusals are the evidence it is calibrated.** A hand read
+  shows the residue is book chapters, regional and non-English journals, dissertations and conference
+  papers that Crossref does not hold — **fourth independent appearance of the same non-Anglo-European
+  indexing gap on this chapter**, after the AJRH unregistered DOI, the `NOT_INDEXED` regional reviews,
+  and Dutch-language Lesthaeghe and van de Kaa 1986. Carries to §10 alongside the geographic-skew
+  limitation. The clearest single refusal: *"Attitudes toward fertility and childbearing among
+  childless female teachers in Gorgan"* drew a candidate titled *"...among female University
+  students"* at containment **0.78** against a 0.80 bar — same title family, same year, different
+  study. **Relaxing the threshold to lift the recovery rate would have assigned a wrong DOI**, which
+  is how the OAS run acquired a 40%-ghost Tier B. A low recovery rate is the correct outcome when the
+  records genuinely are not indexed.
+  **(4) Tier A / Tier B overlap is 19 of 47**, reported because Recall(B) is only a fair yardstick to
+  the extent the two channels are orthogonal in fact and not merely in source. Tier A came from the
+  OpenAlex keyword probes, Tier B from a Crossref/S2 citation frame.
+  **(5) Run order `98_` then `99_` is binding** — 98 writes the frame and 99 rewrites it in place, so
+  98 alone silently reverts 31 DOIs and 73 abstracts while the frame still looks complete. Both are
+  cached and idempotent. Recorded in both docstrings and the log.
 - 2026-08-04 (PI ruling, relayed by Shravan): **whichever stop rule is hit first is the one used.**
   Applied to the round-2 escalation: the PROTOCOL §5.1 two-round depth cap was hit first, since the
   GACS §7.2 yield floor was never reached in either round, so **the cap binds and the snowball is
