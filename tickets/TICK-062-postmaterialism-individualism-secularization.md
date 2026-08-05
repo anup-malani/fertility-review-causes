@@ -23,6 +23,41 @@
 - [ ] 14. PI review and sign-off
 
 ## Log
+- 2026-08-04 (Shravan/Claude): **C1 production pull started and PAUSED on OpenAlex budget. Five of
+  six clusters complete; 11,425 distinct records so far. Resumes on a re-run after the budget
+  resets (~23h).** `{slug}-live-corpus.json`, `{slug}-live-search-log.md`; script
+  `103_d1a_live_search.py`. **Nothing downstream should start until this reads complete.**
+  **(1) A6c's provider recommendation was WRONG and is corrected in the same breath as acting on it.**
+  It recommended Semantic Scholar bulk search. Feeding OpenAlex the full cluster query returned
+  *"Wildcards (* or ?) require the exact (no-stem) field. `title.search` is stemmed"* — which
+  reverses all three premises. **No wildcard expansion is needed** (`childless` and `childlessness`
+  both return 2,586, one postings list; the earlier "no prefix matching" reading was measuring
+  `fertilit`, which is not a word and stems to nothing). **The whole cluster query fits in one
+  request** (two comma-joined filters, 67 OR'd terms), so the 123-narrow-query cost model was
+  fiction. And decisively, **S2's counts are title-AND-abstract while the CV selected on title-only
+  recall** — 498,007 against 18,123, a 19–39x gap per cluster. Running C1 on S2 would have pulled a
+  differently-defined corpus and reported a recall figure that no longer described the query in use.
+  **Same trap the OAS chapter documented in `43_live_search.py`.** Caught by a provider's error
+  message, not by any metric of ours.
+  **(2) State: S1 330/330, S2 841/841, S3 3,058/3,058, S4 2,221/2,221, S5 445/445 complete;
+  GENERIC_VALUES 5,000/11,228.** Union 11,425 distinct after DOI-first then title dedup, with 6,698
+  records collapsed as cross-cluster overlap — which is the sole-credit structure A6b predicted,
+  observed live.
+  **(3) Live gold recall is NOT reportable yet and the log says so in a banner.** Current figures
+  (B-only 74.0% against the CV's 92.1%) are depressed by the missing 45% of GENERIC_VALUES —
+  **the cluster A6b found carries the most sole credit, 176 gold papers no other cluster reaches** —
+  so the shortfall is far larger than its record share suggests. Quoting 74% as a result would be
+  the truncated-pull-reads-as-complete failure this chapter has now hit five times.
+  **(4) Two bugs in my own error handling, both in the direction of looking finished.** First,
+  `BudgetExhausted` propagated out of the cluster loop and **discarded the 5,000 records already
+  pulled**, and left the failed cluster out of the per-cluster table entirely — so the report showed
+  five complete clusters and no row for the one that failed. Union was 6,686 and B-only recall 41.7%;
+  after preserving partials, 11,425 and 74.0%. Second, the budget body and a true rate limit share
+  HTTP 429, and only the latter is worth retrying — "Insufficient budget" will not clear by waiting
+  (`retryAfter` 82,182s ≈ 23h), so it is caught as STOP-AND-RESUME rather than slept on.
+  **(5) Resume path: re-run `103_d1a_live_search.py`.** Every page is cached under
+  `source/build/goldset/cache/d1a_live_search/`, so completed work costs nothing and the run
+  continues at GENERIC_VALUES page 25. Roughly 32 further requests are needed (~$0.03).
 - 2026-08-04 (Shravan/Claude): **A6c complete. Production query compiled and frozen; C1 must move
   off OpenAlex.** `{slug}-production-query.json` (C1 consumes this), `{slug}-recall-probe.md`;
   script `102_d1a_production_query.py`. **Phase A is finished — the next stage is C1, the clustered
