@@ -23,6 +23,37 @@
 - [ ] 14. PI review and sign-off
 
 ## Log
+- 2026-08-04 (Shravan/Claude): **Screen rubric drafted and calibrated against the C1 corpus.**
+  `{slug}-screen-rubric.md`. Operationalizes the scope's seven walls, 24 estimand cells and five
+  rulings into a blinded title/abstract screen. Built while C1 is paused on budget; it needs no
+  further pull.
+  **(1) The load-bearing decision is what the screen must NOT decide.** Three routing tests turn on
+  the **item content of the treatment instrument**, which titles and abstracts almost never state:
+  Ruling 2's degenerate-pair test, Wall 5's ancestral-proxy content test, and Ruling 3's design tier.
+  This is D.3.b's standing lesson — its screen was asked to enforce a measure-content wall invisible
+  at title/abstract and returned confident verdicts it had no basis for. The rubric routes these to
+  `UNCERTAIN` + `needs_full_text` naming the missing fact, and binds **Fernández and Fogli 2009 must
+  never be routed from the abstract**. The two routing questions are also recorded as their own
+  fields, so a disagreement can be traced to which one was answered wrong.
+  **(2) Title-only records default to `UNCERTAIN`, never `NOT_RELEVANT`, and this is a scope
+  decision rather than caution.** 31% of the C1 corpus has no abstract, and the missing ones are not
+  missing at random — they are the book chapters, dissertations, regional and non-English work this
+  chapter has hit an indexing gap on four times. Defaulting them to reject would silently delete
+  exactly the material the chapter is weakest on and would compound the geographic-skew limitation.
+  It costs a third of the corpus at full text; that is budgeted rather than discovered.
+  **(3) Calibration measured on the corpus, not asserted. The clinical collision is 7.5% (856
+  records) and 64% of it enters through `GENERIC_VALUES`** — mechanism visible in the titles: *"the
+  **value** of cervical length changes for the prediction of preterm **birth**"*, the generic
+  treatment term meeting the outcome term inside a clinical idiom.
+  **(4) And the obvious fix would have been a disaster, for the third time on this chapter.**
+  Excluding the phrase `"value of"` matches 379 records of which only **118** are clinical — the rest
+  are **"Value of Children"** (*Changing Value of Children and Fertility Transition in Turkey*), which
+  is squarely on-pair S1/S5 material and some of the best evidence the chapter has. The rubric
+  therefore excludes on clinical **content** terms only, never on the phrasing, and records the
+  standing rule that **any proposed exclusion gets a rejected sample read before it ships**.
+  **(5) Recommended cheap pre-filter before the LLM screen:** drop the ~856 clinical-content records
+  and 262 book reviews rather than paying to read obstetrics abstracts. Stated in the rubric with the
+  exact term list.
 - 2026-08-04 (Shravan/Claude): **C1 production pull started and PAUSED on OpenAlex budget. Five of
   six clusters complete; 11,425 distinct records so far. Resumes on a re-run after the budget
   resets (~23h).** `{slug}-live-corpus.json`, `{slug}-live-search-log.md`; script
