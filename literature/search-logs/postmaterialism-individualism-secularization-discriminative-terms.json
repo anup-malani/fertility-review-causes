@@ -1,0 +1,5252 @@
+[
+ {
+  "term": "fertility",
+  "block": "OUTCOME",
+  "z": 28.58,
+  "log_odds": 1.49,
+  "gold": 438,
+  "neg": 1929,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "religion",
+  "block": "S3_SECULARIZATION",
+  "z": 16.64,
+  "log_odds": 1.61,
+  "gold": 132,
+  "neg": 503,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "religiosity",
+  "block": "S3_SECULARIZATION",
+  "z": 11.79,
+  "log_odds": 1.88,
+  "gold": 52,
+  "neg": 149,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "cultural",
+  "block": "GENERIC_VALUES",
+  "z": 11.76,
+  "log_odds": 1.51,
+  "gold": 73,
+  "neg": 305,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "attitudes",
+  "block": "GENERIC_VALUES",
+  "z": 11.08,
+  "log_odds": 1.56,
+  "gold": 62,
+  "neg": 248,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "marital fertility",
+  "block": "OUTCOME",
+  "z": 9.86,
+  "log_odds": 2.67,
+  "gold": 24,
+  "neg": 31,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "childbearing",
+  "block": "OUTCOME",
+  "z": 9.61,
+  "log_odds": 1.44,
+  "gold": 53,
+  "neg": 238,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "affiliation",
+  "block": "S3_SECULARIZATION",
+  "z": 9.55,
+  "log_odds": 2.97,
+  "gold": 21,
+  "neg": 20,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "norms",
+  "block": "GENERIC_VALUES",
+  "z": 9.13,
+  "log_odds": 1.98,
+  "gold": 29,
+  "neg": 75,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "religious affiliation",
+  "block": "S3_SECULARIZATION",
+  "z": 8.95,
+  "log_odds": 3.24,
+  "gold": 18,
+  "neg": 13,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "fertility change",
+  "block": "OUTCOME",
+  "z": 8.69,
+  "log_odds": 3.18,
+  "gold": 17,
+  "neg": 13,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "value children",
+  "block": "GENERIC_VALUES",
+  "z": 8.65,
+  "log_odds": 2.17,
+  "gold": 23,
+  "neg": 49,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "value",
+  "block": "GENERIC_VALUES",
+  "z": 8.37,
+  "log_odds": 1.54,
+  "gold": 36,
+  "neg": 146,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "fertility intentions",
+  "block": "OUTCOME",
+  "z": 8.35,
+  "log_odds": 1.65,
+  "gold": 32,
+  "neg": 116,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "religious",
+  "block": "S3_SECULARIZATION",
+  "z": 7.96,
+  "log_odds": 1.05,
+  "gold": 64,
+  "neg": 432,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "intentions",
+  "block": "OTHER",
+  "z": 7.6,
+  "log_odds": 1.33,
+  "gold": 38,
+  "neg": 191,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "fertility united",
+  "block": "OUTCOME",
+  "z": 7.59,
+  "log_odds": 2.73,
+  "gold": 14,
+  "neg": 17,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "influence fertility",
+  "block": "OUTCOME",
+  "z": 7.58,
+  "log_odds": 3.53,
+  "gold": 13,
+  "neg": 7,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "religiousness",
+  "block": "S3_SECULARIZATION",
+  "z": 7.51,
+  "log_odds": 3.68,
+  "gold": 13,
+  "neg": 6,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "influence",
+  "block": "OTHER",
+  "z": 7.03,
+  "log_odds": 1.4,
+  "gold": 30,
+  "neg": 141,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "marital",
+  "block": "OTHER",
+  "z": 6.83,
+  "log_odds": 1.38,
+  "gold": 29,
+  "neg": 139,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "gender attitudes",
+  "block": "GENERIC_VALUES",
+  "z": 6.76,
+  "log_odds": 2.31,
+  "gold": 13,
+  "neg": 24,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "voluntary childlessness",
+  "block": "BOTH",
+  "z": 6.47,
+  "log_odds": 2.49,
+  "gold": 11,
+  "neg": 17,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "children",
+  "block": "OTHER",
+  "z": 6.39,
+  "log_odds": 0.96,
+  "gold": 48,
+  "neg": 353,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "second demographic",
+  "block": "GENERIC_VALUES",
+  "z": 6.36,
+  "log_odds": 1.29,
+  "gold": 28,
+  "neg": 146,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "cultural dynamics",
+  "block": "OTHER",
+  "z": 6.3,
+  "log_odds": 4.1,
+  "gold": 10,
+  "neg": 3,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "autonomy",
+  "block": "S2_INDIVIDUALISM",
+  "z": 6.28,
+  "log_odds": 2.58,
+  "gold": 10,
+  "neg": 14,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "economic theories",
+  "block": "OTHER",
+  "z": 6.23,
+  "log_odds": 3.72,
+  "gold": 9,
+  "neg": 4,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "theories fertility",
+  "block": "OUTCOME",
+  "z": 5.84,
+  "log_odds": 2.48,
+  "gold": 9,
+  "neg": 14,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "fertility behavior",
+  "block": "OUTCOME",
+  "z": 5.65,
+  "log_odds": 2.14,
+  "gold": 10,
+  "neg": 22,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "fertility preferences",
+  "block": "BOTH",
+  "z": 5.58,
+  "log_odds": 1.96,
+  "gold": 11,
+  "neg": 29,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "fertility sub",
+  "block": "OUTCOME",
+  "z": 5.55,
+  "log_odds": 3.07,
+  "gold": 7,
+  "neg": 6,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "voluntary",
+  "block": "OTHER",
+  "z": 5.45,
+  "log_odds": 1.89,
+  "gold": 11,
+  "neg": 31,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "children fertility",
+  "block": "OUTCOME",
+  "z": 5.23,
+  "log_odds": 4.15,
+  "gold": 7,
+  "neg": 2,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "fertility europe",
+  "block": "OUTCOME",
+  "z": 5.19,
+  "log_odds": 1.78,
+  "gold": 11,
+  "neg": 35,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "cross cultural",
+  "block": "OTHER",
+  "z": 5.19,
+  "log_odds": 1.68,
+  "gold": 12,
+  "neg": 42,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "ideals",
+  "block": "GENERIC_VALUES",
+  "z": 5.18,
+  "log_odds": 2.03,
+  "gold": 9,
+  "neg": 22,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "behaviour",
+  "block": "OTHER",
+  "z": 5.14,
+  "log_odds": 1.27,
+  "gold": 19,
+  "neg": 102,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "changing value",
+  "block": "GENERIC_VALUES",
+  "z": 5.13,
+  "log_odds": 3.6,
+  "gold": 6,
+  "neg": 3,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "attitude",
+  "block": "GENERIC_VALUES",
+  "z": 5.13,
+  "log_odds": 1.87,
+  "gold": 10,
+  "neg": 29,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "demographic transition",
+  "block": "OTHER",
+  "z": 5.04,
+  "log_odds": 0.94,
+  "gold": 31,
+  "neg": 232,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "fertility ideals",
+  "block": "OUTCOME",
+  "z": 5.0,
+  "log_odds": 2.76,
+  "gold": 6,
+  "neg": 7,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "fertility related",
+  "block": "OUTCOME",
+  "z": 4.94,
+  "log_odds": 4.0,
+  "gold": 6,
+  "neg": 2,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "attitudes fertility",
+  "block": "OUTCOME",
+  "z": 4.93,
+  "log_odds": 5.07,
+  "gold": 9,
+  "neg": 1,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "dynamics economic",
+  "block": "OTHER",
+  "z": 4.93,
+  "log_odds": 5.07,
+  "gold": 9,
+  "neg": 1,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "second",
+  "block": "OTHER",
+  "z": 4.91,
+  "log_odds": 0.93,
+  "gold": 30,
+  "neg": 227,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "theories",
+  "block": "OTHER",
+  "z": 4.88,
+  "log_odds": 1.42,
+  "gold": 14,
+  "neg": 64,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "fertility behaviour",
+  "block": "OUTCOME",
+  "z": 4.85,
+  "log_odds": 2.23,
+  "gold": 7,
+  "neg": 14,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "decline",
+  "block": "OTHER",
+  "z": 4.74,
+  "log_odds": 0.93,
+  "gold": 28,
+  "neg": 212,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "roles",
+  "block": "OTHER",
+  "z": 4.68,
+  "log_odds": 1.65,
+  "gold": 10,
+  "neg": 36,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "related",
+  "block": "OTHER",
+  "z": 4.66,
+  "log_odds": 1.47,
+  "gold": 12,
+  "neg": 52,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "female",
+  "block": "OTHER",
+  "z": 4.64,
+  "log_odds": 1.24,
+  "gold": 16,
+  "neg": 88,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "fertility western",
+  "block": "OUTCOME",
+  "z": 4.6,
+  "log_odds": 3.82,
+  "gold": 5,
+  "neg": 2,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "childlessness",
+  "block": "OUTCOME",
+  "z": 4.56,
+  "log_odds": 1.14,
+  "gold": 18,
+  "neg": 110,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "united states",
+  "block": "OTHER",
+  "z": 4.45,
+  "log_odds": 0.91,
+  "gold": 26,
+  "neg": 202,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "1860",
+  "block": "OTHER",
+  "z": 4.44,
+  "log_odds": 2.58,
+  "gold": 5,
+  "neg": 7,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "fertility decline",
+  "block": "OUTCOME",
+  "z": 4.43,
+  "log_odds": 1.1,
+  "gold": 18,
+  "neg": 114,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "1985",
+  "block": "OTHER",
+  "z": 4.38,
+  "log_odds": 1.75,
+  "gold": 8,
+  "neg": 26,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "preferences",
+  "block": "GENERIC_VALUES",
+  "z": 4.26,
+  "log_odds": 1.13,
+  "gold": 16,
+  "neg": 99,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "religion fertility",
+  "block": "BOTH",
+  "z": 4.25,
+  "log_odds": 8.13,
+  "gold": 50,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "fertility childbearing",
+  "block": "OUTCOME",
+  "z": 4.22,
+  "log_odds": 3.2,
+  "gold": 4,
+  "neg": 3,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "transition",
+  "block": "OTHER",
+  "z": 4.21,
+  "log_odds": 0.61,
+  "gold": 49,
+  "neg": 521,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "women fertility",
+  "block": "OUTCOME",
+  "z": 4.2,
+  "log_odds": 2.01,
+  "gold": 6,
+  "neg": 15,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "conservative",
+  "block": "OTHER",
+  "z": 4.2,
+  "log_odds": 2.01,
+  "gold": 6,
+  "neg": 15,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "comparative survey",
+  "block": "OTHER",
+  "z": 4.19,
+  "log_odds": 3.6,
+  "gold": 4,
+  "neg": 2,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "france netherlands",
+  "block": "OTHER",
+  "z": 4.19,
+  "log_odds": 3.6,
+  "gold": 4,
+  "neg": 2,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "states patterns",
+  "block": "OTHER",
+  "z": 4.19,
+  "log_odds": 3.6,
+  "gold": 4,
+  "neg": 2,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "comparative european",
+  "block": "OTHER",
+  "z": 4.19,
+  "log_odds": 3.6,
+  "gold": 4,
+  "neg": 2,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "connection",
+  "block": "OTHER",
+  "z": 4.19,
+  "log_odds": 3.6,
+  "gold": 4,
+  "neg": 2,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "postmodern fertility",
+  "block": "BOTH",
+  "z": 4.19,
+  "log_odds": 3.6,
+  "gold": 4,
+  "neg": 2,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "iranian women",
+  "block": "OTHER",
+  "z": 4.19,
+  "log_odds": 3.6,
+  "gold": 4,
+  "neg": 2,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "determinant marital",
+  "block": "OTHER",
+  "z": 4.17,
+  "log_odds": 4.5,
+  "gold": 5,
+  "neg": 1,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "muslim",
+  "block": "S3_SECULARIZATION",
+  "z": 4.16,
+  "log_odds": 1.23,
+  "gold": 13,
+  "neg": 72,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "intentions chinese",
+  "block": "OTHER",
+  "z": 4.15,
+  "log_odds": 2.92,
+  "gold": 4,
+  "neg": 4,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "birth cohorts",
+  "block": "OUTCOME",
+  "z": 4.15,
+  "log_odds": 2.92,
+  "gold": 4,
+  "neg": 4,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "intentions behaviour",
+  "block": "OTHER",
+  "z": 4.15,
+  "log_odds": 2.92,
+  "gold": 4,
+  "neg": 4,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "ideational",
+  "block": "S1_POSTMATERIALISM",
+  "z": 4.1,
+  "log_odds": 2.23,
+  "gold": 5,
+  "neg": 10,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "netherlands",
+  "block": "OTHER",
+  "z": 4.05,
+  "log_odds": 1.1,
+  "gold": 15,
+  "neg": 95,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "religious groups",
+  "block": "S3_SECULARIZATION",
+  "z": 4.04,
+  "log_odds": 2.7,
+  "gold": 4,
+  "neg": 5,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "intergenerational relationships",
+  "block": "OTHER",
+  "z": 4.04,
+  "log_odds": 2.7,
+  "gold": 4,
+  "neg": 5,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "relationship religion",
+  "block": "S3_SECULARIZATION",
+  "z": 4.04,
+  "log_odds": 2.7,
+  "gold": 4,
+  "neg": 5,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "low fertility",
+  "block": "OUTCOME",
+  "z": 4.0,
+  "log_odds": 0.89,
+  "gold": 22,
+  "neg": 175,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "determinant",
+  "block": "OTHER",
+  "z": 3.99,
+  "log_odds": 2.14,
+  "gold": 5,
+  "neg": 11,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "sub",
+  "block": "OTHER",
+  "z": 3.97,
+  "log_odds": 1.23,
+  "gold": 12,
+  "neg": 67,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "states",
+  "block": "OTHER",
+  "z": 3.96,
+  "log_odds": 0.8,
+  "gold": 26,
+  "neg": 226,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "framing",
+  "block": "OTHER",
+  "z": 3.92,
+  "log_odds": 2.52,
+  "gold": 4,
+  "neg": 6,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "value orientation",
+  "block": "S1_POSTMATERIALISM",
+  "z": 3.92,
+  "log_odds": 2.52,
+  "gold": 4,
+  "neg": 6,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "sub saharan",
+  "block": "OTHER",
+  "z": 3.9,
+  "log_odds": 1.33,
+  "gold": 10,
+  "neg": 50,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "saharan",
+  "block": "OTHER",
+  "z": 3.9,
+  "log_odds": 1.33,
+  "gold": 10,
+  "neg": 50,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "reproductive behavior",
+  "block": "OUTCOME",
+  "z": 3.88,
+  "log_odds": 2.05,
+  "gold": 5,
+  "neg": 12,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "religion education",
+  "block": "S3_SECULARIZATION",
+  "z": 3.87,
+  "log_odds": 4.28,
+  "gold": 4,
+  "neg": 1,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "cohorts britain",
+  "block": "OTHER",
+  "z": 3.87,
+  "log_odds": 4.28,
+  "gold": 4,
+  "neg": 1,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "ideals intentions",
+  "block": "GENERIC_VALUES",
+  "z": 3.87,
+  "log_odds": 4.28,
+  "gold": 4,
+  "neg": 1,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "fertility cross",
+  "block": "OUTCOME",
+  "z": 3.87,
+  "log_odds": 4.28,
+  "gold": 4,
+  "neg": 1,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "participation fertility",
+  "block": "OUTCOME",
+  "z": 3.87,
+  "log_odds": 4.28,
+  "gold": 4,
+  "neg": 1,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "britain france",
+  "block": "OTHER",
+  "z": 3.87,
+  "log_odds": 4.28,
+  "gold": 4,
+  "neg": 1,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "male",
+  "block": "OTHER",
+  "z": 3.85,
+  "log_odds": 1.62,
+  "gold": 7,
+  "neg": 26,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "cohorts",
+  "block": "OTHER",
+  "z": 3.84,
+  "log_odds": 1.49,
+  "gold": 8,
+  "neg": 34,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "disentangling",
+  "block": "OTHER",
+  "z": 3.79,
+  "log_odds": 2.36,
+  "gold": 4,
+  "neg": 7,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "religion determinant",
+  "block": "S3_SECULARIZATION",
+  "z": 3.79,
+  "log_odds": 2.36,
+  "gold": 4,
+  "neg": 7,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "patterns fertility",
+  "block": "OUTCOME",
+  "z": 3.79,
+  "log_odds": 2.36,
+  "gold": 4,
+  "neg": 7,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "1930",
+  "block": "OTHER",
+  "z": 3.78,
+  "log_odds": 1.97,
+  "gold": 5,
+  "neg": 13,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "behavior",
+  "block": "OTHER",
+  "z": 3.77,
+  "log_odds": 0.85,
+  "gold": 21,
+  "neg": 173,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "spain",
+  "block": "OTHER",
+  "z": 3.69,
+  "log_odds": 1.04,
+  "gold": 14,
+  "neg": 95,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "stockholm",
+  "block": "OTHER",
+  "z": 3.67,
+  "log_odds": 2.23,
+  "gold": 4,
+  "neg": 8,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "lifetime",
+  "block": "OTHER",
+  "z": 3.67,
+  "log_odds": 2.23,
+  "gold": 4,
+  "neg": 8,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "cultural factors",
+  "block": "OTHER",
+  "z": 3.67,
+  "log_odds": 2.23,
+  "gold": 4,
+  "neg": 8,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "female fertility",
+  "block": "OUTCOME",
+  "z": 3.67,
+  "log_odds": 2.23,
+  "gold": 4,
+  "neg": 8,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "birth",
+  "block": "OUTCOME",
+  "z": 3.67,
+  "log_odds": 0.81,
+  "gold": 22,
+  "neg": 190,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "male female",
+  "block": "OTHER",
+  "z": 3.67,
+  "log_odds": 2.23,
+  "gold": 4,
+  "neg": 8,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "attitudes women",
+  "block": "OTHER",
+  "z": 3.66,
+  "log_odds": 3.32,
+  "gold": 3,
+  "neg": 2,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "pennsylvania",
+  "block": "OTHER",
+  "z": 3.66,
+  "log_odds": 3.32,
+  "gold": 3,
+  "neg": 2,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "socialisation",
+  "block": "OTHER",
+  "z": 3.66,
+  "log_odds": 3.32,
+  "gold": 3,
+  "neg": 2,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "northern ireland",
+  "block": "OTHER",
+  "z": 3.66,
+  "log_odds": 3.32,
+  "gold": 3,
+  "neg": 2,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "hague netherlands",
+  "block": "OTHER",
+  "z": 3.66,
+  "log_odds": 3.32,
+  "gold": 3,
+  "neg": 2,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "cultural comparison",
+  "block": "OTHER",
+  "z": 3.66,
+  "log_odds": 3.32,
+  "gold": 3,
+  "neg": 2,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "fertility contemporary",
+  "block": "OUTCOME",
+  "z": 3.66,
+  "log_odds": 3.32,
+  "gold": 3,
+  "neg": 2,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "increasing fertility",
+  "block": "OUTCOME",
+  "z": 3.66,
+  "log_odds": 3.32,
+  "gold": 3,
+  "neg": 2,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "birth netherlands",
+  "block": "OUTCOME",
+  "z": 3.66,
+  "log_odds": 3.32,
+  "gold": 3,
+  "neg": 2,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "marital childbearing",
+  "block": "OUTCOME",
+  "z": 3.66,
+  "log_odds": 3.32,
+  "gold": 3,
+  "neg": 2,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "empirical investigation",
+  "block": "OTHER",
+  "z": 3.66,
+  "log_odds": 3.32,
+  "gold": 3,
+  "neg": 2,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "transition third",
+  "block": "OTHER",
+  "z": 3.66,
+  "log_odds": 3.32,
+  "gold": 3,
+  "neg": 2,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "hague",
+  "block": "OTHER",
+  "z": 3.59,
+  "log_odds": 2.92,
+  "gold": 3,
+  "neg": 3,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "realisation",
+  "block": "OTHER",
+  "z": 3.59,
+  "log_odds": 2.92,
+  "gold": 3,
+  "neg": 3,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "cultural evolution",
+  "block": "OTHER",
+  "z": 3.59,
+  "log_odds": 2.92,
+  "gold": 3,
+  "neg": 3,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "use fertility",
+  "block": "OUTCOME",
+  "z": 3.59,
+  "log_odds": 2.92,
+  "gold": 3,
+  "neg": 3,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "transition united",
+  "block": "OTHER",
+  "z": 3.59,
+  "log_odds": 2.92,
+  "gold": 3,
+  "neg": 3,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "childbearing women",
+  "block": "OUTCOME",
+  "z": 3.59,
+  "log_odds": 2.92,
+  "gold": 3,
+  "neg": 3,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "muslims",
+  "block": "S3_SECULARIZATION",
+  "z": 3.58,
+  "log_odds": 1.83,
+  "gold": 5,
+  "neg": 15,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "beliefs",
+  "block": "GENERIC_VALUES",
+  "z": 3.53,
+  "log_odds": 1.19,
+  "gold": 10,
+  "neg": 58,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "values",
+  "block": "GENERIC_VALUES",
+  "z": 3.52,
+  "log_odds": 0.72,
+  "gold": 25,
+  "neg": 236,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "united",
+  "block": "OTHER",
+  "z": 3.51,
+  "log_odds": 0.71,
+  "gold": 26,
+  "neg": 250,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "market participation",
+  "block": "OTHER",
+  "z": 3.5,
+  "log_odds": 4.0,
+  "gold": 3,
+  "neg": 1,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "europe cultural",
+  "block": "OTHER",
+  "z": 3.5,
+  "log_odds": 4.0,
+  "gold": 3,
+  "neg": 1,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "asian countries",
+  "block": "OTHER",
+  "z": 3.5,
+  "log_odds": 4.0,
+  "gold": 3,
+  "neg": 1,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "ideal number",
+  "block": "GENERIC_VALUES",
+  "z": 3.5,
+  "log_odds": 4.0,
+  "gold": 3,
+  "neg": 1,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "unintended childbearing",
+  "block": "OUTCOME",
+  "z": 3.5,
+  "log_odds": 4.0,
+  "gold": 3,
+  "neg": 1,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "221",
+  "block": "OTHER",
+  "z": 3.5,
+  "log_odds": 4.0,
+  "gold": 3,
+  "neg": 1,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "cultural social",
+  "block": "OTHER",
+  "z": 3.5,
+  "log_odds": 4.0,
+  "gold": 3,
+  "neg": 1,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "cultural institutional",
+  "block": "OTHER",
+  "z": 3.5,
+  "log_odds": 4.0,
+  "gold": 3,
+  "neg": 1,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "realisation fertility",
+  "block": "OUTCOME",
+  "z": 3.5,
+  "log_odds": 4.0,
+  "gold": 3,
+  "neg": 1,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "parental religiosity",
+  "block": "S3_SECULARIZATION",
+  "z": 3.5,
+  "log_odds": 4.0,
+  "gold": 3,
+  "neg": 1,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "comparative eight",
+  "block": "OTHER",
+  "z": 3.5,
+  "log_odds": 4.0,
+  "gold": 3,
+  "neg": 1,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "influence religious",
+  "block": "S3_SECULARIZATION",
+  "z": 3.5,
+  "log_odds": 4.0,
+  "gold": 3,
+  "neg": 1,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "alloparenting",
+  "block": "OTHER",
+  "z": 3.5,
+  "log_odds": 4.0,
+  "gold": 3,
+  "neg": 1,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "intentions comparative",
+  "block": "OTHER",
+  "z": 3.5,
+  "log_odds": 4.0,
+  "gold": 3,
+  "neg": 1,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "desire",
+  "block": "OTHER",
+  "z": 3.49,
+  "log_odds": 1.77,
+  "gold": 5,
+  "neg": 16,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "religion religiosity",
+  "block": "S3_SECULARIZATION",
+  "z": 3.47,
+  "log_odds": 2.63,
+  "gold": 3,
+  "neg": 4,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "fertility european",
+  "block": "OUTCOME",
+  "z": 3.47,
+  "log_odds": 2.63,
+  "gold": 3,
+  "neg": 4,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "influence religion",
+  "block": "S3_SECULARIZATION",
+  "z": 3.47,
+  "log_odds": 2.63,
+  "gold": 3,
+  "neg": 4,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "fertility canada",
+  "block": "OUTCOME",
+  "z": 3.47,
+  "log_odds": 2.63,
+  "gold": 3,
+  "neg": 4,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "eight european",
+  "block": "OTHER",
+  "z": 3.47,
+  "log_odds": 2.63,
+  "gold": 3,
+  "neg": 4,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "1870",
+  "block": "OTHER",
+  "z": 3.43,
+  "log_odds": 2.01,
+  "gold": 4,
+  "neg": 10,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "nigeria",
+  "block": "OTHER",
+  "z": 3.39,
+  "log_odds": 1.39,
+  "gold": 7,
+  "neg": 33,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "dynamic",
+  "block": "OTHER",
+  "z": 3.39,
+  "log_odds": 1.71,
+  "gold": 5,
+  "neg": 17,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "cohabiting unions",
+  "block": "OTHER",
+  "z": 3.32,
+  "log_odds": 2.41,
+  "gold": 3,
+  "neg": 5,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "adsera",
+  "block": "OTHER",
+  "z": 3.32,
+  "log_odds": 2.41,
+  "gold": 3,
+  "neg": 5,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "cultural economic",
+  "block": "OTHER",
+  "z": 3.32,
+  "log_odds": 2.41,
+  "gold": 3,
+  "neg": 5,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "hispanic",
+  "block": "OTHER",
+  "z": 3.32,
+  "log_odds": 2.41,
+  "gold": 3,
+  "neg": 5,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "evolution fertility",
+  "block": "OUTCOME",
+  "z": 3.32,
+  "log_odds": 2.41,
+  "gold": 3,
+  "neg": 5,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "christian muslim",
+  "block": "S3_SECULARIZATION",
+  "z": 3.32,
+  "log_odds": 2.41,
+  "gold": 3,
+  "neg": 5,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "religions",
+  "block": "S3_SECULARIZATION",
+  "z": 3.27,
+  "log_odds": 1.33,
+  "gold": 7,
+  "neg": 35,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "number children",
+  "block": "OTHER",
+  "z": 3.2,
+  "log_odds": 1.83,
+  "gold": 4,
+  "neg": 12,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "social support",
+  "block": "OTHER",
+  "z": 3.2,
+  "log_odds": 1.83,
+  "gold": 4,
+  "neg": 12,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "205",
+  "block": "OTHER",
+  "z": 3.18,
+  "log_odds": 2.23,
+  "gold": 3,
+  "neg": 6,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "muslim non",
+  "block": "S3_SECULARIZATION",
+  "z": 3.18,
+  "log_odds": 2.23,
+  "gold": 3,
+  "neg": 6,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "non muslim",
+  "block": "S3_SECULARIZATION",
+  "z": 3.18,
+  "log_odds": 2.23,
+  "gold": 3,
+  "neg": 6,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "denomination",
+  "block": "S3_SECULARIZATION",
+  "z": 3.18,
+  "log_odds": 2.23,
+  "gold": 3,
+  "neg": 6,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "attitudes gender",
+  "block": "OTHER",
+  "z": 3.18,
+  "log_odds": 2.23,
+  "gold": 3,
+  "neg": 6,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "bulgaria",
+  "block": "OTHER",
+  "z": 3.15,
+  "log_odds": 1.4,
+  "gold": 6,
+  "neg": 28,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "iranian",
+  "block": "OTHER",
+  "z": 3.1,
+  "log_odds": 1.75,
+  "gold": 4,
+  "neg": 13,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "marriage childbearing",
+  "block": "OUTCOME",
+  "z": 3.1,
+  "log_odds": 1.75,
+  "gold": 4,
+  "neg": 13,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "northern",
+  "block": "OTHER",
+  "z": 3.09,
+  "log_odds": 1.37,
+  "gold": 6,
+  "neg": 29,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "catholics",
+  "block": "S3_SECULARIZATION",
+  "z": 3.06,
+  "log_odds": 1.5,
+  "gold": 5,
+  "neg": 21,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "very low",
+  "block": "OTHER",
+  "z": 3.04,
+  "log_odds": 2.08,
+  "gold": 3,
+  "neg": 7,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "fertility fertility",
+  "block": "OUTCOME",
+  "z": 3.04,
+  "log_odds": 2.08,
+  "gold": 3,
+  "neg": 7,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "social norms",
+  "block": "OTHER",
+  "z": 3.02,
+  "log_odds": 1.33,
+  "gold": 6,
+  "neg": 30,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "decline fertility",
+  "block": "OUTCOME",
+  "z": 3.0,
+  "log_odds": 1.68,
+  "gold": 4,
+  "neg": 14,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "women",
+  "block": "OTHER",
+  "z": 2.98,
+  "log_odds": 0.44,
+  "gold": 46,
+  "neg": 585,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "iran",
+  "block": "OTHER",
+  "z": 2.96,
+  "log_odds": 0.98,
+  "gold": 10,
+  "neg": 72,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "childlessness europe",
+  "block": "OUTCOME",
+  "z": 2.9,
+  "log_odds": 1.95,
+  "gold": 3,
+  "neg": 8,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "marriage fertility",
+  "block": "OUTCOME",
+  "z": 2.9,
+  "log_odds": 1.61,
+  "gold": 4,
+  "neg": 15,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "third birth",
+  "block": "OUTCOME",
+  "z": 2.9,
+  "log_odds": 1.95,
+  "gold": 3,
+  "neg": 8,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "group",
+  "block": "OTHER",
+  "z": 2.9,
+  "log_odds": 1.27,
+  "gold": 6,
+  "neg": 32,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "disadvantage",
+  "block": "OTHER",
+  "z": 2.9,
+  "log_odds": 1.95,
+  "gold": 3,
+  "neg": 8,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "fertilit",
+  "block": "OUTCOME",
+  "z": 2.9,
+  "log_odds": 1.95,
+  "gold": 3,
+  "neg": 8,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "changing attitudes",
+  "block": "OTHER",
+  "z": 2.9,
+  "log_odds": 1.95,
+  "gold": 3,
+  "neg": 8,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "secularity",
+  "block": "S3_SECULARIZATION",
+  "z": 2.9,
+  "log_odds": 1.95,
+  "gold": 3,
+  "neg": 8,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "religiosit",
+  "block": "S3_SECULARIZATION",
+  "z": 2.9,
+  "log_odds": 1.95,
+  "gold": 3,
+  "neg": 8,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "decisions",
+  "block": "OTHER",
+  "z": 2.89,
+  "log_odds": 1.08,
+  "gold": 8,
+  "neg": 52,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "perceived",
+  "block": "OTHER",
+  "z": 2.88,
+  "log_odds": 1.16,
+  "gold": 7,
+  "neg": 42,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "dynamics",
+  "block": "OTHER",
+  "z": 2.84,
+  "log_odds": 0.75,
+  "gold": 15,
+  "neg": 137,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "fertility transition",
+  "block": "OUTCOME",
+  "z": 2.84,
+  "log_odds": 0.85,
+  "gold": 12,
+  "neg": 99,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "control",
+  "block": "OTHER",
+  "z": 2.78,
+  "log_odds": 1.21,
+  "gold": 6,
+  "neg": 34,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "western europe",
+  "block": "OTHER",
+  "z": 2.78,
+  "log_odds": 1.11,
+  "gold": 7,
+  "neg": 44,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "fertility developing",
+  "block": "OUTCOME",
+  "z": 2.77,
+  "log_odds": 1.83,
+  "gold": 3,
+  "neg": 9,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "low",
+  "block": "OTHER",
+  "z": 2.77,
+  "log_odds": 0.6,
+  "gold": 22,
+  "neg": 236,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "membership",
+  "block": "OTHER",
+  "z": 2.77,
+  "log_odds": 1.83,
+  "gold": 3,
+  "neg": 9,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "differentials",
+  "block": "OTHER",
+  "z": 2.76,
+  "log_odds": 1.03,
+  "gold": 8,
+  "neg": 55,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "relationship",
+  "block": "OTHER",
+  "z": 2.75,
+  "log_odds": 0.7,
+  "gold": 16,
+  "neg": 154,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "secularization",
+  "block": "S3_SECULARIZATION",
+  "z": 2.72,
+  "log_odds": 0.85,
+  "gold": 11,
+  "neg": 91,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "1986",
+  "block": "OTHER",
+  "z": 2.69,
+  "log_odds": 1.29,
+  "gold": 5,
+  "neg": 26,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "saharan africa",
+  "block": "OTHER",
+  "z": 2.68,
+  "log_odds": 1.07,
+  "gold": 7,
+  "neg": 46,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "nepal",
+  "block": "OTHER",
+  "z": 2.67,
+  "log_odds": 1.16,
+  "gold": 6,
+  "neg": 36,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "very",
+  "block": "OTHER",
+  "z": 2.65,
+  "log_odds": 1.73,
+  "gold": 3,
+  "neg": 10,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "postmodern",
+  "block": "S1_POSTMATERIALISM",
+  "z": 2.63,
+  "log_odds": 1.44,
+  "gold": 4,
+  "neg": 18,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "gender",
+  "block": "OTHER",
+  "z": 2.63,
+  "log_odds": 0.45,
+  "gold": 34,
+  "neg": 427,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "fertility religion",
+  "block": "BOTH",
+  "z": 2.62,
+  "log_odds": 8.13,
+  "gold": 19,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "path",
+  "block": "OTHER",
+  "z": 2.55,
+  "log_odds": 1.38,
+  "gold": 4,
+  "neg": 19,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "eight",
+  "block": "OTHER",
+  "z": 2.54,
+  "log_odds": 1.64,
+  "gold": 3,
+  "neg": 11,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "update",
+  "block": "OTHER",
+  "z": 2.54,
+  "log_odds": 1.64,
+  "gold": 3,
+  "neg": 11,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "differences",
+  "block": "OTHER",
+  "z": 2.49,
+  "log_odds": 0.61,
+  "gold": 17,
+  "neg": 180,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "fertility decisions",
+  "block": "OUTCOME",
+  "z": 2.43,
+  "log_odds": 1.55,
+  "gold": 3,
+  "neg": 12,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "economic",
+  "block": "OTHER",
+  "z": 2.43,
+  "log_odds": 0.45,
+  "gold": 29,
+  "neg": 364,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "fertility timing",
+  "block": "OUTCOME",
+  "z": 2.43,
+  "log_odds": 1.55,
+  "gold": 3,
+  "neg": 12,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "fertility patterns",
+  "block": "OUTCOME",
+  "z": 2.43,
+  "log_odds": 1.16,
+  "gold": 5,
+  "neg": 30,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "mediation",
+  "block": "OTHER",
+  "z": 2.43,
+  "log_odds": 1.55,
+  "gold": 3,
+  "neg": 12,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "number",
+  "block": "OTHER",
+  "z": 2.43,
+  "log_odds": 1.16,
+  "gold": 5,
+  "neg": 30,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "religiosity fertility",
+  "block": "BOTH",
+  "z": 2.33,
+  "log_odds": 8.13,
+  "gold": 15,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "europe",
+  "block": "OTHER",
+  "z": 2.33,
+  "log_odds": 0.38,
+  "gold": 37,
+  "neg": 501,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "cross",
+  "block": "OTHER",
+  "z": 2.33,
+  "log_odds": 0.53,
+  "gold": 20,
+  "neg": 232,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "non marital",
+  "block": "OTHER",
+  "z": 2.32,
+  "log_odds": 1.24,
+  "gold": 4,
+  "neg": 22,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "orientation",
+  "block": "OTHER",
+  "z": 2.26,
+  "log_odds": 1.06,
+  "gold": 5,
+  "neg": 33,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "women reproductive",
+  "block": "OTHER",
+  "z": 2.25,
+  "log_odds": 1.2,
+  "gold": 4,
+  "neg": 23,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "explanations",
+  "block": "OTHER",
+  "z": 2.25,
+  "log_odds": 1.2,
+  "gold": 4,
+  "neg": 23,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "arab",
+  "block": "OTHER",
+  "z": 2.23,
+  "log_odds": 1.4,
+  "gold": 3,
+  "neg": 14,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "production",
+  "block": "OTHER",
+  "z": 2.23,
+  "log_odds": 1.4,
+  "gold": 3,
+  "neg": 14,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "cultural transmission",
+  "block": "OTHER",
+  "z": 2.23,
+  "log_odds": 1.4,
+  "gold": 3,
+  "neg": 14,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "church attendance",
+  "block": "S3_SECULARIZATION",
+  "z": 2.23,
+  "log_odds": 1.4,
+  "gold": 3,
+  "neg": 14,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "belief",
+  "block": "GENERIC_VALUES",
+  "z": 2.2,
+  "log_odds": 1.04,
+  "gold": 5,
+  "neg": 34,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "region",
+  "block": "OTHER",
+  "z": 2.18,
+  "log_odds": 1.16,
+  "gold": 4,
+  "neg": 24,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "israel",
+  "block": "OTHER",
+  "z": 2.18,
+  "log_odds": 1.16,
+  "gold": 4,
+  "neg": 24,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "french",
+  "block": "OTHER",
+  "z": 2.18,
+  "log_odds": 1.16,
+  "gold": 4,
+  "neg": 24,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "importance",
+  "block": "OTHER",
+  "z": 2.15,
+  "log_odds": 1.01,
+  "gold": 5,
+  "neg": 35,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "taiwan",
+  "block": "OTHER",
+  "z": 2.15,
+  "log_odds": 1.01,
+  "gold": 5,
+  "neg": 35,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "unintended",
+  "block": "OTHER",
+  "z": 2.14,
+  "log_odds": 1.33,
+  "gold": 3,
+  "neg": 15,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "explaining fertility",
+  "block": "OUTCOME",
+  "z": 2.14,
+  "log_odds": 1.33,
+  "gold": 3,
+  "neg": 15,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "developing countries",
+  "block": "OTHER",
+  "z": 2.11,
+  "log_odds": 1.12,
+  "gold": 4,
+  "neg": 25,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "culture",
+  "block": "GENERIC_VALUES",
+  "z": 2.11,
+  "log_odds": 0.57,
+  "gold": 14,
+  "neg": 155,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "poland",
+  "block": "OTHER",
+  "z": 2.11,
+  "log_odds": 0.77,
+  "gold": 8,
+  "neg": 72,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "southern",
+  "block": "OTHER",
+  "z": 2.11,
+  "log_odds": 1.12,
+  "gold": 4,
+  "neg": 25,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "reproductive",
+  "block": "OTHER",
+  "z": 2.08,
+  "log_odds": 0.52,
+  "gold": 16,
+  "neg": 186,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "demographic",
+  "block": "OTHER",
+  "z": 2.06,
+  "log_odds": 0.3,
+  "gold": 47,
+  "neg": 697,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "faith",
+  "block": "S3_SECULARIZATION",
+  "z": 2.04,
+  "log_odds": 0.95,
+  "gold": 5,
+  "neg": 37,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "contraceptive use",
+  "block": "OTHER",
+  "z": 2.03,
+  "log_odds": 0.86,
+  "gold": 6,
+  "neg": 49,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "context",
+  "block": "OTHER",
+  "z": 2.02,
+  "log_odds": 0.51,
+  "gold": 16,
+  "neg": 189,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "france",
+  "block": "OTHER",
+  "z": 2.01,
+  "log_odds": 0.73,
+  "gold": 8,
+  "neg": 75,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "religion influence",
+  "block": "S3_SECULARIZATION",
+  "z": 1.99,
+  "log_odds": 8.13,
+  "gold": 11,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "moderating",
+  "block": "OTHER",
+  "z": 1.97,
+  "log_odds": 1.21,
+  "gold": 3,
+  "neg": 17,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "married women",
+  "block": "OTHER",
+  "z": 1.97,
+  "log_odds": 1.21,
+  "gold": 3,
+  "neg": 17,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "kin",
+  "block": "OTHER",
+  "z": 1.97,
+  "log_odds": 1.21,
+  "gold": 3,
+  "neg": 17,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "media",
+  "block": "OTHER",
+  "z": 1.95,
+  "log_odds": 0.82,
+  "gold": 6,
+  "neg": 51,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "late",
+  "block": "OTHER",
+  "z": 1.94,
+  "log_odds": 0.9,
+  "gold": 5,
+  "neg": 39,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "nonmarital",
+  "block": "OTHER",
+  "z": 1.92,
+  "log_odds": 1.01,
+  "gold": 4,
+  "neg": 28,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "system",
+  "block": "OTHER",
+  "z": 1.92,
+  "log_odds": 1.01,
+  "gold": 4,
+  "neg": 28,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "religiousness fertility",
+  "block": "BOTH",
+  "z": 1.9,
+  "log_odds": 8.13,
+  "gold": 10,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "incentives",
+  "block": "OTHER",
+  "z": 1.88,
+  "log_odds": 1.16,
+  "gold": 3,
+  "neg": 18,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "traditional",
+  "block": "OTHER",
+  "z": 1.85,
+  "log_odds": 0.86,
+  "gold": 5,
+  "neg": 41,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "orientations",
+  "block": "OTHER",
+  "z": 1.85,
+  "log_odds": 0.86,
+  "gold": 5,
+  "neg": 41,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "1999",
+  "block": "OTHER",
+  "z": 1.82,
+  "log_odds": 0.65,
+  "gold": 8,
+  "neg": 81,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "africa",
+  "block": "OTHER",
+  "z": 1.82,
+  "log_odds": 0.59,
+  "gold": 10,
+  "neg": 109,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "religion religiousness",
+  "block": "S3_SECULARIZATION",
+  "z": 1.8,
+  "log_odds": 8.13,
+  "gold": 9,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "groups",
+  "block": "OTHER",
+  "z": 1.75,
+  "log_odds": 0.91,
+  "gold": 4,
+  "neg": 31,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "investigation",
+  "block": "OTHER",
+  "z": 1.75,
+  "log_odds": 0.91,
+  "gold": 4,
+  "neg": 31,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "ideal",
+  "block": "GENERIC_VALUES",
+  "z": 1.75,
+  "log_odds": 0.91,
+  "gold": 4,
+  "neg": 31,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "value orientations",
+  "block": "S1_POSTMATERIALISM",
+  "z": 1.73,
+  "log_odds": 1.05,
+  "gold": 3,
+  "neg": 20,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "kenya",
+  "block": "OTHER",
+  "z": 1.73,
+  "log_odds": 1.05,
+  "gold": 3,
+  "neg": 20,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "mediating",
+  "block": "OTHER",
+  "z": 1.73,
+  "log_odds": 1.05,
+  "gold": 3,
+  "neg": 20,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "ghana",
+  "block": "OTHER",
+  "z": 1.73,
+  "log_odds": 1.05,
+  "gold": 3,
+  "neg": 20,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "attitudes childbearing",
+  "block": "OUTCOME",
+  "z": 1.7,
+  "log_odds": 8.13,
+  "gold": 8,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "college",
+  "block": "OTHER",
+  "z": 1.69,
+  "log_odds": 0.88,
+  "gold": 4,
+  "neg": 32,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "third",
+  "block": "OTHER",
+  "z": 1.69,
+  "log_odds": 0.88,
+  "gold": 4,
+  "neg": 32,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "austria",
+  "block": "OTHER",
+  "z": 1.69,
+  "log_odds": 0.88,
+  "gold": 4,
+  "neg": 32,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "institutional",
+  "block": "OTHER",
+  "z": 1.67,
+  "log_odds": 0.77,
+  "gold": 5,
+  "neg": 45,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "explaining",
+  "block": "OTHER",
+  "z": 1.64,
+  "log_odds": 0.68,
+  "gold": 6,
+  "neg": 59,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "high fertility",
+  "block": "OUTCOME",
+  "z": 1.6,
+  "log_odds": 0.96,
+  "gold": 3,
+  "neg": 22,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "asian",
+  "block": "OTHER",
+  "z": 1.59,
+  "log_odds": 0.82,
+  "gold": 4,
+  "neg": 34,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "fertility norms",
+  "block": "OUTCOME",
+  "z": 1.59,
+  "log_odds": 8.13,
+  "gold": 7,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "spain 1985",
+  "block": "OTHER",
+  "z": 1.59,
+  "log_odds": 8.13,
+  "gold": 7,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "religion spain",
+  "block": "S3_SECULARIZATION",
+  "z": 1.59,
+  "log_odds": 8.13,
+  "gold": 7,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "1985 1999",
+  "block": "OTHER",
+  "z": 1.59,
+  "log_odds": 8.13,
+  "gold": 7,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "comparison",
+  "block": "OTHER",
+  "z": 1.57,
+  "log_odds": 0.6,
+  "gold": 7,
+  "neg": 75,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "dutch",
+  "block": "OTHER",
+  "z": 1.54,
+  "log_odds": 0.79,
+  "gold": 4,
+  "neg": 35,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "associations",
+  "block": "OTHER",
+  "z": 1.53,
+  "log_odds": 0.92,
+  "gold": 3,
+  "neg": 23,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "ireland",
+  "block": "OTHER",
+  "z": 1.53,
+  "log_odds": 0.92,
+  "gold": 3,
+  "neg": 23,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "asia",
+  "block": "OTHER",
+  "z": 1.5,
+  "log_odds": 0.58,
+  "gold": 7,
+  "neg": 77,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "contraceptive",
+  "block": "OTHER",
+  "z": 1.5,
+  "log_odds": 0.53,
+  "gold": 8,
+  "neg": 92,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "values fertility",
+  "block": "OUTCOME",
+  "z": 1.47,
+  "log_odds": 8.13,
+  "gold": 6,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "religiosity marital",
+  "block": "S3_SECULARIZATION",
+  "z": 1.47,
+  "log_odds": 8.13,
+  "gold": 6,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "affiliation fertility",
+  "block": "BOTH",
+  "z": 1.47,
+  "log_odds": 8.13,
+  "gold": 6,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "spanish",
+  "block": "OTHER",
+  "z": 1.47,
+  "log_odds": 0.88,
+  "gold": 3,
+  "neg": 24,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "participation",
+  "block": "OTHER",
+  "z": 1.47,
+  "log_odds": 0.56,
+  "gold": 7,
+  "neg": 78,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "related religiosity",
+  "block": "S3_SECULARIZATION",
+  "z": 1.47,
+  "log_odds": 8.13,
+  "gold": 6,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "desires",
+  "block": "OTHER",
+  "z": 1.41,
+  "log_odds": 0.84,
+  "gold": 3,
+  "neg": 25,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "changes",
+  "block": "OTHER",
+  "z": 1.41,
+  "log_odds": 0.41,
+  "gold": 12,
+  "neg": 158,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "government",
+  "block": "OTHER",
+  "z": 1.41,
+  "log_odds": 0.84,
+  "gold": 3,
+  "neg": 25,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "preference",
+  "block": "GENERIC_VALUES",
+  "z": 1.4,
+  "log_odds": 0.72,
+  "gold": 4,
+  "neg": 38,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "change",
+  "block": "OTHER",
+  "z": 1.39,
+  "log_odds": 0.28,
+  "gold": 25,
+  "neg": 380,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "patterns",
+  "block": "OTHER",
+  "z": 1.36,
+  "log_odds": 0.35,
+  "gold": 15,
+  "neg": 210,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "level",
+  "block": "OTHER",
+  "z": 1.36,
+  "log_odds": 0.52,
+  "gold": 7,
+  "neg": 82,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "scale",
+  "block": "OTHER",
+  "z": 1.35,
+  "log_odds": 0.8,
+  "gold": 3,
+  "neg": 26,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "1987",
+  "block": "OTHER",
+  "z": 1.35,
+  "log_odds": 0.8,
+  "gold": 3,
+  "neg": 26,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "variations",
+  "block": "OTHER",
+  "z": 1.35,
+  "log_odds": 0.8,
+  "gold": 3,
+  "neg": 26,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "female autonomy",
+  "block": "S2_INDIVIDUALISM",
+  "z": 1.34,
+  "log_odds": 8.13,
+  "gold": 5,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "fertility values",
+  "block": "OUTCOME",
+  "z": 1.34,
+  "log_odds": 8.13,
+  "gold": 5,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "fertility indeed",
+  "block": "OUTCOME",
+  "z": 1.34,
+  "log_odds": 8.13,
+  "gold": 5,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "affiliation religiosity",
+  "block": "S3_SECULARIZATION",
+  "z": 1.34,
+  "log_odds": 8.13,
+  "gold": 5,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "religious differentials",
+  "block": "S3_SECULARIZATION",
+  "z": 1.34,
+  "log_odds": 8.13,
+  "gold": 5,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "indeed",
+  "block": "OTHER",
+  "z": 1.34,
+  "log_odds": 8.13,
+  "gold": 5,
+  "neg": 0,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "norms fertility",
+  "block": "OUTCOME",
+  "z": 1.34,
+  "log_odds": 8.13,
+  "gold": 5,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "indeed related",
+  "block": "OTHER",
+  "z": 1.34,
+  "log_odds": 8.13,
+  "gold": 5,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "influences",
+  "block": "OTHER",
+  "z": 1.31,
+  "log_odds": 0.67,
+  "gold": 4,
+  "neg": 40,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "european countries",
+  "block": "OTHER",
+  "z": 1.3,
+  "log_odds": 0.49,
+  "gold": 7,
+  "neg": 84,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "church",
+  "block": "S3_SECULARIZATION",
+  "z": 1.3,
+  "log_odds": 0.49,
+  "gold": 7,
+  "neg": 84,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "reproductive age",
+  "block": "OTHER",
+  "z": 1.29,
+  "log_odds": 0.77,
+  "gold": 3,
+  "neg": 27,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "benefits",
+  "block": "OTHER",
+  "z": 1.29,
+  "log_odds": 0.77,
+  "gold": 3,
+  "neg": 27,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "evolution",
+  "block": "OTHER",
+  "z": 1.27,
+  "log_odds": 0.58,
+  "gold": 5,
+  "neg": 55,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "state",
+  "block": "OTHER",
+  "z": 1.26,
+  "log_odds": 0.45,
+  "gold": 8,
+  "neg": 101,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "non",
+  "block": "OTHER",
+  "z": 1.26,
+  "log_odds": 0.45,
+  "gold": 8,
+  "neg": 101,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "men women",
+  "block": "OTHER",
+  "z": 1.26,
+  "log_odds": 0.64,
+  "gold": 4,
+  "neg": 41,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "married",
+  "block": "OTHER",
+  "z": 1.24,
+  "log_odds": 0.56,
+  "gold": 5,
+  "neg": 56,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "socio",
+  "block": "OTHER",
+  "z": 1.23,
+  "log_odds": 0.44,
+  "gold": 8,
+  "neg": 102,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "attitudes childlessness",
+  "block": "OUTCOME",
+  "z": 1.2,
+  "log_odds": 8.13,
+  "gold": 4,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "transmission",
+  "block": "OTHER",
+  "z": 1.2,
+  "log_odds": 0.54,
+  "gold": 5,
+  "neg": 57,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "attitudes voluntary",
+  "block": "OTHER",
+  "z": 1.2,
+  "log_odds": 8.13,
+  "gold": 4,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "behavior intergenerational",
+  "block": "OTHER",
+  "z": 1.2,
+  "log_odds": 8.13,
+  "gold": 4,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "religiosity male",
+  "block": "S3_SECULARIZATION",
+  "z": 1.2,
+  "log_odds": 8.13,
+  "gold": 4,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "trends cohorts",
+  "block": "OTHER",
+  "z": 1.2,
+  "log_odds": 8.13,
+  "gold": 4,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "europe trends",
+  "block": "OTHER",
+  "z": 1.2,
+  "log_odds": 8.13,
+  "gold": 4,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "fertility implications",
+  "block": "OUTCOME",
+  "z": 1.2,
+  "log_odds": 8.13,
+  "gold": 4,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "fertility muslim",
+  "block": "BOTH",
+  "z": 1.2,
+  "log_odds": 8.13,
+  "gold": 4,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "french connection",
+  "block": "OTHER",
+  "z": 1.2,
+  "log_odds": 8.13,
+  "gold": 4,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "preferences changing",
+  "block": "GENERIC_VALUES",
+  "z": 1.2,
+  "log_odds": 8.13,
+  "gold": 4,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "roles fertility",
+  "block": "OUTCOME",
+  "z": 1.2,
+  "log_odds": 8.13,
+  "gold": 4,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "fertility french",
+  "block": "OUTCOME",
+  "z": 1.2,
+  "log_odds": 8.13,
+  "gold": 4,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "behaviour comparative",
+  "block": "OTHER",
+  "z": 1.2,
+  "log_odds": 8.13,
+  "gold": 4,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "cultural comparative",
+  "block": "OTHER",
+  "z": 1.2,
+  "log_odds": 8.13,
+  "gold": 4,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "states fertility",
+  "block": "OUTCOME",
+  "z": 1.2,
+  "log_odds": 8.13,
+  "gold": 4,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "autonomy fertility",
+  "block": "BOTH",
+  "z": 1.2,
+  "log_odds": 8.13,
+  "gold": 4,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "childlessness united",
+  "block": "OUTCOME",
+  "z": 1.2,
+  "log_odds": 8.13,
+  "gold": 4,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "parenthood attitudes",
+  "block": "OTHER",
+  "z": 1.2,
+  "log_odds": 8.13,
+  "gold": 4,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "matter",
+  "block": "OTHER",
+  "z": 1.17,
+  "log_odds": 0.53,
+  "gold": 5,
+  "neg": 58,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "developing",
+  "block": "OTHER",
+  "z": 1.14,
+  "log_odds": 0.58,
+  "gold": 4,
+  "neg": 44,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "cohabiting",
+  "block": "OTHER",
+  "z": 1.14,
+  "log_odds": 0.58,
+  "gold": 4,
+  "neg": 44,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "structural",
+  "block": "OTHER",
+  "z": 1.13,
+  "log_odds": 0.67,
+  "gold": 3,
+  "neg": 30,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "increasing",
+  "block": "OTHER",
+  "z": 1.13,
+  "log_odds": 0.67,
+  "gold": 3,
+  "neg": 30,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "four",
+  "block": "OTHER",
+  "z": 1.13,
+  "log_odds": 0.67,
+  "gold": 3,
+  "neg": 30,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "islam",
+  "block": "S3_SECULARIZATION",
+  "z": 1.13,
+  "log_odds": 0.67,
+  "gold": 3,
+  "neg": 30,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "western",
+  "block": "OTHER",
+  "z": 1.1,
+  "log_odds": 0.37,
+  "gold": 9,
+  "neg": 124,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "transformation",
+  "block": "OTHER",
+  "z": 1.1,
+  "log_odds": 0.56,
+  "gold": 4,
+  "neg": 45,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "princeton",
+  "block": "OTHER",
+  "z": 1.1,
+  "log_odds": 0.56,
+  "gold": 4,
+  "neg": 45,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "south",
+  "block": "OTHER",
+  "z": 1.09,
+  "log_odds": 0.38,
+  "gold": 8,
+  "neg": 108,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "contraception",
+  "block": "OTHER",
+  "z": 1.08,
+  "log_odds": 0.64,
+  "gold": 3,
+  "neg": 31,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "labour market",
+  "block": "OTHER",
+  "z": 1.08,
+  "log_odds": 0.64,
+  "gold": 3,
+  "neg": 31,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "empirical",
+  "block": "OTHER",
+  "z": 1.08,
+  "log_odds": 0.44,
+  "gold": 6,
+  "neg": 76,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "attendance",
+  "block": "S3_SECULARIZATION",
+  "z": 1.08,
+  "log_odds": 0.64,
+  "gold": 3,
+  "neg": 31,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "regional",
+  "block": "OTHER",
+  "z": 1.06,
+  "log_odds": 0.4,
+  "gold": 7,
+  "neg": 93,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "culture fertility",
+  "block": "OUTCOME",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "religious socialisation",
+  "block": "S3_SECULARIZATION",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "fertility attitudes",
+  "block": "OUTCOME",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "fertility four",
+  "block": "OUTCOME",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "institutional explanations",
+  "block": "OTHER",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "children framing",
+  "block": "OTHER",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "secularity fertility",
+  "block": "BOTH",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "religiosity realisation",
+  "block": "S3_SECULARIZATION",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "religiosity secularity",
+  "block": "S3_SECULARIZATION",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "decisions europe",
+  "block": "OTHER",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "population 205",
+  "block": "OTHER",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "context dynamic",
+  "block": "OTHER",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "differences female",
+  "block": "OTHER",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "survey societies",
+  "block": "OTHER",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "alicia",
+  "block": "OTHER",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "fertility cohabiting",
+  "block": "OUTCOME",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "contemporary northern",
+  "block": "OTHER",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "disentangling roles",
+  "block": "OTHER",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "attitude voluntary",
+  "block": "OTHER",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "four asian",
+  "block": "OTHER",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "saharan context",
+  "block": "OTHER",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "framing fertility",
+  "block": "OUTCOME",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "influence changes",
+  "block": "OTHER",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "lifetime perspectives",
+  "block": "OTHER",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "dutch panel",
+  "block": "OTHER",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "221 alicia",
+  "block": "OTHER",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "education social",
+  "block": "OTHER",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "comparatively",
+  "block": "OTHER",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "muslim differences",
+  "block": "S3_SECULARIZATION",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "1999 population",
+  "block": "OTHER",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "socialisation fertility",
+  "block": "OUTCOME",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "fertility turkey",
+  "block": "OUTCOME",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "religious people",
+  "block": "S3_SECULARIZATION",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "unions second",
+  "block": "OTHER",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "1870 1930",
+  "block": "OTHER",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "adequacy",
+  "block": "OTHER",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "european muslims",
+  "block": "S3_SECULARIZATION",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "attitudes children",
+  "block": "OTHER",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "differentials marital",
+  "block": "OTHER",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "childbearing dutch",
+  "block": "OUTCOME",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "alicia adsera",
+  "block": "OTHER",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "205 221",
+  "block": "OTHER",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "dynamic lifetime",
+  "block": "OTHER",
+  "z": 1.04,
+  "log_odds": 8.13,
+  "gold": 3,
+  "neg": 0,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "east",
+  "block": "OTHER",
+  "z": 1.03,
+  "log_odds": 0.42,
+  "gold": 6,
+  "neg": 78,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "socioeconomic",
+  "block": "OTHER",
+  "z": 1.03,
+  "log_odds": 0.42,
+  "gold": 6,
+  "neg": 78,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "turkey",
+  "block": "OTHER",
+  "z": 1.02,
+  "log_odds": 0.51,
+  "gold": 4,
+  "neg": 47,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "panel",
+  "block": "OTHER",
+  "z": 1.0,
+  "log_odds": 0.45,
+  "gold": 5,
+  "neg": 63,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "comparative",
+  "block": "OTHER",
+  "z": 0.99,
+  "log_odds": 0.27,
+  "gold": 13,
+  "neg": 198,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "socio economic",
+  "block": "OTHER",
+  "z": 0.98,
+  "log_odds": 0.49,
+  "gold": 4,
+  "neg": 48,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "unions",
+  "block": "OTHER",
+  "z": 0.94,
+  "log_odds": 0.55,
+  "gold": 3,
+  "neg": 34,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "und",
+  "block": "OTHER",
+  "z": 0.93,
+  "log_odds": 0.35,
+  "gold": 7,
+  "neg": 98,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "relationships",
+  "block": "OTHER",
+  "z": 0.93,
+  "log_odds": 0.35,
+  "gold": 7,
+  "neg": 98,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "national",
+  "block": "OTHER",
+  "z": 0.89,
+  "log_odds": 0.25,
+  "gold": 13,
+  "neg": 204,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "association",
+  "block": "OTHER",
+  "z": 0.87,
+  "log_odds": 0.39,
+  "gold": 5,
+  "neg": 67,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "modern",
+  "block": "OTHER",
+  "z": 0.86,
+  "log_odds": 0.32,
+  "gold": 7,
+  "neg": 101,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "personal",
+  "block": "OTHER",
+  "z": 0.85,
+  "log_odds": 0.49,
+  "gold": 3,
+  "neg": 36,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "republic",
+  "block": "OTHER",
+  "z": 0.85,
+  "log_odds": 0.49,
+  "gold": 3,
+  "neg": 36,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "gender equality",
+  "block": "OTHER",
+  "z": 0.84,
+  "log_odds": 0.42,
+  "gold": 4,
+  "neg": 52,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "family size",
+  "block": "OUTCOME",
+  "z": 0.84,
+  "log_odds": 0.42,
+  "gold": 4,
+  "neg": 52,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "fertility trends",
+  "block": "OUTCOME",
+  "z": 0.81,
+  "log_odds": 0.47,
+  "gold": 3,
+  "neg": 37,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "use",
+  "block": "OTHER",
+  "z": 0.79,
+  "log_odds": 0.26,
+  "gold": 9,
+  "neg": 139,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "parenting",
+  "block": "OTHER",
+  "z": 0.77,
+  "log_odds": 0.44,
+  "gold": 3,
+  "neg": 38,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "welfare",
+  "block": "OTHER",
+  "z": 0.77,
+  "log_odds": 0.38,
+  "gold": 4,
+  "neg": 54,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "german",
+  "block": "OTHER",
+  "z": 0.74,
+  "log_odds": 0.37,
+  "gold": 4,
+  "neg": 55,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "application",
+  "block": "OTHER",
+  "z": 0.72,
+  "log_odds": 0.42,
+  "gold": 3,
+  "neg": 39,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "rural",
+  "block": "OTHER",
+  "z": 0.72,
+  "log_odds": 0.27,
+  "gold": 7,
+  "neg": 107,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "education",
+  "block": "OTHER",
+  "z": 0.64,
+  "log_odds": 0.16,
+  "gold": 16,
+  "neg": 276,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "support",
+  "block": "OTHER",
+  "z": 0.63,
+  "log_odds": 0.22,
+  "gold": 8,
+  "neg": 129,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "survey",
+  "block": "OTHER",
+  "z": 0.63,
+  "log_odds": 0.21,
+  "gold": 9,
+  "neg": 147,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "britain",
+  "block": "OTHER",
+  "z": 0.58,
+  "log_odds": 0.29,
+  "gold": 4,
+  "neg": 60,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "canada",
+  "block": "OTHER",
+  "z": 0.57,
+  "log_odds": 0.25,
+  "gold": 5,
+  "neg": 78,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "2020",
+  "block": "OTHER",
+  "z": 0.54,
+  "log_odds": 0.24,
+  "gold": 5,
+  "neg": 79,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "sex",
+  "block": "OTHER",
+  "z": 0.54,
+  "log_odds": 0.24,
+  "gold": 5,
+  "neg": 79,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "couples",
+  "block": "OTHER",
+  "z": 0.54,
+  "log_odds": 0.24,
+  "gold": 5,
+  "neg": 79,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "exploring",
+  "block": "OTHER",
+  "z": 0.46,
+  "log_odds": 0.2,
+  "gold": 5,
+  "neg": 82,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "first birth",
+  "block": "OUTCOME",
+  "z": 0.43,
+  "log_odds": 0.25,
+  "gold": 3,
+  "neg": 47,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "changing",
+  "block": "OTHER",
+  "z": 0.39,
+  "log_odds": 0.11,
+  "gold": 11,
+  "neg": 199,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "china",
+  "block": "OTHER",
+  "z": 0.37,
+  "log_odds": 0.1,
+  "gold": 13,
+  "neg": 239,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "christian",
+  "block": "OTHER",
+  "z": 0.37,
+  "log_odds": 0.21,
+  "gold": 3,
+  "neg": 49,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "child",
+  "block": "OTHER",
+  "z": 0.36,
+  "log_odds": 0.11,
+  "gold": 11,
+  "neg": 201,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "identity",
+  "block": "OTHER",
+  "z": 0.35,
+  "log_odds": 0.17,
+  "gold": 4,
+  "neg": 68,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "individual",
+  "block": "OTHER",
+  "z": 0.35,
+  "log_odds": 0.17,
+  "gold": 4,
+  "neg": 68,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "community",
+  "block": "OTHER",
+  "z": 0.35,
+  "log_odds": 0.17,
+  "gold": 4,
+  "neg": 68,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "factors",
+  "block": "OTHER",
+  "z": 0.33,
+  "log_odds": 0.11,
+  "gold": 8,
+  "neg": 145,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "men",
+  "block": "OTHER",
+  "z": 0.32,
+  "log_odds": 0.12,
+  "gold": 7,
+  "neg": 126,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "century",
+  "block": "OTHER",
+  "z": 0.31,
+  "log_odds": 0.11,
+  "gold": 8,
+  "neg": 146,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "west",
+  "block": "OTHER",
+  "z": 0.3,
+  "log_odds": 0.15,
+  "gold": 4,
+  "neg": 70,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "equality",
+  "block": "OTHER",
+  "z": 0.3,
+  "log_odds": 0.15,
+  "gold": 4,
+  "neg": 70,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "students",
+  "block": "OTHER",
+  "z": 0.3,
+  "log_odds": 0.17,
+  "gold": 3,
+  "neg": 51,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "chinese",
+  "block": "OTHER",
+  "z": 0.25,
+  "log_odds": 0.11,
+  "gold": 5,
+  "neg": 91,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "parenthood",
+  "block": "OTHER",
+  "z": 0.25,
+  "log_odds": 0.09,
+  "gold": 7,
+  "neg": 130,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "institutions",
+  "block": "OTHER",
+  "z": 0.21,
+  "log_odds": 0.12,
+  "gold": 3,
+  "neg": 54,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "2005",
+  "block": "OTHER",
+  "z": 0.18,
+  "log_odds": 0.08,
+  "gold": 5,
+  "neg": 94,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "outcomes",
+  "block": "OTHER",
+  "z": 0.18,
+  "log_odds": 0.1,
+  "gold": 3,
+  "neg": 55,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "intention",
+  "block": "OTHER",
+  "z": 0.18,
+  "log_odds": 0.1,
+  "gold": 3,
+  "neg": 55,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "beyond",
+  "block": "OTHER",
+  "z": 0.15,
+  "log_odds": 0.09,
+  "gold": 3,
+  "neg": 56,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "size",
+  "block": "OTHER",
+  "z": 0.12,
+  "log_odds": 0.06,
+  "gold": 4,
+  "neg": 77,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "italy",
+  "block": "OTHER",
+  "z": 0.12,
+  "log_odds": 0.04,
+  "gold": 7,
+  "neg": 137,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "timing",
+  "block": "OTHER",
+  "z": 0.12,
+  "log_odds": 0.05,
+  "gold": 5,
+  "neg": 97,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "societies",
+  "block": "OTHER",
+  "z": 0.08,
+  "log_odds": 0.03,
+  "gold": 5,
+  "neg": 99,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "recent",
+  "block": "OTHER",
+  "z": 0.07,
+  "log_odds": 0.04,
+  "gold": 3,
+  "neg": 59,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "childless",
+  "block": "OUTCOME",
+  "z": 0.07,
+  "log_odds": 0.04,
+  "gold": 3,
+  "neg": 59,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "longitudinal",
+  "block": "OTHER",
+  "z": 0.04,
+  "log_odds": 0.02,
+  "gold": 3,
+  "neg": 60,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "2009",
+  "block": "OTHER",
+  "z": 0.03,
+  "log_odds": 0.01,
+  "gold": 4,
+  "neg": 81,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "revolution",
+  "block": "OTHER",
+  "z": 0.02,
+  "log_odds": 0.01,
+  "gold": 3,
+  "neg": 61,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "labour",
+  "block": "OTHER",
+  "z": 0.02,
+  "log_odds": 0.01,
+  "gold": 3,
+  "neg": 61,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "modernization",
+  "block": "S1_POSTMATERIALISM",
+  "z": -0.01,
+  "log_odds": -0.01,
+  "gold": 3,
+  "neg": 62,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "eastern",
+  "block": "OTHER",
+  "z": -0.01,
+  "log_odds": -0.01,
+  "gold": 3,
+  "neg": 62,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "japan",
+  "block": "OTHER",
+  "z": -0.03,
+  "log_odds": -0.01,
+  "gold": 5,
+  "neg": 104,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "implications",
+  "block": "OTHER",
+  "z": -0.03,
+  "log_odds": -0.01,
+  "gold": 5,
+  "neg": 104,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "gap",
+  "block": "OTHER",
+  "z": -0.04,
+  "log_odds": -0.02,
+  "gold": 3,
+  "neg": 63,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "high",
+  "block": "OTHER",
+  "z": -0.04,
+  "log_odds": -0.02,
+  "gold": 3,
+  "neg": 63,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "through",
+  "block": "OTHER",
+  "z": -0.09,
+  "log_odds": -0.05,
+  "gold": 3,
+  "neg": 65,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "van",
+  "block": "OTHER",
+  "z": -0.09,
+  "log_odds": -0.05,
+  "gold": 3,
+  "neg": 65,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "understanding",
+  "block": "OTHER",
+  "z": -0.1,
+  "log_odds": -0.05,
+  "gold": 5,
+  "neg": 108,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "2015",
+  "block": "OTHER",
+  "z": -0.11,
+  "log_odds": -0.05,
+  "gold": 4,
+  "neg": 87,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "qualitative",
+  "block": "OTHER",
+  "z": -0.11,
+  "log_odds": -0.06,
+  "gold": 3,
+  "neg": 66,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "time",
+  "block": "OTHER",
+  "z": -0.12,
+  "log_odds": -0.05,
+  "gold": 5,
+  "neg": 109,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "market",
+  "block": "OTHER",
+  "z": -0.15,
+  "log_odds": -0.07,
+  "gold": 4,
+  "neg": 89,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "india",
+  "block": "OTHER",
+  "z": -0.19,
+  "log_odds": -0.09,
+  "gold": 4,
+  "neg": 91,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "births",
+  "block": "OUTCOME",
+  "z": -0.21,
+  "log_odds": -0.1,
+  "gold": 4,
+  "neg": 92,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "russia",
+  "block": "OTHER",
+  "z": -0.21,
+  "log_odds": -0.11,
+  "gold": 3,
+  "neg": 70,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "people",
+  "block": "OTHER",
+  "z": -0.21,
+  "log_odds": -0.1,
+  "gold": 4,
+  "neg": 92,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "motherhood",
+  "block": "OTHER",
+  "z": -0.23,
+  "log_odds": -0.13,
+  "gold": 3,
+  "neg": 71,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "parental",
+  "block": "OTHER",
+  "z": -0.25,
+  "log_odds": -0.11,
+  "gold": 5,
+  "neg": 116,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "social",
+  "block": "OTHER",
+  "z": -0.29,
+  "log_odds": -0.05,
+  "gold": 36,
+  "neg": 779,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "intergenerational",
+  "block": "OTHER",
+  "z": -0.31,
+  "log_odds": -0.15,
+  "gold": 4,
+  "neg": 97,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "2012",
+  "block": "OTHER",
+  "z": -0.32,
+  "log_odds": -0.17,
+  "gold": 3,
+  "neg": 75,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "countries",
+  "block": "OTHER",
+  "z": -0.33,
+  "log_odds": -0.08,
+  "gold": 18,
+  "neg": 402,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "cross national",
+  "block": "OTHER",
+  "z": -0.33,
+  "log_odds": -0.16,
+  "gold": 4,
+  "neg": 98,
+  "is_bigram": true,
+  "clinical": false
+ },
+ {
+  "term": "first",
+  "block": "OTHER",
+  "z": -0.33,
+  "log_odds": -0.11,
+  "gold": 9,
+  "neg": 208,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "der",
+  "block": "OTHER",
+  "z": -0.36,
+  "log_odds": -0.2,
+  "gold": 3,
+  "neg": 77,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "australia",
+  "block": "OTHER",
+  "z": -0.42,
+  "log_odds": -0.23,
+  "gold": 3,
+  "neg": 80,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "european",
+  "block": "OTHER",
+  "z": -0.42,
+  "log_odds": -0.11,
+  "gold": 14,
+  "neg": 324,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "capital",
+  "block": "OTHER",
+  "z": -0.44,
+  "log_odds": -0.24,
+  "gold": 3,
+  "neg": 81,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "young",
+  "block": "OTHER",
+  "z": -0.47,
+  "log_odds": -0.17,
+  "gold": 7,
+  "neg": 174,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "policies",
+  "block": "OTHER",
+  "z": -0.51,
+  "log_odds": -0.24,
+  "gold": 4,
+  "neg": 108,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "adults",
+  "block": "OTHER",
+  "z": -0.54,
+  "log_odds": -0.26,
+  "gold": 4,
+  "neg": 110,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "trends",
+  "block": "OTHER",
+  "z": -0.55,
+  "log_odds": -0.15,
+  "gold": 12,
+  "neg": 292,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "work",
+  "block": "OTHER",
+  "z": -0.57,
+  "log_odds": -0.24,
+  "gold": 5,
+  "neg": 135,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "america",
+  "block": "OTHER",
+  "z": -0.61,
+  "log_odds": -0.29,
+  "gold": 4,
+  "neg": 114,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "perspectives",
+  "block": "OTHER",
+  "z": -0.74,
+  "log_odds": -0.4,
+  "gold": 3,
+  "neg": 97,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "transitions",
+  "block": "OTHER",
+  "z": -0.75,
+  "log_odds": -0.41,
+  "gold": 3,
+  "neg": 98,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "global",
+  "block": "OTHER",
+  "z": -0.78,
+  "log_odds": -0.33,
+  "gold": 5,
+  "neg": 149,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "sweden",
+  "block": "OTHER",
+  "z": -0.8,
+  "log_odds": -0.38,
+  "gold": 4,
+  "neg": 126,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "politics",
+  "block": "OTHER",
+  "z": -0.9,
+  "log_odds": -0.48,
+  "gold": 3,
+  "neg": 107,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "growth",
+  "block": "OTHER",
+  "z": -0.91,
+  "log_odds": -0.49,
+  "gold": 3,
+  "neg": 108,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "2000",
+  "block": "OTHER",
+  "z": -0.93,
+  "log_odds": -0.5,
+  "gold": 3,
+  "neg": 109,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "policy",
+  "block": "OTHER",
+  "z": -0.97,
+  "log_odds": -0.3,
+  "gold": 9,
+  "neg": 261,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "marriage",
+  "block": "OTHER",
+  "z": -1.1,
+  "log_odds": -0.25,
+  "gold": 18,
+  "neg": 488,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "age",
+  "block": "OTHER",
+  "z": -1.13,
+  "log_odds": -0.38,
+  "gold": 8,
+  "neg": 252,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "contemporary",
+  "block": "OTHER",
+  "z": -1.17,
+  "log_odds": -0.62,
+  "gold": 3,
+  "neg": 126,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "post",
+  "block": "OTHER",
+  "z": -1.17,
+  "log_odds": -0.54,
+  "gold": 4,
+  "neg": 153,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "public",
+  "block": "OTHER",
+  "z": -1.17,
+  "log_odds": -0.62,
+  "gold": 3,
+  "neg": 126,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "families",
+  "block": "OTHER",
+  "z": -1.32,
+  "log_odds": -0.69,
+  "gold": 3,
+  "neg": 138,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "society",
+  "block": "OTHER",
+  "z": -1.32,
+  "log_odds": -0.69,
+  "gold": 3,
+  "neg": 138,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "perspective",
+  "block": "OTHER",
+  "z": -1.36,
+  "log_odds": -0.51,
+  "gold": 6,
+  "neg": 222,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "determinants",
+  "block": "OTHER",
+  "z": -1.51,
+  "log_odds": -0.78,
+  "gold": 3,
+  "neg": 154,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "theory",
+  "block": "OTHER",
+  "z": -1.55,
+  "log_odds": -0.63,
+  "gold": 5,
+  "neg": 214,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "cohort",
+  "block": "OTHER",
+  "z": -1.75,
+  "log_odds": -0.89,
+  "gold": 3,
+  "neg": 178,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "world",
+  "block": "OTHER",
+  "z": -1.76,
+  "log_odds": -0.79,
+  "gold": 4,
+  "neg": 208,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "health",
+  "block": "OTHER",
+  "z": -2.05,
+  "log_odds": -0.9,
+  "gold": 4,
+  "neg": 240,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "cohabitation",
+  "block": "OTHER",
+  "z": -2.07,
+  "log_odds": -0.91,
+  "gold": 4,
+  "neg": 243,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "formation",
+  "block": "OTHER",
+  "z": -2.2,
+  "log_odds": -1.07,
+  "gold": 3,
+  "neg": 230,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "development",
+  "block": "OTHER",
+  "z": -2.47,
+  "log_odds": -0.83,
+  "gold": 7,
+  "neg": 383,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "life",
+  "block": "OTHER",
+  "z": -2.67,
+  "log_odds": -1.02,
+  "gold": 5,
+  "neg": 355,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "family",
+  "block": "OTHER",
+  "z": -3.56,
+  "log_odds": -0.64,
+  "gold": 26,
+  "neg": 1117,
+  "is_bigram": false,
+  "clinical": false
+ },
+ {
+  "term": "population",
+  "block": "OTHER",
+  "z": -3.62,
+  "log_odds": -0.95,
+  "gold": 11,
+  "neg": 705,
+  "is_bigram": false,
+  "clinical": false
+ }
+]
