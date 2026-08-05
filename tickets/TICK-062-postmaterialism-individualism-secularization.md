@@ -23,6 +23,46 @@
 - [ ] 14. PI review and sign-off
 
 ## Log
+- 2026-08-04 (Shravan/Claude): **A6c complete. Production query compiled and frozen; C1 must move
+  off OpenAlex.** `{slug}-production-query.json` (C1 consumes this), `{slug}-recall-probe.md`;
+  script `102_d1a_production_query.py`. **Phase A is finished — the next stage is C1, the clustered
+  keyword search.**
+  **(1) Local recall, reported in halves because a single figure would be misleading here.**
+  Title-only **91.7%**, title-and-abstract 93.9%. But abstract coverage is 50% and is *not* missing
+  at random — providers hold abstracts for well-indexed Anglo-European journals and not for the book
+  chapters, regional journals and dissertations in this frame's residue. Split: records **with** an
+  abstract go 94.4% → **99.4%**; records **without** stay at **89.8%**. The pooled 93.9% is entirely
+  the covered half's behaviour attributed to the whole. **89.8% is what the operationalisation can
+  actually promise on the records the search will find hardest**, and that is the number to quote.
+  **(2) THE FINDING THAT DECIDES C1: the query's wildcards are not portable, and both providers fail
+  silently.** Measured, not assumed. **OpenAlex `title.search` has no prefix matching at all** —
+  `fertilit` returns **63** records against **114,008** for `fertility`, and `religio` returns 2,041
+  against 16,941 for `religiosity`. Every stem in the query (`fertilit*`, `childless*`, `religio*`,
+  `childbear*`, `procreat*`) would have retrieved a small biased fraction **and reported a plausible
+  count while doing it**. Fourth instance of this chapter's signature failure mode.
+  **(3) The same bug in my own encoder, in the same silent direction.** The S2 term encoder emitted a
+  *quoted* stem, which Semantic Scholar reads as an exact phrase with a meaningless trailing star:
+  **137** records where unquoted `fertilit*` returns **385,352** (correctly more than the bare word).
+  A production pull built on it would have been wrong by three orders of magnitude without erroring.
+  Neither provider supports a *phrase* prefix, so the wildcard is dropped from **26** multi-word
+  terms — concentrated in S4 and S5, so **the two clusters A6b flagged as earning almost no credit
+  are also the two most degraded by this limit**, which sharpens rather than answers that question.
+  **(4) Neither provider takes the query whole, and the draft recommendation was wrong.** This script
+  was written expecting to recommend "send the conjunction to S2 in one request" — the attempt
+  returned **HTTP 400, request line 5,309 bytes against a 4,094 ceiling**. OpenAlex is barred
+  separately by the five-operator throttle. So the decision turns on the **decomposition unit**, and
+  there the gap is decisive: **OpenAlex needs one metered request per term (123, a floor counting one
+  page each, ≈$0.12 for first pages alone); Semantic Scholar needs one free request per cluster (6).**
+  **(5) Recommendation, with two conditions.** Run C1 on **Semantic Scholar bulk search**, decomposed
+  by cluster and unioned client-side, keeping OpenAlex for targeted count checks. **The S2 API key,
+  outstanding since the D.3.b snowball, is now on the critical path rather than a convenience** —
+  unauthenticated throttling is the only thing between this plan and a completed pull. And **the
+  compiled query must be emitted with wildcards expanded before C1 consumes it**; the artifact still
+  carries stems, and a consumer that passes them through reproduces the failure in (2).
+  **(6) Cluster universe counts (S2, corrected encoding):** GENERIC_VALUES 343,368; S3 57,144;
+  S4 41,291; S2 32,846; S5 15,636; S1 7,722. Sum 498,007 as an **upper bound only** — cluster overlap
+  is unmeasured without pulling identifiers, and the sum is labelled as a bound rather than a
+  universe size.
 - 2026-08-04 (Shravan/Claude): **A6a and A6b complete. Query breadth chosen at (20, 10);
   Recall(B-only) 92.1%, all three Tier-1 natural experiments retrieved.**
   `{slug}-discriminative-terms.{json,md}`, `{slug}-cv-breadth.{json,md}`; scripts
