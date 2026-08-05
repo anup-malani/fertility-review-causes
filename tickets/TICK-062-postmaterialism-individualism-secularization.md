@@ -23,6 +23,56 @@
 - [ ] 14. PI review and sign-off
 
 ## Log
+- 2026-08-05 (Shravan/Claude): **Pre-filter built and shipped. 11,425 in → 10,234 to the screen,
+  1,017 dropped, 174 routed to a new retrieval worklist. Gold loss ZERO on 303 gold records tested.**
+  `{slug}-prefilter.{json,md}`, `{slug}-prefilter-rejected-sample.md`; script
+  `104_d1a_prefilter.py`. Built while C1 is still paused on budget; it needs no further pull, and
+  **it must be re-run once C1 completes** (that is a separate open item, not a formality).
+  **(1) The acceptance gate is gold loss and it is zero, which is the only number here worth
+  trusting.** The frozen Tier A/Tier B gold is run through the filter and the script exits nonzero if
+  it drops any of it — 303 gold records are present in the partial corpus and all 303 survive. A drop
+  percentage is not evidence the filter is safe; a filter that silently thins the gold is the
+  truncated-pull failure wearing different clothes.
+  **(2) Reading the rejected sample found a defect the count could not have shown, and it is the
+  chapter's own recurring one.** The first version sent all 262 book reviews to `OFF_OTHER`. The
+  sample showed what that deletes: reviews of **Jones and Grupp, *Modernization, Value Change, and
+  Fertility in the Soviet Union***, **Yaukey, *Fertility Differences in a Modernizing Country***,
+  and **Fukuda, *Marriage and fertility behaviour in Japan — Economic status and value
+  orientation***. Those are on-pair monographs and the review is **the only trace of them the pull
+  returned**. A review is not evidence, but it is not junk either — it is a *retrieval lead*. On-pair
+  reviews now route to `BOOK_REVIEW_LEAD` (174) and the reviewed work is what to chase. **Fifth
+  independent hit on the books/chapters/dissertations/non-English indexing gap**, and the first where
+  our own filter was about to widen it.
+  **(3) A latent bug in the rescue list, and its obvious repair was also wrong.** `secular\w+`
+  requires a trailing word character, so it **silently never matched the bare word `secular`** — the
+  chapter's own treatment word could not rescue anything. The naive fix to `secular\w*` then rescues
+  *"Secular trends in preterm birth"*, the demography term of art with no religious content that the
+  rubric explicitly names as a near-miss. Neither the broken form nor its repair is right; the
+  religious senses are now enumerated and the term-of-art idioms blocked.
+  **(4) One exclusion was added on measured evidence, and the measurement is the point.**
+  `secular trend/change/decline` fires on 117 records, of which **65 carry no religious or
+  demographic signal at all** and are uniformly epidemiology — lung-cancer mortality, body mass
+  index, blood pressure, unprovoked seizures, adult height. Added for **precision, not cost**: these
+  are the highest-risk false positives in the queue, because a screen reading *"Secular changes in
+  rates of multiple births in the United States"* can route it to S3 with a fertility outcome and be
+  confidently wrong. Net new drops came to exactly the 65 read, and the rescue keeps *"Disputing
+  Contraception: Muslim Reform, Secular Change and Fertility"*.
+  **(5) A collision class none of the upstream probes named: soil science and agronomy.** The rubric
+  lists clinical and veterinary; `soil fertility` is a large separate literature that shares the
+  outcome word outright (~105 records — *"Studies on the tea garden soil of low fertility in
+  Yamashiro district"*). Found by probing the corpus rather than by trusting the rubric's list.
+  **(6) Design rules, each bought with a bug already on this codebase's record.** Drops match the
+  **title only** and the abstract is read only as *rescue* evidence, so it can keep a record and
+  never remove one. Every pattern is **word-anchored** (after `hous`, `reproduc\w+`, and the bare
+  `429` matching a Unix timestamp). **Any rescue signal overrides any drop term**, since a wrongly
+  kept record costs one LLM read and a wrongly dropped one costs the study — and the rescue
+  vocabulary is demographic and religious only, carrying **no** value-scale words, because
+  `individualis` and `materialis` are exactly what OpenAlex stemming corrupts.
+  **(7) `breastfeeding`, `lactation` and `postpartum` were refused and the refusals are recorded in
+  the source**, with the record that refused them (*"In Kenya, Modernization, Drop in Breastfeeding
+  and Low Contraceptive Use Bring Rising Fertility"*). They are proximate-determinants demography,
+  not clinical vocabulary. The `REJECTED_TERMS` table exists so the next reader does not re-propose
+  an exclusion this run already measured and rejected.
 - 2026-08-04 (Shravan/Claude): **Screen rubric drafted and calibrated against the C1 corpus.**
   `{slug}-screen-rubric.md`. Operationalizes the scope's seven walls, 24 estimand cells and five
   rulings into a blinded title/abstract screen. Built while C1 is paused on budget; it needs no
