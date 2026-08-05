@@ -23,6 +23,56 @@
 - [ ] 14. PI review and sign-off
 
 ## Log
+- 2026-08-04 (Shravan/Claude): **A6a and A6b complete. Query breadth chosen at (20, 10);
+  Recall(B-only) 92.1%, all three Tier-1 natural experiments retrieved.**
+  `{slug}-discriminative-terms.{json,md}`, `{slug}-cv-breadth.{json,md}`; scripts
+  `100_d1a_discriminative_terms.py`, `101_d1a_cv_breadth.py`. Next is A6c, the production-query refit
+  and the live universe counts.
+  **(1) The treatment side is six clusters, not one block, and A6a says why.** Ruling 1 makes this
+  five treatments against one outcome, so a single mined cause block would have been ranked by
+  whichever pair dominates the frame. Measured: **S3 has 28 mineable terms (top z 16.6), S1 has 5,
+  S2 has 2, and S4 and S5 have zero.** The sixth cluster is `GENERIC_VALUES`, the treatment-side
+  vocabulary that retrieves on-pair work without naming a pair. **It carries more sole credit than S3
+  at A6b — 176 against 149** — so a query built only from pair-specific clusters would have been an S3
+  query and would have lost roughly a third of the frame. That is the run's most consequential number.
+  **(2) Ruling 2 confirmed mechanically by an independent measurement.** S4's zero is not sparsity:
+  *every* childlessness term in the ranked set classifies as `OUTCOME` or `BOTH` and none as a pure
+  treatment term, because there is no S4 treatment word that is not also the outcome word. The
+  degenerate-pair rule was pre-registered in the scope; the term ranker rediscovered it without being
+  told. Belongs in the chapter's methods section.
+  **(3) A pipeline-ordering bug of my own making, and it inflated four downstream numbers.** `98_`
+  deduplicates on the raw snowball title, then enrichment rewrites titles to the provider's canonical
+  form — so records that were distinct strings at dedup time become the same work afterwards. **95 of
+  495 Tier-B records were duplicates**: case variants, British against American spelling, a book
+  indexed once with and once without its author suffix. Tier B is **400 distinct works**, not 495. It
+  inflated the Tier-B count, the A6a positive class, the A6b recall denominator, **and the round-2
+  saturation yield** — round 2's 1.77 per 50 is overstated by roughly the duplicate share, though not
+  enough to change the stop decision, which the depth cap governed anyway. Catchable only after
+  enrichment, because before it the two strings genuinely differ.
+  **(4) The CV read its own misses and found four omissions from a-priori scope vocabulary** — not
+  four discoveries in the data. `baby boom` was **costing a Tier-1 natural experiment** ("Religiously
+  inspired baby boom: evidence from Georgia"); `reproductive success`, `postindustrial`, and the whole
+  non-English outcome vocabulary were missing too. **The multilingual repair exposed a second bug: the
+  normalizer deleted every non-ASCII character, so `fécondité` became `f condit` and the French and
+  Spanish terms could never have matched** — the repair would have silently done nothing while
+  appearing to be in place. Diacritics are now folded, not deleted.
+  **(5) Stated against my own number: Recall(A-only) is no longer out-of-sample.** The repairs were
+  informed by A-only misses, so its 68.4% → 89.5% jump is partly fitted and should not be quoted as a
+  clean number. **Recall(B-only) moved 91.6% → 92.1%, half a point** — and that is the reassuring
+  part, because a repair that gamed the metric would have lifted both. All three Tier-1 design anchors
+  now retrieved; S3 100% of 23, S1 80% of 5, S5 50% of 2.
+  **(6) The materialism vocabulary trap is a ROUTING problem, not a retrieval one — reversing A6a's
+  decision.** A6a withheld bare `materialism` because Inglehart's materialist (S1, security) and the
+  consumer-psychology materialist (S5, acquisition) are opposite poles. But both senses are in scope,
+  since S1 and S5 are both D.1.a pairs, and the query is a conjunction with the outcome block, so it
+  can only retrieve materialism papers already about fertility. Withholding it cost the one
+  unambiguous S5 anchor in the gold set. Restored; the disambiguation belongs at extraction from the
+  measure's item content, where the generic-values routing already happens.
+  **(7) An open cost to re-examine at A6c.** S4 earns **zero** sole credit and S5 earns one. The
+  forced backbones return almost nothing on the current gold — which A6a predicted from their zero
+  mined terms. Kept on prospective grounds, since the gold is a citation frame around a literature
+  that barely studies these pairs. **If they retrieve nothing against the live database either, they
+  are buying coverage of a literature that does not exist and the chapter should say so.**
 - 2026-08-04 (Shravan/Claude): **A3 complete — gold set assembled and frozen. Tier A 48 anchors (31
   empirical, CV floor 30 cleared); Tier B 495 records taken whole.**
   `literature/search-logs/{slug}-tier-a.json`, `-tier-b-frame.json`, `-tier-ab-log.md`,

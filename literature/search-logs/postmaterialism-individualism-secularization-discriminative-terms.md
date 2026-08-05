@@ -1,26 +1,26 @@
 # D.1.a — discriminative terms (GACS A6a)
 
-Fightin'-Words weighted log-odds (informative Dirichlet prior, z-scored) over **titles**: Tier B + Tier-A empirical anchors (**526** positives) against the snowball's non-relevant residue plus the ten purpose-built decoys (**9972** negatives). Higher z = more discriminative of the on-pair class.
+Fightin'-Words weighted log-odds (informative Dirichlet prior, z-scored) over **titles**: Tier B + Tier-A empirical anchors (**431** positives) against the snowball's non-relevant residue plus the ten purpose-built decoys (**9972** negatives). Higher z = more discriminative of the on-pair class.
 
 **The contrast is relevant-versus-near-miss, not relevant-versus-random-database.** Every negative already passed the citation frame, so what is measured is precision at fixed recall. A6b recomputes this fold-locally so the CV recall estimate stays uncircular.
 
 **The treatment side is five clusters, not one block** (Ruling 1): the five pairs are estimated separately and never pooled, and a single mined cause block would be ranked by whichever pair dominates the frame — which is S3, at 23 of 31 empirical anchors. Splitting keeps the budget allocation an explicit A6b decision rather than an artifact of frame composition.
 
-Candidate terms (gold count >= 3): **525**
+Candidate terms (gold count >= 3): **377**
 
 | block | terms |
 |---|---|
-| `OUTCOME` | 79 |
-| `GENERIC_VALUES` | 20 |
+| `OUTCOME` | 54 |
+| `GENERIC_VALUES` | 19 |
 | `S1_POSTMATERIALISM` | 5 |
 | `S2_INDIVIDUALISM` | 2 |
-| `S3_SECULARIZATION` | 44 |
+| `S3_SECULARIZATION` | 28 |
 | `S4_CHILDLESSNESS_NORM` | 0 |
 | `S5_CONSUMERISM` | 0 |
-| `BOTH` | 11 |
+| `BOTH` | 9 |
 | `MULTI_PAIR` | 0 |
 | `AMBIGUOUS_MATERIALISM` | 0 |
-| `OTHER` | 364 |
+| `OTHER` | 260 |
 
 Terms flagged as clinical/veterinary collision: **0** — see the exclusion note below.
 
@@ -29,134 +29,131 @@ Terms flagged as clinical/veterinary collision: **0** — see the exclusion note
 
 | term | z | log-odds | gold | neg |
 |---|---|---|---|---|
-| fertility | 28.58 | 1.49 | 438 | 1929 |
-| marital fertility | 9.86 | 2.67 | 24 | 31 |
-| childbearing | 9.61 | 1.44 | 53 | 238 |
-| fertility change | 8.69 | 3.18 | 17 | 13 |
-| fertility intentions | 8.35 | 1.65 | 32 | 116 |
-| fertility united | 7.59 | 2.73 | 14 | 17 |
-| influence fertility | 7.58 | 3.53 | 13 | 7 |
-| theories fertility | 5.84 | 2.48 | 9 | 14 |
-| fertility behavior | 5.65 | 2.14 | 10 | 22 |
-| fertility sub | 5.55 | 3.07 | 7 | 6 |
-| children fertility | 5.23 | 4.15 | 7 | 2 |
-| fertility europe | 5.19 | 1.78 | 11 | 35 |
-| fertility ideals | 5.0 | 2.76 | 6 | 7 |
-| fertility related | 4.94 | 4.0 | 6 | 2 |
-| attitudes fertility | 4.93 | 5.07 | 9 | 1 |
-| fertility behaviour | 4.85 | 2.23 | 7 | 14 |
-| fertility western | 4.6 | 3.82 | 5 | 2 |
-| childlessness | 4.56 | 1.14 | 18 | 110 |
-| fertility decline | 4.43 | 1.1 | 18 | 114 |
-| fertility childbearing | 4.22 | 3.2 | 4 | 3 |
+| fertility | 24.33 | 1.4 | 346 | 1929 |
+| childbearing | 9.51 | 1.48 | 48 | 238 |
+| fertility intentions | 7.68 | 1.62 | 27 | 116 |
+| marital fertility | 7.49 | 2.34 | 15 | 31 |
+| fertility united | 6.39 | 2.53 | 10 | 17 |
+| fertility change | 6.24 | 2.69 | 9 | 13 |
+| fertility behavior | 5.53 | 2.17 | 9 | 22 |
+| children fertility | 5.41 | 4.29 | 7 | 2 |
+| fertility behaviour | 5.16 | 2.37 | 7 | 14 |
+| fertility related | 5.12 | 4.14 | 6 | 2 |
+| attitudes fertility | 5.06 | 5.21 | 9 | 1 |
+| influence fertility | 4.68 | 2.72 | 5 | 7 |
+| fertility childbearing | 4.4 | 3.34 | 4 | 3 |
+| birth cohorts | 4.34 | 3.05 | 4 | 4 |
+| reproductive behavior | 4.15 | 2.19 | 5 | 12 |
+| fertility sub | 4.14 | 2.65 | 4 | 6 |
+| childlessness | 4.09 | 1.1 | 15 | 110 |
+| low fertility | 4.05 | 0.93 | 20 | 175 |
+| birth | 4.02 | 0.9 | 21 | 190 |
+| fertility decline | 3.97 | 1.07 | 15 | 114 |
 
 ## `GENERIC_VALUES` — top by z
 
 | term | z | log-odds | gold | neg |
 |---|---|---|---|---|
-| cultural | 11.76 | 1.51 | 73 | 305 |
-| attitudes | 11.08 | 1.56 | 62 | 248 |
-| norms | 9.13 | 1.98 | 29 | 75 |
-| value children | 8.65 | 2.17 | 23 | 49 |
-| value | 8.37 | 1.54 | 36 | 146 |
-| gender attitudes | 6.76 | 2.31 | 13 | 24 |
-| second demographic | 6.36 | 1.29 | 28 | 146 |
-| ideals | 5.18 | 2.03 | 9 | 22 |
-| changing value | 5.13 | 3.6 | 6 | 3 |
-| attitude | 5.13 | 1.87 | 10 | 29 |
-| preferences | 4.26 | 1.13 | 16 | 99 |
-| ideals intentions | 3.87 | 4.28 | 4 | 1 |
-| beliefs | 3.53 | 1.19 | 10 | 58 |
-| values | 3.52 | 0.72 | 25 | 236 |
-| ideal number | 3.5 | 4.0 | 3 | 1 |
-| belief | 2.2 | 1.04 | 5 | 34 |
-| culture | 2.11 | 0.57 | 14 | 155 |
-| ideal | 1.75 | 0.91 | 4 | 31 |
-| preference | 1.4 | 0.72 | 4 | 38 |
-| preferences changing | 1.2 | 8.13 | 4 | 0 |
+| attitudes | 11.11 | 1.61 | 57 | 248 |
+| cultural | 9.73 | 1.39 | 56 | 305 |
+| norms | 9.49 | 2.08 | 28 | 75 |
+| value | 8.11 | 1.56 | 32 | 146 |
+| value children | 7.91 | 2.12 | 19 | 49 |
+| gender attitudes | 6.32 | 2.28 | 11 | 24 |
+| changing value | 5.33 | 3.74 | 6 | 3 |
+| second demographic | 5.04 | 1.15 | 21 | 146 |
+| preferences | 4.78 | 1.27 | 16 | 99 |
+| attitude | 4.52 | 1.79 | 8 | 29 |
+| beliefs | 3.94 | 1.33 | 10 | 58 |
+| values | 3.94 | 0.82 | 24 | 236 |
+| ideals | 3.89 | 1.77 | 6 | 22 |
+| ideal number | 3.62 | 4.14 | 3 | 1 |
+| culture | 2.62 | 0.71 | 14 | 155 |
+| ideal | 2.02 | 1.05 | 4 | 31 |
+| belief | 1.86 | 0.96 | 4 | 34 |
+| preferences changing | 1.22 | 8.26 | 4 | 0 |
+| preference | 1.0 | 0.58 | 3 | 38 |
 
 ## `S1_POSTMATERIALISM` — top by z
 
 | term | z | log-odds | gold | neg |
 |---|---|---|---|---|
-| ideational | 4.1 | 2.23 | 5 | 10 |
-| value orientation | 3.92 | 2.52 | 4 | 6 |
-| postmodern | 2.63 | 1.44 | 4 | 18 |
-| value orientations | 1.73 | 1.05 | 3 | 20 |
-| modernization | -0.01 | -0.01 | 3 | 62 |
+| value orientation | 4.14 | 2.65 | 4 | 6 |
+| ideational | 3.66 | 2.15 | 4 | 10 |
+| postmodern | 2.88 | 1.57 | 4 | 18 |
+| value orientations | 1.96 | 1.19 | 3 | 20 |
+| modernization | 0.24 | 0.13 | 3 | 62 |
 
 ## `S2_INDIVIDUALISM` — top by z
 
 | term | z | log-odds | gold | neg |
 |---|---|---|---|---|
-| autonomy | 6.28 | 2.58 | 10 | 14 |
-| female autonomy | 1.34 | 8.13 | 5 | 0 |
+| autonomy | 5.68 | 2.5 | 8 | 14 |
+| female autonomy | 1.06 | 8.26 | 3 | 0 |
 
 ## `S3_SECULARIZATION` — top by z
 
 | term | z | log-odds | gold | neg |
 |---|---|---|---|---|
-| religion | 16.64 | 1.61 | 132 | 503 |
-| religiosity | 11.79 | 1.88 | 52 | 149 |
-| affiliation | 9.55 | 2.97 | 21 | 20 |
-| religious affiliation | 8.95 | 3.24 | 18 | 13 |
-| religious | 7.96 | 1.05 | 64 | 432 |
-| religiousness | 7.51 | 3.68 | 13 | 6 |
-| muslim | 4.16 | 1.23 | 13 | 72 |
-| religious groups | 4.04 | 2.7 | 4 | 5 |
-| relationship religion | 4.04 | 2.7 | 4 | 5 |
-| religion education | 3.87 | 4.28 | 4 | 1 |
-| religion determinant | 3.79 | 2.36 | 4 | 7 |
-| muslims | 3.58 | 1.83 | 5 | 15 |
-| parental religiosity | 3.5 | 4.0 | 3 | 1 |
-| influence religious | 3.5 | 4.0 | 3 | 1 |
-| religion religiosity | 3.47 | 2.63 | 3 | 4 |
-| influence religion | 3.47 | 2.63 | 3 | 4 |
-| christian muslim | 3.32 | 2.41 | 3 | 5 |
-| religions | 3.27 | 1.33 | 7 | 35 |
-| muslim non | 3.18 | 2.23 | 3 | 6 |
-| non muslim | 3.18 | 2.23 | 3 | 6 |
+| religion | 11.87 | 1.35 | 88 | 503 |
+| religiosity | 10.47 | 1.81 | 42 | 149 |
+| affiliation | 8.83 | 2.9 | 17 | 20 |
+| religious affiliation | 8.17 | 3.13 | 14 | 13 |
+| religious | 7.42 | 1.04 | 55 | 432 |
+| religiousness | 4.77 | 2.87 | 5 | 6 |
+| religious groups | 4.25 | 2.83 | 4 | 5 |
+| religion religiosity | 3.65 | 2.77 | 3 | 4 |
+| influence religion | 3.65 | 2.77 | 3 | 4 |
+| parental religiosity | 3.62 | 4.14 | 3 | 1 |
+| religion education | 3.62 | 4.14 | 3 | 1 |
+| relationship religion | 3.51 | 2.55 | 3 | 5 |
+| catholics | 3.34 | 1.64 | 5 | 21 |
+| secularization | 3.16 | 0.99 | 11 | 91 |
+| religiosit | 3.11 | 2.09 | 3 | 8 |
+| religions | 3.04 | 1.32 | 6 | 35 |
+| muslim | 2.49 | 0.91 | 8 | 72 |
+| muslims | 2.36 | 1.47 | 3 | 15 |
+| faith | 2.34 | 1.09 | 5 | 37 |
+| islam | 1.37 | 0.81 | 3 | 30 |
 
 ## `BOTH` — top by z
 
 | term | z | log-odds | gold | neg |
 |---|---|---|---|---|
-| voluntary childlessness | 6.47 | 2.49 | 11 | 17 |
-| fertility preferences | 5.58 | 1.96 | 11 | 29 |
-| religion fertility | 4.25 | 8.13 | 50 | 0 |
-| postmodern fertility | 4.19 | 3.6 | 4 | 2 |
-| fertility religion | 2.62 | 8.13 | 19 | 0 |
-| religiosity fertility | 2.33 | 8.13 | 15 | 0 |
-| religiousness fertility | 1.9 | 8.13 | 10 | 0 |
-| affiliation fertility | 1.47 | 8.13 | 6 | 0 |
-| fertility muslim | 1.2 | 8.13 | 4 | 0 |
-| autonomy fertility | 1.2 | 8.13 | 4 | 0 |
-| secularity fertility | 1.04 | 8.13 | 3 | 0 |
+| fertility preferences | 5.98 | 2.1 | 11 | 29 |
+| voluntary childlessness | 5.93 | 2.43 | 9 | 17 |
+| postmodern fertility | 4.35 | 3.74 | 4 | 2 |
+| religion fertility | 3.62 | 8.26 | 35 | 0 |
+| religiosity fertility | 2.21 | 8.26 | 13 | 0 |
+| fertility religion | 1.94 | 8.26 | 10 | 0 |
+| affiliation fertility | 1.22 | 8.26 | 4 | 0 |
+| fertility muslim | 1.22 | 8.26 | 4 | 0 |
+| religiousness fertility | 1.06 | 8.26 | 3 | 0 |
 
 ## `OTHER` — top by z
 
 | term | z | log-odds | gold | neg |
 |---|---|---|---|---|
-| intentions | 7.6 | 1.33 | 38 | 191 |
-| influence | 7.03 | 1.4 | 30 | 141 |
-| marital | 6.83 | 1.38 | 29 | 139 |
-| children | 6.39 | 0.96 | 48 | 353 |
-| cultural dynamics | 6.3 | 4.1 | 10 | 3 |
-| economic theories | 6.23 | 3.72 | 9 | 4 |
-| voluntary | 5.45 | 1.89 | 11 | 31 |
-| cross cultural | 5.19 | 1.68 | 12 | 42 |
-| behaviour | 5.14 | 1.27 | 19 | 102 |
-| demographic transition | 5.04 | 0.94 | 31 | 232 |
-| dynamics economic | 4.93 | 5.07 | 9 | 1 |
-| second | 4.91 | 0.93 | 30 | 227 |
-| theories | 4.88 | 1.42 | 14 | 64 |
-| decline | 4.74 | 0.93 | 28 | 212 |
-| roles | 4.68 | 1.65 | 10 | 36 |
-| related | 4.66 | 1.47 | 12 | 52 |
-| female | 4.64 | 1.24 | 16 | 88 |
-| united states | 4.45 | 0.91 | 26 | 202 |
-| 1860 | 4.44 | 2.58 | 5 | 7 |
-| 1985 | 4.38 | 1.75 | 8 | 26 |
+| intentions | 6.42 | 1.24 | 30 | 191 |
+| children | 6.31 | 1.0 | 43 | 353 |
+| roles | 5.07 | 1.79 | 10 | 36 |
+| marital | 4.92 | 1.15 | 20 | 139 |
+| voluntary | 4.9 | 1.84 | 9 | 31 |
+| influence | 4.87 | 1.14 | 20 | 141 |
+| behaviour | 4.68 | 1.24 | 16 | 102 |
+| iranian women | 4.35 | 3.74 | 4 | 2 |
+| intentions chinese | 4.34 | 3.05 | 4 | 4 |
+| behavior | 4.09 | 0.94 | 20 | 173 |
+| 1930 | 4.05 | 2.11 | 5 | 13 |
+| disentangling | 4.02 | 2.5 | 4 | 7 |
+| demographic transition | 4.02 | 0.84 | 24 | 232 |
+| 1860 | 4.02 | 2.5 | 4 | 7 |
+| stockholm | 3.9 | 2.37 | 4 | 8 |
+| cultural factors | 3.9 | 2.37 | 4 | 8 |
+| decline | 3.86 | 0.84 | 22 | 212 |
+| conservative | 3.85 | 1.97 | 5 | 15 |
+| second | 3.84 | 0.82 | 23 | 227 |
+| cultural comparison | 3.81 | 3.46 | 3 | 2 |
 
 ---
 
@@ -166,13 +163,13 @@ Terms flagged as clinical/veterinary collision: **0** — see the exclusion note
 
 | pair | discriminative terms | strongest term |
 |---|---|---|
-| `S1_POSTMATERIALISM` | **5** | `ideational` (z 4.1) |
-| `S2_INDIVIDUALISM` | **2** | `autonomy` (z 6.28) |
-| `S3_SECULARIZATION` | **44** | `religion` (z 16.64) |
+| `S1_POSTMATERIALISM` | **5** | `value orientation` (z 4.14) |
+| `S2_INDIVIDUALISM` | **2** | `autonomy` (z 5.68) |
+| `S3_SECULARIZATION` | **28** | `religion` (z 11.87) |
 | `S4_CHILDLESSNESS_NORM` | **0** | — |
 | `S5_CONSUMERISM` | **0** | — |
 
-S3 carries 44 terms topping out at z 16.64; S1's best term reaches 4.1. This is the scope's 'expected shape of the evidence' confirmed by an independent measurement, and it is stronger than the scope predicted.
+S3 carries 28 terms topping out at z 11.87; S1's best term reaches 4.14. This is the scope's 'expected shape of the evidence' confirmed by an independent measurement, and it is stronger than the scope predicted.
 
 **Consequence for A6b, and it is the same move D.3.b made for its rare cells.** A query built only on mined terms would be an S3 query with a generic-values annex: S1 and S2 would be reachable only through `GENERIC_VALUES` plus the outcome axis, and S4 and S5 not at all. S4 and S5 therefore need **forced a-priori backbones** rather than mined expansions, exactly as D.3.b forced its carbon-ethics cluster because it was 'conceptually central and empirically rare, so it is forced in rather than left to the mined ranking, which would never surface it.'
 
@@ -180,12 +177,11 @@ S3 carries 44 terms topping out at z 16.64; S1's best term reaches 4.1. This is 
 
 Ruling 2 pre-registered the degenerate-pair rule: when the treatment measure and the outcome measure are the same construct, there is no pair. S4's vocabulary is that rule made visible — **every childlessness term in the ranked set classifies as `OUTCOME` or `BOTH`, and none as a pure treatment term**, because there is no S4 treatment word that is not also the outcome word:
 
-- `voluntary childlessness` → `BOTH` (z 6.47, gold 11)
-- `childlessness` → `OUTCOME` (z 4.56, gold 18)
-- `childlessness europe` → `OUTCOME` (z 2.9, gold 3)
-- `attitudes childlessness` → `OUTCOME` (z 1.2, gold 4)
-- `childlessness united` → `OUTCOME` (z 1.2, gold 4)
-- `childless` → `OUTCOME` (z 0.07, gold 3)
+- `voluntary childlessness` → `BOTH` (z 5.93, gold 9)
+- `childlessness` → `OUTCOME` (z 4.09, gold 15)
+- `attitudes childlessness` → `OUTCOME` (z 1.06, gold 3)
+- `childlessness united` → `OUTCOME` (z 1.06, gold 3)
+- `childless` → `OUTCOME` (z 0.32, gold 3)
 
 A pre-registered ruling confirmed by an independent measurement is worth more than either alone, and this belongs in the chapter's methods section.
 
@@ -193,18 +189,13 @@ A pre-registered ruling confirmed by an independent measurement is worth more th
 
 Terms with **zero** occurrences in 9,972 negatives and five or more in the positives. These are the outcome × treatment bigrams, and they are why the production query is a conjunction rather than a union of two term lists:
 
-- `religion fertility` — gold 50, neg 0
-- `fertility religion` — gold 19, neg 0
-- `religiosity fertility` — gold 15, neg 0
-- `religion influence` — gold 11, neg 0
-- `religiousness fertility` — gold 10, neg 0
-- `religion religiousness` — gold 9, neg 0
-- `attitudes childbearing` — gold 8, neg 0
+- `religion fertility` — gold 35, neg 0
+- `religiosity fertility` — gold 13, neg 0
+- `fertility religion` — gold 10, neg 0
 - `fertility norms` — gold 7, neg 0
-- `spain 1985` — gold 7, neg 0
-- `religion spain` — gold 7, neg 0
-- `1985 1999` — gold 7, neg 0
+- `attitudes childbearing` — gold 7, neg 0
 - `values fertility` — gold 6, neg 0
+- `norms fertility` — gold 5, neg 0
 
 **Not all of these are real, and the list shows its own tell.** `spain 1985`, `1985 1999` and `religion spain` separate perfectly at gold 7 because they come from one study's citation neighbourhood, not because they are query vocabulary — perfect separation at a low gold count is the signature of a single-cluster artifact rather than of a discriminating term. This is precisely why A6a's ranking is **not** the production query: A6b re-mines fold-locally and measures recall on held-out folds, where a term carried by one study in the training fold earns nothing on the papers it has never seen.
 

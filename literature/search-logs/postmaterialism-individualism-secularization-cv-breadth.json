@@ -1,0 +1,2720 @@
+{
+ "slug": "postmaterialism-individualism-secularization",
+ "k_folds": 10,
+ "seed": 733,
+ "grid_outcome": [
+  0,
+  3,
+  6,
+  10,
+  15,
+  20
+ ],
+ "grid_treatment": [
+  0,
+  3,
+  6,
+  10,
+  15,
+  20,
+  30,
+  45
+ ],
+ "gold_n": 412,
+ "best": {
+  "n_out": 20,
+  "n_trt": 15,
+  "recall": 0.9248,
+  "hit": 381,
+  "tot": 412,
+  "recall_A_only": 0.8947,
+  "recall_B_only": 0.9239,
+  "recall_both_channels": 1.0,
+  "n_A_only": 19,
+  "n_B_only": 381,
+  "n_both": 12,
+  "recall_tier1_design": 1.0,
+  "n_tier1_design": 3,
+  "recall_by_pair": {
+   "S1_POSTMATERIALISM": {
+    "recall": 0.8,
+    "n": 5
+   },
+   "S2_INDIVIDUALISM": {
+    "recall": 1.0,
+    "n": 1
+   },
+   "S3_SECULARIZATION": {
+    "recall": 1.0,
+    "n": 23
+   },
+   "S5_CONSUMERISM": {
+    "recall": 0.5,
+    "n": 2
+   }
+  },
+  "miss": {
+   "both_blocks": 1,
+   "outcome_block": 18,
+   "treatment_block": 12
+  },
+  "cluster_credit": {
+   "S1_POSTMATERIALISM": 13,
+   "S2_INDIVIDUALISM": 10,
+   "S3_SECULARIZATION": 173,
+   "S4_CHILDLESSNESS_NORM": 12,
+   "S5_CONSUMERISM": 1,
+   "GENERIC_VALUES": 221
+  },
+  "cluster_sole_credit": {
+   "S1_POSTMATERIALISM": 3,
+   "S2_INDIVIDUALISM": 7,
+   "S3_SECULARIZATION": 147,
+   "S4_CHILDLESSNESS_NORM": 0,
+   "S5_CONSUMERISM": 1,
+   "GENERIC_VALUES": 177
+  }
+ },
+ "chosen": {
+  "n_out": 20,
+  "n_trt": 10,
+  "recall": 0.9223,
+  "hit": 380,
+  "tot": 412,
+  "recall_A_only": 0.8947,
+  "recall_B_only": 0.9213,
+  "recall_both_channels": 1.0,
+  "n_A_only": 19,
+  "n_B_only": 381,
+  "n_both": 12,
+  "recall_tier1_design": 1.0,
+  "n_tier1_design": 3,
+  "recall_by_pair": {
+   "S1_POSTMATERIALISM": {
+    "recall": 0.8,
+    "n": 5
+   },
+   "S2_INDIVIDUALISM": {
+    "recall": 1.0,
+    "n": 1
+   },
+   "S3_SECULARIZATION": {
+    "recall": 1.0,
+    "n": 23
+   },
+   "S5_CONSUMERISM": {
+    "recall": 0.5,
+    "n": 2
+   }
+  },
+  "miss": {
+   "both_blocks": 1,
+   "outcome_block": 18,
+   "treatment_block": 13
+  },
+  "cluster_credit": {
+   "S1_POSTMATERIALISM": 13,
+   "S2_INDIVIDUALISM": 10,
+   "S3_SECULARIZATION": 173,
+   "S4_CHILDLESSNESS_NORM": 12,
+   "S5_CONSUMERISM": 1,
+   "GENERIC_VALUES": 218
+  },
+  "cluster_sole_credit": {
+   "S1_POSTMATERIALISM": 3,
+   "S2_INDIVIDUALISM": 7,
+   "S3_SECULARIZATION": 149,
+   "S4_CHILDLESSNESS_NORM": 0,
+   "S5_CONSUMERISM": 1,
+   "GENERIC_VALUES": 176
+  }
+ },
+ "results": [
+  {
+   "n_out": 0,
+   "n_trt": 0,
+   "recall": 0.8204,
+   "hit": 338,
+   "tot": 412,
+   "recall_A_only": 0.8421,
+   "recall_B_only": 0.8163,
+   "recall_both_channels": 0.9167,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.6,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 0.9565,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "treatment_block": 50,
+    "both_blocks": 4,
+    "outcome_block": 20
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 171
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 7,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 148,
+    "S4_CHILDLESSNESS_NORM": 1,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 138
+   }
+  },
+  {
+   "n_out": 0,
+   "n_trt": 3,
+   "recall": 0.8908,
+   "hit": 367,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.8871,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "both_blocks": 1,
+    "outcome_block": 23,
+    "treatment_block": 21
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 204
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 6,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 146,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 167
+   }
+  },
+  {
+   "n_out": 0,
+   "n_trt": 6,
+   "recall": 0.9005,
+   "hit": 371,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.8976,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "both_blocks": 1,
+    "outcome_block": 23,
+    "treatment_block": 17
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 212
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 3,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 146,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 171
+   }
+  },
+  {
+   "n_out": 0,
+   "n_trt": 10,
+   "recall": 0.9102,
+   "hit": 375,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.9081,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "both_blocks": 1,
+    "outcome_block": 23,
+    "treatment_block": 13
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 216
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 3,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 146,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 175
+   }
+  },
+  {
+   "n_out": 0,
+   "n_trt": 15,
+   "recall": 0.9126,
+   "hit": 376,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.9108,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "both_blocks": 1,
+    "outcome_block": 23,
+    "treatment_block": 12
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 219
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 3,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 144,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 176
+   }
+  },
+  {
+   "n_out": 0,
+   "n_trt": 20,
+   "recall": 0.9126,
+   "hit": 376,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.9108,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "both_blocks": 1,
+    "outcome_block": 23,
+    "treatment_block": 12
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 221
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 3,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 142,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 176
+   }
+  },
+  {
+   "n_out": 0,
+   "n_trt": 30,
+   "recall": 0.9126,
+   "hit": 376,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.9108,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "both_blocks": 1,
+    "outcome_block": 23,
+    "treatment_block": 12
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 221
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 3,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 142,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 176
+   }
+  },
+  {
+   "n_out": 0,
+   "n_trt": 45,
+   "recall": 0.9126,
+   "hit": 376,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.9108,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "outcome_block": 24,
+    "treatment_block": 12
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 221
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 3,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 142,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 176
+   }
+  },
+  {
+   "n_out": 3,
+   "n_trt": 0,
+   "recall": 0.8204,
+   "hit": 338,
+   "tot": 412,
+   "recall_A_only": 0.8421,
+   "recall_B_only": 0.8163,
+   "recall_both_channels": 0.9167,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.6,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 0.9565,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "treatment_block": 50,
+    "both_blocks": 4,
+    "outcome_block": 20
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 171
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 7,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 148,
+    "S4_CHILDLESSNESS_NORM": 1,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 138
+   }
+  },
+  {
+   "n_out": 3,
+   "n_trt": 3,
+   "recall": 0.8908,
+   "hit": 367,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.8871,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "both_blocks": 1,
+    "outcome_block": 23,
+    "treatment_block": 21
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 204
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 6,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 146,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 167
+   }
+  },
+  {
+   "n_out": 3,
+   "n_trt": 6,
+   "recall": 0.9005,
+   "hit": 371,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.8976,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "both_blocks": 1,
+    "outcome_block": 23,
+    "treatment_block": 17
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 212
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 3,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 146,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 171
+   }
+  },
+  {
+   "n_out": 3,
+   "n_trt": 10,
+   "recall": 0.9102,
+   "hit": 375,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.9081,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "both_blocks": 1,
+    "outcome_block": 23,
+    "treatment_block": 13
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 216
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 3,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 146,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 175
+   }
+  },
+  {
+   "n_out": 3,
+   "n_trt": 15,
+   "recall": 0.9126,
+   "hit": 376,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.9108,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "both_blocks": 1,
+    "outcome_block": 23,
+    "treatment_block": 12
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 219
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 3,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 144,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 176
+   }
+  },
+  {
+   "n_out": 3,
+   "n_trt": 20,
+   "recall": 0.9126,
+   "hit": 376,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.9108,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "both_blocks": 1,
+    "outcome_block": 23,
+    "treatment_block": 12
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 221
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 3,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 142,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 176
+   }
+  },
+  {
+   "n_out": 3,
+   "n_trt": 30,
+   "recall": 0.9126,
+   "hit": 376,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.9108,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "both_blocks": 1,
+    "outcome_block": 23,
+    "treatment_block": 12
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 221
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 3,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 142,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 176
+   }
+  },
+  {
+   "n_out": 3,
+   "n_trt": 45,
+   "recall": 0.9126,
+   "hit": 376,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.9108,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "outcome_block": 24,
+    "treatment_block": 12
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 221
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 3,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 142,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 176
+   }
+  },
+  {
+   "n_out": 6,
+   "n_trt": 0,
+   "recall": 0.8204,
+   "hit": 338,
+   "tot": 412,
+   "recall_A_only": 0.8421,
+   "recall_B_only": 0.8163,
+   "recall_both_channels": 0.9167,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.6,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 0.9565,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "treatment_block": 50,
+    "both_blocks": 4,
+    "outcome_block": 20
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 171
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 7,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 148,
+    "S4_CHILDLESSNESS_NORM": 1,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 138
+   }
+  },
+  {
+   "n_out": 6,
+   "n_trt": 3,
+   "recall": 0.8908,
+   "hit": 367,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.8871,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "both_blocks": 1,
+    "outcome_block": 23,
+    "treatment_block": 21
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 204
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 6,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 146,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 167
+   }
+  },
+  {
+   "n_out": 6,
+   "n_trt": 6,
+   "recall": 0.9005,
+   "hit": 371,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.8976,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "both_blocks": 1,
+    "outcome_block": 23,
+    "treatment_block": 17
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 212
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 3,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 146,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 171
+   }
+  },
+  {
+   "n_out": 6,
+   "n_trt": 10,
+   "recall": 0.9102,
+   "hit": 375,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.9081,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "both_blocks": 1,
+    "outcome_block": 23,
+    "treatment_block": 13
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 216
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 3,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 146,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 175
+   }
+  },
+  {
+   "n_out": 6,
+   "n_trt": 15,
+   "recall": 0.9126,
+   "hit": 376,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.9108,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "both_blocks": 1,
+    "outcome_block": 23,
+    "treatment_block": 12
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 219
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 3,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 144,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 176
+   }
+  },
+  {
+   "n_out": 6,
+   "n_trt": 20,
+   "recall": 0.9126,
+   "hit": 376,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.9108,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "both_blocks": 1,
+    "outcome_block": 23,
+    "treatment_block": 12
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 221
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 3,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 142,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 176
+   }
+  },
+  {
+   "n_out": 6,
+   "n_trt": 30,
+   "recall": 0.9126,
+   "hit": 376,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.9108,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "both_blocks": 1,
+    "outcome_block": 23,
+    "treatment_block": 12
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 221
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 3,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 142,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 176
+   }
+  },
+  {
+   "n_out": 6,
+   "n_trt": 45,
+   "recall": 0.9126,
+   "hit": 376,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.9108,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "outcome_block": 24,
+    "treatment_block": 12
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 221
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 3,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 142,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 176
+   }
+  },
+  {
+   "n_out": 10,
+   "n_trt": 0,
+   "recall": 0.8204,
+   "hit": 338,
+   "tot": 412,
+   "recall_A_only": 0.8421,
+   "recall_B_only": 0.8163,
+   "recall_both_channels": 0.9167,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.6,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 0.9565,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "treatment_block": 50,
+    "both_blocks": 4,
+    "outcome_block": 20
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 171
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 7,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 148,
+    "S4_CHILDLESSNESS_NORM": 1,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 138
+   }
+  },
+  {
+   "n_out": 10,
+   "n_trt": 3,
+   "recall": 0.8908,
+   "hit": 367,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.8871,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "both_blocks": 1,
+    "outcome_block": 23,
+    "treatment_block": 21
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 204
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 6,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 146,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 167
+   }
+  },
+  {
+   "n_out": 10,
+   "n_trt": 6,
+   "recall": 0.9005,
+   "hit": 371,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.8976,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "both_blocks": 1,
+    "outcome_block": 23,
+    "treatment_block": 17
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 212
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 3,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 146,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 171
+   }
+  },
+  {
+   "n_out": 10,
+   "n_trt": 10,
+   "recall": 0.9102,
+   "hit": 375,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.9081,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "both_blocks": 1,
+    "outcome_block": 23,
+    "treatment_block": 13
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 216
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 3,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 146,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 175
+   }
+  },
+  {
+   "n_out": 10,
+   "n_trt": 15,
+   "recall": 0.9126,
+   "hit": 376,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.9108,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "both_blocks": 1,
+    "outcome_block": 23,
+    "treatment_block": 12
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 219
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 3,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 144,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 176
+   }
+  },
+  {
+   "n_out": 10,
+   "n_trt": 20,
+   "recall": 0.9126,
+   "hit": 376,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.9108,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "both_blocks": 1,
+    "outcome_block": 23,
+    "treatment_block": 12
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 221
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 3,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 142,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 176
+   }
+  },
+  {
+   "n_out": 10,
+   "n_trt": 30,
+   "recall": 0.9126,
+   "hit": 376,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.9108,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "both_blocks": 1,
+    "outcome_block": 23,
+    "treatment_block": 12
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 221
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 3,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 142,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 176
+   }
+  },
+  {
+   "n_out": 10,
+   "n_trt": 45,
+   "recall": 0.9126,
+   "hit": 376,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.9108,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "outcome_block": 24,
+    "treatment_block": 12
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 221
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 3,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 142,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 176
+   }
+  },
+  {
+   "n_out": 15,
+   "n_trt": 0,
+   "recall": 0.8204,
+   "hit": 338,
+   "tot": 412,
+   "recall_A_only": 0.8421,
+   "recall_B_only": 0.8163,
+   "recall_both_channels": 0.9167,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.6,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 0.9565,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "treatment_block": 50,
+    "both_blocks": 4,
+    "outcome_block": 20
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 171
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 7,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 148,
+    "S4_CHILDLESSNESS_NORM": 1,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 138
+   }
+  },
+  {
+   "n_out": 15,
+   "n_trt": 3,
+   "recall": 0.8908,
+   "hit": 367,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.8871,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "both_blocks": 1,
+    "outcome_block": 23,
+    "treatment_block": 21
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 204
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 6,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 146,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 167
+   }
+  },
+  {
+   "n_out": 15,
+   "n_trt": 6,
+   "recall": 0.9005,
+   "hit": 371,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.8976,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "both_blocks": 1,
+    "outcome_block": 23,
+    "treatment_block": 17
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 212
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 3,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 146,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 171
+   }
+  },
+  {
+   "n_out": 15,
+   "n_trt": 10,
+   "recall": 0.9102,
+   "hit": 375,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.9081,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "both_blocks": 1,
+    "outcome_block": 23,
+    "treatment_block": 13
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 216
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 3,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 146,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 175
+   }
+  },
+  {
+   "n_out": 15,
+   "n_trt": 15,
+   "recall": 0.9126,
+   "hit": 376,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.9108,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "both_blocks": 1,
+    "outcome_block": 23,
+    "treatment_block": 12
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 219
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 3,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 144,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 176
+   }
+  },
+  {
+   "n_out": 15,
+   "n_trt": 20,
+   "recall": 0.9126,
+   "hit": 376,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.9108,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "both_blocks": 1,
+    "outcome_block": 23,
+    "treatment_block": 12
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 221
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 3,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 142,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 176
+   }
+  },
+  {
+   "n_out": 15,
+   "n_trt": 30,
+   "recall": 0.9126,
+   "hit": 376,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.9108,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "both_blocks": 1,
+    "outcome_block": 23,
+    "treatment_block": 12
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 221
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 3,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 142,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 176
+   }
+  },
+  {
+   "n_out": 15,
+   "n_trt": 45,
+   "recall": 0.9126,
+   "hit": 376,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.9108,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "outcome_block": 24,
+    "treatment_block": 12
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 169,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 221
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 3,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 142,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 176
+   }
+  },
+  {
+   "n_out": 20,
+   "n_trt": 0,
+   "recall": 0.8325,
+   "hit": 343,
+   "tot": 412,
+   "recall_A_only": 0.8421,
+   "recall_B_only": 0.8294,
+   "recall_both_channels": 0.9167,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.6,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 0.9565,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "treatment_block": 50,
+    "both_blocks": 4,
+    "outcome_block": 15
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 173,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 172
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 7,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 152,
+    "S4_CHILDLESSNESS_NORM": 1,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 139
+   }
+  },
+  {
+   "n_out": 20,
+   "n_trt": 3,
+   "recall": 0.9029,
+   "hit": 372,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.9003,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "both_blocks": 1,
+    "outcome_block": 18,
+    "treatment_block": 21
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 173,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 206
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 6,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 149,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 168
+   }
+  },
+  {
+   "n_out": 20,
+   "n_trt": 6,
+   "recall": 0.9126,
+   "hit": 376,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.9108,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "both_blocks": 1,
+    "outcome_block": 18,
+    "treatment_block": 17
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 173,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 214
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 3,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 149,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 172
+   }
+  },
+  {
+   "n_out": 20,
+   "n_trt": 10,
+   "recall": 0.9223,
+   "hit": 380,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.9213,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "both_blocks": 1,
+    "outcome_block": 18,
+    "treatment_block": 13
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 173,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 218
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 3,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 149,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 176
+   }
+  },
+  {
+   "n_out": 20,
+   "n_trt": 15,
+   "recall": 0.9248,
+   "hit": 381,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.9239,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "both_blocks": 1,
+    "outcome_block": 18,
+    "treatment_block": 12
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 173,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 221
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 3,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 147,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 177
+   }
+  },
+  {
+   "n_out": 20,
+   "n_trt": 20,
+   "recall": 0.9248,
+   "hit": 381,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.9239,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "both_blocks": 1,
+    "outcome_block": 18,
+    "treatment_block": 12
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 173,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 223
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 3,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 145,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 177
+   }
+  },
+  {
+   "n_out": 20,
+   "n_trt": 30,
+   "recall": 0.9248,
+   "hit": 381,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.9239,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "both_blocks": 1,
+    "outcome_block": 18,
+    "treatment_block": 12
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 173,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 223
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 3,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 145,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 177
+   }
+  },
+  {
+   "n_out": 20,
+   "n_trt": 45,
+   "recall": 0.9248,
+   "hit": 381,
+   "tot": 412,
+   "recall_A_only": 0.8947,
+   "recall_B_only": 0.9239,
+   "recall_both_channels": 1.0,
+   "n_A_only": 19,
+   "n_B_only": 381,
+   "n_both": 12,
+   "recall_tier1_design": 1.0,
+   "n_tier1_design": 3,
+   "recall_by_pair": {
+    "S1_POSTMATERIALISM": {
+     "recall": 0.8,
+     "n": 5
+    },
+    "S2_INDIVIDUALISM": {
+     "recall": 1.0,
+     "n": 1
+    },
+    "S3_SECULARIZATION": {
+     "recall": 1.0,
+     "n": 23
+    },
+    "S5_CONSUMERISM": {
+     "recall": 0.5,
+     "n": 2
+    }
+   },
+   "miss": {
+    "outcome_block": 19,
+    "treatment_block": 12
+   },
+   "cluster_credit": {
+    "S1_POSTMATERIALISM": 13,
+    "S2_INDIVIDUALISM": 10,
+    "S3_SECULARIZATION": 173,
+    "S4_CHILDLESSNESS_NORM": 12,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 223
+   },
+   "cluster_sole_credit": {
+    "S1_POSTMATERIALISM": 3,
+    "S2_INDIVIDUALISM": 7,
+    "S3_SECULARIZATION": 145,
+    "S4_CHILDLESSNESS_NORM": 0,
+    "S5_CONSUMERISM": 1,
+    "GENERIC_VALUES": 177
+   }
+  }
+ ]
+}

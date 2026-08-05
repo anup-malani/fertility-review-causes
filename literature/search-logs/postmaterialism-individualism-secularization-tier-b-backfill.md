@@ -4,10 +4,12 @@ Run by `99_d1a_backfill_gold.py` against Crossref, repairing two defects found b
 
 | | before | after |
 |---|---|---|
-| records with a DOI | 385 | **416** |
-| records with an abstract | 178 (36%) | **251 (50%)** |
+| records with a DOI | 385 | **321** |
+| records with an abstract | 178 (35%) | **202 (50%)** |
 | titles that are really citation strings | 27 | **22** |
+| distinct works after post-enrichment dedup | 495 | **400** |
 
+- duplicate works removed by pass 3: **95** — enrichment rewrites titles to the provider's canonical form, so records that were distinct strings when `98_` deduplicated become the same work afterwards. This inflated the Tier-B count, the A6a positive class, the A6b recall denominator, and the round-2 saturation yield.
 - DOIs recovered by bibliographic query: **31** of 110 attempted
 - of those, citation strings replaced with the real title: **5**
 - abstracts added: **73**

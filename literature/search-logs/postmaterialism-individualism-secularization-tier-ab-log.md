@@ -29,32 +29,15 @@ Built by `98_d1a_assemble_gold.py`. Enriched on Semantic Scholar's batch endpoin
 
 ## Post-backfill state (the frozen numbers)
 
-`99_d1a_backfill_gold.py` rewrites the Tier-B frame in place after this script builds it. **The run
-order `98_` then `99_` is binding** — 98 alone silently reverts the backfill and the frame still looks
-complete. Both are cached and idempotent, so the pair reproduces the frozen artifact exactly.
+Appended by `99_d1a_backfill_gold.py`. **Run order `98_` then `99_` is binding** — 98 rewrites this file and the frame from scratch, so 98 alone reverts everything below. Both are cached and idempotent.
 
 | Tier B | at assembly | frozen |
 |---|---|---|
-| records | 495 | 495 |
-| with a DOI | 385 | **416** |
-| with an abstract | 178 (36%) | **251 (51%)** |
-| titles that were really citation strings | 27 | **22** |
+| records | 495 | **400** |
+| with a DOI | 385 | **321** |
+| with an abstract | 178 | **202** (50%) |
+| titles that are really citation strings | 27 | **22** |
 
-## What the unresolvable residue actually is, and why it is kept
+**95 duplicate works removed post-enrichment.** `98_` deduplicates on the raw snowball title and enrichment then rewrites titles to the provider's canonical form, so records that were distinct strings at dedup time become the same work afterwards — case variants, British against American spelling, and a book indexed once with and once without its author suffix. This inflated the Tier-B count, the A6a positive class, the A6b recall denominator, and the round-2 saturation yield. It can only be caught after enrichment, because before it the two strings genuinely differ.
 
-79 of the 110 records without a DOI were **refused** by the resolution guard and are kept in the frame
-and in the recall denominator, keyed on their original string. A hand read of the refusals shows they
-are overwhelmingly **book chapters, regional and non-English journals, dissertations, and conference
-papers** — Crossref does not hold them, and no threshold change would recover them. This is the fourth
-independent appearance of the same non-Anglo-European, non-journal indexing gap on this chapter, after
-the AJRH unregistered DOI in `91_`, the `NOT_INDEXED` regional reviews in `96_`, and the
-Dutch-language Lesthaeghe and van de Kaa 1986 that three providers could not resolve. It runs in the
-same direction as the scope's geographic-skew limitation and should be carried into §10.
-
-**The guard's threshold is calibrated, and the rejected sample is what shows it.** The clearest case:
-*"Attitudes toward fertility and childbearing among childless female teachers ... in Gorgan"* drew a
-Crossref candidate titled *"Attitudes toward fertility and childbearing among female University
-students"* at containment **0.78**, just under the 0.80 bar. Same title family, same year, **different
-study and different population**. Relaxing the threshold to 0.75 to lift the recovery rate would have
-assigned that record the wrong DOI — which is precisely how the OAS run acquired a 40%-ghost Tier B.
-A low recovery rate is the correct outcome when the records genuinely are not indexed.
+**79 of 110 no-DOI records were refused by the resolution guard and are kept**, keyed on their original string, because dropping them biases recall toward easy-to-find papers. A hand read shows the residue is book chapters, regional and non-English journals, dissertations and conference papers that Crossref does not hold — the fourth appearance of the same indexing gap on this chapter. The threshold is calibrated rather than merely strict: one refusal at containment 0.78 was a different study with an almost identical title, so relaxing the bar to lift the recovery rate would have assigned a wrong DOI.

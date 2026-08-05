@@ -97,6 +97,10 @@ def year_of(item):
 def main():
     frame = json.load(open(FRAME))
     recovered, abstracts_added, refused = [], 0, []
+    # Captured, not hardcoded: this script is idempotent and re-runs must report the real baseline.
+    b0 = {"n": len(frame), "doi": sum(1 for r in frame if r.get("doi")),
+          "abs": sum(1 for r in frame if r.get("abstract")),
+          "cit": sum(1 for r in frame if CIT_STRING.search(r.get("title") or ""))}
 
     # ---- pass 1: records with no DOI, resolved by bibliographic query -----------------------
     nodoi = [r for r in frame if not r.get("doi")]
@@ -152,6 +156,50 @@ def main():
             FETCH.save()
     FETCH.save()
 
+    # ---- pass 3: re-deduplicate AFTER enrichment ---------------------------------------------
+    # DEFECT 3, and it is an ordering bug rather than a data one. `98_` deduplicates on the RAW
+    # snowball title and then enrichment rewrites titles to the provider's canonical form, so two
+    # records that were distinct strings before enrichment become the same work after it. The frame
+    # carried 95 such pairs: "Religion and fertility: the French connection" against "...The French
+    # connection", "Postmodern fertility preferences: from changing value orientation to new
+    # behaviour" against the American spelling, and a book indexed once with and once without its
+    # "by Philip Jenkins" suffix.
+    #
+    # It inflates everything computed downstream of the frame -- the Tier-B count, the A6a positive
+    # class, and the A6b recall denominator -- and it inflates the round-2 saturation yield, because
+    # a duplicate counts as a new relevant record. Deduplicating post-enrichment is the only place
+    # this can be caught: before enrichment the two strings genuinely differ.
+    #
+    # Provenance is MERGED rather than discarded. A record reached from two seeds is evidence about
+    # the frame's connectivity, and dropping the second copy's `seen_from` would understate it.
+    by_key, order = {}, []
+    for r in frame:
+        k = re.sub(r"\s+", " ", re.sub(r"[^a-z0-9\s]", " ", (r.get("title") or "").lower())).strip()
+        if not k:
+            k = f"__notitle__{len(order)}"
+        if k in by_key:
+            keep = by_key[k]
+            keep["seen_from"] = sorted(set((keep.get("seen_from") or [])
+                                           + (r.get("seen_from") or [])))
+            keep["duplicate_titles"] = sorted(set(keep.get("duplicate_titles", [])
+                                                  + [r.get("title")]) - {keep.get("title")})
+            # Prefer the copy that actually resolved, and the richer record where both did.
+            if keep["resolution"] == "TITLE_KEYED_UNRESOLVED" and r["resolution"] != keep["resolution"]:
+                r["seen_from"], r["duplicate_titles"] = keep["seen_from"], keep["duplicate_titles"]
+                by_key[k] = r
+            elif not keep.get("abstract") and r.get("abstract"):
+                keep["abstract"] = r["abstract"]
+            if not keep.get("doi") and r.get("doi"):
+                keep["doi"] = r["doi"]
+            continue
+        by_key[k] = r
+        order.append(k)
+    n_before = len(frame)
+    frame = [by_key[k] for k in order]
+    n_dupes = n_before - len(frame)
+    print(f"pass 3: post-enrichment dedup removed {n_dupes} duplicate works "
+          f"({n_before} -> {len(frame)})", file=sys.stderr)
+
     json.dump(frame, open(FRAME, "w"), indent=1)
 
     still_cit = [r for r in frame if CIT_STRING.search(r["title"] or "")]
@@ -161,9 +209,15 @@ def main():
          "Run by `99_d1a_backfill_gold.py` against Crossref, repairing two defects found by "
          "inspecting the assembled frame rather than reported by the assembly.", "",
          "| | before | after |", "|---|---|---|",
-         f"| records with a DOI | 385 | **{with_doi}** |",
-         f"| records with an abstract | 178 (36%) | **{with_ab} ({100 * with_ab // len(frame)}%)** |",
-         f"| titles that are really citation strings | 27 | **{len(still_cit)}** |", "",
+         f"| records with a DOI | {b0['doi']} | **{with_doi}** |",
+         f"| records with an abstract | {b0['abs']} ({100 * b0['abs'] // b0['n']}%) | "
+         f"**{with_ab} ({100 * with_ab // len(frame)}%)** |",
+         f"| titles that are really citation strings | {b0['cit']} | **{len(still_cit)}** |",
+         f"| distinct works after post-enrichment dedup | {b0['n']} | **{len(frame)}** |", "",
+         f"- duplicate works removed by pass 3: **{n_dupes}** — enrichment rewrites titles to the "
+         f"provider's canonical form, so records that were distinct strings when `98_` deduplicated "
+         f"become the same work afterwards. This inflated the Tier-B count, the A6a positive class, "
+         f"the A6b recall denominator, and the round-2 saturation yield.",
          f"- DOIs recovered by bibliographic query: **{len(recovered)}** of "
          f"{len(nodoi)} attempted",
          f"- of those, citation strings replaced with the real title: "
@@ -181,6 +235,39 @@ def main():
         L += [f"- {x['title']}  → `{x['doi']}` (containment {x['containment']}, {x['why']})"
               for x in recovered[:15]] + [""]
     open(OUT_MD, "w").write("\n".join(L) + "\n")
+
+    # `98_` rewrites the tier-A/B log from scratch on every run, so the frozen post-backfill numbers
+    # have to be appended HERE or they vanish the next time 98 is run. Same binding-order point as the
+    # frame itself: 98 then 99, and 99 owns the final state of both artifacts.
+    ab_log = os.path.join(LOGS, f"{SLUG}-tier-ab-log.md")
+    if os.path.exists(ab_log):
+        with open(ab_log, "a") as fh:
+            fh.write(
+                "\n---\n\n## Post-backfill state (the frozen numbers)\n\n"
+                f"Appended by `99_d1a_backfill_gold.py`. **Run order `98_` then `99_` is binding** — "
+                f"98 rewrites this file and the frame from scratch, so 98 alone reverts everything "
+                f"below. Both are cached and idempotent.\n\n"
+                f"| Tier B | at assembly | frozen |\n|---|---|---|\n"
+                f"| records | {b0['n']} | **{len(frame)}** |\n"
+                f"| with a DOI | {b0['doi']} | **{with_doi}** |\n"
+                f"| with an abstract | {b0['abs']} | **{with_ab}** "
+                f"({100 * with_ab // len(frame)}%) |\n"
+                f"| titles that are really citation strings | {b0['cit']} | **{len(still_cit)}** |\n\n"
+                f"**{n_dupes} duplicate works removed post-enrichment.** `98_` deduplicates on the raw "
+                f"snowball title and enrichment then rewrites titles to the provider's canonical form, "
+                f"so records that were distinct strings at dedup time become the same work afterwards "
+                f"— case variants, British against American spelling, and a book indexed once with and "
+                f"once without its author suffix. This inflated the Tier-B count, the A6a positive "
+                f"class, the A6b recall denominator, and the round-2 saturation yield. It can only be "
+                f"caught after enrichment, because before it the two strings genuinely differ.\n\n"
+                f"**{len(refused)} of {len(nodoi)} no-DOI records were refused by the resolution "
+                f"guard and are kept**, keyed on their original string, because dropping them biases "
+                f"recall toward easy-to-find papers. A hand read shows the residue is book chapters, "
+                f"regional and non-English journals, dissertations and conference papers that Crossref "
+                f"does not hold — the fourth appearance of the same indexing gap on this chapter. The "
+                f"threshold is calibrated rather than merely strict: one refusal at containment 0.78 "
+                f"was a different study with an almost identical title, so relaxing the bar to lift "
+                f"the recovery rate would have assigned a wrong DOI.\n")
     print("\n".join(L[4:20]), file=sys.stderr)
     print(f"\nwrote {FRAME}\nwrote {OUT_MD}", file=sys.stderr)
 
