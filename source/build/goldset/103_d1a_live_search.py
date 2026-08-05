@@ -49,6 +49,22 @@ import importlib.util
 SLUG = "postmaterialism-individualism-secularization"
 MAILTO = "shravanh@uchicago.edu"
 UA = f"fertility-review/1.0 (mailto:{MAILTO})"
+
+# OPENALEX_API_KEY IS THE DIFFERENCE BETWEEN THIS PULL COSTING NOTHING AND NOT RUNNING AT ALL.
+# OpenAlex made keys mandatory in Feb 2026 and moved to usage-based pricing. A FREE key carries
+# **$1 of usage per day**; a `title.search` request bills as a search query at $0.001 (the refusal
+# body says `creditsRequired: 10`), so a free key is worth ~1,000 of them per day. This entire pull
+# is ~95 page requests -- under ten cents, under a tenth of one day's free allowance.
+#
+# Without a key the requests fall to the unauthenticated demo tier, which is what every budget
+# exhaustion on this chapter has actually been. The arithmetic only reconciles that way: 95 requests
+# against a $1 allowance could never have exhausted it, and this run died at page 25 of the sixth
+# cluster. `30_acquire_pass3.py` already read this variable; scripts 89-104 never did.
+#
+# Note also that entity lookup BY DOI OR ID IS FREE under the same pricing. The conclusion recorded
+# at `95_d1a_canon_reresolve.py` that OpenAlex canon resolution is "dead, not throttled" was drawn
+# unauthenticated and against title *search*; resolution by DOI costs nothing and should be retried.
+OA_KEY = os.environ.get("OPENALEX_API_KEY", "").strip()
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(HERE)))
 LOGS = os.path.join(ROOT, "literature", "search-logs")
@@ -148,9 +164,11 @@ def pull_cluster(cluster, filt, counts_only=False):
     recs, cursor, pages = [], "*", 0
     total = None
     while cursor:
-        url = "https://api.openalex.org/works?" + urllib.parse.urlencode(
-            {"filter": filt, "per-page": 1 if counts_only else PER_PAGE,
-             "cursor": cursor, "select": "id" if counts_only else SELECT, "mailto": MAILTO})
+        params = {"filter": filt, "per-page": 1 if counts_only else PER_PAGE,
+                  "cursor": cursor, "select": "id" if counts_only else SELECT, "mailto": MAILTO}
+        if OA_KEY:
+            params["api_key"] = OA_KEY
+        url = "https://api.openalex.org/works?" + urllib.parse.urlencode(params)
         key = f"{cluster}__{'count' if counts_only else pages}"
         try:
             d = fetch(url, key)
@@ -185,6 +203,12 @@ def pull_cluster(cluster, filt, counts_only=False):
 
 def main():
     counts_only = "--count" in sys.argv
+    # Say which tier this run is on, out loud, before spending anything. A silent misconfiguration
+    # that presents as a provider limitation is how this chapter concluded OpenAlex was unusable.
+    print(f"  auth: OPENALEX_API_KEY {'SET -- $1/day free allowance' if OA_KEY else 'NOT SET'}"
+          f"{'' if OA_KEY else ' -- running on the unauthenticated demo tier, which is almost'}"
+          f"{'' if OA_KEY else ' certainly what every budget exhaustion here has been'}",
+          file=sys.stderr)
     pq = json.load(open(PQ))
     filters = build_filters(pq)
 

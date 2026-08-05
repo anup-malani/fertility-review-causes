@@ -23,6 +23,37 @@
 - [ ] 14. PI review and sign-off
 
 ## Log
+- 2026-08-05 (Shravan/Claude): **The OpenAlex budget wall is a MISSING FREE API KEY, not a provider
+  limitation — and that retracts a premise this chapter has been operating on since 8/03.**
+  `103_d1a_live_search.py` now reads `OPENALEX_API_KEY` and reports the tier it is on before
+  spending anything. **Operational request, and it is free: an OpenAlex API key.**
+  **(1) The arithmetic never reconciled and nobody checked it.** OpenAlex made keys mandatory in
+  Feb 2026 with usage-based pricing. **A free key carries $1 of usage per day.** A `title.search`
+  request bills as a search query at **$0.001** — which our own refusal body has been reporting all
+  along (`costUsd: 0.001`, `creditsRequired: 10`). So a free key is worth **~1,000 title searches a
+  day**, and **the entire C1 pull is ~95 page requests, under ten cents — under a tenth of one day's
+  free allowance.** A pull that fits ten times over in the free tier cannot exhaust it. It died at
+  page 25 of the sixth cluster because **scripts 89–104 send no API key at all**, only `mailto`,
+  which is the old polite-pool convention and now lands on the unauthenticated demo tier.
+  **(2) `30_acquire_pass3.py` has read `OPENALEX_API_KEY` since an earlier chapter.** The variable
+  was already the project's convention and the D.1.a scripts simply never adopted it. This is not a
+  discovery about OpenAlex; it is a configuration defect of ours that has been presenting as one.
+  **(3) It retracts the strongest claim in the 8/04 canon-resolution entry.** That entry records
+  OpenAlex canon resolution as *"dead, not throttled"* on the evidence that a title search costs
+  $0.001 against an allowance that would not cover sixteen of them. Sixteen searches cost **$0.016**
+  against a $1 free allowance. Worse, **entity lookup by DOI or ID is $0 under the new pricing** —
+  free — so resolution by identifier, which is what `95_` mostly does, costs nothing whatsoever.
+  **The move off OpenAlex to Crossref + S2 was made for a reason that was not true.** That move is
+  still worth keeping on its own merits (it makes Tier B orthogonal to Tier A in infrastructure, per
+  the 8/03 entry), but it should be recorded as chosen rather than forced.
+  **(4) Fifth instance of this chapter's signature failure, and the first pointed at ourselves.** A
+  silent misconfiguration returned a plausible, quotable, wrong reading of the world — and it was
+  believed for two days and written into the ticket, the search log and the run-state memory, because
+  the error message was specific enough to sound like a finding. The script now prints the auth tier
+  before spending, so the next reader cannot mistake our tier for the provider's limit.
+  **(5) Nothing is retracted about the corpus itself.** The 11,425 records pulled are unaffected, the
+  cache is unaffected, and the key changes only what the remaining ~32 requests cost. With a key the
+  pull finishes immediately rather than at the midnight UTC reset.
 - 2026-08-05 (Shravan/Claude): **Pre-filter built and shipped. 11,425 in → 10,234 to the screen,
   1,017 dropped, 174 routed to a new retrieval worklist. Gold loss ZERO on 303 gold records tested.**
   `{slug}-prefilter.{json,md}`, `{slug}-prefilter-rejected-sample.md`; script
