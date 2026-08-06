@@ -22,6 +22,36 @@
 - [ ] 13. RA lay-readability check
 - [ ] 14. PI review and sign-off
 
+## Open items (standing — carried across sessions, not in any session's task list)
+
+Kept here rather than in a session tool so nothing is lost when a session ends. Ordered by what
+blocks whom.
+
+**Blocked on the PI**
+1. **Rulings 2 and 3 need sign-off; the scope is still DRAFT.** Ruling 3 fixes GRADE ceilings before
+   any study is read and puts country-level value-index-vs-TFR co-movement — the canonical SDT
+   evidence base — at Tier 4 with no causal weight. **This is a larger ex-post risk than the screen:**
+   if it is overturned the rating structure changes and a drafted chapter is rewritten, not patched.
+   It costs nothing to resolve.
+2. **Two conventions escalated to `PROTOCOL.md` and not landed** — "first stop rule hit governs", and
+   the treatment × outcome routing definition. A convention no operating file states is inert.
+3. **Authorise (or decline) the 390-batch production screen.** Pending the 10-batch yield sample.
+
+**Operational**
+4. **A Semantic Scholar API key**, outstanding across two chapters.
+5. **Chase the 205 `BOOK_REVIEW_LEAD` records** — reviews of on-pair monographs (Jones & Grupp,
+   Yaukey, Fukuda) that are the only trace of those books in the corpus.
+
+**Technical debt, none blocking**
+6. **`cv.load()` partitions A_ONLY/BOTH on the stale `title_key`** (`101_`), under-detecting channel
+   overlap: 19/12 against the corrected 14/17. Weighted totals agree at 84.2%, so it is cosmetic for
+   headline recall — but Recall(B) is only a fair yardstick if channel orthogonality is measured
+   right. Deferred because A6b's frozen CV consumes `cv.load()`; fix when that is next touched.
+7. **5 anchor labels recorded CONTESTED** by `112_` need a second human rater (RA playbook). They
+   stay at their current label meanwhile, so no number moves quietly.
+8. **21 addressable query holes** from `107_`'s decomposition — a possible v3 round, worth roughly
+   5 recall points at most. 19 probable index gaps are a ceiling and belong in §10.
+
 ## Log
 - 2026-08-05 (Shravan/Claude): **CALIBRATION RUN. 48 anchors, 2 batches, ~6 minutes. Decoys routed
   away 7/10 — but adjudicating each one, the screen is right more often than the anchor set is, and

@@ -67,13 +67,29 @@ def sha256(path):
     return hashlib.sha256(path.read_bytes()).hexdigest()
 
 
-def write_batches(rows, prefix, start_no=1):
+def write_batches(rows, prefix, idmap, start_no=1):
+    """Write blinded batches using SHORT POSITIONAL IDS, and record the mapping separately.
+
+    THE IDS THE SCREENER SEES ARE `CAL001-07`, NOT A 44-CHARACTER HEX STRING. The first live run
+    proved why: the screener has to echo every id back exactly, and one batch of two failed on a
+    single mangled character out of forty ids. Validation caught it and the whole batch was
+    discarded -- correct, and unaffordable at 390 batches, where that rate loses half the run to
+    transcription rather than to judgement.
+
+    It also closes a blinding leak that was there from the start. Production ids were real OpenAlex
+    work ids, which are lookupable; a screen that can identify the record is not blind. The real id
+    never leaves `idmap.json`, which is not sent to any model.
+    """
     manifest = []
     for i in range(0, len(rows), BATCH_SIZE):
         n = i // BATCH_SIZE + start_no
-        batch = [{"paperId": r["screen_id"], "title": r["title"] or "",
-                  "year": r.get("year"), "abstract": (r.get("abstract") or "")[:3500]}
-                 for r in rows[i:i + BATCH_SIZE]]
+        chunk = rows[i:i + BATCH_SIZE]
+        batch = []
+        for j, r in enumerate(chunk, start=1):
+            short = f"{prefix.upper()}{n:03d}-{j:02d}"
+            idmap[short] = r["screen_id"]
+            batch.append({"paperId": short, "title": r["title"] or "",
+                          "year": r.get("year"), "abstract": (r.get("abstract") or "")[:3500]})
         p = SCREEN / f"{prefix}_{n:03d}.json"
         p.write_text(json.dumps(batch, indent=2, ensure_ascii=False))
         manifest.append({"batch": n, "kind": prefix, "n": len(batch),
@@ -107,7 +123,13 @@ def main():
                      "abstract": r.get("abstract")})
 
     # ---- calibration -------------------------------------------------------------------------
-    tier_a = json.loads((LOGS / f"{SLUG}-tier-a.json").read_text())
+    # Prefer the relabelled anchors when they exist. `112_` corrected labels the calibration
+    # exposed as wrong; screening against the uncorrected set would keep scoring the screen against
+    # known-bad answers. The original file is never modified, so the correction is reversible by
+    # deleting one artifact.
+    relab = LOGS / f"{SLUG}-tier-a-relabelled.json"
+    tier_a_path = relab if relab.exists() else LOGS / f"{SLUG}-tier-a.json"
+    tier_a = json.loads(tier_a_path.read_text())
     by_doi = {r["doi"]: r for r in corpus["records"] if r.get("doi")}
     by_title = {}
     for r in corpus["records"]:
@@ -134,7 +156,7 @@ def main():
         sid = f"CAL-{raw}"
         calib.append({"screen_id": sid, "title": r["title"], "year": r.get("year"),
                       "abstract": abstract})
-        key.append({"paperId": sid, "title": r["title"], "role": r.get("role"),
+        key.append({"screen_id": sid, "title": r["title"], "role": r.get("role"),
                     "pair": r.get("pair"), "design_tier": r.get("design_tier"),
                     "provisional_cell": r.get("provisional_cell"),
                     "expect_route_away": r.get("role") == "DECOY",
@@ -155,7 +177,9 @@ def main():
     rng.shuffle(calib)
 
     (SCREEN / "RUBRIC.md").write_text(rubric_p.read_text())
-    man = write_batches(calib, "calib") + write_batches(prod, "batch")
+    idmap = {}
+    man = write_batches(calib, "calib", idmap) + write_batches(prod, "batch", idmap)
+    (SCREEN / "idmap.json").write_text(json.dumps(idmap, indent=1))
 
     n_dec = sum(1 for k in key if k["expect_route_away"])
     committed = {
@@ -163,6 +187,7 @@ def main():
         "corpus": corpus_p.name, "corpus_sha256": sha256(corpus_p),
         "prefilter": pref_p.name, "prefilter_sha256": sha256(pref_p),
         "rubric": rubric_p.name, "rubric_sha256": sha256(rubric_p),
+        "tier_a_source": tier_a_path.name, "tier_a_sha256": sha256(tier_a_path),
         "seed": SEED, "batch_size": BATCH_SIZE,
         "production_records": len(prod), "calibration_records": len(calib),
         "production_batches": sum(1 for m in man if m["kind"] == "batch"),
@@ -171,11 +196,16 @@ def main():
         "records_with_abstract": sum(bool((r.get("abstract") or "").strip()) for r in prod),
         "calibration_abstracts_joined_from_corpus": joined,
         "blinded_fields": BLINDED,
+        "id_scheme": "short positional (CAL001-07 / BATCH001-07); real ids only in idmap.json",
+        "idmap": str((SCREEN / "idmap.json").relative_to(REPO)),
         "run_order": "calibration batches FIRST; production is not authorised until calibration is read",
         "coverage_verified": True, "manifest": man,
     }
     (LOGS / f"{SLUG}-screen-manifest.json").write_text(
         json.dumps(committed, indent=2, ensure_ascii=False))
+    rev = {v: k for k, v in idmap.items()}
+    for row in key:
+        row["paperId"] = rev[row.pop("screen_id")]     # key on the short id the screener echoes
     (LOGS / f"{SLUG}-screen-calibration-key.json").write_text(
         json.dumps(key, indent=2, ensure_ascii=False))
 

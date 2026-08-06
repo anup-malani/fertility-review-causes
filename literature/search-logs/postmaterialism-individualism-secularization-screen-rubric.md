@@ -24,6 +24,30 @@ chapter; it is routed away because its *treatment* does. Conversely, a study fra
 culture but identified off income, media exposure, or gender attitudes is not this chapter's however
 cultural its framing.
 
+### A value measure that MODERATES someone else's treatment is not this chapter's estimate
+
+The two questions above are necessary and not sufficient, and this is the gap they leave. When the
+value measure enters as an **interaction term** on another treatment — a policy, a price, a shock —
+both questions answer yes and the paper is still not D.1.a's, because **the quantity identified is
+the effect of the other treatment.**
+
+The test is: **what does the design actually move?** If it moves a maternity benefit and religiosity
+only splits the sample, the estimate is of the benefit. Religiosity was never moved and no effect of
+religiosity on fertility has been identified.
+
+- value measure is the **main regressor** → this chapter, the primary cells.
+- value measure **moderates** a policy, price or shock → `VALUE_AS_MODERATOR`, reported and not
+  pooled. Name the owning chapter for the actual treatment in `reason`.
+- the value measure is itself **moved by an exogenous shock** → `PRIMARY_SECULAR_SHOCK_S3`. This is
+  the Tier-1 stratum and it is the opposite case: here religiosity *is* what moves.
+
+Worked example, and it is a real one this rubric failed before the rule existed: *"How religion
+mediates the fertility response to maternity benefits"* — a difference-in-differences on a 1982
+Baltic benefits expansion, comparing women who did and did not grow up in religious households.
+Measured value, fertility outcome, both questions yes. **The benefit moves; religion does not.**
+`VALUE_AS_MODERATOR`, treatment routed to the benefits chapter. The word *mediates* in its title is
+the paper's, not ours — under this rubric it is a moderator.
+
 Judge **only** the supplied title and abstract. Discovery channel, anchor status, cluster provenance
 and citation counts are deliberately withheld — the screen is semantically blind so that recall
 measured against the gold stays honest.
@@ -86,8 +110,26 @@ One JSON array, input order, exactly one object per paper:
 }
 ```
 
+**Every field is mandatory on every record, including title-only ones.** A record with no abstract
+still gets a `reason` — say what the title alone does and does not establish, e.g. *"title names
+secularization and fertility decline but neither the measure nor the design is visible."* Leaving
+`reason` empty because `needs_full_text` already says something is missing fails the batch. This is
+not pedantry: **31% of this corpus is title-only**, so a screener that silently drops a field on
+those loses a third of the corpus to validation errors.
+
 `treatment_is_measured_value` and `outcome_is_fertility` are the two routing questions recorded
 separately from the verdict, so a disagreement can be traced to which question was answered wrong.
+
+### The verdict must agree with your own two answers — this is checked mechanically
+
+**`RELEVANT` requires `outcome_is_fertility: yes` AND `treatment_is_measured_value: yes`.**
+That is not an extra rule; it is the definition of `RELEVANT` restated in the fields you just filled
+in. **`unclear` on either question means `UNCERTAIN`, never `RELEVANT`** — if you cannot tell whether
+the regressor is a measured value, you cannot know the paper is in scope, and `unclear` is precisely
+the state `UNCERTAIN` exists to record. Populate `needs_full_text` with what is missing.
+
+A validator rejects the whole batch on this, so a single inconsistent row costs forty verdicts. It
+is worth a moment's check before returning: **read your two answers, then read your verdict.**
 
 ---
 
@@ -134,6 +176,7 @@ Copy the cell name exactly. Full definitions in the scope; the routing column is
 | `AGGREGATE_COMOVEMENT` | country/region value index → aggregate TFR. Tier 4, never pooled. |
 | `SDT_FRAMEWORK_THEORY` | framework statement, elaboration or critique with no estimate |
 | `VALUE_CONSTRUCT` | a value measure as the **dependent** variable — scale validation, prevalence, determinants of secularization |
+| `VALUE_AS_MODERATOR` | the value measure is an **interaction term** on someone else's treatment — a policy, price or shock. The identified effect is of that treatment, not of the value. Genuinely informative for the chapter's narrative (values condition responsiveness) and **not a causal estimate of value → fertility**, so it is reported and never pooled. Name the owning chapter in `reason`. |
 
 **Route out — name the neighbour**
 
@@ -175,6 +218,13 @@ Ordered by how often they will come up, not by how interesting they are.
    Western family ideals is D.1.b.
 5. **Wall 5, proxy content (rare, high stakes).** Ancestral **fertility rate** → A.19. Ancestral
    **value measure** → D.1.a. Both → `MIXED_CULTURE_PROXY`. Never decided from an abstract.
+6. **The moderator boundary (moderate, and it passes the two-question test).** A value measure
+   interacted with a policy, price or shock is `VALUE_AS_MODERATOR`, not a primary cell. Ask what the
+   design moves. **Added after a calibration run admitted a maternity-benefits difference-in-
+   differences into `PRIMARY_SECULAR_S3`** — the screener's own reasoning had it right ("the shock
+   moves the fertility incentive, not the value measure") and the rubric gave it nowhere to put that.
+   A screener that describes an interaction in `reason` and still assigns a primary cell is hitting
+   this boundary.
 
 ---
 

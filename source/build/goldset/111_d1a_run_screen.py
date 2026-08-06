@@ -97,6 +97,13 @@ def main():
     ap.add_argument("--kind", choices=["calib", "batch"], required=True)
     ap.add_argument("--batches", default="")
     ap.add_argument("--timeout", type=int, default=900)
+    # RETRY, BUT NEVER SKIP. A batch that fails validation is retried a few times and then STOPS the
+    # run. Skipping past failures would be worse than useless for a yield sample: the observed
+    # failures correlate with record type -- title-only records were dropping `reason` -- so
+    # discarding failed batches would bias the estimate toward records that carry abstracts, which
+    # are exactly the ones more likely to be judged RELEVANT. A transient omission deserves a retry;
+    # a systematic one must still halt.
+    ap.add_argument("--retries", type=int, default=2)
     ap.add_argument("--force", action="store_true")
     ap.add_argument("--audit", action="store_true")
     ap.add_argument("--command", nargs=argparse.REMAINDER, default=[])
@@ -107,9 +114,24 @@ def main():
     man = json.loads((LOGS / f"{SLUG}-screen-manifest.json").read_text())
     rubric = (SCREEN / "RUBRIC.md").read_text()
 
+    # A VERDICT IS ONLY "VALID" IF IT WAS PRODUCED UNDER THE CURRENT RUBRIC.
+    # Validity used to mean "parses and matches the schema", so editing the rubric left every
+    # existing verdict looking fine and the runner skipped them all -- silently mixing verdicts from
+    # two different rubrics in one screen. That is the stale-cache failure this session already fixed
+    # in 103_'s page cache and 106_'s membership cache; third instance, same shape. The execution log
+    # records which rubric each batch was screened under, and a batch screened under a different one
+    # is stale by definition.
+    rubric_sha = man["rubric_sha256"]
+    prior = {}
+    if RUN_LOG.exists():
+        for run in json.loads(RUN_LOG.read_text()):
+            for r in run.get("results", []):
+                if r.get("status") == "written_valid":
+                    prior[(run.get("kind"), r["batch"])] = run.get("rubric_sha256")
+
     entries = [m for m in man["manifest"] if m["kind"] == args.kind]
     selected = parse_range(args.batches, [m["batch"] for m in entries])
-    todo = []
+    todo, stale = [], 0
     for m in entries:
         if m["batch"] not in selected:
             continue
@@ -118,7 +140,13 @@ def main():
         if out.exists():
             _, errs = validator.validate_file(REPO / m["input"], out, cells)
             valid = not errs
+            if valid and prior.get((args.kind, m["batch"])) not in (rubric_sha, None):
+                valid = False
+                stale += 1
         todo.append((m, valid))
+    if stale:
+        print(f"  {stale} verdict file(s) were screened under a different rubric -- re-running them",
+              file=sys.stderr)
 
     n_valid = sum(1 for _, v in todo if v)
     print(f"{args.kind}: {len(todo)} selected, {n_valid} already valid, "
@@ -144,37 +172,47 @@ def main():
         inputs = json.loads((REPO / m["input"]).read_text())
         prompt = rubric + INSTRUCTION.format(
             batch=json.dumps(inputs, indent=2, ensure_ascii=False))
-        t0 = time.monotonic()
-        try:
-            res = subprocess.run(args.command, input=prompt, text=True,
-                                 capture_output=True, timeout=args.timeout)
-        except subprocess.TimeoutExpired:
-            run["results"].append({"batch": n, "status": "timeout", "seconds": args.timeout})
-            print(f"{args.kind} {n:03d}: TIMEOUT", file=sys.stderr); failed = True; break
-        secs = round(time.monotonic() - t0, 2)
-        if res.returncode != 0:
-            run["results"].append({"batch": n, "status": "model_error", "seconds": secs,
-                                   "returncode": res.returncode,
-                                   "stderr_tail": res.stderr[-800:]})
-            print(f"{args.kind} {n:03d}: model exit {res.returncode}", file=sys.stderr)
-            failed = True; break
-        try:
-            payload = json.loads(strip_code_fence(res.stdout))
-        except json.JSONDecodeError as e:
-            run["results"].append({"batch": n, "status": "invalid_json", "seconds": secs,
-                                   "error": str(e), "stdout_head": res.stdout[:800]})
-            print(f"{args.kind} {n:03d}: invalid JSON", file=sys.stderr); failed = True; break
-        errs = validator.validate_payload(payload, inputs, cells, f"{args.kind} {n:03d}")
-        if errs:
-            run["results"].append({"batch": n, "status": "schema_error", "seconds": secs,
-                                   "errors": errs[:20]})
-            print(f"{args.kind} {n:03d}: {len(errs)} validation errors", file=sys.stderr)
-            for e in errs[:8]:
-                print("    " + e, file=sys.stderr)
-            failed = True; break
+        payload, last = None, None
+        for attempt in range(1, args.retries + 2):
+            t0 = time.monotonic()
+            try:
+                res = subprocess.run(args.command, input=prompt, text=True,
+                                     capture_output=True, timeout=args.timeout)
+            except subprocess.TimeoutExpired:
+                last = {"status": "timeout", "seconds": args.timeout, "attempt": attempt}
+                continue
+            secs = round(time.monotonic() - t0, 2)
+            if res.returncode != 0:
+                last = {"status": "model_error", "seconds": secs, "attempt": attempt,
+                        "returncode": res.returncode, "stderr_tail": res.stderr[-800:]}
+                continue
+            try:
+                cand = json.loads(strip_code_fence(res.stdout))
+            except json.JSONDecodeError as e:
+                last = {"status": "invalid_json", "seconds": secs, "attempt": attempt,
+                        "error": str(e), "stdout_head": res.stdout[:600]}
+                continue
+            errs = validator.validate_payload(cand, inputs, cells, f"{args.kind} {n:03d}")
+            if errs:
+                last = {"status": "schema_error", "seconds": secs, "attempt": attempt,
+                        "errors": errs[:20]}
+                print(f"{args.kind} {n:03d}: attempt {attempt} -> {len(errs)} validation errors",
+                      file=sys.stderr)
+                for e in errs[:4]:
+                    print("    " + e, file=sys.stderr)
+                continue
+            payload, last = cand, {"status": "written_valid", "seconds": secs, "attempt": attempt}
+            break
+        if payload is None:
+            run["results"].append({"batch": n, **last})
+            print(f"{args.kind} {n:03d}: FAILED after {args.retries + 1} attempts "
+                  f"({last['status']})", file=sys.stderr)
+            failed = True
+            break
         atomic_write_json(REPO / m["output"], payload)
-        run["results"].append({"batch": n, "status": "written_valid", "seconds": secs})
-        print(f"{args.kind} {n:03d}: ok ({secs}s, {len(payload)} verdicts)", file=sys.stderr)
+        run["results"].append({"batch": n, **last})
+        print(f"{args.kind} {n:03d}: ok ({last['seconds']}s, {len(payload)} verdicts, "
+              f"attempt {last['attempt']})", file=sys.stderr)
 
     run["finished_utc"] = datetime.now(timezone.utc).isoformat()
     run["failed"] = failed

@@ -87,8 +87,17 @@ def validate_payload(rows, batch, cells, label):
     got = [r.get("paperId") for r in rows if isinstance(r, dict)]
     if got != want:
         missing, extra = set(want) - set(got), set(got) - set(want)
-        errs.append(f"{label}: id mismatch "
-                    f"(n={len(got)} vs {len(want)}; missing={len(missing)}, extra={len(extra)})")
+        # NAME THEM. The first live failure reported only "missing=1, extra=1", which is unactionable
+        # -- the batch was discarded and nothing said which id had been mangled. With the ids named
+        # it was immediately obvious that the screener was mis-transcribing 44-character hex strings,
+        # which is what motivated the short positional ids.
+        detail = ""
+        if missing or extra:
+            detail = (f"; missing={sorted(missing)[:5]} extra={sorted(extra)[:5]}")
+        elif len(got) == len(want):
+            first = next((i for i, (a, b) in enumerate(zip(got, want)) if a != b), None)
+            detail = f"; same ids, wrong order (first at index {first})"
+        errs.append(f"{label}: id mismatch (n={len(got)} vs {len(want)}{detail})")
     for i, r in enumerate(rows):
         if not isinstance(r, dict):
             errs.append(f"{label}[{i}]: not an object"); continue
