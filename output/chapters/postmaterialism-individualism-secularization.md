@@ -163,8 +163,47 @@ weakest. Writing Sections 5–7 from it now would bake that tilt into the synthe
 understating the limitation, because the quantity that measures it — what the systematic search adds
 beyond the citation frame — would never have been observed.
 
-A **10-batch random sample (400 records)** of the screening queue is running to bound what the full
-screen would add. That bound is reportable in its own right and will appear here.
+### 4.1 What the full screen would add, estimated from 400 records
+
+A uniform random sample of **400 of the 15,586** queued records was screened under the frozen rubric
+(`113_d1a_yield_sample.py`). The sample is random by construction: the production records are shuffled
+under a fixed seed before batching, so the first ten batches are a random 400 rather than the first
+400 of anything.
+
+| | sample | rate | 95% CI (Wilson) | projected to 15,586 |
+|---|---|---|---|---|
+| `RELEVANT` | 20/400 | **5.0%** | 3.3–7.6% | **≈780** (508–1,184) |
+| assigned a primary, poolable cell | 26/400 | 6.5% | 4.5–9.3% | ≈1,010 |
+| `UNCERTAIN` → a full-text read | 49/400 | 12.3% | 9.4–15.9% | ≈1,910 |
+| `NOT_RELEVANT` | 331/400 | 82.8% | | |
+
+**The count settles the question of whether to run the screen: it would add several hundred studies,
+so no claim about the size of this literature can be made without it.** But the composition qualifies
+which absence claims were at risk, and it is the more interesting result.
+
+**Not one record in the sample was guessed above Tier 3.** Of the twenty `RELEVANT` records, sixteen
+were judged Tier 3 and four Tier 4; **zero Tier 1 and zero Tier 2**. The screen would therefore add
+volume without adding credibility. The chapter's claims about *identified* evidence — that Tier 1 is
+three studies, that blue-law, Sunday-trading and clergy-scandal designs are unused, that state atheism
+was never used to identify a fertility effect — are not the claims this sample threatens. The claim
+that was at risk is the weaker and more ordinary one about how much has been *studied*.
+
+The distribution also reproduces the shape predicted from the anchor set, which is the best available
+evidence that the screen is calibrated rather than merely productive: **S3 supplies 19 of the 26
+primary-cell records**, against 2 for S1, 1 for S2 and 1 for S5 — close to the 23/5/1/2 split of the
+hand-built empirical anchors. And `GENERIC_VALUES` is the single largest source of kept records (42),
+confirming live what the breadth analysis predicted: a query built only from pair-specific vocabulary
+would have lost roughly a third of the frame.
+
+One expectation was not met. The rubric anticipated that `AGGREGATE_COMOVEMENT` — country-level value
+index against TFR, the canonical SDT evidence base — would be **common**. It appears once in 400. The
+likely reason is that a title and abstract rarely reveal that the unit of analysis is the country, so
+these are routing to `UNCERTAIN` rather than to their cell; if so the count will reappear at full
+text. It is recorded here as an open discrepancy rather than a finding.
+
+**The binding constraint is downstream of the screen, not the screen itself.** ~1,910 `UNCERTAIN`
+records is ~1,910 full-text retrievals, and sibling chapters are already retrieval-bound. Screening is
+about a day of unattended compute; the reads it generates are the real budget.
 
 ## 5. Included studies
 

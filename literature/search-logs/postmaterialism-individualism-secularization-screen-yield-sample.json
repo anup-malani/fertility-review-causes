@@ -1,0 +1,74 @@
+{
+  "slug": "postmaterialism-individualism-secularization",
+  "sample_batches": 10,
+  "sample_n": 400,
+  "population_N": 15586,
+  "seeded_shuffle": 621,
+  "verdicts": {
+    "NOT_RELEVANT": 331,
+    "RELEVANT": 20,
+    "UNCERTAIN": 49
+  },
+  "relevant_pct": 5.0,
+  "relevant_ci95_pct": [
+    3.26,
+    7.6
+  ],
+  "relevant_projected": {
+    "point": 779,
+    "lo": 508,
+    "hi": 1184
+  },
+  "uncertain_projected": {
+    "point": 1909,
+    "lo": 1464,
+    "hi": 2467
+  },
+  "primary_cell_projected": {
+    "point": 1013,
+    "lo": 697,
+    "hi": 1458
+  },
+  "cells": {
+    "OFF_OTHER": 251,
+    "INSUFFICIENT_INFO": 35,
+    "OFF_OUTCOME": 25,
+    "PRIMARY_SECULAR_S3": 19,
+    "OFF_CONTRACEPTIVE_ATTITUDE_A3_A6": 16,
+    "VALUE_CONSTRUCT": 11,
+    "SDT_FRAMEWORK_THEORY": 11,
+    "NORM_ACCEPTABILITY_DESCRIPTIVE": 9,
+    "OFF_GENDER_D2a": 6,
+    "OFF_INCOME_SECURITY": 5,
+    "NORM_ENVIRONMENT_LEVEL": 3,
+    "OFF_PARTNERSHIP_D2b": 2,
+    "PRIMARY_POSTMATERIAL_S1": 2,
+    "REVERSE": 1,
+    "PRIMARY_INDIVIDUALISM_S2": 1,
+    "AGGREGATE_COMOVEMENT": 1,
+    "PRIMARY_CONSUMERISM_S5": 1,
+    "OFF_PARENTING_D2d": 1
+  },
+  "pairs": {
+    "NA": 28,
+    "S3": 25,
+    "S4": 6,
+    "S1": 5,
+    "MULTIPLE": 2,
+    "S2": 2,
+    "S5": 1
+  },
+  "design_tier_guess_of_relevant": {
+    "3": 16,
+    "4": 4
+  },
+  "cluster_provenance_of_kept": {
+    "GENERIC_VALUES": 42,
+    "S3_SECULARIZATION": 20,
+    "S4_CHILDLESSNESS_NORM": 10,
+    "S1_POSTMATERIALISM": 5,
+    "S2_INDIVIDUALISM": 2
+  },
+  "title_only_in_sample": 127,
+  "title_only_routed_uncertain": 32
+}

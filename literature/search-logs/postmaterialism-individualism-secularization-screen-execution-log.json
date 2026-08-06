@@ -140,5 +140,103 @@
     ],
     "finished_utc": "2026-08-06T01:17:40.647668+00:00",
     "failed": true
+  },
+  {
+    "started_utc": "2026-08-06T01:22:09.736937+00:00",
+    "kind": "calib",
+    "command_head": "claude",
+    "command_args": [
+      "-p"
+    ],
+    "rubric_sha256": "6db586793452c7f7d0a2f36a0abd1cd804b30e3f57c3b43745dd3c4d6f83179c",
+    "results": [
+      {
+        "batch": 1,
+        "status": "written_valid",
+        "seconds": 347.3,
+        "attempt": 1
+      },
+      {
+        "batch": 2,
+        "status": "written_valid",
+        "seconds": 59.48,
+        "attempt": 1
+      }
+    ],
+    "finished_utc": "2026-08-06T01:28:56.536262+00:00",
+    "failed": false
+  },
+  {
+    "started_utc": "2026-08-06T01:28:56.638095+00:00",
+    "kind": "batch",
+    "command_head": "claude",
+    "command_args": [
+      "-p"
+    ],
+    "rubric_sha256": "6db586793452c7f7d0a2f36a0abd1cd804b30e3f57c3b43745dd3c4d6f83179c",
+    "results": [
+      {
+        "batch": 1,
+        "status": "written_valid",
+        "seconds": 228.29,
+        "attempt": 1
+      },
+      {
+        "batch": 2,
+        "status": "written_valid",
+        "seconds": 205.29,
+        "attempt": 1
+      },
+      {
+        "batch": 3,
+        "status": "written_valid",
+        "seconds": 200.3,
+        "attempt": 1
+      },
+      {
+        "batch": 4,
+        "status": "written_valid",
+        "seconds": 199.52,
+        "attempt": 1
+      },
+      {
+        "batch": 5,
+        "status": "written_valid",
+        "seconds": 228.49,
+        "attempt": 1
+      },
+      {
+        "batch": 6,
+        "status": "written_valid",
+        "seconds": 230.02,
+        "attempt": 1
+      },
+      {
+        "batch": 7,
+        "status": "written_valid",
+        "seconds": 217.92,
+        "attempt": 1
+      },
+      {
+        "batch": 8,
+        "status": "written_valid",
+        "seconds": 206.64,
+        "attempt": 1
+      },
+      {
+        "batch": 9,
+        "status": "written_valid",
+        "seconds": 247.81,
+        "attempt": 1
+      },
+      {
+        "batch": 10,
+        "status": "written_valid",
+        "seconds": 189.59,
+        "attempt": 1
+      }
+    ],
+    "finished_utc": "2026-08-06T02:04:50.604238+00:00",
+    "failed": false
   }
 ]
