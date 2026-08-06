@@ -23,6 +23,46 @@
 - [ ] 14. PI review and sign-off
 
 ## Log
+- 2026-08-05 (Shravan/Claude): **CALIBRATION RUN. 48 anchors, 2 batches, ~6 minutes. Decoys routed
+  away 7/10 — but adjudicating each one, the screen is right more often than the anchor set is, and
+  only ONE of the three is a real screen error.** `{slug}-screen-calibration-report.md`,
+  `{slug}-screen-execution-log.json`; script `111_d1a_run_screen.py`. **Production still not
+  authorised — two cheap fixes first.**
+  **(1) The one genuine screen error is a RUBRIC GAP, and it is namable.** *"How religion mediates
+  the fertility response to maternity benefits"* — a DiD on a 1982 Baltic benefits expansion in which
+  religiosity enters as a **moderator**, not a treatment. The screen called it `PRIMARY_SECULAR_S3`
+  and its own `reason` field described the structure correctly: *"the shock moves the fertility
+  incentive, not the value measure."* **The rubric rules on mediators and says nothing about
+  moderators / heterogeneity designs**, where the value measure is an interaction term. Under the
+  two-question test it passes, and it should not: the identified effect is of the policy.
+  **Recommended: add a moderator rule.**
+  **(2) Two "failures" are wrong ANCHOR LABELS, not wrong verdicts.** *"Does individualism promote
+  gender equality?"* is labelled `DECOY`/`OFF_OUTCOME`, but the abstract says *"Individualism is also
+  associated with… lower levels of fertility"* — measured individualism as treatment, fertility among
+  the outcomes. `RELEVANT` is correct. The decoy label was assigned **title-only**, and the abstract
+  join this run introduced changed the right answer. Same for *"Demographic Imperatives and Religious
+  Markets"*, labelled `EMPIRICAL`/`PRIMARY_SECULAR_S3` while its DV is religious-group size —
+  the screen's `OFF_OUTCOME` is right. **The calibration measures the anchor set as much as the
+  screen**, and this is the second time this chapter's own gold has been the defect.
+  **(3) A batching defect of mine corrupted the FIRST calibration silently.** **Six Tier-A rows carry
+  `paperId: null`**, so all six became `CAL-None` and collapsed to one id — the key kept only the
+  last, the verdict lookup kept only the last, and **3 empirical anchors and 1 decoy vanished from
+  the scoring**. The report said "28 empirical anchors" against a true 31. **Validation passed
+  throughout**, because the verdict list still matched the batch position for position; duplicate ids
+  are consistent with themselves. D.3.b's step 75 asserted unique nonblank ids and `109_` did not.
+  Fixed with a title-hash fallback plus a hard uniqueness assertion over both sets.
+  **(4) A consistency rule now catches a whole error class mechanically, at zero reading cost.**
+  The rubric defines `RELEVANT` as exactly "the regressor is a measured value orientation AND the DV
+  is fertility" — which is what the two routing fields record. **3 of 22 `RELEVANT` verdicts
+  contradicted their own answers**, including the third decoy: `RELEVANT` with
+  `outcome_is_fertility: no` and cell `VALUE_CONSTRUCT`, whose definition is that the value measure
+  *is* the dependent variable. The validator now rejects that combination. Recording the two
+  questions separately was meant to let a disagreement be traced; it also makes the verdict checkable.
+  **(5) What the calibration says about cost.** Verdict mix over 48: RELEVANT 19, UNCERTAIN 14,
+  NOT_RELEVANT 10 (pre-fix run). The empirical anchors ran RELEVANT 17 / UNCERTAIN 13 /
+  NOT_RELEVANT 1, and **the UNCERTAIN share is compliance rather than failure** — it is the rubric's
+  instruction where item content is invisible. Extrapolated, roughly a third of 15,586 arrives at
+  full text, which the rubric already budgeted for.
 - 2026-08-05 (Shravan/Claude): **Screen batches built and validated — 390 production batches
   (15,586 records) plus 2 pre-labelled calibration batches. THE PRODUCTION RUN IS NOT AUTHORISED
   AND NEEDS A PI/OPERATOR DECISION.** `{slug}-screen-manifest.json`,

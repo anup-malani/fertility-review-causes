@@ -77,26 +77,22 @@ def allowed_cells():
     return cells
 
 
-def validate_file(batch_path, verdict_path, cells):
-    """Return (rows, errors). Errors are fatal; a partially valid file is not usable."""
+def validate_payload(rows, batch, cells, label):
+    """Validate an IN-MEMORY payload against its batch. Shared with the runner so that nothing is
+    ever written to disk before it has passed the same checks a re-read would apply."""
     errs = []
-    batch = json.loads(batch_path.read_text())
-    try:
-        rows = json.loads(verdict_path.read_text())
-    except Exception as e:
-        return [], [f"{verdict_path.name}: unparseable ({e})"]
     if not isinstance(rows, list):
-        return [], [f"{verdict_path.name}: top level must be a JSON array"]
+        return [f"{label}: top level must be a JSON array"]
     want = [r["paperId"] for r in batch]
     got = [r.get("paperId") for r in rows if isinstance(r, dict)]
     if got != want:
         missing, extra = set(want) - set(got), set(got) - set(want)
-        errs.append(f"{verdict_path.name}: id mismatch "
+        errs.append(f"{label}: id mismatch "
                     f"(n={len(got)} vs {len(want)}; missing={len(missing)}, extra={len(extra)})")
     for i, r in enumerate(rows):
         if not isinstance(r, dict):
-            errs.append(f"{verdict_path.name}[{i}]: not an object"); continue
-        loc = f"{verdict_path.name}[{i}] {r.get('paperId')}"
+            errs.append(f"{label}[{i}]: not an object"); continue
+        loc = f"{label}[{i}] {r.get('paperId')}"
         for f in REQUIRED:
             if f not in r:
                 errs.append(f"{loc}: missing field '{f}'")
@@ -118,7 +114,33 @@ def validate_file(batch_path, verdict_path, cells):
             errs.append(f"{loc}: UNCERTAIN with empty needs_full_text")
         if r.get("estimand_cell") == "INSUFFICIENT_INFO" and r.get("verdict") != "UNCERTAIN":
             errs.append(f"{loc}: INSUFFICIENT_INFO pairs only with UNCERTAIN")
-    return rows, errs
+        # THE VERDICT MUST AGREE WITH THE SCREEN'S OWN ROUTING ANSWERS.
+        # The rubric defines RELEVANT as precisely "the regressor is a measured value orientation of
+        # D.1.a content AND the dependent variable is fertility" -- which is exactly what the two
+        # routing fields record. Recording them separately was meant to let a disagreement be traced
+        # to which question was answered wrong; it also makes the verdict checkable for free.
+        # It is not hypothetical: the first clean calibration produced 3 of 22 RELEVANT verdicts
+        # that contradicted their own answers, including a decoy marked RELEVANT with
+        # `outcome_is_fertility: no` and cell VALUE_CONSTRUCT, whose definition is that the value
+        # measure IS the dependent variable. Enforcing the rubric's own definition catches that
+        # class without anyone reading a single title.
+        if r.get("verdict") == "RELEVANT" and not (
+                str(r.get("outcome_is_fertility")).lower() == "yes"
+                and str(r.get("treatment_is_measured_value")).lower() == "yes"):
+            errs.append(f"{loc}: RELEVANT contradicts its own routing answers "
+                        f"(outcome_is_fertility={r.get('outcome_is_fertility')!r}, "
+                        f"treatment_is_measured_value={r.get('treatment_is_measured_value')!r})")
+    return errs
+
+
+def validate_file(batch_path, verdict_path, cells):
+    """Return (rows, errors). Errors are fatal; a partially valid file is not usable."""
+    batch = json.loads(batch_path.read_text())
+    try:
+        rows = json.loads(verdict_path.read_text())
+    except Exception as e:
+        return [], [f"{verdict_path.name}: unparseable ({e})"]
+    return rows, validate_payload(rows, batch, cells, verdict_path.name)
 
 
 def main():

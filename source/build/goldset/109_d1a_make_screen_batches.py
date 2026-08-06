@@ -121,7 +121,17 @@ def main():
         abstract = (r.get("abstract") or "") or ((hit or {}).get("abstract") or "")
         if not (r.get("abstract") or "").strip() and (hit or {}).get("abstract"):
             joined += 1
-        sid = f"CAL-{r['paperId']}"
+        # SIX TIER-A ROWS CARRY `paperId: null`, AND NAMING THEM ALL "CAL-None" CORRUPTED THE FIRST
+        # CALIBRATION. They collapsed to one id, so the answer key kept only the last of the six and
+        # the verdict lookup kept only the last verdict -- silently dropping 3 empirical anchors and
+        # one decoy from the scoring, which is why the report said "28 empirical anchors" when there
+        # are 31. Validation passed throughout, because the verdict list still matched the batch's
+        # id list position for position; duplicate ids are consistent with themselves.
+        # D.3.b's step 75 asserted unique, nonblank paperIds and this script did not. Fall back to a
+        # title hash so every record has a stable, distinct id.
+        raw = r.get("paperId") or "T" + hashlib.sha256(
+            cv.norm(r["title"]).encode()).hexdigest()[:10]
+        sid = f"CAL-{raw}"
         calib.append({"screen_id": sid, "title": r["title"], "year": r.get("year"),
                       "abstract": abstract})
         key.append({"paperId": sid, "title": r["title"], "role": r.get("role"),
@@ -129,6 +139,16 @@ def main():
                     "provisional_cell": r.get("provisional_cell"),
                     "expect_route_away": r.get("role") == "DECOY",
                     "has_abstract": bool(abstract.strip())})
+
+    # Enforced over BOTH sets, because a duplicate id is invisible downstream: the verdict list
+    # still lines up with the batch position for position, so validation passes and only the
+    # key-join quietly loses records.
+    for label, rows in (("production", prod), ("calibration", calib)):
+        ids = [r["screen_id"] for r in rows]
+        if any(not i for i in ids) or len(ids) != len(set(ids)):
+            dupes = {i for i in ids if ids.count(i) > 1}
+            raise SystemExit(f"{label} ids must be unique and nonblank; "
+                             f"{len(ids) - len(set(ids))} duplicates e.g. {sorted(dupes)[:5]}")
 
     rng = random.Random(SEED)
     rng.shuffle(prod)

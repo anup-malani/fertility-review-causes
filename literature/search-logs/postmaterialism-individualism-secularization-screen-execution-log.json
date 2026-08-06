@@ -1,0 +1,48 @@
+[
+  {
+    "started_utc": "2026-08-06T00:37:19.430869+00:00",
+    "kind": "calib",
+    "command_head": "claude",
+    "command_args": [
+      "-p"
+    ],
+    "rubric_sha256": "28372dc17849c9dc9be106b8654074cc6e1843f201478d7c554d709d5ada442c",
+    "results": [
+      {
+        "batch": 1,
+        "status": "written_valid",
+        "seconds": 231.49
+      },
+      {
+        "batch": 2,
+        "status": "written_valid",
+        "seconds": 65.37
+      }
+    ],
+    "finished_utc": "2026-08-06T00:42:16.306115+00:00",
+    "failed": false
+  },
+  {
+    "started_utc": "2026-08-06T00:44:40.894063+00:00",
+    "kind": "calib",
+    "command_head": "claude",
+    "command_args": [
+      "-p"
+    ],
+    "rubric_sha256": "28372dc17849c9dc9be106b8654074cc6e1843f201478d7c554d709d5ada442c",
+    "results": [
+      {
+        "batch": 1,
+        "status": "written_valid",
+        "seconds": 281.55
+      },
+      {
+        "batch": 2,
+        "status": "written_valid",
+        "seconds": 82.49
+      }
+    ],
+    "finished_utc": "2026-08-06T00:50:44.943750+00:00",
+    "failed": false
+  }
+]
