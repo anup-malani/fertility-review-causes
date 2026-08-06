@@ -23,6 +23,41 @@
 - [ ] 14. PI review and sign-off
 
 ## Log
+- 2026-08-05 (Shravan/Claude): **Screen batches built and validated — 390 production batches
+  (15,586 records) plus 2 pre-labelled calibration batches. THE PRODUCTION RUN IS NOT AUTHORISED
+  AND NEEDS A PI/OPERATOR DECISION.** `{slug}-screen-manifest.json`,
+  `{slug}-screen-calibration-key.json`; scripts `109_d1a_make_screen_batches.py`,
+  `110_d1a_validate_screen.py`. Batches live in `temp/screen/{slug}/` (gitignored, reproducible).
+  **(1) Calibration is pre-labelled and runs first.** Tier A's 48 anchors carry known `role`, `pair`
+  and `design_tier`, including **10 decoys** that sit exactly on the boundaries the rubric names —
+  gender-role attitudes (D.2.a), mass-media exposure (D.1.b/A.20), and religion against
+  *contraceptive use* rather than fertility (`OFF_OUTCOME`). Each must route away. **Two batches buy
+  the answer to whether 390 are worth running.**
+  **(2) Calibration records were joined to the v2 corpus for abstracts, and this matters.** Only 14
+  of 48 Tier-A rows stored one; the join brings 31 of 48 to **65%**, against production's **67%**.
+  Calibrating on title-only records would have tested the screen on a harder input than it will face
+  and pushed almost everything to `UNCERTAIN` by construction.
+  **(3) The rubric is read from disk and hashed into the manifest, not embedded.** D.3.b carried its
+  rubric as a string literal inside its batching script — two sources of truth that drift. The screen
+  is now pinned to a specific rubric version.
+  **(4) A validator bug that would have failed correct answers.** The allowed estimand cells are
+  parsed from the committed rubric rather than restated, but the first pattern matched
+  `[A-Z][A-Z0-9_]+` and so **silently dropped every cell with a lowercase chapter suffix** —
+  `OFF_GENDER_D2a`, `OFF_EXPOSURE_D1b`, `OFF_STATUS_D1c`, `OFF_PARTNERSHIP_D2b`, `OFF_PARENTING_D2d`,
+  `OFF_ECOLOGICAL_FEAR_D3b`. **Those are precisely the cells the decoys must route to**, so a screener
+  answering correctly would have been failed as invalid. 20 cells parsed against 26. The staleness
+  guard passed on a count, so it now checks a named sample instead.
+  **(5) The validator enforces the rubric's own consistency rules**, not just field presence:
+  `UNCERTAIN` must carry a non-empty `needs_full_text`, and `INSUFFICIENT_INFO` pairs only with
+  `UNCERTAIN`. And **a high `UNCERTAIN` rate on empirical anchors is scored as COMPLIANCE, not
+  error** — three routing tests turn on item content invisible at title/abstract, and penalising
+  `UNCERTAIN` would push a screener toward the confident-verdict-without-basis failure D.3.b
+  committed.
+  **(6) Two things blocking the run, stated plainly.** First, **the operator must authorise a model
+  command** — the repo's convention (`60_run_child_labor_screen.py`) is that model execution is never
+  implicit. 390 batches is a real cost. Second, **I cannot score the calibration myself**: I printed
+  the decoy titles while building this, so my blinding is contaminated and my verdicts would measure
+  nothing. Calibration must run in a fresh context.
 - 2026-08-05 (Shravan/Claude): **GOLD SET REPAIRED AND RECALL RE-MEASURED. v2 weighted recall
   81.8% (v1) → 84.2% (frozen gold) → 87.2% (repaired gold); B-only 86.4%.** And the re-measurement
   found that **every recall figure this chapter has published rested on a broken DOI join.**

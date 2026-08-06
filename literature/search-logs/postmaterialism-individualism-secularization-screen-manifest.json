@@ -1,0 +1,3176 @@
+{
+  "slug": "postmaterialism-individualism-secularization",
+  "stage": "blinded_title_abstract_screen_input",
+  "corpus": "postmaterialism-individualism-secularization-live-corpus-v2.json",
+  "corpus_sha256": "b62718cf6befbc79e3604907a3d42d5d880fb4048e489d177802fc8b3499316c",
+  "prefilter": "postmaterialism-individualism-secularization-prefilter-v2.json",
+  "prefilter_sha256": "80706c3b9847aa744cb4552aec4efba777a16d72167d490e308e45a937c7863e",
+  "rubric": "postmaterialism-individualism-secularization-screen-rubric.md",
+  "rubric_sha256": "28372dc17849c9dc9be106b8654074cc6e1843f201478d7c554d709d5ada442c",
+  "seed": 621,
+  "batch_size": 40,
+  "production_records": 15586,
+  "calibration_records": 48,
+  "production_batches": 390,
+  "calibration_batches": 2,
+  "calibration_decoys": 10,
+  "records_with_abstract": 10498,
+  "calibration_abstracts_joined_from_corpus": 17,
+  "blinded_fields": [
+    "doi",
+    "authors",
+    "venue",
+    "cited_by_count",
+    "clusters",
+    "openalex_id",
+    "role",
+    "pair",
+    "design_tier",
+    "provisional_cell",
+    "resolution",
+    "title_key",
+    "snowball_round",
+    "seen_from",
+    "relevance_reason"
+  ],
+  "run_order": "calibration batches FIRST; production is not authorised until calibration is read",
+  "coverage_verified": true,
+  "manifest": [
+    {
+      "batch": 1,
+      "kind": "calib",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/calib_001.json",
+      "input_sha256": "82ade17983fbbb01b5fa4a49f159810c8b52de2df5a501505f076b1f80fd7814",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_calib_001.json"
+    },
+    {
+      "batch": 2,
+      "kind": "calib",
+      "n": 8,
+      "input": "temp/screen/postmaterialism-individualism-secularization/calib_002.json",
+      "input_sha256": "b7ad2d65ecf5b01235b8a59ee268e7b6b61f38d00f26204a55242f7262cc4af4",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_calib_002.json"
+    },
+    {
+      "batch": 1,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_001.json",
+      "input_sha256": "dc002a47220b45a0dd33b1709ca0102da07901279d06016b5bfaaf31188c71a4",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_001.json"
+    },
+    {
+      "batch": 2,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_002.json",
+      "input_sha256": "c3ceee62df21c81cbfc7e2eca70e7af76732496ad45cd9320d9760ba4fb75632",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_002.json"
+    },
+    {
+      "batch": 3,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_003.json",
+      "input_sha256": "ef8a8987ef2bea802b297f8df427bc0544d72bffffae04349b64238236b9bab6",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_003.json"
+    },
+    {
+      "batch": 4,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_004.json",
+      "input_sha256": "1cecf3620b744952b3bae1b6f3fe2cf90455032bdffb8f940f56690d74220967",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_004.json"
+    },
+    {
+      "batch": 5,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_005.json",
+      "input_sha256": "f6be4a0d64a5eb06462fa4ffe6416c04e4d8c374ab2ea9de2cbbd66d1ea47281",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_005.json"
+    },
+    {
+      "batch": 6,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_006.json",
+      "input_sha256": "ac5071dcc140a9b0ef3a11cede30ebaf8f0c22056bf0fac4bd2c9ea219fdb671",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_006.json"
+    },
+    {
+      "batch": 7,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_007.json",
+      "input_sha256": "feb0961b2663a6fe4ff16178ae6801f47a518fdee91c5d476e32f715bc9f3a35",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_007.json"
+    },
+    {
+      "batch": 8,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_008.json",
+      "input_sha256": "1b005a39c79852e81f372d01019ab931a01e520b47eaf6b21b2fa7e605b7bd5a",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_008.json"
+    },
+    {
+      "batch": 9,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_009.json",
+      "input_sha256": "593ff90dee8becd379abae441586f54cf9799b53314e67800c2192d7b96e2d51",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_009.json"
+    },
+    {
+      "batch": 10,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_010.json",
+      "input_sha256": "904e2e67ee22b057a94141e773d4751378d7b624d8dc8f72a82e0724e0ee3ec6",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_010.json"
+    },
+    {
+      "batch": 11,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_011.json",
+      "input_sha256": "bfc3da7ae3a5254baa38ef41f038a4ecca82d056b7b1c2c4ef6b985bf0793866",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_011.json"
+    },
+    {
+      "batch": 12,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_012.json",
+      "input_sha256": "ccc6e4ada9c82e2773fd58e402650524df4acead7e8f17d9dadd18b7cc7d36da",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_012.json"
+    },
+    {
+      "batch": 13,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_013.json",
+      "input_sha256": "04e46d73a3a241fe14a373e520134838cd72c7589bd248b72ac31a2160de1044",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_013.json"
+    },
+    {
+      "batch": 14,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_014.json",
+      "input_sha256": "f63064a725b16011bdc4a287d9c5ba0f725efbf96799be17a895d55097686a86",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_014.json"
+    },
+    {
+      "batch": 15,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_015.json",
+      "input_sha256": "1834a6b0a7c2189f488a7c29601fad194f9ae1e110489fa651d9f22b6adca248",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_015.json"
+    },
+    {
+      "batch": 16,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_016.json",
+      "input_sha256": "ca3fb67a8192af75cf62b72dad366418ffaa6e27d65eb509a22e24e05e5ce2b0",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_016.json"
+    },
+    {
+      "batch": 17,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_017.json",
+      "input_sha256": "37d81894d8cba26d5d3d7eff6b788eeb619cf4e6289324736e868065ce72e8e5",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_017.json"
+    },
+    {
+      "batch": 18,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_018.json",
+      "input_sha256": "56beea18c05256114fcaf904408b4c6605aecb84e0b6a34f7502132606bcfc64",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_018.json"
+    },
+    {
+      "batch": 19,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_019.json",
+      "input_sha256": "1a433699c3fe24acd759dfdf654fd68e8b8ab2e3d850e735ee29e00f851a5ac5",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_019.json"
+    },
+    {
+      "batch": 20,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_020.json",
+      "input_sha256": "93659fa2a299da10291536df13abbb4b6a6432a2870bb5c198dcc46b83163f09",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_020.json"
+    },
+    {
+      "batch": 21,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_021.json",
+      "input_sha256": "59e313d28a309499a46a6fba9eab573980674b056308050ce5bfd7b48101b73e",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_021.json"
+    },
+    {
+      "batch": 22,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_022.json",
+      "input_sha256": "1821017453b3fe31561406ba7eda289960ec67caf6e6a7d504711b8025bede41",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_022.json"
+    },
+    {
+      "batch": 23,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_023.json",
+      "input_sha256": "fb395a24dc33fba241a7560f307d92ec950fdc02a1a886721292f874fac70877",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_023.json"
+    },
+    {
+      "batch": 24,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_024.json",
+      "input_sha256": "43c270cef2b1f2a60b388f7691c4fe343a34d4185397200dc2facb22bb2d4dcb",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_024.json"
+    },
+    {
+      "batch": 25,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_025.json",
+      "input_sha256": "dafee9adb64c989f99279e02f8881cd3f8569b66a70a3d9f6523b988bf7a7b0c",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_025.json"
+    },
+    {
+      "batch": 26,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_026.json",
+      "input_sha256": "90752342342cdda978f579038c6976ba57756a57c4757272daa781300d077a5b",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_026.json"
+    },
+    {
+      "batch": 27,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_027.json",
+      "input_sha256": "6228c4b99d707c518ada87bbbb01f769ba3e3f2934985d9ef5ca586d7e30cd34",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_027.json"
+    },
+    {
+      "batch": 28,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_028.json",
+      "input_sha256": "f980264ec5544f029354982badd3088adaec3d5678c911b452afb9d116e84092",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_028.json"
+    },
+    {
+      "batch": 29,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_029.json",
+      "input_sha256": "bf9c429b798b81d8b76eeddcf73c1507076c1cc3644dc605406d9fa817a551ad",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_029.json"
+    },
+    {
+      "batch": 30,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_030.json",
+      "input_sha256": "e433707e785efa660a55987628383ad01d01150391880fd6f9497e8bfc07700a",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_030.json"
+    },
+    {
+      "batch": 31,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_031.json",
+      "input_sha256": "a119d720a6b8a981957dcaedba9c978e8e9eafc9035d5c99f9b9775a192bbc9a",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_031.json"
+    },
+    {
+      "batch": 32,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_032.json",
+      "input_sha256": "02d86d6054c0f7313f26b47939bf3c805b5dd254e2417a003f35c1060566eeb3",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_032.json"
+    },
+    {
+      "batch": 33,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_033.json",
+      "input_sha256": "fdd67d16f60279fa5339f2b2b5b2da70157c38bef4bfd138ee78be2353a8b5a0",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_033.json"
+    },
+    {
+      "batch": 34,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_034.json",
+      "input_sha256": "28271fd062de4cfd5caedab59346bed19e74fc84daa68ff2e0576f04c2045e34",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_034.json"
+    },
+    {
+      "batch": 35,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_035.json",
+      "input_sha256": "781b2a445d6bc0358db4353dd4688b2b688bb9c2681306635d629db8346bad46",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_035.json"
+    },
+    {
+      "batch": 36,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_036.json",
+      "input_sha256": "e490af567c441ba4ea1f911a931e99055ca9cdbab45db6b40b65f3e7b55325fc",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_036.json"
+    },
+    {
+      "batch": 37,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_037.json",
+      "input_sha256": "eb5151ed58c84dc83702b42d370a14b25900c7c53dad2d2be56047cf989d8b3d",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_037.json"
+    },
+    {
+      "batch": 38,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_038.json",
+      "input_sha256": "423c7dc8788148e6858bf281ed0745417a216708cc14d22ae4e867b93c6d43ba",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_038.json"
+    },
+    {
+      "batch": 39,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_039.json",
+      "input_sha256": "10267c65713b3c3b42a7e13a6847c81cf40f56836b1e3a13d93651f62f8d57af",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_039.json"
+    },
+    {
+      "batch": 40,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_040.json",
+      "input_sha256": "99458bc35752a2313adf15c8b939568c890c66b0df9259f3ae6dc183caa57e1d",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_040.json"
+    },
+    {
+      "batch": 41,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_041.json",
+      "input_sha256": "e175c52a9dc0dec6e0a2a4ce74b89bc5ed77dd095615b7619f688ead2df4ea78",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_041.json"
+    },
+    {
+      "batch": 42,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_042.json",
+      "input_sha256": "127698b46dcbeba28560ed1b7cc788927f34ec1f453153ddc1711038f554c524",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_042.json"
+    },
+    {
+      "batch": 43,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_043.json",
+      "input_sha256": "cb54f00a0d1c45fe1cd37df6dd7f36a1c37b920d36fbae96dbc1b7e58c589c17",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_043.json"
+    },
+    {
+      "batch": 44,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_044.json",
+      "input_sha256": "a8d5e20e967af33e92d6a67169dcd2ca734b7f4c29fa4fcd46a1a0204b26f372",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_044.json"
+    },
+    {
+      "batch": 45,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_045.json",
+      "input_sha256": "02ae1b11b149f3e06b9bc02838fd519e628b5cdbd21e068203caf879833d74b8",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_045.json"
+    },
+    {
+      "batch": 46,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_046.json",
+      "input_sha256": "70fa3495ce4ed3a828e356537f9176300f9a7e2b851fade5d5cbc48dc650d434",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_046.json"
+    },
+    {
+      "batch": 47,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_047.json",
+      "input_sha256": "69602a52876f1eb80ebbc80c55d690dc53aa98e16f9097e2898f884e345cf0d7",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_047.json"
+    },
+    {
+      "batch": 48,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_048.json",
+      "input_sha256": "ad3e06278b2a3b61862f5d687e6817a59411947ae9b229c1f64ed680e1f4daec",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_048.json"
+    },
+    {
+      "batch": 49,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_049.json",
+      "input_sha256": "3c39436e4913bb0bbb8864ed9983642e5eb8903138397b7b8c3128c4ac5d4bb2",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_049.json"
+    },
+    {
+      "batch": 50,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_050.json",
+      "input_sha256": "ea1c21535486d75e0bef2e9f63962d3cf57484a6896634456e0cbe5ae3e6767d",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_050.json"
+    },
+    {
+      "batch": 51,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_051.json",
+      "input_sha256": "55626338f3a1ce5dc8d153f9f2672982afeaac65d2e9183f8aafdacb2a94fb1d",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_051.json"
+    },
+    {
+      "batch": 52,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_052.json",
+      "input_sha256": "3597a3050753fd6f9afae41773624fe756cb32d6109ef13a2bdccaa3a8aa169b",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_052.json"
+    },
+    {
+      "batch": 53,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_053.json",
+      "input_sha256": "bb83796314ab45f60f30dffd1472f928dca8871923115f41776eb0b6b03f8666",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_053.json"
+    },
+    {
+      "batch": 54,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_054.json",
+      "input_sha256": "b862cbeede9938df9e88b845fb8567381585db055ebf50de8c51f34f07ee4acb",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_054.json"
+    },
+    {
+      "batch": 55,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_055.json",
+      "input_sha256": "f92ee069f62992c07f4d77fed88b342a3c45a039579ba5fbb194c61820930f2d",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_055.json"
+    },
+    {
+      "batch": 56,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_056.json",
+      "input_sha256": "07a5115c290a84fa1986ddcae6281f1ad5aff7300a8ce59c6f295d8ec2fbe15b",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_056.json"
+    },
+    {
+      "batch": 57,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_057.json",
+      "input_sha256": "911dc66f172d7e58a4171df1aa8c18c6267adde264e7c3d562a6cd04092cd467",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_057.json"
+    },
+    {
+      "batch": 58,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_058.json",
+      "input_sha256": "d52f02e1e6956a784c1abb3e20c224af39f627a4f1171dc3248b0ef8a5ee4dea",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_058.json"
+    },
+    {
+      "batch": 59,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_059.json",
+      "input_sha256": "6509849924b6916a23bde690223983cb54022bcc24bf56d6c5cf0722160033ba",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_059.json"
+    },
+    {
+      "batch": 60,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_060.json",
+      "input_sha256": "31741aa09f410292acea6e869a6da1d5039a4883e431197de61842f3a798de29",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_060.json"
+    },
+    {
+      "batch": 61,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_061.json",
+      "input_sha256": "153766385dc98ed945013b7f3f1d474715ed84bb609eff2c685e0b90fccd3777",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_061.json"
+    },
+    {
+      "batch": 62,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_062.json",
+      "input_sha256": "651b7d640b2c996534a1ff634a33020b531213a98b5ac5a809b0aa2615bb1824",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_062.json"
+    },
+    {
+      "batch": 63,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_063.json",
+      "input_sha256": "f6d2cdbe174a738507a162bfaa95c6b908c5ae71b5b05235c026e5d758242d48",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_063.json"
+    },
+    {
+      "batch": 64,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_064.json",
+      "input_sha256": "4d5d2a574825ac1b8a9f200d858698be037a358ade91cea95239ed5bd1188dd7",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_064.json"
+    },
+    {
+      "batch": 65,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_065.json",
+      "input_sha256": "4cf70bb5f6d447d62eae89d5b29bd0d61117f6a42ac007e994dc4b18c24d3a29",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_065.json"
+    },
+    {
+      "batch": 66,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_066.json",
+      "input_sha256": "8c75ef90c5da03d9f9ba8f9d37828de4da931df6247239a8f290da2f3f81f6ec",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_066.json"
+    },
+    {
+      "batch": 67,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_067.json",
+      "input_sha256": "c096f349270fa8c040884bdbdb5f5dba0f5c02d3dc80d3b3d09c6ca372592fbe",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_067.json"
+    },
+    {
+      "batch": 68,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_068.json",
+      "input_sha256": "2cc2327835e55d636d0b223cc1313a1f87eb36bf2e198afd2d1289e68f428422",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_068.json"
+    },
+    {
+      "batch": 69,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_069.json",
+      "input_sha256": "e784992fdf71db9ba9d450c317f653081aa851fc7baaba0777af6ed0ffd8c29d",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_069.json"
+    },
+    {
+      "batch": 70,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_070.json",
+      "input_sha256": "aa45b441992e8799c1bf63720bc120e705c2aaca0a3a17eeeb6f5d6ff6e972a8",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_070.json"
+    },
+    {
+      "batch": 71,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_071.json",
+      "input_sha256": "2253ac99db225ee86a6256227edb474ff9dab5fab0a3fafb95905862d2bbc9e1",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_071.json"
+    },
+    {
+      "batch": 72,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_072.json",
+      "input_sha256": "20c6776e3e3ec434c32c454327be7847f95036dc5354dcbeb430bbb4cc3679eb",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_072.json"
+    },
+    {
+      "batch": 73,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_073.json",
+      "input_sha256": "d3665fbf98ce1c6b50724ad70300f47ec2710868b2782549117f1aa7d138b9ed",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_073.json"
+    },
+    {
+      "batch": 74,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_074.json",
+      "input_sha256": "bc66c394cf841486a4bbaf322cb7bd76a56591ebb6e83166fad7ba5543f377b6",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_074.json"
+    },
+    {
+      "batch": 75,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_075.json",
+      "input_sha256": "cca1b2132e7be5e69a28dde56c4e9428a3b7eadf61e4c2990905e9d20b6dfee8",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_075.json"
+    },
+    {
+      "batch": 76,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_076.json",
+      "input_sha256": "d3fa30fddc6c1163c302b623dcce2e8dd2393fc9112a04db2ae9812eb59e2aad",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_076.json"
+    },
+    {
+      "batch": 77,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_077.json",
+      "input_sha256": "6c3986fe4cd0dbad9e5df450fc96ca646eaad8d38fb687c20bf5bb1bc4345d27",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_077.json"
+    },
+    {
+      "batch": 78,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_078.json",
+      "input_sha256": "9d56a4cbd9c39c00214787d0e8d0e1d978cc4531fbb2231790507f411eca8ecd",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_078.json"
+    },
+    {
+      "batch": 79,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_079.json",
+      "input_sha256": "6a2c8c184ad1f1fcb51017c610349c1adddbec84670ef67b0cbecfd174d270cb",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_079.json"
+    },
+    {
+      "batch": 80,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_080.json",
+      "input_sha256": "f0970cc88140f3a99c31272154cca6fa7c3bececf56661f57ccc46197e496d29",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_080.json"
+    },
+    {
+      "batch": 81,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_081.json",
+      "input_sha256": "6f83747eea10ba8f060dee4403549a345ae3c30c4e1af9be8144c19352ea7a5d",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_081.json"
+    },
+    {
+      "batch": 82,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_082.json",
+      "input_sha256": "a7a3453357a163b806eeb6eb340ac1cf938023d919e2015e64b7a40eebb93126",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_082.json"
+    },
+    {
+      "batch": 83,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_083.json",
+      "input_sha256": "6a556fbadcfe5564f166fc6849236477434ae1ae78bcffeefe60ff2cb8f5b605",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_083.json"
+    },
+    {
+      "batch": 84,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_084.json",
+      "input_sha256": "7e356f04b0a8fd58ea3bfee5027916dbce88f31415b92a584f72053526d2f7f0",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_084.json"
+    },
+    {
+      "batch": 85,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_085.json",
+      "input_sha256": "c614e2f9fe2edd9d74caa7f050f1a39c33ec6d4c62d0725df2148d6f6ce5be55",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_085.json"
+    },
+    {
+      "batch": 86,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_086.json",
+      "input_sha256": "45fa06bde5b2a7cbe83deb7a9902e2a5a15db3ca14825eb715b2979b3aa69c74",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_086.json"
+    },
+    {
+      "batch": 87,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_087.json",
+      "input_sha256": "7653cea75f1f0a2cf141299969bc72dec52a01dc0eeee01770cf538587b19d59",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_087.json"
+    },
+    {
+      "batch": 88,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_088.json",
+      "input_sha256": "1dd6bde06de707996cc7192c47a28a4de99b5df69ca9324734f9a7d45d12dc12",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_088.json"
+    },
+    {
+      "batch": 89,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_089.json",
+      "input_sha256": "a18fbd5176c416b2ea23cc0297c2cdcca7f252471642d8c82174a23c59b4e9a1",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_089.json"
+    },
+    {
+      "batch": 90,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_090.json",
+      "input_sha256": "bc9885fdc7e07c64d2ee7bf1c3d2e38724eb47fe8de9ac6caef253312e11f5f0",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_090.json"
+    },
+    {
+      "batch": 91,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_091.json",
+      "input_sha256": "5d4fbe36f817dc842690772ccad9fdda87ddffdbc235613c139d9493fbcb51ea",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_091.json"
+    },
+    {
+      "batch": 92,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_092.json",
+      "input_sha256": "befbd8a7cb1f33301523d38e79cb56ae63a91efe8d9540456f7269e9743c5dd6",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_092.json"
+    },
+    {
+      "batch": 93,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_093.json",
+      "input_sha256": "b2169a24ccab1855d7044b87eff7e503d6d8682683861681a1202920cda4c5e7",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_093.json"
+    },
+    {
+      "batch": 94,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_094.json",
+      "input_sha256": "920375ad145a6684b7560b8336a264c10c4519224134a5cc859973ef1b4ce9fc",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_094.json"
+    },
+    {
+      "batch": 95,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_095.json",
+      "input_sha256": "aecd8197706c05d01628b57c44d903957c1399a1f92c65e7b397ddc1f4361470",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_095.json"
+    },
+    {
+      "batch": 96,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_096.json",
+      "input_sha256": "45f5aaac625ead301735a48faff90e7ca4a2681dc87b4330eac5ed2a67009c08",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_096.json"
+    },
+    {
+      "batch": 97,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_097.json",
+      "input_sha256": "8bd3f333f66c91959efd047ca8135f1a3620d560e3246394c844486e8408b2bf",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_097.json"
+    },
+    {
+      "batch": 98,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_098.json",
+      "input_sha256": "90b586db1fe2911d9aac7586ec31e6af562467b6ecb460a205269d0c002d08d2",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_098.json"
+    },
+    {
+      "batch": 99,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_099.json",
+      "input_sha256": "e46f87b3e112b3285b7c7f8514b376ea6cc0d11076fb120b994bc74f0de28237",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_099.json"
+    },
+    {
+      "batch": 100,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_100.json",
+      "input_sha256": "4ee681dca9d3023b347ee289197d95c9b8c712622264d264c3ca5fb2af59aca9",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_100.json"
+    },
+    {
+      "batch": 101,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_101.json",
+      "input_sha256": "6c68c1eff040adb173d386d6d3322f2629ed826ac823f31f00216d6c0740e737",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_101.json"
+    },
+    {
+      "batch": 102,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_102.json",
+      "input_sha256": "032e59ea67a801c5d42d0db3c7f25c62d5cd8a9057e2861ef87b4d2cdf92ef97",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_102.json"
+    },
+    {
+      "batch": 103,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_103.json",
+      "input_sha256": "38f45015cb01d7aafc8b767edd78a1e30db001243bb0c9a7d536479fdcc0c81c",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_103.json"
+    },
+    {
+      "batch": 104,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_104.json",
+      "input_sha256": "7575882b035824aa3ce82781c28babb6153589d6ece8903d0c51686817344c8d",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_104.json"
+    },
+    {
+      "batch": 105,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_105.json",
+      "input_sha256": "b793cf1fe3107ff7e9a35bb1fbe00fde1b58abae381fa1e0dd5f8c9c071488a1",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_105.json"
+    },
+    {
+      "batch": 106,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_106.json",
+      "input_sha256": "c8ca33cc12e3f75b754bb10ff632d1917566657ee2ede1a6dde648d715dc0561",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_106.json"
+    },
+    {
+      "batch": 107,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_107.json",
+      "input_sha256": "97b35fd69b12dd7bc0a9953dc1ac6f36c76e3fa04bcb51908041a595d9c12e31",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_107.json"
+    },
+    {
+      "batch": 108,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_108.json",
+      "input_sha256": "68e1ff8eaa66a3a0faa665f4b4ce1150b8bddbcb66db8108a6452bc2d66bdb01",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_108.json"
+    },
+    {
+      "batch": 109,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_109.json",
+      "input_sha256": "33e27e58ef24d191bf2f0967f21213fe6f45dfafb59315eaf0937542cea64393",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_109.json"
+    },
+    {
+      "batch": 110,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_110.json",
+      "input_sha256": "eb65a71868e299ba2990a23fa26020c3566f9f8a1a6dcfbd26d36cc76cb39332",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_110.json"
+    },
+    {
+      "batch": 111,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_111.json",
+      "input_sha256": "ff5cd995112d67e9fcfde1b4784cb19993a52a30e2300e01658f01a9f5d72961",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_111.json"
+    },
+    {
+      "batch": 112,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_112.json",
+      "input_sha256": "f900304763f4577e619022e63fe4d1a1750cfc14078e33336f68337890c4c5b4",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_112.json"
+    },
+    {
+      "batch": 113,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_113.json",
+      "input_sha256": "faea4975b4531372afae2107e5e3e8573ea9527ec0db4fe8dbf02bde62c301ee",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_113.json"
+    },
+    {
+      "batch": 114,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_114.json",
+      "input_sha256": "4e7ac1d0503b57a95ac20cfeae81c89734cda2813b4864b6e13c396b2b7692ae",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_114.json"
+    },
+    {
+      "batch": 115,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_115.json",
+      "input_sha256": "f845a689667742730dc6c693f89ae463bda31f08a8905a04e3ff1a2131ca0417",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_115.json"
+    },
+    {
+      "batch": 116,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_116.json",
+      "input_sha256": "6bdc52d59561c1e404cd9022753b60c7610ea6ff829d0cb7afc44a33cca9614e",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_116.json"
+    },
+    {
+      "batch": 117,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_117.json",
+      "input_sha256": "422de15038c98186a770688c7f935e85996d61bb011d584dff03af1243faa2c1",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_117.json"
+    },
+    {
+      "batch": 118,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_118.json",
+      "input_sha256": "4fc95749dbadb102da839842bf7f5ad5fe3e0aa82da18042bb61be783c23235a",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_118.json"
+    },
+    {
+      "batch": 119,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_119.json",
+      "input_sha256": "189239df1781b95f1ed3a4a99184fe77b8a4cda8efb395178820d35a7073f504",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_119.json"
+    },
+    {
+      "batch": 120,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_120.json",
+      "input_sha256": "bd3f2c13cc590502147f555075ee387a543e2c2a39d72860420acbfe52bda2f6",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_120.json"
+    },
+    {
+      "batch": 121,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_121.json",
+      "input_sha256": "5a204c15c807bb8add36ec4e4fa56fb27e7321cd3f2c4be65b88fd949bada55e",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_121.json"
+    },
+    {
+      "batch": 122,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_122.json",
+      "input_sha256": "400b3b5c8d55dded7812fa213954b611cd2629197565a539a1d1b6726b7d7a6d",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_122.json"
+    },
+    {
+      "batch": 123,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_123.json",
+      "input_sha256": "8fda5415facaa6945665ebe6591514adaa29d5bd09662297b4447653f8831176",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_123.json"
+    },
+    {
+      "batch": 124,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_124.json",
+      "input_sha256": "67b005279112cabe65e1a192d47f114d740ee621077d39c56ee0b657d9c40ea9",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_124.json"
+    },
+    {
+      "batch": 125,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_125.json",
+      "input_sha256": "4874eb9ab671cbe024e7aab3ac4e758643488c20e399cd2f01a2ab920385cc71",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_125.json"
+    },
+    {
+      "batch": 126,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_126.json",
+      "input_sha256": "9b2faa12da9ba91c244a166d0c0eef02af7986d0b5c5606c6fe66470aec486e2",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_126.json"
+    },
+    {
+      "batch": 127,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_127.json",
+      "input_sha256": "666596d3e09fb536f6045ee3499ae14902f89a7438b22712b70c3468bdbdbe54",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_127.json"
+    },
+    {
+      "batch": 128,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_128.json",
+      "input_sha256": "dc62ad2f818b4b349c1032ab418bbd948db9876fe1aa937819bef62cc6d83079",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_128.json"
+    },
+    {
+      "batch": 129,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_129.json",
+      "input_sha256": "68c0a13d425b0ad2cbf6a363f0f89f937ef2ea8b3e4f8f95da1a8aa4b7a56a4d",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_129.json"
+    },
+    {
+      "batch": 130,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_130.json",
+      "input_sha256": "e259f8a63665bda0c6fe2b45ebdee5b810b579d70bb512180c1e98793d44ad51",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_130.json"
+    },
+    {
+      "batch": 131,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_131.json",
+      "input_sha256": "86f661093e16c43961d67f23e43695fcba2756ef3a99f98fbc7aaad5c3d2d751",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_131.json"
+    },
+    {
+      "batch": 132,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_132.json",
+      "input_sha256": "cf700d5cb54ed3f03be34c864536229f307c94d30a94638b22fae3720cd7a1fd",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_132.json"
+    },
+    {
+      "batch": 133,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_133.json",
+      "input_sha256": "741d5a4975812436f470faf29a7b6281fd3dee5e1d3684a3c2d83796d9e28215",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_133.json"
+    },
+    {
+      "batch": 134,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_134.json",
+      "input_sha256": "124fccf3c9025a9813f491ea36ad59a978f46336a40c24b5c3ec0ef840fc3d0f",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_134.json"
+    },
+    {
+      "batch": 135,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_135.json",
+      "input_sha256": "239a30ddd9d86953bab181b9eaa3a6056f32e57c004e58d98b3189226639a173",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_135.json"
+    },
+    {
+      "batch": 136,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_136.json",
+      "input_sha256": "304036ee9b7097cbcaa375aba7a53e6b2351f8e76ad2a94c55f12fa4e0df5329",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_136.json"
+    },
+    {
+      "batch": 137,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_137.json",
+      "input_sha256": "089724e37e105d8cd694d85cb6a3b92075585916bb5f6560b79d086d32ad60ba",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_137.json"
+    },
+    {
+      "batch": 138,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_138.json",
+      "input_sha256": "82f4c438455d785bb10beb16f505b4c32b85c91d0d7f578ef768027c89052ddc",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_138.json"
+    },
+    {
+      "batch": 139,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_139.json",
+      "input_sha256": "093fcef0e24b559782bec7eb50f50672d2d93d96cab69cbc1369560b56a43ca4",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_139.json"
+    },
+    {
+      "batch": 140,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_140.json",
+      "input_sha256": "bc5ee1b19880f14376105b2d83a927a820a171c292f78506d9df29a58a6a74e7",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_140.json"
+    },
+    {
+      "batch": 141,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_141.json",
+      "input_sha256": "2443b5b69a98a03ca7f01c1666e769b1a9b75238ef37b764415b8ecf13a1d4ca",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_141.json"
+    },
+    {
+      "batch": 142,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_142.json",
+      "input_sha256": "1334b2b6a80270662585b98d31f0e0c265c4f9a1dfd11a44ec795a8be4ed10a9",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_142.json"
+    },
+    {
+      "batch": 143,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_143.json",
+      "input_sha256": "d077eca10d0955f87b61323b5dde1578ef235621f60175fb0996450e71d800a7",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_143.json"
+    },
+    {
+      "batch": 144,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_144.json",
+      "input_sha256": "bef82dd24dabcc87ef61ccb607b61f25bcaadfd913ac8535698cd8aaf032c651",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_144.json"
+    },
+    {
+      "batch": 145,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_145.json",
+      "input_sha256": "bc364a8f53808c0024a105bb3caa6103dd93c45e9b9319c2ca758612445d1576",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_145.json"
+    },
+    {
+      "batch": 146,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_146.json",
+      "input_sha256": "8bece6679b1dee23fc1591030809fab3d50b81e03f116d8665de70b0669b0498",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_146.json"
+    },
+    {
+      "batch": 147,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_147.json",
+      "input_sha256": "096a5a78e2d4cbf7ae4febda409381f97f04fb7f7bf55fd6a64dd27f8c6f3224",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_147.json"
+    },
+    {
+      "batch": 148,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_148.json",
+      "input_sha256": "54b7f04110ed534ededad4d53ce4756f589b280b5d2aa6fb24f2a249c3565e2f",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_148.json"
+    },
+    {
+      "batch": 149,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_149.json",
+      "input_sha256": "1f131a26bc471a6d9d52cb6c7b52a16d60d0ed77567336a8873c9df5e1d9c746",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_149.json"
+    },
+    {
+      "batch": 150,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_150.json",
+      "input_sha256": "0bc555481aa2ad94600655c4209a72d0721783a9bbc1091f7ba463649f07e413",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_150.json"
+    },
+    {
+      "batch": 151,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_151.json",
+      "input_sha256": "a44a31880217dea8e868d254c6342fe52b402e69000f11a8e4d39bdf134417e3",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_151.json"
+    },
+    {
+      "batch": 152,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_152.json",
+      "input_sha256": "f5389735408b50613e3eb8feda7ec698889b6d5e5b6f7ff82909ccf037be13a5",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_152.json"
+    },
+    {
+      "batch": 153,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_153.json",
+      "input_sha256": "31e06b544722f0dd94cf4d5e3e25b94745d7e83369dc48570cec3708256382f7",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_153.json"
+    },
+    {
+      "batch": 154,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_154.json",
+      "input_sha256": "fde8f49a57173e7b53a7234192b97fdc29a17ecab80c44c34e018667c67ac21d",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_154.json"
+    },
+    {
+      "batch": 155,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_155.json",
+      "input_sha256": "32c2253f4bf8c7ffa49bb9bb78d1d6a2a1563537fd2800c4823c26ba00982a54",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_155.json"
+    },
+    {
+      "batch": 156,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_156.json",
+      "input_sha256": "41c97102fe97d6777d37a5240adc5579c0118d0b6bd99a391eab846beaaf489b",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_156.json"
+    },
+    {
+      "batch": 157,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_157.json",
+      "input_sha256": "8079f6f8b62b934d604c914dbb77551de7ce9905c825ee077b7e509d12f6aaf0",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_157.json"
+    },
+    {
+      "batch": 158,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_158.json",
+      "input_sha256": "b7500a001c8fe8cf2cc58d1791c04ea9bd79bc9b9e233d7cadf9aa3d7f904d91",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_158.json"
+    },
+    {
+      "batch": 159,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_159.json",
+      "input_sha256": "ea4064540f1573d05471b9cb3f3a20e36d9baf04680727b28adc9295d922078b",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_159.json"
+    },
+    {
+      "batch": 160,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_160.json",
+      "input_sha256": "cb777b6b2daf8ada14352d88440c5b47e492aed118f160b3639a37ef3cdff276",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_160.json"
+    },
+    {
+      "batch": 161,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_161.json",
+      "input_sha256": "0fb8e8b7d5efd619a83125ca2c0d578a64fadc2d4806892daba071a4b8ec716d",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_161.json"
+    },
+    {
+      "batch": 162,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_162.json",
+      "input_sha256": "7ccf0651322fbba9c0798aba09d0494f7e15135b289309e14bf551f93d73b441",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_162.json"
+    },
+    {
+      "batch": 163,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_163.json",
+      "input_sha256": "610af500fd5689280116f8de59b3d11897ad7e1509301a791bf5ef37b8421d9d",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_163.json"
+    },
+    {
+      "batch": 164,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_164.json",
+      "input_sha256": "517ad28b1955c225f88813faa8f666d25921fd1913bf9d59f502274fc9c881cc",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_164.json"
+    },
+    {
+      "batch": 165,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_165.json",
+      "input_sha256": "de493b91229a9d6e9d480dcc8f093fe569ad17302ccde67cf48f8352a7a367fb",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_165.json"
+    },
+    {
+      "batch": 166,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_166.json",
+      "input_sha256": "36f6fe3b2c53fbc046087c0ca865076bc0759100920913ffde683053a3729d38",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_166.json"
+    },
+    {
+      "batch": 167,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_167.json",
+      "input_sha256": "ce7f56910a85e7930a053f27f73c960b412454d1098ee6714b4f5332c63f2e6a",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_167.json"
+    },
+    {
+      "batch": 168,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_168.json",
+      "input_sha256": "ceebae1bc6e4d2e1c3700fd2f0a57b2b60f3d66645a8170beac7651629b675a1",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_168.json"
+    },
+    {
+      "batch": 169,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_169.json",
+      "input_sha256": "ea1eb481b0a63e96d658fef6d47b96dbc60882e720103f5f631b6f847c674d75",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_169.json"
+    },
+    {
+      "batch": 170,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_170.json",
+      "input_sha256": "8c097b7dbc2e8a7f636fec32fab5981050f87cf3c4a0a9e9b2a3afb701a0505e",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_170.json"
+    },
+    {
+      "batch": 171,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_171.json",
+      "input_sha256": "c9ef83ebee314c8219186d68a286ec1b156c30f89d490956840ecdf09ffe7438",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_171.json"
+    },
+    {
+      "batch": 172,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_172.json",
+      "input_sha256": "159d3117a5ee522b0ca36901aaf0f330e3ad815def6e4f93fd2880910c3185bf",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_172.json"
+    },
+    {
+      "batch": 173,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_173.json",
+      "input_sha256": "d34d89b125647a31f7e2280a6038f66ff00cc00845519b5b2802d38a73771aa3",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_173.json"
+    },
+    {
+      "batch": 174,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_174.json",
+      "input_sha256": "da00cd03d58a92632ba4cd0a75e592ea7b16c585a92d133a65e65ef19cdedd96",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_174.json"
+    },
+    {
+      "batch": 175,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_175.json",
+      "input_sha256": "9bfa04258cc9cc9b5c09f3119b69ca1a6fde365659e0a2f605a3998d3fad0666",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_175.json"
+    },
+    {
+      "batch": 176,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_176.json",
+      "input_sha256": "81a63ff15eb177af9b2e2fa1f9a1d13e6129ba58ab3b88ff4dce3431120bdc9f",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_176.json"
+    },
+    {
+      "batch": 177,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_177.json",
+      "input_sha256": "105480d8411bb4417892b5735d0ab7cb40e3720759fb2b4f2b1a1f5a67563662",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_177.json"
+    },
+    {
+      "batch": 178,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_178.json",
+      "input_sha256": "3c694df469b183b8dbd86dc267fa5d46adf837187842c3f88774c0c25c582e33",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_178.json"
+    },
+    {
+      "batch": 179,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_179.json",
+      "input_sha256": "b13990d9be2885cbb2baea48bd3115e11557b4b177a9f685576496ce776eaf86",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_179.json"
+    },
+    {
+      "batch": 180,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_180.json",
+      "input_sha256": "cb8275b99921c9ce49f4492d91e3a2fa2ca5c4c798cd776e90822a359fc9fdef",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_180.json"
+    },
+    {
+      "batch": 181,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_181.json",
+      "input_sha256": "46a1c58f0d3868a1a0d1809b9a34e64f50939de6a0c98b44636dc3768d50c73e",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_181.json"
+    },
+    {
+      "batch": 182,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_182.json",
+      "input_sha256": "0008d90813f978b66cd7b67261f3bf116a9cc3723a661c85f3fb8bceadfa3175",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_182.json"
+    },
+    {
+      "batch": 183,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_183.json",
+      "input_sha256": "403c1b836820b3b1996e3301a37e144f36286b18db07da75f2cbaa6033300d3f",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_183.json"
+    },
+    {
+      "batch": 184,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_184.json",
+      "input_sha256": "c5e73b650a80551f5f786b1c16684b904915360dbace3ae7295d9a3d4d9d9824",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_184.json"
+    },
+    {
+      "batch": 185,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_185.json",
+      "input_sha256": "e771194dc76f2242dd69824734dd6c5b282c93e23cdc3a6c94485a984ae6730a",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_185.json"
+    },
+    {
+      "batch": 186,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_186.json",
+      "input_sha256": "7998c7699e9fdf289f13d8059ec8734219659b5eaeb55178ce97e9e73f4b59a8",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_186.json"
+    },
+    {
+      "batch": 187,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_187.json",
+      "input_sha256": "a83bf0256a734d9fd4a65f57ae5ac423be9638d102c16ff38100dc3de192dd2f",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_187.json"
+    },
+    {
+      "batch": 188,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_188.json",
+      "input_sha256": "a56c2d8da47b937f156f29394b805f735b83e7929e07f1253b7fa61b0193d448",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_188.json"
+    },
+    {
+      "batch": 189,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_189.json",
+      "input_sha256": "cbb5bd29724dc98a6d712c25a6d18e4aa92f632628f18f6f000958ba6b14b579",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_189.json"
+    },
+    {
+      "batch": 190,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_190.json",
+      "input_sha256": "d6a8da27430e342ad7f30f820b1a74963f09c2d45f242bf224b22fce739a2e8f",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_190.json"
+    },
+    {
+      "batch": 191,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_191.json",
+      "input_sha256": "1f15028ebfd317dacd0150dec7aaeba63b1e471e0159e443f866105578425a54",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_191.json"
+    },
+    {
+      "batch": 192,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_192.json",
+      "input_sha256": "07291f08503450f62eb385f90b0cc18c04dfd058150914ced8c522b413ee695f",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_192.json"
+    },
+    {
+      "batch": 193,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_193.json",
+      "input_sha256": "b0f8285e40bf7d9e3d18325a52a5f08f9afc85f29ec22063e74912d3df5a0951",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_193.json"
+    },
+    {
+      "batch": 194,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_194.json",
+      "input_sha256": "f50584c0f5943a668aa90bc835bbaf7c9b5ca96ad7729f04384cbd04654189e3",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_194.json"
+    },
+    {
+      "batch": 195,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_195.json",
+      "input_sha256": "f072522b2aee9c2a41a634ffcaf86adaf1ad996f624b925b46980964342c415a",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_195.json"
+    },
+    {
+      "batch": 196,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_196.json",
+      "input_sha256": "add2ca2fa9285b017383a827ebda4496634aff5fa4136346bbfe62060a5ada4b",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_196.json"
+    },
+    {
+      "batch": 197,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_197.json",
+      "input_sha256": "bdc5aca3189c41a8f6e0535bc7a42fb74f09699c75161eba4cbab25017b3f3ca",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_197.json"
+    },
+    {
+      "batch": 198,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_198.json",
+      "input_sha256": "dcddb06efffabd8ebd52e06ddb3460089ab92dcceff254582131713a5eb4356c",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_198.json"
+    },
+    {
+      "batch": 199,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_199.json",
+      "input_sha256": "b5f62d88c589f4dc02e055b7a6aeef492c15ba170cb8c463c6bbbfd1ec30edd1",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_199.json"
+    },
+    {
+      "batch": 200,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_200.json",
+      "input_sha256": "9da106af1e6f3d6e3ebd4fb097d56e757dd2632febaf550fb681760be7cab087",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_200.json"
+    },
+    {
+      "batch": 201,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_201.json",
+      "input_sha256": "bfc022144e5ed66cf04b1abaca095b165706c84833a5eb394aa398f842c66e27",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_201.json"
+    },
+    {
+      "batch": 202,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_202.json",
+      "input_sha256": "f6030b4482eb4abeb3223202fa1c21af2d0d86c9ff45a9c8ce5106860f502196",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_202.json"
+    },
+    {
+      "batch": 203,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_203.json",
+      "input_sha256": "3f2e94d59325be5dc6ff59d8b1dd5f6195de076f690dc8ed77d9a5bc2d1ad4ed",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_203.json"
+    },
+    {
+      "batch": 204,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_204.json",
+      "input_sha256": "ad1f5454e3753630cac3dee6690561e6c4686a8660c38af5a7d5a604777c6066",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_204.json"
+    },
+    {
+      "batch": 205,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_205.json",
+      "input_sha256": "2480de95314ae01f13626350ddb966a818307979ef36e1b5b32b7b04f6a177ee",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_205.json"
+    },
+    {
+      "batch": 206,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_206.json",
+      "input_sha256": "50604f98f22e0b6932245d83b28e364ea8cad86207ee06bbf6dd34a2c72616de",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_206.json"
+    },
+    {
+      "batch": 207,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_207.json",
+      "input_sha256": "b98130d2a5be81ff6cc8f3d2c4f67df3c2bf0e0a1250d3431575db658c7c9d18",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_207.json"
+    },
+    {
+      "batch": 208,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_208.json",
+      "input_sha256": "8b920d446eb35f8b3c0c69ccd6bb13bc71d9757a8161561cc6ed830cf8fa0429",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_208.json"
+    },
+    {
+      "batch": 209,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_209.json",
+      "input_sha256": "f1b65364ab9ffef00f50b842426437ea487748a237a2756ca08a517d75e75d18",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_209.json"
+    },
+    {
+      "batch": 210,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_210.json",
+      "input_sha256": "bed7c4d05cda934817893dbd726ae8afe29e3f4a84b72ab239c70863ae067fdb",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_210.json"
+    },
+    {
+      "batch": 211,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_211.json",
+      "input_sha256": "01faf72a83e54042afc3d5e94c7a94fd6e2038595ed20cffbb45ced2037db59e",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_211.json"
+    },
+    {
+      "batch": 212,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_212.json",
+      "input_sha256": "652d0cac990f9f497b4cb23c933f91b3f8f6861fff22cb94bfd0a2a110b3ac14",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_212.json"
+    },
+    {
+      "batch": 213,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_213.json",
+      "input_sha256": "f7c0eaa637b0af5e748c8172468b346eb2560f413c52cf64d6259aff91eefc0c",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_213.json"
+    },
+    {
+      "batch": 214,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_214.json",
+      "input_sha256": "d212b93b58abbae4429ac20f5be3a41384427a3be1b9543ba2f8d6718cb0805e",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_214.json"
+    },
+    {
+      "batch": 215,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_215.json",
+      "input_sha256": "60013b1081d8515fe5f08495c4759baac0cbaf5699a380b0a2bfa99f5137372c",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_215.json"
+    },
+    {
+      "batch": 216,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_216.json",
+      "input_sha256": "d4bf33ffb32cd3c669778210d82220d1221a704f6ee908060f2db5ce4a9fb216",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_216.json"
+    },
+    {
+      "batch": 217,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_217.json",
+      "input_sha256": "6eb578f69353049e8a894b1950aba419a268bdd1616d71e511b5928c1f1fc57c",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_217.json"
+    },
+    {
+      "batch": 218,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_218.json",
+      "input_sha256": "ccfc2128893f40ff8e868f2e207b850c9b49ba649c9e05ea5d1f55d7b15b1954",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_218.json"
+    },
+    {
+      "batch": 219,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_219.json",
+      "input_sha256": "047ac9fc523e3fb9e8d0c2ca8bbc7d1bd345bc5ec1361ee777d9bd8d7cfbbdc7",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_219.json"
+    },
+    {
+      "batch": 220,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_220.json",
+      "input_sha256": "89aff3f6d16a0b7d8ba5be1049ace5a7539a6ccf5e4afa0a8dfe07b7a4af913f",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_220.json"
+    },
+    {
+      "batch": 221,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_221.json",
+      "input_sha256": "25bc1dde38441ba3032f53b25909c6379b8c386ffccf126f91a295865beada05",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_221.json"
+    },
+    {
+      "batch": 222,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_222.json",
+      "input_sha256": "57a893d7f6209f0248220fb5853c2c850148f389170bf7e00a1913971a29c44c",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_222.json"
+    },
+    {
+      "batch": 223,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_223.json",
+      "input_sha256": "e9b8f7fb4559c988cd2e55f1a5013165b51b66e8ed94493296c11f17f30b533d",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_223.json"
+    },
+    {
+      "batch": 224,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_224.json",
+      "input_sha256": "d0cbb7b499ba0b03c0ec317d2c38c65a2cb75b4f9704124b62efa92b8a46354a",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_224.json"
+    },
+    {
+      "batch": 225,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_225.json",
+      "input_sha256": "70ebba3654f61c0ff912a5d21ed5b4a042bb5aef9988f3795e131375a7214d65",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_225.json"
+    },
+    {
+      "batch": 226,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_226.json",
+      "input_sha256": "c5929b2f916350f97516ab90ed6344a82ea6f2a1f6c1d3c37379a1b7666e6af2",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_226.json"
+    },
+    {
+      "batch": 227,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_227.json",
+      "input_sha256": "238de3614beedeaea9a06596d4757f9b9e9dbaea511fe6471608699c919cef73",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_227.json"
+    },
+    {
+      "batch": 228,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_228.json",
+      "input_sha256": "76e529afd72c6424f5c64082640228cfc59006af100fd8e1ec04222d6e81591a",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_228.json"
+    },
+    {
+      "batch": 229,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_229.json",
+      "input_sha256": "a128aef2e5327d9f97c51a97e213dbd8da4e9d87801daf78e481fc04fdc65e9a",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_229.json"
+    },
+    {
+      "batch": 230,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_230.json",
+      "input_sha256": "b062e82a07bc1b873d6fb8dedfd457a112a79bd634e5e30b2daab555ae02526c",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_230.json"
+    },
+    {
+      "batch": 231,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_231.json",
+      "input_sha256": "472221b6bd81a298f7381deb263bc444a3fd43f6d2ba5d7f0fc22e3775cfc09b",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_231.json"
+    },
+    {
+      "batch": 232,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_232.json",
+      "input_sha256": "20899d28f2d519886da0197eea1208b9a848a0e5d9b5e985ee41d33d6fb8d51d",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_232.json"
+    },
+    {
+      "batch": 233,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_233.json",
+      "input_sha256": "227fdf4f37fb8449ebad73201e106fd5447c27724f484b2c97b9274f2f3e0c09",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_233.json"
+    },
+    {
+      "batch": 234,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_234.json",
+      "input_sha256": "f7cc5369e66286e491c3d23a6dfea026eebc4808cc19e33f1a905f7a33f3a1ea",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_234.json"
+    },
+    {
+      "batch": 235,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_235.json",
+      "input_sha256": "764b9bc8dedbfa5ac17a9929f7ae9f9e7e4fae6b847a80527a11b26873dfaea0",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_235.json"
+    },
+    {
+      "batch": 236,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_236.json",
+      "input_sha256": "8336f7aec6168f07f8ecc405e4a53350d380e28afa35247f49e66c253087f02b",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_236.json"
+    },
+    {
+      "batch": 237,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_237.json",
+      "input_sha256": "e9bc6dae8ac2cb7254357a885abff4bdab15c34b10d9c3865d0ee30a217c6694",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_237.json"
+    },
+    {
+      "batch": 238,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_238.json",
+      "input_sha256": "68c88584078a185831ed8d786666ff0954362cea63bab5b50caa176a714aceb4",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_238.json"
+    },
+    {
+      "batch": 239,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_239.json",
+      "input_sha256": "a7aca882b1ee27aac776af811f15e1f22106195263de9ecece6b230532f31d0e",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_239.json"
+    },
+    {
+      "batch": 240,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_240.json",
+      "input_sha256": "1eeb47b200ff3c26a42a02afb04eb29f217928bf1c108883652a64c987341de9",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_240.json"
+    },
+    {
+      "batch": 241,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_241.json",
+      "input_sha256": "45f32f50fe02b5e2dda22a4df0e8eed89c66dba0ad0d85e1a12b72712e44c13e",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_241.json"
+    },
+    {
+      "batch": 242,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_242.json",
+      "input_sha256": "3ca0f9f834f17fe4d96127f9555481e30f8f8e789a4149c3381be6f3ffb01f77",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_242.json"
+    },
+    {
+      "batch": 243,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_243.json",
+      "input_sha256": "54726361388136a633fabeafd98fd15c4c027fa030c9fca59ef6a9f7f00abd35",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_243.json"
+    },
+    {
+      "batch": 244,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_244.json",
+      "input_sha256": "0cea00dc47a911ccff22821891babffae02606d327277d69bebae1ddb108dcd4",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_244.json"
+    },
+    {
+      "batch": 245,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_245.json",
+      "input_sha256": "a8c412f37884fc5dccea3ecc0067abe8674bc1b36be75331454817ddb2faaebf",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_245.json"
+    },
+    {
+      "batch": 246,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_246.json",
+      "input_sha256": "20d9fc381f34d6286d25472bfb6b337c369bdcda089346b361fe441cb7704bf5",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_246.json"
+    },
+    {
+      "batch": 247,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_247.json",
+      "input_sha256": "44686a1d06e02caf1eacb4a281ca0978adfadd5461ad86fb3beee778de4e7a20",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_247.json"
+    },
+    {
+      "batch": 248,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_248.json",
+      "input_sha256": "dd124875cbc6235148d786a3398e6b3458203b4c10731bd2276a9d42213b73d9",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_248.json"
+    },
+    {
+      "batch": 249,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_249.json",
+      "input_sha256": "a837ec598a86937fad1c37a2113578281dbfbc61cc5793272786a8f66beb41cf",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_249.json"
+    },
+    {
+      "batch": 250,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_250.json",
+      "input_sha256": "da11c4e8ca286023dded7aa2bdcc9ad09f3d7acfed0f2736b813ea8b73e1bbfa",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_250.json"
+    },
+    {
+      "batch": 251,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_251.json",
+      "input_sha256": "ff47f266690449d7dbaaeb34845edb813ef5c2541c4dcd077f0cd408c8798c29",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_251.json"
+    },
+    {
+      "batch": 252,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_252.json",
+      "input_sha256": "ea6dfc9335273f314f55e03b39c102d2baf810028b6640153f695555be6ba87f",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_252.json"
+    },
+    {
+      "batch": 253,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_253.json",
+      "input_sha256": "6311589c956fd94a615a2d6ca4edadc90a90edcbe6a69eefd6ffb2ee8148cadd",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_253.json"
+    },
+    {
+      "batch": 254,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_254.json",
+      "input_sha256": "2aef58854602122b4bafa8bc4131ef32eb1e5407d00cc8a752415e5be1f7d64e",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_254.json"
+    },
+    {
+      "batch": 255,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_255.json",
+      "input_sha256": "96069f5aba735069ecf1fd9f840c1ccce4f035ad9bc1c362084936782fb55bd0",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_255.json"
+    },
+    {
+      "batch": 256,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_256.json",
+      "input_sha256": "19c29ec6da0c273bb4322981281cf74c576de277958051bdb7ea88cfb126c039",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_256.json"
+    },
+    {
+      "batch": 257,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_257.json",
+      "input_sha256": "0cf7cc0e116c4dc843d103add51aeeec9213f5b593922be38dadf7eb7e2e312e",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_257.json"
+    },
+    {
+      "batch": 258,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_258.json",
+      "input_sha256": "bdef8dfad539cfe1d2a6899421f13f84d83a6a38af51ba2b78eaba16de5db4f9",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_258.json"
+    },
+    {
+      "batch": 259,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_259.json",
+      "input_sha256": "31c6fa820de3cd44f52cf1211ffea31d335459d6b5e65c0f5af51f630c6d3f74",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_259.json"
+    },
+    {
+      "batch": 260,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_260.json",
+      "input_sha256": "343a2d2d9dc1b082b626ebf2c610a6abeb9fe46764f814ae8597d78a967e42c0",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_260.json"
+    },
+    {
+      "batch": 261,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_261.json",
+      "input_sha256": "6a37e92276b5889e6fc0e0ac775b9f55605658f872f9406ca937bac049f79d89",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_261.json"
+    },
+    {
+      "batch": 262,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_262.json",
+      "input_sha256": "d55f00696fbcfc2570dc51e05ea30dd7aef8b930cbf9a240529cdee039d222d8",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_262.json"
+    },
+    {
+      "batch": 263,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_263.json",
+      "input_sha256": "a9554dc67dfbbaf45cc1490a189e0eca1f807629155b9e0bb02f8eb83afb3e69",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_263.json"
+    },
+    {
+      "batch": 264,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_264.json",
+      "input_sha256": "f23fb072508752751d377d6b72148789bfe54d96ecb2764c27fa6929207b6da0",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_264.json"
+    },
+    {
+      "batch": 265,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_265.json",
+      "input_sha256": "8af35a6965cce1bdb69cecc77d070234cff63159e6f2522ffa0a7b28ddd7a7de",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_265.json"
+    },
+    {
+      "batch": 266,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_266.json",
+      "input_sha256": "284e881c14e7c68bcbe99ddc4ec690cf00548cac1e872f7f79a61214e4e470d3",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_266.json"
+    },
+    {
+      "batch": 267,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_267.json",
+      "input_sha256": "9338e6f016b39128cc06fd593d30ab410eec4f4b833cf38088ae781c8c80f658",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_267.json"
+    },
+    {
+      "batch": 268,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_268.json",
+      "input_sha256": "08b59693b798702aabd54f4d24ce5c896eac4a509b2d1129a55b81d60076e46e",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_268.json"
+    },
+    {
+      "batch": 269,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_269.json",
+      "input_sha256": "ba6f1cac9b3cae7312210c878f8b89e67d05c85f0e85cce4c40b5db9c9910a16",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_269.json"
+    },
+    {
+      "batch": 270,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_270.json",
+      "input_sha256": "8128694515d48a5d8f09708f2f987b6382b6082c8fef30448cb621ac8a00f303",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_270.json"
+    },
+    {
+      "batch": 271,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_271.json",
+      "input_sha256": "3a2370371ae6dbae89d5ad4be6b8c2aa30c0ff7272c48665f824e92a81c6e11f",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_271.json"
+    },
+    {
+      "batch": 272,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_272.json",
+      "input_sha256": "1bb6f761a318b2cb02e804783f15c99a24282e188b5932460f057aecd668ca65",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_272.json"
+    },
+    {
+      "batch": 273,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_273.json",
+      "input_sha256": "897a9de048fe950e795b19b9acd3b618e397c9814f7bb8a8b8799bfb599615ec",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_273.json"
+    },
+    {
+      "batch": 274,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_274.json",
+      "input_sha256": "cacd894a86086e790bbde78dcc941fc1ff936aef8f3eb68e1b50c93e3ff1d5c9",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_274.json"
+    },
+    {
+      "batch": 275,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_275.json",
+      "input_sha256": "cb61fb7aec8f81b96a460878c8f69c2d1dea489a8f030a04eb752dad63396c57",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_275.json"
+    },
+    {
+      "batch": 276,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_276.json",
+      "input_sha256": "13d8a6057d34c18bd9616bccf4e7613cdda6dd966ac5a51318668e7706080e46",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_276.json"
+    },
+    {
+      "batch": 277,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_277.json",
+      "input_sha256": "448b7bad3e76887913c3da4e0f10b1b8bd17bcf8b4200818e999bc1083a7c3ba",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_277.json"
+    },
+    {
+      "batch": 278,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_278.json",
+      "input_sha256": "ffd6f424e9a0c27c983067b4f8d8668ec78a29047da9b619b5a4b1d00067a6f2",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_278.json"
+    },
+    {
+      "batch": 279,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_279.json",
+      "input_sha256": "7bf21f8a0e31a8675f18bc584e0c7783a9fa6bf7f3e15ce9d287fad3add54e4d",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_279.json"
+    },
+    {
+      "batch": 280,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_280.json",
+      "input_sha256": "a2fc243aa458cce28488704da4405ca56b9901613e615127637130f675e36dc3",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_280.json"
+    },
+    {
+      "batch": 281,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_281.json",
+      "input_sha256": "d99b5512e271ab0b2364d6a171c3f959f38cb5e2746f38e982f9b8469dc35ca3",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_281.json"
+    },
+    {
+      "batch": 282,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_282.json",
+      "input_sha256": "ff98e89c88968ed86dc4dc7190627ce5fa3b0c7cee9960d011812a70cb7ee56b",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_282.json"
+    },
+    {
+      "batch": 283,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_283.json",
+      "input_sha256": "0a0f11f1c2b432b58f48455f68a5c1594cb35177dac8ef894110bebf76d0db99",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_283.json"
+    },
+    {
+      "batch": 284,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_284.json",
+      "input_sha256": "847cec9eacd09c4972d6598195571053c4b8084e7e461fdcce80702975930ceb",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_284.json"
+    },
+    {
+      "batch": 285,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_285.json",
+      "input_sha256": "95ab5552d2eff120c8a5630f3d59857356a4cb91bd93677546f1b1604cd5b5a0",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_285.json"
+    },
+    {
+      "batch": 286,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_286.json",
+      "input_sha256": "efdb541ac131372630266e7cbeeb26f943f2e8135d424b203df82114db224443",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_286.json"
+    },
+    {
+      "batch": 287,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_287.json",
+      "input_sha256": "0ce34e38c055bacc23d90f26ecdeee6683b4d1b102c60b9b3eeb13823fdf3b6d",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_287.json"
+    },
+    {
+      "batch": 288,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_288.json",
+      "input_sha256": "999103a3e57eb6f136b1d8dca6304b866178ee34046982c7e2fd4ecf3806b0ac",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_288.json"
+    },
+    {
+      "batch": 289,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_289.json",
+      "input_sha256": "6d294cf499e69afaa049756da9c38e623e8af56321d640b7803c5f0dbfe04e21",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_289.json"
+    },
+    {
+      "batch": 290,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_290.json",
+      "input_sha256": "4b020299d308a7e411ba5791b919dc415adb0cd0a2b63bd24e733a6084e21248",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_290.json"
+    },
+    {
+      "batch": 291,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_291.json",
+      "input_sha256": "11642ebf80939072dee4a8ddbf65715f083e2bcb270ab25538edbefaaf54da4e",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_291.json"
+    },
+    {
+      "batch": 292,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_292.json",
+      "input_sha256": "874b6b1f60e22f1f67a1fdee1cc23249262c2a5a7205a037afad6245d99f912a",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_292.json"
+    },
+    {
+      "batch": 293,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_293.json",
+      "input_sha256": "34a52d0b862fe62d34aff3989d06cacf924dc2ca631d30bd69399ece4212346e",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_293.json"
+    },
+    {
+      "batch": 294,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_294.json",
+      "input_sha256": "07a03a1845aacf05d4c5b213086b9ff00a0585e23f0f610865f17ccf44156178",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_294.json"
+    },
+    {
+      "batch": 295,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_295.json",
+      "input_sha256": "1cdb44ac0f9b7ba82fd52d89b9e4a223d17b744c37c21c7611a281b3d7aa110a",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_295.json"
+    },
+    {
+      "batch": 296,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_296.json",
+      "input_sha256": "9a9b3e61c90609ad223db551660b0e6d41720c765fcc1793ad7ca998e0cc1341",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_296.json"
+    },
+    {
+      "batch": 297,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_297.json",
+      "input_sha256": "3678388122f835261b813224a8a0905467746a45c7b3ca5ca03e01daa84d82a6",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_297.json"
+    },
+    {
+      "batch": 298,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_298.json",
+      "input_sha256": "973ca7bcd5b32cf927f8f316fb0eb37597717a0a482faf2a71ae22453527ff43",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_298.json"
+    },
+    {
+      "batch": 299,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_299.json",
+      "input_sha256": "b22f2b455982522834b7b81919bb31105fd9b30ff7f3c4bcdcfb4f15533d97e9",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_299.json"
+    },
+    {
+      "batch": 300,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_300.json",
+      "input_sha256": "32a1864d966662806a94d1cad0bca4729ce36ddd683de46154342a87a59ba98a",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_300.json"
+    },
+    {
+      "batch": 301,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_301.json",
+      "input_sha256": "e9447acca37ea0a1108e6153956bcce4f31fa2c7191208490036fe2d253f254d",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_301.json"
+    },
+    {
+      "batch": 302,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_302.json",
+      "input_sha256": "710510a86a6c890a0388be488f4f62332bacc2b278c22997e733ab578b6185ba",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_302.json"
+    },
+    {
+      "batch": 303,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_303.json",
+      "input_sha256": "85aa5954b38fe804442e372076f9c01b7971d3bfe440195bd66c71fe368dce21",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_303.json"
+    },
+    {
+      "batch": 304,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_304.json",
+      "input_sha256": "9d0fdc7e3ec81645feab88ff5e32661fa9bcbfc2cb07522145361b32275cc07c",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_304.json"
+    },
+    {
+      "batch": 305,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_305.json",
+      "input_sha256": "e790ef9425ce2eec8203abd3f8df3c1588e131f3907d72c7268456fb78e3872d",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_305.json"
+    },
+    {
+      "batch": 306,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_306.json",
+      "input_sha256": "234982919f4b7419e044c4ae5c5cfe9369457de1e81bb5c2a559b68c1f5e4548",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_306.json"
+    },
+    {
+      "batch": 307,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_307.json",
+      "input_sha256": "c90c8ce24edcd070250a5227d266ef594c4efd2535a33abd80dc16f95ab35f4a",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_307.json"
+    },
+    {
+      "batch": 308,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_308.json",
+      "input_sha256": "8f04a2875b00a68b5ca8611d8c4af1234d8a7e1354312c44308294c709ece30d",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_308.json"
+    },
+    {
+      "batch": 309,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_309.json",
+      "input_sha256": "b52d052d72c00d22a9313201b0d5ec20785a9506a003cd2810ac899f79bb502a",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_309.json"
+    },
+    {
+      "batch": 310,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_310.json",
+      "input_sha256": "6d0a120dc5b93e015c255e662783afb23dfa46b55fd1c5b20cd82f4b12f3300c",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_310.json"
+    },
+    {
+      "batch": 311,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_311.json",
+      "input_sha256": "4d7364cd474d977e2e4323de00c387cc4ea3ec51a81bbe29166662ec02c2b48a",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_311.json"
+    },
+    {
+      "batch": 312,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_312.json",
+      "input_sha256": "87f3576b2e1cd2ad99bdecffdb1411cf700145c0cd05e4ddc28f11fa70d917fb",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_312.json"
+    },
+    {
+      "batch": 313,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_313.json",
+      "input_sha256": "2c17bd0dfc61455ae30ad529c4cea042e721e059369610357fbcb623865e3be2",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_313.json"
+    },
+    {
+      "batch": 314,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_314.json",
+      "input_sha256": "e7d5fcc98a6e6b493feab8cdb9294793f2cf73f137a1e5e2b489b831fdc4b014",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_314.json"
+    },
+    {
+      "batch": 315,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_315.json",
+      "input_sha256": "30d40dba553cdd597c584b407e3276f0607526eb19d07c68e58f19a0eaefe50f",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_315.json"
+    },
+    {
+      "batch": 316,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_316.json",
+      "input_sha256": "c135000504ae1016fa2581178a3c6463c49027f9492adaf8df8ac567279c822f",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_316.json"
+    },
+    {
+      "batch": 317,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_317.json",
+      "input_sha256": "ac9f4e244b1b4d579753c335a40cf5b280ce75c06e4b2c5cd844bbdb1e231383",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_317.json"
+    },
+    {
+      "batch": 318,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_318.json",
+      "input_sha256": "497bcc595aebf68bd7db10c68cb1807520397c020eb22bdd778ae5435cd94948",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_318.json"
+    },
+    {
+      "batch": 319,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_319.json",
+      "input_sha256": "d1d270544ca901c2e6da15bd67849f668d86a1bccd425f958feaffe940ea94ed",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_319.json"
+    },
+    {
+      "batch": 320,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_320.json",
+      "input_sha256": "397d4f0189acc6bec55cedfc643f8d4a73c9105595ee9019c433eb8b317ca986",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_320.json"
+    },
+    {
+      "batch": 321,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_321.json",
+      "input_sha256": "fef809a8befe0cbde5f676dd24f58d21b972edf4af201717861c98d8835a6df3",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_321.json"
+    },
+    {
+      "batch": 322,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_322.json",
+      "input_sha256": "773c28cb541428c2f2041de4ae19366646e8991ed931b1bb31223cfac9e7196f",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_322.json"
+    },
+    {
+      "batch": 323,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_323.json",
+      "input_sha256": "51fc26cbf7176baf6b3b2216d305ac297489833e082884a954a89e26c22aeb6b",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_323.json"
+    },
+    {
+      "batch": 324,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_324.json",
+      "input_sha256": "20fb176f969444acb0588b18b4ea3d81276e3f2d5cf22d9562eee8a22d5eed73",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_324.json"
+    },
+    {
+      "batch": 325,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_325.json",
+      "input_sha256": "fc338b929f46e4a2bc2b397f75e156e41e7b08cc458d170eaec4a9dcf48f5288",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_325.json"
+    },
+    {
+      "batch": 326,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_326.json",
+      "input_sha256": "4100143426d0715f4b92433d3664a27fa33bc99ebc8d1564c9540e008ec4bd43",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_326.json"
+    },
+    {
+      "batch": 327,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_327.json",
+      "input_sha256": "8fde5b1f61b2ac7f55fb9968f6d8eca1d4b26b755b3a8b66ed5d8f6c4d0f8ec1",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_327.json"
+    },
+    {
+      "batch": 328,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_328.json",
+      "input_sha256": "53f0f0bbbbbc4bd5da6963b6dc9a1673041c8a9e26a214170a3f4dfc07fd82f0",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_328.json"
+    },
+    {
+      "batch": 329,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_329.json",
+      "input_sha256": "f6ed415a6d2ee14dce91fb1c80adc7b3b9f46bdc39dafea557e79405e9118005",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_329.json"
+    },
+    {
+      "batch": 330,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_330.json",
+      "input_sha256": "95e947186a5de3211696e2a87c073c248b393b63650760752c3500a5afe6aa35",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_330.json"
+    },
+    {
+      "batch": 331,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_331.json",
+      "input_sha256": "8d3aadce6abdf6051ebde5495306c37e2791a3498caccbc5429f3d5595843f8c",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_331.json"
+    },
+    {
+      "batch": 332,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_332.json",
+      "input_sha256": "0612e8995a824783933e12b4f48e296910ba1265e129533993bcc01375529708",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_332.json"
+    },
+    {
+      "batch": 333,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_333.json",
+      "input_sha256": "c4c76a90bfb748a6553b79c2701b4acb578b5ac37b119d65dbaa9e223ae204e1",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_333.json"
+    },
+    {
+      "batch": 334,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_334.json",
+      "input_sha256": "55407b40e3696bf4cd5eef1df5060f65cef84c07148561e5113169a2c8c246fc",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_334.json"
+    },
+    {
+      "batch": 335,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_335.json",
+      "input_sha256": "bf1e323180bbdba2f055ae2721d92ddca20b499d6e0f167569564ba39b9be4ed",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_335.json"
+    },
+    {
+      "batch": 336,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_336.json",
+      "input_sha256": "7ac07a68f9923b9b928690aa00f68986e5d0bcfcad13e48e35e799964d2b7996",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_336.json"
+    },
+    {
+      "batch": 337,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_337.json",
+      "input_sha256": "4ef32977d2ca0f9383d728b486c14a7c77250e87ce8c9b9b0b7817364c54e042",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_337.json"
+    },
+    {
+      "batch": 338,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_338.json",
+      "input_sha256": "3571dee3d785e0465cbb38d1eb81b9e344e539fec381523805c51ef9148c9a07",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_338.json"
+    },
+    {
+      "batch": 339,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_339.json",
+      "input_sha256": "72e56960c6ee677f8d4c7e08a3c5393405924ddbfc8b7918020396d9cb7088e9",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_339.json"
+    },
+    {
+      "batch": 340,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_340.json",
+      "input_sha256": "740c24fd2899cafc3346c22e762d52eb8abd2ea54d2315b39a854855af223844",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_340.json"
+    },
+    {
+      "batch": 341,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_341.json",
+      "input_sha256": "382e37e6185ede079e9864dd688d4d3557efe6fb3681e30f3bfd7623ae265213",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_341.json"
+    },
+    {
+      "batch": 342,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_342.json",
+      "input_sha256": "7d4a58ce58414527cb94513215791bd5435f2affc2b6c4788e97ea41d9629a06",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_342.json"
+    },
+    {
+      "batch": 343,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_343.json",
+      "input_sha256": "a0f867d23d9d514b615655b8865e89f3596aea9d309c91c82a965f645bd982d6",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_343.json"
+    },
+    {
+      "batch": 344,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_344.json",
+      "input_sha256": "640534890a057ab7219843851848b800a39ae19d473507914b5ab04d2311ce59",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_344.json"
+    },
+    {
+      "batch": 345,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_345.json",
+      "input_sha256": "8baf277c9e73f498b28ad050cee1cf4b005574d8bc3a24babcc3658f07fe80b7",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_345.json"
+    },
+    {
+      "batch": 346,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_346.json",
+      "input_sha256": "7c456e5011d4eaf840f13d4ad6168f5aa2db65854d23e791714fc9018a6c5f8a",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_346.json"
+    },
+    {
+      "batch": 347,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_347.json",
+      "input_sha256": "4001a57540bea253803a509b9f6a871c8b50a08f3a4377d89cda171f5b8ee686",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_347.json"
+    },
+    {
+      "batch": 348,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_348.json",
+      "input_sha256": "5600dee55c4d5a66f65a3904b85b936db0064ceb282e09ec97b513e711bea137",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_348.json"
+    },
+    {
+      "batch": 349,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_349.json",
+      "input_sha256": "9e06560262135bcb53badb1f5988c96e0923e3d9d074a787bbb2ea2aa8249f13",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_349.json"
+    },
+    {
+      "batch": 350,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_350.json",
+      "input_sha256": "9d2d4282733d2a6b99dd8a1f7642963888556e84a1a44f2f03842084fd47d45f",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_350.json"
+    },
+    {
+      "batch": 351,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_351.json",
+      "input_sha256": "e3568e54dbff0be57638d9a147ec01e14919a17e53eb9b2b9db4749f5d85ab68",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_351.json"
+    },
+    {
+      "batch": 352,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_352.json",
+      "input_sha256": "1704f93eb6ef75bdf7ebda2f4ee92c65ac3f34f35eadce4b73e734309be9ba7d",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_352.json"
+    },
+    {
+      "batch": 353,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_353.json",
+      "input_sha256": "904eb931fdfc3221c0e9093893f4c3117d4b00816a686e7018d82eaaefe5d64a",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_353.json"
+    },
+    {
+      "batch": 354,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_354.json",
+      "input_sha256": "8747e1a00809644ac719a251fedb1fdfff284aecf396dfef8350ab6a9b52fb25",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_354.json"
+    },
+    {
+      "batch": 355,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_355.json",
+      "input_sha256": "3a79870dacc373e5302627b1d80367a1903d7460e4543a2e5e52b0204c2d7a97",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_355.json"
+    },
+    {
+      "batch": 356,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_356.json",
+      "input_sha256": "0accf513e108ba0839d521f5c9b0a345e64523daf194711083eaad7624958e5b",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_356.json"
+    },
+    {
+      "batch": 357,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_357.json",
+      "input_sha256": "d3c769c0bf070ac32909a6198058e1e57e34ffc32b8a6bb09a6426c8ad2c49c1",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_357.json"
+    },
+    {
+      "batch": 358,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_358.json",
+      "input_sha256": "5e5c3c105dd8ca8a6085bc1bfc3f011053c7e8a17a5f808642e663df368fb143",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_358.json"
+    },
+    {
+      "batch": 359,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_359.json",
+      "input_sha256": "ba623ab5a0b6866a94d5e41c1e2b1306f340c23ff45085eadd1a27e094f13635",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_359.json"
+    },
+    {
+      "batch": 360,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_360.json",
+      "input_sha256": "0e8f41f2a0f6472d5794003915439e3c34dd6e097fa35c1320dcac9b59e65edc",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_360.json"
+    },
+    {
+      "batch": 361,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_361.json",
+      "input_sha256": "7a4f61368cb6be6f86e51a55c349fc06cbf20681fb91d3db537f0c7d00a72870",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_361.json"
+    },
+    {
+      "batch": 362,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_362.json",
+      "input_sha256": "599470208a3218142f136d495567eb981a302e7981fba075f521b9ba09cfcd1b",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_362.json"
+    },
+    {
+      "batch": 363,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_363.json",
+      "input_sha256": "63eab7d28a89244611b670c220d6a5f82c041fde83cab87f22c5d5d9289784cf",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_363.json"
+    },
+    {
+      "batch": 364,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_364.json",
+      "input_sha256": "f096fd9ccc30a8bc4558118a32a75c994012940f1e001b7aa70054f328ebf852",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_364.json"
+    },
+    {
+      "batch": 365,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_365.json",
+      "input_sha256": "db20ae011320be5fef62af843f9928e3bc3476fb9029cf2e7c61f5d913d9ea4f",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_365.json"
+    },
+    {
+      "batch": 366,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_366.json",
+      "input_sha256": "fb5b5b4d4cad208b5a26afb808d39c52239bf95ac3925baf4d73073ed79f11af",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_366.json"
+    },
+    {
+      "batch": 367,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_367.json",
+      "input_sha256": "997b38b93f83123f0595818b5f47a55d6f37ce1b43c77cfd39921462765bee16",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_367.json"
+    },
+    {
+      "batch": 368,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_368.json",
+      "input_sha256": "41216d29a4d477ccce3257ef75f2d3a7dc274782f4959922e1654785d870106f",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_368.json"
+    },
+    {
+      "batch": 369,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_369.json",
+      "input_sha256": "7aca564a1981bbdd844bf002748d1ff543a5fcc9dc7dc0ec884c41ceaef76483",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_369.json"
+    },
+    {
+      "batch": 370,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_370.json",
+      "input_sha256": "71fb45ee547acfe020222494cbed9b4db01d93069afd9b4baaf4beb717d1c255",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_370.json"
+    },
+    {
+      "batch": 371,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_371.json",
+      "input_sha256": "6659a62089a15d2c8283c7163a8cf516e954821f31a568d36d5982a0be7278d3",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_371.json"
+    },
+    {
+      "batch": 372,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_372.json",
+      "input_sha256": "8a599ff837c2524a6f6ae6dc6221830076e8e357908509d5f7843b819502f464",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_372.json"
+    },
+    {
+      "batch": 373,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_373.json",
+      "input_sha256": "635e3307e4025632254b9058b2cb79b9b9c204698afbebf08adc80a0a36666cc",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_373.json"
+    },
+    {
+      "batch": 374,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_374.json",
+      "input_sha256": "983232fc5765f97e30db59e3f6d387f4f5ce7d7eddca0250761c96a4556c1dd8",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_374.json"
+    },
+    {
+      "batch": 375,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_375.json",
+      "input_sha256": "ba17036434a8cb1d9b670d2cf28b3ae4948c96bc9a8491e61597b60846b048d0",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_375.json"
+    },
+    {
+      "batch": 376,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_376.json",
+      "input_sha256": "1e4162fed8aaa49d4d071f8bd6acb862dd3e4f55ef9856b0509f9ea5f96009a1",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_376.json"
+    },
+    {
+      "batch": 377,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_377.json",
+      "input_sha256": "aa8803b0e9c342d220c6656e2dc8335a84e99cfea2dd3e619e8720dfa8b810b3",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_377.json"
+    },
+    {
+      "batch": 378,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_378.json",
+      "input_sha256": "7be76aef8ad15c2b72771fbed222398f9bda4c3e54caf594e970129d43722bcf",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_378.json"
+    },
+    {
+      "batch": 379,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_379.json",
+      "input_sha256": "e1b703820ad117dec2500bf6e740f3a94e6a149965268d9c722c89501c36aef2",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_379.json"
+    },
+    {
+      "batch": 380,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_380.json",
+      "input_sha256": "10908d19b95b8a433ba8239701529f59d63c256318cd9fb86ef51ec4c11823db",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_380.json"
+    },
+    {
+      "batch": 381,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_381.json",
+      "input_sha256": "a067a7ae6345a29214641a08dbee6086025d5f942f76684bbeb13fd7206fb688",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_381.json"
+    },
+    {
+      "batch": 382,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_382.json",
+      "input_sha256": "2c3afb408b57aa0ac5bbf6f394ace33b86b19ee0a1ecfa6544d651b20b166552",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_382.json"
+    },
+    {
+      "batch": 383,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_383.json",
+      "input_sha256": "a25bb08a5a5e780f65ceb8b8960a7c81e52f6e0c49bd948292195748fa882d1f",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_383.json"
+    },
+    {
+      "batch": 384,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_384.json",
+      "input_sha256": "1c95eeafd01f86f04bfb55b313c568f816c5e4240002a6f676d7e31ab54725ed",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_384.json"
+    },
+    {
+      "batch": 385,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_385.json",
+      "input_sha256": "80b9657be69a292bb43f981ed36e76da545c7e75a14bd619947ff73fd89678c9",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_385.json"
+    },
+    {
+      "batch": 386,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_386.json",
+      "input_sha256": "f18725377b434ebbe0a206417a7eda5422083d84e968419bc7404817cef09848",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_386.json"
+    },
+    {
+      "batch": 387,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_387.json",
+      "input_sha256": "62516d7fa162ae0a74ab178004151e72166cbd3fae1ab9e031275b75bc6dfc7f",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_387.json"
+    },
+    {
+      "batch": 388,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_388.json",
+      "input_sha256": "5a19c629d51a119ec807b90178dc6bf71e936650f97ae026b71023134412bae9",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_388.json"
+    },
+    {
+      "batch": 389,
+      "kind": "batch",
+      "n": 40,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_389.json",
+      "input_sha256": "e3ed5c3643d1cc07fa91f0fe96a1ecef414f9c19722ba992a3350002f8aa4015",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_389.json"
+    },
+    {
+      "batch": 390,
+      "kind": "batch",
+      "n": 26,
+      "input": "temp/screen/postmaterialism-individualism-secularization/batch_390.json",
+      "input_sha256": "7ee11ed84b71eb60f949e65e4f3b07ddd2c01c5ccb4ca165e484046a835d7e34",
+      "output": "temp/screen/postmaterialism-individualism-secularization/verdict_batch_390.json"
+    }
+  ]
+}

@@ -1,0 +1,482 @@
+[
+  {
+    "paperId": "CAL-b6386891f55cb9db615ca676d594c141ade7be85",
+    "title": "Political Islam, Marriage, and Fertility: Evidence from a Natural Experiment1",
+    "role": "EMPIRICAL",
+    "pair": "S3",
+    "design_tier": 1,
+    "provisional_cell": "PRIMARY_SECULAR_SHOCK_S3",
+    "expect_route_away": false,
+    "has_abstract": true
+  },
+  {
+    "paperId": "CAL-19e0a39de8a3965a4d3c212d58ec3885e4db5f9f",
+    "title": "Secularization and low fertility: How declining church membership changes couples’ childbearing",
+    "role": "EMPIRICAL",
+    "pair": "S3",
+    "design_tier": 1,
+    "provisional_cell": "PRIMARY_SECULAR_SHOCK_S3",
+    "expect_route_away": false,
+    "has_abstract": true
+  },
+  {
+    "paperId": "CAL-d198b85978a78b542f9328c7dc56d8fb54d4d978",
+    "title": "Religiously inspired baby boom: evidence from Georgia",
+    "role": "EMPIRICAL",
+    "pair": "S3",
+    "design_tier": 1,
+    "provisional_cell": "PRIMARY_SECULAR_SHOCK_S3",
+    "expect_route_away": false,
+    "has_abstract": true
+  },
+  {
+    "paperId": "CAL-96fd3e58816a93cb2618457e43ea3f2bb7d80884",
+    "title": "Religion and Fertility in Western Europe: Trends Across Cohorts in Britain, France and the Netherlands",
+    "role": "EMPIRICAL",
+    "pair": "S3",
+    "design_tier": 2,
+    "provisional_cell": "PRIMARY_VALUE_EX_ANTE",
+    "expect_route_away": false,
+    "has_abstract": true
+  },
+  {
+    "paperId": "CAL-5b416125effee9a4b45ddabaf2a112937fd24aea",
+    "title": "Religious Socialisation and Fertility: Transition to Third Birth in The Netherlands",
+    "role": "EMPIRICAL",
+    "pair": "S3",
+    "design_tier": 2,
+    "provisional_cell": "PRIMARY_VALUE_EX_ANTE",
+    "expect_route_away": false,
+    "has_abstract": false
+  },
+  {
+    "paperId": "CAL-0218be3f77344ee55b4fe3b9b3f59f84b8ea9fec",
+    "title": "Religiosity and the realisation of fertility intentions: A comparative study of eight European countries",
+    "role": "EMPIRICAL",
+    "pair": "S3",
+    "design_tier": 2,
+    "provisional_cell": "PRIMARY_VALUE_EX_ANTE",
+    "expect_route_away": false,
+    "has_abstract": true
+  },
+  {
+    "paperId": "CAL-None",
+    "title": "Differences in Fertility Patterns between East and West German Women. Disentangling the roles of cultural background and of the transformation process",
+    "role": "EMPIRICAL",
+    "pair": "S3",
+    "design_tier": 2,
+    "provisional_cell": "PRIMARY_VALUE_EX_ANTE",
+    "expect_route_away": false,
+    "has_abstract": true
+  },
+  {
+    "paperId": "CAL-7ead7fb25b77d2f6c5cccf5615590e2df7392aa6",
+    "title": "Parental religiosity and daughters’ fertility: the case of Catholics in southern Europe",
+    "role": "EMPIRICAL",
+    "pair": "S3",
+    "design_tier": 2,
+    "provisional_cell": "PRIMARY_VALUE_EX_ANTE",
+    "expect_route_away": false,
+    "has_abstract": false
+  },
+  {
+    "paperId": "CAL-9d9d783e336c6fbfba67e40bd31a36f3eea7b1d9",
+    "title": "When Does Religion Influence Fertility",
+    "role": "EMPIRICAL",
+    "pair": "S3",
+    "design_tier": 3,
+    "provisional_cell": "PRIMARY_SECULAR_S3",
+    "expect_route_away": false,
+    "has_abstract": true
+  },
+  {
+    "paperId": "CAL-3c39af8fb080f6bd1da3291a98fcd1ce76df8616",
+    "title": "Religiosity and Fertility in the United States: The Role of Fertility Intentions",
+    "role": "EMPIRICAL",
+    "pair": "S3",
+    "design_tier": 3,
+    "provisional_cell": "PRIMARY_SECULAR_S3",
+    "expect_route_away": false,
+    "has_abstract": true
+  },
+  {
+    "paperId": "CAL-9ad70cf69090867a24b242c726a6cad9d40a8b8d",
+    "title": "Religion and fertility in the United States: New patterns",
+    "role": "EMPIRICAL",
+    "pair": "S3",
+    "design_tier": 3,
+    "provisional_cell": "PRIMARY_SECULAR_S3",
+    "expect_route_away": false,
+    "has_abstract": true
+  },
+  {
+    "paperId": "CAL-11163f3b53cbcad80df57566f05f9a0718e6c34b",
+    "title": "Religion, Religiousness and Fertility in the US and in Europe",
+    "role": "EMPIRICAL",
+    "pair": "S3",
+    "design_tier": 3,
+    "provisional_cell": "PRIMARY_SECULAR_S3",
+    "expect_route_away": false,
+    "has_abstract": false
+  },
+  {
+    "paperId": "CAL-393be665914ea266b3d0dc4e847d949928786eae",
+    "title": "Religious affiliation religiosity and male and female fertility.",
+    "role": "EMPIRICAL",
+    "pair": "S3",
+    "design_tier": 3,
+    "provisional_cell": "PRIMARY_SECULAR_S3",
+    "expect_route_away": false,
+    "has_abstract": true
+  },
+  {
+    "paperId": "CAL-92e538558668c8efa1a1691578de5d762b2375fd",
+    "title": "Religion as a determinant of marital fertility",
+    "role": "EMPIRICAL",
+    "pair": "S3",
+    "design_tier": 3,
+    "provisional_cell": "PRIMARY_SECULAR_S3",
+    "expect_route_away": false,
+    "has_abstract": false
+  },
+  {
+    "paperId": "CAL-d3e7b3e0f2116412527f9d81a12c2047c99ac688",
+    "title": "The evolution of secularization: cultural transmission, religion and fertility—theory, simulations and evidence",
+    "role": "EMPIRICAL",
+    "pair": "S3",
+    "design_tier": 3,
+    "provisional_cell": "PRIMARY_SECULAR_S3",
+    "expect_route_away": false,
+    "has_abstract": false
+  },
+  {
+    "paperId": "CAL-34ca8e18a03940715f648199cb5463823a0d2d1a",
+    "title": "Disentangling the Roles of Modernization and Secularization on Fertility: The Case of Turkey",
+    "role": "EMPIRICAL",
+    "pair": "S3",
+    "design_tier": 3,
+    "provisional_cell": "PRIMARY_SECULAR_S3",
+    "expect_route_away": false,
+    "has_abstract": false
+  },
+  {
+    "paperId": "CAL-3cb628af7c6d9ef6e555cc7b2fcac9eefaddb257",
+    "title": "Explaining Religious Differentials in Family Size Preferences: Evidence from Nepal in 1996",
+    "role": "EMPIRICAL",
+    "pair": "S3",
+    "design_tier": 3,
+    "provisional_cell": "PRIMARY_SECULAR_S3",
+    "expect_route_away": false,
+    "has_abstract": true
+  },
+  {
+    "paperId": "CAL-8e3b1e17f0945acabee06c70bf2f743baf5b680b",
+    "title": "Demographic Imperatives and Religious Markets: Considering the Individual and Interactive Roles of Fertility and Switching in Group Growth",
+    "role": "EMPIRICAL",
+    "pair": "S3",
+    "design_tier": 3,
+    "provisional_cell": "PRIMARY_SECULAR_S3",
+    "expect_route_away": false,
+    "has_abstract": true
+  },
+  {
+    "paperId": "CAL-da21c5418fd9b4fce9c1f9443063e7fa13dcddf5",
+    "title": "Religious Affiliation, Participation and Fertility: A Cautionary Note",
+    "role": "EMPIRICAL",
+    "pair": "S3",
+    "design_tier": 3,
+    "provisional_cell": "PRIMARY_SECULAR_S3",
+    "expect_route_away": false,
+    "has_abstract": true
+  },
+  {
+    "paperId": "CAL-d61e2915fa037325f9164559ca6db6a64468766c",
+    "title": "The relationship between social status and biological success: A case study of the Mormon religious hierarchy",
+    "role": "EMPIRICAL",
+    "pair": "S3",
+    "design_tier": 3,
+    "provisional_cell": "PRIMARY_SECULAR_S3",
+    "expect_route_away": false,
+    "has_abstract": false
+  },
+  {
+    "paperId": "CAL-7c88a2c800fbeb6ba9e0b57547ff157394ac8d49",
+    "title": "Modes of production secularization and the pace of the fertility decline in Western Europe 1870-1930.",
+    "role": "EMPIRICAL",
+    "pair": "S3",
+    "design_tier": 3,
+    "provisional_cell": "PRIMARY_SECULAR_S3",
+    "expect_route_away": false,
+    "has_abstract": false
+  },
+  {
+    "paperId": "CAL-d867ecfa8afe6682411df308658fc135fecddcef",
+    "title": "Stemming the tide. Denomination and religiousness in the Dutch fertility transition (1845-1945)",
+    "role": "EMPIRICAL",
+    "pair": "S3",
+    "design_tier": 3,
+    "provisional_cell": "PRIMARY_SECULAR_S3",
+    "expect_route_away": false,
+    "has_abstract": false
+  },
+  {
+    "paperId": "CAL-ca6fde09c655c340a1cbf1e767f5f44ddb5a074e",
+    "title": "URBANIZATION, SECULARIZATION, AND BIRTH SPACING: A CASE STUDY OF AN HISTORICAL FERTILITY TRANSITION",
+    "role": "EMPIRICAL",
+    "pair": "S3",
+    "design_tier": 3,
+    "provisional_cell": "PRIMARY_SECULAR_S3",
+    "expect_route_away": false,
+    "has_abstract": true
+  },
+  {
+    "paperId": "CAL-7a6c35241f4f2ae0f62795670afdd5dd428613fa",
+    "title": "Cultural Dynamics and Economic Theories of Fertility Change",
+    "role": "EMPIRICAL",
+    "pair": "S1",
+    "design_tier": 4,
+    "provisional_cell": "PRIMARY_POSTMATERIAL_S1",
+    "expect_route_away": false,
+    "has_abstract": true
+  },
+  {
+    "paperId": "CAL-47a75ea7fa4323a7aadb14938425b2c257d5049a",
+    "title": "Theories of Postindustrial Fertility Decline: An Empirical Examination",
+    "role": "EMPIRICAL",
+    "pair": "S1",
+    "design_tier": 3,
+    "provisional_cell": "PRIMARY_POSTMATERIAL_S1",
+    "expect_route_away": false,
+    "has_abstract": true
+  },
+  {
+    "paperId": "CAL-07300c1b03d09dabdf3ebf01544ff2642a7ceb26",
+    "title": "Postmaterialismus und generatives Verhalten",
+    "role": "EMPIRICAL",
+    "pair": "S1",
+    "design_tier": 3,
+    "provisional_cell": "PRIMARY_POSTMATERIAL_S1",
+    "expect_route_away": false,
+    "has_abstract": true
+  },
+  {
+    "paperId": "CAL-d059a02e21752a07efdf02588cfec16f762fd3b5",
+    "title": "Values and fertility change in Japan.",
+    "role": "EMPIRICAL",
+    "pair": "S1",
+    "design_tier": 3,
+    "provisional_cell": "PRIMARY_POSTMATERIAL_S1",
+    "expect_route_away": false,
+    "has_abstract": true
+  },
+  {
+    "paperId": "CAL-None",
+    "title": "Self-Fulfilment and Fertility Intentions: The Interplay of Cultural Values and Expected Welfare State Support",
+    "role": "EMPIRICAL",
+    "pair": "S1",
+    "design_tier": 3,
+    "provisional_cell": "PRIMARY_POSTMATERIAL_S1",
+    "expect_route_away": false,
+    "has_abstract": true
+  },
+  {
+    "paperId": "CAL-None",
+    "title": "Culture: An Empirical Investigation of Beliefs, Work, and Fertility",
+    "role": "EMPIRICAL",
+    "pair": "S2",
+    "design_tier": 2,
+    "provisional_cell": "MIXED_CULTURE_PROXY",
+    "expect_route_away": false,
+    "has_abstract": true
+  },
+  {
+    "paperId": "CAL-None",
+    "title": "Does Culture Matter?",
+    "role": "THEORY",
+    "pair": "S2",
+    "design_tier": null,
+    "provisional_cell": "SDT_FRAMEWORK_THEORY",
+    "expect_route_away": false,
+    "has_abstract": false
+  },
+  {
+    "paperId": "CAL-ee63b1e3053a3ae76d6bb8a09f67612c84ebb7a4",
+    "title": "Does individualism promote gender equality?",
+    "role": "DECOY",
+    "pair": "S2",
+    "design_tier": null,
+    "provisional_cell": "OFF_OUTCOME",
+    "expect_route_away": true,
+    "has_abstract": true
+  },
+  {
+    "paperId": "CAL-ee2b64bacacad2c4696e8773d4f945749f002f3b",
+    "title": "The Incompatibility of Materialism and the Desire for Children: Psychological Insights into the Fertility Discrepancy Among Modern Countries",
+    "role": "EMPIRICAL",
+    "pair": "S5",
+    "design_tier": 3,
+    "provisional_cell": "PRIMARY_CONSUMERISM_S5",
+    "expect_route_away": false,
+    "has_abstract": true
+  },
+  {
+    "paperId": "CAL-6b9cbb8ad0bfd27601a23e8b9f5fa4a94f0b2f13",
+    "title": "Changing Attitudes toward Marriage and Children in Six Countries",
+    "role": "EMPIRICAL",
+    "pair": "S5",
+    "design_tier": 3,
+    "provisional_cell": "PRIMARY_CONSUMERISM_S5",
+    "expect_route_away": false,
+    "has_abstract": false
+  },
+  {
+    "paperId": "CAL-33f0f887714ce03ab9824aff007d9c4d4a1170b8",
+    "title": "THE SECOND DEMOGRAPHIC TRANSITION THEORY: A Review and Appraisal",
+    "role": "THEORY",
+    "pair": "ALL",
+    "design_tier": null,
+    "provisional_cell": "SDT_FRAMEWORK_THEORY",
+    "expect_route_away": false,
+    "has_abstract": true
+  },
+  {
+    "paperId": "CAL-3ba3099be6c5a80e710648b088a6979b6f5ab2bd",
+    "title": "The second demographic transition, 1986–2020: sub-replacement fertility and rising cohabitation—a global update",
+    "role": "THEORY",
+    "pair": "ALL",
+    "design_tier": null,
+    "provisional_cell": "SDT_FRAMEWORK_THEORY",
+    "expect_route_away": false,
+    "has_abstract": true
+  },
+  {
+    "paperId": "CAL-c942b28455e1dc4f80c7a6f241f0e1205522e0cf",
+    "title": "INAUGURAL ARTICLE by a Recently Elected Academy Member:The second demographic transition: A concise overview of its development",
+    "role": "THEORY",
+    "pair": "ALL",
+    "design_tier": null,
+    "provisional_cell": "SDT_FRAMEWORK_THEORY",
+    "expect_route_away": false,
+    "has_abstract": false
+  },
+  {
+    "paperId": "CAL-3b3fbe9ced934bb0169128eb8598f2578e01b528",
+    "title": "Human fertility and religions in sub-Saharan Africa: A comprehensive review of publications and data, 2010-2020.",
+    "role": "CHANNEL1_REVIEW",
+    "pair": "S3",
+    "design_tier": null,
+    "provisional_cell": "SDT_FRAMEWORK_THEORY",
+    "expect_route_away": false,
+    "has_abstract": true
+  },
+  {
+    "paperId": "CAL-None",
+    "title": "Influence of Religion and Religiosity on Fertility and Contraceptive Use in Continental Sub-Saharan Africa: A Comprehensive Review",
+    "role": "CHANNEL1_REVIEW",
+    "pair": "S3",
+    "design_tier": null,
+    "provisional_cell": "SDT_FRAMEWORK_THEORY",
+    "expect_route_away": false,
+    "has_abstract": true
+  },
+  {
+    "paperId": "CAL-b057d4036ea1091eb9174ce4f23d476e1c55f9de",
+    "title": "Does forming a nuclear family increase religiosity? Longitudinal evidence from the British Household Panel Survey",
+    "role": "REVERSE",
+    "pair": "S3",
+    "design_tier": null,
+    "provisional_cell": "REVERSE",
+    "expect_route_away": false,
+    "has_abstract": true
+  },
+  {
+    "paperId": "CAL-4a6a507dbf4fc0f005c3a14bde805ac2176b9596",
+    "title": "The Power of TV: Cable Television and Women's Status in India",
+    "role": "DECOY",
+    "pair": "DECOY",
+    "design_tier": null,
+    "provisional_cell": "OFF_CHANNEL_A20",
+    "expect_route_away": true,
+    "has_abstract": false
+  },
+  {
+    "paperId": "CAL-5663acaf51c4cb341a17746ebd11c9f5282b21c7",
+    "title": "MASS MEDIA AND SOCIAL CHANGE: CAN WE USE TELEVISION TO FIGHT POVERTY?",
+    "role": "DECOY",
+    "pair": "DECOY",
+    "design_tier": null,
+    "provisional_cell": "OFF_CHANNEL_A20",
+    "expect_route_away": true,
+    "has_abstract": false
+  },
+  {
+    "paperId": "CAL-9ede66d601b553acd50ead817f547e74883ee423",
+    "title": "New ideas and fertility limitation: The role of mass media",
+    "role": "DECOY",
+    "pair": "DECOY",
+    "design_tier": null,
+    "provisional_cell": "OFF_CHANNEL_A20",
+    "expect_route_away": true,
+    "has_abstract": false
+  },
+  {
+    "paperId": "CAL-6f8bfdbf8e99c4b99e82a24f685c3b3e7530151f",
+    "title": "How Do Changes in Gender Role Attitudes Towards Female Employment Influence Fertility? A Macro-Level Analysis",
+    "role": "DECOY",
+    "pair": "DECOY",
+    "design_tier": null,
+    "provisional_cell": "OFF_GENDER_D2a",
+    "expect_route_away": true,
+    "has_abstract": true
+  },
+  {
+    "paperId": "CAL-2a893d86e18525a6422ef8fb3ed3357acba474a8",
+    "title": "Three dimensions of the relationship between gender role attitudes and fertility intentions",
+    "role": "DECOY",
+    "pair": "DECOY",
+    "design_tier": null,
+    "provisional_cell": "OFF_GENDER_D2a",
+    "expect_route_away": true,
+    "has_abstract": true
+  },
+  {
+    "paperId": "CAL-fd8bd1963132cc33c2b736d69c2d47ba68157e91",
+    "title": "Religion and contraceptive use in Kazakhstan: A study of mediating mechanisms",
+    "role": "DECOY",
+    "pair": "DECOY",
+    "design_tier": null,
+    "provisional_cell": "OFF_CONTRACEPTIVE_ATTITUDE_A3_A6",
+    "expect_route_away": true,
+    "has_abstract": false
+  },
+  {
+    "paperId": "CAL-31696d115fad1659534f9e4058ae37fbe8fc3ba2",
+    "title": "Patterns of contraceptive use in the United States: the importance of religious factors.",
+    "role": "DECOY",
+    "pair": "DECOY",
+    "design_tier": null,
+    "provisional_cell": "OFF_CONTRACEPTIVE_ATTITUDE_A3_A6",
+    "expect_route_away": true,
+    "has_abstract": false
+  },
+  {
+    "paperId": "CAL-None",
+    "title": "How religion mediates the fertility response to maternity benefits",
+    "role": "DECOY",
+    "pair": "DECOY",
+    "design_tier": null,
+    "provisional_cell": "OFF_OTHER",
+    "expect_route_away": true,
+    "has_abstract": true
+  },
+  {
+    "paperId": "CAL-fecb7b546163d6c8e7a02b81e73c031106d4b295",
+    "title": "Postmaterialism and voluntary childlessness",
+    "role": "DECOY",
+    "pair": "S4",
+    "design_tier": null,
+    "provisional_cell": "NORM_ACCEPTABILITY_DESCRIPTIVE",
+    "expect_route_away": true,
+    "has_abstract": true
+  }
+]
