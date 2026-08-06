@@ -23,6 +23,56 @@
 - [ ] 14. PI review and sign-off
 
 ## Log
+- 2026-08-05 (Shravan/Claude): **QUERY REPAIRED AND C1 RE-RUN. v2 corpus 17,646 records, all six
+  clusters complete, and ALL THREE TIER-1 NATURAL EXPERIMENTS ARE NOW IN THE CORPUS.** Recall
+  A-only **78.9 → 94.7%**, both-channels **91.7 → 100%**, B-only 80.8 → 82.4%, weighted overall
+  **81.0 → 83.5%** on n=412. `{slug}-production-query-v2.json`, `{slug}-query-repair.md`,
+  `{slug}-live-corpus-v2.json`, `{slug}-prefilter-v2.*`, `{slug}-miss-decomposition.*`; scripts
+  `106_d1a_query_repair.py`, `107_d1a_miss_decomposition.py`. v1 artifacts untouched.
+  **(1) The repaired query is SMALLER, not bigger — 130 verified variants against a naive 305.**
+  Expansions are harvested from the gold titles (query-independent, so they carry the vocabulary of
+  the papers v1 missed), the corpus titles, and suffix rules, and every one is verified live. The
+  acceptance gate is the production filter with a DOI pinned to it, and **all three gates pass**
+  including the negative control.
+  **(2) The bug that survived two fixes, and it is the most generalisable thing here.** Selecting
+  kept variants **by live count** looked obviously right and was wrong: OpenAlex stems `seculared`,
+  `secularing` and `seculares` back to `secular`, so each returns **34,326** — the same postings list
+  under three spellings — and all of them outrank the genuine `secularization` at 4,657. Eight slots
+  filled with noise, and the one derived form the entire repair existed to recover was dropped.
+  **A high count does not mean a term contributes anything.** Fixed by preferring forms observed in
+  the gold/corpus titles and discarding generated forms whose count duplicates one already kept.
+  **(3) Three defects of my own, each in the direction of looking finished.** (a) `oa_count` returned
+  `None` on any failure and callers coerced it to `0`, so a budget refusal was recorded as "this term
+  retrieves nothing" **and as "the acceptance paper is not retrieved"** — the run reported three gate
+  failures including the control. A refusal read as a measurement, in the script written to fix that
+  exact class. (b) The membership-test cache key omitted the query, so a re-run after changing the
+  terms replayed the **previous** term list's verdict — the same defect fixed in `103_`'s page cache
+  two files earlier. (c) `103_`'s page cache had the same hole and would have replayed v1's pages
+  under v2; the key now hashes the filter and the 95 existing pages were migrated.
+  **(4) Two real provider constraints, both previously unknown.** OpenAlex refuses **more than 100
+  OR'd values** per `title.search` (v1's 67 fit; the expansion did not), and it rejects any request
+  containing a star — so `oa_term()` stripping stars was never optional. `103_` now refuses an
+  oversize block by name rather than letting the provider refuse it mid-pull.
+  **(5) The residue is decomposed rather than assumed, and it is NOT mostly an indexing gap.**
+  68 gold records remain missing: **21 addressable query holes**, **19 probable index gaps**,
+  **24 GOLD-SET DEFECTS**, 4 unconfirmed. Recall ceiling **88.6–100%**, reported as a bound because
+  the untestable classes are the uncertainty.
+  **(6) The gold-set defect class is new and it changes what the recall number means.** 24 of the
+  misses have a stored "title" that is an entire **citation string** — A3's `unstructured`-field
+  fallback, which it found in 27 records and evidently did not fully repair. Such a record cannot
+  match by title however complete the index is, so **it depresses measured Recall(B-only) while
+  saying nothing about coverage**. Visible as one work appearing twice: *"Report on analysis of ESS
+  data…"* classified `QUERY_HOLE`, and *"Liefbroer, A. C., & Merz, E.-M. (2009). Report on analysis
+  of ESS data…"* classified a gap. **Fix the gold set, do not chase this in the query.**
+  **(7) Reading the sample beat trusting the number for the third time today.** The decomposition
+  first reported **61** probable index gaps; a hand spot-check of four found *"Changing Attitudes
+  toward Marriage and Children in Six Countries"* sitting in OpenAlex **under that exact title**. The
+  probe had been double-url-encoded and was pushing the title's commas into a comma-delimited filter.
+  61 → 43 → 19 across two corrections, and the first count looked entirely plausible.
+  **(8) Pre-filter re-run on v2: 17,646 → 15,586 screened, 205 leads, 340 gold tested, 0 lost.**
+  **NEXT: the screen can now run on the v2 corpus.** Before it does, two cheap items are worth
+  taking: repair the 24 citation-string gold rows, and look at the 21 query holes for a common
+  vocabulary gap.
 - 2026-08-05 (Shravan/Claude): **C1 COMPLETE — 17,281 records, every cluster reads `complete: yes`.
   And the completed pull exposes a defect in the FROZEN PRODUCTION QUERY: 24 of its 45 wildcard
   terms retrieve almost nothing, and two of the chapter's three Tier-1 natural experiments are

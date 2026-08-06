@@ -1,0 +1,532 @@
+{
+ "slug": "postmaterialism-individualism-secularization",
+ "corpus": "postmaterialism-individualism-secularization-live-corpus-v2.json",
+ "gold_n": 412,
+ "misses": 68,
+ "tally": {
+  "QUERY_HOLE": 21,
+  "GOLD_DEFECT_CITATION_STRING": 24,
+  "INDEX_GAP_PROBABLE": 19,
+  "UNCONFIRMED": 4
+ },
+ "unconfirmed": 4,
+ "recall_ceiling_pct_range": [
+  88.6,
+  100.0
+ ],
+ "records": [
+  {
+   "title": "Changing Attitudes toward Marriage and Children in Six Countries",
+   "tier": "A_ONLY",
+   "doi": null,
+   "resolution": null,
+   "verdict": "QUERY_HOLE",
+   "openalex_title": "Changing Attitudes toward Marriage and Children in Six Countries",
+   "evidence": "no DOI; matched by title probe"
+  },
+  {
+   "title": "B Arpino G Esping-Andersen L Pessin The diffusion of gender egalitarian values and fertility. The Fertility Gap in Europe: Singularities of the Spanish Case ed Esping-Andersen G (La Caixa Foundation Barcelona) Welfare Projects Social Studies Collection no. 36. (2013).",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "GOLD_DEFECT_CITATION_STRING"
+  },
+  {
+   "title": "Attitudes toward fertility and childbearing among childless female teachers working in the Gorgan education system in 2023",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "ENRICHED",
+   "verdict": "INDEX_GAP_PROBABLE"
+  },
+  {
+   "title": "Navigating fertility, reproduction and modern contraception in the fragile context of South Kivu, Democratic Republic of Congo: \u2018Les enfants sont une richesse\u2019",
+   "tier": "B_ONLY",
+   "doi": "10.1080/13691058.2018.1470255",
+   "resolution": "ENRICHED",
+   "verdict": "QUERY_HOLE",
+   "openalex_title": "Navigating fertility, reproduction and modern contraception in the fragile context of South Kivu, Democratic Republic of Congo: <i>\u2018Les enfants sont une richesse\u2019</i>"
+  },
+  {
+   "title": "Gender and fertility within the free churches in the Sundsvall region, Sweden, 1860\u20131921",
+   "tier": "B_ONLY",
+   "doi": "10.1080/1081602x.2015.1043929",
+   "resolution": "ENRICHED",
+   "verdict": "QUERY_HOLE",
+   "openalex_title": "Gender and fertility within the free churches in the Sundsvall region, Sweden, 1860\u20131921"
+  },
+  {
+   "title": "Tacit consent: the Church and birth control in northern Italy.",
+   "tier": "B_ONLY",
+   "doi": "10.1111/j.1728-4457.2011.00414.x",
+   "resolution": "ENRICHED",
+   "verdict": "QUERY_HOLE",
+   "openalex_title": "Tacit Consent: The Church and Birth Control in Northern Italy"
+  },
+  {
+   "title": "Report on analysis of ESS data on cross-national differences in perceived norms concerning fertility-related behaviour",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "ENRICHED",
+   "verdict": "QUERY_HOLE",
+   "openalex_title": "Reproductive decision-making in a macro-micro perspective: report on analysis of ESS data on cross-national differences in perceived norms concerning fertility-related behaviour to the European Commission within the 7th Framework Programme",
+   "evidence": "no DOI; matched by title probe"
+  },
+  {
+   "title": "Attitudes that Differentiate Alternative Family Sizes",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "ENRICHED",
+   "verdict": "INDEX_GAP_PROBABLE"
+  },
+  {
+   "title": "Recent fertility decline in Eritrea",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "CROSSREF_RECOVERED",
+   "verdict": "QUERY_HOLE",
+   "openalex_title": "Recent fertility decline in Eritrea",
+   "evidence": "no DOI; matched by title probe"
+  },
+  {
+   "title": "TELEVISION, VALUE CONSTRUCTS, AND REPRODUCTIVE BEHAVIOR IN BRAZILIAN \u201cEXCLUDED\u201d COMMUNITIES",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "ENRICHED",
+   "verdict": "INDEX_GAP_PROBABLE"
+  },
+  {
+   "title": "Religiosit\u00e4t und Fertilit\u00e4t: eine empirische Untersuchung des Einflusses von Religiosit\u00e4t auf Elternschaft und Kinderzahl",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "ENRICHED",
+   "verdict": "QUERY_HOLE",
+   "openalex_title": "Religiosit\u00e4t und Fertilit\u00e4t: Eine empirische Untersuchung des Einflusses von Religiosit\u00e4t auf Elternschaft und Kinderzahl",
+   "evidence": "no DOI; matched by title probe"
+  },
+  {
+   "title": "Low Fertility in Japan, South Korea, and Singapore",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "CROSSREF_RECOVERED",
+   "verdict": "QUERY_HOLE",
+   "openalex_title": "Low fertility in Japan, South Korea, and Singapore : population policies and their effectiveness",
+   "evidence": "no DOI; matched by title probe"
+  },
+  {
+   "title": "What Has Religion Got to Do With It?*",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "CROSSREF_RECOVERED",
+   "verdict": "UNCONFIRMED"
+  },
+  {
+   "title": "Fertility by ethnic and religious groups in the UK, trends in a trans-national context",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "ENRICHED",
+   "verdict": "INDEX_GAP_PROBABLE"
+  },
+  {
+   "title": "Religion and Fertility in the United States : A Geographic Analysis",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "ENRICHED",
+   "verdict": "INDEX_GAP_PROBABLE"
+  },
+  {
+   "title": "Cultural policy regimes and arts councils. The longue dur\u00e9e perspective, birth of the state, religious trajectories and national cultural policies",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "ENRICHED",
+   "verdict": "QUERY_HOLE",
+   "openalex_title": "Cultural policy regimes and arts councils. The<i>longue dur\u00e9e</i>perspective, birth of the state, religious trajectories and national cultural policies",
+   "evidence": "no DOI; matched by title probe"
+  },
+  {
+   "title": "Fertility in Western Europe: the role of religion",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "ENRICHED",
+   "verdict": "INDEX_GAP_PROBABLE"
+  },
+  {
+   "title": "Laamanen VM (2024) Changes in work and family attitudes over birth cohorts and links to childfree ideals in Finnish women. Master\u2019s Thesis University of Helsinki Finland.",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "GOLD_DEFECT_CITATION_STRING"
+  },
+  {
+   "title": "Applicability of the second demographic transition in Asia",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "CROSSREF_RECOVERED",
+   "verdict": "QUERY_HOLE",
+   "openalex_title": "Applicability of the second demographic transition in Asia",
+   "evidence": "no DOI; matched by title probe"
+  },
+  {
+   "title": "The Two-Child Policy and Fertility",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "CROSSREF_RECOVERED",
+   "verdict": "INDEX_GAP_PROBABLE"
+  },
+  {
+   "title": "Observations of Chinese Culture of Marriage and Childbearing in the Context of Low Fertility",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "INDEX_GAP_PROBABLE"
+  },
+  {
+   "title": "Religion and Religiosity",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "ENRICHED",
+   "verdict": "QUERY_HOLE",
+   "openalex_title": "Psychological Perspectives on Religion and Religiosity",
+   "evidence": "no DOI; matched by title probe"
+  },
+  {
+   "title": "Lappegard, T., Neyer, G., & Vignoli, D. (2015). Three Dimensions of the Relationship between Gender Role Attitudes and Fertility Intentions. Stockholm Research Reports in Demography, 2015, 9.",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "GOLD_DEFECT_CITATION_STRING"
+  },
+  {
+   "title": "\u00c9carts de f\u00e9condit\u00e9 en fonction du niveau d\u2019instruction\u00a0: le r\u00f4le de la religion en Grande-Bretagne et en France",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "ENRICHED",
+   "verdict": "INDEX_GAP_PROBABLE"
+  },
+  {
+   "title": "Peer effects of fertility intentions in the context of the second demographic transition: the impact of social interaction on fertility intentions",
+   "tier": "B_ONLY",
+   "doi": "10.3969/j.issn.1007-905x.2022.06.012",
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "UNCONFIRMED"
+  },
+  {
+   "title": "Institutional identity, fertility choice and comprehensive two-child policy optimization-evidence from China",
+   "tier": "B_ONLY",
+   "doi": "10.13734/j.cnki.1000-5315.2016.06.011",
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "UNCONFIRMED"
+  },
+  {
+   "title": "Overview Chapter 6: The diverse faces of the second demographic transition in Europe.",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "ENRICHED",
+   "verdict": "QUERY_HOLE",
+   "openalex_title": "Overview Chapter 6: The diverse faces of the Second Demographic Transition in Europe",
+   "evidence": "no DOI; matched by title probe"
+  },
+  {
+   "title": "van de Kaa, D. J. (2001). Postmodern fertility preferences: From changing value orientation to new behavior. Population and Development Review, 27, 290\u2013331. (Supplement: Global Fertility Transition)",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "GOLD_DEFECT_CITATION_STRING"
+  },
+  {
+   "title": "Hackett Conrad. 2008. \u201cReligion and Fertility in the United States.\u201d PhD dissertation, Princeton University.",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "INDEX_GAP_PROBABLE"
+  },
+  {
+   "title": "Akintunde MO, Lawal MO, Simeon O. Religious roles in fertility behaviour among the residents of Akinyele local government, Oyo state, Nigeria. Int J Manag Econ Soc Sci. 2013;2:455\u201362 https://pdfs.semanticscholar.org/8865/1632b8ae6191214976d035631fdc5e6041ed.pdf.",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "INDEX_GAP_PROBABLE"
+  },
+  {
+   "title": "Lutz W (1987) Culture, religion, and fertility: a global view. Genus 15\u201335",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "GOLD_DEFECT_CITATION_STRING"
+  },
+  {
+   "title": "Abbasi-Shavazi, M., & Khajehsalehi, Z. (2020). An assessment on the impact of women\u2019s autonomy, education and social participation on childbearing intention in Sirjan city. Women in Development and Politics, 11(1), 45\u201364. [in Persian].",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "GOLD_DEFECT_CITATION_STRING"
+  },
+  {
+   "title": "Marriage and Fertility Behaviour in Japan",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "ENRICHED",
+   "verdict": "QUERY_HOLE",
+   "openalex_title": "Marriage and Fertility Behaviour in Japan",
+   "evidence": "no DOI; matched by title probe"
+  },
+  {
+   "title": "Jeffery, P., & Jeffery, R. (2000). Religion and fertility in India. Economic and Political Weekly, 35, 3253\u20133259.",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "GOLD_DEFECT_CITATION_STRING"
+  },
+  {
+   "title": "Mahmoudian, H., & Nobakht, R. (2010). Religion and fertility: Analysis of fertility behavior of Sunni and Shiite religious groups in Galehdar. Fars Province. Social Issues of Iran, 1(7), 195\u2013215. [in Persian].",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "GOLD_DEFECT_CITATION_STRING"
+  },
+  {
+   "title": "Jeppsen, C. (2015). Religion, gender equality, and fertility. [Unpublished Doctoral Dissertation]. The Pennsylvania State University. University Park, PA.",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "GOLD_DEFECT_CITATION_STRING"
+  },
+  {
+   "title": "Kaufmann, E. (2009). Islamism, religiosity and fertility in the Muslim world. Paper presented at the annual meeting of the International Sociological Association, New York.",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "GOLD_DEFECT_CITATION_STRING"
+  },
+  {
+   "title": "Between legacy and change: second-child fertility intentions among Chinese mothers in the post-one-child era.",
+   "tier": "B_ONLY",
+   "doi": "10.1080/13691058.2025.2591398",
+   "resolution": "ENRICHED",
+   "verdict": "QUERY_HOLE",
+   "openalex_title": "Between legacy and change: second-child fertility intentions among Chinese mothers in the post-one-child era"
+  },
+  {
+   "title": "Dalla Zuanna, G. (2004a). Few children in strong families: Values and low fertility in Italy. Genus, 60, 39\u201370.",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "INDEX_GAP_PROBABLE"
+  },
+  {
+   "title": "Simons, J. (1986). How conservative are british attitudes to childbearing. Quarterly Journal of Social Affairs, 2, 415\u2013429.",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "GOLD_DEFECT_CITATION_STRING"
+  },
+  {
+   "title": "Ishak, P. W., and Gradstein, M. 2022. Losing my Religion (or Maybe not): Religion and Fertility Patterns in Africa.",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "GOLD_DEFECT_CITATION_STRING"
+  },
+  {
+   "title": "Westoff, C. F., and Bietsch, K. 2015. Religion and Reproductive Behavior in Sub-Saharan Africa. DHS Analytical Studies. 48. Rockville, Maryland, USA: ICF International.",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "GOLD_DEFECT_CITATION_STRING"
+  },
+  {
+   "title": "Book Translations as Idea Flows: The Effects of the 42 Other literature has studied the spread of fertility norms through peers (Ciliberto et al. 2016), the media (La Ferrara et al. 2012), linguistic and cultural ties (Beach and Hanlon 2023, Rossi and Xiao 2024, Spolaore and Wacziarg 2022), religiou",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "INDEX_GAP_PROBABLE"
+  },
+  {
+   "title": "Kinship and fertility: Brother and sibling effects on births in a patrilineal system",
+   "tier": "B_ONLY",
+   "doi": "10.1016/j.jebo.2021.12.037",
+   "resolution": "ENRICHED",
+   "verdict": "QUERY_HOLE",
+   "openalex_title": "Kinship and fertility: Brother and sibling effects on births in a patrilineal system"
+  },
+  {
+   "title": "Between identity and assimilation: Jewish fertility in nineteenth-century Venice",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "CROSSREF_RECOVERED",
+   "verdict": "QUERY_HOLE",
+   "openalex_title": "Between identity and assimilation: Jewish fertility in nineteenth-century Venice",
+   "evidence": "no DOI; matched by title probe"
+  },
+  {
+   "title": "Larsson, M. (1984). Fruktsamhetsm\u00f6nster, produktionsstruktur och sekularisering: en j\u00e4mf\u00f6relse mellan 69 h\u00e4rader vid 1800-talets slut[Fertility patterns, production structure and secularization: a comparison between 69 hundreds at the end of the 19th century]. Diss. Stockholm: Univ. Stockholm.",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "GOLD_DEFECT_CITATION_STRING"
+  },
+  {
+   "title": "Lesthaeghe, R. & Wilson, C. (1986). Modes of production secularization and the pace of the fertility decline in Western Europe 1870\u20131930. In A. J.\u00a0Coale & S. C.\u00a0Watkins (Eds.), The decline of fertility in Europe: The revised proceedings of a Conference on the Princeton European Fertility Project, 19",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "GOLD_DEFECT_CITATION_STRING"
+  },
+  {
+   "title": "Voas, D., & Doebler, S. (2011). Secularization in Europe: Religious change between and within birth cohorts. Religion and Society in Central and Eastern Europe, 4(1), 39\u201362.",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "GOLD_DEFECT_CITATION_STRING"
+  },
+  {
+   "title": "Sex roles, values of children, and fertility",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "QUERY_HOLE",
+   "openalex_title": "Sex Roles, Value Of Children And Fertility",
+   "evidence": "no DOI; matched by title probe"
+  },
+  {
+   "title": "Changing value of children: An action theory of fertility behavior, intergenerational relationships in cross-cultural comparison",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "QUERY_HOLE",
+   "openalex_title": "Changing Value of Children: An Action Theory of Fertility Behavior and Intergenerational Relationships in Cross-Cultural Comparison",
+   "evidence": "no DOI; matched by title probe"
+  },
+  {
+   "title": "Value of children and fertility strategies in cross-cultural comparison. Ideal family size and targeted fertility in eleven societies",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "INDEX_GAP_PROBABLE"
+  },
+  {
+   "title": "Pearce, L. D. (2000). The multidimensional impact of religion on childbearing preferences and behavior in Nepal. Ph.D., United States -- Pennsylvania: The Pennsylvania State University.",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "GOLD_DEFECT_CITATION_STRING"
+  },
+  {
+   "title": "Suwal, J. V. (2001). Socio-cultural dynamics of first birth intervals in Nepal. Contribution to Nepalese Studies, 28(1), 11\u201333.",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "GOLD_DEFECT_CITATION_STRING"
+  },
+  {
+   "title": "Gegen den Strom der Zeit? Vom Einfluss der religi\u00f6sen Zugeh\u00f6rigkeit und Religiosit\u00e4t auf die Geburt von Kindern und die Wahrnehmung des Kindernutzens [Against the flow of time? On the influence of religious affiliation and religiosity on the birth of children and the perception of the benefit of chi",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "UNCONFIRMED"
+  },
+  {
+   "title": "De invloed van levensloopkenmerken en waardenori\u00ebntaties op vrijwillige kinderloosheid [The influence of life course characteristics and value orientations on voluntary childlessness]",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "INDEX_GAP_PROBABLE"
+  },
+  {
+   "title": "Fawcett, J.T. ( 1976). The value and cost of children: Converging theory and research. In L. T. Ruzicka (Ed.), The economic and social supports for high fertility (Vol. 2, pp. 91-114). Canberra, Australia: Australian National University .",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "GOLD_DEFECT_CITATION_STRING"
+  },
+  {
+   "title": "Development, value of children, and fertility: A multiple indicator approach",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "INDEX_GAP_PROBABLE"
+  },
+  {
+   "title": "Nauck, B. ( 2005). Changing value of children: An action theory of fertility behavior and intergenerational relationships in cross-cultural comparison . In W. Friedlmeier, P. Chakkarath, & B. Schwarz (Eds.), Culture and human development. The importance of cross-cultural research for the social scie",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "GOLD_DEFECT_CITATION_STRING"
+  },
+  {
+   "title": "Barbara Anderson, \"Regional and Cultural Factors in the Decline of Marital Fertility in Europe,\" in The Decline of Fertility in Europe, ed. Ansley J. Coale and Susan Cotts Watkins (Princeton, NJ: Princeton University Press, 1986), 300.",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "INDEX_GAP_PROBABLE"
+  },
+  {
+   "title": "Heineck, G. (2006). The relationship between religion and fertility: Evidence for Austria. PER Working Paper 06-01.",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "GOLD_DEFECT_CITATION_STRING"
+  },
+  {
+   "title": "van de Kaa, D. (1998). Postmodern fertility preferences: From changing value orientation to new behaviour. Working Papers in Demography, No. 74, Research School of Social Sciences. Canberra: The Australian National University.",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "GOLD_DEFECT_CITATION_STRING"
+  },
+  {
+   "title": "Female Labour Market Participation and Cultural Variables",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "CROSSREF_RECOVERED",
+   "verdict": "QUERY_HOLE",
+   "openalex_title": "Female Labour Market Participation and Cultural Variables",
+   "evidence": "no DOI; matched by title probe"
+  },
+  {
+   "title": "The e ect of norms on fertility and its implications for for the quantity-quality trade-o in Pakistan",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "ENRICHED",
+   "verdict": "INDEX_GAP_PROBABLE"
+  },
+  {
+   "title": "Religion, spirituality and the social sciences",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "CROSSREF_RECOVERED",
+   "verdict": "QUERY_HOLE",
+   "openalex_title": "Religion, spirituality and the social sciences",
+   "evidence": "no DOI; matched by title probe"
+  },
+  {
+   "title": "Berghammer, C. (2009). Causality between religiosity and childbearing: Evidence from a Dutch panel study. Paper presented at the IUSSP conference, Marrakech.",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "GOLD_DEFECT_CITATION_STRING"
+  },
+  {
+   "title": "Polygyny and reproductive behavior in sub-saharan Africa: A contextual analysis",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "CROSSREF_RECOVERED",
+   "verdict": "QUERY_HOLE",
+   "openalex_title": "Polygyny and reproductive behavior in sub-saharan Africa: A contextual analysis",
+   "evidence": "no DOI; matched by title probe"
+  },
+  {
+   "title": "Liefbroer, A. C., & Merz, E.-M. (2009). Report on analysis of ESS data on cross-national differences in perceived norms concerning fertility-related behaviour. In REPRO deliverable 6.16. The Hague: Netherlands Interdisciplinary Demographic Institute.",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "GOLD_DEFECT_CITATION_STRING"
+  },
+  {
+   "title": "Fertilit\u00e4t in Israel und Pal\u00e4stina. Ein Erkl\u00e4rungsbeitrag der value of children-Forschung",
+   "tier": "B_ONLY",
+   "doi": null,
+   "resolution": "TITLE_KEYED_UNRESOLVED",
+   "verdict": "INDEX_GAP_PROBABLE"
+  }
+ ]
+}

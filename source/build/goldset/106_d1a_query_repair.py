@@ -38,7 +38,7 @@ Usage:
 Output: literature/search-logs/{slug}-production-query-v2.json   (C1 consumes this)
         literature/search-logs/{slug}-query-repair.md
 """
-import json, os, re, subprocess, sys, time, unicodedata, urllib.parse
+import hashlib, json, os, re, subprocess, sys, time, unicodedata, urllib.parse
 from collections import Counter
 
 SLUG = "postmaterialism-individualism-secularization"
@@ -57,6 +57,18 @@ UA = "fertility-review/1.0 (mailto:shravanh@uchicago.edu)"
 MIN_COUNT = 5          # a variant retrieving fewer than this buys nothing and costs query length
 MAX_PER_STEM = 8       # cap expansions so a single stem cannot blow up the filter's byte length
 URL_CEILING = 4000     # A6c hit HTTP 400 at 5,309 bytes on S2; stay well inside any such limit
+
+# OpenAlex refuses more than 100 OR'd values in a single `title.search`. v1's 67 outcome terms fit
+# and the expanded block does not, so each block is chunked and the chunks are unioned client-side.
+# OR distributes over union, so this preserves the query's meaning exactly -- it is a transport
+# constraint, not a change of question. It does multiply the request count: a pull becomes
+# (outcome chunks x cluster chunks) streams per cluster instead of one.
+MAX_OR_VALUES = 100
+
+
+def chunk(terms, n=MAX_OR_VALUES):
+    t = sorted({x.lower() for x in terms if x and x.strip()})
+    return [t[i:i + n] for i in range(0, len(t), n)] or [[]]
 
 SUFFIXES = ["", "s", "es", "ed", "ing", "ism", "ist", "ists", "ity", "ies", "ly", "ous", "ness",
             "ation", "ations", "ization", "izations", "isation", "isations", "ize", "ise",
@@ -94,6 +106,16 @@ class BudgetExhausted(Exception):
     """OpenAlex refused on budget. It is NOT a count of zero and must never become one."""
 
 
+class QueryError(Exception):
+    """OpenAlex rejected the query itself. Distinct from budget, and fixed in the code, not by waiting.
+
+    Kept separate because the first version raised BudgetExhausted for every failure, so a wildcard
+    syntax rejection was logged as "BUDGET EXHAUSTED" and the operator was told to wait for a reset
+    that would change nothing. Two different problems reported as one is how this chapter spent two
+    days believing OpenAlex was metered when it was unauthenticated.
+    """
+
+
 def oa_count(params, cache, ck):
     """Live count, or raise. NEVER returns a number it did not measure.
 
@@ -107,6 +129,11 @@ def oa_count(params, cache, ck):
     if ck in cache:
         return cache[ck]
     p = dict(params)
+    # A star must never reach the API: OpenAlex rejects the whole request, and the point of this
+    # script is to remove them. Failing here names the offending term instead of burying it in a
+    # provider error.
+    if "*" in str(p.get("filter", "")) or "?" in str(p.get("filter", "")):
+        raise QueryError(f"wildcard survived expansion in: {p['filter'][:200]}")
     if KEY:
         p["api_key"] = KEY
     url = "https://api.openalex.org/works?" + urllib.parse.urlencode(p)
@@ -114,9 +141,12 @@ def oa_count(params, cache, ck):
     try:
         d = json.loads(r.stdout)
     except Exception:
-        raise BudgetExhausted(f"unparseable response for {ck}: {r.stdout[:160]}") from None
+        raise QueryError(f"unparseable response for {ck}: {r.stdout[:160]}") from None
     if d.get("error"):
-        raise BudgetExhausted(f"{d.get('error')}: {str(d.get('message'))[:160]}")
+        msg = str(d.get("message"))
+        if "insufficient budget" in msg.lower() or "resets at midnight" in msg.lower():
+            raise BudgetExhausted(msg[:160])
+        raise QueryError(f"{d.get('error')}: {msg[:200]}")
     n = (d.get("meta") or {}).get("count")
     if n is None:
         raise BudgetExhausted(f"no count in response for {ck}")
@@ -131,25 +161,51 @@ MAX_TESTED = 14        # candidates actually sent per stem; each costs $0.001 ag
 
 
 def candidates(term, vocab):
-    """Expansions for one wildcard term. The star is always on the final word.
+    """Expansions for one wildcard term.
+
+    THE STAR IS NOT ALWAYS ON THE FINAL WORD, and assuming it was is what broke the first live run.
+    `generative* verhalten`, `want* children` and `norm* about childless*` all carry it earlier in
+    the phrase; the previous version split on the last space, stripped the star from the tail only,
+    and sent `generative* verhalten` to OpenAlex, which rejects any request containing a star. So:
+    strip stars from EVERY word, then expand the last word that carried one.
 
     Ranked before it is truncated, because the budget is real: forms OBSERVED in the gold and corpus
     titles are tested first and rule-generated forms only fill the remainder. The first version
     tested every candidate and spent the whole daily allowance on ~1,500 requests.
     """
-    head, _, tail = term.rpartition(" ")
-    stem = re.sub(r"[*?]", "", tail).strip().lower()
-    if not stem:
+    parts = term.split()
+    starred = [i for i, w in enumerate(parts) if "*" in w or "?" in w]
+    literal = [re.sub(r"[*?]", "", w).strip().lower() for w in parts]
+    literal = [w for w in literal if w]
+    if not literal:
         return []
-    # Keep them short-ish: a 20-letter word starting with `secular` is not a variant of it.
-    observed = sorted({w for w in vocab
-                       if w.startswith(stem) and len(w) <= len(stem) + 8}, key=len)
-    generated = [stem + s for s in SUFFIXES if stem + s not in observed]
+    if not starred:
+        return [" ".join(literal)]
+    i = min(starred[-1], len(literal) - 1)
+    stem = literal[i]
+    # RANKED BY CORPUS FREQUENCY, NOT BY LENGTH. Ranking by length was a silent disaster: for
+    # `secular*` it tested `seculars`, `seculared`, `secularing`, `secularness` and ran out of budget
+    # slots before reaching `secularization` -- the 14-character real word this whole repair exists
+    # to recover. Short morphological junk is not more likely than the derived form; it is only
+    # shorter. Frequency in the gold and corpus titles is what actually distinguishes them.
+    # `vocab` maps word -> observed frequency.
+    observed = sorted((w for w in vocab if w.startswith(stem) and len(w) <= len(stem) + 8),
+                      key=lambda w: (-vocab[w], len(w)))
+    # Rule-generated forms are a FALLBACK for stems the corpora barely attest, not a supplement to
+    # be mixed in ahead of observed evidence -- and with a 100-value ceiling per chunk, every slot
+    # spent on `seculared` is a slot not spent on a real term.
+    generated = ([stem + s for s in SUFFIXES if stem + s not in set(observed)]
+                 if len(observed) < 6 else [])
     ranked, seen = [], set()
     for w in observed + generated:
-        if w not in seen:
+        if w and w not in seen:
             seen.add(w); ranked.append(w)
-    return [(head + " " + w).strip() for w in ranked[:MAX_TESTED]]
+    obs = set(observed)
+    out = []
+    for w in ranked[:MAX_TESTED]:
+        p = list(literal); p[i] = w
+        out.append((" ".join(p).strip(), w in obs))
+    return out
 
 
 def main():
@@ -165,7 +221,16 @@ def main():
             if r.get("title"):
                 gold_titles.append(r["title"])
     corpus_titles = [r["title"] for r in json.load(open(CORPUS))["records"] if r.get("title")]
-    vocab = set(words(gold_titles)) | {w for w, n in words(corpus_titles).items() if n >= 2}
+    # Gold vocabulary is weighted up: those 448 titles are query-independent and therefore carry the
+    # words of the papers v1 MISSED, which is exactly what the expansion needs to recover. The corpus
+    # is larger but was retrieved by the broken query, so it is biased against those same words.
+    gw, cw = words(gold_titles), words(corpus_titles)
+    vocab = Counter()
+    for w, n in gw.items():
+        vocab[w] += 10 * n
+    for w, n in cw.items():
+        if n >= 2:
+            vocab[w] += n
     print(f"  vocabulary: {len(gold_titles)} gold titles, {len(corpus_titles)} corpus titles -> "
           f"{len(vocab)} distinct words", file=sys.stderr)
 
@@ -186,20 +251,39 @@ def main():
                     report.append({"cluster": g, "original": t, "kind": "plain",
                                    "kept": [], "dropped": [(t, n)]})
                 continue
-            cands = candidates(t, vocab)
             scored = []
-            for c in cands:
-                scored.append((c, oa_count({"filter": f"title.search:{c}", "per-page": 1,
-                                            "select": "id"}, cache, f"c::{c}")))
-            good = sorted([x for x in scored if x[1] >= MIN_COUNT],
-                          key=lambda x: -x[1])[:MAX_PER_STEM]
-            bad = [x for x in scored if x[1] < MIN_COUNT]
+            for c, is_obs in candidates(t, vocab):
+                scored.append((c, is_obs, oa_count({"filter": f"title.search:{c}", "per-page": 1,
+                                                    "select": "id"}, cache, f"c::{c}")))
+            # SELECTION IS NOT BY COUNT, AND THAT WAS THE BUG THAT SURVIVED TWO FIXES.
+            # OpenAlex stems `seculared`, `secularing` and `seculares` back to `secular`, so each
+            # returns 34,326 -- the SAME postings list under three spellings -- and every one of them
+            # outranks the genuine `secularization` at 4,657. Ranking the kept set by count therefore
+            # filled all eight slots with noise and dropped the one derived form this entire repair
+            # exists to recover. A high count does not mean a term contributes anything.
+            # So: forms actually OBSERVED in the gold and corpus titles are taken first, and a
+            # rule-generated form is dropped when its count duplicates one already kept, which is the
+            # signature of a stem collapsing onto an existing postings list.
+            elig = sorted([x for x in scored if x[2] >= MIN_COUNT],
+                          key=lambda x: (not x[1], -x[2]))
+            good, seen_counts = [], set()
+            for c, is_obs, n in elig:
+                if not is_obs and n in seen_counts:
+                    continue
+                good.append((c, n)); seen_counts.add(n)
+                if len(good) >= MAX_PER_STEM:
+                    break
+            bad = [(x[0], x[2]) for x in scored if x[2] < MIN_COUNT]
             for c, _ in good:
                 if c not in seen:
                     kept_terms.append(c); seen.add(c)
             report.append({"cluster": g, "original": t, "kind": "wildcard",
                            "kept": good, "dropped": bad})
         repaired[g] = kept_terms
+    except QueryError as e:
+        print(f"\nQUERY ERROR mid-repair: {e}\n  This is a defect in the expansion code, not a "
+              f"budget problem -- waiting will not fix it. v2 not written.", file=sys.stderr)
+        sys.exit(1)
     except BudgetExhausted as e:
         # Stop rather than emit a query built from fabricated zeros. Every measured count is already
         # cached, so resuming after the midnight-UTC reset costs only what was never measured.
@@ -217,20 +301,39 @@ def main():
           "outcome_terms": out_terms, "treatment_clusters": repaired}
 
     # ---- acceptance: does v2 actually retrieve the papers v1 missed? ------------------------
-    ob = "|".join(sorted({t.lower() for t in out_terms}))
+    ochunks = chunk(out_terms)
+    print(f"  outcome terms {len(out_terms)} -> {len(ochunks)} chunk(s); clusters: "
+          + ", ".join(f"{c} {len(t)}->{len(chunk(t))}" for c, t in repaired.items()), file=sys.stderr)
     gates, url_lens = [], {}
     try:
       for doi, label, must in ACCEPTANCE:
         hit_in = []
         for c, terms in repaired.items():
-            tb = "|".join(sorted({t.lower() for t in terms}))
-            filt = f"doi:{doi},title.search:{ob},title.search:{tb}"
-            n = oa_count({"filter": filt, "per-page": 1, "select": "id"}, cache, f"m::{doi}::{c}")
-            url_lens[c] = len(f"title.search:{ob},title.search:{tb}")
-            if n == 1:
+            tchunks = chunk(terms)
+            found = False
+            for oi, oc in enumerate(ochunks):
+                for ti, tc in enumerate(tchunks):
+                    if found:
+                        continue
+                    ob, tb = "|".join(oc), "|".join(tc)
+                    filt = f"doi:{doi},title.search:{ob},title.search:{tb}"
+                    url_lens[c] = max(url_lens.get(c, 0), len(f"title.search:{ob},title.search:{tb}"))
+                    # THE CACHE KEY MUST CARRY THE QUERY IT TESTED. Keyed on {doi}::{cluster}::{chunk}
+                    # alone, a re-run after changing the term list replayed the PREVIOUS list's
+                    # verdict -- so a repair that genuinely fixed the query would still report the
+                    # gate as failing, and a repair that broke it could report a pass. Same defect
+                    # this session fixed in 103_'s page cache, reintroduced two files later.
+                    qh = hashlib.sha1(f"{ob}||{tb}".encode()).hexdigest()[:10]
+                    if oa_count({"filter": filt, "per-page": 1, "select": "id"},
+                                cache, f"m::{doi}::{c}::{oi}::{ti}::{qh}") == 1:
+                        found = True
+            if found:
                 hit_in.append(c)
         gates.append({"doi": doi, "paper": label, "required": must,
                       "retrieved_by": hit_in, "pass": bool(hit_in) == must})
+    except QueryError as e:
+        print(f"\nQUERY ERROR during the acceptance gate: {e}\n  v2 not written.", file=sys.stderr)
+        sys.exit(1)
     except BudgetExhausted as e:
         print(f"\nBUDGET EXHAUSTED during the acceptance gate: {e}\n"
               f"  v2 is NOT written. An unverified query must not reach C1 -- an unrun gate is not a "
@@ -239,6 +342,12 @@ def main():
 
     v2["acceptance"] = gates
     v2["filter_bytes"] = url_lens
+    v2["max_or_values"] = MAX_OR_VALUES
+    v2["chunking"] = {"outcome_chunks": len(ochunks),
+                      "cluster_chunks": {c: len(chunk(t)) for c, t in repaired.items()},
+                      "note": ("OpenAlex refuses more than 100 OR'd values per title.search. C1 must "
+                               "run one stream per (outcome chunk x cluster chunk) and union them. "
+                               "OR distributes over union, so the question is unchanged.")}
     json.dump(v2, open(OUT_PQ, "w"), indent=1)
 
     n_wild = sum(1 for r in report if r["kind"] == "wildcard")

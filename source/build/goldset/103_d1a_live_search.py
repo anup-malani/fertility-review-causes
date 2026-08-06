@@ -156,11 +156,23 @@ def shape(w):
     }
 
 
+MAX_OR_VALUES = 100   # OpenAlex refuses more than 100 OR'd values in a single title.search
+
+
 def build_filters(pq):
-    out = "|".join(sorted({oa_term(t) for t in pq["outcome_terms"] if oa_term(t)}))
-    return {c: f"title.search:{out},title.search:" +
-               "|".join(sorted({oa_term(t) for t in terms if oa_term(t)}))
-            for c, terms in pq["treatment_clusters"].items()}
+    outs = sorted({oa_term(t) for t in pq["outcome_terms"] if oa_term(t)})
+    filters = {}
+    for c, terms in pq["treatment_clusters"].items():
+        tt = sorted({oa_term(t) for t in terms if oa_term(t)})
+        # Refuse rather than let the provider refuse. A block over the ceiling must be chunked and
+        # unioned client-side (OR distributes over union); failing here names which block and by how
+        # much, instead of surfacing as an opaque "Maximum number of values exceeded" mid-pull.
+        for label, block in (("outcome", outs), (c, tt)):
+            if len(block) > MAX_OR_VALUES:
+                raise SystemExit(f"{label} block has {len(block)} values, over the "
+                                 f"{MAX_OR_VALUES} ceiling. Chunk it and union client-side.")
+        filters[c] = f"title.search:{'|'.join(outs)},title.search:{'|'.join(tt)}"
+    return filters
 
 
 def pull_cluster(cluster, filt, counts_only=False):
