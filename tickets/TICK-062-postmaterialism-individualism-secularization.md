@@ -23,6 +23,46 @@
 - [ ] 14. PI review and sign-off
 
 ## Log
+- 2026-08-05 (Shravan/Claude): **GOLD SET REPAIRED AND RECALL RE-MEASURED. v2 weighted recall
+  81.8% (v1) → 84.2% (frozen gold) → 87.2% (repaired gold); B-only 86.4%.** And the re-measurement
+  found that **every recall figure this chapter has published rested on a broken DOI join.**
+  `{slug}-tier-b-frame-repaired.json`, `{slug}-gold-repair.md`; script `108_d1a_gold_repair.py`.
+  `103_`'s recall block is fixed and both corpora were regenerated from cache at zero cost.
+  **(1) THE DOI JOIN WAS BROKEN IN BOTH DIRECTIONS.** `103_` resolved each gold row's DOI by looking
+  it up in the Tier-B frame under `norm(title)[:120]`. **64 of 400 Tier-B rows carry a stale
+  `title_key`** — `98_` set it from the raw snowball title and enrichment then rewrote the title to
+  the provider's canonical form, which is the **A6a defect, still live and never fully repaired**.
+  60 of those 64 have a DOI the lookup never found, so they fell back to title-only matching and
+  were scored as misses a DOI would have matched. **And Tier A's own `doi` field was never consulted
+  at all**, though all 48 rows carry one. Now indexed under both keys across both tiers. Effect:
+  v2 weighted 83.5 → **84.2%**, v1 81.0 → **81.8%**, and the A_ONLY/BOTH split moves 19/12 → 14/17
+  because the same stale key was under-detecting channel overlap. **Recall(B) is only a fair
+  yardstick to the extent the two channels are orthogonal, so a mis-measured overlap is not cosmetic.**
+  **(2) The repair decision that would have rigged the result, stated because it was tempting.**
+  Titles are extracted **by parsing the citation string only**. The obvious alternative — search each
+  string against OpenAlex and adopt the best match's title — is far more accurate per record and is
+  disqualified: it repairs only the rows OpenAlex can confirm, so the repaired gold becomes a set of
+  works OpenAlex is known to hold and the recall it then measures is **guaranteed** to rise. The
+  measurement would be an artifact of its own repair. Provider lookup runs afterwards and only
+  labels confidence; it never decides a title and never removes a row.
+  **(3) 23 of 24 repaired, 1 left alone, 7 duplicates exposed and merged.** The unrepaired row has no
+  year anchor to parse from and stays a miss, which is the honest outcome — relaxing the rule to lift
+  the repair rate is how the OAS run acquired a 40%-ghost Tier B. The merges matter: repairing a
+  citation string frequently reveals a row the gold already holds in clean form, so **the denominator
+  moves as well as the numerator** (412 → 406) and both are reported.
+  **(4) Reading the repairs caught a defect the repair rate could not.** 23-of-24 looked fine; the
+  output contained *"…the pace of the fertility decline in Western Europe 1870–1930. **In A. J.**"* —
+  the title terminator required a letter before the period, so a title ending in a **year** ran on
+  into its editor block and produced a string that would never match anything. Fourth time today that
+  reading the sample beat trusting the number.
+  **(5) Where the residue now stands.** B-only 83.2% on the frozen gold and **86.4%** on the repaired
+  gold. The remaining misses are the `107_` decomposition's 21 query holes and 19 probable index
+  gaps; the 24 gold defects are now out of that count.
+  **(6) One known inconsistency left open, deliberately.** `103_` still partitions A/BOTH via
+  `cv.load()`, which uses the stale `title_key`, while `108_` uses the corrected overlap. The
+  **weighted totals agree at 84.2%** — the partition shift only moves records between two tiers that
+  are both near-100% matched — so this is cosmetic for the headline but should be fixed when
+  `101_`'s `cv.load()` is next touched. Not changed here because A6b's frozen CV consumes it.
 - 2026-08-05 (Shravan/Claude): **QUERY REPAIRED AND C1 RE-RUN. v2 corpus 17,646 records, all six
   clusters complete, and ALL THREE TIER-1 NATURAL EXPERIMENTS ARE NOW IN THE CORPUS.** Recall
   A-only **78.9 → 94.7%**, both-channels **91.7 → 100%**, B-only 80.8 → 82.4%, weighted overall

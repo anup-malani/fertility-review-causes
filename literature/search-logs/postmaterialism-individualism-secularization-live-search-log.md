@@ -24,7 +24,7 @@ A6b measured recall by matching compiled terms against stored titles. This measu
 | gold channel | n | live recall | A6b CV recall |
 |---|---|---|---|
 | A-only | 19 | 78.9% | 89.5% (partly fitted) |
-| **B-only** | 381 | **80.8%** | **92.1%** |
+| **B-only** | 381 | **81.6%** | **92.1%** |
 | both channels | 12 | 91.7% | 100% |
 
 ### Gold the live pull did not return
@@ -52,11 +52,11 @@ A6b measured recall by matching compiled terms against stored titles. This measu
 - Fertility by ethnic and religious groups in the UK, trends in a trans-national context
 - Religion and Fertility in the United States : A Geographic Analysis
 - Change in Nuptiality Patterns among Cuban Americans: Evidence of Cultural and Structural Assimilation? 1
-- Cultural policy regimes and arts councils. The longue durée perspective, birth of the state, religious traject
 - Fertility in Western Europe: the role of religion
 - Laamanen VM (2024) Changes in work and family attitudes over birth cohorts and links to childfree ideals in Fi
 - Applicability of the second demographic transition in Asia
 - The Two-Child Policy and Fertility
 - Observations of Chinese Culture of Marriage and Childbearing in the Context of Low Fertility
 - Religion and Religiosity
+- Lappegard, T., Neyer, G., & Vignoli, D. (2015). Three Dimensions of the Relationship between Gender Role Attit
 

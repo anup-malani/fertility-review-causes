@@ -24,7 +24,7 @@ A6b measured recall by matching compiled terms against stored titles. This measu
 | gold channel | n | live recall | A6b CV recall |
 |---|---|---|---|
 | A-only | 19 | 94.7% | 89.5% (partly fitted) |
-| **B-only** | 381 | **82.4%** | **92.1%** |
+| **B-only** | 381 | **83.2%** | **92.1%** |
 | both channels | 12 | 100.0% | 100% |
 
 ### Gold the live pull did not return
@@ -44,7 +44,6 @@ A6b measured recall by matching compiled terms against stored titles. This measu
 - What Has Religion Got to Do With It?*
 - Fertility by ethnic and religious groups in the UK, trends in a trans-national context
 - Religion and Fertility in the United States : A Geographic Analysis
-- Cultural policy regimes and arts councils. The longue durée perspective, birth of the state, religious traject
 - Fertility in Western Europe: the role of religion
 - Laamanen VM (2024) Changes in work and family attitudes over birth cohorts and links to childfree ideals in Fi
 - Applicability of the second demographic transition in Asia
@@ -52,11 +51,12 @@ A6b measured recall by matching compiled terms against stored titles. This measu
 - Observations of Chinese Culture of Marriage and Childbearing in the Context of Low Fertility
 - Religion and Religiosity
 - Lappegard, T., Neyer, G., & Vignoli, D. (2015). Three Dimensions of the Relationship between Gender Role Attit
-- Écarts de fécondité en fonction du niveau d’instruction : le rôle de la religion en Grande-Bretagne et en Fran
 - Peer effects of fertility intentions in the context of the second demographic transition: the impact of social
 - Institutional identity, fertility choice and comprehensive two-child policy optimization-evidence from China
 - Overview Chapter 6: The diverse faces of the second demographic transition in Europe.
 - van de Kaa, D. J. (2001). Postmodern fertility preferences: From changing value orientation to new behavior. P
 - Hackett Conrad. 2008. “Religion and Fertility in the United States.” PhD dissertation, Princeton University.
 - Akintunde MO, Lawal MO, Simeon O. Religious roles in fertility behaviour among the residents of Akinyele local
+- Lutz W (1987) Culture, religion, and fertility: a global view. Genus 15–35
+- Abbasi-Shavazi, M., & Khajehsalehi, Z. (2020). An assessment on the impact of women’s autonomy, education and 
 

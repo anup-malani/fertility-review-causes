@@ -286,13 +286,30 @@ def main():
     gold, _, _ = cv.load()
     got_titles = {cv.norm(r["title"])[:70] for r in records if r.get("title")}
     got_dois = {r["doi"] for r in records if r.get("doi")}
-    tier_b = {r["title_key"]: r for r in
-              json.load(open(os.path.join(LOGS, f"{SLUG}-tier-b-frame.json"))) if r.get("title_key")}
+    # THE DOI JOIN WAS BROKEN IN BOTH DIRECTIONS AND EVERY RECALL FIGURE RESTED ON IT.
+    # It used to look each gold row up in the Tier-B frame under `norm(title)[:120]` only. But
+    # 64 of 400 Tier-B rows carry a STALE `title_key`: `98_` set it from the raw snowball title and
+    # enrichment then rewrote the title to the provider's canonical form, which is the A6a defect and
+    # is still live. 60 of those 64 have a DOI the lookup never found, so they fell back to
+    # title-only matching and were scored as misses when a DOI would have matched them. And Tier A's
+    # own `doi` field was never consulted at all, though all 48 rows carry one.
+    # Indexed under BOTH keys now, and across BOTH tiers. Measured effect on the v2 corpus:
+    # weighted recall 83.5% -> 84.2%, and the A_ONLY/BOTH split moves 19/12 -> 14/17 because the
+    # channel overlap was being under-detected by the same stale key.
+    doi_by_key = {}
+    for fn in (f"{SLUG}-tier-a.json", f"{SLUG}-tier-b-frame.json"):
+        for r in json.load(open(os.path.join(LOGS, fn))):
+            if not r.get("doi"):
+                continue
+            if r.get("title_key"):
+                doi_by_key.setdefault(r["title_key"], r["doi"])
+            if r.get("title"):
+                doi_by_key.setdefault(cv.norm(r["title"])[:120], r["doi"])
     hit = {"A_ONLY": [0, 0], "B_ONLY": [0, 0], "BOTH": [0, 0]}
     misses = []
     for g in gold:
         t = cv.norm(g["title"])[:70]
-        doi = (tier_b.get(cv.norm(g["title"])[:120]) or {}).get("doi")
+        doi = doi_by_key.get(cv.norm(g["title"])[:120])
         found = t in got_titles or (doi and doi in got_dois)
         hit[g["tier"]][1] += 1
         hit[g["tier"]][0] += bool(found)
