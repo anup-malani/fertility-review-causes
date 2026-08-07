@@ -93,6 +93,9 @@ def main():
     ap.add_argument("--batches", default="")
     ap.add_argument("--force", action="store_true", help="redo batches that already have valid verdicts")
     ap.add_argument("--sleep", type=float, default=2.0)
+    ap.add_argument("--retries", type=int, default=3,
+                    help="attempts per batch before giving up; a fast non-zero exit is "
+                         "usually a concurrency limit rather than a content problem")
     ap.add_argument("--command", nargs=argparse.REMAINDER,
                     help="runner command, e.g. --command claude -p (must be last)")
     args = ap.parse_args()
@@ -131,14 +134,37 @@ def main():
                                     records=json.dumps(records, indent=1, ensure_ascii=False))
         t0 = time.time()
         try:
-            proc = subprocess.run(list(args.command) + [prompt], capture_output=True, text=True,
-                                  timeout=900)
-            if proc.returncode != 0:
-                raise RuntimeError(f"runner exit {proc.returncode}: {proc.stderr[:200]}")
-            payload = extract_json_array(proc.stdout)
-            errs, normalized = validator.validate_batch(batch_path, payload)
-            if errs:
-                raise ValueError(f"{len(errs)} validation errors; first: {errs[0]}")
+            # Retry with backoff. Running five runners concurrently made the CLI return exit 1 in
+            # under two seconds for 92 of 125 batches — a concurrency limit, not a content problem,
+            # and indistinguishable from a real failure without a retry. A fast non-zero exit is
+            # almost always transient; a slow one is usually not, so the backoff is generous.
+            # One attempt budget covering BOTH failure modes, because both are transient in the same
+            # way: a runner exit-1 under concurrency, and a response that drops a record or violates
+            # a schema rule. Retrying a schema failure is not cherry-picking a verdict — the retry
+            # criterion is compliance with the output contract, never agreement with a desired
+            # answer, and the prompt is byte-identical across attempts.
+            last, normalized = None, None
+            for attempt in range(args.retries):
+                proc = subprocess.run(list(args.command) + [prompt], capture_output=True, text=True,
+                                      timeout=900)
+                if proc.returncode != 0 or not proc.stdout.strip():
+                    last = (f"runner exit {proc.returncode}: "
+                            f"{(proc.stderr or proc.stdout or '<no output>').strip()[:200]}")
+                else:
+                    try:
+                        payload = extract_json_array(proc.stdout)
+                        errs, normalized = validator.validate_batch(batch_path, payload)
+                        if not errs:
+                            break
+                        last = f"{len(errs)} validation errors; first: {errs[0]}"
+                        normalized = None
+                    except Exception as pe:
+                        last = f"unparseable response: {pe}"
+                        normalized = None
+                if attempt < args.retries - 1:
+                    time.sleep(10 * (attempt + 1))
+            if normalized is None:
+                raise RuntimeError(last or "runner produced no usable output")
             # Atomic rename only after validation passes.
             with tempfile.NamedTemporaryFile("w", dir=str(SCREEN), delete=False,
                                              suffix=".tmp", encoding="utf-8") as fh:
