@@ -8,8 +8,8 @@
 **Touches:** literature/search-logs/caldwell-wealth-flows-westernization-*, extraction/caldwell-wealth-flows-westernization-*, output/chapters/caldwell-wealth-flows-westernization.md
 
 ## Acceptance criteria
-- [x] 2. Search strategy and scope drafted — `literature/search-logs/caldwell-wealth-flows-westernization-search-scope.md` (walls DRAFT, two calls open, see Log)
-- [ ] 3. Literature search and AI screening, both phases (§5.1)
+- [x] 2. Search strategy and scope drafted — `{slug}-search-scope.md`; six boundary walls **FROZEN** 2026-08-07, both scope calls approved
+- [ ] 3. Literature search and AI screening, both phases (§5.1) — A3 anchors and A4 frame done (Tier A 14, Tier B 4,701); D1 ranking and the blinded screen outstanding
 - [ ] 4. RA title/abstract review
 - [ ] 5. Full-text retrieval
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
