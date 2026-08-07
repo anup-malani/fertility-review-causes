@@ -111,6 +111,27 @@ output rather than an error:
   OpenAlex". That is the three-state discipline — UNCONFIRMED is not ABSENT — being violated by the
   cache layer rather than by the resolver, which is precisely where nobody looks for it.
 
+## It recurred one stage later, which is the point
+
+Stage A3's resolver was rewritten. Stage A4 (`96_d1b_tier_ab_frame.py`) resolves anchors *again*, in
+OpenAlex, and its title path was left as the original argmax. It promptly reproduced the failure:
+Caldwell's 1982 monograph resolved to the 1983 PDR review of the book at similarity 1.0.
+
+The specifics are worth recording, because they show how convincing the wrong answer looks. OpenAlex
+holds **no record at all** for the monograph. It holds the review stub, typed `article`, carrying
+**zero** `referenced_works` — and with the book's **1,338 citations attributed to it**. So the frame
+log reported the anchor as resolved, with a citation count in the thousands, while the anchor
+contributed nothing whatsoever to Tier B. Nothing in the counts would have shown this: an anchor with
+an empty reference list looks identical to an anchor whose references were all already in the frame.
+
+Fixed by carrying an `is_book` flag from A3 into A4 and requiring a book-shaped record there too. The
+anchor is now reported as `book_no_openalex_record` — carried keyed on title, contributing nothing —
+which is the true state.
+
+**The transferable lesson: a resolution rule has to hold at every stage that resolves.** Fixing it
+where the bug was found leaves it live everywhere else the same operation happens, and the second
+site is harder to notice precisely because the first one now looks clean.
+
 ## What this implies for the other chapters
 
 The OAS, B.1, and D.3.b gold sets were built with the argmax resolver and have **not** been re-graded

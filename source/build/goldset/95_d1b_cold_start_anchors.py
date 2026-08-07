@@ -561,6 +561,11 @@ def main():
     for c in CANDIDATES:
         rec = {k: c[k] for k in ("title", "authors", "year", "provenance_channel", "provisional_cell")}
         rec["query_cluster_family"] = c["family"]
+        # Carried downstream so stage A4's resolver can apply the same book-shape rule. Without it,
+        # A4 re-runs the version error this stage was rewritten to prevent: its title-search path is
+        # still an argmax, and for a monograph the highest-scoring title match is its own review.
+        rec["is_book"] = bool(c.get("is_book"))
+        rec["expect_no_doi"] = bool(c.get("expect_no_doi"))
         if c.get("routing_note"):
             rec["routing_note"] = c["routing_note"]
         if c.get("shared_with"):

@@ -51,3 +51,8 @@ temp/
 # Gold-set build: API response cache + regenerable intermediate JSONs (deliverables live in literature/search-logs/)
 source/build/goldset/cache/
 source/build/goldset/*.json
+
+# Secrets — API keys. Never commit.
+.env
+.env.*
+!.env.example

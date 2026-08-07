@@ -71,4 +71,36 @@ backward references still taken from every resolved anchor, including the exclud
 Budget parameter, not a recall claim — if a primary cell comes back thin, raise the cap for that
 cell's seeds and re-run.
 
-**Next:** A4 Tier A/B citation frame (script 96), then the blinded screen.
+### 2026-08-07 (cont.) — A4 frame built
+
+`source/build/goldset/96_d1b_tier_ab_frame.py` → Tier A **14 empirical seeds** across all five cells
+(DI belief 5, media 3, Western contact 3, schooling-ideational 2, diffusion-independent-of-structure 1);
+Tier B **4,701 deduplicated candidates**, 3,123 with usable abstracts, 44 found by both channels, 0
+deferred. For comparison, D.3.b's frame was 1,170. The records found by both channels are almost
+entirely the developmental-idealism literature, which is the signal that the anchors and walls are
+aimed correctly.
+
+**Blocker found and cleared: OpenAlex authentication.** The build first died on
+`Insufficient budget ... Resets at midnight UTC`, and before that presented merely as everything being
+slow, because the retry loops sat through full curl timeouts. Cause: the goldset scripts send
+`mailto=` only, which identifies the caller but does not authenticate, so they draw on a shared
+anonymous daily budget. **A funded `OPENALEX_API_KEY` has been sitting in `.env` unused the whole
+time.** Wired into script 96 via `_openalex_key()` (env first, then `.env`; never inlined, never in a
+cache filename or an exception message). *The older goldset scripts still have this bug, and this is
+very likely the real cause of the D.1.a blocker recorded as "OpenAlex canon resolution now unusable"
+— worth re-testing TICK-062 before treating it as blocked.*
+
+Also: **`.env` was not gitignored.** Fixed. A live API key was sitting one `git add .` away from a
+public commit.
+
+**The version-of-record problem recurred at A4**, which is the more useful half of the finding.
+Stage A4 resolves anchors again, in OpenAlex, and its title path was still an argmax — so Caldwell
+1982 resolved to the 1983 PDR review of the book at similarity 1.0. OpenAlex has no record for the
+monograph at all: only a review stub, typed `article`, with **zero** referenced_works and the book's
+**1,338 citations attributed to it**. The frame log therefore reported a resolved anchor with a
+citation count in the thousands that contributed nothing to Tier B, and no count would have exposed
+it — an anchor with an empty reference list looks the same as one whose references were already in
+the frame. Fixed by carrying `is_book` from A3 into A4. A resolution rule has to hold at every stage
+that resolves; fixing it where it was found leaves it live everywhere else.
+
+**Next:** D1 ranking and the blinded title/abstract screen over the 4,701-record frame.

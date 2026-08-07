@@ -48,7 +48,7 @@ Outputs: literature/search-logs/{slug}-anchor-resolution.json
          literature/search-logs/{slug}-tier-b-frame.json
          literature/search-logs/{slug}-tier-ab-log.md
 """
-import argparse, hashlib, json, re, subprocess, sys, time, unicodedata
+import argparse, hashlib, json, os, re, subprocess, sys, time, unicodedata
 from collections import defaultdict
 from pathlib import Path
 from urllib.parse import quote
@@ -96,7 +96,10 @@ def deinvert(idx):
 
 def get_json(url, refresh=False, tries=4):
     CACHE.mkdir(parents=True, exist_ok=True)
-    path = CACHE / f"{hashlib.sha256(url.encode()).hexdigest()}.json"
+    # Hash the key-stripped URL: otherwise the cache is invalidated by a key rotation, and more
+    # importantly the secret would be an input to a filename that gets committed in a directory listing.
+    cache_url = re.sub(r"&api_key=[^&]*", "", url)
+    path = CACHE / f"{hashlib.sha256(cache_url.encode()).hexdigest()}.json"
     if path.exists() and not refresh:
         return json.loads(path.read_text())
     for attempt in range(tries):
@@ -113,11 +116,37 @@ def get_json(url, refresh=False, tries=4):
                 pass
         if attempt < tries - 1:
             time.sleep(2 ** attempt)
-    raise RuntimeError(f"OpenAlex failed after {tries} attempts: {url[:90]}")
+    raise RuntimeError("OpenAlex failed after "
+                       f"{tries} attempts: {re.sub(r'&api_key=[^&]*', '&api_key=REDACTED', url)[:110]}")
+
+
+def _openalex_key():
+    """OpenAlex authenticates on an API key; `mailto` alone only identifies the caller and draws on a
+    shared anonymous daily budget that a citation-frame build exhausts almost immediately.
+
+    This build initially failed with "Insufficient budget ... Resets at midnight UTC" while a funded
+    key sat unused in the repo's `.env` — the scripts had only ever sent `mailto`. Read it from the
+    environment first, then from `.env`, and never inline it: `.env` is gitignored and the key must
+    not reach a log, a cache filename, or a commit."""
+    key = os.environ.get("OPENALEX_API_KEY")
+    if key:
+        return key.strip()
+    envf = REPO / ".env"
+    if envf.exists():
+        for line in envf.read_text().splitlines():
+            if line.startswith("OPENALEX_API_KEY="):
+                return line.split("=", 1)[1].strip()
+    return None
+
+
+OPENALEX_KEY = _openalex_key()
 
 
 def api(path):
-    return f"https://api.openalex.org/{path}{'&' if '?' in path else '?'}mailto={quote(MAILTO)}"
+    url = f"https://api.openalex.org/{path}{'&' if '?' in path else '?'}mailto={quote(MAILTO)}"
+    if OPENALEX_KEY:
+        url += f"&api_key={quote(OPENALEX_KEY)}"
+    return url
 
 
 def resolve(anchor, refresh=False):
@@ -137,6 +166,16 @@ def resolve(anchor, refresh=False):
         cands = get_json(api(f"works?search={q}&per-page=5&select={SELECT}"), refresh).get("results", [])
     except RuntimeError:
         return None, 0.0, "error"
+    # Book-shape rule, carried from A3 (decisions/2026-08-07-version-of-record-gate.md). For a
+    # monograph the highest-scoring title match is reliably its own review, and this title path is
+    # still an argmax. OpenAlex holds no record for Caldwell's 1982 book — only the 1983 PDR review
+    # stub, which scores similarity 1.0, is typed `article`, carries zero referenced_works, and has
+    # the book's 1,338 citations attributed to it. Accepting it would put a review in the gold set in
+    # place of the work and would report a citation count the anchor does not have.
+    if anchor.get("is_book"):
+        cands = [w for w in cands if (w.get("type") or "") in ("book", "monograph", "edited-book")]
+        if not cands:
+            return None, 0.0, "book_no_openalex_record"
     scored = [(sim(anchor["title"], w.get("title")),
                -abs((anchor.get("year") or 0) - (w.get("publication_year") or 0)), w)
               for w in cands if isinstance(w, dict) and w.get("id")]
@@ -192,7 +231,11 @@ def main():
         # DOI matches are authoritative; only title-search fallbacks face the similarity floor.
         if w is None or (via != "doi" and s < RESOLVE_SIM_MIN):
             unresolved.append({"title": a["title"], "similarity": round(s, 3),
-                               "is_book": bool(a.get("note")), "via": via})
+                               "is_book": bool(a.get("is_book")), "via": via,
+                               "reason": ("no book-shaped OpenAlex record; carried keyed on title, "
+                                          "contributes nothing to the frame"
+                                          if via == "book_no_openalex_record"
+                                          else "below title-similarity floor")})
             continue
         cell = a.get("provisional_cell")
         is_decoy = a.get("query_cluster_family") == "ROUTING_DECOY"
