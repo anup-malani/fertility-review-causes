@@ -1,0 +1,485 @@
+[
+  {
+    "paperId": "W4403532902",
+    "doi": "10.1016/j.labeco.2024.102640",
+    "title": "Television and family demography: Evidence from a natural experiment in East Germany",
+    "year": 2024,
+    "authors": "Sven A. Hartmann",
+    "venue": "Labour Economics",
+    "cited_by_count": 4,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2114628399",
+      "W3123703439"
+    ],
+    "verdict": "RELEVANT",
+    "estimand_cell": "DIFFUSION_INDEPENDENT_OF_STRUCTURE",
+    "outcome_level": "MULTIPLE",
+    "shared_with": "none",
+    "treatment": "residence-based ability to receive Western television in the GDR",
+    "outcome": "marriage, childbirth, divorce; family attitudes",
+    "structural_change_held_fixed": "yes",
+    "setting_era": "SDT",
+    "evidence_type": "quasi-experimental",
+    "reason": "Signal-geography natural experiment within one economy attributes reduced marriage and childbearing to Western TV role models via attitude change.",
+    "tier": "T2",
+    "model_screened": true,
+    "multi_level_needs_extraction_split": true
+  },
+  {
+    "paperId": "W4319336851",
+    "doi": "10.1525/sod.2022.0007",
+    "title": "Developmental Idealism and Beliefs about Marriage in the United States",
+    "year": 2023,
+    "authors": "D. C. Richardson; Keera Allendorf",
+    "venue": "Sociology of Development",
+    "cited_by_count": 2,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W1969630867",
+      "W2031727718",
+      "W2156178945"
+    ],
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_DI_BELIEF",
+    "outcome_level": "STATED_INTENTION_OR_IDEAL",
+    "shared_with": "none",
+    "treatment": "developmental-idealism beliefs linking societal development to marriage attributes",
+    "outcome": "endorsement of and evaluation of 'modern' marriage attributes",
+    "structural_change_held_fixed": "no",
+    "setting_era": "SDT",
+    "evidence_type": "observational",
+    "reason": "44-item Thornton-style DI instrument measuring beliefs that development causes modern marriage forms, with evaluative family-form ideals as the outcome.",
+    "tier": "T2",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2644232913",
+    "doi": null,
+    "title": "Developmental idealism and changing models of marriage.",
+    "year": 2006,
+    "authors": "de Jong Ja; Ghimire Dj; Arland Thornton; L. Pearce",
+    "venue": null,
+    "cited_by_count": 4,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2031727718"
+    ],
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_DI_BELIEF",
+    "outcome_level": "STATED_INTENTION_OR_IDEAL",
+    "shared_with": "none",
+    "treatment": "developmental ideas and models of the modern family, with education, media exposure and urbanization as carriers",
+    "outcome": "endorsement of marriage age, spouse choice, intercaste marriage, divorce and polygamy norms",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Directly measures Nepali endorsement of developmentally-framed marriage models and attributes change to cohort, schooling and media exposure.",
+    "tier": "T2",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2002792116",
+    "doi": "10.1111/j.1728-4457.2000.00725.x",
+    "title": "Local and Foreign Models of Reproduction in Nyanza Province, Kenya",
+    "year": 2000,
+    "authors": "Susan Watkins",
+    "venue": "Population and Development Review",
+    "cited_by_count": 143,
+    "discovery_channels": [
+      "backward_reference"
+    ],
+    "seed_ids": [
+      "W1969630867",
+      "W2031727718",
+      "W2953204003"
+    ],
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_DI_BELIEF",
+    "outcome_level": "STATED_INTENTION_OR_IDEAL",
+    "shared_with": "none",
+    "treatment": "successive cultural models of reproduction, including a foreign model introduced by international population networks",
+    "outcome": "held ideals about family size and reproductive strategy",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Traces adoption of a 'small families are progressive' ideal and an externally introduced global model of reproduction in rural Kenya.",
+    "tier": "T2",
+    "model_screened": true
+  },
+  {
+    "paperId": "W4412065385",
+    "doi": "10.1093/sf/soaf100",
+    "title": "Shifting partnership ideals with online technologies among unmarried women in India",
+    "year": 2025,
+    "authors": "Luca Maria Pesando; Koyel Sarkar; Sabino Kornrich",
+    "venue": "Social Forces",
+    "cited_by_count": 2,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W1969630867",
+      "W2031727718",
+      "W2492752398",
+      "W3123703439"
+    ],
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_MEDIA_WESTERN_MODEL",
+    "outcome_level": "STATED_INTENTION_OR_IDEAL",
+    "shared_with": "A.20",
+    "treatment": "daily independent Internet use as exposure to globalized cultural scripts",
+    "outcome": "modern partnership ideals — love marriage, partner choice, importance of marriage",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "quasi-experimental",
+    "reason": "Internet exposure to globalized family scripts as a determinant of modern partnership ideals in India, with an IV design; channel reading equally live.",
+    "tier": "T2",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2144464409",
+    "doi": "10.1007/s13524-015-0420-3",
+    "title": "Does Electrification Spur the Fertility Transition? Evidence From Indonesia",
+    "year": 2015,
+    "authors": "Michael Grimm; Robert Sparrow; Luca Tasciotti",
+    "venue": "Demography",
+    "cited_by_count": 78,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2114628399",
+      "W3123703439"
+    ],
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_MEDIA_WESTERN_MODEL",
+    "outcome_level": "MULTIPLE",
+    "shared_with": "A.20",
+    "treatment": "electrification-induced exposure to television",
+    "outcome": "fertility preferences and realized fertility decline",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "quasi-experimental",
+    "reason": "television exposure identified as a key channel to fertility preferences and births; channel and depicted-model readings both live",
+    "tier": "T2",
+    "model_screened": true,
+    "multi_level_needs_extraction_split": true
+  },
+  {
+    "paperId": "W2466969149",
+    "doi": null,
+    "title": "The impact of television and radio on reproductive behavior and on HIV / AIDS knowledge and behavior.",
+    "year": 2011,
+    "authors": "Charles F. Westoff; Dawn Koffman; Caroline Moreau",
+    "venue": null,
+    "cited_by_count": 15,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2059106092",
+      "W2114628399"
+    ],
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_MEDIA_WESTERN_MODEL",
+    "outcome_level": "MULTIPLE",
+    "shared_with": "A.20",
+    "treatment": "frequency of television and radio exposure across 48 developing countries",
+    "outcome": "contraceptive use, desired number of children, recent births",
+    "structural_change_held_fixed": "yes",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Media exposure framed as a window onto modern life competing with traditional marriage and childbearing values, with associations persisting net of schooling, wealth and urban residence; channel reading equally live so shared with A.20.",
+    "tier": "T2",
+    "model_screened": true,
+    "multi_level_needs_extraction_split": true
+  },
+  {
+    "paperId": "W2043185881",
+    "doi": "10.1111/j.1728-4457.2011.00455.x",
+    "title": "The Association of Television and Radio with Reproductive Behavior",
+    "year": 2011,
+    "authors": "Charles F. Westoff; Dawn Koffman",
+    "venue": "Population and Development Review",
+    "cited_by_count": 57,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2059106092",
+      "W2114628399"
+    ],
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_MEDIA_WESTERN_MODEL",
+    "outcome_level": "MULTIPLE",
+    "shared_with": "A.20",
+    "treatment": "frequency of television and radio exposure",
+    "outcome": "contraceptive use, desired number of children, recent fertility",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Media exposure across 48 developing countries linked to fertility and desired family size, with the effect attributed to depicted modern-family life; content unmeasured so the channel reading is equally live.",
+    "tier": "T2",
+    "model_screened": true,
+    "multi_level_needs_extraction_split": true
+  },
+  {
+    "paperId": "W4404567126",
+    "doi": "10.1111/cwe.12558",
+    "title": "The Multifaceted Impact of Education on Fertility: Unpacking the “BASIC” Effects in China",
+    "year": 2024,
+    "authors": "Yufei Liu; Chuanmin Zhao",
+    "venue": "China & World Economy",
+    "cited_by_count": 4,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_SCHOOLING_IDEATIONAL",
+    "outcome_level": "MULTIPLE",
+    "shared_with": "none",
+    "treatment": "years of education, instrumented, decomposed into base/ambition/spouse/income/concept channels",
+    "outcome": "number of children, parity progression, fertility intentions",
+    "structural_change_held_fixed": "yes",
+    "setting_era": "SDT",
+    "evidence_type": "quasi-experimental",
+    "reason": "Design explicitly separates a 'concept' (ideational) channel of schooling from income and work-status returns (Wall 5)",
+    "tier": "T2",
+    "model_screened": true,
+    "multi_level_needs_extraction_split": true
+  },
+  {
+    "paperId": "W2067618881",
+    "doi": "10.1086/375519",
+    "title": "Schooling Opportunities for Girls as a Stimulus for Fertility Change in Rural Pakistan",
+    "year": 2003,
+    "authors": "Zeba A. Sathar; Cynthia B. Lloyd; Cem Mete; Minhaj ul Haque",
+    "venue": "Economic Development and Cultural Change",
+    "cited_by_count": 45,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_SCHOOLING_IDEATIONAL",
+    "outcome_level": "STATED_INTENTION_OR_IDEAL",
+    "shared_with": "none",
+    "treatment": "community-level girls' school availability and gender equity in the schooling environment",
+    "outcome": "woman's expressed desire to stop childbearing",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Explicit test of Caldwell's mass-schooling hypothesis using community schooling supply and gender equity rather than a woman's own human capital (Wall 5 spillover reading).",
+    "tier": "T2",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2014423935",
+    "doi": "10.4054/demres.2000.3.3",
+    "title": "A search for aggregate-level effects of education on fertility, using data from Zimbabwe",
+    "year": 2000,
+    "authors": "Øystein Kravdal",
+    "venue": "Demographic Research",
+    "cited_by_count": 40,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_SCHOOLING_IDEATIONAL",
+    "outcome_level": "MULTIPLE",
+    "shared_with": "none",
+    "treatment": "district-level average schooling and literacy, net of own education",
+    "outcome": "birth hazards, fertility desires, contraceptive use",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Estimates aggregate education spillovers on women whose own schooling did not change, controlling own education and urbanization — the ideational-content design of Wall 5.",
+    "tier": "T2",
+    "model_screened": true,
+    "multi_level_needs_extraction_split": true
+  },
+  {
+    "paperId": "W4401595574",
+    "doi": "10.1002/soej.12727",
+    "title": "Harmony in diplomacy, convergence in choices: Low fertility diffusion through Sino‐Korean normalization",
+    "year": 2024,
+    "authors": "Seung‐hun Chung; Ahmad Shah Mobariz",
+    "venue": "Southern Economic Journal",
+    "cited_by_count": 0,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W3124025479"
+    ],
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_WESTERN_CONTACT",
+    "outcome_level": "MULTIPLE",
+    "shared_with": "none",
+    "treatment": "1992 Sino-Korean diplomatic normalization opening contact with low-fertility South Korea",
+    "outcome": "fertility and marriage rates among Korean Chinese",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "SDT",
+    "evidence_type": "quasi-experimental",
+    "reason": "Contact with an external modern reference society is the exposure, with adoption of its low-fertility norms as the stated mechanism.",
+    "tier": "T2",
+    "model_screened": true,
+    "multi_level_needs_extraction_split": true
+  },
+  {
+    "paperId": "W4379516845",
+    "doi": "10.1177/01979183231161600",
+    "title": "Competing Family Pathways for Immigrants and Their Descendants in Germany",
+    "year": 2023,
+    "authors": "Chia Liu; Hill Kulu",
+    "venue": "International Migration Review",
+    "cited_by_count": 12,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2610027961"
+    ],
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_WESTERN_CONTACT",
+    "outcome_level": "MULTIPLE",
+    "shared_with": "none",
+    "treatment": "immigrant generation and origin-group exposure to German host family norms",
+    "outcome": "cohabitation, marriage, first birth",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "SDT",
+    "evidence_type": "observational",
+    "reason": "Event-history study of convergence with native partnership and fertility pathways across migrant generations and cohorts.",
+    "tier": "T2",
+    "model_screened": true,
+    "multi_level_needs_extraction_split": true
+  },
+  {
+    "paperId": "W4237795700",
+    "doi": "10.21608/jarts.2019.81628",
+    "title": "الهجرة العائدة وإعادة تشکیل الثقافة الإنجابیة دراسة میدانیة للعائدین من مجتماعات غریبة",
+    "year": 2019,
+    "authors": "",
+    "venue": "مجلة کلیة الآداب القاهرة",
+    "cited_by_count": 0,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W3124025479"
+    ],
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_WESTERN_CONTACT",
+    "outcome_level": "STATED_INTENTION_OR_IDEAL",
+    "shared_with": "none",
+    "treatment": "residence in Europe/USA and return migration to Upper Egypt",
+    "outcome": "reproductive culture and norms about family size/fertility control",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Return migrants' exposure to Western societies is examined as restructuring the origin community's reproductive culture.",
+    "tier": "T2",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2057100435",
+    "doi": "10.1080/00324728.2012.721518",
+    "title": "The impact of outmigration of men on fertility and marriage in the migrant-sending states of Mexico, 1995–2000",
+    "year": 2012,
+    "authors": "Kari White; Joseph E. Potter",
+    "venue": "Population Studies",
+    "cited_by_count": 12,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2031727718",
+      "W2051774250"
+    ],
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_WESTERN_CONTACT",
+    "outcome_level": "MULTIPLE",
+    "shared_with": "none",
+    "treatment": "municipal level of male outmigration to the US",
+    "outcome": "total fertility and proportion of women married",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Migration exposure associated with marriage decline net of sex ratio and education, attributed to changing family-formation ideas.",
+    "tier": "T2",
+    "model_screened": true,
+    "multi_level_needs_extraction_split": true
+  },
+  {
+    "paperId": "W163572949",
+    "doi": null,
+    "title": "Social exclusion and social change: Access to, and influence of, community-based collective action programs in Nepal",
+    "year": 2011,
+    "authors": "Meeta S. Pradhan",
+    "venue": "Deep Blue (University of Michigan)",
+    "cited_by_count": 3,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2031727718",
+      "W2059106092",
+      "W564021622"
+    ],
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_WESTERN_CONTACT",
+    "outcome_level": "STATED_INTENTION_OR_IDEAL",
+    "shared_with": "none",
+    "treatment": "participation in newly introduced community-based organizations in Chitwan, Nepal",
+    "outcome": "change in gender- and family-related attitudes (marriage timing, widow remarriage, daughter-in-law roles, male household decision-making)",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Panel design linking exposure to new non-family development institutions to shifts toward an egalitarian family-form ideal in a non-industrial transitional setting.",
+    "tier": "T2",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2006422041",
+    "doi": "10.1080/19485565.1994.9988878",
+    "title": "Fertility attitudes and behavior of Saudi Arabian students enrolled in U.S. universities",
+    "year": 1994,
+    "authors": "Khalid A. A. Al‐Mubarak; Donald J. Adamchak",
+    "venue": "Biodemography and Social Biology",
+    "cited_by_count": 11,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_WESTERN_CONTACT",
+    "outcome_level": "MULTIPLE",
+    "shared_with": "none",
+    "treatment": "length of stay studying in U.S. universities",
+    "outcome": "fertility attitudes and number of children",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Direct residence in a Western setting is among the modelled determinants of fertility attitudes and behaviour among Saudi nationals.",
+    "tier": "T2",
+    "model_screened": true,
+    "multi_level_needs_extraction_split": true
+  }
+]

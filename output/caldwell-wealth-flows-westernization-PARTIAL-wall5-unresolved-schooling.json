@@ -1,0 +1,2099 @@
+[
+  {
+    "paperId": "W7167662796",
+    "doi": "10.62823/ijarcmss/9.2(iii).9114",
+    "title": "Gender, Education and Changing Marital Expectations among Educated Youth in Rajasthan: A Sociological Study",
+    "year": 2026,
+    "authors": "Anita Jyani; Jyoti Shukla",
+    "venue": "International Journal of Advanced Research in Commerce Management & Social Science",
+    "cited_by_count": 0,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2492752398"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "STATED_INTENTION_OR_IDEAL",
+    "shared_with": "none",
+    "treatment": "education, urbanization, exposure to modern communication",
+    "outcome": "marital expectations regarding gender equality, dowry, family role in spouse choice",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Descriptive survey of educated youth's marital attitudes with schooling and media bundled and no mechanism separated.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W4409029977",
+    "doi": "10.1093/ereh/heae023",
+    "title": "The Causal Effects of Education on Age at Marriage and Marital Fertility",
+    "year": 2025,
+    "authors": "Neil Cummins",
+    "venue": "European Review of Economic History",
+    "cited_by_count": 5,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "MULTIPLE",
+    "shared_with": "none",
+    "treatment": "compulsory schooling law changes raising minimum leaving age",
+    "outcome": "age at marriage and marital fertility",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "SDT",
+    "evidence_type": "quasi-experimental",
+    "reason": "Causal schooling-to-fertility RD with no visible decomposition separating ideational content from wage or cost returns.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W4413581552",
+    "doi": "10.1186/s12982-025-00902-1",
+    "title": "Individual and community effects and adolescent reproductive health transitions in West Africa",
+    "year": 2025,
+    "authors": "Winfred A. Avogo",
+    "venue": "Discover Public Health",
+    "cited_by_count": 0,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "MULTIPLE",
+    "shared_with": "none",
+    "treatment": "community-level and individual education, neighbourhood characteristics",
+    "outcome": "timing of union formation and first birth",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Aggregate and individual education predicting adolescent union and first birth in West Africa with no mechanism decomposition visible (Wall 5).",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W4415317108",
+    "doi": "10.1016/j.ssaho.2025.102109",
+    "title": "Does reducing the length of school cycles affect Women's fertility? Quasi-Experimental evidence from Ghana",
+    "year": 2025,
+    "authors": "Prince Boakye Frimpong; Raphael Edem Ayibor",
+    "venue": "Social Sciences & Humanities Open",
+    "cited_by_count": 0,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W4386542604"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "REALIZED_FERTILITY",
+    "shared_with": "none",
+    "treatment": "years of schooling from a school-cycle-length reform in Ghana",
+    "outcome": "total fertility, childlessness, teen motherhood, birth timing",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "quasi-experimental",
+    "reason": "Causal schooling-to-fertility estimate with no mechanism decomposition distinguishing ideational content from economic returns.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W4408320812",
+    "doi": "10.1111/padr.12720",
+    "title": "Reframing the Relationship Between Fertility and Education in Adolescence: 60 Years of Evidence From Latin America",
+    "year": 2025,
+    "authors": "Ann Garbett; Sarah Neal; Angela Luna Hernandez; Nikos Tzavidis",
+    "venue": "Population and Development Review",
+    "cited_by_count": 1,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "REALIZED_FERTILITY",
+    "shared_with": "none",
+    "treatment": "school enrollment and attainment",
+    "outcome": "adolescent childbearing timing and parity",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Splits schooling into enrollment-incarceration and aspirational effects descriptively, without isolating ideational content from returns.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W4414887011",
+    "doi": "10.1215/00703370-12250354",
+    "title": "Fertility Decline and Educational Progress Among African Women and Children",
+    "year": 2025,
+    "authors": "Tom Vogl",
+    "venue": "Demography",
+    "cited_by_count": 1,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "MULTIPLE",
+    "shared_with": "none",
+    "treatment": "women's and children's educational attainment",
+    "outcome": "realized and desired fertility",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Cross-country education–fertility associations in Africa with no decomposition separating ideational content from cost or return.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W4408224057",
+    "doi": "10.1007/s12546-025-09369-y",
+    "title": "Effects of diffusion and education on women’s fertility in India",
+    "year": 2025,
+    "authors": "Nandan Kumar Jha; Neena Banerjee",
+    "venue": "Journal of Population Research",
+    "cited_by_count": 1,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2114628399"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "REALIZED_FERTILITY",
+    "shared_with": "none",
+    "treatment": "women's education plus media exposure and social network diffusion",
+    "outcome": "number of children ever born",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Education to fertility with no mechanism decomposition, and diffusion measured as media/network exposure with content unspecified",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W4413110980",
+    "doi": "10.1215/00703370-12191344",
+    "title": "How Is Fertility Behavior in Africa Different?",
+    "year": 2025,
+    "authors": "Claus C. Pörtner",
+    "venue": "Demography",
+    "cited_by_count": 0,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2031727718",
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "REALIZED_FERTILITY",
+    "shared_with": "none",
+    "treatment": "attained grade level (with literacy as school-quality proxy)",
+    "outcome": "children ever born and surviving children",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Education-fertility gradients compared across regions with mechanism attributed to mortality and school quality, not decomposed toward ideation.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W4391348058",
+    "doi": "10.1007/s10680-023-09691-2",
+    "title": "The Impact of Education on Fertility During the Chinese Reform Era (1980–2018): Changes Across Birth Cohorts and Interaction with Fertility Policies",
+    "year": 2024,
+    "authors": "Pau Baizán; Wanli Nie",
+    "venue": "European Journal of Population / Revue européenne de Démographie",
+    "cited_by_count": 14,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "REALIZED_FERTILITY",
+    "shared_with": "none",
+    "treatment": "women's and partners' educational attainment",
+    "outcome": "parity-specific birth hazards",
+    "structural_change_held_fixed": "no",
+    "setting_era": "SDT",
+    "evidence_type": "observational",
+    "reason": "Education-to-fertility event-history estimates by parity and cohort with no decomposition separating ideational content from wage or child-cost returns.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W4401323454",
+    "doi": "10.32468/chee.63",
+    "title": "Understanding the relationship between women's education and fertility decline: Evidence from Colombia",
+    "year": 2024,
+    "authors": "Juliana Jaramillo‐Echeverri",
+    "venue": null,
+    "cited_by_count": 0,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "REALIZED_FERTILITY",
+    "shared_with": "none",
+    "treatment": "women's educational attainment",
+    "outcome": "children ever born, childlessness, birth timing",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Education-fertility gradient in Colombia with no decomposition separating ideational content from cost and wage returns.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W4392281504",
+    "doi": "10.24201/edu.v39i1.2192",
+    "title": "The relationship between education and fertility preferences in Mexico: Lessons from Italy",
+    "year": 2024,
+    "authors": "Fatima Juárez; Alessandra De Rose; Maria Rita Testa",
+    "venue": "Estudios Demográficos y Urbanos",
+    "cited_by_count": 0,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "STATED_INTENTION_OR_IDEAL",
+    "shared_with": "none",
+    "treatment": "educational attainment",
+    "outcome": "fertility preferences and intentions",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Education–fertility-preference gradient in Mexico compared with Italy, with no decomposition of ideational versus economic mechanism.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W4367682404",
+    "doi": "10.1108/s1530-353520230000022007",
+    "title": "Education, Marriage Cohorts, and Different Pathways to Marriage in East Asian Societies",
+    "year": 2023,
+    "authors": "Shichao Du",
+    "venue": null,
+    "cited_by_count": 4,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W1969630867",
+      "W2031727718",
+      "W2953204003",
+      "W2995925261"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "FAMILY_FORMATION_BEHAVIOUR",
+    "shared_with": "none",
+    "treatment": "educational attainment and marriage cohort",
+    "outcome": "arranged vs introduced vs self-initiated marriage pathway",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "SDT",
+    "evidence_type": "observational",
+    "reason": "Education-to-marriage-pathway association framed as developmental idealism, but no decomposition separating ideational content from economic returns.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W4289523034",
+    "doi": "10.31235/osf.io/697pn",
+    "title": "The Variability of Age at First Marriage across Birth Cohort and Education Level: The Case of Taiwan",
+    "year": 2022,
+    "authors": "HAO-CHUN CHENG; Philip N. Cohen",
+    "venue": null,
+    "cited_by_count": 1,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2700341679",
+      "W2995925261"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "FAMILY_FORMATION_BEHAVIOUR",
+    "shared_with": "none",
+    "treatment": "women's education level across birth cohorts",
+    "outcome": "variability in age at first marriage",
+    "structural_change_held_fixed": "no",
+    "setting_era": "SDT",
+    "evidence_type": "observational",
+    "reason": "Education and cohort differences in marriage timing with no decomposition separating ideational content from wage or cost returns",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W4225394348",
+    "doi": "10.4054/demres.2022.46.29",
+    "title": "Fertility among better-off women in sub-Saharan Africa: Nearing late transition levels across the region",
+    "year": 2022,
+    "authors": "Jamaica Corker; Clémentine Rossier; Lonkila Moussa Zan",
+    "venue": "Demographic Research",
+    "cited_by_count": 12,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "REALIZED_FERTILITY",
+    "shared_with": "none",
+    "treatment": "women's education and wealth status",
+    "outcome": "fertility rates in sub-Saharan Africa",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Fertility differentials by education and wealth with no visible decomposition of ideational versus economic mechanism; abstract is truncated.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W4281658370",
+    "doi": "10.1007/s11113-022-09716-4",
+    "title": "Is Two Still Best? Change in Parity-Specific Fertility Across Education in Low-Fertility Countries",
+    "year": 2022,
+    "authors": "Zuzanna Brzozowska; Éva Beaujouan; Kryštof Zeman",
+    "venue": "Population Research and Policy Review",
+    "cited_by_count": 12,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2610027961"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "REALIZED_FERTILITY",
+    "shared_with": "none",
+    "treatment": "educational attainment group",
+    "outcome": "parity-specific completed cohort fertility",
+    "structural_change_held_fixed": "no",
+    "setting_era": "SDT",
+    "evidence_type": "observational",
+    "reason": "Education-specific parity trends in low-fertility countries with no mechanism decomposition separating ideational from economic returns.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W4294343530",
+    "doi": "10.1007/978-3-031-11840-1_4",
+    "title": "Socio-Economic Determinants of Fertility",
+    "year": 2022,
+    "authors": "John Bongaarts; Dennis Hodgson",
+    "venue": "SpringerBriefs in population studies",
+    "cited_by_count": 17,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "REALIZED_FERTILITY",
+    "shared_with": "none",
+    "treatment": "women's educational attainment (with diffusion and norms invoked post hoc)",
+    "outcome": "national fertility level and transition onset",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Education identified as the leading determinant of fertility with no mechanism decomposition; diffusion and norms are invoked in discussion, not designed for.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W4313316299",
+    "doi": "10.1371/journal.pone.0279773",
+    "title": "Exploring reproductive trajectories of youths of Oromia, Ethiopia: A life course approach",
+    "year": 2022,
+    "authors": "Tariku Dejene; Eshetu Gurmu",
+    "venue": "PLoS ONE",
+    "cited_by_count": 2,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2700341679"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "MULTIPLE",
+    "shared_with": "none",
+    "treatment": "educational attainment and urban residence",
+    "outcome": "timing of first sex, first marriage, first birth",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Education discriminates reproductive-trajectory typologies among Ethiopian youth with no decomposition of ideational versus economic mechanism",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W4285042530",
+    "doi": "10.1111/fare.12718",
+    "title": "Mate selection in China: Trends and determinants",
+    "year": 2022,
+    "authors": "Hao Liu; Zheng Mu",
+    "venue": "Family Relations",
+    "cited_by_count": 10,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2492752398",
+      "W4233661072"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "FAMILY_FORMATION_BEHAVIOUR",
+    "shared_with": "none",
+    "treatment": "education, urbanization, county per-capita GDP",
+    "outcome": "arranged versus introduced versus self-initiated marriage",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Education raises non-arranged marriage alongside structural covariates, with ideational versus structural mechanisms invoked but not separated.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W4282968970",
+    "doi": "10.1002/cl2.1250",
+    "title": "PROTOCOL: Causal mechanisms linking education with fertility, HIV, and child mortality: A systematic review",
+    "year": 2022,
+    "authors": "Fatima Zahra; Nicole Haberland; Stephanie Psaki",
+    "venue": "Campbell Systematic Reviews",
+    "cited_by_count": 6,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "education/schooling attainment",
+    "outcome": "fertility (with HIV, child mortality)",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "NA",
+    "evidence_type": "review",
+    "reason": "Protocol for a review of education-fertility pathways; mediators (attitudes, resources, agency) only theorized, no mechanism decomposition shown.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W4226309858",
+    "doi": "10.1596/36792",
+    "title": "Improving the Well-Being of Adolescent Girls in Developing Countries",
+    "year": 2021,
+    "authors": "World Bank",
+    "venue": "World Bank, Washington, DC eBooks",
+    "cited_by_count": 0,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W3123703439"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "interventions raising educational attainment for adolescent girls",
+    "outcome": "childbearing and age at marriage",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "review",
+    "reason": "Evidence review of schooling interventions on delayed childbearing and marriage with no decomposition of ideational versus cost mechanisms.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W4200564011",
+    "doi": "10.1111/jomf.12815",
+    "title": "Desired fertility and educational aspirations: Adolescent goals in rapidly changing social contexts",
+    "year": 2021,
+    "authors": "Melissa Alcaraz; Sarah R. Hayford; Jennifer E. Glick",
+    "venue": "Journal of Marriage and the Family",
+    "cited_by_count": 21,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W1969630867",
+      "W2051774250",
+      "W2059106092"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "STATED_INTENTION_OR_IDEAL",
+    "shared_with": "none",
+    "treatment": "adolescent educational aspirations",
+    "outcome": "desired family size",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Education–fertility-desire association in Mexico, Mozambique, and Nepal with covariate adjustment but no visible decomposition separating ideational from economic mechanism.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2999938137",
+    "doi": "10.1080/00324728.2021.1892170",
+    "title": "The relative importance of women’s education on fertility desires in sub-Saharan Africa: A multilevel analysis",
+    "year": 2021,
+    "authors": "Endale Birhanu Kebede; Erich Striessnig; Anne Goujon",
+    "venue": "Population Studies",
+    "cited_by_count": 64,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "STATED_INTENTION_OR_IDEAL",
+    "shared_with": "none",
+    "treatment": "women's education at individual and community level",
+    "outcome": "desired family size",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Compares education against wealth and residence but shows no decomposition separating ideational content from wage or cost returns.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W3118724587",
+    "doi": "10.1186/s12978-020-01057-9",
+    "title": "Socio-economic and demographic factors associated with fertility preferences among women of reproductive age in Ghana: evidence from the 2014 Demographic and Health Survey",
+    "year": 2021,
+    "authors": "Bright Opoku Ahinkorah; Abdul‐Aziz Seidu; Ebenezer Kwesi Armah‐Ansah; Edward Kwabena Ameyaw; Eugene Budu; Sanni Yaya",
+    "venue": "Reproductive Health",
+    "cited_by_count": 48,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "STATED_INTENTION_OR_IDEAL",
+    "shared_with": "none",
+    "treatment": "women's education and socio-economic status",
+    "outcome": "desire for more children",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "DHS cross-section with education as headline correlate of fertility desires and no mechanism decomposition.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2925091512",
+    "doi": null,
+    "title": "Education and Childlessness in India",
+    "year": 2020,
+    "authors": "Baudin, Thomas; Koyel Sarkar",
+    "venue": "HAL (Le Centre pour la Communication Scientifique Directe)",
+    "cited_by_count": 3,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2492752398"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "REALIZED_FERTILITY",
+    "shared_with": "none",
+    "treatment": "women's educational attainment",
+    "outcome": "childlessness at end of reproductive life",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Education→childlessness gradient with economic-opportunity and empowerment readings both offered and no mechanism decomposition.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2945124658",
+    "doi": "10.1016/j.ssmph.2019.100386",
+    "title": "Causal effects of education on sexual and reproductive health in low and middle-income countries: A systematic review and meta-analysis",
+    "year": 2019,
+    "authors": "Stephanie Psaki; Erica K. Chuang; Andrea Melnikas; David B. Wilson; Barbara Mensch",
+    "venue": "SSM - Population Health",
+    "cited_by_count": 109,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "MULTIPLE",
+    "shared_with": "none",
+    "treatment": "formal schooling exposure and learning",
+    "outcome": "fertility, age at marriage, first birth, contraceptive use, HIV",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "NA",
+    "evidence_type": "review",
+    "reason": "Causal education-to-fertility synthesis with mechanisms explicitly unresolved ('inconsistent evidence supporting mechanisms'), so no ideational-vs-economic decomposition is visible.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2807117404",
+    "doi": "10.1007/s10144-018-0626-5",
+    "title": "Variation in wealth and educational drivers of fertility decline across 45 countries",
+    "year": 2018,
+    "authors": "Heidi Colleran; Kristin Snopkowski",
+    "venue": "Population Ecology",
+    "cited_by_count": 57,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W1985725437"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "REALIZED_FERTILITY",
+    "shared_with": "none",
+    "treatment": "women's education and household wealth",
+    "outcome": "number of children born",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Education-fertility associations across 45 DHS countries mediated by work status, contraception and mortality, but ideational versus economic content of schooling is not separated.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2892678806",
+    "doi": "10.4054/demres.2018.39.20",
+    "title": "Fewer mothers with more colleges? The impacts of expansion in higher education on first marriage and first childbirth",
+    "year": 2018,
+    "authors": "Seongsoo Choi",
+    "venue": "Demographic Research",
+    "cited_by_count": 13,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "MULTIPLE",
+    "shared_with": "none",
+    "treatment": "expansion of higher education (quasi-experimental)",
+    "outcome": "first marriage and first childbirth",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "SDT",
+    "evidence_type": "quasi-experimental",
+    "reason": "Schooling-expansion shock to family formation with no visible separation of ideational content from wage or cost returns.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2805245235",
+    "doi": "10.3389/fpubh.2018.00172",
+    "title": "Is Educating Girls the Best Investment for South Asia? Association Between Female Education and Fertility Choices in South Asia: A Systematic Review of the Literature",
+    "year": 2018,
+    "authors": "Saba M. Sheikh; Tom Loney",
+    "venue": "Frontiers in Public Health",
+    "cited_by_count": 27,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W1985725437"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "REALIZED_FERTILITY",
+    "shared_with": "none",
+    "treatment": "female education and literacy",
+    "outcome": "fertility behaviour and total fertility rate",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "review",
+    "reason": "Female education to fertility in South Asia with no decomposition separating ideational content from wage or child-cost returns.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2790358149",
+    "doi": "10.1017/dem.2016.12",
+    "title": "THE IMPACT OF EDUCATION ON WOMEN'S PREFERENCES FOR GENDER EQUALITY: EVIDENCE FROM SIERRA LEONE",
+    "year": 2018,
+    "authors": "Colin Cannonier; Naci Mocan",
+    "venue": "Journal of Demographic Economics",
+    "cited_by_count": 44,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2114628399"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "MULTIPLE",
+    "shared_with": "none",
+    "treatment": "primary-school expansion program exposure by birth cohort and district",
+    "outcome": "desired number of children, gender attitudes, age at marriage and first birth",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "quasi-experimental",
+    "reason": "Schooling shock to fertility desires and marriage behaviour with no decomposition separating ideational content from wage or child-cost returns.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2205122900",
+    "doi": "10.1086/694930",
+    "title": "Education, Marriage, and Fertility: Long-Term Evidence from a Female Stipend Program in Bangladesh",
+    "year": 2017,
+    "authors": "Youjin Hahn; Asad Islam; Kanti Ananta Nuzhat; Russell Smyth; Hee-Seung Yang",
+    "venue": "Economic Development and Cultural Change",
+    "cited_by_count": 111,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2114628399",
+      "W3123703439"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "MULTIPLE",
+    "shared_with": "none",
+    "treatment": "female secondary school stipend program",
+    "outcome": "marriage timing, number of children, labour market outcomes",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "quasi-experimental",
+    "reason": "Schooling → marriage and fertility with no decomposition separating ideational content from wage or cost returns (Wall 5).",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2345861931",
+    "doi": "10.1093/oso/9780198813422.003.0006",
+    "title": "How Education Drives Demography and Knowledge Informs Projections",
+    "year": 2017,
+    "authors": "Wolfgang Lutz; Vegard Skirbekk",
+    "venue": "Oxford University Press eBooks",
+    "cited_by_count": 31,
+    "discovery_channels": [
+      "backward_reference"
+    ],
+    "seed_ids": [
+      "W2995925261"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "educational attainment as a demographic dimension",
+    "outcome": "fertility and other demographic outcomes in projections",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "NA",
+    "evidence_type": "review",
+    "reason": "Asserts a causal education–demography relationship for projection purposes with no visible decomposition of ideational versus cost/return mechanisms.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2295495194",
+    "doi": "10.1515/bejeap-2015-0059",
+    "title": "The Impact of Female Education on Teenage Fertility: Evidence from Turkey",
+    "year": 2015,
+    "authors": "Pınar Mine Güneş",
+    "venue": "The B E Journal of Economic Analysis & Policy",
+    "cited_by_count": 53,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "REALIZED_FERTILITY",
+    "shared_with": "none",
+    "treatment": "compulsory schooling law extending female primary education",
+    "outcome": "teenage births and teenage childbearing incidence",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "quasi-experimental",
+    "reason": "Schooling-to-fertility IV whose stated channels are marriage postponement and contraceptive use, with no ideational-versus-economic decomposition (Wall 5).",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W658899937",
+    "doi": "10.1007/s13524-015-0392-3",
+    "title": "Does Schooling Affect Women’s Desired Fertility? Evidence From Malawi, Uganda, and Ethiopia",
+    "year": 2015,
+    "authors": "Julia Behrman",
+    "venue": "Demography",
+    "cited_by_count": 110,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250",
+      "W2114628399",
+      "W3123703439"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "STATED_INTENTION_OR_IDEAL",
+    "shared_with": "none",
+    "treatment": "years of schooling induced by Universal Primary Education reforms",
+    "outcome": "ideal family size and desired fertility",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "quasi-experimental",
+    "reason": "Fuzzy RD of schooling on desired fertility with pathway analyses that do not separate ideational content from wage or child-cost returns.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W1925399604",
+    "doi": "10.1111/j.1728-4457.2015.00066.x",
+    "title": "The Demographic Promise of Expanded Female Education: Trends in the Age at First Birth in Malawi",
+    "year": 2015,
+    "authors": "Monica J. Grant",
+    "venue": "Population and Development Review",
+    "cited_by_count": 57,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250",
+      "W4233661072"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "REALIZED_FERTILITY",
+    "shared_with": "none",
+    "treatment": "female grade attainment / free primary education expansion",
+    "outcome": "age at first birth",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "quasi-experimental",
+    "reason": "Education expansion to fertility timing in Malawi with no decomposition separating ideational content from wage or cost returns.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W1994946224",
+    "doi": "10.15517/psm.v2i1.13946",
+    "title": "Impacto de la educación formal de las mujeres en el comportamiento reproductivo en cuatro contextos socioculturales de la Región Soconusco de Chiapas",
+    "year": 2014,
+    "authors": "Benito Salvatierra Izaba; Austreberta Nazar Beutelspacher",
+    "venue": "Población y Salud en Mesoamérica",
+    "cited_by_count": 1,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "REALIZED_FERTILITY",
+    "shared_with": "none",
+    "treatment": "women's formal schooling attainment (secondary and above)",
+    "outcome": "cohort fertility levels and age at union",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Female education linked to fertility decline across Chiapas contexts with no decomposition of ideational versus economic mechanism.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2042718166",
+    "doi": "10.1163/15691497-12341298",
+    "title": "The Effect of Education, Employment, and Income on Reproductive Attitudes and Behavior of United Arab Emirates Married Women",
+    "year": 2014,
+    "authors": "Madalla A. Alibeli",
+    "venue": "Perspectives on Global Development and Technology",
+    "cited_by_count": 5,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2059106092"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "MULTIPLE",
+    "shared_with": "none",
+    "treatment": "women's education, employment, and income",
+    "outcome": "reproductive attitudes and behavior",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "SDT",
+    "evidence_type": "observational",
+    "reason": "Education to fertility attitudes and behaviour with no mechanism decomposition separating ideational content from wage or cost returns.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2135978280",
+    "doi": "10.11564/27-2-476",
+    "title": "Childbearing dynamics among married women of reproductive age in Nigeria: re-affirming the role of education",
+    "year": 2014,
+    "authors": "Stephen A Adebowale; Martin E. Palamuleni",
+    "venue": "African Population Studies",
+    "cited_by_count": 11,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "REALIZED_FERTILITY",
+    "shared_with": "none",
+    "treatment": "women's educational attainment",
+    "outcome": "children ever born, birth intervals, birth progression hazards",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Education–fertility gradient in Nigeria with no decomposition separating ideational content from wage or child-cost returns.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2128525126",
+    "doi": "10.4054/demres.2014.31.46",
+    "title": "The educational gradient of childlessness and cohort parity progression in 14 low fertility countries",
+    "year": 2014,
+    "authors": "Jonas Wood; Karel Neels; Tine Kil",
+    "venue": "Demographic Research",
+    "cited_by_count": 139,
+    "discovery_channels": [
+      "backward_reference"
+    ],
+    "seed_ids": [
+      "W2610027961"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "REALIZED_FERTILITY",
+    "shared_with": "none",
+    "treatment": "educational attainment",
+    "outcome": "childlessness and cohort parity progression",
+    "structural_change_held_fixed": "no",
+    "setting_era": "SDT",
+    "evidence_type": "observational",
+    "reason": "Educational gradient in fertility across low-fertility countries with no visible decomposition of ideational versus economic mechanism (Wall 5).",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2068369133",
+    "doi": "10.1002/j.2326-4624.2013.tb00006.x",
+    "title": "Education and Population: Closely Linked Trajectories for Pakistan",
+    "year": 2013,
+    "authors": "Asif Wazir; Anne Goujon; Wolfgang Lutz",
+    "venue": "Population Council Book Series",
+    "cited_by_count": 3,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "education/schooling expansion",
+    "outcome": "population growth and fertility",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "review",
+    "reason": "Descriptive education-population linkage in Pakistan with no mechanism decomposition visible.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2033941506",
+    "doi": "10.4054/demres.2013.28.42",
+    "title": "Drop-out mayors and graduate farmers: Educational fertility differentials by occupational status and industry in six European countries",
+    "year": 2013,
+    "authors": "Bilal Barakat; Rachel E. Durham",
+    "venue": "Demographic Research",
+    "cited_by_count": 5,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "REALIZED_FERTILITY",
+    "shared_with": "none",
+    "treatment": "educational attainment net of occupational status and industry",
+    "outcome": "completed/observed fertility",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "SDT",
+    "evidence_type": "observational",
+    "reason": "Education–fertility differentials adjusted for social status, but no decomposition separating ideational content from wage or child-cost returns.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W1587434697",
+    "doi": "10.3386/w18016",
+    "title": "Empowering Women Through Education: Evidence from Sierra Leone",
+    "year": 2012,
+    "authors": "Naci Mocan; Colin Cannonier",
+    "venue": "National Bureau of Economic Research",
+    "cited_by_count": 61,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2114628399"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "STATED_INTENTION_OR_IDEAL",
+    "shared_with": "none",
+    "treatment": "exposure to a primary-school access program by birth cohort and district",
+    "outcome": "desired number of children, gender attitudes, contraceptive use",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "quasi-experimental",
+    "reason": "Schooling shifts women's preferences and desired family size, but ideational content is not separated from wage or child-cost returns.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2163222636",
+    "doi": "10.1126/science.1206964",
+    "title": "Global Human Capital: Integrating Education and Population",
+    "year": 2011,
+    "authors": "Wolfgang Lutz; Samir KC",
+    "venue": "Science",
+    "cited_by_count": 343,
+    "discovery_channels": [
+      "backward_reference"
+    ],
+    "seed_ids": [
+      "W2119420594"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "REALIZED_FERTILITY",
+    "shared_with": "none",
+    "treatment": "women's educational attainment",
+    "outcome": "education-specific fertility rates and projected population size",
+    "structural_change_held_fixed": "no",
+    "setting_era": "NA",
+    "evidence_type": "review",
+    "reason": "Education-fertility association used for multi-state projections with no decomposition of ideational versus cost/return mechanisms.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2076921826",
+    "doi": "10.1080/17441730.2011.544906",
+    "title": "SOCIO-ECONOMIC DETERMINANTS OF AGE AT FIRST MARRIAGE OF THE ETHNIC TRIBAL WOMEN IN BANGLADESH",
+    "year": 2011,
+    "authors": "S. M. Mostafa Kamal",
+    "venue": "Asian Population Studies",
+    "cited_by_count": 31,
+    "discovery_channels": [
+      "backward_reference"
+    ],
+    "seed_ids": [
+      "W2700341679"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "FAMILY_FORMATION_BEHAVIOUR",
+    "shared_with": "none",
+    "treatment": "women's educational attainment and socio-economic background",
+    "outcome": "age at first marriage",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Education delays marriage among tribal Bangladeshi women with no decomposition of ideational versus economic mechanism.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2130597491",
+    "doi": null,
+    "title": "The effect of schooling on fertility, labor market participation and children's outcomes, evidence from Ecuador",
+    "year": 2010,
+    "authors": "Anna De Paoli",
+    "venue": "RePEc: Research Papers in Economics",
+    "cited_by_count": 0,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W3123703439"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "REALIZED_FERTILITY",
+    "shared_with": "none",
+    "treatment": "primary-school completion instrumented by 1977 Ecuadorian reform",
+    "outcome": "early motherhood and age at first birth",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "quasi-experimental",
+    "reason": "Schooling→fertility with labour-market channel noted but no decomposition separating ideational from wage/cost mechanisms.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W388972784",
+    "doi": null,
+    "title": "The role of unobserved heterogeneity in transition to higher parity : evidence from Italy using Multiscopo survey",
+    "year": 2009,
+    "authors": "Alessandra Carioli",
+    "venue": "KTH Publication Database DiVA (KTH Royal Institute of Technology)",
+    "cited_by_count": 0,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "REALIZED_FERTILITY",
+    "shared_with": "none",
+    "treatment": "educational level of woman, partner, and mother",
+    "outcome": "transition to first, second, third birth",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "SDT",
+    "evidence_type": "observational",
+    "reason": "Education-fertility estimation with unobserved heterogeneity correction and no mechanism decomposition (Wall 5).",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2075588407",
+    "doi": "10.1017/s0021932008002782",
+    "title": "MODERNIZATION OR CULTURAL MAINTENANCE: THE PRACTICE OF CONSANGUINEOUS MARRIAGE IN IRAN",
+    "year": 2008,
+    "authors": "Mohammad Jalal Abbasi‐Shavazi; Peter McDonald; Meimanat Hosseini‐Chavoshi",
+    "venue": "Journal of Biosocial Science",
+    "cited_by_count": 74,
+    "discovery_channels": [
+      "backward_reference"
+    ],
+    "seed_ids": [
+      "W2953204003"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "FAMILY_FORMATION_BEHAVIOUR",
+    "shared_with": "none",
+    "treatment": "education, urbanization, and changing modes of production",
+    "outcome": "incidence of and attitudes toward consanguineous marriage",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Modernizing exposures to spouse-choice behaviour, but schooling's ideational content is not separated from the bundled economic changes",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W42920192",
+    "doi": null,
+    "title": "RETURNS TO EDUCATION The Case of Fertility",
+    "year": 2007,
+    "authors": "Imran Ashraf Toor",
+    "venue": null,
+    "cited_by_count": 7,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "REALIZED_FERTILITY",
+    "shared_with": "none",
+    "treatment": "individual and district-aggregate female schooling",
+    "outcome": "fertility rate",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Female education to fertility in Pakistan with a development-level control but no decomposition separating ideational from wage or cost channels.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2006705160",
+    "doi": "10.3386/w13070",
+    "title": "Does Female Schooling Reduce Fertility? Evidence from Nigeria",
+    "year": 2007,
+    "authors": "Una Osili; Bridget Terry Long",
+    "venue": "National Bureau of Economic Research",
+    "cited_by_count": 102,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "REALIZED_FERTILITY",
+    "shared_with": "none",
+    "treatment": "years of female schooling instrumented by universal primary education rollout",
+    "outcome": "number of births",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "quasi-experimental",
+    "reason": "Causal schooling-to-fertility estimate with no decomposition separating ideational content from wage or child-cost returns.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W3186884651",
+    "doi": "10.31899/pgy18.1006",
+    "title": "Fewer and better-educated children: Expanded choices in schooling and fertility in rural Pakistan",
+    "year": 2006,
+    "authors": "Sathar, Zeba; Lloyd, Cynthia B.; ul Haque, Minhaj; Khan, Mumraiz; Grant, Monica J.",
+    "venue": null,
+    "cited_by_count": 3,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "REALIZED_FERTILITY",
+    "shared_with": "none",
+    "treatment": "community schooling access, choice, and quality",
+    "outcome": "fertility and family planning behaviour",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Schooling opportunity to fertility in rural Pakistan with no visible decomposition of ideational versus cost and return mechanisms.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2014937030",
+    "doi": "10.1080/00324720500223393",
+    "title": "The effect of non-family experiences on age of marriage in a setting of rapid social change",
+    "year": 2005,
+    "authors": "Scott T. Yabiku",
+    "venue": "Population Studies",
+    "cited_by_count": 81,
+    "discovery_channels": [
+      "backward_reference",
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2031727718",
+      "W2995925261"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "FAMILY_FORMATION_BEHAVIOUR",
+    "shared_with": "none",
+    "treatment": "school enrolment, years of schooling, non-family employment",
+    "outcome": "age at first marriage",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Schooling and non-family work on marriage timing in Nepal with changing sex-role views asserted in interpretation but no design separating ideational content from economic returns.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2108834498",
+    "doi": "10.1017/s0021932005026489",
+    "title": "WOMEN’S EDUCATIONAL ATTAINMENT AND INTERGENERATIONAL PATTERNS OF FERTILITY BEHAVIOUR IN KENYA",
+    "year": 2005,
+    "authors": "D. Walter Rasugu Omariba",
+    "venue": "Journal of Biosocial Science",
+    "cited_by_count": 20,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "STATED_INTENTION_OR_IDEAL",
+    "shared_with": "none",
+    "treatment": "women's educational attainment across cohorts",
+    "outcome": "desire to cease childbearing (and modern contraceptive use)",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Education–fertility-preference association in Kenya with no mechanism decomposition isolating ideational from economic returns to schooling.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2057145916",
+    "doi": "10.1111/j.0022-2445.2004.00083.x",
+    "title": "Social change, premarital nonfamily experiences, and marital dynamics",
+    "year": 2004,
+    "authors": "Lynette Hoelter; William G. Axinn; Dirgha J. Ghimire",
+    "venue": "Journal of Marriage and the Family",
+    "cited_by_count": 48,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2031727718",
+      "W2059106092"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "FAMILY_FORMATION_BEHAVIOUR",
+    "shared_with": "none",
+    "treatment": "schooling and other premarital nonfamily experiences in rural Nepal",
+    "outcome": "conjugal marital relations (love, spousal discussion, conflict)",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Education-to-conjugal-marriage association with no decomposition separating ideational content from wage or cost returns.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W1549797823",
+    "doi": "10.3386/w10513",
+    "title": "The Impact of Education on Fertility and Child Mortality: Do Fathers Really Matter Less Than Mothers?",
+    "year": 2004,
+    "authors": "Lucia Breierova; Esther Duflo",
+    "venue": "National Bureau of Economic Research",
+    "cited_by_count": 455,
+    "discovery_channels": [
+      "backward_reference"
+    ],
+    "seed_ids": [
+      "W3024833799"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "MULTIPLE",
+    "shared_with": "none",
+    "treatment": "schooling induced by Indonesian school construction program",
+    "outcome": "age at marriage, early fertility, child mortality",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "quasi-experimental",
+    "reason": "education to fertility with no separation of ideational content from wage or child-cost returns",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2002508988",
+    "doi": "10.2307/3246601",
+    "title": "Education, Ethnicity, and Reproductive Practice in Cameroon",
+    "year": 2003,
+    "authors": "Jennifer Johnson‐Hanks",
+    "venue": "Population (English Edition)",
+    "cited_by_count": 23,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "MULTIPLE",
+    "shared_with": "none",
+    "treatment": "women's schooling, with selectivity into school by community norms",
+    "outcome": "age at marriage, premarital fertility, completed fertility",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Education–fertility association in Cameroon attributed to community selectivity and personal-development values, but no decomposition isolating ideational content from returns.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2010534517",
+    "doi": "10.1002/ijpg.234",
+    "title": "Family transitions in Latin America: first intercourse, first union and first birth",
+    "year": 2002,
+    "authors": "Tim B. Heaton; Renata Forste; Samuel M. Otterstrom",
+    "venue": "International Journal of Population Geography",
+    "cited_by_count": 60,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2031727718"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "MULTIPLE",
+    "shared_with": "none",
+    "treatment": "education, urban residence, cultural region",
+    "outcome": "first intercourse, first union, first birth",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Education-to-family-formation associations with cultural groupings as residual categories; no mechanism decomposition.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2755678854",
+    "doi": null,
+    "title": "Social organization and marriage timing in Nepal.",
+    "year": 2002,
+    "authors": "Scott T. Yabiku",
+    "venue": "Deep Blue (University of Michigan)",
+    "cited_by_count": 3,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2031727718"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "FAMILY_FORMATION_BEHAVIOUR",
+    "shared_with": "none",
+    "treatment": "nonfamily experiences (schooling, work, media, nonfamily living) and proximity to nonfamily services",
+    "outcome": "timing of transition to marriage",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Schooling is the dominant exposure and the abstract shows no decomposition separating ideational content from cost/return or channel access.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W3121461851",
+    "doi": "10.1257/000282802762024629",
+    "title": "Vouchers for Private Schooling in Colombia: Evidence from a Randomized Natural Experiment",
+    "year": 2002,
+    "authors": "Joshua D. Angrist; Eric Bettinger; Erik Bloom; Elizabeth M. King; Michael Kremer",
+    "venue": "American Economic Review",
+    "cited_by_count": 694,
+    "discovery_channels": [
+      "backward_reference"
+    ],
+    "seed_ids": [
+      "W3024833799"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "FAMILY_FORMATION_BEHAVIOUR",
+    "shared_with": "none",
+    "treatment": "lottery-assigned private school vouchers",
+    "outcome": "teen marriage or cohabitation, schooling attainment, test scores",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "quasi-experimental",
+    "reason": "Randomized schooling expansion with a family-formation outcome but no decomposition separating ideational content from cost or wage returns.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2112446055",
+    "doi": "10.1093/geronb/57.3.s145",
+    "title": "Living Arrangements of Older Adults in the Developing World: An Analysis of Demographic and Health Survey Household Surveys",
+    "year": 2002,
+    "authors": "John Bongaarts; Zachary Zimmer",
+    "venue": "The Journals of Gerontology Series B",
+    "cited_by_count": 264,
+    "discovery_channels": [
+      "backward_reference"
+    ],
+    "seed_ids": [
+      "W2492752398"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "FAMILY_FORMATION_BEHAVIOUR",
+    "shared_with": "none",
+    "treatment": "country-level schooling (with urbanization and GNP also entered)",
+    "outcome": "living arrangements, nuclearization of households",
+    "structural_change_held_fixed": "yes",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Cross-national education gradient in household nuclearization with urbanization and GNP insignificant, but the mechanism is not decomposed and the design is ecological.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W4230231184",
+    "doi": "10.31899/pgy6.1028",
+    "title": "The spread of primary schooling in sub-Saharan Africa: Implications for fertility change",
+    "year": 1999,
+    "authors": "Cynthia B. Lloyd; Carol E. Kaufman; P. C. Hewett",
+    "venue": null,
+    "cited_by_count": 47,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "REALIZED_FERTILITY",
+    "shared_with": "none",
+    "treatment": "attainment of mass formal primary schooling across 17 sub-Saharan countries",
+    "outcome": "onset and markers of fertility transition",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Tests Caldwell's mass-schooling hypothesis with cross-country patterns but shows no decomposition isolating ideational content from economic returns.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2049132898",
+    "doi": "10.2307/353481",
+    "title": "Gender and the Timing of Marriage: Rural-Urban Differences in Java",
+    "year": 1997,
+    "authors": "Anju Malhotra",
+    "venue": "Journal of Marriage and the Family",
+    "cited_by_count": 80,
+    "discovery_channels": [
+      "backward_reference"
+    ],
+    "seed_ids": [
+      "W2492752398"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "FAMILY_FORMATION_BEHAVIOUR",
+    "shared_with": "none",
+    "treatment": "urban residence, schooling, and employment in Central Java",
+    "outcome": "timing of marriage for men and women",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Marriage-timing determinants where schooling ideology and economic roles are invoked jointly without a design separating them.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2043596752",
+    "doi": "10.2307/2137805",
+    "title": "Post-Cairo Population Policy: Does Promoting Girls' Schooling Miss the Mark?",
+    "year": 1996,
+    "authors": "John Knodel; Gavin W. Jones",
+    "venue": "Population and Development Review",
+    "cited_by_count": 110,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "girls' and general schooling promotion as population policy",
+    "outcome": "fertility and infant mortality",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "review",
+    "reason": "Policy essay on female schooling and fertility decline with socioeconomic inequality as the confound; no mechanism decomposition visible.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W1974071719",
+    "doi": "10.1177/002071529603700103",
+    "title": "Educating Girls in the Third World: The Demographic, Basic Needs, and Economic Benefits",
+    "year": 1996,
+    "authors": "Kenneth P. Hadden; B. London",
+    "venue": "International Journal of Comparative Sociology",
+    "cited_by_count": 46,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2346554090"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "REALIZED_FERTILITY",
+    "shared_with": "none",
+    "treatment": "girls' primary and secondary enrollment; gender gap in enrollment",
+    "outcome": "crude birth rate",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Cross-national panel of girls' schooling on birth rates with no decomposition separating ideational content from wage or child-cost returns.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W1925386910",
+    "doi": null,
+    "title": "The first generation with mass schooling and the fertility transition: the case of Sri Lanka.",
+    "year": 1996,
+    "authors": "Lakshman Dissanayake",
+    "venue": "ANU Open Research (Australian National University)",
+    "cited_by_count": 3,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "REALIZED_FERTILITY",
+    "shared_with": "none",
+    "treatment": "onset of mass schooling / first schooled generation in Sri Lanka",
+    "outcome": "onset and continuance of fertility transition",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Tests Caldwell's mass-education thesis on a post-1945 transition but shows no decomposition separating ideational content from cost and wealth-flow channels.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2055706420",
+    "doi": "10.1080/00380237.1996.10570638",
+    "title": "Determinants of Marital Fertility in Pakistan: The Impact of Education, Work and Family Planning",
+    "year": 1996,
+    "authors": "Rashida Qureshi; Donald J. Adamchak",
+    "venue": "Sociological Focus",
+    "cited_by_count": 5,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2346554090"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "REALIZED_FERTILITY",
+    "shared_with": "none",
+    "treatment": "women's education, employment, contraceptive use",
+    "outcome": "marital fertility",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Education-fertility association by cohort in Pakistan with no decomposition separating ideational from economic mechanisms.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W77066557",
+    "doi": null,
+    "title": "Fertility decline in Bangladesh: toward an understanding of major causes.",
+    "year": 1996,
+    "authors": "Barkat‐e‐Khuda; Mian Bazle Hossain",
+    "venue": "PubMed",
+    "cited_by_count": 22,
+    "discovery_channels": [
+      "backward_reference",
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W1985725437",
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "REALIZED_FERTILITY",
+    "shared_with": "none",
+    "treatment": "female education, female employment, media access",
+    "outcome": "contraceptive use and fertility",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Female education and media access predict contraceptive use and fertility in Bangladesh with no visible mechanism decomposition separating ideational from economic channels.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W1583000706",
+    "doi": null,
+    "title": "Fertility, Education and Resources in South Africa",
+    "year": 1996,
+    "authors": "Duncan Thomas",
+    "venue": "RePEc: Research Papers in Economics",
+    "cited_by_count": 40,
+    "discovery_channels": [
+      "backward_reference"
+    ],
+    "seed_ids": [
+      "W3024833799"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "REALIZED_FERTILITY",
+    "shared_with": "none",
+    "treatment": "women's education",
+    "outcome": "fertility",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Examines mechanisms behind the education-fertility association but the abstract shows no decomposition separating ideational from cost/return channels.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2100053498",
+    "doi": "10.2307/2133523",
+    "title": "The Impact of Women's Education on Fertility In Latin America: Searching for Explanations",
+    "year": 1995,
+    "authors": "Teresa Castro Martín; Fatima Juárez",
+    "venue": "International Family Planning Perspectives",
+    "cited_by_count": 198,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "MULTIPLE",
+    "shared_with": "none",
+    "treatment": "women's educational attainment",
+    "outcome": "fertility and desired family size",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Mediation of schooling through mixed cognitive, economic and attitudinal assets; no design separating ideational content from returns.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W3022314024",
+    "doi": "10.1093/oso/9780198290339.001.0001",
+    "title": "Women’s Education, Autonomy, and Reproductive Behaviour: Experience from Developing Countries",
+    "year": 1995,
+    "authors": "Shireen Jejeebhoy",
+    "venue": null,
+    "cited_by_count": 479,
+    "discovery_channels": [
+      "backward_reference"
+    ],
+    "seed_ids": [
+      "W2099035145"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "MULTIPLE",
+    "shared_with": "none",
+    "treatment": "women's education",
+    "outcome": "fertility, desired family size, contraception",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "review",
+    "reason": "Reviews education–fertility pathways and poses the mechanism question without resolving it among autonomy, marriage age, and preferences.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2015383232",
+    "doi": "10.2307/2096321",
+    "title": "The Influence of School Enrollment and Accumulation on Cohabitation and Marriage in Early Adulthood",
+    "year": 1995,
+    "authors": "Arland Thornton; William G. Axinn; Jay D. Teachman",
+    "venue": "American Sociological Review",
+    "cited_by_count": 333,
+    "discovery_channels": [
+      "backward_reference"
+    ],
+    "seed_ids": [
+      "W2995925261"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "FAMILY_FORMATION_BEHAVIOUR",
+    "shared_with": "none",
+    "treatment": "school enrollment and accumulated schooling",
+    "outcome": "cohabitation and marriage entry",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "SDT",
+    "evidence_type": "observational",
+    "reason": "Schooling to family-formation behaviour with no visible decomposition of ideational versus opportunity-cost mechanisms",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2039471636",
+    "doi": "10.1163/156852193x00389",
+    "title": "Education, Demographics, the Labor Market, and Development: Indonesia in the Process of Transition?",
+    "year": 1993,
+    "authors": "James Cobbe; Boediono",
+    "venue": "African and Asian Studies",
+    "cited_by_count": 8,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "expansion of education alongside labour-market development in Indonesia",
+    "outcome": "demographic behaviour",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "review",
+    "reason": "Country review of education-demography interaction with the labour market; no mechanism decomposition separating ideation from returns.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2050754079",
+    "doi": "10.1017/s0021932000021829",
+    "title": "Does women's literacy affect desired fertility and contraceptive use in rural–urban Pakistan?",
+    "year": 1993,
+    "authors": "Khalida P. Zaki; Nan E. Johnson",
+    "venue": "Journal of Biosocial Science",
+    "cited_by_count": 14,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "STATED_INTENTION_OR_IDEAL",
+    "shared_with": "none",
+    "treatment": "female literacy, rural vs urban",
+    "outcome": "desired fertility / perceived sufficiency of children and contraceptive use",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "literacy to fertility desires with no decomposition of ideational versus cost/return mechanism",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2004914356",
+    "doi": "10.2307/2112773",
+    "title": "School-Enrollment Rates and Trends, Gender, and Fertility: A Cross-National Analysis",
+    "year": 1992,
+    "authors": "Bruce London",
+    "venue": "Sociology of Education",
+    "cited_by_count": 24,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2346554090"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "REALIZED_FERTILITY",
+    "shared_with": "none",
+    "treatment": "primary and secondary school enrollment levels and growth, by gender",
+    "outcome": "logged crude birth rate",
+    "structural_change_held_fixed": "yes",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Cross-national schooling–fertility association with economic and family-planning controls but no decomposition separating ideational from economic mechanisms",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2002899111",
+    "doi": "10.1080/02732173.1992.9981994",
+    "title": "Gender, education, and fertility: A cross‐national analysis of sub‐Saharan African nations",
+    "year": 1992,
+    "authors": "Donald J. Adamchak; Peggy Gabo Ntseane",
+    "venue": "Sociological Spectrum",
+    "cited_by_count": 14,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250",
+      "W2346554090"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "REALIZED_FERTILITY",
+    "shared_with": "none",
+    "treatment": "male and female primary and secondary school enrollment rates, 37 sub-Saharan nations",
+    "outcome": "total fertility rate 10-30 years later",
+    "structural_change_held_fixed": "yes",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Schooling-to-fertility association net of energy consumption and agricultural labour share, but with no decomposition separating ideational from cost/return mechanisms.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2095480544",
+    "doi": "10.2307/2061422",
+    "title": "Gender and changing generational relations: Spouse choice in Indonesia",
+    "year": 1991,
+    "authors": "Anju Malhotra",
+    "venue": "Demography",
+    "cited_by_count": 76,
+    "discovery_channels": [
+      "backward_reference"
+    ],
+    "seed_ids": [
+      "W2492752398"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "FAMILY_FORMATION_BEHAVIOUR",
+    "shared_with": "none",
+    "treatment": "education, family class, premarital work, residence",
+    "outcome": "parental control versus self-choice in spouse selection",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "shift to self-choice marriage regressed on education and class with no ideational-versus-economic mechanism identified",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2034412221",
+    "doi": "10.2307/1532941",
+    "title": "The Nuptiality Regimes in Sub-Saharan Africa",
+    "year": 1986,
+    "authors": "G. P.; Ronny Lesthaeghe; G. Kaugmann; Dominique Meekers",
+    "venue": "Population",
+    "cited_by_count": 83,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "FAMILY_FORMATION_BEHAVIOUR",
+    "shared_with": "none",
+    "treatment": "female education, traditional social organization, labour migration",
+    "outcome": "age at first marriage and partner selection",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Female schooling is the main correlate of nuptiality change with no mechanism decomposition; Christianity enters only as a correlate of schooling, not as an estimated exposure.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2060353279",
+    "doi": "10.2307/2060910",
+    "title": "The threshold hypothesis: evidence from less developed Latin American countries, 1950 to 1980",
+    "year": 1984,
+    "authors": "Phillips Cutright; Lowell L. Hargens",
+    "venue": "Demography",
+    "cited_by_count": 10,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "REALIZED_FERTILITY",
+    "shared_with": "none",
+    "treatment": "literacy and life-expectancy thresholds, net of economic and family-planning development",
+    "outcome": "crude birth rates",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "Aggregate literacy effect on fertility estimated net of economic development, but no mechanism decomposition distinguishes ideational from economic returns.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2072437254",
+    "doi": "10.2307/1532377",
+    "title": "Fertility and Education. What Do We Really Know?",
+    "year": 1980,
+    "authors": "A. M. T. T.; Susan Cochrane",
+    "venue": "Population",
+    "cited_by_count": 469,
+    "discovery_channels": [
+      "backward_reference"
+    ],
+    "seed_ids": [
+      "W3024833799"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "REALIZED_FERTILITY",
+    "shared_with": "none",
+    "treatment": "educational attainment, especially female literacy",
+    "outcome": "individual fertility",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "review",
+    "reason": "Education–fertility review invoking supply, cost-benefit, and contraceptive-efficiency channels together with no design decomposing ideational from economic content.",
+    "tier": "T3",
+    "model_screened": true
+  }
+]

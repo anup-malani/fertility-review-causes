@@ -41,7 +41,7 @@ Outputs (output/):
   {slug}-routing-queues.json                   per-sibling-chapter route-away lists
   {slug}-screen-report.md
 """
-import json, sys
+import argparse, json, sys
 from collections import Counter, defaultdict
 from pathlib import Path
 
@@ -66,6 +66,12 @@ LEVEL_FILES = {"REALIZED_FERTILITY": "realized",
 
 
 def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--allow-incomplete", action="store_true",
+                    help="assemble a PARTIAL, visibly marked diagnostic from the batches screened so "
+                         "far. Never a frozen corpus and never a denominator for a rate.")
+    args = ap.parse_args()
+
     manifest = json.loads((LOGS / f"{SLUG}-screen-manifest.json").read_text())
     frame = {r["paperId"]: r for r in json.loads((REPO / manifest["source"]).read_text())}
 
@@ -76,7 +82,7 @@ def main():
             missing.append(entry["batch"]); continue
         for rec in json.loads(vp.read_text()):
             verdicts[rec["paperId"]] = rec
-    if missing:
+    if missing and not args.allow_incomplete:
         print(f"FAIL-CLOSED: {len(missing)} batches missing: {missing[:15]}", file=sys.stderr)
         return 1
 
@@ -86,10 +92,26 @@ def main():
 
     unjoined = set(verdicts) - set(frame)
     uncovered = set(frame) - set(verdicts)
-    if unjoined or uncovered:
-        print(f"FAIL-CLOSED: {len(unjoined)} verdicts not in frame, "
-              f"{len(uncovered)} frame records with no verdict", file=sys.stderr)
+    if unjoined:
+        print(f"FAIL-CLOSED: {len(unjoined)} verdicts not in frame", file=sys.stderr)
         return 1
+    if uncovered and not args.allow_incomplete:
+        print(f"FAIL-CLOSED: {len(uncovered)} frame records with no verdict", file=sys.stderr)
+        return 1
+
+    # Partial mode. The danger of a partial screen is not that it is incomplete — that is stated
+    # everywhere below — but that its RATES look like the finished ones. A cell share computed over 65
+    # of 125 batches is an estimate with sampling error; a cell share over 125 is a census. Batch
+    # assignment was a deterministic shuffle (seed 1063), so the screened subset IS a random sample of
+    # the abstract-bearing stratum and its rates are unbiased estimates of the whole. That is exactly
+    # why they are seductive, so every artifact this mode writes carries the partial marker in its
+    # filename and its header.
+    partial = bool(missing or uncovered)
+    suffix = "-PARTIAL" if partial else ""
+    if partial:
+        # Frame records in unscreened batches are dropped from the corpus rather than silently
+        # counted as NOT_RELEVANT, which is the error that would make the partial look complete.
+        frame = {k: v for k, v in frame.items() if k in verdicts}
 
     corpus = []
     for pid, v in verdicts.items():
@@ -110,7 +132,7 @@ def main():
                        "tier": tier,
                        "model_screened": v.get("assigned_by") != "rubric_title_only_policy_not_model"})
     corpus.sort(key=lambda r: (r["tier"], r["estimand_cell"], -(r.get("year") or 0)))
-    (OUT / f"{SLUG}-screen-tiers.json").write_text(json.dumps(corpus, indent=2, ensure_ascii=False))
+    (OUT / f"{SLUG}{suffix}-screen-tiers.json").write_text(json.dumps(corpus, indent=2, ensure_ascii=False))
 
     # --- pooling sets: one per outcome level, never combined ---
     pools = defaultdict(list)
@@ -126,21 +148,21 @@ def main():
                 for k in LEVEL_FILES.values():
                     pools[k].append({**r, "multi_level_needs_extraction_split": True})
     for key in LEVEL_FILES.values():
-        (OUT / f"{SLUG}-estimand-ready-{key}.json").write_text(
+        (OUT / f"{SLUG}{suffix}-estimand-ready-{key}.json").write_text(
             json.dumps(pools.get(key, []), indent=2, ensure_ascii=False))
 
     wall5 = [r for r in corpus if r["estimand_cell"] == "MECHANISM_UNRESOLVED_SCHOOLING"]
-    (OUT / f"{SLUG}-wall5-unresolved-schooling.json").write_text(
+    (OUT / f"{SLUG}{suffix}-wall5-unresolved-schooling.json").write_text(
         json.dumps(wall5, indent=2, ensure_ascii=False))
     theory = [r for r in corpus if r["estimand_cell"] in THEORY]
-    (OUT / f"{SLUG}-theory-stream.json").write_text(json.dumps(theory, indent=2, ensure_ascii=False))
+    (OUT / f"{SLUG}{suffix}-theory-stream.json").write_text(json.dumps(theory, indent=2, ensure_ascii=False))
 
     queues = defaultdict(list)
     for r in corpus:
         if r["estimand_cell"] in ROUTE:
             queues[ROUTE[r["estimand_cell"]]].append(
                 {k: r[k] for k in ("paperId", "doi", "title", "year", "estimand_cell", "reason")})
-    (OUT / f"{SLUG}-routing-queues.json").write_text(
+    (OUT / f"{SLUG}{suffix}-routing-queues.json").write_text(
         json.dumps({k: v for k, v in sorted(queues.items())}, indent=2, ensure_ascii=False))
 
     # --- report ---
@@ -150,8 +172,20 @@ def main():
     screened = sum(r["model_screened"] for r in corpus)
     n_prim_school = cells["PRIMARY_SCHOOLING_IDEATIONAL"]
     n_wall5 = len(wall5)
-    L = [f"# A5 blinded title/abstract screen — {SLUG} (D.1.b)", "",
-         f"Frame **{len(corpus):,}** records. **{screened:,} were model-screened**; the remaining "
+    banner = ([f"# A5 blinded title/abstract screen — {SLUG} (D.1.b) — **PARTIAL**", "",
+               f"> **THIS IS A PARTIAL SCREEN AND NOT A CORPUS.** {len(manifest['manifest'])-len(missing)} "
+               f"of {len(manifest['manifest'])} batches are screened; **{len(missing)} batches "
+               f"({len(uncovered):,} records) are unscreened and are excluded from every count below.**",
+               ">",
+               "> Batch assignment was a deterministic shuffle, so the screened batches are a random "
+               "sample of the abstract-bearing stratum and the RATES below are unbiased estimates of "
+               "the whole. That is what makes them dangerous: they look like finished numbers. Do not "
+               "quote a count from this file as the chapter's evidence base, do not freeze it as gold, "
+               "and do not use it as the denominator of a recall figure.", ""]
+              if partial else
+              [f"# A5 blinded title/abstract screen — {SLUG} (D.1.b)", ""])
+    L = banner + [
+         f"Screened corpus **{len(corpus):,}** records. **{screened:,} were model-screened**; the remaining "
          f"**{len(corpus)-screened:,}** ({100*(len(corpus)-screened)/len(corpus):.0f}%) carry no "
          "abstract and were assigned `UNCERTAIN` / `INSUFFICIENT_INFO` by the rubric's own title-only "
          "policy without a model call. They stay in the corpus and in every denominator. **Quote both "
@@ -190,9 +224,9 @@ def main():
         L.append(f"| {k} | {len(v):,} |")
     L += ["", f"Theory stream (`DI_THEORY`): **{len(theory):,}** — separate, not counted toward "
           "empirical recall.", ""]
-    (OUT / f"{SLUG}-screen-report.md").write_text("\n".join(L) + "\n")
+    (OUT / f"{SLUG}{suffix}-screen-report.md").write_text("\n".join(L) + "\n")
 
-    print(f"corpus {len(corpus):,} (model-screened {screened:,}, title-only {len(corpus)-screened:,})")
+    print(("PARTIAL: " if partial else "") + f"corpus {len(corpus):,} (model-screened {screened:,}, title-only {len(corpus)-screened:,})")
     print("tiers:", dict(tiers))
     print("pools:", {k: len(pools.get(k, [])) for k in LEVEL_FILES.values()})
     print(f"wall5 unresolved {n_wall5} vs primary schooling {n_prim_school}; theory {len(theory)}")

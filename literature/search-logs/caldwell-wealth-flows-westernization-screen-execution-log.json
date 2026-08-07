@@ -1,0 +1,437 @@
+{
+  "slug": "caldwell-wealth-flows-westernization",
+  "runs": [
+    {
+      "batch": 1,
+      "status": "fail",
+      "seconds": 166.2,
+      "at": "2026-08-07T14:17:47+00:00",
+      "runner": "claude -p",
+      "detail": "22 validation errors; first: batch_001.json[0]: NOT_RELEVANT must use cell NA"
+    },
+    {
+      "batch": 1,
+      "status": "fail",
+      "seconds": 147.7,
+      "at": "2026-08-07T14:21:05+00:00",
+      "runner": "claude -p",
+      "detail": "1 validation errors; first: /Users/shravanhari/~/Anup RA/projects/fertility-review-causes/temp/screen/caldwell-wealth-flows-westernization/batch_001.json: expected 40 verdicts, got 39"
+    },
+    {
+      "batch": 1,
+      "status": "ok",
+      "seconds": 51.1,
+      "at": "2026-08-07T14:22:16+00:00",
+      "runner": "claude -p",
+      "detail": ""
+    },
+    {
+      "batch": 2,
+      "status": "ok",
+      "seconds": 55.3,
+      "at": "2026-08-07T14:23:13+00:00",
+      "runner": "claude -p",
+      "detail": ""
+    },
+    {
+      "batch": 5,
+      "status": "fail",
+      "seconds": 150.3,
+      "at": "2026-08-07T14:26:22+00:00",
+      "runner": "claude -p",
+      "detail": "2 validation errors; first: batch_005.json[0]: DI_THEORY requires theory/structural/review evidence_type"
+    },
+    {
+      "batch": 13,
+      "status": "ok",
+      "seconds": 127.6,
+      "at": "2026-08-07T14:28:32+00:00",
+      "runner": "claude -p",
+      "detail": ""
+    },
+    {
+      "batch": 15,
+      "status": "ok",
+      "seconds": 91.1,
+      "at": "2026-08-07T14:30:05+00:00",
+      "runner": "claude -p",
+      "detail": ""
+    },
+    {
+      "batch": 101,
+      "status": "ok",
+      "seconds": 101.3,
+      "at": "2026-08-07T14:33:03+00:00",
+      "runner": "claude -p",
+      "detail": ""
+    },
+    {
+      "batch": 102,
+      "status": "ok",
+      "seconds": 116.0,
+      "at": "2026-08-07T14:34:59+00:00",
+      "runner": "claude -p",
+      "detail": ""
+    },
+    {
+      "batch": 103,
+      "status": "ok",
+      "seconds": 143.0,
+      "at": "2026-08-07T14:37:23+00:00",
+      "runner": "claude -p",
+      "detail": ""
+    },
+    {
+      "batch": 104,
+      "status": "ok",
+      "seconds": 90.9,
+      "at": "2026-08-07T14:38:54+00:00",
+      "runner": "claude -p",
+      "detail": ""
+    },
+    {
+      "batch": 105,
+      "status": "ok",
+      "seconds": 85.2,
+      "at": "2026-08-07T14:40:20+00:00",
+      "runner": "claude -p",
+      "detail": ""
+    },
+    {
+      "batch": 106,
+      "status": "ok",
+      "seconds": 104.2,
+      "at": "2026-08-07T14:42:05+00:00",
+      "runner": "claude -p",
+      "detail": ""
+    },
+    {
+      "batch": 107,
+      "status": "fail",
+      "seconds": 128.8,
+      "at": "2026-08-07T14:44:14+00:00",
+      "runner": "claude -p",
+      "detail": "1 validation errors; first: batch_107.json[8]: DI_THEORY cannot carry an empirical evidence_type (observational)"
+    },
+    {
+      "batch": 108,
+      "status": "fail",
+      "seconds": 103.2,
+      "at": "2026-08-07T14:45:58+00:00",
+      "runner": "claude -p",
+      "detail": "1 validation errors; first: /Users/shravanhari/~/Anup RA/projects/fertility-review-causes/temp/screen/caldwell-wealth-flows-westernization/batch_108.json: expected 25 verdicts, got 24"
+    },
+    {
+      "batch": 109,
+      "status": "fail",
+      "seconds": 117.8,
+      "at": "2026-08-07T14:47:56+00:00",
+      "runner": "claude -p",
+      "detail": "1 validation errors; first: batch_109.json[24]: HISTORICAL_WESTERN_FDT routes to OFF_OTHER (scope call 1)"
+    },
+    {
+      "batch": 110,
+      "status": "fail",
+      "seconds": 1.8,
+      "at": "2026-08-07T14:47:58+00:00",
+      "runner": "claude -p",
+      "detail": "runner exit 1: "
+    },
+    {
+      "batch": 111,
+      "status": "fail",
+      "seconds": 1.9,
+      "at": "2026-08-07T14:48:01+00:00",
+      "runner": "claude -p",
+      "detail": "runner exit 1: "
+    },
+    {
+      "batch": 112,
+      "status": "fail",
+      "seconds": 2.0,
+      "at": "2026-08-07T14:48:03+00:00",
+      "runner": "claude -p",
+      "detail": "runner exit 1: "
+    },
+    {
+      "batch": 113,
+      "status": "fail",
+      "seconds": 2.4,
+      "at": "2026-08-07T14:48:06+00:00",
+      "runner": "claude -p",
+      "detail": "runner exit 1: "
+    },
+    {
+      "batch": 114,
+      "status": "fail",
+      "seconds": 3.2,
+      "at": "2026-08-07T14:48:10+00:00",
+      "runner": "claude -p",
+      "detail": "runner exit 1: "
+    },
+    {
+      "batch": 115,
+      "status": "fail",
+      "seconds": 1.9,
+      "at": "2026-08-07T14:48:12+00:00",
+      "runner": "claude -p",
+      "detail": "runner exit 1: "
+    },
+    {
+      "batch": 116,
+      "status": "fail",
+      "seconds": 107.4,
+      "at": "2026-08-07T14:50:00+00:00",
+      "runner": "claude -p",
+      "detail": "1 validation errors; first: batch_116.json[13]: a primary cell requires a non-NA outcome_level"
+    },
+    {
+      "batch": 117,
+      "status": "fail",
+      "seconds": 2.3,
+      "at": "2026-08-07T14:50:03+00:00",
+      "runner": "claude -p",
+      "detail": "runner exit 1: "
+    },
+    {
+      "batch": 118,
+      "status": "fail",
+      "seconds": 1.9,
+      "at": "2026-08-07T14:50:05+00:00",
+      "runner": "claude -p",
+      "detail": "runner exit 1: "
+    },
+    {
+      "batch": 119,
+      "status": "fail",
+      "seconds": 4.1,
+      "at": "2026-08-07T14:50:10+00:00",
+      "runner": "claude -p",
+      "detail": "runner exit 1: "
+    },
+    {
+      "batch": 120,
+      "status": "fail",
+      "seconds": 1.9,
+      "at": "2026-08-07T14:50:12+00:00",
+      "runner": "claude -p",
+      "detail": "runner exit 1: "
+    },
+    {
+      "batch": 121,
+      "status": "fail",
+      "seconds": 3.8,
+      "at": "2026-08-07T14:50:17+00:00",
+      "runner": "claude -p",
+      "detail": "runner exit 1: "
+    },
+    {
+      "batch": 122,
+      "status": "fail",
+      "seconds": 1.8,
+      "at": "2026-08-07T14:50:19+00:00",
+      "runner": "claude -p",
+      "detail": "runner exit 1: "
+    },
+    {
+      "batch": 123,
+      "status": "fail",
+      "seconds": 2.3,
+      "at": "2026-08-07T14:50:22+00:00",
+      "runner": "claude -p",
+      "detail": "runner exit 1: "
+    },
+    {
+      "batch": 124,
+      "status": "fail",
+      "seconds": 4.0,
+      "at": "2026-08-07T14:50:26+00:00",
+      "runner": "claude -p",
+      "detail": "runner exit 1: "
+    },
+    {
+      "batch": 125,
+      "status": "fail",
+      "seconds": 1.8,
+      "at": "2026-08-07T14:50:29+00:00",
+      "runner": "claude -p",
+      "detail": "runner exit 1: "
+    },
+    {
+      "batch": 63,
+      "status": "ok",
+      "seconds": 126.9,
+      "at": "2026-08-07T18:03:55+00:00",
+      "runner": "claude -p",
+      "detail": ""
+    },
+    {
+      "batch": 64,
+      "status": "fail",
+      "seconds": 95.4,
+      "at": "2026-08-07T18:05:31+00:00",
+      "runner": "claude -p",
+      "detail": "1 validation errors; first: /Users/shravanhari/~/Anup RA/projects/fertility-review-causes/temp/screen/caldwell-wealth-flows-westernization/batch_064.json: expected 25 verdicts, got 24"
+    },
+    {
+      "batch": 65,
+      "status": "fail",
+      "seconds": 97.7,
+      "at": "2026-08-07T18:07:10+00:00",
+      "runner": "claude -p",
+      "detail": "1 validation errors; first: batch_065.json[13]: DI_THEORY cannot carry an empirical evidence_type (observational)"
+    },
+    {
+      "batch": 66,
+      "status": "ok",
+      "seconds": 100.7,
+      "at": "2026-08-07T18:08:51+00:00",
+      "runner": "claude -p",
+      "detail": ""
+    },
+    {
+      "batch": 67,
+      "status": "ok",
+      "seconds": 114.5,
+      "at": "2026-08-07T18:10:47+00:00",
+      "runner": "claude -p",
+      "detail": ""
+    },
+    {
+      "batch": 68,
+      "status": "ok",
+      "seconds": 106.7,
+      "at": "2026-08-07T18:12:35+00:00",
+      "runner": "claude -p",
+      "detail": ""
+    },
+    {
+      "batch": 69,
+      "status": "ok",
+      "seconds": 99.0,
+      "at": "2026-08-07T18:14:15+00:00",
+      "runner": "claude -p",
+      "detail": ""
+    },
+    {
+      "batch": 70,
+      "status": "ok",
+      "seconds": 101.1,
+      "at": "2026-08-07T18:15:57+00:00",
+      "runner": "claude -p",
+      "detail": ""
+    },
+    {
+      "batch": 71,
+      "status": "ok",
+      "seconds": 105.2,
+      "at": "2026-08-07T18:17:43+00:00",
+      "runner": "claude -p",
+      "detail": ""
+    },
+    {
+      "batch": 72,
+      "status": "ok",
+      "seconds": 98.0,
+      "at": "2026-08-07T18:19:22+00:00",
+      "runner": "claude -p",
+      "detail": ""
+    },
+    {
+      "batch": 73,
+      "status": "fail",
+      "seconds": 109.5,
+      "at": "2026-08-07T18:21:12+00:00",
+      "runner": "claude -p",
+      "detail": "1 validation errors; first: batch_073.json[13]: HISTORICAL_WESTERN_FDT routes to OFF_OTHER (scope call 1)"
+    },
+    {
+      "batch": 74,
+      "status": "ok",
+      "seconds": 86.5,
+      "at": "2026-08-07T18:22:40+00:00",
+      "runner": "claude -p",
+      "detail": ""
+    },
+    {
+      "batch": 75,
+      "status": "ok",
+      "seconds": 116.7,
+      "at": "2026-08-07T18:24:38+00:00",
+      "runner": "claude -p",
+      "detail": ""
+    },
+    {
+      "batch": 76,
+      "status": "fail",
+      "seconds": 107.9,
+      "at": "2026-08-07T18:26:27+00:00",
+      "runner": "claude -p",
+      "detail": "1 validation errors; first: batch_076.json[19]: DI_THEORY cannot carry an empirical evidence_type (observational)"
+    },
+    {
+      "batch": 84,
+      "status": "ok",
+      "seconds": 134.5,
+      "at": "2026-08-07T18:28:42+00:00",
+      "runner": "claude -p",
+      "detail": ""
+    },
+    {
+      "batch": 85,
+      "status": "ok",
+      "seconds": 120.0,
+      "at": "2026-08-07T18:30:43+00:00",
+      "runner": "claude -p",
+      "detail": ""
+    },
+    {
+      "batch": 86,
+      "status": "fail",
+      "seconds": 129.9,
+      "at": "2026-08-07T18:32:54+00:00",
+      "runner": "claude -p",
+      "detail": "1 validation errors; first: batch_086.json[11]: a primary cell requires a setting_era (rule 7)"
+    },
+    {
+      "batch": 87,
+      "status": "ok",
+      "seconds": 104.1,
+      "at": "2026-08-07T18:34:39+00:00",
+      "runner": "claude -p",
+      "detail": ""
+    },
+    {
+      "batch": 88,
+      "status": "ok",
+      "seconds": 96.3,
+      "at": "2026-08-07T18:36:16+00:00",
+      "runner": "claude -p",
+      "detail": ""
+    },
+    {
+      "batch": 89,
+      "status": "ok",
+      "seconds": 98.9,
+      "at": "2026-08-07T18:37:56+00:00",
+      "runner": "claude -p",
+      "detail": ""
+    },
+    {
+      "batch": 90,
+      "status": "ok",
+      "seconds": 105.1,
+      "at": "2026-08-07T18:39:43+00:00",
+      "runner": "claude -p",
+      "detail": ""
+    },
+    {
+      "batch": 91,
+      "status": "ok",
+      "seconds": 111.5,
+      "at": "2026-08-07T18:41:35+00:00",
+      "runner": "claude -p",
+      "detail": ""
+    }
+  ]
+}
