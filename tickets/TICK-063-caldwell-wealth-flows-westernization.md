@@ -11,14 +11,14 @@
 - [x] 2. Search strategy and scope drafted — `{slug}-search-scope.md`; six boundary walls **FROZEN** 2026-08-07, both scope calls approved
 - [ ] 3. Literature search and AI screening, both phases (§5.1) — A3 anchors and A4 frame done (Tier A 14, Tier B 4,701); D1 ranking and the blinded screen outstanding
 - [ ] 4. RA title/abstract review
-- [ ] 5. Full-text retrieval
-- [ ] 6. Full-text screen, RA spot-checks 5–10%
-- [ ] 7. Extraction to `extraction/caldwell-wealth-flows-westernization.csv`, RA verifies a random 10%
-- [ ] 8. Risk-of-bias assessment per study
-- [ ] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise
-- [ ] 10. Demographic significance against PM / FDT / SDT
-- [ ] 11. GRADE rating, 3 independent raters
-- [ ] 12. Chapter draft on the §6 template
+- [x] 5. Full-text retrieval — 17/88 (19%); **retrieval-bound**, 43 closed + 28 blocked handed off
+- [x] 6. Full-text screen — all 17 read and adjudicated; 6 overturned, primary cells 9→3
+- [x] 7. Extraction — `extraction/{slug}-fulltext-adjudication.csv`; second-reader pass outstanding
+- [x] 8. Risk of bias — 3 surviving studies: 2 serious, 1 critical
+- [x] 9. Synthesis — narrative; no pool possible (one study at each of three outcome levels)
+- [x] 10. Demographic significance — **not identified** for both live phenomena; no share computed, and why
+- [~] 11. GRADE — very low for both live phenomena, **single-rater**; 3-rater panel outstanding
+- [x] 12. Chapter draft — `output/chapters/{slug}.md`, INTERIM status
 - [ ] 13. RA lay-readability check
 - [ ] 14. PI review and sign-off
 
@@ -104,3 +104,31 @@ the frame. Fixed by carrying `is_book` from A3 into A4. A resolution rule has to
 that resolves; fixing it where it was found leaves it live everywhere else.
 
 **Next:** D1 ranking and the blinded title/abstract screen over the 4,701-record frame.
+### 2026-08-07 (cont.) — interim chapter on the retrieved 17
+
+Retrieval reached 17 of 88 (19%). All 17 read at full text and adjudicated
+(`extraction/{slug}-fulltext-adjudication.csv`). Three findings:
+
+1. **Primary cells 9 → 3 on reading; 67% overturn.** Five of the six overturns are one
+   mistake repeated: the screen treated an exposure that COULD carry Western family
+   content -- a television, a migration, a development programme -- as though it did.
+   Electrification delivers TV access but does not establish what was watched. This is
+   what the walls were written to prevent and what an abstract cannot enforce.
+2. **The value-added cell is empty.** Its one retrieved record is a calibrated structural
+   model, not an empirical design separating ideation from structure.
+3. **0 of 8 schooling papers decompose their mechanism.** The screen's 92% upper bound
+   did not come down on full-text reading. Cummins 2025 cites Caldwell 1980 by name and
+   still does not separate his mechanism from opportunity cost.
+
+Surviving evidence: three studies at three different outcome levels, so no pooling is
+arithmetically possible. The one direct contextual test on births (Kravdal 2000,
+Zimbabwe) is a null -- and its residual confounding runs in the hypothesis's favour, so
+the null is worth more than its risk-of-bias rating suggests.
+
+Verdict: very low / not identified for both live phenomena. "Not identified" rather than
+"not significant" -- the mechanism has barely been tested in a way that could reveal its
+size.
+
+**Still open:** 58 unscreened batches; 43 closed + 28 blocked retrievals (a bounded
+library task, same trip as TICK-041); second-reader pass on the adjudications; 3-rater
+GRADE.
