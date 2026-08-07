@@ -97,6 +97,14 @@
       "reason": "Determinants of media access as such, with no fertility outcome and no depicted family model."
     },
     {
+      "paperId": "W2082579294",
+      "doi": "10.3329/jsr.v4i2.8917",
+      "title": "Mass Media Exposure and its Impact on Fertility: Current Scenario of Bangladesh",
+      "year": 2012,
+      "estimand_cell": "OFF_DIFFUSION_CHANNEL_A20",
+      "reason": "generic media reach as such with content unspecified, framed around family planning consciousness rather than a depicted family model"
+    },
+    {
       "paperId": "W2185140513",
       "doi": null,
       "title": "The Influence of Individual and Neighbor Attitudes on Progression to Higher Parity Birth",
@@ -521,6 +529,14 @@
       "year": 2001,
       "estimand_cell": "OFF_FERTILITY_CONTROL_A3",
       "reason": "Political history of contraceptive availability and legitimation, routing to A.3 under Wall 3."
+    },
+    {
+      "paperId": "W2065228557",
+      "doi": "10.1257/aer.90.2.461",
+      "title": "Career and Marriage in the Age of the Pill",
+      "year": 2000,
+      "estimand_cell": "OFF_FERTILITY_CONTROL_A3",
+      "reason": "contraceptive availability as the operative variable, routing to the fertility-control hypothesis"
     },
     {
       "paperId": "W1973272197",
@@ -1113,6 +1129,14 @@
       "reason": "Giddens-style internal individualization of intimacy, self-oriented content rather than an imported external family model (Wall 2)."
     },
     {
+      "paperId": "W3205303436",
+      "doi": "10.1080/01926187.2021.1915213",
+      "title": "Marriage or Career? Young Adults’ Priorities in Their Life Plans",
+      "year": 2021,
+      "estimand_cell": "OFF_POSTMATERIALIST_D1a",
+      "reason": "self-oriented individual values and efficacy, not exposure to an identified external family model"
+    },
+    {
       "paperId": "W3106000547",
       "doi": "10.1080/10502556.2020.1833292",
       "title": "Attitudes of Young Adults Toward Marriage and Divorce, 2002–2018",
@@ -1191,6 +1215,14 @@
       "year": 2015,
       "estimand_cell": "OFF_POSTMATERIALIST_D1a",
       "reason": "SDT-framed review of internal value/attitude change in already-modernized societies, with no external reference model as exposure (Wall 2)."
+    },
+    {
+      "paperId": "W2393482865",
+      "doi": "10.4054/demres.2015.33.25",
+      "title": "Exploring social norms around cohabitation: The life course, individualization, and culture",
+      "year": 2015,
+      "estimand_cell": "OFF_POSTMATERIALIST_D1a",
+      "reason": "individualization-driven norms around cohabitation, internal value change rather than an externally sourced family model"
     },
     {
       "paperId": "W1721041500",
@@ -1409,6 +1441,14 @@
       "reason": "Endogenous individualism and erosion of traditional family orientation in an already-modernized society; self-oriented content, no external reference model."
     },
     {
+      "paperId": "W1967413831",
+      "doi": "10.1111/j.1755-618x.1984.tb01284.x",
+      "title": "Family size expectations among selected Edmonton women: three explanatory frameworks compared",
+      "year": 1984,
+      "estimand_cell": "OFF_POSTMATERIALIST_D1a",
+      "reason": "internal, self-oriented role-preference value change in an already-modernized Canadian setting"
+    },
+    {
       "paperId": "W2316299365",
       "doi": "10.2307/1973316",
       "title": "A Century of Demographic and Cultural Change in Western Europe: An Exploration of Underlying Dimensions",
@@ -1539,6 +1579,14 @@
       "reason": "Evolutionary-demographic critique of transition irreversibility; no developmental-idealism exposure."
     },
     {
+      "paperId": "W2327091734",
+      "doi": "10.1098/rstb.2015.0154",
+      "title": "Evaluating reproductive decisions as discrete choices under social influence",
+      "year": 2016,
+      "estimand_cell": "OFF_CULTURAL_EVOLUTION_D1c",
+      "reason": "formal evolutionary model of socially transmitted reproductive choice, not contact with or belief about an external modern society"
+    },
+    {
       "paperId": "W2519906790",
       "doi": "10.1002/9781119125563.evpsych122",
       "title": "The Evolutionary Ecology of the Family",
@@ -1627,6 +1675,14 @@
       "year": 2024,
       "estimand_cell": "OFF_FEMALE_AUTONOMY_D2a",
       "reason": "Operative outcome is women's own autonomy and empowerment with no fertility outcome (Wall 4)."
+    },
+    {
+      "paperId": "W4395682828",
+      "doi": "10.1596/1813-9450-10681",
+      "title": "Leveraging Women’s Views to Influence Gender Norms around Women Working: Evidence from an Online Intervention in Indonesia",
+      "year": 2024,
+      "estimand_cell": "OFF_FEMALE_AUTONOMY_D2a",
+      "reason": "second-order beliefs about women's employment with a labour-market, not fertility or family-formation, outcome"
     },
     {
       "paperId": "W4404078942",

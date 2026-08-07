@@ -1263,6 +1263,33 @@
     "model_screened": true
   },
   {
+    "paperId": "W2122750895",
+    "doi": "10.1177/174804850206400402",
+    "title": "Television, The Middle Classes and the Transformation of Cultural Identities in West Bengal, India",
+    "year": 2002,
+    "authors": "Timothy J. Scrase",
+    "venue": "Gazette (Leiden Netherlands)",
+    "cited_by_count": 43,
+    "discovery_channels": [
+      "backward_reference"
+    ],
+    "seed_ids": [
+      "W2114628399"
+    ],
+    "verdict": "RELEVANT",
+    "estimand_cell": "DI_THEORY",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "satellite/cable television and globalized media exposure",
+    "outcome": "middle-class cultural identity and persistence of traditional family principles",
+    "structural_change_held_fixed": "no",
+    "setting_era": "NA",
+    "evidence_type": "other",
+    "reason": "ethnographic account arguing how imported media models act on family norms, with no fertility estimate",
+    "tier": "T2",
+    "model_screened": true
+  },
+  {
     "paperId": "W1498028108",
     "doi": "10.1093/oso/9780199234042.001.0001",
     "title": "World Society: The Writings of John W. Meyer",
@@ -2173,6 +2200,33 @@
     "setting_era": "SDT",
     "evidence_type": "quasi-experimental",
     "reason": "Contact with an external modern reference society is the exposure, with adoption of its low-fertility norms as the stated mechanism.",
+    "tier": "T2",
+    "model_screened": true
+  },
+  {
+    "paperId": "W4401222389",
+    "doi": "10.1080/00324728.2024.2345059",
+    "title": "Family trajectories among immigrants and their descendants in three European countries: A multistate approach in comparative research",
+    "year": 2024,
+    "authors": "Hill Kulu; Júlia Mikolai; Isaure Delaporte; Chia Liu; Gunnar Andersson",
+    "venue": "Population Studies",
+    "cited_by_count": 5,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2610027961"
+    ],
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_WESTERN_CONTACT",
+    "outcome_level": "MULTIPLE",
+    "shared_with": "none",
+    "treatment": "migrant generation and destination-country context in Europe",
+    "outcome": "partnership formation and childbearing trajectories",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "SDT",
+    "evidence_type": "observational",
+    "reason": "convergence of family behaviour with host exposure across migrant generations, though origin-persistence is also examined",
     "tier": "T2",
     "model_screened": true
   },
@@ -16055,6 +16109,33 @@
     "model_screened": false
   },
   {
+    "paperId": "W4294343569",
+    "doi": "10.1007/978-3-031-11840-1",
+    "title": "Fertility Transition in the Developing World",
+    "year": 2022,
+    "authors": "John Bongaarts; Dennis Hodgson",
+    "venue": "SpringerBriefs in population studies",
+    "cited_by_count": 58,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "INSUFFICIENT_INFO",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "n/a",
+    "outcome": "fertility transition",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "NA",
+    "evidence_type": "review",
+    "reason": "one-line book blurb on determinants and consequences of fertility transition; no visible estimand",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
     "paperId": "W4286456987",
     "doi": "10.1177/01979183221107930",
     "title": "The Realization of Short-Term Fertility Intentions Among Immigrants and Children of Immigrants in Norway and Sweden",
@@ -25818,6 +25899,33 @@
     "reason": "no abstract in the frame; rubric title-only policy assigns INSUFFICIENT_INFO rather than a cell the record has not earned",
     "tier": "T3",
     "model_screened": false
+  },
+  {
+    "paperId": "W2759082919",
+    "doi": "10.4054/demres.2017.37.44",
+    "title": "Attitudes toward transnational intermarriage in China: Testing three theories of transnationalization",
+    "year": 2017,
+    "authors": "Yang Hu",
+    "venue": "Demographic Research",
+    "cited_by_count": 5,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W564021622"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "INSUFFICIENT_INFO",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "transnationalization exposure (abstract truncated)",
+    "outcome": "attitudes toward transnational intermarriage",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "NA",
+    "evidence_type": "observational",
+    "reason": "abstract cuts off before the theories and estimand are stated; intermarriage attitudes may or may not carry a family-model reading",
+    "tier": "T3",
+    "model_screened": true
   },
   {
     "paperId": "W2998974208",
@@ -47166,6 +47274,33 @@
     "model_screened": true
   },
   {
+    "paperId": "W3096378151",
+    "doi": "10.1177/0021909620966778",
+    "title": "Early Marriage and Correlates among Young Women in Sub-Saharan African Countries",
+    "year": 2020,
+    "authors": "Jacques M. Elengemoke; A Sathiya Susuman",
+    "venue": "Journal of Asian and African Studies",
+    "cited_by_count": 11,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2059106092"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "FAMILY_FORMATION_BEHAVIOUR",
+    "shared_with": "none",
+    "treatment": "formal education attainment and socio-economic covariates",
+    "outcome": "early marriage among young women",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "education–early marriage association in sub-Saharan Africa with no mechanism decomposition visible",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
     "paperId": "W2925091512",
     "doi": null,
     "title": "Education and Childlessness in India",
@@ -48118,6 +48253,33 @@
     "model_screened": true
   },
   {
+    "paperId": "W2144489347",
+    "doi": "10.1111/j.1728-4457.2000.00483.x",
+    "title": "The Spread of Primary Schooling in sub‐Saharan Africa: Implications for Fertility Change",
+    "year": 2000,
+    "authors": "Cynthia B. Lloyd; Carol E. Kaufman; Paul Hewett",
+    "venue": "Population and Development Review",
+    "cited_by_count": 196,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "REALIZED_FERTILITY",
+    "shared_with": "none",
+    "treatment": "attainment of mass primary schooling (grade 4 completion)",
+    "outcome": "fertility decline onset",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "tests Caldwell's mass-schooling threshold against fertility decline but shows no decomposition separating ideational content from wage or child-cost returns",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
     "paperId": "W4230231184",
     "doi": "10.31899/pgy6.1028",
     "title": "The spread of primary schooling in sub-Saharan Africa: Implications for fertility change",
@@ -48877,6 +49039,60 @@
     "model_screened": true
   },
   {
+    "paperId": "W7170160371",
+    "doi": "10.1016/j.iref.2026.105659",
+    "title": "AI's impact on energy efficiency and electricity consumption: Evidence from AI green computing power in China's National Green Data Centers",
+    "year": 2026,
+    "authors": "Ming Su; Siqi Wang; Yu Xiao",
+    "venue": "International Review of Economics & Finance",
+    "cited_by_count": 0,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W3123703439"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "NA",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "n/a",
+    "outcome": "n/a",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "NA",
+    "evidence_type": "observational",
+    "reason": "AI computing and electricity efficiency; unrelated to fertility",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
+    "paperId": "W7166796109",
+    "doi": "10.1093/9780197912812.003.0005",
+    "title": "Concluding discussion",
+    "year": 2026,
+    "authors": "Olivier Bargain",
+    "venue": null,
+    "cited_by_count": 0,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2114628399"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "NA",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "n/a",
+    "outcome": "n/a",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "NA",
+    "evidence_type": "other",
+    "reason": "concluding chapter on measuring intra-household welfare and empowerment, no fertility estimand",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
     "paperId": "W4410846408",
     "doi": "10.1371/journal.pone.0350832",
     "title": "The time sensitivity of aspirational interventions: Evidence from a role-modeling RCT",
@@ -48928,6 +49144,33 @@
     "setting_era": "NA",
     "evidence_type": "quasi-experimental",
     "reason": "Fiscal-institution reform and firm entry; unrelated to fertility or family form.",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
+    "paperId": "W7164542306",
+    "doi": "10.3390/su18126039",
+    "title": "Does Sponge City Construction Improve Urban Land Green Use Efficiency? Evidence from China",
+    "year": 2026,
+    "authors": "X Y Li; Li Zhang; C Zhang",
+    "venue": "Sustainability",
+    "cited_by_count": 0,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W3123703439"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "NA",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "n/a",
+    "outcome": "n/a",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "NA",
+    "evidence_type": "quasi-experimental",
+    "reason": "urban land-use efficiency policy evaluation, unrelated to family or fertility",
     "tier": "excluded",
     "model_screened": true
   },
@@ -52740,6 +52983,33 @@
     "model_screened": true
   },
   {
+    "paperId": "W4394566176",
+    "doi": "10.1016/j.jcorpfin.2024.102583",
+    "title": "Punishment or deterrence? Environmental justice construction and corporate equity financing––Evidence from environmental courts",
+    "year": 2024,
+    "authors": "Huixiang Zeng; Lei Ren; Xiaohong Chen; Qiong Zhou; Tao Zhang; Xu Cheng",
+    "venue": "Journal of Corporate Finance",
+    "cited_by_count": 90,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W3123703439"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "NA",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "n/a",
+    "outcome": "n/a",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "NA",
+    "evidence_type": "quasi-experimental",
+    "reason": "environmental courts and cost of equity capital; unrelated to fertility",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
     "paperId": "W4400042736",
     "doi": "10.1002/hsr2.2213",
     "title": "Preferences of Iranian medical students for selecting the compulsory service plan packages: A discrete choice experiment",
@@ -54685,6 +54955,33 @@
     "model_screened": true
   },
   {
+    "paperId": "W4382457944",
+    "doi": "10.3390/su151310147",
+    "title": "Killing Two Birds with One Stone or Missing One of Them? The Synergistic Governance Effect of China’s Carbon Emissions Trading Scheme on Pollution Control and Carbon Emission Reduction",
+    "year": 2023,
+    "authors": "Ying Zhang; Yingli Huang",
+    "venue": "Sustainability",
+    "cited_by_count": 9,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W3123703439"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "NA",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "n/a",
+    "outcome": "n/a",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "NA",
+    "evidence_type": "quasi-experimental",
+    "reason": "carbon emissions trading and pollution control; unrelated to fertility",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
     "paperId": "W4383958535",
     "doi": "10.5812/ijpbs-133044",
     "title": "Parental Objective, Subjective, and Contextual Socioeconomic Status and Children's Mental Health in Iran: The Mediating Effect of the Subjective Measure",
@@ -55821,6 +56118,87 @@
     "model_screened": true
   },
   {
+    "paperId": "W4289316677",
+    "doi": "10.3390/ijerph19159424",
+    "title": "The Impact of Low-Carbon City (LCC) on Elderly People’s Health: Evidence from a Natural Experiment in China",
+    "year": 2022,
+    "authors": "Shaohong Mu; Weixiu Li; Muhammad Mohiuddin",
+    "venue": "International Journal of Environmental Research and Public Health",
+    "cited_by_count": 8,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W3123703439"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "NA",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "n/a",
+    "outcome": "n/a",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "NA",
+    "evidence_type": "quasi-experimental",
+    "reason": "low-carbon city policy and elderly health; unrelated to fertility",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
+    "paperId": "W4284680464",
+    "doi": "10.1111/acfi.12982",
+    "title": "Internal capital allocation in <scp>IPOs</scp> and corporate innovation: The moderating role of political connections",
+    "year": 2022,
+    "authors": "Jinghua Tang; Qigui Liu",
+    "venue": "Accounting and Finance",
+    "cited_by_count": 7,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W3123703439"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "NA",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "n/a",
+    "outcome": "n/a",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "NA",
+    "evidence_type": "observational",
+    "reason": "IPO capital allocation and corporate innovation; unrelated to fertility",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
+    "paperId": "W4303423524",
+    "doi": "10.1186/s41118-022-00176-4",
+    "title": "The reach of fertility decline: a longitudinal analysis of human capital gains across generations",
+    "year": 2022,
+    "authors": "Stephanie M. Koning; Alberto Palloni; Jenna Nobles; Ian Coxhead; Lia C. H. Fernald",
+    "venue": "Genus",
+    "cited_by_count": 3,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "NA",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "fertility decline and family planning expansion",
+    "outcome": "offspring health, cognition and schooling",
+    "structural_change_held_fixed": "no",
+    "setting_era": "NA",
+    "evidence_type": "observational",
+    "reason": "treats fertility as the cause and child human capital as the outcome; no ideational exposure determining fertility",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
     "paperId": "W4224234515",
     "doi": "10.3389/fpsyg.2022.859327",
     "title": "The Effect of the Image of Destinations on Household Income and Distribution: Evidence From China’s Tourist Cities",
@@ -55844,6 +56222,33 @@
     "setting_era": "NA",
     "evidence_type": "quasi-experimental",
     "reason": "Tourism policy and income distribution; no fertility or family-formation outcome.",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
+    "paperId": "W4303983160",
+    "doi": "10.1093/jeea/jvac054",
+    "title": "Terrorism, Media Coverage, and Education: Evidence from al-Shabaab Attacks in Kenya",
+    "year": 2022,
+    "authors": "Marco Alfano; Joseph‐Simon Görlach",
+    "venue": "Journal of the European Economic Association",
+    "cited_by_count": 12,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2114628399"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "NA",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "terrorist attacks and wireless media signal coverage",
+    "outcome": "schooling demand and beliefs about returns to education",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "NA",
+    "evidence_type": "quasi-experimental",
+    "reason": "media exposure shapes education-risk beliefs, no family or fertility outcome and no external family-model content",
     "tier": "excluded",
     "model_screened": true
   },
@@ -57144,6 +57549,60 @@
     "model_screened": true
   },
   {
+    "paperId": "W3198794836",
+    "doi": "10.21203/rs.3.rs-772735/v1",
+    "title": "Benefits and Costs of Campaign-Style Environmental Implementation: Evidence from China’s Central Environmental Protection Inspection System",
+    "year": 2021,
+    "authors": "Dan Pan; Wei Hong",
+    "venue": "Research Square",
+    "cited_by_count": 1,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W3123703439"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "NA",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "n/a",
+    "outcome": "n/a",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "NA",
+    "evidence_type": "quasi-experimental",
+    "reason": "environmental inspection and water pollution; unrelated to fertility",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
+    "paperId": "W3204822583",
+    "doi": "10.1111/pere.12402",
+    "title": "Psychometric validation and cross‐cultural comparison of the Romantic Inclination Scale",
+    "year": 2021,
+    "authors": "D. Barani Kanth; Manfred H. M. van Dulmen; Haylee K. DeLuca Bishop; S. Kadhiravan",
+    "venue": "Personal Relationships",
+    "cited_by_count": 5,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2492752398"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "NA",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "n/a",
+    "outcome": "n/a",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "NA",
+    "evidence_type": "other",
+    "reason": "psychometric validation and measurement invariance of a romantic inclination scale, with no fertility or family-formation estimand",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
     "paperId": "W3202097078",
     "doi": "10.1111/cwe.12386",
     "title": "Human Capital Expansion and Global Value Chain Upgrading: Firm‐level Evidence from China",
@@ -57763,6 +58222,60 @@
     "setting_era": "NA",
     "evidence_type": "other",
     "reason": "Health-system waste and corruption; unrelated topic.",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
+    "paperId": "W4206576978",
+    "doi": "10.1017/9781108653015.005",
+    "title": "Constitutional Health System Design",
+    "year": 2020,
+    "authors": "Joan Costa‐Font; Gilberto Turati; Alberto Batinti",
+    "venue": "Cambridge University Press eBooks",
+    "cited_by_count": 0,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W3123703439"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "NA",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "n/a",
+    "outcome": "n/a",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "NA",
+    "evidence_type": "other",
+    "reason": "constitutional design of health systems, no family or fertility content",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
+    "paperId": "W3080553213",
+    "doi": "10.1596/34377",
+    "title": "Mind Over Matter in the Philippines",
+    "year": 2020,
+    "authors": "Iman Sen; Nkosinathi V. N. Mbuya; Gabriel Demombynes; Varun Gauri",
+    "venue": "World Bank, Washington, DC eBooks",
+    "cited_by_count": 4,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W3123703439"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "NA",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "health-worker knowledge and beliefs",
+    "outcome": "child stunting service delivery",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "NA",
+    "evidence_type": "observational",
+    "reason": "nutrition service delivery beliefs, no family-model exposure or fertility outcome",
     "tier": "excluded",
     "model_screened": true
   },
@@ -59177,6 +59690,33 @@
     "model_screened": true
   },
   {
+    "paperId": "W2782027586",
+    "doi": "10.5018/economics-ejournal.ja.2018-53",
+    "title": "Which tests not witch hunts: a diagnostic approach for conducting replication research",
+    "year": 2018,
+    "authors": "Annette N. Brown; Benjamin Wood",
+    "venue": "Economics",
+    "cited_by_count": 10,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2114628399"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "NA",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "n/a",
+    "outcome": "n/a",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "NA",
+    "evidence_type": "other",
+    "reason": "methodological guidance for replication studies, no substantive estimand",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
     "paperId": "W2773828139",
     "doi": "10.1093/wbro/lkx010",
     "title": "The Whys of Social Exclusion: Insights from Behavioral Economics",
@@ -60206,6 +60746,60 @@
     "setting_era": "NA",
     "evidence_type": "other",
     "reason": "Speculative chapter on inequality among brain emulations; no fertility or family estimand.",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
+    "paperId": "W4210970772",
+    "doi": "10.1017/9781107337237.020",
+    "title": "References",
+    "year": 2016,
+    "authors": "Dudley L. Poston; León F. Bouvier",
+    "venue": "Cambridge University Press eBooks",
+    "cited_by_count": 0,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2346554090"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "NA",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "n/a",
+    "outcome": "n/a",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "NA",
+    "evidence_type": "other",
+    "reason": "back matter (reference list) of a demography textbook, carries no estimand",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
+    "paperId": "W4249425485",
+    "doi": "10.1093/oso/9780198754626.003.0036",
+    "title": "Minds",
+    "year": 2016,
+    "authors": "Robin Hanson",
+    "venue": null,
+    "cited_by_count": 0,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2114628399"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "NA",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "n/a",
+    "outcome": "n/a",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "NA",
+    "evidence_type": "theory",
+    "reason": "speculative chapter on humans in an emulation economy; unrelated to fertility",
     "tier": "excluded",
     "model_screened": true
   },
@@ -61455,6 +62049,33 @@
     "model_screened": true
   },
   {
+    "paperId": "W4229950283",
+    "doi": "10.3386/w21823",
+    "title": "Striving for Balance in Economics: Towards a Theory of the Social Determination of Behavior",
+    "year": 2015,
+    "authors": "Karla Hoff; Joseph E. Stiglitz",
+    "venue": "National Bureau of Economic Research",
+    "cited_by_count": 65,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W3123703439"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "NA",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "n/a",
+    "outcome": "n/a",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "NA",
+    "evidence_type": "theory",
+    "reason": "general theory of socially determined preferences and cultural mental models, no fertility estimand and no developmental-idealism mechanism",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
     "paperId": "W1921750218",
     "doi": "10.1080/1081602x.2015.1051077",
     "title": "Sex differentials in phthisis mortality in England and Wales, 1861–1870",
@@ -62482,6 +63103,33 @@
     "setting_era": "NA",
     "evidence_type": "observational",
     "reason": "Communication access and labour migration; no family-model content and no fertility outcome.",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
+    "paperId": "W658314640",
+    "doi": null,
+    "title": "Family Relationships and Family Well-Being : A Study of the Families of Nine Year-Olds in Ireland",
+    "year": 2012,
+    "authors": "Tony Fahey; Patricia Keilthy; Ela Polek",
+    "venue": "Lenus, The Irish Health Repository (Dr Steevens Hospital Library)",
+    "cited_by_count": 37,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W564021622"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "NA",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "family structure and relationship quality",
+    "outcome": "parent and child well-being",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "NA",
+    "evidence_type": "observational",
+    "reason": "family well-being outcomes among Irish nine-year-olds, no ideational exposure or fertility estimand",
     "tier": "excluded",
     "model_screened": true
   },
@@ -63569,6 +64217,33 @@
     "model_screened": true
   },
   {
+    "paperId": "W2165608513",
+    "doi": "10.1177/0013124507305309",
+    "title": "Relocation in Rural and Urban Settings",
+    "year": 2007,
+    "authors": "Zehavit Gross",
+    "venue": "Education and Urban Society",
+    "cited_by_count": 3,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W4233661072"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "NA",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "n/a",
+    "outcome": "n/a",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "NA",
+    "evidence_type": "other",
+    "reason": "parental discourse about relocated schools after the Gaza disengagement; unrelated topic",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
     "paperId": "W1542214982",
     "doi": "10.13016/mm3g-bslp",
     "title": "Constructing the evidence base on the social determinants of health: A guide",
@@ -64457,6 +65132,34 @@
     "setting_era": "NA",
     "evidence_type": "other",
     "reason": "Book review of variorum editions of Malthus's works; no fertility estimand and no developmental-idealism mechanism.",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
+    "paperId": "W1553819850",
+    "doi": "10.1017/cbo9780511620409.046",
+    "title": "An essay on the history of civil society (1767)",
+    "year": 1996,
+    "authors": "Adam Ferguson",
+    "venue": "Cambridge University Press eBooks",
+    "cited_by_count": 1824,
+    "discovery_channels": [
+      "backward_reference",
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2031727718"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "NA",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "n/a",
+    "outcome": "n/a",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "NA",
+    "evidence_type": "theory",
+    "reason": "eighteenth-century essay on human nature and civil society with no family-model mechanism visible in the abstract",
     "tier": "excluded",
     "model_screened": true
   },
@@ -65464,6 +66167,34 @@
     "model_screened": true
   },
   {
+    "paperId": "W1973974771",
+    "doi": "10.7208/chicago/9780226516608.001.0001",
+    "title": "Mind, Self, and Society",
+    "year": 1967,
+    "authors": "George H. Mead; Charles W. Morris",
+    "venue": null,
+    "cited_by_count": 4902,
+    "discovery_channels": [
+      "backward_reference"
+    ],
+    "seed_ids": [
+      "W2059106092",
+      "W2995925261"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "NA",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "n/a",
+    "outcome": "n/a",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "NA",
+    "evidence_type": "theory",
+    "reason": "general social-psychological theory of self and language, no family or fertility mechanism",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
     "paperId": "W2145323372",
     "doi": "10.1080/00324728.1956.10404538",
     "title": "The population census of Northern Nigeria 1952: Problems and results",
@@ -65978,6 +66709,33 @@
     "model_screened": true
   },
   {
+    "paperId": "W2327091734",
+    "doi": "10.1098/rstb.2015.0154",
+    "title": "Evaluating reproductive decisions as discrete choices under social influence",
+    "year": 2016,
+    "authors": "R. Alexander Bentley; William A. Brock; Camila Caiado; Michael J. O’Brien",
+    "venue": "Philosophical Transactions of the Royal Society B Biological Sciences",
+    "cited_by_count": 8,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W1985725437"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "OFF_CULTURAL_EVOLUTION_D1c",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "formally modelled social influence versus individual pay-off transparency",
+    "outcome": "reproductive and contraceptive decisions",
+    "structural_change_held_fixed": "no",
+    "setting_era": "NA",
+    "evidence_type": "structural",
+    "reason": "formal evolutionary model of socially transmitted reproductive choice, not contact with or belief about an external modern society",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
     "paperId": "W2519906790",
     "doi": "10.1002/9781119125563.evpsych122",
     "title": "The Evolutionary Ecology of the Family",
@@ -66410,6 +67168,33 @@
     "setting_era": "NA",
     "evidence_type": "observational",
     "reason": "Determinants of media access as such, with no fertility outcome and no depicted family model.",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2082579294",
+    "doi": "10.3329/jsr.v4i2.8917",
+    "title": "Mass Media Exposure and its Impact on Fertility: Current Scenario of Bangladesh",
+    "year": 2012,
+    "authors": "Ahbab Mohammad Fazle Rabbi",
+    "venue": "Journal of Scientific Research",
+    "cited_by_count": 49,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2059106092"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "OFF_DIFFUSION_CHANNEL_A20",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "pattern of television, radio and newspaper consumption",
+    "outcome": "fertility",
+    "structural_change_held_fixed": "no",
+    "setting_era": "NA",
+    "evidence_type": "observational",
+    "reason": "generic media reach as such with content unspecified, framed around family planning consciousness rather than a depicted family model",
     "tier": "excluded",
     "model_screened": true
   },
@@ -66849,6 +67634,33 @@
     "setting_era": "NA",
     "evidence_type": "observational",
     "reason": "Operative outcome is women's own autonomy and empowerment with no fertility outcome (Wall 4).",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
+    "paperId": "W4395682828",
+    "doi": "10.1596/1813-9450-10681",
+    "title": "Leveraging Women’s Views to Influence Gender Norms around Women Working: Evidence from an Online Intervention in Indonesia",
+    "year": 2024,
+    "authors": "Lisa Cameron; Diana Stella Contreras Suarez; Diahhadi Setyonaluri",
+    "venue": null,
+    "cited_by_count": 4,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W3123703439"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "OFF_FEMALE_AUTONOMY_D2a",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "randomized information about others' support for women working",
+    "outcome": "choice of career mentoring course and support for women working",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "NA",
+    "evidence_type": "quasi-experimental",
+    "reason": "second-order beliefs about women's employment with a labour-market, not fertility or family-formation, outcome",
     "tier": "excluded",
     "model_screened": true
   },
@@ -70065,6 +70877,33 @@
     "model_screened": true
   },
   {
+    "paperId": "W2065228557",
+    "doi": "10.1257/aer.90.2.461",
+    "title": "Career and Marriage in the Age of the Pill",
+    "year": 2000,
+    "authors": "Claudia Goldin; Lawrence F. Katz",
+    "venue": "American Economic Review",
+    "cited_by_count": 131,
+    "discovery_channels": [
+      "backward_reference"
+    ],
+    "seed_ids": [
+      "W1969630867"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "OFF_FERTILITY_CONTROL_A3",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "legal access of young unmarried women to the oral contraceptive",
+    "outcome": "age at first marriage and professional career investment",
+    "structural_change_held_fixed": "no",
+    "setting_era": "SDT",
+    "evidence_type": "observational",
+    "reason": "contraceptive availability as the operative variable, routing to the fertility-control hypothesis",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
     "paperId": "W1973272197",
     "doi": "10.1111/j.1728-4465.2000.00019.x",
     "title": "The Politics of Population Policy in the Islamic Republic of Iran",
@@ -72236,6 +73075,33 @@
     "model_screened": true
   },
   {
+    "paperId": "W4225403854",
+    "doi": "10.4054/demres.2022.46.28",
+    "title": "Can status exchanges explain educational hypogamy in India?",
+    "year": 2022,
+    "authors": "Koyel Sarkar",
+    "venue": "Demographic Research",
+    "cited_by_count": 9,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2492752398"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "OFF_OTHER",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "status exchange and relative educational attainment",
+    "outcome": "educational hypogamy in marriage matching",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "NA",
+    "evidence_type": "observational",
+    "reason": "assortative-mating mechanics, not exposure to an external model of the modern family",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
     "paperId": "W4220918738",
     "doi": "10.1007/s12546-022-09283-7",
     "title": "Childbearing among Polish migrant women and their descendants in Sweden: an origin-destination country approach",
@@ -73646,6 +74512,33 @@
     "model_screened": true
   },
   {
+    "paperId": "W2907406830",
+    "doi": "10.1111/rode.12593",
+    "title": "Capital market integration and gender inequality",
+    "year": 2019,
+    "authors": "Mizuki Komura; Hikaru Ogawa",
+    "venue": "Review of Development Economics",
+    "cited_by_count": 4,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W3124025479"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "OFF_OTHER",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "capital market integration and sectoral labour demand",
+    "outcome": "female labour supply and fertility",
+    "structural_change_held_fixed": "no",
+    "setting_era": "NA",
+    "evidence_type": "structural",
+    "reason": "globalization operating through wage rates and bargaining, a purely structural economic channel",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
     "paperId": "W2979524156",
     "doi": "10.22206/ceyn.2019.v3i1.pp37-47",
     "title": "Fecundidad en la adolescencia: una breve revisión de literatura",
@@ -74406,6 +75299,33 @@
     "setting_era": "NA",
     "evidence_type": "observational",
     "reason": "Operative variable is an emotional attribute of the couple, not a belief about or exposure to an external modern family model.",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2757379149",
+    "doi": "10.25133/jpssv25n4.005",
+    "title": "Marriage in Kanchanaburi Province, Thailand: Who Delays, Who Does Not?",
+    "year": 2017,
+    "authors": "Jidapa Phonchua; Chai Podhisita; Aree Jampaklay; Jongjit Rittirong",
+    "venue": "Journal of Population and Social Studies",
+    "cited_by_count": 3,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2031727718"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "OFF_OTHER",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "education, occupation, economic status, migration experience, attitudes to marriage and divorce",
+    "outcome": "delayed marriage",
+    "structural_change_held_fixed": "no",
+    "setting_era": "NA",
+    "evidence_type": "observational",
+    "reason": "generic modernization correlates of marriage timing; no measured belief about what modern or developed societies do and no identified external reference point",
     "tier": "excluded",
     "model_screened": true
   },
@@ -75223,6 +76143,34 @@
     "setting_era": "DIFFUSED_FDT",
     "evidence_type": "observational",
     "reason": "Operative variable is religious identity and religiosity, not belief about or contact with an external modern family model.",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2235221096",
+    "doi": "10.1080/21528586.2015.1109476",
+    "title": "CHANGING RACE DIFFERENCES IN FAMILY STRUCTURE AND HOUSEHOLD COMPOSITION IN SOUTH AFRICA",
+    "year": 2015,
+    "authors": "Acheampong Yaw Amoateng; Tim B. Heaton",
+    "venue": "South African Review of Sociology",
+    "cited_by_count": 15,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2031727718",
+      "W4233661072"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "OFF_OTHER",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "race group and census period",
+    "outcome": "extended versus nuclear household composition",
+    "structural_change_held_fixed": "no",
+    "setting_era": "NA",
+    "evidence_type": "observational",
+    "reason": "descriptive census comparison of household structure with no ideational exposure variable",
     "tier": "excluded",
     "model_screened": true
   },
@@ -76587,6 +77535,33 @@
     "model_screened": true
   },
   {
+    "paperId": "W2052241468",
+    "doi": "10.1017/s0145553200014073",
+    "title": "Pioneers of the Modern Lifestyle?",
+    "year": 2010,
+    "authors": "Jan Van Bavel; Jan Kok",
+    "venue": "Social Science History",
+    "cited_by_count": 10,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W564021622"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "OFF_OTHER",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "individualization, secularization, religiously mixed marriage, lifestyle priorities",
+    "outcome": "childlessness among interwar Dutch couples",
+    "structural_change_held_fixed": "no",
+    "setting_era": "HISTORICAL_WESTERN_FDT",
+    "evidence_type": "observational",
+    "reason": "interwar Western European setting with internally generated individualization, not an imported family model",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
     "paperId": "W1510504098",
     "doi": "10.1080/17441730.2010.494437",
     "title": "FAMILY SYSTEMS, POLITICAL SYSTEMS AND ASIA'S ‘MISSING GIRLS’",
@@ -77124,6 +78099,33 @@
     "setting_era": "NA",
     "evidence_type": "observational",
     "reason": "Migrant assimilation design testing persistence of ethnic-origin effects on family type, which routes to A.19 rather than D.1.b (Wall 2 migrant seam).",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2042823393",
+    "doi": "10.1111/j.1468-0289.2006.00371.x",
+    "title": "Regions and time in the European fertility transition: problems in the Princeton Project’s statistical methodology<sup>1</sup>",
+    "year": 2007,
+    "authors": "J. Christopher Brown; Timothy W. Guinnane",
+    "venue": "The Economic History Review",
+    "cited_by_count": 84,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2031727718"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "OFF_OTHER",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "district socio-economic conditions",
+    "outcome": "European marital fertility decline",
+    "structural_change_held_fixed": "no",
+    "setting_era": "HISTORICAL_WESTERN_FDT",
+    "evidence_type": "observational",
+    "reason": "methodological critique of the Princeton project on the nineteenth-century European transition",
     "tier": "excluded",
     "model_screened": true
   },
@@ -78347,6 +79349,33 @@
     "model_screened": true
   },
   {
+    "paperId": "W13867331",
+    "doi": "10.30541/v35i4iipp.733-744",
+    "title": "Ethnic Fertility Differentials in Pakistan",
+    "year": 1996,
+    "authors": "Ali Muhammad",
+    "venue": "The Pakistan Development Review",
+    "cited_by_count": 5,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "OFF_OTHER",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "ethnolinguistic group membership",
+    "outcome": "fertility levels and desired children",
+    "structural_change_held_fixed": "no",
+    "setting_era": "NA",
+    "evidence_type": "observational",
+    "reason": "descriptive ethnic fertility differentials attributed to education, marriage age and contraceptive knowledge, not exposure to an external modern family model",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
     "paperId": "W2026228162",
     "doi": "10.1002/(sici)1096-8644(1996)23+<91::aid-ajpa4>3.0.co;2-c",
     "title": "A theory of fertility and parental investment in traditional and modern human societies",
@@ -78807,6 +79836,60 @@
     "model_screened": true
   },
   {
+    "paperId": "W2134346200",
+    "doi": "10.1017/s0021932000018666",
+    "title": "Teenage childbearing: structural determinants in developing countries",
+    "year": 1990,
+    "authors": "Katherine Trent",
+    "venue": "Journal of Biosocial Science",
+    "cited_by_count": 10,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "OFF_OTHER",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "national socioeconomic development, family planning, women's status, sex ratio, marriage age",
+    "outcome": "teenage birth rate and TFR",
+    "structural_change_held_fixed": "no",
+    "setting_era": "NA",
+    "evidence_type": "observational",
+    "reason": "cross-national regression of development and structural indices on birth rates, no measured belief or external-model exposure",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2048494670",
+    "doi": "10.1177/019791839002400407",
+    "title": "Migration, Natality and Fertility: Some Caribbean Evidence",
+    "year": 1990,
+    "authors": "Jerome L. McElroy; Klaus de Albuquerque",
+    "venue": "International Migration Review",
+    "cited_by_count": 12,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "OFF_OTHER",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "external out-migration and resulting age-sex imbalance",
+    "outcome": "natality, mating and family formation",
+    "structural_change_held_fixed": "no",
+    "setting_era": "NA",
+    "evidence_type": "observational",
+    "reason": "compositional migration effect on natality, not exposure to an external family model",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
     "paperId": "W2088454140",
     "doi": "10.2307/1972834",
     "title": "Fertility Transitions Among Malay Populations of Southeast Asia: Puzzles of Interpretation",
@@ -78911,6 +79994,33 @@
     "setting_era": "NA",
     "evidence_type": "observational",
     "reason": "Minority-status subcultural persistence design rather than convergence-with-exposure; migrant seam routes to A.19.",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2094174310",
+    "doi": "10.2307/203902",
+    "title": "Marriage and Love in England: Modes of Reproduction, 1300-1840",
+    "year": 1988,
+    "authors": "Patricia Trainor O'Malley; Alan Macfarlane",
+    "venue": "The Journal of Interdisciplinary History",
+    "cited_by_count": 188,
+    "discovery_channels": [
+      "backward_reference"
+    ],
+    "seed_ids": [
+      "W2031727718"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "OFF_OTHER",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "n/a",
+    "outcome": "n/a",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "HISTORICAL_WESTERN_FDT",
+    "evidence_type": "other",
+    "reason": "historical English marriage and reproduction, 1300-1840; pre-diffusion Western setting with no visible estimand in the abstract",
     "tier": "excluded",
     "model_screened": true
   },
@@ -79617,6 +80727,33 @@
     "setting_era": "NA",
     "evidence_type": "observational",
     "reason": "Own preference measure predicting later births in Detroit; no external family model or ideational exposure.",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
+    "paperId": "W3133924489",
+    "doi": "10.2307/1854761",
+    "title": "The Decline of Belgian Fertility, 1800-1970",
+    "year": 1978,
+    "authors": "Pierre‐Henri Laurent; Ronny Lesthaeghe",
+    "venue": "The American Historical Review",
+    "cited_by_count": 210,
+    "discovery_channels": [
+      "backward_reference"
+    ],
+    "seed_ids": [
+      "W1969630867"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "OFF_OTHER",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "regional economic, secularization and linguistic heterogeneity",
+    "outcome": "marital fertility decline",
+    "structural_change_held_fixed": "no",
+    "setting_era": "HISTORICAL_WESTERN_FDT",
+    "evidence_type": "observational",
+    "reason": "historical Belgian fertility transition 1800–1970, the Western FDT rather than a diffused transition",
     "tier": "excluded",
     "model_screened": true
   },
@@ -81199,6 +82336,60 @@
     "model_screened": true
   },
   {
+    "paperId": "W3140414621",
+    "doi": "10.1080/00380237.2021.1891592",
+    "title": "Doing Gender, Class, and Nation in Northern India: Student Aspirations and the New Middle Class",
+    "year": 2021,
+    "authors": "Denise Benoit Scott",
+    "venue": "Sociological Focus",
+    "cited_by_count": 1,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2492752398"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "OFF_OUTCOME",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "hegemonic new-middle-class ideals of the modern Indian man/woman",
+    "outcome": "students' class and career aspirations",
+    "structural_change_held_fixed": "no",
+    "setting_era": "NA",
+    "evidence_type": "other",
+    "reason": "modern-national ideals studied against aspirations, with no fertility, intention, or family-formation outcome",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
+    "paperId": "W4200037053",
+    "doi": "10.31235/osf.io/jqpxt",
+    "title": "Mobile Phones and Attitudes Towards Women’s Participation in Politics: Evidence from Africa",
+    "year": 2021,
+    "authors": "Carlotta Varriale; Luca Maria Pesando; Ridhi Kashyap; Valentina Rotondi",
+    "venue": null,
+    "cited_by_count": 2,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W3123703439"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "OFF_OUTCOME",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "mobile phone use as world-society ideational exposure",
+    "outcome": "attitudes toward women in politics",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "NA",
+    "evidence_type": "observational",
+    "reason": "ideational-diffusion framing but a political-attitude outcome, not fertility or family formation",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
     "paperId": "W3119985558",
     "doi": "10.1080/21632324.2020.1837534",
     "title": "Developmental idealism and migration: theorizing their relationship and an empirical example from Nepal",
@@ -82318,6 +83509,34 @@
     "model_screened": true
   },
   {
+    "paperId": "W2900939579",
+    "doi": null,
+    "title": "Social interactions and racial inequality",
+    "year": 2017,
+    "authors": "Kirsten Cornelson",
+    "venue": "TSpace (University of Toronto)",
+    "cited_by_count": 0,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2114628399",
+      "W3123703439"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "OFF_OUTCOME",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "televised role models and physical distance between racial groups",
+    "outcome": "educational attainment and social segregation",
+    "structural_change_held_fixed": "no",
+    "setting_era": "NA",
+    "evidence_type": "quasi-experimental",
+    "reason": "media role-model exposure with schooling and interaction outcomes, no fertility or family-formation estimand",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
     "paperId": "W2755557885",
     "doi": "10.1590/0102-311x00118015",
     "title": "Exposição ao cigarro em telenovelas e filmes: tentativas de parar de fumar e abstinência",
@@ -82888,6 +84107,33 @@
     "setting_era": "NA",
     "evidence_type": "review",
     "reason": "Media/role-model exposure with non-family outcomes (aspirations, educational investment); no fertility, intention, or family-formation estimand.",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2131826263",
+    "doi": "10.1186/s40176-015-0036-9",
+    "title": "Migration and educational aspirations – Another channel of brain gain?",
+    "year": 2015,
+    "authors": "Marcus Böhme",
+    "venue": "IZA Journal of Migration",
+    "cited_by_count": 29,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W3124025479"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "OFF_OUTCOME",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "international migration exposure to destination norms and values",
+    "outcome": "parental educational aspirations for children",
+    "structural_change_held_fixed": "no",
+    "setting_era": "NA",
+    "evidence_type": "quasi-experimental",
+    "reason": "norm transmission through migration but the outcome is schooling aspirations, not fertility or family formation",
     "tier": "excluded",
     "model_screened": true
   },
@@ -83625,6 +84871,33 @@
     "setting_era": "NA",
     "evidence_type": "observational",
     "reason": "Family form treated as a determinant of mortality, not of fertility or family formation.",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2070302672",
+    "doi": "10.1177/0003122410388493",
+    "title": "Worldwide Trends in the Criminal Regulation of Sex, 1945 to 2005",
+    "year": 2010,
+    "authors": "David John Frank; Bayliss J. Camp; Steven A. Boutcher",
+    "venue": "American Sociological Review",
+    "cited_by_count": 300,
+    "discovery_channels": [
+      "backward_reference"
+    ],
+    "seed_ids": [
+      "W2156178945"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "OFF_OUTCOME",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "world-society models centred on individual personhood",
+    "outcome": "national criminal sex-law reform",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "NA",
+    "evidence_type": "observational",
+    "reason": "world-polity diffusion with a legal, not family or fertility, outcome",
     "tier": "excluded",
     "model_screened": true
   },
@@ -84855,6 +86128,33 @@
     "model_screened": true
   },
   {
+    "paperId": "W3205303436",
+    "doi": "10.1080/01926187.2021.1915213",
+    "title": "Marriage or Career? Young Adults’ Priorities in Their Life Plans",
+    "year": 2021,
+    "authors": "Gökay Keldal; Gürcan Şeker",
+    "venue": "American Journal of Family Therapy",
+    "cited_by_count": 20,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2995925261"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "OFF_POSTMATERIALIST_D1a",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "marital salience, marital readiness, career self-efficacy",
+    "outcome": "prioritizing marriage versus career in life plans",
+    "structural_change_held_fixed": "no",
+    "setting_era": "NA",
+    "evidence_type": "observational",
+    "reason": "self-oriented individual values and efficacy, not exposure to an identified external family model",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
     "paperId": "W3106000547",
     "doi": "10.1080/10502556.2020.1833292",
     "title": "Attitudes of Young Adults Toward Marriage and Divorce, 2002–2018",
@@ -85128,6 +86428,33 @@
     "setting_era": "SDT",
     "evidence_type": "review",
     "reason": "SDT-framed review of internal value/attitude change in already-modernized societies, with no external reference model as exposure (Wall 2).",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2393482865",
+    "doi": "10.4054/demres.2015.33.25",
+    "title": "Exploring social norms around cohabitation: The life course, individualization, and culture",
+    "year": 2015,
+    "authors": "Brienna Perelli‐Harris; Laura Bernardi",
+    "venue": "Demographic Research",
+    "cited_by_count": 48,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2031727718"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "OFF_POSTMATERIALIST_D1a",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "ideational change, individualization and shifting social norms",
+    "outcome": "cohabitation",
+    "structural_change_held_fixed": "no",
+    "setting_era": "NA",
+    "evidence_type": "observational",
+    "reason": "individualization-driven norms around cohabitation, internal value change rather than an externally sourced family model",
     "tier": "excluded",
     "model_screened": true
   },
@@ -85867,6 +87194,33 @@
     "setting_era": "SDT",
     "evidence_type": "observational",
     "reason": "Endogenous individualism and erosion of traditional family orientation in an already-modernized society; self-oriented content, no external reference model.",
+    "tier": "excluded",
+    "model_screened": true
+  },
+  {
+    "paperId": "W1967413831",
+    "doi": "10.1111/j.1755-618x.1984.tb01284.x",
+    "title": "Family size expectations among selected Edmonton women: three explanatory frameworks compared",
+    "year": 1984,
+    "authors": "Susan A. McDaniel",
+    "venue": "Canadian Review of Sociology/Revue canadienne de sociologie",
+    "cited_by_count": 3,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "NOT_RELEVANT",
+    "estimand_cell": "OFF_POSTMATERIALIST_D1a",
+    "outcome_level": "NA",
+    "shared_with": "none",
+    "treatment": "competing role preferences and values versus economic utilities",
+    "outcome": "expected family size",
+    "structural_change_held_fixed": "no",
+    "setting_era": "NA",
+    "evidence_type": "observational",
+    "reason": "internal, self-oriented role-preference value change in an already-modernized Canadian setting",
     "tier": "excluded",
     "model_screened": true
   },

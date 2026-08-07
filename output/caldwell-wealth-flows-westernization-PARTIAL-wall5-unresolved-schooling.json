@@ -629,6 +629,33 @@
     "model_screened": true
   },
   {
+    "paperId": "W3096378151",
+    "doi": "10.1177/0021909620966778",
+    "title": "Early Marriage and Correlates among Young Women in Sub-Saharan African Countries",
+    "year": 2020,
+    "authors": "Jacques M. Elengemoke; A Sathiya Susuman",
+    "venue": "Journal of Asian and African Studies",
+    "cited_by_count": 11,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2059106092"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "FAMILY_FORMATION_BEHAVIOUR",
+    "shared_with": "none",
+    "treatment": "formal education attainment and socio-economic covariates",
+    "outcome": "early marriage among young women",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "education–early marriage association in sub-Saharan Africa with no mechanism decomposition visible",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
     "paperId": "W2925091512",
     "doi": null,
     "title": "Education and Childlessness in India",
@@ -1577,6 +1604,33 @@
     "setting_era": "DIFFUSED_FDT",
     "evidence_type": "observational",
     "reason": "Cross-national education gradient in household nuclearization with urbanization and GNP insignificant, but the mechanism is not decomposed and the design is ecological.",
+    "tier": "T3",
+    "model_screened": true
+  },
+  {
+    "paperId": "W2144489347",
+    "doi": "10.1111/j.1728-4457.2000.00483.x",
+    "title": "The Spread of Primary Schooling in sub‐Saharan Africa: Implications for Fertility Change",
+    "year": 2000,
+    "authors": "Cynthia B. Lloyd; Carol E. Kaufman; Paul Hewett",
+    "venue": "Population and Development Review",
+    "cited_by_count": 196,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2051774250"
+    ],
+    "verdict": "UNCERTAIN",
+    "estimand_cell": "MECHANISM_UNRESOLVED_SCHOOLING",
+    "outcome_level": "REALIZED_FERTILITY",
+    "shared_with": "none",
+    "treatment": "attainment of mass primary schooling (grade 4 completion)",
+    "outcome": "fertility decline onset",
+    "structural_change_held_fixed": "no",
+    "setting_era": "DIFFUSED_FDT",
+    "evidence_type": "observational",
+    "reason": "tests Caldwell's mass-schooling threshold against fertility decline but shows no decomposition separating ideational content from wage or child-cost returns",
     "tier": "T3",
     "model_screened": true
   },

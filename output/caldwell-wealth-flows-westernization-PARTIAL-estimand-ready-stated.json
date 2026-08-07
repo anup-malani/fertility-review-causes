@@ -342,6 +342,34 @@
     "multi_level_needs_extraction_split": true
   },
   {
+    "paperId": "W4401222389",
+    "doi": "10.1080/00324728.2024.2345059",
+    "title": "Family trajectories among immigrants and their descendants in three European countries: A multistate approach in comparative research",
+    "year": 2024,
+    "authors": "Hill Kulu; Júlia Mikolai; Isaure Delaporte; Chia Liu; Gunnar Andersson",
+    "venue": "Population Studies",
+    "cited_by_count": 5,
+    "discovery_channels": [
+      "forward_citation"
+    ],
+    "seed_ids": [
+      "W2610027961"
+    ],
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_WESTERN_CONTACT",
+    "outcome_level": "MULTIPLE",
+    "shared_with": "none",
+    "treatment": "migrant generation and destination-country context in Europe",
+    "outcome": "partnership formation and childbearing trajectories",
+    "structural_change_held_fixed": "unclear",
+    "setting_era": "SDT",
+    "evidence_type": "observational",
+    "reason": "convergence of family behaviour with host exposure across migrant generations, though origin-persistence is also examined",
+    "tier": "T2",
+    "model_screened": true,
+    "multi_level_needs_extraction_split": true
+  },
+  {
     "paperId": "W4379516845",
     "doi": "10.1177/01979183231161600",
     "title": "Competing Family Pathways for Immigrants and Their Descendants in Germany",

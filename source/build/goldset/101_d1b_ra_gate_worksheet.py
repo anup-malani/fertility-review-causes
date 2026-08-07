@@ -39,21 +39,23 @@ SAMPLING RULE: deterministic throughout. Records are sorted by (year desc, paper
 take everything; sampled strata take a fixed-seed draw with the seed and n written into the log so
 the same draw reproduces. No unseeded randomness anywhere.
 
-Inputs : output/{slug}-screen-tiers.json  (or the -PARTIAL- variant, which is REFUSED — see below)
-Outputs: extraction/{slug}-ra-gate.csv
-         literature/search-logs/{slug}-ra-gate-log.md
+Inputs : output/{slug}-screen-tiers.json. The -PARTIAL- variant is refused by default and accepted
+         only under --allow-partial, which writes a work-in-progress queue under -PARTIAL- names and
+         is explicitly not the sign-off gate.
+Outputs: extraction/{slug}[-PARTIAL]-ra-gate.csv
+         literature/search-logs/{slug}[-PARTIAL]-ra-gate-log.md
 """
 from __future__ import annotations
 
-import csv, json, random, sys
+import argparse, csv, json, random, sys
 from collections import Counter
 from pathlib import Path
 
 SLUG = "caldwell-wealth-flows-westernization"
 ROOT = Path(__file__).resolve().parents[3]
 TIERS = ROOT / "output" / f"{SLUG}-screen-tiers.json"
-GATE = ROOT / "extraction" / f"{SLUG}-ra-gate.csv"
-GATE_LOG = ROOT / "literature" / "search-logs" / f"{SLUG}-ra-gate-log.md"
+GATE_TPL = "{slug}{sfx}-ra-gate.csv"
+GATE_LOG_TPL = "{slug}{sfx}-ra-gate-log.md"
 
 SEED = 20260807
 WALL5_SAMPLE_N = 40      # large: this stratum sets the chapter's headline ratio
@@ -100,17 +102,32 @@ def take(pool, n, seed_offset):
 
 
 def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--allow-partial", action="store_true",
+                    help="build a WORK-IN-PROGRESS review queue from a partial screen. Not the "
+                         "sign-off gate; re-run after the screen completes.")
+    args = ap.parse_args()
+
+    partial_path = ROOT / "output" / f"{SLUG}-PARTIAL-screen-tiers.json"
+    src, is_partial = TIERS, False
     if not TIERS.exists():
-        partial = ROOT / "output" / f"{SLUG}-PARTIAL-screen-tiers.json"
-        if partial.exists():
-            print("REFUSED: only a PARTIAL screen exists. A gate built on a partial screen would "
-                  "sample strata whose membership is still changing, and its overturn rates would "
-                  "be computed against a denominator that does not exist yet. Finish the screen.",
+        if not partial_path.exists():
+            print(f"REFUSED: {TIERS} not found", file=sys.stderr)
+            return 1
+        if not args.allow_partial:
+            # The default refusal stands, and the reason is not fussiness. A gate is defined by its
+            # strata, and on a partial screen two of the four are not what they claim to be: the
+            # "census" strata are censuses of whatever happened to be screened, and the headline
+            # ratio the gate exists to check is still moving. Sampled strata survive — a random
+            # sample of a random sample is still a random sample — but the census ones do not.
+            print("REFUSED: only a PARTIAL screen exists. The census strata would be censuses of "
+                  "whatever was screened so far, and the headline ratio this gate exists to check "
+                  "is still moving. Finish the screen, or pass --allow-partial to build a "
+                  "work-in-progress review queue that is explicitly not the sign-off gate.",
                   file=sys.stderr)
             return 1
-        print(f"REFUSED: {TIERS} not found", file=sys.stderr)
-        return 1
-    corpus = json.loads(TIERS.read_text())
+        src, is_partial = partial_path, True
+    corpus = json.loads(src.read_text())
 
     decisive = [r for r in corpus
                 if r["estimand_cell"] == "DIFFUSION_INDEPENDENT_OF_STRUCTURE"
@@ -122,7 +139,8 @@ def main():
     rows, log_strata = [], []
     for r in sorted(decisive, key=lambda r: (-(r.get("year") or 0), r.get("paperId") or "")):
         rows.append(row(r, "A_DECISIVE", 1, "full_text"))
-    log_strata.append(("A_DECISIVE", len(decisive), len(decisive), "census"))
+    census_word = "census of screened-so-far" if is_partial else "census"
+    log_strata.append(("A_DECISIVE", len(decisive), len(decisive), census_word))
 
     w5 = take(wall5_pool, WALL5_SAMPLE_N, 1)
     for r in w5:
@@ -134,7 +152,7 @@ def main():
     # would let an inflated numerator pass unchecked.
     for r in sorted(prim_school, key=lambda r: (-(r.get("year") or 0), r.get("paperId") or "")):
         rows.append(row(r, "B2_PRIMARY_SCHOOLING", 1, "full_text"))
-    log_strata.append(("B2_PRIMARY_SCHOOLING", len(prim_school), len(prim_school), "census"))
+    log_strata.append(("B2_PRIMARY_SCHOOLING", len(prim_school), len(prim_school), census_word))
 
     to = take(title_only_pool, TITLE_ONLY_SAMPLE_N, 2)
     for r in to:
@@ -150,6 +168,9 @@ def main():
             rows.append(row(r, f"D_WALL_{wall}", 3, "abstract"))
         log_strata.append((f"D_WALL_{wall}", len(pool), len(s), f"seed {SEED}+{10+i}"))
 
+    sfx = "-PARTIAL" if is_partial else ""
+    GATE = ROOT / "extraction" / GATE_TPL.format(slug=SLUG, sfx=sfx)
+    GATE_LOG = ROOT / "literature" / "search-logs" / GATE_LOG_TPL.format(slug=SLUG, sfx=sfx)
     GATE.parent.mkdir(parents=True, exist_ok=True)
     with GATE.open("w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, fieldnames=COLUMNS)
@@ -158,7 +179,19 @@ def main():
 
     n_w5, n_ps = len(wall5_pool), len(prim_school)
     ratio = 100 * n_w5 / max(1, n_w5 + n_ps)
-    L = [f"# Human review gate — {SLUG} (D.1.b)", "",
+    banner = ([f"# Human review gate — {SLUG} (D.1.b) — **PARTIAL / WORK IN PROGRESS**", "",
+               "> **NOT THE SIGN-OFF GATE.** Built from a partial screen. The two census strata "
+               "(`A_DECISIVE`, `B2_PRIMARY_SCHOOLING`) are censuses of *what has been screened so "
+               "far*, not of the corpus, so re-running after the screen completes WILL add rows to "
+               "them. The sampled strata are unaffected — a random sample of a random sample is "
+               "still a random sample — so overturn rates from those remain valid.",
+               ">",
+               "> Review work done against this queue is not wasted: every row is a real record with "
+               "a real screen verdict, and the decisions carry forward. What cannot be done from it "
+               "is declaring the gate passed.", ""]
+              if is_partial else
+              [f"# Human review gate — {SLUG} (D.1.b)", ""])
+    L = banner + [
          f"Worksheet: `{GATE.relative_to(ROOT)}` — **{len(rows)} rows**. Built from the completed "
          f"screen over {len(corpus):,} corpus records. Sampling is deterministic; the seed and n for "
          "every sampled stratum are below, so the same draw reproduces.", "",
@@ -196,7 +229,7 @@ def main():
           "unresolved class, and forcing a yes/no would manufacture the precision the chapter is "
           "trying to measure honestly.", ""]
     GATE_LOG.write_text("\n".join(L) + "\n")
-    print(f"gate worksheet: {len(rows)} rows -> {GATE.relative_to(ROOT)}")
+    print(("PARTIAL " if is_partial else "") + f"gate worksheet: {len(rows)} rows -> {GATE.relative_to(ROOT)}")
     for name, pop, drawn, rule in log_strata:
         print(f"  {name:34} {drawn:4}/{pop:<6} ({rule})")
     print(f"headline ratio as screened: {n_w5} unresolved / {n_ps} decomposed = {ratio:.0f}%")
