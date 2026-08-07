@@ -105,9 +105,22 @@ Return one JSON array, in input order, exactly one object per paper:
   see the note below.
 - `UNCERTAIN`: plausibly belongs, but missing or ambiguous information prevents confident routing. This
   is the correct verdict for `MECHANISM_UNRESOLVED_SCHOOLING` and `INSUFFICIENT_INFO`.
-- `NOT_RELEVANT`: does not bear on the estimand. General modernization narratives, general
-  fertility-decline descriptions, and cross-national correlations of development indices with TFR are
-  NOT automatically relevant.
+- `NOT_RELEVANT`: does not bear on **this chapter's** estimand. General modernization narratives,
+  general fertility-decline descriptions, and cross-national correlations of development indices with
+  TFR are NOT automatically relevant.
+
+**A verdict and a cell answer two different questions, and every `OFF_*` paper needs both.** The
+verdict says whether the paper belongs to D.1.b. The cell says where it *does* belong. So:
+
+- **Every `OFF_*` cell takes `NOT_RELEVANT`** — the paper is out of this chapter — **while keeping its
+  routing label**, which is how the sibling chapter gets it. `NOT_RELEVANT` + `OFF_WEALTH_FLOWS_C3f`
+  is the correct and expected disposition for a wealth-flows paper, and it is not a contradiction.
+- **`NA` is only for papers with nowhere to go** — contentless records, and papers on some unrelated
+  topic entirely. `NA` always pairs with `NOT_RELEVANT`, but the reverse does not hold.
+- `REVERSE` likewise takes `NOT_RELEVANT` unless the paper also carries a forward fertility estimand.
+
+Use `NA` only when no `OFF_*` cell fits. Reaching for `NA` when a routing label applies throws away
+the routing information this screen exists to produce.
 
 **The theory stream takes `RELEVANT`.** `DI_THEORY` papers have no fertility estimand by definition, but
 they are preserved deliberately and are therefore `RELEVANT`, not `NOT_RELEVANT`. They are separated

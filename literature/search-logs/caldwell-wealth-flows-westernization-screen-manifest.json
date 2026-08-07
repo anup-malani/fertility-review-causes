@@ -1,0 +1,903 @@
+{
+  "slug": "caldwell-wealth-flows-westernization",
+  "stage": "blinded_title_abstract_screen_input",
+  "source": "literature/search-logs/caldwell-wealth-flows-westernization-tier-b-frame.json",
+  "source_sha256": "98403ad600aac71aa3f03fa3b814df8d6bc5021b4b8c786ef3d124f68a98f62d",
+  "rubric_sha256": "97537e6ec315944b604959cdf77292d81eed50cc42f798ebb394577dc5f33e58",
+  "seed": 1063,
+  "batch_size": 25,
+  "frame_records": 4701,
+  "model_screened_records": 3123,
+  "title_only_records_not_model_screened": 1578,
+  "min_abstract_chars": 30,
+  "batches": 125,
+  "coverage_note": "1578 of 4701 frame records (34%) have no abstract and were assigned UNCERTAIN / INSUFFICIENT_INFO by the rubric's title-only policy without a model call. They remain in the corpus and in every denominator. Report this wherever the screened count is quoted.",
+  "d1_prerank": "not run: the frame is entirely citation-sourced, so every record is an orthogonal-channel record that D1's own rule exempts from its cutoff",
+  "blinded_fields": [
+    "doi",
+    "authors",
+    "venue",
+    "cited_by_count",
+    "discovery_channels",
+    "seed_ids",
+    "gold_status"
+  ],
+  "coverage_verified": true,
+  "manifest": [
+    {
+      "batch": 1,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_001.json",
+      "input_sha256": "1dabbb0099fb27a2125c4645fec53eb64c6ebf745e3bb6a03b62ff7e92dd4003",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_001.json"
+    },
+    {
+      "batch": 2,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_002.json",
+      "input_sha256": "ec7fae879e6ce55d5fea0064ef3c4020471b75647328ec60f04932b31d13b0cd",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_002.json"
+    },
+    {
+      "batch": 3,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_003.json",
+      "input_sha256": "9b29d96af4df2ac156d29aae5ac76cbe5d99a634b7d1d095dfb4324f9708978e",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_003.json"
+    },
+    {
+      "batch": 4,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_004.json",
+      "input_sha256": "156033833312666905632f031dd0d3e903f73d768cbccb4678b0fde0f580a5a9",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_004.json"
+    },
+    {
+      "batch": 5,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_005.json",
+      "input_sha256": "c1a71d612c83528effeec0574bd73434943fb433fd80f1b816e5c949fb8848d8",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_005.json"
+    },
+    {
+      "batch": 6,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_006.json",
+      "input_sha256": "969e7427eadf1870e6e142795b542d3e78d1572525f1508ea3aa8a42ec673175",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_006.json"
+    },
+    {
+      "batch": 7,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_007.json",
+      "input_sha256": "367e3995fe66d3e2b463153a49306497aba0a10632813a237d122a7af8b4b090",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_007.json"
+    },
+    {
+      "batch": 8,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_008.json",
+      "input_sha256": "fb8e5b292f23fedcd2614dc0516251bcad277753d602e58d8fbc923391517165",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_008.json"
+    },
+    {
+      "batch": 9,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_009.json",
+      "input_sha256": "4e3621898092687a3298aba41895cfcac64f8067d80d96679acbc4df407f7d41",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_009.json"
+    },
+    {
+      "batch": 10,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_010.json",
+      "input_sha256": "caf8a5e5ac593179472faa0b84cb41f7283df98fa4bcffba2604929337b0bcab",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_010.json"
+    },
+    {
+      "batch": 11,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_011.json",
+      "input_sha256": "e78c2fd38483cd19e6ae245370bbe3e7987d1e0539ababc4fae59975c41deefe",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_011.json"
+    },
+    {
+      "batch": 12,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_012.json",
+      "input_sha256": "2fafaa781ecd2bd1ed46eeb22f4ae4e379c3fe7be09d76330ccdee82a1e38491",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_012.json"
+    },
+    {
+      "batch": 13,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_013.json",
+      "input_sha256": "10b4dabafd78107559a28a18a7b06744801c2d80b16d6c54cfeedec30dd7686e",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_013.json"
+    },
+    {
+      "batch": 14,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_014.json",
+      "input_sha256": "d780b6ded2354f15636b1baa523c2b6acf17278b3a041b672ae6b05ccdc5e4fc",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_014.json"
+    },
+    {
+      "batch": 15,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_015.json",
+      "input_sha256": "040d3e870272eaffb37eba34ee3fbea85e1adc23bafedbb28ceb8d6cb11fdce0",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_015.json"
+    },
+    {
+      "batch": 16,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_016.json",
+      "input_sha256": "8e5a9a741fb94e72b4e82cd8ab72933c99bfc0a264e5c618b01037bb72930860",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_016.json"
+    },
+    {
+      "batch": 17,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_017.json",
+      "input_sha256": "47ab278b04c20ad627ca52a20000c5766a227c78e64aa9e6f6f18521b93ed97b",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_017.json"
+    },
+    {
+      "batch": 18,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_018.json",
+      "input_sha256": "a3ce8c9ba32c18404aed0e9c498f57793a357410d525db73eff51b43a8a62e88",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_018.json"
+    },
+    {
+      "batch": 19,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_019.json",
+      "input_sha256": "265fceff5c8aac311d382667cf0ab7aa16bd7b1f82b3bd61cc1bcc6521086c45",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_019.json"
+    },
+    {
+      "batch": 20,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_020.json",
+      "input_sha256": "c2570662e9a9dacea3cbf441c6024865867186c8faf821e6ed7cf5e0381a0434",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_020.json"
+    },
+    {
+      "batch": 21,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_021.json",
+      "input_sha256": "613c0c802891f462af09708545ff3391c17d6323b854b6b2a01c7c7ac341788a",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_021.json"
+    },
+    {
+      "batch": 22,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_022.json",
+      "input_sha256": "d3b4b677752e47dda4267d2387fd4313ada21277d30170fb2ed078cca3b2155a",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_022.json"
+    },
+    {
+      "batch": 23,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_023.json",
+      "input_sha256": "f65571b79fac254b90f4caece9b839f204ed4a0479c5b67c124f3afa56513aae",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_023.json"
+    },
+    {
+      "batch": 24,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_024.json",
+      "input_sha256": "09af6fa275afe2289684924baa9e2393e4cb3ea091870b8e72fa23cbfaa2b780",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_024.json"
+    },
+    {
+      "batch": 25,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_025.json",
+      "input_sha256": "bed5c26022a18d074e6dd3ed52b9402892b76a5f5e82ad29ab208988650517ef",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_025.json"
+    },
+    {
+      "batch": 26,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_026.json",
+      "input_sha256": "e35529f43b1ded16934bc285df70e8b99c5feda1a867f513c72a70c18f0d52b9",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_026.json"
+    },
+    {
+      "batch": 27,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_027.json",
+      "input_sha256": "9854719a8b8a7ed338317836646d3c3a1bbdab80418e3bb5f529ae8404be54a9",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_027.json"
+    },
+    {
+      "batch": 28,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_028.json",
+      "input_sha256": "0c507fc957c90b32cf51326662c2505c0f4542da5b2850b41507337943a34f79",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_028.json"
+    },
+    {
+      "batch": 29,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_029.json",
+      "input_sha256": "761f4c8516de1b563f95371dbe2c682c400c67bef8e9e9663fe1e6119c381786",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_029.json"
+    },
+    {
+      "batch": 30,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_030.json",
+      "input_sha256": "3694fb2c763a8af4a6dd475595d1391d6da2ffec9a07e9379e633e57866ecb1e",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_030.json"
+    },
+    {
+      "batch": 31,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_031.json",
+      "input_sha256": "df38e024620f211fb4ae0256350c79b3f52625a1115cb7301f0d3c6c08961521",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_031.json"
+    },
+    {
+      "batch": 32,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_032.json",
+      "input_sha256": "018aaaea413d3daa192b198e7a6b06a43fd202a7471385188be1042e506a7d3a",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_032.json"
+    },
+    {
+      "batch": 33,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_033.json",
+      "input_sha256": "1f5fa3015e70de4e581c0d03d04cd41c7502900e77d3e7e224e7e25c7440d847",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_033.json"
+    },
+    {
+      "batch": 34,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_034.json",
+      "input_sha256": "634a8ab2105c5154f8d40deec95418ea4d93d58c55fb9fbc37119715e3b2a92c",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_034.json"
+    },
+    {
+      "batch": 35,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_035.json",
+      "input_sha256": "e867e5cd818d9993d8e2b5c257e722e75e76bce40821cb5de5f223508836282a",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_035.json"
+    },
+    {
+      "batch": 36,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_036.json",
+      "input_sha256": "cff1c01abe37623678b7d2007e6f287fb0af83d53cb6b21a54cbd1d98fe62c1e",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_036.json"
+    },
+    {
+      "batch": 37,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_037.json",
+      "input_sha256": "d9ddeb1ccd986f14a33fc92f950432e77dc186a952bbcbb981950f0bf095100a",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_037.json"
+    },
+    {
+      "batch": 38,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_038.json",
+      "input_sha256": "e3c624f9557ca75186501e141ac0c17d74b00a326092a276c919e97632c31bca",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_038.json"
+    },
+    {
+      "batch": 39,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_039.json",
+      "input_sha256": "3b92ed19673ad006dedc4257d27d077bf1a6ce4fbcc226012abec62a6605ffe0",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_039.json"
+    },
+    {
+      "batch": 40,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_040.json",
+      "input_sha256": "64bc4b9ef5e8d22f4f70968b3b8bc9ea00d92afb60544021c0acde01ba010fd8",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_040.json"
+    },
+    {
+      "batch": 41,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_041.json",
+      "input_sha256": "b30b7558e701134a3a0b9aa80cffdbcbfb49d60d14e0a08a5eb6c212f7b33472",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_041.json"
+    },
+    {
+      "batch": 42,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_042.json",
+      "input_sha256": "6770bfae5d445ff782040b36c4923f0902f76e828405fb0f072846cb22a8d7ac",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_042.json"
+    },
+    {
+      "batch": 43,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_043.json",
+      "input_sha256": "f4b26fa8f9958908851945365720693fb25b0b2484481ab8526ed4de3a111b9f",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_043.json"
+    },
+    {
+      "batch": 44,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_044.json",
+      "input_sha256": "aa52afc7c511730b9b8fb19f18e61c152696e7e69f21cb8ebb26d74a567801ef",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_044.json"
+    },
+    {
+      "batch": 45,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_045.json",
+      "input_sha256": "ae588cd83d3d7c4bde8f3bfc8af458e66a7e0e7214703e664cf7c4f6290c980d",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_045.json"
+    },
+    {
+      "batch": 46,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_046.json",
+      "input_sha256": "66ea1d541467578dcc582200b5671449ec317307606f1df05908ccba073f6d6b",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_046.json"
+    },
+    {
+      "batch": 47,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_047.json",
+      "input_sha256": "5b6a18a9e2f7aba928f5ef7b00665e022acec12eafb292bd6ea56a4647298e58",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_047.json"
+    },
+    {
+      "batch": 48,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_048.json",
+      "input_sha256": "6683cbd1adb92b78b9f0e332ed67bbbe7071d6bd4e01de5d2b8aa4148f2489fa",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_048.json"
+    },
+    {
+      "batch": 49,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_049.json",
+      "input_sha256": "d9a01d76c4e277ac7245456232d01779da0e46fceae24f91434dc45e5c9603e1",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_049.json"
+    },
+    {
+      "batch": 50,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_050.json",
+      "input_sha256": "d7e27708faa9968649e674371920ad132d6f536e6c1cbaeaebce2b82d3b6103c",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_050.json"
+    },
+    {
+      "batch": 51,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_051.json",
+      "input_sha256": "3a43dc6727dc5148943d2da2adc9cce9619bb9349d6fe4d73002e6acd50ffef7",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_051.json"
+    },
+    {
+      "batch": 52,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_052.json",
+      "input_sha256": "87b8cf57ddbccbe096d2f41e83de1b36fd3b0a2abc3ba04cbc6f2877f2c62fc3",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_052.json"
+    },
+    {
+      "batch": 53,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_053.json",
+      "input_sha256": "7c1a610e69d5bf103ad7d8744b5484241ebcbd5324300529b139fe4dc6e1bfb9",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_053.json"
+    },
+    {
+      "batch": 54,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_054.json",
+      "input_sha256": "70a15e6ec1c79f861587635fd187261aa62222ceac93b20867176208295c7387",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_054.json"
+    },
+    {
+      "batch": 55,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_055.json",
+      "input_sha256": "b1e9038b49c9967c9ca31d85e9620534098e715d8b6cadc7cf32a55a29d9fbb3",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_055.json"
+    },
+    {
+      "batch": 56,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_056.json",
+      "input_sha256": "77fb7763e9f117f2350547eb71a9a68f6433582240f12b36591be2a85e27b3e0",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_056.json"
+    },
+    {
+      "batch": 57,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_057.json",
+      "input_sha256": "70cf16761448994070cdd1dca053dac0dc15eb46688dc3da40ddea73e5717df1",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_057.json"
+    },
+    {
+      "batch": 58,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_058.json",
+      "input_sha256": "e1c32c7d95c6a25d042d60da09aaaa4122a74ed90628842a077675573a4c04e8",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_058.json"
+    },
+    {
+      "batch": 59,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_059.json",
+      "input_sha256": "2b52334ba678976186dcdbc672e382ffa0233990e2982b234df7afcdfa909d8c",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_059.json"
+    },
+    {
+      "batch": 60,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_060.json",
+      "input_sha256": "bec02988697d0611e9af0dc049604f26fe5381886717029d04d643a01bd9c7f7",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_060.json"
+    },
+    {
+      "batch": 61,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_061.json",
+      "input_sha256": "b0e33e3c76851e40396d6d3d232359ca075a980fabae34911d7277858bbea722",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_061.json"
+    },
+    {
+      "batch": 62,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_062.json",
+      "input_sha256": "258e56e89eed740a76305581b85411fa208c56421e4e9eb32f8ee7e283f1044d",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_062.json"
+    },
+    {
+      "batch": 63,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_063.json",
+      "input_sha256": "7584641d797d4540375eb4630d9f3cfffee442e34c8ecbb1a8db03ff990b1f24",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_063.json"
+    },
+    {
+      "batch": 64,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_064.json",
+      "input_sha256": "bcec44b5a9ee234960ab93d1b57b10645093a3df125c3c293efb5cd091341be3",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_064.json"
+    },
+    {
+      "batch": 65,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_065.json",
+      "input_sha256": "13474a4c05fc6c4b99e3fa0438c2ad0e7dfc58ec87d285d115c5328c29acf539",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_065.json"
+    },
+    {
+      "batch": 66,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_066.json",
+      "input_sha256": "1769fc071e59cfb01b03c312e3fe5001bef01ee1a4ae925f7c2d4db438cd0f5c",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_066.json"
+    },
+    {
+      "batch": 67,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_067.json",
+      "input_sha256": "eb46cb6be1b2b8dc109a59231285ae5bf962d53c295124fb2fa1801cb0d527c8",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_067.json"
+    },
+    {
+      "batch": 68,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_068.json",
+      "input_sha256": "9a7963034e12e2cdf09cdea3a2b1d3b45f247e37de47ef66fb09f11ad8419cf6",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_068.json"
+    },
+    {
+      "batch": 69,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_069.json",
+      "input_sha256": "1950103d458cfe9b3ba87dfd2c3cd866f837dc4cfdf8550a49cf317089833330",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_069.json"
+    },
+    {
+      "batch": 70,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_070.json",
+      "input_sha256": "45d04b448da987f80089d66b9a78febee43b1f1cabab80e9b5cd7cb9bd322156",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_070.json"
+    },
+    {
+      "batch": 71,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_071.json",
+      "input_sha256": "332c03ee0772f8875dc507bc4673efcdf6ab064c998f91982c1dc34b1dc63e73",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_071.json"
+    },
+    {
+      "batch": 72,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_072.json",
+      "input_sha256": "11aa3cd84abb2dc6f9953fe20c5f232a6aece4f1a7fbbcc5a19643a44e2a646b",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_072.json"
+    },
+    {
+      "batch": 73,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_073.json",
+      "input_sha256": "73d2d399723d1b7ff4c5b0340cb42316337c17745bd4aaaf9936f02c850b8f8b",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_073.json"
+    },
+    {
+      "batch": 74,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_074.json",
+      "input_sha256": "ad2adba07c45aa644bd52963dd54b413f164e9413ff4443ae67a94ceb463f820",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_074.json"
+    },
+    {
+      "batch": 75,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_075.json",
+      "input_sha256": "2cd770466ae30c8df7ba0da13dfb9b0ca30b4bea55662df329a5fe147e52ff2b",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_075.json"
+    },
+    {
+      "batch": 76,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_076.json",
+      "input_sha256": "e4c8181ddcab4bd6828b037a9548ee8104e4c2e2061078af8fafa76044606346",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_076.json"
+    },
+    {
+      "batch": 77,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_077.json",
+      "input_sha256": "412ee6cada37255deacd7270dd60a8bac16aa0962e339c9ece97a3d7065e0256",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_077.json"
+    },
+    {
+      "batch": 78,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_078.json",
+      "input_sha256": "fa9e916a3735172f792263744fb960a6e9b8091e1856850d76f9504059eaca01",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_078.json"
+    },
+    {
+      "batch": 79,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_079.json",
+      "input_sha256": "fd8772c90b073c09cb8d1bb84dd0f8a6934cdb1cf25cb9a6faeb7d4f2137c979",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_079.json"
+    },
+    {
+      "batch": 80,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_080.json",
+      "input_sha256": "b5dfcd848ee9973763ece17ceea90cc1f11f46752cf799e24fc617d256f6138b",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_080.json"
+    },
+    {
+      "batch": 81,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_081.json",
+      "input_sha256": "ee42b727e6ceb5b68ce90c4099f977f7ab9990c8bc5819923ac76a8d87fae39e",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_081.json"
+    },
+    {
+      "batch": 82,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_082.json",
+      "input_sha256": "2a22a77b5a4d6db44538b973dfffa9470721e86aa49118d7c53780ece3f3011f",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_082.json"
+    },
+    {
+      "batch": 83,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_083.json",
+      "input_sha256": "43c43ed322b69d4009a857103b1e69405935607643f26511829dfc1af126ce1a",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_083.json"
+    },
+    {
+      "batch": 84,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_084.json",
+      "input_sha256": "59d75c5b7de308f67f95d5f9540f7e6a5c0b4b7db6faaa17989eb43de5f9adca",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_084.json"
+    },
+    {
+      "batch": 85,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_085.json",
+      "input_sha256": "70c1751eab919ac1a6d828de2832c154ce65e2dccf73767af1f567da57c33bc3",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_085.json"
+    },
+    {
+      "batch": 86,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_086.json",
+      "input_sha256": "fb41e703bac9aa9e3433d2d5251d6070aa6e4ec2a45eedb7e19ff8224c8e9d4c",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_086.json"
+    },
+    {
+      "batch": 87,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_087.json",
+      "input_sha256": "6b7f8fa4c50fc4504df2439045f3614c538e722ac32cff695c54c65388f82c63",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_087.json"
+    },
+    {
+      "batch": 88,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_088.json",
+      "input_sha256": "4ef72d829affdcbdd96d03c7a2d234ee87679df6fbc730f2b6be26206720af4c",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_088.json"
+    },
+    {
+      "batch": 89,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_089.json",
+      "input_sha256": "fb641e134f7525ec4c6c3adb3437c10eaa811b1cc9f810313038542884be2ad7",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_089.json"
+    },
+    {
+      "batch": 90,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_090.json",
+      "input_sha256": "5990e017492012580d14cd82ffc2fd708f758922cda5229c4c0640ba879b14ea",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_090.json"
+    },
+    {
+      "batch": 91,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_091.json",
+      "input_sha256": "991e5db8512a01024867b046e119fb85773224a93c1a2cca59dc88876735c5d2",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_091.json"
+    },
+    {
+      "batch": 92,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_092.json",
+      "input_sha256": "9ebbd400f30b24ba101e6828774c15af1db19b2f03705a91fef557aa1a882e82",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_092.json"
+    },
+    {
+      "batch": 93,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_093.json",
+      "input_sha256": "d167924fc965ecd8860a0d7a2b9cae39579211c1322062561cd9c7fa338a15ca",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_093.json"
+    },
+    {
+      "batch": 94,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_094.json",
+      "input_sha256": "0c12d5b24043744e390e8fe78a2de1a6ddde063fb3953ed450f0a2fe9bf3b903",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_094.json"
+    },
+    {
+      "batch": 95,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_095.json",
+      "input_sha256": "4b055203d3c33004d089f127258427e3b5e0eca6991e3489e83ea3695cc1212c",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_095.json"
+    },
+    {
+      "batch": 96,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_096.json",
+      "input_sha256": "77943bb77a3eb36ee1f63b6d1b76e06aba6179dcceffc3a7f8b5fa6c6225e534",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_096.json"
+    },
+    {
+      "batch": 97,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_097.json",
+      "input_sha256": "2fb6ad6da5dfa5eff114aea303864f3d11e2e6dc3ef3136b3a74c8d491775995",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_097.json"
+    },
+    {
+      "batch": 98,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_098.json",
+      "input_sha256": "f14b6e46b4f82616cb33b1de62552c786c8d3af6bf464fff225193001174e1b0",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_098.json"
+    },
+    {
+      "batch": 99,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_099.json",
+      "input_sha256": "a916749b8ad8cad122cb21fb4218f4e78da4b028bd427bf4b162f14ff567d48b",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_099.json"
+    },
+    {
+      "batch": 100,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_100.json",
+      "input_sha256": "20bc771987f043e45f8042040b4584624b4ae6cb73d0b7e0579404009fce10ce",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_100.json"
+    },
+    {
+      "batch": 101,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_101.json",
+      "input_sha256": "2d570de02cfdcd8319bcd0ecbc2a3260a3419c57456432b70ca96aaa0474d6a4",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_101.json"
+    },
+    {
+      "batch": 102,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_102.json",
+      "input_sha256": "afa3d53a80f69965e93b4f7a334b422eb8379efa07a6f777a2ed06486b684005",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_102.json"
+    },
+    {
+      "batch": 103,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_103.json",
+      "input_sha256": "18c9361d16bf9cc3b59cbc6e07da3a71cf6e34aa5ae44f1408c43e21dd90b68b",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_103.json"
+    },
+    {
+      "batch": 104,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_104.json",
+      "input_sha256": "1545b0f8cd3e161d04c33734ba154bee6b3713587e2fe59cffbbb358de6837f7",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_104.json"
+    },
+    {
+      "batch": 105,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_105.json",
+      "input_sha256": "cff056ec7ea8110a1725f9276399d91e785d94feee633e6ce8564cdebacc1bd0",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_105.json"
+    },
+    {
+      "batch": 106,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_106.json",
+      "input_sha256": "b2eb6ce2076b0da600f35e392d749760c3caf95dbcd421cdc3219c6f97ce1430",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_106.json"
+    },
+    {
+      "batch": 107,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_107.json",
+      "input_sha256": "bfd5f9d7b4e2246afb58e1b4303e5a61e81b5f603b00a010baee62d6498397e6",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_107.json"
+    },
+    {
+      "batch": 108,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_108.json",
+      "input_sha256": "773957d5e0c38c5fed028b4c9202291bd0cc10211ef9be490f880584a4b2a63b",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_108.json"
+    },
+    {
+      "batch": 109,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_109.json",
+      "input_sha256": "2317d4f8dac7eb656db476dbe7f14d28bec908125e37e53da534a8513652d98d",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_109.json"
+    },
+    {
+      "batch": 110,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_110.json",
+      "input_sha256": "86bc18a74cb88a368bf457dcefd70135d3c050c286785bd9827a6065f88ea218",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_110.json"
+    },
+    {
+      "batch": 111,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_111.json",
+      "input_sha256": "e4199b5dc2f3e173b90e066a096add6ce0beea0ba50e99736ff424b237459611",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_111.json"
+    },
+    {
+      "batch": 112,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_112.json",
+      "input_sha256": "df187861f1b8db529a1d8bf1c0f797e47388eb0fd911b0e485ccc6782323530a",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_112.json"
+    },
+    {
+      "batch": 113,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_113.json",
+      "input_sha256": "0c407546e1da485a3bdf3e3fbeca7214c547d90b7ee27df8d9565daa8d6831a0",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_113.json"
+    },
+    {
+      "batch": 114,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_114.json",
+      "input_sha256": "4d1926cd238d53059fbc2a35a57a4f3eb420c13a1ab70fcfbffcfd78b6ec00ab",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_114.json"
+    },
+    {
+      "batch": 115,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_115.json",
+      "input_sha256": "60fa1e8977ee7736c0247535bdafccf9581f8b8c7712ea3958cffd07968e0c97",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_115.json"
+    },
+    {
+      "batch": 116,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_116.json",
+      "input_sha256": "be63d726142eb9112f16ca847b60dd38c53344f2111bf3c885dc681942dbfd65",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_116.json"
+    },
+    {
+      "batch": 117,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_117.json",
+      "input_sha256": "ffe744c437a5317369a87f2d6ed62beed4398ae643053a7c3514d40615257f24",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_117.json"
+    },
+    {
+      "batch": 118,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_118.json",
+      "input_sha256": "9f84925e5f8133d6f4929bab88e4a198eb7a4456c4ed8cb4aeb97887ae458118",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_118.json"
+    },
+    {
+      "batch": 119,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_119.json",
+      "input_sha256": "518e6f3dfa5a8424a88a74e3f47af17ba3f9d97078aab8d5da976d484f7b270a",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_119.json"
+    },
+    {
+      "batch": 120,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_120.json",
+      "input_sha256": "e659f335780239d636b2d6d2eb6a7e9bbe345db09dcd908a053e3b70f860ca6c",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_120.json"
+    },
+    {
+      "batch": 121,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_121.json",
+      "input_sha256": "c6ff47d59f49e92e8a5cb792700579d562cae2f4d826873a95b17e2a50a0f85d",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_121.json"
+    },
+    {
+      "batch": 122,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_122.json",
+      "input_sha256": "88d4e5e4a562e8ac866f114ad4d77a6472a9ef21b0cb5c5cf4bfc9f3ee9d3589",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_122.json"
+    },
+    {
+      "batch": 123,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_123.json",
+      "input_sha256": "9e78a47c857e1357de05aa1c9dfd640ca2a3bdae8145b0c4f675492a2f3b2831",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_123.json"
+    },
+    {
+      "batch": 124,
+      "n": 25,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_124.json",
+      "input_sha256": "b5b79e3bad994b62567698f3d42f2c7c821b864466b6f1d5ec3dce50d73f6c2b",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_124.json"
+    },
+    {
+      "batch": 125,
+      "n": 23,
+      "input": "temp/screen/caldwell-wealth-flows-westernization/batch_125.json",
+      "input_sha256": "1fde3d8bf61df0448fdd99c19a35014d2e1a868f75e621956cfcc977d5b7144f",
+      "output": "temp/screen/caldwell-wealth-flows-westernization/verdict_125.json"
+    }
+  ]
+}
