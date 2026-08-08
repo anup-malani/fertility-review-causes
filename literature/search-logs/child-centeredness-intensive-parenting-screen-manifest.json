@@ -1,0 +1,561 @@
+{
+  "slug": "child-centeredness-intensive-parenting",
+  "stage": "blinded_title_abstract_screen_input",
+  "source": "literature/search-logs/child-centeredness-intensive-parenting-tier-b-frame.json",
+  "source_sha256": "c15f77f98445877634da44f7ac443f7ef7359784cd2a43252d733d62467c5aee",
+  "rubric_sha256": "b837d9b2d01d6eb5b8d5ab3e5bbe4cd3ab432a97ddbbd283c76a657aa5894117",
+  "seed": 1064,
+  "batch_size": 25,
+  "frame_records": 2677,
+  "model_screened_records": 1881,
+  "title_only_records_not_model_screened": 796,
+  "min_abstract_chars": 30,
+  "batches": 76,
+  "coverage_note": "796 of 2677 frame records (30%) have no abstract and were assigned UNCERTAIN / INSUFFICIENT_INFO by the rubric's title-only policy without a model call. They remain in the corpus and in every denominator. Report this wherever the screened count is quoted.",
+  "wave_gate": "Run batches 1-5 only, then audit before spending the remainder. D.3.b's wave-1 audit found four cell-level defects across 200 records; three are pre-fixed in this rubric at v1.",
+  "d1_prerank": "not run: the frame is entirely citation-sourced, so every record is an orthogonal-channel record that D1's own rule exempts from its cutoff",
+  "blinded_fields": [
+    "doi",
+    "authors",
+    "venue",
+    "cited_by_count",
+    "discovery_channels",
+    "seed_ids",
+    "gold_status"
+  ],
+  "coverage_verified": true,
+  "manifest": [
+    {
+      "batch": 1,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_001.json",
+      "input_sha256": "6f35d90609230a17c765b63bd2389142411953c65a9106da53a7eba8b01c0770",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_001.json"
+    },
+    {
+      "batch": 2,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_002.json",
+      "input_sha256": "e946ae03dfce2c1ee2ca04874215cc97e684ca9ccd79e8b2926c66298f314ddf",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_002.json"
+    },
+    {
+      "batch": 3,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_003.json",
+      "input_sha256": "ca8b431078fa09a4ea3923e7b083efbc25ec43c974eaecb71445631e16a9c260",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_003.json"
+    },
+    {
+      "batch": 4,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_004.json",
+      "input_sha256": "f4620dd98e16cace6fdf94fa5ab2a5fb35b2ae1b7cbf7728821715a53702e62e",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_004.json"
+    },
+    {
+      "batch": 5,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_005.json",
+      "input_sha256": "754ba94a20b34890324f99ee4014316f6b42897fa6408cfccc4b307fd19b5a0c",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_005.json"
+    },
+    {
+      "batch": 6,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_006.json",
+      "input_sha256": "51229f7bd05273064de8844ac45292c9582355b1ce980e8e7757449791c8a7bd",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_006.json"
+    },
+    {
+      "batch": 7,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_007.json",
+      "input_sha256": "c3c51031b633141a4152b8a6009b1ad2178b27b5852519e79f8dfd9efb9ce251",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_007.json"
+    },
+    {
+      "batch": 8,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_008.json",
+      "input_sha256": "bd8b6148815e97c48194075107da73bd34f227ed0f3189bb6cdc49e5e54dcaa8",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_008.json"
+    },
+    {
+      "batch": 9,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_009.json",
+      "input_sha256": "0de734f453fee0b5ef2cc0047e05c7782292dbe6d333c8378c8bad85612055bc",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_009.json"
+    },
+    {
+      "batch": 10,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_010.json",
+      "input_sha256": "bd6e04a295796ddb040878335059e05f72ffbaf5fbc02952c759668617ad9a64",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_010.json"
+    },
+    {
+      "batch": 11,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_011.json",
+      "input_sha256": "03299790fb455bb0039be462f53d43af865bd43fb31d173b8f11ae931bb57ee7",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_011.json"
+    },
+    {
+      "batch": 12,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_012.json",
+      "input_sha256": "00ec16df22c940d3a96d2213175cdf3e39debb6d43231ff8938b672998711ea9",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_012.json"
+    },
+    {
+      "batch": 13,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_013.json",
+      "input_sha256": "597fc6d3ea5cef373377efd9588b7955b9194d1a984b666a9a72486217606370",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_013.json"
+    },
+    {
+      "batch": 14,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_014.json",
+      "input_sha256": "6de1bc0d2b501e40785617e237dcc739b2195089b613007169ded59b8108ff1e",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_014.json"
+    },
+    {
+      "batch": 15,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_015.json",
+      "input_sha256": "081fca010f087afe2f12d4f5e776928b049c5a583194ee0f1b82ded02206eaad",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_015.json"
+    },
+    {
+      "batch": 16,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_016.json",
+      "input_sha256": "a1225250ef2e009575ea5719096713463e15d82e876e869105f8518fdbe9898c",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_016.json"
+    },
+    {
+      "batch": 17,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_017.json",
+      "input_sha256": "d99fc143c0b94441f7274e1b9de1348d07e24dd7d5650ad0c73c28e4ad06115a",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_017.json"
+    },
+    {
+      "batch": 18,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_018.json",
+      "input_sha256": "b032e33130286d756a0ceb058260bdae7cf09276d817442d97830fc469b1ff01",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_018.json"
+    },
+    {
+      "batch": 19,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_019.json",
+      "input_sha256": "0eba31f78a75cc95f0650263596de9802fc50babe9a0b31d7f9f1fd39ffc410b",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_019.json"
+    },
+    {
+      "batch": 20,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_020.json",
+      "input_sha256": "de86fc82d71a38c5232bef634b8bc8bc1f733cadf06776bfc64ea0798ca0f46b",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_020.json"
+    },
+    {
+      "batch": 21,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_021.json",
+      "input_sha256": "74ab547ea34e97fa7235d11004856739210a41f8c55384f0ab9905c83ef26d98",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_021.json"
+    },
+    {
+      "batch": 22,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_022.json",
+      "input_sha256": "6e359b0af2c35bfd00a5190f26e8f38b595fe03576ac2c8180cb2032a898fa6e",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_022.json"
+    },
+    {
+      "batch": 23,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_023.json",
+      "input_sha256": "ad6a88ee0cd823b58561de5927184a8d5ac20826b4d5e7a701224f1a5117b199",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_023.json"
+    },
+    {
+      "batch": 24,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_024.json",
+      "input_sha256": "c14f1ffdf7bef78238750b963fa18710668c704bdb0e519398274a2cb5db1c35",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_024.json"
+    },
+    {
+      "batch": 25,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_025.json",
+      "input_sha256": "ef5da3b9fcb22375a262b155a66d394d1d287f9ba26a72a82510e7b8c5fa136f",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_025.json"
+    },
+    {
+      "batch": 26,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_026.json",
+      "input_sha256": "dbdeea148023f93034addc2778c9fcb382d03f8334e3e8e60093deaaad7e5545",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_026.json"
+    },
+    {
+      "batch": 27,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_027.json",
+      "input_sha256": "d69143901a1b317b26eb3ad2bde6e7f9245e2b72bc71dad768d6378f285fa8b2",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_027.json"
+    },
+    {
+      "batch": 28,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_028.json",
+      "input_sha256": "5cb5390149510aaee46833354d404d2cc729a1e96d6ffc350d4a640dd66b5096",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_028.json"
+    },
+    {
+      "batch": 29,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_029.json",
+      "input_sha256": "7df076cc40e16ebe558468edfd438927c216bf47aca50af17625f6c45c650fbc",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_029.json"
+    },
+    {
+      "batch": 30,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_030.json",
+      "input_sha256": "e503d78f6b74aebd238e35f1abc7b0e31bb0fbdc758457bc9f578fb1a882d669",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_030.json"
+    },
+    {
+      "batch": 31,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_031.json",
+      "input_sha256": "3bef9e2752aeddbfd362b81e495ded3aa27d24cdf006554749e0d1cdf1b2aa95",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_031.json"
+    },
+    {
+      "batch": 32,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_032.json",
+      "input_sha256": "6f5d1277ac4ec7ca6009f52b065d883802a2e2bbf39778e46b979f24633ba55c",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_032.json"
+    },
+    {
+      "batch": 33,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_033.json",
+      "input_sha256": "4dff064f3932e8ed0010cf7599ad62ea200f64d32a132161fb27251458b5604e",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_033.json"
+    },
+    {
+      "batch": 34,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_034.json",
+      "input_sha256": "6c9511a913f682e3b2f18b44b675716f9fca80269cf040db1c71b91c52d96be1",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_034.json"
+    },
+    {
+      "batch": 35,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_035.json",
+      "input_sha256": "4ca91b8665551cc83f56d123b539a13b1d488bdc3e51422f9d53017c614b45a1",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_035.json"
+    },
+    {
+      "batch": 36,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_036.json",
+      "input_sha256": "c43123feb35328ce6958a08f72e4a4ed6b17323cf0bba8c2cab79189c8097e46",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_036.json"
+    },
+    {
+      "batch": 37,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_037.json",
+      "input_sha256": "d6cb090edddd2aa8c565cd0f5af26919f818ae14b8fff0c98a08eba55fc6e0d9",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_037.json"
+    },
+    {
+      "batch": 38,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_038.json",
+      "input_sha256": "7980d0f0f0373a885b8f4424d6b42195134fe7b4d0b0581ecdddab173ab8ca31",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_038.json"
+    },
+    {
+      "batch": 39,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_039.json",
+      "input_sha256": "af0d1474149346ada893514c079fcd5aebe6d580b278d0e171d359d3f60ff459",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_039.json"
+    },
+    {
+      "batch": 40,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_040.json",
+      "input_sha256": "eefa2db276bf91a831d8c049be25dd0f71bc5a37349f9ac00c96ad677ee2f284",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_040.json"
+    },
+    {
+      "batch": 41,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_041.json",
+      "input_sha256": "ba8e2c6e117cd9cf1455015dd5c3513961c462e41f347aa00d44ff9a498a6a13",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_041.json"
+    },
+    {
+      "batch": 42,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_042.json",
+      "input_sha256": "c8a65e6be1b2ebf6ec3a93d9cb31c444cb1ccda45516117e331db13bb88720a9",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_042.json"
+    },
+    {
+      "batch": 43,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_043.json",
+      "input_sha256": "d9a0bb074addf35250b50ff18ecea1621791b5db947a3225260e0d913c03ea87",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_043.json"
+    },
+    {
+      "batch": 44,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_044.json",
+      "input_sha256": "7db1c7e9e5a4fcb6f9b87523834a82202ebbafa89be0952fa2e214f87c01cd96",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_044.json"
+    },
+    {
+      "batch": 45,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_045.json",
+      "input_sha256": "ba682ba50ca40c4006c35e8ae1483ea86269e7fd7cc4344a55979cab60baac39",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_045.json"
+    },
+    {
+      "batch": 46,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_046.json",
+      "input_sha256": "84748ce6f4f756c8cdbe738e214e873e56810c5bfd873e425bf723255b8a904a",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_046.json"
+    },
+    {
+      "batch": 47,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_047.json",
+      "input_sha256": "686a19a5158225fa3880d223d98cbb8445203c08d183a266929be24cc5ddaf8b",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_047.json"
+    },
+    {
+      "batch": 48,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_048.json",
+      "input_sha256": "9bef0a06ae57d0bdb579b6f7565625efb7f889a3c03ee594a2fa2629a4d31567",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_048.json"
+    },
+    {
+      "batch": 49,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_049.json",
+      "input_sha256": "a34d157358b9cfad6b976bc2d22362f090aa316cbd98a6ef3784a99e5decee98",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_049.json"
+    },
+    {
+      "batch": 50,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_050.json",
+      "input_sha256": "48f178479c737a0bdb214e050849af058fbd3cbc68618acace6a3c34f22ecfa7",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_050.json"
+    },
+    {
+      "batch": 51,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_051.json",
+      "input_sha256": "67be097dabbfe52a8945d81930ff25d1ff98ab49e5d1c8e098295582177e692b",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_051.json"
+    },
+    {
+      "batch": 52,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_052.json",
+      "input_sha256": "e17f730be2709ed79b3fb8add230328b3ed08db5fd6ccabe9b117a0c2bd4a92f",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_052.json"
+    },
+    {
+      "batch": 53,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_053.json",
+      "input_sha256": "0e61a49a9fbfe881f997254382ef15f19428b72b2cc4aba108fd5f156d372054",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_053.json"
+    },
+    {
+      "batch": 54,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_054.json",
+      "input_sha256": "56e6a4aeac0346c24086f33fa293af4eb224c6537f846e4d867180662b6d570e",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_054.json"
+    },
+    {
+      "batch": 55,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_055.json",
+      "input_sha256": "8193ec4c49438cc2f24cf7603e2743c10776a0a5ffec67dc55fc33e8348993e8",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_055.json"
+    },
+    {
+      "batch": 56,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_056.json",
+      "input_sha256": "c57621109ce24dff551fd414017079a5ddd9c65dfeda070a7ff0a7dcb0e0f26c",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_056.json"
+    },
+    {
+      "batch": 57,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_057.json",
+      "input_sha256": "92d2110e373f1b2ed3c65c945845ddc8eb3b6d77dd21c3cd9a233fa2e7c4c242",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_057.json"
+    },
+    {
+      "batch": 58,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_058.json",
+      "input_sha256": "41432e170a786b5ec3f1da712a8c103a5369dcaabc6dfc947e9d6a41f16c6079",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_058.json"
+    },
+    {
+      "batch": 59,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_059.json",
+      "input_sha256": "2e174c8c7301a7e6562abd6dbaec18a30b8f90dfb4a9611be94b7b07893f5330",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_059.json"
+    },
+    {
+      "batch": 60,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_060.json",
+      "input_sha256": "541b98c953f41f3dc6295a46cac3906d7c670e578e5c20faacb463e8561e8925",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_060.json"
+    },
+    {
+      "batch": 61,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_061.json",
+      "input_sha256": "0deed81762de46c8e163808233ffbe89dd52130098cd61b5e9d413d42ec86a95",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_061.json"
+    },
+    {
+      "batch": 62,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_062.json",
+      "input_sha256": "0e983ecc9a977ced52236c770f7ab82e33205fbf1c95c9ab3c40fc53575cd621",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_062.json"
+    },
+    {
+      "batch": 63,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_063.json",
+      "input_sha256": "877cb9582d4b58d81c20ea5186c599a6499422b42706c23c4e48f287dd3f6548",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_063.json"
+    },
+    {
+      "batch": 64,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_064.json",
+      "input_sha256": "a8540bf3a6745edc036189db3a093d4bf8190e1a894108fe539e937aac81d323",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_064.json"
+    },
+    {
+      "batch": 65,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_065.json",
+      "input_sha256": "aced62186988469a7d4d5ba27be8d68077202ef48a577876fffeb6002aded78f",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_065.json"
+    },
+    {
+      "batch": 66,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_066.json",
+      "input_sha256": "a3f298bb1028c3d0062a23a921930c8f5afaa637ed5406d57fe4f5a7710b4a2e",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_066.json"
+    },
+    {
+      "batch": 67,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_067.json",
+      "input_sha256": "b0176510f6b8d733c53dd1dfbaa0ad26b77eb81b35d6e1c21d23fa06b73fcd09",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_067.json"
+    },
+    {
+      "batch": 68,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_068.json",
+      "input_sha256": "4e68002bd7524e9e996e709d102a14363e8b06ccf43f2b98740592b32d43829f",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_068.json"
+    },
+    {
+      "batch": 69,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_069.json",
+      "input_sha256": "d0955ae8860a863a4e3188e761dd45e05998cf345fa19da3ce40f9fc0ff5a5eb",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_069.json"
+    },
+    {
+      "batch": 70,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_070.json",
+      "input_sha256": "6b6201c6c86f4d6b1be0aaf9b5c57387d6453896e39bab727f755d368b411e03",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_070.json"
+    },
+    {
+      "batch": 71,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_071.json",
+      "input_sha256": "3edce15783af36a95f720cef9eb8bf8f3575cd6604213445542738127dbcd4d1",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_071.json"
+    },
+    {
+      "batch": 72,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_072.json",
+      "input_sha256": "1f560097235f57e72365ea2f0d6dc60d0090389a62b058859ef9081c53d61070",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_072.json"
+    },
+    {
+      "batch": 73,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_073.json",
+      "input_sha256": "ca60277861ff487c9aa53e6f8e7a4bdfb8f86efda4c8329d9a80748d75a3b29d",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_073.json"
+    },
+    {
+      "batch": 74,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_074.json",
+      "input_sha256": "c95a1c822020be2ae4fb2ec848d9f9c1d7773623bb4a4c5612f3121acfb3dbb0",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_074.json"
+    },
+    {
+      "batch": 75,
+      "n": 25,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_075.json",
+      "input_sha256": "f4036b7ce7d0946e777c6b2bf727909907aff2b4da310737e47e533100b3e4b9",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_075.json"
+    },
+    {
+      "batch": 76,
+      "n": 6,
+      "input": "temp/screen/child-centeredness-intensive-parenting/batch_076.json",
+      "input_sha256": "e96358d63e9d42c02a88472264c0ada2b337787f4e40bec2fe97ae5140c26edc",
+      "output": "temp/screen/child-centeredness-intensive-parenting/verdict_076.json"
+    }
+  ]
+}

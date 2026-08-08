@@ -219,3 +219,49 @@ rather than a re-run.
 measure. Measuring all seven showed the highest-yield one (Hazan & Zoabi, 88.2%) was not among them.
 Both forward-seed parameters on this chapter were first set by intuition and then corrected by a
 measurement that cost about a cent. Measure the seeds before setting the policy, not after.
+
+**2026-08-08 (Shravan) — A5 screen (PARTIAL) + early chapter draft.**
+Scripts 105-108 + rubric. Screened **575 of 2,677 frame records (21%)**; 23 of 76 batches. Run
+stopped deliberately after per-batch runtime degraded ~12x (110s -> 1,328s). Batches outstanding,
+not absent; frame/batches/rubric frozen, so completing them disturbs nothing already screened.
+
+**The wave gate paid for itself on batch 1, and both defects were mine.** (i) `PARENTING_NORM_CONSTRUCT`
+was barred from empirical evidence types, but I had defined that cell as "prevalence, trends, class
+gradients" — observational work by construction. (ii) Theory cells were forced to `RELEVANT`, which
+compelled a screener who could not tell whether a theory paper belonged to assert that it did. Both
+are the D.1.b failure mode: a fail-closed validator that is itself wrong manufactures errors and
+discards good work. I inherited their fix for the theory-cell evidence rule and reintroduced the
+same bug one cell over. Rubric -> v2 with the validator changed in lockstep.
+
+**New: rejected-response quarantine.** The inherited runner discards a rejected response, which
+leaves a wave-1 audit with an error string and nothing to inspect — the audit exists to find rubric
+defects, and a rubric defect shows up precisely as a verdict the validator refuses. Quarantined
+files are diagnostic only, never read downstream. Batch 1 re-validated clean against v2 straight
+from quarantine, which is how both defects were diagnosed without re-paying for the batch.
+
+**CORRECTION to the wave-1 report.** At 75 records the primary stratum was empty and I reported that
+as the chapter's central finding. At 575 it is not empty — `PRIMARY_TIME_INTENSITY` 1,
+`PRIMARY_PERCEIVED_STANDARD` 1. A zero that becomes a two under a sevenfold sample increase is a
+warning about the remaining 79%. The *direction* (estimand extraordinarily thin) has held across
+three independent measurements; the magnitude has not.
+
+Cells: `OFF_OTHER` 285 · `OFF_OUTCOME` 110 · `PARENTING_NORM_CONSTRUCT` 53 · `OFF_GENDER_D2a` 33 ·
+`OFF_QQ_C3d` 18 · deferred-routing 25 · `REVERSE` 9 · **`COST_INDEPENDENCE` 0**.
+
+**Decoy seeding, honest reckoning.** Decoy-seeded records are 41% of the frame and produced ~50% of
+`OFF_OTHER`. My 50.7%-on-topic measurement asked whether citing works mention fertility, not whether
+they sit near the D.2.d boundary, and I let the first stand in for the second. The call stands
+(provenance makes Recall(B) computable both ways, and decoys did supply real Wall-4/Wall-6 routings)
+but it bought less than the percentages implied.
+
+**Chapter drafted** to `output/chapters/child-centeredness-intensive-parenting.md`, EARLY DRAFT, not
+review-ready. Sections 6-9 written from screen-level evidence only, per instruction, each labelled
+with what a screen cannot support: no synthesis (2 studies at 2 outcome levels, unextracted, and the
+no-pooling rule means a pool needs 2 more at either level); demographic significance not computable
+(no effect estimate, no interval, no exposure prevalence linked to a birth outcome); GRADE **not
+rated** with a provisional ceiling of *very low* argued rather than asserted. Steps 4-11 of the
+pipeline remain undone and the chapter says so in its status line.
+
+Highest-value next action is not more search: **read Iftikhar (2025) `10.1016/j.worlddev.2025.107079`**,
+the only known `COST_INDEPENDENCE` candidate and the only paper that would make this hypothesis
+distinguishable from C.2.b / C.2.f / C.3.d.

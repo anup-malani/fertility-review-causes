@@ -1,0 +1,297 @@
+{
+  "slug": "child-centeredness-intensive-parenting",
+  "runs": [
+    {
+      "batch": 1,
+      "status": "fail",
+      "seconds": 369.9,
+      "n_records": 25,
+      "n_soft_flags": 0,
+      "error": "2 validation errors; first: batch_001.json[17]: theory and context cells take RELEVANT and are separated downstream",
+      "command": "claude",
+      "at": "2026-08-08T17:13:50+00:00"
+    },
+    {
+      "batch": 2,
+      "status": "fail",
+      "seconds": 345.8,
+      "n_records": 25,
+      "n_soft_flags": 0,
+      "error": "1 validation errors; first: batch_002.json[14]: PARENTING_NORM_CONSTRUCT cannot carry an empirical evidence_type (observational)",
+      "command": "claude",
+      "at": "2026-08-08T17:19:38+00:00"
+    },
+    {
+      "batch": 3,
+      "status": "fail",
+      "seconds": 303.5,
+      "n_records": 25,
+      "n_soft_flags": 0,
+      "error": "1 validation errors; first: batch_003.json[10]: PARENTING_NORM_CONSTRUCT cannot carry an empirical evidence_type (observational)",
+      "command": "claude",
+      "at": "2026-08-08T17:24:43+00:00"
+    },
+    {
+      "batch": 4,
+      "status": "ok",
+      "seconds": 104.1,
+      "n_records": 25,
+      "n_soft_flags": 0,
+      "error": null,
+      "command": "claude",
+      "at": "2026-08-08T17:26:29+00:00"
+    },
+    {
+      "batch": 5,
+      "status": "ok",
+      "seconds": 373.9,
+      "n_records": 25,
+      "n_soft_flags": 0,
+      "error": null,
+      "command": "claude",
+      "at": "2026-08-08T17:32:45+00:00"
+    },
+    {
+      "batch": 1,
+      "status": "ok",
+      "seconds": 134.3,
+      "n_records": 25,
+      "n_soft_flags": 0,
+      "error": null,
+      "rejected_response": null,
+      "command": "claude",
+      "at": "2026-08-08T17:36:43+00:00"
+    },
+    {
+      "batch": 2,
+      "status": "ok",
+      "seconds": 116.8,
+      "n_records": 25,
+      "n_soft_flags": 0,
+      "error": null,
+      "rejected_response": null,
+      "command": "claude",
+      "at": "2026-08-08T17:39:51+00:00"
+    },
+    {
+      "batch": 3,
+      "status": "ok",
+      "seconds": 97.8,
+      "n_records": 25,
+      "n_soft_flags": 0,
+      "error": null,
+      "rejected_response": null,
+      "command": "claude",
+      "at": "2026-08-08T17:41:31+00:00"
+    },
+    {
+      "batch": 6,
+      "status": "ok",
+      "seconds": 112.2,
+      "n_records": 25,
+      "n_soft_flags": 0,
+      "error": null,
+      "rejected_response": null,
+      "command": "claude",
+      "at": "2026-08-08T17:43:25+00:00"
+    },
+    {
+      "batch": 7,
+      "status": "ok",
+      "seconds": 111.2,
+      "n_records": 25,
+      "n_soft_flags": 0,
+      "error": null,
+      "rejected_response": null,
+      "command": "claude",
+      "at": "2026-08-08T17:45:18+00:00"
+    },
+    {
+      "batch": 8,
+      "status": "ok",
+      "seconds": 112.3,
+      "n_records": 25,
+      "n_soft_flags": 0,
+      "error": null,
+      "rejected_response": null,
+      "command": "claude",
+      "at": "2026-08-08T17:47:13+00:00"
+    },
+    {
+      "batch": 9,
+      "status": "ok",
+      "seconds": 108.5,
+      "n_records": 25,
+      "n_soft_flags": 0,
+      "error": null,
+      "rejected_response": null,
+      "command": "claude",
+      "at": "2026-08-08T17:49:03+00:00"
+    },
+    {
+      "batch": 10,
+      "status": "ok",
+      "seconds": 96.6,
+      "n_records": 25,
+      "n_soft_flags": 0,
+      "error": null,
+      "rejected_response": null,
+      "command": "claude",
+      "at": "2026-08-08T17:50:42+00:00"
+    },
+    {
+      "batch": 11,
+      "status": "ok",
+      "seconds": 115.3,
+      "n_records": 25,
+      "n_soft_flags": 0,
+      "error": null,
+      "rejected_response": null,
+      "command": "claude",
+      "at": "2026-08-08T17:52:39+00:00"
+    },
+    {
+      "batch": 12,
+      "status": "ok",
+      "seconds": 122.8,
+      "n_records": 25,
+      "n_soft_flags": 0,
+      "error": null,
+      "rejected_response": null,
+      "command": "claude",
+      "at": "2026-08-08T17:54:44+00:00"
+    },
+    {
+      "batch": 13,
+      "status": "ok",
+      "seconds": 59.8,
+      "n_records": 25,
+      "n_soft_flags": 0,
+      "error": null,
+      "rejected_response": null,
+      "command": "claude",
+      "at": "2026-08-08T17:55:46+00:00"
+    },
+    {
+      "batch": 14,
+      "status": "ok",
+      "seconds": 235.7,
+      "n_records": 25,
+      "n_soft_flags": 1,
+      "error": null,
+      "rejected_response": null,
+      "command": "claude",
+      "at": "2026-08-08T17:59:43+00:00"
+    },
+    {
+      "batch": 15,
+      "status": "ok",
+      "seconds": 105.2,
+      "n_records": 25,
+      "n_soft_flags": 0,
+      "error": null,
+      "rejected_response": null,
+      "command": "claude",
+      "at": "2026-08-08T18:01:31+00:00"
+    },
+    {
+      "batch": 16,
+      "status": "ok",
+      "seconds": 97.5,
+      "n_records": 25,
+      "n_soft_flags": 0,
+      "error": null,
+      "rejected_response": null,
+      "command": "claude",
+      "at": "2026-08-08T18:03:10+00:00"
+    },
+    {
+      "batch": 17,
+      "status": "fail",
+      "seconds": 394.5,
+      "n_records": 25,
+      "n_soft_flags": 0,
+      "error": "2 validation errors; first: batch_017.json[13]: FDT_SENTIMENTALIZATION_CONTEXT is an argument, not an estimate; it cannot carry observational (PARENTING_NORM_CONSTRUCT is the cell for measured norms)",
+      "rejected_response": "temp/screen/child-centeredness-intensive-parenting/rejected/rejected_017.txt",
+      "command": "claude",
+      "at": "2026-08-08T18:09:47+00:00"
+    },
+    {
+      "batch": 18,
+      "status": "ok",
+      "seconds": 96.3,
+      "n_records": 25,
+      "n_soft_flags": 0,
+      "error": null,
+      "rejected_response": null,
+      "command": "claude",
+      "at": "2026-08-08T18:11:25+00:00"
+    },
+    {
+      "batch": 19,
+      "status": "ok",
+      "seconds": 115.5,
+      "n_records": 25,
+      "n_soft_flags": 0,
+      "error": null,
+      "rejected_response": null,
+      "command": "claude",
+      "at": "2026-08-08T18:13:22+00:00"
+    },
+    {
+      "batch": 20,
+      "status": "ok",
+      "seconds": 102.8,
+      "n_records": 25,
+      "n_soft_flags": 0,
+      "error": null,
+      "rejected_response": null,
+      "command": "claude",
+      "at": "2026-08-08T18:15:07+00:00"
+    },
+    {
+      "batch": 21,
+      "status": "ok",
+      "seconds": 107.8,
+      "n_records": 25,
+      "n_soft_flags": 0,
+      "error": null,
+      "rejected_response": null,
+      "command": "claude",
+      "at": "2026-08-08T18:16:57+00:00"
+    },
+    {
+      "batch": 22,
+      "status": "ok",
+      "seconds": 115.9,
+      "n_records": 25,
+      "n_soft_flags": 0,
+      "error": null,
+      "rejected_response": null,
+      "command": "claude",
+      "at": "2026-08-08T18:18:55+00:00"
+    },
+    {
+      "batch": 23,
+      "status": "ok",
+      "seconds": 1328.0,
+      "n_records": 25,
+      "n_soft_flags": 0,
+      "error": null,
+      "rejected_response": null,
+      "command": "claude",
+      "at": "2026-08-08T18:41:05+00:00"
+    },
+    {
+      "batch": 24,
+      "status": "ok",
+      "seconds": 678.0,
+      "n_records": 25,
+      "n_soft_flags": 0,
+      "error": null,
+      "rejected_response": null,
+      "command": "claude",
+      "at": "2026-08-08T18:52:25+00:00"
+    }
+  ]
+}
