@@ -6,9 +6,9 @@
 sentimentalization literature is preserved as context and never pooled — see "Phenomenon scope".
 **Ticket:** TICK-064
 **Status:** **DRAFT** (Shravan, 2026-08-08). Six boundary walls specified, three scope calls raised
-with recommendations (§ "Scope calls"). Anchors not yet sourced. Not yet frozen; walls freeze after the
-PI answers Call 1 and Call 2, or after a decision to proceed on the recommendations. Anchor sourcing
-(A3) is **not** blocked by the freeze.
+with recommendations (§ "Scope calls"); proceeding on the recommendations pending PI confirmation.
+**A3 anchors sourced and dual-gated** — 23 candidates, 20 with verified live DOIs, 3 monographs
+recorded as unreachable (`{slug}-cold-start-anchors-log.md`). Walls not yet frozen. Ready for A4.
 
 Built on the D.3.b (`climate-anxiety-eco-doomerism`) template, which is the run this chapter mirrors.
 Two lessons from that run are carried forward as design constraints rather than discovered again:

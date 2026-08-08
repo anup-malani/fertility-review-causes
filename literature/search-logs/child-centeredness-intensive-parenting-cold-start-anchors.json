@@ -1,0 +1,797 @@
+[
+  {
+    "title": "Ready for Parenthood? On Intensive Parenting Ideals and Fertility",
+    "authors": [
+      "Kerstin Ruckdeschel"
+    ],
+    "year": 2024,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "PRIMARY_NORM_EXPOSURE",
+    "query_cluster_family": "norm-exposure",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Journal of Family Issues. The single closest paper to this chapter's estimand found in the live pass: intensive-parenting IDEALS on the right-hand side, fertility on the left.",
+    "doi": "10.1177/0192513x241227872",
+    "identity_source": "https://doi.org/10.1177/0192513x241227872",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "author_match": true,
+    "container": "Journal of Family Issues",
+    "record_type": "journal-article",
+    "n_title_passing": 1,
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Do Socioeconomic Differences in Family Size Reflect Cultural Differences in Confidence and Support for Parenting?",
+    "authors": [
+      "Lareen A. Newman"
+    ],
+    "year": 2009,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "PRIMARY_NORM_EXPOSURE",
+    "query_cluster_family": "norm-exposure",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Population Research and Policy Review 28. Asks whether the class gradient in family size runs through parenting norms rather than through prices, which is Wall 3 and Wall 2 in one design.",
+    "doi": "10.1007/s11113-008-9124-3",
+    "identity_source": "https://doi.org/10.1007/s11113-008-9124-3",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 0.929,
+    "author_match": true,
+    "container": "Population Research and Policy Review",
+    "record_type": "journal-article",
+    "n_title_passing": 1,
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "How much do norms matter for quantity and quality of children?",
+    "authors": [
+      "Zainab Iftikhar"
+    ],
+    "year": 2025,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "COST_INDEPENDENCE",
+    "query_cluster_family": "norm-exposure",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "World Development. THE value-added-cell candidate: races norms against the Q-Q mechanism on the same data, which is exactly the Wall 1 separation the scope doc predicted would be rare. If COST_INDEPENDENCE is non-empty, it starts here.",
+    "doi": "10.1016/j.worlddev.2025.107079",
+    "identity_source": "https://doi.org/10.1016/j.worlddev.2025.107079",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "author_match": true,
+    "container": "World Development",
+    "record_type": "journal-article",
+    "n_title_passing": 1,
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Intensive Parenting: Fertility and Breastfeeding Duration in the United States",
+    "authors": [
+      "Vida Maralani",
+      "Samuel Stabler"
+    ],
+    "year": 2018,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "PRIMARY_TIME_INTENSITY",
+    "query_cluster_family": "time-intensity",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Demography 55. Title-level match to the hypothesis. Direction must be checked at extraction: this may well be a REVERSE design (fertility -> intensity), and it is carried partly BECAUSE it tests whether the screen can tell the two apart.",
+    "doi": "10.1007/s13524-018-0710-7",
+    "identity_source": "https://doi.org/10.1007/s13524-018-0710-7",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "author_match": true,
+    "container": "Demography",
+    "record_type": "journal-article",
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1007/s13524-018-0710-7",
+        "type": "article",
+        "year": 2018,
+        "container": "Demography",
+        "score": 50,
+        "author_match": true
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "The Time Cost of Raising Children in Different Fertility Contexts: Evidence from France and Italy",
+    "authors": [
+      "Anne Solaz",
+      "Maria Letizia Tanturri"
+    ],
+    "year": 2018,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "PRIMARY_TIME_INTENSITY",
+    "query_cluster_family": "time-intensity",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "European Journal of Population 34. Time cost per child across two fertility regimes \u2014 the cleanest available separation of the time-quantity channel from the wage channel (Wall 4).",
+    "doi": "10.1007/s10680-018-9470-8",
+    "identity_source": "https://doi.org/10.1007/s10680-018-9470-8",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "author_match": true,
+    "container": "European Journal of Population",
+    "record_type": "journal-article",
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1007/s10680-018-9470-8",
+        "type": "article",
+        "year": 2018,
+        "container": "European Journal of Population / Revue europ\u00e9enne de D\u00e9mographie",
+        "score": 50,
+        "author_match": true
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Costly children: the motivations for parental investment in children in a low fertility context",
+    "authors": [
+      "Anne H. Gauthier",
+      "Petra W. de Jong"
+    ],
+    "year": 2021,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "PRIMARY_PERCEIVED_STANDARD",
+    "query_cluster_family": "perceived-standard",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Genus 77. Open access. Motivations for investment in a low-fertility setting; the standard is the object of measurement rather than an inferred residual.",
+    "doi": "10.1186/s41118-020-00111-5",
+    "identity_source": "https://doi.org/10.1186/s41118-020-00111-5",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "author_match": true,
+    "container": "Genus",
+    "record_type": "journal-article",
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1186/s41118-020-00111-5",
+        "type": "article",
+        "year": 2021,
+        "container": "Genus",
+        "score": 50,
+        "author_match": true
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "The good parent: Emerging themes and gender convergence in narrating fertility choices",
+    "authors": [
+      "Alessandra Minello",
+      "Concetta Russo"
+    ],
+    "year": 2025,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "PRIMARY_PERCEIVED_STANDARD",
+    "query_cluster_family": "perceived-standard",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Family Relations. Qualitative; respondents narrate fertility choice in terms of what a good parent owes a child. Outcome level will be STATED_INTENTION_OR_ATTITUDE.",
+    "doi": "10.1111/fare.13185",
+    "identity_source": "https://doi.org/10.1111/fare.13185",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "author_match": true,
+    "container": "Family Relations",
+    "record_type": "journal-article",
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1111/fare.13185",
+        "type": "article",
+        "year": 2025,
+        "container": "Family Relations",
+        "score": 50,
+        "author_match": true
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "The Cultural Contradictions of Motherhood",
+    "authors": [
+      "Sharon Hays"
+    ],
+    "year": 1996,
+    "provenance_channel": "hypothesis_canon",
+    "provisional_cell": "PARENTING_NORM_THEORY",
+    "query_cluster_family": "theory-canon",
+    "is_book": true,
+    "expect_no_doi": true,
+    "source_note": "Yale University Press. The founding statement of intensive mothering as an ideology. UNREACHABLE: both indexes return only REVIEWS \u2014 six at Jaccard 1.00 in OpenAlex (Contemporary Sociology, Social Forces, Choice, PDR, JMF, J Clin Psychiatry) and zero book-shaped Crossref records. Carried keyed on title.",
+    "doi": null,
+    "identity_verified": false,
+    "match_jaccard": 1.0,
+    "author_match": true,
+    "crossref_best": {
+      "doi": "10.2307/2655113",
+      "title": "The Cultural Contradictions of Motherhood",
+      "jaccard": 1.0,
+      "year": 1997,
+      "author_match": true,
+      "is_fallback": true
+    },
+    "gold_status": "unverified_no_doi_match",
+    "note": "Book or monograph reachable only as reviews of itself; expected index miss. Carried keyed on title, not faked."
+  },
+  {
+    "title": "Unequal Childhoods: Class, Race, and Family Life",
+    "authors": [
+      "Annette Lareau"
+    ],
+    "year": 2003,
+    "provenance_channel": "hypothesis_canon",
+    "provisional_cell": "PARENTING_NORM_THEORY",
+    "query_cluster_family": "theory-canon",
+    "is_book": true,
+    "expect_no_doi": false,
+    "source_note": "University of California Press; concerted cultivation. REACHABLE but only via the short-title + author path: the true record scores Jaccard 0.29, tied with Penn 2005's different book of the same name. This anchor is the reason `_author_match` is a gate.",
+    "doi": "10.1525/9780520949904",
+    "identity_source": "https://doi.org/10.1525/9780520949904",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "author_match": true,
+    "container": "",
+    "record_type": "edited-book",
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.4324/9780203465349",
+        "type": "book",
+        "year": 2005,
+        "container": "",
+        "score": 18,
+        "author_match": false
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Love, Money, and Parenting: How Economics Explains the Way We Raise Our Kids",
+    "authors": [
+      "Matthias Doepke",
+      "Fabrizio Zilibotti"
+    ],
+    "year": 2019,
+    "provenance_channel": "hypothesis_canon",
+    "provisional_cell": "PARENTING_NORM_THEORY",
+    "query_cluster_family": "theory-canon",
+    "is_book": true,
+    "expect_no_doi": false,
+    "source_note": "Princeton University Press. Two records for one book \u2014 10.1515/9780691184210 (2018 edited-book deposit) and 10.2307/j.ctvc77fr1 (2019 monograph); the 2019 monograph is the VoR. Short-title Jaccard 0.31. Three separate review records also exist.",
+    "doi": "10.2307/j.ctvc77fr1",
+    "identity_source": "https://doi.org/10.2307/j.ctvc77fr1",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 0.308,
+    "author_match": true,
+    "container": "",
+    "record_type": "monograph",
+    "n_title_passing": 7,
+    "rejected_versions": [
+      {
+        "doi": "10.2307/j.ctvc77fr1",
+        "type": "monograph",
+        "year": 2019,
+        "container": "",
+        "score": 127,
+        "author_match": true
+      },
+      {
+        "doi": "10.1515/9780691184210",
+        "type": "edited-book",
+        "year": 2018,
+        "container": "",
+        "score": 122,
+        "author_match": true
+      },
+      {
+        "doi": "10.1515/9780691184210",
+        "type": "edited-book",
+        "year": 2018,
+        "container": "",
+        "score": 122,
+        "author_match": true
+      },
+      {
+        "doi": "10.4324/9781003050094",
+        "type": "book",
+        "year": 2021,
+        "container": "",
+        "score": 18,
+        "author_match": false
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen",
+    "resolution_path": "book_short_title_author_gated"
+  },
+  {
+    "title": "Parenting With Style: Altruism and Paternalism in Intergenerational Preference Transmission",
+    "authors": [
+      "Matthias Doepke",
+      "Fabrizio Zilibotti"
+    ],
+    "year": 2017,
+    "provenance_channel": "hypothesis_canon",
+    "provisional_cell": "PARENTING_NORM_THEORY",
+    "query_cluster_family": "theory-canon",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Econometrica 85. The formal model behind the book. FOUR non-VoR records share this title at Jaccard 1.00 (NBER w20214, three SSRN deposits); the Econometrica record is the anchor. A pure argmax resolver picks among these five at random.",
+    "doi": "10.3982/ecta14634",
+    "identity_source": "https://doi.org/10.3982/ecta14634",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "author_match": true,
+    "container": "Econometrica",
+    "record_type": "journal-article",
+    "n_title_passing": 10,
+    "rejected_versions": [
+      {
+        "doi": "10.2139/ssrn.2464142",
+        "type": "journal-article",
+        "year": 2014,
+        "container": "SSRN Electronic Journal",
+        "score": 83,
+        "author_match": true
+      },
+      {
+        "doi": "10.2139/ssrn.2199791",
+        "type": "journal-article",
+        "year": 2013,
+        "container": "SSRN Electronic Journal",
+        "score": 79,
+        "author_match": true
+      },
+      {
+        "doi": "10.2139/ssrn.2197917",
+        "type": "journal-article",
+        "year": 2012,
+        "container": "SSRN Electronic Journal",
+        "score": 75,
+        "author_match": true
+      },
+      {
+        "doi": "10.3982/ecta14634",
+        "type": "article",
+        "year": 2017,
+        "container": "Econometrica",
+        "score": 50,
+        "author_match": true
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Social Class, Gender, and Contemporary Parenting Standards in the United States",
+    "authors": [
+      "Patrick Ishizuka"
+    ],
+    "year": 2019,
+    "provenance_channel": "hypothesis_canon",
+    "provisional_cell": "PARENTING_NORM_CONSTRUCT",
+    "query_cluster_family": "theory-canon",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Social Forces 98. Survey-experimental measurement of the parenting STANDARD itself. Indexed under publication_year 2018 (online-first), so this anchor exercises the year-tolerance path deliberately.",
+    "doi": "10.1093/sf/soy107",
+    "identity_source": "https://doi.org/10.1093/sf/soy107",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 0.647,
+    "author_match": true,
+    "container": "Social Forces",
+    "record_type": "journal-article",
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1093/sf/soy107",
+        "type": "article",
+        "year": 2018,
+        "container": "Social Forces",
+        "score": 46,
+        "author_match": true
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "The Rug Rat Race",
+    "authors": [
+      "Garey Ramey",
+      "Valerie A. Ramey"
+    ],
+    "year": 2010,
+    "provenance_channel": "hypothesis_canon",
+    "provisional_cell": "PARENTING_NORM_CONSTRUCT",
+    "query_cluster_family": "theory-canon",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Brookings Papers on Economic Activity. The time-use documentation of rising childcare time concentrated among the college-educated. SEVEN competing records at Jaccard 1.00 (NBER w15284, SSRN, four RePEc); the Brookings article is the VoR.",
+    "doi": "10.1353/eca.2010.0003",
+    "identity_source": "https://doi.org/10.1353/eca.2010.0003",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "author_match": true,
+    "container": "Brookings Papers on Economic Activity",
+    "record_type": "journal-article",
+    "n_title_passing": 4,
+    "rejected_versions": [
+      {
+        "doi": "10.1353/eca.2010.0003",
+        "type": "article",
+        "year": 2010,
+        "container": "Brookings Papers on Economic Activity",
+        "score": 50,
+        "author_match": true
+      },
+      {
+        "doi": "10.3386/w15284",
+        "type": "report",
+        "year": 2009,
+        "container": "National Bureau of Economic Research",
+        "score": 21,
+        "author_match": true
+      },
+      {
+        "doi": "10.3386/w15284",
+        "type": "report",
+        "year": 2009,
+        "container": "",
+        "score": 16,
+        "author_match": true
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "\u201cIf I\u2019m Going to Do It, I\u2019m Going to Do It Right\u201d: Intensive Mothering Ideologies among Childless Women",
+    "authors": [
+      "Kit Myers"
+    ],
+    "year": 2017,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "PARENTING_NORM_CONSTRUCT",
+    "query_cluster_family": "theory-canon",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Gender & Society 31. Intensive-mothering ideology among CHILDLESS women, which is the rare design where the norm cannot be a post-hoc rationalization of realized parity \u2014 directly relevant to the reverse-causation caution.",
+    "doi": "10.1177/0891243217732329",
+    "identity_source": "https://doi.org/10.1177/0891243217732329",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 0.778,
+    "author_match": true,
+    "container": "Gender &amp; Society",
+    "record_type": "journal-article",
+    "n_title_passing": 1,
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Pricing the Priceless Child: The Changing Social Value of Children",
+    "authors": [
+      "Viviana A. Zelizer"
+    ],
+    "year": 1985,
+    "provenance_channel": "hypothesis_canon",
+    "provisional_cell": "FDT_SENTIMENTALIZATION_CONTEXT",
+    "query_cluster_family": "fdt-context",
+    "is_book": true,
+    "expect_no_doi": true,
+    "source_note": "Basic Books / Princeton. The 1870-1930 revaluation of the child from economically useful to emotionally priceless. UNREACHABLE: six review records at Jaccard 1.00 and no monograph. Also attracts two FALSE short-title matches \u2014 'Pricing the Priceless' by Newhouse (MIT 2002) and by Banzhaf (CUP 2023) \u2014 which only the author gate rejects.",
+    "doi": null,
+    "identity_verified": false,
+    "match_jaccard": 0.75,
+    "author_match": false,
+    "crossref_best": {
+      "doi": "10.7551/mitpress/5534.001.0001",
+      "title": "Pricing the Priceless",
+      "jaccard": 0.75,
+      "year": 2002,
+      "author_match": false,
+      "is_fallback": false
+    },
+    "gold_status": "unverified_no_doi_match",
+    "rejected_reason": "Best near-miss is a different work sharing the title: author surnames do not overlap.",
+    "note": "Book or monograph reachable only as reviews of itself; expected index miss. Carried keyed on title, not faked."
+  },
+  {
+    "title": "Centuries of Childhood: A Social History of Family Life",
+    "authors": [
+      "Philippe Ari\u00e8s"
+    ],
+    "year": 1962,
+    "provenance_channel": "hypothesis_canon",
+    "provisional_cell": "FDT_SENTIMENTALIZATION_CONTEXT",
+    "query_cluster_family": "fdt-context",
+    "is_book": true,
+    "expect_no_doi": true,
+    "source_note": "Knopf. The invention-of-childhood thesis. UNREACHABLE: reviews only, plus a 2018 Macat study-guide ABOUT the book (10.4324/9781912281305) that a naive resolver would take.",
+    "doi": null,
+    "identity_verified": false,
+    "match_jaccard": 1.0,
+    "author_match": null,
+    "crossref_best": {
+      "doi": "10.4324/9781912281305",
+      "title": "Centuries of Childhood",
+      "jaccard": 1.0,
+      "year": 2018,
+      "author_match": null,
+      "is_fallback": false
+    },
+    "gold_status": "unverified_no_doi_match",
+    "note": "Book or monograph reachable only as reviews of itself; expected index miss. Carried keyed on title, not faked."
+  },
+  {
+    "title": "On the Interaction between the Quantity and Quality of Children",
+    "authors": [
+      "Gary S. Becker",
+      "H. Gregg Lewis"
+    ],
+    "year": 1973,
+    "provenance_channel": "routing_decoy_C3d_wall1",
+    "provisional_cell": "OFF_QQ_C3d",
+    "query_cluster_family": "ROUTING_DECOY",
+    "is_book": false,
+    "expect_no_doi": false,
+    "routing_note": "Wall 1. The founding Q-Q statement. Operative variable is the shadow price of quality, not a norm. Routes to C.3.d \u2014 and it is the decoy most likely to be wrongly admitted, because every D.2.d paper cites it.",
+    "doi": "10.1086/260166",
+    "identity_source": "https://doi.org/10.1086/260166",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "author_match": true,
+    "container": "Journal of Political Economy",
+    "record_type": "journal-article",
+    "n_title_passing": 5,
+    "rejected_versions": [
+      {
+        "doi": "10.1086/260166",
+        "type": "article",
+        "year": 1973,
+        "container": "Journal of Political Economy",
+        "score": 50,
+        "author_match": true
+      },
+      {
+        "doi": "10.2307/4135308",
+        "type": "journal-article",
+        "year": 2004,
+        "container": "Southern Economic Journal",
+        "score": -5,
+        "author_match": false
+      },
+      {
+        "doi": "10.1002/j.2325-8012.2004.tb00621.x",
+        "type": "journal-article",
+        "year": 2004,
+        "container": "Southern Economic Journal",
+        "score": -5,
+        "author_match": false
+      },
+      {
+        "doi": "10.2307/4135308",
+        "type": "article",
+        "year": 2004,
+        "container": "Southern Economic Journal",
+        "score": -95,
+        "author_match": false
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Why did rich families increase their fertility? Inequality and marketization of child care",
+    "authors": [
+      "Moshe Hazan",
+      "Hosny Zoabi"
+    ],
+    "year": 2018,
+    "provenance_channel": "routing_decoy_C2f_wall2",
+    "provisional_cell": "OFF_INEQUALITY_C2f",
+    "query_cluster_family": "ROUTING_DECOY",
+    "is_book": false,
+    "expect_no_doi": false,
+    "routing_note": "Wall 2. Identifies off inequality and the price of marketized childcare. Its narrative is entirely about parenting intensity, which is precisely why it routes to C.2.f and not here. The Call-2 rule in operation.",
+    "doi": "10.1007/s10887-018-9160-8",
+    "identity_source": "https://doi.org/10.1007/s10887-018-9160-8",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "author_match": true,
+    "container": "Journal of Economic Growth",
+    "record_type": "journal-article",
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.20955/wp.2018.022",
+        "type": "report",
+        "year": 2018,
+        "container": "",
+        "score": 65,
+        "author_match": true
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Parenting on a budget",
+    "authors": [
+      "Severin Rapp",
+      "Olivier Th\u00e9venon"
+    ],
+    "year": 2025,
+    "provenance_channel": "routing_decoy_C2b_wall3",
+    "provisional_cell": "OFF_DIRECT_COST_C2b",
+    "query_cluster_family": "ROUTING_DECOY",
+    "is_book": false,
+    "expect_no_doi": false,
+    "routing_note": "Wall 3. A money aggregate \u2014 expenditure per child \u2014 with no norm measured. Routes to C.2.b however intensive-parenting-flavored the framing.",
+    "doi": "10.1787/bd0b594e-en",
+    "identity_source": "https://doi.org/10.1787/bd0b594e-en",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "author_match": true,
+    "container": "OECD Papers on Well-being and Inequalities",
+    "record_type": "report",
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1787/bd0b594e-en",
+        "type": "report",
+        "year": 2025,
+        "container": "OECD papers on well-being and inequalities",
+        "score": 70,
+        "author_match": true
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Completed Fertility and its Timing: An Economic Analysis of U.S. Experience Since World War II",
+    "authors": [
+      "William P. Butz",
+      "Michael P. Ward"
+    ],
+    "year": 1979,
+    "provenance_channel": "routing_decoy_C2e_wall4",
+    "provisional_cell": "OFF_TIMECOST_C2e",
+    "query_cluster_family": "ROUTING_DECOY",
+    "is_book": false,
+    "expect_no_doi": false,
+    "routing_note": "Wall 4. The price of the mother's time, not the quantity the norm demands. Routes to C.2.e.",
+    "doi": "10.2307/1971848",
+    "identity_source": "https://doi.org/10.2307/1971848",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "author_match": true,
+    "container": "Population and Development Review",
+    "record_type": "journal-article",
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.2307/1971848",
+        "type": "article",
+        "year": 1979,
+        "container": "Population and Development Review",
+        "score": 50,
+        "author_match": true
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Home Alone: Exploring Childcare Options to Remove Barriers to Second Childbearing",
+    "authors": [
+      "Kamila Ishchanova"
+    ],
+    "year": 2022,
+    "provenance_channel": "routing_decoy_C2a_wall5",
+    "provisional_cell": "OFF_CHILDCARE_C2a",
+    "query_cluster_family": "ROUTING_DECOY",
+    "is_book": false,
+    "expect_no_doi": false,
+    "routing_note": "Wall 5. Childcare supply and options as the intervention. Routes to C.2.a. Distinguished from D.2.d's claim that the norm makes parental care non-substitutable, which is a belief and not a supply curve.",
+    "doi": "10.17645/si.v10i3.5223",
+    "identity_source": "https://doi.org/10.17645/si.v10i3.5223",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 0.833,
+    "author_match": true,
+    "container": "Social Inclusion",
+    "record_type": "journal-article",
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.17645/si.v10i3.5223",
+        "type": "article",
+        "year": 2022,
+        "container": "Social Inclusion",
+        "score": 50,
+        "author_match": true
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Women\u2019s housework decreases fertility",
+    "authors": [
+      "Anneli Miettinen",
+      "Lassi Lainiala",
+      "Anna Rotkirch"
+    ],
+    "year": 2015,
+    "provenance_channel": "routing_decoy_D2a_wall6",
+    "provisional_cell": "OFF_GENDER_D2a",
+    "query_cluster_family": "ROUTING_DECOY",
+    "is_book": false,
+    "expect_no_doi": false,
+    "routing_note": "Wall 6. The division of domestic labour BETWEEN partners, not the level of care a child is owed. Routes to D.2.a.",
+    "doi": "10.1177/0001699315572028",
+    "identity_source": "https://doi.org/10.1177/0001699315572028",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "author_match": true,
+    "container": "Acta Sociologica",
+    "record_type": "journal-article",
+    "n_title_passing": 1,
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Trade-offs in modern parenting: a longitudinal study of sibling competition for parental care",
+    "authors": [
+      "David W. Lawson",
+      "Ruth Mace"
+    ],
+    "year": 2009,
+    "provenance_channel": "routing_decoy_reverse",
+    "provisional_cell": "REVERSE",
+    "query_cluster_family": "ROUTING_DECOY",
+    "is_book": false,
+    "expect_no_doi": false,
+    "routing_note": "The reverse-causation decoy, and the most important one in the set. Parity DRIVES investment per child here \u2014 the arithmetic identity the scope doc names as the first-order threat. A screen that admits this as PRIMARY_TIME_INTENSITY has inverted the hypothesis.",
+    "doi": "10.1016/j.evolhumbehav.2008.12.001",
+    "identity_source": "https://doi.org/10.1016/j.evolhumbehav.2008.12.001",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "author_match": true,
+    "container": "Evolution and Human Behavior",
+    "record_type": "journal-article",
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1016/j.evolhumbehav.2008.12.001",
+        "type": "article",
+        "year": 2009,
+        "container": "Evolution and Human Behavior",
+        "score": 50,
+        "author_match": true
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  }
+]

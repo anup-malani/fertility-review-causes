@@ -55,3 +55,56 @@ Built on the D.3.b template, per PI-adjacent instruction to mirror that run.
 
 Anchor sourcing (A3) is not blocked by the freeze. Script numbering starts at 103 (88 is the highest
 on `main`; D.1.b holds 95-102 on an unmerged branch).
+
+**2026-08-08 (Shravan) — A3 anchors sourced and dual-gated.**
+`source/build/goldset/103_d2d_cold_start_anchors.py` → 23 candidates, **20 verified live DOIs, 0
+flagged, 3 monographs recorded unreachable**. Cells cover 4 empirical families (incl. one
+`COST_INDEPENDENCE` candidate), the theory canon, the FDT context stream, and 7 routing decoys —
+one per wall plus the reverse-causation decoy.
+
+Proceeding on the Call 1 and Call 2 recommendations as instructed; PI confirmation still outstanding.
+
+**The version-of-record problem is the DEFAULT for this canon, not a minority case.** D.2.d's core
+sources are monographs, and the indexes return their *reviews*. Hays 1996 produces six review records
+at Jaccard 1.00 and no monograph; Zelizer 1985 and Ariès 1962 the same. The first run of 103 resolved
+all three to wrong records with full confidence — a book review, an unrelated MIT Press book, and a
+Macat study guide *about* the book.
+
+Three defects found in machinery inherited from `95_d1b`, each fixed and each independently load-bearing:
+
+1. **`fallback` was a diagnostic being read as an answer.** When no candidate passes the gates the
+   resolver returns the best-Jaccard row "so the caller can report the near-miss", but `main()`
+   treated any dict carrying a DOI as a match. Hays's review is a perfect-title, one-year-off
+   near-miss and was accepted as the monograph. Now flagged `is_fallback` and refused.
+2. **The `year_drift` path took no author signal at all.** That is how Zelizer acquired Newhouse's
+   *Pricing the Priceless* (MIT 2002) and Ariès a 2018 study guide.
+3. **The book short-title probe could clear the ordinary Jaccard bar.** "Pricing the Priceless Child"
+   vs "Pricing the Priceless" scores 0.75, above `TITLE_JACCARD_MIN`, so the author gate never ran.
+   Book anchors now require a positive author match at any Jaccard.
+
+**New capability: `_author_match`, three-state.** D.1.b has no author signal. Two
+same-title-different-book collisions in a four-book canon are resolvable *only* by author — Lareau
+2003's true UC Press record and Penn 2005's different book of the same name both score 0.29. The
+lowered book title floor (0.25) is safe only because the author gate carries the discrimination.
+Lareau and Doepke-Zilibotti are reachable **only** via this path; D.1.b's resolver would record both
+as absent.
+
+Note the two defenses are genuinely independent and neither is redundant: for Hays the author check
+*passes* (the review credits Hays) and only the fallback flag rejects it; for Zelizer the fallback
+flag never fires and only the author check rejects it.
+
+**Also fixed: cache keys did not cover all inputs.** Authors became an input when `_author_match`
+became a gate, so corrected author lists silently returned verdicts computed from the wrong ones —
+four anchors kept reporting `author_match=False` after their names were fixed. Keys now include
+author surnames and carry a semantic-version suffix.
+
+**Own-process note:** four candidate author lists were asserted from memory and *all four were
+wrong* (Rotkirch was attached to "Costly children"; she is actually on the housework decoy). The
+script's own no-memory rule caught them via `auth=False`. Authors are now sourced from Crossref like
+every other field.
+
+**Substantive finding, before any screening spend:** `"intensive parenting" AND fertility` returns
+**17 records in all of OpenAlex**; `"concerted cultivation" AND fertility` returns 3. The scope doc's
+predicted thinness is confirmed in the index. `10.1016/j.worlddev.2025.107079` (World Development
+2025, "How much do norms matter for quantity and quality of children?") is the strongest
+`COST_INDEPENDENCE` candidate found and may be close to the only one.
