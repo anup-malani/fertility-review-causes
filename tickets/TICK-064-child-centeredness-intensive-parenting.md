@@ -108,3 +108,37 @@ every other field.
 predicted thinness is confirmed in the index. `10.1016/j.worlddev.2025.107079` (World Development
 2025, "How much do norms matter for quantity and quality of children?") is the strongest
 `COST_INDEPENDENCE` candidate found and may be close to the only one.
+
+**2026-08-08 (Shravan) — A4 frame builder written, BLOCKED, not run.**
+`source/build/goldset/104_d2d_tier_ab_frame.py`. Mirrors `96_d1b_tier_ab_frame.py`. **No Tier A or
+Tier B output exists yet** — the run aborts for want of an OpenAlex key and writes nothing.
+
+**Blocker: `.env` was deleted during the key rotation and the new key is nowhere the scripts look**
+(not in `.env`, not in the shell environment). The shared anonymous budget is exhausted
+(`$0 remaining, resets at midnight UTC`). Drop the rotated key into `.env` — now gitignored — and
+re-run; cached responses are reused so the run resumes rather than restarting.
+
+**New guard: hard stop on budget exhaustion.** OpenAlex answers an out-of-budget request with HTTP
+200 and a JSON error body. The inherited `get_json` refuses to cache it and `main()` records the
+anchor as deferred — correct for a transient fault, wrong for this one, because a budget error
+persists for hours (retryAfter ~26,000s observed). Every anchor would defer in turn and the run
+would finish "successfully" with a near-empty Tier B. `BudgetExhausted` now aborts on first
+occurrence and writes nothing.
+
+This was not hypothetical. While preparing A4, a keyless probe of the three monograph titles returned
+budget errors that the calling script rendered as "(no results)", and **Hays, Lareau and Zelizer were
+nearly recorded as absent from OpenAlex when the query had never run** — the UNCONFIRMED-vs-ABSENT
+confusion, reappearing one layer up in the caller rather than in the resolver. Caught by re-verifying.
+
+**Known loss to carry into the log:** Hays 1996, Zelizer 1985 and Ariès 1962 have no DOI (A3) and the
+book-shape rule refuses to resolve them by title, because a monograph's top title match is its own
+review and a review's reference list and citation cloud are not the book's. Three of the four central
+theory anchors therefore seed no part of Tier B. Lareau and Doepke-Zilibotti do resolve, via the DOIs
+the A3 author gate recovered.
+
+**Forward-seed policy loosened relative to D.1.b** (12 pages, cap 1,000 vs 10/600). Different reason,
+not carelessness: Caldwell's forward cloud is all of demography, whereas Lareau and Doepke-Zilibotti
+are cited *by* the intensive-parenting literature, so forward citation is doing most of the discovery
+work here — the estimand-level query reaches only 17 records in the whole index. Against that, the
+predicted `OFF_OUTCOME` flood lives in exactly those clouds, so the cap is loosened rather than
+removed, and every excluded seed is logged with its count.
