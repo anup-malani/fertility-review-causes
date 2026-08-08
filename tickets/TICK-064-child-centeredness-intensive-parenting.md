@@ -1,5 +1,5 @@
 # TICK-064: D.2.d Child-Centered Intensive Parenting Norms
-**Status:** open
+**Status:** in-progress
 **Assigned:** Shravan
 **Hypothesis:** `child-centeredness-intensive-parenting` — HYPOTHESES-v5.md §D.2.d
 **Parallel-safe:** yes
