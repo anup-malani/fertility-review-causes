@@ -24,38 +24,38 @@ OpenAlex auth: api_key present.
 
 ## Tier B (citation frame)
 
-- deduplicated candidates: **1,772**
-- found by both channels: 14
-- with usable abstracts: 1,265
+- deduplicated candidates: **2,677**
+- found by both channels: 20
+- with usable abstracts: 1,881
 - duplicates merged: 10
-- forward pages requested/cached: 14
+- forward pages requested/cached: 23
 - seeds hitting the 12-page cap: 0
 
 ### Forward-seed policy (transparency)
 
-Forward-cited anchors (12):
+Forward-cited anchors (19):
+- OK On the Interaction between the Quantity and Quality of Child (cb=506)
 - OK Parenting With Style: Altruism and Paternalism in Intergener (cb=347)
 - OK Social Class, Gender, and Contemporary Parenting Standards i (cb=288)
+- OK Trade-offs in modern parenting: a longitudinal study of sibl (cb=198)
 - OK The Rug Rat Race (cb=188)
+- OK Why did rich families increase their fertility? Inequality a (cb=178)
 - OK Love, Money, and Parenting (cb=64)
 - OK Costly children: the motivations for parental investment in  (cb=45)
 - OK The Time Cost of Raising Children in Different Fertility Con (cb=43)
 - OK “If I’m Going to Do It, I’m Going to Do It Right”: Intensive (cb=40)
+- OK Women’s housework decreases fertility (cb=40)
 - OK Do Socioeconomic Differences in Family Size Reflect Cultural (cb=17)
+- OK Completed Fertility and its Timing: An Economic Analysis of  (cb=13)
 - OK Intensive Parenting: Fertility and Breastfeeding Duration in (cb=11)
 - OK Ready for Parenthood? On Intensive Parenting Ideals and Fert (cb=5)
 - OK How much do norms matter for quantity and quality of childre (cb=4)
+- OK Home Alone: Exploring Childcare Options to Remove Barriers t (cb=3)
+- OK Parenting on a budget (cb=2)
 - OK The good parent: Emerging themes and gender convergence in n (cb=1)
 
-Forward-EXCLUDED anchors (8) — backward refs still used:
-- XX Unequal Childhoods (cb=2172, theory_cloud>cap)
-- XX On the Interaction between the Quantity and Quality of  (cb=506, routing_decoy)
-- XX Trade-offs in modern parenting: a longitudinal study of (cb=198, routing_decoy)
-- XX Why did rich families increase their fertility? Inequal (cb=178, routing_decoy)
-- XX Women’s housework decreases fertility (cb=40, routing_decoy)
-- XX Completed Fertility and its Timing: An Economic Analysi (cb=13, routing_decoy)
-- XX Home Alone: Exploring Childcare Options to Remove Barri (cb=3, routing_decoy)
-- XX Parenting on a budget (cb=2, routing_decoy)
+Forward-EXCLUDED anchors (1) — backward refs still used:
+- XX Unequal Childhoods (cb=2172, cloud 2172 > cap 1000)
 
 ## Unresolved anchors
 

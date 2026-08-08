@@ -187,3 +187,35 @@ Not actioned — this changes the frame materially and is a methods call, not an
 Note what is *not* an option: filtering the forward fetch by fertility vocabulary would prune Tier B
 by distance from the production query and bias Recall(B). On-topic fraction is a seed-selection
 diagnostic only, never a filter on the frame.
+
+**2026-08-08 (Shravan) — A4 re-run with routing decoys forward-seeded.** Blanket decoy exclusion
+dropped; rule is now uniform (empirical seeds always forward-cite; every other seed forward-cites
+unless its cloud exceeds `FWD_CLOUD_CAP`). No decoy special case in either direction.
+
+Measured on-topic share of each decoy's citing works before changing anything — six of seven are far
+denser in on-topic material than the theory canon (1.1–13.9%):
+
+| decoy (wall) | citing | on-topic | % |
+|---|---|---|---|
+| Hazan & Zoabi (Wall 2, C.2.f) | 178 | 157 | **88.2%** |
+| Miettinen et al. (Wall 6, D.2.a) | 36 | 31 | **86.1%** |
+| Ishchanova (Wall 5, C.2.a) | 3 | 2 | 66.7% |
+| Becker & Lewis (Wall 1, C.3.d) | 505 | 256 | 50.7% |
+| Butz & Ward (Wall 4, C.2.e) | 13 | 6 | 46.2% |
+| Lawson & Mace (REVERSE) | 197 | 58 | 29.4% |
+| OECD (Wall 3, C.2.b) | 2 | 0 | 0.0% |
+
+Not an accident of this anchor set: a decoy is *chosen* to sit just across a boundary wall, so its
+citation neighbourhood is where the boundary cases live — and boundary cases are what the six walls
+exist to adjudicate. The inherited rule left Tier B systematically thin in the papers hardest to route.
+
+**Result:** Tier B **1,772 → 2,677**; forward-seeded anchors 12 → 19; both-channel 14 → 20; usable
+abstracts 1,265 → 1,881; forward pages 14 → 23. Lareau is now the only forward-excluded anchor.
+**1,090 records (41% of the frame) depend on a decoy seed** by one channel or the other — that is
+the set to toggle for the Recall(B) sensitivity check, and `seed_ids` provenance makes it a filter
+rather than a re-run.
+
+**Process note, second in a row:** I proposed seeding two decoys based on the two I had happened to
+measure. Measuring all seven showed the highest-yield one (Hazan & Zoabi, 88.2%) was not among them.
+Both forward-seed parameters on this chapter were first set by intuition and then corrected by a
+measurement that cost about a cent. Measure the seeds before setting the policy, not after.

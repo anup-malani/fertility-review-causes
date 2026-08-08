@@ -40,9 +40,9 @@ BOOK ANCHORS CONTRIBUTE NOTHING TO THE FRAME, AND THAT IS A REPORTED LOSS. Hays 
   `book_no_openalex_record`. The consequence — three of the four central theory anchors seed no part of
   Tier B — belongs in the log, not in a footnote.
 
-FORWARD-SEED POLICY. Forward-cite an anchor UNLESS it is a routing decoy OR (cited_by_count >
-  FWD_THEORY_CAP AND its cell is a theory/context cell). Parameters differ from D.1.b in both
-  directions and for a reason:
+FORWARD-SEED POLICY. Empirical seeds are always forward-cited. Every other anchor — theory, context,
+  and routing decoy alike — is forward-cited unless cited_by_count > FWD_CLOUD_CAP. Both halves of
+  that rule differ from D.1.b, and both changes are measured rather than assumed:
 
   The cap is 12 pages / 1,000 citations. It was set by loosening D.1.b's 10/600 on the argument that
   Lareau and Doepke-Zilibotti are cited BY the intensive-parenting literature, so their forward clouds
@@ -71,6 +71,31 @@ FORWARD-SEED POLICY. Forward-cite an anchor UNLESS it is a routing decoy OR (cit
   Excluded seeds are logged with their counts — a silent cap reads as "we covered everything" when it
   did not.
 
+DECOY FORWARD-SEEDING — the inherited blanket exclusion is dropped here, on measurement. D.3.b and
+  D.1.b never forward-cite a routing decoy, so that a decoy cannot import its neighbour's literature.
+  On this hypothesis that rule removed the best discovery channel available. Share of each decoy's
+  citing works mentioning fertility / family size / childbearing / number of children:
+
+      Hazan & Zoabi   (Wall 2, C.2.f)      178 citing   157 on-topic   88.2%
+      Miettinen et al (Wall 6, D.2.a)       36 citing    31 on-topic   86.1%
+      Ishchanova      (Wall 5, C.2.a)        3 citing     2 on-topic   66.7%
+      Becker & Lewis  (Wall 1, C.3.d)      505 citing   256 on-topic   50.7%
+      Butz & Ward     (Wall 4, C.2.e)       13 citing     6 on-topic   46.2%
+      Lawson & Mace   (REVERSE)            197 citing    58 on-topic   29.4%
+      OECD            (Wall 3, C.2.b)        2 citing     0 on-topic    0.0%
+
+  Six of seven are far denser in on-topic material than the theory canon (1.1-13.9%). That is not an
+  accident of this anchor set: a decoy is chosen to sit just across a boundary wall, so its citation
+  neighbourhood is exactly where the boundary cases live — and boundary cases are what the six walls
+  exist to adjudicate. Excluding them left Tier B systematically thin in the papers hardest to route.
+
+  Tier B is a frame to be SCREENED, not a gold set, and route-away material is expected in it. The
+  cost is ~934 records pre-dedup over 9 pages. `seed_ids` provenance is recorded per record, so
+  Recall(B) can be computed with and without decoy-seeded material as a sensitivity check — which is
+  what makes this reversible rather than a one-way inflation of the frame.
+
+  The rule is now uniform: there is no decoy special case in either direction.
+
 LEAKAGE WALL (carried from A3): no query vocabulary is mined here. This step only builds the frame.
 
 Budget discipline: every OpenAlex response cached; re-run resumes from cache.
@@ -97,7 +122,7 @@ SELECT = ("id,doi,title,publication_year,cited_by_count,authorships,primary_loca
 PER_PAGE = 200
 SLEEP = 0.35
 MAX_FORWARD_PAGES = 12          # graceful hard cap per seed (2,400 works)
-FWD_THEORY_CAP = 1000           # theory/context anchors above this are not forward-seeded
+FWD_CLOUD_CAP = 1000            # non-empirical anchors above this are not forward-seeded
 RESOLVE_SIM_MIN = 0.50
 
 # D.2.d carries TWO theory cells plus a context cell, where D.1.b had one. All three are
@@ -298,7 +323,11 @@ def main():
         is_decoy = a.get("query_cluster_family") == "ROUTING_DECOY"
         is_theory = cell in THEORY_CELLS
         cb = w.get("cited_by_count") or 0
-        fwd_eligible = (not is_decoy) and not (is_theory and cb > FWD_THEORY_CAP)
+        # Empirical seeds are always forward-cited: they are the recall set. Everything else —
+        # theory, context, AND routing decoys — is forward-cited unless its cloud exceeds the cap.
+        # See DECOY FORWARD-SEEDING in the docstring for why decoys are no longer blanket-excluded.
+        is_empirical = (cell in EMPIRICAL_CELLS) and not is_decoy
+        fwd_eligible = is_empirical or cb <= FWD_CLOUD_CAP
         resolved.append({"anchor": a, "openalex": flatten(w), "title_similarity": round(s, 4),
                          "referenced_works": w.get("referenced_works") or [],
                          "is_decoy": is_decoy, "is_theory": is_theory,
@@ -358,7 +387,7 @@ def main():
                 deferred.append(f"forward:{it['openalex']['title'][:40]}")
         else:
             fwd_excluded.append((it["openalex"]["title"], it["openalex"].get("cited_by_count"),
-                                 "routing_decoy" if it["is_decoy"] else "theory_cloud>cap"))
+                                 f"cloud {it['openalex'].get('cited_by_count')} > cap {FWD_CLOUD_CAP}"))
 
     anchor_ids = {it["openalex"]["paperId"] for it in resolved}
     by_doi, by_title, frame, dups = {}, {}, [], 0
