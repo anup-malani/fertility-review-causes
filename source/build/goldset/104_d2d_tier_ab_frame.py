@@ -44,18 +44,32 @@ FORWARD-SEED POLICY. Forward-cite an anchor UNLESS it is a routing decoy OR (cit
   FWD_THEORY_CAP AND its cell is a theory/context cell). Parameters differ from D.1.b in both
   directions and for a reason:
 
-  D.1.b capped hard (10 pages, 600) because Caldwell's forward cloud is all of demography and cites
-  him as throat-clearing. D.2.d's theory canon is different in kind: Lareau and Doepke-Zilibotti are
-  cited BY the intensive-parenting literature, so their forward clouds are on-topic and are the main
-  route to a corpus that the estimand-level query cannot reach — `"intensive parenting" AND fertility`
-  returns 17 records in the whole of OpenAlex (A3). Forward citation is doing most of the discovery
-  work here, not supplementing it.
+  The cap is 12 pages / 1,000 citations. It was set by loosening D.1.b's 10/600 on the argument that
+  Lareau and Doepke-Zilibotti are cited BY the intensive-parenting literature, so their forward clouds
+  would be on-topic and the main route to a corpus the estimand query cannot reach.
 
-  Against that, the scope doc predicts `OFF_OUTCOME` (parenting -> child development / maternal
-  wellbeing) will be the largest cell by a wide margin, and those clouds are where it lives. So the cap
-  is loosened rather than removed: 12 pages, cap 1,000. Excluded seeds are logged with their counts —
-  a silent cap reads as "we covered everything" when it did not. If a primary cell comes back thin,
-  raise the cap for that cell's seeds and re-run; do not accept the thinness.
+  THAT ARGUMENT WAS WRONG AND THE FIRST RUN MEASURED IT. Share of each seed's citing works that
+  mention fertility / family size / childbearing / number of children:
+
+      Lareau, Unequal Childhoods            2,169 citing     23 on-topic    1.1%
+      Doepke-Zilibotti, Parenting With Style   345 citing     12 on-topic    3.5%
+      Ishizuka, Parenting Standards            288 citing     18 on-topic    6.2%
+      Ramey & Ramey, The Rug Rat Race          187 citing     26 on-topic   13.9%
+
+  The theory canon's forward clouds are overwhelmingly OFF_OUTCOME — parenting to child development
+  and parental wellbeing — exactly as the scope doc predicted and contrary to the reasoning above. The
+  cap made the right call on Lareau for the wrong stated reason: it excluded 2,146 off-topic records
+  to lose 23 on-topic ones. D.1.b's tighter setting would have been defensible and this loosening was
+  an unmeasured hunch. Retained at 1,000 because it is now measured rather than guessed, and because
+  raising it is what a thin primary cell should trigger.
+
+  The real lesson is that citation COUNT is the wrong criterion; on-topic FRACTION is the right one.
+  Note what cannot follow from that: filtering the forward fetch by fertility vocabulary would prune
+  Tier B by distance from the future production query and bias Recall(B), which the leakage wall
+  forbids. The fraction is a diagnostic for choosing seeds, never a filter on the frame.
+
+  Excluded seeds are logged with their counts — a silent cap reads as "we covered everything" when it
+  did not.
 
 LEAKAGE WALL (carried from A3): no query vocabulary is mined here. This step only builds the frame.
 

@@ -142,3 +142,48 @@ are cited *by* the intensive-parenting literature, so forward citation is doing 
 work here — the estimand-level query reaches only 17 records in the whole index. Against that, the
 predicted `OFF_OUTCOME` flood lives in exactly those clouds, so the cap is loosened rather than
 removed, and every excluded seed is logged with its count.
+
+**2026-08-08 (Shravan) — A4 frame built.** Key restored to `.env`; run completed, 0 deferred.
+
+- Anchors resolved **20/23**; the 3 unresolved are Hays, Zelizer, Ariès, refused by the book-shape
+  rule as predicted. They seed nothing.
+- **Tier A = 7** empirical seeds: NORM_EXPOSURE 2, TIME_INTENSITY 2, PERCEIVED_STANDARD 2,
+  COST_INDEPENDENCE 1.
+- **Tier B = 1,772** deduplicated candidates (forward 967, backward 791, both 14; 1,265 with usable
+  abstracts, 507 without). 14 forward pages, no seed hit the 12-page cap.
+- Forward-seeded 12 anchors; excluded 8 — 7 routing decoys plus Lareau (cb=2,172 > cap).
+
+**The forward-cap rationale I wrote was wrong, and the run measured it.** I loosened D.1.b's 10/600
+to 12/1,000 arguing that Lareau's and Doepke-Zilibotti's forward clouds are on-topic. Measured share
+of citing works mentioning fertility / family size / childbearing:
+
+| seed | citing | on-topic | % |
+|---|---|---|---|
+| Lareau, *Unequal Childhoods* | 2,169 | 23 | 1.1% |
+| Doepke-Zilibotti, *Parenting With Style* | 345 | 12 | 3.5% |
+| Ishizuka, *Parenting Standards* | 288 | 18 | 6.2% |
+| Ramey & Ramey, *The Rug Rat Race* | 187 | 26 | 13.9% |
+
+The theory canon's clouds are overwhelmingly `OFF_OUTCOME`, as the scope doc predicted. The cap made
+the right call on Lareau for the wrong stated reason. Docstring corrected; threshold retained at
+1,000 now that it is measured rather than guessed.
+
+**Open design question — the decoy-exclusion rule is removing the highest-yield channel.** The two
+most on-topic forward clouds in the whole anchor set belong to *routing decoys*, which the inherited
+rule never forward-seeds:
+
+| decoy | citing | on-topic | % |
+|---|---|---|---|
+| Becker & Lewis 1973 (Wall 1, C.3.d) | 505 | 256 | **50.7%** |
+| Lawson & Mace 2009 (REVERSE) | 197 | 58 | **29.4%** |
+
+The rule exists so a decoy does not import its neighbour's literature. But Tier B is a frame *to be
+screened*, route-away material is expected in it, and these two clouds are concentrated exactly where
+Wall 1 and the reverse-causation threat need adjudication — the chapter's hardest routing calls.
+Seeding them would add ~700 records, ~314 on-topic. `seed_ids` provenance is already recorded, so
+Recall(B) can be computed with and without them as a sensitivity check.
+
+Not actioned — this changes the frame materially and is a methods call, not an implementation detail.
+Note what is *not* an option: filtering the forward fetch by fertility vocabulary would prune Tier B
+by distance from the production query and bias Recall(B). On-topic fraction is a seed-selection
+diagnostic only, never a filter on the frame.
