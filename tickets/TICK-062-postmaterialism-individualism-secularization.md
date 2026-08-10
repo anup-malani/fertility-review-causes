@@ -35,7 +35,14 @@ blocks whom.
    It costs nothing to resolve.
 2. **Two conventions escalated to `PROTOCOL.md` and not landed** — "first stop rule hit governs", and
    the treatment × outcome routing definition. A convention no operating file states is inert.
-3. **Authorise (or decline) the 390-batch production screen.** Pending the 10-batch yield sample.
+3. **Authorise (or decline) the 390-batch production screen.** The yield sample (`113_`) and the
+   backfill probe (`114_`) have both reported, so this is now decidable and nothing further is
+   pending on it. What the screen buys: a defensible count of the literature (~780 relevant,
+   508–1,184) and the right to state it. What it does not buy: credibility — zero Tier 1 and zero
+   Tier 2 in 400 records, so the chapter's absence claims were never what this threatened. What it
+   costs: ~a day of unattended compute, then **~1,909 full-text reads**, which `114_` has now shown
+   cannot be shrunk with free metadata. Sibling chapters are already retrieval-bound (B.1 sits at
+   20/95 PDFs). **The screen is cheap and the queue it manufactures is not.**
 
 **Operational**
 4. **A Semantic Scholar API key**, outstanding across two chapters.
@@ -53,6 +60,39 @@ blocks whom.
    5 recall points at most. 19 probable index gaps are a ceiling and belong in §10.
 
 ## Log
+- 2026-08-10 (Shravan/Claude): **THE FULL-TEXT QUEUE CANNOT BE BOUGHT DOWN WITH FREE METADATA.
+  Probed Crossref and Europe PMC for the abstracts OpenAlex lacks: 1/32 on the records that matter,
+  18/200 corpus-wide.** `{slug}-abstract-backfill-probe.{json,md}`; script
+  `114_d1a_abstract_backfill_probe.py`.
+  **Why it was worth testing.** `113_` put the binding cost downstream — ~1,909 UNCERTAIN, each a
+  full-text read, against sibling chapters that are already retrieval-bound. But 32 of the 49
+  UNCERTAIN in the sample are **title-only**, and at least four more carry an abstract that is
+  unusable (one is the abstract of a *different* study; one is a historical preamble). So ~3/4 of the
+  queue was an **absent-metadata** problem, not a contested-design problem — and absent metadata is
+  the kind of thing another index might simply have. Had it worked it was a pre-screen fix: it must
+  land **before** the screen runs or the screen is re-run.
+  **It does not work, and the negative is bounded.** Of 5,088 title-only records queued, 1,869
+  (36.7%) carry **no DOI at all** and have no lookup key in any DOI-keyed index; the rest are mostly
+  pre-1990 articles, book chapters, dissertations and regional journals for which no publisher ever
+  deposited an abstract. Hand-checked misses to confirm the absence is real at Crossref rather than a
+  parser artefact. One untested channel, deliberately: 187 DataCite DOIs (Zenodo/SSRN/OSF) that
+  Crossref 404s — at implausible 100% recovery, ~22 reads. **OpenAlex is at the free-tier ceiling for
+  this corpus, not behind it.**
+  **A near-miss worth recording: the first run returned 0.0% in both strata and it was pure transport
+  failure.** This interpreter has no CA bundle, so `urllib` fails every HTTPS call with
+  `CERTIFICATE_VERIFY_FAILED`. It was caught only because errors are counted in a **separate bucket**
+  from "no abstract found" — a probe that folds refusals into zeros reports a confident negative and
+  is believed. Third instance of this family after `106_`'s refusals-as-zeros. `103_` shells out to
+  curl for exactly this reason and `114_` now does too; the script also **refuses to write its
+  report** if >20% of requests error.
+  **An incidental check came back clean.** Title-only records return RELEVANT at 1/127 against 19/273
+  for records with abstracts — a 9× gap that would be alarming if it meant the screen cannot see a
+  relevant record without an abstract. Read all 94 title-only `NOT_RELEVANT` decisions: they are
+  overwhelmingly query noise on bare stems (dairy-cow fertility, "The Birth of Tissue Culture", a
+  Nigerian admissions advertisement). Composition, not under-detection. **Rejects read, not just
+  admits.**
+  **Net for the screen decision (open item 3): unchanged in size, but the escape route is now closed
+  rather than untried.** The choice is volume against a retrieval budget, and it is the PI's.
 - 2026-08-05 (Shravan/Claude): **CALIBRATION RUN. 48 anchors, 2 batches, ~6 minutes. Decoys routed
   away 7/10 — but adjudicating each one, the screen is right more often than the anchor set is, and
   only ONE of the three is a real screen error.** `{slug}-screen-calibration-report.md`,
