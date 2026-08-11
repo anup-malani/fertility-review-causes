@@ -1,0 +1,1002 @@
+{
+ "slug": "postmaterialism-individualism-secularization",
+ "n_leads": 205,
+ "triage": {
+  "FERTILITY_SIGNAL": 65,
+  "NO_SIGNAL": 70,
+  "BIRTH_AS_ORIGIN": 70
+ },
+ "chased": 65,
+ "distinct_candidates": 48,
+ "resolved": 10,
+ "already_in_corpus": 0,
+ "missing_from_corpus": 10,
+ "probable": 3,
+ "unresolved": 33,
+ "duplicate_books_collapsed": 2,
+ "missing_by_owner": {
+  "D.1.a": 8,
+  "A.3/A.6 contraception": 1,
+  "D.2.a gender": 1
+ },
+ "results": [
+  {
+   "cand_title": "Susan E. Klepp . Revolutionary Conceptions: Women, Fertility, and Family Limitation in America, 1760\u20131820 . Chapel Hill : University of North Carolina Press , for the Omohundro Institute of Early American History and Culture. 2009",
+   "cand_author": "",
+   "review_year": 2010,
+   "parse": "BARE_TITLE",
+   "n_reviews": 1,
+   "review_ids": [
+    "W2326015883"
+   ],
+   "error": null,
+   "query_tier": null,
+   "best": null,
+   "in_corpus": false
+  },
+  {
+   "cand_title": "Book Review Private Matters: American attitudes toward childbearing and infant nurture in the urban North,1800\u20131860 By Sylvia D. Hoffert. 229 pp., illustrated. Urbana, Ill., University of Illinois Press, 1989. $24.95",
+   "cand_author": "",
+   "review_year": 1990,
+   "parse": "BARE_TITLE",
+   "n_reviews": 1,
+   "review_ids": [
+    "W284760335"
+   ],
+   "error": null,
+   "query_tier": null,
+   "best": null,
+   "in_corpus": false
+  },
+  {
+   "cand_title": "sylvia d. hoffert . Private Matters: American Attitudes toward Childbearing and Infant Nurture in the Urban North, 1800\u20131860 . (Women in American History.) Urbana: University of Illinois Press. 1989",
+   "cand_author": "",
+   "review_year": 1991,
+   "parse": "BARE_TITLE",
+   "n_reviews": 1,
+   "review_ids": [
+    "W4252360262"
+   ],
+   "error": null,
+   "query_tier": null,
+   "best": null,
+   "in_corpus": false
+  },
+  {
+   "cand_title": "Private Matters: American Attitudes toward Childbearing and Infant Nurture in the Urban North, 1800-1860 . Sylvia D. Hoffert",
+   "cand_author": "",
+   "review_year": 1990,
+   "parse": "BARE_TITLE",
+   "n_reviews": 2,
+   "review_ids": [
+    "W1970299128",
+    "W2055073510"
+   ],
+   "error": null,
+   "query_tier": "head",
+   "best": {
+    "status": "UNRESOLVED",
+    "jaccard": 0.19,
+    "containment": 0.38,
+    "id": "https://openalex.org/W1470098925",
+    "title": "Private Matters: Family and Race and the Post-World-War-II Translation of \u201cAmerican\u201d",
+    "type": "book-chapter",
+    "year": 2002,
+    "doi": "https://doi.org/10.1017/cbo9780511550164.011",
+    "authors": [
+     "Nancy K. Ota"
+    ]
+   },
+   "in_corpus": false
+  },
+  {
+   "cand_title": "Private Matters: American Attitudes Toward Childbearing and Infant Nurture in the Urban North, 1800-1860",
+   "cand_author": "Sylvia",
+   "review_year": 1990,
+   "parse": "TITLE by AUTHOR",
+   "n_reviews": 3,
+   "review_ids": [
+    "W2327338267",
+    "W2622445849",
+    "W2730734604"
+   ],
+   "error": null,
+   "query_tier": "head",
+   "best": {
+    "status": "UNRESOLVED",
+    "jaccard": 0.22,
+    "containment": 0.38,
+    "id": "https://openalex.org/W1470098925",
+    "title": "Private Matters: Family and Race and the Post-World-War-II Translation of \u201cAmerican\u201d",
+    "type": "book-chapter",
+    "year": 2002,
+    "doi": "https://doi.org/10.1017/cbo9780511550164.011",
+    "authors": [
+     "Nancy K. Ota"
+    ]
+   },
+   "in_corpus": false
+  },
+  {
+   "cand_title": "A Sociology of Organisations, Political Woman, The Crisis of Industrial Civilization. The Early Essays of Auguste Comte, Critical Criminology, The Mafia of a Sicilian Village, 1860\u20131960: A Study of Violent Peasant Entrepreneurs, Early Child Care in Sweden, Population and its Problems: A Plain Man's Guide, Contemporary Research in the Sociology of Education, The Structure of Social Science, Social Stratification in Science, The Decline in Fertility in Germany, 1871\u20131939, Religion and Social Class: The Disruption Years in Aberdeen, to Do the Sick No Harm, a Study of the British Voluntary Hospital System to 1875, What School is For, Measuring Disability, Bradstow: A Study in Status, Class and Power in a Small Australian Town, Power and the Structure of Society, British Factory\u2014Japanese Factory, Marxist Perspectives in the Sociology of Education, Communication in Science",
+   "cand_author": "",
+   "review_year": 1975,
+   "parse": "BARE_TITLE",
+   "n_reviews": 1,
+   "review_ids": [
+    "W4214915146"
+   ],
+   "error": null,
+   "query_tier": null,
+   "best": null,
+   "in_corpus": false
+  },
+  {
+   "cand_title": "Godly seed: American evangelicals confront birth control, 1873-1973",
+   "cand_author": "",
+   "review_year": 2012,
+   "parse": "BARE_TITLE",
+   "n_reviews": 1,
+   "review_ids": [
+    "W2898733345"
+   ],
+   "error": null,
+   "query_tier": "head",
+   "best": {
+    "status": "PROBABLE_YEAR_DISCREPANT",
+    "jaccard": 0.22,
+    "containment": 1.0,
+    "id": "https://openalex.org/W4243139168",
+    "title": "Godly Seed",
+    "type": "book",
+    "year": 2017,
+    "doi": "https://doi.org/10.4324/9780203790588",
+    "authors": [
+     "Carlson Allan"
+    ]
+   },
+   "in_corpus": false
+  },
+  {
+   "cand_title": "The American religious debate over birth control, 1907-1937",
+   "cand_author": "",
+   "review_year": 2002,
+   "parse": "BARE_TITLE",
+   "n_reviews": 1,
+   "review_ids": [
+    "W582901583"
+   ],
+   "error": null,
+   "query_tier": null,
+   "best": null,
+   "in_corpus": false
+  },
+  {
+   "cand_title": "Studies in Sociology, Race Mixture, Hunger and Work in a Savage Tribe, Interpretations, 1931\u20131932, Faith, Hope and Charity in Primitive Religion, Genetic Principles in Medicine and Social Science, The Reorganisation of Education in China, Social Decay and Eugenical Reform, The Social and Political Ideas of Some Representative Thinkers of the Revolutionary Era, L. T. Hobhouse, His Life and Work, Corner of England, World Agriculture\u2014An International Study, Small-Town Stuff, Methods of Social Study, Does History Repeat Itself? The New Morality, Culture and Progress, Language and Languages: An Introduction to Linguistics, The Theory of Wages, The Santa Clara Valley, California, Social Psychology, A History of Fire and Flame, Sin and New Psychology, Sociology and Education, Mental Subnormality and the Local Community: Am Outline or a Practical Program, Tyneside Council op Social Service, Reconstruction and Education in Rural India, The Contribution of the English Le Play School to Rural Sociology, Kagami Kenkyu Hokoku, President's, Pioneer Settlement: Co-Operative Studies, Birth Control and Public Health, Pioneer Settlement: Co-Operative Studies, Ourselves and the World: The Making of an American Citizen, The Emergence of the Social Sciences from Moral Philosophy, The Comparable Interests of the Old Moral Philosophy and the Modern Social Sciences, The World in Agony, Sheffield Social Survey Committee, Housing Problems in Liverpool, Council for the Preservation of Rural England, Forest Land Use in Wisconsin, The Growth Cycle of the Farm Family, The Farmer's Guide to Agricultural Research in 1931, A History of the Public Library Movement in Great Britain and Ireland, The Retirement of National Debts, Public and Private Operation of Railways in Brazil, The Indian Minorities Problem, The Meaning of the Manchurian Crisis, The Drama of the Kingdom, Social Psychology, Competition in the American Tobacco Industry",
+   "cand_author": "",
+   "review_year": 1933,
+   "parse": "BARE_TITLE",
+   "n_reviews": 1,
+   "review_ids": [
+    "W4231761101"
+   ],
+   "error": null,
+   "query_tier": null,
+   "best": null,
+   "in_corpus": false
+  },
+  {
+   "cand_title": "Sociological Theory in Transition, The Category of Person, Social Relations and Spatial Structures, Nicos Poulantzas Marxist Theory and Political Strategy, The View from Afar, New Approaches to Economic Life, Cities in Crisis: The Political Economy of Urban Development in Postwar Britain, The Politics of Recession, Landscapes of Poverty, The Decline of Class Voting in Britain: Changes in the Basis of Electoral Choice, 1964\u20131983, How Britain Votes, Skilled Workers in the Class Structure, Managing the Police: Law, Organisation and Democracy, Teachers' Work, Sociology and School Knowledge: Curriculum Theory, Research and Politics, Literacy in Theory and Practice, Literacy, Language and Learning, Urban Rhythms: Pop Music and Popular Culture, Painting, Language and Modernity, Advertising, The Uneasy Persuasion: Its Dubious Impact on American Society, The Childless Marriage: An Exploratory Study of Couples Who Do Not Want Children, Sexuality and its Discontents: Meanings, Myths and Modern Sexualities",
+   "cand_author": "",
+   "review_year": 1986,
+   "parse": "BARE_TITLE",
+   "n_reviews": 1,
+   "review_ids": [
+    "W4211089993"
+   ],
+   "error": null,
+   "query_tier": null,
+   "best": null,
+   "in_corpus": false
+  },
+  {
+   "cand_title": "Joseph Chamie, Religion and Fertility: Arab Christian-Muslim Differentials (Cambridge:Cambridge University Press, 1981)",
+   "cand_author": "",
+   "review_year": 1983,
+   "parse": "BARE_TITLE",
+   "n_reviews": 1,
+   "review_ids": [
+    "W2329232503"
+   ],
+   "error": null,
+   "query_tier": "deauthored_head",
+   "best": {
+    "status": "RESOLVED_NOAUTHOR",
+    "jaccard": 0.23,
+    "containment": 1.0,
+    "id": "https://openalex.org/W2798418277",
+    "title": "Religion and fertility",
+    "type": "book",
+    "year": 1981,
+    "doi": null,
+    "authors": [
+     "Joseph Chamie"
+    ]
+   },
+   "in_corpus": false
+  },
+  {
+   "cand_title": "b. f. musallam . Sex and Society in Islam: Birth Control before the Nineteenth Century . (Cambridge Studies in Islamic Civilization.) New York: Cambridge University Press. 1983",
+   "cand_author": "",
+   "review_year": 1984,
+   "parse": "BARE_TITLE",
+   "n_reviews": 1,
+   "review_ids": [
+    "W2480842585"
+   ],
+   "error": null,
+   "query_tier": null,
+   "best": null,
+   "in_corpus": false
+  },
+  {
+   "cand_title": "Basim F. Musallam, Sex and Society in Islam: Birth Control before the Nineteenth Century (Cambridge: Cambridge University Press, 1983)",
+   "cand_author": "",
+   "review_year": 1986,
+   "parse": "BARE_TITLE",
+   "n_reviews": 1,
+   "review_ids": [
+    "W2157061866"
+   ],
+   "error": null,
+   "query_tier": null,
+   "best": null,
+   "in_corpus": false
+  },
+  {
+   "cand_title": "Ellen Jones and Fred W. Grupp. Modernization, Value Change, and Fertility in the Soviet Union . (Soviet and East European Studies.) New York: Cambridge University Press. 1987",
+   "cand_author": "",
+   "review_year": 1989,
+   "parse": "BARE_TITLE",
+   "n_reviews": 1,
+   "review_ids": [
+    "W4241191099"
+   ],
+   "error": null,
+   "query_tier": null,
+   "best": null,
+   "in_corpus": false
+  },
+  {
+   "cand_title": "Patrice Diquinzio. MODERN MATERNITY: A REVIEW OF THE IMPOSSIBILITY OF MOTHERHOOD: FEMINISM, INDIVIDUALISM, AND THE PROBLEM OF MOTHERING New York: Routledge, 1999; Nancy E. Dowd. IN DEFENSE OF SINGLE-PARENT FAMILIES ; Julia E. MOTHER TROUBLES: RETHINKING CONTEMPORARY MATERNAL DILEMMAS ; Linda L. Layne. TRANSFORMATIVE MOTHERHOOD: ON GIVING AND GETTING IN A CONSUMER CULTURE ; and Laurie Lisle. WITHOUT CHILD: CHALLENGING THE STIGMA OF CHILDLESSNESS",
+   "cand_author": "",
+   "review_year": 2004,
+   "parse": "BARE_TITLE",
+   "n_reviews": 1,
+   "review_ids": [
+    "W2070944611"
+   ],
+   "error": null,
+   "query_tier": "deauthored_head",
+   "best": {
+    "status": "UNRESOLVED",
+    "jaccard": 0.09,
+    "containment": 0.42,
+    "id": "https://openalex.org/W2911601296",
+    "title": "Dressing Modern Maternity: The Frankfurt Sisters of Dallas and the Page Boy Label",
+    "type": "book",
+    "year": 2013,
+    "doi": null,
+    "authors": [
+     "Kay Goldman"
+    ]
+   },
+   "in_corpus": false
+  },
+  {
+   "cand_title": "JOHANNA SCHOEN. Choice and Coercion: Birth Control, Sterilization, and Abortion in Public Health and Welfare. (Gender and American Culture.) Chapel Hill: University of North Carolina Press. 2005",
+   "cand_author": "",
+   "review_year": 2006,
+   "parse": "BARE_TITLE",
+   "n_reviews": 1,
+   "review_ids": [
+    "W2329419710"
+   ],
+   "error": null,
+   "query_tier": "deauthored_head",
+   "best": {
+    "status": "UNRESOLVED",
+    "jaccard": 0.12,
+    "containment": 0.31,
+    "id": "https://openalex.org/W2929461807",
+    "title": "Singleness in Nineteenth-century Italy: Permanent Celibacy and Solitariness between Coercion and Free Choice",
+    "type": "book-chapter",
+    "year": 2019,
+    "doi": "https://doi.org/10.1017/9781108556279.019",
+    "authors": [
+     "Matteo Manfredini"
+    ]
+   },
+   "in_corpus": false
+  },
+  {
+   "cand_title": "Reproductive Agency, Medicine and the State, Cultural Transformations in Childbearing Fertility, Reproduction and Sexuality - Volume 3 Edited",
+   "cand_author": "Unnithan",
+   "review_year": 2005,
+   "parse": "TITLE by AUTHOR",
+   "n_reviews": 1,
+   "review_ids": [
+    "W4244482660"
+   ],
+   "error": null,
+   "query_tier": null,
+   "best": null,
+   "in_corpus": false
+  },
+  {
+   "cand_title": "Karen R. Encarnacion;, Anne L. McClanan (Editors). The Material Culture of Sex, Procreation, and Marriage in Premodern Europe . xiv + 385 pp., illus., index",
+   "cand_author": "",
+   "review_year": 2002,
+   "parse": "BARE_TITLE",
+   "n_reviews": 1,
+   "review_ids": [
+    "W4251191149"
+   ],
+   "error": null,
+   "query_tier": null,
+   "best": null,
+   "in_corpus": false
+  },
+  {
+   "cand_title": "Work, Urbanism and Inequality, Arguments within English Marxism, the Future with Microelectronics: Forecasting the Effects of Information Technology, Kings or People\u2014Power and the Mandate to Rule, Industrial Conflict in Modern Britain, the Double Standard: A Feminist Critique of Feminist Social Science, Deciding What's News: A Study of CBS Evening News, NBC Nightly News, Newsweek and Time, Words and Things, Central Problems in Sociological Theory: Action, Structure and Contradiction in Social Analysis, Population and Development: High and Low Fertility in Poorer Countries, Elites in Australia, on Law and Ideology, Praxis and Method: A Sociological Dialogue with Luk\u00e1cs, Gramsci and the Early Frankfurt School, the Technical Intelligentsia and the Soviet State, Statistical Demography, Work Organisations: Resistance and Control, the Fate of the Anglican Clergy, between Labour and Capital, Power: Its Forms, Bases and Uses, Breaking the Magic Spell: Radical Theories of Folk and Fairy Tales",
+   "cand_author": "",
+   "review_year": 1980,
+   "parse": "BARE_TITLE",
+   "n_reviews": 1,
+   "review_ids": [
+    "W4255113494"
+   ],
+   "error": null,
+   "query_tier": null,
+   "best": null,
+   "in_corpus": false
+  },
+  {
+   "cand_title": "Book review. Reproductive and genetic responsibility: whose burden? : Ivett Szalma: Attitudes, norms, and beliefs related to assisted reproduction technologies among childless women in a pronatalist society",
+   "cand_author": "",
+   "review_year": 2021,
+   "parse": "BARE_TITLE",
+   "n_reviews": 1,
+   "review_ids": [
+    "W4206417063"
+   ],
+   "error": null,
+   "query_tier": null,
+   "best": null,
+   "in_corpus": false
+  },
+  {
+   "cand_title": "Contraception and Catholics: A New Appraisal",
+   "cand_author": "Dupre",
+   "review_year": 1965,
+   "parse": "TITLE. By AUTHOR",
+   "n_reviews": 1,
+   "review_ids": [
+    "W2327584615"
+   ],
+   "error": null,
+   "query_tier": "deauthored",
+   "best": {
+    "status": "UNRESOLVED",
+    "jaccard": 0.3,
+    "containment": 0.5,
+    "id": "https://openalex.org/W2585282289",
+    "title": "The legacy of Rome: a new appraisal",
+    "type": "book-chapter",
+    "year": 1992,
+    "doi": null,
+    "authors": [
+     "CA Martindale"
+    ]
+   },
+   "in_corpus": false
+  },
+  {
+   "cand_title": "Book ReviewThe Time Has Come: A Catholic doctor's proposals to end the battle over birth control",
+   "cand_author": "",
+   "review_year": 1963,
+   "parse": "BARE_TITLE",
+   "n_reviews": 1,
+   "review_ids": [
+    "W2332502897"
+   ],
+   "error": null,
+   "query_tier": null,
+   "best": null,
+   "in_corpus": false
+  },
+  {
+   "cand_title": "Two is Enough: A Couple\u2019s Guide to Living Childless by Choice. Berkeley: Seal Press",
+   "cand_author": "Scott",
+   "review_year": 2019,
+   "parse": "AUTHOR (YEAR) TITLE",
+   "n_reviews": 9,
+   "review_ids": [
+    "W4241769102",
+    "W2913677422",
+    "W2914859284",
+    "W2912252502",
+    "W2913644440",
+    "W2912098196",
+    "W2911459977",
+    "W2913974972",
+    "W4239608877"
+   ],
+   "error": null,
+   "query_tier": "head",
+   "best": {
+    "status": "PROBABLE_YEAR_DISCREPANT",
+    "jaccard": 0.2,
+    "containment": 1.0,
+    "id": "https://openalex.org/W4252837795",
+    "title": "Two is Enough",
+    "type": "book",
+    "year": 2003,
+    "doi": "https://doi.org/10.1163/9789004454576",
+    "authors": []
+   },
+   "in_corpus": false
+  },
+  {
+   "cand_title": "Fertility Differences in a Modernizing Country: A Survey of Lebanese Couples. David Yaukey",
+   "cand_author": "",
+   "review_year": 1962,
+   "parse": "BARE_TITLE",
+   "n_reviews": 2,
+   "review_ids": [
+    "W2334166457",
+    "W2071212776"
+   ],
+   "error": null,
+   "query_tier": "head",
+   "best": {
+    "status": "RESOLVED_NOAUTHOR",
+    "jaccard": 0.5,
+    "containment": 1.0,
+    "id": "https://openalex.org/W4302865405",
+    "title": "Fertility Differences in a Modernizing Country",
+    "type": "book",
+    "year": 1961,
+    "doi": "https://doi.org/10.1515/9781400877454",
+    "authors": [
+     "David Yaukey"
+    ]
+   },
+   "in_corpus": false
+  },
+  {
+   "cand_title": "FERTILITY DIFFERENCES IN A MODERNIZING COUNTRY: A SURVEY OF LEBANESE COUPLES",
+   "cand_author": "Yaukey",
+   "review_year": 1962,
+   "parse": "TITLE. By AUTHOR",
+   "n_reviews": 1,
+   "review_ids": [
+    "W2333608757"
+   ],
+   "error": null,
+   "query_tier": "head",
+   "best": {
+    "status": "RESOLVED",
+    "jaccard": 0.6,
+    "containment": 1.0,
+    "id": "https://openalex.org/W4302865405",
+    "title": "Fertility Differences in a Modernizing Country",
+    "type": "book",
+    "year": 1961,
+    "doi": "https://doi.org/10.1515/9781400877454",
+    "authors": [
+     "David Yaukey"
+    ]
+   },
+   "in_corpus": false
+  },
+  {
+   "cand_title": "The Agonising Choice: Birth Control, Religion and the Law",
+   "cand_author": "St",
+   "review_year": 1972,
+   "parse": "TITLE. By AUTHOR",
+   "n_reviews": 1,
+   "review_ids": [
+    "W2327996099"
+   ],
+   "error": null,
+   "query_tier": null,
+   "best": null,
+   "in_corpus": false
+  },
+  {
+   "cand_title": "The Agonizing Choice: Birth Control, Religion and the Law",
+   "cand_author": "John",
+   "review_year": 1972,
+   "parse": "TITLE by AUTHOR",
+   "n_reviews": 1,
+   "review_ids": [
+    "W2891109736"
+   ],
+   "error": null,
+   "query_tier": "head",
+   "best": {
+    "status": "UNRESOLVED",
+    "jaccard": 0.13,
+    "containment": 0.25,
+    "id": "https://openalex.org/W4240903395",
+    "title": "5. Agonizing Choices: The War against Japan, 1937\u20131945",
+    "type": "book-chapter",
+    "year": 2019,
+    "doi": "https://doi.org/10.1525/9780520972551-009",
+    "authors": [
+     "Charlotte Brooks"
+    ]
+   },
+   "in_corpus": false
+  },
+  {
+   "cand_title": "Birth Control and Catholic Doctrine . Alvah W. Sulloway. Beacon Press",
+   "cand_author": "",
+   "review_year": 1959,
+   "parse": "BARE_TITLE",
+   "n_reviews": 2,
+   "review_ids": [
+    "W4251700258",
+    "W3206877576"
+   ],
+   "error": null,
+   "query_tier": null,
+   "best": null,
+   "in_corpus": false
+  },
+  {
+   "cand_title": "Birth Control Battles: How Race and Class Divided American Religion",
+   "cand_author": "Melissa",
+   "review_year": 2020,
+   "parse": "TITLE. By AUTHOR",
+   "n_reviews": 4,
+   "review_ids": [
+    "W4248972814",
+    "W3129680259",
+    "W4200149007",
+    "W4293231470"
+   ],
+   "error": null,
+   "query_tier": "head",
+   "best": {
+    "status": "RESOLVED_SUBTITLE",
+    "jaccard": 0.3,
+    "containment": 1.0,
+    "id": "https://openalex.org/W3048199447",
+    "title": "Birth Control Battles",
+    "type": "book",
+    "year": 2019,
+    "doi": "https://doi.org/10.1515/9798901271896",
+    "authors": [
+     "Melissa J. Wilde"
+    ]
+   },
+   "in_corpus": false
+  },
+  {
+   "cand_title": "Anne L McClanan and Karen Rosoff Encarnaci\u00f3n (eds), The material culture of sex, procreation, and marriage in premodern Europe",
+   "cand_author": "",
+   "review_year": 2004,
+   "parse": "BARE_TITLE",
+   "n_reviews": 1,
+   "review_ids": [
+    "W1802929312"
+   ],
+   "error": null,
+   "query_tier": null,
+   "best": null,
+   "in_corpus": false
+  },
+  {
+   "cand_title": "Joseph Chamie. Religion and Fertility: Arab Christian-Muslim Differentials",
+   "cand_author": "",
+   "review_year": 1982,
+   "parse": "BARE_TITLE",
+   "n_reviews": 1,
+   "review_ids": [
+    "W2587111572"
+   ],
+   "error": null,
+   "query_tier": "deauthored_head",
+   "best": {
+    "status": "RESOLVED_NOAUTHOR",
+    "jaccard": 0.33,
+    "containment": 1.0,
+    "id": "https://openalex.org/W2798418277",
+    "title": "Religion and fertility",
+    "type": "book",
+    "year": 1981,
+    "doi": null,
+    "authors": [
+     "Joseph Chamie"
+    ]
+   },
+   "in_corpus": false
+  },
+  {
+   "cand_title": "The Myth of Open Spaces: Australian, British, and World Trends of Population and Migration",
+   "cand_author": "",
+   "review_year": 1944,
+   "parse": "TITLE. By AUTHOR",
+   "n_reviews": 1,
+   "review_ids": [
+    "W2125957837"
+   ],
+   "error": null,
+   "query_tier": "head",
+   "best": {
+    "status": "UNRESOLVED",
+    "jaccard": 0.05,
+    "containment": 0.12,
+    "id": "https://openalex.org/W2804531354",
+    "title": "Open space : Entre mythes et r\u00e9alit\u00e9s",
+    "type": "book",
+    "year": 2016,
+    "doi": null,
+    "authors": [
+     "Marc Bertier",
+     "Sandra Perin"
+    ]
+   },
+   "in_corpus": false
+  },
+  {
+   "cand_title": "Women's education, autonomy, and reproductive behaviour: experience from developing countries",
+   "cand_author": "",
+   "review_year": 1996,
+   "parse": "BARE_TITLE",
+   "n_reviews": 1,
+   "review_ids": [
+    "W2037102485"
+   ],
+   "error": null,
+   "query_tier": "deauthored",
+   "best": {
+    "status": "RESOLVED_NOAUTHOR",
+    "jaccard": 1.0,
+    "containment": 1.0,
+    "id": "https://openalex.org/W3022314024",
+    "title": "Women\u2019s Education, Autonomy, and Reproductive Behaviour: Experience from Developing Countries",
+    "type": "book",
+    "year": 1995,
+    "doi": "https://doi.org/10.1093/oso/9780198290339.001.0001",
+    "authors": [
+     "Shireen Jejeebhoy"
+    ]
+   },
+   "in_corpus": false
+  },
+  {
+   "cand_title": "B.F. MUSALLAM, Sex and Society in Islam: Birth Control before the Nineteenth Century",
+   "cand_author": "",
+   "review_year": 1984,
+   "parse": "BARE_TITLE",
+   "n_reviews": 1,
+   "review_ids": [
+    "W1983341356"
+   ],
+   "error": null,
+   "query_tier": null,
+   "best": null,
+   "in_corpus": false
+  },
+  {
+   "cand_title": "Sex and Society in Islam: Birth Control before the Nineteenth Century",
+   "cand_author": "Musallam",
+   "review_year": 1984,
+   "parse": "TITLE by AUTHOR",
+   "n_reviews": 1,
+   "review_ids": [
+    "W2586543741"
+   ],
+   "error": null,
+   "query_tier": "head",
+   "best": {
+    "status": "UNRESOLVED",
+    "jaccard": 0.38,
+    "containment": 0.71,
+    "id": "https://openalex.org/W587361037",
+    "title": "Society And The Sexes In Medieval Islam",
+    "type": "book",
+    "year": 1979,
+    "doi": null,
+    "authors": [
+     "Afaf Lutfi Sayyid-Marsot"
+    ]
+   },
+   "in_corpus": false
+  },
+  {
+   "cand_title": "Marriage and fertility behaviour in Japan - Economic status and value orientation",
+   "cand_author": "Fukuda",
+   "review_year": 2017,
+   "parse": "AUTHOR (YEAR) TITLE",
+   "n_reviews": 1,
+   "review_ids": [
+    "W2731442213"
+   ],
+   "error": null,
+   "query_tier": "head",
+   "best": {
+    "status": "RESOLVED",
+    "jaccard": 0.6,
+    "containment": 1.0,
+    "id": "https://openalex.org/W4252578261",
+    "title": "Marriage and Fertility Behaviour in Japan",
+    "type": "book",
+    "year": 2016,
+    "doi": "https://doi.org/10.1007/978-981-10-0294-6",
+    "authors": [
+     "Nobutaka Fukuda"
+    ]
+   },
+   "in_corpus": false
+  },
+  {
+   "cand_title": "IV. Pastoral and Practical: Religion and Birth Control",
+   "cand_author": "",
+   "review_year": 1965,
+   "parse": "BARE_TITLE",
+   "n_reviews": 1,
+   "review_ids": [
+    "W2315411118"
+   ],
+   "error": null,
+   "query_tier": null,
+   "best": null,
+   "in_corpus": false
+  },
+  {
+   "cand_title": "Modernization, Value Change And Fertility In The Soviet Union",
+   "cand_author": "Jones",
+   "review_year": 1988,
+   "parse": "TITLE. By AUTHOR",
+   "n_reviews": 1,
+   "review_ids": [
+    "W2587043428"
+   ],
+   "error": null,
+   "query_tier": null,
+   "best": null,
+   "in_corpus": false
+  },
+  {
+   "cand_title": "Reproductive decision making and the value of children in rural Papua New Guinea : edited",
+   "cand_author": "Mc",
+   "review_year": 1988,
+   "parse": "TITLE by AUTHOR",
+   "n_reviews": 1,
+   "review_ids": [
+    "W616571504"
+   ],
+   "error": null,
+   "query_tier": null,
+   "best": null,
+   "in_corpus": false
+  },
+  {
+   "cand_title": "Morgan Clarke Islam and New Kinship. Reproductive Technology and the Sharia in Lebanon. Series: Fertility, Reproduction and Sexuality",
+   "cand_author": "",
+   "review_year": 2014,
+   "parse": "BARE_TITLE",
+   "n_reviews": 1,
+   "review_ids": [
+    "W1993390234"
+   ],
+   "error": null,
+   "query_tier": null,
+   "best": null,
+   "in_corpus": false
+  },
+  {
+   "cand_title": "The Material Culture of Sex, Procreation, and Marriage in Premodern Europe",
+   "cand_author": "",
+   "review_year": 2002,
+   "parse": "BARE_TITLE",
+   "n_reviews": 1,
+   "review_ids": [
+    "W1821610255"
+   ],
+   "error": null,
+   "query_tier": "full",
+   "best": {
+    "status": "RESOLVED_NOAUTHOR",
+    "jaccard": 1.0,
+    "containment": 1.0,
+    "id": "https://openalex.org/W1989637569",
+    "title": "The Material Culture of Sex, Procreation, and Marriage in Premodern Europe",
+    "type": "book",
+    "year": 2002,
+    "doi": "https://doi.org/10.1007/978-1-137-08503-0",
+    "authors": [
+     "Anne McClanan",
+     "Karen Rosoff Encarnaci\u00f3n"
+    ]
+   },
+   "in_corpus": false
+  },
+  {
+   "cand_title": "Religion and the Decline of Fertility in the Western World . Edited",
+   "cand_author": "Derosas",
+   "review_year": 2008,
+   "parse": "TITLE by AUTHOR",
+   "n_reviews": 1,
+   "review_ids": [
+    "W44227116"
+   ],
+   "error": null,
+   "query_tier": "first7",
+   "best": {
+    "status": "RESOLVED",
+    "jaccard": 0.9,
+    "containment": 1.0,
+    "id": "https://openalex.org/W1182906368",
+    "title": "Religion and the Decline of Fertility in the Western World",
+    "type": "book",
+    "year": 2006,
+    "doi": "https://doi.org/10.1007/1-4020-5190-5",
+    "authors": [
+     "Renzo Derosas",
+     "Frans van Poppel"
+    ]
+   },
+   "in_corpus": false
+  },
+  {
+   "cand_title": "Review of Fertility and Faith: The Demographic Revolution and the Transformation of World Religions",
+   "cand_author": "",
+   "review_year": 2021,
+   "parse": "BARE_TITLE",
+   "n_reviews": 1,
+   "review_ids": [
+    "W3198070814"
+   ],
+   "error": null,
+   "query_tier": null,
+   "best": null,
+   "in_corpus": false
+  },
+  {
+   "cand_title": "Fertility Policy in Israel: The Politics of Religion, Gender and Nation",
+   "cand_author": "Portugese",
+   "review_year": 2001,
+   "parse": "TITLE by AUTHOR",
+   "n_reviews": 1,
+   "review_ids": [
+    "W2586263930"
+   ],
+   "error": null,
+   "query_tier": "head",
+   "best": {
+    "status": "UNRESOLVED",
+    "jaccard": 0.21,
+    "containment": 0.36,
+    "id": "https://openalex.org/W2582537520",
+    "title": "Women\u2019s Reproductive Rights: Abortion, Birth Control, and Fertility Policies in Israel",
+    "type": "book-chapter",
+    "year": 2016,
+    "doi": "https://doi.org/10.12987/yale/9780300216882.003.0006",
+    "authors": [
+     "Alon Tal"
+    ]
+   },
+   "in_corpus": false
+  },
+  {
+   "cand_title": "Islam and New Kinship: Reproductive Technology and the Shariah in Lebanon (Fertility, Reproduction and Sexuality Series)",
+   "cand_author": "Clarke",
+   "review_year": 2010,
+   "parse": "TITLE by AUTHOR",
+   "n_reviews": 1,
+   "review_ids": [
+    "W1969271831"
+   ],
+   "error": null,
+   "query_tier": "head",
+   "best": {
+    "status": "RESOLVED_SUBTITLE",
+    "jaccard": 0.29,
+    "containment": 1.0,
+    "id": "https://openalex.org/W4399625584",
+    "title": "ISLAM AND NEW KINSHIP",
+    "type": "book",
+    "year": 2009,
+    "doi": "https://doi.org/10.3167/9781845454326",
+    "authors": [
+     "Morgan Clarke"
+    ]
+   },
+   "in_corpus": false
+  },
+  {
+   "cand_title": "Fertility and pleasure: ritual and sexual values in Tokugawa Japan",
+   "cand_author": "",
+   "review_year": 2007,
+   "parse": "BARE_TITLE",
+   "n_reviews": 1,
+   "review_ids": [
+    "W1576334806"
+   ],
+   "error": null,
+   "query_tier": "head",
+   "best": {
+    "status": "PROBABLE_YEAR_DISCREPANT",
+    "jaccard": 0.33,
+    "containment": 1.0,
+    "id": "https://openalex.org/W2262009069",
+    "title": "Fertility and Pleasure",
+    "type": "book",
+    "year": 2017,
+    "doi": "https://doi.org/10.1515/9780824862503",
+    "authors": [
+     "William R. Lindsey"
+    ]
+   },
+   "in_corpus": false
+  },
+  {
+   "cand_title": "Childless: No Choice-The Experience of Involuntary Childlessness",
+   "cand_author": "James",
+   "review_year": 1994,
+   "parse": "TITLE. By AUTHOR",
+   "n_reviews": 1,
+   "review_ids": [
+    "W2782046133"
+   ],
+   "error": null,
+   "query_tier": "full",
+   "best": {
+    "status": "RESOLVED",
+    "jaccard": 1.0,
+    "containment": 1.0,
+    "id": "https://openalex.org/W567574339",
+    "title": "Childless: No Choice: The Experience of Involuntary Childlessness",
+    "type": "book",
+    "year": 1993,
+    "doi": null,
+    "authors": [
+     "James H. Monach"
+    ]
+   },
+   "in_corpus": false
+  },
+  {
+   "cand_title": "Voicing Voluntary Childlessness: Narratives of Non-Mothering in French",
+   "cand_author": "",
+   "review_year": 2017,
+   "parse": "BARE_TITLE",
+   "n_reviews": 2,
+   "review_ids": [
+    "W2620809629",
+    "W2749088428"
+   ],
+   "error": null,
+   "query_tier": "full",
+   "best": {
+    "status": "RESOLVED_NOAUTHOR",
+    "jaccard": 1.0,
+    "containment": 1.0,
+    "id": "https://openalex.org/W2970453049",
+    "title": "Voicing Voluntary Childlessness: Narratives of Non-Mothering in French",
+    "type": "book",
+    "year": 2015,
+    "doi": null,
+    "authors": [
+     "Natalie Edwards"
+    ]
+   },
+   "in_corpus": false
+  }
+ ]
+}

@@ -46,8 +46,14 @@ blocks whom.
 
 **Operational**
 4. **A Semantic Scholar API key**, outstanding across two chapters.
-5. **Chase the 205 `BOOK_REVIEW_LEAD` records** — reviews of on-pair monographs (Jones & Grupp,
-   Yaukey, Fukuda) that are the only trace of those books in the corpus.
+5. **~~Chase the 205 `BOOK_REVIEW_LEAD` records~~ — DONE 8/10 (`115_`), and it splits in two.**
+   `{slug}-book-review-leads.{json,md}`. **(a) A 10-book retrieval queue**, none of them in the
+   corpus, 8 owned by D.1.a and 2 to hand off (Wilde *Birth Control Battles* → A.3/A.6; Jejeebhoy
+   → D.2.a). These resolve in OpenAlex and can be pulled. **(b) Three probables** whose indexed
+   year disagrees with the review year — need an eyeball, not a script. **What is still open is the
+   residue:** Jones & Grupp, Musallam and Hoffert have **no book-type record in OpenAlex at all**
+   (hand-checked), so no query at any recall will ever retrieve them. Those need a library
+   catalogue and a human — this is the item that cannot be automated.
 
 **Technical debt, none blocking**
 6. **`cv.load()` partitions A_ONLY/BOTH on the stale `title_key`** (`101_`), under-detecting channel
@@ -60,6 +66,36 @@ blocks whom.
    5 recall points at most. 19 probable index gaps are a ceiling and belong in §10.
 
 ## Log
+- 2026-08-10 (Shravan/Claude): **BOOK-REVIEW LEADS CHASED. 205 leads → 10 books missing from the
+  corpus, 3 probables, and a residue that no query can ever reach.**
+  `{slug}-book-review-leads.{json,md}`; script `115_d1a_book_review_leads.py`.
+  **The leads are mostly false friends, which is the first result.** Only 65 of 205 carry any
+  fertility signal. Seventy match **"birth" in its ORIGIN sense** — *…and the Birth of the Secular
+  Age*, *The Birth of Modern Belief*, *Religious Politics in Turkey: From the Birth of the Republic
+  to the AKP* — and 70 more on "baby boomers"/"secular"/bare "values" in religion-history
+  monographs. Same defect class as `secular trend`, where 65 of 117 fires were epidemiology: a
+  demographic stem doing non-demographic work. **The rescue rule still earned its keep** — it is what
+  preserved the leads that motivated it. Triage on the way out, don't narrow the rescue on the way in.
+  **The deliverable: 10 distinct books, none in the corpus** — Yaukey, Chamie, Fukuda, Derosas,
+  Monach, Clarke, McClanan, Edwards for D.1.a; Wilde → A.3/A.6, Jejeebhoy → D.2.a. Plus 3 probables
+  where OpenAlex's indexed year is a reprint year (*Godly Seed* indexed 2017 against a 2012 review at
+  containment 1.0) — flagged as a third state, not silently passed or dropped.
+  **The residue is the real finding, and it is the sixth hit on the books indexing gap.** Jones &
+  Grupp *Modernization, Value Change, and Fertility in the Soviet Union* — the book this whole rule
+  exists for — has **no book-type record in OpenAlex**, hand-checked twice. Same for Musallam (3
+  reviews) and Hoffert (4). For these the review is not the easiest trace in the index, it is the
+  **only** one. No query at any recall retrieves them; they need a library catalogue and a human.
+  **Three defects found by reading rejects, each of which had produced a confident wrong number.**
+  (1) The first pass resolved **3 of 48** and read like an indexing gap. It was my query: `title.search`
+  needs the terms to be present, and *Fertility Differences in a Modernizing Country: A Survey of
+  Lebanese Couples* returns **zero** book records while its head returns two. `95_`'s subtitle
+  fallback is at the GRADING stage and cannot rescue a candidate the query never returned. Fixed with
+  a query cascade → 9. (2) Re-auditing the rejects at that scale found author prefixes left in the
+  query string (*Ellen Jones and Fred W. Grupp. Modernization…*), fixed as an extra **variant** rather
+  than a parse decision, since telling a name from a short title is not reliably decidable → 12.
+  (3) The 12 **double-counted**: Yaukey and Chamie each resolved twice from differently-cited reviews.
+  Deduping on the citation string cannot catch this; identity is the resolved record. → **10.**
+  Every one of these was caught by reading rejects, not by the count going up.
 - 2026-08-10 (Shravan/Claude): **THE FULL-TEXT QUEUE CANNOT BE BOUGHT DOWN WITH FREE METADATA.
   Probed Crossref and Europe PMC for the abstracts OpenAlex lacks: 1/32 on the records that matter,
   18/200 corpus-wide.** `{slug}-abstract-backfill-probe.{json,md}`; script
