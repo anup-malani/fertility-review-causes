@@ -1,5 +1,5 @@
 # TICK-065: B.5. Fetal Loss and Intrauterine Mortality
-**Status:** open
+**Status:** in-progress
 **Assigned:** Shravan
 **Hypothesis:** `fetal-loss-intrauterine-mortality` — HYPOTHESES-v5.md §B.5
 **Parallel-safe:** yes
