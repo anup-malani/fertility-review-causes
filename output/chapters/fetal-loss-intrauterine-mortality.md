@@ -4,7 +4,7 @@
 **Primary mechanism:** Not every conception becomes a live birth, so populations that lose a larger share of pregnancies record fewer births per woman at the same conception rate, and improvements in maternal health raise live-birth fertility without any change in intentions.
 **Target phenomena:** Pre-modern and the first demographic transition. No second-transition cell: the modern rise in loss rates runs through the maternal-age composition shift, which belongs to postponement (A.11) and to age-related fecundity decline (A.15).
 **Cross-references:** child mortality decline (A.1, the same mortality logic on the other side of the live-birth boundary, and behavioural where this is mechanical); infectious disease and sterility (B.3, the same organisms acting on conception rather than on survival); induced abortion access (A.4, the other way a conception fails to become a birth, and the principal contaminant of the measured series); obesity and metabolic subfecundity (B.4) and endocrine disruptors (B.2, B.6), whose treatments act partly through this channel.
-**Draft status:** DRAFT. The search, screen, and demographic-significance computation are complete and reproducible. Full-text retrieval and effect extraction are **not** done, and under PROTOCOL §5 those are human gates: the RA gate worksheet is generated and unsigned, and no PDF has been procured. Every quantitative claim below therefore comes from the parameter model or from screened abstracts, never from an extracted effect size. The GRADE ratings were produced by one analyst applying three lenses rather than by three independent raters, which is a stated deviation.
+**Draft status:** DRAFT. The search, screen, and demographic-significance computation are complete and reproducible. Retrieval has **begun**: 2 of 51 wantlist items are in hand and extracted, both verified against page 1 of the file rather than the filename. The remaining quantitative claims come from the parameter model or from screened abstracts. The RA gate worksheet is generated and unsigned. The GRADE ratings were produced by one analyst applying three lenses rather than by three independent raters, which is a stated deviation.
 **Last updated:** 2026-08-11
 
 ---
@@ -26,6 +26,8 @@ Four findings drive these ratings.
 **The effect exists only where the reproductive span binds, and vanishes where a parity target binds.** In an uncontrolled-fertility population, time lost cannot be recovered and the effect is real. Where couples stop at a target family size reached well before fecundity ends, they replace the loss and completed fertility is unchanged. This is not a modelling convenience; it is the mechanism, and it predicts that B.5's effect should be largest in pre-modern populations and decay to nothing under controlled fertility. It is also testable, and the single best-designed study located — a Danish registry of 458,475 women followed from age 20 to 45, with completed family size as the outcome — observes exactly the controlled-fertility population where the prediction says the effect should be near zero.
 
 **The exposure is measured with error that correlates with the outcome, in the settings that matter most.** Retrospective pregnancy histories omit losses non-randomly, and worse for early losses, for losses further in the past, and for less-educated respondents. Where induced abortion is illegal or stigmatised, it is reported as spontaneous. Both problems are largest in exactly the pre-modern and transitional settings that carry this chapter's two live cells. The demographic literature has known this since Leridon's 1976 reconsideration and Casterline's 1989 World Fertility Survey review, and a 2023 analysis of 157 surveys across 53 countries now supplies quantified adjustment procedures.
+
+**The first study retrieved confirms the diagnosis.** The only published estimate of this chapter's headline quantity — 9.4% of Moroccan potential fertility — turns out on inspection to be computed by adding fetal deaths to live births, with no replacement and no time cost. It is the mechanical calculation, stated as if it were the effect, and its own authors' Bongaarts index implies most of its larger component is induced abortion rather than spontaneous loss.
 
 **The literature that would identify the effect barely exists, and this was predicted before the search ran.** A probe of `"fetal loss" AND "natural fertility"` returns three records; `"stillbirth" AND "fertility decline"` returns sixteen. Against that, the clinical literature on miscarriage and stillbirth runs to thousands. Of 392 records screened from the citation frame, 18 fall in a primary cell and 267 in the parameter, measurement, and theory streams. The evidence is abundant on how much loss there is and what causes it, and nearly silent on what it does to the number of children a woman ends up with.
 
@@ -91,7 +93,25 @@ Two validations were run rather than asserted. Four records whose correct routin
 
 ## 5. What the Primary Evidence Actually Is
 
-No effect sizes have been extracted, because no full text has been retrieved. What follows describes the designs located and what they can bear, and it is deliberately not a results section.
+Two studies have been retrieved and extracted; the rest of this section describes designs located from abstracts and is deliberately not a results section.
+
+### 5.0 The two extracted studies
+
+**The one published estimate of this chapter's headline quantity is an accounting share.** Mourchid and Bakass (2022) estimate that intrauterine mortality reduces Moroccan potential fertility by **9.4%**, or 0.23 children per woman, using 2009–10 National Demographic Survey data and a gestational-age life table alongside the Bongaarts and Leridon methods. It is the only study located that estimates B.5's primary estimand directly. But their potential-fertility measure is built by *adding fetal deaths to live births*: a lost conception is counted as a forgone birth, with no time cost and no replacement. It is `ACCOUNTING_SHARE` by construction, which is precisely the upper bound §2 argues against using as the effect. This corroborates the chapter rather than contradicting it — the model's accounting arm returns about 11% for removing a 10% loss rate outright, close enough to 9.4% to confirm the two compute the same thing — and it establishes that the published literature states this hypothesis at the level the chapter says overstates it.
+
+**Wall 4 fires, and the authors supply the evidence themselves.** The 9.4% decomposes into 6.0 points from early fetal mortality and 3.8 from stillbirth. Mourchid and Bakass define early fetal mortality as *abortions plus miscarriages*, and their own Bongaarts residual index attributes 0.12 births per woman to induced abortion against 0.14 for all early fetal mortality. On their own numbers, most of the larger component is induced termination, which is A.4's estimand. **B.5's clean share of the Moroccan estimate is the stillbirth component, 3.8%**, and the headline 9.4% must not be quoted as a B.5 effect. This is the contamination the scope document predicted for settings where abortion is legally restricted, arriving in the first study retrieved. A second internal tension is worth recording: the paper's life-table loss quotient is 272 per 1000 pregnancies while its reported fetal-death rates imply roughly 100 per 1000 — the Casterline and Leridon under-reporting problem visible inside a single study.
+
+**Valente (2015) reroutes on retrieval**, from `PRIMARY_SHOCK_TO_BIRTHS` to `PARAMETER_DETERMINANT_TO_LOSS`: the outcomes are miscarriage, stillbirth, and sex at birth, not births per woman. The abstract does not say, so the screen could not have known; this is the routing gate working rather than a screening error. It is nonetheless the **best-identified loss-margin estimate in the corpus**: maternal fixed effects over 11,887 Nepali pregnancies with district-by-month conflict casualties as the shock, the effect concentrated in gestational months one to five as the mechanism predicts. Moving from low- to high-intensity exposure raises the probability of miscarriage by 0.77 percentage points, 11.6% of the mean.
+
+Three of its details bear directly on §2's identification problems, and all three were flagged there a priori:
+
+- **Stillbirth moves the other way** (−0.22 ppt). Valente reads this as conflict-exposed fetuses being lost earlier rather than surviving to stillbirth — compositional movement across the live-birth boundary, so Wall 1 matters empirically and not merely definitionally.
+- **Replacement and differential reporting appear together in the author's own words**: women who lose a pregnancy may both try again sooner and under-report a further loss.
+- **The result rests on the maternal-fixed-effects specification.** Within-district estimates are positive but insignificant, and the author's explanation for the gap is differential fertility timing by conflict intensity, which is a selection process rather than noise. Recorded as a fragility.
+
+Risk of bias: Mourchid and Bakass rate **Critical** overall, binding on exposure measurement, and are usable as an accounting benchmark rather than as causal evidence. Valente rates **Moderate**, binding on outcome measurement, with the self-reported-miscarriage bias running toward zero.
+
+One count correction follows. `W1977150354`, "Children of the Revolution", is confirmed to be Valente's own working paper on the same Nepal data, so it collapses into the published article and **the primary-cell count falls from 18 to 17**. That duplicate is invisible to both dedup rules the pipeline uses: the DOIs differ, and the working paper was retitled before publication, so the titles share almost no tokens.
 
 **The shock studies are where identification lives.** The chapter's strongest designs use exogenous variation in intrauterine survival and observe births.
 
@@ -107,7 +127,7 @@ The recurring weakness is that these designs are strong on the exposure and weak
 
 ## 6. Quantitative Synthesis
 
-**No pooled estimate is produced, and none should be.** PROTOCOL §5.9 directs meta-analysis when three or more studies carry extractable effect sizes. The primary cells hold eighteen records, which clears that count, but they do not share an estimand: they differ on the estimand level (mechanical versus post-replacement), on the loss window (pre-clinical, clinically recognised, or late fetal), on the outcome (births, completed parity, intentions), and on the fertility regime, which the model in §2 says determines the effect's very existence. Pooling across those would produce a number with no interpretation. A forest plot assembled from incommensurable quantities is worse than no forest plot, because it looks like a result.
+**No pooled estimate is produced, and none should be.** PROTOCOL §5.9 directs meta-analysis when three or more studies carry extractable effect sizes. The primary cells hold seventeen records after the Valente duplicate collapses, which clears that count, but they do not share an estimand: they differ on the estimand level (mechanical versus post-replacement), on the loss window (pre-clinical, clinically recognised, or late fetal), on the outcome (births, completed parity, intentions), and on the fertility regime, which the model in §2 says determines the effect's very existence. Pooling across those would produce a number with no interpretation. A forest plot assembled from incommensurable quantities is worse than no forest plot, because it looks like a result.
 
 The synthesis is therefore the parameter model of §7, with the primary studies used to discipline its inputs and to test its central prediction.
 
@@ -187,10 +207,10 @@ Generated from `datastore/studies.json` via `make bib`; the per-hypothesis `.bib
 | 2. Search strategy and scope | Complete; four scope calls open with the PI |
 | 3. Search and AI screening | Complete, budget-bounded at 392 of 11,125 |
 | 4. RA title/abstract review | **Open.** `extraction/fetal-loss-intrauterine-mortality-ra-gate.csv` generated, unsigned |
-| 5. Full-text retrieval | **Open.** No PDF procured |
-| 6. Full-text screen | Blocked on 5 |
-| 7. Extraction | Blocked on 5 |
-| 8. Risk of bias | Blocked on 5 |
+| 5. Full-text retrieval | **In progress.** 2 of 51 procured and identity-verified |
+| 6. Full-text screen | 2 done; 1 rerouted (Valente, shock-to-births to determinant-to-loss) |
+| 7. Extraction | 2 rows in `extraction/…-effects.csv`; no pooling possible from 2 |
+| 8. Risk of bias | 2 assessed (Critical, Moderate) |
 | 9. Synthesis | Narrative complete; no pooling, with reasons |
 | 10. Demographic significance | Complete, tested, reproducible |
 | 11. GRADE | Complete with a stated deviation on rater independence |
