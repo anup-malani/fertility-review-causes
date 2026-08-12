@@ -1,0 +1,1269 @@
+[
+  {
+    "title": "Famine, social disruption, and involuntary fetal loss: Evidence from chinese survey data",
+    "authors": [
+      "Yong Cai",
+      "Feng Wang"
+    ],
+    "year": 2005,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "PRIMARY_SHOCK_TO_BIRTHS",
+    "query_cluster_family": "shock-famine",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Demography 42:301-322. The chapter's single best-identified anchor: the Great Leap famine as exogenous variation in involuntary fetal loss, with birth consequences. Note the title's lowercase 'chinese' is OpenAlex's, retained for exact matching.",
+    "doi": "10.1353/dem.2005.0010",
+    "identity_source": "https://doi.org/10.1353/dem.2005.0010",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Demography",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1353/dem.2005.0010",
+        "type": "article",
+        "year": 2005,
+        "container": "Demography",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "The Effects of Intrauterine Malnutrition on Birth and Fertility Outcomes",
+    "authors": [
+      "Rey Hern\u00e1ndez-Juli\u00e1n",
+      "Hani Mansour",
+      "Christina Peters"
+    ],
+    "year": 2014,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "PRIMARY_SHOCK_TO_BIRTHS",
+    "query_cluster_family": "shock-famine",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Demography 51:1775-1796 (1974-75 Bangladesh famine). VERSION-GATE TEST CASE: an SSRN preprint twin exists at 10.2139/ssrn.2345609 with an identical title and the same authors, one year earlier. The resolver must return the Demography record.",
+    "doi": "10.1007/s13524-014-0326-5",
+    "identity_source": "https://doi.org/10.1007/s13524-014-0326-5",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 0.667,
+    "container": "Demography",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 3,
+    "rejected_versions": [
+      {
+        "doi": "10.1007/s13524-014-0326-5",
+        "type": "article",
+        "year": 2014,
+        "container": "Demography",
+        "score": 120,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.2139/ssrn.2345609",
+        "type": "journal-article",
+        "year": 2013,
+        "container": "SSRN Electronic Journal",
+        "score": 71,
+        "src": "crossref"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Short-Term Birth Sequelae of the 1918-1920 Influenza Pandemic in the United States",
+    "authors": [
+      "Siddharth Chandra",
+      "Julia Christensen",
+      "Svenn-Erik Mamelund",
+      "Nigel Paneth"
+    ],
+    "year": 2018,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "PRIMARY_SHOCK_TO_BIRTHS",
+    "query_cluster_family": "shock-epidemic",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Am J Epidemiol 187:2585-2595. Pandemic exposure -> births, running through fetal loss.",
+    "doi": "10.1093/aje/kwy153",
+    "identity_source": "https://doi.org/10.1093/aje/kwy153",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 0.812,
+    "container": "American Journal of Epidemiology",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1093/aje/kwy153",
+        "type": "article",
+        "year": 2018,
+        "container": "American Journal of Epidemiology",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Excess risk of stillbirth during the 1918-1920 influenza pandemic in Japan",
+    "authors": [
+      "Hiroshi Nishiura"
+    ],
+    "year": 2009,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "PRIMARY_SHOCK_TO_BIRTHS",
+    "query_cluster_family": "shock-epidemic",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Eur J Obstet Gynecol Reprod Biol. Stillbirth outcome only; the fertility consequence is inferred, so this may settle at PARAMETER_DETERMINANT_TO_LOSS at full text.",
+    "doi": "10.1016/j.ejogrb.2009.07.009",
+    "identity_source": "https://doi.org/10.1016/j.ejogrb.2009.07.009",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "European Journal of Obstetrics &amp; Gynecology and Reproductive Biology",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1016/j.ejogrb.2009.07.009",
+        "type": "article",
+        "year": 2009,
+        "container": "European Journal of Obstetrics & Gynecology and Reproductive Biology",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Famine, Maternal Nutrition and Infant Mortality: A Re-examination of the Dutch Hunger Winter",
+    "authors": [
+      "Nicky Hart"
+    ],
+    "year": 1993,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "PRIMARY_SHOCK_TO_BIRTHS",
+    "query_cluster_family": "shock-famine",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Population Studies 47:27-46. The Dutch Hunger Winter, the best-documented nutritional shock in the historical record, re-examined on the fetal and infant margins.",
+    "doi": "10.1080/0032472031000146716",
+    "identity_source": "https://doi.org/10.1080/0032472031000146716",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Population Studies",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1080/0032472031000146716",
+        "type": "article",
+        "year": 1993,
+        "container": "Population Studies",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Pregnancy Wastage among Married Women in South Korea",
+    "authors": [
+      "Minja Kim Choe",
+      "Seung-Kwon Kim"
+    ],
+    "year": 2007,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "PRIMARY_LOSS_TO_FERTILITY",
+    "query_cluster_family": "loss-to-fertility",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Asian Population Studies. One of very few records the recon pass found that puts pregnancy loss and fertility in the same estimand. Wall 4 is live here: Korean 'pregnancy wastage' data mix induced and spontaneous loss.",
+    "doi": "10.1080/17441730701270830",
+    "identity_source": "https://doi.org/10.1080/17441730701270830",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Asian Population Studies",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1080/17441730701270830",
+        "type": "article",
+        "year": 2007,
+        "container": "Asian Population Studies",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "The effects of family planning and other factors on fertility, abortion, miscarriage, and stillbirths",
+    "authors": [
+      "John Stover",
+      "William Winfrey"
+    ],
+    "year": 2017,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "MECHANICAL_ACCOUNTING",
+    "query_cluster_family": "accounting",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "BMC Public Health. A projection model, so ACCOUNTING_SHARE by construction. Carried to anchor the accounting stratum, and never poolable with an identified estimate.",
+    "doi": "10.1186/s12889-017-4740-7",
+    "identity_source": "https://doi.org/10.1186/s12889-017-4740-7",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 0.812,
+    "container": "BMC Public Health",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1186/s12889-017-4740-7",
+        "type": "article",
+        "year": 2017,
+        "container": "BMC Public Health",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Inbreeding Effects on Fertility in Humans: Evidence for Reproductive Compensation",
+    "authors": [
+      "Carole Ober",
+      "Terry Hyslop",
+      "Walter W. Hauck"
+    ],
+    "year": 1999,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "REPLACEMENT_COMPENSATION",
+    "query_cluster_family": "replacement",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Am J Hum Genet 64:225-231. Hutterite data: fetal loss offset by compensating conceptions, so completed family size moves far less than the loss rate. This is the chapter's accounting-identity argument measured in a real natural-fertility population.",
+    "doi": "10.1086/302198",
+    "identity_source": "https://doi.org/10.1086/302198",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "The American Journal of Human Genetics",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1086/302198",
+        "type": "article",
+        "year": 1999,
+        "container": "The American Journal of Human Genetics",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "The hypothesis of reproductive compensation and its assumptions about mate preferences and offspring viability",
+    "authors": [
+      "Patricia Adair Gowaty",
+      "Wyatt W. Anderson",
+      "Cynthia K. Bluhm",
+      "Lee C. Drickamer"
+    ],
+    "year": 2007,
+    "provenance_channel": "hypothesis_canon",
+    "provisional_cell": "REPLACEMENT_COMPENSATION",
+    "query_cluster_family": "replacement",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "PNAS 104:15023-15027. The formal statement of reproductive compensation and its assumptions; theory-side of the attenuation parameter.",
+    "doi": "10.1073/pnas.0706622104",
+    "identity_source": "https://doi.org/10.1073/pnas.0706622104",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Proceedings of the National Academy of Sciences",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1073/pnas.0706622104",
+        "type": "article",
+        "year": 2007,
+        "container": "Proceedings of the National Academy of Sciences",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Incidence of Early Loss of Pregnancy",
+    "authors": [
+      "Allen J. Wilcox",
+      "Clarice R. Weinberg",
+      "John F. O'Connor",
+      "Donna D. Baird"
+    ],
+    "year": 1988,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "PARAMETER_LOSS_LEVEL",
+    "query_cluster_family": "loss-level",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "NEJM 319:189-194. The canonical hCG-assay estimate of total post-implantation loss, and the reason LOSS_WINDOW_WEEKS exists as an extraction field. AUTHOR-GATE TEST CASE: a same-year NEJM correspondence item carries the identical title under Hertz-Picciotto and Samuels.",
+    "doi": "10.1056/nejm198807283190401",
+    "identity_source": "https://doi.org/10.1056/nejm198807283190401",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "New England Journal of Medicine",
+    "record_type": "article",
+    "resolved_via": "openalex",
+    "author_match": true,
+    "n_title_passing": 3,
+    "rejected_versions": [
+      {
+        "doi": "10.1097/00006254-198902000-00024",
+        "type": "article",
+        "year": 1989,
+        "container": "Obstetrical & Gynecological Survey",
+        "score": 116,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.1056/nejm198812013192214",
+        "type": "journal-article",
+        "year": 1988,
+        "container": "New England Journal of Medicine",
+        "score": 80,
+        "src": "crossref"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Maternal age and fetal loss: population based register linkage study",
+    "authors": [
+      "Anne-Marie Nybo Andersen"
+    ],
+    "year": 2000,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "PARAMETER_LOSS_LEVEL",
+    "query_cluster_family": "loss-level",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "BMJ 320:1708-1712. The canonical age gradient; also the Wall 5 confound in its sharpest form.",
+    "doi": "10.1136/bmj.320.7251.1708",
+    "identity_source": "https://doi.org/10.1136/bmj.320.7251.1708",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "BMJ",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 4,
+    "rejected_versions": [
+      {
+        "doi": "10.1136/bmj.320.7251.1708",
+        "type": "article",
+        "year": 2000,
+        "container": "BMJ",
+        "score": 120,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.1136/bmj.322.7283.429",
+        "type": "journal-article",
+        "year": 2001,
+        "container": "BMJ",
+        "score": 76,
+        "src": "crossref"
+      },
+      {
+        "doi": "10.1016/s0968-8080(01)90070-9",
+        "type": "journal-article",
+        "year": 2001,
+        "container": "Reproductive Health Matters",
+        "score": 76,
+        "src": "crossref"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Conception to ongoing pregnancy: the 'black box' of early pregnancy loss",
+    "authors": [
+      "N.S. Macklon"
+    ],
+    "year": 2002,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "PARAMETER_LOSS_LEVEL",
+    "query_cluster_family": "loss-level",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Hum Reprod Update 8:333-343. The conception-to-birth attrition schedule.",
+    "doi": "10.1093/humupd/8.4.333",
+    "identity_source": "https://doi.org/10.1093/humupd/8.4.333",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Human Reproduction Update",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1093/humupd/8.4.333",
+        "type": "article",
+        "year": 2002,
+        "container": "Human Reproduction Update",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Estimates of human fertility and pregnancy loss",
+    "authors": [
+      "Michael J. Zinaman",
+      "E. D. Clegg",
+      "Charles Brown",
+      "John F. O'Connor"
+    ],
+    "year": 1996,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "PARAMETER_LOSS_LEVEL",
+    "query_cluster_family": "loss-level",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Fertil Steril 65:503-509. VERSION-GATE TEST CASE: a 2019 'Reprint of:' record exists in the same journal at 10.1016/j.fertnstert.2019.08.096.",
+    "doi": "10.1016/s0015-0282(16)58144-8",
+    "identity_source": "https://doi.org/10.1016/s0015-0282(16)58144-8",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Fertility and Sterility",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 4,
+    "rejected_versions": [
+      {
+        "doi": "10.1016/s0015-0282(16)58144-8",
+        "type": "article",
+        "year": 1996,
+        "container": "Fertility and Sterility",
+        "score": 120,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.1016/j.fertnstert.2019.08.096",
+        "type": "journal-article",
+        "year": 2019,
+        "container": "Fertility and Sterility",
+        "score": 30,
+        "src": "crossref"
+      },
+      {
+        "doi": "10.1016/j.fertnstert.2019.08.096",
+        "type": "article",
+        "year": 2019,
+        "container": "Fertility and Sterility",
+        "score": 30,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Miscarriage matters: the epidemiological, physical, psychological, and economic costs of early pregnancy loss",
+    "authors": [
+      "Siobhan Quenby",
+      "Ioannis Gallos",
+      "Rima Dhillon-Smith",
+      "Marcelina Podesek"
+    ],
+    "year": 2021,
+    "provenance_channel": "channel1_review_seed",
+    "provisional_cell": "PARAMETER_LOSS_LEVEL",
+    "query_cluster_family": "loss-level",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Lancet 397:1658-1667. Lancet miscarriage-series overview; the privileged channel-1 seed for loss PREVALENCE. LEAKAGE WALL applies: its search strategy must not be mined for A6 query terms.",
+    "doi": "10.1016/s0140-6736(21)00682-6",
+    "identity_source": "https://doi.org/10.1016/s0140-6736(21)00682-6",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "The Lancet",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1016/s0140-6736(21)00682-6",
+        "type": "article",
+        "year": 2021,
+        "container": "The Lancet",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "National, regional, and worldwide estimates of stillbirth rates in 2015, with trends from 2000",
+    "authors": [
+      "Hannah Blencowe",
+      "Simon Cousens",
+      "Fiorella Bianchi-Jassir",
+      "Lale Say"
+    ],
+    "year": 2016,
+    "provenance_channel": "channel1_review_seed",
+    "provisional_cell": "PARAMETER_LOSS_LEVEL",
+    "query_cluster_family": "loss-level",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Lancet Global Health 4:e98-e108. The stillbirth-rate series and the definitional threshold problem (28 weeks for comparability) that LOSS_WINDOW_WEEKS records.",
+    "doi": "10.1016/s2214-109x(15)00275-2",
+    "identity_source": "https://doi.org/10.1016/s2214-109x(15)00275-2",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 0.824,
+    "container": "The Lancet Global Health",
+    "record_type": "article",
+    "resolved_via": "openalex",
+    "author_match": true,
+    "n_title_passing": 1,
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "The role of infection in miscarriage",
+    "authors": [
+      "Sevi Giakoumelou",
+      "Nick Wheelhouse",
+      "Kate Cuschieri",
+      "Gary Entrican"
+    ],
+    "year": 2015,
+    "provenance_channel": "channel1_review_seed",
+    "provisional_cell": "PARAMETER_DETERMINANT_TO_LOSS",
+    "query_cluster_family": "determinant-infection",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Hum Reprod Update 22:116-133. The infection -> loss channel, which is Wall 2's B.5-side content: infection acting on survival rather than on conception.",
+    "doi": "10.1093/humupd/dmv041",
+    "identity_source": "https://doi.org/10.1093/humupd/dmv041",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Human Reproduction Update",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1093/humupd/dmv041",
+        "type": "article",
+        "year": 2015,
+        "container": "Human Reproduction Update",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Stillbirths: rates, risk factors, and acceleration towards 2030",
+    "authors": [
+      "Joy E Lawn",
+      "Hannah Blencowe",
+      "Peter Waiswa",
+      "Agbessi Amouzou"
+    ],
+    "year": 2016,
+    "provenance_channel": "channel1_review_seed",
+    "provisional_cell": "PARAMETER_DETERMINANT_TO_LOSS",
+    "query_cluster_family": "determinant-infection",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Lancet 387:587-603. Risk-factor decomposition for stillbirth, including syphilis and malaria \u2014 B.5's historical drivers measured in a contemporary setting.",
+    "doi": "10.1016/s0140-6736(15)00837-5",
+    "identity_source": "https://doi.org/10.1016/s0140-6736(15)00837-5",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "The Lancet",
+    "record_type": "article",
+    "resolved_via": "openalex",
+    "author_match": true,
+    "n_title_passing": 1,
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Collecting Data on Pregnancy Loss: A Review of Evidence from the World Fertility Survey",
+    "authors": [
+      "John B. Casterline"
+    ],
+    "year": 1989,
+    "provenance_channel": "hypothesis_canon",
+    "provisional_cell": "MEASUREMENT_METHOD",
+    "query_cluster_family": "measurement",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Studies in Family Planning 20:81-95. HYPOTHESES-v5 seminal entry, and the chapter's methodological anchor: survey pregnancy-loss data are under-reported non-randomly, which is the first-order threat to every PM and FDT estimate in this chapter.",
+    "doi": "10.2307/1966462",
+    "identity_source": "https://doi.org/10.2307/1966462",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Studies in Family Planning",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.2307/1966462",
+        "type": "article",
+        "year": 1989,
+        "container": "Studies in Family Planning",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "A Framework for Analyzing the Proximate Determinants of Fertility",
+    "authors": [
+      "John Bongaarts"
+    ],
+    "year": 1978,
+    "provenance_channel": "hypothesis_canon",
+    "provisional_cell": "THEORY_PROXIMATE_DETERMINANTS",
+    "query_cluster_family": "theory-proximate",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Population and Development Review 4:105-132. The accounting frame in which fetal loss is a component of the birth interval rather than a multiplier on births.",
+    "doi": "10.2307/1972149",
+    "identity_source": "https://doi.org/10.2307/1972149",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Population and Development Review",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.2307/1972149",
+        "type": "article",
+        "year": 1978,
+        "container": "Population and Development Review",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Fertility, Biology, and Behavior: An Analysis of the Proximate Determinants",
+    "authors": [
+      "John Bongaarts",
+      "Robert G. Potter"
+    ],
+    "year": 1983,
+    "provenance_channel": "hypothesis_canon",
+    "provisional_cell": "THEORY_PROXIMATE_DETERMINANTS",
+    "query_cluster_family": "theory-proximate",
+    "is_book": true,
+    "expect_no_doi": true,
+    "source_note": "Academic Press monograph; HYPOTHESES-v5 seminal entry. BOOK-CANON CASE: several same-title records exist in PDR, Studies in Family Planning, and Social Forces, at least one of which is a review crediting the book's own authors.",
+    "doi": null,
+    "identity_verified": false,
+    "match_jaccard": 1.0,
+    "best_near_miss": {
+      "doi": "10.2307/2578633",
+      "title": "Fertility, Biology, and Behavior: An Analysis of the Proximate Determinants.",
+      "jaccard": 1.0,
+      "year": 1985,
+      "container": "Social Forces",
+      "type": "journal-article",
+      "author_match": true,
+      "review_shape": false,
+      "is_fallback": true
+    },
+    "refused_reasons": [
+      "not_book_shaped:article",
+      "not_book_shaped:journal-article",
+      "review_of_the_work",
+      "title_or_no_doi"
+    ],
+    "refused_candidates": [
+      {
+        "reason": "title_or_no_doi",
+        "title": "Regulated Fertility and Its Proximate Determinants",
+        "doi": "10.1016/b978-0-08-091698-9.50008-7"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Natural Fertility and Its Proximate Determinants",
+        "doi": "10.1016/b978-0-08-091698-9.50007-5"
+      },
+      {
+        "reason": "not_book_shaped:journal-article",
+        "title": "Fertility, Biology, and Behavior: An Analysis of the Proxima",
+        "doi": "10.2307/2578633"
+      },
+      {
+        "reason": "not_book_shaped:journal-article",
+        "title": "Fertility, Biology, and Behavior: An Analysis of the Proxima",
+        "doi": "10.2307/1973328"
+      },
+      {
+        "reason": "not_book_shaped:journal-article",
+        "title": "Fertility, Biology, and Behavior: An Analysis of the Proxima",
+        "doi": "10.2307/1965489"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": ": Fertility, Biology and Behavior: An Analysis in Proximate ",
+        "doi": "10.1525/maq.1985.16.3.02a00120"
+      }
+    ],
+    "gold_status": "unverified_no_doi_match",
+    "note": "Book or monograph; expected index miss. Carried keyed on title, not faked. The near-miss record is retained so an RA can see what the resolver refused and why."
+  },
+  {
+    "title": "Dynamics of Human Reproduction: Biology, Biometry, Demography",
+    "authors": [
+      "James W. Wood"
+    ],
+    "year": 1994,
+    "provenance_channel": "hypothesis_canon",
+    "provisional_cell": "THEORY_PROXIMATE_DETERMINANTS",
+    "query_cluster_family": "theory-proximate",
+    "is_book": true,
+    "expect_no_doi": true,
+    "source_note": "Aldine de Gruyter; HYPOTHESES-v5 seminal entry. BOOK-CANON CASE: returns reviews by Leidy, du Toit, and Tracer. Here the author gate does the work, since no reviewer shares Wood's surname.",
+    "doi": null,
+    "identity_verified": false,
+    "match_jaccard": 0.571,
+    "best_near_miss": {
+      "doi": "10.4324/9780203792780",
+      "title": "Dynamics of Human Reproduction",
+      "jaccard": 0.571,
+      "year": 2017,
+      "container": "",
+      "type": "book",
+      "author_match": true,
+      "review_shape": false,
+      "is_fallback": false
+    },
+    "refused_reasons": null,
+    "refused_candidates": null,
+    "gold_status": "unverified_no_doi_match",
+    "note": "Book or monograph; expected index miss. Carried keyed on title, not faked. The near-miss record is retained so an RA can see what the resolver refused and why."
+  },
+  {
+    "title": "Human Fertility: The Basic Components",
+    "authors": [
+      "Henri Leridon"
+    ],
+    "year": 1977,
+    "provenance_channel": "hypothesis_canon",
+    "provisional_cell": "THEORY_PROXIMATE_DETERMINANTS",
+    "query_cluster_family": "theory-proximate",
+    "is_book": true,
+    "expect_no_doi": true,
+    "source_note": "University of Chicago Press. BOOK-CANON CASE OF THE HARDER KIND: the PDR and Population Studies records credit Leridon and his translator Helzner alongside a reviewer, so the author gate PASSES on the reviews and only the review-shape and fallback flags reject them.",
+    "doi": null,
+    "identity_verified": false,
+    "match_jaccard": 1.0,
+    "best_near_miss": {
+      "doi": "10.2307/2173549",
+      "title": "Human Fertility: The Basic Components.",
+      "jaccard": 1.0,
+      "year": 1979,
+      "container": "Population Studies",
+      "type": "journal-article",
+      "author_match": true,
+      "review_shape": false,
+      "is_fallback": true
+    },
+    "refused_reasons": [
+      "authors_disagree",
+      "not_book_shaped:journal-article",
+      "title_or_no_doi"
+    ],
+    "refused_candidates": [
+      {
+        "reason": "not_book_shaped:journal-article",
+        "title": "Human Fertility: The Basic Components.",
+        "doi": "10.2307/2173549"
+      },
+      {
+        "reason": "not_book_shaped:journal-article",
+        "title": "Human Fertility: The Basic Components.",
+        "doi": "10.2307/1972295"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Validation of cell culture media components",
+        "doi": "10.1080/14647270410001699072"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "In vitro maturation of human oocytes\u2013Basic science to clinic",
+        "doi": "10.1080/14647270701712944"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "<i>Human Fertility: The Basic Components</i>. Henri Leridon ",
+        "doi": "10.1086/410955"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Female fertility: basic research",
+        "doi": "10.1093/humrep/den1104"
+      }
+    ],
+    "gold_status": "unverified_no_doi_match",
+    "note": "Book or monograph; expected index miss. Carried keyed on title, not faked. The near-miss record is retained so an RA can see what the resolver refused and why."
+  },
+  {
+    "title": "Mathematical Models of Conception and Birth",
+    "authors": [
+      "Mindel C. Sheps",
+      "Jane Menken"
+    ],
+    "year": 1973,
+    "provenance_channel": "hypothesis_canon",
+    "provisional_cell": "THEORY_PROXIMATE_DETERMINANTS",
+    "query_cluster_family": "theory-proximate",
+    "is_book": true,
+    "expect_no_doi": true,
+    "source_note": "University of Chicago Press. The birth-interval model fetal loss enters as an added component. BOOK-CANON CASE: the JASA record credits Cohen (the reviewer) alongside Sheps and Menken.",
+    "doi": null,
+    "identity_verified": false,
+    "match_jaccard": 1.0,
+    "best_near_miss": {
+      "doi": "10.7326/0003-4819-80-3-439_3",
+      "title": "Mathematical Models of Conception and Birth.",
+      "jaccard": 1.0,
+      "year": 1974,
+      "container": "Annals of Internal Medicine",
+      "type": "journal-article",
+      "author_match": null,
+      "review_shape": false,
+      "is_fallback": true
+    },
+    "refused_reasons": [
+      "authors_disagree",
+      "not_book_shaped:article",
+      "not_book_shaped:book-review",
+      "not_book_shaped:journal-article",
+      "title_or_no_doi"
+    ],
+    "refused_candidates": [
+      {
+        "reason": "title_or_no_doi",
+        "title": "Conception and Birth Mathematical Models of Conception and B",
+        "doi": "10.2307/1296640"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Price $18.50Mendel C. Sheps and Jane A. Menken, Mathematical",
+        "doi": "10.1016/s0092-8240(74)80042-x"
+      },
+      {
+        "reason": "not_book_shaped:journal-article",
+        "title": "Mathematical Models of Conception and Birth.",
+        "doi": "10.7326/0003-4819-80-3-439_3"
+      },
+      {
+        "reason": "not_book_shaped:journal-article",
+        "title": "Mathematical Models of Conception and Birth",
+        "doi": "10.2307/2529250"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Sheps Mindel C., Menken Jane A. \u2014 Mathematical models of con",
+        "doi": "10.3917/popu.p1975.30n2.0405"
+      },
+      {
+        "reason": "not_book_shaped:journal-article",
+        "title": "Mathematical Models of Conception and Birth",
+        "doi": "10.2307/1530680"
+      }
+    ],
+    "gold_status": "unverified_no_doi_match",
+    "note": "Book or monograph; expected index miss. Carried keyed on title, not faked. The near-miss record is retained so an RA can see what the resolver refused and why."
+  },
+  {
+    "title": "Death before Birth: Fetal Health and Mortality in Historical Perspective",
+    "authors": [
+      "Robert Woods"
+    ],
+    "year": 2009,
+    "provenance_channel": "hypothesis_canon",
+    "provisional_cell": "PARAMETER_LOSS_LEVEL",
+    "query_cluster_family": "historical",
+    "is_book": true,
+    "expect_no_doi": false,
+    "source_note": "Oxford University Press. The chapter's central FDT-era source: fetal mortality measured in the historical record. Unlike the other books this one HAS a live monograph DOI (an OUP acprof id), so it tests that the book gate accepts a real monograph rather than merely rejecting reviews \u2014 it returns three reviews too (Weaver, Nicholson, Harris).",
+    "doi": "10.1093/acprof:oso/9780199542758.001.0001",
+    "identity_source": "https://doi.org/10.1093/acprof:oso/9780199542758.001.0001",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "",
+    "record_type": "monograph",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 1,
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Fertility and Pregnancy: An Epidemiologic Perspective",
+    "authors": [
+      "Allen J. Wilcox"
+    ],
+    "year": 2010,
+    "provenance_channel": "hypothesis_canon",
+    "provisional_cell": "MEASUREMENT_METHOD",
+    "query_cluster_family": "theory-proximate",
+    "is_book": true,
+    "expect_no_doi": true,
+    "source_note": "Oxford University Press. The measurement-theoretic treatment of pregnancy loss observation windows. BOOK-CANON CASE: its AJE review is titled '... By Allen J Wilcox', which is the by-line review shape the title test screens for.",
+    "doi": null,
+    "identity_verified": false,
+    "match_jaccard": 0.5,
+    "best_near_miss": {
+      "doi": "10.1093/med/9780198931898.001.0001",
+      "title": "Fertility and Pregnancy",
+      "jaccard": 0.5,
+      "year": 2026,
+      "container": "",
+      "type": "book",
+      "author_match": true,
+      "review_shape": false,
+      "is_fallback": false
+    },
+    "refused_reasons": null,
+    "refused_candidates": null,
+    "gold_status": "unverified_no_doi_match",
+    "note": "Book or monograph; expected index miss. Carried keyed on title, not faked. The near-miss record is retained so an RA can see what the resolver refused and why."
+  },
+  {
+    "title": "Infertility in sub-Saharan Africa: Estimates and Implications",
+    "authors": [
+      "Odile Frank"
+    ],
+    "year": 1983,
+    "provenance_channel": "routing_decoy_B3",
+    "provisional_cell": "OFF_STERILITY_B3",
+    "query_cluster_family": "ROUTING_DECOY",
+    "is_book": false,
+    "expect_no_doi": false,
+    "routing_note": "Wall 2. Infection acting on the CONCEPTION margin (sterility, the infertility belt) is B.3's estimand even though its causes and its populations are B.5's.",
+    "doi": "10.2307/1972901",
+    "identity_source": "https://doi.org/10.2307/1972901",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Population and Development Review",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.2307/1972901",
+        "type": "article",
+        "year": 1983,
+        "container": "Population and Development Review",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Age and Infertility",
+    "authors": [
+      "Jane Menken",
+      "James Trussell",
+      "Ulla Larsen"
+    ],
+    "year": 1986,
+    "provenance_channel": "routing_decoy_A15",
+    "provisional_cell": "OFF_MATERNAL_AGE_A15",
+    "query_cluster_family": "ROUTING_DECOY",
+    "is_book": false,
+    "expect_no_doi": false,
+    "routing_note": "Wall 5. Maternal age as the identifying variation routes to A.15, whose claim text already owns rising miscarriage risk.",
+    "doi": "10.1126/science.3755843",
+    "identity_source": "https://doi.org/10.1126/science.3755843",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Science",
+    "record_type": "article",
+    "resolved_via": "openalex",
+    "author_match": true,
+    "n_title_passing": 4,
+    "rejected_versions": [
+      {
+        "doi": "10.1126/science.234.4775.413.b",
+        "type": "journal-article",
+        "year": 1986,
+        "container": "Science",
+        "score": 80,
+        "src": "crossref"
+      },
+      {
+        "doi": "10.1126/science.234.4775.413-b",
+        "type": "journal-article",
+        "year": 1986,
+        "container": "Science",
+        "score": 80,
+        "src": "crossref"
+      },
+      {
+        "doi": "10.7551/mitpress/10389.003.0015",
+        "type": "book-chapter",
+        "year": 2015,
+        "container": "Preterm Babies, Fetal Patients, and Childbearing Choices",
+        "score": -10,
+        "src": "crossref"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Abortion Legalization in Uruguay: Effects on Adolescent Fertility",
+    "authors": [
+      "Wanda Cabella",
+      "Cecilia Vel\u00e1zquez"
+    ],
+    "year": 2022,
+    "provenance_channel": "routing_decoy_A4",
+    "provisional_cell": "OFF_INDUCED_ABORTION_A4",
+    "query_cluster_family": "ROUTING_DECOY",
+    "is_book": false,
+    "expect_no_doi": false,
+    "routing_note": "Wall 4. Deliberate termination is A.4. Included because the screen must not route on the word 'abortion', which B.5's own vocabulary contains.",
+    "doi": "10.1111/sifp.12204",
+    "identity_source": "https://doi.org/10.1111/sifp.12204",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Studies in Family Planning",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1111/sifp.12204",
+        "type": "article",
+        "year": 2022,
+        "container": "Studies in Family Planning",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "The Effects of Infant and Child Mortality on Fertility",
+    "authors": [
+      "Samuel H. Preston"
+    ],
+    "year": 1978,
+    "provenance_channel": "routing_decoy_A1",
+    "provisional_cell": "OFF_CHILD_MORTALITY_A1",
+    "query_cluster_family": "ROUTING_DECOY",
+    "is_book": true,
+    "expect_no_doi": true,
+    "routing_note": "Wall 1. Post-natal mortality and the behavioural replacement response are A.1's. BOOK-CANON CASE TOO: the Contemporary Sociology record credits Gendell AND Preston, so the author gate passes on the review.",
+    "doi": null,
+    "identity_verified": false,
+    "match_jaccard": 1.0,
+    "best_near_miss": {
+      "doi": "10.2307/2066891",
+      "title": "The Effects of Infant and Child Mortality on Fertility.",
+      "jaccard": 1.0,
+      "year": 1981,
+      "container": "Contemporary Sociology",
+      "type": "journal-article",
+      "author_match": true,
+      "review_shape": true,
+      "is_fallback": true
+    },
+    "refused_reasons": [
+      "review_of_the_work",
+      "title_or_no_doi"
+    ],
+    "refused_candidates": [
+      {
+        "reason": "title_or_no_doi",
+        "title": "Fertility, Infant Mortality, and Gender",
+        "doi": "10.1093/oso/9780198903000.003.0003"
+      },
+      {
+        "reason": "review_of_the_work",
+        "title": "The Effects of Infant and Child Mortality on Fertility.",
+        "doi": "10.2307/2066891"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Health Effects of Child Labour",
+        "doi": "10.1093/oso/9780198903000.003.0007"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Child Labour Effects of Access to Basic Utilities",
+        "doi": "10.1093/oso/9780198903000.003.0005"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Child Labour Effects of Credit Rationing and Uninsured Shock",
+        "doi": "10.1093/oso/9780198903000.003.0004"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Child Labour, Fertility, and Gender",
+        "doi": "10.1093/oso/9780198903000.003.0008"
+      }
+    ],
+    "gold_status": "unverified_no_doi_match",
+    "note": "Book or monograph; expected index miss. Carried keyed on title, not faked. The near-miss record is retained so an RA can see what the resolver refused and why."
+  },
+  {
+    "title": "Embryonic Mortality in Farm Animals",
+    "authors": [
+      "J.M. Sreenan",
+      "M. G. Diskin"
+    ],
+    "year": 1986,
+    "provenance_channel": "routing_decoy_species",
+    "provisional_cell": "OFF_ANIMAL",
+    "query_cluster_family": "ROUTING_DECOY",
+    "is_book": true,
+    "expect_no_doi": false,
+    "routing_note": "Wall 7. The veterinary reproductive-wastage literature shares B.5's vocabulary almost exactly and is large. Cheap to exclude, expensive to discover late.",
+    "doi": "10.1007/978-94-009-5038-2",
+    "identity_source": "https://doi.org/10.1007/978-94-009-5038-2",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "",
+    "record_type": "book",
+    "resolved_via": "openalex",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1007/978-94-009-5038-2",
+        "type": "book",
+        "year": 1986,
+        "container": "",
+        "score": 65,
+        "src": "crossref"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "ESHRE guideline: recurrent pregnancy loss",
+    "authors": [
+      "Ruth Bender-Atik",
+      "Ole Bjarne Christiansen",
+      "J. Elson"
+    ],
+    "year": 2018,
+    "provenance_channel": "routing_decoy_clinical",
+    "provisional_cell": "OFF_CLINICAL_MANAGEMENT",
+    "query_cluster_family": "ROUTING_DECOY",
+    "is_book": false,
+    "expect_no_doi": false,
+    "routing_note": "Clinical management of recurrent pregnancy loss: the single densest region of the adjacent literature, and the cell expected to dominate the corpus.",
+    "doi": "10.1093/hropen/hoy004",
+    "identity_source": "https://doi.org/10.1093/hropen/hoy004",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Human Reproduction Open",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 4,
+    "rejected_versions": [
+      {
+        "doi": "10.1093/hropen/hoy004",
+        "type": "article",
+        "year": 2018,
+        "container": "Human Reproduction Open",
+        "score": 120,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.1093/hropen/hoad002",
+        "type": "journal-article",
+        "year": 2022,
+        "container": "Human Reproduction Open",
+        "score": 104,
+        "src": "crossref"
+      },
+      {
+        "doi": "10.1093/hropen/hoad002",
+        "type": "article",
+        "year": 2022,
+        "container": "Human Reproduction Open",
+        "score": 104,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  }
+]
