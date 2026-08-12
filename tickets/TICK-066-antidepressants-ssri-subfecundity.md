@@ -1,5 +1,5 @@
 # TICK-066: B.7. Antidepressants and Pharmacological Subfecundity
-**Status:** open
+**Status:** in-progress
 **Assigned:** Shravan
 **Hypothesis:** `antidepressants-ssri-subfecundity` — HYPOTHESES-v5.md §B.7
 **Parallel-safe:** yes
