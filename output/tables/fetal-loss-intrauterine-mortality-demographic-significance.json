@@ -1,0 +1,110 @@
+{
+  "params": {
+    "w": [
+      4.0,
+      7.0
+    ],
+    "i": [
+      9.0,
+      18.0
+    ],
+    "g_L": [
+      2.5,
+      4.0
+    ],
+    "r": [
+      1.0,
+      2.5
+    ],
+    "T": [
+      216.0,
+      264.0
+    ]
+  },
+  "param_sources": {
+    "w": "Fecundability 0.15-0.25/month in natural-fertility populations; Wood 1994 (Dynamics of Human Reproduction), Hutterite fecundability by age and parity (Demography 1993).",
+    "i": "Bongaarts 1978 proximate-determinants framework; postpartum infecundability is the dominant interval component under prolonged breastfeeding. Cross-refs A.13.",
+    "g_L": "Gestational distribution of recognised loss: Wilcox et al. 1988 (NEJM), Macklon et al. 2002 (Hum Reprod Update), 'Biological Causes of Foetal Loss' (1993).",
+    "r": "Time added per loss, Bongaarts and Potter 1983; recovery interval after early loss, Schisterman et al. 2016 (Obstet Gynecol, trying to conceive after an early loss).",
+    "T": "Exposed span within marriage under the European and non-European marriage patterns; cross-refs A.7."
+  },
+  "scenarios": {
+    "PM_high_morbidity": [
+      0.2,
+      0.28
+    ],
+    "PM_low_morbidity": [
+      0.1,
+      0.15
+    ],
+    "FDT_start_c1870": [
+      0.16,
+      0.24
+    ],
+    "FDT_end_c1965": [
+      0.09,
+      0.13
+    ],
+    "contemporary": [
+      0.11,
+      0.15
+    ]
+  },
+  "scenario_sources": {
+    "PM_high_morbidity": "Upper end anchored on populations with endemic malaria, syphilis and undernutrition; WFS-era estimates across eight countries (Social Biology 1989) and the Varanasi pregnancy-wastage cohort. Under-reporting means recorded rates are floors, so the range is drawn wide.",
+    "PM_low_morbidity": "Recognised-loss rates in low-morbidity natural-fertility populations; Hutterite prospective series.",
+    "FDT_start_c1870": "Late-fetal death alone ran 40-50 per 1000 births in nineteenth-century Europe (Woods 2009); early loss is unobserved and is inferred from contemporary recognised-loss rates plus a morbidity premium.",
+    "FDT_end_c1965": "Stillbirth rates fell to roughly 10-15 per 1000 by the 1960s in northern Europe (Danish post-1940 decline, Population Studies 2010); early-loss component assumed near contemporary levels.",
+    "contemporary": "Blencowe et al. 2016 stillbirth estimates; Quenby et al. 2021 miscarriage prevalence; NSFG self-reported loss trend 1990-2011."
+  },
+  "n_draws": 20000,
+  "seed": 20260811,
+  "results": {
+    "PM": {
+      "behavioral_net": {
+        "median": 0.06166151437278111,
+        "lo": 0.0318786271268825,
+        "hi": 0.09871985208098777
+      },
+      "accounting_share": {
+        "median": 0.15201512641812098,
+        "lo": 0.080597072141809,
+        "hi": 0.22773426279285025
+      },
+      "mean_birth_interval_months": {
+        "from": 31.34847271710239,
+        "to": 29.51927276486102
+      },
+      "overstatement_ratio": 2.465316137049403
+    },
+    "FDT": {
+      "behavioral_net": {
+        "median": 0.045330242908794616,
+        "lo": 0.02006825453367478,
+        "hi": 0.0767357723426838
+      },
+      "accounting_share": {
+        "median": 0.11308268352806705,
+        "lo": 0.05090424078839173,
+        "hi": 0.17885503725019025
+      },
+      "mean_birth_interval_months": {
+        "from": 30.653955683443044,
+        "to": 29.317393503064267
+      },
+      "overstatement_ratio": 2.4946410226742386
+    },
+    "FDT_vs_observed": {
+      "tfr_start": 5.5,
+      "tfr_end": 3.0,
+      "observed_change": -2.5,
+      "b5_tfr_effect": 0.2493163359983704,
+      "share_of_observed_magnitude": 0.09972653439934816,
+      "sign": "OPPOSES the observed decline"
+    },
+    "target_binding_regime": {
+      "behavioral_net": 0.0,
+      "note": "Where a parity target binds and the span does not, the couple replaces the loss and completed fertility is unchanged. The model returns the target by construction, which is the point: B.5's effect is a property of the fertility regime, not of the loss rate alone."
+    }
+  }
+}
