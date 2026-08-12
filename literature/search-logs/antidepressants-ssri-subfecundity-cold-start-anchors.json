@@ -1,0 +1,1072 @@
+[
+  {
+    "title": "The effect of antidepressants on fertility",
+    "authors": [
+      "Marianne Casilla-Lennon",
+      "Samantha Meltzer-Brody",
+      "Anne Z. Steiner"
+    ],
+    "year": 2016,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "PRIMARY_MEDICATION_TO_FERTILITY",
+    "query_cluster_family": "primary-female",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Am J Obstet Gynecol. The only human record the reconnaissance located that estimates antidepressant exposure against a female fertility quantity. VERSION-GATE TEST CASE and the hardest in the set: three co-existing records share this title \u2014 an AJOG 2016 article, a Fertility and Sterility 2015 record with a different author list, and a UNC repository copy at 10.17615/w7rn-zb69. The resolver must return the AJOG record.",
+    "doi": "10.1016/j.ajog.2016.01.170",
+    "identity_source": "https://doi.org/10.1016/j.ajog.2016.01.170",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "American Journal of Obstetrics and Gynecology",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 4,
+    "rejected_versions": [
+      {
+        "doi": "10.1016/j.ajog.2016.01.170",
+        "type": "article",
+        "year": 2016,
+        "container": "American Journal of Obstetrics and Gynecology",
+        "score": 120,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.1016/j.fertnstert.2014.12.023",
+        "type": "journal-article",
+        "year": 2015,
+        "container": "Fertility and Sterility",
+        "score": 116,
+        "src": "crossref"
+      },
+      {
+        "doi": "10.1016/j.fertnstert.2014.12.023",
+        "type": "article",
+        "year": 2015,
+        "container": "Fertility and Sterility",
+        "score": 116,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Use of selective serotonin reuptake inhibitors reduces fertility in men",
+    "authors": [
+      "Lynette Norr",
+      "Birgit Egedal Bennedsen",
+      "Jens Fedder",
+      "Erik Roj Larsen"
+    ],
+    "year": 2016,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "PRIMARY_MALE_FECUNDITY",
+    "query_cluster_family": "primary-male",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Andrology. The chapter's best-identified primary anchor and the one HYPOTHESES-v5 cites correctly. Male stratum, which is where the measured fertility evidence sits.",
+    "doi": "10.1111/andr.12184",
+    "identity_source": "https://doi.org/10.1111/andr.12184",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Andrology",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1111/andr.12184",
+        "type": "article",
+        "year": 2016,
+        "container": "Andrology",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Effect of antidepressant medications on semen parameters and male fertility",
+    "authors": [
+      "Lauren Beeder",
+      "Mary K. Samplaski"
+    ],
+    "year": 2019,
+    "provenance_channel": "channel1_review_seed",
+    "provisional_cell": "ENDOCRINE_MECHANISM",
+    "query_cluster_family": "primary-male",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Int J Urol. HYPOTHESES-v5 cites this as 'Beeder and Bhatt PMC scoping review (2025)'; authors, venue and year are all wrong in v5 (Call 5). SHADOW-GATE TEST CASE: the index carries 'Editorial Comment to Effect of antidepressant medications on semen parameters and male fertility' under a different author at its own DOI. LEAKAGE WALL applies \u2014 its search strategy must not be mined for A6 query terms.",
+    "shadows_refused": [
+      {
+        "reason": "shadow_record:commentary",
+        "title": "Editorial Comment to Effect of antidepressant medications on",
+        "doi": "10.1111/iju.14126"
+      },
+      {
+        "reason": "shadow_record:commentary",
+        "title": "Editorial Comment to Effect of antidepressant medications on",
+        "doi": "10.1111/iju.14126"
+      }
+    ],
+    "doi": "10.1111/iju.14111",
+    "identity_source": "https://doi.org/10.1111/iju.14111",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "International Journal of Urology",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1111/iju.14111",
+        "type": "article",
+        "year": 2019,
+        "container": "International Journal of Urology",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Prevalence of Sexual Dysfunction Among Newer Antidepressants",
+    "authors": [
+      "Anita H. Clayton",
+      "James F. Pradko",
+      "Harry A. Croft",
+      "C. Brendan Montano"
+    ],
+    "year": 2002,
+    "provenance_channel": "hypothesis_canon",
+    "provisional_cell": "LINK1_MEDICATION_TO_SEXUAL_FUNCTION",
+    "query_cluster_family": "link1",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "J Clin Psychiatry. Named in HYPOTHESES-v5's seminal list and verified here.",
+    "doi": "10.4088/jcp.v63n0414",
+    "identity_source": "https://doi.org/10.4088/jcp.v63n0414",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "The Journal of Clinical Psychiatry",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.4088/jcp.v63n0414",
+        "type": "article",
+        "year": 2002,
+        "container": "The Journal of Clinical Psychiatry",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Incidence of sexual dysfunction associated with antidepressant agents: a prospective multicenter study of 1022 outpatients",
+    "authors": [
+      "Angel L. Montejo",
+      "Gines Llorca",
+      "Juan Izquierdo",
+      "Fernando Rico-Villademoros"
+    ],
+    "year": 2001,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "LINK1_MEDICATION_TO_SEXUAL_FUNCTION",
+    "query_cluster_family": "link1",
+    "is_book": false,
+    "expect_no_doi": true,
+    "source_note": "J Clin Psychiatry 62 Suppl 3:10-21. The direct-questioning incidence study, and the reason ASCERTAINMENT is an extraction field: measured incidence here is several times the spontaneously-reported rate. Two index records, NEITHER carrying a DOI. SHADOW-GATE TEST CASE: a 'Faculty Opinions recommendation of ...' record exists at 10.3410/f.718446934.793496193 and is the only same-title record that HAS a DOI, so a resolver without the shadow gate anchors this study to a post-publication review.",
+    "doi": null,
+    "identity_verified": false,
+    "match_jaccard": 1.0,
+    "best_near_miss": {
+      "doi": null,
+      "title": "Incidence of Sexual Dysfunction Associated With Antidepressant Agents: A Prospective Multicenter Study of 1022 Outpatients",
+      "jaccard": 1.0,
+      "year": 2001,
+      "container": "",
+      "type": "article",
+      "author_match": true,
+      "review_shape": false,
+      "is_fallback": true
+    },
+    "refused_reasons": [
+      "shadow_record:commentary",
+      "title_or_no_doi"
+    ],
+    "refused_candidates": [
+      {
+        "reason": "shadow_record:commentary",
+        "title": "Faculty Opinions recommendation of Incidence of sexual dysfu",
+        "doi": "10.3410/f.718446934.793496193"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "A Real-World Study on Antidepressant-Associated Sexual Dysfu",
+        "doi": "10.1007/s10508-018-1365-6"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Radiology In A Minute: Multiparametric US for Identifying Me",
+        "doi": "10.1148/radiol.232416.videosummary"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Depression and Antidepressant-Associated Erectile Dysfunctio",
+        "doi": "10.1385/1-59259-871-4:237"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Prevalence of antidepressant-induced sexual dysfunction amon",
+        "doi": "10.17712/nsj.2020.3.20200047"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Association between sleep quality, depression, and sexual dy",
+        "doi": "10.22514/jomh.2025.141"
+      }
+    ],
+    "gold_status": "unverified_no_doi_match",
+    "note": "Book or monograph; expected index miss. Carried keyed on title, not faked. The near-miss record is retained so an RA can see what the resolver refused and why."
+  },
+  {
+    "title": "Treatment-Emergent Sexual Dysfunction Related to Antidepressants",
+    "authors": [
+      "Alessandro Serretti",
+      "Alberto Chiesa"
+    ],
+    "year": 2009,
+    "provenance_channel": "channel1_review_seed",
+    "provisional_cell": "LINK1_MEDICATION_TO_SEXUAL_FUNCTION",
+    "query_cluster_family": "link1",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "J Clin Psychopharmacol. The link-1 meta-analysis, with agent-by-agent rates. SHADOW and VERSION test case: an abstract twin in European Psychiatry, a conference-poster twin, and a Faculty Opinions record all share the title. LEAKAGE WALL applies.",
+    "shadows_refused": [
+      {
+        "reason": "shadow_record:commentary",
+        "title": "Faculty Opinions recommendation of Treatment-emergent sexual",
+        "doi": "10.3410/f.1356008.827114"
+      }
+    ],
+    "doi": "10.1097/jcp.0b013e3181a5233f",
+    "identity_source": "https://doi.org/10.1097/jcp.0b013e3181a5233f",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Journal of Clinical Psychopharmacology",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 4,
+    "rejected_versions": [
+      {
+        "doi": "10.1097/jcp.0b013e3181a5233f",
+        "type": "article",
+        "year": 2009,
+        "container": "Journal of Clinical Psychopharmacology",
+        "score": 120,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.1016/s0924-9338(09)70732-1",
+        "type": "journal-article",
+        "year": 2009,
+        "container": "European Psychiatry",
+        "score": 120,
+        "src": "crossref"
+      },
+      {
+        "doi": "10.1016/s0924-9338(09)70732-1",
+        "type": "article",
+        "year": 2009,
+        "container": "European Psychiatry",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Antidepressant-Induced Sexual Dysfunction During Treatment With Moclobemide, Paroxetine, Sertraline, and Venlafaxine",
+    "authors": [
+      "Sidney H. Kennedy",
+      "Beata S. Eisfeld",
+      "Susan E. Dickens",
+      "Jason R. Bacchiochi",
+      "R. Michael Bagby"
+    ],
+    "year": 2000,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "LINK1_MEDICATION_TO_SEXUAL_FUNCTION",
+    "query_cluster_family": "link1",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "J Clin Psychiatry. Within-agent comparison with a measured pre-treatment baseline.",
+    "doi": "10.4088/jcp.v61n0406",
+    "identity_source": "https://doi.org/10.4088/jcp.v61n0406",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "The Journal of Clinical Psychiatry",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.4088/jcp.v61n0406",
+        "type": "article",
+        "year": 2000,
+        "container": "The Journal of Clinical Psychiatry",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Sexual dysfunction before antidepressant therapy in major depression",
+    "authors": [
+      "Sidney H. Kennedy",
+      "Susan E. Dickens",
+      "Beata S. Eisfeld",
+      "R. Michael Bagby"
+    ],
+    "year": 1999,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "INDICATION_BASELINE_D3A",
+    "query_cluster_family": "baseline",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "J Affect Disord. The record that makes Wall 1 operational rather than rhetorical: sexual dysfunction is already prevalent in untreated major depression, so a medicated-versus-healthy contrast attributes the disorder's effect to the drug.",
+    "doi": "10.1016/s0165-0327(99)00050-6",
+    "identity_source": "https://doi.org/10.1016/s0165-0327(99)00050-6",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Journal of Affective Disorders",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1016/s0165-0327(99)00050-6",
+        "type": "article",
+        "year": 1999,
+        "container": "Journal of Affective Disorders",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Fecundity of Patients With Schizophrenia, Autism, Bipolar Disorder, Depression, Anorexia Nervosa, or Substance Abuse vs Their Unaffected Siblings",
+    "authors": [
+      "Robert A. Power",
+      "Simon Kyaga",
+      "Rudolf Uher",
+      "James H. MacCabe",
+      "Niklas Langstrom"
+    ],
+    "year": 2013,
+    "provenance_channel": "routing_decoy",
+    "provisional_cell": "INDICATION_BASELINE_D3A",
+    "query_cluster_family": "baseline",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "JAMA Psychiatry. Swedish register, sibling-controlled: the disorder's own fertility effect, which is D.3.a's estimand and the quantity B.7 must net out. YEAR-DRIFT TEST CASE: the index dates it 2012 against a 2013 DOI stem.",
+    "doi": "10.1001/jamapsychiatry.2013.268",
+    "identity_source": "https://doi.org/10.1001/jamapsychiatry.2013.268",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "JAMA Psychiatry",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1001/jamapsychiatry.2013.268",
+        "type": "article",
+        "year": 2012,
+        "container": "JAMA Psychiatry",
+        "score": 116,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Timing of Sexual Intercourse in Relation to Ovulation - Effects on the Probability of Conception, Survival of the Pregnancy, and Sex of the Baby",
+    "authors": [
+      "Allen J. Wilcox",
+      "Clarice R. Weinberg",
+      "Donna D. Baird"
+    ],
+    "year": 1995,
+    "provenance_channel": "sibling_hypothesis_parameter",
+    "provisional_cell": "LINK3_COITAL_TO_CONCEPTION",
+    "query_cluster_family": "link3",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "NEJM. The parameter that decides how much of a desire decrement survives into a conception decrement, and the source of the non-linearity Wall 2 turns on. VERSION-GATE TEST CASE: an Obstetrical & Gynecological Survey 1996 twin exists.",
+    "doi": "10.1056/nejm199512073332301",
+    "identity_source": "https://doi.org/10.1056/nejm199512073332301",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "New England Journal of Medicine",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1056/nejm199512073332301",
+        "type": "article",
+        "year": 1995,
+        "container": "New England Journal of Medicine",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "The risk of conception on different days of the menstrual cycle",
+    "authors": [
+      "John C. Barrett",
+      "John Marshall"
+    ],
+    "year": 1969,
+    "provenance_channel": "sibling_hypothesis_parameter",
+    "provisional_cell": "LINK3_COITAL_TO_CONCEPTION",
+    "query_cluster_family": "link3",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Population Studies. The demographic-side statement of the same parameter, and the one the review's own literature will cite.",
+    "doi": "10.1080/00324728.1969.10405297",
+    "identity_source": "https://doi.org/10.1080/00324728.1969.10405297",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Population Studies",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 3,
+    "rejected_versions": [
+      {
+        "doi": "10.1080/00324728.1969.10405297",
+        "type": "article",
+        "year": 1969,
+        "container": "Population Studies",
+        "score": 120,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.2307/2172882",
+        "type": "article",
+        "year": 1969,
+        "container": "Population Studies",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Adverse effect of paroxetine on sperm",
+    "authors": [
+      "Cigdem Tanrikut",
+      "Adam S. Feldman",
+      "Margaret Altemus",
+      "Darius A. Paduch",
+      "Peter N. Schlegel"
+    ],
+    "year": 2009,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "ENDOCRINE_MECHANISM",
+    "query_cluster_family": "mechanism-semen",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Fertil Steril. SHADOW-GATE TEST CASE, two shapes at once: a J Urol letter titled 'Re: Adverse Effect of Paroxetine on Sperm' and a Faculty Opinions record.",
+    "shadows_refused": [
+      {
+        "reason": "shadow_record:commentary",
+        "title": "Faculty Opinions recommendation of Adverse effect of paroxet",
+        "doi": "10.3410/f.717992555.793496191"
+      }
+    ],
+    "doi": "10.1016/j.fertnstert.2009.04.039",
+    "identity_source": "https://doi.org/10.1016/j.fertnstert.2009.04.039",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Fertility and Sterility",
+    "record_type": "article",
+    "resolved_via": "openalex",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1016/j.fertnstert.2009.04.039",
+        "type": "journal-article",
+        "year": 2010,
+        "container": "Fertility and Sterility",
+        "score": 116,
+        "src": "crossref"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Sperm DNA Damage and Semen Quality Impairment After Treatment With Selective Serotonin Reuptake Inhibitors Detected Using Semen Analysis and Sperm Chromatin Structure Assay",
+    "authors": [
+      "Mohammad Reza Safarinejad"
+    ],
+    "year": 2008,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "ENDOCRINE_MECHANISM",
+    "query_cluster_family": "mechanism-semen",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "J Urol. INTEGRITY FLAG: the index carries a 2023 'Expression of Concern' record for this article in the same journal. The shadow gate refuses the EoC record as an anchor and records the flag on this one; risk of bias must read it before this study's effect size is used.",
+    "shadows_refused": [
+      {
+        "reason": "shadow_record:integrity",
+        "title": "Expression of Concern: Sperm DNA Damage and Semen Quality Im",
+        "doi": "10.1097/ju.0000000000003115"
+      }
+    ],
+    "integrity_flag": [
+      {
+        "kind": "integrity",
+        "title": "Expression of Concern: Sperm DNA Damage and Semen Quality Impairment After Treatment With Selective Serotonin Reuptake Inhibitors Detected Using Semen Analysis and Sperm Chromatin Structure Assay",
+        "doi": "10.1097/ju.0000000000003115",
+        "year": 2023,
+        "container": "Journal of Urology"
+      }
+    ],
+    "doi": "10.1016/j.juro.2008.07.034",
+    "identity_source": "https://doi.org/10.1016/j.juro.2008.07.034",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Journal of Urology",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1016/j.juro.2008.07.034",
+        "type": "article",
+        "year": 2008,
+        "container": "The Journal of Urology",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Antidepressant-Associated Changes in Semen Parameters",
+    "authors": [
+      "Cigdem Tanrikut",
+      "Peter N. Schlegel"
+    ],
+    "year": 2007,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "ENDOCRINE_MECHANISM",
+    "query_cluster_family": "mechanism-semen",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Urology. VERSION-GATE TEST CASE: a 2008 Fertility and Sterility record carries the same title under an expanded author list.",
+    "doi": "10.1016/j.urology.2006.10.034",
+    "identity_source": "https://doi.org/10.1016/j.urology.2006.10.034",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Urology",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 4,
+    "rejected_versions": [
+      {
+        "doi": "10.1016/j.urology.2006.10.034",
+        "type": "article",
+        "year": 2007,
+        "container": "Urology",
+        "score": 120,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.1016/j.fertnstert.2008.07.287",
+        "type": "journal-article",
+        "year": 2008,
+        "container": "Fertility and Sterility",
+        "score": 116,
+        "src": "crossref"
+      },
+      {
+        "doi": "10.1016/j.fertnstert.2008.07.287",
+        "type": "article",
+        "year": 2008,
+        "container": "Fertility and Sterility",
+        "score": 116,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Dopamine and serotonin: influences on male sexual behavior",
+    "authors": [
+      "Elaine M. Hull",
+      "John W. Muschamp",
+      "Satoru Sato"
+    ],
+    "year": 2004,
+    "provenance_channel": "hypothesis_canon",
+    "provisional_cell": "THEORY_SEROTONERGIC",
+    "query_cluster_family": "theory",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Physiol Behav. The mechanism statement B.7's 'why' paragraph paraphrases. DUPLICATE- RECORD TEST CASE: two DOIs in the same journal for the same article.",
+    "doi": "10.1016/j.physbeh.2004.08.018",
+    "identity_source": "https://doi.org/10.1016/j.physbeh.2004.08.018",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Physiology &amp; Behavior",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 3,
+    "rejected_versions": [
+      {
+        "doi": "10.1016/j.physbeh.2004.08.018",
+        "type": "article",
+        "year": 2004,
+        "container": "Physiology & Behavior",
+        "score": 120,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.1016/s0031-9384(04)00357-9",
+        "type": "article",
+        "year": 2004,
+        "container": "Physiology & Behavior",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "National Patterns in Antidepressant Medication Treatment",
+    "authors": [
+      "Mark Olfson",
+      "Steven C. Marcus"
+    ],
+    "year": 2009,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "PARAMETER_PREVALENCE",
+    "query_cluster_family": "prevalence",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Arch Gen Psychiatry. The US treatment-prevalence series.",
+    "doi": "10.1001/archgenpsychiatry.2009.81",
+    "identity_source": "https://doi.org/10.1001/archgenpsychiatry.2009.81",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Archives of General Psychiatry",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1001/archgenpsychiatry.2009.81",
+        "type": "article",
+        "year": 2009,
+        "container": "Archives of General Psychiatry",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Antidepressant Use among Persons Aged 12 and Over: United States, 2011-2014",
+    "authors": [
+      "Laura A. Pratt",
+      "Debra J. Brody",
+      "Qiuping Gu"
+    ],
+    "year": 2017,
+    "provenance_channel": "statistical_agency_source",
+    "provisional_cell": "PARAMETER_PREVALENCE",
+    "query_cluster_family": "prevalence",
+    "is_book": false,
+    "expect_no_doi": true,
+    "source_note": "NCHS Data Brief 283. Carries NO DOI, which is expected for an agency series and is why expect_no_doi exists. This is the age-and-sex-specific prevalence figure the demographic-significance computation runs on, and it is a statistical publication rather than a study \u2014 the distinction is recorded so the chapter does not treat an agency estimate as evidence for the causal claim.",
+    "doi": null,
+    "identity_verified": false,
+    "match_jaccard": 0.706,
+    "best_near_miss": {
+      "doi": null,
+      "title": "Antidepressant Use among Persons Aged 12 and Over: United States, 2011-2014. NCHS Data Brief. Number 283.",
+      "jaccard": 0.706,
+      "year": 2017,
+      "container": "",
+      "type": "article",
+      "author_match": true,
+      "review_shape": false,
+      "is_fallback": true
+    },
+    "refused_reasons": [
+      "title_or_no_doi"
+    ],
+    "refused_candidates": [
+      {
+        "reason": "title_or_no_doi",
+        "title": "Nonfatal Bathroom Injuries Among Persons Aged \u226515 Years\u2014Unit",
+        "doi": "10.1001/jama.306.3.258"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Colorectal Cancer Test Use Among Persons Aged \u226550 Years\u2014Unit",
+        "doi": "10.1001/jama.289.19.2492"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Nonfatal Traumatic Brain Injuries Related to Sports and Recr",
+        "doi": "10.1001/jama.306.21.2318"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Cigarette Smoking Among Adults Aged 45 and Older in the Unit",
+        "doi": "10.1002/9781118430965.ch6"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Office Visits by Persons Aged 65 and Over: National Ambulato",
+        "doi": "10.1037/e604442007-001"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "QuickStats: Prevalence of Obesity* Among Persons Aged 20-79 ",
+        "doi": "10.1001/jama.306.13.1439"
+      }
+    ],
+    "gold_status": "unverified_no_doi_match",
+    "note": "Book or monograph; expected index miss. Carried keyed on title, not faked. The near-miss record is retained so an RA can see what the resolver refused and why."
+  },
+  {
+    "title": "Use of antidepressants during pregnancy and the risk of spontaneous abortion",
+    "authors": [
+      "Hamid Reza Nakhai-Pour",
+      "Perrine Broy",
+      "Anick Berard"
+    ],
+    "year": 2010,
+    "provenance_channel": "routing_decoy",
+    "provisional_cell": "PARAMETER_DETERMINANT_TO_LOSS",
+    "query_cluster_family": "loss-parameter",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "CMAJ. Sits exactly on Wall 3: B.7's treatment, B.5's channel, no fertility outcome. Cross-filed to B.5 and counted toward neither chapter's causal recall. GHOST-CHECK NOTE: the first reconnaissance pass could not resolve this study from a remembered title and it resolved on the second pass under different wording \u2014 an unresolved title is a wrong memory, not an absent literature.",
+    "doi": "10.1503/cmaj.091208",
+    "identity_source": "https://doi.org/10.1503/cmaj.091208",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Canadian Medical Association Journal",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 3,
+    "rejected_versions": [
+      {
+        "doi": "10.1503/cmaj.091208",
+        "type": "article",
+        "year": 2010,
+        "container": "Canadian Medical Association Journal",
+        "score": 120,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.1038/sj.bdj.2017.493",
+        "type": "journal-article",
+        "year": 2017,
+        "container": "British Dental Journal",
+        "score": 52,
+        "src": "crossref"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "The ELIXIR study: evaluation of sexual dysfunction in 4557 depressed patients in France",
+    "authors": [
+      "M. Bonierbale",
+      "Christophe Lancon",
+      "Jean Tignol"
+    ],
+    "year": 2003,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "MEASUREMENT_ASCERTAINMENT",
+    "query_cluster_family": "ascertainment",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Curr Med Res Opin. Large systematic-inquiry ascertainment, against which spontaneous-report rates can be benchmarked.",
+    "doi": "10.1185/030079902125001461",
+    "identity_source": "https://doi.org/10.1185/030079902125001461",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Current Medical Research and Opinion",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 3,
+    "rejected_versions": [
+      {
+        "doi": "10.1185/030079902125001461",
+        "type": "article",
+        "year": 2003,
+        "container": "Current Medical Research and Opinion",
+        "score": 120,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.1185/0300799039117043",
+        "type": "article",
+        "year": 2003,
+        "container": "Current Medical Research and Opinion",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Use of Selective Serotonin-Reuptake Inhibitors in Pregnancy and the Risk of Birth Defects",
+    "authors": [
+      "Sura Alwan",
+      "Jennita Reefhuis",
+      "Sonja A. Rasmussen",
+      "Richard S. Olney",
+      "Jan M. Friedman"
+    ],
+    "year": 2007,
+    "provenance_channel": "routing_decoy",
+    "provisional_cell": "OFF_PREGNANCY_SAFETY",
+    "query_cluster_family": "decoy-pregnancy-safety",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "NEJM. Wall 4, and the paradigm of the largest cell in the corpus. VERSION-GATE TEST CASE with three twins: Obstetrical & Gynecological Survey, a Yearbook digest under a different author, and Survey of Anesthesiology.",
+    "doi": "10.1056/nejmoa066584",
+    "identity_source": "https://doi.org/10.1056/nejmoa066584",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "New England Journal of Medicine",
+    "record_type": "article",
+    "resolved_via": "openalex",
+    "author_match": true,
+    "n_title_passing": 4,
+    "rejected_versions": [
+      {
+        "doi": "10.1097/01.ogx.0000286792.22798.b7",
+        "type": "journal-article",
+        "year": 2007,
+        "container": "Obstetrical &amp; Gynecological Survey",
+        "score": 120,
+        "src": "crossref"
+      },
+      {
+        "doi": "10.1097/01.ogx.0000286792.22798.b7",
+        "type": "article",
+        "year": 2007,
+        "container": "Obstetrical & Gynecological Survey",
+        "score": 80,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.1056/nejmx150030",
+        "type": "journal-article",
+        "year": 2015,
+        "container": "New England Journal of Medicine",
+        "score": 48,
+        "src": "crossref"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Depression, anxiety, and antidepressant treatment in women: association with in vitro fertilization outcome",
+    "authors": [
+      "Carolyn E. Cesta",
+      "Alexander Viktorin",
+      "Henrik Olsson",
+      "Viktoria Johansson"
+    ],
+    "year": 2016,
+    "provenance_channel": "routing_decoy",
+    "provisional_cell": "OFF_ART_A17",
+    "query_cluster_family": "decoy-art",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Fertil Steril. Wall 5. Also the closest thing in the literature to a design that separates the disorder from the medication, which is why it is a decoy rather than an exclusion: it may be admissible as PARAMETER_HAZARD_CLINICAL at full text.",
+    "doi": "10.1016/j.fertnstert.2016.01.036",
+    "identity_source": "https://doi.org/10.1016/j.fertnstert.2016.01.036",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Fertility and Sterility",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1016/j.fertnstert.2016.01.036",
+        "type": "article",
+        "year": 2016,
+        "container": "Fertility and Sterility",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Antipsychotic-Induced Hyperprolactinaemia",
+    "authors": [
+      "Peter Haddad",
+      "Angelika Wieck"
+    ],
+    "year": 2004,
+    "provenance_channel": "routing_decoy",
+    "provisional_cell": "ADJACENT_PSYCHOTROPIC",
+    "query_cluster_family": "decoy-psychotropic",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Drugs. Wall 6 and Call 3: a mechanistically stronger fecundity pathway than anything serotonergic, at lower prevalence. TITLE-COLLISION TEST CASE: a 2011 ANZ J Psychiatry article carries the identical title under different authors.",
+    "doi": "10.2165/00003495-200464200-00003",
+    "identity_source": "https://doi.org/10.2165/00003495-200464200-00003",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Drugs",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.2165/00003495-200464200-00003",
+        "type": "article",
+        "year": 2004,
+        "container": "Drugs",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Inhibition of egg production in zebrafish by fluoxetine and municipal effluents: A mechanistic evaluation",
+    "authors": [
+      "Andrea Lister",
+      "Christine Regan",
+      "Jessica Van Zwol",
+      "Glen Van Der Kraak"
+    ],
+    "year": 2009,
+    "provenance_channel": "routing_decoy",
+    "provisional_cell": "OFF_ANIMAL",
+    "query_cluster_family": "decoy-animal",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Aquat Toxicol. Wall 7, and not a token decoy: on the fecundity-term probes this literature outranks the human work on citations, so the screen is tested against the material that actually occupies the top of the ranking.",
+    "doi": "10.1016/j.aquatox.2009.04.011",
+    "identity_source": "https://doi.org/10.1016/j.aquatox.2009.04.011",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Aquatic Toxicology",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1016/j.aquatox.2009.04.011",
+        "type": "article",
+        "year": 2009,
+        "container": "Aquatic Toxicology",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "A Placebo-Controlled Trial of Bupropion SR as an Antidote for Selective Serotonin Reuptake Inhibitor-Induced Sexual Dysfunction",
+    "authors": [
+      "Anita H. Clayton",
+      "Julia K. Warnock",
+      "Susan G. Kornstein",
+      "Relana Pinkerton"
+    ],
+    "year": 2004,
+    "provenance_channel": "routing_decoy",
+    "provisional_cell": "OFF_CLINICAL_MANAGEMENT",
+    "query_cluster_family": "decoy-clinical",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "J Clin Psychiatry. Treating the side effect rather than measuring its consequence. Shares an author with two link-1 anchors, so the decoy tests routing rather than author-based topical similarity.",
+    "doi": "10.4088/jcp.v65n0110",
+    "identity_source": "https://doi.org/10.4088/jcp.v65n0110",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "The Journal of Clinical Psychiatry",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.4088/jcp.v65n0110",
+        "type": "article",
+        "year": 2004,
+        "container": "The Journal of Clinical Psychiatry",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  }
+]
