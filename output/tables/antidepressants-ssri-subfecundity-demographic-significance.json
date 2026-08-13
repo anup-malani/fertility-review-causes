@@ -1,0 +1,204 @@
+{
+  "hypothesis": "B.7 antidepressants-ssri-subfecundity",
+  "phenomena": {
+    "PM": "no cell \u2014 the exposure did not exist",
+    "FDT": "no cell \u2014 prescribing volumes negligible and the period closes in 1965",
+    "SDT": "the only cell, and restricted to the post-1988 sub-period"
+  },
+  "timing_wall": {
+    "start_year": 1965,
+    "entry_year": 1988,
+    "end_year": 2024,
+    "tfr_start": 3.13394734453346,
+    "tfr_entry": 2.01439023876189,
+    "tfr_end": 1.47751261883453,
+    "total_decline": 1.65643472569893,
+    "pre_exposure_decline": 1.11955710577157,
+    "post_exposure_decline": 0.5368776199273599,
+    "pre_exposure_share": 0.6758836242696945,
+    "total_decline_pct": 0.5285458061662226,
+    "post_exposure_decline_pct": 0.2665211584113625
+  },
+  "tau_derived": 0.024211877678706473,
+  "extra_wait_months_central": 0.8823529411764701,
+  "central_post_1988": {
+    "denominator": "post",
+    "denominator_pct_change": 0.2665211584113625,
+    "mechanical_share_of_conceptions": 0.009000000000000001,
+    "behavioural_share_of_births": 0.0002179068991083583,
+    "decomposition_share_mechanical": 0.033768425942787395,
+    "decomposition_share_behavioural": 0.0008175969983292267
+  },
+  "central_full_sdt": {
+    "denominator": "full",
+    "denominator_pct_change": 0.5285458061662226,
+    "mechanical_share_of_conceptions": 0.009000000000000001,
+    "behavioural_share_of_births": 0.0002179068991083583,
+    "decomposition_share_mechanical": 0.017027852449120723,
+    "decomposition_share_behavioural": 0.00041227628062917343
+  },
+  "most_favourable_no_recuperation": {
+    "denominator": "post",
+    "denominator_pct_change": 0.2665211584113625,
+    "mechanical_share_of_conceptions": 0.0455,
+    "behavioural_share_of_births": 0.0455,
+    "decomposition_share_mechanical": 0.17071815337742513,
+    "decomposition_share_behavioural": 0.17071815337742513
+  },
+  "most_favourable_with_recuperation": {
+    "denominator": "post",
+    "denominator_pct_change": 0.2665211584113625,
+    "mechanical_share_of_conceptions": 0.0455,
+    "behavioural_share_of_births": 0.013649999999999999,
+    "decomposition_share_mechanical": 0.17071815337742513,
+    "decomposition_share_behavioural": 0.051215446013227535
+  },
+  "sensitivity_grid": [
+    {
+      "p": "low",
+      "fr": "low",
+      "p_value": 0.038,
+      "fr_value": 0.65,
+      "tau": 0.0720582567032243,
+      "mechanical_share": 0.049902229448785806,
+      "behavioural_share": 0.0035958676596838067,
+      "verdict_behavioural": "not significant",
+      "verdict_mechanical": "not significant"
+    },
+    {
+      "p": "low",
+      "fr": "central",
+      "p_value": 0.038,
+      "fr_value": 0.85,
+      "tau": 0.024211877678706473,
+      "mechanical_share": 0.02138666976376535,
+      "behavioural_share": 0.0005178114322751769,
+      "verdict_behavioural": "not significant",
+      "verdict_mechanical": "not significant"
+    },
+    {
+      "p": "low",
+      "fr": "high",
+      "p_value": 0.038,
+      "fr_value": 1.12,
+      "tau": 0.0,
+      "mechanical_share": -0.017109335811012292,
+      "behavioural_share": -0.0,
+      "verdict_behavioural": "not significant",
+      "verdict_mechanical": "not significant"
+    },
+    {
+      "p": "central",
+      "fr": "low",
+      "p_value": 0.06,
+      "fr_value": 0.65,
+      "tau": 0.0720582567032243,
+      "mechanical_share": 0.0787929938665039,
+      "behavioural_share": 0.005677685778448115,
+      "verdict_behavioural": "not significant",
+      "verdict_mechanical": "partial"
+    },
+    {
+      "p": "central",
+      "fr": "central",
+      "p_value": 0.06,
+      "fr_value": 0.85,
+      "tau": 0.024211877678706473,
+      "mechanical_share": 0.033768425942787395,
+      "behavioural_share": 0.0008175969983292267,
+      "verdict_behavioural": "not significant",
+      "verdict_mechanical": "not significant"
+    },
+    {
+      "p": "central",
+      "fr": "high",
+      "p_value": 0.06,
+      "fr_value": 1.12,
+      "tau": 0.0,
+      "mechanical_share": -0.027014740754229934,
+      "behavioural_share": -0.0,
+      "verdict_behavioural": "not significant",
+      "verdict_mechanical": "not significant"
+    },
+    {
+      "p": "high",
+      "fr": "low",
+      "p_value": 0.13,
+      "fr_value": 0.65,
+      "tau": 0.0720582567032243,
+      "mechanical_share": 0.17071815337742513,
+      "behavioural_share": 0.012301652519970917,
+      "verdict_behavioural": "not significant",
+      "verdict_mechanical": "significant"
+    },
+    {
+      "p": "high",
+      "fr": "central",
+      "p_value": 0.13,
+      "fr_value": 0.85,
+      "tau": 0.024211877678706473,
+      "mechanical_share": 0.07316492287603936,
+      "behavioural_share": 0.0017714601630466579,
+      "verdict_behavioural": "not significant",
+      "verdict_mechanical": "partial"
+    },
+    {
+      "p": "high",
+      "fr": "high",
+      "p_value": 0.13,
+      "fr_value": 1.12,
+      "tau": 0.0,
+      "mechanical_share": -0.05853193830083153,
+      "behavioural_share": -0.0,
+      "verdict_behavioural": "not significant",
+      "verdict_mechanical": "not significant"
+    }
+  ],
+  "verdict_sdt_post1988": "not significant",
+  "verdict_sdt_full_period": "not significant",
+  "params": {
+    "p_exposed": {
+      "central": 0.06,
+      "low": 0.038,
+      "high": 0.13,
+      "what": "Share of reproductive-age person-time under antidepressant exposure.",
+      "source": "Low: Laugesen et al. 2013 (BMJ Open), 3.8% of Danish women aged 25-44 current SSRI users. Central: 6.0%, between the Danish female figure and the PRESTO male figure of 4.3% current SSRI / 8.8% any psychotropic (Yland et al. 2022). High: 13%, the US any-antidepressant adult prevalence implied by Pratt et al. (NCHS). NOT RETRIEVED: the age-and-sex-specific US series (Kunzel et al. 2023, J Women's Health) is the right parameter and is behind a paywall; the range here is wider than it would need to be because of that."
+    },
+    "fr_ssri": {
+      "central": 0.85,
+      "low": 0.65,
+      "high": 1.12,
+      "what": "Fecundability ratio for current SSRI use, adjusted for depression and other psychotropics. Values BELOW 1 mean reduced fecundability.",
+      "source": "Yland et al. 2022, PRESTO preconception cohort, 2,398 men, FR = 0.85 [0.65, 1.12]. This is the ONLY estimate located anywhere in a 6,798-record frame that regresses a fertility hazard on antidepressant exposure while adjusting for the indication. Its confidence interval includes the null; it is male-side; it is one cohort."
+    },
+    "tau": {
+      "central": 0.1,
+      "low": 0.02,
+      "high": 0.3,
+      "what": "Transmission from a per-cycle fecundability decrement to COMPLETED fertility: the share of the hazard decrement that converts into a forgone birth rather than a postponed one.",
+      "source": "Derived below from the slack model, not extracted. This is the chapter's weakest parameter and the verdict's sensitivity to it is reported in full."
+    },
+    "phi": {
+      "central": 0.2,
+      "low": 0.15,
+      "high": 0.25,
+      "what": "Baseline per-cycle conception probability among couples attempting.",
+      "source": "PRESTO median TTP of 3 cycles and the standard fecundability range; Wilcox et al. 1995 for the day-specific structure underneath it."
+    },
+    "k_births_remaining": {
+      "central": 2.0,
+      "low": 1.0,
+      "high": 3.0,
+      "what": "Conception attempts remaining at the time of exposure.",
+      "source": "Set to the OECD completed-fertility neighbourhood. Enters only through the slack model."
+    },
+    "slack_years_mean": {
+      "central": 6.0,
+      "low": 3.0,
+      "high": 10.0,
+      "what": "Mean years between when a woman would finish childbearing absent any delay and the end of her fecund span.",
+      "source": "Assumed, and flagged as assumed. It is the quantity that decides tau and the review has no extracted estimate of it."
+    }
+  },
+  "threshold": 0.1
+}
