@@ -107,8 +107,8 @@ EFFECTS = [
                         "The behavioural pathway the hypothesis is built on is the smallest of the "
                         "three, in the one study that measured all of them."),
     dict(openalex_id="W4394578177", doi="10.3390/jcm13072129",
-         study="Al-Zaidi et al.", year=2024, venue="Journal of Clinical Medicine",
-         country="not stated in the extracted text", period="not stated",
+         study="Alsabhan et al.", year=2024, venue="Journal of Clinical Medicine",
+         country="Saudi Arabia (King Saud University, Riyadh)", period="not stated",
          design="retrospective comparison, SSRI vs non-SSRI cohorts in an infertility clinic",
          sample="29 infertile men on SSRIs", sex="male", cell="ENDOCRINE_MECHANISM", link="mechanism",
          drug_class="escitalopram, fluoxetine, paroxetine",
@@ -167,7 +167,7 @@ ROB = [
                    "which biases toward the null for the behavioural pathway specifically. Outcome "
                    "ascertainment and reporting are strong. Rated SERIOUS, not CRITICAL, because the "
                    "direction of the residual confounding is arguable rather than certain."),
-    dict(openalex_id="W4394578177", study="Al-Zaidi et al. 2024", tool="ROBINS-I",
+    dict(openalex_id="W4394578177", study="Alsabhan et al. 2024", tool="ROBINS-I",
          confounding="CRITICAL", selection="CRITICAL", exposure_measurement="MODERATE",
          missing_data="MODERATE", outcome_measurement="LOW", reported_result="MODERATE",
          overall="CRITICAL",

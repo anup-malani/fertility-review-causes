@@ -11,7 +11,7 @@ Extracted from the 3 records for which full text was obtainable through an open 
 | Yland et al. 2022 | prospective preconception cohort | SSRI | fecundability (per-cycle conception pr | 0.85 [0.65, 1.12] | YES |
 | Yland et al. 2022 | prospective preconception cohort | SNRI / tricyclic / atypical | fecundability | 1.03 [0.71, 1.48] | YES |
 | Yland et al. 2022 | mediation analysis within the cohort | any psychotropic | proportion of the depression-fecundabi | 0.17 not reported | not stated |
-| Al-Zaidi et al. 2024 | retrospective comparison, SSRI vs non- | escitalopram, fluoxetine, paroxetine | sperm liquefaction, motility, viscosit | null on all four p = 0.10 / 0.17 / 0.16 / 0.069 respectively | YES |
+| Alsabhan et al. 2024 | retrospective comparison, SSRI vs non- | escitalopram, fluoxetine, paroxetine | sperm liquefaction, motility, viscosit | null on all four p = 0.10 / 0.17 / 0.16 / 0.069 respectively | YES |
 | Gong et al. 2026 | pharmacovigilance disproportionality,  | multiple, antidepressants among them | reporting signal for male infertility  | signal present reported per drug, not extracted here | n/a |
 
 ## No pooling

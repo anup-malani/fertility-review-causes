@@ -27,6 +27,8 @@ tickets can be worked concurrently.
 > commit message dated 07-21 to 07-25 against this table; in commit messages from Alexandra's schooling
 > workstream, `TICK-032` means the compulsory-education split and needs no translation.
 >
+> **SCRIPT-NUMBER COLLISION, flagged 2026-08-12 by TICK-066.** Ticket numbers are unique; `source/build/goldset/` script numbers are not. `main` stops at 88, but the unmerged branches have diverged: D.1.a holds 95-115, D.1.b 95-102, D.2.d 103-108, B.5 115-122. **103-115 is claimed three times over** and will collide at merge. TICK-066 starts at 123, above every number in use on any branch, which avoids the problem for one run without fixing it. The 2026-07-25 ticket renumber is the precedent for the fix.
+>
 > **Next free number is TICK-067.** Claim a number by pushing its QUEUE.md row before starting work,
 > not after. That is what would have prevented the collision. TICK-047 through TICK-053 were claimed
 > for the D.3.b climate-anxiety chain on 2026-07-27; TICK-054 (A.10) and TICK-055 (C.2.c) on
@@ -46,6 +48,7 @@ tickets can be worked concurrently.
 
 | Ticket | Title | Assigned | Parallel-safe |
 |--------|-------|----------|---------------|
+| [TICK-066](TICK-066-antidepressants-ssri-subfecundity.md) | **B.7 — run end to end 2026-08-12 and now human-gated.** Needs the RA gate signature (25 rows) and library retrieval of 14 primary-cell records; the two that matter most are PMC-indexed but not in the OA subset | Shravan or Alexandra | no |
 | [TICK-065](TICK-065-fetal-loss-intrauterine-mortality.md) | B.5. Fetal Loss and Intrauterine Mortality | Shravan | yes |
 | [TICK-064](TICK-064-child-centeredness-intensive-parenting.md) | D.2.d Child-Centered Intensive Parenting Norms | Shravan | yes |
 | [TICK-063](TICK-063-caldwell-wealth-flows-westernization.md) | D.1.b Cultural Westernization and Developmental Idealism
