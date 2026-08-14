@@ -15,7 +15,7 @@
 - [x] 3. Literature search and AI screening, both phases (§5.1) — **done 2026-08-14, 920/920**
 - [ ] 3. Literature search and AI screening, both phases (§5.1)
 - [ ] 4. RA title/abstract review — **gate worksheet ready: `extraction/microplastics-pfas-reproductive-ra-gate.csv`, 156 rows. Deliberately NOT done by me: the AI screen and the RA gate are designed as independent passes**
-- [ ] 5. Full-text retrieval — **wantlist + OA ceiling done 2026-08-14; automated fetch run; library sub-ticket decision pending the fetch result**
+- [x] 5. Full-text retrieval — **119/239 readable (50%) after two automated passes. Residual handed to TICK-069 (library). NOT blocking: extraction proceeds against what is held**
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
 - [ ] 7. Extraction to `extraction/microplastics-pfas-reproductive.csv`, RA verifies a random 10%
 - [ ] 8. Risk-of-bias assessment per study
@@ -231,6 +231,42 @@ Job C is selected by RULE from the screen notes rather than hand-listed, so the 
 the screen is revised — 84 records covering the Call 2 reverse-causation evidence (`r`), excretion
 and half-life pharmacokinetics (`k`), the exposure series the demographic-significance computation
 multiplies (`x`), measurement and design (`m`), and outcome-trend context (`t`).
+
+**2026-08-14 — stage 5 fetch complete (`140`, `141`, `142`). 119/239 readable (50%).**
+
+Pass 1 (`140`, publisher + repository routes) returned **92/239**, thirty-nine points below the OA
+ceiling `139` had measured. **96 records OpenAlex calls OPEN failed to fetch**, splitting 40
+"Europe PMC hit but not OA" and 38 "publisher interstitial, not a PDF". The ceiling was a forecast;
+this is what landed.
+
+**Pass 2 (`141`) diagnosed the first group and recovered 27 of them.** Those records are
+author-manuscript deposits in PubMed Central — `isOpenAccess: N` but `inEPMC: Y` and `hasPDF: Y` —
+so Europe PMC's `fullTextXML` 404s while NCBI's `efetch` serves the full JATS body. Verified live on
+`PMC5131715` and `PMC10234267` before writing the script: both 404 at EPMC, both return >110 KB with
+a 33k-character `<body>` from efetch.
+
+**The inherited route ladder had a conceptual bug worth naming: it gated on `isOpenAccess`, which
+conflates OPEN ACCESS (a licence fact) with RETRIEVABLE (an access fact).** For NIH-funded work the
+two routinely come apart. `130_b7_fetch_oa.py` has the same gate and would recover similarly on B.7.
+
+**The selection test, measured rather than forecast.** The `139` ceiling predicted an 11-point family
+gap (PFAS 77%, plastic 88%). Realised retrieval after pass 1 was **PFAS 38%, plastic 59% — a 21-point
+gap, twice the forecast**. The efetch recovery pulled PFAS to **51% against plastic 59%**, closing it
+to 8 points, because author-manuscript deposits are concentrated in the NIH-funded PFAS cohorts. The
+fix worked against the bias rather than with it, which was the reason for trying it first.
+
+| job | readable | rate |
+|---|---|---|
+| A — primary cell | 15/29 | 52% |
+| A2 — input (semen, ovarian) | 38/70 | 54% |
+| B — held for routing | 26/56 | 46% |
+| C — parameter and measurement | 40/84 | 48% |
+
+**TICK-069 opened for the residual 118** (73 route-blocked, 45 closed), ordered by retrieval value
+with the PFAS half first so procurement shrinks the family gap instead of entrenching it. Two
+shadow/duplicate records are explicitly excluded from procurement. **TICK-068 is not blocked on it** —
+the precedent is TICK-056 (C.2.c, 15/15 recovered, extraction unblocked) rather than TICK-041 (B.1,
+stalled at 20/95 since July).
 
 Also filed earlier as a **duplicate-record gate** (the Minderoo-Monaco Commission carries two DOIs with different
 citation counts plus an erratum, so DOI-level dedup double-counts it), and a correction to B.7's
