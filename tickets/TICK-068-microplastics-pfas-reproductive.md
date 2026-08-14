@@ -15,7 +15,7 @@
 - [x] 3. Literature search and AI screening, both phases (§5.1) — **done 2026-08-14, 920/920**
 - [ ] 3. Literature search and AI screening, both phases (§5.1)
 - [ ] 4. RA title/abstract review — **gate worksheet ready: `extraction/microplastics-pfas-reproductive-ra-gate.csv`, 156 rows. Deliberately NOT done by me: the AI screen and the RA gate are designed as independent passes**
-- [ ] 5. Full-text retrieval
+- [ ] 5. Full-text retrieval — **wantlist + OA ceiling done 2026-08-14; automated fetch run; library sub-ticket decision pending the fetch result**
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
 - [ ] 7. Extraction to `extraction/microplastics-pfas-reproductive.csv`, RA verifies a random 10%
 - [ ] 8. Risk-of-bias assessment per study
@@ -199,6 +199,38 @@ Two defects found and fixed, plus one taxonomy gap:
   `ENDOCRINE_MECHANISM` and it was not carried across, so serum testosterone and sex-hormone records
   in adults were routed to the nearest sex-specific cell. Three records affected; add the cell before
   extraction.
+
+**2026-08-14 — stage 5 wantlist and OA ceiling (`139`).** Four retrieval jobs rather than B.7's
+three. The fertility-INPUT cells (semen, ovarian) get their own job because that is where this
+chapter's measured biology actually is — 70 records against 30 in the primary cells — and folding
+them into a generic "support" bucket, as B.7's structure would, would mis-describe the evidence base.
+
+OA status checked live **before** the fetch, per the B.1 lesson:
+
+| job | records | open | rate |
+|---|---|---|---|
+| A — primary (a fertility quantity) | 30 | 20 | 67% |
+| A2 — input (semen, ovarian) | 70 | 59 | 84% |
+| B — held for a routing question | 56 | 39 | 70% |
+| C — parameter, pharmacokinetic, measurement | 84 | 70 | 83% |
+
+**This chapter is not retrieval-bound.** Against B.1's automated ceiling of 20/95 (21%), which has
+kept its pooled estimate resting on five studies since July, a 67% ceiling on the primary cell means
+the library sub-ticket is a completeness measure rather than a precondition. Zero OA checks failed,
+so every "closed" here is a real closure and not an unconfirmed request.
+
+**The selection test.** Because this chapter's design is a comparison between its two halves, a
+retrieval process that reaches one half more completely biases the comparison itself and not merely
+the level — and the microplastics literature, being newer, is more often gold-OA, which is precisely
+the condition for that bias. Measured over the causal evidence base (A + A2): **pfas 62/81 (77%),
+plastic 15/17 (88%)**. An 11-point gap in the direction predicted. Not large enough to invalidate the
+comparison, large enough that the limitations paragraph must quote it, and a reason to prioritise the
+closed PFAS records in any library request.
+
+Job C is selected by RULE from the screen notes rather than hand-listed, so the set regenerates if
+the screen is revised — 84 records covering the Call 2 reverse-causation evidence (`r`), excretion
+and half-life pharmacokinetics (`k`), the exposure series the demographic-significance computation
+multiplies (`x`), measurement and design (`m`), and outcome-trend context (`t`).
 
 Also filed earlier as a **duplicate-record gate** (the Minderoo-Monaco Commission carries two DOIs with different
 citation counts plus an erratum, so DOI-level dedup double-counts it), and a correction to B.7's
