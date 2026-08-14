@@ -17,9 +17,9 @@
 - [ ] 4. RA title/abstract review — **gate worksheet ready: `extraction/microplastics-pfas-reproductive-ra-gate.csv`, 156 rows. Deliberately NOT done by me: the AI screen and the RA gate are designed as independent passes**
 - [ ] 5. Full-text retrieval — **119/239 readable (50%) after two automated passes; extraction proceeds against what is held**
   - [ ] 5a. Library pass on the residual 118 — needs Zotero + UChicago proxy. List: `literature/search-logs/microplastics-pfas-reproductive-library-wantlist.md`, ordered by value, safe to stop partway. Job A first (12 records), PFAS before microplastics
-- [ ] 6. Full-text screen, RA spot-checks 5–10%
-- [ ] 7. Extraction to `extraction/microplastics-pfas-reproductive.csv`, RA verifies a random 10%
-- [ ] 8. Risk-of-bias assessment per study
+- [x] 6. Full-text screen — **done 2026-08-14 on the 53 held primary/input documents (`143` locates the methods facts, `144` codes them). RA spot-check outstanding**
+- [x] 7. Extraction — **first pass done: `extraction/microplastics-pfas-reproductive-effects.csv`, 17 rows. RA 10% verification outstanding; 5 rows need PDF-quality re-extraction**
+- [x] 8. Risk-of-bias assessment — **first pass done: `extraction/microplastics-pfas-reproductive-risk-of-bias.csv`, 10 domain ratings**
 - [ ] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise — **run twice, once per chemical family; never pooled across**
 - [ ] 10. Demographic significance against SDT — **run twice, each family against its own exposure series**
 - [ ] 11. GRADE rating, 3 independent raters — **run twice; no bundled B.6 rating at any stage**
@@ -277,6 +277,51 @@ a human to fetch a peer-review artefact wastes the scarcest resource in the pipe
 
 Highest-value single record: **`Serum perfluoroalkyl acids and time to pregnancy in nulliparous
 women`** (closed) — the parity-handled design the Call 2 restricted track is built on.
+
+**2026-08-14 — stages 6-8 first pass (`143`, `144`). 17 effect rows, 10 risk-of-bias ratings.**
+
+`143` probes the 53 held primary/input documents for the four methods facts the screen could not
+assign, quoting the passage where each is stated, so the hand-coding has located evidence behind it
+rather than recall. Coverage: `PARITY_HANDLING` discussed in 27/53 (51%), enough for a restricted
+track to exist.
+
+**THE CENTRAL RESULT — the two tracks disagree, and both cohorts that tested it say so.**
+
+| cohort | unrestricted | parity-restricted |
+|---|---|---|
+| INUENDO (PFNA, fecundability) | FR 0.80 [0.69–0.94] | **not replicated** — authors' own words |
+| INUENDO (PFNA, infertility) | OR 1.53 [1.08–2.15] | **not replicated** |
+| MoBa (PFOSA, fecundability) | FOR 0.85 [0.83–1.09] | FOR 0.91 [0.71–1.17], null |
+
+Call 2 pre-committed to the two-track split on the mechanism — PFAS leave the body through pregnancy,
+lactation and menstruation, so parity causes exposure — and predicted the restricted track would be
+weaker. It is, in two independent cohorts, and the finding comes from inside the literature rather
+than being imposed on it. **The chapter's PFAS verdict should rest on the restricted track and must
+not report the unrestricted estimates as the result.**
+
+Three further findings:
+
+1. **Adjusting for parity is not restricting on it, and the distinction decides the verdict.**
+   S-PRESTO — preconception-measured, the best exposure timing held — finds PFDA FR 0.90 [0.82, 0.98],
+   PFOS 0.88 [0.79, 0.99], mixture 0.89 [0.73, 1.02], and *adjusts* for parity as a covariate. Parity
+   is on the path from prior reproduction to exposure, so adjustment leaves the channel partly open
+   and can induce collider bias. **`PARITY_HANDLING` needs four levels, not Call 2's implied two:**
+   `nulliparous_restricted` / `parity_stratified` / `parity_adjusted` / `none`. Only the first two
+   enter the restricted track. A refinement to the frozen scope, recorded as one.
+2. **The microplastics PRIMARY cell holds five reviews and no effect estimate.** Its five empirical
+   records all estimate fertility *inputs* — sperm parameters, retrieved oocytes, AMH — are small and
+   largely ART-derived, and their p-values cluster at the margin (0.041, 0.056, 0.080, 0.083, 0.091).
+   The one strong result (p = 0.0003) attaches to IVF fertilization rate, which Wall 4 routes to A.17.
+   A verdict of **Very Low / no rateable evidence** is defensible, and it is a finding rather than a
+   search gap: the completeness bypass guaranteed every both-axes plastic record was read.
+3. **Five rows are `NUMERIC_UNRECOVERED`.** Decimals split across the PDF/XML-to-text boundary, so
+   direction and p-value survive but point estimates do not. Recorded as missing rather than
+   reconstructed — a number transcribed wrongly is worse than one recorded absent, and all five are
+   on the microplastics side where an invented figure would do most damage.
+
+**Not poolable yet.** PROTOCOL §5.9 wants three estimates sharing family, estimand level, sex stratum
+and parity handling; the restricted track has two rows across two cohorts, one with no point estimate.
+The honest output is narrative synthesis centred on the two-track disagreement.
 
 Also filed earlier as a **duplicate-record gate** (the Minderoo-Monaco Commission carries two DOIs with different
 citation counts plus an erratum, so DOI-level dedup double-counts it), and a correction to B.7's
