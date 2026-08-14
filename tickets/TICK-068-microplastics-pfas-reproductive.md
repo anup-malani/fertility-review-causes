@@ -11,6 +11,7 @@
 - [x] 2. Search strategy and scope drafted
 - [ ] 3a. A3 cold-start anchors sourced and gated — **done 2026-08-14, 32/32 verified**
 - [ ] 3b. A4 Tier A / Tier B citation frame — **done 2026-08-14, 14,561 records, 0 failed requests**
+- [ ] 3c. D1 deterministic rank and screening cutoff — **done 2026-08-14, worklist 920**
 - [ ] 3. Literature search and AI screening, both phases (§5.1)
 - [ ] 4. RA title/abstract review
 - [ ] 5. Full-text retrieval
@@ -116,6 +117,34 @@ Three findings worth carrying into A5/A6:
 
 Three seeds hit the 2,000 cap (Plasticenta, Leslie, Olsen half-life); the log now estimates the cost
 at ~76 on-topic records unseen against a frame of 14,561, all three being 2.5–5% yield seeds.
+
+**2026-08-14 — D1 rank and screening cutoff (`136_b6_d1_rank.py`).** 14,561 Tier B records, 265
+version duplicates collapsed on normalised title, 14,296 distinct works ranked; worklist **920** =
+top 700 by score + 0 orthogonal bypasses + **220 both-axes completeness bypasses**; 13,376
+unscreened, margin score 60.
+
+`CHEMICAL_FAMILY` is now assigned deterministically at D1, since the chapter splits on it and the
+compound is the one routing call reliably visible in a title. Frame breakdown: pfas 3,550 ·
+plastic 5,865 · both 50 · none 4,831. Carrying **both axes**: pfas 331 · plastic 168 · both 4 ·
+none 0 — the two-family asymmetry the scope predicted, now visible in the frame itself.
+
+Two corrections made during the run, both to my own work rather than to inherited code:
+
+1. **The completeness bypass was family-restricted and that was incoherent.** As first written it
+   screened every plastic-family both-axes record at any rank, to keep the MP half's expected null
+   distinguishable from never having looked — but it left **135 both-axes PFAS records unscreened**,
+   protecting the half heading for a null while under-reading the half that will carry a synthesis.
+   The rule is now family-blind: every both-axes record is screened wherever it ranks.
+   **`unscreened_both_axes` is now 0.**
+2. **`in vitro` is a substring of `in vitro fertilization`**, so every IVF record was collecting the
+   Wall 6 mechanism penalty and silently undoing the deliberately near-zero ART penalty — which
+   exists for the measured reason that the ART/mixture decoy was the second most on-topic seed in the
+   A4 frame. The IVF phrase is stripped before the Wall 6 table is applied, and only for that table.
+
+Sanity check on the output: the top-ranked records are PFAS time-to-pregnancy studies, with a
+**nulliparous-restricted** design at rank 4 and a preconception-measured couple-fecundability study
+at rank 5 — the two designs Call 2 and the identification cautions single out as the ones that
+identify. The ranker is finding what the scope said to look for.
 
 Also filed earlier as a **duplicate-record gate** (the Minderoo-Monaco Commission carries two DOIs with different
 citation counts plus an erratum, so DOI-level dedup double-counts it), and a correction to B.7's
