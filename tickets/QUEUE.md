@@ -66,9 +66,11 @@ tickets can be worked concurrently.
 ## In progress — claimed, do not duplicate
 
 > Rows with `—` in the **Branch** column were claimed under Mode A, before the 2026-08-02 switch to
-> Mode B. They are valid claims, but `scripts/ticket.sh claim` cannot see them: its only collision
-> check is whether a `NNN-*` branch exists on `origin`. **Read this board before claiming** until
-> these rows have drained.
+> Mode B. They are valid claims with no branch behind them. Since TICK-067, `scripts/ticket.sh claim`
+> reads this board as well as `git branch -r`: it warns on `Touches:` overlap against these rows, and
+> taking one over updates its Branch and Claimed cells in place rather than adding a second row.
+> Reading the board yourself is still worthwhile — the overlap check is advisory, and only you can
+> judge whether an overlap is a real conflict.
 
 | Ticket | Title | Owner | Branch (the claim) | Claimed (UTC) | Touches |
 |--------|-------|-------|--------------------|---------------|---------|
