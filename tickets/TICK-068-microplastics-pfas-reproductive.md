@@ -9,11 +9,11 @@
 
 ## Acceptance criteria
 - [x] 2. Search strategy and scope drafted
-- [ ] 3a. A3 cold-start anchors sourced and gated — **done 2026-08-14, 32/32 verified**
-- [ ] 3b. A4 Tier A / Tier B citation frame — **done 2026-08-14, 14,561 records, 0 failed requests**
-- [ ] 3c. D1 deterministic rank and screening cutoff — **done 2026-08-14, worklist 920**
-- [x] 3. Literature search and AI screening, both phases (§5.1) — **done 2026-08-14, 920/920**
-- [ ] 3. Literature search and AI screening, both phases (§5.1)
+- [x] 3. Literature search and AI screening, both phases (§5.1) — **done 2026-08-14, 920/920 screened**
+  - [x] 3a. A3 cold-start anchors sourced and gated — 32/32 verified
+  - [x] 3b. A4 Tier A / Tier B citation frame — 14,561 records, 0 failed requests
+  - [x] 3c. D1 deterministic rank and screening cutoff — worklist 920
+  - [x] 3d. D2/E1 semantic screen and assembly — 433 RELEVANT, five validations passed
 - [ ] 4. RA title/abstract review — **gate worksheet ready: `extraction/microplastics-pfas-reproductive-ra-gate.csv`, 156 rows. Deliberately NOT done by me: the AI screen and the RA gate are designed as independent passes**
 - [ ] 5. Full-text retrieval — **119/239 readable (50%) after two automated passes; extraction proceeds against what is held**
   - [ ] 5a. Library pass on the residual 118 — needs Zotero + UChicago proxy. List: `literature/search-logs/microplastics-pfas-reproductive-library-wantlist.md`, ordered by value, safe to stop partway. Job A first (12 records), PFAS before microplastics
