@@ -10,6 +10,7 @@
 ## Acceptance criteria
 - [x] 2. Search strategy and scope drafted
 - [ ] 3a. A3 cold-start anchors sourced and gated — **done 2026-08-14, 32/32 verified**
+- [ ] 3b. A4 Tier A / Tier B citation frame — **done 2026-08-14, 14,561 records, 0 failed requests**
 - [ ] 3. Literature search and AI screening, both phases (§5.1)
 - [ ] 4. RA title/abstract review
 - [ ] 5. Full-text retrieval
@@ -90,6 +91,31 @@ by testing the new gate rather than by reading:
    has no author metadata, a bare title+year+venue rule would have silently demoted legitimately
    distinct same-title works. Demotion now requires positive author agreement. The gate has **zero
    confirmed catches** and is retained only as an unvalidated safeguard.
+
+**2026-08-14 — A4 Tier A/B frame built (`135_b6_tier_ab_frame.py`).** 14,561 deduplicated Tier B
+records from 32 seeds, **zero failed requests**, 60% carrying an abstract. Three changes on B.7's
+builder: a second per-seed diagnostic (`animal >=`, a lower bound on the non-human share, because
+Wall 5 is this chapter's biggest precision threat and it deserves a number); review seeds
+forward-cited but **excluded from the empirical count**, which drops the causal recall denominator
+from 9 to **6** — filing the three channel-1 reviews under a primary cell was right for the estimand
+and wrong for the denominator; and the forward cap raised 1200 → 2000 for B.6's much larger clouds.
+
+Three findings worth carrying into A5/A6:
+
+1. **The routing decoys are the richest fertility-dense channels in the frame, by a wide margin.**
+   The Wall 7 decoy (Levine 2017, sperm-count trend) runs **77% on-topic** — the highest of any seed —
+   and the Wall 1 mixture decoy (Bellavia 2022) **51%**, against 22–47% for the PFAS primary seeds.
+   1,849 Tier B records (13%) depend on a decoy seed alone and **would not exist under the inherited
+   never-forward-seed-a-decoy rule.** This is the strongest confirmation yet of the D.2.d correction.
+2. **The two families separate cleanly on the diagnostic.** PFAS primary seeds: 22–47% on-topic.
+   Microplastics detection seeds: **2–19%**, with Plasticenta at 2.6%, Leslie at 2.5% and Schwabl at
+   2.4%. The MP half of the chapter has no fertility literature to find, measured rather than
+   asserted, and this is independent evidence for the Call 1 split.
+3. **Wall 5's floor is 6–42% depending on seed**, highest on the oyster decoy as designed. Even the
+   PFAS clouds carry 6–22% visibly non-human, so species must be checked on every record at screen.
+
+Three seeds hit the 2,000 cap (Plasticenta, Leslie, Olsen half-life); the log now estimates the cost
+at ~76 on-topic records unseen against a frame of 14,561, all three being 2.5–5% yield seeds.
 
 Also filed earlier as a **duplicate-record gate** (the Minderoo-Monaco Commission carries two DOIs with different
 citation counts plus an erratum, so DOI-level dedup double-counts it), and a correction to B.7's

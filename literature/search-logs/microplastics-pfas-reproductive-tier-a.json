@@ -1,0 +1,1480 @@
+[
+  {
+    "title": "Maternal levels of perfluorinated chemicals and subfecundity",
+    "authors": [
+      "C. Fei",
+      "Joseph K. McLaughlin",
+      "Loren Lipworth",
+      "Jorn Olsen"
+    ],
+    "year": 2009,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "PRIMARY_EXPOSURE_TO_FERTILITY",
+    "query_cluster_family": "primary-pfas-female",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Hum Reprod. The founding estimate of the PFAS-subfecundity literature and the most cited record in the chapter's primary cell. Danish National Birth Cohort. Its own cohort re-analysed it six years later (Bach et al. 2015) once the parity problem was understood, so the two must be extracted as a pair and never pooled.",
+    "doi": "10.1093/humrep/den490",
+    "identity_source": "https://doi.org/10.1093/humrep/den490",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Human Reproduction",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1093/humrep/den490",
+        "type": "article",
+        "year": 2009,
+        "container": "Human Reproduction",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen",
+    "openalex_id": "W2135360752",
+    "n_referenced": 29,
+    "cited_by_count": 387
+  },
+  {
+    "title": "Perfluorinated Compounds and Subfecundity in Pregnant Women",
+    "authors": [
+      "Kristina W. Whitworth",
+      "Line Smastuen Haug",
+      "Donna D. Baird",
+      "Georg Becher",
+      "Jane A. Hoppin"
+    ],
+    "year": 2011,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "PRIMARY_EXPOSURE_TO_FERTILITY",
+    "query_cluster_family": "primary-pfas-female",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Epidemiology. MoBa. THE PARITY-HANDLING ANCHOR: stratifies by parity and finds the association concentrated among parous women, which is the signature of elimination running backwards rather than of a causal effect. Call 2's two-track synthesis is built on the distinction this paper made operational.",
+    "doi": "10.1097/ede.0b013e31823b5031",
+    "identity_source": "https://doi.org/10.1097/ede.0b013e31823b5031",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Epidemiology",
+    "record_type": "article",
+    "resolved_via": "openalex",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1097/ede.0b013e31823b5031",
+        "type": "journal-article",
+        "year": 2012,
+        "container": "Epidemiology",
+        "score": 116,
+        "src": "crossref"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen",
+    "openalex_id": "W1976994385",
+    "n_referenced": 28,
+    "cited_by_count": 144
+  },
+  {
+    "title": "Association between perfluorinated compounds and time to pregnancy in a prospective cohort of Danish couples attempting to conceive",
+    "authors": [
+      "Sys Vestergaard",
+      "Flemming Nielsen",
+      "Anna-Maria Andersson",
+      "Niels Henrik Hjollund",
+      "Philippe Grandjean"
+    ],
+    "year": 2012,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "PRIMARY_EXPOSURE_TO_FERTILITY",
+    "query_cluster_family": "primary-pfas-female",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Hum Reprod. Preconception-measured and restricted to couples attempting to conceive \u2014 the design that avoids measuring exposure after the outcome. Null.",
+    "doi": "10.1093/humrep/der450",
+    "identity_source": "https://doi.org/10.1093/humrep/der450",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Human Reproduction",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1093/humrep/der450",
+        "type": "article",
+        "year": 2012,
+        "container": "Human Reproduction",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen",
+    "openalex_id": "W2116593005",
+    "n_referenced": 29,
+    "cited_by_count": 87
+  },
+  {
+    "title": "Perfluoroalkyl acids and time to pregnancy revisited: An update from the Danish National Birth Cohort",
+    "authors": [
+      "Cathrine Carlsen Bach",
+      "Zeyan Liew",
+      "Bodil Hammer Bech",
+      "Ellen A. Nohr",
+      "Chunyuan Fei"
+    ],
+    "year": 2015,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "PRIMARY_EXPOSURE_TO_FERTILITY",
+    "query_cluster_family": "primary-pfas-female",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Environ Health. The correction to Fei et al. 2009 from inside the same cohort, and the single most informative record for Call 2: it shows what happens to the estimate when parity is handled. Shares an author with the original.",
+    "doi": "10.1186/s12940-015-0040-9",
+    "identity_source": "https://doi.org/10.1186/s12940-015-0040-9",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Environmental Health",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1186/s12940-015-0040-9",
+        "type": "article",
+        "year": 2015,
+        "container": "Environmental Health",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen",
+    "openalex_id": "W1953380534",
+    "n_referenced": 26,
+    "cited_by_count": 39
+  },
+  {
+    "title": "Maternal exposure to perfluorinated chemicals and reduced fecundity: the MIREC study",
+    "authors": [
+      "Maria P. Velez",
+      "Tye E. Arbuckle",
+      "William D. Fraser"
+    ],
+    "year": 2015,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "PRIMARY_EXPOSURE_TO_FERTILITY",
+    "query_cluster_family": "primary-pfas-female",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Hum Reprod. Canadian MIREC cohort; independent population, so it carries weight the three Danish/Norwegian records cannot add to each other.",
+    "doi": "10.1093/humrep/deu350",
+    "identity_source": "https://doi.org/10.1093/humrep/deu350",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Human Reproduction",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1093/humrep/deu350",
+        "type": "article",
+        "year": 2015,
+        "container": "Human Reproduction",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen",
+    "openalex_id": "W2106224369",
+    "n_referenced": 43,
+    "cited_by_count": 189
+  },
+  {
+    "title": "Do Perfluoroalkyl Compounds Impair Human Semen Quality?",
+    "authors": [
+      "Ulla Nordstrom Joensen",
+      "Rossana Bossi",
+      "Henrik Leffers",
+      "Allan Astrup Jensen",
+      "Niels E. Skakkebaek"
+    ],
+    "year": 2009,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "SEMEN_PARAMETER",
+    "query_cluster_family": "primary-pfas-male",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Environ Health Perspect. The male anchor. SHADOW-GATE TEST CASE: a 'Faculty Opinions recommendation of Do perfluoroalkyl compounds impair human semen quality?' record exists at its own DOI and resolves at overlap 1.0.",
+    "shadows_refused": [
+      {
+        "reason": "shadow_record:commentary",
+        "title": "Faculty Opinions recommendation of Do perfluoroalkyl compoun",
+        "doi": "10.3410/f.1162954.623590"
+      }
+    ],
+    "doi": "10.1289/ehp.0800517",
+    "identity_source": "https://doi.org/10.1289/ehp.0800517",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Environmental Health Perspectives",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 1,
+    "gold_status": "candidate_not_ra_frozen",
+    "openalex_id": "W2083884879",
+    "n_referenced": 35,
+    "cited_by_count": 411
+  },
+  {
+    "title": "Exposure to perfluorinated compounds and human semen quality in arctic and European populations",
+    "authors": [
+      "Gunnar Toft",
+      "Bo Jonsson",
+      "Christian Lindh",
+      "Aleksander Giwercman",
+      "Maria Spano"
+    ],
+    "year": 2012,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "SEMEN_PARAMETER",
+    "query_cluster_family": "primary-pfas-male",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Hum Reprod. Cross-population design; the INUENDO cohort.",
+    "doi": "10.1093/humrep/des185",
+    "identity_source": "https://doi.org/10.1093/humrep/des185",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Human Reproduction",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1093/humrep/des185",
+        "type": "article",
+        "year": 2012,
+        "container": "Human Reproduction",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen",
+    "openalex_id": "W2170008764",
+    "n_referenced": 30,
+    "cited_by_count": 164
+  },
+  {
+    "title": "Endocrine Disruption of Androgenic Activity by Perfluoroalkyl Substances: Clinical and Experimental Evidence",
+    "authors": [
+      "Andrea Di Nisio",
+      "Iva Sabovic",
+      "Umberto Valente",
+      "Simone Tescari",
+      "Maria Santa Rocca"
+    ],
+    "year": 2018,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "ENDOCRINE_MECHANISM",
+    "query_cluster_family": "primary-pfas-male",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "J Clin Endocrinol Metab. Veneto high-exposure young men \u2014 Wall 9 population with a measured reproductive-endocrine endpoint. One of very few records that pairs an exogenous exposure contrast with a reproductive outcome in humans.",
+    "doi": "10.1210/jc.2018-01855",
+    "identity_source": "https://doi.org/10.1210/jc.2018-01855",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "The Journal of Clinical Endocrinology &amp; Metabolism",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 4,
+    "rejected_versions": [
+      {
+        "doi": "10.1210/jc.2018-01855",
+        "type": "article",
+        "year": 2018,
+        "container": "The Journal of Clinical Endocrinology & Metabolism",
+        "score": 120,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.1210/clinem/dgab253",
+        "type": "journal-article",
+        "year": 2021,
+        "container": "The Journal of Clinical Endocrinology &amp; Metabolism",
+        "score": 68,
+        "src": "crossref"
+      },
+      {
+        "doi": "10.1210/clinem/dgab253",
+        "type": "erratum",
+        "year": 2021,
+        "container": "The Journal of Clinical Endocrinology & Metabolism",
+        "score": -22,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen",
+    "openalex_id": "W2899631563",
+    "n_referenced": 52,
+    "cited_by_count": 163
+  },
+  {
+    "title": "Perfluoroalkyl substances (PFAS) in drinking water and risk for polycystic ovarian syndrome, uterine leiomyoma, and endometriosis",
+    "authors": [
+      "Sofia Hammarstrand",
+      "Kristina Jakobsson",
+      "Eva Andersson",
+      "Yiyi Xu",
+      "Ying Li"
+    ],
+    "year": 2021,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "PRIMARY_HIGH_EXPOSURE",
+    "query_cluster_family": "high-exposure",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Environ Int. Ronneby, Sweden: a municipal water supply contaminated by firefighting foam, giving serum levels one to two orders of magnitude above background. The outcomes are gynaecological morbidity rather than a fertility quantity, so this anchor also tests whether the screen holds the estimand line under a very strong design \u2014 the temptation this chapter must resist.",
+    "doi": "10.1016/j.envint.2021.106819",
+    "identity_source": "https://doi.org/10.1016/j.envint.2021.106819",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 0.789,
+    "container": "Environment International",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1016/j.envint.2021.106819",
+        "type": "article",
+        "year": 2021,
+        "container": "Environment International",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen",
+    "openalex_id": "W3195719453",
+    "n_referenced": 57,
+    "cited_by_count": 90
+  },
+  {
+    "title": "Plasticenta: First evidence of microplastics in human placenta",
+    "authors": [
+      "Antonio Ragusa",
+      "Alessandro Svelato",
+      "Criselda Santacroce",
+      "Piera Catalano",
+      "Valentina Notarstefano"
+    ],
+    "year": 2020,
+    "provenance_channel": "hypothesis_canon",
+    "provisional_cell": "DETECTION_TISSUE",
+    "query_cluster_family": "detection-mp",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Environ Int. The most-cited record in the whole B.6 corpus and the origin of the 'microplastics are in the reproductive tract' claim. No fertility outcome estimated.",
+    "doi": "10.1016/j.envint.2020.106274",
+    "identity_source": "https://doi.org/10.1016/j.envint.2020.106274",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Environment International",
+    "record_type": "article",
+    "resolved_via": "openalex",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1016/j.envint.2020.106274",
+        "type": "journal-article",
+        "year": 2021,
+        "container": "Environment International",
+        "score": 116,
+        "src": "crossref"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen",
+    "openalex_id": "W3109968655",
+    "n_referenced": 38,
+    "cited_by_count": 3321
+  },
+  {
+    "title": "First evidence of microplastics in human ovarian follicular fluid: An emerging threat to female fertility",
+    "authors": [
+      "Luigi Montano",
+      "Salvatore Raimondo",
+      "Marina Piscopo",
+      "Maria Ricciardi",
+      "Antonino Guglielmino"
+    ],
+    "year": 2025,
+    "provenance_channel": "hypothesis_canon",
+    "provisional_cell": "DETECTION_TISSUE",
+    "query_cluster_family": "detection-mp",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Ecotox Environ Saf. What HYPOTHESES-v5 miscites as 'Zhao et al., Fertility & Sterility (2025)'. VERSION-GATE TEST CASE: a 2024 medRxiv preprint carries the same title differing only in capitalisation, and a 2026 Fertility and Sterility record carries a near-identical title. Substantively the Call 5 anchor: 18 women at a Salerno IVF centre, particles in 14, and NO association with AMH, fertilization, miscarriage or live birth. Presence is exposure, not effect.",
+    "doi": "10.1016/j.ecoenv.2025.117868",
+    "identity_source": "https://doi.org/10.1016/j.ecoenv.2025.117868",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Ecotoxicology and Environmental Safety",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 4,
+    "rejected_versions": [
+      {
+        "doi": "10.1016/j.ecoenv.2025.117868",
+        "type": "article",
+        "year": 2025,
+        "container": "Ecotoxicology and Environmental Safety",
+        "score": 120,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.1101/2024.04.04.24305264",
+        "type": "preprint",
+        "year": 2024,
+        "container": "medRxiv",
+        "score": 36,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.1101/2024.04.04.24305264",
+        "type": "posted-content",
+        "year": 2024,
+        "container": "",
+        "score": 31,
+        "src": "crossref"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen",
+    "openalex_id": "W4407423592",
+    "n_referenced": 66,
+    "cited_by_count": 116
+  },
+  {
+    "title": "Detection and characterization of microplastics in the human testis and semen",
+    "authors": [
+      "Qiancheng Zhao",
+      "Long Zhu",
+      "Jiaming Weng",
+      "Zirun Jin",
+      "Yalei Cao"
+    ],
+    "year": 2023,
+    "provenance_channel": "hypothesis_canon",
+    "provisional_cell": "DETECTION_TISSUE",
+    "query_cluster_family": "detection-mp",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Sci Total Environ. The real Zhao et al. \u2014 2023, not 2025, and testis/semen, not follicular fluid. Half of v5's conflated first citation.",
+    "doi": "10.1016/j.scitotenv.2023.162713",
+    "identity_source": "https://doi.org/10.1016/j.scitotenv.2023.162713",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Science of The Total Environment",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1016/j.scitotenv.2023.162713",
+        "type": "article",
+        "year": 2023,
+        "container": "The Science of The Total Environment",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen",
+    "openalex_id": "W4328136826",
+    "n_referenced": 42,
+    "cited_by_count": 473
+  },
+  {
+    "title": "Microplastic presence in dog and human testis and its potential association with sperm count and weights of testis and epididymis",
+    "authors": [
+      "Chelin Jamie Hu",
+      "Marcus A. Garcia",
+      "Alexander Nihart",
+      "Rui Liu",
+      "Lei Yin"
+    ],
+    "year": 2024,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "DETECTION_TISSUE",
+    "query_cluster_family": "detection-mp",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Toxicol Sci. The closest thing in the MP literature to a detection-plus-association study in humans, and it is cross-sectional, small, and part canine. Tests whether the screen keeps DETECTION_TISSUE separate from SEMEN_PARAMETER when one record straddles both.",
+    "shadows_refused": [
+      {
+        "reason": "shadow_record:commentary",
+        "title": "Comment on: \u201cMicroplastic presence in dog and human testis a",
+        "doi": "10.1093/toxsci/kfae136"
+      },
+      {
+        "reason": "shadow_record:commentary",
+        "title": "Comment on: \u201cMicroplastic presence in dog and human testis a",
+        "doi": "10.1093/toxsci/kfae136"
+      }
+    ],
+    "doi": "10.1093/toxsci/kfae060",
+    "identity_source": "https://doi.org/10.1093/toxsci/kfae060",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Toxicological Sciences",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 4,
+    "rejected_versions": [
+      {
+        "doi": "10.1093/toxsci/kfae060",
+        "type": "article",
+        "year": 2024,
+        "container": "Toxicological Sciences",
+        "score": 120,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.1093/toxsci/kfae137",
+        "type": "journal-article",
+        "year": 2024,
+        "container": "Toxicological Sciences",
+        "score": 120,
+        "src": "crossref"
+      },
+      {
+        "doi": "10.1093/toxsci/kfae137",
+        "type": "article",
+        "year": 2024,
+        "container": "Toxicological Sciences",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen",
+    "openalex_id": "W4396939005",
+    "n_referenced": 25,
+    "cited_by_count": 222
+  },
+  {
+    "title": "Discovery and quantification of plastic particle pollution in human blood",
+    "authors": [
+      "H.A. Leslie",
+      "Martin J. M. van Velzen",
+      "Sicco H. Brandsma",
+      "D. Vethaak",
+      "Juan J. Garcia-Vallejo"
+    ],
+    "year": 2022,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "DETECTION_TISSUE",
+    "query_cluster_family": "detection-mp",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Environ Int. Systemic bioavailability \u2014 the record that makes reproductive-tissue detection mechanistically unsurprising. SHADOW-GATE TEST CASE: both a 'Letter to the editor, discovery and quantification of plastic particle pollution in human blood' and a 'Faculty Opinions recommendation of ...' twin exist at their own DOIs.",
+    "shadows_refused": [
+      {
+        "reason": "shadow_record:commentary",
+        "title": "Letter to the editor, discovery and quantification of plasti",
+        "doi": "10.1016/j.envint.2022.107400"
+      },
+      {
+        "reason": "shadow_record:commentary",
+        "title": "Faculty Opinions recommendation of Discovery and quantificat",
+        "doi": "10.3410/f.741875978.793595703"
+      },
+      {
+        "reason": "shadow_record:commentary",
+        "title": "Letter to the editor, discovery and quantification of plasti",
+        "doi": "10.1016/j.envint.2022.107400"
+      }
+    ],
+    "doi": "10.1016/j.envint.2022.107199",
+    "identity_source": "https://doi.org/10.1016/j.envint.2022.107199",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Environment International",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1016/j.envint.2022.107199",
+        "type": "article",
+        "year": 2022,
+        "container": "Environment International",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen",
+    "openalex_id": "W4220655782",
+    "n_referenced": 46,
+    "cited_by_count": 3753
+  },
+  {
+    "title": "Detection of Various Microplastics in Human Stool",
+    "authors": [
+      "Philipp Schwabl",
+      "Sebastian Koppel",
+      "Philipp Konigshofer",
+      "Theresa Bucsics",
+      "Michael Trauner"
+    ],
+    "year": 2019,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "DETECTION_TISSUE",
+    "query_cluster_family": "detection-mp",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Ann Intern Med. The first human-burden detection record; anchors the exposure-assessment stream's start date.",
+    "doi": "10.7326/m19-0618",
+    "identity_source": "https://doi.org/10.7326/m19-0618",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Annals of Internal Medicine",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.7326/m19-0618",
+        "type": "article",
+        "year": 2019,
+        "container": "Annals of Internal Medicine",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen",
+    "openalex_id": "W2972186294",
+    "n_referenced": 30,
+    "cited_by_count": 1918
+  },
+  {
+    "title": "Nontargeted identification of per- and polyfluoroalkyl substances in human follicular fluid and their blood-follicle transfer",
+    "authors": [
+      "Qiyue Kang",
+      "Fumei Gao",
+      "Xiaohua Zhang",
+      "Lei Wang",
+      "Jiaying Liu"
+    ],
+    "year": 2020,
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "provisional_cell": "DETECTION_TISSUE",
+    "query_cluster_family": "detection-pfas",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Environ Int. The PFAS counterpart to the MP follicular-fluid work, and five years earlier \u2014 evidence that 'detected inside the reproductive system itself' is not the novelty v5 claims for the split, at least not for PFAS.",
+    "doi": "10.1016/j.envint.2020.105686",
+    "identity_source": "https://doi.org/10.1016/j.envint.2020.105686",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Environment International",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1016/j.envint.2020.105686",
+        "type": "article",
+        "year": 2020,
+        "container": "Environment International",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen",
+    "openalex_id": "W3015842878",
+    "n_referenced": 53,
+    "cited_by_count": 108
+  },
+  {
+    "title": "Half-Life of Serum Elimination of Perfluorooctanesulfonate, Perfluorohexanesulfonate, and Perfluorooctanoate in Retired Fluorochemical Production Workers",
+    "authors": [
+      "Geary W. Olsen",
+      "Jean M. Burris",
+      "David J. Ehresman",
+      "John W. Froehlich",
+      "Andrew M. Seacat"
+    ],
+    "year": 2007,
+    "provenance_channel": "parameter_stream",
+    "provisional_cell": "PARAMETER_PHARMACOKINETIC",
+    "query_cluster_family": "pharmacokinetic",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Environ Health Perspect. The half-life estimates on which every claim about exposure windows and elimination rests.",
+    "doi": "10.1289/ehp.10009",
+    "identity_source": "https://doi.org/10.1289/ehp.10009",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Environmental Health Perspectives",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1289/ehp.10009",
+        "type": "article",
+        "year": 2007,
+        "container": "Environmental Health Perspectives",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen",
+    "openalex_id": "W1993650845",
+    "n_referenced": 20,
+    "cited_by_count": 2033
+  },
+  {
+    "title": "Determinants of plasma concentrations of perfluoroalkyl substances in pregnant Norwegian women",
+    "authors": [
+      "Anne Lise Brantsaeter",
+      "Kristina W. Whitworth",
+      "Trond A. Ydersbond",
+      "Line Smastuen Haug",
+      "Margaretha Haugen"
+    ],
+    "year": 2013,
+    "provenance_channel": "parameter_stream",
+    "provisional_cell": "PARAMETER_PHARMACOKINETIC",
+    "query_cluster_family": "pharmacokinetic",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Environ Int. THE REVERSE-CAUSATION ANCHOR: parity and breastfeeding history as determinants of serum concentration. This is the paper that makes 'parity causes exposure' a measured fact rather than a mechanism story.",
+    "doi": "10.1016/j.envint.2012.12.014",
+    "identity_source": "https://doi.org/10.1016/j.envint.2012.12.014",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Environment International",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1016/j.envint.2012.12.014",
+        "type": "article",
+        "year": 2013,
+        "container": "Environment International",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen",
+    "openalex_id": "W2088255575",
+    "n_referenced": 61,
+    "cited_by_count": 197
+  },
+  {
+    "title": "Perfluorinated Alkyl Acids in Blood Serum from Primiparous Women in Sweden: Serial Sampling during Pregnancy and Nursing, And Temporal Trends 1996-2010",
+    "authors": [
+      "Anders Glynn",
+      "Urs Berger",
+      "Anders Bignert",
+      "Shahid Ullah",
+      "Marie Aune"
+    ],
+    "year": 2012,
+    "provenance_channel": "parameter_stream",
+    "provisional_cell": "PARAMETER_PHARMACOKINETIC",
+    "query_cluster_family": "pharmacokinetic",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Environ Sci Technol. Serial within-woman sampling through pregnancy and nursing \u2014 the elimination pathway measured directly, in the population the fertility studies sample.",
+    "doi": "10.1021/es301168c",
+    "identity_source": "https://doi.org/10.1021/es301168c",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Environmental Science &amp; Technology",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1021/es301168c",
+        "type": "article",
+        "year": 2012,
+        "container": "Environmental Science & Technology",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen",
+    "openalex_id": "W2055564344",
+    "n_referenced": 36,
+    "cited_by_count": 416
+  },
+  {
+    "title": "Trends in Exposure to Polyfluoroalkyl Chemicals in the U.S. Population: 1999-2008",
+    "authors": [
+      "Kayoko Kato",
+      "Lee-Yang Wong",
+      "Lily Jia",
+      "Zsuzsanna Kuklenyik"
+    ],
+    "year": 2011,
+    "provenance_channel": "parameter_stream",
+    "provisional_cell": "PARAMETER_EXPOSURE",
+    "query_cluster_family": "exposure-series",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Environ Sci Technol. NHANES. The record that falsifies v5's 'the exposure is structurally rising' for legacy PFAS: PFOS and PFHxS trend DOWN after production was discontinued, PFOA is flat from 2003, only PFNA trends up. Compound-specific, which is why CHEMICAL_FAMILY has a PFAS_REPLACEMENT level.",
+    "doi": "10.1021/es1043613",
+    "identity_source": "https://doi.org/10.1021/es1043613",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Environmental Science &amp; Technology",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1021/es1043613",
+        "type": "article",
+        "year": 2011,
+        "container": "Environmental Science & Technology",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen",
+    "openalex_id": "W2066634548",
+    "n_referenced": 22,
+    "cited_by_count": 786
+  },
+  {
+    "title": "Perfluoroalkyl and polyfluoroalkyl substances and measures of human fertility: a systematic review",
+    "authors": [
+      "Cathrine Carlsen Bach",
+      "Anne Vested",
+      "Kristian Tore Jorgensen",
+      "Jens Peter Bonde",
+      "Tine Brink Henriksen"
+    ],
+    "year": 2016,
+    "provenance_channel": "channel1_review_seed",
+    "provisional_cell": "PRIMARY_EXPOSURE_TO_FERTILITY",
+    "query_cluster_family": "channel1",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Crit Rev Toxicol. The prior review on this chapter's exact estimand. LEAKAGE WALL APPLIES: its search strategy must not be mined for A6 query terms, since it is also the benchmark against which Recall(A) is computed.",
+    "doi": "10.1080/10408444.2016.1182117",
+    "identity_source": "https://doi.org/10.1080/10408444.2016.1182117",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Critical Reviews in Toxicology",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1080/10408444.2016.1182117",
+        "type": "review",
+        "year": 2016,
+        "container": "Critical Reviews in Toxicology",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen",
+    "openalex_id": "W2416805024",
+    "n_referenced": 60,
+    "cited_by_count": 173
+  },
+  {
+    "title": "The effects of perfluoroalkyl and polyfluoroalkyl substances on female fertility: A systematic review and meta-analysis",
+    "authors": [
+      "Wei Wang",
+      "Xiang Hong",
+      "Fanqi Zhao",
+      "Jingying Wu",
+      "Bei Wang"
+    ],
+    "year": 2022,
+    "provenance_channel": "channel1_review_seed",
+    "provisional_cell": "PRIMARY_EXPOSURE_TO_FERTILITY",
+    "query_cluster_family": "channel1",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Environ Res. The only meta-analysis on the primary estimand. LEAKAGE WALL APPLIES.",
+    "doi": "10.1016/j.envres.2022.114718",
+    "identity_source": "https://doi.org/10.1016/j.envres.2022.114718",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Environmental Research",
+    "record_type": "review",
+    "resolved_via": "openalex",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1016/j.envres.2022.114718",
+        "type": "journal-article",
+        "year": 2023,
+        "container": "Environmental Research",
+        "score": 116,
+        "src": "crossref"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen",
+    "openalex_id": "W4308112188",
+    "n_referenced": 55,
+    "cited_by_count": 66
+  },
+  {
+    "title": "Persistent organic pollutants and couple fecundability: a systematic review",
+    "authors": [
+      "Linda G. Kahn",
+      "Kim G. Harley",
+      "Eva Siegel",
+      "Yeyi Zhu",
+      "Pam Factor-Litvak"
+    ],
+    "year": 2020,
+    "provenance_channel": "channel1_review_seed",
+    "provisional_cell": "PRIMARY_EXPOSURE_TO_FERTILITY",
+    "query_cluster_family": "channel1",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Hum Reprod Update. Broader than B.6 \u2014 spans B.2 and B.6 families \u2014 so it is also a Wall 1 test: the resolver keeps it, the screen must mark it MIXTURE_UNSEPARABLE unless compound-specific estimates are recoverable. LEAKAGE WALL APPLIES.",
+    "doi": "10.1093/humupd/dmaa037",
+    "identity_source": "https://doi.org/10.1093/humupd/dmaa037",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Human Reproduction Update",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1093/humupd/dmaa037",
+        "type": "review",
+        "year": 2020,
+        "container": "Human Reproduction Update",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen",
+    "openalex_id": "W3094979624",
+    "n_referenced": 149,
+    "cited_by_count": 57
+  },
+  {
+    "title": "Perfluoroalkyl and polyfluoroalkyl substances (PFAS) and their effects on the ovary",
+    "authors": [
+      "Ning Ding",
+      "Sioban D. Harlow",
+      "John F. Randolph",
+      "Rita Loch-Caruso",
+      "Sung Kyun Park"
+    ],
+    "year": 2020,
+    "provenance_channel": "channel1_review_seed",
+    "provisional_cell": "OVARIAN_PARAMETER",
+    "query_cluster_family": "mechanism",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Hum Reprod Update. The ovarian mechanism review.",
+    "doi": "10.1093/humupd/dmaa018",
+    "identity_source": "https://doi.org/10.1093/humupd/dmaa018",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Human Reproduction Update",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 3,
+    "rejected_versions": [
+      {
+        "doi": "10.1093/humupd/dmaa018",
+        "type": "article",
+        "year": 2020,
+        "container": "Human Reproduction Update",
+        "score": 120,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.1542/9781610022194-part04-ch36",
+        "type": "book-chapter",
+        "year": 2018,
+        "container": "Pediatric Environmental Health",
+        "score": 22,
+        "src": "crossref"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen",
+    "openalex_id": "W3031831327",
+    "n_referenced": 201,
+    "cited_by_count": 396
+  },
+  {
+    "title": "Per- and poly-fluoroalkyl substances (PFAS) and female reproductive outcomes: PFAS elimination, endocrine-mediated effects, and disease",
+    "authors": [
+      "Brittany P. Rickard",
+      "Imran Rizvi",
+      "Suzanne E. Fenton"
+    ],
+    "year": 2021,
+    "provenance_channel": "channel1_review_seed",
+    "provisional_cell": "PARAMETER_PHARMACOKINETIC",
+    "query_cluster_family": "mechanism",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Toxicology. Names elimination as a competing explanation for the observed associations in its own title \u2014 the clearest statement in the literature that this chapter's central identification threat is recognised by the field.",
+    "doi": "10.1016/j.tox.2021.153031",
+    "identity_source": "https://doi.org/10.1016/j.tox.2021.153031",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Toxicology",
+    "record_type": "article",
+    "resolved_via": "openalex",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1016/j.tox.2021.153031",
+        "type": "journal-article",
+        "year": 2022,
+        "container": "Toxicology",
+        "score": 116,
+        "src": "crossref"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen",
+    "openalex_id": "W3214282621",
+    "n_referenced": 247,
+    "cited_by_count": 330
+  },
+  {
+    "title": "The Role of Peroxisome Proliferator-Activated Receptor Gamma (PPARgamma) in Mono(2-ethylhexyl) Phthalate (MEHP)-Mediated Cytotrophoblast Differentiation",
+    "authors": [
+      "Hussein Shoaito",
+      "Julia Petit",
+      "Audrey Chissey",
+      "Nicolas Auzeil",
+      "Jean Guibourdenche"
+    ],
+    "year": 2019,
+    "provenance_channel": "routing_decoy",
+    "provisional_cell": "OFF_LEGACY_EDC_B2",
+    "query_cluster_family": "decoy-wall1-b2",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Environ Health Perspect. WALL 1 DECOY, and the live instance of v5's fourth seminal citation being a B.2 paper: MEHP is a phthalate metabolite. Wrong year and wrong journal in v5 as well. If the screen routes this into B.6 the wall that defines the chapter is not being enforced.",
+    "doi": "10.1289/ehp3730",
+    "identity_source": "https://doi.org/10.1289/ehp3730",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 0.895,
+    "container": "Environmental Health Perspectives",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1289/ehp3730",
+        "type": "article",
+        "year": 2019,
+        "container": "Environmental Health Perspectives",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen",
+    "openalex_id": "W2917695413",
+    "n_referenced": 77,
+    "cited_by_count": 83
+  },
+  {
+    "title": "Reducing exposure to high levels of perfluorinated compounds in drinking water improves reproductive outcomes: evidence from an intervention in Minnesota",
+    "authors": [
+      "Gina Waterfield",
+      "Martha Rogers",
+      "Philippe Grandjean",
+      "Maximilian Auffhammer",
+      "David L. Sunding"
+    ],
+    "year": 2020,
+    "provenance_channel": "routing_decoy",
+    "provisional_cell": "OFF_PREGNANCY_SAFETY",
+    "query_cluster_family": "decoy-wall2-pregnancy",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Environ Health. WALL 2 DECOY and the Call 3 instance. The only difference-in-differences design in the corpus \u2014 the 2006 Oakdale water filtration installation \u2014 and its outcomes are birth weight and preterm birth, so it routes OUT of synthesis. Flagged ASIDE_EXTRACTED: extract the estimate, report it in a named aside with the estimand mismatch stated, and keep it out of every pooled quantity and every recall denominator. Note the author list is half environmental economists, which is why it is the best-identified study here and also why it answers a different question.",
+    "doi": "10.1186/s12940-020-00591-0",
+    "identity_source": "https://doi.org/10.1186/s12940-020-00591-0",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Environmental Health",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1186/s12940-020-00591-0",
+        "type": "article",
+        "year": 2020,
+        "container": "Environmental Health",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen",
+    "openalex_id": "W3019204385",
+    "n_referenced": 38,
+    "cited_by_count": 53
+  },
+  {
+    "title": "Relationship of Perfluorooctanoic Acid Exposure to Pregnancy Outcome Based on Birth Records in the Mid-Ohio Valley",
+    "authors": [
+      "David A. Savitz",
+      "Cheryl R. Stein",
+      "Beth Elston",
+      "Gregory A. Wellenius",
+      "Scott M. Bartell"
+    ],
+    "year": 2012,
+    "provenance_channel": "routing_decoy",
+    "provisional_cell": "OFF_PREGNANCY_SAFETY",
+    "query_cluster_family": "decoy-wall2-pregnancy",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Environ Health Perspect. WALL 2 DECOY in its C8 form. The high-exposure cohorts have been studied for birth outcomes far more than for fertility, so this is the shape most Wall 9 records actually take \u2014 a strong design pointed at the wrong estimand.",
+    "doi": "10.1289/ehp.1104752",
+    "identity_source": "https://doi.org/10.1289/ehp.1104752",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Environmental Health Perspectives",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1289/ehp.1104752",
+        "type": "article",
+        "year": 2012,
+        "container": "Environmental Health Perspectives",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen",
+    "openalex_id": "W1990858650",
+    "n_referenced": 21,
+    "cited_by_count": 121
+  },
+  {
+    "title": "Association between chemical mixtures and female fertility in women undergoing assisted reproduction in Sweden and Estonia",
+    "authors": [
+      "Andrea Bellavia",
+      "Runyu Zou",
+      "Richelle D. Bjorvang",
+      "Kristine Roos",
+      "Ylva Sjunnesson"
+    ],
+    "year": 2022,
+    "provenance_channel": "routing_decoy",
+    "provisional_cell": "MIXTURE_UNSEPARABLE",
+    "query_cluster_family": "decoy-wall1-mixture",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Environ Res. Tests TWO walls at once: a mixture index spanning B.2 and B.6 families (Wall 1) measured in an ART population (Wall 4). The correct disposition is MIXTURE_UNSEPARABLE with the ART frame flagged, not admission to either chapter's pooled estimate.",
+    "doi": "10.1016/j.envres.2022.114447",
+    "identity_source": "https://doi.org/10.1016/j.envres.2022.114447",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Environmental Research",
+    "record_type": "article",
+    "resolved_via": "openalex",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1016/j.envres.2022.114447",
+        "type": "journal-article",
+        "year": 2023,
+        "container": "Environmental Research",
+        "score": 116,
+        "src": "crossref"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen",
+    "openalex_id": "W4297473056",
+    "n_referenced": 61,
+    "cited_by_count": 73
+  },
+  {
+    "title": "Oyster reproduction is affected by exposure to polystyrene microplastics",
+    "authors": [
+      "Rossana Sussarellu",
+      "Marc Suquet",
+      "Yoann Thomas",
+      "Christophe Lambert",
+      "Caroline Fabioux"
+    ],
+    "year": 2016,
+    "provenance_channel": "routing_decoy",
+    "provisional_cell": "OFF_ANIMAL",
+    "query_cluster_family": "decoy-wall5-animal",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "PNAS. WALL 5 DECOY. Sits at the very top of the citation ranking for microplastics paired with reproduction and fecundity \u2014 this is the expected head of the ranking, not a tail risk, and the screen must check species on every record.",
+    "doi": "10.1073/pnas.1519019113",
+    "identity_source": "https://doi.org/10.1073/pnas.1519019113",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Proceedings of the National Academy of Sciences",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1073/pnas.1519019113",
+        "type": "article",
+        "year": 2016,
+        "container": "Proceedings of the National Academy of Sciences",
+        "score": 120,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen",
+    "openalex_id": "W2255762950",
+    "n_referenced": 70,
+    "cited_by_count": 1812
+  },
+  {
+    "title": "Temporal trends in sperm count: a systematic review and meta-regression analysis",
+    "authors": [
+      "Hagai Levine",
+      "Niels Jorgensen",
+      "Anderson Joel Martino-Andrade",
+      "Jaime Mendiola",
+      "Dan Weksler-Derri"
+    ],
+    "year": 2017,
+    "provenance_channel": "routing_decoy",
+    "provisional_cell": "OUTCOME_TREND_UNATTRIBUTED",
+    "query_cluster_family": "decoy-wall7-trend",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Hum Reprod Update. WALL 7 DECOY: a measured decline in an outcome with NO exposure measured. It is the phenomenon B.2, B.6 and A.16 compete to explain, not evidence for any of them. SHADOW-GATE TEST CASE: a 'Re: Temporal Trends in Sperm Count' letter in J Urol and two 'Faculty Opinions recommendation of ...' records all share the title.",
+    "shadows_refused": [
+      {
+        "reason": "shadow_record:commentary",
+        "title": "Faculty Opinions recommendation of Temporal trends in sperm ",
+        "doi": "10.3410/f.727853579.793535079"
+      },
+      {
+        "reason": "shadow_record:commentary",
+        "title": "Faculty Opinions recommendation of Temporal trends in sperm ",
+        "doi": "10.3410/f.727853579.793559983"
+      },
+      {
+        "reason": "shadow_record:commentary",
+        "title": "Faculty Opinions recommendation of Temporal trends in sperm ",
+        "doi": "10.3410/f.727853579.793542730"
+      },
+      {
+        "reason": "shadow_record:commentary",
+        "title": "Re: Temporal Trends in Sperm Count: A Systematic Review and ",
+        "doi": "10.1016/j.juro.2017.12.022"
+      }
+    ],
+    "doi": "10.1093/humupd/dmx022",
+    "identity_source": "https://doi.org/10.1093/humupd/dmx022",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Human Reproduction Update",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 4,
+    "rejected_versions": [
+      {
+        "doi": "10.1093/humupd/dmx022",
+        "type": "review",
+        "year": 2017,
+        "container": "Human Reproduction Update",
+        "score": 120,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.1093/humupd/dmac035",
+        "type": "journal-article",
+        "year": 2022,
+        "container": "Human Reproduction Update",
+        "score": 100,
+        "src": "crossref"
+      },
+      {
+        "doi": "10.1093/humupd/dmac035",
+        "type": "review",
+        "year": 2022,
+        "container": "Human Reproduction Update",
+        "score": 100,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen",
+    "openalex_id": "W2739446247",
+    "n_referenced": 244,
+    "cited_by_count": 1355
+  },
+  {
+    "title": "The Minderoo-Monaco Commission on Plastics and Human Health",
+    "authors": [
+      "Philip J. Landrigan",
+      "Herve Raps",
+      "Maureen Cropper",
+      "Caroline Bald",
+      "Manuel Brunner"
+    ],
+    "year": 2023,
+    "provenance_channel": "hypothesis_canon",
+    "provisional_cell": "PARAMETER_EXPOSURE",
+    "query_cluster_family": "commission",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Ann Glob Health. What v5 means by its non-existent 'Lancet Commission on Reproductive Health (2025)'. DUPLICATE-RECORD GATE TEST CASE and the reason the gate exists: indexed at 10.5334/aogh.4056 (447 cites) AND 10.5334/aogh.4083 (41 cites), same title, year and venue, plus a 'Correction: ...' record at aogh.4331 that the shadow gate should catch separately.",
+    "shadows_refused": [
+      {
+        "reason": "shadow_record:integrity",
+        "title": "Correction: The Minderoo-Monaco Commission on Plastics and H",
+        "doi": "10.5334/aogh.4331"
+      },
+      {
+        "reason": "shadow_record:integrity",
+        "title": "Correction: The Minderoo-Monaco Commission on Plastics and H",
+        "doi": "10.5334/aogh.4331"
+      }
+    ],
+    "integrity_flag": [
+      {
+        "kind": "integrity",
+        "title": "Correction: The Minderoo-Monaco Commission on Plastics and Human Health",
+        "doi": "10.5334/aogh.4331",
+        "year": 2023,
+        "container": "Annals of Global Health"
+      },
+      {
+        "kind": "integrity",
+        "title": "Correction: The Minderoo-Monaco Commission on Plastics and Human Health",
+        "doi": "10.5334/aogh.4331",
+        "year": 2023,
+        "container": "Annals of Global Health"
+      }
+    ],
+    "doi": "10.5334/aogh.4056",
+    "identity_source": "https://doi.org/10.5334/aogh.4056",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Annals of Global Health",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 5,
+    "rejected_versions": [
+      {
+        "doi": "10.5334/aogh.4056",
+        "type": "article",
+        "year": 2023,
+        "container": "Annals of Global Health",
+        "score": 120,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.5334/aogh.3916",
+        "type": "journal-article",
+        "year": 2022,
+        "container": "Annals of Global Health",
+        "score": 116,
+        "src": "crossref"
+      },
+      {
+        "doi": "10.5334/aogh.3916",
+        "type": "article",
+        "year": 2022,
+        "container": "Annals of Global Health",
+        "score": 116,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.5194/oos2025-1433",
+        "type": "posted-content",
+        "year": 2025,
+        "container": "",
+        "score": 27,
+        "src": "crossref"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen",
+    "openalex_id": "W4352994034",
+    "n_referenced": 1314,
+    "cited_by_count": 447
+  }
+]
