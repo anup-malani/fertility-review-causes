@@ -1,5 +1,5 @@
 # TICK-067: Automate the QUEUE.md board move in `scripts/ticket.sh claim`
-**Status:** open
+**Status:** in-progress
 **Assigned:** Shravan
 **Parallel-safe:** yes
 **Blocks:** none
