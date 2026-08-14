@@ -15,7 +15,8 @@
 - [x] 3. Literature search and AI screening, both phases (§5.1) — **done 2026-08-14, 920/920**
 - [ ] 3. Literature search and AI screening, both phases (§5.1)
 - [ ] 4. RA title/abstract review — **gate worksheet ready: `extraction/microplastics-pfas-reproductive-ra-gate.csv`, 156 rows. Deliberately NOT done by me: the AI screen and the RA gate are designed as independent passes**
-- [x] 5. Full-text retrieval — **119/239 readable (50%) after two automated passes. Residual handed to TICK-069 (library). NOT blocking: extraction proceeds against what is held**
+- [ ] 5. Full-text retrieval — **119/239 readable (50%) after two automated passes; extraction proceeds against what is held**
+  - [ ] 5a. Library pass on the residual 118 — needs Zotero + UChicago proxy. List: `literature/search-logs/microplastics-pfas-reproductive-library-wantlist.md`, ordered by value, safe to stop partway. Job A first (12 records), PFAS before microplastics
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
 - [ ] 7. Extraction to `extraction/microplastics-pfas-reproductive.csv`, RA verifies a random 10%
 - [ ] 8. Risk-of-bias assessment per study
@@ -262,11 +263,20 @@ fix worked against the bias rather than with it, which was the reason for trying
 | B — held for routing | 26/56 | 46% |
 | C — parameter and measurement | 40/84 | 48% |
 
-**TICK-069 opened for the residual 118** (73 route-blocked, 45 closed), ordered by retrieval value
-with the PFAS half first so procurement shrinks the family gap instead of entrenching it. Two
-shadow/duplicate records are explicitly excluded from procurement. **TICK-068 is not blocked on it** —
-the precedent is TICK-056 (C.2.c, 15/15 recovered, extraction unblocked) rather than TICK-041 (B.1,
-stalled at 20/95 since July).
+**The residual 118 stays inside this ticket** as criterion 5a rather than becoming a sub-ticket.
+`tickets/README.md` allows a retrieval sub-ticket when the stage blocks on library access; here it
+does not block — 50% readable including 15 of 29 primary-cell records is enough to run extraction,
+so a separate ticket would add tracking overhead without unblocking anything. If a human never gets
+to 5a, the chapter still reports; it reports with a stated retrieval rate.
+
+The list is `literature/search-logs/microplastics-pfas-reproductive-library-wantlist.md`: 73
+route-blocked (open, publisher refuses scripts — often just a browser click, no proxy needed) and 45
+genuinely closed. Ordered by retrieval value with the PFAS half first, so procurement shrinks the
+family gap rather than entrenching it. Two shadow/duplicate records are explicitly excluded — asking
+a human to fetch a peer-review artefact wastes the scarcest resource in the pipeline.
+
+Highest-value single record: **`Serum perfluoroalkyl acids and time to pregnancy in nulliparous
+women`** (closed) — the parity-handled design the Call 2 restricted track is built on.
 
 Also filed earlier as a **duplicate-record gate** (the Minderoo-Monaco Commission carries two DOIs with different
 citation counts plus an erratum, so DOI-level dedup double-counts it), and a correction to B.7's
