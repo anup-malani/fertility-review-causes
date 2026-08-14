@@ -20,12 +20,12 @@
 - [x] 6. Full-text screen — **done 2026-08-14 on the 53 held primary/input documents (`143` locates the methods facts, `144` codes them). RA spot-check outstanding**
 - [x] 7. Extraction — **first pass done: `extraction/microplastics-pfas-reproductive-effects.csv`, 17 rows. RA 10% verification outstanding; 5 rows need PDF-quality re-extraction**
 - [x] 8. Risk-of-bias assessment — **first pass done: `extraction/microplastics-pfas-reproductive-risk-of-bias.csv`, 10 domain ratings**
-- [ ] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise — **run twice, once per chemical family; never pooled across**
-- [ ] 10. Demographic significance against SDT — **run twice, each family against its own exposure series**
-- [ ] 11. GRADE rating, 3 independent raters — **run twice; no bundled B.6 rating at any stage**
-- [ ] 12. Chapter drafts on the §6 template — **two chapters** (Call 1, decided 2026-08-14):
-  - [ ] 12a. `output/chapters/microplastics-pfas-reproductive-pfas.md`
-  - [ ] 12b. `output/chapters/microplastics-pfas-reproductive-microplastics.md`
+- [x] 9. Synthesis — **narrative both times; neither family meets PROTOCOL §5.9's three-estimate bar**
+- [x] 10. Demographic significance — **PFAS not significant (wrong-signed slope); microplastics not computable**
+- [x] 11. GRADE — **both families Very low, for opposite reasons. §5.11 three-rater panel NOT run and not simulated; outstanding**
+- [x] 12. Chapter drafts on the §6 template — **two chapters drafted 2026-08-14** (Call 1):
+  - [x] 12a. `output/chapters/microplastics-pfas-reproductive-pfas.md` (2,515 words, all 11 sections)
+  - [x] 12b. `output/chapters/microplastics-pfas-reproductive-microplastics.md` (2,043 words, all 11 sections)
 - [ ] 13. RA lay-readability check, both chapters
 - [ ] 14. PI review and sign-off, both chapters
 
@@ -322,6 +322,25 @@ Three further findings:
 **Not poolable yet.** PROTOCOL §5.9 wants three estimates sharing family, estimand level, sex stratum
 and parity handling; the restricted track has two rows across two cohorts, one with no point estimate.
 The honest output is narrative synthesis centred on the two-track disagreement.
+
+**2026-08-14 — stage 12: both chapters drafted.** `output/chapters/microplastics-pfas-reproductive-pfas.md`
+(2,515 words) and `…-microplastics.md` (2,043 words), each carrying all eleven §6 sections and each
+naming the other as a required companion read. Written against the project's stop-slop rules:
+no em dashes, active voice, jargon replaced with what it denotes.
+
+Every study cited by author name was re-verified against a live record first, given that Call 4 found
+three of four v5 seminal citations wrong. That check changed several attributions I would otherwise
+have got wrong from the anchor set: the INUENDO cohort paper is **Jørgensen** et al. 2014, the MoBa
+brief report is **Whitworth** et al. 2016, the Singapore preconception cohort is **Cohen** et al.
+2023, and the LIFE cycle-length paper is **Lum** et al. 2016. The follicular-fluid ovarian-reserve
+study (**Ferraz** et al. 2026) is a Research Square **preprint** and the chapter says so in the
+included-studies table.
+
+The two chapters reach negative verdicts of different kinds and say so explicitly, since a reader who
+takes them as equivalent will draw the wrong inference about what future evidence could change:
+PFAS fails on evidence that exists and points the wrong way, and could only be reopened through the
+replacement-compound arm; microplastics fails on evidence that does not exist, and one adequately
+designed cohort could overturn it.
 
 Also filed earlier as a **duplicate-record gate** (the Minderoo-Monaco Commission carries two DOIs with different
 citation counts plus an erratum, so DOI-level dedup double-counts it), and a correction to B.7's
