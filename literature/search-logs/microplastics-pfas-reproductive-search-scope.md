@@ -5,10 +5,12 @@
 **Target phenomena:** SDT only. No PM cell, no FDT cell. Unlike B.7, **no sub-period restriction is
 needed**: the exposure is older than the phenomenon, not younger than it — see "Phenomenon scope".
 **Ticket:** TICK-068
-**Status:** **WALLS FROZEN** (Shravan, 2026-08-14). Nine boundary walls specified and frozen. **Call 1
-is decided: B.6 stays one hypothesis and one ticket, and produces two chapters** — see "Chapter
-structure" below. Four calls (2, 3, 4, 5) remain open with recommendations; none of them blocks the
-search. Anchor sourcing (A3) proceeds.
+**Status:** **FROZEN** (Shravan, 2026-08-14). Nine boundary walls specified and frozen. **Calls 1, 2, 3
+and 5 are decided** — one hypothesis producing two chapters; a two-track synthesis on parity handling;
+Waterfield excluded from synthesis but extracted as a flagged aside; detection rated as exposure, never
+as effect. **Call 4 is a referral to TICK-001**, not a decision for this chapter, and does not block it.
+One open question remains for the PI and it is not on the critical path: whether the two families
+should become separate hypothesis-list entries at v6 (see Call 1).
 
 Built on the B.7 (`antidepressants-ssri-subfecundity`) template, which inherits B.5's, D.2.d's and
 D.3.b's. Five constraints carry forward as design decisions rather than being rediscovered: the
@@ -387,7 +389,12 @@ not be described as evidence that PFAS reduces fecundity, absent a `PARITY_HANDL
 - Include empirical studies where the estimate bears on **measured MP or PFAS exposure → a fertility
   quantity or a directly reproductive parameter**, in humans, with the chemical family recorded.
 - Studies conditioned on pregnancy whose outcome is a property of the birth are `OFF_PREGNANCY_SAFETY`
-  and excluded, however well identified (Wall 2, and see Call 3).
+  and excluded, however well identified (Wall 2). **Exception, and it is a reporting exception rather
+  than an eligibility one:** a routed-out record carrying identification stronger than anything in the
+  included set takes the additional flag `ASIDE_EXTRACTED`, is extracted, and is reported in a named
+  aside subsection with its estimand mismatch stated alongside its estimate. It enters no pooled
+  quantity, no recall denominator, and no demographic-significance computation. Waterfield et al. (2020)
+  is the instance (Call 3); the flag is rare by construction and every use is listed in the chapter.
 - Tissue-detection studies with no outcome are `DETECTION_TISSUE`: retained, indexed, excluded from the
   causal recall denominator.
 - Non-human studies are excluded (Wall 5), and species is checked on every record rather than inferred.
@@ -464,15 +471,33 @@ Five gates apply, all mandatory.
 - **Book-canon gate** (D.2.d, 2026-08-08): monographs resolve to their own reviews at perfect title
   confidence. Live here — Swan's *Count Down* is a trade monograph adjacent to this literature.
 - **Shadow-record gate** (B.7, 2026-08-12): named qualifiers only, never bare suffix-containment.
-  Confirmed live in this corpus on three separate anchors — "Faculty Opinions recommendation of X"
-  twice, "Letter to the editor, X", and "Re: X" in *The Journal of Urology*.
-- **Duplicate-record gate (new, B.6, 2026-08-14).** The Minderoo-Monaco Commission resolves to **two
-  distinct OpenAlex records with different DOIs** (`10.5334/aogh.4056`, 447 citations, and
-  `10.5334/aogh.4083`, 41 citations) plus a separate erratum record. DOI-level deduplication passes
-  both and would double-count the anchor and split its citation weight. The gate clusters on normalised
-  title + year + venue, keeps the higher-cited record as canonical, and **logs** the demotion rather
-  than dropping it silently. Commission reports, consensus statements and multi-part reviews are the
-  record types where this occurs.
+  Fires 12 times across this anchor set, including one integrity flag. **Three of its inherited
+  patterns were dead code and are now fixed**: the qualifier patterns are matched against
+  `norm()`-stripped titles, which remove all punctuation, so `^re\s*:`, `^corrections?\s+(to|for)`
+  and the `letter to the editor` variant requiring "re|regarding|concerning" could never match the
+  live forms `Re: X`, `Correction: X` and `Letter to the editor, X`. The miss surfaced because
+  "Correction: The Minderoo-Monaco Commission…" passed the gate and scored 120, **tied with the
+  article of record and kept out of the anchor slot by the tie-break alone**. A start-up self-test of
+  eight real record pairs, five positive and three negative, now fails the run loudly rather than
+  letting the gate under-refuse silently. **`124_b7_cold_start_anchors.py` carries the same three
+  holes** and its docstring claims a "Re:" catch it cannot have made — flagged in TICK-068 for that
+  branch to fix.
+- **Duplicate-record gate (new, B.6, 2026-08-14; UNVALIDATED — see the correction below).** Aimed at
+  one work indexed twice under two DOIs, which DOI-level deduplication cannot see. It clusters on
+  normalised title + year + venue **and requires positive author agreement**, keeps the higher-cited
+  member as canonical, and logs the demotion rather than dropping it silently.
+
+  **Correction to this document's first draft.** The gate was written on the belief that the
+  Minderoo-Monaco Commission is deposited twice — `10.5334/aogh.4056` (447 citations) and
+  `10.5334/aogh.4083` (41 citations), same title, year, volume and venue. Running the resolver showed
+  that is wrong: 4056 carries 48 authors under Landrigan, 4083 carries one, Maria Neira, and 4083 is a
+  single-author companion piece deposited under the report's title. The **author gate already separates
+  them correctly**, and the duplicate gate never saw the case it was built for. The author-agreement
+  requirement was added in response, because without it the gate would silently demote a legitimately
+  distinct same-title work whenever author metadata is missing — `author_match` returns None rather
+  than False in that case, so such records pass upstream. The gate has **zero confirmed catches in this
+  corpus** and is retained only as a cheap safeguard; it must not be described as validated until
+  something trips it.
 
 The set deliberately contains primary, detection, mechanism, parameter, pharmacokinetic, measurement
 and off-cell decoy anchors (a B.2 phthalate record for Wall 1, a pregnancy-safety record for Wall 2, an
@@ -495,21 +520,39 @@ reading the list on its own; the argument against is that renumbering propagates
 branch. Recommendation: raise at v6 alongside the Call 4 citation corrections, since both are edits to
 the same entry.
 
-**Call 2 — the reverse-causation problem is mechanical, and the estimate base is largely contaminated
-by it. Recommended: a two-track synthesis on parity handling.** PFAS elimination through pregnancy,
-lactation and menstruation makes parity a cause of exposure. Recommendation: the primary synthesis is
-restricted to `PARITY_HANDLING` ∈ {nulliparous-restricted, parity-stratified, first-pregnancy-only},
-with the unrestricted set reported alongside as a sensitivity and the gap between them reported as a
-quantity of interest. This is D.3.b's adjusted-versus-unadjusted design on a different axis, and the
-comparison is arguably the most informative thing this chapter can produce.
+**Call 2 — DECIDED 2026-08-14. The reverse-causation problem is mechanical, and the estimate base is
+largely contaminated by it. Resolution: a two-track synthesis on parity handling.** PFAS elimination
+through pregnancy, lactation and menstruation makes parity a cause of exposure. The primary synthesis
+is restricted to `PARITY_HANDLING` ∈ {nulliparous-restricted, parity-stratified, first-pregnancy-only};
+the unrestricted set is reported alongside as a sensitivity; and **the gap between the two tracks is
+reported as a quantity of interest in its own right**, since its size is an estimate of how much of the
+apparent PFAS–subfecundity association is elimination running backwards. This is D.3.b's
+adjusted-versus-unadjusted design on a different axis. If the restricted track holds fewer than three
+poolable estimates, it is reported narratively and the unrestricted track is **not** promoted to fill
+the gap.
 
-**Call 3 — Wall 2 excludes the only credible natural experiment in the corpus. Recommended: uphold the
-exclusion and report the loss.** Waterfield et al. (2020) is a difference-in-differences design on a
-water-filtration intervention in Minnesota; its outcomes are birth weight and preterm birth, so it
-estimates B.6's exposure on B.2-style birth outcomes and not on any fertility quantity. Recommendation:
-route it `OFF_PREGNANCY_SAFETY` as the wall requires, and state in the chapter that the best-identified
-study in the space does not estimate the review's outcome. Admitting it would import an estimand the
-demographic-significance calculation cannot use.
+**Call 3 — DECIDED 2026-08-14. Wall 2 excludes the only credible natural experiment in the corpus.
+Resolution: uphold the exclusion, but extract the estimate and report it as a flagged aside.**
+Waterfield et al. (2020), *Environmental Health* — a difference-in-differences design on the 2006
+Oakdale, Minnesota water-filtration installation — estimates B.6's exposure on birth weight and preterm
+birth, not on any fertility quantity. It routes `OFF_PREGNANCY_SAFETY` and enters **no** pooled
+quantity, no recall denominator, and no demographic-significance computation.
+
+It is nonetheless **extracted**, under a new disposition flag defined below, and reported in a named
+subsection of the PFAS chapter. The reasoning is that silently dropping the best-identified study in
+the space would leave a reader unable to see that the design exists and that only its outcome
+disqualifies it — which is itself the chapter's central finding about the state of this literature.
+The aside carries the caveat explicitly: **this is an identified estimate of the wrong estimand**, its
+outcomes are properties of births that occurred rather than counts of births, and no step of the
+verdict rests on it.
+
+**The disposition is `ASIDE_EXTRACTED`**, and it generalises beyond this study. It applies to a record
+that (i) routes out of synthesis on a wall, (ii) carries identification stronger than anything in the
+included set, and (iii) would mislead by its absence. Such a record is extracted with its estimand
+mismatch stated in the same sentence as its estimate, is reported in a subsection headed as an aside,
+and is barred from every pooled quantity and every recall denominator. It is **not** a partial
+inclusion and must never be described as supporting evidence. Candidate rule for PROTOCOL §5.9 —
+flagged, not unilaterally added.
 
 **Call 4 — three of v5's four seminal citations for B.6 do not resolve as written. For TICK-001.**
 All four were probed on multiple wordings with zero failed requests:
@@ -531,14 +574,19 @@ All four were probed on multiple wordings with zero failed requests:
   entry whose seminal list is three-quarters wrong is a warning about the other v5 entries added in the
   same pass, and TICK-001 should re-verify B.7's and C.2.h's lists on the same gates.
 
-**Call 5 — what a detection literature can and cannot support. Recommended: state the premise as an
-exposure-assessment advance, and rate effects.** v5 justifies splitting B.6 from B.2 on the ground that
-the 2020s tissue-detection studies are a step change. They are — as exposure assessment. But the
-flagship female-tract study reports no association with AMH, fertilization outcomes, miscarriage or live
-birth, in 18 IVF patients. Recommendation: the chapter states plainly that presence in tissue
-establishes exposure and not effect, keeps `DETECTION_TISSUE` out of the causal recall denominator, and
-attaches GRADE to effect estimates only. The alternative — treating detection as partial evidence of
-effect — would give B.6 a credibility rating built on measurements that contain no outcome.
+**Call 5 — DECIDED 2026-08-14. What a detection literature can and cannot support. Resolution: state
+the premise as an exposure-assessment advance, and rate effects only.** v5 justifies splitting B.6 from
+B.2 on the ground that the 2020s tissue-detection studies are a step change. They are — as exposure
+assessment. But the flagship female-tract study reports no association with AMH, fertilization
+outcomes, miscarriage or live birth, in 18 IVF patients. The chapters state plainly that presence in
+tissue establishes exposure and not effect, keep `DETECTION_TISSUE` out of the causal recall
+denominator, and attach GRADE to effect estimates only. Treating detection as partial evidence of
+effect would give B.6 a credibility rating built on measurements that contain no outcome.
+
+This bears hardest on the microplastics chapter, which is where nearly all the detection work sits. If
+that chapter's effect cell is empty, its GRADE rating is **Very Low or "no rateable evidence"** and its
+demographic-significance verdict is that the quantity has not been estimated — reported as the finding,
+not padded with detection studies or with rodent work.
 
 ## Next step
 

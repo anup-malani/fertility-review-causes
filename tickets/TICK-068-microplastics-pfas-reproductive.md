@@ -9,6 +9,7 @@
 
 ## Acceptance criteria
 - [x] 2. Search strategy and scope drafted
+- [ ] 3a. A3 cold-start anchors sourced and gated — **done 2026-08-14, 32/32 verified**
 - [ ] 3. Literature search and AI screening, both phases (§5.1)
 - [ ] 4. RA title/abstract review
 - [ ] 5. Full-text retrieval
@@ -62,7 +63,35 @@ TICK-001's to change, and renumbering the master list propagates into every in-f
 citation corrections, since both edit the same entry. With Call 1 answered, **the nine walls are
 frozen**; Calls 2, 3 and 5 remain open and none of them blocks the search.
 
-Also new: a **duplicate-record gate** (the Minderoo-Monaco Commission carries two DOIs with different
+**2026-08-14 — Calls 2, 3 and 5 decided; A3 anchors done (32/32 verified).** Call 2: two-track
+synthesis on `PARITY_HANDLING`, with the gap between tracks reported as a quantity of interest.
+Call 3: Waterfield et al. (2020) stays excluded from synthesis but is **extracted and reported as a
+flagged aside** under a new `ASIDE_EXTRACTED` disposition — a routed-out record carrying stronger
+identification than anything included, reported with its estimand mismatch stated in the same
+sentence as its estimate, and barred from every pooled quantity and recall denominator. Candidate
+rule for PROTOCOL §5.9, flagged not added. Call 5: detection rated as exposure, never as effect.
+
+A3 (`134_b6_cold_start_anchors.py`) resolved 32 anchors, all verified live, across 13 estimand cells
+with one routing decoy per wall. Two defects in the **inherited** B.7 resolver surfaced, both found
+by testing the new gate rather than by reading:
+
+1. **Three shadow patterns were dead code.** They are matched against `norm()`-stripped titles, which
+   remove all punctuation, so `^re\s*:`, `^corrections?\s+(to|for)` and the `letter to the editor`
+   variant could never match the live forms `Re: X`, `Correction: X`, `Letter to the editor, X`. The
+   miss surfaced because "Correction: The Minderoo-Monaco Commission…" scored 120, **tied with the
+   article of record**, and was kept out of the anchor slot only by the tie-break. Fixed; shadow
+   catches went 7 → 12 with one integrity flag. A start-up self-test on eight real pairs now aborts
+   the run if the gate under-refuses. **`124_b7_cold_start_anchors.py` has the same three holes and
+   its docstring claims a "Re:" catch it cannot have made** — needs fixing on the 066 branch.
+2. **The duplicate-record gate's motivating case was misdiagnosed, and the gate could have caused
+   harm.** `aogh.4056` and `aogh.4083` share title, year, volume and venue but are *different works* —
+   48 authors under Landrigan versus a single-author companion piece by Maria Neira — and the author
+   gate separates them correctly on its own. Since `author_match` returns None (passes) when a record
+   has no author metadata, a bare title+year+venue rule would have silently demoted legitimately
+   distinct same-title works. Demotion now requires positive author agreement. The gate has **zero
+   confirmed catches** and is retained only as an unvalidated safeguard.
+
+Also filed earlier as a **duplicate-record gate** (the Minderoo-Monaco Commission carries two DOIs with different
 citation counts plus an erratum, so DOI-level dedup double-counts it), and a correction to B.7's
 scope, which wrongly lists B.6 among the hypotheses whose exposure post-dates its phenomenon — B.6's
 exposure is older than the SDT; only its *measurement* is recent.
