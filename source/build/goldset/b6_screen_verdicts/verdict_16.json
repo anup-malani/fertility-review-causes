@@ -1,0 +1,25 @@
+{
+ "batch": 16,
+ "verdicts": [
+  {"id": "W4292239995", "verdict": "NOT_RELEVANT", "cell": "OFF_ANIMAL", "family": "plastic", "note": "Wall 5. Marine organisms with sorbed oil."},
+  {"id": "W4412701379", "verdict": "NOT_RELEVANT", "cell": "OFF_OUTCOME", "family": "plastic", "note": "Cardiovascular burden. NB it is a GBD-style global analysis of dietary MP intake — the aggregate design B.6 wants, pointed at the wrong outcome."},
+  {"id": "W4399280614", "verdict": "NOT_RELEVANT", "cell": "OFF_ANIMAL", "family": "pfas", "note": "Wall 5. Zebrafish; title says 'premature ovarian insufficiency'."},
+  {"id": "W4411371472", "verdict": "NOT_RELEVANT", "cell": "OFF_ANIMAL", "family": "pfas", "note": "Wall 5."},
+  {"id": "W4411176347", "verdict": "RELEVANT", "cell": "MEASUREMENT_METHOD", "family": "pfas", "note": "Validation of dietary assessment against biomonitoring — exposure-misclassification evidence."},
+  {"id": "W4407754954", "verdict": "NOT_RELEVANT", "cell": "OFF_ANIMAL", "family": "pfas", "note": "Wall 5. Preconception design but an animal model."},
+  {"id": "W3022615022", "verdict": "NOT_RELEVANT", "cell": "OFF_OUTCOME", "family": "pfas", "note": "Bone density."},
+  {"id": "W2983562866", "verdict": "NOT_RELEVANT", "cell": "OFF_OUTCOME", "family": "pfas", "note": "Bone density."},
+  {"id": "W7166508257", "verdict": "NOT_RELEVANT", "cell": "OFF_ANIMAL", "family": "plastic", "note": "Wall 5. Mussels."},
+  {"id": "W4388465304", "verdict": "RELEVANT", "cell": "DETECTION_TISSUE", "family": "unclear", "note": "LC-HRMS screening of organic contaminants in HUMAN SEMEN — a detection-methodology record for the male tract."},
+  {"id": "W4316498419", "verdict": "NOT_RELEVANT", "cell": "OFF_OUTCOME", "family": "pfas", "note": "Depressive symptoms."},
+  {"id": "W2002115481", "verdict": "RELEVANT", "cell": "DETECTION_TISSUE", "family": "both", "note": "Human amniotic fluid, with a temporal-trend dimension; spans both families so Wall 1 applies to any effect estimate."},
+  {"id": "W2323827474", "verdict": "NOT_RELEVANT", "cell": "OFF_ANIMAL", "family": "plastic", "note": "Wall 5. Copepod."},
+  {"id": "W1972663145", "verdict": "RELEVANT", "cell": "PARAMETER_PHARMACOKINETIC", "family": "pfas", "note": "Determinants in Nunavik Inuit adults."},
+  {"id": "W4414084870", "verdict": "NOT_RELEVANT", "cell": "OFF_ANIMAL", "family": "plastic", "note": "Wall 5. TM4 is a murine Sertoli line."},
+  {"id": "W4281674405", "verdict": "NOT_RELEVANT", "cell": "OFF_ANIMAL", "family": "both", "note": "Wall 5. In-utero animal design; pesticide plus phthalate mixture."},
+  {"id": "W4417030420", "verdict": "NOT_RELEVANT", "cell": "OFF_ENVIRONMENTAL_FATE", "family": "plastic", "note": "Municipal solid waste."},
+  {"id": "W2091046509", "verdict": "NOT_RELEVANT", "cell": "OFF_ANIMAL", "family": "pfas", "note": "Wall 5. Zebrafish sex ratio."},
+  {"id": "W4399652287", "verdict": "NOT_RELEVANT", "cell": "OFF_ENVIRONMENTAL_FATE", "family": "pfas", "note": "Biosolids."},
+  {"id": "W7171776235", "verdict": "NOT_RELEVANT", "cell": "OFF_ANIMAL", "family": "plastic", "note": "Wall 5. Mussel aquaculture."}
+ ]
+}
