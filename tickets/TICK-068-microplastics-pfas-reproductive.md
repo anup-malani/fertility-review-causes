@@ -12,8 +12,9 @@
 - [ ] 3a. A3 cold-start anchors sourced and gated — **done 2026-08-14, 32/32 verified**
 - [ ] 3b. A4 Tier A / Tier B citation frame — **done 2026-08-14, 14,561 records, 0 failed requests**
 - [ ] 3c. D1 deterministic rank and screening cutoff — **done 2026-08-14, worklist 920**
+- [x] 3. Literature search and AI screening, both phases (§5.1) — **done 2026-08-14, 920/920**
 - [ ] 3. Literature search and AI screening, both phases (§5.1)
-- [ ] 4. RA title/abstract review
+- [ ] 4. RA title/abstract review — **gate worksheet ready: `extraction/microplastics-pfas-reproductive-ra-gate.csv`, 156 rows. Deliberately NOT done by me: the AI screen and the RA gate are designed as independent passes**
 - [ ] 5. Full-text retrieval
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
 - [ ] 7. Extraction to `extraction/microplastics-pfas-reproductive.csv`, RA verifies a random 10%
@@ -145,6 +146,59 @@ Sanity check on the output: the top-ranked records are PFAS time-to-pregnancy st
 **nulliparous-restricted** design at rank 4 and a preconception-measured couple-fecundability study
 at rank 5 — the two designs Call 2 and the identification cautions single out as the ones that
 identify. The ranker is finding what the scope said to look for.
+
+**2026-08-14 — AI screen complete (920/920) and E1 assembly (`137`, `138`).** 433 RELEVANT, 462
+NOT_RELEVANT, 25 UNCERTAIN. Tier 1 279 · tier 2 154 · tier 3 25. Primary-cell 30, fertility-input
+(semen/ovarian) 70, support 302, held 56. RA gate worksheet has 156 rows.
+
+All five validations pass: anchor recovery **4/4**; decoy containment **45/51 routed away (88%)**,
+so the walls hold without swallowing the boundary cases decoys exist to supply; chemical-family
+agreement between D1's deterministic tag and the blind screener **857/920 (93%)**.
+
+**The Call 1 split is confirmed by the counts, and the direction is the surprise:**
+
+| cell group | pfas | plastic | both |
+|---|---|---|---|
+| PRIMARY (a fertility quantity) | 19 | 10 | 1 |
+| INPUT (semen / ovarian parameter) | 62 | 7 | 0 |
+
+1. **The microplastics effect cell is NOT empty, and the scope document was wrong to expect it
+   would be.** Ten plastic-family records carry a fertility quantity, and the screen found human MP
+   studies with measured outcomes that the reconnaissance missed entirely: MP in follicular fluid
+   against diminished ovarian reserve (two independent groups), MP in semen against sperm quality
+   (three studies), polyethylene MP against oocyte quality in a human-and-mouse design, and a
+   plastic-tableware-use exposure contrast against sperm quality. A systematic review of MP and
+   *human* reproductive outcomes also exists — the recon found none. **The 2024–2026 publication
+   wave is the reason; the probes ran on citation-ranked heads, which are structurally older.** The
+   MP chapter will not be a pure null after all, though its evidence remains cross-sectional.
+2. **The asymmetry survives, in the INPUT row rather than the PRIMARY row.** PFAS has 62 semen and
+   ovarian parameter records to microplastics' 7 — a nine-to-one ratio. The two halves differ less
+   in whether a fertility quantity has been estimated than in the depth of measured biology beneath
+   it.
+3. **`PRIMARY_HIGH_EXPOSURE` is EMPTY — zero records in 920.** Wall 9's contaminated-community and
+   occupational cohorts (Ronneby, Veneto, C8, firefighters, Mid-Ohio Valley) appear ~20 times, and
+   every one is either exposure characterisation or a Wall 2 pregnancy outcome. **The populations
+   with the only exogenous exposure variation have never been studied for a fertility outcome.**
+   That is a stronger and more specific statement of the identification problem than the scope
+   document made, and it belongs in both chapters' GRADE rationale.
+
+Two defects found and fixed, plus one taxonomy gap:
+
+- **Shadow records inside Tier B: 10.** The A3 gate protects only the anchor set. Open-peer-review
+  journals mint a separately-DOI'd record per referee report — one eLife paper occupies **six** rows
+  in this frame (article, duplicate, Author Response, three Reviewer Public Reviews) and one PeerJ
+  review occupies **four**. Also caught: a `RETRACTED:` record whose retracted status lives only in
+  the title string. `Author Response:`, `Reviewer #N (Public Review):`, `Peer Review #N of` and
+  `Comment on:` all need adding to the A3 `SHADOW_QUALIFIERS`, and D1's title-collapse should strip
+  a leading qualifier before grouping.
+- **I repeated the punctuation bug I had fixed hours earlier.** The shadow scan's first version used
+  `^reviewer\s+#?\d+\s*\(` — a literal `(` that `norm()` deletes — and `^retractions?`, which
+  misses `RETRACTED:`. Detections went 6 → 10 once fixed. Knowing the bug class did not prevent
+  rewriting it; running the gate against a case it should catch did.
+- **Taxonomy gap:** B.6's cell list has no adult reproductive-endocrine parameter cell. B.7 had
+  `ENDOCRINE_MECHANISM` and it was not carried across, so serum testosterone and sex-hormone records
+  in adults were routed to the nearest sex-specific cell. Three records affected; add the cell before
+  extraction.
 
 Also filed earlier as a **duplicate-record gate** (the Minderoo-Monaco Commission carries two DOIs with different
 citation counts plus an erratum, so DOI-level dedup double-counts it), and a correction to B.7's
