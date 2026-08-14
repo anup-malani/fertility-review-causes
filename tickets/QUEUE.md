@@ -27,7 +27,7 @@ tickets can be worked concurrently.
 > commit message dated 07-21 to 07-25 against this table; in commit messages from Alexandra's schooling
 > workstream, `TICK-032` means the compulsory-education split and needs no translation.
 >
-> **Next free number is TICK-070.** Claim a number by pushing its QUEUE.md row before starting work,
+> **Next free number is TICK-069.** Claim a number by pushing its QUEUE.md row before starting work,
 > not after. That is what would have prevented the collision. TICK-047 through TICK-053 were claimed
 > for the D.3.b climate-anxiety chain on 2026-07-27; TICK-054 (A.10) and TICK-055 (C.2.c) on
 > 2026-07-31; TICK-056 opens C.2.c library retrieval.
@@ -46,7 +46,6 @@ tickets can be worked concurrently.
 
 | Ticket | Title | Assigned | Parallel-safe |
 |--------|-------|----------|---------------|
-| [TICK-069](TICK-069-b6-library-retrieval.md) | **B.6 library retrieval — 118 records needing a human with Zotero + UChicago proxy.** 73 are route-blocked (open, publisher refuses scripts — often just a browser click), 45 closed. Work Job A first, PFAS before microplastics: realised retrieval is 51% vs 59% and the chapter is a comparison between those halves | Shravan or Alexandra | yes |
 | [TICK-068](TICK-068-microplastics-pfas-reproductive.md) | B.6. Microplastics and PFAS in Reproductive Tissues | Shravan | yes |
 | [TICK-067](TICK-067-automate-ticket-claim-loop.md) | Automate the QUEUE.md board move in `scripts/ticket.sh claim` | Shravan | yes |
 | [TICK-066](TICK-066-antidepressants-ssri-subfecundity.md) | B.7. Antidepressants and Pharmacological Subfecundity | Shravan | yes |
