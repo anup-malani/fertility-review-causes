@@ -1,0 +1,11 @@
+openalex_id,study,domain,rating,basis
+W2160568778,INUENDO,reverse causation (parity/excretion),SERIOUS,"Primary analysis unrestricted; the paper's own primiparous sensitivity analysis fails to replicate. The authors report this candidly, which is to their credit and is also the finding."
+W2160568778,INUENDO,exposure timing,SERIOUS,"Serum measured during pregnancy — after the conception whose hazard is being explained, and after the elimination that pregnancy itself causes."
+W2409520153,MoBa Brief Report,reverse causation (parity/excretion),LOW,Restricted to 226 primiparous women by design. This is the handling Call 2 requires.
+W2409520153,MoBa Brief Report,precision,SERIOUS,n = 226 in the restricted analysis; the interval spans the null comfortably. A null this imprecise does not distinguish 'no effect' from 'underpowered'.
+W4321019748,S-PRESTO,reverse causation (parity/excretion),MODERATE,"Parity adjusted as a covariate, not restricted. Adjustment leaves the reverse-causal channel partly open and may induce collider bias; preconception measurement mitigates but does not remove it."
+W4321019748,S-PRESTO,exposure timing,LOW,Preconception measurement — exposure precedes outcome. The best timing in the held evidence.
+W2514091930,LIFE,estimand,SERIOUS,"Cycle length is a fertility input, not a fertility quantity. Reported as an OVARIAN_PARAMETER and must not be read as an effect on fertility."
+W7123517430,MNP follicular fluid,selection (ART frame),CRITICAL,"Sample drawn at oocyte retrieval, i.e. selected on subfecundity. Wall 4. No adjustment argument is available that would transport this to a general population."
+W4412525568,PE/PVC nanoplastics,estimand,CRITICAL,Fertilization rate in IVF is an ART treatment outcome and belongs to A.17.
+W4402945134,MP and sperm dysfunction,measurement (contamination control),UNRESOLVED,Whether procedural blanks were run is not established from the held text. For particle detection this is the difference between measuring biology and measuring the laboratory.
