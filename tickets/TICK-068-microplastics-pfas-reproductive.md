@@ -5,7 +5,7 @@
 **Parallel-safe:** yes
 **Blocks:** none
 **Blocked by:** none
-**Touches:** literature/search-logs/microplastics-pfas-reproductive-*, extraction/microplastics-pfas-reproductive-*, output/chapters/microplastics-pfas-reproductive.md, source/build/goldset/13*
+**Touches:** literature/search-logs/microplastics-pfas-reproductive-*, extraction/microplastics-pfas-reproductive-*, output/chapters/microplastics-pfas-reproductive-{pfas,microplastics}.md, source/build/goldset/13*
 
 ## Acceptance criteria
 - [x] 2. Search strategy and scope drafted
@@ -15,12 +15,14 @@
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
 - [ ] 7. Extraction to `extraction/microplastics-pfas-reproductive.csv`, RA verifies a random 10%
 - [ ] 8. Risk-of-bias assessment per study
-- [ ] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise
-- [ ] 10. Demographic significance against PM / FDT / SDT
-- [ ] 11. GRADE rating, 3 independent raters
-- [ ] 12. Chapter draft on the §6 template
-- [ ] 13. RA lay-readability check
-- [ ] 14. PI review and sign-off
+- [ ] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise — **run twice, once per chemical family; never pooled across**
+- [ ] 10. Demographic significance against SDT — **run twice, each family against its own exposure series**
+- [ ] 11. GRADE rating, 3 independent raters — **run twice; no bundled B.6 rating at any stage**
+- [ ] 12. Chapter drafts on the §6 template — **two chapters** (Call 1, decided 2026-08-14):
+  - [ ] 12a. `output/chapters/microplastics-pfas-reproductive-pfas.md`
+  - [ ] 12b. `output/chapters/microplastics-pfas-reproductive-microplastics.md`
+- [ ] 13. RA lay-readability check, both chapters
+- [ ] 14. PI review and sign-off, both chapters
 
 ## Log
 
@@ -49,6 +51,16 @@ walls specified, five scope calls raised with recommendations. Three findings dr
 3. **Three of v5's four seminal citations do not resolve as written**, including one that is a
    phthalate paper — i.e. on the B.2 side of the wall that defines B.6. Detailed in Call 4 for
    TICK-001, with a recommendation to re-verify the other v5-era entries on the same gates.
+
+**2026-08-14 — Call 1 decided; walls frozen.** B.6 stays **one hypothesis, one entry in
+`HYPOTHESES-v5.md`, one ticket, one search**, and produces **two chapters** — one per chemical
+family. The split lands at extraction, on `CHEMICAL_FAMILY`; everything upstream (walls, screen,
+anchors, PRISMA identification and screening counts) is shared, and stages 9–14 run twice. Promoting
+the families to B.6.a/B.6.b in the hypothesis list was considered and **not** done: the taxonomy is
+TICK-001's to change, and renumbering the master list propagates into every in-flight branch's
+`HYPOTHESES-v5.md §X` reference. The registry question goes to the PI for v6 alongside the Call 4
+citation corrections, since both edit the same entry. With Call 1 answered, **the nine walls are
+frozen**; Calls 2, 3 and 5 remain open and none of them blocks the search.
 
 Also new: a **duplicate-record gate** (the Minderoo-Monaco Commission carries two DOIs with different
 citation counts plus an erratum, so DOI-level dedup double-counts it), and a correction to B.7's

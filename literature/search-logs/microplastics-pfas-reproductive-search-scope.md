@@ -5,9 +5,10 @@
 **Target phenomena:** SDT only. No PM cell, no FDT cell. Unlike B.7, **no sub-period restriction is
 needed**: the exposure is older than the phenomenon, not younger than it — see "Phenomenon scope".
 **Ticket:** TICK-068
-**Status:** **DRAFT** (Shravan, 2026-08-14). Nine boundary walls specified, five scope calls raised
-with recommendations. Walls freeze after the PI answers Call 1, or after a decision to proceed on the
-recommendations. Anchor sourcing (A3) is **not** blocked by the freeze.
+**Status:** **WALLS FROZEN** (Shravan, 2026-08-14). Nine boundary walls specified and frozen. **Call 1
+is decided: B.6 stays one hypothesis and one ticket, and produces two chapters** — see "Chapter
+structure" below. Four calls (2, 3, 4, 5) remain open with recommendations; none of them blocks the
+search. Anchor sourcing (A3) proceeds.
 
 Built on the B.7 (`antidepressants-ssri-subfecundity`) template, which inherits B.5's, D.2.d's and
 D.3.b's. Five constraints carry forward as design decisions rather than being rediscovered: the
@@ -64,8 +65,47 @@ the legacy PFAS that carries the human fertility evidence.
 **Consequence, pre-committed rather than discovered:** every estimate is tagged with a
 `CHEMICAL_FAMILY` of `PFAS_LEGACY`, `PFAS_REPLACEMENT`, or `PLASTIC_PARTICLE`; families are **never
 pooled**; and the demographic-significance computation runs **once per family**, each against its own
-exposure series. A single bundled B.6 effect size is not a quantity this chapter will produce. See
-Call 1.
+exposure series. A single bundled B.6 effect size is not a quantity this review will produce.
+
+## Chapter structure
+
+**Decided 2026-08-14 (Call 1). B.6 remains one hypothesis, one entry in `HYPOTHESES-v5.md`, and one
+ticket. It produces two chapters.**
+
+| | Chapter | Covers | Output |
+|---|---|---|---|
+| **1** | PFAS and fecundity | `PFAS_LEGACY`, `PFAS_REPLACEMENT` | `output/chapters/microplastics-pfas-reproductive-pfas.md` |
+| **2** | Microplastics and nanoplastics in reproductive tissue | `PLASTIC_PARTICLE` | `output/chapters/microplastics-pfas-reproductive-microplastics.md` |
+
+Both chapters open by naming `HYPOTHESES-v5.md §B.6` as their shared hypothesis and stating that the
+entry is split at the point of synthesis because its two chemical families have incompatible evidence
+bases and opposite exposure trends. Neither chapter is a free-standing hypothesis: read together they
+are B.6's verdict, and each carries a cross-reference to the other in the §6 template's cross-reference
+slot.
+
+What this does and does not change:
+
+- **The search is one search.** Walls 1–9, the estimand cells, the cold-start channels, the anchor set
+  and the title/abstract screen are shared, and the reconnaissance behind them was run over both
+  families jointly. Splitting the search would double the screening cost and produce two corpora that
+  each have to enforce the same nine walls.
+- **The split happens at extraction**, on the `CHEMICAL_FAMILY` field, which is assignable at
+  title/abstract with high confidence because the compound is named. Everything upstream of extraction
+  is shared; everything downstream is per-family.
+- **Risk of bias, synthesis, demographic significance and GRADE all run twice**, once per chapter. There
+  is no bundled rating at any stage.
+- **PRISMA is one flow with a terminal split.** Identification, screening and eligibility are counted
+  once; the included-studies box divides into the two chapters, and both chapters report the shared
+  upstream counts. Two separate flow diagrams would misreport the screening denominator as if each
+  family had been searched independently.
+- **`MIXTURE_UNSEPARABLE` records appear in both chapters** and are pooled in neither (Wall 1),
+  reported identically in each so a reader of one chapter is not misled about what was set aside.
+
+The alternative considered and rejected was promoting the two families to B.6.a and B.6.b in the
+hypothesis list. Rejected because the taxonomy is TICK-001's to change and because renumbering the
+master list propagates into every in-flight branch's `HYPOTHESES-v5.md §X` references; the split is a
+synthesis decision, and it can be made where synthesis happens. The registry question is still worth
+putting to the PI for v6, and Call 1 below now carries it in that reduced form.
 
 ## Presence is exposure, not effect
 
@@ -441,18 +481,19 @@ a C8 cohort record for Wall 9), so the search is tested on routing as well as on
 
 ## Scope calls for the PI
 
-**Call 1 — B.6 bundles two hypotheses with opposite evidence profiles and opposite exposure trends.
-Recommended: one chapter, two verdicts.** PFAS has human fertility epidemiology and a falling legacy
-exposure series; microplastics has tissue detection, a rising exposure series, and almost no human
-fertility epidemiology. Three options:
-- *(a) Recommended.* Keep one chapter and one ticket, but issue **per-family GRADE ratings and
-  per-family demographic-significance verdicts**, with no bundled B.6 effect size at any point.
-  Rationale: it costs nothing procedurally, and it is the only way either verdict means anything.
-- *(b)* Split into B.6.a (PFAS) and B.6.b (microplastics and nanoplastics) in v6. Cleaner in the long
-  run and probably where this ends up, but too large a change to make from inside one chapter; flagged
-  for TICK-001.
-- *(c)* Rate the bundle. Rejected: it would average a measured, shrinking exposure against an
-  unmeasured, growing one.
+**Call 1 — DECIDED 2026-08-14 (Shravan; PI confirmation sought, not blocking). B.6 bundles two
+hypotheses with opposite evidence profiles and opposite exposure trends. Resolution: one hypothesis,
+one ticket, one search, two chapters.** See "Chapter structure" above for the operational detail.
+Rating the bundle was rejected outright — it would average a measured, shrinking exposure against an
+unmeasured, growing one and describe neither.
+
+**What remains open for the PI**, in the reduced form the decision leaves behind: whether the two
+families should also become **separate entries (B.6.a, B.6.b) in the hypothesis list at v6**. The
+chapter-level split does not require it, and the registry is TICK-001's to change. The argument for
+doing it is that two chapters pointing at one entry is a durable mismatch that will confuse anyone
+reading the list on its own; the argument against is that renumbering propagates into every in-flight
+branch. Recommendation: raise at v6 alongside the Call 4 citation corrections, since both are edits to
+the same entry.
 
 **Call 2 — the reverse-causation problem is mechanical, and the estimate base is largely contaminated
 by it. Recommended: a two-track synthesis on parity handling.** PFAS elimination through pregnancy,
