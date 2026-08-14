@@ -1,5 +1,5 @@
 # TICK-068: B.6. Microplastics and PFAS in Reproductive Tissues
-**Status:** open
+**Status:** in-progress
 **Assigned:** Shravan
 **Hypothesis:** `microplastics-pfas-reproductive` — HYPOTHESES-v5.md §B.6
 **Parallel-safe:** yes
