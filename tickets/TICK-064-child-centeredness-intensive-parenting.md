@@ -265,3 +265,47 @@ pipeline remain undone and the chapter says so in its status line.
 Highest-value next action is not more search: **read Iftikhar (2025) `10.1016/j.worlddev.2025.107079`**,
 the only known `COST_INDEPENDENCE` candidate and the only paper that would make this hypothesis
 distinguishable from C.2.b / C.2.f / C.3.d.
+
+**2026-08-15 (Shravan) — chapter rewritten onto the D.3.b 14-section shape. Step 12 still NOT met.**
+`output/chapters/child-centeredness-intensive-parenting.md`. No full text read, no extraction, no
+RoB, no GRADE panel; the screen is still at 21%. The draft is labelled NOT REVIEW-READY throughout
+and every study description is marked as coming from an abstract.
+
+**The rewrite found a counting error that changes the chapter's finding.** The previous draft
+reported a primary-cell pool of **2** — the two records the screen returned. It ignored the **7
+Tier-A empirical seeds**, which are studies, not machinery: they were sourced by hand at A3,
+carry provisional primary cells, and never entered the count because the draft reported screen
+output rather than the chapter's evidence base. The pool is **9**, not 2. This is the third time
+this chapter's primary-stratum magnitude has moved (0 → 2 → 9) while its direction has held.
+
+**On the enlarged pool the verdict is no longer "no evidence" but "thin evidence that does not
+favour the hypothesis."** Two Tier-A studies drive that and neither was in the old draft:
+
+- **Ruckdeschel 2024** (*J. Family Issues*, `10.1177/0192513x241227872`) is the best-matched study
+  in the corpus — representative German panel, intensive-parenting norms measured *directly*,
+  outcome is the parity-specific birth transition. Negative coefficients, "but the impact is small",
+  and the author reads the non-significance as **"nest-building"**, i.e. preparation for parenthood
+  rather than deterrence from it.
+- **Maralani & Stabler 2018** (*Demography*, `10.1007/s13524-018-0710-7`) has the longest panel
+  (30 years, nationally representative) and finds the association **running the other way**: women
+  who parent more intensively on their measure have *more* children, and exceed their earlier
+  fertility expectations. Caveat recorded: the exposure is breastfeeding duration, which acts on
+  spacing through lactational amenorrhea, a channel with no norm content.
+
+**Two of the seven Tier-A cells look wrong on their own abstracts, and one of them is the value-added
+cell.** Iftikhar (`COST_INDEPENDENCE`) quantifies *family-size* norms against the quantity-quality
+tradeoff in Pakistan — on the abstract that is C.3.d with a norms term, not a design holding returns
+fixed while a parenting standard moves. Pailhé et al. (`PRIMARY_TIME_INTENSITY`) has **no fertility
+outcome** at all; it estimates the time cost of children from time-use surveys. Anchor cells were
+assigned at A3 and never adjudicated by the rubric. **The whole Tier-A set needs a full-text routing
+pass, and the pool of 9 should be read as an upper bound.** If Iftikhar routes out,
+`COST_INDEPENDENCE` is empty rather than thin.
+
+Own-process note: two settings in the §5.1 table (Jarosz, Newman) were first written in from author
+surnames — Poland and Australia — and neither is in any record. Both corrected to "not recorded".
+Nothing in the pipeline would have caught this; the countries were plausible and wrong.
+
+Next actions unchanged in priority but sharper in content: (1) finish the 53 outstanding batches;
+(2) full-text routing pass over the 7 Tier-A anchors, Iftikhar and Pailhé first, since two of the
+nine may not belong; (3) retrieve Ruckdeschel and Maralani ahead of the two screen-found studies —
+they are better designs on the same estimand and they disagree.
