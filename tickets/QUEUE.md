@@ -46,13 +46,6 @@ tickets can be worked concurrently.
 
 | Ticket | Title | Assigned | Parallel-safe |
 |--------|-------|----------|---------------|
-| [TICK-068](TICK-068-microplastics-pfas-reproductive.md) | B.6. Microplastics and PFAS in Reproductive Tissues | Shravan | yes |
-| [TICK-067](TICK-067-automate-ticket-claim-loop.md) | Automate the QUEUE.md board move in `scripts/ticket.sh claim` | Shravan | yes |
-| [TICK-066](TICK-066-antidepressants-ssri-subfecundity.md) | B.7. Antidepressants and Pharmacological Subfecundity | Shravan | yes |
-| [TICK-065](TICK-065-fetal-loss-intrauterine-mortality.md) | B.5. Fetal Loss and Intrauterine Mortality | Shravan | yes |
-| [TICK-063](TICK-063-caldwell-wealth-flows-westernization.md) | D.1.b Cultural Westernization and Developmental Idealism
- | Shravan | yes |
-| [TICK-062](TICK-062-postmaterialism-individualism-secularization.md) | D.1.a Postmaterialism, Individualism, and Secularization | Shravan | yes |
 | [TICK-048](TICK-048-d3b-fulltext-retrieval.md) | D.3.b full-text retrieval — mirror the B.1 scripts; realized-8 and desire-independence-4 first. **Watch the OA rate: it is what decides whether D.3.b avoids B.1's selection problem** | any | yes (with the full-62 half of 047) |
 | [TICK-039](TICK-039-compulsory-education-chapter-readability.md) | Compulsory-education chapter lay-readability review | Alexandra | no |
 | [TICK-030](TICK-030-replicate-gacs-agricultural-mode-production.md) | Replicate GACS for agricultural mode of production | any | no |
@@ -70,9 +63,23 @@ tickets can be worked concurrently.
 > check is whether a `NNN-*` branch exists on `origin`. **Read this board before claiming** until
 > these rows have drained.
 
+> **2026-08-15 — TICK-062 through TICK-068 were added to this board retroactively.** `ticket.sh claim`
+> leaves the board move to be done by hand, and it was never done on `main` for any of them: all seven
+> had live branches on `origin` while this file still advertised them under *Open — can start now*.
+> One attempt exists, commit `1399787`, which removed TICK-064 from Open and wrote the replacement row
+> for TICK-062 — right timestamp, wrong ticket — on a branch that was never merged. Claim times below
+> are recovered from each `claim TICK-NNN` commit. **Merging TICK-067 is the durable fix**; until then
+> the board move stays manual and this failure will recur.
+
 | Ticket | Title | Owner | Branch (the claim) | Claimed (UTC) | Touches |
 |--------|-------|-------|--------------------|---------------|---------|
+| [TICK-068](TICK-068-microplastics-pfas-reproductive.md) | B.6. Microplastics and PFAS in Reproductive Tissues — both chapter drafts on the PROTOCOL §6 template; last commit 2026-08-14 | Shravan | `068-microplastics-pfas-reproductive` | 2026-08-14T14:23:49Z | `literature/search-logs/microplastics-pfas-reproductive-*`, `extraction/microplastics-pfas-reproductive-*`, `output/chapters/microplastics-pfas-reproductive.md`, `source/build/goldset/13*` |
+| [TICK-067](TICK-067-automate-ticket-claim-loop.md) | Automate the QUEUE.md board move in `scripts/ticket.sh claim` — **built and verified on its branch, unmerged.** This is the fix for the defect that left every row below missing from this board | Shravan | `067-automate-ticket-claim-loop` | 2026-08-13T20:13:46Z | `scripts/ticket.sh`, `tickets/README.md`, `tickets/opening-a-chapter-ticket.md` |
+| [TICK-066](TICK-066-antidepressants-ssri-subfecundity.md) | B.7. Antidepressants and Pharmacological Subfecundity — chapter and verdict drafted; carries a script-numbering flag; last commit 2026-08-12 | Shravan | `066-antidepressants-ssri-subfecundity` | 2026-08-12T19:28:10Z | `literature/search-logs/antidepressants-ssri-subfecundity-*`, `extraction/antidepressants-ssri-subfecundity-*`, `output/chapters/antidepressants-ssri-subfecundity.md` |
+| [TICK-065](TICK-065-fetal-loss-intrauterine-mortality.md) | B.5. Fetal Loss and Intrauterine Mortality — chapter drafted through the verdict section; last commit 2026-08-11 | Shravan | `065-fetal-loss-intrauterine-mortality` | 2026-08-11T20:00:22Z | `literature/search-logs/fetal-loss-intrauterine-mortality-*`, `extraction/fetal-loss-intrauterine-mortality-*`, `output/chapters/fetal-loss-intrauterine-mortality.md` |
 | [TICK-064](TICK-064-child-centeredness-intensive-parenting.md) | D.2.d Child-Centered Intensive Parenting Norms — **chapter drafted, NOT review-ready**; screen at 21% with 53 of 76 batches outstanding, and the 9 primary-cell candidates need a full-text routing pass | Shravan | `064-child-centeredness-intensive-parenting` | 2026-08-08T16:02:45Z | `literature/search-logs/child-centeredness-intensive-parenting-*`, `extraction/child-centeredness-intensive-parenting-*`, `output/chapters/child-centeredness-intensive-parenting.md` |
+| [TICK-063](TICK-063-caldwell-wealth-flows-westernization.md) | D.1.b Cultural Westernization and Developmental Idealism — interim chapter on the 17 retrieved studies; last commit 2026-08-07 | Shravan | `063-caldwell-wealth-flows-westernization` | 2026-08-02T13:17:32Z | `literature/search-logs/caldwell-wealth-flows-westernization-*`, `extraction/caldwell-wealth-flows-westernization-*`, `output/chapters/caldwell-wealth-flows-westernization.md` |
+| [TICK-062](TICK-062-postmaterialism-individualism-secularization.md) | D.1.a Postmaterialism, Individualism, and Secularization — snowball round 1 done, round 2 required; last commit 2026-08-03 | Shravan | `062-postmaterialism-individualism-secularization` | 2026-08-02T13:09:21Z | `literature/search-logs/postmaterialism-individualism-secularization-*`, `extraction/postmaterialism-individualism-secularization-*`, `output/chapters/postmaterialism-individualism-secularization.md` |
 | [TICK-055](TICK-055-c2c-housing-search-scope.md) | C.2.c search scope — tenure-conditional sign (price is a cost to renters, a wealth gain to owners), pooling rule, and the C.3.e wall that a shared seminal citation proves is broken | Shravan | — | 2026-07-31T00:00:00Z | `literature/search-logs/housing-costs-search-scope.md` |
 | [TICK-054](TICK-054-a10-search-scope.md) | A.10 search scope — **drafted, PARKED pending Anup** on the unenumerated war-shock hypothesis and the non-additive-proximate-causes rule. Anchor sourcing is not blocked by the park | Shravan | — | 2026-07-31T00:00:00Z | `literature/search-logs/sex-ratio-marriage-market-search-scope.md` |
 | [TICK-049](TICK-049-d3b-effect-extraction.md) | D.3.b effect extraction — realized track first-pass done, **0 of 11 rows poolable; no recoverable CIs**; second-reader pass outstanding | Shravan | — | 2026-07-27T00:00:00Z | `extraction/climate-anxiety-eco-doomerism-{studies,effects-realized}.csv` |
