@@ -1,5 +1,5 @@
 # TICK-069: D.3.c Despair and Hopelessness
-**Status:** open
+**Status:** in-progress
 **Assigned:** Shravan
 **Hypothesis:** `despair-hopelessness-fertility` — HYPOTHESES-v5.md §D.3.c
 **Parallel-safe:** yes
