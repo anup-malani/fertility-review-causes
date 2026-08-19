@@ -9,7 +9,7 @@
 specified. **Five calls are open for the PI, and two of them are load-bearing**: Call 1 (does the
 chapter rate a signed claim?) and Call 2 (does mechanism-silent reduced-form evidence count as
 evidence for this hypothesis at all?). Call 2 decides whether the primary evidence base is roughly
-two studies or roughly a thousand. Anchors are sourced but not yet resolved through A3/A4.
+two studies or roughly a thousand. **A3 is run** (2026-08-18): 19 anchors, 16 verified to live DOIs, 3 monographs kept keyed on title. A4 is next.
 
 Built on the B.6 (`microplastics-pfas-reproductive`) template, which inherits B.7's, B.5's, D.2.d's
 and D.3.b's. Five constraints carry forward as design decisions rather than being rediscovered: the
@@ -408,9 +408,35 @@ transportability argument; excluding it leaves the primary cell close to empty. 
 admit, tagged `CONTEXT_POSTCOMMUNIST`, and let the transportability weakness be visible in the GRADE
 indirectness domain rather than hidden by an exclusion.**
 
+## A3 outcome (run 2026-08-18)
+
+`source/build/goldset/148_d3c_cold_start_anchors.py`; log in
+`despair-hopelessness-fertility-cold-start-anchors-log.md`. **19 anchors: 16 verified to live DOIs, 0
+flagged, 3 monographs kept keyed on title** (Wilson 1996, Edin & Kefalas 2005, Cherlin 2014 — their
+indexed records are reviews of themselves, and A3's rule is that a real work with an unusable
+identifier is never dropped from the denominator).
+
+Every estimand cell the screen has to route is anchored, and the routing decoys are live: all three
+Wall 1 decoys were surfaced by forward-citing the PRIMARY anchor, which is the citation-reason drift
+that makes the anomie channel drain into C.5.a and the reason Wall 1 is declared unenforceable at
+title/abstract.
+
+**`PRIMARY_MEASURED_DESPAIR` is 3/3 and all three are post-communist.** The American cell that the
+hypothesis is actually about has no anchor. That is recorded as an absence rather than backfilled
+with a reduced-form decline study, and it sharpens Call 5 from a transportability preference into the
+question of whether this chapter has any direct evidence on its own claim.
+
+Four resolver defects were found and fixed by auditing the run's own refused set; three are inherited
+and affect every chapter that has used this resolver. They are documented in the A3 log, and the
+blast radius of the most serious is measured in `despair-hopelessness-fertility-anchor-norm-audit.md`
+(4 exposed anchors across 2 chapters, **0 attributable to the defect** — it was live but had not yet
+cost an anchor, D.3.c being the first corpus with a Central European primary cell).
+
 ## Next step
 
-A3/A4 anchor resolution over the anchor set above, with the author gate active for the four
-monographs. Then the discriminative-term pass and the production query. **Nothing downstream of the
-production query should start before Calls 1 and 2 are answered**, because they determine which cells
-are primary and therefore what the screen is optimising for.
+A4 term population over the resolved anchor set — external core terms from the channel-1 reviews
+(leakage wall: Sobotka-Skirbekk-Philipov 2011 and Balbo-Billari-Mills feed either query terms or
+anchors, never both), recall-extension terms mined fold-locally. Then the discriminative-term pass and
+the production query. **Nothing downstream of the production query should start before Calls 1 and 2
+are answered**, because they determine which cells are primary and therefore what the screen is
+optimising for.

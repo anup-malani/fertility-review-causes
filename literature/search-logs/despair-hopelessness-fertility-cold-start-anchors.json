@@ -1,0 +1,922 @@
+[
+  {
+    "title": "Soon, later, or ever? The impact of anomie and social capital on fertility intentions in Bulgaria and Hungary",
+    "authors": [
+      "Dimiter Philipov",
+      "Zsolt Speder",
+      "Francesco C. Billari"
+    ],
+    "year": 2006,
+    "provenance_channel": "reconnaissance_probe_primary_cell",
+    "provisional_cell": "PRIMARY_MEASURED_DESPAIR",
+    "query_cluster_family": "primary-anomie",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Population Studies. THE anchor of this chapter's primary cell and the most-cited record in it (211). An anomie scale on the right-hand side, fertility intentions on the left. Everything the hypothesis claims, measured \u2014 in 1990s Bulgaria and Hungary, not post-industrial America.",
+    "doi": "10.1080/00324720600896080",
+    "identity_source": "https://doi.org/10.1080/00324720600896080",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 0.895,
+    "container": "Population Studies",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 4,
+    "rejected_versions": [
+      {
+        "doi": "10.1080/00324720600896080",
+        "type": "article",
+        "year": 2006,
+        "container": "Population Studies",
+        "score": 156,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.1553/0x003d0a84",
+        "type": "journal-article",
+        "year": 2021,
+        "container": "Institut f\u00fcr Demographie - VID",
+        "score": 107,
+        "src": "crossref"
+      },
+      {
+        "doi": "10.1553/0x003d0a84",
+        "type": "article",
+        "year": 2021,
+        "container": "",
+        "score": 102,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Now or Later? Fertility Intentions in Bulgaria and Hungary and the Impact of Anomie and Social Capital",
+    "authors": [
+      "Dimiter Philipov",
+      "Zsolt Speder",
+      "Francesco C. Billari"
+    ],
+    "year": 2021,
+    "provenance_channel": "reconnaissance_probe_primary_cell",
+    "provisional_cell": "PRIMARY_MEASURED_DESPAIR",
+    "query_cluster_family": "primary-anomie",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "The 2006 study's companion/reissue (20 cites). Must be extracted as a PAIR with the 2006 record and never pooled with it \u2014 same design, same populations.",
+    "doi": "10.1553/0x003d0a84",
+    "identity_source": "https://doi.org/10.1553/0x003d0a84",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Institut f\u00fcr Demographie - VID",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1553/0x003d0a84",
+        "type": "article",
+        "year": 2021,
+        "container": "",
+        "score": 160,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Failure to Realize Fertility Intentions: A Key Aspect of the Post-communist Fertility Transition",
+    "authors": [
+      "Zsolt Speder",
+      "Balazs Kapitany"
+    ],
+    "year": 2013,
+    "provenance_channel": "forward_citation_philipov_2006",
+    "provisional_cell": "PRIMARY_MEASURED_DESPAIR",
+    "query_cluster_family": "primary-anomie",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Population Research and Policy Review (73). Non-realization of stated intentions in the post-communist collapse \u2014 the outcome D.3.c predicts if forward orientation, not desire, is what fails. The closest thing to a DESIRE_INDEPENDENCE test here.",
+    "doi": "10.1007/s11113-013-9313-6",
+    "identity_source": "https://doi.org/10.1007/s11113-013-9313-6",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Population Research and Policy Review",
+    "record_type": "article",
+    "resolved_via": "openalex",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1007/s11113-013-9313-6",
+        "type": "journal-article",
+        "year": 2014,
+        "container": "Population Research and Policy Review",
+        "score": 161,
+        "src": "crossref"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Income Inequality and Early Nonmarital Childbearing",
+    "authors": [
+      "Melissa S. Kearney",
+      "Phillip B. Levine"
+    ],
+    "year": 2014,
+    "provenance_channel": "reconnaissance_probe_opposite_sign",
+    "provisional_cell": "EARLY_FERT_OPPOSITE_SIGN",
+    "query_cluster_family": "opposite-sign",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Journal of Human Resources. The economics statement of despair-RAISES-early-fertility: low-SES young women in high-inequality places see a bleak return to delay and do not delay. DUPLICATE-RECORD GATE TEST CASE: two OpenAlex records, same title, same year, 98 and 38 cites. Author agreement present, so demotion is correct under the corrected rule; a bare title+year+venue rule would have been right here for the wrong reason.",
+    "duplicates_demoted": [
+      {
+        "demoted_doi": "10.3368/jhr.49.1.1",
+        "demoted_cites": null,
+        "canonical_doi": "10.1353/jhr.2014.0001",
+        "canonical_cites": null,
+        "title": "Income Inequality and Early Nonmarital Childbearing",
+        "year": 2014,
+        "container": "Journal of Human Resources",
+        "src": "crossref"
+      },
+      {
+        "demoted_doi": "10.3368/jhr.49.1.1",
+        "demoted_cites": 38,
+        "canonical_doi": "10.1353/jhr.2014.0001",
+        "canonical_cites": 98,
+        "title": "Income Inequality and Early Nonmarital Childbearing",
+        "year": 2014,
+        "container": "The Journal of Human Resources",
+        "src": "openalex"
+      }
+    ],
+    "doi": "10.1353/jhr.2014.0001",
+    "identity_source": "https://doi.org/10.1353/jhr.2014.0001",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Journal of Human Resources",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1353/jhr.2014.0001",
+        "type": "article",
+        "year": 2014,
+        "container": "The Journal of Human Resources",
+        "score": 165,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Promises I Can Keep: Why Poor Women Put Motherhood before Marriage",
+    "authors": [
+      "Kathryn Edin",
+      "Maria Kefalas"
+    ],
+    "year": 2005,
+    "provenance_channel": "canon_enumeration",
+    "provisional_cell": "THEORY_DESPAIR",
+    "query_cluster_family": "opposite-sign",
+    "is_book": true,
+    "expect_no_doi": true,
+    "source_note": "BOOK-CANON GATE TEST CASE, and a live one. The citation argmax is a Choice Reviews book-review record (1,238) with NO authors; second is a review in The Oral History Review typed `article` (944, Bergen) which the type rule alone would not catch and signal 4 does. Qualitative: theory stream, never an effect source.",
+    "doi": null,
+    "identity_verified": false,
+    "match_jaccard": 0.364,
+    "best_near_miss": {
+      "doi": "10.1525/9780520950689",
+      "title": "Promises I Can Keep",
+      "jaccard": 0.364,
+      "year": 2019,
+      "container": "",
+      "type": "book",
+      "author_match": true,
+      "review_shape": false,
+      "is_fallback": false
+    },
+    "refused_reasons": null,
+    "refused_candidates": null,
+    "gold_status": "unverified_no_doi_match",
+    "note": "Book or monograph; expected index miss. Carried keyed on title, not faked. The near-miss record is retained so an RA can see what the resolver refused and why."
+  },
+  {
+    "title": "When Work Disappears: Manufacturing Decline and the Falling Marriage Market Value of Young Men",
+    "authors": [
+      "David H. Autor",
+      "David Dorn",
+      "Gordon H. Hanson"
+    ],
+    "year": 2019,
+    "provenance_channel": "canon_enumeration",
+    "provisional_cell": "MARRIAGE_CHANNEL",
+    "query_cluster_family": "decline-reduced-form",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "AER: Insights (480). WALL 10 TEST CASE: the outcome is marriage-market value and fertility, and the fertility side is what routes here \u2014 a marriage-only study belongs to TICK-058. Also a VERSION-OF-RECORD test case: article (480), NBER-style preprint (201) and report (52) all carry this title. Names no despair mechanism.",
+    "duplicates_demoted": [
+      {
+        "demoted_doi": "10.2139/ssrn.3170254",
+        "demoted_cites": 0,
+        "canonical_doi": "10.2139/ssrn.3198484",
+        "canonical_cites": 201,
+        "title": "When Work Disappears: Manufacturing Decline and the Falling Marriage-Market Valu",
+        "year": 2018,
+        "container": "SSRN Electronic Journal",
+        "src": "openalex"
+      },
+      {
+        "demoted_doi": "10.2139/ssrn.3170254",
+        "demoted_cites": null,
+        "canonical_doi": "10.2139/ssrn.3198484",
+        "canonical_cites": 201,
+        "title": "When Work Disappears: Manufacturing Decline and the Falling Marriage-Market Valu",
+        "year": 2018,
+        "container": "SSRN Electronic Journal",
+        "src": "crossref"
+      }
+    ],
+    "doi": "10.1257/aeri.20180010",
+    "identity_source": "https://doi.org/10.1257/aeri.20180010",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "American Economic Review: Insights",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 8,
+    "rejected_versions": [
+      {
+        "doi": "10.1257/aeri.20180010",
+        "type": "article",
+        "year": 2019,
+        "container": "American Economic Review Insights",
+        "score": 165,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.5167/uzh-138938",
+        "type": "report",
+        "year": 2017,
+        "container": "Zurich Open Repository and Archive (University of Zurich)",
+        "score": 81,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.3886/e116320v1",
+        "type": "dataset",
+        "year": 2019,
+        "container": "ICPSR Data Holdings",
+        "score": 61,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.3386/w23173",
+        "type": "report",
+        "year": 2017,
+        "container": "National Bureau of Economic Research",
+        "score": 42,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "The China Syndrome: Local Labor Market Effects of Import Competition in the United States",
+    "authors": [
+      "David H. Autor",
+      "David Dorn",
+      "Gordon H. Hanson"
+    ],
+    "year": 2013,
+    "provenance_channel": "canon_enumeration",
+    "provisional_cell": "SECONDARY_DECLINE_NO_MECHANISM",
+    "query_cluster_family": "decline-reduced-form",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "AER (4,434). The treatment-definition anchor for chronic, expected-permanent local decline \u2014 the chronicity that Wall 1 says separates D.3.c from C.5.a. Estimates no fertility quantity itself; it is the design other studies inherit.",
+    "duplicates_demoted": [
+      {
+        "demoted_doi": "10.2139/ssrn.2050144",
+        "demoted_cites": null,
+        "canonical_doi": "10.3386/w18054",
+        "canonical_cites": null,
+        "title": "The China Syndrome: Local Labor Market Effects of Import Competition in the Unit",
+        "year": 2012,
+        "container": "",
+        "src": "crossref"
+      }
+    ],
+    "doi": "10.1257/aer.103.6.2121",
+    "identity_source": "https://doi.org/10.1257/aer.103.6.2121",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "American Economic Review",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 7,
+    "rejected_versions": [
+      {
+        "doi": "10.1257/aer.103.6.2121",
+        "type": "article",
+        "year": 2013,
+        "container": "American Economic Review",
+        "score": 165,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.3386/w18054",
+        "type": "report",
+        "year": 2012,
+        "container": "National Bureau of Economic Research",
+        "score": 46,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.3386/w18054",
+        "type": "report",
+        "year": 2012,
+        "container": "",
+        "score": 41,
+        "src": "crossref"
+      },
+      {
+        "doi": "10.2139/ssrn.2207291",
+        "type": "preprint",
+        "year": 2013,
+        "container": "SSRN Electronic Journal",
+        "score": 40,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "The Puzzle of Falling US Birth Rates since the Great Recession",
+    "authors": [
+      "Melissa S. Kearney",
+      "Phillip B. Levine",
+      "Luke Pardue"
+    ],
+    "year": 2022,
+    "provenance_channel": "canon_enumeration",
+    "provisional_cell": "EXPOSURE_SERIES",
+    "query_cluster_family": "phenomenon",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Journal of Economic Perspectives (139). The phenomenon D.3.c proposes to explain, and the paper that shows the usual economic covariates do NOT explain it \u2014 which is the opening a despair hypothesis is trying to fill. Feeds stage 10, not the effect pool. VERSION-OF-RECORD test case: article 139 / preprint 11 / report 2.",
+    "doi": "10.1257/jep.36.1.151",
+    "identity_source": "https://doi.org/10.1257/jep.36.1.151",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "The Journal of Economic Perspectives",
+    "record_type": "article",
+    "resolved_via": "openalex",
+    "author_match": true,
+    "n_title_passing": 16,
+    "rejected_versions": [
+      {
+        "doi": "10.3386/w29286",
+        "type": "report",
+        "year": 2021,
+        "container": "National Bureau of Economic Research",
+        "score": 46,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.48152/ssrp-4bxj-9w51",
+        "type": "report",
+        "year": 2022,
+        "container": "",
+        "score": 42,
+        "src": "crossref"
+      },
+      {
+        "doi": "10.48152/ssrp-bqjp-n865",
+        "type": "report",
+        "year": 2022,
+        "container": "",
+        "score": 42,
+        "src": "crossref"
+      },
+      {
+        "doi": "10.48152/ssrp-bqjp-n865",
+        "type": "report",
+        "year": 2022,
+        "container": "",
+        "score": 42,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Rising morbidity and mortality in midlife among white non-Hispanic Americans in the 21st century",
+    "authors": [
+      "Anne Case",
+      "Angus Deaton"
+    ],
+    "year": 2015,
+    "provenance_channel": "canon_enumeration",
+    "provisional_cell": "DESPAIR_MORTALITY",
+    "query_cluster_family": "deaths-of-despair-canon",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "PNAS (2,782). WALL 4 TEST CASE: the founding deaths-of-despair paper, whose outcome is mortality and not fertility. Routed OUT but deliberately SEEDABLE \u2014 the uniform seed rule holds, and forward-citing it is the best available channel into a thin primary cell. Its forward citations filtered to fertility return 129, of which the citation-ranked head is life-expectancy work; that near-emptiness IS a finding.",
+    "shadows_refused": [
+      {
+        "reason": "shadow_record:commentary",
+        "title": "Faculty Opinions recommendation of Rising morbidity and mort",
+        "doi": "10.3410/f.725940664.793520684"
+      }
+    ],
+    "doi": "10.1073/pnas.1518393112",
+    "identity_source": "https://doi.org/10.1073/pnas.1518393112",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Proceedings of the National Academy of Sciences",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1073/pnas.1518393112",
+        "type": "article",
+        "year": 2015,
+        "container": "Proceedings of the National Academy of Sciences",
+        "score": 165,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Deaths of Despair and the Future of Capitalism",
+    "authors": [
+      "Anne Case",
+      "Angus Deaton"
+    ],
+    "year": 2020,
+    "provenance_channel": "canon_enumeration",
+    "provisional_cell": "THEORY_DESPAIR",
+    "query_cluster_family": "deaths-of-despair-canon",
+    "is_book": true,
+    "expect_no_doi": false,
+    "source_note": "Princeton UP. v5's seminal, and the chapter's framing text. DUPLICATE-RECORD GATE TEST CASE and the project's FIRST genuine one: FOUR distinct `book` records, all Princeton UP eBooks, all authored Case & Deaton, citations split 1088/368/284/222. Author agreement is present on all four, so the corrected rule demotes correctly. Also the negative control for book-canon signal 4 \u2014 Case is first on all four.",
+    "duplicates_demoted": [
+      {
+        "demoted_doi": "10.1515/9780691199955",
+        "demoted_cites": 368,
+        "canonical_doi": "10.2307/j.ctvpr7rb2",
+        "canonical_cites": 1088,
+        "title": "Deaths of Despair and the Future of Capitalism",
+        "year": 2020,
+        "container": "Princeton University Press eBooks",
+        "src": "openalex"
+      },
+      {
+        "demoted_doi": "10.1515/9780691217062",
+        "demoted_cites": 284,
+        "canonical_doi": "10.2307/j.ctvpr7rb2",
+        "canonical_cites": 1088,
+        "title": "Deaths of Despair and the Future of Capitalism",
+        "year": 2020,
+        "container": "Princeton University Press eBooks",
+        "src": "openalex"
+      }
+    ],
+    "doi": "10.2307/j.ctvpr7rb2",
+    "identity_source": "https://doi.org/10.2307/j.ctvpr7rb2",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Princeton University Press eBooks",
+    "record_type": "book",
+    "resolved_via": "openalex",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.2307/j.ctv161f3f8",
+        "type": "book",
+        "year": 2021,
+        "container": "Princeton University Press eBooks",
+        "score": 151,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Declining human fertility and the epidemic of despair",
+    "authors": [
+      "Michael L. Platt",
+      "Peter Sterling"
+    ],
+    "year": 2024,
+    "provenance_channel": "v5_seminal_list_corrected",
+    "provisional_cell": "THEORY_DESPAIR",
+    "query_cluster_family": "named-perspective",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Nature Mental Health, doi 10.1038/s44220-024-00241-1 (5 cites). v5 cites this to a EurekAlert press release; this is the paper. It did NOT resolve under title search and was recovered only by an author-filtered probe, so it is carried here explicitly to force the resolver to reach it. Apparently a perspective by two neuroscientists, not an empirical fertility study \u2014 class confirmed at retrieval, THEORY_DESPAIR unless it proves otherwise. Forward citations: 2, neither empirical.",
+    "doi": "10.1038/s44220-024-00241-1",
+    "identity_source": "https://doi.org/10.1038/s44220-024-00241-1",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Nature Mental Health",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1038/s44220-024-00241-1",
+        "type": "article",
+        "year": 2024,
+        "container": "Nature Mental Health",
+        "score": 165,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Deaths of Despair or Drug Problems?",
+    "authors": [
+      "Christopher J. Ruhm"
+    ],
+    "year": 2018,
+    "provenance_channel": "reconnaissance_probe_contested",
+    "provisional_cell": "THEORY_DESPAIR",
+    "query_cluster_family": "contested-framework",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "NBER (94). The load-bearing challenge: the mortality rise is better explained by drug supply than by despair. If the despair reading fails where it was coined, a fertility extension of it inherits that weakness. VERSION-OF-RECORD test case: NBER report (94) and RePEc preprint (0), no journal version surfaced.",
+    "doi": "10.3386/w24188",
+    "identity_source": "https://doi.org/10.3386/w24188",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "National Bureau of Economic Research",
+    "record_type": "report",
+    "resolved_via": "openalex",
+    "author_match": true,
+    "n_title_passing": 4,
+    "rejected_versions": [
+      {
+        "doi": "10.3386/w24188",
+        "type": "report",
+        "year": 2018,
+        "container": "",
+        "score": 45,
+        "src": "crossref"
+      },
+      {
+        "doi": "10.2307/j.ctvpr7rb2.7",
+        "type": "book-chapter",
+        "year": 2020,
+        "container": "Deaths of Despair and the Future of Capitalism",
+        "score": 33,
+        "src": "crossref"
+      },
+      {
+        "doi": "10.2307/j.ctv161f3f8.8",
+        "type": "book-chapter",
+        "year": 2021,
+        "container": "Deaths of Despair and the Future of Capitalism",
+        "score": 29,
+        "src": "crossref"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Labor's Love Lost: The Rise and Fall of the Working-Class Family in America",
+    "authors": [
+      "Andrew J. Cherlin"
+    ],
+    "year": 2014,
+    "provenance_channel": "v5_seminal_list",
+    "provisional_cell": "THEORY_DESPAIR",
+    "query_cluster_family": "sociological-canon",
+    "is_book": true,
+    "expect_no_doi": true,
+    "source_note": "Russell Sage. v5's third seminal. BOOK-CANON GATE TEST CASE: resolves to a Choice Reviews book-review (226, no authors) and to review-shaped `article` records by Standing (PDR) and Love & Minnotte (J Fam Theory Rev).",
+    "doi": null,
+    "identity_verified": false,
+    "match_jaccard": 1.0,
+    "best_near_miss": {
+      "doi": "10.5860/choice.191380",
+      "title": "Labor's love lost: the rise and fall of the working-class family in America",
+      "jaccard": 1.0,
+      "year": 2015,
+      "container": "Choice Reviews Online",
+      "type": "journal-article",
+      "author_match": null,
+      "review_shape": true,
+      "is_fallback": true
+    },
+    "refused_reasons": [
+      "review_of_the_work",
+      "title_or_no_doi"
+    ],
+    "refused_candidates": [
+      {
+        "reason": "review_of_the_work",
+        "title": "Review of Labor\u2019s Love Lost: The Rise and Fall of the Workin",
+        "doi": "10.31235/osf.io/az4hm"
+      },
+      {
+        "reason": "review_of_the_work",
+        "title": "Labor's love lost: the rise and fall of the working-class fa",
+        "doi": "10.5860/choice.191380"
+      },
+      {
+        "reason": "review_of_the_work",
+        "title": "<i>Labor's Love Lost: The Rise and Fall of the Working\u2010Class",
+        "doi": "10.1111/jftr.12195"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Review: Labor\u2019s Love Lost: The Rise and Fall of the Working-",
+        "doi": "10.1525/phr.2017.86.2.325"
+      },
+      {
+        "reason": "review_of_the_work",
+        "title": "Labor\u2019s Love Lost: The Rise and Fall of the Working-Class Fa",
+        "doi": "10.1177/0094306116664524h"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Andrew J. Cherlin, <i>Labor's Love Lost: The Rise and Fall o",
+        "doi": "10.1111/j.1728-4457.2015.00074.x"
+      }
+    ],
+    "gold_status": "unverified_no_doi_match",
+    "note": "Book or monograph; expected index miss. Carried keyed on title, not faked. The near-miss record is retained so an RA can see what the resolver refused and why."
+  },
+  {
+    "title": "When Work Disappears: The World of the New Urban Poor",
+    "authors": [
+      "William Julius Wilson"
+    ],
+    "year": 1996,
+    "provenance_channel": "canon_enumeration",
+    "provisional_cell": "THEORY_DESPAIR",
+    "query_cluster_family": "sociological-canon",
+    "is_book": true,
+    "expect_no_doi": true,
+    "source_note": "THE GATE TEST CASE OF THIS RUN, and the reason signal 4 exists. The citation argmax is 10.2307/3042249 \u2014 Daryl Michael Scott's REVIEW in African American Review, 3,641 cites, type=`article`, WITH WILSON LISTED AS AN AUTHOR. It defeats all three prior review signals and turns `author_match` into an endorsement of the wrong record. Separately a TITLE-COLLISION case against Autor-Dorn-Hanson 2019, which opens with the identical five words and is a different work in a different literature.",
+    "doi": null,
+    "identity_verified": false,
+    "match_jaccard": 1.0,
+    "best_near_miss": {
+      "doi": "10.5040/9798400607950.0151",
+      "title": "When Work Disappears: The World of the New Urban Poor",
+      "jaccard": 1.0,
+      "year": 2014,
+      "container": "African Americans and Criminal Justice",
+      "type": "other",
+      "author_match": null,
+      "review_shape": false,
+      "is_fallback": true
+    },
+    "refused_reasons": [
+      "negative_score:-5",
+      "not_book_shaped:book-chapter",
+      "not_book_shaped:journal-article",
+      "review_of_the_work",
+      "title_or_no_doi"
+    ],
+    "refused_candidates": [
+      {
+        "reason": "negative_score:-5",
+        "title": "When Work Disappears: The World of the New Urban Poor",
+        "doi": "10.5040/9798400607950.0151"
+      },
+      {
+        "reason": "review_of_the_work",
+        "title": "When work disappears: the world of the new urban poor",
+        "doi": "10.5860/choice.34-4179"
+      },
+      {
+        "reason": "review_of_the_work",
+        "title": "When Work Disappears: The World of the New Urban Poor by Wil",
+        "doi": "10.1080/05775132.1997.11471958"
+      },
+      {
+        "reason": "review_of_the_work",
+        "title": "When Work Disappears: The World of the New Urban Poor.",
+        "doi": "10.2307/3042249"
+      },
+      {
+        "reason": "review_of_the_work",
+        "title": "Book Review: When Work Disappears: The World of the New Urba",
+        "doi": "10.1177/016059769702100312"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "William Julius Wilson, <i>When Work Disappears: The World of",
+        "doi": "10.2307/2717430"
+      }
+    ],
+    "gold_status": "unverified_no_doi_match",
+    "note": "Book or monograph; expected index miss. Carried keyed on title, not faked. The near-miss record is retained so an RA can see what the resolver refused and why."
+  },
+  {
+    "title": "Economic Recession and Fertility in the Developed World",
+    "authors": [
+      "Tomas Sobotka",
+      "Vegard Skirbekk",
+      "Dimiter Philipov"
+    ],
+    "year": 2011,
+    "provenance_channel": "forward_citation_philipov_2006",
+    "provisional_cell": "TRANSITORY_SHOCK",
+    "query_cluster_family": "decoy-wall1",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "PDR (865). WALL 1 DECOY, and the sharpest one available: same senior author as the primary anchor, but the treatment is a TRANSITORY recession with an expected return to normalcy. Routes to C.5.a. If the screen cannot separate this from Philipov 2006 it cannot enforce Wall 1 at all \u2014 which the scope already concedes it cannot do at title/abstract, making this a full-text calibration case.",
+    "doi": "10.1111/j.1728-4457.2011.00411.x",
+    "identity_source": "https://doi.org/10.1111/j.1728-4457.2011.00411.x",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Population and Development Review",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1111/j.1728-4457.2011.00411.x",
+        "type": "article",
+        "year": 2011,
+        "container": "Population and Development Review",
+        "score": 165,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Changes in Employment Uncertainty and the Fertility Intention-Realization Link: An Analysis Based on the Swiss Household Panel",
+    "authors": [
+      "Doris Hanappi",
+      "Valerie-Anne Ryser",
+      "Laura Bernardi",
+      "Jean-Marie Le Goff"
+    ],
+    "year": 2017,
+    "provenance_channel": "forward_citation_philipov_2006",
+    "provisional_cell": "OFF_UNCERT_C5a",
+    "query_cluster_family": "decoy-wall1",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "European Journal of Population (88). WALL 1 DECOY. Surfaced by forward-citing the primary anchor AND matching the despair vocabulary \u2014 the citation-reason drift that makes the anomie channel drain into C.5.a. Personal employment uncertainty, not a collapse of forward orientation.",
+    "doi": "10.1007/s10680-016-9408-y",
+    "identity_source": "https://doi.org/10.1007/s10680-016-9408-y",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 0.833,
+    "container": "European Journal of Population",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1007/s10680-016-9408-y",
+        "type": "article",
+        "year": 2017,
+        "container": "European Journal of Population / Revue europ\u00e9enne de D\u00e9mographie",
+        "score": 151,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Economic uncertainty and first-birth intentions in Europe",
+    "authors": [
+      "Susanne Fahlen",
+      "Livia Sz. Olah"
+    ],
+    "year": 2018,
+    "provenance_channel": "forward_citation_philipov_2006",
+    "provisional_cell": "OFF_UNCERT_C5a",
+    "query_cluster_family": "decoy-wall1",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Demographic Research (71). Second Wall 1 decoy from the same drift, kept because one decoy per wall does not measure a routing rule that has to hold across a cluster.",
+    "doi": "10.4054/demres.2018.39.28",
+    "identity_source": "https://doi.org/10.4054/demres.2018.39.28",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Demographic Research",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.4054/demres.2018.39.28",
+        "type": "article",
+        "year": 2018,
+        "container": "Demographic Research",
+        "score": 165,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Stigma, hopelessness and coping experiences of Turkish women with infertility",
+    "authors": [
+      "Zehra Kaya",
+      "Umran Oskay"
+    ],
+    "year": 2019,
+    "provenance_channel": "reconnaissance_probe_reverse",
+    "provisional_cell": "REVERSE",
+    "query_cluster_family": "decoy-wall5",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "J Reprod Infant Psychol (71), Kaya & Oskay. THE AUTHOR GATE'S OWN TEST CASE, passed against the analyst: this candidate was first entered with the authors guessed as Dikmen & Terzioglu, the gate refused the correct DOI at Jaccard 1.00 as `authors_disagree`, and the live record showed the gate was right and the candidate wrong. Corrected from the record rather than by relaxing the gate. WALL 5 DECOY. The reverse-causation body owns the validated-instrument literature: every Beck Hopelessness Scale record the probe surfaced is infertility distress. Childlessness -> hopelessness, the arrow this chapter is not about.",
+    "doi": "10.1080/02646838.2019.1650904",
+    "identity_source": "https://doi.org/10.1080/02646838.2019.1650904",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Journal of Reproductive and Infant Psychology",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1080/02646838.2019.1650904",
+        "type": "article",
+        "year": 2019,
+        "container": "Journal of Reproductive and Infant Psychology",
+        "score": 165,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "The Post-Communist Fertility Puzzle",
+    "authors": [
+      "Sunnee Billingsley"
+    ],
+    "year": 2009,
+    "provenance_channel": "forward_citation_philipov_2006",
+    "provisional_cell": "SECONDARY_DECLINE_NO_MECHANISM",
+    "query_cluster_family": "decoy-context",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Population Research and Policy Review (143). The context anchor for Call 5: the post-communist decline as a whole, against which the anomie studies' contribution has to be judged before their transportability to America is even discussed.",
+    "doi": "10.1007/s11113-009-9136-7",
+    "identity_source": "https://doi.org/10.1007/s11113-009-9136-7",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Population Research and Policy Review",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1007/s11113-009-9136-7",
+        "type": "article",
+        "year": 2009,
+        "container": "Population Research and Policy Review",
+        "score": 165,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  }
+]
