@@ -1,0 +1,22 @@
+{
+ "stage": "C1",
+ "slug": "despair-hopelessness-fertility",
+ "pulled_utc": "2026-08-19T01:41:25Z",
+ "query_phrases": 53,
+ "filter": ",from_publication_date:2000-01-01,type:article|review|book-chapter|report",
+ "expected_universe": 238189,
+ "records_written": 149200,
+ "unique_ids": 149200,
+ "pages": 746,
+ "shortfall": 0.3736,
+ "failed_pages": [
+  {
+   "page": 746,
+   "cursor": "Ils5LjU2ODY4MywgOTYyNDA5NjAwMDAwLCAnaHR0cHM6Ly9vcGVuYWxleC5vcmcvVzQyNTI5OTcyOTEnXSI=",
+   "error": "Rate limit exceeded Insufficient budget. This request costs $0.001 but you only have $0.0001 remaining. Resets at midnight UTC. Need more? A"
+  }
+ ],
+ "complete": false,
+ "records_path": "temp/d3c-pull/records.jsonl",
+ "abstract_truncated_at": 1200
+}
