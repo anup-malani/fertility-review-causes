@@ -5,8 +5,8 @@
  "frame_kept": 9729,
  "frame_total": 10575,
  "kept_share": 0.92,
- "gold_total": 262,
- "gold_kept": 262,
+ "gold_total": 243,
+ "gold_kept": 243,
  "gold_recall": 1.0,
  "pull_size": 390983,
  "projected_survivors": 359704,
@@ -16,78 +16,78 @@
    "threshold": -5,
    "kept": 10575,
    "kept_share": 1.0,
-   "gold_kept": 262,
+   "gold_kept": 243,
    "gold_recall": 1.0
   },
   {
    "threshold": -4,
    "kept": 10574,
    "kept_share": 0.9999054373522459,
-   "gold_kept": 262,
+   "gold_kept": 243,
    "gold_recall": 1.0
   },
   {
    "threshold": -3,
    "kept": 10574,
    "kept_share": 0.9999054373522459,
-   "gold_kept": 262,
+   "gold_kept": 243,
    "gold_recall": 1.0
   },
   {
    "threshold": -2,
    "kept": 10319,
    "kept_share": 0.9757919621749409,
-   "gold_kept": 262,
+   "gold_kept": 243,
    "gold_recall": 1.0
   },
   {
    "threshold": -1,
    "kept": 9729,
    "kept_share": 0.92,
-   "gold_kept": 262,
+   "gold_kept": 243,
    "gold_recall": 1.0
   },
   {
    "threshold": 0,
    "kept": 9592,
    "kept_share": 0.9070449172576832,
-   "gold_kept": 260,
-   "gold_recall": 0.9923664122137404
+   "gold_kept": 241,
+   "gold_recall": 0.9917695473251029
   },
   {
    "threshold": 1,
    "kept": 6888,
    "kept_share": 0.6513475177304965,
-   "gold_kept": 214,
-   "gold_recall": 0.816793893129771
+   "gold_kept": 199,
+   "gold_recall": 0.8189300411522634
   },
   {
    "threshold": 2,
    "kept": 4084,
    "kept_share": 0.386193853427896,
-   "gold_kept": 119,
-   "gold_recall": 0.4541984732824427
+   "gold_kept": 108,
+   "gold_recall": 0.4444444444444444
   },
   {
    "threshold": 3,
    "kept": 3092,
    "kept_share": 0.29238770685579196,
-   "gold_kept": 63,
-   "gold_recall": 0.24045801526717558
+   "gold_kept": 59,
+   "gold_recall": 0.24279835390946503
   },
   {
    "threshold": 4,
    "kept": 749,
    "kept_share": 0.0708274231678487,
-   "gold_kept": 30,
-   "gold_recall": 0.11450381679389313
+   "gold_kept": 29,
+   "gold_recall": 0.11934156378600823
   },
   {
    "threshold": 5,
    "kept": 212,
    "kept_share": 0.020047281323877068,
    "gold_kept": 1,
-   "gold_recall": 0.003816793893129771
+   "gold_recall": 0.00411522633744856
   },
   {
    "threshold": 6,

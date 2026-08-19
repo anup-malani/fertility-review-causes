@@ -115,20 +115,31 @@ def main():
     gold, _neg, _nc, _nn, _abs = cvb.load()
     goldkeys = {cvb.norm(g["title"])[:70] for g in gold}
 
-    rows = []
+    # COUNT DISTINCT GOLD WORKS, NOT MATCHING RECORDS. The index holds several records per work
+    # (preprint and published version, editions, reissues), so one gold work can match two or three
+    # frame records. A first version counted records and reported 262 gold against a set of 243,
+    # inflating the recall denominator by 8%. The same bug was found and fixed independently in
+    # 159_; it is fixed here at the source. Recall is unaffected (100% either way) but a denominator
+    # that overstates the gold makes every recall figure built on it look better than it is.
+    rows, seen_gold = [], set()
     for r in tier_b:
         if not r.get("title"):
             continue
+        k = cvb.norm(r["title"])[:70]
+        is_gold = k in goldkeys
+        first_hit = is_gold and k not in seen_gold
+        if is_gold:
+            seen_gold.add(k)
         s, why = score(r)
-        rows.append({"key": cvb.norm(r["title"])[:70], "score": s, "why": why,
-                     "is_gold": cvb.norm(r["title"])[:70] in goldkeys})
-    n_gold = sum(1 for x in rows if x["is_gold"])
+        rows.append({"key": k, "score": s, "why": why,
+                     "is_gold": is_gold, "gold_first_hit": first_hit})
+    n_gold = len(seen_gold)
 
     # Recall-versus-budget curve. Every distinct threshold, so the cutoff is chosen from the curve.
     curve = []
     for thr in range(min(x["score"] for x in rows), max(x["score"] for x in rows) + 1):
         keep = [x for x in rows if x["score"] >= thr]
-        kg = sum(1 for x in keep if x["is_gold"])
+        kg = sum(1 for x in keep if x["gold_first_hit"])
         curve.append({"threshold": thr, "kept": len(keep), "kept_share": len(keep) / len(rows),
                       "gold_kept": kg, "gold_recall": kg / max(n_gold, 1)})
 

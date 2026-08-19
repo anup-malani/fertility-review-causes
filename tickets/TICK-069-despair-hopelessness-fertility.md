@@ -18,7 +18,7 @@
 - [ ] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise — **run once per chapter, never pooled across the split**
 - [ ] 10. Demographic significance against PM / FDT / SDT — **once per chapter**
 - [ ] 11. GRADE rating, 3 independent raters — **once per chapter**
-- [ ] 12. Chapter drafts on the §6 template — **two chapters** (deferral, acceleration) per the Call 1 ruling
+- [~] 12. Chapter drafts on the §6 template — **two interim drafts written** (§§1-4, 10 supported; §§5-9 blocked on the screen)
 - [ ] 13. RA lay-readability check
 - [ ] 14. PI review and sign-off
 
@@ -444,4 +444,42 @@ published article, a later edition) and 33 are genuinely absent.
 **Reminder of what the partial is** (`{slug}-c1-manifest.md`): the high-relevance head, not a random
 62%. PRISMA identification must read 149,200 retrieved of 238,189 identified until the pull is
 resumed.
+
+### 2026-08-19 — interim chapter drafts, both chapters
+
+Wrote both chapters on the PROTOCOL §6 template:
+`output/chapters/despair-hopelessness-fertility-{deferral,acceleration}.md`.
+
+**These are interim drafts and say so at the top, in a status block, not a footnote.** Sections 1-4
+(claim, mechanism, search strategy, PRISMA) and 10 (open questions) rest on completed work.
+**Sections 5-9 are marked BLOCKED and left empty rather than summarised** — no study has been
+screened, no effect extracted, no risk-of-bias assessed, no rating assigned. Each blocked section
+names the pipeline stage it needs.
+
+The temptation these drafts had to avoid was writing a plausible Results section out of the anchor
+set. The anchors are a *measurement instrument* — they were chosen to test retrieval, and several are
+routing decoys deliberately sitting across a wall. Reporting them as findings would invent an evidence
+base and would have been very hard to detect later.
+
+**What the drafts CAN report is the shape of the literature**, which is measured four independent ways
+and is the chapter's most substantial result so far: the reconnaissance intersection (12 records, none
+on topic), zero mined terms carrying mechanism and outcome together, 0.28% joint density in the
+citation frame, and 65 records (0.017% of the pull) carrying the full claim across the open index.
+`despair` itself is a *negative* discriminator (z −4.44; 5 occurrences in the target neighbourhood
+against 635 in the neighbours').
+
+Each chapter carries what falls on it specifically. The deferral chapter carries the unmeasured
+mechanism and the post-communist transportability problem. The acceleration chapter carries the date
+restriction, because the 2000 floor removes its own antecedent literature (Duncan & Hoffman 1990 and
+the 1993-98 chain) — recorded in the chapter that pays for it, not only in the methods file. Both
+carry the instruction that neither rating may borrow from the other.
+
+**Every figure in both drafts was verified against its source artefact before commit** (14 automated
+checks). One failed: `154_` reported 262 gold against a set of 243, the same
+records-versus-distinct-works counting bug found in `159_` two commits earlier. I had fixed it there
+and not swept for it elsewhere. Fixed at source; recall is unaffected (100% either way) but an
+inflated denominator makes every recall figure built on it look better than it is.
+
+**Still blocked:** the screen (no Anthropic credential) and the remaining 89,000 records of the pull
+(OpenAlex daily budget). Neither is a modelling problem.
 
