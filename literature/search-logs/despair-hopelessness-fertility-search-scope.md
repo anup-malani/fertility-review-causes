@@ -408,10 +408,37 @@ pooling rules key off all four:
   admitted to the theory stream, because the mechanism claim is theirs.
 - **Excluded:** mortality-only outcomes; marriage-only outcomes; infertility-distress studies
   (`REVERSE`); studies of despair with no reproductive outcome of any kind.
-- **Time:** no publication-date floor. The opposite-sign literature is substantially older than the
-  deaths-of-despair framing and would be lost to a post-2015 window.
+- **Time: publication-date floor at 2000-01-01, and record types restricted to `article`, `review`,
+  `book-chapter`, `report` (PI decision, 2026-08-18).** This REVERSES the scope's original rule, which
+  declined a date floor on the ground that the acceleration chapter's canon is substantially older
+  than the deaths-of-despair framing. The reversal is a deliberate cost decision and its price is
+  measured, not estimated: the search universe falls 390,983 -> **238,189** and **39 of 243 gold
+  records (16.0%) are dropped**. Of those, 17 are lost to the date floor alone, 19 to the type filter
+  alone, and 3 to both.
+
+  **What the date floor drops is a coherent body, not a random 7%**: the 1990s welfare-and-nonmarital-
+  childbearing literature — Duncan and Hoffman (1990) on welfare benefits, economic opportunities and
+  out-of-wedlock births among black teenage girls; "Teen Out-of-Wedlock Births and Welfare Receipt"
+  (1993); "Adolescent Premarital Childbearing: Do Economic Incentives Matter?" (1994/1995); "An
+  Analysis of Out-of-Wedlock Childbearing in the United States" (1996); "The Effect of Welfare on
+  Marriage and Fertility" (1998). That is chapter 2's direct intellectual antecedent and Kearney and
+  Levine's own lineage.
+
+  **What the type filter drops is mostly grey literature**: 12 preprints, 5 dissertations, 2 books, 2
+  `other`, 1 reference-entry. Several are recent and on-cell — "When a Strike Strikes Twice: Massive
+  Student Mobilizations and Teenage Pregnancy" (2022), "Privatization and the Postsocialist Fertility
+  Decline" (2020). Note the tension with B1's own finding that working papers are the version of
+  record for much of the economics this review draws on: the filter keeps `report` (NBER) and drops
+  `preprint` (SSRN, RePEc).
+
+  **Consequence for the write-up, and it is not optional.** This is a restricted search. The PRISMA
+  identification box must state the date and type restriction, the demographic-significance section
+  must not claim coverage of the pre-2000 literature, and both chapters' limitations sections must
+  carry the measured 16% gold loss with its composition. A reader cannot infer a date-and-type floor
+  from a record count.
 - **Geography:** no restriction at screening. The US/non-US question is a synthesis question (Call 5),
-  and restricting at screening would foreclose it.
+  and restricting at screening would foreclose it. (The date and type restrictions above are the only
+  eligibility filters applied at retrieval.)
 - **Language:** English-language full text required for extraction; non-English records are logged, not
   silently dropped.
 

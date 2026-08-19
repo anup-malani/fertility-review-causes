@@ -205,5 +205,22 @@
   }
  },
  "year_floor_applied": null,
- "refusals": []
+ "refusals": [],
+ "filters": {
+  "from_publication_date": "2000-01-01",
+  "type": [
+   "article",
+   "review",
+   "book-chapter",
+   "report"
+  ],
+  "openalex_filter_suffix": ",from_publication_date:2000-01-01,type:article|review|book-chapter|report",
+  "decided_by": "PI, 2026-08-18",
+  "universe_unfiltered": 390983,
+  "universe_filtered": 238189,
+  "gold_lost": 39,
+  "gold_total": 243,
+  "recall_retained": 0.84,
+  "note": "A RESTRICTED search. Every downstream count, the PRISMA identification box, and the chapter's limitations section must state the restriction and its measured cost \u2014 a reader cannot infer a date-and-type floor from a record count."
+ }
 }

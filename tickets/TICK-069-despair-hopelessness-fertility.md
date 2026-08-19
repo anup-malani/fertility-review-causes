@@ -368,3 +368,34 @@ does not read as an overrun.
 
 Script 157.
 
+### 2026-08-18 — PI decision: restrict the pull to 2000+ and four record types
+
+**Decided and implemented.** The production query now carries
+`from_publication_date:2000-01-01,type:article|review|book-chapter|report`. Universe **390,983 ->
+238,189**; with the compressed schema the screen costs **~$50** against $82 unfiltered.
+
+**Measured cost: 39 of 243 gold records (16.0%)** — 17 to the date floor alone, 19 to the type filter
+alone, 3 to both. Enumerated in full in the scope so the loss is a list, not a percentage.
+
+Two things the enumeration surfaced that were not visible when the option was chosen:
+
+1. **The type filter does more damage than the date floor** (19 records against 17), and what it drops
+   is mostly grey literature — 12 preprints, 5 dissertations — including recent on-cell work
+   ("When a Strike Strikes Twice", 2022; "Privatization and the Postsocialist Fertility Decline",
+   2020). This sits awkwardly against B1's own finding that working papers are the version of record
+   for much of this economics: the filter keeps `report` (NBER) and drops `preprint` (SSRN, RePEc).
+2. **Relaxing types to the broad set costs $6.** 2000 + broad types is 263,621 records at ~$56 and
+   loses 20 gold rather than 39. The narrow set buys $6 for 19 records. Flagged once; the narrow set
+   is implemented as decided.
+
+**The scope's eligibility rule was reversed and says so.** It previously declined a date floor on the
+ground that the acceleration chapter's canon is older than the deaths-of-despair framing; that
+reasoning was correct and the decision overrides it deliberately. What the floor drops is a coherent
+body — the 1990s welfare-and-nonmarital-childbearing literature (Duncan & Hoffman 1990, and the
+1993-1998 chain), which is chapter 2's direct antecedent and Kearney & Levine's own lineage.
+
+**Write-up consequences, recorded now so they are not discovered at drafting:** this is a restricted
+search. The PRISMA identification box must state the restriction; the demographic-significance section
+must not claim pre-2000 coverage; both chapters' limitations must carry the 16% loss and its
+composition. A reader cannot infer a date-and-type floor from a record count.
+
