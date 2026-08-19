@@ -432,11 +432,56 @@ blast radius of the most serious is measured in `despair-hopelessness-fertility-
 (4 exposed anchors across 2 chapters, **0 attributable to the defect** — it was live but had not yet
 cost an anchor, D.3.c being the first corpus with a Central European primary cell).
 
+## A4 outcome (run 2026-08-18)
+
+`150_d3c_tier_ab_frame.py` (citation frame) and `151_d3c_discriminative_terms.py` (term mining).
+**Tier B: 10,589 deduplicated records, 856 multi-seed, 0 failed requests, no seed truncated.**
+
+**The frame confirms the scope's central finding by a second, independent route.** Across every
+seed's forward cloud, **30 of 10,769 records (0.28%)** carry a fertility quantity and a despair
+construct together. The reconnaissance measured that at the population level from keyword counts;
+this measures it in the citation network. The China Syndrome's 4,436 citing works contain **zero**.
+Case and Deaton's two seeds, 3,853 citing works between them, contain four.
+
+**Wall 1 is now measured, not argued.** The term mining labels positives by *citation provenance* —
+reached by a primary-cell anchor — rather than by vocabulary, precisely because labelling by the
+despair-and-fertility co-occurrence would have mined the words used to draw the line. On that honest
+label:
+
+- **`MECHANISM_AND_OUTCOME` contains 0 terms.** The primary cell has no mineable vocabulary at all.
+- **0 of the 40 strongest discriminators carry mechanism vocabulary.** Every one is topic, treatment
+  or outcome language, which retrieves the right literature and does nothing to route within it.
+- **`despair` is negatively discriminative — z −4.44, 5 occurrences in the primary neighbourhood
+  against 635 in the walls'.** The word the hypothesis is named for marks the mortality corpus it
+  must be separated from. In a production query it would pull toward Wall 4's decoy cloud.
+- The only precise mechanism term is `future orientation` (z 0.7, 6 positive and 0 negative
+  occurrences) — perfectly precise, far too rare to carry a query.
+
+The scope's declaration that Wall 1 cannot be enforced at title and abstract therefore stands on
+evidence, and the over-inclusive screen design is justified rather than merely asserted.
+
+**A third finding, unplanned and relevant to Call 5.** After the topic words, the strongest
+discriminators are place names — `europe` (16.4), `hungary` (14.4), `poland` (11.5). What most
+distinguishes the primary neighbourhood is *where its studies were done*. A query fitted on this
+frame would learn to retrieve Central European demography rather than despair research. Call 5's
+transportability problem appears inside the query itself, before any synthesis decision is taken.
+
+One anchor recovery: Edin & Kefalas was seedable after all (`W4242866627`, a genuine `book` record,
+125 cites), under the same first-author gate A3 uses. Wilson and Cherlin were not — no `book`-typed
+record of either exists — and the Wilson attempt returned Johnston & Lordan's unrelated 2014 book
+above anything of Wilson's, which is why the gate runs at this step too.
+
 ## Next step
 
-A4 term population over the resolved anchor set — external core terms from the channel-1 reviews
-(leakage wall: Sobotka-Skirbekk-Philipov 2011 and Balbo-Billari-Mills feed either query terms or
-anchors, never both), recall-extension terms mined fold-locally. Then the discriminative-term pass and
-the production query. **Nothing downstream of the production query should start before Calls 1 and 2
-are answered**, because they determine which cells are primary and therefore what the screen is
-optimising for.
+**B1 cross-validation is not the right next step, and A4 is why.** The production query is chosen on
+a recall-versus-budget frontier, and A4 has established that the vocabulary available to it cannot
+separate the primary cell from the walls. Fitting a query on this frame optimises retrieval of
+Central European fertility-intentions research. Two things should happen first:
+
+1. **Calls 1 and 2 go to the PI now**, not after the query is built. Call 2 in particular — whether
+   mechanism-silent reduced-form evidence counts as evidence for D.3.c — now has a measurement behind
+   it rather than an argument, and if the answer is "no", the chapter's evidence base is the three
+   post-communist anchors and the query's job changes completely.
+2. **The screen, not the query, has to carry the routing.** The budget should shift from query
+   precision toward full-text screening capacity, because that is the only stage where Wall 1's
+   discriminator is visible.

@@ -9,7 +9,7 @@
 
 ## Acceptance criteria
 - [x] 2. Search strategy and scope drafted — **drafted, not frozen**; 5 PI calls, 2 load-bearing
-- [ ] 3. Literature search and AI screening, both phases (§5.1) — **A3 done, A4 next**
+- [ ] 3. Literature search and AI screening, both phases (§5.1) — **A3 and A4 done; B1 deferred pending Calls 1-2**
 - [ ] 4. RA title/abstract review
 - [ ] 5. Full-text retrieval
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
@@ -107,4 +107,62 @@ entered with guessed authors (Dikmen & Terzioğlu), the author gate refused the 
 1.00, and the live record showed the authors are Kaya & Öskay. Corrected from the record.
 
 Scripts 148 and 149; numbering starts above 146, the max in use on any branch.
+
+### 2026-08-18 — A4, citation frame and term population
+
+**Result.** `150_d3c_tier_ab_frame.py`: Tier B of **10,589 deduplicated records**, 856 multi-seed,
+**0 failed requests, no seed truncated** at the raised 5,000 cap. `151_d3c_discriminative_terms.py`:
+2,341 candidate terms mined by Fightin' Words over title and abstract.
+
+**The frame reproduces the chapter's central finding by an independent route.** Across every seed's
+forward cloud, **30 of 10,769 records (0.28%)** carry a fertility quantity and a despair construct
+together. The reconnaissance measured that from keyword counts at the population level; this measures
+it in the citation network. The China Syndrome's 4,436 citing works contain zero. Case and Deaton's
+two seeds, 3,853 citing works, contain four.
+
+**Wall 1 is now measured rather than argued, and the measurement is unambiguous.** The term mining
+labels positives by CITATION PROVENANCE — reached by a primary-cell anchor — not by vocabulary,
+because labelling by the despair-and-fertility co-occurrence would have mined the very words used to
+draw the line. In a chapter whose primary cell IS a co-occurrence that is not a subtle circularity,
+it is the whole result. On that label:
+
+- `MECHANISM_AND_OUTCOME` contains **0 terms**. The primary cell has no mineable vocabulary.
+- **0 of the 40 strongest discriminators carry mechanism vocabulary.**
+- **`despair` is NEGATIVELY discriminative — z −4.44, 5 occurrences in the primary neighbourhood
+  against 635 in the walls'.** The word the hypothesis is named for marks the mortality corpus it has
+  to be separated from; in a production query it would pull toward Wall 4's decoy cloud.
+- The only precise mechanism term is `future orientation` (z 0.7, 6 positive / 0 negative) — too rare
+  to carry a query.
+
+**Unplanned third finding, and it bears on Call 5.** After the topic words the strongest
+discriminators are place names — `europe` 16.4, `hungary` 14.4, `poland` 11.5. What most
+distinguishes the primary neighbourhood is where its studies were done. A query fitted on this frame
+learns to retrieve Central European demography rather than despair research.
+
+**Workflow impact.**
+
+1. **Book seed recovery added.** A DOI-less monograph could not seed the frame at all, and the three
+   this chapter lost were the sociological canon — whose neighbourhood is where the opposite-sign
+   qualitative literature lives. Each now gets one recovery attempt restricted to bookish types and
+   gated by the A3 first-author rule. Edin & Kefalas recovered (`W4242866627`, `book`, 125 cites) and
+   seeded normally; Wilson and Cherlin did not, correctly — no `book`-typed record of either exists.
+   The Wilson attempt is a live demonstration that the author gate is not optional here: a bookish
+   search for *When Work Disappears* returns Johnston & Lordan's unrelated 2014 book above anything
+   of Wilson's.
+2. **Numeric tokens were entering the term list.** The first run ranked the bare token `233` eighth
+   overall (z 20.6, 115 positive occurrences) — volume and page fragments surviving into abstracts.
+   A term list feeds a production query, so an unsearchable token is worse than useless; it reads as
+   a finding. Now filtered.
+3. **The provenance label is worth carrying forward.** Any chapter whose primary cell is defined by a
+   co-occurrence of two vocabularies cannot label its term-mining positives by that co-occurrence.
+   Citation provenance is a label that owes nothing to the text.
+
+**Recommendation, and it is a change of plan.** B1 cross-validation should NOT run next. It picks a
+production query on a recall-versus-budget frontier, and A4 has established that the available
+vocabulary cannot separate the primary cell from the walls — so fitting a query on this frame
+optimises retrieval of Central European fertility-intentions research. Calls 1 and 2 should go to
+Anup now, with A4's measurement attached, and the budget should shift from query precision to
+full-text screening capacity, which is the only stage where Wall 1's discriminator is visible.
+
+Scripts 150 and 151.
 
