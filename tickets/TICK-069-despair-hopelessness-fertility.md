@@ -336,3 +336,35 @@ abstract** (33% have none, concentrated in the older monographs and grey literat
 
 Scripts 154, 155, 156.
 
+### 2026-08-18 — lower-recall pull priced, and rejected in favour of a better lever
+
+Asked to price a lower-recall pull. Priced eight options against live counts and the 243-record gold
+(`157_`), and the frontier is bad at every point: the most aggressive (year >= 2000 + four types)
+saves **$52** and costs **39 of 243 gold records (16%)**; the gentlest that saves anything meaningful
+(1990 + broad types) saves $34 for 8 records.
+
+**Then found the cost is not where the corpus is.** Output tokens are **67% of the bill** — $90 of
+$134 — and output verbosity has nothing to do with how many records are screened or how well. The
+schema was emitting `"PRIMARY_MEASURED_DESPAIR"` rather than `"PMD"`, and a one-sentence rationale on
+every record rather than only on the uncertain band an RA actually reads.
+
+| route to ~$82 | gold recall |
+|---|---|
+| cut the corpus (year >= 2000 + mid types) | **84.0%** |
+| compress the output schema | **100%** |
+
+**The corpus-cutting options are strictly dominated** — same price, sixteen points more recall — and
+none should be taken. Implemented the compression in `156_`: short cell codes on the wire, expanded
+back to full names at collection so nothing downstream sees a code, and the rationale kept exactly
+where it is read (`UNCERTAIN` verdicts, the RA gate's band) rather than dropped wholesale.
+
+**Result: ~$82-90 at 100% recall**, against $134 before and the project's documented ~$37 line.
+
+That ~$37 figure (`decisions/2026-06-20-llm-screening-pipeline.md`) assumes a conjunction-narrowed
+corpus of 50K-100K records — which is precisely what this chapter could not have, since B1 found the
+conjunction strictly dominated. It is stale in one direction: it silently assumes narrowing always
+works. Worth restating as per-100K-records rather than per-hypothesis so the next unnarrowable chapter
+does not read as an overrun.
+
+Script 157.
+

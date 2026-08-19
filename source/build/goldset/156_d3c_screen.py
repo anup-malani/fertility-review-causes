@@ -59,46 +59,63 @@ STAGE2_MODEL = "claude-sonnet-5"
 RECORDS_PER_REQUEST = 20
 RECALL_FLOOR = 0.98          # D2a will not proceed to the full run below this on the gold
 
-CELLS = ["PRIMARY_MEASURED_DESPAIR", "PRIMARY_DECLINE_WITH_MECHANISM", "PRIMARY_ACCELERATION",
-         "SECONDARY_DECLINE_NO_MECHANISM", "TRANSITORY_SHOCK", "MARRIAGE_CHANNEL",
-         "DESPAIR_MORTALITY", "THEORY_DESPAIR", "EXPOSURE_SERIES", "OFF_CLINICAL_D3a",
-         "OFF_RESOURCE", "OFF_CLIMATE_D3b", "REVERSE", "COMPOSITION", "OFF_OTHER",
-         "INSUFFICIENT_INFO"]
-VERDICTS = ["RELEVANT", "UNCERTAIN", "NOT_RELEVANT"]
+# WIRE FORMAT IS A SHORT CODE, NOT THE CELL NAME. Output tokens are 67% of this screen's cost
+# ($90 of $134 at the verbose schema), so schema verbosity is a budget decision rather than a
+# formatting preference. Emitting `"PMD"` instead of `"PRIMARY_MEASURED_DESPAIR"` costs nothing in
+# recall and takes the full cascade from ~$134 to ~$82 — the same price as the most aggressive
+# corpus-cutting option priced in 157_, which would have cost 16 points of gold recall to reach.
+# The codes are expanded back to cell names at collection; nothing downstream sees a code.
+CODES = {
+    "PMD": "PRIMARY_MEASURED_DESPAIR", "PDM": "PRIMARY_DECLINE_WITH_MECHANISM",
+    "PAC": "PRIMARY_ACCELERATION", "SDN": "SECONDARY_DECLINE_NO_MECHANISM",
+    "TSH": "TRANSITORY_SHOCK", "MAR": "MARRIAGE_CHANNEL", "MOR": "DESPAIR_MORTALITY",
+    "THY": "THEORY_DESPAIR", "EXP": "EXPOSURE_SERIES", "OCL": "OFF_CLINICAL_D3a",
+    "ORE": "OFF_RESOURCE", "OCM": "OFF_CLIMATE_D3b", "REV": "REVERSE", "CMP": "COMPOSITION",
+    "OTH": "OFF_OTHER", "INS": "INSUFFICIENT_INFO",
+}
+CELLS = list(CODES)
+VERDICTS = ["R", "U", "N"]          # RELEVANT / UNCERTAIN / NOT_RELEVANT
+VERDICT_NAMES = {"R": "RELEVANT", "U": "UNCERTAIN", "N": "NOT_RELEVANT"}
+CHAPTERS = {"D": "DEFERRAL", "A": "ACCELERATION", "X": "UNASSIGNABLE", "-": "NA"}
+LEVELS = {"I": "INDIVIDUAL", "P": "PLACE_ECOLOGICAL", "M": "MULTILEVEL", "?": "UNCLEAR"}
 
 STAGE1_SCHEMA = {
     "type": "object",
-    "properties": {"verdicts": {"type": "array", "items": {
+    "properties": {"v": {"type": "array", "items": {
         "type": "object",
         "properties": {
-            "id": {"type": "string", "description": "The record id exactly as given."},
-            "verdict": {"type": "string", "enum": VERDICTS},
-            "cell": {"type": "string", "enum": CELLS},
+            "i": {"type": "string", "description": "The record id, exactly as given."},
+            "d": {"type": "string", "enum": VERDICTS, "description": "R relevant, U uncertain, N not."},
+            "c": {"type": "string", "enum": CELLS, "description": "Cell code."},
         },
-        "required": ["id", "verdict", "cell"], "additionalProperties": False}}},
-    "required": ["verdicts"], "additionalProperties": False,
+        "required": ["i", "d", "c"], "additionalProperties": False}}},
+    "required": ["v"], "additionalProperties": False,
 }
 STAGE2_SCHEMA = {
     "type": "object",
-    "properties": {"verdicts": {"type": "array", "items": {
+    "properties": {"v": {"type": "array", "items": {
         "type": "object",
         "properties": {
-            "id": {"type": "string"},
-            "verdict": {"type": "string", "enum": VERDICTS},
-            "cell": {"type": "string", "enum": CELLS},
-            "chapter": {"type": "string", "enum": ["DEFERRAL", "ACCELERATION", "UNASSIGNABLE", "NA"]},
-            "level": {"type": "string", "enum": ["INDIVIDUAL", "PLACE_ECOLOGICAL", "MULTILEVEL",
-                                                 "UNCLEAR"]},
-            "context_postcommunist": {"type": "boolean"},
-            "estimates_an_effect": {"type": "boolean",
-                                    "description": "Does it report a quantitative estimate of a "
-                                                   "determinant on a fertility outcome?"},
-            "rationale": {"type": "string", "description": "One sentence, citing the abstract."},
+            "i": {"type": "string"},
+            "d": {"type": "string", "enum": VERDICTS},
+            "c": {"type": "string", "enum": CELLS},
+            "ch": {"type": "string", "enum": list(CHAPTERS),
+                   "description": "D deferral, A acceleration, X unassignable, - not applicable."},
+            "l": {"type": "string", "enum": list(LEVELS),
+                  "description": "I individual, P place/ecological, M multilevel, ? unclear."},
+            "pc": {"type": "boolean", "description": "Post-communist study setting."},
+            "est": {"type": "boolean", "description": "Reports a quantitative estimate of a "
+                                                      "determinant on a fertility outcome."},
+            # RATIONALE ONLY WHEN UNCERTAIN. A one-sentence rationale on every record is ~80 output
+            # tokens x every record, and on a confident verdict nobody reads it. On the uncertain
+            # band an RA does read it, and that is the band the RA gate exists for — so it is kept
+            # exactly where it earns its cost.
+            "why": {"type": "string", "description": "REQUIRED when d is U, otherwise omit. One "
+                                                     "sentence, citing the abstract."},
         },
-        "required": ["id", "verdict", "cell", "chapter", "level", "context_postcommunist",
-                     "estimates_an_effect", "rationale"],
+        "required": ["i", "d", "c", "ch", "l", "pc", "est"],
         "additionalProperties": False}}},
-    "required": ["verdicts"], "additionalProperties": False,
+    "required": ["v"], "additionalProperties": False,
 }
 
 
@@ -123,7 +140,9 @@ def stage_instruction(stage):
                 "invisible and permanent — nobody ever learns it existed.\n\n"
                 "So: return `NOT_RELEVANT` only when you are confident the record sits in a "
                 "routed-out cell. Anything you are unsure about is `UNCERTAIN`, which passes. "
-                "Assign the single best cell; you are not asked for a chapter tag at this stage.")
+                "Assign the single best cell; you are not asked for a chapter tag at this stage.\n\n"
+                "Answer compactly: `i` = the record id, `d` = R (relevant) / U (uncertain) / "
+                "N (not relevant), `c` = the cell CODE from this table:\n" + _code_table())
     return ("\n\n---\n\n## Your task (stage 2 of 2)\n\n"
             "You are the SECOND screen. Records reaching you already passed a recall-first pass, so "
             "your job is precision and structured extraction: confirm or overturn the cell, assign "
@@ -132,7 +151,15 @@ def stage_instruction(stage):
             "Keep the decision rule: when genuinely torn, return `UNCERTAIN` rather than "
             "`NOT_RELEVANT` — an RA adjudicates the uncertain band, and that is cheaper than a "
             "silent loss. Do not attempt Wall 1; route chronic-decline records to "
-            "`SECONDARY_DECLINE_NO_MECHANISM` and let full text decide.")
+            "`SECONDARY_DECLINE_NO_MECHANISM` and let full text decide.\n\n"
+            "Answer compactly: `i` id, `d` = R/U/N, `c` = cell code, `ch` = D/A/X/-, `l` = I/P/M/?, "
+            "`pc` post-communist, `est` estimates an effect. Include `why` (one sentence) **only "
+            "when `d` is U** — that is the band an RA adjudicates, and it is the only place the "
+            "sentence is read.\n" + _code_table())
+
+
+def _code_table():
+    return "\n".join(f"  {k} = {v}" for k, v in CODES.items())
 
 
 def render(records):
@@ -208,8 +235,20 @@ def collect(batch_id):
             continue
         # Key by the record's own id, NEVER by position: batch results arrive in arbitrary order,
         # and a short or reordered array must be detectable rather than silently misaligned.
-        for v in payload.get("verdicts", []):
-            out[v["id"]] = v
+        for v in payload.get("v", []):
+            # Expand the wire codes back to full names here, so the compression is invisible
+            # downstream and no later stage has to know the code table.
+            rec = {"verdict": VERDICT_NAMES.get(v.get("d"), v.get("d")),
+                   "cell": CODES.get(v.get("c"), v.get("c"))}
+            if "ch" in v:
+                rec["chapter"] = CHAPTERS.get(v["ch"], v["ch"])
+            if "l" in v:
+                rec["level"] = LEVELS.get(v["l"], v["l"])
+            for k_src, k_dst in (("pc", "context_postcommunist"), ("est", "estimates_an_effect"),
+                                 ("why", "rationale")):
+                if k_src in v:
+                    rec[k_dst] = v[k_src]
+            out[v["i"]] = rec
     os.makedirs(WORK, exist_ok=True)
     path = os.path.join(WORK, f"{batch_id}-verdicts.json")
     json.dump({"batch_id": batch_id, "verdicts": out, "errors": errors}, open(path, "w"), indent=1)
