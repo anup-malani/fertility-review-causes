@@ -1,6 +1,6 @@
 # A3 cold-start anchors — despair-hopelessness-fertility (D.3.c)
 
-Sourced in a live OpenAlex pass (2026-08-18) and resolved through five gates: 19 candidate anchors, of which 3 are empirical primary-cell anchors (the causal recall denominator) and the rest are link-support, mechanism, parameter, measurement, theory, or routing-decoy anchors that earn no empirical recall credit. No DOI is hand-asserted; each is the top-ranked version-of-record candidate from a unified Crossref + OpenAlex field, then re-affirmed at doi.org.
+Sourced in a live OpenAlex pass (2026-08-18) and resolved through five gates: 19 candidate anchors, of which 4 are empirical primary-cell anchors (the causal recall denominator) and the rest are link-support, mechanism, parameter, measurement, theory, or routing-decoy anchors that earn no empirical recall credit. No DOI is hand-asserted; each is the top-ranked version-of-record candidate from a unified Crossref + OpenAlex field, then re-affirmed at doi.org.
 
 **Verified (live DOI): 16**  ·  **Year-drift keep (real, RA-confirm): 0**  ·  **Flagged for RA: 0**  ·  **Expected index miss (no DOI by nature): 3**
 
@@ -13,10 +13,10 @@ Sourced in a live OpenAlex pass (2026-08-18) and resolved through five gates: 19
 ## Coverage by estimand cell (verified / total)
 
 - `DESPAIR_MORTALITY`: 1/1
-- `EARLY_FERT_OPPOSITE_SIGN`: 1/1
 - `EXPOSURE_SERIES`: 1/1
 - `MARRIAGE_CHANNEL`: 1/1
 - `OFF_UNCERT_C5a`: 2/2
+- `PRIMARY_ACCELERATION`: 1/1
 - `PRIMARY_MEASURED_DESPAIR`: 3/3
 - `REVERSE`: 1/1
 - `SECONDARY_DECLINE_NO_MECHANISM`: 2/2

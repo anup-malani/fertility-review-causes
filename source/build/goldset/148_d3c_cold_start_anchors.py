@@ -169,7 +169,7 @@ CANDIDATES = [
     # ============================================================================================
     dict(title="Income Inequality and Early Nonmarital Childbearing",
          authors=["Melissa S. Kearney", "Phillip B. Levine"], year=2014,
-         family="opposite-sign", provisional_cell="EARLY_FERT_OPPOSITE_SIGN",
+         family="opposite-sign", provisional_cell="PRIMARY_ACCELERATION",
          provenance_channel="reconnaissance_probe_opposite_sign",
          note="Journal of Human Resources. The economics statement of despair-RAISES-early-fertility: "
               "low-SES young women in high-inequality places see a bleak return to delay and do not "

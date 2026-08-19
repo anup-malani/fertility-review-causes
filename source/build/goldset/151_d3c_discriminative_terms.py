@@ -58,12 +58,13 @@ LOGS = os.path.join(ROOT, "literature", "search-logs")
 ALPHA0 = 1000.0
 MIN_GOLD = 4
 
-# Cells whose citation neighbourhood defines the POSITIVE class. EARLY_FERT_OPPOSITE_SIGN is here for
-# the same reason it is in the recall denominator: sign-opposite but primary. Excluding it would mine
-# a vocabulary that finds only despair-lowers-fertility work, which is the cherry-pick Wall 6 exists
-# to prevent — and it would do it invisibly, inside the query, where no later stage could see it.
+# Cells whose citation neighbourhood defines the POSITIVE class. PRIMARY_ACCELERATION is here for the
+# same reason it is in the recall denominator: under the Call 1 ruling it is chapter 2's primary cell,
+# not chapter 1's opposite sign. Excluding it would mine a vocabulary that finds only
+# despair-lowers-fertility work — the cherry-pick Wall 6 exists to prevent — and would do it
+# invisibly, inside the query, where no later stage could see it.
 PRIMARY_CELLS = {"PRIMARY_MEASURED_DESPAIR", "PRIMARY_DECLINE_WITH_MECHANISM",
-                 "EARLY_FERT_OPPOSITE_SIGN"}
+                 "PRIMARY_ACCELERATION"}
 
 STOP = set(
     "the a an of and in on for from to its by is with as at or be this that these those we our their "

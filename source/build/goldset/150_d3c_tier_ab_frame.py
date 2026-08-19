@@ -22,7 +22,7 @@ Inherits `135_b6_tier_ab_frame.py`, with three changes this chapter forces.
     reviews of themselves. Under the inherited code a DOI-less anchor simply cannot seed, and the
     three lost here are the sociological canon — Wilson, Cherlin, Edin & Kefalas — whose citation
     neighbourhood is exactly where the opposite-sign qualitative literature lives. Dropping them
-    silently would remove the channel into `EARLY_FERT_OPPOSITE_SIGN`, a PRIMARY cell.
+    silently would remove the channel into `PRIMARY_ACCELERATION`, chapter 2's primary cell.
 
     So a monograph without a DOI gets one recovery attempt against OpenAlex restricted to bookish
     types, gated by the SAME first-author rule the A3 book-canon gate uses, and the outcome is
@@ -311,10 +311,11 @@ def main():
     # The causal recall denominator. SECONDARY_DECLINE_NO_MECHANISM is deliberately NOT here: the
     # scope commits it to a bridge cell that cannot carry the verdict, and counting it would make the
     # denominator the reduced-form literature that C.5.a has equal claim to.
-    # EARLY_FERT_OPPOSITE_SIGN IS here — it is a primary cell, sign-opposite but primary, and leaving
-    # it out would rebuild the very cherry-pick Wall 6 exists to prevent.
+    # PRIMARY_ACCELERATION IS here. Under the Call 1 ruling it is chapter 2's primary cell rather
+    # than chapter 1's opposite sign; either way, leaving it out would rebuild the cherry-pick Wall 6
+    # exists to prevent, and would do it inside the recall denominator where no later stage sees it.
     EMPIRICAL_CELLS = {"PRIMARY_MEASURED_DESPAIR", "PRIMARY_DECLINE_WITH_MECHANISM",
-                       "EARLY_FERT_OPPOSITE_SIGN"}
+                       "PRIMARY_ACCELERATION"}
 
     def is_empirical_anchor(rec):
         """In the causal recall denominator?
@@ -419,8 +420,8 @@ def main():
          "empirical primary-cell, the causal recall denominator). `SECONDARY_DECLINE_NO_MECHANISM` is "
          "deliberately excluded from that count: the scope commits it to a bridge cell that cannot "
          "carry the verdict, and counting it would make the denominator the reduced-form literature "
-         "C.5.a has equal claim to. `EARLY_FERT_OPPOSITE_SIGN` IS counted — sign-opposite but "
-         "primary, and excluding it would rebuild the cherry-pick Wall 6 exists to prevent.", "",
+         "C.5.a has equal claim to. `PRIMARY_ACCELERATION` IS counted — it is chapter 2's primary "
+         "cell, and excluding it would rebuild the cherry-pick Wall 6 exists to prevent.", "",
          f"**Tier B frame: {len(tier_b):,} deduplicated records** — {n_multi:,} found by more than one "
          f"seed, {n_abs:,} carrying an abstract ({n_abs / max(len(tier_b), 1):.0%}).", "",
          f"**Records depending ONLY on a routing-decoy seed: {n_decoy_dep:,}** "

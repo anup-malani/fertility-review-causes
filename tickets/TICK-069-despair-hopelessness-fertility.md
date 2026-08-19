@@ -5,7 +5,7 @@
 **Parallel-safe:** yes
 **Blocks:** none
 **Blocked by:** none
-**Touches:** literature/search-logs/despair-hopelessness-fertility-*, extraction/despair-hopelessness-fertility-*, output/chapters/despair-hopelessness-fertility.md, source/build/goldset/147*
+**Touches:** literature/search-logs/despair-hopelessness-fertility-*, extraction/despair-hopelessness-fertility-*, output/chapters/despair-hopelessness-fertility-{deferral,acceleration}.md, source/build/goldset/14[7-9]*, source/build/goldset/15[01]*
 
 ## Acceptance criteria
 - [x] 2. Search strategy and scope drafted — **drafted, not frozen**; 5 PI calls, 2 load-bearing
@@ -15,10 +15,10 @@
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
 - [ ] 7. Extraction to `extraction/despair-hopelessness-fertility.csv`, RA verifies a random 10%
 - [ ] 8. Risk-of-bias assessment per study
-- [ ] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise
-- [ ] 10. Demographic significance against PM / FDT / SDT
-- [ ] 11. GRADE rating, 3 independent raters
-- [ ] 12. Chapter draft on the §6 template
+- [ ] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise — **run once per chapter, never pooled across the split**
+- [ ] 10. Demographic significance against PM / FDT / SDT — **once per chapter**
+- [ ] 11. GRADE rating, 3 independent raters — **once per chapter**
+- [ ] 12. Chapter drafts on the §6 template — **two chapters** (deferral, acceleration) per the Call 1 ruling
 - [ ] 13. RA lay-readability check
 - [ ] 14. PI review and sign-off
 
@@ -165,4 +165,52 @@ Anup now, with A4's measurement attached, and the budget should shift from query
 full-text screening capacity, which is the only stage where Wall 1's discriminator is visible.
 
 Scripts 150 and 151.
+
+### 2026-08-18 — PI ruling on Calls 1 and 2
+
+**Call 2 — decided as recommended.** Mechanism-silent reduced-form decline studies are extracted and
+reported, rated **indirect**, with GRADE certainty downgraded for indirectness rather than the studies
+excluded. Preserves the C.5.a/D.3.c distinction the hypothesis list draws instead of collapsing it.
+
+**Call 1 — decided against the recommendation, and the ruling is better than the options tabled.**
+The scope offered (a) rate v5's claim as written, (b) restate as a single margin-conditional claim,
+(c) rate two sub-claims; the recommendation was (b). The PI's ruling is a fourth option: the deferral
+and acceleration mechanisms are **different hypotheses with different treatments**, and D.3.c produces
+**two chapters**. (b) would have kept one verdict spanning two treatments, which is the thing the
+evidence will not support.
+
+**One correction to the ruling's stated axis, made before implementing it.** The ruling described the
+split as despair about *the present* (deferral) versus despair about *the future* (acceleration). Both
+mechanisms are in fact forward-looking: v5's own wording for the deferral claim is that "the
+subjective sense of having a viable future disappears", and Kearney & Levine's abstract locates their
+mechanism in the *return to postponing* a birth. Applied literally, a present/future axis would put
+v5's own claim on the acceleration side. The split is therefore drawn on **what the despair is
+about** — the capacity to provide (defer) versus the return to postponing (accelerate) — which
+preserves the ruling's substance, that these are two treatments, and matches the sources. Flagged for
+the PI; relabelling is cheap if he disagrees, since nothing downstream keys on the wording.
+
+**Structure follows B.6's precedent:** one hypothesis entry, one ticket, one search; two chapters split
+at extraction on a `CHAPTER` tag; PRISMA one flow with a terminal split; risk of bias, synthesis,
+demographic significance and GRADE run twice. Written up as
+`decisions/2026-08-18-one-hypothesis-two-chapters.md`, which generalises the rule across B.6 and D.3.c
+and states the boundary case that stays one chapter (C.2.c's tenure-conditional elasticity: one
+treatment, conditional sign, not two mechanisms).
+
+**A fortunate asymmetry.** The chapter split runs on **outcome margin**, which A4's enforceability
+table marks as visible at title and abstract — unlike Wall 1, which is not. The chapter's hardest wall
+is invisible to the screen; its chapter split is not, which is what makes the split cheap.
+
+`EARLY_FERT_OPPOSITE_SIGN` renamed to `PRIMARY_ACCELERATION` across scripts 148, 150 and 151, and the
+pipeline re-run: it reproduces identically (Tier B 10,589; 2,341 terms; 0 mechanism terms in the top
+40), so the rename is cosmetic to the computation, which is the right outcome. The old name encoded
+the framing the ruling supersedes — it is not the opposite sign of one hypothesis, it is the primary
+cell of the second — and carrying it into extraction would have caused confusion later.
+
+**Also fixed:** the scope document's status line still read "A4 is next" after A4 had run. The A4
+commit's edit silently failed to apply because the replace string carried a line break the file did
+not. Corrected here.
+
+**New Call 6, open, referral to TICK-001 for v6, not blocking:** should the two mechanisms become
+separate entries (D.3.c.i, D.3.c.ii) in the hypothesis list? The ruling calls them different
+hypotheses, which is an argument that they should; the split is taken at synthesis for B.6's reason.
 

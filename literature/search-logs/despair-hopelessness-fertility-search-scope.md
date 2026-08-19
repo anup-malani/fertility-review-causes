@@ -5,11 +5,15 @@
 **Target phenomenon:** SDT only, and — as in B.7 — **a restricted sub-period within it**. See
 "Phenomenon scope".
 **Ticket:** TICK-069
-**Status:** **DRAFTED, NOT FROZEN** (Shravan, 2026-08-18). Ten walls and thirteen estimand cells
-specified. **Five calls are open for the PI, and two of them are load-bearing**: Call 1 (does the
-chapter rate a signed claim?) and Call 2 (does mechanism-silent reduced-form evidence count as
-evidence for this hypothesis at all?). Call 2 decides whether the primary evidence base is roughly
-two studies or roughly a thousand. **A3 is run** (2026-08-18): 19 anchors, 16 verified to live DOIs, 3 monographs kept keyed on title. A4 is next.
+**Status:** **DRAFTED, NOT FROZEN** (Shravan, 2026-08-18). Ten walls, fourteen estimand cells.
+**A3 and A4 are run.** A4 measured what this scope had only argued: Wall 1 is not enforceable
+lexically, and `despair` is a *negative* discriminator for the primary cell.
+
+**Calls 1 and 2 are DECIDED by the PI (2026-08-18).** Call 2: mechanism-silent reduced-form studies
+are extracted and reported, rated **indirect**, with GRADE certainty downgraded for indirectness
+rather than the studies excluded. Call 1: the deferral and acceleration mechanisms are **different
+hypotheses with different treatments**, and D.3.c produces **two chapters** — see "Chapter structure".
+Calls 3, 4 and 5 remain open; none of them blocks the search.
 
 Built on the B.6 (`microplastics-pfas-reproductive`) template, which inherits B.7's, B.5's, D.2.d's
 and D.3.b's. Five constraints carry forward as design decisions rather than being rediscovered: the
@@ -97,42 +101,99 @@ patients — stigma and hopelessness in Turkish women with infertility, hopeless
 during COVID, art therapy for subfertile women. Every one of those is childlessness *causing* despair.
 See Wall 5.
 
-## The sign is not given by the theory
+## The sign is not given by the theory, and the chapter split follows from that
 
-v5's entry states the claim one-directionally: despair → fertility deferred → fewer births. The
-reconnaissance shows this is a choice, not an implication, and that the opposite prediction has the
+v5's entry states the claim one-directionally: despair -> childbearing deferred -> fewer births. The
+reconnaissance showed this is a choice, not an implication, and that the opposite prediction has the
 older and larger literature.
 
-A collapse of perceived future opportunity is the standard sociological explanation for **early,
-nonmarital childbearing** among the disadvantaged — the "nothing to lose" account, in which
-childbearing is not a costly long-term investment to be deferred but an available and immediate source
-of meaning, identity and adult status when the alternative life course has been foreclosed. The probes
-find this body intact:
+A collapse of perceived future opportunity is the standard explanation for **early, nonmarital
+childbearing** among the disadvantaged — childbearing not as a costly long-term investment to be
+deferred, but as an available and immediate source of meaning, identity and adult status once the
+alternative life course has been foreclosed. The probes find that body intact:
 
 - Kearney and Levine, *"Income Inequality and Early Nonmarital Childbearing"* (*Journal of Human
-  Resources*, 2014) resolves at 98 cites; the surrounding cluster returns **104**.
-- Edin and Kefalas, *Promises I Can Keep: Why Poor Women Put Motherhood before Marriage*, resolves at
-  1,238 cites.
-- "Socioeconomic Disadvantage as a Social Determinant of Teen Childbearing in the U.S." (239),
-  "Teen births, income inequality, and social capital" (*Health & Place*, 118), and — squarely on
-  D.3.c's own geography — "Opportunity, Community, and Reckless Lives: **Social Distress Among
-  Adolescents in West Virginia**" (1997).
-- The despair-vocabulary-and-teen-childbearing probe returns **912**; the narrower no-future-orientation
-  probe returns **30**; "children as a source of meaning under constrained futures" returns **486**.
+  Resources*, 2014, 98 cites), whose abstract reports "robust evidence that young low-SES women are
+  more likely to have a nonmarital birth when they live in places with larger lower-tail income
+  inequality" and proposes "a model of adolescent decision-making" to interpret it. The surrounding
+  cluster returns **104**.
+- Edin and Kefalas, *Promises I Can Keep: Why Poor Women Put Motherhood before Marriage* (1,238).
+- "Socioeconomic Disadvantage as a Social Determinant of Teen Childbearing in the U.S." (239), "Teen
+  births, income inequality, and social capital" (*Health & Place*, 118), and — squarely on D.3.c's
+  own geography — "Opportunity, Community, and Reckless Lives: **Social Distress Among Adolescents in
+  West Virginia**" (1997).
+- The despair-vocabulary-and-teen-childbearing probe returns **912**; the narrower
+  no-future-orientation probe **30**; "children as a source of meaning under constrained futures"
+  **486**.
 
-So the *same* antecedent — a foreclosed future in a declining place — is claimed by one literature to
-**lower** fertility and by another to **raise early** fertility. These are reconcilable: the
-mechanisms differ in whether children are modelled as an investment good (defer) or a meaning good
-(accelerate), and the outcomes differ in margin (completed quantum vs timing of first birth). But the
-reconciliation is a research finding this chapter must produce, not an assumption it may make.
+### What separates them — PI ruling, Call 1, 2026-08-18
 
-**Pre-committed consequence.** Every extracted estimate carries a `FERTILITY_MARGIN` tag —
-`QUANTUM_COMPLETED`, `PERIOD_RATE`, `TIMING_FIRST_BIRTH`, `INTENTION`, `NONMARITAL_SHARE` — and margins
-are **never pooled across the quantum/timing divide**. The opposite-sign studies are in the **primary
-synthesis**, not excluded to a discussion section. A chapter that searched for despair-lowers-fertility
-and reported only what it found would be answering a question it had rigged. This mirrors C.2.c's
-tenure-conditional sign, where the aggregate elasticity was found not to be a transportable parameter;
-here the aggregate sign is not even a well-posed quantity until the margin is fixed.
+The ruling is that these are **two hypotheses with two different treatments**, not one hypothesis with
+an ambiguous sign, and that D.3.c therefore produces two chapters.
+
+**The dividing axis is not tense.** Both mechanisms are beliefs about the *future*. v5's own wording
+for the deferral claim is that "the subjective sense of having a viable future disappears", and
+Kearney and Levine's mechanism is a judgement about the *return to delaying*. A present-versus-future
+split would place v5's own claim on the acceleration side. What differs is **what the despair is
+about**, and so what it does to the value of waiting:
+
+| | **Deferral** | **Acceleration** |
+|---|---|---|
+| The despair is about | the **capacity to provide** for a child at an acceptable standard | the **return to postponing** a birth |
+| The child is modelled as | a long-term investment requiring a viable future | a source of meaning and adult status available now |
+| Treatment | chronic, expected-permanent place-level economic decline | low perceived individual economic opportunity; lower-tail inequality |
+| Fertility outcome | completed quantum; period rates | timing of first birth; teen and nonmarital share |
+| Canon | Case and Deaton; Cherlin; the deindustrialisation literature | Kearney and Levine; Edin and Kefalas; Wilson |
+| Predicted sign | fertility **falls** | early fertility **rises** |
+
+Both can hold at once, in one community, of different women — which is exactly why a pooled estimate
+would describe neither. This is C.2.c's tenure-conditional finding one step further on: there the
+aggregate elasticity turned out not to be a transportable parameter; here the aggregate **sign** is
+not a well-posed quantity until the margin is fixed.
+
+## Chapter structure
+
+**D.3.c remains one hypothesis and one entry in `HYPOTHESES-v5.md`, and one ticket. It produces two
+chapters.** This follows B.6's resolution of the same shape, for the same reason: the taxonomy is
+TICK-001's to change, and renumbering the master list propagates into every in-flight branch's
+`HYPOTHESES-v5.md §X` references. Whether the two should become D.3.c.i and D.3.c.ii at v6 is carried
+to the PI as Call 6 below, in that reduced form.
+
+| | Chapter | Covers | Output |
+|---|---|---|---|
+| **1** | Despair and deferred childbearing | `CHAPTER = DEFERRAL` | `output/chapters/despair-hopelessness-fertility-deferral.md` |
+| **2** | Foreclosed futures and accelerated childbearing | `CHAPTER = ACCELERATION` | `output/chapters/despair-hopelessness-fertility-acceleration.md` |
+
+Both chapters open by naming `HYPOTHESES-v5.md §D.3.c` as their shared entry and stating that it is
+split at synthesis because it bundles two mechanisms with opposite predicted signs over different
+treatments and different outcome margins. Each carries a cross-reference to the other in the §6
+template's cross-reference slot; read together they are D.3.c's verdict.
+
+What this does and does not change:
+
+- **The search is one search.** Walls 1-10, the estimand cells, the cold-start channels, the anchor
+  set and the title/abstract screen are shared, and A3 and A4 were run over both mechanisms jointly.
+  Splitting the search would double the screening cost and produce two corpora that each have to
+  enforce the same ten walls.
+- **The split happens at extraction**, on the `CHAPTER` field — and, unlike Wall 1, **it is
+  enforceable at title and abstract.** The A4 enforceability table marks outcome margin as visible in
+  the summary, and margin is what the split runs on. The chapter's hardest wall is invisible to the
+  screen; its chapter split is not. That is a fortunate asymmetry and it is the reason this split is
+  cheap.
+- **Risk of bias, synthesis, demographic significance and GRADE all run twice**, once per chapter.
+  There is no bundled rating at any stage, and no pooled estimate across the split.
+- **PRISMA is one flow with a terminal split.** Identification, screening and eligibility are counted
+  once; the included-studies box divides in two, and both chapters report the shared upstream counts.
+  Two separate diagrams would misreport the screening denominator as if each mechanism had been
+  searched independently.
+- **Records that cannot be assigned a margin appear in both chapters and are pooled in neither**, and
+  are reported identically in each, so a reader of one is not misled about what was set aside.
+
+**Both chapters inherit the same evidence problem, and it is not symmetric between them.** The
+deferral chapter is the one whose mechanism is unmeasured in the literature that studies its
+treatment (n=12, none on topic). The acceleration chapter is in better shape: Kearney and Levine
+estimate their mechanism against their outcome directly. A reader of the pair should not come away
+thinking the two are equally evidenced, and neither chapter's GRADE rating may borrow from the other.
 
 ## Phenomenon scope
 
@@ -225,9 +286,13 @@ Hopelessness Scale study the probe surfaced is an infertility-distress study. **
 variable is on the left. Infertility or childlessness → distress is `REVERSE`. This wall is enforceable
 at abstract in most cases, because infertility-distress abstracts name a patient population.
 
-**Wall 6 — the sign and margin wall.** Set out above. Not a routing-out wall: opposite-sign studies are
-`EARLY_FERT_OPPOSITE_SIGN` and belong to the primary synthesis. The wall is against *pooling*, not
-against inclusion.
+**Wall 6 — the sign and margin wall. As of the Call 1 ruling this wall IS the chapter split**, and it
+is the only wall that partitions the output rather than routing records out. A record is assigned
+`CHAPTER = DEFERRAL` or `CHAPTER = ACCELERATION` on its outcome margin: completed quantum and period
+rates to the first, timing of first birth and teen or nonmarital share to the second. Neither chapter
+routes the other's records *out* — they go to the other chapter, which is a different disposition and
+must not be recorded as an exclusion in the PRISMA flow. **Enforceable at title and abstract**, which
+Wall 1 is not; see the enforceability table.
 
 **Wall 7 — the level-of-analysis wall (ecological inference).** Most candidate evidence is
 place-level: county despair indicators against county birth rates. A place-level association is
@@ -283,10 +348,11 @@ indicating a worse screen.
 
 | Cell | Treatment / variation | Fertility outcome | Routing |
 |---|---|---|---|
-| `PRIMARY_MEASURED_DESPAIR` | A measured despair / hopelessness / anomie / foreshortened-future construct | Fertility, intentions, or completed quantum | **Primary** |
-| `PRIMARY_DECLINE_WITH_MECHANISM` | Chronic place-level economic decline, with a despair-type mediator measured or tested | Fertility | **Primary** |
-| `SECONDARY_DECLINE_NO_MECHANISM` | Chronic place-level decline, mechanism asserted or absent | Fertility | Bridge — extracted, reported, cannot alone carry the verdict (Call 2) |
-| `EARLY_FERT_OPPOSITE_SIGN` | Foreclosed future / despair / limited opportunity | **Early**, teen or nonmarital childbearing — sign-opposite | **Primary**, never pooled across the margin divide |
+| `PRIMARY_MEASURED_DESPAIR` | A measured despair / hopelessness / anomie / foreshortened-future construct | Fertility, intentions, or completed quantum | **Primary — chapter 1** (chapter 2 if the outcome is a timing margin) |
+| `PRIMARY_DECLINE_WITH_MECHANISM` | Chronic place-level economic decline, with a despair-type mediator measured or tested | Fertility | **Primary — chapter 1** |
+| `SECONDARY_DECLINE_NO_MECHANISM` | Chronic place-level decline, mechanism asserted or absent | Fertility | **Extracted and reported, rated INDIRECT** (Call 2, decided). GRADE certainty is downgraded for indirectness; the studies are not excluded. Chapter assigned on margin |
+| `PRIMARY_ACCELERATION` | Foreclosed future, low perceived opportunity, lower-tail inequality | **Early**, teen or nonmarital childbearing | **Primary — chapter 2.** Renamed from `EARLY_FERT_OPPOSITE_SIGN` at the Call 1 ruling: it is not the opposite sign of one hypothesis, it is the primary cell of the second |
+| `MEANING_GOOD_QUALITATIVE` | Constrained futures; foreclosed alternative life course | Motherhood as identity, status or meaning — no fertility rate estimated | **Theory stream, chapter 2.** Edin and Kefalas sit here: the mechanism statement for chapter 2 is qualitative, exactly as chapter 1's is Case and Deaton's |
 | `TRANSITORY_SHOCK` | Recession, layoff or unemployment spell modelled as transitory | Fertility | Route to C.5.a; retained as the contrast case for chronicity |
 | `MARRIAGE_CHANNEL` | Decline or despair | Marriage / union formation only, no fertility outcome | Mechanism and context (Wall 10) |
 | `DESPAIR_MORTALITY` | Despair or decline | Mortality, suicide, overdose | Route out; **seedable** for forward citation |
@@ -376,37 +442,53 @@ failure is why it has not been found.
 
 ## Scope calls for the PI
 
-**Call 1 (load-bearing). Does this chapter rate a signed claim?** v5 states despair lowers fertility.
-The reconnaissance finds a larger and older literature in which foreclosed futures *raise* early and
-nonmarital childbearing. Options: (a) rate v5's claim as written, and report the opposite-sign
-evidence as evidence against it; (b) restate D.3.c as a *margin-conditional* claim — despair lowers
-completed quantum while accelerating first-birth timing — and rate that; (c) rate two sub-claims
-separately. **Recommendation: (b), falling back to (a).** (b) is what the evidence is actually shaped
-like, and it is the same move C.2.c made when the housing elasticity turned out to be
-tenure-conditional. This does not block the search; it blocks synthesis.
+**Call 1 — DECIDED 2026-08-18. Two chapters.** The deferral and acceleration mechanisms are different
+hypotheses with different treatments, and D.3.c produces two chapters rather than one signed verdict.
+The dividing axis is what the despair is *about* — the capacity to provide, versus the return to
+postponing — not the tense of the belief; both mechanisms are forward-looking, and a
+present-versus-future split would place v5's own claim on the acceleration side. Structure, PRISMA
+handling and the never-pool rule are in "Chapter structure" above. *(The options originally tabled
+were: (a) rate v5's claim as written and report the opposite-sign evidence against it; (b) restate as
+a single margin-conditional claim; (c) rate two sub-claims separately. The ruling is a fourth option
+and a stronger one: (b) would have kept one verdict over two treatments, which is the thing the
+evidence will not support.)*
 
-**Call 2 (load-bearing). Does mechanism-silent reduced-form evidence count as evidence for D.3.c?**
-The treatment–mechanism–outcome intersection is empty (n=12, none on topic). If mechanism-silent
-decline studies count, the evidence base is on the order of a thousand records and D.3.c is largely
-indistinguishable from C.5.a. If they do not, the primary base is the anomie family plus whatever
-retrieval adds — a handful of studies. **Recommendation: they are extracted and reported but rated as
-indirect, and the GRADE certainty is downgraded for indirectness rather than the studies being
-excluded.** This preserves the C.5.a/D.3.c distinction the hypothesis list draws.
+**Call 2 — DECIDED 2026-08-18. Extract, report, rate indirect.** Mechanism-silent reduced-form decline
+studies enter as `SECONDARY_DECLINE_NO_MECHANISM`, are extracted and reported, and are rated
+**indirect**, with GRADE certainty downgraded for indirectness rather than the studies excluded. This
+preserves the C.5.a/D.3.c distinction the hypothesis list draws instead of collapsing it, and it
+keeps the reduced-form body visible to a reader rather than dropped on a definitional point. A4
+strengthened the basis for the downgrade after the call was framed: the citation frame puts the
+joint despair-and-fertility density of the whole 10,769-record forward neighbourhood at **0.28%**, and
+the China Syndrome's 4,436 citing works contain **zero** such records.
 
-**Call 3. Sub-period and the demographic-significance ceiling.** Confirm that D.3.c is evaluated
-against the post-1999 (or post-2007) sub-period rather than the whole SDT, and that the share of the
-SDT decline predating the despair rise is reported as an explicit upper bound, as in B.7.
+**Call 3 — OPEN. Sub-period and the demographic-significance ceiling.** Confirm that D.3.c is
+evaluated against the post-1999 (or post-2007) sub-period rather than the whole SDT, and that the
+share of the SDT decline predating the despair rise is reported as an explicit upper bound, as in B.7.
+Now applies **per chapter**: the two have different exposure series and the acceleration chapter's
+ceiling is bounded by the teen and nonmarital share of births, not by total births.
 
-**Call 4. Referral to TICK-001, not a decision for this chapter and not blocking.** v5's D.3.c seminal
-list should cite Platt and Sterling's *Nature Mental Health* paper rather than the EurekAlert release.
-Separately, C.5.a's cross-reference field still labels despair "D.3.b"; D.3.b's scope flagged this in
-July and it is still unfixed.
+**Call 4 — OPEN, referral to TICK-001, not blocking.** v5's D.3.c seminal list should cite Platt and
+Sterling's *Nature Mental Health* paper rather than the EurekAlert release. Separately, C.5.a's
+cross-reference field still labels despair "D.3.b"; D.3.b's scope flagged this in July and it is still
+unfixed.
 
-**Call 5. Is the post-communist anomie evidence admissible for an American claim?** It is the only
-measured-mechanism evidence that exists. Admitting it makes the chapter's primary evidence a
-transportability argument; excluding it leaves the primary cell close to empty. **Recommendation:
-admit, tagged `CONTEXT_POSTCOMMUNIST`, and let the transportability weakness be visible in the GRADE
-indirectness domain rather than hidden by an exclusion.**
+**Call 5 — OPEN, and sharpened by A3 and A4. Is the post-communist anomie evidence admissible for an
+American claim?** It is the only measured-mechanism evidence that exists, and it belongs to chapter 1.
+A3 found all three `PRIMARY_MEASURED_DESPAIR` anchors are Bulgarian-Hungarian; A4 found that after the
+topic words, the strongest discriminators separating the primary neighbourhood from the walls are
+**place names** — `europe` (z 16.4), `hungary` (14.4), `poland` (11.5). The transportability problem
+is not only a synthesis question; it is visible inside the query. **Recommendation: admit, tagged
+`CONTEXT_POSTCOMMUNIST`, and let the weakness show in the GRADE indirectness domain rather than hide
+it behind an exclusion.** Note this call now bears almost entirely on chapter 1: chapter 2's canon is
+American.
+
+**Call 6 — NEW, referral to TICK-001 for v6, not blocking.** Should the two mechanisms become separate
+entries (D.3.c.i deferral, D.3.c.ii acceleration) in the hypothesis list? The Call 1 ruling calls them
+different hypotheses, which is an argument that they should. This chapter splits at synthesis rather
+than in the registry for B.6's reason: renumbering the master list propagates into every in-flight
+branch's `HYPOTHESES-v5.md §X` references, and the taxonomy is TICK-001's to change. The question is
+worth putting at v6 in that reduced form.
 
 ## A3 outcome (run 2026-08-18)
 

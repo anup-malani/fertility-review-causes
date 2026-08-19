@@ -1,6 +1,6 @@
 # A4 Tier A / Tier B citation frame — despair-hopelessness-fertility (D.3.c)
 
-**Tier A: 17 seeding anchors** (4 empirical primary-cell, the causal recall denominator). `SECONDARY_DECLINE_NO_MECHANISM` is deliberately excluded from that count: the scope commits it to a bridge cell that cannot carry the verdict, and counting it would make the denominator the reduced-form literature C.5.a has equal claim to. `EARLY_FERT_OPPOSITE_SIGN` IS counted — sign-opposite but primary, and excluding it would rebuild the cherry-pick Wall 6 exists to prevent.
+**Tier A: 17 seeding anchors** (4 empirical primary-cell, the causal recall denominator). `SECONDARY_DECLINE_NO_MECHANISM` is deliberately excluded from that count: the scope commits it to a bridge cell that cannot carry the verdict, and counting it would make the denominator the reduced-form literature C.5.a has equal claim to. `PRIMARY_ACCELERATION` IS counted — it is chapter 2's primary cell, and excluding it would rebuild the cherry-pick Wall 6 exists to prevent.
 
 **Tier B frame: 10,589 deduplicated records** — 856 found by more than one seed, 7,140 carrying an abstract (67%).
 
@@ -25,7 +25,7 @@ All four fractions are SEED-SELECTION DIAGNOSTICS computed after retrieval. None
 | The Post-Communist Fertility Puzzle | `SECONDARY_DECLINE_NO_MECHANISM` | 70 | 141 | 141 | no | 70.9% | 0.7% | **0.7%** | 1 | 2.8% |
 | The Puzzle of Falling US Birth Rates since the Great Reces | `EXPOSURE_SERIES` | 9 | 139 | 139 | no | 61.9% | 3.6% | **2.2%** | 3 | 1.4% |
 | Promises I Can Keep: Why Poor Women Put Motherhood before  | `THEORY_DESPAIR` | 0 | 125 | 125 | no | 19.2% | 1.6% | **0.8%** | 1 | 0.0% |
-| Income Inequality and Early Nonmarital Childbearing | `EARLY_FERT_OPPOSITE_SIGN` | 47 | 98 | 98 | no | 44.9% | 3.1% | **0.0%** | 0 | 6.1% |
+| Income Inequality and Early Nonmarital Childbearing | `PRIMARY_ACCELERATION` | 47 | 98 | 98 | no | 44.9% | 3.1% | **0.0%** | 0 | 6.1% |
 | Deaths of Despair or Drug Problems? | `THEORY_DESPAIR` | 77 | 94 | 94 | no | 3.2% | 25.5% | **0.0%** | 0 | 51.1% |
 | Changes in Employment Uncertainty and the Fertility Intent | `OFF_UNCERT_C5a` | 85 | 88 | 88 | no | 85.2% | 2.3% | **2.3%** | 2 | 2.3% |
 | Failure to Realize Fertility Intentions: A Key Aspect of t | `PRIMARY_MEASURED_DESPAIR` | 67 | 73 | 73 | no | 75.3% | 2.7% | **2.7%** | 2 | 1.4% |
