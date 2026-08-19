@@ -583,17 +583,71 @@ One anchor recovery: Edin & Kefalas was seedable after all (`W4242866627`, a gen
 record of either exists — and the Wilson attempt returned Johnston & Lordan's unrelated 2014 book
 above anything of Wilson's, which is why the gate runs at this step too.
 
+## B1 outcome (run 2026-08-18)
+
+`152_d3c_cv_breadth.py` (10-fold CV over breadth) and `153_d3c_production_query.py` (compiled query
+and live pull sizing).
+
+**The two-block conjunction this pipeline normally produces is strictly dominated on this chapter.**
+It is not a recall-precision trade-off: at the CV-chosen breadth it retrieves 37 of 247 gold records
+against the outcome block's 247, *and* has lower precision on the frame (16.5% against 20.9%).
+Requiring a treatment term admits proportionally more of the decoy clouds than of the gold, because
+decline, inequality and uncertainty vocabulary saturates the neighbourhoods of Case & Deaton and the
+China Syndrome — seeds whose clouds carry no fertility quantity at all.
+
+The diagnosis is the same one A4 reached, now in retrieval terms:
+
+- Outcome-block misses at the chosen setting: **0**. The backbone is complete.
+- Treatment-block misses: **205 of 247 — 83% of primary-neighbourhood fertility papers name no
+  treatment or mechanism in their title at all.** Widening breadth does not help; the missing
+  information is not in the field being matched.
+- `MECHANISM`, the hypothesis's own construct, fires on **3** gold papers. `UNCERTAINTY_GENERIC` —
+  C.5.a's vocabulary — fires on **17**. The most productive treatment cluster available to this
+  chapter belongs to the neighbouring hypothesis.
+
+**The production query is therefore the outcome block alone, and all routing moves to the screen.**
+It carries the margin vocabulary for both chapters in its backbone, so neither is systematically
+dropped at retrieval and the chapter split stays an extraction decision.
+
+**Two ways to cut the pull were measured; one was taken.**
+
+| | effect on the pull | gold cost | applied |
+|---|---|---|---|
+| Polysemy trim (bare `tempo` 79,809 records / `parity` 39,631 / `natality` 37,677 replaced by phrase forms) | 546,674 -> **390,983**, −28% | **zero** (247/247 either way) | **yes** |
+| Publication-date floor at 1990 | a further −15% | 5 of 243 gold, 2.1% | **no** |
+
+The trim narrows on the **outcome** axis, removing strings that do not denote a fertility outcome in
+any chapter; that is a different operation from the mechanism-axis precision A4 ruled out, which is
+why it is free. The date floor was refused because the records it drops are exactly the ones the
+eligibility rule anticipated — Duncan and Hoffman (1990) and the early-1990s teen-childbearing
+literature that is chapter 2's canon. A date floor is a chapter-1 convenience paid for by chapter 2.
+
+**The deliverable is the screening load, not the query:**
+
+| operationalisation | live universe | frame records fired |
+|---|---|---|
+| `title.search` | **390,983** | 1,199 of 10,589 |
+| `title_and_abstract.search` | 1,894,348 | 1,601 of 10,589 |
+
+Measured counts, not extrapolations. Recommendation: run `title.search`, and treat the 68 known
+abstract-only records in the primary neighbourhood as a quantified gap to revisit after the first
+screening wave rather than paying 4.8x now to close part of it.
+
+**No recall figure from B1 should be quoted as evidence of query quality.** The gold is defined by a
+title outcome term and the query is a list of title outcome terms, so local recall is 100% by
+construction; it is reported only as a build assertion. The first honest recall estimate arrives after
+the screening wave, measured against a relevance determination that does not yet exist.
+
 ## Next step
 
-**B1 cross-validation is not the right next step, and A4 is why.** The production query is chosen on
-a recall-versus-budget frontier, and A4 has established that the vocabulary available to it cannot
-separate the primary cell from the walls. Fitting a query on this frame optimises retrieval of
-Central European fertility-intentions research. Two things should happen first:
+**C1, the production pull, at a size that needs a decision before it is run.** 390,983 records is the
+measured load, and it is large enough that the screening design — not the query — is now the binding
+constraint. Three things follow:
 
-1. **Calls 1 and 2 go to the PI now**, not after the query is built. Call 2 in particular — whether
-   mechanism-silent reduced-form evidence counts as evidence for D.3.c — now has a measurement behind
-   it rather than an argument, and if the answer is "no", the chapter's evidence base is the three
-   post-communist anchors and the query's job changes completely.
-2. **The screen, not the query, has to carry the routing.** The budget should shift from query
-   precision toward full-text screening capacity, because that is the only stage where Wall 1's
-   discriminator is visible.
+1. **The screen carries all routing.** Wall 1 is unenforceable lexically (A4) and the query attempts
+   none of it (B1), so the screen's rubric and its capacity are where this chapter's precision has to
+   come from. Budget should be allocated accordingly.
+2. **The chapter split is cheap and should stay at extraction.** It runs on outcome margin, which is
+   visible at title and abstract, and both chapters' margin vocabulary is in the backbone.
+3. **The abstract-only gap and the date floor are both recorded as revisitable**, with their costs
+   measured, so either can be reopened on evidence after the first screening wave.

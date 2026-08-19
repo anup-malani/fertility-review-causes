@@ -9,7 +9,7 @@
 
 ## Acceptance criteria
 - [x] 2. Search strategy and scope drafted — **drafted, not frozen**; 5 PI calls, 2 load-bearing
-- [ ] 3. Literature search and AI screening, both phases (§5.1) — **A3 and A4 done; B1 deferred pending Calls 1-2**
+- [ ] 3. Literature search and AI screening, both phases (§5.1) — **A3, A4, B1 done; C1 pull sized at 390,983**
 - [ ] 4. RA title/abstract review
 - [ ] 5. Full-text retrieval
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
@@ -247,4 +247,52 @@ to reopen it.
 Platt and Sterling's *Nature Mental Health* paper rather than the EurekAlert release, and C.5.a's
 cross-reference still labels despair "D.3.b". Both are edits to TICK-001's file and are not made from
 this branch.
+
+### 2026-08-18 — B1, cross-validation and production query
+
+**Run on the recommendation rather than the inherited rule**, at the PI's instruction. The inherited
+B1 picks breadth at the knee of the recall-versus-budget curve; this run maximises recall and moves
+routing to the screen, because A4 established that precision cannot be bought with vocabulary here.
+
+**Result: the two-block conjunction is strictly dominated, which is stronger than the recommendation
+assumed.** It is not a trade-off. At the CV-chosen breadth the conjunction retrieves 37 of 247 gold
+against the outcome block's 247, **and** has lower frame precision (16.5% vs 20.9%). Requiring a
+treatment term admits proportionally more decoy-cloud than gold, because decline, inequality and
+uncertainty vocabulary saturates the Case & Deaton and China Syndrome neighbourhoods — the seeds whose
+clouds carry no fertility quantity. Its only remaining effect is a smaller pile of the wrong records.
+
+Diagnosis, same as A4's but in retrieval terms: outcome-block misses **0** (the backbone is complete),
+treatment-block misses **205 of 247**. **83% of primary-neighbourhood fertility papers name no
+treatment or mechanism in their title.** `MECHANISM` fires on 3 gold papers; `UNCERTAINTY_GENERIC` —
+C.5.a's vocabulary — fires on 17.
+
+**Two pull-reduction options measured, one taken.** The polysemy trim (bare `tempo` = 79,809 records
+of music and physics, `parity` = 39,631, `natality` = 37,677, replaced by phrase forms) cuts the live
+universe 546,674 -> **390,983, −28%, at zero gold cost**. A 1990 date floor would cut a further ~15%
+but costs 5 of 243 gold, and the records it drops are precisely the ones the eligibility rule
+anticipated — Duncan & Hoffman (1990) and the early-1990s teen-childbearing literature that is
+chapter 2's canon. **Refused**: a date floor is a chapter-1 convenience paid for by chapter 2. The
+distinction that makes the trim legitimate and the floor not is the axis: the trim narrows on the
+OUTCOME axis, removing strings that do not denote the outcome in any chapter, which is a different
+operation from the mechanism-axis precision A4 ruled out.
+
+**Deliverable: `title.search` universe = 390,983; `title_and_abstract` = 1,894,348 (4.8x).** Measured,
+not extrapolated. Recommend the title pull, with the 68 known abstract-only primary-neighbourhood
+records recorded as a quantified gap to reopen after the first screening wave.
+
+**Two honesty guards written into the outputs.** (1) Local recall is 100% by construction — the gold
+is defined by a title outcome term and the query is a list of title outcome terms — so the table is
+labelled a **build assertion**, not a result, and the report states that the real recall figure cannot
+exist until a relevance determination is made. (2) The recall denominator is provenance-defined (Tier
+B reached by a primary anchor + carrying an outcome term), because A3's snowball-*relevant* set does
+not exist for this chapter; the consequence, that the outcome block's recall is uninformative and only
+the treatment block's is not, is stated where the number is quoted.
+
+**One self-inflicted error caught in the first CV run:** gold was defined on title+abstract while
+matching was title-only, which put records into the denominator that no title query could reach.
+Recall read 11.2% and the misses were dominated by the outcome block. Corrected to title-only, and
+the 68 excluded abstract-only records are now reported as the measured cost of the title-only
+convention rather than hidden inside a low recall number.
+
+Scripts 152 and 153. **C1 is the next stage and its size needs a decision before it runs.**
 
