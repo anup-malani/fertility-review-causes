@@ -214,3 +214,37 @@ not. Corrected here.
 separate entries (D.3.c.i, D.3.c.ii) in the hypothesis list? The ruling calls them different
 hypotheses, which is an argument that they should; the split is taken at synthesis for B.6's reason.
 
+### 2026-08-18 — PI ruling on Calls 3, 5 and 6
+
+**Call 3 — per chapter, as proposed.** The demographic-significance computation runs once per chapter,
+each against its own exposure series and its own denominator: total births and completed quantum for
+deferral, teen and nonmarital births for acceleration. Working through the implication surfaced a trap
+worth naming before stage 10: **an accelerating mechanism works against the decline the review is
+explaining**, so the two chapters' magnitudes are netted, never added. A verdict that summed them
+would double-count in the wrong direction. Carries a data dependency — `data/raw/` is empty, so the
+US TFR series needs its own retrieval step.
+
+**Call 5 — admissible, tagged.** The post-communist anomie evidence is admitted with
+`CONTEXT_POSTCOMMUNIST` on every affected estimate. The transportability weakness is scored in the
+GRADE indirectness domain, and no pooled estimate may mix tagged and untagged studies without
+reporting both separately. Excluding it would have left chapter 1's primary cell close to empty while
+making the chapter look better-evidenced than it is. Bears almost entirely on chapter 1; chapter 2's
+canon is American.
+
+The extraction schema now carries four mandatory tags rather than two — `CHAPTER`, `FERTILITY_MARGIN`,
+`LEVEL`, `CONTEXT_POSTCOMMUNIST` — each with its pooling consequence stated in the scope, so the rules
+are in the schema rather than in a reviewer's memory at synthesis.
+
+**Call 6 — no registry change.** Two chapters is the whole of the split; `HYPOTHESES-v5.md §D.3.c`
+stays one entry. This is the first time the registry question has been ANSWERED rather than deferred
+(B.6's equivalent is still standing for v6), so
+`decisions/2026-08-18-one-hypothesis-two-chapters.md` was updated: the default for the next bundle is
+split at synthesis, do not renumber. Recorded as a default rather than a bar — if a bundle's halves
+ever stop sharing a search, the case for two entries becomes a case for two tickets, and that is when
+to reopen it.
+
+**Call 4 is now the only open call**, and it is a citation-hygiene referral to TICK-001: v5 should cite
+Platt and Sterling's *Nature Mental Health* paper rather than the EurekAlert release, and C.5.a's
+cross-reference still labels despair "D.3.b". Both are edits to TICK-001's file and are not made from
+this branch.
+

@@ -3,6 +3,7 @@
 **Date:** 2026-08-18
 **Author:** Anup Malani (PI) ruling on D.3.c Call 1; drafted by Shravan + Claude Code session
 **Status:** Active — applies to any hypothesis whose entry bundles two mechanisms
+**Registry question:** answered `no` for D.3.c (Call 6, 2026-08-18); still standing for B.6
 **Review date:** at v6 of `HYPOTHESES.md`, when the registry question (below) is taken up
 
 ## Context
@@ -70,12 +71,22 @@ Concretely, and identically in both cases so far:
 
 ## Consequences
 
-**The registry question is deferred, deliberately and each time.** Whether the halves should become
-separate numbered entries is real, and the D.3.c ruling ("these seem like different hypotheses") is an
-argument that they should. It is not taken here because renumbering `HYPOTHESES.md` propagates into
-every in-flight branch's `HYPOTHESES-v5.md §X` reference, and the taxonomy belongs to TICK-001. Each
-split therefore carries a standing referral to the PI for v6, in reduced form: *should this entry
-become two?* B.6 carries one (Call 1); D.3.c carries one (Call 6).
+**The registry question has now been answered once, and the answer is no.** Whether the halves should
+become separate numbered entries is a real question, and the D.3.c ruling that these "seem like
+different hypotheses" is an argument that they should. Put to the PI as D.3.c's Call 6 on 2026-08-18,
+the answer was explicit: *no separate entries, just write two chapters.*
+
+That is the first time the question has been answered rather than parked — B.6's equivalent (its
+Call 1) is still standing for v6 — and it sets the default for the next bundle: **split at synthesis,
+and do not renumber the hypothesis list to follow.** The reasoning that made deferral attractive is
+also what makes "no" the right standing answer: renumbering `HYPOTHESES.md` propagates into every
+in-flight branch's `HYPOTHESES-v5.md §X` reference, the taxonomy belongs to TICK-001, and the split is
+a synthesis decision that can be made where synthesis happens. A chapter pair carries the finding; a
+registry entry is only bookkeeping about it.
+
+This is a default, not a bar. If a bundle's two halves ever diverge far enough that they stop sharing
+a search — different walls, different anchors, different screen — the case for two entries becomes a
+case for two *tickets*, and that is the point to reopen it.
 
 **Cost.** Roughly one extra chapter's worth of synthesis, risk-of-bias and GRADE work per split, and
 no extra search or screening cost. That ratio is what makes option 4 preferable to option 3.

@@ -13,7 +13,10 @@ lexically, and `despair` is a *negative* discriminator for the primary cell.
 are extracted and reported, rated **indirect**, with GRADE certainty downgraded for indirectness
 rather than the studies excluded. Call 1: the deferral and acceleration mechanisms are **different
 hypotheses with different treatments**, and D.3.c produces **two chapters** — see "Chapter structure".
-Calls 3, 4 and 5 remain open; none of them blocks the search.
+**Calls 3, 5 and 6 were also decided on 2026-08-18**: the significance computation runs per chapter;
+the post-communist evidence is admissible, tagged `CONTEXT_POSTCOMMUNIST`; and the two mechanisms stay
+one entry in the hypothesis list — two chapters is the whole of the split. **Call 4 alone remains
+open**, and it is a citation-hygiene referral to TICK-001 that blocks nothing.
 
 Built on the B.6 (`microplastics-pfas-reproductive`) template, which inherits B.7's, B.5's, D.2.d's
 and D.3.b's. Five constraints carry forward as design decisions rather than being rediscovered: the
@@ -207,8 +210,10 @@ the sharp American fertility case is the unexplained post-2007 decline. The SDT,
 it, opens around 1965. Most of the SDT therefore precedes the proposed cause entirely.
 
 **This is not a scope quibble; it is a ceiling on the demographic-significance verdict**, and it is the
-same arithmetic that in B.7 established that 67.6% of the SDT decline predated the exposure. The
-computation is specified here and executed at stage 10, not asserted now:
+same arithmetic that in B.7 established that 67.6% of the SDT decline predated the exposure.
+**Decided (Call 3, PI, 2026-08-18): the computation runs PER CHAPTER**, because the two chapters have
+different exposure series and different denominators. It is specified here and executed at stage 10,
+not asserted now:
 
 - Series required: US TFR 1965–present (HFD, with WPP as the cross-check), and a despair-exposure
   series — county-level deaths-of-despair mortality per Case and Deaton's construction, or a
@@ -220,16 +225,34 @@ computation is specified here and executed at stage 10, not asserted now:
   `studies.json`), so this stage requires a retrieval step of its own. It is flagged here so it is
   budgeted, not discovered at stage 10.
 
-A second ceiling is **population share**. The despair phenomenon is documented in a specific and
-minority segment — non-college, working-class, disproportionately rural and small-metro communities.
-Even a large effect within that segment is bounded in its contribution to national TFR by that
-segment's share of births. The significance computation runs on the segment share, never on the
+**Per-chapter denominators (Call 3).** The two ceilings are not the same number and must not be
+computed once and reused:
+
+| | Chapter 1 — deferral | Chapter 2 — acceleration |
+|---|---|---|
+| Exposure series | county-level deaths-of-despair mortality, or a subjective-future series with adequate depth | lower-tail inequality / perceived-opportunity measures at the local level |
+| Fertility denominator | total births; completed quantum | **teen and nonmarital births**, not total births |
+| Sign of the contribution | negative — explains part of the decline | **positive** — an accelerating mechanism works *against* the observed decline and must be netted, not added |
+
+The third row is the one most easily got wrong. Chapter 2's mechanism raises early fertility, so if it
+operates it partly *offsets* the SDT decline the review is explaining. A significance verdict that
+added both chapters' magnitudes would double-count in the wrong direction.
+
+A further ceiling on both is **population share**. The despair phenomenon is documented in a specific
+and minority segment — non-college, working-class, disproportionately rural and small-metro
+communities. Even a large effect within that segment is bounded in its contribution to national TFR by
+that segment's share of births. The significance computation runs on the segment share, never on the
 national population.
 
-**Geographic scope.** The claim as written is American. The reconnaissance finds the only
-measured-mechanism evidence in post-communist Eastern Europe. Whether that evidence is admissible as
-evidence *for* v5's claim is Call 5 — it is a transportability question, not a screening question, and
-it is put to the PI rather than settled by the screener.
+**Geographic scope. Decided (Call 5, PI, 2026-08-18): the post-communist evidence is admissible, and
+carries a `CONTEXT_POSTCOMMUNIST` tag.** The claim as written is American; the only measured-mechanism
+evidence is Bulgarian and Hungarian. Admitting it makes chapter 1's primary evidence a transportability
+argument, which is a weakness that now has to be *visible* rather than avoided: the tag is mandatory on
+every affected estimate, the GRADE **indirectness** domain is where the weakness is scored, and no
+pooled estimate may mix tagged and untagged studies without reporting both separately. Excluding the
+evidence would have left chapter 1's primary cell close to empty while making the chapter look
+better-evidenced than it is. The tag bears almost entirely on chapter 1 — chapter 2's canon is
+American.
 
 ## The ten boundary walls
 
@@ -366,8 +389,15 @@ indicating a worse screen.
 | `OFF_OTHER` | Non-D.3.c determinant with no sibling home | Fertility | Route out; no sibling queue |
 | `INSUFFICIENT_INFO` | Cannot be routed on the visible record | Unknown | Pairs only with `UNCERTAIN` |
 
-Every extracted estimate additionally carries `FERTILITY_MARGIN` (Wall 6) and `LEVEL` (Wall 7). Neither
-is a routing cell; both are mandatory, and pooling rules key off them.
+Every extracted estimate additionally carries four mandatory tags, none of them a routing cell, and the
+pooling rules key off all four:
+
+| Tag | Values | Set by | Pooling consequence |
+|---|---|---|---|
+| `CHAPTER` | `DEFERRAL`, `ACCELERATION`, `UNASSIGNABLE` | outcome margin (Wall 6) | never pooled across the split; `UNASSIGNABLE` appears in both chapters and pools in neither |
+| `FERTILITY_MARGIN` | `QUANTUM_COMPLETED`, `PERIOD_RATE`, `TIMING_FIRST_BIRTH`, `INTENTION`, `NONMARITAL_SHARE` | outcome reported | never pooled across the quantum/timing divide |
+| `LEVEL` | `INDIVIDUAL`, `PLACE_ECOLOGICAL`, `MULTILEVEL` | unit of analysis (Wall 7) | place-level estimates are never presented as individual-level effects |
+| `CONTEXT_POSTCOMMUNIST` | boolean | study setting (Call 5) | tagged and untagged studies may be pooled only if both are also reported separately; scored in GRADE **indirectness** |
 
 ## Eligibility rules
 
@@ -462,33 +492,33 @@ strengthened the basis for the downgrade after the call was framed: the citation
 joint despair-and-fertility density of the whole 10,769-record forward neighbourhood at **0.28%**, and
 the China Syndrome's 4,436 citing works contain **zero** such records.
 
-**Call 3 — OPEN. Sub-period and the demographic-significance ceiling.** Confirm that D.3.c is
-evaluated against the post-1999 (or post-2007) sub-period rather than the whole SDT, and that the
-share of the SDT decline predating the despair rise is reported as an explicit upper bound, as in B.7.
-Now applies **per chapter**: the two have different exposure series and the acceleration chapter's
-ceiling is bounded by the teen and nonmarital share of births, not by total births.
+**Call 3 — DECIDED 2026-08-18. Per chapter.** The demographic-significance computation runs once per
+chapter, against its own exposure series and its own fertility denominator: total births and completed
+quantum for the deferral chapter, teen and nonmarital births for the acceleration chapter. The share of
+the SDT decline predating the despair rise is reported as an explicit upper bound before any effect
+size is applied, as in B.7. Detail and the per-chapter denominator table are in "Phenomenon scope".
+**The sign asymmetry is the trap to avoid**: an accelerating mechanism works *against* the decline the
+review is explaining, so the two chapters' magnitudes are netted, never added. This call carries a
+data dependency — `data/raw/` is empty, so the US TFR series needs a retrieval step of its own before
+stage 10.
 
-**Call 4 — OPEN, referral to TICK-001, not blocking.** v5's D.3.c seminal list should cite Platt and
-Sterling's *Nature Mental Health* paper rather than the EurekAlert release. Separately, C.5.a's
-cross-reference field still labels despair "D.3.b"; D.3.b's scope flagged this in July and it is still
-unfixed.
+**Call 4 — OPEN, referral to TICK-001, not blocking. The only call still open.** v5's D.3.c seminal
+list should cite Platt and Sterling's *Nature Mental Health* paper (10.1038/s44220-024-00241-1) rather
+than the EurekAlert release. Separately, C.5.a's cross-reference field still labels despair "D.3.b";
+D.3.b's scope flagged this in July and it is still unfixed. Both are edits to `HYPOTHESES-v5.md`, which
+is TICK-001's file, so they are not made from this branch.
 
-**Call 5 — OPEN, and sharpened by A3 and A4. Is the post-communist anomie evidence admissible for an
-American claim?** It is the only measured-mechanism evidence that exists, and it belongs to chapter 1.
-A3 found all three `PRIMARY_MEASURED_DESPAIR` anchors are Bulgarian-Hungarian; A4 found that after the
-topic words, the strongest discriminators separating the primary neighbourhood from the walls are
-**place names** — `europe` (z 16.4), `hungary` (14.4), `poland` (11.5). The transportability problem
-is not only a synthesis question; it is visible inside the query. **Recommendation: admit, tagged
-`CONTEXT_POSTCOMMUNIST`, and let the weakness show in the GRADE indirectness domain rather than hide
-it behind an exclusion.** Note this call now bears almost entirely on chapter 1: chapter 2's canon is
-American.
+**Call 5 — DECIDED 2026-08-18. Admissible, tagged.** The post-communist anomie evidence is admitted and
+carries `CONTEXT_POSTCOMMUNIST` on every affected estimate. The transportability weakness is scored in
+the GRADE **indirectness** domain and must stay visible: no pooled estimate may mix tagged and untagged
+studies without reporting both separately. Excluding it would have left chapter 1's primary cell close
+to empty while making the chapter look better-evidenced than it is. Bears almost entirely on chapter 1.
 
-**Call 6 — NEW, referral to TICK-001 for v6, not blocking.** Should the two mechanisms become separate
-entries (D.3.c.i deferral, D.3.c.ii acceleration) in the hypothesis list? The Call 1 ruling calls them
-different hypotheses, which is an argument that they should. This chapter splits at synthesis rather
-than in the registry for B.6's reason: renumbering the master list propagates into every in-flight
-branch's `HYPOTHESES-v5.md §X` references, and the taxonomy is TICK-001's to change. The question is
-worth putting at v6 in that reduced form.
+**Call 6 — DECIDED 2026-08-18. No registry change.** The two mechanisms stay one entry in
+`HYPOTHESES-v5.md §D.3.c`; two chapters is the whole of the split. This is the **first time the
+registry question has been answered rather than deferred** — B.6 left the equivalent question standing
+for v6 — and it settles the default: a bundle splits at synthesis, and the hypothesis list is not
+renumbered to follow it. Recorded in `decisions/2026-08-18-one-hypothesis-two-chapters.md`.
 
 ## A3 outcome (run 2026-08-18)
 
