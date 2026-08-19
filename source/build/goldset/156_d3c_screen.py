@@ -293,10 +293,11 @@ def main():
             sys.exit("collect needs a batch id")
         collect(a.batch_id)
     elif a.command == "stage1":
-        pull = os.path.join(LOGS, f"{SLUG}-c1-pull.json")
-        if not os.path.exists(pull):
-            sys.exit(f"C1 has not run — {pull} does not exist. The production pull comes first.")
-        recs = json.load(open(pull))
+        src = os.path.join(WORK, "stage1-input.jsonl")
+        if not os.path.exists(src):
+            sys.exit(f"{src} not found — run 158_ (the pull) then 159_ (D1 on the pull), which "
+                     f"writes the survivors here.")
+        recs = [json.loads(l) for l in open(src) if l.strip()]
         submit(recs[:a.limit] if a.limit else recs, stage=1)
     else:
         src = os.path.join(WORK, "stage1-survivors.json")

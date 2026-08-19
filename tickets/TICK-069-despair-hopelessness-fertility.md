@@ -9,7 +9,7 @@
 
 ## Acceptance criteria
 - [x] 2. Search strategy and scope drafted — **drafted, not frozen**; 5 PI calls, 2 load-bearing
-- [ ] 3. Literature search and AI screening, both phases (§5.1) — **A3, A4, B1 done; two-stage screen designed and costed at ~$134; C1 is the blocker**
+- [ ] 3. Literature search and AI screening, both phases (§5.1) — **A3, A4, B1 done; C1 partial (149,200/238,189, budget-truncated); screen staged and costed at ~$35; BLOCKED on an Anthropic credential**
 - [ ] 4. RA title/abstract review
 - [ ] 5. Full-text retrieval
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
@@ -398,4 +398,50 @@ body — the 1990s welfare-and-nonmarital-childbearing literature (Duncan & Hoff
 search. The PRISMA identification box must state the restriction; the demographic-significance section
 must not claim pre-2000 coverage; both chapters' limitations must carry the 16% loss and its
 composition. A reader cannot infer a date-and-type floor from a record count.
+
+### 2026-08-19 — screen staged on the partial pull; blocked on credentials
+
+Asked to screen the partial. **I cannot run it: this environment has no Anthropic credential** — no
+`ANTHROPIC_API_KEY`, no `ANTHROPIC_AUTH_TOKEN`, no `~/.config/anthropic` profile, no `ant` CLI, and
+the `anthropic` SDK is not installed. The `CLAUDE_CODE_*` variables present are this session's own
+harness plumbing, not an API key, and are not repurposed. Everything short of the API calls is done
+and the screen is one command behind a key.
+
+**D1 re-calibrated on real retrieval (`159_`), which `154_` said was owed.** `154_` picked its
+threshold on the Tier B citation frame and flagged that the frame is enriched, so its survivor share
+was an upper bound needing redoing against a real pull. Redone:
+
+| | frame (154_) | real pull (159_) |
+|---|---|---|
+| corpus | 10,575 | **149,200** |
+| survivors at lossless recall | 92.0% | **93.7%** |
+| gold recall | 100% | **100%** |
+
+D1 removes 6.3% of the real pull — even less than on the frame, and for the same reason it removed
+little there. It is a budget control that this chapter's corpus does not reward, and it is kept only
+because it costs nothing and its recall is measured rather than assumed.
+
+**Screening the partial costs ~$35** (139,866 D1 survivors, compressed schema, batched), against $37
+with no D1 filter at all.
+
+**A counting bug found and fixed in `159_`, worth recording because it flattered a decision.** The
+first version counted pull *records* whose title matched a gold key and reported **239** gold present
+against a gold set of 243 — which made the 2000+/type retrieval filter look nearly free. It is not:
+the index holds several records per work (preprint and published version, editions, reissues), so one
+gold work matches two or three pull records. The distinct count is **205-209**, and the filter's cost
+stands at roughly the 16% reported when it was chosen. A separate check confirmed the original figure:
+of the 39 gold predicted lost, **6 are recoverable through an alternate version** (a preprint's
+published article, a later edition) and 33 are genuinely absent.
+
+**Staged for execution.** `159_` writes `temp/d3c-screen/stage1-input.jsonl` (139,866 records) and
+`156_ stage1` now consumes it. With a key, the sequence is:
+
+    python source/build/goldset/156_d3c_screen.py calibrate     # ~$0.05, gates on 98% gold recall
+    python source/build/goldset/156_d3c_screen.py collect <id>
+    python source/build/goldset/156_d3c_screen.py stage1        # ~$18
+    python source/build/goldset/156_d3c_screen.py stage2        # ~$17
+
+**Reminder of what the partial is** (`{slug}-c1-manifest.md`): the high-relevance head, not a random
+62%. PRISMA identification must read 149,200 retrieved of 238,189 identified until the pull is
+resumed.
 
