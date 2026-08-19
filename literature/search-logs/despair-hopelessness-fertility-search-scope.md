@@ -638,16 +638,56 @@ title outcome term and the query is a list of title outcome terms, so local reca
 construction; it is reported only as a build assertion. The first honest recall estimate arrives after
 the screening wave, measured against a relevance determination that does not yet exist.
 
+## Phase D — the two-stage screen (designed and costed 2026-08-18)
+
+Built at the PI's instruction after B1 sized the pull at 390,983. Rubric frozen in
+`{slug}-screen-rubric.md`; cascade in `156_d3c_screen.py`; D1 in `154_`, cost model in `155_`.
+
+**D1, the free deterministic filter, cannot shrink this pull.** Calibrated against the gold at
+strictly-lossless recall it removes **8%**, and the recall-versus-budget curve has no usable knee:
+threshold 0 buys nothing (90.7% kept, 99.2% recall), threshold 1 costs **18% of the gold** for a 35%
+saving. The reason is now familiar — primary-neighbourhood papers largely do not carry mechanism or
+treatment vocabulary in their text. That is the same fact A4 found in the term ranking and B1 found in
+the conjunction, arriving a third time at record level. The paid stages therefore absorb essentially
+the whole pull (~360,000 records).
+
+**And that turns out not to matter, which is the finding.**
+
+| stage | model | records | cost |
+|---|---|---|---|
+| D1 deterministic | — | 390,983 → ~360,000 | free |
+| D2a recall-preserving | Haiku 4.5 | ~360,000 | **$70** |
+| D2b precision + extraction | Sonnet 5 | ~54,000 (15% assumed) | **$65** |
+| | | **total** | **~$134** |
+
+All figures include the Batch API's 50% discount; the rubric is byte-identical across requests and
+served from prompt cache at ~0.1x after the first. Even at a 40% D2a pass rate the total stays under
+a few hundred dollars. **Screening cost is not the constraint on this chapter** — which is worth
+stating plainly, because 390,983 records sounds like it should be. The binding constraints remain RA
+time on the uncertain band and the full-text retrieval step.
+
+**Two numbers carry deadlines or caveats.** Sonnet 5's introductory pricing ($2/$10 per MTok against
+$3/$15) ends **2026-08-31**, worth 33% of D2b — the only money-dependent deadline in this chapter.
+And the token counts behind every figure above are **estimated from measured characters, not counted**:
+this session had no Anthropic credential, so `count_tokens()` could not run. Re-measure before
+committing budget; `tiktoken` is not used anywhere and must not be.
+
+**The screen is gated on a measured recall figure, not on trust.** `156_d3c_screen.py calibrate` runs
+D2a over the 243 gold records that carry ids, for a few cents, and the full run does not start unless
+recall clears 98%. A D2a false negative is unrecoverable and invisible; that gate is the only thing
+standing between the design and a silent loss.
+
+Two rubric rules are load-bearing and were written against measured properties of this corpus: **a
+record is never rejected for lacking an abstract** (33% have none, and the missingness concentrates in
+the older sociological monographs and grey literature that are chapter 2's canon), and
+**`SECONDARY_DECLINE_NO_MECHANISM` is an inclusion** (Call 2), not a rejection.
+
 ## Next step
 
-**C1, the production pull, at a size that needs a decision before it is run.** 390,983 records is the
-measured load, and it is large enough that the screening design — not the query — is now the binding
-constraint. Three things follow:
+**C1, the production pull** — 390,983 records at 200/page is ~1,955 OpenAlex requests. It is the only
+remaining blocker: `156_d3c_screen.py stage1` refuses to run without it. Then calibrate, then screen.
 
-1. **The screen carries all routing.** Wall 1 is unenforceable lexically (A4) and the query attempts
-   none of it (B1), so the screen's rubric and its capacity are where this chapter's precision has to
-   come from. Budget should be allocated accordingly.
-2. **The chapter split is cheap and should stay at extraction.** It runs on outcome margin, which is
-   visible at title and abstract, and both chapters' margin vocabulary is in the backbone.
-3. **The abstract-only gap and the date floor are both recorded as revisitable**, with their costs
-   measured, so either can be reopened on evidence after the first screening wave.
+Before C1 runs, one thing is worth a decision rather than a default: the pull is stored as the input
+to a $134 screen, so it should be written once, keyed on OpenAlex id, and treated as immutable — a
+re-pull months later against a moving index would not reproduce it, and the PRISMA identification
+count has to name a date.

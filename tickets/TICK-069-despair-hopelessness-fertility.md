@@ -9,7 +9,7 @@
 
 ## Acceptance criteria
 - [x] 2. Search strategy and scope drafted — **drafted, not frozen**; 5 PI calls, 2 load-bearing
-- [ ] 3. Literature search and AI screening, both phases (§5.1) — **A3, A4, B1 done; C1 pull sized at 390,983**
+- [ ] 3. Literature search and AI screening, both phases (§5.1) — **A3, A4, B1 done; two-stage screen designed and costed at ~$134; C1 is the blocker**
 - [ ] 4. RA title/abstract review
 - [ ] 5. Full-text retrieval
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
@@ -295,4 +295,44 @@ the 68 excluded abstract-only records are now reported as the measured cost of t
 convention rather than hidden inside a low recall number.
 
 Scripts 152 and 153. **C1 is the next stage and its size needs a decision before it runs.**
+
+### 2026-08-18 — Phase D, two-stage screen designed and costed
+
+**D1 (`154_`) cannot shrink this pull.** At strictly-lossless gold recall it removes **8%**; the
+recall-versus-budget curve has no knee — threshold 0 buys nothing (90.7% kept / 99.2% recall) and
+threshold 1 costs **18% of the gold**. Primary-neighbourhood papers largely don't carry mechanism or
+treatment vocabulary, which is A4's term-ranking finding and B1's conjunction finding arriving a third
+time, now at record level. The paid stages absorb ~360,000 records.
+
+**And the cost turns out to be ~$134** (`155_`): D2a Haiku 4.5 over ~360k for **$70**, D2b Sonnet 5
+over ~54k survivors for **$65**, both on the Batch API's 50% discount with the rubric served from
+prompt cache. At a 40% D2a pass rate it is still under a few hundred. **Screening cost is not this
+chapter's constraint** — the 390,983 figure sounded like a budget problem and isn't one. RA time on
+the uncertain band and full-text retrieval remain the real limits.
+
+**Deadline worth naming:** Sonnet 5's introductory pricing ($2/$10 vs $3/$15 per MTok) ends
+**2026-08-31**, worth 33% of D2b.
+
+**Honest limit on the numbers.** This session had no Anthropic credential — no key, no `ant`, no SDK —
+so token counts are **estimated from exactly-measured characters**, not counted with
+`count_tokens()`. A sensitivity band is printed, the direction of error is stated (the 4.0 chars/token
+divisor under-counts, so it under-states cost), and `tiktoken` is not used anywhere. Re-measure before
+spending.
+
+**Deliverables.** Rubric frozen at `{slug}-screen-rubric.md` — read from disk by the harness so the
+text that ran is the text in version control, and byte-identical for caching. Harness `156_d3c_screen.py`:
+Batch API, structured outputs (no prose parsing), results keyed by `custom_id` never by position,
+resumable, thinking disabled on both stages as a stated cost decision.
+
+**The screen is gated on a measured number.** `calibrate` runs D2a over the 243 id-carrying gold
+records for a few cents; the full run does not start below 98% recall. A D2a false negative is
+unrecoverable and invisible — that gate is the only thing between this design and a silent loss.
+
+Two rubric rules written against measured corpus properties: **never reject a record for lacking an
+abstract** (33% have none, concentrated in the older monographs and grey literature that are chapter
+2's canon), and **`SECONDARY_DECLINE_NO_MECHANISM` is an inclusion** per Call 2.
+
+**C1 is now the only blocker** — `stage1` refuses to run without the pull.
+
+Scripts 154, 155, 156.
 
