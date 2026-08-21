@@ -1,5 +1,5 @@
 # TICK-070: A.12 Twinning Rates and Multiple Births
-**Status:** open
+**Status:** in-progress
 **Assigned:** Shravan
 **Hypothesis:** `twinning-multiple-births` — HYPOTHESES-v5.md §A.12
 **Parallel-safe:** yes
