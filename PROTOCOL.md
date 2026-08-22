@@ -135,6 +135,12 @@ After all chapters are signed off:
 
 ## 6. Chapter template
 
+> **See `docs/chapter-template.md` for the authoritative template.** It expands this section into three
+> worked layers — organizational structure, then statistics/economics/demography, then writing — and
+> fixes seven sentences that must appear in every chapter. The skeleton below remains the canonical
+> section list; the template document adds the commitments each section must make and the analysis each
+> must establish. `docs/chapter-writing-style-guide.md` governs prose.
+
 Every chapter has the same structure:
 
 ```

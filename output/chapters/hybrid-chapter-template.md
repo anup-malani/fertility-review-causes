@@ -1,3 +1,8 @@
+> **SUPERSEDED (2026-08-22).** The authoritative chapter template is `docs/chapter-template.md`, which
+> covers structure, required analysis and the seven mandatory sentences. This file is retained because
+> several drafted chapters were written against its section numbering; do not start a new chapter from
+> it.
+
 # Chapter [N]: [Hypothesis Name]
 
 **Category:** [Demographic / Economic / Biological / Cultural]  
