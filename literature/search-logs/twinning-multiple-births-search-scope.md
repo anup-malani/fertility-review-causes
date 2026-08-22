@@ -6,8 +6,14 @@
 sub-period** — see "v5's ART clause is time-inverted". The PM arm survives only in a reduced form —
 see "The PM arm is real but it belongs to A.8".
 **Ticket:** TICK-070
-**Status:** **DRAFTED, NOT FROZEN** (Shravan, 2026-08-20). Nine walls, ten estimand cells, five PI
-calls. The reconnaissance is run; the scope below is written against it rather than against memory.
+**Status:** **FROZEN** (Shravan, 2026-08-22). Nine walls, ten estimand cells. The reconnaissance is
+run; the scope below is written against it rather than against memory. Call 3 is decided (split at
+the margin, with the intensive margin declared unidentified — see below, and note that the ruling
+forced a re-cut of Wall 6). Calls 1 and 5 are adopted **as recommended, RA-provisional**, pending
+Anup: Call 1 is the conservative option, and Call 5 is made reversible at no cost by pulling the
+cross-population PM cluster and tagging it `SECONDARY_PM_VARIATION` rather than excluding it, so a
+reversal is a re-screen and never a re-search. Calls 2 and 4 remain open by design; they change what
+is extracted and reported, not what is retrieved.
 
 Built on the D.3.c (`despair-hopelessness-fertility`) template, which inherits B.6's, B.7's, B.5's,
 D.2.d's and D.3.b's. Six constraints carry forward as design decisions rather than being
@@ -132,6 +138,89 @@ written means rating a claim that is **period-dependent and, for the post-2010 p
 sign**. Following the D.3.c precedent, the chapter rates the claim as stated and reports the
 inversion, rather than quietly amending the registry entry — that is **PI call 4**.
 
+## Call 3 decided: split at the margin, and the intensive margin is not identified
+
+**Ruling (Shravan, 2026-08-22): split at the margin.** ART live births decompose as
+
+    ART live births  =  D_ART  x  (1 + m_ART)
+                        \_____/    \_______/
+                         A.17        A.12
+
+where `D_ART` is ART deliveries — pregnancies that would not otherwise have existed, which is exactly
+A.17's claim — and `m_ART` is the multiple-birth rate per ART delivery, which is what v5's A.12 clause
+is about. The decomposition is additively separable in logs, so the two chapters can each report a
+contribution and the two can be summed without double-counting. A.12 accordingly searches ART **only**
+for the multiplier, and routes ART uptake, access, cost, insurance mandates and per-cycle success
+rates to A.17.
+
+**The ruling comes with a caveat that the chapter must carry to its verdict: the intensive margin is
+not identified, and the split is an accounting split, not a causal one.** The identity above always
+holds. What does not follow is a counterfactual — "what TFR would have been without ART multiples"
+is not a well-posed ceteris-paribus perturbation of `m_ART`, for three reasons:
+
+- **`m_ART` is chosen, not assigned.** Embryo transfer number is a clinical and patient decision
+  responding to age, prognosis, prior failure, and cost — the same arguments that determine whether a
+  couple enters ART at all. `m` and `D` are jointly determined.
+- **The margins move each other.** Lowering `m` (eSET) raises the expected number of cycles per live
+  birth, which raises cost per birth and so moves `D`. A policy that acts on A.12's parameter changes
+  A.17's, and vice versa. Separable in accounting, coupled in the data-generating process.
+- **Almost no variation in `m` is exogenous.** The one exception is the eSET policy literature, which
+  is the whole of the chapter's identification for this arm — see the Wall 6 consequence below.
+
+Practically this means `SECONDARY_ART_MULTIPLES` yields a **measured share, not an estimated effect**,
+and its GRADE rating is downgraded for indirectness on identification grounds *independently of* the
+sign problem in the next section. The chapter should say so rather than report the share as though it
+were a causal contribution.
+
+**Consequence the ruling forces: Wall 6 has to be re-cut on outcome rather than on treatment.** As
+originally drafted, Wall 6 hard-excluded "clinical ART practice (transfer protocols, success rates)".
+Under the split, that would have discarded the eSET policy literature — which is the only
+quasi-experimental variation in `m_ART` that exists, and which Pison, Monden and Smits name directly
+as the cause of the post-2000 reversal ("changes in MAR policies and practices"). The wall would have
+excluded the chapter's own identification. The discriminator is therefore the **outcome**, not the
+treatment:
+
+| Transfer-protocol study reporting… | Disposition |
+|---|---|
+| population or registry **multiple-birth rate**, twinning rate, share of births | **include** → `SECONDARY_ART_MULTIPLES` |
+| per-cycle live-birth rate, cumulative pregnancy rate, OHSS, perinatal morbidity | exclude → `OFF_ART_CLINICAL` |
+
+An abstract almost always names its outcome, so unlike Wall 8 this wall stays enforceable at
+title/abstract. It is enforceable *because* it was re-cut; the treatment-based version was not a
+weaker wall but a wrong one.
+
+## The twinning rise is partly endogenous to the phenomenon it is claimed to offset
+
+This falls out of the same live check and is, on its own, a first-order problem for v5's clause.
+
+Pison, Monden and Smits (2015) do not merely date the trend — they **decompose** it, and the
+decomposition is in the abstract of record: the developed-country twinning rise has *two* sources,
+"delayed childbearing, as older women tend to have twins more frequently than younger ones, and the
+expansion of medically assisted reproduction", with **MAR about three times as important as delayed
+childbearing**.
+
+So roughly a quarter of the rise in twinning is the maternal-age composition shift. But postponement
+*is* the SDT mechanism that v5's clause says twinning offsets. That component is therefore not an
+independent force acting against postponement-driven decline; it is a mechanical consequence of
+postponement. A.12's SDT arm is, to that extent, a partial feedback of the phenomenon rather than an
+explanation of it — and feedback of a decline cannot be evidence against the decline's cause.
+
+The chapter must therefore split `SECONDARY_ART_MULTIPLES` from the age-composition component at
+extraction, and only the MAR component is even a candidate offset. Pison, Monden and Smits have
+already done this decomposition on civil-registration data, which makes it a stage-10 input rather
+than something the chapter must estimate.
+
+**And the magnitude is small enough to state now, subject to the developed-country series.** Monden,
+Smits and Pison (2021) report the global twin *delivery* rate rising from **9.1 to 12.0 per 1,000
+deliveries** between 1980–85 and 2010–15. Births per delivery therefore moved from about 1.0091 to
+about 1.0120 — a rise of roughly **0.29% in live births per delivery over four decades**, before any
+stopping offset and before netting out the endogenous age component. Against SDT TFR declines
+measured in tenths of a child this is between one and two percent of the phenomenon at the outside.
+This figure is **global and provisional**: the SDT arm needs the developed-country HMBD series, where
+both the level and the rise are larger, and stage 10 computes it there. It is recorded here because
+it sets the expected order of magnitude before any screening, and a screen that appears to find a
+large A.12 effect should be audited against it.
+
 ## The PM arm is real but it belongs to A.8
 
 Twinning cannot explain pre-modern fertility variation. Cross-population twinning-rate differences
@@ -192,8 +281,8 @@ terms. Non-discriminative anchors do not narrow a query; they hand it to whateve
 | 3 | Non-human fertility (veterinary, agronomy, soil) | **Yes** | hard exclude → `OFF_NONHUMAN` |
 | 4 | Twin *design* studies (A.18) | Partly | route → `OFF_TWINDESIGN`, forward-seed retained |
 | 5 | Perinatal/obstetric outcomes **of** being a multiple | **Yes** | exclude → `OFF_PERINATAL` |
-| 6 | Clinical ART practice (transfer protocols, success rates) | **Yes** | exclude → `OFF_ART_CLINICAL` |
-| 7 | ART's total fertility contribution (A.17) | Partly | route → PI call 3 |
+| 6 | Clinical ART practice — **cut on OUTCOME, not on treatment** (see Call 3) | **Yes** | per-cycle clinical outcome → exclude `OFF_ART_CLINICAL`; population multiple-birth-rate outcome → **include** `SECONDARY_ART_MULTIPLES` |
+| 7 | ART's contribution to *deliveries* (A.17) | Partly | route → A.17; A.12 keeps only the multiplier (Call 3) |
 | 8 | **First-stage offset estimates inside the twin-IV canon** | **NO — declared unenforceable** | route to full-text extraction |
 | 9 | Twinning as *outcome* (determinants: age, parity, ART, nutrition) | **Yes** | route → `EXPOSURE_SERIES`, not excluded |
 
@@ -253,22 +342,49 @@ are **not** evidence of absent literature. Pass 2 queries carry author surnames,
 matches titles only. They are a wording test, and their zeros mean the wording was wrong — which is
 the documented two-pass design, not a finding.
 
-## Open PI calls
+## PI calls — status
 
-1. **Is A.12 a hypothesis or an accounting correction?** Its mechanical arm cannot be wrong and its
-   behavioral arm is really a test of A.8. The options are a short chapter with a bounded
-   "demographically trivial" verdict, or demotion to a measurement-appendix note plus a methods input
-   to A.8. *Recommendation: keep the chapter.* The review promises a per-hypothesis verdict for every
-   enumerated hypothesis, and a precisely bounded negative is a deliverable, not a non-result.
-2. **Do twin-IV first stages count as included studies?** They estimate our parameter but report it
-   as a nuisance, and Wall 8 means they cannot be found by screening. *Recommendation: yes, routed to
-   full-text first-stage extraction* — this is where the chapter's identification actually lives.
-3. **Who owns ART multiples, A.12 or A.17?** They are a sub-channel of ART's total fertility
-   contribution and must not be counted twice.
+**Decided.**
+
+3. **Who owns ART multiples, A.12 or A.17?** **Split at the margin** (Shravan, 2026-08-22). A.17 owns
+   ART deliveries; A.12 owns only the multiplier on them. The ruling carries an explicit caveat that
+   the intensive margin is *not identified*, and it forced the Wall 6 re-cut. Both are written up
+   above and both must reach the chapter's verdict language.
+
+**Adopted as recommended, RA-provisional, pending Anup.** Neither gates the production run any longer,
+because neither can now cost a re-search.
+
+1. **Is A.12 a hypothesis or an accounting correction?** *Keep the chapter*, with a bounded
+   "demographically trivial" verdict. This is the conservative option: the review promises a
+   per-hypothesis verdict for every enumerated hypothesis, and a precisely bounded negative is a
+   deliverable. Overturning it later discards work; it never invalidates a search.
+5. **Does the PM arm survive?** *Reduce to a bounded arithmetic statement, and route Clark, Cummins
+   and Curtis (2020) to A.8 as a Tier-A anchor there.* Made reversible at no cost: the cross-population
+   PM cluster is **pulled and tagged** `SECONDARY_PM_VARIATION`, not excluded from the query. If Anup
+   restores the arm, the records are already in hand and the cost is a re-screen.
+
+**Open by design — they change what is extracted and reported, not what is retrieved, and are
+answered during the run.**
+
+2. **Do twin-IV first stages count as included studies?** *Recommendation: yes, routed to full-text
+   first-stage extraction.* Wall 8 means they cannot be found by screening at all, so the operational
+   commitment is made regardless; the open part is whether they are reported as included studies or as
+   a supplementary evidence table.
 4. **Rate v5's ART clause as written, or amend the registry?** *Recommendation: rate as written and
-   report the inversion*, following D.3.c.
-5. **Does the PM arm survive?** *Recommendation: reduce to a bounded arithmetic statement and route
-   Clark, Cummins and Curtis to A.8.*
+   report the inversion*, following D.3.c. Note this call is now heavier than when it was written: the
+   clause is not only time-inverted but rests on an unidentified intensive margin and is roughly
+   one-quarter composed of a feedback from postponement itself. Three separate defects, one clause.
 
-Calls 1, 3 and 5 change what gets searched and so should be answered before the production run.
-Calls 2 and 4 change what gets extracted and reported, and can be answered during the run.
+## What changed at freeze, and what it cost
+
+The freeze was not a formality — deciding Call 3 changed the retrieval set in two directions:
+
+- Wall 6 flipped from a hard exclusion to an outcome-conditional include, **adding** the eSET policy
+  literature (1,942 records on the reconnaissance probe, to be narrowed by the outcome discriminator).
+  Had the scope been frozen as drafted, the chapter would have excluded its own identification and
+  reported `SECONDARY_ART_MULTIPLES` as unidentifiable for want of a quasi-experiment that was
+  sitting inside the excluded cell.
+- Wall 7 narrowed: ART uptake, access, cost and success-rate literature now routes cleanly to A.17
+  instead of sitting in an undecided cell.
+
+Wall 8 remains the unenforceable one and is unaffected.
