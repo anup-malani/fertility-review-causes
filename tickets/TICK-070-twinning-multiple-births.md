@@ -123,3 +123,63 @@ One serendipitous on-topic find carried to A4 rather than discarded as a refusal
 twinning, surfaced by no reconnaissance probe.
 
 Next: A4 citation frame (Tier A/B), script 162.
+
+### 2026-08-22 — A4 Tier A/B citation frame (script 162)
+
+**25 Tier A seeds, Tier B 8,701 deduplicated records, 0 failed requests.** 1,029 records found by
+more than one seed; 63% carry an abstract. Report at
+`literature/search-logs/twinning-multiple-births-tier-ab-log.md`.
+
+**Wall 8's cost is now a number, not a sentence.** The recall denominator is reported two ways:
+**9 empirical anchors** (both offset cells — both estimate the estimand) against **3 screenable
+anchors** (`PRIMARY_OFFSET_STOPPING` alone). Recall(A) against 9 will look poor by construction
+because Wall 8 says twin-IV first stages are unreachable at title/abstract; against 3 it measures the
+screen. Both get reported, and the gap is the price of the unenforceable wall.
+
+**The homonym carve-out is confirmed on exact counts rather than a sample.** Rather than pull SHELX's
+87,673-record cloud to prove crystallography is not about fertility, each homonym seed carries a
+capped pull (for Tier B) plus an EXACT on-topic rate from two count-only queries. SHELX: **13 of
+87,673 = 0.0%**. TWIP steel: **0 of 1,810 = 0.0%**. The scope's one carve-out from the
+forward-seed-everything rule now rests on a measurement that carries no sampling bias. TWIP is the
+clean demonstration of lexical separability — `twin` fires at 30% (TWinning-Induced Plasticity) while
+`fert` fires at 0%.
+
+**Wall 3 is enforceable: the dairy seed's cloud is 90% detectable as non-human**, even though `fert`
+reads 35% because bare "fertility" means bovine fertility there. The two diagnostics together do the
+work that neither does alone.
+
+**Wall 6's re-cut looks enforceable, with one honest caveat.** `clin` separates the clinical cluster
+(Thurin 61%, McLernon 53%, Helmerhorst 54%) from the twin-IV canon (0.4-2.2%) and the demography
+seeds (13-25%) very cleanly, so outcome type IS visible at title/abstract. **But the INCLUDE-side
+anchor Reynolds 2003 also runs `clin` 51%** — so neighbourhood clinical density does not separate
+include from exclude. The discriminator is the individual paper's outcome, exactly as the wall is
+written, and the screen must not be allowed to shortcut it with a cloud-level prior.
+
+**A.18's cloud is thinner than "boundary case" suggested.** `OFF_TWINDESIGN` (Tropf 2017) runs
+`fert` 8.8%, `twin` 7.1%, `BOTH` 1.1% — against the standing decoy-cloud guidance's 29-88% on-topic
+range. Routing is unchanged (route, never exclude), but the A.12/A.18 boundary is thin, not busy.
+
+**Two silent defects in the inherited A4 code, found by running it.**
+
+1. **`_fold()` shattered names into characters** — `" ".join(c for c in x ...)` joins CHARACTERS, so
+   "Wilson" became "w i l s o n" and `_surname()` returned the last LETTER. The first-author gate was
+   comparing final letters and matched any two names ending the same. Audited across every branch:
+   the machinery was introduced at D.3.c (`150`) and **A.12 is its only other user**, so no other
+   chapter is affected. **But D.3.c's A4 log claims first-author disagreement is what refused
+   Johnston & Lordan on the Wilson probe, and its code could not have done that.** A live check finds
+   no such record in the citation head (Wilson's own records rank 1st, 2nd, 6th) and the only
+   bookish-typed record carries no authors — so the refusal came from the type filter and an empty
+   author list. **Flagged for D.3.c re-audit; deliberately not edited here.**
+2. **A comma in an OpenAlex FILTER value is fatal, and percent-encoding does not save it** — the edge
+   splits filters on commas after decoding, so `%2C` is undone before the split. It killed the
+   Martin, Hamilton & Osterman 2012 recovery on the first run. Per the refusals-are-not-zeros rule
+   that is UNCONFIRMED, not an unrecoverable anchor, so it was retried rather than recorded. A3
+   (`161`) is unaffected — it queries through `search=`, where commas are ordinary.
+
+**DOI-less seed recovery generalised beyond monographs, and it mattered.** The inherited code
+recovered only `is_book` anchors. A.12 has three DOI-less anchors and only one is a book. Recovering
+the other two added **Bronars & Grogger 1994** (370 forward records, `BOTH` 12.4%) — a twin-IV canon
+seed and, under Wall 8, the only reachable channel to `PRIMARY_OFFSET_FIRSTSTAGE` — and **Martin et
+al. 2012** (329 forward, `BOTH` 19.1%). Under the inherited code both would have vanished silently.
+
+Next: D1 rank and screening cutoff (script 163).
