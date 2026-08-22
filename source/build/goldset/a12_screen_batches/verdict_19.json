@@ -1,0 +1,388 @@
+{
+ "batch": 19,
+ "verdicts": [
+  {
+   "id": "W2144931102",
+   "verdict": "RELEVANT",
+   "cell": "EXPOSURE_SERIES",
+   "outcome_type": "twinning_rate",
+   "note": "STRONG: an AGE-PERIOD-COHORT decomposition of three decades of US twin deliveries. The only design in the exposure series that separates maternal-age composition from period effects formally, which is exactly the decomposition the endogeneity finding needs."
+  },
+  {
+   "id": "W2090147219",
+   "verdict": "RELEVANT",
+   "cell": "EXPOSURE_SERIES",
+   "outcome_type": "twinning_rate",
+   "note": "NO ABSTRACT; the DECREASE in triplet rates \u2014 higher-order multiples reversed earlier and harder than twins"
+  },
+  {
+   "id": "W2069493506",
+   "verdict": "RELEVANT",
+   "cell": "EXPOSURE_SERIES",
+   "outcome_type": "twinning_rate",
+   "note": "assesses the FREQUENCY of vanishing twins in assisted and spontaneous conceptions \u2014 a third record giving the conceived-minus-delivered gap a magnitude"
+  },
+  {
+   "id": "W2405566368",
+   "verdict": "RELEVANT",
+   "cell": "EXPOSURE_SERIES",
+   "outcome_type": "twinning_rate"
+  },
+  {
+   "id": "W1996885188",
+   "verdict": "RELEVANT",
+   "cell": "EXPOSURE_SERIES",
+   "outcome_type": "twinning_rate",
+   "note": "folate supplementation and twin pregnancy, in Epidemiology"
+  },
+  {
+   "id": "W2994456525",
+   "verdict": "RELEVANT",
+   "cell": "SECONDARY_PM_VARIATION",
+   "outcome_type": "twinning_rate",
+   "note": "Nigerian Twin and Sibling Registry update"
+  },
+  {
+   "id": "W2151460311",
+   "verdict": "RELEVANT",
+   "cell": "SECONDARY_ART_MULTIPLES",
+   "outcome_type": "population_births",
+   "note": "GLOBAL VARIATION IN eSET UPTAKE \u2014 the cross-country dispersion in the policy lever, which is what makes national comparisons like W2166284866 interpretable"
+  },
+  {
+   "id": "W2023954925",
+   "verdict": "RELEVANT",
+   "cell": "SECONDARY_ART_MULTIPLES",
+   "outcome_type": "per_cycle_clinical",
+   "note": "NEJM; CUMULATIVE live-birth rates 43.9% (SET) vs 51.1% (DET) \u2014 the fertility cost of eSET stated as a number"
+  },
+  {
+   "id": "W2106887960",
+   "verdict": "RELEVANT",
+   "cell": "SECONDARY_ART_MULTIPLES",
+   "outcome_type": "per_cycle_clinical",
+   "note": "RANDOMISED: two SET cycles vs one DET cycle"
+  },
+  {
+   "id": "W2044283443",
+   "verdict": "RELEVANT",
+   "cell": "SECONDARY_ART_MULTIPLES",
+   "outcome_type": "per_cycle_clinical",
+   "note": "BMJ RANDOMISED TRIAL whose stated objective is PREVENTION OF MULTIPLE PREGNANCIES, comparing IVF-SET, modified natural cycle and IUI \u2014 randomised evidence spanning both the IVF and non-IVF channels"
+  },
+  {
+   "id": "W2166016626",
+   "verdict": "RELEVANT",
+   "cell": "SECONDARY_ART_MULTIPLES",
+   "outcome_type": "per_cycle_clinical",
+   "note": "WALL 6 BOUNDARY; eSET with cryopreservation"
+  },
+  {
+   "id": "W2144398041",
+   "verdict": "RELEVANT",
+   "cell": "SECONDARY_ART_MULTIPLES",
+   "outcome_type": "per_cycle_clinical",
+   "note": "WALL 6 BOUNDARY; predictive modelling to reduce IVF twins"
+  },
+  {
+   "id": "W2901757194",
+   "verdict": "RELEVANT",
+   "cell": "SECONDARY_ART_MULTIPLES",
+   "outcome_type": "per_cycle_clinical",
+   "note": "WALL 6 BOUNDARY; NO ABSTRACT; prediction model minimising twin rate at preserved live birth rate"
+  },
+  {
+   "id": "W3009614660",
+   "verdict": "RELEVANT",
+   "cell": "SECONDARY_ART_MULTIPLES",
+   "outcome_type": "per_cycle_clinical",
+   "note": "WALL 6 BOUNDARY; frozen cycles"
+  },
+  {
+   "id": "W1978166820",
+   "verdict": "RELEVANT",
+   "cell": "SECONDARY_ART_MULTIPLES",
+   "outcome_type": "per_cycle_clinical",
+   "note": "WALL 6 BOUNDARY; age-related eSET vs double blastocyst"
+  },
+  {
+   "id": "W3125385675",
+   "verdict": "RELEVANT",
+   "cell": "SECONDARY_ART_MULTIPLES",
+   "outcome_type": "per_cycle_clinical",
+   "note": "WALL 6 BOUNDARY; expected embryo number"
+  },
+  {
+   "id": "W2083325501",
+   "verdict": "RELEVANT",
+   "cell": "SECONDARY_ART_MULTIPLES",
+   "outcome_type": "per_cycle_clinical",
+   "note": "WALL 6 BOUNDARY; cost of transferring one to five embryos"
+  },
+  {
+   "id": "W2974957092",
+   "verdict": "RELEVANT",
+   "cell": "SECONDARY_ART_MULTIPLES",
+   "outcome_type": "per_cycle_clinical",
+   "note": "WALL 6 BOUNDARY; health-technology assessment of IVF and multiple pregnancy"
+  },
+  {
+   "id": "W2013583398",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome",
+   "note": "methods paper on twins data in the social sciences, integrating causality, endowments and heritability \u2014 a fourth dense first-stage entry point"
+  },
+  {
+   "id": "W2129959615",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ART_CLINICAL",
+   "outcome_type": "other",
+   "note": "NO ABSTRACT; argues twin pregnancy is a DESIRABLE infertility outcome \u2014 the demand-side position eSET policy had to overcome"
+  },
+  {
+   "id": "W2297068852",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ART_CLINICAL",
+   "outcome_type": "other",
+   "note": "legal aspects of iatrogenic multiple pregnancy"
+  },
+  {
+   "id": "W2161023585",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ART_UPTAKE_A17",
+   "outcome_type": "other",
+   "note": "economics of ART costs \u2014 A.17"
+  },
+  {
+   "id": "W2162121991",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_TWINDESIGN",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2135526284",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_TWINDESIGN",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2409743931",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_TWINDESIGN",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W183592910",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_NONHUMAN",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2054449560",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_NONHUMAN",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W1519577650",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_NONHUMAN",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2158361871",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health",
+   "note": "outcome is SGA, but it is a fourth record measuring vanishing-twin frequency in IVF singletons"
+  },
+  {
+   "id": "W2119377494",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other",
+   "note": "ovarian cancer and parity"
+  },
+  {
+   "id": "W2953217257",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2106158938",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W4390778591",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2327562215",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2538285014",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W4413868480",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W4403931235",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W4385602067",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W7161178762",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2129630499",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2147169596",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2148786060",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W1984243446",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2148592421",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2124876274",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2886908632",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2009866643",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2410655064",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W1890198563",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2037644613",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W332894206",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W4214647132",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2031829743",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2034958876",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2189291813",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W119744528",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W4379742609",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W1561558667",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2277642856",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W4238335884",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  }
+ ]
+}

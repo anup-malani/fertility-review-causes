@@ -1,0 +1,382 @@
+{
+ "batch": 21,
+ "verdicts": [
+  {
+   "id": "W2465485514",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_HOMONYM_ENGINEERING",
+   "outcome_type": "other",
+   "note": "PHOTOPHYSICS HOMONYM again (see batch 20): Science; carbene-metal-amide OLEDs. Four such records now, across two batches \u2014 this is a real family, not a stray."
+  },
+  {
+   "id": "W1985774694",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_HOMONYM_ENGINEERING",
+   "outcome_type": "other",
+   "note": "PHOTOPHYSICS HOMONYM again (see batch 20): Dalton Transactions; Cu(I)-halide emitters. Four such records now, across two batches \u2014 this is a real family, not a stray."
+  },
+  {
+   "id": "W2761876179",
+   "verdict": "RELEVANT",
+   "cell": "EXPOSURE_SERIES",
+   "outcome_type": "twinning_rate",
+   "note": "seasonality in multiple maternities, with a note on the 19th-century statistical congresses that standardised twin registration \u2014 a provenance point for the historical series"
+  },
+  {
+   "id": "W2096430031",
+   "verdict": "RELEVANT",
+   "cell": "EXPOSURE_SERIES",
+   "outcome_type": "twinning_rate",
+   "note": "SIXTH vanishing-twin record and the sharpest: SET pregnancies 'practically lack vanishing twins'. So eSET changes not only delivered multiples but the conceived-to-delivered gap itself, which means the correction is not a fixed constant across the ART period."
+  },
+  {
+   "id": "W2110998764",
+   "verdict": "RELEVANT",
+   "cell": "SECONDARY_ART_MULTIPLES",
+   "outcome_type": "per_cycle_clinical",
+   "note": "WALL 6 BOUNDARY; the INeS randomised trial protocol, whose stated aim is prevention of multiple pregnancies"
+  },
+  {
+   "id": "W2117272461",
+   "verdict": "RELEVANT",
+   "cell": "SECONDARY_ART_MULTIPLES",
+   "outcome_type": "per_cycle_clinical",
+   "note": "WALL 6 BOUNDARY; economic evaluation of SET vs DET"
+  },
+  {
+   "id": "W2157704011",
+   "verdict": "RELEVANT",
+   "cell": "SECONDARY_ART_MULTIPLES",
+   "outcome_type": "per_cycle_clinical",
+   "note": "WALL 6 BOUNDARY; single blastocyst policy vs day-3 evaluation"
+  },
+  {
+   "id": "W2524874937",
+   "verdict": "RELEVANT",
+   "cell": "SECONDARY_ART_MULTIPLES",
+   "outcome_type": "per_cycle_clinical",
+   "note": "WALL 6 BOUNDARY; single vs double blastocyst, fresh and vitrified"
+  },
+  {
+   "id": "W2461879258",
+   "verdict": "RELEVANT",
+   "cell": "SECONDARY_ART_MULTIPLES",
+   "outcome_type": "per_cycle_clinical",
+   "note": "WALL 6 BOUNDARY; eSET advocacy review"
+  },
+  {
+   "id": "W3089397682",
+   "verdict": "RELEVANT",
+   "cell": "SECONDARY_ART_MULTIPLES",
+   "outcome_type": "per_cycle_clinical",
+   "note": "WALL 6 BOUNDARY; poor- plus good-quality embryo transfer"
+  },
+  {
+   "id": "W2887593873",
+   "verdict": "RELEVANT",
+   "cell": "SECONDARY_ART_MULTIPLES",
+   "outcome_type": "per_cycle_clinical",
+   "note": "WALL 6 BOUNDARY; two sequential eSETs vs one double transfer, cumulative outcomes"
+  },
+  {
+   "id": "W3041798772",
+   "verdict": "RELEVANT",
+   "cell": "SECONDARY_ART_MULTIPLES",
+   "outcome_type": "per_cycle_clinical",
+   "note": "WALL 6 BOUNDARY; cost-effectiveness in a NON-mandated insurance system"
+  },
+  {
+   "id": "W3025441596",
+   "verdict": "RELEVANT",
+   "cell": "SECONDARY_ART_MULTIPLES",
+   "outcome_type": "per_cycle_clinical",
+   "note": "WALL 6 BOUNDARY; double vs single blastocyst by morphological grade"
+  },
+  {
+   "id": "W2171480890",
+   "verdict": "RELEVANT",
+   "cell": "SECONDARY_ART_MULTIPLES",
+   "outcome_type": "per_cycle_clinical",
+   "note": "WALL 6 BOUNDARY; specialist attitudes to transfer number in Iran"
+  },
+  {
+   "id": "W2790819975",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ART_CLINICAL",
+   "outcome_type": "per_cycle_clinical",
+   "note": "IUI evidence review; the non-IVF channel but the outcome is treatment success"
+  },
+  {
+   "id": "W1977267614",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ART_CLINICAL",
+   "outcome_type": "per_cycle_clinical",
+   "note": "the 'standard of success' debate \u2014 whether a singleton live birth should be the ART endpoint. Context for why clinics moved to eSET, not evidence on the multiplier."
+  },
+  {
+   "id": "W2151618231",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ART_CLINICAL",
+   "outcome_type": "per_cycle_clinical",
+   "note": "the 'standard of success' debate \u2014 whether a singleton live birth should be the ART endpoint. Context for why clinics moved to eSET, not evidence on the multiplier."
+  },
+  {
+   "id": "W2731861498",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_TWINDESIGN",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2142812641",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_TWINDESIGN",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W4319985087",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_TWINDESIGN",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W4205130820",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_NONHUMAN",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W1983860868",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_NONHUMAN",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2134784325",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ART_UPTAKE_A17",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2794059319",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2093782512",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W4242627879",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W4243491664",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W3211012533",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2332112406",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2105396630",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2957665277",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2054870887",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2118109154",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W4241229800",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2013449018",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W3119453354",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W1627394630",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2598551832",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W3046039498",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2921271630",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2766549884",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W4254585644",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W7130651421",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W7168368979",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W3158846710",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2144618630",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W3010074630",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W3092422529",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2051429920",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W25059272",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W4313339808",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2756105252",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W4289878939",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W4400865998",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W4220773607",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2127080780",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2087316263",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W119999194",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W3213553667",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2283655619",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  }
+ ]
+}
