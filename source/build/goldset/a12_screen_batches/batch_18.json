@@ -1,0 +1,486 @@
+{
+ "batch": 18,
+ "n": 60,
+ "records": [
+  {
+   "id": "W2146269831",
+   "year": 2009,
+   "venue": "RePEc: Research Papers in Economics",
+   "type": "preprint",
+   "title": "The Causal Effect of Teen Motherhood on Worklessness",
+   "abstract": "Teen motherhood continues to be high in the US and the UK relative to most other western European countries. While recent research has clarified how effective policies to reduce teen motherhood might be (Kearney (2009)), there remains little evidence that quantifies the causal effects of teen motherhood on such mothers and their first born children. This paper provides estimates of the causal effect of teen motherhood on worklessness and does so by exploiting the availability of two sources of exogenous"
+  },
+  {
+   "id": "W2580410384",
+   "year": 2012,
+   "venue": "\ud55c\uad6d\uac1c\ubc1c\uc5f0\uad6c",
+   "type": "article",
+   "title": "The Effect of Private Tutoring Expenditures on Academic Performance: Evidence from Middle School Students in South Korea",
+   "abstract": "This paper examines the effect of private tutoring expenditures on academic performance of middle school students in South Korea, using data from \"Analysis of the Level of School Education and Its Actual condition: Middle School\". In the face of endogeneity of private tutoring expenditures, the paper employs an instrumental variable (IV) method and a nonparametric bounding method. Using both methods we show that the true effect of private tutoring on middle school students remains at most modest in Korea. The"
+  },
+  {
+   "id": "W1936493677",
+   "year": 2013,
+   "venue": "SSRN Electronic Journal",
+   "type": "preprint",
+   "title": "The Causal Effect of Parentss Schooling on Children's Schooling. A New Instrumental Variable Approach",
+   "abstract": ""
+  },
+  {
+   "id": "W4398160189",
+   "year": 2024,
+   "venue": "National Tax Journal",
+   "type": "article",
+   "title": "Seeking Professional Help: How Paid Preparers Decrease Tax Compliance",
+   "abstract": "Legal services, such as tax preparation, claim to help clients better comply with the law while maximizing their benefits. We test this claim using data from about 135,000 random audits conducted by the US Internal Revenue Service between 2006 and 2014. Supplementing this nationally representative cross section of data on tax compliance with an instrumental-variable approach, we find that tax preparers actually reduce compliance, increasing taxpayers\u2019 underreporting of income by roughly $3,900 per tax return. However, we find that volunteer"
+  },
+  {
+   "id": "W2113093842",
+   "year": 2008,
+   "venue": "RePEc: Research Papers in Economics",
+   "type": "preprint",
+   "title": "Wealth Constraints and Self-Employment: Evidence from Birth Order",
+   "abstract": "I revisit the question of whether entrepreneurs face liquidity constraints in business for-mation. The principle challenge is that wealth is correlated with unobserved ability, and adequate instruments are often difficult to identify. This paper uses the son\u2019s birth order as an instrument for household wealth. The instrument would likely not be useful in Western data, but it is in many non-Western cultures where primogeniture remains im-portant. I exploit the data available in the Korean Labor and Income Panel Study, and"
+  },
+  {
+   "id": "W243138874",
+   "year": 2012,
+   "venue": "",
+   "type": "article",
+   "title": "Using Instrumental Variables Properly to Account for Selection Effects.",
+   "abstract": "Selection bias is problematic when evaluating the effects of postsecondary interventions on college students, and can lead to biased estimates of program effects. While instrumental variables can be used to account for endogeneity due to self-selection, current practice requires that all five assumptions of instrumental variables be met in order to credibly estimate the causal effect of a program. Using the Pike et al. (2011) study of selection bias and learning communities as an example, the paper reviews these assumptions"
+  },
+  {
+   "id": "W2902756729",
+   "year": 2018,
+   "venue": "Annual Review of Statistics and Its Applicat",
+   "type": "article",
+   "title": "Handling Missing Data in Instrumental Variable Methods for Causal Inference",
+   "abstract": "It is very common in instrumental variable studies for there to be missing instrument data. For example, in the Wisconsin Longitudinal Study one can use genotype data as a Mendelian randomization-style instrument, but this information is often missing when subjects do not contribute saliva samples, or when the genotyping platform output is ambiguous. Here we review missing-at-random assumptions one can use to identify instrumental variable causal effects, and discuss various approaches for estimation and inference. We consider likelihood-based methods, regression"
+  },
+  {
+   "id": "W2201222184",
+   "year": 2017,
+   "venue": "",
+   "type": "report",
+   "title": "On the identification of structural linear functionals",
+   "abstract": "This paper asks which aspects of a structural Nonparametric Instrumental Variables Regression (NPIVR) can be identified well and which ones cannot. It contributes to answering this question by characterising the identified set of linear continuous functionals of the NPIVR under norm constraints. Each element of the identified set of NPIVR can be written as the sum of a common 'identifiable component' and an idiosyncratic 'unidentifiable component'. The identified set for any continuous linear functional is shown to be a closed"
+  },
+  {
+   "id": "W53825314",
+   "year": 2013,
+   "venue": "",
+   "type": "dissertation",
+   "title": "Partial identification of average treatment effects in program evaluation: Theory and applications",
+   "abstract": "of a dissertation at the University of Miami. Dissertation supervised by Professor Carlos A. Flores. No. of pages in text. (116) There has been a recent increase on research focusing on partial identification of average treatment effects in the program evaluation literature. In contrast with traditional point identification, partial identification approaches derive bounds on parameters of interest based on relatively weak assumptions. Thus, they deliver more credible results in empirical applications. This dissertation extends Instrumental Variable (IV) methods in the"
+  },
+  {
+   "id": "W4409217036",
+   "year": 2025,
+   "venue": "European Sociological Review",
+   "type": "article",
+   "title": "The intergenerational effect of educational expansion: evidence from a natural experiment in Spain",
+   "abstract": "Abstract This article explores the relationship between parental education and children\u2019s educational outcomes, addressing endogeneity challenges inherent in traditional cross-sectional analyses. Specifically, we investigate whether the increase in education within the parental generation, produced by the 1970 Spanish Educational Reform, led to improved educational attainments in the subsequent generation and whether it brought a reduction of the overall levels of educational inequality. Employing data from the Survey of Health, Ageing and Retirement in Europe (SHARE) and an instrumental variable design,"
+  },
+  {
+   "id": "W199340430",
+   "year": 2014,
+   "venue": "uO Research (University of Ottawa)",
+   "type": "article",
+   "title": "The Effect of Being an Only Child on Adolescent Mental Health: Evidence from the Chinese Family Panel Studies",
+   "abstract": "This study was undertaken to determine whether or not the negative relationship between being an only child and adolescent mental health that has been found in previous studies holds true in the Chinese context, using an instrumental variable technique to identify causality. I examined a total of 3,262 adolescents between the ages of 12 and 17 from 25 provinces in China using the China Family Panel Studies (CFPS). Mental health status was measured using the Center for Epidemiologic Studies Depression"
+  },
+  {
+   "id": "W171430343",
+   "year": 2013,
+   "venue": "RePEc: Research Papers in Economics",
+   "type": "preprint",
+   "title": "Girls' Education, Stipend Programs and their Effects on the Education of Younger Siblings",
+   "abstract": "This paper examines the link between the Female Secondary School Stipend Program in Bangladesh, its effects on schooling of girls, and the subsequent impact on the education of their younger siblings. The stipend program was introduced nationwide in 1994, and affected girls in rural areas who were of secondary school age (grades 6-10) in 1994 or later, but not boys of the same cohort. We examine the effect of educational attainment of older siblings on schooling outcomes of younger siblings."
+  },
+  {
+   "id": "W2627961566",
+   "year": 2017,
+   "venue": "Econstor (Econstor)",
+   "type": "report",
+   "title": "Son Biased Investments and Old Age Support",
+   "abstract": "Son biased investments are common in many Asian countries where sons are customarily responsible for providing old age support to parents. Using data from the China Health and Retirement Longitudinal Study, I find that parents invested nearly twice more in sons than in daughters in terms of college education spending and marriage gifts value. Conversely, parents received relatively higher marginal returns to investment from daughters than from sons in terms of living proximity, monetary and in-kind transfers, and help with"
+  },
+  {
+   "id": "W3211113340",
+   "year": 2021,
+   "venue": "The B E Journal of Economic Analysis & Polic",
+   "type": "article",
+   "title": "Do Siblings Reduce Children\u2019s Dietary Quality in China?",
+   "abstract": "Abstract Using data from the China Health and Nutrition Survey, we examine the effect of the number of siblings on dietary quality with a sample of 2\u201312-year-old children in China. We use instrumental variables to address the potential endogeneity of the number of siblings. We show that the effect of the number of siblings on children\u2019s dietary quality is significantly negative. Child dietary diversity score will decrease by 0.274 with one more siblings. In terms of children\u2019s nutrition, the intake"
+  },
+  {
+   "id": "W4306648498",
+   "year": 2022,
+   "venue": "National Bureau of Economic Research",
+   "type": "report",
+   "title": "Direct and indirect effects of vaccines: Evidence from COVID-19",
+   "abstract": "Vaccines influence the course of pandemics both directly, by protecting the vaccinated, and indirectly, by reducing transmission to the unvaccinated, a key externality. Estimating direct effects is challenging because of selective vaccine take-up; estimating indirect effects also poses difficulty as it requires exogenous variation in peer vaccination status. We overcome these challenges using unique microdata from Indiana together with a natural experiment. To identify direct effects, we use federal age-based vaccine eligibility rules by which seventh graders were eligible in"
+  },
+  {
+   "id": "W4304957328",
+   "year": 2022,
+   "venue": "Psychological Trauma Theory Research Practic",
+   "type": "article",
+   "title": "Opportunities and challenges in using instrumental variables to study causal effects in nonrandomized stress and trauma research.",
+   "abstract": "OBJECTIVE: Researchers are often interested in assessing the causal effect of an exposure on an outcome when randomization is not ethical or feasible. Estimating causal effects by controlling for confounders can be unconvincing because important potential confounders remain unmeasured. Study designs leveraging instrumental variables (IVs) offer alternatives to confounder-control methods but are rarely used in stress and trauma research. METHOD: We review the conceptual foundations and implementation of IV methods. We discuss strengths and limitations of IV approaches, contrasting with"
+  },
+  {
+   "id": "W4404112372",
+   "year": 2024,
+   "venue": "European Journal of Education",
+   "type": "article",
+   "title": "Parental Birth Order and the First Stage of Tracking Into Schools: Evidence From General Upper Secondary Educational Attainment in Finland",
+   "abstract": "ABSTRACT No previous study on the interrelation between parental birth order and offspring educational attainment has analysed the first stage of tracking into schools, which in many countries is highly selective of persons who aim for university studies. We do so and examine how parental birth order is associated with attainment of general upper secondary education in Finland. Three\u2010generational register data on the total population are used to assess how the probability of having the matriculation examination at age 20"
+  },
+  {
+   "id": "W2562147879",
+   "year": 2012,
+   "venue": "",
+   "type": "article",
+   "title": "Girls' Education, Stipend Programs and the Effects on Younger Siblings' Education *",
+   "abstract": "This paper examines the link between the female secondary school stipend program in Bangladesh, its effects on schooling of girls and the consequent impact on their younger siblings\u2019 education. The stipend program, introduced nationwide in 1994, affected girls in rural areas who were of secondary school age (grades 6-10) in 1994 or later, but not boys of the same cohort. We examine the effect of educational attainment of older siblings on schooling outcomes of younger siblings. We also examine the"
+  },
+  {
+   "id": "W3084949984",
+   "year": 2018,
+   "venue": "arXiv (Cornell University)",
+   "type": "preprint",
+   "title": "Estimation of treatment effects under endogeneous heteroskedasticity",
+   "abstract": "The empirical literature on program evaluation limits its scope almost exclusively to models where treatment effects are homogenous for observationally identical individuals. This paper considers a treatment effect model in which treatment effects may be heterogeneous, even among observationally identical individuals. Specifically, extending the classical instrumental variables (IV) model with an endogenous binary treatment and a binary instrument, we allow the heteroskedasticity of the error disturbance to also depend upon the treatment variable so that treatment has both mean and"
+  },
+  {
+   "id": "W4408503950",
+   "year": 2025,
+   "venue": "Journal of nonparametric statistics",
+   "type": "article",
+   "title": "Partial causal identification for right censored data with noncompliance",
+   "abstract": "Medical researchers are typically interested in determining the effect of an intervention on the survival time that can be right censored, and the censoring time is usually treated as independent of the survival time. However, the independent censoring assumption is untestable and might bias the inference if taken on faith. Furthermore, in observational studies or randomised experiments with noncompliance when unconfoundedness does not necessarily hold, causal effects might only be partially identified, e.g. using instrumental variables. In this paper, we"
+  },
+  {
+   "id": "W7167492408",
+   "year": 2026,
+   "venue": "African Journal of Economics and Sustainable",
+   "type": "article",
+   "title": "Effect of Household Size on Educational Outcomes in Tanzania: A Two-Stage Least Squares (2SLS) Approach",
+   "abstract": "Education achievement is considered the ultimate driver for socio-economic development for the role it plays in developing more human capital in the country. This study examined the effect of household size on education achievement among individuals living in rural and urban areas in Tanzania. The study employed data from the Tanzania National Bureau of Statistics, Household Survey 2020-2021, which consists of a total sample of 1,381 households across 30 regions. To avoid potential endogeneity bias that may exist when variables"
+  },
+  {
+   "id": "W2903857341",
+   "year": 2017,
+   "venue": "",
+   "type": "dissertation",
+   "title": "Essays on economics of education and public policy",
+   "abstract": "In Chapter 1, I study the effect of school absenteeism on secondary school students academic outcomes using the Chilean student strikes in 2011 as a source of exogenous variation. The strikes, led by university students but promptly joined by hundreds of thousands of secondary school students, triggered a significant drop in public secondary school attendance (a decline of about 15 percentage points in all four grades). Attendance returned to normal levels in 2012. Using the type of school that students"
+  },
+  {
+   "id": "W2964585241",
+   "year": 2019,
+   "venue": "",
+   "type": "dissertation",
+   "title": "Collective action for small-scale irrigation facilities in Northwest China",
+   "abstract": "Farmers' participative behaviour is an important step for initiating collective action. This study investigates why farmers, who have a positive attitude towards small-scale irrigation collective action, do not transform into real participative choices or who do not have the attitude, yet have real participative behaviour, i.e., the attitude-behaviour paradox. The instrumental variable Probit model is employed to investigate how social network heterogeneity and relative income position influence the farmers' attitude-behaviour paradox. The findings demonstrate that social network heterogeneity, measured in"
+  },
+  {
+   "id": "W4402391166",
+   "year": 2024,
+   "venue": "European Economic Review",
+   "type": "article",
+   "title": "Work from home and the racial gap in female wages",
+   "abstract": "This paper studies the racial female wage penalty to remote work in the U.S. Instrumental variable estimates yield wage penalties that reach 66.3 % for black women and 33.9 % for white women when hours worked at home increase to 5 per week. Promotion bias, task reassignment and lack of productive social interaction are the most likely mechanisms for the wage losses. The estimates provide rare evidence on the costs of physical distancing due to work from home, particularly for"
+  },
+  {
+   "id": "W4410078228",
+   "year": 2025,
+   "venue": "Journal of Public Economics",
+   "type": "article",
+   "title": "Gulags, crime, and elite violence: Origins and consequences of the Russian mafia",
+   "abstract": "This paper studies the origins and consequences of the Russian mafia ( vory-v-zakone ). Using a unique web scraped dataset containing detailed biographies of more than 5,000 mafia leaders, I first show that the Russian mafia originated in the Soviet Gulag , and could be found near the camps\u2019 initial locations throughout the 1990s Russia. Then, using an instrumental variable approach that exploits the proximity of the Russian mafia to the camps, I show that Russian communities with mafia presence"
+  },
+  {
+   "id": "W4388657653",
+   "year": 2023,
+   "venue": "Computational Economics",
+   "type": "article",
+   "title": "The Finite Sample Performance of Instrumental Variable-Based Estimators of the Local Average Treatment Effect When Controlling for Covariates",
+   "abstract": "Abstract This paper investigates the finite sample performance of a range of parametric, semi-parametric, and non-parametric instrumental variable estimators when controlling for a fixed set of covariates to evaluate the local average treatment effect. Our simulation designs are based on empirical labor market data from the US and vary in several dimensions, including effect heterogeneity, instrument selectivity, instrument strength, outcome distribution, and sample size. Among the estimators and simulations considered, non-parametric estimation based on the random forest (a machine learner"
+  },
+  {
+   "id": "W2121341024",
+   "year": 2009,
+   "venue": "DukeSpace (Duke University)",
+   "type": "other",
+   "title": "Causal Inference and Understanding Causal Structure",
+   "abstract": "This thesis aims to show that explicit understanding of possible causal structures often aids in\\ninferring the true causes from data. This is done by first understanding that causes are chains\\nof counterfactual dependence. Insofar as experiments, active or natural are not perfect, data\\ncan easily support false counterfactuals. Even those tools especially designed to identify\\nunbiased estimates, like instrumental variables, often fail. Causal structure explains the\\nfailure of these tools, but more importantly allows us to better identify which counterfactuals\\nto reject or accept."
+  },
+  {
+   "id": "W2184062558",
+   "year": 2014,
+   "venue": "",
+   "type": "article",
+   "title": "Identifying Marginal Eects with Binary Instruments or by Regression Discontinuity",
+   "abstract": "This paper proposes a new strategy for the identication of marginal eects of an endogenous multi-valued variable (which can be continuous, or a vector) in a regression model with one binary instrumental variable. The model must be separable in the endogenous variable of interest. Identication is achieved by exploiting heterogeneity of the \\rst stage in covariates. The covariates themselves may be endogenous, and their endogeneity does not need to be modeled. With some modications, the identication strategy is extended to"
+  },
+  {
+   "id": "W2790850536",
+   "year": 2018,
+   "venue": "arXiv (Cornell University)",
+   "type": "preprint",
+   "title": "Consistent estimation of treatment effects under endogeneous heteroskedasticity",
+   "abstract": "The empirical literature on program evaluation limits its scope almost exclusively to models where treatment effects are homogenous for observationally identical individuals. This paper considers a treatment effect model in which treatment effects may be heterogeneous, even among observationally identical individuals. Specifically, extending the classical instrumental variables (IV) model with an endogenous binary treatment and a binary instrument, we allow the heteroskedasticity of the error disturbance to also depend upon the treatment variable so that treatment has both mean and"
+  },
+  {
+   "id": "W3206974534",
+   "year": 2019,
+   "venue": "arXiv (Cornell University)",
+   "type": "preprint",
+   "title": "Re-Evaluating Strengthened-IV Designs: Asymptotic Efficiency, Bias Formula, and the Validity and Power of Sensitivity Analyses",
+   "abstract": "Instrumental variables (IVs) are extensively used to estimate treatment effects when the treatment and outcome are confounded by unmeasured confounders; however, weak IVs are often encountered in empirical studies and may cause problems. Many studies have considered building a stronger IV from the original, possibly weak, IV in the design stage of a matched study at the cost of not using some of the samples in the analysis. It is widely accepted that strengthening an IV tends to render nonparametric"
+  },
+  {
+   "id": "W7128389632",
+   "year": 2026,
+   "venue": "Agricultural Economics",
+   "type": "article",
+   "title": "Access to Digital Extension Services and Crop Yield: Evidence From Paddy Cultivation in India",
+   "abstract": "ABSTRACT We examine the influence of information access on seasonal paddy yields in 10 selected Indian states using decade\u2010long (2009\u20132019) data from the Government of India's Kisan (farmers) call center (KCC) initiative. Based on 17 million farmers' queries at the KCC, we isolate two most frequent concerns\u2014one related to pest pressure and the other related to weather predictions. Leveraging these farmers' queries and crop yield\u2013related datasets at the district level, we assess the impacts of weather and paddy pest infestation"
+  },
+  {
+   "id": "W2952904845",
+   "year": 2017,
+   "venue": "International Journal of Epidemiology",
+   "type": "article",
+   "title": "Pleiotropy-robust Mendelian randomization",
+   "abstract": "Background: The potential of Mendelian randomization studies is rapidly expanding due to: (i) the growing power of genome-wide association study (GWAS) meta-analyses to detect genetic variants associated with several exposures; and (ii) the increasing availability of these genetic variants in large-scale surveys. However, without a proper biological understanding of the pleiotropic working of genetic variants, a fundamental assumption of Mendelian randomization (the exclusion restriction) can always be contested. Methods: We build upon and synthesize recent advances in the literature on"
+  },
+  {
+   "id": "W2317545487",
+   "year": 2012,
+   "venue": "Twin Research and Human Genetics",
+   "type": "article",
+   "title": "The Nigerian Twin and Sibling Registry",
+   "abstract": "Twin studies of Africans have been scarce although Africans have shown the highest twin birth rate in the world. As a parallel study of the South Korean Twin Registry, the Nigerian Twin and Sibling Registry (NTSR) was developed to understand causal influences on the development of cognitive abilities, personality, and mental health among Nigerians. Currently, 1,134 twins and 404 full- and half-siblings have been registered with NTSR. This article describes research background, goals, major recruitment strategies, measures, and future directions"
+  },
+  {
+   "id": "W48603926",
+   "year": 2012,
+   "venue": "Public Health Reports",
+   "type": "article",
+   "title": "Assessment of Assisted Reproductive Technology Use Questions: Pregnancy Risk Assessment Monitoring System Survey, 2004",
+   "abstract": "OBJECTIVE: Women who conceive with the assistance of fertility treatments are at increased risk for multiple-gestation pregnancies and accompanying adverse pregnancy outcomes. The Pregnancy Risk Assessment Monitoring System (PRAMS) can be used to assess outcomes associated with fertility treatments, but a previous study suggested that PRAMS questions about fertility treatments overestimated use of assisted reproductive technology (ART) by 2.6 times. These PRAMS ART questions were revised in 2004. We compared prevalence estimates based on revised questions with counts from the"
+  },
+  {
+   "id": "W2030930723",
+   "year": 2004,
+   "venue": "American Journal of Obstetrics and Gynecolog",
+   "type": "article",
+   "title": "Early mortality among triplets in the United States: Black-white disparity",
+   "abstract": ""
+  },
+  {
+   "id": "W2155917263",
+   "year": 2001,
+   "venue": "Biostatistics",
+   "type": "article",
+   "title": "Modelling multiple ovulation, fertilization, and embryo loss in human fertility studies",
+   "abstract": "Models of human fertility that incorporate information on timing of intercourse have assumed that a single ovum is released each menstrual cycle. These models are misspecified if two or more viable ova are sometimes released in a single cycle, which is known to occur in dizygotic twin pregnancies. In this paper, we propose a model for multiple ovulation in humans. We assume that the unobservable number of viable ova in each cycle follows a multinomial distribution. Successful fertilization of each"
+  },
+  {
+   "id": "W2023085787",
+   "year": 2014,
+   "venue": "Archives of Pediatrics and Adolescent Medici",
+   "type": "article",
+   "title": "Single vs Multiple Embryo Transfer",
+   "abstract": "The equivalent efficacy and superior safety of elective single embryo transfer (SET) compared with elective multiple embryo transfer (MET) after in vitro fertilization (IVF) has been established in recent medical literature. The transfer of a single high-quality embryo selected from a larger number of available embryos after IVF does not decrease implantationratescomparedwithMETanddecreases the rateof twins from 30% to between 1% and 2%.1 To reduce the complications associated with twin and higher-order multiple births\u2014including medical and delivery complications for mothers, infant"
+  },
+  {
+   "id": "W2608706651",
+   "year": 2020,
+   "venue": "Indian Journal of Child Health",
+   "type": "article",
+   "title": "Outcome in twin gestations: A prospective observational study",
+   "abstract": "Background: Incidence of twinning has increased due to the widespread use of assisted reproductive techniques. Twin gestation is associated with many maternal, fetal, and neonatal complications. Objective: The objective of the study is to study the fetal and neonatal complications and outcome of twin pregnancies. Materials and Methods: This is a prospective observational study conducted in a tertiary referral neonatal intensive care unit. 50 consecutive pairs of twins were recruited at the time of admission of the mother to the"
+  },
+  {
+   "id": "W2155092379",
+   "year": 2008,
+   "venue": "Cambridge University Press eBooks",
+   "type": "book-chapter",
+   "title": "Reducing the Risk of High-Order Multiple Pregnancy Due to Ovulation Induction",
+   "abstract": "Ovulation induction (OI) that is not part of an in vitro fertilization (IVF) cycle is the cause of 40-70 percent of high-order multiple pregnancies (HOMP), pregnancies with three or more conceptus, and 11-21 percent of twins, in countries where modern infertility treatment is practiced. Clomiphene Citrate (CC) increases follicular stimulation hormone (FSH) secretion from the pituitary by temporarily blocking the negative feedback of estrogen that is necessary to regulate production and secretion of FSH. Pulsatile gonadotropin-releasing hormone (GnRH) administered subcutaneously"
+  },
+  {
+   "id": "W4213184677",
+   "year": 2022,
+   "venue": "Clinical and Experimental Obstetrics & Gynec",
+   "type": "article",
+   "title": "Clinical data analysis of nine years of experience with twin pregnancy: a tertiary hospital-based retrospective study",
+   "abstract": "Background: The incidence of twin pregnancy has been increasing worldwide and in China. This study provided a comprehensive analysis of the clinical data of twins in a Chinese tertiary hospital and summarized the clinical characteristics. Methods: A retrospective collection of data was carried out for 717 cases of twins in the Obstetrics Department of the First Affiliated Hospital of Xi\u2019an Jiaotong University from 2011 to 2020. A comprehensive analysis of baseline information and maternal and perinatal outcomes was conducted, and"
+  },
+  {
+   "id": "W3081202292",
+   "year": 2009,
+   "venue": "",
+   "type": "book-chapter",
+   "title": "Estimation",
+   "abstract": "Such a shape appears in this chapter in the form of in-vitro fertilization (IVF), an iconic 20th century \u201ccreature\u201d of whose future existence the designers of the garments of probability distributions (specifically, the binomial distribution) were utterly oblivious a few centuries ago. Our surprise and delight do not end upon discovering just how well the binomial pdf model fits, as if custom-made for IVF analysis; there is the additional and completely unexpected bonus discovery that, with no modification or additional"
+  },
+  {
+   "id": "W4392788963",
+   "year": 2024,
+   "venue": "",
+   "type": "preprint",
+   "title": "Elective single versus double blastocyst-stage embryo transfer in women aged 36 years or older",
+   "abstract": "Objective: To evaluate if elective single-blastocyst transfer (eSBT) could be adopted in women aged 36 or older? Design: Retrospective cohort study. Setting: Reproductive medicine center at a tertiary hospital. Population: Women aged \u226536 years received IVF ovarian stimulation cycles and had \u2265 two blastocysts. Out of 429 women, 240 underwent eSBT and 189 double-blastocyst transfer (DBT) in the first transfer cycle. The subsequent frozen-thawed embryo transfer cycles were a combination of single- and double- blastocyst transfers. Methods: Analysis was stratified"
+  },
+  {
+   "id": "W4391397153",
+   "year": 2024,
+   "venue": "",
+   "type": "preprint",
+   "title": "Differences in the success of prenatal diagnosis of birth defects associated with singleton and multiple pregnancies: an observational study of more than 1.9 million births in Zhejiang Province, eastern China, during 2012\u20132018",
+   "abstract": "Objective: To characterize differences in the prenatal diagnosis of birth defects (BDs) associated with singleton and multiple pregnancies. Design: An observational study conducted using data from a BDs surveillance system. Setting: Eastern China. Population: A total of 54,572 babies with BDs, born in 90 hospitals located in 30 regions of Zhejiang Province between 2012 and 2018. Methods: BDs were diagnosed by obstetricians using ultra sonographic, genetic tests et al., on the basis of the ICD 10th Revision (Q00\u2013Q99). Main outcome"
+  },
+  {
+   "id": "W2115209300",
+   "year": 1986,
+   "venue": "American Journal of Medical Genetics",
+   "type": "article",
+   "title": "The female and the Fragile X. A study of 144 obligate female carriers",
+   "abstract": "In the present report we summarize our data on 144 obligate female carriers. The clinical and cytogenetic data are reviewed and discussed. In more than 30% of heterozygotes mental development is borderline to subnormal, and they may also present psychiatric disturbances of which psychotic behaviour is the most frequent. Partial phenotypic expression is present in 28% of the carriers, and is more frequent in the mentally subnormal. Repeated fragile X screening remains negative in more than 50% of the patients."
+  },
+  {
+   "id": "W2117094494",
+   "year": 2008,
+   "venue": "Human Reproduction",
+   "type": "article",
+   "title": "Mental health of mothers and fathers of twins conceived via assisted reproduction treatment: a 1-year prospective study",
+   "abstract": "BACKGROUND: Although twin deliveries after assisted reproduction treatment (ART) are common, the mental health of the parents has scarcely been addressed. Therefore, we evaluated the psychological well-being of ART and spontaneously conceiving parents of twins and singletons. Furthermore, the impact of parity and children's health-related factors on mental health was evaluated. METHODS: We conducted a prospective longitudinal questionnaire study among ART parents of 91 pairs of twins and of 367 singletons and on control parents of 20 pairs of twins"
+  },
+  {
+   "id": "W2089115113",
+   "year": 2006,
+   "venue": "Journal of Epidemiology",
+   "type": "article",
+   "title": "Factors Associated with Exclusive Breast-feeding in Japan: for Activities to Support Child-rearing with Breast-feeding",
+   "abstract": "BACKGROUND: Benefits of breast-feeding are not only limited to nutrition and sanitation in developing countries but also extend to cost-saving health care and alleviation of anxiety related to childrearing in developed countries. This study aims to elucidate factors associated with exclusive breast-feeding in Japan and use this information to achieve child-rearing support worldwide by promoting breast-feeding. METHODS: This cross-sectional study used data from a survey conducted by Ministry of Health, Labour and Welfare of the Japanese government, the First Longitudinal"
+  },
+  {
+   "id": "W2131169732",
+   "year": 2007,
+   "venue": "Proceedings of the National Academy of Scien",
+   "type": "article",
+   "title": "Male twins reduce fitness of female co-twins in humans",
+   "abstract": "In mammals, including humans, female fetuses that are exposed to testosterone from adjacent male fetuses in utero can have masculinized anatomy and behavior. However, the reproductive consequences of such prebirth sex-ratio effects for offspring and their implications for maternal fitness remain unexplored. Here we investigate the effects of being gestated with a male co-twin for daughter lifetime reproductive success, and the fitness consequences for mothers of producing mixed-sex twins in preindustrial (1734-1888) Finns. We show that daughters born with a"
+  },
+  {
+   "id": "W2010075964",
+   "year": 2013,
+   "venue": "Obstetrics and Gynecology",
+   "type": "article",
+   "title": "Decreasing Prematurity in Twin Gestations",
+   "abstract": "The twin birth rate has been steadily increasing in the United States over the past 10 years attributable in large part to the increased use of reproductive technologies. Despite advancements in the prevention of preterm labor for singletons, the overall rate of preterm birth has decreased only minimally. Several interventions to prevent preterm birth in twins have been studied, but none has proven effective. Inpatient bedrest has not been shown to be effective and can cause significant maternal morbidity. Although"
+  },
+  {
+   "id": "W2131351042",
+   "year": 2009,
+   "venue": "Acta Obstetricia Et Gynecologica Scandinavic",
+   "type": "article",
+   "title": "Cumulative delivery rate in an in vitro fertilization program with a single embryo transfer policy",
+   "abstract": "OBJECTIVE: To investigate the cumulative delivery rate for women completing three fresh embryo transfer cycles or giving birth after the first or second transfer cycle in an in vitro fertilization program with a single embryo transfer (SET) policy. SETTING: Privately run infertility clinic in southern Sweden (Sk\u00e5ne region). POPULATION: Four hundred fifty-three consecutive, unselected public patients beginning an ovum pick-up cycle between July 2002 and June 2004. METHOD: Retrospective, observational study. MAIN OUTCOME MEASURE: Cumulative delivery rates. RESULTS: Of 370"
+  },
+  {
+   "id": "W2071923694",
+   "year": 2008,
+   "venue": "Journal of Perinatology",
+   "type": "article",
+   "title": "Effect of parity on gestational age at delivery in multiple gestation pregnancies",
+   "abstract": ""
+  },
+  {
+   "id": "W2538418034",
+   "year": 2016,
+   "venue": "Journal of the International Neuropsychologi",
+   "type": "article",
+   "title": "Neuropsychological Functioning in Preterm-Born Twins and Singletons at Preschool Age",
+   "abstract": "OBJECTIVES: A limited body of research is available on the relationships between multiplicity of birth and neuropsychological functioning in preterm children who were conceived in the age of assisted reproductive technology and served by the modern neonatal intensive care unit. Our chief objective was to evaluate whether, after adjustment for sociodemographic factors and perinatal complications, twin birth accounted for a unique portion of developmental outcome variance in children born at-risk in the surfactant era. METHODS: We compared the neuropsychological functioning"
+  },
+  {
+   "id": "W2197344254",
+   "year": 2015,
+   "venue": "Obstetrics & Gynecology International Journa",
+   "type": "article",
+   "title": "Multifetal Pregnancy: Maternal and Neonatal Outcome",
+   "abstract": "Multiple pregnancy is simultaneous development of more than one fetus in uterus. Multifetal gestations also are associated with significantly higher maternal morbidity and associated health care costs. Women with multiple gestations are nearly 6 times more likely to be hospitalized with complications, including preeclampsia, preterm labor, preterm premature rupture of membranes, placental abruption, pyelonephritis, and postpartum hemorrhage. Aim and objectives: To find out incidence of multifetal pregnancies, and frequency of preterm births and low birth weight. To find out correlation"
+  },
+  {
+   "id": "W2092067038",
+   "year": 2008,
+   "venue": "Expert Review of Obstetrics & Gynecology",
+   "type": "article",
+   "title": "The vanishing twin: prevalence and consequences for outcome after assisted reproduction",
+   "abstract": "Since the first in vitro fertilization (IVF) baby was born in 1978, more than 1 million children have been born following assisted reproductive technology. During the 1990s, most European countries succeeded in reducing the incidence of triplet births; however, due to the double embryo transfer policy, twins still account for over 20% of the assisted reproductive technology children born. It is well known that the outcome of twins is poorer than for singletons; however, another consequence of double embryo transfer"
+  },
+  {
+   "id": "W4415996198",
+   "year": 2025,
+   "venue": "International Journal of Women s Health",
+   "type": "article",
+   "title": "Comparing Outcomes and Risks of Multiple Gestations: Assisted versus Spontaneous Conceptions",
+   "abstract": "Background: Multiple gestations are increasingly prevalent worldwide, largely due to the rising use of Assisted Reproductive Technology (ART). Compared with singleton pregnancies, they are associated with substantially higher maternal and neonatal risks, including preterm birth, pregnancy complications, and adverse neonatal outcomes. However, regional data are limited, particularly from Saudi Arabia, where cultural, demographic, and healthcare system factors may uniquely influence these outcomes. Addressing this gap is essential to improve obstetric care, support patient counseling, and inform region specific health policies."
+  },
+  {
+   "id": "W2088118637",
+   "year": 2014,
+   "venue": "Acta Universitatis Agriculturae et Silvicult",
+   "type": "article",
+   "title": "Analysis of pregnancy length in multiple births in Czech Fleckvieh and Holstein cattle",
+   "abstract": "V pr\u0102\u0104ci byly vyhodnoceny v\u0102\u00adce\u00c4\u008detn\u0102\u0160 porody (otelen\u0102\u00ad v letech 1992-2003) u \u00c4\u008desk\u0102\u0160ho strakat\u0102\u0160ho a hol\u0139\u0104t\u0102\u02ddnsk\u0102\u0160ho skotu. D\u0102\u0160lka b\u0139\u0099ezosti p\u0139\u0099i porodu dvoj\u00c4\u008dat nebo troj\u00c4\u008dat byla srovn\u0102\u0104v\u0102\u0104na s d\u0102\u0160lkou b\u0139\u0099ezosti, kter\u0102\u0104 prob\u0102\u00adhala u stejn\u0102\u0160 plemenice v p\u0139\u0099edch\u0102\u0104zej\u0102\u00adc\u0102\u00ad laktaci, kdy se narodilo jedno tele. Celkov\u0102\u02dd po\u00c4\u008det sledovan\u0102\u02ddch v\u0102\u00adce\u00c4\u008detn\u0102\u02ddch porod\u0139\u017b u obou plemen byl 686 p\u0139\u0099\u0102\u00adpad\u0139\u017b, z toho dvoj\u00c4\u008dat bylo 508 a troj\u00c4\u008dat 178. Matematicko-statistick\u0102\u0160 zpracov\u0102\u0104n\u0102\u00ad bylo provedeno vyu\u0139\u017eit\u0102\u00adm programu SPSS 15.0 - Windows, Release 15.0.0 (6 Sep 2006). U dosa\u0139\u017een\u0102\u02ddch v\u0102\u02ddsledk\u0139\u017b byl prok\u0102\u0104z\u0102\u0104n"
+  },
+  {
+   "id": "W3169939629",
+   "year": 2021,
+   "venue": "Journal of the Turkish-German Gynecological ",
+   "type": "article",
+   "title": "Effect of double embryo transfer derived from autologous frozen oocytes on multiple pregnancy rates and presentation of success rates stratified by age at retrieval",
+   "abstract": "Objective: To compare outcomes transferring one or two embryos in autologous frozen oocyte cycles. Material and Methods: A retrospective cohort study conducted at an academic fertility center between January 2012 and December 2018. One-hundred and fourteen patients underwent frozen oocyte transfers; 67 single embryo transfer (SET) and 47 double embryo transfer (DET). No subjects had more than two embryos transferred. Data were analyzed using t-test and chi-squared testing. Multivariate logistic regression was used to control for confounding effects. Power analysis"
+  },
+  {
+   "id": "W334025208",
+   "year": 2012,
+   "venue": "",
+   "type": "dissertation",
+   "title": "The Emotional Needs of Mothers of Multiple Birth Children",
+   "abstract": "The purpose of this study was to assess the emotional support needs of mothers of multiple birth children based on administration of a survey the researcher developed. The survey consisted of 25 demographic items, six 6-point Likert scale items, and three open-ended questions. Likert scale items were based on amount of perceived emotional support mothers received in their environments at the time of survey administration. Open-ended questions addressed negative and positive aspects of parenting multiples and emotional support needs. The"
+  },
+  {
+   "id": "W2062192253",
+   "year": 2014,
+   "venue": "Acta Universitatis Agriculturae et Silvicult",
+   "type": "article",
+   "title": "The influence of multiple births on subsequent production and reproduction traits in Holstein cattle",
+   "abstract": "C\u0102\u00adlem pr\u0102\u0104ce bylo vyhodnocen\u0102\u00ad vlivu narozen\u0102\u00ad dvoj\u00c4\u008dat na n\u0102\u0104sleduj\u0102\u00adc\u0102\u00ad produk\u00c4\u008dn\u0102\u00ad a reproduk\u00c4\u008dn\u0102\u00ad znaky u hol\u0139\u0104t\u0102\u02ddnsk\u0102\u0160ho skotu (H = 100 %). Vyhodnocen\u0102\u00ad bylo provedeno u d\u0102\u0160lky servis periody (od otelen\u0102\u00ad do zab\u0139\u0099eznut\u0102\u00ad; SP), ml\u0102\u0160\u00c4\u008dn\u0102\u0160 u\u0139\u017eitkovosti (kg ml\u0102\u0160ka; % tuku, b\u0102\u00adlkovin a lakt\u0102\u0142zy; kg tuku a b\u0102\u00adlkovin; po\u00c4\u008dtu somatick\u0102\u02ddch bun\u00c4\u009bk) a \u00c4\u008detnost n\u0102\u0104sledn\u0102\u0160ho vy\u0139\u0099azen\u0102\u00ad plemenic z chovu. Ml\u0102\u0160\u00c4\u008dn\u0102\u0104 u\u0139\u017eitkovost krav v laktaci po narozen\u0102\u00ad dvoj\u00c4\u008dat byla srovn\u0102\u0104v\u0102\u0104na s u\u0139\u017eitkovost\u0102\u00ad jejich vrstevnic, kter\u0102\u0160 m\u00c4\u009bly shodn\u0102\u0160ho otce, matku s podobnou plemennou hodnotou pro kg"
+  },
+  {
+   "id": "W1573086608",
+   "year": 1999,
+   "venue": "DigitalGeorgetown (Georgetown University Lib",
+   "type": "article",
+   "title": "Entwined Lives: Twins and What They Tell Us About Human Behavior",
+   "abstract": "Twins are nature's living laboratories. Through them we are able to uncover new information concerning the genetic and environmental factors affecting who we are. Studies using identical and fraternal twins hold the keys to understanding our intellectual abilities, personality traits, social attitudes, and behavior. In Entwined Lives, Dr. Nancy Segal brings together cutting-edge information with illustrative case histories of twins and their families. In addition to the fascinating stories of identical twins reared apart and reunited as adults, Dr. Segal"
+  },
+  {
+   "id": "W2304227435",
+   "year": 2015,
+   "venue": "New England Journal of Medicine",
+   "type": "article",
+   "title": "Letrozole, Gonadotropin, or Clomiphene for Unexplained Infertility",
+   "abstract": "BACKGROUND: The standard therapy for women with unexplained infertility is gonadotropin or clomiphene citrate. Ovarian stimulation with letrozole has been proposed to reduce multiple gestations while maintaining live birth rates. METHODS: We enrolled couples with unexplained infertility in a multicenter, randomized trial. Ovulatory women 18 to 40 years of age with at least one patent fallopian tube were randomly assigned to ovarian stimulation (up to four cycles) with gonadotropin (301 women), clomiphene (300), or letrozole (299). The primary outcome was"
+  }
+ ]
+}
