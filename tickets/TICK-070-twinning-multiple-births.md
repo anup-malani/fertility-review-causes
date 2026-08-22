@@ -11,7 +11,7 @@
 - [x] 2. Search strategy and scope **FROZEN** — `literature/search-logs/twinning-multiple-births-search-scope.md` (drafted 2026-08-20, frozen 2026-08-22). 9 walls, 10 estimand cells. Call 3 decided (split at the margin); calls 1 and 5 adopted as recommended, RA-provisional; calls 2 and 4 open by design and answered during the run.
 - [ ] 3. Literature search and AI screening, both phases (§5.1)
 - [x] 4. RA title/abstract review — D2 complete, 1,376 records, 23 batches (2026-08-22)
-- [ ] 5. Full-text retrieval
+- [x] 5. Full-text retrieval — **68 of 253 readable (27%)**; 185 on the library list, banded (2026-08-22)
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
 - [ ] 7. Extraction to `extraction/twinning-multiple-births.csv`, RA verifies a random 10%
 - [ ] 8. Risk-of-bias assessment per study
@@ -292,3 +292,54 @@ abstract belong to different papers.
 Next: stage 5 full-text retrieval, prioritised on the 14 stopping-offset records and the four dense
 first-stage entry points (Oxford handbook on twins methods in economics; Rosenzweig & Wolpin's JEL
 review; the J. Economic Surveys review; the twins-data methods paper).
+
+### 2026-08-22 — stage 5 retrieval (scripts 166, 167, 168, 169)
+
+**68 of 253 wantlist records readable (27%). 185 need a human with a library proxy.** The wantlist
+was selected by RULE from the screen output — not by hand — so it re-runs identically if the screen
+is revised.
+
+**A.12 IS RETRIEVAL-BOUND AFTER ALL, AND THE STANDING NOTE ON THIS CHAPTER NEEDS CORRECTING.** A.12
+was picked as the fastest remaining hypothesis because stage 10 runs on the public HMBD rather than on
+PDFs behind a proxy. That is still true — the demographic-significance computation is unaffected. But
+stage 7, extraction of the *offset* parameter, is bound exactly as B.1 was, and worse in the place it
+hurts most: **only 6 of the 14 causal-spine records are readable.** The cell that earns this chapter's
+GRADE credit, and whose members disagree with each other, sits at 43% coverage.
+
+**The four JOB B1 methods entry points are ALL still missing, and none was ever open.** They are the
+only efficient route into 223 first-stage candidates that Wall 8 makes invisible to screening. Four
+PDFs are worth more here than forty anywhere else on the list, and they are P1 on the procurement
+list for that reason.
+
+**The retrieval funnel, stated so the loss is visible at each step:**
+
+| step | n | note |
+|---|---|---|
+| wantlist | 253 | selected by rule from 1,376 screened |
+| OpenAlex says open | 142 | 56% |
+| fetched on the first pass | 54 | 38% of the nominally-open |
+| recovered by rung 2 | +14 | 9 alternate locations, 5 `citation_pdf_url` meta tags |
+| **readable** | **68** | **27% of the wantlist** |
+
+**84 of the 88 first-pass failures were HTML interstitials** — a 200 status returning a landing page
+instead of a PDF. Per the standing discipline those are BLOCKED ROUTES, not closed papers, which is
+why a recovery rung followed rather than a "not obtainable" bucket. The rung recovered 14.
+
+**Rung yields, recorded so the next chapter can order them by evidence rather than guess:**
+alternate OA locations 9, `citation_pdf_url` scrape 5, **PMC efetch 0**. B.6 built its recovery rung
+around PMC; on A.12's literature PMC returned nothing and the cheap `locations` sweep did the work.
+Rung order is chapter-dependent and should be measured, not inherited.
+
+**The procurement list is BANDED, and the banding is the product.** A flat list of 185 DOIs gets
+worked from the top and abandoned in the middle, which selects the evidence base by alphabetical
+accident. Bands: P0 causal spine (8) · P1 methods entry points (4) · P2 identity corrections (11) ·
+P3 ART-arm magnitude (52) · P4 residual (110). A partial run is expected; the instruction is to state
+the band reached, so the chapter can say exactly what it read and what it did not.
+
+**Deliberately not retrieved, and reported rather than dropped:** 145 first-stage candidates carrying
+the IV-design vocabulary but no twinning term (the honest cost of the Wall 8 bypass's breadth — the
+first-stage synthesis must say it did not read them); 82 routine per-cycle ART records; 182
+country-year twinning tabulations whose numbers come from the HMBD harmonised.
+
+Next: stage 6/7 — full-text screen and extraction on the 68 readable records, starting with the 6
+readable causal-spine studies, while the P0/P1 bands are procured.
