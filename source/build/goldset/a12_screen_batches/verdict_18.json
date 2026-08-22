@@ -1,0 +1,382 @@
+{
+ "batch": 18,
+ "verdicts": [
+  {
+   "id": "W2131169732",
+   "verdict": "RELEVANT",
+   "cell": "PRIMARY_OFFSET_STOPPING",
+   "outcome_type": "population_births",
+   "note": "THE EARLIER PNAS PAPER IN THE INTERGENERATIONAL CHANNEL (2007), preceding W2922591672 (2019). 'Male twins reduce fitness of female co-twins in humans.' The channel the frozen scope has no cell for is not a single recent finding \u2014 it has a twelve-year literature, and W4244451480 disputes it."
+  },
+  {
+   "id": "W2092067038",
+   "verdict": "RELEVANT",
+   "cell": "EXPOSURE_SERIES",
+   "outcome_type": "twinning_rate",
+   "note": "DIRECTLY ON THE IDENTITY CORRECTION: the PREVALENCE of the vanishing twin after assisted reproduction. With W2504444549 this gives the conceived-minus-delivered gap a measurable magnitude rather than a direction."
+  },
+  {
+   "id": "W2155917263",
+   "verdict": "RELEVANT",
+   "cell": "EXPOSURE_SERIES",
+   "outcome_type": "other",
+   "note": "Biostatistics: models MULTIPLE OVULATION, fertilization AND EMBRYO LOSS jointly in human fertility studies \u2014 the mechanical arm's biology in one estimable framework, and it spans the A.12 and B.5 boundary"
+  },
+  {
+   "id": "W2317545487",
+   "verdict": "RELEVANT",
+   "cell": "SECONDARY_PM_VARIATION",
+   "outcome_type": "twinning_rate",
+   "note": "the Nigerian Twin and Sibling Registry \u2014 infrastructure for the world's highest DZ rate"
+  },
+  {
+   "id": "W2304227435",
+   "verdict": "RELEVANT",
+   "cell": "SECONDARY_ART_MULTIPLES",
+   "outcome_type": "per_cycle_clinical",
+   "note": "NEJM RANDOMISED TRIAL of letrozole vs gonadotropin vs clomiphene, with MULTIPLE BIRTH as a reported outcome. Randomised evidence on the NON-IVF ovulation-induction channel, which registries do not capture."
+  },
+  {
+   "id": "W2155092379",
+   "verdict": "RELEVANT",
+   "cell": "SECONDARY_ART_MULTIPLES",
+   "outcome_type": "population_births",
+   "note": "QUANTIFIES THE NON-IVF SHARE: ovulation induction outside IVF causes 40-70% of high-order multiple pregnancies. eSET policy does not touch this channel at all, which bounds how much of the reversal transfer policy can explain."
+  },
+  {
+   "id": "W2023085787",
+   "verdict": "RELEVANT",
+   "cell": "SECONDARY_ART_MULTIPLES",
+   "outcome_type": "per_cycle_clinical",
+   "note": "WALL 6 BOUNDARY"
+  },
+  {
+   "id": "W4392788963",
+   "verdict": "RELEVANT",
+   "cell": "SECONDARY_ART_MULTIPLES",
+   "outcome_type": "per_cycle_clinical",
+   "note": "WALL 6 BOUNDARY; eSET at 36+"
+  },
+  {
+   "id": "W3169939629",
+   "verdict": "RELEVANT",
+   "cell": "SECONDARY_ART_MULTIPLES",
+   "outcome_type": "per_cycle_clinical",
+   "note": "WALL 6 BOUNDARY"
+  },
+  {
+   "id": "W2131351042",
+   "verdict": "RELEVANT",
+   "cell": "SECONDARY_ART_MULTIPLES",
+   "outcome_type": "per_cycle_clinical",
+   "note": "cumulative delivery rate under a SET policy \u2014 the fair way to score eSET's fertility cost"
+  },
+  {
+   "id": "W48603926",
+   "verdict": "RELEVANT",
+   "cell": "EXPOSURE_SERIES",
+   "outcome_type": "twinning_rate",
+   "note": "PRAMS survey measurement of ART use \u2014 how ART exposure is ascertained in population data"
+  },
+  {
+   "id": "W2115209300",
+   "verdict": "RELEVANT",
+   "cell": "EXPOSURE_SERIES",
+   "outcome_type": "twinning_rate",
+   "note": "obligate fragile-X female carriers; pairs with W2054114917 on fragile X as a twinning risk factor"
+  },
+  {
+   "id": "W2030930723",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2608706651",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W4213184677",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W4391397153",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2010075964",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2071923694",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2538418034",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2197344254",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W4415996198",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2089115113",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_PERINATAL",
+   "outcome_type": "perinatal_health"
+  },
+  {
+   "id": "W2088118637",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_NONHUMAN",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2062192253",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_NONHUMAN",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W1573086608",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_TWINDESIGN",
+   "outcome_type": "other",
+   "note": "Segal, 'Entwined Lives' \u2014 twins as a behavioural-genetics laboratory"
+  },
+  {
+   "id": "W2952904845",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_TWINDESIGN",
+   "outcome_type": "other",
+   "note": "Mendelian randomization methods"
+  },
+  {
+   "id": "W2117094494",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other",
+   "note": "parental mental health after a multiple birth \u2014 the cost channel again"
+  },
+  {
+   "id": "W334025208",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other",
+   "note": "parental mental health after a multiple birth \u2014 the cost channel again"
+  },
+  {
+   "id": "W3081202292",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other",
+   "note": "a chapter titled only 'Estimation' that mentions IVF in passing"
+  },
+  {
+   "id": "W2146269831",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2580410384",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W1936493677",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W4398160189",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2113093842",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W243138874",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2902756729",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2201222184",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W53825314",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W4409217036",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W199340430",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W171430343",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2627961566",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W3211113340",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W4306648498",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W4304957328",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W4404112372",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2562147879",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W3084949984",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W4408503950",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W7167492408",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2903857341",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2964585241",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W4402391166",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W4410078228",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W4388657653",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2121341024",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2184062558",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2790850536",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W3206974534",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W7128389632",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  }
+ ]
+}

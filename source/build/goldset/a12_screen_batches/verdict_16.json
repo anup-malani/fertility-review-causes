@@ -1,0 +1,375 @@
+{
+ "batch": 16,
+ "verdicts": [
+  {
+   "id": "W3124290921",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W2150113629",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W2169680657",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome",
+   "note": "external validity of the Angrist-Evans sibling-sex-composition LATE"
+  },
+  {
+   "id": "W1997817967",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W2009549340",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W569939965",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W2070304684",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W2792406760",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome",
+   "note": "an unusually clean framing of the natural-experiment logic, applied to tooth loss"
+  },
+  {
+   "id": "W4309759164",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W1508781765",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W3122988741",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W1521163302",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W1861202823",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W2107362348",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome",
+   "note": "birth SPACING as the outcome \u2014 spacing is the other half of the offset alongside stopping"
+  },
+  {
+   "id": "W1545292353",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome",
+   "note": "the Manila contraceptive ban as the fertility shock"
+  },
+  {
+   "id": "W1555754893",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W1575612552",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W1921674253",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W3015767862",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W656827371",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W1539737045",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W1541400054",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W1970740269",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W3049436547",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W4409872762",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W1521160425",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W1556321727",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome",
+   "note": "sex of the first two children as the instrument"
+  },
+  {
+   "id": "W2136182207",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W2123648096",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W2135344848",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "child_outcome",
+   "note": "a CONTAMINATED instrument (miscarriage) for teenage childbearing, not family size"
+  },
+  {
+   "id": "W2170879152",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W4388974865",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W2312911978",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W2127997130",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W2491418660",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W1555159605",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W3022880668",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W4385580191",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W220036769",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W2082918830",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W2050690699",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W1596719362",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W2144690121",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W3006521621",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W2152092498",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W2063246337",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W2268951129",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W7166297305",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W3123827175",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W2765192269",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W2108740101",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W2040828685",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W2098616837",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W3045211154",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W2118687986",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W2312507629",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W2577227262",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other",
+   "note": "Mostly Harmless Econometrics \u2014 a TEXTBOOK, reached as a backward citation from the twin-IV canon"
+  },
+  {
+   "id": "W3124658416",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other",
+   "note": "Angrist-Imbens-Rubin, the LATE framework itself \u2014 backward citation, not a study"
+  },
+  {
+   "id": "W2100673825",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other",
+   "note": "Altonji-Elder-Taber selection-on-observables \u2014 backward citation"
+  },
+  {
+   "id": "W2991118235",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_TWINDESIGN",
+   "outcome_type": "child_outcome",
+   "note": "returns to birthweight identified within twin pairs \u2014 twins as a control for endowments"
+  }
+ ]
+}

@@ -1,0 +1,378 @@
+{
+ "batch": 17,
+ "verdicts": [
+  {
+   "id": "W2982012180",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W4307286114",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W3171341207",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W4385494974",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W164521692",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W2802721816",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome",
+   "note": "NO ABSTRACT; population control policy beyond the QQ tradeoff"
+  },
+  {
+   "id": "W1487526705",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome",
+   "note": "heterogeneity in the QQ interaction under a discrete instrument"
+  },
+  {
+   "id": "W3173743435",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W4224243067",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome"
+  },
+  {
+   "id": "W2106721127",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome",
+   "note": "birth SPACING and sibling outcomes \u2014 spacing is the offset's other half"
+  },
+  {
+   "id": "W2990911608",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome",
+   "note": "a direct critique of the Angrist-Evans LATE design; bears on how any first stage from that family is read"
+  },
+  {
+   "id": "W1750754240",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome",
+   "note": "tests the VALIDITY of the sibling sex ratio instrument"
+  },
+  {
+   "id": "W2099091417",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome",
+   "note": "companion validity tests for the same instrument"
+  },
+  {
+   "id": "W2121234588",
+   "verdict": "UNCERTAIN",
+   "cell": "PRIMARY_OFFSET_FIRSTSTAGE_CANDIDATE",
+   "outcome_type": "child_outcome",
+   "note": "AER; uses BIOLOGICAL FERTILITY SHOCKS as the instrument \u2014 the closest non-twin analogue to A.12's own exposure"
+  },
+  {
+   "id": "W2218275594",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2939933091",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W4224986429",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2162002397",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W4313170288",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other",
+   "note": "Angrist & Kruger-style methods retrospective in Econometrica"
+  },
+  {
+   "id": "W2114564841",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W4404635283",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W1544053310",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W4392939706",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2338333697",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W3122930689",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W4385708908",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2165144879",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2104780889",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other",
+   "note": "Imbens & Angrist, the LATE theorem \u2014 a backward citation from the twin-IV canon, not a study"
+  },
+  {
+   "id": "W1989535774",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other",
+   "note": "Angrist & Krueger quarter-of-birth \u2014 the other founding IV application"
+  },
+  {
+   "id": "W4232505725",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2048261152",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2100225537",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2092123119",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2092362266",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W4399778068",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2274108955",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W4416809054",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other",
+   "note": "online real estate agencies \u2014 one of several records with NO fertility content at all, reached purely through the methods citations of the twin-IV canon"
+  },
+  {
+   "id": "W3123059484",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W611321302",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2151862405",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W1896383908",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2589527972",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2728829028",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2066624426",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W1589556010",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2122399161",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W4233442058",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2127397997",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2127365540",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W1521364856",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2138163563",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W3144308071",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other",
+   "note": "electric-vehicle chargers; same provenance as the real-estate record"
+  },
+  {
+   "id": "W1607792954",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W1561725320",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W3127868662",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2948397700",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W4294238253",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W2235915306",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  },
+  {
+   "id": "W4388519693",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other",
+   "note": "biofortified sweetpotato adoption; same provenance"
+  },
+  {
+   "id": "W2132156664",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "outcome_type": "other"
+  }
+ ]
+}
