@@ -10,7 +10,7 @@
 ## Acceptance criteria
 - [x] 2. Search strategy and scope **FROZEN** — `literature/search-logs/twinning-multiple-births-search-scope.md` (drafted 2026-08-20, frozen 2026-08-22). 9 walls, 10 estimand cells. Call 3 decided (split at the margin); calls 1 and 5 adopted as recommended, RA-provisional; calls 2 and 4 open by design and answered during the run.
 - [ ] 3. Literature search and AI screening, both phases (§5.1)
-- [ ] 4. RA title/abstract review
+- [x] 4. RA title/abstract review — D2 complete, 1,376 records, 23 batches (2026-08-22)
 - [ ] 5. Full-text retrieval
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
 - [ ] 7. Extraction to `extraction/twinning-multiple-births.csv`, RA verifies a random 10%
@@ -228,3 +228,67 @@ A.12's headline verdict is a bounded NEGATIVE, and a negative reached by not rea
 finding.
 
 Next: D2 semantic screen batches over the 1,376-record worklist (script 164).
+
+### 2026-08-22 — D2 title/abstract screen complete (scripts 164, 165)
+
+**1,376 records screened across 23 batches. 441 RELEVANT · 225 UNCERTAIN · 710 NOT_RELEVANT.**
+Coverage is asserted rather than assumed — every worklist record carries exactly one verdict and
+every verdict id is in the worklist. The check earned its keep immediately, catching a phantom id I
+introduced by a single-digit typo.
+
+**THE PRIMARY CELL IS FOUR TIMES THE ANCHOR SET, AND ITS MEMBERS DISAGREE.** The frozen scope named
+three stopping-offset studies. The screen finds **14**, and the additions are not marginal: a
+published comment on Robson & Smith in the same journal; a *Nature Communications* study finding the
+OPPOSITE sign in pre-industrial Europe; Swedish register childbearing patterns for mothers of twins;
+19th-century Dutch maternal life histories; a *JPE* paper whose outcome is time to next birth; and
+the Gambian natural-fertility fitness study. This is [[tier-a-anchors-are-studies]] again — reporting
+the anchor set as the evidence base would have understated the cell fourfold AND concealed that it is
+contested.
+
+**The mechanical arm overstates, for four independent reasons the identity does not carry.** All run
+the same direction, and this is structurally the B.5 `(1-p)` error in a new chapter:
+1. **Differential twin mortality** — twins are ~2.4% of births but ~12% of neonatal deaths in LDCs.
+2. **The vanishing twin** — SEVEN records; conceived multiples exceed delivered multiples. And
+   W2096430031 shows the correction is not even constant: SET pregnancies "practically lack vanishing
+   twins", so eSET changes the conceived-to-delivered gap itself.
+3. **Twin infanticide / cultural suppression** — bites hardest on the PM arm.
+4. **The intergenerational channel** — a male co-twin reduces the female co-twin's later fertility
+   (PNAS 2007 AND 2019; disputed by an Aberdeen null). **The scope has no cell for this. PI call.**
+
+**The ART arm is not the clean story v5 tells.** eSET has a counter-channel: two independent
+meta-analyses find ART raises MONOZYGOTIC twinning, which transferring one embryo does not close. A
+further meta-analysis finds SET reduces live birth rates, and an NEJM trial puts the cumulative cost
+at 43.9% vs 51.1%. And ovulation induction OUTSIDE IVF causes 40-70% of high-order multiples, a
+channel eSET does not touch at all — which bounds what transfer policy can explain.
+
+**Wall 6 verdict: enforceable, but only per-paper.** The screen's independent `outcome_type` agrees
+with D1's clinical term-hits on **85.0%** of records. Of 149 `SECONDARY_ART_MULTIPLES` records, 49
+carry a population/registry outcome (include side) and 100 a per-cycle clinical outcome — the genuine
+seam. The wall holds because a human read each abstract's outcome; every cloud-level or term-level
+shortcut fails, exactly as A4 predicted from Reynolds (50.8%) sitting level with Thurin (60.6%).
+
+**Bypass yields, and one of them barely earned its place:**
+
+| bypass | n | survived | yield |
+|---|---|---|---|
+| budget_top | 800 | 492 | 61.5% |
+| **Wall 8** | 212 | 93 | **43.9%** |
+| both-axes | 324 | 79 | 24.4% |
+| orthogonal (inherited) | 40 | 2 | **5.0%** |
+
+The chapter-specific Wall 8 bypass returned 44%; the INHERITED orthogonal bypass returned 5%. On this
+chapter the inherited bypass was nearly dead weight and the re-gated one carried the recall — worth
+recording, because the inherited bypass has been carried forward unexamined since B.5.
+
+**A homonym family the scope never enumerated: PHOTOPHYSICS.** Five records where "singlet" and
+"TRIPLET" are excited-state terms (OLED emitters in *Science*, Cu(I) and Re(I) complexes). No
+reconnaissance probe found it, and D1's `TWIN_CORE` scores "triplet" at 5. Cheap to reject, but
+Wall 2 should name it before the next run.
+
+**Two junk record classes:** PeerJ peer-review objects (nine for one paper, carrying the reviewed
+paper's abstract so no term sieve can separate them) and one CORRUPTED record whose title and
+abstract belong to different papers.
+
+Next: stage 5 full-text retrieval, prioritised on the 14 stopping-offset records and the four dense
+first-stage entry points (Oxford handbook on twins methods in economics; Rosenzweig & Wolpin's JEL
+review; the J. Economic Surveys review; the twins-data methods paper).
