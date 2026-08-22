@@ -183,3 +183,48 @@ seed and, under Wall 8, the only reachable channel to `PRIMARY_OFFSET_FIRSTSTAGE
 al. 2012** (329 forward, `BOTH` 19.1%). Under the inherited code both would have vanished silently.
 
 Next: D1 rank and screening cutoff (script 163).
+
+### 2026-08-22 — D1 deterministic rank and screening cutoff (script 163)
+
+Frame in 8,701; **359 version duplicates collapsed** on normalized title, leaving 8,342 scored.
+**Worklist out: 1,376** — 800 budget slice + 40 orthogonal + **212 Wall 8** + 324 both-axes bypasses.
+6,966 records go unread, of which 2,064 depend on a homonym seed alone. Nothing is deleted; every
+record keeps score, rank and hit lists so the cutoff can be re-cut without re-running retrieval.
+
+**A.12's two axes are anti-correlated, so neither is up-weighted.** Every prior chapter had a
+near-universal exposure axis and a scarce outcome axis, and up-weighted the scarce one. Here the
+twin-IV half of the frame carries fertility vocabulary WITHOUT twinning vocabulary (Black-Devereux-
+Salvanes: twin 6.0%, fert 32.1%) and the demography half carries twinning without a population
+fertility quantity (Pison & D'Addato: twin 84.0%, fert 47.0%). Up-weighting either axis would
+systematically demote half the chapter, so both carry equal weight and the cross-axis AND does the
+discriminating. Head of the ranking is clean — the top 25 is twinning-rate series and two twin-IV
+methods papers, and **zero homonym-hit records appear in the top 200**.
+
+**Wall 8 is now a measured quantity, and measuring it fixed a self-defeating bypass.** Of **1,991
+records reached from a twin-IV canon seed, only 154 mention a twinning term at all — 92% of this
+chapter's identification neighbourhood is invisible to axis 1.** The first version of the Wall 8
+bypass required a twinning term alongside the design vocabulary and recovered **4** records; that was
+the condition being self-defeating, not the population being small. Requiring a twinning term to find
+the Wall 8 population re-imposes exactly the visibility assumption the wall denies. Re-gated on seed
+provenance plus two independent design terms and no twinning term, it recovers **212**, and a sample
+confirms the shape: quantity-quality, family-size and birth-order papers, none mentioning twins.
+
+Caveat recorded rather than papered over: the bypass admits family-size-IV papers **generally**, not
+twin-IV specifically — the instrument is often unnamed in an abstract too, so one-child-policy and
+sibling-sex-composition designs come in beside twin designs. Deliberate. Admitting a same-shaped
+design that turns out not to use twins costs one screen read; excluding it costs a record no later
+stage can recover.
+
+**The clinical penalty is deliberately mild and the homonym penalty deliberately heavy, both on
+measured grounds.** A term sieve cannot make Wall 6's outcome-based call — an included and an
+excluded transfer-protocol study both say "embryo transfer" — and A4 put the include-side anchor
+(Reynolds 2003, clin 50.8%) almost level with the exclude-side one (Thurin, 60.6%), so a heavy
+clinical penalty would demote the ART-multiples records Call 3 ruled this chapter owns. The homonym
+penalty is the heaviest in any chapter because it is the best evidenced: A4 counted rather than
+sampled, SHELX 13 of 87,673 and TWIP 0 of 1,810.
+
+**All 952 both-axes records are in the worklist (100%).** B.6's lesson applies with extra force here:
+A.12's headline verdict is a bounded NEGATIVE, and a negative reached by not reading is not a
+finding.
+
+Next: D2 semantic screen batches over the 1,376-record worklist (script 164).
