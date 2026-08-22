@@ -81,3 +81,45 @@ Calls 1 and 5 adopted as recommended and marked RA-provisional. Call 5 is made f
 excluding it, so an overturn costs a re-screen and never a re-search.
 
 Next: A3 cold-start anchor resolution (script 161).
+
+### 2026-08-22 — A3 cold-start anchors (script 161)
+
+25 candidate anchors, **22 verified live, 3 expected index misses, 0 failures, 0 flagged.** Report at
+`literature/search-logs/twinning-multiple-births-cold-start-anchors-log.md`. Cells: 8 `PRIMARY_*`
+(3 stopping-offset + 5 twin-IV first-stage), 5 `SECONDARY_ART_MULTIPLES`, 5 `EXPOSURE_SERIES`,
+1 `SECONDARY_PM_VARIATION`, 5 routing decoys, one per enforceable wall.
+
+**All three of v5's seminal citations for A.12 are defective, and the third is a trap.** Bulmer 1970
+resolves but drags five review records. Pison & D'Addato 2006 has the wrong title in v5 (*in
+Developed Countries*, not *among the world populations*) and duplicate DOIs. Hoekstra "2008" is
+**2007** — `10.1093/humupd/dmm036`, 203 cites — and a real Hoekstra *2008* paper exists (*Body
+composition, smoking, and spontaneous dizygotic twinning*, F&S, 50 cites), so trusting v5's year
+lands on a different paper by the same first author and reports success.
+
+**Both predicted duplicate catches fired**, 4 records demoted across 2 anchors: Pison & D'Addato
+(98/66) and Black, Devereux & Salvanes (1,049/446). **The BDS case is the QJE MIT-Press-to-OUP DOI
+migration and generalises** — any chapter anchoring on a pre-migration QJE article meets a split
+citation count. Belongs in the shared resolver, not in per-chapter rediscovery.
+
+**Book-canon gate: five review records on Bulmer, only one typed `book-review`.** The gate refuses
+three as `review_of_the_work` (Shields in J. Med. Genet., typed `journal-article`; Benirschke in
+Teratology; and a **Science** review the sourcing pass missed); the title gate catches two more that
+embed the author name. A type-based rule would recover one in five.
+
+**A gate keyed off an optional field disengaged invisibly on the first pass — the finding worth
+keeping from this run.** Bulmer was entered with `expect_no_doi=True` but without `is_book=True`, so
+the book gate no-opped and the ordinary author gate refused the anchor as `authors_disagree`. The
+counters looked right and nothing appeared broken: a right answer by a mechanism that does not
+generalise. With the flag set, the reason becomes `review_of_the_work` and three reviews are found
+where one was. **Audited across branches rather than assumed** — D.2.d (103), D.1.b (95) and D.3.c
+(148) all set the flag, B.1 (64) and D.3.b (72) predate the gate, so no prior chapter is affected.
+
+Two absences established rather than inferred from failures (per the refusals-are-not-zeros rule):
+Bronars & Grogger 1994 and Martin et al. 2012 have no DOI in either index — the latter confirmed by
+Crossref returning only later NCHS reports under the `10.15620/cdc:` prefix minted after 2012.
+
+One serendipitous on-topic find carried to A4 rather than discarded as a refusal:
+`10.2139/ssrn.5258235`, *Does the One-Child Policy Increase Man-Made Twinning Rate?* — policy-induced
+twinning, surfaced by no reconnaissance probe.
+
+Next: A4 citation frame (Tier A/B), script 162.

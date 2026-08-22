@@ -1,0 +1,1080 @@
+[
+  {
+    "title": "The Impact of Multiple Births on Fertility: Stopping and Spacing in the United States During the Twentieth Century",
+    "authors": [
+      "George Alter",
+      "J. David Hacker"
+    ],
+    "year": 2024,
+    "provenance_channel": "reconnaissance_probe_primary_cell",
+    "provisional_cell": "PRIMARY_OFFSET_STOPPING",
+    "query_cluster_family": "primary-offset",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Demography. THE study squarely on the estimand: a multiple birth as a shock to a stopping-and-spacing process. Six cites, published last year \u2014 the primary cell's head is a NEW paper, which is unusual and means forward-citation seeding at A4 will return almost nothing from it.",
+    "doi": "10.1215/00703370-11577526",
+    "identity_source": "https://doi.org/10.1215/00703370-11577526",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 0.778,
+    "container": "Demography",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1215/00703370-11577526",
+        "type": "article",
+        "year": 2024,
+        "container": "Demography",
+        "score": 147,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Parity progression ratios confirm higher lifetime fertility in women who bear twins",
+    "authors": [
+      "Shannen L. Robson",
+      "Ken R. Smith"
+    ],
+    "year": 2012,
+    "provenance_channel": "reconnaissance_probe_primary_cell",
+    "provisional_cell": "PRIMARY_OFFSET_STOPPING",
+    "query_cluster_family": "primary-offset",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Proceedings of the Royal Society B. The offset is INCOMPLETE \u2014 mothers of twins finish with HIGHER lifetime fertility, not the same. If it replicates, the mechanical uplift is not merely an upper bound that partly survives; it under-states.",
+    "doi": "10.1098/rspb.2012.0436",
+    "identity_source": "https://doi.org/10.1098/rspb.2012.0436",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Proceedings of the Royal Society B: Biological Sciences",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1098/rspb.2012.0436",
+        "type": "article",
+        "year": 2012,
+        "container": "Proceedings of the Royal Society B Biological Sciences",
+        "score": 165,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Twins Support the Absence of Parity-Dependent Fertility Control in Pretransition Populations",
+    "authors": [
+      "Gregory Clark",
+      "Neil Cummins",
+      "Matthew Curtis"
+    ],
+    "year": 2020,
+    "provenance_channel": "reconnaissance_probe_primary_cell",
+    "provisional_cell": "PRIMARY_OFFSET_STOPPING",
+    "query_cluster_family": "primary-offset",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Demography. NO stopping response in pre-transition populations, so the uplift passes through in full there. Note what this paper is actually doing: it uses twins to test PARITY-DEPENDENT STOPPING, which is A.8's hypothesis, not A.12's. Under PI Call 5 it is routed to A.8 as a Tier-A anchor there. Retained here because it pins the PM-arm arithmetic, not because it is evidence FOR A.12.",
+    "doi": "10.1007/s13524-020-00898-0",
+    "identity_source": "https://doi.org/10.1007/s13524-020-00898-0",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Demography",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1007/s13524-020-00898-0",
+        "type": "article",
+        "year": 2020,
+        "container": "Demography",
+        "score": 165,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Testing the Quantity-Quality Fertility Model: The Use of Twins as a Natural Experiment",
+    "authors": [
+      "Mark R. Rosenzweig",
+      "Kenneth I. Wolpin"
+    ],
+    "year": 1980,
+    "provenance_channel": "reconnaissance_probe_instrument_cell",
+    "provisional_cell": "PRIMARY_OFFSET_FIRSTSTAGE",
+    "query_cluster_family": "twin-iv-canon",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Econometrica, 716. The origin of the twin instrument. Its first stage is the completed-fertility response to a twin birth.",
+    "doi": "10.2307/1912026",
+    "identity_source": "https://doi.org/10.2307/1912026",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Econometrica",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.2307/1912026",
+        "type": "article",
+        "year": 1980,
+        "container": "Econometrica",
+        "score": 165,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "The More the Merrier? The Effect of Family Size and Birth Order on Children's Education",
+    "authors": [
+      "Sandra E. Black",
+      "Paul J. Devereux",
+      "Kjell G. Salvanes"
+    ],
+    "year": 2005,
+    "provenance_channel": "reconnaissance_probe_instrument_cell",
+    "provisional_cell": "PRIMARY_OFFSET_FIRSTSTAGE",
+    "query_cluster_family": "twin-iv-canon",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "QJE, the most-cited record the instrument probe touched (1,049). DUPLICATE-RECORD CASE: also indexed at 10.1093/qje/120.2.669 with 446 cites \u2014 the QJE MIT-Press-to-OUP DOI migration. Same title, year, venue, authors. SOURCING HAZARD: the full title returns n=0 because stopwords collapse 'The More the Merrier' to 'merrier' and '?' is a wildcard.",
+    "duplicates_demoted": [
+      {
+        "demoted_doi": "10.1093/qje/120.2.669",
+        "demoted_cites": 446,
+        "canonical_doi": "10.1162/0033553053970179",
+        "canonical_cites": 1049,
+        "title": "The More the Merrier? The Effect of Family Size and Birth Order on Children's Ed",
+        "year": 2005,
+        "container": "The Quarterly Journal of Economics",
+        "src": "openalex"
+      },
+      {
+        "demoted_doi": "10.1093/qje/120.2.669",
+        "demoted_cites": null,
+        "canonical_doi": "10.1162/0033553053970179",
+        "canonical_cites": 1049,
+        "title": "The More the Merrier? The Effect of Family Size and Birth Order on Children's Ed",
+        "year": 2005,
+        "container": "The Quarterly Journal of Economics",
+        "src": "crossref"
+      }
+    ],
+    "doi": "10.1162/0033553053970179",
+    "identity_source": "https://doi.org/10.1162/0033553053970179",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Quarterly Journal of Economics",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1162/0033553053970179",
+        "type": "article",
+        "year": 2005,
+        "container": "The Quarterly Journal of Economics",
+        "score": 165,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Multiple Experiments for the Causal Link between the Quantity and Quality of Children",
+    "authors": [
+      "Joshua D. Angrist",
+      "Victor Lavy",
+      "Analia Schlosser"
+    ],
+    "year": 2010,
+    "provenance_channel": "reconnaissance_probe_instrument_cell",
+    "provisional_cell": "PRIMARY_OFFSET_FIRSTSTAGE",
+    "query_cluster_family": "twin-iv-canon",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Journal of Labor Economics, 537. VERSION-OF-RECORD CASE: an SSRN preprint (2006, 1 cite) shares the title. Low stakes here; the same shape at high stakes is Rosenzweig & Zhang below.",
+    "doi": "10.1086/653830",
+    "identity_source": "https://doi.org/10.1086/653830",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Journal of Labor Economics",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 4,
+    "rejected_versions": [
+      {
+        "doi": "10.1086/653830",
+        "type": "article",
+        "year": 2010,
+        "container": "Journal of Labor Economics",
+        "score": 165,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.2139/ssrn.931948",
+        "type": "journal-article",
+        "year": 2006,
+        "container": "SSRN Electronic Journal",
+        "score": 104,
+        "src": "crossref"
+      },
+      {
+        "doi": "10.2139/ssrn.931948",
+        "type": "preprint",
+        "year": 2006,
+        "container": "SSRN Electronic Journal",
+        "score": 24,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "The Economic Consequences of Unwed Motherhood: Using Twin Births as a Natural Experiment",
+    "authors": [
+      "Stephen G. Bronars",
+      "Jeff Grogger"
+    ],
+    "year": 1994,
+    "provenance_channel": "reconnaissance_probe_instrument_cell",
+    "provisional_cell": "PRIMARY_OFFSET_FIRSTSTAGE",
+    "query_cluster_family": "twin-iv-canon",
+    "is_book": false,
+    "expect_no_doi": true,
+    "source_note": "American Economic Review, 368. EXISTENCE-GATE CASE: no DOI in the index, and the author metadata is degraded to 'Bronars Sg', which will stress the author gate. Carried keyed on title with expect_no_doi rather than faked.",
+    "doi": null,
+    "identity_verified": false,
+    "match_jaccard": 1.0,
+    "best_near_miss": {
+      "doi": null,
+      "title": "The economic consequences of unwed motherhood: using twin births as a natural experiment.",
+      "jaccard": 1.0,
+      "year": 1994,
+      "container": "American Economic Review",
+      "type": "article",
+      "author_match": true,
+      "review_shape": false,
+      "is_fallback": true
+    },
+    "refused_reasons": [
+      "title_or_no_doi"
+    ],
+    "refused_candidates": [
+      {
+        "reason": "title_or_no_doi",
+        "title": "The Effects of Child-Bearing on Married Women's Labor Supply",
+        "doi": "10.3386/w5647"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "The Effects of Gender Composition and Fertility on Motherss ",
+        "doi": "10.2139/ssrn.2939471"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Unwed Mothers",
+        "doi": "10.4135/9781412979276.n677"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "5. Natural Children, Abandoned Mothers, and Emancipated Fath",
+        "doi": "10.1525/9780520939769-008"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Unwed Motherhood, Social Exclusion, and Adoption Placement",
+        "doi": "10.2307/j.ctvk12qxr.10"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "The effects of child-bearing on women\u2019s marital status: usin",
+        "doi": "10.1016/s0165-1765(99)00210-4"
+      }
+    ],
+    "gold_status": "unverified_no_doi_match",
+    "note": "Book or monograph; expected index miss. Carried keyed on title, not faked. The near-miss record is retained so an RA can see what the resolver refused and why."
+  },
+  {
+    "title": "Do Population Control Policies Induce More Human Capital Investment? Twins, Birth Weight and China's One-Child Policy",
+    "authors": [
+      "Mark R. Rosenzweig",
+      "Junsen Zhang"
+    ],
+    "year": 2009,
+    "provenance_channel": "reconnaissance_probe_instrument_cell",
+    "provisional_cell": "PRIMARY_OFFSET_FIRSTSTAGE",
+    "query_cluster_family": "twin-iv-canon",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Review of Economic Studies. VERSION-OF-RECORD CASE, INVERTED CITATIONS \u2014 the SSRN preprint (2006) carries 65 cites and the journal version of record carries 11. Citation-argmax ranking takes the preprint; the gate must not. NOTE ALSO: the reconnaissance reported a 348-cite 'Rosenzweig & Zhang 2008, Demography' record that the sourcing pass could not reproduce. Flagged for RA \u2014 it may be a third version or a different paper, and it is NOT assumed to be this one.",
+    "doi": "10.1111/j.1467-937x.2009.00563.x",
+    "identity_source": "https://doi.org/10.1111/j.1467-937x.2009.00563.x",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Review of Economic Studies",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 3,
+    "rejected_versions": [
+      {
+        "doi": "10.1111/j.1467-937x.2009.00563.x",
+        "type": "article",
+        "year": 2009,
+        "container": "The Review of Economic Studies",
+        "score": 165,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.2139/ssrn.893056",
+        "type": "journal-article",
+        "year": 2006,
+        "container": "SSRN Electronic Journal",
+        "score": 95,
+        "src": "crossref"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Increasing the credibility of the twin birth instrument",
+    "authors": [
+      "Helmut Farbmacher",
+      "Raphael Guber",
+      "Johan Vikstrom"
+    ],
+    "year": 2018,
+    "provenance_channel": "reconnaissance_probe_instrument_cell",
+    "provisional_cell": "PRIMARY_OFFSET_FIRSTSTAGE",
+    "query_cluster_family": "twin-iv-canon",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Journal of Applied Econometrics, 27. The methods paper on the instrument's validity and therefore the best single entry point to the first-stage literature. A RePEc preprint (2016) shares the title.",
+    "doi": "10.1002/jae.2616",
+    "identity_source": "https://doi.org/10.1002/jae.2616",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Journal of Applied Econometrics",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1002/jae.2616",
+        "type": "article",
+        "year": 2018,
+        "container": "Journal of Applied Econometrics",
+        "score": 165,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Twin Peaks: more twinning in humans than ever before",
+    "authors": [
+      "Christiaan Monden",
+      "Gilles Pison",
+      "Jeroen Smits"
+    ],
+    "year": 2021,
+    "provenance_channel": "reconnaissance_probe_art_cell",
+    "provisional_cell": "SECONDARY_ART_MULTIPLES",
+    "query_cluster_family": "art-multiples",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Human Reproduction, 229. The global twinning series: 9.1 -> 12.0 twin deliveries per 1,000 between 1980-85 and 2010-15. This is the record that makes v5's ART clause time-inverted \u2014 a peak, not a trend.",
+    "doi": "10.1093/humrep/deab029",
+    "identity_source": "https://doi.org/10.1093/humrep/deab029",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Human Reproduction",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1093/humrep/deab029",
+        "type": "article",
+        "year": 2021,
+        "container": "Human Reproduction",
+        "score": 165,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Twinning Rates in Developed Countries: Trends and Explanations",
+    "authors": [
+      "Gilles Pison",
+      "Christiaan Monden",
+      "Jeroen Smits"
+    ],
+    "year": 2015,
+    "provenance_channel": "reconnaissance_probe_art_cell",
+    "provisional_cell": "SECONDARY_ART_MULTIPLES",
+    "query_cluster_family": "art-multiples",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Population and Development Review, 129. THE stage-10 input. Decomposes the rise into delayed childbearing and MAR, with MAR about THREE TIMES the age effect \u2014 which is how we know roughly a quarter of A.12's SDT arm is a feedback from postponement itself. Also dates the post-2000 plateau-and-reversal to MAR policy change.",
+    "doi": "10.1111/j.1728-4457.2015.00088.x",
+    "identity_source": "https://doi.org/10.1111/j.1728-4457.2015.00088.x",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Population and Development Review",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1111/j.1728-4457.2015.00088.x",
+        "type": "article",
+        "year": 2015,
+        "container": "Population and Development Review",
+        "score": 165,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Trends in Multiple Births Conceived Using Assisted Reproductive Technology, United States, 1997-2000",
+    "authors": [
+      "Meredith A. Reynolds",
+      "Laura A. Schieve",
+      "Joyce A. Martin"
+    ],
+    "year": 2003,
+    "provenance_channel": "sourcing_pass_wall6_recut",
+    "provisional_cell": "SECONDARY_ART_MULTIPLES",
+    "query_cluster_family": "art-multiples",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Pediatrics, 306. WALL 6 RE-CUT TEST, INCLUDE side: an ART-practice paper whose outcome is a POPULATION multiple-birth share. Under the drafted wall this was excluded as 'clinical ART practice'; under the re-cut wall it is squarely in SECONDARY_ART_MULTIPLES. If the screen excludes it, the re-cut has not taken.",
+    "doi": "10.1542/peds.111.s1.1159",
+    "identity_source": "https://doi.org/10.1542/peds.111.s1.1159",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 0.786,
+    "container": "Pediatrics",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1542/peds.111.s1.1159",
+        "type": "article",
+        "year": 2003,
+        "container": "PEDIATRICS",
+        "score": 148,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Elective Single-Embryo Transfer versus Double-Embryo Transfer in In Vitro Fertilization",
+    "authors": [
+      "Ann Thurin",
+      "Jon Hausken",
+      "Torbjorn Hillensjo"
+    ],
+    "year": 2004,
+    "provenance_channel": "sourcing_pass_wall6_recut",
+    "provisional_cell": "SECONDARY_ART_MULTIPLES",
+    "query_cluster_family": "eset-policy",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "NEJM, 600. THE genuine Wall 6 boundary case, and the only randomized variation in the multiplier that exists. Reports BOTH a per-cycle live-birth rate (Wall 6 exclude side) and a multiple-birth rate (include side), so the outcome discriminator must handle a paper carrying one of each. VERSION-OF-RECORD CASE: two 2005 Obstetrical & Gynecological Survey reprints (100 and 24 cites), and the 24-cite record carries NO AUTHORS AT ALL, which the author gate must treat as missing data, never as disagreement.",
+    "doi": "10.1056/nejmoa041032",
+    "identity_source": "https://doi.org/10.1056/nejmoa041032",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "New England Journal of Medicine",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 6,
+    "rejected_versions": [
+      {
+        "doi": "10.1056/nejmoa041032",
+        "type": "article",
+        "year": 2004,
+        "container": "New England Journal of Medicine",
+        "score": 165,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.1097/01.ogx.0000162699.90164.03",
+        "type": "journal-article",
+        "year": 2005,
+        "container": "Obstetrical &amp; Gynecological Survey",
+        "score": 161,
+        "src": "crossref"
+      },
+      {
+        "doi": "10.1097/01.aog.0000156867.35773.b3",
+        "type": "journal-article",
+        "year": 2005,
+        "container": "Obstetrics &amp; Gynecology",
+        "score": 121,
+        "src": "crossref"
+      },
+      {
+        "doi": "10.1097/01.aog.0000156867.35773.b3",
+        "type": "article",
+        "year": 2005,
+        "container": "Obstetrics and Gynecology",
+        "score": 121,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Clinical effectiveness of elective single versus double embryo transfer: meta-analysis of individual patient data from randomised trials",
+    "authors": [
+      "David J. McLernon",
+      "Kirsten Harrild",
+      "Christina Bergh"
+    ],
+    "year": 2010,
+    "provenance_channel": "sourcing_pass_wall6_recut",
+    "provisional_cell": "SECONDARY_ART_MULTIPLES",
+    "query_cluster_family": "eset-policy",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "BMJ, 397, typed `review`. The IPD meta-analysis of the eSET trials \u2014 the pooled version of the only identification this arm has. Same dual-outcome boundary shape as Thurin.",
+    "doi": "10.1136/bmj.c6945",
+    "identity_source": "https://doi.org/10.1136/bmj.c6945",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "BMJ",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1136/bmj.c6945",
+        "type": "review",
+        "year": 2010,
+        "container": "BMJ",
+        "score": 165,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "The Human Multiple Births Database (HMBD)",
+    "authors": [
+      "Catalina Torres",
+      "Arianna Caporali",
+      "Gilles Pison"
+    ],
+    "year": 2023,
+    "provenance_channel": "stage10_input_verified_live",
+    "provisional_cell": "EXPOSURE_SERIES",
+    "query_cluster_family": "exposure-series",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Demographic Research, 9 cites. The harmonized country-year twinning series and the single most important record in this file for the chapter's verdict. Note the companion Figshare static deposit (2022) lists Caporali FIRST while the article lists Torres first \u2014 author-ORDER divergence across versions of the same resource, which is why the author gate tests set membership and not list position.",
+    "doi": "10.4054/demres.2023.48.4",
+    "identity_source": "https://doi.org/10.4054/demres.2023.48.4",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Demographic Research",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.4054/demres.2023.48.4",
+        "type": "article",
+        "year": 2023,
+        "container": "Demographic Research",
+        "score": 165,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Three decades of twin births in the United States, 1980-2009",
+    "authors": [
+      "Joyce A. Martin",
+      "Brady E. Hamilton",
+      "Michelle J. K. Osterman"
+    ],
+    "year": 2012,
+    "provenance_channel": "sourcing_pass_wall9",
+    "provisional_cell": "EXPOSURE_SERIES",
+    "query_cluster_family": "exposure-series",
+    "is_book": false,
+    "expect_no_doi": true,
+    "source_note": "329 cites. The US series, and the archetype of the finding that the primary cell is headed by VITAL-STATISTICS REPORTS rather than estimation studies. Also the Wall 9 anchor: twinning as OUTCOME, routed rather than excluded. NO DOI, AND THE ABSENCE IS ESTABLISHED RATHER THAN INFERRED FROM A FAILURE: the OpenAlex record matches at Jaccard 1.00 with author agreement and container `PubMed` and carries no DOI, and a Crossref bibliographic query returns only LATER NCHS reports, all minted under the `10.15620/cdc:` prefix that CDC began issuing after this report. Marked expect_no_doi so it is counted as an index miss and not as a resolver failure.",
+    "doi": null,
+    "identity_verified": false,
+    "match_jaccard": 1.0,
+    "best_near_miss": {
+      "doi": null,
+      "title": "Three decades of twin births in the United States, 1980-2009.",
+      "jaccard": 1.0,
+      "year": 2012,
+      "container": "PubMed",
+      "type": "article",
+      "author_match": true,
+      "review_shape": false,
+      "is_fallback": true
+    },
+    "refused_reasons": [
+      "title_or_no_doi"
+    ],
+    "refused_candidates": [
+      {
+        "reason": "title_or_no_doi",
+        "title": "Changes in Twin Births in the United States, 2019-2021",
+        "doi": "10.15620/cdc:121829"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Tuberculosis Infection in the United States. National Trends",
+        "doi": "10.1016/s8756-3452(08)79221-1"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Epidemiological trends in multiple births in the United Stat",
+        "doi": "10.1375/twin.4.3.131"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Fertility Trends in the United States, 1980-2017: The Role o",
+        "doi": "10.3386/w25521"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Wanted and Unwanted Births Reported by Mothers 15-44 Years o",
+        "doi": "10.1037/e604682007-001"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "State-Specific Variation in Rates of Twin Births\u2014United Stat",
+        "doi": "10.1001/jama.1997.03540350028014"
+      }
+    ],
+    "gold_status": "unverified_no_doi_match",
+    "note": "Book or monograph; expected index miss. Carried keyed on title, not faked. The near-miss record is retained so an RA can see what the resolver refused and why."
+  },
+  {
+    "title": "The Biology of Twinning in Man",
+    "authors": [
+      "M. G. Bulmer"
+    ],
+    "year": 1970,
+    "provenance_channel": "v5_seminal_list",
+    "provisional_cell": "EXPOSURE_SERIES",
+    "query_cluster_family": "exposure-series",
+    "is_book": true,
+    "expect_no_doi": true,
+    "source_note": "Clarendon Press, 563 cites, no DOI. BOOK-CANON GATE, strongest case in the project so far: THREE distinct review records, and only ONE is typed `book-review` (Benirschke 1971, Teratology). The other two are typed `article` \u2014 Shields 1970 in J. Medical Genetics and Allen 1971 in Europe PMC \u2014 and defeat any type-based rule. Signal 4 (first-position author must be one of ours) refuses all three.",
+    "doi": null,
+    "identity_verified": false,
+    "match_jaccard": 1.0,
+    "best_near_miss": {
+      "doi": "10.1136/jmg.7.4.426-b",
+      "title": "The Biology of Twinning in Man",
+      "jaccard": 1.0,
+      "year": 1970,
+      "container": "Journal of Medical Genetics",
+      "type": "journal-article",
+      "author_match": false,
+      "review_shape": true,
+      "is_fallback": true
+    },
+    "refused_reasons": [
+      "review_of_the_work",
+      "title_or_no_doi"
+    ],
+    "refused_candidates": [
+      {
+        "reason": "title_or_no_doi",
+        "title": "Twins The Biology of Twinning in Man M. G. Bulmer",
+        "doi": "10.2307/1295801"
+      },
+      {
+        "reason": "review_of_the_work",
+        "title": "The Biology of Twinning in Man",
+        "doi": "10.1136/jmg.7.4.426-b"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "<i>The Biology of Twinning in Man.</i>M. G. Bulmer",
+        "doi": "10.1086/406989"
+      },
+      {
+        "reason": "review_of_the_work",
+        "title": "The biology of twinning in man. By M. G. Bulmer. Clarendon P",
+        "doi": "10.1002/tera.1420040214"
+      },
+      {
+        "reason": "review_of_the_work",
+        "title": "The Biology of Twinning in Man. M. G. Bulmer. Clarendon, New",
+        "doi": "10.1126/science.170.3961.965"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Does the One-Child Policy Increase Man-Made Twinning Rate?",
+        "doi": "10.2139/ssrn.5258235"
+      }
+    ],
+    "gold_status": "unverified_no_doi_match",
+    "note": "Book or monograph; expected index miss. Carried keyed on title, not faked. The near-miss record is retained so an RA can see what the resolver refused and why."
+  },
+  {
+    "title": "Frequency of Twin Births in Developed Countries",
+    "authors": [
+      "Gilles Pison",
+      "Agata V. D'Addato"
+    ],
+    "year": 2006,
+    "provenance_channel": "v5_seminal_list",
+    "provisional_cell": "EXPOSURE_SERIES",
+    "query_cluster_family": "exposure-series",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Twin Research and Human Genetics. DUPLICATE-RECORD GATE: two DOIs, 10.1375/twin.9.2.250 (98) and 10.1375/183242706776382338 (66), identical title, year, venue and authors \u2014 so author agreement is present and the corrected rule demotes correctly. ALSO A v5 TITLE ERROR: v5 implies 'among the world populations'; the real title says 'in Developed Countries', which matters because the developed-country restriction is exactly what the PM arm cannot use.",
+    "duplicates_demoted": [
+      {
+        "demoted_doi": "10.1375/183242706776382338",
+        "demoted_cites": 66,
+        "canonical_doi": "10.1375/twin.9.2.250",
+        "canonical_cites": 98,
+        "title": "Frequency of Twin Births in Developed Countries",
+        "year": 2006,
+        "container": "Twin Research and Human Genetics",
+        "src": "openalex"
+      },
+      {
+        "demoted_doi": "10.1375/183242706776382338",
+        "demoted_cites": null,
+        "canonical_doi": "10.1375/twin.9.2.250",
+        "canonical_cites": 98,
+        "title": "Frequency of Twin Births in Developed Countries",
+        "year": 2006,
+        "container": "Twin Research and Human Genetics",
+        "src": "crossref"
+      }
+    ],
+    "doi": "10.1375/twin.9.2.250",
+    "identity_source": "https://doi.org/10.1375/twin.9.2.250",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Twin Research and Human Genetics",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1375/twin.9.2.250",
+        "type": "article",
+        "year": 2006,
+        "container": "Twin Research and Human Genetics",
+        "score": 165,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Dizygotic twinning",
+    "authors": [
+      "Chantal Hoekstra",
+      "Zhen Zhao",
+      "Cornelius B. Lambalk"
+    ],
+    "year": 2007,
+    "provenance_channel": "v5_seminal_list_year_corrected",
+    "provisional_cell": "EXPOSURE_SERIES",
+    "query_cluster_family": "exposure-series",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Human Reproduction Update, 203 cites. v5 SAYS 2008 AND v5 IS WRONG \u2014 this is the 2007 review. The danger is that a real Hoekstra 2008 paper exists ('Body composition, smoking, and spontaneous dizygotic twinning', Fertility & Sterility, 50 cites), so trusting v5's year lands on a different paper by the same first author and reports success. SOURCING HAZARD: 'dizygotic twinning' alone returns 1,148 records and this one is NOT in the citation head; it needs an author-qualified retry.",
+    "doi": "10.1093/humupd/dmm036",
+    "identity_source": "https://doi.org/10.1093/humupd/dmm036",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Human Reproduction Update",
+    "record_type": "article",
+    "resolved_via": "openalex",
+    "author_match": true,
+    "n_title_passing": 1,
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Twinning across the Developing World",
+    "authors": [
+      "Jeroen Smits",
+      "Christiaan Monden"
+    ],
+    "year": 2011,
+    "provenance_channel": "reconnaissance_probe_pm_cell",
+    "provisional_cell": "SECONDARY_PM_VARIATION",
+    "query_cluster_family": "pm-variation",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "PLoS ONE, 305. The cross-population twinning literature's anchor, including the West African dizygotic excess. Retained to bound the PM arm arithmetically: the spread is roughly 1% to 2% of deliveries, which against PM fertility measured in whole children is not a candidate explanation. Bounding it is the deliverable; it is not evidence.",
+    "doi": "10.1371/journal.pone.0025239",
+    "identity_source": "https://doi.org/10.1371/journal.pone.0025239",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "PLoS ONE",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1371/journal.pone.0025239",
+        "type": "article",
+        "year": 2011,
+        "container": "PLoS ONE",
+        "score": 165,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "A short history of SHELX",
+    "authors": [
+      "George M. Sheldrick"
+    ],
+    "year": 2007,
+    "provenance_channel": "reconnaissance_probe_decoy_cloud_1",
+    "provisional_cell": "OFF_HOMONYM_CRYSTAL",
+    "query_cluster_family": "decoy-crystallography",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Acta Crystallographica A, 87,694 cites. Wall 1. Outranks every genuine A.12 record by two orders of magnitude and heads three separate probes. A pure homonym \u2014 'twinning' is a crystal lattice defect \u2014 with zero on-topic content, so it takes a HARD exclusion. If this record survives the production query, the query is broken.",
+    "doi": "10.1107/s0108767307043930",
+    "identity_source": "https://doi.org/10.1107/s0108767307043930",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Acta Crystallographica Section A Foundations of Crystallography",
+    "record_type": "article",
+    "resolved_via": "openalex",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1107/s0108767307043930",
+        "type": "journal-article",
+        "year": 2007,
+        "container": "Acta Crystallographica Section A Foundations of Crystallography",
+        "score": 151,
+        "src": "crossref"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "High strength Fe-Mn-(Al, Si) TRIP/TWIP steels development - properties - application",
+    "authors": [
+      "O. Grassel",
+      "L. Kruger",
+      "G. Frommeyer"
+    ],
+    "year": 2000,
+    "provenance_channel": "reconnaissance_probe_decoy_cloud_2",
+    "provisional_cell": "OFF_HOMONYM_ENGINEERING",
+    "query_cluster_family": "decoy-engineering",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "International Journal of Plasticity, 1,812. Wall 2. TWIP = TWinning-Induced Plasticity. Second pure homonym.",
+    "doi": "10.1016/s0749-6419(00)00015-2",
+    "identity_source": "https://doi.org/10.1016/s0749-6419(00)00015-2",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 0.769,
+    "container": "International Journal of Plasticity",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1016/s0749-6419(00)00015-2",
+        "type": "article",
+        "year": 2000,
+        "container": "International Journal of Plasticity",
+        "score": 147,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "An Observational Analysis of Twin Births, Calf Sex Ratio, and Calf Mortality in Holstein Dairy Cattle",
+    "authors": [
+      "Noelia Silva del Rio",
+      "Steven Stewart",
+      "Paul Rapnicki"
+    ],
+    "year": 2007,
+    "provenance_channel": "sourcing_pass_wall3",
+    "provisional_cell": "OFF_NONHUMAN",
+    "query_cluster_family": "decoy-nonhuman",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Journal of Dairy Science, 221. Wall 3. The veterinary cloud is NOT a homonym \u2014 these papers really are about twinning and really are about fertility \u2014 but the species is wrong. Four of the eight records in the reconnaissance's 'twinning as a determinant of fertility level' head were ewes, goats or cattle. Lexically separable because a dairy paper never says 'completed fertility'.",
+    "doi": "10.3168/jds.s0022-0302(07)71614-4",
+    "identity_source": "https://doi.org/10.3168/jds.s0022-0302(07)71614-4",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Journal of Dairy Science",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.3168/jds.s0022-0302(07)71614-4",
+        "type": "article",
+        "year": 2007,
+        "container": "Journal of Dairy Science",
+        "score": 165,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Hidden heritability due to heterogeneity across seven populations",
+    "authors": [
+      "Felix C. Tropf",
+      "Sang Hong Lee",
+      "Renske M. Verweij"
+    ],
+    "year": 2017,
+    "provenance_channel": "sourcing_pass_wall4",
+    "provisional_cell": "OFF_TWINDESIGN",
+    "query_cluster_family": "decoy-twindesign",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Nature Human Behaviour, 184. Wall 4 and A.18's territory. This is the ONE decoy family here that is a genuine boundary case in the ordinary sense: twins as a research DESIGN, not a rate \u2014 but the heritability of dizygotic twinning is a real A.12 input. Routed, never excluded. Note v5 \u00a7A.18 lists Tropf et al. 2015; this is the 2017 record.",
+    "doi": "10.1038/s41562-017-0195-1",
+    "identity_source": "https://doi.org/10.1038/s41562-017-0195-1",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Nature Human Behaviour",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1038/s41562-017-0195-1",
+        "type": "article",
+        "year": 2017,
+        "container": "Nature Human Behaviour",
+        "score": 165,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Perinatal outcome of singletons and twins after assisted conception: a systematic review of controlled studies",
+    "authors": [
+      "Frans M. Helmerhorst",
+      "Denise A. M. Perquin",
+      "Diana Donker"
+    ],
+    "year": 2004,
+    "provenance_channel": "sourcing_pass_wall5",
+    "provisional_cell": "OFF_PERINATAL",
+    "query_cluster_family": "decoy-perinatal",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "BMJ, 1,117. Wall 5, and the hardest routing case in this file because it sits on THREE walls at once: it is perinatal outcomes (Wall 5 exclude), it is ART (Wall 6), and it compares twins to singletons (Wall 4 shape). Its outcome is health, not a birth count, so the outcome-based discriminator should send it to OFF_PERINATAL. It is the sharpest single test of whether the re-cut Wall 6 is enforceable.",
+    "doi": "10.1136/bmj.37957.560278.ee",
+    "identity_source": "https://doi.org/10.1136/bmj.37957.560278.ee",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "BMJ",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 4,
+    "rejected_versions": [
+      {
+        "doi": "10.1136/bmj.37957.560278.ee",
+        "type": "review",
+        "year": 2004,
+        "container": "BMJ",
+        "score": 165,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.1097/00006250-200405000-00026",
+        "type": "journal-article",
+        "year": 2004,
+        "container": "Obstetrics &amp; Gynecology",
+        "score": 125,
+        "src": "crossref"
+      },
+      {
+        "doi": "10.1097/00006250-200405000-00026",
+        "type": "article",
+        "year": 2004,
+        "container": "Obstetrics and Gynecology",
+        "score": 125,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  }
+]
