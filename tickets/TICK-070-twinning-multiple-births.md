@@ -18,7 +18,7 @@
 - [ ] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise
 - [ ] 10. Demographic significance against PM / FDT / SDT
 - [ ] 11. GRADE rating, 3 independent raters
-- [ ] 12. Chapter draft on the §6 template
+- [x] 12. Chapter draft on the §6 template — `output/chapters/twinning-multiple-births.md` (2026-08-22), written on 68 readables
 - [ ] 13. RA lay-readability check
 - [ ] 14. PI review and sign-off
 
@@ -343,3 +343,58 @@ country-year twinning tabulations whose numbers come from the HMBD harmonised.
 
 Next: stage 6/7 — full-text screen and extraction on the 68 readable records, starting with the 6
 readable causal-spine studies, while the P0/P1 bands are procured.
+
+### 2026-08-22 — chapter drafted on the 68 readables
+
+`output/chapters/twinning-multiple-births.md`, 5,300 words, PROTOCOL §6 structure. Written to a
+brief from Shravan: **lay comparison before technical comparison, and an audience of a UChicago
+undergraduate who knows economics but not demography.** Both shaped the structure rather than the
+prose. §1.1, §6.1 and §7 each open with a plain-language reading before the technical one; the
+organising analogy is a factory whose output is orders times units-per-order, and the mechanism is
+framed on the extensive/intensive margin distinction and on target-family-size as an income effect,
+which that reader already has. TFR, parity, completed fertility, DZ/MZ, replacement, eSET, ART, GRADE
+and the PM/FDT/SDT phenomena are each glossed at first use.
+
+**THE CENTRAL RESULT.** Rickard et al. 2022 (*Nature Communications*, >20,000 pre-industrial European
+mothers) shows the entire prior literature rests on an **ecological fallacy**: comparing mothers who
+ever had twins with those who never did compares high-fertility with low-fertility women by
+construction, because exposure to the risk of twinning accumulates with births. Controlling for
+exposure REVERSES the sign — higher twinning propensity gives fewer births (odds × 0.967, CI
+0.952–0.983 per additional birth) — and identifies the mechanism as stopping after a twin birth.
+
+Four of the six readable primary studies (Sear 2001 Gambia, Ekamper & van Poppel 2021 Netherlands,
+Hur et al. 2024 Nigeria, Hoekstra et al. 2008 Netherlands) use the naive estimator and all four find
+twin mothers more fertile. The disagreement is therefore RESOLVED rather than averaged: one unbiased
+estimator against four biased ones, with the bias direction demonstrated.
+
+**The offset, quantified from their simulation and re-derived in logs:** mechanical +14.78%,
+behavioural −1.66%, net +12.83%. **The offset absorbs ~12% of the mechanical gain; ~88% passes
+through.** One simulation, one sample, stated as an order of magnitude.
+
+**Verdicts.** PM **negligible** (max 4.2% multiplier spread across the entire human record — Yoruba
+45–50/1000 vs historical East Asia ~6/1000 — which is ~6% of the PM range at the most extreme
+comparison available). FDT **not assessed** (out of scope; sign would be negative). SDT **small,
+transient, wrong sign now**: ~2% of the Czech decline at its own peak, and five independent national
+series show the reversal (Sweden IVF twinning 29%→18.5%; Japan iatrogenic 11.4→8.1 per 1,000; Czechia
+>21→falling after the 2012 eSET rule; Iceland PR 0.74; **US twin share of ART infants 38.0%→~21% in
+four years**).
+
+**GRADE: PM HIGH for a negligible effect; SDT LOW**, downgraded for indirectness (the intensive
+margin is not identified), imprecision (one offset estimate) and risk of bias in the body as a whole.
+
+**A new citation-hygiene finding while verifying authorship.** v5's "Hoekstra et al. 2008" is wrong —
+the review is 2007 — and there are **TWO** distinct Hoekstra 2008 papers a resolver can land on
+instead, both legitimate and both on this exact topic. A wrong year pointing at two real neighbouring
+papers by the same first author is worse than one pointing at nothing, because the resolver reports
+success. Three author attributions in the draft were also wrong on first write and corrected against
+the PDFs.
+
+**The chapter states its own limitation prominently rather than in a footnote.** It is written on 27%
+of wanted evidence with the primary cell at 6 of 14, and the Provenance block records that synthesis
+proceeded over an explicit RA objection — Rickard et al. carries §6 almost alone, and the two studies
+most likely to contest it (Robson & Smith 2012, which it targets; Alter & Hacker 2024, the only study
+designed squarely on the estimand) are both unread. It also separates what would survive full
+retrieval (the mechanical bound, the post-2010 reversal) from what might not (the offset magnitude).
+
+Next: stage 13 RA lay-readability check, then PI review. Five PI calls stand, including the
+unenumerated intergenerational cell and whether the identity should be computed on surviving children.
