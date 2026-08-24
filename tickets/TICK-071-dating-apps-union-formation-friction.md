@@ -140,3 +140,60 @@ mirroring a predecessor's A3 must diff the log writer, not just the candidate se
 
 Next: A4 citation frame (Tier A/B), script 173 — Wall 9 bypass seeded by provenance, and exact
 count-only on-topic rates for the geochronology and dating-violence clouds rather than samples.
+
+### 2026-08-24 — A4 Tier A/B citation frame (script 173)
+
+**25 Tier A seeds, Tier B 11,001 deduplicated records, 0 failed requests.** 748 records found by more
+than one seed. Report at `literature/search-logs/dating-apps-union-formation-friction-tier-ab-log.md`.
+
+**WALL 9'S COST IS NOW A NUMBER, AND SO IS THE SIZE OF THIS CHAPTER'S IDENTIFICATION NEIGHBOURHOOD —
+which is the more sobering half.** Across the **277 records reachable from any `SECONDARY_TECH_*`
+seed**, 21 (7.6%) carry an outcome and no app vocabulary — the bypass population — against 7 (2.5%)
+carrying app vocabulary. So the provenance bypass triples what an app-axis screen can see there, and
+Billari et al.'s cloud carries **0% app vocabulary**, which is Wall 9's premise confirmed rather than
+asserted. But the whole identification neighbourhood is **277 records**. A.12's equivalent was 1,991.
+The bypass is cheap and correct and it is not going to rescue this chapter: the identified literature
+on A.24's exposure is thin in absolute terms, and the chapter should say so in those words.
+
+**THE OUTCOME AXIS SPLITS EXACTLY WHERE THE SCOPE PREDICTED.** Inside the 8 empirical seeds' clouds
+(1,008 records), **25.6% carry a union construct and 9.5% carry a fertility quantity.** That gap is
+the chapter's central empirical claim restated as a property of the literature rather than as an
+argument: the evidence base reaches partnership and stops short of births.
+
+**A substring bug fired inside the one cloud whose purpose is to have a zero.** `"dating app"` was
+matched as a bare substring and hit **nine luminescence-dating papers** — *"dating applications"* —
+putting the app axis at 0.9% inside the geochronology cloud. Word-boundary matching takes it to
+**0.0%**. Sixth instance of the unanchored-pattern family in this codebase, and the worst-placed:
+a false positive inside a decoy family reads as evidence that the carve-out is unsafe. The other term
+blocks stay on substring matching deliberately — their entries are long phrases or intentional stems
+(`geochronolog`, `agronom`) where a boundary breaks the match rather than sharpens it.
+
+**A HOMONYM FAMILY THAT SHARES A WORD WITH THE OUTCOME AXIS CANNOT BE MEASURED WITH A VOCABULARY
+CONTAINING THAT WORD.** The agronomic seed's exact on-outcome rate came back at **16.8%**, which
+under the rule written into this script would REFUTE the Wall 2 carve-out and force an uncapped
+re-pull. It refutes nothing. The outcome vocabulary contains the bare word "fertility", and in a
+biofertilizer cloud "fertility" means SOIL fertility — the measurement was scoring Wall 2's own
+justification as evidence against Wall 2. Re-measured on a human-anchored vocabulary the rate is
+**0.1%**, and geochronology is **0.0%**. Both carve-outs stand. Both rates are now computed and both
+reported, because the gap between them is the finding.
+
+**The violence seed demonstrates the other half of the sampling argument.** Its exact rate (5.5%) is
+LOWER than its sampled rate (8.2%): a capped pull returns the high-citation head, and the head of an
+IPV literature is likelier to carry a marriage or partnership word than its tail. A cap does not
+merely lose records, it loses them non-randomly, in the direction that flatters the diagnostic. This
+run therefore computes the exact rate for **any truncated seed**, not only the homonym ones — A.12
+computed it for homonyms alone.
+
+**Wall separability, measured.** The violence cloud (8,497 citing, 5,000 pulled) carries **0.0% app
+vocabulary**, so Wall 3 is separable on the exposure axis at retrieval even though the wall itself is
+cut on outcome. `OFF_PLATFORM_ENG` runs 21% app and `OFF_SEXHEALTH` 43% — both share this chapter's
+exposure vocabulary heavily, which is why Walls 4 and 5 have to be adjudicated per paper on outcome
+and cannot be shortcut with a term sieve. That is A.12's Wall 6 lesson arriving on schedule.
+
+**68% of the frame is decoy-dependent** (7,460 of 11,001 records reachable only from a routing-decoy
+seed; 2,159 only from a homonym seed). `seed_ids` provenance is retained on every record so Recall(B)
+can be recomputed without either group.
+
+Next: D1 deterministic rank and screening cutoff (script 174). The anti-correlation to watch is the
+mirror of A.12's — here the app axis is dense in the mechanism clouds and absent from the identified
+ones, so up-weighting the exposure axis would demote precisely the evidence the chapter needs.
