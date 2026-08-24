@@ -1,5 +1,5 @@
 # TICK-071: A.24 Dating Apps and Union-Formation Friction
-**Status:** open
+**Status:** in-progress
 **Assigned:** Shravan
 **Hypothesis:** `dating-apps-union-formation-friction` — HYPOTHESES-v5.md §A.24
 **Parallel-safe:** yes
