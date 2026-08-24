@@ -17,10 +17,10 @@
 - [x] 8. Risk-of-bias assessment per study — 7 domains incl. two chapter-specific; **7 Critical, 5 Serious, nothing below Serious** (2026-08-24)
 - [x] 9. Narrative synthesis — meta-analysis NOT defensible (no two studies share an estimator, exposure construct or outcome); §6 written on the resolve-don't-average rule (2026-08-24)
 - [x] 10. Demographic significance — PM and FDT NOT ASSESSED (out of registry scope); **SDT NOT ASSESSED — insufficient evidence**, with a timing bound and an adoption bound stated (2026-08-24). Timing bound is PROVISIONAL: not yet recomputed from in-repo data
-- [~] 11. GRADE — link 2 **VERY LOW**, link 3 **INSUFFICIENT EVIDENCE** (2026-08-24). Single-rater; the 3-rater panel is outstanding
+- [~] 11. GRADE — link 2 **VERY LOW**, link 3 **INSUFFICIENT EVIDENCE** (2026-08-24). One rater plus two adversarial re-ratings by the same rater; **the three-INDEPENDENT-rater panel is OUTSTANDING and the packet requests rater assignment**
 - [x] 12. Chapter draft — `output/chapters/dating-apps-union-formation-friction.md`, 4,675 words, all seven mandatory sentences present (2026-08-24)
-- [ ] 13. RA lay-readability check
-- [ ] 14. PI review and sign-off
+- [~] 13. RA lay-readability — **blank checklist issued** (`extraction/dating-apps-union-formation-friction-ra-lay-readability.md`); not yet returned. Author-side style pass done against the 17 rules; 3 defects found and fixed
+- [~] 14. PI review — **packet written** (`output/chapters/dating-apps-union-formation-friction-pi-review-packet.md`, 7 numbered decisions); awaiting Anup
 
 ## Log
 
@@ -578,3 +578,45 @@ decide whether that is a distinct verdict or a variant of the fifth.
 
 Next: stage 13 RA lay-readability check, the three-rater GRADE panel, and PI review. Retrieval of
 band P0 remains the binding constraint on everything except the empty-cell finding.
+
+### 2026-08-24 — P0 recovery, GRADE panel, lay-readability checklist, PI packet
+
+**BAND P0: ZERO OF FIFTEEN RECOVERED, after four further rungs (script 183).** `178_` had already
+tried the best open-access location, alternate locations, `citation_pdf_url` scraping and PMC. This
+pass added an OpenAlex re-check for newly-deposited copies, Crossref publisher-declared full-text
+links, SSRN delivery-URL patterns, and Europe PMC — chosen because Europe PMC indexes different
+journals from PMC, so a zero there is a second measurement rather than the same one. **All four
+returned zero.** Eight rungs across two passes, nothing recovered. **Automated retrieval is exhausted
+for the band that decides this chapter's verdicts**, and the procurement list is now the only route
+rather than a convenience. The log separates blocked routes from paywalls, because a proxy may fix the
+first and only a purchase or interlibrary loan will fix the second.
+
+**GRADE panel run, and it is NOT a three-rater panel.** PROTOCOL §5.11 asks for three independent
+raters; script 184 produces one rater's ratings plus two ADVERSARIAL re-ratings by the same rater, and
+says so in its own first paragraph. Correlated error survives that exercise untouched. The requirement
+stays open and the packet requests rater assignment. Neither adversarial pass moved a rating, and both
+produced something the primary pass had left implicit:
+
+- the higher-rating argument found a **contingency**: the age reversal in Kolk and Billari is a
+  replicated interaction estimated in two independent data sources, not heterogeneity, so if the
+  unread quasi-experimental estimates show the same shape then inconsistency should be restored to
+  zero — the rating would not move, but the chapter must stop calling that study inconsistent;
+- the lower-rating argument found a **limit of the scale**: GRADE has no level below very low, so the
+  rating cannot express that indirectness here means *no evidence answers this question* rather than
+  *the evidence answers a neighbouring one*. The verdict says in words what the scale cannot.
+
+**Lay-readability: blank checklist issued, and an author-side style pass found three real defects.**
+The checklist is written to be answered by someone reading as the target undergraduate rather than as
+someone who already knows the conclusion, and it includes one question worth keeping for other
+chapters: *could a journalist reading only §9 misreport this as "dating apps do not affect
+fertility"?* Author-side pass against the 17 style rules found and fixed: "either sign alone" used for
+effect direction where the rule reserves sign for coefficients, and PRISMA and GRADE both used without
+a gloss at first use. No internal cell labels or colon-led lists leaked into the prose.
+
+**PI packet written with seven numbered decisions.** The two that block: whether the chapter ships at
+22% with the empty-cell finding while the direction findings wait for band P0, and whether *not
+assessed — insufficient evidence* is an acceptable sixth demographic-significance verdict — which
+belongs in the template rather than in this chapter, because it will recur on every hypothesis whose
+primary cell comes up empty. The packet also raises whether the registry entry is now mis-specified:
+A.24 asserts a fertility effect, the evidence base can only reach partnership, and the chapter as
+drafted grades a link §A.24 does not name.

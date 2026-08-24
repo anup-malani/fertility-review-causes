@@ -130,6 +130,8 @@ through their citation provenance rather than through their words, and §5 shows
 
 ## 4. PRISMA flow
 
+The table below is a **PRISMA flow** (the standard systematic-review accounting of how many records were found, how many were read, and how many survived each step).
+
 | Step | n | Note |
 |---|---|---|
 | Seeding anchors resolved | 25 | of 26 candidates; one monograph carries no index record |
@@ -345,6 +347,8 @@ level.
 ---
 
 ## 8. GRADE
+
+**GRADE** (Grading of Recommendations, Assessment, Development and Evaluations) is the standard scheme for rating how much confidence a body of evidence supports. It starts from the designs available and moves down one level for each named defect.
 
 | Phenomenon | Link | Starting level | Downgrades | Rating |
 |---|---|---|---|---|
