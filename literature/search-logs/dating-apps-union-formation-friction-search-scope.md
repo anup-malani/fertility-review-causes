@@ -2,10 +2,11 @@
 
 **Hypothesis:** A.24 (`dating-apps-union-formation-friction`), HYPOTHESES-v5.md §A.24
 **Ticket:** TICK-071 · **Stage:** PROTOCOL §5 stage 2
-**Status:** **DRAFT — not frozen.** Five PI calls open (§PI calls). Everything below that carries a
-count was measured live on 2026-08-24 by `source/build/goldset/170_a24_recon_probe.py` (65 requests,
-0 failed) and `171_a24_named_recheck.py` (17 requests, 0 failed). Reports:
-`dating-apps-union-formation-friction-recon-probe.md`, `-named-recheck.md`.
+**Status:** **FROZEN 2026-08-24.** All five PI calls ruled (§PI calls). Everything below that
+carries a count was measured live on 2026-08-24 by `source/build/goldset/170_a24_recon_probe.py`
+(65 requests, 0 failed) and `171_a24_named_recheck.py` (17 requests, 0 failed). Reports:
+`dating-apps-union-formation-friction-recon-probe.md`, `-named-recheck.md`. Stages A3, A4, D1, D2 and
+5 ran against the drafted scope and are unaffected by the rulings — see *What changed at freeze*.
 
 ---
 
@@ -219,36 +220,72 @@ chapter it produced fifteen fake zeros. The fix is to retry through `filter=raw_
 combined with a title term, or by DOI; it belongs in the shared probe scaffold rather than in a
 per-chapter fix. Recorded here, not edited across branches from this one.
 
-## PI calls — status
+## PI calls — RULED 2026-08-24
 
-**Call 1 — does A.24 grade the composition, or only link 2?** *Recommended:* grade link 2 (technology
-exposure → union formation) and import link 3 from A.7 with its uncertainty stated, rather than
-grading a composite nobody has estimated. RA-provisional; the chapter can be written either way, but
-the GRADE table's row labels depend on it.
+All five were ruled by the PI on 2026-08-24, after D2 and stage 5 had reported. The rulings are
+recorded with the evidence each rested on at the time, because three of the five moved from
+hypothetical to costed between the draft and the ruling.
 
-**Call 2 — A.24 vs C.2.h, when the identified variation is the same variation.** Broadband/3G/cellular
-rollout instruments both chapters. *Recommended:* split on **outcome**, not on treatment — A.24 owns
-partnering and union formation, C.2.h owns time and attention allocation (and A.14 owns coital
-frequency). A study estimating tech diffusion → fertility with no partnering channel is C.2.h's; one
-that runs through partnering is shared, tagged `SECONDARY_TECH_FERTILITY`, and **only one chapter may
-claim the magnitude in synthesis**. Without this rule the two chapters double-count the same
-coefficient. This is A.12's Call 3 in a new setting.
+**Call 1 — RULED: grade link 2 only.** A.24 grades the technology-exposure → union-formation link and
+**imports** the union → births link from A.7 with its uncertainty stated. It does not grade the
+composition, because nobody has estimated it. *Evidence at ruling:* the screen counted 140 records
+with a partnership outcome, 56 with a fertility quantity and **two with both** — and the two are one
+German cohort study plus its own working paper.
+*Consequence:* the GRADE table's rows are technology→union. Any fertility number the chapter reports
+is a composition of a graded link and an imported one, and must be labelled as such wherever it
+appears.
 
-**Call 3 — is pre-app online dating (1995–2012) in scope?** *Recommended:* **yes.** Excluding it
-deletes Rosenfeld & Thomas 2012, Hitsch Hortaçsu & Ariely 2010, Bellou 2014 and the entire identified
-literature, leaving a chapter about a decade-old technology with no estimates. v5's own framing
-("swiping", "commodification") is app-specific, so the chapter must then report the app-era subset
-separately rather than pooling across a technological discontinuity.
+**Call 2 — RULED: share the technology-diffusion records with C.2.h.** The broadband, 3G and cellular
+rollout studies enter BOTH chapters' evidence bases rather than being routed away from one.
+*Evidence at ruling:* 27 records reached `SECONDARY_TECH_*`, and ten of the 33 readable causal
+records are of this kind — routing them out would have left A.24 with almost no readable
+identification.
+*One sub-question the ruling does not settle, and the reading adopted:* whether BOTH chapters may
+report the same magnitude. Double-counting one coefficient across two chapters is a real defect in a
+review that sums contributions, so the working rule is **shared evidence base, single claimant on
+magnitude**: both chapters extract and grade the record, and the synthesis stage names which chapter
+carries its contribution to the aggregate. Flagged here rather than assumed — if the PI intended both
+chapters to claim it, this line is what needs changing.
+*Consequence:* extraction is unblocked, and every shared record carries a `shared_with: C.2.h` tag so
+the synthesis can find them without re-searching.
 
-**Call 4 — what verdict does an empty primary cell earn?** `PRIMARY_APP_FERTILITY` is expected to be
-empty. PROTOCOL §6 needs to say whether that is *Insufficient Evidence* or a graded *no demonstrated
-effect*. The distinction matters because A.24 is a live public claim, and "no evidence" and "evidence
-of no effect" are read very differently by the audience for the living resource.
+**Call 3 — RULED: pre-app online dating (1995–2012) is in scope.** *Consequence:* Rosenfeld & Thomas
+2012, Hitsch Hortaçsu & Ariely 2010 and Bellou 2014 stay in. But v5's own framing — swiping,
+commodification, match abundance — is app-specific, so **extraction carries an `era` field keyed on
+the study's EXPOSURE period rather than its publication year** (`pre_app` ≤2012, `app_era` ≥2013,
+`spans` for panels crossing the discontinuity), and the synthesis reports the app-era subset
+separately rather than pooling across a technological break.
 
-**Call 5 — how is contrary evidence graded?** Rosenfeld 2017 and Billari et al. 2019 estimate the
-right relationships with the wrong sign for v5. *Recommended:* grade them as evidence on the
-registered estimand — i.e. the chapter can return a negative verdict with a non-trivial GRADE rating
-rather than an empty one. Flagged because it determines whether the chapter has a GRADE table at all.
+**Call 4 — RULED: an empty primary cell earns *Insufficient Evidence*, not a graded no-effect.**
+*Consequence:* `PRIMARY_APP_FERTILITY` is reported as **Insufficient Evidence** for the SDT, with the
+denominator shown — a rule-selected candidate pool that was read, not a cell nobody looked at. The
+chapter must not phrase this as evidence of no effect anywhere in its text, and the distinction gets
+a sentence in the verdict rather than a footnote, because the living resource's audience reads the
+two very differently.
+
+**Call 5 — RULED: contrary evidence is graded on the registered estimand.** Studies estimating the
+right relationship with the wrong sign for v5 are evidence about the hypothesis, not evidence about a
+different question. *Consequence:* A.24 can return a **negative verdict carrying a non-trivial GRADE
+rating** rather than an empty one — and it now has evidence pointing both ways to weigh (Rosenfeld
+2017 and the broadband-fertility estimates against v5; the 50-country relationship-satisfaction study
+and the rejection-mindset line for it).
+
+## What changed at freeze, and what it cost
+
+Nothing in the walls or the estimand cells changed, so **A3, A4, D1, D2 and stage 5 all stand and
+none needs re-running.** That is the payoff for having drafted the walls tightly enough to survive
+the calls, and it is worth contrasting with A.12, where Call 3 forced a Wall 6 re-cut after the
+scope was drafted.
+
+Three things the rulings ADD, all downstream of work already done:
+
+1. **An `era` field at extraction** (Call 3). Cheap — it is a coding decision per study, not a
+   re-search.
+2. **A `shared_with: C.2.h` tag** on the 27 technology-diffusion records (Call 2), and a note to the
+   synthesis stage that the single-claimant rule applies.
+3. **A verdict label change** for `PRIMARY_APP_FERTILITY` from the drafted "expected empty" to
+   **Insufficient Evidence** (Call 4), which is a stronger claim than "empty" and requires the
+   candidate-pool denominator to be reported alongside it.
 
 ## Next
 

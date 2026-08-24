@@ -8,10 +8,10 @@
 **Touches:** literature/search-logs/dating-apps-union-formation-friction-*, extraction/dating-apps-union-formation-friction-*, output/chapters/dating-apps-union-formation-friction.md
 
 ## Acceptance criteria
-- [x] 2. Search strategy and scope **DRAFTED, not frozen** — `literature/search-logs/dating-apps-union-formation-friction-search-scope.md` (2026-08-24). 9 walls, 9 estimand cells, 5 PI calls open.
-- [ ] 3. Literature search and AI screening, both phases (§5.1)
-- [ ] 4. RA title/abstract review
-- [ ] 5. Full-text retrieval
+- [x] 2. Search strategy and scope **FROZEN 2026-08-24** — `literature/search-logs/dating-apps-union-formation-friction-search-scope.md`. 9 walls, 9 estimand cells, all 5 PI calls ruled. No wall or cell changed at freeze, so A3/A4/D1/D2/stage 5 all stand.
+- [x] 3. Literature search and AI screening, both phases (§5.1) — A3 26 anchors, A4 Tier B 11,001, D1 worklist 887 (2026-08-24)
+- [x] 4. RA title/abstract review — D2 complete, 887 records, 15 batches (2026-08-24)
+- [x] 5. Full-text retrieval — **33 of 152 readable (22%)**; 119 banded for the library (2026-08-24)
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
 - [ ] 7. Extraction to `extraction/dating-apps-union-formation-friction.csv`, RA verifies a random 10%
 - [ ] 8. Risk-of-bias assessment per study
@@ -378,3 +378,45 @@ read a rule-selected subset.
 Next: stage 6/7 — full-text screen and extraction on the 33 readable records, starting with the
 readable half of the fertility cell and the four readable technology-diffusion estimates, while P0
 is procured. The chapter cannot be finalised on 22% coverage; the verdict on the empty cell can be.
+
+### 2026-08-24 — all five PI calls ruled; scope FROZEN
+
+**Call 1: grade link 2 only.** Technology exposure → union formation is graded; union → births is
+imported from A.7 with its uncertainty stated. The GRADE rows are technology→union, and any fertility
+number the chapter reports is a composition of a graded link and an imported one and must be labelled
+as such wherever it appears.
+
+**Call 2: share the technology-diffusion records with C.2.h.** They enter both chapters' evidence
+bases. This is what unblocks extraction — ten of the 33 readable causal records are broadband or
+internet-exposure studies, and routing them out would have left A.24 with almost no readable
+identification. **One sub-question the ruling does not settle and the reading adopted:** whether both
+chapters may report the same MAGNITUDE. Double-counting one coefficient across two chapters is a real
+defect in a review that sums contributions, so the working rule is *shared evidence base, single
+claimant on magnitude* — both extract and grade, and synthesis names which chapter carries the
+contribution. Recorded in the scope as the line to change if the PI intended otherwise. Every shared
+record now carries a `shared_with: C.2.h` tag.
+
+**Call 3: pre-app online dating (1995–2012) is in scope.** Rosenfeld & Thomas 2012, Hitsch Hortaçsu &
+Ariely 2010 and Bellou 2014 stay in. Because v5's framing is app-specific, extraction gains an `era`
+field keyed on the study's EXPOSURE period rather than its publication year (`pre_app` ≤2012,
+`app_era` ≥2013, `spans` for panels crossing the break), and synthesis reports the app-era subset
+separately rather than pooling across a technological discontinuity.
+
+**Call 4: an empty primary cell earns *Insufficient Evidence*, not a graded no-effect.**
+`PRIMARY_APP_FERTILITY` is reported as Insufficient Evidence for the SDT with its candidate-pool
+denominator shown. The chapter must not phrase it as evidence of no effect anywhere, and the
+distinction gets a sentence in the verdict rather than a footnote.
+
+**Call 5: contrary evidence is graded on the registered estimand.** A.24 can return a NEGATIVE
+verdict with a non-trivial GRADE rating rather than an empty one, and it has evidence pointing both
+ways to weigh.
+
+**NOTHING IN THE WALLS OR THE ESTIMAND CELLS CHANGED, SO A3, A4, D1, D2 AND STAGE 5 ALL STAND AND
+NONE NEEDS RE-RUNNING.** That is the payoff for drafting the walls tightly enough to survive the
+calls, and it is worth contrasting with A.12, where Call 3 forced a Wall 6 re-cut after the scope was
+drafted and the re-cut turned out to be self-defeating as first written. The three additions here are
+all downstream of work already done: an `era` field at extraction, a `shared_with` tag on 27 records,
+and a verdict label that is a stronger claim than "empty" and carries a denominator with it.
+
+Next: stage 6/7 — full-text screen and extraction on the 33 readable records, with `era` and
+`shared_with` coded from the start, while P0 is procured.
