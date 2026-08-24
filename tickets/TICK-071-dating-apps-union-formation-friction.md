@@ -197,3 +197,49 @@ can be recomputed without either group.
 Next: D1 deterministic rank and screening cutoff (script 174). The anti-correlation to watch is the
 mirror of A.12's — here the app axis is dense in the mechanism clouds and absent from the identified
 ones, so up-weighting the exposure axis would demote precisely the evidence the chapter needs.
+
+### 2026-08-24 — D1 deterministic rank and screening cutoff (script 174)
+
+**Frame in 11,001; 262 version duplicates collapsed on normalized title, leaving 10,739 scored.
+Worklist out: 887** — 800 budget slice + 83 orthogonal + 3 Wall 9 + 1 both-axes + **0 empty-cell**.
+9,852 records go unread, of which 7,401 depend on a routing decoy alone and 2,151 on a homonym seed
+alone. Nothing is deleted; every record keeps score, rank and hit lists so the cutoff can be re-cut
+without re-running retrieval. Report at
+`literature/search-logs/dating-apps-union-formation-friction-d1-log.md`.
+
+**THE EMPTY CELL'S CANDIDATE POOL IS EIGHT RECORDS IN A FRAME OF 10,739, AND READING THEM IS THE
+HEADLINE.** Records carrying app vocabulary AND a fertility term: 8. All eight already sat inside the
+top 800, so the empty-cell bypass added nothing — it was insurance that cost nothing, which is the
+right outcome and not a reason to remove it. Their titles are the chapter in miniature: a 2025
+partnership-formation paper, a *philosophy* paper on whether state-run dating apps are morally
+desirable, two mid-life/older-adult dating studies, a JOLE marriage-market paper on the costs of
+ageing, and — **the one worth flagging — "Wanting or having children predicts age preferences in
+online dating", which runs the causal arrow BACKWARDS.** Fertility intentions predicting dating
+behaviour is the reverse-causality exemplar this chapter will need in its risk-of-bias section, and
+it surfaced from the ranker rather than from a hypothesis about what we would find. This is the
+frame's count, not the literature's; C1's production pull is what will test it at index scale.
+
+**Both-axes completeness holds: 183 of 183 in the worklist, 0 unread.** Only 183 records in 10,739
+(1.7%) carry the exposure and an outcome together — the frame is overwhelmingly decoy material, which
+the score distribution confirms: 5,172 records score 0-4 and 3,379 score negative, so **80% of the
+frame is at or below 4** against a budget margin of 28 and a top score of 132.
+
+**The demotions did their job and the head is clean.** In the top 800: **0 homonym-only records, 0
+carrying any geochronology term**, and 23 decoy-only. The head itself is 25 on-topic
+dating-app/partnership records with no leakage at all. Rank 1 is *Dating apps and marriage rates*
+(2026, 0 cites) — a brand-new paper squarely on link 2, invisible to any citation-weighted ranking,
+and P0 for retrieval.
+
+**Wall 9's bypass added 3 records, and that is the honest measure of it.** The tech-diffusion
+neighbourhood is small enough that the ranker had already surfaced most of it. Combined with A4's
+count of 277 records in the whole identification neighbourhood, the conclusion stands as stated
+there: the bypass is correct, nearly free, and does not change this chapter's evidentiary position.
+It recovers what is there; what is there is thin, and the chapter says so.
+
+**The inherited orthogonal bypass returned 83 records** — larger than A.12's 40. Its yield is measured
+separately at D2 per the standing rule: on A.12 the inherited bypass returned 5% against the
+chapter-specific one's 44%, and an inherited bypass that has stopped paying should be retired rather
+than carried forever.
+
+Next: D2 semantic screen over the 887-record worklist (scripts 175, 176), with per-bypass yields
+reported.
