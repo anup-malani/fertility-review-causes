@@ -12,8 +12,8 @@
 - [x] 3. Literature search and AI screening, both phases (§5.1) — A3 26 anchors, A4 Tier B 11,001, D1 worklist 887 (2026-08-24)
 - [x] 4. RA title/abstract review — D2 complete, 887 records, 15 batches (2026-08-24)
 - [x] 5. Full-text retrieval — **33 of 152 readable (22%)**; 119 banded for the library (2026-08-24)
-- [ ] 6. Full-text screen, RA spot-checks 5–10%
-- [ ] 7. Extraction to `extraction/dating-apps-union-formation-friction.csv`, RA verifies a random 10%
+- [x] 6. Full-text screen — 13 of 33 readables screened at full text (2026-08-24); RA spot-check outstanding
+- [~] 7. Extraction — `extraction/dating-apps-union-formation-friction-{studies,effects}.csv`; **13 studies / 14 effects extracted** (2026-08-24). RA 10% verification outstanding; 20 readables still `not_started`
 - [ ] 8. Risk-of-bias assessment per study
 - [ ] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise
 - [ ] 10. Demographic significance against PM / FDT / SDT
@@ -420,3 +420,59 @@ and a verdict label that is a stronger claim than "empty" and carries a denomina
 
 Next: stage 6/7 — full-text screen and extraction on the 33 readable records, with `era` and
 `shared_with` coded from the start, while P0 is procured.
+
+### 2026-08-24 — stages 6 and 7 opened: full-text screen and extraction (script 180)
+
+**13 of 33 readables screened at full text and extracted; 14 effect rows.** Sheets at
+`extraction/dating-apps-union-formation-friction-{studies,effects}.csv`, scaffolded by rule from the
+retrieval log so metadata is inherited rather than retyped. Both fields the PI rulings added are
+carried from the start: `era` keyed on the study's EXPOSURE period rather than its publication year,
+and `shared_with: C.2.h` on every `SECONDARY_TECH_*` record.
+
+**THE ONE STUDY IN THE DEFINING CELL POINTS THE OPPOSITE WAY TO THE HYPOTHESIS, AND IT REFUTES
+ITSELF ON DIRECTION.** Danielsbacka, Tanskanen & Billari (2020), Pairfam, 8,177 persons, three birth
+cohorts, waves 1–8:
+
+- **entry into parenthood: NULL in the youngest cohort** (−0.02, p=0.439, fully adjusted) — the
+  cohort most exposed to apps;
+- **entry into parenthood: POSITIVE in the OLDEST cohort** (interaction +0.11, p=0.006);
+- **intention to have a first child: POSITIVE and robust** (+0.07, p=0.017 fully adjusted);
+- separation: **higher for online-met**, +0.06 (p=0.012) — but +0.03 and *not significant* in
+  Model 2, so v5's only supportive result here fails one of four specifications;
+- relationship satisfaction, intention to separate, moving in together: all null after adjustment.
+
+**And the authors run the reverse test themselves.** Higher fertility intentions at baseline predict
+meeting a NEW partner online in the following wave: **β = 0.22, p = 0.001, CI 0.092–0.343 — roughly
+three times their own forward coefficient of 0.07, in the same data.** People who want children go
+online to find a partner. That is the risk-of-bias fact the chapter is built around, and it comes
+from inside the single study its defining cell contains, not from a critic.
+
+**The identified and quasi-identified technology evidence runs the same way.** Of 14 extracted effect
+rows, **8 point against v5, 3 for it, 1 is null, 1 is the reverse-causation coefficient**:
+
+- **Japan, IBJ platform (Economics Letters 2025): matching efficiency TRIPLES 2014–2025**, on a
+  platform covering 3.3% of national marriages. This is the most direct measurement of the quantity
+  v5 says falls — conversion of search into confirmed engagements — in the lowest-fertility rich
+  country in the frame, and it moves the opposite way. Weight-limiting caveat recorded: users are
+  highly selected into serious marriage search by costly screening.
+- **Kolk & Billari (Population Studies 2021), NLSY97 + CPS: the sign REVERSES with age** — internet
+  access delays partnership formation at younger ages and raises it from the mid-to-late 20s, in both
+  data sources and for both heterosexual and homosexual partnerships. **A single-sign summary of this
+  study would be false whichever sign was chosen**, and the chapter must report it as a shape.
+- Sweden, register data, N=938,768: campus enrolment cuts first-parity conception hazard by 70%,
+  online distance enrolment by only 43% — the online mode ATTENUATES postponement by 27 points.
+- OECD spatial panel 2000–2021: robust POSITIVE association between broadband and realized TFR.
+- China, N=314: negative online fertility content −0.749 against positive content +0.058 — the
+  asymmetry is real and is the one quantitative result clearly supporting v5's direction.
+
+**What is NOT yet extracted, stated rather than implied:** 20 of the 33 readables, almost all
+qualitative `PRIMARY_APP_UNION` interview studies and `EXPOSURE_SERIES` records, plus the coefficient
+tables of two Chinese survey papers whose study rows are populated but whose effects are not. And the
+whole of band P0 remains unread — including the Economics Letters Tinder paper, *Wide and Shallow*,
+and the broadband-on-teen-fertility and age-at-first-marriage estimates. **The direction of the
+evidence so far is consistent, but it rests on 22% retrieval and no identified estimate of app
+exposure on fertility exists in the readable set.**
+
+Next: RA spot-check of the full-text screen, then risk of bias (stage 8) on the extracted set — with
+the reverse-causality finding as its own domain, since the one study in the primary cell demonstrates
+the bias rather than merely being exposed to it.
