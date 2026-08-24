@@ -320,3 +320,61 @@ Next: stage 5 full-text retrieval, prioritised on the 2 `PRIMARY_APP_FERTILITY` 
 identified estimates, and the two no-abstract records whose titles imply identified designs
 (`The Impact of Dating Apps on Young Adults: Evidence From Tinder`; `What Happens When Dating Goes
 Online? Evidence from U.S. Marriage Markets`).
+
+### 2026-08-24 — stage 5 retrieval (scripts 177, 178, 179)
+
+**33 of 152 wantlist records readable (22%). 119 need a human with a library proxy.** The wantlist was
+selected BY RULE from the screen output — cell membership for the causal cells, note-keyed rules for
+the mechanism and exposure-series cells — so it re-runs identically if the screen is revised.
+
+**A.24 IS RETRIEVAL-BOUND, AND IT IS BOUND EXACTLY WHERE IT CAN LEAST AFFORD TO BE.** The cell counts
+tell the story: `PRIMARY_APP_UNION` 12 of 65 readable, `SECONDARY_TECH_*` 10 of 27, and
+**`PRIMARY_APP_FERTILITY` 1 of 2** — the readable one being the working paper, with the journal
+version blocked. Every identified technology-diffusion estimate the screen surfaced is behind a wall:
+broadband on teen fertility, broadband and cell phones on marriage and divorce, internet exposure on
+age at first marriage, broadband on divorce in China, broadband on fertility decisions, and *Wide and
+Shallow: digital technology and the post-2007 fertility decline*. So is the Economics Letters Tinder
+paper, the only identified estimate of app exposure on marriage in the entire frame.
+
+**The funnel, stated so the loss is visible at each step:**
+
+| step | n | note |
+|---|---|---|
+| wantlist | 152 | selected by rule from 887 screened |
+| OpenAlex says open | 76 | 50% |
+| fetched on the first pass | 20 | 26% of the nominally-open |
+| recovered by rungs 1–3 | +13 | 6 alternate OA locations, 7 `citation_pdf_url`, **0 PMC** |
+| **readable** | **33** | **22% of the wantlist** |
+
+**51 of the 43 failures were HTML interstitials** — a 200 returning a landing page instead of a PDF
+(the count exceeds the failure count because several records were tried on more than one route).
+Those are BLOCKED ROUTES, not closed papers, which is why they are on the procurement list rather
+than in a "not obtainable" bucket.
+
+**The PMC zero was predicted in the script's docstring before the run.** B.6 built its recovery rung
+around PMC; A.12 measured it at zero; A.24 confirms it at zero again. This chapter's literature is
+economics, sociology and communication, and PMC indexes none of it. Rung order is a property of the
+literature, not of the code, and three chapters now say so.
+
+**A banding defect caught on read-back, and the shape of it generalises.** The first version of the
+band rule keyed P0 on cell membership — `PRIMARY_APP_FERTILITY` plus flagged `SECONDARY_TECH_*`
+records — and dropped *Dating apps and marriage rates* (Economics Letters), the only identified
+app-to-marriage estimate anywhere in the frame, into P3, because its cell is `PRIMARY_APP_UNION`. The
+screen had already written "IDENTIFIED ESTIMATE … P0 for retrieval" in its note and the band rule
+could not see it. **A band derived from cell membership cannot read a judgement the screen recorded
+in prose.** Rule now reads the note, and P0 went from 11 records to 15 — the four additions being the
+Economics Letters paper, the US marriage-markets SSRN paper, the 50-country relationship-satisfaction
+study, and the paper that re-examines v5's mechanism directly.
+
+**Bands: P0 15 · P1 7 · P2 6 · P3 49 · P4 30 · P5 12.** P0 is the band that decides verdicts: if only
+one band is worked, work that one. P2 is the six records the screen could not read at all — no
+abstract, titles implying identified designs — where retrieval is the only thing that can classify
+them.
+
+**Deliberately not on the list and reported rather than dropped:** 159 mechanism records and 42
+exposure-series records deprioritised by rule at `177_`. The mechanism section must state that it
+read a rule-selected subset.
+
+Next: stage 6/7 — full-text screen and extraction on the 33 readable records, starting with the
+readable half of the fertility cell and the four readable technology-diffusion estimates, while P0
+is procured. The chapter cannot be finalised on 22% coverage; the verdict on the empty cell can be.
