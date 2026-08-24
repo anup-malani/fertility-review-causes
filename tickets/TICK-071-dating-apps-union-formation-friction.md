@@ -243,3 +243,80 @@ than carried forever.
 
 Next: D2 semantic screen over the 887-record worklist (scripts 175, 176), with per-bypass yields
 reported.
+
+### 2026-08-24 — D2 title/abstract screen complete (scripts 175, 176)
+
+**887 records screened across 15 batches. 342 RELEVANT · 23 UNCERTAIN · 522 NOT_RELEVANT.** Coverage
+asserted, not assumed: every worklist record carries exactly one verdict and every verdict id is in
+the worklist. Reports at `literature/search-logs/dating-apps-union-formation-friction-screen-{rubric,summary}.md`.
+
+**THE OUTCOME AXIS SPLITS EXACTLY AS THE SCOPE PREDICTED, NOW COUNTED IN STUDIES RATHER THAN WORDS:
+140 records report a partnership outcome, 56 report a fertility quantity, and TWO report both.** A4
+measured the same gap in vocabulary (25.6% vs 9.5%); the screen measures it in outcomes and it
+survives. The `both` count is the join A.24's claim actually requires, and it is 2 — which is really
+ONE study, since the pair is a German cohort paper and its own working paper ("Meeting online and
+family-related outcomes: evidence from three German cohorts" / "Online partnering and family related
+outcomes in Germany"). **The chapter's headline is now a measured fact rather than an expectation.**
+
+**Causal cells: 94 records** — 65 `PRIMARY_APP_UNION`, **2 `PRIMARY_APP_FERTILITY`**, 27
+`SECONDARY_TECH_*`. A further 193 are mechanism records, which carry the mechanism section and earn
+no causal recall credit. The mechanism literature is four times the size of the entire causal
+literature and twenty times the size of the fertility cell.
+
+**THE EMPTY-CELL BYPASS FAILED IN BOTH DIRECTIONS, AND THAT IS THE FINDING WORTH CARRYING OFF THIS
+STAGE.** D1 flagged 8 candidates by requiring app vocabulary AND a fertility term. **Precision 0 of
+8** — on reading, two were partnership studies, three ran the arrow backwards, two were
+marriage-market papers whose fertility content was age-related fecundity acting as a preference, and
+one was a philosophy paper. **Recall 0 of 2** — NEITHER real record was flagged, because neither
+carries any app vocabulary at all: they say *"meeting online"* and *"online partnering"*, and the
+exposure axis is written in noun form (`dating app`, `online dating`, `met online`). The gerund and
+verb forms are not in it. Both records survived only because the ranker scored them on the outcome
+axis and seed provenance. **A bypass built to protect the chapter's defining cell would have
+protected nothing; the cell was saved by the ordinary ranking.** The lesson generalises past this
+chapter: an exposure axis assembled from noun phrases misses the records that describe the exposure
+as an action, and those are disproportionately the demographic papers, because demographers write
+about *meeting* rather than about *dating apps*.
+
+**Wall 9's population is larger and better than A4's neighbourhood measurement suggested.** 27
+records reached a `SECONDARY_TECH_*` cell, and the identified estimates among them are the chapter's
+real evidence base: broadband diffusion on TEEN FERTILITY (J. Population Economics), broadband and
+cell phone access on MARRIAGE AND DIVORCE in the US, internet exposure in adolescence on AGE AT FIRST
+MARRIAGE (J. Asian Economics), broadband on DIVORCE in China, broadband access on FERTILITY DECISIONS
+(J. Asian Economics 2025), and — the single most important record the screen found — **"WIDE AND
+SHALLOW: DIGITAL TECHNOLOGY AND THE POST-2007 FERTILITY DECLINE"**, which names this chapter's
+exposure, its outcome and its pre-registered timing bound in one title. Every one of these was
+invisible to the app axis, which is Wall 9 vindicated as a scope decision.
+
+**Bypass yields, measured so the next chapter inherits a number rather than a habit:**
+
+| bypass | n | survived | yield | reached a causal cell |
+|---|---|---|---|---|
+| budget_top | 800 | 352 | **44.0%** | 89 |
+| bypass_orthogonal (inherited) | 83 | 12 | **14.5%** | 4 |
+| bypass_wall9 | 3 | 1 | **33.3%** | 1 |
+| bypass_both_axes | 1 | 0 | 0.0% | 0 |
+
+The inherited orthogonal bypass returned 14.5% against the budget slice's 44% — better than A.12's
+5% but still the weakest channel, and it cost 83 reads to buy 4 causal records. The Wall 9 bypass
+added exactly ONE record beyond the budget slice, and that record is a P0 (`How broadband internet
+access shapes fertility decisions`). A one-record bypass looks like waste until you notice which
+record it was.
+
+**Walls 4 and 5 are enforceable, but only per paper.** The screen's independent `outcome_type` agrees
+with D1's term-hits on **85.8%** of records for Wall 4 and **94.9%** for Wall 5. 110 records were cut
+to `OFF_PLATFORM_ENG` while a set of platform studies with MATCHING outcomes was kept — Jung et al.'s
+choice-capacity field experiment, the ISR congestion and demand-disclosure experiments, the
+Management Science one-way-mirror and "So, Who Likes You?" experiments, the Marketing Science
+popularity-information paper. The wall held because a human read each abstract's outcome; the 85.8%
+figure is almost identical to A.12's 85.0% on its own outcome-cut wall.
+
+**Two junk-record classes and one contamination cluster.** Index records titled "References",
+"Index" and "Foreword" with no content; and **four records with near-consecutive OpenAlex ids from a
+single Norwegian strategic-communication volume** (AI fact-checking, a public-relations club history,
+NGO influence, management communication) — an entire edited volume leaked into the frame through one
+seed's reference list.
+
+Next: stage 5 full-text retrieval, prioritised on the 2 `PRIMARY_APP_FERTILITY` records, the Wall 9
+identified estimates, and the two no-abstract records whose titles imply identified designs
+(`The Impact of Dating Apps on Young Adults: Evidence From Tinder`; `What Happens When Dating Goes
+Online? Evidence from U.S. Marriage Markets`).
