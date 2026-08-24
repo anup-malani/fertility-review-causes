@@ -15,10 +15,10 @@
 - [x] 6. Full-text screen — 13 of 33 readables screened (2026-08-24); **blank RA spot-check sheet issued**, 4 of 13 (31%), stratified one-per-cell, seed 24, key withheld
 - [~] 7. Extraction — `extraction/dating-apps-union-formation-friction-{studies,effects}.csv`; **13 studies / 14 effects extracted** (2026-08-24). RA 10% verification outstanding; 20 readables still `not_started`
 - [x] 8. Risk-of-bias assessment per study — 7 domains incl. two chapter-specific; **7 Critical, 5 Serious, nothing below Serious** (2026-08-24)
-- [ ] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise
-- [ ] 10. Demographic significance against PM / FDT / SDT
-- [ ] 11. GRADE rating, 3 independent raters
-- [ ] 12. Chapter draft on the §6 template
+- [x] 9. Narrative synthesis — meta-analysis NOT defensible (no two studies share an estimator, exposure construct or outcome); §6 written on the resolve-don't-average rule (2026-08-24)
+- [x] 10. Demographic significance — PM and FDT NOT ASSESSED (out of registry scope); **SDT NOT ASSESSED — insufficient evidence**, with a timing bound and an adoption bound stated (2026-08-24). Timing bound is PROVISIONAL: not yet recomputed from in-repo data
+- [~] 11. GRADE — link 2 **VERY LOW**, link 3 **INSUFFICIENT EVIDENCE** (2026-08-24). Single-rater; the 3-rater panel is outstanding
+- [x] 12. Chapter draft — `output/chapters/dating-apps-union-formation-friction.md`, 4,675 words, all seven mandatory sentences present (2026-08-24)
 - [ ] 13. RA lay-readability check
 - [ ] 14. PI review and sign-off
 
@@ -529,3 +529,52 @@ sentences belong together in the chapter's verdict, because either alone mislead
 Next: stage 9 — synthesis. On this evidence a meta-analysis is not defensible (no two studies share
 an estimator, an exposure construct, or an outcome), so PROTOCOL §5.9's narrative-synthesis branch
 applies, and the synthesis must be organised by exposure-estimand distance rather than by effect size.
+
+### 2026-08-24 — chapter drafted (stages 9, 10, 12)
+
+`output/chapters/dating-apps-union-formation-friction.md`, 4,675 words, on the three-layer template.
+All seven mandatory sentences present in their specified sections. Organising analogy is a job board
+that lets a searcher see ten thousand postings instead of thirty — economics-native, and it carries
+the chapter's central methodological point in a form the reader can check: to learn whether the board
+raised employment it is no use surveying only the people who found jobs.
+
+**S4, written before any arithmetic, settled the shape of §7.** The phenomenon is measured in whole
+children per woman; the mechanism offers a change in the probability of forming a partnership, which
+reaches children only through an elasticity this chapter does not estimate. Granting the mechanism in
+full, its contribution is a product of three terms and **none of them is estimated anywhere in the
+readable evidence.** §7 therefore bounds the mechanism rather than measuring it.
+
+**The naive-estimator analysis is the chapter's spine, and it resolves rather than averages.** The
+comparison every author in this literature reaches for is people who met their partner ONLINE against
+people who met their partner OFFLINE. That conditions on the outcome: both groups have partners, and
+everyone whose app use produced no partnership is absent from the sample entirely. The bias is not
+directional — the design is **silent on the registry's claim by construction**, against its defenders
+and its critics equally. The studies that escape it are precisely the internet-access and broadband
+studies, which observe whole populations rather than the partnered. **The evidence that can answer the
+question is exactly the evidence Wall 9 was declared unenforceable to reach**, which is the strongest
+retrospective justification for that call.
+
+**Verdicts.** PM and FDT **NOT ASSESSED** (out of registry scope). SDT **NOT ASSESSED — insufficient
+evidence**, with two bounds stated: roughly half the US fertility decline predates swipe-based apps
+entirely, and South Korea has the world's lowest fertility with comparatively low app adoption.
+GRADE: link 2 (technology → partnership) **VERY LOW**, downgraded for risk of bias, indirectness and
+inconsistency; link 3 (apps → births) **INSUFFICIENT EVIDENCE** per PI Call 4.
+
+**The carry-away number is the one that is missing:** of 10,739 records assembled from this
+literature's citation neighbourhood, two report both an app-mediated exposure and a fertility outcome,
+and they are one study and its own working paper.
+
+**Three limits stated in the chapter rather than in this ticket.** The timing bound uses published
+national vital-statistics figures and has NOT been recomputed from in-repo source data — `data/raw/`
+is empty — so §7.3 marks it provisional and it is on the residual list. The chapter's central claim
+about reverse causality rests on a WORKING PAPER whose version of record is in the top procurement
+band and unread. And no RA has checked the full-text screen yet.
+
+**A template question the chapter raises and records in §10.** The demographic-significance vocabulary
+offers negligible / minor / substantial / dominant / not assessed, and defines the last as
+out-of-registry-scope. A.24 needed a sixth case: in scope, but with no estimated parameter to compute
+a share from. Recorded as *not assessed — insufficient evidence*; `docs/chapter-template.md` should
+decide whether that is a distinct verdict or a variant of the fifth.
+
+Next: stage 13 RA lay-readability check, the three-rater GRADE panel, and PI review. Retrieval of
+band P0 remains the binding constraint on everything except the empty-cell finding.
