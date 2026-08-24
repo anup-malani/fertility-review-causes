@@ -73,3 +73,70 @@ said 89 and collided with six live branches.
 
 Next: A3 cold-start anchor resolution (script 172), 25 anchors, one routing decoy per enforceable
 wall.
+
+### 2026-08-24 — A3 cold-start anchors (script 172)
+
+**26 candidate anchors, 25 resolved (23 verified live + 2 recovered by keyed exception), 1 expected
+book miss, 0 flagged, 0 failed requests.** Report at
+`literature/search-logs/dating-apps-union-formation-friction-cold-start-anchors-log.md`. Cells:
+5 `PRIMARY_APP_UNION` · 3 `SECONDARY_TECH_*` · 8 `MECHANISM_CHOICE_FRICTION` · 2 `EXPOSURE_SERIES` ·
+1 `CHANNEL1_REVIEW` · 7 routing decoys, one per enforceable wall. Machinery inherited from `161_`
+unchanged; the only addition is data — five of this chapter's author names joined `_NORM_SELFTEST`.
+
+**`PRIMARY_APP_FERTILITY` HAS NO ANCHOR AND THAT IS THE POINT.** The cell the registry entry is
+actually about is carried through A4 with a recall denominator of zero rather than dropped, so the
+chapter can show the denominator it is speaking about when it says nobody has estimated this.
+
+**THE FINDING WORTH CARRYING OFF THIS CHAPTER: title-stem indexing defeats the resolver, twice in
+one run.** Both OpenAlex and Crossref title Finkel et al.'s *Online Dating: A Critical Analysis From
+the Perspective of Psychological Science* as **`Online Dating`** — two tokens, 776 cites, confirmed
+live by DOI in both indexes. Jaccard 0.18, and `title_prefix_match` never reaches the floor because
+the stem is shorter than `min_tokens=3`. The same shape appears again on Rosenfeld & Thomas 2012,
+indexed as *Searching for a Mate* (full-title Jaccard 4/11 = 0.36, under the 0.45 floor); that anchor
+resolved only because the stem keying was predicted in advance and used. **So the resolver cannot
+resolve a work whose index entry drops its subtitle, and it fails SILENTLY — NO-MATCH reads as an
+absent literature.** Recommended fix flagged, not applied, so this run stays comparable with A.12's:
+apply `BOOK_TITLE_FLOOR` whenever `title_prefix_match` holds rather than only when `is_book`, and
+lower `min_tokens` to 2 when the author gate has independently returned True. Belongs in the shared
+resolver.
+
+**An index TYPO in an author field defeats the author gate on the chapter's most important
+include-side record.** OpenAlex spells Rosenfeld 2017's author "Michael **Rosenfield**", so
+`author_match` returns False against a Jaccard-1.00 record in the right venue and year. Predicted in
+the docstring before the run. The gate is right to treat a one-edit surname difference as
+disagreement, so the remedy is a **keyed exception with a stated reason** — recovery applied only
+after refusal, counted in its own bucket, with the gate refusal left standing in the record. Loosening
+the gate would reopen exactly the failure it prevents.
+
+**The book-canon gate met a harder case than A.12's Bulmer and held.** Becker's *A Treatise on the
+Family* resolves first to a PDR record at 8,590 cites, typed `article`, **listing Becker himself as
+author** — neither the type test nor the first-author test can refuse it — and it out-cites the actual
+monograph record (typed `other`, 459 cites, no publication year) nineteen to one. Refused as
+`review_of_the_work`; carried keyed on title with `expect_no_doi`.
+
+**v5's seminal list is three-for-three resolvable and two-for-three irrelevant.** All three cites
+exist and are correctly attributed — the defect is different from A.12's and worse to leave unstated.
+Tyson et al. 2016 is a 62-cite conference measurement paper on Tinder activity logs; Bruch & Newman
+2018 estimates desirability hierarchies and reply rates. Neither carries a partnership or fertility
+outcome. Only Rosenfeld, Thomas & Hausen 2019 reaches a partnership outcome, and it reports that
+online dating now *dominates* couple formation — evidence about the exposure's reach, not a friction.
+
+**All three Wall 9 anchors resolved, so the bypass is buildable.** Bellou 2014, Billari Giuntella &
+Stella 2019 and Kalabikhina et al. 2020 are the only identified estimates the chapter can reach and
+none carries dating-app vocabulary. A4 seeds from them by provenance with no dating-vocabulary
+requirement, and measures the bypass yield separately.
+
+**Guards that were tested and passed, recorded because a passing guard is the only evidence it still
+works:** both `?`-bearing titles resolved (`oa_search_safe` stripped the wildcard; `OA_QUERY_ERRORS`
+empty); all four fold cases resolved, including two names carrying a DOTLESS i, which NFKD does not
+decompose and only `_TRANSLIT` recovers; both version-of-record cases went to the version of record
+(AER 2010 over the 2008 SSRN preprint; MIS Quarterly over a DOI-less preprint, at J=0.846, the
+shortfall being the trailing footnote marker in the indexed title).
+
+**A defect in this script's own first pass, fixed before the log was published.** The inherited log
+writer carries A.12's narrative as hardcoded prose, so the first run emitted Bulmer, Pison and the
+QJE DOI migration as findings *under A.24's slug*. Caught on read-back and replaced. Any chapter
+mirroring a predecessor's A3 must diff the log writer, not just the candidate set.
+
+Next: A4 citation frame (Tier A/B), script 173 — Wall 9 bypass seeded by provenance, and exact
+count-only on-topic rates for the geochronology and dating-violence clouds rather than samples.

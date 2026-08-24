@@ -1,0 +1,1173 @@
+[
+  {
+    "title": "Marriage, Choice, and Couplehood in the Age of the Internet",
+    "authors": [
+      "Michael J. Rosenfeld"
+    ],
+    "year": 2017,
+    "provenance_channel": "named_recheck_sign_contest",
+    "provisional_cell": "PRIMARY_APP_UNION",
+    "query_cluster_family": "app-union",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Sociological Science, 83. The single most important INCLUDE-side record in the chapter: it tests the choice-overload critique directly and finds meeting online does not predict breakup and predicts FASTER transitions to marriage. AUTHOR-GATE CASE, prediction recorded above: OpenAlex spells the author 'Michael Rosenfield'.",
+    "doi": "10.15195/v4.a20",
+    "identity_verified": true,
+    "match_jaccard": 1.0,
+    "best_near_miss": {
+      "doi": "10.15195/v4.a20",
+      "title": "Marriage, Choice, and Couplehood in the Age of the Internet",
+      "jaccard": 1.0,
+      "year": 2017,
+      "container": "Sociological Science",
+      "type": "journal-article",
+      "author_match": false,
+      "review_shape": false,
+      "is_fallback": true
+    },
+    "refused_reasons": [
+      "authors_disagree",
+      "title_or_no_doi"
+    ],
+    "refused_candidates": [
+      {
+        "reason": "authors_disagree",
+        "title": "Marriage, Choice, and Couplehood in the Age of the Internet",
+        "doi": "10.15195/v4.a20"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Marriage, second couplehood, divorce, and singlehood in old ",
+        "doi": "10.1037/14459-024"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Percieved Optimal Marriage Age in the Internet Era\u2014Findings ",
+        "doi": "10.1080/01494929.2018.1458005"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Internet Exposure During Adolescence and Age at First Marria",
+        "doi": "10.2139/ssrn.4129640"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Female Age at Marriage of Rural-Urban Differentials in Bangl",
+        "doi": "10.5580/a04"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Parental Choice of Self-Care for School-Age Children",
+        "doi": "10.2307/352369"
+      }
+    ],
+    "gold_status": "recovered_keyed_exception",
+    "identity_source": "https://doi.org/10.15195/v4.a20",
+    "existence": "FOUND",
+    "keyed_exception_reason": "INDEX TYPO IN THE AUTHOR FIELD. OpenAlex records the author as 'Michael Rosenfield'; the author is Michael J. Rosenfeld. surnames() therefore compares {rosenfeld} with {rosenfield} and author_match returns False \u2014 a confident wrong negative on a record matching at Jaccard 1.00, in the right venue and the right year. The gate behaved correctly on the data it was given; the data is wrong."
+  },
+  {
+    "title": "Disintermediating your friends: How online dating in the United States displaces other ways of meeting",
+    "authors": [
+      "Michael J. Rosenfeld",
+      "Reuben J. Thomas",
+      "Sonia Hausen"
+    ],
+    "year": 2019,
+    "provenance_channel": "v5_seminal_list",
+    "provisional_cell": "PRIMARY_APP_UNION",
+    "query_cluster_family": "app-union",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "PNAS, 425. v5's first seminal cite and the only one of the three that carries a partnership outcome. Also the exposure series in narrative form: the share of couples meeting online through 2017.",
+    "doi": "10.1073/pnas.1908630116",
+    "identity_source": "https://doi.org/10.1073/pnas.1908630116",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Proceedings of the National Academy of Sciences",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1073/pnas.1908630116",
+        "type": "article",
+        "year": 2019,
+        "container": "Proceedings of the National Academy of Sciences",
+        "score": 165,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Tinder Use and Romantic Relationship Formations: A Large-Scale Longitudinal Study",
+    "authors": [
+      "Eilin K. Erevik",
+      "Joakim Hellumbraten Kristensen",
+      "Torbjorn Torsheim",
+      "Oystein Vedaa",
+      "Stale Pallesen"
+    ],
+    "year": 2020,
+    "provenance_channel": "reconnaissance_probe_link1",
+    "provisional_cell": "PRIMARY_APP_UNION",
+    "query_cluster_family": "app-union",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Frontiers in Psychology, 36. Two waves, 5,253 Norwegian students; Tinder use predicts relationship formation one year later \u2014 again the opposite sign to v5. FOLD CASE: index carries 'Hellumbraten' with a ring-a and 'Oystein' with a slashed O; candidate is written in ASCII deliberately, so the fold is tested in the direction that actually occurs.",
+    "doi": "10.3389/fpsyg.2020.01757",
+    "identity_source": "https://doi.org/10.3389/fpsyg.2020.01757",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Frontiers in Psychology",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.3389/fpsyg.2020.01757",
+        "type": "article",
+        "year": 2020,
+        "container": "Frontiers in Psychology",
+        "score": 165,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "The demography of swiping right. An overview of couples who met through dating apps in Switzerland",
+    "authors": [
+      "Gina Potarca"
+    ],
+    "year": 2020,
+    "provenance_channel": "reconnaissance_probe_link1",
+    "provisional_cell": "PRIMARY_APP_UNION",
+    "query_cluster_family": "app-union",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "PLoS ONE, 49. Non-US population, which matters because every other anchor in this cell is US or Nordic. FOLD CASE: indexed as 'Gina Potarca' with two diacritics.",
+    "doi": "10.1371/journal.pone.0243733",
+    "identity_source": "https://doi.org/10.1371/journal.pone.0243733",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "PLOS ONE",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1371/journal.pone.0243733",
+        "type": "article",
+        "year": 2020,
+        "container": "PLoS ONE",
+        "score": 165,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Marital satisfaction and break-ups differ across on-line and off-line meeting venues",
+    "authors": [
+      "John T. Cacioppo",
+      "Stephanie Cacioppo",
+      "Gian C. Gonzaga",
+      "Elizabeth L. Ogburn",
+      "Tyler J. VanderWeele"
+    ],
+    "year": 2013,
+    "provenance_channel": "named_recheck_sign_contest",
+    "provisional_cell": "PRIMARY_APP_UNION",
+    "query_cluster_family": "app-union",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "PNAS, 221. Union QUALITY rather than formation, and industry-funded (eHarmony), which the risk-of-bias stage will have to weigh. Included because it is the most cited claim on the stability side of the sign contest.",
+    "doi": "10.1073/pnas.1222447110",
+    "identity_source": "https://doi.org/10.1073/pnas.1222447110",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Proceedings of the National Academy of Sciences",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1073/pnas.1222447110",
+        "type": "article",
+        "year": 2013,
+        "container": "Proceedings of the National Academy of Sciences",
+        "score": 165,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "The impact of Internet diffusion on marriage rates: evidence from the broadband market",
+    "authors": [
+      "Andriana Bellou"
+    ],
+    "year": 2014,
+    "provenance_channel": "named_recheck_identification_set",
+    "provisional_cell": "SECONDARY_TECH_UNION",
+    "query_cluster_family": "tech-diffusion",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Journal of Population Economics, 83. Broadband-market variation against marriage rates \u2014 the closest thing to a quasi-experiment on link 2 that exists.",
+    "doi": "10.1007/s00148-014-0527-7",
+    "identity_source": "https://doi.org/10.1007/s00148-014-0527-7",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Journal of Population Economics",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 4,
+    "rejected_versions": [
+      {
+        "doi": "10.1007/s00148-014-0527-7",
+        "type": "article",
+        "year": 2014,
+        "container": "Journal of Population Economics",
+        "score": 165,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.2139/ssrn.2250294",
+        "type": "preprint",
+        "year": 2013,
+        "container": "SSRN Electronic Journal",
+        "score": 36,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.2139/ssrn.2250294",
+        "type": "posted-content",
+        "year": 2013,
+        "container": "",
+        "score": 31,
+        "src": "crossref"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Does broadband Internet affect fertility?",
+    "authors": [
+      "Francesco C. Billari",
+      "Osea Giuntella",
+      "Luca Stella"
+    ],
+    "year": 2019,
+    "provenance_channel": "named_recheck_identification_set",
+    "provisional_cell": "SECONDARY_TECH_FERTILITY",
+    "query_cluster_family": "tech-diffusion",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Population Studies, 103. German panel, Falck et al. IV. POSITIVE effect on the fertility of highly educated women 25-45. WILDCARD CASE: the title ends in '?', which is an OpenAlex wildcard operator and returns a 200 whose body reads as an empty literature. oa_search_safe() must strip it; if OA_QUERY_ERRORS is non-empty for this anchor the guard has regressed.",
+    "doi": "10.1080/00324728.2019.1584327",
+    "identity_source": "https://doi.org/10.1080/00324728.2019.1584327",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Population Studies",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 4,
+    "rejected_versions": [
+      {
+        "doi": "10.1080/00324728.2019.1584327",
+        "type": "article",
+        "year": 2019,
+        "container": "Population Studies",
+        "score": 165,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.2139/ssrn.3029806",
+        "type": "journal-article",
+        "year": 2017,
+        "container": "SSRN Electronic Journal",
+        "score": 112,
+        "src": "crossref"
+      },
+      {
+        "doi": "10.2139/ssrn.3029806",
+        "type": "preprint",
+        "year": 2017,
+        "container": "SSRN Electronic Journal",
+        "score": 32,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "The impact of high speed internet on reproductive behavior in Russia",
+    "authors": [
+      "Irina Kalabikhina",
+      "Imiliya Abduselimov",
+      "German Klimenko"
+    ],
+    "year": 2020,
+    "provenance_channel": "named_recheck_identification_set",
+    "provisional_cell": "SECONDARY_TECH_FERTILITY",
+    "query_cluster_family": "tech-diffusion",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Lomonosov Economics Journal, 10. RLMS-HSE panel with an IV; positive effect at second and higher parities. A small non-English venue, which tests whether the resolver reaches outside the Anglophone core \u2014 the cross-national arm of any verdict depends on that.",
+    "doi": "10.38050/01300105202065",
+    "identity_source": "https://doi.org/10.38050/01300105202065",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Moscow University Economics Bulletin",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.38050/01300105202065",
+        "type": "article",
+        "year": 2020,
+        "container": "Lomonosov Economics Journal",
+        "score": 165,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "A Rejection Mind-Set: Choice Overload in Online Dating",
+    "authors": [
+      "Tila Pronk",
+      "Jaap J. A. Denissen"
+    ],
+    "year": 2019,
+    "provenance_channel": "reconnaissance_probe_mechanism",
+    "provisional_cell": "MECHANISM_CHOICE_FRICTION",
+    "query_cluster_family": "mechanism",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Social Psychological and Personality Science, 99. Three studies; a cumulating 27% fall in acceptance. The strongest direct evidence for v5's mechanism, and its outcome is a rejection rate, not a union.",
+    "doi": "10.1177/1948550619866189",
+    "identity_source": "https://doi.org/10.1177/1948550619866189",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Social Psychological and Personality Science",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 3,
+    "rejected_versions": [
+      {
+        "doi": "10.1177/1948550619866189",
+        "type": "article",
+        "year": 2019,
+        "container": "Social Psychological and Personality Science",
+        "score": 165,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.34894/8wq1uc",
+        "type": "dataset",
+        "year": 2020,
+        "container": "Tilburg University Research Portal",
+        "score": 51,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "There Are Plenty of Fish in the Sea: The Effects of Choice Overload and Reversibility on Online Daters' Satisfaction with Selected Partners",
+    "authors": [
+      "Jonathan D'Angelo",
+      "Catalina L. Toma"
+    ],
+    "year": 2016,
+    "provenance_channel": "reconnaissance_probe_mechanism",
+    "provisional_cell": "MECHANISM_CHOICE_FRICTION",
+    "query_cluster_family": "mechanism",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Media Psychology, 123. Experimental choice-set manipulation; outcome is satisfaction a week later.",
+    "doi": "10.1080/15213269.2015.1121827",
+    "identity_source": "https://doi.org/10.1080/15213269.2015.1121827",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Media Psychology",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1080/15213269.2015.1121827",
+        "type": "article",
+        "year": 2016,
+        "container": "Media Psychology",
+        "score": 165,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "The Secret to Finding a Match: A Field Experiment on Choice Capacity Design in an Online Dating Platform",
+    "authors": [
+      "Jaehwuen Jung",
+      "Hyungsoo Lim",
+      "Dongwon Lee",
+      "Chul Kim"
+    ],
+    "year": 2021,
+    "provenance_channel": "reconnaissance_probe_mechanism",
+    "provisional_cell": "MECHANISM_CHOICE_FRICTION",
+    "query_cluster_family": "mechanism",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Information Systems Research, 30. WALL 4 INCLUDE-SIDE ANCHOR: a randomized field experiment varying choice capacity on a live platform, with MATCHING outcomes. Paired with the recommender-system decoy below, which shares venue type and vocabulary and differs only in outcome. If the screen cannot separate these two, Wall 4 is not enforceable.",
+    "doi": "10.1287/isre.2021.1028",
+    "identity_source": "https://doi.org/10.1287/isre.2021.1028",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Information Systems Research",
+    "record_type": "article",
+    "resolved_via": "openalex",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1287/isre.2021.1028",
+        "type": "journal-article",
+        "year": 2022,
+        "container": "Information Systems Research",
+        "score": 161,
+        "src": "crossref"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Love Unshackled: Identifying the Effect of Mobile App Adoption in Online Dating",
+    "authors": [
+      "Jaehwuen Jung",
+      "Ravi Bapna",
+      "Jui Ramaprasad",
+      "Akhmed Umyarov"
+    ],
+    "year": 2019,
+    "provenance_channel": "named_recheck_identification_set",
+    "provisional_cell": "MECHANISM_CHOICE_FRICTION",
+    "query_cluster_family": "mechanism",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "MIS Quarterly, 127. App adoption identified on a platform, matching outcomes. TWO GATE CASES AT ONCE: a DOI-less 2018 SSRN preprint (0 cites) shares the title, and the MISQ record's indexed title carries a trailing footnote marker ('...Online Dating1'), which costs one token against the title gate.",
+    "doi": "10.25300/misq/2019/14289",
+    "identity_source": "https://doi.org/10.25300/misq/2019/14289",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 0.846,
+    "container": "MIS Quarterly",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.25300/misq/2019/14289",
+        "type": "article",
+        "year": 2019,
+        "container": "MIS Quarterly",
+        "score": 152,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Why settle when there are plenty of fish in the sea? Rusbult's investment model applied to online dating",
+    "authors": [
+      "Liesel L. Sharabi",
+      "Elisabeth Timmermans"
+    ],
+    "year": 2020,
+    "provenance_channel": "reconnaissance_probe_mechanism",
+    "provisional_cell": "MECHANISM_CHOICE_FRICTION",
+    "query_cluster_family": "mechanism",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "New Media & Society, 49. Commitment and account-deletion intentions \u2014 the closest the mechanism literature comes to a union outcome without reaching one. SECOND WILDCARD CASE, and it carries a curly apostrophe as well.",
+    "doi": "10.1177/1461444820937660",
+    "identity_source": "https://doi.org/10.1177/1461444820937660",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 0.85,
+    "container": "New Media &amp; Society",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1177/1461444820937660",
+        "type": "article",
+        "year": 2020,
+        "container": "New Media & Society",
+        "score": 153,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Swiping more, committing less: Unraveling the links among dating app use, dating app success, and intention to commit infidelity",
+    "authors": [
+      "Cassandra Alexopoulos",
+      "Elisabeth Timmermans",
+      "Jenna McNallie"
+    ],
+    "year": 2019,
+    "provenance_channel": "sourcing_pass_2026_08_24",
+    "provisional_cell": "MECHANISM_CHOICE_FRICTION",
+    "query_cluster_family": "mechanism",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Computers in Human Behavior, 86. Surfaced by the sourcing pass, not by any reconnaissance probe: it is the strategic-delay limb of v5's mechanism stated in the registry's own terms, with a commitment outcome.",
+    "doi": "10.1016/j.chb.2019.08.009",
+    "identity_source": "https://doi.org/10.1016/j.chb.2019.08.009",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Computers in Human Behavior",
+    "record_type": "article",
+    "resolved_via": "openalex",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1016/j.chb.2019.08.009",
+        "type": "journal-article",
+        "year": 2020,
+        "container": "Computers in Human Behavior",
+        "score": 161,
+        "src": "crossref"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Aspirational pursuit of mates in online dating markets",
+    "authors": [
+      "Elizabeth E. Bruch",
+      "M. E. J. Newman"
+    ],
+    "year": 2018,
+    "provenance_channel": "v5_seminal_list",
+    "provisional_cell": "MECHANISM_CHOICE_FRICTION",
+    "query_cluster_family": "mechanism",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Science Advances, 126. v5's third seminal cite. Estimates desirability hierarchies and reply rates; carries NO partnership outcome and no fertility outcome. Anchored so the chapter can say precisely what v5's citation does and does not support.",
+    "doi": "10.1126/sciadv.aap9815",
+    "identity_source": "https://doi.org/10.1126/sciadv.aap9815",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Science Advances",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1126/sciadv.aap9815",
+        "type": "article",
+        "year": 2018,
+        "container": "Science Advances",
+        "score": 165,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "A first look at user activity on tinder",
+    "authors": [
+      "Gareth Tyson",
+      "Vasile C. Perta",
+      "Hamed Haddadi",
+      "Michael C. Seto"
+    ],
+    "year": 2016,
+    "provenance_channel": "v5_seminal_list",
+    "provisional_cell": "MECHANISM_CHOICE_FRICTION",
+    "query_cluster_family": "mechanism",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "ASONAM conference paper, 62. v5's second seminal cite. A platform-measurement paper with no partnership and no fertility outcome. TYPE CASE: typed `conference-paper`, which canon_type() leaves unmapped.",
+    "doi": "10.1109/asonam.2016.7752275",
+    "identity_source": "https://doi.org/10.1109/asonam.2016.7752275",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "2016 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM)",
+    "record_type": "proceedings-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 3,
+    "rejected_versions": [
+      {
+        "doi": "10.1109/asonam.2016.7752275",
+        "type": "conference-paper",
+        "year": 2016,
+        "container": "2016 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM)",
+        "score": 75,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.48550/arxiv.1607.01952",
+        "type": "preprint",
+        "year": 2016,
+        "container": "arXiv (Cornell University)",
+        "score": 40,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Searching for a Mate",
+    "authors": [
+      "Michael J. Rosenfeld",
+      "Reuben J. Thomas"
+    ],
+    "year": 2012,
+    "provenance_channel": "reconnaissance_probe_exposure",
+    "provisional_cell": "EXPOSURE_SERIES",
+    "query_cluster_family": "exposure",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "American Sociological Review, 538. TITLE-GATE CASE, and the anchor is keyed on the SHORT title deliberately. The work's full title is 'Searching for a Mate: The Rise of the Internet as a Social Intermediary', and OpenAlex indexes only the stem. Keyed on the full title the Jaccard is 4/11 = 0.36, UNDER the 0.45 ordinary floor, so title_prefix_match cannot rescue it and a correct anchor is refused. See the resolver recommendation in the docstring.",
+    "doi": "10.1177/0003122412448050",
+    "identity_source": "https://doi.org/10.1177/0003122412448050",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "American Sociological Review",
+    "record_type": "article",
+    "resolved_via": "openalex",
+    "author_match": true,
+    "n_title_passing": 1,
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "How Couples Meet and Stay Together (HCMST), Wave I 2009, Wave II 2010, United States",
+    "authors": [
+      "Michael J. Rosenfeld"
+    ],
+    "year": 2011,
+    "provenance_channel": "sourcing_pass_2026_08_24",
+    "provisional_cell": "EXPOSURE_SERIES",
+    "query_cluster_family": "exposure",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "ICPSR, 2 cites. The exposure series itself. TYPE CASE: OpenAlex types it `dataset`, which TYPE_ALIASES maps to `other`, which is a member of BOOKISH_TYPES \u2014 so the book-shaped logic engages on a dataset. Predicted, then checked.",
+    "duplicates_demoted": [
+      {
+        "demoted_doi": "10.3886/icpsr30103.v1",
+        "demoted_cites": 0,
+        "canonical_doi": "10.3886/icpsr30103.v2",
+        "canonical_cites": 2,
+        "title": "How Couples Meet and Stay Together (HCMST), Wave I 2009, Wave II 2010, United St",
+        "year": 2011,
+        "container": "ICPSR Data Holdings",
+        "src": "openalex"
+      },
+      {
+        "demoted_doi": "10.3886/icpsr30103.v1",
+        "demoted_cites": null,
+        "canonical_doi": "10.3886/icpsr30103.v2",
+        "canonical_cites": 2,
+        "title": "How Couples Meet and Stay Together (HCMST), Wave I 2009, Wave II 2010, United St",
+        "year": 2011,
+        "container": "ICPSR Data Holdings",
+        "src": "crossref"
+      },
+      {
+        "demoted_doi": "10.3886/icpsr30103",
+        "demoted_cites": 0,
+        "canonical_doi": "10.3886/icpsr30103.v5",
+        "canonical_cites": 1,
+        "title": "How Couples Meet and Stay Together (HCMST), Wave I 2009, Wave II 2010, Wave III ",
+        "year": 2011,
+        "container": "ICPSR Data Holdings",
+        "src": "openalex"
+      },
+      {
+        "demoted_doi": "10.3886/icpsr30103.v3",
+        "demoted_cites": 0,
+        "canonical_doi": "10.3886/icpsr30103.v5",
+        "canonical_cites": 1,
+        "title": "How Couples Meet and Stay Together (HCMST), Wave I 2009, Wave II 2010, Wave III ",
+        "year": 2011,
+        "container": "ICPSR Data Holdings",
+        "src": "openalex"
+      },
+      {
+        "demoted_doi": "10.3886/icpsr30103.v4",
+        "demoted_cites": 0,
+        "canonical_doi": "10.3886/icpsr30103.v5",
+        "canonical_cites": 1,
+        "title": "How Couples Meet and Stay Together (HCMST), Wave I 2009, Wave II 2010, Wave III ",
+        "year": 2011,
+        "container": "ICPSR Data Holdings",
+        "src": "openalex"
+      },
+      {
+        "demoted_doi": "10.3886/icpsr30103",
+        "demoted_cites": null,
+        "canonical_doi": "10.3886/icpsr30103.v5",
+        "canonical_cites": 1,
+        "title": "How Couples Meet and Stay Together (HCMST), Wave I 2009, Wave II 2010, Wave III ",
+        "year": 2011,
+        "container": "ICPSR Data Holdings",
+        "src": "crossref"
+      },
+      {
+        "demoted_doi": "10.3886/icpsr30103.v3",
+        "demoted_cites": null,
+        "canonical_doi": "10.3886/icpsr30103.v5",
+        "canonical_cites": 1,
+        "title": "How Couples Meet and Stay Together (HCMST), Wave I 2009, Wave II 2010, Wave III ",
+        "year": 2011,
+        "container": "ICPSR Data Holdings",
+        "src": "crossref"
+      },
+      {
+        "demoted_doi": "10.3886/icpsr30103.v4",
+        "demoted_cites": null,
+        "canonical_doi": "10.3886/icpsr30103.v5",
+        "canonical_cites": 1,
+        "title": "How Couples Meet and Stay Together (HCMST), Wave I 2009, Wave II 2010, Wave III ",
+        "year": 2011,
+        "container": "ICPSR Data Holdings",
+        "src": "crossref"
+      }
+    ],
+    "doi": "10.3886/icpsr30103.v2",
+    "identity_source": "https://doi.org/10.3886/icpsr30103.v2",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "ICPSR Data Holdings",
+    "record_type": "dataset",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 4,
+    "rejected_versions": [
+      {
+        "doi": "10.3886/icpsr30103.v2",
+        "type": "dataset",
+        "year": 2011,
+        "container": "ICPSR Data Holdings",
+        "score": 75,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.3886/icpsr30103.v5",
+        "type": "dataset",
+        "year": 2011,
+        "container": "ICPSR Data Holdings",
+        "score": 64,
+        "src": "crossref"
+      },
+      {
+        "doi": "10.3886/icpsr30103.v5",
+        "type": "dataset",
+        "year": 2011,
+        "container": "ICPSR Data Holdings",
+        "score": 64,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Online Dating: A Critical Analysis From the Perspective of Psychological Science",
+    "authors": [
+      "Eli J. Finkel",
+      "Paul W. Eastwick",
+      "Benjamin R. Karney",
+      "Harry T. Reis",
+      "Susan Sprecher"
+    ],
+    "year": 2012,
+    "provenance_channel": "named_recheck_unresolved",
+    "provisional_cell": "CHANNEL1_REVIEW",
+    "query_cluster_family": "review",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Psychological Science in the Public Interest. THE EXISTENCE-GATE CASE OF THIS RUN. It has now missed on three independent OpenAlex query shapes \u2014 title.search (170_), search= (171_), and the sourcing pass \u2014 and is recorded as UNRESOLVED BY QUERY, not as absent. Crossref decides. If Crossref finds it, the finding is about OpenAlex coverage of PSPI; if Crossref also misses, the absence is established rather than inferred.",
+    "doi": "10.1177/1529100612436522",
+    "identity_verified": true,
+    "match_jaccard": 0.375,
+    "best_near_miss": {
+      "doi": "10.3724/sp.j.1042.2014.01647",
+      "title": "Analysis of Social Network Users' Online Behavior from the Perspective of Psychology",
+      "jaccard": 0.375,
+      "year": 2014,
+      "container": "Advances in Psychological Science",
+      "type": "journal-article",
+      "author_match": false,
+      "review_shape": false,
+      "is_fallback": true
+    },
+    "refused_reasons": [
+      "title_or_no_doi"
+    ],
+    "refused_candidates": [
+      {
+        "reason": "title_or_no_doi",
+        "title": "Online Dating",
+        "doi": "10.1177/1529100612436522"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Analysis of Social Network Users' Online Behavior from the P",
+        "doi": "10.3724/sp.j.1042.2014.01647"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Online dating and psychological wellbeing: A social compensa",
+        "doi": "10.1016/j.copsyc.2022.101331"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "It\u2019s a Whole New Dating World in the 2020s: Exploring Online",
+        "doi": "10.47679/jopp.617192024"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Evolutionary Psychological Perspective on Peer Victimization",
+        "doi": "10.1007/s40806-018-0180-6"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Dating Anxiety and Loneliness in Online Dating: The Moderati",
+        "doi": "10.47679/jopp.628062024"
+      }
+    ],
+    "gold_status": "recovered_keyed_exception",
+    "identity_source": "https://doi.org/10.1177/1529100612436522",
+    "existence": "FOUND",
+    "keyed_exception_reason": "INDEX CARRIES THE STEM TITLE ONLY. BOTH OpenAlex and Crossref title this work 'Online Dating' \u2014 two tokens \u2014 against an eleven-token candidate title, so Jaccard is 0.18 and title_prefix_match refuses before the floor is consulted at all, because the stem is shorter than min_tokens=3. Verified live by DOI in both indexes: Psychological Science in the Public Interest, 2012, 776 cites."
+  },
+  {
+    "title": "Luminescence dating of quartz using an improved single-aliquot regenerative-dose protocol",
+    "authors": [
+      "Andrew Murray",
+      "A. G. Wintle"
+    ],
+    "year": 2000,
+    "provenance_channel": "reconnaissance_probe_decoy",
+    "provisional_cell": "OFF_HOMONYM_GEOCHRON",
+    "query_cluster_family": "decoy",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Radiation Measurements, 4,997. Wall 1. The geochronology cloud is 64,276 records on the explicit vocabulary and outranks every genuine A.24 record by an order of magnitude \u2014 the SHELX shape. A4 measures its on-topic rate with count-only queries rather than sampling it.",
+    "doi": "10.1016/s1350-4487(99)00253-x",
+    "identity_source": "https://doi.org/10.1016/s1350-4487(99)00253-x",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Radiation Measurements",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1016/s1350-4487(99)00253-x",
+        "type": "article",
+        "year": 2000,
+        "container": "Radiation Measurements",
+        "score": 165,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Biofertilizers function as key player in sustainable agriculture by improving soil fertility, plant tolerance and crop productivity",
+    "authors": [
+      "Deepak Bhardwaj",
+      "Mohammad Wahid Ansari",
+      "Ranjan Kumar Sahoo",
+      "Narendra Tuteja"
+    ],
+    "year": 2014,
+    "provenance_channel": "sourcing_pass_2026_08_24",
+    "provisional_cell": "OFF_NONHUMAN",
+    "query_cluster_family": "decoy",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "Microbial Cell Factories, 1,171. Wall 2. 'Fertility' in the agronomic sense reached the head of two recon probes, including one restricted to dating-app vocabulary, so this is not a hypothetical collision.",
+    "doi": "10.1186/1475-2859-13-66",
+    "identity_source": "https://doi.org/10.1186/1475-2859-13-66",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "Microbial Cell Factories",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1186/1475-2859-13-66",
+        "type": "article",
+        "year": 2014,
+        "container": "Microbial Cell Factories",
+        "score": 165,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "The world report on violence and health",
+    "authors": [
+      "Etienne Krug",
+      "James A. Mercy",
+      "Linda L. Dahlberg",
+      "Anthony B. Zwi"
+    ],
+    "year": 2002,
+    "provenance_channel": "sourcing_pass_2026_08_24",
+    "provisional_cell": "OFF_VIOLENCE",
+    "query_cluster_family": "decoy",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "The Lancet, 8,514. Wall 3, and this anchor is the CLOUD HEAD, not the seam. The genuine boundary is the 66 records where dating-violence and dating-app vocabulary meet, and those are tested at the screen rather than here \u2014 stated so the wall is not later described as having been tested at its hardest point.",
+    "doi": "10.1016/s0140-6736(02)11133-0",
+    "identity_source": "https://doi.org/10.1016/s0140-6736(02)11133-0",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "The Lancet",
+    "record_type": "article",
+    "resolved_via": "openalex",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1071/nb02075",
+        "type": "journal-article",
+        "year": 2002,
+        "container": "New South Wales Public Health Bulletin",
+        "score": 113,
+        "src": "crossref"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Recommender System for Online Dating Service",
+    "authors": [
+      "Lukas Brozovsky",
+      "Vaclav Petricek"
+    ],
+    "year": 2007,
+    "provenance_channel": "sourcing_pass_2026_08_24",
+    "provisional_cell": "OFF_PLATFORM_ENG",
+    "query_cluster_family": "decoy",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "arXiv, 119. Wall 4 EXCLUDE side, paired with Jung et al. 2021 above: same platform vocabulary, same venue type, and the only difference is the outcome. FOLD CASE: indexed as 'V. Petricek' with a caron and a dotless i carrying a combining acute; _TRANSLIT maps the dotless i, so the surname should survive. Predicted to PASS, recorded because a passing fold case is the only evidence the map still works.",
+    "doi": "10.48550/arxiv.cs/0703042",
+    "identity_source": "https://doi.org/10.48550/arxiv.cs/0703042",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "arXiv (Cornell University)",
+    "record_type": "preprint",
+    "resolved_via": "openalex",
+    "author_match": true,
+    "n_title_passing": 1,
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Swipe Right: Dating Website and App Use Among Men Who Have Sex With Men",
+    "authors": [
+      "Hannah J. Badal",
+      "Jo Ellen Stryker",
+      "Nickolas DeLuca",
+      "David W. Purcell"
+    ],
+    "year": 2017,
+    "provenance_channel": "sourcing_pass_2026_08_24",
+    "provisional_cell": "OFF_SEXHEALTH",
+    "query_cluster_family": "decoy",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "AIDS and Behavior, 135. Wall 5. The sexual-health cloud is 1,244 records INSIDE the dating-app literature \u2014 a fifth of it \u2014 so this wall does more work than any other outcome wall in the chapter. Note the routing asymmetry: coital-FREQUENCY outcomes go to A.14 rather than into this bin.",
+    "doi": "10.1007/s10461-017-1882-7",
+    "identity_source": "https://doi.org/10.1007/s10461-017-1882-7",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "AIDS and Behavior",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 2,
+    "rejected_versions": [
+      {
+        "doi": "10.1007/s10461-017-1882-7",
+        "type": "article",
+        "year": 2017,
+        "container": "AIDS and Behavior",
+        "score": 165,
+        "src": "openalex"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "Matching and Sorting in Online Dating",
+    "authors": [
+      "Gunter J. Hitsch",
+      "Ali Hortacsu",
+      "Dan Ariely"
+    ],
+    "year": 2010,
+    "provenance_channel": "reconnaissance_probe_boundary",
+    "provisional_cell": "ROUTE_C7A",
+    "query_cluster_family": "boundary",
+    "is_book": false,
+    "expect_no_doi": false,
+    "source_note": "American Economic Review, 650. Wall 6, and the hardest routing call in the set: it is a marriage-market matching paper (C.7.a) that runs ON a dating platform, so either chapter can claim it. VERSION-OF-RECORD CASE: a 2008 SSRN preprint (33 cites) shares the title exactly. FOLD CASE: indexed as 'Ali Hortacsu' with a cedilla and a DOTLESS i in the forename.",
+    "doi": "10.1257/aer.100.1.130",
+    "identity_source": "https://doi.org/10.1257/aer.100.1.130",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "match_jaccard": 1.0,
+    "container": "American Economic Review",
+    "record_type": "journal-article",
+    "resolved_via": "crossref",
+    "author_match": true,
+    "n_title_passing": 4,
+    "rejected_versions": [
+      {
+        "doi": "10.1257/aer.100.1.130",
+        "type": "article",
+        "year": 2010,
+        "container": "American Economic Review",
+        "score": 165,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.2139/ssrn.1113243",
+        "type": "preprint",
+        "year": 2008,
+        "container": "SSRN Electronic Journal",
+        "score": 32,
+        "src": "openalex"
+      },
+      {
+        "doi": "10.2139/ssrn.1113243",
+        "type": "posted-content",
+        "year": 2008,
+        "container": "",
+        "score": 27,
+        "src": "crossref"
+      }
+    ],
+    "gold_status": "candidate_not_ra_frozen"
+  },
+  {
+    "title": "A Treatise on the Family",
+    "authors": [
+      "Gary S. Becker"
+    ],
+    "year": 1991,
+    "provenance_channel": "sourcing_pass_2026_08_24",
+    "provisional_cell": "ROUTE_LINK3",
+    "query_cluster_family": "boundary",
+    "is_book": true,
+    "expect_no_doi": true,
+    "source_note": "Wall 7 route, and THE BOOK-CANON CASE OF THIS RUN \u2014 a harder one than A.12's Bulmer. The sourcing pass's top hit is a Population and Development Review record at 8,590 cites, typed `article`, whose listed author is GARY S. BECKER HIMSELF. So neither the type test nor the first-author test can refuse it, and it out-cites the actual monograph (the 'Enlarged Edition' record, typed `other`, 459 cites, NO publication year) by nineteen to one. This is the case the book-canon gate was built for, in its most adversarial form; is_book=True is set here deliberately, because A.12's run showed that omitting it makes the gate no-op invisibly.",
+    "doi": null,
+    "identity_verified": false,
+    "match_jaccard": 1.0,
+    "best_near_miss": {
+      "doi": "10.1111/j.1545-5300.1983.119_8.x",
+      "title": "A Treatise On The Family",
+      "jaccard": 1.0,
+      "year": 1983,
+      "container": "Family Process",
+      "type": "journal-article",
+      "author_match": null,
+      "review_shape": false,
+      "is_fallback": true
+    },
+    "refused_reasons": [
+      "not_book_shaped:article",
+      "not_book_shaped:journal-article",
+      "review_of_the_work",
+      "title_or_no_doi"
+    ],
+    "refused_candidates": [
+      {
+        "reason": "title_or_no_doi",
+        "title": "8. Altruism in the Family",
+        "doi": "10.4159/9780674020665-010"
+      },
+      {
+        "reason": "not_book_shaped:journal-article",
+        "title": "A Treatise On The Family",
+        "doi": "10.1111/j.1545-5300.1983.119_8.x"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "11. The Evolution of the Family",
+        "doi": "10.4159/9780674020665-013"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Introduction",
+        "doi": "10.4159/9780674020665-002"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Frontmatter",
+        "doi": "10.4159/9780674020665-fm"
+      },
+      {
+        "reason": "title_or_no_doi",
+        "title": "Contents",
+        "doi": "10.4159/9780674020665-toc"
+      }
+    ],
+    "gold_status": "unverified_no_doi_match",
+    "note": "Book or monograph; expected index miss. Carried keyed on title, not faked. The near-miss record is retained so an RA can see what the resolver refused and why."
+  }
+]
