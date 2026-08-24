@@ -12,9 +12,9 @@
 - [x] 3. Literature search and AI screening, both phases (§5.1) — A3 26 anchors, A4 Tier B 11,001, D1 worklist 887 (2026-08-24)
 - [x] 4. RA title/abstract review — D2 complete, 887 records, 15 batches (2026-08-24)
 - [x] 5. Full-text retrieval — **33 of 152 readable (22%)**; 119 banded for the library (2026-08-24)
-- [x] 6. Full-text screen — 13 of 33 readables screened at full text (2026-08-24); RA spot-check outstanding
+- [x] 6. Full-text screen — 13 of 33 readables screened (2026-08-24); **blank RA spot-check sheet issued**, 4 of 13 (31%), stratified one-per-cell, seed 24, key withheld
 - [~] 7. Extraction — `extraction/dating-apps-union-formation-friction-{studies,effects}.csv`; **13 studies / 14 effects extracted** (2026-08-24). RA 10% verification outstanding; 20 readables still `not_started`
-- [ ] 8. Risk-of-bias assessment per study
+- [x] 8. Risk-of-bias assessment per study — 7 domains incl. two chapter-specific; **7 Critical, 5 Serious, nothing below Serious** (2026-08-24)
 - [ ] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise
 - [ ] 10. Demographic significance against PM / FDT / SDT
 - [ ] 11. GRADE rating, 3 independent raters
@@ -476,3 +476,56 @@ exposure on fertility exists in the readable set.**
 Next: RA spot-check of the full-text screen, then risk of bias (stage 8) on the extracted set — with
 the reverse-causality finding as its own domain, since the one study in the primary cell demonstrates
 the bias rather than merely being exposed to it.
+
+### 2026-08-24 — RA spot-check issued; risk of bias complete (scripts 181, 182)
+
+**The spot-check sheet is BLANK and the pipeline's decisions are withheld** in a separate key file. A
+spot-check that shows the original verdict measures agreement with an anchor, not agreement between
+two readers. 4 of the 13 screened records (31%, well above PROTOCOL's 5–10%), sampled with
+`random.Random(24)` over the id-sorted list and **stratified one-per-cell rather than simple-random**
+— with 13 records across four cells a simple 10% draw would have checked two records from the two
+largest cells and nothing that matters. `PRIMARY_APP_FERTILITY` is checked with certainty, because it
+holds one study and that study carries the chapter.
+
+**Risk of bias uses seven domains: five standard and TWO chapter-specific, and both additions earn
+their place on a measurement rather than a worry.**
+
+**Domain 6 — reverse causality, given its own domain.** D.3.b added a common-method-bias domain for
+the same kind of reason. Here the justification is that the one study in the primary cell
+*demonstrates* the bias: fertility intentions at baseline predict subsequent online partnering at
+β = 0.22 against its own forward coefficient of 0.07. Folding that into confounding would rate it
+alongside "did they adjust for education", and it is not that kind of problem — it is the arrow
+pointing the other way. The domain records whether the reverse direction was TESTED, whether it was
+FOUND, and whether the design does anything to break it. Across the 13: **tested in one study, found
+in that one, untested in the other eleven.**
+
+**Domain 7 — exposure-estimand distance, which is Wall 9's cost restated as bias.** A.24's registered
+exposure is DATING APPS. **Not one readable extracted study measures that.** The distribution is
+internet access 4, media or content 4, platform intermediation 2, online-meeting venue 1, other
+technology 1 — and `direct_app` is **zero**. The trade is systematic rather than random: the
+better-identified a study is, the further its exposure sits from the hypothesis. A body of evidence
+can be individually sound and collectively off-target, and no standard instrument records that.
+
+**RESULT: 7 Critical, 5 Serious, nothing at Low or Moderate.** The specific reasons differ and are
+worth keeping separate rather than averaging:
+
+- the Pairfam study is **Critical on reverse causality alone** — it is well executed, its outcome
+  measurement is Low risk, and its design still cannot bear the causal question;
+- Kolk & Billari is **Serious overall but Critical on exposure distance** — nationally representative
+  in two independent sources, and measuring internet access rather than apps;
+- the Japanese platform study is **Critical on selection** — its users paid for costly screening and
+  had already decided to marry, so it measures the conversion efficiency of the committed, not of the
+  casual-app population v5 is about;
+- the OECD spatial panel is **Critical on confounding** — everything that trends with broadband over
+  2000–2021 sits in the residual;
+- the three Chinese content-exposure surveys are **Critical on both confounding and reverse
+  causality** — same respondent, same moment, both sides self-reported, outcome is intention.
+
+**The honest summary of stage 8: the direction of the evidence is consistent and the quality of the
+evidence is uniformly poor.** Eight of fourteen effect rows point against the hypothesis, but no
+readable study is below Serious risk of bias and none measures the registered exposure. Those two
+sentences belong together in the chapter's verdict, because either alone misleads.
+
+Next: stage 9 — synthesis. On this evidence a meta-analysis is not defensible (no two studies share
+an estimator, an exposure construct, or an outcome), so PROTOCOL §5.9's narrative-synthesis branch
+applies, and the synthesis must be organised by exposure-estimand distance rather than by effect size.

@@ -1,0 +1,5 @@
+paper_id,pipeline_cell,pipeline_fulltext_decision,pipeline_design,pipeline_evidence_type,pipeline_reverse_causality_tested
+W2053775881,PRIMARY_APP_UNION,INCLUDE_WITH_CAUTION,cross-sectional comparison of two convenience samples,observational,no
+W3096306306,SECONDARY_TECH_UNION,INCLUDE,discrete-time event history (NLSY97); cross-sectional association (CPS),observational,no
+W4205510192,PRIMARY_APP_FERTILITY,INCLUDE,between-person regressions with forward-lagged dependent variables; 4 nested models adding covariates incl. Big Five,observational,YES — and it is significant
+W4229457429,SECONDARY_TECH_FERTILITY,INCLUDE_WITH_CAUTION,cross-sectional survey,observational,no
