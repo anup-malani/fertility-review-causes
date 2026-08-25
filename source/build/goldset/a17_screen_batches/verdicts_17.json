@@ -1,0 +1,545 @@
+{
+ "batch": "17",
+ "verdicts": [
+  {
+   "id": "W3085523889",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W2930835506",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W4380762942",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W4211123221",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W2508856382",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W4410842625",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W4400976001",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W2589618313",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W4401586822",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W2579062051",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W2899325896",
+   "verdict": "RELEVANT",
+   "cell": "P5_ELECTIVE_PRESERVATION",
+   "arm": "cannot_tell",
+   "outcome_type": "population_fertility",
+   "preservation_indication": "neither",
+   "note": "**'DELIVERIES following preservation by ovarian tissue cryopreservation \u2014 WHAT SHOULD BE EXPECTED?'** A deliveries outcome with an explicit expectation framing."
+  },
+  {
+   "id": "W4400070813",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W2761860113",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W4393951364",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W1987443472",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W2941514070",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W2795815100",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W2893505343",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W4285682019",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "neither",
+   "note": "Trends and barriers in transgender preservation."
+  },
+  {
+   "id": "W2578523574",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "neither",
+   "note": "Preservation in gender dysphoria."
+  },
+  {
+   "id": "W2735177650",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W2005418847",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W2575361959",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W2742606519",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W3012669596",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W3047219549",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W2941107301",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W2622904169",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W2736667637",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W2808842193",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W2941290923",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W4416453700",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W7116933870",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "utilisation_only",
+   "preservation_indication": "neither",
+   "note": "'Zip code overdiagnosis' \u2014 geographic disparities in preservation access. A P2-shaped exposure inside Wall 5's medical population."
+  },
+  {
+   "id": "W1955195744",
+   "verdict": "UNCERTAIN",
+   "cell": "P5_ELECTIVE_PRESERVATION",
+   "arm": "neither",
+   "outcome_type": "belief_or_attitude",
+   "preservation_indication": "elective",
+   "note": "Swedish women 30-39 on NEW pathways to parenthood \u2014 cryopreservation, surrogacy, uterus transplantation. Attitudes to the technology frontier."
+  },
+  {
+   "id": "W3192215542",
+   "verdict": "RELEVANT",
+   "cell": "EXPOSURE_SERIES",
+   "arm": "neither",
+   "outcome_type": "utilisation_only",
+   "preservation_indication": "n_a",
+   "note": "**ESHRE ART in Europe 2017 \u2014 and its abstract says the report now covers FERTILITY PRESERVATION cycles as well as ART and IUI.** The exposure series has begun counting preservation, which is what P5's demographic-significance arm would need."
+  },
+  {
+   "id": "W2512482408",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W2981537672",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "neither",
+   "note": "SR of preservation for transgender adolescents. Gender-affirming indication."
+  },
+  {
+   "id": "W4402306917",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W2974185079",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W3089475790",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W3134092575",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W2051551422",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W2172218197",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W2158541265",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W3202096501",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W4401484112",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W2996459971",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W3184022216",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W2794349690",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W4308810435",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W2996615731",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "population_fertility",
+   "preservation_indication": "neither",
+   "note": "TurnerFertility protocol \u2014 LIVE BIRTH is the outcome, but the indication is Turner syndrome (medical, non-onco)."
+  },
+  {
+   "id": "W3047995057",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W4206206308",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W2801388811",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W2057937016",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W1589810966",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W1996813588",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W4361007077",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W2342849195",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  },
+  {
+   "id": "W2080882545",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation technique, guideline or case series. Wall 5's medical half."
+  }
+ ]
+}

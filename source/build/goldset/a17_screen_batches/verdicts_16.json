@@ -1,0 +1,545 @@
+{
+ "batch": "16",
+ "verdicts": [
+  {
+   "id": "W4377103408",
+   "verdict": "RELEVANT",
+   "cell": "P5_ELECTIVE_PRESERVATION",
+   "arm": "cannot_tell",
+   "outcome_type": "other",
+   "preservation_indication": "elective",
+   "note": "Oocyte cryopreservation for MEDICAL AND PLANNED indications, side by side. Second record drawing Wall 5's own distinction; use these to calibrate the split rather than the term-matcher."
+  },
+  {
+   "id": "W2917367738",
+   "verdict": "UNCERTAIN",
+   "cell": "P4_POSTPONEMENT_RECOVERY",
+   "arm": "cannot_tell",
+   "outcome_type": "per_cycle_clinical",
+   "preservation_indication": "n_a",
+   "note": "Advanced maternal age in IVF \u2014 how much treatment can do at the ages postponement produces."
+  },
+  {
+   "id": "W3165130013",
+   "verdict": "RELEVANT",
+   "cell": "P5_ELECTIVE_PRESERVATION",
+   "arm": "cannot_tell",
+   "outcome_type": "other",
+   "preservation_indication": "elective",
+   "note": "PLANNED oocyte cryopreservation: OUTCOMES as well as motivations."
+  },
+  {
+   "id": "W2599648801",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation (oncological or other disease indication). Wall 5's medical half."
+  },
+  {
+   "id": "W4382751644",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "neither",
+   "note": "Preservation for GENETIC DISORDERS. Neither onco nor elective \u2014 the third indication class Wall 5's binary has no home for."
+  },
+  {
+   "id": "W2190343687",
+   "verdict": "RELEVANT",
+   "cell": "P5_ELECTIVE_PRESERVATION",
+   "arm": "cannot_tell",
+   "outcome_type": "per_cycle_clinical",
+   "preservation_indication": "elective",
+   "note": "Vitrification as an efficient option for ELECTIVE preservation \u2014 the efficacy premise P5's claim rests on."
+  },
+  {
+   "id": "W4206313636",
+   "verdict": "RELEVANT",
+   "cell": "P5_ELECTIVE_PRESERVATION",
+   "arm": "cannot_tell",
+   "outcome_type": "other",
+   "preservation_indication": "elective",
+   "note": "Review reporting outcomes of MEDICAL OC and PLANNED OC separately. Third indication-splitting record."
+  },
+  {
+   "id": "W4380590186",
+   "verdict": "UNCERTAIN",
+   "cell": "P5_ELECTIVE_PRESERVATION",
+   "arm": "neither",
+   "outcome_type": "belief_or_attitude",
+   "preservation_indication": "elective",
+   "note": "Motivations for elective cryopreservation."
+  },
+  {
+   "id": "W2121644444",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation (oncological or other disease indication). Wall 5's medical half."
+  },
+  {
+   "id": "W3186905094",
+   "verdict": "RELEVANT",
+   "cell": "EXPOSURE_SERIES",
+   "arm": "neither",
+   "outcome_type": "utilisation_only",
+   "preservation_indication": "n_a",
+   "note": "**LATIN AMERICAN REGISTRY 2012** \u2014 a whole world region absent from the scope's exposure list (ICMART, ESHRE, CDC, ANZARD). Add REDLARA to the demographic-significance sources."
+  },
+  {
+   "id": "W2519754371",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation (oncological or other disease indication). Wall 5's medical half."
+  },
+  {
+   "id": "W2768600722",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation (oncological or other disease indication). Wall 5's medical half."
+  },
+  {
+   "id": "W4223559363",
+   "verdict": "UNCERTAIN",
+   "cell": "P5_ELECTIVE_PRESERVATION",
+   "arm": "cannot_tell",
+   "outcome_type": "per_cycle_clinical",
+   "preservation_indication": "elective",
+   "note": "Elective and oncofertility patients respond SIMILARLY to stimulation \u2014 evidence that the two indications share a biology even where they differ in policy."
+  },
+  {
+   "id": "W2769732820",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation (oncological or other disease indication). Wall 5's medical half."
+  },
+  {
+   "id": "W3184249208",
+   "verdict": "RELEVANT",
+   "cell": "EXPOSURE_SERIES",
+   "arm": "neither",
+   "outcome_type": "utilisation_only",
+   "preservation_indication": "n_a",
+   "note": "Latin American Registry 2014."
+  },
+  {
+   "id": "W2800066676",
+   "verdict": "UNCERTAIN",
+   "cell": "P6_INDUCED_POSTPONEMENT",
+   "arm": "neither",
+   "outcome_type": "belief_or_attitude",
+   "preservation_indication": "elective",
+   "note": "Graduate students' preservation awareness."
+  },
+  {
+   "id": "W3093896696",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "utilisation_only",
+   "preservation_indication": "neither",
+   "note": "Race and ethnicity in preservation access, NYC. Indication not named."
+  },
+  {
+   "id": "W3119047448",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_OTHER",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "n_a",
+   "note": "Legal analysis of single-status childbearing."
+  },
+  {
+   "id": "W7169606754",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation (oncological or other disease indication). Wall 5's medical half."
+  },
+  {
+   "id": "W4292840678",
+   "verdict": "UNCERTAIN",
+   "cell": "P5_ELECTIVE_PRESERVATION",
+   "arm": "neither",
+   "outcome_type": "belief_or_attitude",
+   "preservation_indication": "elective",
+   "note": "Candidates for SOCIAL egg freezing \u2014 attitudes in the population that actually elects it."
+  },
+  {
+   "id": "W3215515882",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation (oncological or other disease indication). Wall 5's medical half."
+  },
+  {
+   "id": "W2552222299",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation (oncological or other disease indication). Wall 5's medical half."
+  },
+  {
+   "id": "W3128202121",
+   "verdict": "UNCERTAIN",
+   "cell": "ROUTE_A15_POSTPONEMENT",
+   "arm": "neither",
+   "outcome_type": "postponement",
+   "preservation_indication": "n_a",
+   "note": "Postponing motherhood as a demographic issue."
+  },
+  {
+   "id": "W4381308302",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation (oncological or other disease indication). Wall 5's medical half."
+  },
+  {
+   "id": "W3136297775",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation (oncological or other disease indication). Wall 5's medical half."
+  },
+  {
+   "id": "W2532773229",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation (oncological or other disease indication). Wall 5's medical half."
+  },
+  {
+   "id": "W2019617805",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation (oncological or other disease indication). Wall 5's medical half."
+  },
+  {
+   "id": "W2328861447",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation (oncological or other disease indication). Wall 5's medical half."
+  },
+  {
+   "id": "W2584490158",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "utilisation_only",
+   "preservation_indication": "neither",
+   "note": "Low preservation utilisation among TRANSGENDER youth. Gender-affirming indication \u2014 the third class again."
+  },
+  {
+   "id": "W2046018718",
+   "verdict": "UNCERTAIN",
+   "cell": "P5_ELECTIVE_PRESERVATION",
+   "arm": "neither",
+   "outcome_type": "belief_or_attitude",
+   "preservation_indication": "elective",
+   "note": "What women who undergo oocyte cryopreservation think of it."
+  },
+  {
+   "id": "W2737252351",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation (oncological or other disease indication). Wall 5's medical half."
+  },
+  {
+   "id": "W2192825258",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation (oncological or other disease indication). Wall 5's medical half."
+  },
+  {
+   "id": "W1974765254",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation (oncological or other disease indication). Wall 5's medical half."
+  },
+  {
+   "id": "W1920444920",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation (oncological or other disease indication). Wall 5's medical half."
+  },
+  {
+   "id": "W2909855892",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation (oncological or other disease indication). Wall 5's medical half."
+  },
+  {
+   "id": "W2296169269",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "neither",
+   "note": "Preservation for gender and sex diverse individuals."
+  },
+  {
+   "id": "W2585664962",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation (oncological or other disease indication). Wall 5's medical half."
+  },
+  {
+   "id": "W1966540665",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation (oncological or other disease indication). Wall 5's medical half."
+  },
+  {
+   "id": "W2890355467",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation (oncological or other disease indication). Wall 5's medical half."
+  },
+  {
+   "id": "W3041262749",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation (oncological or other disease indication). Wall 5's medical half."
+  },
+  {
+   "id": "W2903073838",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation (oncological or other disease indication). Wall 5's medical half."
+  },
+  {
+   "id": "W3159063504",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation (oncological or other disease indication). Wall 5's medical half."
+  },
+  {
+   "id": "W3014943471",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation (oncological or other disease indication). Wall 5's medical half."
+  },
+  {
+   "id": "W2908843979",
+   "verdict": "UNCERTAIN",
+   "cell": "P5_ELECTIVE_PRESERVATION",
+   "arm": "neither",
+   "outcome_type": "belief_or_attitude",
+   "preservation_indication": "elective",
+   "note": "Young women's knowledge and decision-making about future fertility and freezing."
+  },
+  {
+   "id": "W2804016095",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation (oncological or other disease indication). Wall 5's medical half."
+  },
+  {
+   "id": "W2899333608",
+   "verdict": "RELEVANT",
+   "cell": "P5_ELECTIVE_PRESERVATION",
+   "arm": "cannot_tell",
+   "outcome_type": "population_fertility",
+   "preservation_indication": "neither",
+   "note": "**REPRODUCTIVE OUTCOMES AFTER OOCYTE BANKING.** A births outcome for the banking population; indication not split in the record."
+  },
+  {
+   "id": "W2754777491",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation (oncological or other disease indication). Wall 5's medical half."
+  },
+  {
+   "id": "W4307945582",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation (oncological or other disease indication). Wall 5's medical half."
+  },
+  {
+   "id": "W2167874890",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation (oncological or other disease indication). Wall 5's medical half."
+  },
+  {
+   "id": "W4286685001",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation (oncological or other disease indication). Wall 5's medical half."
+  },
+  {
+   "id": "W2785121886",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "belief_or_attitude",
+   "preservation_indication": "neither",
+   "note": "Preservation intentions among transgender youth."
+  },
+  {
+   "id": "W2107085614",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation (oncological or other disease indication). Wall 5's medical half."
+  },
+  {
+   "id": "W2921106240",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation (oncological or other disease indication). Wall 5's medical half."
+  },
+  {
+   "id": "W1996407549",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation (oncological or other disease indication). Wall 5's medical half."
+  },
+  {
+   "id": "W1456552294",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation (oncological or other disease indication). Wall 5's medical half."
+  },
+  {
+   "id": "W2288618335",
+   "verdict": "UNCERTAIN",
+   "cell": "P5_ELECTIVE_PRESERVATION",
+   "arm": "neither",
+   "outcome_type": "belief_or_attitude",
+   "preservation_indication": "neither",
+   "note": "Women's characteristics and attitudes by chosen preservation technique."
+  },
+  {
+   "id": "W1991239155",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation (oncological or other disease indication). Wall 5's medical half."
+  },
+  {
+   "id": "W2015575681",
+   "verdict": "NOT_RELEVANT",
+   "cell": "OFF_ONCOFERTILITY",
+   "arm": "neither",
+   "outcome_type": "other",
+   "preservation_indication": "onco",
+   "note": "Medical fertility preservation (oncological or other disease indication). Wall 5's medical half."
+  },
+  {
+   "id": "W2904072729",
+   "verdict": "RELEVANT",
+   "cell": "P6_INDUCED_POSTPONEMENT",
+   "arm": "neither",
+   "outcome_type": "belief_or_attitude",
+   "preservation_indication": "elective",
+   "note": "**Awareness of reproductive ageing compared across women SEEKING oocyte cryopreservation, age-matched controls, and health professionals.** The comparison P6 needs: are the women who elect the technology the ones with different beliefs?"
+  },
+  {
+   "id": "W2803021963",
+   "verdict": "UNCERTAIN",
+   "cell": "P6_INDUCED_POSTPONEMENT",
+   "arm": "arm2_estimate",
+   "outcome_type": "belief_or_attitude",
+   "preservation_indication": "onco",
+   "note": "Educational programme for non-physician providers \u2014 an intervention, but on the medical-indication side."
+  }
+ ]
+}
