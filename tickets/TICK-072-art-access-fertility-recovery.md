@@ -1,5 +1,5 @@
 # TICK-072: A.17 Assisted Reproductive Technology Access
-**Status:** open
+**Status:** in-progress
 **Assigned:** Shravan
 **Hypothesis:** `art-access-fertility-recovery` — HYPOTHESES-v5.md §A.17
 **Parallel-safe:** yes
