@@ -126,6 +126,14 @@ check, and fails it on the canon:
 **Five of eight known primary-cell works fall outside it**, including the most-cited work in the
 literature. A frame that loses the canon is unusable at any precision.
 
+**A4 re-ran this check at the next order of magnitude, and the eight-case version was the optimistic
+end.** Measured against every empirical anchor and the whole 7,589-record Tier-B frame: the strict
+vocabulary reaches **4 of 12 anchors** where the loose vocabulary reaches all 12, and finds **2
+primary-cell records against loose's 148**. In the two largest arm-2 clouds — Bitler & Schmidt and
+Henne & Bundorf — population vocabulary runs 68% and 64% loose against **2% strict**, and their
+strict primary cells are zero. The economics-of-access literature does not use demographers' words
+for demographers' quantities, and a frame built on those words does not rank it low, it excludes it.
+
 **The ruling: the diagnostic vocabulary and the retrieval vocabulary are separate objects, and this
 scope keeps them separate by name.** `STRICT` is a measuring instrument, used to score clouds and to
 size bodies. The frame is drawn on the loose vocabulary and the decoy is removed by screening, not by
@@ -168,13 +176,22 @@ score well loses the canon, and a vocabulary loose enough to retrieve scores its
 
 **Two walls are declared unenforceable at title/abstract up front**, per the D.3.b lesson:
 
-- **Wall 5** cannot be enforced because "fertility preservation" does not say whether the indication
-  was oncological or elective. The abstract usually does not either. Routed to full text with an
-  `INSUFFICIENT_INFO` bucket rather than screened on the title.
-- **The arm-1/arm-2 split is itself invisible.** Whether a paper *counts* ART births or *estimates*
-  a response to access is often decided in the methods section. This is the same shape as A.12's
-  twin-IV first stage: the discriminator is not in the metadata. Both arms are therefore retrieved
-  together and separated at full-text routing, and the routing decision is recorded per study.
+- **Wall 5** was declared unenforceable here on the reasoning that "fertility preservation" does not
+  say whether the indication was oncological or elective. **A4 measured it and the declaration was
+  too broad.** Across the 910 preservation records in the Tier-B frame, 693 (76%) name an
+  oncological indication in the title or abstract and 46 (5%) name an elective one; **152 (17%) name
+  neither.** Wall 5 is therefore a screen rule with an `INSUFFICIENT_INFO` bucket sized at about one
+  record in six, not a blanket full-text routing rule. The residue is what goes to full text.
+  Note also what the same measurement says about PI call 2: the elective cell is ~46 records in the
+  whole frame before screening, so it is likely to come back near-empty.
+- **The arm-1/arm-2 split is itself invisible** — whether a paper *counts* ART births or *estimates*
+  a response to access is often decided in the methods section, the same shape as A.12's twin-IV
+  first stage. Both arms are retrieved together and separated at full-text routing, with the routing
+  decision recorded per study. **A4 qualifies this in one direction.** Identification vocabulary runs
+  1.4% in arm-1 neighbourhoods against 5.6% in arm-2 ones — a 4x ratio — while counting vocabulary is
+  nearly flat (3.9% vs 6.0%). So identification language is a usable positive *prior* at the screen:
+  a record carrying it is disproportionately arm 2. It is not a filter, since 94% of arm-2's own
+  neighbourhood carries none of it. The split cannot be screened out; it is not wholly invisible.
 
 **Wall 3 needs a rule, not just a boundary.** A single paper can report both deliveries and the
 multiple-birth rate — Buckles (2012), "Infertility Insurance Mandates and Multiple Births" (31

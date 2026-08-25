@@ -9,7 +9,7 @@
 
 ## Acceptance criteria
 - [x] 2. Search strategy and scope drafted — `literature/search-logs/art-access-fertility-recovery-search-scope.md` (DRAFT, 8 walls / 6 cells / 5 PI calls; not frozen, Calls 2-3 change the frame)
-- [ ] 3. Literature search and AI screening, both phases (§5.1) — A3 anchors done: 21/23 verified, 0 flagged (`187_a17_cold_start_anchors.py`); A4 frame next
+- [ ] 3. Literature search and AI screening, both phases (§5.1) — A3 anchors 21/23 verified (`187_`); A4 frame built: 22 seeds, 7,589 Tier-B records, 0 failed requests, no truncation (`188_`). Screen next.
 - [ ] 4. RA title/abstract review
 - [ ] 5. Full-text retrieval
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
