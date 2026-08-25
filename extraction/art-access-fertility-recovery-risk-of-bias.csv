@@ -1,0 +1,34 @@
+id,job,year,arm,title,A1_1_counterfactual,A1_2_denominator,A1_3_ascertainment,A1_4_postponement_feedback,A2_1_treatment_attenuation,A2_2_exposure_estimand_distance,A2_3_policy_endogeneity,A2_4_shock_direction,overall
+W4383264299,A3_SHARE,2023,arm1_counting,The influence of the increasing use of assisted reproduction technologies on the,SERIOUS,MODERATE,MODERATE,SERIOUS,,,,,SERIOUS
+W4319939934,A3_SHARE,2023,arm1_counting,Projecting the Contribution of Assisted Reproductive Technology to Completed Coh,SERIOUS,SERIOUS,MODERATE,SERIOUS,,,,,SERIOUS
+W7169859806,A3_SHARE,2026,arm1_counting,The future of births via medically assisted reproduction in Italy:Scenarios to 2,SERIOUS,SERIOUS,MODERATE,SERIOUS,,,,,SERIOUS
+W4206510889,A3_SHARE,2020,arm1_counting,Assessment of the contribution of assisted reproduction methods for the future d,SERIOUS,SERIOUS,MODERATE,SERIOUS,,,,,SERIOUS
+W2888653606,A3_SHARE,2018,arm1_counting,Contribution of the Assisted Reproductive Technologies to the Fertility in Ukrai,SERIOUS,SERIOUS,MODERATE,SERIOUS,,,,,SERIOUS
+W4390964890,A3_SHARE,2024,arm1_counting,Impacts of COVID-19 on Medically Assisted Live Birth Rates in the United States ,SERIOUS,SERIOUS,MODERATE,SERIOUS,,,,,SERIOUS
+W4397049710,A3_SHARE,2024,arm1_counting,Educational gradients in the prevalence of medically assisted reproduction birth,SERIOUS,SERIOUS,MODERATE,SERIOUS,,,,,SERIOUS
+W4387472984,A3_SHARE,2023,arm1_counting,Probability of second live birth after first natural and medically assisted repr,MODERATE,MODERATE,MODERATE,SERIOUS,,,,,SERIOUS
+W2997596347,A3_SHARE,2019,arm1_counting,The limits to fertility recuperation,LOW,MODERATE,MODERATE,SERIOUS,,,,,SERIOUS
+W2284249410,A1_COUNTERFACTUAL,2016,arm1_counting,"In-vitro fertilization and spontaneous pregnancies: matching outcomes in Douala,",LOW,MODERATE,MODERATE,SERIOUS,,,,,SERIOUS
+W4415618346,A1_COUNTERFACTUAL,2025,arm1_counting,Time to birth for spontaneous and ART births among infertile groups,LOW,MODERATE,MODERATE,SERIOUS,,,,,SERIOUS
+W1860640930,A2_IDENTIFIED,2007,arm2_estimate,Mandated Health Insurance Benefits and the Utilization and Outcomes of Infertili,,,,,LOW,SERIOUS,MODERATE,LOW,SERIOUS
+W2058178715,A2_IDENTIFIED,2011,arm2_estimate,Utilization of Infertility Treatments: The Effects of Insurance Mandates,,,,,LOW,SERIOUS,MODERATE,LOW,SERIOUS
+W2134649289,A2_IDENTIFIED,2012,arm2_estimate,A reduction in public funding for fertility treatment - an econometric analysis ,,,,,LOW,MODERATE,MODERATE,LOW,MODERATE
+W2429169488,A2_IDENTIFIED,2016,arm2_estimate,Decision making about infertility treatment: does unlimited access lead to inapp,,,,,LOW,MODERATE,MODERATE,LOW,MODERATE
+W2566343964,A2_IDENTIFIED,2017,arm2_estimate,Can Women Have Children and a Career? IV Evidence from IVF Treatments,,,,,SERIOUS,MODERATE,MODERATE,LOW,SERIOUS
+W2959688822,A2_IDENTIFIED,2019,arm2_estimate,The Impact of the Ontario Fertility Program on Duplicate Fertility Consultations,,,,,LOW,SERIOUS,MODERATE,LOW,SERIOUS
+W3115571668,A2_IDENTIFIED,2020,arm2_estimate,Effect of inclusion of assisted reproductive technologies in the state health in,,,,,SERIOUS,SERIOUS,MODERATE,LOW,SERIOUS
+W3191732024,A2_IDENTIFIED,2021,arm2_estimate,Household income and medical help-seeking for fertility problems among a represe,,,,,LOW,SERIOUS,MODERATE,LOW,SERIOUS
+W4297464366,A2_IDENTIFIED,2022,arm2_estimate,What Features of Fertility Treatment do Patients Value? Price Elasticity and Wil,,,,,SERIOUS,SERIOUS,MODERATE,LOW,SERIOUS
+W4393989606,A2_IDENTIFIED,2024,arm1_counting,Feasibility analysis of China's medical insurance coverage of assisted reproduct,SERIOUS,MODERATE,MODERATE,SERIOUS,,,,,SERIOUS
+W4417321594,A2_IDENTIFIED,2025,arm2_estimate,When states require fully insured employers to cover in vitro fertilization (IVF,,,,,SERIOUS,SERIOUS,MODERATE,LOW,SERIOUS
+W2899333608,A4_P5_CONVERSION,2018,arm1_counting,Reproductive outcomes after oocyte banking for fertility preservation,n/a,MODERATE,MODERATE,SERIOUS,,,,,SERIOUS
+W3200409296,A4_P5_CONVERSION,2021,arm1_counting,Oocyte Cryopreservation at a Young Age Provides an Effective Strategy for Expand,SERIOUS,MODERATE,MODERATE,SERIOUS,,,,,SERIOUS
+W4414889755,A4_P5_CONVERSION,2025,neither,Exploring the Fertility Needs of Women Before and After Oocyte Freezing for Medi,,,,,,,,,n/a
+W4408117139,A5_P6_BEHAVIOUR,2025,neither,Longitudinal study of family formation in 892 women and 193 men 8 years after vi,,,,,,,,,n/a
+W3092390609,A5_P6_BEHAVIOUR,2020,neither,Women’s perceptions of fertility assessment and counselling 6 years after attend,,,,,,,,,n/a
+W3210979915,A5_P6_BEHAVIOUR,2021,neither,Late Fertility Intentions and Fertility in Austria,,,,,,,,,n/a
+W2909656495,A5_P6_BEHAVIOUR,2019,neither,Running out of time? Understanding the consequences of the biological clock for ,,,,,,,,,n/a
+W7160175956,A5_P6_BEHAVIOUR,2026,arm2_estimate,Perceptions of Medically Assisted Reproduction and Fertility Postponement: Limit,,,,,LOW,MODERATE,MODERATE,LOW,MODERATE
+W2765482846,A5_P6_BEHAVIOUR,2021,neither,"Childbearing postponement, its option value, and the biological clock",,,,,,,,,n/a
+W2571030681,C_EXPOSURE_SERIES,2017,neither,Systematic review of worldwide trends in assisted reproductive technology 2004–2,,,,,,,,,n/a
+W4213171919,C_EXPOSURE_SERIES,2022,neither,"Assisted Reproductive Technology Surveillance — United States, 2018",,,,,,,,,n/a
