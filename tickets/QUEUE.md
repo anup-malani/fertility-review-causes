@@ -46,7 +46,6 @@ tickets can be worked concurrently.
 
 | Ticket | Title | Assigned | Parallel-safe |
 |--------|-------|----------|---------------|
-| [TICK-072](TICK-072-art-access-fertility-recovery.md) | A.17 Assisted Reproductive Technology Access | Shravan | yes |
 | [TICK-071](TICK-071-dating-apps-union-formation-friction.md) | A.24 Dating Apps and Union-Formation Friction | Shravan | yes |
 | [TICK-070](TICK-070-twinning-multiple-births.md) | A.12 Twinning Rates and Multiple Births | Shravan | yes |
 | [TICK-069](TICK-069-despair-hopelessness-fertility.md) | D.3.c Despair and Hopelessness | Shravan | yes |
@@ -77,6 +76,7 @@ tickets can be worked concurrently.
 
 | Ticket | Title | Owner | Branch (the claim) | Claimed (UTC) | Touches |
 |--------|-------|-------|--------------------|---------------|---------|
+| [TICK-072](TICK-072-art-access-fertility-recovery.md) | A.17. Assisted Reproductive Technology Access — **boundary inherited from A.12's scope-freeze**: ART live births = ART deliveries x (1 + *m*); A.17 owns the deliveries, A.12 owns only the multiplier, additively separable. Goldset scripts start at **185** (max across every branch, not main's 88) | Shravan | `072-art-access-fertility-recovery` | 2026-08-25T15:50:40Z | `literature/search-logs/art-access-fertility-recovery-*`, `extraction/art-access-fertility-recovery-*`, `output/chapters/art-access-fertility-recovery.md`, `source/build/goldset/185*` |
 | [TICK-068](TICK-068-microplastics-pfas-reproductive.md) | B.6. Microplastics and PFAS in Reproductive Tissues — both chapter drafts on the PROTOCOL §6 template; last commit 2026-08-14 | Shravan | `068-microplastics-pfas-reproductive` | 2026-08-14T14:23:49Z | `literature/search-logs/microplastics-pfas-reproductive-*`, `extraction/microplastics-pfas-reproductive-*`, `output/chapters/microplastics-pfas-reproductive.md`, `source/build/goldset/13*` |
 | [TICK-067](TICK-067-automate-ticket-claim-loop.md) | Automate the QUEUE.md board move in `scripts/ticket.sh claim` — **built and verified on its branch, unmerged.** This is the fix for the defect that left every row below missing from this board | Shravan | `067-automate-ticket-claim-loop` | 2026-08-13T20:13:46Z | `scripts/ticket.sh`, `tickets/README.md`, `tickets/opening-a-chapter-ticket.md` |
 | [TICK-066](TICK-066-antidepressants-ssri-subfecundity.md) | B.7. Antidepressants and Pharmacological Subfecundity — chapter and verdict drafted; carries a script-numbering flag; last commit 2026-08-12 | Shravan | `066-antidepressants-ssri-subfecundity` | 2026-08-12T19:28:10Z | `literature/search-logs/antidepressants-ssri-subfecundity-*`, `extraction/antidepressants-ssri-subfecundity-*`, `output/chapters/antidepressants-ssri-subfecundity.md` |
