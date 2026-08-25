@@ -1,0 +1,837 @@
+Population Research and Policy Review (2024) 43:5
+https://doi.org/10.1007/s11113-023-09849-0
+
+    RESEARCH BRIEFS
+
+
+
+Impacts of COVID‑19 on Medically Assisted Live Birth Rates
+in the United States in 2020 and 2021
+
+Katherine Tierney1          · Ester Lazzari2
+
+Received: 24 August 2023 / Accepted: 6 December 2023 / Published online: 18 January 2024
+© The Author(s) 2024, corrected publication 2024
+
+
+
+Abstract
+Initial declines in births due to medically assisted reproduction (MAR) in December
+2020 have been documented. However, the longer-term impact of COVID-19 on
+U.S. MAR birth rates has not yet been evaluated. Negative-binomial regression
+analyses were employed using counts of MAR births from the National Vital
+Statistics System and female population counts from the Current Population Survey
+as the exposure variable. Interaction terms were used to investigate whether trends
+varied by sociodemographic groups. The descriptive analyses showed sharp declines
+in the percentage of births due to MAR in December 2020 (1.05%) and January
+2021 (1.08%). Multivariable negative-binomial regression showed the incident
+rates of MAR births were lower in December 2020 relative to all other periods with
+the exception of January 2021 (IRR = 0.97, 95% Confidence Interval: 0.77–1.22).
+Negative-binomial regression analyses with interaction terms found the decline and
+rebound in MAR births differed by educational attainment. Overall, however, the
+yearly incidence rates of MAR births in 2020 and 2021 were not different from rates
+from prior years (2017–2019). Thus, COVID-19 service suspension likely had a
+substantive effect on U.S. MAR birth rates, but this reduction quickly rebounded
+to pre-pandemic levels. This study extends prior research, which focused on data
+from 2020, and sheds further light on behavior related to MAR use and its potential
+demographic implications during the pandemic.
+
+Keywords MAR · COVID-19 · Treatment utilization · Infertility
+
+
+
+
+* Katherine Tierney
+  katherine.tierney@wmich.edu
+      Ester Lazzari
+      ester.lazzari@anu.edu.au
+1
+      Department of Sociology, Western Michigan University, Kalamazoo, MI 49008‑5257, USA
+2
+      Department of Demography, University of Vienna, 1030 Vienna, Austria
+
+
+                                                                                             1  3
+                                                                                     Vol.:(0123456789)
+5   Page 2 of 16                                                           K. Tierney, E. Lazzari
+
+
+Introduction
+
+On March 17th, 2020, the American Society of Reproductive Medicine (ASRM)
+published a bulletin recommending an indefinite suspension of all new, non-urgent
+fertility treatments throughout the U.S. due to the COVID-19 pandemic (ASRM,
+2020a). Such recommendations were consistent with broader calls in the medical
+community given the impact of COVID-19 on health systems. However, on April 24th
+of the same year, the ASRM issued new directions to gradually resume treatments
+(ASRM, 2020b). Clinic responses to this guidance were heterogeneous and inconsistent
+(Mehr et al., 2021). At least one study documented declines in December 2020 in
+assisted reproductive technology (ART) births, which is the earliest effects of clinic
+closures could be expected given the average length of human gestation (Lisonkova
+et al., 2022). Overall, prior to COVID-19, the percentage of births due to MAR has
+been increasing annually; analyses of the U.S. Vital Statistics System show an increase
+from 1.34% of births in 2011 to 1.97% of births in 2019 (Tierney & Guzzo, 2023) and
+the more accurate counts of ART births from the National ART Surveillance System
+show ART comprised 1.5% of births in 2011 (Sunderam et al., 2014) and 2.24% of
+births in 2019 (authors’ calculation based upon: Martin et al., 2021; Sunderam et al.,
+2021).
+   To date, however, no prior work has evaluated the changes in medically assisted
+reproduction (MAR) births, which is a broad term used to describe births conceived
+using in vitro fertilization (IVF), use of ovulation medications, and/or use of intrauterine
+insemination, after December 2020. Based on prior research on overall fertility and
+treatment utilization trends, it is likely that MAR births will have rebounded from
+this initial decline. For example, a recent report from the Centers for Disease Control
+and Prevention using 2021 birth data showed increases in overall births in the U.S.
+since 2020, with variations in trends by racial/ethnic groups (Hamilton et al., 2021).
+Similar declines and rebounds in overall fertility have also been documented in other
+work (Kearney & Levine, 2022). In addition, in a study of commercially insured U.S.
+women, Zhou and colleagues (2021) documented a decline in infertility treatment
+utilization between March and April 2020, followed by an increase through November
+2020 that surpassed pre-pandemic levels. Thus, it is likely that MAR birth rate declines
+were short lived but may have varied by sociodemographic groups.
+   In this study, we aim to provide an assessment of the impacts of the COVID-19
+outbreak on MAR birth rates in the U.S. using publicly available, population-level data.
+Additionally, due to the age-patterning and the well-documented disparities in U.S.
+ART births (Ethics Committee of the American Society for Reproductive Medicine,
+2021; Fujimoto et al., 2010; Jain, 2006; Lazzari & Tierney, 2023; Tierney & Cai,
+2019), the analyses also assess whether the findings vary by age, race/ethnicity, or
+educational attainment.
+
+
+
+
+13
+Impacts of COVID‑19 on Medically Assisted Live Birth Rates…              Page 3 of 16 5
+
+
+Materials and Methods
+
+National Vital Statistics System (NVSS) Birth Certificate Data
+
+The NVSS birth certificate data are collected by U.S. States and compiled by the
+National Center for Health Statistics. The 2003 revision to the U.S. Birth Certificate
+includes information on the use of medical assistance to become pregnant, including
+ART and fertility enhancing medications. The U.S. birth certificate also collects
+data on single year of age, race/ethnicity of the mother, and educational attainment
+of the mother. The present study used data from January 2017 to December 2021
+and defined MAR births as any birth identified in the NVSS data as using ART or
+any other infertility treatment in Box 41. The analyses included only live births.
+
+Current Population Survey (CPS)
+
+The CPS is a publicly available, nationally representative monthly survey of U.S.
+households administered by the U.S. Census Bureau and the U.S. Bureau of Labor
+Statistics (Flood et al., 2020). The CPS dataset was used to estimate the population
+of U.S. women by age, race/ethnicity, and educational attainment.
+
+Analysis Plan
+
+In the descriptive analyses, we calculated the percentage of births due to MAR
+overall by month and year and by five-year age groups, race/ethnicity, and
+educational attainment of the mother. Next, we employed three sets of negative-
+binomial regression analyses using size of the female population to account for
+exposure to risk. First, we evaluated whether there were any changes in the incident
+rates of MAR births in December 2020 relative to all months and years between
+January 2017 and December 2021 using bivariate and multivariable negative-
+binomial regression. Controls in the multivariable models included age, race/
+ethnicity, and educational attainment. Based on this first set of results, we created
+a three-category variable capturing distinct time periods: the before COVID-19
+impacts period (October 2020 and November 2020), the during period (December
+2020 and January 2021), and the after period (February 2021 and March 2021).
+We used this period variable in our second set of analyses using negative-binomial
+regression models with interaction terms to assess whether the changes in the MAR
+incident rates varied by age, race/ethnicity, or educational attainment. Finally, we
+assessed whether there were any changes in the yearly MAR birth incident rates
+using bivariate and multivariable negative-binomial regression. All analyses were
+conducted in Stata 17.0 (StataCorp 2021).
+
+Data Restrictions
+
+States that did not report MAR births were excluded from our analyses. However,
+reporting of MAR has varied over the study period and individual states are not
+
+                                                                           13
+5                                  Page 4 of 16                                                                                                                                                        K. Tierney, E. Lazzari
+
+
+identifiable in the public-use NVSS dataset. To reduce the impact of these changes
+on the results, we used an exposure variable for population size for included states
+and used data from 2017 to 2021 because there was less change in state reporting
+during this period. Specifically, the 2021 dataset excluded South Carolina, while the
+2017–2020 datasets excluded South Carolina and Tennessee (Centers for Disease
+Control & Prevention, 2021). Additionally, MAR births and population counts for
+implausible age and education combinations were removed (i.e., an under 15 year
+old with more than a 4-year degree). Due to the low MAR utilization rates among
+younger women, the negative-binomial regressions excluded women under the age
+of 20. All data used for this study are publicly available (Flood et al., 2020; National
+Center for Health Statistics and The National Bureau of Economic Research 2022).
+
+
+
+Results
+
+Descriptive Results
+
+Figure 1 shows a cyclical pattern with yearly declines in the percentage of births due to
+MAR in each September. However, in 2020, there was also a decline in the percentage
+of births due to MAR in December. Figure 2 shows changes in the percentage of births
+due to MAR by age (Panel A and B), race/ethnicity (Panel C), and educational attain-
+ment (Panel D). Except for younger ages where MAR births were less common and
+
+
+
+                                    2.5
+
+
+
+
+Percent of All Births due to MAR
+                                      2
+
+
+
+                                    1.5
+
+
+
+                                      1
+
+
+
+                                     .5
+
+
+
+                                      0
+
+
+                                          2017m1   2017m4   2017m7   2017m10   2018m1   2018m4   2018m7   2018m10   2019m1   2019m4   2019m7   2019m10   2020m1   2020m4   2020m7   2020m10   2021m1    2021m4   2021m7   2021m10   2022m1
+
+
+                                                                                                                      Year and Month
+
+Fig. 1  Percentage of Live Births due to Medically Assisted Reproduction (MAR) by Month and Year
+from January 2017 to December 2021
+
+
+13
+Impacts of COVID‑19 on Medically Assisted Live Birth Rates…                          Page 5 of 16 5
+
+
+
+
+Fig. 2  Percentage of Live Births due to Medically Assisted Reproduction (MAR) by Month and Year
+from January 2017–December 2021 and by Five Year Age Groups (Panels A and B), Race/Ethnicity
+(Panel C), and Educational Attainment (Panel D). The y-axis scale changes across panels to best show
+the data. NH non-Hispanic, NHOPI Native Hawaiian or Other Pacific Islander
+
+
+
+
+among women with less than a 4-year degree, large declines in the percent of births due
+to MAR between November 2020 and January 2021 were evident.
+
+MAR Birth Incidence Rates from January 2017 to December 2021
+
+In both the bivariate and multivariable models, all months and years included in the
+analyses had higher incidence rates of MAR births than December 2020 with the
+exception of January 2021, where the incident rate ratios did not differ (IRR = 1.05,
+95% CI: 0.72–1.53; adjusted IRR = 0.97, 95% CI: 0.77–1.22) (Table 1). Net of controls,
+in other months and years, the MAR birth incident rates were between 1.61 (95%
+CI: 1.28–2.01) and 2.28 (95% CI: 1.83–2.84) times the December 2020 MAR birth
+incident rates. In addition, net of controls, in February 2021, the MAR birth incident
+rate was 1.54 times the December 2020 incident rate (95% CI: 1.23–1.92), by March
+2021, the MAR birth incident rate was 1.95 times the December 2020 incident rate
+(95% CI: 1.57–2.44), and by April 2021, the MAR birth incident rate was 2.07 times
+the December 2020 incident rate (95% CI: 1.66–2.59).
+
+
+
+
+                                                                                       13
+5     Page 6 of 16                                                                K. Tierney, E. Lazzari
+
+
+Table 1  Bivariate and Multivariable Negative Binomial Regressions of the Association between Births
+due to Medically Assisted Reproduction (MAR) and Month and Year between January 2017 and Decem-
+ber 2021
+                                                         Bivariate                     Multivariable
+
+Month, Year (Reference: December 2020)
+    January 2017                                         1.92                          1.73
+                                                         (1.33, 2.76)                  (1.39, 2.16)
+    February 2017                                        1.72                          1.61
+                                                         (1.19, 2.48)                  (1.28, 2.01)
+    March 2017                                           1.99                          1.86
+                                                         (1.37, 2.88)                  (1.49, 2.33)
+    April 2017                                           2.07                          1.88
+                                                         (1.43, 3.00)                  (1.50, 2.35)
+    May 2017                                             2.10                          1.83
+                                                         (1.45, 3.04)                  (1.46, 2.29)
+    June 2017                                            2.21                          1.90
+                                                         (1.53, 3.19)                  (1.52, 2.37)
+    July 2017                                            2.20                          1.91
+                                                         (1.53, 3.18)                  (1.53, 2.38)
+August 2017                                              2.28                          1.97
+                                                         (1.58, 3.30)                  (1.58, 2.46)
+    September 2017                                       1.82                          1.52
+                                                         (1.26, 2.65)                  (1.22, 1.91)
+    October 2017                                         2.16                          1.90
+                                                         (1.49, 3.13)                  (1.52, 2.38)
+    November 2017                                        2.28                          2.05
+                                                         (1.58, 3.30)                  (1.64, 2.56)
+    December 2017                                        2.48                          2.15
+                                                         (1.71, 3.59)                  (1.71, 2.68)
+    January 2018                                         2.06                          2.00
+                                                         (1.43, 2.97)                  (1.60, 2.49)
+    February 2018                                        1.88                          1.74
+                                                         (1.31, 2.72)                  (1.40, 2.17)
+    March 2018                                           2.02                          1.76
+                                                         (1.39, 2.92)                  (1.41, 2.20)
+April 2018                                               2.07                          1.82
+                                                         (1.44, 2.99)                  (1.45, 2.27)
+    May 2018                                             2.38                          2.01
+                                                         (1.64, 3.44)                  (1.61, 2.52)
+    June 2018                                            2.42                          2.07
+                                                         (1.67, 3.50)                  (1.66, 2.58)
+    July 2018                                            2.44                          2.13
+                                                         (1.69, 3.53)                  (1.71, 2.65)
+    August 2018                                          2.20                          1.96
+                                                         (1.52, 3.18)                  (1.57, 2.45)
+
+
+
+13
+Impacts of COVID‑19 on Medically Assisted Live Birth Rates…                  Page 7 of 16 5
+
+
+Table 1  (continued)
+                                                              Bivariate       Multivariable
+
+ September 2018                                               1.76            1.63
+                                                              (1.21, 2.54)    (1.30, 2.04)
+ October 2018                                                 2.19            1.86
+                                                              (1.52, 3.17)    (1.49, 2.32)
+ November 2018                                                1.96            1.87
+                                                              (1.36, 2.83)    (1.50, 2.33)
+ December 2018                                                2.03            1.84
+                                                              (1.41, 2.94)    (1.48, 2.30)
+ January 2019                                                 2.02            1.82
+                                                              (1.40, 2.92)    (1.46, 2.27)
+ February 2019                                                1.89            1.73
+                                                              (1.31, 2.73)    (1.39, 2.16)
+ March 2019                                                   2.10            1.85
+                                                              (1.45, 3.04)    (1.48, 2.31)
+ April 2019                                                   2.06            1.80
+                                                              (1.43, 2.99)    (1.44, 2.25)
+ May 2019                                                     2.25            1.96
+                                                              (1.56, 3.26)    (1.57, 2.44)
+ June 2019                                                    1.99            1.86
+                                                              (1.38, 2.87)    (1.49, 2.32)
+ July 2019                                                    2.35            2.10
+                                                              (1.63, 3.39)    (1.68, 2.61)
+ August 2019                                                  2.34            1.99
+                                                              (1.62, 3.38)    (1.60, 2.49)
+ September 2019                                               1.73            1.57
+                                                              (1.19, 2.50)    (1.26, 1.97)
+ October 2019                                                 2.15            1.97
+                                                              (1.49, 3.10)    (1.58, 2.45)
+ November 2019                                                1.98            1.79
+                                                              (1.37, 2.85)    (1.44, 2.24)
+ December 2019                                                2.12            2.02
+                                                              (1.48, 3.05)    (1.62, 2.52)
+ January 2020                                                 2.19            2.02
+                                                              (1.52, 3.17)    (1.62, 2.53)
+ February 2020                                                1.97            1.83
+                                                              (1.36, 2.84)    (1.46, 2.28)
+ March 2020                                                   2.33            1.97
+                                                              (1.60, 3.37)    (1.58, 2.46)
+ April 2020                                                   2.10            2.05
+                                                              (1.46, 3.03)    (1.65, 2.56)
+ May 2020                                                     2.10            1.95
+                                                              (1.45, 3.03)    (1.57, 2.44)
+
+
+
+                                                                               13
+5     Page 8 of 16                         K. Tierney, E. Lazzari
+
+
+Table 1  (continued)
+                            Bivariate           Multivariable
+
+    June 2020               2.15                2.06
+                            (1.49, 3.10)        (1.65, 2.58)
+    July 2020               2.34                2.26
+                            (1.62, 3.38)        (1.81, 2.82)
+    August 2020             2.25                2.02
+                            (1.56, 3.25)        (1.62, 2.52)
+    September 2020          1.75                1.52
+                            (1.21, 2.53)        (1.21, 1.90)
+    October 2020            2.30                1.95
+                            (1.59, 3.33)        (1.56, 2.43)
+    November 2020           2.02                1.70
+                            (1.39, 2.93)        (1.36, 2.13)
+December 2020 (Reference)   1.00                1.00
+                            (1.00, 1.00)        (1.00, 1.00)
+    January 2021            1.05                0.97
+                            (0.72, 1.53)        (0.77, 1.22)
+    February 2021           1.72                1.54
+                            (1.19, 2.48)        (1.23, 1.92)
+    March 2021              2.18                1.95
+                            (1.52, 3.15)        (1.57, 2.44)
+    April 2021              2.30                2.07
+                            (1.60, 3.32)        (1.66, 2.59)
+    May 2021                2.30                2.04
+                            (1.60, 3.32)        (1.64, 2.55)
+    June 2021               2.33                2.19
+                            (1.62, 3.35)        (1.76, 2.73)
+    July 2021               2.54                2.33
+                            (1.76, 3.65)        (1.87, 2.91)
+August 2021                 2.38                2.16
+                            (1.65, 3.42)        (1.73, 2.69)
+September 2021              1.85                1.77
+                            (1.29, 2.67)        (1.42, 2.21)
+October 2021                2.36                2.10
+                            (1.64, 3.41)        (1.69, 2.62)
+    November 2021           2.29                2.10
+                            (1.59, 3.30)        (1.68, 2.61)
+    December 2021           2.53                2.28
+                            (1.75, 3.64)        (1.83, 2.84)
+Age in years
+    15–19                                       0.01
+                                                (0.01, 0.01)
+
+
+
+
+13
+Impacts of COVID‑19 on Medically Assisted Live Birth Rates…                         Page 9 of 16 5
+
+
+Table 1  (continued)
+                                                              Bivariate               Multivariable
+
+ 20–24                                                                                0.10
+                                                                                      (0.09, 0.11)
+ 25–29                                                                                0.40
+                                                                                      (0.37, 0.43)
+ 30–34 (Reference)                                                                    1.00
+                                                                                      (1.00, 1.00)
+ 35–39                                                                                1.10
+                                                                                      (1.03, 1.17)
+ 40–44                                                                                0.50
+                                                                                      (0.47, 0.53)
+ 44–49                                                                                0.14
+                                                                                      (0.13, 0.15)
+Race
+ White, Non-Hispanic (Reference)                                                      1.00
+                                                                                      (1.00, 1.00)
+ Black, Non-Hispanic                                                                  0.43
+                                                                                      (0.41, 0.46)
+ Asian/NHOPI, Non-Hispanic                                                            1.32
+                                                                                      (1.25, 1.41)
+ Hispanic                                                                             0.82
+                                                                                      (0.77, 0.87)
+ Other race, non-hispanic                                                             1.07
+                                                                                      (1.00, 1.14)
+Education
+ Less than 4-year degree                                                              1.00
+                                                                                      (1.00, 1.00)
+ 4-year degree                                                                        1.93
+                                                                                      (1.83, 2.03)
+ More than 4-year degree                                                              3.96
+                                                                                      (3.74, 4.18)
+ Natural-log dispersion parameter (alpha)                     1.37                    0.43
+                                                              (1.32, 1.42)            (0.41, 0.45)
+
+Exponentiated coefficients; 95% Confidence intervals in parentheses; Exposure: Number of Women
+
+
+
+MAR Birth Incidence Rate Changes by Sociodemographic Group
+and COVID‑19‑Impacted Periods
+
+Based on the two sets of results above, we created a three-category variable to
+capture the “before” (October 2020 and November 2020), “during” (December 2020
+and January 2021), and “after” (February 2021 and March 2021) periods of decline
+and rebound of MAR live birth rates for our interactive models.
+
+
+                                                                                       13
+5                                Page 10 of 16                                                         K. Tierney, E. Lazzari
+
+
+   In the interactive analyses, there were no patterns suggesting the decline or
+rebound periods differed by race/ethnicity or age group (Supplemental table 1). By
+contrast, a pattern was observed for educational attainment (Fig. 3). The predicted
+number of MAR births for the before, during, and after periods by educational
+group were calculated to ease interpretation of this patterning. For women with
+less than a 4-year degree, the predicted number of MAR births were 45.4 (95% CI:
+35.7–55.1), 38.0 (95% CI: 24.2–38.2), and 44.9 (95% CI: 35.2–54.4) for the before,
+during, and after periods in comparison with 73.8 (95% CI: 58.1–89.4), 38.5 (95%
+CI: 30.0–47.0), and 73.1 (95% CI: 57.5–88.7) MAR births for women with a 4-year
+degree and 161.7 (95% CI: 125.3–198.0), 62.1 (95% CI: 47.6–76.7), and 145.4 (95%
+CI: 113.2–177.5) MAR births for women with more than a 4-year degree in the
+before, during, and after periods, respectively. These predicted values show that the
+decline and rebound in MAR births for women with more than a 4-year degree was
+steeper than for women with lower levels of education. These predicted counts also
+show that all educational groups returned to their pre-decline levels by the “after”
+period.
+
+MAR Birth Incidence Rates by Year
+
+Net of the controls, we observed that the incident rate of MAR births in 2021 did
+not differ from 2017, 2018, 2019, or 2020 (2017 IRR = 0.95, 95% CI: 0.89–1.01;
+2018 IRR = 0.96, 95% CI: 0.90–1.02; 2019 IRR = 0.95, 95% CI: 0.90–1.02; 2020
+IRR = 0.95, 95% CI: 0.89–1.01) (Table 2).
+
+
+
+                                  200
+
+
+
+
+Predicted Number of MAR Births
+                                  150
+
+
+
+
+                                  100
+
+
+
+
+                                   50
+
+
+
+
+                                    0
+
+                                        Before                               During                                   After
+                                                                            Period
+
+                                                 Less than 4-Year Degree   4-Year Degree   More than 4-Year Degree
+
+
+Fig. 3  Predicted MAR Births with 95% Confidence Intervals by Period and Educational Attainment.
+Analyses are age adjusted, but exclude women 19 and under. MAR Medically Assisted Reproduction
+
+
+13
+Impacts of COVID‑19 on Medically Assisted Live Birth Rates…                          Page 11 of 16 5
+
+
+Table 2  Bivariate and Multivariable Negative Binomial Regression of the Incident Rate Ratio of Births
+due to Medically Assisted Reproduction (MAR) by Year 2017–2021
+                                                              Bivariate                 Multivariable
+
+Year
+ 2017                                                         0.97                      0.95
+                                                              (0.88, 1.08)              (0.89, 1.01)
+ 2018                                                         0.98                      0.96
+                                                              (0.88, 1.09)              (0.90, 1.02)
+ 2019                                                         0.96                      0.95
+                                                              (0.87, 1.07)              (0.90, 1.02)
+ 2020                                                         0.95                      0.95
+                                                              (0.85, 1.05)              (0.89, 1.01)
+ 2021 (Reference)                                             1.00                      1.00
+                                                              (1.00, 1.00)              (1.00, 1.00)
+Age in years
+ 15–19                                                                                  0.01
+                                                                                        (0.01, 0.01)
+ 20–24                                                                                  0.10
+                                                                                        (0.09, 0.11)
+ 25–29                                                                                  0.40
+                                                                                        (0.37, 0.42)
+ 30–34 (Reference)                                                                      1.00
+                                                                                        (1.00, 1.00)
+ 35–39                                                                                  1.10
+                                                                                        (1.03, 1.17)
+ 40–44                                                                                  0.50
+                                                                                        (0.47, 0.54)
+ 44–49                                                                                  0.14
+                                                                                        (0.13, 0.15)
+Race
+ White, Non-Hispanic (Reference)                                                        1.00
+                                                                                        (1.00, 1.00)
+ Black, Non-Hispanic                                                                    0.43
+                                                                                        (0.41, 0.46)
+ Asian/NHOPI, Non-Hispanic                                                              1.33
+                                                                                        (1.25, 1.41)
+ Hispanic                                                                               0.83
+                                                                                        (0.78, 0.88)
+ Other Race, Non-Hispanic                                                               1.07
+                                                                                        (1.01, 1.15)
+Education
+ Less than 4-year degree (Reference)                                                    1.00
+                                                                                        (1.00, 1.00)
+ 4-year degree                                                                          1.93
+                                                                                        (1.83, 2.03)
+ More than 4-year degree                                                                4.18
+
+
+
+                                                                                         13
+5     Page 12 of 16                                                               K. Tierney, E. Lazzari
+
+
+Table 2  (continued)
+                                                          Bivariate                    Multivariable
+                                                                                       (3.76, 4.20)
+    Natural-log dispersion parameter (alpha)              1.38                         0.45
+                                                          (1.34, 1.43)                 (0.43, 0.47)
+
+Exponentiated coefficients; 95% confidence intervals in parentheses; Exposure: Number of Women
+
+
+
+Discussion
+
+Using publicly available population-level data, this study analyzed MAR births in the
+U.S. during the early stages of the COVID-19 pandemic in 2020–2021. Consistent
+with prior research that used the NVSS records (Lisonkova et al., 2022), we found
+a decline in MAR births in December 2020. However, our results also demonstrated
+that this decline continued into January 2021 and varied by socioeconomic strata.
+Specifically, the results showed steeper declines in MAR births among women with
+more than a 4-year degree. This patterning may be the result of more highly edu-
+cated women suspending treatment in accordance with general public health recom-
+mendations, including advice to remain home and to limit health care utilization for
+non-life-threatening conditions, as observed in other domains of health early in the
+pandemic (Pampel et al., 2010). Alternatively, the educational differences in declines
+in MAR births may be due to local restrictions where women with higher levels of
+education live or other contextual factors such as geographic location or COVID-19
+prevalence rates, which are not available in the dataset used.
+   The results also showed a quick rebound in MAR births in the United States.
+Indeed, MAR births rebounded as early as February 2021 and pre-pandemic lev-
+els were reached by April 2021. While these rebounds did not vary by age or race/
+ethnicity, they did vary by educational attainment. Specifically, the rebounds were
+steeper among women with more than a 4-year degree.
+   These findings have implications for research, practice, and policy. First,
+for research, the findings demonstrate that the pandemic has led to substantial
+fluctuations in MAR births in the United States. Importantly, this paper shows that
+the temporary decline in MAR births documented in previous research (Lisonkova
+et al., 2022) was ultimately resolved. Specifically, despite the profound impact of
+COVID-19 on people’s lives and relationships, the yearly incidence rates of MAR
+births in 2020 and 2021 were not different from previous years, suggesting that
+individuals were largely prepared to return to treatment when clinics reopened.
+However, further research is needed to clarify the individual and contextual
+circumstances that shaped these descriptive trends and the effects of these short-term
+declines and rebounds on demographic outcomes such as involuntary childlessness.
+In addition, this study underscores the importance of conducting detailed monthly
+data analysis, which allowed us to shed light on challenges to care capacity and
+provide insights into behavior related to MAR use.
+   Second, for practice, the initial declines in MAR birth rates likely resulted in a
+short-term increase in demand for services as women who delayed care resumed
+
+
+13
+Impacts of COVID‑19 on Medically Assisted Live Birth Rates…              Page 13 of 16 5
+
+
+treatment. While clinics may have been equipped to handle this increase, postpone-
+ment of births due to the pandemic, or any other reason, may result in more potential
+patients seeking care who otherwise might not have needed services (Leridon, 2004;
+Leridon & Slama, 2008; Morgan & Taylor, 2006). As a result, practices may see an
+increase in older patients or those who have had longer duration of infertility before
+seeking care. Thus, changes to practice guidelines may be advisable to help patients
+who delayed pregnancy or infertility care during the pandemic to improve their odds
+of becoming pregnant and having the families they desire.
+   Finally, for policy, despite being short lived, the decline in MAR birth rates
+observed provide a reminder that policies restricting MAR may have effects on fam-
+ily formation because of the time-sensitive nature of infertility and the common use
+of infertility treatments to have first births (Barbuscia et al., 2019; Lazzari et al.,
+2021; Tierney, 2022). In other words, even short-term impacts on access to care may
+result in some foregone childbearing, which should be considered if restrictions on
+infertility care are needed in the future.
+
+
+
+Limitations
+
+This paper has two limitations. First, although this study adjusts for demographic
+risk, these data do not allow us to conduct analyses on the potential mechanisms of
+these declines nor how they vary across geography, though such factors have been
+associated with fertility declines and rebounds throughout the COVID-19 pandemic
+(Kearney & Levine, 2022). Second, there is well-documented underreporting of
+ART births in the NVSS data (Moaddab et al., 2016; Thoma et al., 2014; Tierney
+& Cai, 2019). Unfortunately, there are no other publicly available, population-
+level estimates of MAR births in the United States that could be used for these
+demographic analyses. However, prior work has shown that the underreporting is
+not patterned by maternal characteristics (Thoma et al., 2014). Further, there is no
+reason to assume that the level of underreporting was higher in the months where
+declines were observed. Still, the results from this study cannot estimate the true
+proportion of births due to MAR. Instead, the results provide a unique insight into
+the patterning of MAR birth rates during this phase of the COVID-19 pandemic.
+Future research should be pursued by those with access to restricted data to provide
+population-level estimates of MAR births during COVID-19 overall and across
+sociodemographic groups.
+
+
+
+Conclusion
+
+The present study assessed the impacts of COVID-19 restrictions on MAR births
+using population-level data. Declines were seen in MAR birth rates in December
+2020 and January 2021 that differed from prior monthly trends. The reopening of
+clinics mitigated the dramatic decline in MAR birth rates during this period, with
+MAR births quickly rebounding to pre-pandemic levels. Despite the relatively short
+
+                                                                            13
+5   Page 14 of 16                                                                        K. Tierney, E. Lazzari
+
+
+duration of closures, for some patients, MAR births may not be recovered. It is
+important for future research to further quantify the effects of these declines and
+for both medical practices and policy to adapt to changing needs and demands of
+patients to ensure equitable access to infertility treatment, especially in the wake of
+pandemic related pregnancy postponement.
+Supplementary Information The online version contains supplementary material available at https://​doi.​
+org/​10.​1007/​s11113-​023-​09849-0.
+
+Acknowledgements This paper uses data from the National Center for Health Statistics (NCHS). Any
+opinion, findings, and conclusions or recommendations expressed in this material are those of the author
+and do not necessarily reflect the NCHS, which is responsible for only the initial data.
+
+Author Contributions Both authors contributed substantively to the preparation of this manuscript.
+Both authors contributed to the design and conceptualization of the research project. Author KIT was
+responsible for the acquisition, analysis, and interpretation of the data, drafting the materials and methods
+and results sections, and critically revising the introduction, discussion, and conclusion sections of the
+manuscript. Author EL assisted in the interpretation of the data as well as drafting the introduction,
+discussion, and conclusion sections of the paper and critically reviewing the materials and methods and
+results sections.
+
+Funding Author EL is grateful for funding from the European Research Council (ERC) under the
+European Union’s Horizon 2020 research and innovation programme (grant Agreement No 101001410)
+to support this work.
+
+Data Availability The data for this paper are publicly available.
+
+Declarations
+Conflict of interest Author EL received funding from the European Research Council (ERC) under the
+European Union’s Horizon 2020 research and innovation programme (grant Agreement No 101001410)
+to support this work. The authors have no other relevant financial or non-financial interests to disclose.
+
+Ethical Approval The present study conducts secondary analyses of publicly available data. The data used
+for MAR births are from the National Vital Statistics System and the data used for population counts come
+from the Current Population Survey. Both datasets are deidentified and cannot be used to identify individu-
+als. The authors were not part of the original data collection team. Thus, the study is not considered human
+subject research based upon the OHRP and the Common Rule definition. As a result, the paper was exempt
+from IRB review. Western Michigan University’s IRB policies can be found here: https://​wmich.​edu/​polic​
+ies/​human-​subje​cts-​resea​rch-​prote​ction
+
+Open Access This article is licensed under a Creative Commons Attribution 4.0 International License,
+which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long
+as you give appropriate credit to the original author(s) and the source, provide a link to the Creative
+Commons licence, and indicate if changes were made. The images or other third party material in this
+article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit
+line to the material. If material is not included in the article’s Creative Commons licence and your
+intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain
+permission directly from the copyright holder. To view a copy of this licence, visit http://​creat​iveco​
+mmons.​org/​licen​ses/​by/4.​0/.
+
+
+
+
+13
+Impacts of COVID‑19 on Medically Assisted Live Birth Rates…                                      Page 15 of 16 5
+
+
+References
+ASRM. (2020a). ASRM issues new guidance on fertility care during COVID-19 pandemic: calls for sus-
+      pension of most treatments. https://​www.​asrm.​org/​news-​and-​publi​catio​ns/​covid-​19/​covid-​19-​press-​
+      relea​ses-​and-​annou​nceme​nts/​asrm-​issues-​new-​guida​nce-​on-​ferti​lity-​care-​during-​covid-​19-​pande​
+      micca​lls-​for-​suspe​nsion-​of-​most-​treat​ments/
+ASRM. (2020b). Patient management and clinical recommendations during the coronavirus (COVID-
+      19) pandemic. Available retrieved June 16 2022 from https://​www.​asrm.​org/​globa​lasse​ts/​asrm/​asrm-​
+      conte​nt/​news-​and-​publi​catio​ns/​covid-​19/​covid​taskf​orceu​pdate3.​pdf.
+Barbuscia, A., Myrskylä, M., & Goisis, A. (2019). The psychosocial health of children born after medi-
+      cally assisted reproduction: Evidence from the UK Millennium Cohort Study. SSM - Population
+      Health, 7, 100355. https://​doi.​org/​10.​1016/j.​ssmph.​2019.​100355
+Centers for disease control and prevention. (2021). User guide to the 2020 natality public use file, 97.
+Ethics Committee of the American Society for Reproductive Medicine. (2021). Disparities in access to
+      effective treatment for infertility in the United States: An ethics committee opinion. Fertility and
+      Sterility, 116(1), 54–63. https://​doi.​org/​10.​1016/j.​fertn​stert.​2021.​02.​019
+Flood, S., King, M., Rodgers, R., Ruggles, S., & Warren, J. R. (2020). Integrated public use microdata
+      series, current population survey: Version 8.0 . Minneapolis, MN.
+Fujimoto, V. Y., Luke, B., Brown, M. B., Jain, T., Armstrong, A., Grainger, D. A., & Hornstein, M. D.
+      (2010). Racial and ethnic disparities in assisted reproductive technology outcomes in the United
+      States. Fertility and Sterility, 93(2), 382–390. https://​doi.​org/​10.​1016/j.​fertn​stert.​2008.​10.​061
+Hamilton, B. E., Martin, J. A., & Osterman, M. J. K. (2021). Births: Provisional Data for 2021. 11.
+Jain, T. (2006). Socioeconomic and racial disparities among infertility patients seeking care. Fertility and
+      Sterility, 85(4), 876–881. https://​doi.​org/​10.​1016/j.​fertn​stert.​2005.​07.​1338
+Kearney, M. S., & Levine, P. (2022). The US COVID-19 baby bust and rebound (No. w30000) (p.
+      w30000). Cambridge, MA: National Bureau of Economic Research. https://​doi.​org/​10.​3386/​w30000
+Lazzari, E., Gray, E., & Chambers, G. M. (2021). The contribution of assisted reproductive technology
+      to fertility rates and parity transition: An analysis of Australian data. Demographic Research, 45,
+      1081–1096.
+Lazzari, E., & Tierney, K. (2023). Parental sociodemographics of medically assisted reproduction births
+      in the United States: A dyadic population-level study. F&S Reports. https://​doi.​org/​10.​1016/j.​xfre.​
+      2023.​05.​008
+Leridon, H. (2004). Can assisted reproduction technology compensate for the natural decline in fertility
+      with age? A Model Assessment. Human Reproduction, 19(7), 1548–1553.
+Leridon, H., & Slama, R. (2008). The impact of a decline in fecundity and of pregnancy postponement
+      on final number of children and demand for assisted reproduction technology. Human Reproduction,
+      23(6), 1312–1319.
+Lisonkova, S., Bone, J. N., Muraca, G. M., Razaz, N., Boutin, A., Brandt, J. S., Bedaiwy, M. A., Ananth,
+      C. V., & Joseph, K. S. (2022). Early coronavirus disease 2019 restrictive measures and changes in
+      maternal characteristics, use of assisted reproductive technology, and stillbirth. Paediatric and Peri-
+      natal Epidemiology. https://​doi.​org/​10.​1111/​ppe.​12925
+Martin, J. A., Hamilton, B. E., Osterman, M. J. K., Driscoll, A. K., & Drake, Patrick. (2021). Births:
+      Final Data for 2019 (National Vital Statistics Reports No. Volume 70, Number 2). Hyattsville, MD:
+      U.S. Department of Health and Human Services. https://​doi.​org/​10.​15620/​cdc:​100472
+Mehr, H., Jackson-Bey, T., Michelle, V., Lee, V., Herndon, C., Ho, J., Aghajanova, L., & Quinn, M. M.
+      (2021). We are here for you: infertility clinic communication during the first wave of the COVID-19
+      pandemic. Journal of Assisted Reproduction and Genetics, 38(7), 1809–1817.
+Moaddab, A., Bateni, Z. H., Dildy, G. A., & Clark, S. L. (2016). Poor compliance and lack of improve-
+      ment in birth certificate reporting of assisted reproductive technology pregnancies in the United
+      States. American Journal of Obstetrics & Gynecology, 215(4), 528–530. https://​doi.​org/​10.​1016/j.​
+      ajog.​2016.​06.​041
+Morgan, S. P., & Taylor, M. G. (2006). Low fertility at the turn of the twenty-first century. Annual Review
+      of Sociology, 32(1), 375–399. https://​doi.​org/​10.​1146/​annur​ev.​soc.​31.​041304.​122220
+National center for health statistics & the national bureau of economic research. (2022). NCHS’ vital
+      statitics natality birth data. Retrieved December 14 2016 from http://​www.​nber.​org/​data/​vital-​stati​
+      stics-​natal​ity-​data.​html.
+
+
+
+
+                                                                                                      13
+5   Page 16 of 16                                                                            K. Tierney, E. Lazzari
+
+
+Pampel, F. C., Krueger, P. M., & Denney, J. T. (2010). Socioeconomic disparities in health behaviors.
+     Annual Review of Sociology, 36, 349–370. https://​doi.​org/​10.​1146/​annur​ev.​soc.​012809.​102529
+StataCorp. (2021). Stata statistical software: Release 17. College Station, TX: StataCorp LLC.
+Sunderam, S., Kissin, D. M., Crawford, S. B., Folger, S. G., Jamieson, D. J., & Barfield, W. D. (2014).
+     Assisted Reproductive Technology Surveillance — United States, 2011 (Surveillance Summaries
+     No. 63(SS10)) (pp. 1–28). Centers for Disease Control and Prevention. Retrieved November 13
+     2023 from https://​www.​cdc.​gov/​mmwr/​previ​ew/​mmwrh​tml/​ss631​0a1.​htm.
+Sunderam, S., Zhang, Y., Jewett, A., & Kissin, D. M. (2021). State-Specific Assisted Reproductive Tech-
+     nology Surveillance, United States: 2019 Data Brief. 21
+Thoma, M. E., Boulet, S., Martin, J. A., & Kissin, D. (2014). Births resulting from assisted reproduc-
+     tive technology: Comparing birth certificate and National ART Surveillance System Data, 2011.
+     National Vital Statistics Reports : FRom the Centers for Disease Control and Prevention, National
+     Center for Health Statistics, National Vital Statistics System, 63(8), 1–11.
+Tierney, K. (2022). The future of assisted reproductive technology live births in the United States. Popu-
+     lation Research and Policy Review. https://​doi.​org/​10.​1007/​s11113-​022-​09731-5
+Tierney, K., & Cai, Y. (2019). Assisted reproductive technology use in the United States: A population
+     assessment. Fertility and Sterility, 112(6), 1136-1143.e4. https://​doi.​org/​10.​1016/j.​fertn​stert.​2019.​
+     07.​1323
+Tierney, K. I., & Guzzo, K. B. (2023). Medically assisted reproduction in the United States: A focus on
+     parents 40 and older. Socius, 9, 23780231231205190. https://​doi.​org/​10.​1177/​23780​23123​12051​91
+Zhou, B., Joudeh, A., Desai, M. J., Kwan, B., Nalawade, V., Whitcomb, B. W., & Su, H. I. (2021). Trends
+     in infertility care among commercially insured US women during the COVID-19 pandemic. JAMA
+     Network Open, 4(10), e2128520–e2128520.
+
+Publisher’s Note Springer Nature remains neutral with regard to jurisdictional claims in published maps
+and institutional affiliations.
+
+
+
+
+13
+

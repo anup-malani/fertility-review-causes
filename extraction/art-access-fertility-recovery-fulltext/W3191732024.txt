@@ -1,0 +1,750 @@
+Iba et al. Reprod Health  (2021) 18:165
+https://doi.org/10.1186/s12978-021-01212-w
+
+
+
+
+ RESEARCH                                                                                                                                                    Open Access
+
+Household income and medical
+help‑seeking for fertility problems
+among a representative population in Japan
+Arisa Iba1, Eri Maeda2, Seung Chik Jwa3, Ayako Yanagisawa‑Sugita1, Kazuki Saito4, Akira Kuwahara5,
+Hidekazu Saito6, Yukihiro Terada7, Osamu Ishihara3 and Yasuki Kobayashi1*
+
+
+
+  Abstract
+  Background: Fertility treatments help many infertile couples to have children. However, disparities exist in access to
+  fertility tests and treatments. We investigated the association between household income and medical help-seeking
+  for fertility in Japan.
+  Methods: We conducted a cross-sectional study using nationally representative data from the National Fertility
+  Survey 2015. Respondents were 6598 married women younger than 50 years old. The primary outcome was medical
+  help-seeking for fertility among those who experienced fertility problems. Multiple logistic regression models were
+  used to assess the association between household income and medical help-seeking, adjusting for age, length of
+  marriage, educational level, employment status, number of children, childbearing desires, living with parents, and
+  region of residence.
+  Results: Among 2253 (34%) women who experienced fertility problems, 1154 (51%) sought medical help. The pro‑
+  portion of help-seekers increased linearly from 43% in the low-income group (< 4 million Japanese yen [JPY]) to 59%
+  in the high-income group (≥ 8 million JPY) (P for trend < 0.001). Respondents with upper-middle (6–8 million JPY)
+  or high household income were more likely to seek medical help, compared to those with low household income:
+  adjusted odds ratio [aOR] 1.37 (95% confidence interval [CI]: 1.00–1.86) and aOR 1.78 (95% CI: 1.29–2.47), respectively.
+  Conclusions: We found that higher household income was associated with a higher probability of seeking medi‑
+  cal help among Japanese women who experienced fertility problem. Along with policy discussion about additional
+  financial support, further studies from societal, cultural, or psychological views are required.
+
+  Plain Language Summary
+  Fertility treatments have helped millions of people to have a child. Although financial factors are known to play an
+  important role in the decision to use fertility treatments, no previous studies have investigated how socioeconomic
+  factors affect medical help-seeking for fertility in Japan. Therefore, we assessed the association between household
+  income and medical help-seeking among couples with fertility problems in Japan, using nationally representative
+  data from the National Fertility Survey 2015. Of the 6598 respondents (married women under 50 years old), one-
+  third (2253) reported worrying about fertility problems, and half of those women (1154) sought medical help for
+
+
+*Correspondence: yasukik@m.u-tokyo.ac.jp
+1
+  Department of Public Health, Graduate School of Medicine, The
+University of Tokyo, 7‐3‐1 Hongo, Bunkyo‐ku, Tokyo 113‑0033, Japan
+Full list of author information is available at the end of the article
+
+
+                                          © The Author(s) 2021. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which
+                                          permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the
+                                          original author(s) and the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or
+                                          other third party material in this article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line
+                                          to the material. If material is not included in the article’s Creative Commons licence and your intended use is not permitted by statutory
+                                          regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this
+                                          licence, visit http://​creat​iveco​mmons.​org/​licen​ses/​by/4.​0/. The Creative Commons Public Domain Dedication waiver (http://​creat​iveco​
+                                          mmons.​org/​publi​cdoma​in/​zero/1.​0/) applies to the data made available in this article, unless otherwise stated in a credit line to the data.
+Iba et al. Reprod Health   (2021) 18:165                                                                            Page 2 of 12
+
+
+
+
+  fertility-related issues. The proportion of help-seekers was highest (59%) among those with high household income
+  and lowest (43%) among those with low household income with a significant linear trend. Even after accounting for
+  age, length of marriage, educational level, employment status, and other possibly related factors, those with higher
+  household income were more likely to seek medical help for fertility tests and treatments. Japan provides various
+  sources of financial support for fertility-related care, such as health insurance coverage for tests and early-stage treat‑
+  ments and partial subsidies for assisted reproductive technology treatments. However, the results indicate that further
+  policy discussion about additional financial support and further studies focusing on barriers to care in Japan could
+  help improve the situations for those with fertility problems.
+  Keywords: Infertility, Care-seeking, Healthcare disparities, Socioeconomic status, Japan
+
+
+Background                                                       world [24], at approximately 400,000 JPY [25], or 3700
+Infertility is a global public health issue [1, 2]. The need     USD using the 2019 exchange rate of 1 USD = 109 JPY.
+for and utilization of fertility treatments is increasing           Japan provides adequate financial accessibility to fer-
+[3–6] as more people delay parenthood [7–9]. Fertil-             tility treatments, compared to most developed coun-
+ity treatments have helped millions of people to have            tries [26]. However, given the disparities observed in
+a child, but disparities in access to care persist. Various      countries providing public funding for fertility treat-
+factors (e.g., financial, social, demographic, or psycho-        ments [16, 17], financial barriers to fertility care may
+logical) contribute to these disparities [10, 11]. Finan-        still exist in Japan [27]. To date, no previous study
+cial accessibility plays a particularly important role in        has investigated the association between socioeco-
+the decision to use fertility treatments [8, 12]. Among          nomic factors and medical help-seeking for fertility in
+women who report infertility, those with higher income           Japan. Therefore, we aimed to explore the association
+are more likely to seek a medical evaluation for infer-          between household income and medical help-seeking
+tility [13] and to use multiple and advanced treatments          among couples with fertility problems in Japan, using
+[12, 14, 15]. Even in Germany and Australia, where the           nationally representative cross-sectional data from the
+public healthcare systems cover fertility treatments,            National Fertility Survey.
+patients living in high-income areas use more assisted
+reproductive technology (ART) cycles [16, 17]. Besides
+income, the cost is a critical factor in access to treat-        Methods
+ment; for example, reduction in out-of-pocket expenses           Data source and study population
+with mandated health insurance coverage for fertility            We used data from the Married Couples Survey of the
+care is associated with increased help-seeking and uti-          15th National Fertility Survey, conducted in June 2015.
+lization of fertility treatments in the United States [18,       The National Fertility Survey was carried out by the
+19].                                                             National Institute of Population and Social Security
+   In Japan, where the total fertility rate is low (1.42 in      Research under the Ministry of Health, Labour, and
+2018) and the mean parental age at first birth is high           Welfare to collect nationally representative data on top-
+(30.7 and 32.8 years for women and men, respectively,            ics related to marriage, childbirth, and child-rearing in
+in 2018) [20], 18.2% of married couples receive medi-            Japan since 1977 [21, 28]. The survey used a stratified,
+cal examinations or treatments for infertility, according        random cluster sampling method to select 900 enu-
+to a national survey [21]. With Japan’s universal health         meration districts from the 2010 Population Census
+insurance coverage [22], people can receive medi-                [28]. Eligible candidates for the Married Couples Sur-
+cal tests for fertility problem including hormonal test,         vey were married women younger than 50 years old
+hysterosalpingography, and early-phase fertility treat-          who lived in these 900 districts, including foreign resi-
+ments including ovulation induction with timed inter-            dents who spoke Japanese [28]. Eligible people received
+course using transvaginal ultrasonography with 30%               a self-administered questionnaire through home visits,
+copayments. On the other hand, intrauterine insemi-              and upon completion, returned it in a sealed envelope
+nation and ART treatments are not covered by public              at a follow-up visit [21, 29]. Respondents provided
+health insurance. Alternatively, the government offers           information about their husbands and themselves. The
+partial reimbursement of 300,000 Japanese Yen (JPY)              number of valid responses was 6598 (87.8% collection
+(i.e., about 2,800 US dollars [USD]) per ART cycle for           rate) [21]. Data on primary sampling units and stratifi-
+up to six cycles, for women younger than 43 [23], and            cation were not available due to constraints on second-
+the cost per fresh cycle in Japan is relatively low in the       ary data usage.
+Iba et al. Reprod Health   (2021) 18:165                                                                        Page 3 of 12
+
+
+
+
+Fertility status and medical help‑seeking                       number of children at that time. No questions were asked
+Participants were asked whether they had ever worried           about respondents’ ethnicity, race or nationality, since
+about fertility problems. We categorized as subfertile          the proportion of foreign residents in Japan is low (1.4%
+those who reported current or previous subfertility by          as of 2015) [31] and ethnicity questions are sensitive to
+choosing the answer, “We (i.e., my husband and I) are           some Japanese.
+currently worried about not being able to have a child”
+or “We were worried about not being able to have a child
+in the past.” We categorized as fertile those participants      Statistical analysis
+who chose the answer, “We have never worried about not          We described the distributions of sociodemographic var-
+being able to have a child.” Since the National Fertility       iables according to fertility status. Chi-square tests were
+Survey asked only about couples’ fertility concerns, not        used to compare the proportions of nominal variables
+infertility by medical definition [2], we defined fertile and   (i.e., employment status, desire to have a child, living
+subfertile according to respondents’ perceptions of their       with parents, and region of residence), and a Wilcoxon-
+relative fertility.                                             type test for trend was used to compare the proportions
+  Subfertile participants were asked whether they had           of ordinal variables (e.g., age and length of marriage)
+ever sought medical help for fertility problems. Those          between fertile and subfertile groups.
+who chose the answer “We have never sought medical                 The primary outcome was medical help-seeking among
+help” were categorized as non-help-seekers. Those who           those who experienced fertility problems. Thus, we con-
+chose “We are currently undergoing testing or treatment”        ducted the following analyses using the subfertile sub-
+or “We have been tested or treated in the past” were cat-       group. We described the distribution of the variables
+egorized as help-seekers.                                       according to help-seeking behavior and then used chi-
+                                                                square tests to compare the proportion of nominal vari-
+                                                                ables and Wilcoxon-type tests for trend to compare the
+Household income and other possible related factors             proportion of ordinal variables between help-seekers
+The participants reported their own and their spouse’s          and non-help-seekers. Univariable logistic regression
+annual incomes from the previous year in increments of          was used to explore the association of each variable with
+one million JPY (e.g., ≥ 2 million JPY and < 3 million JPY).    help-seeking.
+We estimated annual household income by summing the                We conducted multiple logistic regression analyses to
+midpoint value of each increment (e.g., 2.5 million JPY)        assess the association between household income and
+for both participant and husband and then categorized           medical help-seeking, controlling for the other covari-
+income into four groups: low (< 4 million JPY), lower-          ates. We excluded the husband’s age from the multivari-
+middle (≥ 4 million JPY to < 6 million JPY), upper-middle       able model due to multicollinearity with the wife’s age.
+(≥ 6 million JPY to < 8 million JPY), and high (≥ 8 million     Although the proportion of missing values was small
+JPY).                                                           (< 6%) for all variables, 386 (17%) subfertile respond-
+  We used the following sociodemographic variables as           ents had missing data for one or more investigated vari-
+possible factors related to help-seeking: age (i.e., ≤ 29,      able. Thus, in addition to the complete case analysis, we
+30–34, 35–39, ≥ 40), educational level (i.e., high school       conducted multiple imputations for the multivariable
+education or less, vocational or junior college educa-          regression analysis using the multivariate normal impu-
+tion, university education or higher), employment               tation method to account for missing data. We included
+status of participant and spouse at the time of the sur-        all explanatory variables and the outcome variable [32]
+vey (i.e., full-time, part-time, self-employed, unem-           (1.2% missingness) in the imputation model, creating 20
+ployed), length of marriage (i.e., ≤ 4 years, 5–9 years,        multiply imputed data sets. Categorical variables were
+10–14 years, ≥ 15 years), number of existing children at        imputed using a set of binary indicators for each cat-
+the time of the survey (0, 1, 2, or ≥ 3), desire to have one    egory, and unrounded values were used for the analysis
+or more children at the time of the survey (yes/no), liv-       [33].
+ing with their parents after marriage (yes/no), residential        We also conducted sensitivity analyses using data of
+region (i.e., seven regions of Japan), and population size      respondents who reported current subfertility to analyze
+and density of the residential district (i.e., non-densely      whether the association of household income and help-
+inhabited, less than 200,000 inhabitants, 200,000 to            seeking at the time when they faced fertility problems
+1,000,000 inhabitants, more than 1,000,000 inhabitants)         is consistent. We omitted variables regarding husbands’
+[30]. We gave an affirmative score to the desire to have        age, educational level, and employment status, living with
+additional children at the time of the survey if partici-       parents, and residential regions to prevent overfitting. A
+pants’ ideal number of children exceeded their reported         two-sided P value of < 0.05 was used to define statistical
+Iba et al. Reprod Health   (2021) 18:165                                                                         Page 4 of 12
+
+
+
+
+significance. All analyses were performed using Stata ver-      income were more likely to seek help for fertility prob-
+sion 14.2 (StataCorp., College Station, TX, USA).               lems, compared to participants with low household
+                                                                income, after adjusting for the covariates: adjusted OR
+Ethical considerations                                          (aOR) 1.37 (95% CI 1.00–1.86) and aOR 1.78 (95% CI
+The study protocol was approved by the institutional            1.29–2.47), respectively. Longer marriages, husbands
+review board of the Graduate School of Medicine at The          having university education, and unemployment of wives
+University of Tokyo (approval no: 2019270NI, approved           were positively associated with help-seeking. Participants
+on January 23, 2020) and by the ethics committee of             who had two or more children were less likely to seek
+Akita University Graduate School of Medicine (approval          medical help for fertility problems than those who had no
+no: 2300, approved on September 20, 2019). The Ministry         child at the time of the survey. A complete case analysis
+of Health, Labor and Welfare approved the secondary use         showed similar results to that of the multiple imputation
+of data from the National Fertility Survey, and informed        methods.
+consent was not required because of anonymous data.                Additional file 1: Table S1 shows distribution of soci-
+                                                                odemographic factors among those who reported cur-
+Results                                                         rent subfertility. Multiple logistic regression analyses
+Of the 6598 valid respondents (i.e., wives), 341 (5%) and       showed positive associations between household income
+1912 (29%) reported current and previous fertility prob-        and help-seeking among those with current subfertil-
+lems, respectively. Thus, 2253 (34%) respondents were           ity, although the results were not statistically significant
+categorized as subfertile (Table 1). Wives and husbands         (Additional file 1: Table S2): aORs for upper-middle and
+of the subfertile group were significantly more educated        high household incomes were 1.47 (95% CI 0.68–3.16)
+and had longer marriages, higher household incomes,             and 1.58 (95% CI 0.72–3.46), respectively.
+and fewer children at the time of the survey than those
+of the fertile group (all Ps < 0.05). The proportion of those
+desiring one or more child at the time of the survey was        Discussion
+significantly higher in the subfertile group (68%) than in      Using a nationally representative survey, we investigated
+the fertile group (42%, P < 0.001).                             the association between household income and medi-
+   Among subfertile respondents, 1154 (51%) sought              cal help-seeking among couples who experienced fertil-
+medical help for fertility problems (Table 1). Compared         ity problems. Approximately one third of participants
+to non-help-seekers, medical help-seekers were signifi-         reported fertility problems, for which half sought medical
+cantly older and more educated, with longer marriages           help. Couples with higher household income were more
+and higher household incomes, and they lived in more            likely to seek medical help than those with lower house-
+densely-inhabited districts (all Ps < 0.05). The propor-        hold income. This study is the first to present the associa-
+tions of medical help-seekers in each income group were         tion between socioeconomic factors and help-seeking for
+43% in the low-, 50% in the lower-middle-, 52% in the           fertility in Japan.
+upper-middle-, and 59% in the high-income groups with              Among couples with fertility problems, 51% sought
+significant linear trend (P for trend < 0.001), respectively    medical help. The proportion of help-seekers was simi-
+(Fig. 1). The proportions of those desiring a child at the      lar or slightly lower than the international estimate of
+time of the survey were similar between medical help-           56% reported by a previous systematic review [1] and
+seekers and non-help-seekers.                                   by recent studies showing 57% in the United Kingdom
+   Table 2 shows the results of the univariable and mul-        [11] and 55% in China [34]. Among presumably health-
+tivariable logistic regression analyses for medical             conscious participants of the Nurses’ Health Study II
+help-seeking. In the univariable analyses, those with           in the United States, the proportion of those receiving
+upper-middle or high household income were more                 medical evaluations for infertility was 65%, varying from
+likely to seek medical help for fertility problems, com-        59% in the low-income group to 69% in the high-income
+pared to those with low household income among sub-             group [13]. The National Fertility Survey in the current
+fertile respondents: odds ratio (OR) 1.44 (95% confidence       study asked participants to report their fertility concerns
+interval [CI] 1.09–1.90) and OR 1.90 (95% CI 1.46–2.48),        but not the experience of infertility, defined as “failing
+respectively. Also, older ages of wives and husbands,           to achieve pregnancy after at least 12 months of unpro-
+longer marriages, and higher education levels of wives          tected regular sexual intercourse” [2]. Thus, the present
+and husbands were significantly associated with help-           proportion of help-seekers would not be comparable to
+seeking for fertility problems.                                 previous works. Nonetheless, it remains a concern that
+   In the multivariable analysis using multiple imputa-         a substantial proportion of couples did not seek medical
+tions, participants with upper-middle or high household         help for their fertility problems.
+Iba et al. Reprod Health      (2021) 18:165                                                                                     Page 5 of 12
+
+
+
+
+Table 1 Sociodemographic characteristics of participants according to fertility status and medical help-seeking
+                                              Fertile (n = 3812)   Subfertile         pa        Subfertile (aforementioned)        pa
+                                                                   (n = 2253)
+                                                                                                Non-help-        Help-seekers
+                                                                                                seekers          (n = 1154)
+                                                                                                (n = 1071)
+                                              n          %         n            %               n        %       n        %
+
+Wife’s age, years
+ ≤ 29                                          310       8.1        135         6.0    0.80      87      8.1      47      4.1        < 0.001
+ 30–34                                         516       14         339         15              183      17      151      13
+ 35–39                                         763       20         542         24              272      25      264      23
+ ≥ 40                                         2223       58        1237         55              529      49      692      60
+Husband’s age, years
+ ≤ 29                                          210       5.6           95       4.2    0.40      63      5.9      30      2.6        < 0.001
+ 30–34                                         446       12         290         13              173      16      114      10
+ 35–39                                         621       16         447         20              227      21      215      19
+ ≥ 40                                         2504       66        1,404        63              599      56      787      69
+Length of the marriage, years
+ ≤4                                            546       15         415         19    < 0.001   248      24      161      14         < 0.001
+ 5–9                                           703       19         557         25              275      26      277      25
+ 10–14                                         760       20         512         23              219      21      287      25
+ ≥ 15                                         1708       46         720         33              305      29      405      36
+Wife’s educational level
+ High school education or less                1586       42         694         31    < 0.001   359      34      326      28            0.01
+ Vocational or junior college education       1473       39         985         44              452      42      520      45
+ University education or higher                747       20         568         25              257      24      305      26
+ Other                                             5     0.1            2       0.1                 0    0.0         2    0.2
+Husband’s educational level
+ High school education or less                1659       44         788         35    < 0.001   416      39      362      31         < 0.001
+ Vocational or junior college education        670       18         428         19              201      19      223      19
+ University education or higher               1451       38        1025         46              446      42      565      49
+ Other                                             9     0.2            2       0.1                 0    0.0         2    0.2
+Wife’s employment status
+ Full-time worker                              849       23         577         26    < 0.001   283      27      286      25            0.78
+ Part-time worker                             1543       41         772         35              361      34      400      35
+ Self-employed                                 222       5.9        119         5.4              58      5.5      61      5.3
+ Unemployed                                   1125       30         752         34              350      33      394      35
+Husband’s employment status
+ Full-time worker                             2829       79        1,739        81     0.20     815      81      905      82            0.90
+ Part-time worker                              241       6.7        137         6.4              69      6.9      67      6.0
+ Self-employed                                 448       13         235         11              110      11      122      11
+ Unemployed                                       57     1.6           27       1.3              13      1.3      14      1.3
+Household ­income b
+ Low                                           659       18         330         16     0.001    186      19      139      13         < 0.001
+ Lower-middle                                  945       26         527         25              263      26      258      24
+ Upper-middle                                  844       23         519         24              249      25      268      24
+ High                                         1145       32         743         35              302      30      429      39
+Number of existing children
+ 0                                             404       11         507         23    < 0.001   241      23      259      23            0.06
+ 1                                             832       22         738         33              326      31      404      35
+ 2                                            1812       48         785         35              381      36      394      34
+ ≥3                                            740       20         211         9.4             118      11       92      8.0
+Iba et al. Reprod Health                                                          (2021) 18:165                                                                                      Page 6 of 12
+
+
+
+
+Table 1 (continued)
+                                                                                                  Fertile (n = 3812)    Subfertile         pa        Subfertile (aforementioned)        pa
+                                                                                                                        (n = 2253)
+                                                                                                                                                     Non-help-        Help-seekers
+                                                                                                                                                     seekers          (n = 1154)
+                                                                                                                                                     (n = 1071)
+                                                                                                  n          %          n            %               n        %       n        %
+
+Living with parents
+    Yes                                                                                           1076       29             562      25     0.004    270      26      283      25            0.80
+    No                                                                                            2639       71         1645         75              785      74      844      75
+Desire to have a child
+    Yes                                                                                           1552       42         1503         68    < 0.001   709      68      780      69            0.51
+    No                                                                                            2170       58             705      32              341      32      353      31
+Residential region
+    Hokkaido                                                                                       129       3.4             60      2.7    0.27      31      2.9         27   2.3           0.44
+    Tohoku                                                                                         237       6.2            148      6.6              79      7.4         68   5.9
+    Kanto                                                                                         1262       33             776      34              375      35      393      34
+    Chubu                                                                                          794       21             480      21              231      22      244      21
+    Kinki                                                                                          625       16             354      16              154      14      195      17
+    Chugoku/Shikoku                                                                                351       9.2            223      10               99      9.2     121      10
+    Kyushu/Okinawa                                                                                 414       11             212      9.4             102      10      106      9.2
+Population size and density
+    Non-densely inhabited district                                                                1089       29             591      26     0.06     298      28      287      25            0.01
+    < 200,000 inhabitants                                                                          909       24             555      25              286      27      260      23
+    200,000 to 1,000,000 inhabitants                                                              1089       29             643      29              279      26      358      31
+    > 1,000,000 inhabitants                                                                        725       19             464      21              208      19      249      22
+JPY Japanese Yen
+a
+    Chi-squared test for nominal variables and Wilcoxon-type test for trend for ordinal variables
+b
+ Categorized into four groups: low (< 4 million JPY), lower-middle (≥ 4 million JPY to < 6 million JPY), upper-middle (≥ 6 million JPY to < 8 million JPY), and high (≥ 8
+million JPY)
+
+
+
+
+                                                                             70
+
+
+
+
+                   Proportion of help-seekers among subfertile couples (%)
+                                                                             60                                                                                      59
+
+                                                                                                                                                52
+                                                                                                                       50
+                                                                             50
+                                                                                           43
+                                                                             40
+
+
+                                                                             30
+
+
+                                                                             20
+
+
+                                                                             10
+
+
+                                                                             0
+                                                                                          Low                 Lower-middle           Upper-middle                   High
+                                                                                                                       Household income
+    Fig. 1 Proportions of medical help-seekers for fertility problems among subfertile couples in each income group
+Iba et al. Reprod Health         (2021) 18:165                                                                                  Page 7 of 12
+
+
+
+
+Table 2 Logistic regression analyses for factors associated with medical help-seeking
+                    Univariable (n = 2225)                   Multivariable (complete case analysis)   Multivariable (multiple imputation)
+                                                             (n = 1867)                               (n = 2253)
+                    Odds ratio      95% CI       p           Odds ratio    95% CI         p           Odds ratio    95% CI          p
+                          a
+Household ­income
+ Low                Ref                                      Ref                                      Ref
+ Lower-             1.31             0.99–1.73       0.06    1.30          0.92–1.83      0.14        1.28          0.95–1.73       0.10
+   middle
+ Upper-             1.44             1.09–1.90       0.01    1.44          1.01–2.06      0.04        1.37          1.00–1.86       0.05
+  middle
+ High               1.90             1.46–2.48   < 0.001     1.92          1.32–2.78      0.001       1.78          1.29–2.47       < 0.001
+Wife’s age, years
+ ≤ 29               Ref                                      Ref                                      Ref
+ 30–34              1.53             1.01–2.31       0.05    1.15          0.71–1.86      0.58        1.15          0.74–1.79       0.52
+ 35–39              1.80             1.21–2.66       0.003   1.14          0.71–1.86      0.59        1.16          0.74–1.79       0.52
+ ≥ 40               2.42             1.67–3.51   < 0.001     1.22          0.74–2.01      0.45        1.28          0.81–2.02       0.29
+Husband’s age, years
+ ≤ 29               Ref                                      –             –              –           –             –               –
+ 30–34              1.38             0.84–2.27       0.20    –             –              –           –             –               –
+ 35–39              1.99             1.24–3.19       0.004   –             –              –           –             –               –
+ ≥ 40               2.76             1.76–4.32   < 0.001     –             –              –           –             –               –
+Length of the marriage, years
+ ≤4                 Ref                                      Ref                                      Ref
+ 5–9                1.55             1.20–2.01       0.001   1.85          1.34–2.55      < 0.001     1.74          1.30–2.33       < 0.001
+ 10–14              2.02             1.55–2.63   < 0.001     2.33          1.61–3.38      < 0.001     2.30          1.63–3.23       < 0.001
+ ≥ 15               2.05             1.60–2.62   < 0.001     2.42          1.61–3.64      < 0.001     2.47          1.70–3.59       < 0.001
+Wife’s educational level
+ High school Ref                                             Ref                                      Ref
+   education
+   or less
+ Vocational  1.27                    1.04–1.54       0.02    1.13          0.89–1.43      0.32        1.11          0.90–1.38       0.32
+   or junior
+   college
+   education
+ University 1.31                     1.05–1.63       0.02    1.11          0.83–1.48      0.48        1.16          0.89–1.51       0.27
+  education
+  or higher
+Husband’s educational level
+ High school Ref                                             Ref                                      Ref
+   education
+   or less
+ Vocational  1.27                    1.01–1.62       0.05    1.28          0.98–1.69      0.07        1.25          0.97–1.61       0.08
+   or junior
+   college
+   education
+ University 1.46                     1.21–1.76   < 0.001     1.22          0.96–1.56      0.10        1.27          1.02–1.59       0.03
+  education
+  or higher
+Wife’s employment status
+ Full-time          Ref                                      Ref                                      Ref
+   worker
+ Part-time          1.10             0.88–1.36       0.41    1.28          0.98–1.69      0.07        1.23          0.96–1.59       0.10
+   worker
+ Self-      1.04                     0.70–1.55       0.84    1.14          0.71–1.83      0.60        1.03          0.66–1.60       0.89
+   employed
+Iba et al. Reprod Health       (2021) 18:165                                                                                                                 Page 8 of 12
+
+
+
+
+Table 2 (continued)
+                  Univariable (n = 2225)                                Multivariable (complete case analysis)                Multivariable (multiple imputation)
+                                                                        (n = 1867)                                            (n = 2253)
+                  Odds ratio        95% CI            p                 Odds ratio        95% CI            p                 Odds ratio        95% CI             p
+
+    Unem‑         1.11              0.90–1.39             0.33          1.48              1.12–1.95         0.01              1.39               1.08–1.79         0.01
+     ployed
+Husband’s employment status
+    Full-time     Ref                                                   Ref                                                   Ref
+      worker
+    Part-time     0.87              0.62–1.24             0.45          0.79              0.53–1.18         0.24              0.85               0.58–1.25         0.41
+      worker
+    Self-      1.00                 0.76–1.31             0.99          0.98              0.70–1.38         0.92              1.10               0.80–1.50         0.55
+      employed
+    Unem‑         0.97              0.45–2.08             0.94          1.11              0.47–2.63         0.82              1.33               0.59–3.00         0.49
+     ployed
+Number of existing children
+    0             Ref                                                   Ref                                                   Ref
+    1             1.15              0.92–1.45             0.22          1.02              0.78–1.32         0.90              0.96               0.75–1.22         0.73
+    2             0.96              0.77–1.20             0.74          0.62              0.46–0.84         0.002             0.62               0.47–0.82         0.001
+    ≥3            0.73              0.52–1.00             0.05          0.48              0.31–0.74         0.001             0.46               0.31–0.67         < 0.001
+Living with parents
+    No            Ref                                                   Ref                                                   Ref
+    Yes           0.97              0.80–1.18             0.80          1.13              0.90–1.42         0.30              1.11               0.90–1.37         0.32
+Desire to have a child
+    No            Ref                                                   Ref                                                   Ref
+    Yes           1.06              0.89–1.27             0.51          1.01              0.78–1.31         0.92              0.98               0.78–1.23         0.85
+Residential region
+    Hokkaido      Ref                                                   Ref                                                   Ref
+    Tohoku        0.99              0.54–1.82             0.97          0.70              0.34–1.43         0.32              0.83               0.45–1.56         0.57
+    Kanto         1.20              0.70–2.05             0.50          0.69              0.36–1.32         0.26              0.78               0.45–1.36         0.38
+    Chubu         1.21              0.70–2.09             0.49          0.82              0.43–1.58         0.55              0.88               0.50–1.54         0.65
+    Kinki         1.45              0.83–2.54             0.19          0.92              0.47–1.78         0.80              1.02               0.58–1.81         0.95
+    Chugoku/      1.40              0.79–2.51             0.25          0.94              0.47–1.87         0.86              1.12               0.62–2.03         0.72
+     Shikoku
+    Kyushu/       1.19              0.67–2.14             0.55          0.88              0.44–1.76         0.72              1.05               0.58–1.91         0.87
+      Okinawa
+Population size and density
+    Non-          Ref                                                   Ref                                                   Ref
+     densely
+     inhabited
+     district
+    < 200,000     0.94              0.75–1.19             0.63          0.93              0.70–1.22         0.58              0.95               0.74–1.22         0.68
+      inhabit‑
+      ants
+    200,000 to    1.33              1.06–1.67             0.01          1.18              0.91–1.54         0.21              1.18               0.93–1.50         0.18
+      1,000,000
+      inhabit‑
+      ants
+    > 1,000,000   1.24              0.97–1.59             0.08          1.07              0.79–1.44         0.68              1.09               0.83–1.43         0.56
+      inhabit‑
+      ants
+CI confidence interval, JPY Japanese Yen, ref reference
+a
+ Categorized into four groups: low (< 4 million JPY), lower-middle (≥ 4 million JPY to < 6 million JPY), upper-middle (≥ 6 million JPY to < 8 million JPY), and high (≥ 8
+million JPY)
+Iba et al. Reprod Health   (2021) 18:165                                                                       Page 9 of 12
+
+
+
+
+  The proportion of help-seekers linearly increased with      interventions for increasing fertility awareness, especially
+household income, from 43% in the low-income group            among men, could help more people receive treatment
+to 59% in the high-income group. The positive associa-        earlier.
+tion between household income and medical help-seek-             Gender inequality in the home provides another poten-
+ing was consistent with previous studies conducted in         tial explanation for the lack of association between wives’
+other countries [12, 13, 35], even though Japan provides      education and help-seeking behavior. Domestic gender
+public health insurance coverage for fertility tests and      inequality may also explain the significant association
+early-phase treatments, as well as partial subsidies for      between husbands’ education and help seeking. Tradi-
+ART treatments. A possible reason for this finding is         tional gender roles are still entrenched in Japanese soci-
+that out-of-pocket payment remains expensive, relative        eties, as manifested by the unequal division of domestic
+to disposable income. For example, hysterosalpingog-          work [45]. Greater gender equality is positively correlated
+raphy as a diagnostic testing for tubal factor infertility    with ART utilization in Europe [47]. It is therefore pos-
+usually requires approximately 10,000 JPY (i.e., 90 USD)      sible that delayed help seeking and lack of cooperation by
+of copayment after health insurance coverage. Such            husbands are caused by gender inequality within couples
+out-of-pocket payments, as well as opportunity costs          as well as gender disparities in fertility literacy.
+lost through medical consultations, might affect help-           Unemployment of wives was associated with 1.5 times
+seeking, especially among lower-income groups. Some           the odds of medical help-seeking, compared to full-time
+local governments provide subsidies for fertility tests       employment. Women with paid work were generally less
+and early-phase fertility treatments such as ovulation        likely to seek medical help for fertility [46]. As more and
+induction (e.g., up to 50,000 JPY in Tokyo Prefecture         more couples in developed countries choose to remain
+[36]), and some add local subsidies for ART treatments        childless [47], those experiencing less desire for children
+(e.g., additional 300,000 JPY per fiscal year [37] or addi-   will be unlikely to seek medical help. However, we should
+tional three ART cycles [38]) to the national subsidy. As     note that women continue to experience difficulties bal-
+a future research direction, it would be necessary to eval-   ancing work with fertility plans. Once people sought
+uate the effect of such additional local subsidies on the     medical help, they often discontinued fertility treatment
+improvements of medical help-seeking behavior among           due to the difficulty in integrating therapeutic programs
+low-income group. Concerns about job security, hous-          with their work [48]. In Japan, 8% of working women
+ing security, and the cost of childcare and education may     quit their job due to fertility treatments [49]. Although
+impose additional, indirect impacts on planned fertility      our analyses were based on a cross-sectional survey and
+[9]. These additional pressures are likely to compound        employment status was obtained at the time of the sur-
+the direct effects of income on access to fertility care,     vey, employment would negatively affect seeking medi-
+especially among those with lower household incomes.          cal advice and receiving treatments. The low share of
+  We showed positive associations between husbands’           women in senior roles in Japan [50] suggests that it may
+educational level and medical help-seeking, although          be difficult for women to get permission to take time off
+wives’ education was not significant in the multivari-        work for infertility treatments, and then to return to their
+able model (Table 2). Higher education is known to be         career track after pregnancy and childbirth. Furthermore,
+associated with help-seeking behavior [11, 39]. Several       the wide gender gap in political empowerment [50] has
+explanations have been suggested from a non-economic          delayed the development of legislation to correct these
+perspective. Fertility knowledge [40] and awareness           workplace disadvantages. As more women join the labor
+of fertility problems [41] may promote intentions to          force, policies to increase public understanding of infer-
+improve fertility [42] and increase access to health care     tility and help employees balance work and fertility treat-
+[12]. Whereas help-seekers had positive treatment             ment are necessary.
+beliefs, such as perceived high success rates or ease of         To our knowledge, this is the first study to identify
+obtaining help, non-help-seekers may have more fear of        socioeconomic gaps in help-seeking for fertility problems
+discovering a problem and of being labeled infertile, as      in Japan. In the face of severe low fertility and increased
+well as perceived high treatment costs. A recent local-       infertility, the government has revised the public subsidy
+government survey conducted in Japan revealed men’s           system for ART treatments many times [51] and recently
+fertility awareness to be lower than that of their wives,     decided to modify health insurance coverage for ART
+and some couples failed to pursue fertility care due to       treatment starting in 2022 to reduce the financial bur-
+the husbands’ indifference [43]. A previous interven-         den for infertile patients [52]. With this coverage, more
+tional study also found that fertility education increased    people who seek help will be able to receive advanced
+new medical consultations for fertility, especially when      treatments. However, this policy change does not address
+the educational subjects were married men [44]. Thus,         those patients in Japan who are unlikely to seek help in
+Iba et al. Reprod Health   (2021) 18:165                                                                                           Page 10 of 12
+
+
+
+
+the first place. Our study recommends future research            future policy-making and improve the situations for
+and discussion to support people with fertility problems,        those suffering from fertility problems.
+including non-help-seekers.
+   Several limitations of this study should be acknowl-
+                                                                 Abbreviations
+edged. First, the National Fertility Survey was a cross-sec-     ART​: Assisted reproductive technology; JPY: Japanese Yen; USD: US dollars; OR:
+tional analysis, and thus we could obtain socioeconomic          Odds ratio; CI: Confidence interval; aOR: Adjusted OR.
+information at the time of the survey only. However,
+we confirmed similar associations between income and             Supplementary Information
+help-seeking behavior even among those with current              The online version contains supplementary material available at https://​doi.​
+fertility problems (Additional file 1: Table S2). Second,        org/​10.​1186/​s12978-​021-​01212-w.
+we could not fully account for the motivation to have
+a child, although desire to have a child was included in           Additional file 1. Table S1. Sociodemographic characteristics of partici‑
+                                                                   pants who had reported current fertility problems according to the status
+our multivariable models. As intentional childlessness is          of medical help-seeking. Table S2. Logistic regression analysis for factors
+now widely accepted in developed countries [47], atti-             associated with medical help-seeking among participants who had
+tudes toward childbearing should be assessed in future             reported current fertility problems.
+research.
+   Third, the Married Couples Survey of the 15th National        Acknowledgements
+Fertility Survey evaluated legally married couples only.         We thank Ms. Jennifer Keane and Mr. Andrew Park of Oxford Editing for editing
+                                                                 the article.
+We were therefore unable to investigate attitudes to fer-
+tility across the full spectrum of the Japanese population.      Authors’ contributions
+However, we believe our results were representative of           AI and EM conceived and designed the study. AI had access to all the data
+                                                                 for this project and performed the statistical analysis. AI and EM wrote the
+national birth trends, because 98% of births in Japan are        first draft of the paper. AI, EM and YK contributed the acquisition of data. All
+registered to legally married heterosexual couples [53].         authors contributed the interpretation of data and EM, SCJ, AY, KS, AK, HS,
+A national survey on attitudes to fertility and children         OI and YK contributed to critical revision of the manuscript for important
+                                                                 intellectual content. All authors approved the final version for publication. YK
+among non-heteronormative individuals and couples will           supervised the study. All authors read and approved the final manuscript.
+be needed in the future.
+   Fourth, we performed the analyses without account-            Funding
+                                                                 This work was supported by the Health and Labour Sciences Research Grant
+ing for cluster sampling or stratification because data          (H30-Sukoyaka-Ippan-002) and the Japan Society for the Promotion of Sci‑
+on stratification and sampling units were not available.         ence: KAKENHI (Grant Number 21K03193).
+Although this did not affect the point estimates [54, 55],
+                                                                 Availability of data and materials
+the standard errors of the estimated odds ratio might            The datasets generated or analyzed during the current study are not publicly
+have been affected: the lack of accounting for clustering        available due to restrictions on data-sharing for the National Fertility Survey
+could have led to an overestimate of the standard error,         of Japan, managed by the National Institute of Population and Social Security
+                                                                 Research, under the Japanese Ministry of Health, Labour and Welfare.
+and the omission of stratification data could have led to
+an underestimate of the standard error [55]. Thus, con-
+                                                                 Declarations
+fidence intervals in our analyses should be interpreted
+with caution. Finally, although the response rate to the         Ethics approval and consent to participate
+National Fertility Survey was high (87.8%), non-respond-         The study protocol was approved by the institutional review board of
+                                                                 the Graduate School of Medicine at The University of Tokyo (approval no:
+ents may have introduced selection bias into our findings.       2019270NI, approved on January 23, 2020) and by the ethics committee of
+However, the distribution of age, employment status and          Akita University Graduate School of Medicine (approval no: 2300, approved
+educational level across the respondents were almost             on September 20, 2019). The Ministry of Health, Labor and Welfare approved
+                                                                 the secondary use of data from the National Fertility Survey, and informed
+equivalent to that of the national population [31, 56].          consent was not required because of anonymous data.
+
+                                                                 Consent for publication
+Conclusions                                                      Not applicable.
+This study assessed the association between house-
+                                                                 Competing interests
+hold income and the seeking of medical help for fertil-          The authors declare that they have no competing interests with respect to this
+ity problems using nationally representative survey data.        research study and paper.
+Although Japan provides public funding for fertility treat-
+                                                                 Author details
+ments, we found that higher household income was asso-           1
+                                                                   Department of Public Health, Graduate School of Medicine, The University
+ciated with a higher probability of help-seeking among           of Tokyo, 7‐3‐1 Hongo, Bunkyo‐ku, Tokyo 113‑0033, Japan. 2 Department
+couples with fertility problems. Further in-depth stud-          of Environmental Health Science and Public Health, Akita University Graduate
+                                                                 School of Medicine, 1‑1‑1 Hondo, Akita, Akita 010‑8543, Japan. 3 Department
+ies to investigate related factors (e.g., financial, societal,   of Obstetrics and Gynecology, Saitama Medical University, 38 Morohongo,
+cultural, and psychological) would be needed to inform
+Iba et al. Reprod Health         (2021) 18:165                                                                                                                       Page 11 of 12
+
+
+
+
+Moroyama‑machi, Iruma, Saitama 350‑0495, Japan. 4 Department of Pediatrics,                       increased consumer costs. Hum Reprod. 2013;28:3111–7. https://​doi.​org/​
+Perinatal, and Maternal Medicine (Ibaraki), Graduate School, Tokyo Medical                        10.​1093/​humrep/​det302.
+and Dental University, 1‑5‑45 Yushima, Bunkyo‑ku, Tokyo 113‑8510, Japan.                    17.   Griesinger G, Diedrich K, Altgassen C. Stronger reduction of assisted
+5
+  Department of Obstetrics and Gynecology, Graduate School of Biomedical                          reproduction technique treatment cycle numbers in economically weak
+Sciences, Tokushima University, 3‑18‑15 Kuramoto‑cho, Tokushima, Tokushima                        geographical regions following the German healthcare modernization
+770‑8503, Japan. 6 Umegaoka Women’s Clinic, 1‑33‑3 Umegaoka, Setagaya‑ku,                         law in 2004. Hum Reprod. 2007;22:3027–30. https://​doi.​org/​10.​1093/​
+Tokyo 154‑0022, Japan. 7 Department of Obstetrics and Gynecology, Akita                           humrep/​dem293.
+University Graduate School of Medicine, 1‑1‑1 Hondo, Akita, Akita 010‑8543,                 18.   Bitler MP, Schmidt L. Utilization of infertility treatments: the effects of
+Japan.                                                                                            insurance mandates. Demography. 2012;49:125–49. https://​doi.​org/​10.​
+                                                                                                  1007/​s13524-​011-​0078-4.
+Received: 15 March 2021 Accepted: 19 July 2021                                              19.   Jain T, Harlow BL, Hornstein MD. Insurance coverage and outcomes of
+                                                                                                  in vitro fertilization. N Engl J Med. 2002;347:661–6. https://​doi.​org/​10.​
+                                                                                                  1056/​NEJMs​a0134​91.
+                                                                                            20.   Ministry of Health, Labour and Welfare: Handbook of Health and Welfare
+                                                                                                  Statistics. https://​www.​mhlw.​go.​jp/​engli​sh/​datab​ase/​db-​hh/1-​2.​html.
+References                                                                                        Accessed 4 Mar 2021.
+1. Boivin J, Bunting L, Collins JA, Nygren KG. International estimates of                   21.   National Institute of Population and Social Security Research. Marriage
+    infertility prevalence and treatment-seeking: potential need and demand                       and Childbirth in Japan Today (in Japanese). 2015. http://​www.​ipss.​go.​jp/​
+    for infertility medical care. Hum Reprod. 2007;22:1506–12. https://​doi.​org/​                ps-​doukou/​j/​douko​u15/​NFS15_​repor​tALL.​pdf. Accessed 4 Mar 2021.
+    10.​1093/​humrep/​dem046.                                                               22.   Ikegami N, Yoo BK, Hashimoto H, Matsumoto M, Ogata H, Babazono A,
+2. Zegers-Hochschild F, Adamson GD, Dyer S, Racowsky C, De Mouzon J,                              et al. Japanese universal health coverage: evolution, achievements, and
+    Sokol R, et al. The international glossary on infertility and fertility care,                 challenges. Lancet. 2011;378:1106–15. https://​doi.​org/​10.​1016/​S0140-​
+    2017. Hum Reprod. 2017;32:1786–801.                                                           6736(11)​60828-3.
+3. Division of Reproductive Health, National Center for Chronic disease Pre‑                23.   Ministry of Health Labour and Welfare: Support for couples struggling
+    vention and Health Promotion. 2016 Assisted Reproductive Technology                           with infertility (in Japanese). https://​www.​mhlw.​go.​jp/​stf/​seisa​kunit​suite/​
+    National Summary Report. https://​www.​cdc.​gov/​art/​pdf/​2016-​report/​                     bunya/​00000​47270.​html. Accessed 4 Mar 2021.
+    ART-​2016-​Natio​nal-​Summa​ry-​Report.​pdf. Accessed 4 Mar 2021.                       24.   Chambers GM, Hoang VP, Sullivan EA, Chapman MG, Ishihara O, Zegers-
+4. De Geyter C, Calhaz-Jorge C, Kupka MS, Wyns C, Mocanu E, Motrenko T,                           Hochschild F, et al. The impact of consumer affordability on access to
+    et al. ART in Europe, 2015: results generated from European registries by                     assisted reproductive technologies and embryo transfer practices: an
+    ESHRE†. Hum Reprod Open. 2020;2020:1–17.                                                      international analysis. Fertil Steril. 2014;101:191-198.e4. https://​doi.​org/​10.​
+5. Zegers-Hochschild F, Schwarze JE, Crosby JA, Musri C, Urbina MT. Assisted                      1016/j.​fertn​stert.​2013.​09.​005.
+    reproductive techniques in Latin America: The Latin American registry,                  25.   Maeda E. Health and Labour Sciences Research Grants (H30-Sukoyaka-
+    2016. JBRA Assist Reprod. 2019;23:255–67.                                                     Ippan-002) Summary Research Report (in Japanese). 2018. https://​mhlw-​
+6. Kushnir VA, Barad DH, Albertini DF, Darmon SK, Gleicher N. System‑                             grants.​niph.​go.​jp/​proje​ct/​27041/1.
+    atic review of worldwide trends in assisted reproductive technology                     26.   Chambers GM, Sullivan EA, Ishihara O, Chapman MG, Adamson GD.
+    2004–2013. Reprod Biol Endocrinol. 2017;15:1–9. https://​doi.​org/​10.​1186/​                 The economic impact of assisted reproductive technology: a review of
+    s12958-​016-​0225-2.                                                                          selected developed countries. Fertil Steril. 2009;91:2281–94. https://​doi.​
+7. Baird DT, Collins J, Egozcue J, Evers LH, Gianaroli L, Leridon H, et al. Fertility             org/​10.​1016/J.​FERTN​STERT.​2009.​04.​029.
+    and ageing. Hum Reprod Update. 2005;11:261–76.                                          27.   Niino Y, Okai T. A study of public support for patients being treated
+8. Connolly MP, Hoorens S, Chambers GM. The costs and consequences                                for infertility : the first report (in Japanese). Jpn J Matern Health.
+    of assisted reproductive technology: an economic perspective. Hum                             2008;49:138–44.
+    Reprod Update. 2010;16:603–13. https://​doi.​org/​10.​1093/​humupd/​                    28.   National Institute of Population and Social Security Research. The 15th
+    dmq013.                                                                                       Japanese National Fertility. http://​www.​ipss.​go.​jp/​ps-​doukou/​e/​douko​
+9. Mills M, Rindfuss RR, McDonald P, te Velde E. Why do people postpone                           u15/​Nfs15_​gaiyo​Eng.​html. Accessed 4 Mar 2021.
+    parenthood? Reasons and social policy incentives. Hum Reprod Update.                    29.   Ghaznavi C, Sakamoto H, Yoneoka D, Nomura S, Shibuya K, Ueda P. Trends
+    2011;17:848–60.                                                                               in heterosexual inexperience among young adults in Japan: Analysis of
+10. Moreau C, Bouyer J, Ducot B, Spira A, Slama R. When do involun‑                               national surveys, 1987–2015. BMC Public Health. 2019;19:355. https://​doi.​
+    tarily infertile couples choose to seek medical help? Fertil Steril.                          org/​10.​1186/​s12889-​019-​6677-5.
+    2010;93:737–44.                                                                         30.   Statistics Bureau Website/ What is a Densely Inhabited District? https://​
+11. Datta J, Palmer MJ, Tanton C, Gibson LJ, Jones KG, Macdowall W, et al.                        www.​stat.​go.​jp/​engli​sh/​data/​chiri/​did/1-​1.​html. Accessed 4 Mar 2021.
+    Prevalence of infertilityand help seeking among 15 000 women and men.                   31.   Statistics Bureau Website/ Final report of 2015 “POPULATION AND
+    Hum Reprod. 2016;31:2108–18.                                                                  HOUSEHOLDS OF JAPAN.” https://​www.​stat.​go.​jp/​engli​sh/​data/​kokus​ei/​
+12. Smith JF, Eisenberg ML, Glidden D, Millstein SG, Cedars M, Walsh TJ, et al.                   2015/​final_​en/​final_​en.​html. Accessed 4 Mar 2021.
+    Socioeconomic disparities in the use and success of fertility treatments:               32.   Young R, Johnson DR. Imputing the Missing Y’s: implications for Survey
+    analysis of data from a prospective cohort in the United States. Fertil                       Producers and Survey Users.
+    Steril. 2011;96:95–101. https://​doi.​org/​10.​1016/j.​fertn​stert.​2011.​04.​054.      33.   Lee KJ, Roberts G, Doyle LW, Anderson PJ, Carlin JB. Multiple imputation
+13. Farland LV, Collier A-RY, Correia KF, Grodstein F, Chavarro JE, Rich-Edwards                  for missing data in a longitudinal cohort study: a tutorial based on a
+    J, et al. Who receives a medical evaluation for infertility in the United                     detailed case study involving imputation of missing outcome data. Int J
+    States? Fertil Steril. 2016;105:1274–80. https://​doi.​org/​10.​1016/j.​fertn​stert.​         Soc Res Methodol. 2016;19:575–91. https://​doi.​org/​10.​1080/​13645​579.​
+    2015.​12.​132.                                                                                2015.​11264​86.
+14. Farland LV, Missmer SA, Rich-Edwards J, Chavarro JE, Barbieri RL, Grodstein             34.   Zhou Z, Zheng D, Wu H, Li R, Xu S, Kang Y, et al. Epidemiology of infertil‑
+    F. Use of fertility treatment modalities in a large United States cohort of                   ity in China: a population-based study. BJOG An Int J Obstet Gynaecol.
+    professional women. Fertil Steril. 2014;101:1705–10. https://​doi.​org/​10.​                  2018;125:432–41. https://​doi.​org/​10.​1111/​1471-​0528.​14966.
+    1016/j.​fertn​stert.​2014.​03.​016.                                                     35.   da Silva SG, Bertoldi AD, da Silveira MF, Domingues MR, Evenson KR, dos
+15. Farley Ordovensky Staniec J, Webb NJ. Utilization of infertility services:                    Santos IS. Assisted reproductive technology: prevalence and associated
+    how much does money matter? Health Serv Res. 2007;42:971–89. https://​                        factors in Southern Brazil. Rev Saude Publica. 2019;53:13.
+    doi.​org/​10.​1111/j.​1475-​6773.​2006.​00640.x.                                        36.   Bureau of Social Welfare and Public Health, Tokyo Metropolitan Govern‑
+16. Chambers GM, Hoang VP, Illingworth PJ. Socioeconomic disparities in                           ment: Summary of the Subsidy Program for Infertility Testing (in Japa‑
+    access to ART treatment and the differential impact of a policy that                          nese). https://​www.​fukus​hihok​en.​metro.​tokyo.​lg.​jp/​kodomo/​kosod​ate/​
+                                                                                                  josei/​funin​kensa/​gaiyou.​html. Accessed 4 Mar 2021.
+Iba et al. Reprod Health       (2021) 18:165                                                                                                                  Page 12 of 12
+
+
+
+
+37. Minato City Specified Fertility Treatment Subsidy Program Guide FY2020.            48. Gameiro S, Boivin J, Peronace L, Verhaak CM. Why do patients discontinue
+    https://​www.​city.​minato.​tokyo.​jp/​chiik​ihoken/​kenko/​ninsh​in/​ninsh​in/​       fertility treatment? A systematic review of reasons and predictors of dis‑
+    kibo/​h23jo​se.​html. Accessed 28 Jul 2021.                                            continuation in fertility treatment. Hum Reprod Update. 2012;18:652–69.
+38. About happiness hump stork business Akita prefecture specific fertility                https://​doi.​org/​10.​1093/​humupd/​dms031.
+    treatment expense subsidy business| Specified fertility treatment cost             49. Ichikawa T, Ota I, Kuwabara Y, Tsushima R, Hamatani T, Hiraike O, et al.
+    subsidy business (in Japanese). https://​www.​pref.​akita.​lg.​jp/​pages/​archi​       Infertility treatment hinders the careers of working women in Japan.
+    ve/​862. Accessed 4 Mar 2021.                                                          J Obstet Gynaecol Res. 2020;46:1940–50. https://​doi.​org/​10.​1111/​jog.​
+39. Kessler LM, Craig BM, Plosker SM, Reed DR, Quinn GP. Infertility evalu‑                14387.
+    ation and treatment among women in the United States. Fertil Steril.               50. Global Gender Gap Report 2021. 2021. https://​jp.​wefor​um.​org/​repor​ts/​
+    2013;100:1025–32. https://​doi.​org/​10.​1016/j.​fertn​stert.​2013.​05.​040.           global-​gender-​gap-​report-​2021. Accessed 27 Jun 2021.
+40. Maeda E, Sugimori H, Nakamura F, Kobayashi Y, Green J, Suka M, et al. A            51. Maeda E, Ishihara O, Saito H, Kuwahara A, Toyokawa S, Kobayashi Y. Age-
+    cross sectional study on fertility knowledge in Japan, measured with the               specific cost and public funding of a live birth following assisted repro‑
+    Japanese version of Cardiff Fertility Knowledge Scale (CFKS-J). Reprod                 ductive treatment in Japan. J Obstet Gynaecol Res. 2014;40:1338–44.
+    Health. 2015;12:10. https://​doi.​org/​10.​1186/​1742-​4755-​12-​10.                   https://​doi.​org/​10.​1111/​jog.​12337.
+41. Bunting L, Boivin J. Decision-making about seeking medical advice in               52. Japan health ministry to seek more funds for fertility treatment | The
+    an internet sample of women trying to get pregnant. Hum Reprod.                        Japan Times. https://​www.​japan​times.​co.​jp/​news/​2020/​09/​25/​natio​nal/​
+    2007;22:1662–8. https://​doi.​org/​10.​1093/​humrep/​dem057.                           japan-​health-​minis​try-​infer​tility/. Accessed 4 Mar 2021.
+42. Fulford B, Bunting L, Tsibulsky I, Boivin J. The role of knowledge and             53. Ministry of Health, Labour, and Welfare. Vital Statistics (in Japanese).
+    perceived susceptibility in intentions to optimize fertility: findings from            2015. https://​www.e-​stat.​go.​jp/​stat-​search/​files?​page=​1&​layout=​datal​
+    the International Fertility Decision-Making Study (IFDMS). Hum Reprod.                 ist&​toukei=​00450​011&​tstat=​00000​10288​97&​cycle=​7&​year=​20150​&​
+    2013;28:3253–62. https://​doi.​org/​10.​1093/​humrep/​det373.                          month=​0&​tclas​s1=​00000​10530​58&​tclas​s2=​00000​10530​61&​tclas​s3=​
+43. Hiroshima Prefecture | Result of Fertility Survey (in Japanese). https://​             00000​10530​64&​tclas​s4val=0. Accessed 1 Jul 2021.
+    www.​pref.​hiros​hima.​lg.​jp/​soshi​ki/​248/​ninnk​atuda​ityou​sakek​ka.​html.    54. Bell BA, Onwuegbuzie AJ, Ferron JM, Jiao QG, Hibbard ST, Kromrey JD.
+    Accessed 27 Jun 2021.                                                                  Use of design effects and sample weights in complex health survey data:
+44. Maeda E, Boivin J, Toyokawa S, Murata K, Saito H. Two-year follow-up of a              a review of published articles using data from 3 commonly used adoles‑
+    randomized controlled trial: knowledge and reproductive outcome after                  cent health surveys. Am J Public Health. 2012;102:1399–405.
+    online fertility education. Hum Reprod. 2018;33:2035–42. https://​doi.​org/​       55. StataCorp LP. Stata Survey Data Reference Manual (Release 16). 2019.
+    10.​1093/​humrep/​dey293.                                                              https://​www.​stata.​com/​manua​ls/​svy.​pdf. Accessed 4 Mar 2021.
+45. OECD.Stat. Employment: Time spent in paid and unpaid work, by sex.                 56. Statistics Bureau Website/ POPULATION AND HOUSEHOLDS OF JAPAN
+    2019. https://​stats.​oecd.​org/​index.​aspx?​query​id=​54757. Accessed 1 Jul          2010. https://​www.​stat.​go.​jp/​engli​sh/​data/​kokus​ei/​2010/​poj/​mokuji.​html.
+    2021.                                                                                  Accessed 4 Mar 2021.
+46. Olsen J, Basso O, Spinelli A, Küppers-Chinnow M, Juul S, Karmaus W, et al.
+    Correlates of care seeking for infertility treatment in Europe: implications
+    for health services and research. Eur J Public Health. 1998;8:15–20.               Publisher’s Note
+47. Miettinen A, Rotkirch A, Szalma I, Donno A, Tanturri M-L. Increasing               Springer Nature remains neutral with regard to jurisdictional claims in pub‑
+    childlessness in Europe: time trends and country differences. 2015. http://​       lished maps and institutional affiliations.
+    www.​famil​iesan​dsoci​eties.​eu/​wp-​conte​nt/​uploa​ds/​2015/​03/​WP33M​ietti​
+    nenEt​Al2015.​pdf.
+
+
+
+
+                                                                                           Ready to submit your research ? Choose BMC and benefit from:
+
+                                                                                             • fast, convenient online submission
+                                                                                             • thorough peer review by experienced researchers in your field
+                                                                                             • rapid publication on acceptance
+                                                                                             • support for research data, including large and complex data types
+                                                                                             • gold Open Access which fosters wider collaboration and increased citations
+                                                                                             • maximum visibility for your research: over 100M website views per year
+
+                                                                                           At BMC, research is always in progress.
+
+                                                                                           Learn more biomedcentral.com/submissions
+

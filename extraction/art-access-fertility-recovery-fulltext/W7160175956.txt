@@ -1,0 +1,780 @@
+European Journal of Population      (2026) 42:20
+https://doi.org/10.1007/s10680-025-09765-3
+
+    BRIEF REPORT
+
+
+
+Perceptions of Medically Assisted Reproduction and
+Fertility Postponement: Limited Evidence, Critical
+Questions
+
+Marie-Caroline Compans1,2                · Ester Lazzari1      · Eva Beaujouan1
+
+Received: 15 January 2025 / Accepted: 10 December 2025
+© The Author(s) 2026
+
+
+
+Abstract
+The number of women using medically assisted reproduction (MAR) is rising in
+high-income countries. This trend is partly driven by the tendency to delay child-
+bearing, yet infertility treatments cannot compensate for the decrease in reproduc-
+tive capacity with age. Scholars are currently concerned that the increasing avail-
+ability of MAR is fuelling the misconception that it can extend reproductive life.
+High confidence in the success of MAR later in life would then encourage fertility
+postponement. However, this assumption remains untested, likely due to limited
+data availability. We examine this using panel survey data from the National Survey
+of Fertility Barriers, conducted in the United States in 2004–2007 and 2007–2010.
+Our findings support the technological salience hypothesis, which states that per-
+ceptions of MAR would only influence fertility intentions at ages when women are
+more likely to experience difficulties conceiving. Specifically, women aged 35 or
+over who have high confidence in the success of MAR when used in the late 30s are
+less likely to forego childbearing than those with low confidence. Overall, however,
+perceptions of MAR play a limited role in explaining fertility decisions compared
+to other socio-demographic characteristics. Nonetheless, taking them into account
+improves our understanding of how technologies enter the realm of reproductive
+decision-making, particularly at less fertile ages. In conclusion, we highlight the
+need for further data collection on this issue, covering more recent periods and
+countries where births are delayed and MAR availability is increasing.
+
+Keywords Medically assisted reproduction · Fertility intentions · US · Fertility
+postponement
+
+
+
+      Marie-Caroline Compans
+      marie-caroline.compans@ined.fr
+
+1
+      Wittgenstein Centre for Demography and Global Human Capital – IIASA, OeAW,
+      University of Vienna, Vienna, Austria
+2
+      Institut national d’études démographiques (Ined), Aubervilliers, France
+    20    Page 2 of 15                                                               M.-C. Compans et al.
+
+
+1 Introduction
+
+Many countries are introducing population policies aimed at increasing their fertility
+rates, which have fallen below 1.5 children per woman in many cases (Gietel-Basten
+et al., 2022). Alongside the usual family policy tools, such as parental leave, child
+allowances or childcare subsidies, some countries have increased public coverage of
+medically assisted reproduction (MAR)1 to enable more couples who face infertility
+issues to have children.2 The demographic impact of MAR increases with its avail-
+ability, and its contribution to domestic births is substantial in some contexts, ranging
+between 4 and 7% in 2019 (Devolder & Borisova, 2022; Smeenk et al., 2023).
+    While this makes MAR an attractive tool for policymakers, improving its availabil-
+ity does not appear to be a long-term solution to support fertility levels (Kocourková
+et al., 2014; Sobotka et al., 2008; Ziebe & Devroey, 2008). First, the success rate
+of reproductive technologies is limited. For example, in Australia, it was estimated
+that 52–65% of women who initiated a treatment would experience a live birth by
+the fourth ART cycle (Chambers et al., 2017). Second, the demand for infertility
+treatments is increasing at older reproductive ages due to delayed childbearing (Ben
+Messaoud et al., 2020; Lazzari et al., 2021). However, the already low success rates
+of these techniques decline quickly with age, meaning they are only partially effec-
+tive in compensating for fertility postponement (Choi et al., 2023; Kocourková et
+al., 2014; Leridon & Shapiro, 2017; Rainer et al., 2011). Third, some scholars argue
+that promoting assisted reproduction could influence young people’s perceptions of
+how much time they have to conceive, potentially encouraging them to postpone
+childbearing and thus reinforcing the decline in fertility (Passet-Wittig & Bujard,
+2021; Rainer et al., 2011; Sobotka et al., 2008; Ziebe & Devroey, 2008). This paper
+examines the existence of this presumed effect by investigating the link between
+perceptions of MAR success at late reproductive ages and individuals’ fertility inten-
+tions, using panel data from the United States (US) which consists of two waves from
+2004–2007 and 2007–2010. This is the only survey we identified that allows us to
+explore this crucial question, indicating the need for further data collection.
+
+
+2 Existing Literature
+
+2.1 Does Confidence in the Use of MAR Encourage Childbearing Postponement?
+
+According to some scholars, enlarging the availability of MAR techniques ‘might
+fuel a false perception among the wider public that childbearing can be postponed
+until late reproductive ages’ (Sobotka et al., 2008, p.96). Such an argument posits
+
+1
+  Medically assisted reproduction (MAR) refers to all medical interventions that aim to overcome fertility
+impairment. Among others, these procedures include in-vitro fertilization (IVF), intra-cytoplasmic sperm
+injection (ICSI), oocyte and embryo donation, gamete cryopreservation, intra-uterine insemination (IUI),
+ovulation induction or ovarian stimulation (Zegers-Hochschild et al., 2017).
+2
+  It has been the case in Estonia in 2006 (Grant et al., 2006), Russia in 2013 (Rusanova, 2020), South
+Korea in 2017 (Yun et al., 2023), Hungary in 2020 (Szalma & Bitó, 2021), Japan in 2022 (Yamada et al.,
+2022), and China in 2023 (Stevenson and Wang 2023).
+
+
+13
+Perceptions of Medically Assisted Reproduction and Fertility…          Page 3 of 15   20
+
+
+that the availability of infertility treatments indirectly influences fertility behaviours
+(Rainer et al., 2011; Ziebe & Devroey, 2008), through cognitive effects. It assumes
+that people would anticipate the possibility of using MAR to achieve their desired
+family size and, as a result, postpone childbearing towards later ages (Passet-Wittig
+& Bujard, 2021). This assumption also relies on the fact that people tend to have
+imprecise knowledge about the ages at which it becomes difficult to have a child,
+both with and without medical interventions (Hammarberg et al., 2017).
+   In line with this, delays in first marriages and first births were observed following
+a policy change that made MAR treatments more affordable in Israel (Gershoni &
+Low, 2021). However, while the causal design of that study suggests a possible direct
+effect of MAR availability on behaviours, it does not assess the mechanisms behind
+the change. The notion that people’s perceptions of MAR could alter their fertility
+decisions, particularly leading to fertility postponement, touches upon reproductive
+imaginaries and one’s perception of their ability to have children. In this study, we
+examine the relationship between MAR perceptions and fertility intentions at the
+individual level, using data representative of the US population.
+
+2.2 Do MAR Perceptions Influence Fertility Choices at All Ages?
+
+It is possible that MAR only influences choices and behaviours at ages when peo-
+ple feel concerned by fertility-related topics, a phenomenon termed as technologi-
+cal salience (Johnson & Simon, 2012). This suggests that infertility treatments may
+influence perceptions and choices only when they are personally relevant, such as
+when someone experiences infertility or is more at risk of experiencing it. A techno-
+logical salience effect has been observed in the US, where confidence in MAR varies
+by women’s characteristics and past reproductive experiences, but only among those
+who had difficulties conceiving (Johnson & Simon, 2012). In line with this, research
+on fertility education initiatives shows that information about infertility influences
+childbearing timing only among people in a partnership (Maeda et al., 2018). Other
+work from the US suggests the existence of a technological salience effect on family
+behaviours. Indeed, greater access to infertility treatments through the implementa-
+tion of insurance mandates, which vary by state, is associated with delays in marriage
+and childbearing, but only from age 30 (Abramowitz, 2014, 2017). This suggests that
+MAR availability increases fertility rates at late reproductive ages, but does not affect
+fertility behaviours at early life-course stages.
+    In our study, perceptions of MAR may be weakly related to delays in family for-
+mation in youth because perceptions of personal reproductive capabilities are some-
+what abstract, particularly for individuals who have never tried to conceive (Boivin et
+al., 2019). In contrast, views regarding MAR may be more associated with people’s
+fertility decisions when the possible use of infertility treatments is salient to them,
+notably at late reproductive ages due to the increased likelihood of experiencing dif-
+ficulties to conceive.
+
+
+
+
+                                                                                13
+ 20     Page 4 of 15                                                     M.-C. Compans et al.
+
+
+2.3 Importance of MAR Perceptions as Compared to Other Factors
+
+Finally, according to some scholars, fertility levels tend to respond downward to
+increases in MAR availability in high-fertility countries, but not in low-fertility coun-
+tries (Rainer et al., 2011). Their interpretation is that greater access to MAR may
+encourage people to delay childbearing in high-fertility contexts where births are not
+yet postponed to later ages. In contrast, in countries where fertility levels are already
+low and many births are delayed, the effect of MAR on macro indicators is expected
+to be marginal.
+    At the same time, desires and decisions to have children in high-income countries
+have been extensively found to be influenced by social drivers such as partnership
+and professional situations (Fahlén and Oláh 2018; Sturm et al., 2023), reproductive
+histories (Guzzo et al., 2019) and family preferences (Billari et al., 2009; Dommer-
+muth et al., 2011). Fertility intentions also greatly vary depending on life circum-
+stances and age (Albertini & Brini, 2020; Iacovou & Tavares, 2011). Considering
+this broad range of socio-economic and attitudinal factors throughout the life course,
+MAR attitudes may not be particularly decisive for fertility intentions.
+
+
+3 Research Question and Hypotheses in the US Context
+
+Against the background described above, this paper asks: Does confidence in the
+effectiveness of MAR when used in one’s late thirties encourage women to delay
+childbearing? This question holds scientific and social relevance. From a scientific
+perspective, it addresses a critical gap in research, as, to our knowledge, the micro
+relationship between MAR perceptions and fertility timing has never been tested
+using representative populations. By examining this issue, we empirically contribute
+to theories about how technological confidence may shape fertility behaviours. From
+a social perspective, understanding this relationship is important for reproductive
+healthcare policies as systematic delays in childbearing based on MAR confidence
+could have a negative impact on individuals’ ability to realise their fertility intentions.
+   We examine this question by testing three hypotheses:
+
+1. Confidence in MAR encourages fertility postponement. Women with positive per-
+   ceptions of MAR success at late reproductive ages may more often delay child-
+   bearing than their counterparts with negative perceptions. Greater confidence in
+   the availability and success of MAR may reduce the perceived urgency to have a
+   child. These women would also be less likely to abandon their desire for a child, as
+   confidence in MAR can support the perceptions that motherhood remains achiev-
+   able later in life.
+2. Perceptions of late MAR success are related to fertility intentions only among
+   women who are themselves in their late 30s (technological salience);
+3. Socio-economic drivers of fertility postponement play a greater role in fertility
+   decisions than perceptions of MAR.
+
+
+
+
+13
+Perceptions of Medically Assisted Reproduction and Fertility…        Page 5 of 15   20
+
+
+We test these three hypotheses in the US context. There, MAR’s contribution to fertil-
+ity is moderate but on the rise. In 2021, about 2.0% of births resulted from IVF and
+related techniques (Centers for Disease Control and Prevention 2023). The prominent
+increase in treatment utilisation has been particularly pronounced in the 40–45 age
+group, for which the proportion of IVF births went from 17% to 23% between 2010
+and 2017 (Tierney & Cai, 2019). The mean age at birth rose from 27.9 in 2004 to 28.3
+years old in 2010 and 29.8 years old in 2022 (according to the Human Fertility Data-
+base), and births at later ages are gradually becoming more common (Beaujouan,
+2023). In this context, the use of planned oocyte cryopreservation (POC), which is
+among the MAR techniques that are the most likely to compensate for the age-related
+fecundity decline, has significantly increased over time since the 2010s (Johnston
+et al., 2021). In light of this, we can expect this parallel increase in both fertility
+delay and MAR use at the country level to be reflected at the individual level, with
+confidence in MAR success at late ages encouraging women to delay childbearing
+(hypothesis 1).
+   The US federal government plays a minor role in regulating access to MAR. Indi-
+vidual states have the power to pass legislation on assisted reproduction, but only a
+few have legislated in this area (Frith & Blyth, 2014). This lack of regulation is con-
+comitant with the financialization of medical practice, notably allowing the adver-
+tisement of fertility preservation (van de Wiel, 2020), which is an additional reason
+to expect an encouragement effect of MAR on delayed childbearing (hypothesis 1).
+On the other hand, there is no federal government reimbursement of treatment costs,
+although several states provide insurance mandates for fertility treatment coverage
+(Henne & Bundorf, 2008). Out-of-pocket costs in the US remain substantially higher
+than in any other high-income country, with only a quarter of the demand for assisted
+reproduction being met (Chambers et al., 2009). Given that the availability of infertil-
+ity treatments is limited and highly dependent on women’s financial resources, MAR
+perceptions and fertility decisions may only be associated when seeking medical
+help is highly relevant and envisioned by women (hypothesis 2). Finally, Hypothesis
+3, which suggests that women’s socioeconomic characteristics are more important
+than perceptions of MAR for reproductive behaviour, is particularly relevant in the
+US context. There are significant socioeconomic disparities in fertility timing, with
+higher-educated women experiencing more pronounced delays in childbearing (Yang
+& Morgan, 2003). Moreover, because access to MAR is highly stratified by socio-
+economic status (Lazzari and Tierney, 2023), the high cost of MAR treatments and
+limited insurance coverage may limit the importance of MAR perceptions in shaping
+fertility intentions.
+
+
+4 Data and Method
+
+4.1 The National Survey of Fertility Barriers (NSFB)
+
+In order to explore whether opinions about MAR might encourage childbearing delay,
+we study the United States, which is the only country for which we could identify
+suitable data. We use the National Survey of Fertility Barriers (NSFB), a two-wave
+
+                                                                              13
+    20   Page 6 of 15                                                            M.-C. Compans et al.
+
+
+panel representative of the female population aged 25–45. This survey investigates
+psychological, social, and biomedical obstacles to fertility desires. The first wave was
+conducted in 2004–2007, among 4,794 women and 926 of their partners, and the sec-
+ond wave was in 2007–2010 (2,222 women and 772 partners). Attrition was high, but
+tests showed it was uniform for our main explanatory variable (confidence in MAR).3
+    We construct an indicator of confidence in MAR success when used at older ages,
+called confidence in late MAR hereafter. Overall, these data show widespread accep-
+tance of MAR in the early 2000s. In Wave 1, almost all women strongly agreed or
+agreed that ‘Medical science can be a big help to women having trouble getting
+pregnant’ (98%, authors’ own calculation) and that ‘Women who have trouble getting
+pregnant would benefit from consulting a doctor’ (98%, authors’ own calculation).
+Confidence in MAR success at late reproductive ages is also high, as a smaller but
+still large proportion (strongly) agreed that, thanks to these techniques, ‘Women can
+wait to have a baby until their late thirties and still have a good chance of having a
+baby’ (90%). This share has not changed across waves. We focus on this indicator.
+    For fertility intentions, we use the panel dimension of the data. In both waves,
+women were asked whether they ‘intend to have a baby’. We selected 619 women
+with positive intentions in Wave 1 who were also asked about their fertility intentions
+in Wave 2 (three years later). We excluded 25 women who had a miscarriage across
+waves and were still intending to have a child at Wave 2. 46% of those with positive
+fertility intentions in Wave 1 had a child between waves or were pregnant in Wave 2,
+13% had revised their intentions downwards, and 41% were still intending to have a
+child. We consider this last category as postponing their fertility plans, as their inten-
+tions remain unchanged from one wave to the next, meaning they have not acted on
+them. The delay may be voluntary or not, and life circumstances, including infertility
+or a change in partnership, may contribute to it.
+
+4.2 Method
+
+The association between the timing of fertility intentions and confidence in late MAR
+success (at one’s late thirties) is estimated with multinomial logistic models. This
+type of model predicts categorical outcome variables with more than two catego-
+ries. Here, it estimates whether women with positive intentions in Wave 1 (a) had
+a(nother) child before Wave 2 or are pregnant at Wave 2 (realised intentions), (b) had
+no (additional) child between Waves 1 and 2 and maintain positive fertility intentions
+(postponed intentions, which is the reference category), and (c) had no (additional)
+child and no intention to have a child anymore (foregone intentions).
+   Models control for characteristics that are likely to influence fertility intentions
+(Billari et al., 2009; Dommermuth et al., 2011; Fahlén & Oláh, 2018; Guzzo et al.,
+2019; Sturm et al., 2023): age of the respondents (distinguishing between 25–29,
+30–34 and 35+), whether respondents are childless, have a tertiary degree, are
+employed, and are in a partnership. The latter is based on marital status (cohabiting
+and married women vs. divorcees, widowed and singles). We also control for atti-
+
+3
+  Tests consisted in logistic regressions estimating the likelihood of being surveyed in Wave 2. They
+showed no significant association with perceptions of assisted reproduction.
+
+
+13
+Perceptions of Medically Assisted Reproduction and Fertility…                      Page 7 of 15    20
+
+
+tudes regarding family life. Women with more traditional attitudes tend to be more
+family-prone (Billari et al., 2009; Dommermuth et al., 2011) and, hence, may be
+more likely to view medical help positively at any age. Traditional attitudes (such as
+negative views of homosexuality) can also be associated with negative views towards
+the use of MAR, as shown in Europe (Szalma & Djundeva, 2020). To control for an
+attitudinal indicator, we rely on a continuous scale available in NSFB, which is based
+on two items regarding gender norms.4 Finally, models also include a control for per-
+ceived infertility. This is positive if women answered ‘yes’ to the following question:
+‘Do you think of yourself as someone who has, has had or might have trouble getting
+pregnant?’. The full model is presented as coefficients (Table 1) and the association
+between fertility intentions and MAR perceptions is additionally displayed as pre-
+dicted probabilities (Fig. 1).
+   To address hypothesis 2, a second model allows for the effect of MAR perceptions
+to vary by age group (interaction term), and the results of these interactions are dis-
+played as predicted probabilities (Fig. 2).
+   After excluding 10 observations with missing values, the final sample includes
+446 women. Data are weighted using survey weights from Wave 2, which correct
+for attrition.
+
+Table 1 Estimation of realised and foregone fertility intentions compared to postponing a birth between
+waves 1 and 2 (multinomial logit models)
+                                            Realised intentions (vs.        Foregone intentions (vs.
+                                            postponed)                      postponed)
+                                            Coeff.      se        p-value   Coeff.    se        p-value
+High confidence in MAR success at late         0.284 0.255 –                −0.806 0.306 **
+reproductive ages (ref=’Low’)
+Age group (ref=’25–29’)
+30–34                                          0.893 0.190 ***               1.367 0.284 ***
+35+                                            0.416 0.210 *                 2.434 0.266 ***
+Has children (ref=’Childless’)                 3.524 0.203 ***               0.594 0.213 **
+Not tertiary educated (ref=’Yes’)             −0.110 0.241 –                 0.566 0.281 *
+Not in a relationship (ref=’Yes’)             −1.154 0.180 ***               0.303 0.225 -
+Not employed (ref=’Yes’)                       0.345 0.189 –                −1.074 0.298 ***
+Perceive infertility problems (ref=’No’)       0.222 0.238 –                 1.545 0.247 ***
+Traditional attitude scale                     0.035 0.075 –                −0.163 0.093 –
+Intercept                                     −2.703 0.594 ***              −1.327 0.747 –
+N                                             446
+AIC                                         1,832.32
+Log-Likelihood                              −896.16
+Pseudo-R²                                        0.37
+NSFB (2004–2007 and 2007–10), women aged 25–45 with positive intentions in Wave 1 and surveyed
+in both waves.
+*** p <.001, ** p <.01, *p.05, - not significant.
+
+4
+  Items refer to whether both partners should share household tasks equally when working full-time, and
+if respondents agree with the male breadwinner model (‘If the man earns the main living and the woman
+takes care of the home and family’). We recoded this variable so that greater values indicate more tradi-
+tional views.
+
+
+                                                                                            13
+ 20       Page 8 of 15                                                                M.-C. Compans et al.
+
+
+
+
+Fig. 1 Predicted probabilities (with confidence intervals) of birth, postponement or foregone fertil-
+ity intentions between waves 1 and 2, by level of confidence in late MAR. NSFB (2004–2007 and
+2007–2010), women aged 25–45 with positive intentions in Wave 1 and surveyed in both waves. The
+predicted probabilities are calculated with multinomial logistic regressions and presented for women
+who are tertiary educated, childless, employed, married or cohabitating, without any declared infertil-
+ity issues, and with average values on the traditional scale. Confidence intervals are at the 5% level
+
+
+Fig. 2 Predicted probabilities
+(with confidence intervals) of
+birth, postponement or forgone
+fertility intentions between
+waves 1 and 2, by level of confi-
+dence in late MAR success and
+age (interaction plots). NSFB
+(2004–2007 and 2007–2010),
+women aged 25–45 with
+positive intentions in Wave 1
+and surveyed in both waves.
+The predicted probabilities are
+calculated with multinomial lo-
+gistic regressions and presented
+for women who are tertiary
+educated, childless, employed,
+married or cohabitating, without
+any declared infertility issues,
+and with average values on the
+traditional scale. Confidence
+intervals are at the 5% level
+
+
+
+
+13
+Perceptions of Medically Assisted Reproduction and Fertility…          Page 9 of 15   20
+
+
+   To address hypothesis 3, we perform a likelihood ratio test, which assesses the
+significant contribution of each independent variable to the model by estimating and
+comparing various covariate combinations. In addition, relative importance analysis,
+by ranking variables according to their contribution to the pseudo-R², calculates how
+much each of them contributes to the overall model fit (Azen & Traxel, 2009).
+
+
+5 Findings
+
+We test whether confidence in MAR success at late reproductive ages in the first
+wave is associated with whether women have realised their positive fertility inten-
+tions between Waves 1 and 2, are postponing a birth or have foregone their fertility
+plans. This association is tested by holding other factors constant, which are shown
+in the full model displayed in Table 1.
+   We first describe the relationship between MAR perceptions and the three out-
+comes, presented as predicted probabilities in Fig. 1. There are no significant dif-
+ferences in predicted probabilities of postponing for women with high confidence
+in MAR efficiency at late ages (45.2% [41.0–49.5]) and those with low confidence
+(44.8% [34.6–55.5]). However, predicted probabilities of having had a child across
+waves are higher for women with positive MAR perceptions (45.1% [40.7–49.5])
+than for women with negative perceptions (33.6% [24.5–44.2]), and conversely for
+probabilities of abandoning fertility intentions (9.7% [7.5–12.4] vs. 21.5% [14.0–
+31.5]). In sum, women with high confidence in MAR efficiency when used in the late
+thirties, in comparison to those with low confidence, are more likely to have realised
+their fertility intentions and less likely to have abandoned them, while associations
+with postponement do not significantly differ.
+   These associations between MAR perception and fertility also vary by age, as
+presented in Fig. 2 which displays the predicted probabilities of the model with an
+age-perception interaction. For women aged 25–29, we observe the same patterns as
+in the overall model: equivalent chances to postpone according to confidence in late
+MAR success, more births and less abandonment among those with high confidence
+compared to those with low confidence (Fig. 2a).
+   Women in their early thirties in Wave 1 have, in general, high probability to become
+mothers before Wave 2, but those who have greater confidence in MAR have a lower
+predicted probability of giving birth compared to those with low confidence in MAR
+(52.3% [45.3–59.2] vs. 73.0% [50.8–87.6]) (Fig. 2b). Variations in postponement are
+not statistically significant in that age group, although women with positive percep-
+tions of late MAR use exhibit higher predicted probabilities. Abandoning a positive
+intention to have a child is rare, but slightly more likely among those with greater
+MAR confidence. At these key reproductive ages, foregoing childbearing may be
+linked to unobserved characteristics (e.g., partner’s fertility intentions, family-prone-
+ness) associated with a greater propensity to adjust their fertility intentions. This dif-
+ference should also be interpreted cautiously, given the small numbers involved.
+   Although women aged 35 + are very likely to abandon a positive fertility intention,
+they are much less likely to do so if they express confidence in the success of late
+MAR (26.1% [20.8–32.4] of cases, compared to 67.2% [43.4–84.6] for those with
+
+                                                                                13
+ 20       Page 10 of 15                                                  M.-C. Compans et al.
+
+Table 2 Likelihood ratio test                               Log-Likelihood ratio   Relative
+and relative importance test                                Chi²                   impor-
+assessing the explanatory power                                                    tance
+of variables                                                                       (%)
+                                  Childlessness             463.46***              52.1
+                                  Age                       132.39***              17.8
+                                  Partnership status         54.7***               15.3
+NSFB (2004–2007 and 2007–         Perceived infertility      43.99***                7.3
+10), women aged 25–45 with
+                                  Employment status          26.24***                4.3
+positive intentions in Wave 1
+and surveyed in both waves.       Education                   5.53                   1.4
+                                  Confidence in MAR          11.4**                  1.1
+*** p <.001, ** p <.01, *p.05,
+otherwise not significant.        Traditional values          4.13                   0.7
+
+
+negative perceptions, Fig. 2c). Women with greater confidence in late MAR success
+are more likely to postpone their intentions or to have a birth than women with nega-
+tive perceptions of MAR, although results are not significant (Fig. 2c).
+   In summary, the relationship between confidence in late MAR use and whether
+women have a child, postpone childbearing or forego it, varies by age. For women
+in their late twenties, high confidence in MAR is associated with postponement and
+more births, and with less abandonment. For women in their early thirties, having
+high MAR confidence is associated with having fewer children and a slightly higher
+rate of abandonment. This may reflect unobserved individual characteristics related
+to more flexibility in fertility intentions. Finally, among women aged 35 and older
+with positive intentions at Wave 1, confidence in MAR reduces the likelihood of
+abandoning those intentions.
+   Finally, Table 1 displays the results of the multinomial logistic regression model
+estimating the likelihood of realising and foregoing fertility intentions relative to
+postponing between Waves 1 and 2, along with other relevant covariates. Among
+other characteristics, having no employment in Wave 1 is more associated with post-
+poning rather than foregoing fertility intentions. Women who were already mothers
+were more likely to either have another child or forego their fertility intentions. Those
+without a partner were more likely to postpone having a child than to have one, but
+they were not significantly more likely to forego their fertility intentions. Having less
+than a college education and perceiving infertility issues is positively associated with
+forgone intentions, while we see no significant link between intentions and traditional
+attitudes.
+   According to log-likelihood tests, parity and age have the highest predictive
+power, followed by perceived infertility and partnership status (Table 2). This is also
+consistent with the relative importance analysis. MAR perceptions have much lower
+explanatory power, as they account for only 1.1% of the model variance; however,
+unlike education and traditional values, their contribution to the model is significant.
+
+
+
+
+13
+Perceptions of Medically Assisted Reproduction and Fertility…                  Page 11 of 15    20
+
+
+6 Conclusion and Implications
+
+We aimed to test whether confidence in MAR’s ability to help women have children
+in their thirties was associated with delayed fertility intentions at the individual level
+in the US. The idea is that favourable views of MAR could lead people to believe that
+they have a longer reproductive lifespan than they actually have.
+    The analyses lend support to our second hypothesis about the existence of a tech-
+nological salience effect (Johnson & Simon, 2012). This is hinted by our finding that
+women at advanced reproductive ages (35+), with positive views of MAR use at late
+ages, are less likely to forego fertility intentions compared to those with negative
+perceptions (and instead either have a child or delay childbearing). This hypothesis
+could gain additional support from the fact that women in their thirties, who are con-
+fident in MAR success at older ages, are more likely to postpone their fertility plans
+than those with negative perceptions of these technologies. However, this finding
+lacks statistical significance, likely due to small sample size, and warrants replication
+with higher-quality data. In any case, positive MAR perceptions do not encourage
+childbearing postponement before women’s thirties, which contradicts hypothesis 1.
+    Despite the fact that already well-established circumstances, such as parity,
+relationship statuses or infertility issues, are crucial determinants of childbearing
+behaviours, MAR perceptions have a significant and independent effect on fertility
+intentions, but they contribute little to the overall predictive power of the model.
+Although they appear to be associated with fertility decisions for some ages, this con-
+firms our third hypothesis that socioeconomic aspects are more significant drivers.
+    Taken together, these results suggest a possible but weak mediating pathway
+through which MAR availability may partially influence fertility behaviours at
+advanced ages (Abramowitz, 2017), namely, by reinforcing confidence in reproduc-
+tive technologies as a reliable backup option when likely to be confronted with the
+pressure associated with age-related fertility decline. However, this analysis is not
+causal and cannot properly assess whether the greater availability and use of infertil-
+ity treatments lead to higher MAR acceptance or whether other factors are at play. In
+addition to fertility desires or intentions, testing the relationship between confidence
+in MAR and perception of one’s reproductive lifespan would help illuminate how
+perceptions of these technologies can shape fertility timing decisions. This is not
+possible with the available data.5
+    The question raised in this analysis is relevant to contemporary societies, but our
+evidence dates back to the 2000–2010s. It is possible that MAR has become a more
+significant determinant of fertility over time and across age groups. Indeed, there is a
+high level of trust in reproductive technologies in the US, especially those aimed at
+addressing age-related infertility, such as planned oocyte cryopreservation. Since the
+2010s, both MAR’s contribution to births in the US, particularly at advanced repro-
+ductive ages (Tierney & Guzzo, 2023), and the use of oocyte cryopreservation (John-
+ston et al., 2021) have increased. Undergoing infertility treatments, and particularly
+egg freezing, has also been heavily promoted as a means to postpone childbearing.
+
+5
+  For cross-comparative analyses, European data either have questions on MAR attitudes (like the Euro-
+pean Values Study) or on age norms (like rounds 3 and 9 of the European Social Survey).
+
+
+                                                                                         13
+    20    Page 12 of 15                                                                  M.-C. Compans et al.
+
+
+In particular, the idea of MAR as a form of ‘fertility insurance’ has gained popular-
+ity following endorsement by large companies such as Apple and Facebook (van de
+Wiel, 2020).
+   Our analysis only lends limited support to concerns previously raised by scholars
+(Passet-Wittig & Bujard, 2021; Rainer et al., 2011; Sobotka et al., 2008; Ziebe &
+Devroey, 2008) that policies designed to improve MAR availability — which are
+sometimes expected to have a significant impact on fertility levels — may have the
+unintended consequence of encouraging delayed childbearing. However, while we
+focus on the US, the tendency for positive perceptions of MAR to encourage post-
+poned fertility may differ in other contexts. Unfortunately, there is a lack of data
+allowing for cross-country comparison on this topic.6
+   In conclusion, this work highlights the need to include relevant measures in sur-
+veys that allow for cross-country comparisons in more recent periods, to better assess
+whether the perception of MAR currently influences people’s fertility choices. As
+births continue to be postponed and the demand for MAR is increasing in high-
+income countries, clarifying the role of reproductive technologies in fertility deci-
+sion-making is essential for evidence-based reproductive health policies.
+
+Acknowledgements This study was supported by the project BIC.Late, which receives funding from the
+European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation
+programme (Grant Agreement No 101001410).
+
+Declarations
+
+Conflict of interest The authors have no conflict of interest to declare.
+
+Open Access This article is licensed under a Creative Commons Attribution-NonCommercial-
+NoDerivatives 4.0 International License, which permits any non-commercial use, sharing, distribution
+and reproduction in any medium or format, as long as you give appropriate credit to the original author(s)
+and the source, provide a link to the Creative Commons licence, and indicate if you modified the licensed
+material. You do not have permission under this licence to share adapted material derived from this article
+or parts of it. The images or other third party material in this article are included in the article’s Creative
+Commons licence, unless indicated otherwise in a credit line to the material. If material is not included in
+the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or
+exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view
+a copy of this licence, visit http://crea​tivecommons​.org/licens​es/by-nc​-nd/4.0/.
+
+
+
+
+References
+Abramowitz, J. (2014). Turning back the ticking clock: The effect of increased affordability of assisted
+    reproductive technology on women’s marriage timing. Journal of Population Economics, 27(2),
+    603–633. https://doi.org/10.1007/s00148-013-0487-3
+
+
+6
+  Eventually, we identified one French survey (FECOND 2010) which asked about both fertility intentions
+and MAR perceptions. However, the relevant item inquired respondents about how long a couple in their
+thirties, who are unsuccessfully trying to have a child, should wait before consulting a doctor. This mea-
+sure is not directly comparable with the US data, as responses may reflect not only confidence in MAR at
+later ages, but also other factors such as limited awareness of age-related fertility decline.
+
+
+13
+Perceptions of Medically Assisted Reproduction and Fertility…                                              Page 13 of 15          20
+
+Abramowitz, J. (2017). Assisted reproductive technology and women’s timing of marriage and childbear-
+      ing. Journal of Family and Economic Issues, 38(1), 100–117. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​0​7​/​s​1​0​8​3​4​-​0​1​6​-​9​
+      4​8​5​-​4​​​
+Albertini, M., & Brini, E. (2020). I’ve changed my mind. The intentions to be childless, their stability and
+      realisation. European Societies, 23(1), 119–160. https://doi​.org/10.108​0/14616696.​2020.176​4997
+Azen, R., & Traxel, N. (2009). Using dominance analysis to determine predictor importance in logistic
+      regression. Journal of Educational and Behavioral Statistics, 34(3), 319–347.
+Beaujouan, E. (2023). Delayed fertility as a driver of fertility decline? In R. Schoen (Ed.), The demography
+      of transforming families (pp. 41–63). Springer. https://doi.org/10.1007/978-3-031-29666-6_4
+Ben Messaoud, K., Bouyer, J., & de La Rochebrochard, E. (2020). Infertility treatment in France, 2008–
+      2017: A challenge of growing treatment needs at older ages. American Journal of Public Health,
+      110(9), 1418–1420. https://doi.org/10.2105/AJPH.2020.305781
+Billari, F. C., Philipov, D., & Testa, M. R. (2009). Attitudes, norms and perceived behavioural control:
+      Explaining fertility intentions in Bulgaria. European Journal of Population/Revue Européenne de
+      Démographie, 25(4), 439–465. https://doi.org/10.1007/s10680-009-9187-9
+Boivin, J., Sandhu, A., Brian, K., & Harrison, C. (2019). Fertility-related knowledge and perceptions of
+      fertility education among adolescents and emerging adults: A qualitative study. Human Fertility,
+      22(4), 291–299. https://doi​.org/10.108​0/14647273.​2018.148​6514
+Centers for Disease Control and Prevention (2023). ART Success Rates. CDC. ​h​t​t​p​s​:​/​/​w​w​w​.​c​d​c​.​g​o​v​/​a​r​t​/​a​r​
+      t​d​a​t​a​/​i​n​d​e​x​.​h​t​m​l​​​​. Accessed 10 October 2023.
+Chambers, G. M., Paul, R. C., Harris, K., Fitzgerald, O., Boothroyd, C. V., Rombauts, L., Chapman, M.
+      G., & Jorm, L. (2017). Assisted reproductive technology in Australia and New Zealand: Cumulative
+      live birth rates as measures of success. Medical Journal of Australia, 207(3), 114–118. ​h​t​t​p​s​:​/​/​d​o​i​.​o​
+      r​g​/​1​0​.​5​6​9​4​/​m​j​a​1​6​.​0​1​4​3​5​​​​
+Chambers, G. M., Sullivan, E. A., Ishihara, O., Chapman, M. G., & Adamson, G. D. (2009). The economic
+      impact of assisted reproductive technology: A review of selected developed countries. Fertility and
+      Sterility, 91(6), 2281–2294. https://doi​.org/10.101​6/j.fertnst​ert.2009​.04.029
+Choi, S. K. Y., Lazzari, E., Venetis, C., & Chambers, G. M. (2023). Childbirth timing and completed fam-
+      ily size by the mode of conception—the role of medically assisted reproduction: A population-based
+      cohort study in Australia. The Lancet Regional Health – Western Pacific. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​1​6​/​j​.​l​
+      a​n​w​p​c.​​2​0​2​3​.​1​0​0​6​8​6​​​​
+Devolder, D., & Borisova, E. (2022). Demographic impact of in vitro fertilization in Spain. Medicina
+      Reproductiva y Embriología Clínica, 9(2), 100115. https://doi.org/10.1016/j.medre.2022.100115
+Dommermuth, L., Klobas, J., & Lappegård, T. (2011). Now or later? The theory of planned behavior and
+      timing of fertility intentions. Advances in Life Course Research, 16(1), 42–53. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​
+      1​6​/​j​.​a​l​c​r​.​2​0​1​1​.​0​1​.​0​0​2​​​​
+Fahlén, S., & Oláh, L. (2018). Economic uncertainty and first-birth intentions in Europe. Demographic
+      Research, 39(28), 795–834. https://doi.org/10.4054/DemRes.2018.39.28
+Frith, L., & Blyth, E. (2014). Assisted reproductive technology in the USA: Is more regulation needed?
+      Reproductive BioMedicine Online, 29(4), 516–523. https://doi.org/10.1016/j.rbmo.2014.06.018
+Gershoni, N., & Low, C. (2021). Older yet fairer: How extended reproductive time horizons reshaped
+      marriage patterns in Israel. American Economic Journal: Applied Economics, 13(1), 198–234. ​h​t​t​p​s​
+      :​/​/​d​o​i​.​o​r​g​/​1​0​.​1​2​5​7​/​a​p​p​.​2​0​1​8​0​7​8​0​​​​
+Gietel-Basten, S., Rotkirch, A., & Sobotka, T. (2022). Changing the perspective on low birth rates: Why sim-
+      plistic solutions won’t work. BMJ, 379, Article e072670. https://doi.org/10.1136/bmj-2022-072670
+Grant, J., Hoorens, S., Gallo, & Cave, J. (2006). Should ART be part of a population policy mix? A pre-
+      liminary assessment of the demographic and economic impact of assisted reproductive technologies
+      (p. 90). Documented Briefing.
+Guzzo, K. B., Hayford, S. R., Lang, V. W., Wu, H. S., Barber, J., & Kusunoki, Y. (2019). Dimensions of
+      reproductive attitudes and knowledge related to unintended childbearing among U.S. adolescents and
+      young adults. Demography, 56(1), 201–228. https://doi.org/10.1007/s13524-018-0747-7
+Hammarberg, K., Kirkman, M., Pritchard, N., Hickey, M., Peate, M., McBain, J., Agresta, F., Bayly, C., &
+      Fisher, J. (2017). Reproductive experiences of women who cryopreserved oocytes for non-medical
+      reasons. Human Reproduction, 32(3), 575–581. https://doi.org/10.1093/humrep/dew342
+Henne, M. B., & Bundorf, M. K. (2008). Insurance mandates and trends in infertility treatments. Fertility
+      and Sterility, 89(1), 66–73. https://doi​.org/10.101​6/j.fertnst​ert.2007​.01.167
+
+
+
+
+                                                                                                                         13
+ 20         Page 14 of 15                                                                                  M.-C. Compans et al.
+
+Iacovou, M., & Tavares, L. P. (2011). Yearning, learning, and conceding: Reasons men and women change
+     their childbearing intentions. Population and Development Review, 37(1), 89–123. ​h​t​t​p​s​​:​/​/​d​o​i​​.​o​r​g​/​​1​0​
+     .​1​​1​1​1​/​j​.​1​7​2​8​-​4​4​5​7​.​2​0​1​1​.​0​0​3​9​1​.​x​​​​
+Johnson, K. M., & Simon, R. M. (2012). Women’s attitudes toward biomedical technology for infertility:
+     The case for technological salience. Gender & Society, 26(2), 261–289. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​1​7​7​/​0​8​9​
+     1​2​4​3​2​1​1​4​3​4​6​1​5​​​​
+Johnston, M., Richings, N. M., Leung, A., Sakkas, D., & Catt, S. (2021). A major increase in oocyte
+     cryopreservation cycles in the USA, Australia and new Zealand since 2010 is highlighted by younger
+     women but a need for standardized data collection. Human Reproduction, 36(3), 624–635. ​h​t​t​p​s​:​/​/​d​
+     o​i​.​o​r​g​/​1​0​.​1​0​9​3​/​h​u​m​r​e​p​/​d​e​a​a​3​2​0​​​​
+Kocourková, J., Burcin, B., & Kucera, T. (2014). Demographic relevancy of increased use of assisted
+     reproduction in European countries. Reproductive Health, 11, Article 37. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​1​8​6​/​1​
+     7​4​2​-​4​7​5​5​-​1​1​-​3​7​​​​
+Lazzari, E., & Tierney, K. (2023). Parental sociodemographics of medically assisted reproduction births
+     in the United States: A dyadic population-level study. F&S Reports, , Article S2666334123000697.
+     https://doi.org/10.1016/j.xfre.2023.05.008
+Lazzari, E., Gray, E., & Chambers, G. (2021). The contribution of assisted reproductive technology to
+     fertility rates and parity transition: An analysis of Australian data. Demographic Research, 45(35),
+     1081–1096. https://doi.org/10.4054/DemRes.2021.45.35
+Leridon, H., & Shapiro, D. (2017). Biological effects of first birth postponement and assisted reproductive
+     technology on completed fertility. Population (Paris), 72(3), 445–472. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​3​9​1​7​/​p​o​p​
+     u​.​1​7​0​3​.​0​4​6​3​​​
+Maeda, E., Boivin, J., Toyokawa, S., Murata, K., & Saito, H. (2018). Two-year follow-up of a random-
+     ized controlled trial: Knowledge and reproductive outcome after online fertility education. Human
+     Reproduction, 33(11), 2035–2042. https://doi.org/10.1093/humrep/dey293
+Passet-Wittig, J., & Bujard, M. (2021). Medically assisted reproduction in developed countries: Overview
+     and societal challenges. In Research handbook on the sociology of the family (pp. 417–438). Edward
+     Elgar Publishing. https://doi.org/10.4337/9781788975544.00039
+Rainer, H., Selvaretnam, G., & Ulph, D. (2011). Assisted reproductive technologies (ART) in a model of
+     fertility choice. Journal of Population Economics, 24(3), 1101–1132. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​0​7​/​s​0​0​1​4​
+     8​-​0​1​0​-​0​3​2​0​-​1​​​
+Rusanova, N. E. (2020). Assisted reproductive technologies in russia: Medical breakthroughs and social
+     problems. Population and Economics, 4(4), 5–18. https://doi.org/10.3897/popecon.4.e58271
+Smeenk, J., Wyns, C., De Geyter, C., Kupka, M., Bergh, C., Cuevas Saiz, I., De Neubourg, D., Rezabek,
+     K., Tandler-Schneider, A., Rugescu, I., & Goossens, V. (2023). ART in Europe, 2019: Results gener-
+     ated from European registries by ESHRE. Human Reproduction. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​0​9​3​/​h​u​m​r​e​p​/​d​
+     e​a​d​1​9​7​​​​
+Sobotka, T., Hansen, M. A., Jensen, T. K., Pedersen, A. T., Lutz, W., & Skakkebæk, N. E. (2008). The con-
+     tribution of assisted reproduction to completed fertility: An analysis of Danish data. Population and
+     Development Review, 34(1), 79–101. https://doi​.org/10.111​1/j.1728-44​57.2008.​00206.x
+Stevenson, A., Wang, Z. (2023). China needs couples to have more babies: Can I.V.F., & Help?, The
+     New York Times. https://www​.nytimes.co​m/2023/01/2​2/busine​ss/china-birthrate-ivf.html. Accessed
+     23 January 2023.
+Sturm, N., Koops, J. C., & Rutigliano, R. (2023). The influence of partnership status on fertility intentions
+     of childless women and men across European countries. European Journal of Population, 39(1), 20.
+     https://doi.org/10.1007/s10680-023-09664-5
+Szalma, I., & Bitó, T. (2021). Knowledge and attitudes about assisted reproductive technology: Findings
+     from a Hungarian online survey. Reproductive BioMedicine and Society Online, 13, 75–84. ​h​t​t​p​s​:​/​/​d​
+     o​i​.​o​r​g​/​1​0​.​1​0​1​6​/​j​.​r​b​m​s​.​2​0​2​1​.​0​6​.​0​0​5​​​​
+Szalma,I., & Djundeva, M. (2020). What shapes public attitudes towards assisted reproduction technolo-
+     gies in Europe? Demográfia English Edition, 62(5), 45–75. https://doi.org/10.21543/DEE.2019.2
+Tierney, K. I., & Guzzo, K. B. (2023). Medically assisted reproduction in the United States: A focus on par-
+     ents 40 and older. Socius: Sociological Research for a Dynamic World, 9, Article 23780231231205191.
+     https://doi.org/10.1177/23780231231205191
+Tierney, K., & Cai, Y. (2019). Assisted reproductive technology use in the united states: A population
+     assessment. Fertility and Sterility, 112(6), 1136–1143e4. https://doi.org/10.1016/j.fertnstert.2019.​0​
+     7​.1323
+
+
+
+
+13
+Perceptions of Medically Assisted Reproduction and Fertility…                                                       Page 15 of 15           20
+
+van de Wiel, L. (2020). The speculative turn in IVF: Egg freezing and the financialization of fertility. New
+     Genetics and Society, 39(3), 306–326. https://doi​.org/10.108​0/14636778.​2019.170​9430
+Yamada, M., Ishikawa, T., Iwasa, T., Oishi, H., Osuka, S., Oka, K., Ono, S., Ono, M., Orisaka, M., Kana-
+     saki, H., Kawano, Y., Kawamura, K., Kishi, H., Kimura, F., Kuroda, S., Kuwahara, A., Kobayashi,
+     H., Komiya, A., Saito, H., … Osuga, Y. (2022). Guidelines for reproductive medicine in Japan.
+     Reproductive Medicine and Biology, 21(1), e12483. https://doi.org/10.1002/rmb2.12483
+Yang, Y., & Morgan, S. P. (2003). How big are educational and racial fertility differentials in the U.S.?
+     Biodemography and Social Biology, 50(3–4), 167–187. ​h​t​t​​​​p​​s​:​​/​​/​d​​o​i​.​o​​r​g​​/​1​​0​.​1​0​8​0​/​1​9​4​8​5​5​6​5​.​2​0​0​3​.​9​9​8​
+     9​0​7​0​​​
+Yun, I., Cha, W., Nam, C. M., Nam, J. Y., & Park, E. C. (2023). The impact of assisted reproductive tech-
+     nology treatment coverage on marriage, pregnancy, and childbirth in women of childbearing age: An
+     interrupted time-series analysis. BMC Public Health, 23(1), 1379. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​.​1​1​8​6​/​s​1​2​8​8​9​-​0​
+     2​3​-​1​6​2​8​6​-​3​​​
+Zegers-Hochschild, F., Adamson, G. D., Dyer, S., Racowsky, C., de Mouzon, J., Sokol, R., Rienzi, L.,
+     Sunde, A., Schmidt, L., Cooke, I. D., Simpson, J. L., & van der Poel, S. (2017). The international
+     glossary on infertility and fertility care. Human Reproduction, 32(9), 1786–1801. ​h​t​t​p​s​:​/​/​d​o​i​.​o​r​g​/​1​0​
+     .​1​0​9​3​/​h​u​m​r​e​p​/​d​e​x​2​3​4​​​​
+Ziebe, S., & Devroey, P. (2008). Assisted reproductive technologies are an integrated part of national
+     strategies addressing demographic and reproductive challenges. Human Reproduction Update, 14(6),
+     583–592. https://doi.org/10.1093/humupd/dmn038
+
+Publisher’s Note Springer Nature remains neutral with regard to jurisdictional claims in published maps
+and institutional affiliations.
+
+
+
+
+                                                                                                                                   13
+

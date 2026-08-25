@@ -1,0 +1,861 @@
+Journal Pre-proof
+
+Educational gradients in the prevalence of medically assisted reproduction births in a
+comparative perspective
+
+Alice Goisis, Ph.D., Peter Fallesen, Ph.D., Marta Seiz, Ph.D., Leire Salazar, Ph.D.,
+Tatiana Eremenko, Ph.D., Marco Cozzani, PhD
+
+
+PII:             S0015-0282(24)00459-X
+DOI:             https://doi.org/10.1016/j.fertnstert.2024.05.149
+Reference:       FNS 34778
+
+
+To appear in:    Fertility and Sterility
+
+
+Received Date: 23 October 2023
+Revised Date:    14 May 2024
+Accepted Date: 14 May 2024
+
+
+
+Please cite this article as: Goisis A, Fallesen P, Seiz M, Salazar L, Eremenko T, Cozzani M, Educational
+gradients in the prevalence of medically assisted reproduction births in a comparative perspective,
+Fertility and Sterility (2024), doi: https://doi.org/10.1016/j.fertnstert.2024.05.149.
+
+
+This is a PDF file of an article that has undergone enhancements after acceptance, such as the addition
+of a cover page and metadata, and formatting for readability, but it is not yet the definitive version of
+record. This version will undergo additional copyediting, typesetting and review before it is published
+in its final form, but we are providing this version to give early visibility of the article. Please note that,
+during the production process, errors may be discovered which could affect the content, and all legal
+disclaimers that apply to the journal pertain.
+
+Copyright Â©2024 Published by Elsevier Inc. on behalf of the American Society for Reproductive
+Medicine
+Running Title: Educational gradients in births after medically assisted reproduction
+Article Title: Educational gradients in the prevalence of medically assisted reproduction births in a
+comparative perspective
+Authors:
+Alice Goisis Ph.D.1*, Peter Fallesen Ph.D. 23*, Marta Seiz Ph.D. 4*, Leire Salazar Ph.D. 5*, Tatiana Eremenko
+Ph.D. 6*, Marco Cozzani PhD 7*
+
+
+1
+    Centre for Longitudinal Studies, University Central London, London, UK
+2
+    Department of Sociology, Stockholm University, Stockholm, Sweden
+3
+    Rockwool Foundation, Copenhagen, Denmark
+4
+
+
+5                                                                oo
+    Department of Sociology II, Universidad Nacional de Educación a Distancia, Madrid, Spain
+
+                                                                   f
+    Joint Research Centre, European Commission, Seville, Spain, and IPP, CSIC, Spain
+6
+    Department of Sociology and Communication, University of Salamanca, Spain
+7
+                                                 re -p
+    Department of Statistics, Computer Science, Applications, University of Florence, Florence, Italy
+
+
+                                                       r
+* Author order was randomized using the AEA Author Randomization Tool - Date entered: 2022-11-11
+
+                                         lP
+05:25:40, Confirmation code: 6iL1mnORUq9E.
+Corresponding Author: Leire Salazar, Joint Research Centre, European Commission, and IPP, CSIC,
+leire.salazar@cchs.csic.es
+                          urna
+Article type: Original research, observational study, cross sectional study
+Funding Statement: This study was supported by the following funding bodies: European Commission’s
+Joint Research Centre (JRC) Centre for Advanced Studies and the DIGCLASS project; European Research
+                  Jo
+Council (Grant agreement n. 803958 MARTE); Spanish Ministry of Science and Innovation, Ref. PID2019-
+111564RB-I00 / AEI /10.13039/501100011033; Spanish Ministry of Science, Innovation and Universities,
+Juan de La Cierva-Incorporación Fellowship 2018, Ref. IJC2018-038444-I; Comunidad de Madrid Atracción
+de Talento Investigador Postdoctoral Fellowship, Ref. 2017-T2/SOC-5560; ROCKWOOL Foundation (grant
+no. 1254); Forte—The Swedish Research Council for Health, Working Life and Welfare (#2016-07099); and
+Italian Ministry of Education (PE8 - Conseguenze e sfide dell’invecchiamento AGE-IT – CUP
+B83C22004800006).
+Disclosure Statement: Authors have no conflict of interest. Separate ICMJE disclosure form including
+funding sources is provided.
+Attestation Statement:
+The Danish data used in this study have been made available through a trusted third party, Statistics
+Denmark. Due to privacy concerns, the data cannot be made available outside the hosted research servers at
+Statistics Denmark. University-based and private Danish scientific organisations can be authorised to work
+with data within Statistics Denmark. Such organisations can provide access to individual scientists inside and
+outside of Denmark. Requests for data may be sent to Statistics Denmark:
+http://www.dst.dk/en/OmDS/organisation/TelefonbogOrg. aspx?kontor = 13&tlfbogsort = sektion or the
+Danish Data Protection Agency: https:// www.datatilsynet.dk/english/the-danish-data-protection-
+agency/contact/.
+
+                                                        1
+The French datasets are available from the French National Archive of Data from Official Statistics
+(ADISP): Enquête Nationale Périnatale (ENP) - 2016, DREES - Ministère de la Santé, INSERM - l'Institut
+national de la santé et de la recherche médicale (producteurs), ADISP (diffuseur). doi:10.13144/lil-1426.
+Enquête Nationale Périnatale (ENP) - 2010, DREES - Ministère de la Santé (producteur), ADISP (diffuseur).
+doi:10.13144/lil-0739. Enquête Nationale Périnatale (ENP) - 2003, DREES - Ministère de la Santé
+(producteur), ADISP (diffuseur). doi:10.13144/lil-0738. The data for Spain is freely accessible at the
+National Institute for Statistics’ (INE) webpage
+(https://www.ine.es/dyngs/INEbase/es/operacion.htm?c=Estadistica_C&cid=1254736177006&menu=resulta
+dos&idp=1254735573002#!tabs-1254736195425).
+The data for the United Kingdom can be accessed via the UK Data Service.
+The data for the United States are publicly available from the National Bureau of Economic Research
+(Natality Data from the National Vital Statistics System of the National Center for Health Statistics).
+Word Count: 288 words for abstract and 4,702 words for text.
+Trial registration: Not applicable.
+                                                                oof
+Capsule: Institutional differences such as the level of public subsidization of treatments moderate the
+relationship between maternal educational level and the probability of giving birth after medically assisted
+reproduction.
+                                                re -p r
+                                       lP
+                        urna
+                Jo
+
+
+
+
+                                                      2
+Educational gradients in the prevalence of medically assisted
+reproduction births in a comparative perspective
+Abstract
+Objective
+To study educational gradients in births after medical assisted reproduction across five countries with
+different institutional arrangements.
+Design
+We use logistic regression and compute predicted probabilities to estimate the association between education
+and giving birth after assisted reproduction, before and after adjustment for maternal age at delivery and
+marital/partnership status, using an overall sample of about 3.9 million live births in five countries.
+Subjects
+                                                                   oof
+This study includes survey or register data containing information on births in five countries: N=61, 564 for
+Denmark, N= 37,533 for France, N=12,889 for Spain, N= 17,097 for the United Kingdom, and N=3,700,442
+for the United States.
+                                                  re -p
+Intervention (for RCT) or Exposure (for observational studies)
+None.
+Main Outcome Measures
+                                                        r
+                                         lP
+Probability of a child being born after medically assisted reproduction for mothers with a university degree
+relative to those having less than a university degree.
+Results                  urna
+University educated mothers are more likely to give birth after assisted reproduction compared to mothers
+with lower levels of education. After adjustment for socio-demographic characteristics, educational
+
+                Jo
+differences disappear in the United Kingdom and to some extent Spain, whilst they attenuate but persist in
+the other countries. The United States seems to show a larger educational gradient.
+Conclusion
+The results suggest that the institutional setting around assisted reproduction may moderate the gradient. A
+possible explanation may be access to treatments, as the United States – the context with the lowest
+subsidization – seems to show larger educational gradients than other contexts. In a context of global
+postponement of childbearing to older ages, mothers with lower levels of socioeconomic resources might
+find it more difficult to fully realise their fertility intentions in countries with a less generous subsidization of
+treatments.
+Keywords
+medically assisted reproduction; population-based studies; social inequality; educational gradient;
+comparative study
+
+
+
+
+                                                          3
+Introduction
+In the last decades, a growing proportion of prospective parents have resorted to medically assisted
+reproduction (MAR) – broadly conceptualized as interventions, procedures, surgeries and technologies that
+treat fertility impairment and infertility (1) – to realize their fertility intentions. As fertility rates decline, due
+to a preference for a small(er) offspring, childbearing postponement or for other reasons, the recourse to
+medical assistance to conceive has increased markedly and it has intensified most notably in Europe,
+Australia, Asia and North America. (2)
+The economic costs of accessing medically assisted reproduction – which depend on public coverage and
+vary substantially across countries (3) – as well as other barriers to access such as geographic distance and
+normative and cultural factors (4), suggest the existence of a socioeconomic gradient in usage and births. A
+handful of studies from single countries have consistently shown that parents of children conceived through
+medical assistance are more likely to have higher socioeconomic status (SES) relative to parents of naturally
+conceived (NC) children. Evidence thus far has been mostly focused on Finland (5, 6), the United States (7-
+9) and Norway (10).
+                                                                     oo
+Cross-country research drawing on comparable measurements is still scarce. Heterogeneity across studies
+                                                                       f
+regarding the methodologies, socioeconomic indicators, and outcome variables used makes it difficult to
+compare the results of existing studies based on individual countries. As a result, evidence on whether
+
+                                                    re
+context moderates the social gradient in MAR births is still limited; i.e. whether the gradient is more marked
+in settings with lower subsidization of MAR treatments.
+                                                       -p r
+In this paper, we investigate whether educational gradients in births differ across countries with diverse
+institutional settings around MAR access and use. Using harmonized data from five high-income countries –
+
+                                          lP
+Denmark, France, Spain, the UK, and the US – with diverse institutional frameworks facilitating or hindering
+access to MAR, we provide a comprehensive assessment of educational disparities in MAR births from a
+comparative perspective.
+Materials and methods
+Data sources and samples
+                          urna
+We draw on high-quality representative national datasets, coming from either administrative registers, cohort
+
+                 Jo
+studies, or fertility surveys, where information on social background, births, and the use of MAR is available.
+We use the latest available data or several data points in the case of countries with a small sample size, which
+results in the years analysed being slightly different across contexts. Supplemental Table 2 in Supplemental
+Material A synthetises the main features of all datasets. Supplemental Material B provides a detailed
+description of how we harmonized both the outcome variable (MAR birth) and the main predictor (maternal
+education).
+For Denmark, we use data from the Danish Population Register together with data on all births from the
+Danish Fertility Database (11) and information on MAR treatments from the Danish National Register of
+Assisted Reproduction Techniques (12), which included in vitro fertilization (IVF), Intracytoplasmic Sperm
+Injection (ICSI), Frozen embryo replacement (FER), Vitrified-warmed blastocyst replacement (WBR),
+Oocyte donation (OD) and Intrauterine insemination (IUI). The Danish sample includes all live births to
+individuals residing in Denmark occurring in 2018, and a MAR birth is defined as that resulting from the
+mother receiving any type of treatment within 10 months before giving birth. From the Population Registers
+we also obtain information on mother’s age, living arrangement at the start of 2018, and the level of
+education.
+For France, we use three waves of the National Perinatal Survey (Enquête Nationale Périnatale or ENP) –
+2003, 2010, 2016 – which samples all live births occurring in or later transferred to any public or private
+maternity unit in France (13, 14). Since less than 0.5% of births occur outside a hospital, the data is close to
+complete and consist of linked survey and medical records. The survey samples all children who were born
+
+                                                           4
+13-19 October 2003, 15-21 March 2010, and 14-20 of March 2016. The dataset contains information on
+whether the mother received a MAR treatment through IVF, IUI, or OD leading to the conception.
+For Spain, we draw on the Spanish Fertility Survey (Encuesta de Fecundidad) for 2018, which is based on a
+representative sample of the non-institutionalized population of Spain aged between 18 and 55. The
+definition of MAR in these data includes IVF, ISCI, IUI, surrogate gestation, programmed intercourse, and
+other medical treatments. For this country, no direct information is provided on the use of fertility treatments
+for specific births, so we only know whether mothers ever underwent treatment with MAR prior to giving
+birth at a specific parity. Nevertheless, since there is information on the date and month during which a
+woman pursued her first MAR treatment and the number of live births resulting from this treatment or
+subsequent ones, most MAR births can in practice be identified. Cases where a given live birth cannot be
+unequivocally traced back to either MAR treatment or a natural conception have been excluded from the
+analysis. Different aggregate estimations based on the representative Spanish Fertility Survey – including the
+proportion of births due to MAR treatments – have shown a reasonable degree of coincidence with
+estimations based on the Spanish Fertility Society’s register after discounting treatments for patients residing
+abroad (15). This indicates that the Spanish Fertility Survey provides reliable figures on Medically Assisted
+                                                                oo
+Reproduction treatments resulting in (live) births in Spain. We could not use the Spanish Fertility Society’s
+                                                                  f
+register in this study as it does not contain socioeconomic information from individual-level patient data.
+
+
+                                                re
+For the UK, we use data from the Millennium Cohort Study (MCS) (16, 17), a nationally representative
+survey of children born in the U.K. 2000-2 and their parents. Measures of MAR include self-reported
+                                                   -p
+information from mothers on conception following use of OD, gamete intrafallopian transfer (GIFT), IUI,
+
+                                                      r
+ICSI, IVF, FER/WBR, and laparoscopic surgery (LS). Despite being maternal reports, the UK data are
+reliable and they closely match hospital records (18). We used weights to account for the complex sampling
+
+                                       lP
+design and non-response and overrepresentation of disadvantaged and ethnically diverse areas and the survey
+command to account for the clustering of samples within strata.
+For the US, we use administrative public data files from the CDC-National Vital Statistics System (NVSS)
+
+                        ur
+covering all US birth certificates for children born in 2019 (19). MAR data are gathered for all US states
+
+                          na
+except for Tennessee and South Carolina, representing 96.3% of all births, as reported in the NVSS user
+guide. MAR births are defined as pregnancies resulting from MAR treatment according to the birth
+certificate, and cover OD, ICSI, IUI, IVF, GIFT, FER/WBR, and zygote intrafallopian transfer (ZIFT)
+procedures. We acknowledge that the US data underreport children born with assisted reproductive
+                Jo
+technologies (ART) (20, 21) and we provide several sensitivity analyses using subgroups to rule out that this
+has a major effect on the results.
+Variables and definitions
+The dependent variable is a binary indicator of whether the birth resulted from a MAR or natural conception.
+In order to make results as comparable as possible across countries, we neither distinguish between specific
+MAR techniques nor consider the number of cycles undergone. We focus on MAR rather than ART as its
+broader definition allows for a more direct comparison across data sources.
+The main independent variable is maternal level of education, which we use as an indicator of
+women’s/families’ socioeconomic status since other measures such as occupation or income were not
+systematically available across all five countries. To facilitate the comparison across countries, we
+dichotomise this variable by distinguishing mothers having a university degree – International Standard
+Classification of Education (ISCED) level 5 or higher – from any below-tertiary level of education (for the
+US, we also include a category for unknown level of education). The ISCED classification allows for
+rigorous harmonization of the education indicator across countries (see Supplemental Material B for details
+on the harmonization procedure). We also provide sensitivity analyses using income categories for all
+countries except the US, for which this information is not available.
+In the adjusted models, we control for maternal age at birth (in five categories: ≤24, 25-29, 30-34, 35-39,
+≥40) to account for the higher resort of older women to MAR, and because of the more stable occupational
+                                                      5
+situation and higher socioeconomic status of older individuals accessing fertility treatments in these
+countries. Partnership status at birth – distinguishing between married, cohabiting with partner, and single
+(for the US, married, unmarried, and unknown) – is controlled for to account for the unequal access
+requirements across the five national settings. Finally, we only include live births in the sample to allow
+comparability across all national data sources.
+Statistical analyses
+Separately for each country, we estimate logistic regression and we compute the predicted probability of
+having a live birth after MAR for women with university education (vs. those with lower qualifications)
+compared with the probability of having a NC child. This result constitutes the baseline quantification of the
+extent to which an educational gradient is present. In a second set of models, we control for maternal age and
+partnership status. In all models, we also adjust for year of birth when more than one year of data is used.
+Because MAR births are disproportionately more likely to be first births (22, 23) the models were conducted
+on all births and then separately for first and second or higher order births. We estimate and comment
+predicted probabilities, as comparing odds ratios has a number of pitfalls related to coefficients rescaling in
+comparing results across groups and models (24, 25).
+Ethical approval
+                                                                oof
+                                                re
+Approval for the analyses was granted by national data producers. As all analyses were carried out on de-
+
+                                                   -p
+identified secondary data, they are considered exempt from IRB approval.
+Results
+Descriptive statistics
+                                                      r
+                                       lP
+First, we provide an assessment on the number of infants born after the use of ART – a subset of MAR
+treatments entailing in vitro handling of gametes or embryos (1) – across all five countries since 2000
+
+
+                         ur
+(Figure 1). Overall, the share of ART conceived children increased across all countries considered. Denmark
+had the highest proportion of ART-conceived live births at the start of the period (slightly below 4%) and
+
+                           na
+experienced a moderate increase over time. In recent years, Denmark has been surpassed by Spain, where the
+proportion of ART births underwent the greatest increase and exceeded 9% in 2018. In the remaining three
+countries – France, the UK and the US – the increase in ART births was sustained but moderate, and by the
+
+                Jo
+end of the period considered they still exhibited relatively low levels (3% in 2017 in France and the UK, 2%
+in the US). In the supplemental online material, we also provide a description of the institutional context
+around MAR by country (26).
+                                         [FIGURE 1 ABOUT HERE]
+Second, in Table 1 we report the descriptive statistics of the analytical samples by country and mode of
+conception: NC vs. MAR – here we use the broad definition including all procedures and not only those
+entailing in vitro handling of gametes or embryos; column percentages are displayed. Denmark shows the
+largest total proportion of children born after being conceived through MAR (9.1%), followed by France
+(5.5%), Spain (3.8%), the UK (3.4%) and finally the US (2%). Overall, we observe four patterns across all
+the countries considered. First, MAR-conceived children are more likely to be born to older mothers.
+Between 24% and 45% of MAR-conceived children are born to mothers in the 35-39 age group, while only
+between 15% and 23% of NC children are born to mothers within this age group. This difference is larger
+among mothers above 40 years of age; only 2% to 4% of the NC are born to this age group compared to 6%
+to 19.5% within the MAR group. Second, MAR-conceived children are more likely to be born to mothers
+with a university degree, with the gap varying between about 10 percentage points in the UK to as much as
+40 percentage points in the US. Third, MAR-conceived children are disproportionally likely to be born
+within a marriage, with wide variations by country – Denmark has a gap of about a mere 3 percentage points
+and the US of 33 percentage points. Fourth, MAR-conceived children are systematically more likely to be
+
+
+                                                       6
+first born. This pattern is consistent across all countries, with the difference between MAR and NC ranging
+between around 11 percentage points in Spain and 27 percentage points in the UK.
+                                         [TABLE 1 ABOUT HERE]
+Regression results
+Figure 2 below displays, for each of the five countries, the predicted probabilities [with 95% confidence
+intervals (CIs)] of having a child born following a MAR conception for mothers with a university degree
+(blue markers) and those having less than a university degree (orange markers). Full results are presented in
+Supplemental Material A: Supplemental Tables 3-7. Within each country panel, the point estimates on the
+left refer to baseline models and those on the right to adjusted models, as defined above. The upper panel
+reports predicted probabilities by maternal educational status for the whole sample of births; the middle
+panel only for first births; the lower panel for second or higher-order births.
+Among all live births (upper panel) and across countries, mothers having a university degree have a higher
+chance to give birth after MAR, and this result holds in both unadjusted and adjusted models. The exception
+                                                                 oo
+is the UK, where after adjusting for covariates we do not find educational differences in women’s likelihood
+
+                                                                   f
+of giving birth to a MAR child. Among firstborns (middle panel, adjusted models), mothers having a
+university degree have a higher chance to give birth after MAR. Yet, this pattern loses statistical significance
+
+                                                re
+when we adjust for the basic covariates in France (Less than university β = 0.086, 95% CI 0.093, 0.078;
+University β = 0.077, 95% CI 0.082, 0.072), Spain (Less than university β = 0.015, 95% CI 0.18, 0.003;
+                                                   -p
+University β = 0.015, 95% CI 0.022, 0.009), and the UK (Less than university β = 0.067, 95% CI 0.079,
+
+                                                      r
+0.055; University β = 0.050, 95% CI 0.059, 0.041). Among second or higher-order births (lower panel),
+university educated mothers are more likely to have a MAR child in all countries except for the UK and
+
+                                       lP
+France, where we observe no meaningful statistical differences after covariate adjustment.
+                                         [FIGURE 2 ABOUT HERE]
+
+
+                        ur
+To provide an alternative scale of the disparities in births due to MAR, Figure 3 displays bars reporting the
+
+                          na
+relative overrepresentation of university educated mothers giving birth after MAR relative to those mothers
+having less than a university education. Over each pair of bars, a horizontal line illustrates whether the
+unadjusted (purple bars) and adjusted (yellow bars) relative overrepresentation estimates are statistically
+different from each other.
+                Jo
+In the unadjusted models, all countries display a gradient in MAR births, with university educated mothers
+more likely to give birth after MAR (all births: Denmark 55%; France 53%; Spain 79%; UK 44%; US
+465%). After adjustments, three distinct country patterns emerge. First, even after adjusting for the basic
+controls, the US shows a remarkable amount of overrepresentation of highly educated mothers giving birth
+after MAR (175% for all births, 48% for firstborns, 208% for second or higher-order born; adjusted models).
+Second, the UK and France show no clear pattern of overrepresentation. Differences tend not to be
+statistically significant in the UK if we compare across parities, while in France the overrepresentation
+observed among all births becomes negligible or non-significant when we stratify the analyses by parity.
+Third, the remaining countries lay somewhere in the middle. In both Denmark (30% for all births, 24% for
+first births, 16% for second or higher-order births) and Spain (39% for all births, 9% for first births, 73% for
+second or higher-order births), MAR children are significantly (only all births and second or higher-order
+parity) and substantially more likely to be born to university educated mothers.
+                                         [FIGURE 3 ABOUT HERE]
+Supplementary analyses
+We performed a number of supplementary analyses. First, since education may be correlated with maternal
+age – especially among younger mothers – leading to the null educational gradient after adjustment in some
+countries, we replicated our analyses using an indicator of income. We performed these analyses in all the
+countries but the US, where the information was not available. For the UK and Denmark, we used income
+                                                       7
+quintiles; for Spain we had to dichotomize the quintiles due to sample size limitations; and for France we
+used survey-specific income bands. For Spain and France, we performed the analyses for a subset of
+observations for which income data were available. We find that families with a higher income are more
+likely to have a MAR child, and that the association persists after adjustment for covariates. The findings
+corroborate the notion of a robust socio-economic gradient in MAR across all contexts. Regression results
+are reported in Supplemental Tables 8-11 in Supplemental Material A. For the US, we replicated the
+analyses for mothers over 30 years of age – as after this age it is very unlikely for a woman to gain additional
+educational qualifications. The results are fully consistent and they are reported in Supplemental Table 12 in
+Supplemental Material A.
+Second, there is evidence that the US data underreports births from assisted reproductive technologies (21),
+which we found support for in our study. When we compared the number of ART born in the NVSS with
+those from the National ART Surveillance System (NASS) 2019 report (27), we found an
+underrepresentation in line with previous studies (9) (58.32% report rate). Given the underreporting of births
+from ART, we conducted sensitivity analyses similar to Tierney and Cai (9), for subgroups for which there is
+evidence of a better ART reporting: infants with birth weight under 1,500 grams; infants born below the 32nd
+                                                                  oo
+week of gestation; triplets or higher multiple births; and deliveries from mothers 45 years or older (20). We
+                                                                    f
+replicate the analyses using as an outcome both whether the mother had a child after MAR – as in the main
+analyses – as well as if the mother had a child after ART – a more restrictive definition including only births
+
+                                                 re
+from treatments entailing in vitro handling of gametes or embryos. Supplemental Table 13 in Supplemental
+
+                                                    -p
+Material A reports the results across all these subgroups, and they are fully consistent with those reported on
+the full sample.
+                                                       r
+Third, since we use disparate data sources and the US data have a degree of underreporting of ART, we
+
+                                        lP
+combine results from Figure 3 with the same ratios computed for results displayed in Supplemental Table 13
+in Supplemental Material A. We observe that the US, regardless of the sample or subsample considered,
+systematically shows the highest overrepresentation of university educated mothers in giving birth to MAR
+
+                        ur
+children (Supplemental Figure 1 in Supplemental Material A).
+Discussion
+                          na
+In this study, we have used high-quality data to investigate the educational gradient in MAR births in five
+high-income countries with different institutional arrangements. Unadjusted results show a consistent
+                Jo
+educational gap across all the countries considered. University educated mothers are disproportionally more
+likely to have a MAR child. When models include adjustments for maternal age and partnership status, the
+magnitude of the coefficients systematically reduces in size. Nevertheless, they retain statistical and
+substantive significance in all countries except for the UK, to some extent Spain when we stratify for first
+order parity, and France where it disappears when we stratify the analyses by parity.
+The results of this study seem to point towards two main findings. First, institutional barriers may matter in
+shaping women’s chances to have a child after MAR, as suggested by the finding that educational
+differences are larger in the US when compared with the other countries. Among the countries included in
+this study, the US is the only one without a wide state-subsidized scheme regulating access to MAR
+treatments, and this may translate in larger educational differences in the probability of having a MAR
+conceived child. State-based funding schemes that facilitate access to MAR may therefore play an important
+role in reducing socio-economic disparities in MAR births.
+Second, despite state-subsidized funding of MAR in the other countries, they still show educational
+disparities in MAR births, suggesting that the gradient is not solely explained by the subsidization of MAR
+treatments. The mechanisms are likely to be multifactorial. On the one hand, the fact that the educational
+gradients fully (UK, France if stratified by parity) or partially (rest of the countries) attenuate when adjusting
+for partnership status at birth and maternal age could suggest that the educational gradient is explained by
+differences in needs – i.e. highly educated women postpone childbearing to ages characterized by higher
+levels of subfertility (28) – and/or by differences in access requirements, since in many contexts being in a
+                                                        8
+stable relationship is a prerequisite for access (Supplemental Table 1 in Supplemental Material A). On the
+other hand, since partnership and age at birth are strongly socially patterned and could reflect other
+processes, this interpretation requires caution.
+Additionally, we believe there may be many other factors underlying educational differences in MAR births,
+which relate to the probability of MAR treatment success, access to MAR, preferences, or resources.
+Regarding success of MAR treatment, highly educated mothers may be more likely to undergo treatments in
+private clinics, thus avoiding long waiting times for referrals to publicly funded MAR. Additionally, they
+have on average better health (29) and are more likely to avoid unhealthy behaviours and to comply with
+medical advice (30); thus increasing their chances of a successful MAR treatment. Mothers from different
+socio-economic backgrounds may also have different preferences regarding fertility, and the number of
+children they want to have (31, 32). Such differences in preferences may translate into differences in seeking
+treatment and ultimately into stratification by SES of the chances of having MAR births. Finally, resources
+derived from belonging to a certain socio-economic group may influence both access to and success of
+MAR. Higher income availability may enable women to seek MAR treatment after the state-subsidized age
+deadline has been reached, thus extending the time a woman has to conceive. Workplace flexibility
+                                                                 oo
+associated with a higher SES position may allow women to attempt more treatments, which often require
+                                                                   f
+multiple visits at the fertility clinic and repeated time taken off from work. Living in a large urban centre
+may also facilitate access to MAR, as long commuting times may be necessary if living in rural areas (33).
+
+                                                 re
+With respect to access to resources, we provide some related evidence, as our supplementary analyses show
+
+                                                    -p
+that MAR children are more likely to be born to higher income families before and after adjusting for
+
+                                                       r
+covariates in all the contexts for which information was available.
+Limitations
+
+                                        lP
+This work is not free of limitations. The first limitation of the paper is inherent to the fact we compare
+different data sources. The five selected contexts differ to some extent as regards the type of data, the period
+covered, the types of variables available, the amount of missing information, the types of MAR techniques
+
+                        ur
+that can be singled out, sample sizes, and the degree of disaggregation allowed by the data. However, we
+
+                          na
+have undertaken extensive efforts in harmonizing the data and making them comparable.
+Second, to maximise cross-country comparability, we have adopted a strategy in which we take the lowest
+common denominator in the conceptualization and operationalisation of variables. Also, we focus on
+                Jo
+educational gradients in MAR births – disregarding gaps in access to MAR and in pregnancy success after
+various numbers of attempts, since this information is not available for all countries – and we group together
+all available MAR techniques even though these are not the same across the five settings. We cannot
+distinguish either which MAR-conceived births take place in the public vs. private healthcare sector, nor can
+we identify cross-border treatments. All these challenges to complete comparability urge data collection
+agencies to intensify their efforts for including more detailed information on MAR in a way that facilitates
+cross-country comparisons.
+Third, we acknowledge that the NVSS US birth register underreports MAR births, and that these results may
+be more representative of US states such as Utah, Wisconsin, and Oregon, which have a better reporting, and
+less of others such as Florida, Indiana, and Texas (including Tennessee and South Carolina, for which MAR
+data are missing) (20). Similarly, these results are more likely generalizable to population groups with better
+ART data quality, such as high-risk groups as we mentioned in the supplementary analyses section (20, 21).
+Reassuringly, multiple estimations on subsamples with better ART reporting are consistent: all these results
+display an overrepresentation of university educated in delivering MAR births, and these estimates are
+systematically higher than estimates from the other countries analysed. Moreover, since other data such as
+SART or NASS are not publicly available, there are not many other options for this kind of research. Despite
+these limitations, we believe that it is highly unlikely that the large differences that we observe between the
+US and the rest of the countries are largely explained by the underreporting issues that the US data are
+subject to.
+
+                                                       9
+Conclusion
+A policy implication of our findings has to do with how to tackle inequities in access to and/or successful use
+of publicly provided/funded assisted reproduction. Our results seem to suggest that the social gradient tends
+to be more marked in contexts where costs are high and/or public coverage is limited, such as the US. This
+suggests that prioritisation mechanisms in public provision should be thoroughly reconsidered, possibly
+explicitly favouring women/parents with fewer socioeconomic resources. Co-payment schemes in the public
+system could also be conceived for parents in more advantaged economic situations. Longer time to
+pregnancy, which might be an indicator of sub-fecundity and/or its underlying causes, has evident
+implications in terms of stress, which in turn correlate with chances of treatment success. Longer times to
+pregnancy have also been shown to correlate with children’s neurodevelopmental delays and difficulties
+(34), so addressing waiting times until (successful) treatment is granted in the public system is a key issue.
+Nonetheless, the existence of educational gradients even in contexts in which a solid public-funded provision
+of MAR is available, such as Denmark, reinforces the notion that financial constraints are just one piece of
+the puzzle and that more comprehensive accounts of different types of access barriers (e.g., geographical,
+                                                                oo
+cultural), including those regarding preferences, are called for. This necessarily requires more systematic and
+
+                                                                  f
+comprehensive data collections at the national level and more intense attempts to harmonise them across
+countries to promote comparative research.
+
+                                                re
+Our results also have the potential to be relevant for the analysis of reproduction of intergenerational social
+
+                                                   -p
+inequalities. In the current context in which more resourceful families are overrepresented in MAR births,
+
+                                                      r
+the potential adverse birth outcomes that MAR children more frequently face – low birth weight, prematurity
+– and the implications of these for later health and development are expected to be at least partially
+compensated by these families’ greater parental resources (35). If access to and successful use of MAR
+                                       lP
+becomes more homogeneously distributed across social backgrounds, then there is a risk that children from
+families with fewer resources might be disproportionally influenced by negative birth outcomes and their
+related consequences. Research available so far suggests that some of the potential disadvantages faced by
+
+                        ur
+MAR-conceived babies are diminishing over time thanks to advances in neonatal and obstetric practice (36).
+
+                          na
+This overall improvement is however compatible with adverse consequences being unequal across the
+various social backgrounds.
+Acknowledgements
+                 Jo
+We thank 2001 MCS families for their time and cooperation, as well as the Centre for Longitudinal Studies
+at the Institute of Education at University College London. We are grateful to the Centre for Longitudinal
+Studies (CLS), UCL Social Research Institute, for the use of these data and to the UK Data Service for
+making them available. However, neither CLS nor the UK Data Service bear any responsibility for the
+analysis or interpretation of these data. We are also grateful to participants at the 2021 ECSR general
+conference in Amsterdam and at the 2022 ´Social Implications of MAR´ Workshop at the European
+Commission’s Joint Research Centre (JRC) Centre for Advanced Studies for their constructive feedback.
+Authors’ roles
+LS conceived the study. All authors were involved in the design of the study, data interpretation, drafting of
+the manuscript and revisions of the manuscript. PF conducted the analyses for Denmark; MC conducted the
+analyses for the US; AG conducted the analyses for the UK; MS conducted the analyses for Spain; TE
+conducted the analyses for France. All authors have made a substantial contribution to the paper (author
+order has been randomized) and have approved the final manuscript.
+
+
+
+
+                                                      10
+                                              References
+
+1.    Zegers-Hochschild F, Adamson GD, Dyer S, Racowsky C, De Mouzon J, Sokol R et al. The
+      international glossary on infertility and fertility care, 2017. Hum Reprod 2017;32:1786-801.
+2.    Adamson G, Dyer S, Chambers G, Ishihara O, De Mouzon J, Kupka M et al. O-151 ICMART
+      preliminary world report 2018. Hum Reprod 2022;37:deac105. 057.
+3.    McCarthy-Keith DM, Schisterman EF, Robinson RD, O’Leary K, Lucidi RS, Armstrong AY. Will
+      decreasing assisted reproduction technology costs improve utilization and outcomes among minority
+      women? Fertil Steril 2010;94:2587-9.
+4.    Präg P, Mills MC. Assisted reproductive technology in Europe: usage and regulation in the context
+      of cross-border reproductive care. In: Childlessness in Europe: Contexts, causes, and consequences:
+      Springer, Cham, 2017:289-309.
+5.    Klemetti R, Gissler M, Sevón T, Hemminki E. Resource allocation of in vitro fertilization: a
+      nationwide register-based cohort study. BMC Health Serv Res 2007;7:1-8.
+6.    Räisänen S, Randell K, Nielsen HS, Gissler M, Kramer MR, Klemetti R et al. Socioeconomic status
+      affects the prevalence, but not the perinatal outcomes, of in vitro fertilization pregnancies. Hum
+
+7.
+      Reprod 2013;28:3118-25.
+                                                           oo
+      Wilcox LS, Mosher WD. Use of infertility services in the United States. Obstet Gynecol
+      1993;82:122-7.                                         f
+8.    Stephen EH, Chandra A. Use of infertility services in the United States: 1995. Fam Plan Perspect
+
+9.
+      2000:132-7.
+                                            re -p
+      Tierney K, Cai Y. Assisted reproductive technology use in the United States: a population
+
+10.
+                                                  r
+      assessment. Fertil Steril 2019;112:1136-43.e4.
+      Goisis A, Håberg SE, Hanevik HI, Magnus MC, Kravdal Ø. The demographics of assisted
+      reproductive technology births in a Nordic country. Hum Reprod 2020;35:1441-50.
+11.
+12.                                lP
+      Knudsen LB. The Danish Fertility Database. Danish medical bulletin 1998;45:221-5.
+      Jølving LR, Erb K, Nørgård BM, Fedder J, Larsen MD. The Danish National Register of assisted
+      reproductive technology: content and research potentials. Eur J Epidemiol 2021;36:445-52.
+13.
+
+14.
+15.
+                     ur
+      Blondel B, Kermarrec M. French national perinatal survey 2010. Paris: Epidemiological Research
+      Unit on Perinatal Health and women and children’s health, INSERM 2011:1-56.
+
+                       na
+      Coulm B, Bonnet C, Blondel B. French national perinatal survey 2016. Paris: INSERM 2017.
+      Borisova E. Reproducción asistida en España: Indicadores, impacto y contexto sociodemográfico. In.
+      Barcelona: Centre d’Estudis Demogràfics, 2023.
+16.   Plewis I, Calderwood L, Hawkes D, Hughes G, Joshi H. Millennium Cohort Study: technical report
+
+17.
+             Jo
+      on sampling. London: Centre for Longitudinal Studies 2007.
+      Connelly R, Platt L. Cohort profile: UK millennium Cohort study (MCS). International journal of
+      epidemiology 2014;43:1719-25.
+18.   Tate AR, Dezateux C, Cole TJ, Davidson L. Factors affecting a mother's recall of her baby's birth
+      weight. Int J Epidemiol 2005;34:688-95.
+19.   Martin J, Hamilton B, Osterman M, Driscoll A. Births: Final Data for 2018.; 2019. Nat Vital Stats
+      Report 2019;68:1-47.
+20.   Thoma ME, Boulet S, Martin JA, Kissin D. Births resulting from assisted reproductive technology:
+      comparing birth certificate and National ART Surveillance System Data, 2011. National vital
+      statistics reports: from the Centers for Disease Control and Prevention, National Center for Health
+      Statistics, National Vital Statistics System 2014;63:1-11.
+21.   Moaddab A, Bateni ZH, Dildy GA, Clark SL. Poor compliance and lack of improvement in birth
+      certificate reporting of assisted reproductive technology pregnancies in the United States. Am J
+      Obstet Gynecol 2016;215:528-30.
+22.   Lazzari E, Gray E, Chambers GM. The contribution of assisted reproductive technology to fertility
+      rates and parity transition. Demographic Research 2021;45:1081-96.
+23.   Goisis A, Remes H, Martikainen P, Klemetti R, Myrskylä M. Medically assisted reproduction and
+      birth outcomes: a within-family analysis using Finnish population registers. Lancet 2019;393:1225-
+      32.
+24.   Mood C. Logistic regression: Why we cannot do what we think we can do, and what we can do
+      about it. Eur Sociol Rev 2010;26:67-82.
+
+                                                  11
+25.   Norton EC, Dowd BE. Log Odds and the Interpretation of Logit Models. Health Serv Res
+      2018;53:859-78.
+26.   Seiz M, Eremenko T, Salazar L. Socioeconomic differences in access to and use of Medically
+      Assisted Reproduction (MAR) in a context of increasing childlessness. In: Joint Research Centre
+      (Seville site), 2023.
+27.   Sunderam S, Zhang Y, Jewett A, Kissin DM. State-specific assisted reproductive technology
+      surveillance, United States 2019 data brief 2021.
+28.   Mills M, Rindfuss RR, McDonald P, Te Velde E. Why do people postpone parenthood? Reasons and
+      social policy incentives. Hum Reprod Update 2011;17:848-60.
+29.   Mackenbach JP. Health inequalities: Europe in profile. London: Department of Health, 2006.
+30.   Pampel FC, Krueger PM, Denney JT. Socioeconomic disparities in health behaviors. Ann Rev Sociol
+      2010;36:349.
+31.   Jalovaara M, Neyer G, Andersson G, Dahlberg J, Dommermuth L, Fallesen P et al. Education,
+      gender, and cohort fertility in the Nordic countries. Eur J Popul 2019;35:563-86.
+32.   Mynarska M, Matysiak A, Rybińska A, Tocchioni V, Vignoli D. Diverse paths into childlessness
+      over the life course. Adv Life Course Res 2015;25:35-48.
+33.
+
+34.
+                                                           oo
+      Lazzari E, Baffour B, Chambers GM. Residential proximity to a fertility clinic is independently
+      associated with likelihood of women having ART and IUI treatment. Hum Reprod 2022;37:2662-71.
+                                                             f
+      Magnus MC, Havdahl A, Wilcox AJ, Goisis A. Parental fecundability and neurodevelopmental
+      delays and difficulties in offspring. Int J Epidemiol 2022.
+35.
+                                            re
+      Cozzani M, Aradhya S, Goisis A. The cognitive development from childhood to adolescence of low
+
+                                               -p
+      birthweight children born after medically assisted reproduction—a UK longitudinal cohort study. Int
+      J Epidemiol 2021;50:1514-23.
+36.
+                                                  r
+      Goisis A, Özcan B, Myrskylä M. Decline in the negative association between low birth weight and
+      cognitive ability. Proc Natl Acad Sci U S A 2017;114:84-8.
+
+                                   lP
+                     urna
+             Jo
+
+
+
+
+                                                  12
+Figures Legends
+ Figure 1 Legend
+
+
+
+ Figure 2 Legend
+
+
+
+
+                               oof
+                      re -p r
+                     lP
+                   urna
+              Jo
+
+
+
+
+                          13
+Table 1. Descriptive statistics in the five countries
+                   Denmark            France             Spain           United           United States
+                                                                        Kingdom
+                   NC     MAR         NC     MAR        NC     MAR      NC    MAR             NC        MAR
+  Maternal
+  age at birth
+  24 or less      10·7      2·3       17      5·1       9·9     0·2      18·5      3·3       23·9        2·1
+  25-29           35·6     20·4      33·2    27·4      26·2     6·4      30·2     24·1       29·1       13·5
+  30-34             35     37·1      32·2    36·8       37     28·8      33·3     37·7       28·9       34·6
+  35-39           15·4     27·9      14·6    23·8      22·8    45·2      15·8     28·5       14·9         33
+  40+              3·3     12·3        3      6·9       4·2    19·5       2·3      6·4        3·2       16·7
+  Mother's
+  level of
+  education
+  University      48·7     60·7      49·5    61·3      41·8    65·3      34·8     43·8       41·1       81·3
+  < University    51·3     39·3      50·5    38·7      58·2    34·7      65·2     56·2       58·9       18·7
+  Mother's
+  partnership
+  status at
+  birth
+  Married
+  Cohabiting
+                  48·5
+                  44·3
+                           51·9
+                           37·2
+                                     45·5
+                                     47·8
+                                             58·1
+                                             40·2
+                                                       75·9
+                                                       16·2
+                                                               oof
+                                                               80·5
+                                                                14
+                                                                         62·7
+                                                                         24·5
+                                                                                   85
+                                                                                  11·6
+                                                                                             59·1
+                                                                                              NA
+                                                                                                        91·9
+                                                                                                         NA
+  Single           7·1     10·9       6·7     1·7       7·9     5·5      12·8      3·3       40·9#      8·1#
+  Parity
+  First born
+  Second +
+                  48·3
+                  51·7
+                           66·5
+                           33·5
+                                     42·1
+                                     57·9
+                                             re -p
+                                             62·5
+                                             37·5
+                                                       54·5
+                                                       45·5
+                                                               65·9
+                                                               34·1
+                                                                         37·2
+                                                                         62·8
+                                                                                  64·3
+                                                                                  35·7
+                                                                                             37·4
+                                                                                             62·6
+                                                                                                        50·8
+                                                                                                        49·2
+  born
+  %
+  N
+                  90·9      9·1      94·5     5·5  r   96·2     3·8      96·6
+                 55,950 5,614 35,460 2,073 12,402 487 16,581 518 3,626,293 74,149
+                                                                                   3·4        98           2
+
+
+                                   lP
+Note: #This refers to unmarried, as the US registers do not report cohabitation, the figure also does not
+include those with missing information on marital status, which are included in the regression analyses in a
+specific “unknown” category.
+
+
+                   ur
+Abbreviations: NC = naturally conceived; MAR = Medical assisted reproduction.
+
+Column percentages.
+                     na
+          Jo
+Jo
+     ur
+       na
+            lP
+              re
+                   -p
+                     ro
+                          of
+Jo
+     ur
+       na
+            lP
+              re
+                   -p
+                     ro
+                          of
+Jo
+     ur
+       na
+            lP
+              re
+                   -p
+                     ro
+                          of
+

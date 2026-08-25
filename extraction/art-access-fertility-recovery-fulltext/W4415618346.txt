@@ -1,0 +1,462 @@
+Compans et al. BMC Women's Health     (2025) 25:521                                                                                                                              BMC Women's Health
+https://doi.org/10.1186/s12905-025-04016-3
+
+
+
+
+ RESEARCH                                                                                                                                                                                           Open Access
+
+
+Time to birth for spontaneous and ART births
+among infertile groups
+Marie-Caroline Compans1,2* , Eva Beaujouan1                                           and Vegard Skirbekk3,4
+
+
+  Abstract
+  Background Childbearing postponement in high-income countries has likely led to an increase in the incidence of
+  age-related infertility. While assisted reproductive technologies (ART) can help some individuals to become parents,
+  this often takes time. However, we know little about how long it takes individuals with infertility problems to achieve
+  a live birth, whether they use ART or not, and how this has changed over time.
+  Method We use retrospective information from the HUNT study, which provides rare information on the age at
+  first conception attempt among people who have ever experienced infertility issues. These data are linked to the
+  Norwegian Medical Birth Registry (NMBR), which allows tracking the timing of live births and whether they result
+  from ART. We control for several maternal and paternal characteristics and distinguish between the late 1980–1990s
+  (1987–99) and the 2000–2010s (2000–19). Cox models were fitted to samples of 863 mothers and 590 fathers.
+  Results The average time from the start of conception attempt to spontaneous births is three years, and to ART
+  births is five years. ART births occurred faster when pregnancy attempts were initiated in 2000–19 rather than 1987–
+  99 (coeff = 0.536, [0.198; 0.873] for women, coeff = 0.487, [0.072; 0.902] for men), and when men and women tried to
+  conceive for the first time at age 35–39 (coeff = 1.215, [0.260; 2.171] for women, coeff = 1.005, [0.275; 1.735] for men).
+  This was not the case for spontaneous births.
+  Conclusions While assisted reproductive technologies enable individuals facing infertility issues to achieve a live
+  birth, they require more time to succeed. However, since the 2000s, time to ART births has decreased, with the
+  shortest observed among those initiating conception attempts in their late thirties. Despite the fact that age remains
+  a significant negative factor associated with the declining occurrence of births, these findings may reflect shifts in the
+  profile of fertility clinic patients, faster care-seeking processes, and improvements in ART efficiency.
+  Keywords Assisted reproduction, Time to birth, Infertility, Norway, Determinants of birth timing
+
+
+
+
+*Correspondence:
+Marie-Caroline Compans
+marie-caroline.compans@ined.fr
+1
+  University of Vienna (Wittgenstein Centre for Demography and Global
+Human Capital – IIASA, OeAW, University of Vienna), Vienna, Austria
+2
+  Institut national d’études démographiques (Ined), Aubervilliers, France
+3
+  Center for Fertility and Health, Norwegian Institute of Public Health, Oslo
+University, Oslo, Norway
+4
+  Columbia University, New York, NY, USA
+
+
+                                           © The Author(s) 2025. Open Access This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use,
+                                           sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and
+                                           the source, provide a link to the Creative Commons licence, and indicate if changes were made. The images or other third party material in this
+                                           article are included in the article’s Creative Commons licence, unless indicated otherwise in a credit line to the material. If material is not included
+                                           in the article’s Creative Commons licence and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will
+                                           need to obtain permission directly from the copyright holder. To view a copy of this licence, visit ​h​t​t​p​​:​/​/​​c​r​e​a​​t​i​​v​e​c​​o​m​m​​o​n​s​.​​o​r​​g​/​l​i​c​e​n​s​e​s​/​b​y​/​4​.​0​/.
+Compans et al. BMC Women's Health           (2025) 25:521                                                                                 Page 2 of 9
+
+
+
+
+Fig. 1 Average age at first birth, men and women, Norway, 1970–2023. Authors’ calculations. Source: Statistics Norway (2023)
+
+
+
+
+Fig. 2 Share of ART births among first births by maternal and paternal age and period. Authors’ calculations. Source: Norwegian Medical Birth Register
+(1990–2019)
+
+
+Introduction                                                                 have children increased, the demand for infertility treat-
+In recent decades, childbearing has been increasingly                        ments may have thus increased [8–10].
+delayed in high-income countries, driven by changes in                         ART in Norway is publicly covered for up to three
+marriage and partnership, social values, and the labour                      cycles, and until 2020, there was no age limit. From
+market [1]. In Norway, since 2020, the mean age at first                     2020, new regulations imposed an upper age limit of 46
+birth has been above 30 years for women and 32 years                         years for ART treatments for women while allowing egg
+for men (Fig. 1). The country has many characteristics                       donation and ART access for single women [11]. Since
+that are also specific to late childbearing, including high                  the birth of the first Norwegian ‘test-tube’ baby in 1984,
+educational attainment [2], late age at marriage [3], high                   assisted reproductive technologies (ART) have improved,
+female employment rates [4], rising housing prices [5],                      with a significant impact on fertility. In 2014, 3.7% of
+and rapid secularisation in recent decades [6].                              births in Norway resulted from infertility treatments,
+  As reproductive capabilities tend to decrease when                         a rise particularly visible at advanced maternal ages [8].
+conception attempts are delayed [7], this general trend                      Until the 2000 s, ART contribution to first births was the
+towards later family formation may have led to an                            highest before age 40; from the 2010s, it began to con-
+increase in the prevalence of infertility, medically defined                 tribute more at age 40 and over (Fig. 2). For men, ART
+as unsuccessful conception attempts for more than 12                         births increased to a lesser extent, but the rise was also
+months. Because the treatments became more widely                            substantial at late reproductive ages.
+accepted and as the average age of women seeking to
+Compans et al. BMC Women's Health    (2025) 25:521                                                                Page 3 of 9
+
+
+
+
+   Although ART has the potential to help individuals           use waves 2 (1995–99), 3 (2006–08) and 4 (2017–19)
+who have difficulties conceiving, achieving a live birth        of the HUNT study, in which women aged 20–79 who
+through ART is not systematic and takes time [12]. In           have ever experienced infertility issues (i.e., those who
+the general population, women who receive ART treat-            answered yes to ‘Have you ever tried for more than one
+ments generally take longer to have a child, primarily due      year to become pregnant?’) were asked about their age
+to underlying subfertility issues [7, 12, 13]. Yet, focusing    when they first tried to become pregnant (‘How old were
+on people facing reproductive difficulties and who even-        you the first time you tried to become pregnant?’). Note
+tually have a child, little is known about the time to birth    that the first pregnancy attempt may not be the one for
+when succeeding or not via ART.                                 which women experienced difficulties conceiving. We
+   In addition, one might wonder whether ART births             exclude wave 1, where these questions were not asked.
+occur faster now than in the past. ART patients have            Responses were recorded as rounded ages. Using an indi-
+tended to be older over time, which is likely to be associ-     vidual identifier provided both in HUNT and the Norwe-
+ated with longer time to conception [8]. At the same time,      gian Medical Birth Registry (NMBR), we retrieve from
+more women may be using ART for age-related reasons             NMBR administrative information on live births from
+[9], possibly suffering less severe infertility impairments     1967 to 2020 for all HUNT survey participants. This link-
+and experiencing shorter times to birth. Technological          age with NMBR also provides information on the timing
+improvements, notably pioneered by the Nordic coun-             of births and whether they resulted from ART treatment
+tries, may also have reduced the time in treatment [14].        (in vitro fertilization or intracytoplasmic sperm injec-
+   This paper leverages retrospective information from          tion). ART use is only known if it resulted in a live birth,
+the HUNT study on age when trying to conceive for the           but we do not know if people used infertility treatments
+first time among Norwegian women who have ever expe-            unsuccessfully or if they conceived spontaneously despite
+rienced infertility issues, information that is rarely avail-   using ART. For this reason, we focus on the outcome
+able [15, 16]. We analyse how time to birth has changed         (ART or spontaneous births) irrespective of the pathway
+over time for ART and spontaneous births, and the               to conception, and we discuss this limitation at the end of
+maternal and paternal factors associated with the time          the paper.
+since trying to have a child for both conception modes.
+                                                                Study sample for women
+Material & method                                               In the studied HUNT waves (2, 3 and 4), 4,645 women
+The HUNT study                                                  were surveyed only once and 26,829 more than once
+The Trøndelag Health Study (HUNT) is one of the larg-           (Fig. 3). To minimize recall biases [19], we selected
+est health studies ever conducted, which consists of four       women aged 20 to 49 at the time of the survey
+waves: 1984–86, 1995–99, 2006–08 and 2017–19. This              (n = 21,286).
+population-based study collects health data and bio-              We only focused on those who had ever experienced
+logical samples from the inhabitants of Nord-Trøndelag          infertility issues (17%, n = 3,701). Overall, respondents
+County, Norway. It involves a large proportion of the           who had been interviewed twice were consistent with
+total population in the region, with tens of thousands of       their answers about pregnancy attempts across waves.
+participants in each wave [17, 18]. The survey provides         In case of inconsistencies, we retained the youngest age
+valuable data for numerous medical and public health            at which women reported trying to conceive for the first
+research projects by collecting information on vari-            time. To correct for age heaping at multiples of five, the
+ous aspects of health, including physical measurements,         distribution of age at the first pregnancy attempt was
+blood samples, information on lifestyle, general health         smoothed using a Gaussian kernel density estimator with
+and specific health conditions, prescriptions and medi-         a fixed bandwidth of two years [20].
+cation use. It is one of the rare population-based studies        Some women likely reported the age at which they
+that contains information on age at the time of trying to       experienced infertility rather than the age at which
+conceive for the first time [15, 16], allowing an analysis      they first tried to conceive. Others may have had an
+of changes over different periods. In addition, common          unplanned first pregnancy. For these reasons (and possi-
+unique identifiers between the HUNT study and popu-             bly other unknown ones), we also excluded 1,427 women
+lation registries allow linkage to study changes in health      who already had a child before the reported age at first
+patterns and risk factors.                                      pregnancy attempt.
+                                                                  We do not include 1,053 mothers who tried to conceive
+Main outcome of interest                                        before 1987, when ART activity was still nascent. In this
+This analysis examines maternal and paternal factors            sample, the proportion of women who became moth-
+associated with the time from first conception attempt          ers decreased with age at initiating conception attempts
+to first live birth among ever-infertile individuals. We        (Table 1).
+Compans et al. BMC Women's Health        (2025) 25:521                             Page 4 of 9
+
+
+
+
+                                  WOMEN                                    MEN
+
+            Wave 1                    Wave 2                  Wave 4
+            N=1,386                   N=681                   N=968
+    Waves 2 & 3 Waves 3 & 4 Waves 2 & 4
+     N=3,702     N=1,346     N=1,367
+
+
+                         Women aged 20−49
+                            N=21,286
+
+
+           Ever experienced infertility issues
+                       N=3,701
+
+
+
+                        Childless before first
+                         pregnancy attempt
+                              N=2,374
+
+
+
+         First conception attempts from 1987
+                       N=1,221
+
+
+
+                                  Had a child                            Had a first
+                                    N=961                                child with
+                                                                          N=606
+
+
+
+                             No missing data                           No missing data
+                                 N=860                                     N=590
+Fig. 3 Selection of study samples of women and men in the HUNT study
+Compans et al. BMC Women's Health               (2025) 25:521                                                                                        Page 5 of 9
+
+
+
+
+Table 1 Proportions of ever-infertile women who had a live                         Table 2 Distribution of health and family background
+birth by age at initiating conception attempts                                     characteristics by sex
+                   %                Standard error                 CI (95%)                                                                Mothers      Fathers
+20–24              89.4             1.4                            [86.7;92.1]     First pregnancy attempts in 1987–99 (%)                 70.5         67.5
+25–29              88.1             1.3                            [85.6;90.6]     Mean age at first pregnancy attempt (years)             25.3         28.6
+30–34              83.1             2.0                            [79.2;87.0]     ART births (%)                                          19.6         21.4
+35–40              82.8             3.1                            [76.7;88.9]     Tertiary educated (%)                                   51.1         32.4
+40+                78.9             7.4                            [64.4;93.4]     Married at first pregnancy attempt (%)                  32.3         34.9
+Source: HUNT 2, 3, 4                                                               Ever smoked (%)                                         49.8         45.8
+Sample: Women aged 20 to 49 at the time of the survey, who have ever               Chronic disease status (%)                              43.7         40.7
+experienced infertility issues, childless at the age they reported at initiating
+                                                                                   Mean BMI                                                27.9         28.6
+conception attempts
+                                                                                   Mean age difference with the partner (years)            3.1          4.1
+                                                                                   Mean age of ego’s mother at her first child (years)     22.8         23.1
+  Finally, as the analysis focuses on women who eventu-                            Mean number of siblings                                 2.1          2.3
+ally became mothers, the sample excludes 260 childless                             Source: HUNT 2, 3, 4. Sample: Mothers who have ever experienced infertility
+women (13%).                                                                       issues, fathers who had their first child with a woman who has ever experienced
+                                                                                   infertility issues
+
+Study sample for men
+For each birth, the NMBR provides the characteristics                              status at the start of pregnancy attempts) and the age dif-
+and unique identifier of both parents. Linkage between                             ference with the other parent. Excluding observations
+the HUNT study and the birth registry allows for the                               with missing data, models were run on 863 mothers and
+identification of births when both the mother and the                              590 fathers. We use the survival package in R. Variables
+father were survey participants. Therefore, we can focus                           for which the proportionality assumption was not met
+on surveyed men who had their first child with a sur-                              are interacted with time.
+veyed mother who had ever experienced infertility issues                             Table 2 displays the distribution of covariates in the
+(n = 606 men). The age at which they first attempted to                            study samples of mothers and fathers. We report the
+conceive is derived from the mother’s reported age at try-                         coefficients of the model. For covariates with constant
+ing to become pregnant and the age difference between                              hazards, a positive value indicates greater hazards, hence
+the parents. Although we do not have first-hand informa-                           shorter time to birth. Coefficients for covariates with
+tion on men’s experience of infertility and age at concep-                         time-varying associations reflect whether their associa-
+tion attempts, we assume that men first tried to become                            tion with time to birth changes with time since trying
+fathers and experienced infertility issues with the mother                         to conceive. Positive values indicate that associations
+of their first child.                                                              increase proportionally to log(t). We comment on results
+                                                                                   that are significant at the 5% level.
+Analytical strategy
+We employ Cox models to estimate the duration between                              Results
+the year respondents initiated their pregnancy attempts                            Descriptive results
+and the year of first live birth. Ever-infertile individu-                         In line with the general trend shown by the birth regis-
+als who used ART successfully may have different char-                             try (Fig. 1), across the observed periods, an increasing
+acteristics than those who conceive spontaneously (for                             proportion of parents who had ever experienced infertil-
+instance, they may be more educated and older). For this                           ity issues had their first child through ART. It increased
+reason, models are run separately for ART and sponta-                              from 8 to 16% for mothers and from 9 to 21% for fathers
+neous conceptions to examine how factors operate dif-                              between 1987–99 and 2000–19 (Table 3). Among moth-
+ferently in relation to time to birth. This is estimated by                        ers who reported infertility issues, those who eventually
+the age at which they started trying to conceive (as cat-                          conceived spontaneously initiated their first pregnancy
+egories). Models also include two periods for the first                            attempt at a slightly younger age on average (25.1 years)
+pregnancy attempt: 1987–99 and 2000–19. Based on data                              than those who conceived with medical help (25.9 years).
+from HUNT, we control for health indicators (having                                For men who became fathers with a woman who ever had
+ever smoked, the body mass index and chronic disease                               infertility issues, the first conception attempt with ART
+status in the year prior to the survey). From population                           was a bit more delayed than with spontaneous concep-
+registry linkages, we include controls for social dispari-                         tion (29.9 years vs. 28.3 years). Finally, first spontane-
+ties in childbearing schedules (educational attainment),                           ous live births occurred faster than ART births: three
+intergenerational transmission of fertility behaviour (age                         years vs. five years after the first conception attempt, on
+of the respondent’s mother at her first birth, number of                           average.
+siblings), a binary indicator of family-proneness (marital
+Compans et al. BMC Women's Health            (2025) 25:521                                                                                    Page 6 of 9
+
+
+
+
+Table 3 Age at trying to conceive for the first time, time to birth by type of conception and birth type by period at initiating
+conception attempts
+                                                                              Mothers                                  Fathers
+                                                                              ART births    Spontane-     t-test/      ART births    Spontane-      t-
+                                                                                            ous births    Chi2 test                  ous births     test/
+                                                                                                                                                    Chi2
+                                                                                                                                                    test
+Mean age at trying to conceive for the first time (years)                     25.9          25.1          *            29.9          28.3           ***
+Mean time to birth since trying to conceive for the first time (years)        5.1           2.9           ***          5.0           2.9            ***
+Type of births by period when trying to conceive for the first time (%)
+1987–99                                                                       7.9           92.1          ***          8.8           91.2           ***
+2000–19                                                                       15.9          84.1                       21.4          78.6
+Source: HUNT 2, 3, 4. Sample: Mothers who have ever experienced infertility issues, fathers who had their first child with a woman who has ever experienced
+infertility issues
+
+
+
+Maternal and paternal factors of time to birth                                 Discussion
+Table 4 reports adjusted coefficients for female and male                      Our study shows that, when controlled for age at first
+factors associated with time to birth since first trying                       birth, the time taken to conceive through ART has
+to conceive among individuals who have ever experi-                            decreased between the 1990s and the 2000–2010s,
+enced infertility issues. Holding other factors constant,                      whereas the time taken for spontaneous births has
+for spontaneous conceptions, age at first attempt is not                       remained stable. This may indicate more efficient infer-
+significantly associated with time to birth for moth-                          tility treatments. In addition, even when focusing on
+ers, while men in their thirties experience longer time                        individuals who have experienced infertility, ART births
+to birth compared to men in their mid-twenties. Con-                           typically require a longer time span than spontaneous
+versely, ART births occurred significantly faster among                        births. In view of the selection effects at play (e.g., con-
+those who first tried to conceive at age 35–39 than in the                     ceiving before considering ART), this may be attributed
+other age groups for women (coeff = 1.215, [0.260; 2.171])                     to the particularly low chances of spontaneous concep-
+and men (coeff = 1.005, [0.275; 1.735]). Across periods,                       tion of women who use ART. Hence the fact that ART
+time to birth did not significantly change for spontaneous                     births take longer than spontaneous births observed in
+conception, but decreased for ART births (coeff = 0.536,                       the general population [7, 12, 13] is also evident in the
+[0.198; 0.873] for women, coeff = 0.487, [0.072; 0.902] for                    subfertile population. Future studies could consider the
+men).                                                                          mechanisms and selection effects involved in the deci-
+   Among other factors significantly associated with                           sion to seek ART, as well as the influence of social or psy-
+time to birth, women higher BMI and having ever                                chological factors such as stress or personal choice.
+smoked increased the time to live birth for spontane-                             While age is negatively associated with achieving a live
+ous conception. These health factors were not signifi-                         birth, both for spontaneous and ART births [7, 12], ART
+cantly associated with the timing of ART births. Women                         births occur earlier for men and women who start trying
+who conceived spontaneously and were older than the                            to conceive in their late thirties. Younger patients may
+father, and similarly, ART fathers who were more than                          have specific medical fertility issues that make it more
+five years older than the mothers, took significantly                          difficult to conceive, whereas for patients over 40, slower
+longer to have their first child. While the association                        conception could be due to biological reasons. Con-
+between education and time to birth is not significant                         versely, patients in their mid-thirties may seek ART more
+for women, tertiary-educated men spontaneously had a                           quickly once diagnosed with infertility issues, resulting in
+first child faster compared to their educational counter-                      a swifter procedure. For men and women who have expe-
+parts (coeff = 0.266, [0.051; 0.482]). Being married when                      rienced infertility and have conceived spontaneously, age
+trying to conceive (vs. not being married) is significantly                    at the time of initiating conception attempts is not an
+associated with slightly longer time to spontaneous birth                      important determinant. Instead, health factors, such as
+when women started trying at age 20–24 rather than at                          high BMI and smoking, are associated with a longer time
+age 25–29 (0.019*0.088*−0.371=−0.001) and shorter                              to birth.
+time when men started trying to conceive at age 30–34                             Our study has limitations. Despite our efforts to rule
+(0.530*−0.544*−0.383 = 0.110).                                                 out response bias, the reliability of retrospective collec-
+                                                                               tion of age at initiating pregnancy attempt remains ques-
+                                                                               tionable. Such data do not provide information on the
+                                                                               regularity of sexual activity and thus on risk exposure
+                                                                               to pregnancy [15, 16]. In addition, trying to conceive is
+Table 4 Estimated associations between time to birth since the initiation of conception attempts and maternal and paternal factors (Cox models)
+                                                      Mothers                                                                            Fathers
+                                                      ART births                                 Spontaneous births                      ART births                             Spontaneous births
+                                                      Coeff.   CI (95%)               p-value    Coeff.  CI (95%)             p-value    Coeff.   CI (95%)            p-value   Coeff.   CI (95%)          p-value
+Age at trying to conceive (ref=’25–29’)
+   < 20                                         −1.117           [−2.249;0.015]       0.053      −0.223     [−0.802;0.357]    0.451      −2.736     [−4.949;−0.524]   0.015     0.472    [−1.509;2.453]    0.641
+   20–24                                        −0.739           [−1.119;−0.358]      < 0.001    0.088      [−0.125;0.3]      0.420      −0.623     [−1.265;0.019]    0.057     −0.276   [−0.622;0.071]    0.119
+   30–34                                        0.101            [−0.434;0.635]       0.712      −0.033     [−0.33;0.264]     0.826      0.071      [−0.414;0.556]    0.774     −0.383   [−0.673;−0.094]   0.009
+                                                                                                                                                                                                                     Compans et al. BMC Women's Health
+
+
+
+   35–39                                        1.215            [0.260;2.171]        0.013      0.085      [−0.472;0.642]    0.764      1.005      [0.275;1.735]     0.007     −0.612   [−1.116;−0.108]   0.017
+ 40+                                                                                             −0.444     [−1.595;0.707]    0.449      0.420      [−0.569;1.409]    0.406     −0.248   [−1.043;0.548]    0.542
+Trying to conceive in 2000–19 (ref=’1987–99’) 0.536              [0.198;0.873]        0.002      0.101      [−0.083;0.285]    0.280      0.487      [0.072;0.902]     0.021     0.171    [−0.066;0.408]    0.157
+Tertiary educated                               0.041            [−0.090;0.173]       0.539      0.029      [−0.137;0.196]    0.730      0.053      [−0.393;0.499]    0.816     0.266    [0.051;0.482]     0.015
+BMI (ref=’18.5–24.9’)                                                                                                                                                                                                (2025) 25:521
+   < 18.5                                       -                 -                   -          -           -                -          -           -                -         −0.281   [−2.285;1.723]    0.784
+   25–29.9                                      0.167            [−0.236;0.569]       0.417      −0.233     [−0.421;−0.045]   0.015      0.211      [−0.348;0.771]    0.459     0.179    [−0.086;0.443]    0.186
+   30+                                          −0.113           [−0.497;0.271]       0.564      −0.241     [−0.438;−0.045]   0.016      −0.042     [−0.684;0.600]    0.897     0.015    [−0.278;0.307]    0.921
+Ever smoked                                     −0.104           [−0.448;0.241]       0.555      −0.197     [−0.356;−0.038]   0.015      0.022      [−0.363;0.407]    0.911     −0.102   [−0.292;0.088]    0.292
+Chronic disease in the past year                −0.008           [−0.352;0.336]       0.963      0.026      [−0.132;0.183]    0.750      −0.138     [−0.515;0.239]    0.474     −0.100   [−0.298;0.098]    0.324
+Age of ego’s mother at first birth              0.000            [−0.045;0.045]       1.000      −0.001     [−0.003;0.001]    0.498      −0.029     [−0.079;0.021]    0.260     −0.006   [−0.031;0.020]    0.674
+Number of siblings                              −0.104           [−0.253;0.044]       0.169      −0.013     [−0.081;0.056]    0.714      0.010      [0.002;0.018]     0.012     −0.056   [−0.134;0.022]    0.158
+Married when starting to try to conceive        0.192            [−0.184;0.568]       0.317      0.019      [−0.251;0.288]    0.893      0.382      [−0.090;0.855]    0.113     −0.544   [−0.845;−0.244]   0.203
+Age difference with the mother (ref=’Same age’)
+   Woman is older (1+)                          −0.577           [−1.257;0.103]       0.096      −0.430     [−0.727;−0.133]   0.005      −0.144     [−1.170;0.883]    0.784     −0.255   [−0.648;0.137]    0.203
+   Man is older (1–5 years)                     −0.023           [−0.407;0.361]       0.906      −0.076     [−0.269;0.118]    0.443      −0.365     [−0.861;0.130]    0.148     −0.105   [−0.352;0.142]    0.403
+   Man is way older (6+)                        −0.011           [−0.453;0.431]       0.961      −0.213     [−0.433;0.007]    0.058      −0.737     [−1.352;−0.122]   0.019     −0.169   [−0.478;0.141]    0.285
+Married*Age at trying to conceive
+   < 20                                                                                          −0.218     [−0.921;0.485]    0.543                                             −1.284   [−3.744;1.177]    0.307
+   20–24                                                                                         −0.371     [−0.738;−0.004]   0.048                                             −0.046   [−0.556;0.464]    0.860
+   30–34                                                                                         −0.007     [−0.616;0.601]    0.982                                             0.530    [0.042;1.017]     0.033
+   35–39                                                                                                                                                                        0.928    [−0.054;1.909]    0.064
+   40+                                                                                           −0.731     [−3.042;1.579]    0.535                                             −0.588   [−1.881;0.704]    0.372
+Log Likelihood                                  55.7                                             47.8                                    41.6                                   50.5
+Mean time to birth (years)                      5.15                                             2.94                                    5.03                                   2.88
+N                                               169                                              694                                     126                                    464
+- indicates too few observations for estimation. Numbers in italics refer to covariates that interact with time
+Source: HUNT 2, 3, 4
+Sample: Mothers who have ever experienced infertility issues, fathers who had their first child with a woman who has ever experienced infertility issues
+
+                                                                                                                                                                                                                     Page 7 of 9
+Compans et al. BMC Women's Health             (2025) 25:521                                                                                                                            Page 8 of 9
+
+
+
+
+                                                                             Funding
+not linear, as some life course events may contribute to                     This work was supported by the BIC.Late project, which receives funding from
+pauses in pregnancy attempts [13]. We also use an indi-                      the European Research Council (ERC) under the European Union’s Horizon
+rect measure of age when trying to conceive for men,                         2020 research and innovation programme (grant Agreement No 101001410).
+                                                                             We also acknowledge funding from the Research Council of Norway (Centres
+derived from women’s responses and only when they                            of Excellence-nr 262700) and the ERC Advanced Grant Project – 101142786
+become fathers with a woman of the studied sample.                           – HOMME.
+Hence, our study sample of men may be selected, which
+                                                                             Data availability
+highlights the need for more comprehensive collection of                     The Trøndelag Health Study (HUNT) has invited persons aged 13-100 years to
+data on men’s fertility. Another limitation is that we lack                  four surveys between 1984 and 2019. Comprehensive data from more than
+information on the timing of infertility and treatment                       140,000 persons having participated at least once and biological material
+                                                                             from 78,000 persons are collected. The data are stored in HUNT databank and
+use after trying to conceive for more than a year, and                       biological material in HUNT biobank. HUNT Research Centre has permission
+whether some couples were using ART but had a child                          from the Norwegian Data Inspectorate to store and handle these data. The
+spontaneously. As we only observe successful infertility                     key identification in the database is the personal identification number
+                                                                             given to all Norwegians at birth or immigration, whilst de-identified data are
+treatments, our focus was on the time taken to give birth                    sent to researchers upon approval of a research protocol by the Regional
+among people who had a child, according to the method                        Ethical Committee and HUNT Research Centre. To protect participants’
+of conception. We do not reflect the path to conception.                     privacy, HUNT Research Centre aims to limit storage of data outside HUNT
+                                                                             databank, and cannot deposit data in open repositories. HUNT databank has
+We also did not have access to information on other types                    precise information on all data exported to different projects and are able to
+of infertility treatment, such as ovulation induction or                     reproduce these on request. There are no restrictions regarding data export
+intrauterine insemination. This could refine the analysis                    given approval of applications to HUNT Research Centre. For more information
+                                                                             see: http://​www.ntn​u.edu/h​unt/​data.
+of the contribution of medically assisted reproduction to
+time to birth. Finally, the question of the generalizability
+                                                                             Declarations
+of our findings to other contexts is left open by the lack of
+comparable data with information on age at conception                        Ethics approval and consent to participate
+attempts.                                                                    In accordance with the Declaration of Helsinki, this study has received
+                                                                             approval from the Regional Committee for Medical and Health Research Ethics
+                                                                             to use HUNT data. All respondents in the HUNT study signed an informed
+Conclusion                                                                   consent participation form allowing the use of data for research purposes.
+Although assisted reproductive technologies enable
+                                                                             Consent for publication
+infertile individuals to have a live birth, they take lon-                   Not applicable.
+ger time to succeed. However, since the 2000s, time to
+ART birth has been decreasing, with the shortest span                        Competing interests
+                                                                             The authors declare no competing interests.
+observed among those who initiate conception attempts
+in their late thirties. These trends are embedded in a con-                  Received: 5 March 2025 / Accepted: 1 September 2025
+text where ART use has become more efficient and bet-
+ter accepted, and may reflect shifts in the age profiles of
+patients attending fertility clinics, a faster care-seeking
+process, and improvements in ART efficiency. Despite                         References
+this, the likelihood of achieving a spontaneous or ART                       1. Mills M, Rindfuss RR, McDonald P, te Velde E. Why do people postpone
+                                                                                 parenthood? Reasons and social policy incentives. Hum Reprod Update.
+birth still decreases significantly with age at conception                       2011;17(6):848–86.
+attempt, highlighting persistent biological constraints                      2. OECD, Education at a. Glance 2023: OECD Indicators. Paris: OECD Publishing;
+even in the Norwegian context characterised by advances                          2023. (Education at a Glance). Available from: ​h​t​t​p​​s​:​/​​/​w​w​w​​.​o​​e​c​d​​-​i​l​​i​b​r​a​​r​y​​.​o​r​​g​/​e​​
+                                                                                 d​u​c​a​​t​i​​o​n​/​​e​d​u​​c​a​t​i​​o​n​​-​a​t​​-​a​-​​g​l​a​n​​c​e​​-​2​0​2​3​_​e​1​3​b​e​f​6​3​-​e​n. cited 19 Aug 2024.
+in infertility treatments. Future research should inves-                     3. Statistics Norway. Population Statistics. 2023. Available from: www.ssb.no/
+tigate whether the 2020 policy changes, notably allow-                           befolkning. cited 19 Aug 2024.
+ing egg donation, may have induced further temporal                          4. Nieuwenhuis R, Van Lancker W, Collado D, Cantillon B. Trends in women’s
+                                                                                 employment and poverty rates in OECD countries: a Kitagawa–Blinder–Oax-
+changes in the occurrence and time to ART births.                                aca decomposition. Ital Econ J. 2020;6(1):37–61.
+                                                                             5. Robstad Ø. House prices, credit and the effect of monetary policy in Norway:
+Acknowledgements                                                                 evidence from structural VAR models. Empir Econ. 2018;54(2):461–83.
+The Trøndelag Health Study (HUNT) is a collaboration between the HUNT        6. Skirbekk VF. New Times, Old Beliefs: Religion and Contemporary Fertility. In:
+Research Centre (Faculty of Medicine and Health Sciences, Norwegian              Decline and Prosper! Changing Global Birth Rates and the Advantages of
+University of Science and Technology NTNU), the Trøndelag County Council,        Fewer Children. Springer; 2022. p. 285–300.
+Central Norway Regional Health Authority, and the Norwegian Institute of     7. Leridon H, Slama R. The impact of a decline in fecundity and of pregnancy
+Public Health.                                                                   postponement on final number of children and demand for assisted repro-
+                                                                                 duction technology. Hum Reprod. 2008;23(6):1312–9.
+Authors’ contributions                                                       8. Goisis A, Håberg SE, Hanevik HI, Magnus MC, Kravdal Ø. The demographics
+MCC analyzed and interpreted the data, designed the study, and drafted           of assisted reproductive technology births in a Nordic country. Hum Reprod.
+and revised the paper. EB and VK contributed to the study conception, data       2020;35(6):1441–50.
+interpretation, drafting and revisions of the paper. All authors read and    9. Ben Messaoud K, Bouyer J, de La Rochebrochard E. Infertility treatment in
+approved the final manuscript.                                                   France, 2008–2017: a challenge of growing treatment needs at older ages.
+                                                                                 Am J Public Health. 2020;110(9):1418–20.
+Compans et al. BMC Women's Health                                                          (2025) 25:521                                                                                                                       Page 9 of 9
+
+
+
+
+10. Präg P, Mills MC. Cultural determinants influence assisted reproduction usage                                                                        16. Thoma ME, McLain AC, Louis JF, King RB, Trumble AC, Sundaram R, et al.
+    in Europe more than economic and demographic factors. Hum Reprod.                                                                                        Prevalence of infertility in the united States as estimated by the current
+    2017;32(11):2305–14.                                                                                                                                     duration approach and a traditional constructed approach. Fertil Steril.
+11. Bjerke P. Amendments to the Norwegian Biotechnology Act and Related                                                                                      2013;99(5):1324–e13311.
+    Guidelines. 2020. Available from: ​h​t​t​p​s​:​​​/​​/​n​o​r​w​a​​​y​.​​d​l​a​p​​i​p​e​​​r​.​​c​​o​​m​/​​e​​n​/​n​​​e​w​​s​/​a​​m​e​                  17. Brumpton BM, Graham S, Surakka I, Skogholt AH, Løset M, Fritsche LG, et
+    n​d​​m​e​​n​​t​s​​-​n​o​​r​w​e​​​g​i​a​​n​-​​b​i​o​​t​e​c​h​​n​o​​l​​o​g​​​y​-​a​c​​t​-​a​n​d​-​r​​e​l​a​t​e​d​-​g​u​i​d​e​l​i​n​e​s. cited 26 Jan       al. The HUNT study: a population-based cohort for genetic research. Cell
+    2023.                                                                                                                                                    Genom. 2022;2(10):100193.
+12. Leridon H. Can assisted reproduction technology compensate for the                                                                                   18. Åsvold BO et al. Cohort Profile Update: The HUNT Study, Norway. Int J Epide-
+    natural decline in fertility with age? A model assessment. Hum Reprod.                                                                                   miol. 2023;52(1):e80–e91.
+    2004;19(7):1548–53.                                                                                                                                  19. Joffe M, Key J, Best N, Keiding N, Scheike T, Jensen TK. Studying time to preg-
+13. Basso O, Juul S, Olsen J. Time to pregnancy as a correlate of fecundity: dif-                                                                            nancy by use of a retrospective design. Am J Epidemiol. 2005;162(2):115–24.
+    ferential persistence in trying to become pregnant as a source of bias. Int J                                                                        20. Blum M, Krauss KP. Age heaping and numeracy: looking behind the curtain.
+    Epidemiol. 2000;29(5):856–61.                                                                                                                            Econ Hist Rev. 2018;71(2):464–79.
+14. Ferrick L, Lee YSL, Gardner DK. Reducing time to pregnancy and facilitating
+    the birth of healthy children through functional analysis of embryo physiol-
+    ogy. Biol Reprod. 2019;101(6):1124–39.                                                                                                               Publisher’s Note
+15. Slama R, Hansen OKH, Ducot B, Bohet A, Sorensen D, Giorgis Allemand L,                                                                               Springer Nature remains neutral with regard to jurisdictional claims in
+    et al. Estimation of the frequency of involuntary infertility on a nation-wide                                                                       published maps and institutional affiliations.
+    basis. Hum Reprod. 2012;27(5):1489–98.
+

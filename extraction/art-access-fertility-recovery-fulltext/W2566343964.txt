@@ -1,0 +1,1580 @@
+UvA-DARE (Digital Academic Repository)
+
+
+
+
+Can women have children and a career? IV evidence from IVF treatments
+
+Lundborg, P.; Plug, E.; Rasmussen, A.W.
+DOI
+10.1257/aer.20141467
+Publication date
+2017
+Document Version
+Final published version
+Published in
+American Economic Review
+License
+Other
+Link to publication
+
+
+Citation for published version (APA):
+Lundborg, P., Plug, E., & Rasmussen, A. W. (2017). Can women have children and a career?
+IV evidence from IVF treatments. American Economic Review, 107(6), 1611-1637.
+https://doi.org/10.1257/aer.20141467
+
+
+
+
+General rights
+It is not permitted to download or to forward/distribute the text or part of it without the consent of the author(s)
+and/or copyright holder(s), other than for strictly personal, individual use, unless the work is under an open
+content license (like Creative Commons).
+
+
+Disclaimer/Complaints regulations
+If you believe that digital publication of certain material infringes any of your rights or (privacy) interests, please
+let the Library know, stating your reasons. In case of a legitimate complaint, the Library will make the material
+inaccessible and/or remove it from the website. Please Ask the Library: https://uba.uva.nl/en/contact, or a letter
+to: Library of the University of Amsterdam, Secretariat, P.O. Box 19185, 1000 GD Amsterdam, The Netherlands.
+You will be contacted as soon as possible.
+
+UvA-DARE is a service provided by the library of the University of Amsterdam (https://dare.uva.nl)
+Download date:25 Aug 2026
+American Economic Review 2017, 107(6): 1611–1637
+https://doi.org/10.1257/aer.20141467
+
+
+
+
+                      Can Women Have Children and a Career?
+                         IV Evidence from IVF Treatments†
+              By Petter Lundborg, Erik Plug, and Astrid Würtz Rasmussen*
+
+                This paper introduces a new IV strategy based on IVF (in vitro
+                fertilization) induced fertility variation among childless women to
+                estimate the causal effect of having children on their career. For
+                this purpose, we use administrative data on IVF treated women in
+                Denmark. Because observed chances of IVF success do not depend
+                on labor market histories, IVF treatment success provides a plausi-
+                ble instrument for childbearing. Our IV estimates indicate that fer-
+                tility effects on earnings are: (i) negative, large, and long-lasting;
+                (ii) driven by fertility effects on hourly earnings and not so much on
+                labor supply; and (iii) much stronger at the extensive margin than at
+                the intensive margin. (JEL D82, J13, J16, J22, J31, J32)
+
+
+          In almost all labor markets, women with children work and earn less than women
+      without children (Browning 1992; Goldin 1992; Waldfogel 1998; Feyrer, Sacerdote,
+      and Stern 2008; Bertrand 2011). There are two leading explanations for these labor
+      market differences. The first one is based on causation; that is, having children has
+      adverse labor market consequences for women. The second one is based on adverse
+      selection; that is, women with children work and earn less, regardless of having
+      children.
+          Separating causation from adverse selection is of interest to researchers, poli-
+      cymakers, and parents. Researchers know little, if anything, about the causal labor
+      market consequences of having children. Identifying the labor market effects of
+      having children (the extensive fertility margin), as opposed to the labor market
+      effects of having additional children among women who already have children (the
+      intensive fertility margin), has proved very difficult. Policymakers often base their
+      ­family-friendly policies (intended to support the labor supply of women with chil-
+       dren) on beliefs that children seriously hinder the labor market career of women.
+
+          * Lundborg: Department of Economics, Lund University, Tycho Brahes Väg 1, 223 63 Lund, Sweden (e-mail:
+      petter.lundborg@nek.lu.se); Plug: Amsterdam School of Economics, University of Amsterdam, Roetersstraat 11,
+      1018 WB Amsterdam, The Netherlands (e-mail: e.j.s.plug@uva.nl); Rasmussen: Department of Economics and
+      Business Economics, Aarhus University, Fuglesangs Allé 4, 8210 Aarhus, Denmark (e-mail: awr@econ.au.dk).
+      We thank three referees, and seminar and conference participants for their comments and suggestions. Data in
+      this article are, in part, taken from IVF registers, held by the Danish National Board of Health (DNBH). DNBH
+      is not responsible for the analysis or interpretation of the data presented. Financial support from the Institute for
+      Evaluation of Labour Market and Education Policy (IFAU) and Swedish Research Council for Health, Working
+      Life, and Welfare (FORTE) is gratefully acknowledged. The authors declare that they have no relevant or material
+      financial interest that relates to the research described in this paper.
+          †
+            Go to https://doi.org/10.1257/aer.20141467 to visit the article page for additional materials and author
+      disclosure statement(s).
+
+                                                              1611
+1612                        THE AMERICAN ECONOMIC REVIEW                       June 2017
+
+
+
+These policies may be less efficient if women with children are also women with
+weaker labor market potential. Similarly, parents may want to know when they
+decide to have children. After all, the labor market response to having children cap-
+tures a response to which all parents are (or have ever been) exposed.
+    In this paper we examine the labor market response to having children among
+women who have no children (yet). To identify fertility effects measured at the
+extensive margin, we propose a novel instrumental variable (IV) strategy based
+on in vitro fertilization (IVF). In particular, we sample childless women who go
+through IVF, treat IVF treatment success at the first IVF treatment as a natural
+experiment, and subsequently compare the working careers of women after a suc-
+cessful first treatment (treatment group) to those of women after a failed first treat-
+ment (comparison group). Since observed working histories of successfully and
+unsuccessfully treated women are virtually identical before they seek IVF treat-
+ment, we believe that IVF treatment success creates exogenous variation in the like-
+lihood of having children and can be used as an instrumental variable to estimate
+the causal effect of having any children on a wide range of female labor market
+outcomes.
+    The data we use are drawn from multiple administrative registers in Denmark.
+IVF information comes from the IVF registers which cover information on all fer-
+tility treatments (with fertility outcomes) taking place in public and private fertility
+clinics in Denmark between the years 1994 and 2005. Labor market information
+comes from tax and ­employer-employee registers which hold records on annual
+earnings (including parental leave and sickness benefits), annual labor supply, time
+out of work, hourly earnings as well as job holdings for a 19-year period running
+from 1991 to 2009. At Statistics Denmark, these registers are further matched and
+complemented with standard demographic variables such as education, age, gender,
+marital status, and total number of children.
+    Our main finding is that women who are successfully treated by IVF earn per-
+sistently less because of having children. We explain the decline in annual earnings
+by women working less when children are young and getting paid less when chil-
+dren are older. We explain the decline in hourly earnings, which is often referred to
+as the motherhood penalty, by women moving to l­ower-paid jobs that are closer to
+home. Equally interesting is our finding that the decline in annual earnings we esti-
+mate for having children is far greater than the decline in earnings we get when we
+estimate the effect of having additional children among women who already have
+children. To put our findings into context, we also estimate the effect of having more
+children on earnings using the more commonly used instrumental variable strategy
+based on twin births. We find estimates that are generally smaller than those from
+the United States, which has, by Danish standards, meager maternity leave and child
+care benefits.
+    The remainder of the paper proceeds as follows. Section I provides the liter-
+ature background and motivation behind this study. Section II discusses context
+and data. Section III introduces our empirical strategy. Section IV reports on the
+labor market consequences of IVF treatments (in terms of ­reduced-form results and
+instrument validity tests). Section V presents our main set of results. Section VI com-
+pares ­fertility effects measured at the extensive and intensive margins. Section VII
+concludes.
+VOL. 107 NO. 6              Lundborg et al.: Can Women Have Children and a Career?                             1613
+
+
+
+                                                 I. Literature
+
+    To estimate the labor market consequences of childbearing, empirical economists
+have turned to natural experiments and looked for variables that induce variation in
+the number of children for reasons unrelated to labor market outcomes. Two such
+variables, which are arguably unrelated to the preferences and abilities of parents,
+are often used to estimate the effect of children on various labor supply choices
+(including participation, hours worked, and annual labor earnings): twins at first
+birth and the sex composition of the first two children (in combination with paren-
+tal preferences for mixed sex siblings). Those empirical studies that rely on the
+twin experiment typically find that mothers with twins work less than mothers with
+singletons when twins are young, but the same mothers work as much, if not some-
+what more, when their twins get older (Rosenzweig and Wolpin 1980; Bronars and
+Grogger 1994; Jacobsen, Pearce, and Rosenbloom 1999; and Vere 2011). Those
+empirical studies that rely on the same sex siblings experiment find that mothers of
+same sex children work less than mothers of mixed sex children because they are
+more likely to have a third child. The same mothers, however, seem to catch up in
+the longer run (Angrist and Evans 1998; Iacovou 2001; Cruces and Galiani 2007;
+Maurin and Moschion 2009; Hirvonen 2009; Angelov and Karimi 2012). On the
+whole, these studies suggest that mothers work less because of childbearing, but that
+the observed fertility effects are relatively small and mostly ­short lived.
+    Although the twin and same sex experiments provide valuable and credible effect
+estimates, their informational value is limited to fertility effects at the intensive mar-
+gin. These experiments create exogenous variation in the number of children, but
+only among women who already have children; that is, twins at first birth raise the
+likelihood of going from one to two or more children, whereas same sex children
+raise the likelihood of going from two to three or more children. The question we
+ask here is how fertility affects the labor market career at the extensive margin,
+where childless women become mothers or not. While standard theories of house-
+hold production, child quality, and economies of scale predict that labor market con-
+sequences are stronger at the extensive fertility margin, empirical evidence is rare.
+    There have been a few attempts to analyze the causal relationship between fer-
+tility at the extensive margin and female labor supply. The recent studies on this
+question, that exploit natural experiments, have been limited in their causal research
+design or data availability (Agüero and Marks 2011; Cristia 2008).1,2
+
+    1
+      Agüero and Marks (2011) treat ­self-assessed infertility as a natural experiment and compare fertility rates
+and labor supply responses between infertile and fertile women aged 20 to 44 in 26 developing countries. While
+the authors find that fertile women work as much as infertile women, regardless of the fertility margin, they also
+find that infertility is more common among better educated women who live in cities. If infertility in women is not
+randomly assigned, it is not clear whether ­self-assessed infertility is the most appropriate instrument to use in an
+instrumental variable strategy. Cristia (2008) focuses on childless women seeking help to achieve pregnancy in the
+United States. In his context, fertility treatments include simple and inexpensive procedures such as medical advice
+and fertility tests, but exclude IVF treatments, which play a key role in our study. With treatment success taken as
+a natural experiment, he finds that women with infants work significantly less than those without. Because of data
+limitations, however, Cristia can only consider labor supply responses of mothers with children younger than one
+year.
+    2
+      Parallel to the few studies based on natural experiments, two recent studies take a structural or event study
+approach to estimate the labor market consequences of parenthood. Adda, Dustmann, and Stevens (2017) use a
+dynamic l­ife-cycle career model allowing for endogenous fertility. Kleven, Landais, and Søgaard (2017) use an
+event study model around the birth of the first child assuming exogenous timing of childbearing.
+1614                        THE AMERICAN ECONOMIC REVIEW                        June 2017
+
+
+
+   The current literature on the extensive fertility margin is in its infancy with many
+unresolved issues. In this paper, it is our goal to explore some of these unresolved
+but promising issues; that is, we apply a novel IV strategy using a very large sample
+of IVF treated families to measure the short-, medium-, and long-run consequences
+of childbearing at both extensive and intensive margins.
+
+                               II. Institutions and Data
+
+    In this section we first describe Danish ­family-friendly policies (partly intended
+to support female labor supply) to provide the institutional context in which we
+estimate the causal effect of having children on female labor supply and earnings.
+We then show how IVF data can help us to estimate these fertility effects by pre-
+senting more details on the IVF register, IVF treatments, the IVF instrument, and the
+­primary IVF sample we use in our analysis.
+
+                             A. ­Family-Friendly Policies
+
+    Denmark is known for its ­family-friendly policies (including paid maternity and
+parental leave, j­ob-protection, and subsidized child care arrangements). Over the
+period we consider, parents are covered first by paid and j­ob-protected leave and
+then by public child care. With regard to paid and ­job-protected leave policies, par-
+ents are entitled to 22 weeks of maternity leave (including 4 weeks of pregnancy
+leave), 2 weeks of paternity leave, and 32 weeks of shared parental leave. Before
+2002, these paid leave arrangements were less generous and restricted to 18 weeks
+of maternity leave (including 4 weeks of pregnancy leave), 2 weeks of paternity
+leave, and 10 weeks of shared parental leave (Nielsen, Simonsen, and Verner
+2004). Parental leave payments depend on previous earnings and differ by sector
+of employment. In the public sector, the compensation rate is a 100 percent (for the
+first 24 weeks). In the private sector, the compensation rate can vary by workplace
+and averages out at 60 to 70 percent (Pylkkänen and Smith 2004). With regard to
+child care policies, parents are entitled to subsidized public child care when children
+are somewhere between 6 and 12 months old (Simonsen 2010).
+
+                                    B. IVF Register
+
+   The IVF register, held by the Danish National Board of Health, collects infor-
+mation on all IVF treatments taking place in public and private fertility clinics and
+hospitals. Between the years 1994 and 2005, reporting to the IVF register was man-
+datory. Thus, this register captures close to 100 percent of IVF treatments. The IVF
+register includes information on the reason for infertility, the mode of treatment, the
+number of eggs retrieved from the womb, the number of fertilized eggs transferred
+back, treatment outcome (birth, abortion, stillbirth, or failure), the date of treatment,
+and where applicable the date of birth. The IVF register has been merged to other
+administrative registers to get longitudinal information running from 1991 to 2009
+on standard demographic variables, including education, age, gender, marital status,
+number of children, and labor market variables including labor force status, the
+number of hours worked, hourly wages, annual earnings, occupation, sector, and
+VOL. 107 NO. 6              Lundborg et al.: Can Women Have Children and a Career?                             1615
+
+
+
+firm. The IVF register contains information on 31,666 women receiving altogether
+96,807 IVF treatments.
+
+                                              C. IVF Treatment
+
+   While IVF treatment is the leading medical intervention to help infertile women
+become pregnant and conceive children, it is often the last in a line of fertility inter-
+ventions. Women with fertility problems typically visit their general practitioner for
+medical advice and fertility testing. After a year of having frequent and unprotected
+sex without getting pregnant, these women are medically diagnosed as infertile and
+can then be referred to a fertility clinic or hospital if they are below age 40. General
+practitioners are responsible for referrals. The Danish National Health Care System
+entitles women with a referral to have three IVF treatments at no cost. Without a
+referral, women have to pay.3
+   Once referred to a fertility clinic or hospital, women undergo IVF treatment in
+four consecutive stages. The first stage involves the intake of fertility medication to
+stimulate ovaries in the development of eggs. In a normal menstrual cycle, ovaries
+typically make and release one egg. In a menstrual cycle under medicated stimula-
+tion, ovaries make and release several eggs. The second stage involves the collec-
+tion of these eggs. The third stage involves the actual in vitro fertilization, where
+eggs and sperm meet under laboratory conditions appropriate for fertilization and
+early embryo growth. The fourth and final stage involves the implantation of the
+most promising embryos. IVF treatment can and does often fail at each stage of the
+treatment: fertility medication may not work, there may be no eggs to retrieve, there
+may be no suitable embryos to transfer, or the transferred embryos may simply stop
+growing.
+   Figure 1 shows how the number of IVF treatments, the IVF success rate, the num-
+ber of eggs retrieved (second stage), and the number of fertilized eggs transferred
+back into the womb (fourth stage) evolved in Denmark between the years 1995 and
+2005. It illustrates three general findings. First, IVF usage increased until the year
+2000, after which usage more or less stabilized. Second, the IVF success rate per
+treatment increased substantially; in this time period, the IVF success rate nearly
+doubled. Third, the number of eggs retrieved and the number of embryos implanted
+gradually fell in the period ­1995–2005. The trending up of success rates and trend-
+ing down of retrieved eggs and transferred embryos we attribute to improvements
+in IVF technology.
+   Because the success rate per treatment is still relatively low, most women undergo
+multiple treatments to achieve success. But not all. After each unsuccessful treat-
+ment, there are women who decide to forgo further treatment. The share of women
+who decide to forgo further treatment is rising with the number of treatments.4 With
+IVF treatments being costly in social, psychological as well as financial terms, these
+
+   3
+       Women are also allowed to approach a private clinic instead of waiting for a referral from their general prac-
+titioner. This option requires full payment but offers flexibility in terms of the timing of treatment, the number of
+treatments, and treatments with weaker, if any, age restrictions.
+     4
+       According to the IVF register, about 6 percent of all women stop treatment after a failed first IVF treatment;
+about 12 percent stop after a failed second IVF treatment; about 24 percent stop after a failed third IVF treatment;
+and about 30 percent stop after a failed fourth IVF treatment.
+1616                                                         THE AMERICAN ECONOMIC REVIEW                                                        June 2017
+
+
+
+             Panel A. Number of IVF treatments                                      Panel B. IVF success rate
+
+
+
+
+       Number of IVF treatments
+                                                                                                        0.4
+                                  1,900                                                                0.35
+
+
+
+                                                                                  Success rate
+                                                                                                        0.3
+                                  1,700
+                                                                                                       0.25
+                                                                                                        0.2
+                                  1,500
+                                                                                                       0.15
+                                  1,300                                                                 0.1
+                                       1995   1997    1999   2001   2003   2005                               1995   1997   1999   2001   2003   2005
+
+
+
+             Panel C. Number of eggs collected                                     Panel D. Number of embryos transferred
+                                    10                                                                    2
+
+
+
+
+                                                                                   Number of embryos
+       Number of eggs
+                                    9.5                                                                 1.8
+                                      9
+                                                                                                        1.6
+                                    8.5
+                                                                                                        1.4
+                                      8
+                                    7.5                                                                 1.2
+                                      7                                                                   1
+                                       1995   1997   1999    2001   2003   2005                            1995      1997   1999   2001   2003   2005
+
+
+                                                     Figure 1. IVF Treatments and Technology, ­1995–2005
+
+Notes: The figure plots mean values for the period ­1995–2005. The means are calculated for the sample of IVF
+women who entered their first treatment during ­1995–2005 with no children.
+
+
+
+rising shares suggest that the process of IVF treatments is selective and that women
+who decide to continue treatment are probably women with more resources or a
+stronger demand for children.
+
+                                                                    D. IVF Instrument
+
+    In order to exploit the IVF process to arrive at the causal link running from fertil-
+ity to earnings, we need an instrument that somehow captures an exogenous shock
+in ­IVF-driven fertility. In constructing the IVF instrument, we let the following con-
+siderations guide us. First, we know that most women undergo multiple IVF treat-
+ments to achieve success. With the number of treatments being endogenous, it does
+not make much sense to treat the success rate in a sequence of IVF treatments as
+exogenous. So we focus on first IVF treatments. Second, we are interested in how
+women respond to exogenous variation in fertility measured at the extensive margin.
+So we consider childless women entering their first IVF treatment. Finally, we want
+these women to be as similar as can be. So we concentrate on childless women who
+have successfully reached the fourth stage and had embryos implanted. Within this
+sample, we choose success at their first IVF treatment as our instrument. For some
+women, the embryos develop and IVF treatment leads to pregnancy and children;
+for other women, the embryos stop growing and IVF treatment fails. If the devel-
+opment of implanted embryos in the womb is to a large extent exogenously deter-
+mined, exogenous treatment success guarantees that after the first full IVF treatment
+all women are still very similar, except that for some women the IVF treatment has
+led to children. In our empirical setup, we will check this claim and test whether the
+VOL. 107 NO. 6       Lundborg et al.: Can Women Have Children and a Career?         1617
+
+
+
+chance of success is somehow related to the ­pretreatment labor market characteris-
+tics we observe in our data.
+
+                                    E. IVF Sample
+
+   From the IVF register, we draw our primary sample: childless women in their first
+IVF treatment with embryo implants. To do so, we construct three variables for sam-
+ple selection: treatment order, which is derived from the date of treatment; childless-
+ness, which is derived from the number of children observed the year before the first
+IVF treatment; and positive embryo implants, which is taken from the number of
+fertilized eggs transferred back into the womb.
+   At the outset, we were concerned about measurement error in treatment order.
+Measurement error may arise because the IVF register does not contain information
+on IVF treatments prior to 1994, which is the year the IVF register started. If some
+women underwent IVF treatment in both 1993 and 1994, for example, we would
+wrongfully classify the IVF treatment in 1994 as the first one. Measurement error
+may further complicate estimation because women treated multiple times are pos-
+sibly different from women treated only once in ways related to preference for chil-
+dren or financial resources. Since few women skip a full year between treatments,
+we restrict our sample to women who began their first treatment in 1995 or later.
+This should eliminate, or at least reduce, any measurement error and the bias it may
+entail.
+   Of the original 31,666 women who were treated at least once sometime between
+1994 and 2005, we remove 2,908 women who were treated in 1994, 5,674 women
+who enter the first IVF treatment with children, 4,286 women who had no eggs
+inserted, either because of failed egg production or failed fertilization of eggs, and
+260 women who could not be matched to the other registers. This leaves us with an
+IVF sample of 18,538 treated women.
+   Table 1 provides sample means and standard deviations for some of the ­pretreatment
+characteristics and the ­posttreatment outcomes. In constructing ­pretreatment char-
+acteristics, we focus on labor market characteristics observed in the year before
+treatment. In constructing ­posttreatment outcomes, we focus on labor market out-
+comes observed the year of (potential) childbirth and later. We do this because we
+are interested in changes in fertility. We calculate the year of potential childbirth by
+adding nine months to the day embryos are transfered assuming that women with a
+failed treatment would have given birth nine months after the first treatment had the
+treatment been successful. In our IVF sample, the median duration of gestation is
+nine months for first successful treatments. We present ­posttreatment labor market
+averages taken four years after (potential) childbirth to allow for possible ­longer-run
+effects of having children. In our analysis below, we follow women up to ten years
+after (potential) childbirth. All earnings and wage variables are measured in 2008
+Danish Kroner (DKK 100 corresponds to US$20 in August 2008). Table 1 also pro-
+vides sample means and standard deviations for a 30 percent representative sample
+of women born around the same time as IVF treated women. The sample consists
+of 103,826 women who had their first child somewhere between 1995 and 2005,
+and thus share their demand for children with the women in our IVF sample. For
+comparison purposes, the same table further provides ­differences in sample means
+1618                                THE AMERICAN ECONOMIC REVIEW                                      June 2017
+
+
+
+                          Table 1—Descriptive Statistics of Selected Variables
+
+                                     IVF             IVF          Representative
+                                    failure        success           sample
+                                      (1)             (2)              (3)               (2)–(1)        (2)–(3)
+Pretreatment outcomes
+Age at first treatment               32.490        31.415              28.274            −1.075           3.141
+                                     (4.445)       (3.886)             (4.297)            (0.069)        (0.060)
+Year at first treatment           2,000.149     2,000.295           2,001.446              0.146        −1.151
+                                     (3.121)       (3.069)             (4.069)            (0.050)        (0.056)
+Annual earnings (1,000s DKK)        245.360       243.912             201.717            −1.448         42.195
+                                   (143.366)     (131.741)           (136.384)            (2.268)        (1.906)
+Schooling                            12.820        12.843              12.548              0.023          0.295
+                                     (2.359)       (2.294)             (2.325)            (0.038)        (0.033)
+Partner earnings (1,000s DKK)       327.006       322.318             287.883            −4.688         34.436
+                                   (209.665)     (191.939)           (185.995)            (3.464)        (2.722)
+Partner schooling                    12.678        12.673              12.547            −0.005           0.125
+                                     (2.389)       (2.323)             (2.316)            (0.040)        (0.034)
+Sickness benefits                     0.170         0.169               0.143            −0.001           0.026
+                                     (0.376)       (0.375)             (0.350)            (0.006)        (0.005)
+Married                               0.521         0.523               0.306              0.002          0.217
+                                     (0.500)       (0.500)             (0.461)            (0.008)        (0.006)
+Positive earnings                     0.910         0.922               0.900              0.013          0.022
+                                     (0.288)       (0.268)             (0.300)            (0.005)        (0.004)
+Full-time employmenta                 0.934         0.934               0.780              0.000          0.154
+                                     (0.248)       (0.249)             (0.414)            (0.004)        (0.006)
+log (hourly wages (DKK))a             5.202         5.194               5.118              0.008          0.076
+                                     (0.340)       (0.319)             (0.430)            (0.006)        (0.006)
+Weekly hours workeda                 28.620        28.670              26.626              0.049          2.044
+                                     (7.734)       (7.729)             (9.083)            (0.137)        (0.134)
+                                      0.588         0.582               0.444            −0.006           0.137
+Public sectorb                       (0.492)       (0.493)             (0.497)            (0.008)        (0.007)
+
+Posttreatment outcomes
+Annual earnings (1,000s DKK)       241.815        211.525             178.907          −30.290          32.618
+                                  (144.983)      (128.649)           (127.712)           (2.274)        (1.788)
+Positive earnings                    0.888          0.864               0.852           −0.024           0.011
+                                    (0.267)        (0.282)             (0.349)           (0.004)        (0.005)
+Log (hourly wages (DKK))a            5.314          5.294               5.255           −0.020           0.038
+                                    (0.317)        (0.316)             (0.323)           (0.006)        (0.005)
+Hours workeda                       30.034         27.216              25.390           −2.818           1.826
+                                   (26.823)       (21.634)             (7.655)           (0.483)        (0.151)
+
+Observations                        13,168          5,370            103,826
+
+Notes: The table shows descriptive statistics for three samples: (i) women having an unsuccessful first IVF treat-
+ment; (ii) women having a successful first IVF treatment; (iii) and a representative sample of Danish women who
+had their first child born during the study period. Columns 1 to 3 show means with standard deviations in paren-
+theses. Column 4 shows the difference in means between columns 2 and 1 and column 5 shows the corresponding
+difference between columns 2 and 3. Annual earnings are reported in 2008 Danish Kroner (DKK 100 corresponds
+to US$20 as of August 2008).
+    a
+      Means conditional on having positive earnings.
+    b
+      Means conditional on observing sector of work.
+
+
+between successfully and unsuccessfully treated women, and between first time suc-
+cessfully treated IVF mothers and representative mothers.
+   We can make two informative comparisons. First, we compare successfully
+treated women to other women with children. We find that the women in our IVF
+sample are older, better educated, and more highly paid than the women in the
+VOL. 107 NO. 6              Lundborg et al.: Can Women Have Children and a Career?                               1619
+
+
+
+­representative sample. These differences, which are all statistically significant, sug-
+ gest that IVF treated women are on average women with a stronger earnings poten-
+ tial than other women with children. Bitler and Schmidt (2012) find comparable
+ differences in the United States; that is, older and better educated women are more
+ likely to undergo IVF treatment. Second, we compare women who experience a
+ successful first treatment to women who experience a failed first treatment, before
+ and after the first IVF treatment. Although the successfully treated women in the
+ IVF sample are almost a year younger than the unsuccessfully treated women, they
+ are remarkably similar on almost all ­pretreatment labor market characteristics.5
+They attain the same level of education and have exactly the same annual earnings
+before they seek IVF treatment. They also have partners with similar levels of edu-
+cation and annual earnings. We find that participation rates, as measured by positive
+annual labor earnings, are statistically higher for successfully treated women than
+for unsuccessfully treated women, but not in any meaningful way.6 After the first
+treatment, however, successfully and unsuccessfully treated women turn out to be
+systematically different; that is, successfully treated women work fewer hours, earn
+lower salaries, and are less likely to work for pay. While these fertility and labor
+patterns hint at a causal relationship between childbearing, labor supply, and earn-
+ings, we need a more sophisticated analysis to appropriately identify the impact of
+fertility on labor market outcomes.
+
+                             III. IV Methodology Using IVF Treatments
+
+    To identify fertility effects at the extensive margin, we make use of a standard
+ IV setup in which success at the first IVF treatment among childless women with
+ embryo implants serves as our instrumental variable; that is, we use a t­wo-stage
+ least squares model to estimate a linear relationship between the annual labor earn-
+ ings and fertility of woman i​​who was first treated t​​years earlier. The first and
+­second-stage regressions are of the following form:
+
+    F​ it​​  = ​α​t​​  ​X  ​ i​​  + ​β​t​​ ​Z  ​ i​​  + ​u​ it​​  ,​
+(1)	​
+
+    Yi​  t​​  = ​γ​t​​  ​X  i​  ​​  + ​δ​t​​ ​Fi​  t​​  + ​υ​it​​  .​
+(2)	​
+
+In these two regressions, ​Y​is a measure of female labor earnings;7 ​X​is a set of exog-
+enous control variables including women’s age at first treatment, year of treatment,
+years of education, and ­pretreatment labor earnings; ​F​is the endogenous fertility
+
+    5
+      The observed difference in age at first treatment is not unexpected and accounts for the widely held medical
+notion that age itself is considered the single most important factor in assisted reproduction (Rosenwaks, Davis, and
+Damario 1995; Templeton, Morris, and Parslow 1996; van Loendersloot et al. 2014). In our regression analyses, we
+will estimate fertility effects that take age at first treatment effects into account.
+    6
+      Online Appendix Table 1 reports estimates from regressions linking treatment success (at the first IVF
+treatment with embryo implant) to ­pretreatment labor market outcomes, controlling for ­year-of-treatment and
+­age-at-first-treatment fixed effects. The estimates attached to the ­pretreatment labor market characteristics are all
+ small and, apart from participation, far from statistically significant. Together, these labor market characteristics
+ do not predict treatment success.
+    7
+      In our analysis, we carry out the same fertility regressions for other female labor market outcomes, including
+whether women work for pay, their hours worked, hourly earnings, and what jobs they hold. We also consider their
+partner’s earnings.
+1620                         THE AMERICAN ECONOMIC REVIEW                       June 2017
+
+
+
+indicator, which equals 1 if a woman has children and 0 otherwise; ​Z​is the instru-
+mental variable, which equals 1 if the first IVF treatment with embryo implants (in a
+sequence of IVF treatments) has led to a childbirth and 0 otherwise; and ​u​and ​υ​ are
+the econometric errors, which contain unobservable factors that can either be related
+to fertility, earnings, or both.
+   The parameter of interest is the ­second-stage parameter ​​δt​ ​​ ,  which captures the
+causal effect of fertility (measured at the extensive margin) on labor earnings ​t​ years
+after these women entered their first IVF treatment. This parameter is identified if
+the IVF instrument satisfies the following three conditions: (i) treatment success is
+correlated with fertility (relevance); (ii) treatment success is more or less randomly
+assigned (independence); and (iii) treatment success exclusively affects labor earn-
+ings through its ­first-stage impact on fertility (exclusion). While the fertility effect
+(second-stage) is the target of estimation, we first examine the effect of IVF treat-
+ment success on fertility (first-stage) as well as other outcomes (reduced-form). We
+do this for two reasons. First, the ­first-stage and r­educed-form estimates provide
+insights into the validity of the IVF instrument. Second, the ­reduced-form estimates
+are, as unscaled versions of the ­second-stage estimates, informative about the causal
+consequences of having children. If we find no ­reduced-form effect, we know that
+there is no causal relationship between having children and labor earnings either.
+
+                  IV. ­Reduced-Form Results: IVF Treatment Effects
+
+   In this section we estimate how IVF treatment success (at the first IVF treatment
+with embryo implants) affects several outcomes, including childbearing (first-stage)
+and annual earnings, labor supply, and wages (reduced-form). We present the IVF
+treatment effect estimates in event study graphs and tables. The graphs visualize the
+relationship between IVF treatment success, childbearing, and labor market out-
+comes after taking out years of education, year of treatment, and age at first treat-
+ment effects for six years preceding the year of (potential) childbirth, the year these
+women have their (potential) first child (which we refer to as year zero), and for the
+ten years following (potential) childbirth. The treatment effect estimates in the event
+studies are normalized to 0 in period −1. The tables report the corresponding IVF
+treatment effect estimates for short-, medium-, and l­ong-run outcomes, which we
+construct as outcome averages over the years 0 to 1, 2 to 5, and 6 to 10. We also pro-
+vide treatment effect estimates for the ­pretreatment baseline mean, which we con-
+struct as the outcome average taken over a four-year period prior to treatment entry.
+If IVF treatment success is independent of ­pretreatment outcomes, these estimates
+should be zero. To gain further precision, we control for years of education, year
+of treatment, age at first treatment, and the ­pretreatment baseline outcome mean
+(in case of ­posttreatment outcome regressions). ­Pretreatment baseline means and
+sample sizes are also shown.
+
+                                    A. Childbearing
+
+   Does IVF treatment success at first IVF treatment with embryo implants predict
+fertility, measured at the extensive margin? Given that IVF treatment is the leading
+medical intervention to help infertile women get pregnant and conceive children,
+VOL. 107 NO. 6        Lundborg et al.: Can Women Have Children and a Career?           1621
+
+
+
+the answer is likely affirmative. Panel A of Figure 2 provides graphical evidence
+demonstrating that success is indeed strongly correlated with fertility. We see that
+treatment success has a strong and immediate impact on the likelihood of having
+children. In year zero we do not see an impact of one because most women after
+a first failed treatment continue treatment the same year. Some of these later treat-
+ments are successful. In subsequent years, we see that the impact of the treatment is
+falling, but always remains positive, suggesting that our IVF instrument has predic-
+tive power; that is, childless women whose first IVF treatment with embryo implants
+did not lead to pregnancy and childbirth are also more likely to remain childless in
+the medium and longer run. The ­first-stage estimates, which we report in column
+1 of Table 2, confirm that success at first IVF treatment predicts a l­ong-lasting dif-
+ference in the chance of having children. All the treatment effects we estimate are
+positive and statistically significant (with corresponding F statistics far beyond the
+typical rules of thumb values for instrument relevance).
+
+                              B. Labor Market Outcomes
+
+   Does IVF treatment success affect the labor market career of women? Panel B of
+Figure 2 shows the relationship between treatment success and female annual labor
+earnings, which is our main labor market outcome. We see that the impact of a suc-
+cessful IVF treatment is virtually zero before (potential) childbirth, suggesting that
+treatment success does not depend on the earnings women receive before they start
+their IVF treatment. We also see that a successful IVF treatment has a large negative
+impact on female annual earnings at the time of (potential) childbirth. The negative
+impact is the largest during the first two years, starts to decline thereafter but is still
+there when ­first-born children are about ten years old. The corresponding estimates
+in column 2 of Table 2 are all negative and statistically significant in the short,
+medium, and long run. The estimated effect on ­pretreatment annual earnings as out-
+come is practically zero and statistically insignificant, suggesting that treatment suc-
+cess at first IVF treatment with embryo implants is as good as random (conditional
+upon education, IVF treatment year, age of the mother at the first treatment fixed
+effects). Our estimates thus imply that these women earn persistently less because
+of childbearing and not because of something else.
+   Female annual labor earnings depend on the number of hours women work in a
+year as well as the hourly wage rate. To further examine the source of the observed
+fall in annual labor earnings, we also look at the treatment impact on female labor
+force participation, the number of hours worked, and wage rates. Panels C, D, and E
+are the event studies for these alternative labor market outcomes. We first take a look
+at labor supply. If the fall in annual earnings is driven by women working less, we
+should see that successfully treated women are more likely to stop working or work
+fewer hours (when they work). Panels C and D show that women are more inclined
+to stay at home or work fewer hours shortly after a successful first treatment, but
+return to the labor market three or four years after treatment and then continue to
+participate as much and work as many hours as women with a failed first treatment.
+We next consider the wage rate. If the persistent fall in annual earnings is not driven
+by women working less, we should see that women get lower hourly wages, at least
+in the longer run. Panel E of Figure 2 confirms this. We find little effect on the wage
+1622                                  THE AMERICAN ECONOMIC REVIEW                                       June 2017
+
+
+
+ Panel A. Fertility                                        Panel B. Annual earnings
+                                                             20,000
+   0.8
+                                                                   0
+   0.6
+                                                            −20,000
+   0.4
+
+   0.2
+
+     0                                                      −60,000
+
+         −6 −5 −4−3−2 −1 0 1 2 3 4 5 6 7 8 9 10                        −6 −5 −4−3−2 −1 0 1 2 3 4 5 6 7 8 9 10
+                        Time (years)                                                   Time (years)
+Panel C. Positive earnings                                    Panel D. Weekly hours worked
+
+  0.08                                                             2
+
+  0.04                                                             0
+
+     0                                                           −2
+
+−0.04                                                            −4
+
+−0.08                                                            −6
+         −6 −5 −4−3−2 −1 0 1 2 3 4 5 6 7 8 9 10                        −6 −5 −4−3−2 −1 0 1 2 3 4 5 6 7 8 9 10
+                        Time (years)                                                   Time (years)
+Panel E. log hourly wages                                   Panel F. Partner annual earnings
+
+  0.08                                                       20,000
+
+  0.04                                                             0
+
+     0                                                     −20,000
+
+−0.04
+
+−0.08                                                      −60,000
+         −6 −5 −4−3−2 −1 0 1 2 3 4 5 6 7 8 9 10                        −6 −5 −4−3−2 −1 0 1 2 3 4 5 6 7 8 9 10
+                        Time (years)                                                   Time (years)
+Panel G. Depression                                         Panel H. Divorce
+  0.05                                                         0.05
+
+
+
+
+                                                                   0
+     0
+
+
+−0.05                                                         −0.05
+         −6 −5 −4−3−2 −1 0 1 2 3 4 5 6 7 8 9 10                        −6 −5 −4−3−2 −1 0 1 2 3 4 5 6 7 8 9 10
+                        Time (years)                                                   Time (years)
+
+
+
+                Figure 2. Event Study Graphs of IVF Treatment Effects on Various Outcomes
+
+ Notes: The figures plot coefficients from an ­event-study analysis. Event time is defined as years before and after
+ (potential) childbirth. The coefficients in period −1 are normalized to 0. The models are estimated for the sample of
+ IVF treated women who had their first IVF treatment between ­1995 and 2005. The coefficients in panel F are esti-
+ mated for the partners of the IVF treated women. For details on the model, see the text.
+VOL. 107 NO. 6                   Lundborg et al.: Can Women Have Children and a Career?                               1623
+
+
+
+                            Table 2—IVF Treatment Effects on Female Labor Outcomes:
+                              Results from First-Stage and ­Reduced-Form Regressions
+
+                                             Positive   Weekly                   log         Partner
+Independent          Fertility   Earnings    earnings   hours       Wages       wages       earnings   Depression Divorce
+variable               (1)         (2)          (3)      (4)         (5)         (6)           (7)        (8)       (9)
+
+Panel A. Years 0–1
+IVF success           0.694      −48,633     −0.050     −4.036       2.899       0.009      −5,375     −0.013     −0.009
+                     (0.004)      (1,439)     (0.004)    (0.131)    (2.212)     (0.005)      (2,470)    (0.003)    (0.002)
+Observations         18,538       18,538      18,538     14,022     14,022      14,022      16,689       18,538     18,538
+F-statistic          38,427
+
+Panel B. Years 2–5
+IVF success           0.320       −9,402     −0.013      0.476     −8.690      −0.034       −3,523       0.002    −0.009
+                     (0.004)       (1,703)    (0.004)   (0.114)     (1.437)     (0.005)      (3,004)    (0.003)    (0.003)
+Observations         18,435       18,435      18,435     12,332     12,332      12,332      16,590       18,435     18,435
+F-statistic           6,281
+
+Panel C. Years 6–10
+IVF success          0.227        −6,960     −0.003      0.103     −5.348      −0.021       −5,082       0.003      0.003
+                    (0.005)        (2,397)    (0.005)   (0.134)     (1.861)     (0.006)      (4,536)    (0.005)    (0.005)
+Observations         13,779       13,779      13,779     9,627       9,627       9,627      12,367       13,779     13,779
+F-statistic            2,273
+Baseline mean           —        223,038      0.90      28.63      183.01        5.16       301,683      0.05       0.05
+Pretreatment            —            874      0.010      0.519     −0.061        0.001      −1,298     −0.005       0.001
+  effect                          (1,811)    (0.004)    (0.375)     (1.162)     (0.005)      (2,800)    (0.003)    (0.003)
+
+Notes: This table shows first-stage and reduced-form regression estimates on the effect of IVF treatment success
+(0/1) on various outcomes measured at ​t​ = 0–1, 2–5, and 6–10. In column 1, the coefficient represents the effect
+of IVF success on the probability of having children during the time period considered. In the reduced-form regres-
+sions, the coefficient represents the effect of IVF success on the average of the outcome during the time period con-
+sidered. Time period ​t​ = 0 refers to the year of the (potential) child birth. All regressions control for age at first IVF
+treatment, year of first IVF treatment, pretreatment education, and the pretreatment average of the outcome studied
+taken over years 1–4 before the first IVF treatment. There are two exceptions. The first-stage regression does not
+include the pretreatment average because it is zero by construction. The depression regression includes the pretreat-
+ment value at t​​  − 1 because data on antidepressants are only complete from 1994 onward. The F-statistics in the
+table refers to ​F​-tests of the significance of the instrument in the first-stage regressions. The baseline mean refers
+to the mean of the outcome taken over years 1–4 before the first IVF treatment (for the sample observed 0 –1 years
+after the year of the (potential) childbirth). The pretreatment effect refers to the reduced-form effect of success at
+first IVF treatment on the pretreatment baseline mean. Robust standard errors are in parentheses.
+
+
+
+
+rate during the first two years following a successful treatment, but negative effects
+in the long run. In columns 5 and 6, we find that hourly wages fall with 2 to 3 percent
+in the medium and long run.8
+   We can also examine how the annual earnings of partners of IVF treated women
+respond to the IVF treatment. We focus on partners in couples at the time of treat-
+ment. Panel F of Figure 2 plots the relationship between treatment success and
+male annual labor earnings. In contrast to the earnings results for women, we do
+
+    8
+      Danish registers hold records on annual earnings, ­full-time employment status, monthly hours worked, and
+hourly wages. Hourly wages are computed by dividing annual earnings by annual hours worked, which is an aggre-
+gate of monthly hours worked. Because monthly hours are recorded for one month a year for workers who earn
+more than DKK 10,000 (measured in 2008 DKK), we do not observe monthly hours worked and hourly wages for
+all workers. The restricted sample contains 14,022 observations. Of the original 18,538 observations, we observe
+16,996 women with positive annual earnings. Among those, we lose 1,428 women with no records on hours and
+wages, 1,300 women with no records on ­pretreatment hours and wages, and another 246 women who either work
+more than 13 hours per day or earn less than DKK 50 per hour. We recognize that the regression results for the
+number of hours worked, hourly earnings (and log hourly earnings) are obtained on smaller and possibly selective
+samples. In our sensitivity section we test whether sample selectivity is affecting our regression results. We find no
+evidence that the estimated fertility effects on labor supply and hourly earnings are tainted by sample selection bias.
+1624                                 THE AMERICAN ECONOMIC REVIEW                                        June 2017
+
+
+
+not see much for their partners. If there is a labor response, it seems that having
+a successful IVF treatment reduces their annual earnings. In column 7 of Table 2,
+the estimated short- and ­medium-run effects of IVF treatment success on partner’s
+annual earnings are small, and much smaller than those estimated for women. Only
+the ­short-run effect is estimated precisely enough to be statistically significant. The
+­long-run effect appears somewhat smaller than the ­long-run effect for women, but is
+ too imprecisely estimated to be informative.
+     An equally important question is whether IVF treatment success is (somehow)
+ related to the labor market outcomes of women observed in their ­pretreatment years.
+ We find no evidence of this. When we plot the event study graphs, all the trends
+ in the ­pretreatment period are flat. When we regress treatment success on a set of
+ ­pretreatment labor market outcome averages, all our treatment effect estimates are
+  close to zero and far from statistically significant.9
+
+                                       C. Depression and Divorce
+
+   Can IVF treatment success influence labor earnings for reasons other than child-
+bearing? We consider depression and divorce as two possible pathways. In partic-
+ular, we think that disappointment after a failed IVF treatment can ultimately lead
+to depression and divorce, possibly biasing results. Women who are depressed may
+work less if depression, or severe symptoms thereof, interferes with their ability
+to work. Women who divorce (or anticipate divorce) may work and earn more to
+compensate for the loss in spousal income (Bedard and Deschênes 2005; Stevenson
+and Wolfers 2007; and Bargain et al. 2012). We augment previous labor market
+results and use depression (measured as antidepressant medication use) and divorce
+as additional outcome variables.
+   We first check whether IVF treated women are more likely to get depressed (and
+subsequently work less) after a failed treatment. Panel G of Figure 2 provides little
+evidence of this. If there is an impact, it is only small. The corresponding estimates
+in column 8 confirm this. We next check whether divorce rates increase after a failed
+treatment among the IVF treated women in our sample. Panel H does not show such
+a divorce pattern, at least not in the long run. In the short and intermediate run, we
+estimate a modest but statistically significant decline in divorce rates of 1 percentage
+point among successfully treated women. In the long run, however, the estimated
+impact of a successful treatment on divorce is slightly positive, quite small, and
+statistically insignificant. We conclude that women who seek IVF treatment face
+similar ­long-run divorce risks, independent of treatment success.10
+
+                                       D. Some Sensitivity Checks
+
+   Our treatment effect estimates may be subject to a number of biases: omitted
+variable bias related to female health factors (among others), sample selection bias
+
+     9
+       One exception is the estimated treatment effect on labor market participation history, which is small but sta-
+tistically significant. This occurs—we think—more or less by chance. Intuitively, we expect to find a statistically
+significant association between treatment success and labor market history in 1 out of 20 specifications.
+     10
+        In an accompanying paper, we examine how children influence marital stability in much more detail
+(Lundborg, Plug, and Rasmussen 2016).
+VOL. 107 NO. 6              Lundborg et al.: Can Women Have Children and a Career?                            1625
+
+
+
+related to wages being observed only for women who work, and sample selection
+bias related to the unbalanced nature of our short-, medium-, and ­long-run samples.
+To make sure that our findings are not driven by these biases, we perform several
+sensitivity checks. Online Appendix Table 2 contains these sensitivity results.
+   One concern is that unsuccessfully treated IVF women may be less healthy and,
+because of that, work fewer hours (in the short run) and receive lower salaries (in
+the long run). To address this, we run two regressions that are arguably informative
+about unhealthy women, treatment success, and earnings. One regression includes
+additional controls for the number of eggs collected and transferred, diagnoses,
+causes of infertility, type of IVF treatment, and clinic indicators, which could all
+reflect potential health risks at the time of treatment. The estimates in column 1
+remain practically unaffected. Another regression is run on a restricted sample of a
+priori healthier women, which we define as those IVF treated women whose infertil-
+ity problem is on their partner’s side. Again, the estimates in column 2 do not change
+much when we move to a sample of healthier women; if anything, the estimates are
+somewhat larger in magnitude but less precise, due to the smaller sample size.11
+   Another concern is that the treatment effect estimates for hours worked and
+hourly wages are obtained for IVF treated women for whom we observe hours and
+hourly wages. To address the issue of endogenous sample selection, we examine
+whether the missing information on hours and hourly wages creates any sample
+composition bias by estimating the effect of childbirth on ­pretreatment education
+and earnings in our sample of workers. In columns 3 and 4, we show that these
+estimates are insignificant, suggesting that childbirth does not seem to create any
+important sample composition bias in terms of ­pretreatment earnings and education.
+Since sample selection occurs independent of the treatment, at least in the medium
+and long run, the fertility effects we find for medium- and ­long-run labor supply and
+hourly earnings are unlikely tainted by sample selection bias.12
+   A final concern is that the unbalanced panel structure, which arises because infor-
+mation on long-run labor market earnings is not available for women who recently
+entered IVF treatment, may cause sample selection bias in our labor response esti-
+mates. We find no evidence of this. The earnings estimates obtained on a balanced
+sample (reported in column 5) are identical to those reported for the unbalanced
+sample.
+
+                  V. Main Results: Fertility Effects at the Extensive Margin
+
+                                      A. Labor Market Outcomes
+
+  Table 3 contains the IV estimates of the effect of having children on the labor
+market outcomes of women, based on the ­second-stage specification in equation (2).
+
+
+    11
+       With comparable treatment effects for healthier women, we also dismiss a related concern that IVF treatments
+carry heterogeneous (mental) health risks; that is, treatment induces larger (mental) health risks among unsuccess-
+fully treated women.
+    12
+       Our results are further insensitive to including women with missing data on ­pretreatment wages and hours and
+not controlling for these factors in the regressions. The effects of having children on hourly wages are then 7.20,
+−25.08, and −21.71 in the short, medium, and long run. If we further remove the restrictions on hourly wages and
+hours, the point estimates only slightly change to 7.33, −24.37, and −22.73.
+1626                                THE AMERICAN ECONOMIC REVIEW                                          June 2017
+
+
+
+                   Table 3—Fertility Effects on Female Labor Market Outcomes:
+                          Results from Instrumental Variable Regressions
+
+                                                         Positive             Weekly
+                                     Earnings            earnings             hours               Wages
+                                       (1)                  (2)                (3)                 (4)
+       Panel A. Years 0–1
+       Fertility                     −70,088             −0.072               −5.911                4.244
+                                       (2,054)            (0.006)              (0.190)             (3.235)
+       Percent impact                    −31             −8                  −21                    2
+       Observations                   18,538              18,538              14,022              14,022
+
+       Panel B. Years 2–5
+       Fertility                     −29,378             −0.041                 1.473           −26.851
+                                       (5,285)            (0.012)              (0.355)            (4.453)
+       Percent impact                    −12             −5                     5               −13
+       Observations                   18,435              18,435              12,332             12,332
+
+       Panel C. Years 6–10
+       Fertility                     −30,675             −0.015                 0.487           −25.301
+                                      (10,546)            (0.022)              (0.634)           (8.801)
+       Percent impact                    −11             −2                     2               −12
+       Observations                    13,779              13,779              9,627             9,627
+
+       Baseline mean                  223,038              0.90                28.63             183.01
+       Pretreatment effect                874              0.010                0.519             −0.061
+                                       (1,811)            (0.004)              (0.375)             (1.162)
+
+       Notes: This table shows instrumental variable estimates of the effect of having children on var-
+       ious labor market outcomes at ​t​ = 0 –1, 2–5, and 6–10. The coefficients represent the effect of
+       having children. Having children in year ​t​ is instrumented with IVF treatment success. Time
+       period ​t​ = 0 refers to the year of (potential) childbirth. All regressions control for age at first
+       IVF treatment, year of first IVF treatment, pretreatment education, and the pretreatment average
+       of the outcome studied taken over years 1–4 before the first IVF treatment. The baseline mean
+       refers to the average of the outcome taken over years 1–4 before the first IVF treatment. The pre-
+       treatment effect refers to the reduced-form effect of success at first IVF treatment on pretreat-
+       ment baseline mean. Robust standard errors are in parentheses.
+
+
+
+
+In column 1, we take annual labor earnings as our labor market outcome, fertility
+measured at the extensive margin as our endogenous variable, success at first IVF
+treatment as our instrument, and IVF treatment year, the age of the mother at the first
+treatment, education, and ­pretreatment earnings as control variables. In subsequent
+columns, we turn to labor market participation, hours worked, and hourly wages as
+labor market outcomes. As before, we replace the ­pretreatment labor market control
+variable with the ­pretreatment values of the labor market measure under study. We
+calculate averages of the labor market outcome variables over the ­pretreatment years
+−4 to −1 and ­posttreatment years 0–1, 2–5, and 6–10. We also present the fertility
+effect estimates in terms of percent impacts which we define as the ratio between the
+IV estimates and sample means of the corresponding labor market outcomes in the
+short, medium, and long run.
+   In column 1 we find that having children reduces earnings by DKK 70,000 in the
+short run, DKK 30,000 in the medium run, and DKK 30,000 in the long run. We
+attribute the larger earnings effect observed in the short run to mothers taking up
+maternity leave for an extended period at a lower compensation rate. In the medium
+VOL. 107 NO. 6              Lundborg et al.: Can Women Have Children and a Career?                            1627
+
+
+
+and long run, when most mothers have finished their maternity leave, we find that
+the estimated effects decline but remain negative and statistically significant. In
+terms of percentage impact, the medium- and ­long-run estimates imply that Danish
+women earn about ­11–12 percent less because of children. The consequences of
+children, measured at the extensive margin, are therefore substantial.
+   In columns 2 and 3 we also find that women work less because of children, but
+only when children are young. In the short run, participation declines seven per-
+centage points. And for those women with positive earnings, hours fall on aver-
+age six hours per week (which is a labor supply reduction of 21 percent). In the
+long run, however, participation rates and hours worked are unaffected by having
+children. All the l­ong-run labor supply estimates are statistically insignificant and
+practically zero. Interestingly, the estimates for hourly wages in column 4 show the
+opposite pattern. We find little effect on the wage rate during the first two years fol-
+lowing the (potential) birth of the child, but significant, negative, and large effects
+in the medium and long run. In particular, hourly wages fall by ­12–13 percent in the
+medium and long run.
+   We therefore conclude that the labor market consequences of having children are
+large for women. When children are young, women earn less because they work
+less. When children are older, women earn less because they get lower wages.13
+
+                                           B. Possible Pathways
+
+    We next explore possible pathways for the decline in earnings. In particular, we
+examine whether differences in earnings can be explained by the differences in job
+characteristics of the jobs held by women with and without children. To this end,
+we use matched ­employer-employee level data and test whether women make dif-
+ferent job choices because of children in terms of job changes and job character-
+istics. To measure job changes, we use dummy variables indicating whether any
+workplace and (­four-digit) occupation change took place in the short, medium, and
+long run. To measure job characteristics, we take averages of earnings, hours, and
+hourly wages (in logarithms) by workplace and (­four-digit) occupation over the
+entire study period from the representative sample of Danish women. If women with
+children sort into ­part-time and ­lower-paid jobs, the latter outcomes should indicate
+that having children leads to a reduction in the ­workplace-based averages of hours
+worked and hourly earnings. We use the same approach to examine whether women
+sort into public sector jobs, typical female jobs (measured as the percent female
+workers for each workplace averaged over our study period), or jobs closer to home.
+Table 4 contains the estimates on job changes and job characteristics.
+    In columns 1 and 2 we find that women with children more frequently change
+occupation and workplace than women without children. These positive mobility
+effects are mostly observed in the short and medium run, with estimates only being
+
+   13
+       The interpretation of IV estimates gets more complicated when most women after a failed first treatment
+end up having children. In online Appendix C, we show that delayed fertility may bias our fertility effect estimates
+downward. In particular, we show that the ­medium-run effects of having any children on work effort and earnings
+are likely underestimated. Apart from the small but positive impact we estimate for hours worked, the ­medium-run
+effects of having children on earnings, participation, and wages are all highly significant and negative. Hence, we
+conclude that the possible impact of delayed fertility is not strong enough to overturn our main conclusion.
+1628                                      THE AMERICAN ECONOMIC REVIEW                                        June 2017
+
+
+
+                     Table 4—Fertility Effects on Job Changes and Job Characteristics:
+                             Results from Instrumental Variable Regressions
+
+                                                 Occ.                          Firm               Firm
+                  Occ.      Firm        Occ.     (log)    Occ.        Firm     (log)    Firm     gender    Public Distance
+                 change    change     earnings   wages    hours     earnings   wages    hours     ratio    sector (in km)
+                   (1)       (2)         (3)      (4)      (5)         (6)      (7)      (8)       (9)      (10)    (11)
+
+Panel A. Years 0–1
+Fertility         0.017      0.040 −3,687         0.001 −0.346 −1,197 −0.002 −0.050 −0.008 −0.005 1.379
+                 (0.010)    (0.010) (1,090)      (0.002) (0.080) (1,003) (0.003) (0.061) (0.003) (0.005) (0.568)
+Observations     17,941    18,194     18,019     18,019   18,019    18,264     18,195   18,194   18,280    17,914   14,440
+
+Panel B. Years 2–5
+Fertility        0.046       0.038 −4,881 −0.005 −0.262 −5,761 −0.017                    0.213 −0.004       0.010 −3.667
+                (0.028)     (0.025) (2,679) (0.006) (0.179) (2,528) (0.008)             (0.034) (0.008)    (0.013) (1.083)
+Observations     14,166    18,058     17,934     17,934   17,934    18,169     18,072   18,084   18,188    17,824   10,618
+
+Panel C. Years 6–10
+Fertility        0.010     −0.013 −5,030 −0.005 −0.383 −7,063 −0.022 −0.301                       0.001     0.023 −5.530
+                (0.044)     (0.043) (4,962) (0.011) (0.315) (4,839) (0.014) (0.366)              (0.016)   (0.026) (2.145)
+Observations     11,680    11,782     13,470     13,470   13,470    13,595     13,522   10,974   13,616    13,337    5,173
+
+Baseline mean    0.54       0.57      221,346    5.24     22.33     244,288    5.20     25.58    0.63      0.55     12.58
+Pretreatment    −0.005     −0.007      −270 −0.001         0.125       955 −0.004        0.022 −0.002 −0.009 0.639
+  effect         (0.008)    (0.008)     (990) (0.002)     (0.070)     (993) (0.003)     (0.064) (0.003) (0.008) (0.360)
+
+Notes: This table shows instrumental variable estimates of the effect of having children on various labor market
+outcomes at ​t​ = 0 –1, 2–5, and 6–10. The coefficients represent the effect of having children. Having children in
+year ​t​ is instrumented with IVF treatment success. In columns 1 and 2, the outcome is a binary indicator taking the
+value of 1 if the woman was recorded as changing occupation or workplace in the short, medium, and long run.
+Time period ​t​  = 0 refers to the year of the (potential) childbirth. All regressions control for age at first IVF treat-
+ment, year of treatment, pretreatment education, and pretreatment outcomes in years 1–4 before the first IVF treat-
+ment. The baseline mean refers to the average of the outcome taken over years 1–4 before the first IVF treatment.
+The pretreatment effect refers to the reduced-form effect of success at first IVF treatment on pretreatment baseline
+mean. Robust standard errors are in parentheses.
+
+
+significant in the short run. In columns 3 and 6 we find that women who change
+occupation and workplace because of children also sort into occupations and work-
+places with on average lower earnings. In addition, we find that once these women
+start working in occupations and workplaces that pay less, they keep on working in
+such occupations and workplaces. The ­long-run estimate for the occupation earnings
+average suggests that women, six to ten years after giving birth, work in occupations
+in which the average female worker earns approximately DKK 5,000 less, which is
+about 2 percent of the occupation earnings average in the sample.14 Although the
+estimates are all small and not always precise enough to be statistically significant,
+the negative effect of having children on average occupation and workplace earnings
+seems to persist or even to rise in the medium and long run.
+   In the remaining columns we explore, in more detail, the type of l­ower-paid
+jobs women hold after having children. In most cases, our estimates are insignifi-
+cant and too small; that is, we find no evidence that women, after having children,
+sort into ­part-time jobs, public sector jobs, or more typical female jobs. One job
+
+    14
+      The estimates are small but not implausible. When interpreting these estimates one should keep in mind that
+by using occupation and workplace earnings averages as outcomes, there will be much less earnings variation in
+the data. This is even more so in countries with more compressed earnings distributions, such as Denmark. It is
+therefore helpful to convert these effects into units of standard deviations in the full distribution of occupation and
+workplace earnings. When we do so we find more plausible effects; in the medium and l­ong run, the effects of
+having children on average occupation earnings amount to about 0.1 of a standard deviation.
+VOL. 107 NO. 6             Lundborg et al.: Can Women Have Children and a Career?                            1629
+
+
+
+­characteristic, however, stands out: distance between home and work. In the short
+ run, we find that women with children work somewhat further away from home
+ than women without children, which we attribute to women moving to the suburbs
+ after having children. In the medium and long run, however, our estimates indicate
+ that women with children work much closer to home than women without children.
+ The medium- and l­ong-run effects of having children on distance between home
+ and work are substantial. For example, our l­ong-run estimate of −5.53 kilometers
+ implies a 44 percent reduction in the average ­work-related commuting distance. In
+ light of these findings, we believe that women with children reveal a stronger prefer-
+ ence for working close to home than women without children, and as a consequence
+ end up working in less-well-paid jobs.
+
+                                             C. Heterogeneity
+
+    So far we have focused on the average impact of having children. To examine
+whether the labor market consequences of having children are different for different
+women, we estimate fertility effects on different sample splits using ­pretreatment
+indicator variables for high earnings, for college education, for ages older than
+32 years old, for high partner earnings, for public sector jobs, and for being treated
+in 2002 or later. We refer to the corresponding sample splits as reference group and
+indicator group samples. Table 5 presents these estimates for these samples; panel A
+contains fertility effect estimates for the reference group samples, panel B contains
+fertility effect estimates for the indicator group samples, and panel C tests whether
+the fertility estimates reported in panels A and B are different.
+    We first examine whether fertility effects vary with the earnings potential of
+women or their partners. These are relevant margins if a higher value of time also
+raises the cost of having children; the value of women’s time is, in theory at least,
+linked to their own wage rate and that of their partner (Gronau 1973; Becker 1981).
+We proxy the earnings potential of women with ­pretreatment earnings, education,
+and ­age-at-treatment. Our estimates suggest that women with high earnings poten-
+tial are more labor market responsive to having children than women with low earn-
+ings potential. For the women in our reference samples, being less than 32 years old,
+having ­pretreatment earnings in the bottom 75 percent of the earnings distribution,
+and having no college degree, the estimated fertility effects in panel A indicate that
+having children reduces earnings by 33 to 35 percent in the short run, 8 to 12 percent
+in medium run, and 6 to 12 percent in the long run. For the ­high-potential women
+in the indicator group samples, we find that women in the top 25 percent of the
+­pretreatment earnings distribution reduce their earnings substantially more than do
+ other women. In the medium and long run, these fertility effect estimates are much
+ larger in both absolute and relative terms. In column 2 we find (somewhat surpris-
+ ingly) that having a college degree, which we define as 15 or more years of school-
+ ing, does not affect the impact on annual earnings.15 In column 3 we find ­differences
+
+
+     15
+        We have experimented with years of education interactions and probed sample splits by having compulsory
+education, having no college, having some college education, and having a college degree. The latter specification
+is the one we report. The main message is that we do not find much when we allow the fertility effects to vary by
+education. Such effects could arise if women in Denmark face relatively low returns to education. Harmon, Walker,
+1630                                   THE AMERICAN ECONOMIC REVIEW                                         June 2017
+
+
+
+                Table 5—Fertility Effects on Female Labor Earnings: Heterogeneity Analyses
+
+                                                                               Partner
+                           Earnings        Schooling           Age            earnings           Sector         Time
+                            Qrt. 4          ​≥​15 yrs        ​≥​32 yrs         Qrt. 4            public        ​≥​ 2002
+Indicator ​I​                (1)               (2)              (3)              (4)              (5)            (6)
+
+Panel A. Fertility effects in reference group sample (​I​ = 0) (years)
+0 –1                       −64,033          −68,039          −63,904         −64,411          −76,627         −66,553
+                              (2,215)         (2,300)          (3,019)         (2,343)          (3,353)         (2,542)
+2–5                        −20,418          −26,245          −16,392         −15,600          −36,637         −30,600
+                              (5,383)         (5,479)          (8,890)         (5,896)          (8,726)         (6,483)
+6–10                       −19,238          −28,538          −16,313         −13,963          −35,523         −31,324
+                            (10,520)         (10,233)         (19,598)        (11,719)         (16,940)        (11,647)
+Percent impact
+   0 –1                         −35             −35              −33              −31              −33            −30
+   2–5                          −10             −12               −8               −7              −15            −13
+   6–10                           −8            −12               −6               −5              −13            −12
+
+Panel B. Fertility effects in indicator group sample (​I​ = 1) (years)
+0 –1                       −86,284          −74,280          −74,282         −89,586          −67,281         −75,023
+                              (4,707)         (4,294)          (2,772)         (4,804)          (2,638)         (3,410)
+2–5                        −48,647          −36,130          −36,733         −79,865          −24,212         −28,442
+                            (13,956)         (13,274)          (6,513)        (14,666)          (6,817)         (8,909)
+6–10                       −60,621          −31,692          −39,166         −99,870          −35,383         −29,683
+                            (29,989)         (32,502)         (11,999)        (31,571)         (14,030)        (23,910)
+Percent impact
+   0–1                          −24             −24              −30              −31              −28            −32
+   2–5                          −13             −12              −14              −27              −10            −11
+   6–10                         −16              −9              −14              −31              −13            −11
+
+Panel C. Differences between the two fertility effects (years)
+0 –1                    −22,251           −6,241           −10,377           −25,175             9,346         −8,471
+                          (5,202)           (4,872)          (4,107)           (5,345)          (4,268)         (4,254)
+2–5                     −28,228           −9,885           −20,342           −64,265            12,426           2,159
+                         (14,930)           (5,479)         (11,022)          (15,808)         (11,074)        (11,019)
+6–10                    −41,383           −3,153           −22,853           −85,907               140           1,640
+                         (31,781)         (34,075)          (22,980)          (33,676)         (21,996)        (26,597)
+
+Reference mean             182,382          205,626          185,204           205,772          245,156       218,403
+Indicator mean             364,445          258,029          249,279           280,355          220,329       229,016
+
+Notes: Panels A and B show instrumental variable regressions on the effect of having a child on earnings at ​t​ = 0–1,
+2–5, and 6–10 on subsamples split by pretreatment earnings, education, age, partner pretreatment earnings, sector,
+and timing of (potential) birth. Year 0 refers to the year of the (potential) childbirth. All regressions control for age
+at first IVF treatment, year of first IVF treatment, pretreatment education, and earnings. Panel C shows the differ-
+ence between the subsample instrumental variable estimates. The means reported at the bottom part refer to out-
+come averages taken over years 1–4 before the first IVF treatment in reference group and indicator group samples.
+Robust standard errors are in parentheses.
+
+
+
+
+by age at treatment; that is, women older than 32 reduce their annual labor earnings
+more than younger women in the short, medium, and long run. In column 4, we
+examine whether fertility effects vary with the earnings potential of partners. Here
+we see the largest differences. Women with partners in the top 25 percent of the
+male ­pretreatment earnings distribution reduce their earnings significantly more that
+
+and Westergaard-Nielsen (2001) provide a cross-country analysis of the returns to education in Europe and find one
+of the lowest returns for women in Denmark.
+VOL. 107 NO. 6               Lundborg et al.: Can Women Have Children and a Career?                                  1631
+
+
+
+        Panel A. Heterogeneity: Earnings                       Panel B. Heterogeneity: Partner earnings
+
+                0                                                     0
+
+
+
+        −40,000                                                −40,000
+
+
+
+
+       −100,000                                               −100,000
+                    1       2         3         4         5               1        2         3         4         5
+                             Earnings quintile                                 Partner earnings quintile
+
+                                                       Years 0−1      Years 2−5
+                                                       Years 6−10
+
+
+                                          Figure 3. Heterogeneity Analyses
+
+Notes: The figure plots coefficients from regressions on the effect of childbirth on annual earnings across the
+­pretreatment distribution of earning and partner earnings. The ­pretreatment characteristics are measured as percen-
+ tile ranks of the ­pretreatment variable under consideration. The coefficients represent regression estimates on sam-
+ ples restricted to income percentiles ­1–20, ­21–40, ­41–60, ­61–80, and ­81–100. All regressions control for age at IVF
+treatment, year of treatment, and ­pretreatment education, and earnings. See text for details.
+
+
+
+
+women with ­low-potential partners in the short, medium, and long run. After having
+children, the fertility effects are large and amount to, what seems, a structural reduc-
+tion of approximately 30 percent in annual earnings.
+    As a further check, we examine how earnings responses vary across the ­pretreatment
+earnings distribution of women and their partners. In constructing graphs, we create
+percentile ranks of ­pretreatment labor earnings and plot the fertility effect estimates
+taken from IV regressions run on samples restricted to mutually exclusive percentile
+ranks ­1–20, ­21–40, ­41–60, ­61–80, and ­81–100. Panel A of Figure 3 shows earnings
+responses by ­pretreatment earnings of women. Observe that all earnings responses
+represent earnings losses, regardless of earnings potential and period. In the short
+run, we see that earnings losses modestly increase in ­pretreatment earnings. In the
+medium and long run, we see that earnings losses are larger for women in the second
+and fifth quintile of the earnings distribution. Panel B shows earnings responses by
+­pretreatment earnings of partners. The earnings response patterns are rather similar.
+ In the short run, we see again that women experience earnings losses that modestly
+ increase in the ­pretreatment earnings of their partners. And in the medium and long
+ run, we see that earnings losses are more or less the same at the bottom half of the
+ distribution and get much larger in the upper half of the distribution. It seems that
+ women at the top of their own or partner’s earnings distribution experience the larg-
+ est earnings losses because of having children.
+    We also investigate whether the fertility effects vary with public sector jobs and
+ time. The reason for showing these interactions is that maternity leave arrangements
+ are more generous in public sector jobs as well as after 2002. Women in public
+ sector jobs on paid maternity leave receive a 100 percent compensation rate (which
+ is part of our annual labor earnings measure). Women in private sector jobs on paid
+ maternity leave receive less. In column 5 of Table 5, the fertility effect estimates
+ confirm that women in public sector jobs experience a smaller earnings loss than
+1632                         THE AMERICAN ECONOMIC REVIEW                       June 2017
+
+
+
+women in private sector jobs. This difference is statistically significant, but only
+in the short run when most women take up their paid maternity leave. In 2002,
+Denmark expanded their parental leave arrangements. Women could take up 4 extra
+weeks of paid maternity leave and 22 extra weeks of shared parental leave. In col-
+umn 6, we find that women with children respond to the reform by reducing their
+labor earnings, but only in the short run.
+
+             VI. Other Results: Fertility Effects at the Intensive Margin
+
+  One objective of this paper is to distinguish extensive from intensive fertility
+margins. In particular, we want to know whether the effect of children on the labor
+market outcomes of women is larger at the extensive margin than at the intensive
+margin, just as simple theories predict.
+
+                             A. IVF Treatments and Twins
+
+    IVF treatments also prove helpful in generating natural experiments with inde-
+pendent variation in fertility measured at the intensive margin. First, we can apply
+our IV strategy using success at the first IVF treatment as an instrument on a sam-
+ple of IVF treated women who already have children when they start their treat-
+ment. The instrument generates variation in fertility, similar to the variation we
+use for childless women, except that it raises the likelihood of going from one to
+two or more children for mothers who enter treatment with one child. Second, we
+can exploit the larger fraction of twin births among IVF births (about 23 percent
+of all successful treatments result in twins) and apply the more commonly used
+IV strategy using twins at first birth as an instrument on a sample of successfully
+treated women who received at least two embryo implants. In this case, we zoom in
+on IVF treated women (with two or more embryo implants) whose IVF treatment
+resulted in at least one child, assume that a successful development of one, two,
+or more implanted embryos is to a large degree exogenously determined, and use
+having twins as an instrument to raise the likelihood of going from one to two (or
+more) children. Table 4 of Online Appendix D shows descriptive statistics for these
+subsamples.
+    Table 6 contains IV estimates of fertility effects on annual earnings, measured
+at both extensive and intensive margins. In column 1 we reproduce the IV fertility
+estimates at the extensive margin for the sample of childless women entering their
+first IVF treatment (our baseline sample). In columns 2 and 3 we report IV fertility
+estimates at the intensive margin. In column 2 we show fertility estimates that come
+from IV estimation using the first IVF treatment as an instrument on a sample of
+IVF treated women with children. In the short run, we observe that such mothers
+experience substantial and significant earnings losses, albeit somewhat smaller in
+size than the earnings losses observed at the extensive margin. In the medium run,
+the earnings losses get much smaller, but remain precise enough to be statistically
+significant. And in the long run, the earnings losses are gone. If anything, we esti-
+mate small and insignificant earnings gains.
+    In column 3 we turn to fertility estimates using twins at first birth as an instrument
+on a sample IVF treated women with twins and singletons. With the twin ­instrument,
+VOL. 107 NO. 6               Lundborg et al.: Can Women Have Children and a Career?                               1633
+
+
+
+                 Table 6—Fertility Effects on Female Labor Earnings: Intensive Margins
+
+                                     Extensive margin                              Intensive margin
+Instrument:                             IVF success             IVF success            Twins                Twins
+Sample:                                 IVF sample              IVF sample           IVF sample          Repr. sample
+                                            (1)                     (2)                 (3)                  (4)
+Panel A. Years 0–1
+Fertility                                 −70,088                 −52,686              −14,507             −13,052
+                                           (2,054)                 (3,198)              (2,930)             (2,197)
+Percent impact                                −31                     −24                    −7                 −8
+Observations                                18,538                   4,598                 4,557            103,826
+
+Panel B. Years 2–5
+Fertility                                 −29,378                  −9,477                −6,049             −3,824
+                                           (5,285)                  (5,151)               (5,661)            (4,574)
+Percent impact                               −12                       −4                    −3                 −2
+Observations                               18,435                    4,581                 4,540            103,178
+
+Panel C. Years 6–10
+Fertility                                 −30,675                    4,518             −13,154              −2,648
+                                           (10,546)                 (7,434)             (9,935)              (9,938)
+Percent impact                                −11                        2                 −5                   −1
+Observations                                13,779                   3,290               3,543              72,987
+
+Baseline mean                             223,038                 210,064               221,786             174,156
+Pretreatment effect                           874                   6,794                −4,616              12,073
+                                           (1,811)                 (3,816)                (3,592)            (2,767)
+
+Notes: Column 1 replicates the main IV findings of Table 3. Column 2 shows the effect for women with children
+entering their first IVF treatment. Column 3 shows the effect of family size on earnings for women who had a suc-
+cessful first IVF treatment. Average family size at ​t​ = 0–1, 2–5, and 6–10 is instrumented with an indicator of
+having a singleton versus twin birth at first birth. Column 4 shows the corresponding results for a sample of repre-
+sentative, non-IVF-treated women. Time period t = 0 refers to the year of the (potential) childbirth. All regressions
+control for age at first IVF treatment, year of first IVF treatment, pretreatment education, and earnings. The baseline
+mean refers to the average of the outcome variable taken over years 1– 4 before the year of the first IVF treatment.
+The pretreatment effect refers to the reduced-form effect of success at first IVF treatment (columns 1 and 2), or of
+having a twin birth (columns 3 and 4), on the pretreatment baseline mean. Robust standard errors are in parentheses.
+
+
+
+
+we find that women earn less (because of children) in the short, medium, and long
+run. These earnings losses are substantially smaller than the corresponding earn-
+ings losses observed at the extensive margin (column 1). The earnings losses are
+also substantially smaller than the corresponding earnings losses we estimate at the
+intensive margin with the treatment success instrument (column 2), but only in the
+short run. This is because most mothers take up full maternity leave after childbear-
+ing, regardless of giving birth to twins. The differences between the medium- and
+­long-run estimates are not large enough to be statistically significant.16
+
+
+   16
+      At the bottom of Table 6, we also report the estimated effect of the instrument on ­pretreatment earnings. The
+corresponding ­reduced-form estimate should be zero. With the treatment success instrument, the estimate is small
+but positive and statistically significant at the 10 percent level (the amount is only 3 percent of the average earnings
+of women in this treatment success instrument sample). With the twin instrument, the r­educed-form estimate is
+equally small but negative and statistically insignificant (the amount is only 2 percent of the average earnings of
+women in this twin instrument samples).
+1634                                 THE AMERICAN ECONOMIC REVIEW                                      June 2017
+
+
+
+   All of these estimates indicate that the labor market consequences of childbear-
+ing, measured at the intensive margin, are relatively small and mostly short lived.
+Taken together, these results provide clear evidence that fertility effects are much
+stronger at the extensive margin than at the intensive margin.
+
+                                           B. External Validity
+
+    It is quite clear that women who decide to enter IVF treatment are different from
+a larger population of representative women; they are better educated, work more,
+earn higher salaries, show an explicit demand for children, and are older when they
+have children. If these observable differences also mean that their labor market
+responses to having children are different, it is natural to ask what we can learn
+from a sample of IVF treated women.
+    One way to examine the wider generalizability of IVF fertility findings is to
+expose IVF treated women and other women not treated with IVF to the same nat-
+ural experiment and compare their labor earnings. The natural experiment we have
+in mind is the twin experiment, where twins at first birth generate fertility variation
+at the intensive margin. We conjecture that with comparable labor supply responses,
+IVF results are generalizable. Table 6 also reports fertility estimates based on the
+twin experiment for the representative sample of Danish women. In column 4 we
+find that the fertility estimates are remarkably similar to those obtained for IVF
+women, shown in column 3, and particularly so in the short run. Among IVF moth-
+ers, one additional child reduces earnings by DKK 14,500, whereas the correspond-
+ing effect among other mothers is DKK 13,000. In the medium run, earnings are
+reduced by DKK 6,000 and DKK 3,800, respectively. We also find that fertility
+estimates are statistically similar in the longer run, but we readily confess that the
+estimates are rather imprecisely estimated.17
+
+                                  C. Comparison to US Twin Births
+
+   While our I­VF-based fertility results may generalize to other Danish women
+(not treated with IVF), they may be less informative about women having children
+in other developed countries with less ­family-friendly policies. Here we try to get
+some mileage from comparing the t­win-based fertility results reported in Table 6
+with other ­twin-based fertility results taken from the United States, which is one of
+the few developed countries that does not guarantee paid maternity leave to female
+workers.
+   We have surveyed three US studies on the impact of children on female labor
+market outcomes using twins at first birth as instrumental variable (Bronars and
+Grogger 1994; Jacobsen et al. 1999; Vere 2011). When we focus on annual labor
+earnings as the main labor market outcome, select impact estimates from the 1980
+
+   17
+      In online Appendix Table 5 we also compare labor earnings of women in our baseline IVF sample to those
+of women in a more representative sample drawn from the full population of women who had their first-born child
+around the same time as IVF treated women had their first IVF attempt. In this online Appendix, we also show that
+conditional and unconditional measures of labor earnings in the IVF and representative samples follow roughly
+the same pattern before and after childbirth, which is suggestive that any inherent differences between these two
+groups of mothers are probably not the leading cause of any differences in how they respond to first-born children.
+VOL. 107 NO. 6                Lundborg et al.: Can Women Have Children and a Career?                        1635
+
+
+
+(or more recent) Census Public Use Micro Samples (PUMS), and convert each
+estimate into percentage point changes in average annual earnings to facilitate the
+comparison, we find that even the smallest of all of these estimates (obtained with
+US samples) is larger than the ones we obtain using a representative sample of all
+Danish women. The smallest of the fertility effect estimates reported in these US
+studies is −5 percentage points for having a second child, regardless of the child’s
+age (we get −3 percentage points), and −22 percentage points for having a second
+child when the child is two years old or younger (we get −8 percentage points).18
+
+                                          VII. Concluding Remarks
+
+   This paper evaluates how fertility choices made at the extensive and intensive
+margins affect the labor market career of women. To do so, we introduce a novel
+IV strategy based on IVF induced fertility variation using the census of IVF treated
+women in Denmark. Because observed chances of IVF success do not depend on
+the labor market histories of women before they enter the IVF treatment, success on
+the first IVF attempt provides a plausible instrument for childbearing among women
+without children, as well as women with children.
+   Our findings help us to answer the questions we posed earlier. First, does having
+children hurt women’s careers (the extensive margin)? It clearly does. The fertility
+effects we estimate at the extensive margin are negative, large, and l­ong-lasting.
+When children are young, we find lower annual earnings because women who
+would otherwise work decide to work fewer hours or stop working for pay alto-
+gether. When children get older, however, we find lower annual earnings because
+women receive lower hourly earnings. In particular, we find that women who would
+otherwise work in ­better-paid jobs move into l­ower-paid jobs that are much closer
+to home. Second, do women earn less because of second-born (or later born) chil-
+dren (the intensive margin)? The answer is yes and no. In the short run, the fertility
+effects we estimate at the intensive margin are negative, albeit more modest in size.
+In the long run, these negative fertility effects fade out and disappear. Together, our
+findings leave little doubt that fertility effects are much stronger at the extensive
+margin than at the intensive margin.
+   While our findings confirm the widely held view that the labor market conse-
+quences of childbearing are substantial and long-lasting, it is important to remember
+that we are studying the impact of children on labor market careers of IVF treated
+women in Denmark, where parents have access to generous maternity leave, job
+protection, and child care benefits. In particular, questions arise about the wider gen-
+eralizability of these IVF findings. First, are the labor market effects we find for IVF
+treated women generalizable to other women? They probably are. We find that IVF
+treated women respond to exogenous fertility shocks at the intensive margin in simi-
+lar ways as do other Danish women. Second, how do women respond to having chil-
+dren in developed countries that have less generous maternity leave arrangements?
+With our data at hand, we cannot provide an answer. We can however speculate. On
+the one hand, we may find smaller fertility effects if women who would otherwise
+
+
+   18
+        In online Appendix F we discuss in more detail how we arrive at these fertility effect estimates.
+1636                            THE AMERICAN ECONOMIC REVIEW                             June 2017
+
+
+
+take more time away from work take up less maternity leave when such leave is not
+readily available. On the other hand, we may find larger fertility effects if women
+who would otherwise return to their employer at the end of their maternity leave
+instead leave the labor market altogether. We provide some suggestive evidence that
+the adverse labor market consequences of having children are stronger in developed
+countries with less ­family-friendly policies. With Denmark being one of the most
+generous countries in terms of maternity leave arrangements, our IVF estimates then
+turn into conservative estimates that are informative about the causal impact of hav-
+ing children on labor market outcomes for women facing less generous maternity
+leave arrangements.
+
+                                         References
+
+Adda, Jérôme, Christian Dustmann, and Katrien Stevens. 2017. “The Career Costs of Children.” Jour-
+   nal of Political Economy 125 (2): 293–337.
+Agüero, Jorge M., and Mindy S. Marks. 2011. “Motherhood and Female Labor Supply in the Devel-
+   oping World: Evidence from Infertility Shocks.” Journal of Human Resources 46 (4): 800–826.
+Angelov, Nikolay, and Arizo Karimi. 2012. “Mothers’ Income Recovery after Childbearing.” Uppsala
+   University Department of Economics Center for Labor Studies Working Paper 2012–19.
+Angrist, Joshua D., and William N. Evans. 1998. “Children and Their Parents’ Labor Supply: Evidence
+   from Exogenous Variation in Family Size.” American Economic Review 88 (3): 450–77.
+Bargain, Olivier, Libertad Gonzalez, Claire Keane, and Berkay Ozcan. 2012. “Female Labor Supply
+   and Divorce: New Evidence from Ireland.” European Economic Review 56 (8): 1675–91.
+Becker, Gary S. 1981. A Treatise on the Family. Cambridge, MA: Harvard University Press.
+Bedard, Kelly, and Olivier Deschênes. 2005. “Sex Preferences, Marital Dissolution, and the Economic
+   Status of Women.” Journal of Human Resources 40 (2): 411–34.
+Bertrand, Marianne. 2011. “New Perspectives on Gender.” In Handbook of Labor Economics, Volume
+   4B, edited by David Card and Orley Ashenfelter, 1543–90. Amsterdam: Elsevier.
+Bitler, Marianne P., and Lucie Schmidt. 2012. “Utilization of Infertility Treatments: The Effects of
+   Insurance Mandates.” Demography 49 (1): 125–49.
+Bronars, Stephen G., and Jeff Grogger. 1994. “The Economic Consequences of Unwed Motherhood:
+   Using Twin Births as a Natural Experiment.” American Economic Review 84 (5): 1141–56.
+Browning, Martin. 1992. “Children and Household Economic Behavior.” Journal of Economic Liter-
+   ature 30 (3): 1434–75.
+Cristia, Julian P. 2008. “The Effect of a First Child on Female Labor Supply: Evidence from Women
+   Seeking Fertility Services.” Journal of Human Resources 43 (3): 487–510.
+Cruces, Guillermo, and Sebastian Galiani. 2007. “Fertility and Female Labor Supply in Latin Amer-
+   ica: New Causal Evidence.” Labour Economics 14 (3): 565–73.
+Feyrer, James, Bruce Sacerdote, and Ariel Dora Stern. 2008. “Will the Stork Return to Europe and
+   Japan? Understanding Fertility within Developed Nations.” Journal of Economic Perspectives 22
+   (3): 3–22.
+Goldin, Claudia. 1992. Understanding the Gender Gap: An Economic History of American Women.
+   Oxford: Oxford University Press.
+Gronau, Reuben. 1973. “The Effect of Children on the Housewife’s Value of Time.” Journal of Polit-
+   ical Economy 81 (2): S168–99.
+Harmon, Colm, Ian Walker, and Niels Westergard-Nielsen. 2001. Education and Earnings in Europe:
+   A Cross Country Analysis of the Returns to Education. Cheltenham: Edward Elgar Publishing.
+Hirvonen, Lalaina. 2009. “The Effect of Children on Earnings Using Exogenous Variation in Family
+   Size: Swedish Evidence.” Swedish Institute for Social Research Working Paper 2009–2.
+Iacovou, Maria. 2001. “Fertility and Female Labour Supply.” University of Essex Institute for Social
+   and Economic Research Working Paper 2001–19.
+Jacobsen, Joyce P., James Wishart Pearce, III, and Joshua L. Rosenbloom. 1999. “The Effects of
+   Childbearing on Married Women’s Labor Supply and Earnings: Using Twin Births as a Natural
+   Experiment.” Journal of Human Resources 34 (3): 449–74.
+Kleven, Henrik Jacobsen, Camille Landais, and Jakob Egholt Søgaard. 2017. “Children and Gender
+   Inequality: Evidence from Denmark.” http://www.henrikkleven.com/uploads/3/7/3/1/37310663/
+   kleven-landais-sogaard_gender_feb2017.pdf (accessed April 10, 2017).
+VOL. 107 NO. 6         Lundborg et al.: Can Women Have Children and a Career?                1637
+
+
+Lundborg, Petter, Erik Plug, and Astrid Würtz Rasmussen. 2016. “Children and Divorce: Evidence
+   from IVF Treatments.” Unpublished.
+Lundborg, Petter, Erik Plug, and Astrid Würtz Rasmussen. 2017. “Can Women Have Children and
+   a Career? IV Evidence from IVF Treatments: Dataset.” American Economic Review. https://doi.
+   org/10.1257/aer.20141467.
+Maurin, Eric, and Julie Moschion. 2009. “The Social Multiplier and Labor Market Participation of
+   Mothers.” American Economic Journal: Applied Economics 1 (1): 251–72.
+Nielsen, Helena Skyt, Marianne Simonsen, and Mette Verner. 2004. “Does the Gap in Family-Friendly
+   Policies Drive the Family Gap?” Scandinavian Journal of Economics 106 (4): 721–44.
+Pylkkänen, Elina, and Nina Smith. 2004. “The Impact of Family-Friendly Policies in Denmark and
+   Sweden on Mothers’ Career Interruptions Due to Childbirth.” Institute of Labor Economics IZA
+   Discussion Paper 1050.
+Rosenwaks, Zev, Owen Davis, and Mark Damario. 1995. “The Role of Maternal Age in Assisted
+   Reproduction.” Human Reproduction 10 (1): 165–73.
+Rosenzweig, Mark R., and Kenneth I. Wolpin. 1980. “Life-Cycle Labor Supply and Fertility: Causal
+   Inferences from Household Models.” Journal of Political Economy 88 (2): 328–48.
+Simonsen, Marianne. 2010. “Price of High-Quality Daycare and Female Employment.” Scandinavian
+   Journal of Economics 112 (3): 570–94.
+Stevenson, Betsy, and Justin Wolfers. 2007. “Marriage and Divorce: Changes and Their Driving
+   Forces.” Journal of Economic Perspectives 21 (2): 27–52.
+Templeton, Allan, Joan Morris, and William Parslow. 1996. “Factors that Affect Outcome of In-Vitro
+   Fertilisation Treatment.” Lancet 348 (9039): 1402–06.
+van Loendersloot, Laura, Sjoerd Repping, Patrick Bossuyt, Fulco van der Veen, and Madelon van
+   Wely. 2014. “Prediction Models in In Vitro Fertilization; Where Are We? A Mini Review.” Journal
+   of Advanced Research 5 (3): 295–301.
+Vere, James P. 2011. “Fertility and Parents’ Labour Supply: New Evidence from US Census Data.”
+   Oxford Economic Papers 63 (2): 211–31.
+Waldfogel, Jane. 1998. “Understanding the 'Family Gap' in Pay for Women with Children.” Journal of
+   Economic Perspectives 12 (1): 137–56.
+

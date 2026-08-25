@@ -1,0 +1,897 @@
+Applied Health Economics and Health Policy (2023) 21:91–107
+https://doi.org/10.1007/s40258-022-00764-7
+
+ ORIGINAL RESEARCH ARTICLE
+
+
+
+What Features of Fertility Treatment do Patients Value? Price Elasticity
+and Willingness‑to‑Pay Values from a Discrete Choice Experiment
+Elena Keller1      · Willings Botha2       · Georgina M. Chambers1
+
+Accepted: 9 September 2022 / Published online: 29 September 2022
+© The Author(s) 2022
+
+
+Abstract
+Background Infertility is a medical condition affecting an estimated 186 million people worldwide. Medically assisted fertil-
+ity treatments allow many of these individuals to have a baby. Insights about preferences of patients who have experienced
+fertility treatment should be used to inform funding policies and treatment configurations that best reflect the patients’ voice
+and the value of fertility treatment to patients.
+Objective To explore the preferences for fertility treatment attributes of infertile women who had previously undergone or
+were undergoing fertility treatments—ex post perspective.
+Methods We used data from a stated-preference discrete choice experiment (DCE) among 376 Australian women who had
+undergone or were undergoing fertility treatment. Respondents chose their preferred treatment choices in 12 hypothetical
+treatment choice scenarios described by seven attributes (success rates, side effects, counselling/peer support, treatment
+journey, continuity of care, availability of experimental treatment and out-of-pocket cost). We estimated random parameter
+logit (RPL) and latent class (LC) models that accounted for preference heterogeneity. The results were used to derive price
+elasticities of demand and marginal willingness-to-pay (WTP) values for the treatment attributes explored within the DCE
+survey.
+Results Income level did not have a significant effect on marginal WTP for fertility treatment attributes. The demand for
+fertility treatment from an ex post perspective was found to be highly inelastic (treatment cost changes had almost no impact
+on demand). Success rates and out-of-pocket costs were significant and important predictors of individuals’ treatment choices
+conditional on the attributes and levels included in the study. These were followed by counselling/peer support, side effects,
+treatment journey, continuity of care, and availability of experimental treatment, in that order. Respondents were willing
+to pay $383–$524 per one percentage point increase in the treatment success rate and over $2000 and over $3500 to avoid
+moderate and significant side effects, respectively (values are reported in AU$). Latent class models revealed that the major-
+ity of respondents (51%) were risk-averse success-rate seekers.
+Conclusion Infertile women who had previously undergone or were undergoing fertility treatment valued fertility treat-
+ment highly as reflected by highly price-inelastic demand. Success rate of treatment and out-of-pocket costs were the most
+important attributes and largely determined patients’ WTP for fertility treatment relative to the attributes and levels used
+in the study. While further research should investigate the price sensitivity of women who have not experienced fertility
+treatment, these results might explain why women continue fertility treatment once they have commenced despite their
+financial capacity to pay. Future research should also determine patients’ price elasticities for a fertility treatment program
+with multiple treatment cycles.
+
+
+
+
+* Elena Keller
+  e.keller@unsw.edu.au
+Extended author information available on the last page of the article
+
+
+                                                                                                                Vol.:(0123456789)
+92                                                                                                                    E. Keller et al.
+
+
+                                                                  approximately 80,000 ART cycles are undertaken annually,
+ Key Points for Decision Makers                                   resulting in the birth of one in 20 babies born [11].
+
+ Infertile women who had been or were undergoing fertil-          1.1 Funding for Fertility Treatment
+ ity treatment valued fertility treatment highly, with the
+ treatment success rate and out-of-pocket cost attributes         Funding for fertility treatments varies substantially around
+ having the highest conditional relative importance               the world [12–15]. Australia has a supportive funding envi-
+ among the attributes included in the study.                      ronment with its universal health insurance scheme reim-
+ Treatment demand was found to be highly inelastic to             bursing around two-thirds of the costs of each ART cycle,
+ changes in cost, and marginal willingness-to-pay for             without restrictions based on age or number of previous
+ treatment attributes did not change significantly with           attempts [16]. Arguably the reason for the wide variation in
+ patients’ income level.                                          funding arrangements for fertility treatments globally is that
+                                                                  current evaluation frameworks used by health-technology-
+ While further research should investigate how price-sen-         assessment bodies are not fit-for-purpose for assessing the
+ sitive women are to entering the fertility market, these         relative value/benefits associated with fertility treatments.
+ results might explain why women continue fertility treat-        This is fundamentally because most healthcare interventions
+ ment once they have commenced despite their financial            aim to improve, extend or save the life of an existing indi-
+ capacity to pay.                                                 vidual, while fertility treatments are judged by their ability
+                                                                  to create a new life.
+                                                                     Traditional health economic outcome measures, including
+                                                                  quality-adjusted life-years (QALYs), are designed to value
+                                                                  existing life and, therefore, do not adequately quantify health
+                                                                  gains of a life that has not yet been created, and QALYs
+1 Introduction                                                    arguably cannot be improved by creating them [17, 18].
+                                                                  Furthermore, preference-based utility weights are designed
+Infertility is recognized by the World Health Organization as     to value health-related quality of life and much of the (dis)
+a medical disease [1] causing significant suffering to an esti-   utility (harms and benefit) associated with having children
+mated 186 million people worldwide [2]. Infertility affects       are not health-related (e.g., carer burden, purpose/meaning
+approximately 15% of couples during their lifetime and is         in life). The variation in funding is also partly due to fertil-
+equally prevalent across high- and low-income countries [3,       ity treatment being considered as a somewhat discretionary
+4]. The number of individuals affected by infertility con-        good, despite infertility being a medical disease and repro-
+tinues to increase globally [4], largely due to the trend to      duction being the most fundamental of human functions.
+delayed childbearing, which increases the risk of age-related
+infertility, increasing rates of obesity and sexually transmit-   1.2 Discrete Choice Experiments (DCEs)
+ted infections, and a global decrease in sperm counts [5–7].           in the Context of Fertility Treatment
+   However, fertility treatments, including assisted reproduc-
+tive technologies (ARTs) such as in vitro fertilization (IVF),    Several stated-preference DCEs that assessed preferences
+allow many women to conceive. An ART treatment cycle              for fertility treatments have been published [19–30], of
+involves a series of steps performed in a fertility clinic over   which some elicited marginal willingness-to-pay (WTP)
+4–6 weeks, involving hormonal stimulation to mature multi-        values for different attributes of fertility treatment [21,
+ple eggs in the ovaries, retrieval of these eggs under general    23, 27–30] and, notably, one study comparing preferences
+anaesthetic, fertilization in the laboratory with partner or      across countries [29]. We are aware of only one applica-
+donor sperm, and transfer of the resulting embryo(s) into the     tion of DCEs to a fertility treatment context in Australia
+uterus in the hope of achieving a pregnancy. The success rate     [28], which elicited taxpayer/societal preferences for fertility
+of each cycle depends largely on female age, with the chance      treatment and derived marginal WTP values for treatment
+of a live birth around 40% per cycle in women aged under 35       attributes explored. A similar DCE survey has been adminis-
+years to less than 10% in women aged ≥ 40 years [8]. There-       tered to an ex post sample (i.e., women who have undergone
+fore, women often have to undergo multiple ART cycles to          or were undergoing fertility treatment), which is the focus
+achieve a birth (if at all) and many will discontinue treatment   of this study, providing the unique opportunity to compare
+due to psychological, financial or relationship stress [9]. The   preferences from a societal and ex post patient perspective.
+number of ART cycles undertaken globally has increased by         Understanding preferences of patients for fertility treat-
+around 5% per annum over the last decade, with an estimated       ment and the impact of changes in treatment costs on their
+3.4 million cycles performed each year [10]. In Australia,        demand is important because most women undergo multiple
+Patient Preferences for Fertility Treatment                                                                                        93
+
+ART treatment cycles, particularly if previous cycles have           out-of-pocket cost (Online Supplemental Material (OSM)
+been unsuccessful. Therefore, insights about preferences of          Table A). Fertility treatment attributes used in the DCE
+patients who have experienced fertility treatment can help           were identified through qualitative work [39–42], includ-
+inform funding policies and the treatment configuration that         ing reviewing relevant literature and conducting three focus
+best captures and reflects the patients’ voice and the ex post       group discussions (two with members of the general popula-
+value of fertility treatment to patients (rather than to those       tion and one with patients at a large fertility clinic in Sydney,
+who have never experienced treatment or the general public).         Australia). This qualitative work has been described in more
+The importance of incorporating patient experiences and              detail previously [28, 43]. Briefly, three broad categories of
+preferences (co-design) in health policy and reimbursement           attributes have been identified from the literature: (1) out-
+decisions are key principles of contemporary health technol-         come attributes (e.g., treatment effectiveness), (2) process
+ogy assessment [31].                                                 attributes (e.g., continuity of care), and (3) cost attribute.
+                                                                     These findings were supported by information provided in
+1.3 Price Elasticities of Demand                                    focus group discussions and expert consultations (including
+                                                                     two fertility doctors, one fertility nurse and one women’s
+Price elasticities indicate the percentage change in the             health academic).
+quantity demanded for every 1% change in price. Goods                   An online pilot study has been conducted with 31 par-
+and services with an elasticity of demand less than − 1 are          ticipants to validate the appropriateness of the seven fertil-
+classified as having elastic demand, whereas elasticities of         ity treatment attributes and their levels identified through
+demand between − 1 and 0 indicate inelastic demand [32].             qualitative work, and these were iteratively revised for clar-
+For policymakers, insurance companies and fertility treat-           ity until consensus was reached on their framing and word-
+ment providers it is important to understand how strongly            ing among the researchers performing the study. Women
+patients react to changes in treatment cost, with price elas-        participating in the pilot study were recruited from a mar-
+ticities being critical for understanding the change in con-         ket research company’s (Survey Sampling International)
+sumer demand. Price elasticities are used by health insurers         general population panel who had previously undergone or
+and providers for resource planning, informing the quantity          were undergoing fertility treatments to conceive (i.e., ex post
+of displaced treatment under constrained budgets, and regu-          perspective). A questionnaire similar to the one used for the
+lating demand through pricing.                                       main study, including 12 choice tasks, was administered to
+   There is limited literature on price elasticities for fertility   participants in the pilot study. Results from the pilot study
+treatments which are based on either survey data from WTP            provided prior information on preferences, which informed
+studies [33] or empirical market data including changes in           the fractional experimental design of the final survey for the
+the quantity demanded due to the introduction of a policy            main study. Furthermore, theoretical validity was explored
+intervention [34–38].                                                by confirming that the cost attribute had the expected nega-
+                                                                     tive sign, and an additional consistency check was performed
+1.4 Objectives                                                      confirming that participants did not choose a dominated
+                                                                     option (30 participants chose the dominant treatment and
+This study aimed to derive price elasticities of demand for          one participant chose neither treatment in the choice task
+fertility treatment and marginal WTP values for its key              used for the consistency check).
+characteristics, by applying the results of a DCE conducted
+with women who had undergone or were undergoing fertility            2.2 Data
+treatment (i.e., ex post perspective).
+                                                                     The DCE used a D-efficient Bayesian fractional experimen-
+                                                                     tal design and was administered to a sample of 376 women
+2 Methods                                                           who had previously undergone or were undergoing fertility
+                                                                     treatments to conceive (i.e., ex post perspective), recruited
+2.1 Design of the DCE                                               from the same market research general population panel as
+                                                                     used for the pilot. The questionnaire consisted of a consent
+A DCE conducted in Australia in 2018 asked women to                  form, instructions (including an explanation of the context
+choose their preferred treatment in 12 hypothetical choice           of the survey, the attributes and their levels, as well as an
+scenarios describing two fertility treatments. The unla-             example choice task), 12 choice tasks, and additional fol-
+belled treatments related to a single fertility treatment cycle      low-up questions about the difficulty of the choice tasks and
+and were defined by seven attributes: success rates, side            respondents’ socio-demographic characteristics. An exam-
+effects, counselling/peer support, treatment journey, con-           ple choice task is displayed in Fig. 1 and OSM section B
+tinuity of care, availability of experimental treatment, and         includes a sample questionnaire.
+94                                                                                                                                     E. Keller et al.
+
+
+                                                                   Xijt 𝛽 = ASCa + ASCn + 𝛽1 (side effects) + 𝛽2 (success rate)
+
+                                                                          + 𝛽3 (counselling, peer support) + 𝛽4 (treatment journey)
+
+                                                                          + 𝛽5 (continuity of care) + 𝛽6 (alternative treatment) + 𝛽7 (costs),
+
+
+                                                                   where 𝛽1 (side effects) to 𝛽7 (costs) are marginal utilities
+                                                                   showing individuals’ preferences for fertility treatment
+                                                                   attributes and levels. In each of the 12 hypothetical choice
+                                                                   scenarios of the DCE participants had to choose their pre-
+                                                                   ferred treatment –treatment A, treatment B, or neither. We
+                                                                   regressed participants’ choices in each choice task on the
+                                                                   levels of each fertility treatment attribute. All attributes were
+                                                                   included as categorical variables except for the success rate
+                                                                   and treatment costs, which were included as continuous vari-
+                                                                   ables. To determine an appropriate regression model, we
+                                                                   tested for non-linearity of the cost and success rate attributes
+                                                                   (results of these tests are shown in OSM Figs. A1 and A2).
+                                                                   Effects coding was used for categorical variables [44]. Given
+Fig. 1  Example choice task in discrete choice experiment survey   that the DCE was unlabelled, we included alternative-spe-
+                                                                   cific constants (ASCs) for choosing treatment A ­(ASCa) as
+                                                                   well as the “Neither” option ­(ASCn) in our model specifica-
+   The cost attribute had five levels, $40, $600, $4,000,
+                                                                   tions to capture whether individuals derive (dis)utility from
+$8,000 or $10,000 in out-of-pocket (OOP) costs (in AU$),
+                                                                   systematically choosing treatment A or neither treatment,
+respectively, which reflect the range of OOP costs for dif-
+                                                                   respectively.
+ferent types of fertility treatment in Australia (e.g., approxi-
+                                                                      We first used a main-effects multinomial logit (MNL)
+mately $40 for a medical prescription for ovulation induction
+                                                                   model to analyze DCE responses and progressed from there
+medication to $10,000 for a non-subsidized ART treatment
+                                                                   to a main-effects random parameter logit (RPL) model and,
+cycle). This cost of treatment variation allowed the calcula-
+                                                                   finally, to an RPL model also including interaction effects
+tion of price elasticities of demand for fertility treatment. In
+                                                                   between family income and the treatment cost attribute to
+addition, information on socio-demographic characteristics
+                                                                   control for income effects. Coefficients for attribute levels
+was collected, including annual family income before any
+                                                                   were assumed to follow a normal distribution except for
+tax deductions, which was used to control for the impact
+                                                                   the cost attribute where we assumed a log-normal distribu-
+of income on treatment demand. Ethics approval was
+                                                                   tion. Income was measured as a categorical variable and we
+obtained from the University of New South Wales, Sydney
+                                                                   assumed a linear shift in the cost coefficient depending on
+(HC17255).
+                                                                   the income category. The models were compared based on
+                                                                   goodness-of-fit measures, including log-likelihood, Akaike
+2.3 Regression Analysis
+                                                                   information criterion (AIC), Bayesian information crite-
+                                                                   rion (BIC), and adjusted Rho-square. The most preferred
+According to random utility theory, the utility of an indi-
+                                                                   model was used to derive relative preference weights and
+vidual i derived from choosing alternative j (Treatment A,
+                                                                   the conditional relative importance of each attribute. Prefer-
+B or neither) in choice set t is given by:
+                                                                   ence weights are reflective of respondents’ relative strength
+Uijt = Xijt 𝛽 + 𝜀ijt ; i = 1, 2, … , ni ; t = 1, 2, … , nt ,       of preferences for attribute levels, with higher preference
+                                                                   weights associated with more preferred attribute levels. To
+where Uijt is the utility, Xijt is a vector of variables repre-    derive the conditional relative importance of each attrib-
+senting attributes of alternative j, and 𝛽 is a vector of coef-    ute we first calculated the difference between the prefer-
+ficients. Xijt 𝛽 is the deterministic component, 𝜀ijt the random   ence weights on the most influential attribute level and the
+component, ni the number of respondents, and nt is the num-        least influential attribute level. These differences were then
+ber of choice scenarios. We assumed a linear and additive          summed across attributes and the sum scaled to 100. Finally,
+deterministic component as follows:                                the conditional relative importance of each attribute was cal-
+                                                                   culated as a percentage of this total. Variables were consid-
+                                                                   ered to have a significant effect on the preferred treatment
+                                                                   choice if the ρ-value was less than 0.05.
+Patient Preferences for Fertility Treatment                                                                                   95
+
+    The RPL regression model results were also used to deter-       3 Results
+mine marginal WTP for the fertility treatment attributes and
+levels explored within the DCE (reported in AU$). Based on          3.1 Survey Respondents
+the RPL model, price elasticities of demand were derived to
+predict the change in demand after an increase in treatment         A total of 376 female participants who underwent fertility
+costs. More specifically, price elasticities of demand were         treatment completed the DCE survey in September 2018,
+derived based on predictions for our data before and after          resulting in 4512 observations (376 participants × 12 hypo-
+increasing the price (i.e., cost attribute) for treatment A or      thetical choice scenarios). On average, participants took 9
+treatment B by 1% in all choice sets (e.g., if the cost attribute   min to complete the survey. In 15.14% of choice scenarios
+was equal to $600 in OOP costs, it was increased to $606)           the “Neither” option was chosen, 2.39% (n = 9) of partici-
+where the alternatives in each choice set were treatment A,         pants chose the “Neither” option across all choice scenarios,
+treatment B or neither. The predictions indicate the prob-          and 56.12% of participants chose one of the two treatments
+ability that an alternative is chosen in each choice scenario       across all choice scenarios. Most participants (80.85%) indi-
+(i.e., observation) at the model estimates, and these can be        cated that it was very easy, easy or OK to complete the DCE
+summed across observations to derive the aggregated pre-            survey. OSM Table A2 presents the socio-demographic char-
+dicted demand [45]. By comparing the aggregated predicted           acteristics of participants.
+demand before and after increasing the price, we were able             Internal validity tests showed that respondents did not
+to compute price elasticity estimates according to the fol-         have a dominant preference, meaning that no respondent
+lowing equation:                                                    consistently chose the alternative that maximized or mini-
+    Equation 1 Price elasticity of demand formula                   mized the level of a particular attribute without considering
+                                                                    the level of other attributes. Furthermore, 40 respondents
+Price elasticity of demand
+                                                                    were presented with a choice scenario where one treatment
+   Percentage change in aggregated predicted demand
+=                                                   .               was dominant (i.e., given the objective ordering of attribute
+                 Percentage change in price                         levels, the treatment was superior to the dominated treat-
+                                                                    ment) and 37 (92.50%) respondents chose the dominant
+   Marginal WTP values to accept an attribute level were
+                                                                    treatment, consistent with the theory of rational decision-
+derived based on the marginal rate of substitution with the
+                                                                    making, while one respondent chose neither treatment and
+payment vehicle (cost) attribute according to Equation 2
+                                                                    two respondents chose the dominated treatment.
+[46]. Due to the use of effects coding, we were able to derive
+marginal WTP values for all levels of each attribute included
+                                                                    3.2 Random Parameter Logit Model
+in the model as categorical variable. Therefore, the values
+reflect the marginal WTP to accept an attribute level. The
+                                                                    Three models were compared: Main-effects MNL and RPL
+marginal WTP for a change in attribute levels can be derived
+                                                                    models (models 1 and 2), and RPL model with interac-
+by determining the difference in marginal WTP values of the
+                                                                    tion effects between family income and the cost attribute
+attribute levels to be compared.
+                                                                    (model 3). Model 3 was preferred based on goodness-of-fit
+   Equation 2 Marginal rate of substitution with the payment
+                                                                    measures.
+vehicle (cost) attribute to derive marginal WTP values
+                                                                       The RPL regression results (Table 1) indicate that indi-
+                      𝛽                                             viduals derived utility from choosing a fertility treatment
+WTPattribute level = − attribute level .                            compared to not choosing a treatment (i.e., choosing the
+                           𝛽cost
+                                                                    “Neither” option).
+   In addition to the RPL regression model, we explored                Figure 2 shows respondents’ relative strength of prefer-
+latent class (LC) analysis to identify whether treatment pref-      ences for attributes and levels, and Fig. 3 shows the condi-
+erences vary across classes where class membership was              tional relative importance of attributes used in the study.
+based on family income and respondent age. The ideal num-           Respondents had strong preferences for a high treatment
+ber of classes is theoretically unknown [47], therefore, we         success rate and low OOP costs, with the success rate and
+explored models with up to six classes and an iterative pro-        cost attributes being the most preferred. These were fol-
+cedure was used to retain four classes based on comparisons         lowed by counselling/peer support, side effects, treatment
+of the log-likelihood, AIC and BIC, after which an addi-            journey, continuity of care, and availability of experimen-
+tional class did not significantly improve the model fit [48].      tal treatment, in that order. Patients were willing to pay
+All analyses were conducted with the statistical software R,        $383–$524 (range of point estimates across income cat-
+version 4.0.3 [49], and the Apollo package for choice model         egories) for one percentage point increase in the treatment
+estimation [45, 50].                                                success rate. Assuming OOP costs of approximately $7,000
+96                                                                                                                                        E. Keller et al.
+
+Table 1  Results of a random parameter logit regression model
+                      Model (3)
+                      Coefficient (robust Standard devia-     Marginal WTP      Marginal WTP if   Marginal WTP if   Marginal WTP Marginal WTP
+                      standard error)     tion (robust stand- if income         income $25,000–   income $50,000–   if income        if income
+                                          ard error)          < $25,000 (robust $49,999 (robust   $99,999 (robust   $100,000–        > $150,000 (robust
+                                                              standard error)   standard error)   standard error)   $150,000 (robust standard error)
+                                                                                                                    standard error)
+
+Asca                  0.027716          – 0.091000
+                        (0.036459)        (0.068691)
+Ascn                  – 2.248463***     3.135957***
+                        (0.342150)        (0.244748)
+Outcome attrib-
+ utes
+Side effects
+     Negligible       0.3852***         0.3315**           $2594.49           $1893.42            $2126.64          $1,988.38       $2286.61 (496.49)
+                        (0.0675)          (0.1081)           (858.67)           (396.47)            (367.36)          (371.12)
+     Moderate         – 0.053121        0.009057           – $357.83          – $261.14           – $293.31         – $274.24       – $315.37 (324.86)
+                        (0.053947)        (0.071639)         (386.00)           (269.63)            (302.25)          (282.74)
+     Significant      – 0.332037***     – 0.340584***      – $2236.65         – $1632.28          – $1833.33        – $1714.14      – $1971.24
+                        (0.072947)        (0.073739)         (769.91)           (392.76)            (377.13)          (375.32)        (492.92)
+Success rate per      0.077860***       0.054693***        $524.48 (161.69) $382.76 (62.56)       $429.90 (52.49)   $401.95 (55.00) $462.24 (78.83)
+ treatment cycle        (0.006964)        (0.003971)
+ (%)
+Process attrib-
+ utes
+Counselling and
+ peer support
+ groups
+     No informa-      0.1389**          – 0.0009           $935.49 (449.91) $682.71 (262.64) $766.80 (296.09) $716.95               $824.48 (328.98)
+     tion               (0.0461)          (0.0700)                                                              (278.83)
+     Brochures        – 0.453414***     0.037835           – $3054.27         – $2228.96          – $2503.51        – $2340.75      – $2691.83
+                        (0.055201)        (0.070413)         (1021.76)          (454.26)            (459.97)          (434.95)        (573.59)
+     On-site          0.314538***       – 0.036939         $2118.78           $1546.25            $1,736.71         $1623.80        $1867.35 (380.17)
+                        (0.043354)        (0.058689)         (688.18)           (312.40)            (296.37)          (277.87)
+Treatment
+ journey
+     Same treat-  – 0.2658***           0.2815* (0.1280) – $1790.73           – $1306.85          – $1467.82        – $1372.39      – $1578.23
+     ment pathway   (0.0750)                               (712.43)             (403.98)            (403.36)          (398.08)        (484.27)
+     Some level of    0.417739***       – 0.222181         $2813.96           $2053.59            $2306.53          $2156.58        $2480.04 (801.22)
+     personalized       (0.120470)        (0.129426)         (1166.30)          (664.66)            (676.25)          (662.06)
+     treatment
+     High level of    – 0.151901*       – 0.059320         – $1023.23         – $746.74           – $838.71         – $784.19       – $901.80 (399.83)
+     personalized     (0.061458)          (0.042300)         (531.44)           (329.89)            (354.41)          (338.44)
+     treatment
+Continuity of
+ care
+     Patients are     – 0.0537          – 0.2815*          – $361.66          – $263.93           – $296.44         – $277.17       – $318.74 (364.47)
+     seen by dif-       (0.0614)          (0.1154)           (414.06)           (299.75)            (331.97)          (310.87)
+     ferent doctors
+     and nurses
+     Patients are     – 0.302422**      – 0.074604         – $2037.16         – $1486.69          – $1669.81        – $1561.25      – $1795.42
+     seen by the        (0.110292)        (0.095703)         (1038.06)          (622.99)            (690.54)          (653.07)        (748.97)
+     same doctor
+     but different
+     nurses
+Patient Preferences for Fertility Treatment                                                                                                         97
+
+Table 1  (continued)
+                      Model (3)
+                      Coefficient (robust Standard devia-     Marginal WTP      Marginal WTP if   Marginal WTP if   Marginal WTP Marginal WTP
+                      standard error)     tion (robust stand- if income         income $25,000–   income $50,000–   if income        if income
+                                          ard error)          < $25,000 (robust $49,999 (robust   $99,999 (robust   $100,000–        > $150,000 (robust
+                                                              standard error)   standard error)   standard error)   $150,000 (robust standard error)
+                                                                                                                    standard error)
+
+     Patients are     0.356110***       – 0.099395*        $2398.82           $1750.62            $1966.25          $1838.42        $2114.16 (525.89)
+     seen by the        (0.058888)        (0.048750)         (881.67)           (430.77)            (445.22)          (431.97)
+     same team of
+     doctors and
+     nurses
+Availability of
+ "alternative"
+ experimental
+ treatments
+     Not available    0.1382* (0.0692) 0.3127 (0.2061)     $930.60 (580.15) $679.14 (372.42) $762.79 (420.05) $713.20               $820.17 (459.48)
+                                                                                                                (389.37)
+     "Alternative"    – 0.383243***     – 0.276422         – $2581.59         – $1884.01          – $2116.07        – $1978.49      – $2275.24
+      treatments        (0.103273)        (0.150695)         (1121.70)          (614.03)            (672.76)          (622.46)        (766.44)
+      may be
+      considered if
+      requested
+     "Alternative"    0.245093***       – 0.036292         $1650.99           $1204.87            $1353.27          $1265.29        $1455.07 (418.53)
+      treatments        (0.057207)        (0.232231)         (656.98)           (338.23)            (356.34)          (332.32)
+      offered
+Cost attribute
+Cost of treatment – 0.00014845**
+ (AU$)              (0.00004585)
+Interaction
+  effects a
+     Cost × family
+     income (base
+     level: income
+     < $25,000)
+     $25,000–         – 0.00005497
+      $49,999           (0.00005524)
+     $50,000–         – 0.00003266
+      $99,999           (0.00005026)
+     $100,000–        – 0.00004525
+      $150,000          (0.00005215)
+     >$150,000        – 0.00001999
+                        (0.00005363)
+     Income not       – 0.00005104
+      reported          (0.00006013)
+No. of observa-       4512
+ tions
+Log-likelihood        – 3383.35
+AIC                   6830.69
+BIC                   7035.96
+Adjusted Rho-         0.311
+ square
+
+
+AIC Akaike information criterion, BIC Bayesian information criterion, WTP willingness-to-pay
+*
+    p-value < 0.05; **p-value < 0.01; ***p-value < 0.001
+a
+    Interaction effects between family income and the treatment cost attribute
+98                                                                                                                                    E. Keller et al.
+
+
+
+
+Fig. 2  Preference weights of fertility treatment attributes based on       (success rate and out-of-pocket costs), the preference weights are the
+random parameter logit (RPL) model with interaction effects between         parameter estimates centered around the mean of parameter estimates
+treatment costs and patient family income (vertical bars indicate the       for the attribute levels. The preference weights are log odds, which
+95% confidence interval (CI)). For categorical variables, the param-        are distributed symmetrically around zero. The vertical bars sur-
+eter estimates are the preference weights corresponding to the effects-     rounding each mean preference weight denote the 95% CI about the
+coded attribute levels ranging from − 1 to 1. For continuous variables      point estimate.
+
+
+
+
+Fig. 3  Conditional relative importance of fertility treatment attrib-      attribute level. These differences are summed across attributes and
+utes based on random parameter logit (RPL) model with interaction           the sum is scaled to 100. The conditional importance of each attribute
+effects between treatment costs and patient family income. The con-         is a percentage of this total. The vertical bars surrounding each rela-
+ditional relative importance is the difference between the preference       tive importance weight estimate denote the 95% confidence interval
+weights on the most influential attribute level and the least influential   around the point estimate.
+
+
+
+for one IVF cycle in Australia, this means that women were                  from a change in the success rate from 10% to 40% was over
+prepared to pay 5–7% more in OOP costs for a one percent-                   three times the utility derived from a change from signifi-
+age point increase in the success rate. The utility derived                 cant to negligible side effects. Patients were willing to pay
+Patient Preferences for Fertility Treatment                                                                                                       99
+
+Table 2  Price elasticities of                                              Price elasticity of demand (95% CI)
+demand for fertility treatment
+based on random parameter                                                   Treatment A                           Treatment B
+logit (RPL) and latent class
+(LC) regression models                  Random parameter logit model        – 0.0040 (– 0.0039, – 0.0042)         – 0.0042 (– 0.0040, – 0.0043)
+                                        Latent class model with 4 classes
+                                         Class 1                            – 0.01305 (– 0.01276, – 0.01333)      – 0.01345 (– 0.01315, – 0.01376)
+                                         Class 2                            – 0.00153 (– 0.00148, – 0.00158)      – 0.00159 (– 0.00155, – 0.00164)
+                                         Class 3                            – 0.00667 (– 0.00651, – 0.00684)      – 0.00680 (– 0.00664, – 0.00697)
+                                         Class 4                            – 0.02321 (– 0.02246, – 0.02396)      – 0.02461 (– 0.02390, – 0.02532)
+
+
+
+$2,155–$2,952 and $3,526–$4,831 in order to avoid moder-                    effects, with a marginal WTP of $9,876 (95% CI $250.96,
+ate and significant side effects from treatment, respectively.              $19,501.61) to avoid significant side effects, and they did not
+   OSM Table A3 provides comparisons of preference                          differentiate between moderate and negligible side effects.
+weights for all levels of each attribute to provide more                       Class 2 individuals (51.32%) were risk-averse success-
+insights about changes in attribute levels. Individuals signifi-            rate seekers. This class was characterized as having a strong
+cantly preferred a treatment with counselling options on-site               preference for treatment with a high success rate and indi-
+or without information on counselling options at all over a                 viduals were willing to pay $1,019.49 (95% CI $674.82,
+treatment providing information via brochures as well as a                  $1,364.16) per one percentage point increase in the suc-
+treatment with some level of personalization over a highly                  cess rate. The counselling and peer support attribute were
+personalized treatment. In contrast, there was no significant               less than half as important as the success rate attribute
+difference between a treatment with continuity of care of                   conditional on the attributes explored in the study. Class 2
+doctors only compared with one without continuity of care                   individuals were indifferent to changes in the attributes for
+of doctors and nurses. Patients either strongly preferred                   treatment journey, continuity of care, and the availability
+experimental treatments being offered or not being offered                  of alternative experimental treatments. Individuals in this
+compared with them being considered if requested.                           class also derived utility from a treatment with lower costs.
+   Price elasticities Our results suggest a price elastic-                  Compared with other classes, the price elasticity was low,
+ity of – 0.0040 (95% confidence interval (CI): − 0.0039,                    indicating almost no decrease in the treatment demand if
+− 0.0042), which is a point estimate across the whole range                 treatment costs increased by 1%.
+of prices explored within the DCE ($40–$10,000 in OOP                          Individuals in class 3 (26.34%) cared about all attributes
+costs). Similar price elasticity estimates were found when                  explored in this study, with the cost and success rate attrib-
+prices where increased for treatment B by 1%, indicat-                      utes having the highest conditional relative importance.
+ing no choice bias in the DCE between treatments A and                      Attribute levels for the treatment journey and availability of
+B (Table 2). These results suggest that fertility treatment                 experimental treatments were disordered, with some level
+demand was found to be highly inelastic to changes in cost                  of personalization and experimental treatments not being
+of treatment.                                                               available significantly preferred over a high level of person-
+   Impact of income The coefficients for interactions                       alization and experimental treatments being considered on
+between income and the cost attribute were not significant,                 request, respectively (OSM Table A4). Individuals signifi-
+indicating that income did not have a significant impact on                 cantly preferred a treatment with lower costs.
+fertility treatment demand.                                                    Class 4 respondents (15.79%) seemed to be willing to
+                                                                            sacrifice some treatment quality in exchange for lower costs.
+3.3 Latent Class Model                                                     The continuity of care and cost attributes had the highest
+                                                                            conditional relative importance. Respondents in this class
+Table 3 and Figs. 4 and 5 present the results of a LC model                 significantly preferred a treatment with some level of per-
+with four classes. Class membership was not evenly distrib-                 sonalization over a highly personalized treatment and were
+uted, with 6.56%, 51.32%, 26.34% and 15.79% of individu-                    willing to pay an additional $6,724.12 (95% CI $1,812.44,
+als belonging to classes 1–4, respectively.                                 $11,635.82) for some personalization. Patients in this class
+   None of the regression coefficients, except for signifi-                 derived utility if the continuity of care attribute changed
+cant side effects, were significant for individuals in class 1              from patients being seen by the same doctor but different
+(6.56%), and the level of side effects had a high conditional               nurses to being seen by different doctors and nurses or same
+relative importance of 28.98% (95% CI 0.74, 57.22). Indi-                   team of doctors and nurses at each visit. Patients either
+viduals in this class had a strong aversion for a treatment                 strongly preferred experimental treatments being offered
+with significant side effects compared with moderate side                   or not being offered compared with them being considered
+Table 3  Results of latent class regression model with four classes                                                                                                                              100
+                      Class 1 (6.56%)                             Class 2 (51.32%)                         Class 3 (26.34%)                         Class 4 (15.79%)
+                      Coefficient (robust   Marginal WTP          Coefficient (robust   Marginal WTP       Coefficient (robust   Marginal WTP       Coefficient (robust   Marginal WTP
+                      standard error)       (robust standard      standard error)       (robust standard   standard error)       (robust standard   standard error)       (robust standard
+                                            error)                                      error)                                   error)                                   error)
+
+Asca                  0.023109                                    0.015440                                 – 0.065161                               – 0.709661
+                        (0.455681)                                  (0.046499)                               (0.069237)                               (0.722796)
+Ascn                  3.917261                                    – 1.990703***                            0.688400**                               – 10.683825***
+                        (2.364639)                                  (0.440371)                               (0.253373)                               (1.266739)
+Outcome attrib-
+  utes
+Side effects
+   Negligible         0.9854 (0.6345)       $2902.68 (713.49)     0.1358** (0.0426)     $1,886.29 (410.54) 0.1731** (0.0583)     $821.20 (285.69)   0.2965 (0.2081)       $403.70 (173.98)
+   Moderate           1.183741              $3,486.82             – 0.045018            – $625.46 (943.06) 0.151677              $719.52 (354.20)   0.062484              $85.09 (650.20)
+                        (0.605509)            (1502.90)             (0.065590)                               (0.078992)                               (0.492722)
+   Significant        – 2.169172*           – $6,389.49           – 0.090749            – $1,260.83        – 0.324788**          – $1,540.71        – 0.358948            – $488.79 (742.66)
+                        (1.106507)            (1537.51)             (0.079845)            (995.25)           (0.103079)            (465.56)           (0.644217)
+Success rate per      0.088444              $260.52 (114.42)      0.073379***           $1,019.49 (175.85) 0.066841***           $317.08 (45.81)    0.072937*             $99.32 (20.12)
+ treatment cycle        (0.052309)                                  (0.009170)                               (0.010578)                               (0.029538)
+ (%)
+Process attributes
+Counselling & peer
+ support groups
+   No information – 0.0739 (0.3298)         – $217.75 (904.86) 0.0878*** (0.0260) $1220.10 (553.12) – 0.0176 (0.0375)            – $83.30 (174.28) 0.1270 (0.1694)        $172.88 (252.70)
+   Brochures         – 0.075195             – $221.49          – 0.504971***      – $7015.81         – 0.171447*                 – $813.30 (422.75) – 0.784284*           – $1,067.97 (635.08)
+                       (0.546981)             (1528.52)          (0.075027)         (1717.73)          (0.085124)                                     (0.373767)
+   On-site           0.149118               $439.24 (1785.25) 0.417153***         $5795.72 (1262.30) 0.189006*                   $896.60 (445.54)   0.657326**            $895.09 (428.73)
+                       (0.675051)                                (0.067799)                            (0.093159)                                     (0.252410)
+Treatment journey
+   Same treatment – 0.3370 (0.2140)         – $992.70 (566.75) – 0.0052 (0.1036)        – $72.93 (1436.31) – 0.1447***           – $686.36 (190.57) – 0.4246**            – $578.18 (200.20)
+     pathway                                                                                                 (0.0357)                                 (0.1434)
+   Some level of     0.273451               $805.47 (1176.59)     0.009671              $134.36 (5659.54) 0.397653***            $1,886.37 (610.85) 2.681284**            $3,651.15 (626.13)
+     personalized      (0.439358)                                   (0.407484)                               (0.120136)                               (0.973065)
+     treatment
+   High level of     0.063560               $187.22 (1129.28)     – 0.004421            – $61.42 (4267.65) – 0.252965*           – $1,200.00        – 2.256689**          – $3,072.97 (495.12)
+     personalized      (0.375300)                                   (0.307193)                               (0.100519)            (494.68)           (0.869938)
+     treatment
+Continuity of care
+   Patients are seen – 0.2975 (0.3357)      – $876.32 (830.36) – 0.1418 (0.0985)        – $1969.88         – 0.0482 (0.0408)     – $228.62 (184.38) 1.2984*** (0.1678) $1768.12 (418.49)
+     by different                                                                         (1441.85)
+     doctors and
+     nurses                                                                                                                                                                                      E. Keller et al.
+Table 3  (continued)
+                       Class 1 (6.56%)                           Class 2 (51.32%)                          Class 3 (26.34%)                          Class 4 (15.79%)
+                       Coefficient (robust   Marginal WTP        Coefficient (robust   Marginal WTP        Coefficient (robust   Marginal WTP        Coefficient (robust   Marginal WTP
+                       standard error)       (robust standard    standard error)       (robust standard    standard error)       (robust standard    standard error)       (robust standard
+                                             error)                                    error)                                    error)                                    error)
+
+   Patients are seen   0.496821              $1,463.43           0.098750              $1,371.98           – 0.217129            – $1030.01          – 4.870309***         – $6631.98
+     by the same         (1.011031)           (2335.62)            (0.387963)           (5404.89)            (0.140568)            (720.86)            (0.228124)            (1930.76)
+     doctor but dif-
+     ferent nurses
+   Patients are seen   – 0.199318            – $587.11           0.043035              $597.91 (4043.99)   0.265323*             $1258.62 (583.26)   3.571863***           $4863.87 (1530.37)
+     by the same         (0.763853)            (1971.35)           (0.291134)                                (0.109133)                                (0.095827)
+                                                                                                                                                                                                Patient Preferences for Fertility Treatment
+
+
+
+     team of doc-
+     tors and nurses
+Availability of
+ "alternative"
+ experimental
+ treatments
+   Not available       0.1155 (0.2879)       $340.25 (955.55)    0.0099 (0.0782)       $136.85 (1098.52)   0.0944 (0.0557)       $447.91 (267.81)    0.0858 (0.3345)       $116.90 (488.45)
+   "Alternative"       – 0.334867            – $986.38           – 0.132799            – $1845.05          – 0.292878*           – $1,389.34         – 1.584979**          – $2158.29
+     treatments          (0.511561)            (1967.42)           (0.283624)            (4059.96)           (0.124877)            (625.93)            (0.496827)            (1066.56)
+     may be
+     considered if
+     requested
+   "Alternative"       0.219357              $646.14 (1489.39)   0.122949              $1708.19 (3026.41) 0.198456*              $941.43 (436.77)    1.499135**            $2041.40 (703.39)
+     treatments          (0.421036)                                (0.211287)                               (0.086157)                                 (0.461803)
+     offered
+Cost attribute
+Cost of treatment      – 0.00033949                              – 0.00007198***                           – 0.0002108***                            – 0.00073437**
+ (AU$)                   (0.00018498)                              (0.0000174)                               (0.00002576)                              (0.00023628)
+No. of observations    4512
+Log-likelihood         – 3297.53
+AIC                    6761.06
+BIC                    7293.46
+Adjusted Rho-          0.318
+ square
+
+AIC Akaike information criterion, BIC Bayesian information criterion, WTP willingness-to-pay
+*
+    p-value < 0.05; **p-value < 0.01, ***p-value < 0.001
+
+
+
+
+                                                                                                                                                                                                101
+102                                                                                                                             E. Keller et al.
+
+
+
+
+Fig. 4  Preference weights of fertility treatment attributes based on    parameter estimates centered around the mean of parameter estimates
+latent class (LC) model with 4 classes (vertical bars indicate the 95%   for the attribute levels. The preference weights are log odds, which
+confidence interval (CI)). For categorical variables, the parameter      are distributed symmetrically around zero. The vertical bars sur-
+estimates are the preference weights corresponding to the effects-       rounding each mean preference weight denote the 95% CI about the
+coded attribute levels ranging from − 1 to 1. For continuous variables   point estimate.
+(success rate and out-of-pocket costs), the preference weights are the
+
+
+if requested. The side effects, counselling and success rate             4 Discussion
+attributes had the lowest conditional relative importance.
+    Table 3 presents the WTP results from the LC analysis                Based on the RPL and LC models, we derived price elastic-
+in more detail. Furthermore, OSM Figs. A3 and A4 present                 ity estimates for fertility treatment ranging from − 0.00153
+class membership by family income category and respondent                to − 0.02461, which suggests highly inelastic demand. This
+age. These figures indicate that 40% of class 2 individuals              suggests that changes in cost of fertility treatment had almost
+(risk-averse success-rate seekers) had an income ≥$100,000               no impact on the demand for fertility treatment. This sug-
+and 55% of respondents were ≤ 40 years old. Interestingly,               gests that women value fertility treatment and having a baby
+35% of individuals in class 4, who seemed to be willing                  highly. Compared with published estimates, the elasticity
+to sacrifice some treatment quality for lower costs, had an              estimates from this study are mostly lower in magnitude,
+annual family income of at least $100,000 and respondents                suggesting less elastic demand than most other studies, pos-
+in this class tended to be younger, with 44% being aged                  sibly due to different settings (countries) or using different
+18–34 years and a further 20% being aged 35–40 years.                    methodologies and perspectives (ex ante or ex post) among
+    Price elasticities Elasticity estimates based on the LC              other things. Among the publications reporting price elas-
+model results ranged from − 0.00153 in class 2 to − 0.02321              ticity estimates for fertility treatment summarized in OSM
+in class 4 (Table 2). This indicates highly inelastic demand             Table A5, only one study is based on stated-preference
+for fertility treatment with almost no impact on treatment               methods using contingent valuation. Unlike our results,
+demand when treatment costs increase by 1%.                              elasticity estimates of the contingent valuation study sug-
+                                                                         gest elastic demand for IVF and intrauterine insemination
+                                                                         with the quantity demanded decreasing by 1.32–1.48% for
+                                                                         every 1% increase in treatment costs [33]. Studies based
+                                                                         on market data report more varied estimates: While some
+Patient Preferences for Fertility Treatment                                                                                                    103
+
+
+
+
+Fig. 5  Class distribution (left) and conditional relative importance of   across attributes and the sum is scaled to 100. The conditional impor-
+fertility treatment attributes (right) based on latent class model with    tance of each attribute is a percentage of this total. The vertical bars
+four classes. The conditional relative importance is the difference        surrounding each relative importance weight estimate denote the 95%
+between the preference weights on the most influential attribute level     confidence interval around the point estimate.
+and the least influential attribute level. These differences are summed
+
+
+suggest elastic demand [34, 37], others report inelastic                       Our study only included women who have undergone or
+demand [35, 36] with positive price elasticities for some                  were going through fertility treatment (ex post perspective),
+countries including Australia [36]. Similar to published price             meaning they have been able to afford to undertake at least
+elasticity estimates for an Australian context, we also found              one treatment cycle, thus the initial financial barrier to com-
+inelastic demand for fertility treatment. However, in contrast             mencing treatment was not experienced or was overcome.
+to the positive estimates reported in the literature for Aus-              Furthermore, it is well recognized that many patients find
+tralia, our estimates seem to be more in line with economic                it difficult to discontinue ART treatment because it signals
+theory assuming fertility treatments are ordinary goods                    they are giving up on their goal or dream of having a child
+(i.e., goods for which the quantity demanded decreases                     [54, 55]. While further research should investigate how
+when price increases). We were not able to derive income                   price-sensitive women are to entering the fertility market,
+elasticities for fertility treatment because income was not                these results might explain why women continue fertility
+explicitly explored within the DCE and because it was meas-                treatment once they have commenced regardless of their
+ured on a categorical, instead of continuous, scale. However,              financial capacity to pay.
+our RPL regression model suggests no significant impact                        Although participants were asked to make their choices
+of income on treatment demand. In contrast, published lit-                 as they would in real life, they were not asked to consider
+erature reports a positive relationship between income or                  undergoing multiple cycles, which are often required to
+socio-economic status and treatment demand [37, 51–53],                    achieve a live birth (if at all). In reality, patients also make
+which is in line with economic theory that for most goods                  a decision about the number of treatment cycles to undergo,
+the quantity demanded increases with income.                               particularly if previous treatment attempts have been unsuc-
+   In summary, our results suggest women are willing to pay                cessful. It is likely that treatment costs and patient income
+high amounts for fertility treatment in the hope of having                 are restrictive factors in this decision: An analysis of changes
+children regardless of their income level or ability to pay.               in public funding for IVF treatment in Australia suggested
+This finding demonstrates the high value women place on                    that a substantial proportion of patients were not able to
+their fertility and desire for a child. It also has implications           afford the number of cycles they desire after a reduction in
+for equity of access to fertility care with financial barriers             funding [56]. Therefore, future research should explore price
+likely to be a significant reason for women not being able to              elasticities for a likely treatment program of multiple cycles.
+access much desired treatment if they cannot afford it.                    Another limitation of our study is that the results might be
+                                                                           affected by hypothetical bias, thereby limiting our ability to
+104                                                                                                                                E. Keller et al.
+
+draw conclusions. Hypothetical bias could also be a reason          patients either strongly preferred experimental treat-
+why we were unable to find a significant effect of income           ments being offered or not being offered compared with
+on preferences if respondents under-stated the importance           them being considered if requested. This disordering might
+of the cost attribute. In this context, a recent systematic lit-    reflect that some patients actively seek experimental treat-
+erature review and meta-analysis of DCEs in the healthcare          ments hoping to increase their chances of having a baby
+sector found only moderate accuracy of DCEs for predicting          even though their benefits are not supported by scientific
+health-related choices [57].                                        evidence [59], whereas others prefer purely evidence-based
+    Perhaps unsurprisingly, our results show that infertile         treatment [60].
+women who accessed or were going through fertility treat-               Similarly, disordering in the counselling attribute might
+ment generally derived utility from a treatment with high           have been due to a general disinterest in brochures, which
+success rates, low costs, on-site counselling, negligible           is in line with evidence showing that patients rarely browse
+side effects, some personalization of the treatment journey,        through or take home brochures [61]. Finally, some level of
+continuity of care of fertility doctors and nurses, and avail-      personalization was preferred over no or highly personal-
+ability of experimental treatments, in that order conditional       ized treatment in our analysis, which could have been due
+on the attributes and levels included in the study. This is         to patients wanting to benefit from treatment personalization
+mostly in line with the results of a recently published analy-      [62] without being overwhelmed by too many options [60,
+sis of a similar DCE exploring preferences and marginal             63].
+WTP for fertility treatment attributes from a societal/tax-             Knowing the responsiveness of demand for fertility treat-
+payer perspective in Australia [28]. While taxpayers were           ments to changes in treatment cost is valuable information
+willing to pay more for a treatment that considers or offers        for policymakers, insurers and providers who regularly
+experimental add-on treatments compared with one where              make decisions about treatment funding and pricing. Price
+experimental treatments are not available, the patient per-         increases deter women or couples from undergoing effective
+spective presented in this study indicates an aversion for a        fertility treatment and price elasticity estimates can provide
+treatment considering experimental treatments if requested          an indication of the quantity of treatments displaced due to
+compared with a treatment where experimental treatments             policy interventions affecting funding.
+are either offered or not available. Furthermore, patients
+cared about the treatment journey and being offered some
+level of treatment personalization, whereas this attribute          5 Conclusion
+was not important for taxpayers. Latent class model results
+further suggest that approximately one-sixth of patients pre-       Our study shows that infertile women who had previously
+fer not having continuity of care of doctors and nurses over        undergone or were undergoing fertility treatment valued fer-
+continuity of care of doctors only. Given that price elasticity     tility treatment highly as reflected by highly price-inelastic
+estimates for patients in this class were highest in magnitude,     demand. Success rate of treatment and out-of-pocket costs
+it might indicate a preference for low-cost fertility treatment.    were the most important attributes, and largely determined
+Patients would be willing to compromise on the treatment            patients’ WTP for fertility treatment relative to the attributes
+process in exchange for lower costs. Comparing our results          and levels used in the study. Income level had no significant
+to the broader literature suggests that marginal WTP values         effect on WTP for fertility treatment. While further research
+for some attributes of fertility treatment are similar across       should investigate how price-sensitive women are to entering
+countries. For instance, our study indicated a marginal WTP         the fertility market, these results might explain why women
+value of $383–$524 across income categories for a one per-          continue fertility treatment once they have commenced
+centage point increase in the treatment success rate, which         despite their financial capacity to pay. Future research should
+is comparable to values reported for European countries [23,        also determine price elasticities for those who have not expe-
+29, 58]. Given that other studies used different fertility treat-   rienced fertility treatment for a fertility treatment program
+ment attributes, a direct comparison of the marginal WTP            with multiple treatment cycles.
+values is often not possible. However, the literature gener-
+ally suggests a high marginal WTP for reducing the level of         Supplementary Information The online version contains supplemen-
+                                                                    tary material available at https://​doi.​org/​10.​1007/​s40258-​022-​00764-7.
+side effects or complications [21, 23], which is in line with
+our findings.                                                       Acknowledgements The authors thank patients who agreed to partici-
+    Interestingly, the preference weights for some attributes       pate in the DCE survey.
+are often v-shaped, indicating disordering of attribute lev-
+els, which means that an objectively worse attribute was            Funding Open Access funding enabled and organized by CAUL and
+preferred. This suggests that patients had a strong prefer-         its Member Institutions.
+ence for certain characteristics of treatment. For instance,
+Patient Preferences for Fertility Treatment                                                                                                        105
+
+
+Declarations                                                                   4. Mascarenhas MN, Flaxman SR, Boerma T, Vanderpoel S, Stevens
+                                                                                  GA. National, regional, and global trends in infertility prevalence
+                                                                                  since 1990: a systematic analysis of 277 health surveys. PLoS
+Funding This study was supported by an Australian National Health
+                                                                                  Med. 2012;9(12): e1001356.
+and Medical Research Council project grant (APP1104543) and a
+                                                                               5. Cohen MA, Sauer MV. Fertility in Perimenopausal Women. Clin
+scholarship from the University of New South Wales School of Wom-
+                                                                                  Obstet Gynecol. 1998;41(4):958–65.
+en’s and Children’s Health.
+                                                                               6. Petraglia F, Serour GI, Chapron C. The changing prevalence of
+                                                                                  infertility. Int J Gynecol Obstet. 2013;123(S2):S4–8.
+Conflicts of interest GMC declares that the Fertility Society of Aus-          7. Levine H, Jørgensen N, Martino-Andrade A, Mendiola J, Wek-
+tralia and New Zealand provides funding for the University of New                 sler-Derri D, Mindlis I, et al. Temporal trends in sperm count:
+South Wales (UNSW), Sydney, to manage the Australia and New Zea-                  a systematic review and meta-regression analysis. Hum Reprod
+land Assisted Reproduction Database (ANZARD). GMC is the Data                     Update. 2017;23(6):646–59.
+Custodian of ANZARD and an employee of UNSW. EK and WB re-                     8. Newman JE, Paul RC, Chambers GM. Assisted reproductive tech-
+port no conflicts of interest.                                                    nology in Australia and New Zealand 2019. Sydney; 2021.
+                                                                               9. Gameiro S, Boivin J, Peronace L, Verhaak CM. Why do patients
+Ethics approval Ethics approval was obtained from the University of               discontinue fertility treatment? A systematic review of reasons
+New South Wales, Sydney (HC17255). The study has been performed                   and predictors of discontinuation in fertility treatment. Hum
+in accordance with the ethical standards of the Declaration of Helsinki.          Reprod Update. 2012;18(6):652–69.
+                                                                              10. Adamson GD, de Mouzon J, Chambers GM, Zegers-Hochschild
+Consent to participate Informed consent was obtained from all                     F, Mansour R, Ishihara O, et al. International Committee for
+respondents in the study.                                                         Monitoring Assisted Reproductive Technology: world report
+                                                                                  on assisted reproductive technology, 2016 (preliminary) 2020
+Consent for publication (from patients) The ethics approval covered               [updated 7 July 2020. https://​secur​eserv​ercdn.​net/​198.​71.​233.​
+consent to publish de-identified results from the data collected in the           47/​3nz.​654.​myftp​upload.​com/​wp-​conte​nt/​uploa​ds/​ICMART-​
+survey.                                                                           ESHRE-​WR2016-​FINAL-​20200​901.​pdf. 15 April 2022.
+                                                                              11. Newman JE, Paul RC, Chambers GM. Assisted reproductive tech-
+Data and/or code availability The datasets generated during and/or                nology in Australia and New Zealand 2018. Sydney: National
+analyzed during the current study are not publicly available due to               Perinatal Epidemiology and Statistics Unit, Unit NPEaS; 2020.
+ethical restrictions. A request for the code can be made directly to the      12. Chambers GM, Keller E, Choi S, Khalaf Y, Crawford S, Botha
+corresponding author.                                                             W, et al. Funding and public reporting strategies for reduc-
+                                                                                  ing multiple pregnancy from fertility treatments. Fertil Steril.
+Authors’ contributions All authors contributed to the study concept               2020;114(4):715–21.
+and design. WB and GC were responsible for the acquisition of data;           13. Berg Brigham K, Cadier B, Chevreul K. The diversity of regula-
+EK undertook the data analyses. The first draft of the manuscript was             tion and public financing of IVF in Europe and its impact on
+written by EK and all authors commented on earlier versions of the                utilization. Hum Reprod. 2013;28(3):666–75.
+manuscript. All authors read and approved the final manuscript.               14. Fertility Europe, European Society of Human Reproduction and
+                                                                                  Embryology. A Policy Audit on Fertility: Analysis of 9 EU Coun-
+                                                                                  tries: March 2017. Brussels; 2017.
+Open Access This article is licensed under a Creative Commons Attri-          15. International Federation of Fertility Societies. IFFS Surveillance
+bution-NonCommercial 4.0 International License, which permits any                 2016. Glob Reprod Health. 2016;1: e1.
+non-commercial use, sharing, adaptation, distribution and reproduction        16. Australian Government Department of Health. Medicare benefits
+in any medium or format, as long as you give appropriate credit to the            schedule book: operating from 1 august 2019. Canberra: Com-
+original author(s) and the source, provide a link to the Creative Com-            monwealth of Australia; 2019.
+mons licence, and indicate if changes were made. The images or other          17. Brown RCH. Irresponsibly infertile? Obesity, efficiency, and
+third party material in this article are included in the article's Creative       exclusion from treatment. Health Care Anal. 2019;27(2):61–76.
+Commons licence, unless indicated otherwise in a credit line to the           18. Devlin N, Parkin D. Funding fertility: Issues in the allocation and
+material. If material is not included in the article's Creative Commons           distribution of resources to assisted reproduction technologies.
+licence and your intended use is not permitted by statutory regula-               Hum Fertil. 2003;6:S2–6.
+tion or exceeds the permitted use, you will need to obtain permission         19. van Empel IWH, Dancet EAF, Koolman XHE, Nelen WLDM,
+directly from the copyright holder. To view a copy of this licence, visit         Stolk EA, Sermeus W, et al. Physicians underestimate the impor-
+http://​creat​iveco​mmons.​org/​licen​ses/​by-​nc/4.​0/.                          tance of patient-centredness to patients: a discrete choice experi-
+                                                                                  ment in fertility care. Hum Reprod. 2011;26(3):584–93.
+                                                                              20. Goh ES-Y, Miller FA, Marshall DA, Ungar WJ. Genetic counse-
+                                                                                  lors’ preferences for coverage of preimplantation genetic diagno-
+References                                                                        sis: a discrete choice experiment. Clin Genet. 2019;95(6):684–92.
+                                                                              21. Braam SC, de Bruin JP, Mol BWJ, van Wely M. The perspective
+ 1. Zegers-Hochschild F, Adamson GD, De Mouzon J, Ishihara O,                     of women with an increased risk of OHSS regarding the safety
+    Mansour R, Nygren K, et al. International Committee for Monitor-              and burden of IVF: a discrete choice experiment. Human Reprod
+    ing Assisted Reproductive Technology (ICMART) and the World                   Open. 2020;2. 1-8
+    Health Organization (WHO) revised glossary of ART terminol-               22. van den Wijngaard L, Rodijk ICM, van der Veen F, Gooskens-van
+    ogy, 2009. Fertil Steril. 2009;92(5):1520–4.                                  Erven MHW, Koks CAM, Verhoeve HR, et al. Patient preference
+ 2. Inhorn MC, Patrizio P. Infertility around the globe: new thinking             for a long-acting recombinant FSH product in ovarian hyper-
+    on gender, reproductive technologies and global movements in the              stimulation in IVF: a discrete choice experiment. Hum Reprod.
+    21st century. Hum Reprod Update. 2015;21(4):411–26.                           2015;30(2):331–7.
+ 3. Cui W. Mother or nothing: the agony of infertility. Bull World            23. Abdulrahim B, Scotland G, Bhattacharya S, Mahesh-
+    Health Organ. 2010;88(12):881–2.                                              wari A. Assessing couples’ preferences for fresh or frozen
+106                                                                                                                                    E. Keller et al.
+
+      embryo transfer: a discrete choice experiment. Hum Reprod.             41. Ikenwilo D, Heidenreich S, Ryan M, Mankowski C, Nazir J,
+      2021;36(11):2891–903.                                                      Watson V. The best of both worlds: an example mixed methods
+24.   Weiss NS, Schreurs AMF, van der Veen F, Hompes PGA, Lam-                   approach to understand men’s preferences for the treatment of
+      balk CB, Mol BW, et al. Women’s perspectives on ovulation                  lower urinary tract symptoms. The Patient Patient-Centered Out-
+      induction with or without IUI as treatment for normogonado-                comes Res. 2018;11(1):55–67.
+      trophic anovulation: a discrete choice experiment. Human Reprod        42. Katz DA, Stewart KR, Paez M, Vander Weg MW, Grant KM,
+      Open. 2017;3. 1-7                                                          Hamlin C, et al. Development of a discrete choice experiment
+25.   van den Wijngaard L, van Wely M, Dancet EAF, van Mello NM,                 (DCE) questionnaire to understand veterans’ preferences for
+      Koks CAM, van der Veen F, et al. Patients’ preferences for gon-            tobacco treatment in primary care. The Patient Patient-Centered
+      adotrophin-releasing hormone analogs in in vitro fertilization.            Outcomes Res. 2018;11(6):649–63.
+      Gynecol Obstet Invest. 2014;78(1):16–21.                               43. Botha W, Donnolley N, Shanahan M, Chambers GM. Assessment
+26.   Musters AM, de Bekker-Grob EW, Mochtar MH, van der Veen                    of the societal and individual preferences for fertility treatment
+      F, van Mello NM. Women’s perspectives regarding subcutane-                 in Australia: study protocol for stated preference discrete choice
+      ous injections, costs and live birth rates in IVF. Hum Reprod.             experiments. BMJ Open. 2018;8: e020509.
+      2011;26(9):2425–31.                                                    44. Bech M, Gyrd-Hansen D. Effects coding in discrete choice experi-
+27.   Huppelschoten AG, Verkerk EW, Appleby J, Groenewoud H,                     ments. Health Econ. 2005;14(10):1079–83.
+      Adang EMM, Nelen WLDM, et al. The monetary value of patient-           45. Hess S, Palma D. Apollo version 0.2.6: User manual. 2019.
+      centred care: results from a discrete choice experiment in Dutch       46. Mariel P, Hoyos D, Meyerhoff J, Czajkowski M, Dekker T, Glenk
+      fertility care. Hum Reprod. 2014;29(8):1712–20.                            K, et al. Econometric modelling: basics. In: Environmental valua-
+28.   Botha W, Donnolley N, Shanahan M, Norman RJ, Chambers                      tion with discrete choice experiments: guidance on design, imple-
+      GM. Societal preferences for fertility treatment in Australia:             mentation and data analysis. Lorraine Klimowich (Ed). Cham:
+      a stated preference discrete choice experiment. J Med Econ.                Springer International Publishing; 2021, p. 61–81.
+      2019;22(1):95–107.                                                     47. Hole AR. Discrete choice methods in health economics. Health
+29.   Skedgel C, Ralphs E, Finn E, Markert M, Samuelsen C, Whitty                econometrics. In: Contributions to economic analysis. Badi H.
+      JA. How Do people with experience of infertility value different           Baltagi and Francesco Moscone (Ed). 294. Emerald Publishing
+      aspects of assistive reproductive therapy? Results from a multi-           Limited; 2018, p. 85–99.
+      country discrete choice experiment. The Patient Patient-Centered       48. Goossens LMA, Utens CMA, Smeenk FWJM, Donkers B, van
+      Outcomes Res. 2022. 15 459-472                                             Schayck OCP, Rutten-van Mölken MPMH. Should i stay or should
+30.   Loutfy M, Kennedy VL, Sanandaji M, Barry F, Ongoiba F,                     i go home? A latent class analysis of a discrete choice experiment
+      Muchenje M, et al. Pregnancy planning preferences among people             on hospital-at-home. Value in Health. 2014;17(5):588–96.
+      and couples affected by human immunodeficiency virus: Piloting a       49. R Core Team. R: a language and environment for statistical com-
+      discrete choice experiment. Int J STD AIDS. 2018;29(4):382–91.             puting. 403rd ed. Vienna: R Foundation for Statistical Computing;
+31.   Facey KM, Hansen HP, Single ANV. Patient involvement in health             2020.
+      technology assessment. Singapore: Springer Nature Signapore Pte        50. Hess S, Palma D. Apollo: A flexible, powerful and customisable
+      Ltd.; 2017.                                                                freeware package for choice model estimation and application. J
+32.   Wiseman V. Demand and supply: measuring demand. In: Guin-                  Choice Modell. 2019;32: 100170.
+      ness L, Wiseman V, editors. Introduction to health economics. 2nd      51. Bitler MP, Schmidt L. Utilization of infertility treatments: the
+      ed. Maidenhead: Open University Press; 2011. p. 55–68.                     effects of insurance mandates. Demography. 2011;49(1):125–49.
+33.   Darvishi A, Goudarzi R, Zadeh VH, Barouni M. Cost-benefit              52. Chambers GM, Adamson GD, Eijkemans MJC. Acceptable cost
+      Analysis of IUI and IVF based on willingness to pay approach;              for the patient and society. Fertil Steril. 2013;100(2):319–27.
+      case study: Iran. PLoS ONE. 2020;15(7): e0231584.                      53. Chambers GM, Hoang VP, Illingworth PJ. Socioeconomic
+34.   Hamilton BH, Jungheim E, McManus B, Pantano J. Health care                 disparities in access to ART treatment and the differential
+      access, costs, and treatment dynamics: evidence from in vitro fer-         impact of a policy that increased consumer costs. Hum Reprod.
+      tilization. Am Econ Rev. 2018;108(12):3725–77.                             2013;28(11):3111–7.
+35.   Connolly MP, Griesinger G, Ledger W, Postma MJ. The impact             54. Peddie VL, Van Teijlingen E, Bhattacharya S. A qualitative study
+      of introducing patient co-payments in Germany on the use of IVF            of women’s decision-making at the end of IVF treatment. Hum
+      and ICSI: a price-elasticity of demand assessment. Hum Reprod.             Reprod. 2005;20(7):1944–51.
+      2009;24(11):2796–800.                                                  55. Copp T, Kvesic D, Lieberman D, Bateson D, McCaffery KJ. ‘Your
+36.   Chambers GM, Sullivan EA, Ishihara O, Chapman MG, Adam-                    hopes can run away with your realistic expectations’: a qualitative
+      son GD. The economic impact of assisted reproductive tech-                 study of women and men’s decision-making when undergoing
+      nology: a review of selected developed countries. Fertil Steril.           multiple cycles of IVF. Human Reprod Open. 2020;4. 1-8
+      2009;91(6):2281–94.                                                    56. Chambers GM, Hoang VP, Zhu R, Illingworth PJ. A reduction in
+37.   Chambers GM, Hoang VP, Sullivan EA, Chapman MG, Ishi-                      public funding for fertility treatment—an econometric analysis of
+      hara O, Zegers-Hochschild F, et al. The impact of consumer                 access to treatment and savings to government. BMC Health Serv
+      affordability on access to assisted reproductive technologies and          Res. 2012;12(1):142.
+      embryo transfer practices: an international analysis. Fertil Steril.   57. Quaife M, Terris-Prestholt F, Di Tanna GL, Vickerman P. How
+      2014;101(1):191–8.                                                         well do discrete choice experiments predict health choices? A
+38.   Collins JA. An international survey of the health economics of             systematic review and meta-analysis of external validity. Eur J
+      IVF and ICSI. Hum Reprod Update. 2002;8(3):265–77.                         Health Econ. 2018;19(8):1053–66.
+39.   Coast J, Al-Janabi H, Sutton EJ, Horrocks SA, Vosper AJ, Swan-         58. Palumbo A, De La Fuente P, Rodríguez M, Sánchez F, Martínez-
+      cutt DR, et al. Using qualitative methods for attribute development        Salazar J, Muñoz M, et al. Willingness to pay and conjoint anal-
+      for discrete choice experiments: issues and recommendations.               ysis to determine women’s preferences for ovarian stimulating
+      Health Econ. 2012;21(6):730–41.                                            hormones in the treatment of infertility in Spain. Hum Reprod.
+40.   Vass C, Rigby D, Payne K. The role of qualitative research meth-           2011;26(7):1790–8.
+      ods in discrete choice experiments: a systematic review and survey     59. Wilkinson J, Malpas P, Hammarberg K, Mahoney Tsigdinos P,
+      of authors. Med Decis Making. 2017;37(3):298–313.                          Lensen S, Jackson E, et al. Do à la carte menus serve infertility
+Patient Preferences for Fertility Treatment                                                                                              107
+
+    patients? The ethics and regulation of in vitro fertility add-ons.   62. Mol BW, Bossuyt PM, Sunkara SK, Garcia Velasco JA, Vene-
+    Fertil Steril. 2019;112(6):973–7.                                        tis C, Sakkas D, et al. Personalized ovarian stimulation for
+60. Perrotta M, Hamper J. The crafting of hope: contextualising add-         assisted reproductive technology: study design considerations
+    ons in the treatment trajectories of IVF patients. Soc Sci Med.          to move from hype to added value for patients. Fertil Steril.
+    2021;287: 114317.                                                        2018;109(6):968–79.
+61. Jansen CJM, Koops van’t Jagt R, Reijneveld SA, van Leeuwen E,        63. Human Fertilisation and Embryology Authority (HFEA). Pilot
+    de Winter AF, Hoeks JCJ. Improving health literacy responsive-           national fertility patient survey 2018. London; 2018.
+    ness: a randomized study on the uptake of brochures on doctor-
+    patient communication in primary health care waiting rooms. Int
+    J Environ Res Public Health. 2021;18(9):5025.
+
+Authors and Affiliations
+
+Elena Keller1       · Willings Botha2         · Georgina M. Chambers1
+                                                                         1
+    Willings Botha                                                           Centre for Big Data Research in Health, University of New
+    willings.botha@iqvia.com                                                 South Wales Sydney, Sydney, NSW, Australia
+                                                                         2
+    Georgina M. Chambers                                                     IQVIA, The Point, 37 N Wharf Rd, London W2 1AF, UK
+    g.chambers@unsw.edu.au
+

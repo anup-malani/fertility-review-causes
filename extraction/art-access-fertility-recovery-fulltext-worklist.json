@@ -1,0 +1,752 @@
+[
+  {
+    "id": "W1860640930",
+    "job": "A2_IDENTIFIED",
+    "title": "Mandated Health Insurance Benefits and the Utilization and Outcomes of Infertility Treatments",
+    "year": 2007,
+    "venue": "National Bureau of Economic Research",
+    "doi": "10.3386/w12820",
+    "screen_cell": "P1_MANDATE",
+    "screen_arm": "arm2_estimate",
+    "screen_note": "NBER 2007. Utilisation AND outcomes of treatment; full text will decide whether a birth count is reported.",
+    "pages": 53,
+    "chars": 110498,
+    "probe_counterfactual": [
+      "effects on either health insurance or labor markets. These studies suggest that employers often provide mandated benefits even in the absence of a mandate (Gruber 1992; Kaestner and Simon 2002). In this case, mandates neither alleviate adverse selection no",
+      "e births compared to about 3% of all births (CDC 2005; Martin, Hamilton et al. 2005). The use of ovulation-inducing drugs, even in the absence of ART, generates similar concerns. Approximately one-third of the dramatic increase in multiple birth rates durin",
+      "ility of a birth for couples in the middle of the fertility distribution. Lower fertility patients are unlikely to have a birth without treatment and treatment generates a relatively small increase in that probability. Although the treatment effect is also"
+    ],
+    "probe_identification": [
+      "lementation compared to changes in states that did not adopt mandates. The following model provides the basic framework for our difference-in-difference estimates: y i ,t = \u03b1 + M i.t \u2212 2 \u03bb + X i ,t \u03b2 + S i \u03b3 + Yt \u03b4 + \u03b5 i ,t ."
+    ],
+    "probe_quantity": [
+      "th fertility rates and infertility treatment. Rates of multiple births among those conceiving with ART are high - approximately 30% of ART deliveries are multiple deliveries, compared to approximately 3% of births in the population as a whole. In our empiri"
+    ],
+    "probe_denominator": [
+      "lity treatments, differences by age in rates of twin and triplet births were relatively small. In 1980, rates of multiple births per 1,000 births were 20.5, 23.5, 25.3, and 23.0 for women aged 25-29, 30-34, 35-39, and 40-44, respectively (Martin and Park 19",
+      "For these years, we estimated the distribution of triplet, quadruplet, and quintuplet births based on the average of the national age-specific distribution for 1989 and 1990. Because the numbers of quadruplet and quintuplet births are very small, we believe th"
+    ]
+  },
+  {
+    "id": "W2058178715",
+    "job": "A2_IDENTIFIED",
+    "title": "Utilization of Infertility Treatments: The Effects of Insurance Mandates",
+    "year": 2011,
+    "venue": "National Bureau of Economic Research",
+    "doi": "10.3386/w17668",
+    "screen_cell": "P1_MANDATE",
+    "screen_arm": "arm2_estimate",
+    "screen_note": "NBER. Outcome is utilisation, not births \u2014 the first link of arm 2's chain.",
+    "pages": 47,
+    "chars": 99792,
+    "probe_counterfactual": [
+      "ll fertility treatments are expensive, the less expensive treatments are generally more likely to be covered by health insurance in the absence of mandates, in part because some of them can legitimately be billed under categories covered by most insurance pl",
+      "lies on employee rather than firm data. However, this is not usually the case for infertility treatment, which is rarely covered in the absence of mandates. Firms may also manipulate the combination of benefits and wages they offer to attract or r",
+      "t publicly available for a period before the mandates. 16 medical help to prevent miscarriage (which was likely to be covered in the absence of a mandate and should only indirectly respond to the mandates). We then decompose the \u201cobtained any medi"
+    ],
+    "probe_identification": [
+      "to follow a hierarchical progression, although not all couples progress neatly through all stages of treatment. In general, the first stage of treatment is a diagnostic workup, involving a thorough examination of each partner's reproductive organs and their",
+      "itial ovarian stimulation with clomiphene citrate for up to six cycles (taking at least 6 months). Level II involves the use of exogenous gonadotrophins (another drug used to stimulate ovulation), with or without intrauterine insemination (IUI), for up to s",
+      "Cost-effectiveness of IVF. Seminars in Reproductive Medicine, 19, 279\u2013289. Conley, T. G., & Taber, C. R. (2011). Inference with \u201cdifference in differences\u201d with a small number of policy changes. Review of Economics and Statistics, 93,113\u2013125. Connoll"
+    ],
+    "probe_quantity": [
+      "bly higher than in the United States. Nyboe Andersen et al. (2008) reported that ART procedures in Denmark were associated with 4.2% of live births in 2004, compared with about 1.2% in the United States (Martin et al. 2006; Wright et al. 2007). The CDC repo"
+    ],
+    "probe_denominator": []
+  },
+  {
+    "id": "W2134649289",
+    "job": "A2_IDENTIFIED",
+    "title": "A reduction in public funding for fertility treatment - an econometric analysis of access to treatment and sav",
+    "year": 2012,
+    "venue": "BMC Health Services Research",
+    "doi": "10.1186/1472-6963-12-142",
+    "screen_cell": "P1_MANDATE",
+    "screen_arm": "arm2_estimate",
+    "screen_note": "Australia's 2010 Medicare cut \u2014 a REDUCTION in public funding. Non-US identified variation and a rare downward margin.",
+    "pages": 15,
+    "chars": 96346,
+    "probe_counterfactual": [
+      "ozen Cycles may be needed the majority of the cost would be funded by govern- to achieve a pregnancy and many couples will discontinue ment - this meant that patients did not fully see the re- treatment after multiple failed attempts because of",
+      "s) age least one live-born infant of at least 20 weeks gestation) groups than for women aged \u226540 years (437 Fresh Cycles), that would have been born had the EMSNCap policy indicating the women in the younger age groups engaged not been introduced",
+      "kely to use up Medicare benefits savings and number of cycles not their frozen embryos in 2010 prior to discontinuing performed due to policy ART treatment or undertaking another Fresh Cycle."
+    ],
+    "probe_identification": [],
+    "probe_quantity": [],
+    "probe_denominator": [
+      "d Fresh Cycles (13202) and item 13203 was retained for IUI. Therefore to estimate utilisation for IUI cycles before the 2010, the age-specific proportion of 13202 to 13203 items performed in 2010 was used to adjust service and patient counts for MBS item 13203",
+      "however an adjustment was made to account for existing capacity of fertility clinics, and age-specific unob- MBS Item 13203 also being used to bill cancelled served factors. The estima"
+    ]
+  },
+  {
+    "id": "W2284249410",
+    "job": "A1_COUNTERFACTUAL",
+    "title": "In-vitro fertilization and spontaneous pregnancies: matching outcomes in Douala, Cameroon",
+    "year": 2016,
+    "venue": "Fertility Research and Practice",
+    "doi": "10.1186/s40738-015-0013-2",
+    "screen_cell": "P4_POSTPONEMENT_RECOVERY",
+    "screen_arm": "cannot_tell",
+    "screen_note": "**'IVF AND SPONTANEOUS PREGNANCIES: MATCHING OUTCOMES', Douala, Cameroon.** An explicit matched comparison of treated and spontaneously conceiving couples. Non-OECD so it tags SECONDARY under Wall 8, but the DESIGN is the one arm 1's counterfactual needs and almost nothing in the OECD frame supplies.",
+    "pages": 8,
+    "chars": 56972,
+    "probe_counterfactual": [
+      "erse outcomes among women with de- our team to conform to current norms regarding num- layed conception resulting from untreated infertility. ber of embryos to be transferred. There is strong evidence that advanced maternal age"
+    ],
+    "probe_identification": [
+      "conceived naturally [OR 4.10, 95 % CI 1.78\u20139.42]. Similarly, a higher percentage of patients in the IVF group than those in the control group have never given birth (33.3 % vs 2.0 %) (P < 0.0001). The percentage of multiple pregnancies was 7.5 times higher",
+      "birth (33.3 % vs 2.0 %) (P < 0.0001). The percentage of multiple pregnancies was 7.5 times higher in the IVF group than in the control group (14.7 % vs.1.96 %) (P = 0.000). The leading indication for cesarean delivery was advanced maternal age (27.3 %) fo",
+      "wed by IVF or precious pregnancy (18.2 %). Conclusions: Cesarean delivery was more frequent amongst the IVF group than in the control group. The leading indications for cesarean delivery were advanced maternal age and IVF or precious pregnancy. The lon"
+    ],
+    "probe_quantity": [],
+    "probe_denominator": []
+  },
+  {
+    "id": "W2429169488",
+    "job": "A2_IDENTIFIED",
+    "title": "Decision making about infertility treatment: does unlimited access lead to inappropriate treatment?",
+    "year": 2016,
+    "venue": "Israel Journal of Health Policy Research",
+    "doi": "10.1186/s13584-016-0083-6",
+    "screen_cell": "P1_MANDATE",
+    "screen_arm": "cannot_tell",
+    "screen_note": "ISRAEL, UNLIMITED PUBLICLY FUNDED ACCESS: IVF among women 40-44 rose sharply 2011-2014 while AGE-SPECIFIC BIRTH RATES DID NOT SUBSTANTIALLY CHANGE. Directly on the chapter's central question and pointing the opposite way to v5. Priority full-text.",
+    "pages": 3,
+    "chars": 15871,
+    "probe_counterfactual": [
+      "the absence of the use of donor oocytes in this population For couples who are unable to spontaneously conceive, are substantially lower than for younger women [8]. there is an additional cons"
+    ],
+    "probe_identification": [],
+    "probe_quantity": [],
+    "probe_denominator": [
+      "rtion of women aged 40\u201344 undergoing IVF treatment covered by Maccabi Health Services increased between 2011 and 2014. Although age-specific birth rates did not substantially change over this time period, the demographic change was accompanied by an overal",
+      "of Health Policy Research (2016) 5:23 Page 2 of 3 \u000f Age-specific success rates, defined as live births group has increased). If nothing else, better understanding divid"
+    ]
+  },
+  {
+    "id": "W2566343964",
+    "job": "A2_IDENTIFIED",
+    "title": "Can Women Have Children and a Career? IV Evidence from IVF Treatments",
+    "year": 2017,
+    "venue": "American Economic Review",
+    "doi": "10.1257/aer.20141467",
+    "screen_cell": "P1_MANDATE",
+    "screen_arm": "arm2_estimate",
+    "screen_note": "**AER 2017: IVF-induced fertility variation as an INSTRUMENT for having children, to estimate career effects.** Exactly A.12's twin-IV problem in A.17's frame: the paper is about careers, but its FIRST STAGE is A.17's estimand \u2014 how much fertility IVF actually produces, estimated on administrative data with clean identification and reported as a nuisance. Route to full-text first-stage extraction, not screened out.",
+    "pages": 28,
+    "chars": 109937,
+    "probe_counterfactual": [],
+    "probe_identification": [
+      "IVF success do not depend on labor market histories, IVF treatment success provides a plausi- ble instrument for childbearing. Our IV estimates indicate that fer- tility effects on earnings are: (i) negative, lar",
+      "ildren among women who have no children (yet). To identify fertility effects measured at the extensive margin, we propose a novel instrumental variable (IV) strategy based on in vitro fertilization (IVF). In particular, we sample childless women who go through",
+      "uccessfully treated women are virtually identical before they seek IVF treat- ment, we believe that IVF treatment success creates exogenous variation in the like- lihood of having children and can be used as an instrumental variable to estimate the causal effe"
+    ],
+    "probe_quantity": [],
+    "probe_denominator": [
+      "Table 3 contains the IV estimates of the effect of having children on the labor market outcomes of women, based on the \u00adsecond-stage specification in equation (2). 11 With comparable treatment effects for healthier women, we also dismiss a relate"
+    ]
+  },
+  {
+    "id": "W2571030681",
+    "job": "C_EXPOSURE_SERIES",
+    "title": "Systematic review of worldwide trends in assisted reproductive technology 2004\u20132013",
+    "year": 2017,
+    "venue": "Reproductive Biology and Endocrinology",
+    "doi": "10.1186/s12958-016-0225-2",
+    "screen_cell": "EXPOSURE_SERIES",
+    "screen_arm": "cannot_tell",
+    "screen_note": "**Systematic review of WORLDWIDE ART TRENDS 2004-2013.** A single synthesised source for the cross-national utilisation series \u2014 a channel-1 record for the demographic-significance stage.",
+    "pages": 9,
+    "chars": 55522,
+    "probe_counterfactual": [],
+    "probe_identification": [],
+    "probe_quantity": [
+      "re- In 2012 among fresh autologous ART cycles the U.S., gions in the world. While over the last 10 years most re- 73% of live births were singletons, 26% were twins, and gions demonstrated improvement, some showed no 1% were higher"
+    ],
+    "probe_denominator": [
+      "cluded reports which allowed calcula- preimplantation genetic screening (PGS), [5] single em- tion of number of live births per initiated fresh autolo- bryo transfer (SET) in place of double embryo transfer gous ART cycles",
+      "er order multiples). Perinatal mortality to 9.6% in those conceived with frozen-thawed embryos. rate was 12.4 deaths per 1,000 births (Additional file 2). Additionally, caesarian delivery rates decreased from In 2012 Canada reported tha"
+    ]
+  },
+  {
+    "id": "W2765482846",
+    "job": "A5_P6_BEHAVIOUR",
+    "title": "Childbearing postponement, its option value, and the biological clock",
+    "year": 2021,
+    "venue": "Journal of Economic Theory",
+    "doi": "10.1016/j.jet.2021.105231",
+    "screen_cell": "P6_INDUCED_POSTPONEMENT",
+    "screen_arm": "neither",
+    "screen_note": "**Journal of Economic Theory: childbearing postponement, its OPTION VALUE, and the biological clock.** P6's mechanism formalised \u2014 delay as an option whose value rises when a technology exists to exercise it later. The theoretical statement of exactly what the chapter says is empirically unmeasured.",
+    "pages": 44,
+    "chars": 118040,
+    "probe_counterfactual": [
+      "Equa- tion (7) shows that if we had considered a log utility function, the effect of uncertainty on the consumption/saving choice would have been ruled out. This is due to the fact that uncertainty, as it is modeled, affects the consumption/saving choice throu",
+      "1+ p The first term represents asset accumulation in the absence of procreation option. The second term is positive as \u03b5 > 1, again reflecting the idea that candidate mothers save",
+      "0 The first-order variation of W (a0 ) with respect to the state and control variable\u2019s path for a given a0 but for \u03c4 and a\u03c4 free yields: Z\u03c4 \u0012 \u0013"
+    ],
+    "probe_identification": [
+      "and concave function of consumption ct . We focus on a woman\u2019s program as Lundborg, Plug, and Rasmussen (2016) have shown, using instrumental variable evidence from IVF treatments, that the effects of having a child on her partner\u2019s annual earnings are small,",
+      "why educated women delay having their first child and why more of them remain permanently childless? Third, what is the effect of exogenous shocks on these choices, including the effect of a hypothetical insurance mechanism for mothers and of free and efficien",
+      "terility, 0.96% of postponement childlessness, and 0.4% of sterile women not wanting children. We now simulate the effect of two exogenous changes on women\u2019s behavior. The first change consists in the disappearance of the excess volatility undergone by mother"
+    ],
+    "probe_quantity": [],
+    "probe_denominator": []
+  },
+  {
+    "id": "W2888653606",
+    "job": "A3_SHARE",
+    "title": "Contribution of the Assisted Reproductive Technologies to the Fertility in Ukraine",
+    "year": 2018,
+    "venue": "Demography and social economy",
+    "doi": "10.15407/dse2018.02.082",
+    "screen_cell": "P3_ART_SHARE",
+    "screen_arm": "arm1_counting",
+    "screen_note": "Ukraine: ~1.6% of births ART-conceived. Non-OECD-core; tag SECONDARY under Wall 8 at extraction.",
+    "pages": 12,
+    "chars": 46256,
+    "probe_counterfactual": [],
+    "probe_identification": [],
+    "probe_quantity": [],
+    "probe_denominator": []
+  },
+  {
+    "id": "W2899333608",
+    "job": "A4_P5_CONVERSION",
+    "title": "Reproductive outcomes after oocyte banking for fertility preservation",
+    "year": 2018,
+    "venue": "Reproductive BioMedicine Online",
+    "doi": "10.1016/j.rbmo.2018.07.005",
+    "screen_cell": "P5_ELECTIVE_PRESERVATION",
+    "screen_arm": "cannot_tell",
+    "screen_note": "**REPRODUCTIVE OUTCOMES AFTER OOCYTE BANKING.** A births outcome for the banking population; indication not split in the record.",
+    "pages": 11,
+    "chars": 59007,
+    "probe_counterfactual": [
+      "n. c Two women had a pregnancy conceived with other medically assisted reproduction and after this their second pregnancy was natural conceived. d Followed unsuccessful attempt using banked oocytes. The strength of this study is that we"
+    ],
+    "probe_identification": [],
+    "probe_quantity": [],
+    "probe_denominator": [
+      "follow-up. Because developed the questionnaire ourselves difficult to compare as these studies the denominator of women who had based on published research and only reported on women who banked",
+      "participating women as studies after fertility preservation oversight, as follow-up of women who denominator was 5% (11/228). Although (Schmidt et al., 2013; Stoop et al., banked ovarian tissue before gonado"
+    ]
+  },
+  {
+    "id": "W2909656495",
+    "job": "A5_P6_BEHAVIOUR",
+    "title": "Running out of time? Understanding the consequences of the biological clock for the dynamics of fertility inte",
+    "year": 2019,
+    "venue": "Demographic Research",
+    "doi": "10.4054/demres.2019.40.1",
+    "screen_cell": "P6_INDUCED_POSTPONEMENT",
+    "screen_arm": "cannot_tell",
+    "screen_note": "**'RUNNING OUT OF TIME?' \u2014 the biological clock's effect on the DYNAMICS of fertility intentions AND union formation.** Belief and behaviour in one design, on panel data. Among the strongest P6 candidates found.",
+    "pages": 28,
+    "chars": 76530,
+    "probe_counterfactual": [],
+    "probe_identification": [
+      "ed the average score of the two items as a summary score (Cronbach\u2019s \uf8e5 is 0.80). 3.2.7 Perceived behavioral control We used an instrument covering the prerequisites for having a child. Respondents were asked: \u201cThe decision to become a parent is often tied t",
+      "1/j.1728-4457.2011.00391.x. Klein, T. and Stauder, J. (2008). Partnerm\u00e4rkte in Deutschland im Spiegel eines neuen Erhebungsinstruments. In: Huinink, J. and Feldhaus, M. (eds.). Neuere Entwicklungen in der Beziehungs- und Familienforschung: Vorstu"
+    ],
+    "probe_quantity": [],
+    "probe_denominator": [
+      ", and Eijkemans, M. (2012). The effect of postponement of first motherhood on permanent involuntary childlessness and total fertility rate in six European countries since the 1970s. Human Reproduction 27(4): 1179\u20131183. doi:10.1093/humrep/der4"
+    ]
+  },
+  {
+    "id": "W2959688822",
+    "job": "A2_IDENTIFIED",
+    "title": "The Impact of the Ontario Fertility Program on Duplicate Fertility Consultations",
+    "year": 2019,
+    "venue": "Healthcare policy",
+    "doi": "10.12927/hcpol.2019.25855",
+    "screen_cell": "P1_MANDATE",
+    "screen_arm": "arm2_estimate",
+    "screen_note": "**The ONTARIO FERTILITY PROGRAM \u2014 5,000 publicly funded IVF cycles a year, introduced as a discrete policy.** A clean non-US access expansion with a before/after design. The outcome here is duplicate consultations, so full text must say whether births were followed.",
+    "pages": 13,
+    "chars": 38336,
+    "probe_counterfactual": [],
+    "probe_identification": [
+      "tside the GTA (0.14%) further demonstrates the inequality of care. The strengths of this study include taking advantage of a natural experiment caused by a policy change and observing the effects in the population. The use of population-based data allows"
+    ],
+    "probe_quantity": [],
+    "probe_denominator": []
+  },
+  {
+    "id": "W2997596347",
+    "job": "A3_SHARE",
+    "title": "The limits to fertility recuperation",
+    "year": 2019,
+    "venue": "",
+    "doi": "10.4054/mpidr-wp-2019-024",
+    "screen_cell": "P4_POSTPONEMENT_RECOVERY",
+    "screen_arm": "arm1_counting",
+    "screen_note": "**'THE LIMITS TO FERTILITY RECUPERATION.'** Titled on the ceiling of A.17's claim: how much of postponed fertility gets recovered at all, by any route. The denominator against which ART's contribution has to be judged.",
+    "pages": 38,
+    "chars": 597882,
+    "probe_counterfactual": [
+      "f the 1960s and 1970s in Britain, and claimed that most \u2013 if not all \u2013 of the change in fertility rates would have still occurred in the absence of the eco- nomic changes that were observed during this period. Similarly R\u00e9gnier-Loilier et al. (2007) attributed",
+      "family size. In Appendix E, we per- form robustness checks that show that the model is still able to accurately fit the data even in the absence of information related to unplanned fertility. 11",
+      "nderstand that some of those forces were simultaneously preventing fertility from declining even further. By creating a series of counterfactual scenarios, we showed that without the increasing abilities and resources associated with the expansion of higher ed"
+    ],
+    "probe_identification": [
+      "fficient use of contraception), and by promoting the reduction of desired family sizes as women enter the labor market. Once this first stage is completed, however, further ad- vances in development might lead to the recuperation of fertility rates, as higher",
+      "lity de- cline, both by reducing unplanned fertility and by promoting the participation of women in the labor market. During this first stage, the negative effects outpace any potential gains. But once the contraceptive transition and the transition into the l",
+      "ndability drops to zero with the age at which the desired family size is reached, while still treating family size preferences as exogenous \u2013 thereby preventing the analysis of the social determinants of fertility change. By making no attempt to explicitly mod"
+    ],
+    "probe_quantity": [],
+    "probe_denominator": [
+      "nd Schindlmayr, 2003). Perceptions of the relationship between fertility and development started to change in the 1990s, when the Total Fertility Rate (TFR) stabilized in France, the Netherlands and the United Kingdom, and even increased slightly in Scandinavi",
+      "Sobotka (2012) have also questioned the idea of a sustained recuperation, claiming that a significant part of the increase in the Total Fertility Rate at the end of the 1990s can be attributed to the decelerating pace of the postponement transition and the gra"
+    ]
+  },
+  {
+    "id": "W3092390609",
+    "job": "A5_P6_BEHAVIOUR",
+    "title": "Women\u2019s perceptions of fertility assessment and counselling 6 years after attending a Fertility Assessment and",
+    "year": 2020,
+    "venue": "Human Reproduction Open",
+    "doi": "10.1093/hropen/hoaa036",
+    "screen_cell": "P6_INDUCED_POSTPONEMENT",
+    "screen_arm": "cannot_tell",
+    "screen_note": "Six-year perceptions follow-up of the same Danish FAC cohort.",
+    "pages": 13,
+    "chars": 119732,
+    "probe_counterfactual": [
+      "that I had in my ovaries and what the blood work told\u2019. (c) Wish for more information and/or discussion of options \u2018It would have been helpful to know you have a year. Do you want to get pregnant? If yes, ok you have these options, you can do this a",
+      "ct . . .the fact that she said. . . if you don\u2019t act you might not have kids and of course I was grateful for that because that would have been for me devastating. So I was grateful\u2019. \u2018I think you can become a bitter person if you, it gives you more force,"
+    ],
+    "probe_identification": [],
+    "probe_quantity": [],
+    "probe_denominator": []
+  },
+  {
+    "id": "W3115571668",
+    "job": "A2_IDENTIFIED",
+    "title": "Effect of inclusion of assisted reproductive technologies in the state health insurance programme in Russia",
+    "year": 2020,
+    "venue": "Population and Economics",
+    "doi": "10.3897/popecon.4.e59062",
+    "screen_cell": "P1_MANDATE",
+    "screen_arm": "cannot_tell",
+    "screen_note": "Russia's 2014 inclusion of IVF in state health insurance \u2014 a large non-US access expansion.",
+    "pages": 24,
+    "chars": 80885,
+    "probe_counterfactual": [
+      "ck BS, Anderson K, Broughton DE, Hamilton B, Jungheim ES (2019) Factors associated with early in vitro fertilization treatment discontinuation. Fertility and Sterility 112: 105\u2013111. https:// doi.org/10.1016/j.fertnstert.2019.03.007 Bennett LR (2017) Infe"
+    ],
+    "probe_identification": [
+      "nts for the employer or individual to acquire health insurance \u2013 are arranged differently. This creates an opportunity to use the difference-in-difference method and compare the effecti- veness of various regulations. In the work of Marianne P. Bitler and Luci",
+      "idely depending on the type of insurance. In the study by Kasey S. Buckles (Buckles 2013), a similar result is obtained using the difference-in-differences method. Analysis of the effectiveness of insurance programmes for the use of ART was also carried out on",
+      "hs in the age group 30 to 35 years old. In his works Lone Schmidt (Schmidt 2005, 2007) on the basis of micro and macro data using difference-in-differences and difference-in-difference-in-differences methods shows that insurance mandates have increased the num"
+    ],
+    "probe_quantity": [
+      "ridon 2004) shows that the devel- opment of the technology existing at the time of the study made it possible to make up for only 50% of the loss associated with postponement of births in the age group 30 to 35 years old. In his works Lone Schmidt (Schmidt 200"
+    ],
+    "probe_denominator": [
+      "mographics A number of studies consider ART as a factor influencing fertility rates: number of births, eventual cohort fertility, total fertility rate. Based on the simulation model of population reproduction, built using the Monte Carlo method on historica",
+      "s in the region. Studies show the presence of a significant positive relationship between the number of ART procedures and the total fertility rate (TFR) in Europe (Burcin et al. 2014). Another result was achieved when analyzing the impact of the growth of"
+    ]
+  },
+  {
+    "id": "W3191732024",
+    "job": "A2_IDENTIFIED",
+    "title": "Household income and medical help-seeking for fertility problems among a representative population in Japan",
+    "year": 2021,
+    "venue": "Reproductive Health",
+    "doi": "10.1186/s12978-021-01212-w",
+    "screen_cell": "P1_MANDATE",
+    "screen_arm": "cannot_tell",
+    "screen_note": "**HOUSEHOLD INCOME and medical help-seeking for fertility problems, representative Japanese population.** Income gradients in treatment entry are the reduced form of the price mechanism arm 2 estimates from policy \u2014 and Japan is a setting with its own subsidy regime.",
+    "pages": 12,
+    "chars": 76104,
+    "probe_counterfactual": [
+      "k with fertility plans. Once people sought uate the effect of such additional local subsidies on the medical help, they often discontinued fertility treatment improvements of medical help-seeking behavior among due to the difficulty in integratin",
+      "ied Fertility Treatment Subsidy Program Guide FY2020. 48. Gameiro S, Boivin J, Peronace L, Verhaak CM. Why do patients discontinue https://\u200bwww.\u200bcity.\u200bminato.\u200btokyo.\u200bjp/\u200bchiik\u200bihoken/\u200bkenko/\u200bninsh\u200bin/\u200bninsh\u200bin/\u200b fertility treatment? A syst"
+    ],
+    "probe_identification": [],
+    "probe_quantity": [
+      "for this project and performed the statistical analysis. AI and EM wrote the national birth trends, because 98% of births in Japan are first draft of the paper. AI, EM and YK contributed the acquisition of data. All registered to l"
+    ],
+    "probe_denominator": [
+      "National Institute of Population and Social Security In Japan, where the total fertility rate is low (1.42 in Research under the Ministry of Health, Labour, and 2018) and the mean parental age at fi"
+    ]
+  },
+  {
+    "id": "W3200409296",
+    "job": "A4_P5_CONVERSION",
+    "title": "Oocyte Cryopreservation at a Young Age Provides an Effective Strategy for Expanding Fertile Lifespan",
+    "year": 2021,
+    "venue": "Frontiers in Reproductive Health",
+    "doi": "10.3389/frph.2021.704283",
+    "screen_cell": "P5_ELECTIVE_PRESERVATION",
+    "screen_arm": "arm1_counting",
+    "screen_note": "**THE FIRST P5 RECORD WITH A FERTILITY OUTCOME rather than an attitude.** Elective oocyte banking modelled as a strategy for expanding the fertile lifespan. Everything else in the elective cell so far measures what women think about egg freezing, not what it produces.",
+    "pages": 8,
+    "chars": 61367,
+    "probe_counterfactual": [],
+    "probe_identification": [
+      "ght as a remedy. Although in vitro fertilization (IVF) has protocols. Some of the improvements achieved in the early been instrumental in the achievement of pregnancy for millions 00s involved the introduction of optimized cryopreservation"
+    ],
+    "probe_quantity": [],
+    "probe_denominator": [
+      "one (AMH), and elective oocyte cryopreservation are required to more accurately antral follicle count], providing age-specific ranges that should determine the efficacy and impact of this methodology based on ideally recognize early ov"
+    ]
+  },
+  {
+    "id": "W3210979915",
+    "job": "A5_P6_BEHAVIOUR",
+    "title": "Late Fertility Intentions and Fertility in Austria",
+    "year": 2021,
+    "venue": "",
+    "doi": "10.1553/0x003ccd3c",
+    "screen_cell": "P6_INDUCED_POSTPONEMENT",
+    "screen_arm": "cannot_tell",
+    "screen_note": "Companion to the Austrian record in batch 4: late fertility INTENTIONS against realized late fertility.",
+    "pages": 37,
+    "chars": 83112,
+    "probe_counterfactual": [
+      "artner at wave 1 and then separated, without a partner at wave 1 then with a partner). Though change in partner between the waves would have been interesting to study, \u201cwith a partner at wave 1 and without at wave 2\u201d was combined with \u201cwith a different partner"
+    ],
+    "probe_identification": [],
+    "probe_quantity": [],
+    "probe_denominator": [
+      "n the middle of the 20th century, it reached 15% in 2016 (Figure 1). The contribution of births by mothers aged 35 or more to the total fertility rate also increased to reach 22% in 2016. This is above past levels of the 1950s, when higher order births were th",
+      "ll births took place at age 35 or above in 2014 (Sobotka and Beaujouan 2018). Figure 1 Contribution of women aged 35+ and 40+ to total fertility rates (TFR) and to first- birth fertility rates, 1951 - 2014 Source: Human Fertility Database (HFD), Austria,"
+    ]
+  },
+  {
+    "id": "W4206510889",
+    "job": "A3_SHARE",
+    "title": "Assessment of the contribution of assisted reproduction methods for the future development of the number of li",
+    "year": 2020,
+    "venue": "",
+    "doi": "10.21203/rs.3.rs-40688/v1",
+    "screen_cell": "P3_ART_SHARE",
+    "screen_arm": "arm1_counting",
+    "screen_note": "Czechia, projected live births with and without assisted reproduction.",
+    "pages": 31,
+    "chars": 51794,
+    "probe_counterfactual": [
+      "tial results indicate that the sperm concentration of men conceived via the ICSI method is significantly lower than that of their spontaneously conceived peers. Moreover, attention is increasingly being focused on the possible adverse effects of ART on the phy"
+    ],
+    "probe_identification": [],
+    "probe_quantity": [
+      "increase by 2030 to 4.9 thousand (V3) and 6.5 thousand (V4). In relative terms, this would represent an increase from the initial 3.2% of the total number of live births to 5.0% and 6.8% respectively. Conslusions: We can expect an increase in the importance o",
+      "an initial 3.5 thousand to a maximum of 6.5 thousand by 2030. In relative terms, this would represent an increase from an initial 3.2% of the total number of live births to 6.8%. Our results document an increase in the importance of ART in terms of future demo",
+      "an increasing number of women opting for assisted reproductive technology (ART) treatment. According to the latest data, between 1% and 6% of all live births in Europe follow ART treatment and these proportions are increasing steadily [7]. Furthermore, over t"
+    ],
+    "probe_denominator": [
+      "ART was converted to the number of live births following ART by the maternal age at birth for the period 2008-2012. Subsequently, age-specific fertility rates following ART and models of the potential future development of live births following ART treatment w",
+      "sing number of women opting for assisted reproductive technology (ART) treatment. According to the latest data, between 1% and 6% of all live births in Europe follow ART treatment and these proportions are increasing steadily [7]. Furthermore, over the last"
+    ]
+  },
+  {
+    "id": "W4213171919",
+    "job": "C_EXPOSURE_SERIES",
+    "title": "Assisted Reproductive Technology Surveillance \u2014 United States, 2018",
+    "year": 2022,
+    "venue": "MMWR Surveillance Summaries",
+    "doi": "10.15585/mmwr.ss7104a1",
+    "screen_cell": "EXPOSURE_SERIES",
+    "screen_arm": "neither",
+    "screen_note": "CDC ART Surveillance 2018 \u2014 the latest US edition in the frame.",
+    "pages": 24,
+    "chars": 170616,
+    "probe_counterfactual": [
+      "il the and infertility diagnoses; clinical information pertaining to current ART procedure. An ART cycle can be discontinued at the ART procedure type; and information about resultant any step for medical reasons or by",
+      "least four oocyte retrievals (Illinois and New Jersey), one does 2018, the proportion of multiple births attributable to ART was not limit the number of treatment cycles (Massachusetts), and 12.5%. The percent"
+    ],
+    "probe_identification": [],
+    "probe_quantity": [
+      "ceived infants to all Jersey), or both (New York). triplets and higher-order infants decreased from 17.3% to The contribution of ART to all infants born varied 13.3% (a 23.1% decrease)."
+    ],
+    "probe_denominator": [
+      "ed outside the United States, retrieved, they are combined with sperm in a laboratory during and the appropriate denominators were not available. To the IVF procedure. For most IVF procedures (75.7% in 2018), protect confid",
+      ", percentages derived from ultrasound. On average, less than half of the procedures result cell values <20 in the denominator have been suppressed in a clinical pregnancy. Most pregnancies will progress to a live- because they are"
+    ]
+  },
+  {
+    "id": "W4297464366",
+    "job": "A2_IDENTIFIED",
+    "title": "What Features of Fertility Treatment do Patients Value? Price Elasticity and Willingness-to-Pay Values from a ",
+    "year": 2022,
+    "venue": "Applied Health Economics and Health Policy",
+    "doi": "10.1007/s40258-022-00764-7",
+    "screen_cell": "P1_MANDATE",
+    "screen_arm": "arm2_estimate",
+    "screen_note": "**PRICE ELASTICITY and willingness-to-pay for fertility treatment from a discrete choice experiment.** Arm 2's structural parameter measured directly rather than inferred from a policy. If the chapter wants to translate any access change into a predicted birth response, this is the elasticity it needs.",
+    "pages": 17,
+    "chars": 91925,
+    "probe_counterfactual": [
+      "iple ART cycles to or were undergoing fertility treatment), which is the focus achieve a birth (if at all) and many will discontinue treatment of this study, providing the unique opportunity to compare due to psychological, financial or relationship",
+      "ell recognized that many patients find tralia, our estimates seem to be more in line with economic it difficult to discontinue ART treatment because it signals theory assuming fertility treatments are ordinary goods they are g",
+      "ivin J, Peronace L, Verhaak CM. Why do patients Ethics approval Ethics approval was obtained from the University of discontinue fertility treatment? A systematic review of reasons New South Wales, Sydney (HC17255). The study has been performed"
+    ],
+    "probe_identification": [],
+    "probe_quantity": [],
+    "probe_denominator": []
+  },
+  {
+    "id": "W4319939934",
+    "job": "A3_SHARE",
+    "title": "Projecting the Contribution of Assisted Reproductive Technology to Completed Cohort Fertility",
+    "year": 2023,
+    "venue": "Population Research and Policy Review",
+    "doi": "10.1007/s11113-023-09765-3",
+    "screen_cell": "P3_ART_SHARE",
+    "screen_arm": "arm1_counting",
+    "screen_note": "Projection to COMPLETED cohort fertility rather than a period share.",
+    "pages": 22,
+    "chars": 70937,
+    "probe_counterfactual": [
+      "re drawn from the national birth registries (Australian Bureau of Statistics 2021a). The number of non-assisted births (conceived without ART) is obtained by subtracting the number of ART-conceived births from the number of total births in each year and by sin",
+      "births conceived through ART and Bc indicates births con- N ceived without ART. ART age-specific fertility rates can be further decomposed as follows: \u2211 \u2211",
+      "e recovered after that age, relative to the reference cohort, and then by quantifying the proportion of such recuperation that is attributable to ART. Figure 3 shows how would these processes change with and without the availabil- ity of ART treatments. The"
+    ],
+    "probe_identification": [],
+    "probe_quantity": [
+      "ions. In the 1974 cohort, fertility recovery after age 30 is complete when consider- ing ART births. Among women born in 1980, 81.2% of births delayed before age 30 (compared to the 1968 reference cohort) would eventually be realized, according to the Extra"
+    ],
+    "probe_denominator": [
+      "2008; Sobotka et al., 2008) approach, with most studies showing a rather modest contribution of 2\u20135%. Studies that have looked at age-specific ART fertil- ity have found that the absolute contribution of ART to the TFR often peaks in the mid-30s, while the rel",
+      "ation on the total annual number of ART babies born to Australian women between 1998 and 2009 from the annual ANZARD reports. ART age-specific fertility rates for the period 1998\u20132009 are estimated by combining these absolute numbers with the relative ART age-"
+    ]
+  },
+  {
+    "id": "W4383264299",
+    "job": "A3_SHARE",
+    "title": "The influence of the increasing use of assisted reproduction technologies on the recent growth in fertility in",
+    "year": 2023,
+    "venue": "Scientific Reports",
+    "doi": "10.1038/s41598-023-37071-7",
+    "screen_cell": "P3_ART_SHARE",
+    "screen_arm": "arm1_counting",
+    "screen_note": "Czechia; explicitly addresses the quantification methodology.",
+    "pages": 11,
+    "chars": 78761,
+    "probe_counterfactual": [
+      "r reproductive care, the proportion of ART live births in Czechia has not exceeded 4%. However, without ART the TFR would have stood at just 1.65 instead of 1.71 in 2020. ART significantly con",
+      "0.051 0.053 0.057 0.058 0.059 0.058 Total fertility rate without ART \u00ad(TFRnonART\u200b) 1.411 1.476 1.519 1.577 1.629 1.650 1.650 1.649",
+      "8 \u00ad(MABART\u200b) Mean age of women at birth without ART 29.74 29.80"
+    ],
+    "probe_identification": [],
+    "probe_quantity": [
+      "2019\u20132020 (Table 1). The highest number of ART live births was registered in 2018, i.e. 3.8% of all live births. By 2020 the proportion of ART live births had stabilised and",
+      "0 the contribution of ART to the TFR increased from 0.045 to 0.058, i.e. from 3.1 to 3.4% of the TFR. As a result, in 2020 the TFR without ART would have been just 1.65 i",
+      ". Although the data indicates the additional impact of IUI on fertility in Czechia, i.e. around 0.9% of all live births annually in the period 2016\u20132018 (IHIS 2021), it is likely that this fig"
+    ],
+    "probe_denominator": [
+      "creasing use of assisted reproductive technologies (ART) has contributed to the increase in the total fertility rate (TFR) and to further delaying childbearing. Moreover, it addresses the gap",
+      "ethod[21]. Accordingly, the quantification of both the contribution of ART to the TFR and age-specific fertility rates and its impact on childbearing postponement is relevant in terms"
+    ]
+  },
+  {
+    "id": "W4387472984",
+    "job": "A3_SHARE",
+    "title": "Probability of second live birth after first natural and medically assisted reproduction\u2010mediated live birth: ",
+    "year": 2023,
+    "venue": "Acta Obstetricia Et Gynecologica Scandinavica",
+    "doi": "10.1111/aogs.14685",
+    "screen_cell": "P3_ART_SHARE",
+    "screen_arm": "arm1_counting",
+    "screen_note": "**Probability of a SECOND live birth after a first NATURAL versus MAR-mediated birth, historical cohort.** Parity progression conditional on how the first birth was achieved \u2014 the mechanism by which ART's contribution to completed fertility differs from its contribution to first births. Lazzari's parity-transition question with a comparison group.",
+    "pages": 8,
+    "chars": 93435,
+    "probe_counterfactual": [
+      "21 from CedAP 46 years or less regardless of their obstetric or medical history.7 Our and SDO databases. We did not consider additional births after the aim was to assess the probability to have a second live birth accord- second one. ing to the mo",
+      "who had discontinued unsuccessful ICSI treatment.13",
+      "ilan AR. The prognosis for live birth 6. Paul RC, Fitzgerald O, Lieberman D, Venetis C, Chambers GM. among untreated infertile couples. Fertil Steril. 1995;64:22-\u00ad28. Cumulative live birth rates for women returning to ART"
+    ],
+    "probe_identification": [],
+    "probe_quantity": [],
+    "probe_denominator": []
+  },
+  {
+    "id": "W4390964890",
+    "job": "A3_SHARE",
+    "title": "Impacts of COVID-19 on Medically Assisted Live Birth Rates in the United States in 2020 and 2021",
+    "year": 2024,
+    "venue": "Population Research and Policy Review",
+    "doi": "10.1007/s11113-023-09849-0",
+    "screen_cell": "P3_ART_SHARE",
+    "screen_arm": "arm1_counting",
+    "screen_note": "COVID-19 and US MAR live-birth rates. A supply interruption used as a shock \u2014 the closest thing in the frame to an access experiment on the arm-1 series.",
+    "pages": 16,
+    "chars": 51432,
+    "probe_counterfactual": [],
+    "probe_identification": [],
+    "probe_quantity": [
+      "percentage of births due to MAR has been increasing annually; analyses of the U.S. Vital Statistics System show an increase from 1.34% of births in 2011 to 1.97% of births in 2019 (Tierney & Guzzo, 2023) and the more accurate counts of ART births from the Nat",
+      "o MAR has been increasing annually; analyses of the U.S. Vital Statistics System show an increase from 1.34% of births in 2011 to 1.97% of births in 2019 (Tierney & Guzzo, 2023) and the more accurate counts of ART births from the National ART Surveillance Syst",
+      "9 (Tierney & Guzzo, 2023) and the more accurate counts of ART births from the National ART Surveillance System show ART comprised 1.5% of births in 2011 (Sunderam et al., 2014) and 2.24% of births in 2019 (authors\u2019 calculation based upon: Martin et al., 2021;"
+    ],
+    "probe_denominator": [
+      "t (Panel D). Except for younger ages where MAR births were less common and 2.5 Percent of All Births due to MAR 2 1.5"
+    ]
+  },
+  {
+    "id": "W4393989606",
+    "job": "A2_IDENTIFIED",
+    "title": "Feasibility analysis of China's medical insurance coverage of assisted reproductive technology",
+    "year": 2024,
+    "venue": "Scientific Reports",
+    "doi": "10.1038/s41598-024-58640-4",
+    "screen_cell": "P1_MANDATE",
+    "screen_arm": "cannot_tell",
+    "screen_note": "CHINA's prospective ART insurance coverage. A very large access expansion in a very-low-fertility setting \u2014 the highest-stakes P1 exposure in the frame if it has been evaluated.",
+    "pages": 12,
+    "chars": 76453,
+    "probe_counterfactual": [
+      "2021, we used neural network models to predict the population trends from 2022 to 2050 with and without ART being included in MI, and then estimated the promoting effect of the inclusion on the"
+    ],
+    "probe_identification": [],
+    "probe_quantity": [],
+    "probe_denominator": [
+      "nth census was in 2020) to predict the number of infertile couples and used the female age-specific fertility rate to predict the number of new infertile couples each year. We drew a",
+      "female age group population data in the seventh population census. b Inferring from theage-specific fertility rate of women in the data of the seventh population census. c Ta"
+    ]
+  },
+  {
+    "id": "W4397049710",
+    "job": "A3_SHARE",
+    "title": "Educational gradients in the prevalence of medically assisted reproduction births in a comparative perspective",
+    "year": 2024,
+    "venue": "Fertility and Sterility",
+    "doi": "10.1016/j.fertnstert.2024.05.149",
+    "screen_cell": "P3_ART_SHARE",
+    "screen_arm": "arm1_counting",
+    "screen_note": "No abstract. EDUCATIONAL GRADIENTS in the prevalence of MAR births, comparative. Composition again: if MAR births concentrate among the highly educated, the population share and the counterfactual share diverge.",
+    "pages": 18,
+    "chars": 55641,
+    "probe_counterfactual": [],
+    "probe_identification": [],
+    "probe_quantity": [
+      "les all live births occurring in or later transferred to any public or private maternity unit in France (13, 14). Since less than 0.5% of births occur outside a hospital, the data is close to complete and consist of linked survey and medical records. The surve",
+      "(19). MAR data are gathered for all US states na except for Tennessee and South Carolina, representing 96.3% of all births, as reported in the NVSS user guide. MAR births are defined as pregnancies resulting from MAR treatment accord"
+    ],
+    "probe_denominator": [
+      "MAR data are gathered for all US states na except for Tennessee and South Carolina, representing 96.3% of all births, as reported in the NVSS user guide. MAR births are defined as pregnancies resulting from MAR treatment according to",
+      "g them comparable. Second, to maximise cross-country comparability, we have adopted a strategy in which we take the lowest common denominator in the conceptualization and operationalisation of variables. Also, we focus on Jo educational gradien"
+    ]
+  },
+  {
+    "id": "W4408117139",
+    "job": "A5_P6_BEHAVIOUR",
+    "title": "Longitudinal study of family formation in 892 women and 193 men 8 years after visiting the Fertility Assessmen",
+    "year": 2025,
+    "venue": "Acta Obstetricia Et Gynecologica Scandinavica",
+    "doi": "10.1111/aogs.15071",
+    "screen_cell": "P6_INDUCED_POSTPONEMENT",
+    "screen_arm": "cannot_tell",
+    "screen_note": "**EIGHT-YEAR FOLLOW-UP of 892 women and 193 men after fertility assessment and counselling, with FAMILY FORMATION as the outcome.** The first record in P6 that follows a belief intervention through to actual childbearing. If the P6 cell has a behaviour-side study at all, this is it. Priority full-text.",
+    "pages": 16,
+    "chars": 95429,
+    "probe_counterfactual": [],
+    "probe_identification": [],
+    "probe_quantity": [],
+    "probe_denominator": []
+  },
+  {
+    "id": "W4414889755",
+    "job": "A4_P5_CONVERSION",
+    "title": "Exploring the Fertility Needs of Women Before and After Oocyte Freezing for Medical and Non-Medical Reasons: A",
+    "year": 2025,
+    "venue": "International Journal of Women s Health",
+    "doi": "10.2147/ijwh.s546534",
+    "screen_cell": "P5_ELECTIVE_PRESERVATION",
+    "screen_arm": "cannot_tell",
+    "screen_note": "**Scoping review of fertility needs before and after oocyte freezing, EXPLICITLY SPLIT BY MEDICAL AND NON-MEDICAL REASONS.** The only record in the frame that draws Wall 5's own distinction and reports both sides. Use it to calibrate the indication split rather than relying on the term-matcher.",
+    "pages": 14,
+    "chars": 95881,
+    "probe_counterfactual": [],
+    "probe_identification": [
+      "tives. Collecting data to identify the needs of egg freezing applicants and analyzing them was instrumental for optimal planning and care management. We followed the Preferred Reporting Item"
+    ],
+    "probe_quantity": [],
+    "probe_denominator": [
+      "ng to the latest census in Iran, the highest age-specific fertility rate was observed among urban women in the 35\u201339 age group.2 In high-",
+      "10. doi:10.1186/s12884-022-04807-8 2. Statistical center of Iran according to the 2016 census total fertility rate of Iran reached to 2.01 between 2011 and 2016 [Persian]. 3. Eurostat. Bei"
+    ]
+  },
+  {
+    "id": "W4415618346",
+    "job": "A1_COUNTERFACTUAL",
+    "title": "Time to birth for spontaneous and ART births among infertile groups",
+    "year": 2025,
+    "venue": "BMC Women s Health",
+    "doi": "10.1186/s12905-025-04016-3",
+    "screen_cell": "P3_ART_SHARE",
+    "screen_arm": "cannot_tell",
+    "screen_note": "**TIME TO BIRTH FOR SPONTANEOUS AND ART BIRTHS AMONG INFERTILE GROUPS.** Compares treated and untreated infertile people \u2014 the comparison arm 1's counterfactual requires and almost never has.",
+    "pages": 9,
+    "chars": 49847,
+    "probe_counterfactual": [],
+    "probe_identification": [],
+    "probe_quantity": [],
+    "probe_denominator": []
+  },
+  {
+    "id": "W4417321594",
+    "job": "A2_IDENTIFIED",
+    "title": "When states require fully insured employers to cover in vitro fertilization (IVF), what do self-insured employ",
+    "year": 2025,
+    "venue": "Journal of Assisted Reproduction and Genetics",
+    "doi": "10.1007/s10815-025-03756-3",
+    "screen_cell": "P1_MANDATE",
+    "screen_arm": "arm2_estimate",
+    "screen_note": "**A THREAT-TO-IDENTIFICATION RECORD AND A LOAD-BEARING ONE. 65% of US workers are covered by SELF-INSURED employers exempt from state mandates under ERISA.** Every arm-2 estimate that treats 'state mandate' as the treatment is measuring a policy that does not bind for two-thirds of the workforce, which attenuates the effect toward zero by construction. This belongs in risk of bias for the entire P1 cell.",
+    "pages": 7,
+    "chars": 47470,
+    "probe_counterfactual": [
+      "nions. The term \u201csponsor\u201d reflects this range of arrange- (ERISA) [9]. Sixty-five percent of adults with employer- ments, but for simplicity, we will use the term employer sponsored health insurance work for self-insured employ- in most of this"
+    ],
+    "probe_identification": [],
+    "probe_quantity": [],
+    "probe_denominator": []
+  },
+  {
+    "id": "W7160175956",
+    "job": "A5_P6_BEHAVIOUR",
+    "title": "Perceptions of Medically Assisted Reproduction and Fertility Postponement: Limited Evidence, Critical Question",
+    "year": 2026,
+    "venue": "European Journal of Population / Revue europ\u00e9enne de D\u00e9mographie",
+    "doi": "10.1007/s10680-025-09765-3",
+    "screen_cell": "P6_INDUCED_POSTPONEMENT",
+    "screen_arm": "cannot_tell",
+    "screen_note": "**European Journal of Population 2026, and it names P6's problem in its own title: 'Perceptions of Medically Assisted Reproduction and Fertility Postponement: LIMITED EVIDENCE, CRITICAL QUESTIONS.'** An independent statement that the belief-to-behaviour link is unestablished. The chapter should cite this rather than assert the gap on its own authority.",
+    "pages": 15,
+    "chars": 52126,
+    "probe_counterfactual": [],
+    "probe_identification": [],
+    "probe_quantity": [
+      "st these three hypotheses in the US context. There, MAR\u2019s contribution to fertil- ity is moderate but on the rise. In 2021, about 2.0% of births resulted from IVF and related techniques (Centers for Disease Control and Prevention 2023). The prominent increase",
+      "lso consistent with the relative importance analysis. MAR perceptions have much lower explanatory power, as they account for only 1.1% of the model variance; however, unlike education and traditional values, their contribution to the model is significant."
+    ],
+    "probe_denominator": []
+  },
+  {
+    "id": "W7169859806",
+    "job": "A3_SHARE",
+    "title": "The future of births via medically assisted reproduction in Italy:Scenarios to 2050",
+    "year": 2026,
+    "venue": "PLoS ONE",
+    "doi": "10.1371/journal.pone.0354135",
+    "screen_cell": "P3_ART_SHARE",
+    "screen_arm": "arm1_counting",
+    "screen_note": "Nine scenarios for the future MAR share of Italian births to 2050.",
+    "pages": 13,
+    "chars": 54217,
+    "probe_counterfactual": [],
+    "probe_identification": [],
+    "probe_quantity": [
+      "ata sources and the calculation of MAR and non-MAR fertility measures, we refer readers to Burgio et al. [2]. At a glance, MAR contributed 3.9% to Italy\u2019s average number of children per woman\u2014or total fertility rate (TFR)\u2014in 2023, up from 2.1% in 2013. MAR",
+      "on ageing alone has a negligible effect. Assuming invariance in both the age dis- tribution of childbearing and the share of MAR (3.9% of births, calculated on the 2023 TFR), the projected share of MAR births remains at 4.3%, as in 2023. This value is slightly"
+    ],
+    "probe_denominator": [
+      "ildbirth (no change, slow ageing, rapid ageing) with three hypotheses on the age-specific MAR-related fertility rates (no change, moderate Citation: Burgio A, Castagnaro C, De Santis G, Vignoli D, Vitali A (",
+      "a reweighting procedure, based on the Register of live births data, ensures consistency with official demographic statistics. Age-specific fertility rates were calculated separately for births conceived via medically assisted reproduction (MAR) and those c"
+    ]
+  }
+]

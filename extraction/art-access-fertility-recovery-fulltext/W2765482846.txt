@@ -1,0 +1,2006 @@
+Childbearing Postponement, its Option Value,
+and the Biological Clock
+
+D. de la Croix and A. Pommeret
+
+Discussion Paper 2017-16
+   Childbearing Postponement, its Option Value, and the
+                     Biological Clock
+
+                          David de la Croix1 and Aude Pommeret2
+
+                                           October 1, 2017
+
+
+                                                Abstract
+
+           Having children is like investing in a risky project. Postponing birth is like delaying an
+       irreversible investment. It has an option value, which depends on its costs and benefits,
+       and in particular on the additional risks motherhood brings. We develop a parsimonious
+       theory of childbearing postponement along these lines. We derive its implications for asset
+       accumulation, income, optimal age at first birth, and childlessness. The structural param-
+       eters are estimated by matching the predictions of the model to data from the National
+       Longitudinal Survey of Youth NLSY79. The uncertainty surrounding income growth is
+       shown to increase with childbearing, and this increase is stronger for more educated peo-
+       ple. This effect alone can explain why the age at first birth and the childlessness rate
+       both increase with education. We use the model to simulate two hypothetical policies.
+       Providing free medically assisted reproduction technology does not affect the age at first
+       birth much, but lowers the childlessness rate. Insuring mothers against income risk is
+       powerful in lowering the age at first birth.
+
+       JEL Classification Numbers:J13, D91
+       Keywords: Childlessness, Late parenthood, Real option, Career uncertainty, Assisted re-
+       production technology
+
+
+
+
+   1
+    IRES, Université catholique de Louvain. Email: david.delacroix@uclouvain.be.
+   2
+    SEE, City University of Hong Kong and IREGE Université Savoie Mont Blanc.
+Email: aude.pommeret@cityu.edu.hk.
+  Acknowledgements: David de la Croix acknowledges the financial support of the project ARC 15/19-063 of the
+Belgian French-speaking Community. We thank Thomas Baudin, Krisztina Kis-Katos, Frank Portier, Holger
+Strulik and participants to seminars at Göttingen and Southampton, and to the ARC workshop on “Family
+Transformations: Incentives and Norms” (Durbuy, 2017) for comments on an earlier draft.
+1    Introduction
+Having a child increases risk. This is especially true as far as future income is concerned. Un-
+certain career costs include the atrophy of skills due to random interruptions (Adda, Dustmann,
+and Stevens 2017), a lower probability of getting promoted from temporary to permanent jobs
+(Guner, Kaya, and Sanchez Marcos 2017), more frequent occupation and workplace changes
+(Lundborg, Plug, and Rasmussen 2016), lost earnings opportunities with possibly lower wages,
+and a possibility of discrimination (Correll, Benard, and Paik 2007). In addition, parents also
+endure an increase in sickness absence (Angelov, Johansson, and Lindahl 2013). This pattern is
+likely to be reinforced when children have special needs (such as visual or hearing impairment,
+or mental retardation).
+
+Beyond the issues of income and career, there is increased uncertainty affecting spending and
+utility flows. Many examples can be found in the literature: childrearing reduces women’s
+social network size and alters the composition of men’s networks (Munch, McPherson, and
+Smith-Lovin 1997); childrearing may have long-term health consequences such as urinary in-
+continence, weight gain, etc; and having a baby causes a substantial decline in the average
+couple’s relationship (Doss et al. 2009). The most extreme case of risk incurred when being a
+mother is of course that of maternal mortality. The consequences of this risk for fertility have
+been studied in detail: exploiting variations in mortality risks across US states and cohorts,
+Albanesi and Olivetti (2014) show that the growth in fertility was highest for US states and
+cohorts of women that experienced the greatest reduction in maternal mortality. Albanesi and
+Olivetti (2016) show that improvements in maternal health reducing maternal mortality and
+morbidity are important to explain the joint evolution of married women’s participation and
+fertility in the United States during the twentieth century.
+
+Although the literature is full of examples stressing this increase in uncertainty following the
+birth of a first child, it does not treat it as such (except for the maternal mortality risk). It
+indeed focuses on first-order moments – such as the effect of having a child on the mean wage,
+the employment rate, etc – without acknowledging the risk component. Miller (2011) finds that
+delaying motherhood leads to a substantial increase in labor market earnings, of 9% per year of
+delay. This benefit goes through an increase in wages of 3% and an increase in work hours of 6%.
+Herr (2016) looks at the specific effect of first birth on wages. For each woman, she measures
+the time in her labor market career when children are first present. For women who entered the
+labor market before having children, she finds a clear monotonic relationship between delayed
+first birth and higher long-run wages. Budig and England (2001) look at the effect of having
+children on wages and employment. They find a wage penalty for motherhood of approximately
+7 % per child. One-third of the penalty is explained by years of past job experience and seniority,
+
+                                                2
+because motherhood interrupts women’s employment, leading to breaks, more part-time work,
+and fewer years of experience and seniority. The authors guess that the remaining two-thirds of
+the motherhood penalty may arise from the impact of motherhood on productivity and/or from
+employer discrimination. Note that all these studies are based on the National Longitudinal
+Survey of Youth (NLSY79) which is the data set we use in our quantitative analysis as well.
+
+In this paper, we develop a theory in which motherhood increases risk. We model the risky
+nature of procreation explicitly, and stress that it is of particular importance for the optimal age
+at childbearing. We focus on how to model increased risk, how to measure it in the data, and
+whether it matters for household choices. The main idea we develop is that if having a child
+is irreversible and affects expected future earnings through risk, waiting (postponing birth)
+has a value (option value). A robust result of option theory is that the riskier an investment
+project, the worthier it is to wait (Dixit and Pindyck 1994). In a different context, we also
+obtain that the option value of postponing birth increases with risk. Beyond income risks, the
+value of waiting interacts with fecundity (the biological clock) and the availability of assisted
+procreation techniques.
+
+Our model has some of the same innovative characteristics as Adda, Dustmann, and Stevens
+(2017), namely skill atrophy, intertemporal budget constraint, and risk aversion. Apart from
+the risk aspect, their model is richer than ours (they also consider occupational choices and
+marital status) and needs to be solved numerically, using indirect inference and data on women
+born in Germany between 1955 and 1975. Our model is more parsimonious and allows for
+analytical resolution and therefore a clear grasp of the mechanisms. It can indeed be solved ex-
+plicitly using stochastic optimal control and optimal control with regime switches (Boucekkine,
+Pommeret, and Prieur 2013). Our theory highlights how the timing of the first birth depends
+on financial uncertainty and on the risk of infertility. The model also allows to distinguish
+between three types of childlessness: voluntary, natural (primary sterility), and childlessness
+due to postponement.
+
+We also conduct a quantitative analysis, identifying the structural parameters of the model
+using the National Longitudinal Survey of Youth (NLSY79). This survey follows the lives of a
+sample of American youth born between 1957-64 from Round 1 (1979 survey year) to Round
+25 (2012 survey year). It started in 1979 with a sample of women aged 14 to 22, who were
+interviewed regularly from then on. Two-thirds of the sample was still observed at the end of
+the childbearing years, at which point 84 percent had children, which allows to study the effect
+and timing of childbearing on wages and employment. We show that mothers face a higher
+income risk than childless women. Although risk decreases with education, the risk differential
+between mothers and childless women increases with the education level, which partly explains
+
+
+                                                 3
+why educated parents have children later.
+
+Finally, we use the model to investigate the effect of two policies. First, introducing a hypo-
+thetical insurance against motherhood-related risks appears to be a very strong tool to reduce
+the age at first birth for the more educated. The empirical literature (see Gauthier (2007)
+for a survey, and d’Albis, Greulich, and Ponthière (2015)) suggests that well-designed public
+policy can affect the timing of fertility, including childcare provision and lump-sum financial
+incentives. In unequal societies, having a well-developed market for nannies and babysitters
+might play the same role (Hazan and Zoabi 2013). Second, proposing free and highly effective
+medically assisted procreation does not affect the age at first birth much, but it reduces child-
+lessness. Our results on assisted procreation differ from Sommer (2016) as she finds that the
+introduction of IVF technology (calibrated on 2012 IVF success rates) increases the number
+of births, even if it is not sufficient to compensate for the effect of an increased earning risk.
+In addition, she stresses the incentive for women to further postpone motherhood when IVF
+technology is available.
+
+There exists a literature on the optimal timing of births. A first approach is deterministic and
+the dynamic structure is simple, with only a choice between early and late childbearing, as
+in Low (2013). In her model, women can trade one more year of job experience or training
+for having babies early in life (and getting married). The interest of the static structure is to
+allow to solve for equilibrium on the marriage market, and to study its properties analytically.
+Pestieau and Ponthière (2014, 2015) propose a dynamic model in discrete time in which parents
+can have children early or late (binary choice). Here again the simple dynamic structure allows
+to provide a general equilibrium analysis. An early dynamic model of fertility can be found in
+Heckman and Willis (1976). They focus on the proximate determinants of fertility. In their
+approach, it is costly not to have children (cost of contraception). The other costs are not
+modelled. Their model suggests that a woman’s reproductive history depends on the sequence
+of contraception decisions a couple makes. The authors notice that “the optimal decision
+making that they have specified requires a couple to solve a stochastic dynamic programming
+problem at the beginning of each month from marriage to menopause.” Later, Cigno and
+Ermisch (1989) focus on the interaction between physiological and financial considerations in
+a deterministic framework. The interactions between demographics and economics are studied
+by d’Albis, Augeraud Véron, and Schubert (2010) and de la Croix and Licandro (2013) in
+dynamic deterministic models in which women choose the time of birth. They show how the
+growth rate of the population is affected by this choice. Compared to all these approaches,
+we neglect general equilibrium effects and the marriage market aspect, but we model the time
+dimension more precisely, as the trade-off between fecundity and income depends crucially on
+age, and is not the same at 25, 35, or 40.
+
+
+                                                4
+Even existing structural stochastic models do not explicitly make risk depend on motherhood.
+Francesconi (2002) and Sheran (2007) account for some uncertainty, but it takes the form of
+taste, technological shocks, and/or birth control shocks that are not affected by labor or fertility
+decisions. For instance, Francesconi (2002) estimates the structural parameters of a finite-
+horizon, discrete-choice model on a sample of married women from the National Longitudinal
+Survey (NLS) of Young Women (1968-1991), and show that a short interruption of full-time
+work is less harmful for the earnings profile than a part-time experience during childrearing.
+Using the same data set and the same type of model, Sheran (2007) shows that a childcare
+subsidy is likely to reduce women’s education level, but increase their time spent working. It
+should be noted that even if these papers study the joint decision of female labor supply and
+fertility using dynamic life-cycle models, their objective is not to study childbearing decisions,
+but rather the consequences of children on labor-related choices in order to better predict the
+effect of public policies that are likely to affect both decisions. Sommer (2016) studies the
+decision to have children and accounts for earning risks, but again, childbirth does not affect
+risk: mothers and childless women face the same shocks and the same asset accumulation. Note
+however that due to motherhood, women may decide to spend less time at work, which in fact
+reduces their sensitivity to these shocks. In this case, having children provides insurance, which
+is in line with the “old age security” hypothesis (Nugent 1985) based on the idea that children
+are a security asset.1 Sommer (2016) finds that having children is considered as a consumption
+commitment, and her model explains half of the decrease in the number of births between 1970
+and 1990 when the US labor market risk was high.2 In addition, she finds that fertility and
+earnings risks amplify each other even if the infertility risk leads women to have children earlier.
+
+Demographers have also written extensively on childbearing postponement. When they aim at
+analyzing economic uncertainty, their preferred approach is to include unemployment rates as
+a forcing variable in their empirical studies (Hoem 2000, Meron and Widmer 2002, and Pailhé
+and Solaz 2012).
+
+The paper is organized as follows. The theory is exposed in Section 2. The main analytical
+results are provided in Section 3. The quantitative part, including calibration simulation and
+policy, is in Section 4. Section 5 concludes.
+  1
+    However, the empirical literature favors a negative effect of uncertainty on fertility, see Hofmann and
+Hohmeyer (2013) or Schneider (2015).
+  2
+    This is consistent with the findings in Chabé-Ferret and Gobbi (2016) on post WWII data.
+
+
+
+
+                                                    5
+2         Theory
+Time is continuous. The woman’s life extends from time 0 to ∞. An infinite horizon is assumed
+for simplicity. Completed fertility can be either zero or one child. τ denotes the date when the
+woman starts trying to have children. Procreation succeeds at time τ with probability π(τ ). If
+it fails, we assume for simplicity that there is no second chance (at age 30, 2/3 of conceptions
+occur within one year of the procreation attempt, see Léridon (2004)). With this assumption,
+all uncertainty surrounding fecundity is resolved at time τ . The probability π is decreasing in
+age τ and depends on medical technology.
+
+We denote the natural sterility rate as: π(0) = π̄. We also assume a menopause age T such
+that π(T ) = 0. We assume that sterility is not affected by age for very young ages and for ages
+close to menopause: π 0 (τ ) = 0 for τ ≤ 0 or τ ≥ T .
+
+The age at first birth is denoted θ. It is given by:
+                                            
+                                             τ         with proba.π(τ )
+                                       θ=                                                               (1)
+                                             +∞ with proba.1 − π(τ )
+
+
+Women derive utility from consumption flow c and from having children. c is a composite good
+which includes both physical goods and leisure. Accounting for the child’s consumption by
+adding a multiplicative term (larger than unity) to consumption after the child’s birth would
+not alter the results significantly. The life-cycle utility when having a child at time τ is:
+
+                                              Z∞
+                                                   u(ct ) e−ρt dt + e−ρθ ω                              (2)
+                                              0
+
+
+where ω is the lump-sum utility of having children, and ρ is the psychological discount rate.
+u(·) is an increasing and concave function of consumption ct . We focus on a woman’s program
+as Lundborg, Plug, and Rasmussen (2016) have shown, using instrumental variable evidence
+from IVF treatments, that the effects of having a child on her partner’s annual earnings are
+small, and much smaller than those estimated for women.
+
+To get explicit analytical solutions, we assume instantaneous CRRA utility:3
+
+                                                                ct1−ε
+                                                     u(ct ) =
+                                                                1−ε
+    3
+        Note that a CRRA utility function features risk aversion as u00 < 0 and prudence as u000 > 0.
+
+
+
+                                                            6
+Parameter ε represents both the relative risk aversion and the inverse of the intertemporal
+elasticity of substitution. As in most of the literature on risk, we assume that ε > 1.
+
+The woman starts her life with an initial wealth a0 , which is to be interpreted as including both
+physical wealth and experience capital. Asset dynamics follow Ito processes:
+                                     
+                                      (r1 at − ct )dt                  if t ≤ θ
+                             dat =                                                                            (3)
+                                      (r a − c )dt + σ a dz            otherwise
+                                          2    t      t         t   t
+
+
+which defines the budget constraint under which intertemporal utility (2) is maximized. We
+assume that wealth accumulation is deterministic until the child’s birth. Income after birth
+is affected by dzt , a Wiener process (Brownian motion) with E[dzt ] = 0, var[dzt ] = t. The
+uncertainty parameter σ conveys the strength with which shocks affect wealth accumulation.
+The interest rates r1 and r2 denote the return on wealth for childless women and for mothers,
+respectively. They include both the return on human capital and the return on physical wealth.
+
+Having a child has a level effect, through an overall lowering4 of the mean return on assets
+r2 < r1 , and a variance effect, through the inclusion of the Wiener process.5 This is consistent
+with the results of Adda, Dustmann, and Stevens (2017) who show that the career cost is “a
+combination of occupational choice, lost earnings due to intermittency, lost investment into
+skills and atrophy of skills while out of work, and a reduction in work hours when in work.” It
+is also in line with the returns to experience featured in the dynastic model of Gayle, Golan,
+and Soytas (2015), according to which working less after having a child reduces future earnings
+in a non-linear way since returns are not linear with the time spent working.
+
+Each woman has an education level which may affect the deterministic part of the return on
+wealth. Education may also modify the excess volatility of the return on wealth of mothers
+compared to childless women. Hence, r1 , r2 and σ are different across education levels.
+
+The woman’s problem is to choose a consumption savings plan at , ct and a date τ at which she
+will start trying to have children. Her value function is given by
+                                                 ∞                        
+                                                  Z
+                             W (a0 ) = arg max E  u(ct ) e−ρt dt + e−ρθ ω 
+                                          ct ,at ,τ
+                                                          0
+
+   4
+      Unless specified otherwise: the case r2 ≥ r1 will sometimes be considered later in the paper to get insights
+into the mechanisms of the model.
+    5
+      Modeling a higher variance of shocks after some event (here birth) can be found in the macro-health
+literature. For example, in Capatina, Keane, and Maruyama (2017), the variance of income increases after a
+bad health shock which shifts health from a good to a bad state/regime.
+
+
+
+
+                                                          7
+where W expectations are taken with respect to the distribution of dzt and θ, and the woman
+is subject to the budget constraint (3) and to the initial asset holding a0 .
+
+We first provide the solution to the woman’s standard problem when she decides from the
+beginning not to have children (τ = +∞). In this case, our problem is a standard textbook
+problem (see e.g. Barro and Sala-I-Martin (2001), p64-67):
+                              ∞       
+                               Z 1−ε
+                                 ct
+       (ct , at ) = arg max E       dt subject to dat = (r1 at − ct )dt, and a0 given,     (4)
+                                 1−ε
+                             τ
+
+
+and subject to the usual transversality condition. The optimal dynamics for assets is:
+                                                      r1 −ρ
+                                                            t
+                                          at = a0 e ε           .                            (5)
+
+and the initial consumption is given by c0 = p a0 where
+
+                                              ρ − (1 − ε)r1
+                                       p=                   .                                (6)
+                                                    ε
+
+p is the marginal propensity to consume out of initial wealth in the standard model. In this
+problem, the woman has forgone the option to procreate from the beginning.
+
+Let us now consider the more general problem in which the woman has to decide when she will
+try to procreate. The problem has to be solved recursively:
+
+ [A] Using stochastic optimal control (Turnovsky (2000)), we first consider the post-birth
+     program, once the pregnancy attempt has proven successful. This delivers a utility W2 (aτ )
+     at a date τ with probability π(τ ).
+ [B] We also consider the case of a failed attempt to have children (this requires standard
+     optimal control). This delivers a utility W1 (aτ ) at a date τ with probability 1 − π(τ ).
+ [C] Finally, using optimal control with optimal regime switching (Boucekkine, Pommeret,
+     and Prieur (2013)), we study the program starting from the beginning of her professional
+     life, which includes the optimal choice of τ .
+
+[A] The Post-Birth Program
+
+The program is:                              ∞                        
+                                              Z
+                        W2 (aτ ) = arg max E  u(ct ) e−ρ(t−τ ) dt + ω 
+                                     ct ,at
+                                                  τ
+
+
+
+
+                                                  8
+                             subject to     dat = (r2 at − ct )dt + σ at dzt
+                                           τ, aτ       given.
+
+
+The program is solved in Appendix A. Consumption follows
+
+                                              ct = qat , ∀t ≥ τ
+
+with the propensity to consume out of wealth given by
+
+                                           ρ − (1 − ε) r2 − 2ε σ 2
+                                                                          
+                                        q=                                                                  (7)
+                                                     ε
+
+Here, we need to impose ρ > (r2 − ε σ 2 /2)(1 − ε) to guarantee positive consumption. Equa-
+tion (7) shows that if we had considered a log utility function, the effect of uncertainty on the
+consumption/saving choice would have been ruled out. This is due to the fact that uncertainty,
+as it is modeled, affects the consumption/saving choice through the certainty-equivalent6 asset
+growth r2 − ε σ 2 /2.
+
+The value function is
+                                                            aτ1−ε
+                                          W2 (aτ ) = q −ε         + ω.                                      (8)
+                                                            1−ε
+Using the results in Dixit and Pindyck (1994), p72, the mean and variance of assets are:
+
+                                  E at = aτ e(r2 −q)(t−τ ) ,                                                (9)
+                                                                                  
+                                                                    σ 2 (t−τ )
+                               Var at = a2τ e2(r2 −q)(t−τ ) e                    −1 ,                      (10)
+
+and, since the percentage changes in a variable which follows a Brownian motion with drift are
+normally distributed, we have
+
+                                                 σ2              √
+                                                                    
+                          d ln aT ∼ N   r2 − q −      (T − τ ), σ T − τ .                                  (11)
+                                                 2
+
+This distribution pertains to an individual forecasting her assets from time τ onwards, but also
+describes the distribution of wealth across individuals sharing the same parameters.
+   6
+    We define the certainty-equivalent X̂(t+dt) of an uncertain variable X(t+dt) as X̂(t+dt) = V −1 (Et (V (X(t+
+                                                                                     1−ε
+dt)))), where V (X) accounts for the attitude with respect to risk. Here, V (X) = X1−ε .
+
+
+
+
+                                                       9
+[B] The Program in Case of Sterility at Age τ
+
+The program is:                                ∞                   
+                                                Z
+                          W1 (aτ ) = arg max E  u(ct ) e−ρ(t−τ ) dt
+                                        ct ,at
+                                                             τ
+
+
+
+                              subject to           dat = (r1 at − ct )dt
+                                             τ, aτ               given.
+
+By symmetry with the previous case, consumption follows
+
+                                                   ct = pat ,
+
+where the propensity to consume p is the same as in the benchmark program (4). We have
+p > q as ε > 1.
+
+The value function is
+                                                                 aτ1−ε
+                                      W1 (aτ ) = p−ε                   .                 (12)
+                                                                 1−ε
+Assets are given by:
+                                                                      r1 −ρ
+                              at = aτ e(r1 −p)(t−τ ) = aτ e ε               (t−τ )
+                                                                                     .   (13)
+
+[C] The Full Program
+
+The full maximization program can be written:
+
+                                                   Zτ
+                           W (a0 ) = max                u(ct )e−ρt dt + ϕ(τ, aτ )
+                                     {ct ,τ,at }
+                                                   0
+
+
+
+
+                  where ϕ(τ, aτ ) = e−ρτ [π(τ )W2 (aτ ) + (1 − π(τ ))W1 (aτ )]
+                                        a1−ε                             a1−ε
+                   with W2 (aτ ) = q −ε τ + ω and W1 (aτ ) = p−ε τ
+                                       1−ε                               1−ε
+                     subject to : ȧt = r1 at − ct and a0 given
+
+There is no expectation operator in this program since all the uncertainty concerns what hap-
+pens from date τ onwards, and expectations with respect to returns on future assets have
+already been computed in the previous step, while expectations with respect to birth are fully
+
+
+
+
+                                                        10
+expressed using probability π(τ ).7
+
+To solve for the optimal choice, we follow the methodology proposed by Boucekkine, Pommeret,
+and Prieur (2013). We first define the following Hamiltonian:
+
+                                   H(c, a, µ) = U (c)e−ρt + µ (r1 a − c)
+
+One can readily write the value-function W (a0 ) in terms of the Hamiltonian H(·):
+
+                                        Zτ
+                            W (a0 ) =        (H(ct , at , µt ) − µt ȧt ) dt + ϕ(τ, aτ )
+                                        0
+
+
+We show in Appendix B that the first-order conditions are:
+
+                                                   ∂H(ct , at , µt )
+                                                                        = 0,                               (14)
+                                                         ∂ct
+                                            ∂H(ct , at , µt )
+                                                              + µ̇t     = 0,                               (15)
+                                                   ∂at
+                                                       ∂ϕ(τ, aτ )
+                                    H(cτ , aτ , µτ ) +                  = 0,                               (16)
+                                                            ∂τ
+                                                 ∂ϕ(τ, aτ )
+                                                              − µτ      = 0.                               (17)
+                                                     ∂aτ
+
+The first two conditions (14) and (15) are the standard Pontryagin conditions. The last two
+conditions (16) and (17) may be interpreted as optimality conditions with respect to the switch-
+ing time τ and the free state value aτ . The third one, Equation (16), equalizes the marginal
+benefit of waiting to the marginal cost of waiting. The last one is a continuity condition: it
+implies that the shadow price of the state variable at the time of the switch, µτ , is equal to the
+expected marginal value of the state variable in τ (derived from the programs after the switch).
+
+Conditions (14)-(16) are necessary but not sufficient for an interior maximum. Problems [A]
+and [B] both imply convex maximization programs. Problem [C] may admit a corner solution
+and the existence of an interior maximum must be checked numerically.
+
+The time consistency of a policy {ct , τ, at } decided at time 0 would imply its optimality at
+later stages t0 , t1 (but still in the pre-birth part of the problem). Rewriting the maximization
+program as a decision made at time t0 leading to policy {ĉt−t0 , τ̂ − t0 , ât−t0 }, and one at time
+t1 leading to {c̄t−t1 , τ̄ − t1 , āt−t1 }, one can show using conditions (14)-(17) that ĉt = c̄t , ât = āt ,
+and τ̂ = τ̄ . Initial conditions at t0 and t1 are supposed consistent here with the maximization
+   7
+    Note that having an uncertain lump-sum utility of having children would not alter the nature of the problem,
+and ω would then simply be replaced by its expectation.
+
+
+
+                                                         11
+program at time 0. This result comes from the fact that the objective function is a discounted
+expected cumulative reward and discounting is exponential.
+
+We show (see Appendix B) that conditions (14)-(17) allow to solve for the dynamics of the
+asset at and of consumption ct as functions of time, and provide an implicit expression for
+the optimal procreation attempt date. In particular, Equation (17) allows to find assets and
+consumption at the time of the procreation attempt as a function of τ :
+                                                 r1 −ρ
+                                      aτ = a0 e ε τ X(τ ),                                 (18)
+                                                         r1 −ρ
+                                    cτ = a0 s(τ ) X(τ )e ε τ ,                             (19)
+
+with
+
+                                               epτ
+                           X(τ ) =                           ,                             (20)
+                                      1 + s(τ ) [epτ − 1] /p
+                                                                    −1/ε
+                            s(τ ) =    π(τ )q −ε + (1 − π(τ ))p−ε           .              (21)
+
+s(τ ) is a CES function of the marginal propensity to consume of mothers and of voluntarily
+childless (or sterile) women. X(τ ) is a factor stemming from the presence of the option to
+procreate. Indeed, if π(τ ) = 0 (sterility), X(τ ) = 1. We now turn to the interpretation of the
+results.
+
+
+3      Interpretation and Results
+
+3.1    Asset Accumulation
+
+We will first look at asset accumulation. We consider four types of women: the voluntarily
+childless woman (type V), the sterile woman (type S), the candidate mother (type C), and the
+mother (type M).
+
+The following proposition shows that women who intend to attempt to get pregnant accumulate
+more assets to smooth consumption in the face of the drop in the certainty-equivalent asset
+growth (r2 − 2ε σ 2 < r1 ).
+
+
+Proposition 1 Consider s(τ ), the marginal propensity to consume the asset of a candidate
+mother (type C).
+
+     The higher the success rate π(τ ), the lower s(τ ).
+     If success is certain (π(τ ) = 1), s(τ ) is the same as that of type M women.
+
+                                                12
+    If failure is certain (π(τ ) = 0), s(τ ) is the same as that of type V women (τ = +∞).
+
+                           ∂s(τ )
+Proof: From Equation (21), ∂π(τ )
+                                  < 0 ⇔ ε > 1 and s(π = 1) = q, s(π = 0) = p.                         
+
+We can now compare the assets of a woman trying to procreate aτ to those of type V women,
+given by Equation (5). aτ is increased by the option to procreate as future and current con-
+sumption are gross complements. Women expecting to have a child accumulate more assets
+in order to face a decrease in the certainty-equivalent asset growth. This is similar to a “pre-
+cautionary saving” effect except precautionary saving is usually defined as an increase in asset
+accumulation in the face of uncertainty affecting the next period (see Kimball (1990)) and the
+following ones. Here, uncertainty starts affecting returns τ − t periods later with, in addition,
+the date τ decided by the agent herself.
+
+Corollary 1 Before the procreation attempt, the asset growth rate of type S and M women is
+the same. The asset growth rate of type V women is smaller.
+
+Proof: The first part of the proposition is trivial as, before trying to procreate, S and M women
+                                                                                         r1 −ρ
+are identical. From Appendix B, the dynamics of their assets is given by aaτ0 = e ε τ X(τ ),
+                                                                                               r1 −ρ
+which yields a higher growth than the dynamics of the assets for type V women, aaτ0 = e ε τ ,
+as X(τ ) ≥ 1 ⇔ ε ≥ 1.                                                                                
+
+
+Lemma 1 After the procreation attempt, the asset growth rate of type V women is larger than
+that of type M women if and only if
+                                                r
+                                                    8(r1 − r2 ) + σ 2
+                                     2ε < 1 +                         .                             (22)
+                                                          σ2
+
+Proof: From Equation (9), the expected asset growth rate of type M women is given by:
+                                                                                              r1 −ρ
+E aaτt = e(r2 −q)(t−τ ) . The assets for type V women are, according to Equation (5): aaτt = e ε (t−τ ) .
+The latter is larger than the former if and only if (22) holds.                                      
+
+
+Lemma 2 Delaying the date τ at which the woman tries having children generates more asset
+accumulation if the risk of sterility is ignored (π = 1). Accounting for the risk of sterility
+(π = π(τ ) < 1 with π 0 (τ ) < 0) reduces the effect and can even reverse it.
+
+
+Proof: It can be shown that: ∂X(τ
+                              ∂τ
+                                  )
+                                    |π=1 = p − q > 0 and ∂X(τ
+                                                          ∂τ
+                                                              )
+                                                                = p − q + Z(τ ), with
+
+                                  epτ − 1 π 0 (τ ) −
+                                                            
+                                                        −
+                                                               s(τ )1+ε < 0.
+                                                           
+                          Z(τ ) =                  q −p
+                                     p        ε
+
+                                                    13
+                                                                                                 
+
+The role of the procreation option is further highlighted by the dynamics of the assets of type
+C women:                                                                  
+                              r1 −ρ
+                                    t
+                                          r1
+                                              t
+                                                   r1 −ρ
+                                                         t       X(τ )s(τ )
+                     at = a0 e ε + a0 e ε − e ε               1+
+                                                                    p
+The first term represents asset accumulation in the absence of procreation option. The second
+term is positive as ε > 1, again reflecting the idea that candidate mothers save more due to
+their expected future loss of income.
+
+
+3.2     Age at Birth
+
+After having derived the above results concerning asset growth, we now turn our attention to
+the procreation choice. The implicit expression for the optimal procreation attempt date is
+obtained from Equation (16):
+
+     cτ1−ε                                                         1−ε
+                                                                        
+              −ε                                                −ε aτ
+                                −ρτ                 0
+                                                                        + ω e−ρτ = 0. (23)
+                                                           −ε
+           + cτ (r1 aτ − cτ ) e     − ρϕ(τ, aτ ) + π (τ ) q − p
+     1−ε                                                           1−ε
+
+The first term represents the utility derived from the monetary gain of remaining childless a
+little longer. The second term is the cost of postponing the pleasure of having children. The
+last term represents the cost linked to the drop in fecundity induced by postponing (π 0 (τ ) < 0).
+
+
+Proposition 2 A high enough uncertainty leads to birth postponement:
+
+      For r2 ≥ r1 , ω > 0 and σ = 0, having a child has no cost. τ ∗ = 0 i.e. it is then optimal
+       to attempt to get pregnant as soon as possible.
+      For r2 = r1 , there exists a value σ > 0 such that σ > σ ⇔ τ ∗ > 0, i.e. it is optimal to
+       postpone birth.
+      For r2 = r1 , there exists a value σ̄ ≥ 0 such that σ > σ̄ ⇔ τ ∗ > tm
+
+
+Proof: see Appendix C.1                                                                          
+
+We can also compute the value function as:
+
+                                (a0 s(τ )X(τ ))1−ε
+                    W (a0 ) =                      (1 − e−pτ ) + ϕ(τ, aτ ) ≡ Φ(τ, a0 )
+                                     (1 − ε)p
+
+where aτ is a function of τ and a0 through Equation (18) and τ solves (23). Part of the value
+comes from the possibility of trying and giving birth. The value of having this possibility, which
+we call “value of giving birth” is derived by comparing the value function with and without the
+
+                                                    14
+possibility of procreating:
+
+                               value of giving birth = W (a0 ) − W1 (a0 ),
+
+where W1 (a0 ) is obtained from Equation (12). W (a0 ) − W1 (a0 ) gives the willingness to pay
+for a child.8 This value can be decomposed into the value of immediately trying and giving
+birth and the value of having the option to try and give birth later. Note that there is no
+information accruing in time, meaning that this option value, which we call “option value of
+giving birth” corresponds to the “pure postponement value” defined by Mensink and Requate
+(2005), as opposed to the option value for receiving information or “quasi-option value”, which
+is the concept developed by Arrow, Fisher, Hanemann, and Henry (see Arrow and Fisher (1974),
+Henry (1974), and Fisher and Hanemann (1987)). This pure postponement value is however
+part of the Dixit-Pindyck option (see Dixit (1992), Pindyck (1991), and Dixit and Pindyck
+(1994)) which is the sum of the pure postponement value and of the quasi-option value. The
+option value of giving birth can be derived by comparing the value of giving birth at the optimal
+date and the value of an immediate attempt to become a mother:
+
+                option value of giving birth = value of giving birth − π(0)W2 (a0 ),
+
+where W2 (a0 ) is obtained from Equation (8).
+
+Instead of computing the total value of postponement ( which corresponds to the option value
+of giving birth), one can also compute an instantaneous value of postponement at time t, which
+is obtained by computing the marginal value of postponing the birth attempt:
+
+                                                                        ∂Φ(t, a0 )
+                         marginal value of birth postponement =                    .
+                                                                          ∂t
+
+It is positive for all t lower than the optimal τ .
+
+
+3.3     Childlessness
+
+The model embeds three concepts of childlessness. When τ = +∞, the woman has never tried
+to have children. This resembles demographers’ notion of voluntary childlessness, or the idea
+of opportunity-driven childlessness of Baudin, de la Croix, and Gobbi (2015). When τ = 0
+but θ = +∞, the woman wanted to have children at the beginning of the period considered,
+but could not. This is close to demographers’ notion of involuntary childlessness, and the idea
+   8
+     Note that Córdoba and Ripoll (2016) refer to this value as to the “option value of having a child” in a
+context where there is no timing decision, while we keep the term “option” for the additional value given by
+being able to choose the date of the birth.
+
+
+                                                     15
+of natural sterility. When τ > 0 but θ = +∞, the woman tried at some point in time to
+have children, but failed. This type of childlessness has an involuntary component, but also a
+voluntary one since, by postponing birth, the woman accepted a lower probability π(τ ) of being
+fertile.
+
+
+Proposition 3 If ρ < r1 , there exists a unique level ω̄ of the lump-sum utility of having children
+such that for ω ≤ ω̄ the optimal age to try to have children is equal to or higher than menopause
+T , leading to type V women. There also exists a unique level ω̃ of the lump-sum utility of having
+children such that for ω ≥ ω̃ it is optimal to try to have children immediately (at 0). These two
+levels are such that ω̄ < ω̃.
+
+
+Proof: See Appendix C.2                                                                                          
+
+This proposition will allow us to calibrate the mean of parameter ω to match the observed
+childlessness rate.
+
+
+4       Quantitative Analysis
+In this section, we address four questions. First, does the income process (3) really differ
+between mothers and childless women, both in terms of growth and uncertainty? Second, can
+these differences in income explain why educated women delay having their first child and why
+more of them remain permanently childless? Third, what is the effect of exogenous shocks
+on these choices, including the effect of a hypothetical insurance mechanism for mothers and
+of free and efficient medically assisted reproduction technologies? Finally, how robust are the
+results to different choices of the subjective time discount rate and the relative risk-aversion
+parameter?
+
+4.1     Identification of the Parameters
+
+Table 1 summarizes our calibration strategy. Two parameters are set a priori. The subjective
+time discount rate ρ is set at 2% on an annual basis. The coefficient of relative risk aversion
+ is set to 5. As we consider a CRRA instantaneous utility function, parameter ε represents
+both the relative risk aversion and the inverse of the intertemporal elasticity of substitution.
+In general, the literature favors a relative risk aversion coefficient between 2 and 5 (see Gollier
+(2001)).9 For example, using the Panel Study of Income Dynamics (PSID) for the years 1968-
+1997, French (2005) estimates the coefficient of relative risk aversion for men to be in the 2.2-5.1
+    9
+    With ε = 5, a household owning $1M and facing a lottery that involves gaining or losing $0.5M with equal
+                                                                               −4              −4               −4
+probability is ready to give up $0.407M or less to avoid the lottery: (1−0.407)
+                                                                          −4      = 0.5 (1+0.5)
+                                                                                           −4     + 0.5 (1−0.5)
+                                                                                                           −4      .
+
+
+                                                        16
+range (depending on the specification). The identification comes both from the saving behavior
+according to which risk-averse agents save more in order to buffer themselves against the future,
+and from the labor supply since more risk-averse individuals work more hours when young in
+order to accumulate a buffer stock of assets for insurance against bad wage shocks when old.
+While French’s estimates are about men, little has been done concerning women specifically, but
+the common result from experimental studies is that women are even more risk averse than men
+(Croson and Gneezy 2009). Finally, although there is no consensus concerning the value of the
+intertemporal elasticity of substitution, it is largely admitted that it should be less than unity.
+Our model shares similarities with a portfolio choice model which leads to very high values for
+risk aversion when brought to the data (Jorion and Giovannini (1993), Kocherlakota (1996),
+and Hansen et al. (2007)). Therefore, the value we have assigned to ε is a non-controversial
+upper bound for the relative risk aversion which is consistent with the model we use.
+
+                 Parameter                             value              target
+ ρ      subjective time discount rate                    2%               fixed a priori
+       relative risk aversion                             5              fixed a priori
+                                                  0.96 exp(3.5−0.33t)
+ π(t)   success rate of pregnancy attempt        0.012+exp(3.5−0.33t)     from Léridon (2005)
+ r1     return on assets when childless                0.061              income growth – NLSY79
+ r2     return on assets when mothers                  0.045              income growth – NLSY79
+ σ2     std. dev. of Wiener process                    0.063              income range – NLSY79
+ mω     mean of the distribution of ω                  1.249              mean age at 1st birth – NLSY79
+ sω     std. dev. of the distribution of ω             1.011              childlessness rate – NLSY79
+
+                      Table 1: Identification of Deep Parameters - Summary
+
+Date 0 in the model is assumed to represent age 18 in the data. Function π(·) is a generalization
+of the logistic function whose parameters are set to match the percentage of women who conceive
+naturally after having started trying to get pregnant (lines b and g of Table I in Léridon (2005)).
+In practice, we assume:
+                                          
+                                               a exp(b − ct)
+                                                                        if t < T
+                                          
+                                          
+                                 π(t) =       d + exp(b − ct)
+                                          
+                                           0                      if t >= T
+
+We set T = 37 (i.e. 55 years). We set a, b, c, d to minimize
+
+  (π(12) − 0.921)2 + (π(15) − 0.887)2 + (π(17) − 0.846)2
+                        + (π(19) − 0.782)2 + (π(22) − 0.639)2 + (π(24) − 0.489)2 + (π(29) − 0.095)2
+
+subject to π(0) = 0.96 (we impose a natural sterility rate of 4%, see Baudin, de la Croix, and
+
+                                                      17
+Gobbi (2015)). This gives a = 0.96, b = 5.53, c = 0.33, d = 0.012.
+
+To calibrate the remaining parameters, we use data from the National Longitudinal Survey
+of Youth 1979 (NLSY79), which is a longitudinal project that follows the lives of a sample
+of American youth born between 1957-64. The eligible sample contains 9,964 respondents for
+whom data are available from Round 1 (1979 survey year) to Round 25 (2012 survey year), about
+half of them being women. We divide the sample into five education categories, depending on the
+highest grade completed as of May 1994. Table 2 gives the mean age at first birth, its standard
+deviation, and the percentage of women remaining permanently childless in the sample. The
+age at first birth and the childlessness rate are computed from the “number of children ever
+born” and “date of birth of first child” variables from XRND, which is a cross-round version of
+these variables (including information from June 1969 to December 2012).
+
+The sample includes all women who actually have some income, independently from their
+marital status. An alternative is to consider married women only, which is coherent with the
+model when interpreted as a unitary model of the couple. A selection bias may arise here,
+because married women are not drawn randomly from the pool of women.10 Another difficulty
+is that there is little evidence in the literature that the income and assets of couples is affected
+by childbearing as much as those of women. In Section 4.5, we look at the robustness of the
+result to this selection criterion.
+
+Not surprisingly, we observe a positive education gradient for both the mean age at first birth
+and the childlessness rate, with the age at first birth going from 18.8 to 28.7 when climbing
+up the education ladder, and childlessness rates going from 7.8% to 31.3%. We do not retrieve
+the result of Baudin, de la Croix, and Gobbi (2015) here, according to whom childlessness is
+U-shaped in education. This is because their sample includes older women (born 1920-1945)
+with very low education or none at all, and the negative part of the U is obtained for these low
+education levels. We also see in Table 2 that the variability (standard deviation) in the age at
+first birth is lower for the extreme categories.
+
+To measure an individual’s income, we sum farm and business income,11 and wages and
+salaries.12 Before calculating the sum, we perform two transformations: we replace NA by
+0 for farm and business income if wages and salaries are known, and replace NA by 0 for wages
+and salaries if farm and business income is known. Finally, we convert the income of various
+  10
+     The last column of Table 2 shows that the marriage rate (women who are or were married) is hump shaped
+in education - as in Baudin, de la Croix, and Gobbi (2015) who provide a quantitative analysis of this pattern.
+  11
+     From question: How much did you receive after expenses [from your farms and businesses or professional
+practices/from your businesses or professional practices]?
+  12
+     From question: How much did you receive from wages, salary, commissions, or tips from all (other) jobs,
+before deductions for taxes or anything else?
+
+
+
+                                                      18
+ Education                        Numb. of       Mean years       Age at first birth         %           %
+ category                           observ.     of education      Mean     Std. dev.     childless    married
+ Less than high school (1)            551            9.26         18.84       4.02          7.80       79.85
+ High school compl. (2)              1868            12.00        21.69       4.96         12.21       84.42
+ Some college (3)                    1171            13.82        23.78       5.74         17.85       83.95
+ College completed (4)                551            16.00        27.64       5.08         24.32       87.66
+ More than college (5)                336            17.94        28.71       5.25         31.25       82.74
+ All                                 4477            13.08        22.93       5.79         16.06       84.01
+
+
+                 Table 2: Education Groups, Age at First Birth, and Childlessness
+
+years into real income by dividing by the consumer price index. To bring Proposition 1 to the
+data, we ideally want to capture income growth after the decision to have children has been
+made. However, this is not possible, because the women in the sample are not old enough. As
+an approximation, we measure the growth rate of income between ages 39 and 45. Most women
+had their first child before age 39. Income at age 45 is taken as an average of income over three
+years (42-44-46 or 43-45-47 depending on age in 1979) to smooth business cycle effects. In case
+of missing data, the average is computed on the available one(s). Income at 39 is also taken as
+an average of three years.
+
+Figure 1 plots kernel density estimations of income growth for each education category. Solid
+lines correspond to childless women and dashed lines to mothers. Compared with Table 2, we
+have lost some women because income is not observable for all of them. Let us stress three
+features that emerge from Figure 1. (1) For mothers, the mode of the distribution does not
+depend on education and is systematically higher than that for childless women. This reflects
+the fact that the income growth of mothers is systematically higher than that of childless
+women.13 This is not inconsistent with r2 < r1 , as shown in Lemma 1. (2) For childless women,
+the mode of the distribution moves rightwards as education increases, therefore catching up
+with the mode for mothers. (3) It appears clearly that the distribution is more dispersed for
+mothers than for childless women, reflecting the fact that the variance in the distribution of the
+growth in income is systematically higher for mothers than for childless women.14 The latter
+result is in line with our idea that motherhood increases income risk.
+
+To reduce the sensitivity to outliers, we run quantile regressions to measure the effect of ed-
+  13
+     This striking results holds when restricting the sample to married women; it is thus not related to the
+possible positive role of having a husband. It also holds when measuring income growth from 30 to 45.
+  14
+     All these results remain true when restricting the sample of childless women to singles, who are less likely
+to have plans to give birth in the future.
+
+
+
+                                                       19
+                    All                                 Category (1)                             Category (2)
+
+   10                                       10                                       10
+
+   8                                        8                                        8
+
+   6                                        6                                        6
+
+   4                                        4                                        4
+
+   2                                        2                                        2
+
+   0                                        0                                        0
+
+        −0.3   −0.1 0.0   0.1   0.2   0.3        −0.3   −0.1 0.0   0.1   0.2   0.3        −0.3   −0.1 0.0   0.1   0.2   0.3
+
+
+
+
+               Category (3)                             Category (4)                             Category (5)
+
+   10                                       10                                       10
+
+   8                                        8                                        8
+
+   6                                        6                                        6
+
+   4                                        4                                        4
+
+   2                                        2                                        2
+
+   0                                        0                                        0
+
+        −0.3   −0.1 0.0   0.1   0.2   0.3        −0.3   −0.1 0.0   0.1   0.2   0.3        −0.3   −0.1 0.0   0.1   0.2   0.3
+
+
+
+
+Figure 1: Kernel Density Estimations of Income Growth Distribution by Education Category.
+Childless Women (solid) and Mothers (dashed)
+
+ucation on the distribution of income growth, and infer the parameters from those quantiles.
+Table 3 presents the regression results. The independent variables include years of education,
+a dummy variable indicating if the woman is or has been married, race fixed effects, and year
+of birth fixed effects. The reference category is a white single woman born in 1957. The results
+indicate that, for childless women, the median growth rate of income increases with educa-
+tion (+0.0031∗∗∗ per additional year of education). This is not true for mothers. For both
+groups, however, education helps to reduce the occurrence of bad outcomes, as can be seen
+from the determinants of Q(0.07). This “protecting” effect of education is stronger for childless
+women than for mothers, (0.0190∗∗∗ instead of 0.0063∗ ), reflecting the fact that having children
+increases uncertainty, especially for the highly educated.
+
+Estimators for the growth rate of income for childless women, ĝ1 , and for mothers, ĝ2 , can
+be obtained using the fitted equation for the median (Q(0.50)) where the dummy “mother”
+is set to 0 and to 1 respectively. For the standard error of the distributions, σ̂1 and σ̂2 , an
+
+                                                          20
+                                   Dependent variable: income growth between 39 and 45
+                                      OLS               Q(0.07)               Q(0.50)               Q(0.93)
+  Mothers
+ Constant                          0.0691∗∗∗           −0.2204∗∗∗             0.0402∗∗             0.4654∗∗∗
+                                    (0.0266)            (0.0667)              (0.0161)              (0.0554)
+ years of educ.                      0.0009             0.0063∗                0.0006              −0.0054∗
+                                    (0.0013)            (0.0035)              (0.0007)              (0.0031)
+ Married fixed effect                 yes                  yes                   yes                     yes
+ Race fixed effects                   yes                  yes                   yes                     yes
+ Year of birth fixed effects          yes                  yes                   yes                     yes
+ Observations                        2,695               2,695                  2,695                   2,695
+
+
+  Childless women
+ Constant                           −0.0812            −0.5676∗∗∗             −0.0025               0.1379∗∗
+                                    (0.0500)            (0.0872)              (0.0450)              (0.0680)
+                                            ∗∗∗                  ∗∗∗                     ∗∗∗
+ years of educ.                    0.0055              0.0190                0.0031                 −0.0010
+                                    (0.0021)            (0.0051)              (0.0009)              (0.0041)
+ Married fixed effect                 yes                  yes                   yes                     yes
+ Race fixed effects                   yes                  yes                   yes                     yes
+ Year of birth fixed effects          yes                  yes                   yes                     yes
+ Observations                         530                 530                    530                     530
+                                                                       ∗            ∗∗             ∗∗∗
+ Note:                                                                     p<0.1;        p<0.05;         p<0.01
+
+                                  Table 3: Quantile Regression
+
+
+
+                                                                             p
+Education         ĝ2      σ̂22          ĝ1             σ̂12          σ=     σ̂22 − σ̂12          r2           r1
+   1         0.01837    0.01835       -0.00357         0.01645               0.044             0.074           0.038
+   2         0.02011    0.01557       0.00481          0.0121                0.059             0.051           0.044
+   3         0.02126    0.01385       0.01041          0.00958               0.065             0.041           0.072
+   4         0.02264    0.01192       0.01708          0.00695               0.070             0.034           0.105
+   5         0.02387    0.01033       0.02302          0.00496               0.073             0.032           0.135
+   All       0.02079    0.01454       0.00812          0.01057               0.063             0.045           0.061
+
+             Table 4: Moments to Match and Calibration of r1 , r2 , and σ2
+
+
+
+                                                  21
+estimator is given by taking the 7% trimmed range (the difference between the 7th and 93rd
+percentiles, Q(0.93) − Q(0.07)) and dividing by 3 (corresponding to 86% of the data of a
+normal distribution falling within 1.5 standard deviations of the mean). As in the model we
+have assumed no uncertainty for the childless, we compute σ 2 of the model as σ̂22 − σ̂12 . Formally,
+knowing that the growth rate of income is equal to the growth rate of assets in all cases, we
+can rely on Equations (9), (11), and (13), and establish the following relations:
+
+                          σ 2 = σ̂22 − σ̂12                                                     (24)
+                            r1 − p = ĝ1 → r1 = εĝ1 + ρ                                        (25)
+                                                                           2
+                                                               ε(ε − 1)σ
+                            r2 − q = ĝ2 → r2 = εĝ2 + ρ −                                      (26)
+                                                                    2
+
+Notice here that σ 2 is the variance of the growth rate of assets over time taken after one period.
+It is measured with the variance across individuals, each individual being considered as one
+possible realization of shocks.
+
+The above method allows to derive r1 , r2 , and σ for the whole sample, but also specific values
+for each education group. These are obtained by setting the “years of education” variable at
+its group mean when computing the quantiles to be matched. Table 4 summarizes the values
+of the moments to match, ĝ2 , ĝ1 , and σ̂22 − σ̂12 , and the corresponding r1 , r2 , and σ2 .
+
+We now have to set ω and a0 . As can be seen from Equation (31), what matters is in fact ωaε−1
+                                                                                           0 ,
+showing that a0 acts as a scaling factor for ω. We set a0 = 100. Given the above parameters, we
+can compute the two thresholds of Proposition 3. The ω̄ such that all women with ω < ω̄ are
+voluntarily childless is equal to 0.04. The ω̃ such that all women with ω > ω̄ attempt to have
+children at t = 0 is equal to 2.35. We now assume that ω is distributed across the population
+according to
+                                          ω ∼ N (mω , s2ω ).
+
+The two parameters of the normal distribution function are set to match a mean age at first
+birth equal to 22.93 and a childlessness rate of 16.06% (from Table 2). This procedure allows
+to get these two levels right, but does not impose anything on the education gradient of the
+two variables. In the maximization problem of the woman, we impose the additional restriction
+that she cannot try to have children while at school; this requires τ > 6 + 13.08 − 18 = 1.08. It
+yields mω = 1.249 and sω = 1.011. Figure 2 represents the corresponding distribution with the
+two thresholds. The darker area represents the distribution of childlessness.
+
+
+
+
+                                                 22
+                                            ω̄                         ω̃
+
+
+
+
+                                                                            N (mω , s2ω )
+                                       ss
+                               ss   ne
+                        il dle
+                     ch
+
+
+
+                                                                                            ω
+
+
+                                        Figure 2: Calibrated Distribution of ω
+
+
+4.2    Overidentifying Restrictions
+
+All the parameters of the model have now either been fixed a priori, or exactly identified with
+some moments computed from the NLSY79. None of them has been set so as to match the
+fact that both the age at first birth and the childlessness rate are increasing in education. We
+can therefore evaluate our model against these two facts. This is in line with the spirit of
+testing overidentifying restrictions, although there is no formal testing here as we do not do
+any statistical inference.
+
+For each education group, we set the income process using the corresponding parameters from
+Table 4. Next, we generate an artificial population with a taste for children ω drawn from
+its normal distribution. We suppose ω is drawn from the same distribution for all education
+categories, otherwise is would be straightforward to match education-specific moments with
+education-specific preference parameters. We impose that each woman in this population cannot
+bear children while at school, and compute the optimal age for a pregnancy attempt, τ , and
+the childlessness probability given by 1 − π(τ ). Finally, we average these two numbers across
+women. The results are shown in Figure 3 for the five education categories. The sign of the
+education gradient is correct for both the age at first birth and the childlessness rate. The size
+of the gradient is underestimated for childlessness (middle panel), but less so for the age at
+first birth (left panel). The model tends to overestimate the age at first birth, in particular for
+education categories 3 to 5.
+
+
+
+                                                         23
+We also checked the predictions of the model for the standard deviation of the age at first
+birth. The right panel of Figure 3 shows that the level of the standard error is systematically
+underestimated, but its hump-shaped pattern is well reproduced. This latter result is explained
+by the fact that the extreme categories of education more often hit the bounds of the set of
+possible ages at pregnancy, hence lowering variability. The underestimation of the standard
+deviation in the age at first birth comes from the fact that we have neglected other sources of
+variability, for instance when we assume that a birth, if any, immediately follows the pregnancy
+attempt.
+
+
+
+
+ Figure 3: Overidentifying Restrictions: Education Gradient - data:solid, simulated: dashed
+
+Figure 3 illustrates the new mechanism we have put forward in this paper. Motherhood increases
+income volatility (Proposition 2), in particular for highly educated women. This is why they
+prefer to postpone birth, in order to accumulate enough assets before being hit by the possibly
+negative shocks related to having a child. This is also why more of them opt for permanent
+childlessness voluntarily.
+
+4.3     The Roots of Childlessness and Policy Analysis
+
+The model also allows to decompose childlessness into the three parts mentioned in Section 3:
+voluntary childlessness includes those who never try to have children; natural sterility includes
+(a) those who wanted to have children at the beginning of the period considered, but could
+not, and (b) those who tried later on and could not because of benchmark sterility π(0); and
+postponement childlessness includes those who tried at some date τ > 0 to have children, but
+failed because of increased sterility at τ , π(τ ) − π(0) > 0. The results are the following: the
+total childlessness rate of 16.06% includes 11.1% of voluntary childlessness, 3.6% of natural
+sterility, 0.96% of postponement childlessness, and 0.4% of sterile women not wanting children.
+
+We now simulate the effect of two exogenous changes on women’s behavior. The first change
+consists in the disappearance of the excess volatility undergone by mothers. Technically, we
+set σ = 0. This means that mothers now face the same uncertainty as childless women. Steps
+towards full insurance include a social security policy reducing mothers’ lack of income security,
+
+                                               24
+                               education cat.   perfect insurance   assisted procreation
+        ∆ age at first birth          1                 0                     0
+                                      2               -0.29                 0.55
+                                      3               -7.57                 1.31
+                                      4               -10.12                1.53
+                                      5               -8.57                 1.27
+                                     all              -3.75                 0.87
+        ∆ childlessness rate          1                 0                   -0.03
+                                      2               -1.04                 -1.29
+                                      3               -2.10                 -2.28
+                                      4               -4.62                 -4.34
+                                      5               -4.27                 -4.36
+                                     all              -1.42                 -1.84
+
+
+        Table 5: Effect of Policy on Fertility Timing Choices, by Education Category
+
+in the spirit of the parental leaves with job protection which have already been implemented
+in various ways in some OECD countries but (nearly) not in the US. The second “policy” we
+implement consists in very strong assisted procreation techniques, which amount to making
+candidate mothers 5 years younger, i.e. the new π new (t) = π(t − 5).
+
+Table 5 shows the results. The first policy drastically reduces the mean age at first birth for
+education categories 3, 4, and 5. It also strongly reduces the childlessness rate for these cate-
+gories. This policy operates by incentivizing low ω women to try to have children, whereas they
+would opt for being voluntarily childless otherwise. This result again stresses the importance
+of the additional uncertainty undergone by mothers for their procreation decision. Our results
+echo those of Lalive and Zweimüller (2009), who show, in the case of Austrian reforms, that
+“both cash transfers and job protection are relevant” to increase fertility (in their case, going
+from one to two children).
+
+The second policy affects childlessness negatively by allowing older parents to have children.
+Yet the overall effect is barely stronger than that of the previous policy: childlessness drops by
+-1.83 percentage points, instead of -1.42. Making people younger also has an “incentive” effect:
+on average, people delay the birth of their first child by 0.89 year.
+
+
+
+
+                                                25
+4.4    Robustness to the Choice of Parameters
+
+We now analyze how robust the above results are to different choices of the subjective time
+discount rate ρ and the relative risk aversion parameter ε. Let us first consider ε. Changing
+the value of ε affects the results in two very different ways. First, it affects the computation
+of the returns r1 and r2 as a function of the observed growth rates ĝ1 and ĝ2 , and uncertainty
+σ 2 . Let us call this effect a recalibration effect. Second, it affects the results by changing the
+women’s preferences; it is a behavioral effect.
+
+To assess the recalibration effect, one can use Equations (25)-(26) and see that reasonable values
+for r1 and r2 require relatively strict conditions on ε. For example, imposing that childless
+women enjoy a higher return than mothers (r1 > r2 ) but not by more than 4% (r1 < r2 + 0.04)
+implies that ε should be between 4.19 and 5.90. Outside this interval, women will either always
+want to have a child immediately (when r1 is close to r2 ), or never want to have children (when
+r1 − r2 is large).
+
+Keeping r1 and r2 at their benchmark values, we can analyze the behavioral effect of changing
+ρ and ε on various outcomes. Table 6 provides the results. Given a range of values for ρ and ε
+(first two columns), the table shows the three correlations between actual and simulated values
+when the level of education varies. For the benchmark, in bold, the correlations summarize
+the information given in Figure 3. The “fit” of the mean age at birth remains good for all the
+parameters considered, but the “fit” of the childlessness rate deteriorates if ρ is large or ε small.
+The last four columns of Table 6 show the main effect of the policies considered. The sixth
+column shows that the size of the drop of about 4 years in the age at first birth following the
+removal of additional uncertainty linked to motherhood is very robust (but when ρ = 0.06).
+The drop in the childlessness rate however depends on the parameters. The last two columns
+show that the size of the effect of medically assisted procreation, which is increasing by one
+year the age at first birth and decreasing the childlessness rate by 2%, is quite consistent across
+parametrizations.
+
+
+4.5    Robustness to Sample Selection
+
+In the benchmark analysis, we have used the sample of all women with a positive individual
+income to deduce the parameters r1 , r2 , and σ from the distribution of income growth across
+women. In this subsection, we first consider an alternative sample, that of women who are or
+have been married. This reduces the sample by 16% but disproportionately affects the extreme
+education categories (less than high school and more than college). The mean age at first birth
+is almost unaffected by this selection, but the childlessness rate is reduced from 16.06% to
+
+
+                                                 26
+    Parameters              Overidentifying tests           Policy: σ = 0,   π new (t) = π(t − 5)
+      ρ      ε    corr(E τ )    corr(cln)   corr(std. τ )   ∆τ      ∆ cln     ∆τ        ∆ cln
+     0.02    3       0.94          0.78         0.95        -3.16   -3.03    +1.15      -2.14
+     0.02    4       0.94          0.75         0.97        -3.53   -2.25    +1.04      -2.03
+    0.02     5      0.95          0.82         0.95         -3.75   -1.42    +0.87      -1.84
+     0.02    6       0.97          0.97         0.93        -3.83   -0.96    +0.78      -1.85
+     0.01    5       0.96          0.86         0.92        -3.76   -0.95    +1.04      -1.85
+    0.02     5      0.95          0.82         0.95         -3.75   -1.42    +0.87      -1.84
+     0.04    5       0.94          0.73         0.97        -4.77   -3.27    +0.84      -2.21
+     0.06    5       0.91          0.59         0.97        -4.91   -5.67    +0.83      -2.80
+    Note: ‘cln’ = childlessness rate
+
+
+                    Table 6: Effect of Changing ρ and ε on Fit and Policy
+
+11.94%. Concerning the income processes examined through the lens of the quantile regression,
+this “protecting” effect of education, which was 0.0190∗∗∗ for childless women and 0.0063∗ for
+mothers in the full sample, is reduced to 0.0127∗∗∗ for childless women and remains the same at
+0.0064∗ for mothers. It implies that the loss associated with being a mother is reduced when we
+consider married women only: for the highest education category, r2 = 4.1% and r1 = 12.3%,
+while they were given by r2 = 3.2% and r1 = 13.5% on the full sample.
+
+The second robustness analysis is designed to address the issue of reverse causality between
+parenthood and years of schooling. In the sample, some women might have decided to stop
+schooling after their first child, rather than to postpone childbearing until they had completed
+their education, i.e. for given r1 , r2 , and σ. We accordingly remove all women who had
+children before the age of 16 from the sample (16 marks the end of compulsory schooling in
+most US states during the period considered; see Appendix 2 in Angrist and Krueger (1991)).
+This reduces the sample by 3.9%, but more so in the low-education category (12.9%). In the
+selected sample, the average age at first birth increases to 23.33 instead of 22.93 in the full
+sample. Childlessness also mechanically increases to 16.68%, as young mothers are removed
+from the sample. The coefficients of the quantile regression are very similar to the benchmark.
+
+Figures 4 and 5 in Appendix plot kernel density estimations of income growth for each education
+category – to be compared with Figure1 for the full sample. Solid lines correspond to childless
+women and dashed lines to mothers. It remains true in both smaller samples that the variance
+of income growth is larger for mothers than for childless women. This is confirmed by the
+(non-reported) estimations of the same quantile regressions.
+
+
+
+                                                    27
+    Sample              Nobs              Overidentifying tests            Policy: σ = 0,   π new (t) = π(t − 5)
+                                corr(E τ )    corr(cln)    corr(std. τ )   ∆τ      ∆ cln     ∆τ        ∆ cln
+    All                 4477       0.95         0.82           0.95        -3.75   -1.42    +0.87      -1.84
+    Married             3761       0.94          0.63          0.68        -3.90   -1.14    +0.64       -1.24
+    No teenage          4304       0.87          0.59          0.90        -4.06   -1.52    +0.49       -2.45
+      (< 16) mothers
+    Note: ‘cln’ = childlessness rate
+
+
+                       Table 7: Effect of Changing Sample on Fit and Policy
+
+The results of the simulations are presented in Table 7. In a nutshell, reducing the sample to
+either married women or mothers with children above 15 worsens the fit of the model. It is
+as if single women (either childless or mothers) and teenage mothers were part of the story we
+tell, and help the model fit the facts. Abstracting from them however does not really affect the
+conclusions about the effect of the insurance policy and of the medically assisted procreation
+program.
+
+
+5    Conclusion
+We know from the literature that the opportunity cost of having children is greater for highly
+educated women than for low-educated women. This leads the former to have fewer children or
+to be childless more often, creating a differential fertility between the extremes of the education
+spectrum (de la Croix and Doepke 2003, Vogl 2016). This paper highlights one important
+channel of this mechanism by relying on the analogy between postponing birth and delaying
+an irreversible investment.
+
+We have seen from the National Longitudinal Survey of Youth 1979 that education protects
+against negative shocks to income. However, this protecting effect of education is stronger for
+childless women than for mothers. It is very clear from the data that having children increases
+income uncertainty, especially for the highly educated.
+
+Facing this uncertainty, educated women expecting to have a child accumulate more assets,
+in order to prevent a decrease in the certainty-equivalent asset growth. For them, postponing
+birth has a value, the “option value of birth,” which corresponds to a “pure postponement
+value” as defined by Mensik and Requate (2005).
+
+Our approach also allows to precisely define a new notion of childlessness related to postpone-
+ment. Some educated women will try to have children at some point, but a fraction of them
+will fail. This type of childlessness has an involuntary component, but also a voluntary one
+
+
+                                                          28
+since, by postponing birth, women accept a lower probability of being fertile.
+
+The calibration of the model shows that the income uncertainty aspect is paramount compared
+to the biological clock. Indeed, if mothers could be insured against the income risk of having
+children, the age at first birth for the more educated categories would drop very strongly.
+
+
+
+
+                                              29
+References
+Adda, Jérôme, Christian Dustmann, and Katrien Stevens. 2017. “The Career Costs of Chil-
+  dren.” Journal of Political Economy 125 (2): 293–337.
+Albanesi, Stefania, and Claudia Olivetti. 2014. “Maternal health and the baby boom.”
+   Quantitative Economics 5 (2): 225–269.
+      . 2016. “Gender Roles and Medical Progress.” Journal of Political Economy 124 (3):
+   650–695.
+Angelov, Nikolay, Per Johansson, and Erica Lindahl. 2013, April. “Gender Differences in
+  Sickness Absence and the Gender Division of Family Responsibilities.” Iza discussion
+  papers 7379, Institute for the Study of Labor (IZA).
+Angrist, Joshua D., and Alan B. Krueger. 1991. “Does Compulsory School Attendance Affect
+  Schooling and Earnings?” The Quarterly Journal of Economics 106 (4): 979–1014.
+Arrow, Kenneth, and Anthony Fisher. 1974. “Environmental Preservation, Uncertainty, and
+   Irreversibility.” Quarterly Journal of Economics 88:312–319.
+Barro, Robert, and Xavier Sala-I-Martin. 2001. Economic Growth. Cambridge MA: Mit Press.
+Baudin, Thomas, David de la Croix, and Paula E. Gobbi. 2015. “Fertility and Childlessness
+   in the US.” American Economic Review 105:1852–1882.
+Boucekkine, Raouf, Aude Pommeret, and Fabien Prieur. 2013. “Optimal regime switching
+   and threshold effects.” Journal of Economic Dynamics and Control 37 (12): 2979–2997.
+Budig, Michelle J., and Paula England. 2001. “The Wage Penalty for Motherhood.” American
+  Sociological Review 66:204–225.
+Capatina, Elena, Michael Keane, and Shiko Maruyama. 2017. “Health Shocks and the Evo-
+  lution of Consumption and Income over the Life-Cycle.” mimeo.
+Chabé-Ferret, Bastien, and Paola Gobbi. 2016. “The Impact of Economic Uncertainty in
+  Fertility Cycles: the Case of the Post WWII Baby Boom.” IRES, Université catholique de
+  Louvain.
+Cigno, Alessandro, and John Ermisch. 1989. “A Microeconomic Analysis of the Timing of
+   Births.” European Economic Review 33:737–760.
+Córdoba, Juan Carlos, and Marla Ripoll. 2016. “Intergenerational Transfers and the Fertili-
+    tyIncome Relationship.” The Economic Journal 126 (593): 949–977.
+Correll, Shelley J., Stephen Benard, and In Paik. 2007. “Getting a Job: Is There a Motherhood
+   Penalty?” American Journal of Sociology 112 (5): 1297–1338.
+
+                                            30
+Croson, Rachel, and Uri Gneezy. 2009. “Gender Differences in Preferences.” Journal of
+   Economic Literature 47 (2): 448–474.
+d’Albis, Hippolyte, Emmanuelle Augeraud Véron, and Katheline Schubert. 2010. “Demo-
+   graphic – economic equilibria when the age at motherhood is endogenous.” Journal of
+   Mathematical Economics 46 (6): 1211 – 1221.
+d’Albis, Hippolyte, Angela Greulich, and Grégory Ponthière. 2015. Avoir un Enfant plus
+   Tard. Enjeux Sociodémographiques du report des naissances. Paris: CEPREMAP.
+de la Croix, David, and Matthias Doepke. 2003. “Inequality and Growth: Why Differential
+   Fertility Matters.” American Economic Review 93 (4): 1091–113.
+de la Croix, David, and Omar Licandro. 2013. “The Child is Father Of the Man: Implications
+    for the Demographic Transition.” The Economic Journal 123 (567): 236–261.
+Dixit, Avinash. 1992. “Investment and Hysteresis.” Journal of Economic Perspectives 6:107–
+   132.
+Dixit, Avinash, and Robert Pindyck. 1994. Investment under Uncertainty. Princeton: Prince-
+   ton University Press.
+Doss, Brian, Galena K. Rhoades, Scott M. Stanley, and Howard J Markman. 2009. “The effect
+   of the transition to parenthood on relationship quality: An 8-year prospective study.”
+   Journal of Personality and Social Psychology 96 (3): 601–619.
+Fisher, Anthony, and Michael Hanemann. 1987. “Quasi-Option Value: Some Misconceptions
+   Dispelled.” Journal of Envirnomental Economics and Management 16:23–37.
+Francesconi, Marco. 2002. “A Joint Dynamic Model of Fertility and Work of Married Women.”
+   Journal of Labor Economics 20 (2): 336–380.
+French, Eric. 2005. “The Effects of Health, Wealth, and Wages on Labour Supply and
+   Retirement Behaviour.” The Review of Economic Studies 72 (2): 395–427.
+Gauthier, Anne. 2007. “The impact of family policies on fertility in industrialized countries:
+  a review of the literature.” Population Research and Policy Review 26:323–346.
+Gayle, George-Levi, Limor Golan, and Mehmet A. Soytas. 2015, August. “What is the source
+  of the intergenerational correlation in earnings?” Working papers 2015-19, Federal Reserve
+  Bank of St. Louis.
+Gollier, Christian. 2001. The Economics of Risk and Time. Cambridge MA: Mit Press.
+Guner, Nezih, Ezgi Kaya, and Virginia Sanchez Marcos. 2017. “Labor Market Frictions and
+  Lowest Low Fertility.” Paper presented at the SED meeting Edinburgh.
+
+
+
+                                             31
+Hansen, Lars Peter, John Heaton, Junghoon Lee, and Nikolai Roussanov. 2007. “Intertemporal
+  Substitution and Risk Aversion.” In Handbook of Econometrics, Volume 6A, 3967–4056.
+  Elsevier.
+Hazan, Moshe, and Hosny Zoabi. 2013. “Do Highly Educated Women Choose Smaller Fami-
+   lies?” The Economic Journal 125:1191–1226.
+Heckman, James J, and Robert J Willis. 1976. “Estimation of a stochastic model of repro-
+   duction: An econometric approach.” In Household production and consumption, 99–146.
+   NBER.
+Henry, Claude. 1974. “Investment Decisions under Uncertainty: the Irreversibility Effect.”
+   American Economic Review 64:1006–1012.
+Herr, Jane. 2016. “Measuring the effect of the timing of first birth on wages.” Journal of
+   Population Economics 29 (1): 39–72 (January).
+Hoem, Britta. 2000. “Entry into motherhood in Sweden: the influence of economic factors on
+   the rise and fall of fertility, 1986-1997.” Demographic Research, vol. 2.
+Hofmann, Barbara, and Katrin Hohmeyer. 2013. “Perceived Economic Uncertainty and Fer-
+   tility: Evidence From a Labor Market Reform.” Journal of Marriage and Family 75 (2):
+   503–521.
+Jorion, Philippe, and Alberto Giovannini. 1993. “Time-series tests of a non-expected-utility
+   model of asset pricing.” European Economic Review 37 (5): 1083–1100.
+Kimball, Miles S. 1990. “Precautionary Saving in the Small and in the Large.” Econometrica
+   58 (1): 53–73.
+Kocherlakota, Narayana R. 1996. “The Equity Premium: It’s still a Puzzle.” Journal of
+  Economic Literature 34 (1): 42–71.
+Lalive, Rafael, and Josef Zweimüller. 2009. “Does Parental Leave Affect Fertility and Return-
+   to-Work? Evidence from Two Natural Experiments.” Quarterly Journal of Economics 24
+   (3): 1363–1402.
+Léridon, Henri. 2004. “Can assisted reproduction technology compensate for the natural
+    decline in fertility with age.” Human Reproduction 19 (7): 1548–1553.
+      . 2005. “How effective is assisted reproduction technology? A model assessment.”
+   Revue d’Épidémiologie et de Santé Publique 53:119–127.
+Low, Corinne. 2013. “Pricing the Biological Clock: Reproductive Capital on the US Marriage
+   Market.” Mimeo.
+
+
+
+
+                                             32
+Lundborg, Petter, Erik Plug, and Astrid Würtz Rasmussen. 2016. “Can Women Have Children
+   and a Career? IV Evidence from IVF Treatments.” American Economic Review 107 (6):
+   1611–37.
+Mensink, Paul, and Till Requate. 2005. “The Dixit-Pindyck and the Arrow-Fisher-Hanemann-
+  Henry Option Values are not Equivalent: a Note on Fisher (2000).” Resource and Energy
+  Economics 27:83–88.
+Meron, Monique, and Isabelle Widmer. 2002. “Unemployment leads women to postpone the
+  birth of their first child.” Population - English Edition 57:301–330.
+Miller, Amalia. 2011. “The effects of motherhood timing on career path.” Journal of Popu-
+   lation Economics 24 (3): 1071–1100.
+Munch, Allison, J. Miller McPherson, and Lynn Smith-Lovin. 1997. “Gender, Children, and
+  Social Contact: The Effects of Childrearing for Men and Women.” American Sociological
+  Review 62 (4): 509–520.
+Nugent, Jeffrey B. 1985. “The old-age security motive for fertility.” Population and develop-
+  ment review, pp. 75–97.
+Pailhé, Ariane, and Anne Solaz. 2012. “The influence of employment uncertainty on child-
+   bearing in France: a tempo or quantum effect?” Demographic Research 26:1–40.
+Pestieau, Pierre, and Grégory Ponthière. 2014. “Optimal Fertility along the Life Cycle.”
+   Economic Theory 55:185–224.
+      . 2015. “Optimal life-cycle Fertility in a Barro-Becker Economy.” Journal of Population
+   Economics 28:45–87.
+Pindyck, Robert. 1991. “Irreversibility, Uncertainty, and Investment.” Journal of Economic
+   Literature 29, no. 1110-1148.
+Schneider, Daniel. 2015. “The Great Recession, Fertility, and Uncertainty: Evidence From
+   the United States.” Journal of Marriage and Family 77 (5): 1144–1156.
+Sheran, Michelle. 2007. “The Career and Family Choices of Women: A Dynamic Analysis
+   of Labor Force Participation, Schooling, Marriage, and Fertility Decisions.” Review of
+   Economic Dynamics 10:367–399.
+Sommer, Kamila. 2016. “Fertility choice in a life cycle model with idiosyncratic uninsurable
+   earnings risk.” Journal of Monetary Economics 83:27 – 38.
+Turnovsky, Stephen J. 2000. Methods of macroeconomic dynamics. Cambridge MA: Mit Press.
+Vogl, Tom. 2016. “Differential Fertility, Human Capital, and Development.” Review of
+   Economic Studies 83:365–401.
+
+
+                                            33
+A      Solving the Post-Birth Program
+We note the variable part of the value function as V (aτ ) = W2 (aτ ) − ω. The corresponding
+Bellman equation is
+
+              V (at ) = max u(ct )dt + e−ρ dt E [V (at+dt )]
+                           
+                               ct
+                        ⇔ V (at ) = max {u(ct )dt + (1 − ρ dt) (V (at ) + E [dV (at )])}
+                                             ct
+                        ⇔ ρV (at )dt = max {u(ct )dt + (1 − ρ dt)E [dV (at )]}
+                                                  ct
+
+
+using e−ρ dt ≈ (1 − ρ dt) for small dt. To solve for the value function, we make an educated
+                    a1−ε
+guess, V (at ) = D2 1−ε
+                     t
+                         where D2 is a constant to be determined. According to Itô’s lemma:
+
+                                           ∂V (at )            1 ∂ 2 V (at )
+                        E [dV (at )] =              E[dat ] +                E[(dat )2 ]
+                                            ∂at                2 ∂a2t
+                                                                       
+                                               1−ε          ct    ε 2
+                                         = D2 at     r2 − − σ2 dt
+                                                            at 2
+
+as E[dat ] = (r2 at − ct )dt and E[(dat )2 ] = σ22 a2t dt (as (dt)2 ≈ 0, (dt)3/2 ≈ 0 and E[(dz)2 ] = dt)
+
+The Bellman equation then becomes:
+
+                                                  ct1−ε
+                                                                             
+                                                               1−ε      ct ε 2
+                        ρV (at ) = max                  + D 2 at    r2 − − σ2
+                                        ct        1−ε                   at 2
+
+                                                                                 −1/ε
+The first-order condition with respect to consumption is: ct = D2                       at . In order to determine
+constant D2 , the Bellman equation can be rewritten:
+                                                           1−ε
+                                              −1/ε
+                        a1−ε                 D2       at          ε 
+                         t                                  −1/ε
+                  ρD2               =     + D2 at1−ε r2 − D2     − σ22
+                        1−ε      1−ε                               2
+                                      −1/ε
+                               ρ    D        
+                                                      −1/ε  ε    
+                            ⇔     = 2      + r2 − D2       − σ22
+                              1−ε   1−ε                     2
+                                       −1/ε
+                               ρ    εD2             ε   
+                            ⇔     =         + r2 − σ22
+                              1−ε    1−ε             2
+                                                                    −ε
+                                            1                 ε 2 
+                                    ⇔ D2 =     ρ + (ε − 1) r2 − σ2        = q −ε ,
+                                            ε                  2
+
+where q is defined in Equation (7). Therefore
+
+                                                                    aτ1−ε
+                                             W2 (aτ ) = q −ε              + ω.
+                                                                    1−ε
+
+                                                               34
+B      Solving the Full Program
+Standard integration by parts yields:
+
+                                      Zτ                                  Zτ
+                                            µt ȧt dt = µτ aτ − µ0 a0 −        µ̇t at dt,
+                                       0                                  0
+
+
+which allows to rewrite W (a0 ) as:
+
+                              Zτ
+                  W (a0 ) =            (H(ct , at , µt ) + µ̇t at ) dt + ϕ(τ, aτ ) − µτ aτ + µ0 a0 .
+                                  0
+
+
+The first-order variation of W (a0 ) with respect to the state and control variable’s path for a
+given a0 but for τ and aτ free yields:
+
+                            Zτ                                                                   
+                                           ∂H(ct , at , µt )       ∂H(ct , at , µt )
+             dW (a0 ) =                                      dat +                   dct + µ̇t dat dt
+                                               ∂at                     ∂ct
+                              0
+                                                                        ∂ϕ(τ, aτ )       ∂ϕ(τ, aτ )
+                            + [H(cτ , aτ , µτ ) + µ̇τ aτ ] dτ +                    daτ +            dτ
+                                                                          ∂aτ              ∂τ
+                            −µ̇τ aτ dτ − µτ daτ .
+
+Rearranging terms leads to:
+
+                                      Zτ                                             
+                                 ∂H(ct , at , µt )                 ∂H(ct , at , µt )
+                dW (a0 ) =                         + µ̇t dat +                       dct dt
+                                      ∂at                              ∂ct
+                           0
+                                                             
+                                                   ∂ϕ(τ, aτ )
+                           + H(cτ , aτ , µτ ) +                 dτ
+                                                     ∂τ
+                                                
+                               ∂ϕ(τ, aτ )
+                           +              − µτ daτ .
+                                 ∂aτ
+
+A trajectory is (locally) optimal if any (local) departure from it decreases the value function,
+that is dW (a0 ) ≤ 0 for any dat , t ∈ (0, τ ), for any dct , t ∈ (0, τ ), and for any dτ and daτ , which
+gives the following necessary conditions for an interior maximizer:
+
+                                                    ∂H(ct , at , µt )
+                                                                        = 0
+                                                             ∂ct
+                                                ∂H(ct , at , µt )
+                                                                  + µ̇t = 0
+                                                    ∂at
+
+
+
+                                                              35
+                                                          ∂ϕ(τ, aτ )
+                                 H(cτ , aτ , µτ ) +                  = 0
+                                                              ∂τ
+                                                     ∂ϕ(τ, aτ )
+                                                                − µτ = 0
+                                                       ∂aτ
+
+The first two conditions are standard Pontryagin conditions. The last two conditions may be
+interpreted as optimality conditions with respect to the switching time τ and the free state value
+aτ . The third one equalizes the marginal benefit of waiting to the marginal cost of waiting.
+The last one is a continuity condition: it implies that the shadow price of the state variable at
+the time of the switch, µτ , is equal to the expected marginal value of the state variable in τ
+(derived from the programs after the switch).
+
+The two standard Pontryagin conditions imply:
+
+                /ct   :   u0 (ct )e−ρt = µt
+                /at   :   µ̇t /µt = −r1 ⇒ µt = µ0 e−r1 t
+                                                                    r1 −ρ          −1/ε
+                      ⇒ ċt /ct = (r1 − ρ)/ε ⇒ ct = c0 e ε t and ct = µt eρt
+
+Therefore, the dynamics of assets can be rewritten as:
+                                                                  r1 −ρ
+                                         ȧt = r1 at − c0 e ε t
+                                                                  r1 −ρ
+Using a variable change xt = at e−r1 t we solve for xt = (c0 /p)e( ε −r1 )t + x, where p is defined
+in Equation (6) and x is a constant to be determined. Therefore:
+
+                                                c0 ( r1ε−ρ )t
+                                       at =       e           + xer1 t
+                                                p
+
+Without the procreation option, the transversality condition would imply x = 0 and c0 would
+be determined by a0 .
+
+Moreover at t = 0:
+
+                          a0 = cp0 + x
+                                                            c0
+                                 ⇔        x = a0 −
+                                                            p
+                                                                    
+                                              c0 ( r1ε−ρ )t        c0 r1 t
+                                 ⇒        at = e            + a0 −     e
+                                              p                    p
+
+                                              r1 t     c0 h ( r1ε−ρ )t    r1 t
+                                                                               i
+                                 at = a0 e           +     e           −e                     (27)
+                                                       p
+
+
+
+                                                         36
+The fourth condition allows to find aτ as a function of τ :
+
+                                         ∂ϕ(τ, aτ )
+                                                    − µτ = 0
+                                           ∂aτ
+
+
+                            ⇔ µτ = e−ρτ π(τ )q −ε + (1 − π(τ ))p−ε a−ε
+                                                                 
+                                                                    τ
+
+                            ⇔ µτ = e−ρτ (s(τ )aτ )−ε
+                            ⇒ µ0 = µτ er1 τ = e(r1 −ρ)τ (s(τ )aτ )−ε
+
+where we have introduced the following notation:
+                                                                         −1/ε
+                               s(t) = π(t)q −ε + (1 − π(t))p−ε
+
+which is valid in particular for t = τ . This allows to identify c0 as a function of τ and aτ :
+
+                                                             −1/ε                 −1/ε
+                 c0 = (µ0 )−1/ε = e(r1 −ρ)τ (s(τ )aτ )−ε             = e(r1 −ρ)τ           s(τ )aτ   (28)
+
+Using (27) and (28), it is then possible to obtain an expression for aτ as a function of τ and a0 :
+
+                                                     er1 τ
+                                    aτ =                           a0                                (29)
+                                            1 + s(τ ) [epτ − 1] /p
+
+Note that without the procreation option, this expression would become:
+                                                     r1 −ρ
+                                             aτ = e ε τ a0
+
+Therefore, it is possible to express X(τ ) the effect of the procreation option as follows:
+                                                  r1 −ρ
+                                         aτ = e ε τ X(τ )a0
+
+with
+                                                     epτ
+                                    X(τ ) =
+                                            1 + s(τ ) [epτ − 1] /p
+X(τ ) ≥ 1 if and only if ε ≥ 1.
+It is now possible to express the dynamics of at :
+                                                              r1 −ρ
+                                                   h                i
+                                                epτ er1 t − e( ε )t
+                                        
+
+                               at = a0 er1 t −                                                     (30)
+                                                 ps(τ ) + [epτ − 1]
+
+
+
+                                                    37
+                             r1 −ρ
+In addition, using cτ = c0 e ε τ , Equations (28) and (30), it is possible to express consumption
+as a function of τ only:
+                                           epτ s(τ )             r1 −ρ
+                                                                       τ
+                                cτ =                        a0 e   ε
+                                     1 + s(τ ) [epτ − 1] /p
+Note that absent the procreation option, this expression would become:
+                                                       r1 −ρ
+                                             cτ = pe ε τ a0
+
+
+Finally, the third condition gives a second relation between aτ and τ :
+
+                                 ∂ϕ(τ, aτ )
+            H(cτ , aτ , µτ ) +              =0
+                                   ∂τ
+              c1−ε
+            ⇔  τ
+                   e−ρτ + µτ (r1 aτ − cτ ) − ρϕ(τ, aτ )
+             1−ε
+                                                1−ε                     1−ε
+                                                                        
+                           −ρτ      0       −ε aτ           0       −ε aτ
+                        +e        π (τ ) q           + ω − π (τ ) p            =0
+                                              1−ε                     1−ε
+              c1−ε
+            ⇔ τ e−ρτ + µτ (r1 aτ − cτ ) − ρϕ(τ, aτ )
+             1−ε
+                                                1−ε                     1−ε
+                                                                        
+                           −ρτ      0       −ε aτ           0       −ε aτ
+                        +e        π (τ ) q           + ω − π (τ ) p            =0
+                                              1−ε                     1−ε
+              c1−ε
+            ⇔ τ e−ρτ + µτ (r1 aτ − cτ ) − ρϕ(τ, aτ )
+             1−ε
+                                                    a1−ε
+                        + e−ρτ π 0 (τ ) q −ε − p−ε τ + e−ρτ π 0 (τ )ω = 0.
+                                       
+                                                     1−ε
+
+To obtain a function of τ only, recall that
+
+                                 s(τ )−ε =       π(τ )q −ε + (1 − π(τ ))p−ε
+                                         = π(τ )(q −ε − p−ε ) + p−ε
+                                           s(τ )−ε − p−ε
+                                         ⇒                = q −ε − p−ε
+                                                π(τ )
+
+and
+                                             c−ε
+                                              τ e
+                                                  −ρτ
+                                                      = µτ
+
+then
+
+  c1−ε
+   τ
+       e−ρτ + r1 e−ρτ s(τ )−ε a1−ε
+                               τ   − c1−ε
+                                      τ e
+                                          −ρτ
+                                              − ρϕ(τ, aτ )
+  1−ε
+                                                      π 0 (τ )             a1−ε
+                                               + e−ρτ          g(τ ) − p−ε τ + e−ρτ π 0 (τ )ω = 0
+                                                      π(τ )                 1−ε
+
+
+
+                                                     38
+                                                        1−ε                        1−ε
+                                                                                    
+                                          −ρτ       −ε aτ                      −ε aτ
+                   where ϕ(τ, aτ ) = e      π(τ ) q         + ω + (1 − π(τ ))p
+                                                       1−ε                       1−ε
+                                                                    a 1−ε
+                                   = e−ρτ π(t)q −ε + (1 − π(τ ))p−ε τ + e−ρτ π(τ )ω
+                                          
+                                                                     1−ε
+                                                   1−ε
+                                                 a
+                                   = e−ρτ s(τ )−ε τ + e−ρτ π(τ )ω
+                                                 1−ε
+
+therefore
+
+       εc1−ε                            1−ε
+                                                       π 0 (τ )             a1−ε
+                                                   
+                                    −ε aτ
+         τ              1−ε
+             + r1 g(τ )aτ − ρ s(τ )         + π(τ )ω +          g(τ ) − p−ε τ + π 0 (τ )ω = 0
+       1−ε                            1−ε              π(τ )                 1−ε
+
+  εcτ1−ε                             1−ε
+                                             π 0 (τ )              1−ε
+                                        
+                   −ε 1−ε        −ε aτ                     −ε   −ε aτ
+⇔        + r1 s(τ ) aτ − ρ s(τ )           +          s(τ ) − p         = (ρπ(τ ) − π 0 (τ )) ω
+  1−ε                              1−ε       π(τ )                 1−ε
+Recall
+                                                        r1 −ρ
+                                           cτ = c0 e ε τ = (g(τ ))−1/ε aτ
+
+Therefore:
+                                                                                              !
+                    ε (s(τ ))1−ε                ρs(τ )−ε π 0 (τ ) s(τ )−ε − p−ε
+         a1−ε
+          τ                      + r1 s(τ )−ε −         +                                          = (ρπ(τ ) − π 0 (τ )) ω
+                       1−ε                       1−ε      π(τ )        1−ε
+
+and using the expression for aτ we obtain an implicit expression for τ , as a function of a0 .
+                                    ε−1
+      (1−ε)r1 τ       s(τ ) pτ
+  e                1+       [e − 1]
+                        p
+                                                     1 π 0 (τ )       p−ε                   π 0 (τ )
+                                                                                                
+                           ε        −ε
+                      ×       s(τ )      p − s(τ ) −              1−            = π(τ ) ρ −            ωaε−1
+                                                                                                         0
+                        ε−1                           π(τ )         s(τ )−ε                π(τ )
+
+The value function of the full program is:
+                                                                    r1 −ρ
+                                                                               1−ε
+                                          Zτ       s(τ )X(τ )a0 e      ε
+                                                                           t
+
+                            W (a0 ) =                                                 e−ρt dt + ϕ(τ, aτ )
+                                                           1−ε
+                                          0
+                                                                     Zτ
+                                       (s(τ )X(τ )a0 )1−ε
+                                     =                                    e−pt dt + ϕ(τ, aτ )
+                                             1−ε
+                                                                    0
+                                                                  τ
+                                                                1−ε 
+                                       (s(τ )X(τ )a0 )     −1 −pt
+                                     =                       e       + ϕ(τ, aτ )
+                                             1−ε           p       0
+                                       (s(τ )X(τ )a0 )1−ε −1 −pτ 1
+                                                                      
+                                     =                       e     +     + ϕ(τ, aτ )
+                                             1−ε           p         p
+
+
+
+                                                                39
+C         Proofs
+
+C.1         Proof of Proposition 2
+
+For r2 ≥ r1 and σ = 0, it is possible to show that ∂W∂τ(a0 ) < 0, thus proving the first part of the
+proposition.
+
+To prove the second part of the proposition, we rewrite Equation (23) as (see Appendix B):
+
+                                   ε−1
+      (1−ε)r1 τ       s(τ ) pτ
+  e                1+       [e − 1]
+                        p
+                                               1 π 0 (τ )      p−ε                   π 0 (τ )
+                                                                                         
+                      ε        −ε
+                   ×      s(τ )    p − s(τ ) −             1−            = π(τ ) ρ −            ωaε−1
+                                                                                                  0   (31)
+                     ε−1                        π(τ )        s(τ )−ε                π(τ )
+
+In the neighborhood of τ = 0, since π 0 (τ ) = 0, it can be simplified to:
+                                                    ε−1
+                                         s(τ ) pτ          ε
+                     e   (1−ε)r1 τ
+                                      1+      [e − 1]         s(τ )−ε (p − s(τ )) = π(τ )ρωaε−1
+                                                                                            0
+                                          p               ε−1
+
+The right-hand side of this equation is always positive and finite. For r2 = r1 and σ = 0,
+the left-hand side (LHS) of the equation is equal to zero. In addition, ∂LHS(τ )/∂σ > 0 and
+limσ→σmax LHS → ∞ with σmax = [2(r2 − ρ/(1 − ε)/ε]1/2 . Therefore, there exists σ > 0 such
+that σ > σ ⇔ τ ∗ > 0 . This proves the second part of the proposition.
+
+To prove the third part of the proposition, we compare the functions W1 (aτ ) and W2 (aτ ). We
+have limσ→σmax W2 (aτ ) → −∞ for a finite aτ , while W1 (aτ ) remains finite as it is not affected
+by σ. Therefore, limσ→σmax τ ∗ → +∞. In addition, ∂W∂σ    2 (aτ )
+                                                                  < 0 and we know from the first part
+of the proposition that for r2 = r1 and σ = 0, it is optimal to get pregnant as soon as possible.
+Therefore, there exists a value σ̄ of σ that is sufficiently large to have τ ∗ ≥ T if σ > σ̄.
+
+
+C.2         Proof of Proposition 3
+
+For τ ≥ T and τ ≤ 0, we have π 0 (τ ) = 0. Under the assumption π 0 (τ ) = 0 and τ finite, the
+derivative of the LHS and of the RHS of Equation (31) with respect to τ and ω can be written:
+
+                                                                                   
+                  ∂LHS   (1−ε)r1 τ       −                   s(τ ) pτ             pτ
+                       =e          εs(τ ) (p − s(τ )) −r1 1 +      (e − 1) + s(τ )e
+                   ∂τ                                          p
+                                      ∂LHS      ∂RHS      ∂RHS
+                                           = 0,      = 0,      = π(τ )ρaε−1
+                                                                        0   >0
+                                       ∂ω        ∂τ        ∂ω
+
+
+                                                            40
+For ρ < r1 and π 0 (τ ) = 0, the LHS is then a decreasing function for all τ which ensures ω̄ < ω̃.
+ρ < r1 and τ in the neighborhood of 0 and T (which ensures π 0 (τ ) = 0 ) are sufficient, together
+with continuity, to yield the existence and uniqueness of ω̄ and ω̃.
+
+
+D         Kernel Density Estimations of Income Growth Dis-
+          tribution - Alternative Samples
+
+                     All                                 Category (1)                             Category (2)
+
+    10                                       10                                       10
+
+    8                                        8                                        8
+
+    6                                        6                                        6
+
+    4                                        4                                        4
+
+    2                                        2                                        2
+
+    0                                        0                                        0
+
+         −0.3   −0.1 0.0   0.1   0.2   0.3        −0.3   −0.1 0.0   0.1   0.2   0.3        −0.3   −0.1 0.0   0.1   0.2   0.3
+
+
+
+
+                Category (3)                             Category (4)                             Category (5)
+
+    10                                       10                                       10
+
+    8                                        8                                        8
+
+    6                                        6                                        6
+
+    4                                        4                                        4
+
+    2                                        2                                        2
+
+    0                                        0                                        0
+
+         −0.3   −0.1 0.0   0.1   0.2   0.3        −0.3   −0.1 0.0   0.1   0.2   0.3        −0.3   −0.1 0.0   0.1   0.2   0.3
+
+
+
+
+Figure 4: Kernel density estimations of individual income growth distribution by education
+category. Married women. Childless women (solid) and mothers (dashed)
+
+
+
+
+                                                           41
+                    All                                 Category (1)                             Category (2)
+
+   10                                       10                                       10
+
+   8                                        8                                        8
+
+   6                                        6                                        6
+
+   4                                        4                                        4
+
+   2                                        2                                        2
+
+   0                                        0                                        0
+
+        −0.3   −0.1 0.0   0.1   0.2   0.3        −0.3   −0.1 0.0   0.1   0.2   0.3        −0.3   −0.1 0.0   0.1   0.2   0.3
+
+
+
+
+               Category (3)                             Category (4)                             Category (5)
+
+   10                                       10                                       10
+
+   8                                        8                                        8
+
+   6                                        6                                        6
+
+   4                                        4                                        4
+
+   2                                        2                                        2
+
+   0                                        0                                        0
+
+        −0.3   −0.1 0.0   0.1   0.2   0.3        −0.3   −0.1 0.0   0.1   0.2   0.3        −0.3   −0.1 0.0   0.1   0.2   0.3
+
+
+
+
+Figure 5: Kernel density estimations of individual income growth distribution by education
+category. All women except teenage (< 16) mothers. Childless women (solid) and mothers
+(dashed)
+
+
+
+
+                                                          42
+ISSN 1379-244X D/2017/3082/16
+

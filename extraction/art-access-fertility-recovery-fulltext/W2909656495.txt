@@ -1,0 +1,1247 @@
+DEMOGRAPHIC RESEARCH
+
+VOLUME 40, ARTICLE 1, PAGES 1,26
+PUBLISHED 10 JANUARY 2019
+https://www.demographic-research.org/Volumes/Vol40/1/
+DOI: 10.4054/DemRes.2019.40.1
+
+Research Article
+
+Running out of time?
+Understanding the consequences of the
+biological clock for the dynamics of fertility
+intentions and union formation
+
+Michael Wagner
+Johannes Huinink
+Aart C. Liefbroer
+
+© 2019 Michael Wagner, Johannes Huinink & Aart C. Liefbroer.
+
+This open-access work is published under the terms of the Creative Commons
+Attribution 3.0 Germany (CC BY 3.0 DE), which permits use, reproduction,
+and distribution in any medium, provided the original author(s) and source
+are given credit.
+See https://creativecommons.org/licenses/by/3.0/de/legalcode.
+Contents
+1       Introduction                                            2
+
+2       Theoretical approach and hypotheses                     3
+2.1     The Biological Clock Hypothesis                         3
+2.2     Other factors affecting the intention to have a child   5
+2.3     Finding a partner                                       5
+2.4     Hypotheses                                              6
+
+3       Data and method                                          7
+3.1     The German Family Panel                                  7
+3.2     Variables                                                7
+3.2.1   Fertility intentions                                     7
+3.2.2   Life course achievement                                  8
+3.2.3   Personality                                              8
+3.2.4   Partnership orientation                                  9
+3.2.5   Attitudes                                                9
+3.2.6   Subjective norms                                        10
+3.2.7   Perceived behavioral control                            10
+3.3     Methods                                                 11
+3.4     Subsample selection and panel mortality                 11
+
+4       Results                                                 12
+4.1     Patterns of fertility intentions                        12
+4.2     The dynamics of fertility intentions                    15
+4.3     The transition to a partnership                         18
+
+5       Discussion                                              19
+
+        References                                              22
+
+        Appendix                                                26
+                             Demographic Research: Volume 40, Article 1
+                                           Research Article
+
+
+
+                       Running out of time?
+    Understanding the consequences of the biological clock for the
+        dynamics of fertility intentions and union formation
+                                        Michael Wagner1
+                                       Johannes Huinink2
+                                       Aart C. Liefbroer3
+
+
+
+Abstract
+
+BACKGROUND
+A considerable proportion of childless women in their late thirties or early forties would
+still like to have children. The number of men and women whose fertility intentions are
+potentially influenced by the so-called biological clock for childbearing and who
+remain involuntarily childless is increasing.
+OBJECTIVE
+We analyze the short-term dynamics of fertility intentions and partner search among
+childless, non-partnered men and women aged 35–37. By comparing people in this age
+group to younger men and women, we investigate whether and how their awareness of
+the biological clock for childbearing affects their childbearing intentions.
+METHODS
+The data stems from the first two waves of the German Panel Analysis of Intimate
+Relationships and Family Dynamics (pairfam) survey. We selected male and female
+respondents aged 25–27 (n = 1,073) and 35–37 (n = 369) in Wave 1.
+RESULTS
+Our analyses reveal that fertility intentions are more polarized among men and women
+aged 35–37 than among their 25–27-year-old counterparts, and are more polarized
+among women than among men. Finding a partner is shown to positively affect fertility
+intentions. Our results suggest that people who intensify their fertility intentions are not
+
+
+1
+  University of Cologne, Germany. Email: mwagner@wiso.uni-koeln.de.
+2
+  University of Bremen, Germany. Email: huinink@uni-bremen.de.
+3
+  Netherlands Interdisciplinary Demographic Institute, The Hague, University Medical Centre Groningen,
+University of Groningen, and Vrije Universiteit, Amsterdam, the Netherlands. Email: liefbroer@nidi.nl.
+
+
+
+http://www.demographic-research.org                                                                 1
+Wagner, Huinink & Liefbroer: Running out of time?
+
+
+
+necessarily successful in finding a partner, which can be seen as a major prerequisite for
+family formation.
+CONTRIBUTION
+This is one of the first studies to investigate the fertility intentions of childless men and
+women whose biological clock is running out. It provides an instructive example for a
+longitudinal study of the dynamics of life-course-related intentions.
+
+
+
+
+1. Introduction
+
+In many Western European countries the proportion of first births to women aged over
+35 has been growing since the 1960s (Prioux 2005). At the same time, a considerable
+proportion of childless women in their late thirties or early forties would still like to
+have children (Ruckdeschel 2007: 218). The number of men and women whose family-
+formation intentions are potentially affected by the so-called biological clock for
+childbearing, and who remain involuntarily childless, is increasing (Te Velde et al.
+2012). For women, the biological clock for childbearing denotes the time period
+between puberty and menopause. Men also seem to be affected by biological deadlines
+for paternity (Rotkirch et al. 2011).
+      In this paper we investigate the short-term dynamics of fertility intentions and of
+partner search among 35–37-year-old childless men and women without a partner. For
+women in this age range the decline in fecundity is accelerating (Balasch 2010), but
+there is still a realistic chance of having a child. The fertility intentions and behavior of
+this group of partnerless and childless men and women might be more influenced by the
+ticking of the biological clock than those of men and women who are already parents or
+who are too old to have a realistic chance of having a child. We investigate which
+individual and social factors have the greatest impact on men and women who face
+decreasing opportunities to achieve the major developmental goal of becoming a parent.
+      Research on the behavioral influence of the biological clock on men and women in
+their late thirties is limited. For Norway, Dommermuth, Klobas, and Lappegård (2011)
+demonstrate that age positively affects the fertility intentions of childless individuals.
+By contrast, Liefbroer (2009) finds for the Netherlands that childless men and women
+in their thirties lower their family size intentions. For Britain, Iacovou and Tavares
+(2011) detect a very modest drop in expected fertility after age 30.
+      In the next section we propose a theoretical framework, inspired by the theory of
+developmental regulation proposed by Heckhausen and others (Heckhausen, Wrosch,
+and Fleeson 2001; Liefbroer 2009), to explain the dynamics of fertility intentions over
+time. Following the Theory of Planned Behavior, we introduce further relevant
+
+
+2                                                           http://www.demographic-research.org
+                                                     Demographic Research: Volume 40, Article 1
+
+
+
+determinants of fertility intentions (Ajzen 1991; Dommermuth, Klobas, and Lappegård
+2011). With regard to the transition to partnership, we briefly discuss partner matching
+and how it is affected by the opportunity structure of the partner market. We then
+examine whether their realization that they are running out of time to have a child
+because of their biological fertility limitations intensifies or weakens partnerless and
+childless men and women’s intention to start a family, and whether a transition to a
+partnership affects this intention. In a second step we analyze the transition to a
+partnership among this group. Our data stems from the German Panel Analysis of
+Intimate Relationships and Family Dynamics survey, a longitudinal study started in
+2008.
+
+
+2. Theoretical approach and hypotheses
+
+Biology restricts the age range within which women can become pregnant. In Western
+countries the mean age at menopause is about 50–51 years (Billari et al. 2007). Fertility
+rates drop steeply after the age of 35, and between ages 45 and 54 fertility rates are
+extremely low (Fretts, Zera, and Heffner 2008). The biological clock ticks more slowly
+for men than for women (Balasch 2010).
+
+
+2.1 The Biological Clock Hypothesis
+
+Based on the model of developmental regulation, Heckhausen, Wrosch, and Fleeson
+(2001) argue that for “predeadline” women who have not yet had a child, the goal of
+starting a family becomes increasingly dominant relative to other life goals. In principle
+there are three possible reactions people might have to nearing the end of their
+reproductive years. First, people might remain unaffected by the urgency of the
+biological clock, and their fertility intentions would thus remain constant. Second,
+people’s intentions to have a child within a short period of time might intensify, which
+could be accompanied by an intensification or activation of their search for a suitable
+partner. Third, people might feel that having a child is unrealistic in the short run, which
+could cause them to downplay or abandon any plans they might have had to start a
+family (Spéder and Kapitány 2014). Given these different types of reaction, we expect
+that among childless men and women aged 35 to 37 – i.e., men and women whose
+biological clock is ticking – we will observe for a short period of time
+
+
+
+
+http://www.demographic-research.org                                                          3
+Wagner, Huinink & Liefbroer: Running out of time?
+
+
+
+     ∂     increasing polarization between those who no longer want to have a child and
+           those who intend to have a child within a short space of time; and
+     ∂     an intensification of the partner search among those who want to have a child.
+
+      Several factors contribute to changes in fertility intentions when people enter their
+late thirties. In particular, gender, personality, and life course experiences affect how
+people deal with the perceived time squeeze. Gender matters because the biological
+clock of men ticks more slowly than that of women. Personality traits likely also matter.
+Following the developmental-regulation theory, individual control strategies regulate
+how people deal with a developmental goal like the intention or desire to start a family
+(Heckhausen, Wrosch, and Fleeson 2001). When people employ primary control
+strategies, such as the tenacious pursuit of a goal, they become increasing engaged in
+achieving their developmental goal. By contrast, people may adapt to failure by
+employing compensatory secondary control strategies, like disengagement from a goal.
+An intensification of the desire to have a child corresponds to a primary control
+strategy; a weakening of this desire corresponds to a secondary control strategy. In our
+model we include conscientiousness, one of the ‘big five’ personality traits, as a proxy
+for people’s likelihood of using primary control strategies. Conscientiousness has been
+shown to be negatively related to risk propensity; i.e., conscientious people are likely to
+avoid risks (Nicholson et al. 2005). We add self-esteem as an indicator of a successful
+balance between primary and secondary control (Diewald, Huinink, and Heckhausen
+1996). Both indicators are expected to be positively related to a person sticking to
+her/his fertility intentions over her/his lifetime. Finally, previous life course experiences
+are expected to matter. Men and women who were successful in the past, especially in
+the labor or the partner market, are more likely to delay family formation (Blossfeld
+1995). At the same time, we assume that they are more likely to stick to their fertility
+intentions because they might be more confident that they will find a partner and be
+successful in meeting the conditions for starting a family.
+      Behavioral effects can be induced not only by the biological clock, but also by
+societal norms regarding family formation. These norms prescribe an optimal or
+appropriate age that is lower than the biological deadlines for childbearing (Billari et al.
+2011). As our data does not include information about perceived social norms regarding
+late childbearing, we cannot separate these two influences. However, the social
+deadlines in Germany and other European countries correspond quite well to the ages at
+which fecundity is declining rapidly in men and women. These social deadlines
+obviously reflect the biological deadlines (Billari et al. 2011).
+
+
+
+
+4                                                           http://www.demographic-research.org
+                                                    Demographic Research: Volume 40, Article 1
+
+
+
+2.2 Other factors affecting the intention to have a child
+
+We use the Theory of Planned Behavior (ToPB) as a heuristic framework for the
+identification of control variables and of selectivity processes (Ajzen 1991). According
+to this approach, the intention to have a child is influenced by attitudes, subjective
+norms, and perceived behavioral control (“ToPB factors”) (Liefbroer et al. 2015); the
+timing of family formation; and the rate of childlessness (Morgan, Sobotka, and Testa
+2011). Attitudes are seen as resulting from individuals’ perceptions and evaluations of
+the benefits and costs of having children. Subjective norms refer to social influences
+that affect fertility intentions which are exerted by significant others, like partners,
+parents, or friends. ToPB assumes that the stronger these social norms are, the more
+likely it is that an individual will intend to have a child in the short term. Perceived
+behavioral control refers to a person’s perception that a certain behavior can be
+performed successfully, and is a consequence of the presence of enablers of and
+constraints on the intended actions. Examples of perceived behavioral control in this
+context are the perceived ability to afford a(nother) child or the perceived impact of
+policy measures (Dommermuth, Klobas, and Lappegård 2011). In our case, the level of
+fecundity and the presence of a partner are crucial objective enabling factors.
+
+
+2.3 Finding a partner
+
+We focus on childless individuals without a partner. If they want to start a family, these
+men and women may be expected to intensify their partner search, because being in a
+partnership is usually seen as a prerequisite for having a child. We investigate the
+prospects childless and partnerless men and women have of finding a partner, and
+whether their fertility intentions affect their chances of success.
+     To obtain an unbiased estimate of the effect of fertility intentions, we have to
+account in our model for the relevant covariates of finding a partner. An individual’s
+socio-structural attributes play a major role in the mating process. Resources like
+educational level and activity status determine the likelihood of finding a partner and
+marrying (Blossfeld and Timm 2003). Personality factors also affect the chances of
+union formation. According to Asendorpf and Wilpers (1998), extraversion, a subscale
+of the ‘big five,’ is strongly related to the probability of finding a partner. Asendorpf
+and Wilpers also argue that conscientiousness is correlated with a partnership’s
+stability. This correlation might be due to a more selective partner choice, but it might
+also reduce the chances of making a (good) match. Moreover, the salience of a
+partnership is an important predictor as it indicates a person’s motivation to be active in
+the partner market. In addition, we assume that the number of previous partnerships is
+
+
+
+http://www.demographic-research.org                                                         5
+Wagner, Huinink & Liefbroer: Running out of time?
+
+
+
+important, as it might be associated with an individual’s problems maintaining a stable
+partnership and with a person’s level of success forming partnerships up to this point in
+his/her life course. The chances of finding an appropriate partner are also restricted by
+the partner market. With increasing age the availability of potential partners diminishes.
+Men and women in their late thirties are likely to be confronted with a marriage squeeze
+that reduces their partner search options (Klein and Stauder 2008).
+
+
+2.4 Hypotheses
+
+In summary, we formulate the following hypotheses:
+
+     Hypothesis 1a: Childless men and women without a partner who are close to the
+     biological age deadline for childbearing are more likely than younger men and
+     women to intend to have children in the near future or to abandon any previous
+     fertility intentions (‘polarization’).
+
+     Hypothesis 1b: Age differences with respect to fertility intentions are more
+     pronounced for women than for men.
+
+     Hypothesis 2a: Childless men and women entering a partnership are likely to
+     intend to have children in the near future.
+
+     Hypothesis 2b: Childless men and women who have been successful in the job and
+     the partner market are more likely than those who have been less successful to
+     intend to have children in the near future.
+
+     Hypothesis 2c: Childless men and women with high levels of self-esteem and
+     conscientiousness are more likely than those with lower levels of self-esteem and
+     conscientiousness to intend to have children in the near future.
+
+With regard to the transition to a partnership, we propose that:
+
+     Hypothesis 3a: Childless men and women without a partner who intend to have a
+     child in the near future will have a higher transition rate to a partnership than those
+     who do not intend to have a child.
+
+     Hypothesis 3b: Age differences with respect to the transition to a partnership are
+     more pronounced for women than for men.
+
+
+
+6                                                           http://www.demographic-research.org
+                                                    Demographic Research: Volume 40, Article 1
+
+
+
+3. Data and method
+3.1 The German Family Panel
+
+We use data from the first two waves of the German Family Panel (pairfam, Panel
+Analysis of Intimate Relationships and Family Dynamics). In Wave 1 (2008/2009),
+12,402 German-speaking men and women aged 15–17, 25–27, and 35–37 were
+interviewed. In Wave 2 (2009/2010), 9,069 respondents from the initial sample were re-
+interviewed. The mean length of time between the two waves was 12.3 months. The
+sample was drawn from residents’ registration offices. For a detailed description of the
+aims and methods of the study, see Huinink et al. (2011).
+     We restrict our analyses to men and women from the two older age groups (25–27
+and 35–37 years of age) who had no partner and no biological children; who reported
+being able to procreate by natural means; who were not pregnant at the time of Wave 1
+or between Wave 1 and Wave 2 (14 respondents had a child or got pregnant between
+Wave 1 and Wave 2); and who participated in both Waves 1 and 2. Attrition between
+waves did not depend on short-term fertility intentions, as the association between these
+intentions and being selected in Wave 2 was not significant (Chi2 = 0.20, p = 0.91). We
+only included cases with a valid value for the variable that indicates fertility intentions
+(36 respondents did not answer the relevant questions). The selections resulted in a
+subsample of 1,442 respondents, 1,073 of whom were aged 25–27, and 369 of whom
+were aged 35–37.
+     The respondents in the selected subsample belong to the 1981–1983 and 1971–
+1973 birth cohorts, who differ with respect to timing of the first birth. According to our
+data, 17% of the members of the younger age group, compared to 20% in the older age
+group, had their first child by age 25. However, we assume in our analysis of the
+differences in fertility intentions that possible cohort effects can be neglected, as age
+effects are likely to be much more important.
+
+
+3.2 Variables4
+
+3.2.1 Fertility intentions
+
+We used information from two questions to measure the fertility intentions of the
+respondents. The first question was about the number of children the respondent
+(realistically) expected to have: “If you think about having your own children in a
+
+4
+    See Table A-1 for descriptive information.
+
+
+
+http://www.demographic-research.org                                                         7
+Wagner, Huinink & Liefbroer: Running out of time?
+
+
+
+realistic way, how many children do you expect to have in the future?” The response
+categories were: ‘no child/no further child;’ ‘one child/one further child up to four
+children/four further children;’ ‘I am not sure;’ ‘I have not thought about it;’ and ‘no
+answer.’ The respondent’s intentions concerning the timing of a future childbirth were
+measured by the following question: “Do you plan to have a child within the next two
+years?” The response categories were: ‘yes, certainly;’ ‘yes, maybe;’ ‘no, not likely;’
+‘no, certainly not.’ Based on the answers to these two questions, we constructed an
+indicator of fertility intentions with three categories: ‘short-term intention,’ ‘long-term
+intention,’ and ‘no intention.’ Fertility intentions were defined as short-term if the
+respondent said s/he was planning to have a child within the next two years (‘yes,
+certainly’ or ‘yes, maybe’); and as long-term if the respondent indicated s/he was not
+planning to have a child within the next two years, but might have children in the
+future. Respondents who said they had no plans or expectations of starting a family
+were categorized as ‘no intention.’
+
+
+3.2.2 Life course achievement
+
+We distinguished between three levels of education based on the ISCED classification
+(UNESCO 2006): no degree or lower secondary education (1), upper secondary
+education or post-secondary non-tertiary education (2), and tertiary education (3). Two
+variables were used to identify the respondent’s occupational career. Activity status is a
+polytomous indicator that reflects whether the respondent was (1) currently enrolled in
+education or vocational training; (2) full-time employed, in military service, or self-
+employed; (3) part-time employed, in a precarious or low-income job; (4) unemployed;
+or (5) not employed for different reasons. The prestige associated with the current or
+last occupation was measured by the international occupational prestige scale
+(Ganzeboom, Graaf, and Treiman 1992). This scale is based on the assessment of the
+reputation of occupations made by respondents from 55 countries. It is highly correlated
+with income. If the respondent reported that s/he has never been employed, the variable
+is 0. This means that the effect of this variable depends on whether the respondent is
+employed full-time or part-time. Finally, we included the number of previous
+partnerships.
+
+
+3.2.3 Personality
+
+To measure the respondents’ personality characteristics we used a three-item version of
+the Rosenberg self-esteem scale (Cronbach’s  < /−58( (Rosenberg 1965) and a three-
+
+
+
+8                                                          http://www.demographic-research.org
+                                                    Demographic Research: Volume 40, Article 1
+
+
+
+item emotional autonomy scale (Cronbach’s  < /−54( (Noom, Dekovic, and Meeus
+2001), which are available from Wave 1. Moreover, we used the subscales
+“extraversion” and “conscientiousness” from the shortened version of the big five
+inventory (Rammstedt and John 2005), which were included in the Wave 2 data.
+Cronbach’s  was 0.73 for extraversion (four items) and 0.63 for conscientiousness
+(four items). We used the “conscientiousness” dimension as an indicator of primary
+control strategies based on items like: “I make plans and carry them out.” The item “I
+make things comfortable for myself and tend to be lazy” was used to capture secondary
+control strategies.
+
+
+3.2.4 Partnership orientation
+
+To capture respondents’ general interest in finding a partner, respondents were asked to
+what extent the statement “I would like to have a partner” applied to their situation (1 =
+‘not at all’ to 5 = ‘absolutely’). We dichotomized this variable based on whether the
+respondents answered 3, 4, or 5 (‘wish to have a partner’). To measure the salience of a
+(new) partnership as a current biographical life goal, the respondents were asked to
+distribute 15 importance points among five fields of activity, with living in a
+partnership being one of them (Wendt et al. 2011). The salience of having a partnership
+was measured by the share of points assigned to this life goal. Further variables
+indicated whether the respondent was already interested in a particular person (interest
+of the respondent in someone: yes or no), and whether there was a person who was
+interested in the respondent (interest of somebody in the respondent: yes or no). To
+measure the respondents’ perceived opportunities to find a partner, we used the item
+“most men/women I know are already in a relationship” on a scale from 1 = ‘not at all’
+to 5 = ‘absolutely.’ To determine whether the respondents entered a LAT or a co-
+residential partnership up to Wave 2, we constructed a variable with 0 if there was no
+partnership (partnership status at Wave 2) and 1 if the respondent entered a partnership
+after Wave 1 and was still in this partnership at the time of Wave 2.
+
+
+3.2.5 Attitudes
+
+We used the value of children scale (VOC scale) to measure respondents’ expectations
+regarding the costs and the benefits of having children (Nauck 2001). It consists of two
+scales: positive expectations and negative expectations of having children (Wendt et al.
+2011). To capture the positive expectations of having children, the respondents were
+asked whether they expected that having children would have one or more of the
+
+
+
+http://www.demographic-research.org                                                         9
+Wagner, Huinink & Liefbroer: Running out of time?
+
+
+
+following consequences: (a) they would stay young longer; (b) they would have a very
+close emotional relationship with their children; (c) their standing in their social
+network would increase; (d) their adult children would be there for them when they
+were in need; and (e) they would get new ideas from their adult children. To capture the
+negative expectations of having children, respondents were asked whether they thought
+that having children would have one or more of the following consequences: (a) they
+would be able to afford less; (b) their nerves would be strained; (c) they would face
+obstacles to achieving their occupational goals; (d) their children would be annoying in
+public; and (e) their personal freedom would be restricted. All of the items were scored
+on a scale from 1 = ‘not at all’ to 5 = ‘very strong.’ A summary score was constructed
+by calculating the mean of these variables. Cronbach’s  is 0.63 for the positive
+expectations scale and is 0.74 for the negative expectations scale.
+
+
+3.2.6 Subjective norms
+
+Respondents were asked whether they agreed with the following statements: “most of
+my friends think that I should have a child”; and “my parents think that I should have a
+child” (response categories ranged from 1 = ‘not at all’ to 5 = ‘absolutely’). Again, we
+calculated the average score of the two items as a summary score (Cronbach’s  is
+0.80).
+
+
+3.2.7 Perceived behavioral control
+
+We used an instrument covering the prerequisites for having a child. Respondents were
+asked: “The decision to become a parent is often tied to certain preconditions. Please
+indicate how completely the following conditions would need to be met in order for you
+to have a child.” The scale consists of eight items, including “I have to be able to
+financially afford to become a parent”; and “having a child has to be compatible with
+my long-term life plans” (for the full list of items, see Wendt et al. 2011: 70f.). The
+respondents were also asked to indicate how important each prerequisite is to them, and
+whether the prerequisite has been met. Using this information, we constructed two
+indicators. The first indicator refers to whether the respondent had answered each of the
+eight items (information provided). This indicator can be seen as reflecting the
+respondent’s level of uncertainty about his/her perceived behavioral control with
+respect to mastering the transition to parenthood. For those respondents who did
+provide the complete information, we constructed an index by summing all of the
+prerequisites these respondents said were relevant and had been met at the time of
+
+
+
+10                                                        http://www.demographic-research.org
+                                                    Demographic Research: Volume 40, Article 1
+
+
+
+interview (# prerequisites met). If no complete information was provided, this variable
+was set to 0, which implies that the estimated effect for this variable is conditional on
+the provision of complete information.
+
+
+3.3 Methods
+
+To compare initial fertility intentions in Wave 1 and changes in those intentions
+between waves among men and women aged 35–37 and 25–27, multinomial logistic
+regression was used. In addition, binomial logistic regression was used to investigate
+whether the fertility intentions of men and women without a partner affected the
+transition to a partnership.
+
+
+3.4 Subsample selection and panel mortality
+
+As we are investigating a special group of men and women, the first wave’s sample of
+analysis is selective in several ways. Childless men and women who do not have a
+partner at ages 35 and older are likely to have special social or personal characteristics,
+which we account for in our models. Some of these individuals might be childless
+because they have not found an appropriate partner (Blossfeld and Timm 2003;
+Asendorpf and Wilpers 1998), while others might be prone to cultivating a lifestyle as a
+single person with no children (Poortman and Liefbroer 2010). Yet another subgroup of
+men and women may have postponed family formation because they were focused on
+pursuing other life goals during their earlier life course stages, and are now particularly
+concerned about approaching the end of their reproductive years.
+      In accordance with the literature, we found that the likelihood of being selected
+into our subsample of childless men and women without a partner is correlated with
+educational level: 19.4% of the men in the selected subsample (S) have a tertiary level
+of education compared to 30.8% of the men who were not selected (nonS). Men in
+education or training are overrepresented (10.8% in nonS, 20.7% in S). Our subsample
+is also selective according to a person’s activity status. In the selected subsample, men
+in full-time employment are underrepresented (77.3% in nonS, 56.8% in S). Women in
+education/training (7.8% in nonS, 20.3% in S) and in full-time employment (32.1% in
+nonS, 56.2% in S) are overrepresented, while non-employed women are
+underrepresented (25.6% in nonS, 3.3% in S).
+
+
+
+
+http://www.demographic-research.org                                                        11
+Wagner, Huinink & Liefbroer: Running out of time?
+
+
+
+4. Results
+4.1 Patterns of fertility intentions
+
+We start with a cross-sectional analysis based on data from Wave 1. Already in the first
+wave, older childless men and women without a partner were more likely to have either
+short-term fertility intentions or no intentions to have children at all. Men and women
+aged 35–37 were more likely than those aged 25–27 to have short-term plans to have
+children (Table 1). The results also show that the proportions of men and women
+without any fertility intentions were larger among those aged 35–37 than among those
+aged 25–27. Age differences with respect to fertility intentions are found to be more
+pronounced for women than for men. Both of these findings are in line with our first
+hypothesis, as they reflect a stronger polarization of fertility intentions in the older age
+group (H1a). The association between fertility intentions and age group is found to be
+significant (Chi2(2) = 110.04, p < 0.01; Cramer’s V = 0.28). This polarization appears
+to be especially pronounced for women (H1b). Cramer’s V is 0.41 for women and 0.21
+for men.
+
+Table 1:               Fertility intentions of men and women without children and a
+                       partner by age group (Wave 1)
+Fertility intentions     Men                        Women
+                         25–27        35–37         25–27       35–37           Total
+Short-term               12.3%        25.8%         18.1%       33.3%           17.9%
+Long-term                65.2%        41.7%         64.6%       18.6%           69.6%
+No intentions            22.6%        32.5%         17.3%       48.1%           12.6%
+N (= 100%)               709          240           364         129             1.442
+
+
+
+     Next, we estimated a multinomial logit-regression on the fertility intentions, with
+the long-term intention to have children as the reference category, to examine whether
+this polarized pattern is attributable to the composition of the sample by attitudinal and
+socio-structural factors or to the selectivity of the sample (Table 2). The findings
+indicate that the likelihood of having short-term fertility intentions or no intentions
+(compared to the long-term level) was higher in the 35–37 age group than in the 25–27
+age group. The female variable captures the gender effect for the 25–27 age group. The
+women of this age group are found to be more likely than their male counterparts to
+have short-term family formation intentions. The gender differences appear to be even
+
+
+
+
+12                                                            http://www.demographic-research.org
+                                                             Demographic Research: Volume 40, Article 1
+
+
+
+more pronounced in the older age group, as the women in the older age group are also
+found to be more likely than the men to have no fertility plans (interaction effect).5
+      Most of the variables that are related to the ToPB show significant parameters in
+the expected direction. For example, the respondents who reported being supported in
+their fertility intentions by their social network were more likely to say they have short-
+term fertility intentions.
+      The results show that an important life course variable is the number of previous
+partnerships, as it positively affects fertility intentions. By contrast, the respondent’s
+level of education and activity status are found to be barely related to either of the
+fertility intention categories. Respondents in full-time employment are shown to have a
+slightly higher risk than the non-employed of having short-term fertility plans. We
+observe marginally significant negative effects for the less educated and the
+unemployed, who were less prone to have short-term fertility intentions. Furthermore,
+having a high educational level is found to be associated with a decreased likelihood of
+having no fertility intentions. The regression model shows that after accounting for
+several relevant correlates, the structure of the effects found in our descriptive analysis
+presented in Table 1 remains the same.
+      To account for possible latent selectivity, we estimated a Heckman sample
+selection model (table not shown). As this test did not lead to substantial changes in our
+findings, we are confident that our results are not due to issues of a presumably existing
+self-selection of the older childless respondents without a partner. Including the
+interactions of all of the covariates with cohort did not lead to a significant
+improvement of the overall fit (LR β1 (26) = 26.77; p = 0.42). Including interactions of
+all covariates with gender also did not significantly improve the overall fit (LR β1 (26)
+= 22.87; p = 0.64).
+
+
+
+
+5
+  Interestingly, this polarized structure is also found among childless respondents living with a partner
+(estimates not shown), although it is less pronounced. The interaction effect between gender and age group
+(women * aged 35-37) in the short-term category is positive but not significant.
+
+
+
+http://www.demographic-research.org                                                                    13
+Wagner, Huinink & Liefbroer: Running out of time?
+
+
+
+Table 2:                    Multinomial analysis of fertility intentions (cross-sectional; Wave 1)
+                            (N = 1,442)
+Fertility intentions                                               OR                             SE                       P>z
+1. Short-term
+Age 35–37                                                          2.62                           0.56                     0.00
+Women                                                              1.50                           0.29                     0.04
+Women * aged 35–37                                                 2.07                           0.77                     0.05
+ToPB factors
+Positive expectations                                              1.41                           0.19                     0.01
+Negative expectations                                              0.66                           0.07                     0.00
+Subjective norm                                                    1.51                           0.09                     0.00
+# Prereq. met                                                      1.14                           0.07                     0.03
+Information provided                                               1.67                           0.50                     0.09
+Social structure
+Low education                                                      1.65                           0.45                     0.07
+High education                                                     1.10                           0.22                     0.64
+In training                                                        0.55                           0.18                     0.08
+                       1)
+Full-time employed                                                 1.23                           0.54                     0.64
+                       1)
+Part-time employed                                                 1.03                           0.48                     0.94
+                  1)
+Not employed                                                       0.33                           0.24                     0.13
+           2)
+Prestige                                                           0.99                           0.01                     0.45
+# of previous partners                                             1.13                           0.06                     0.03
+Constant                                                           0.02                           0.02                     0.00
+2. Long-term                                                       (base outcome)
+3. No intentions
+Age 35–37                                                          2.34                           0.47                     0.00
+Women                                                              0.70                           0.13                     0.06
+Women * aged 35–37                                                 4.37                           1.57                     0.00
+ToPB factors
+Positive expectations                                              0.70                           0.08                     0.00
+Negative expectations                                              1.65                           0.16                     0.00
+Subjective norm                                                    0.86                           0.05                     0.01
+# Prereq. met                                                      0.90                           0.06                     0.13
+Information provided                                               0.26                           0.05                     0.00
+Social structure
+Low education                                                      0.92                           0.22                     0.74
+High education                                                     0.71                           0.14                     0.09
+In training                                                        0.47                           0.12                     0.00
+                       1)
+Full-time employed                                                 0.88                           0.36                     0.75
+                       1)
+Part-time employed                                                 0.84                           0.34                     0.67
+                  1)
+Not employed                                                       0.99                           0.48                     0.99
+           2)
+Prestige                                                           1.00                           0.01                     0.76
+# of previous partners                                             0.90                           0.05                     0.05
+Constant                                                           2.44                           1.40                     0.12
+Log likelihood                                                     –1145.43
+LR β1 (df)                                                         523.40 (32)
+              2
+Pseudo R                                                           0.19
+
+                                                         1)                    2)
+Note: Estimates in bold significant at the 0.05 level;        Ref.: unempl.;        = 0 if not full-time/part-time empl.
+
+
+
+
+14                                                                                                     http://www.demographic-research.org
+                                                                    Demographic Research: Volume 40, Article 1
+
+
+
+4.2 The dynamics of fertility intentions
+
+The intensity of fertility intentions changed between the two waves. To find out
+whether a further polarization of the family planning took place, we first present a
+mobility table, separately for the younger and the older cohort (Table 3; Total N = 925).
+An inspection of the row percentages reveals that the stability of the fertility intentions
+was highest in the no intentions category of the older age group (82%). The results
+further show that 55% of respondents in this cohort and 52% of respondents in the
+younger cohort (difference not significant) remain in the category with short-term
+intentions to have a child. A quarter shift to the medium category leads to one-fifth
+giving up any fertility plans. The stability of the long-term intentions category is found
+to be lowest in the older age group and highest in the younger age group. One-fifth of
+the older respondents in this category switched to the short-term intentions category,
+while nearly twice as many moved to the no intentions category. While the comparison
+of the long-term and the no intentions category between cohorts supports our
+polarization hypothesis, the comparably weak level of stability of the short-term
+category in the older cohort does not fit this hypothesis completely (Buhr and Kuhnt
+2012).
+
+Table 3:            Fertility intentions at Wave 1 and Wave 2
+Fertility intentions at Wave 1   Fertility intentions at Wave 2                            Total
+                                 Short-term             Long-term        No intentions
+25–27 age group
+Short-term                       51                     43                4                98
+Row-percentage                   52.0                   43.9              4.1              100
+Long-term                        65                     307              72                444
+Row-percentage                   14.6                   69.1             16.2              100
+No intentions                    11                     47               72                132
+Row-percentage                    8.3                   35.6             56.1              100
+35–37 age group
+Short-term                       36                     16               14                66
+Row-percentage                   54.6                   24.2             21.2              100
+Long-term                        18                     35               35                88
+Row-percentage                   20.4                   39.8             39.8              100
+No intentions                     7                     10               80                97
+Row-percentage                    7.2                   10.3             82.5              100
+
+
+
+      To test our hypotheses 2a–2c, we analyze the change in fertility intentions between
+Waves 1 and 2 by estimating models for selected subgroups. For each state of the
+fertility intentions at Wave 1, we investigate the determinants of leaving this state
+between the two waves. In the longitudinal models we again include gender and age
+group as well as the interaction term between them. We also include a variable
+
+
+
+http://www.demographic-research.org                                                                        15
+Wagner, Huinink & Liefbroer: Running out of time?
+
+
+
+indicating whether the respondent had found a partner between Waves 1 and 2 and a
+variable indicating whether the number of prerequisites for starting a family that had
+been met had increased or decreased. Because of the high correlation with the
+propensity to enter a partnership between Waves 1 and 2, the number of previous
+partnerships is not included. In addition, we include level of education, activity status,
+and psychological factors – namely, self-esteem and conscientiousness. We decided to
+present odds ratio estimates of a logistic regression without controlling for selection, as
+the results of the Heckman models suggested that selection bias did not influence the
+findings.
+     Table 4 displays the results for the model of leaving the short-term intentions and
+the no intentions categories. Age group and gender are found to have no influence on
+leaving the state of short-term fertility intentions, which is also the case for most of the
+other variables. Some considerable effects by size can be mentioned, even though they
+are not shown to be significant at the 0.05 level: starting a new partnership has a
+negative effect on abandoning short-term intentions (p = 0.11), while being full-time
+employed or in training are negatively correlated with leaving the short-term category
+(p = 0.11 resp. p = 0.08). We can thus conclude that having delayed childbearing to
+pursue a career did not cause people to give up on family formation too early.
+
+Table 4:                  Leaving the state of short-term fertility intentions (n = 164) and no
+                          intentions (n = 229)
+                                                           Leaving short-term                         Leaving no intentions
+                                                           OR             SE            P>z           OR              SE             P>z
+35–37 age group                                            1.15           0.53          0.76          0.30            0.15           0.01
+Women                                                      1.19           0.52          0.69          1.16            0.53           0.75
+Women * aged 35–37                                         0.40           0.29          0.21          0.57            0.44           0.47
+Entered a partnership between Waves 1 and 2          0.51                 0.21          0.11          1.93            0.83           0.12
+Difference in # of prerequisites met between Waves 2
+                                                     0.96                 0.13          0.79          1.04            0.18           0.84
+and 1
+Information provided in Waves 2 and 1                0.51                 0.29          0.24          5.31            1.88           0.00
+High education                                             0,65           0.27          0.32          1.07            0.46           0.87
+Low education                                              0.95           0.55          0.92          0.54            0.32           0.31
+              1)
+In training                                                0.25           0.20          0.08          0.72            0.45           0.60
+                     1)
+Full-time employed                                         0.40           0.23          0.11          0.71            0.36           0.50
+                     1)
+Part-time employed                                         0.75           0.59          0.56          1.23            0.77           0.74
+Self-esteem                                                0.54           0.20          0.09          2.87            0.96           0.00
+Conscientiousness                                          1.19           0.38          0.58          1.79            0.48           0.03
+Constant                                                  17.34                         0.12          0.001                          0.00
+Log likelihood                                            –105.40                                     –112.80
+LR β1 (df)                                                15.94 (13)                                  64.03 (13)
+              2
+Pseudo R                                                  0.07                                        0.22
+
+                                                                                                                     1)
+Note: Estimates in bold are significant at the 0.05 level; estimates in italics are significant at the 0.10 level;        Ref. category: others.
+
+
+
+
+16                                                                                             http://www.demographic-research.org
+                                                     Demographic Research: Volume 40, Article 1
+
+
+
+      Looking at the psychological indicators, we can see that self-esteem is negatively
+correlated with leaving the short-term intentions status (p = 0.09). This finding is in line
+with the argument that men and women with high self-esteem tend to stick to their
+plans (H2c), but that conscientiousness has no significant effect. Table 4 also shows
+that the probability of leaving the state of no intentions was strongly reduced for
+respondents who were 35 to 37 years old at Wave 1. As expected, we find that having a
+new partner was associated with rising expectations of having a child. Again, the effect
+is not found to be significant (p = 0.12). Men and women with high levels of self-
+esteem and conscientiousness are shown to be more likely to leave the status of no
+fertility intentions. As conscientious people tend to avoid personal risks, leaving the
+state of no intentions may indicate that the men and women in the sample did not take
+the risk of missing the optimal time to start a family. Additional analyses (not displayed
+here) show that these effects are much stronger in the younger age group. This implies
+that the revision of a decision not to have a child is less associated with personality at
+an older age than it is in early adulthood. Our finding that explicitly reporting on the
+prerequisites of parenthood has a large effect on leaving the status of no intentions is
+surprising. This variable indicates whether the respondent reported on the prerequisites
+in the second wave and in the first wave at which they said they do not want to have a
+child. There might be a question of causality here, as the respondents who changed their
+fertility intentions might have been particularly motivated to reflect on their living
+conditions.
+      In Table 5 we display estimates (relative risk ratios) of a multinomial logit
+regression of leaving the category with long-term intentions between Waves 1 and 2,
+with remaining in the category as the reference category. As expected, we find that the
+older respondents were more likely to move from long-term fertility intentions to no
+intentions, but also from long-term to short-term intentions, even though the respective
+parameter is not significant at the 0.05 level (p = 0.06). Among this older cohort,
+women were considerably more likely than men to move from long-term to short-term
+intentions, but the interaction effect is not statistically significant (p = 0.13). In any
+case, these findings point to a polarization of family formation intentions between the
+waves. In line with hypothesis H2a, having entered partnership increased the chances
+that a person would move from long-term to short-term fertility intentions. However, in
+contradiction to H2b, less-educated people were more likely to have shifted to the no
+intentions category and to the short-term intentions category. Interestingly,
+conscientiousness is found to be positively correlated with moving to short-term
+fertility intentions (H2c). None of the models consistently show interaction effects
+between life course variables or control strategies on the one hand and age, cohort, or
+gender on the other.
+
+
+
+
+http://www.demographic-research.org                                                         17
+Wagner, Huinink & Liefbroer: Running out of time?
+
+
+
+     As we cannot control for sample selection in multinomial regression, we estimated
+separately Heckman selection models for leaving to short-term intentions and leaving to
+no intentions against staying in the long-term group. A significant correlation between
+errors in the selection and the choice equation is found in the second model only.
+However, accounting for selectivity did not change the substantive findings, with the
+exception that the positive interaction between gender and age group became
+significant.
+
+Table 5:                  Leaving the state of long-term fertility intentions (n = 532)
+                                                          Leaving to short-term intentions           Leaving to no intentions
+                                                          RRR            SE            P>z           RRR             SE              P>z
+35–37 age group                                           2.13           0.87          0.06          4.11            1.38            0.00
+Women                                                     1.23           0.37          0.48          0.88            0.27            0.68
+Women * aged 35–37                                        3.46           2.82          0.13          2.14            1.67            0.33
+Entered a partnership between Waves 1 and 2               3.63           1.03          0.00          0.59            0.23            0.17
+Difference in # of prerequisites met between              1.12           0.10          0.20          0.90            0.09            0.28
+Waves 2 and 1
+Information provided in Waves 2 and 1                     1.31           0.51          0.48          0.28            0.08            0.00
+High education                                            0.83           0.27          0.57          0.86            0.28            0.64
+Low education                                             2.42           1.10          0.05          3.27            1.25            0.00
+              1)
+In training                                               0.79           0.39          0.64          0.83            0.38            0.69
+                     1)
+Full-time employed                                        1.38           0.61          0.46          1.55            0.62            0.28
+                     1)
+Part-time employed                                        1.28           0.76          0.67          1.58            0.81            0.37
+Self-esteem                                               1.34           0.35          0.25          0.76            0.17            0.22
+Conscientiousness                                         1.47           0.32          0.07          0.97            0.19            0.89
+Constant                                                  0.01                         0.00          1.20                            0.86
+Log likelihood                                            –416.26
+LR β1 (df)                                                121.20 (26)
+              2
+Pseudo R                                                  0.13
+
+                                                                                                                     1)
+Note: Estimates in bold are significant at the 0.05 level; estimates in italics are significant at the 0.10 level;        Ref. category: others.
+
+
+
+
+4.3 The transition to a partnership
+
+Estimates from a stepwise logit regression model of the transition to both stable and
+unstable partnerships between Waves 1 and 2 are displayed in Table 6. Model 1
+includes fertility intention variables at Wave 1, gender, and age group; and tests for
+interaction effects of age group and gender (H3b). The likelihood of a partnership at
+Wave 2 is found to be higher if the respondents had short-term fertility intentions and
+were in the younger age group. In both age groups, women are shown to be as likely as
+
+
+
+18                                                                                            http://www.demographic-research.org
+                                                                         Demographic Research: Volume 40, Article 1
+
+
+
+men to have a partner, since the main effect for gender and the interaction between
+gender and age group are not statistically significant. In Model 2 we add as controls a
+restricted set of socio-structural variables, including number of previous partners and
+marital status; personality factors; and variables that indicate how intensively
+respondents were searching for a partner and how they evaluated their partner market
+situation. These controls are not found to affect the estimated effects for age group and
+gender.
+
+Table 6:                  Transition to a partnership (after Wave 1), logistic regression
+                          analysis (N = 939)
+                                                                                                         1)
+                                        Model 1                                  Model 2 with controls
+                                        OR              SE            P>z        OR               SE            P>z
+Short-term fertility intentions         1.42            0.28          0.08       1.29             0.28          0.23
+No fertility intentions                 0.93            0.18          0.72       1.08             0.22          0.71
+35–37 age group                         0.52            0.12          0.01       0.44             0.12          0.00
+Women                                   1.35            0.24          0.09       1.24             0.23          0.24
+Women * aged 35–37                      1.39            0.51          0.37       1.09             0.42          0.83
+Constant                                0.35                          0.00       0.71                           0.66
+Log likelihood                          –533.35                                  –490.16
+LR β1 (df)                              19.53(5)                                 105.92(19)
+             2
+Pseudo R                                0.02                                     0.10
+
+                                                        1)
+Note: Estimates in bold are significant at the 0.05 level; Controls: level of education, employment status, number of previous
+partners, never married, conscientiousness, extraversion, salience of a partnership, wanting a partner, interested in someone,
+someone interested in respondent, poor perceived opportunities.
+
+
+
+
+5. Discussion
+
+The aim of this paper was to help us gain a better understanding of the influence of the
+biological clock on the fertility intentions of men and women who have reached an age
+when fecundity is declining steeply. We expected to find that these men and women
+were more likely than their younger counterparts to have either formed a short-term
+intention to have a child or to have given up on any previous fertility intentions. We
+indeed found that the family formation intentions of individuals who were facing a
+deadline for achieving fatherhood or motherhood were more polarized: compared to
+men and women aged 25–27, respondents aged 35–37 were more likely to have either
+short-term fertility intentions or no intentions at all. Our results indicated that this
+pattern was more pronounced for women than for men, and that it held in both a cross-
+sectional and a longitudinal analysis. The polarized pattern was found to be independent
+of other factors that, according to the ToPB model, also predict fertility intentions quite
+
+
+http://www.demographic-research.org                                                                                        19
+Wagner, Huinink & Liefbroer: Running out of time?
+
+
+
+well, such as the value of children, social norms, and perceived behavioral control. We
+also accounted for the socio-structural differences between respondents without a
+partner in the two age groups. The only socio-structural variable that was found to have
+an effect on fertility intentions was being in training. In addition, the results showed
+that the number of previous partnerships had a positive effect on short-term fertility
+intentions. Our observation that socio-structural variables had few significant effects is
+in line with the ToPB, which states that such effects are mediated by people’s attitudes,
+social norms, and perceived behavioral control. Including interactions of ToPB and
+socio-structural variables with gender or age group did not improve the model fit
+significantly.
+      The longitudinal inspection of changes in fertility intentions one year later also
+confirmed the polarization hypothesis. It revealed that the respondents in the older age
+category were less likely to leave the state of no intentions and were more likely to
+move from long-term intentions to no intentions, but were also more likely to move
+from long-term intentions to short-term intentions, even though the latter effect was
+only close to significance. Gender was not found to be significant for any moves when
+the processes between the two waves were analyzed. The childless men and women
+who entered a partnership were shown to be more likely to hold short-term intentions at
+Wave 2. For some of the moves, like leaving the state of short-term fertility intentions
+or the state of no fertility intentions, levels of self-esteem and conscientiousness were
+revealed to have some explanatory power. In addition, we found that the less educated
+were more likely to move out of the state of long-term fertility intentions. There was no
+empirical evidence of an interaction effect between age and gender on the one hand,
+and life course variables or control strategies on the other. We can therefore conclude
+that shifts in fertility intentions are less predictable than the intensity of fertility
+intentions at a given time.
+      In our study sample, short-term fertility intentions seemed to correlate only
+moderately with finding a partner. Furthermore, respondents in the older age group
+were less successful finding a partner than their younger counterparts. Multivariate
+results confirmed that gender did not affect the likelihood of the transition to a
+partnership. This finding suggests that people who intensify their intentions are not
+necessarily more successful in finding a partner, and thus that the nature of the partner
+market might play a bigger role. It seems that the availability of potential partners
+decreases with age.
+      In our study we analyzed short-term changes in the fertility intentions of men and
+women aged 35–37. Focusing on this age group allowed us to look closely at the
+dynamics of fertility intentions during a phase in the life course when the pressure to
+make realistic life plans is building, but the chances of having a child are still
+reasonably good. This is the first study to show that, in line with theoretical
+
+
+
+20                                                        http://www.demographic-research.org
+                                                   Demographic Research: Volume 40, Article 1
+
+
+
+expectations, when people are aware that their biological clock is ticking and the time
+to have a child is running out, they are increasingly likely to either form a short-term
+intention to have a child or abandon their intention to have children altogether. As the
+phenomenon of the ‘biological clock’ is universal, we expect that comparable processes
+of polarization will be observed in other countries. To examine whether this is the case,
+it would be useful to gather panel data in multiple countries with sufficient numbers of
+respondents at ages close to the biological deadlines for childbearing.
+
+
+
+
+http://www.demographic-research.org                                                       21
+Wagner, Huinink & Liefbroer: Running out of time?
+
+
+
+References
+
+Ajzen, I. (1991). The theory of planned behavior. Organizational Behavior and Human
+       Decision Processes 50(2): 179–211. doi:10.1016/0749-5978(91)90020-T.
+Asendorpf, J.B. and Wilpers, S. (1998). Personality effects on social relationships.
+      Journal of Personality and Social Psychology 74(6): 1531–1544. doi:10.1037/
+      0022-3514.74.6.1531.
+Balasch, J. (2010). Ageing and infertility: an overview. Gynaecological Endocrinology
+      26(12): 855–860. doi:10.3109/09513590.2010.501889.
+Billari, F.C., Kohler, H.-P., Andersson, G., and Lundström, H. (2007). Approaching the
+        limit: Long-term trends in late and very late fertility. Population and
+        Development Review 33(1): 149–170. doi:10.1111/j.1728-4457.2007.00162.x.
+Billari, F.C., Goisis, A., Liefbroer, A.C., Settersten, R.A., Aassve, A., Hagestad, G., and
+        Spéder, Z. (2011). Social age deadlines for the childbearing of women and men.
+        Human Reproduction 26(3): 616–622. doi:10.1093/humrep/deq360.
+Blossfeld, H.-P. (1995). The new role of women: Family formation in modern societies.
+       Boulder: Westview Press.
+Blossfeld, H.-P. and Timm, A. (2003). Who marries whom? Educational systems as
+       marriage markets in modern societies. Dordrecht: Kluwer. doi:10.1007/978-94-
+       007-1065-8.
+Buhr, P. and Kuhnt, A.-K. (2012). Die kurzfristige Stabilität des Kinderwunsches von
+      Kinderlosen in Ost- und Westdeutschland: Eine Analyse mit den ersten beiden
+      Wellen des deutschen Beziehungs- und Familienpanels. In: Huinink, J.,
+      Kreyenfeld, M., and Trappe, H. (eds.). Special issue Zeitschrift für
+      Familienforschung/Journal of Family Research: Familie und Partnerschaft in
+      Ost- und Westdeutschland. Opladen: Barbara Budrich: 275–297.
+Diewald, M., Huinink, J., and Heckhausen, J. (1996). Lebensverläufe und
+      Persönlichkeitsentwicklung im gesellschaftlichen Umbruch: Kohortenschicksale
+      und Kontrollverhalten in Ostdeutschland nach der Wende. Kölner Zeitschrift für
+      Soziologie und Sozialpsychologie 48: 219–248.
+Dommermuth, L., Klobas, J., and Lappegård, T. (2011). Now or later? The theory of
+    planned behavior and timing of fertility intentions. Advances in Life Course
+    Research 16(1): 42–53. doi:10.1016/j.alcr.2011.01.002.
+
+
+
+
+22                                                         http://www.demographic-research.org
+                                                    Demographic Research: Volume 40, Article 1
+
+
+
+Fretts, R.C., Zera, C., and Heffner, L.J. (2008). Maternal age and pregnancy. In: Haith,
+        M.M. and Benson, J.B. (eds.). Encyclopedia of infant and early childhood
+        development. Amsterdam: Elsevier, Academic Press: 259–267. doi:10.1016/
+        B978-012370877-9.00097-9.
+Ganzeboom, H., Graaf, P., and Treiman, D. (1992). A standard international socio-
+      economic index of occupational status. Social Science Research 21(1): 1–56.
+      doi:10.1016/0049-089X(92)90017-B.
+Heckhausen, J., Wrosch, C., and Fleeson, W. (2001). Developmental regulation before
+     and after a developmental deadline: The sample case of ‘Biological Clock’ for
+     childbearing. Psychology and Aging 16(3): 400–413. doi:10.1037/0882-7974.
+     16.3.400.
+Huinink, J., Brüderl, J., Nauck, B., Walper, S., Castiglioni, L., and Feldhaus, M. (2011).
+      Panel analysis of intimate relationships and family dynamics (pairfam):
+      Conceptual framework and design. Zeitschrift für Familienforschung 23(1): 77–
+      101.
+Iacovou, M. and Tavares, L.P. (2011). Yearning, learning, and conceding: Reasons men
+      and women change their childbearing intentions. Population and Development
+      Review 37(1): 89–123. doi:10.1111/j.1728-4457.2011.00391.x.
+Klein, T. and Stauder, J. (2008). Partnermärkte in Deutschland im Spiegel eines neuen
+       Erhebungsinstruments. In: Huinink, J. and Feldhaus, M. (eds.). Neuere
+       Entwicklungen in der Beziehungs- und Familienforschung: Vorstudien zum
+       Beziehungs- und Familienentwicklungspanel (PAIRFAM). Würzburg: Ergon:
+       77–113.
+Liefbroer, A.C. (2009). Changes in family size intentions across young adulthood: A
+       life-course perspective. European Journal of Population 25(4): 363–386.
+       doi:10.1007/s10680-008-9173-7.
+Liefbroer, A.C., Klobas, J.E., Philipov, D., and Ajzen, I. (2015). Reproductive decision-
+       making in a macro-micro perspective: A conceptual framework. In: Philipov, D.,
+       Liefbroer, A.C., and Klobas, J.E. (eds.). Reproductive decision-making in a
+       macro-micro environment. New York: Springer: 1–15. doi:10.1007/978-94-017-
+       9401-5_1.
+Morgan, S.P., Sobotka, T., and Testa, M.R. (2011). The Vienna Yearbook of Population
+     Research: Special issue on ‘Reproductive decision-making’. Vienna: Austrian
+     Academy of Sciences.
+
+
+
+
+http://www.demographic-research.org                                                        23
+Wagner, Huinink & Liefbroer: Running out of time?
+
+
+
+Nauck, B. (2001). Der Wert von Kindern für ihre Eltern: ‘Value of Children’ als
+      spezielle Handlungstheorie des generativen Verhaltens und von
+      Generationenbeziehungen im interkulturellen Vergleich. Kölner Zeitschrift für
+      Soziologie und Sozialpsychologie 53(3): 407–435. doi:10.1007/s11577-001-
+      0073-7.
+Nicholson, N., Soane, E., Fenton-O’Creevy, M., and Willman, P. (2005). Personality
+      and domain-specific risk taking. Journal of Risk Research 8: 157–176.
+      doi:10.1080/1366987032000123856.
+Noom, M.J., Dekovic M., and Meeus, W.H.J. (2001). Conceptual analysis and
+     measurement of adolescence autonomy. Journal of Youth and Adolescence 30:
+     577–595. doi:10.1023/A:1010400721676.
+Poortman, A.-R. and Liefbroer, A.C. (2010). Singles’ relational attitudes in a time of
+      individualization. Social Science Research 39(6): 938–949. doi:10.1016/j.
+      ssresearch.2010.03.012.
+Prioux, F. (2005). Late fertility in Europe: Some comparative and historical data. Revue
+       d’Épidémiologie et de Santé Publique 53(S2): 2S3–2S11. doi:10.1016/S0398-
+       7620(05)84763-7.
+Rammstedt, B. and John, O.P. (2005). Kurzversion des Big Five Inventory (BFI-K):
+    Entwicklung und Validierung eines ökonomischen Inventars zur Erfassung der
+    fünf Faktoren der Persönlichkeit. Diagnostica 51: 195–206. doi:10.1026/0012-
+    1924.51.4.195.
+Rosenberg, M. (1965). Society and the adolescent self-image. Princeton: Princeton
+      University. doi:10.1515/9781400876136.
+Rotkirch, A., Basten, S., Väisänen, H., and Jokela, M. (2011). Baby longing and men’s
+       reproductive motivation. Vienna Yearbook of Population Research 9: 283–306.
+       doi:10.1553/populationyearbook2011s283.
+Ruckdeschel, K. (2007). Der Kinderwunsch von Kinderlosen. Zeitschrift für
+      Familienforschung 19(2): 210–230.
+Spéder, Z. and Kapitány, B. (2014). Failure to realize fertility intentions: A key aspect
+      of the post-communist fertility transition. Population Research and Policy
+      Review 33(3): 393–418. doi:10.1007/s11113-013-9313-6.
+
+
+
+
+24                                                        http://www.demographic-research.org
+                                                 Demographic Research: Volume 40, Article 1
+
+
+
+te Velde, E., Habbema, D., Leridon, H., and Eijkemans, M. (2012). The effect of
+      postponement of first motherhood on permanent involuntary childlessness and
+      total fertility rate in six European countries since the 1970s. Human
+      Reproduction 27(4): 1179–1183. doi:10.1093/humrep/der455.
+UNESCO (2006). International Standard Classification of Education: ISCED 1997
+    [electronic resource]. Paris: UNESCO. http://www.uis.unesco.org/Library/
+    Documents/isced97-en.pdf.
+Wendt, E.-V., Schmahl, F., Thönnissen, C., Schaer, M., and Walper, S. (2011). Pairfam
+      scales manual, Wave 1 and 2, Release 2.1 [electronic resource].
+      http://www.pairfam.de/fileadmin/user_upload/redakteur/publis/Dokumentation/p
+      airfam_welle_2/scales_manual_en_pairfam_release_2.pdf.
+
+
+
+
+http://www.demographic-research.org                                                     25
+Wagner, Huinink & Liefbroer: Running out of time?
+
+
+
+Appendix
+
+Table A-1:              Descriptives
+                                                    Mean/Percentage       Std. Dev.
+Fertility intentions (N = 1,442)
+% short-term intention                              17.9                  –
+% long-term intention                               69.6                  –
+% no intention                                      12.6                  –
+ToPB factors (N = 1,442)
+Positive expectations                                3.57                 0.65
+Negative expectations                                2.52                 0.77
+Subjective norm                                      2.52                 1.34
+# prerequisites met                                  1.00                 1.31
+% information on prerequisites provided             81.3                  –
+Social structure (N = 1,442)
+Age (% 35–37)                                       25.6                  –
+Gender (% women)                                    34.2                  –
+Level of education
+% low education                                     10.5                  –
+% medium education                                  67.7                  –
+% high education                                    21.8                  –
+Employment status
+% being in training                                 20.5                  –
+% full-time employed                                56.6                  –
+% part-time employed                                10.3                  –
+% unemployed                                        10.4
+% not employed                                       2.2                  –
+Prestige                                            27.67                21.88
+# of previous partners                               1.60                 1.34
+Self-esteem                                          3.19                 0.53
+Conscientiousness                                    3.87                 0.63
+Extraversion                                         3.38                 0.83
+% entered a partnership between Waves 1 and 2       26.5                  –
+% never married                                     97.2                  –
+Wanting a partner (% yes)                           86.3                  –
+Salience of partnership                              2.64                 1.67
+% interest in someone                               44.3                  –
+% interest of someone                               39.3                  –
+Poor perceived opportunities                         3.04                 1.57
+
+
+
+
+26                                                                http://www.demographic-research.org
+

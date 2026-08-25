@@ -12,7 +12,7 @@
 - [x] 3. Literature search and AI screening, both phases (§5.1) — A3 anchors 21/23 (`187_`); A4 frame 7,589 records (`188_`); D1 ranked 7,313, worklist 1,020 (`189_`); D2 screen complete, 192 RELEVANT / 212 UNCERTAIN / 616 NOT_RELEVANT (`190_`, `191_`)
 - [ ] 4. RA title/abstract review — **stratify the spot-check on `no_abstract`**: the screen's title-only safeguard was measured inert (0 of 234 routed to INSUFFICIENT_INFO)
 - [ ] 5. Full-text retrieval — **PARTIAL: 33/131 automated (`192_`-`194_`). 67 are BLOCKED-BUT-OPEN (a browser, no proxy needed; URL list in `extraction/art-access-fertility-recovery-blocked-but-open.txt`) and 31 NO ROUTE (needs UChicago proxy). Job A1, the counterfactual set the headline number rests on, is 2 of 14 in hand**
-- [ ] 6. Full-text screen, RA spot-checks 5–10%
+- [ ] 6. Full-text screen, RA spot-checks 5–10% — **PROVISIONAL pass done on the 33 retrieved (`195_`, `196_`). Arm 1: 9 of 14 report a contribution without confronting the counterfactual, 4 confront it. RE-RUN when the 67 blocked-but-open arrive; everything is keyed on the OpenAlex id and skips completed work.**
 - [ ] 7. Extraction to `extraction/art-access-fertility-recovery.csv`, RA verifies a random 10%
 - [ ] 8. Risk-of-bias assessment per study
 - [ ] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise

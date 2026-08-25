@@ -1,0 +1,552 @@
+Received: 2 May 2023        | Revised: 6 September 2023 | Accepted: 8 September 2023
+DOI: 10.1111/aogs.14685
+
+
+ORIGINAL RESEARCH ARTICLE
+
+
+
+
+Probability of second live birth after first natural and medically
+assisted reproduction-­mediated live birth: A historical cohort
+study
+
+Giovanna Esposito1   | Fabio Parazzini1   | Paola Viganò2    | Matteo Franchi3,4 |
+Sonia Cipriani5  | Francesco Fedele1    | Giovanni Corrao3,4 | Edgardo Somigliana1,2
+
+1
+ Department of Clinical Sciences and
+Community Health, University of Milan,                     Abstract
+Milan, Italy
+                                                           Introduction: Evidence on the role of medically assisted reproduction (MAR) in achiev-
+2
+ Infertility Unit, Fondazione IRCCS Ca’
+Granda Ospedale Maggiore Policlinico,
+                                                           ing the desired number of children is very limited. The aim of the current investigation
+Milan, Italy                                               was to assess the probability and the mode of conception of a second live birth ac-
+3
+ Department of Statistics and                              cording to the mode of conception of the first one.
+Quantitative Methods, Unit of
+Biostatistics, Epidemiology and Public                     Material and methods: This historical cohort study was based on administrative data
+Health, University of Milano-­Bicocca,                     from regional healthcare databases. Women hospitalized for childbirth in Lombardy
+Milan, Italy
+4                                                          between January 1, 2007 and December 31, 2017 were identified. The probability of
+  National Center for Healthcare Research
+and Pharmacoepidemiology, Milan, Italy                     a second live birth up to 2021 was estimated using the Kaplan–­Meier method. We cal-
+5
+ Department of Woman, Newborn and                          culated this probability according to the mode of conception of the first birth, and the
+Child, Fondazione IRCCS Ca' Granda
+Ospedale Maggiore Policlinico, Milan, Italy                analysis was also performed in strata of maternal age at first birth. Cox proportional
+                                                           hazards models were fitted to estimate the hazard ratio (HR) and 95% confidence
+Correspondence
+Edgardo Somigliana, Infertility Unit,                      interval (CI) of the association between mode of conception at first live birth and the
+Fondazione IRCCS Ca' Granda Ospedale                       probability of having a second live birth. Mothers were right-­censored if they moved
+Maggiore Policlinico, Milan 20122, Italy.
+Email: edgardo.somigliana@policlinico.                     out of the region, died, or did not have a second live birth by the end of follow-­up.
+mi.it                                                      Results: We identified 431 333 women who had their first live birth after a natu-
+Funding information                                        ral conception and 16 837 who had their first live birth after MAR. The probability
+Italian Ministry of Education, University                  of having a second live birth was 58.6% and 32.1%, respectively in the two groups
+and Research, Grant/Award Number:
+2017728JPK; Italian Ministry of                            (HR = 0.68, 95% CI: 0.66–­0.70). Considering solely women who naturally conceived
+Health, Grant/Award Number:                                their first live birth, the probability to have a second child with MAR was 1.1% and to
+CurrentResearchIRCCS
+                                                           have a second child naturally 59.3%. The corresponding values were 11.5% and 25.2%
+                                                           in the group of women with a first MAR-­mediated live birth.
+                                                           Conclusions: In our cohort, one woman out of 10 having a first MAR-­mediated live
+                                                           birth underwent MAR programs again. Considering women who had a first natural
+                                                           live birth, this proportion was drastically reduced. In the field of MAR, more attention
+                                                           should be given to the capacity of a couple to achieve the number of desired children.
+
+
+Abbreviations: CedAP, certificate of delivery assistance (certificate di assistenza al parto) registry; MAR, medically-­assisted reproduction; SDO, hospital discharge form (scheda di
+dimissione ospedaliera) registry.
+
+
+This is an open access article under the terms of the Creative Commons Attribution-NonCommercial-NoDerivs License, which permits use and distribution in
+any medium, provided the original work is properly cited, the use is non-commercial and no modifications or adaptations are made.
+© 2023 The Authors. Acta Obstetricia et Gynecologica Scandinavica published by John Wiley & Sons Ltd on behalf of Nordic Federation of Societies of
+Obstetrics and Gynecology (NFOG).
+
+Acta Obstet Gynecol Scand. 2024;103:121–128.	﻿                                                                                          wileyonlinelibrary.com/journal/aogs         | 121
+       |
+
+
+
+
+                                                                                                                                                            16000412, 2024, 1, Downloaded from https://obgyn.onlinelibrary.wiley.com/doi/10.1111/aogs.14685 by CochraneItalia, Wiley Online Library on [06/03/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+122                                                                                                                                     ESPOSITO et al.
+
+
+
+                                                KEYWORDS
+                                                desired number of children, family rate, medically assisted reproduction, second birth
+
+
+
+
+1      |   I NTRO D U C TI O N
+                                                                                  Key Message
+Despite the widespread use of medically assisted reproduction
+(MAR), very little is known about how these procedures contribute                 Until now the main goal of medically assisted reproduction
+to family size. 1                                                                 (MAR) programs has been the reduction of childlessness;
+      Most couples desire more than one child to complete their fam-              more attention should be given to the contribution of MAR
+ily. In Italy, the actual number of children per couple does not reflect          to the desired family size.
+the intentions. Although fertility rate has been steadily declining
+since 2010 (being 1.30 in Italy in 2020), 2 the number of desired chil-
+dren of Italian couples remains at two.3,4                                   obstetric history, current obstetric history, type of conception,
+      Delaying the first child plays a crucial role and changes the repro-   mode of labor and delivery, gestational age at birth, and neonatal
+ductive schedule. The desire to have children remains strong even            characteristics and outcomes. The second source of data was the
+after the age of 40, an age associated with substantial infertility          hospital discharge form (scheda di dimissione ospedaliera [SDO]),
+rates. This may contribute to the growing rate of couples undergoing         which reports detailed information about inpatient and their hos-
+MAR.                                                                         pitalization in public or private hospitals (eg unique identification
+      Recent evidence suggests that women embarking in MAR are               code, admission and discharge dates, main and secondary diagnoses,
+more often nulliparae, indicating that MAR mainly contributes to             and procedures). Each woman was identified with an alphanumeric
+reduce childlessness by helping women to obtain their first child,           anonymised code, which was reported in all the databases and al-
+rather than satisfying the desired family size.5                             lowed the record linkage. For this type of study ethical approval is
+      The role of MAR in fulfilling couples' reproductive intentions         not required in Italy.
+is a challenging issue to investigate. Several years may be needed               We identified all women hospitalized for delivery in Lombardy
+to assess MAR contribution to achieve the desired number of chil-            between January 1, 2007 and December 31, 2017 from CedAP and
+dren; the mean interval between first and second birth generally             SDO databases. Inclusion criteria were as follows: (i) women aged 18
+is around 2 to 3 years. For example, using the Australian and New            to 45 years old, (ii) women who delivered between 22 and 42 weeks
+Zealand assisted reproduction database, Paul et al. reported a 43%           of gestation, (iii) women for whom the newborn could be linked to
+rate returning to treatment after a MAR-­conceived live birth. One in        the mother, (iv) women without missing or not clear information con-
+four women who returned to MAR did so within 1 year, 79% within              cerning the type of conception, (v) women who delivered live births,
+2 years, and 95% within 3 years of the first birth.6                         and (vi) women for whom the persistence in the health system or
+      In the current investigation, we worked out on the regional            their death could be assessed. The cohort was selected in October
+healthcare databases of Lombardy, a large region located in North-           2022.
+ern Italy with up to 10 million inhabitants, where MAR procedures                To assess if a second delivery occurred, we looked for second
+are fully supported by the public health system for all women aged           deliveries from January 1, 2008 to December 31, 2021 from CedAP
+46 years or less regardless of their obstetric or medical history.7 Our      and SDO databases. We did not consider additional births after the
+aim was to assess the probability to have a second live birth accord-        second one.
+ing to the mode of conception of the first one, with a focus on the              The mode of conception was categorized as natural and MAR-­
+role of the use of MAR for the second births. The study does not             mediated, that is, obtained after ovarian stimulation, intrauterine
+report on all women referred for MAR for a second child (this in-            insemination, conventional in vitro fertilization, or intracytoplasmic
+formation is not available for this analysis), but only on those who         sperm injection (ICSI).
+succeeded.                                                                       Descriptive statistics were used to summarize characteristics of
+                                                                             women at the time of their first live birth, including age (i.e., <30,
+                                                                             30–­34, 35–­39, ≥40 years), nationality (i.e., Italian or not), and educa-
+2      |   M ATE R I A L A N D M E TH O DS                                   tional level (i.e., middle school or less, high school, university). Differ-
+                                                                             ences on the observed variables between women who had only one
+We conducted a historical cohort study using administrative data             delivery and women who had a second delivery were tested using
+from the regional healthcare utilization databases of Lombardy, in           the chi-­squared test.
+Northern Italy. The first source of data was the certificate of de-              The overall cumulative probability of a second live birth in
+livery assistance (certificate di assistenza al parto [CedAP]) registry,     women who had a first naturally conceived birth and in women
+which includes parents' sociodemographic characteristics, previous           who had a first MAR-­m ediated birth was estimated using the
+                                                                                                                                           | 123
+
+
+
+
+                                                                                                                                                    16000412, 2024, 1, Downloaded from https://obgyn.onlinelibrary.wiley.com/doi/10.1111/aogs.14685 by CochraneItalia, Wiley Online Library on [06/03/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+ESPOSITO et al.
+
+
+
+Kaplan-­M eier method. Cox proportional hazard models were fit-               The characteristics of mothers according to whether they had a
+ted for estimating the hazard ratio (HR) and the corresponding            second birth and the mode of the conception of the second birth are
+95% confidence interval (CI) of the association between the mode          reported in Table 1. Considering the mothers who had the first nat-
+of conception of the first birth and the probability to have a sec-       urally conceived birth, those who had a second birth were younger
+ond one. Models were adjusted for maternal age (in continuous             in the case of a second natural conception (mean age at first birth:
+years) and educational level (i.e., middle school or less, high school,   29.3 years) than in case of a second birth after MAR (mean age at
+university). These two factors, routinely collected at birth, influ-      first birth: 32.3 years) (p-­value < 0.001). Women who had a success-
+ence both the access to MAR and the decision regarding family             ful MAR treatment for a second time had a mean age at first birth
+size. 8 The analyses were repeated according to the mode of con-          of 34.8 years and were younger in comparison with women who had
+ception of the second birth and stratified for maternal age (i.e.,        only one MAR-­mediated live birth (mean age at first birth: 36.9 years;
+<35, ≥35 years).                                                          p-­value < 0.001), but older in comparison with women who had a
+    Each woman accumulated person-­years of follow-­up from the           second naturally conceived birth (mean age at first birth: 33.6 years
+first birth until the earliest of followings: date of the second birth,   p-­value < 0.001). As regard educational level, regardless of the mode
+date up to which the mother was covered by the regional healthcare        of first conception, women who had a second birth was more edu-
+system, date of the death of the mother, and December 31, 2021.           cated (p-­value < 0.001), especially if they underwent MAR.
+Mothers were considered right censored if they moved out of re-               Figure 1 provides the overall probability to have a second birth
+gion, if they dead, and if they did not have a second delivery by the     according to the mode of conception of the first one. In the group of
+time of the end of follow-­up (December 31, 2021).                        women who achieved their first birth after natural conception, the
+    All analyses were performed using the Statistical Analysis Sys-       probability of a second birth was 58.6%. The corresponding value
+tem Software (version 9.4; SAS Institute).                                in women who conceived their first birth after MAR was 32.1%
+                                                                          (HR = 0.68, 95% CI: 0.66–­0.70). The median time to second birth was
+                                                                          3.2 and 2.8 years (p-­value < 0.001) in women who conceived their
+2.1 | Ethics statement                                                    first birth respectively naturally and after MAR.
+                                                                              Figure 2 shows the probability of a second birth according to
+This study followed the principles of the Declaration of Helsinki.        the mode of conception of the first one. Among women who had
+Data used in this study were anonymized before its use. Accord-           first naturally conceived live birth, the probability to have a second
+ing to Italian law, studies based entirely on registry data are exempt    live birth was 1.1% and 59.3%, respectively after MAR and natural
+from IRB authorization and informed consent (General Authoriza-           conception. The respective values were 11.5% (HR = 15.12, 95% CI:
+tion for the Processing of Personal Data for Scientific Research Pur-     13.99–­16.35) and 25.2% (HR = 0.52, 95% CI: 0.50–­0.54) in women
+poses Issued by the Italian Privacy Authority on August 10, 2018;         undergoing MAR to achieve their first live birth.
+https://www.garan​tepri​vacy.it/web/guest/​home/docwe​b/-­/docwe​             Compared to the group of women who had the first delivery
+b-­displ​ay/docwe​b/9124510).                                             after natural conception, for both subsets of age, the probability a
+                                                                          natural second delivery was significantly reduced (HR = 0.58, 95%
+                                                                          CI: 0.55–­0.60 and HR = 0.62, 95% CI: 0.59–­0.66, respectively for
+3   |   R E S U LT S                                                      women aged less than 35 years and those aged 35 years or more)
+                                                                          and the probability of a second birth after MAR was significantly
+A total of 473 908 women hospitalized for their first birth in Lom-       increased (HR = 19.49, 95% CI: 17.66–­21.50 and HR = 10.86, 95%
+bardy from the January 1, 2007 to December 31, 2017 were identi-          CI: 9.70–­12.15, respectively for women aged less than 35 years and
+fied from the CedAP and SDO databases. Out of these, we excluded          those aged 35 years or more) in the group of women undergoing
+(Figure S1): (i) 4007 women aged less than 18 or more than 45, (ii)       MAR to achieve their first birth (Figure 3).
+2515 women who delivered before the 22nd or after the 42nd week               Table 2 provides the HR and corresponding 95% CI of the asso-
+of gestation, (iii) 7909 women for whom the newborn could not be          ciation between the mode of conception of the first birth and the
+linked to the mother, (iv) 2983 women with missing or not clear in-       probability to have a second birth in the total series and in strata of
+formation concerning the type of conception, (v) 1576 stillbirths or      maternal age at first one.
+neonatal deaths, and (vi) 6748 women for whom the date up to which
+they were covered by the regional healthcare system or their possi-
+ble date of death were unknown. Overall, 431 333 natural births and       4   |   DISCUSSION
+16 837 MAR-­mediated births were available for the analysis.
+    In the group of women who had a first MAR-­mediated birth,            In our cohort, the probability of a second birth after a first one ob-
+4979 second births were identified. In the group of women who had         tained with MAR was about half of that observed in mothers who
+first birth after a natural conception, 232 000 second births were        conceived their first one naturally, being approximately 30% and
+identified. No trend in the overall proportions of second births ap-      60%, respectively. As for second live births achieved after MAR,
+peared to be significant over the study period (data not shown).          one woman out of 10 having a first MAR-­mediated live birth had a
+       |
+
+
+
+
+                                                                                                                                                          16000412, 2024, 1, Downloaded from https://obgyn.onlinelibrary.wiley.com/doi/10.1111/aogs.14685 by CochraneItalia, Wiley Online Library on [06/03/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+124                                                                                                                                     ESPOSITO et al.
+
+
+TA B L E 1 Characteristics of study participants according to mode of conception and number of births.
+
+                                  First birth after natural conception                     First birth after MAR
+
+                                                        Women who have a second live                               Women who have a second live
+                                                        birth                                                      birth
+                                  Women who have                                           Women who have
+ Maternal characteristics         only one live birth   Natural conception   MAR           only one live birth     Natural conception      MAR
+
+ Maternal age
+      <30                          60 677 (35.1)        111 815 (64.7)        457 (0.3)      634 (49.6)              520 (40.7)             124 (9.7)
+      30–­3 4                      65 916 (42.6)          87 982 (56.9)       682 (0.4)     2736 (56.6)            1515 (31.3)             583 (12.1)
+      35–­39                       55 706 (66.6)         28 788 (33.9)        475 (0.6)     4968 (72.8)            1328 (19.5)              528 (7.7)
+      ≥40                          17 034 (90.4)           1696 (9.0)         105 (0.6)     3520 (90.2)              207 (5.3)              174 (4.5)
+      Mean (SD)                      32.1 (5.3)             29.3 (4.7)       32.3 (4.8)      36.9 (4.4)             33.6 (4.0)             34.8 (4.0)
+ Nationality
+      Italian                     155 904 (46.7)        176 777 (52.9)       1492 (0.4)    10 516 (70.3)           3158 (21.1)            1283 (8.6)
+      Not Italian                  43 429 (44.7)         53 504 (55.1)        227 (0.2)     1342 (71.4)              412 (21.9)             126 (6.7)
+ Educational level
+      University                   58 414 (43.0)          76 638 (56.4)       795 (0.6)     4963 (67.9)            1617 (22.1)             729 (10.0)
+      High school                  93 871 (48.0)        100 859 (51.6)        675 (0.3)     5198 (72.0)            1478 (20.5)              548 (7.6)
+      Middle school or less        45 618 (46.8)          51 591 (52.9)       247 (0.3)     1685 (73.7)              470 (20.6)             131 (5.7)
+
+Abbreviation: MAR, medically assisted reproduction.
+
+
+
+                                                                                                          F I G U R E 1 Probability of having
+                                                                                                          a second live birth according to the
+                                                                                                          modality of conception of the first. Italy,
+                                                                                                          Lombardy, 2007–­2021.
+
+
+
+
+second birth by MAR. When we considered only women who had a                 natural second birth was lower in infertile couples; thus, we focused on
+first natural live birth, this proportion was drastically lower (about       the mode of conception of second births according to the MAR use or
+1%).                                                                         not for the first birth. The chance of a second birth was higher among
+      In interpreting the results, it should be kept in mind that couples    younger women at first one regardless the mode of conception. This
+undergoing MAR for the first birth were not directly comparable with         latter finding is unsurprising: age is known as a major prognostic factor
+the fertile population, as they had, by definition, reduced fecundabil-      for the chance of natural conception as well as conception by infer-
+ity. With this in mind, we could expect that the probability of having a     tility treatment. Further, this result is in line with previous evidence
+                                                                                                                                          | 125
+
+
+
+
+                                                                                                                                                  16000412, 2024, 1, Downloaded from https://obgyn.onlinelibrary.wiley.com/doi/10.1111/aogs.14685 by CochraneItalia, Wiley Online Library on [06/03/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+ESPOSITO et al.
+
+
+
+
+F I G U R E 2 Probability of having a second live birth according to the modality of conception in women who achieved their first birth
+naturally (A) and in women undergoing medically assisted reproduction (MAR) to achieve first birth (B). Italy, Lombardy, 2007–­2021.
+
+
+
+
+F I G U R E 3 Probability of having a second live birth according to the modality of conception and maternal age in women who achieved
+their first birth naturally (A) and in women undergoing medically assisted reproduction (MAR) to achieve first birth (B). Italy, Lombardy,
+2007–­2021.
+                                                                                                                                                                                 |
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                16000412, 2024, 1, Downloaded from https://obgyn.onlinelibrary.wiley.com/doi/10.1111/aogs.14685 by CochraneItalia, Wiley Online Library on [06/03/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+                    126                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ESPOSITO et al.
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    reporting that the probability of a delivery following natural pregnancy
+
+
+
+
+                                                                                                                                                                                                                                                                                                      15.12 (13.99–­16.35)                                19.49 (17.66–­21.5)                               10.86 (9.70–­12.15)
+
+
+
+
+TA B L E 2 The hazard ratio (HR) and the corresponding 95% confidence interval (CI) of the association between the modality of conception of the first birth and the probability of having a
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    after a first MAR birth decreases as the woman's age increases.9–­12
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Maternal age, however, did not influence the chance of conception in
+
+
+                                                                                                                                                                                                                                            HRa (95% CI)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    a study investigating the occurrence of natural conception in patients
+
+
+
+
+                                                                                                                                                                                               Second live birth after MAR
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    who had discontinued unsuccessful ICSI treatment.13
+                                                                                                                                                                                                                                                                                     1b                                                  1b                                                 1b
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       In line with previous evidence,5,14 in our cohort, MAR contributes
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    in a limited way to satisfy the desired family size. Even in the group
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    of women who had their first birth after MAR, conceptions of second
+
+
+                                                                                                                                                                                                                                                                                                      1409 (28.3)                        1139 (0.3)
+                                                                                                                                                                                                                                                                                                                                                          707 (11.6)                        580 (0.5)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    births occurred more commonly naturally than through MAR.
+
+                                                                                                                                                                                                                                                                                     1719 (0.4)                                                                                                             702 (6.6)                                                                                                                                                                                                                                                                  Natural pregnancy after a first successful MAR attempt has been
+                                                                                                                                                                                                                                            N (%)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    reported among about one in five couples, particularly for those
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    who are younger, who have been infertile for a shorter period, and
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    those with unexplained infertility.9,10,15 For example, Hennelly et al.
+
+
+
+
+                                                                                                                                                                                               Second live birth after natural conception
+                                                                                                                                                                                                                                                                                                      0.52 (0.50–­0.54)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    reported a natural conception rate of 20.7% within 2 years among
+
+
+
+                                                                                                                                                                                                                                                                                                                                                          0.58 (0.55–­0.60)                                 0.62 (0.59–­0.66)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    couples who previously achieved a pregnancy through MAR (i.e.,
+
+
+                                                                                                                                                                                                                                            HRa (95% CI)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    conventional in vitro fertilization or ICSI).9 In such study, in the sub-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    set of women undergoing ICSI for a tubal factor or a severe male fac-
+                                                                                                                                                                                                                                                                                     1b                                                  1b                                                 1b
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    tor, a natural pregnancy rate of only 4.6% was found, meaning that
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    the causes of subfertility are related with the chance of subsequent
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    natural conception. According to Ludwig et al., 20.0% of the couples
+
+
+                                                                                                                                                                                                                                                                                                      3570 (21.2)                                         2035 (33.3)
+                                                                                                                                                                                                                                                                                     230 281 (53.4)                                      199 797 (61.0)
+                                                                                                                                                                                                                                                                                                                                                                                                            1535 (14.3)
+                                                                                                                                                                                                                                                                                                                                                                                            30 484 (29.4)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    who tried to get pregnant again after a first child conceived by ICSI,
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    conceived naturally at least once, with a delivery rate of 16.4%.10
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Estimated from Cox proportional hazards model including terms for maternal age at first delivery and educational level.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    Further, in a large cohort of French couples undergoing MAR treat-
+                                                                                                                                                                                                                                            N (%)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ment, the rate of births following natural pregnancy was estimated
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    to be 17% among successfully treated couples and 24% among un-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    successfully treated couples.15 This high rate of natural conception
+
+
+
+
+                                                                                                                                                                                                                                                                                                      0.68 (0.66–­0.70)                                   0.84 (0.81–­0.88)                                 0.72 (0.69–­0.74)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    after MAR attempts has been explained by the early use of MAR
+
+
+
+                                                                                                                                                                                                                                            HRa (95% CI)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    especially for cases of unexplained infertility and the positive pla-
+
+
+
+
+second live birth, overall and in strata of maternal age at first birth. Italy, Lombardy, 2007–­2021.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    cebo effect.16 Natural pregnancies occurred after a successful MAR
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                  Abbreviations: CI, confidence interval; HR, hazard ratio; MAR, medically assisted reproduction.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    procedure or after adoption also suggests a relevant impact of the
+                                                                                                                                                                                                                                                                                     1b                                                  1b                                                 1b
+
+
+
+
+                                                                                                                                                                                               Overall second live birth
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    psychological sphere on fertility.17
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       In the interpretation of the high proportion of natural concep-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    tion after MAR should be considered the fact that in Lombardy the
+
+
+
+                                                                                                                                                                                                                                                                                     232 000 (53.8)
+                                                                                                                                                                                                                                                                                                                                                          2742 (44.9)                                       2237 (20.9)
+                                                                                                                                                                                                                                                                                                                                         200 936 (61.3)
+                                                                                                                                                                                                                                                                                                      4979 (29.6)
+                                                                                                                                                                                                                                                                                                                                                                                            31 064 (29.9)
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    access to MAR is not related to strict diagnostic criteria; thus, it is
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    conceivable that also moderately subfertile couples may have ac-
+                                                                                                                                                                                                                                            N (%)                                                                                                                                                                                                                                                                                                                                                                                                                                   cess to MAR. Further, it should be considered that in some cases
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    the second child is searched with another partner, thus affecting the
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    mechanisms of couple infertility.
+
+                                                                                                                                                                                                                              Total number of
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       Reasons to explain the low rate of MAR use for the concep-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    tion of the second child cannot be disentangled from our study.
+
+                                                                                                                                                                                                                                                                                                                                                                                            103 804
+                                                                                                                                                                                                                                                                                                                                                                                                            10 725
+                                                                                                                                                                                                                                                                                     431 333
+                                                                                                                                                                                                                                                                                                      16 837
+                                                                                                                                                                                                                                                                                                                                                          6112
+                                                                                                                                                                                                                              women                                                                                                      327 529
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    The observation that a consistent proportion of women conceived
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    naturally can explain only part of this phenomenon. Indeed, this
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    proportion is lower compared to the rate of natural second con-
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ceptions observed in fertile women, suggesting that a consistent
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    proportion of women does not achieve the most common in-
+
+
+
+
+                                                                                                                                                                                                                                            Modality of first conception
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    tended number of children (i.e., two). This may suggest an unmet
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    need. We speculate that this may not be consequent to a specific
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    choice of the infertile couples conceiving with MAR. First, cou-
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              Reference category.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    ples facing and overcoming the difficulties of the MAR journey
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    for the first conception may not be less interested to a second
+
+                                                                                                                                                                                                                                                                                     Natural                                 <35 years   Natural                                            Natural
+                                                                                                                                                                                                                                                                                                                                                                                ≥35 years
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    child compared to the general population. However, in our opin-
+                                                                                                                                                                                                                                                                                                      MAR                                                 MAR                                               MAR
+                                                                                                                                                                                                                                                                           Overall                                                                                                                                                                                                                                                                                                                                                                                                  ion, concerns against MAR, in terms of safety, logistic, emotional,
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    a                                                                                                                         b                     and psychological burden, may play a crucial role. Infertile women
+                                                                                                                                           | 127
+
+
+
+
+                                                                                                                                                     16000412, 2024, 1, Downloaded from https://obgyn.onlinelibrary.wiley.com/doi/10.1111/aogs.14685 by CochraneItalia, Wiley Online Library on [06/03/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+ESPOSITO et al.
+
+
+
+with one child may be less prone to re-­undergo the overwhelm-         AU T H O R C O N T R I B U T I O N S
+ing journey of MAR. This is probably true also for women who           All authors have contributed to and approved the final version of
+conceived naturally, as demonstrated by the extremely low pro-         this manuscript. Term and conceptualization: FP and ES; Meth-
+portion of MAR uptake in women who had a first natural concep-         odology, software, formal analysis, investigation, resources, data
+tion. Only most motivated women with children could decide to          curation: GE and MF; Writing-­original draft: GE and FP; Writing-­
+embark in MAR treatments and this seems valid for both those           review and editing: SC, FF, MF, ES, and PV; Supervision: GC, FP,
+who had a first MAR conception or a first natural conceptions. It      and ES.
+is also unlikely that the lower number of second children could be
+due to a lower success rate of the procedure since a previous con-     F U N D I N G I N FO R M AT I O N
+ception with MAR is a strong positive predictive factor for a new      This work was supported by a research grant from the Italian Min-
+success.18 Nevertheless, despite couples returning to MAR for a        istry of Education, University and Research (“PRIN” 2017, project
+second birth would have a higher rate of success than couples un-      2017728JPK). The grant provides financial support for the analysis
+dergoing their first attempt, the first success does not guarantee     of data. In addition, the study was also supported in part by the Ital-
+the success of later treatments and the live birth rates remain low    ian Ministry of Health -­Current Research IRCCS.
+at about 30%.19 Moreover, we did not esteem financial reasons to
+play a major role since MAR is given for free by the public health     C O N F L I C T O F I N T E R E S T S TAT E M E N T
+system in the studied area.                                            Edgardo Somigliana reports grants from Ferring, grants and personal
+    Some limitations of the study should be recognized. First, we      fees from Merck-­Serono, grants and personal fees from Theramex,
+were unable to determine the proportion of women who under-            personal fees from Gedeon-­Richter, outside the submitted work. Gio-
+went MAR and failed. The rate of MAR babies observed in our            vanni Corrao received research support from the European Commu-
+study is an under-­e stimation of the rate of MAR return. For this     nity (EC), the Italian Agency of Drugs (AIFA), and the Italian Ministry for
+reason, it was not possible to infer the return rate of women un-      University and Research (MIUR). He took part in a variety of projects
+dergoing MAR for a previous birth from our data, nor to evaluate       that were funded by pharmaceutical companies (i.e., Novartis, GSK,
+the number of failed attempts in women who subsequently con-           Roche, AMGEN and BMS). He also received honoraria as a member of
+ceived naturally. This aspect deserves specific investigations with    the advisory board to Roche. The other authors declare that they have
+different study designs. In addition, we did not know if women         no conflicts of interest to disclose.
+changed the partner between the first and second child. This may
+have introduced a confounder, albeit with a plausible minor role       DATA AVA I L A B I L I T Y S TAT E M E N T
+in explaining the markedly lower rate of MAR second babies. The        The data that support the findings of this study are available from
+major sstrength of this study was its population-­b ased design,       the Lombardy region, but restrictions apply to the availability of
+which allowed for a large sample size with long-­term follow-­up       these data, which were used under license for the current study. The
+and the use of hard variables routinely collected at birth. In addi-   data used in this study cannot be made available in the manuscript,
+tion, the results of the current study can be generalized to other     the supplemental files or in a public repository due to Italian data
+high-­income populations with similar MAR rates and public health      protection laws. The anonymized datasets generated during and/or
+coverage.                                                              analyzed during the current study can be provided on reasonable
+                                                                       request, from the corresponding author, after written approval by
+                                                                       the Lombardy region.
+5   |   CO N C LU S I O N
+                                                                       ORCID
+Until now poor attention has been given to the contribution of         Giovanna Esposito      https://orcid.org/0000-0001-7894-4456
+MAR to the desired family size, the main goal remains to reduce        Fabio Parazzini     https://orcid.org/0000-0001-5624-4854
+childlessness. In our cohort, one woman out of 10 having a first       Paola Viganò      https://orcid.org/0000-0003-3674-5912
+MAR-­m ediated live birth had a second MAR baby and only one           Sonia Cipriani     https://orcid.org/0000-0002-0530-499X
+in a hundred if one considers women with a first naturally con-        Francesco Fedele     https://orcid.org/0000-0002-8202-748X
+ceived birth. A lower return rate of couples is plausible to explain
+our findings but cannot be extrapolated from our data. Unsuc-          REFERENCES
+cessful attempts are also likely to play a role, considering that       1. Somigliana E, Parazzini F, Goisis A, et al. ART and the forgotten sib-
+couples have aged since their first success. However, other bar-           lings: a call for research. Hum Reprod. 2023;38:1235-­1238.
+                                                                        2. ISS. Fertilità. Accessed May 1, 2023. https://www.iss.it/ferti​lita
+riers to MAR access could play a role. Overall, disentangling the
+                                                                        3. GBD 2019 Demographics Collaborators. Global age-­sex-­specific
+determinants of the low rate of second MAR babies is important             fertility, mortality, healthy life expectancy (HALE), and population
+if one aims at allowing infertile couples to fully accomplish their        estimates in 204 countries and territories, 1950-­2019: a compre-
+intended family size. Infertility treatment should go beyond only          hensive demographic analysis for the global burden of disease
+                                                                           study 2019. Lancet. 2020;396:1160-­1203.
+overcoming childlessness.
+      |
+
+
+
+
+                                                                                                                                                             16000412, 2024, 1, Downloaded from https://obgyn.onlinelibrary.wiley.com/doi/10.1111/aogs.14685 by CochraneItalia, Wiley Online Library on [06/03/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+128                                                                                                                                        ESPOSITO et al.
+
+
+ 4. ISTAT. Rapporto annuale 2020. Accessed May 1, 2023. https://                      a population-­based study in Lombardy, northern Italy. Eur J Obstet
+    www.istat.it/stora​ge/rappo​r to-­a nnua​l e/2020/Rappo​r toan​n uale​            Gynecol Reprod Biol. 2023;288:56-­60.
+    2020.pdf                                                                   15.    Troude P, Bailly E, Guibert J, Bouyer J, de la Rochebrochard E,
+ 5. Lazzari E, Gray E, Chambers GM. The contribution of assisted re-                  DAIFI Group. Spontaneous pregnancies among couples previously
+    productive technology to fertility rates and parity transition: an                treated by in vitro fertilization. Fertil Steril. 2012;98:​63-­68.
+    analysis of Australian data. Demogr Res. 2021;45:1081-­1096.               16.    Collins JA, Burrows EA, Wilan AR. The prognosis for live birth
+ 6. Paul RC, Fitzgerald O, Lieberman D, Venetis C, Chambers GM.                       among untreated infertile couples. Fertil Steril. 1995;64:22-­28.
+    Cumulative live birth rates for women returning to ART                     17.    Soave I, Lo Monte G, Marci R. Spontaneous pregnancy and un-
+    treatment for a second ART-­conceived child. Hum Reprod.                          explained infertility: a gift with many whys. N Am J Med Sci.
+    2020;35:1432-­1440.                                                               2012;4:512-­513.
+ 7. Scaravelli G, De Luca R, Vigiliano V, et al. 16° Report –­ Attività del    18.    Nelson SM, Lawlor DA. Predicting live birth, preterm delivery,
+    registro nazionale Italiano della procreazione medicalmente as-                   and low birth weight in infants born from In vitro fertilisation:
+    sistita –­ Dati 2020. 2020. Registro Nazionale Della Procreazione                 a prospective study of 144,018 treatment cycles. PLoS Med.
+    Medicalmente Assistita.                                                           2011;8:e1000386.
+ 8. Goisis A, Haberg SE, Hanevik HI, Magnus MC, Kravdal O. The de-             19.    Luke B, Brown MB, Wantman E, Baker VL, Grow DR, Stern JE.
+    mographics of assisted reproductive technology births in a Nordic                 Second try: who returns for additional assisted reproductive tech-
+    country. Hum Reprod. 2020;35:1441-­1450.                                          nology treatment and the effect of a prior assisted reproductive
+ 9. Hennelly B, Harrison RF, Kelly J, Jacob S, Barrett T. Spontaneous                 technology birth. Fertil Steril. 2013;100:1580-­1584.
+    conception after a successful attempt at in vitro fertilization/intra-
+    cytoplasmic sperm injection. Fertil Steril. 2000;73:774-­778.
+10. Ludwig AK, Katalinic A, Jendrysik J, et al. Spontaneous pregnancy
+                                                                               S U P P O R T I N G I N FO R M AT I O N
+    after successful ICSI treatment: evaluation of risk factors in 899
+    families in Germany. Reprod Biomed Online. 2008;17:403-­4 09.              Additional supporting information can be found online in the
+11. Shimizu Y, Kodama H, Fukuda J, Murata M, Kumagai J, Tanaka                 Supporting Information section at the end of this article.
+    T. Spontaneous conception after the birth of infants conceived
+    through in vitro fertilization treatment. Fertil Steril. 1999;71:35-­39.
+12. Kupka MS, Dorn C, Richter O, Schmutzler A, van der Ven H,
+    Kulczycki A. Stress relief after infertility treatment—­spontaneous
+                                                                                     How to cite this article: Esposito G, Parazzini F, Viganò P,
+    conception, adoption and psychological counselling. Eur J Obstet
+    Gynecol Reprod Biol. 2003;110:190-­195.                                          et al. Probability of second live birth after first natural and
+13. Osmanagaoglu K, Collins J, Kolibianakis E, et al. Spontaneous preg-              medically assisted reproduction-­mediated live birth: a
+    nancies in couples who discontinued intracytoplasmic sperm injection             historical cohort study. Acta Obstet Gynecol Scand.
+    treatment: a 5-­year follow-­up study. Fertil Steril. 2002;78:550-­556.
+                                                                                     2024;103:121-128. doi:10.1111/aogs.14685
+14. Esposito G, Vigano P, Filippi F, et al. The modest impact of as-
+    sisted reproductive technology on the second birth: insights from
+
