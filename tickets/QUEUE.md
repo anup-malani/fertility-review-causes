@@ -1,6 +1,6 @@
 # Work Queue
 
-Last updated: 2026-08-02
+Last updated: 2026-08-25
 
 Pick the first open ticket assigned to you or `any`. Before starting, pull/sync, then **claim** it
 before doing the work. The active mode is **Mode B (branch-per-ticket)** — the simplest path is
@@ -27,7 +27,7 @@ tickets can be worked concurrently.
 > commit message dated 07-21 to 07-25 against this table; in commit messages from Alexandra's schooling
 > workstream, `TICK-032` means the compulsory-education split and needs no translation.
 >
-> **Next free number is TICK-072.** Claim a number by pushing its QUEUE.md row before starting work,
+> **Next free number is TICK-073.** Claim a number by pushing its QUEUE.md row before starting work,
 > not after. That is what would have prevented the collision. TICK-047 through TICK-053 were claimed
 > for the D.3.b climate-anxiety chain on 2026-07-27; TICK-054 (A.10) and TICK-055 (C.2.c) on
 > 2026-07-31; TICK-056 opens C.2.c library retrieval.
@@ -46,6 +46,7 @@ tickets can be worked concurrently.
 
 | Ticket | Title | Assigned | Parallel-safe |
 |--------|-------|----------|---------------|
+| [TICK-072](TICK-072-art-access-fertility-recovery.md) | A.17 Assisted Reproductive Technology Access | Shravan | yes |
 | [TICK-071](TICK-071-dating-apps-union-formation-friction.md) | A.24 Dating Apps and Union-Formation Friction | Shravan | yes |
 | [TICK-070](TICK-070-twinning-multiple-births.md) | A.12 Twinning Rates and Multiple Births | Shravan | yes |
 | [TICK-069](TICK-069-despair-hopelessness-fertility.md) | D.3.c Despair and Hopelessness | Shravan | yes |
