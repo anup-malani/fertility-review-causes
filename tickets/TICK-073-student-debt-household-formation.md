@@ -8,7 +8,7 @@
 **Touches:** literature/search-logs/student-debt-household-formation-*, extraction/student-debt-household-formation-*, output/chapters/student-debt-household-formation.md, source/build/goldset/199*
 
 ## Acceptance criteria
-- [ ] 2. Search strategy and scope drafted
+- [x] 2. Search strategy and scope drafted — DRAFT 2026-08-26, not frozen (Calls 1 and 5 open)
 - [ ] 3. Literature search and AI screening, both phases (§5.1)
 - [ ] 4. RA title/abstract review
 - [ ] 5. Full-text retrieval
@@ -23,3 +23,16 @@
 - [ ] 14. PI review and sign-off
 
 ## Log
+
+### 2026-08-26 — Stage 2 (scope), drafted
+
+Two probes, 71 requests, 0 failures. The frame is 394 records and can be screened whole.
+Structural finding: the identified variation (210 records) and the registered outcome do not
+intersect — student debt x fertility x identification is 2 records, neither an estimate, and the
+policy-variation cell (forgiveness, repayment reform, tuition regime) is measured EMPTY. The
+identified body sits on marriage, homeownership and co-residence, which v5's own claim names as the
+mechanism, so the chapter is a two-arm chain chapter: arm 1 direct and associational (rated), arm 2
+identified on link 1 with link 2 borrowed from A.7/A.23/C.2.c (a bound, not pooled).
+
+Also found: a shared-resolver defect (an apostrophe-bearing word in a `title.search` query returns a
+confident WRONG match at n=1, not a zero), and v5's C.3.g seminal list does not resolve at all.
