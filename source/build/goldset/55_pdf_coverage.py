@@ -14,12 +14,40 @@ Match is by W-ID (paperId + dup_wids), with a normalized-title fallback against 
 filename slug. Deterministic, offline. Emits the coverage split + a want-list.
 """
 import json, os, re, glob
+import unicodedata
 
 SLUG = "old-age-security-pension-crowdout"
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 def rp(*a): return os.path.join(ROOT, *a)
 
-def norm(s): return re.sub(r"[^a-z0-9]", "", (s or "").lower())
+# --- canonical fold, TICK-074. Keep in sync with source/lib/textnorm.py; the sync is ENFORCED by
+# scripts/verify_norm.py, which imports every copy and compares it against the canonical one on a
+# shared test vector. Two defects live here, both silent and both producing confident wrong answers:
+# an unfolded accent SHATTERS a surname (Spéder -> "der"), and an ASCII apostrophe becomes a SPACE
+# while a curly one is DELETED, so the same title normalises two different ways and a correct anchor
+# is refused as NO-MATCH. Fold every class BEFORE the ASCII strip, and fold both spellings alike.
+_TRANSLIT = {ord("ø"): "o", ord("Ø"): "O", ord("đ"): "d", ord("Đ"): "D", ord("ð"): "d",
+             ord("Ð"): "D", ord("þ"): "th", ord("Þ"): "Th", ord("ı"): "i", ord("İ"): "I",
+             ord("ł"): "l", ord("Ł"): "L", ord("æ"): "ae", ord("Æ"): "Ae", ord("œ"): "oe",
+             ord("Œ"): "Oe", ord("ß"): "ss", ord("ħ"): "h", ord("Ħ"): "H", ord("ŋ"): "n",
+             ord("Ŋ"): "N"}
+_APOSTROPHE_CLASS = re.compile("['‘’ʼ´`]")
+_DASH_CLASS = re.compile("[-‐‑‒–—―−­]")
+
+
+def norm(s):
+    s = (s or "").translate(_TRANSLIT)
+    s = _APOSTROPHE_CLASS.sub("", s)
+    s = _DASH_CLASS.sub(" ", s)
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode("ascii")
+    s = re.sub(r"[^a-z0-9 ]", " ", s.lower())
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def norm_slug(s):
+    """55_'s original semantics: a squashed filename key with no separators at all. Built on the
+    canonical fold so an accented title slugs the same way from either spelling."""
+    return norm(s).replace(" ", "")
 
 studies = json.load(open(rp("output", f"{SLUG}-fine-resolved.json")))
 pdf_dir = rp("literature", "pdfs", SLUG)
@@ -31,13 +59,13 @@ for fn in pdfs:
     wid = fn.split("__", 1)[0]
     pdf_by_wid[wid] = fn
     slug = fn.split("__", 1)[1].rsplit(".pdf", 1)[0] if "__" in fn else fn
-    pdf_slugs.append((norm(slug), fn))
+    pdf_slugs.append((norm_slug(slug), fn))
 
 def find_pdf(r):
     for w in [r["paperId"]] + r.get("dup_wids", []):
         if w in pdf_by_wid:
             return pdf_by_wid[w]
-    tn = norm(r["title"])[:40]                 # title-slug fallback (filenames truncate)
+    tn = norm_slug(r["title"])[:40]                 # title-slug fallback (filenames truncate)
     for sslug, fn in pdf_slugs:
         if tn and (tn in sslug or sslug[:40] == tn):
             return fn

@@ -19,11 +19,39 @@ Inputs : *-snowball.json, *-tier-a-draft.json, retry_verified_final.json (residu
 Output : old-age-security-pension-crowdout-tier-b-frame.json + stderr stats
 """
 import json,re,sys
+import unicodedata
 from pathlib import Path
 from collections import Counter
 HERE=Path(__file__).parent
 LOGS=Path("/Users/shravanhari/~/Anup RA/projects/fertility-review-causes/literature/search-logs")
-def norm(t): return re.sub(r"[^a-z0-9]+"," ",(t or "").lower()).strip()
+# --- canonical fold, TICK-074. Keep in sync with source/lib/textnorm.py; enforced by
+# scripts/verify_norm.py. An unfolded accent SHATTERS a surname and an ASCII apostrophe
+# becomes a SPACE while a curly one is DELETED — both silent, both producing a confident
+# wrong answer rather than an error.
+_TRANSLIT = {
+    ord("ø"): "o", ord("Ø"): "O", ord("đ"): "d", ord("Đ"): "D",
+    ord("ð"): "d", ord("Ð"): "D", ord("þ"): "th", ord("Þ"): "Th",
+    ord("ı"): "i", ord("İ"): "I", ord("ł"): "l", ord("Ł"): "L",
+    ord("æ"): "ae", ord("Æ"): "Ae", ord("œ"): "oe", ord("Œ"): "Oe",
+    ord("ß"): "ss", ord("ħ"): "h", ord("Ħ"): "H", ord("ŋ"): "n", ord("Ŋ"): "N",
+}
+
+# U+0027 apostrophe, U+2018/U+2019 curly quotes, U+02BC modifier letter, U+00B4 acute used as an
+# apostrophe, U+0060 backtick. All six occur in indexed titles.
+_APOSTROPHE_CLASS = re.compile("['‘’ʼ´`]")
+# U+002D hyphen-minus, U+2010-U+2015 the dash block, U+2212 minus, U+00AD soft hyphen.
+_DASH_CLASS = re.compile("[-‐‑‒–—―−­]")
+
+
+def norm(s):
+    """Fold to a comparable ASCII token string. Order is load-bearing: translit, then punctuation
+    classes, then NFKD, then the strip."""
+    s = (s or "").translate(_TRANSLIT)
+    s = _APOSTROPHE_CLASS.sub("", s)
+    s = _DASH_CLASS.sub(" ", s)
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode("ascii")
+    s = re.sub(r"[^a-z0-9 ]", " ", s.lower())
+    return re.sub(r"\s+", " ", s).strip()
 def ndoi(d): return (d or "").replace("https://doi.org/","").strip().lower() or None
 
 snow=json.load(open(LOGS/"old-age-security-pension-crowdout-snowball.json"))["papers"]

@@ -25,6 +25,7 @@ Inputs : output/{slug}-screen-tiers.json, literature/search-logs/{slug}-tier-a.j
 Output : literature/search-logs/{slug}-production-query.json + {slug}-recall-probe.md
 """
 import json, re, math, sys, subprocess, time
+import unicodedata
 from pathlib import Path
 from collections import Counter
 from urllib.parse import quote
@@ -88,8 +89,28 @@ CAUSE = re.compile(
     r"climate change|global warming|environment|ecolog|sustainab|green ")
 
 
+# --- canonical fold, TICK-074. Keep in sync with source/lib/textnorm.py; the sync is ENFORCED by
+# scripts/verify_norm.py, which imports every copy and compares it against the canonical one on a
+# shared test vector. Two defects live here, both silent and both producing confident wrong answers:
+# an unfolded accent SHATTERS a surname (Spéder -> "der"), and an ASCII apostrophe becomes a SPACE
+# while a curly one is DELETED, so the same title normalises two different ways and a correct anchor
+# is refused as NO-MATCH. Fold every class BEFORE the ASCII strip, and fold both spellings alike.
+_TRANSLIT = {ord("ø"): "o", ord("Ø"): "O", ord("đ"): "d", ord("Đ"): "D", ord("ð"): "d",
+             ord("Ð"): "D", ord("þ"): "th", ord("Þ"): "Th", ord("ı"): "i", ord("İ"): "I",
+             ord("ł"): "l", ord("Ł"): "L", ord("æ"): "ae", ord("Æ"): "Ae", ord("œ"): "oe",
+             ord("Œ"): "Oe", ord("ß"): "ss", ord("ħ"): "h", ord("Ħ"): "H", ord("ŋ"): "n",
+             ord("Ŋ"): "N"}
+_APOSTROPHE_CLASS = re.compile("['‘’ʼ´`]")
+_DASH_CLASS = re.compile("[-‐‑‒–—―−­]")
+
+
 def norm(s):
-    return re.sub(r"\s+", " ", re.sub(r"[^a-z0-9\s]", " ", (s or "").lower())).strip()
+    s = (s or "").translate(_TRANSLIT)
+    s = _APOSTROPHE_CLASS.sub("", s)
+    s = _DASH_CLASS.sub(" ", s)
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode("ascii")
+    s = re.sub(r"[^a-z0-9 ]", " ", s.lower())
+    return re.sub(r"\s+", " ", s).strip()
 
 
 def utoks(t):
