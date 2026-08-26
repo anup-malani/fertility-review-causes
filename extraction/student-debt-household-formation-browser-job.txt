@@ -1,0 +1,156 @@
+# BROWSER-JOB — open-access content a script cannot fetch (bot defence).
+# No institutional access needed. Open each URL in a browser and save the PDF into
+# literature/pdfs/student-debt-household-formation/ named  <WID>__<title-slug>.pdf
+# Ordered by job: J1 is the chapter's registered estimand — do those first.
+
+# [J1_DIRECT_ARM] Can’t afford a baby? Debt and young Americans
+#   Research in Social Stratification and Mobility · 2015 · ANCHOR
+https://www.ncbi.nlm.nih.gov/pmc/articles/5231614
+
+# [J1_DIRECT_ARM] Experimental Evidence on Consumption, Saving, and Family Formation Responses to Student 
+#   SSRN Electronic Journal · 2022 · direct
+https://doi.org/10.2139/ssrn.4139814
+
+# [J1_DIRECT_ARM] Life After Debt: Results of the National Student Loan Survey Selected Text From the Fina
+#   Journal of Student Financial Aid · 1998 · direct
+https://ir.library.louisville.edu/cgi/viewcontent.cgi?article=1102&context=jsfa
+
+# [J1_DIRECT_ARM] Married with Children? The Role of Student Loan Debt
+#   SSRN Electronic Journal · 2019 · direct
+https://doi.org/10.2139/ssrn.3458547
+
+# [J1_DIRECT_ARM] Medical student debt and major life choices other than specialty
+#   Medical Education Online · 2014 · ANCHOR
+https://www.tandfonline.com/doi/pdf/10.3402/meo.v19.25603?needAccess=true&role=button
+
+# [J1_DIRECT_ARM] Racial and Ethnic Variation in the Relationship Between Student Loan Debt and the Transi
+#   Demography · 2018 · ANCHOR
+https://read.dukeupress.edu/demography/article-pdf/55/1/165/840276/165min.pdf
+
+# [J1_DIRECT_ARM] Student Debt Forgiveness and Economic Stability, Social Mobility, and Quality-of-Life De
+#   Socius Sociological Research for a Dynamic World · 2023 · direct
+https://doi.org/10.1177/23780231231196778
+
+# [J1_DIRECT_ARM] The Long-Run Effects of Federal Student Loans on Fertility and Social Mobility
+#   SSRN Electronic Journal · 2024 · direct
+https://doi.org/10.2139/ssrn.4747952
+
+# [J2_DECISIVE_TITLE_ONLY] Student Loan Relief and Home Purchase
+#   SSRN Electronic Journal · 2024 · chain
+https://doi.org/10.2139/ssrn.4846753
+
+# [J3_IDENTIFIED_CHAIN] Effects of College Educational Debt on Graduate School Attendance and Early Career and L
+#   SSRN Electronic Journal · 2006 · chain
+https://doi.org/10.2139/ssrn.942793
+
+# [J4_INTENTIONS] Parents, Partners, Plans, and Promises: The Relational Work of Student Loan Borrowing
+#   Socius Sociological Research for a Dynamic World · 2020 · ANCHOR
+https://journals.sagepub.com/doi/pdf/10.1177/2378023120915003
+
+# [J6_UNCERTAIN] A Survey of Pediatric Dentists and Dental Residents: Does educational debt burden impact
+#   OhioLink ETD Center (Ohio Library and Information Network) · 2015 · cannot_tell
+http://rave.ohiolink.edu/etdc/view?acc_num=osu1434665283
+
+# [J6_UNCERTAIN] Bridging the Financial Gap Among Young People
+#   Journal of Student Research · 2020 · chain
+https://jsr.org/hs/index.php/path/article/download/1166/506
+
+# [J6_UNCERTAIN] Does Student Loan Affect Borrowing by Young Households?
+#   ? · 2017 · mechanism
+https://doi.org/10.13140/rg.2.2.22327.52643
+
+# [J6_UNCERTAIN] Exploring IDR: A Comparison of Financial Situations and Behaviors Between Those in Tradi
+#   Journal of Student Financial Aid · 2020 · chain
+https://ir.library.louisville.edu/cgi/viewcontent.cgi?article=1695&context=jsfa
+
+# [J6_UNCERTAIN] Higher Education Loan Schemes Across the Globe: A Systematic Review on the Utility Deriv
+#   Journal of risk and financial management · 2024 · cannot_tell
+https://www.mdpi.com/1911-8074/17/12/566/pdf?version=1734489110
+
+# [J6_UNCERTAIN] Implicit Tax Rates and Marriage
+#   SSRN Electronic Journal · 2026 · cannot_tell
+https://doi.org/10.2139/ssrn.6257179
+
+# [J6_UNCERTAIN] Indebted and Drained: Student Loans and Rural America
+#   RePEc: Research Papers in Economics · 2020 · cannot_tell
+https://ageconsearch.umn.edu/record/304669/files/cmsarticle_745.pdf
+
+# [J6_UNCERTAIN] Jubilee and Jubilation: An Examination of the Relationship between Public Service Loan F
+#   SSRN Electronic Journal · 2022 · cannot_tell
+https://doi.org/10.2139/ssrn.4288699
+
+# [J6_UNCERTAIN] Marriage, Millennials, and Massive Student Loan Debt
+#   ? · 2017 · chain
+https://digitalcommons.csp.edu/cgi/viewcontent.cgi?article=1011&context=clr
+
+# [J6_UNCERTAIN] Millennial Perceptions on Homeownership and Financial Planning Decisions
+#   ? · 2000 · chain
+https://pdxscholar.library.pdx.edu/cgi/viewcontent.cgi?article=5527&context=open_access_etds
+
+# [J6_UNCERTAIN] Sharing or Limiting the Wealth? Coresidence, Parental Support, and Wealth Outcomes in Ca
+#   ? · 2019 · chain
+https://doi.org/10.31235/osf.io/hf53d
+
+# [J6_UNCERTAIN] Student Debt and the Cinderella Effect
+#   SSRN Electronic Journal · 2025 · cannot_tell
+https://doi.org/10.2139/ssrn.5780222
+
+# [J6_UNCERTAIN] Student Loan Forgiveness
+#   SSRN Electronic Journal · 2024 · cannot_tell
+https://doi.org/10.2139/ssrn.4899176
+
+# [J5_CHAIN_REST] Debt, Cohabitation, and Marriage in Young Adulthood
+#   Demography · 2014 · ANCHOR
+https://read.dukeupress.edu/demography/article-pdf/51/5/1677/877083/1677addo.pdf
+
+# [J5_CHAIN_REST] Debt, Jobs, or Housing: What's Keeping Millennials at Home?
+#   SSRN Electronic Journal · 2014 · chain
+https://doi.org/10.2139/ssrn.2530691
+
+# [J5_CHAIN_REST] Does Post-recessionary Student Loan Debt Negatively Impact the Likelihood of Homeownersh
+#   DigitalGeorgetown (Georgetown University Library) · 2016 · chain
+http://hdl.handle.net/10822/1040825
+
+# [J5_CHAIN_REST] Does Student Loan Debt Structure Young People’s Housing Tenure? Evidence from England
+#   Journal of Social Policy · 2021 · ANCHOR
+https://www.cambridge.org/core/services/aop-cambridge-core/content/view/7DA85B6088D211EF0A8D9C4E1EFC6DDA/S004727942000077Xa.pdf/div-class-title-does-student-loan-debt-structure-young-people-s-housing-tenure-evidence-from-england-div.pdf
+
+# [J5_CHAIN_REST] Essays in public economics
+#   ScholarlyCommons (University of Pennsylvania) · 2016 · chain
+https://repository.upenn.edu/edissertations/2084
+
+# [J5_CHAIN_REST] Go Big or Buy a Home: The Impact of Student Debt on Career and Housing Choices
+#   SSRN Electronic Journal · 2021 · chain
+https://doi.org/10.2139/ssrn.3805220
+
+# [J5_CHAIN_REST] How the Rise in Student Loan Debt Affects Residential Real Estate
+#   ScholarWorks (Walden University) · 2021 · chain
+https://scholarworks.waldenu.edu/dissertations/10332
+
+# [J5_CHAIN_REST] Into the Red and Back to the Nest? Student Debt, College Completion, and Returning to th
+#   Sociology of Education · 2017 · ANCHOR
+https://journals.sagepub.com/doi/pdf/10.1177/0038040716685873
+
+# [J5_CHAIN_REST] Is Student Debt Compromising Homeownership as a Wealth-Building Tool?
+#   Open Scholarship Institutional Repository (Washington University in St. Louis) · 2013 · chain
+https://doi.org/10.7936/k7542n34
+
+# [J5_CHAIN_REST] Student Debt, Homeownership, and Wealth Accumulation over the Life Cycle
+#   SSRN Electronic Journal · 2020 · chain
+https://doi.org/10.2139/ssrn.3889908
+
+# [J5_CHAIN_REST] Student Loan and Marriage: Focusing on Female Graduates from 4-Year Universities
+#   Health and Social Welfare Review · 2018 · chain
+https://doi.org/10.15709/hswr.2018.38.1.520
+
+# [J5_CHAIN_REST] Student Loans and Homeownership Trends
+#   FEDS Notes · 2014 · chain
+https://doi.org/10.17016/2380-7172.0031
+
+# [J5_CHAIN_REST] The Debt Paradox: How Student Loans Simultaneously Enhance Earnings and Constrain Life C
+#   Open Journal of Social Sciences · 2025 · cannot_tell
+https://doi.org/10.4236/jss.2025.137036
+
+# [J5_CHAIN_REST] The Role of Federal and Private Student Loans in Homeownership Decisions
+#   Journal of Consumer Affairs · 2019 · chain
+https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/joca.12248

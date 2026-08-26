@@ -11,7 +11,7 @@
 - [x] 2. Search strategy and scope drafted — DRAFT 2026-08-26, not frozen (Calls 1 and 5 open)
 - [x] 3. Literature search and AI screening, both phases (§5.1) — C1 + D1 + D2/D3 done 2026-08-26; 610 screened, 114 forward
 - [ ] 4. RA title/abstract review — 34 UNCERTAIN + the 22% multiple-outcome routing residue
-- [ ] 5. Full-text retrieval — 114 records; the P2 candidate retrieved 2026-08-26, PDF is a browser-job
+- [x] 5. Full-text retrieval — PARTIAL: 23/114 automatic; 38 browser-job + 21 proxy-job + 32 no-route outstanding
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
 - [ ] 7. Extraction to `extraction/student-debt-household-formation.csv`, RA verifies a random 10%
 - [ ] 8. Risk-of-bias assessment per study
@@ -142,3 +142,32 @@ Two things carried forward:
 - **Full text is a browser-job**, not a proxy job: WUSTL's repository and SAGE both 403 on
   open-access content (Cloudflare), while the landing page serves the whole abstract. Outstanding
   question for the full text: does the instrument carry a CHILDBEARING item at all?
+
+### 2026-08-26 — Stage 5 full-text retrieval, PARTIAL
+
+**23 of 114 retrieved automatically (20%).** Handoff split: **38 browser-job, 21 proxy-job, 32
+no-route.**
+
+**THE BINDING CONSTRAINT IS WHICH RECORDS ARE MISSING, NOT THE RATE.** J1 — the registered estimand —
+is 6 of 19, and **all four identified direct-arm records are outstanding**: the survey experiment,
+the FAFSA-IV dissertation chapter, the tuition-IV *Debt burden after college*, and the SSRN preprint.
+What came back is the associational and descriptive tail. Meanwhile 3 of 9 identified CHAIN records
+are in hand and they are the strongest in the frame (Mezza et al. both versions, Goodman–Isen–
+Yannelis). **The retrieval state amplifies the chapter's structural asymmetry rather than correcting
+it**, and a chapter written on what is on disk today would rate its own claim on its weakest six
+records. Extraction should not start until J1 moves.
+
+Rung results, against predictions recorded before the run:
+- **Rung 0 (OpenAlex best OA) did all the work** — 43 URLs found, every successful fetch. Rungs 1-4
+  found 17 URLs between them and fetched nothing. Third chapter in a row.
+- **The working-paper rung was my wrong prediction, and the reason is diagnosable.** Found 1 URL,
+  fetched 0: NBER/FEDS twins are SEPARATE OpenAlex records already in the wantlist, whose
+  `best_oa_location` points at the free PDF, so rung 0 catches them and rung 2 never fires.
+  Redundant, not misconceived. Retired with the reason recorded.
+- **PMC did not return zero — it returned 0 fetches on 4 FOUND urls**, one of which is Nau et al.,
+  the chapter's most-cited record. Counting fetches alone would have shown `0` and read as absence.
+  Three NCBI/Europe PMC routes tried by hand and all failed; it is a browser-job.
+
+**38 browser-job records are flagged OPEN ACCESS.** Free content a script cannot have — a browser and
+thirty minutes, not a library proxy. **32 records have no route at all** (no DOI, no open location),
+listed separately because credentials cannot help with them; **three of those are J1**.
