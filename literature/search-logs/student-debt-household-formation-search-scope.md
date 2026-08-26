@@ -167,7 +167,7 @@ plant-genetics terms. The wall is real and near-empty; **the block must not be r
 | **P1** | Own education debt (balance, incidence, payment) | Births, first birth, completed fertility, childlessness | **Arm 1's core.** 4–6 associational studies; zero identified |
 | **P2** | Policy variation in debt (forgiveness, repayment reform, loan limits, tuition regime) | Any fertility outcome | **Measured empty.** Reported as empty, not omitted |
 | **P3** | Own education debt | Marriage, cohabitation, union formation | Link 1; identified; Addo, Bozick–Estacion, Gicheva |
-| **P4** | Own education debt | Homeownership, housing tenure, residential independence | Link 1; identified; Mezza et al., Houle–Warner, Bleemer et al. |
+| **P4** | Own education debt | Homeownership, housing tenure, residential independence | Link 1; identified; Mezza et al., Houle–Warner, Dettling–Hsu, Goodman–Isen–Yannelis |
 | **P5** | Own education debt | Occupational choice, earnings, savings — the resource channel itself | Off-outcome; retained as mechanism evidence only (Rothstein–Rouse) |
 | **P6** | Own education debt | Fertility *intentions and expectations* | Small; a stated-preference arm, kept separate from realized fertility |
 | **P7** | Debt in a non-US financing regime | Any of the above | Thin and named: England (housing tenure), Japan (family formation), New Zealand |
@@ -197,8 +197,9 @@ Student Loan Debt*, SSRN 2019 (2); *The Effects of Student Loan Debt on the Tran
 *Arm 2 link 1 (identified):* Addo 2014, *Demography* (193); Bozick and Estacion 2014, *Demographic
 Research* (61); Gicheva 2016, *EER* (86); Mezza, Ringo, Sherlund and Sommer 2019, *JOLE* (113), with
 the 2016/2017 FEDS working versions (21, 47); Houle and Warner 2017, *Sociology of Education* (109);
-*Returning to the nest*, *Labour Economics* 2017 (90); *Debt, Jobs, or Housing* 2014 (66); *A day
-late and a dollar short*, *JFE* 2021 (60); *Does Student Loan Debt Structure Young People's Housing
+Dettling and Hsu, *Returning to the Nest*, *Labour Economics* (90; FEDS 2014); Bleemer et al.,
+*Debt, Jobs, or Housing* 2014 (66); Goodman, Isen and Yannelis, *A Day Late and a Dollar Short*,
+*JFE* 2021 (60); *Does Student Loan Debt Structure Young People's Housing
 Tenure? Evidence from England*, *Journal of Social Policy* 2021 (14).
 
 *Mechanism / off-outcome:* Rothstein and Rouse, *JPubE* (457; indexed 2010).
@@ -285,3 +286,21 @@ typed.
    abstract, because the outcome word is what distinguishes the arms.
 4. **Before extraction:** the P2-empty finding and the pre-2000 share-of-decline bound, both computed
    and written into the scope as frozen inputs to stage 10.
+
+## A3 addendum (2026-08-26)
+
+Anchor resolution is run: **24 candidates, 20 verified live, 1 year-drift keep, 1 flagged, 2 expected
+index misses** (`201_c3g_cold_start_anchors.py`). The empirical recall denominator is **5** — three
+realized-fertility anchors and two intentions — against ten chain-arm anchors. That ratio is the
+scope's central finding restated as a count.
+
+Two corrections the run forced, both from sourcing authorship through Crossref rather than memory:
+*Returning to the Nest* is **Dettling and Hsu**, not Bleemer et al., and *A Day Late and a Dollar
+Short* is **Goodman, Isen and Yannelis**. Both are fixed above. The candidate misattribution rate on
+a hand-written anchor set is not zero, and this is the second chapter in a row to measure it.
+
+Three of the run's predicted failures failed as predicted and are load-bearing for the scope:
+the **negative control** (*Student loan forgiveness and the timing of first births*) did not resolve,
+independently corroborating the measured-empty P2 cell; the **SCF serial** could not be anchored,
+confirming the exposure-series retrieval risk; and the **only review-shaped record in the frame** was
+refused by the author gate, confirming that Channel 1 of the cold-start bootstrap is empty here.
