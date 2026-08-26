@@ -1,0 +1,7 @@
+{
+  "query": "title_and_abstract.search:(\"student debt\" OR \"student loan\" OR \"student loans\" OR \"student loan debt\" OR \"educational debt\" OR \"education debt\" OR \"college debt\" OR \"student borrowing\" OR \"student borrowers\" OR \"education loans\" OR \"student indebtedness\") AND ((\"fertility\" OR \"childbearing\" OR \"first birth\" OR \"birth rates\" OR \"childlessness\" OR \"number of children\" OR \"transition to parenthood\" OR \"family size\" OR \"having children\" OR \"family formation\") OR (\"marriage\" OR \"marital\" OR \"union formation\" OR \"cohabitation\" OR \"partnership formation\" OR \"marriage timing\" OR \"age at marriage\") OR (\"homeownership\" OR \"home ownership\" OR \"household formation\" OR \"first-time buyer\" OR \"living with parents\" OR \"residential independence\" OR \"coresidence\" OR \"housing tenure\"))",
+  "reported_total": 400,
+  "retrieved": 401,
+  "complete": true,
+  "pages": 3
+}

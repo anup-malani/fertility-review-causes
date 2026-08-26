@@ -1,0 +1,62 @@
+[
+ {
+  "verdict": "NOT_RELEVANT",
+  "exposure": "general_debt",
+  "outcome": "other",
+  "arm": "off",
+  "design": "cannot_tell",
+  "attain_conditioned": "no",
+  "wall": "w2_general_debt",
+  "info": "insufficient",
+  "note": "title-only; family unsecured debt and ADOLESCENT DEPRESSION \u2014 the debt is the household's and the outcome is a child's mental health",
+  "id": "W4416258337"
+ },
+ {
+  "verdict": "NOT_RELEVANT",
+  "exposure": "own_student_debt",
+  "outcome": "other",
+  "arm": "off",
+  "design": "cannot_tell",
+  "attain_conditioned": "yes",
+  "wall": "w1_career",
+  "info": "insufficient",
+  "note": "title-only; pediatric residents' career paths",
+  "id": "W2107815140"
+ },
+ {
+  "verdict": "NOT_RELEVANT",
+  "exposure": "own_student_debt",
+  "outcome": "other",
+  "arm": "off",
+  "design": "descriptive",
+  "attain_conditioned": "no",
+  "wall": "w1_career",
+  "info": "sufficient",
+  "note": "pediatric subspecialty workforce commentary",
+  "id": "W2092032923"
+ },
+ {
+  "verdict": "NOT_RELEVANT",
+  "exposure": "own_student_debt",
+  "outcome": "other",
+  "arm": "off",
+  "design": "descriptive",
+  "attain_conditioned": "no",
+  "wall": "w1_career",
+  "info": "sufficient",
+  "note": "conference proceedings; one of the five records that headed 200_'s forgiveness-and-fertility cell and it is a summit programme",
+  "id": "W4405822186"
+ },
+ {
+  "verdict": "NOT_RELEVANT",
+  "exposure": "own_student_debt",
+  "outcome": "other",
+  "arm": "off",
+  "design": "descriptive",
+  "attain_conditioned": "no",
+  "wall": "w1_career",
+  "info": "sufficient",
+  "note": "1990 letter on resident cash flow",
+  "id": "W2030351475"
+ }
+]

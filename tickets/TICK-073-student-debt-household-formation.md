@@ -9,8 +9,8 @@
 
 ## Acceptance criteria
 - [x] 2. Search strategy and scope drafted — DRAFT 2026-08-26, not frozen (Calls 1 and 5 open)
-- [ ] 3. Literature search and AI screening, both phases (§5.1) — A3 + A4 done 2026-08-26; two-stage screen next
-- [ ] 4. RA title/abstract review
+- [x] 3. Literature search and AI screening, both phases (§5.1) — C1 + D1 + D2/D3 done 2026-08-26; 610 screened, 114 forward
+- [ ] 4. RA title/abstract review — 34 UNCERTAIN + the 22% multiple-outcome routing residue
 - [ ] 5. Full-text retrieval
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
 - [ ] 7. Extraction to `extraction/student-debt-household-formation.csv`, RA verifies a random 10%
@@ -92,3 +92,28 @@ declared from 8 query-level records. Screen carries a flag; the gate stays at fu
 no bare "experiment", so it scored the run's most important record — titled *Experimental Evidence* —
 as unidentified. 78 Tier-B records name "experiment"; the list missed 46. Fixed and guarded by
 `ident_vocab_selftest()`; identified-fertility-with-debt goes 3 -> 5.
+
+### 2026-08-26 — C1 production pull, D1 rank, and the title/abstract screen
+
+Keyword channel pulled 401 of a reported 400; pool = keyword ∪ citation ∪ anchors = **2,426**, of
+which 53 were found by BOTH channels and **8 anchors had to be carried in by hand** because the frame
+cannot reach them. D1 collapsed 177 version duplicates and cut a **610-record worklist**.
+
+**610 screened, coverage exact: 80 RELEVANT, 34 UNCERTAIN, 496 NOT_RELEVANT. 114 go to full text.**
+
+**The chapter's shape is now counted rather than inferred: direct arm 20 records (4 identified),
+chain arm 59 (9 identified).** The registered estimand is the minority of its own evidence base and
+identification sits in the neighbouring arm — predicted by the scope, confirmed on read records.
+
+Other results:
+- **Routing is screenable but not finishable at screen.** `arm: cannot_tell` is 1 of 80; but
+  `outcome: multiple` is 22%, against A4's predicted 23% un-routable share.
+- **The no-abstract instruction bound, though the headline looks like it did not.** Title-only and
+  abstracted records return NOT_RELEVANT at an identical 81% — the exact signature of the failure the
+  rubric prevents. It is not that failure: title-only returned RELEVANT at a HIGHER rate (15% vs 12%)
+  and `info: insufficient` fired on 80% of them against 2%.
+- **Five RELEVANT records carry no student-debt term at all**, including Nau et al. A4 found this for
+  two anchors; the screen finds five. The student-anchored exposure axis cannot reach them and they
+  arrived through the citation channel and by hand.
+- **Bypass yield measured:** `bypass_keyword_frame` delivered 6 sole-RELEVANT, the score cut 1, and
+  the other four delivered ZERO unique records despite the highest precision in the run.
