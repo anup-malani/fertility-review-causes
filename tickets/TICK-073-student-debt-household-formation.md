@@ -171,3 +171,47 @@ Rung results, against predictions recorded before the run:
 **38 browser-job records are flagged OPEN ACCESS.** Free content a script cannot have — a browser and
 thirty minutes, not a library proxy. **32 records have no route at all** (no DOI, no open location),
 listed separately because credentials cannot help with them; **three of those are J1**.
+
+### 2026-08-26 — Browser job, partial: 7 recovered, and two of them change the chapter
+
+**30 of 114 records now have a full text or abstract on disk** (23 PDFs + 7 texts), up from 23.
+
+**PMC's failure was DELIVERY, not coverage — and the fix is scriptable.** Stage 5b's PMC rung found
+4 urls and fetched 0. Every route serving a rendered artifact is defended; the routes serving
+STRUCTURED TEXT are not. `210_c3g_fetch_pmc_bioc.py` now recovers **4 of 4**, no browser needed:
+
+| route | result |
+|---|---|
+| `/pmc/articles/PMCxxxx/pdf/` | 403 |
+| `pmc.ncbi.nlm.nih.gov/articles/PMCxxxx/` via curl | **200 with a 23-word JS shell** |
+| `/pmc/utils/oa/oa.fcgi` | 404 — author manuscripts are not OA-subset |
+| Europe PMC `/fullTextXML` | 404 for 3 of 4 |
+| **NCBI BioC `/BioC_xml/`** | **200, complete structured text, 3 of 3** |
+
+A status-code check calls the shell a success and a magic-byte check calls it `route_blocked`; only
+a WORD-COUNT floor sees the content is absent. The script asserts one. **This rung belongs in the
+shared scaffold** — two requests per record, text with tables intact, which is what extraction wants
+out of a PDF anyway. Recovered: Nau et al., Addo, Houle & Warner (all anchors) and Rohlfing et al.
+
+**THE DIRECT ARM HAS AN IDENTIFIED ESTIMATE AFTER ALL, AND IT IS A NULL ON FERTILITY.**
+Robb & Schreiber (SSRN 2019), read off SSRN: B&B 2008:2012, four-year graduates only (attainment
+fixed by construction), **instrumenting loans with in-state tuition** — the same instrument Mezza
+et al. use. Significant on MARRIAGE (−1.3% per $1,000), **not significant on first birth in the four
+years after graduation**. The chapter's whole structural finding reproduced inside ONE study, one
+team, one instrument, one sample — far stronger than a count across two literatures. The paper also
+contradicts itself in the useful way: its SUBJECTIVE analysis has students naming debt as a reason
+for delaying childbearing while its empirical analysis finds no such effect. Bound the null in its
+own words: it is a null about EARLY first births (ages ~22-26), not about completed fertility.
+
+**A second reclassification:** Hua (SSRN 2024), the "Long-Run Effects of Federal Student Loans on
+Fertility", is a **calibrated heterogeneous-agent OLG model**, not an identified estimate. It finds
+loans reduce fertility — by simulation. It sits NEXT TO the empty P2 cell, not inside it.
+
+**Baek & Cho (SSRN 2024)** is the fourth policy-variation study in this frame to stop short of a
+birth (after the loan moratorium, Teacher Loan Forgiveness, and IDR payment burdens) — its outcome
+is home purchase. Its identification claim is overstated and its 71% effect sits an order of
+magnitude above the credit-panel literature; flagged, not pooled.
+
+**Still outstanding:** ~31 browser-job records, all PDF-only behind Cloudflare. Chrome renders them
+but the text cannot be extracted and the file cannot be saved from automation — those are genuinely
+a human clicking Download.
