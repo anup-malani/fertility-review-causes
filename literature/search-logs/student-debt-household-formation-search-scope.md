@@ -49,11 +49,22 @@ Research*, 61), Addo (2014, *Demography*, 193), Houle and Warner (2017, *Sociolo
 109) on returning to the parental home. **None of it estimates a birth.**
 
 The two records in the identified-fertility cell are a study of graduate *employment* and an
-unpublished dissertation. Read directly, the policy-variation cells are empty in the same way:
+unpublished dissertation. Read directly, the policy-variation cells look empty in the same way:
 loan forgiveness or cancellation × fertility returns 5 records, all of them medical debt-management
 advice and a veterinary career survey; repayment-plan reform × fertility returns 3, the same
-records; student debt × an aggregate birth rate returns 9, none on topic. **There is no natural
-experiment in student debt with a fertility outcome anywhere in the indexed literature.**
+records; student debt × an aggregate birth rate returns 9, none on topic.
+
+> **CORRECTED AT A4 (2026-08-26).** This section originally read "There is no natural experiment in
+> student debt with a fertility outcome anywhere in the indexed literature." **That is false**, and
+> the citation channel found the counterexample: *Experimental Evidence on Consumption, Saving, and
+> Family Formation Responses to Student Debt Forgiveness* (SSRN 2022, `10.2139/ssrn.4139814`), a
+> randomized evaluation of forgiveness with a family-formation outcome. `200_` missed it because its
+> policy block lacked `"debt forgiveness"` and its outcome block lacked `"family formation"`, and
+> because the record carries no indexed abstract. The surviving claim is narrower: **no published,
+> peer-reviewed policy-variation study with a fertility outcome exists; the sole candidate is an
+> uncited preprint**, and it must be retrieved and read before the chapter states a verdict. An
+> empty-cell result measured through one hand-written vocabulary block is a claim about the block,
+> not about the literature.
 
 What the direct cell does contain is a small associational body, and it is a real one: Nau, Dwyer
 and Hodson (2015, *RSSM*, 93), Min and Taylor (2018, *Demography*, 31), and four smaller works.
@@ -156,27 +167,33 @@ plant-genetics terms. The wall is real and near-empty; **the block must not be r
 - **Whether a study conditions on educational attainment.** This is C.3.g's central confound: debt is
   chosen jointly with schooling, and schooling independently lowers fertility (C.3.d, D.2.a), so a
   study that compares borrowers to non-borrowers without holding attainment fixed estimates the
-  return to college, not the burden of financing it. Only 8 records in the whole frame name
-  attainment-conditioning language anywhere in title or abstract, and the decision lives in a methods
-  section. It is a **full-text extraction field and a risk-of-bias domain**, never a screen rule.
+  return to college, not the burden of financing it. The decision lives in a methods section, so it
+  stays a **full-text extraction field and a risk-of-bias domain**, never a screen gate.
+  **REVISED AT A4:** the declaration was made on 8 records at query level and was too strong.
+  Attainment-conditioning language appears in **11 of the 39 in-frame records (28%)**, and 6.4% of
+  Tier B. That is a usable positive PRIOR at screen — the same correction A.17's Wall 5 took, where
+  "unenforceable" turned out to mean "enforceable with an `INSUFFICIENT_INFO` bucket". The screen
+  carries a flag; the gate still lives at full text.
 
 ## Estimand cells
 
 | Cell | Exposure | Outcome | Expected population |
 |---|---|---|---|
 | **P1** | Own education debt (balance, incidence, payment) | Births, first birth, completed fertility, childlessness | **Arm 1's core.** 4–6 associational studies; zero identified |
-| **P2** | Policy variation in debt (forgiveness, repayment reform, loan limits, tuition regime) | Any fertility outcome | **Measured empty.** Reported as empty, not omitted |
+| **P2** | Policy variation in debt (forgiveness, repayment reform, loan limits, tuition regime) | Any fertility outcome | **One candidate, unpublished** (A4 correction). No published study; an SSRN preprint must be read |
 | **P3** | Own education debt | Marriage, cohabitation, union formation | Link 1; identified; Addo, Bozick–Estacion, Gicheva |
 | **P4** | Own education debt | Homeownership, housing tenure, residential independence | Link 1; identified; Mezza et al., Houle–Warner, Dettling–Hsu, Goodman–Isen–Yannelis |
 | **P5** | Own education debt | Occupational choice, earnings, savings — the resource channel itself | Off-outcome; retained as mechanism evidence only (Rothstein–Rouse) |
 | **P6** | Own education debt | Fertility *intentions and expectations* | Small; a stated-preference arm, kept separate from realized fertility |
 | **P7** | Debt in a non-US financing regime | Any of the above | Thin and named: England (housing tenure), Japan (family formation), New Zealand |
 
-**P2 being empty is a result, not a gap to apologise for.** The cleanest identification this
-hypothesis could have — a forgiveness episode, a repayment-plan discontinuity, a tuition-regime
-change — does not exist with a fertility outcome. That fact bounds the GRADE rating before a single
-full text is read, and it is the chapter's most transportable finding for anyone proposing to test
-this hypothesis next.
+**P2 being all but empty is a result, not a gap to apologise for** — but state it in the form that
+survived A4. The cleanest identification this hypothesis could have — a forgiveness episode, a
+repayment-plan discontinuity, a tuition-regime change — exists in the published literature nowhere,
+and outside it exactly once, as an uncited 2022 SSRN preprint reporting a randomized forgiveness
+evaluation with a family-formation outcome. That still bounds the GRADE rating before a full text is
+read, and it remains the chapter's most transportable finding for anyone proposing to test this
+hypothesis next: the design is available, cheap and almost untried.
 
 **P6 is kept separate on the D.3.b precedent**, where folding intentions into realized fertility was
 what made the pool incoherent.
@@ -304,3 +321,26 @@ the **negative control** (*Student loan forgiveness and the timing of first birt
 independently corroborating the measured-empty P2 cell; the **SCF serial** could not be anchored,
 confirming the exposure-series retrieval risk; and the **only review-shaped record in the frame** was
 refused by the author gate, confirming that Channel 1 of the cold-start bootstrap is empty here.
+
+## A4 addendum (2026-08-26)
+
+Tier A is 21 seeding anchors; **Tier B is 2,071 records** one hop out, backward and forward
+(`202_c3g_tier_ab_frame.py`). No seed truncated, so no fraction here is a high-citation-head
+artifact. Only **39 records (1.9%)** of Tier B sit inside the production query frame — the two
+channels barely overlap, which is what makes the recall measurement meaningful.
+
+**The frame decision is now settled on evidence.** The production frame — debt × (fertility ∪ union ∪
+housing) — reaches 13 of 21 anchors and 13 of 15 empirical ones. A **fertility-only frame reaches 5
+of 21**, and the eight empirical anchors it loses are *every identified study in the chapter*
+(Mezza et al., Addo, Gicheva, Goodman–Isen–Yannelis, Houle–Warner and three more). Restricting
+retrieval to the chapter's registered outcome would retrieve none of its identified evidence.
+
+**Two anchors are unreachable by the frame at all**, and one is Nau et al. — the most-cited work in
+the primary cell. Its OpenAlex record has no abstract, and its title says *Debt*, not *student debt*,
+and *baby*, not any outcome term. This is the priced cost of student-anchoring the exposure to defeat
+the 1,389-record sovereign-debt homonym: the anchoring that defeats the homonym also loses the canon,
+at 2 of 15. Tier A therefore enters the screen **by hand**, never through the frame.
+
+**Routing visibility, measured:** within the frame, 77% of records carry exactly one outcome axis and
+are routable at screen; 23% carry two or three and go to full text. The scope's claim holds, on a
+base of 39 — weak confirmation, and the 23% is the number to watch.

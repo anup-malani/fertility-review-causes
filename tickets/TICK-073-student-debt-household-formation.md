@@ -9,7 +9,7 @@
 
 ## Acceptance criteria
 - [x] 2. Search strategy and scope drafted — DRAFT 2026-08-26, not frozen (Calls 1 and 5 open)
-- [ ] 3. Literature search and AI screening, both phases (§5.1) — A3 anchors done 2026-08-26; A4 frame next
+- [ ] 3. Literature search and AI screening, both phases (§5.1) — A3 + A4 done 2026-08-26; two-stage screen next
 - [ ] 4. RA title/abstract review
 - [ ] 5. Full-text retrieval
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
@@ -61,3 +61,34 @@ floor leaves no trace in these logs.
 
 Also corrected: A.17's inherited `startswith("PRIMARY_")` counter, which reports 0 empirical anchors
 while carrying twelve. It disengaged rather than failing.
+
+### 2026-08-26 — Stage A4 (Tier A/B citation frame), done
+
+Tier A 21 seeds, **Tier B 2,071 records**, no truncation on any seed. Only 39 (1.9%) of Tier B sit
+inside the production query frame — the query and citation channels barely overlap, which is what
+makes the recall measurement meaningful.
+
+**THE SCOPE'S CENTRAL FINDING IS PARTLY OVERTURNED, by the channel built to contradict it.** P2 —
+policy variation with a fertility outcome — is NOT empty. The citation channel surfaced *Experimental
+Evidence on Consumption, Saving, and Family Formation Responses to Student Debt Forgiveness* (SSRN
+2022, 10.2139/ssrn.4139814, 1 cite, three independent seeds): a randomized forgiveness evaluation
+with a family-formation outcome, i.e. exactly the study the scope said did not exist. `200_` missed
+it because its policy block lacked "debt forgiveness" and its outcome block lacked "family
+formation", and because the record has no indexed abstract. Scope corrected in place. The surviving
+claim: **no PUBLISHED policy-variation study with a fertility outcome; one uncited preprint**, which
+must be retrieved before any verdict.
+
+**The frame decision is settled on evidence.** Production frame reaches 13/21 anchors (13/15
+empirical); a fertility-only frame reaches 5/21 and loses *every identified study in the chapter*.
+
+**Two anchors are unreachable by the frame**, one of them Nau et al., the most-cited primary-cell
+work — no abstract, and a title saying "Debt" and "baby". The priced cost of student-anchoring the
+exposure against the sovereign-debt homonym: 2 of 15. Tier A enters the screen by hand.
+
+**Scope revised:** the attainment confound is 28% visible in-frame, not the ~invisible the scope
+declared from 8 query-level records. Screen carries a flag; the gate stays at full text.
+
+**A diagnostic refuted by its own output:** `IDENT_TERMS` had "natural experiment" and "randomi" but
+no bare "experiment", so it scored the run's most important record — titled *Experimental Evidence* —
+as unidentified. 78 Tier-B records name "experiment"; the list missed 46. Fixed and guarded by
+`ident_vocab_selftest()`; identified-fertility-with-debt goes 3 -> 5.
