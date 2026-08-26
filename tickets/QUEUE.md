@@ -46,7 +46,6 @@ tickets can be worked concurrently.
 
 | Ticket | Title | Assigned | Parallel-safe |
 |--------|-------|----------|---------------|
-| [TICK-073](TICK-073-student-debt-household-formation.md) | C.3.g Student Debt and Household Formation Constraint | Shravan | yes |
 | [TICK-072](TICK-072-art-access-fertility-recovery.md) | A.17 Assisted Reproductive Technology Access | Shravan | yes |
 | [TICK-071](TICK-071-dating-apps-union-formation-friction.md) | A.24 Dating Apps and Union-Formation Friction | Shravan | yes |
 | [TICK-070](TICK-070-twinning-multiple-births.md) | A.12 Twinning Rates and Multiple Births | Shravan | yes |
@@ -78,6 +77,7 @@ tickets can be worked concurrently.
 
 | Ticket | Title | Owner | Branch (the claim) | Claimed (UTC) | Touches |
 |--------|-------|-------|--------------------|---------------|---------|
+| [TICK-073](TICK-073-student-debt-household-formation.md) | C.3.g Student Debt and Household Formation Constraint — opened 2026-08-26 as the next-smallest hypothesis by measured literature size (48 records in the exposure x fertility cell) | Shravan | `073-student-debt-household-formation` | 2026-08-26T15:25:24Z | `literature/search-logs/student-debt-household-formation-*`, `extraction/student-debt-household-formation-*`, `output/chapters/student-debt-household-formation.md`, `source/build/goldset/199*` |
 | [TICK-068](TICK-068-microplastics-pfas-reproductive.md) | B.6. Microplastics and PFAS in Reproductive Tissues — both chapter drafts on the PROTOCOL §6 template; last commit 2026-08-14 | Shravan | `068-microplastics-pfas-reproductive` | 2026-08-14T14:23:49Z | `literature/search-logs/microplastics-pfas-reproductive-*`, `extraction/microplastics-pfas-reproductive-*`, `output/chapters/microplastics-pfas-reproductive.md`, `source/build/goldset/13*` |
 | [TICK-067](TICK-067-automate-ticket-claim-loop.md) | Automate the QUEUE.md board move in `scripts/ticket.sh claim` — **built and verified on its branch, unmerged.** This is the fix for the defect that left every row below missing from this board | Shravan | `067-automate-ticket-claim-loop` | 2026-08-13T20:13:46Z | `scripts/ticket.sh`, `tickets/README.md`, `tickets/opening-a-chapter-ticket.md` |
 | [TICK-066](TICK-066-antidepressants-ssri-subfecundity.md) | B.7. Antidepressants and Pharmacological Subfecundity — chapter and verdict drafted; carries a script-numbering flag; last commit 2026-08-12 | Shravan | `066-antidepressants-ssri-subfecundity` | 2026-08-12T19:28:10Z | `literature/search-logs/antidepressants-ssri-subfecundity-*`, `extraction/antidepressants-ssri-subfecundity-*`, `output/chapters/antidepressants-ssri-subfecundity.md` |
