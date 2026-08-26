@@ -11,7 +11,7 @@
 - [x] 2. Search strategy and scope drafted — DRAFT 2026-08-26, not frozen (Calls 1 and 5 open)
 - [x] 3. Literature search and AI screening, both phases (§5.1) — C1 + D1 + D2/D3 done 2026-08-26; 610 screened, 114 forward
 - [ ] 4. RA title/abstract review — 34 UNCERTAIN + the 22% multiple-outcome routing residue
-- [ ] 5. Full-text retrieval
+- [ ] 5. Full-text retrieval — 114 records; the P2 candidate retrieved 2026-08-26, PDF is a browser-job
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
 - [ ] 7. Extraction to `extraction/student-debt-household-formation.csv`, RA verifies a random 10%
 - [ ] 8. Risk-of-bias assessment per study
@@ -117,3 +117,28 @@ Other results:
   arrived through the citation channel and by hand.
 - **Bypass yield measured:** `bypass_keyword_frame` delivered 6 sole-RELEVANT, the score cut 1, and
   the other four delivered ZERO unique records despite the highest precision in the run.
+
+### 2026-08-26 — P2 retrieval: A4's reversal is itself reversed
+
+Retrieved the record that A4 said overturned the chapter's central empty-cell finding. It does not.
+
+*Experimental Evidence on ... Family Formation Responses to Student Debt Forgiveness* (SSRN 2022) is
+a **hypothetical vignette** — 1,053 participants asked to IMAGINE forgiveness of $5k/$10k/$20k/all
+and report intended behaviour — and it is the **working version of the Socius 2023 article** already
+screened RELEVANT in batch 1 (same four authors, same N, same four conditions). Its named outcomes
+are emergency savings and a housing down payment; neither abstract names a birth.
+
+**The claim, third and current form: no study in the frame estimates the effect of a debt-policy
+change on REALIZED fertility.** Tested now on the query channel, the citation channel, and a full
+abstract. The record moves P2 → P6.
+
+Three real policy-variation studies DO sit in this frame — the 2020 loan moratorium, Teacher Loan
+Forgiveness (RCT), IDR payment burdens — and every one estimates a labour-market or repayment
+outcome. The instruments exist and have been used; nobody has pointed them at a birth.
+
+Two things carried forward:
+- **D1's duplicate collapse has a hole:** a version pair whose title changed between preprint and
+  publication is invisible to a normalized-title match. Belongs in the shared scaffold.
+- **Full text is a browser-job**, not a proxy job: WUSTL's repository and SAGE both 403 on
+  open-access content (Cloudflare), while the landing page serves the whole abstract. Outstanding
+  question for the full text: does the instrument carry a CHILDBEARING item at all?

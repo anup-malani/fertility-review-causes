@@ -54,17 +54,21 @@ loan forgiveness or cancellation × fertility returns 5 records, all of them med
 advice and a veterinary career survey; repayment-plan reform × fertility returns 3, the same
 records; student debt × an aggregate birth rate returns 9, none on topic.
 
-> **CORRECTED AT A4 (2026-08-26).** This section originally read "There is no natural experiment in
-> student debt with a fertility outcome anywhere in the indexed literature." **That is false**, and
-> the citation channel found the counterexample: *Experimental Evidence on Consumption, Saving, and
-> Family Formation Responses to Student Debt Forgiveness* (SSRN 2022, `10.2139/ssrn.4139814`), a
-> randomized evaluation of forgiveness with a family-formation outcome. `200_` missed it because its
-> policy block lacked `"debt forgiveness"` and its outcome block lacked `"family formation"`, and
-> because the record carries no indexed abstract. The surviving claim is narrower: **no published,
-> peer-reviewed policy-variation study with a fertility outcome exists; the sole candidate is an
-> uncited preprint**, and it must be retrieved and read before the chapter states a verdict. An
-> empty-cell result measured through one hand-written vocabulary block is a claim about the block,
-> not about the literature.
+> **CORRECTED TWICE (2026-08-26). Read the third version.** This section originally read "There is
+> no natural experiment in student debt with a fertility outcome anywhere in the indexed
+> literature" — asserted from one hand-written vocabulary block. **A4's citation channel appeared to
+> refute it** by surfacing *Experimental Evidence on Consumption, Saving, and Family Formation
+> Responses to Student Debt Forgiveness* (SSRN 2022, `10.2139/ssrn.4139814`), and the claim was
+> narrowed to "no PUBLISHED study; one uncited preprint". **Retrieval then refuted the refutation.**
+> The preprint is a hypothetical VIGNETTE — participants asked to *imagine* forgiveness and report
+> intended behaviour — and it is the working version of a record the query had already found: the
+> *Socius* 2023 article (`10.1177/23780231231196778`), same four authors, same N = 1,053, same four
+> conditions. Its named outcomes are emergency savings and a housing down payment, not births.
+>
+> **The claim in its current, checked form: no study in the frame estimates the effect of a
+> debt-policy change on REALIZED fertility.** One randomized vignette on stated intentions exists and
+> belongs in P6. This has now been tested on the query channel, the citation channel and a full
+> abstract. Full detail in `student-debt-household-formation-p2-retrieval-log.md`.
 
 What the direct cell does contain is a small associational body, and it is a real one: Nau, Dwyer
 and Hodson (2015, *RSSM*, 93), Min and Taylor (2018, *Demography*, 31), and four smaller works.
@@ -180,20 +184,26 @@ plant-genetics terms. The wall is real and near-empty; **the block must not be r
 | Cell | Exposure | Outcome | Expected population |
 |---|---|---|---|
 | **P1** | Own education debt (balance, incidence, payment) | Births, first birth, completed fertility, childlessness | **Arm 1's core.** 4–6 associational studies; zero identified |
-| **P2** | Policy variation in debt (forgiveness, repayment reform, loan limits, tuition regime) | Any fertility outcome | **One candidate, unpublished** (A4 correction). No published study; an SSRN preprint must be read |
+| **P2** | Policy variation in debt (forgiveness, repayment reform, loan limits, tuition regime) | Any **realized** fertility outcome | **EMPTY**, confirmed on two channels plus retrieval. The one candidate turned out to be a stated-intention vignette and moved to P6 |
 | **P3** | Own education debt | Marriage, cohabitation, union formation | Link 1; identified; Addo, Bozick–Estacion, Gicheva |
 | **P4** | Own education debt | Homeownership, housing tenure, residential independence | Link 1; identified; Mezza et al., Houle–Warner, Dettling–Hsu, Goodman–Isen–Yannelis |
 | **P5** | Own education debt | Occupational choice, earnings, savings — the resource channel itself | Off-outcome; retained as mechanism evidence only (Rothstein–Rouse) |
 | **P6** | Own education debt | Fertility *intentions and expectations* | Small; a stated-preference arm, kept separate from realized fertility |
 | **P7** | Debt in a non-US financing regime | Any of the above | Thin and named: England (housing tenure), Japan (family formation), New Zealand |
 
-**P2 being all but empty is a result, not a gap to apologise for** — but state it in the form that
-survived A4. The cleanest identification this hypothesis could have — a forgiveness episode, a
-repayment-plan discontinuity, a tuition-regime change — exists in the published literature nowhere,
-and outside it exactly once, as an uncited 2022 SSRN preprint reporting a randomized forgiveness
-evaluation with a family-formation outcome. That still bounds the GRADE rating before a full text is
-read, and it remains the chapter's most transportable finding for anyone proposing to test this
-hypothesis next: the design is available, cheap and almost untried.
+**P2 being empty is a result, not a gap to apologise for** — and it is now the version that survived
+being overturned and restored. The cleanest identification this hypothesis could have — a forgiveness
+episode, a repayment-plan discontinuity, a tuition-regime change, estimated against births — does not
+exist anywhere in the frame. The nearest thing to it is a randomized *vignette* asking borrowers to
+imagine forgiveness, whose reported outcomes are savings and a housing down payment. That bounds the
+GRADE rating before a full text is read, and it remains the chapter's most transportable finding for
+whoever tests this hypothesis next: the design is available, cheap, and almost untried.
+
+Note what the surrounding literature shows about why. Three real policy-variation studies sit in this
+frame — the 2020 federal loan **moratorium** (*Management Science* 2025), **Teacher Loan
+Forgiveness** with an RCT (*JOLE* 2024), and **IDR payment burdens** (2024) — and every one of them
+estimates a labour-market or repayment outcome. The instruments exist and have been used; nobody has
+pointed them at a birth.
 
 **P6 is kept separate on the D.3.b precedent**, where folding intentions into realized fertility was
 what made the pool incoherent.
@@ -344,3 +354,11 @@ at 2 of 15. Tier A therefore enters the screen **by hand**, never through the fr
 **Routing visibility, measured:** within the frame, 77% of records carry exactly one outcome axis and
 are routable at screen; 23% carry two or three and go to full text. The scope's claim holds, on a
 base of 39 — weak confirmation, and the 23% is the number to watch.
+
+## Retrieval addendum (2026-08-26)
+
+The P2 candidate was retrieved and it reversed A4's reversal — see
+`student-debt-household-formation-p2-retrieval-log.md`. Two operational consequences: the SSRN
+preprint and the *Socius* article are **one study** and collapse at extraction, and **D1's
+duplicate collapse has a hole** — a version pair whose title changed between preprint and
+publication is invisible to a normalized-title match.
