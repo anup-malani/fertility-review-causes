@@ -15,10 +15,10 @@
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
 - [ ] 7. Extraction to `extraction/student-debt-household-formation.csv`, RA verifies a random 10%
 - [ ] 8. Risk-of-bias assessment per study
-- [ ] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise
-- [ ] 10. Demographic significance against PM / FDT / SDT
-- [ ] 11. GRADE rating, 3 independent raters
-- [ ] 12. Chapter draft on the §6 template
+- [x] 9. Narrative synthesis — no pooling: a null, an association and a simulation do not share an estimand
+- [x] 10. Demographic significance — SDT NEGLIGIBLE (max 4.2%); PM/FDT NOT ASSESSED (no exposure)
+- [ ] 11. GRADE — VERY LOW for SDT, ONE rater; the 3-rater requirement is open
+- [x] 12. Chapter draft on the three-layer template — INTERIM, all seven mandatory sentences present
 - [ ] 13. RA lay-readability check
 - [ ] 14. PI review and sign-off
 
@@ -215,3 +215,36 @@ magnitude above the credit-panel literature; flagged, not pooled.
 **Still outstanding:** ~31 browser-job records, all PDF-only behind Cloudflare. Chrome renders them
 but the text cannot be extracted and the file cannot be saved from automation — those are genuinely
 a human clicking Download.
+
+### 2026-08-26 — INTERIM CHAPTER DRAFTED
+
+`output/chapters/student-debt-household-formation.md`, ~4,600 words, all seven mandatory sentences
+present, written on **30 of 114 wanted full texts (26%)** and **1 of 4 identified direct-arm records**.
+
+**SDT verdict NEGLIGIBLE.** Two bounds, both computed by `211_c3g_demographic_significance.py` from
+the live World Bank US TFR series:
+- **66.6% of the 1965–2024 US decline predates the exposure** (TFR 2.913 → 2.056 → 1.627; decline
+  1.286 children). B.7 reached 67.6% by the same route — the arithmetic is not chapter-specific, it
+  is what a post-2000 exposure does against a 1965 baseline.
+- **The most generous arithmetic the strongest association supports reaches 4.2%**, and that row
+  assigns every borrower the effect estimated for borrowers above $50,000. The defensible rows are
+  0.2–0.3%.
+
+**GRADE SDT = VERY LOW**, three named downgrades (indirectness, imprecision, risk of bias). ONE
+rater; the requirement stays open. PM and FDT NOT ASSESSED — absence of the exposure, not of
+evidence.
+
+**The chapter's spine is a single study.** Robb & Schreiber instrument loans with in-state tuition
+among four-year graduates and find marriage down 1.3% per $1,000 and **no significant effect on first
+birth**. One team, one instrument, one sample, two outcomes — the identified effect lands on the
+borrowed outcome and not the registered one. That is stronger than any count across two literatures.
+
+**The mechanism fails a test in its own data:** in Nau et al.'s same models on the same women,
+credit-card debt and mortgages are POSITIVELY associated with the transition to motherhood while
+student loans are negative. A pure resource constraint predicts one sign for all three.
+
+Two process notes. The demsig table was hand-typed first and carried **three wrong cells** (0.0043
+for 0.0039, 0.0541 for 0.0542, 35.7% for 35.6%) with the right structure — the A.17 error, caught by
+diffing against the computed JSON and now generated from it. And §5.1 first combined a keyword-frame
+count with a citation-frame count in one sentence as though they shared a denominator; corrected to
+attribute each to its own frame.
