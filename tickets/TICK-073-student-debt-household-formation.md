@@ -1,5 +1,5 @@
 # TICK-073: C.3.g Student Debt and Household Formation Constraint
-**Status:** open
+**Status:** in-progress
 **Assigned:** Shravan
 **Hypothesis:** `student-debt-household-formation` — HYPOTHESES-v5.md §C.3.g
 **Parallel-safe:** yes
