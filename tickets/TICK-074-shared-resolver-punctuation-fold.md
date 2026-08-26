@@ -1,5 +1,5 @@
 # TICK-074: Shared resolver — fold apostrophes and dashes before the ASCII strip
-**Status:** open
+**Status:** in-progress
 **Assigned:** Shravan
 **Hypothesis:** n/a — shared scaffold defect found on C.3.g (TICK-073)
 **Parallel-safe:** yes
