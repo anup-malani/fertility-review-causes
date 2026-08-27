@@ -1,0 +1,244 @@
+{
+ "meta": {
+  "bucket_rejected_on_title_alone": 165,
+  "re_testable": 25,
+  "coverage_pct_of_bucket": 15.2,
+  "confirmed": 22,
+  "revised": 3,
+  "revised_into_a_primary_cell": 1,
+  "caveat": "A 15% audit of the bucket, limited by what Crossref holds. It can show the rule failing; it cannot clear the 140 records that stayed invisible."
+ },
+ "reread": [
+  {
+   "openalex": "W2972310726",
+   "doi": "10.2139/ssrn.3446018",
+   "title": "The Constitution of Parenthood",
+   "prior_verdict": "NOT_RELEVANT",
+   "prior_route": "OFF_OTHER",
+   "outcome_of_reread": "CONFIRMED",
+   "why": "Recovered abstract confirms the title-based verdict."
+  },
+  {
+   "openalex": "W1591887672",
+   "doi": "10.2139/ssrn.2420716",
+   "title": "Roadblocks on the Road to Grandma's House: Fertility Consequences of Delayed Retirement",
+   "prior_verdict": "NOT_RELEVANT",
+   "prior_route": "OFF_CHILDCARE_C2a",
+   "outcome_of_reread": "CONFIRMED",
+   "why": "GOLD RECORD, blindly rejected by the screen, and the recovered abstract CONFIRMS the rejection: it exploits a decade of Italian pension reforms that lengthened the grandparental generation's working horizon, treating that as a negative shock to informal childcare SUPPLY. The exposure is the grandmother's availability, not the arrangement. An independent source vindicating a blinded rejection of a hand-picked anchor."
+  },
+  {
+   "openalex": "W4288673708",
+   "doi": "10.2139/ssrn.3428855",
+   "title": "Fertility Cost, Intergenerational Labor Division, and Female Employment",
+   "prior_verdict": "NOT_RELEVANT",
+   "prior_route": "OFF_CHILDCARE_C2a",
+   "outcome_of_reread": "CONFIRMED",
+   "why": "Recovered abstract confirms the title-based verdict."
+  },
+  {
+   "openalex": "W2615329070",
+   "doi": "10.2139/ssrn.2964800",
+   "title": "Division of Domestic Labour and the Lowest-Low Fertility in South Korea",
+   "prior_verdict": "NOT_RELEVANT",
+   "prior_route": "OFF_NORMS_D2b",
+   "outcome_of_reread": "REVISED",
+   "new_verdict": "UNCERTAIN",
+   "new_route": "PRIMARY_EXTENDED_COUPLE",
+   "why": "The recovered abstract shows the division of domestic labour is measured with HUSBANDS, PARENTS AND PARENTS-IN-LAW against Korean women's fertility intentions and behaviour. The in-law term makes it an extended-arm record, not simply D.2.a's gender-equity story as the title suggested."
+  },
+  {
+   "openalex": "W3208887223",
+   "doi": "10.2139/ssrn.3866376",
+   "title": "Grandparental Childcare, Maternal Labour Force Participation, and Birth of the Second Child: Evidence from China",
+   "prior_verdict": "NOT_RELEVANT",
+   "prior_route": "OFF_CHILDCARE_C2a",
+   "outcome_of_reread": "CONFIRMED",
+   "why": "Confirms OFF_CHILDCARE_C2a, and the design is stronger than the title showed: endogenous switching probit correcting selection and endogeneity on grandparental childcare and second birth in China."
+  },
+  {
+   "openalex": "W2106312356",
+   "doi": "10.2139/ssrn.890298",
+   "title": "Child Care and Parental Leave in the Nordic Countries: A Model to Aspire to?",
+   "prior_verdict": "NOT_RELEVANT",
+   "prior_route": "OFF_CHILDCARE_C2a",
+   "outcome_of_reread": "CONFIRMED",
+   "why": "Recovered abstract confirms the title-based verdict."
+  },
+  {
+   "openalex": "W2130191474",
+   "doi": "10.2139/ssrn.1049381",
+   "title": "Time Allocation between Work and Family Over the Life-Cycle: A Comparative Gender Analysis of Italy, France, Sweden and the United States",
+   "prior_verdict": "NOT_RELEVANT",
+   "prior_route": "OFF_OTHER",
+   "outcome_of_reread": "REVISED",
+   "new_verdict": "UNCERTAIN",
+   "new_route": "OFF_OUTCOME",
+   "why": "The abstract makes HOUSEHOLD COMPOSITION over the life course the exposure and the gender division of time the outcome. Arrangement-as-exposure with a non-fertility outcome, not an off-topic time-use paper."
+  },
+  {
+   "openalex": "W3163582763",
+   "doi": "10.2139/ssrn.3849900",
+   "title": "Who Cares: Deciphering China's Female Employment Paradox",
+   "prior_verdict": "NOT_RELEVANT",
+   "prior_route": "OFF_OUTCOME_LABOUR_SUPPLY",
+   "outcome_of_reread": "CONFIRMED",
+   "why": "Confirms OFF_CHILDCARE_C2a; propensity-score matching correcting for women's fertility choices. Another endogeneity-aware C.2.a design."
+  },
+  {
+   "openalex": "W4250409714",
+   "doi": "10.2139/ssrn.3161597",
+   "title": "Conceiving Parents",
+   "prior_verdict": "NOT_RELEVANT",
+   "prior_route": "OFF_OTHER",
+   "outcome_of_reread": "CONFIRMED",
+   "why": "Recovered abstract confirms the title-based verdict."
+  },
+  {
+   "openalex": "W4289546930",
+   "doi": "10.2139/ssrn.4175413",
+   "title": "Expanding State Parent Registry Laws",
+   "prior_verdict": "NOT_RELEVANT",
+   "prior_route": "OFF_OTHER",
+   "outcome_of_reread": "CONFIRMED",
+   "why": "Recovered abstract confirms the title-based verdict."
+  },
+  {
+   "openalex": "W3121550330",
+   "doi": "10.2139/ssrn.2088425",
+   "title": "The Quality of Life and Mortality Risk of Elderly People in Rural China: The Role of Family Support",
+   "prior_verdict": "NOT_RELEVANT",
+   "prior_route": "ELDER_SUPPORT",
+   "outcome_of_reread": "CONFIRMED",
+   "why": "Recovered abstract confirms the title-based verdict."
+  },
+  {
+   "openalex": "W4285525339",
+   "doi": "10.2139/ssrn.3829386",
+   "title": "College as a Marriage Market",
+   "prior_verdict": "NOT_RELEVANT",
+   "prior_route": "OFF_OTHER",
+   "outcome_of_reread": "CONFIRMED",
+   "why": "Confirms C.7.a's, and it uses ADMISSION DISCONTINUITIES on Norwegian data to separate enrolment from selection in marital matching. Report to C.7.a as a design note."
+  },
+  {
+   "openalex": "W7138175179",
+   "doi": "10.2139/ssrn.6430167",
+   "title": "Delayed Retirement, Intergenerational Childcare, and the Equilibrium Fertility Rate: An Analysis Based on an Extended OLG Model",
+   "prior_verdict": "NOT_RELEVANT",
+   "prior_route": "OFF_CHILDCARE_C2a",
+   "outcome_of_reread": "CONFIRMED",
+   "why": "Recovered abstract confirms the title-based verdict."
+  },
+  {
+   "openalex": "W3014480325",
+   "doi": "10.2139/ssrn.3518680",
+   "title": "How Do Children Affect the Need to Save for Retirement?",
+   "prior_verdict": "NOT_RELEVANT",
+   "prior_route": "OFF_OTHER",
+   "outcome_of_reread": "CONFIRMED",
+   "why": "Confirms NOT_RELEVANT, but it is the eighth record framing the arrangement from the PARENTS' budget: children consume a substantial share of household income WHILE LIVING AT HOME, against parents' retirement saving."
+  },
+  {
+   "openalex": "W4400764185",
+   "doi": "10.21203/rs.3.rs-4612417/v1",
+   "title": "The Long-term Consequences of Fertility on the Elderly\u2019s Labor Supply",
+   "prior_verdict": "NOT_RELEVANT",
+   "prior_route": "OFF_OTHER",
+   "outcome_of_reread": "CONFIRMED",
+   "why": "Recovered abstract confirms the title-based verdict."
+  },
+  {
+   "openalex": "W4415593245",
+   "doi": "10.21203/rs.3.rs-7261191/v1",
+   "title": "How Does Digital Life Affect Family Fertility Behavior? \u2014 An Analysis Based on CFPS Data of Chinese Families with a Second Child",
+   "prior_verdict": "NOT_RELEVANT",
+   "prior_route": "OFF_OTHER",
+   "outcome_of_reread": "CONFIRMED",
+   "why": "Recovered abstract confirms the title-based verdict."
+  },
+  {
+   "openalex": "W7171730028",
+   "doi": "10.2139/ssrn.6994300",
+   "title": "Marriage Without Births: A Diaspora Margin of Fertility Decline\u2014\u2014Evidence from Chinese and Korean Americans, 2008\u20132024",
+   "prior_verdict": "NOT_RELEVANT",
+   "prior_route": "OFF_OTHER",
+   "outcome_of_reread": "CONFIRMED",
+   "why": "Recovered abstract confirms the title-based verdict."
+  },
+  {
+   "openalex": "W7171722536",
+   "doi": "10.2139/ssrn.6820498",
+   "title": "Family Formation under a Subjective Future Constraint: Well-Being, Optimism, and Population Economics",
+   "prior_verdict": "NOT_RELEVANT",
+   "prior_route": "OFF_OTHER",
+   "outcome_of_reread": "REVISED",
+   "new_verdict": "UNCERTAIN",
+   "new_route": "THEORY",
+   "why": "The abstract places HOUSEHOLD FORMATION and housing markets among the margins the paper synthesises, and proposes subjective future evaluation as the underdeveloped one. Theory bearing on this chapter's link 1, and a D.3.c seam."
+  },
+  {
+   "openalex": "W4366068298",
+   "doi": "10.2139/ssrn.4419829",
+   "title": "Happiness in Old Age: The Daughter Connection",
+   "prior_verdict": "NOT_RELEVANT",
+   "prior_route": "ELDER_SUPPORT",
+   "outcome_of_reread": "CONFIRMED",
+   "why": "Recovered abstract confirms the title-based verdict."
+  },
+  {
+   "openalex": "W7151845961",
+   "doi": "10.2139/ssrn.6531873",
+   "title": "Who Can Afford to Stay Home After Childbirth: Socioeconomic Disparities in the Child Penalty in China",
+   "prior_verdict": "NOT_RELEVANT",
+   "prior_route": "OFF_OUTCOME_LABOUR_SUPPLY",
+   "outcome_of_reread": "CONFIRMED",
+   "why": "Recovered abstract confirms the title-based verdict."
+  },
+  {
+   "openalex": "W1496279386",
+   "doi": "10.2139/ssrn.432720",
+   "title": "Families with Elderly: Are They 'Empty Nests'",
+   "prior_verdict": "NOT_RELEVANT",
+   "prior_route": "ELDER_SUPPORT",
+   "outcome_of_reread": "CONFIRMED",
+   "why": "Recovered abstract confirms the title-based verdict."
+  },
+  {
+   "openalex": "W4313157277",
+   "doi": "10.2139/ssrn.4278871",
+   "title": "Intended and Unintended Effects of State Tuition Benefits to Undocumented Students: Institution and Individual-Level Evidence",
+   "prior_verdict": "NOT_RELEVANT",
+   "prior_route": "OFF_OTHER",
+   "outcome_of_reread": "CONFIRMED",
+   "why": "Confirms C.3.b's ownership, but names an identified fertility design: staggered state adoption of in-state tuition for undocumented students, with LOWER LONG-RUN FERTILITY as an outcome. Report to C.3.b."
+  },
+  {
+   "openalex": "W2940922542",
+   "doi": "10.2139/ssrn.3357693",
+   "title": "Marriage Market Dynamics, Gender, and the Age Gap",
+   "prior_verdict": "NOT_RELEVANT",
+   "prior_route": "OFF_OTHER",
+   "outcome_of_reread": "CONFIRMED",
+   "why": "Recovered abstract confirms the title-based verdict."
+  },
+  {
+   "openalex": "W7161632559",
+   "doi": "10.2139/ssrn.6793062",
+   "title": "The evolution of civic capital in rural China: Sons and Voting in village elections",
+   "prior_verdict": "NOT_RELEVANT",
+   "prior_route": "OFF_OTHER",
+   "outcome_of_reread": "CONFIRMED",
+   "why": "Recovered abstract confirms the title-based verdict."
+  },
+  {
+   "openalex": "W7134953956",
+   "doi": "10.2139/ssrn.6226899",
+   "title": "Health Sharenting and a Child\u2019s Right to Privacy",
+   "prior_verdict": "NOT_RELEVANT",
+   "prior_route": "OFF_OTHER",
+   "outcome_of_reread": "CONFIRMED",
+   "why": "Recovered abstract confirms the title-based verdict."
+  }
+ ]
+}
