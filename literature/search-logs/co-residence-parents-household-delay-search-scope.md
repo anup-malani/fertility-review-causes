@@ -588,6 +588,56 @@ were sourced with vocabulary that overlaps the cause axis. **100% recall on 12 p
 anchors is a weak guarantee, and should be read as "no known miss" rather than as a recall estimate.**
 The screen's own outputs, and the RA gate, remain the real test.
 
+## 18. The frame, and a second recall test the gold set could not run
+
+`224_a23_pull_frame.py` pulled the adopted query in full. **1,715 records, 1,570 after
+normalized-title dedup**, 145 duplicates collapsed. All 12 gold anchors are present, along with 23 of
+the 33 gated anchors — the missing ten are the reclassified off-cell anchors and decoys, which is what
+should happen.
+
+**240 records (15.3%) have no indexed abstract.** That bucket is sized here rather than discovered
+during screening, because a screener who returns NOT_RELEVANT on a title-only record has recorded
+"not visible" as "not relevant" — the refusals-read-as-zeros failure in another costume. Those records
+take `INSUFFICIENT_INFO` unless the title alone is decisive.
+
+### An independent-channel recall test
+
+Gold recall is measured on 12 partly non-independent anchors, which §17 already flagged as weak. The
+frame and the 3,793-record snowball pool were built by genuinely independent channels and overlap by
+only **8.1%**, so the pool can be used as a second, harder test: how many pool records that look
+on-topic on their titles does the query fail to reach?
+
+Twelve pool records pair an exposure and a fertility term in the title. **The query reaches ten and
+misses two.** Both are missed for the same reason — they word the exposure as *household structure* or
+*living arrangement*, neither of which is in the cause axis.
+
+### The obvious fix was measured and rejected
+
+| | records |
+|---|---|
+| V2, adopted | 1,711 |
+| V2 + the living-arrangement family | 3,151 |
+| That family alone, not reachable by V2 | 1,440 |
+| The same, qualified with parents / young adults / grandparents | 504 |
+| Gold gained | **0** |
+
+Reading the additions says why. *Living arrangement* and *household structure* are generic demographic
+terms: the 1,440 records are ageing cohort profiles, single-parent families, marital dissolution, and
+children's living arrangements with one parent versus two. Even the qualified 504 is dominated by them.
+An 84% frame expansion — or a 29% one — to recover two records is a precision cost the screen pays for
+nothing.
+
+**So the two records are added to the frame by hand**, from the independent channel, each through the
+Crossref existence gate, each carrying `hand_added` and its reason (`226_a23_frame_supplement.py`).
+Frame: **1,572**. This is auditable in a way a quietly widened axis is not — the frame's own metadata
+names the records the boolean query did not produce, and the rejected expansion is recorded with its
+measured cost rather than left as a judgement call.
+
+This is the second time in this chapter that a candidate term's frame growth turned out to be the
+wrong construct, after `emancipation` in §17. The rule that came out of the first case held on the
+second: run the term alone, subtract what the axis already reaches, read what remains, and check
+whether it moves gold.
+
 ## 15. When to adjudicate
 
 The title/abstract screen decides the stream only. It does **not** ask the RA to determine the

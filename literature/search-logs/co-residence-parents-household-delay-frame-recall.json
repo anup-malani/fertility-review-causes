@@ -1,0 +1,31 @@
+{
+ "meta": {
+  "ticket": "TICK-075",
+  "test": "Independent-channel recall: what does the snowball pool contain that the production query does not reach? Stronger than the 12-record gold set.",
+  "pool_size": 3793,
+  "frame_size": 1570,
+  "on_topic_by_title_in_pool": 12,
+  "reached": 10,
+  "missed": 2,
+  "miss_rate_pct": 16.7,
+  "caveat": "A pool record carries a title and no abstract, so 'missed' includes records the query would match on an abstract it never saw. This is an upper bound on the query's true miss rate, not an estimate of it."
+ },
+ "missed_by_reason": {
+  "arrangement_worded_outside_the_axis": [
+   {
+    "doi": "10.1086/451997",
+    "title": "The Effect of Household Structure on Women's Economic Activity and Fertility: Evidence from Recent Mothers in Urban Mexico",
+    "year": 1992,
+    "cited_by": 109,
+    "n_seeds": 1
+   },
+   {
+    "doi": "10.7454/jessd.v6i1.1145",
+    "title": "LIVING ARRANGEMENT AND HOMEOWNERSHIP IMPACTS ON FERTILITY INTENTION TO ACHIEVE THE SUSTAINABLE DEVELOPMENT GOALS",
+    "year": 2023,
+    "cited_by": 0,
+    "n_seeds": 2
+   }
+  ]
+ }
+}
