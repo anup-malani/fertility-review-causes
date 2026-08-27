@@ -1,0 +1,47 @@
+{
+ "meta": {
+  "ticket": "TICK-075",
+  "hypothesis": "A.23 co-residence-parents-household-delay",
+  "status": "SCAFFOLD — channel-1 and channel-2 sourcing not yet run",
+  "gate": "Every anchor must clear the mandatory existence-verification gate (a live DOI, or a Crossref/publisher record confirming the title exists) before entering any recall denominator. No anchor is hand-asserted from memory.",
+  "note": "The three works in HYPOTHESES-v5.md's A.23 seminal field are CANDIDATES TO VERIFY, not anchors. Their verification is below and one of the three does not resolve."
+ },
+ "v5_seminal_candidates": [
+  {
+   "cited_as": "Reher 1998 (strong family ties in Southern Europe)",
+   "resolved_title": "Family Ties in Western Europe: Persistent Contrasts",
+   "authors": "David S. Reher",
+   "year": 1998,
+   "doi": "10.2307/2807972",
+   "container": "Population and Development Review",
+   "existence": "FOUND",
+   "identity_source": "openalex title.search, first-author agreement",
+   "provisional_cell": "THEORY",
+   "gold_status": "not_gold",
+   "note": "Cross-national family-system typology, not an empirical fertility estimate. Under Wall 3 its variation is the country's family-tie regime, which is D.2.b's and is unidentified for A.23's purposes. Enters as theory and as a DECOY for the routing test, not as an empirical anchor."
+  },
+  {
+   "cited_as": "Fokkema and Liefbroer 2008",
+   "resolved_title": "Trends in living arrangements in Europe: Convergence or divergence?",
+   "authors": "Tineke Fokkema; Aart C. Liefbroer",
+   "year": 2008,
+   "doi": "10.4054/demres.2008.19.36",
+   "container": "Demographic Research",
+   "existence": "FOUND",
+   "identity_source": "openalex title.search, both authors agree",
+   "provisional_cell": "LINK1_DRIVER_TO_ARRANGEMENT",
+   "gold_status": "not_gold",
+   "note": "Descriptive trends in living arrangements. Establishes the exposure trend; carries no fertility estimate. Not an empirical anchor for the primary cells."
+  },
+  {
+   "cited_as": "Baizan 2006",
+   "resolved_title": null,
+   "doi": null,
+   "existence": "UNRESOLVED",
+   "identity_source": "openalex raw_author_name.search:Baizán, publication_year:2005-2007, 12 records reviewed",
+   "gold_status": "not_gold",
+   "note": "No 2006 Baizán work about co-residence or home-leaving was found. The 2006 records under this author are 'El efecto del empleo, el paro y los contratos temporales en la baja fecundidad española' (10.2307/40184772), which is C.5.a's subject, and an unindexed UPF working paper on education enrolment and first-birth timing. Recorded as UNRESOLVED, NOT as absent: it may be a book chapter or a working paper outside the index, or a mis-citation in the master list. Flag for TICK-001 (PI review of HYPOTHESES) either way. NOTE: the unaccented spelling 'Baizan' returns 2 records and the accented 'Baizán' returns 362 -- the unaccented query would have produced a confident false negative."
+  }
+ ],
+ "anchors": []
+}

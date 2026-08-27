@@ -313,6 +313,21 @@ Then, as standard:
 5. The eight named designs of §4 are each their own query string, run whether or not the broad frame
    surfaces them.
 
+**The v5 seminal field has already been put through the gate, with a result worth recording.**
+Reher 1998 resolves (`10.2307/2807972`) but is a cross-national family-system typology — theory and a
+Wall-3 decoy, not an empirical anchor. Fokkema and Liefbroer 2008 resolves
+(`10.4054/demres.2008.19.36`) but is descriptive trends in living arrangements with no fertility
+estimate — a `LINK1_DRIVER_TO_ARRANGEMENT` record. **"Baizan 2006" does not resolve**: no 2006 work by
+that author about co-residence or home-leaving was found, and the 2006 records under the name are about
+temporary contracts and Spanish fertility, which is C.5.a's subject. It is recorded as `UNRESOLVED`,
+not as absent — it may be a chapter or working paper outside the index, or a mis-citation — and flagged
+to TICK-001. So **none of the three works the master list offers as seminal is an empirical anchor for
+this chapter's primary cells**, which is itself a signal about how thin the identified core will be.
+
+*(Method note, since it nearly produced a false negative: the unaccented query `Baizan` returns 2
+records and the accented `Baizán` returns 362. The accent-folding defect logged on D.1.a is live in
+this chapter's author space, and every author query here must be run accented.)*
+
 Every anchor clears the mandatory existence-verification gate — a live DOI or a Crossref/publisher
 record — before entering any recall denominator. **No anchor is hand-asserted from memory**, the three
 works in the v5 `seminal` field included; they are candidates to verify. The anchor set must carry
