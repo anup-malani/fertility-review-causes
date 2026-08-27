@@ -8,9 +8,9 @@
 **Touches:** literature/search-logs/co-residence-parents-household-delay-*, extraction/co-residence-parents-household-delay-*, output/chapters/co-residence-parents-household-delay.md
 
 ## Acceptance criteria
-- [ ] 2. Search strategy and scope drafted
-- [ ] 3. Literature search and AI screening, both phases (§5.1)
-- [ ] 4. RA title/abstract review
+- [x] 2. Search strategy and scope drafted (DRAFT, not frozen — Wall 1 second read open)
+- [x] 3. Literature search and AI screening, both phases (§5.1) — 1,572/1,572 screened
+- [x] 4. RA title/abstract review — abstract recovery + re-read done; NOT independent (same reader)
 - [ ] 5. Full-text retrieval
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
 - [ ] 7. Extraction to `extraction/co-residence-parents-household-delay.csv`, RA verifies a random 10%
@@ -51,6 +51,22 @@ the full exposure vocabulary is **1,012**; see `co-residence-parents-household-d
 §11. The like-for-like ordering that picked A.23 is undisturbed, but this number is the right one.
 
 ## Log
+
+### 2026-08-27 — stages 2, 3 and 4 run end to end
+
+Scripts 212–231. Scope drafted with Rulings 1 and 2 taken; anchors gated (33 FOUND);
+snowball rounds 1–2 (3,793-record pool); channel 5; production query V2 adopted
+(frame 1,711, gold recall 100%); frame pulled and hand-supplemented (1,572); rubric
+and 29 batches; **screen complete, 1,572/1,572**; RA gate (Crossref abstract recovery,
+re-read, retrieval queue, Wall 1 packet).
+
+**Result:** 78 RELEVANT / 397 UNCERTAIN / 1,097 NOT_RELEVANT. 117 primary-cell records
+(49 extended-household, 38 pre-launch, 26 MIXED_PRICE_ARRANGEMENT, 4 proximity).
+436 records queued for retrieval in 8 tiers.
+
+**Open before freeze:** the Wall 1 second read (packet assembled — it decides whether
+the chapter has an identified core), sign-off on the pooling rule, and six scope
+amendments the screen generated.
 
 ### 2026-08-27 — stage 2 opened
 
