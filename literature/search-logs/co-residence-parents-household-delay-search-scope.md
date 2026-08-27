@@ -257,7 +257,7 @@ not what would survive it. No probe failed; a failed probe is recorded as an err
 | — leaving-home sub-cloud | 13,820 |
 | — household-formation sub-cloud | 2,192 |
 | **Exposure ∩ fertility outcome — the screenable frame (as first measured)** | **1,012** |
-| Same, after the emancipation family was added on 2026-08-27 (§16) | **1,419** |
+| Same, with the emancipation family briefly added and then removed (§16, §17) | 1,419 |
 | Exposure ∩ *union* outcome (link 1 only) | 1,948 |
 | Exposure ∩ fertility ∩ identification vocabulary | 87 |
 | Exposure ∩ fertility ∩ elder-support vocabulary | 124 |
@@ -493,10 +493,9 @@ about — and it was not in the exposure block. The cost is measurable:
 | Plus `emancipation`, `"living apart from parents"`, `"living independently"` | **1,419** |
 | `emancipation` and `"living apart from parents"` alone | 385 |
 
-**A 40% frame expansion from three phrases, one of which is the term of art in the hypothesis's core
-setting.** The exposure block in §11 and every downstream query is amended to include the emancipation
-family; the frame probe figures above carry both numbers so the correction is visible rather than
-overwritten.
+A 40% frame expansion from three phrases — which looked like a fix, and was not. **See §17: the
+calibration showed the bare word `emancipation` is a homonym and the family has been removed again.**
+The two things worth keeping from this episode are below; the vocabulary change itself is reversed.
 
 Two things to carry, beyond the fix. **A design can be named correctly and still be unfindable**: §4
 named "youth housing allowances conditional on independent residence" and the query built from that
@@ -512,6 +511,82 @@ under §11's posture it is the right result rather than a reason to loosen a wal
 the pre-launch arm will rest substantially on this one paper, and the risk-of-bias pass should treat
 it accordingly: an eligibility-age discontinuity compares 22-year-olds with 21-year-olds, which is a
 narrow window on a hypothesis about a decade-long delay.
+
+## 17. The production query, and what calibrating it found
+
+`222_a23_production_query.py` builds the two-axis CAUSE × FERTILITY query required by the 2026-06-20
+decision — the boolean layer optimises recall, the LLM screen optimises precision — and calibrates it
+with a **per-anchor membership test**: for each gated anchor, ask OpenAlex whether that exact work is
+inside the query's result set. A record either matches or it does not, so recall is measured, not
+sampled.
+
+### The first calibration failed, and the failure was the finding
+
+V1 reached **78.9%** of gold. Four gold anchors were missed, all extended-household, all grandparent
+studies. Reading their abstracts settled it in the other direction from the one expected: **none of
+the four contains any co-residence language at all.** "Fertility and parental retirement" exploits a
+Dutch pension reform; the exposure is the grandmother's *time*, and the living arrangement never
+appears. The same for the Italian and Australian retirement-age papers and the grandparental-investment
+studies.
+
+Under the what-varies rule inherited from C.2.c, that is not A.23's variation — it is C.2.a's, the
+availability of (informal) childcare at a given living arrangement. **The query was right and the
+classification was wrong.** `223_a23_exposure_audit.py` re-ran the test over every anchor
+mechanically: 8 of 19 gold candidates carried no arrangement exposure, and all eight are now routed to
+`OFF_CHILDCARE_C2a` and kept as cross-references and decoys.
+
+This is worth stating plainly because it changes the chapter, not just the anchor file. **The
+extended-household arm's apparent six identified designs are mostly not about A.23's exposure.** The
+snowball log already warned that the identified-design count might overstate the fertility evidence;
+the mechanism turns out to be worse than that — those designs are not measuring this hypothesis's
+treatment at all.
+
+A second defect surfaced in the same pass: `gold_status` was assigned by testing for a `PRIMARY`
+prefix on the cell name, which silently excluded `MIXED_PRICE_ARRANGEMENT` — that is, it excluded
+Aparicio-Fenoll and Oppedisano, the one identified pre-launch study, from every recall denominator.
+Fixed.
+
+### The adopted query
+
+On the corrected gold set of 12, four variants reach **100%**:
+
+| Variant | frame | gold recall | decoys admitted |
+|---|---|---|---|
+| V1 full (with emancipation) | 2,200 | 100% | 3/5 |
+| **V2 no emancipation — adopted** | **1,711** | **100%** | 3/5 |
+| V3 plus a union outcome | 2,823 | 100% | 3/5 |
+| V4 outcome axis only | 622,829 | 100% | 5/5 |
+| V5 qualified emancipation | 1,715 | 100% | 3/5 |
+
+**V2 is adopted**: full recall at the smallest frame that achieves it. V3's extra 1,112 records buy no
+recall, and the union-outcome stream is better served as a separate link-1 pull than by widening the
+primary query. V4 is the outcome-only arm, run because a conjunction can be dominated by one of its
+arms — here it is not: the conjunction keeps all the gold and cuts the frame by a factor of 364.
+
+### The emancipation family is removed, and the last turn's conclusion with it
+
+§16 recorded a 40% frame expansion from adding `emancipation` and reported it as a fix. Measuring what
+those records *are* reverses that. The 489 records the bare word reaches alone are slave emancipation,
+female emancipation, care-leaver emancipation and oocyte-vitrification-as-women's-emancipation. It
+adds **zero** gold. And the study it was added for is reachable anyway — through `"household
+formation"`, which its abstract does contain. Qualifying the word to `"youth emancipation"`,
+`"residential emancipation"` and `"emancipation of young people"` recovers 4 records.
+
+**Frame growth is not frame gain.** The right test for a candidate term is not how much it adds but
+what it adds and whether any of it is gold, and that test was available before the term went in.
+
+What survives from §16 is the real finding: the Spanish study was found by the *design* vocabulary
+("eligibility age", "age cutoff"), not by any exposure term, and a design can be named correctly in a
+scope and still be unfindable through the mechanism's vocabulary.
+
+### The recall figure's limitation, stated
+
+Gold is **12 records**, against the cold-start protocol's cross-validation floor of ≥30 empirical
+anchors. Channel 1 is dry (§13) so no external-authority anchors exist, and after the §17
+reclassification the gold set is small. It is also not fully independent of the query: several anchors
+were sourced with vocabulary that overlaps the cause axis. **100% recall on 12 partly non-independent
+anchors is a weak guarantee, and should be read as "no known miss" rather than as a recall estimate.**
+The screen's own outputs, and the RA gate, remain the real test.
 
 ## 15. When to adjudicate
 

@@ -1,0 +1,476 @@
+{
+ "meta": {
+  "ticket": "TICK-075",
+  "trigger": "222's per-anchor calibration missed 4 gold anchors, all extended-household. Reading them showed no co-residence language at all.",
+  "test": "Does the arrangement appear as the exposure, or not at all? A regex cannot tell treatment from control, so ARRANGEMENT_PRESENT still needs a human read.",
+  "counts": {
+   "ARRANGEMENT_PRESENT": 15,
+   "ARRANGEMENT_ABSENT": 9,
+   "NO_ABSTRACT": 9,
+   "ERROR": 0
+  },
+  "gold_flagged_for_reclassification": 8
+ },
+ "rows": [
+  {
+   "doi": "10.1016/j.jpubeco.2023.104928",
+   "cell_as_recorded": "PRIMARY_EXTENDED_COUPLE",
+   "gold_status_as_recorded": "gold_candidate",
+   "title": "Fertility and parental retirement",
+   "arrangement_terms_found": [],
+   "time_supply_terms_found": [
+    "child care",
+    "pension",
+    "retirement"
+   ],
+   "verdict": "ARRANGEMENT_ABSENT",
+   "proposed_action": "RECLASSIFY \u2014 the living arrangement does not appear; the exposure is something else (usually grandparental time supply, which is C.2.a's)",
+   "human_read": ""
+  },
+  {
+   "doi": "10.1093/cesifo/ifu030",
+   "cell_as_recorded": "PRIMARY_EXTENDED_COUPLE",
+   "gold_status_as_recorded": "gold_candidate",
+   "title": "Working Women and Fertility: the Role of Grandmothers' Labor Force Participation",
+   "arrangement_terms_found": [],
+   "time_supply_terms_found": [
+    "availability",
+    "childcare",
+    "labor force",
+    "retirement"
+   ],
+   "verdict": "ARRANGEMENT_ABSENT",
+   "proposed_action": "RECLASSIFY \u2014 the living arrangement does not appear; the exposure is something else (usually grandparental time supply, which is C.2.a's)",
+   "human_read": ""
+  },
+  {
+   "doi": "10.1086/719161",
+   "cell_as_recorded": "PRIMARY_EXTENDED_COUPLE",
+   "gold_status_as_recorded": "gold_candidate",
+   "title": "Stay at Home with Grandma, Mom Is Going to Work: The Impact of Grandmothers\u2019 Retirement on Mothers\u2019 Labor Decisions",
+   "arrangement_terms_found": [
+    "coresiding",
+    "household composition"
+   ],
+   "time_supply_terms_found": [
+    "availability",
+    "childcare",
+    "pension",
+    "retirement"
+   ],
+   "verdict": "ARRANGEMENT_PRESENT",
+   "proposed_action": "keep",
+   "human_read": ""
+  },
+  {
+   "doi": "10.1016/j.econlet.2025.112239",
+   "cell_as_recorded": "PRIMARY_EXTENDED_COUPLE",
+   "gold_status_as_recorded": "gold_candidate",
+   "title": "The intergenerational impact of pension reforms: How grandmothers\u2019 pension eligibility affects daughters\u2019 fertility",
+   "arrangement_terms_found": [],
+   "time_supply_terms_found": [
+    "childcare",
+    "labour supply",
+    "pension",
+    "retirement"
+   ],
+   "verdict": "ARRANGEMENT_ABSENT",
+   "proposed_action": "RECLASSIFY \u2014 the living arrangement does not appear; the exposure is something else (usually grandparental time supply, which is C.2.a's)",
+   "human_read": ""
+  },
+  {
+   "doi": "10.1007/s10797-023-09822-9",
+   "cell_as_recorded": "PRIMARY_EXTENDED_COUPLE",
+   "gold_status_as_recorded": "gold_candidate",
+   "title": "Grandparental childcare, family allowances and retirement policies",
+   "arrangement_terms_found": [],
+   "time_supply_terms_found": [
+    "childcare",
+    "labour supply",
+    "pension",
+    "retirement"
+   ],
+   "verdict": "ARRANGEMENT_ABSENT",
+   "proposed_action": "RECLASSIFY \u2014 the living arrangement does not appear; the exposure is something else (usually grandparental time supply, which is C.2.a's)",
+   "human_read": ""
+  },
+  {
+   "doi": "10.2139/ssrn.2420716",
+   "cell_as_recorded": "PRIMARY_EXTENDED_COUPLE",
+   "gold_status_as_recorded": "gold_candidate",
+   "title": "Roadblocks on the Road to Grandma's House: Fertility Consequences of Delayed Retirement",
+   "arrangement_terms_found": [],
+   "time_supply_terms_found": [],
+   "verdict": "NO_ABSTRACT",
+   "proposed_action": "human read required",
+   "human_read": ""
+  },
+  {
+   "doi": "10.1007/s10680-012-9273-2",
+   "cell_as_recorded": "PRIMARY_EXTENDED_COUPLE",
+   "gold_status_as_recorded": "gold_candidate",
+   "title": "Grandparenting and Childbearing in the Extended Family",
+   "arrangement_terms_found": [],
+   "time_supply_terms_found": [],
+   "verdict": "NO_ABSTRACT",
+   "proposed_action": "human read required",
+   "human_read": ""
+  },
+  {
+   "doi": "10.1093/esr/jcad040",
+   "cell_as_recorded": "PRIMARY_EXTENDED_COUPLE",
+   "gold_status_as_recorded": "gold_candidate",
+   "title": "Do grandparents really matter? The effect of regular grandparental childcare on the second-birth transition",
+   "arrangement_terms_found": [],
+   "time_supply_terms_found": [
+    "availability",
+    "childcare"
+   ],
+   "verdict": "ARRANGEMENT_ABSENT",
+   "proposed_action": "RECLASSIFY \u2014 the living arrangement does not appear; the exposure is something else (usually grandparental time supply, which is C.2.a's)",
+   "human_read": ""
+  },
+  {
+   "doi": "10.4054/demres.2014.31.1",
+   "cell_as_recorded": "PRIMARY_EXTENDED_COUPLE",
+   "gold_status_as_recorded": "gold_candidate",
+   "title": "The impact of grandparental investment on mothers\u2019 fertility intentions in four European countries",
+   "arrangement_terms_found": [],
+   "time_supply_terms_found": [
+    "grandparental investment"
+   ],
+   "verdict": "ARRANGEMENT_ABSENT",
+   "proposed_action": "RECLASSIFY \u2014 the living arrangement does not appear; the exposure is something else (usually grandparental time supply, which is C.2.a's)",
+   "human_read": ""
+  },
+  {
+   "doi": "10.1371/journal.pone.0286496",
+   "cell_as_recorded": "PRIMARY_EXTENDED_COUPLE",
+   "gold_status_as_recorded": "gold_candidate",
+   "title": "Grandparental childcare and second births in China",
+   "arrangement_terms_found": [],
+   "time_supply_terms_found": [
+    "childcare",
+    "grandparental care"
+   ],
+   "verdict": "ARRANGEMENT_ABSENT",
+   "proposed_action": "RECLASSIFY \u2014 the living arrangement does not appear; the exposure is something else (usually grandparental time supply, which is C.2.a's)",
+   "human_read": ""
+  },
+  {
+   "doi": "10.1007/s00181-022-02280-y",
+   "cell_as_recorded": "PRIMARY_EXTENDED_COUPLE",
+   "gold_status_as_recorded": "gold_candidate",
+   "title": "Fertility cost, grandparental childcare, and female employment",
+   "arrangement_terms_found": [],
+   "time_supply_terms_found": [],
+   "verdict": "NO_ABSTRACT",
+   "proposed_action": "human read required",
+   "human_read": ""
+  },
+  {
+   "doi": "10.1016/j.jce.2017.10.005",
+   "cell_as_recorded": "PRIMARY_EXTENDED_COUPLE",
+   "gold_status_as_recorded": "gold_candidate",
+   "title": "Fertility, household structure, and parental labor supply: Evidence from China",
+   "arrangement_terms_found": [
+    "household structure"
+   ],
+   "time_supply_terms_found": [],
+   "verdict": "NO_ABSTRACT",
+   "proposed_action": "human read required",
+   "human_read": ""
+  },
+  {
+   "doi": "10.1007/s13524-013-0244-y",
+   "cell_as_recorded": "PRIMARY_EXTENDED_COUPLE",
+   "gold_status_as_recorded": "gold_candidate",
+   "title": "Coresidence With Husband\u2019s Parents, Labor Supply, and Duration to First Birth",
+   "arrangement_terms_found": [
+    "coresidence",
+    "coresidency"
+   ],
+   "time_supply_terms_found": [
+    "labor supply"
+   ],
+   "verdict": "ARRANGEMENT_PRESENT",
+   "proposed_action": "keep",
+   "human_read": ""
+  },
+  {
+   "doi": "10.3138/jcfs.43.3.439",
+   "cell_as_recorded": "PRIMARY_EXTENDED_COUPLE",
+   "gold_status_as_recorded": "gold_candidate",
+   "title": "Starting a Family at Your Parents\u2019 House: Multigenerational Households and Below Replacement Fertility in Urban Bulgaria",
+   "arrangement_terms_found": [
+    "multigenerational"
+   ],
+   "time_supply_terms_found": [],
+   "verdict": "ARRANGEMENT_PRESENT",
+   "proposed_action": "keep",
+   "human_read": ""
+  },
+  {
+   "doi": "10.1098/rspb.2011.1424",
+   "cell_as_recorded": "PRIMARY_EXTENDED_COUPLE",
+   "gold_status_as_recorded": "gold_candidate",
+   "title": "Grandparental investment and reproductive decisions in the longitudinal 1970 British cohort study",
+   "arrangement_terms_found": [],
+   "time_supply_terms_found": [
+    "childcare",
+    "grandparental investment"
+   ],
+   "verdict": "ARRANGEMENT_ABSENT",
+   "proposed_action": "RECLASSIFY \u2014 the living arrangement does not appear; the exposure is something else (usually grandparental time supply, which is C.2.a's)",
+   "human_read": ""
+  },
+  {
+   "doi": "10.1016/j.socscimed.2003.10.003",
+   "cell_as_recorded": "OFF_OUTCOME",
+   "gold_status_as_recorded": "not_gold",
+   "title": "Multigenerational family structure in Japanese society: impacts on stress and health behaviors among women and men",
+   "arrangement_terms_found": [
+    "multigenerational"
+   ],
+   "time_supply_terms_found": [],
+   "verdict": "NO_ABSTRACT",
+   "proposed_action": "human read required",
+   "human_read": ""
+  },
+  {
+   "doi": "10.1553/populationyearbook2020.deb02",
+   "cell_as_recorded": "PRIMARY_PRELAUNCH",
+   "gold_status_as_recorded": "gold_candidate",
+   "title": "Moving out the parental home and partnership formation as social determinants of low fertility",
+   "arrangement_terms_found": [
+    "parental home"
+   ],
+   "time_supply_terms_found": [],
+   "verdict": "ARRANGEMENT_PRESENT",
+   "proposed_action": "keep",
+   "human_read": ""
+  },
+  {
+   "doi": "10.1300/j002v42n01_03",
+   "cell_as_recorded": "PRIMARY_PRELAUNCH",
+   "gold_status_as_recorded": "gold_candidate",
+   "title": "The Timing of Leaving the Parental Home and Its Linkages to Other Life Course Events in Turkey",
+   "arrangement_terms_found": [
+    "parental home"
+   ],
+   "time_supply_terms_found": [
+    "labour force"
+   ],
+   "verdict": "ARRANGEMENT_PRESENT",
+   "proposed_action": "keep",
+   "human_read": ""
+  },
+  {
+   "doi": "10.1093/esr/jcac064",
+   "cell_as_recorded": "PRIMARY_PRELAUNCH",
+   "gold_status_as_recorded": "gold_candidate",
+   "title": "Long goodbyes: pathways of leaving home by gender and destination in Spain",
+   "arrangement_terms_found": [
+    "leaving home",
+    "live with"
+   ],
+   "time_supply_terms_found": [],
+   "verdict": "ARRANGEMENT_PRESENT",
+   "proposed_action": "keep",
+   "human_read": ""
+  },
+  {
+   "doi": "10.1002/ijpg.231",
+   "cell_as_recorded": "LINK1_DRIVER_TO_ARRANGEMENT",
+   "gold_status_as_recorded": "not_gold",
+   "title": "Leaving Home in Europe: The Experience of Cohorts Born Around 1960",
+   "arrangement_terms_found": [
+    "leaving home"
+   ],
+   "time_supply_terms_found": [],
+   "verdict": "ARRANGEMENT_PRESENT",
+   "proposed_action": "keep",
+   "human_read": ""
+  },
+  {
+   "doi": "10.1007/s10680-007-9136-4",
+   "cell_as_recorded": "LINK1_ARRANGEMENT_TO_UNION",
+   "gold_status_as_recorded": "not_gold",
+   "title": "Heterogeneity in the Transition to Adulthood: The Cases of Australia, Canada, and the United States",
+   "arrangement_terms_found": [],
+   "time_supply_terms_found": [],
+   "verdict": "NO_ABSTRACT",
+   "proposed_action": "human read required",
+   "human_read": ""
+  },
+  {
+   "doi": "10.1515/bejeap-2014-0003",
+   "cell_as_recorded": "MIXED_PRICE_ARRANGEMENT",
+   "gold_status_as_recorded": "not_gold",
+   "title": "Fostering Household Formation: Evidence from a Spanish Rental Subsidy",
+   "arrangement_terms_found": [
+    "household formation",
+    "living apart from parents",
+    "parental home"
+   ],
+   "time_supply_terms_found": [],
+   "verdict": "ARRANGEMENT_PRESENT",
+   "proposed_action": "keep",
+   "human_read": ""
+  },
+  {
+   "doi": "10.1111/roiw.12122",
+   "cell_as_recorded": "LINK1_DRIVER_TO_ARRANGEMENT",
+   "gold_status_as_recorded": "not_gold",
+   "title": "Youth Poverty, Employment, and Leaving the Parental Home in <scp>E</scp>urope",
+   "arrangement_terms_found": [
+    "emancipation",
+    "leaving home",
+    "parental home"
+   ],
+   "time_supply_terms_found": [],
+   "verdict": "ARRANGEMENT_PRESENT",
+   "proposed_action": "keep",
+   "human_read": ""
+  },
+  {
+   "doi": "10.2139/ssrn.1960897",
+   "cell_as_recorded": "OFF_PRICE_C2c",
+   "gold_status_as_recorded": "not_gold",
+   "title": "Leaving Home and Housing Prices: The Experience of Italian Youth Emancipation",
+   "arrangement_terms_found": [
+    "emancipation",
+    "leaving home"
+   ],
+   "time_supply_terms_found": [],
+   "verdict": "NO_ABSTRACT",
+   "proposed_action": "human read required",
+   "human_read": ""
+  },
+  {
+   "doi": "10.1080/17441730.2010.494445",
+   "cell_as_recorded": "PRIMARY_PROXIMITY",
+   "gold_status_as_recorded": "gold_candidate",
+   "title": "INTERGENERATIONAL PROXIMITY AND THE FERTILITY INTENTIONS OF MARRIED WOMEN",
+   "arrangement_terms_found": [
+    "co-residence",
+    "living arrangement",
+    "proximity to parents"
+   ],
+   "time_supply_terms_found": [],
+   "verdict": "ARRANGEMENT_PRESENT",
+   "proposed_action": "keep",
+   "human_read": ""
+  },
+  {
+   "doi": "10.2307/2807972",
+   "cell_as_recorded": "THEORY",
+   "gold_status_as_recorded": "not_gold",
+   "title": "Family Ties in Western Europe: Persistent Contrasts",
+   "arrangement_terms_found": [
+    "coresidential"
+   ],
+   "time_supply_terms_found": [],
+   "verdict": "ARRANGEMENT_PRESENT",
+   "proposed_action": "keep",
+   "human_read": ""
+  },
+  {
+   "doi": "10.1353/foc.0.0038",
+   "cell_as_recorded": "THEORY",
+   "gold_status_as_recorded": "not_gold",
+   "title": "On a New Schedule: Transitions to Adulthood and Family Change",
+   "arrangement_terms_found": [
+    "home-leaving",
+    "nest"
+   ],
+   "time_supply_terms_found": [],
+   "verdict": "ARRANGEMENT_PRESENT",
+   "proposed_action": "keep",
+   "human_read": ""
+  },
+  {
+   "doi": "10.4054/demres.2008.19.36",
+   "cell_as_recorded": "LINK1_DRIVER_TO_ARRANGEMENT",
+   "gold_status_as_recorded": "not_gold",
+   "title": "Trends in living arrangements in Europe: Convergence or divergence?",
+   "arrangement_terms_found": [
+    "living arrangement"
+   ],
+   "time_supply_terms_found": [
+    "labour force"
+   ],
+   "verdict": "ARRANGEMENT_PRESENT",
+   "proposed_action": "keep",
+   "human_read": ""
+  },
+  {
+   "doi": "10.1007/s11150-016-9355-8",
+   "cell_as_recorded": "OFF_PRICE_C2c",
+   "gold_status_as_recorded": "not_gold",
+   "title": "The asymmetric housing wealth effect on childbirth",
+   "arrangement_terms_found": [],
+   "time_supply_terms_found": [],
+   "verdict": "NO_ABSTRACT",
+   "proposed_action": "human read required",
+   "human_read": ""
+  },
+  {
+   "doi": "10.1093/restud/rdad034",
+   "cell_as_recorded": "OFF_PRICE_C2c",
+   "gold_status_as_recorded": "not_gold",
+   "title": "Monetary Policy and Birth Rates: The Effect of Mortgage Rate Pass-Through on Fertility",
+   "arrangement_terms_found": [],
+   "time_supply_terms_found": [],
+   "verdict": "ARRANGEMENT_ABSENT",
+   "proposed_action": "human read required",
+   "human_read": ""
+  },
+  {
+   "doi": "10.2307/353569",
+   "cell_as_recorded": "ELDER_SUPPORT",
+   "gold_status_as_recorded": "not_gold",
+   "title": "Race and Ethnic Variation in Norms of Filial Responsibility among Older Persons",
+   "arrangement_terms_found": [
+    "coresidence",
+    "living arrangement"
+   ],
+   "time_supply_terms_found": [],
+   "verdict": "ARRANGEMENT_PRESENT",
+   "proposed_action": "keep",
+   "human_read": ""
+  },
+  {
+   "doi": "10.1016/j.socscimed.2019.02.027",
+   "cell_as_recorded": "ELDER_SUPPORT",
+   "gold_status_as_recorded": "not_gold",
+   "title": "Coresidence with mother-in-law and maternal anemia in rural India",
+   "arrangement_terms_found": [
+    "coresidence"
+   ],
+   "time_supply_terms_found": [],
+   "verdict": "NO_ABSTRACT",
+   "proposed_action": "human read required",
+   "human_read": ""
+  },
+  {
+   "doi": "10.1007/s13524-018-0719-y",
+   "cell_as_recorded": "LINK1_DRIVER_TO_ARRANGEMENT",
+   "gold_status_as_recorded": "not_gold",
+   "title": "Beyond the Nuclear Family: Trends in Children Living in Shared Households",
+   "arrangement_terms_found": [
+    "coresidence",
+    "coresident",
+    "living arrangement",
+    "multigenerational",
+    "shared household",
+    "shared households",
+    "three-generation"
+   ],
+   "time_supply_terms_found": [],
+   "verdict": "ARRANGEMENT_PRESENT",
+   "proposed_action": "keep",
+   "human_read": ""
+  }
+ ]
+}

@@ -73,24 +73,32 @@ def crossref(doi, tries=3):
 
 # Hand-selected from 214 (broad families), 215 (targeted pulls) and 212 (C.2.c
 # seed harvest). `cell` is the provisional estimand cell from the scope's §8.
+#
+# RECLASSIFIED 2026-08-27. The production query's per-anchor calibration (222) missed
+# four gold anchors; reading them showed the query was right and these classifications
+# were wrong. Eight anchors first filed as PRIMARY_EXTENDED_COUPLE contain NO
+# co-residence language at all -- their exposure is the grandmother's TIME, identified
+# off pension and retirement-age reform. Under the what-varies rule inherited from
+# C.2.c, that is C.2.a's variation. They are routed out and kept as cross-references
+# and decoys. The audit is in 223 and its output.
 CANDIDATES = [
     # --- PRIMARY_EXTENDED_COUPLE, identified: grandparental availability shocks ---
-    ("10.1016/j.jpubeco.2023.104928", "Fertility and parental retirement", "PRIMARY_EXTENDED_COUPLE", "215:pension_shock", "design 8; pension eligibility as the source of variation"),
-    ("10.1093/cesifo/ifu030", "Working Women and Fertility: the Role of Grandmothers' Labor Force Participation", "PRIMARY_EXTENDED_COUPLE", "215:pension_shock", "design 8"),
+    ("10.1016/j.jpubeco.2023.104928", "Fertility and parental retirement", "OFF_CHILDCARE_C2a", "215:pension_shock", "RECLASSIFIED 2026-08-27 by the 223 exposure audit: Dutch 2006 pension reform delaying grandmothers' retirement. Exposure is grandparental CHILDCARE SUPPLY; the abstract contains no co-residence language at all. Under the what-varies rule this is C.2.a's variation, not A.23's. Kept as a cross-reference and a decoy."),
+    ("10.1093/cesifo/ifu030", "Working Women and Fertility: the Role of Grandmothers' Labor Force Participation", "OFF_CHILDCARE_C2a", "215:pension_shock", "RECLASSIFIED 2026-08-27 by the 223 exposure audit: Italian legal retirement ages; exposure is the grandmother's labour supply, not the living arrangement."),
     ("10.1086/719161", "Stay at Home with Grandma, Mom Is Going to Work", "PRIMARY_EXTENDED_COUPLE", "215:pension_shock", "design 8"),
-    ("10.1016/j.econlet.2025.112239", "The intergenerational impact of pension reforms: How grandmothers", "PRIMARY_EXTENDED_COUPLE", "215:pension_shock", "design 8"),
-    ("10.1007/s10797-023-09822-9", "Grandparental childcare, family allowances and retirement policies", "PRIMARY_EXTENDED_COUPLE", "215:pension_shock", "design 8; may be theoretical"),
+    ("10.1016/j.econlet.2025.112239", "The intergenerational impact of pension reforms: How grandmothers", "OFF_CHILDCARE_C2a", "215:pension_shock", "RECLASSIFIED 2026-08-27 by the 223 exposure audit: Australian pension eligibility age; exposure is grandparental childcare capacity."),
+    ("10.1007/s10797-023-09822-9", "Grandparental childcare, family allowances and retirement policies", "OFF_CHILDCARE_C2a", "215:pension_shock", "RECLASSIFIED 2026-08-27 by the 223 exposure audit: Retirement policy and family allowances; no arrangement exposure."),
     ("10.2139/ssrn.2420716", "Roadblocks on the Road to Grandma's House: Fertility Consequences", "PRIMARY_EXTENDED_COUPLE", "215:pension_shock", "design 8; preprint — version-of-record check required"),
     # --- PRIMARY_EXTENDED_COUPLE, observational core ---
     ("10.1007/s10680-012-9273-2", "Grandparenting and Childbearing in the Extended Family", "PRIMARY_EXTENDED_COUPLE", "215:grandparent_childcare", ""),
-    ("10.1093/esr/jcad040", "Do grandparents really matter? The effect of regular grandparental childcare", "PRIMARY_EXTENDED_COUPLE", "215:grandparent_childcare", ""),
-    ("10.4054/demres.2014.31.1", "The impact of grandparental investment on mothers' fertility intentions", "PRIMARY_EXTENDED_COUPLE", "215:grandparent_childcare", ""),
-    ("10.1371/journal.pone.0286496", "Grandparental childcare and second births in China", "PRIMARY_EXTENDED_COUPLE", "215:grandparent_childcare", ""),
+    ("10.1093/esr/jcad040", "Do grandparents really matter? The effect of regular grandparental childcare", "OFF_CHILDCARE_C2a", "215:grandparent_childcare", "RECLASSIFIED 2026-08-27 by the 223 exposure audit: Regular grandparental childcare as the exposure; arrangement not varied."),
+    ("10.4054/demres.2014.31.1", "The impact of grandparental investment on mothers' fertility intentions", "OFF_CHILDCARE_C2a", "215:grandparent_childcare", "RECLASSIFIED 2026-08-27 by the 223 exposure audit: Grandparental investment; arrangement absent from the abstract."),
+    ("10.1371/journal.pone.0286496", "Grandparental childcare and second births in China", "OFF_CHILDCARE_C2a", "215:grandparent_childcare", "RECLASSIFIED 2026-08-27 by the 223 exposure audit: Grandparental childcare and second births; the exposure is care, not co-residence."),
     ("10.1007/s00181-022-02280-y", "Fertility cost, grandparental childcare, and female employment", "PRIMARY_EXTENDED_COUPLE", "215:grandparent_childcare", ""),
     ("10.1016/j.jce.2017.10.005", "Fertility, household structure, and parental labor supply", "PRIMARY_EXTENDED_COUPLE", "215:east_asia", ""),
     ("10.1007/s13524-013-0244-y", "Coresidence With Husband's Parents, Labor Supply, and Duration to First Birth", "PRIMARY_EXTENDED_COUPLE", "215:coresidence_delay", "Demography; a direct co-residence to first-birth estimate"),
     ("10.3138/jcfs.43.3.439", "Starting a Family at Your Parents' House: Multigenerational Households and Below Replacement Fertility", "PRIMARY_EXTENDED_COUPLE", "212:harvest", "spans both configurations; routing to be settled at full text"),
-    ("10.1098/rspb.2011.1424", "Grandparental investment and reproductive decisions in the longitudinal 1970 British cohort study", "PRIMARY_EXTENDED_COUPLE", "214:extended_broad", ""),
+    ("10.1098/rspb.2011.1424", "Grandparental investment and reproductive decisions in the longitudinal 1970 British cohort study", "OFF_CHILDCARE_C2a", "214:extended_broad", "RECLASSIFIED 2026-08-27 by the 223 exposure audit: Grandparental investment in a birth cohort; arrangement absent."),
     # Reclassified on reading the RESOLVED title: the gate returned "…: impacts on
     # stress and health behaviors". The outcome is not fertility, so it is not a gold
     # candidate. Kept as a decoy — a co-residence exposure with a non-fertility outcome
@@ -152,7 +160,12 @@ def main():
             "title_jaccard": j, "existence": status,
             "identity_source": "crossref",
             "provisional_cell": cell, "provenance_channel": provenance, "note": note,
-            "gold_status": "gold_candidate" if cell.startswith("PRIMARY") else "not_gold",
+            # MIXED_PRICE_ARRANGEMENT is a PRIMARY cell under the scope's §8 table
+            # ("Primary, flagged unallocated"). Testing for a "PRIMARY" prefix excluded
+            # the one identified pre-launch study from every recall denominator.
+            "gold_status": ("gold_candidate"
+                            if cell.startswith("PRIMARY") or cell == "MIXED_PRICE_ARRANGEMENT"
+                            else "not_gold"),
         })
         flag = "" if j is None or j >= 0.5 else "  <-- LOW TITLE OVERLAP, check"
         print(f"{status:10s} J={str(j):>4}  {doi:38s} {(resolved or '')[:52]}{flag}")

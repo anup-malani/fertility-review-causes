@@ -60,10 +60,10 @@
    "title_jaccard": 1.0,
    "existence": "FOUND",
    "identity_source": "crossref",
-   "provisional_cell": "PRIMARY_EXTENDED_COUPLE",
+   "provisional_cell": "OFF_CHILDCARE_C2a",
    "provenance_channel": "215:pension_shock",
-   "note": "design 8; pension eligibility as the source of variation",
-   "gold_status": "gold_candidate"
+   "note": "RECLASSIFIED 2026-08-27 by the 223 exposure audit: Dutch 2006 pension reform delaying grandmothers' retirement. Exposure is grandparental CHILDCARE SUPPLY; the abstract contains no co-residence language at all. Under the what-varies rule this is C.2.a's variation, not A.23's. Kept as a cross-reference and a decoy.",
+   "gold_status": "not_gold"
   },
   {
    "doi": "10.1093/cesifo/ifu030",
@@ -76,10 +76,10 @@
    "title_jaccard": 1.0,
    "existence": "FOUND",
    "identity_source": "crossref",
-   "provisional_cell": "PRIMARY_EXTENDED_COUPLE",
+   "provisional_cell": "OFF_CHILDCARE_C2a",
    "provenance_channel": "215:pension_shock",
-   "note": "design 8",
-   "gold_status": "gold_candidate"
+   "note": "RECLASSIFIED 2026-08-27 by the 223 exposure audit: Italian legal retirement ages; exposure is the grandmother's labour supply, not the living arrangement.",
+   "gold_status": "not_gold"
   },
   {
    "doi": "10.1086/719161",
@@ -108,10 +108,10 @@
    "title_jaccard": 0.67,
    "existence": "FOUND",
    "identity_source": "crossref",
-   "provisional_cell": "PRIMARY_EXTENDED_COUPLE",
+   "provisional_cell": "OFF_CHILDCARE_C2a",
    "provenance_channel": "215:pension_shock",
-   "note": "design 8",
-   "gold_status": "gold_candidate"
+   "note": "RECLASSIFIED 2026-08-27 by the 223 exposure audit: Australian pension eligibility age; exposure is grandparental childcare capacity.",
+   "gold_status": "not_gold"
   },
   {
    "doi": "10.1007/s10797-023-09822-9",
@@ -124,10 +124,10 @@
    "title_jaccard": 1.0,
    "existence": "FOUND",
    "identity_source": "crossref",
-   "provisional_cell": "PRIMARY_EXTENDED_COUPLE",
+   "provisional_cell": "OFF_CHILDCARE_C2a",
    "provenance_channel": "215:pension_shock",
-   "note": "design 8; may be theoretical",
-   "gold_status": "gold_candidate"
+   "note": "RECLASSIFIED 2026-08-27 by the 223 exposure audit: Retirement policy and family allowances; no arrangement exposure.",
+   "gold_status": "not_gold"
   },
   {
    "doi": "10.2139/ssrn.2420716",
@@ -172,10 +172,10 @@
    "title_jaccard": 0.71,
    "existence": "FOUND",
    "identity_source": "crossref",
-   "provisional_cell": "PRIMARY_EXTENDED_COUPLE",
+   "provisional_cell": "OFF_CHILDCARE_C2a",
    "provenance_channel": "215:grandparent_childcare",
-   "note": "",
-   "gold_status": "gold_candidate"
+   "note": "RECLASSIFIED 2026-08-27 by the 223 exposure audit: Regular grandparental childcare as the exposure; arrangement not varied.",
+   "gold_status": "not_gold"
   },
   {
    "doi": "10.4054/demres.2014.31.1",
@@ -188,10 +188,10 @@
    "title_jaccard": 0.69,
    "existence": "FOUND",
    "identity_source": "crossref",
-   "provisional_cell": "PRIMARY_EXTENDED_COUPLE",
+   "provisional_cell": "OFF_CHILDCARE_C2a",
    "provenance_channel": "215:grandparent_childcare",
-   "note": "",
-   "gold_status": "gold_candidate"
+   "note": "RECLASSIFIED 2026-08-27 by the 223 exposure audit: Grandparental investment; arrangement absent from the abstract.",
+   "gold_status": "not_gold"
   },
   {
    "doi": "10.1371/journal.pone.0286496",
@@ -204,10 +204,10 @@
    "title_jaccard": 1.0,
    "existence": "FOUND",
    "identity_source": "crossref",
-   "provisional_cell": "PRIMARY_EXTENDED_COUPLE",
+   "provisional_cell": "OFF_CHILDCARE_C2a",
    "provenance_channel": "215:grandparent_childcare",
-   "note": "",
-   "gold_status": "gold_candidate"
+   "note": "RECLASSIFIED 2026-08-27 by the 223 exposure audit: Grandparental childcare and second births; the exposure is care, not co-residence.",
+   "gold_status": "not_gold"
   },
   {
    "doi": "10.1007/s00181-022-02280-y",
@@ -284,10 +284,10 @@
    "title_jaccard": 1.0,
    "existence": "FOUND",
    "identity_source": "crossref",
-   "provisional_cell": "PRIMARY_EXTENDED_COUPLE",
+   "provisional_cell": "OFF_CHILDCARE_C2a",
    "provenance_channel": "214:extended_broad",
-   "note": "",
-   "gold_status": "gold_candidate"
+   "note": "RECLASSIFIED 2026-08-27 by the 223 exposure audit: Grandparental investment in a birth cohort; arrangement absent.",
+   "gold_status": "not_gold"
   },
   {
    "doi": "10.1016/j.socscimed.2003.10.003",
@@ -399,7 +399,7 @@
    "provisional_cell": "MIXED_PRICE_ARRANGEMENT",
    "provenance_channel": "221:design2_vocabB",
    "note": "THE identified pre-launch study. DiD on the eligibility-age threshold of Spain's 2008 rental subsidy; outcomes are living apart from parents, living with a partner, AND childbearing -- the whole chain on one design. Wall 1 sub-ruling: shared with C.2.c.",
-   "gold_status": "not_gold"
+   "gold_status": "gold_candidate"
   },
   {
    "doi": "10.1111/roiw.12122",

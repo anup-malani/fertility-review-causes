@@ -1,0 +1,124 @@
+{
+ "meta": {
+  "ticket": "TICK-075",
+  "construction": "Two-axis CAUSE x FERTILITY per decisions/2026-06-20. Boolean layer optimises recall; the LLM screen optimises precision.",
+  "calibration": "Per-anchor membership test against OpenAlex, not a spot check.",
+  "anchors_resolved": 33,
+  "anchors_not_in_openalex": []
+ },
+ "axes": {
+  "prelaunch": "coresidence OR \"co-residence\" OR coresiding OR coresident OR \"living with parents\" OR \"living at home\" OR \"parental home\" OR \"leaving home\" OR \"leaving the parental home\" OR \"home leaving\" OR \"nest leaving\" OR \"residential independence\" OR boomerang OR \"household formation\" OR \"independent household\"",
+  "emancipation": "emancipation OR \"living apart from parents\" OR \"living independently\" OR \"residential autonomy\" OR \"leaving the nest\"",
+  "extended": "\"multigenerational household\" OR \"three-generation household\" OR \"extended household\" OR \"stem family\" OR \"parents-in-law\" OR \"grandparental childcare\" OR \"grandparent childcare\" OR \"intergenerational coresidence\" OR \"intergenerational co-residence\" OR \"living with in-laws\" OR patrilocal",
+  "fertility": "fertility OR childbearing OR \"first birth\" OR \"second birth\" OR parenthood OR \"birth rate\" OR childlessness OR \"family size\" OR \"number of children\" OR \"birth intention\" OR \"fertility intention\"",
+  "union": "\"union formation\" OR \"partnership formation\" OR \"marriage timing\" OR \"age at marriage\" OR cohabitation"
+ },
+ "variants": {
+  "V1_full": {
+   "query": "(coresidence OR \"co-residence\" OR coresiding OR coresident OR \"living with parents\" OR \"living at home\" OR \"parental home\" OR \"leaving home\" OR \"leaving the parental home\" OR \"home leaving\" OR \"nest leaving\" OR \"residential independence\" OR boomerang OR \"household formation\" OR \"independent household\" OR emancipation OR \"living apart from parents\" OR \"living independently\" OR \"residential autonomy\" OR \"leaving the nest\" OR \"multigenerational household\" OR \"three-generation household\" OR \"extended household\" OR \"stem family\" OR \"parents-in-law\" OR \"grandparental childcare\" OR \"grandparent childcare\" OR \"intergenerational coresidence\" OR \"intergenerational co-residence\" OR \"living with in-laws\" OR patrilocal) AND (fertility OR childbearing OR \"first birth\" OR \"second birth\" OR parenthood OR \"birth rate\" OR childlessness OR \"family size\" OR \"number of children\" OR \"birth intention\" OR \"fertility intention\")",
+   "frame_size": 2200,
+   "anchors_tested": 33,
+   "recall_all": 69.7,
+   "recall_gold": 100.0,
+   "gold_missed": [],
+   "decoys_admitted": 3,
+   "decoys_total": 5,
+   "test_errors": []
+  },
+  "V2_no_emancipation": {
+   "query": "(coresidence OR \"co-residence\" OR coresiding OR coresident OR \"living with parents\" OR \"living at home\" OR \"parental home\" OR \"leaving home\" OR \"leaving the parental home\" OR \"home leaving\" OR \"nest leaving\" OR \"residential independence\" OR boomerang OR \"household formation\" OR \"independent household\" OR \"multigenerational household\" OR \"three-generation household\" OR \"extended household\" OR \"stem family\" OR \"parents-in-law\" OR \"grandparental childcare\" OR \"grandparent childcare\" OR \"intergenerational coresidence\" OR \"intergenerational co-residence\" OR \"living with in-laws\" OR patrilocal) AND (fertility OR childbearing OR \"first birth\" OR \"second birth\" OR parenthood OR \"birth rate\" OR childlessness OR \"family size\" OR \"number of children\" OR \"birth intention\" OR \"fertility intention\")",
+   "frame_size": 1711,
+   "anchors_tested": 33,
+   "recall_all": 69.7,
+   "recall_gold": 100.0,
+   "gold_missed": [],
+   "decoys_admitted": 3,
+   "decoys_total": 5,
+   "test_errors": []
+  },
+  "V3_plus_union_outcome": {
+   "query": "(coresidence OR \"co-residence\" OR coresiding OR coresident OR \"living with parents\" OR \"living at home\" OR \"parental home\" OR \"leaving home\" OR \"leaving the parental home\" OR \"home leaving\" OR \"nest leaving\" OR \"residential independence\" OR boomerang OR \"household formation\" OR \"independent household\" OR emancipation OR \"living apart from parents\" OR \"living independently\" OR \"residential autonomy\" OR \"leaving the nest\" OR \"multigenerational household\" OR \"three-generation household\" OR \"extended household\" OR \"stem family\" OR \"parents-in-law\" OR \"grandparental childcare\" OR \"grandparent childcare\" OR \"intergenerational coresidence\" OR \"intergenerational co-residence\" OR \"living with in-laws\" OR patrilocal) AND (fertility OR childbearing OR \"first birth\" OR \"second birth\" OR parenthood OR \"birth rate\" OR childlessness OR \"family size\" OR \"number of children\" OR \"birth intention\" OR \"fertility intention\" OR \"union formation\" OR \"partnership formation\" OR \"marriage timing\" OR \"age at marriage\" OR cohabitation)",
+   "frame_size": 2823,
+   "anchors_tested": 33,
+   "recall_all": 69.7,
+   "recall_gold": 100.0,
+   "gold_missed": [],
+   "decoys_admitted": 3,
+   "decoys_total": 5,
+   "test_errors": []
+  },
+  "V4_outcome_only": {
+   "query": "(fertility OR childbearing OR \"first birth\" OR \"second birth\" OR parenthood OR \"birth rate\" OR childlessness OR \"family size\" OR \"number of children\" OR \"birth intention\" OR \"fertility intention\")",
+   "frame_size": 622829,
+   "anchors_tested": 33,
+   "recall_all": 87.9,
+   "recall_gold": 100.0,
+   "gold_missed": [],
+   "decoys_admitted": 5,
+   "decoys_total": 5,
+   "test_errors": []
+  },
+  "V5_qualified_emancipation": {
+   "query": "(coresidence OR \"co-residence\" OR coresiding OR coresident OR \"living with parents\" OR \"living at home\" OR \"parental home\" OR \"leaving home\" OR \"leaving the parental home\" OR \"home leaving\" OR \"nest leaving\" OR \"residential independence\" OR boomerang OR \"household formation\" OR \"independent household\" OR \"multigenerational household\" OR \"three-generation household\" OR \"extended household\" OR \"stem family\" OR \"parents-in-law\" OR \"grandparental childcare\" OR \"grandparent childcare\" OR \"intergenerational coresidence\" OR \"intergenerational co-residence\" OR \"living with in-laws\" OR patrilocal OR \"youth emancipation\" OR \"residential emancipation\" OR \"emancipation of young people\" OR \"living apart from parents\") AND (fertility OR childbearing OR \"first birth\" OR \"second birth\" OR parenthood OR \"birth rate\" OR childlessness OR \"family size\" OR \"number of children\" OR \"birth intention\" OR \"fertility intention\")",
+   "frame_size": 1715,
+   "anchors_tested": 33,
+   "recall_all": 69.7,
+   "recall_gold": 100.0,
+   "gold_missed": [],
+   "decoys_admitted": 3,
+   "decoys_total": 5,
+   "test_errors": []
+  }
+ },
+ "cause_families_alone": {
+  "prelaunch": {
+   "frame": 1359,
+   "gold_reached": 9,
+   "gold_total": 12
+  },
+  "emancipation": {
+   "frame": 542,
+   "gold_reached": 1,
+   "gold_total": 12
+  },
+  "extended": {
+   "frame": 454,
+   "gold_reached": 4,
+   "gold_total": 12
+  }
+ },
+ "optional_families_add_alone": {
+  "bare_emancipation": {
+   "query": "(emancipation OR \"living apart from parents\" OR \"living independently\" OR \"residential autonomy\" OR \"leaving the nest\") AND (fertility OR childbearing OR \"first birth\" OR \"second birth\" OR parenthood OR \"birth rate\" OR childlessness OR \"family size\" OR \"number of children\" OR \"birth intention\" OR \"fertility intention\") NOT (coresidence OR \"co-residence\" OR coresiding OR coresident OR \"living with parents\" OR \"living at home\" OR \"parental home\" OR \"leaving home\" OR \"leaving the parental home\" OR \"home leaving\" OR \"nest leaving\" OR \"residential independence\" OR boomerang OR \"household formation\" OR \"independent household\" OR \"multigenerational household\" OR \"three-generation household\" OR \"extended household\" OR \"stem family\" OR \"parents-in-law\" OR \"grandparental childcare\" OR \"grandparent childcare\" OR \"intergenerational coresidence\" OR \"intergenerational co-residence\" OR \"living with in-laws\" OR patrilocal)",
+   "n": 489,
+   "error": null,
+   "sample": [
+    "A Century of Demographic and Cultural Change in Western Europe: An Exploration of Underlying Dimensions",
+    "Transition of Extremely Low-Birth-Weight Infants From Adolescence to Young Adulthood",
+    "Two Views of One Relationship: Comparing Parents' and Young Adult Children's Reports of the Quality of Intergenerational Relations",
+    "Subreplacement fertility in the West before the baby boom: Past and current perspectives",
+    "\"Us Colored Women Had to Go Though A Plenty\": Sexual Exploitation of African-American Slave Women",
+    "Pregnancy and Childbearing Among Young Adults Who Experienced Foster Care",
+    "Freezing for love: enacting \u2018responsible\u2019 reproductive citizenship through egg freezing",
+    "Oocyte vitrification\u2014Women's emancipation set in stone",
+    "The League of Nations' Rescue of Armenian Genocide Survivors and the Making of Modern Humanitarianism, 1920\u20131927",
+    "Female Emancipation, Birth Control, and Fertility in European History"
+   ]
+  },
+  "qualified_emancipation": {
+   "query": "(\"youth emancipation\" OR \"residential emancipation\" OR \"emancipation of young people\" OR \"living apart from parents\") AND (fertility OR childbearing OR \"first birth\" OR \"second birth\" OR parenthood OR \"birth rate\" OR childlessness OR \"family size\" OR \"number of children\" OR \"birth intention\" OR \"fertility intention\") NOT (coresidence OR \"co-residence\" OR coresiding OR coresident OR \"living with parents\" OR \"living at home\" OR \"parental home\" OR \"leaving home\" OR \"leaving the parental home\" OR \"home leaving\" OR \"nest leaving\" OR \"residential independence\" OR boomerang OR \"household formation\" OR \"independent household\" OR \"multigenerational household\" OR \"three-generation household\" OR \"extended household\" OR \"stem family\" OR \"parents-in-law\" OR \"grandparental childcare\" OR \"grandparent childcare\" OR \"intergenerational coresidence\" OR \"intergenerational co-residence\" OR \"living with in-laws\" OR patrilocal)",
+   "n": 4,
+   "error": null,
+   "sample": [
+    "Stalled de-standardization of partnerships: Case of young people in Serbia",
+    "Emancipaci\u00f3n y vivienda:una identidad con tres componentes",
+    "The Characteristics of Mothers Separated from a Young Child",
+    "P-380 Reproductive autonomy in Spain - reproduction as a negative right and the obligations of the State"
+   ]
+  }
+ },
+ "adopted": {
+  "variant": "V2_no_emancipation",
+  "why": "100% gold recall (12/12) at the smallest frame of the variants that achieve it. The emancipation family was added on 2026-08-27 after the channel-5 pass and is now REMOVED: the bare word is a homonym -- the 489 records it reached alone are slave emancipation, female emancipation and care-leaver emancipation -- and the study it was added for is reachable through \"household formation\" anyway. Qualifying it recovers only 48 records, mostly disability and gerontology uses of \"living independently\"."
+ }
+}
