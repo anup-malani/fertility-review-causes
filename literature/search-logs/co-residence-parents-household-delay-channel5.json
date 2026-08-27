@@ -1,0 +1,1592 @@
+{
+ "meta": {
+  "ticket": "TICK-075",
+  "purpose": "Channel 5 -- the named designs of scope \u00a74. The decisive test for the pre-launch arm after the citation channel failed twice.",
+  "method": "Two vocabularies per design; the fertility axis relaxed as well as required, because the pre-launch literature does not reliably name its outcome.",
+  "failed": 0
+ },
+ "designs": {
+  "1_benefit_age_threshold::A": {
+   "design": "1_benefit_age_threshold",
+   "vocabulary": "A",
+   "treatment": "(\"housing benefit\" OR \"housing allowance\" OR \"shared accommodation rate\" OR \"local housing allowance\")",
+   "n_with_fertility_axis": 1,
+   "n_arrangement_only": 26,
+   "error": null,
+   "records_with_fertility": [
+    {
+     "doi": "10.1177/0261018304041949",
+     "title": "Disability and Transition to Adulthood: The Politics of Parenting",
+     "year": 2004,
+     "cited_by": 48,
+     "venue": "Critical Social Policy",
+     "authors": "Gillian Pascall; Nicola Hendey"
+    }
+   ]
+  },
+  "1_benefit_age_threshold::B": {
+   "design": "1_benefit_age_threshold",
+   "vocabulary": "B",
+   "treatment": "(\"welfare eligibility\" OR \"benefit eligibility\" OR \"age cutoff\" OR \"age cut-off\" OR \"eligibility age\" OR \"age discontinuity\")",
+   "n_with_fertility_axis": 10,
+   "n_arrangement_only": 127,
+   "error": null,
+   "records_with_fertility": [
+    {
+     "doi": "10.1515/bejeap-2014-0003",
+     "title": "Fostering Household Formation: Evidence from a Spanish Rental Subsidy",
+     "year": 2014,
+     "cited_by": 14,
+     "venue": "The B E Journal of Economic Analysis & Policy",
+     "authors": "Ainoa Aparicio Fenoll; Veruska Oppedisano"
+    },
+    {
+     "doi": "10.1111/j.1741-6612.2010.00459.x",
+     "title": "Raising the age pension eligibility age and its (dis)contents",
+     "year": 2010,
+     "cited_by": 2,
+     "venue": "Australasian Journal on Ageing",
+     "authors": "Allan Borowski"
+    },
+    {
+     "doi": null,
+     "title": "Fostering the emancipation of young people: Evidence from a Spanish rental subsidy",
+     "year": 2012,
+     "cited_by": 9,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Ainoa Aparicio Fenoll; Veruska Oppedisano"
+    },
+    {
+     "doi": "10.2139/ssrn.2089700",
+     "title": "Fostering the Emancipation of Young People: Evidence from a Spanish Rental Subsidy",
+     "year": 2012,
+     "cited_by": 2,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Ainhoa Aparicio; Veruska Oppedisano"
+    },
+    {
+     "doi": null,
+     "title": "Fostering the Emancipation of Young People: Evidence from a Spanish Rental Subsidy",
+     "year": 2012,
+     "cited_by": 1,
+     "venue": "RePEc: Research Papers in Economics",
+     "authors": "Ainoa Aparicio Fenoll; Ainhoa Aparicio-fenoll; Collegio Carlo Alberto"
+    },
+    {
+     "doi": "10.1016/j.jebo.2021.09.034",
+     "title": "The intergenerational impact of reduced generosity in the social safety net",
+     "year": 2021,
+     "cited_by": 5,
+     "venue": "Journal of Economic Behavior & Organization",
+     "authors": "Agne Suziedelyte; Anna Zhu"
+    },
+    {
+     "doi": "10.1016/j.ahj.2007.02.025",
+     "title": "AMPD1 gene polymorphism and survival in patients with stable congestive heart failure",
+     "year": 2007,
+     "cited_by": 1,
+     "venue": "American Heart Journal",
+     "authors": "Barry R. Palmer; Chris Frampton; Mark Richards"
+    },
+    {
+     "doi": "10.15781/t2qj7839r",
+     "title": "Essays on the economics of health insurance, labor markets, and migration",
+     "year": 2016,
+     "cited_by": 1,
+     "venue": "Texas ScholarWorks (Texas Digital Library)",
+     "authors": "Ricki Marie Sears Dolan"
+    },
+    {
+     "doi": "10.15453/0191-5096.2660",
+     "title": "Journal of Sociology & Social Welfare Vol. 27, No. 3 (September 2000)",
+     "year": 2000,
+     "cited_by": 0,
+     "venue": "The Journal of Sociology & Social Welfare",
+     "authors": ""
+    },
+    {
+     "doi": "10.1111/j.1467-8462.2010.00613.x",
+     "title": "The Henry Review and the Social Security System",
+     "year": 2010,
+     "cited_by": 2,
+     "venue": "Australian Economic Review",
+     "authors": "Peter Whiteford"
+    }
+   ]
+  },
+  "2_move_out_grant::A": {
+   "design": "2_move_out_grant",
+   "vocabulary": "A",
+   "treatment": "(\"rent subsidy\" OR \"housing subsidy\" OR \"move-out grant\" OR \"youth housing policy\" OR \"housing grant\")",
+   "n_with_fertility_axis": 0,
+   "n_arrangement_only": 17,
+   "error": null,
+   "records_with_fertility": []
+  },
+  "2_move_out_grant::B": {
+   "design": "2_move_out_grant",
+   "vocabulary": "B",
+   "treatment": "(\"cash transfer\" OR \"conditional transfer\" OR \"leaving-home subsidy\" OR \"independence allowance\" OR \"starter home\")",
+   "n_with_fertility_axis": 15,
+   "n_arrangement_only": 107,
+   "error": null,
+   "records_with_fertility": [
+    {
+     "doi": "10.1363/3920513",
+     "title": "The Oportunidades Conditional Cash Transfer Program: Effects on Pregnancy and Contraceptive Use Among Young Rural Women in Mexico",
+     "year": 2013,
+     "cited_by": 41,
+     "venue": "International Perspectives on Sexual and Reproductive Health",
+     "authors": "Blair G. Darney; Marcia R. Weaver; Sandra G. Sosa\u2010Rub\u00ed"
+    },
+    {
+     "doi": "10.1515/bejeap-2014-0003",
+     "title": "Fostering Household Formation: Evidence from a Spanish Rental Subsidy",
+     "year": 2014,
+     "cited_by": 14,
+     "venue": "The B E Journal of Economic Analysis & Policy",
+     "authors": "Ainoa Aparicio Fenoll; Veruska Oppedisano"
+    },
+    {
+     "doi": "10.1016/j.jadohealth.2017.05.023",
+     "title": "Effects of a Parenting Program Among Women Who Began Childbearing as Adolescents and Young Adults",
+     "year": 2017,
+     "cited_by": 5,
+     "venue": "Journal of Adolescent Health",
+     "authors": "Rose M. C. Kagawa; Julianna Deardorff; Armando Garc\u00eda\u2010Guerra"
+    },
+    {
+     "doi": null,
+     "title": "Experimental Evidence of Exposure to a Conditional Cash Transfer During Early Teenage Years: Young Women's Fertility and Labor Market Outcomes",
+     "year": 2018,
+     "cited_by": 6,
+     "venue": "RePEc: Research Papers in Economics",
+     "authors": "Tania Barham; Karen Macours; John A. Maluccio"
+    },
+    {
+     "doi": "10.1093/geronb/63.6.s349",
+     "title": "Parental Marital Disruption, Family Type, and Transfers to Disabled Elderly Parents",
+     "year": 2008,
+     "cited_by": 73,
+     "venue": "The Journals of Gerontology Series B",
+     "authors": "Liliana E. Pezzin; Robert A. Pollak; Barbara Steinberg Schone"
+    },
+    {
+     "doi": null,
+     "title": "Fostering the emancipation of young people: Evidence from a Spanish rental subsidy",
+     "year": 2012,
+     "cited_by": 9,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Ainoa Aparicio Fenoll; Veruska Oppedisano"
+    },
+    {
+     "doi": "10.1016/j.jadohealth.2019.01.012",
+     "title": "Veering From a Narrow Path: The Second Decade of Social Norms Research",
+     "year": 2019,
+     "cited_by": 21,
+     "venue": "Journal of Adolescent Health",
+     "authors": "Jeffrey B. Bingenheimer"
+    },
+    {
+     "doi": "10.2139/ssrn.2089700",
+     "title": "Fostering the Emancipation of Young People: Evidence from a Spanish Rental Subsidy",
+     "year": 2012,
+     "cited_by": 2,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Ainhoa Aparicio; Veruska Oppedisano"
+    },
+    {
+     "doi": null,
+     "title": "Fostering the Emancipation of Young People: Evidence from a Spanish Rental Subsidy",
+     "year": 2012,
+     "cited_by": 1,
+     "venue": "RePEc: Research Papers in Economics",
+     "authors": "Ainoa Aparicio Fenoll; Ainhoa Aparicio-fenoll; Collegio Carlo Alberto"
+    },
+    {
+     "doi": "10.4324/9781315552552-21",
+     "title": "Long-term Care: The Persistence of Familialism",
+     "year": 2016,
+     "cited_by": 11,
+     "venue": null,
+     "authors": "Sebasti\u00e1n Sarasa"
+    },
+    {
+     "doi": "10.2139/ssrn.1305810",
+     "title": "Parental Marital Disruption, Family Type, and Transfers to Disabled Elderly Parents",
+     "year": 2008,
+     "cited_by": 1,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Liliana E. Pezzin; Robert A. Pollak; Barbara Steinberg Schone"
+    },
+    {
+     "doi": "10.1002/cl2.1140",
+     "title": "PROTOCOL: Involving men and boys in family planning: A systematic review of the effective components and characteristics of complex interventions in low\u2010 and middle\u2010income countries",
+     "year": 2021,
+     "cited_by": 9,
+     "venue": "Campbell Systematic Reviews",
+     "authors": "\u00c1ine Aventin; Martin Robinson; Jennifer Hanratty"
+    },
+    {
+     "doi": "10.1002/cl2.1042",
+     "title": "PROTOCOL: The effects of empowerment\u2010based nutrition interventions on the nutritional status of adolescent girls in low\u2010 and middle\u2010income countries",
+     "year": 2019,
+     "cited_by": 9,
+     "venue": "Campbell Systematic Reviews",
+     "authors": "Alison Riddle; Cynthia M. Kroeger; Abigail Kaplan Ramage"
+    },
+    {
+     "doi": "10.1111/j.1467-8462.2010.00613.x",
+     "title": "The Henry Review and the Social Security System",
+     "year": 2010,
+     "cited_by": 2,
+     "venue": "Australian Economic Review",
+     "authors": "Peter Whiteford"
+    },
+    {
+     "doi": "10.1086/716432",
+     "title": "Introduction",
+     "year": 2021,
+     "cited_by": 0,
+     "venue": "National Tax Journal",
+     "authors": "Laura Kawano"
+    }
+   ]
+  },
+  "3_administrative_allocation::A": {
+   "design": "3_administrative_allocation",
+   "vocabulary": "A",
+   "treatment": "(\"public housing\" OR \"social housing\" OR \"housing lottery\" OR \"housing allocation\" OR \"waiting list\")",
+   "n_with_fertility_axis": 10,
+   "n_arrangement_only": 440,
+   "error": null,
+   "records_with_fertility": [
+    {
+     "doi": "10.1080/10511482.2016.1254098",
+     "title": "Do Neighborhood Effects on Low-Income Minority Children Depend on Their Age? Evidence From a Public Housing Natural Experiment",
+     "year": 2017,
+     "cited_by": 27,
+     "venue": "Housing Policy Debate",
+     "authors": "George Galster; Anna Maria Santiago"
+    },
+    {
+     "doi": "10.1111/j.1749-6632.1990.tb16938.x",
+     "title": "Low Fertility in Industrial Countries: Causes, Consequences, Policies",
+     "year": 1990,
+     "cited_by": 1,
+     "venue": "Annals of the New York Academy of Sciences",
+     "authors": "Roberto Bachi"
+    },
+    {
+     "doi": "10.2139/ssrn.2563141",
+     "title": "Opportunity Neighborhoods for Latino and African American Children",
+     "year": 2015,
+     "cited_by": 14,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Anna Maria Santiago; George Galster; Jessica Lee Lucero"
+    },
+    {
+     "doi": "10.1097/md.0000000000019919",
+     "title": "Study protocol for the Fex-Can Childhood project",
+     "year": 2020,
+     "cited_by": 11,
+     "venue": "Medicine",
+     "authors": "Lisa Ljungman; Poorna Anandavadivelan; Kirsi Jahnukainen"
+    },
+    {
+     "doi": null,
+     "title": "Neighborhood Risk and Protective Factors for Teenage Childbearing and Fathering Among Minority Youth: An Examination of the Timing and Nonlinearities of Neighborhood Effects",
+     "year": 2012,
+     "cited_by": 0,
+     "venue": "Digital Commons - USU (Utah State University)",
+     "authors": "Jessica Lee Lucero; A. M. Santiago; G. G. Galster"
+    },
+    {
+     "doi": null,
+     "title": "Neighborhood Risk and Protective Factors for Teenage Childbearing and Fathering among Latino and African American Youth: An examination of the Magnitude and Timing of Neighborhood Effects",
+     "year": 2011,
+     "cited_by": 0,
+     "venue": "Digital Commons - USU (Utah State University)",
+     "authors": "Jessica Lee Lucero; A. M. Santiago; G. G. Galster"
+    },
+    {
+     "doi": "10.5194/ica-abs-1-195-2019",
+     "title": "Housing challenges in shrinking and aging Japanese cities",
+     "year": 2019,
+     "cited_by": 3,
+     "venue": "Abstracts of the ICA",
+     "authors": "Tomoko Kubo"
+    },
+    {
+     "doi": "10.1111/j.1467-8462.2010.00613.x",
+     "title": "The Henry Review and the Social Security System",
+     "year": 2010,
+     "cited_by": 2,
+     "venue": "Australian Economic Review",
+     "authors": "Peter Whiteford"
+    },
+    {
+     "doi": "10.1097/or9.0000000000000030",
+     "title": "Individual Abstracts",
+     "year": 2020,
+     "cited_by": 0,
+     "venue": "Journal of Psychosocial Oncology Research and Practice",
+     "authors": ""
+    },
+    {
+     "doi": "10.1108/978-1-78973-343-320201015",
+     "title": "Index",
+     "year": 2020,
+     "cited_by": 0,
+     "venue": null,
+     "authors": ""
+    }
+   ]
+  },
+  "3_administrative_allocation::B": {
+   "design": "3_administrative_allocation",
+   "vocabulary": "B",
+   "treatment": "(hukou OR \"work unit\" OR danwei OR \"housing restitution\" OR \"housing privatization\" OR \"council housing\")",
+   "n_with_fertility_axis": 2,
+   "n_arrangement_only": 55,
+   "error": null,
+   "records_with_fertility": [
+    {
+     "doi": "10.2139/ssrn.4145178",
+     "title": "How Grandparents' Coresidence Affects the Relationship Between Fertility and Parental Labor Market Choices: Evidence From China",
+     "year": 2022,
+     "cited_by": 0,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Cheng Chen; Ying-Min Kuo; Wangyang Zhao"
+    },
+    {
+     "doi": "10.1007/978-3-031-57216-6_7",
+     "title": "The Postponement of Family Formation Due to Employment Instability",
+     "year": 2024,
+     "cited_by": 0,
+     "venue": "Life course research and social policies",
+     "authors": "Sandra V. Constantin"
+    }
+   ]
+  },
+  "4_compulsory_removal::A": {
+   "design": "4_compulsory_removal",
+   "vocabulary": "A",
+   "treatment": "(conscription OR \"military service\" OR \"compulsory service\" OR draft)",
+   "n_with_fertility_axis": 53,
+   "n_arrangement_only": 1407,
+   "error": null,
+   "records_with_fertility": [
+    {
+     "doi": "10.1016/j.urology.2009.12.007",
+     "title": "Cut-off Value of Testes Volume in Young Adults and Correlation Among Testes Volume, Body Mass Index, Hormonal Level, and Seminal Profiles",
+     "year": 2010,
+     "cited_by": 104,
+     "venue": "Urology",
+     "authors": "Jong Yoon Bahk; Jae Hung Jung; Lee Mi Jin"
+    },
+    {
+     "doi": "10.2307/3089835",
+     "title": "Smoking, Drinking, and Drug Use in Young Adulthood: The Impacts of New Freedoms and New Responsibilities",
+     "year": 2003,
+     "cited_by": 558,
+     "venue": "Contemporary Sociology A Journal of Reviews",
+     "authors": "Jacob Goldstein; Jerald G. Bachman; Katherine N. Wadsworth"
+    },
+    {
+     "doi": "10.1016/j.vaccine.2012.09.075",
+     "title": "Rubella seroprevalence in the first birth cohort reaching fertility age after 20 years of two dose universal vaccination policy in Israel",
+     "year": 2012,
+     "cited_by": 11,
+     "venue": "Vaccine",
+     "authors": "Hagai Levine; Omer E. Ankol; Vladi Rozhavski"
+    },
+    {
+     "doi": "10.2307/2061587",
+     "title": "Living arrangements and the transition to adulthood",
+     "year": 1985,
+     "cited_by": 130,
+     "venue": "Demography",
+     "authors": "Frances Goldscheider; Julie DaVanzo"
+    },
+    {
+     "doi": "10.1353/foc.0.0045",
+     "title": "The Military and the Transition to Adulthood",
+     "year": 2010,
+     "cited_by": 147,
+     "venue": "The Future of Children",
+     "authors": "Ryan Kelty; Meredith Kleykamp; David R. Segal"
+    },
+    {
+     "doi": "10.5694/mja2.51751",
+     "title": "Australian fertility preservation guidelines for people with cancer 2022: review and recommendations",
+     "year": 2022,
+     "cited_by": 17,
+     "venue": "The Medical Journal of Australia",
+     "authors": "Violet Kieu; Catharyn Stern; Jessica Harris"
+    },
+    {
+     "doi": "10.4324/9780203763797",
+     "title": "Smoking, Drinking, and Drug Use in Young Adulthood",
+     "year": 2013,
+     "cited_by": 97,
+     "venue": "Psychology Press eBooks",
+     "authors": "Jerald G. Bachman; Katherine N. Wadsworth; Patrick M. O\u2019Malley"
+    },
+    {
+     "doi": "10.1001/jamanetworkopen.2025.49071",
+     "title": "Development of a Health-Related Quality of Life Tool for Adolescents and Young Adults With Cancer",
+     "year": 2025,
+     "cited_by": 5,
+     "venue": "JAMA Network Open",
+     "authors": "Samantha C. Sodergren; Olga Husson; Silvie H. M. Janssen"
+    },
+    {
+     "doi": "10.1016/j.jtct.2024.06.006",
+     "title": "Pediatric Cancer Immunotherapy and Potential for Impact on Fertility: A Need for Evidence-Based Guidance",
+     "year": 2024,
+     "cited_by": 8,
+     "venue": "Transplantation and Cellular Therapy",
+     "authors": "John A. Ligon; Margaret Cupit-Link; Christine Yu"
+    },
+    {
+     "doi": "10.3389/fonc.2024.1395465",
+     "title": "The risk of peripartum cardiomyopathy among pediatric, adolescent, and young adult cancer patients exposed to doxorubicin: an opinion article",
+     "year": 2024,
+     "cited_by": 3,
+     "venue": "Frontiers in Oncology",
+     "authors": "Christina Carfagnini; Simon Bechara; Manasa Kandula"
+    },
+    {
+     "doi": "10.1093/ije/dyz115",
+     "title": "Cohort Profile: The National Longitudinal Study of Adolescent to Adult Health (Add Health)",
+     "year": 2019,
+     "cited_by": 535,
+     "venue": "International Journal of Epidemiology",
+     "authors": "Kathleen Mullan Harris; Carolyn Tucker Halpern; Eric A. Whitsel"
+    },
+    {
+     "doi": "10.1038/s41366-021-00824-3",
+     "title": "Overweight and obesity at age 19 after pre-natal famine exposure",
+     "year": 2021,
+     "cited_by": 42,
+     "venue": "International Journal of Obesity",
+     "authors": "L. H. Lumey; P. Ekamper; Govert E. Bijwaard"
+    },
+    {
+     "doi": "10.1093/med/9780190462253.003.0009",
+     "title": "Gender Considerations in Adolescents and Young Adults with Cancer (DRAFT)",
+     "year": 2018,
+     "cited_by": 0,
+     "venue": "Oxford University Press eBooks",
+     "authors": "Amanda L. Thompson; Molly Gardner"
+    },
+    {
+     "doi": null,
+     "title": "Home leaving behavior of American youth",
+     "year": 1992,
+     "cited_by": 0,
+     "venue": "Lincoln (University of Nebraska)",
+     "authors": "Shengming Tang"
+    },
+    {
+     "doi": "10.1111/1471-0528.70238",
+     "title": "Coordinating Fertility Preservation in Children and Young Adults at Risk of Treatment\u2010Induced Infertility: A Commentary",
+     "year": 2026,
+     "cited_by": 0,
+     "venue": "BJOG An International Journal of Obstetrics & Gynaecology",
+     "authors": "Ursula Blyth; Pedro Melo; Rod T. Mitchell"
+    },
+    {
+     "doi": null,
+     "title": "Run Effects of Military Service: Evidence from the 911 Attacks",
+     "year": null,
+     "cited_by": 0,
+     "venue": "RePEc: Research Papers in Economics",
+     "authors": "John Anders; Craig Wesley Carpenter"
+    },
+    {
+     "doi": "10.1093/ije/dyaf139",
+     "title": "Cohort Profile Update: The Norwegian Mother, Father and Child Cohort (MoBa)",
+     "year": 2025,
+     "cited_by": 44,
+     "venue": "International Journal of Epidemiology",
+     "authors": "Ragnhild Eek Brandlistuen; Dana Kristjansson; Elin R. Alsaker"
+    },
+    {
+     "doi": "10.1111/1471-0528.13782",
+     "title": "Adolescent pregnancy, nutrition, and health outcomes in low\u2010 and middle\u2010income countries: what we know and what we don't know",
+     "year": 2015,
+     "cited_by": 45,
+     "venue": "BJOG An International Journal of Obstetrics & Gynaecology",
+     "authors": "William Johnson; Sophie E. Moore"
+    },
+    {
+     "doi": "10.1093/geront/gnv673",
+     "title": "Older Women Veterans in the Women\u2019s Health Initiative",
+     "year": 2016,
+     "cited_by": 16,
+     "venue": "The Gerontologist",
+     "authors": "Gayle E. Reiber; Andrea Z. LaCroix"
+    },
+    {
+     "doi": "10.1007/s10147-022-02149-1",
+     "title": "Guidance on the need for contraception related to use of pharmaceuticals: the Japan Agency for Medical Research and Development Study Group for providing information on the proper use of pharmaceuticals in patients with reproductive potential",
+     "year": 2022,
+     "cited_by": 3,
+     "venue": "International Journal of Clinical Oncology",
+     "authors": "Nao Suzuki; Yasushi Takai; Masahito Yonemura"
+    },
+    {
+     "doi": "10.1093/jnci/djad066",
+     "title": "Making sense of the risks: what to tell adolescents and young adults diagnosed with cancer during pregnancy",
+     "year": 2023,
+     "cited_by": 0,
+     "venue": "JNCI Journal of the National Cancer Institute",
+     "authors": "Paul C. Nathan; H. Irene Su"
+    },
+    {
+     "doi": "10.1016/j.jadohealth.2018.10.229",
+     "title": "212. The Young Adult Action Research Team (YAART): Youth Perspectives On Promoting Gender Minority Health, Well-Being, And Research Partnership",
+     "year": 2019,
+     "cited_by": 0,
+     "venue": "Journal of Adolescent Health",
+     "authors": "Julia V. Taylor; Claire Romaine; Dallas Ducar"
+    },
+    {
+     "doi": "10.1093/jnci/djab127",
+     "title": "Early-Onset Colorectal Cancer: The Mystery Remains",
+     "year": 2021,
+     "cited_by": 25,
+     "venue": "JNCI Journal of the National Cancer Institute",
+     "authors": "Cathy Eng; Howard S. H\u00f6chster"
+    },
+    {
+     "doi": "10.1093/ije/dyad137",
+     "title": "Cohort Profile Update: Project Viva mothers",
+     "year": 2023,
+     "cited_by": 27,
+     "venue": "International Journal of Epidemiology",
+     "authors": "Sheryl L. Rifas\u2010Shiman; Izzuddin M. Aris; Karen M Switkowski"
+    },
+    {
+     "doi": "10.1097/00007435-200307000-00003",
+     "title": "Combating Chlamydia in the Military: Why Aren\u02bct We Winning the War?",
+     "year": 2003,
+     "cited_by": 12,
+     "venue": "Sexually Transmitted Diseases",
+     "authors": "Stephanie K. Brodine; Mary\u2013Ann Shafer"
+    }
+   ]
+  },
+  "4_compulsory_removal::B": {
+   "design": "4_compulsory_removal",
+   "vocabulary": "B",
+   "treatment": "(\"boarding school\" OR \"residential college\" OR \"university dormitory\" OR \"student housing\" OR \"campus housing\")",
+   "n_with_fertility_axis": 1,
+   "n_arrangement_only": 206,
+   "error": null,
+   "records_with_fertility": [
+    {
+     "doi": "10.3200/demo.17.1.19-40",
+     "title": "Russian Babies, Russian Babes: Economic and Demographic Implications of International Adoption and International Trafficking for Russia",
+     "year": 2009,
+     "cited_by": 4,
+     "venue": "Demokratizatsiya The Journal of Post-Soviet Democratization",
+     "authors": "Judith McKinney"
+    }
+   ]
+  },
+  "5_dwelling_shock::A": {
+   "design": "5_dwelling_shock",
+   "vocabulary": "A",
+   "treatment": "(earthquake OR flood OR hurricane OR \"natural disaster\" OR \"housing destruction\")",
+   "n_with_fertility_axis": 18,
+   "n_arrangement_only": 703,
+   "error": null,
+   "records_with_fertility": [
+    {
+     "doi": "10.1177/03795721231216230",
+     "title": "Trends in Dietary Micronutrient Adequacy in Young Adults Over the Latest 25 Years in Japan",
+     "year": 2023,
+     "cited_by": 3,
+     "venue": "Food and Nutrition Bulletin",
+     "authors": "Kenichiro Kobayashi; Takashi Torii; Toshiro Maihara"
+    },
+    {
+     "doi": "10.1002/(sici)1096-8644(2000)112:2<181::aid-ajpa5>3.0.co;2-9",
+     "title": "If a population crashes in prehistory, and there is no paleodemographer there to hear it, does it make a sound?",
+     "year": 2000,
+     "cited_by": 66,
+     "venue": "American Journal of Physical Anthropology",
+     "authors": "Richard R. Paine"
+    },
+    {
+     "doi": "10.1177/0024363918817319",
+     "title": "Rejecting Humanae Vitae : The Social Costs of Denying the Obvious",
+     "year": 2018,
+     "cited_by": 3,
+     "venue": "The Linacre Quarterly",
+     "authors": "Hanna Klaus"
+    },
+    {
+     "doi": "10.1038/embor.2008.110",
+     "title": "Pricing infectious disease",
+     "year": 2008,
+     "cited_by": 162,
+     "venue": "EMBO Reports",
+     "authors": "Peter Ndeboc Fonkwo"
+    },
+    {
+     "doi": null,
+     "title": "M\u0101ori and the [potential] demographic dividend",
+     "year": 2011,
+     "cited_by": 6,
+     "venue": "Research Commons (University of Waikato)",
+     "authors": "N Jackson"
+    },
+    {
+     "doi": "10.1093/ije/dyy075",
+     "title": "HDSS Profile: Mlomp Health and Demographic Surveillance System (Mlomp HDSS), Senegal",
+     "year": 2018,
+     "cited_by": 15,
+     "venue": "International Journal of Epidemiology",
+     "authors": "Gilles Pison; Baptiste Beck; Ousmane Ndiaye"
+    },
+    {
+     "doi": "10.1093/ije/dys090",
+     "title": "Profile: The Ouagadougou Health and Demographic Surveillance System",
+     "year": 2012,
+     "cited_by": 87,
+     "venue": "International Journal of Epidemiology",
+     "authors": "Cl\u00e9mentine Rossier; Abdramane Soura; B. Baya"
+    },
+    {
+     "doi": "10.1111/hae.12870",
+     "title": "Progress toward meeting the needs of adolescent females with bleeding disorders",
+     "year": 2016,
+     "cited_by": 6,
+     "venue": "Haemophilia",
+     "authors": "Barbara A. Konkle"
+    },
+    {
+     "doi": "10.1111/1751-7915.13037",
+     "title": "Microbiome Yarns: human biome reproduction, evolution and visual acuity,,,",
+     "year": 2017,
+     "cited_by": 2,
+     "venue": "Microbial Biotechnology",
+     "authors": "Kenneth N. Timmis; Franziska Jebok; Gabriella Molinari"
+    },
+    {
+     "doi": "10.1093/ije/dyh030",
+     "title": "Commentary: The art and science of epidemiology: governed by the seasons?",
+     "year": 2004,
+     "cited_by": 7,
+     "venue": "International Journal of Epidemiology",
+     "authors": "Debbie A. Lawlor"
+    },
+    {
+     "doi": "10.1093/occmed/kqaa082",
+     "title": "Occupational zoonoses potential in Southeast Asia",
+     "year": 2020,
+     "cited_by": 3,
+     "venue": "Occupational Medicine",
+     "authors": "Mira Hidajat; Frank de Vocht"
+    },
+    {
+     "doi": "10.1097/qad.0b013e3280ad3d93",
+     "title": "Immunization of the HIV infected traveller",
+     "year": 2007,
+     "cited_by": 17,
+     "venue": "AIDS",
+     "authors": "David Chadwick; Anna Mar\u00eda Geretti"
+    },
+    {
+     "doi": "10.1111/j.1523-1739.2011.01780.x",
+     "title": "Cultivating a Constituency for Conservation",
+     "year": 2011,
+     "cited_by": 4,
+     "venue": "Conservation Biology",
+     "authors": "Lowell Pritchard"
+    },
+    {
+     "doi": "10.1093/geroni/igac059.2140",
+     "title": "INTERGENERATIONAL TRANSMISSION OF \"SEVA\": ELDERS MODEL SELFLESS SERVICE IN SOUTH ASIAN HOMES FOR CHILDREN",
+     "year": 2022,
+     "cited_by": 0,
+     "venue": "Innovation in Aging",
+     "authors": "Connie Corley; Laura J. Sherwood; Dibendu Ghosh"
+    },
+    {
+     "doi": "10.1641/0006-3568(2002)052[0560:beitus]2.0.co;2",
+     "title": "Biology Education in the United States: The Unfinished Century",
+     "year": 2002,
+     "cited_by": 5,
+     "venue": "BioScience",
+     "authors": "Rodger W. Bybee"
+    },
+    {
+     "doi": "10.1111/1747-0080.12923",
+     "title": "A new approach to nutrition science is needed to address current food systems challenges",
+     "year": 2025,
+     "cited_by": 0,
+     "venue": "Nutrition & Dietetics",
+     "authors": "Priscila Machado"
+    },
+    {
+     "doi": "10.1542/pir.2019-0120",
+     "title": "International Adoption: A Review and Update",
+     "year": 2021,
+     "cited_by": 0,
+     "venue": "Pediatrics in Review",
+     "authors": "Judith K. Eckerle; Megan Bresnahan; Maria Kroupina"
+    },
+    {
+     "doi": "10.1093/dh/dhy081",
+     "title": "\u201cThe Authority of Academics in a Time of Turbulence\u201d",
+     "year": 2018,
+     "cited_by": 0,
+     "venue": "Diplomatic History",
+     "authors": "Peter L Hahn"
+    }
+   ]
+  },
+  "5_dwelling_shock::B": {
+   "design": "5_dwelling_shock",
+   "vocabulary": "B",
+   "treatment": "(\"war damage\" OR bombing OR \"forced displacement\" OR \"slum clearance\" OR \"urban renewal\" OR resettlement)",
+   "n_with_fertility_axis": 16,
+   "n_arrangement_only": 448,
+   "error": null,
+   "records_with_fertility": [
+    {
+     "doi": "10.1200/jco.2008.19.7749",
+     "title": "Rates of Postcancer Parenthood",
+     "year": 2008,
+     "cited_by": 28,
+     "venue": "Journal of Clinical Oncology",
+     "authors": "Leslie R. Schover"
+    },
+    {
+     "doi": "10.1016/j.jtrangeo.2019.03.010",
+     "title": "Active travel for active ageing in China: The role of built environment",
+     "year": 2019,
+     "cited_by": 243,
+     "venue": "Journal of Transport Geography",
+     "authors": "Long Cheng; Xuewu Chen; Shuo Yang"
+    },
+    {
+     "doi": "10.1016/j.compenvurbsys.2017.03.008",
+     "title": "Modelling the impact of household life cycle on slums in Bangalore",
+     "year": 2017,
+     "cited_by": 16,
+     "venue": "Computers Environment and Urban Systems",
+     "authors": "Debraj Roy; Michael Lees; Karin Pfeffer"
+    },
+    {
+     "doi": "10.1596/13603",
+     "title": "Some Economic Consequences of Global Aging : A Discussion Note for the World Bank",
+     "year": 2010,
+     "cited_by": 47,
+     "venue": "World Bank, Washington, DC eBooks",
+     "authors": "Ronald Lee; Andrew Mason; Daniel Cotlear"
+    },
+    {
+     "doi": "10.1002/cncr.26703",
+     "title": "Adolescent and young adult oncology comes of age",
+     "year": 2011,
+     "cited_by": 0,
+     "venue": "Cancer",
+     "authors": "Carrie Printz"
+    },
+    {
+     "doi": "10.1126/science.333.6042.538",
+     "title": "Doom or Vroom?",
+     "year": 2011,
+     "cited_by": 4,
+     "venue": "Science",
+     "authors": "Gilbert Chin; Tara Marathe; Leslie Roberts"
+    },
+    {
+     "doi": "10.18666/jpra-2024-12057",
+     "title": "s Recreation Part of the Story? Stakeholders\u2019 Narratives about Youth Retention in a Rural State",
+     "year": 2024,
+     "cited_by": 1,
+     "venue": "Journal of Park and Recreation Administration",
+     "authors": "Hannah Falcone; Cindy L. Hartman; Jayson Seaman"
+    },
+    {
+     "doi": "10.1542/pir.31.6.234",
+     "title": "Childhood Leukemia",
+     "year": 2010,
+     "cited_by": 18,
+     "venue": "Pediatrics in Review",
+     "authors": "John J. Hutter"
+    },
+    {
+     "doi": "10.1002/psp.70014",
+     "title": "Population Geographies in China: Future Directions of Travel",
+     "year": 2025,
+     "cited_by": 2,
+     "venue": "Population Space and Place",
+     "authors": "Hengyu Gu; Hengyu Gu; Darren Smith"
+    },
+    {
+     "doi": "10.1017/cbo9781316530429.003",
+     "title": "Misguided Citizens? Transitions into Adulthood and the Management of Diversity",
+     "year": 2016,
+     "cited_by": 0,
+     "venue": "Cambridge University Press eBooks",
+     "authors": "Heli Askola"
+    },
+    {
+     "doi": null,
+     "title": "Determinants and consequences of internal migration--some African findings.",
+     "year": 1983,
+     "cited_by": 0,
+     "venue": "PubMed",
+     "authors": ""
+    },
+    {
+     "doi": "10.1136/esmoopen-2018-eacr25.643",
+     "title": "PO-118 Impact of parity on neutron-induced mammary cancer risk in sprague-dawley rats",
+     "year": 2018,
+     "cited_by": 0,
+     "venue": "ESMO Open",
+     "authors": "Masaharu Nishimura; Tatsuhiko Imaoka; Kazuhiro Daino"
+    },
+    {
+     "doi": "10.1093/ejcts/ezu295",
+     "title": "ESTS Presidential Address Education motivation . . . inspiration of Generation Y. The evolution of our species",
+     "year": 2014,
+     "cited_by": 2,
+     "venue": "European Journal of Cardio-Thoracic Surgery",
+     "authors": "Federico Venuta"
+    },
+    {
+     "doi": "10.1353/nib.2014.0027",
+     "title": "Advocates, Not Problem Parents",
+     "year": 2014,
+     "cited_by": 0,
+     "venue": "Narrative Inquiry in Bioethics",
+     "authors": "Anonymous Two"
+    },
+    {
+     "doi": "10.5325/utopianstudies.35.2-3.0573",
+     "title": "Between Dystopia and Utopia in Catalonia: On the Fiftieth Anniversary of Manuel De Pedrolo\u2019s Mecanoscrit del Segon Origen",
+     "year": 2024,
+     "cited_by": 0,
+     "venue": "Utopian Studies",
+     "authors": "Sara Mart\u00edn Alegre"
+    },
+    {
+     "doi": "10.1108/978-1-78973-343-320201015",
+     "title": "Index",
+     "year": 2020,
+     "cited_by": 0,
+     "venue": null,
+     "authors": ""
+    }
+   ]
+  },
+  "6_legal_support_age::A": {
+   "design": "6_legal_support_age",
+   "vocabulary": "A",
+   "treatment": "(\"age of majority\" OR \"parental support obligation\" OR \"filial responsibility law\" OR \"legal drinking age\")",
+   "n_with_fertility_axis": 2,
+   "n_arrangement_only": 223,
+   "error": null,
+   "records_with_fertility": [
+    {
+     "doi": "10.1037/dev0000022",
+     "title": "Historical variation in young adult binge drinking trajectories and its link to historical variation in social roles and minimum legal drinking age.",
+     "year": 2015,
+     "cited_by": 56,
+     "venue": "Developmental Psychology",
+     "authors": "Justin Jager; Katherine M. Keyes; John E. Schulenberg"
+    },
+    {
+     "doi": "10.1542/pir.31.12.497",
+     "title": "Transition of Adolescents to Young Adulthood for Vulnerable Populations",
+     "year": 2010,
+     "cited_by": 6,
+     "venue": "Pediatrics in Review",
+     "authors": "Tressia Shaw; David E. DeLaet"
+    }
+   ]
+  },
+  "6_legal_support_age::B": {
+   "design": "6_legal_support_age",
+   "vocabulary": "B",
+   "treatment": "(\"child support\" OR \"dependency age\" OR \"tax dependent\" OR \"family allowance eligibility\" OR \"insurance coverage age\")",
+   "n_with_fertility_axis": 10,
+   "n_arrangement_only": 67,
+   "error": null,
+   "records_with_fertility": [
+    {
+     "doi": "10.1016/j.jpubeco.2018.06.003",
+     "title": "Parental responses to child support obligations: Evidence from administrative data",
+     "year": 2018,
+     "cited_by": 10,
+     "venue": "Journal of Public Economics",
+     "authors": "Maya Rossin\u2010Slater; Miriam W\u00fcst"
+    },
+    {
+     "doi": "10.3386/w22227",
+     "title": "Parental Responses to Child Support Obligations: Evidence from Administrative Data",
+     "year": 2016,
+     "cited_by": 4,
+     "venue": "National Bureau of Economic Research",
+     "authors": "Maya Rossin\u2010Slater; Miriam W\u00fcst"
+    },
+    {
+     "doi": "10.2307/353611",
+     "title": "Father-Child Relations, Mother-Child Relations, and Offspring Psychological Well-Being in Early Adulthood",
+     "year": 1994,
+     "cited_by": 482,
+     "venue": "Journal of Marriage and the Family",
+     "authors": "Paul R. Amato"
+    },
+    {
+     "doi": "10.1515/9781400880102",
+     "title": "An Economic Analysis of the Family",
+     "year": 2003,
+     "cited_by": 180,
+     "venue": "Princeton University Press eBooks",
+     "authors": "John Ermisch"
+    },
+    {
+     "doi": null,
+     "title": "Black Males Left Behind",
+     "year": 2006,
+     "cited_by": 108,
+     "venue": null,
+     "authors": "Ronald B. Mincy"
+    },
+    {
+     "doi": null,
+     "title": "Continuity & change in the American family",
+     "year": 2002,
+     "cited_by": 32,
+     "venue": "Medical Entomology and Zoology",
+     "authors": "Lynne M. Casper; Suzanne M. Bianchi"
+    },
+    {
+     "doi": "10.1093/ije/dyz115",
+     "title": "Cohort Profile: The National Longitudinal Study of Adolescent to Adult Health (Add Health)",
+     "year": 2019,
+     "cited_by": 535,
+     "venue": "International Journal of Epidemiology",
+     "authors": "Kathleen Mullan Harris; Carolyn Tucker Halpern; Eric A. Whitsel"
+    },
+    {
+     "doi": "10.1093/ije/dyy133",
+     "title": "Cohort Profile: The National Longitudinal Survey of Youth 1979 (NLSY79)",
+     "year": 2018,
+     "cited_by": 53,
+     "venue": "International Journal of Epidemiology",
+     "authors": "Donna S. Rothstein; Deborah Carr; Elizabeth C. Cooksey"
+    },
+    {
+     "doi": null,
+     "title": "Parental Responses to Child Support Obligations: Evidence from Administrative Data",
+     "year": 2016,
+     "cited_by": 0,
+     "venue": "RePEc: Research Papers in Economics",
+     "authors": "Maya Rossin\u2010Slater; Miriam W\u00fcst"
+    },
+    {
+     "doi": "10.1002/pam.22637",
+     "title": "The Marriage Paradox: Understanding and remedying the paradoxical place of marriage in America",
+     "year": 2024,
+     "cited_by": 3,
+     "venue": "Journal of Policy Analysis and Management",
+     "authors": "W. Bradford Wilcox; Alan J. Hawkins"
+    }
+   ]
+  },
+  "7_sibling_instrument::A": {
+   "design": "7_sibling_instrument",
+   "vocabulary": "A",
+   "treatment": "(\"birth order\" OR \"sibling composition\" OR \"sibship size\" OR \"number of siblings\")",
+   "n_with_fertility_axis": 28,
+   "n_arrangement_only": 291,
+   "error": null,
+   "records_with_fertility": [
+    {
+     "doi": "10.2307/2578634",
+     "title": "Birth Order: Its Influence on Personality.",
+     "year": 1985,
+     "cited_by": 315,
+     "venue": "Social Forces",
+     "authors": "Eleanor Singer; C\u00e9cile Ernst; Jules Angst"
+    },
+    {
+     "doi": "10.4054/demres.2018.39.10",
+     "title": "The influence of the number of siblings on expected family size in a cohort of young adults in Germany",
+     "year": 2018,
+     "cited_by": 11,
+     "venue": "Demographic Research",
+     "authors": "Petra Buhr; Katharina Lutz; T. Raimondi Peter"
+    },
+    {
+     "doi": null,
+     "title": "Birth Order and Child Health",
+     "year": 2017,
+     "cited_by": 13,
+     "venue": "RePEc: Research Papers in Economics",
+     "authors": "Evelina Lundberg; Helena Svaleryd"
+    },
+    {
+     "doi": "10.1007/s11113-020-09619-2",
+     "title": "When Size Matters: IV Estimates of Sibship Size on Educational Attainment in the U.S.",
+     "year": 2020,
+     "cited_by": 9,
+     "venue": "Population Research and Policy Review",
+     "authors": "Christina J. Diaz; Jeremy E. Fiel"
+    },
+    {
+     "doi": "10.1111/j.1741-3737.2001.00355.x",
+     "title": "Academic and Behavioral Outcomes Among the Children of Young Mothers",
+     "year": 2001,
+     "cited_by": 152,
+     "venue": "Journal of Marriage and the Family",
+     "authors": "Judith A. Levine; Harold A. Pollack; Maureen E. Comfort"
+    },
+    {
+     "doi": null,
+     "title": "[[Coresidence with parents and marriage in modern Japan]].",
+     "year": 1991,
+     "cited_by": 1,
+     "venue": "PubMed",
+     "authors": "K Hirosima"
+    },
+    {
+     "doi": "10.2307/2547499",
+     "title": "Migration and Union Dissolution among Puerto Rican Women",
+     "year": 1995,
+     "cited_by": 56,
+     "venue": "International Migration Review",
+     "authors": "Nancy S. Landale; Nimfa B. Ogena"
+    },
+    {
+     "doi": "10.1016/j.socscimed.2013.11.054",
+     "title": "Survival of offspring who experience early parental death: Early life conditions and later-life mortality",
+     "year": 2014,
+     "cited_by": 67,
+     "venue": "Social Science & Medicine",
+     "authors": "Ken R. Smith; Heidi A. Hanson; Maria C. Norton"
+    },
+    {
+     "doi": "10.1186/1471-2393-14-240",
+     "title": "The effect of mother\u2019s age and other related factors on neonatal survival associated with first and second birth in rural, Tanzania: evidence from Ifakara health and demographic surveillance system in rural Tanzania",
+     "year": 2014,
+     "cited_by": 46,
+     "venue": "BMC Pregnancy and Childbirth",
+     "authors": "Majige Selemani; Mathew Alexander Mwanyangala; Sigilbert Mrema"
+    },
+    {
+     "doi": "10.2139/ssrn.2796602",
+     "title": "Family Size, Sibling Rivalry and Migration: Evidence from Mexico",
+     "year": 2016,
+     "cited_by": 3,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Massimiliano Bratti; Simona Fiore; Mariapia Mendola"
+    },
+    {
+     "doi": null,
+     "title": "[Household changes in Japan: major findings of the Third National Survey, 1994].",
+     "year": 1996,
+     "cited_by": 2,
+     "venue": "PubMed",
+     "authors": "K Hirosima; Makoto Oe; Chizuko Yamamoto"
+    },
+    {
+     "doi": "10.7326/0003-4819-91-2-316",
+     "title": "Immunity in Hodgkin's Disease",
+     "year": 1979,
+     "cited_by": 5,
+     "venue": "Annals of Internal Medicine",
+     "authors": "Nancy Gutensohn; PHILIP COLE"
+    },
+    {
+     "doi": "10.33119/sd.2014.1.2",
+     "title": "Spo\u0142eczno-ekonomiczne predyktory pogl\u0105d\u00f3w kobiet i m\u0119\u017cczyzn dotycz\u0105cych kulturowych r\u00f3l p\u0142ci w Polsce",
+     "year": 2014,
+     "cited_by": 4,
+     "venue": "Studia Demograficzne",
+     "authors": "Katarzyna Kocot-G\u00f3recka"
+    },
+    {
+     "doi": "10.1016/j.ehb.2026.101617",
+     "title": "Explaining birth order effects on child nutrition: Evidence from Kyrgyzstan",
+     "year": 2026,
+     "cited_by": 0,
+     "venue": "Economics & Human Biology",
+     "authors": "Dinara Issabekova; Dana Bazarkulova"
+    },
+    {
+     "doi": "10.1093/ije/dyx104",
+     "title": "Cohort Profile: 2001 Cohort of the Longitudinal Survey of Newborns in the 21st Century",
+     "year": 2017,
+     "cited_by": 31,
+     "venue": "International Journal of Epidemiology",
+     "authors": "Kana Fuse; Nobuo Nishi; Nayu Ikeda"
+    },
+    {
+     "doi": "10.18535/jmscr/v6i9.119",
+     "title": "A Cross- Sectional Study to Assess the Extent of Helicopter Parenting in Adolescent Age Group",
+     "year": 2018,
+     "cited_by": 3,
+     "venue": "Journal of Medical Science And clinical Research",
+     "authors": "Dr Ruchita Banseria"
+    },
+    {
+     "doi": "10.3390/su18073278",
+     "title": "Sustainability Analysis: Research on China\u2019s Real Estate Economy and Business Based on the CFPS Data",
+     "year": 2026,
+     "cited_by": 1,
+     "venue": "Sustainability",
+     "authors": "Yan Wang; Yan Shi; Xiao-Meng Zhou"
+    },
+    {
+     "doi": null,
+     "title": "Academic and Behavioral Outcomes among the Children of Young Mothers",
+     "year": 2001,
+     "cited_by": 1,
+     "venue": null,
+     "authors": "Judith A. Levine; Harold A. Pollack; Maureen E. Comfort"
+    },
+    {
+     "doi": "10.31235/osf.io/zjk2t_v1",
+     "title": "Growing Up Unequal: Family Background and Fertility Expectations in the United States",
+     "year": 2026,
+     "cited_by": 0,
+     "venue": null,
+     "authors": "Martin G\u00e4decke; Ana Karalashvili"
+    },
+    {
+     "doi": null,
+     "title": "Growing Up Unequal: Family Background and Fertility Expectations in the United States",
+     "year": 2026,
+     "cited_by": 0,
+     "venue": "SocArXiv (OSF Preprints)",
+     "authors": "Ana Karalashvili; Martin G\u00e4decke"
+    },
+    {
+     "doi": "10.2139/ssrn.2895310",
+     "title": "Family Size, Sibling Rivalry and Migration: Evidence from Mexico",
+     "year": 2017,
+     "cited_by": 0,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Massimiliano Bratti; Simona Fiore; Mariapia Mendola"
+    },
+    {
+     "doi": "10.2139/ssrn.2895274",
+     "title": "Family Size, Sibling Rivalry and Migration: Evidence from Mexico",
+     "year": 2017,
+     "cited_by": 0,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Massimiliano Bratti; Simona Fiore; Mariapia Mendola"
+    },
+    {
+     "doi": "10.1093/jnci/djs252",
+     "title": "Non-Hodgkin Lymphoma in Early Life",
+     "year": 2012,
+     "cited_by": 3,
+     "venue": "JNCI Journal of the National Cancer Institute",
+     "authors": "B. Emmanuel; William F. Anderson"
+    },
+    {
+     "doi": null,
+     "title": "Na\u015fterile \u00een contexte diferite de cel marital",
+     "year": 2011,
+     "cited_by": 0,
+     "venue": "Revista Calitatea Vie\u021bii",
+     "authors": "Mihaela H\u0103r\u0103gu\u0219"
+    },
+    {
+     "doi": "10.17323/demreview.v2i4.1772",
+     "title": "\u0414\u0435\u043c\u043e\u0433\u0440\u0430\u0444\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0434\u0430\u0439\u0434\u0436\u0435\u0441\u0442",
+     "year": 2016,
+     "cited_by": 0,
+     "venue": "\u0414\u0435\u043c\u043e\u0433\u0440\u0430\u0444\u0438\u0447\u0435\u0441\u043a\u043e\u0435 \u043e\u0431\u043e\u0437\u0440\u0435\u043d\u0438\u0435",
+     "authors": "\u0418\u043b\u044c\u044f \u0421\u0430\u0432\u0435\u043b\u044c\u0435\u0432\u0438\u0447 \u041a\u0430\u0448\u043d\u0438\u0446\u043a\u0438\u0439"
+    }
+   ]
+  },
+  "7_sibling_instrument::B": {
+   "design": "7_sibling_instrument",
+   "vocabulary": "B",
+   "treatment": "(\"twin birth\" OR \"sex composition\" OR \"instrumental variable\" OR \"exogenous variation\")",
+   "n_with_fertility_axis": 29,
+   "n_arrangement_only": 269,
+   "error": null,
+   "records_with_fertility": [
+    {
+     "doi": "10.1017/cbo9780511781001.010",
+     "title": "Age and Sex Composition",
+     "year": 2010,
+     "cited_by": 140,
+     "venue": "Cambridge University Press eBooks",
+     "authors": "Dudley L. Poston; Le\u00f3n F. Bouvier"
+    },
+    {
+     "doi": "10.1080/02673030701474669",
+     "title": "The Influence of Neighborhood Poverty During Childhood on Fertility, Education, and Earnings Outcomes",
+     "year": 2007,
+     "cited_by": 130,
+     "venue": "Housing Studies",
+     "authors": "George Galster; Dave E. Marcotte; Marv Mandell"
+    },
+    {
+     "doi": "10.1007/s12187-020-09753-5",
+     "title": "Having Children in a Time of Lowest-Low Fertility: Value of Children, Sex Preference and Fertility Desire among Taiwanese Young Adults",
+     "year": 2020,
+     "cited_by": 25,
+     "venue": "Child Indicators Research",
+     "authors": "Li-Chung Hu; Yi\u2010Lin Chiang"
+    },
+    {
+     "doi": "10.1080/00324728.1975.10410185",
+     "title": "Factors associated with the timing and duration of the leaving-home stage of the family life cycle",
+     "year": 1975,
+     "cited_by": 23,
+     "venue": "Population Studies",
+     "authors": "Christabel Young"
+    },
+    {
+     "doi": "10.1093/aje/kww010",
+     "title": "Instrumental-Variables Simultaneous Equations Model of Physical Activity and Body Mass Index",
+     "year": 2016,
+     "cited_by": 4,
+     "venue": "American Journal of Epidemiology",
+     "authors": "Katie A. Meyer; David K. Guilkey; Hsiao-Chuen Tien"
+    },
+    {
+     "doi": "10.1016/j.chieco.2025.102430",
+     "title": "Long-term consequences of fertility on elderly labor supply",
+     "year": 2025,
+     "cited_by": 4,
+     "venue": "China Economic Review",
+     "authors": "Sophie Xuefei Wang"
+    },
+    {
+     "doi": "10.3389/fpsyg.2025.1676542",
+     "title": "The impact of digital health literacy on marriage-and-childbearing anxiety among Chinese youth of reproductive age",
+     "year": 2025,
+     "cited_by": 1,
+     "venue": "Frontiers in Psychology",
+     "authors": "Hao Li; Jiao Li; Zihan Yang"
+    },
+    {
+     "doi": "10.1007/s11113-020-09619-2",
+     "title": "When Size Matters: IV Estimates of Sibship Size on Educational Attainment in the U.S.",
+     "year": 2020,
+     "cited_by": 9,
+     "venue": "Population Research and Policy Review",
+     "authors": "Christina J. Diaz; Jeremy E. Fiel"
+    },
+    {
+     "doi": null,
+     "title": "Early Labour Market Distruption: Effect of Young Adult Childbearing on the Women's Labour Market Outcome",
+     "year": 2015,
+     "cited_by": 0,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Philip J. Rosenbaum"
+    },
+    {
+     "doi": "10.17615/br9m-fp31",
+     "title": "Instrumental-Variables Simultaneous Equations Model of Physical Activity and Body Mass Index: The Coronary Artery Risk Development in Young Adults (CARDIA) Study",
+     "year": 2020,
+     "cited_by": 0,
+     "venue": "The Journal of the American Medical Association (JAMA) Network (American Medical Association)",
+     "authors": "P. Gordon-Larsen; H.-C. Tien; C.I. Kiefe"
+    },
+    {
+     "doi": "10.2139/ssrn.4145178",
+     "title": "How Grandparents' Coresidence Affects the Relationship Between Fertility and Parental Labor Market Choices: Evidence From China",
+     "year": 2022,
+     "cited_by": 0,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Cheng Chen; Ying-Min Kuo; Wangyang Zhao"
+    },
+    {
+     "doi": "10.22004/ag.econ.296666",
+     "title": "Curse of the Mummy-ji: The Influence of Mothers-in-Law on Women's Social Networks, Mobility, and Reproductive Health in India",
+     "year": 2019,
+     "cited_by": 4,
+     "venue": "RePEc: Research Papers in Economics",
+     "authors": "S Anukriti; Catalina Herrera\u2010Almanza; Mahesh karra"
+    },
+    {
+     "doi": "10.1093/ije/dyaf139",
+     "title": "Cohort Profile Update: The Norwegian Mother, Father and Child Cohort (MoBa)",
+     "year": 2025,
+     "cited_by": 44,
+     "venue": "International Journal of Epidemiology",
+     "authors": "Ragnhild Eek Brandlistuen; Dana Kristjansson; Elin R. Alsaker"
+    },
+    {
+     "doi": null,
+     "title": "The Impact of Advanced Maternal Age on the Young Adult Outcomes of the Next Generation",
+     "year": 2017,
+     "cited_by": 0,
+     "venue": "Hope College Digital Commons (Hope College)",
+     "authors": "Genevieve Sponseller"
+    },
+    {
+     "doi": "10.15781/t2qj7839r",
+     "title": "Essays on the economics of health insurance, labor markets, and migration",
+     "year": 2016,
+     "cited_by": 1,
+     "venue": "Texas ScholarWorks (Texas Digital Library)",
+     "authors": "Ricki Marie Sears Dolan"
+    },
+    {
+     "doi": "10.1016/0162-3095(89)90024-1",
+     "title": "The social biology of human populations: Spontaneous group formation conforms to evolutionary predictions of adaptive aggregation patterns",
+     "year": 1989,
+     "cited_by": 7,
+     "venue": "Ethology and Sociobiology",
+     "authors": "J. Wesley Burgess"
+    },
+    {
+     "doi": "10.1016/j.jpag.2021.04.002",
+     "title": "Higher Rates of Twinning Among Repeat Vs First-Time Teenage and Young Adult Mothers in the United States, 2009\u20132018",
+     "year": 2021,
+     "cited_by": 0,
+     "venue": "Journal of Pediatric and Adolescent Gynecology",
+     "authors": "Haley Stritzel; Julie Maslowsky"
+    },
+    {
+     "doi": "10.21203/rs.3.rs-4612417/v1",
+     "title": "The Long-term Consequences of Fertility on the Elderly\u2019s Labor Supply",
+     "year": 2024,
+     "cited_by": 0,
+     "venue": "Research Square",
+     "authors": "Sophie Xuefei Wang"
+    },
+    {
+     "doi": "10.3389/fpsyg.2025.1676542.s001",
+     "title": "Table 1_The impact of digital health literacy on marriage-and-childbearing anxiety among Chinese youth of reproductive age.docx",
+     "year": 2025,
+     "cited_by": 0,
+     "venue": "Figshare",
+     "authors": "Hao Li (31608); Jiao Li (261359); Zihan Yang (11310018)"
+    },
+    {
+     "doi": "10.1427/3620",
+     "title": "Un sistema di trasferimenti ideale",
+     "year": 1997,
+     "cited_by": 1,
+     "venue": "Rivista italiana degli economisti",
+     "authors": "Gustavo De Santis"
+    },
+    {
+     "doi": "10.1093/ije/dyl104",
+     "title": "Commentary: Understanding pathways to cannabis use and from use to harm",
+     "year": 2006,
+     "cited_by": 11,
+     "venue": "International Journal of Epidemiology",
+     "authors": "John Macleod; Matthew Hickman"
+    },
+    {
+     "doi": "10.2139/ssrn.2275240",
+     "title": "Does the Month of Birth Influence the Timing of Life Course Decisions? Evidence from a Natural Experiment In Italy",
+     "year": 2013,
+     "cited_by": 0,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Laura Cavalli"
+    },
+    {
+     "doi": "10.1093/jnci/djs252",
+     "title": "Non-Hodgkin Lymphoma in Early Life",
+     "year": 2012,
+     "cited_by": 3,
+     "venue": "JNCI Journal of the National Cancer Institute",
+     "authors": "B. Emmanuel; William F. Anderson"
+    },
+    {
+     "doi": null,
+     "title": "Population projection for development planning in Malaysia / Tey Nai Peng, Ng Sor Tho and Tan Pei Pei",
+     "year": 2014,
+     "cited_by": 0,
+     "venue": null,
+     "authors": "Nai Peng Tey; Sor Tho Ng; Pei Pei Tan"
+    },
+    {
+     "doi": "10.1086/593085",
+     "title": "Comment",
+     "year": 2008,
+     "cited_by": 1,
+     "venue": "NBER Macroeconomics Annual",
+     "authors": "Hoyt Bleakley"
+    }
+   ]
+  },
+  "8_grandparent_shock::A": {
+   "design": "8_grandparent_shock",
+   "vocabulary": "A",
+   "treatment": "(\"pension reform\" OR \"retirement age\" OR \"social pension\" OR \"pension eligibility\")",
+   "n_with_fertility_axis": 19,
+   "n_arrangement_only": 117,
+   "error": null,
+   "records_with_fertility": [
+    {
+     "doi": "10.15453/0191-5096.2661",
+     "title": "Second-Generation Parenthood: A Panel Study of Grandmother and Grandchild Coresidency Among Low-Income Families, 1967-1992",
+     "year": 2000,
+     "cited_by": 17,
+     "venue": "The Journal of Sociology & Social Welfare",
+     "authors": "Richard K. Caputo"
+    },
+    {
+     "doi": "10.2139/ssrn.2420716",
+     "title": "Roadblocks on the Road to Grandma's House: Fertility Consequences of Delayed Retirement",
+     "year": 2014,
+     "cited_by": 16,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Erich Battistin; Michele De Nadai; Mario Padula"
+    },
+    {
+     "doi": "10.3368/jhr.xl.1.186",
+     "title": "Rearranging the Family?",
+     "year": 2005,
+     "cited_by": 107,
+     "venue": "The Journal of Human Resources",
+     "authors": "Eric V. Edmonds; Kristin Mammen; Douglas L. Miller"
+    },
+    {
+     "doi": "10.1007/s00148-018-0686-z",
+     "title": "Family support or social support? The role of clan culture",
+     "year": 2018,
+     "cited_by": 112,
+     "venue": "Journal of Population Economics",
+     "authors": "Chuanchuan Zhang"
+    },
+    {
+     "doi": "10.1111/j.1741-6612.2010.00459.x",
+     "title": "Raising the age pension eligibility age and its (dis)contents",
+     "year": 2010,
+     "cited_by": 2,
+     "venue": "Australasian Journal on Ageing",
+     "authors": "Allan Borowski"
+    },
+    {
+     "doi": null,
+     "title": "Demographic Challenges in America's Future,",
+     "year": 1982,
+     "cited_by": 13,
+     "venue": null,
+     "authors": "William Butz; Kevin F. McCarthy; Peter A. Morrison"
+    },
+    {
+     "doi": "10.2307/2347389",
+     "title": "Advances in Regional Demography: Information, Forecasts, Models.",
+     "year": 1990,
+     "cited_by": 22,
+     "venue": "Journal of the Royal Statistical Society Series C (Applied Statistics)",
+     "authors": "Geoff Cohen; Peter Congdon; Peter Batey"
+    },
+    {
+     "doi": "10.1002/psp.2786",
+     "title": "Moving up and down the urban hierarchy: Age\u2010specific internal migration patterns in Japan based on the 2020 census",
+     "year": 2024,
+     "cited_by": 8,
+     "venue": "Population Space and Place",
+     "authors": "Masaki Kotsubo; Tomoki Nakaya"
+    },
+    {
+     "doi": "10.1542/peds.2005-0868",
+     "title": "Pediatricians Leading the Way: Integrating a Career and a Family/Personal Life Over the Life Cycle",
+     "year": 2006,
+     "cited_by": 27,
+     "venue": "PEDIATRICS",
+     "authors": "Diane K. Shrier; Lydia A. Shrier; Michael Rich"
+    },
+    {
+     "doi": null,
+     "title": "Economic Analysis of Japan's Aging Society (in Japanese)",
+     "year": 1997,
+     "cited_by": 1,
+     "venue": "RePEc: Research Papers in Economics",
+     "authors": "Naohiro Yashiro; Takashi Oshio; Masako"
+    },
+    {
+     "doi": "10.1108/aeds-08-2020-0196",
+     "title": "The road ahead: should Hong Kong develop five pillars of old age protection?",
+     "year": 2020,
+     "cited_by": 1,
+     "venue": "Asian Education and Development Studies",
+     "authors": "Gigi Lam"
+    },
+    {
+     "doi": "10.1353/jjs.2004.0071",
+     "title": "Aging and Social Policy: A German-Japanese Comparison (review)",
+     "year": 2004,
+     "cited_by": 1,
+     "venue": "Journal of Japanese Studies",
+     "authors": "Susan Long"
+    },
+    {
+     "doi": "10.2139/ssrn.2977114",
+     "title": "Family Support or Social Support? The Role of Culture",
+     "year": 2017,
+     "cited_by": 0,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Chuanchuan Zhang"
+    },
+    {
+     "doi": "10.1080/20954816.2026.2612755",
+     "title": "Population ageing, retirement, and economic growth",
+     "year": 2026,
+     "cited_by": 0,
+     "venue": "Economic and Political Studies",
+     "authors": "Chao Ma; Xiangbo Liu; Guo Chen"
+    },
+    {
+     "doi": "10.2139/ssrn.3986167",
+     "title": "Aging, Retirement and Economic Growth",
+     "year": 2021,
+     "cited_by": 0,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Chao Ma; Xiangbo Liu"
+    },
+    {
+     "doi": "10.4324/9781003631279-41",
+     "title": "Population Aging, Depopulation and the Workforce Shortage Crisis in Japan",
+     "year": 2025,
+     "cited_by": 0,
+     "venue": null,
+     "authors": "Cullen T. Hayashida; Takeo Ogawa; Hiroo UEDA"
+    },
+    {
+     "doi": "10.21203/rs.3.rs-7892004/v1",
+     "title": "Spillover Effects of Rural Pension on Child\u2019s Marriage Decision: Case Study of NRPS in China",
+     "year": 2025,
+     "cited_by": 0,
+     "venue": "Research Square",
+     "authors": "Yuxuan Chen"
+    },
+    {
+     "doi": "10.1111/j.1467-8462.2010.00613.x",
+     "title": "The Henry Review and the Social Security System",
+     "year": 2010,
+     "cited_by": 2,
+     "venue": "Australian Economic Review",
+     "authors": "Peter Whiteford"
+    },
+    {
+     "doi": "10.1093/ije/dyaf149",
+     "title": "Cohort Profile Update: The \u2018Seguimiento Universidad de Navarra\u2019 (SUN) study after 24 years of follow-up",
+     "year": 2025,
+     "cited_by": 4,
+     "venue": "International Journal of Epidemiology",
+     "authors": "Carmen de la Fuente\u2010Arrillaga; Silvia Carlos; Estefan\u00eda Toledo"
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

@@ -256,7 +256,8 @@ not what would survive it. No probe failed; a failed probe is recorded as an err
 | — co-residence sub-cloud | 17,869 |
 | — leaving-home sub-cloud | 13,820 |
 | — household-formation sub-cloud | 2,192 |
-| **Exposure ∩ fertility outcome — the screenable frame** | **1,012** |
+| **Exposure ∩ fertility outcome — the screenable frame (as first measured)** | **1,012** |
+| Same, after the emancipation family was added on 2026-08-27 (§16) | **1,419** |
 | Exposure ∩ *union* outcome (link 1 only) | 1,948 |
 | Exposure ∩ fertility ∩ identification vocabulary | 87 |
 | Exposure ∩ fertility ∩ elder-support vocabulary | 124 |
@@ -277,6 +278,10 @@ carry elder-support vocabulary, and 104 of the co-residence sub-cloud's 632. But
 that the vocabulary does not separate the constructs — a record about a young couple living with a
 healthy parent-in-law who minds the baby carries none of these words. The 12.3% is the share the
 *screen* can see, not the share that is there.
+
+**Amended 2026-08-27:** the block below is the vocabulary as first frozen, and it was missing the
+emancipation family — see §16. The numbers here are the pre-amendment measurements, kept so the
+correction is auditable.
 
 Each exposure term was also scored alone against the fertility axis rather than trusted inside a block
 (the A.17 lesson, where one anchor term carried 94% of a block's contamination). `"parental home"`
@@ -443,6 +448,70 @@ split belongs at synthesis unless the splitting field is visible at title/abstra
 **The remaining route to pre-launch evidence is channel 5**, the eight named designs of §4. The
 citation channel has now failed for that arm twice, for a measured reason, and a third round would be
 spending against a known result.
+
+## 16. Channel 5, and the word the frame was missing
+
+The named-design pass (`221_a23_channel5_prelaunch.py`) ran all eight designs of §4 with **two
+vocabularies each** and with the fertility axis both required and relaxed. Almost all of it is noise:
+designs 3, 4, 5 and 6 return nothing usable, and design 7's sibling-instrument literature is about
+educational attainment, not home-leaving. Designs 1 and 2 returned **one study**, and it is the single
+most important record this chapter has found.
+
+### Aparicio-Fenoll and Oppedisano (2014), *B.E. Journal of Economic Analysis & Policy*
+
+`10.1515/bejeap-2014-0003`, "Fostering Household Formation: Evidence from a Spanish Rental Subsidy".
+Spain introduced a monthly cash subsidy in 2008, worth about 20% of a young adult's average wage,
+**conditional on renting accommodation**. The paper exploits the **eligibility age threshold** in a
+difference-in-differences design and estimates effects on the probability of living apart from
+parents, of living with a romantic partner, **and on childbearing**, comparing 22-year-olds with
+21-year-olds. Effects are positive on all three and larger for lower earners and in high-rent areas.
+
+That is the entire causal chain — treatment → living arrangement → union → birth — identified in one
+design, on the configuration the registered hypothesis names. Against a pre-launch citation cloud of
+1,260 records that yielded six title-level candidates and no identification, one paper of this shape
+is worth more than any count: the boundary-spanning design beats the cross-literature tally.
+
+It routes to `MIXED_PRICE_ARRANGEMENT` under Wall 1's sub-ruling — a subsidy conditional on
+establishing an independent residence is a price change *and* an arrangement instrument — so it is
+reported to C.2.c as unallocated rather than silently claimed here. The sub-ruling was written before
+this study was found; the case is now real rather than hypothetical, and that is what the second read
+on Wall 1 has to settle.
+
+### The frame was missing a word, and it was the word the setting uses
+
+Design 1's first vocabulary — "housing benefit", "shared accommodation rate", "local housing
+allowance" — returned **one** record, and it was irrelevant. The second vocabulary — "eligibility
+age", "age cutoff", "age discontinuity" — returned the Spanish study. Neither the study's title nor
+its abstract contains any of this scope's frozen exposure terms. What it says is **emancipation**.
+
+That is the standard term in the Spanish and Italian literature, which is exactly the setting A.23 is
+about — and it was not in the exposure block. The cost is measurable:
+
+| Exposure vocabulary ∩ fertility axis | records |
+|---|---|
+| As frozen in §11 | 1,012 |
+| Plus `emancipation`, `"living apart from parents"`, `"living independently"` | **1,419** |
+| `emancipation` and `"living apart from parents"` alone | 385 |
+
+**A 40% frame expansion from three phrases, one of which is the term of art in the hypothesis's core
+setting.** The exposure block in §11 and every downstream query is amended to include the emancipation
+family; the frame probe figures above carry both numbers so the correction is visible rather than
+overwritten.
+
+Two things to carry, beyond the fix. **A design can be named correctly and still be unfindable**: §4
+named "youth housing allowances conditional on independent residence" and the query built from that
+description found nothing, because policy literatures are indexed in the vocabulary of the country
+that ran the policy. And **the second vocabulary is not a formality** — this chapter has now produced
+two instances where it changed the answer, the review-phrase zero in §13 and this one.
+
+### Status of the pre-launch arm, revised
+
+The arm is not empty. It has one identified study that spans the whole chain, plus three or four
+observational records, against sixteen in the extended arm. That is a thin, honest evidence base, and
+under §11's posture it is the right result rather than a reason to loosen a wall. The GRADE rating for
+the pre-launch arm will rest substantially on this one paper, and the risk-of-bias pass should treat
+it accordingly: an eligibility-age discontinuity compares 22-year-olds with 21-year-olds, which is a
+narrow window on a hypothesis about a decade-long delay.
 
 ## 15. When to adjudicate
 

@@ -5,11 +5,11 @@
   "status": "anchors verified through the Crossref existence gate",
   "gate": "A live Crossref record, with FIRST-author agreement and an accent-tolerant title fold. Verification is against Crossref and not OpenAlex, which is where the candidates came from. UNRESOLVED is not 'absent'; ERROR is not a failed record.",
   "counts": {
-   "FOUND": 30,
+   "FOUND": 33,
    "UNRESOLVED": 0,
    "ERROR": 0
   },
-  "n_candidates": 30
+  "n_candidates": 33
  },
  "v5_seminal_candidates": [
   {
@@ -383,6 +383,54 @@
    "provisional_cell": "LINK1_ARRANGEMENT_TO_UNION",
    "provenance_channel": "215:leaving_home_first_birth",
    "note": "",
+   "gold_status": "not_gold"
+  },
+  {
+   "doi": "10.1515/bejeap-2014-0003",
+   "recorded_title": "Fostering Household Formation: Evidence from a Spanish Rental Subsidy",
+   "resolved_title": "Fostering Household Formation: Evidence from a Spanish Rental Subsidy",
+   "first_author": "Ainhoa Aparicio-Fenoll",
+   "container": "The B.E. Journal of Economic Analysis &amp; Policy",
+   "year": 2014,
+   "type": "journal-article",
+   "title_jaccard": 1.0,
+   "existence": "FOUND",
+   "identity_source": "crossref",
+   "provisional_cell": "MIXED_PRICE_ARRANGEMENT",
+   "provenance_channel": "221:design2_vocabB",
+   "note": "THE identified pre-launch study. DiD on the eligibility-age threshold of Spain's 2008 rental subsidy; outcomes are living apart from parents, living with a partner, AND childbearing -- the whole chain on one design. Wall 1 sub-ruling: shared with C.2.c.",
+   "gold_status": "not_gold"
+  },
+  {
+   "doi": "10.1111/roiw.12122",
+   "recorded_title": "Youth Poverty, Employment, and Leaving the Parental Home in Europe",
+   "resolved_title": "Youth Poverty, Employment, and Leaving the Parental Home in <scp>E</scp>urope",
+   "first_author": "Sara Ayll\u00f3n",
+   "container": "Review of Income and Wealth",
+   "year": 2014,
+   "type": "journal-article",
+   "title_jaccard": 0.69,
+   "existence": "FOUND",
+   "identity_source": "crossref",
+   "provisional_cell": "LINK1_DRIVER_TO_ARRANGEMENT",
+   "provenance_channel": "221:emancipation",
+   "note": "",
+   "gold_status": "not_gold"
+  },
+  {
+   "doi": "10.2139/ssrn.1960897",
+   "recorded_title": "Leaving Home and Housing Prices: The Experience of Italian Youth Emancipation",
+   "resolved_title": "Leaving Home and Housing Prices: The Experience of Italian Youth Emancipation",
+   "first_author": "Francesca Modena",
+   "container": null,
+   "year": 2011,
+   "type": "posted-content",
+   "title_jaccard": 1.0,
+   "existence": "FOUND",
+   "identity_source": "crossref",
+   "provisional_cell": "OFF_PRICE_C2c",
+   "provenance_channel": "221:emancipation",
+   "note": "price-identified; C.2.c's, and a decoy here",
    "gold_status": "not_gold"
   },
   {

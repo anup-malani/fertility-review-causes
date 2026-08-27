@@ -102,6 +102,13 @@ CANDIDATES = [
     ("10.1093/esr/jcac064", "Long goodbyes: pathways of leaving home by gender and destination", "PRIMARY_PRELAUNCH", "215:southern_europe", ""),
     ("10.1002/ijpg.231", "Leaving Home in Europe: The Experience of Cohorts Born Around 1960", "LINK1_DRIVER_TO_ARRANGEMENT", "212:harvest", "Billari, Philipov, Baizán — the closest thing to the unresolved 'Baizan 2006'"),
     ("10.1007/s10680-007-9136-4", "Heterogeneity in the Transition to Adulthood", "LINK1_ARRANGEMENT_TO_UNION", "215:leaving_home_first_birth", ""),
+    # --- added 2026-08-27 after the channel-5 pass (221): the emancipation family.
+    # These were invisible to the exposure vocabulary the scope froze, because the
+    # Southern European literature says "emancipation" where the frame said "leaving
+    # home". Adding the word moves the frame from 1,012 to 1,419.
+    ("10.1515/bejeap-2014-0003", "Fostering Household Formation: Evidence from a Spanish Rental Subsidy", "MIXED_PRICE_ARRANGEMENT", "221:design2_vocabB", "THE identified pre-launch study. DiD on the eligibility-age threshold of Spain's 2008 rental subsidy; outcomes are living apart from parents, living with a partner, AND childbearing -- the whole chain on one design. Wall 1 sub-ruling: shared with C.2.c."),
+    ("10.1111/roiw.12122", "Youth Poverty, Employment, and Leaving the Parental Home in Europe", "LINK1_DRIVER_TO_ARRANGEMENT", "221:emancipation", ""),
+    ("10.2139/ssrn.1960897", "Leaving Home and Housing Prices: The Experience of Italian Youth Emancipation", "OFF_PRICE_C2c", "221:emancipation", "price-identified; C.2.c's, and a decoy here"),
     # --- PRIMARY_PROXIMITY ---
     ("10.1080/17441730.2010.494445", "Intergenerational proximity and the fertility intentions of married adults", "PRIMARY_PROXIMITY", "215:proximity", ""),
     # --- THEORY / channel 2 ---
