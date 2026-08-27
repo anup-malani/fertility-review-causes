@@ -1,0 +1,2940 @@
+{
+ "meta": {
+  "ticket": "TICK-075",
+  "hypothesis": "A.23 co-residence-parents-household-delay",
+  "source_pool_size": 10915,
+  "source_frame_size": 241,
+  "counts": {
+   "routed": 14,
+   "anchors": 1,
+   "mined": 144
+  },
+  "mined_with_outcome_word_in_title": 6,
+  "eldercare_flagged_in_mined": 2,
+  "exposure_term_yield_over_full_pool": {
+   "co-?resid": 27,
+   "living with (?:their |her |his )?parents?": 4,
+   "liv(?:e|es|ing|ed) at home": 3,
+   "parental (?:home|nest|household)": 19,
+   "leav(?:e|es|ing|ing the)? (?:the )?(?:parental |family )?(?:home|nest)": 30,
+   "home-?leaving": 3,
+   "nest-?leav": 1,
+   "boomerang": 5,
+   "returning home": 3,
+   "residential (?:independence|autonomy)": 4,
+   "leaving home": 23,
+   "multigenerational (?:household|living|famil)": 1,
+   "intergenerational (?:household|co-?resid)": 4,
+   "extended (?:family )?household": 1,
+   "household formation": 21,
+   "independent (?:household|living)": 2,
+   "transition to adulthood": 34,
+   "young adults? (?:still )?(?:liv|resid|stay)": 3
+  }
+ },
+ "routed": [
+  {
+   "openalex": "W2069584552",
+   "doi": "10.1007/s13524-013-0216-2",
+   "title": "Interrelationships Between Childbearing and Housing Transitions in the Family Life Course",
+   "year": 2013,
+   "venue": "Demography",
+   "cited_by": 116,
+   "c2c_cell": "HOUSING_ONLY_MECHANISM",
+   "c2c_prescreen_rule": "mobility_context",
+   "exposure_terms": [],
+   "outcome_terms": [
+    "fertilit",
+    "childbear",
+    "child-?bearing"
+   ],
+   "eldercare_terms": [],
+   "provenance": "c2c_screened_frame_routed"
+  },
+  {
+   "openalex": "W1973953484",
+   "doi": "10.1016/j.alcr.2014.01.001",
+   "title": "Residential context, migration and fertility in a modern urban society",
+   "year": 2014,
+   "venue": "Advances in Life Course Research",
+   "cited_by": 104,
+   "c2c_cell": "HOUSING_ONLY_MECHANISM",
+   "c2c_prescreen_rule": "mobility_context",
+   "exposure_terms": [],
+   "outcome_terms": [
+    "fertilit"
+   ],
+   "eldercare_terms": [],
+   "provenance": "c2c_screened_frame_routed"
+  },
+  {
+   "openalex": "W1986885532",
+   "doi": "10.1068/a44558",
+   "title": "Residential Mobility of Urban Middle Classes in the Field of Parenthood",
+   "year": 2012,
+   "venue": "Environment and Planning A Economy and Space",
+   "cited_by": 70,
+   "c2c_cell": "HOUSING_ONLY_MECHANISM",
+   "c2c_prescreen_rule": "mobility_context",
+   "exposure_terms": [],
+   "outcome_terms": [
+    "parenthood"
+   ],
+   "eldercare_terms": [],
+   "provenance": "c2c_screened_frame_routed"
+  },
+  {
+   "openalex": "W2736179794",
+   "doi": "10.1007/s13524-017-0592-0",
+   "title": "Fertility Intentions and Residential Relocations",
+   "year": 2017,
+   "venue": "Demography",
+   "cited_by": 57,
+   "c2c_cell": "HOUSING_ONLY_MECHANISM",
+   "c2c_prescreen_rule": "mobility_context",
+   "exposure_terms": [],
+   "outcome_terms": [
+    "fertilit",
+    "family formation"
+   ],
+   "eldercare_terms": [],
+   "provenance": "c2c_screened_frame_routed"
+  },
+  {
+   "openalex": "W2564508074",
+   "doi": "10.4054/demres.2016.35.54",
+   "title": "Fertility expectations and residential mobility in Britain",
+   "year": 2016,
+   "venue": "Demographic Research",
+   "cited_by": 22,
+   "c2c_cell": "HOUSING_ONLY_MECHANISM",
+   "c2c_prescreen_rule": "mobility_context",
+   "exposure_terms": [],
+   "outcome_terms": [
+    "fertilit"
+   ],
+   "eldercare_terms": [],
+   "provenance": "c2c_screened_frame_routed"
+  },
+  {
+   "openalex": "W2046117869",
+   "doi": "10.2307/2060634",
+   "title": "Residence background, migration, and fertility",
+   "year": 1972,
+   "venue": "Demography",
+   "cited_by": 19,
+   "c2c_cell": "HOUSING_ONLY_MECHANISM",
+   "c2c_prescreen_rule": "mobility_context",
+   "exposure_terms": [],
+   "outcome_terms": [
+    "fertilit"
+   ],
+   "eldercare_terms": [],
+   "provenance": "c2c_screened_frame_routed"
+  },
+  {
+   "openalex": "W2114399866",
+   "doi": "10.14301/llcs.v5i2.276",
+   "title": "Holistic housing pathways for Australian families through the childbearing years",
+   "year": 2014,
+   "venue": "Longitudinal and Life Course Studies",
+   "cited_by": 18,
+   "c2c_cell": "HOUSING_ONLY_MECHANISM",
+   "c2c_prescreen_rule": "mobility_context",
+   "exposure_terms": [
+    "leav(?:e|es|ing|ing the)? (?:the )?(?:parental |family )?(?:home|nest)"
+   ],
+   "outcome_terms": [
+    "childbear",
+    "child-?bearing"
+   ],
+   "eldercare_terms": [],
+   "provenance": "c2c_screened_frame_routed"
+  },
+  {
+   "openalex": "W2962698112",
+   "doi": "10.1002/psp.2265",
+   "title": "Fertility intention\u2010induced relocation: The mediating role of housing markets",
+   "year": 2019,
+   "venue": "Population Space and Place",
+   "cited_by": 13,
+   "c2c_cell": "HOUSING_ONLY_MECHANISM",
+   "c2c_prescreen_rule": "mobility_context",
+   "exposure_terms": [],
+   "outcome_terms": [
+    "fertilit"
+   ],
+   "eldercare_terms": [],
+   "provenance": "c2c_screened_frame_routed"
+  },
+  {
+   "openalex": "W3048871367",
+   "doi": "10.1002/psp.2367",
+   "title": "Residential mobility of couples around family formation in the Netherlands: Stated and revealed preferences",
+   "year": 2020,
+   "venue": "Population Space and Place",
+   "cited_by": 11,
+   "c2c_cell": "HOUSING_ONLY_MECHANISM",
+   "c2c_prescreen_rule": "mobility_context",
+   "exposure_terms": [],
+   "outcome_terms": [
+    "transition to parenthood",
+    "parenthood",
+    "family formation"
+   ],
+   "eldercare_terms": [],
+   "provenance": "c2c_screened_frame_routed"
+  },
+  {
+   "openalex": "W4400427936",
+   "doi": "10.6107/jkha.2024.35.3.013",
+   "title": "Changes in Housing Satisfaction and Fertility Intentions of Married Young Households After Moving into Public Rental Housing",
+   "year": 2024,
+   "venue": "Journal of the Korean housing association",
+   "cited_by": 2,
+   "c2c_cell": "HOUSING_ONLY_MECHANISM",
+   "c2c_prescreen_rule": "mobility_context",
+   "exposure_terms": [],
+   "outcome_terms": [
+    "fertilit"
+   ],
+   "eldercare_terms": [],
+   "provenance": "c2c_screened_frame_routed"
+  },
+  {
+   "openalex": "W4409119166",
+   "doi": "10.1080/00324728.2025.2478929",
+   "title": "Belonging to the neighbourhood, residential mobility, and the transition to parenthood",
+   "year": 2025,
+   "venue": "Population Studies",
+   "cited_by": 1,
+   "c2c_cell": "HOUSING_ONLY_MECHANISM",
+   "c2c_prescreen_rule": "mobility_context",
+   "exposure_terms": [],
+   "outcome_terms": [
+    "first birth",
+    "transition to parenthood",
+    "parenthood"
+   ],
+   "eldercare_terms": [],
+   "provenance": "c2c_screened_frame_routed"
+  },
+  {
+   "openalex": "W7168258898",
+   "doi": "10.17208/jkpa.2026.06.61.3.23",
+   "title": "Dynamic Interactions among Net Migration of Women of Childbearing Age, Female Employment, Housing Prices, and Fertility: A Comparison between the Capital and Non-Capital Regions",
+   "year": 2026,
+   "venue": "\uad6d\ud1a0\uacc4\ud68d",
+   "cited_by": 0,
+   "c2c_cell": "HOUSING_ONLY_MECHANISM",
+   "c2c_prescreen_rule": "mobility_context",
+   "exposure_terms": [],
+   "outcome_terms": [
+    "fertilit",
+    "childbear",
+    "child-?bearing"
+   ],
+   "eldercare_terms": [],
+   "provenance": "c2c_screened_frame_routed"
+  },
+  {
+   "openalex": "W4413296757",
+   "doi": "10.30902/jrea.2025.11.2.41",
+   "title": "The Impact of Parental Homeownership on Children\u2019s Housing Stability and Childbirth Decisions",
+   "year": 2025,
+   "venue": "Journal of Real Estate Analysis",
+   "cited_by": 0,
+   "c2c_cell": "OFF_LIVING_ARRANGEMENT_A23",
+   "c2c_prescreen_rule": "living_arrangement",
+   "exposure_terms": [
+    "parental (?:home|nest|household)"
+   ],
+   "outcome_terms": [
+    "fertilit"
+   ],
+   "eldercare_terms": [],
+   "provenance": "c2c_screened_frame_routed"
+  },
+  {
+   "openalex": "W4388913919",
+   "doi": "10.20473/jbk.v12i2.2023.219-229",
+   "title": "AGE AT MIGRATION, DURATION OF RESIDENCE, AND FERTILITY AMONG FEMALE MIGRANTS INTO JAVA",
+   "year": 2023,
+   "venue": "Jurnal Biometrika dan Kependudukan",
+   "cited_by": 0,
+   "c2c_cell": "HOUSING_ONLY_MECHANISM",
+   "c2c_prescreen_rule": "mobility_context",
+   "exposure_terms": [],
+   "outcome_terms": [
+    "fertilit"
+   ],
+   "eldercare_terms": [],
+   "provenance": "c2c_screened_frame_routed"
+  }
+ ],
+ "anchors": [
+  {
+   "title": "Rising housing prices and marriage delays in China: Evidence from the urban land transaction policy",
+   "doi": "10.1016/j.cities.2023.104214",
+   "year": 2023,
+   "container": "Cities",
+   "existence": "FOUND",
+   "c2c_cell": "HOUSING_ONLY_MECHANISM",
+   "provenance": "c2c_cold_start_anchor_routed"
+  }
+ ],
+ "mined": [
+  {
+   "openalex": "W2162647627",
+   "doi": "10.1553/populationyearbook2008s57",
+   "title": "Institutions and the transition to adulthood: Implications for fertility tempo in low-fertility settings",
+   "year": 2008,
+   "venue": "Vienna Yearbook of Population Research",
+   "cited_by": 58,
+   "n_seeds": 4,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "transition to adulthood"
+   ],
+   "outcome_terms": [
+    "fertilit"
+   ],
+   "eldercare_terms": [],
+   "outcome_in_title": true,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2588600307",
+   "doi": "10.4054/demres.2017.36.20",
+   "title": "The timing of marriage vis-\u00e0-vis coresidence and childbearing in Europe and the United States",
+   "year": 2017,
+   "venue": "Demographic Research",
+   "cited_by": 33,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "co-?resid"
+   ],
+   "outcome_terms": [
+    "childbear",
+    "child-?bearing"
+   ],
+   "eldercare_terms": [],
+   "outcome_in_title": true,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2601990648",
+   "doi": "10.3138/jcfs.43.3.439",
+   "title": "Starting a Family at Your Parents\u2019 House: Multigenerational Households and Below Replacement Fertility in Urban Bulgaria",
+   "year": 2012,
+   "venue": "Journal of Comparative Family Studies",
+   "cited_by": 17,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "RELEVANT_CANDIDATE",
+   "exposure_terms": [
+    "multigenerational (?:household|living|famil)"
+   ],
+   "outcome_terms": [
+    "fertilit"
+   ],
+   "eldercare_terms": [],
+   "outcome_in_title": true,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2005276285",
+   "doi": "10.1016/j.alcr.2014.08.001",
+   "title": "Moving and union formation in the transition to adulthood in the United States",
+   "year": 2014,
+   "venue": "Advances in Life Course Research",
+   "cited_by": 9,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "transition to adulthood"
+   ],
+   "outcome_terms": [
+    "union formation"
+   ],
+   "eldercare_terms": [],
+   "outcome_in_title": true,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W4399443032",
+   "doi": "10.20377/jfr-953",
+   "title": "Employment conditions and non-coresidential partnership in very-low fertility countries: Italy and Japan",
+   "year": 2024,
+   "venue": "Journal of Family Research",
+   "cited_by": 3,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "co-?resid"
+   ],
+   "outcome_terms": [
+    "fertilit"
+   ],
+   "eldercare_terms": [],
+   "outcome_in_title": true,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W4406768844",
+   "doi": "10.1080/13229400.2025.2452243",
+   "title": "Family migration in Chinese superstar cities: are fertility intentions of migrants affected by co-resident parents?",
+   "year": 2025,
+   "venue": "Journal of Family Studies",
+   "cited_by": 2,
+   "n_seeds": 2,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "co-?resid"
+   ],
+   "outcome_terms": [
+    "fertilit"
+   ],
+   "eldercare_terms": [],
+   "outcome_in_title": true,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2066948096",
+   "doi": "10.2307/1972376",
+   "title": "Two Kinds of Preindustrial Household Formation System",
+   "year": 1982,
+   "venue": "Population and Development Review",
+   "cited_by": 722,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "household formation"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2093278400",
+   "doi": "10.2307/1129723",
+   "title": "Single Parents, Extended Households, and the Control of Adolescents",
+   "year": 1985,
+   "venue": "Child Development",
+   "cited_by": 668,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "extended (?:family )?household"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2132558095",
+   "doi": "10.1146/annurev.so.12.080186.000545",
+   "title": "The Transition to Adulthood",
+   "year": 1986,
+   "venue": "Annual Review of Sociology",
+   "cited_by": 569,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "transition to adulthood"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W1993203307",
+   "doi": "10.1016/j.alcr.2010.10.003",
+   "title": "Towards a new pattern of transition to adulthood?",
+   "year": 2010,
+   "venue": "Advances in Life Course Research",
+   "cited_by": 551,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "transition to adulthood"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2477525825",
+   "doi": "10.7208/chicago/9780226748924.003.0012",
+   "title": "Material Assistance from Families During the Transition to Adulthood",
+   "year": 2005,
+   "venue": "",
+   "cited_by": 368,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "transition to adulthood"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W599321937",
+   "doi": "10.4135/9781452234014",
+   "title": "The Changing Transition to Adulthood: Leaving and Returning Home",
+   "year": 1999,
+   "venue": "",
+   "cited_by": 361,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "returning home",
+    "transition to adulthood"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2027907665",
+   "doi": "10.1080/13676260220134403",
+   "title": "The Role of Identity Capital in the Transition to Adulthood: The Individualization Thesis Examined",
+   "year": 2002,
+   "venue": "Journal of Youth Studies",
+   "cited_by": 334,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "transition to adulthood"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W1974588895",
+   "doi": "10.1006/juec.1998.2083",
+   "title": "Prices, Parents, and Young People's Household Formation",
+   "year": 1999,
+   "venue": "Journal of Urban Economics",
+   "cited_by": 275,
+   "n_seeds": 4,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "household formation"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W1938069924",
+   "doi": "10.1177/a028430",
+   "title": "Leaving home: a comparative analysis of ECHP data",
+   "year": 2002,
+   "venue": "Journal of European Social Policy",
+   "cited_by": 258,
+   "n_seeds": 3,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "leav(?:e|es|ing|ing the)? (?:the )?(?:parental |family )?(?:home|nest)",
+    "leaving home"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2020213899",
+   "doi": "10.2307/2061824",
+   "title": "Feathered nest/gilded cage: Parental income and leaving home in the transition to adulthood",
+   "year": 1992,
+   "venue": "Demography",
+   "cited_by": 256,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "leav(?:e|es|ing|ing the)? (?:the )?(?:parental |family )?(?:home|nest)",
+    "leaving home",
+    "transition to adulthood"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2027529837",
+   "doi": "10.1086/519536",
+   "title": "Approaching the Transition to Adulthood: Distinctive Profiles of Adolescents Aging out of the Child Welfare System",
+   "year": 2007,
+   "venue": "Social Service Review",
+   "cited_by": 254,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "transition to adulthood"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [
+    "ageing|aging"
+   ],
+   "outcome_in_title": false,
+   "eldercare_flag": true,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2040954003",
+   "doi": "10.1002/ijpg.231",
+   "title": "Leaving Home in Europe: The Experience of Cohorts Born Around 1960",
+   "year": 2001,
+   "venue": "International Journal of Population Geography",
+   "cited_by": 252,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "leav(?:e|es|ing|ing the)? (?:the )?(?:parental |family )?(?:home|nest)",
+    "leaving home"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2032781774",
+   "doi": "10.1007/s13524-013-0247-8",
+   "title": "Gender, Turning Points, and Boomerangs: Returning Home in Young Adulthood in Great Britain",
+   "year": 2013,
+   "venue": "Demography",
+   "cited_by": 199,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "boomerang",
+    "returning home"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2051011875",
+   "doi": "10.2307/2112630",
+   "title": "The Order of Events in the Transition to Adulthood",
+   "year": 1984,
+   "venue": "Sociology of Education",
+   "cited_by": 190,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "transition to adulthood"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2074924923",
+   "doi": "10.1007/bf03031885",
+   "title": "The analysis of early life courses: Complex descriptions of the transition to adulthood",
+   "year": 2001,
+   "venue": "Journal of Population Research",
+   "cited_by": 188,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "transition to adulthood"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2028584245",
+   "doi": "10.2307/353543",
+   "title": "The Effects of Childhood Family Structure on Leaving and Returning Home",
+   "year": 1998,
+   "venue": "Journal of Marriage and the Family",
+   "cited_by": 187,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "returning home"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2101110009",
+   "doi": "10.1177/000271620258000103",
+   "title": "Regional Differences in the Transition to Adulthood",
+   "year": 2002,
+   "venue": "The Annals of the American Academy of Political and Social Science",
+   "cited_by": 178,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "transition to adulthood"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2016933366",
+   "doi": "10.1111/1468-0335.00103",
+   "title": "The Economic Determinants of Young People's Household Formation",
+   "year": 1997,
+   "venue": "Economica",
+   "cited_by": 166,
+   "n_seeds": 2,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "household formation"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2050593577",
+   "doi": "10.2307/2109434",
+   "title": "The Impact of Real Rents and Wages on Household Formation",
+   "year": 1993,
+   "venue": "The Review of Economics and Statistics",
+   "cited_by": 161,
+   "n_seeds": 5,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "household formation"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W1989141801",
+   "doi": "10.2307/352768",
+   "title": "She's Leaving Home: But Why? An Analysis of Young People Leaving the Parental Home",
+   "year": 1993,
+   "venue": "Journal of Marriage and the Family",
+   "cited_by": 161,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "parental (?:home|nest|household)",
+    "leav(?:e|es|ing|ing the)? (?:the )?(?:parental |family )?(?:home|nest)",
+    "leaving home"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W1979962725",
+   "doi": "10.1016/j.alcr.2010.10.004",
+   "title": "Leaving home: Independence, togetherness and income",
+   "year": 2010,
+   "venue": "Advances in Life Course Research",
+   "cited_by": 161,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "leav(?:e|es|ing|ing the)? (?:the )?(?:parental |family )?(?:home|nest)",
+    "leaving home"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2089537886",
+   "doi": "10.2307/2061715",
+   "title": "Economic incentives for financial and residential independence",
+   "year": 1996,
+   "venue": "Demography",
+   "cited_by": 158,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "residential (?:independence|autonomy)"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2018278067",
+   "doi": "10.1111/j.1741-3737.2010.00793.x",
+   "title": "Coresidence With Elderly Parents: A Comparative Study of Southeast China and Taiwan",
+   "year": 2011,
+   "venue": "Journal of Marriage and the Family",
+   "cited_by": 156,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "co-?resid"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [
+    "elder(?:ly|care)"
+   ],
+   "outcome_in_title": false,
+   "eldercare_flag": true,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2254388069",
+   "doi": "10.1080/13676261.2015.1112884",
+   "title": "Parental co-residence, shared living and emerging adulthood in Europe: semi-dependent housing across welfare regime and housing system contexts",
+   "year": 2015,
+   "venue": "Journal of Youth Studies",
+   "cited_by": 151,
+   "n_seeds": 2,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "co-?resid"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2066975590",
+   "doi": "10.1068/a34149",
+   "title": "Leaving Home for College and Gaining Independence",
+   "year": 2002,
+   "venue": "Environment and Planning A Economy and Space",
+   "cited_by": 135,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "leav(?:e|es|ing|ing the)? (?:the )?(?:parental |family )?(?:home|nest)",
+    "leaving home"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2023697313",
+   "doi": "10.1016/0047-2727(86)90042-3",
+   "title": "Household formation, housing prices, and public policy impacts",
+   "year": 1986,
+   "venue": "Journal of Public Economics",
+   "cited_by": 124,
+   "n_seeds": 3,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "household formation"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2163028362",
+   "doi": "10.1068/a4563",
+   "title": "Age Norms on Leaving Home: Multilevel Evidence from the European Social Survey",
+   "year": 2013,
+   "venue": "Environment and Planning A Economy and Space",
+   "cited_by": 116,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "leav(?:e|es|ing|ing the)? (?:the )?(?:parental |family )?(?:home|nest)",
+    "leaving home"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2136509503",
+   "doi": "10.1080/02673030802112754",
+   "title": "Home-Leaving and its Structural Determinants in Western and Eastern Europe: An Exploratory Study",
+   "year": 2008,
+   "venue": "Housing Studies",
+   "cited_by": 116,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "home-?leaving"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2062608403",
+   "doi": "10.1080/13607863.2013.837143",
+   "title": "Does co-residence with adult children associate with better psychological well-being among the oldest old in China?",
+   "year": 2013,
+   "venue": "Aging & Mental Health",
+   "cited_by": 114,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "co-?resid"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2948203047",
+   "doi": "10.1093/esr/jcz025",
+   "title": "The Social Stratification of Choice in the Transition to Adulthood",
+   "year": 2019,
+   "venue": "European Sociological Review",
+   "cited_by": 107,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "transition to adulthood"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W1539634228",
+   "doi": "10.1023/a:1019627604669",
+   "title": "European Welfare regimes and the transition to adulthood: A comparative and longitudinal perspective",
+   "year": 2002,
+   "venue": "Social Indicators Research",
+   "cited_by": 106,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "transition to adulthood"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2162732774",
+   "doi": "10.1002/1099-1220(200011/12)6:6<423::aid-ijpg199>3.0.co;2-r",
+   "title": "Leaving home and leaving the State: evidence from the United States",
+   "year": 2000,
+   "venue": "International Journal of Population Geography",
+   "cited_by": 102,
+   "n_seeds": 2,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "leav(?:e|es|ing|ing the)? (?:the )?(?:parental |family )?(?:home|nest)",
+    "leaving home"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2139581692",
+   "doi": "10.1007/s10901-009-9166-9",
+   "title": "Gender differences in the impact of family background on leaving the parental home",
+   "year": 2009,
+   "venue": "Journal of Housing and the Built Environment",
+   "cited_by": 98,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "parental (?:home|nest|household)",
+    "leav(?:e|es|ing|ing the)? (?:the )?(?:parental |family )?(?:home|nest)"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2587805730",
+   "doi": "10.1177/0958928716684315",
+   "title": "Returning to the parental home: Boomerang moves of younger adults and the welfare regime context",
+   "year": 2017,
+   "venue": "Journal of European Social Policy",
+   "cited_by": 96,
+   "n_seeds": 2,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "parental (?:home|nest|household)",
+    "boomerang"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2123827284",
+   "doi": "10.1111/j.1741-3737.2003.00507.x",
+   "title": "Childhood Living Arrangements and the Formation of Coresidential Unions",
+   "year": 2003,
+   "venue": "Journal of Marriage and the Family",
+   "cited_by": 93,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "co-?resid"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W4233721721",
+   "doi": "10.4054/demres.2002.7.17",
+   "title": "A comparative analysis of leaving home in the United States, the Netherlands and West Germany",
+   "year": 2002,
+   "venue": "Demographic Research",
+   "cited_by": 92,
+   "n_seeds": 2,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "leav(?:e|es|ing|ing the)? (?:the )?(?:parental |family )?(?:home|nest)",
+    "leaving home"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W270012907",
+   "doi": "10.1016/j.labeco.2017.12.006",
+   "title": "Returning to the nest: Debt and parental co-residence among young adults",
+   "year": 2017,
+   "venue": "Labour Economics",
+   "cited_by": 90,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "co-?resid"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2339708965",
+   "doi": "10.1177/0042098015613254",
+   "title": "Intergenerational support shaping residential trajectories: Young people leaving home in a gentrifying city",
+   "year": 2015,
+   "venue": "Urban Studies",
+   "cited_by": 90,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "leav(?:e|es|ing|ing the)? (?:the )?(?:parental |family )?(?:home|nest)",
+    "leaving home"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W1992655018",
+   "doi": "10.1068/a3315",
+   "title": "Leaving Home and Entering the Housing Market",
+   "year": 2000,
+   "venue": "Environment and Planning A Economy and Space",
+   "cited_by": 86,
+   "n_seeds": 2,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "leav(?:e|es|ing|ing the)? (?:the )?(?:parental |family )?(?:home|nest)",
+    "leaving home"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2281443477",
+   "doi": "10.1177/0190272515582002",
+   "title": "The Transition to Adulthood",
+   "year": 2015,
+   "venue": "Social Psychology Quarterly",
+   "cited_by": 85,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "transition to adulthood"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2099144507",
+   "doi": "10.1007/s13524-010-0012-1",
+   "title": "Ethnic Differences in Leaving Home: Timing and Pathways",
+   "year": 2011,
+   "venue": "Demography",
+   "cited_by": 84,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "leav(?:e|es|ing|ing the)? (?:the )?(?:parental |family )?(?:home|nest)",
+    "leaving home"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2170561199",
+   "doi": "10.1521/pedi.18.6.507.54794",
+   "title": "Adolescent Personality Disorders and Conflict with Romantic Partners During the Transition to Adulthood",
+   "year": 2004,
+   "venue": "Journal of Personality Disorders",
+   "cited_by": 78,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "transition to adulthood"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2313822604",
+   "doi": "10.1177/110330881102000102",
+   "title": "The Transition to Adulthood in Spain in a Comparative Perspective",
+   "year": 2012,
+   "venue": "Young",
+   "cited_by": 73,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "transition to adulthood"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2099735924",
+   "doi": "10.1093/oxfordjournals.esr.a036327",
+   "title": "Strategies of Nest-Leavers: \u2018Settling Down\u2019 Versus Flexibility",
+   "year": 1994,
+   "venue": "European Sociological Review",
+   "cited_by": 65,
+   "n_seeds": 2,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "nest-?leav"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W1974389652",
+   "doi": "10.1177/0038038504047179",
+   "title": "Family Support During the Transition Out of the Parental Home in Britain, Spain and Norway",
+   "year": 2004,
+   "venue": "Sociology",
+   "cited_by": 65,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "parental (?:home|nest|household)"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2779105081",
+   "doi": "10.1080/02673037.2017.1408778",
+   "title": "Passing it on: inheritance, coresidence and the influence of parental support on homeownership and housing pathways",
+   "year": 2017,
+   "venue": "Housing Studies",
+   "cited_by": 62,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "co-?resid"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2797409764",
+   "doi": "10.1016/j.jfineco.2021.04.033",
+   "title": "A day late and a dollar short: Liquidity and household formation among student borrowers",
+   "year": 2021,
+   "venue": "Journal of Financial Economics",
+   "cited_by": 59,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "household formation"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W1973427210",
+   "doi": "10.1016/j.alcr.2010.10.002",
+   "title": "Demographic perspectives on the transition to adulthood: An introduction",
+   "year": 2010,
+   "venue": "Advances in Life Course Research",
+   "cited_by": 56,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "transition to adulthood"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2220595987",
+   "doi": "",
+   "title": "Case Study Germany: Global competition, uncertainty and the transition to adulthood",
+   "year": 2005,
+   "venue": "PUB \u2013 Publications at Bielefeld University (Bielefeld University)",
+   "cited_by": 56,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "transition to adulthood"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W3022157377",
+   "doi": "10.1111/j.1467-8462.1994.tb00846.x",
+   "title": "Independent Living and Home Ownership: An Analysis of Australian Youth",
+   "year": 1994,
+   "venue": "Australian Economic Review",
+   "cited_by": 53,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "independent (?:household|living)"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2917169915",
+   "doi": "10.1016/j.ssresearch.2019.02.002",
+   "title": "Are grandparents a blessing or a burden? Multigenerational coresidence and child-related spending",
+   "year": 2019,
+   "venue": "Social Science Research",
+   "cited_by": 53,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "co-?resid"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2297222125",
+   "doi": "10.1007/s12546-016-9157-0",
+   "title": "Internal migration age patterns and the transition to adulthood: Australia and Great Britain compared",
+   "year": 2016,
+   "venue": "Journal of Population Research",
+   "cited_by": 52,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "transition to adulthood"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2181635090",
+   "doi": "10.1023/a:1013831818482",
+   "title": "First Housing Moves in Spain: An Analysis of Leaving Home and First Housing Acquisition",
+   "year": 2002,
+   "venue": "European Journal of Population / Revue europ\u00e9enne de D\u00e9mographie",
+   "cited_by": 49,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "leav(?:e|es|ing|ing the)? (?:the )?(?:parental |family )?(?:home|nest)",
+    "leaving home"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2003907321",
+   "doi": "10.4054/demres.2013.29.42",
+   "title": "Register-based estimates of parents' coresidence in Sweden, 1969-2007",
+   "year": 2013,
+   "venue": "Demographic Research",
+   "cited_by": 48,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "co-?resid"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2600667513",
+   "doi": "10.1016/j.alcr.2017.03.001",
+   "title": "The transition to adulthood and pathways out of the parental home: A cross-national analysis",
+   "year": 2017,
+   "venue": "Advances in Life Course Research",
+   "cited_by": 48,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "parental (?:home|nest|household)",
+    "transition to adulthood"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2142395673",
+   "doi": "10.1023/a:1020264417389",
+   "title": "Leaving home in the Netherlands: Timing and first housing",
+   "year": 2002,
+   "venue": "Journal of Housing and the Built Environment",
+   "cited_by": 47,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "leav(?:e|es|ing|ing the)? (?:the )?(?:parental |family )?(?:home|nest)",
+    "leaving home"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W3097851790",
+   "doi": "10.1016/j.ssresearch.2020.102497",
+   "title": "Extended gender inequality? Intergenerational coresidence and division of household labor",
+   "year": 2020,
+   "venue": "Social Science Research",
+   "cited_by": 46,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "co-?resid",
+    "intergenerational (?:household|co-?resid)"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2179959605",
+   "doi": "10.1016/j.maturitas.2015.09.004",
+   "title": "Boomerang families and failure-to-launch: Commentary on adult children living at home",
+   "year": 2015,
+   "venue": "Maturitas",
+   "cited_by": 45,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "liv(?:e|es|ing|ed) at home",
+    "boomerang"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W3161531310",
+   "doi": "10.1002/psp.2476",
+   "title": "Explaining cross\u2010national differences in leaving home",
+   "year": 2021,
+   "venue": "Population Space and Place",
+   "cited_by": 44,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "leav(?:e|es|ing|ing the)? (?:the )?(?:parental |family )?(?:home|nest)",
+    "leaving home"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W1586751300",
+   "doi": "10.1111/1540-6229.12085",
+   "title": "The Long and the Short of Household Formation",
+   "year": 2015,
+   "venue": "Real Estate Economics",
+   "cited_by": 44,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "household formation"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2094384725",
+   "doi": "10.1080/10511482.2007.9521621",
+   "title": "The impact of parental homeownership on children's outcomes during early adulthood",
+   "year": 2007,
+   "venue": "Housing Policy Debate",
+   "cited_by": 44,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "parental (?:home|nest|household)"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2010502770",
+   "doi": "10.1006/ssre.1997.0590",
+   "title": "Home or Alone: The Costs of Independent Living for Youth",
+   "year": 1997,
+   "venue": "Social Science Research",
+   "cited_by": 43,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "independent (?:household|living)"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2888976568",
+   "doi": "10.1016/j.jhe.2018.08.001",
+   "title": "Housing price and intergenerational co-residence in urban China",
+   "year": 2018,
+   "venue": "Journal of Housing Economics",
+   "cited_by": 42,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "co-?resid",
+    "intergenerational (?:household|co-?resid)"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2283076631",
+   "doi": "",
+   "title": "Critical moments: choice, chance and opportunity in young people's narratives of transition to adulthood",
+   "year": 2002,
+   "venue": "",
+   "cited_by": 42,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "transition to adulthood"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W3202410712",
+   "doi": "10.1080/21620555.2021.1972285",
+   "title": "Intergenerational co-residence and young couple\u2019s time use in China",
+   "year": 2021,
+   "venue": "Chinese Sociological Review",
+   "cited_by": 40,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "co-?resid",
+    "intergenerational (?:household|co-?resid)"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2746141216",
+   "doi": "10.1002/psp.2087",
+   "title": "Parents, local house prices, and leaving home in Britain",
+   "year": 2017,
+   "venue": "Population Space and Place",
+   "cited_by": 39,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "leav(?:e|es|ing|ing the)? (?:the )?(?:parental |family )?(?:home|nest)",
+    "leaving home"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2995064183",
+   "doi": "10.1007/s10901-019-09724-5",
+   "title": "Homeownership and household formation: no homeownership, no marriage?",
+   "year": 2019,
+   "venue": "Journal of Housing and the Built Environment",
+   "cited_by": 36,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "household formation"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2776174597",
+   "doi": "10.4054/demres.2017.37.63",
+   "title": "Differences in leaving home by individual and parental education among young adults in Europe",
+   "year": 2017,
+   "venue": "Demographic Research",
+   "cited_by": 35,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "leav(?:e|es|ing|ing the)? (?:the )?(?:parental |family )?(?:home|nest)",
+    "leaving home"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2039865271",
+   "doi": "10.4054/demres.2009.20.30",
+   "title": "Leaving the parental home in post-war Japan",
+   "year": 2009,
+   "venue": "Demographic Research",
+   "cited_by": 35,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "parental (?:home|nest|household)",
+    "leav(?:e|es|ing|ing the)? (?:the )?(?:parental |family )?(?:home|nest)"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2039365300",
+   "doi": "10.1111/j.1475-6811.2006.00127.x",
+   "title": "Predicting conflict within romantic relationships during the transition to adulthood",
+   "year": 2006,
+   "venue": "Personal Relationships",
+   "cited_by": 35,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "transition to adulthood"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2171136661",
+   "doi": "10.1177/0042098009359956",
+   "title": "Misleading Comparisons of Homeownership Rates when the Variable Effect of Household Formation Is Ignored: Explaining Rising Homeownership and the Homeownership Gap between Blacks and Asians in the US",
+   "year": 2010,
+   "venue": "Urban Studies",
+   "cited_by": 34,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "household formation"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W4320733947",
+   "doi": "10.1111/padr.12540",
+   "title": "Single Motherhood and Multigenerational Coresidence in Europe",
+   "year": 2023,
+   "venue": "Population and Development Review",
+   "cited_by": 34,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "co-?resid"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2069432153",
+   "doi": "10.1162/jeea.2009.7.5.974",
+   "title": "Does High Cost of Mortgage Debt Explain Why Young Adults Live with Their Parents?",
+   "year": 2009,
+   "venue": "Journal of the European Economic Association",
+   "cited_by": 34,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "young adults? (?:still )?(?:liv|resid|stay)"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2891828538",
+   "doi": "10.1177/0003122418795856",
+   "title": "The Dynamics of Intimate Partner Violence and the Risk of Pregnancy during the Transition to Adulthood",
+   "year": 2018,
+   "venue": "American Sociological Review",
+   "cited_by": 33,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "transition to adulthood"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W1524797800",
+   "doi": "10.1057/9781137370525_11",
+   "title": "Young Adults\u2019 Transitions to Residential Independence in the UK: The Role of Social and Housing Policy",
+   "year": 2014,
+   "venue": "Palgrave Macmillan UK eBooks",
+   "cited_by": 32,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "residential (?:independence|autonomy)"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W3093674451",
+   "doi": "10.1093/sf/soaa098",
+   "title": "Life Course Events and Migration in the Transition to Adulthood",
+   "year": 2020,
+   "venue": "Social Forces",
+   "cited_by": 31,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "transition to adulthood"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2778700171",
+   "doi": "10.1002/psp.2125",
+   "title": "Short\u2010 and long\u2010distance moves of young adults during the transition to adulthood in Britain",
+   "year": 2017,
+   "venue": "Population Space and Place",
+   "cited_by": 29,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "transition to adulthood"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W1969869530",
+   "doi": "10.1007/s11113-006-9000-y",
+   "title": "A room of one\u2019s own or room enough for two? Access to housing and new household formation in Sweden, 1968\u20131992",
+   "year": 2006,
+   "venue": "Population Research and Policy Review",
+   "cited_by": 28,
+   "n_seeds": 3,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "household formation"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2289255572",
+   "doi": "10.4054/demres.2016.34.16",
+   "title": "Transition to adulthood in China in 1982\u22122005: A structural view",
+   "year": 2016,
+   "venue": "Demographic Research",
+   "cited_by": 27,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "transition to adulthood"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2955513428",
+   "doi": "10.1080/02673037.2019.1630559",
+   "title": "Owning, renting, or living with parents? Changing housing situations among Canadian young adults, 2001 to 2011",
+   "year": 2019,
+   "venue": "Housing Studies",
+   "cited_by": 26,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "living with (?:their |her |his )?parents?"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2030984975",
+   "doi": "10.1080/0032472031000144006",
+   "title": "Modelling Household Formation and Dissolution",
+   "year": 1989,
+   "venue": "Population Studies",
+   "cited_by": 26,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "household formation"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2997059159",
+   "doi": "10.1093/esr/jcz068",
+   "title": "Boomerang Kids and Parents\u2019 Well-Being: Adaptation, Stressors, and Social Norms",
+   "year": 2019,
+   "venue": "European Sociological Review",
+   "cited_by": 25,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "boomerang"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2034479495",
+   "doi": "10.1007/bf01112321",
+   "title": "Gender roles, marriage, and residential independence",
+   "year": 1992,
+   "venue": "Sociological Forum",
+   "cited_by": 25,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "residential (?:independence|autonomy)"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W1994327787",
+   "doi": "10.1080/02673037.2011.581912",
+   "title": "Socio-demographic Variations of Homeowners and Differential Effects of Parental Homeownership on Offspring's Housing Tenure",
+   "year": 2011,
+   "venue": "Housing Studies",
+   "cited_by": 25,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "parental (?:home|nest|household)"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2324854851",
+   "doi": "10.2190/mxqv-0rqw-b2fu-kem6",
+   "title": "Homeleaving Age Norms: Conflict or Consensus?",
+   "year": 1996,
+   "venue": "The International Journal of Aging and Human Development",
+   "cited_by": 25,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "home-?leaving"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2531717211",
+   "doi": "10.4054/demres.2016.35.37",
+   "title": "The diversity in longitudinal partnership trajectories during the transition to adulthood: How is it related to individual characteristics and regional living conditions?",
+   "year": 2016,
+   "venue": "Demographic Research",
+   "cited_by": 25,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "transition to adulthood"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W4299957138",
+   "doi": "10.2139/ssrn.2511411",
+   "title": "Returning to the Nest: Debt and Parental Co-Residence Among Young Adults",
+   "year": 2014,
+   "venue": "SSRN Electronic Journal",
+   "cited_by": 23,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "co-?resid"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2280656842",
+   "doi": "10.1007/s10680-016-9375-3",
+   "title": "Leaving Home and Destination of Early Nest Leavers: Ethnicity, Spaces and Prices",
+   "year": 2016,
+   "venue": "European Journal of Population / Revue europ\u00e9enne de D\u00e9mographie",
+   "cited_by": 20,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "leav(?:e|es|ing|ing the)? (?:the )?(?:parental |family )?(?:home|nest)",
+    "leaving home"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W1528598763",
+   "doi": "10.4324/9780203881965.ch24",
+   "title": "Leaving the parental home in young adulthood",
+   "year": 2009,
+   "venue": "UvA-DARE (University of Amsterdam)",
+   "cited_by": 20,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "parental (?:home|nest|household)",
+    "leav(?:e|es|ing|ing the)? (?:the )?(?:parental |family )?(?:home|nest)"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2913821116",
+   "doi": "10.1080/21620555.2018.1522953",
+   "title": "Coresidence in the Transition to Adulthood: The Case of the United States, Germany, Taiwan, and Mainland China",
+   "year": 2018,
+   "venue": "Chinese Sociological Review",
+   "cited_by": 19,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "co-?resid",
+    "transition to adulthood"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W3217697707",
+   "doi": "10.1007/s10901-021-09911-3",
+   "title": "Young Australians living with parents: free and pay board as popular housing tenure choices",
+   "year": 2021,
+   "venue": "Journal of Housing and the Built Environment",
+   "cited_by": 18,
+   "n_seeds": 2,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "living with (?:their |her |his )?parents?"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W3167987102",
+   "doi": "10.1080/02673037.2021.1929862",
+   "title": "Housing transitions of Taiwanese young adults: intersections of the parental home and housing pathways",
+   "year": 2021,
+   "venue": "Housing Studies",
+   "cited_by": 17,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "parental (?:home|nest|household)"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W4250007706",
+   "doi": "10.17016/feds.2018.025",
+   "title": "A Day Late and a Dollar Short: Liquidity and Household Formation among Student Borrowers",
+   "year": 2018,
+   "venue": "Finance and Economics Discussion Series",
+   "cited_by": 17,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "household formation"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2947957899",
+   "doi": "10.1080/21620555.2019.1596020",
+   "title": "Parent-Child Coresidence and Experiences of Romantic Relationships: Evidence from Young Adults in Taiwan",
+   "year": 2019,
+   "venue": "Chinese Sociological Review",
+   "cited_by": 17,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "co-?resid"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2160110701",
+   "doi": "10.1080/03585522.2005.10414245",
+   "title": "Leaving home in post-war Sweden",
+   "year": 2005,
+   "venue": "Scandinavian Economic History Review",
+   "cited_by": 16,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "leav(?:e|es|ing|ing the)? (?:the )?(?:parental |family )?(?:home|nest)",
+    "leaving home"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W1968039109",
+   "doi": "10.1080/01419870.2011.602089",
+   "title": "Cohort progress toward household formation and homeownership: young immigrant cohorts in Los Angeles and Toronto compared",
+   "year": 2011,
+   "venue": "Ethnic and Racial Studies",
+   "cited_by": 15,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "household formation"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2926993263",
+   "doi": "10.1177/2057150x19838728",
+   "title": "The transition to adulthood in China, Germany and the US: Prevalence and timing in private and professional life",
+   "year": 2019,
+   "venue": "Chinese Journal of Sociology",
+   "cited_by": 14,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "transition to adulthood"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W1508863489",
+   "doi": "10.1080/10835547.2006.12091176",
+   "title": "The Effects of Housing Push Factors and Rent Expectations on Household Formation of Young Adults",
+   "year": 2006,
+   "venue": "Journal of Real Estate Research",
+   "cited_by": 14,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "household formation"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W4361221121",
+   "doi": "10.1016/j.cities.2023.104310",
+   "title": "Intergenerational financial support for homeownership and co-residence in Chinese cities",
+   "year": 2023,
+   "venue": "Cities",
+   "cited_by": 14,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "co-?resid"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2252391528",
+   "doi": "10.1111/spol.12229",
+   "title": "Intergenerational Relations between English Students, Graduates Living at Home, and their Parents",
+   "year": 2016,
+   "venue": "Social Policy and Administration",
+   "cited_by": 13,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "liv(?:e|es|ing|ed) at home"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W4210774760",
+   "doi": "10.1016/j.alcr.2022.100464",
+   "title": "Nest leaver or home stayer? Sibling influence on parental home leaving in the United Kingdom",
+   "year": 2022,
+   "venue": "Advances in Life Course Research",
+   "cited_by": 12,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "parental (?:home|nest|household)"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W4319461343",
+   "doi": "10.1016/j.alcr.2023.100531",
+   "title": "\u2018Boomerang\u2019 moves and young adults\u2019 mental well-being in the United Kingdom",
+   "year": 2023,
+   "venue": "Advances in Life Course Research",
+   "cited_by": 11,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "boomerang"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2967517456",
+   "doi": "10.1080/17441730.2019.1651573",
+   "title": "The influence of premarital coresidence with parents and family income on the transition to first marriage in South Korea",
+   "year": 2019,
+   "venue": "Asian Population Studies",
+   "cited_by": 11,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "co-?resid"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W4396535866",
+   "doi": "10.1016/j.cities.2024.105064",
+   "title": "Inheriting housing inequality: Parental homeownership and place of origin as key factors for homeownership in Japanese metropolitan areas",
+   "year": 2024,
+   "venue": "Cities",
+   "cited_by": 11,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "parental (?:home|nest|household)"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W3181230482",
+   "doi": "10.1007/s11113-021-09665-4",
+   "title": "The Transition to a Coresidential Partnership: Who Moves and Who Has the Partner Move In?",
+   "year": 2021,
+   "venue": "Population Research and Policy Review",
+   "cited_by": 11,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "co-?resid"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W4393146805",
+   "doi": "10.1186/s41118-024-00213-4",
+   "title": "Leaving home across the recent cohorts in Italy: does economic vulnerability due to labour market status matter?",
+   "year": 2024,
+   "venue": "Genus",
+   "cited_by": 9,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "leav(?:e|es|ing|ing the)? (?:the )?(?:parental |family )?(?:home|nest)",
+    "leaving home"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2974182824",
+   "doi": "10.1108/ijssp-05-2019-0096",
+   "title": "Job uncertainty and leaving the parental home in Italy",
+   "year": 2019,
+   "venue": "International Journal of Sociology and Social Policy",
+   "cited_by": 9,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "parental (?:home|nest|household)",
+    "leav(?:e|es|ing|ing the)? (?:the )?(?:parental |family )?(?:home|nest)"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2575113850",
+   "doi": "10.1080/19491247.2016.1265267",
+   "title": "Macro effects on the household formation of China's young adults \u2013 demographics, institutional factors, and regional differences",
+   "year": 2017,
+   "venue": "International Journal of Housing Policy",
+   "cited_by": 9,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "household formation"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W4310861470",
+   "doi": "10.1016/j.cities.2022.104114",
+   "title": "After moving back to the nest: The heterogeneous effect of returning to parental home on the employment outcomes by income group",
+   "year": 2022,
+   "venue": "Cities",
+   "cited_by": 9,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "parental (?:home|nest|household)"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W4295898341",
+   "doi": "10.1080/00324728.2022.2102672",
+   "title": "Uncertain steps into adulthood: Does economic precariousness hinder entry into the first co-residential partnership in the UK?",
+   "year": 2022,
+   "venue": "Population Studies",
+   "cited_by": 9,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "co-?resid"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W4315490045",
+   "doi": "10.1016/j.alcr.2023.100526",
+   "title": "Changes in young people's discourses about leaving home in Spain after the economic crisis",
+   "year": 2023,
+   "venue": "Advances in Life Course Research",
+   "cited_by": 9,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "leav(?:e|es|ing|ing the)? (?:the )?(?:parental |family )?(?:home|nest)",
+    "leaving home"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2971515497",
+   "doi": "10.1093/oep/gpz054",
+   "title": "Returning to the parental home after the Great Recession: a matter of partnership dissolution or unemployment?",
+   "year": 2019,
+   "venue": "Oxford Economic Papers",
+   "cited_by": 8,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "parental (?:home|nest|household)"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W4281746159",
+   "doi": "10.1007/s10901-022-09943-3",
+   "title": "The impacts of housing affordability on the household formation and homeownership of immigrant groups in Canada",
+   "year": 2022,
+   "venue": "Journal of Housing and the Built Environment",
+   "cited_by": 8,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "household formation"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W201446437",
+   "doi": "10.1177/056943458703100106",
+   "title": "Household Formation and Unrelated Housemates",
+   "year": 1987,
+   "venue": "The American Economist",
+   "cited_by": 8,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "household formation"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W3103804944",
+   "doi": "10.1016/j.socnet.2020.10.002",
+   "title": "Social capital and leaving the nest: Channels and housing tenures",
+   "year": 2020,
+   "venue": "Social Networks",
+   "cited_by": 8,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "leav(?:e|es|ing|ing the)? (?:the )?(?:parental |family )?(?:home|nest)"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2514313640",
+   "doi": "10.1163/15691330-12341395",
+   "title": "Late Leaving of the Parental Home in Southern Europe: Lessons for Youth Policy",
+   "year": 2016,
+   "venue": "Comparative Sociology",
+   "cited_by": 7,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "parental (?:home|nest|household)"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W4388114564",
+   "doi": "10.1093/oso/9780198283867.003.0005",
+   "title": "Household Formation and Home-Ownership in France",
+   "year": 1992,
+   "venue": "",
+   "cited_by": 6,
+   "n_seeds": 3,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "household formation"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2921701175",
+   "doi": "10.1016/j.alcr.2019.03.005",
+   "title": "Who supports whom? Do adult children living at home share their incomes with their parents?",
+   "year": 2019,
+   "venue": "Advances in Life Course Research",
+   "cited_by": 6,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "liv(?:e|es|ing|ed) at home"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W4200171201",
+   "doi": "10.1080/1369183x.2021.2020628",
+   "title": "Leaving the nest in immigrant neighbourhoods: gender and origin differences in France",
+   "year": 2021,
+   "venue": "Journal of Ethnic and Migration Studies",
+   "cited_by": 6,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "leav(?:e|es|ing|ing the)? (?:the )?(?:parental |family )?(?:home|nest)"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W4282963316",
+   "doi": "10.1111/fare.12723",
+   "title": "Long\u2010term trajectories of intergenerational coresidence: Evidence of living arrangements patterns in Chile",
+   "year": 2022,
+   "venue": "Family Relations",
+   "cited_by": 6,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "co-?resid",
+    "intergenerational (?:household|co-?resid)"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2486217967",
+   "doi": "",
+   "title": "Household formation among young adults",
+   "year": 2016,
+   "venue": "FRB SF weekly letter",
+   "cited_by": 4,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "household formation"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W3093466902",
+   "doi": "10.1007/s10901-020-09790-0",
+   "title": "Residential independence and homeownership of Spanish young adults: What is the effect of the growing educational attainment?",
+   "year": 2020,
+   "venue": "Journal of Housing and the Built Environment",
+   "cited_by": 3,
+   "n_seeds": 2,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "residential (?:independence|autonomy)"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2732140984",
+   "doi": "10.2298/stnv1501061m",
+   "title": "Youth residential situation in the transition to adulthood: The case of Serbia (an exploratory approach)",
+   "year": 2015,
+   "venue": "Stanovnistvo",
+   "cited_by": 2,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "transition to adulthood"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W4409448295",
+   "doi": "10.1111/jftr.12621",
+   "title": "Hurry up and wait: Developmental anxiety during the transition to adulthood",
+   "year": 2025,
+   "venue": "Journal of Family Theory & Review",
+   "cited_by": 2,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "transition to adulthood"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W4381435851",
+   "doi": "10.1080/1081602x.2023.2222111",
+   "title": "Models of leaving home: patterns and trends in Sweden, 1830\u20131959",
+   "year": 2023,
+   "venue": "The History of the Family",
+   "cited_by": 2,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "leav(?:e|es|ing|ing the)? (?:the )?(?:parental |family )?(?:home|nest)",
+    "leaving home"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W7118080766",
+   "doi": "10.1111/1540-6229.70028",
+   "title": "Coresidence: How parental characteristics matter",
+   "year": 2026,
+   "venue": "Real Estate Economics",
+   "cited_by": 1,
+   "n_seeds": 2,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "co-?resid"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W3092141302",
+   "doi": "",
+   "title": "The Impacts of Housing Affordability on Immigrant Household Formation and Homeownership",
+   "year": 2020,
+   "venue": "Scholarship@Western (Western University)",
+   "cited_by": 1,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "household formation"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W4283809588",
+   "doi": "10.1080/12265934.2022.2093260",
+   "title": "The inception of housing pathways in urban China: the declining household formation of young adults from 2011 to 2017",
+   "year": 2022,
+   "venue": "International Journal of Urban Sciences",
+   "cited_by": 1,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "household formation"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W7119734578",
+   "doi": "10.1093/esr/jcaf058",
+   "title": "Labour market insecurity and parental co-residence in the United Kingdom: heterogeneities by parental class and age",
+   "year": 2025,
+   "venue": "European Sociological Review",
+   "cited_by": 1,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "co-?resid"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W4388007656",
+   "doi": "10.20944/preprints202310.1789.v1",
+   "title": "A Spatial Autoregressive Panel Analysis of the Proportion of Young Adults Living with Their Parents in Sweden",
+   "year": 2023,
+   "venue": "Preprints.org",
+   "cited_by": 1,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "living with (?:their |her |his )?parents?",
+    "young adults? (?:still )?(?:liv|resid|stay)"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W4288038405",
+   "doi": "10.31235/osf.io/9jukf",
+   "title": "Leaving Home over the Recent Cohorts in Italy: Does Economic Vulnerability Matter?",
+   "year": 2022,
+   "venue": "",
+   "cited_by": 0,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "leav(?:e|es|ing|ing the)? (?:the )?(?:parental |family )?(?:home|nest)",
+    "leaving home"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W4416897549",
+   "doi": "10.1177/23780231251395464",
+   "title": "Parental Homes as Feathered Nets: Home-Leaving Trajectories of Young People in China",
+   "year": 2025,
+   "venue": "Socius Sociological Research for a Dynamic World",
+   "cited_by": 0,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "parental (?:home|nest|household)",
+    "home-?leaving"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W3100790382",
+   "doi": "10.31235/osf.io/9y6s5",
+   "title": "On the impact of COVID-19 pandemic on the intention to leave the parental home",
+   "year": 2020,
+   "venue": "",
+   "cited_by": 0,
+   "n_seeds": 1,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "parental (?:home|nest|household)",
+    "leav(?:e|es|ing|ing the)? (?:the )?(?:parental |family )?(?:home|nest)"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W7155623442",
+   "doi": "10.1007/s00148-026-01170-2",
+   "title": "The role of coresident grandparents in the Asian-white maternal employment gap in the US",
+   "year": 2026,
+   "venue": "Journal of Population Economics",
+   "cited_by": 0,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "co-?resid"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W4400704807",
+   "doi": "10.1787/7d5fbce0-en",
+   "title": "The share of young adults living with their parents has increased in many countries",
+   "year": 2024,
+   "venue": "Society at a glance",
+   "cited_by": 0,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "living with (?:their |her |his )?parents?",
+    "young adults? (?:still )?(?:liv|resid|stay)"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W3156077322",
+   "doi": "",
+   "title": "Partners and Crime: Contemporary Unions and Desistance from Crime During the Transition to Adulthood",
+   "year": 2020,
+   "venue": "TSpace (University of Toronto)",
+   "cited_by": 0,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "transition to adulthood"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W2135013013",
+   "doi": "",
+   "title": "A Life Course Perspective On Non-Metro Vs. Metro Poverty And Economic Attainment In The Transition To Adulthood In The United States (1980-2009)",
+   "year": 2013,
+   "venue": "eCommons (Cornell University)",
+   "cited_by": 0,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "transition to adulthood"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  },
+  {
+   "openalex": "W4414386850",
+   "doi": "10.3390/populations1030021",
+   "title": "Married Men\u2019s Coresidence with Parents or In-Laws and Later Life Mortality",
+   "year": 2025,
+   "venue": "Populations",
+   "cited_by": 0,
+   "n_seeds": 0,
+   "c2c_provisional_relevance": "OFF_OR_UNCERTAIN",
+   "exposure_terms": [
+    "co-?resid"
+   ],
+   "outcome_terms": [],
+   "eldercare_terms": [],
+   "outcome_in_title": false,
+   "eldercare_flag": false,
+   "provenance": "c2c_snowball_pool_mined"
+  }
+ ]
+}
