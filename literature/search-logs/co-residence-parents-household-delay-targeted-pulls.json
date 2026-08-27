@@ -1,0 +1,2749 @@
+{
+ "meta": {
+  "ticket": "TICK-075",
+  "status": "CANDIDATES \u2014 relevance-sorted targeted pulls; selection is a read, and every selection then clears the existence gate.",
+  "why": "214's citation-sorted broad families returned high-citation off-topic work; the proximity family was contaminated by plant-biology 'proximity'.",
+  "failed_pulls": 0
+ },
+ "pulls": {
+  "grandparent_childcare_fertility": {
+   "cell": "EXT",
+   "query": "(\"grandparental childcare\" OR \"grandparent childcare\" OR \"grandmother care\" OR \"grandparental support\" OR \"grandparental investment\") AND (fertility OR childbearing OR \"second birth\" OR \"birth intention\")",
+   "frame_count": 63,
+   "error": null,
+   "top": [
+    {
+     "openalex": "W4291144541",
+     "doi": "10.1007/s00181-022-02280-y",
+     "title": "Fertility cost, grandparental childcare, and female employment",
+     "year": 2022,
+     "type": "article",
+     "cited_by": 25,
+     "venue": "Empirical Economics",
+     "authors": "Hou\u2013Yong Yu; Jin Cao; Shulong Kang"
+    },
+    {
+     "openalex": "W2109829796",
+     "doi": "10.1177/0963721411403269",
+     "title": "Grandparental Investment",
+     "year": 2011,
+     "type": "article",
+     "cited_by": 86,
+     "venue": "Current Directions in Psychological Science",
+     "authors": "David A. Coall; Ralph Hertwig"
+    },
+    {
+     "openalex": "W4379805465",
+     "doi": "10.1371/journal.pone.0286496",
+     "title": "Grandparental childcare and second births in China",
+     "year": 2023,
+     "type": "article",
+     "cited_by": 8,
+     "venue": "PLoS ONE",
+     "authors": "Jing Zhang; Tom Emery"
+    },
+    {
+     "openalex": "W4382048846",
+     "doi": "10.1093/esr/jcad040",
+     "title": "Do grandparents really matter? The effect of regular grandparental childcare on the second-birth transition",
+     "year": 2023,
+     "type": "article",
+     "cited_by": 14,
+     "venue": "European Sociological Review",
+     "authors": "Roberta Rutigliano"
+    },
+    {
+     "openalex": "W2109371068",
+     "doi": "10.4054/demres.2014.31.1",
+     "title": "The impact of grandparental investment on mothers\u2019 fertility intentions in four European countries",
+     "year": 2014,
+     "type": "article",
+     "cited_by": 63,
+     "venue": "Demographic Research",
+     "authors": "Antti O. Tanskanen; Anna Rotkirch"
+    },
+    {
+     "openalex": "W1569063669",
+     "doi": "10.1007/s10680-012-9273-2",
+     "title": "Grandparenting and Childbearing in the Extended Family",
+     "year": 2012,
+     "type": "article",
+     "cited_by": 135,
+     "venue": "European Journal of Population / Revue europ\u00e9enne de D\u00e9mographie",
+     "authors": "Arnstein Aassve; Elena Claudia Meroni; Chiara Pronzato"
+    },
+    {
+     "openalex": "W2125511659",
+     "doi": "10.1098/rspb.2011.1424",
+     "title": "Grandparental investment and reproductive decisions in the longitudinal 1970 British cohort study",
+     "year": 2011,
+     "type": "article",
+     "cited_by": 78,
+     "venue": "Proceedings of the Royal Society B Biological Sciences",
+     "authors": "David Waynforth"
+    },
+    {
+     "openalex": "W3208034447",
+     "doi": "10.1016/j.jbusres.2021.10.013",
+     "title": "Grandparental childcare, maternal labor force participation, and the birth of a second child: Further knowledge from empirical analysis",
+     "year": 2021,
+     "type": "article",
+     "cited_by": 18,
+     "venue": "Journal of Business Research",
+     "authors": "Ye Wang; Xindong Zhao"
+    },
+    {
+     "openalex": "W4409644472",
+     "doi": "10.1016/j.econmod.2025.107102",
+     "title": "Elderly labor supply, endogenous grandparental childcare, and fertility in an OLG model",
+     "year": 2025,
+     "type": "article",
+     "cited_by": 6,
+     "venue": "Economic Modelling",
+     "authors": "Mauro Maria Baldi; Raffaella Coppier; Elisabetta Michetti"
+    },
+    {
+     "openalex": "W3171324992",
+     "doi": "10.1155/2021/6693853",
+     "title": "Grandparental Childcare and Second Birth in China: Evidence from a Dynamic Model and Empirical Study",
+     "year": 2021,
+     "type": "article",
+     "cited_by": 5,
+     "venue": "Complexity",
+     "authors": "Ye Wang; Xindong Zhao"
+    },
+    {
+     "openalex": "W1963764272",
+     "doi": "10.1016/j.alcr.2014.04.003",
+     "title": "Multi-partner fertility is associated with lower grandparental investment from in-laws in Finland",
+     "year": 2014,
+     "type": "article",
+     "cited_by": 31,
+     "venue": "Advances in Life Course Research",
+     "authors": "Antti O. Tanskanen; Mirkka Danielsbacka; Anna Rotkirch"
+    },
+    {
+     "openalex": "W4390818153",
+     "doi": "10.1007/s10797-023-09822-9",
+     "title": "Grandparental childcare, family allowances and retirement policies",
+     "year": 2024,
+     "type": "article",
+     "cited_by": 5,
+     "venue": "International Tax and Public Finance",
+     "authors": "Giam Pietro Cipriani; Tamara Fioroni"
+    },
+    {
+     "openalex": "W3087917310",
+     "doi": "10.1111/jomf.12728",
+     "title": "Grandparents' Support to Young Families: Variations by Adult Children's Union Status\u2020",
+     "year": 2020,
+     "type": "article",
+     "cited_by": 20,
+     "venue": "Journal of Marriage and the Family",
+     "authors": "Teresa M. Cooney"
+    },
+    {
+     "openalex": "W1979132342",
+     "doi": "10.1007/s12110-014-9200-9",
+     "title": "Grandparental Effects on Fertility Vary by Lineage in the United Kingdom",
+     "year": 2014,
+     "type": "article",
+     "cited_by": 54,
+     "venue": "Human Nature",
+     "authors": "Antti O. Tanskanen; Markus Jokela; Mirkka Danielsbacka; Anna Rotkirch"
+    },
+    {
+     "openalex": "W4406072616",
+     "doi": "10.1007/s10826-024-02972-2",
+     "title": "Work-Family Conflict and Second-Child Fertility Intention in Chinese Dual-Earner Families: Moderated Mediation Model of Parental Burnout and Grandparent Support",
+     "year": 2025,
+     "type": "article",
+     "cited_by": 9,
+     "venue": "Journal of Child and Family Studies",
+     "authors": "Wenxiao Fu; Wenlong Zhao; Feiqi Deng"
+    },
+    {
+     "openalex": "W2086272531",
+     "doi": "10.1007/s12110-010-9098-9",
+     "title": "How Grandparents Matter",
+     "year": 2010,
+     "type": "article",
+     "cited_by": 116,
+     "venue": "Human Nature",
+     "authors": "Ralf Kaptijn; Fleur Thom\u00e9se; T.G. van Tilburg; Aart C. Liefbroer"
+    },
+    {
+     "openalex": "W1990174405",
+     "doi": "10.1007/s10508-013-0254-2",
+     "title": "Family Planning: Fertility and Parenting Ideals in Urban Adolescents",
+     "year": 2014,
+     "type": "article",
+     "cited_by": 11,
+     "venue": "Archives of Sexual Behavior",
+     "authors": "Abigail Chipman; Edward R. Morrison"
+    },
+    {
+     "openalex": "W4320857359",
+     "doi": "10.1007/s10680-023-09652-9",
+     "title": "The Association between Religiosity and Fertility Intentions Via Grandparenting: Evidence from GGS Data",
+     "year": 2023,
+     "type": "article",
+     "cited_by": 11,
+     "venue": "European Journal of Population / Revue europ\u00e9enne de D\u00e9mographie",
+     "authors": "Charalampos Dantis; Ester Lucia Rizzi; Thomas Baudin"
+    },
+    {
+     "openalex": "W2138271547",
+     "doi": "10.1017/s0140525x09991671",
+     "title": "Fitness effects of grandparental investments in contemporary low-risk societies",
+     "year": 2010,
+     "type": "article",
+     "cited_by": 2,
+     "venue": "Behavioral and Brain Sciences",
+     "authors": "Ralf Kaptijn; Fleur Thom\u00e9se"
+    },
+    {
+     "openalex": "W4225640610",
+     "doi": "10.1186/s41118-022-00161-x",
+     "title": "Do I want more if you help me? The impact of grandparental involvement on men\u2019s and women\u2019s fertility intentions",
+     "year": 2022,
+     "type": "article",
+     "cited_by": 12,
+     "venue": "Genus",
+     "authors": "Roberta Rutigliano; Mariona Lozano"
+    },
+    {
+     "openalex": "W4288673708",
+     "doi": "10.2139/ssrn.3428855",
+     "title": "Fertility Cost, Intergenerational Labor Division, and Female Employment",
+     "year": 2019,
+     "type": "preprint",
+     "cited_by": 3,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Hou\u2013Yong Yu; Jin Cao; Shulong Kang"
+    },
+    {
+     "openalex": "W2440654285",
+     "doi": null,
+     "title": "Grandparenting and Childbearing in the Extended",
+     "year": 2012,
+     "type": "article",
+     "cited_by": 1,
+     "venue": null,
+     "authors": "Arnstein AassveElena MeroniChiara Pronzato"
+    },
+    {
+     "openalex": "W3023084983",
+     "doi": "10.4054/demres.2020.42.29",
+     "title": "Entrance into parenthood at the onset of low fertility in Ukraine: The role of family relationships and perceived security",
+     "year": 2020,
+     "type": "article",
+     "cited_by": 5,
+     "venue": "Demographic Research",
+     "authors": "Yuliya Hilevych"
+    },
+    {
+     "openalex": "W4385291430",
+     "doi": "10.1057/s41599-023-01940-3",
+     "title": "Exploring how unemployment and grandparental support influence reproductive decisions in sub-Saharan African countries: Nigeria in focus",
+     "year": 2023,
+     "type": "article",
+     "cited_by": 1,
+     "venue": "Humanities and Social Sciences Communications",
+     "authors": "Benedict Ogbemudia Imhanrenialena; Wilson Ebhotemhen; Anthony Aziegbemin Ekeoba; Andrew Asan Ate"
+    },
+    {
+     "openalex": "W3133460694",
+     "doi": "10.2139/ssrn.3334963",
+     "title": "Fertility Cost, Intergenerational Labor Division, and Female Employment",
+     "year": 2019,
+     "type": "preprint",
+     "cited_by": 1,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Hou\u2013Yong Yu; Jin Cao; Shulong Kang"
+    }
+   ]
+  },
+  "coresidence_inlaws_fertility": {
+   "cell": "EXT",
+   "query": "(\"living with parents-in-law\" OR \"co-residence with parents-in-law\" OR \"coresidence with in-laws\" OR \"patrilocal\" OR \"virilocal\") AND (fertility OR childbearing OR \"second birth\")",
+   "frame_count": 93,
+   "error": null,
+   "top": [
+    {
+     "openalex": "W1592960464",
+     "doi": "10.18356/9c472e3a-en",
+     "title": "Patrilines, patrilocality and fertility decline in Viet Nam",
+     "year": 2002,
+     "type": "article",
+     "cited_by": 24,
+     "venue": "Asia-Pacific population journal",
+     "authors": "John Bryant"
+    },
+    {
+     "openalex": "W2122655835",
+     "doi": "10.1017/s0305741000040789",
+     "title": "Patrilocality and Early Marital Co-residence in Rural China, 1955\u201385",
+     "year": 1992,
+     "type": "article",
+     "cited_by": 56,
+     "venue": "The China Quarterly",
+     "authors": "William Lavely; Xinhua S. Ren"
+    },
+    {
+     "openalex": "W2044761608",
+     "doi": "10.1525/ae.1992.19.3.02a00050",
+     "title": "Shipibo polygyny and patrilocality",
+     "year": 1992,
+     "type": "article",
+     "cited_by": 14,
+     "venue": "American Ethnologist",
+     "authors": "Warren M. Hern"
+    },
+    {
+     "openalex": "W2133053924",
+     "doi": "10.1111/j.1728-4465.2010.00229.x",
+     "title": "Son Preference in the Context of Fertility Decline: Limits to New Constructions of Gender and Kinship in Nepal",
+     "year": 2010,
+     "type": "article",
+     "cited_by": 82,
+     "venue": "Studies in Family Planning",
+     "authors": "Jan Brunson"
+    },
+    {
+     "openalex": "W2148877116",
+     "doi": "10.1080/0032472031000146196",
+     "title": "Progress and Stagnation: Changes in Fertility and Women's Position in an Indian Village",
+     "year": 1992,
+     "type": "article",
+     "cited_by": 62,
+     "venue": "Population Studies",
+     "authors": "Carol Vlassoff"
+    },
+    {
+     "openalex": "W2048957498",
+     "doi": "10.1016/j.evolhumbehav.2012.11.004",
+     "title": "Kin influences on fertility in Thailand: Effects and mechanisms",
+     "year": 2012,
+     "type": "article",
+     "cited_by": 43,
+     "venue": "Evolution and Human Behavior",
+     "authors": "Kristin Snopkowski; Rebecca Sear"
+    },
+    {
+     "openalex": "W4400301542",
+     "doi": "10.1007/s11113-024-09897-0",
+     "title": "Patrilocality and Child Sex Ratios in India",
+     "year": 2024,
+     "type": "article",
+     "cited_by": 10,
+     "venue": "Population Research and Policy Review",
+     "authors": "Srinivas Goli; Somya Arora; Neha Jain; T. V. Sekher"
+    },
+    {
+     "openalex": "W4388085138",
+     "doi": "10.1093/oso/9780198288183.003.0006",
+     "title": "Patrilocality, Childbearing, and the Labour Supply and Earning Power of Married Japanese Women",
+     "year": 1994,
+     "type": "book-chapter",
+     "cited_by": 3,
+     "venue": null,
+     "authors": "Naohiro Ogawa; Robert W. Hodge"
+    },
+    {
+     "openalex": "W2053043490",
+     "doi": "10.1353/jhr.2014.0009",
+     "title": "Where There Is a Will: Fertility Behavior and Sex Bias in Large Families",
+     "year": 2014,
+     "type": "article",
+     "cited_by": 20,
+     "venue": "The Journal of Human Resources",
+     "authors": "Tarun Jain"
+    },
+    {
+     "openalex": "W2906475481",
+     "doi": "10.17356/ieejsp.v4i2.389",
+     "title": "Marriage, Gender and Transnational Migrations in Fertility Transitions of Romanian Roma Women",
+     "year": 2018,
+     "type": "article",
+     "cited_by": 14,
+     "venue": "Intersections",
+     "authors": "Juan F. Gamella"
+    },
+    {
+     "openalex": "W3217637565",
+     "doi": "10.1111/fare.12620",
+     "title": "Does the one\u2010child generation want more than one child at their fertility age?",
+     "year": 2021,
+     "type": "article",
+     "cited_by": 19,
+     "venue": "Family Relations",
+     "authors": "Penggang Wang; Heying Jenny Zhan; Jing Liu; Patricia Barrett"
+    },
+    {
+     "openalex": "W4213221756",
+     "doi": "10.2139/ssrn.4031227",
+     "title": "Patrilocality and Child Sex Ratios in India",
+     "year": 2022,
+     "type": "preprint",
+     "cited_by": 2,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Srinivas Goli; Somya Arora; Neha Jain"
+    },
+    {
+     "openalex": "W2006757604",
+     "doi": "10.3366/afr.2010.0405",
+     "title": "On Dancing and Fishing: Joy and the Celebration of Fertility Among the Punu of Congo-Brazzaville",
+     "year": 2010,
+     "type": "article",
+     "cited_by": 10,
+     "venue": "Africa",
+     "authors": "Carine Plancke"
+    },
+    {
+     "openalex": "W2164106494",
+     "doi": "10.1007/s11113-006-0001-7",
+     "title": "Marriage form and fertility in rural China: an investigation in three counties",
+     "year": 2006,
+     "type": "article",
+     "cited_by": 7,
+     "venue": "Population Research and Policy Review",
+     "authors": "Xiaoyi Jin; Shuzhuo Li; Marcus W. Feldman"
+    },
+    {
+     "openalex": "W2588734881",
+     "doi": null,
+     "title": "Queen Bees and Domestic Violence: Patrilocal Marriage in Tajikistan",
+     "year": 2016,
+     "type": "article",
+     "cited_by": 1,
+     "venue": "DukeSpace (Duke University)",
+     "authors": "Charles Becker; Mavzuna Turaeva"
+    },
+    {
+     "openalex": "W3003443773",
+     "doi": "10.2139/ssrn.2862096",
+     "title": "Queen Bees and Domestic Violence: Patrilocal Marriage in Tajikistan",
+     "year": 2016,
+     "type": "preprint",
+     "cited_by": 1,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Mavzuna Turaeva; Charles Becker"
+    },
+    {
+     "openalex": "W2785459582",
+     "doi": "10.1016/j.jdeveco.2018.08.001",
+     "title": "Women's inheritance rights reform and the preference for sons in India",
+     "year": 2018,
+     "type": "article",
+     "cited_by": 129,
+     "venue": "Journal of Development Economics",
+     "authors": "Sonia Bhalotra; Rachel Brul\u00e9; Sanchari Roy"
+    },
+    {
+     "openalex": "W2285938891",
+     "doi": null,
+     "title": "Cultural and Economic Factors in the Fertility of Thai Women",
+     "year": 1987,
+     "type": "book",
+     "cited_by": 3,
+     "venue": null,
+     "authors": "Hogan Dp; Aphichat Chamratrithirong; Smith Pc"
+    },
+    {
+     "openalex": "W2300338906",
+     "doi": null,
+     "title": "The Ignored Role of Men in Fertility Awareness and Regulation in Africa",
+     "year": 2001,
+     "type": "article",
+     "cited_by": 4,
+     "venue": "African Journal of Reproductive Health",
+     "authors": "Amy Ratcliffe; Allan C. Hill; Mafuji Dibba; Gijs Walraven"
+    },
+    {
+     "openalex": "W2258717442",
+     "doi": "10.1016/j.jce.2012.11.001",
+     "title": "Household formation rules, fertility and female labour supply: Evidence from post-communist countries",
+     "year": 2012,
+     "type": "article",
+     "cited_by": 4,
+     "venue": "Journal of Comparative Economics",
+     "authors": "Louise Grogan"
+    },
+    {
+     "openalex": "W3159569907",
+     "doi": null,
+     "title": "FERTILITY TRANSITION IN EGYPT",
+     "year": 1987,
+     "type": "dissertation",
+     "cited_by": 1,
+     "venue": "ScholarlyCommons (University of Pennsylvania)",
+     "authors": "Ferial Abd El-Kader Ahmed"
+    },
+    {
+     "openalex": "W2760675787",
+     "doi": "10.5958/2249-7315.2017.00454.3",
+     "title": "Role of socio- cultural and economic characteristics on fertility choices in Cooch Behar district, West Bengal",
+     "year": 2017,
+     "type": "article",
+     "cited_by": 3,
+     "venue": "Asian Journal of Research in Social Sciences and Humanities",
+     "authors": "Mithun Ray; Mijanur Rahaman"
+    },
+    {
+     "openalex": "W2274237292",
+     "doi": null,
+     "title": "Family type and fertility: a review of literature.",
+     "year": 1979,
+     "type": "article",
+     "cited_by": 1,
+     "venue": "PubMed",
+     "authors": "Kim Gyung ok; Iqbal Shah"
+    },
+    {
+     "openalex": "W2244586274",
+     "doi": "10.2139/ssrn.1367907",
+     "title": "Where There is a Will: Fertility Behavior and Sex Bias in Large Families",
+     "year": 2011,
+     "type": "preprint",
+     "cited_by": 1,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Tarun Jain"
+    },
+    {
+     "openalex": "W3021464029",
+     "doi": "10.1111/ajae.12114",
+     "title": "Curse of the Mummy\u2010ji : The Influence of Mothers\u2010in\u2010Law on Women in India \u2020",
+     "year": 2020,
+     "type": "article",
+     "cited_by": 86,
+     "venue": "American Journal of Agricultural Economics",
+     "authors": "S Anukriti; Catalina Herrera\u2010Almanza; Praveen Kumar Pathak; Mahesh Karra"
+    }
+   ]
+  },
+  "multigen_household_fertility": {
+   "cell": "EXT",
+   "query": "(\"multigenerational household\" OR \"three-generation household\" OR \"extended household\" OR \"stem family\") AND (fertility OR \"second birth\" OR \"birth intention\" OR childbearing)",
+   "frame_count": 94,
+   "error": null,
+   "top": [
+    {
+     "openalex": "W2109547422",
+     "doi": "10.1177/0192513x12439177",
+     "title": "Multigenerational Households and the School Readiness of Children Born to Unmarried Mothers",
+     "year": 2012,
+     "type": "article",
+     "cited_by": 33,
+     "venue": "Journal of Family Issues",
+     "authors": "Jennifer March Augustine; R. Kelly Raley"
+    },
+    {
+     "openalex": "W2601990648",
+     "doi": "10.3138/jcfs.43.3.439",
+     "title": "Starting a Family at Your Parents\u2019 House: Multigenerational Households and Below Replacement Fertility in Urban Bulgaria",
+     "year": 2012,
+     "type": "article",
+     "cited_by": 17,
+     "venue": "Journal of Comparative Family Studies",
+     "authors": "Kristen Ghodsee; Laura Bernardi"
+    },
+    {
+     "openalex": "W3014887195",
+     "doi": "10.1007/978-3-030-35079-6_15",
+     "title": "Multigenerational Households: A Descriptive Approach to Distinctive Definitions",
+     "year": 2020,
+     "type": "book-chapter",
+     "cited_by": 6,
+     "venue": "International handbooks of population",
+     "authors": "Guadalupe M\u00e1rquez-Velarde"
+    },
+    {
+     "openalex": "W2051881756",
+     "doi": "10.1016/j.hisfam.2006.11.007",
+     "title": "Family reproduction and stem-family system: From Pyrenean valleys to Norwegian farms",
+     "year": 2006,
+     "type": "article",
+     "cited_by": 22,
+     "venue": "The History of the Family",
+     "authors": "Antoinette Fauve-Chamoux"
+    },
+    {
+     "openalex": "W2072436544",
+     "doi": "10.1017/s0140525x09991749",
+     "title": "Are humans cooperative breeders?: Most studies of natural fertility populations do not support the grandmother hypothesis",
+     "year": 2010,
+     "type": "article",
+     "cited_by": 19,
+     "venue": "Behavioral and Brain Sciences",
+     "authors": "Beverly I. Strassmann; Nikhil Kurapati"
+    },
+    {
+     "openalex": "W4408026238",
+     "doi": "10.1111/sifp.12282",
+     "title": "Changes in Latin American and Caribbean Household Structure Amidst Fertility Decline, 1960\u20132020",
+     "year": 2025,
+     "type": "article",
+     "cited_by": 8,
+     "venue": "Studies in Family Planning",
+     "authors": "Federica Becca; Albert Esteve; Andr\u00e9s F. Castro Torres"
+    },
+    {
+     "openalex": "W2003206648",
+     "doi": "10.1163/187633380x00128",
+     "title": "The Bulgarian Anomaly: Demographic Transition and Current Fertility",
+     "year": 1980,
+     "type": "article",
+     "cited_by": 4,
+     "venue": "Southeastern Europe",
+     "authors": "Robert J. McIntyre"
+    },
+    {
+     "openalex": "W1994767988",
+     "doi": "10.1016/j.socscimed.2003.10.003",
+     "title": "Multigenerational family structure in Japanese society: impacts on stress and health behaviors among women and men",
+     "year": 2003,
+     "type": "article",
+     "cited_by": 70,
+     "venue": "Social Science & Medicine",
+     "authors": "Yasuhisa Takeda; Ichiro Kawachi; Zentaro Yamagata; Shuji Hashimoto"
+    },
+    {
+     "openalex": "W1755555414",
+     "doi": "10.25336/p68w3k",
+     "title": "The Origins of the fertility transition in rural Japan",
+     "year": 1981,
+     "type": "article",
+     "cited_by": 1,
+     "venue": "Canadian Studies in Population",
+     "authors": "Carl Mosk"
+    },
+    {
+     "openalex": "W2060819383",
+     "doi": null,
+     "title": "Fertility and family surveys in countries of the ECE region. Standard country report: Norway.",
+     "year": 1996,
+     "type": "book",
+     "cited_by": 2,
+     "venue": "Medical Entomology and Zoology",
+     "authors": "Turid Noack; Lars \u00d8stby"
+    },
+    {
+     "openalex": "W7151883327",
+     "doi": "10.4054/demres.2026.54.22",
+     "title": "The impact of household structure on fertility: A study in Vietnam",
+     "year": 2026,
+     "type": "article",
+     "cited_by": 1,
+     "venue": "Demographic Research",
+     "authors": "Khoa Truong An Nguyen; Tuyen Van Duong"
+    },
+    {
+     "openalex": "W2070846032",
+     "doi": "10.1177/036319908701200108",
+     "title": "Hajnal and the Household in Asia: a Comparativist History of the Family in Preindustrial Japan, 1600-1870",
+     "year": 1987,
+     "type": "article",
+     "cited_by": 61,
+     "venue": "Journal of Family History",
+     "authors": "L. L. Cornell"
+    },
+    {
+     "openalex": "W4289654889",
+     "doi": "10.15517/psm.v20i1.49927",
+     "title": "Spatial Bayesian modeling of household structure and fertility in municipalities of Mexico",
+     "year": 2022,
+     "type": "article",
+     "cited_by": 1,
+     "venue": "Poblaci\u00f3n y Salud en Mesoam\u00e9rica",
+     "authors": "Gerardo N\u00fa\u00f1ez Medina"
+    },
+    {
+     "openalex": "W2037792764",
+     "doi": "10.2307/2060023",
+     "title": "Some demographic determinants of average household size: An analytic approach",
+     "year": 1970,
+     "type": "article",
+     "cited_by": 87,
+     "venue": "Demography",
+     "authors": "Thomas K. Burch"
+    },
+    {
+     "openalex": "W2045405029",
+     "doi": "10.1080/01494929.2011.619303",
+     "title": "Being a Good Grandparent: Roles and Expectations in Intergenerational Relationships in Japan and Singapore",
+     "year": 2011,
+     "type": "article",
+     "cited_by": 58,
+     "venue": "Marriage & Family Review",
+     "authors": "Leng Leng Thang; Kalyani K. Mehta; Tsuneo Usui; Mari Tsuruwaka"
+    },
+    {
+     "openalex": "W3172333757",
+     "doi": null,
+     "title": "Family structure, marriage and fertility in Hong Kong: Demographic effects of the changing Chinese family.",
+     "year": 1988,
+     "type": "dissertation",
+     "cited_by": 1,
+     "venue": "Deep Blue (University of Michigan)",
+     "authors": "Yat-Ming Siu"
+    },
+    {
+     "openalex": "W2063285982",
+     "doi": "10.2307/2061836",
+     "title": "Writing the names: Marriage style, living arrangements, and first birth interval in a Nepali society",
+     "year": 1993,
+     "type": "article",
+     "cited_by": 45,
+     "venue": "Demography",
+     "authors": "Tom Fricke; Jay D. Teachman"
+    },
+    {
+     "openalex": "W1979899036",
+     "doi": "10.2307/2137684",
+     "title": "Comparing Family Systems in Europe and Asia: Are There Different Sets of Rules?",
+     "year": 1996,
+     "type": "article",
+     "cited_by": 136,
+     "venue": "Population and Development Review",
+     "authors": "Jack Goody"
+    },
+    {
+     "openalex": "W2963402664",
+     "doi": "10.1177/0192513x19863203",
+     "title": "Changes and Trends in Family Structure in Taiwan, 1990 to 2010",
+     "year": 2019,
+     "type": "article",
+     "cited_by": 23,
+     "venue": "Journal of Family Issues",
+     "authors": "Ying-Ting Wang; Wen-Shan Yang"
+    },
+    {
+     "openalex": "W2122655835",
+     "doi": "10.1017/s0305741000040789",
+     "title": "Patrilocality and Early Marital Co-residence in Rural China, 1955\u201385",
+     "year": 1992,
+     "type": "article",
+     "cited_by": 56,
+     "venue": "The China Quarterly",
+     "authors": "William Lavely; Xinhua S. Ren"
+    },
+    {
+     "openalex": "W4322505555",
+     "doi": "10.1016/j.spc.2023.02.014",
+     "title": "Temporal dynamic assessment of household energy consumption and carbon emissions in China: From the perspective of occupants",
+     "year": 2023,
+     "type": "article",
+     "cited_by": 45,
+     "venue": "Sustainable Production and Consumption",
+     "authors": "Shu Su; Yujie Ding; Guozhi Li; Xiaodong Li"
+    },
+    {
+     "openalex": "W3152249003",
+     "doi": null,
+     "title": "Starting a Family at Your Parents' House: Multigenerational Households and Below Replacement Fertility in Urban Bulgaria",
+     "year": 2012,
+     "type": "article",
+     "cited_by": 0,
+     "venue": null,
+     "authors": "iCristen Ghodsee; Laura Bemardi"
+    },
+    {
+     "openalex": "W2580486718",
+     "doi": "10.1177/033248938100800104",
+     "title": "Irish Immigration to Britain, 1911\u20131951: Patterns and Policy",
+     "year": 1981,
+     "type": "article",
+     "cited_by": 34,
+     "venue": "Irish Economic and Social History",
+     "authors": "Sean Glynn"
+    },
+    {
+     "openalex": "W1966161123",
+     "doi": "10.2307/353598",
+     "title": "Covariates of Household Extension in Rural India: Change Over Time",
+     "year": 1994,
+     "type": "article",
+     "cited_by": 22,
+     "venue": "Journal of Marriage and the Family",
+     "authors": "Malathi Ram; Rebeca Wong"
+    },
+    {
+     "openalex": "W2045080924",
+     "doi": "10.1526/0036011054776352",
+     "title": "Women's Status in a Rural Chinese Setting",
+     "year": 2005,
+     "type": "article",
+     "cited_by": 19,
+     "venue": "Rural Sociology",
+     "authors": "Jianghong Li"
+    }
+   ]
+  },
+  "east_asia_coresidence_fertility": {
+   "cell": "EXT",
+   "query": "(China OR Japan OR Korea OR Taiwan) AND (coresidence OR \"co-residence\" OR \"living with parents\" OR \"multigenerational\") AND (fertility OR \"second child\" OR \"birth intention\")",
+   "frame_count": 105,
+   "error": null,
+   "top": [
+    {
+     "openalex": "W3041897046",
+     "doi": "10.1093/humrep/deaa139",
+     "title": "Multigenerational and transgenerational impact of paternal bisphenol A exposure on male fertility in a mouse model",
+     "year": 2020,
+     "type": "article",
+     "cited_by": 104,
+     "venue": "Human Reproduction",
+     "authors": "Md Saidur Rahman; Won\u2010Ki Pang; Do\u2010Yeal Ryu; Yoo-Jin Park"
+    },
+    {
+     "openalex": "W1547117390",
+     "doi": null,
+     "title": "Understanding Chinese Families: A Comparative Study of Taiwan and Southeast China",
+     "year": 2009,
+     "type": "preprint",
+     "cited_by": 101,
+     "venue": "RePEc: Research Papers in Economics",
+     "authors": "C. Y. Cyrus Chu; Ruoh\u2010Rong Yu"
+    },
+    {
+     "openalex": "W2122655835",
+     "doi": "10.1017/s0305741000040789",
+     "title": "Patrilocality and Early Marital Co-residence in Rural China, 1955\u201385",
+     "year": 1992,
+     "type": "article",
+     "cited_by": 56,
+     "venue": "The China Quarterly",
+     "authors": "William Lavely; Xinhua S. Ren"
+    },
+    {
+     "openalex": "W1994767988",
+     "doi": "10.1016/j.socscimed.2003.10.003",
+     "title": "Multigenerational family structure in Japanese society: impacts on stress and health behaviors among women and men",
+     "year": 2003,
+     "type": "article",
+     "cited_by": 70,
+     "venue": "Social Science & Medicine",
+     "authors": "Yasuhisa Takeda; Ichiro Kawachi; Zentaro Yamagata; Shuji Hashimoto"
+    },
+    {
+     "openalex": "W3122536053",
+     "doi": "10.1016/j.jce.2017.10.005",
+     "title": "Fertility, household structure, and parental labor supply: Evidence from China",
+     "year": 2017,
+     "type": "article",
+     "cited_by": 60,
+     "venue": "Journal of Comparative Economics",
+     "authors": "Rufei Guo; Hongbin Li; Junjian Yi; Junsen Zhang"
+    },
+    {
+     "openalex": "W2929569684",
+     "doi": "10.1016/j.jtrangeo.2019.03.010",
+     "title": "Active travel for active ageing in China: The role of built environment",
+     "year": 2019,
+     "type": "article",
+     "cited_by": 243,
+     "venue": "Journal of Transport Geography",
+     "authors": "Long Cheng; Xuewu Chen; Shuo Yang; Zhan Cao"
+    },
+    {
+     "openalex": "W2319585335",
+     "doi": "10.2307/1973431",
+     "title": "Changes in Family Structure in China: A Simulation Study",
+     "year": 1986,
+     "type": "article",
+     "cited_by": 91,
+     "venue": "Population and Development Review",
+     "authors": "Yi Zeng"
+    },
+    {
+     "openalex": "W2802582561",
+     "doi": "10.1080/21582041.2018.1465201",
+     "title": "Reconceptualising co-residence in post-growth Japanese society",
+     "year": 2018,
+     "type": "article",
+     "cited_by": 8,
+     "venue": "Contemporary Social Science",
+     "authors": "Misa Izuhara"
+    },
+    {
+     "openalex": "W3191732024",
+     "doi": "10.1186/s12978-021-01212-w",
+     "title": "Household income and medical help-seeking for fertility problems among a representative population in Japan",
+     "year": 2021,
+     "type": "article",
+     "cited_by": 27,
+     "venue": "Reproductive Health",
+     "authors": "Arisa Iba; Eri Maeda; Seung Chik Jwa; Ayako Yanagisawa\u2010Sugita"
+    },
+    {
+     "openalex": "W2289987374",
+     "doi": "10.1177/2057150x15614545",
+     "title": "Do parents matter? Intergenerational ties and fertility preferences in a low-fertility context",
+     "year": 2015,
+     "type": "article",
+     "cited_by": 31,
+     "venue": "Chinese Journal of Sociology",
+     "authors": "Yingchun Ji; Feinian Chen; Yong Cai; Zhenzhen Zheng"
+    },
+    {
+     "openalex": "W621756163",
+     "doi": null,
+     "title": "Coresidence choices of elderly parents and adult children in Taiwan.",
+     "year": 1995,
+     "type": "dissertation",
+     "cited_by": 5,
+     "venue": "Deep Blue (University of Michigan)",
+     "authors": "Mary Beth Ofstedal"
+    },
+    {
+     "openalex": "W1948357180",
+     "doi": "10.1186/s40711-015-0011-0",
+     "title": "Household changes in contemporary China: an analysis based on the four recent censuses",
+     "year": 2015,
+     "type": "article",
+     "cited_by": 110,
+     "venue": "The Journal of Chinese Sociology",
+     "authors": "Zhan Hu; Xizhe Peng"
+    },
+    {
+     "openalex": "W2011303333",
+     "doi": "10.1016/j.evolhumbehav.2008.11.003",
+     "title": "Rethinking the Taiwanese minor marriage data: evidence the mind uses multiple kinship cues to regulate inbreeding avoidance",
+     "year": 2009,
+     "type": "article",
+     "cited_by": 50,
+     "venue": "Evolution and Human Behavior",
+     "authors": "Debra Lieberman"
+    },
+    {
+     "openalex": "W2007282388",
+     "doi": "10.1177/0898264305285668",
+     "title": "Fertility Decline, Family Structure, and Support for Older Persons in Latin America and Asia",
+     "year": 2006,
+     "type": "article",
+     "cited_by": 40,
+     "venue": "Journal of Aging and Health",
+     "authors": "Karen Glaser; Emily M. Agree; Elizabeth Costenbader; Antonio Camargo"
+    },
+    {
+     "openalex": "W1604329332",
+     "doi": "10.1080/17441730.2010.494445",
+     "title": "INTERGENERATIONAL PROXIMITY AND THE FERTILITY INTENTIONS OF MARRIED WOMEN",
+     "year": 2010,
+     "type": "article",
+     "cited_by": 29,
+     "venue": "Asian Population Studies",
+     "authors": "James M. Raymo; Letizia Mencarini; Miho Iwasawa; Rie Moriizumi"
+    },
+    {
+     "openalex": "W1581196449",
+     "doi": "10.2307/1971881",
+     "title": "Family Dynamics in China: A Life Table Analysis.",
+     "year": 1992,
+     "type": "article",
+     "cited_by": 61,
+     "venue": "Population and Development Review",
+     "authors": "Susan Greenhalgh; Yi Zeng"
+    },
+    {
+     "openalex": "W2276296006",
+     "doi": null,
+     "title": "Fertility and the family.",
+     "year": 1991,
+     "type": "article",
+     "cited_by": 14,
+     "venue": "PubMed",
+     "authors": "S Kono"
+    },
+    {
+     "openalex": "W2102511034",
+     "doi": "10.1111/j.1728-4457.2004.00022.x",
+     "title": "Levels of Support from Children in Taiwan: Expectations versus Reality, 1965\u201399",
+     "year": 2004,
+     "type": "article",
+     "cited_by": 39,
+     "venue": "Population and Development Review",
+     "authors": "Albert I. Hermalin; Li-shou Yang"
+    },
+    {
+     "openalex": "W2277566984",
+     "doi": "10.18356/069681ca-en",
+     "title": "Support exchange patterns of the elderly in the Republic of Korea",
+     "year": 1992,
+     "type": "article",
+     "cited_by": 33,
+     "venue": "Asia-Pacific population journal",
+     "authors": "Ik Ki Kim; Ehn Hyun Choe"
+    },
+    {
+     "openalex": "W2294037556",
+     "doi": "10.3138/jcfs.22.3.273",
+     "title": "Mate Selection and Fertility in Urban Nigeria",
+     "year": 1991,
+     "type": "article",
+     "cited_by": 18,
+     "venue": "Journal of Comparative Family Studies",
+     "authors": "Bamikale J. Feyisetan; Akinrinola Bankole"
+    },
+    {
+     "openalex": "W1915343530",
+     "doi": null,
+     "title": "Intergenerational Living Arrangements of Young Married Women in Korea, Japan and China",
+     "year": 2012,
+     "type": "article",
+     "cited_by": 4,
+     "venue": "\ud55c\uad6d\uc0ac\ud68c\ud559",
+     "authors": "Cheong\u2010Seok Kim"
+    },
+    {
+     "openalex": "W4381469473",
+     "doi": "10.1002/jat.4502",
+     "title": "Evaluation of multigenerational effects of 2\u2010ethylhexyl 4\u2010hydroxybenzoate in Japanese medaka",
+     "year": 2023,
+     "type": "article",
+     "cited_by": 6,
+     "venue": "Journal of Applied Toxicology",
+     "authors": "Sharlene R. Matten; Dawn M. Fallacara; Alaa Kamel; Scott G. Lynn"
+    },
+    {
+     "openalex": "W2953462346",
+     "doi": "10.5287/ora-4rgognbe9",
+     "title": "Marriage and fertility in China and Japan",
+     "year": 2018,
+     "type": "dissertation",
+     "cited_by": 2,
+     "venue": "Oxford University Research Archive (ORA) (University of Oxford)",
+     "authors": "Manting Chen"
+    },
+    {
+     "openalex": "W2167726251",
+     "doi": "10.1007/bf03033896",
+     "title": "Family structure and well-being at older ages in Japan",
+     "year": 2008,
+     "type": "article",
+     "cited_by": 28,
+     "venue": "Journal of Population Research",
+     "authors": "James M. Raymo; Saeko Kikuzawa; Jersey Liang; Erika Kobayashi"
+    },
+    {
+     "openalex": "W4413028575",
+     "doi": "10.1186/s12889-025-23725-w",
+     "title": "Fertility intentions among Chinese adults: a cross-sectional study using a national survey",
+     "year": 2025,
+     "type": "article",
+     "cited_by": 11,
+     "venue": "BMC Public Health",
+     "authors": "Mingyan Hao; Chenxiao Zhang; Huiqin Fu; Jingting Zhang"
+    }
+   ]
+  },
+  "leaving_home_first_birth": {
+   "cell": "PRE",
+   "query": "(\"leaving home\" OR \"leaving the parental home\" OR \"home leaving\" OR \"nest leaving\") AND (\"first birth\" OR \"transition to parenthood\" OR \"entry into parenthood\")",
+   "frame_count": 44,
+   "error": null,
+   "top": [
+    {
+     "openalex": "W2088077897",
+     "doi": "10.1007/978-1-4684-7021-5_9",
+     "title": "Normal Stresses during the Transition to Parenthood",
+     "year": 1980,
+     "type": "book-chapter",
+     "cited_by": 198,
+     "venue": null,
+     "authors": "Brent C. Miller; Donna L. Sollie"
+    },
+    {
+     "openalex": "W2000385836",
+     "doi": "10.1300/j002v42n01_03",
+     "title": "The Timing of Leaving the Parental Home and Its Linkages to Other Life Course Events in Turkey",
+     "year": 2007,
+     "type": "article",
+     "cited_by": 28,
+     "venue": "Marriage & Family Review",
+     "authors": "\u0130smet Ko\u00e7"
+    },
+    {
+     "openalex": "W2800261663",
+     "doi": "10.1186/s12966-018-0719-8",
+     "title": "Changes in diet through adolescence and early adulthood: longitudinal trajectories and association with key life transitions",
+     "year": 2018,
+     "type": "article",
+     "cited_by": 276,
+     "venue": "International Journal of Behavioral Nutrition and Physical Activity",
+     "authors": "Eleanor Winpenny; Esther van Sluijs; Martin White; Knut\u2010Inge Klepp"
+    },
+    {
+     "openalex": "W633736488",
+     "doi": null,
+     "title": "On the move : the psychology of change and transition",
+     "year": 1990,
+     "type": "article",
+     "cited_by": 231,
+     "venue": null,
+     "authors": "Shirley Fisher; Cary L. Cooper"
+    },
+    {
+     "openalex": "W1516710481",
+     "doi": "10.4054/mpidr-wp-2001-039",
+     "title": "Convergence towards diversity? Cohort dynamics in the transition to adulthood in contemporary Western Europe",
+     "year": 2001,
+     "type": "report",
+     "cited_by": 120,
+     "venue": null,
+     "authors": "Francesco C. Billari; Chris Wilson"
+    },
+    {
+     "openalex": "W1525519266",
+     "doi": "10.1007/s10680-007-9136-4",
+     "title": "Heterogeneity in the Transition to Adulthood: The Cases of Australia, Canada, and the United States",
+     "year": 2007,
+     "type": "article",
+     "cited_by": 69,
+     "venue": "European Journal of Population / Revue europ\u00e9enne de D\u00e9mographie",
+     "authors": "Elizabeth Fussell; Anne H. Gauthier; Ann Evans"
+    },
+    {
+     "openalex": "W1541364795",
+     "doi": "10.4054/mpidr-wp-2002-040",
+     "title": "Patterns of lowest-low fertility in Europe",
+     "year": 2002,
+     "type": "report",
+     "cited_by": 74,
+     "venue": null,
+     "authors": "Francesco C. Billari; Hans\u2010Peter Kohler"
+    },
+    {
+     "openalex": "W1526298370",
+     "doi": "10.1023/a:1006068102735",
+     "title": "Early Life Transitions of Canadian Women: A Cohort Analysis of Timing, Sequences, and Variations",
+     "year": 1998,
+     "type": "article",
+     "cited_by": 64,
+     "venue": "European Journal of Population / Revue europ\u00e9enne de D\u00e9mographie",
+     "authors": "Aenaida R. Ravanera; Fernando Rajulton; Thomas K. Burch"
+    },
+    {
+     "openalex": "W1995138654",
+     "doi": "10.1007/s10680-005-7434-2",
+     "title": "Societal Transition, Policy Changes and Family Formation: Evidence from Hungary",
+     "year": 2006,
+     "type": "article",
+     "cited_by": 64,
+     "venue": "European Journal of Population / Revue europ\u00e9enne de D\u00e9mographie",
+     "authors": "Arnstein Aassve; Francesco C. Billari; Zsolt Sp\u00e9der"
+    },
+    {
+     "openalex": "W2021385546",
+     "doi": "10.1007/s10734-008-9133-5",
+     "title": "The Social effects of the Australian Higher Education Contribution Scheme (HECS)",
+     "year": 2008,
+     "type": "article",
+     "cited_by": 24,
+     "venue": "Higher Education",
+     "authors": "Gary Marks"
+    },
+    {
+     "openalex": "W4243670328",
+     "doi": "10.7287/peerj.preprints.26876",
+     "title": "Changes in diet through adolescence and early adulthood: Longitudinal trajectories and association with key life transitions",
+     "year": 2018,
+     "type": "preprint",
+     "cited_by": 10,
+     "venue": null,
+     "authors": "Eleanor Winpenny; Esther van Sluijs; Martin White; Knut\u2010Inge Klepp"
+    },
+    {
+     "openalex": "W2776857404",
+     "doi": "10.1080/13676261.2017.1421750",
+     "title": "Quick, uncertain, and delayed adults: timing, sequencing and duration of youth-adult transitions in Canada",
+     "year": 2017,
+     "type": "article",
+     "cited_by": 34,
+     "venue": "Journal of Youth Studies",
+     "authors": "Harvey Krahn; Cher\u2010Ann Chai; Shichen Fang; Nancy L. Galambos"
+    },
+    {
+     "openalex": "W2145054959",
+     "doi": "10.1093/esr/16.1.67",
+     "title": "Parental divorce and outcomes for children: evidence and interpretation",
+     "year": 2000,
+     "type": "article",
+     "cited_by": 34,
+     "venue": "European Sociological Review",
+     "authors": "M\u00e1ire N\u00ed Bhrolch\u00e1in"
+    },
+    {
+     "openalex": "W1978432029",
+     "doi": "10.14301/llcs.v5i2.281",
+     "title": "Precursors and consequences of youth poverty in Germany",
+     "year": 2014,
+     "type": "article",
+     "cited_by": 28,
+     "venue": "Longitudinal and Life Course Studies",
+     "authors": "Olaf Groh-Samberg; W. Voges"
+    },
+    {
+     "openalex": "W2616563020",
+     "doi": null,
+     "title": "Transitions to adulthood among young women: The sequencing of nest-leaving, marriage, and first birth /",
+     "year": 1993,
+     "type": "article",
+     "cited_by": 0,
+     "venue": "OhioLink ETD Center (Ohio Library and Information Network)",
+     "authors": "Joyce Abma"
+    },
+    {
+     "openalex": "W2181210956",
+     "doi": "10.25336/p68c89",
+     "title": "The early life courses of Canadian men: analysis of timing and sequences of events",
+     "year": 2002,
+     "type": "article",
+     "cited_by": 23,
+     "venue": "Canadian Studies in Population",
+     "authors": "Zenaida R. Ravanera; Fernando Rajulton; Thomas K. Burch; C\u00e9line Le Bourdais"
+    },
+    {
+     "openalex": "W4237459096",
+     "doi": "10.7287/peerj.preprints.26876v1",
+     "title": "Changes in diet through adolescence and early adulthood: Longitudinal trajectories and association with key life transitions",
+     "year": 2018,
+     "type": "preprint",
+     "cited_by": 4,
+     "venue": null,
+     "authors": "Eleanor Winpenny; Esther van Sluijs; Martin White; Knut\u2010Inge Klepp"
+    },
+    {
+     "openalex": "W4403012436",
+     "doi": "10.4054/demres.2024.51.23",
+     "title": "The transition to adulthood in Europe at the intersection of gender and parental socioeconomic status",
+     "year": 2024,
+     "type": "article",
+     "cited_by": 8,
+     "venue": "Demographic Research",
+     "authors": "Valeria Ferraretto; Agnese Vitali"
+    },
+    {
+     "openalex": "W2186886523",
+     "doi": null,
+     "title": "The Problematic Transition to Adulthood in Italy. A Comparison Before and After the Beginning of the Global Crisis",
+     "year": 2013,
+     "type": "article",
+     "cited_by": 2,
+     "venue": null,
+     "authors": "Emiliano Sironi; Largo Gemelli; Alessandro Rosina; Giulia Rivellini"
+    },
+    {
+     "openalex": "W4416897549",
+     "doi": "10.1177/23780231251395464",
+     "title": "Parental Homes as Feathered Nets: Home-Leaving Trajectories of Young People in China",
+     "year": 2025,
+     "type": "article",
+     "cited_by": 0,
+     "venue": "Socius Sociological Research for a Dynamic World",
+     "authors": "Jin Jiang; Chunni Zhang"
+    },
+    {
+     "openalex": "W2089578756",
+     "doi": "10.1007/s12110-998-1003-4",
+     "title": "How maya women respond to changing technology",
+     "year": 1998,
+     "type": "article",
+     "cited_by": 18,
+     "venue": "Human Nature",
+     "authors": "Karen L. Kramer; Garnett P. McMillan"
+    },
+    {
+     "openalex": "W140126285",
+     "doi": "10.1007/978-3-319-04969-4_8",
+     "title": "Sequence Analysis and Transition to Adulthood: An Exploration of the Access to Reproduction in Nineteenth-Century East Belgium",
+     "year": 2014,
+     "type": "book-chapter",
+     "cited_by": 15,
+     "venue": "Life course research and social policies",
+     "authors": "Michel Oris; Gilbert Ritschard"
+    },
+    {
+     "openalex": "W2615519871",
+     "doi": null,
+     "title": "Fertility tempo and quantum: an empirical test of major theories with data from four FFS-countries.",
+     "year": 1999,
+     "type": "article",
+     "cited_by": 9,
+     "venue": null,
+     "authors": "Di Giulia P; Ronny Lesthaeghe; Guy Moors; Antonella Pinnelli"
+    },
+    {
+     "openalex": "W1518735238",
+     "doi": null,
+     "title": "Trends and Variations in the Early Life Courses of Canadian Men",
+     "year": 1998,
+     "type": "article",
+     "cited_by": 6,
+     "venue": "Scholarship@Western (Western University)",
+     "authors": "Zenaida R. Ravanera; Fernando Rajulton; Thomas K. Burch"
+    },
+    {
+     "openalex": "W2904175596",
+     "doi": "10.4324/9781315678610-24",
+     "title": "Life Transitions for Couples",
+     "year": 2017,
+     "type": "book-chapter",
+     "cited_by": 1,
+     "venue": null,
+     "authors": "Richard B. Miller; Tiffany Midgat"
+    }
+   ]
+  },
+  "coresidence_delay_fertility": {
+   "cell": "PRE",
+   "query": "(coresidence OR \"co-residence\" OR \"living with parents\" OR \"parental home\") AND (postponement OR delay OR \"delayed\" OR timing) AND (fertility OR \"first birth\" OR parenthood)",
+   "frame_count": 109,
+   "error": null,
+   "top": [
+    {
+     "openalex": "W3043336593",
+     "doi": "10.1553/populationyearbook2020.deb02",
+     "title": "Moving out the parental home and partnership formation as social determinants of low fertility",
+     "year": 2020,
+     "type": "article",
+     "cited_by": 112,
+     "venue": "Vienna Yearbook of Population Research",
+     "authors": "Albert Esteve; Diederik Boertien; Ryohei Mogi; Mariona Lozano"
+    },
+    {
+     "openalex": "W2102282088",
+     "doi": "10.1177/0002716213500643",
+     "title": "The Effects of the Great Recession on Family Structure and Fertility",
+     "year": 2013,
+     "type": "article",
+     "cited_by": 184,
+     "venue": "The Annals of the American Academy of Political and Social Science",
+     "authors": "Andrew J. Cherlin; Erin Cumberworth; S. Philip Morgan; Christopher Wimer"
+    },
+    {
+     "openalex": "W2099331743",
+     "doi": "10.1007/s13524-013-0244-y",
+     "title": "Coresidence With Husband\u2019s Parents, Labor Supply, and Duration to First Birth",
+     "year": 2014,
+     "type": "article",
+     "cited_by": 16,
+     "venue": "Demography",
+     "authors": "C. Y. Cyrus Chu; Seik Kim; Wen\u2010Jen Tsay"
+    },
+    {
+     "openalex": "W2039668477",
+     "doi": "10.1177/0165025409103873",
+     "title": "Timing of parenthood in relation to other life transitions and adult social functioning",
+     "year": 2009,
+     "type": "article",
+     "cited_by": 37,
+     "venue": "International Journal of Behavioral Development",
+     "authors": "Katja Kokko; Lea Pulkkinen; P\u00e4ivi Mesi\u00e4inen"
+    },
+    {
+     "openalex": "W2000385836",
+     "doi": "10.1300/j002v42n01_03",
+     "title": "The Timing of Leaving the Parental Home and Its Linkages to Other Life Course Events in Turkey",
+     "year": 2007,
+     "type": "article",
+     "cited_by": 28,
+     "venue": "Marriage & Family Review",
+     "authors": "\u0130smet Ko\u00e7"
+    },
+    {
+     "openalex": "W105341950",
+     "doi": "10.1007/978-3-642-03483-1_7",
+     "title": "Shifting Parenthood to Advanced Reproductive Ages: Trends, Causes and Consequences",
+     "year": 2009,
+     "type": "book-chapter",
+     "cited_by": 62,
+     "venue": null,
+     "authors": "Tom\u00e1\u0161 Sobotka"
+    },
+    {
+     "openalex": "W3043944672",
+     "doi": "10.1553/populationyearbook2020.deb04",
+     "title": "Future fertility trends are shaped at the intersection of gender and social stratification",
+     "year": 2020,
+     "type": "article",
+     "cited_by": 117,
+     "venue": "Vienna Yearbook of Population Research",
+     "authors": "Trude Lappeg\u00e5rd"
+    },
+    {
+     "openalex": "W2075521765",
+     "doi": "10.1080/0032472031000146746",
+     "title": "Cultural Influences on the Timing of First Births in India: Large Differences that add up to Little Difference",
+     "year": 1993,
+     "type": "article",
+     "cited_by": 30,
+     "venue": "Population Studies",
+     "authors": "Alaka Malwade Basu"
+    },
+    {
+     "openalex": "W1541364795",
+     "doi": "10.4054/mpidr-wp-2002-040",
+     "title": "Patterns of lowest-low fertility in Europe",
+     "year": 2002,
+     "type": "report",
+     "cited_by": 74,
+     "venue": null,
+     "authors": "Francesco C. Billari; Hans\u2010Peter Kohler"
+    },
+    {
+     "openalex": "W1591887672",
+     "doi": "10.2139/ssrn.2420716",
+     "title": "Roadblocks on the Road to Grandma's House: Fertility Consequences of Delayed Retirement",
+     "year": 2014,
+     "type": "preprint",
+     "cited_by": 16,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Erich Battistin; Michele De Nadai; Mario Padula"
+    },
+    {
+     "openalex": "W2116750899",
+     "doi": "10.1177/019251394015004004",
+     "title": "The Association Between Grandparental Coresidence and Adolescent Childbearing",
+     "year": 1994,
+     "type": "article",
+     "cited_by": 19,
+     "venue": "Journal of Family Issues",
+     "authors": "Nan Marie Astone; MARY L. WASHINGTON"
+    },
+    {
+     "openalex": "W2338704801",
+     "doi": "10.1111/j.1728-4465.2016.00048.x",
+     "title": "Instability in Parent\u2013Child Coresidence and Adolescent Development in Urban South Africa",
+     "year": 2016,
+     "type": "article",
+     "cited_by": 25,
+     "venue": "Studies in Family Planning",
+     "authors": "Let\u00edcia J. Marteleto; Shannon Cavanagh; Kate C. Prickett; Shelley Clark"
+    },
+    {
+     "openalex": "W2159303139",
+     "doi": "10.1093/beheco/aru059",
+     "title": "Wealth modifies relationships between kin and women's fertility in high-income countries",
+     "year": 2014,
+     "type": "article",
+     "cited_by": 28,
+     "venue": "Behavioral Ecology",
+     "authors": "Susan B. Schaffnit; Rebecca Sear"
+    },
+    {
+     "openalex": "W2007282388",
+     "doi": "10.1177/0898264305285668",
+     "title": "Fertility Decline, Family Structure, and Support for Older Persons in Latin America and Asia",
+     "year": 2006,
+     "type": "article",
+     "cited_by": 40,
+     "venue": "Journal of Aging and Health",
+     "authors": "Karen Glaser; Emily M. Agree; Elizabeth Costenbader; Antonio Camargo"
+    },
+    {
+     "openalex": "W3044774817",
+     "doi": "10.1553/populationyearbook2020.deb07",
+     "title": "Marriage will (continue to) be the key to the future of fertility in Japan and East Asia",
+     "year": 2020,
+     "type": "article",
+     "cited_by": 27,
+     "venue": "Vienna Yearbook of Population Research",
+     "authors": "Setsuya Fukuda"
+    },
+    {
+     "openalex": "W2075906583",
+     "doi": "10.1177/0961463x08099947",
+     "title": "Social Change and the Timing of Family Transitions in West Germany",
+     "year": 2009,
+     "type": "article",
+     "cited_by": 21,
+     "venue": "Time & Society",
+     "authors": "Simone Scherger"
+    },
+    {
+     "openalex": "W3172328661",
+     "doi": "10.1080/17441730.2021.1938382",
+     "title": "Ideal and actual intervals to first birth in Singapore",
+     "year": 2021,
+     "type": "article",
+     "cited_by": 4,
+     "venue": "Asian Population Studies",
+     "authors": "Poh Lin Tan"
+    },
+    {
+     "openalex": "W2926993263",
+     "doi": "10.1177/2057150x19838728",
+     "title": "The transition to adulthood in China, Germany and the US: Prevalence and timing in private and professional life",
+     "year": 2019,
+     "type": "article",
+     "cited_by": 14,
+     "venue": "Chinese Journal of Sociology",
+     "authors": "Barbara Fulda; Bernhard Nauck; Qiang Ren"
+    },
+    {
+     "openalex": "W333101495",
+     "doi": "10.1023/a:1010695000412",
+     "title": "A simple method for projecting or estimating \u03b1 and \u03b2: An extension of the Brass Relational Gompertz Fertility Model",
+     "year": 2000,
+     "type": "article",
+     "cited_by": 22,
+     "venue": "Population Research and Policy Review",
+     "authors": "Yi Zeng; Zhenglian Wang; Zhongdong Ma; Chen Chunjun"
+    },
+    {
+     "openalex": "W4409829044",
+     "doi": "10.1016/j.alcr.2025.100672",
+     "title": "Delayed transitions to adulthood and assisted reproduction: A study of educational differences in Spain",
+     "year": 2025,
+     "type": "article",
+     "cited_by": 4,
+     "venue": "Advances in Life Course Research",
+     "authors": "Cristina Suero; Marie\u2010Caroline Compans; \u00c9va Beaujouan"
+    },
+    {
+     "openalex": "W2887801281",
+     "doi": "10.1177/0192513x18792654",
+     "title": "Adolescents\u2019 Expectations About the Timing of Family Life Events: Unraveling the Role of Value Transmission and Modeling",
+     "year": 2018,
+     "type": "article",
+     "cited_by": 18,
+     "venue": "Journal of Family Issues",
+     "authors": "M.G. Keijer; Aart C. Liefbroer; Ineke Nagel"
+    },
+    {
+     "openalex": "W3047003056",
+     "doi": "10.1553/populationyearbook2020.deb06",
+     "title": "Fertility will be determined by the changing ideal family size and the empowerment to reach these targets",
+     "year": 2020,
+     "type": "article",
+     "cited_by": 12,
+     "venue": "Vienna Yearbook of Population Research",
+     "authors": "Wolfgang Lutz"
+    },
+    {
+     "openalex": "W3176740512",
+     "doi": "10.14712/23361980.2015.65",
+     "title": "Leaving Parental Home in Selected Central European Countries",
+     "year": 2021,
+     "type": "article",
+     "cited_by": 2,
+     "venue": "AUC GEOGRAPHICA",
+     "authors": "Lucie Kyn\u010dilov\u00e1"
+    },
+    {
+     "openalex": "W2284106360",
+     "doi": "10.1007/s00265-015-2051-5",
+     "title": "The reproductive advantages of a long life: longevity and senescence in wild female African elephants",
+     "year": 2016,
+     "type": "article",
+     "cited_by": 136,
+     "venue": "Behavioral Ecology and Sociobiology",
+     "authors": "Phyllis C. Lee; Victoria Fishlock; C. Elizabeth Webber; Cynthia J. Moss"
+    },
+    {
+     "openalex": "W3108983569",
+     "doi": "10.1553/populationyearbook2020.deb05",
+     "title": "The wish for a child",
+     "year": 2020,
+     "type": "article",
+     "cited_by": 124,
+     "venue": "Vienna Yearbook of Population Research",
+     "authors": "Anna Rotkirch"
+    }
+   ]
+  },
+  "nest_leaving_union_birth_sequence": {
+   "cell": "PRE",
+   "query": "(\"home leaving\" OR \"leaving the parental home\" OR \"residential independence\") AND (\"union formation\" OR cohabitation OR marriage) AND (\"first birth\" OR fertility)",
+   "frame_count": 38,
+   "error": null,
+   "top": [
+    {
+     "openalex": "W2042644148",
+     "doi": "10.1080/0032472042000213695",
+     "title": "Patterns of low and lowest-low fertility in Europe",
+     "year": 2004,
+     "type": "article",
+     "cited_by": 577,
+     "venue": "Population Studies",
+     "authors": "Francesco C. Billari; Hans\u2010Peter Kohler"
+    },
+    {
+     "openalex": "W2000385836",
+     "doi": "10.1300/j002v42n01_03",
+     "title": "The Timing of Leaving the Parental Home and Its Linkages to Other Life Course Events in Turkey",
+     "year": 2007,
+     "type": "article",
+     "cited_by": 28,
+     "venue": "Marriage & Family Review",
+     "authors": "\u0130smet Ko\u00e7"
+    },
+    {
+     "openalex": "W1541364795",
+     "doi": "10.4054/mpidr-wp-2002-040",
+     "title": "Patterns of lowest-low fertility in Europe",
+     "year": 2002,
+     "type": "report",
+     "cited_by": 74,
+     "venue": null,
+     "authors": "Francesco C. Billari; Hans\u2010Peter Kohler"
+    },
+    {
+     "openalex": "W1582546098",
+     "doi": null,
+     "title": "The design and content of the National Survey of Families and Households.",
+     "year": 1988,
+     "type": "article",
+     "cited_by": 703,
+     "venue": null,
+     "authors": "James A. Sweet; Larry L. Bumpass"
+    },
+    {
+     "openalex": "W333101495",
+     "doi": "10.1023/a:1010695000412",
+     "title": "A simple method for projecting or estimating \u03b1 and \u03b2: An extension of the Brass Relational Gompertz Fertility Model",
+     "year": 2000,
+     "type": "article",
+     "cited_by": 22,
+     "venue": "Population Research and Policy Review",
+     "authors": "Yi Zeng; Zhenglian Wang; Zhongdong Ma; Chen Chunjun"
+    },
+    {
+     "openalex": "W1595996974",
+     "doi": "10.4054/mpidr-wp-2007-033",
+     "title": "Fertility and family configurations in Sardinia",
+     "year": 2007,
+     "type": "report",
+     "cited_by": 7,
+     "venue": null,
+     "authors": "Laura Bernardi; A. Oppo"
+    },
+    {
+     "openalex": "W1526298370",
+     "doi": "10.1023/a:1006068102735",
+     "title": "Early Life Transitions of Canadian Women: A Cohort Analysis of Timing, Sequences, and Variations",
+     "year": 1998,
+     "type": "article",
+     "cited_by": 64,
+     "venue": "European Journal of Population / Revue europ\u00e9enne de D\u00e9mographie",
+     "authors": "Aenaida R. Ravanera; Fernando Rajulton; Thomas K. Burch"
+    },
+    {
+     "openalex": "W2143928126",
+     "doi": "10.1353/foc.0.0038",
+     "title": "On a New Schedule: Transitions to Adulthood and Family Change",
+     "year": 2010,
+     "type": "article",
+     "cited_by": 470,
+     "venue": "The Future of Children",
+     "authors": "Frank F. Furstenberg"
+    },
+    {
+     "openalex": "W612288200",
+     "doi": "10.5860/choice.43-6209",
+     "title": "The boomerang age: transitions to adulthood in families",
+     "year": 2006,
+     "type": "book-review",
+     "cited_by": 124,
+     "venue": "Choice Reviews Online",
+     "authors": ""
+    },
+    {
+     "openalex": "W1525519266",
+     "doi": "10.1007/s10680-007-9136-4",
+     "title": "Heterogeneity in the Transition to Adulthood: The Cases of Australia, Canada, and the United States",
+     "year": 2007,
+     "type": "article",
+     "cited_by": 69,
+     "venue": "European Journal of Population / Revue europ\u00e9enne de D\u00e9mographie",
+     "authors": "Elizabeth Fussell; Anne H. Gauthier; Ann Evans"
+    },
+    {
+     "openalex": "W2012011868",
+     "doi": "10.2307/1534530",
+     "title": "Vivre en couple chacun chez soi",
+     "year": 1997,
+     "type": "article",
+     "cited_by": 50,
+     "venue": "Population",
+     "authors": "Catherine Villeneuve-Gokalp"
+    },
+    {
+     "openalex": "W4300617429",
+     "doi": null,
+     "title": "Fertility in the Netherlands.",
+     "year": 1992,
+     "type": "article",
+     "cited_by": 1,
+     "venue": "PubMed",
+     "authors": ""
+    },
+    {
+     "openalex": "W2181210956",
+     "doi": "10.25336/p68c89",
+     "title": "The early life courses of Canadian men: analysis of timing and sequences of events",
+     "year": 2002,
+     "type": "article",
+     "cited_by": 23,
+     "venue": "Canadian Studies in Population",
+     "authors": "Zenaida R. Ravanera; Fernando Rajulton; Thomas K. Burch; C\u00e9line Le Bourdais"
+    },
+    {
+     "openalex": "W2497062295",
+     "doi": "10.7208/chicago/9780226748924.003.0003",
+     "title": "American Women's Transition to Adulthood in Comparative Perspective",
+     "year": 2005,
+     "type": "book-chapter",
+     "cited_by": 23,
+     "venue": null,
+     "authors": "Elizabeth Fussell; Anne H. Gauthier"
+    },
+    {
+     "openalex": "W2086295523",
+     "doi": "10.1177/0002716213483427",
+     "title": "Female Migrants and the Transition to Adulthood in Greater Jakarta",
+     "year": 2013,
+     "type": "article",
+     "cited_by": 13,
+     "venue": "The Annals of the American Academy of Political and Social Science",
+     "authors": "Ariane Utomo; Anna Reimondos; Iwu Dwisetyani Utomo; Peter McDonald"
+    },
+    {
+     "openalex": "W2021385546",
+     "doi": "10.1007/s10734-008-9133-5",
+     "title": "The Social effects of the Australian Higher Education Contribution Scheme (HECS)",
+     "year": 2008,
+     "type": "article",
+     "cited_by": 24,
+     "venue": "Higher Education",
+     "authors": "Gary Marks"
+    },
+    {
+     "openalex": "W4247793371",
+     "doi": "10.4324/9781315131085",
+     "title": "The Boomerang AGE",
+     "year": 2017,
+     "type": "book",
+     "cited_by": 17,
+     "venue": null,
+     "authors": "Barbara Mitchell"
+    },
+    {
+     "openalex": "W4403012436",
+     "doi": "10.4054/demres.2024.51.23",
+     "title": "The transition to adulthood in Europe at the intersection of gender and parental socioeconomic status",
+     "year": 2024,
+     "type": "article",
+     "cited_by": 8,
+     "venue": "Demographic Research",
+     "authors": "Valeria Ferraretto; Agnese Vitali"
+    },
+    {
+     "openalex": "W1484302076",
+     "doi": null,
+     "title": "Fostering the emancipation of young people: Evidence from a Spanish rental subsidy",
+     "year": 2012,
+     "type": "preprint",
+     "cited_by": 9,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Ainoa Aparicio Fenoll; Veruska Oppedisano"
+    },
+    {
+     "openalex": "W1518735238",
+     "doi": null,
+     "title": "Trends and Variations in the Early Life Courses of Canadian Men",
+     "year": 1998,
+     "type": "article",
+     "cited_by": 6,
+     "venue": "Scholarship@Western (Western University)",
+     "authors": "Zenaida R. Ravanera; Fernando Rajulton; Thomas K. Burch"
+    },
+    {
+     "openalex": "W1511275035",
+     "doi": null,
+     "title": "Life course trajectories before and after retirement.",
+     "year": 1999,
+     "type": "article",
+     "cited_by": 2,
+     "venue": null,
+     "authors": "F Rajulton; Ravanera Zr"
+    },
+    {
+     "openalex": "W2277933580",
+     "doi": null,
+     "title": "[The impact of divorced parents on women's demographic behavior].",
+     "year": 1991,
+     "type": "other",
+     "cited_by": 1,
+     "venue": "PubMed",
+     "authors": "De Graaf A"
+    },
+    {
+     "openalex": "W3124528217",
+     "doi": "10.2139/ssrn.2089700",
+     "title": "Fostering the Emancipation of Young People: Evidence from a Spanish Rental Subsidy",
+     "year": 2012,
+     "type": "preprint",
+     "cited_by": 2,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Ainhoa Aparicio; Veruska Oppedisano"
+    },
+    {
+     "openalex": "W581046434",
+     "doi": null,
+     "title": "Work and Family Life Trajectories of Young Canadians: Evidence from the 2001 General Social Survey",
+     "year": 2004,
+     "type": "article",
+     "cited_by": 6,
+     "venue": "Scholarship@Western (Western University)",
+     "authors": "Zenaida R. Ravanera; Fernando Rajulton"
+    },
+    {
+     "openalex": "W33577360",
+     "doi": null,
+     "title": "Changes in household size and structure in China.",
+     "year": 1994,
+     "type": "article",
+     "cited_by": 3,
+     "venue": "PubMed",
+     "authors": "Z Jiang; Yi Zeng"
+    }
+   ]
+  },
+  "southern_europe_prelaunch": {
+   "cell": "PRE",
+   "query": "(Italy OR Spain OR Greece OR Portugal OR \"Southern Europe\") AND (\"living with parents\" OR \"parental home\" OR \"leaving home\" OR coresidence) AND (fertility OR \"first birth\" OR \"lowest-low\")",
+   "frame_count": 40,
+   "error": null,
+   "top": [
+    {
+     "openalex": "W2079789359",
+     "doi": "10.2307/1972499",
+     "title": "Cultural Dynamics and Economic Theories of Fertility Change",
+     "year": 1988,
+     "type": "article",
+     "cited_by": 720,
+     "venue": "Population and Development Review",
+     "authors": "Ronny Lesthaeghe; Johan Surkyn"
+    },
+    {
+     "openalex": "W1551946969",
+     "doi": null,
+     "title": "Demographic Patterns from the 1960s in France, Italy, Spain and Portugal",
+     "year": 2002,
+     "type": "preprint",
+     "cited_by": 8,
+     "venue": "RePEc: Research Papers in Economics",
+     "authors": "Ingrid Rydell"
+    },
+    {
+     "openalex": "W2000385836",
+     "doi": "10.1300/j002v42n01_03",
+     "title": "The Timing of Leaving the Parental Home and Its Linkages to Other Life Course Events in Turkey",
+     "year": 2007,
+     "type": "article",
+     "cited_by": 28,
+     "venue": "Marriage & Family Review",
+     "authors": "\u0130smet Ko\u00e7"
+    },
+    {
+     "openalex": "W4312039345",
+     "doi": "10.1093/esr/jcac064",
+     "title": "Long goodbyes: pathways of leaving home by gender and destination in Spain",
+     "year": 2022,
+     "type": "article",
+     "cited_by": 7,
+     "venue": "European Sociological Review",
+     "authors": "Alberto del Rey; Miko\u0142aj Stanek; Jes\u00fas Garc\u00eda-G\u00f3mez"
+    },
+    {
+     "openalex": "W2063837481",
+     "doi": null,
+     "title": "Fertility and Family Surveys in countries of the ECE region. Standard country report: Spain.",
+     "year": 1999,
+     "type": "book",
+     "cited_by": 15,
+     "venue": "Medical Entomology and Zoology",
+     "authors": "Margarita Delgado; Teresa Castro Mart\u00edn"
+    },
+    {
+     "openalex": "W2497446658",
+     "doi": "10.7208/chicago/9780226754758.003.0011",
+     "title": "Italians Are Late",
+     "year": 2010,
+     "type": "book-chapter",
+     "cited_by": 24,
+     "venue": null,
+     "authors": "Francesco C. Billari; Guido Tabellini"
+    },
+    {
+     "openalex": "W3042108817",
+     "doi": "10.31235/osf.io/4sfv9",
+     "title": "Indirect consequences of COVID-19 on people\u2019s lives. Findings from an on-line survey in France, Italy and Spain",
+     "year": 2020,
+     "type": "preprint",
+     "cited_by": 17,
+     "venue": null,
+     "authors": "Bruno Arpino; Marta Pasqualini; Valeria Bordone; A\u00efda Sol\u00e9-Aur\u00f3"
+    },
+    {
+     "openalex": "W1591887672",
+     "doi": "10.2139/ssrn.2420716",
+     "title": "Roadblocks on the Road to Grandma's House: Fertility Consequences of Delayed Retirement",
+     "year": 2014,
+     "type": "preprint",
+     "cited_by": 16,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Erich Battistin; Michele De Nadai; Mario Padula"
+    },
+    {
+     "openalex": "W1813091085",
+     "doi": "10.1007/978-3-319-32997-0_8",
+     "title": "The Policy Context of Fertility in Spain: Toward a Gender-Egalitarian Model?",
+     "year": 2016,
+     "type": "book-chapter",
+     "cited_by": 4,
+     "venue": null,
+     "authors": "Pau Baiz\u00e1n"
+    },
+    {
+     "openalex": "W2011207593",
+     "doi": "10.5153/sro.597",
+     "title": "The Timing of Family Formation in Britain and Spain",
+     "year": 2001,
+     "type": "article",
+     "cited_by": 14,
+     "venue": "Sociological Research Online",
+     "authors": "Clare Holdsworth; Jane Elliott"
+    },
+    {
+     "openalex": "W4282914995",
+     "doi": "10.1186/s41118-022-00168-4",
+     "title": "Grandparents, family solidarity and the division of housework: evidence from the Italian case",
+     "year": 2022,
+     "type": "article",
+     "cited_by": 17,
+     "venue": "Genus",
+     "authors": "Marco Albertini; Marco Tosi"
+    },
+    {
+     "openalex": "W1522822261",
+     "doi": null,
+     "title": "Living arrangements among older people: an overview of trends in Europe and the USA.",
+     "year": 2004,
+     "type": "article",
+     "cited_by": 224,
+     "venue": "PubMed",
+     "authors": "Cecilia Tomassini; Karen Glaser; Douglas A. Wolf; M.I. Broese Van Groenou"
+    },
+    {
+     "openalex": "W1484302076",
+     "doi": null,
+     "title": "Fostering the emancipation of young people: Evidence from a Spanish rental subsidy",
+     "year": 2012,
+     "type": "preprint",
+     "cited_by": 9,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Ainoa Aparicio Fenoll; Veruska Oppedisano"
+    },
+    {
+     "openalex": "W1529588091",
+     "doi": "10.2139/ssrn.939490",
+     "title": "Does Limited Access to Mortgage Debt Explain Why Young Adults Live with Their Parents?",
+     "year": 2006,
+     "type": "preprint",
+     "cited_by": 72,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Nuno C. Martins; Ernesto Villanueva"
+    },
+    {
+     "openalex": "W4409829044",
+     "doi": "10.1016/j.alcr.2025.100672",
+     "title": "Delayed transitions to adulthood and assisted reproduction: A study of educational differences in Spain",
+     "year": 2025,
+     "type": "article",
+     "cited_by": 4,
+     "venue": "Advances in Life Course Research",
+     "authors": "Cristina Suero; Marie\u2010Caroline Compans; \u00c9va Beaujouan"
+    },
+    {
+     "openalex": "W1483190164",
+     "doi": "10.1007/1-4020-2837-7_5",
+     "title": "The Banquet of Aeolus",
+     "year": 2004,
+     "type": "book-chapter",
+     "cited_by": 57,
+     "venue": "European studies of population",
+     "authors": "Gianpiero Dalla Zuanna"
+    },
+    {
+     "openalex": "W3124528217",
+     "doi": "10.2139/ssrn.2089700",
+     "title": "Fostering the Emancipation of Young People: Evidence from a Spanish Rental Subsidy",
+     "year": 2012,
+     "type": "preprint",
+     "cited_by": 2,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Ainhoa Aparicio; Veruska Oppedisano"
+    },
+    {
+     "openalex": "W2186886523",
+     "doi": null,
+     "title": "The Problematic Transition to Adulthood in Italy. A Comparison Before and After the Beginning of the Global Crisis",
+     "year": 2013,
+     "type": "article",
+     "cited_by": 2,
+     "venue": null,
+     "authors": "Emiliano Sironi; Largo Gemelli; Alessandro Rosina; Giulia Rivellini"
+    },
+    {
+     "openalex": "W3093912222",
+     "doi": null,
+     "title": "microWELT: Socio-demographic parameters and projections for Austria, Spain, Finland, and the UK",
+     "year": 2020,
+     "type": "preprint",
+     "cited_by": 2,
+     "venue": "RePEc: Research Papers in Economics",
+     "authors": "Martin Spielauer; Gerard Horvath; Walter Hyll; Marian Fink"
+    },
+    {
+     "openalex": "W4301973214",
+     "doi": null,
+     "title": "Fostering the Emancipation of Young People: Evidence from a Spanish Rental Subsidy",
+     "year": 2012,
+     "type": "preprint",
+     "cited_by": 1,
+     "venue": "RePEc: Research Papers in Economics",
+     "authors": "Ainoa Aparicio Fenoll; Ainhoa Aparicio-fenoll; Collegio Carlo Alberto"
+    },
+    {
+     "openalex": "W1506961954",
+     "doi": "10.1017/cbo9780511809798.007",
+     "title": "Ties That Matter: Cultural Norms and Family Formation in Western Europe",
+     "year": 2009,
+     "type": "book-chapter",
+     "cited_by": 6,
+     "venue": "Cambridge University Press eBooks",
+     "authors": "Paola Giuliano"
+    },
+    {
+     "openalex": "W2497062295",
+     "doi": "10.7208/chicago/9780226748924.003.0003",
+     "title": "American Women's Transition to Adulthood in Comparative Perspective",
+     "year": 2005,
+     "type": "book-chapter",
+     "cited_by": 23,
+     "venue": null,
+     "authors": "Elizabeth Fussell; Anne H. Gauthier"
+    },
+    {
+     "openalex": "W2802907016",
+     "doi": "10.1111/padr.12149",
+     "title": "Living Alone in Later Life: A Global Perspective",
+     "year": 2018,
+     "type": "article",
+     "cited_by": 231,
+     "venue": "Population and Development Review",
+     "authors": "David Reher; Miguel Requena"
+    },
+    {
+     "openalex": "W1620194732",
+     "doi": "10.1400/94181",
+     "title": "La transizione allo stato adulto (TSA) di due coorti di giovani italiani",
+     "year": 2007,
+     "type": "article",
+     "cited_by": 2,
+     "venue": "Archivio istituzionale della ricerca (Alma Mater Studiorum Universit\u00e0 di Bologna)",
+     "authors": "Stefano Mazzuco; Letizia Mencarini; Rosella Rettaroli"
+    },
+    {
+     "openalex": "W48229534",
+     "doi": null,
+     "title": "Las mujeres j\u00f3venes y la formaci\u00f3n de uniones en Espa\u00f1a",
+     "year": 2011,
+     "type": "article",
+     "cited_by": 1,
+     "venue": "Dialnet (Universidad de la Rioja)",
+     "authors": "Tha\u00eds Garc\u00eda\u2010Pereiro"
+    }
+   ]
+  },
+  "identified_arrangement_fertility": {
+   "cell": "ID",
+   "query": "(coresidence OR \"co-residence\" OR \"living with parents\" OR \"parental home\" OR \"leaving home\" OR \"multigenerational household\") AND (\"instrumental variable\" OR \"natural experiment\" OR \"difference-in-differences\" OR \"regression discontinuity\" OR \"fixed effects\" OR \"event history\") AND (fertility OR \"first birth\" OR childbearing)",
+   "frame_count": 40,
+   "error": null,
+   "top": [
+    {
+     "openalex": "W2037694804",
+     "doi": "10.1207/s15327795jra0904_1",
+     "title": "Family Structure Differences in the Timing of Leaving Home: Exploring Mediating Factors",
+     "year": 1999,
+     "type": "article",
+     "cited_by": 55,
+     "venue": "Journal of Research on Adolescence",
+     "authors": "Teresa M. Cooney; Jeylan T. Mortimer"
+    },
+    {
+     "openalex": "W2915084567",
+     "doi": "10.1016/j.socscimed.2019.02.027",
+     "title": "Coresidence with mother-in-law and maternal anemia in rural India",
+     "year": 2019,
+     "type": "article",
+     "cited_by": 26,
+     "venue": "Social Science & Medicine",
+     "authors": "Rekha Rani Varghese; Manan Roy"
+    },
+    {
+     "openalex": "W3122536053",
+     "doi": "10.1016/j.jce.2017.10.005",
+     "title": "Fertility, household structure, and parental labor supply: Evidence from China",
+     "year": 2017,
+     "type": "article",
+     "cited_by": 60,
+     "venue": "Journal of Comparative Economics",
+     "authors": "Rufei Guo; Hongbin Li; Junjian Yi; Junsen Zhang"
+    },
+    {
+     "openalex": "W4401713774",
+     "doi": "10.1111/jomf.13027",
+     "title": "Relationships among adult full, half, and stepsiblings: Does coresidence explain the stepgap?",
+     "year": 2024,
+     "type": "article",
+     "cited_by": 10,
+     "venue": "Journal of Marriage and the Family",
+     "authors": "Suzanne de Leeuw; Maaike Hornstra; Matthijs Kalmijn"
+    },
+    {
+     "openalex": "W2790183832",
+     "doi": "10.1177/1360780418754565",
+     "title": "Fatherhood in a Changing Society: Shifts in Male Fertility Patterns",
+     "year": 2018,
+     "type": "article",
+     "cited_by": 7,
+     "venue": "Sociological Research Online",
+     "authors": "Ren\u00e1ta Kyzlinkov\u00e1; Anna \u0160\u0165astn\u00e1"
+    },
+    {
+     "openalex": "W4366415422",
+     "doi": "10.1111/fare.12883",
+     "title": "We get by with family: Maternal partnership transitions and extended kin coresidence",
+     "year": 2023,
+     "type": "article",
+     "cited_by": 3,
+     "venue": "Family Relations",
+     "authors": "Heidi M. Williams"
+    },
+    {
+     "openalex": "W2200499387",
+     "doi": "10.2139/ssrn.2663772",
+     "title": "Fertility, Household Structure, and Parental Labor Supply: Evidence from Rural China",
+     "year": 2015,
+     "type": "preprint",
+     "cited_by": 8,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Hongbin Li; Junjian Yi; Junsen Zhang"
+    },
+    {
+     "openalex": "W4410133576",
+     "doi": "10.1016/j.chieco.2025.102430",
+     "title": "Long-term consequences of fertility on elderly labor supply",
+     "year": 2025,
+     "type": "article",
+     "cited_by": 4,
+     "venue": "China Economic Review",
+     "authors": "Sophie Xuefei Wang"
+    },
+    {
+     "openalex": "W2011303333",
+     "doi": "10.1016/j.evolhumbehav.2008.11.003",
+     "title": "Rethinking the Taiwanese minor marriage data: evidence the mind uses multiple kinship cues to regulate inbreeding avoidance",
+     "year": 2009,
+     "type": "article",
+     "cited_by": 50,
+     "venue": "Evolution and Human Behavior",
+     "authors": "Debra Lieberman"
+    },
+    {
+     "openalex": "W7151883327",
+     "doi": "10.4054/demres.2026.54.22",
+     "title": "The impact of household structure on fertility: A study in Vietnam",
+     "year": 2026,
+     "type": "article",
+     "cited_by": 1,
+     "venue": "Demographic Research",
+     "authors": "Khoa Truong An Nguyen; Tuyen Van Duong"
+    },
+    {
+     "openalex": "W2332046501",
+     "doi": "10.2307/2547499",
+     "title": "Migration and Union Dissolution among Puerto Rican Women",
+     "year": 1995,
+     "type": "article",
+     "cited_by": 56,
+     "venue": "International Migration Review",
+     "authors": "Nancy S. Landale; Nimfa B. Ogena"
+    },
+    {
+     "openalex": "W3125001667",
+     "doi": "10.1177/0042098015615742",
+     "title": "Do housing options affect child birth decisions? Evidence from Taiwan",
+     "year": 2015,
+     "type": "article",
+     "cited_by": 17,
+     "venue": "Urban Studies",
+     "authors": "Pei-Syuan Lin; Chin\u2010Oh Chang; Tien Foo Sing"
+    },
+    {
+     "openalex": "W1484302076",
+     "doi": null,
+     "title": "Fostering the emancipation of young people: Evidence from a Spanish rental subsidy",
+     "year": 2012,
+     "type": "preprint",
+     "cited_by": 9,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Ainoa Aparicio Fenoll; Veruska Oppedisano"
+    },
+    {
+     "openalex": "W1983947289",
+     "doi": "10.1515/bejeap-2014-0003",
+     "title": "Fostering Household Formation: Evidence from a Spanish Rental Subsidy",
+     "year": 2014,
+     "type": "article",
+     "cited_by": 14,
+     "venue": "The B E Journal of Economic Analysis & Policy",
+     "authors": "Ainoa Aparicio Fenoll; Veruska Oppedisano"
+    },
+    {
+     "openalex": "W2472458645",
+     "doi": "10.1177/0192513x16657127",
+     "title": "Race, Family Status, and Young Women\u2019s Residential and Financial Dependency: 1970 to 2010",
+     "year": 2016,
+     "type": "article",
+     "cited_by": 7,
+     "venue": "Journal of Family Issues",
+     "authors": "Joan R. Kahn; Javier Garc\u00eda\u2010Manglano; Frances Goldscheider"
+    },
+    {
+     "openalex": "W4367056753",
+     "doi": "10.1016/j.euroecorev.2023.104447",
+     "title": "Dreaming of leaving the nest? Immigration status and the living arrangements of DACAmented",
+     "year": 2023,
+     "type": "article",
+     "cited_by": 11,
+     "venue": "European Economic Review",
+     "authors": "Rania Gihleb; Osea Giuntella; Jakub Lonsky"
+    },
+    {
+     "openalex": "W4403012436",
+     "doi": "10.4054/demres.2024.51.23",
+     "title": "The transition to adulthood in Europe at the intersection of gender and parental socioeconomic status",
+     "year": 2024,
+     "type": "article",
+     "cited_by": 8,
+     "venue": "Demographic Research",
+     "authors": "Valeria Ferraretto; Agnese Vitali"
+    },
+    {
+     "openalex": "W4285189469",
+     "doi": "10.2139/ssrn.4145178",
+     "title": "How Grandparents' Coresidence Affects the Relationship Between Fertility and Parental Labor Market Choices: Evidence From China",
+     "year": 2022,
+     "type": "preprint",
+     "cited_by": 0,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Cheng Chen; Ying-Min Kuo; Wangyang Zhao"
+    },
+    {
+     "openalex": "W4409829044",
+     "doi": "10.1016/j.alcr.2025.100672",
+     "title": "Delayed transitions to adulthood and assisted reproduction: A study of educational differences in Spain",
+     "year": 2025,
+     "type": "article",
+     "cited_by": 4,
+     "venue": "Advances in Life Course Research",
+     "authors": "Cristina Suero; Marie\u2010Caroline Compans; \u00c9va Beaujouan"
+    },
+    {
+     "openalex": "W3001025201",
+     "doi": "10.22004/ag.econ.296666",
+     "title": "Curse of the Mummy-ji: The Influence of Mothers-in-Law on Women's Social Networks, Mobility, and Reproductive Health in India",
+     "year": 2019,
+     "type": "preprint",
+     "cited_by": 4,
+     "venue": "RePEc: Research Papers in Economics",
+     "authors": "S Anukriti; Catalina Herrera\u2010Almanza; Mahesh karra; Praveen Kumar Pathak"
+    },
+    {
+     "openalex": "W3124528217",
+     "doi": "10.2139/ssrn.2089700",
+     "title": "Fostering the Emancipation of Young People: Evidence from a Spanish Rental Subsidy",
+     "year": 2012,
+     "type": "preprint",
+     "cited_by": 2,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Ainhoa Aparicio; Veruska Oppedisano"
+    },
+    {
+     "openalex": "W2269158875",
+     "doi": "10.2139/ssrn.2585216",
+     "title": "Do Housing Options Affect Child Birth Decisions? Evidence from Taiwan",
+     "year": 2015,
+     "type": "preprint",
+     "cited_by": 1,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Pei-Syuan Lin; Chin\u2010Oh Chang; Tien Foo Sing"
+    },
+    {
+     "openalex": "W4286656517",
+     "doi": "10.2139/ssrn.4153341",
+     "title": "Dreaming of Leaving the Nest? Immigration Status and the Living Arrangements of Dacamented",
+     "year": 2022,
+     "type": "preprint",
+     "cited_by": 3,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Rania Gihleb; Osea Giuntella; Jakub Lonsky"
+    },
+    {
+     "openalex": "W4301973214",
+     "doi": null,
+     "title": "Fostering the Emancipation of Young People: Evidence from a Spanish Rental Subsidy",
+     "year": 2012,
+     "type": "preprint",
+     "cited_by": 1,
+     "venue": "RePEc: Research Papers in Economics",
+     "authors": "Ainoa Aparicio Fenoll; Ainhoa Aparicio-fenoll; Collegio Carlo Alberto"
+    },
+    {
+     "openalex": "W2783195760",
+     "doi": null,
+     "title": "Home-leaving and Parenthood : Timing of home-leaving and the relation to childbearing behavior in Sweden",
+     "year": 2017,
+     "type": "dissertation",
+     "cited_by": 0,
+     "venue": "KTH Publication Database DiVA (KTH Royal Institute of Technology)",
+     "authors": "Oskar Adenfelt"
+    }
+   ]
+  },
+  "pension_retirement_grandparent_shock": {
+   "cell": "ID",
+   "query": "(\"pension reform\" OR \"retirement age\" OR \"social pension\") AND (grandparent OR grandmother OR \"childcare by grandparents\") AND (fertility OR \"labour supply of mothers\" OR childbearing)",
+   "frame_count": 25,
+   "error": null,
+   "top": [
+    {
+     "openalex": "W2321446294",
+     "doi": "10.1093/cesifo/ifu030",
+     "title": "Working Women and Fertility: the Role of Grandmothers' Labor Force Participation",
+     "year": 2014,
+     "type": "article",
+     "cited_by": 46,
+     "venue": "CESifo Economic Studies",
+     "authors": "A. Aparicio-Fenoll; Marian Vidal-Fern\u00e1ndez"
+    },
+    {
+     "openalex": "W4407610952",
+     "doi": "10.1016/j.econlet.2025.112239",
+     "title": "The intergenerational impact of pension reforms: How grandmothers\u2019 pension eligibility affects daughters\u2019 fertility",
+     "year": 2025,
+     "type": "article",
+     "cited_by": 6,
+     "venue": "Economics Letters",
+     "authors": "Pelin Akyol; Kadir Atalay"
+    },
+    {
+     "openalex": "W4386765626",
+     "doi": "10.1016/j.jpubeco.2023.104928",
+     "title": "Fertility and parental retirement",
+     "year": 2023,
+     "type": "article",
+     "cited_by": 18,
+     "venue": "Journal of Public Economics",
+     "authors": "Julius Ilciukas"
+    },
+    {
+     "openalex": "W1591887672",
+     "doi": "10.2139/ssrn.2420716",
+     "title": "Roadblocks on the Road to Grandma's House: Fertility Consequences of Delayed Retirement",
+     "year": 2014,
+     "type": "preprint",
+     "cited_by": 16,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Erich Battistin; Michele De Nadai; Mario Padula"
+    },
+    {
+     "openalex": "W3118258048",
+     "doi": "10.1007/s10797-020-09644-z",
+     "title": "Elderly empowerment, fertility, and public pensions",
+     "year": 2021,
+     "type": "article",
+     "cited_by": 8,
+     "venue": "International Tax and Public Finance",
+     "authors": "Kazutoshi Miyazawa"
+    },
+    {
+     "openalex": "W4390818153",
+     "doi": "10.1007/s10797-023-09822-9",
+     "title": "Grandparental childcare, family allowances and retirement policies",
+     "year": 2024,
+     "type": "article",
+     "cited_by": 5,
+     "venue": "International Tax and Public Finance",
+     "authors": "Giam Pietro Cipriani; Tamara Fioroni"
+    },
+    {
+     "openalex": "W4210375535",
+     "doi": "10.1086/719161",
+     "title": "Stay at Home with Grandma, Mom Is Going to Work: The Impact of Grandmothers\u2019 Retirement on Mothers\u2019 Labor Decisions",
+     "year": 2022,
+     "type": "article",
+     "cited_by": 6,
+     "venue": "Economic Development and Cultural Change",
+     "authors": "Mar\u00eda Florencia Pinto"
+    },
+    {
+     "openalex": "W4399907084",
+     "doi": "10.1111/ajo.13847",
+     "title": "Australia's fertility rate and the future",
+     "year": 2024,
+     "type": "article",
+     "cited_by": 4,
+     "venue": "Australian and New Zealand Journal of Obstetrics and Gynaecology",
+     "authors": "Clare Boothroyd; Katharine Bassett; Stephen Robson"
+    },
+    {
+     "openalex": "W3133460694",
+     "doi": "10.2139/ssrn.3334963",
+     "title": "Fertility Cost, Intergenerational Labor Division, and Female Employment",
+     "year": 2019,
+     "type": "preprint",
+     "cited_by": 1,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Hou\u2013Yong Yu; Jin Cao; Shulong Kang"
+    },
+    {
+     "openalex": "W2907255901",
+     "doi": "10.2139/ssrn.3338619",
+     "title": "Fertility Cost, Intergenerational Labor Division, and Female Employment",
+     "year": 2019,
+     "type": "preprint",
+     "cited_by": 1,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Hou\u2013Yong Yu; Jin Cao; Shulong Kang"
+    },
+    {
+     "openalex": "W4400956803",
+     "doi": "10.34709/im.151.3",
+     "title": "ABOUT THE applying THE FOREIGN EXPERIENCE IN STUDYING THE IMPACT OF PENSION AGE INCREASING ON FERTILITY IN RUSSIA",
+     "year": 2019,
+     "type": "article",
+     "cited_by": 1,
+     "venue": "Human progress.",
+     "authors": "\u0418.\u0410. \u041a\u0443\u043b\u044c\u043a\u043e\u0432\u0430"
+    },
+    {
+     "openalex": "W4403023195",
+     "doi": "10.1371/journal.pone.0311028",
+     "title": "Does parents\u2019 retirement influence the fertility intentions of subsequent generations among internal migrant populations? Evidence from China",
+     "year": 2024,
+     "type": "article",
+     "cited_by": 2,
+     "venue": "PLoS ONE",
+     "authors": "Tianxin Cai; Shilong Ma; Renyao Zhong"
+    },
+    {
+     "openalex": "W4404524025",
+     "doi": "10.2139/ssrn.5010839",
+     "title": "The Intergenerational Impact of Pension Reforms: How Grandmothers\u2019 Pension Eligibility Affects Daughters\u2019 Fertility",
+     "year": 2024,
+     "type": "preprint",
+     "cited_by": 0,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Kadir Atalay; Pelin Akyol"
+    },
+    {
+     "openalex": "W2187539209",
+     "doi": null,
+     "title": "Unintended Consequences of Pension Reforms on Inter-Generational Fertility",
+     "year": 2013,
+     "type": "conference-paper",
+     "cited_by": 0,
+     "venue": null,
+     "authors": "Erich Battistin; Mario Padula"
+    },
+    {
+     "openalex": "W1599271721",
+     "doi": "10.1596/1813-9450-1996",
+     "title": "Namibia's Social Safety Net: Issues and Options for Reform",
+     "year": 1999,
+     "type": "report",
+     "cited_by": 20,
+     "venue": "World Bank policy research working paper",
+     "authors": "Kalinidhi Subbarao"
+    },
+    {
+     "openalex": "W7141612658",
+     "doi": "10.1017/s1474746426101420",
+     "title": "Delayed Retirement, Grandparental Support, and Adult Children\u2019s Fertility Intentions: Insights from a Survey Experiment in China",
+     "year": 2026,
+     "type": "article",
+     "cited_by": 0,
+     "venue": "Social Policy and Society",
+     "authors": "J MA; Yazhen Yang; Yu Ding"
+    },
+    {
+     "openalex": "W4391180122",
+     "doi": "10.1016/j.jeoa.2024.100502",
+     "title": "Intergenerational time transfer, retirement and public pensions",
+     "year": 2024,
+     "type": "article",
+     "cited_by": 2,
+     "venue": "The Journal of the Economics of Ageing",
+     "authors": "Quynh Nga Nguyen"
+    },
+    {
+     "openalex": "W7117582186",
+     "doi": "10.1016/j.asieco.2025.102111",
+     "title": "Postponing retirement under age discrimination and grandparenting",
+     "year": 2025,
+     "type": "article",
+     "cited_by": 0,
+     "venue": "Journal of Asian Economics",
+     "authors": "Leqing Huang"
+    },
+    {
+     "openalex": "W4226370295",
+     "doi": "10.2139/ssrn.4049258",
+     "title": "Fertility and Parental Retirement",
+     "year": 2022,
+     "type": "preprint",
+     "cited_by": 0,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Julius Ilciukas"
+    },
+    {
+     "openalex": "W4225144447",
+     "doi": "10.34190/ecsm.9.1.145",
+     "title": "Social Media about Grandparents as Childcare Providers: Evidence from Russian Region",
+     "year": 2022,
+     "type": "conference-paper",
+     "cited_by": 0,
+     "venue": "European Conference on Social Media",
+     "authors": "Daria Saitova"
+    },
+    {
+     "openalex": "W7138175179",
+     "doi": "10.2139/ssrn.6430167",
+     "title": "Delayed Retirement, Intergenerational Childcare, and the Equilibrium Fertility Rate: An Analysis Based on an Extended OLG Model",
+     "year": 2026,
+     "type": "preprint",
+     "cited_by": 0,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Linlin Zhang; Suoer Xu; Yunbi An"
+    },
+    {
+     "openalex": "W2616370431",
+     "doi": "10.1093/geront/gnx067",
+     "title": "International Aging: Spotlighting the Spotlights",
+     "year": 2017,
+     "type": "article",
+     "cited_by": 14,
+     "venue": "The Gerontologist",
+     "authors": "Rachel Pruchno"
+    },
+    {
+     "openalex": "W4402297574",
+     "doi": "10.2139/ssrn.4913789",
+     "title": "Four Essays on Intergenerational Contract",
+     "year": 2024,
+     "type": "preprint",
+     "cited_by": 0,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Yufei Ji"
+    },
+    {
+     "openalex": "W7129222656",
+     "doi": "10.1080/20954816.2026.2612755",
+     "title": "Population ageing, retirement, and economic growth",
+     "year": 2026,
+     "type": "article",
+     "cited_by": 0,
+     "venue": "Economic and Political Studies",
+     "authors": "Chao Ma; Xiangbo Liu; Guo Chen; Hui Gao"
+    },
+    {
+     "openalex": "W2439841052",
+     "doi": "10.1093/ppar/prw015",
+     "title": "Building a Third Demographic Dividend: Strengthening Intergenerational Well-Being in Ways That Deeply Matter",
+     "year": 2016,
+     "type": "article",
+     "cited_by": 4,
+     "venue": "Public Policy & Aging Report",
+     "authors": "Linda P. Fried"
+    }
+   ]
+  },
+  "proximity_to_parents_fertility": {
+   "cell": "PROX",
+   "query": "(\"proximity to parents\" OR \"distance to parents\" OR \"living near parents\" OR \"geographical proximity to family\") AND (fertility OR childbearing OR \"first birth\" OR \"second birth\")",
+   "frame_count": 15,
+   "error": null,
+   "top": [
+    {
+     "openalex": "W2610027961",
+     "doi": "10.4054/demres.2017.36.45",
+     "title": "The convergence of second-generation immigrants' fertility patterns in France: The role of sociocultural distance between parents' and host country",
+     "year": 2017,
+     "type": "article",
+     "cited_by": 44,
+     "venue": "Demographic Research",
+     "authors": "Ariane Pailh\u00e9"
+    },
+    {
+     "openalex": "W1604329332",
+     "doi": "10.1080/17441730.2010.494445",
+     "title": "INTERGENERATIONAL PROXIMITY AND THE FERTILITY INTENTIONS OF MARRIED WOMEN",
+     "year": 2010,
+     "type": "article",
+     "cited_by": 29,
+     "venue": "Asian Population Studies",
+     "authors": "James M. Raymo; Letizia Mencarini; Miho Iwasawa; Rie Moriizumi"
+    },
+    {
+     "openalex": "W2804100169",
+     "doi": "10.3389/fpsyg.2018.00887",
+     "title": "Differences in Parental Burnout: Influence of Demographic Factors and Personality of Parents and Children",
+     "year": 2018,
+     "type": "article",
+     "cited_by": 120,
+     "venue": "Frontiers in Psychology",
+     "authors": "Sarah Le Vigouroux; C\u00e9line Scola"
+    },
+    {
+     "openalex": "W2084192038",
+     "doi": "10.1038/sj.hdy.6800563",
+     "title": "Amaranthus hybridus can be pollinated frequently by A. tuberculatus under field conditions",
+     "year": 2004,
+     "type": "article",
+     "cited_by": 59,
+     "venue": "Heredity",
+     "authors": "Federico Trucco; Mark R. Jeschke; A. Lane Rayburn; Patrick J. Tranel"
+    },
+    {
+     "openalex": "W2332538879",
+     "doi": "10.1080/00275514.1995.12026577",
+     "title": "Sexual dysfunction associated with outcrossing in Neurospora tetrasperma , a pseudohomothallic ascomycete",
+     "year": 1995,
+     "type": "article",
+     "cited_by": 38,
+     "venue": "Mycologia",
+     "authors": "David J. Jacobson"
+    },
+    {
+     "openalex": "W2031869055",
+     "doi": "10.1016/j.fcr.2010.01.012",
+     "title": "Hybrid rice heterosis and genetic diversity of IRRI and Lao rice",
+     "year": 2010,
+     "type": "article",
+     "cited_by": 24,
+     "venue": "Field Crops Research",
+     "authors": "Phetmanyseng Xangsayasane; Xie F; Jose E. Hernandez; Teresita H. Boirromeo"
+    },
+    {
+     "openalex": "W3124046870",
+     "doi": null,
+     "title": "The convergence of second-generation immigrants' fertility patterns in France: The role of sociocultural distance between parents' and host country",
+     "year": null,
+     "type": "article",
+     "cited_by": 0,
+     "venue": "RePEc: Research Papers in Economics",
+     "authors": "Ariane Pailh\u00e9"
+    },
+    {
+     "openalex": "W2739993740",
+     "doi": "10.1007/s10681-017-1983-4",
+     "title": "Hybridization and heterosis in the Plicatula group of Paspalum",
+     "year": 2017,
+     "type": "article",
+     "cited_by": 24,
+     "venue": "Euphytica",
+     "authors": "Patricia E. Novo; Carlos A. Acu\u00f1a; Camilo L. Quar\u00edn; Mario H. Urbani"
+    },
+    {
+     "openalex": "W4229822359",
+     "doi": "10.2307/3760805",
+     "title": "Sexual Dysfunction Associated with Outcrossing in Neurospora tetrasperma, a Pseudohomothallic Ascomycete",
+     "year": 1995,
+     "type": "article",
+     "cited_by": 25,
+     "venue": "Mycologia",
+     "authors": "David J. Jacobson"
+    },
+    {
+     "openalex": "W4412172552",
+     "doi": "10.6107/jkha.2025.36.3.035",
+     "title": "Parenting-Friendly Housing Support Measures for Addressing Low Fertility - Focusing on International Cases of Multigenerational Housing -",
+     "year": 2025,
+     "type": "article",
+     "cited_by": 0,
+     "venue": "Journal of the Korean housing association",
+     "authors": "Ji-Seon Park; S. H. Kim"
+    },
+    {
+     "openalex": "W2571557497",
+     "doi": "10.18174/233699",
+     "title": "An ecogeographic analysis of Oryza series Sativae in Asia and the Pacific",
+     "year": 2012,
+     "type": "dissertation",
+     "cited_by": 5,
+     "venue": null,
+     "authors": "Maria Celeste N. Banaticla\u2010Hilario"
+    },
+    {
+     "openalex": "W2806400370",
+     "doi": null,
+     "title": "Pearl millet breeding in West Africa : steps towards higher productivity and nutritional value",
+     "year": 2018,
+     "type": "dissertation",
+     "cited_by": 1,
+     "venue": "University writing server of the University of Hohenheim (Universit\u00e4t Hohenheim)",
+     "authors": "Anna Pucher"
+    },
+    {
+     "openalex": "W2561173234",
+     "doi": null,
+     "title": "\u0412\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0435 \u0430\u0441\u043f\u0435\u043a\u0442\u044b \u0434\u0435\u0441\u0442\u0430\u043d\u0434\u0430\u0440\u0442\u0438\u0437\u0430\u0446\u0438\u0438 \u0436\u0438\u0437\u043d\u0435\u043d\u043d\u043e\u0433\u043e \u043f\u0443\u0442\u0438 \u043b\u0438\u0447\u043d\u043e\u0441\u0442\u0438 \u0432 \u0441\u0435\u043c\u0435\u0439\u043d\u043e\u0439 \u0441\u0444\u0435\u0440\u0435",
+     "year": 2015,
+     "type": "article",
+     "cited_by": 0,
+     "venue": "CyberLeninK (CyberLeninka)",
+     "authors": "\u0417\u043c\u0438\u0435\u0432\u0441\u043a\u0430\u044f \u0410\u043d\u0430\u0441\u0442\u0430\u0441\u0438\u044f \u0410\u043b\u0435\u043a\u0441\u0430\u043d\u0434\u0440\u043e\u0432\u043d\u0430; \u041a\u0443\u0440\u044b\u0448\u0435\u0432\u0430 \u041e\u043b\u044c\u0433\u0430 \u0412\u0430\u0441\u0438\u043b\u044c\u0435\u0432\u043d\u0430"
+    },
+    {
+     "openalex": "W4301111516",
+     "doi": "10.46692/9781847429698.006",
+     "title": "Grandparenting in the context of care for grandchildren by foreign domestic workers",
+     "year": 2012,
+     "type": "other",
+     "cited_by": 0,
+     "venue": null,
+     "authors": "Shirley Sun"
+    },
+    {
+     "openalex": "W2517017776",
+     "doi": null,
+     "title": "Agronomic, genetic and genomic approaches for predicting heterosis in sorghum [Sorghum bicolor (L.) Moench]",
+     "year": 2016,
+     "type": "dissertation",
+     "cited_by": 0,
+     "venue": "K-State Research Exchange (Kansas State University)",
+     "authors": "Frank Maulana"
+    }
+   ]
+  }
+ },
+ "errors": {}
+}

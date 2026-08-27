@@ -353,7 +353,70 @@ outcome is not a birth.
 > rather than an omission. The practical consequence for this chapter is small but real — **a
 > pre-modern niche study is not an A.23 anchor, and belongs in the decoy set** for the routing test.
 
-## 13. When to adjudicate
+## 13. What the anchor sourcing found (2026-08-27)
+
+Channels 1, 2 and 5 have been run (`214_a23_anchor_sourcing.py`, `215_a23_targeted_anchor_pulls.py`)
+and 30 anchors have cleared the Crossref existence gate (`216_a23_verify_anchors.py`): 30 FOUND, 0
+UNRESOLVED, 0 ERROR. Verification is against Crossref rather than OpenAlex, which is where the
+candidates came from. Two results change how this chapter should be read.
+
+### Channel 1 is dry, and that is a finding
+
+**No prior systematic review, scoping review or meta-analysis of the living arrangement and fertility
+exists.** The review-vocabulary families return 25, 5 and 0 records, and reading them shows the hits
+are off-topic — a handbook of adolescence, a scoping review of loneliness in parenthood, a systematic
+review of in-work poverty. A second vocabulary was tried before concluding this, per the C.3.g lesson:
+the bare word `review` returns 83 and `"research agenda"` 4, and neither surfaces a synthesis of this
+question. The nearest thing the field has is Furstenberg's *On a New Schedule* (`10.1353/foc.0.0038`),
+a narrative review of the transition to adulthood.
+
+So this chapter has **no external-authority anchor source**, and the cross-validation floor cannot be
+met from channel 1. Recall has to be established from channels 2, 3 and 5 and from the C.2.c seed
+harvest. Note also a vocabulary artifact worth carrying forward: `"systematic review" AND "household
+formation" AND fertility` returns **0**, while the same query with the bare word `review` returns 12.
+The zero is a property of the phrase, not of the literature.
+
+### The identified evidence is almost entirely in the arm the registered claim does not name
+
+Of the 20 gold candidates, **16 are `PRIMARY_EXTENDED_COUPLE` and 3 are `PRIMARY_PRELAUNCH`**. More
+sharply: every identified design that survived sourcing is in the extended-household arm. Design 8 —
+grandparental availability shocks from pension and retirement-age reform — yields six anchors with
+credible exogenous variation (`10.1016/j.jpubeco.2023.104928`, `10.1093/cesifo/ifu030`,
+`10.1086/719161`, `10.1016/j.econlet.2025.112239`, `10.1007/s10797-023-09822-9`,
+`10.2139/ssrn.2420716`). The pre-launch designs return almost nothing: the housing-benefit age
+threshold family returns 3 records, administrative dwelling allocation 2, and dwelling-destruction
+shocks 5.
+
+The asymmetry has three consequences.
+
+**It vindicates Ruling 1 immediately, and for a reason the ruling did not anticipate.** The ruling was
+taken to avoid selecting on the sign. What the sourcing shows is stronger: had the chapter been
+restricted to the pre-launch configuration, it would have had **essentially no identified evidence at
+all**. The identified evidence that exists is in the arm the v5 claim does not name — and it runs the
+other way, since grandparental availability *raises* fertility.
+
+**It relocates the chapter's centre of gravity.** A.23 as registered is a story about young adults
+failing to launch in Southern Europe. The evidence base is mostly about grandmothers in China, Italy
+and Germany deciding whether to retire. Both are "co-residence with parents"; §5 and §6 are the reason
+they are not the same variable.
+
+**It sets up the §7 verdict now rather than at synthesis.** The pre-launch arm — the registered
+hypothesis — is heading for a low GRADE on sparse and mostly associational evidence, while the
+extended-household arm may support a moderate rating on an effect of the opposite sign. A chapter that
+reported a single A.23 verdict would have to average those, which is exactly the error the review has
+already ruled against: ask whether disagreeing estimates share an estimator before pooling them, and
+here they do not even share a population.
+
+### Reading the gate's output
+
+Two anchors were flagged for low title overlap and both are subtitle truncations in what we recorded,
+not mismatches — the standing caution that a title-stem index makes a correct anchor look wrong. One
+of them earned its flag for a different reason: reading the resolved title of `10.1016/j.socscimed.
+2003.10.003` showed the outcome is "stress and health behaviors", not fertility, so it was
+reclassified out of the gold set and into the decoy set. **The gate's value here was not the DOI
+check — every DOI resolved — it was reading what came back.**
+
+## 14. When to adjudicate
 
 The title/abstract screen decides the stream only. It does **not** ask the RA to determine the
 life-stage configuration, the anticipation control, or the tempo/quantum reading from an abstract —

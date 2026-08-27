@@ -1,0 +1,4131 @@
+{
+ "meta": {
+  "ticket": "TICK-075",
+  "hypothesis": "A.23 co-residence-parents-household-delay",
+  "status": "CANDIDATES \u2014 not anchors. Selection is a judgment made by reading this file; every selected anchor must then clear the existence gate.",
+  "ruling_1": "A.23 owns both configurations, so the extended-household vocabulary is a first-class query family here (2026-08-27).",
+  "failed_families": 0,
+  "per_page": 25
+ },
+ "families": {
+  "reviews_prelaunch": {
+   "channel": "1",
+   "note": "prior reviews covering the pre-launch configuration",
+   "query": "(\"systematic review\" OR \"meta-analysis\" OR \"scoping review\" OR \"literature review\" OR \"review of the literature\" OR \"research synthesis\") AND (coresidence OR \"co-residence\" OR \"living with parents\" OR \"living at home\" OR \"parental home\" OR \"leaving home\" OR \"leaving the parental home\" OR \"home leaving\" OR \"nest leaving\" OR \"residential independence\" OR boomerang) AND (fertility OR childbearing OR \"first birth\" OR parenthood OR \"birth rate\")",
+   "frame_count": 25,
+   "error": null,
+   "top": [
+    {
+     "openalex": "W1551600018",
+     "doi": "10.1111/b.9781405133029.2005.x",
+     "title": "Blackwell Handbook of Adolescence",
+     "year": 2005,
+     "type": "reference-entry",
+     "cited_by": 433,
+     "venue": "Blackwell Publishing Ltd eBooks",
+     "authors": ""
+    },
+    {
+     "openalex": "W1990607865",
+     "doi": "10.2307/353569",
+     "title": "Race and Ethnic Variation in Norms of Filial Responsibility among Older Persons",
+     "year": 1999,
+     "type": "article",
+     "cited_by": 201,
+     "venue": "Journal of Marriage and the Family",
+     "authors": "Jeffrey A. Burr; Jan Mutchler"
+    },
+    {
+     "openalex": "W3170634961",
+     "doi": "10.1177/17579139211018243",
+     "title": "Experiencing loneliness in parenthood: a scoping review",
+     "year": 2021,
+     "type": "article",
+     "cited_by": 92,
+     "venue": "Perspectives in Public Health",
+     "authors": "Rebecca Nowland; Gill Thomson; Lucy McNally; Timothy D. H. Smith"
+    },
+    {
+     "openalex": "W3016652910",
+     "doi": "10.22365/jpsych.2019.304.329",
+     "title": "Empty-nest-related psychosocial stress: Conceptual issues, future directions in economic crisis",
+     "year": 2020,
+     "type": "article",
+     "cited_by": 69,
+     "venue": "Psychiatriki",
+     "authors": "Anastasia Bougea; Akyllina Despoti; Efthimios Vasilopoulos"
+    },
+    {
+     "openalex": "W4205817505",
+     "doi": "10.1016/j.alcr.2022.100462",
+     "title": "Family demographic processes and in-work poverty: A systematic review",
+     "year": 2022,
+     "type": "review",
+     "cited_by": 37,
+     "venue": "Advances in Life Course Research",
+     "authors": "Antonino Polizzi; Emanuela Struffolino; Zachary Van Winkle"
+    },
+    {
+     "openalex": "W2066280819",
+     "doi": "10.1177/0265407513510478",
+     "title": "Lifestyle and close relationship trends among young adults in Poland",
+     "year": 2013,
+     "type": "article",
+     "cited_by": 28,
+     "venue": "Journal of Social and Personal Relationships",
+     "authors": "Jacki Fitzpatrick; Magdalena B\u0142a\u017cek; Maria Ka\u017amierczak; Aleksandra Lewandowska-Walter"
+    },
+    {
+     "openalex": "W2989861884",
+     "doi": "10.1007/s00737-019-00993-1",
+     "title": "Development and preliminary validation of the Maternal Burnout Scale (MBS) in a French sample of mothers: bifactorial structure, reliability, and validity",
+     "year": 2019,
+     "type": "article",
+     "cited_by": 10,
+     "venue": "Archives of Women s Mental Health",
+     "authors": "Raquel S\u00e1nchez-Rodr\u00edguez; Stacey Callahan; Natal\u00e8ne S\u00e9journ\u00e9"
+    },
+    {
+     "openalex": "W3121460400",
+     "doi": "10.1002/cl2.1140",
+     "title": "PROTOCOL: Involving men and boys in family planning: A systematic review of the effective components and characteristics of complex interventions in low\u2010 and middle\u2010income countries",
+     "year": 2021,
+     "type": "review",
+     "cited_by": 9,
+     "venue": "Campbell Systematic Reviews",
+     "authors": "\u00c1ine Aventin; Martin Robinson; Jennifer Hanratty; Eimear Ruane\u2010McAteer"
+    },
+    {
+     "openalex": "W2971681742",
+     "doi": "10.1002/cl2.1042",
+     "title": "PROTOCOL: The effects of empowerment\u2010based nutrition interventions on the nutritional status of adolescent girls in low\u2010 and middle\u2010income countries",
+     "year": 2019,
+     "type": "article",
+     "cited_by": 9,
+     "venue": "Campbell Systematic Reviews",
+     "authors": "Alison Riddle; Cynthia M. Kroeger; Abigail Kaplan Ramage; Zulfiqar A Bhutta"
+    },
+    {
+     "openalex": "W1551946969",
+     "doi": null,
+     "title": "Demographic Patterns from the 1960s in France, Italy, Spain and Portugal",
+     "year": 2002,
+     "type": "preprint",
+     "cited_by": 8,
+     "venue": "RePEc: Research Papers in Economics",
+     "authors": "Ingrid Rydell"
+    },
+    {
+     "openalex": "W4300981789",
+     "doi": "10.14309/ajg.0000000000001961",
+     "title": "Surgery in Pregnancy",
+     "year": 2022,
+     "type": "article",
+     "cited_by": 5,
+     "venue": "The American Journal of Gastroenterology",
+     "authors": "Amy L. Lightner; Kellie L. Mathis"
+    },
+    {
+     "openalex": "W4253051240",
+     "doi": "10.31235/osf.io/zncaq",
+     "title": "Family Demographic Processes and In-Work Poverty: A Systematic Review",
+     "year": 2020,
+     "type": "preprint",
+     "cited_by": 4,
+     "venue": null,
+     "authors": "Antonino Polizzi; Emanuela Struffolino; Zachary Van Winkle"
+    },
+    {
+     "openalex": "W2957480558",
+     "doi": "10.1002/cl2.109",
+     "title": "PROTOCOL: The Therapeutic Alliance and Psychotherapy Outcomes for Young Adults Aged 18 to 34: Protocol for a Systematic Review",
+     "year": 2013,
+     "type": "review",
+     "cited_by": 4,
+     "venue": "Campbell Systematic Reviews",
+     "authors": "Stacy J. Green; Julia H. Littell; Karianne Thune Hammerstr\u00f8m; Emily E. Tanner\u2010Smith"
+    },
+    {
+     "openalex": "W3022135278",
+     "doi": "10.1093/occmed/kqaa082",
+     "title": "Occupational zoonoses potential in Southeast Asia",
+     "year": 2020,
+     "type": "article",
+     "cited_by": 3,
+     "venue": "Occupational Medicine",
+     "authors": "Mira Hidajat; Frank de Vocht"
+    },
+    {
+     "openalex": "W2925771555",
+     "doi": null,
+     "title": "Economic difficulties during the transition into adulthood in Finland : a register-based study",
+     "year": 2019,
+     "type": "dissertation",
+     "cited_by": 3,
+     "venue": "UTUPub (University of Turku)",
+     "authors": "Ilari Ilmakunnas"
+    },
+    {
+     "openalex": "W3165282042",
+     "doi": "10.1017/s0021911808001836",
+     "title": "Shrinking Population Economics: Lessons from Japan. By Akihito Matsutani. Tokyo: International House of Japan, 2006. xiv, 200 pp. \u00a51429 (paper).Tackling Japan's Fiscal Challenges: Strategies to Cope with High Public Debt and Population Ageing. Edited by Keimi Kaizua and Anne Krueger. New York: Palgrave Macmillan, 2006. xvi, 222 pp. $85.00 (cloth).Population Decline and Ageing in Japan\u2014The Social Consequences. By Florian Coulmas. New York: Routledge, 2007. viii, 167 pp. $150.00 (cloth).The Care of the Elderly in Japan. By Youngmei Wu. New York: Routledge. 2004. xv, 224 pp. $170.00 (cloth).Social Welfare in Japan: Principles and Applications. By Kojun Furkawa. Melbourne: Trans Pacific Press, 2008. xi, 425 pp. $109.95 Aus (cloth).",
+     "year": 2008,
+     "type": "book-review",
+     "cited_by": 2,
+     "venue": "The Journal of Asian Studies",
+     "authors": "John C. Campbell"
+    },
+    {
+     "openalex": "W3101262980",
+     "doi": "10.1108/aeds-08-2020-0196",
+     "title": "The road ahead: should Hong Kong develop five pillars of old age protection?",
+     "year": 2020,
+     "type": "article",
+     "cited_by": 1,
+     "venue": "Asian Education and Development Studies",
+     "authors": "Gigi Lam"
+    },
+    {
+     "openalex": "W2924302734",
+     "doi": "10.4324/9781351017954-15",
+     "title": "Fatherhood post-separation",
+     "year": 2019,
+     "type": "book-chapter",
+     "cited_by": 1,
+     "venue": null,
+     "authors": "Michaela Schier"
+    },
+    {
+     "openalex": "W7131232267",
+     "doi": "10.31235/osf.io/zbgs7_v1",
+     "title": "The roles of siblings and school peers in young adults\u2019 life course events: A review and a research agenda",
+     "year": 2026,
+     "type": "preprint",
+     "cited_by": 0,
+     "venue": null,
+     "authors": "Clara H. Mulder; Yu-Chin Her; Zuzana Zilincikova; Kilian J. Steigner"
+    },
+    {
+     "openalex": "W7131485504",
+     "doi": null,
+     "title": "The roles of siblings and school peers in young adults\u2019 life course events: A review and a research agenda",
+     "year": 2026,
+     "type": "preprint",
+     "cited_by": 0,
+     "venue": "SocArXiv (OSF Preprints)",
+     "authors": "Kilian J. Steigner; Zuzana Zilincikova; Yu-Chin Her; Clara H. Mulder"
+    },
+    {
+     "openalex": "W4385373183",
+     "doi": "10.1108/s1530-353520230000023017",
+     "title": "Index",
+     "year": 2023,
+     "type": "paratext",
+     "cited_by": 0,
+     "venue": "Contemporary perspectives on family research",
+     "authors": ""
+    },
+    {
+     "openalex": "W4297502063",
+     "doi": "10.1108/s1530-353520220000020013",
+     "title": "Index",
+     "year": 2022,
+     "type": "paratext",
+     "cited_by": 0,
+     "venue": null,
+     "authors": ""
+    },
+    {
+     "openalex": "W2971789064",
+     "doi": "10.5958/2249-0035.2019.00012.3",
+     "title": "The Dynamics of Migration and Gender: A Theoretical Review with Reference to Research in North India",
+     "year": 2019,
+     "type": "article",
+     "cited_by": 0,
+     "venue": "Quest-The Journal of UGC-HRDC Nainital",
+     "authors": "Pooja Pooja; Divya Upadhyaya Joshi"
+    },
+    {
+     "openalex": "W3127817387",
+     "doi": "10.1017/9789048535262.011",
+     "title": "Evolving Families: Realities and Images of Stepfamilies, Remarriage, and Half-Siblings in Early Modern Spain",
+     "year": 2018,
+     "type": "other",
+     "cited_by": 0,
+     "venue": null,
+     "authors": "Grace E. Coolidge; Lyndan Warner"
+    },
+    {
+     "openalex": "W4210840858",
+     "doi": "10.1596/978-0-8213-6541-0_bm",
+     "title": "Back Matter",
+     "year": 2006,
+     "type": "paratext",
+     "cited_by": 0,
+     "venue": null,
+     "authors": "World Bank"
+    }
+   ]
+  },
+  "reviews_extended": {
+   "channel": "1",
+   "note": "prior reviews covering the extended-household configuration (Ruling 1)",
+   "query": "(\"systematic review\" OR \"meta-analysis\" OR \"scoping review\" OR \"literature review\" OR \"review of the literature\" OR \"research synthesis\") AND (\"multigenerational household\" OR \"three-generation household\" OR \"extended household\" OR \"stem family\" OR \"parents-in-law\" OR \"grandparental childcare\" OR \"grandparent childcare\" OR \"intergenerational coresidence\" OR \"intergenerational co-residence\" OR \"living with in-laws\") AND (fertility OR childbearing OR \"first birth\" OR parenthood OR \"birth rate\")",
+   "frame_count": 5,
+   "error": null,
+   "top": [
+    {
+     "openalex": "W1990607865",
+     "doi": "10.2307/353569",
+     "title": "Race and Ethnic Variation in Norms of Filial Responsibility among Older Persons",
+     "year": 1999,
+     "type": "article",
+     "cited_by": 201,
+     "venue": "Journal of Marriage and the Family",
+     "authors": "Jeffrey A. Burr; Jan Mutchler"
+    },
+    {
+     "openalex": "W2890871792",
+     "doi": "10.1086/ahr.114.1.162",
+     "title": ":The Shady Side of Fifty: Age and Old Age in Late Victorian Canada and the United States",
+     "year": 2009,
+     "type": "article",
+     "cited_by": 6,
+     "venue": "The American Historical Review",
+     "authors": "Howard P. Chudacoff"
+    },
+    {
+     "openalex": "W2149290667",
+     "doi": "10.1093/geront/43.5.771",
+     "title": "GRANDPARENTS: FAMILY SUPPORTERS, CUSTODIAL CAREGIVERS, AND DOLLS",
+     "year": 2003,
+     "type": "article",
+     "cited_by": 4,
+     "venue": "The Gerontologist",
+     "authors": "M. P. Jendrek"
+    },
+    {
+     "openalex": "W4389793444",
+     "doi": "10.3389/fpsyg.2023.1280079",
+     "title": "Opinion: Care work, migrant peasant families and discourse of filial piety in China",
+     "year": 2023,
+     "type": "article",
+     "cited_by": 1,
+     "venue": "Frontiers in Psychology",
+     "authors": "Yan Qin"
+    },
+    {
+     "openalex": "W4229570711",
+     "doi": "10.1108/978-1-78754-361-420181018",
+     "title": "Index",
+     "year": 2018,
+     "type": "paratext",
+     "cited_by": 0,
+     "venue": null,
+     "authors": ""
+    }
+   ]
+  },
+  "reviews_household_formation": {
+   "channel": "1",
+   "note": "prior reviews on household formation and fertility",
+   "query": "(\"systematic review\" OR \"meta-analysis\" OR \"scoping review\" OR \"literature review\" OR \"review of the literature\" OR \"research synthesis\") AND \"household formation\" AND (fertility OR childbearing OR \"first birth\" OR parenthood OR \"birth rate\")",
+   "frame_count": 0,
+   "error": null,
+   "top": []
+  },
+  "theory_lifecourse": {
+   "channel": "2",
+   "note": "life-course transition theory",
+   "query": "(\"life course\" OR \"transition to adulthood\" OR \"life-course transitions\") AND (coresidence OR \"co-residence\" OR \"living with parents\" OR \"living at home\" OR \"parental home\" OR \"leaving home\" OR \"leaving the parental home\" OR \"home leaving\" OR \"nest leaving\" OR \"residential independence\" OR boomerang) AND (fertility OR childbearing OR \"first birth\" OR parenthood OR \"birth rate\")",
+   "frame_count": 191,
+   "error": null,
+   "top": [
+    {
+     "openalex": "W2073388463",
+     "doi": "10.1038/oby.2008.365",
+     "title": "Emerging Adulthood and College\u2010aged Youth: An Overlooked Age for Weight\u2010related Behavior Change",
+     "year": 2008,
+     "type": "article",
+     "cited_by": 1323,
+     "venue": "Obesity",
+     "authors": "Melissa C. Nelson; Mary Story; Nicole Larson; Dianne Neumark\u2010Sztainer"
+    },
+    {
+     "openalex": "W2083734684",
+     "doi": "10.2307/3089835",
+     "title": "Smoking, Drinking, and Drug Use in Young Adulthood: The Impacts of New Freedoms and New Responsibilities",
+     "year": 2003,
+     "type": "article",
+     "cited_by": 558,
+     "venue": "Contemporary Sociology A Journal of Reviews",
+     "authors": "Jacob Goldstein; Jerald G. Bachman; Katherine N. Wadsworth; Patrick M. O\u2019Malley"
+    },
+    {
+     "openalex": "W2143928126",
+     "doi": "10.1353/foc.0.0038",
+     "title": "On a New Schedule: Transitions to Adulthood and Family Change",
+     "year": 2010,
+     "type": "article",
+     "cited_by": 470,
+     "venue": "The Future of Children",
+     "authors": "Frank F. Furstenberg"
+    },
+    {
+     "openalex": "W1551600018",
+     "doi": "10.1111/b.9781405133029.2005.x",
+     "title": "Blackwell Handbook of Adolescence",
+     "year": 2005,
+     "type": "reference-entry",
+     "cited_by": 433,
+     "venue": "Blackwell Publishing Ltd eBooks",
+     "authors": ""
+    },
+    {
+     "openalex": "W2032781774",
+     "doi": "10.1007/s13524-013-0247-8",
+     "title": "Gender, Turning Points, and Boomerangs: Returning Home in Young Adulthood in Great Britain",
+     "year": 2013,
+     "type": "article",
+     "cited_by": 200,
+     "venue": "Demography",
+     "authors": "Juliet Stone; Ann Berrington; Jane Falkingham"
+    },
+    {
+     "openalex": "W2028584245",
+     "doi": "10.2307/353543",
+     "title": "The Effects of Childhood Family Structure on Leaving and Returning Home",
+     "year": 1998,
+     "type": "article",
+     "cited_by": 188,
+     "venue": "Journal of Marriage and the Family",
+     "authors": "Frances Goldscheider; Calvin Goldscheider"
+    },
+    {
+     "openalex": "W2499169646",
+     "doi": "10.7208/chicago/9780226748924.003.0002",
+     "title": "The Transition to Adulthood During the Twentieth Century",
+     "year": 2005,
+     "type": "book-chapter",
+     "cited_by": 181,
+     "venue": null,
+     "authors": "Elizabeth Fussell; Frank F. Furstenberg"
+    },
+    {
+     "openalex": "W2101110009",
+     "doi": "10.1177/000271620258000103",
+     "title": "Regional Differences in the Transition to Adulthood",
+     "year": 2002,
+     "type": "article",
+     "cited_by": 178,
+     "venue": "The Annals of the American Academy of Political and Social Science",
+     "authors": "Maria Iacovou"
+    },
+    {
+     "openalex": "W1744702647",
+     "doi": null,
+     "title": "Maturing out of Problematic Alcohol Use",
+     "year": 2004,
+     "type": "article",
+     "cited_by": 162,
+     "venue": "Europe PMC (PubMed Central)",
+     "authors": "Patrick M. O\u2019Malley"
+    },
+    {
+     "openalex": "W2151677629",
+     "doi": "10.1177/074355489273006",
+     "title": "Stages on Life's Way",
+     "year": 1992,
+     "type": "article",
+     "cited_by": 139,
+     "venue": "Journal of Adolescent Research",
+     "authors": "A. L. Greene; Susan M. Wheatley; John F. Aldava"
+    },
+    {
+     "openalex": "W2084780828",
+     "doi": "10.2307/2061587",
+     "title": "Living arrangements and the transition to adulthood",
+     "year": 1985,
+     "type": "article",
+     "cited_by": 130,
+     "venue": "Demography",
+     "authors": "Frances Goldscheider; Julie DaVanzo"
+    },
+    {
+     "openalex": "W612288200",
+     "doi": "10.5860/choice.43-6209",
+     "title": "The boomerang age: transitions to adulthood in families",
+     "year": 2006,
+     "type": "book-review",
+     "cited_by": 124,
+     "venue": "Choice Reviews Online",
+     "authors": ""
+    },
+    {
+     "openalex": "W1516710481",
+     "doi": "10.4054/mpidr-wp-2001-039",
+     "title": "Convergence towards diversity? Cohort dynamics in the transition to adulthood in contemporary Western Europe",
+     "year": 2001,
+     "type": "report",
+     "cited_by": 120,
+     "venue": null,
+     "authors": "Francesco C. Billari; Chris Wilson"
+    },
+    {
+     "openalex": "W4247571236",
+     "doi": "10.4324/9780203763797",
+     "title": "Smoking, Drinking, and Drug Use in Young Adulthood",
+     "year": 2013,
+     "type": "book",
+     "cited_by": 97,
+     "venue": "Psychology Press eBooks",
+     "authors": "Jerald G. Bachman; Katherine N. Wadsworth; Patrick M. O\u2019Malley; Lloyd D. Johnston"
+    },
+    {
+     "openalex": "W2155889633",
+     "doi": "10.1177/0044118x09351909",
+     "title": "Understanding the Impact of Poverty on Critical Events in Emerging Adulthood",
+     "year": 2009,
+     "type": "article",
+     "cited_by": 84,
+     "venue": "Youth & Society",
+     "authors": "Stephanie Cosner Berzin; Allison C. De Marco"
+    },
+    {
+     "openalex": "W1978297609",
+     "doi": "10.1353/foc.0.0042",
+     "title": "Introducing the Issue",
+     "year": 2010,
+     "type": "article",
+     "cited_by": 83,
+     "venue": "The Future of Children",
+     "authors": "Anna Aizer; Jeanne Brooks\u2010Gunn"
+    },
+    {
+     "openalex": "W1963934758",
+     "doi": "10.1177/0044118x04268376",
+     "title": "Secondary Schooling and Rural Youth Transitions in Lesotho and Zimbabwe",
+     "year": 2004,
+     "type": "article",
+     "cited_by": 78,
+     "venue": "Youth & Society",
+     "authors": "Nicola Ansell"
+    },
+    {
+     "openalex": "W2769144954",
+     "doi": "10.1093/geroni/igx026",
+     "title": "Millennials and Their Parents: Implications of the New Young Adulthood for Midlife Adults",
+     "year": 2017,
+     "type": "article",
+     "cited_by": 77,
+     "venue": "Innovation in Aging",
+     "authors": "Karen L. Fingerman"
+    },
+    {
+     "openalex": "W2802390717",
+     "doi": "10.1037/fam0000361",
+     "title": "\u201cCan\u2019t live with or without them:\u201d Transitions and young adults\u2019 perceptions of sibling relationships.",
+     "year": 2018,
+     "type": "article",
+     "cited_by": 74,
+     "venue": "Journal of Family Psychology",
+     "authors": "Alexander C. Jensen; Shawn D. Whiteman; Karen L. Fingerman"
+    },
+    {
+     "openalex": "W2036301684",
+     "doi": "10.1111/j.1741-3737.2007.00458.x",
+     "title": "Depression and Anger Trajectories During the Transition to Adulthood",
+     "year": 2008,
+     "type": "article",
+     "cited_by": 73,
+     "venue": "Journal of Marriage and the Family",
+     "authors": "Nancy L. Galambos; Harvey Krahn"
+    },
+    {
+     "openalex": "W2098365836",
+     "doi": "10.1177/0192513x09336340",
+     "title": "Contact Between Grandchildren and Their Grandparents in Early Adulthood",
+     "year": 2009,
+     "type": "article",
+     "cited_by": 71,
+     "venue": "Journal of Family Issues",
+     "authors": "Teun Geurts; Anne\u2010Rigt Poortman; T.G. van Tilburg; Pearl A. Dykstra"
+    },
+    {
+     "openalex": "W1972792878",
+     "doi": "10.1111/j.1741-3737.2000.00430.x",
+     "title": "Subsequent Fertility Among Teen Mothers: Longitudinal Analyses of Recent National Data",
+     "year": 2000,
+     "type": "article",
+     "cited_by": 70,
+     "venue": "Journal of Marriage and the Family",
+     "authors": "Jennifer Manlove; Carrie Mariner; Angela Romano Papillo"
+    },
+    {
+     "openalex": "W1525519266",
+     "doi": "10.1007/s10680-007-9136-4",
+     "title": "Heterogeneity in the Transition to Adulthood: The Cases of Australia, Canada, and the United States",
+     "year": 2007,
+     "type": "article",
+     "cited_by": 69,
+     "venue": "European Journal of Population / Revue europ\u00e9enne de D\u00e9mographie",
+     "authors": "Elizabeth Fussell; Anne H. Gauthier; Ann Evans"
+    },
+    {
+     "openalex": "W1995138654",
+     "doi": "10.1007/s10680-005-7434-2",
+     "title": "Societal Transition, Policy Changes and Family Formation: Evidence from Hungary",
+     "year": 2006,
+     "type": "article",
+     "cited_by": 64,
+     "venue": "European Journal of Population / Revue europ\u00e9enne de D\u00e9mographie",
+     "authors": "Arnstein Aassve; Francesco C. Billari; Zsolt Sp\u00e9der"
+    },
+    {
+     "openalex": "W1148504104",
+     "doi": "10.1007/s10680-014-9335-8",
+     "title": "Women\u2019s Retirement Intentions and Behavior: The Role of Childbearing and Marital Histories",
+     "year": 2015,
+     "type": "article",
+     "cited_by": 55,
+     "venue": "European Journal of Population / Revue europ\u00e9enne de D\u00e9mographie",
+     "authors": "Marleen Damman; K\u00e8ne Henkens; Matthijs Kalmijn"
+    }
+   ]
+  },
+  "theory_family_system": {
+   "channel": "2",
+   "note": "family-system typologies (Reher, Hajnal) \u2014 theory and Wall 3 decoys",
+   "query": "(\"family system\" OR \"family ties\" OR \"strong family\" OR \"familism\" OR \"stem family\") AND (fertility OR \"household formation\" OR \"leaving home\")",
+   "frame_count": 646,
+   "error": null,
+   "top": [
+    {
+     "openalex": "W1973202425",
+     "doi": "10.2307/1973489",
+     "title": "Sexual Stratification: The Other Side of \"Growth with Equity\" in East Asia",
+     "year": 1985,
+     "type": "article",
+     "cited_by": 327,
+     "venue": "Population and Development Review",
+     "authors": "Susan Greenhalgh"
+    },
+    {
+     "openalex": "W1685394207",
+     "doi": null,
+     "title": "Between Sex and Power: Family in the World 1900-2000",
+     "year": 2004,
+     "type": "book",
+     "cited_by": 287,
+     "venue": "Medical Entomology and Zoology",
+     "authors": "G\u00f6ran Therborn"
+    },
+    {
+     "openalex": "W2802907016",
+     "doi": "10.1111/padr.12149",
+     "title": "Living Alone in Later Life: A Global Perspective",
+     "year": 2018,
+     "type": "article",
+     "cited_by": 231,
+     "venue": "Population and Development Review",
+     "authors": "David Reher; Miguel Requena"
+    },
+    {
+     "openalex": "W2157510816",
+     "doi": "10.1016/0165-2281(82)90012-1",
+     "title": "Influence of maternal education on infant and child mortality: Levels and causes",
+     "year": 1982,
+     "type": "article",
+     "cited_by": 221,
+     "venue": "Health Policy and Education",
+     "authors": "John Caldwell; Peter McDonald"
+    },
+    {
+     "openalex": "W1990607865",
+     "doi": "10.2307/353569",
+     "title": "Race and Ethnic Variation in Norms of Filial Responsibility among Older Persons",
+     "year": 1999,
+     "type": "article",
+     "cited_by": 201,
+     "venue": "Journal of Marriage and the Family",
+     "authors": "Jeffrey A. Burr; Jan Mutchler"
+    },
+    {
+     "openalex": "W2025080074",
+     "doi": "10.2307/1533857",
+     "title": "Women's Position and Demographic Change",
+     "year": 1994,
+     "type": "article",
+     "cited_by": 198,
+     "venue": "Population",
+     "authors": "S. C.; Nora Federici"
+    },
+    {
+     "openalex": "W2036688874",
+     "doi": "10.1007/bf01796593",
+     "title": "Value changes and the dimensions of familism in the European community",
+     "year": 1987,
+     "type": "article",
+     "cited_by": 185,
+     "venue": "European Journal of Population / Revue europ\u00e9enne de D\u00e9mographie",
+     "authors": "Ronny Lesthaeghe; Dominique Meekers"
+    },
+    {
+     "openalex": "W1979962725",
+     "doi": "10.1016/j.alcr.2010.10.004",
+     "title": "Leaving home: Independence, togetherness and income",
+     "year": 2010,
+     "type": "article",
+     "cited_by": 162,
+     "venue": "Advances in Life Course Research",
+     "authors": "Maria Iacovou"
+    },
+    {
+     "openalex": "W2106900776",
+     "doi": "10.1002/ijpg.305",
+     "title": "Migrant remittances and family ties: a case study in China",
+     "year": 2003,
+     "type": "article",
+     "cited_by": 157,
+     "venue": "International Journal of Population Geography",
+     "authors": "Qian Cai"
+    },
+    {
+     "openalex": "W4301761630",
+     "doi": "10.1111/j.1399-5448.2009.00584.x",
+     "title": "Type 2 diabetes in children and adolescents",
+     "year": 2009,
+     "type": "article",
+     "cited_by": 148,
+     "venue": "Pediatric Diabetes",
+     "authors": "Arlen L. Rosenbloom; Janet Silverstein; Shin Amemiya; Philip Zeitler"
+    },
+    {
+     "openalex": "W2077519557",
+     "doi": "10.2307/3773961",
+     "title": "Co-Wife Conflict and Co-operation",
+     "year": 2005,
+     "type": "article",
+     "cited_by": 145,
+     "venue": "Ethnology",
+     "authors": "William Jankowiak; Monika Sudakov; Benjamin C. Wilreker"
+    },
+    {
+     "openalex": "W1771800547",
+     "doi": "10.1007/s10680-009-9181-2",
+     "title": "Sweeping Changes in Marriage, Cohabitation and Childbearing in Central and Eastern Europe: New Insights from the Developmental Idealism Framework",
+     "year": 2009,
+     "type": "article",
+     "cited_by": 141,
+     "venue": "European Journal of Population / Revue europ\u00e9enne de D\u00e9mographie",
+     "authors": "Arland Thornton; Dimiter Philipov"
+    },
+    {
+     "openalex": "W1979899036",
+     "doi": "10.2307/2137684",
+     "title": "Comparing Family Systems in Europe and Asia: Are There Different Sets of Rules?",
+     "year": 1996,
+     "type": "article",
+     "cited_by": 136,
+     "venue": "Population and Development Review",
+     "authors": "Jack Goody"
+    },
+    {
+     "openalex": "W125544890",
+     "doi": "10.1210/jc.2002-020524",
+     "title": "Postpartum Thyroiditis",
+     "year": 2002,
+     "type": "article",
+     "cited_by": 133,
+     "venue": "The Journal of Clinical Endocrinology & Metabolism",
+     "authors": "Alex Stagnaro\u2010Green"
+    },
+    {
+     "openalex": "W1984091595",
+     "doi": "10.2307/353825",
+     "title": "American Children View Their Grandparents: Linked Lives Across Three Rural Generations",
+     "year": 1995,
+     "type": "article",
+     "cited_by": 129,
+     "venue": "Journal of Marriage and the Family",
+     "authors": "Valarie King; Glen H. Elder"
+    },
+    {
+     "openalex": "W2148298928",
+     "doi": "10.5860/choice.31-2976",
+     "title": "Leaving home before marriage: ethnicity, familism, and generational relationships",
+     "year": 1994,
+     "type": "book-review",
+     "cited_by": 125,
+     "venue": "Choice Reviews Online",
+     "authors": ""
+    },
+    {
+     "openalex": "W3122292788",
+     "doi": "10.1086/694587",
+     "title": "Job Loss and Regional Mobility",
+     "year": 2017,
+     "type": "article",
+     "cited_by": 117,
+     "venue": "Journal of Labor Economics",
+     "authors": "Kristiina Huttunen; Jarle M\u00f8en; Kjell G. Salvanes"
+    },
+    {
+     "openalex": "W1992659036",
+     "doi": "10.1017/s002193200700226x",
+     "title": "PREVALENCE AND SOCIODEMOGRAPHIC CORRELATES OF CONSANGUINEOUS MARRIAGES IN TURKEY",
+     "year": 2007,
+     "type": "article",
+     "cited_by": 116,
+     "venue": "Journal of Biosocial Science",
+     "authors": "\u0130smet Ko\u00e7"
+    },
+    {
+     "openalex": "W1500832666",
+     "doi": "10.2307/2673785",
+     "title": "Childbearing in Cohabiting Unions: Racial and Ethnic Differences",
+     "year": 2001,
+     "type": "article",
+     "cited_by": 116,
+     "venue": "Family Planning Perspectives",
+     "authors": "Wendy D. Manning"
+    },
+    {
+     "openalex": "W190720280",
+     "doi": "10.1007/978-1-4020-8539-0_3",
+     "title": "Explaining the Neolithic Demographic Transition",
+     "year": 2008,
+     "type": "book-chapter",
+     "cited_by": 111,
+     "venue": null,
+     "authors": "Jean\u2010Pierre Bocquet\u2010Appel"
+    },
+    {
+     "openalex": "W2157705259",
+     "doi": "10.1093/geront/gns038",
+     "title": "Not Your Mother's Old Age: Baby Boomers at Age 65",
+     "year": 2012,
+     "type": "article",
+     "cited_by": 108,
+     "venue": "The Gerontologist",
+     "authors": "Rachel Pruchno"
+    },
+    {
+     "openalex": "W1902027485",
+     "doi": "10.1111/j.1532-7795.2010.00683.x",
+     "title": "Family Relationships From Adolescence to Early Adulthood: Changes in the Family System Following Firstborns' Leaving Home",
+     "year": 2010,
+     "type": "article",
+     "cited_by": 104,
+     "venue": "Journal of Research on Adolescence",
+     "authors": "Shawn D. Whiteman; Susan M. McHale; Ann C. Crouter"
+    },
+    {
+     "openalex": "W4211139673",
+     "doi": "10.1016/j.ijgo.2015.06.007",
+     "title": "Cancer of the ovary, fallopian tube, and peritoneum",
+     "year": 2015,
+     "type": "article",
+     "cited_by": 103,
+     "venue": "International Journal of Gynecology & Obstetrics",
+     "authors": "Jonathan S. Berek; Christopher P. Crum; Michael Friedl\u00e4nder"
+    },
+    {
+     "openalex": "W2288594338",
+     "doi": null,
+     "title": "Gender and Family Systems in the Fertility Transition",
+     "year": 2001,
+     "type": "article",
+     "cited_by": 103,
+     "venue": "Population and Development Review",
+     "authors": "Karen Oppenheim Mason"
+    },
+    {
+     "openalex": "W1832488350",
+     "doi": "10.2307/1535043",
+     "title": "Fertility Policy in Israel. The Politics of Religion, Gender, and Nation",
+     "year": 2000,
+     "type": "article",
+     "cited_by": 100,
+     "venue": "Population",
+     "authors": "Youssef Courbage; Jacqueline M. Portugese"
+    }
+   ]
+  },
+  "theory_semi_autonomy": {
+   "channel": "2",
+   "note": "semi-autonomy / emerging adulthood",
+   "query": "(\"semi-autonomy\" OR \"semi-dependent\" OR \"emerging adulthood\" OR \"delayed adulthood\") AND (fertility OR \"parental home\" OR coresidence)",
+   "frame_count": 74,
+   "error": null,
+   "top": [
+    {
+     "openalex": "W2082260821",
+     "doi": "10.1037/0012-1649.39.4.657",
+     "title": "Variations in patterns of developmental transmissions in the emerging adulthood period.",
+     "year": 2003,
+     "type": "article",
+     "cited_by": 354,
+     "venue": "Developmental Psychology",
+     "authors": "Patricia Cohen; Stephanie Kasen; Henian Chen; Claudia Hartmark"
+    },
+    {
+     "openalex": "W2001863969",
+     "doi": "10.2307/2061260",
+     "title": "Pathways to Independent Living in Early Adulthood: Marriage, Semiautonomy, and Premarital Residential Independence",
+     "year": 1989,
+     "type": "article",
+     "cited_by": 172,
+     "venue": "Demography",
+     "authors": "Frances Goldscheider; Julie DaVanzo"
+    },
+    {
+     "openalex": "W2100269719",
+     "doi": "10.1111/j.1750-8606.2007.00023.x",
+     "title": "From Duty to Desire: Emerging Adulthood in Europe and Its Consequences",
+     "year": 2007,
+     "type": "article",
+     "cited_by": 153,
+     "venue": "Child Development Perspectives",
+     "authors": "Carrie B. Douglass"
+    },
+    {
+     "openalex": "W2171474132",
+     "doi": "10.1177/0743558410371126",
+     "title": "Failure to Launch, Failure to Achieve Criteria for Adulthood?",
+     "year": 2010,
+     "type": "article",
+     "cited_by": 128,
+     "venue": "Journal of Adolescent Research",
+     "authors": "Evie Kins; Wim Beyers"
+    },
+    {
+     "openalex": "W2118854959",
+     "doi": "10.1111/j.1467-6494.2007.00480.x",
+     "title": "Childhood Personality Predicts Long\u2010Term Trajectories of Shyness and Aggressiveness in the Context of Demographic Transitions in Emerging Adulthood",
+     "year": 2007,
+     "type": "article",
+     "cited_by": 119,
+     "venue": "Journal of Personality",
+     "authors": "Jaap J. A. Dennissen; Jens B. Asendorpf; Marcel A. G. van Aken"
+    },
+    {
+     "openalex": "W647291931",
+     "doi": "10.1007/978-1-4614-1436-0",
+     "title": "Early Adulthood in a Family Context",
+     "year": 2011,
+     "type": "book",
+     "cited_by": 111,
+     "venue": null,
+     "authors": "Alan Booth; Susan M. McHale; Wendy D. Manning; Nancy S. Landale"
+    },
+    {
+     "openalex": "W2149710836",
+     "doi": "10.1177/0743558407306713",
+     "title": "Do I Really Need Someone in Order to Become an Adult? Romantic Relationships During Emerging Adulthood in Italy",
+     "year": 2007,
+     "type": "article",
+     "cited_by": 109,
+     "venue": "Journal of Adolescent Research",
+     "authors": "Margherita Lanz; Semira Tagliabue"
+    },
+    {
+     "openalex": "W1955103062",
+     "doi": "10.1111/j.1743-6109.2012.02950.x",
+     "title": "Impact of Childhood Cancer on Emerging Adult Survivors\u2019 Romantic Relationships: A Qualitative Account",
+     "year": 2012,
+     "type": "article",
+     "cited_by": 92,
+     "venue": "The Journal of Sexual Medicine",
+     "authors": "Amanda L. Thompson; Kristin A. Long; Anna L. Marsland"
+    },
+    {
+     "openalex": "W2769144954",
+     "doi": "10.1093/geroni/igx026",
+     "title": "Millennials and Their Parents: Implications of the New Young Adulthood for Midlife Adults",
+     "year": 2017,
+     "type": "article",
+     "cited_by": 77,
+     "venue": "Innovation in Aging",
+     "authors": "Karen L. Fingerman"
+    },
+    {
+     "openalex": "W3202005234",
+     "doi": "10.1177/21676968211042109",
+     "title": "Longitudinal Changes in Life Satisfaction and Mental Health in Emerging Adulthood During the COVID-19 Pandemic. Risk and Protective Factors",
+     "year": 2021,
+     "type": "article",
+     "cited_by": 64,
+     "venue": "Emerging Adulthood",
+     "authors": "Richard Preetz; Andreas Filser; Ana Br\u00f6mmelhaus; Tim Baalmann"
+    },
+    {
+     "openalex": "W2884637640",
+     "doi": "10.1037/hea0000645",
+     "title": "Depressive symptoms and diabetes management from late adolescence to emerging adulthood.",
+     "year": 2018,
+     "type": "article",
+     "cited_by": 38,
+     "venue": "Health Psychology",
+     "authors": "Katherine J. W. Baucom; Sara L. Turner; Eunjin Lee Tracy; Cynthia A. Berg"
+    },
+    {
+     "openalex": "W412640134",
+     "doi": "10.1093/oxfordhb/9780199795574.013.17",
+     "title": "Emerging Adulthood in the Context of Family",
+     "year": 2014,
+     "type": "book",
+     "cited_by": 38,
+     "venue": "Oxford University Press eBooks",
+     "authors": "Karen L. Fingerman; Jenjira Yahirun"
+    },
+    {
+     "openalex": "W2999368057",
+     "doi": "10.1177/0192513x19894355",
+     "title": "Grandparents\u2019 Relationship to Grandchildren in the Transition to Adulthood",
+     "year": 2020,
+     "type": "article",
+     "cited_by": 33,
+     "venue": "Journal of Family Issues",
+     "authors": "Martin Wetzel; Karsten Hank"
+    },
+    {
+     "openalex": "W3012319588",
+     "doi": "10.1007/s10680-020-09557-x",
+     "title": "Boomerang Behaviour and Emerging Adulthood: Moving Back to the Parental Home and the Parental Neighbourhood in Sweden",
+     "year": 2020,
+     "type": "article",
+     "cited_by": 24,
+     "venue": "European Journal of Population / Revue europ\u00e9enne de D\u00e9mographie",
+     "authors": "Jenny Olofsson; Erika Sandow; Allan Findlay; Gunnar Malmberg"
+    },
+    {
+     "openalex": "W3002060090",
+     "doi": "10.1080/07347332.2019.1707928",
+     "title": "The experience of financial stress among emerging adult cancer survivors",
+     "year": 2020,
+     "type": "article",
+     "cited_by": 23,
+     "venue": "Journal of Psychosocial Oncology",
+     "authors": "Sugandha K. Gupta; Mary Carol Mazza; Michael A. Hoyt; Tracey A. Revenson"
+    },
+    {
+     "openalex": "W2313560861",
+     "doi": "10.4324/9781315753058-9",
+     "title": "The changing landscape of youth and young adulthood",
+     "year": 2016,
+     "type": "book-chapter",
+     "cited_by": 23,
+     "venue": null,
+     "authors": "Andy Furlong"
+    },
+    {
+     "openalex": "W2147325979",
+     "doi": "10.1093/rheumatology/kel368",
+     "title": "Recognition of emerging adulthood in UK rheumatology: the case for young adult rheumatology service developments",
+     "year": 2006,
+     "type": "article",
+     "cited_by": 23,
+     "venue": "Lara D. Veeken",
+     "authors": "Andy Jordan; J. E. R. McDonagh"
+    },
+    {
+     "openalex": "W2320042011",
+     "doi": "10.1177/1103308814533461",
+     "title": "Fragile Agencies in the Making",
+     "year": 2014,
+     "type": "article",
+     "cited_by": 21,
+     "venue": "Young",
+     "authors": "Tarja Juvonen"
+    },
+    {
+     "openalex": "W2973150281",
+     "doi": "10.1007/s40750-019-00116-1",
+     "title": "A Comparison of men\u2019s Life History, Aging, and Testosterone Levels among Datoga Pastoralists, Hadza Foragers, and Qom Transitional Foragers",
+     "year": 2019,
+     "type": "article",
+     "cited_by": 11,
+     "venue": "Adaptive Human Behavior and Physiology",
+     "authors": "Louis Calistro Alvarado; Claudia Valeggia; Peter T. Ellison; Caitlin L. Lewarch"
+    },
+    {
+     "openalex": "W2750268251",
+     "doi": "10.1177/2167696817722470",
+     "title": "Social Role Transitions and Perceived Adulthood Status",
+     "year": 2017,
+     "type": "article",
+     "cited_by": 11,
+     "venue": "Emerging Adulthood",
+     "authors": "Georgios Vleioras; Aspasia Mantziou"
+    },
+    {
+     "openalex": "W2593924247",
+     "doi": "10.1310/sci2301-42",
+     "title": "Sexuality in Pediatric Spinal Cord Injury",
+     "year": 2017,
+     "type": "article",
+     "cited_by": 11,
+     "venue": "Topics in Spinal Cord Injury Rehabilitation",
+     "authors": "Jaclyn L. Papadakis; Kathy Zebracki; Kathleen M. Chlan; Lawrence C. Vogel"
+    },
+    {
+     "openalex": "W2964610112",
+     "doi": "10.1037/fam0000565",
+     "title": "Keeping parents connected in early emerging adulthood: Diabetes-related disclosure and solicitation.",
+     "year": 2019,
+     "type": "article",
+     "cited_by": 10,
+     "venue": "Journal of Family Psychology",
+     "authors": "Caitlin S. Kelly; Cynthia A. Berg; Amy Hughes Lansing; Sara L. Turner"
+    },
+    {
+     "openalex": "W2149497185",
+     "doi": "10.3109/14647273.2014.942389",
+     "title": "How teen girls think about fertility and the reproductive lifespan. Possible implications for curriculum reform and public health policy",
+     "year": 2014,
+     "type": "article",
+     "cited_by": 10,
+     "venue": "Human Fertility",
+     "authors": "Fiona Kisby Littleton"
+    },
+    {
+     "openalex": "W254028188",
+     "doi": null,
+     "title": "Individuation in Relation to Parents: A Case with Slovene Emerging Adult Students",
+     "year": 2012,
+     "type": "article",
+     "cited_by": 8,
+     "venue": "Cognitie, Creier, Comportament",
+     "authors": "Maja Zupan\u010di\u010d; Luka Komidar; Melita Puklek Levpu\u0161\u010dek"
+    },
+    {
+     "openalex": "W2916890848",
+     "doi": "10.1080/08824096.2019.1583552",
+     "title": "The Effects of Multimodal Communication Frequency, Geographic Distance, and Coresidence on Parent-Child Relationship Quality During Emerging Adulthood",
+     "year": 2019,
+     "type": "article",
+     "cited_by": 7,
+     "venue": "Communication Research Reports",
+     "authors": "Erin M. Sumner; Artemio Ramirez"
+    }
+   ]
+  },
+  "design1_benefit_age_threshold": {
+   "channel": "5",
+   "note": "design 1: age-threshold rules in housing benefit",
+   "query": "(\"housing benefit\" OR \"housing allowance\" OR \"shared accommodation rate\" OR \"local housing allowance\" OR \"welfare benefit\") AND (\"age threshold\" OR \"age limit\" OR \"regression discontinuity\" OR \"eligibility age\") AND ((coresidence OR \"co-residence\" OR \"living with parents\" OR \"living at home\" OR \"parental home\" OR \"leaving home\" OR \"leaving the parental home\" OR \"home leaving\" OR \"nest leaving\" OR \"residential independence\" OR boomerang) OR (fertility OR childbearing OR \"first birth\" OR parenthood OR \"birth rate\"))",
+   "frame_count": 3,
+   "error": null,
+   "top": [
+    {
+     "openalex": "W2604250819",
+     "doi": "10.1177/0261018317699804",
+     "title": "A home of one\u2019s own? Housing welfare for \u2018young adults\u2019 in times of austerity",
+     "year": 2017,
+     "type": "article",
+     "cited_by": 41,
+     "venue": "Critical Social Policy",
+     "authors": "Eleanor Wilkinson; Iliana Ortega\u2010Alc\u00e1zar"
+    },
+    {
+     "openalex": "W3210239986",
+     "doi": "10.1016/j.jebo.2021.09.034",
+     "title": "The intergenerational impact of reduced generosity in the social safety net",
+     "year": 2021,
+     "type": "article",
+     "cited_by": 5,
+     "venue": "Journal of Economic Behavior & Organization",
+     "authors": "Agne Suziedelyte; Anna Zhu"
+    },
+    {
+     "openalex": "W2021827978",
+     "doi": "10.1016/j.ahj.2007.02.025",
+     "title": "AMPD1 gene polymorphism and survival in patients with stable congestive heart failure",
+     "year": 2007,
+     "type": "article",
+     "cited_by": 1,
+     "venue": "American Heart Journal",
+     "authors": "Barry R. Palmer; Chris Frampton; Mark Richards; Vicky A. Cameron"
+    }
+   ]
+  },
+  "design2_move_out_grant": {
+   "channel": "5",
+   "note": "design 2: youth housing allowances and move-out grants (Wall 1 seam)",
+   "query": "(\"housing allowance\" OR \"rent subsidy\" OR \"housing subsidy\" OR \"move-out grant\" OR \"youth housing\") AND (coresidence OR \"co-residence\" OR \"living with parents\" OR \"living at home\" OR \"parental home\" OR \"leaving home\" OR \"leaving the parental home\" OR \"home leaving\" OR \"nest leaving\" OR \"residential independence\" OR boomerang)",
+   "frame_count": 15,
+   "error": null,
+   "top": [
+    {
+     "openalex": "W2952627515",
+     "doi": "10.1007/s13524-019-00791-5",
+     "title": "The Effect of the Earned Income Tax Credit on Housing and Living Arrangements",
+     "year": 2019,
+     "type": "article",
+     "cited_by": 71,
+     "venue": "Demography",
+     "authors": "Natasha Pilkauskas; Katherine Michelmore"
+    },
+    {
+     "openalex": "W2604250819",
+     "doi": "10.1177/0261018317699804",
+     "title": "A home of one\u2019s own? Housing welfare for \u2018young adults\u2019 in times of austerity",
+     "year": 2017,
+     "type": "article",
+     "cited_by": 41,
+     "venue": "Critical Social Policy",
+     "authors": "Eleanor Wilkinson; Iliana Ortega\u2010Alc\u00e1zar"
+    },
+    {
+     "openalex": "W2070319634",
+     "doi": "10.1093/cesifo/50.3.451",
+     "title": "Gone with the Windfall: How Do Housing Allowances Affect Student Co-residence?",
+     "year": 2004,
+     "type": "article",
+     "cited_by": 24,
+     "venue": "CESifo Economic Studies",
+     "authors": "Anne Laferr\u00e8re"
+    },
+    {
+     "openalex": "W1588803160",
+     "doi": "10.1108/01437720010336012",
+     "title": "A nest or a golden cage?",
+     "year": 2000,
+     "type": "article",
+     "cited_by": 17,
+     "venue": "International Journal of Manpower",
+     "authors": "Gianna Claudia Giannelli; Chiara Monfardini"
+    },
+    {
+     "openalex": "W2907520979",
+     "doi": "10.5281/zenodo.2571568",
+     "title": "Leaving Home in Insecure Conditions. The Role of Labour Market Policies and the Housing Market in Europe",
+     "year": 2017,
+     "type": "article",
+     "cited_by": 8,
+     "venue": "Social Science Open Access Repository (GESIS \u2013 Leibniz Institute for the Social Sciences)",
+     "authors": "S\u00f4nia Maria Marques Gomes Bertolini; Valentina Goglio; Valentna Moiso; Paola Maria Torrioni"
+    },
+    {
+     "openalex": "W4224312839",
+     "doi": "10.1080/13676261.2022.2065912",
+     "title": "\u2018Not really leaving home\u2019 in Southern Europe: intermediate living situations in Catalan youth housing trajectories",
+     "year": 2022,
+     "type": "article",
+     "cited_by": 4,
+     "venue": "Journal of Youth Studies",
+     "authors": "David Gil Solsona"
+    },
+    {
+     "openalex": "W2902440239",
+     "doi": "10.7220/9786094673542",
+     "title": "Jaunimas ir b\u016bstas Lietuvoje : skirtingos galimyb\u0117s, trajektorijos ir i\u0161\u0161\u016bkiai : kolektyvin\u0117 monografija",
+     "year": 2018,
+     "type": "book",
+     "cited_by": 4,
+     "venue": "Vytauto Did\u017eiojo universitetas eBooks",
+     "authors": "R\u016bta Brazien\u0117; Apolonijus \u017dilys; Rasa Indrili\u016bnait\u0117; Inga Mikutavi\u010dien\u0117"
+    },
+    {
+     "openalex": "W1600932201",
+     "doi": "10.2139/ssrn.1135912",
+     "title": "Arranged Marriage, Co-Residence and Female Schooling: A Model with Evidence from India",
+     "year": 2008,
+     "type": "preprint",
+     "cited_by": 3,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Indraneel Dasgupta; Pushkar Maitra; Diganta Mukherjee"
+    },
+    {
+     "openalex": "W2732140984",
+     "doi": "10.2298/stnv1501061m",
+     "title": "Youth residential situation in the transition to adulthood: The case of Serbia (an exploratory approach)",
+     "year": 2015,
+     "type": "article",
+     "cited_by": 2,
+     "venue": "Stanovnistvo",
+     "authors": "Jelena Mili\u0107; Zhou Jingmin"
+    },
+    {
+     "openalex": "W3122998462",
+     "doi": null,
+     "title": "Gone with the Windfall: How do Housing Allowances Affect Student Co-residence ?",
+     "year": 2003,
+     "type": "preprint",
+     "cited_by": 1,
+     "venue": "RePEc: Research Papers in Economics",
+     "authors": "Anne Laferr\u00e8re; David Le Blanc"
+    },
+    {
+     "openalex": "W4413958642",
+     "doi": "10.18690/um.ff.7.2025.3",
+     "title": "3. Housing and Living Conditions of Youth \u2013 Caught Between COVID-19 and Structural Challenges",
+     "year": 2025,
+     "type": "book-chapter",
+     "cited_by": 0,
+     "venue": null,
+     "authors": "Rudi Klanj\u0161ek; Iva Odak"
+    },
+    {
+     "openalex": "W4400047786",
+     "doi": "10.1201/9781032705071-5",
+     "title": "Housing Policy, Social Inequalities and Equitability",
+     "year": 2024,
+     "type": "book-chapter",
+     "cited_by": 0,
+     "venue": null,
+     "authors": "Paul Oatt"
+    },
+    {
+     "openalex": "W4384134651",
+     "doi": "10.2139/ssrn.4501330",
+     "title": "\"Mom, Dad: I'm Staying\" Young adults, housing, and labour markets",
+     "year": 2023,
+     "type": "preprint",
+     "cited_by": 0,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Rodrigo Mart\u00ednez-Mazza"
+    },
+    {
+     "openalex": "W3005141675",
+     "doi": "10.4324/9781315131085-6",
+     "title": "Through a Policy Lens: Social Policy and Social Action in the Boomerang Age",
+     "year": 2017,
+     "type": "book-chapter",
+     "cited_by": 0,
+     "venue": null,
+     "authors": "Barbara A. Mitchell"
+    },
+    {
+     "openalex": "W310568732",
+     "doi": "10.5353/th_b5334665",
+     "title": "A study of housing needs and aspirations of young singletons in Hong Kong and their expectations on the government",
+     "year": 2014,
+     "type": "dissertation",
+     "cited_by": 0,
+     "venue": null,
+     "authors": "Kin-kwan Lau"
+    }
+   ]
+  },
+  "design3_allocation": {
+   "channel": "5",
+   "note": "design 3: administrative allocation of dwellings",
+   "query": "(\"public housing\" OR \"housing lottery\" OR \"waiting list\" OR \"housing allocation\" OR \"work unit housing\" OR hukou OR restitution) AND ((coresidence OR \"co-residence\" OR \"living with parents\" OR \"living at home\" OR \"parental home\" OR \"leaving home\" OR \"leaving the parental home\" OR \"home leaving\" OR \"nest leaving\" OR \"residential independence\" OR boomerang) OR (\"multigenerational household\" OR \"three-generation household\" OR \"extended household\" OR \"stem family\" OR \"parents-in-law\" OR \"grandparental childcare\" OR \"grandparent childcare\" OR \"intergenerational coresidence\" OR \"intergenerational co-residence\" OR \"living with in-laws\")) AND (fertility OR childbearing OR \"first birth\" OR parenthood OR \"birth rate\")",
+   "frame_count": 2,
+   "error": null,
+   "top": [
+    {
+     "openalex": "W7147739654",
+     "doi": "10.1542/pir.2025-006804",
+     "title": "Single Parenting",
+     "year": 2026,
+     "type": "article",
+     "cited_by": 0,
+     "venue": "Pediatrics in Review",
+     "authors": "Kara Jordon"
+    },
+    {
+     "openalex": "W4285189469",
+     "doi": "10.2139/ssrn.4145178",
+     "title": "How Grandparents' Coresidence Affects the Relationship Between Fertility and Parental Labor Market Choices: Evidence From China",
+     "year": 2022,
+     "type": "preprint",
+     "cited_by": 0,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Cheng Chen; Ying-Min Kuo; Wangyang Zhao"
+    }
+   ]
+  },
+  "design4_compulsory_removal": {
+   "channel": "5",
+   "note": "design 4: compulsory removal from the parental home",
+   "query": "(conscription OR \"military service\" OR \"boarding school\" OR \"dormitory\" OR \"university dormitory\") AND ((coresidence OR \"co-residence\" OR \"living with parents\" OR \"living at home\" OR \"parental home\" OR \"leaving home\" OR \"leaving the parental home\" OR \"home leaving\" OR \"nest leaving\" OR \"residential independence\" OR boomerang) OR (fertility OR childbearing OR \"first birth\" OR parenthood OR \"birth rate\"))",
+   "frame_count": 586,
+   "error": null,
+   "top": [
+    {
+     "openalex": "W2073388463",
+     "doi": "10.1038/oby.2008.365",
+     "title": "Emerging Adulthood and College\u2010aged Youth: An Overlooked Age for Weight\u2010related Behavior Change",
+     "year": 2008,
+     "type": "article",
+     "cited_by": 1323,
+     "venue": "Obesity",
+     "authors": "Melissa C. Nelson; Mary Story; Nicole Larson; Dianne Neumark\u2010Sztainer"
+    },
+    {
+     "openalex": "W1537901284",
+     "doi": null,
+     "title": "Made in China: Women Factory Workers in a Global Workplace",
+     "year": 2005,
+     "type": "article",
+     "cited_by": 915,
+     "venue": "Project Muse (Johns Hopkins University)",
+     "authors": "Ngai Pun"
+    },
+    {
+     "openalex": "W2083734684",
+     "doi": "10.2307/3089835",
+     "title": "Smoking, Drinking, and Drug Use in Young Adulthood: The Impacts of New Freedoms and New Responsibilities",
+     "year": 2003,
+     "type": "article",
+     "cited_by": 558,
+     "venue": "Contemporary Sociology A Journal of Reviews",
+     "authors": "Jacob Goldstein; Jerald G. Bachman; Katherine N. Wadsworth; Patrick M. O\u2019Malley"
+    },
+    {
+     "openalex": "W2955942950",
+     "doi": "10.1093/ije/dyz115",
+     "title": "Cohort Profile: The National Longitudinal Study of Adolescent to Adult Health (Add Health)",
+     "year": 2019,
+     "type": "article",
+     "cited_by": 535,
+     "venue": "International Journal of Epidemiology",
+     "authors": "Kathleen Mullan Harris; Carolyn Tucker Halpern; Eric A. Whitsel; Jon M. Hussey"
+    },
+    {
+     "openalex": "W2153731059",
+     "doi": "10.1353/foc.0.0044",
+     "title": "What's Going on with Young People Today? The Long and Twisting Path to Adulthood",
+     "year": 2010,
+     "type": "article",
+     "cited_by": 512,
+     "venue": "The Future of Children",
+     "authors": "Richard A. Settersten; Barbara Ray"
+    },
+    {
+     "openalex": "W2110752103",
+     "doi": "10.1093/ije/dym126",
+     "title": "Cohort Profile: The Dutch Hunger Winter Families Study",
+     "year": 2007,
+     "type": "article",
+     "cited_by": 386,
+     "venue": "International Journal of Epidemiology",
+     "authors": "L. H. Lumey; Aryeh D. Stein; Henry S. Kahn; K.M. van der Pal\u2010de Bruin"
+    },
+    {
+     "openalex": "W1885740864",
+     "doi": "10.1093/genetics/167.4.1529",
+     "title": "D. S. Falconer and Introduction to Quantitative Genetics",
+     "year": 2004,
+     "type": "article",
+     "cited_by": 273,
+     "venue": "Genetics",
+     "authors": "William G. Hill; Trudy F. C. Mackay"
+    },
+    {
+     "openalex": "W2170011418",
+     "doi": "10.1146/annurev.so.15.080189.001155",
+     "title": "The State and the Life Course",
+     "year": 1989,
+     "type": "article",
+     "cited_by": 234,
+     "venue": "Annual Review of Sociology",
+     "authors": "Karl Ulrich Mayer; Urs Schoepflin"
+    },
+    {
+     "openalex": "W2796324618",
+     "doi": "10.2307/2133691",
+     "title": "Sexual Experience of Young Unmarried Women in the United States",
+     "year": 1972,
+     "type": "article",
+     "cited_by": 219,
+     "venue": "Family Planning Perspectives",
+     "authors": "John F. Kantner; Melvin Zelnik"
+    },
+    {
+     "openalex": "W2162559997",
+     "doi": "10.1037/0012-1649.40.3.430",
+     "title": "Adolescents' Attachment Representations and Developmental Tasks in Emerging Adulthood.",
+     "year": 2004,
+     "type": "article",
+     "cited_by": 197,
+     "venue": "Developmental Psychology",
+     "authors": "Miri Scharf; Ofra Mayseless; Inbal Kivenson-Baron"
+    },
+    {
+     "openalex": "W2051760159",
+     "doi": "10.1037//0022-3514.47.3.629",
+     "title": "Drug use among young adults: The impacts of role status and social environment.",
+     "year": 1984,
+     "type": "article",
+     "cited_by": 177,
+     "venue": "Journal of Personality and Social Psychology",
+     "authors": "Jerald G. Bachman; Patrick M. O\u2019Malley; Lloyd D. Johnston"
+    },
+    {
+     "openalex": "W2008281413",
+     "doi": "10.1097/gco.0000000000000121",
+     "title": "Stratified reproduction, family planning care and the double edge of history",
+     "year": 2014,
+     "type": "article",
+     "cited_by": 151,
+     "venue": "Current Opinion in Obstetrics & Gynecology",
+     "authors": "Lisa H. Harris; Taida Wolfe"
+    },
+    {
+     "openalex": "W2132446770",
+     "doi": "10.1353/foc.0.0045",
+     "title": "The Military and the Transition to Adulthood",
+     "year": 2010,
+     "type": "article",
+     "cited_by": 147,
+     "venue": "The Future of Children",
+     "authors": "Ryan Kelty; Meredith Kleykamp; David R. Segal"
+    },
+    {
+     "openalex": "W1969343471",
+     "doi": "10.1080/0032472031000144576",
+     "title": "Coming Home Again: Returns to the Parental Home of Young Adults",
+     "year": 1990,
+     "type": "article",
+     "cited_by": 139,
+     "venue": "Population Studies",
+     "authors": "Julie Da Vanzo; Frances Goldscheider"
+    },
+    {
+     "openalex": "W1753487695",
+     "doi": null,
+     "title": "The frequency of mumps and of mumps orchitis and the consequences for sexuality and fertility.",
+     "year": 1951,
+     "type": "article",
+     "cited_by": 135,
+     "venue": "PubMed",
+     "authors": "Bridget Lambert"
+    },
+    {
+     "openalex": "W2084780828",
+     "doi": "10.2307/2061587",
+     "title": "Living arrangements and the transition to adulthood",
+     "year": 1985,
+     "type": "article",
+     "cited_by": 130,
+     "venue": "Demography",
+     "authors": "Frances Goldscheider; Julie DaVanzo"
+    },
+    {
+     "openalex": "W2134457033",
+     "doi": "10.1016/j.ajp.2013.12.015",
+     "title": "Substance abuse in relation to religiosity and familial support in Iranian college students",
+     "year": 2014,
+     "type": "article",
+     "cited_by": 115,
+     "venue": "Asian Journal of Psychiatry",
+     "authors": "Asghar Mohammadpoorasl; Abbas Abbasi-Ghahramanloo; Hamid Allahverdipour; Christoph Augner"
+    },
+    {
+     "openalex": "W1569046311",
+     "doi": null,
+     "title": "Rates of depression and anxiety among female medical students in Pakistan.",
+     "year": 2008,
+     "type": "article",
+     "cited_by": 114,
+     "venue": "PubMed",
+     "authors": "Fayzan Rab; R Mamdou; Sarah Nasir"
+    },
+    {
+     "openalex": "W2019860657",
+     "doi": "10.1016/j.urology.2009.12.007",
+     "title": "Cut-off Value of Testes Volume in Young Adults and Correlation Among Testes Volume, Body Mass Index, Hormonal Level, and Seminal Profiles",
+     "year": 2010,
+     "type": "article",
+     "cited_by": 104,
+     "venue": "Urology",
+     "authors": "Jong Yoon Bahk; Jae Hung Jung; Lee Mi Jin; Seung Ki Min"
+    },
+    {
+     "openalex": "W3015351234",
+     "doi": "10.30476/jamp.2020.85000.1159",
+     "title": "Academic procrastination of medical students: The role of Internet addiction.",
+     "year": 2020,
+     "type": "article",
+     "cited_by": 103,
+     "venue": "PubMed",
+     "authors": "Ali Asghar Hayat; Javad Kojuri; Mitra Amini"
+    },
+    {
+     "openalex": "W2324738773",
+     "doi": "10.1093/ahr/117.4.1028",
+     "title": "The First Green Revolution: Debt Peonage and the Making of the Nitrogen Fertilizer Trade, 1840\u20131930",
+     "year": 2012,
+     "type": "article",
+     "cited_by": 103,
+     "venue": "The American Historical Review",
+     "authors": "Edward Dallam Melillo"
+    },
+    {
+     "openalex": "W2006741322",
+     "doi": "10.1111/j.2044-8295.1988.tb02290.x",
+     "title": "Vulnerability factors in the transition to university: Self\u2010reported mobility history and sex differences as factors in psychological disturbance",
+     "year": 1988,
+     "type": "article",
+     "cited_by": 100,
+     "venue": "British Journal of Psychology",
+     "authors": "Shirley Fisher; Bruce Hood"
+    },
+    {
+     "openalex": "W2629609203",
+     "doi": "10.7326/0003-4819-147-10-200711200-00187",
+     "title": "Recommended Adult Immunization Schedule: United States, October 2007\u2013September 2008",
+     "year": 2007,
+     "type": "article",
+     "cited_by": 98,
+     "venue": "Annals of Internal Medicine",
+     "authors": "Advisory Committee on Immunization Practices\u2020"
+    },
+    {
+     "openalex": "W4247571236",
+     "doi": "10.4324/9780203763797",
+     "title": "Smoking, Drinking, and Drug Use in Young Adulthood",
+     "year": 2013,
+     "type": "book",
+     "cited_by": 97,
+     "venue": "Psychology Press eBooks",
+     "authors": "Jerald G. Bachman; Katherine N. Wadsworth; Patrick M. O\u2019Malley; Lloyd D. Johnston"
+    },
+    {
+     "openalex": "W1963703890",
+     "doi": "10.1086/268290",
+     "title": "Mere Exposure, Psychological Reactance and Attitude Change",
+     "year": 1976,
+     "type": "article",
+     "cited_by": 97,
+     "venue": "Public Opinion Quarterly",
+     "authors": "Richard L. Miller"
+    }
+   ]
+  },
+  "design5_dwelling_shock": {
+   "channel": "5",
+   "note": "design 5: dwelling destruction and reconstruction shocks",
+   "query": "(earthquake OR \"housing destruction\" OR \"war damage\" OR \"natural disaster\" OR reconstruction) AND ((coresidence OR \"co-residence\" OR \"living with parents\" OR \"living at home\" OR \"parental home\" OR \"leaving home\" OR \"leaving the parental home\" OR \"home leaving\" OR \"nest leaving\" OR \"residential independence\" OR boomerang) OR (\"multigenerational household\" OR \"three-generation household\" OR \"extended household\" OR \"stem family\" OR \"parents-in-law\" OR \"grandparental childcare\" OR \"grandparent childcare\" OR \"intergenerational coresidence\" OR \"intergenerational co-residence\" OR \"living with in-laws\")) AND (fertility OR childbearing OR \"first birth\" OR parenthood OR \"birth rate\")",
+   "frame_count": 5,
+   "error": null,
+   "top": [
+    {
+     "openalex": "W2095745534",
+     "doi": "10.1086/ahr.111.2.405",
+     "title": "Talking Toads and Chinless Ghosts: The Politics of \"Superstitious\" Rumors in the People's Republic of China, 1961-1965",
+     "year": 2006,
+     "type": "article",
+     "cited_by": 75,
+     "venue": "The American Historical Review",
+     "authors": "Stephen A. Smith"
+    },
+    {
+     "openalex": "W4213159238",
+     "doi": "10.1016/j.alcr.2022.100465",
+     "title": "Interactions between educational lifecycle and transition to adulthood: A proposal for a new questionnaire",
+     "year": 2022,
+     "type": "article",
+     "cited_by": 1,
+     "venue": "Advances in Life Course Research",
+     "authors": "Elsa Ort\u00edz-\u00c1vila; Daniel Devolder"
+    },
+    {
+     "openalex": "W3170167768",
+     "doi": "10.1093/ije/dyab092",
+     "title": "Health in Japan through the lens of social epidemiology",
+     "year": 2021,
+     "type": "article",
+     "cited_by": 1,
+     "venue": "International Journal of Epidemiology",
+     "authors": "Ichiro Kawachi"
+    },
+    {
+     "openalex": "W2284964313",
+     "doi": "10.3406/adh.1995.1895",
+     "title": "Famille et population en Chine du XVIe au XVIIIe si\u00e8cle \u00e0 la lumi\u00e8re d'un ouvrage r\u00e9cent de Liu Ts'ui-Jung",
+     "year": 1995,
+     "type": "article",
+     "cited_by": 1,
+     "venue": "Annales de D\u00e9mographie Historique",
+     "authors": "Michel Cartier"
+    },
+    {
+     "openalex": "W2283661085",
+     "doi": null,
+     "title": "[Family and population in China from the sixteenth to the eighteenth century in the light of a recent work by Liu Ts'ui-Jung].",
+     "year": 1995,
+     "type": "other",
+     "cited_by": 0,
+     "venue": "PubMed",
+     "authors": "Michel Cartier"
+    }
+   ]
+  },
+  "design6_legal_support_age": {
+   "channel": "5",
+   "note": "design 6: legal change in support obligations and majority age",
+   "query": "(\"age of majority\" OR \"parental support obligation\" OR \"filial responsibility law\" OR \"child support\" OR \"legal reform\") AND (coresidence OR \"co-residence\" OR \"living with parents\" OR \"living at home\" OR \"parental home\" OR \"leaving home\" OR \"leaving the parental home\" OR \"home leaving\" OR \"nest leaving\" OR \"residential independence\" OR boomerang)",
+   "frame_count": 31,
+   "error": null,
+   "top": [
+    {
+     "openalex": "W2017711164",
+     "doi": "10.1086/ahr.112.1.1",
+     "title": "The Stateless as the Citizen's Other: A View from the United States",
+     "year": 2007,
+     "type": "article",
+     "cited_by": 78,
+     "venue": "The American Historical Review",
+     "authors": "Linda K. Kerber"
+    },
+    {
+     "openalex": "W1982329268",
+     "doi": "10.1086/231085",
+     "title": "Productive Activities and Support Systems of Single Mothers",
+     "year": 1997,
+     "type": "article",
+     "cited_by": 64,
+     "venue": "American Journal of Sociology",
+     "authors": "Lingxin Hao; Mary C. Brinton"
+    },
+    {
+     "openalex": "W2106362010",
+     "doi": null,
+     "title": "The Parenting Roles and Goals of Single Black Full-Time Fathers.",
+     "year": 2001,
+     "type": "article",
+     "cited_by": 15,
+     "venue": "e-Publications@Marquette (Marquette University)",
+     "authors": "Roberta L. Coles"
+    },
+    {
+     "openalex": "W2361450736",
+     "doi": "10.1016/j.jpubeco.2018.06.003",
+     "title": "Parental responses to child support obligations: Evidence from administrative data",
+     "year": 2018,
+     "type": "article",
+     "cited_by": 10,
+     "venue": "Journal of Public Economics",
+     "authors": "Maya Rossin\u2010Slater; Miriam W\u00fcst"
+    },
+    {
+     "openalex": "W68313078",
+     "doi": null,
+     "title": "Who Pays for the 'Boomerang Generation'?: A Legal Perspective on Financial Support for Young Adults",
+     "year": 2014,
+     "type": "article",
+     "cited_by": 10,
+     "venue": null,
+     "authors": "Sally F. Goldfarb"
+    },
+    {
+     "openalex": "W2059305379",
+     "doi": "10.5085/0898-5510-20.1.15",
+     "title": "Personal Consumption by Husbands and Wives",
+     "year": 2008,
+     "type": "article",
+     "cited_by": 10,
+     "venue": "Journal of Forensic Economics",
+     "authors": "Kurt V. Krueger"
+    },
+    {
+     "openalex": "W1858931443",
+     "doi": "10.1111/j.1440-1800.2011.00570.x",
+     "title": "Economic crisis, austerity discourses and caregiving: how to remain relevant through engagement and social justice",
+     "year": 2011,
+     "type": "article",
+     "cited_by": 8,
+     "venue": "Nursing Inquiry",
+     "authors": "Andreu Bover Bover"
+    },
+    {
+     "openalex": "W652847899",
+     "doi": null,
+     "title": "Child Support Law and Policy: the Systematic Imposition of Costs on Women",
+     "year": 1983,
+     "type": "article",
+     "cited_by": 5,
+     "venue": "The scholarly Commons (Georgetown)",
+     "authors": "Nan D. Hunter"
+    },
+    {
+     "openalex": "W2887096121",
+     "doi": null,
+     "title": "First in family to attend University: understanding and enabling the parent-child support relationship",
+     "year": 2018,
+     "type": "article",
+     "cited_by": 4,
+     "venue": "Create (Canterbury Christ Church University)",
+     "authors": "Jerold W. Apps; Stella Christie"
+    },
+    {
+     "openalex": "W3024327190",
+     "doi": "10.3386/w22227",
+     "title": "Parental Responses to Child Support Obligations: Evidence from Administrative Data",
+     "year": 2016,
+     "type": "report",
+     "cited_by": 4,
+     "venue": "National Bureau of Economic Research",
+     "authors": "Maya Rossin\u2010Slater; Miriam W\u00fcst"
+    },
+    {
+     "openalex": "W2279148104",
+     "doi": null,
+     "title": "Breaking the Cycle of Defeat for 'Deadbroke' Noncustodial Parents Through Advocacy on Child Support Issues",
+     "year": 2003,
+     "type": "article",
+     "cited_by": 4,
+     "venue": "University of Baltimore Law Forum",
+     "authors": "Daniel L. Hatcher; Hannah Lieberman"
+    },
+    {
+     "openalex": "W7118803265",
+     "doi": "10.1371/journal.pone.0339587",
+     "title": "The Patriarchy Index for Asia: A new tool for subnational analysis of gender inequalities",
+     "year": 2026,
+     "type": "article",
+     "cited_by": 3,
+     "venue": "PLoS ONE",
+     "authors": "Miko\u0142aj Szo\u0142tysek; Bartosz Og\u00f3rek; M J Grzyb; Siegfried Gruber"
+    },
+    {
+     "openalex": "W4296825918",
+     "doi": "10.11114/ijsss.v10i6.5716",
+     "title": "Toward a Theory of Permanent Environmental Reassignment for Residential Childcare: A Comprehensive Research Agenda for the 21st Century",
+     "year": 2022,
+     "type": "article",
+     "cited_by": 3,
+     "venue": "International Journal of Social Science Studies",
+     "authors": "George S. Yacoubian"
+    },
+    {
+     "openalex": "W4409160942",
+     "doi": "10.1111/jomf.13104",
+     "title": "Surveilling system exposure and parental institutional disengagement",
+     "year": 2025,
+     "type": "article",
+     "cited_by": 2,
+     "venue": "Journal of Marriage and the Family",
+     "authors": "Allison Dwyer Emory; Grace C. Sementilli"
+    },
+    {
+     "openalex": "W1976080283",
+     "doi": "10.1016/s0015-0282(01)02101-x",
+     "title": "Embryo donation: attitudes to donation procedures and factors predicting willingness to donate.",
+     "year": 2001,
+     "type": "article",
+     "cited_by": 2,
+     "venue": "Fertility and Sterility",
+     "authors": "C. R. Newton; Andrew McDermid; F. Tekpetey; Ian S. Tummon"
+    },
+    {
+     "openalex": "W7131341113",
+     "doi": null,
+     "title": "The Role of Civil Society Organisations in Realising International Human Rights: A Case Study on the American Civil Liberties Union and Universal Periodic Review",
+     "year": 2026,
+     "type": "dissertation",
+     "cited_by": 0,
+     "venue": "BCU Open Access Repository (Birmingham City University)",
+     "authors": "Melisa Oleschuk"
+    },
+    {
+     "openalex": "W4413871439",
+     "doi": "10.21203/rs.3.rs-7479786/v1",
+     "title": "The Patriarchy Index for Asia: Advancing Subnational Gender Inequality Measurement",
+     "year": 2025,
+     "type": "preprint",
+     "cited_by": 0,
+     "venue": "Research Square",
+     "authors": "Miko\u0142aj Szo\u0142tysek; Bartosz Og\u00f3rek; Mateusz Grzyb; Siegfried Gruber"
+    },
+    {
+     "openalex": "W4413341482",
+     "doi": "10.31235/osf.io/m8f7b_v1",
+     "title": "THE PATRIARCHY INDEX FOR ASIA: A PRAGMATIC TOOL FOR CROSS-CULTURAL ANALYSIS OF GENDER INEQUALITIES",
+     "year": 2025,
+     "type": "preprint",
+     "cited_by": 0,
+     "venue": null,
+     "authors": "Miko\u0142aj Szo\u0142tysek; Bartosz Og\u00f3rek; Mateusz Grzyb; Siegfried Gruber"
+    },
+    {
+     "openalex": "W7127222467",
+     "doi": null,
+     "title": "Heimsendur matur og n\u00e6ringarvi\u00f0b\u00f3t einstaklinga \u00ed \u00fej\u00f3nustu heimahj\u00fakrunar \u00e1 h\u00f6fu\u00f0borgarsv\u00e6\u00f0inu",
+     "year": 2025,
+     "type": "dissertation",
+     "cited_by": 0,
+     "venue": "Skemman",
+     "authors": "Dagmar Bj\u00f6rk Heimisd\u00f3ttir 1993-"
+    },
+    {
+     "openalex": "W4403405827",
+     "doi": null,
+     "title": "[Epidemiology of tracheostomized children living at home in Argentina].",
+     "year": 2024,
+     "type": "other",
+     "cited_by": 0,
+     "venue": "PubMed",
+     "authors": "Judith Frydman; Yamila Nociti"
+    },
+    {
+     "openalex": "W4297502063",
+     "doi": "10.1108/s1530-353520220000020013",
+     "title": "Index",
+     "year": 2022,
+     "type": "paratext",
+     "cited_by": 0,
+     "venue": null,
+     "authors": ""
+    },
+    {
+     "openalex": "W4379804108",
+     "doi": "10.1353/ajs.2021.0082",
+     "title": "The Rebellion of the Daughters: Jewish Women Runaways in Habsburg Galicia by Rachel Manekin (review)",
+     "year": 2021,
+     "type": "article",
+     "cited_by": 0,
+     "venue": "AJS Review The Journal of the Association for Jewish Studies",
+     "authors": "Keely Stauter\u2010Halsted"
+    },
+    {
+     "openalex": "W3122458808",
+     "doi": null,
+     "title": "Parental Responses to Child Support Obligations: Evidence from Administrative Data",
+     "year": 2016,
+     "type": "preprint",
+     "cited_by": 0,
+     "venue": "RePEc: Research Papers in Economics",
+     "authors": "Maya Rossin\u2010Slater; Miriam W\u00fcst"
+    },
+    {
+     "openalex": "W2521870107",
+     "doi": null,
+     "title": "Student Loan Debt: Causes and Consequences",
+     "year": 2015,
+     "type": "article",
+     "cited_by": 0,
+     "venue": "OhioLink ETD Center (Ohio Library and Information Network)",
+     "authors": "Xue Wu"
+    },
+    {
+     "openalex": "W4241640338",
+     "doi": "10.1057/9780230369764_12",
+     "title": "Child support",
+     "year": 2012,
+     "type": "book-chapter",
+     "cited_by": 0,
+     "venue": "Palgrave Macmillan UK eBooks",
+     "authors": "Adrian Furnham"
+    }
+   ]
+  },
+  "design7_sibling_instrument": {
+   "channel": "5",
+   "note": "design 7: sibling composition as an instrument for home-leaving",
+   "query": "(\"birth order\" OR \"sibling composition\" OR \"number of siblings\" OR \"sibship size\") AND (coresidence OR \"co-residence\" OR \"living with parents\" OR \"living at home\" OR \"parental home\" OR \"leaving home\" OR \"leaving the parental home\" OR \"home leaving\" OR \"nest leaving\" OR \"residential independence\" OR boomerang)",
+   "frame_count": 74,
+   "error": null,
+   "top": [
+    {
+     "openalex": "W2115939602",
+     "doi": "10.1186/1471-2458-11-42",
+     "title": "Early life socioeconomic adversity is associated in adult life with chronic inflammation, carotid atherosclerosis, poorer lung function and decreased cognitive performance: a cross-sectional, population-based study",
+     "year": 2011,
+     "type": "article",
+     "cited_by": 118,
+     "venue": "BMC Public Health",
+     "authors": "Chris J. Packard; Vladimir Bezlyak; Jennifer McLean; G. David Batty"
+    },
+    {
+     "openalex": "W2085328506",
+     "doi": "10.1111/j.1469-7610.1974.tb01244.x",
+     "title": "SIBLING REACTIONS TO MENTAL HANDICAP: A COMPARISON OF THE BROTHERS AND SISTERS OF MONGOL CHILDREN",
+     "year": 1974,
+     "type": "article",
+     "cited_by": 118,
+     "venue": "Journal of Child Psychology and Psychiatry",
+     "authors": "Ann Gath"
+    },
+    {
+     "openalex": "W1902027485",
+     "doi": "10.1111/j.1532-7795.2010.00683.x",
+     "title": "Family Relationships From Adolescence to Early Adulthood: Changes in the Family System Following Firstborns' Leaving Home",
+     "year": 2010,
+     "type": "article",
+     "cited_by": 104,
+     "venue": "Journal of Research on Adolescence",
+     "authors": "Shawn D. Whiteman; Susan M. McHale; Ann C. Crouter"
+    },
+    {
+     "openalex": "W2032079576",
+     "doi": "10.1086/503123",
+     "title": "Strengthening Unmarried Families: Could EnhancingCouple Relationships AlsoImprove Parenting?",
+     "year": 2006,
+     "type": "article",
+     "cited_by": 93,
+     "venue": "Social Service Review",
+     "authors": "Marcia J. Carlson; Sara McLanahan"
+    },
+    {
+     "openalex": "W2116543529",
+     "doi": "10.1542/peds.2007-3858",
+     "title": "Young Adults With Very Low Birth Weight: Leaving the Parental Home and Sexual Relationships\u2014Helsinki Study of Very Low Birth Weight Adults",
+     "year": 2008,
+     "type": "article",
+     "cited_by": 85,
+     "venue": "PEDIATRICS",
+     "authors": "Eero Kajantie; Petteri Hovi; Katri R\u00e4ikk\u00f6nen; Anu\u2010Katriina Pesonen"
+    },
+    {
+     "openalex": "W1944705330",
+     "doi": null,
+     "title": "Leaving home in a peasant society : economic fluctuations, household dynamics, and youth migration in Southern Sweden, 1829-1866",
+     "year": 2000,
+     "type": "book",
+     "cited_by": 84,
+     "venue": "Lund University Publications (Lund University)",
+     "authors": "Martin Dribe"
+    },
+    {
+     "openalex": "W2007604646",
+     "doi": "10.1016/j.adolescence.2013.12.003",
+     "title": "Prevalence and correlates of depressive symptoms among in\u2010school adolescents in a rural district in southwest Nigeria",
+     "year": 2014,
+     "type": "article",
+     "cited_by": 71,
+     "venue": "Journal of Adolescence",
+     "authors": "Akinola Ayoola Fatiregun; T.E. Kumapayi"
+    },
+    {
+     "openalex": "W2151788740",
+     "doi": "10.1080/14034950701355700",
+     "title": "The social context of children's nutritional status in rural South Africa 1",
+     "year": 2007,
+     "type": "article",
+     "cited_by": 67,
+     "venue": "Scandinavian Journal of Public Health",
+     "authors": "Sangeetha Madhavan; Nicholas W. Townsend"
+    },
+    {
+     "openalex": "W2083767311",
+     "doi": "10.1177/146642409911900404",
+     "title": "Obesity among Kuwait University students: an explorative study",
+     "year": 1999,
+     "type": "article",
+     "cited_by": 62,
+     "venue": "The Journal of the Royal Society for the Promotion of Health",
+     "authors": "A.N. AI-Isa"
+    },
+    {
+     "openalex": "W1999677004",
+     "doi": "10.1016/j.socscimed.2003.08.014",
+     "title": "Life-course experiences and mortality by adult social class among young men",
+     "year": 2003,
+     "type": "article",
+     "cited_by": 58,
+     "venue": "Social Science & Medicine",
+     "authors": "Tiina Pensola; Pekka Martikainen"
+    },
+    {
+     "openalex": "W2332046501",
+     "doi": "10.2307/2547499",
+     "title": "Migration and Union Dissolution among Puerto Rican Women",
+     "year": 1995,
+     "type": "article",
+     "cited_by": 56,
+     "venue": "International Migration Review",
+     "authors": "Nancy S. Landale; Nimfa B. Ogena"
+    },
+    {
+     "openalex": "W1896620082",
+     "doi": "10.1017/s0007114599001610",
+     "title": "Dietary and socio-economic factors associated with obesity among Kuwaiti college men",
+     "year": 1999,
+     "type": "article",
+     "cited_by": 47,
+     "venue": "British Journal Of Nutrition",
+     "authors": "Abdulwahab Naser Al-Isa"
+    },
+    {
+     "openalex": "W2101049917",
+     "doi": "10.1186/1471-2393-14-240",
+     "title": "The effect of mother\u2019s age and other related factors on neonatal survival associated with first and second birth in rural, Tanzania: evidence from Ifakara health and demographic surveillance system in rural Tanzania",
+     "year": 2014,
+     "type": "article",
+     "cited_by": 46,
+     "venue": "BMC Pregnancy and Childbirth",
+     "authors": "Majige Selemani; Mathew Alexander Mwanyangala; Sigilbert Mrema; Amri Shamte"
+    },
+    {
+     "openalex": "W2336100889",
+     "doi": "10.1177/002204269002000107",
+     "title": "Narcotics Addicts: Effect of Family and Parental Risk Factors on Timing of Emancipation, Drug Use Onset, Pre-Addiction Incarcerations and Educational Achievement",
+     "year": 1990,
+     "type": "article",
+     "cited_by": 31,
+     "venue": "Journal of Drug Issues",
+     "authors": "William J. McCarthy; M. Douglas Anglin"
+    },
+    {
+     "openalex": "W2070710932",
+     "doi": "10.1080/14034950310003980",
+     "title": "Effect of living conditions in the parental home and youth paths on the social class differences in mortality among women",
+     "year": 2003,
+     "type": "article",
+     "cited_by": 29,
+     "venue": "Scandinavian Journal of Public Health",
+     "authors": "Tiina Pensola; Pekka Martikainen"
+    },
+    {
+     "openalex": "W2104894354",
+     "doi": "10.12691/ajphr-2-3-2",
+     "title": "Does Socio-demographic Factors Influence Women\u2019s Choice of Place of Delivery in Rural Areas of Tamilnadu State in India",
+     "year": 2014,
+     "type": "article",
+     "cited_by": 28,
+     "venue": "American journal of public health research",
+     "authors": "Rejoice Puthuchira Ravi; Ravishankar Athimulam Kulasekaran"
+    },
+    {
+     "openalex": "W2057926344",
+     "doi": "10.1177/026010609901300301",
+     "title": "Factors Associated with Overweight and Obesity among Kuwaiti Kindergarten Children aged 3\u20135 Years",
+     "year": 1999,
+     "type": "article",
+     "cited_by": 28,
+     "venue": "Nutrition and Health",
+     "authors": "Abdulwahab Naser Al-Isa; Mohamed Moussa"
+    },
+    {
+     "openalex": "W2131257293",
+     "doi": "10.1111/j.1755-618x.2000.tb01264.x",
+     "title": "Culture and Co\u2010residence: An Exploration of Variation in Home\u2010Returning among Canadian Young Adults*",
+     "year": 2000,
+     "type": "article",
+     "cited_by": 25,
+     "venue": "Canadian Review of Sociology/Revue canadienne de sociologie",
+     "authors": "Barbara Mitchell; Andrew Wister; Ellen M. Gee"
+    },
+    {
+     "openalex": "W2186000712",
+     "doi": "10.4103/2008-7802.170868",
+     "title": "Survival analysis for predictive factors of delay vaccination in Iranian children",
+     "year": 2015,
+     "type": "article",
+     "cited_by": 24,
+     "venue": "International Journal of Preventive Medicine",
+     "authors": "Mohsen Mokhtari; Abolfazl Mohammadbeigi; Seyed Mohsen Zahraei; Babak Eshrati"
+    },
+    {
+     "openalex": "W2332157791",
+     "doi": "10.1177/026010609801200403",
+     "title": "Factors Associated with Overweight and Obesity among Kuwaiti College Women",
+     "year": 1998,
+     "type": "article",
+     "cited_by": 23,
+     "venue": "Nutrition and Health",
+     "authors": "Abdulwahab Naser Al-Isa"
+    },
+    {
+     "openalex": "W2021005029",
+     "doi": "10.1016/j.rssm.2014.04.001",
+     "title": "Does coresidence with grandparents reduce the negative association between sibship size and reading test scores? Evidence from 40 countries",
+     "year": 2014,
+     "type": "article",
+     "cited_by": 21,
+     "venue": "Research in Social Stratification and Mobility",
+     "authors": "Martin Kreidl; Barbora Hubatkov\u00e1"
+    },
+    {
+     "openalex": "W2042818044",
+     "doi": "10.1016/s1081-602x(96)90027-5",
+     "title": "Leaving home in a stem family system: Departures of heirs and non-heirs in pre-industrial Japan",
+     "year": 1996,
+     "type": "article",
+     "cited_by": 20,
+     "venue": "The History of the Family",
+     "authors": "Satomi Kurosu"
+    },
+    {
+     "openalex": "W2118687986",
+     "doi": "10.1093/ereh/het004",
+     "title": "Picking winners? The effect of birth order and migration on parental human capital investments in pre-modern England",
+     "year": 2013,
+     "type": "article",
+     "cited_by": 19,
+     "venue": "European Review of Economic History",
+     "authors": "Marc Klemp; Chris Minns; Patrick Wallis; Jacob Weisdorf"
+    },
+    {
+     "openalex": "W1986668180",
+     "doi": "10.1080/02674659808406544",
+     "title": "The guilt and pleasure of masturbation: A study of college girls in Gujarat, India",
+     "year": 1998,
+     "type": "article",
+     "cited_by": 19,
+     "venue": "Sexual and Marital Therapy",
+     "authors": "Vinit Sharma; Anuragini Sharma"
+    },
+    {
+     "openalex": "W1964492526",
+     "doi": "10.2307/353696",
+     "title": "The Retreat from Marriage: Its Effect on Unmarried Children's Exchange with Parents",
+     "year": 1995,
+     "type": "article",
+     "cited_by": 19,
+     "venue": "Journal of Marriage and the Family",
+     "authors": "Lynn White; Debra Peterson"
+    }
+   ]
+  },
+  "design8_grandparent_shock": {
+   "channel": "5",
+   "note": "design 8: grandparental availability shocks",
+   "query": "(\"retirement age\" OR \"pension reform\" OR \"grandmother\" OR \"grandparent\" OR \"parental death\") AND (\"multigenerational household\" OR \"three-generation household\" OR \"extended household\" OR \"stem family\" OR \"parents-in-law\" OR \"grandparental childcare\" OR \"grandparent childcare\" OR \"intergenerational coresidence\" OR \"intergenerational co-residence\" OR \"living with in-laws\") AND (fertility OR childbearing OR \"first birth\" OR parenthood OR \"birth rate\")",
+   "frame_count": 73,
+   "error": null,
+   "top": [
+    {
+     "openalex": "W4301657077",
+     "doi": "10.1515/9781503624689",
+     "title": "Only Hope",
+     "year": 2004,
+     "type": "book",
+     "cited_by": 591,
+     "venue": "Stanford University Press eBooks",
+     "authors": "Vanessa L. Fong"
+    },
+    {
+     "openalex": "W1569063669",
+     "doi": "10.1007/s10680-012-9273-2",
+     "title": "Grandparenting and Childbearing in the Extended Family",
+     "year": 2012,
+     "type": "article",
+     "cited_by": 135,
+     "venue": "European Journal of Population / Revue europ\u00e9enne de D\u00e9mographie",
+     "authors": "Arnstein Aassve; Elena Claudia Meroni; Chiara Pronzato"
+    },
+    {
+     "openalex": "W2086272531",
+     "doi": "10.1007/s12110-010-9098-9",
+     "title": "How Grandparents Matter",
+     "year": 2010,
+     "type": "article",
+     "cited_by": 116,
+     "venue": "Human Nature",
+     "authors": "Ralf Kaptijn; Fleur Thom\u00e9se; T.G. van Tilburg; Aart C. Liefbroer"
+    },
+    {
+     "openalex": "W2895972864",
+     "doi": "10.1007/s13524-018-0719-y",
+     "title": "Beyond the Nuclear Family: Trends in Children Living in Shared Households",
+     "year": 2018,
+     "type": "article",
+     "cited_by": 104,
+     "venue": "Demography",
+     "authors": "Natasha Pilkauskas; Christina J. Cross"
+    },
+    {
+     "openalex": "W2125511659",
+     "doi": "10.1098/rspb.2011.1424",
+     "title": "Grandparental investment and reproductive decisions in the longitudinal 1970 British cohort study",
+     "year": 2011,
+     "type": "article",
+     "cited_by": 78,
+     "venue": "Proceedings of the Royal Society B Biological Sciences",
+     "authors": "David Waynforth"
+    },
+    {
+     "openalex": "W2095745534",
+     "doi": "10.1086/ahr.111.2.405",
+     "title": "Talking Toads and Chinless Ghosts: The Politics of \"Superstitious\" Rumors in the People's Republic of China, 1961-1965",
+     "year": 2006,
+     "type": "article",
+     "cited_by": 75,
+     "venue": "The American Historical Review",
+     "authors": "Stephen A. Smith"
+    },
+    {
+     "openalex": "W1591661709",
+     "doi": "10.1111/jomf.12206",
+     "title": "Impact of Genetic Relatedness and Emotional Closeness on Intergenerational Relations",
+     "year": 2015,
+     "type": "article",
+     "cited_by": 63,
+     "venue": "Journal of Marriage and the Family",
+     "authors": "Mirkka Danielsbacka; Antti O. Tanskanen; Anna Rotkirch"
+    },
+    {
+     "openalex": "W3028424517",
+     "doi": "10.1007/s13524-020-00890-8",
+     "title": "Counting on Potential Grandparents? Adult Children\u2019s Entry Into Parenthood Across European Countries",
+     "year": 2020,
+     "type": "article",
+     "cited_by": 62,
+     "venue": "Demography",
+     "authors": "Roberta Rutigliano"
+    },
+    {
+     "openalex": "W2045405029",
+     "doi": "10.1080/01494929.2011.619303",
+     "title": "Being a Good Grandparent: Roles and Expectations in Intergenerational Relationships in Japan and Singapore",
+     "year": 2011,
+     "type": "article",
+     "cited_by": 58,
+     "venue": "Marriage & Family Review",
+     "authors": "Leng Leng Thang; Kalyani K. Mehta; Tsuneo Usui; Mari Tsuruwaka"
+    },
+    {
+     "openalex": "W2109547422",
+     "doi": "10.1177/0192513x12439177",
+     "title": "Multigenerational Households and the School Readiness of Children Born to Unmarried Mothers",
+     "year": 2012,
+     "type": "article",
+     "cited_by": 33,
+     "venue": "Journal of Family Issues",
+     "authors": "Jennifer March Augustine; R. Kelly Raley"
+    },
+    {
+     "openalex": "W4210831354",
+     "doi": "10.1016/j.socscimed.2022.114786",
+     "title": "Grandparent-grandchild relationships, generativity, subjective well-being and self-rated health of older people in Chile",
+     "year": 2022,
+     "type": "article",
+     "cited_by": 31,
+     "venue": "Social Science & Medicine",
+     "authors": "M. Soledad Herrera; Milda Galkut\u00e9; M. Beatriz Fern\u00e1ndez; Ra\u00fal Elgueta"
+    },
+    {
+     "openalex": "W2289987374",
+     "doi": "10.1177/2057150x15614545",
+     "title": "Do parents matter? Intergenerational ties and fertility preferences in a low-fertility context",
+     "year": 2015,
+     "type": "article",
+     "cited_by": 31,
+     "venue": "Chinese Journal of Sociology",
+     "authors": "Yingchun Ji; Feinian Chen; Yong Cai; Zhenzhen Zheng"
+    },
+    {
+     "openalex": "W1963764272",
+     "doi": "10.1016/j.alcr.2014.04.003",
+     "title": "Multi-partner fertility is associated with lower grandparental investment from in-laws in Finland",
+     "year": 2014,
+     "type": "article",
+     "cited_by": 31,
+     "venue": "Advances in Life Course Research",
+     "authors": "Antti O. Tanskanen; Mirkka Danielsbacka; Anna Rotkirch"
+    },
+    {
+     "openalex": "W2037532296",
+     "doi": "10.1080/15267431.2010.489218",
+     "title": "Turning Points in Parent-Grandparent Relationships During the Start of a New Generation",
+     "year": 2010,
+     "type": "article",
+     "cited_by": 29,
+     "venue": "Journal of Family Communication",
+     "authors": "Tim Dun"
+    },
+    {
+     "openalex": "W4291144541",
+     "doi": "10.1007/s00181-022-02280-y",
+     "title": "Fertility cost, grandparental childcare, and female employment",
+     "year": 2022,
+     "type": "article",
+     "cited_by": 25,
+     "venue": "Empirical Economics",
+     "authors": "Hou\u2013Yong Yu; Jin Cao; Shulong Kang"
+    },
+    {
+     "openalex": "W2072436544",
+     "doi": "10.1017/s0140525x09991749",
+     "title": "Are humans cooperative breeders?: Most studies of natural fertility populations do not support the grandmother hypothesis",
+     "year": 2010,
+     "type": "article",
+     "cited_by": 19,
+     "venue": "Behavioral and Brain Sciences",
+     "authors": "Beverly I. Strassmann; Nikhil Kurapati"
+    },
+    {
+     "openalex": "W3208034447",
+     "doi": "10.1016/j.jbusres.2021.10.013",
+     "title": "Grandparental childcare, maternal labor force participation, and the birth of a second child: Further knowledge from empirical analysis",
+     "year": 2021,
+     "type": "article",
+     "cited_by": 18,
+     "venue": "Journal of Business Research",
+     "authors": "Ye Wang; Xindong Zhao"
+    },
+    {
+     "openalex": "W4282914995",
+     "doi": "10.1186/s41118-022-00168-4",
+     "title": "Grandparents, family solidarity and the division of housework: evidence from the Italian case",
+     "year": 2022,
+     "type": "article",
+     "cited_by": 17,
+     "venue": "Genus",
+     "authors": "Marco Albertini; Marco Tosi"
+    },
+    {
+     "openalex": "W4382048846",
+     "doi": "10.1093/esr/jcad040",
+     "title": "Do grandparents really matter? The effect of regular grandparental childcare on the second-birth transition",
+     "year": 2023,
+     "type": "article",
+     "cited_by": 14,
+     "venue": "European Sociological Review",
+     "authors": "Roberta Rutigliano"
+    },
+    {
+     "openalex": "W4375851248",
+     "doi": "10.1016/j.chieco.2023.101986",
+     "title": "Family size, labor supply, and job prestige: Evidence from three decennial censuses in China",
+     "year": 2023,
+     "type": "article",
+     "cited_by": 12,
+     "venue": "China Economic Review",
+     "authors": "Cheng Chen; Ying-Min Kuo; Wangyang Zhao"
+    },
+    {
+     "openalex": "W2739783378",
+     "doi": "10.1007/s40806-017-0114-8",
+     "title": "The \u201cKinship Penalty\u201d: Parenthood and In-Law Conflict in Contemporary Finland",
+     "year": 2017,
+     "type": "article",
+     "cited_by": 12,
+     "venue": "Evolutionary Psychological Science",
+     "authors": "Mirkka Danielsbacka; Antti O. Tanskanen; Anna Rotkirch"
+    },
+    {
+     "openalex": "W4320857359",
+     "doi": "10.1007/s10680-023-09652-9",
+     "title": "The Association between Religiosity and Fertility Intentions Via Grandparenting: Evidence from GGS Data",
+     "year": 2023,
+     "type": "article",
+     "cited_by": 11,
+     "venue": "European Journal of Population / Revue europ\u00e9enne de D\u00e9mographie",
+     "authors": "Charalampos Dantis; Ester Lucia Rizzi; Thomas Baudin"
+    },
+    {
+     "openalex": "W4386913873",
+     "doi": "10.1016/j.heliyon.2023.e20375",
+     "title": "Experiences of Japanese women simultaneously caring for children and older people: An ethnographic study",
+     "year": 2023,
+     "type": "article",
+     "cited_by": 9,
+     "venue": "Heliyon",
+     "authors": "Kimi Sugiyama; Shizuko Omote; Rie Okamoto"
+    },
+    {
+     "openalex": "W4379805465",
+     "doi": "10.1371/journal.pone.0286496",
+     "title": "Grandparental childcare and second births in China",
+     "year": 2023,
+     "type": "article",
+     "cited_by": 8,
+     "venue": "PLoS ONE",
+     "authors": "Jing Zhang; Tom Emery"
+    },
+    {
+     "openalex": "W4409644472",
+     "doi": "10.1016/j.econmod.2025.107102",
+     "title": "Elderly labor supply, endogenous grandparental childcare, and fertility in an OLG model",
+     "year": 2025,
+     "type": "article",
+     "cited_by": 6,
+     "venue": "Economic Modelling",
+     "authors": "Mauro Maria Baldi; Raffaella Coppier; Elisabetta Michetti"
+    }
+   ]
+  },
+  "primary_prelaunch_broad": {
+   "channel": "A",
+   "note": "pre-launch cell, broad \u2014 hand-pick empirical anchors",
+   "query": "(coresidence OR \"co-residence\" OR \"living with parents\" OR \"living at home\" OR \"parental home\" OR \"leaving home\" OR \"leaving the parental home\" OR \"home leaving\" OR \"nest leaving\" OR \"residential independence\" OR boomerang) AND (fertility OR childbearing OR \"first birth\" OR parenthood OR \"birth rate\")",
+   "frame_count": 746,
+   "error": null,
+   "top": [
+    {
+     "openalex": "W2073388463",
+     "doi": "10.1038/oby.2008.365",
+     "title": "Emerging Adulthood and College\u2010aged Youth: An Overlooked Age for Weight\u2010related Behavior Change",
+     "year": 2008,
+     "type": "article",
+     "cited_by": 1323,
+     "venue": "Obesity",
+     "authors": "Melissa C. Nelson; Mary Story; Nicole Larson; Dianne Neumark\u2010Sztainer"
+    },
+    {
+     "openalex": "W2079789359",
+     "doi": "10.2307/1972499",
+     "title": "Cultural Dynamics and Economic Theories of Fertility Change",
+     "year": 1988,
+     "type": "article",
+     "cited_by": 720,
+     "venue": "Population and Development Review",
+     "authors": "Ronny Lesthaeghe; Johan Surkyn"
+    },
+    {
+     "openalex": "W1582546098",
+     "doi": null,
+     "title": "The design and content of the National Survey of Families and Households.",
+     "year": 1988,
+     "type": "article",
+     "cited_by": 703,
+     "venue": null,
+     "authors": "James A. Sweet; Larry L. Bumpass"
+    },
+    {
+     "openalex": "W2042644148",
+     "doi": "10.1080/0032472042000213695",
+     "title": "Patterns of low and lowest-low fertility in Europe",
+     "year": 2004,
+     "type": "article",
+     "cited_by": 577,
+     "venue": "Population Studies",
+     "authors": "Francesco C. Billari; Hans\u2010Peter Kohler"
+    },
+    {
+     "openalex": "W2131879133",
+     "doi": "10.1046/j.1360-0443.2000.951116213.x",
+     "title": "The effects of adolescent cannabis use on educational attainment: a review",
+     "year": 2000,
+     "type": "article",
+     "cited_by": 575,
+     "venue": "Addiction",
+     "authors": "Michael T. Lynskey; Wayne Hall"
+    },
+    {
+     "openalex": "W2083734684",
+     "doi": "10.2307/3089835",
+     "title": "Smoking, Drinking, and Drug Use in Young Adulthood: The Impacts of New Freedoms and New Responsibilities",
+     "year": 2003,
+     "type": "article",
+     "cited_by": 558,
+     "venue": "Contemporary Sociology A Journal of Reviews",
+     "authors": "Jacob Goldstein; Jerald G. Bachman; Katherine N. Wadsworth; Patrick M. O\u2019Malley"
+    },
+    {
+     "openalex": "W2143928126",
+     "doi": "10.1353/foc.0.0038",
+     "title": "On a New Schedule: Transitions to Adulthood and Family Change",
+     "year": 2010,
+     "type": "article",
+     "cited_by": 470,
+     "venue": "The Future of Children",
+     "authors": "Frank F. Furstenberg"
+    },
+    {
+     "openalex": "W1551600018",
+     "doi": "10.1111/b.9781405133029.2005.x",
+     "title": "Blackwell Handbook of Adolescence",
+     "year": 2005,
+     "type": "reference-entry",
+     "cited_by": 433,
+     "venue": "Blackwell Publishing Ltd eBooks",
+     "authors": ""
+    },
+    {
+     "openalex": "W2071038619",
+     "doi": "10.1007/s11205-011-9865-y",
+     "title": "Parenthood and Happiness: a Review of Folk Theories Versus Empirical Evidence",
+     "year": 2011,
+     "type": "article",
+     "cited_by": 417,
+     "venue": "Social Indicators Research",
+     "authors": "Thomas Hansen"
+    },
+    {
+     "openalex": "W2123993033",
+     "doi": "10.1093/beheco/arp202",
+     "title": "Dying young and living fast: variation in life history across English neighborhoods",
+     "year": 2010,
+     "type": "article",
+     "cited_by": 338,
+     "venue": "Behavioral Ecology",
+     "authors": "Daniel Nettle"
+    },
+    {
+     "openalex": "W2800261663",
+     "doi": "10.1186/s12966-018-0719-8",
+     "title": "Changes in diet through adolescence and early adulthood: longitudinal trajectories and association with key life transitions",
+     "year": 2018,
+     "type": "article",
+     "cited_by": 276,
+     "venue": "International Journal of Behavioral Nutrition and Physical Activity",
+     "authors": "Eleanor Winpenny; Esther van Sluijs; Martin White; Knut\u2010Inge Klepp"
+    },
+    {
+     "openalex": "W2159405139",
+     "doi": "10.1111/j.1467-8624.1994.tb00757.x",
+     "title": "Young African-American Multigenerational Families in Poverty: Quality of Mothering and Grandmothering",
+     "year": 1994,
+     "type": "article",
+     "cited_by": 264,
+     "venue": "Child Development",
+     "authors": "P. Lindsay Chase\u2010Lansdale; Jeanne Brooks\u2013Gunn; Elise S. Zamsky"
+    },
+    {
+     "openalex": "W2040954003",
+     "doi": "10.1002/ijpg.231",
+     "title": "Leaving Home in Europe: The Experience of Cohorts Born Around 1960",
+     "year": 2001,
+     "type": "article",
+     "cited_by": 254,
+     "venue": "International Journal of Population Geography",
+     "authors": "Francesco C. Billari; Dimiter Philipov; Pau Baiz\u00e1n"
+    },
+    {
+     "openalex": "W2929569684",
+     "doi": "10.1016/j.jtrangeo.2019.03.010",
+     "title": "Active travel for active ageing in China: The role of built environment",
+     "year": 2019,
+     "type": "article",
+     "cited_by": 243,
+     "venue": "Journal of Transport Geography",
+     "authors": "Long Cheng; Xuewu Chen; Shuo Yang; Zhan Cao"
+    },
+    {
+     "openalex": "W2802907016",
+     "doi": "10.1111/padr.12149",
+     "title": "Living Alone in Later Life: A Global Perspective",
+     "year": 2018,
+     "type": "article",
+     "cited_by": 231,
+     "venue": "Population and Development Review",
+     "authors": "David Reher; Miguel Requena"
+    },
+    {
+     "openalex": "W633736488",
+     "doi": null,
+     "title": "On the move : the psychology of change and transition",
+     "year": 1990,
+     "type": "article",
+     "cited_by": 231,
+     "venue": null,
+     "authors": "Shirley Fisher; Cary L. Cooper"
+    },
+    {
+     "openalex": "W1522822261",
+     "doi": null,
+     "title": "Living arrangements among older people: an overview of trends in Europe and the USA.",
+     "year": 2004,
+     "type": "article",
+     "cited_by": 224,
+     "venue": "PubMed",
+     "authors": "Cecilia Tomassini; Karen Glaser; Douglas A. Wolf; M.I. Broese Van Groenou"
+    },
+    {
+     "openalex": "W2884989860",
+     "doi": "10.4054/demres.2001.4.5",
+     "title": "The banquet of Aeolus",
+     "year": 2001,
+     "type": "article",
+     "cited_by": 220,
+     "venue": "Demographic Research",
+     "authors": "Gianpiero Dalla Zuanna"
+    },
+    {
+     "openalex": "W1990607865",
+     "doi": "10.2307/353569",
+     "title": "Race and Ethnic Variation in Norms of Filial Responsibility among Older Persons",
+     "year": 1999,
+     "type": "article",
+     "cited_by": 201,
+     "venue": "Journal of Marriage and the Family",
+     "authors": "Jeffrey A. Burr; Jan Mutchler"
+    },
+    {
+     "openalex": "W2032781774",
+     "doi": "10.1007/s13524-013-0247-8",
+     "title": "Gender, Turning Points, and Boomerangs: Returning Home in Young Adulthood in Great Britain",
+     "year": 2013,
+     "type": "article",
+     "cited_by": 200,
+     "venue": "Demography",
+     "authors": "Juliet Stone; Ann Berrington; Jane Falkingham"
+    },
+    {
+     "openalex": "W2088077897",
+     "doi": "10.1007/978-1-4684-7021-5_9",
+     "title": "Normal Stresses during the Transition to Parenthood",
+     "year": 1980,
+     "type": "book-chapter",
+     "cited_by": 198,
+     "venue": null,
+     "authors": "Brent C. Miller; Donna L. Sollie"
+    },
+    {
+     "openalex": "W2437524902",
+     "doi": "10.1038/nature18595",
+     "title": "Molecular architecture of the human sperm IZUMO1 and egg JUNO fertilization complex",
+     "year": 2016,
+     "type": "article",
+     "cited_by": 191,
+     "venue": "Nature",
+     "authors": "Halil Aydin; Azmiri Sultana; Sheng Li; Annoj Thavalingam"
+    },
+    {
+     "openalex": "W2028584245",
+     "doi": "10.2307/353543",
+     "title": "The Effects of Childhood Family Structure on Leaving and Returning Home",
+     "year": 1998,
+     "type": "article",
+     "cited_by": 188,
+     "venue": "Journal of Marriage and the Family",
+     "authors": "Frances Goldscheider; Calvin Goldscheider"
+    },
+    {
+     "openalex": "W3135535268",
+     "doi": "10.1525/9780520322943-004",
+     "title": "1. Households: Changing Forms and Functions",
+     "year": 1984,
+     "type": "book-chapter",
+     "cited_by": 188,
+     "venue": null,
+     "authors": "Richard Wilk; Robert McC. Netting"
+    },
+    {
+     "openalex": "W2102282088",
+     "doi": "10.1177/0002716213500643",
+     "title": "The Effects of the Great Recession on Family Structure and Fertility",
+     "year": 2013,
+     "type": "article",
+     "cited_by": 184,
+     "venue": "The Annals of the American Academy of Political and Social Science",
+     "authors": "Andrew J. Cherlin; Erin Cumberworth; S. Philip Morgan; Christopher Wimer"
+    }
+   ]
+  },
+  "primary_extended_broad": {
+   "channel": "A",
+   "note": "extended-household cell, broad \u2014 hand-pick empirical anchors (Ruling 1)",
+   "query": "(\"multigenerational household\" OR \"three-generation household\" OR \"extended household\" OR \"stem family\" OR \"parents-in-law\" OR \"grandparental childcare\" OR \"grandparent childcare\" OR \"intergenerational coresidence\" OR \"intergenerational co-residence\" OR \"living with in-laws\") AND (fertility OR childbearing OR \"first birth\" OR parenthood OR \"birth rate\")",
+   "frame_count": 276,
+   "error": null,
+   "top": [
+    {
+     "openalex": "W4301657077",
+     "doi": "10.1515/9781503624689",
+     "title": "Only Hope",
+     "year": 2004,
+     "type": "book",
+     "cited_by": 591,
+     "venue": "Stanford University Press eBooks",
+     "authors": "Vanessa L. Fong"
+    },
+    {
+     "openalex": "W2126926863",
+     "doi": "10.2307/2096137",
+     "title": "The Origins of African-American Family Structure",
+     "year": 1994,
+     "type": "article",
+     "cited_by": 254,
+     "venue": "American Sociological Review",
+     "authors": "Steven Ruggles"
+    },
+    {
+     "openalex": "W2802907016",
+     "doi": "10.1111/padr.12149",
+     "title": "Living Alone in Later Life: A Global Perspective",
+     "year": 2018,
+     "type": "article",
+     "cited_by": 231,
+     "venue": "Population and Development Review",
+     "authors": "David Reher; Miguel Requena"
+    },
+    {
+     "openalex": "W1990607865",
+     "doi": "10.2307/353569",
+     "title": "Race and Ethnic Variation in Norms of Filial Responsibility among Older Persons",
+     "year": 1999,
+     "type": "article",
+     "cited_by": 201,
+     "venue": "Journal of Marriage and the Family",
+     "authors": "Jeffrey A. Burr; Jan Mutchler"
+    },
+    {
+     "openalex": "W2090649568",
+     "doi": "10.1016/0190-7409(94)90007-8",
+     "title": "Are we helping foster care youth prepare for their future?",
+     "year": 1994,
+     "type": "article",
+     "cited_by": 197,
+     "venue": "Children and Youth Services Review",
+     "authors": "Ronna Cook"
+    },
+    {
+     "openalex": "W2102282088",
+     "doi": "10.1177/0002716213500643",
+     "title": "The Effects of the Great Recession on Family Structure and Fertility",
+     "year": 2013,
+     "type": "article",
+     "cited_by": 184,
+     "venue": "The Annals of the American Academy of Political and Social Science",
+     "authors": "Andrew J. Cherlin; Erin Cumberworth; S. Philip Morgan; Christopher Wimer"
+    },
+    {
+     "openalex": "W2112547080",
+     "doi": "10.1111/j.1365-3016.2006.00750.x",
+     "title": "Consanguineous unions and child health in the State of Qatar",
+     "year": 2006,
+     "type": "article",
+     "cited_by": 148,
+     "venue": "Paediatric and Perinatal Epidemiology",
+     "authors": "Abd\u00fclbari Bener; Rafat Hussain"
+    },
+    {
+     "openalex": "W1979899036",
+     "doi": "10.2307/2137684",
+     "title": "Comparing Family Systems in Europe and Asia: Are There Different Sets of Rules?",
+     "year": 1996,
+     "type": "article",
+     "cited_by": 136,
+     "venue": "Population and Development Review",
+     "authors": "Jack Goody"
+    },
+    {
+     "openalex": "W1569063669",
+     "doi": "10.1007/s10680-012-9273-2",
+     "title": "Grandparenting and Childbearing in the Extended Family",
+     "year": 2012,
+     "type": "article",
+     "cited_by": 135,
+     "venue": "European Journal of Population / Revue europ\u00e9enne de D\u00e9mographie",
+     "authors": "Arnstein Aassve; Elena Claudia Meroni; Chiara Pronzato"
+    },
+    {
+     "openalex": "W2086272531",
+     "doi": "10.1007/s12110-010-9098-9",
+     "title": "How Grandparents Matter",
+     "year": 2010,
+     "type": "article",
+     "cited_by": 116,
+     "venue": "Human Nature",
+     "authors": "Ralf Kaptijn; Fleur Thom\u00e9se; T.G. van Tilburg; Aart C. Liefbroer"
+    },
+    {
+     "openalex": "W2895972864",
+     "doi": "10.1007/s13524-018-0719-y",
+     "title": "Beyond the Nuclear Family: Trends in Children Living in Shared Households",
+     "year": 2018,
+     "type": "article",
+     "cited_by": 104,
+     "venue": "Demography",
+     "authors": "Natasha Pilkauskas; Christina J. Cross"
+    },
+    {
+     "openalex": "W2166588940",
+     "doi": "10.1111/j.1728-4457.2012.00533.x",
+     "title": "The Family Context of Cohabitation and Single Motherhood in Latin America",
+     "year": 2012,
+     "type": "article",
+     "cited_by": 94,
+     "venue": "Population and Development Review",
+     "authors": "Albert Esteve; Joan Garc\u00eda Rom\u00e1n; Ronny Lesthaeghe"
+    },
+    {
+     "openalex": "W2037792764",
+     "doi": "10.2307/2060023",
+     "title": "Some demographic determinants of average household size: An analytic approach",
+     "year": 1970,
+     "type": "article",
+     "cited_by": 87,
+     "venue": "Demography",
+     "authors": "Thomas K. Burch"
+    },
+    {
+     "openalex": "W2125511659",
+     "doi": "10.1098/rspb.2011.1424",
+     "title": "Grandparental investment and reproductive decisions in the longitudinal 1970 British cohort study",
+     "year": 2011,
+     "type": "article",
+     "cited_by": 78,
+     "venue": "Proceedings of the Royal Society B Biological Sciences",
+     "authors": "David Waynforth"
+    },
+    {
+     "openalex": "W2095745534",
+     "doi": "10.1086/ahr.111.2.405",
+     "title": "Talking Toads and Chinless Ghosts: The Politics of \"Superstitious\" Rumors in the People's Republic of China, 1961-1965",
+     "year": 2006,
+     "type": "article",
+     "cited_by": 75,
+     "venue": "The American Historical Review",
+     "authors": "Stephen A. Smith"
+    },
+    {
+     "openalex": "W1994767988",
+     "doi": "10.1016/j.socscimed.2003.10.003",
+     "title": "Multigenerational family structure in Japanese society: impacts on stress and health behaviors among women and men",
+     "year": 2003,
+     "type": "article",
+     "cited_by": 70,
+     "venue": "Social Science & Medicine",
+     "authors": "Yasuhisa Takeda; Ichiro Kawachi; Zentaro Yamagata; Shuji Hashimoto"
+    },
+    {
+     "openalex": "W2410666853",
+     "doi": null,
+     "title": "First-time fathers: perceptions of preparedness for fatherhood.",
+     "year": 2002,
+     "type": "article",
+     "cited_by": 70,
+     "venue": "PubMed",
+     "authors": "Jeffrey Gage; Ray Kirk"
+    },
+    {
+     "openalex": "W2009335634",
+     "doi": "10.2307/353788",
+     "title": "The Stress of Caring for a Parent: Effects of the Elder's Impairment on an Employed, Adult Child",
+     "year": 1997,
+     "type": "article",
+     "cited_by": 64,
+     "venue": "Journal of Marriage and the Family",
+     "authors": "Marjorie E. Starrels; Berit Ingersoll\u2010Dayton; David Dowler; Margaret B. Neal"
+    },
+    {
+     "openalex": "W1591661709",
+     "doi": "10.1111/jomf.12206",
+     "title": "Impact of Genetic Relatedness and Emotional Closeness on Intergenerational Relations",
+     "year": 2015,
+     "type": "article",
+     "cited_by": 63,
+     "venue": "Journal of Marriage and the Family",
+     "authors": "Mirkka Danielsbacka; Antti O. Tanskanen; Anna Rotkirch"
+    },
+    {
+     "openalex": "W3028424517",
+     "doi": "10.1007/s13524-020-00890-8",
+     "title": "Counting on Potential Grandparents? Adult Children\u2019s Entry Into Parenthood Across European Countries",
+     "year": 2020,
+     "type": "article",
+     "cited_by": 62,
+     "venue": "Demography",
+     "authors": "Roberta Rutigliano"
+    },
+    {
+     "openalex": "W2070846032",
+     "doi": "10.1177/036319908701200108",
+     "title": "Hajnal and the Household in Asia: a Comparativist History of the Family in Preindustrial Japan, 1600-1870",
+     "year": 1987,
+     "type": "article",
+     "cited_by": 61,
+     "venue": "Journal of Family History",
+     "authors": "L. L. Cornell"
+    },
+    {
+     "openalex": "W2045405029",
+     "doi": "10.1080/01494929.2011.619303",
+     "title": "Being a Good Grandparent: Roles and Expectations in Intergenerational Relationships in Japan and Singapore",
+     "year": 2011,
+     "type": "article",
+     "cited_by": 58,
+     "venue": "Marriage & Family Review",
+     "authors": "Leng Leng Thang; Kalyani K. Mehta; Tsuneo Usui; Mari Tsuruwaka"
+    },
+    {
+     "openalex": "W2122655835",
+     "doi": "10.1017/s0305741000040789",
+     "title": "Patrilocality and Early Marital Co-residence in Rural China, 1955\u201385",
+     "year": 1992,
+     "type": "article",
+     "cited_by": 56,
+     "venue": "The China Quarterly",
+     "authors": "William Lavely; Xinhua S. Ren"
+    },
+    {
+     "openalex": "W2164492488",
+     "doi": "10.1093/sf/sou077",
+     "title": "Single Mothers and Poverty in Japan: The Role of Intergenerational Coresidence",
+     "year": 2014,
+     "type": "article",
+     "cited_by": 51,
+     "venue": "Social Forces",
+     "authors": "Sawako Shirahase; James M. Raymo"
+    },
+    {
+     "openalex": "W1516586080",
+     "doi": "10.2307/146399",
+     "title": "On the Road: Marriage and Mobility in Malaysia",
+     "year": 1998,
+     "type": "article",
+     "cited_by": 49,
+     "venue": "The Journal of Human Resources",
+     "authors": "James P. Smith; Duncan Thomas"
+    }
+   ]
+  },
+  "primary_proximity": {
+   "channel": "A",
+   "note": "proximity cell \u2014 a different treatment, pooled separately",
+   "query": "(\"proximity to parents\" OR \"distance to parents\" OR \"geographical proximity\" OR \"living near parents\") AND (fertility OR childbearing OR \"first birth\" OR parenthood OR \"birth rate\")",
+   "frame_count": 106,
+   "error": null,
+   "top": [
+    {
+     "openalex": "W1965972316",
+     "doi": "10.2307/2137804",
+     "title": "Social Interactions and Contemporary Fertility Transitions",
+     "year": 1996,
+     "type": "article",
+     "cited_by": 1048,
+     "venue": "Population and Development Review",
+     "authors": "John Bongaarts; Susan Watkins"
+    },
+    {
+     "openalex": "W2119149003",
+     "doi": "10.1007/s00265-002-0539-2",
+     "title": "Opposite effects of maternal and paternal grandmothers on infant survival in historical Krummh\u00f6rn",
+     "year": 2002,
+     "type": "article",
+     "cited_by": 192,
+     "venue": "Behavioral Ecology and Sociobiology",
+     "authors": "Eckart Voland; Jan Beise"
+    },
+    {
+     "openalex": "W2804100169",
+     "doi": "10.3389/fpsyg.2018.00887",
+     "title": "Differences in Parental Burnout: Influence of Demographic Factors and Personality of Parents and Children",
+     "year": 2018,
+     "type": "article",
+     "cited_by": 120,
+     "venue": "Frontiers in Psychology",
+     "authors": "Sarah Le Vigouroux; C\u00e9line Scola"
+    },
+    {
+     "openalex": "W241384313",
+     "doi": null,
+     "title": "Globalizing Intimacy: The Role of Information and Communication Technologies in Maintaining and Creating Relationships",
+     "year": 2006,
+     "type": "article",
+     "cited_by": 106,
+     "venue": "Women's studies quarterly",
+     "authors": "Gill Valentine"
+    },
+    {
+     "openalex": "W2010006600",
+     "doi": "10.2307/2096388",
+     "title": "The Spatial Diffusion of Fertility: A Cross-Sectional Analysis of Counties in the American South, 1940",
+     "year": 1995,
+     "type": "article",
+     "cited_by": 70,
+     "venue": "American Sociological Review",
+     "authors": "Stewart E. Tolnay"
+    },
+    {
+     "openalex": "W72774731",
+     "doi": null,
+     "title": "A comparison of capitated and fee-for-service Medicaid reimbursement methods on pregnancy outcomes.",
+     "year": 1998,
+     "type": "article",
+     "cited_by": 60,
+     "venue": "PubMed",
+     "authors": "Denise M. Oleske; M L Branca; Julie Berg Schmidt; R. Matthew Ferguson"
+    },
+    {
+     "openalex": "W2084192038",
+     "doi": "10.1038/sj.hdy.6800563",
+     "title": "Amaranthus hybridus can be pollinated frequently by A. tuberculatus under field conditions",
+     "year": 2004,
+     "type": "article",
+     "cited_by": 59,
+     "venue": "Heredity",
+     "authors": "Federico Trucco; Mark R. Jeschke; A. Lane Rayburn; Patrick J. Tranel"
+    },
+    {
+     "openalex": "W2060560302",
+     "doi": "10.1130/0091-7613(1999)027<1119:laicpm>2.3.co;2",
+     "title": "Laser ablation\u2013inductively coupled plasma\u2013mass spectrometry and tephras: A new approach to understanding arc-magma genesis",
+     "year": 1999,
+     "type": "article",
+     "cited_by": 49,
+     "venue": "Geology",
+     "authors": "C. J. Bryant; Richard Arculus; Stephen M. Eggins"
+    },
+    {
+     "openalex": "W1989266889",
+     "doi": "10.1016/j.jaging.2014.10.002",
+     "title": "From whom do older persons prefer support? The case of rural Thailand",
+     "year": 2014,
+     "type": "article",
+     "cited_by": 47,
+     "venue": "Journal of Aging Studies",
+     "authors": "Jongjit Rittirong; Pramote Prasartkul; Ronald R. Rindfuss"
+    },
+    {
+     "openalex": "W2610027961",
+     "doi": "10.4054/demres.2017.36.45",
+     "title": "The convergence of second-generation immigrants' fertility patterns in France: The role of sociocultural distance between parents' and host country",
+     "year": 2017,
+     "type": "article",
+     "cited_by": 44,
+     "venue": "Demographic Research",
+     "authors": "Ariane Pailh\u00e9"
+    },
+    {
+     "openalex": "W2330909247",
+     "doi": "10.2307/3546488",
+     "title": "Modelling the Competitiveness of Clonal Plants by Complementary Analytical and Simulation Approaches",
+     "year": 1999,
+     "type": "article",
+     "cited_by": 41,
+     "venue": "Oikos",
+     "authors": "Eckart Winkler; Markus Fischer; Bernhard Schmid"
+    },
+    {
+     "openalex": "W2062552062",
+     "doi": "10.1007/s12062-010-9022-4",
+     "title": "Between Elderly Parents and Grandchildren\u2014Geographic Proximity and Trends in Four-Generation Families",
+     "year": 2009,
+     "type": "article",
+     "cited_by": 39,
+     "venue": "Journal of Population Ageing",
+     "authors": "Emma Lundholm; Gunnar Malmberg"
+    },
+    {
+     "openalex": "W1981813624",
+     "doi": "10.1016/s0890-4065(99)80097-8",
+     "title": "Change and stability in confidant relationships: Findings from the Bangor Longitudinal Study of Ageing",
+     "year": 1999,
+     "type": "article",
+     "cited_by": 39,
+     "venue": "Journal of Aging Studies",
+     "authors": "G. Clare Wenger; Dorothy Jerrome"
+    },
+    {
+     "openalex": "W2332538879",
+     "doi": "10.1080/00275514.1995.12026577",
+     "title": "Sexual dysfunction associated with outcrossing in Neurospora tetrasperma , a pseudohomothallic ascomycete",
+     "year": 1995,
+     "type": "article",
+     "cited_by": 38,
+     "venue": "Mycologia",
+     "authors": "David J. Jacobson"
+    },
+    {
+     "openalex": "W2065157166",
+     "doi": "10.1016/j.foreco.2005.02.033",
+     "title": "High differentiation among populations of the woody legume Sesbania sesban in sub-Saharan Africa: Implications for conservation and cultivation during germplasm introduction into agroforestry systems",
+     "year": 2005,
+     "type": "article",
+     "cited_by": 34,
+     "venue": "Forest Ecology and Management",
+     "authors": "Ramni Jamnadass; Jean Hanson; Jane Poole; Olivier Hanotte"
+    },
+    {
+     "openalex": "W2056543682",
+     "doi": "10.1111/j.1600-0587.1997.tb00351.x",
+     "title": "Differences in species composition and diversity among Mediterranean grasslands with different history \u2013 the case of California and Spain",
+     "year": 1997,
+     "type": "article",
+     "cited_by": 34,
+     "venue": "Ecography",
+     "authors": "Mar\u00eda Jos\u00e9 Leiva; F. Stuart Chapin; Roc\u00edo Fern\u00e1ndez Al\u00e9s"
+    },
+    {
+     "openalex": "W2138909873",
+     "doi": "10.1177/0164027505277977",
+     "title": "The Effect of Parent-Child Geographic Proximity on Widowed Parents\u2019 Psychological Adjustment and Social Integration",
+     "year": 2005,
+     "type": "article",
+     "cited_by": 31,
+     "venue": "Research on Aging",
+     "authors": "Jung\u2010Hwa Ha; Deborah Carr"
+    },
+    {
+     "openalex": "W1969644668",
+     "doi": "10.1016/j.jaridenv.2012.10.005",
+     "title": "Evidence of a threshold in soil erodibility generating differences in vegetation development and resilience between two semiarid grasslands",
+     "year": 2012,
+     "type": "article",
+     "cited_by": 29,
+     "venue": "Journal of Arid Environments",
+     "authors": "J. L. Mora; Roberto L\u00e1zaro"
+    },
+    {
+     "openalex": "W1604329332",
+     "doi": "10.1080/17441730.2010.494445",
+     "title": "INTERGENERATIONAL PROXIMITY AND THE FERTILITY INTENTIONS OF MARRIED WOMEN",
+     "year": 2010,
+     "type": "article",
+     "cited_by": 29,
+     "venue": "Asian Population Studies",
+     "authors": "James M. Raymo; Letizia Mencarini; Miho Iwasawa; Rie Moriizumi"
+    },
+    {
+     "openalex": "W4296031857",
+     "doi": "10.1093/humrep/deac205",
+     "title": "Residential proximity to a fertility clinic is independently associated with likelihood of women having ART and IUI treatment",
+     "year": 2022,
+     "type": "article",
+     "cited_by": 28,
+     "venue": "Human Reproduction",
+     "authors": "Ester Lazzari; Bernard Baffour; Georgina Chambers"
+    },
+    {
+     "openalex": "W2039320015",
+     "doi": "10.4054/demres.2014.30.35",
+     "title": "Regional probabilistic fertility forecasting by modeling between-country correlations",
+     "year": 2014,
+     "type": "article",
+     "cited_by": 28,
+     "venue": "Demographic Research",
+     "authors": "Bailey K. Fosdick; Adrian E. Raftery"
+    },
+    {
+     "openalex": "W4229822359",
+     "doi": "10.2307/3760805",
+     "title": "Sexual Dysfunction Associated with Outcrossing in Neurospora tetrasperma, a Pseudohomothallic Ascomycete",
+     "year": 1995,
+     "type": "article",
+     "cited_by": 25,
+     "venue": "Mycologia",
+     "authors": "David J. Jacobson"
+    },
+    {
+     "openalex": "W2739993740",
+     "doi": "10.1007/s10681-017-1983-4",
+     "title": "Hybridization and heterosis in the Plicatula group of Paspalum",
+     "year": 2017,
+     "type": "article",
+     "cited_by": 24,
+     "venue": "Euphytica",
+     "authors": "Patricia E. Novo; Carlos A. Acu\u00f1a; Camilo L. Quar\u00edn; Mario H. Urbani"
+    },
+    {
+     "openalex": "W2031869055",
+     "doi": "10.1016/j.fcr.2010.01.012",
+     "title": "Hybrid rice heterosis and genetic diversity of IRRI and Lao rice",
+     "year": 2010,
+     "type": "article",
+     "cited_by": 24,
+     "venue": "Field Crops Research",
+     "authors": "Phetmanyseng Xangsayasane; Xie F; Jose E. Hernandez; Teresita H. Boirromeo"
+    },
+    {
+     "openalex": "W2097244631",
+     "doi": "10.1071/bt04131",
+     "title": "Conservation implications of clonality and limited sexual reproduction in the endangered shrub Acanthocladium dockeri (Asteraceae)",
+     "year": 2005,
+     "type": "article",
+     "cited_by": 24,
+     "venue": "Australian Journal of Botany",
+     "authors": "Manfred Jusaitis; Mark A. Adams"
+    }
+   ]
+  },
+  "decoy_price_c2c": {
+   "channel": "D",
+   "note": "decoy: price-identified, routes to C.2.c",
+   "query": "(\"house price\" OR \"housing price\" OR rent OR \"housing cost\" OR \"home equity\") AND (coresidence OR \"co-residence\" OR \"living with parents\" OR \"living at home\" OR \"parental home\" OR \"leaving home\" OR \"leaving the parental home\" OR \"home leaving\" OR \"nest leaving\" OR \"residential independence\" OR boomerang) AND (fertility OR childbearing OR \"first birth\" OR parenthood OR \"birth rate\")",
+   "frame_count": 13,
+   "error": null,
+   "top": [
+    {
+     "openalex": "W3125001667",
+     "doi": "10.1177/0042098015615742",
+     "title": "Do housing options affect child birth decisions? Evidence from Taiwan",
+     "year": 2015,
+     "type": "article",
+     "cited_by": 17,
+     "venue": "Urban Studies",
+     "authors": "Pei-Syuan Lin; Chin\u2010Oh Chang; Tien Foo Sing"
+    },
+    {
+     "openalex": "W1983947289",
+     "doi": "10.1515/bejeap-2014-0003",
+     "title": "Fostering Household Formation: Evidence from a Spanish Rental Subsidy",
+     "year": 2014,
+     "type": "article",
+     "cited_by": 14,
+     "venue": "The B E Journal of Economic Analysis & Policy",
+     "authors": "Ainoa Aparicio Fenoll; Veruska Oppedisano"
+    },
+    {
+     "openalex": "W4389069534",
+     "doi": "10.1111/1540-6229.12467",
+     "title": "Why do young adults coreside with their parents?",
+     "year": 2023,
+     "type": "article",
+     "cited_by": 10,
+     "venue": "Real Estate Economics",
+     "authors": "Arthur Acolin; Desen Lin; Susan M. W\u00e4chter"
+    },
+    {
+     "openalex": "W1484302076",
+     "doi": null,
+     "title": "Fostering the emancipation of young people: Evidence from a Spanish rental subsidy",
+     "year": 2012,
+     "type": "preprint",
+     "cited_by": 9,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Ainoa Aparicio Fenoll; Veruska Oppedisano"
+    },
+    {
+     "openalex": "W4365129353",
+     "doi": "10.2139/ssrn.4396015",
+     "title": "Why Do Young Adults Coreside with Their Parents?",
+     "year": 2023,
+     "type": "preprint",
+     "cited_by": 2,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Arthur Acolin; Desen Lin; Susan M. Wachter"
+    },
+    {
+     "openalex": "W3124528217",
+     "doi": "10.2139/ssrn.2089700",
+     "title": "Fostering the Emancipation of Young People: Evidence from a Spanish Rental Subsidy",
+     "year": 2012,
+     "type": "preprint",
+     "cited_by": 2,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Ainhoa Aparicio; Veruska Oppedisano"
+    },
+    {
+     "openalex": "W4409204645",
+     "doi": "10.35136/krer.35.1.1",
+     "title": "Impact of Close Residence between Aging Parents and Adult Daughters on Grandchild Care and First Births",
+     "year": 2025,
+     "type": "article",
+     "cited_by": 1,
+     "venue": null,
+     "authors": "Boo Kyung Jung"
+    },
+    {
+     "openalex": "W2269158875",
+     "doi": "10.2139/ssrn.2585216",
+     "title": "Do Housing Options Affect Child Birth Decisions? Evidence from Taiwan",
+     "year": 2015,
+     "type": "preprint",
+     "cited_by": 1,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Pei-Syuan Lin; Chin\u2010Oh Chang; Tien Foo Sing"
+    },
+    {
+     "openalex": "W4301973214",
+     "doi": null,
+     "title": "Fostering the Emancipation of Young People: Evidence from a Spanish Rental Subsidy",
+     "year": 2012,
+     "type": "preprint",
+     "cited_by": 1,
+     "venue": "RePEc: Research Papers in Economics",
+     "authors": "Ainoa Aparicio Fenoll; Ainhoa Aparicio-fenoll; Collegio Carlo Alberto"
+    },
+    {
+     "openalex": "W4408305667",
+     "doi": "10.1525/gfc.2025.25.1.39",
+     "title": "Chiang Mai 2015",
+     "year": 2025,
+     "type": "article",
+     "cited_by": 0,
+     "venue": "Gastronomica The Journal of Food and Culture",
+     "authors": "Camille B\u00e9gin"
+    },
+    {
+     "openalex": "W3122781396",
+     "doi": null,
+     "title": "Independencia Residencial, Dedicaci\u00f3n Laboral Y Fertilidad De Los J\u00f3venes Espa\u00f1oles. Un An\u00e1lisis Por Comunidades Aut\u00f3nomas",
+     "year": 2019,
+     "type": "article",
+     "cited_by": 0,
+     "venue": "RePEc: Research Papers in Economics",
+     "authors": "Mar\u00eda Consuelo Colom Andr\u00e9s; Mar\u00eda Cruz Mol\u00e9s Mach\u00ed"
+    },
+    {
+     "openalex": "W7111954011",
+     "doi": null,
+     "title": "A study on the characteristic of Household Living Arrangements in Taipei Metropolitan Area",
+     "year": 2016,
+     "type": "dissertation",
+     "cited_by": 0,
+     "venue": null,
+     "authors": "\u5218\u5fd7\u5b87"
+    },
+    {
+     "openalex": "W4300073648",
+     "doi": "10.46692/9781847423061.006",
+     "title": "Working age: safety nets and housing",
+     "year": 2009,
+     "type": "other",
+     "cited_by": 0,
+     "venue": null,
+     "authors": "Martin Evans; Lewis Williams"
+    }
+   ]
+  },
+  "decoy_eldercare": {
+   "channel": "D",
+   "note": "decoy: the elder-support homonym",
+   "query": "(coresidence OR \"co-residence\" OR \"living with parents\" OR \"living at home\" OR \"parental home\" OR \"leaving home\" OR \"leaving the parental home\" OR \"home leaving\" OR \"nest leaving\" OR \"residential independence\" OR boomerang) AND (\"elderly parents\" OR \"older parents\" OR caregiving OR \"long-term care\" OR filial) AND (fertility OR childbearing OR \"first birth\" OR parenthood OR \"birth rate\")",
+   "frame_count": 51,
+   "error": null,
+   "top": [
+    {
+     "openalex": "W1990607865",
+     "doi": "10.2307/353569",
+     "title": "Race and Ethnic Variation in Norms of Filial Responsibility among Older Persons",
+     "year": 1999,
+     "type": "article",
+     "cited_by": 201,
+     "venue": "Journal of Marriage and the Family",
+     "authors": "Jeffrey A. Burr; Jan Mutchler"
+    },
+    {
+     "openalex": "W1547117390",
+     "doi": null,
+     "title": "Understanding Chinese Families: A Comparative Study of Taiwan and Southeast China",
+     "year": 2009,
+     "type": "preprint",
+     "cited_by": 101,
+     "venue": "RePEc: Research Papers in Economics",
+     "authors": "C. Y. Cyrus Chu; Ruoh\u2010Rong Yu"
+    },
+    {
+     "openalex": "W2141671745",
+     "doi": "10.1093/geronb/63.6.s349",
+     "title": "Parental Marital Disruption, Family Type, and Transfers to Disabled Elderly Parents",
+     "year": 2008,
+     "type": "article",
+     "cited_by": 73,
+     "venue": "The Journals of Gerontology Series B",
+     "authors": "Liliana E. Pezzin; Robert A. Pollak; Barbara Steinberg Schone"
+    },
+    {
+     "openalex": "W2051639185",
+     "doi": "10.2190/ag.68.2.b",
+     "title": "Parenthood, Stress, and Mental Health in Late Midlife and Early Old Age",
+     "year": 2009,
+     "type": "article",
+     "cited_by": 63,
+     "venue": "The International Journal of Aging and Human Development",
+     "authors": "Tetyana Pudrovska"
+    },
+    {
+     "openalex": "W1998298078",
+     "doi": "10.2307/2807975",
+     "title": "An Old-Age Security Motive for Fertility in the United States?",
+     "year": 1998,
+     "type": "article",
+     "cited_by": 48,
+     "venue": "Population and Development Review",
+     "authors": "Michael S. Rendall; Raisa A. Bahchieva"
+    },
+    {
+     "openalex": "W2153205364",
+     "doi": "10.1177/0032885514524692",
+     "title": "Preschool Outcomes of Children Who Lived as Infants in a Prison Nursery",
+     "year": 2014,
+     "type": "article",
+     "cited_by": 42,
+     "venue": "The Prison Journal",
+     "authors": "Lorie S. Goshin; Mary Byrne; Barbara Blanchard\u2010Lewis"
+    },
+    {
+     "openalex": "W2062552062",
+     "doi": "10.1007/s12062-010-9022-4",
+     "title": "Between Elderly Parents and Grandchildren\u2014Geographic Proximity and Trends in Four-Generation Families",
+     "year": 2009,
+     "type": "article",
+     "cited_by": 39,
+     "venue": "Journal of Population Ageing",
+     "authors": "Emma Lundholm; Gunnar Malmberg"
+    },
+    {
+     "openalex": "W2290949174",
+     "doi": "10.1016/j.childyouth.2016.02.026",
+     "title": "Growing up before their time: The early adultification experiences of homeless young people",
+     "year": 2016,
+     "type": "article",
+     "cited_by": 36,
+     "venue": "Children and Youth Services Review",
+     "authors": "Rachel M. Schmitz; Kimberly A. Tyler"
+    },
+    {
+     "openalex": "W4225725621",
+     "doi": "10.1093/sf/soac041",
+     "title": "Bringing Family Demography Back In: A Life Course Approach to the Gender Gap in Caregiving in the United States",
+     "year": 2022,
+     "type": "article",
+     "cited_by": 21,
+     "venue": "Social Forces",
+     "authors": "Erin Ice"
+    },
+    {
+     "openalex": "W2003916667",
+     "doi": "10.1097/psy.0b013e31825941ff",
+     "title": "Parenthood and Host Resistance to the Common Cold",
+     "year": 2012,
+     "type": "article",
+     "cited_by": 17,
+     "venue": "Psychosomatic Medicine",
+     "authors": "Rodlescia Sneed; Sheldon Cohen; Ronald B. Turner; William J. Doyle"
+    },
+    {
+     "openalex": "W3162295695",
+     "doi": "10.4054/demres.2021.44.40",
+     "title": "Introduction to the special collection on family changes and inequality in East Asia",
+     "year": 2021,
+     "type": "article",
+     "cited_by": 16,
+     "venue": "Demographic Research",
+     "authors": "Hyunjoon Park"
+    },
+    {
+     "openalex": "W2496985430",
+     "doi": "10.1093/acprof:oso/9780199578092.001.0001",
+     "title": "Understanding Chinese Families",
+     "year": 2009,
+     "type": "book",
+     "cited_by": 15,
+     "venue": "Oxford University Press eBooks",
+     "authors": "C. Y. Cyrus Chu; Ruoh\u2010Rong Yu"
+    },
+    {
+     "openalex": "W2626836486",
+     "doi": null,
+     "title": "Living arrangements and social support systems of the older population in Egypt.",
+     "year": 1997,
+     "type": "dissertation",
+     "cited_by": 13,
+     "venue": "Deep Blue (University of Michigan)",
+     "authors": "Zeinab Khadr"
+    },
+    {
+     "openalex": "W2240511346",
+     "doi": "10.4324/9781315552552-21",
+     "title": "Long-term Care: The Persistence of Familialism",
+     "year": 2016,
+     "type": "book-chapter",
+     "cited_by": 11,
+     "venue": null,
+     "authors": "Sebasti\u00e1n Sarasa"
+    },
+    {
+     "openalex": "W2802582561",
+     "doi": "10.1080/21582041.2018.1465201",
+     "title": "Reconceptualising co-residence in post-growth Japanese society",
+     "year": 2018,
+     "type": "article",
+     "cited_by": 8,
+     "venue": "Contemporary Social Science",
+     "authors": "Misa Izuhara"
+    },
+    {
+     "openalex": "W2593323909",
+     "doi": null,
+     "title": "Ageing and the changing role of the family in Sri Lanka.",
+     "year": 2015,
+     "type": "dissertation",
+     "cited_by": 7,
+     "venue": "Adelaide Research & Scholarship (AR&S) (University of Adelaide)",
+     "authors": "Kaluthantirige Dona Manori Sujeewani Kaluthantiri"
+    },
+    {
+     "openalex": "W2995337360",
+     "doi": "10.22161/ijaers.612.18",
+     "title": "Financial Income and Life Satisfaction of the Elderly Intergenerational Relations",
+     "year": 2019,
+     "type": "article",
+     "cited_by": 5,
+     "venue": "International Journal of Advanced Engineering Research and Science",
+     "authors": "Jamille dos Anjos Brito; Lucas Silveira Sampaio; Ros\u00e2ngela Souza Lessa; Alba Benem\u00e9rita Alves Vilela"
+    },
+    {
+     "openalex": "W2978330340",
+     "doi": "10.1097/jnr.0000000000000281",
+     "title": "The Challenges of Manpower in Long-Term Care: Intergenerational Learning Approach From Ageism to Caregiving",
+     "year": 2018,
+     "type": "article",
+     "cited_by": 5,
+     "venue": "Journal of Nursing Research",
+     "authors": "Li\u2010Chan Lin"
+    },
+    {
+     "openalex": "W621756163",
+     "doi": null,
+     "title": "Coresidence choices of elderly parents and adult children in Taiwan.",
+     "year": 1995,
+     "type": "dissertation",
+     "cited_by": 5,
+     "venue": "Deep Blue (University of Michigan)",
+     "authors": "Mary Beth Ofstedal"
+    },
+    {
+     "openalex": "W2308918742",
+     "doi": "10.1136/bmjspcare-2015-000906.2",
+     "title": "OA2 Chinese migrant peasant workers and the contradictory demands of filial piety in neo-liberal chinese society: a case study of filial end-of-life care in langzhong city",
+     "year": 2015,
+     "type": "conference-abstract",
+     "cited_by": 3,
+     "venue": null,
+     "authors": "Longtao He"
+    },
+    {
+     "openalex": "W4415196241",
+     "doi": "10.1111/fcre.70032",
+     "title": "Who cares? The legal (non)recognition of caregiving by single and childfree aunts in Taiwan",
+     "year": 2025,
+     "type": "article",
+     "cited_by": 2,
+     "venue": "Family Court Review",
+     "authors": "Chao-Ju Chen"
+    },
+    {
+     "openalex": "W4285101812",
+     "doi": "10.51952/9781447357414.ch003",
+     "title": "Emerging living arrangements of older adults in India: patterns and welfare implications",
+     "year": 2022,
+     "type": "book-chapter",
+     "cited_by": 2,
+     "venue": "Policy Press eBooks",
+     "authors": "K. S. James; Sanjay Kumar"
+    },
+    {
+     "openalex": "W2741937118",
+     "doi": "10.1360/n972016-00753",
+     "title": "Malthus\u2019 population theory is still wrong",
+     "year": 2017,
+     "type": "article",
+     "cited_by": 2,
+     "venue": "Chinese Science Bulletin (Chinese Version)",
+     "authors": "Yi Zeng"
+    },
+    {
+     "openalex": "W3165282042",
+     "doi": "10.1017/s0021911808001836",
+     "title": "Shrinking Population Economics: Lessons from Japan. By Akihito Matsutani. Tokyo: International House of Japan, 2006. xiv, 200 pp. \u00a51429 (paper).Tackling Japan's Fiscal Challenges: Strategies to Cope with High Public Debt and Population Ageing. Edited by Keimi Kaizua and Anne Krueger. New York: Palgrave Macmillan, 2006. xvi, 222 pp. $85.00 (cloth).Population Decline and Ageing in Japan\u2014The Social Consequences. By Florian Coulmas. New York: Routledge, 2007. viii, 167 pp. $150.00 (cloth).The Care of the Elderly in Japan. By Youngmei Wu. New York: Routledge. 2004. xv, 224 pp. $170.00 (cloth).Social Welfare in Japan: Principles and Applications. By Kojun Furkawa. Melbourne: Trans Pacific Press, 2008. xi, 425 pp. $109.95 Aus (cloth).",
+     "year": 2008,
+     "type": "book-review",
+     "cited_by": 2,
+     "venue": "The Journal of Asian Studies",
+     "authors": "John C. Campbell"
+    },
+    {
+     "openalex": "W2125416136",
+     "doi": "10.1093/geront/43.1.132",
+     "title": "IS GERONTOLOGY THE CHESHIRE CAT?",
+     "year": 2003,
+     "type": "article",
+     "cited_by": 2,
+     "venue": "The Gerontologist",
+     "authors": "Margaret Huyck"
+    }
+   ]
+  },
+  "decoy_premodern_niche": {
+   "channel": "D",
+   "note": "decoy: the pre-modern niche \u2014 A.7's under Ruling 2",
+   "query": "(\"European marriage pattern\" OR Hajnal OR \"preventive check\" OR \"niche\" OR \"peasant household\") AND (\"household formation\" OR marriage) AND fertility",
+   "frame_count": 106,
+   "error": null,
+   "top": [
+    {
+     "openalex": "W2106734645",
+     "doi": "10.1257/aer.103.6.2227",
+     "title": "How the West \u201cInvented\u201d Fertility Restriction",
+     "year": 2013,
+     "type": "article",
+     "cited_by": 243,
+     "venue": "American Economic Review",
+     "authors": "Nico Voigtl\u00e4nder; Hans\u2010Joachim Voth"
+    },
+    {
+     "openalex": "W2802907016",
+     "doi": "10.1111/padr.12149",
+     "title": "Living Alone in Later Life: A Global Perspective",
+     "year": 2018,
+     "type": "article",
+     "cited_by": 231,
+     "venue": "Population and Development Review",
+     "authors": "David Reher; Miguel Requena"
+    },
+    {
+     "openalex": "W2010816392",
+     "doi": "10.2307/1973757",
+     "title": "Period Paramount? A Critique of the Cohort Approach to Fertility",
+     "year": 1992,
+     "type": "article",
+     "cited_by": 192,
+     "venue": "Population and Development Review",
+     "authors": "M\u00e1ire N\u00ed Bhrolch\u00e1in"
+    },
+    {
+     "openalex": "W1979899036",
+     "doi": "10.2307/2137684",
+     "title": "Comparing Family Systems in Europe and Asia: Are There Different Sets of Rules?",
+     "year": 1996,
+     "type": "article",
+     "cited_by": 136,
+     "venue": "Population and Development Review",
+     "authors": "Jack Goody"
+    },
+    {
+     "openalex": "W2619820043",
+     "doi": "10.1111/padr.12043",
+     "title": "Trends in Age at Marriage and the Onset of Fertility Transition in sub\u2010Saharan Africa",
+     "year": 2017,
+     "type": "article",
+     "cited_by": 85,
+     "venue": "Population and Development Review",
+     "authors": "V\u00e9ronique Hertrich"
+    },
+    {
+     "openalex": "W2011732821",
+     "doi": "10.1007/bf01094008",
+     "title": "Secular changes in the short-term preventive, positive, and temperature checks to population growth in Europe, 1460 to 1909",
+     "year": 1994,
+     "type": "article",
+     "cited_by": 81,
+     "venue": "Climatic Change",
+     "authors": "Patrick R. Galloway"
+    },
+    {
+     "openalex": "W2044739077",
+     "doi": "10.1080/0032472031000148736",
+     "title": "Marital Fertility Control Among the Qing Nobility: Implications for Two Types of Preventive Check",
+     "year": 1995,
+     "type": "article",
+     "cited_by": 75,
+     "venue": "Population Studies",
+     "authors": "Feng Wang; James Lee; Cameron Campbell"
+    },
+    {
+     "openalex": "W2035819111",
+     "doi": "10.1016/j.eeh.2011.01.002",
+     "title": "The Western European marriage pattern and economic development",
+     "year": 2011,
+     "type": "article",
+     "cited_by": 71,
+     "venue": "Explorations in Economic History",
+     "authors": "James Foreman\u2013Peck"
+    },
+    {
+     "openalex": "W2067348468",
+     "doi": "10.1371/journal.pone.0042744",
+     "title": "Models of Cultural Niche Construction with Selection and Assortative Mating",
+     "year": 2012,
+     "type": "article",
+     "cited_by": 64,
+     "venue": "PLoS ONE",
+     "authors": "Nicole Creanza; Laurel Fogarty; Marcus W. Feldman"
+    },
+    {
+     "openalex": "W2070846032",
+     "doi": "10.1177/036319908701200108",
+     "title": "Hajnal and the Household in Asia: a Comparativist History of the Family in Preindustrial Japan, 1600-1870",
+     "year": 1987,
+     "type": "article",
+     "cited_by": 61,
+     "venue": "Journal of Family History",
+     "authors": "L. L. Cornell"
+    },
+    {
+     "openalex": "W2136686646",
+     "doi": "10.1017/s0144686x13000500",
+     "title": "Life-long singlehood: intersections of the past and the present",
+     "year": 2013,
+     "type": "article",
+     "cited_by": 56,
+     "venue": "Ageing and Society",
+     "authors": "Virpi Timonen; Martha Doyle"
+    },
+    {
+     "openalex": "W2325404434",
+     "doi": null,
+     "title": "Tracing Back the Eighteenth Century \"Nuptiality Transition\" in Finland",
+     "year": 1986,
+     "type": "book",
+     "cited_by": 55,
+     "venue": "IIASA PURE (International Institute of Applied Systems Analysis)",
+     "authors": "Wolfgang Lutz; K. Pitkaenen"
+    },
+    {
+     "openalex": "W2592063892",
+     "doi": "10.3138/jcfs.43.3.389",
+     "title": "Transformation of Partnership Formation in Eastern Europe: The Legacy of the Past Demographic Divide",
+     "year": 2012,
+     "type": "article",
+     "cited_by": 54,
+     "venue": "Journal of Comparative Family Studies",
+     "authors": "Allan Puur; Leen Rahnu; Au\u0161ra Maslauskait\u0117; Vlada Stank\u016bnien\u0117"
+    },
+    {
+     "openalex": "W2329866767",
+     "doi": "10.2307/205637",
+     "title": "A Millennium of Family Change: Feudalism to Capitalism in Northwestern Europe",
+     "year": 1994,
+     "type": "article",
+     "cited_by": 52,
+     "venue": "The Journal of Interdisciplinary History",
+     "authors": "Raymond A. Mentzer; Wally Seccombe"
+    },
+    {
+     "openalex": "W3124832931",
+     "doi": "10.2139/ssrn.1318637",
+     "title": "How the West 'Invented' Fertility Restriction",
+     "year": 2008,
+     "type": "preprint",
+     "cited_by": 43,
+     "venue": "SSRN Electronic Journal",
+     "authors": "Nico Voigtl\u00e4nder; Hans\u2010Joachim Voth"
+    },
+    {
+     "openalex": "W2343523988",
+     "doi": "10.1111/j.1728-4457.2016.00128.x",
+     "title": "Age at First Birth and Later Life Health in Western and Eastern Europe",
+     "year": 2016,
+     "type": "article",
+     "cited_by": 40,
+     "venue": "Population and Development Review",
+     "authors": "Emily Grundy; Else Foverskov"
+    },
+    {
+     "openalex": "W2306198841",
+     "doi": "10.18356/d39a54f1-en",
+     "title": "Fertility decline in Asia: The role of marriage change",
+     "year": 2007,
+     "type": "article",
+     "cited_by": 34,
+     "venue": "Asia-Pacific population journal",
+     "authors": "Gavin W. Jones"
+    },
+    {
+     "openalex": "W3107903520",
+     "doi": "10.1093/emph/eoaa047",
+     "title": "The Cheating Cell: How Evolution Helps Us Understand and Treat Cancer",
+     "year": 2020,
+     "type": "article",
+     "cited_by": 32,
+     "venue": "Evolution Medicine and Public Health",
+     "authors": "David Reese"
+    },
+    {
+     "openalex": "W4236845655",
+     "doi": "10.1093/oso/9780190847883.001.0001",
+     "title": "Capital Women",
+     "year": 2019,
+     "type": "book",
+     "cited_by": 28,
+     "venue": null,
+     "authors": "Jan Luiten van Zanden; Sarah Carmichael; Tine De Moor"
+    },
+    {
+     "openalex": "W2253468653",
+     "doi": "10.1111/sjoe.12119",
+     "title": "Malthus in Sweden",
+     "year": 2015,
+     "type": "article",
+     "cited_by": 28,
+     "venue": "Scandinavian Journal of Economics",
+     "authors": "Nils\u2010Petter Lagerl\u00f6f"
+    },
+    {
+     "openalex": "W2284733470",
+     "doi": null,
+     "title": "Socioeconomic and Familial Status of Women Associated With Age at First Marriage in Three Islamic Societies",
+     "year": 1996,
+     "type": "article",
+     "cited_by": 28,
+     "venue": "Journal of Comparative Family Studies",
+     "authors": "Tim B. Heaton"
+    },
+    {
+     "openalex": "W1970238736",
+     "doi": "10.1111/j.1468-0289.1980.tb01165.x",
+     "title": "The Demographic Impact of the Old Poor Law: More Reflexions on Malthus",
+     "year": 1980,
+     "type": "article",
+     "cited_by": 25,
+     "venue": "The Economic History Review",
+     "authors": "James P. Huzel"
+    },
+    {
+     "openalex": "W2102200188",
+     "doi": "10.1016/j.hisfam.2011.07.004",
+     "title": "How unique is the Western European marriage pattern? A comparison of nuptiality in historical Europe and the contemporary Arab world",
+     "year": 2011,
+     "type": "article",
+     "cited_by": 24,
+     "venue": "The History of the Family",
+     "authors": "Theo Engelen; Paul Puschmann"
+    },
+    {
+     "openalex": "W2005742653",
+     "doi": "10.1080/08898489009525314",
+     "title": "Turbulent dynamics in a Xviith century population",
+     "year": 1990,
+     "type": "article",
+     "cited_by": 21,
+     "venue": "Mathematical Population Studies",
+     "authors": "No\u00ebl Bonneuil"
+    },
+    {
+     "openalex": "W2936535489",
+     "doi": "10.3138/jcfs.18.3.427",
+     "title": "I Go To \u2019Tanties\u2019: The Economic Significance Of Child-Shifting in Antigua, West Indies",
+     "year": 1987,
+     "type": "article",
+     "cited_by": 19,
+     "venue": "Journal of Comparative Family Studies",
+     "authors": "Sally W. Gordon"
+    }
+   ]
+  },
+  "decoy_link1_only": {
+   "channel": "D",
+   "note": "decoy: link-1 only, no fertility outcome",
+   "query": "(coresidence OR \"co-residence\" OR \"living with parents\" OR \"living at home\" OR \"parental home\" OR \"leaving home\" OR \"leaving the parental home\" OR \"home leaving\" OR \"nest leaving\" OR \"residential independence\" OR boomerang) AND (\"union formation\" OR \"partnership formation\" OR \"marriage timing\") AND NOT (fertility OR childbearing OR \"first birth\" OR parenthood OR \"birth rate\")",
+   "frame_count": 50,
+   "error": null,
+   "top": [
+    {
+     "openalex": "W2789393606",
+     "doi": "10.1002/psp.2124",
+     "title": "Editorial introduction: Putting rural stayers in the spotlight",
+     "year": 2018,
+     "type": "editorial",
+     "cited_by": 161,
+     "venue": "Population Space and Place",
+     "authors": "Aileen Stockdale; Tialda Haartsen"
+    },
+    {
+     "openalex": "W2795805808",
+     "doi": "10.1080/0376835x.2018.1452716",
+     "title": "Who cares for children? A quantitative study of childcare in South Africa",
+     "year": 2018,
+     "type": "article",
+     "cited_by": 97,
+     "venue": "Development Southern Africa",
+     "authors": "Michelle Hatch; Dorrit Posel"
+    },
+    {
+     "openalex": "W2076601535",
+     "doi": "10.1111/1467-985x.00162",
+     "title": "Marriage or Cohabitation: A Competing Risks Analysis of First-Partnership Formation among the 1958 British Birth Cohort",
+     "year": 2000,
+     "type": "article",
+     "cited_by": 87,
+     "venue": "Journal of the Royal Statistical Society Series A (Statistics in Society)",
+     "authors": "Ann Berrington; Ian Diamond"
+    },
+    {
+     "openalex": "W2099144507",
+     "doi": "10.1007/s13524-010-0012-1",
+     "title": "Ethnic Differences in Leaving Home: Timing and Pathways",
+     "year": 2011,
+     "type": "article",
+     "cited_by": 84,
+     "venue": "Demography",
+     "authors": "Aslan Zorlu; Clara H. Mulder"
+    },
+    {
+     "openalex": "W30685942",
+     "doi": "10.1007/bf01796842",
+     "title": "The choice between a married or unmarried first union by young adults",
+     "year": 1991,
+     "type": "article",
+     "cited_by": 55,
+     "venue": "European Journal of Population / Revue europ\u00e9enne de D\u00e9mographie",
+     "authors": "Aart C. Liefbroer"
+    },
+    {
+     "openalex": "W2150012831",
+     "doi": "10.1177/0192513x06298236",
+     "title": "Coresidence With Parents, Women's Economic Resources, and the Transition to Marriage in Japan",
+     "year": 2007,
+     "type": "article",
+     "cited_by": 54,
+     "venue": "Journal of Family Issues",
+     "authors": "James M. Raymo; Hiromi Ono"
+    },
+    {
+     "openalex": "W2142395673",
+     "doi": "10.1023/a:1020264417389",
+     "title": "Leaving home in the Netherlands: Timing and first housing",
+     "year": 2002,
+     "type": "article",
+     "cited_by": 47,
+     "venue": "Journal of Housing and the Built Environment",
+     "authors": "Clara H. Mulder; Pieter Hooimeijer"
+    },
+    {
+     "openalex": "W163834085",
+     "doi": "10.1007/s10680-018-9490-4",
+     "title": "Who Moves to Whom? Gender Differences in the Distance Moved to a Shared Residence",
+     "year": 2018,
+     "type": "book-chapter",
+     "cited_by": 43,
+     "venue": "European Journal of Population / Revue europ\u00e9enne de D\u00e9mographie",
+     "authors": "Maria Brand\u00e9n; Karen Haandrikman"
+    },
+    {
+     "openalex": "W2995329137",
+     "doi": "10.1017/s0021932019000257",
+     "title": "Childlessness and union histories: evidence from Finnish population register data",
+     "year": 2019,
+     "type": "article",
+     "cited_by": 41,
+     "venue": "Journal of Biosocial Science",
+     "authors": "Jan Saarela; Vegard Skirbekk"
+    },
+    {
+     "openalex": "W2537361754",
+     "doi": "10.1016/j.alcr.2016.10.001",
+     "title": "Transition to adulthood in France: Do children of immigrants differ from natives?",
+     "year": 2016,
+     "type": "article",
+     "cited_by": 37,
+     "venue": "Advances in Life Course Research",
+     "authors": "Giulia Ferrari; Ariane Pailh\u00e9"
+    },
+    {
+     "openalex": "W2066956904",
+     "doi": "10.1007/s10680-005-4768-8",
+     "title": "Resources, Living Arrangements and First Union Formation in the United States, the Netherlands and West Germany",
+     "year": 2006,
+     "type": "article",
+     "cited_by": 36,
+     "venue": "European Journal of Population / Revue europ\u00e9enne de D\u00e9mographie",
+     "authors": "Clara H. Mulder; William A. V. Clark; Michael Wagner"
+    },
+    {
+     "openalex": "W2042833602",
+     "doi": "10.1002/(sici)1099-1220(199812)4:4<341::aid-ijpg113>3.0.co;2-c",
+     "title": "Leaving home in Spain: a regional analysis",
+     "year": 1998,
+     "type": "article",
+     "cited_by": 31,
+     "venue": "International Journal of Population Geography",
+     "authors": "Clare Holdsworth"
+    },
+    {
+     "openalex": "W2007963596",
+     "doi": "10.1111/j.1532-7795.2011.00755.x",
+     "title": "Adolescent Work Experiences and Family Formation Behavior",
+     "year": 2011,
+     "type": "article",
+     "cited_by": 27,
+     "venue": "Journal of Research on Adolescence",
+     "authors": "Jeremy Staff; Matthew VanEseltine; April D Woolnough; Eric Silver"
+    },
+    {
+     "openalex": "W1978097966",
+     "doi": "10.1016/j.alcr.2010.06.001",
+     "title": "Location choices of migrant nest-leavers: Spatial assimilation or continued segregation?",
+     "year": 2010,
+     "type": "article",
+     "cited_by": 26,
+     "venue": "Advances in Life Course Research",
+     "authors": "Aslan Zorlu; Clara H. Mulder"
+    },
+    {
+     "openalex": "W2098712459",
+     "doi": "10.1080/0034340022000022206",
+     "title": "Leaving home in Spain: When, where and why?",
+     "year": 2002,
+     "type": "article",
+     "cited_by": 24,
+     "venue": "Regional Studies",
+     "authors": "Clare Holdsworth; David Voas; Mark Tranmer"
+    },
+    {
+     "openalex": "W2565553800",
+     "doi": "10.1080/13676261.2016.1273520",
+     "title": "Young, anchored and free? Examining the dynamics of early housing pathways in Australia",
+     "year": 2016,
+     "type": "article",
+     "cited_by": 23,
+     "venue": "Journal of Youth Studies",
+     "authors": "Wojtek Tomaszewski; Jonathan Smith; Cameron Parsell; Bruce Tranter"
+    },
+    {
+     "openalex": "W2060020218",
+     "doi": "10.1007/s12546-014-9123-7",
+     "title": "Entering first union: the choice between cohabitation and marriage among women in Italy and Spain",
+     "year": 2014,
+     "type": "article",
+     "cited_by": 21,
+     "venue": "Journal of Population Research",
+     "authors": "Tha\u00eds Garc\u00eda\u2010Pereiro; Roberta Pace; Maria Grazia Didonna"
+    },
+    {
+     "openalex": "W3181230482",
+     "doi": "10.1007/s11113-021-09665-4",
+     "title": "The Transition to a Coresidential Partnership: Who Moves and Who Has the Partner Move In?",
+     "year": 2021,
+     "type": "article",
+     "cited_by": 11,
+     "venue": "Population Research and Policy Review",
+     "authors": "Sandra Krapf; Clara H. Mulder; Michael Wagner"
+    },
+    {
+     "openalex": "W2755085008",
+     "doi": "10.3138/jcfs.48.1.15",
+     "title": "Leaving Home of Migrant and Dutch Young Adults: Parent-Child and Peer Relations",
+     "year": 2017,
+     "type": "article",
+     "cited_by": 11,
+     "venue": "Journal of Comparative Family Studies",
+     "authors": "Tom Kleinepier; H.A.G. de Valk"
+    },
+    {
+     "openalex": "W4319162250",
+     "doi": "10.4054/demres.2023.48.6",
+     "title": "The educational gradient in young singlehood: The role of gender and the gender climate",
+     "year": 2023,
+     "type": "article",
+     "cited_by": 9,
+     "venue": "Demographic Research",
+     "authors": "L. van den Berg"
+    },
+    {
+     "openalex": "W3134793815",
+     "doi": "10.1177/0192513x21993201",
+     "title": "Testing the Economic Independence Hypothesis: Union Formation Among Single Mothers in Chile",
+     "year": 2021,
+     "type": "article",
+     "cited_by": 6,
+     "venue": "Journal of Family Issues",
+     "authors": "Laura Cuesta; Sarah Reynolds"
+    },
+    {
+     "openalex": "W3041532462",
+     "doi": "10.1111/jomf.12700",
+     "title": "Stepfamily Effects on Early Home\u2010Leaving : The Role of Conflict and Closeness",
+     "year": 2020,
+     "type": "article",
+     "cited_by": 6,
+     "venue": "Journal of Marriage and the Family",
+     "authors": "L. van den Berg; Matthijs Kalmijn; Thomas L\u00e9opold"
+    },
+    {
+     "openalex": "W7118803265",
+     "doi": "10.1371/journal.pone.0339587",
+     "title": "The Patriarchy Index for Asia: A new tool for subnational analysis of gender inequalities",
+     "year": 2026,
+     "type": "article",
+     "cited_by": 3,
+     "venue": "PLoS ONE",
+     "authors": "Miko\u0142aj Szo\u0142tysek; Bartosz Og\u00f3rek; M J Grzyb; Siegfried Gruber"
+    },
+    {
+     "openalex": "W2572989871",
+     "doi": null,
+     "title": "Diverging pathways? Sibling differences in marriage timing in a commercialized rural region of the Netherlands, 1860-1940",
+     "year": 2016,
+     "type": "book",
+     "cited_by": 3,
+     "venue": "Socio-Environmental Systems Modeling",
+     "authors": "Hilde Bras; Jan Kok"
+    },
+    {
+     "openalex": "W4250180352",
+     "doi": "10.1007/978-1-4020-5614-7_1116",
+     "title": "Family Composition",
+     "year": 2008,
+     "type": "reference-entry",
+     "cited_by": 3,
+     "venue": null,
+     "authors": "Margaret M. Weden"
+    }
+   ]
+  }
+ },
+ "errors": {}
+}
