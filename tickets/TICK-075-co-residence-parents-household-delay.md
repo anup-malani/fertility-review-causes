@@ -1,5 +1,5 @@
 # TICK-075: A.23 Co-Residence with Parents and Delayed Household Formation
-**Status:** open
+**Status:** in-progress
 **Assigned:** Shravan
 **Hypothesis:** `co-residence-parents-household-delay` — HYPOTHESES-v5.md §A.23
 **Parallel-safe:** yes
