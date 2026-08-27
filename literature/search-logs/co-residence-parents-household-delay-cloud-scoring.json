@@ -1,0 +1,101 @@
+{
+ "meta": {
+  "ticket": "TICK-075",
+  "after_round": 2,
+  "pool_size": 3793,
+  "scoring": "TITLE ONLY; every percentage is a floor, not an estimate.",
+  "supersedes": "219's inline round-2 pre-launch figure (n=2010), which was an operator-precedence bug: `set(a) | set(b) & seeds` parses as `set(a) | (set(b) & seeds)`."
+ },
+ "groups": {
+  "whole_pool": {
+   "n": 3793,
+   "exposure_prelaunch_pct": 14.4,
+   "exposure_extended_pct": 6.9,
+   "fertility_pct": 14.1,
+   "prelaunch_x_fertility_pct": 0.3,
+   "extended_x_fertility_pct": 1.0,
+   "labour_supply_pct": 7.5,
+   "eldercare_pct": 6.5
+  },
+  "round1_only": {
+   "n": 2584,
+   "exposure_prelaunch_pct": 11.7,
+   "exposure_extended_pct": 9.4,
+   "fertility_pct": 15.3,
+   "prelaunch_x_fertility_pct": 0.3,
+   "extended_x_fertility_pct": 1.4,
+   "labour_supply_pct": 8.0,
+   "eldercare_pct": 8.7
+  },
+  "round2_new": {
+   "n": 1209,
+   "exposure_prelaunch_pct": 20.3,
+   "exposure_extended_pct": 1.4,
+   "fertility_pct": 11.6,
+   "prelaunch_x_fertility_pct": 0.4,
+   "extended_x_fertility_pct": 0.2,
+   "labour_supply_pct": 6.5,
+   "eldercare_pct": 1.7
+  },
+  "cloud_r1_prelaunch_seeds": {
+   "n": 219,
+   "exposure_prelaunch_pct": 21.9,
+   "exposure_extended_pct": 0.0,
+   "fertility_pct": 11.4,
+   "prelaunch_x_fertility_pct": 0.0,
+   "extended_x_fertility_pct": 0.0,
+   "labour_supply_pct": 5.9,
+   "eldercare_pct": 1.4
+  },
+  "cloud_r2_prelaunch_seeds": {
+   "n": 1070,
+   "exposure_prelaunch_pct": 22.6,
+   "exposure_extended_pct": 1.5,
+   "fertility_pct": 14.1,
+   "prelaunch_x_fertility_pct": 0.6,
+   "extended_x_fertility_pct": 0.0,
+   "labour_supply_pct": 7.5,
+   "eldercare_pct": 1.2
+  },
+  "cloud_all_prelaunch_seeds": {
+   "n": 1260,
+   "exposure_prelaunch_pct": 21.8,
+   "exposure_extended_pct": 1.3,
+   "fertility_pct": 13.7,
+   "prelaunch_x_fertility_pct": 0.5,
+   "extended_x_fertility_pct": 0.0,
+   "labour_supply_pct": 7.3,
+   "eldercare_pct": 1.3
+  },
+  "cloud_extended_seeds": {
+   "n": 809,
+   "exposure_prelaunch_pct": 2.0,
+   "exposure_extended_pct": 21.8,
+   "fertility_pct": 30.5,
+   "prelaunch_x_fertility_pct": 0.2,
+   "extended_x_fertility_pct": 3.8,
+   "labour_supply_pct": 18.7,
+   "eldercare_pct": 4.3
+  },
+  "cloud_decoy_seeds_only": {
+   "n": 482,
+   "exposure_prelaunch_pct": 5.6,
+   "exposure_extended_pct": 11.0,
+   "fertility_pct": 6.4,
+   "prelaunch_x_fertility_pct": 0.2,
+   "extended_x_fertility_pct": 0.2,
+   "labour_supply_pct": 3.5,
+   "eldercare_pct": 20.3
+  },
+  "multi_seed_3plus": {
+   "n": 138,
+   "exposure_prelaunch_pct": 28.3,
+   "exposure_extended_pct": 18.1,
+   "fertility_pct": 29.0,
+   "prelaunch_x_fertility_pct": 0.7,
+   "extended_x_fertility_pct": 8.0,
+   "labour_supply_pct": 12.3,
+   "eldercare_pct": 2.9
+  }
+ }
+}

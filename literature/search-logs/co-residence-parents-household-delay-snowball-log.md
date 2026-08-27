@@ -121,3 +121,85 @@ the estimand job before believing either.
    the only route to identified pre-launch evidence.
 4. Round 2 is a **prerequisite to the production query**, not an optional extra: with channel 1 dry,
    this frame is the recall denominator.
+
+---
+
+# Round 2 — 2026-08-27
+
+**Scripts:** `219_a23_snowball_round2.py` (pull), `220_a23_cloud_scoring.py` (measurement)
+
+Round 2 did exactly what round 1's measurements said to do: page the two capped **pre-launch** forward
+tails, add pre-launch seeds chosen because they already span both axes, and spend nothing on the decoy
+cloud.
+
+| | |
+|---|---|
+| Pool before / after | 2,584 → **3,793** (+1,209) |
+| New seeds gated through Crossref | 8 / 8 FOUND |
+| Furstenberg 2010 tail | +239 records |
+| *Leaving Home in Europe* tail | +46 records |
+| Errors | 0 |
+| Deliberately **not** paged | Reher 1998 (1,359 citations) and filial responsibility (202) — decoy tails |
+
+## 7. The pre-launch arm does not connect to fertility, and this is now measured three ways
+
+Scoring on titles (`220`), all figures floors:
+
+| Cloud | n | pre-launch exposure | extended exposure | fertility | **pre-launch × fertility** | extended × fertility | labour supply |
+|---|---|---|---|---|---|---|---|
+| Round-1 pre-launch seeds | 219 | 21.9% | 0.0% | 11.4% | **0.0%** | 0.0% | 5.9% |
+| Round-2 pre-launch seeds | 1,070 | 22.6% | 1.5% | 14.1% | **0.6%** | 0.0% | 7.5% |
+| All pre-launch seeds | 1,260 | 21.8% | 1.3% | 13.7% | **0.5%** | 0.0% | 7.3% |
+| Extended-household seeds | 809 | 2.0% | 21.8% | 30.5% | 0.2% | **3.8%** | 18.7% |
+
+Round 2 bought **exposure** coverage and not **outcome** coverage: the 1,209 new records are 20.3%
+pre-launch exposure and 0.4% pre-launch × fertility. Adding seeds that themselves span both axes did
+not produce a cloud that spans both axes.
+
+**The whole pre-launch cloud — 1,260 records reached from eleven pre-launch seeds across two rounds —
+contains six records naming both an exposure and a fertility outcome in the title:**
+
+```
+1991 [643]  10.2307/2061419                  The Young Adult Years: Diversity, Structural Change, and Fertility
+2005 [226]  10.1080/01419870500224349        Turning points in the transition to adulthood
+2008 [ 59]  10.1553/populationyearbook2008s57 Institutions and the transition to adulthood: fertility tempo
+2014 [ 36]  10.1007/s11113-014-9334-9        Parenthood and Leaving Home in Young Adulthood
+2019 [ 11]  10.3224/zff.v31i1.03             Does fixed-term employment delay important partnership events?
+2025 [  7]  10.1002/psp.2883                 Parental Dependency and Costly Offspring: Housing and Fertility of Young Adults in China
+```
+
+Three of the six are on-cell. This is the citation channel's entire yield for the arm the registered
+hypothesis actually names.
+
+That finding now rests on three independent measurements: anchor sourcing (3 pre-launch gold
+candidates against 16 extended), the round-1 network (0.0%), and the round-2 network after a
+deliberate correction aimed at fixing it (0.5%). **It is a property of the literature, not of the
+seeds.**
+
+### What follows
+
+1. **The citation channel is exhausted for the pre-launch arm.** A round 3 aimed at it would be
+   spending on a channel that has now failed twice for a measured reason. The remaining route is
+   channel 5 — the eight named designs of scope §4 — and if those come back empty, the honest chapter
+   result is that the registered hypothesis has almost no fertility-outcome evidence base. That is a
+   finding, and the evidence-base posture in §11 already commits the chapter to reporting it with the
+   denominator visible.
+2. **Do not split the chapter.** The two arms differ in sign, in literature, and now in evidence
+   volume, which is the profile that usually argues for two chapters. It cannot be done here: the
+   split field is the life-stage configuration, and §6 established that this is a **full-text fact** —
+   the same household appears in both roles in the same dataset a decade apart. A registry split
+   requires a field visible at title/abstract, and this one is not. The split stays where Ruling 1 put
+   it: two pooled cells inside one chapter, split at synthesis.
+3. **Watch the extended arm's estimand, not its designs.** Its cloud is 30.5% fertility but 18.7%
+   labour supply, and the identified pension-reform designs mostly belong to a literature whose own
+   outcome is maternal employment. The full-text screen must record the estimand per effect;
+   design quality does not transfer across outcomes.
+
+## 8. A correction inside this round
+
+`219` scored its own round-2 pre-launch cloud at n = 2,010 — wrong. The expression was
+`set(back) | set(fwd) & seeds`, and `&` binds tighter than `|`, so it read as
+`set(back) | (set(fwd) & seeds)` and matched every record with any backward seed at all. Corrected to
+`(set(back) | set(fwd)) & seeds`, which gives n = 1,070. The scoring has been moved out of the pull
+script into `220` so the arithmetic is re-runnable against the saved pool without re-pulling, and the
+superseded figure is recorded in `220`'s output rather than quietly replaced.

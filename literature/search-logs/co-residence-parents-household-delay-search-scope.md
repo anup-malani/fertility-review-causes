@@ -417,7 +417,34 @@ of them earned its flag for a different reason: reading the resolved title of `1
 reclassified out of the gold set and into the decoy set. **The gate's value here was not the DOI
 check — every DOI resolved — it was reading what came back.**
 
-## 14. When to adjudicate
+## 14. Status of the two arms after sourcing and snowball (2026-08-27)
+
+Three independent measurements now agree, and they change what this chapter is going to be able to
+say. Recorded here so the synthesis stage inherits it rather than rediscovering it.
+
+| | Pre-launch arm (the registered claim) | Extended-household arm |
+|---|---|---|
+| Gold candidates from anchor sourcing | 3 | 16 |
+| Identified designs surviving sourcing | ~0 | 6 (pension / retirement-age variation) |
+| Citation cloud reached | 1,260 records | 809 records |
+| Records pairing exposure with a fertility outcome | **6 (0.5%)** | 3.8% |
+| Predicted sign | negative | positive |
+
+The pre-launch arm is the hypothesis as registered, and it is the arm with almost no evidence. The
+extended-household arm has the evidence, the identification, and the opposite sign. §7's verdict will
+be configuration-conditional not as a refinement but because there is no single quantity to report.
+
+**The chapter is not split.** The profile — different signs, different literatures, different evidence
+volumes — is the one that usually argues for two chapters, and the review's standing rule is that a
+split belongs at synthesis unless the splitting field is visible at title/abstract. Here it is not:
+§6 established that the life-stage configuration is a full-text fact. So the split stays where Ruling
+1 put it, as two pooled cells in one chapter.
+
+**The remaining route to pre-launch evidence is channel 5**, the eight named designs of §4. The
+citation channel has now failed for that arm twice, for a measured reason, and a third round would be
+spending against a known result.
+
+## 15. When to adjudicate
 
 The title/abstract screen decides the stream only. It does **not** ask the RA to determine the
 life-stage configuration, the anticipation control, or the tempo/quantum reading from an abstract —

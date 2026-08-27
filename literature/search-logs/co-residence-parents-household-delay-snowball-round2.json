@@ -1,0 +1,85 @@
+{
+ "meta": {
+  "ticket": "TICK-075",
+  "round": 2,
+  "pool_before": 2584,
+  "pool_after": 3793,
+  "added": 1209,
+  "new_seeds_gated": 8,
+  "new_seeds_found": 8,
+  "tail_pages_added": {
+   "10.1353/foc.0.0038": 239,
+   "10.1002/ijpg.231": 46
+  },
+  "errors": 0,
+  "round2_prelaunch_cloud": {
+   "n": 2010,
+   "fertility_outcome_pct": 15.4,
+   "both_axes_pct": 0.4,
+   "round1_comparison": "round-1 pre-launch cloud was n=219, 11.4% fertility, 0.0% both axes"
+  },
+  "not_paged_deliberately": [
+   "10.2307/2807972 (Reher 1998, 1359 citations) \u2014 theory/Wall-3 decoy tail",
+   "10.2307/353569 (filial responsibility, 202 citations) \u2014 elder-support decoy tail"
+  ]
+ },
+ "existence_gate": [
+  {
+   "doi": "10.1553/populationyearbook2008s57",
+   "recorded": "Institutions and the transition to adulthood: implications for fertility tempo",
+   "resolved_title": "Institutions and the transition to adulthood: Implications for fertility tempo in low-fertility settings",
+   "existence": "FOUND",
+   "cell": "PRIMARY_PRELAUNCH"
+  },
+  {
+   "doi": "10.4054/demres.2017.36.20",
+   "recorded": "The timing of marriage vis-a-vis coresidence and childbearing",
+   "resolved_title": "The timing of marriage vis-\u00e0-vis coresidence and childbearing in Europe and the United States",
+   "existence": "FOUND",
+   "cell": "PRIMARY_PRELAUNCH"
+  },
+  {
+   "doi": "10.1016/j.alcr.2014.08.001",
+   "recorded": "Moving and union formation in the transition to adulthood in the United States",
+   "resolved_title": "Moving and union formation in the transition to adulthood in the United States",
+   "existence": "FOUND",
+   "cell": "LINK1_ARRANGEMENT_TO_UNION"
+  },
+  {
+   "doi": "10.20377/jfr-953",
+   "recorded": "Employment conditions and non-coresidential partnership in very-low fertility countries",
+   "resolved_title": "Employment conditions and non-coresidential partnership in very-low fertility countries: Italy and Japan",
+   "existence": "FOUND",
+   "cell": "PRIMARY_PRELAUNCH"
+  },
+  {
+   "doi": "10.1080/13229400.2025.2452243",
+   "recorded": "Family migration in Chinese superstar cities: fertility intentions of migrants",
+   "resolved_title": "Family migration in Chinese superstar cities: are fertility intentions of migrants affected by co-resident parents?",
+   "existence": "FOUND",
+   "cell": "PRIMARY_PRELAUNCH"
+  },
+  {
+   "doi": "10.1080/13676261.2015.1112884",
+   "recorded": "Parental co-residence, shared living and emerging adulthood in Europe",
+   "resolved_title": "Parental co-residence, shared living and emerging adulthood in Europe: semi-dependent housing across welfare regime and housing system contexts",
+   "existence": "FOUND",
+   "cell": "PRIMARY_PRELAUNCH"
+  },
+  {
+   "doi": "10.1007/s13524-013-0247-8",
+   "recorded": "Gender, Turning Points, and Boomerangs: Returning Home in Young Adulthood",
+   "resolved_title": "Gender, Turning Points, and Boomerangs: Returning Home in Young Adulthood in Great Britain",
+   "existence": "FOUND",
+   "cell": "PRIMARY_PRELAUNCH"
+  },
+  {
+   "doi": "10.1006/juec.1998.2083",
+   "recorded": "Prices, Parents, and Young People's Household Formation",
+   "resolved_title": "Prices, Parents, and Young People's Household Formation",
+   "existence": "FOUND",
+   "cell": "LINK1_DRIVER_TO_ARRANGEMENT"
+  }
+ ],
+ "errors": {}
+}
