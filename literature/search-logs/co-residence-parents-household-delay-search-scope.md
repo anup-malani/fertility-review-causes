@@ -548,7 +548,7 @@ Fixed.
 
 ### The adopted query
 
-On the corrected gold set of 12, four variants reach **100%**:
+On the corrected gold set (12 at the time of writing, 11 after the ninth reclassification below), the variants reach **100%**:
 
 | Variant | frame | gold recall | decoys admitted |
 |---|---|---|---|
@@ -579,12 +579,27 @@ What survives from §16 is the real finding: the Spanish study was found by the 
 ("eligibility age", "age cutoff"), not by any exposure term, and a design can be named correctly in a
 scope and still be unfindable through the mechanism's vocabulary.
 
+### A ninth reclassification, caught by the screen (2026-08-27)
+
+Screening batch 14 turned up a duplicate of the anchor *Grandparenting and Childbearing in the
+Extended Family* that carries an abstract the anchor record lacks. It shows the exposure is
+**grandparents' childcare provision measured in SHARE**, not co-residence — the same error as the
+other eight, and it survived the 223 audit only because that audit had nothing to read. The anchor is
+reclassified to `OFF_CHILDCARE_C2a` and gold falls from 12 to **11**. Recall is unchanged at 100% on
+every variant.
+
+The generalisable point: **a title-only record cannot clear an exposure test.** 223 scored nine
+anchors `NO_ABSTRACT` and left them on their titles; at least one of those was wrong in the direction
+the test exists to catch. The remaining eight should be re-checked against full text at extraction
+rather than trusted, and the screen — which sees duplicates the anchor set does not — is a second
+channel for catching them.
+
 ### The recall figure's limitation, stated
 
-Gold is **12 records**, against the cold-start protocol's cross-validation floor of ≥30 empirical
+Gold is **11 records**, against the cold-start protocol's cross-validation floor of ≥30 empirical
 anchors. Channel 1 is dry (§13) so no external-authority anchors exist, and after the §17
 reclassification the gold set is small. It is also not fully independent of the query: several anchors
-were sourced with vocabulary that overlaps the cause axis. **100% recall on 12 partly non-independent
+were sourced with vocabulary that overlaps the cause axis. **100% recall on 11 partly non-independent
 anchors is a weak guarantee, and should be read as "no known miss" rather than as a recall estimate.**
 The screen's own outputs, and the RA gate, remain the real test.
 

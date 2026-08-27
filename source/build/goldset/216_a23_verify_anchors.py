@@ -90,7 +90,12 @@ CANDIDATES = [
     ("10.1007/s10797-023-09822-9", "Grandparental childcare, family allowances and retirement policies", "OFF_CHILDCARE_C2a", "215:pension_shock", "RECLASSIFIED 2026-08-27 by the 223 exposure audit: Retirement policy and family allowances; no arrangement exposure."),
     ("10.2139/ssrn.2420716", "Roadblocks on the Road to Grandma's House: Fertility Consequences", "PRIMARY_EXTENDED_COUPLE", "215:pension_shock", "design 8; preprint — version-of-record check required"),
     # --- PRIMARY_EXTENDED_COUPLE, observational core ---
-    ("10.1007/s10680-012-9273-2", "Grandparenting and Childbearing in the Extended Family", "PRIMARY_EXTENDED_COUPLE", "215:grandparent_childcare", ""),
+    # RECLASSIFIED 2026-08-27, second pass. The 223 audit could not reach this record's
+    # abstract, so it survived on its title. Screening batch 14 turned up a duplicate that
+    # DOES carry one: the exposure is GRANDPARENTS' CHILDCARE PROVISION measured in SHARE,
+    # not co-residence. Same error as the other eight, caught later only because the gate
+    # had nothing to read. A title-only record cannot clear an exposure test.
+    ("10.1007/s10680-012-9273-2", "Grandparenting and Childbearing in the Extended Family", "OFF_CHILDCARE_C2a", "215:grandparent_childcare", "RECLASSIFIED: exposure is grandparental childcare provision (SHARE, 11 countries), not the living arrangement. C.2.a's under the what-varies rule."),
     ("10.1093/esr/jcad040", "Do grandparents really matter? The effect of regular grandparental childcare", "OFF_CHILDCARE_C2a", "215:grandparent_childcare", "RECLASSIFIED 2026-08-27 by the 223 exposure audit: Regular grandparental childcare as the exposure; arrangement not varied."),
     ("10.4054/demres.2014.31.1", "The impact of grandparental investment on mothers' fertility intentions", "OFF_CHILDCARE_C2a", "215:grandparent_childcare", "RECLASSIFIED 2026-08-27 by the 223 exposure audit: Grandparental investment; arrangement absent from the abstract."),
     ("10.1371/journal.pone.0286496", "Grandparental childcare and second births in China", "OFF_CHILDCARE_C2a", "215:grandparent_childcare", "RECLASSIFIED 2026-08-27 by the 223 exposure audit: Grandparental childcare and second births; the exposure is care, not co-residence."),

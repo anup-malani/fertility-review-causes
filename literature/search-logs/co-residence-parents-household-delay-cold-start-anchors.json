@@ -156,10 +156,10 @@
    "title_jaccard": 1.0,
    "existence": "FOUND",
    "identity_source": "crossref",
-   "provisional_cell": "PRIMARY_EXTENDED_COUPLE",
+   "provisional_cell": "OFF_CHILDCARE_C2a",
    "provenance_channel": "215:grandparent_childcare",
-   "note": "",
-   "gold_status": "gold_candidate"
+   "note": "RECLASSIFIED: exposure is grandparental childcare provision (SHARE, 11 countries), not the living arrangement. C.2.a's under the what-varies rule.",
+   "gold_status": "not_gold"
   },
   {
    "doi": "10.1093/esr/jcad040",
