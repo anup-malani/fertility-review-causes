@@ -1,0 +1,151 @@
+{
+ "meta": {
+  "ticket": "TICK-075",
+  "hypothesis": "A.23 co-residence-parents-household-delay",
+  "source": "OpenAlex title_and_abstract.search",
+  "authenticated": true,
+  "failed_probes": 0,
+  "note": "Counts are frame sizes, not evidence counts. A failed probe is recorded as an error and is NOT a zero."
+ },
+ "probes": {
+  "exposure_all": {
+   "count": 32795,
+   "error": null,
+   "purpose": "the whole exposure cloud, any outcome",
+   "query": "((coresidence OR \"co-residence\" OR coresiding OR coresident OR \"living with parents\" OR \"living at home\" OR \"parental home\") OR (\"leaving home\" OR \"leaving the parental home\" OR \"home leaving\" OR \"nest leaving\" OR \"residential independence\" OR boomerang) OR (\"household formation\" OR \"independent household\" OR \"multigenerational household\"))"
+  },
+  "coreside_only": {
+   "count": 17869,
+   "error": null,
+   "purpose": "co-residence sub-cloud alone",
+   "query": "(coresidence OR \"co-residence\" OR coresiding OR coresident OR \"living with parents\" OR \"living at home\" OR \"parental home\")"
+  },
+  "leaving_only": {
+   "count": 13820,
+   "error": null,
+   "purpose": "leaving-home sub-cloud alone",
+   "query": "(\"leaving home\" OR \"leaving the parental home\" OR \"home leaving\" OR \"nest leaving\" OR \"residential independence\" OR boomerang)"
+  },
+  "hhform_only": {
+   "count": 2192,
+   "error": null,
+   "purpose": "household-formation sub-cloud alone",
+   "query": "(\"household formation\" OR \"independent household\" OR \"multigenerational household\")"
+  },
+  "exposure_x_fertility": {
+   "count": 1012,
+   "error": null,
+   "purpose": "PRIMARY cell frame: exposure with a fertility outcome",
+   "query": "((coresidence OR \"co-residence\" OR coresiding OR coresident OR \"living with parents\" OR \"living at home\" OR \"parental home\") OR (\"leaving home\" OR \"leaving the parental home\" OR \"home leaving\" OR \"nest leaving\" OR \"residential independence\" OR boomerang) OR (\"household formation\" OR \"independent household\" OR \"multigenerational household\")) AND (fertility OR childbearing OR \"first birth\" OR parenthood OR \"birth rate\")"
+  },
+  "exposure_x_union": {
+   "count": 1948,
+   "error": null,
+   "purpose": "link-1 cell: exposure with a union outcome only",
+   "query": "((coresidence OR \"co-residence\" OR coresiding OR coresident OR \"living with parents\" OR \"living at home\" OR \"parental home\") OR (\"leaving home\" OR \"leaving the parental home\" OR \"home leaving\" OR \"nest leaving\" OR \"residential independence\" OR boomerang) OR (\"household formation\" OR \"independent household\" OR \"multigenerational household\")) AND (\"union formation\" OR \"partnership formation\" OR marriage OR cohabitation)"
+  },
+  "exposure_x_fert_x_ident": {
+   "count": 87,
+   "error": null,
+   "purpose": "identified sub-frame",
+   "query": "((coresidence OR \"co-residence\" OR coresiding OR coresident OR \"living with parents\" OR \"living at home\" OR \"parental home\") OR (\"leaving home\" OR \"leaving the parental home\" OR \"home leaving\" OR \"nest leaving\" OR \"residential independence\" OR boomerang) OR (\"household formation\" OR \"independent household\" OR \"multigenerational household\")) AND (fertility OR childbearing OR \"first birth\" OR parenthood OR \"birth rate\") AND (instrument OR \"natural experiment\" OR \"difference-in-differences\" OR experimental OR \"regression discontinuity\" OR causal OR exogenous)"
+  },
+  "exposure_x_fert_x_elder": {
+   "count": 124,
+   "error": null,
+   "purpose": "the eldercare homonym inside the primary frame",
+   "query": "((coresidence OR \"co-residence\" OR coresiding OR coresident OR \"living with parents\" OR \"living at home\" OR \"parental home\") OR (\"leaving home\" OR \"leaving the parental home\" OR \"home leaving\" OR \"nest leaving\" OR \"residential independence\" OR boomerang) OR (\"household formation\" OR \"independent household\" OR \"multigenerational household\")) AND (fertility OR childbearing OR \"first birth\" OR parenthood OR \"birth rate\") AND (elderly OR caregiving OR \"older parents\" OR \"long-term care\" OR dementia OR filial)"
+  },
+  "coreside_x_fert": {
+   "count": 632,
+   "error": null,
+   "purpose": "co-residence sub-cloud with fertility",
+   "query": "(coresidence OR \"co-residence\" OR coresiding OR coresident OR \"living with parents\" OR \"living at home\" OR \"parental home\") AND (fertility OR childbearing OR \"first birth\" OR parenthood OR \"birth rate\")"
+  },
+  "coreside_x_fert_x_elder": {
+   "count": 104,
+   "error": null,
+   "purpose": "eldercare share of the co-residence sub-cloud",
+   "query": "(coresidence OR \"co-residence\" OR coresiding OR coresident OR \"living with parents\" OR \"living at home\" OR \"parental home\") AND (fertility OR childbearing OR \"first birth\" OR parenthood OR \"birth rate\") AND (elderly OR caregiving OR \"older parents\" OR \"long-term care\" OR dementia OR filial)"
+  },
+  "leaving_x_fert": {
+   "count": 309,
+   "error": null,
+   "purpose": "leaving-home sub-cloud with fertility",
+   "query": "(\"leaving home\" OR \"leaving the parental home\" OR \"home leaving\" OR \"nest leaving\" OR \"residential independence\" OR boomerang) AND (fertility OR childbearing OR \"first birth\" OR parenthood OR \"birth rate\")"
+  },
+  "hhform_x_fert": {
+   "count": 212,
+   "error": null,
+   "purpose": "household-formation sub-cloud with fertility",
+   "query": "(\"household formation\" OR \"independent household\" OR \"multigenerational household\") AND (fertility OR childbearing OR \"first birth\" OR parenthood OR \"birth rate\")"
+  }
+ },
+ "solo_terms": {
+  "coresidence": {
+   "count": 116,
+   "error": null
+  },
+  "\"co-residence\"": {
+   "count": 155,
+   "error": null
+  },
+  "coresiding": {
+   "count": 41,
+   "error": null
+  },
+  "coresident": {
+   "count": 70,
+   "error": null
+  },
+  "\"living with parents\"": {
+   "count": 49,
+   "error": null
+  },
+  "\"living at home\"": {
+   "count": 48,
+   "error": null
+  },
+  "\"parental home\"": {
+   "count": 213,
+   "error": null
+  },
+  "\"leaving home\"": {
+   "count": 146,
+   "error": null
+  },
+  "\"leaving the parental home\"": {
+   "count": 91,
+   "error": null
+  },
+  "\"home leaving\"": {
+   "count": 61,
+   "error": null
+  },
+  "\"nest leaving\"": {
+   "count": 8,
+   "error": null
+  },
+  "\"residential independence\"": {
+   "count": 20,
+   "error": null
+  },
+  "boomerang": {
+   "count": 24,
+   "error": null
+  },
+  "\"household formation\"": {
+   "count": 168,
+   "error": null
+  },
+  "\"independent household\"": {
+   "count": 20,
+   "error": null
+  },
+  "\"multigenerational household\"": {
+   "count": 29,
+   "error": null
+  }
+ },
+ "errors": {}
+}

@@ -234,10 +234,56 @@ co-residence rates, without isolated variation in the arrangement, is C.2.g's.
    dwelling-destruction shocks destroy local labour markets; benefit age thresholds move income as well
    as accommodation.
 
-## 11. Evidence-base posture
+## 11. Measured frame, and the evidence-base posture
+
+`213_a23_frame_probe.py` sizes the cells on OpenAlex `title_and_abstract.search` before any production
+query is written. These are **frame sizes, not evidence counts** — what a screen would have to read,
+not what would survive it. No probe failed; a failed probe is recorded as an error and never as a zero.
+
+| | records |
+|---|---|
+| Exposure cloud, any outcome | 32,795 |
+| — co-residence sub-cloud | 17,869 |
+| — leaving-home sub-cloud | 13,820 |
+| — household-formation sub-cloud | 2,192 |
+| **Exposure ∩ fertility outcome — the screenable frame** | **1,012** |
+| Exposure ∩ *union* outcome (link 1 only) | 1,948 |
+| Exposure ∩ fertility ∩ identification vocabulary | 87 |
+| Exposure ∩ fertility ∩ elder-support vocabulary | 124 |
+
+Three readings, all of which the scope above anticipated and one of which it can now size.
+
+**The literature stops before the birth.** The union-outcome frame is nearly twice the fertility frame
+— 1,948 against 1,012. §3 predicted this and §8 gives it a cell (`LINK1_ARRANGEMENT_TO_UNION`); the
+ratio says the link-1 cell is where the mass of this field actually sits.
+
+**The identified sub-frame is 87 records, 8.6% of the screenable frame** — and that is a generous
+upper bound, since matching an identification word in an abstract is not the same as identifying off
+admissible variation in the sense of §3. The §4 enumeration of eight designs exists because this
+number is small enough that finding the real ones cannot be left to a broad query.
+
+**The homonym is 12.3% of the frame on vocabulary, and that understates it.** 124 of the 1,012 records
+carry elder-support vocabulary, and 104 of the co-residence sub-cloud's 632. But §6's point is exactly
+that the vocabulary does not separate the constructs — a record about a young couple living with a
+healthy parent-in-law who minds the baby carries none of these words. The 12.3% is the share the
+*screen* can see, not the share that is there.
+
+Each exposure term was also scored alone against the fertility axis rather than trusted inside a block
+(the A.17 lesson, where one anchor term carried 94% of a block's contamination). `"parental home"`
+(213), `"household formation"` (168) and `"co-residence"` (155) carry the frame; `"nest leaving"` (8)
+and `boomerang` (24) are nearly free to include and are kept for recall rather than yield. Full
+term-by-term counts in `co-residence-parents-household-delay-frame-probe.json`.
+
+*Correction to the ticket's opening estimate.* TICK-075 records ~361 records for this frame, from a
+one-shot probe run on a narrower vocabulary at the time the hypothesis was chosen. The measured frame
+is **1,012**. The ordering that selected A.23 as the smallest remaining hypothesis was made on
+like-for-like narrow probes across candidates and is not disturbed, but the number in the ticket is
+superseded by this one.
+
+### Posture
 
 The C.2.c and D.3.b posture is adopted: **a thin identified evidence base is an acceptable result, not
-a search failure.** The seed harvest already suggests the shape — a large, high-quality
+a search failure.** The seed harvest and the frame probe agree on the shape — a large, high-quality
 *transition-to-adulthood* literature whose outcome is leaving home itself, and a much smaller set that
 carries the sequence through to a birth.
 

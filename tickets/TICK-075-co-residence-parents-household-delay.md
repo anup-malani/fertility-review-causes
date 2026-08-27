@@ -46,4 +46,19 @@ Smallest remaining frame by an order of magnitude on a one-shot OpenAlex probe (
 ~1,000–39,000 for the other unstarted narrow candidates), single phenomenon (SDT), single mechanism,
 and the scope wall arrives pre-drawn from a finished chapter.
 
+**Superseded, 2026-08-27:** the ~361 came from a narrow selection-time probe. The measured frame on
+the full exposure vocabulary is **1,012**; see `co-residence-parents-household-delay-search-scope.md`
+§11. The like-for-like ordering that picked A.23 is undisturbed, but this number is the right one.
+
 ## Log
+
+### 2026-08-27 — stage 2 opened
+
+- `212_a23_harvest_c2c_seeds.py` — 159 seed candidates recovered from C.2.c's finished artifacts
+  (14 routed records, 1 verified anchor, 144 mined from the 10,915-record snowball pool).
+- `213_a23_frame_probe.py` — frame sized before any production query: 1,012 records in the screenable
+  exposure ∩ fertility frame, 1,948 in the union-outcome frame, 87 carrying identification vocabulary.
+- `co-residence-parents-household-delay-search-scope.md` — DRAFT. Two PI calls open (§5 configuration
+  ownership, §12 the pre-modern niche).
+- Scripts numbered from 212: the highest across all live branches was 211 (C.3.g), not 88 as `main`
+  alone shows.

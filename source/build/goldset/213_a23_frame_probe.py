@@ -22,11 +22,10 @@ Usage: python3 source/build/goldset/213_a23_frame_probe.py
 """
 import json
 import os
-import ssl
+import subprocess
 import sys
 import time
 import urllib.parse
-import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
@@ -44,27 +43,37 @@ def api_key():
 
 
 KEY = api_key()
-CTX = ssl.create_default_context()
 
 
 def count(query, tries=4):
-    """Return (count, error). Exactly one of the two is None. Never conflates them."""
+    """Return (count, error). Exactly one of the two is None. Never conflates them.
+
+    Shells out to curl deliberately. This interpreter has no CA bundle -- urllib
+    raises CERTIFICATE_VERIFY_FAILED on every https call -- so a urllib-based probe
+    returns 28 transport errors that look exactly like an empty literature. Known
+    defect, logged once already; curl carries the system trust store.
+    """
     enc = urllib.parse.quote(query)
     url = f"{API}?filter=title_and_abstract.search:{enc}&per-page=1"
     url += f"&api_key={KEY}" if KEY else "&mailto=shravanh@uchicago.edu"
     last = None
     for attempt in range(tries):
         try:
-            with urllib.request.urlopen(url, timeout=45, context=CTX) as r:
-                d = json.loads(r.read().decode())
+            r = subprocess.run(["curl", "-sS", "--max-time", "90", url],
+                               capture_output=True, text=True)
+            if r.returncode != 0:
+                last = f"curl-{r.returncode}: {r.stderr.strip()[:80]}"
+                time.sleep(5 * (attempt + 1))
+                continue
+            d = json.loads(r.stdout)
             if "error" in d:
                 last = f"{d['error']}: {str(d.get('message'))[:80]}"
-                time.sleep(8 * (attempt + 1))
+                time.sleep(10 * (attempt + 1))
                 continue
             return d["meta"]["count"], None
-        except Exception as e:  # timeout, 429, transport
+        except Exception as e:
             last = f"{type(e).__name__}: {str(e)[:80]}"
-            time.sleep(8 * (attempt + 1))
+            time.sleep(5 * (attempt + 1))
     return None, last
 
 
