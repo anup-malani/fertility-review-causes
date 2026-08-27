@@ -1,0 +1,230 @@
+{
+ "meta": {
+  "ticket": "TICK-075",
+  "round": 1,
+  "pool_size": 2584,
+  "scoring": "TITLE ONLY \u2014 the pool carries no abstracts, so every percentage here is a FLOOR on the true rate, not an estimate of it.",
+  "forward_cap_cost": {
+   "seeds_truncated": 4,
+   "citing_works_not_pulled": 1483,
+   "detail": [
+    {
+     "doi": "10.2307/2807972",
+     "citations": 1359,
+     "pulled": 200,
+     "note": "Reher 1998 \u2014 theory/Wall-3 decoy"
+    },
+    {
+     "doi": "10.1353/foc.0.0038",
+     "citations": 469,
+     "pulled": 200,
+     "note": "Furstenberg 2010 \u2014 narrative review"
+    },
+    {
+     "doi": "10.1002/ijpg.231",
+     "citations": 253,
+     "pulled": 200,
+     "note": "Leaving Home in Europe \u2014 link-1 anchor"
+    },
+    {
+     "doi": "10.2307/353569",
+     "citations": 202,
+     "pulled": 200,
+     "note": "filial responsibility \u2014 elder-support decoy"
+    }
+   ]
+  }
+ },
+ "groups": {
+  "all": {
+   "n": 2584,
+   "exposure_prelaunch_pct": 11.7,
+   "exposure_extended_pct": 9.4,
+   "fertility_outcome_pct": 15.3,
+   "on_topic_both_axes_pct": 1.6,
+   "eldercare_vocab_pct": 8.7
+  },
+  "decoy_only": {
+   "n": 489,
+   "exposure_prelaunch_pct": 6.5,
+   "exposure_extended_pct": 11.0,
+   "fertility_outcome_pct": 6.7,
+   "on_topic_both_axes_pct": 0.6,
+   "eldercare_vocab_pct": 20.2
+  },
+  "non_decoy": {
+   "n": 2095,
+   "exposure_prelaunch_pct": 12.9,
+   "exposure_extended_pct": 9.1,
+   "fertility_outcome_pct": 17.3,
+   "on_topic_both_axes_pct": 1.9,
+   "eldercare_vocab_pct": 6.1
+  },
+  "multi_seed_2plus": {
+   "n": 282,
+   "exposure_prelaunch_pct": 18.1,
+   "exposure_extended_pct": 21.3,
+   "fertility_outcome_pct": 26.6,
+   "on_topic_both_axes_pct": 8.2,
+   "eldercare_vocab_pct": 5.3
+  },
+  "from_prelaunch_seeds": {
+   "n": 219,
+   "exposure_prelaunch_pct": 21.9,
+   "exposure_extended_pct": 0.0,
+   "fertility_outcome_pct": 11.4,
+   "on_topic_both_axes_pct": 0.0,
+   "eldercare_vocab_pct": 1.4
+  },
+  "from_extended_seeds": {
+   "n": 809,
+   "exposure_prelaunch_pct": 2.0,
+   "exposure_extended_pct": 21.8,
+   "fertility_outcome_pct": 30.5,
+   "on_topic_both_axes_pct": 4.0,
+   "eldercare_vocab_pct": 4.3
+  }
+ },
+ "most_seeded": [
+  {
+   "n_seeds": 7,
+   "doi": "10.1177/0192513x08322627",
+   "title": "Grandparents Caring for their Grandchildren",
+   "year": 2008,
+   "cited_by": 634
+  },
+  {
+   "n_seeds": 6,
+   "doi": "10.1016/j.jue.2013.03.007",
+   "title": "Family proximity, childcare, and women\u2019s labor force attachment",
+   "year": 2013,
+   "cited_by": 259
+  },
+  {
+   "n_seeds": 6,
+   "doi": "10.4054/demres.2012.27.3",
+   "title": "Grandparenting and mothers\u2019 labour force participation: A comparative analysis using the Generations and Gender Survey",
+   "year": 2012,
+   "cited_by": 159
+  },
+  {
+   "n_seeds": 6,
+   "doi": "10.1186/2193-9004-2-14",
+   "title": "Grandparents\u2019 Childcare and Female Labor Force Participation",
+   "year": 2013,
+   "cited_by": 114
+  },
+  {
+   "n_seeds": 6,
+   "doi": "10.1016/j.red.2016.09.004",
+   "title": "With strings attached: Grandparent-provided child care and female labor market outcomes",
+   "year": 2016,
+   "cited_by": 91
+  },
+  {
+   "n_seeds": 5,
+   "doi": "10.2307/2807972",
+   "title": "Family Ties in Western Europe: Persistent Contrasts",
+   "year": 1998,
+   "cited_by": 1362
+  },
+  {
+   "n_seeds": 5,
+   "doi": "10.1016/j.alcr.2010.10.003",
+   "title": "Towards a new pattern of transition to adulthood?",
+   "year": 2010,
+   "cited_by": 555
+  },
+  {
+   "n_seeds": 5,
+   "doi": "10.1146/annurev-soc-081309-150212",
+   "title": "Transition to Adulthood in Europe",
+   "year": 2011,
+   "cited_by": 491
+  },
+  {
+   "n_seeds": 5,
+   "doi": "10.1111/jomf.12005",
+   "title": "Child Care and Child Births: The Role of Grandparents in the Netherlands",
+   "year": 2013,
+   "cited_by": 121
+  },
+  {
+   "n_seeds": 5,
+   "doi": "10.1007/s12110-010-9098-9",
+   "title": "How Grandparents Matter",
+   "year": 2010,
+   "cited_by": 116
+  },
+  {
+   "n_seeds": 5,
+   "doi": "10.1016/j.jpubeco.2017.12.013",
+   "title": "Grandchildren and their grandparents' labor supply",
+   "year": 2018,
+   "cited_by": 92
+  },
+  {
+   "n_seeds": 5,
+   "doi": "10.1007/s00148-017-0683-7",
+   "title": "Grandparental availability for child care and maternal labor force participation: pension reform evidence from Italy",
+   "year": 2017,
+   "cited_by": 76
+  },
+  {
+   "n_seeds": 5,
+   "doi": "10.4054/demres.2017.36.7",
+   "title": "The influence of a supportive environment for families on women\u2019s fertility intentions and behavior in South Korea",
+   "year": 2017,
+   "cited_by": 64
+  },
+  {
+   "n_seeds": 5,
+   "doi": "10.1215/00703370-9015536",
+   "title": "The Impact of Grandparental Death on the Fertility of Adult Children",
+   "year": 2021,
+   "cited_by": 20
+  },
+  {
+   "n_seeds": 5,
+   "doi": "10.1371/journal.pone.0311028",
+   "title": "Does parents\u2019 retirement influence the fertility intentions of subsequent generations among internal migrant populations? Evidence from China",
+   "year": 2024,
+   "cited_by": 2
+  },
+  {
+   "n_seeds": 4,
+   "doi": null,
+   "title": "Europe's second demographic transition.",
+   "year": 1987,
+   "cited_by": 1961
+  },
+  {
+   "n_seeds": 4,
+   "doi": "10.1111/j.1741-3737.2006.00351.x",
+   "title": "Proximity and Contacts Between Older Parents and Their Children: A European Comparison",
+   "year": 2007,
+   "cited_by": 495
+  },
+  {
+   "n_seeds": 4,
+   "doi": "10.1007/978-94-015-9717-3",
+   "title": "Transitions to Adulthood in Europe",
+   "year": 2001,
+   "cited_by": 297
+  },
+  {
+   "n_seeds": 4,
+   "doi": "10.1111/j.1741-3737.2003.00584.x",
+   "title": "A Multilevel Analysis of Child Care and Women's Fertility Decisions in Western Germany",
+   "year": 2003,
+   "cited_by": 282
+  },
+  {
+   "n_seeds": 4,
+   "doi": "10.1177/a028430",
+   "title": "Leaving home: a comparative analysis of ECHP data",
+   "year": 2002,
+   "cited_by": 259
+  }
+ ]
+}

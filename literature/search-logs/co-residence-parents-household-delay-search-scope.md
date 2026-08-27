@@ -201,6 +201,7 @@ co-residence rates, without isolated variation in the arrangement, is C.2.g's.
 | `LINK1_DRIVER_TO_ARRANGEMENT` | Anything → co-residence, no fertility outcome | Living arrangement | Mechanism / context; establishes the exposure trend |
 | `MIXED_PRICE_ARRANGEMENT` | Subsidy or grant conditional on independent residence | Fertility | Primary, flagged unallocated; also reported to C.2.c |
 | `AGGREGATE_UNSPLIT` | Co-residence with no life-stage split | Fertility | Secondary only; requires the life-stage composition recorded or it is not poolable |
+| `OFF_OUTCOME_LABOUR_SUPPLY` | Co-residence or grandparental childcare → maternal employment, hours, wages | Labour supply | Route out, **named**; the largest single route-out on the round-1 pool. Cross-ref C.2.e |
 | `ELDER_SUPPORT` | Adult child housing a dependent elderly parent | Any | Route out — the homonym |
 | `OFF_PRICE_C2c` | Housing price or rent variation | Fertility | Route to C.2.c |
 | `OFF_UNION_TIMING_A7` | Marriage/union timing as the treatment | Fertility | Route to A.7 |

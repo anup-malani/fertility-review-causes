@@ -1,0 +1,493 @@
+{
+ "meta": {
+  "ticket": "TICK-075",
+  "round": 1,
+  "seeds_requested": 30,
+  "seeds_resolved": 30,
+  "seed_cells": {
+   "PRIMARY_EXTENDED_COUPLE": 15,
+   "OFF_OUTCOME": 1,
+   "PRIMARY_PRELAUNCH": 3,
+   "LINK1_DRIVER_TO_ARRANGEMENT": 3,
+   "LINK1_ARRANGEMENT_TO_UNION": 1,
+   "PRIMARY_PROXIMITY": 1,
+   "THEORY": 2,
+   "OFF_PRICE_C2c": 2,
+   "ELDER_SUPPORT": 2
+  },
+  "forward_cap_per_seed": 200,
+  "pool_size": 2584,
+  "reached_only_via_decoy_seeds": 489,
+  "no_doi": 216,
+  "preprints": 96,
+  "multi_seed": 282,
+  "duplicates_collapsed": 77,
+  "errors": 0,
+  "note": "Pool is candidates, not a frame. Nothing here has been screened."
+ },
+ "duplicates_collapsed": [
+  {
+   "dropped": "W1487019888",
+   "kept": "W1758125135",
+   "title": "Practical Reason: On the Theory of Action",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W1501279792",
+   "kept": "W2113991325",
+   "title": "A Model of Reference-Dependent Preferences*",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W1483190164",
+   "kept": "W2884989860",
+   "title": "The Banquet of Aeolus",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3146225191",
+   "kept": "W1513186660",
+   "title": "Making time for working parents: comparing public childcare provision",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W1525854655",
+   "kept": "W2071944681",
+   "title": "Kinship, Family and Social Network",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4249073465",
+   "kept": "W1498902283",
+   "title": "Mothers and Others: The Evolutionary Origins of Mutual Understanding",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2303611972",
+   "kept": "W1545232172",
+   "title": "On the Frontier of Adulthood",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2269828296",
+   "kept": "W1661424434",
+   "title": "With Strings Attached: Grandparent-Provided Child Care and Female Labor Market Outcomes",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W1557432028",
+   "kept": "W3124957397",
+   "title": "Trends and Educational Differentials in Marriage Formation Among Taiwanese Women",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3125058786",
+   "kept": "W3124479554",
+   "title": "Grandchildren and Their Grandparents' Labor Supply",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W1564409611",
+   "kept": "W3124479554",
+   "title": "Grandchildren and Their Grandparents\u2019 Labor Supply",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4235932404",
+   "kept": "W1965473027",
+   "title": "Family Policies in Industrialized Countries: Is There Convergence?",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4237658281",
+   "kept": "W1981651168",
+   "title": "Estimation and Inference in Two-Step Econometric Models",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4250191508",
+   "kept": "W2000365514",
+   "title": "Urbanization, Non-Familial Work, Education, and Fertility in Taiwan",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2318885061",
+   "kept": "W1994347092",
+   "title": "Perspectives on the Family in Spain, Past and Present",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4298037036",
+   "kept": "W2004409126",
+   "title": "The Silent Revolution: Changing Values and Political Styles among Western Publics",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3023254902",
+   "kept": "W2009060438",
+   "title": "Dummy Endogenous Variables in a Simultaneous Equation System",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3125813942",
+   "kept": "W2015046142",
+   "title": "The Effect of Age at School Entry on Educational Attainment: An Application of Instrumental Variables with Moments from Two Samples",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2009001151",
+   "kept": "W2071624487",
+   "title": "Making Ends Meet: How Single Mothers Survive Welfare and Low-Wage Work",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4298370319",
+   "kept": "W2033946357",
+   "title": "The script of life in modern society: entry into adulthood in a changing world",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3121263130",
+   "kept": "W2040954003",
+   "title": "Leaving home in Europe: the experience of cohorts born around 1960",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2039659340",
+   "kept": "W4300656853",
+   "title": "Child care arrangements and fertility: an analysis of two-earner households.",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2318820171",
+   "kept": "W2044439397",
+   "title": "Divided Families: What Happens to Children When Parents Part",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2055721458",
+   "kept": "W4251252946",
+   "title": "Experimental Tests of the Endowment Effect and the Coase Theorem",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2312456860",
+   "kept": "W2060902527",
+   "title": "Marriage and Divorce: A Social and Economic Study",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2330816849",
+   "kept": "W2100847575",
+   "title": "World Revolution and Family Patterns",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4302409797",
+   "kept": "W2100309483",
+   "title": "Transitions and Social Change: The Early Lives of American Men.",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4249461382",
+   "kept": "W2110844664",
+   "title": "Semiautonomy and Leaving Home in Early Adulthood",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2133469585",
+   "kept": "W3011865677",
+   "title": "Prospect theory: An analysis of decision under risk",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2999939692",
+   "kept": "W2120818651",
+   "title": "Family Proximity, Childcare, and Women's Labor Force Attachment",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3123876285",
+   "kept": "W2232877996",
+   "title": "Living Arrangements in Western Europe: Does Cultural Origin Matter?",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2892111262",
+   "kept": "W2168249800",
+   "title": "Efficiency in Family Bargaining: Living Arrangements and Caregiving Decisions of Adult Children and Disabled Elderly Parents",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3125535413",
+   "kept": "W3122467956",
+   "title": "Childcare, Eldercare, and Labor Force Participation of Married Women in Urban China, 1982\u20132000",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2171049387",
+   "kept": "W3122467956",
+   "title": "Childcare, Eldercare, and Labor Force Participation of Married Women in Urban China: 1982-2000",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2728677514",
+   "kept": "W2323588646",
+   "title": "Aging From Birth To Death: Interdisciplinary Perspectives",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4244359844",
+   "kept": "W2495562735",
+   "title": "Transformations in the role of grandparents across welfare states",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3123130962",
+   "kept": "W2784402791",
+   "title": "Children and Gender Inequality: Evidence from Denmark",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4244929548",
+   "kept": "W2983797499",
+   "title": "Household Composition, Extended Kinship and Reproduction in Taiwan: 1973-1980",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3150545117",
+   "kept": "W3162839958",
+   "title": "Public Pensions and Private Savings",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4297974475",
+   "kept": "W4213183334",
+   "title": "The American Economic Review",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4414655718",
+   "kept": "W4230010730",
+   "title": "Introduction",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4398246362",
+   "kept": "W4406165977",
+   "title": "Parental Retirement and Fertility Decisions Across Family Policy Regimes",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4407368138",
+   "kept": "W7125797254",
+   "title": "Retirement-age Extension and Parental Investment in Education",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4405801158",
+   "kept": "W7117582186",
+   "title": "Postponing Retirement Under Age Discrimination and Grandparenting",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4294560078",
+   "kept": "W4311422837",
+   "title": "Grandmothers and the Gender Gap in the Mexican Labor Market",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3123357612",
+   "kept": "W3159198893",
+   "title": "Retirement Rigidities and the Gap Between Effective and Desired Labour Supply by Older Workers",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2608011347",
+   "kept": "W2779776068",
+   "title": "What Drives National Differences in Intensive Grandparental Childcare in Europe?",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4229650222",
+   "kept": "W274647972",
+   "title": "Familiale Generationenbeziehungen aus bev\u00f6lkerungssoziologischer Perspektive",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W7140920588",
+   "kept": "W2850217808",
+   "title": "Aging women under pressure in Italian families",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3013870934",
+   "kept": "W4285310926",
+   "title": "Familie und Gro\u00dfeltern",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3037963702",
+   "kept": "W4237416596",
+   "title": "Importance of Grandparental Investment",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4409798922",
+   "kept": "W4412738002",
+   "title": "The Relationship between Wives\u2019 Share of Income and Subsequent Fertility: Evidence from Taiwan",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3215515803",
+   "kept": "W4206199864",
+   "title": "Essays in Applied Microeconomics",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2279399713",
+   "kept": "W4239625377",
+   "title": "Is the Family System in Romania Similar to those of Southern European Countries?",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2801671631",
+   "kept": "W2161313325",
+   "title": "Transitions to Adulthood",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2944266438",
+   "kept": "W2161313325",
+   "title": "Transitions to Adulthood",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4240488173",
+   "kept": "W2948086991",
+   "title": "Becoming a first-time grandparent and subjective well-being. A fixed effects approach.",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W1606204418",
+   "kept": "W4246576163",
+   "title": "Marriage, Norm Orientation and Leaving the Parental Home: Turkish Immigrant and Native Families in Germany",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2080422447",
+   "kept": "W3125779324",
+   "title": "What Happens to Household Formation in a Recession?",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2070224412",
+   "kept": "W3124375740",
+   "title": "Leaving Home: What Economics Has to Say About the Living Arrangements of Young Australians",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3125775317",
+   "kept": "W2058720006",
+   "title": "Union formation and fertility in Bulgaria and Russia: a life table description of recent trends",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2994260737",
+   "kept": "W2039865271",
+   "title": "Leaving the parental home in post-war Japan",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3123800565",
+   "kept": "W2147081322",
+   "title": "Saving and Cohabitation: The Economic Consequences of Living with One's Parents in Italy and the Netherlands",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2181930625",
+   "kept": "W3125286336",
+   "title": "Cohabitation, marriage, first birth: The interrelationship of family formation events in Spain",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4244200522",
+   "kept": "W1555973809",
+   "title": "Social change and family change in a Central European urban context: Rostock 1819-1867",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4296995371",
+   "kept": "W4367296631",
+   "title": "Conceptions of Adulthood among Chinese Emerging Adults",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4297860247",
+   "kept": "W4367296631",
+   "title": "Conceptions of Adulthood among Chinese Emerging Adults",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4240769747",
+   "kept": "W4205898029",
+   "title": "Confucian Culture and Filial Piety",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3123396024",
+   "kept": "W2789743293",
+   "title": "Projecting Drivers of Human Vulnerability under the Shared Socioeconomic Pathways",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2183960255",
+   "kept": "W2001888658",
+   "title": "Diversit\u00e4t von Familienformen in Ost- und Westdeutschland",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4245031689",
+   "kept": "W3080807873",
+   "title": "Clinical Work with Unpartnered Individuals Seeking a Long\u2010Term Intimate Relationship",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4412089985",
+   "kept": "W4412076832",
+   "title": "Why Is Fertility So Low in High Income Countries?",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4242242013",
+   "kept": "W4244008518",
+   "title": "Filial Responsibility",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4226198679",
+   "kept": "W3152897503",
+   "title": "What stops us from eating: A qualitative investigation of dietary barriers during pregnancy in Punjab, Pakistan",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4392126082",
+   "kept": "W4402762017",
+   "title": "The Earned Income Tax Credit (EITC) and Time Spent Helping and Caring for Adults",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4232509580",
+   "kept": "W4281739146",
+   "title": "Racial Inequality in the Prevalence, Degree, Extension, and Permeation of Incarceration in Family Life",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4246369759",
+   "kept": "W4206682954",
+   "title": "Multigenerational Families",
+   "reason": "normalized-title duplicate"
+  }
+ ],
+ "errors": {}
+}
