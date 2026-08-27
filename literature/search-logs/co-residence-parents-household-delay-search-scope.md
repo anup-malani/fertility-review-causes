@@ -5,8 +5,10 @@
 **Ticket:** TICK-075
 **Target phenomenon:** SDT.
 **Status:** DRAFT (Shravan, 2026-08-27) — walls, estimand cells and pooling rule proposed,
-**not frozen.** Two PI calls below (Calls 1 and 2) have to come back before the frame is built,
-because both change which records the production query is required to reach.
+**not frozen.** Rulings 1 and 2 (§5, §12) were taken on 2026-08-27 and are marked *PI confirmation
+pending*; Ruling 1 widens what the production query is required to reach and is load-bearing for the
+anchor set. Freeze requires a second read on the `MIXED_PRICE_ARRANGEMENT` sub-ruling in Wall 1 and
+sign-off on the pooling rule.
 
 ---
 
@@ -117,17 +119,24 @@ sign is set by the sample's mix of life stages, in precisely the way C.2.c's agg
 set by its sample's tenure mix. The lesson recorded there applies unchanged: this is not a
 transportable parameter.
 
-> **PI Call 1 — does A.23 own the extended-household configuration?**
-> The v5 claim, read strictly, is about the pre-launch configuration only. Two options:
-> **(a)** A.23 owns the living arrangement in both configurations, reports them as two separately
-> pooled cells, and its verdict is explicitly configuration-conditional. **(b)** A.23 is restricted to
-> pre-launch co-residence, and the extended-household evidence routes to C.2.a (childcare) as an
-> informal-childcare-supply question.
-> **Recommendation: (a).** Under (b) the chapter would report only the estimates whose sign agrees with
-> the registered claim, which is selection on the outcome of the review itself. Under (a) the chapter
-> can state the real finding — that the sign of "co-residence with parents" depends on who is
-> co-residing with whom — which is a result, not a nuisance. This is the same shape as the A.12 call
+> **Ruling 1 — A.23 owns both configurations. (Shravan, 2026-08-27; PI confirmation pending.)**
+> The alternative — restricting the chapter to pre-launch co-residence and routing the
+> extended-household evidence to C.2.a as an informal-childcare question — would have the chapter
+> report only the estimates whose sign agrees with the registered claim. That is selection on the
+> outcome of the review itself. Owning both lets the chapter state the actual finding: **the sign of
+> "co-residence with parents" is set by who is co-residing with whom.** Same shape as the A.12 call
 > that split at the margin rather than dropping an arm.
+>
+> Three things follow and bind the rest of this document. **The two cells are never pooled**, and an
+> estimate that cannot be assigned to a configuration is `AGGREGATE_UNSPLIT` and secondary. **The
+> production query must reach both**, which means the extended-household vocabulary — multigenerational
+> household, grandparental childcare, living with parents-in-law, stem family — is required, not
+> optional; the pre-launch vocabulary alone would have produced the one-sided pool this ruling exists
+> to prevent. And **the §7 verdict is configuration-conditional**, in the way C.2.c's is
+> tenure-conditional: there is no single A.23 sign to report.
+>
+> The v5 `claim` field, which describes only the pre-launch mechanism, should be widened to match.
+> Flagged to TICK-001 as a master-list edit; not made here.
 
 ## 6. The homonym, and the axis the wall must be cut on
 
@@ -186,7 +195,7 @@ co-residence rates, without isolated variation in the arrangement, is C.2.g's.
 | Cell | Treatment / variation | Outcome | Routing |
 |---|---|---|---|
 | `PRIMARY_PRELAUNCH` | Co-residence of an unpartnered/childless young adult in the parental home | Fertility (first birth, parity progression, completed fertility) | Primary synthesis — pre-launch pool |
-| `PRIMARY_EXTENDED_COUPLE` | Couple co-residing with a parent or parent-in-law | Fertility | Primary synthesis — extended-household pool, **never pooled with pre-launch** (pending PI Call 1) |
+| `PRIMARY_EXTENDED_COUPLE` | Couple co-residing with a parent or parent-in-law | Fertility | Primary synthesis — extended-household pool, **never pooled with pre-launch** (Ruling 1) |
 | `PRIMARY_PROXIMITY` | Residential *proximity* to parents without co-residence | Fertility | Primary synthesis, pooled separately — different treatment |
 | `LINK1_ARRANGEMENT_TO_UNION` | Arrangement → union formation or marriage timing, no birth outcome | Union | Mechanism, link 1 of the chain; cross-ref A.7 |
 | `LINK1_DRIVER_TO_ARRANGEMENT` | Anything → co-residence, no fertility outcome | Living arrangement | Mechanism / context; establishes the exposure trend |
@@ -335,12 +344,14 @@ deliberate off-cell decoys: price-identified housing studies (C.2.c), elder-supp
 (the §6 homonym), cross-national family-regime comparisons (D.2.b), and home-leaving studies whose
 outcome is not a birth.
 
-> **PI Call 2 — does the pre-modern niche connection belong here or in A.7?**
-> C.2.c's scope flagged, without annexing it, that the European marriage pattern rests on economically
-> identical logic: marriage waited on the availability of a *niche* — a farm, a holding, a dwelling —
-> so household formation gated fertility through nuptiality. A.23 is scoped SDT, and the parallel is
-> exact rather than approximate. Recommendation: leave the PM mechanism in A.7 and cite the parallel in
-> A.23's §2, so the review does not later discover it as a gap. Recorded so the decision is deliberate.
+> **Ruling 2 — the pre-modern niche stays in A.7. (Shravan, 2026-08-27; PI confirmation pending.)**
+> C.2.c's scope flagged, without annexing it, that the European marriage pattern rests on identical
+> logic: marriage waited on the availability of a *niche* — a farm, a holding, a dwelling — so
+> household formation gated fertility through nuptiality. The parallel is exact rather than
+> approximate, and A.23 stays scoped to the SDT: the PM mechanism remains A.7's, and A.23 cites it.
+> Recorded so the review does not later rediscover it as a gap, and so the decision is deliberate
+> rather than an omission. The practical consequence for this chapter is small but real — **a
+> pre-modern niche study is not an A.23 anchor, and belongs in the decoy set** for the routing test.
 
 ## 13. When to adjudicate
 
