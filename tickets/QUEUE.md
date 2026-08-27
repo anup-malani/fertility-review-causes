@@ -1,6 +1,6 @@
 # Work Queue
 
-Last updated: 2026-08-26
+Last updated: 2026-08-27
 
 Pick the first open ticket assigned to you or `any`. Before starting, pull/sync, then **claim** it
 before doing the work. The active mode is **Mode B (branch-per-ticket)** — the simplest path is
@@ -27,10 +27,10 @@ tickets can be worked concurrently.
 > commit message dated 07-21 to 07-25 against this table; in commit messages from Alexandra's schooling
 > workstream, `TICK-032` means the compulsory-education split and needs no translation.
 >
-> **Next free number is TICK-075.** Claim a number by pushing its QUEUE.md row before starting work,
+> **Next free number is TICK-076.** Claim a number by pushing its QUEUE.md row before starting work,
 > not after. That is what would have prevented the collision. TICK-047 through TICK-053 were claimed
 > for the D.3.b climate-anxiety chain on 2026-07-27; TICK-054 (A.10) and TICK-055 (C.2.c) on
-> 2026-07-31; TICK-056 opens C.2.c library retrieval.
+> 2026-07-31; TICK-056 opens C.2.c library retrieval. TICK-075 (A.23) was claimed on 2026-08-27.
 >
 > **One further renumber on 2026-08-02: TICK-061 → TICK-060.** The number 060 was first given to a
 > D.1.a search-scope ticket that was withdrawn before anyone claimed it, and the ticket-creation-rule
@@ -46,6 +46,7 @@ tickets can be worked concurrently.
 
 | Ticket | Title | Assigned | Parallel-safe |
 |--------|-------|----------|---------------|
+| [TICK-075](TICK-075-co-residence-parents-household-delay.md) | A.23 Co-Residence with Parents and Delayed Household Formation | Shravan | yes |
 | [TICK-074](TICK-074-shared-resolver-punctuation-fold.md) | Shared resolver: fold apostrophes and dashes before the ASCII strip — 12 defective copies on `main`, found on C.3.g | Shravan | yes |
 | [TICK-073](TICK-073-student-debt-household-formation.md) | C.3.g Student Debt and Household Formation Constraint | Shravan | yes |
 | [TICK-072](TICK-072-art-access-fertility-recovery.md) | A.17 Assisted Reproductive Technology Access | Shravan | yes |
