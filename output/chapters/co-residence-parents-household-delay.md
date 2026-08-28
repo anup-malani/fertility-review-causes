@@ -9,7 +9,7 @@ childbearing later, so a rise in the share living with parents lowers period fer
 cost and availability · C.5.a economic uncertainty · C.3.g student debt · D.2.b family norms
 
 **Status:** TICK-075. Drafted 2026-08-28 by Shravan with Claude Code. **Not PI-reviewed.** Five
-rulings are taken and pending confirmation. Written on 101 of 436 wanted full texts (23%); 89 of
+rulings are taken and pending confirmation. Written on 105 of 436 wanted full texts (24%); 93 of
 those are machine-readable.
 
 ---
@@ -148,15 +148,15 @@ other.
 
 ## 5. Included studies
 
-Sixteen effects from thirteen studies. The full table with the sentence each number was read from is
-in `extraction/co-residence-parents-household-delay.csv`.
+Seventeen effects from fourteen studies. The full table with the sentence each number was read from
+is in `extraction/co-residence-parents-household-delay.csv`.
 
 | Configuration | Effects | Identified designs |
 |---|---|---|
 | Young adult in the parental home (the registered claim) | 2 | **0** |
 | Couple with a parent or parent-in-law | 6 | 1 |
 | Residential proximity without co-residence | 1 | 0 |
-| Policies changing a price to change the arrangement | 3 | 2 |
+| Policies changing a price to change the arrangement | 4 | 3 |
 | Drivers moving the arrangement, no birth outcome | 4 | 4 |
 
 ### 5.1 The naive estimator, and what correcting it does
@@ -168,18 +168,32 @@ comparison partly compares people at different stages of one life course.
 
 One included study corrects for it. Chu, Xie and Yu, in *Demography*, treat co-residence with a
 husband's parents and the wife's labour supply as jointly determined with the timing of a first
-birth, using Taiwanese data on women born between 1933 and 1968. **Correcting for that joint
-determination reverses the direction of the co-residence effect.** Uncorrected, living with the
-husband's parents looks as though it brings a first birth forward. Corrected, it delays it.
+birth, using Taiwanese panel data on women born between 1933 and 1968. **Correcting for that joint
+determination does not merely reverse the direction. It moves the estimate by about three years.**
+
+Estimated the ordinary way, and matching what the previous literature had reported, women in the
+younger cohort who live with their husband's parents reach a first birth about 5.6 months *earlier*
+than women who do not. Estimated with both the co-residence decision and the labour-supply decision
+treated as chosen — a full-information maximum likelihood duration model, with the husband's age at
+marriage excluded from the duration equation — the same women reach a first birth about **30.6
+months later**. For the older cohort the corrected delay is 4.6 months, and the uncorrected estimate
+is not statistically distinguishable from zero.
+
+The direction of the bias is derived rather than asserted. Women with traditional preferences both
+choose to live with their husband's parents and choose to have children earlier, so the unobserved
+characteristics driving the two decisions are positively correlated, and an estimate that ignores
+that correlation is pushed toward finding a shorter interval. The correction removes that push, and
+what is left runs the other way.
 
 That single result governs how the rest of the evidence is treated. A body containing one corrected
 estimate and several uncorrected ones is not heterogeneous evidence about one quantity; it is one
 biased estimator and one corrected one. Averaging them would produce a number whose direction
 depends on how many uncorrected studies happen to be included.
 
-The chapter cannot report the corrected magnitude, because the full text sits behind a subscription
-wall and the direction comes from the abstract. That is the most consequential single item on the
-outstanding retrieval list.
+**Two limits on how far this can be carried.** It is one study in one country, and the correction
+rests on distributional assumptions plus one excluded variable rather than on an experiment. And it
+is a *timing* result: a three-year delay in a first birth is consistent with a large reduction in
+completed family size and also with none at all, and this study cannot distinguish the two.
 
 ### 5.2 The exposure is not one variable, and one study shows it inside one dataset
 
@@ -210,17 +224,56 @@ household-formation intentions.
 The Deferred Action study is the only one of the four that looks for a fertility effect, and it
 reports none.
 
-### 5.4 The one study that estimates both, and it is not retrieved
+### 5.4 The one study that estimates both
 
 Laeven and Popov instrument the American housing boom with the predetermined industrial structure of
-each metropolitan economy and estimate the effect on home ownership, household formation and
-fertility together. Estimating all three under one instrument is what a decomposition of this
-chapter's central accounting problem would require, and no other study in the frame does it. The
-published article is paywalled and the working-paper version was not retrieved, so only the
-direction is in hand: in metropolitan areas with large price increases, the youngest households were
-less likely to buy a home, to marry, or to have a child.
+each metropolitan economy and estimate the effect on home ownership, marriage and fertility together
+for about 1.5 million households in 2006. Estimating all three under one instrument is what a
+decomposition of this chapter's central accounting problem would require, and no other study in the
+frame does it.
 
-### 5.5 A large positive result that is excluded, and why
+For households aged 18 to 35, a one-standard-deviation increase in five-year house-price growth
+lowers the probability of having had a child in the past year by about 0.19 percentage points
+against a baseline of 6% — a **3% relative reduction** — and lowers the probability of being married
+by about 2.9 points against a baseline of 57%, a 5% relative reduction. Both effects are small, and
+the marriage effect is the larger of the two.
+
+**Two features of this result matter more than its size.**
+
+The ordinary least squares estimate of the fertility effect is *positive* and statistically
+insignificant; the instrumented estimate is negative and significant. That is the same
+estimator problem as §5.1, arriving in a different literature with a different correction, and it is
+the second time in this chapter that the naive comparison points the wrong way.
+
+The effect is also conditional on tenure. Young *home owners* become **more** likely to have a child
+when prices rise, because for them a price increase is a gain in wealth. Only young non-owners are
+pushed the other way. An aggregate house-price elasticity of fertility is therefore an average over
+the tenure composition of the sample, which is the finding the housing-costs chapter reached about
+its own parameter, reproduced here on the household-formation margin.
+
+### 5.5 A study that turned out to be a different design than it was filed as
+
+Kucheva, in *Demography*, estimates the effect of American federal subsidised housing on the
+transition to adulthood. It was carried through the search and the screen as an administrative
+allocation of dwellings — a policy that assigns housing and therefore supplies exogenous variation
+in where young people live — and it was a priority for retrieval on that basis.
+
+Reading it shows a careful observational study rather than a quasi-experiment. The comparison is
+between children who received subsidised housing and children who were eligible and did not, with
+inverse-probability weighting to adjust for how long each spent in the programme and how long each
+was eligible. That is selection on observables, and it moves the study out of this chapter's count
+of identified designs.
+
+Its fertility outcome is also narrower than the packet assumed: teenage parenthood, followed from
+age 15 to 19. The finding is a null for young women and a possible *reduction* for young men.
+Separately, the programme appears to accelerate the formation of an independent household, but only
+where that household is a subsidised apartment — which is evidence about where a first household
+forms rather than about whether young adults stay with their parents.
+
+Both corrections matter, and neither was visible before the full text was in hand. A record's design
+is not a property of its title.
+
+### 5.6 A large positive result that is excluded, and why
 
 One study reports an effect far larger than anything else in this chapter: a one-standard-deviation
 increase in the prevalence of extended families raises fertility by about 1.07 children per woman,
@@ -239,7 +292,7 @@ in the chapter by an order of magnitude.
 It is recorded here rather than dropped silently, because a reader who finds it will want to know
 whether the chapter saw it.
 
-### 5.6 A defect in the chapter's best design
+### 5.7 A defect in the chapter's best design
 
 Aparicio-Fenoll and Oppedisano evaluate a Spanish rental subsidy paid from a person's twenty-second
 birthday, comparing 22-year-olds with 21-year-olds before and after. The subsidy raised the share
@@ -276,17 +329,28 @@ estimate at all.
 
 What the chapter can report is the following.
 
-**For a couple living with a parent, the direction of the association is positive and the
-best-corrected estimate reverses it.** A Vietnamese household panel with fixed effects finds the
-presence of a grandparent associated with 0.14 additional children (confidence interval 0.08 to
-0.19). A Tanzanian comparison finds no difference. An American historical dataset finds the
-direction depends on which parent. A Taiwanese study that treats the arrangement as jointly
-determined with the birth finds a delay.
+**For a couple living with a parent, the uncorrected estimates point one way and the one corrected
+estimate points the other, by a large margin.** A Vietnamese household panel with fixed effects
+finds the presence of a grandparent associated with 0.14 additional children (confidence interval
+0.08 to 0.19). A Tanzanian comparison finds no difference. An American historical dataset finds the
+direction depends on which parent. The Taiwanese study that treats the arrangement as jointly
+determined with the birth finds a delay of about thirty months in the younger cohort.
+
+Those results are not in conflict in the ordinary sense, and treating them as a spread to be
+averaged would be a mistake. Three of them are versions of the comparison §5.1 shows is biased, and
+the fourth is that comparison corrected. The corrected one is a timing estimate and the Vietnamese
+one is a family-size estimate, so they do not even measure the same quantity.
 
 **For a young adult in the parental home, there is no effect estimate in the literature.** Two
 records reach extraction. One reports an association between leaving home and motherhood whose
 authors write, in the same paper, that the desire to become a mother probably causes people to leave
 home. The other is measured on Mexican municipalities rather than people.
+
+**For policies that change a price in order to change the arrangement, the identified fertility
+effects are small and negative.** Laeven and Popov's instrumented house-price shock lowers the
+probability of a birth among young households by about 3% of its baseline, and lowers the
+probability of being married by about 5%. American federal subsidised housing has no effect on
+teenage parenthood for young women.
 
 **The strongest evidence in the chapter concerns whether the arrangement responds to anything
 exogenous, and the answer is that it does.** Pensions, immigration status and employment protection
@@ -346,6 +410,15 @@ exposure rose; both of its configurations rose; and the two configurations push 
 opposite directions.** A calculation that counted only the configuration the hypothesis names would
 have credited the whole rise to the decline, while part of the same rise was pushing the other way.
 
+**And the one endogeneity-corrected estimate in the same cell points the other way from the estimate
+just used.** Chu, Xie and Yu find that living with a husband's parents delays a first birth by about
+thirty months once the arrangement is treated as chosen. That is a timing result and this arithmetic
+is denominated in completed children, so it cannot enter the calculation. The cell therefore holds
+one family-size estimate that is small and wrong-signed, and one corrected timing estimate that is
+large and runs the other way, and **the two cannot be combined into a share.** Reporting only the
+first would overstate what the chapter knows; reporting only the second would put a timing result
+into a family-size denominator.
+
 **Two constraints bind any number in this section.**
 
 The first is that a share of this mechanism belongs to another chapter and must not be added to it.
@@ -403,10 +476,14 @@ regression.** In 3.1 million American couples in 1900, a co-resident mother goes
 and a co-resident mother-in-law with higher. An estimate of "living with a parent" is an average over
 whichever parents are in the sample, and it transfers to no other setting.
 
-**The one study that corrects for the fact that the arrangement and the birth are chosen together
-reverses the direction of the effect.** Uncorrected estimates say living with a husband's parents
-brings a first birth forward. Corrected, it delays it. The literature is not heterogeneous evidence
-about one quantity; it is mostly one biased comparison, repeated.
+**Correcting for the fact that the arrangement and the birth are chosen together moves the estimate
+by about three years, and the correction has now appeared twice.** In Taiwan, the ordinary estimate
+says living with a husband's parents brings a first birth forward by about six months; treating the
+arrangement as chosen turns that into a delay of about thirty months. In the American housing boom,
+ordinary least squares gives a positive and insignificant fertility effect and the instrumented
+estimate gives a negative and significant one. The literature is not heterogeneous evidence about one
+quantity; it is mostly one biased comparison, repeated, and where anyone has corrected it the answer
+has changed.
 
 **The channel probably moves timing rather than family size.** The best-identified design in the
 vicinity — American lottery wins on administrative tax data — pulls births forward and leaves the
@@ -416,7 +493,9 @@ period fertility measures and not to the fall in completed family size.
 
 **The one number to carry away:** applying the only completed-fertility estimate this chapter has for
 the growing configuration to the growth in that configuration accounts for **3% of the American
-fertility decline, in the wrong direction**.
+fertility decline, in the wrong direction** — and the best-identified estimate in the same
+configuration is a thirty-month delay in a first birth that no one has shown reduces completed family
+size at all.
 
 ---
 
@@ -429,10 +508,16 @@ with the housing-costs chapter and non-additive; the pooling rule; and six scope
 screen generated. The first is the most consequential — it is why §7.3 reports a wrong-signed
 contribution instead of a supporting one.
 
-**Retrieval priorities, in order.** Chu, Xie and Yu (*Demography*) for the corrected magnitude that
-§5.1 turns on; Laeven and Popov for the only joint estimate of household formation and fertility
-under one instrument; and Kucheva (*Demography*) for the administrative housing-allocation design.
-All three are subscription-walled and need the institutional proxy rather than a browser.
+**Retrieval priorities.** The three subscription-walled studies that headed this list were obtained
+by hand on 2026-08-28 and are incorporated above. Two of them changed the chapter: Chu, Xie and Yu
+supplied a corrected magnitude three times larger than the uncorrected one, and Kucheva turned out to
+be a weighted observational study rather than the administrative allocation it had been filed as.
+
+What remains is a different shape of problem. Of the records still unretrieved, 13 are in a primary
+cell or carry an identified design and sit behind a subscription; 9 are open content a browser can
+reach and a script cannot; and 4 have no digital identifier at all and need a librarian. None is
+individually as consequential as the three just obtained, and the pre-launch cell will not be filled
+by any of them — its emptiness is a property of the literature, not of this chapter's access.
 
 **Studies that do not exist and should.** An estimate of the unconditional effect of a
 household-formation subsidy on childbearing — the Spanish design without the conditioning on having
@@ -500,9 +585,11 @@ influence on fertility. Working paper.
 
 ## Provenance and standing caveats
 
-**This chapter is written on 101 of 436 wanted full texts (23%).** Of those, 89 are
+**This chapter is written on 105 of 436 wanted full texts (24%).** Of those, 93 are
 machine-readable; 5 are in a non-Latin script and were read but not text-mined, 5 could not be
-separated from font corruption automatically, and 2 are scans without a text layer.
+separated from font corruption automatically, and 2 are scans without a text layer. Four of the 105
+were retrieved by hand through institutional access on 2026-08-28, and each was matched to its record
+by checking the record's title against the file's own text rather than by trusting the filename.
 
 **The findings that would survive full retrieval are** the emptiness of the pre-launch cell, the
 within-cell direction reversal by which parent, and the tempo-versus-quantum bound. Each rests on
@@ -510,14 +597,14 @@ records that are in hand, and additional retrieval can only add to a cell that c
 in it.
 
 **The findings that might not survive are** the demographic-significance magnitude, which rests on a
-single Vietnamese panel estimate transported to the United States, and the characterisation of the
-identified evidence as being entirely about the wrong link. Three subscription-walled studies —
-Chu, Laeven and Popov, and Kucheva — could each change that second finding, and Chu could change the
-direction reported in §6.2.
+single Vietnamese panel estimate transported to the United States, and the size of the corrected
+Taiwanese estimate, which is one study in one country resting on distributional assumptions and a
+single excluded variable. A second endogeneity-corrected estimate of the same quantity, in any
+setting, would do more for this chapter than any amount of further retrieval.
 
-**Numbers that come from abstracts rather than full text** are the direction of the Chu, Xie and Yu
-result, the direction of the Laeven and Popov result, and the Acolin, Lin and Wachter share of the
-co-residence rise. They are marked as such in the extraction table.
+**Numbers that come from abstracts rather than full text** are now only the Acolin, Lin and Wachter
+share of the co-residence rise, quoted in §7.3. Everything else in the tables was read from a full
+text, and the extraction table records the sentence each number came from.
 
 **One input to §7.3 is not from this chapter's corpus.** The fall in the American total fertility
 rate is quoted from a standard series as a denominator for scale, and should be replaced with the

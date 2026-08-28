@@ -116,7 +116,14 @@ def main():
                    "The inputs are from two countries and the estimate is not identified; this is a "
                    "scale check, not a decomposition. What it establishes is the SIGN of the "
                    "correction, and the sign is what matters: a calculation that counted only the "
-                   "configuration the hypothesis names would attribute this share to the decline."),
+                   "configuration the hypothesis names would attribute this share to the decline. "
+                   "AND THE ONLY ENDOGENEITY-CORRECTED ESTIMATE IN THIS CELL POINTS THE OTHER WAY: "
+                   "Chu, Xie and Yu find co-residence with the husband's parents DELAYS a first "
+                   "birth by about 30.6 months in the younger Taiwanese cohort once the arrangement "
+                   "is treated as chosen. It is a TEMPO measure and cannot enter this arithmetic, "
+                   "which is denominated in completed children. So the cell holds one quantum "
+                   "estimate that is wrong-signed and negligible, and one corrected tempo estimate "
+                   "that is large and runs the other way, and THE TWO CANNOT BE COMBINED."),
         dict(phenomenon="SDT_via_housing_affordability", applicable="yes",
              share_of_decline="SHARED_DO_NOT_ADD", direction="n/a", needs_human_review="yes",
              basis=f"Housing affordability accounts for up to "
@@ -168,17 +175,25 @@ def main():
              downgrades="risk of bias (-1); inconsistency (-1); indirectness (0, held)",
              reason="Household fixed effects remove time-invariant unobservables and not the "
                     "anticipation problem. Inconsistency: a Tanzanian null, a positive Vietnamese "
-                    "panel estimate, a within-cell sign reversal by which parent in the US "
-                    "historical data, and one endogeneity-corrected estimate whose sign REVERSES. "
-                    "Not downgraded for indirectness: these do measure the arrangement."),
+                    "panel estimate, a within-cell reversal by WHICH PARENT in the US historical "
+                    "data, and one endogeneity-corrected estimate that reverses direction and moves "
+                    "the younger-cohort timing by about three years. Not downgraded for "
+                    "indirectness: these do measure the arrangement. NOT UPGRADED for the corrected "
+                    "estimate either, because it is a single study in one setting and it is a tempo "
+                    "measure, so it cannot settle the quantum question the chapter is asked."),
         dict(phenomenon="SDT_mixed_price_arrangement", rating="LOW",
              starting_point="quasi-experimental",
              downgrades="indirectness (-1); risk of bias (-1)",
-             reason="Two well-identified designs (Spanish rental subsidy; US lotteries) and one not "
-                    "retrieved (Laeven & Popov). Indirectness: none of the three has the living "
-                    "arrangement as its treatment — they have a subsidy, a windfall and a price. "
-                    "Risk of bias: the Spanish study estimates fertility CONDITIONAL ON BEING "
-                    "EMANCIPATED, which is a post-treatment variable the treatment itself moves."),
+             reason="Three identified designs now in hand — the Spanish rental subsidy, US "
+                    "lotteries, and Laeven & Popov's house-price instrument — plus Kucheva, which "
+                    "on reading is inverse-probability weighting rather than the administrative "
+                    "allocation the packet described, and moves out of the identified count. "
+                    "Indirectness: none of the treatments IS the living arrangement — a subsidy, a "
+                    "windfall, a price. Risk of bias: the Spanish study estimates fertility "
+                    "CONDITIONAL ON BEING EMANCIPATED, a post-treatment variable the treatment "
+                    "moves. Laeven & Popov's own OLS and IV disagree in sign, which is a second "
+                    "instance of this chapter's estimator problem rather than a defect in that "
+                    "paper."),
         dict(phenomenon="link1_driver_to_arrangement", rating="MODERATE",
              starting_point="quasi-experimental",
              downgrades="indirectness (-1)",
