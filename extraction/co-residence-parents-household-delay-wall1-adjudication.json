@@ -1,0 +1,248 @@
+{
+  "meta": {
+    "ticket": "TICK-075",
+    "stage": "Wall 1 second read",
+    "run": "2026-08-28",
+    "reader": "Shravan",
+    "source_evidence": "The screen record and its notes, plus the abstracts recovered at stages 5a (Crossref), 5b/5e (full text) and 5f (browser). Records the pass could not reach are classified from title and screen note and flagged.",
+    "what_is_classified": "Each record's OUTCOME VARIABLE, which the packet was never sorted on. The packet was assembled on EXPOSURE -- everything where a price and the arrangement move together -- and that is why it looked like 26 contested records.",
+    "independence": "One reader, and the same reader who screened. A consistency read, not a panel. The standing rule that adversarial re-rating by one rater is not independence applies here too.",
+    "duplicate_note": "Two records are preprints of two others. A version pair is one study, so distinct-study counts fold them; record counts do not."
+  },
+  "records": [
+    {
+      "id": "W4311207666",
+      "title": "The Effect of Financial Resources on Homeownership, Marriage, and Fertility: Evidence from State Lotteries",
+      "design": "identified",
+      "outcome_class": "FERTILITY",
+      "owner": "C.3.e",
+      "note": "Fertility outcome, identified. But the exposure is an unconditional cash windfall -- not a price, not the arrangement. Neither chapter's variation; it belongs to the income/liquidity hypothesis and is a cross-reference here. It bounds how much of any housing-fertility link is pure liquidity.",
+      "duplicate_of": null
+    },
+    {
+      "id": "W2791040281",
+      "title": "Subsidized Housing and the Transition to Adulthood",
+      "design": "identified",
+      "outcome_class": "FERTILITY",
+      "owner": "SHARED",
+      "note": "Administrative allocation of subsidised dwellings against how and when children become adults, fertility among the outcomes. Design 3 in a peer-reviewed demography journal. The treatment is a housing programme; the target is the arrangement. Genuinely mixed.",
+      "duplicate_of": null
+    },
+    {
+      "id": "W3125671386",
+      "title": "Waking Up from the American Dream",
+      "design": "identified",
+      "outcome_class": "FERTILITY",
+      "owner": "SHARED",
+      "note": "THE DECOMPOSITION RECORD. One instrument (predetermined industrial structure) and three outcomes estimated jointly -- home ownership, household formation, fertility. It is the only design in the frame that can say how much of a price effect on fertility travels through household formation. Both chapters must report it; neither can claim its magnitude alone.",
+      "duplicate_of": null
+    },
+    {
+      "id": "W1983947289",
+      "title": "Fostering Household Formation: Evidence from a Spanish Rental Subsidy",
+      "design": "identified",
+      "outcome_class": "FERTILITY",
+      "owner": "SHARED",
+      "note": "THE ARCHETYPAL MIXED CASE the sub-ruling was written for. A cash subsidy conditional on renting -- a price change whose eligibility condition IS establishing an independent residence -- with living apart from parents, partnering AND childbearing as outcomes. Published version; keep over the preprint.",
+      "duplicate_of": null
+    },
+    {
+      "id": "W3124528217",
+      "title": "Fostering the Emancipation of Young People (SSRN preprint)",
+      "design": "identified",
+      "outcome_class": "FERTILITY",
+      "owner": "SHARED",
+      "note": "Preprint of the record above. One study, two records. Retrieved at 5e; the published version is not. Read the preprint, cite the published version, record the version used.",
+      "duplicate_of": "W1983947289"
+    },
+    {
+      "id": "W3125001667",
+      "title": "Do housing options affect child birth decisions? Evidence from Taiwan",
+      "design": "observational",
+      "outcome_class": "FERTILITY",
+      "owner": "SHARED",
+      "note": "THE BEST EMPIRICAL ADJUDICATOR IN THE PACKET. The Taiwan PSFD option set spans renting, owning, living with parents or siblings, living in a house bought by parents, and staff housing, against a birth outcome. Tenure and the arrangement enter ONE choice set, so the two variables can be read against each other instead of assigned by ruling. Observational, so it settles the descriptive question and not the causal one.",
+      "duplicate_of": null
+    },
+    {
+      "id": "W4385496510",
+      "title": "LIVING ARRANGEMENT AND HOMEOWNERSHIP IMPACTS ON FERTILITY INTENTION",
+      "design": "observational",
+      "outcome_class": "INTENTION",
+      "owner": "SHARED",
+      "note": "Both Wall 1 variables in one ordinal logit, Indonesia. Outcome is a stated INTENTION, so it pools separately under the standing D.3.b rule and cannot carry a realized-fertility verdict.",
+      "duplicate_of": null
+    },
+    {
+      "id": "W3160060909",
+      "title": "Childbearing Behavior in the Light of Different Housing Regimes: First Births in Sweden 1975-2004",
+      "design": "observational",
+      "outcome_class": "FERTILITY",
+      "owner": "SHARED",
+      "note": "Thirty years of Swedish first births against housing regime, register-grade. The exposure is a regime rather than isolated variation in either variable.",
+      "duplicate_of": null
+    },
+    {
+      "id": "W4386826586",
+      "title": "The trifecta of adulthood: Housing, partnering and childbearing trajectories",
+      "design": "observational",
+      "outcome_class": "FERTILITY",
+      "owner": "SHARED",
+      "note": "Sequence analysis of adulthood pathways in East Asia; all three elements as one trajectory object. Descriptive of the joint distribution, which is what it is useful for -- it cannot separate the two variables either.",
+      "duplicate_of": null
+    },
+    {
+      "id": "W2069432153",
+      "title": "Does High Cost of Mortgage Debt Explain Why Young Adults Live with Their Parents? (JEEA)",
+      "design": "identified",
+      "outcome_class": "ARRANGEMENT",
+      "owner": "LINK1",
+      "note": "RECLASSIFIED BY THIS READ. The outcome is the probability of LEAVING THE PARENTAL HOME, not a birth. Fertility appears in the motivation, not in the estimation. It is link 1 of the chain -- a price producing the arrangement -- and no ruling about who owns it can make it a fertility estimate.",
+      "duplicate_of": null
+    },
+    {
+      "id": "W1529588091",
+      "title": "Does Limited Access to Mortgage Debt Explain Why Young Adults Live with Their Parents? (SSRN)",
+      "design": "cannot_tell",
+      "outcome_class": "ARRANGEMENT",
+      "owner": "LINK1",
+      "note": "Preprint of the JEEA record. Same reclassification.",
+      "duplicate_of": "W2069432153"
+    },
+    {
+      "id": "W4389069534",
+      "title": "Why do young adults coreside with their parents?",
+      "design": "observational",
+      "outcome_class": "ARRANGEMENT",
+      "owner": "LINK1",
+      "note": "RECLASSIFIED BY THIS READ, on the abstract recovered at 5f. The outcome is the CO-RESIDENCE SHARE, not a birth; the marriage-childbearing decision enters as a Heckman selection correction, not as the dependent variable. It carries the best available magnitude for link 1 -- up to a quarter of the 9-point rise in US co-residence 2000-2021 attributed to declining affordability -- and it cannot carry a fertility verdict.",
+      "duplicate_of": null
+    },
+    {
+      "id": "W7111954011",
+      "title": "A study on the characteristic of Household Living Arrangements in Taipei Metropolitan Area",
+      "design": "observational",
+      "outcome_class": "ARRANGEMENT",
+      "owner": "LINK1",
+      "note": "Multinomial logit over household transitions, one of which is moving from living with parents to renting. Outcome is the arrangement.",
+      "duplicate_of": null
+    },
+    {
+      "id": "W299825115",
+      "title": "The Dynamics of Participation in Subsidized Housing Programs in the U.S.",
+      "design": "observational",
+      "outcome_class": "ARRANGEMENT",
+      "owner": "LINK1",
+      "note": "Participation dynamics in a housing programme. Outcome is programme participation and where households live.",
+      "duplicate_of": null
+    },
+    {
+      "id": "W4254615941",
+      "title": "Housing Multigenerational Households in Australian Cities",
+      "design": "descriptive",
+      "outcome_class": "ARRANGEMENT",
+      "owner": "LINK1",
+      "note": "The dwelling stock as a constraint on the arrangement. No fertility outcome.",
+      "duplicate_of": null
+    },
+    {
+      "id": "W2230722406",
+      "title": "The Marginal Cost of a Bedroom: An Australian Case Study",
+      "design": "observational",
+      "outcome_class": "PRICE",
+      "owner": "C.2.c",
+      "note": "Prices the space constraint. The estimated object is a price, not an arrangement and not a birth. C.2.c's, cleanly.",
+      "duplicate_of": null
+    },
+    {
+      "id": "W4409225230",
+      "title": "Aging Population and Lower Fertility Affect Housing Market",
+      "design": "descriptive",
+      "outcome_class": "REVERSE",
+      "owner": "ROUTE_OUT",
+      "note": "The title states the direction: fertility and ageing acting on the HOUSING MARKET. This is the reverse channel, which the scope's threat 1 is about. Context, not evidence for the claim.",
+      "duplicate_of": null
+    },
+    {
+      "id": "W7161410500",
+      "title": "Infrastructure and the American Family",
+      "design": "cannot_tell",
+      "outcome_class": "NO_ESTIMATE",
+      "owner": "ROUTE_OUT",
+      "note": "ROUTED OUT at 5f on the recovered abstract. A 16-page SSRN essay by an unaffiliated author, zero references and zero citations, no estimate and no design. It entered the packet on a title alone.",
+      "duplicate_of": null
+    },
+    {
+      "id": "W7164878078",
+      "title": "Housing Careers and Demographic Change",
+      "design": "cannot_tell",
+      "outcome_class": "NO_ESTIMATE",
+      "owner": "THEORY",
+      "note": "Elsevier handbook chapter, 2026. Framing, no estimate. Theory stream.",
+      "duplicate_of": null
+    },
+    {
+      "id": "W4391348501",
+      "title": "Households and families",
+      "design": "descriptive",
+      "outcome_class": "NO_ESTIMATE",
+      "owner": "THEORY",
+      "note": "Policy Press book chapter; housing careers and family dynamics through an SDT and life-course lens. Theory stream.",
+      "duplicate_of": null
+    },
+    {
+      "id": "W2544536248",
+      "title": "Delayed and depressed: from expensive housing to smaller families",
+      "design": "theory",
+      "outcome_class": "NO_ESTIMATE",
+      "owner": "THEORY",
+      "note": "States Wall 1's mechanism as a FRAMEWORK -- housing acting on leaving home, partnering and childbearing, all extending later. It is the clearest statement of the chapter's own causal chain and it estimates nothing.",
+      "duplicate_of": null
+    },
+    {
+      "id": "W2129646919",
+      "title": "Family dynamics and housing",
+      "design": "theory",
+      "outcome_class": "NO_ESTIMATE",
+      "owner": "THEORY",
+      "note": "Demographic Research reflection connecting leaving home, marriage, parenthood and separation to housing. Theory stream. Retrieved (deterministic rung).",
+      "duplicate_of": null
+    },
+    {
+      "id": "W3025493284",
+      "title": "Housing as a Fertility Trap",
+      "design": "descriptive",
+      "outcome_class": "NO_ESTIMATE",
+      "owner": "THEORY",
+      "note": "Housing finance and policy in East Central Europe as a framework for the housing-household-fertility connection. Names the mechanism; estimates nothing.",
+      "duplicate_of": null
+    },
+    {
+      "id": "W4226201035",
+      "title": "ZHILISHCHNYE USLOVIYA I DETNOST",
+      "design": "descriptive",
+      "outcome_class": "NO_ESTIMATE",
+      "owner": "THEORY",
+      "note": "Russian-language conference paper stating the chain. Not retrieved; classified from the screen note and flagged.",
+      "duplicate_of": null
+    },
+    {
+      "id": "W2548705618",
+      "title": "The Impact of Housing Welfare System on Family Formation and Family Dissolution in Qatar",
+      "design": "descriptive",
+      "outcome_class": "UNRESOLVED",
+      "owner": "UNRESOLVED",
+      "note": "A conference-proceedings abstract on a housing-allocation policy. Design 3's shape in a setting the frame lacks entirely, and neither the outcome nor the design can be read off what is available. Stays unresolved and is named as such.",
+      "duplicate_of": null
+    },
+    {
+      "id": "W1965874727",
+      "title": "Politiques d'habitatge social i de joves",
+      "design": "descriptive",
+      "outcome_class": "NO_ESTIMATE",
+      "owner": "THEORY",
+      "note": "Catalan article on social housing policy for young people. Policy description; no estimate. Same setting as the Aparicio-Fenoll subsidy, so it is useful context for that record.",
+      "duplicate_of": null
+    }
+  ]
+}
