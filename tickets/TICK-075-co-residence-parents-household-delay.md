@@ -11,14 +11,14 @@
 - [x] 2. Search strategy and scope drafted (DRAFT, not frozen — Wall 1 second read open)
 - [x] 3. Literature search and AI screening, both phases (§5.1) — 1,572/1,572 screened
 - [x] 4. RA title/abstract review — abstract recovery + re-read done; NOT independent (same reader)
-- [~] 5. Full-text retrieval — scripted passes COMPLETE (101/436). 335 records handed off in three worklists; 30 of them critical
-- [ ] 6. Full-text screen, RA spot-checks 5–10%
-- [ ] 7. Extraction to `extraction/co-residence-parents-household-delay.csv`, RA verifies a random 10%
-- [ ] 8. Risk-of-bias assessment per study
-- [ ] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise
-- [ ] 10. Demographic significance against PM / FDT / SDT
-- [ ] 11. GRADE rating, 3 independent raters
-- [ ] 12. Chapter draft on the §6 template
+- [~] 5. Full-text retrieval — scripted passes + browser pass COMPLETE (101/436). 335 handed off; 3 subscription-walled studies are the priority
+- [~] 6. Full-text screen — done on the 89 readable texts; **RA spot-check NOT done**
+- [~] 7. Extraction — 16 effects, 13 studies; **RA has NOT verified a random 10%**
+- [x] 8. Risk-of-bias — seven domains, derived from the extraction fields rather than assigned
+- [x] 9. Narrative synthesis — the ≥3 test was APPLIED after stratification and nothing pools
+- [x] 10. Demographic significance — PM not assessed, FDT not identified, SDT 3% AND WRONG-SIGNED
+- [~] 11. GRADE rated per phenomenon; **one rater, not three**
+- [x] 12. Chapter drafted on the docs/chapter-template.md three-layer structure
 - [ ] 13. RA lay-readability check
 - [ ] 14. PI review and sign-off
 
@@ -51,6 +51,34 @@ the full exposure vocabulary is **1,012**; see `co-residence-parents-household-d
 §11. The like-for-like ordering that picked A.23 is undisturbed, but this number is the right one.
 
 ## Log
+
+### 2026-08-28 (afternoon) — rulings taken, chapter drafted
+
+Scripts 237-242. **`output/chapters/co-residence-parents-household-delay.md` is drafted** on the
+three-layer template. Not PI-reviewed.
+
+**Browser pass (5f).** Recovered no files — Chrome renders a PDF in a viewer no tool can read, and a
+localhost sink is refused by Chrome's private-network rule. It recovered 5 abstracts and 8 route
+verdicts, and the verdicts are the finding: **a curl 200 carrying HTML is not proof the route is
+open.** Duke University Press paywalls both its records, which `235` had filed as browser work.
+
+**Three rulings taken** (`…-wall1-ruling.md`, `…-rulings-and-amendments.md`), all PI-pending.
+Wall 1 sorted on OUTCOME rather than exposure shrinks the dispute from 26 records to 7 studies, so
+position 3 — shared and non-additive — became the cheap option instead of the expensive one.
+
+**THE CHAPTER'S RESULT.** The cell the registered claim names — an unpartnered childless young adult
+in the parental home — holds **zero identified designs and zero effect estimates.** The literature
+that looks like it is about the claim is describing the joint timing of leaving home and childbearing,
+or estimating what makes young people stay. The best-identified evidence in the chapter (MODERATE)
+is about link 1, and the one study there that looks for a fertility effect reports a null.
+
+**Demographic significance is NEGLIGIBLE AND WRONG-SIGNED:** 3% of the SDT fall, in the direction of
+raising fertility. Both configurations of the exposure rose and they push opposite ways, so a
+calculation counting only the named configuration would have credited that share to the decline.
+
+**Still open:** 5 PI rulings; RA spot-check of the screen; RA verification of 10% of the extraction;
+two more GRADE raters; and three subscription-walled studies (Chu; Laeven & Popov; Kucheva) that are
+the top of the library worklist — Chu could change the direction reported in §6.2.
 
 ### 2026-08-28 — stage 5 run end to end; the scripted part is finished
 

@@ -91,7 +91,7 @@ Two domains are here because of Amendment 6 and one because of a specific paper:
 
   *A NULL FROM AN IDENTIFIED DESIGN, on a policy that does move living arrangements. One of the six designs Amendment 4 adds to scope section 4.*
 
-**Chen & co-authors (Guizhou/Shandong NRPS)** — `LINK1_DRIVER_TO_ARRANGEMENT`, rural China, New Rural Pension Scheme. fuzzy regression discontinuity at the pension eligibility age.
+**Chen, Eggleston & Sun 2017** — `LINK1_DRIVER_TO_ARRANGEMENT`, rural China, New Rural Pension Scheme. fuzzy regression discontinuity at the pension eligibility age.
 
   adult sons co-residing with parents -0.389*** (Guizhou); grandchildren co-residing with grandparents -0.137*** (Guizhou); Shandong estimates insignificant
 

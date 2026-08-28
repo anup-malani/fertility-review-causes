@@ -130,10 +130,10 @@
       "note": "A NULL, and the only high-fertility-setting estimate in the cell. Small sample; the confidence interval is wide enough to contain the Vietnamese point estimate several times over."
     },
     {
-      "study": "Hacker & Roberts 2021",
+      "study": "Hacker, Helgertz, Nelson & Roberts 2021",
       "id": "W3202049426",
       "doi": null,
-      "venue": "working paper / journal article",
+      "venue": "Demography",
       "year": 2021,
       "cell": "PRIMARY_PROXIMITY",
       "config": "EXTENDED_COUPLE",
@@ -274,10 +274,10 @@
       "note": "A NULL FROM AN IDENTIFIED DESIGN, on a policy that does move living arrangements. One of the six designs Amendment 4 adds to scope section 4."
     },
     {
-      "study": "Chen & co-authors (Guizhou/Shandong NRPS)",
+      "study": "Chen, Eggleston & Sun 2017",
       "id": "W2605550871",
-      "doi": null,
-      "venue": "working paper",
+      "doi": "10.1016/j.jeoa.2017.04.001",
+      "venue": "The Journal of the Economics of Ageing",
       "year": 2017,
       "cell": "LINK1_DRIVER_TO_ARRANGEMENT",
       "config": "ELDER_SUPPORT/EXTENDED boundary",
