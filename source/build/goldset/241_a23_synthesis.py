@@ -7,6 +7,14 @@ quoted sentence behind every number. Nothing is retyped: the acceptance criterio
 if >=3 extractable effects" is EVALUATED here rather than asserted, and the GRADE rating is
 assembled from the same fields rather than written and then justified.
 
+**A FOURTH ESTIMATOR CLASS WAS ADDED WHEN THE SECOND CORRECTED ESTIMATE ARRIVED.** Yoda's
+propensity-score matching corrects for OBSERVED confounding; it cannot touch the unobserved
+anticipation that scope §3 is about. With three classes it fell into `uncorrected` by default and
+promptly formed a poolable group of three with two genuinely uncorrected studies — which is the
+precise pooling Ruling 4 exists to prevent, arriving through a gap in the class list rather than
+through a gap in the rule. A correction that is not the correction the chapter needs is still not
+the absence of one.
+
 **THE POOLING TEST IS APPLIED AFTER STRATIFICATION, NOT BEFORE**, per Ruling 4 — and running it
 found that Ruling 4's three strata are not enough. Two groups of exactly three survive configuration,
 outcome level and estimator class, and reading them shows both are artefacts:
@@ -53,6 +61,11 @@ FIELDS = ["study", "id", "doi", "venue", "year", "cell", "config", "config_basis
 
 IDENTIFIED = {"quasi_experimental", "corrected_for_endogeneity"}
 PARTIAL = {"corrected_for_time_invariant_unobservables"}
+# Matching balances what is OBSERVED. It is a correction and it is not the same correction as a
+# design that addresses unobserved anticipation, so it gets its own class rather than falling into
+# `uncorrected` by default — which is exactly the pooling Ruling 4 exists to prevent, and which the
+# first version of this script did silently when Yoda was added.
+OBSERVED_ONLY = {"corrected_for_observed_confounding"}
 ECOLOGICAL = {"iv_ecological", "uncorrected_ecological"}
 
 
@@ -65,7 +78,7 @@ def rob(e):
     d = {}
     ec, ac = e["estimator_class"], (e["anticipation_control"] or "").lower()
     d["confounding"] = ("low" if ec in IDENTIFIED else
-                        "moderate" if ec in PARTIAL else "high")
+                        "moderate" if ec in PARTIAL or ec in OBSERVED_ONLY else "high")
     # Scope section 3: the exposure is an event in the same life-course sequence as the outcome.
     d["reverse_causation_and_anticipation"] = (
         "low" if ec in IDENTIFIED else
@@ -116,6 +129,7 @@ def main():
             continue                      # link 1 has no fertility outcome; it is never pooled
         cls = ("identified" if e["estimator_class"] in IDENTIFIED else
                "partially_corrected" if e["estimator_class"] in PARTIAL else
+               "observed_confounding_only" if e["estimator_class"] in OBSERVED_ONLY else
                "ecological" if e["estimator_class"] in ECOLOGICAL else "uncorrected")
         strata[(e["config"], e["outcome_level"], cls)].append(e)
         tq = (e["tempo_or_quantum"] or "").split("(")[0].strip().lower()

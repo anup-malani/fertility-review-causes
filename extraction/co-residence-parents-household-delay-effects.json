@@ -416,6 +416,30 @@
       "full_text": true,
       "evidence": "I find that the subsidized housing program has no effect on teenage parenthood for females but may decrease the probability of becoming a teenage parent for males. ... the subsidized housing program may accelerate the formation of households in early adulthood but only when that household is formed in a subsidized apartment.",
       "note": "RETRIEVED BY HAND 2026-08-28, AND IT IS NOT THE DESIGN THE PACKET SAID IT WAS. The Wall 1 packet described it as administrative allocation of dwellings - the scope's design 3 - and treated it as a priority identified read. It is a selection-on-observables design with inverse-probability weighting against eligible non-recipients. That is a careful observational study, not a quasi-experiment, and it moves out of the identified count. Its fertility outcome is TEENAGE PARENTHOOD, a margin that cannot carry a completed-fertility verdict. The finding is a null, and the household-formation result is link 1: the programme changes WHERE a first independent household forms rather than whether young adults stay with their parents."
+    },
+    {
+      "study": "Yoda 2021",
+      "id": "W3213314826",
+      "doi": "10.1080/21620555.2021.1995857",
+      "venue": "Chinese Sociological Review",
+      "year": 2021,
+      "cell": "PRIMARY_EXTENDED_COUPLE",
+      "config": "EXTENDED_COUPLE",
+      "config_basis": "sample restriction \u2014 married couples who do and do not co-reside with the husband's parents",
+      "setting": "Japan, National Fertility Surveys 2010 and 2015",
+      "n": "1,308 married couples",
+      "arrangement_measure": "co-residence with the husband's parents (binary)",
+      "source_of_variation": "cross-section with propensity-score matching on the confounders of co-residence",
+      "anticipation_control": "propensity-score matching \u2014 balances OBSERVED confounders; it does not address unobserved anticipation",
+      "outcome_level": "realized births",
+      "tempo_or_quantum": "quantum (completed marital fertility)",
+      "estimator_class": "corrected_for_observed_confounding",
+      "estimate": "positive and significant in the unmatched sample; reduced to NON-SIGNIFICANCE by the matching estimators. No point estimate extracted \u2014 full text not retrieved.",
+      "ci": "unavailable",
+      "direction": "null once matched",
+      "full_text": false,
+      "evidence": "coresidence with the husband's parents is positively associated with completed marital fertility in the unmatched sample ... However, the propensity score matching estimators show that this association is reduced to a non-significant level once the matching technique corrects the covariate imbalance.",
+      "note": "THE SECOND CORRECTED ESTIMATE, FOUND 2026-08-28, AND IT WAS ALREADY IN THIS CHAPTER'S OWN FRAME AT T1_primary_identified \u2014 never retrieved, recorded as `no_url` at stage 5b. It matters because it corrects the OTHER margin: Chu corrects a timing estimate and finds a thirty-month delay; Yoda corrects a COMPLETED FAMILY SIZE estimate and finds the positive association vanishing. Two corrections, two outcomes, and neither supports the positive association the uncorrected studies report. Weaker than Chu as identification \u2014 matching balances what is observed and cannot touch the anticipation problem scope \u00a73 is about \u2014 so it is recorded as corrected for OBSERVED confounding and does not pool with Chu. Direction from the abstract; the article is closed at Taylor & Francis and the 2024 Routledge reprint is closed too."
     }
   ]
 }

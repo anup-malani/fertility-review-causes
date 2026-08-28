@@ -148,13 +148,13 @@ other.
 
 ## 5. Included studies
 
-Seventeen effects from fourteen studies. The full table with the sentence each number was read from
+Eighteen effects from fifteen studies. The full table with the sentence each number was read from
 is in `extraction/co-residence-parents-household-delay.csv`.
 
 | Configuration | Effects | Identified designs |
 |---|---|---|
 | Young adult in the parental home (the registered claim) | 2 | **0** |
-| Couple with a parent or parent-in-law | 6 | 1 |
+| Couple with a parent or parent-in-law | 7 | 1 |
 | Residential proximity without co-residence | 1 | 0 |
 | Policies changing a price to change the arrangement | 4 | 3 |
 | Drivers moving the arrangement, no birth outcome | 4 | 4 |
@@ -194,6 +194,24 @@ depends on how many uncorrected studies happen to be included.
 rests on distributional assumptions plus one excluded variable rather than on an experiment. And it
 is a *timing* result: a three-year delay in a first birth is consistent with a large reduction in
 completed family size and also with none at all, and this study cannot distinguish the two.
+
+**A second study corrects the other margin, and it points the same way.** Yoda, using the Japanese
+National Fertility Surveys of 2010 and 2015, compares 1,308 married couples who do and do not live
+with the husband's parents. Unmatched, co-residence is positively associated with completed marital
+fertility, which is the familiar result. Matched on the observable characteristics that predict
+co-residence, **the association falls to non-significance**, and the author concludes that
+intergenerational co-residence has only limited direct effects on marital fertility in contemporary
+Japan.
+
+The two corrections are different in kind and should not be pooled. Matching balances what is
+observed; it cannot touch the anticipation problem, which is about what is not. Chu's structural
+model addresses that and Yoda's matching does not. What makes the pair worth having is that they
+correct **different outcomes** — one the timing of a first birth, the other completed family size —
+and that the positive association fails to survive either correction.
+
+**Almost nobody has read either.** Chu has been cited sixteen times in eleven years and Yoda four.
+The uncorrected comparison is not being repeated because the corrected one was weighed and rejected.
+It is being repeated because the correction is nearly invisible in this literature.
 
 ### 5.2 The exposure is not one variable, and one study shows it inside one dataset
 
@@ -329,17 +347,18 @@ estimate at all.
 
 What the chapter can report is the following.
 
-**For a couple living with a parent, the uncorrected estimates point one way and the one corrected
-estimate points the other, by a large margin.** A Vietnamese household panel with fixed effects
-finds the presence of a grandparent associated with 0.14 additional children (confidence interval
-0.08 to 0.19). A Tanzanian comparison finds no difference. An American historical dataset finds the
-direction depends on which parent. The Taiwanese study that treats the arrangement as jointly
-determined with the birth finds a delay of about thirty months in the younger cohort.
+**For a couple living with a parent, the uncorrected estimates point one way and both corrected
+estimates point the other.** A Vietnamese household panel with fixed effects finds the presence of a
+grandparent associated with 0.14 additional children (confidence interval 0.08 to 0.19). A Tanzanian
+comparison finds no difference. An American historical dataset finds the direction depends on which
+parent. The Taiwanese study that treats the arrangement as jointly determined with the birth finds a
+delay of about thirty months in the younger cohort. The Japanese study that matches on the
+observable predictors of co-residence finds the positive association disappearing.
 
 Those results are not in conflict in the ordinary sense, and treating them as a spread to be
-averaged would be a mistake. Three of them are versions of the comparison §5.1 shows is biased, and
-the fourth is that comparison corrected. The corrected one is a timing estimate and the Vietnamese
-one is a family-size estimate, so they do not even measure the same quantity.
+averaged would be a mistake. Several are versions of the comparison §5.1 shows is biased; two are
+that comparison corrected, in two different ways, on two different outcomes. They do not measure the
+same quantity and they do not pool.
 
 **For a young adult in the parental home, there is no effect estimate in the literature.** Two
 records reach extraction. One reports an association between leaving home and motherhood whose
@@ -410,14 +429,19 @@ exposure rose; both of its configurations rose; and the two configurations push 
 opposite directions.** A calculation that counted only the configuration the hypothesis names would
 have credited the whole rise to the decline, while part of the same rise was pushing the other way.
 
-**And the one endogeneity-corrected estimate in the same cell points the other way from the estimate
-just used.** Chu, Xie and Yu find that living with a husband's parents delays a first birth by about
-thirty months once the arrangement is treated as chosen. That is a timing result and this arithmetic
-is denominated in completed children, so it cannot enter the calculation. The cell therefore holds
-one family-size estimate that is small and wrong-signed, and one corrected timing estimate that is
-large and runs the other way, and **the two cannot be combined into a share.** Reporting only the
-first would overstate what the chapter knows; reporting only the second would put a timing result
-into a family-size denominator.
+**And both corrected estimates in the same cell point away from the estimate just used.** Chu, Xie
+and Yu find that living with a husband's parents delays a first birth by about thirty months once
+the arrangement is treated as chosen; that is a timing result, and this arithmetic is denominated in
+completed children, so it cannot enter the calculation. Yoda's estimate *is* denominated in
+completed children — and what it reports is that the positive association disappears under matching,
+which supplies no magnitude to multiply.
+
+So the cell holds one family-size estimate that is small and wrong-signed and uncorrected for
+anything but time-invariant household characteristics; one corrected family-size result that is a
+null; and one corrected timing result that is large and runs the other way. **None of the three can
+be combined with another**, and the +3.0% figure above is what is left when the only multipliable
+number is used. It should be read as an upper bound on what this configuration could contribute in
+the direction the arithmetic gives it, not as an estimate of a contribution.
 
 **Two constraints bind any number in this section.**
 
@@ -476,14 +500,18 @@ regression.** In 3.1 million American couples in 1900, a co-resident mother goes
 and a co-resident mother-in-law with higher. An estimate of "living with a parent" is an average over
 whichever parents are in the sample, and it transfers to no other setting.
 
-**Correcting for the fact that the arrangement and the birth are chosen together moves the estimate
-by about three years, and the correction has now appeared twice.** In Taiwan, the ordinary estimate
-says living with a husband's parents brings a first birth forward by about six months; treating the
-arrangement as chosen turns that into a delay of about thirty months. In the American housing boom,
-ordinary least squares gives a positive and insignificant fertility effect and the instrumented
-estimate gives a negative and significant one. The literature is not heterogeneous evidence about one
-quantity; it is mostly one biased comparison, repeated, and where anyone has corrected it the answer
-has changed.
+**Every time someone corrects for the fact that the arrangement and the birth are chosen together,
+the answer changes — and it has been done three times.** In Taiwan, the ordinary estimate says living
+with a husband's parents brings a first birth forward by about six months; treating the arrangement
+as chosen turns that into a delay of about thirty months. In Japan, the positive association between
+co-residence and completed marital fertility disappears once couples are matched on the observable
+predictors of co-residence. In the American housing boom, ordinary least squares gives a positive and
+insignificant fertility effect and the instrumented estimate gives a negative and significant one.
+
+Three corrections, three literatures, three different techniques, and the naive comparison fails
+every time. The literature is not heterogeneous evidence about one quantity; it is mostly one biased
+comparison, repeated — and the corrections that exist have been almost entirely ignored, at sixteen
+and four citations respectively.
 
 **The channel probably moves timing rather than family size.** The best-identified design in the
 vicinity — American lottery wins on administrative tax data — pulls births forward and leaves the
@@ -519,10 +547,19 @@ reach and a script cannot; and 4 have no digital identifier at all and need a li
 individually as consequential as the three just obtained, and the pre-launch cell will not be filled
 by any of them — its emptiness is a property of the literature, not of this chapter's access.
 
-**Studies that do not exist and should.** An estimate of the unconditional effect of a
-household-formation subsidy on childbearing — the Spanish design without the conditioning on having
-moved out. A design that instruments the living arrangement itself and follows completed cohort
-fertility rather than a first birth. And a study that measures which parent is in the household,
+**Studies that do not exist and should.** A systematic hunt across three channels that fail
+differently — mining the pulled pools, forward citations of Chu, and a fresh search on
+identification vocabulary rather than exposure vocabulary — found exactly two studies in the world
+that correct for the joint determination of the arrangement and the birth, and both are East Asian.
+Two of the ten search queries returned **no records in all of OpenAlex**, including the one that
+would describe a causal study of co-residence and childbearing. The gap is not in this chapter's
+retrieval; it is in the field.
+
+What is missing, in order: an estimate of the unconditional effect of a household-formation subsidy
+on childbearing — the Spanish design without the conditioning on having moved out. A design that
+instruments the living arrangement itself and follows completed cohort fertility rather than a first
+birth. A corrected estimate from outside East Asia, since both existing ones are from settings where
+the extended configuration is the norm. And a study that measures which parent is in the household,
 since the historical American data says the answer determines the direction.
 
 ---
@@ -581,6 +618,9 @@ fecundidad en municipios de México. *Población y Salud en Mesoamérica*, 20(1)
 Ustyuzhanin, V., Zinkina, J., & Korotayev, A. (2025). Extended family structures exert a causal
 influence on fertility. Working paper.
 
+Yoda, S. (2021). Intergenerational living arrangements and marital fertility in Japan: A
+counterfactual approach. *Chinese Sociological Review*.
+
 ---
 
 ## Provenance and standing caveats
@@ -599,8 +639,15 @@ in it.
 **The findings that might not survive are** the demographic-significance magnitude, which rests on a
 single Vietnamese panel estimate transported to the United States, and the size of the corrected
 Taiwanese estimate, which is one study in one country resting on distributional assumptions and a
-single excluded variable. A second endogeneity-corrected estimate of the same quantity, in any
-setting, would do more for this chapter than any amount of further retrieval.
+single excluded variable.
+
+An earlier draft of this block said that a second endogeneity-corrected estimate would do more for
+the chapter than any further retrieval. That estimate was then searched for and found — Yoda (2021),
+which was already inside this chapter's frame, correctly flagged as identified by the screen, and
+never retrieved. Its direction is quoted here from its abstract; the article is closed at the
+publisher and closed again in a 2024 book reprint. **Obtaining its full text is now the single
+highest-value retrieval item in the chapter**, because it is the only corrected estimate denominated
+in completed family size, which is the quantity §7 needs and cannot get.
 
 **Numbers that come from abstracts rather than full text** are now only the Acolin, Lin and Wachter
 share of the co-residence rise, quoted in §7.3. Everything else in the tables was read from a full
