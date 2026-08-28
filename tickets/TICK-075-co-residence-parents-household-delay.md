@@ -11,7 +11,7 @@
 - [x] 2. Search strategy and scope drafted (DRAFT, not frozen — Wall 1 second read open)
 - [x] 3. Literature search and AI screening, both phases (§5.1) — 1,572/1,572 screened
 - [x] 4. RA title/abstract review — abstract recovery + re-read done; NOT independent (same reader)
-- [ ] 5. Full-text retrieval
+- [~] 5. Full-text retrieval — scripted passes COMPLETE (101/436). 335 records handed off in three worklists; 30 of them critical
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
 - [ ] 7. Extraction to `extraction/co-residence-parents-household-delay.csv`, RA verifies a random 10%
 - [ ] 8. Risk-of-bias assessment per study
@@ -51,6 +51,44 @@ the full exposure vocabulary is **1,012**; see `co-residence-parents-household-d
 §11. The like-for-like ordering that picked A.23 is undisturbed, but this number is the right one.
 
 ## Log
+
+### 2026-08-28 — stage 5 run end to end; the scripted part is finished
+
+Scripts 232-236. **101 of 436 on disk (23%)** — 79 PDFs, 3 HTML full texts, 13 PMC texts,
+6 twins.
+
+**The rate is not the result.** The two rows that decide whether stage 5 is finished are the
+Wall 1 packet at **5 of 26** and the identified designs at **9 of 22**. The chapter's
+retrieval problem is its shape, not its rate: the tiers holding the open ruling and the
+GRADE evidence are the ones publishers defend hardest.
+
+**Three counters were lying, and each would have produced a confident false negative.**
+
+1. **Unpaywall reported `found 0 / reached 352`** — the shape of a dead rung. It was not:
+   it returned a url for most records with a DOI, and the de-duplication filter ran before
+   the counter. The rung is *redundant* against OpenAlex's own `locations` here. `found`
+   and `novel` are now separate counters.
+2. **PMC's fourth zero was the PDF route, not PMC.** 5b found 14 urls and fetched 0,
+   matching A.12, A.24 and C.3.g. `234` asked the structured-text routes and got **13 of
+   the 14**, including both identified social-pension studies on link 1. *The honest
+   re-reading of all four chapters is that they measured the same defended route rather
+   than PMC's coverage — the rung should not be retired.*
+3. **The on-disk cache erased rung attribution.** A re-run over a populated `pdfs/`
+   directory collapsed every counter into `cached`. Provenance is now written per file.
+
+**Two rungs added, both paid.** The deterministic rung went **22 for 22**. The 14 records
+under DOI prefix `10.4054` are two publishers' objects — 8 Demographic Research articles and
+6 MPIDR working papers — with different path constructions; a rung written at the prefix
+would have taken the 8 and silently dropped the 6.
+
+**A version pair is one study** (`236`). The Wall 1 packet documents two pairs inside the
+frame and 5b failed on both members of each; both are now open through the preprint.
+
+**Open, and it is a human's turn:** `W1_browser` 55 records (13 critical) — a 200 that was
+not the article, mostly SSRN `doi.org` 403s, with the blocked twin named for each;
+`W2_library_proxy` 185 (13 critical); `W3_librarian` 95 (4 critical), no DOI at all.
+
+**Still open from 8/27:** the Wall 1 second read, the pooling rule, and six scope amendments.
 
 ### 2026-08-27 — stages 2, 3 and 4 run end to end
 
