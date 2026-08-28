@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "ticket": "TICK-075",
+    "stage": "5f",
+    "run": "2026-08-28",
+    "operator": "Shravan (Claude-in-Chrome session)",
+    "what_this_is": "Hand-collected evidence from a browser pass over the 13 CRITICAL W1_browser records. It is recorded as data and turned into the log by 238 rather than written by hand, because a retrieval result typed into a markdown file is not reproducible and cannot be cross-tabbed.",
+    "what_this_is_not": "It is not a full-text retrieval. Chrome renders a PDF in a viewer whose bytes a tool cannot reach, and a localhost sink for them is blocked by Chrome's private-network rule. What this pass recovered is ABSTRACTS and ROUTE VERDICTS, not files.",
+    "attempted": 9,
+    "not_attempted": 4
+  },
+  "records": [
+    {"id": "W2098271399", "doi": "10.1515/bejeap-2014-0003", "tier": "T1_wall1_packet", "design": "identified",
+     "title": "Fostering Household Formation: Evidence from a Spanish Rental Subsidy",
+     "outcome": "study_already_covered", "route_verdict": "n/a",
+     "note": "Not attempted. The SSRN twin (W1484302076) was retrieved as a PDF at stage 5e, and a version pair is one study. Only the published-version check remains, which is a version question and not a retrieval one."},
+
+    {"id": "W2793834463", "doi": "10.1007/s13524-018-0656-9", "tier": "T1_wall1_packet", "design": "identified",
+     "title": "Subsidized Housing and the Transition to Adulthood",
+     "outcome": "paywalled", "route_verdict": "RECLASSIFY_W1_TO_W2",
+     "note": "Duke University Press serves 'You do not currently have access to this content' to this browser session. curl saw HTML and called it a blocked route; the browser shows a genuine subscription wall. Needs the institutional proxy, not a browser."},
+
+    {"id": "W2604478958", "doi": "10.1111/jmcb.12408", "tier": "T1_wall1_packet", "design": "identified",
+     "title": "Waking Up from the American Dream: On the Experience of Young Americans During the Housing Boom of the 2000s",
+     "outcome": "abstract_recovered", "route_verdict": "W2_for_the_published_version",
+     "twin": "W2424734759", "twin_venue": "ECB Working Paper No. 1910",
+     "abstract": "We exploit regional variations in house price fluctuations in the United States during the early to mid-2000s to study the impact of the housing boom on young Americans' choices related to home ownership, household formation, and fertility. We also introduce a novel instrument for changes in house prices based on the predetermined industrial structure of the local economy. We find that in MSAs which experienced large increases in house prices between 2001 and 2006, the youngest households were substantially less likely to purchase residential property, to be married, and to have a child, both in 2006 and in 2011.",
+     "note": "THE DECOMPOSITION RECORD. One instrument, three outcomes estimated jointly: home ownership, household formation, fertility. It is the only design in the frame that can say how much of a price effect on fertility travels through household formation, which is the non-additivity question A.23 inherited from C.2.c and could not answer. Wiley blocks the article; the ECB working paper is the readable version."},
+
+    {"id": "W4232365706", "doi": "10.17045/sthlmuni.14555868.v1", "tier": "T1_wall1_packet", "design": "observational",
+     "title": "Childbearing Behavior in the Light of Different Housing Regimes: First Births in Sweden 1975-2004",
+     "outcome": "not_attempted", "route_verdict": "unknown",
+     "note": "figshare.com is not in the browser extension's permitted-domain set for this session. Unknown, not closed."},
+
+    {"id": "W4385496510", "doi": "10.7454/jessd.v6i1.1145", "tier": "T1_wall1_packet", "design": "observational",
+     "title": "LIVING ARRANGEMENT AND HOMEOWNERSHIP IMPACTS ON FERTILITY INTENTION TO ACHIEVE THE SUSTAINABLE DEVELOPMENT GOALS",
+     "outcome": "open_in_browser_bytes_unreachable", "route_verdict": "CONFIRMED_OPEN_W1",
+     "note": "The single clearest confirmation that W1 is real. curl gets 403; the browser fetches the same url with status 200, content-type application/pdf, 507,034 bytes. The content is open and the door is shut to a script. The bytes could not be moved out of the browser: Chrome renders it in a viewer a tool cannot read, and a localhost sink is refused by Chrome's private-network rule."},
+
+    {"id": "W2074806498", "doi": "10.1080/14445921.2014.11104385", "tier": "T1_wall1_packet", "design": "observational",
+     "title": "The Marginal Cost of a Bedroom: An Australian Case Study",
+     "outcome": "not_attempted", "route_verdict": "unknown",
+     "note": "figshare.com not permitted in this browser session."},
+
+    {"id": "W4386371881", "doi": "10.1016/j.alcr.2023.100577", "tier": "T1_wall1_packet", "design": "observational",
+     "title": "The trifecta of adulthood: Housing, partnering and childbearing trajectories",
+     "outcome": "not_attempted", "route_verdict": "unknown",
+     "note": "Elsevier. Not reached before the pass was stopped."},
+
+    {"id": "W4321371524", "doi": "10.1111/1540-6229.12467", "tier": "T1_wall1_packet", "design": "observational",
+     "title": "Why do young adults coreside with their parents?",
+     "outcome": "abstract_recovered", "route_verdict": "W2_for_the_published_version",
+     "twin": "W4365129353", "twin_venue": "SSRN / Wharton Research Paper Series",
+     "abstract": "Nearly one in every two adults aged 18-29 currently lives with their parents, compared to slightly more than one in four in 1960. The literature focuses on changing labor market conditions and marriage-childbearing delays to account for this shift. Using a Blinder-Oaxaca procedure, we identify a role for housing affordability, measured by market level median housing rent or price to median household income ratios, as an additional factor in the increase in co-residency since but not before 2000. We endogenize the marriage-childbearing decision with a Heckman selection model and attribute up to a quarter of the observed 9-percentage-point increase in the co-residence share between 2000 and 2021 to a decrease in housing affordability. We find a non-linear relationship between affordability and co-residence with the relationship strongest in the least affordable metros where affordability constraints might be more binding.",
+     "note": "ROUTES TO LINK 1, NOT TO THE REGISTERED CLAIM. The outcome is CO-RESIDENCE, not a birth: it estimates housing affordability -> the arrangement, which is A.23's mediator being produced by C.2.c's treatment. It carries the best available magnitude for that link (a quarter of a 9-point rise, 2000-2021) and it cannot carry a fertility verdict. The screen had it as a primary-cell record; this reroutes it."},
+
+    {"id": "W7161410500", "doi": "10.2139/ssrn.6754062", "tier": "T1_wall1_packet", "design": "cannot_tell",
+     "title": "Infrastructure and the American Family: Material Conditions, Household Structure, and the Visibility Gap, 1973-2024",
+     "outcome": "abstract_recovered", "route_verdict": "ROUTE_OUT",
+     "note": "RESOLVED AND ROUTED OUT. A 16-page SSRN essay by an unaffiliated independent author, posted 2026, with ZERO references and ZERO citations, arguing that the mode of reproduction is downstream of the mode of production via an 'eight-coalition framework'. It states claims about CPS, PSID and GSS data; it reports no estimate, no design and no identification. It is not evidence about A.23's exposure and it is not a Wall 1 boundary case. The record entered the packet on a title alone, which is exactly the failure mode the RA gate flagged at stage 4."},
+
+    {"id": "W3211356747", "doi": "10.36004/nier.cdr.2021.15-20", "tier": "T1_wall1_packet", "design": "descriptive",
+     "title": "ZHILISHCHNYE USLOVIYA I DETNOST: SVYAZ I VOZMOZHNOSTI VLIYANIYA",
+     "outcome": "not_attempted", "route_verdict": "unknown",
+     "note": "Russian-language conference paper. Not reached before the pass was stopped."},
+
+    {"id": "W2560594054", "doi": "10.1080/14616718.2016.1241936", "tier": "T1_wall1_packet", "design": "theory",
+     "title": "Delayed and depressed: from expensive housing to smaller families",
+     "outcome": "not_attempted", "route_verdict": "unknown",
+     "note": "Luxembourg institutional repository handle. Not reached before the pass was stopped."},
+
+    {"id": "W2010541537", "doi": "10.1007/s13524-013-0244-y", "tier": "T1_primary_identified", "design": "identified",
+     "title": "Coresidence With Husband's Parents, Labor Supply, and Duration to First Birth",
+     "outcome": "abstract_recovered_paywalled_fulltext", "route_verdict": "RECLASSIFY_W1_TO_W2",
+     "abstract": "This article investigates the time to first birth, treating coresidence with husband's parents and labor supply as endogenous and using representative data on Taiwanese married women born during 1933-1968. We use a full-information maximum likelihood estimator for a duration model with endogenous binary variables. Results controlling for endogeneity suggest that both coresidence and working are associated with a delay in childbearing, reversing the effect of coresidence on the timing of first birth but not that of working. Women in earlier cohorts tend to choose coresidency and not working, and an increasing number of women from later cohorts choose to do both or to work only.",
+     "note": "THE EXTENDED ARM'S CENTRAL RECORD, and the browser recovered its abstract while confirming Duke UP paywalls the full text. The abstract carries the finding that matters most to this chapter: correcting for endogeneity REVERSES the sign of co-residence on the timing of first birth. Naive estimates say co-residence accelerates childbearing; the corrected estimate says it delays it. This is the estimator-disagreement problem, not a study disagreement."},
+
+    {"id": "W2168637851", "doi": "10.2139/ssrn.2563597", "tier": "T1_primary_identified", "design": "identified",
+     "title": "Geology, Household Formation Rules and the Demand for Sons in Vietnam",
+     "outcome": "abstract_recovered", "route_verdict": "W1_open_pdf_available_on_ssrn",
+     "abstract": "This paper examines relationship between the suitability of land for plough agriculture and the relative value of male and female children in Vietnam. It is hypothesized that a link between geology and son preference operates primarily through household formation rules, which are partially a consequence of the suitability of land for plough agriculture. A quasi-natural experiment measures the causal impact of the sex of a woman's first-born child on fertility and under-5 mortality of first-borns. Geography fully accounts for the large observed differences across household types in the impact of male first-borns on, respectively, rural women's fertility under-five child mortality.",
+     "note": "IDENTIFIED, AND ON THE EXTENDED ARM'S EXPOSURE. Household formation RULES (patrilocal versus matrilocal residence) instrumented by the suitability of land for plough agriculture, with rural women's fertility as an outcome. It is the frame's only instrument for the ARRANGEMENT ITSELF rather than for a price. Setting is rural Vietnam, so it bears on pre-modern and transitional fertility rather than on the SDT."}
+  ]
+}

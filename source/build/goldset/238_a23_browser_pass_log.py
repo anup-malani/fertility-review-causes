@@ -1,0 +1,141 @@
+#!/usr/bin/env python3
+"""
+238_a23_browser_pass_log.py — A.23, stage 5f. Turn the browser pass's evidence into the log.
+
+The pass itself cannot be scripted: it is a person driving Chrome against publishers who refuse
+scripts, which is the whole reason `W1_browser` exists as a worklist. What CAN be scripted is
+everything after the observation, and it is, for the reason this project keeps relearning — a
+result typed into a markdown file is not reproducible, cannot be cross-tabbed, and quietly acquires
+the wrong baseline. The observations live in `{slug}-browser-pass.json` and this emits the log,
+the route reclassifications and the counts from that file alone.
+
+**WHAT THE PASS ACTUALLY BOUGHT, STATED AS ITS OWN OUTCOME.** It recovered no files. Chrome renders
+a PDF in a viewer whose bytes no tool can reach, and the obvious workaround — the browser POSTing
+the bytes to a localhost sink — is refused by Chrome's private-network rule, not by the publisher.
+What it recovered is ABSTRACTS for five records and ROUTE VERDICTS for nine, and those turn out to
+be worth more than the files would have been.
+
+**THE FINDING IS THAT `W1_browser` MIXES TWO POPULATIONS, AND THE MIX RUNS THE OTHER WAY.**
+The standing rule is that a blocked route is not a paywall — A.17 found 67 of 98 failures were open
+urls killed by bot defence. The converse is now measured too: **a curl 200 carrying HTML is not
+proof the route is open.** Duke University Press served this pass 'You do not currently have access
+to this content' on both of its records, which curl had recorded as `route_blocked` and `235` had
+therefore filed as browser work. They are subscription walls and they need the proxy. One record ran
+the other way and confirms the rule's original direction: an Indonesian repository returns 403 to
+curl and 200 with 507 KB of `application/pdf` to the browser.
+
+So a route verdict is a THIRD thing, distinct from both the fetch outcome and the OA flag, and only
+a human at a browser can produce it.
+
+Output: literature/search-logs/{slug}-browser-pass-log.md
+        extraction/{slug}-route-reclassification.csv
+"""
+import csv, json, os
+from collections import Counter
+
+SLUG = "co-residence-parents-household-delay"
+ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+LOGS = os.path.join(ROOT, "literature", "search-logs")
+EXTRACT = os.path.join(ROOT, "extraction")
+SRC = os.path.join(EXTRACT, f"{SLUG}-browser-pass.json")
+OUT_MD = os.path.join(LOGS, f"{SLUG}-browser-pass-log.md")
+OUT_CSV = os.path.join(EXTRACT, f"{SLUG}-route-reclassification.csv")
+
+OUTCOME_MEANS = {
+    "abstract_recovered": "the browser reached the record and the abstract is now in hand; the "
+                          "full text is not",
+    "abstract_recovered_paywalled_fulltext": "abstract in hand, full text behind a subscription wall",
+    "open_in_browser_bytes_unreachable": "**the route is open** — the browser fetched the PDF — and "
+                                         "the bytes could not be moved out of Chrome",
+    "paywalled": "a genuine subscription wall, not bot defence",
+    "study_already_covered": "a version twin of this study was retrieved at stage 5e",
+    "not_attempted": "the pass stopped, or the domain is outside the browser session's permissions",
+}
+VERDICT_MEANS = {
+    "RECLASSIFY_W1_TO_W2": "filed as browser work on a curl 200; it is a subscription wall and "
+                           "needs the institutional proxy",
+    "CONFIRMED_OPEN_W1": "open content behind bot defence — `W1` is real for this record",
+    "W2_for_the_published_version": "the published version is walled; a free preprint carries the "
+                                    "study",
+    "W1_open_pdf_available_on_ssrn": "an open PDF is served to a browser",
+    "ROUTE_OUT": "read and routed out of the packet — not evidence about this exposure",
+    "unknown": "not attempted; UNKNOWN, which is not the same as closed",
+    "n/a": "no route question remains",
+}
+
+
+def main():
+    d = json.load(open(SRC))
+    recs, meta = d["records"], d["meta"]
+    out = Counter(r["outcome"] for r in recs)
+    ver = Counter(r["route_verdict"] for r in recs)
+    got_abstract = [r for r in recs if r["outcome"].startswith("abstract_recovered")]
+    reclass = [r for r in recs if r["route_verdict"] in
+               ("RECLASSIFY_W1_TO_W2", "ROUTE_OUT", "CONFIRMED_OPEN_W1",
+                "W2_for_the_published_version")]
+    unknown = [r for r in recs if r["outcome"] == "not_attempted"]
+
+    with open(OUT_CSV, "w", newline="") as fh:
+        w = csv.DictWriter(fh, fieldnames=["id", "doi", "tier", "design", "route_verdict",
+                                           "outcome", "title", "note"])
+        w.writeheader()
+        for r in recs:
+            w.writerow({k: r.get(k, "") for k in w.fieldnames})
+
+    L = [f"# Stage 5f browser pass — {SLUG} (A.23)", "",
+         "**Generated by:** `source/build/goldset/238_a23_browser_pass_log.py` from "
+         f"`extraction/{SLUG}-browser-pass.json`", "",
+         f"**Run:** {meta['run']} · **Operator:** {meta['operator']}", "",
+         f"A pass over the **{len(recs)} critical `W1_browser` records** — Wall 1 packet or an "
+         f"identified design. {meta['attempted']} were attempted.", "",
+         "## It recovered no files, and that is the first thing to say", "",
+         "Chrome renders a PDF in a viewer whose bytes no tool can reach, and the obvious "
+         "workaround — the page POSTing the bytes to a sink on `127.0.0.1` — is refused by Chrome's "
+         "private-network rule rather than by any publisher. So this pass moved **zero files** onto "
+         f"disk. It recovered **abstracts for {len(got_abstract)} records** and **route verdicts for "
+         f"{len(recs) - len(unknown)}**, and those turned out to be worth more.", "",
+         "## The finding: `W1_browser` mixes two populations, and the mix runs both ways", "",
+         "The standing rule is that a blocked route is not a paywall — A.17 found 67 of 98 failures "
+         "were open urls killed by bot defence. **The converse is now measured: a curl 200 carrying "
+         "HTML is not proof the route is open.** Duke University Press served this pass *\"You do "
+         "not currently have access to this content\"* on both of its records, which curl had "
+         "recorded as `route_blocked` and which `235` had therefore filed as browser work. They are "
+         "subscription walls and they need the proxy.", "",
+         "One record runs the other way and confirms the rule's original direction: "
+         "`10.7454/jessd.v6i1.1145` returns **403 to curl** and **200 with 507,034 bytes of "
+         "`application/pdf` to the browser**. Open content, shut door.", "",
+         "**A route verdict is a third thing** — distinct from the fetch outcome and from the OA "
+         "flag — and only a human at a browser can produce it.", "",
+         "## Outcomes", "", "| Outcome | n | What it means |", "|---|---|---|"]
+    for k, n in out.most_common():
+        L.append(f"| `{k}` | {n} | {OUTCOME_MEANS.get(k, '')} |")
+    L += ["", "## Route verdicts", "", "| Verdict | n | What it means |", "|---|---|---|"]
+    for k, n in ver.most_common():
+        L.append(f"| `{k}` | {n} | {VERDICT_MEANS.get(k, '')} |")
+    L += ["", f"**{len(unknown)} records were not attempted** and are recorded as `unknown`, not as "
+          "closed. Three are on `figshare.com`, which is outside this browser session's permitted "
+          "domains; the rest were not reached before the pass was stopped.", "",
+          "## What the abstracts changed", ""]
+    for r in recs:
+        if r["route_verdict"] in ("ROUTE_OUT", "W2_for_the_published_version") or \
+           r["outcome"].startswith("abstract_recovered"):
+            L += [f"### {r['title']}", "",
+                  f"`{r['tier']}` · `{r['design']}` · `{r['doi']}` · verdict "
+                  f"**{r['route_verdict']}**", "", r["note"], ""]
+    L += ["## What this pass does not claim", "",
+          "- **It is not a full-text retrieval.** Five abstracts and a route verdict are not a read "
+          "study, and no record moves to 'retrieved' on the strength of this log.",
+          "- **`unknown` is not `closed`.** Four records were never attempted and the counts above "
+          "say so rather than absorbing them into a failure rate.",
+          "- **The reclassifications are one person's reading of one session.** A subscription wall "
+          "seen from an unauthenticated browser is a subscription wall *for this session*; the "
+          "proxy may open it, which is precisely why it moves to `W2` rather than to closed.", ""]
+    open(OUT_MD, "w").write("\n".join(L) + "\n")
+    print(f"{len(recs)} records; abstracts {len(got_abstract)}; reclassified {len(reclass)}; "
+          f"unknown {len(unknown)}")
+    print("verdicts:", dict(ver))
+    print(f"-> {os.path.relpath(OUT_MD, ROOT)}")
+
+
+if __name__ == "__main__":
+    main()
