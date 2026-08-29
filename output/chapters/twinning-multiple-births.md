@@ -9,19 +9,29 @@
 
 ## 1. The claim
 
-### 1.1 In plain terms first
+This chapter explores the effect of the twinning rate on fertility.
 
-Start with a firm rather than a population. Suppose you want to explain why a factory's annual output of widgets fell by a third, and someone proposes: *the boxes got smaller*. That is a coherent proposal. Output is orders times units-per-order, so units-per-order is a real term in a real identity, and if it moved, output moved with it. But before doing any econometrics you would want to know two things. **How much can units-per-order actually move?** If it is always between 1.01 and 1.05, it cannot explain a one-third fall no matter how it behaves. And **does anyone respond to it?** If customers who accidentally receive two widgets order less next time, then even the movement you do observe is partly cancelled.
+### 1.1 In plain terms
 
-That is this chapter in full. Births are deliveries times babies-per-delivery. Babies-per-delivery is the twinning rate, it has never in any recorded human population strayed far outside 1.01 to 1.05, and parents who get two babies at once may well stop earlier. The first fact bounds how much A.12 can possibly explain. The second decides how much of that bound is even realised.
+In plain terms: a woman who is pregnant once does not always end up with one baby. Sometimes she has two. So the number of babies born in a population is not the same as the number of times women gave birth — it is a little higher, by however often twins happen.
 
-The economics reader has a ready-made name for the distinction that organises everything below. Deliveries are the **extensive margin** — how many times a woman becomes pregnant and carries to term. Twinning is the **intensive margin** — how many children each of those events yields. A.12 is the only hypothesis in this review that is purely and exclusively an intensive-margin story, and it is bounded by biology in a way that no extensive-margin hypothesis is.
+The claim is that this gap matters for how many children people end up with, and that it has been changing: fertility treatment makes twins more likely, so more babies arrive per pregnancy than used to.
+
+Two things decide whether that can matter, and both can be settled before looking at any study.
+
+**First, how much room is there for the gap to move?** Twins have never been rarer than about 6 in every 1,000 births in any recorded population, and never commoner than about 50 in 1,000. So the number of babies per pregnancy has always been between about 1.006 and 1.05. That is the entire range this idea has to work in, and it is very narrow compared with the thing it is meant to explain, which is families changing size by whole children.
+
+**Second, do parents react?** A couple who wanted two children and got two at once have finished early. If they then stop, the extra baby twins gave them is partly taken back by the children they no longer go on to have. So even the small movement that does happen may not fully show up in the end.
 
 ### 1.2 The claim precisely
 
 HYPOTHESES-v5 §A.12 states that variation in twinning rates — genetic across populations, and induced by **assisted reproductive technology (ART: IVF and related fertility treatment)** within the modern period — modestly affects the **total fertility rate** (TFR: the number of children a woman would bear if she experienced current age-specific birth rates throughout her reproductive life) by raising live births per pregnancy, "with ART-induced multiples partially offsetting postponement-driven SDT declines."
 
+The parameter this chapter estimates is the change in a mother's subsequent births caused by a twin birth, measured in births per twin birth, signed so that a negative value means she stops earlier — reported alongside the arithmetic multiplier (1 + *t*), which is not a parameter at all.
+
 This decomposes into two claims that need entirely different treatment, and the registry entry runs them together.
+
+**Margin.** Deliveries are the **extensive margin** — how many times a woman becomes pregnant and carries to term. Twinning is the **intensive margin** — how many children each of those events yields. **A.12 is the only hypothesis in this review that is purely and exclusively an intensive-margin story**, and it is bounded by biology in a way that no extensive-margin hypothesis is.
 
 **The mechanical claim is an accounting identity.** If a fraction *t* of deliveries produce twins, live births exceed deliveries by a factor of approximately (1 + *t*). This cannot be false. It requires no study, and — as the reconnaissance for this chapter confirmed rather than assumed — essentially no study estimates it. Identities get tabulated, not identified.
 
@@ -51,9 +61,9 @@ Three things make this parameter harder to estimate than it looks, and all three
 
 **First, twinning is not random across women.** Dizygotic twinning — the kind that varies, from two eggs released and separately fertilised — rises steeply with maternal age, runs in families, and is elevated in taller and heavier women. (Monozygotic twinning, from a single embryo splitting, is roughly constant everywhere at about 3–4 per 1,000 and is not what varies.) So women who bear twins differ systematically from women who do not, in ways that also predict their fertility.
 
-**Second, and this is the finding that reorganises the chapter, the naive comparison is subject to an exposure bias.** A woman who has six births has six opportunities to have twins; a woman who has two has two. Comparing "mothers who ever had twins" with "mothers who never did" therefore compares high-fertility women with low-fertility women *by construction*, before any biology is involved. This is a selection-on-the-dependent-variable problem of a particularly clean kind, and §5 shows that it has driven essentially the entire prior literature.
+**Second, and this is the finding that reorganises the chapter, the naive comparison is subject to an exposure bias.** A woman who has six births has six opportunities to have twins; a woman who has two has two. Comparing "mothers who ever had twins" with "mothers who never did" therefore compares high-fertility women with low-fertility women *by construction*, before any biology is involved. This is a selection-on-the-dependent-variable problem of a particularly clean kind, and §6 shows that it has driven essentially the entire prior literature.
 
-**Third, the fertility question and the population question are not the same question.** Even a complete offset at the individual level would leave the mechanical uplift intact in any single cross-section of births, because the offset operates on *subsequent* births — which is why the demographic-significance computation in §7 is done on the identity and not on the offset alone.
+**Third, the fertility question and the population question are not the same question.** Even a complete offset at the individual level would leave the mechanical uplift intact in any single cross-section of births, because the offset operates on *subsequent* births — which is why the demographic-significance computation in §8 is done on the identity and not on the offset alone.
 
 ## 3. Search strategy
 
@@ -65,7 +75,7 @@ Gold-anchored clustered search following `canonical-search-workflow.md`; full lo
 
 **One wall was declared unenforceable in advance, and it governs the chapter.** Twin births are the canonical instrument for family size in economics — Rosenzweig & Wolpin (1980), Bronars & Grogger (1994), Black, Devereux & Salvanes (2005), Angrist, Lavy & Schlosser (2010). Every one of those papers estimates A.12's parameter *in its first stage* and reports it as a nuisance quantity on the way to a result about schooling or earnings. No abstract reveals a first-stage table. Measured on this chapter's citation frame: **of 1,991 records reached from a twin-IV canon seed, only 154 mention a twinning term at all.** Ninety-two per cent of this chapter's identification neighbourhood is invisible to a title/abstract screen, which is why those records were routed to full text rather than screened.
 
-**One boundary was ruled at scope-freeze.** ART's contribution splits at the margin: ART live births = ART deliveries × (1 + *m*). **A.17 owns the deliveries; A.12 owns only the multiplier *m*.** The split is additively separable so the two chapters can be summed without double-counting — but it is an *accounting* split, not a causal one, and §8 downgrades the ART arm for exactly that reason.
+**One boundary was ruled at scope-freeze.** ART's contribution splits at the margin: ART live births = ART deliveries × (1 + *m*). **A.17 owns the deliveries; A.12 owns only the multiplier *m*.** The split is additively separable so the two chapters can be summed without double-counting — but it is an *accounting* split, not a causal one, and §9 downgrades the ART arm for exactly that reason.
 
 ## 4. PRISMA flow
 
@@ -89,7 +99,57 @@ Three features of this funnel change how the chapter should be read.
 
 **145 first-stage candidates were deliberately not retrieved.** They carry the IV-design vocabulary but no twinning term, and the set is known to contain sibling-sex-composition and one-child-policy designs with no twin first stage at all. This is the honest cost of a deliberately broad retrieval rule, and the synthesis below does not read them.
 
-## 5. Included studies
+## 5. The ideal design
+
+Written before the literature was read, so §6 can be compared against a fixed yardstick rather than against the best paper that happens to exist.
+
+### 5.1 The ideal estimand
+
+The change in a mother's **subsequent** births caused by an exogenous twin birth, in births per twin birth, estimated **conditional on the number of deliveries she has had** — that is, with exposure to the risk of twinning held fixed — in a population with access to effective contraception.
+
+Two clauses are the specification, and each corresponds to a failure the literature actually makes.
+
+*Conditional on deliveries* is the whole methodological point. A woman with six births has six chances to bear twins; a woman with two has two. **Comparing "mothers who ever had twins" against "mothers who never did" compares high-fertility with low-fertility women by construction, before any biology enters.** The exposure must be per-delivery twinning probability, not lifetime twinning status.
+
+*With effective contraception* is a transportability requirement, and it is the clause the one good study fails. The offset is a stopping behaviour, and stopping is cheap where contraception is available and expensive where it is not. **An offset estimated on pre-industrial data does not transport to the period the registry entry describes.**
+
+### 5.2 The design that would identify it
+
+**Source of variation.** A twin birth is close to a natural experiment already — this is why it is the canonical instrument for family size in economics. What it is not is *exogenous with respect to the mother*: dizygotic twinning rises with maternal age, runs in families, and is elevated in taller and heavier women. **The design must therefore compare women at the same parity and the same predicted twinning propensity**, exploiting only the residual chance in whether a given delivery is twin or singleton.
+
+**Comparison group.** Mothers whose delivery at the same parity was a singleton, matched on age, height, weight and family history — or, more cleanly, the same comparison restricted to **monozygotic** twinning, which is roughly constant at 3–4 per 1,000 everywhere and is not predicted by maternal characteristics.
+
+**Identifying assumption.** Conditional on parity and propensity, twinning is as good as random. Falsifiable: balance on maternal characteristics within the matched comparison; a placebo on outcomes a twin birth should not affect; and a check that the estimate does not move when the sample is restricted to monozygotic pairs.
+
+**Estimating equation.** Subsequent births — and, separately, time to next birth — on an indicator for a twin delivery at parity *k*, estimated within parity, with the exposure-corrected twinning probability rather than lifetime twinning status as the treatment.
+
+**Data required.** Linked population registers with complete fertility histories and zygosity where available. **Sweden, Denmark and Finland all have them.**
+
+**Sample size.** Twinning is rare, so this needs register scale rather than survey scale — which is precisely why the registers are the answer.
+
+**What the ideal design excludes.** Any comparison of ever-twinned against never-twinned mothers over their lifetimes, which is the exposure bias above. And the twin-IV literature's first stages, which estimate this parameter as a nuisance quantity but rarely report it in a usable form.
+
+### 5.3 Distance from the ideal
+
+| Study | Exposure held fixed? | Outcome is subsequent births? | Contraception available? | Distance |
+|---|---|---|---|---|
+| **Rickard et al. 2022** | **Yes — the correction is the paper** | **Yes** | **No — pre-industrial** | **Closest; fails only the transportability clause** |
+| **Hoem and Strandberg 2004** | **Yes — compares at fixed parity** | **Yes — time to next birth** | **Yes — Sweden 1961–99** | **Closest on the modern period** |
+| Sear et al. 2001 | No — naive | Lifetime fertility | No | Far |
+| Ekamper and van Poppel 2021 | No — naive | Lifetime fertility | Partly | Far |
+| Hur et al. 2024 | No — naive | Parity | Yes | Far |
+| Hoekstra et al. 2008 | No — descriptive | Uncontrolled | Yes | Far |
+| The 223 twin-IV first stages | Yes, by design | Yes | Yes | **Estimate it and do not report it** |
+
+**No single study implements the ideal design, but two studies implement one half each, and between them they are more informative than their number suggests.** Rickard et al. supply the exposure correction on pre-industrial data; Hoem and Strandberg supply the fixed-parity comparison on a modern register. **They agree**, which matters more than either alone: the exposure bias is not a pre-industrial artefact, and the stopping behaviour is not a modern one.
+
+**And the design that would close the gap already exists one step away.** Hoem and Strandberg's Swedish register, run with Rickard et al.'s exposure correction and reporting subsequent births rather than waiting times, is §5.1 exactly. **Nobody has done it.** That is open question 3 in §11 and it is the single most valuable study this chapter could receive.
+
+**A structural observation about where this parameter lives.** The twin-IV literature estimates §5.1's parameter *in every first stage it runs*, and reports it as a nuisance on the way to a result about schooling or earnings. **223 candidate records carry that design; 145 were deliberately not retrieved and four methods surveys that would open them are closed.** The chapter's parameter is being estimated repeatedly, by good economists, and discarded.
+
+---
+
+## 6. Included studies
 
 Six primary-cell studies are readable. They divide cleanly by **design**, and the division explains the entire disagreement.
 
@@ -114,17 +174,17 @@ Hoem & Strandberg's Swedish register study is the only other design that escapes
 
 **One caveat is load-bearing.** Rickard et al. is a pre-industrial European sample. Its transportability to the modern period — where contraception makes stopping cheap and effective, and where a large share of twins are iatrogenic — is untested, and the eight unread primary studies are disproportionately the modern ones.
 
-## 6. Quantitative synthesis
+## 7. Quantitative synthesis
 
-### 6.1 The answer in plain terms first
+### 7.1 The answer in plain terms
 
-Return to the factory. We want to know: when the boxes get bigger, does total output rise by the full amount, or do customers order less often and cancel part of it out?
+The question is whether the extra babies twins deliver stay, or whether parents take them back by stopping sooner.
 
-The readable evidence says **customers do order less often, but only a little.** Of every ten extra babies that twinning mechanically adds, roughly nine survive the household's own response and one is given back through earlier stopping. The behavioural offset is real — it is not zero, and the households in the data do respond — but it is nowhere near large enough to cancel the mechanism. The identity is close to the truth.
+The readable evidence says **parents do stop sooner, but only a little.** Of every ten extra babies that twinning mechanically adds, roughly nine survive the household's own response and one is given back through earlier stopping. The behavioural offset is real — it is not zero, and the households in the data do respond — but it is nowhere near large enough to cancel the mechanism. The identity is close to the truth.
 
 That single sentence is the chapter's quantitative result. The rest of this section is how it was obtained and how much weight it will bear.
 
-### 6.2 The estimate
+### 7.2 The estimate
 
 Only one readable study yields a transportable estimate of the offset, so no pooling is possible and none is attempted. What Rickard et al. do provide is a simulation that converts their estimate into the quantity this chapter needs.
 
@@ -147,31 +207,41 @@ Read the two rows together, because their difference is the whole result.
 
 That is the chapter's central number, and its provenance should be stated plainly: it is one simulation, from one study, on one pre-industrial European sample, calibrated on a tenfold change in twinning far larger than any observed between real populations. It is an order of magnitude, not a pooled estimate. But its direction is unambiguous and it is the only such quantity the readable evidence supports: **the offset is real, it is small, and the identity is close to the truth.**
 
-Three further corrections, each documented in the screen and each running in the same direction — the identity as written **overstates** — are not yet quantified and are carried to §10:
+Three further corrections, each documented in the screen and each running in the same direction — the identity as written **overstates** — are not yet quantified and are carried to §11:
 
 1. **Differential twin mortality.** Twins are about 2.4% of births in less developed countries but about 12% of neonatal deaths. Births per delivery is not surviving children per delivery.
 2. **The vanishing twin.** Ultrasonography confirms that conceived multiple pregnancies exceed delivered ones. Seven readable records address this; one shows the correction is not even constant, since single-embryo-transfer pregnancies "practically lack vanishing twins."
 3. **Twin infanticide and cultural suppression.** Where practised, realised twin contribution falls below the biological rate. This bites hardest on the pre-modern arm.
 
-## 7. Demographic significance
+## 8. Demographic significance
 
 The three target phenomena, for readers new to the vocabulary: **pre-modern (PM)** variation is the spread in fertility across populations before any sustained decline; the **First Demographic Transition (FDT, ~1870–1965)** is the fall from roughly 5–7 children per woman to about replacement; the **Second Demographic Transition (SDT, ~1965–present)** is the fall from replacement to well below it. "Replacement" is about 2.1 children per woman, the level at which a population reproduces itself.
 
+The phenomenon to be explained is measured in whole children — pre-modern variation spans roughly four children and the SDT is a fall of about one and a half; this mechanism offers percentage points of a multiplier bounded between 1.006 and 1.050.
+
+**The denominators, per `PROTOCOL.md` §4.2.1.** PM is the observed *range* of completed fertility across pre-modern populations, roughly 4 to 8 births; SDT is the observed *fall* over the period, taken here at the Czech ~1 child where the national arithmetic is done and at ~1.5 for the transition generally. Both are ranges or changes rather than levels, both in births per woman matching the numerator, and both are conventional magnitudes rather than computed here. FDT is not scoped.
+
 **The plain-language version of this whole section, before any arithmetic.** The thing we are trying to explain is measured in whole children — populations differ by four children, and the modern decline is about one child. The thing A.12 offers is measured in percentage points of a multiplier that has never left the range 1.01–1.05. Those are quantities two orders of magnitude apart. The arithmetic below is not close, and it was never going to be: this is a case where knowing the *units* of the proposed explanation settles the question before any estimate is needed. What the arithmetic adds is the precise size of the gap, and one genuine surprise — that in the period v5 describes, the term is not merely small but moving the wrong way.
 
-### 7.1 Pre-modern — **NEGLIGIBLE**
+### 8.1 Pre-modern fertility variation
+
+For pre-modern variation, the verdict is NEGLIGIBLE, because the maximum multiplier difference between any two recorded human populations is 4.2%, which is about 6% of a four-child range at the extreme and a fraction of one per cent for any typical pair.
 
 Take the extreme comparison the record allows: Yoruba Nigeria at 45–50 twin deliveries per 1,000 against historical East Asia at about 6. The multipliers are 1.048 and 1.006. The maximum difference in births per delivery between the highest- and lowest-twinning human populations ever recorded is therefore about **4.2%**.
 
-Pre-modern fertility varies across populations by whole children — from roughly 4 to roughly 8. On a TFR of 6, a 4.2% multiplier difference is **0.25 children**, or about 6% of a 4-child range, and that is the extreme-versus-extreme comparison. For any typical pair of populations it is a fraction of one per cent. Apply the ~88% pass-through from §6 and net twin mortality, and it falls further.
+Pre-modern fertility varies across populations by whole children — from roughly 4 to roughly 8. On a TFR of 6, a 4.2% multiplier difference is **0.25 children**, or about 6% of a 4-child range, and that is the extreme-versus-extreme comparison. For any typical pair of populations it is a fraction of one per cent. Apply the ~88% pass-through from §7 and net twin mortality, and it falls further.
 
 Twinning cannot explain pre-modern fertility variation, and no arithmetic makes it a candidate. What the pre-modern twinning literature *is* good for is testing a different hypothesis: Clark, Cummins & Curtis (2020) use twin births to ask whether pre-transition populations practised parity-dependent stopping and conclude they did not. **That study is routed to A.8, where it is a first-order finding, rather than counted here as evidence for A.12.** Note that Rickard et al., on pre-industrial European data, find mothers *did* cease reproduction after a twin birth — a direct tension that A.8 rather than A.12 should adjudicate.
 
-### 7.2 FDT — **NOT ASSESSED**
+### 8.2 First Demographic Transition
+
+For the First Demographic Transition, the verdict is NOT ASSESSED, because the phenomenon is out of scope for this hypothesis in the registry — and if it were assessed the sign would be negative, since developed-country dizygotic twinning fell through most of the period.
 
 HYPOTHESES-v5 does not scope A.12 to the FDT and this chapter does not claim it. The relevant fact is that developed-country dizygotic twinning **fell** through most of the FDT and into the 1970s — a decline documented across eleven countries in the 1960s and in Sweden from the 19th century — so the sign of any FDT contribution is negative, not positive. Establishing its magnitude would require the long national series (Sweden from 1751, Australia from 1853) that are on the residual retrieval list.
 
-### 7.3 SDT — **SMALL, TRANSIENT, AND NOW OF THE WRONG SIGN**
+### 8.3 Second Demographic Transition
+
+For the Second Demographic Transition, the verdict is NEGLIGIBLE, because twinning offset about 2% of the Czech decline at its own historical peak and 0.29% globally over four decades — and since roughly 2010 the term has been moving the wrong way.
 
 Here the registry entry is testable and here it fails, in three separate ways.
 
@@ -195,7 +265,7 @@ The US series is the sharpest: the twin share of ART infants nearly halved in fo
 
 Nor is the MAR component a clean lever. Two independent meta-analyses find ART *raises* monozygotic twinning through embryo splitting, a route that transferring one embryo does not close; the Czech data attribute international heterogeneity in twinning "primarily to differences in national ART practices rather than the overall volume of ART treatment"; and ovulation induction *outside* IVF causes 40–70% of high-order multiples, a channel single-embryo-transfer policy does not touch at all.
 
-## 8. GRADE rating
+## 9. GRADE rating
 
 GRADE is the standard scheme for rating how much confidence a body of evidence supports, running HIGH / MODERATE / LOW / VERY LOW. Ratings start from the study designs available and are *downgraded* for specific defects — imprecision, risk of bias, indirectness (the evidence answers a neighbouring question rather than the one asked).
 
@@ -207,7 +277,7 @@ GRADE is the standard scheme for rating how much confidence a body of evidence s
 
 The offset parameter itself is rated **LOW**: one low-risk-of-bias study against four high-risk ones whose design it refutes, with eight of fourteen primary studies unread.
 
-## 9. Verdict
+## 10. Verdict
 
 **A.12 is true, small, and — for the period v5 describes — pointing the wrong way.**
 
@@ -219,7 +289,7 @@ Three qualifications belong in the verdict rather than beneath it. **The identit
 
 A precisely bounded negative is a deliverable. This one is bounded, and it is negative.
 
-## 10. Open questions and recommended studies
+## 11. Open questions and recommended studies
 
 **Five for the PI.**
 
@@ -233,18 +303,18 @@ A precisely bounded negative is a deliverable. This one is bounded, and it is ne
 
 **One study that does not exist and should.** No one has estimated the offset on modern register data with the Rickard et al. exposure correction. Sweden, Denmark and Finland all have the linked registers to do it, and Hoem & Strandberg (2004) is the design sitting one step away.
 
-## 11. References
+## 12. References
 
 Full bibliography at `literature/bib/`. Records readable in full text at `literature/pdfs/twinning-multiple-births/`; the retrieval log and banded procurement list are at `extraction/twinning-multiple-births-pdf-retrieval-log.csv` and `literature/search-logs/twinning-multiple-births-library-wantlist.md`.
 
 ---
 
-### Provenance and standing caveats
+## Provenance and standing caveats
 
-**Written on 68 of 253 wanted full texts (27%).** The primary cell — the only cell earning GRADE credit — is at **6 of 14**, and its readable members disagree with each other. Retrieval failed not because the papers are closed but because 84 of 88 first-pass failures were HTML interstitials, a blocked route rather than a closed paper; a recovery rung reclaimed 14.
+This chapter is written on 68 of 253 wanted full texts (27%). The primary cell — the only cell earning GRADE credit — is at **6 of 14**, and its readable members disagree with each other. Retrieval failed not because the papers are closed but because 84 of 88 first-pass failures were HTML interstitials, a blocked route rather than a closed paper; a recovery rung reclaimed 14.
 
-**The synthesis was written under an explicit objection.** The RA's stage-5 note recommended holding synthesis until the P0 and P1 procurement bands were filled, on the grounds that a spine at 6 of 14 with members in open disagreement risks settling that disagreement by accident of retrieval. Writing was directed anyway. The risk is concrete and stated here rather than buried: **Rickard et al. 2022 carries the §6 estimate almost alone, and the two studies most likely to contest it — Robson & Smith 2012, which it targets, and Alter & Hacker 2024, the only study designed squarely on the estimand — are both unread.**
+**The synthesis was written under an explicit objection.** The RA's stage-5 note recommended holding synthesis until the P0 and P1 procurement bands were filled, on the grounds that a spine at 6 of 14 with members in open disagreement risks settling that disagreement by accident of retrieval. Writing was directed anyway. The risk is concrete and stated here rather than buried: **Rickard et al. 2022 carries the §7 estimate almost alone, and the two studies most likely to contest it — Robson & Smith 2012, which it targets, and Alter & Hacker 2024, the only study designed squarely on the estimand — are both unread.**
 
-**What is *not* provisional.** The mechanical bound in §7.1 and §7.3 rests on arithmetic and on twinning-rate series, not on the unread studies, and no plausible offset value overturns it. The direction of the post-2010 reversal rests on five independent national series, all readable. Those two findings would survive full retrieval; the offset magnitude in §6 might not.
+**The findings that would survive full retrieval are the mechanical bound and the post-2010 reversal**; the mechanical bound in §8.1 and §8.3 rests on arithmetic and on twinning-rate series rather than on the unread studies, and no plausible offset value overturns it, while the reversal rests on five independent national series, all readable. **The finding that might not is the offset magnitude in §7**, which rests on one simulation from one pre-industrial sample.
 
 **Numbers sourced from abstracts rather than full text** are marked as such in the search logs; the global 9.1→12.0 per 1,000 series and the Pison–Monden–Smits three-to-one decomposition are from the abstracts of record, verified live at scope-freeze, and both are on the residual retrieval list.
