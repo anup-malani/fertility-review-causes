@@ -55,7 +55,7 @@ The registry's wording bundles three outcomes, and they separate cleanly:
 
 The chain is in scope because the registry names it. But link 2 is not this chapter's parameter to
 estimate, and the chapter borrows it rather than pretending to measure it. That distinction does
-more work here than in any chapter of this review so far, for a reason set out in §6.
+more work here than in any chapter of this review so far, for a reason set out in §7.
 
 Two boundaries, drawn on **whose balance sheet** the debt sits on. Parents borrowing for a child's
 degree (Parent PLUS) sits on the older generation and cannot delay the borrower's own childbearing —
@@ -140,7 +140,7 @@ and the screener read it as present in 32% of relevant ones. It is a usable scre
 Three features of this funnel change how the chapter should be read.
 
 **The two channels barely overlap.** 53 records of 2,426. The citation channel is doing genuinely
-independent work, which is why it was able to contradict a query-level finding (§10).
+independent work, which is why it was able to contradict a query-level finding (§11).
 
 **8 anchors could not be reached by the production frame at all** — including Nau et al., the
 most-cited work in the primary cell, whose OpenAlex record has no abstract and whose title says
@@ -153,7 +153,61 @@ fronted journals. The bias runs in the same direction as the chapter's own asymm
 
 ---
 
-## 5. Included studies
+## 5. The ideal design
+
+Written before the literature was read, so §6 can be compared against a fixed yardstick rather than against the best paper that happens to exist.
+
+### 5.1 The ideal estimand
+
+The change in **completed fertility**, in children per woman observed to age 45, caused by an exogenous increase in a young adult's own education debt, **holding educational attainment fixed**, in a cohort that came of age under the post-2000 borrowing regime.
+
+Two clauses, and each names the failure it is written against.
+
+*Holding attainment fixed* is the confound. Borrowers are graduates, graduates have fewer children for reasons unrelated to debt, and the correlation between attainment and borrowing is close to mechanical. **The variation must move the balance without moving the decision to enrol.**
+
+*Completed fertility to 45* is the outcome gap. Every direct-arm estimate in this literature is a hazard of **first** birth truncated in the twenties or early thirties — which cannot separate a birth deferred from a birth foregone, and this is a chapter whose whole mechanism is about the timing of early-adult cash flows.
+
+### 5.2 The design that would identify it
+
+**Source of variation.** Something that changes the loan balance for a given level of schooling. Three families exist and all three are already used in this literature — **for other outcomes**:
+
+- **In-state tuition changes**, which shift borrowing among students who would have enrolled anyway. Used by Mezza et al. for homeownership and by Robb and Schreiber for marriage and first birth.
+- **Loan-limit discontinuities** — the 24th-birthday independent-status cutoff that changes federal borrowing capacity discontinuously. Used by Goodman, Isen and Yannelis for household formation.
+- **Debt-relief and forbearance episodes**, which remove balances without touching attainment.
+
+**Comparison group.** Students on the other side of the tuition change, the birthday cutoff or the relief eligibility line, with attainment observed.
+
+**Identifying assumption.** The instrument moves the balance and nothing else that affects fertility. Falsifiable: attainment balance across the discontinuity; pre-trends; and a placebo on students whose borrowing the instrument does not bind.
+
+**Estimating equation.** Completed fertility on instrumented balance, with attainment entered and **the age schedule of births reported**, so postponement and foregone births are distinguishable.
+
+**Data required.** Credit-bureau or administrative loan records linked to fertility histories running to age 45. **The linkage, not the instrument, is the binding constraint** — the instruments exist and are in use.
+
+**Sample size.** Ordinary; the cohorts are large.
+
+**What the ideal design excludes.** Borrower-versus-non-borrower comparisons, which charge the education effect to the loan. Stated-intention surveys. And simulation, however well calibrated.
+
+### 5.3 Distance from the ideal
+
+| Study | Attainment held fixed? | Outcome is a birth? | Completed fertility? | Distance |
+|---|---|---|---|---|
+| **Robb and Schreiber 2019** | **Yes — IV on in-state tuition, four-year graduates** | **Yes — first birth** | No — truncated | **Closest; and the first-birth result is NOT SIGNIFICANT** |
+| Nau, Dwyer and Hodson 2015 | Controls only | **Yes — first birth** | No — to about 30 | Best direct-arm magnitude, weakest identification |
+| Mezza et al. 2019 | **Yes — IV on in-state tuition** | **No — homeownership** | n/a | **Right design, wrong outcome** |
+| Goodman, Isen and Yannelis 2021 | **Yes — RD on the 24th-birthday limit** | **No — household formation** | n/a | **Right design, wrong outcome** |
+| Addo 2014; Bozick and Estacion 2014 | Controls only | No — marriage, cohabitation | n/a | Chain arm |
+| Dettling and Hsu; Houle and Warner | Panel FE / event history | No — co-residence | n/a | Chain arm |
+| Hua 2024 | Simulation | Simulated | Simulated | Excluded by §5.2 |
+
+**One study implements the ideal design's identification and reports the ideal design's outcome, and its result is a null.** Robb and Schreiber instrument the balance with in-state tuition among four-year graduates — attainment fixed by construction — and find **−1.3% marriage per $1,000 and no significant effect on first birth.** That single row is the most informative thing in the chapter, and it is a null on the registered outcome from the one design built to deliver it.
+
+**The identified designs and the fertility outcome barely intersect, and this was measured twice on two different frames.** In the keyword frame, **210 records name an identification strategy against 107 carrying a fertility outcome, and the identified subset of the fertility cell is 2** — neither of which is an estimate. In the citation neighbourhood, **5 records carry debt, a fertility outcome and an identification strategy together.**
+
+**The two strongest designs in the whole literature — the tuition IV and the birthday RD — are pointed at homeownership and household formation, not at births.** The instruments are built, validated and in use. Nobody has run them on completed fertility.
+
+---
+
+## 6. Included studies
 
 Thirty records are in hand. Ten sit in the direct arm, three are the identified chain-arm studies,
 and the rest are chain-arm associational work, mechanism evidence and uncertain records.
@@ -176,7 +230,7 @@ and the rest are chain-arm associational work, mechanism evidence and uncertain 
 *(Full extraction table: `extraction/student-debt-household-formation-oa-status.json`. Twelve further
 records — theses, simulations and uncertain items — are held and not yet extracted.)*
 
-### 5.1 The estimator disagreement, and it is not a disagreement about magnitude
+### 6.1 The estimator disagreement, and it is not a disagreement about magnitude
 
 **The naive estimator in this literature compares borrowers with non-borrowers.** That comparison
 conditions on going to university. Graduates have fewer children than non-graduates, earlier
@@ -201,7 +255,7 @@ And among the 80 records the screen called relevant, thirteen are identified —
 chain arm**. That is not heterogeneity to be pooled. It is a literature that has aimed its good
 designs at a neighbouring question.
 
-### 5.2 The mechanism fails a test in its own data
+### 6.2 The mechanism fails a test in its own data
 
 If the mechanism were a resource constraint — money owed now, less money for a family — then any
 large liability at the same age should push the same way. Nau et al. test exactly this, and it does
@@ -217,9 +271,9 @@ simple resource constraint, and the chapter should stop describing the mechanism
 
 ---
 
-## 6. Quantitative synthesis
+## 7. Quantitative synthesis
 
-### 6.1 The answer in plain terms
+### 7.1 The answer in plain terms
 
 **The best-identified study that looks at both outcomes finds that student debt delays marriage and
 does not detectably delay a first birth.**
@@ -233,7 +287,7 @@ not on the outcome it registers.
 That is the chapter's central finding, and it is stronger evidence than any count of records, because
 the two arms cannot be blamed on different data, different methods or different authors.
 
-### 6.2 The estimate
+### 7.2 The estimate
 
 **No pooled estimate is reported, and the reason is not thin data.** The direct arm contains one
 identified estimate, which is a null; one hazard model reporting a strong association; one calibrated
@@ -264,7 +318,7 @@ and this chapter does not.
 
 ---
 
-## 7. Demographic significance
+## 8. Demographic significance
 
 **S4. The phenomenon to be explained is measured in completed children per woman; this mechanism
 offers a percentage change in the annual probability of a first birth among people holding student
@@ -279,17 +333,17 @@ robust to the corrections not yet made.
 All figures computed by `211_c3g_demographic_significance.py` from the World Bank US TFR series and
 the published inputs named above.
 
-### 7.1 Pre-modern
+### 8.1 Pre-modern
 
 **For pre-modern variation, the verdict is NOT ASSESSED, because mass education debt did not exist.**
 This is an absence of the exposure, not an absence of evidence.
 
-### 7.2 First Demographic Transition
+### 8.2 First Demographic Transition
 
 **For the FDT, the verdict is NOT ASSESSED, because mass education debt did not exist.** Had it
 existed, the sign would be the same as in the SDT.
 
-### 7.3 Second Demographic Transition
+### 8.3 Second Demographic Transition
 
 Two bounds, the first of which needs no effect size at all.
 
@@ -329,7 +383,7 @@ exposure entirely, and the one identified estimate of the effect on births is a 
 
 ---
 
-## 8. GRADE
+## 9. GRADE rating
 
 Rated per phenomenon. The direct arm is rated; the chain arm is reported but does not carry the
 rating, because it estimates a different parameter.
@@ -344,12 +398,12 @@ Certainty is low about the *size* of the effect. Certainty is considerably highe
 **not large**, which is a different statement and the one the verdict rests on: the units check and
 the pre-2000 share bound the mechanism without needing the literature to be settled.
 
-**One rater.** PROTOCOL §5 requires three independent GRADE raters. This is a single-rater assessment
+**One rater.** PROTOCOL §6 requires three independent GRADE raters. This is a single-rater assessment
 and the requirement remains open.
 
 ---
 
-## 9. Verdict
+## 10. Verdict
 
 **Student debt is a real constraint on household formation and a negligible cause of the fertility
 decline, and the same literature shows both.**
@@ -373,7 +427,7 @@ somewhere else.
 
 ---
 
-## 10. Open questions
+## 11. Open questions
 
 **PI calls carried from the scope, still open.**
 
@@ -412,7 +466,7 @@ the variation is already validated in published work, and the marginal cost is a
 
 ---
 
-## 11. References
+## 12. References
 
 Addo, F. R. (2014). Debt, cohabitation, and marriage in young adulthood. *Demography* 51(5), 1677–1701.
 Baek, H. Y., & Cho, D. (2024). Student loan relief and home purchase. SSRN 4846753.
@@ -441,7 +495,7 @@ than births; the finding that might not is the direct arm's magnitude, which cur
 hazard model and one abstract.**
 
 **Numbers taken from abstracts rather than full text**, and flagged wherever used: Robb & Schreiber
-(SSRN abstract — the central result of §6), Hua, Baek & Cho. Robb & Schreiber's full text is a
+(SSRN abstract — the central result of §7), Hua, Baek & Cho. Robb & Schreiber's full text is a
 browser-job; its retrieval is the single highest-value outstanding item in this chapter.
 
 **Retrieval is biased, not merely incomplete.** Zero of four identified direct-arm records were
@@ -451,11 +505,11 @@ missing evidence is systematically the better-identified evidence. A reader shou
 arm's magnitude as provisional in a specific direction: the records most likely to change it are the
 ones not yet read.
 
-**One rater on GRADE**; PROTOCOL §5 requires three. **Not PI-reviewed.**
+**One rater on GRADE**; PROTOCOL §6 requires three. **Not PI-reviewed.**
 
 **An objection this chapter was written over.** The registry's claim names marriage and homeownership
 as the mechanism, so a reader may reasonably hold that evidence on those outcomes *is* evidence for
 the claim. The chapter's position is that link 2 — from household formation to births — is a real and
 largely unestimated parameter belonging to other chapters, and that a chain is only as strong as the
-link nobody has measured. If the PI rules the other way, §6's verdict changes and §7's does not: the
+link nobody has measured. If the PI rules the other way, §7's verdict changes and §8's does not: the
 units check and the pre-exposure share are untouched by which arm is credited.
