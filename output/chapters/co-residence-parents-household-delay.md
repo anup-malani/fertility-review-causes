@@ -108,7 +108,7 @@ and from citation snowballing.
 owns variation in prices; this chapter owns variation in the arrangement. Where a policy changes a
 price *in order to* change the arrangement — a subsidy conditional on renting, for instance — the
 record is reported by both chapters and its magnitude is claimed by neither alone. That decision
-matters more than boundary decisions usually do, and §5 explains why.
+matters more than boundary decisions usually do, and §6 explains why.
 
 **One wall could not be enforced at the title and abstract stage, and this was stated in advance.**
 "Co-residence with parents" is also the standard term for an adult child housing an elderly parent —
@@ -146,7 +146,55 @@ other.
 
 ---
 
-## 5. Included studies
+## 5. The ideal design
+
+Written before the literature was read, so §6 can be compared against a fixed yardstick rather than against the best paper that happens to exist.
+
+### 5.1 The ideal estimand
+
+The change in **completed fertility**, in children per woman at the end of the reproductive span, caused by a young adult **living in a parental home** rather than forming an independent household — with the living arrangement moved by something other than the person's own family plans.
+
+Two clauses, and they identify the two ways this literature fails.
+
+*The registered configuration.* The variable takes two configurations with opposite predicted signs — a young adult **in** a parent's home, delaying the formation of their own household; and a couple living **with** a parent or parent-in-law, receiving childcare. **Only the first is the registered claim**, and §6 records that it holds two effects and **zero identified designs** while the second holds seven and one.
+
+*Moved by something other than the person's own plans.* This is the identification problem and it is unusually severe here, because **the arrangement and the birth are events in the same life-course sequence.** Someone who has not yet left home has also not yet started a family, and both are consequences of where they are in that sequence. **A comparison of people living with parents against people not living with parents partly compares people at different stages of one life course**, and will show an effect under the null.
+
+### 5.2 The design that would identify it
+
+**Source of variation.** A shock to the cost of independent living that does not act on family plans: a **housing-cost or rent shock**, a **youth-emancipation or housing-allowance policy** that changes the price of leaving home, or an **inheritance or transfer** that funds independent housing. The policy vocabulary matters — this literature indexes these under *emancipation* rather than co-residence, which is how they were nearly missed.
+
+**Comparison group.** Young adults just outside the policy's eligibility line, or in unexposed markets, with family intentions measured **before** exposure.
+
+**Identifying assumption.** The shock moves the living arrangement and not the desire to form a family. **Falsifiable, and this is the design's key feature: measure stated family intentions at baseline and test whether the shock moved them.** A design that cannot run this test cannot distinguish the mechanism from a life-course sequence, whatever its instrument.
+
+**Estimating equation.** Completed fertility on instrumented co-residence, estimated **separately by configuration** — young-adult-in-parental-home and couple-with-parent — because the two carry opposite predicted signs and pooling them nets a real effect against its opposite.
+
+**Data required.** Panel following young adults from before household formation to completed fertility, with living arrangement and intentions observed. The horizon is 20 years or more.
+
+**Sample size.** Ordinary, but **doubled**, because the configuration split has to be powered on both arms.
+
+**What the ideal design excludes.** Cross-sectional comparisons of co-resident against non-co-resident young adults, which read the life-course sequence. And any design that pools the two configurations, which is most of the descriptive literature.
+
+### 5.3 Distance from the ideal
+
+| Configuration | Effects | Identified designs | Distance from §5.1 |
+|---|---|---|---|
+| **Young adult in the parental home — the registered claim** | **2** | **0** | **The claim's own cell has no identified design** |
+| Couple with a parent or parent-in-law | 7 | 1 | Wrong configuration; opposite predicted sign |
+| Residential proximity without co-residence | 1 | 0 | Wrong exposure |
+| Policies changing a price to change the arrangement | 4 | **3** | **The right instruments — attached to the wrong outcome** |
+| Drivers moving the arrangement, no birth outcome | 4 | **4** | **Identified, and no birth is observed** |
+
+**No study implements the ideal design, and the shortfall has a precise shape: the identified designs and the registered configuration are disjoint.** Seven of the eight identified designs in the chapter sit in the two policy-and-driver rows — where the instrument is good and the outcome is either a household arrangement with no birth attached, or a birth attached to the *other* configuration. **The claim's own cell contains two effects and no identified design at all.**
+
+**The one corrected estimate in the chapter is in the wrong configuration, and it is worth its own sentence because of what correction does.** Chu, Xie and Yu treat co-residence with a husband's parents and the wife's labour supply as jointly determined with the timing of a first birth. **Correcting for that joint determination does not merely reverse the sign; it moves the estimate by about three years** — from 5.6 months *earlier* to 30.6 months *later*. That is the size of the life-course contamination §5.1 warns about, measured inside one study.
+
+**So the registered claim is UNEVALUATED rather than refuted**, and §6.1 explains why that is a different finding from a weak one.
+
+---
+
+## 6. Included studies
 
 Eighteen effects from fifteen studies. The full table with the sentence each number was read from
 is in `extraction/co-residence-parents-household-delay.csv`.
@@ -159,7 +207,7 @@ is in `extraction/co-residence-parents-household-delay.csv`.
 | Policies changing a price to change the arrangement | 4 | 3 |
 | Drivers moving the arrangement, no birth outcome | 4 | 4 |
 
-### 5.1 The naive estimator, and what correcting it does
+### 6.1 The naive estimator, and what correcting it does
 
 The comparison an author makes without thinking hard is between people who live with a parent and
 people who do not, at a point in time. In this literature that comparison is contaminated in a
@@ -213,7 +261,7 @@ and that the positive association fails to survive either correction.
 The uncorrected comparison is not being repeated because the corrected one was weighed and rejected.
 It is being repeated because the correction is nearly invisible in this literature.
 
-### 5.2 The exposure is not one variable, and one study shows it inside one dataset
+### 6.2 The exposure is not one variable, and one study shows it inside one dataset
 
 Hacker, Helgertz, Nelson and Roberts link 3.1 million American couples between the 1900 and 1910 censuses. In the same
 regression, a co-resident mother is associated with about 5% lower fertility and a co-resident
@@ -229,7 +277,7 @@ the household — about 28% higher fertility — and its own conclusion is that 
 availability contributed to the American fertility transition. That is a different exposure from the
 living arrangement, and the chapter records it as evidence about a neighbouring question.
 
-### 5.3 The best-identified evidence is about the wrong link
+### 6.3 The best-identified evidence is about the wrong link
 
 Four studies identify an effect cleanly, and all four estimate how something moves the living
 arrangement rather than how the arrangement moves fertility. China's rural pension scheme, evaluated
@@ -242,7 +290,7 @@ household-formation intentions.
 The Deferred Action study is the only one of the four that looks for a fertility effect, and it
 reports none.
 
-### 5.4 The one study that estimates both
+### 6.4 The one study that estimates both
 
 Laeven and Popov instrument the American housing boom with the predetermined industrial structure of
 each metropolitan economy and estimate the effect on home ownership, marriage and fertility together
@@ -260,7 +308,7 @@ the marriage effect is the larger of the two.
 
 The ordinary least squares estimate of the fertility effect is *positive* and statistically
 insignificant; the instrumented estimate is negative and significant. That is the same
-estimator problem as §5.1, arriving in a different literature with a different correction, and it is
+estimator problem as §6.1, arriving in a different literature with a different correction, and it is
 the second time in this chapter that the naive comparison points the wrong way.
 
 The effect is also conditional on tenure. Young *home owners* become **more** likely to have a child
@@ -269,7 +317,7 @@ pushed the other way. An aggregate house-price elasticity of fertility is theref
 the tenure composition of the sample, which is the finding the housing-costs chapter reached about
 its own parameter, reproduced here on the household-formation margin.
 
-### 5.5 A study that turned out to be a different design than it was filed as
+### 6.5 A study that turned out to be a different design than it was filed as
 
 Kucheva, in *Demography*, estimates the effect of American federal subsidised housing on the
 transition to adulthood. It was carried through the search and the screen as an administrative
@@ -291,7 +339,7 @@ forms rather than about whether young adults stay with their parents.
 Both corrections matter, and neither was visible before the full text was in hand. A record's design
 is not a property of its title.
 
-### 5.6 A large positive result that is excluded, and why
+### 6.6 A large positive result that is excluded, and why
 
 One study reports an effect far larger than anything else in this chapter: a one-standard-deviation
 increase in the prevalence of extended families raises fertility by about 1.07 children per woman,
@@ -310,7 +358,7 @@ in the chapter by an order of magnitude.
 It is recorded here rather than dropped silently, because a reader who finds it will want to know
 whether the chapter saw it.
 
-### 5.7 A defect in the chapter's best design
+### 6.7 A defect in the chapter's best design
 
 Aparicio-Fenoll and Oppedisano evaluate a Spanish rental subsidy paid from a person's twenty-second
 birthday, comparing 22-year-olds with 21-year-olds before and after. The subsidy raised the share
@@ -324,9 +372,9 @@ of the subsidy on childbearing, and it is not the one reported.
 
 ---
 
-## 6. Quantitative synthesis
+## 7. Quantitative synthesis
 
-### 6.1 The answer in plain terms
+### 7.1 The answer in plain terms
 
 Nothing pools, and the reason is worth more than a pooled number would have been.
 
@@ -340,7 +388,7 @@ is the living arrangement.
 
 Adding those two distinctions as grouping rules leaves no group larger than two.
 
-### 6.2 The estimate
+### 7.2 The estimate
 
 There is no pooled estimate, and for the configuration the registered claim names there is no
 estimate at all.
@@ -356,7 +404,7 @@ delay of about thirty months in the younger cohort. The Japanese study that matc
 observable predictors of co-residence finds the positive association disappearing.
 
 Those results are not in conflict in the ordinary sense, and treating them as a spread to be
-averaged would be a mistake. Several are versions of the comparison §5.1 shows is biased; two are
+averaged would be a mistake. Several are versions of the comparison §6.1 shows is biased; two are
 that comparison corrected, in two different ways, on two different outcomes. They do not measure the
 same quantity and they do not pool.
 
@@ -378,7 +426,7 @@ that looks for one finds nothing.
 
 ---
 
-## 7. Demographic significance
+## 8. Demographic significance
 
 **The phenomenon to be explained is measured in whole children per woman; this mechanism offers a
 shift in the share of a population living in a particular household arrangement.**
@@ -389,7 +437,7 @@ conversion cannot be performed for the claim as registered. The arithmetic below
 scale check on the configuration that does have an estimate, and it produces a result the hypothesis
 does not predict.
 
-### 7.1 Pre-modern fertility variation
+### 8.1 Pre-modern fertility variation
 
 **For pre-modern variation, the verdict is NOT ASSESSED, because the pre-modern household-formation
 question was assigned to the chapter on age at marriage and union timing, and no pre-modern evidence
@@ -399,7 +447,7 @@ If it were assessed, the direction would run against the hypothesis: the histori
 with stem-family co-residence had higher marital fertility than the regions where couples set up
 independent households at marriage.
 
-### 7.2 The first demographic transition
+### 8.2 The first demographic transition
 
 **For the first demographic transition, the verdict is NOT IDENTIFIED, because the only study
 reaching the period estimates two co-residence coefficients with opposite directions and attributes
@@ -411,7 +459,7 @@ point in opposite directions, and the coefficient it emphasises is on the availa
 rather than on the living arrangement. One study of that shape cannot support a share of a
 transition.
 
-### 7.3 The second demographic transition
+### 8.3 The second demographic transition
 
 **For the second demographic transition, the verdict is NEGLIGIBLE and wrong-signed for the
 configuration that has an estimate, and NOT IDENTIFIED for the configuration the hypothesis names.**
@@ -463,7 +511,7 @@ and leave completed family size where it was.
 
 ---
 
-## 8. GRADE
+## 9. GRADE rating
 
 | Target | Rating | Downgraded for |
 |---|---|---|
@@ -485,7 +533,7 @@ not.
 
 ---
 
-## 9. Verdict
+## 10. Verdict
 
 The claim that young adults living with their parents is a cause of low fertility is, on the
 evidence assembled here, **unevaluated rather than refuted**. The literature that appears to be about
@@ -527,13 +575,13 @@ size at all.
 
 ---
 
-## 10. Open questions
+## 11. Open questions
 
 **For the PI.** Five rulings are taken and unconfirmed, and they should be read as a batch rather
 than one at a time: that this chapter owns both configurations; that the pre-modern niche stays with
 the chapter on age at marriage; that policies changing a price to change the arrangement are shared
 with the housing-costs chapter and non-additive; the pooling rule; and six scope amendments the
-screen generated. The first is the most consequential — it is why §7.3 reports a wrong-signed
+screen generated. The first is the most consequential — it is why §8.3 reports a wrong-signed
 contribution instead of a supporting one.
 
 **Retrieval priorities.** The three subscription-walled studies that headed this list were obtained
@@ -564,7 +612,7 @@ since the historical American data says the answer determines the direction.
 
 ---
 
-## 11. References
+## 12. References
 
 Acolin, A., Lin, D., & Wachter, S. M. (2024). Why do young adults coreside with their parents?
 *Real Estate Economics*, 52(1), 7–44.
@@ -647,13 +695,13 @@ which was already inside this chapter's frame, correctly flagged as identified b
 never retrieved. Its direction is quoted here from its abstract; the article is closed at the
 publisher and closed again in a 2024 book reprint. **Obtaining its full text is now the single
 highest-value retrieval item in the chapter**, because it is the only corrected estimate denominated
-in completed family size, which is the quantity §7 needs and cannot get.
+in completed family size, which is the quantity §8 needs and cannot get.
 
 **Numbers that come from abstracts rather than full text** are now only the Acolin, Lin and Wachter
-share of the co-residence rise, quoted in §7.3. Everything else in the tables was read from a full
+share of the co-residence rise, quoted in §8.3. Everything else in the tables was read from a full
 text, and the extraction table records the sentence each number came from.
 
-**One input to §7.3 is not from this chapter's corpus.** The fall in the American total fertility
+**One input to §8.3 is not from this chapter's corpus.** The fall in the American total fertility
 rate is quoted from a standard series as a denominator for scale, and should be replaced with the
 review's own population panel before publication.
 
@@ -661,5 +709,5 @@ review's own population panel before publication.
 table. The full-text screen and the title-abstract screen were done by the same reader, so the
 consistency check between them is not independence. The GRADE ratings are one rater's, not three.
 All three are acceptance criteria that remain open, and none of them is a formality: the Wall 1
-reclassification in §5 moved two of the most-cited records in the packet out of the primary cell on
+reclassification in §6 moved two of the most-cited records in the packet out of the primary cell on
 one reader's judgement.
