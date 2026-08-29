@@ -1,324 +1,424 @@
-# Chapter: Old-Age Security and Pension Crowd-Out of Fertility
+# Old-Age Security and Pension Crowd-Out of Fertility
 
 **Category:** Economic
-**Primary mechanism:** Non-child old-age security reduces the need to have children as retirement insurance.
-**Second channel:** Pension eligibility can also raise fertility by freeing grandparents' time for childcare.
-**Target phenomena:** PM / FDT / SDT
-**Draft status:** Reader-facing chapter draft
-**Last updated:** 2026-07-11
+**Primary mechanism:** When something other than children will support a person in old age, the private return to an additional child falls, and fertility falls with it.
+**Cross-references:** D.1.b (Caldwell wealth flows and westernization) shares this chapter's intergenerational-transfer theory and must not double-count it. A.23 (co-residence with parents and delayed household formation) treats co-residence as a household-formation cost; here the same arrangement is an old-age-support asset, and the boundary is the direction of the transfer. C.3.g (student debt and household formation) shares the saving-instrument margin.
+**Status:** TICK-019. Rewritten against `docs/chapter-template.md` on 2026-08-29. Not PI-reviewed in this form; the previous draft (2026-07-11) was benchmarked against `old-age-security-pension-crowdout-pi-review v4.md`. Written on 13 of 13 wanted full texts (100%), drawn from 1,860 machine-screened records whose human screen has 10 recorded decisions.
 
-## 1. Verdict
+---
 
-The strongest evidence supports a narrow version of the old-age-security argument. When households receive a credible substitute for children as old-age support, fertility often falls in settings where children still plausibly insure old age. Evidence from other settings points in different directions. Long-term-care insurance in China, social insurance in Bismarckian Prussia, and U.S. Social Security during the baby boom do not all show the same negative fertility response. The effect depends on what kind of old-age security changes and on the demographic setting in which it changes.
+## 1. The claim
 
-That evidence does not imply that state pensions caused the First Demographic Transition. Public pensions mostly arrived after that decline had begun. The better-timed first-transition version is financial development. Banks and savings instruments gave households a non-child way to move resources into old age.
+This chapter explores the effect of non-child old-age security on fertility.
 
-The Second Demographic Transition asks whether pension policy still matters after public pensions and private savings are already widespread. In rich low-fertility countries, new pension policy has less room to reduce fertility by replacing children as old-age insurance. The stronger evidence for these settings supports the grandparental childcare argument. Retirement and pension eligibility affect grandparents' childcare availability, which affects adult children's fertility. More grandparent availability raises fertility; delayed retirement lowers it.
+### 1.1 In plain terms
 
-| Phenomenon | Causal credibility | Demographic significance | Verdict |
-|---|---|---|---|
-| PM | Very low direct evidence | Low for variation | The mechanism may explain why high fertility was privately valuable, but not why pre-modern fertility varied across populations. |
-| FDT | Low-to-moderate | Partial | State pensions were too late to start the FDT; financial-market development is the better-timed old-age-security substitute. Outcome-specific pooled summaries for replacing children with non-child old-age security point toward lower fertility. |
-| SDT | Moderate for grandparental childcare; low for the mechanism where children support parents in old age | Partial for the childcare channel; not significant or contextual for that support mechanism | The grandparental childcare evidence consistently implies that more grandparent availability raises fertility. Treatment scales differ, so the estimates are not statistically pooled. |
+In plain terms: in much of the world, and through most of history, grown children were what a person lived on once they were too old to work. Children fed their parents, housed them, and nursed them. Having several was a way of making sure someone would still be there. The claim in this chapter is that once something else will do that job — a government pension, money in a bank, an insurance policy — a person no longer needs children for it, and so has fewer of them.
 
-## 2. The Claim and Mechanism
+That single idea is carried through the whole chapter. When the chapter later asks whether the claim is true, it is asking whether people who were handed one of those substitutes went on to have fewer children than otherwise similar people who were not.
 
-Parents want support in old age. If children are the main way to obtain it, children are partly an investment asset. Give parents another asset, such as a pension, private insurance, or a usable financial market, and the retirement return to an additional child falls. Fertility should fall with it.
+There is a second, quite different idea that also connects pensions to births, and it pushes the opposite way. When a pension lets a grandparent stop working, that grandparent becomes available to look after grandchildren, which makes having a child easier for the adult son or daughter. On this second idea, a pension makes births *more* likely, not less. The chapter keeps the two apart throughout and never adds them together, because they are answers to different questions.
 
-The theory matters because it separates the chapter's two pension channels. The first channel is asset substitution. Children are one way to insure old age, so non-child old-age security can reduce fertility. The second channel is childcare cost reduction. Retirement changes grandparents' availability for childcare, so pension policy can raise fertility by lowering the cost of having children for adult children.
+### 1.2 The claim precisely
 
-### 2.1 Core Old-Age-Security Logic
+The parameter this chapter estimates is the change in a woman's **completed fertility** (the total number of children she has actually borne by the end of her childbearing years) caused by an exogenous increase in non-child old-age security, measured in births per woman, signed so that a negative value means less fertility after more old-age security.
 
-The first theoretical root is the children as old-age support and wealth-flow tradition. Neher (1971), Willis (1980), and Nugent (1985) are central statements of this view. Caldwell (1976) and Cigno (1993) connect it to broader intergenerational-transfer theory. These sources make children part of an intergenerational transfer system rather than only a consumption good. In this view, the fertility decision depends on the expected old-age return to children, including support, care, and insurance against risk.
+The chapter rates the claim separately against the review's three target phenomena, abbreviated throughout as **PM** (pre-modern fertility variation — differences in fertility between populations before roughly 1870), **FDT** (the First Demographic Transition, the sustained fall in fertility across Europe and its offshoots from roughly 1870 to 1965) and **SDT** (the Second Demographic Transition, the further fall to below-replacement levels from roughly 1965 onward). **Below replacement** means a fertility level under about 2.1 children per woman, the level at which a population reproduces itself.
 
-Caldwell's wealth-flow argument is especially useful for demographic-transition framing because it links fertility incentives to the direction of net transfers between generations. When the net economic flow runs from children to parents, high fertility can be privately valuable. When transfers reverse or when non-child assets replace children, the private demand for additional births should fall.
+The registry entry reads: *non-child old-age security reduces the need to have children as retirement insurance*. That wording runs two separable sub-claims together, and the chapter evaluates them separately:
 
-The comparison is between families that gain a non-child source of old-age support and otherwise similar families that do not. The old-age-security argument predicts that fertility should fall most clearly where children are still a meaningful old-age asset. The prediction is strongest when formal pensions, private savings, and insurance markets are incomplete. It is weaker where public pensions and private savings are already mature.
+- **Sub-claim A — the old-age-security motive.** An exogenous increase in non-child old-age security reduces fertility by lowering the retirement value of a child. Predicted sign: negative.
+- **Sub-claim B — the grandparental-childcare channel.** A change in pension or retirement rules changes a grandparent's availability to supply childcare, which changes the adult child's fertility. Predicted sign: positive in the availability direction. This is not the registered claim. It appears here because the registered claim's own instrument — pension policy — moves it too, so any study of pension policy and fertility is estimating a mixture unless the design separates them.
 
-### 2.2 Formal Pension and Fertility Models
+The counterfactual for sub-claim A is a ceteris-paribus perturbation: hold income, mortality, child costs and marriage patterns fixed, and add a credible non-child claim on old-age resources. No study in the evidence base delivers exactly that; every one of them moves old-age security together with something else, which is the indirectness this chapter downgrades for in §9.
 
-The second root is the formal economic fertility literature. Becker (1960), Becker and Barro (1988), and Barro and Becker (1989) provide the background economic fertility framework. In that framework, parents choose child quantity in relation to resources, preferences, and the cost of children.
+**This is a behavioural parameter, not an identity.** There is no accounting relation here that must hold. The mechanism can be false at every link, and that is why it needs studies rather than arithmetic. This matters because it distinguishes the chapter from mechanisms like A.12, where an identity arm exists and needs no evidence.
 
-The old-age-security literature then adds the policy instrument. Ehrlich and Lui (1991), Nishimura and Zhang (1992), and Sinn (2004) model how public pensions and private family transfers interact with fertility incentives. Later work, including Boldrin, De Nardi, and Jones (2015), links these mechanisms to social-security systems more directly. In this literature, "pay-as-you-go" pension systems are pension systems in which current workers finance current retirees' benefits.
+**Margin.** Sub-claim A is predicted to move the intensive margin — a level change in how many children a woman who is having children has — because it changes the return to an *additional* child. Several included studies nonetheless measure an extensive-margin outcome (whether a birth occurred in a window), and §7 keeps those apart.
 
-The formal models matter because they show why public pensions can affect fertility even when households are forward-looking. A pay-as-you-go system can replace the implicit family contract in which children support parents. It can also change the enforcement problem. Children may no longer need to repay parental investment directly if the state taxes the next generation to finance benefits. Some models therefore predict fertility decline after public pension expansion. Others focus on policy corrections when pension systems create too little private incentive to have children.
+---
 
-The underlying intergenerational transfer does not disappear. The transfer moves from a household contract, in which parents expect support from their own children, toward a state contract, in which workers finance retirees through taxes and benefits. Fertility falls in these models because an additional child no longer gives the same private retirement return to the parent.
+## 2. Theoretical mechanism
 
-### 2.3 Inclusion Rule for Empirical Evidence
+In the reader's own vocabulary: a child is partly a durable asset that pays a stream of old-age consumption. Old-age security is a substitute asset. Introduce the substitute and the shadow price of the child-as-asset falls, so demand for the asset falls. The prediction is a pure substitution effect on the asset-demand margin.
 
-The primary causal question is the effect of an exogenous increase in non-child old-age security on fertility, operating by replacing children as old-age support. That excludes many papers that mention pensions. A pension study with savings, schooling, or elderly health as the outcome may test an important link in the mechanism, but it does not estimate the fertility effect. A study where fertility causes pension take-up or private insurance is mechanism evidence, not the primary effect. A study where pension eligibility changes grandparents' childcare time is a different fertility channel because it predicts that pension access can increase fertility rather than decrease it.
+Two complications make the prediction less clean than that sentence suggests.
 
-That last distinction matters. A pension can lower fertility by replacing children as old-age insurance. It can also raise fertility by retiring grandparents and increasing childcare help for adult children. Those two effects cannot be pooled as if they measured one object. The theory stream justifies both channels. The quantitative synthesis keeps them in separate cells because they answer different causal questions.
+First, a pension is also income. A tax-financed pay-as-you-go system (a pension system in which today's workers' taxes pay today's retirees' benefits) transfers resources across cohorts, and the income effect on the recipient generation runs the other way — richer households can afford more children. The net sign is therefore theoretically ambiguous, and which effect dominates depends on whether the recipient is the potential parent or the potential grandparent. The classic statements — Neher (1971), Willis (1980), Nugent (1985) — assume the substitution effect dominates. Ehrlich and Lui (1991), Nishimura and Zhang (1992), Sinn (2004) and Boldrin, De Nardi and Jones (2015) formalise the conditions.
 
-### 2.4 Implications for PM, FDT, and SDT
+Second, the transfer does not disappear when a state pension arrives; it moves from a household contract to a state contract. That reframing is Caldwell's (1976), and it is why D.1.b overlaps this chapter. The fertility effect comes from the change in the *private* return to the parent, not from the disappearance of the transfer.
 
-For pre-modern fertility variation, the theory is plausible but too general.
-If nearly everyone lacks formal old-age security, reliance on children for old-age support can explain high desired fertility levels better than it explains cross-population variation by itself. Some pre-modern variation could still come from differences in family systems, communal care, inheritance rules, and local expectations about who supports older adults. The review therefore treats the mechanism as relevant for pre-modern fertility, but not as a sufficient explanation for pre-modern variation without evidence on those institutional differences.
+**What would make the hypothesis wrong.** The hypothesis is wrong if households that receive a credible non-child claim on old-age resources do not reduce their fertility relative to comparable households that do not. Concretely, three observations would each count against it: pension expansions that leave fertility unmoved in settings where children plainly still insure old age; pension retrenchment that fails to raise fertility where the motive is supposed to be live; and evidence that the households responding are responding to the income rather than to the insurance. The third is the hardest to rule out and no included study rules it out.
 
-For the First Demographic Transition, the public-pension version is usually late. The better-timed theoretical mechanism is broader asset substitution. Financial markets, savings, and insurance reduce the need to rely on children before modern pension systems reach broad coverage.
+---
 
-For the Second Demographic Transition, the argument that pensions reduce fertility by replacing children is weak in rich countries because public pensions and private savings are already widespread. The live pension-related channel is therefore less about children as old-age assets and more about childcare costs. Retirement policy can change grandparents' availability for childcare, which can increase fertility by making children less costly for adult children.
+## 3. Search strategy
 
-## 3. How the Evidence Is Organized
+The search ran the project's standard two-stage machine screen over an OpenAlex-derived frame, followed by a human title/abstract screen and full-text retrieval. The logs are in `literature/search-logs/old-age-security-pension-crowdout-*`.
 
-The evidence is clearest when pensions-and-fertility papers are organized by the causal question they answer.
+Four walls define the boundary of the chapter, with their enforceability declared in advance:
 
-| Evidence stream | What it measures | Role in the chapter |
+| Wall | Rule | Enforceable at title/abstract? |
 |---|---|---|
-| Children as old-age support | Non-child old-age security affects fertility by reducing the retirement value of children. | Direct evidence on whether pensions, insurance, or financial markets reduce fertility by replacing children as old-age support. |
-| Mechanism evidence | Children affect private insurance, assets, or old-age support. | Evidence on whether children behave like old-age-security assets. It informs the mechanism but is not pooled with fertility effects. |
-| Grandparental childcare | Pension or retirement policy changes childcare help and fertility. | Evidence on whether retirement policy raises fertility by increasing grandparents' childcare availability. |
-| Indirect links | Pensions affect savings, schooling, migration, coresidence, health, or other links short of fertility. | Background evidence on the causal chain. It updates mechanism plausibility without estimating fertility effects. |
+| **W1 Outcome** | The outcome must be fertility — a birth, a count of children, or a fertility rate. Savings, schooling, coresidence and elderly health are chain links, not outcomes. | Yes |
+| **W2 Direction** | Old-age security must be the treatment and fertility the outcome. Studies in which fertility causes insurance take-up are mechanism evidence, not effect estimates. | Yes |
+| **W3 Channel** | The estimate must be attributable to the old-age-support motive rather than to grandparental childcare. | **No — declared unenforceable in advance.** Both channels are the same treatment (pension policy) with the same outcome (a birth). Which channel a paper identifies is visible only in the design, and often only in the paper's own interpretation section. This wall is enforced at extraction, not at screening, and §7 keeps two separate cells because of it. |
+| **W4 Exogeneity** | The variation in old-age security must come from something other than the fertility decline itself. | No — requires reading the identification section. |
 
-The binding filter is the causal question rather than topical relevance. A paper can be about pensions and fertility while answering the wrong causal question for the mechanism where non-child security replaces children. The synthesis therefore separates primary fertility effects, mechanism validation, grandparental childcare, and indirect chain links.
+**Boundary rulings against neighbouring hypotheses.** Against D.1.b (Caldwell): a study is this chapter's if its treatment is a specific old-age-security instrument, and D.1.b's if its treatment is the direction of net intergenerational flows in general. Against A.23 (co-residence): co-residence that supports the *parent* is this chapter's; co-residence that delays the *adult child's* household formation is A.23's. Against C.3.g (student debt): a saving instrument that moves resources into old age is this chapter's; one that moves them across early adulthood is C.3.g's.
 
-## 4. Inclusion Approach
+---
 
-The review began with a broad search for old-age security, pensions, and fertility. The key inclusion rule was whether a paper identified one of the causal questions above. This matters because pension papers often study outcomes other than fertility, or study fertility through a different mechanism.
+## 4. PRISMA flow
 
-The main synthesis uses studies that estimate fertility responses to non-child old-age security or to grandparental availability. Mechanism studies are retained when they test whether children behave like old-age-security assets, but they are not pooled with fertility effects. Historical and aggregate studies are retained for timing and external-validity evidence, while their higher confounding risk is reflected in the risk-of-bias assessment. The operational search logs, extraction sheets, and reproducibility files are listed in the appendix.
+The **PRISMA** flow (the reporting standard for systematic reviews, which requires the count of records surviving each stage of screening to be stated) for this hypothesis:
 
-## 5. Included Studies and Evidence Map
+| Stage | Records |
+|---|---:|
+| Retrieved into the frame | 6,400 |
+| Machine-screened, stage 1 (Haiku) | 6,400 |
+| Escalated to stage 2 (Sonnet) | 2,763 |
+| Machine verdict RELEVANT | 941 |
+| Machine verdict UNCERTAIN | 919 |
+| Machine verdict NOT_RELEVANT | 4,540 |
+| Passed to human title/abstract screen (RELEVANT + UNCERTAIN) | 1,860 |
+| **Full-text decisions on record** | **10** |
+| PDFs held for the hypothesis | 44 |
+| Studies in the extraction table | 13 |
+| Cell A studies with extracted effects | 9 |
 
-### 5.1 Evidence on Replacing Children as Old-Age Support
+Three features of this funnel change how the chapter should be read.
 
-Ten studies estimate the forward pathway from non-child old-age security to fertility closely enough to anchor the evidence on replacing children as old-age support. The tenth, a newly retrieved Ghana working paper, is included provisionally and is not yet part of the pooled summaries.
+**First, the largest attrition in the review is undocumented.** 1,860 records passed the machine screen; `old-age-security-pension-crowdout-fulltext-screen.csv` records ten decisions. The step that took the evidence base from 1,860 to 13 has no log. The 13 studies are defensible individually — they are the well-known papers in this literature — but the chapter cannot presently demonstrate that they are the *right* 13, and a reader should treat the included set as an expert-curated sample rather than as the output of a reproducible screen.
 
-| Study | Setting and period | Treatment or exposure | Fertility outcome | Design | Target relevance | Reading |
+**Second, the machine screen was very uncertain.** 919 UNCERTAIN against 941 RELEVANT means the screen was close to a coin flip on half the records it did not reject. That is the signature of a boundary the screening rubric could not see — which is exactly what Wall 3 predicted in advance.
+
+**Third, 44 PDFs are held and 13 studies extracted.** The gap of 31 is not accounted for anywhere in the extraction table.
+
+---
+
+## 5. The ideal design
+
+Written before the literature was read, so that §6 can be compared against a fixed yardstick rather than against the best paper that happens to exist.
+
+### 5.1 The ideal estimand
+
+The change in completed fertility, in births per woman observed at age 45, caused by a **10-percentage-point rise in the old-age income replacement rate**, among women aged 20–35 at the time of exposure, in a setting where formal pension coverage was previously near zero and adult children were the principal source of old-age support.
+
+The dose unit is the point of this specification. A replacement rate is comparable across countries and eras, is the quantity in which historical pension expansion is actually recorded, and can therefore be multiplied by an observed historical change to produce a decomposition share. "Exposure to a pension expansion" cannot. §8 shows that this single missing unit is what makes the chapter's demographic significance uncomputable, and §5.3 shows the gap was foreseeable without reading a single paper.
+
+### 5.2 The design that would identify it
+
+**Source of variation.** A legislated pension expansion whose eligibility is assigned by a rule orthogonal to fertility: a birth-date cutoff, an occupational-category boundary, or a staggered geographic rollout whose sequence is fixed administratively — by pre-existing registry capacity, say — rather than by local demographic conditions. Administrative sequencing matters because a rollout ordered by local need is ordered partly by local fertility.
+
+**Comparison group.** Women just outside the eligibility rule: born weeks later, in the adjacent occupational category, or in a district scheduled for the following wave.
+
+**Identifying assumption.** Absent the reform, completed fertility either side of the cutoff would have evolved in parallel. Falsifiable three ways: pre-reform cohorts either side of the cutoff should show no discontinuity; placebo cutoffs at non-reform dates should be null; and the density of the running variable should be smooth at the threshold.
+
+**Estimating equation.** A cohort or birth-date regression discontinuity — or an event study for a staggered rollout, with a stated parallel-trends window — on completed fertility at 45, reported alongside its first stage: the replacement rate actually received.
+
+**Data required.** An administrative birth registry linked to pension records, with a panel long enough to observe exposure at 20–35 and fertility at 45. That is a minimum of **25 years** of linked data, which is the binding constraint on this design and the reason it is rare.
+
+**Sample size.** To detect 0.10 births per woman at 80% power requires about **2,650 women per arm**; to detect 0.05, about **10,600 per arm**. The pooled summary this chapter reports, 0.068, would need roughly **5,700 per arm**. Survey panels of the size used in this literature cannot do this; administrative data can.
+
+### 5.3 Distance from the ideal
+
+| Study | Exposure: dose in replacement-rate units? | Outcome: completed fertility at 45? | Horizon ≥25 yrs? | Assignment: rule-based, orthogonal? | Distance |
+|---|---|---|---|---|---|
+| Danzer and Zyska | No — expansion and generosity, not a replacement rate | **Yes** | **Yes** (1981–2014) | **Yes** — rural expansion, DiD/IV/event study | **Closest** |
+| Rossi and Godard | Partial — a dose, but per thousand rand, not transportable | **Yes** | Near (1990–2012) | **Yes** — region × cohort exposure | Close |
+| Zelu et al. | No — Act 766 coverage extension | No — pregnancy in last 12 months | Partial | Yes — public/private DiD | Not extracted |
+| Shen et al. | No — individual participation, endogenous | Partial — number of children, not to 45 | **No** (4 years) | Partial — DiD, PSM and IV mixed | Far |
+| Billari and Galasso | No — a pension cut, undosed | **No** — births in a 6-year window | **No** (6 years) | Partial — worker-status discontinuity | Far |
+| Han et al. | **No** — care insurance, a different margin from pension income | No — birth in past year | No | Yes — pilot DiD | Far |
+| Guinnane and Streb | No | No — crude birth rate, aggregate | Yes | Partial — regional/professional exposure | Far |
+| Fenge and Scheubel | Partial — share insured, an aggregate rate | No — crude marital birth rate | Yes | **No** — cross-province panel | Far |
+| Galofré-Vilà | **No** — bundled social spending | **Yes** — children ever born | Yes | **No** — cross-state panel | Far |
+| Basso et al. | No — presence of a bank | No — child–woman ratio | **No** — single year, 1850 | **No** — cross-section | **Farthest** |
+
+**No study implements the ideal design, and none is close on the dimension that matters most.** Zero of ten report the treatment in a dose unit that could be applied to a historical change in old-age security. Danzer and Zyska match on outcome, horizon and assignment and still cannot supply a replacement rate; Rossi and Godard have a dose denominated in Namibian currency, which cannot be transported anywhere.
+
+That is the chapter's central finding, and §5.1 predicted it before the literature was opened. The consequence is not that the evidence is weak — several of these designs are good — but that **a decomposition share cannot be computed from any of them**, which is why §8 reports break-evens instead of shares and why §11 item 1 asks whether the pooled summaries should exist at all.
+
+---
+
+## 6. Included studies
+
+| Study | Setting and period | Treatment | Outcome | Design | Cell | Target |
 |---|---|---|---|---|---|---|
-| Danzer and Zyska (2023) | Brazil, 1981-2014 | Rural pension expansion | "Newborn child (under one year old); Completed fertility" | DiD, IV, event study | FDT / SDT | Strong direct evidence that pension expansion lowers fertility in a setting where old-age support remains family-relevant. |
-| Rossi and Godard (2022) | Namibia, 1990-2012 | Social-pension extension | "probability of birth; completed fertility" | Quasi-experimental DiD / cohort exposure | FDT | Direct developing-country evidence that pensions can reduce fertility by replacing children as old-age support. |
-| Billari and Galasso (2009) | Italy, 1998-2004 | Pension-wealth cuts | "number of children born starting from the year after each of the reforms; probability of having an additional child" | Natural experiment by worker treatment status | SDT | Rich-country evidence for the motive channel, but it operates against the larger SDT timing problem. |
-| Han, Tao, Wang, and Zhang (2025) | China, 2012-2020 | Long-term-care insurance | "Have you given birth in the past year?; How many children do you expect to have?" | DiD | SDT, policy-constrained | Evidence that new non-child care insurance can still affect fertility at low fertility, but China is weak evidence for rich-country SDT dynamics. |
-| Guinnane and Streb (2021) | Prussia, 1881-1910 | Bismarck social security | "births; crude birth rate" | Historical quasi-experimental panel | FDT | Historical FDT evidence on social insurance, with interpretation complicated by marriage and marital fertility margins. |
-| Shen, Zheng, and Yang (2020) | China, 2010-2014 | New Rural Pension Scheme | "number of children; having a second child" | DiD, PSM, fixed effects, IV | SDT, policy-constrained | Consistent with the idea that children support parents in old age in rural China, but less transportable to rich-country SDT settings. |
-| Fenge and Scheubel (2017) | Imperial Germany, 1895-1907 | Bismarck pension insurance | "crude marital birth rate (CMBR)" | Historical regional panel | FDT | Corroborates the Bismarck-era historical mechanism. |
-| Basso, Bodenhorn, and Cuberes (2014) | United States, 1850 | Financial development | "child-woman ratio; crude birth rate" | Historical cross-county analysis | PM / FDT | The best-timed FDT mechanism: financial markets substitute for children before state pensions mature. |
-| Galofre-Vila (2023) | United States, 1940-1960 | 1935 Social Security Act | "total fertility rate...; number of own children under the age of five; number of children ever born" | Historical panel / census analysis | FDT | FDT-adjacent evidence, but weaker for the claim that non-child old-age security lowers fertility because the baby-boom setting and positive fertility response require careful interpretation. |
-| Zelu, Iranzo, and Pérez-Laborda (2023) | Ghana, 1999-2017 | Act 766 extension of more generous pension benefits to private-sector workers | Pregnancy in the last 12 months; number of children | DiD using public-sector workers as the comparison group | FDT | Newly retrieved working-paper evidence from a high-fertility transition setting. The controlled preferred short-run specification reports a 6-percentage-point reduction in pregnancy, but the draft has not yet passed RA extraction or risk-of-bias review. |
+| Danzer and Zyska (2023) | Brazil, 1981–2014 | Rural pension expansion and generosity | Newborn under one; completed fertility | DiD, IV, event study | A | FDT\|SDT |
+| Rossi and Godard (2022) | Namibia, 1990–2012 | Social-pension extension | Probability of birth; completed fertility | DiD on region × cohort exposure | A | FDT |
+| Billari and Galasso (2009) | Italy, 1998–2004 | Pension-wealth *cuts* | Births after reform; additional birth | Natural experiment by worker status | A | SDT |
+| Shen, Zheng and Yang (2020) | China, 2010–2014 | New Rural Pension Scheme | Number of children; second birth | DiD, PSM, FE, IV | A | SDT (policy-constrained) |
+| Han, Tao, Wang and Zhang (2025) | China, 2012–2020 | Long-term-care insurance pilots | Birth in past year; intended children | DiD | A | SDT (policy-constrained) |
+| Guinnane and Streb (2021) | Prussia, 1881–1910 | Bismarck social insurance | Births; crude birth rate | Historical quasi-experimental panel | A | FDT |
+| Fenge and Scheubel (2017) | Imperial Germany, 1895–1907 | Bismarck pension insurance | Crude marital birth rate | Historical regional panel, 23 provinces | A | FDT |
+| Basso, Bodenhorn and Cuberes (2014) | United States, **1850** | Presence of a bank in the county | Child–woman ratio; crude birth rate | **Single-year cross-county regression** | A | PM\|FDT |
+| Galofré-Vilà (2023) | United States, 1940–1960 | State social spending under the 1935 SSA | Total fertility rate; own children under five; children ever born | Historical cross-state panel | A | FDT |
+| Zelu, Iranzo and Pérez-Laborda (2023) | Ghana, 1999–2017 | Act 766 pension extension | Pregnancy in last 12 months; children | DiD, public-sector comparison | A | FDT |
+| Ci (2024) | China, 2010–2018 | Number of children (instrumented) | Private insurance adoption | IV | B | Mechanism |
+| Eibich and Siedler (2020) | Germany, 1984–2017 | Parental early-retirement eligibility | Grandchild born in t+1 | Fuzzy RDD | C | SDT |
+| Ilciukas (2023) | Netherlands, 2004–2021 | 2006 reform delaying maternal retirement | Children born by 2021 | RDD at the 1950 birth cutoff; IV | C | SDT |
+| Akyol and Atalay (2025) | Australia, 2001–2022 | Grandmother age-pension eligibility | Being a mother; number of children | Individual FE threshold design | C | SDT |
 
-For each quantitative study, the synthesis uses a preferred fertility estimate where the paper supplies one. The estimates keep the paper's original units and uncertainty measures where possible. Effects are oriented so that negative values mean lower fertility after an increase in non-child old-age security. The main analytic limit is treatment-scale comparability: the studies do not all estimate the same policy contrast.
+Zelu et al. is named because the previous draft named it; it has no row in the extraction table and no risk-of-bias grade, and it enters no calculation in this chapter.
 
-### 5.2 Mechanism Evidence
+### 6.1 The naive estimator and the direction of its bias
 
-Ci (2024) should not be pooled with the fertility effects. Its outcome is private insurance adoption, private pension adoption, or private health insurance, not fertility. It asks whether children substitute for purchased old-age security. That is valuable mechanism evidence. If children reduce private insurance demand, the old-age-security premise becomes more plausible. But the primary causal question runs the other way.
+**What is the naive estimator in this literature?** Compare fertility where old-age security is more available with fertility where it is less available. That is the comparison an author makes without thinking hard, and it is a bad one for two compounding reasons.
 
-Ruthbah (2022), from Bangladesh, appears to be a parallel mechanism paper. It is best treated as a candidate mechanism addition rather than as part of the primary fertility-effect synthesis.
+It conditions on economic development. States that build pension systems are richer, more urban, and further through the mortality transition — all of which independently lower fertility. The naive comparison therefore attributes to pensions a decline that development produced.
 
-### 5.3 Grandparental-Childcare Evidence
+Worse, it partly conditions on the outcome's own history. Pay-as-you-go systems are legislated *because* family support is eroding and populations are ageing; long-term-care insurance is adopted *because* there are fewer adult children to provide care. Old-age security is in part a policy response to fertility decline. Regressing fertility on old-age security therefore puts a consequence of the decline on the right-hand side.
 
-The SDT case depends on the grandparental childcare channel. Three studies anchor this evidence: Eibich and Siedler (Germany), Ilciukas (Netherlands), and Akyol and Atalay (Australia). These studies do not test whether parents use children as pensions. They test whether pension or retirement policy changes grandparents' availability for childcare, which then changes adult children's fertility.
+**Both channels bias the naive estimate toward the hypothesis** — that is, toward a negative coefficient. There is no offsetting force.
 
-The two pension mechanisms predict fertility effects in opposite directions. More non-child old-age security should reduce fertility when children are retirement assets. More grandparent availability should raise fertility when retired grandparents lower childcare costs for adult children. If retirement eligibility expands, fertility can rise. If retirement ages increase or early pensions shrink, grandparents remain at work, childcare help falls, and fertility can fall. That channel, in which pension policy raises fertility by lowering childcare costs, matches the SDT era better than the mechanism where children support parents in old age. The extracted grandparental childcare evidence includes Eibich and Siedler's study of parental retirement in Germany, Ilciukas's study of delayed maternal retirement in the Netherlands, and Akyol and Atalay's study of grandmothers' pension eligibility in Australia. All three are below-replacement, rich-country settings under the TFR classification rule. After orienting every estimate to "more grandparent availability," all three studies imply that more grandparent availability raises fertility.
+**How many included studies use it?** Three of the nine extracted Cell A studies rest on aggregate cross-sectional or cross-regional variation with no exogenous shock: Basso, Bodenhorn and Cuberes (2014), Fenge and Scheubel (2017), and Galofré-Vilà (2023). Basso et al. is the purest case in the set — a **single-year, 1850 cross-county regression** of fertility on whether a county had a bank. Its `period_start` and `period_end` are both 1850. It has no time dimension at all, and therefore no way to separate banks from everything else that distinguished a county with a bank from a county without one in 1850.
 
-The scale check compares those availability-oriented effects with observed TFR changes in the same country and period. Ilciukas's Netherlands estimates and Akyol and Atalay's Australia estimates are large relative to the fertility declines observed in those windows. Eibich and Siedler's Germany estimates support the same direction, but Germany's TFR rises slightly over their 1984-2017 SOEP window, so there is no fertility-decline denominator for a comparable scale calculation. This is a scale check rather than a decomposition share. It shows that the grandparental childcare channel is quantitatively nontrivial where the target window actually has falling TFR.
+**This matters more than a risk-of-bias footnote, because Basso et al. is the study the previous draft's FDT conclusion rested on.** That draft called financial development "the better-timed old-age-security substitute" and "the stronger FDT route," on the strength of a cross-sectional correlation whose bias runs in precisely the direction of the conclusion it was used to support. The finding is not that Basso et al. is wrong; it is that the chapter's FDT verdict cannot rest on it.
 
-### 5.4 Indirect Chain Evidence
+### 6.2 Do the studies disagree about the world, or about the estimator?
 
-The indirect evidence includes pension effects on savings, children's schooling, and coresidence. These studies help answer whether the mechanism's intermediate links exist. They do not tell us how much fertility changes when old-age security changes.
+They disagree in sign, and the disagreement is not resolved by the pools reported in §7.
 
-## 6. Quantitative Synthesis
+Oriented so that a negative value means more old-age security lowers fertility, three included estimates are positive: Galofré-Vilà's two Social Security Act estimates (+0.045 and +0.098), Guinnane and Streb's Prussian pension-alone estimate (+0.018), and Han et al.'s long-term-care-insurance estimate (+0.04). Six are negative.
 
-The quantitative synthesis keeps the estimates close to the way the papers report them. It compares effects only after preserving each paper's outcome wording, treatment contrast, uncertainty, and follow-up window. Unit conversions are mechanical: percentage-point effects are expressed as probabilities, and completed-fertility estimates remain in births per woman.
+The pooled summaries in §7 are negative. But two of the three positive results do not enter them — Guinnane and Streb's because its outcome unit is unsupported by the harmonisation rules, and Galofré-Vilà's because an orientation ruling codes state social spending as `not_oriented_broader_social_spending_mechanism`, a mechanism broader than old-age security.
 
-### 6.1 Pooled Summaries
+That ruling is defensible on its merits. The Social Security Act bundled family allowances with old-age provision, and a chapter about old-age security is entitled to exclude a treatment that is not old-age security. But its arithmetic consequence has to be stated, because it is large:
 
-The chapter reports two pooled summaries for the mechanism where non-child old-age security replaces children. These are pooled within outcome family, not across all pension-related treatments.
+| | Completed-fertility pool |
+|---|---|
+| As published | **−0.0677** births per woman |
+| Admitting Galofré-Vilà's same-unit estimate (+0.098, se 0.016) | **+0.0549** births per woman |
+| Weight that estimate would carry | **74.0%** |
+| Sign flips | **Yes** |
 
-The birth probability summary pools five independent studies. More non-child old-age security is associated with a 0.006954 lower probability of birth, with a standard error of 0.002037 and a 95 percent confidence interval from -0.010946 to -0.002963. The completed fertility summary pools three independent studies. More non-child old-age security is associated with 0.067672 fewer births per woman, with a standard error of 0.026971 and a 95 percent confidence interval from -0.120536 to -0.014808.
+The sign of the pooled completed-fertility summary is set by an inclusion ruling, not by the balance of evidence. A reader who disagrees with the ruling gets the opposite answer. Generated by `source/analysis/oas_synthesis_diagnostics.py` into `output/tables/old-age-security-pension-crowdout-pool-exclusion-sensitivity.csv`.
 
-These estimates are not one structural pension effect. The birth probability pool combines pension expansion, pension-value exposure, pension participation, pension cuts, and long-term-care insurance. The completed fertility pool combines pension-value exposure, pension cuts, and pension participation. The numbers therefore summarize direction and approximate magnitude within outcome family. Interpretation still depends on treatment type, setting, and identification quality.
+### 6.3 The transmission ledger
 
-The stricter pooling rule remains important. A single coefficient for "the effect of pensions" would require studies to share the same mechanism, outcome, unit, treatment scale, and usable standard error across at least three independent studies. The current evidence does not meet that standard.
+Sub-claim A is behavioural, so §2.3 of the template — which governs mechanisms stated as a rate or an identity — does not apply in its literal form. There is no identity arm here and no conception-to-birth accounting to run. What the mechanism does have is a transmission chain between the policy that is *counted* and the births that are *demographically relevant*, and it is worth enumerating for the same reason:
 
-The newly retrieved Ghana working paper is consistent with the developing-country pattern but is not included in these summaries. Zelu, Iranzo, and Pérez-Laborda compare private-sector women newly covered by Ghana's Act 766 reform with public-sector women who already received more generous pensions. Their controlled DiD estimate is a 6-percentage-point reduction in the probability of pregnancy in the previous year (standard error 3 percentage points; Table 2, p. 14). The controlled full-sample estimate for number of children is negative but not statistically precise (Table 7, p. 17). These estimates remain provisional because the paper is a working draft and has not completed the chapter's RA extraction and risk-of-bias review.
-
-The mechanism where children support parents in old age and the grandparental childcare channel remain separate. The first estimates whether non-child old-age security lowers fertility by replacing children as old-age insurance. The second estimates whether grandparent availability raises fertility by lowering childcare costs. Mechanism-validation and indirect-chain evidence remain outside the fertility-effect synthesis.
-
-For the grandparental childcare channel, all estimates are coded as effects of greater grandparent availability. Eibich and Siedler's retirement estimates and Akyol and Atalay's pension eligibility estimates are left as reported because the treatments increase grandparent availability. Ilciukas is reversed because the Dutch reform delayed maternal retirement and reduced grandparent availability. The availability-coded effects are then compared with observed TFR declines in the same country and period. Ilciukas's Netherlands estimates and Akyol and Atalay's Australia estimates are large relative to the fertility declines observed in those study windows. Eibich and Siedler's Germany estimates are not scaled because Germany's TFR does not decline over their SOEP study window.
-
-The remaining evidence is treated narratively when the outcome, treatment scale, or uncertainty measure is not comparable enough for pooling. Historical aggregate outcomes and mechanism-only estimates are still useful, but they answer different questions from the pooled fertility estimates.
-
-The remaining limitation is treatment comparability. Binary pension expansions, continuous pension-value exposure, pension cuts, LTCI pilots, financial access, and broad social spending do not define one common treatment contrast.
-
-## 7. Demographic Significance
-
-Demographic significance is assessed by matching each study window to the replacement-status of fertility in the relevant country or region. If the first and last available in-window TFR observations are both above 2.1, the setting is coded as FDT-relevant. If both are below 2.1, it is coded as SDT-relevant. If the window crosses from above to below replacement, it is coded as FDT|SDT. This yields Brazil as a crossing case, Namibia and postwar United States as above-replacement cases, and Italy plus the China pension studies as below-replacement cases. Prussia, Imperial Germany, and the 1850 U.S. financial-development evidence remain historical cases without in-window TFR coverage. China remains difficult to interpret because low fertility is policy-constrained.
-
-That classification yields four verdicts. PM has insufficient direct evidence. FDT is partial: the primary evidence supports the household mechanism in above-replacement or crossing settings. State pensions are often late for the Western FDT, and the pooled estimates do not supply one structural treatment coefficient. The argument that pensions lower fertility by replacing children is not significant or only contextual for the SDT: below-replacement evidence exists, but China is policy-constrained and mature rich-country pension systems leave little new variation on this margin. The grandparental childcare channel is the live SDT channel: the evidence comes from rich, below-replacement settings, consistently implies that greater grandparent availability raises fertility, and is large in the Netherlands and Australia scale check.
-
-### 7.1 Pre-Modern Fertility Variation
-
-There is no direct pre-modern causal evidence. The mechanism almost certainly mattered as a background condition: in a world without public pensions, formal insurance, or deep financial markets, children could be old-age support. But a universal condition does not explain variation. If nearly everyone depends on children for old age, that fact helps explain high fertility levels more than differences across populations.
-
-The pre-modern verdict is therefore low. Mortality, marriage systems, and inheritance rules are more plausible explanations for variation. Old-age security may be a baseline motive, not the main source of pre-modern differences.
-
-### 7.2 First Demographic Transition
-
-State pensions are poorly timed as the initiating cause of the FDT. The Western transition begins in the late nineteenth century. Bismarck's pension system dates to the late 1880s, and U.S. Social Security begins in 1935. These reforms can deepen or redirect a decline already under way, but they cannot explain why it began.
-
-Financial development is the stronger FDT route. If the real mechanism is non-child old-age security, households did not need a public pension to reduce the retirement value of children. They needed credible saving and borrowing institutions. Basso, Bodenhorn, and Cuberes speak directly to that margin in the nineteenth-century United States. That makes financial development the better-timed old-age-security substitute for FDT purposes.
-
-The FDT verdict is partial. The mechanism is plausible and empirically supported, but state pensions are too late and early coverage is too limited to be the main cause. The best version is a broader asset-substitution story, with financial markets doing more work than public pensions.
-
-### 7.3 Second Demographic Transition
-
-The SDT needs two separate judgments.
-
-The claim that pensions lower fertility by replacing children is weak as a rich-country SDT explanation. By the time the SDT begins, rich countries already have mature pension systems. That already-established source of old-age support has little new variation left to explain a further fertility decline. The predicted direction is also uncomfortable. Retrenchment in pension generosity or later eligibility should increase fertility through this mechanism because children become more valuable as old-age support. But fertility fell.
-
-The childcare channel changes that conclusion. Later retirement and tighter pension eligibility can keep grandparents in paid work, reducing childcare help for adult children and potentially lowering fertility. The extracted grandparental childcare studies come from rich, below-replacement settings and are consistent in the availability-oriented direction. Ilciukas's Netherlands estimates and Akyol and Atalay's Australia estimates are large relative to observed TFR declines in their study windows. Eibich and Siedler's Germany evidence supports the same direction, but Germany's TFR rises slightly over their study window, so the Germany estimates are not converted into shares of a fertility decline.
-
-China should not settle the SDT question. The Chinese pension and long-term-care insurance studies are useful evidence that replacing children with non-child old-age security can still affect fertility when old-age-security policy is newly expanding. But China reached below replacement under a policy-constrained fertility regime. That makes it weak evidence for the SDT process of postponement, individualization, and low desired family size.
-
-## 8. External Validity and Transportability
-
-The main transportability problem is that the studies are not all about the same social world. Rural Brazil, Namibia, and rural China differ sharply from Imperial Germany, nineteenth-century U.S. counties, and late twentieth-century Italy. The relevant differences include family-transfer norms, pension coverage, and baseline fertility.
-
-Those differences are not nuisance details. They determine whether the mechanism has room to operate. Replacing children with non-child old-age security should matter most where children remain a credible retirement asset and non-child old-age security is newly introduced or newly expanded. It should matter less where public pensions and private savings are already universal. The childcare channel should be strongest where grandparents are available, formal childcare is costly, and retirement policy sharply changes older adults' time.
-
-| Setting group | Strongest channel | Transportability reading |
+| Stage | Question | Sign |
 |---|---|---|
-| Rural or developing settings with family old-age support | Replacing children with non-child old-age security | High mechanism relevance, but limited direct transport to rich-country SDT. |
-| Historical Western FDT settings | Financial-market or early social-insurance substitution | Relevant to FDT only if timing and coverage precede or overlap the decline. |
-| Rich below-replacement settings | Grandparental childcare | Most relevant to SDT, but effect size must be checked against the scale of the fertility decline. |
-| Policy-constrained low-fertility settings such as China | New policy expansion replacing children as old-age support | Useful mechanism evidence, weak as SDT evidence. |
+| Enacted → covered | Who is actually reached? Brazil's and Namibia's expansions reached specific occupational and regional groups. | Attenuates |
+| Covered → believed credible | Is the promise believed? A pay-as-you-go claim is only as good as the state behind it. | Attenuates |
+| Believed → old-age motive was binding | Was old-age support the reason this birth was wanted? Where children are wanted for other reasons, removing the motive changes nothing. | Attenuates |
+| Motive removed → birth averted | Is the birth averted or merely postponed? Birth-probability outcomes measure **tempo** (when births happen); completed-fertility outcomes measure **quantum** (how many happen in total). Only quantum moves the phenomenon. | Attenuates (for quantum) |
+| Averted → room to run | By the SDT, coverage is already near-universal, so there is little dose left to apply. | Attenuates |
 
-A study can be causally credible in its own setting and still weak evidence for a target transition. Internal validity and external validity therefore have to be judged separately.
+**Every entry attenuates. None amplifies.** The chain runs one way, which means the estimates in §7 are upper bounds on the demographic contribution, and the verdicts in §8 should be read as ceilings rather than as central cases. This is structurally the same one-directional ledger that A.12 found and that B.5's (1−p) accounting missed.
 
-## 9. Risk of Bias and Identification Quality
+---
 
-Risk of bias is assessed across confounding, selection, and identification credibility. The most important distinction is between policy-generated micro variation, which is often credible but not randomized, and historical aggregate variation, which is valuable for timing but more exposed to ecological confounding.
+## 7. Quantitative synthesis
 
-The strongest direct evidence comes from quasi-experimental pension expansions or eligibility changes with credible comparison groups. Rossi and Godard, Danzer and Zyska, and the grandparental childcare studies are the clearest examples. These studies are generally rated moderate rather than low risk because treatment exposure is policy-generated but not individually randomized, and missing-data documentation is not always fully audited. Zelu, Iranzo, and Pérez-Laborda also use policy-generated DiD variation, but their Ghana working paper remains ungraded pending RA review; its public/private-sector comparison requires particular scrutiny because the groups differ substantially in employment composition.
+### 7.1 The answer in plain terms
 
-The historical evidence is important but more exposed to confounding, measurement, and ecological inference concerns. Guinnane and Streb, Fenge and Scheubel, and Galofre-Vila are therefore treated as serious risk in the overall risk-of-bias field even when they are valuable for timing and mechanism. The China evidence is useful but needs careful treatment because fertility policy and pension policy overlap in time and because SDT transportability is weak. Mechanism studies such as Ci are internally relevant but do not estimate the fertility outcome.
+The honest summary is that the studies point, on balance, the way the idea predicts — where people were handed a pension and still had good reason to rely on children, they went on to have somewhat fewer children — but that the amount is small, and the summary numbers are far less solid than they look.
 
-## 10. Summary of Findings
+Two things make them less solid. The averages are supposed to combine five studies and three studies. In practice, two studies carry almost all of each average, and the studies that were done in the places the idea fits best count for almost nothing — not because anyone judged them weak, but because of the units their authors happened to use. And the direction of one of the two averages depends on a decision to leave out a particular American study; put it back in and the average points the other way.
 
-Magnitude certainty remains limited because the stricter pooling rule rejects a single structural pooled coefficient. The chapter therefore reports pooled summaries within each outcome family for the mechanism where non-child old-age security replaces children, plus structured quantitative synthesis for external validity. For the grandparental childcare channel, it codes estimates by greater grandparent availability and compares them with observed TFR declines.
+So the direction is probably right and the size is small. Anyone who wants to use one of these numbers as *the* effect of pensions on births should not.
 
-| Outcome or channel | Studies | Synthesis | Certainty | Interpretation |
-|---|---|---|---|---|
-| Non-child old-age security replacing children | Studies with fertility outcomes | Pooled summaries within each outcome family plus structured interpretation | Setting-specific direction; treatment-scale heterogeneity remains | The studies support a real mechanism after coding eligible estimates as the effect of more non-child old-age security. The birth probability summary is -0.006954; the completed fertility summary is -0.067672 births per woman. These are outcome-family summaries, not one structural pension effect. |
-| Children as old-age-security assets | Mechanism-validation studies | Not pooled with fertility effects | Low-to-moderate | Mechanism evidence supports children and purchased old-age security as substitutes, but it does not estimate fertility effects. |
-| Grandparental childcare | Eibich and Siedler; Ilciukas; Akyol and Atalay | Separate SDT structured quantitative synthesis; not pooled with estimates where non-child security replaces children | Moderate for direction; large scale-check effects in the Netherlands and Australia | This channel predicts the reverse fertility response from old-age-security crowd-out. Greater grandparent availability tends to raise fertility, while delayed retirement tends to lower it. Ilciukas's Netherlands estimates and Akyol and Atalay's Australia estimates are large relative to observed TFR declines in their study windows. Eibich and Siedler's Germany estimates support the same direction, but Germany's TFR rises over the SOEP study window, so those estimates are not scaled against a fertility decline. |
-| Demographic significance | All extracted studies plus TFR transition classification | Structured PM/FDT/SDT demographic-significance table | Low-to-moderate, channel-specific | The evidence supports partial FDT relevance for replacing children with non-child old-age security, weak or contextual SDT relevance for that mechanism, and partial SDT relevance for the grandparental childcare channel based on the grandparental childcare scale check. The Ghana working paper reinforces the FDT-relevant direction but does not change the rating before formal review. |
+### 7.2 The estimate
 
-## 10.1 GRADE-Style Final Rating
+Two outcome-specific fixed-effect inverse-variance summaries were computed for sub-claim A, pooling within outcome family rather than across treatments.
 
-| Phenomenon and channel | Causal credibility | Demographic significance | Rationale |
+**Birth probability**, five effects from five studies: **−0.00695** (se 0.00204; 95% CI −0.01095 to −0.00296).
+**Completed fertility**, three effects from three studies: **−0.0677** births per woman (se 0.02697; 95% CI −0.12054 to −0.01481).
+
+Both reproduce exactly from the harmonised effects, which validates the arithmetic. What the published tables do not show is where the weight sits:
+
+| Pool | Study | Setting | Oriented effect | SE | **Weight** |
+|---|---|---|---|---:|---:|
+| Birth probability | Billari and Galasso | Italy | −0.00664 | 0.00286 | **50.7%** |
+| | Danzer and Zyska | Brazil | −0.009 | 0.003 | **46.1%** |
+| | Han et al. | China (LTCI) | +0.04 | 0.0122 | 2.8% |
+| | Rossi and Godard | Namibia | −0.173 | 0.043 | 0.2% |
+| | Shen et al. | China (NRPS) | −0.075 | 0.044 | 0.2% |
+| Completed fertility | Billari and Galasso | Italy | −0.0529 | 0.0287 | **88.3%** |
+| | Shen et al. | China (NRPS) | −0.169 | 0.079 | 11.7% |
+| | Rossi and Godard | Namibia | −4.58 | 1.63 | **0.03%** |
+
+Two studies carry 96.8% of the birth-probability pool and 99.97% of the completed-fertility pool.
+
+**The weights are set by treatment units, not by evidential quality.** Inverse-variance weighting assumes the estimates share an estimand. These do not: the pools span five and three distinct treatment scales respectively. Rossi and Godard's coefficient is denominated per thousand rand of initial pension needs; Danzer and Zyska's is a binary exposure. A study whose treatment variable is measured in small units gets a large coefficient, a large standard error, and hence almost no weight — regardless of how well identified it is.
+
+The consequence is stark. Rossi and Godard (2022) — a paper titled *The Old-Age Security Motive for Fertility*, published in *AEJ: Economic Policy*, the single most direct test of this chapter's registered claim in the evidence base, and the study the previous draft called the clearest developing-country evidence — carries **0.03%** of the completed-fertility summary. It is arithmetically absent from the number the chapter reports.
+
+**These two pools should not be reported as pooled estimates.** The template's rule in §2.2 is to resolve disagreements rather than average them, and the precondition for averaging — a shared estimand — fails here on the pipeline's own recorded evidence (`n_treatment_scales` of 5 and 3 against `n_studies` of 5 and 3: every study has its own scale). What the numbers summarise is the direction of a set of studies, which is worth knowing; what they do not summarise is a magnitude, and §8 does not treat them as one.
+
+### 7.3 The grandparental-childcare cell
+
+Three quasi-experimental studies from Germany, the Netherlands and Australia estimate sub-claim B. Oriented to greater grandparent availability, all three are positive: more available grandparents, more births. That direction is consistent across three independent rich-country designs and is the most internally credible finding in the chapter.
+
+The magnitude claim attached to it in the previous draft does not survive checking. That draft reported the effects as "large relative to observed declines in the **total fertility rate**" (TFR: the number of children a woman would bear if she experienced current age-specific birth rates throughout her reproductive life), on the strength of `cell-c-slope-sufficiency.csv`, which divides each effect by the change in TFR *inside the study's own window*. Those denominators are 0.097 births for the Netherlands and 0.101 for Australia — a few years of local drift, not the Second Demographic Transition.
+
+Dividing by them produces shares that cannot be shares. Of the eight rows, six have a computed share; **two exceed 100%**, one of them reaching 273%. No mechanism explains 273% of the thing it is explaining. A share above one is not a large effect; it is a denominator that is not the phenomenon. Three of the eight rows additionally divide a *probability* by a *TFR change*, which are not the same unit.
+
+The screen's own file warns that it is "screening language, not exact decomposition shares." The previous draft nonetheless carried the word "large" into its SDT verdict, into the summary-of-findings table, and into the **GRADE** rationale (GRADE: the standard scheme for rating how much certainty a body of evidence supports, from HIGH down to VERY LOW, with each downgrade attributed to a named defect). §8.3 withdraws it.
+
+---
+
+## 8. Demographic significance
+
+The phenomenon to be explained is measured in whole children — the First Demographic Transition is a fall of roughly three births per woman and the Second roughly one and a half; this mechanism offers between 0.056 and 0.169 births per woman, under dose assumptions no study supplies.
+
+That comparison decides most of what follows, and it decides it before any study is read. A mechanism denominated in hundredths of a birth is being asked to explain a phenomenon denominated in whole births. Only the size of the gap remains to be established.
+
+The corrected denominators cannot be computed in this repository: the UN TFR panel used by `oas_transition_classification.py` lives in a collaborator's directory that is not reachable here, so the ~3 and ~1.5 figures above are conventional values and are *not* derived from project data. Rather than import a number this repository cannot check, the verdicts below invert the question — for each mechanism magnitude, how large can the phenomenon be before the magnitude stops clearing a verdict band? That is computable from the magnitude alone:
+
+| Mechanism magnitude | Births/woman | Reaches MINOR (≥5%) only if the phenomenon is at most | Reaches SUBSTANTIAL (≥20%) only if at most |
+|---|---:|---:|---:|
+| Cell A pooled completed fertility | 0.0677 | 1.35 births | 0.34 births |
+| Largest per-person Cell A estimate (Shen, NRPS) | 0.169 | 3.38 births | 0.85 births |
+| Cell C Netherlands (Ilciukas) | 0.056 | 1.12 births | 0.28 births |
+| Cell C Australia (Akyol and Atalay) | 0.067 | 1.34 births | 0.34 births |
+
+Generated into `output/tables/old-age-security-pension-crowdout-units-check.csv`.
+
+**The endogeneity check.** Before any share is claimed, ask whether the mechanism's own movement is caused by the phenomenon. For this mechanism the answer is plainly yes, in part: pay-as-you-go pension systems are legislated in response to ageing and to the erosion of family support, and long-term-care insurance is adopted because there are fewer adult children to provide care. Some of the historical growth in old-age security is a *consequence* of fertility decline, and that component must be netted out before any of it is counted as a cause. No included study identifies the size of that component, so it cannot be netted out here. This is the same feedback problem A.12 found in the modern twinning rise, and it points the same way: it inflates the apparent contribution.
+
+### 8.1 Pre-modern fertility variation
+
+For pre-modern variation, the verdict is NOT ASSESSED, because the cell contains no study — zero of the nine extracted Cell A studies estimate a pre-modern effect, and Basso et al.'s 1850 cross-section, the closest thing to one, is a single-year correlation with no identified variation.
+
+Pre-modern variation is in scope for this hypothesis in the registry; the cell is empty rather than excluded, which is the distinction the widened NOT ASSESSED verdict is required to state. It is an empty cell, not a weak literature, and that difference matters. The mechanism was almost certainly a real background condition — in a world without pensions, insurance or deep financial markets, children were what people had. But a condition that holds nearly everywhere cannot explain variation *between* pre-modern populations, and nothing in the evidence base measures the differences in family systems, inheritance rules and communal care that would. If the mechanism were assessed, the expected sign would be negative, and the expected magnitude small relative to mortality and marriage systems.
+
+### 8.2 First Demographic Transition
+
+For the First Demographic Transition, the verdict is NEGLIGIBLE, because 0.0677 births per woman is 2.3% of a three-birth decline.
+
+The band is NEGLIGIBLE rather than MINOR on the pooled evidence, and the ceiling is worth stating separately: the largest per-person estimate in the evidence base reaches 5.6% — just inside MINOR — but only under a dose assumption, universal pension coverage, that no FDT-era society satisfied. MINOR is therefore the most the mechanism could reach under assumptions the period rules out, not a defensible alternative reading.
+
+Three points support that reading and one complicates it.
+
+The pooled completed-fertility number is not FDT evidence. 88.3% of its weight is an Italian pension cut in 1998–2004, a below-replacement setting a century after the transition it is being used to describe. Of the studies that *are* FDT-relevant, Namibia contributes 0.03% and China 11.7%.
+
+The timing objection from the previous draft stands and is strengthened. Bismarck's system dates to the late 1880s and the US Social Security Act to 1935, both after the Western decline was under way. Pensions can deepen a decline in progress; they cannot start one that preceded them.
+
+The financial-development route is weaker than the previous draft claimed. That draft moved the FDT case onto Basso, Bodenhorn and Cuberes because financial markets were better-timed than pensions. But that study is the single-year cross-section identified in §6.1 as the naive estimator in its purest form, biased toward the hypothesis. Better timing does not compensate for absent identification. The FDT case for a *broader* asset-substitution story remains theoretically attractive and empirically untested.
+
+What complicates the verdict is the transmission ledger: every entry attenuates, so 5.6% is a ceiling reached under the most generous assumptions available, not a central estimate.
+
+### 8.3 Second Demographic Transition
+
+For the Second Demographic Transition, the verdict is NEGLIGIBLE for both channels, because the largest available magnitude on either — 0.169 births under universal coverage for the old-age-security motive, 0.067 for grandparental childcare — clears 5% of a 1.5-birth decline only for the former, and the former's dose assumption is not available in a rich country where coverage is already near-universal.
+
+**Sub-claim A has no dose left.** By the time the SDT begins, rich countries have mature pension systems. A mechanism that works by replacing children with pensions needs pensions to be newly arriving, and they are not. The chapter's two below-replacement Cell A studies are both Chinese, in a period when fertility was constrained by policy, which makes them poor evidence about a voluntary transition.
+
+**And its predicted sign is wrong for the period.** The SDT era is one of pension retrenchment — later eligibility, less generous benefits. Through this mechanism, retrenchment makes children *more* valuable as old-age support and should have *raised* fertility. Fertility fell. The mechanism predicts the opposite of what happened, which is a stronger objection than weak evidence.
+
+**Sub-claim B is directionally credible and demographically negligible.** Three independent quasi-experiments agree that more available grandparents means more births, and that is a real finding about a real channel. But the Netherlands estimate reaches 5% of the phenomenon only if the SDT decline is at most 1.12 births, and the Australian only if it is at most 1.34. On any conventional reading of the SDT, both fall below MINOR. The previous draft's "large" came entirely from dividing by a 0.097-birth denominator.
+
+---
+
+## 9. GRADE rating
+
+Per phenomenon and channel, with every downgrade named.
+
+| Phenomenon and channel | GRADE | Downgrades | Demographic significance |
 |---|---|---|---|
-| PM, children as old-age support | Very low | Insufficient direct evidence | The mechanism is theoretically plausible, but the extracted evidence does not contain direct pre-modern causal estimates. |
-| FDT, non-child old-age security replacing children | Low-to-moderate | Partial | The mechanism is supported in household and historical evidence, but state pensions are usually late for the Western FDT; the best-timed version is broader financial-market substitution. |
-| SDT, non-child old-age security replacing children | Low | Not significant or contextual | Rich-country pension systems are already widespread by the SDT, and some low-fertility evidence comes from policy-constrained China rather than SDT dynamics. |
-| SDT, grandparental childcare channel | Moderate | Partial, with scale-check support | Eibich and Siedler, Ilciukas, and Akyol and Atalay point in the same availability-oriented direction. The Netherlands and Australia estimates are large relative to observed TFR declines; Germany is not scaled because TFR rises over the SOEP study window. |
+| PM, old-age-security motive | **No evidence** | No body of evidence to rate: zero of the nine extracted Cell A studies estimate a pre-modern effect. VERY LOW would misdescribe an empty cell as a literature that exists and is badly identified. To earn a rating this cell would need an estimate of fertility differences between pre-modern populations that differed in how the old supported themselves. | NOT ASSESSED |
+| FDT, old-age-security motive | **VERY LOW** | *Risk of bias*: 3 of 9 Cell A studies rest on cross-sectional variation biased toward the hypothesis, one with no time dimension. *Indirectness*: the pooled estimate's weight is 88% Italian and SDT-era. *Inconsistency*: sign disagreement unresolved, and the pooled sign flips on one inclusion ruling. *Imprecision*: no study supplies a dose, so no magnitude is identified. | NEGLIGIBLE (MINOR at the ceiling) |
+| SDT, old-age-security motive | **VERY LOW** | *Indirectness*: both below-replacement studies are from a policy-constrained fertility regime. *Risk of bias*: as above. Additionally the mechanism predicts the wrong sign for the period's actual policy direction. | NEGLIGIBLE |
+| SDT, grandparental childcare | **MODERATE** for direction; **no rating** for magnitude | *Indirectness* (one level): this is not the registered claim. Direction is supported by three independent quasi-experimental designs (fuzzy RDD, RDD, individual FE threshold) in three countries, agreeing in sign — hence MODERATE rather than LOW. Magnitude is unrated because the only magnitude calculation in the evidence base uses a denominator that is not the phenomenon. | NEGLIGIBLE |
 
-## 11. Interpretation for Economics Readers
+A HIGH rating for a negligible effect would be a coherent result. This chapter does not have one: certainty is low *and* the effect is small.
 
-The evidence supports a substitution model, but the substitute changes across time. In pre-modern settings, children, kin, land, and family transfers provided old-age security. During the FDT, formal financial markets may have mattered more than state pensions because they arrived early enough. In the SDT, the relevant margin shifts again. Rich countries no longer need children as old-age insurance in the same way, but many families still rely on grandparents for childcare. Retirement policy changes that availability.
+---
 
-This is why the chapter should not ask whether "pensions reduce fertility" as a generic question. The better question is which pension channel operates in which demographic regime. Replacing children with non-child old-age security lowers fertility where old-age support is scarce and children are useful assets. The childcare channel raises fertility where retired grandparents supply time to adult children. A policy that expands pensions can activate both channels at once. The net effect is empirical.
+## 10. Verdict
 
-## 12. Limitations and Extensions
+Non-child old-age security probably does reduce fertility where children are still a meaningful retirement asset, and the direction of the evidence supports the mechanism. But the effect is too small to explain any of the three phenomena this review is about, and the summary numbers previously reported for it do not bear the weight that was put on them.
 
-The main limitation is common across the evidence base. The studies do not estimate one common treatment contrast. Binary pension expansions, pension-wealth cuts, and long-term-care insurance pilots are all relevant to old-age security, but they are not the same treatment. That is why the chapter reports pooled summaries within each outcome family rather than a single statistically pooled pension coefficient.
+**The one number to carry away: 0.0677 births per woman.** That is the pooled completed-fertility summary, and it is roughly 2% of the First Demographic Transition and 5% of the Second. Even the largest per-person estimate in the evidence base, applied under the impossible assumption that every woman in a population is moved from no pension to full coverage, reaches 5.6% of the First.
 
-Two extensions would strengthen the chapter. First, additional same-scale estimates could make treatment-specific pooling possible within a narrow outcome family. Second, mechanism-only studies such as Ruthbah and indirect chain-link evidence could be organized into an appendix to show how children, savings, insurance, and old-age support interact outside the primary fertility causal question.
+**Every one of those figures is a ceiling, not a central estimate.** All five stages of the transmission chain in §6.3 attenuate and none amplifies, and the mechanism's own historical growth is partly a response to the fertility decline it is invoked to explain. Both corrections push the true contribution below the numbers above; neither pushes it up.
 
-## 13. Reproducibility Appendix
+Three further qualifications belong inside this verdict rather than below it.
 
-This appendix records how the review was built and where the underlying materials are stored. It is included for auditability; the substantive interpretation does not depend on the reader following the project workflow.
+The 0.0677 is 88% one Italian pension cut. The study that most directly tests this chapter's claim, in the setting where the mechanism should be strongest, contributes 0.03% of it. And the sign of that number depends on a ruling to exclude an American estimate that would otherwise carry three-quarters of the weight and reverse it.
 
-The chapter uses the project GACS-style workflow. The workflow moves from broad search to screening, full-text retrieval, structured extraction, risk-of-bias assessment, and synthesis. PRISMA counts and any final sign-off can be updated here without changing the reader-facing argument.
+The grandparental-childcare channel is a genuine finding — three independent designs agree that available grandparents raise fertility — but it is not the registered hypothesis, and its previously reported magnitude was an artefact of dividing by seventeen years of Dutch drift instead of by the transition.
 
-The `outcome_family` field in the extraction data is a harmonization bucket, not a replacement for the paper's own dependent-variable wording. The paper-visible variable is preserved in `outcome_name`. The `outcome_family` field only groups those variables into broad comparison classes.
+The chapter rests on 13 studies selected from 1,860 machine-screened records by a step with ten recorded decisions.
 
-- PI benchmark: `output/chapters/old-age-security-pension-crowdout-pi-review v4.md`
-- Meeting summary: `meeting-summaries/2026-07-05-pensions-fertility-review.md`
-- Style guide: `docs/appellate-style-guide.md`
-- Chapter writing style guide: `docs/chapter-writing-style-guide.md`
-- Pipeline design: `docs/meta-analysis-paper-pipeline-design.md`
-- Effect harmonization rules: `docs/meta-analysis-effect-size-harmonization.md`
-- Meta-analysis pipeline: `source/analysis/oas_meta_pipeline.py`
-- Meta-analysis pipeline tests: `source/analysis/test_oas_meta_pipeline.py`
-- TFR transition classifier: `source/analysis/oas_transition_classification.py`
-- TFR transition classifier tests: `source/analysis/test_oas_transition_classification.py`
-- Study extraction: `extraction/old-age-security-pension-crowdout-studies.csv`
-- Target-period derivation: `extraction/old-age-security-pension-crowdout-target-period-relevance.csv`
-- TFR transition classification: `output/tables/old-age-security-pension-crowdout-tfr-transition-classification.csv`
-- Demographic significance: `output/tables/old-age-security-pension-crowdout-demographic-significance.csv`
-- Outcome-specific pooled estimates: `output/tables/old-age-security-pension-crowdout-outcome-specific-pooled-estimates.csv`
-- GRADE verdicts: `output/tables/old-age-security-pension-crowdout-grade-verdicts.csv`
-- Cell C slope scaling: `output/tables/old-age-security-pension-crowdout-cell-c-slope-scaling.csv`
-- Cell C slope-sufficiency screen: `output/tables/old-age-security-pension-crowdout-cell-c-slope-sufficiency.csv`
-- Cell C slope-sufficiency note: `output/old-age-security-pension-crowdout-cell-c-slope-sufficiency.md`
-- Theory sources: `extraction/old-age-security-pension-crowdout-theory-sources.csv`
-- Full-text screen: `extraction/old-age-security-pension-crowdout-fulltext-screen.csv`
-- Effect extraction: `extraction/old-age-security-pension-crowdout-effects.csv`
-- Risk of bias: `extraction/old-age-security-pension-crowdout-risk-of-bias.csv`
-- Harmonized effects: `output/tables/old-age-security-pension-crowdout-harmonized-effects.csv`
-- Meta-analysis readiness: `output/tables/old-age-security-pension-crowdout-meta-analysis-readiness.csv`
-- Meta-analysis summary: `output/tables/old-age-security-pension-crowdout-meta-analysis-summary.csv`
-- Summary of findings: `output/tables/old-age-security-pension-crowdout-summary-of-findings.csv`
-- Evidence map data: `output/figures/old-age-security-pension-crowdout-evidence-map.csv`
-- Estimand-ready set: `output/old-age-security-pension-crowdout-estimand-ready-set.md`
-- RA study review sheet: `output/old-age-security-pension-crowdout-study-extraction-review.csv`
-- Effect review template: `output/old-age-security-pension-crowdout-effect-extraction-review-template.csv`
+**What would change it:** a study that reports a fertility response to a *quantified* change in old-age security — a coverage rate, a replacement rate, a pension-wealth amount — so that a historical dose could be applied to an estimated slope. No included study does. Until one exists, the demographic significance of this mechanism is bounded but not measured.
 
-## 14. References for the Current Draft
+---
 
-Akyol and Atalay (2025). The intergenerational impact of pension reforms: how grandmothers' pension eligibility affects daughters' fertility.
+## 11. Open questions
 
-Barro and Becker (1989). Fertility choice in a model of economic growth.
+**PI calls required.**
 
-Basso, Bodenhorn, and Cuberes (2014). Fertility and financial development: evidence from U.S. counties in the 19th century.
+1. **Should the two pooled summaries be withdrawn?** §7.2 argues they average across estimands that the pipeline itself records as distinct (`n_treatment_scales` = `n_studies` in both pools). The alternative is a forest plot with no summary line. This is the chapter's most consequential open decision.
+2. **Is the Galofré-Vilà exclusion correct?** It is defensible, and it determines the sign of a headline number. It should be an explicit, recorded PI ruling rather than a pipeline constant.
+3. **Should Basso, Bodenhorn and Cuberes (2014) carry any FDT weight?** A single-year cross-section is the naive estimator; the previous draft's FDT case rested on it.
+4. **Should the grandparental-childcare channel be split into its own chapter?** It is not the registered claim, it predicts the opposite sign, and it is now the chapter's most credible finding. Per the project's split rule, the decision belongs at synthesis and the splitting field — which channel a design identifies — is not visible at title/abstract, which is Wall 3's problem exactly.
+**Retrieval and data priorities.**
 
-Becker (1960). An economic analysis of fertility.
+5. Recompute the Cell C slope sufficiency against the SDT decline rather than the in-window change. This needs the UN TFR panel, which is not reachable from this machine; it is a data-access task, not an analysis task.
+6. Reconstruct the 1,860 → 13 screen, or state in the header that the included set is expert-curated.
+7. Account for the 31 held PDFs that have no extraction row.
+8. Extract Zelu, Iranzo and Pérez-Laborda (2023), or drop it from the chapter.
+9. `extraction/…-studies.csv` records `extraction_status: not_started` for all 9 Cell A studies while `…-effects.csv` records `ra_verified: yes` for all their effects. One of the two fields is wrong.
 
-Becker and Barro (1988). A reformulation of the economic theory of fertility.
+**Studies that do not exist and should.** A pension expansion that is exogenous *and* quantified in replacement-rate terms, in a setting with high baseline reliance on children, with completed fertility observed. Namibia and Brazil each have half of this; neither has all of it.
 
-Billari and Galasso (2009). What explains fertility? Evidence from Italian pension reforms.
+---
 
-Boldrin, De Nardi, and Jones (2015). Fertility and social security.
+## 12. References
 
-Caldwell (1976). Toward a restatement of demographic transition theory.
+Akyol, P. and Atalay, K. (2025). The intergenerational impact of pension reforms. *Economics Letters*. doi:10.1016/j.econlet.2025.112239
+Barro, R. and Becker, G. (1989). Fertility choice in a model of economic growth. *Econometrica*.
+Basso, A., Bodenhorn, H. and Cuberes, D. (2014). Fertility and financial development: evidence from U.S. counties in the 19th century. NBER WP 20491. doi:10.3386/w20491
+Becker, G. (1960). An economic analysis of fertility.
+Becker, G. and Barro, R. (1988). A reformulation of the economic theory of fertility. *QJE*.
+Billari, F. and Galasso, V. (2009). What explains fertility? Evidence from Italian pension reforms. CESifo WP. doi:10.2139/ssrn.1406946
+Boldrin, M., De Nardi, M. and Jones, L. (2015). Fertility and social security. *Journal of Demographic Economics*.
+Caldwell, J. (1976). Toward a restatement of demographic transition theory. *PDR*.
+Ci, Z. (2024). Children as insurance revisited. *Journal of Risk and Insurance*. doi:10.1111/jori.12492
+Cigno, A. (1993). Intergenerational transfers without altruism. *European Journal of Political Economy*.
+Danzer, A. and Zyska, L. (2023). Pensions and fertility: microeconomic evidence. *AEJ: Economic Policy*. doi:10.1257/pol.20200440
+Ehrlich, I. and Lui, F. (1991). Intergenerational trade, longevity, and economic growth. *JPE*.
+Eibich, P. and Siedler, T. (2020). Retirement, intergenerational time transfers, and fertility. *European Economic Review*. doi:10.1016/j.euroecorev.2020.103392
+Fenge, R. and Scheubel, B. (2017). Pensions and fertility: back to the roots. *Journal of Population Economics*. doi:10.1007/s00148-016-0608-x
+Galofré-Vilà, G. (2023). The US baby boom and the 1935 Social Security Act. *The History of the Family*. doi:10.1080/1081602x.2023.2178478
+Guinnane, T. and Streb, J. (2021). The introduction of Bismarck's social security system and its effects on marriage and fertility in Prussia. *PDR*. doi:10.1111/padr.12426 (with 2022 corrigendum)
+Han, Y., Tao, X., Wang, S. and Zhang, Y. (2025). The impact of long-term care insurance on family fertility behaviour. *Applied Economics*. doi:10.1080/00036846.2025.2490215
+Ilciukas, J. (2023). Fertility and parental retirement. *Journal of Public Economics*. doi:10.1016/j.jpubeco.2023.104928
+Neher, P. (1971). Peasants, procreation, and pensions. *AER*.
+Nishimura, K. and Zhang, J. (1992). Pay-as-you-go public pensions with endogenous fertility. *Journal of Public Economics*.
+Nugent, J. (1985). The old-age security motive for fertility. *PDR*. 
+Rossi, P. and Godard, M. (2022). The old-age security motive for fertility: evidence from Namibia. *AEJ: Economic Policy*. doi:10.1257/pol.20200466
+Shen, Z., Zheng, X. and Yang, H. (2020). The fertility effects of public pension. *PLOS ONE*. doi:10.1371/journal.pone.0234657
+Sinn, H.-W. (2004). The pay-as-you-go pension system as fertility insurance and an enforcement device. *Journal of Public Economics*.
+Willis, R. (1980). The old age security hypothesis and population growth.
+Zelu, B., Iranzo, S. and Pérez-Laborda, A. (2023). Pension reform and fertility: evidence from Ghana. Working paper. *Not extracted; not used in any calculation in this chapter.*
 
-Ci (2024). Children as insurance revisited: impact of children on private insurance adoption among older parents.
+---
 
-Cigno (1993). Intergenerational transfers without altruism: family, market and state.
+## Provenance and standing caveats
 
-Danzer and Zyska (2023). Pensions and fertility: microeconomic evidence.
+This chapter is written on 13 of 13 wanted full texts (100%).
 
-Ehrlich and Lui (1991). Intergenerational trade, longevity, and economic growth.
+That number is true and close to meaningless, and the reason is in §4: the 13 were selected from 1,860 machine-screened records by a human screen with ten recorded decisions, and 31 further PDFs are held without extraction rows. The retrieval fraction that matters is not the one the template asks for. **The finding that would survive full retrieval is the units result** — the mechanism is denominated in hundredths of a birth against phenomena denominated in whole births, and no additional study changes that unless it supplies a dose. **The findings that might not are** the pooled magnitudes, the weight concentration, and the sign sensitivity, all of which are properties of this particular set of nine Cell A studies and would change if the set changed.
 
-Eibich and Siedler (2020). Retirement, grandparental childcare transfers, and fertility.
+**Objection over which this chapter was written.** None recorded from the PI. The rewrite itself, however, contradicts the previous draft (2026-07-11) on two substantive points that were benchmarked against PI review v4: that the grandparental-childcare effects are "large relative to observed TFR declines" (§7.3 shows the denominator is not the phenomenon and two shares exceed 100%), and that financial development is "the stronger FDT route" (§6.1 identifies that study as the naive estimator). Both reversals are the present author's, are argued from files already in the repository, and have not been reviewed. They should be treated as contested until they are.
 
-Fenge and Scheubel (2017). Pensions and fertility: back to the roots.
+**Numbers sourced from abstracts rather than full text.** None. All effect rows carry a page-and-table locator in `extraction/…-effects.csv`. The Zelu et al. figures quoted in the previous draft came from a working-paper draft; they have been removed from this one rather than marked, because the study has no extraction row.
 
-Galofre-Vila (2023). The US baby boom and the 1935 Social Security Act.
+**Figures not derived from project data.** The ~3-birth FDT and ~1.5-birth SDT declines used in §8 are conventional values, not computed here; the UN TFR panel is not reachable from this repository. Every verdict in §8 is therefore stated as a break-even — the largest phenomenon for which a given magnitude still clears a band — so that a reader with the panel can substitute the real denominator without redoing the analysis.
 
-Guinnane and Streb (2021). The introduction of Bismarck's social security system and its effects on marriage and fertility in Prussia.
+**Generated inputs.** All quantitative claims in §§7–8 come from `source/analysis/oas_synthesis_diagnostics.py`, which reproduces both published pooled estimates exactly as an arithmetic self-check, and writes:
 
-Han, Tao, Wang, and Zhang (2025). The impact of long-term care insurance on family fertility behaviour: evidence from China.
+- `output/tables/old-age-security-pension-crowdout-pool-weight-concentration.csv`
+- `output/tables/old-age-security-pension-crowdout-pool-exclusion-sensitivity.csv`
+- `output/tables/old-age-security-pension-crowdout-slope-denominator-check.csv`
+- `output/tables/old-age-security-pension-crowdout-units-check.csv`
+- `output/tables/old-age-security-pension-crowdout-synthesis-diagnostics.json`
 
-Ilciukas (2023). Fertility and parental retirement.
-
-Neher (1971). Peasants, procreation, and pensions.
-
-Nishimura and Zhang (1992). Pay-as-you-go public pensions with endogenous fertility.
-
-Nugent (1985). The old-age security motive for fertility.
-
-Rossi and Godard (2022). The old-age security motive for fertility: evidence from the extension of social pensions in Namibia.
-
-Shen, Zheng, and Yang (2020). The fertility effects of public pension: evidence from the new rural pension scheme in China.
-
-Sinn (2004). The pay-as-you-go pension system as fertility insurance and an enforcement device.
-
-Wigger (1999). Pay-as-you-go financed public pensions in a model of endogenous growth and fertility.
-
-Willis (1980). The old age security hypothesis and population growth.
-
-Zelu, Iranzo, and Pérez-Laborda (2023). Pension policy reform and fertility: micro evidence from Ghana. Working paper.
+Upstream pipeline, extraction tables and search logs are unchanged and are listed in the previous draft's reproducibility appendix, retained at `output/chapters/old-age-security-pension-crowdout-pi-review v4.md`.

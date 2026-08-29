@@ -1,0 +1,5 @@
+mechanism_magnitude_label,mechanism_births_per_woman,dose_assumption,source,max_phenomenon_births_to_reach_NEGLIGIBLE,max_phenomenon_births_to_reach_MINOR,max_phenomenon_births_to_reach_SUBSTANTIAL,max_phenomenon_births_to_reach_DOMINANT
+Cell A pooled completed-fertility summary,0.067672,"the pooled contrast itself, which mixes a pension expansion, a pension cut and a participation IV and therefore has no single dose",outcome-specific-pooled-estimates.csv,,1.353,0.338,0.135
+"Largest per-person Cell A estimate (Shen, rural China NRPS)",0.169,every woman in the population moved from no pension to NRPS participation -- the most generous dose the evidence permits,effects.csv shen_zheng_yang_2020_china_nrps_e01,,3.38,0.845,0.338
+Cell C Netherlands reduced-form (Ilciukas),0.056,the 2006 Dutch pension reform as assigned,cell-c-slope-sufficiency.csv ilciukas_e01,,1.12,0.28,0.112
+Cell C Australia grandmother eligibility (Akyol and Atalay),0.067,maternal grandmother age-pension eligibility,cell-c-slope-sufficiency.csv akyol_atalay_e02,,1.34,0.335,0.134

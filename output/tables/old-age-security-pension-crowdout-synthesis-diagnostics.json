@@ -1,0 +1,104 @@
+{
+  "pool_weight_concentration": {
+    "cell_a__birth_probability__probability_of_birth": {
+      "n_studies_reported": 5,
+      "n_studies_with_usable_weight": 5,
+      "pooled_effect_reported": -0.006954,
+      "pooled_effect_recomputed": -0.00695441,
+      "reproduces_reported_pool": true,
+      "top_two_weight_share_pct": 96.79,
+      "top_two_studies": [
+        "billari_galasso_2009_italy_pension_reforms",
+        "danzer_zyska_2023_brazil_pensions"
+      ],
+      "least_weighted_study": "shen_zheng_yang_2020_china_nrps",
+      "least_weighted_share_pct": 0.21,
+      "distinct_treatment_scales": "5"
+    },
+    "cell_a__completed_fertility__births_per_woman": {
+      "n_studies_reported": 3,
+      "n_studies_with_usable_weight": 3,
+      "pooled_effect_reported": -0.067672,
+      "pooled_effect_recomputed": -0.0676722,
+      "reproduces_reported_pool": true,
+      "top_two_weight_share_pct": 99.97,
+      "top_two_studies": [
+        "billari_galasso_2009_italy_pension_reforms",
+        "shen_zheng_yang_2020_china_nrps"
+      ],
+      "least_weighted_study": "rossi_godard_2022_namibia_pensions",
+      "least_weighted_share_pct": 0.03,
+      "distinct_treatment_scales": "3"
+    }
+  },
+  "units_check": [
+    {
+      "mechanism_magnitude_label": "Cell A pooled completed-fertility summary",
+      "mechanism_births_per_woman": 0.067672,
+      "dose_assumption": "the pooled contrast itself, which mixes a pension expansion, a pension cut and a participation IV and therefore has no single dose",
+      "source": "outcome-specific-pooled-estimates.csv",
+      "max_phenomenon_births_to_reach_NEGLIGIBLE": null,
+      "max_phenomenon_births_to_reach_MINOR": 1.353,
+      "max_phenomenon_births_to_reach_SUBSTANTIAL": 0.338,
+      "max_phenomenon_births_to_reach_DOMINANT": 0.135
+    },
+    {
+      "mechanism_magnitude_label": "Largest per-person Cell A estimate (Shen, rural China NRPS)",
+      "mechanism_births_per_woman": 0.169,
+      "dose_assumption": "every woman in the population moved from no pension to NRPS participation -- the most generous dose the evidence permits",
+      "source": "effects.csv shen_zheng_yang_2020_china_nrps_e01",
+      "max_phenomenon_births_to_reach_NEGLIGIBLE": null,
+      "max_phenomenon_births_to_reach_MINOR": 3.38,
+      "max_phenomenon_births_to_reach_SUBSTANTIAL": 0.845,
+      "max_phenomenon_births_to_reach_DOMINANT": 0.338
+    },
+    {
+      "mechanism_magnitude_label": "Cell C Netherlands reduced-form (Ilciukas)",
+      "mechanism_births_per_woman": 0.056,
+      "dose_assumption": "the 2006 Dutch pension reform as assigned",
+      "source": "cell-c-slope-sufficiency.csv ilciukas_e01",
+      "max_phenomenon_births_to_reach_NEGLIGIBLE": null,
+      "max_phenomenon_births_to_reach_MINOR": 1.12,
+      "max_phenomenon_births_to_reach_SUBSTANTIAL": 0.28,
+      "max_phenomenon_births_to_reach_DOMINANT": 0.112
+    },
+    {
+      "mechanism_magnitude_label": "Cell C Australia grandmother eligibility (Akyol and Atalay)",
+      "mechanism_births_per_woman": 0.067,
+      "dose_assumption": "maternal grandmother age-pension eligibility",
+      "source": "cell-c-slope-sufficiency.csv akyol_atalay_e02",
+      "max_phenomenon_births_to_reach_NEGLIGIBLE": null,
+      "max_phenomenon_births_to_reach_MINOR": 1.34,
+      "max_phenomenon_births_to_reach_SUBSTANTIAL": 0.335,
+      "max_phenomenon_births_to_reach_DOMINANT": 0.134
+    }
+  ],
+  "slope_denominator_check": {
+    "n_rows": 8,
+    "n_with_computed_share": 6,
+    "n_shares_above_100pct": 2,
+    "n_unit_mismatched": 3,
+    "largest_denominator_used": 0.1005,
+    "denominator_is_the_phenomenon": false,
+    "note": "Every denominator is an in-window TFR change of about 0.1 births. The SDT decline the chapter must explain is roughly an order of magnitude larger, so every reported share is inflated by roughly that factor. Recomputing requires the UN TFR panel referenced by oas_transition_classification.py, which is not reachable from this repository."
+  },
+  "exclusion_sensitivity": {
+    "n_candidates": 1,
+    "n_that_flip_the_pooled_sign": 1,
+    "rows": [
+      {
+        "pooled_group": "cell_a__completed_fertility__births_per_woman",
+        "harmonized_outcome_unit": "births_per_woman",
+        "excluded_effect_id": "galofre_vila_2023_us_baby_boom_e02",
+        "excluded_study_id": "galofre_vila_2023_us_baby_boom",
+        "exclusion_reason": "not_oriented_broader_social_spending_mechanism",
+        "excluded_effect_as_reported": 0.098,
+        "excluded_se": 0.016,
+        "weight_share_if_included_pct": 73.97,
+        "pooled_effect_as_published": -0.067672,
+        "pooled_effect_if_included": 0.05487439,
+        "sign_flips": true
+      }
+    ]
+  }
+}

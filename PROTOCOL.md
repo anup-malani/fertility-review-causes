@@ -65,6 +65,43 @@ For each hypothesis × phenomenon pair, compute:
 - **Slope sufficiency** — given the literature's best estimate of the causal effect size (d fertility / d X), and the observed range of X over the target period, can the effect plausibly produce the observed range of TFR? Sufficient / partial / insufficient.
 - **R² benchmarks** — within-country time-series R² and cross-country within-period R² of TFR on X (alone and conditional on standard controls).
 
+#### 4.2.1 The denominator (binding)
+
+Every share reported under §4.2 divides a numerator by a denominator, and the denominator is fixed by
+this protocol rather than chosen per chapter. Four rules, in order of how often they are broken:
+
+1. **The denominator is a *change*, never a *level*.** The question is what fraction of the observed
+   *decline* a mechanism accounts for. A mechanism reducing the birth rate by 4.5% of its level accounts
+   for a considerably larger fraction of a decline that is itself a fraction of that level. Reporting a
+   share of the level in a demographic-significance table is a category error.
+
+2. **The denominator is the target phenomenon's change over its *full definitional window*, not the
+   study's observation window.** The windows are:
+
+   | Phenomenon | Denominator |
+   |---|---|
+   | **PM** | the observed *range* of completed fertility across pre-modern populations (a range, not a change — PM is a variation phenomenon) |
+   | **FDT** | the fall in completed fertility across the transition, roughly 1870–1965 |
+   | **SDT** | the fall in completed fertility from roughly 1965 to the present |
+
+   A study-window denominator answers "how large is this effect relative to a few years of local drift",
+   which is not the review's question and is usually an order of magnitude too small.
+
+3. **Numerator and denominator must share units** — both in births per woman, or both as proportional
+   changes in the same measure. A probability-of-birth effect divided by a change in the total fertility
+   rate is not a share of anything.
+
+4. **State all four of numerator, denominator, denominator source, and window, at the point the share is
+   given.** A share whose denominator is not named is not reportable.
+
+**Diagnostic.** A share above 100% is not a large effect; it is a denominator that is not the
+phenomenon. Treat any share above 1 as a failed calculation rather than a finding.
+
+**When only a study-window share is available** — which is common, because study decompositions are
+computed against their own windows — report it, label it explicitly as a share of the study window, and
+**do not use it to assign a verdict band**. Convert to the §4.2.1 denominator, or record the cell as
+NOT ASSESSED.
+
 A hypothesis is **demographically significant** for a phenomenon if its decomposition share ≥ 10% **or** its slope-sufficiency is "sufficient" **or** its conditional R² ≥ 0.15. The 10% / 0.15 thresholds are conventional; thresholds will be pre-registered on OSF and reported alongside results so readers can apply their own.
 
 ### 4.3 Verdict structure (per hypothesis)

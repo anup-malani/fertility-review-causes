@@ -1,0 +1,25 @@
+{
+  "n_wealth_estimates": 3,
+  "n_cost_estimates": 2,
+  "n_pairs": 6,
+  "breakeven_owner_share_pct": {
+    "min": 32.4,
+    "max": 82.0,
+    "spread_pp": 49.6
+  },
+  "two_group_identity_prediction_for_urban_china": {
+    "ownership_share_used": 0.9,
+    "net_elasticity_by_pair": [
+      0.6918,
+      0.6487,
+      0.1653,
+      0.1222,
+      0.123,
+      0.0799
+    ],
+    "all_positive": true,
+    "observed_sign_in_china_studies": "negative",
+    "verdict": "The two-group identity predicts a POSITIVE net elasticity for urban China under every extracted pair, and the Chinese estimates are negative. The identity is not wrong; the weights are. Conventional homeownership statistics count prospective buyers as owners, and for them a price rise is pure cost."
+  },
+  "note": "Ownership shares are conventional reference figures, not computed from project data; data/raw/ holds no macro panel. They are used only to read the break-evens against, and the chapter marks them."
+}
