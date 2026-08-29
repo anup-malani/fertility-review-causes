@@ -449,9 +449,9 @@ independent households at marriage.
 
 ### 8.2 The first demographic transition
 
-**For the first demographic transition, the verdict is NOT IDENTIFIED, because the only study
-reaching the period estimates two co-residence coefficients with opposite directions and attributes
-its own headline finding to a different exposure.**
+**For the first demographic transition, the verdict is NOT ASSESSED, because the cell is in scope and
+holds one uncorrected cross-section whose two co-residence coefficients point in opposite directions
+and whose headline finding is attributed to a different exposure — so no share exists to compute.**
 
 Hacker and colleagues cover 1900 to 1910 with 3.1 million linked couples, which is by far the largest
 sample in the chapter. It is also an uncorrected cross-section, its two co-residence coefficients
@@ -461,8 +461,11 @@ transition.
 
 ### 8.3 The second demographic transition
 
-**For the second demographic transition, the verdict is NEGLIGIBLE and wrong-signed for the
-configuration that has an estimate, and NOT IDENTIFIED for the configuration the hypothesis names.**
+**For the second demographic transition, the verdict is NOT ASSESSED, because the configuration the
+hypothesis names has no estimate of completed fertility to convert into a share.**
+
+The band vocabulary has no value for what the *other* configuration shows, and the arithmetic is worth
+running anyway because its direction is the finding.
 
 The share of Americans aged 25 to 29 living in a multigenerational household rose from 13% in 1980
 to about 32% in 2019, a rise of 19 percentage points. Applying the only estimate of completed
