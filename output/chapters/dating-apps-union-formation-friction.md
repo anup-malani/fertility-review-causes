@@ -25,19 +25,23 @@ rather than estimates.
 
 This chapter explores the effect of dating apps on the number of children people have.
 
-In plain terms: a new job board appears, and suddenly every job-seeker can see ten thousand postings
-instead of thirty. Does employment go up or down? Two forces pull against each other. Search costs
-fall, so more people find work. But the reservation wage rises — when ten thousand postings are
-visible, the offer in hand looks worse by comparison, and it becomes rational to keep looking. Which
-force wins is an empirical question, not a theoretical one, and the answer decides whether the board
-raised employment or merely made everyone pickier while employment fell.
+In plain terms: before the apps, a person looking for a partner might meet a few dozen plausible
+candidates in a lifetime — through work, friends, a neighbourhood, a church. Now they can see
+thousands, and a new one whenever they like.
 
-Dating apps are that job board, the job is a committed partnership, and the claim under examination is
-that the second force wins. This analogy is carried through the whole chapter, and it also supplies
-the chapter's central methodological problem, which is easier to see in the job-board version: if you
-want to know whether the board raised employment, it is no use surveying only people who found jobs
-through it. Everyone whose search failed is invisible in that sample. Almost the entire literature on
-online dating is a survey of people who found jobs.
+That could cut either way, and the two directions are the whole argument. Being able to meet far more
+people should mean more couples form, because the search is easier. But it could also mean fewer,
+because when thousands of alternatives are visible, the person in front of you looks less like the
+best available option and it starts to make sense to keep looking. **The claim in this chapter is that
+the second effect wins** — that the apps have made people harder to settle down with, so fewer stable
+couples form and fewer children are born.
+
+There is a problem with almost all the evidence, and it is worth seeing before any of it is described.
+Most studies of online dating survey people who are *in couples* and ask how they met. But the claim
+is about people who never got to a couple at all. Someone who spent three years on the apps, had many
+matches and many dates, and formed no lasting relationship, does not appear in a survey of couples.
+**They are exactly the person the claim is about, and they are exactly the person the evidence cannot
+see.**
 
 ### 1.2 The claim precisely
 
@@ -124,7 +128,7 @@ mention dating apps in a title or abstract. Measured on this chapter's own citat
 records reachable from a technology-diffusion source, 7.6% carry a partnership or fertility outcome
 with no app vocabulary at all, against 2.5% carrying app vocabulary. A screen built on the exposure
 the registry names cannot see the studies that identify it. The search therefore reached those records
-through their citation provenance rather than through their words, and §5 shows why that mattered.
+through their citation provenance rather than through their words, and §6 shows why that mattered.
 
 ---
 
@@ -159,7 +163,52 @@ on partnership or fertility is among the 78% not obtained.
 
 ---
 
-## 5. Included studies
+## 5. The ideal design
+
+Written before the literature was read, so §6 can be compared against a fixed yardstick rather than against the best paper that happens to exist.
+
+### 5.1 The ideal estimand
+
+The change in the probability that a **searching** person forms a stable co-residential partnership within a defined window, caused by the availability of app-mediated partner search — estimated on **everyone who was searching**, not on everyone who ended up partnered.
+
+The population clause is the entire specification, and it is what the literature fails almost universally. **The registry's claim is about the rate at which searches convert.** A design that samples on conversion having occurred cannot estimate a conversion rate, whatever it finds about the partnerships that resulted. **The sampling frame must be defined by search, not by outcome.**
+
+The exposure clause matters almost as much. The treatment is **app availability**, a population-level condition — not "met online", which is an individual's realised channel and is a *consequence* of the search process rather than a treatment applied to it.
+
+### 5.2 The design that would identify it
+
+**Source of variation.** Population-level, staggered exposure to app availability: **differential timing of platform entry** across countries or markets, or **differential smartphone or broadband penetration** interacted with the platform-entry date. The unit of treatment is the market, not the person.
+
+**Comparison group.** Comparable markets not yet exposed, or the same market before entry, with the searching population defined **before** exposure.
+
+**Identifying assumption.** Platform entry timing is unrelated to local partnership trends. Falsifiable: pre-trends in partnership formation by market; a placebo on cohorts past the age of partner search; and a check that broadband penetration is not itself proxying for local economic conditions — which is where this chapter's exposure meets **C.2.h's**, and why PI Call 2 exists.
+
+**Estimating equation.** Partnership-formation hazard among the age-eligible unpartnered population, on market-level app availability, with the searching denominator observed. The **fertility** step is imported from A.7 with its uncertainty stated, per PI Call 1 — this chapter grades link 2 and does not compose all three.
+
+**Data required.** A panel of the unpartnered — which is the hard part. Population registers give partnership formation; what they do not give is who was searching. A survey panel that follows single people prospectively, regardless of whether they ever partner, is the missing instrument.
+
+**Sample size.** Ordinary, if the frame is right. **The binding constraint here is the sampling frame, not the sample size**, and no amount of additional data on couples relieves it.
+
+**What the ideal design excludes.** Every venue-comparison design — comparing couples who met online with couples who met offline. It is **silent on the registry's claim by construction**, and it is most of the literature. Also excluded: platform-log studies, which observe behaviour within the app and cannot see whether a partnership formed outside it.
+
+### 5.3 Distance from the ideal
+
+| Design family | Population is searchers, not couples? | Exposure is availability, not "met online"? | Outcome is partnership formation? | Distance |
+|---|---|---|---|---|
+| Population-level app-availability designs | **Yes** | **Yes** | Yes | **The ideal — and the cell is empty** |
+| Venue-comparison studies (met-online vs met-offline) | **No — conditions on the outcome** | No | Partly | **Silent by construction; most of the literature** |
+| Platform-log and laboratory studies | Yes | Partly | **No — behaviour within the app** | Measures link 1 only |
+| Broadband-penetration designs | Yes | Partly | Yes | **Closest identified variation — and it is C.2.h's** |
+
+**No study implements the ideal design, and the reason is a sampling frame rather than a shortage of studies.** The literature on online dating is large and much of it is careful. Almost all of it samples couples and asks how they met, which answers a different question from the registered one.
+
+**The one design family with credible identified variation belongs to another chapter.** Broadband and smartphone penetration supply exogenous, staggered, population-level exposure — and under the boundary ruling that variation is **C.2.h's**, because what it identifies is the effect of internet access rather than of app-mediated search specifically. This chapter cannot claim it without claiming C.2.h's estimand.
+
+**So the empty cell here is not "nobody has looked".** It is that the designs that could answer the question either sample on the outcome, or identify a neighbouring treatment.
+
+---
+
+## 6. Included studies
 
 | Study | Setting | Exposure measured | Outcome | Design |
 |---|---|---|---|---|
@@ -171,7 +220,7 @@ on partnership or fertility is among the 78% not obtained.
 | Three Chinese survey studies (2022–2026) | China | online content exposure and online social capital | fertility intentions | cross-sectional |
 | Online matchmaking study (2009) | United States | introduction by a matchmaking service | marital adjustment | two convenience samples |
 
-### 5.1 The naive estimator, and the reason it cannot answer the question
+### 6.1 The naive estimator, and the reason it cannot answer the question
 
 Every literature has a comparison an author would reach for without thinking hard. In this one it is
 **people who met their partner online against people who met their partner offline**, and it appears in
@@ -180,8 +229,8 @@ papers in the area.
 
 That comparison conditions on the outcome. To be in either group, a person must have a partner. The
 people whose app use produced matches, conversations, dates and no partnership are in neither group;
-they are not in the sample at all. Return to the job board: this is measuring whether the board works
-by surveying only people who are employed.
+they are not in the sample at all. **The design asks how successful searches succeeded, and the claim
+is about how often searches succeed.**
 
 The direction of the resulting bias is not "one way or the other" — it is that the comparison is
 **silent on the registry's claim by construction**. The claim concerns the rate at which searches
@@ -205,9 +254,9 @@ value for a quantity only one group of them measures.
 
 ---
 
-## 6. Synthesis
+## 7. Quantitative synthesis
 
-### 6.1 The answer in plain terms
+### 7.1 The answer in plain terms
 
 Nobody has estimated the effect of dating apps on the number of children people have. One study comes
 close, and what it finds is the opposite of the hypothesis: among Germans who met their partners
@@ -230,7 +279,7 @@ pickier and more prone to reject, and one survey finding that exposure to negati
 about parenthood predicts substantially lower intentions to have children. The mechanism is real. What
 has not been shown is that it reaches births.
 
-### 6.2 The estimate
+### 7.2 The estimate
 
 There is no pooled estimate, and constructing one would misrepresent the evidence. No two extracted
 studies share an exposure construct, an outcome, or an estimator. What follows is the estimate for each
@@ -270,7 +319,7 @@ negative content strongly predictive (β = −0.749) and positive content weakly
 cross-sectional sample of 314 students who reported both their reading and their intentions at the same
 moment.
 
-### 6.3 Quality of the evidence
+### 7.3 Quality of the evidence
 
 Of thirteen extracted studies, **seven carry critical risk of bias and five serious. None is rated low
 or moderate.** Two features of that assessment are specific to this chapter and are reported as their
@@ -287,7 +336,7 @@ evidence can be individually sound and collectively off-target.
 
 ---
 
-## 7. Demographic significance
+## 8. Demographic significance
 
 **The phenomenon to be explained is measured in whole children per woman; this mechanism offers a
 change in the probability of forming a partnership, which reaches children only through an elasticity
@@ -300,16 +349,23 @@ partnership attributable to app mediation, and the elasticity of births with res
 **No term in that product is estimated anywhere in the readable evidence.** What follows therefore
 bounds the mechanism rather than measuring it.
 
-### 7.1 Pre-modern variation
+**The denominator, per `PROTOCOL.md` §4.2.1.** Any future share is computed against the *fall* in
+completed fertility across the SDT — roughly one and a half births per woman, a conventional magnitude
+not computed here — and not against the fertility level, and not against the change over the years
+since the apps appeared. **The last of those is the live hazard for this chapter**: the apps are a
+late-arriving exposure, so a share taken against the post-2012 change would use a much smaller
+denominator and flatter the mechanism, in exactly the way B.7's timing wall describes.
+
+### 8.1 Pre-modern variation
 
 For pre-modern fertility variation, the verdict is **NOT ASSESSED**, because the registry restricts
 this hypothesis to the Second Demographic Transition and the technology did not exist.
 
-### 7.2 First Demographic Transition
+### 8.2 First Demographic Transition
 
 For the First Demographic Transition, the verdict is **NOT ASSESSED**, for the same reason.
 
-### 7.3 Second Demographic Transition
+### 8.3 Second Demographic Transition
 
 For the Second Demographic Transition, the verdict is **NOT ASSESSED — insufficient evidence**, because
 the parameter required to compute a contribution has not been estimated by any study this chapter could
@@ -334,7 +390,7 @@ technology unusually fast, uses dating applications at a comparatively low rate.
 app diffusion drives fertility decline has to explain why the country with the most extreme decline is
 not among the heaviest users.
 
-### 7.4 Is the mechanism itself caused by the phenomenon?
+### 8.4 Is the mechanism itself caused by the phenomenon?
 
 Partly, and it matters. People adopt dating applications because partnership formation has already
 become harder and later — because the age at first marriage has risen, because more young adults live
@@ -346,7 +402,7 @@ level.
 
 ---
 
-## 8. GRADE
+## 9. GRADE rating
 
 **GRADE** (Grading of Recommendations, Assessment, Development and Evaluations) is the standard scheme for rating how much confidence a body of evidence supports. It starts from the designs available and moves down one level for each named defect.
 
@@ -364,7 +420,7 @@ the first is supported here.
 
 ---
 
-## 9. Verdict
+## 10. Verdict
 
 **No study has estimated the effect of dating apps on fertility.** The single study that reports both
 an app-mediated exposure and a birth outcome — a German panel of 8,177 people followed from 2009 to
@@ -401,7 +457,7 @@ reverse the direction reported here for the technology-diffusion evidence.
 
 ---
 
-## 10. Open questions
+## 11. Open questions
 
 **Retrieval.** The chapter's first priority is the fifteen records in the top procurement band, four of
 which are named in the verdict. The chapter cannot be finalised on 22% coverage; the finding about the
@@ -427,7 +483,7 @@ should decide whether that is a distinct verdict or a variant of the fifth.
 
 ---
 
-## 11. References
+## 12. References
 
 Full bibliographic detail is in `extraction/dating-apps-union-formation-friction-studies.csv`, which
 carries the digital object identifier, design, and risk-of-bias rating for every study named here.
@@ -442,16 +498,16 @@ carries the digital object identifier, design, and risk-of-bias rating for every
 structural argument that meeting-venue comparisons cannot answer the registry's question, and the
 timing bound; the findings that might not are the direction of the technology-diffusion evidence and
 the count of estimates pointing each way, both of which rest on thirteen studies and could be reversed
-by the four unread quasi-experimental estimates named in §9.**
+by the four unread quasi-experimental estimates named in §10.**
 
-Every number in §6 comes from a full text read for this chapter, with two exceptions. The fertility
-series used for the timing bound in §7.3 is taken from published national statistics and has not been
-recomputed from source data held in this repository. And two Chinese survey studies contribute to §6.3
+Every number in §7 comes from a full text read for this chapter, with two exceptions. The fertility
+series used for the timing bound in §8.3 is taken from published national statistics and has not been
+recomputed from source data held in this repository. And two Chinese survey studies contribute to §7.3
 at study level only; their coefficient tables were not extracted, and they are on the residual list.
 
 The chapter's central claim about reverse causality rests on a working paper. The version of record,
 published in the *Journal of Family Studies*, is in the top procurement band and has not been read; if
-its results differ from the working paper's, §6.2 and §9 change.
+its results differ from the working paper's, §7.2 and §10 change.
 
 No RA has yet checked the full-text screen. A blank spot-check sheet covering four of the thirteen
 extracted studies, including the study the chapter turns on, has been issued with the pipeline's own
