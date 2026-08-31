@@ -183,3 +183,24 @@ more work than any single study.
 
 Next: batches 4–43 (stratum B).
 
+**2026-08-31 (Shravan) — screen batches 4–7 plus positional depth probes; yield curve complete.**
+
+Full yield curve across strata: **A 53.0%** (317 screened, 168 relevant, complete) · **B head 9.1%** ·
+**B depth 3.3%** (probes at batches 14/24/34/43) · **C tail 0.7%**.
+
+The depth probes are the point: batches 14–43 are almost entirely non-human evolutionary biology,
+plant and livestock breeding, and the **cardiorespiratory-fitness homonym**. `fitness` took anchor
+recall from 64% to 84% and also filled the tail with exercise physiology — the right trade, since
+recall is unrecoverable and precision is not, but this is what it cost.
+
+Stratum B holds an estimated 80–100 relevant records in ~1,880 unscreened, mostly METHOD/THEORY/
+LINK_TRAIT. Not empty — batch 24 held *GWAS of Parity in Bangladeshi Women*, a real `H2_FERTILITY`
+record — so it is bounded, not discarded.
+
+**Recommendation: snowball round 2 from stratum A's 168 relevant records before screening the rest of
+stratum B.** The citation channel out-yields the boolean channel 16x at the head and 53x in the tail;
+many of the 168 were never seeds.
+
+Metadata caution: `B34-10` carries an OpenAlex abstract about building climate-control systems
+attached to a real fecundity-heritability paper. Extraction must read the record, not the index.
+

@@ -73,7 +73,44 @@ than any single study does.
 `decomposes` among RELEVANT: **yes 80, cannot_tell 8, no 0** — Wall 1 is rejecting at the screen, as
 designed.
 
-## Not yet done
+## The yield curve across all three strata, measured
 
-Batches 4–43 (stratum B, the boolean relevance head) remain. Stratum C is not batched and is bounded
-at ≈213 relevant records (95% CI 37–1,176) by §17.
+Batches 1–7 were screened in full (385 records) and the first 28 records of batches 14, 24, 34 and 43
+were screened as a **positional probe** of stratum B at increasing depth in the relevance ordering.
+
+| stratum / position | screened | relevant | yield |
+|---|---|---|---|
+| **A — citation intersect** | 317 | 168 | **53.0%** |
+| B — head (first pure-B batch) | 55 | 5 | 9.1% |
+| B — depth probes (batches 14/24/34/43) | 91 | 3 | 3.3% |
+| C — boolean-only tail (§17 blinded sample) | 136 | 1 | 0.7% |
+
+The depth probes are what the sequential order would have hidden. Batches 14 through 43 are almost
+entirely non-human evolutionary biology, plant and livestock breeding, microbiology, and the
+**cardiorespiratory-fitness homonym** that `fitness` bought us in §15 — the term that took anchor
+recall from 64% to 84% is also the term that fills the tail with exercise physiology. That trade was
+made knowingly and it is still the right trade, because recall is unrecoverable downstream and
+precision is not; but this is what the precision cost looks like.
+
+**Stratum B holds an estimated 80–100 relevant records** across its ~1,880 unscreened, and the probe
+shows most are `METHOD`/`THEORY`/`LINK_TRAIT` rather than primary-cell. It is not empty — batch 24
+contained *Genome-Wide Association Study of Parity in Bangladeshi Women*, a genuine `H2_FERTILITY`
+record — so it cannot simply be discarded.
+
+## Recommendation: snowball round 2 before screening the rest of stratum B
+
+The citation channel out-yields the boolean channel **16-fold at the head and 53-fold in the tail**
+(53.0% vs 3.3%). Stratum A's 168 relevant records include many that were never seeds. Snowballing
+*those* is very likely to recover stratum B's relevant records at a small fraction of the cost of
+reading 1,880 more abstracts — and it exploits the one thing this chapter has measured repeatedly,
+which is that provenance beats vocabulary here.
+
+Screening the remainder of stratum B stays available and is bounded, not abandoned.
+
+## One metadata caution for extraction
+
+`B34-10` (*Heritability of fecundity and post-partum sterility: an isolate-based study*) carries an
+abstract in OpenAlex about **building climate-control system identification** — a wrong abstract
+attached to a real record. A screen reading abstracts will mis-route such records in both directions,
+and extraction must read the record itself, not the indexed abstract. Related to the standing rule
+that a hand-retrieved PDF is matched to its record by content, not by filename.
