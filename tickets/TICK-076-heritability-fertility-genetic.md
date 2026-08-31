@@ -253,7 +253,11 @@ full-text retrieval.
 **browser job (35)** and a **proxy/ILL job (5)** — different work for different people, so the
 handoff does not conflate them.
 
-Routes: OA pdf/landing + publisher 99, **PMC BioC 49** (net of overlap), unpaywall-retry 3.
+Routes, as *net new* retrievals: OA pdf 37 · publisher 32 · OA landing 30 · **PMC BioC 6** ·
+unpaywall-retry 3. Note the PMC figure carefully: BioC **fetched 49 full texts**, but 43 were for
+studies another route had already got, so it added 6 net. Both numbers are worth keeping — the 43
+overlaps are an upgrade rather than waste, because BioC structured text extracts far more reliably
+than a publisher PDF, and extraction should prefer it where both exist.
 
 **The PMC rung was reported dead twice and was neither time empty.** First, OpenAlex populates
 `ids.pmcid` for **0 of 148** records while carrying `ids.pmid` for 102 — the rung was unreachable by

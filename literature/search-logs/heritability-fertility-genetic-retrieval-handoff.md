@@ -5,6 +5,10 @@
 
 ## By route
 
+*Net-new retrievals. `2_pmc_bioc` fetched 49 full texts but 43 were for studies another route had
+already retrieved, so it contributed 6 net. Extraction should still PREFER the BioC text where both
+exist: structured full text beats a publisher PDF.*
+
 | route | studies |
 |---|---|
 | `1_oa_pdf` | 37 |
