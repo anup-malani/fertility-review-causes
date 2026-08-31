@@ -145,3 +145,17 @@ PRISMA reports that bound rather than claiming completeness.
 Next: screen the citation-channel intersection (320) plus the boolean relevance head, and run
 snowball round 2 from whatever the screen promotes.
 
+**2026-08-31 (Shravan) — dedup correction.** Two of my own outputs disagreed (32,126 survivors as a
+list vs 31,960 as a set of ids), which surfaced duplication in the pull: **236 repeated openalex ids**
+plus **2,996 titles shared across distinct ids, 3,282 records** — one Figshare item deposited **159
+times**. `254` collapses both, with **first-author agreement required** to merge a title cluster; 393
+clusters were kept apart because it failed. An unreadable (fully non-Latin) author name folds to ""
+and would have merged every such record together, so each gets a unique sentinel: an author we cannot
+read must prevent a merge, not license one.
+
+Corrected: frame **42,050 distinct works** (not 45,568), prescreen survivors **29,394** (not 32,126),
+tail population **29,077**, tail prevalence **1/136**, unscreened estimate **213 (95% CI 37–1,176)**.
+All prescreen conclusions hold — same two rules adopted, gold 65/65 retained, title-only still
+destroys 8 gold. Raw frame dumps moved to `temp/a18/` and gitignored: the 75MB frame should never have
+been committed.
+

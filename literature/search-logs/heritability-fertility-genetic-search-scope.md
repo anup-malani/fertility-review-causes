@@ -593,18 +593,19 @@ prescreen rule is adopted unless it destroys zero gold.
 
 ### Deterministic prescreen: only two rules survive a recall check
 
-The frame was pulled whole (45,568 records, `251`) and cut on rules applied one at a time to the
-full frame and scored on **how much gold each destroys** (`252`). No rule is adopted that loses a
+The frame was pulled whole (45,568 rows, `251`), **deduplicated to 42,050 distinct works** (`254`,
+see below), and cut on rules applied one at a time to the full frame and scored on **how much gold
+each destroys** (`252`). No rule is adopted that loses a
 single gold record; a false negative here has no downstream stage that can restore it.
 
 | rule | removes | % frame | gold lost | verdict |
 |---|---|---|---|---|
-| non-human study organism | 11,390 | 25.0% | 0 | **adopt** |
-| no fertility outcome in title+abstract | 2,492 | 5.5% | 0 | **adopt** |
-| no fertility outcome **in title alone** | 28,291 | 62.1% | 8 | reject |
-| no human signal | 23,400 | 51.4% | 5 | reject |
-| non-English | 947 | 2.1% | 1 | reject |
-| non-standard type | 4,325 | 9.5% | 1 | reject |
+| non-human study organism | 10,709 | 25.5% | 0 | **adopt** |
+| no fertility outcome in title+abstract | 2,370 | 5.6% | 0 | **adopt** |
+| no fertility outcome **in title alone** | 26,054 | 62.0% | 8 | reject |
+| no human signal | 21,456 | 51.0% | 5 | reject |
+| non-English | 922 | 2.2% | 1 | reject |
+| non-standard type | 3,572 | 8.5% | 1 | reject |
 
 Three of those rejections are worth keeping in view. The **title-only** variant is the §6 claim
 measured: screening on titles would cut 62% of the frame and destroy 8 gold records, which is why
@@ -614,8 +615,27 @@ Udry 1996, Mills and Tropf 2020, Howe et al. 2022 — because methodological pap
 first run, because its vocabulary omitted `fitness`: the diagnostic vocabulary had drifted from the
 retrieval vocabulary adopted in §15. Derived from the query axis instead, it costs no gold.
 
-Survivors: **31,960**, gold retained 65/65. That is still ~590 screening batches, and no further
-deterministic rule reduces it without killing gold.
+Survivors: **29,394 of 42,050**, gold retained 65/65. That is still ~545 screening batches, and no
+further deterministic rule reduces it without killing gold.
+
+### Dedup, and why it ran before any denominator was reported
+
+The pull contained duplication of two kinds, needing different treatment (`254`). **236 rows carried
+an openalex id that had already appeared** — a cursor-paging artefact, collapsed silently. More
+seriously, **2,996 normalised titles were shared across distinct ids, 3,282 records**, the largest
+cluster being one Figshare item deposited **159 times**.
+
+The standing correction applies to the second kind: a shared title with two DOIs is usually two
+works, so a title match alone must not merge. The gate requires **first-author agreement**, and
+**393 clusters were kept apart** because it failed — "Fundamental Theorem of Natural Selection"
+appears under five different first authors and is five papers. One implementation note worth keeping:
+a fully non-Latin author name folds to the empty string, and an empty key would have put every
+unreadable-author record in one bucket and merged them. An author that cannot be read must *prevent*
+a merge, not license one, so each gets a unique sentinel.
+
+This was caught because two of my own outputs disagreed — 32,126 survivors as a list against 31,960
+as a set of ids. Every frame denominator reported before the dedup was inflated, and the 159-copy
+cluster had already put two rows into the tail-audit sample.
 
 ### Why the obvious reduction is not available
 
@@ -634,8 +654,13 @@ second is what makes the first usable:
 
 - **Screener sensitivity: 12/12 controls recovered (100%).** A prevalence estimate from a screen of
   unmeasured sensitivity is not an estimate.
-- **Tail prevalence: 1/150 = 0.7%** (Wilson 95% CI 0.1–3.7%). Implied **≈210 relevant records
-  (95% CI 37–1,164)** among the 31,640.
+- **Tail prevalence: 1/136 = 0.7%** (Wilson 95% CI 0.1–4.0%). Implied **≈213 relevant records
+  (95% CI 37–1,176)** among the 29,077 distinct boolean-only survivors. *Corrected for dedup:* the
+  sample was drawn before `254`, and 14 of its 150 draws turned out to be collapsed duplicates.
+  Uniform sampling from a population with duplicates, then keeping only each cluster's surviving
+  representative, is a uniform sample over distinct works — so the estimate is recomputed on the 136
+  rather than re-screened. The pre-dedup figure was 1/150, ≈210, CI 37–1,164: the duplication did not
+  move the headline, but it moved every denominator around it.
 
 The one relevant tail record is *Apolipoprotein E polymorphism and fertility: a study in
 pre-industrial populations* — a genuine A.18 record, candidate-gene era, and a **PM/FDT** record of
@@ -643,11 +668,11 @@ the kind Ruling 2 exists to admit.
 
 ### What this buys the chapter
 
-The boolean-only tail is 99.3% noise, but it is not empty, and ~210 records is larger than the entire
+The boolean-only tail is 99.3% noise, but it is not empty, and ~213 records is larger than the entire
 citation-channel candidate set. The chapter therefore does **not** get to claim it screened the
 literature. What it gets is better than an unmeasured stop: a stated bound. PRISMA will report that
 the screen covered the citation-channel intersection and the boolean relevance head, and that an
-estimated 210 relevant records (95% CI 37–1,164) lie in the unscreened tail, measured by a blinded
+estimated 213 relevant records (95% CI 37–1,176) lie in the unscreened tail, measured by a blinded
 sample against a screen of demonstrated 100% sensitivity on hidden controls.
 
 That sentence is the deliverable. A systematic review cannot always read everything; it can always

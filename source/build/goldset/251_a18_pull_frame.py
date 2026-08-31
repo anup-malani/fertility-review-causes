@@ -40,7 +40,10 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
 LOGS = ROOT / "literature" / "search-logs"
-OUT = LOGS / "heritability-fertility-genetic-frame.json"
+# 45k records with abstracts is ~75MB of raw API output: reproducible from this
+# script, not evidence in itself, and not something to put in git.
+TEMP = ROOT / "temp" / "a18"
+OUT = TEMP / "heritability-fertility-genetic-frame.json"
 OUT_CURVE = LOGS / "heritability-fertility-genetic-saturation-curve.json"
 API = "https://api.openalex.org/works"
 PER_PAGE = 200
@@ -93,6 +96,7 @@ def unroll(inv):
 
 
 def main():
+    TEMP.mkdir(parents=True, exist_ok=True)
     rep = json.loads((LOGS / "heritability-fertility-genetic-production-query-repaired.json").read_text())
     Q = rep["query"]
 

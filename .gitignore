@@ -56,3 +56,9 @@ source/build/goldset/*.json
 .env
 .env.*
 !.env.example
+
+# Raw OpenAlex frame dumps: large, reproducible from source/build/goldset/*_pull_frame.py,
+# and not evidence in themselves. Derived summaries in literature/search-logs/ ARE tracked.
+literature/search-logs/*-frame.json
+literature/search-logs/*-topics-cache.json
+

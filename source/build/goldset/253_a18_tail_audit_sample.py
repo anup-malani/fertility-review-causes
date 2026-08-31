@@ -33,6 +33,9 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[3]
 LOGS = ROOT / "literature" / "search-logs"
+# 45k records with abstracts is ~75MB of raw API output: reproducible from this
+# script, not evidence in itself, and not something to put in git.
+TEMP = ROOT / "temp" / "a18"
 OUT = LOGS / "heritability-fertility-genetic-tail-audit-sample.json"
 KEY = LOGS / "heritability-fertility-genetic-tail-audit-KEY.json"
 
@@ -42,7 +45,8 @@ SEED = 20260831
 
 
 def main():
-    frame = json.loads((LOGS / "heritability-fertility-genetic-frame.json").read_text())["records"]
+    TEMP.mkdir(parents=True, exist_ok=True)
+    frame = json.loads((TEMP / "heritability-fertility-genetic-frame-deduped.json").read_text())["records"]
     surv = set(json.loads((LOGS / "heritability-fertility-genetic-prescreen.json").read_text())["survivor_ids"])
     pool_ids = {r["openalex"] for r in
                 json.loads((LOGS / "heritability-fertility-genetic-snowball-pool.json").read_text())}

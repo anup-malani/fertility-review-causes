@@ -1,16 +1,16 @@
 # A.18 deterministic prescreen
 
-Frame in: **45,568**. Gold present: **65**. Survivors: **32,126**, gold retained **65/65**.
+Frame in: **42,050**. Gold present: **65**. Survivors: **29,394**, gold retained **65/65**.
 
 
 | rule | removes | % frame | gold lost | verdict |
 |---|---|---|---|---|
-| `R1_nonhuman_organism` | 11,390 | 25.0% | 0 | **ADOPT** |
-| `R2_no_fertility_outcome` | 2,492 | 5.5% | 0 | **ADOPT** |
-| `R2b_no_fertility_outcome_title_only` | 28,291 | 62.1% | 8 | **REJECT** |
-| `R3_no_human_signal` | 23,400 | 51.4% | 5 | **REJECT** |
-| `R4_non_english` | 947 | 2.1% | 1 | **REJECT** |
-| `R5_bad_type` | 4,325 | 9.5% | 1 | **REJECT** |
+| `R1_nonhuman_organism` | 10,709 | 25.5% | 0 | **ADOPT** |
+| `R2_no_fertility_outcome` | 2,370 | 5.6% | 0 | **ADOPT** |
+| `R2b_no_fertility_outcome_title_only` | 26,054 | 62.0% | 8 | **REJECT** |
+| `R3_no_human_signal` | 21,456 | 51.0% | 5 | **REJECT** |
+| `R4_non_english` | 922 | 2.2% | 1 | **REJECT** |
+| `R5_bad_type` | 3,572 | 8.5% | 1 | **REJECT** |
 
 ## Gold a rejected rule would have destroyed
 

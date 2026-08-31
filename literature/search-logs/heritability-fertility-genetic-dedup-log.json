@@ -1,0 +1,103 @@
+{
+ "ticket": "TICK-076",
+ "rows_in": 45568,
+ "duplicate_openalex_ids_collapsed": 236,
+ "after_id_dedup": 45332,
+ "title_clusters_merged": 2692,
+ "records_collapsed_by_title": 3282,
+ "title_clusters_kept_apart_author_disagreement": 393,
+ "final": 42050,
+ "biggest_merges": [
+  {
+   "kept": "W4394110073",
+   "title": "ABO phenotype protected reproduction as it is based on fucosylations.",
+   "collapsed": 158,
+   "first_author": "arend"
+  },
+  {
+   "kept": "W7169842829",
+   "title": "The Evolution of Selection",
+   "collapsed": 36,
+   "first_author": "brown"
+  },
+  {
+   "kept": "W4394492291",
+   "title": "ABO phenotype protected reproduction as it is based on specific fucosylations.",
+   "collapsed": 34,
+   "first_author": "arend"
+  },
+  {
+   "kept": "W4394291117",
+   "title": "\u201eGlycosidic exclusion\u201c not protecting the \u201eOh\u201c or Bombay Type",
+   "collapsed": 24,
+   "first_author": "arend"
+  },
+  {
+   "kept": "W4249493411",
+   "title": "On the Inside",
+   "collapsed": 11,
+   "first_author": "minorsky"
+  },
+  {
+   "kept": "W4394070819",
+   "title": "Experimental Evolution Datasets (C. elegans wildtype and mutant genotypes)",
+   "collapsed": 9,
+   "first_author": "alicea"
+  },
+  {
+   "kept": "W4205411413",
+   "title": "Obligate mutualistic cooperation limits evolvability",
+   "collapsed": 8,
+   "first_author": "pauli"
+  },
+  {
+   "kept": "W4412701491",
+   "title": "Refining the resolution of the yeast genotype\u2013phenotype map using single-cell RNA-sequencing",
+   "collapsed": 6,
+   "first_author": "guessan"
+  }
+ ],
+ "kept_apart_examples": [
+  {
+   "title": "Use of dizygotic to monozygotic twinning ratio as a measure of fertility",
+   "distinct_first_authors": 2,
+   "records": 2
+  },
+  {
+   "title": "Local fitness landscape of the green fluorescent protein",
+   "distinct_first_authors": 2,
+   "records": 2
+  },
+  {
+   "title": "Quantitative genetics in conservation biology",
+   "distinct_first_authors": 2,
+   "records": 2
+  },
+  {
+   "title": "Phenotypic selection and response to selection in Lobularia maritima: importance of direct and correlational components of natural selection",
+   "distinct_first_authors": 2,
+   "records": 2
+  },
+  {
+   "title": "Fundamental Theorem of Natural Selection",
+   "distinct_first_authors": 5,
+   "records": 5
+  },
+  {
+   "title": "Increased reproductive success of women after prenatal undernutrition",
+   "distinct_first_authors": 2,
+   "records": 2
+  },
+  {
+   "title": "Natural Selection Fails to Optimize Mutation Rates for Long-Term Adaptation on Rugged Fitness Landscapes",
+   "distinct_first_authors": 2,
+   "records": 3
+  },
+  {
+   "title": "Natural allelic variation underlying a major fitness trade-off in Arabidopsis thaliana",
+   "distinct_first_authors": 2,
+   "records": 2
+  }
+ ],
+ "note": "First-author agreement is required to merge a title cluster; a shared title with different first authors is two works, not one."
+}

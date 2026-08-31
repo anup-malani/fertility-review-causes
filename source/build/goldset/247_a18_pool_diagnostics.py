@@ -117,7 +117,8 @@ def main():
     ids = [r["openalex"] for r in pool]
     by_id = {r["openalex"]: r for r in pool}
 
-    cache_path = LOGS / "heritability-fertility-genetic-pool-topics-cache.json"
+    cache_path = ROOT / "temp" / "a18" / "heritability-fertility-genetic-pool-topics-cache.json"
+    cache_path.parent.mkdir(parents=True, exist_ok=True)
     cached = json.loads(cache_path.read_text()) if cache_path.exists() else {}
     missing = [i for i in ids if i not in cached]
     print(f"topics: {len(ids)-len(missing)} cached, {len(missing)} to hydrate")
