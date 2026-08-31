@@ -1,0 +1,250 @@
+{
+ "meta": {
+  "ticket": "TICK-076",
+  "round": 2,
+  "seeds": 178,
+  "seeds_hydrated": 178,
+  "seed_cells": {
+   "SELECTION_DIFFERENTIAL": 39,
+   "H2_FERTILITY": 50,
+   "THEORY": 62,
+   "H2_MODERATION": 12,
+   "LINK_TRAIT": 3,
+   "PREDICTED_RESPONSE": 4,
+   "PEDIGREE_RESPONSE": 7,
+   "WITHIN_VS_POPULATION": 1
+  },
+  "forward_cap": 100,
+  "capped_seeds": 59,
+  "raw_found_before_dedup": {
+   "backward": 10887,
+   "forward": 9125
+  },
+  "new_records_by_rung": {
+   "backward": 6341,
+   "forward": 5300
+  },
+  "reached_total": 11641,
+  "already_known_pool_or_frame": 3349,
+  "NEW": 8292,
+  "new_after_prescreen": 4659,
+  "new_dropped_nonhuman": 355,
+  "new_dropped_no_fertility_outcome": 3441,
+  "survivors_by_seed_cell": {
+   "H2_FERTILITY": 1204,
+   "H2_MODERATION": 229,
+   "PEDIGREE_RESPONSE": 259,
+   "SELECTION_DIFFERENTIAL": 1018,
+   "THEORY": 2234,
+   "LINK_TRAIT": 134,
+   "PREDICTED_RESPONSE": 90,
+   "WITHIN_VS_POPULATION": 4
+  },
+  "multi_seed_survivors": 789,
+  "errors": 0,
+  "note": "Growth is not gain: NEW counts records nobody had; survivors are those that also clear the adopted prescreen. Nothing here is screened."
+ },
+ "capped_seeds": [
+  {
+   "seed": "W2051004220",
+   "true_count": 904,
+   "taken": 100
+  },
+  {
+   "seed": "W2058971217",
+   "true_count": 513,
+   "taken": 100
+  },
+  {
+   "seed": "W2035457902",
+   "true_count": 505,
+   "taken": 100
+  },
+  {
+   "seed": "W1889422373",
+   "true_count": 441,
+   "taken": 100
+  },
+  {
+   "seed": "W1990706119",
+   "true_count": 357,
+   "taken": 100
+  },
+  {
+   "seed": "W1975305972",
+   "true_count": 339,
+   "taken": 100
+  },
+  {
+   "seed": "W2078701932",
+   "true_count": 296,
+   "taken": 100
+  },
+  {
+   "seed": "W2012959128",
+   "true_count": 236,
+   "taken": 100
+  },
+  {
+   "seed": "W2055251693",
+   "true_count": 221,
+   "taken": 100
+  },
+  {
+   "seed": "W2074486174",
+   "true_count": 215,
+   "taken": 100
+  },
+  {
+   "seed": "W1967862655",
+   "true_count": 129,
+   "taken": 100
+  },
+  {
+   "seed": "W2054229127",
+   "true_count": 126,
+   "taken": 100
+  },
+  {
+   "seed": "W2013583398",
+   "true_count": 121,
+   "taken": 100
+  },
+  {
+   "seed": "W1973490559",
+   "true_count": 119,
+   "taken": 100
+  },
+  {
+   "seed": "W2021992969",
+   "true_count": 110,
+   "taken": 100
+  },
+  {
+   "seed": "W1997318757",
+   "true_count": 271,
+   "taken": 100
+  },
+  {
+   "seed": "W170518501",
+   "true_count": 139,
+   "taken": 100
+  },
+  {
+   "seed": "W2015226734",
+   "true_count": 120,
+   "taken": 100
+  },
+  {
+   "seed": "W2062505457",
+   "true_count": 151,
+   "taken": 100
+  },
+  {
+   "seed": "W2117851139",
+   "true_count": 2084,
+   "taken": 100
+  },
+  {
+   "seed": "W2085683389",
+   "true_count": 1904,
+   "taken": 100
+  },
+  {
+   "seed": "W2092778414",
+   "true_count": 1727,
+   "taken": 100
+  },
+  {
+   "seed": "W2326499566",
+   "true_count": 767,
+   "taken": 100
+  },
+  {
+   "seed": "W2169436065",
+   "true_count": 723,
+   "taken": 100
+  },
+  {
+   "seed": "W2153359028",
+   "true_count": 688,
+   "taken": 100
+  },
+  {
+   "seed": "W2323315552",
+   "true_count": 637,
+   "taken": 100
+  },
+  {
+   "seed": "W2151290933",
+   "true_count": 439,
+   "taken": 100
+  },
+  {
+   "seed": "W2094070297",
+   "true_count": 435,
+   "taken": 100
+  },
+  {
+   "seed": "W2321589279",
+   "true_count": 435,
+   "taken": 100
+  },
+  {
+   "seed": "W2108874649",
+   "true_count": 378,
+   "taken": 100
+  },
+  {
+   "seed": "W2110374963",
+   "true_count": 347,
+   "taken": 100
+  },
+  {
+   "seed": "W2138070905",
+   "true_count": 324,
+   "taken": 100
+  },
+  {
+   "seed": "W2155946403",
+   "true_count": 260,
+   "taken": 100
+  },
+  {
+   "seed": "W2113644190",
+   "true_count": 255,
+   "taken": 100
+  },
+  {
+   "seed": "W2122068366",
+   "true_count": 241,
+   "taken": 100
+  },
+  {
+   "seed": "W2084066267",
+   "true_count": 223,
+   "taken": 100
+  },
+  {
+   "seed": "W2109418124",
+   "true_count": 220,
+   "taken": 100
+  },
+  {
+   "seed": "W2168144246",
+   "true_count": 219,
+   "taken": 100
+  },
+  {
+   "seed": "W2342100485",
+   "true_count": 188,
+   "taken": 100
+  },
+  {
+   "seed": "W2117546824",
+   "true_count": 141,
+   "taken": 100
+  }
+ ],
+ "errors": {}
+}

@@ -114,3 +114,82 @@ abstract in OpenAlex about **building climate-control system identification** �
 attached to a real record. A screen reading abstracts will mis-route such records in both directions,
 and extraction must read the record itself, not the indexed abstract. Related to the standing rule
 that a hand-retrieved PDF is matched to its record by content, not by filename.
+
+---
+
+# Snowball round 2 (2026-08-31)
+
+Seeded from the **168 screen positives** rather than the 25 typed anchors, on the measured grounds
+that the citation channel out-yields the boolean channel 16× at the head and 53× at depth. PROTOCOL
+§5.1 caps depth at two rounds; there is no round 3.
+
+| | |
+|---|---|
+| records reached | 11,641 |
+| already known (pool ∪ frame, by id) | 3,349 |
+| new by id | 8,292 |
+| surviving the adopted prescreen | 4,659 |
+| **after proper dedup (258)** | **4,399** |
+| reached only from method/theory seeds — separate stratum | 1,875 |
+| **substantive screening queue** | **2,524** |
+| reached by ≥2 screen positives | 789 |
+| API errors | 0 |
+
+**Measured yield, round-2 priority batch: 67.3% RELEVANT, of which 32.7% substantive** (the rest is
+method canon, largely already known). Against stratum B's 9.1% head and 3.3% depth, seeding from
+screen positives rather than reading more abstracts was the right call by a wide margin.
+
+## Two defects in my own round-2 script, both found by reading the output
+
+**Script 256 deduped only on openalex id.** Batch 1 contained Williams 1957 twice and Charlesworth's
+*Evolution in Age-Structured Populations* twice. 254 had already built title-cluster dedup with a
+first-author gate **for the frame**, and 256 did not reuse it: a defect fixed once and not carried
+forward. That is the same shape as the shared-resolver punctuation bug still sitting unmerged in
+TICK-074.
+
+**Version pairs were counted as new material.** A preprint carries a different openalex id from its
+published version, so the bioRxiv twins of Beauchamp 2016, of the schizophrenia MR, and of the
+*Education and Fertility Postponement* paper were all counted as new when they are the **same study,
+already screened**. 133 such pairs. A version pair is one study.
+
+Together these inflated the reported NEW by **260 records**. Corrected before any of it was reported
+as a result.
+
+## The seeding decision that was wrong, and is now measured
+
+`THEORY`/`METHOD` seeds — the estimator canon added in §12 (Lande and Arnold, Kingsolver, Schluter,
+Kruuk) — reached **2,234 records, the largest single share**. A 16-vs-16 read of what each seed class
+reached:
+
+- **method/theory-only reached:** Fisher 1941 on gene substitution, *The American Statistician*,
+  *In the Name of Eugenics*, eco-evolutionary responses to climate change, *Foundations of Social
+  Theory*. **~2 of 16 adjacent.**
+- **thin-arm-only reached:** *Evolution, Fertility and the Ageing Population*, *Maternal Risk of
+  Breeding Failure Remained Low throughout the Demographic Transition*, *From the First to the Second
+  Demographic Transition*, *Sibling Correlation in Educational Attainment: A Test of Genetic Nurture*,
+  *Early fertility decline in Austria-Hungary*. **~9 of 16.**
+
+The lesson generalises past this chapter: **snowball from records whose ESTIMAND matches the
+hypothesis, not from the estimator canon.** A methods paper is cited by every field that uses the
+method, so forward-seeding it imports those fields wholesale. The estimator canon was right to add as
+*anchors* — it supplied §10's threat 1 its formal statement — and wrong to use as *seeds*. Those 1,875
+records go to their own stratum, deprioritised and bounded, not deleted.
+
+## What round 2 bought the thin arms
+
+| seed cell | new records reached |
+|---|---|
+| `H2_FERTILITY` | 1,204 |
+| `SELECTION_DIFFERENTIAL` | 1,018 |
+| `PEDIGREE_RESPONSE` | 259 |
+| `H2_MODERATION` | 229 |
+| `PREDICTED_RESPONSE` | 90 |
+| `WITHIN_VS_POPULATION` | 4 |
+
+404 records were reached **only** from thin-arm seeds, and batch 1 already promoted five new
+`PEDIGREE_RESPONSE` records — including *Social transmission of reproductive behavior increases
+frequency of inherited disorders* (Saguenay), *Human longevity and early reproduction in
+pre-industrial Sami populations*, and *Human life histories and the demographic transition: Finland*.
+These are the historical pedigree designs Ruling 2 widened the chapter to admit, and round 1 had three
+of them.
+

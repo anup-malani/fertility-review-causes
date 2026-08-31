@@ -204,3 +204,24 @@ many of the 168 were never seeds.
 Metadata caution: `B34-10` carries an OpenAlex abstract about building climate-control systems
 attached to a real fecundity-heritability paper. Extraction must read the record, not the index.
 
+**2026-08-31 (Shravan) — snowball round 2 complete.** Seeded from the 168 screen positives. Reached
+11,641; 4,399 new after prescreen and proper dedup; **substantive queue 2,524** with 1,875
+method-only-reached records set aside. Zero API errors. **Priority-batch yield 67.3% relevant (32.7%
+substantive)** against stratum B's 9.1% — seeding from screen positives beat reading more abstracts.
+
+Two defects in my own script, both caught by reading the output. `256` deduped on openalex id only, so
+Williams 1957 and Charlesworth appeared twice — `254` had already built title-cluster dedup with a
+first-author gate for the frame and `256` did not reuse it. And **133 version pairs** (bioRxiv twins of
+Beauchamp 2016, the schizophrenia MR, the postponement paper) were counted as new when they are the
+same study already screened. Combined inflation 260 records, corrected by `258` before reporting.
+
+**A seeding decision was wrong and is now measured.** The estimator canon (Lande & Arnold, Kingsolver,
+Schluter, Kruuk) reached 2,234 records — the largest share — and a 16-vs-16 read put method-only-reached
+material at ~2/16 adjacent against ~9/16 for thin-arm-reached. Snowball from records whose ESTIMAND
+matches the hypothesis, not from the estimator canon: a methods paper is cited by every field that uses
+the method. Right to add as anchors, wrong to use as seeds.
+
+Round 2 fed the thin arms: 404 records reached only from thin-arm seeds, and batch 1 alone promoted five
+new `PEDIGREE_RESPONSE` records (Saguenay inherited disorders, pre-industrial Sami, Finland demographic
+transition) against round 1's three.
+

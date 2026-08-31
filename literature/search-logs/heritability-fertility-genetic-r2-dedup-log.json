@@ -1,0 +1,116 @@
+{
+ "ticket": "TICK-076",
+ "round": 2,
+ "in": 4659,
+ "version_pairs_of_already_known_studies": 133,
+ "title_clusters_merged": 118,
+ "records_collapsed_by_title": 127,
+ "clusters_kept_apart_author_disagreement": 73,
+ "final": 4399,
+ "inflation_of_the_reported_NEW": 260,
+ "examples_version_pairs": [
+  {
+   "openalex": "W2023095530",
+   "title": "PLEIOTROPY, NATURAL SELECTION, AND THE EVOLUTION OF SENESCENCE",
+   "type": "article",
+   "year": 1957
+  },
+  {
+   "openalex": "W4243928237",
+   "title": "NATURAL SELECTION AND QUANTITATIVE GENETICS OF LIFE-HISTORY TRAITS IN WESTERN WOMEN: A TWIN STUDY",
+   "type": "article",
+   "year": 2001
+  },
+  {
+   "openalex": "W2952093814",
+   "title": "Genetic evidence for natural selection in humans in the contemporary United States",
+   "type": "preprint",
+   "year": 2016
+  },
+  {
+   "openalex": "W4245797300",
+   "title": "Quantitative Genetic Analysis of Multivariate Evolution, Applied to Brain: Body Size Allometry",
+   "type": "article",
+   "year": 1979
+  },
+  {
+   "openalex": "W4229520201",
+   "title": "The Measurement of Selection on Correlated Characters",
+   "type": "article",
+   "year": 1983
+  },
+  {
+   "openalex": "W4235792562",
+   "title": "Is the Association Between Education and Fertility Postponement Causal? The Role of Family Background Factors",
+   "type": "preprint",
+   "year": 2017
+  },
+  {
+   "openalex": "W4299787297",
+   "title": "Evolution in Age-Structured Populations",
+   "type": "book",
+   "year": 1994
+  },
+  {
+   "openalex": "W2554198410",
+   "title": "Identifying genetic variants that affect viability in large cohorts",
+   "type": "preprint",
+   "year": 2016
+  },
+  {
+   "openalex": "W2992097690",
+   "title": "Pleiotropy, Natural Selection, and the Evolution of Senescence",
+   "type": "article",
+   "year": 1957
+  },
+  {
+   "openalex": "W2174350315",
+   "title": "Perspective: Here's to Fisher, additive genetic variance, and the fundamental theorem of natural selection.",
+   "type": "article",
+   "year": 2002
+  }
+ ],
+ "biggest_title_merges": [
+  {
+   "kept": "W4386162603",
+   "title": "Sex-biased regulatory changes in the placenta of native highlanders contribute to adaptive fetal development",
+   "collapsed": 6
+  },
+  {
+   "kept": "W4235290690",
+   "title": "Childlessness",
+   "collapsed": 2
+  },
+  {
+   "kept": "W3145055633",
+   "title": "Future Fertility in Low Fertility Countries",
+   "collapsed": 2
+  },
+  {
+   "kept": "W4236917737",
+   "title": "Demographic Transition",
+   "collapsed": 2
+  },
+  {
+   "kept": "W2306657718",
+   "title": "Church Book Registry: A Cliometric View",
+   "collapsed": 2
+  },
+  {
+   "kept": "W2165665473",
+   "title": "Explaining stasis: microevolutionary studies in natural populations",
+   "collapsed": 1
+  },
+  {
+   "kept": "W2009857485",
+   "title": "Genetics and analysis of quantitative traits",
+   "collapsed": 1
+  },
+  {
+   "kept": "W2120631206",
+   "title": "Resolving the Paradox of Stasis: Models with Stabilizing Selection Explain Evolutionary Divergence on All Timescales",
+   "collapsed": 1
+  }
+ ],
+ "note": "A version pair is one study. Both merges require first-author agreement."
+}

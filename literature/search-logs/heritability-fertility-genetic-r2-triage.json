@@ -1,0 +1,25 @@
+{
+ "meta": {
+  "ticket": "TICK-076",
+  "round": 2,
+  "new_survivors": 4399,
+  "method_theory_only_deprioritised": 1875,
+  "substantive_queue": 2524,
+  "multi_seed_substantive": 513,
+  "thin_arm_only": 387,
+  "reached_by_cell": {
+   "H2_FERTILITY": 1116,
+   "THEORY": 2099,
+   "SELECTION_DIFFERENTIAL": 948,
+   "PEDIGREE_RESPONSE": 243,
+   "H2_MODERATION": 203,
+   "PREDICTED_RESPONSE": 86,
+   "LINK_TRAIT": 130,
+   "WITHIN_VS_POPULATION": 4
+  },
+  "batches_written": 8,
+  "batch_size": 55,
+  "queue_order": "multi-seed, then thin-arm-only, then by citations",
+  "blinding": "no gold flags, no seed identities, no round labels in batches"
+ }
+}
