@@ -1,0 +1,146 @@
+{
+  "ticket": "TICK-076",
+  "verdict": {
+    "PM": "CONTINGENT \u2014 a variance cell is opened by Ruling 1 but its units question (within-population between-individual variance against a between-population range) is escalated to the PI and unresolved.",
+    "FDT": "NOT ASSESSED \u2014 S is absent from the evidence base.",
+    "SDT": "NOT ASSESSED \u2014 S is absent from the evidence base."
+  },
+  "why_not_assessed": {
+    "required_inputs": [
+      "h2 (available)",
+      "S: selection differential on a fertility-associated genetic measure (ABSENT)"
+    ],
+    "predicted_response_cell": "6 screened, 1 retrieved, and that one reclassified out as a coalescent simulation. The cell is empty.",
+    "selection_quantities_actually_extracted": [
+      {
+        "study": "Byars/Stearns, demographic transition, variance in fitness, ",
+        "estimand": "standardized_linear_selection_gradient_via_fertility_HEIGHT",
+        "estimate": "-0.0469"
+      },
+      {
+        "study": "Pettay et al., natural selection on female life-history by s",
+        "estimand": "opportunity_for_selection_I_LRS_by_wealth",
+        "estimate": "0.287|0.357|0.660"
+      }
+    ],
+    "why_they_do_not_substitute": "gradients on height and BMI and an opportunity-for-selection index are selection on phenotypes, not S on a fertility-associated genotype. Using them would answer a different question.",
+    "this_is_not_a_small_effect": "UNEVALUATED, not weak. No number is computed because the inputs are absent, not because they are near zero."
+  },
+  "h2_evidence": {
+    "n_estimates": 13,
+    "min": 0.0,
+    "max": 0.455,
+    "estimates": [
+      {
+        "study": "Within-family heritability estimates, UK Biobank",
+        "estimand": "h2_within_family",
+        "outcome": "children_ever_born",
+        "relatedness": "WITHIN_FAMILY",
+        "h2": 0.27
+      },
+      {
+        "study": "Tropf et al., mega-analysis of 31,396 across 6 countries",
+        "estimand": "h2_SNP_baseline",
+        "outcome": "children_ever_born",
+        "relatedness": "POPULATION",
+        "h2": 0.038
+      },
+      {
+        "study": "Tropf et al., mega-analysis of 31,396 across 6 countries",
+        "estimand": "h2_SNP_with_cohort_and_population_interaction",
+        "outcome": "children_ever_born",
+        "relatedness": "POPULATION",
+        "h2": 0.22
+      },
+      {
+        "study": "Isleifsson et al., parental investment and LRS, Iceland",
+        "estimand": "h2_narrow_sense_family_effect_competing",
+        "outcome": "lifetime_reproductive_success",
+        "relatedness": "WITHIN_FAMILY",
+        "h2": 0.0
+      },
+      {
+        "study": "Quebec biocultural origins of human capital (Galor & Klemp)",
+        "estimand": "h2_narrow_sense",
+        "outcome": "time_to_first_birth",
+        "relatedness": "WITHIN_FAMILY",
+        "h2": 0.04
+      },
+      {
+        "study": "Wang et al., post-reproductive lifespan and family size, Fra",
+        "estimand": "h2_narrow_sense",
+        "outcome": "children_ever_born",
+        "relatedness": "WITHIN_FAMILY",
+        "h2": 0.09
+      },
+      {
+        "study": "Day et al., determinants of reproductive onset and success",
+        "estimand": "h2_SNP",
+        "outcome": "age_at_first_birth",
+        "relatedness": "POPULATION",
+        "h2": 0.29
+      },
+      {
+        "study": "Sexual dimorphism in the genetic influence on childlessness",
+        "estimand": "h2_GREML_twin_sample",
+        "outcome": "childlessness",
+        "relatedness": "WITHIN_FAMILY",
+        "h2": 0.455
+      },
+      {
+        "study": "Tropf et al., Human fertility, molecular genetics and natura",
+        "estimand": "h2_SNP",
+        "outcome": "children_ever_born",
+        "relatedness": "POPULATION",
+        "h2": 0.1
+      },
+      {
+        "study": "Brigos-Barrios et al., genetic trade-offs in fertility and l",
+        "estimand": "h2_SNP",
+        "outcome": "reproductive_success",
+        "relatedness": "POPULATION",
+        "h2": 0.03
+      },
+      {
+        "study": "Unraveling the intergenerational transmission of fertility (",
+        "estimand": "h2_by_birth_cohort_FEMALE_sibs",
+        "outcome": "completed_fertility",
+        "relatedness": "WITHIN_FAMILY",
+        "h2": 0.39
+      },
+      {
+        "study": "Unraveling the intergenerational transmission of fertility (",
+        "estimand": "h2_by_birth_cohort_MALE_sibs",
+        "outcome": "completed_fertility",
+        "relatedness": "WITHIN_FAMILY",
+        "h2": 0.37
+      },
+      {
+        "study": "Genome-Wide Association Study of Parity in Bangladeshi Women",
+        "estimand": "h2_SNP",
+        "outcome": "children_ever_born",
+        "relatedness": "POPULATION",
+        "h2": 0.149
+      }
+    ]
+  },
+  "denominator": {
+    "status": "NOT SOURCED ON THIS BRANCH",
+    "rule": "\u00a74.2.1: the fall in completed fertility over the phenomenon's FULL definitional window, from HFD/WPP; data/raw is empty here.",
+    "consequence": "the inversion below is reported per unit of denominator, not as a share"
+  },
+  "inversion_how_large_would_S_have_to_be": {
+    "SDT": {
+      "generations": 2.0,
+      "required_S_per_unit_denominator_at_h2_max": 0.1099,
+      "required_S_per_unit_denominator_at_h2_min": null,
+      "reading": "S must exceed this multiple of the denominator (in children per woman) for the genetic response to reach a 10% share"
+    },
+    "FDT": {
+      "generations": 3.0,
+      "required_S_per_unit_denominator_at_h2_max": 0.0733,
+      "required_S_per_unit_denominator_at_h2_min": null,
+      "reading": "S must exceed this multiple of the denominator (in children per woman) for the genetic response to reach a 10% share"
+    }
+  }
+}

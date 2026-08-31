@@ -14,10 +14,10 @@
 - [~] 5. Full-text retrieval — **56/148 (37.8%) usable full text**; 92 handed off (browser-job 87 / proxy-job 5). The earlier 73% counted bot-challenge pages as retrievals
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
 - [x] 7. Extraction to `extraction/heritability-fertility-genetic.csv` — **all 56 full texts extracted, 0 pending**; 22 usable estimates. RA 10% verification outstanding
-- [ ] 8. Risk-of-bias assessment per study
+- [x] 8. Risk-of-bias — instrument built from the chapter's own §10 threats (ROBINS-I's intervention domains have no referent for a variance component); **18/22 SERIOUS, 4 MODERATE, 0 LOW**
 - [x] 9. **Narrative synthesis** — 0 of 21 strata meet the ≥3 test after stratification (`271`); no meta-analytic pool is possible
-- [ ] 10. Demographic significance against PM / FDT / SDT
-- [ ] 11. GRADE rating, 3 independent raters
+- [x] 10. Demographic significance — **PM CONTINGENT · FDT NOT ASSESSED · SDT NOT ASSESSED**; S is absent from the evidence base, so no number is computed
+- [~] 11. GRADE — single-rater ratings produced; **the 3-rater panel required by §5 step 11 has NOT been run and stays open**
 - [ ] 12. Chapter draft on the §6 template
 - [ ] 13. RA lay-readability check
 - [ ] 14. PI review and sign-off
@@ -432,4 +432,35 @@ outcome × relatedness they scatter into singletons, because a variance componen
 beta and a genetic correlation are three different quantities. **The chapter is a narrative synthesis
 with a stratified evidence table, and that is a finding about this literature** — 696 studies screened,
 148 in primary cells, and their estimates heterogeneous in kind rather than in magnitude.
+
+**2026-08-31 (Shravan) — stages 8, 10 and 11 complete. Everything before chapter writing is done.**
+
+**Risk of bias (`272`).** ROBINS-I's domains have no referent for a variance component, so the
+instrument is built from the chapter's own §10 threats. **18 of 22 estimates SERIOUS, 4 MODERATE,
+none LOW.** The binding domain is D1, gene–environment correlation: for the two-thirds of evidence
+that is an anonymous variance component this is a property of the quantity, not a flaw in the
+studies, and it cannot be designed away.
+
+**Demographic significance (`273`). PM CONTINGENT · FDT NOT ASSESSED · SDT NOT ASSESSED.**
+R = h² × S needs two inputs. h² the chapter has — 13 estimates, range **0.00–0.455**. **S is absent.**
+`PREDICTED_RESPONSE` held 6 screened studies, 1 retrieved, and that one reclassified out as a
+coalescent simulation. The three selection quantities actually extracted are gradients on height and
+BMI and an opportunity-for-selection index — selection on *phenotypes*, not S on a fertility
+genotype. **This is UNEVALUATED, not weak**, and the chapter must not round it to "small effect".
+
+What is computable is the inversion: at the largest observed h², S would have to exceed **0.11× the
+observed decline per generation** (SDT, 2 generations) for the response to reach a 10% share. At the
+Iceland authors' preferred h² = 0.00, **no value of S produces any response at all.** The §4.2.1
+denominator is deliberately left as a named parameter — `data/raw/` is empty on this branch and
+substituting an unsourced figure is precisely what rule 4 forbids.
+
+**GRADE (`274`).** Conjunct 1 (heritability) **NOT RATEABLE — non-effect estimand**; conjunct 2
+(selection response) **NO EVIDENCE — cell empty**; conjunct 3 (moderation) **LOW**. The only arm that
+takes an ordinary GRADE band is the one the registered claim does not contain.
+
+**Two requirements remain open and are not quietly satisfied.** The **three-rater panel has not been
+run** — one model arguing several positions surfaces contingencies but is not independence, and
+labelling it a panel would misrepresent the process. And **GRADE §4.1 still has no band for a
+variance decomposition**; forcing one would record *Very low: correlational only* against a competent
+literature, which is the wrong answer for the right reason.
 

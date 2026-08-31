@@ -1,0 +1,45 @@
+{
+  "ticket": "TICK-076",
+  "PANEL_REQUIREMENT_NOT_MET": {
+    "protocol": "\u00a75 step 11 \u2014 three independent agent raters, >1 level disagreement to PI",
+    "actual": "one rater (this file)",
+    "why_not_simulated": "one model arguing several positions surfaces contingencies but is not independence; labelling it a panel would misrepresent the process. The requirement stays open."
+  },
+  "GRADE_BAND_PROBLEM": {
+    "issue": "\u00a74.1's bands are identification strategies; a variance decomposition matches none of them",
+    "value_used": "NOT RATEABLE \u2014 non-effect estimand",
+    "status": "escalated to the PI, unresolved"
+  },
+  "arms": {
+    "conjunct_1_heritability": {
+      "claim": "Heritable variation accounts for a portion of between-individual differences in realized fertility.",
+      "rating": "NOT RATEABLE \u2014 non-effect estimand",
+      "why": "The estimand is a variance component. GRADE \u00a74.1's bands are identification strategies for a causal effect and none applies; the nearest available label ('Very low: correlational only') would misdescribe a competently executed literature. Escalated to the PI as a protocol amendment.",
+      "if_forced_onto_the_existing_bands": "Very low \u2014 and that would be the wrong answer for the right reason.",
+      "evidence": "13 h2 estimates, range 0.00-0.455, every one at SERIOUS or MODERATE risk of bias; 0 of 21 strata poolable."
+    },
+    "conjunct_2_selection_response": {
+      "claim": "Selection on fertility-associated genotypes produces a change in mean fertility across generations.",
+      "rating": "NO EVIDENCE \u2014 cell empty",
+      "why": "PREDICTED_RESPONSE held 6 screened studies; 1 was retrieved and reclassified out as a coalescent simulation. No S on a fertility-associated genetic measure was extracted. GRADE rates the certainty of evidence; there is none to rate.",
+      "if_forced_onto_the_existing_bands": "Not 'Very low'. Very low describes weak evidence; this is absent evidence, and the distinction is the whole point.",
+      "evidence": "0 usable estimates."
+    },
+    "conjunct_3_moderation": {
+      "claim": "The heritability of fertility varies with the degree to which fertility is under individual control.",
+      "rating": "LOW",
+      "why": "This arm HAS an effect-like estimand \u2014 a difference in h2 across regimes \u2014 so the bands apply. Multiple studies, consistent in kind: h2_SNP rising fivefold once cohort and population are modelled (Tropf), h2 rising across 1810-1860 female cohorts and falling for males in the same data, and a cohort-interaction term whose SIGN flips between two specifications in one paper (Briley). Direction is not stable; existence of moderation is better supported than its sign. No design here is quasi-experimental, so Low is the ceiling.",
+      "if_forced_onto_the_existing_bands": "Low (applied as written).",
+      "evidence": "7 estimates across 4 studies; sign-discordant within and between studies."
+    }
+  },
+  "per_phenomenon": {
+    "PM": "credibility NOT RATEABLE (h2 arm) / demsig CONTINGENT",
+    "FDT": "credibility NOT RATEABLE (h2) and NO EVIDENCE (response) / demsig NOT ASSESSED",
+    "SDT": "credibility NOT RATEABLE (h2) and NO EVIDENCE (response) / demsig NOT ASSESSED"
+  },
+  "risk_of_bias_input": {
+    "serious": 18,
+    "of": 22
+  }
+}
