@@ -18,7 +18,7 @@
 - [x] 9. **Narrative synthesis** — 0 of 21 strata meet the ≥3 test after stratification (`271`); no meta-analytic pool is possible
 - [x] 10. Demographic significance — **PM CONTINGENT · FDT NOT ASSESSED · SDT NOT ASSESSED**; S is absent from the evidence base, so no number is computed
 - [~] 11. GRADE — single-rater ratings produced; **the 3-rater panel required by §5 step 11 has NOT been run and stays open**
-- [ ] 12. Chapter draft on the §6 template
+- [x] 12. Chapter draft on the §6 template — `output/chapters/heritability-fertility-genetic.md`, ~4,750 words; S1–S7 verified in place, sections in order, S4 before arithmetic
 - [ ] 13. RA lay-readability check
 - [ ] 14. PI review and sign-off
 
@@ -463,4 +463,29 @@ run** — one model arguing several positions surfaces contingencies but is not 
 labelling it a panel would misrepresent the process. And **GRADE §4.1 still has no band for a
 variance decomposition**; forcing one would record *Very low: correlational only* against a competent
 literature, which is the wrong answer for the right reason.
+
+**2026-08-31 (Shravan) — CHAPTER DRAFTED.** `output/chapters/heritability-fertility-genetic.md`.
+
+Conforms to `docs/chapter-template.md`: S1–S7 present in their specified sections, §1–§12 in order,
+§1 and §7 plain-terms before technical, S4 ahead of all arithmetic in §8, no analogy anywhere, every
+demographic term glossed inline at first use.
+
+**The verdict is NOT ASSESSED on all three phenomena, and the chapter says twice — in §8 and again in
+§10 — that this reflects absent inputs rather than measured smallness.** R = h² × S has no S in this
+evidence base.
+
+**Carry-away number: 1.5%** — the variance in fertility explained by the polygenic scores built for it,
+the only measure corresponding to the exposure A.18 registers. 9 of 148 primary studies measure that
+exposure at all.
+
+The §6 estimator-disagreement analysis is the strongest section: the naive estimator is the parent–child
+fertility correlation, its bias is upward, Wall 1 routes it to A.19, and Ísleifsson et al. measure that
+bias **inside a single paper** — h² 0.137 → 0.00 once shared family effects compete. The chapter reports
+0.00 as the corrected estimate rather than averaging it into a pool.
+
+§10 names what the finding most likely to survive is, and it is one the registered claim does not make:
+heritability of fertility is regime-dependent, so the inherited share may be something the transition
+*produced* rather than something that produced it.
+
+Not yet done: PI review, RA 10% extraction verification, RA lay-readability check, three-rater GRADE.
 
