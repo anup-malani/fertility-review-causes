@@ -9,7 +9,7 @@
 
 ## Acceptance criteria
 - [x] 2. Search strategy and scope drafted — `literature/search-logs/heritability-fertility-genetic-search-scope.md` (2026-08-31). **FROZEN:** Rulings 1–4 resolved; 5 routed to TICK-001. Stage 3 unblocked.
-- [~] 3. Literature search and AI screening, both phases (§5.1) — pool (246), query (249), frame (251), prescreen (252), tail bound (253); screen batches 1–3 of 43 done, stratum A complete
+- [x] 3. Literature search and AI screening, both phases (§5.1) — 696 distinct studies screened; stratum A complete, stratum B bounded, snowball rounds 1–2 done (§5.1 caps depth at 2)
 - [ ] 4. RA title/abstract review
 - [ ] 5. Full-text retrieval
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
@@ -224,4 +224,28 @@ the method. Right to add as anchors, wrong to use as seeds.
 Round 2 fed the thin arms: 404 records reached only from thin-arm seeds, and batch 1 alone promoted five
 new `PEDIGREE_RESPONSE` records (Saguenay inherited disorders, pre-industrial Sami, Finland demographic
 transition) against round 1's three.
+
+**2026-08-31 (Shravan) — screening consolidated; search stage closed.**
+
+**696 distinct studies screened. 262 RELEVANT, 57 UNCERTAIN. 148 primary-cell studies**, plus 114
+method/theory/LINK records that are not included studies.
+
+`H2_FERTILITY` 66 · `SELECTION_DIFFERENTIAL` 45 · `PEDIGREE_RESPONSE` 16 · `H2_MODERATION` 13 ·
+**`PREDICTED_RESPONSE` 6** · `WITHIN_VS_POPULATION` 2. Round 2 supplied 34 of the 148.
+
+**Exposure distance is the chapter's sharpest structural finding: only 9 of 148 primary studies
+(6.1%) measure a genotype associated with fertility itself.** 36 (24.3%) measure selection on a
+correlated trait — education, psychiatric liability, cognition — and 102 (68.9%) decompose an
+anonymous variance component naming no variant. Ruling 3's conversion is load-bearing for a quarter
+of the evidence, not a footnote.
+
+Wall 1: `decomposes` yes 141 / cannot_tell 7 / **no 0**.
+
+**Synthesis expectation, recorded before extraction:** `PREDICTED_RESPONSE`, the only cell that can
+carry a demsig number under Ruling 1, has 6 studies against H2's 66. The ≥3 pooling test applies AFTER
+stratification, and 6 studies across different populations, generation lengths and genetic measures
+may not survive it. Expect a computed point estimate reported narratively, not a meta-analytic pool.
+
+Next: RA title/abstract review (stage 4) on the 57 UNCERTAIN plus a 10% sample of the 148, then
+full-text retrieval.
 

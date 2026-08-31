@@ -193,3 +193,56 @@ pre-industrial Sami populations*, and *Human life histories and the demographic 
 These are the historical pedigree designs Ruling 2 widened the chapter to admit, and round 1 had three
 of them.
 
+---
+
+# Consolidated evidence base (2026-08-31)
+
+696 distinct studies screened across round 1 (stratum A complete, stratum B head + depth probes) and
+round 2 (four priority batches). **RELEVANT 262 · UNCERTAIN 57 · NOT_RELEVANT 377.**
+
+**148 primary-cell studies.** The other 114 relevant records are method, theory or `LINK_TRAIT`: they
+inform how the chapter computes, and they are not included studies. Reporting them together would
+inflate the evidence base, which is the error the Tier-A lesson records.
+
+| primary cell | studies |
+|---|---|
+| `H2_FERTILITY` | 66 |
+| `SELECTION_DIFFERENTIAL` | 45 |
+| `PEDIGREE_RESPONSE` | 16 |
+| `H2_MODERATION` | 13 |
+| **`PREDICTED_RESPONSE`** | **6** |
+| `WITHIN_VS_POPULATION` | 2 |
+
+Round 2 supplied 34 of the 148 — 23% of the primary evidence from one snowball round, against the
+~90 relevant records the remaining 1,880 stratum-B abstracts were estimated to hold.
+
+## The two distributions the scope committed to tabling
+
+**Exposure distance (Ruling 3).** This is the chapter's sharpest structural finding.
+
+| measured exposure | studies | share |
+|---|---|---|
+| `ANONYMOUS_VARIANCE` (twin h², no variant named) | 102 | 68.9% |
+| `OTHER_CORRELATED_PGS` (education, psychiatric, cognitive) | 36 | 24.3% |
+| **`FERTILITY_PGS`** | **9** | **6.1%** |
+| `NOT_GENETIC` | 1 | 0.7% |
+
+**Nine studies of 148 measure a genotype associated with fertility itself.** Nearly a quarter measure
+selection on a *correlated* trait, and more than two-thirds decompose an anonymous variance component
+that names no variant at all. Ruling 3 required that the conversion from a correlated-trait selection
+differential to children per woman be explicit and interval-propagated; this table is why. The
+conversion is not a technical footnote — it is load-bearing for a quarter of the evidence.
+
+**Wall 1.** `decomposes`: **yes 141 · cannot_tell 7 · no 0.** The wall rejects at the screen, as
+designed, and the seven `cannot_tell` records go to the RA gate.
+
+## What this means for the synthesis, stated now
+
+`PREDICTED_RESPONSE` — the **only cell that can carry a demographic-significance number** under
+Ruling 1 — has **six studies**, against `H2_FERTILITY`'s 66. The pooling test is ≥3 extractable
+effects, but that test applies **after stratification**, not before, and six studies spanning
+different populations, generation lengths and genetic measures may not survive it. The chapter should
+expect to report the demsig arm narratively with a computed point estimate rather than a meta-analytic
+pool, and to say plainly that the best-evidenced half of A.18's claim is the half that cannot bear on
+the phenomena.
+
