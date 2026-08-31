@@ -150,11 +150,11 @@ required search string, so that an empty cell is empty against an auditable list
 8. **Predicted response via the breeder's equation** from an independently estimated h² and S.
 9. **Allele-frequency change over time** in genotyped samples across birth cohorts (Kong et al.).
 
-## 6. The homonym, measured
+## 6. The homonym, measured twice — and the wall that actually does the work
 
-"Fertility" is one of the worst homonyms in the review, and it collides with A.18's *method* vocabulary
-rather than being separable from it. A fulltext probe on 2026-08-31 (OpenAlex `search=`, counts
-indicative of the contaminated space, not of the frame):
+"Fertility" is one of the worst homonyms in the review, and it collides with A.18's *method*
+vocabulary rather than being separable from it. A fulltext probe on 2026-08-31 (OpenAlex `search=`)
+sizes the contaminated **term space**:
 
 | Probe | Count |
 |---|---|
@@ -163,21 +163,48 @@ indicative of the contaminated space, not of the frame):
 | `soil fertility heritability` | 15,211 |
 | `heritability number of children ever born` | 6,880 |
 
-Roughly half of the naive topic query is livestock reproduction and agronomy. Both clouds use
-*heritability*, *selection differential*, *breeder's equation*, *genetic correlation* and *fertility*
-in their ordinary technical senses. There is no term that separates them from A.18 on the exposure
-axis, because the exposure vocabulary is shared exactly.
+Roughly half of a naive topic query is livestock reproduction and agronomy. Both clouds use
+*heritability*, *selection differential*, *breeder's equation* and *genetic correlation* in their
+ordinary technical senses, so no term separates them from A.18 on the exposure axis.
 
-Two consequences, both from lessons already recorded. Per `homonym-shares-outcome-vocabulary`, the
-discriminating vocabulary must be scored **without** the shared word — the separator here is the
-*outcome unit* (children ever born, parity, age at first birth, childlessness) and the *species*, not
-the method. And per `label-by-provenance-not-vocabulary`, the frame is built from the citation
-provenance of the §12 anchors first, with term-mining used only to extend it; a term-first frame on
-this topic will be dominated by cattle.
+**In the provenance-built pool it is 1.6%.** Script 247 measured the 3,140-record snowball pool
+(§12) on two channels chosen to fail differently — OpenAlex's machine-assigned `topics`, and a term
+list over title and venue — and 51 records are flagged by either. That is the argument for
+`label-by-provenance-not-vocabulary` reduced to a number: the citation network performs a separation
+that no vocabulary can, and the frame should therefore be built from the pool outward rather than
+from terms inward with a species filter bolted on.
 
-The animal and plant clouds are **route-outs, not decoys to be forward-seeded** — but note
-`decoy-clouds-are-boundary-cases`: human-adjacent quantitative genetics (primate demography,
-hunter-gatherer pedigree studies) sits between them and is the boundary worth sampling.
+> **Two filter defects, both found by reading what the filter rejected rather than what it admitted.**
+> The first run flagged 112 records. Of those, 59 came from OpenAlex's subfield *Ecology, Evolution,
+> Behavior and Systematics* — which is where the **estimator canon of A.18's own selection arm** lives:
+> Lande and Arnold 1983 (5,051 citations, reached by five of our SELECTION seeds), Kingsolver et al.
+> 2001, Rausher 1992, Schluter 1994, Kruuk 2004. A species filter that deleted them would have removed
+> the sources that define how the chapter's primary estimand is computed, and it also caught a
+> *European Journal of Population* demography paper filed under "General Agricultural and Biological
+> Sciences". The term channel's mirror-image error was `animal model`, which in quantitative genetics
+> names a REML mixed model applied to humans constantly.
+> Removing the subfield from the cloud list then changed **nothing** — 59 flags survived — because a
+> field-level fallback swept the parent field regardless. Right answer, wrong mechanism, plausible
+> output: `optional-field-gate-disengages`. The fallback now applies only where a subfield is missing.
+
+**The wall that does the work here is phenotype, not species.** The pool's largest subfields after
+Genetics (781) are Experimental and Cognitive Psychology (476), Demography (256) and Sociology (208):
+this is a behaviour-genetics and sociogenomics pool, and its off-target mass is studies of *other
+phenotypes* — educational attainment, cognition, psychiatric traits, height — not of other species.
+Measured on titles: 565 records name a fertility outcome, 383 name a non-fertility phenotype and no
+fertility outcome, 105 name both. Wall 6 (species) is nearly free. Wall 5 (correlated traits) and
+Wall 4 (fecundity traits) are the expensive ones, and Wall 1 remains the one that decides the pool.
+
+> **Consequence for the screen, and it is binding: 2,087 of 3,140 records (66%) name no phenotype at
+> all in the title.** A title-only screen therefore cannot enforce the phenotype wall — it is invisible
+> at that level, exactly as D.3.b found that its Wall 1 could not be enforced on titles and abstracts
+> because measure content was not visible there. The screen runs on abstracts, and records whose
+> abstract is also silent on the phenotype go to `INSUFFICIENT_INFO` rather than being rejected.
+
+The animal and plant clouds remain route-outs rather than decoys to forward-seed, but note
+`decoy-clouds-are-boundary-cases`: the human-adjacent quantitative genetics between them — primate
+demography, hunter-gatherer pedigree studies, and the wild-population selection literature that
+supplies the estimators — is boundary, not cloud, and the diagnostic above is why.
 
 ## 7. The boundary walls
 
@@ -270,7 +297,10 @@ silently stand in for it.
    everything upstream — education, health, partnering. The estimand is genotype's *total* association,
    not a genetic effect on fertility holding the life course fixed. This is a property of the quantity,
    not a flaw in the studies, and it must be stated in the chapter's own words rather than inherited
-   from the papers' abstracts.
+   from the papers' abstracts. **Its formal statement is Rausher (1992)** — a selection differential is
+   biased by environmental covariance between trait and fitness, which in human populations is the
+   education/SES confound wearing evolutionary notation. Surfaced by the §6 diagnostic, not by the
+   anchor typing, and it applies to every `SELECTION_DIFFERENTIAL` record in §8.
 2. **Population stratification and dynastic effects.** Population-level PGS associations are inflated by
    ancestry structure and by parental environment correlated with transmitted genotype. Howe et al.
    (2022) is the correction; the within-family/population ratio is extracted wherever both exist.
@@ -344,6 +374,14 @@ Kong et al. 2017, Byars et al. 2009, Sanjak et al. 2017, Conley et al. 2016 and 
 Abdellaoui 2022 for contemporary selection; Milot et al. 2011 and Courtiol et al. 2012 for the
 historical pedigree designs that Ruling 2 turns on; Howe et al. 2022 for the within-family correction;
 Stearns et al. 2010, Mills and Tropf 2020 and Stulp and Barrett 2016 as reviews.
+
+**Six method anchors added by the §6 diagnostic, 2026-08-31.** These were not in the typed candidate
+list — they were found by reading what a filter was about to discard. They are the estimator sources
+for the `SELECTION_DIFFERENTIAL` and `PEDIGREE_RESPONSE` cells and belong in the METHOD arm:
+Lande and Arnold 1983 (*Evolution*), Rausher 1992 (*Evolution*), Houle 1992 (*Genetics*),
+Schluter 1994 and Kingsolver et al. 2001 (*American Naturalist*), Kruuk 2004 (*Phil Trans R Soc B*),
+Stinchcombe et al. 2008 (*Evolution*). They enter as method anchors, not as included studies: none
+estimates a human fertility effect.
 
 > **Note on the resolver — a known defect reproduced in new code.** The first run returned two
 > `NO_RESULTS`, both titles containing a question mark. OpenAlex reads `?` in a search value as a

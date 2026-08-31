@@ -9,7 +9,7 @@
 
 ## Acceptance criteria
 - [x] 2. Search strategy and scope drafted — `literature/search-logs/heritability-fertility-genetic-search-scope.md` (2026-08-31). **FROZEN:** Rulings 1–4 resolved; 5 routed to TICK-001. Stage 3 unblocked.
-- [ ] 3. Literature search and AI screening, both phases (§5.1)
+- [~] 3. Literature search and AI screening, both phases (§5.1) — snowball pool built (3,140 records, 246) and diagnosed (247); production query and screen outstanding
 - [ ] 4. RA title/abstract review
 - [ ] 5. Full-text retrieval
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
@@ -68,3 +68,31 @@ competent twin design scores "Very low: correlational only" (binds stage 11; pro
 `NOT RATEABLE — non-effect estimand`).
 
 Next: stage 3 — build the frame from anchor provenance, then the production query.
+
+**2026-08-31 (Shravan) — stage 3 begun: provenance pool and its diagnostics.**
+
+`246` snowballed the 25 anchors backward and forward into a **3,140-record pool**, zero API errors.
+Both rungs productive (backward 1,328 new, forward 2,032), so neither is redundant. All three Ruling-2
+arms are reached with large exclusive sets — SELECTION 1,168 records reached by no other arm, H2 830,
+THEORY 312, METHOD 196, H2_MOD 193 — so no arm is silently missing. Five seeds were forward-capped at
+200 and are named in the log; their contribution is the high-citation head, not a sample.
+
+`247` measured the homonym on two channels that fail differently. **Species contamination in the pool
+is 1.6%** against roughly half the naive term space — the provenance-first decision, quantified.
+
+Three things worth carrying off this chapter:
+
+1. **The filter nearly deleted our own estimator canon.** Reading rejects rather than admits showed 59
+   of the first run's 112 flags were the selection-methods literature the SELECTION arm is built on —
+   Lande and Arnold 1983 among them, reached by five of our own seeds. Six method anchors added to §12
+   as a result, and Rausher 1992 now supplies §10 threat 1 its formal statement.
+2. **A patch that changed nothing looked like it worked.** Removing the offending subfield from the
+   cloud list left all 59 flags in place, because a field-level fallback swept the parent field anyway.
+   Caught only because the total barely moved. Right answer, wrong mechanism.
+3. **The real wall is phenotype, not species** — the pool is behaviour genetics and sociogenomics, and
+   its off-target mass is other phenotypes (education, cognition, psychiatric traits). **66% of records
+   name no phenotype in the title**, so a title-only screen cannot enforce that wall. The screen runs
+   on abstracts; silence goes to `INSUFFICIENT_INFO`, not to reject.
+
+Re-ran `247` end to end: byte-identical output. Next: production query, calibrated against the pool.
+

@@ -1,0 +1,1400 @@
+{
+ "meta": {
+  "ticket": "TICK-076",
+  "round": 1,
+  "seeds_requested": 25,
+  "seeds_resolved": 25,
+  "seed_arms": {
+   "METHOD": 1,
+   "H2": 8,
+   "SELECTION": 11,
+   "THEORY": 2,
+   "H2_MOD": 3
+  },
+  "forward_cap_per_seed": 200,
+  "capped_seeds": [
+   {
+    "seed": "Howe",
+    "arm": "METHOD",
+    "true_count": 402,
+    "taken": 200
+   },
+   {
+    "seed": "Barban",
+    "arm": "H2",
+    "true_count": 353,
+    "taken": 200
+   },
+   {
+    "seed": "Stearns",
+    "arm": "SELECTION",
+    "true_count": 236,
+    "taken": 200
+   },
+   {
+    "seed": "Kohler",
+    "arm": "H2",
+    "true_count": 220,
+    "taken": 200
+   },
+   {
+    "seed": "Sanjak",
+    "arm": "SELECTION",
+    "true_count": 203,
+    "taken": 200
+   }
+  ],
+  "raw_found_before_dedup": {
+   "backward": 1819,
+   "forward": 3097
+  },
+  "new_records_by_rung": {
+   "backward": 1328,
+   "forward": 2032
+  },
+  "pool_size": 3140,
+  "reached_by_seed_arm": {
+   "H2": 1168,
+   "H2_MOD": 346,
+   "SELECTION": 1454,
+   "THEORY": 477,
+   "METHOD": 246
+  },
+  "reached_by_exactly_one_arm": {
+   "SELECTION": 1168,
+   "H2": 830,
+   "H2_MOD": 193,
+   "THEORY": 312,
+   "METHOD": 196
+  },
+  "no_doi": 99,
+  "preprints": 190,
+  "multi_seed": 698,
+  "duplicates_collapsed": 220,
+  "errors": 0,
+  "note": "Pool is candidates, not a frame. Nothing here has been screened."
+ },
+ "duplicates_collapsed": [
+  {
+   "dropped": "W2032753567",
+   "kept": "W1544815196",
+   "title": "The evolution of life histories",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2059206901",
+   "kept": "W1577941315",
+   "title": "Genetics and analysis of quantitative traits",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2009857485",
+   "kept": "W1577941315",
+   "title": "Genetics and analysis of quantitative traits",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4302414222",
+   "kept": "W1597926580",
+   "title": "Local Polynomial Modelling and Its Applications",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W210805630",
+   "kept": "W1998447279",
+   "title": "Not in our genes\u2014Biology, ideology, and human nature",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W1539376400",
+   "kept": "W1998447279",
+   "title": "Not in Our Genes: Biology, Ideology, and Human Nature",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2151176003",
+   "kept": "W1528337030",
+   "title": "Economics of the Family: Marriage, Children, and Human Capital",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W1479752016",
+   "kept": "W2584647260",
+   "title": "Behavioral genetics, a primer",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W1218791394",
+   "kept": "W4290007099",
+   "title": "Risk And Uncertainty In Tribal And Peasant Economies",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4300000600",
+   "kept": "W1618972566",
+   "title": "Altered expression of microRNA-451 in eutopic endometrium of baboons ( Papio anubis ) with endometriosis",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4299787297",
+   "kept": "W1579114536",
+   "title": "Evolution in Age-Structured Populations",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2312222544",
+   "kept": "W1579114536",
+   "title": "Evolution in Age-Structured Populations",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3021627085",
+   "kept": "W1579114536",
+   "title": "Evolution in Age-Structured Populations.",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2022804164",
+   "kept": "W1501087929",
+   "title": "Promises I Can Keep: Why Poor Women Put Motherhood Before Marriage",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4291746384",
+   "kept": "W1853535253",
+   "title": "Linear models for the prediction of animal breeding values",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2319444833",
+   "kept": "W17115472",
+   "title": "Opting Out: Why Women Really Quit Careers and Head Home",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4292811746",
+   "kept": "W1971440513",
+   "title": "The moderator\u2013mediator variable distinction in social psychological research: Conceptual, strategic, and statistical considerations.",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W1970657829",
+   "kept": "W4298860376",
+   "title": "Proception: an important fertility behavior.",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4238944069",
+   "kept": "W1981883718",
+   "title": "Twin registers in Europe: an overview",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2797563284",
+   "kept": "W1995945562",
+   "title": "An Introduction to the Bootstrap.",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2979215350",
+   "kept": "W1988441589",
+   "title": "Birth and Fortune: The Impact of Numbers on Personal Welfare.",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4300324335",
+   "kept": "W1988441589",
+   "title": "Birth and Fortune: The Impact of Numbers on Personal Welfare.",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4302038287",
+   "kept": "W1997179743",
+   "title": "New families, no families?: the transformation of the American home",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W1999216047",
+   "kept": "W3136389637",
+   "title": "The history and geography of human genes",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2016016106",
+   "kept": "W4231303850",
+   "title": "Social contagion, adolescent sexual behavior, and pregnancy: A nonlinear dynamic EMOSA model.",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2801858777",
+   "kept": "W2021160909",
+   "title": "Twin Births and Twins from a Hereditary Point of View.",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3124184149",
+   "kept": "W2018862557",
+   "title": "The Fertility Pattern of Twins and the General Population Compared: Evidence from Danish Cohorts 1945-64",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2159307061",
+   "kept": "W2018862557",
+   "title": "The Fertility Pattern of Twins and the General Population Compared: Evidence from Danish Cohorts 1945-64",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2987856142",
+   "kept": "W2033591452",
+   "title": "The Genetics of Human Populations",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2337404315",
+   "kept": "W2039153962",
+   "title": "Genetic studies of body mass index yield new insights for obesity biology",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4297897894",
+   "kept": "W2050482467",
+   "title": "The Race between Education and Technology",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4318751289",
+   "kept": "W2050920886",
+   "title": "Effects of body fat on weight concerns, dating, and sexual activity: A longitudinal analysis of Black and White adolescent girls.",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2588205325",
+   "kept": "W2062199894",
+   "title": "Risk Society: Towards a New Modernity",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3021315201",
+   "kept": "W2059059118",
+   "title": "The state and the family: a comparative analysis of family policies in industrialized countries",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4240859940",
+   "kept": "W2074259347",
+   "title": "Twin imitation for antisocial behavior: Implications for genetic and family environment research.",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4301663625",
+   "kept": "W2081997277",
+   "title": "Who pays for the kids?: gender and the structures of constraint",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2480074320",
+   "kept": "W2078521300",
+   "title": "Adaptation and Human Behavior",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2099926618",
+   "kept": "W4298286589",
+   "title": "The Cultural Contradictions of Motherhood.",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4255365317",
+   "kept": "W2105735952",
+   "title": "Genetic and Environmental Factors in Complex Diseases: The Older Finnish Twin Cohort",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2122795676",
+   "kept": "W3003451196",
+   "title": "Globalization, Uncertainty and Youth in Society",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4250136312",
+   "kept": "W2119638574",
+   "title": "Macro-micro linkages in sociology",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2338393253",
+   "kept": "W2127195548",
+   "title": "The Constant Flux: A Study of Class Mobility in Industrial Societies.",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4237383488",
+   "kept": "W2125428236",
+   "title": "ANTLER SIZE IN RED DEER: HERITABILITY AND SELECTION BUT NO EVOLUTION",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2336420417",
+   "kept": "W2134788823",
+   "title": "Meta-analyses identify 13 loci associated with age at menopause and highlight DNA repair and immune pathways",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4206471153",
+   "kept": "W2141088880",
+   "title": "Introduction to Quantitative Genetics",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4247004903",
+   "kept": "W2141088880",
+   "title": "Introduction to Quantitative Genetics",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3020911143",
+   "kept": "W2155441570",
+   "title": "Parent-of-origin-specific allelic associations among 106 genomic loci for age at menarche.",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4241722143",
+   "kept": "W2153615431",
+   "title": "Eco-evolutionary dynamics",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4243928237",
+   "kept": "W2168144246",
+   "title": "NATURAL SELECTION AND QUANTITATIVE GENETICS OF LIFE-HISTORY TRAITS IN WESTERN WOMEN: A TWIN STUDY",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4234951552",
+   "kept": "W2167981702",
+   "title": "Social Context and Adolescent Behavior: The Impact of Community on the Transition to Sexual Activity",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4240162659",
+   "kept": "W2163940743",
+   "title": "Sociology and Biology: What Biology Do Sociologists Need to Know?",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W93535227",
+   "kept": "W2285712787",
+   "title": "The Danish Twin Register.",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4250005019",
+   "kept": "W2329565638",
+   "title": "The Evolution of Phenotypic Plasticity in Life-History Traits: Predictions of Reaction Norms for Age and Size at Maturity",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2952093814",
+   "kept": "W2470195001",
+   "title": "Genetic evidence for natural selection in humans in the contemporary United States",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2891666331",
+   "kept": "W2495957708",
+   "title": "The Effect of Vietnam-Era Conscription and Genetic Potential for Educational Attainment on Schooling Outcomes",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2950257327",
+   "kept": "W2770085798",
+   "title": "The nature of nurture: effects of parental genotypes",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2951872618",
+   "kept": "W2560510482",
+   "title": "Disease variants alter transcription factor levels and methylation of their binding sites",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2602049534",
+   "kept": "W2783972212",
+   "title": "The Social Genome of Friends and Schoolmates in the National Longitudinal Study of Adolescent to Adult Health",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4235792562",
+   "kept": "W2569771954",
+   "title": "Is the Association Between Education and Fertility Postponement Causal? The Role of Family Background Factors",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4249303080",
+   "kept": "W2797583072",
+   "title": "Generalized Additive Models.",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3014310718",
+   "kept": "W2797583072",
+   "title": "Generalized Additive Models",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4237395980",
+   "kept": "W2977503837",
+   "title": "Estrogen and Spermatogenesis",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2797258903",
+   "kept": "W2952981231",
+   "title": "Identification of 12 genetic loci associated with human healthspan",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2796719418",
+   "kept": "W2952585581",
+   "title": "Imprint of Assortative Mating on the Human Genome",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2943723299",
+   "kept": "W2990673704",
+   "title": "Screening human embryos for polygenic traits has limited utility",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2905541985",
+   "kept": "W2974594040",
+   "title": "Using DNA from mothers and children to study parental investment in children's educational attainment",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2554198410",
+   "kept": "W2952629366",
+   "title": "Identifying genetic variants that affect viability in large cohorts",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3124192752",
+   "kept": "W3000724127",
+   "title": "Investigating the Genetic Architecture of Non-Cognitive Skills Using Gwas-by-Subtraction",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4200528350",
+   "kept": "W4304695407",
+   "title": "The HUNT Study: a population-based cohort for genetic research",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4322490015",
+   "kept": "W4394713667",
+   "title": "Interpreting population and family-based genome-wide association studies in the presence of confounding",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4390722071",
+   "kept": "W4400980361",
+   "title": "Benchmarking Mendelian Randomization methods for causal inference using genome-wide association study summary statistics",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4319160631",
+   "kept": "W4387063491",
+   "title": "Influence of autozygosity on common disease risk across the phenotypic spectrum",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4365133650",
+   "kept": "W4391836280",
+   "title": "PheWAS-based clustering of Mendelian Randomisation instruments reveals distinct mechanism-specific causal effects between obesity and educational attainment",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4388744892",
+   "kept": "W4402513548",
+   "title": "Causal interpretations of family GWAS in the presence of heterogeneous effects",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4362700349",
+   "kept": "W4390916208",
+   "title": "Examining Intergenerational Risk Factors for Conduct Problems Using Polygenic Scores in the Norwegian Mother, Father and Child Cohort Study",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4391213889",
+   "kept": "W4406991223",
+   "title": "Direct and Indirect Genetic Effects on Early Neurodevelopmental Traits",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4399409964",
+   "kept": "W4396664798",
+   "title": "Social-Science Genomics: Progress, Challenges, and Future Directions",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4382699861",
+   "kept": "W4408817723",
+   "title": "Compensating or Boosting Genetic Propensities? Gene-Family Socioeconomic Status Interactions by Educational Outcome Selectivity",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4312101502",
+   "kept": "W4403032163",
+   "title": "The Total Effect of Social Origins on Educational Attainment. Meta-Analysis of Sibling Correlations from 18 Countries",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4409924654",
+   "kept": "W4403032163",
+   "title": "The Total Effect of Social Origins on Educational Attainment. Meta-Analysis of Sibling Correlations from 18 Countries",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4362554812",
+   "kept": "W4392794732",
+   "title": "Educational tracking and the polygenic prediction of education",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4390660555",
+   "kept": "W4402222100",
+   "title": "Gene-environment correlation: The role of family environment in academic development",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4362633978",
+   "kept": "W4362678123",
+   "title": "Genetic contributions of noncognitive skills to academic development",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4392603773",
+   "kept": "W4412990578",
+   "title": "The Association Between Parental BMI and Offspring Adiposity: A Genetically Informed Analysis of Trios",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3022829507",
+   "kept": "W3204109301",
+   "title": "An Atlas of Gene Regulatory Elements in Adult Mouse Cerebrum",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3172887075",
+   "kept": "W3161191186",
+   "title": "Resource Profile and User Guide of the Polygenic Index Repository",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2946738701",
+   "kept": "W2980541791",
+   "title": "Population-based neuroimaging reveals traces of childbirth in the maternal brain",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2588631010",
+   "kept": "W2949255043",
+   "title": "Genomic analysis of family data reveals additional genetic effects on intelligence and personality",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2784654829",
+   "kept": "W2951264754",
+   "title": "Genome-wide association study implicates CHRNA2 in cannabis use disorder",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2790112977",
+   "kept": "W2952226016",
+   "title": "Significant shared heritability underlies suicide attempt and clinically predicted probability of attempting suicide",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2885509570",
+   "kept": "W2949838037",
+   "title": "Insight into the genetic architecture of back pain and its risk factors from a study of 509,000 individuals",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2900761274",
+   "kept": "W2972698755",
+   "title": "Phenome-wide Investigation of Health Outcomes Associated with Genetic Predisposition to Loneliness",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2760154783",
+   "kept": "W2960515816",
+   "title": "Paternal-age-related de novo mutations and risk for five disorders",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3174647747",
+   "kept": "W4292836782",
+   "title": "Estimating effects of parents\u2019 cognitive and non-cognitive skills on offspring education using polygenic scores",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3022360188",
+   "kept": "W3120409306",
+   "title": "Examining sex-differentiated genetic effects across neuropsychiatric and behavioral traits",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4211045521",
+   "kept": "W2789591625",
+   "title": "Temperament and Brain Networks of Attention",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2777193711",
+   "kept": "W2952789803",
+   "title": "Detecting past and ongoing natural selection among ethnically Tibetan women at high altitude in Nepal",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3033633477",
+   "kept": "W3185231098",
+   "title": "Quantifying the contribution of Neanderthal introgression to the heritability of complex traits",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2983960090",
+   "kept": "W4281628584",
+   "title": "Exploring and mitigating potential bias when genetic instrumental variables are associated with multiple non-exposure traits in Mendelian randomization",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2905015764",
+   "kept": "W3087697844",
+   "title": "Testing structural models of psychopathology at the genomic level",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3028853973",
+   "kept": "W4220970257",
+   "title": "Reduced reproductive success is associated with selective constraint on human genes",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3026114402",
+   "kept": "W4322766108",
+   "title": "Genome-wide analysis identifies genetic effects on reproductive success and ongoing natural selection at the FADS locus",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2772976315",
+   "kept": "W2950198531",
+   "title": "Sex differences in the genetic architecture of obsessive-compulsive disorder",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4366091600",
+   "kept": "W4389475520",
+   "title": "Evidence for the role of selection for reproductively advantageous alleles in human aging",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2894907384",
+   "kept": "W2969099478",
+   "title": "The genetic relationship between female reproductive traits and six psychiatric disorders",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4247305773",
+   "kept": "W3038771045",
+   "title": "Human life histories as dynamic networks: using Network Analysis to conceptualize and analyze life history data",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2952807722",
+   "kept": "W2810866107",
+   "title": "Schizophrenia risk and reproductive success: A Mendelian randomization study",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3125872157",
+   "kept": "W3011906076",
+   "title": "Do income and marriage mediate the relationship between cognitive ability and fertility? Data from Swedish taxation and conscriptions registers for men born 1951-1967",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4251825664",
+   "kept": "W3028456009",
+   "title": "Rethinking the fast-slow continuum of individual differences",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3201464012",
+   "kept": "W4206298971",
+   "title": "Population Studies at 75 Years: An empirical review",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4322766566",
+   "kept": "W4385716918",
+   "title": "Genetic Correlations between Suicide Attempts and Psychiatric and Intermediate Phenotypes Adjusting for Mental Disorders",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W1599953024",
+   "kept": "W204767425",
+   "title": "The Evolutionary Foundations of Economics",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2949439194",
+   "kept": "W2494337114",
+   "title": "Negative selection in humans and fruit flies involves synergistic epistasis",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4255357403",
+   "kept": "W4238973688",
+   "title": "Evolutionary Genetics",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4405605351",
+   "kept": "W4405605068",
+   "title": "Sense and nonsense",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3186867998",
+   "kept": "W4229064987",
+   "title": "The effective family size of immigrant founders predicts their long-term demographic outcome: from Qu\u00e9bec settlers to their 20th-century descendants",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4412559798",
+   "kept": "W4405605236",
+   "title": "Copyright Page",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4388939848",
+   "kept": "W4405605236",
+   "title": "Copyright Page",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4398226969",
+   "kept": "W4405605236",
+   "title": "Copyright Page",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4399048500",
+   "kept": "W4405605236",
+   "title": "Copyright Page",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3022119662",
+   "kept": "W3122469218",
+   "title": "Evolution and the Growth Process: Natural Selection of Entrepreneurial Traits",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2099639312",
+   "kept": "W3122469218",
+   "title": "Evolution and the Growth Process: Natural Selection of Entrepreneurial Traits",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4300118690",
+   "kept": "W3122469218",
+   "title": "Evolution and the Growth Process: Natural Selection of Entrepreneurial Traits",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2163169561",
+   "kept": "W3121688017",
+   "title": "Natural Selection and the Origin of Economic Growth",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4242209124",
+   "kept": "W2142790707",
+   "title": "Genetic Influences on Female Infidelity and Number of Sexual Partners in Humans: A Linkage and Association Study of the Role of the Vasopressin Receptor Gene (AVPR1A)",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2911814120",
+   "kept": "W2145678960",
+   "title": "Status Attainment and Social Mobility",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4250464005",
+   "kept": "W2155810129",
+   "title": "Intergenerationale Fertilit\u00e4tstransmission in Ost- und Westdeutschland",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4281684985",
+   "kept": "W4320709607",
+   "title": "Cultural transmission of reproductive success impacts genomic diversity, coalescent tree topologies and demographic inferences",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2167292992",
+   "kept": "W4253441790",
+   "title": "Comportements d\u00e9mographiques et g\u00e9n\u00e9tique du comportement",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2766103548",
+   "kept": "W2950958620",
+   "title": "Distinguishing genetic correlation from causation across 52 diseases and complex traits",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3036648780",
+   "kept": "W3160512724",
+   "title": "Cultural Evolution of Genetic Heritability",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3201000927",
+   "kept": "W4225941942",
+   "title": "Population differentiation of polygenic score predictions under stabilizing selection",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2798591410",
+   "kept": "W2951438615",
+   "title": "Genetic architecture and selective sweeps after polygenic adaptation to distant trait optima",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4283727910",
+   "kept": "W4313557881",
+   "title": "mBAT-combo: a more powerful test to detect gene-trait associations from GWAS data",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2903244535",
+   "kept": "W2953318985",
+   "title": "An evolutionary compass for detecting signals of polygenic selection and mutational bias",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4391745319",
+   "kept": "W4403279521",
+   "title": "Unifying approaches from statistical genetics and phylogenetics for mapping phenotypes in structured populations",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2980575056",
+   "kept": "W3023072829",
+   "title": "Natural selection drives population divergence for local adaptation in a wheat pathogen",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4387521850",
+   "kept": "W4405527822",
+   "title": "The maintenance of genetic polymorphism underlying sexually antagonistic traits",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4407578842",
+   "kept": "W4416227746",
+   "title": "A century of theories of balancing selection",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4400155156",
+   "kept": "W7134260586",
+   "title": "The effect of long-range linkage disequilibrium on allele-frequency dynamics under stabilizing selection",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4400941782",
+   "kept": "W4402673116",
+   "title": "The battle of the sexes in humans is highly polygenic",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4401854929",
+   "kept": "W4409011004",
+   "title": "Archaic introgression and the distribution of shared variation under stabilizing selection",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4394890530",
+   "kept": "W4410141253",
+   "title": "Genome-wide analyses of variance in blood cell phenotypes provide new insights into complex trait biology and prediction",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4402457922",
+   "kept": "W4411178988",
+   "title": "Natural selection acting on complex traits hampers the predictive accuracy of polygenic scores in ancient samples",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4396882946",
+   "kept": "W4412560316",
+   "title": "A novel expectation-maximization approach to infer general diploid selection from time-series genetic data",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3100161894",
+   "kept": "W3122131534",
+   "title": "Probing the aggregated effects of purifying selection per individual on 1,380 medical phenotypes in the UK biobank",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W7111304096",
+   "kept": "W7164749042",
+   "title": "Allele Frequencies at Recessive Disease Genes are Mainly Determined by Pleiotropic Effects in Heterozygotes",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4410833842",
+   "kept": "W7147615754",
+   "title": "Background selection in recombining genomes and its consequences for the maintenance of variation in complex traits",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4402254276",
+   "kept": "W7152097258",
+   "title": "Chromosome-specific drift under stabilizing selection generates polygenic barriers to sex chromosome turnover",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4404960984",
+   "kept": "W4413392554",
+   "title": "The relationship between sexual dimorphism and intersex correlation: do models support intuition?",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4388939773",
+   "kept": "W4412559753",
+   "title": "Dedication",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4398226965",
+   "kept": "W4412559753",
+   "title": "Dedication",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4399048538",
+   "kept": "W4412559753",
+   "title": "Dedication",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4412559778",
+   "kept": "W4241239886",
+   "title": "Introduction",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4388939778",
+   "kept": "W4241239886",
+   "title": "Introduction",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3193300140",
+   "kept": "W4241239886",
+   "title": "Introduction",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4399705194",
+   "kept": "W4404284697",
+   "title": "A Path Integral Approach for Allele Frequency Dynamics Under Polygenic Selection",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2621008570",
+   "kept": "W2951305855",
+   "title": "Detecting polygenic adaptation in admixture graphs",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3039838591",
+   "kept": "W3092098984",
+   "title": "Examining the association between family status and depression in the UK Biobank",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2799450138",
+   "kept": "W2950085302",
+   "title": "Trans-ethnic polygenic analysis supports genetic overlaps of lumbar disc degeneration with height, body mass index, and bone mineral density",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4307357518",
+   "kept": "W4382055940",
+   "title": "Cultural evolution research needs to include human behavioural ecology",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4245713902",
+   "kept": "W3130043885",
+   "title": "Controversies in Evolutionary Psychology",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4253344623",
+   "kept": "W4200220715",
+   "title": "Genetic Advantage and Equality of Opportunity in Education: Two Definitions and an Empirical Application",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2936124496",
+   "kept": "W3008866789",
+   "title": "Modelling the On-going Natural Selection of Educational Attainment in Contemporary Societies",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4388939797",
+   "kept": "W4210952658",
+   "title": "Preface",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4398226967",
+   "kept": "W4210952658",
+   "title": "Preface",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4298970724",
+   "kept": "W4210952658",
+   "title": "Preface",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4398226971",
+   "kept": "W4388939799",
+   "title": "Notes",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4399049075",
+   "kept": "W4388939799",
+   "title": "Notes",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4246014886",
+   "kept": "W4236318009",
+   "title": "Michael A. Woodley of Menie, Yr.",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4237868021",
+   "kept": "W4236318009",
+   "title": "Michael A. Woodley of Menie, Yr.",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4256037356",
+   "kept": "W4236318009",
+   "title": "Michael A. Woodley of Menie, Yr.",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4234197537",
+   "kept": "W4244149841",
+   "title": "Dysgenic Concerns",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3200469606",
+   "kept": "W4285670643",
+   "title": "Detecting fitness epistasis in recent admixed populations with genome-wide data",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3030884605",
+   "kept": "W3086322343",
+   "title": "Interactions between polygenic scores and environments: Methodological and conceptual challenges",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4205422688",
+   "kept": "W4229011309",
+   "title": "Building Causal Knowledge in Behavior Genetics",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4285388875",
+   "kept": "W4297349608",
+   "title": "Meta-analysis of SNPs determining litter traits in pigs",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3107294185",
+   "kept": "W4221058483",
+   "title": "Lifestyle modifies the diabetes-related metabolic risk, conditional on individual genetic differences",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4214815707",
+   "kept": "W4288759712",
+   "title": "Gene-Environment Interplay in the Social Sciences",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4319791885",
+   "kept": "W4393233348",
+   "title": "Cross-ancestry genetic architecture and prediction for cholesterol traits",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2965958740",
+   "kept": "W3018950895",
+   "title": "Detecting genotype-population interaction effects by ancestry principal components",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4415748463",
+   "kept": "W4410381942",
+   "title": "Genetics of Major Depressive Disorder in a Homogeneous Population with Uniform Phenotyping",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4392954331",
+   "kept": "W4410314801",
+   "title": "Deciphering the Influence of Socioeconomic Status on Brain Structure: Insights from Mendelian Randomization",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4391757016",
+   "kept": "W4403986719",
+   "title": "Historic breeding practices contribute to germplasm divergence in leaf specialized metabolism and ecophysiology in cultivated sunflower ( Helianthus annuus )",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4294543987",
+   "kept": "W4250533004",
+   "title": "Index",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4210296253",
+   "kept": "W4376630890",
+   "title": "CADM2 is implicated in impulsive personality and numerous other traits by genome- and phenome-wide association studies in humans and mice",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4327906761",
+   "kept": "W4388229512",
+   "title": "Causal associations between female reproductive behaviors and psychiatric disorders: a lifecourse Mendelian randomization study",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4404523434",
+   "kept": "W4413194887",
+   "title": "Early menarche and childbirth accelerate aging-related outcomes and age-related diseases: Evidence for antagonistic pleiotropy in humans",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4408687769",
+   "kept": "W4413194887",
+   "title": "Early menarche and childbirth accelerate aging-related outcomes and age-related diseases: Evidence for antagonistic pleiotropy in humans",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4411148546",
+   "kept": "W4413194887",
+   "title": "Early menarche and childbirth accelerate aging-related outcomes and age-related diseases: Evidence for antagonistic pleiotropy in humans",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4404523398",
+   "kept": "W4413194887",
+   "title": "Early menarche and childbirth accelerate aging-related outcomes and age-related diseases: Evidence for antagonistic pleiotropy in humans",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4402852008",
+   "kept": "W4413194887",
+   "title": "Early menarche and childbirth accelerate aging-related outcomes and age-related diseases: Evidence for antagonistic pleiotropy in humans",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4399268105",
+   "kept": "W4408919259",
+   "title": "The causal role of male pubertal timing for the development of externalizing and internalizing traits: results from Mendelian randomization studies",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4392186825",
+   "kept": "W4400452456",
+   "title": "Partitioning the Genomic Components of Behavioral Disinhibition and Substance Use (Disorder) Using Genomic Structural Equation Modeling",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2496211579",
+   "kept": "W2952888622",
+   "title": "Genetic loci associated with coronary artery disease harbor evidence of selection and antagonistic pleiotropy",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3122271032",
+   "kept": "W2991206297",
+   "title": "The influence of health in early adulthood on male fertility",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4293581976",
+   "kept": "W4308408443",
+   "title": "Association studies between chromosomal regions 1q21.3, 5q21.3, 14q21.2 and 17q21.31 and numbers of children in Poland",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4287736975",
+   "kept": "W4362664299",
+   "title": "Amplification is the Primary Mode of Gene-by-Sex Interaction in Complex Human Traits",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4386165961",
+   "kept": "W4402495591",
+   "title": "Disentangling Genetic and Social Pathways of the Intergenerational Transmission of Cognitive Ability \u2013 A Nuclear Twin Family Study",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4385168716",
+   "kept": "W4385860169",
+   "title": "Gen\u00f3mica y eugenesia: nuevos imaginarios reproductivos y viejos racismos de estado",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2950590554",
+   "kept": "W2022417969",
+   "title": "Evolution of male life histories and age-dependent sexual signals under female choice",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2963036644",
+   "kept": "W334381919",
+   "title": "THE STOCHASTIC ENCOUNTER-MATING MODEL",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2548922532",
+   "kept": "W2953308517",
+   "title": "Bigger Is Fitter? Quantitative Genetic Decomposition of Selection Reveals an Adaptive Evolutionary Decline of Body Mass in a Wild Rodent Population",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2511080116",
+   "kept": "W2950098314",
+   "title": "How cognitive genetic factors influence fertility outcomes: A mediational SEM analysis",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W998625644",
+   "kept": "W4211017363",
+   "title": "Child Well-Being: Anthropological Perspectives",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4244683265",
+   "kept": "W3026499405",
+   "title": "Sex Differences in Long-Term Mating Preferences",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2951965324",
+   "kept": "W4236267175",
+   "title": "Dominance in Humans",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4210663925",
+   "kept": "W4236754741",
+   "title": "R\u00e9f\u00e9rences",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4235188386",
+   "kept": "W4246203955",
+   "title": "Sociobiology",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3031627483",
+   "kept": "W4250173439",
+   "title": "Genetic Coefficient of Variance",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3030934373",
+   "kept": "W4232623071",
+   "title": "Rodgers, Joseph Lee",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2795166898",
+   "kept": "W2952658879",
+   "title": "Sex-specific additive genetic variances and correlations for fitness in a song sparrow ( Melospiza melodia ) population subject to natural immigration and inbreeding",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2753489152",
+   "kept": "W2950014192",
+   "title": "Indirect assortative mating for human disease and longevity",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4253766450",
+   "kept": "W2952892882",
+   "title": "A critique of life history approaches to human trait covariation",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2885083431",
+   "kept": "W2950463289",
+   "title": "Allele frequency dynamics in a pedigreed natural population",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2951659641",
+   "kept": "W2291760450",
+   "title": "Older fathers\u2019 children have lower evolutionary fitness across four centuries and in four populations",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4321605671",
+   "kept": "W4387661033",
+   "title": "Estimating the Genetic Contribution to Astigmatism and Myopia in the Mexican population",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4239998571",
+   "kept": "W4285237399",
+   "title": "Reproductive Fitness",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2767995868",
+   "kept": "W2110726919",
+   "title": "Fertility Rebound and Economic Growth. New Evidence for 18 Countries Over the Period 1970-2011.",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4243610864",
+   "kept": "W3189710339",
+   "title": "Socioeconomic background and gene-environment interplay in social stratification across the early life course",
+   "reason": "normalized-title duplicate"
+  }
+ ],
+ "errors": {}
+}
