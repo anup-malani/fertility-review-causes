@@ -1,0 +1,356 @@
+{
+ "ticket": "TICK-076",
+ "survivors": 29394,
+ "stratum_A_citation_intersect": 317,
+ "stratum_B_relevance_head": 2000,
+ "stratum_C_tail_not_batched": 27077,
+ "batch_size": 55,
+ "batches": 43,
+ "blinding": "gold/anchor status, pool membership, stratum and relevance rank withheld",
+ "batch_index": [
+  {
+   "batch": 1,
+   "n": 55,
+   "strata": {
+    "A": 55,
+    "B": 0
+   }
+  },
+  {
+   "batch": 2,
+   "n": 55,
+   "strata": {
+    "A": 55,
+    "B": 0
+   }
+  },
+  {
+   "batch": 3,
+   "n": 55,
+   "strata": {
+    "A": 55,
+    "B": 0
+   }
+  },
+  {
+   "batch": 4,
+   "n": 55,
+   "strata": {
+    "A": 55,
+    "B": 0
+   }
+  },
+  {
+   "batch": 5,
+   "n": 55,
+   "strata": {
+    "A": 55,
+    "B": 0
+   }
+  },
+  {
+   "batch": 6,
+   "n": 55,
+   "strata": {
+    "A": 42,
+    "B": 13
+   }
+  },
+  {
+   "batch": 7,
+   "n": 55,
+   "strata": {
+    "A": 0,
+    "B": 55
+   }
+  },
+  {
+   "batch": 8,
+   "n": 55,
+   "strata": {
+    "A": 0,
+    "B": 55
+   }
+  },
+  {
+   "batch": 9,
+   "n": 55,
+   "strata": {
+    "A": 0,
+    "B": 55
+   }
+  },
+  {
+   "batch": 10,
+   "n": 55,
+   "strata": {
+    "A": 0,
+    "B": 55
+   }
+  },
+  {
+   "batch": 11,
+   "n": 55,
+   "strata": {
+    "A": 0,
+    "B": 55
+   }
+  },
+  {
+   "batch": 12,
+   "n": 55,
+   "strata": {
+    "A": 0,
+    "B": 55
+   }
+  },
+  {
+   "batch": 13,
+   "n": 55,
+   "strata": {
+    "A": 0,
+    "B": 55
+   }
+  },
+  {
+   "batch": 14,
+   "n": 55,
+   "strata": {
+    "A": 0,
+    "B": 55
+   }
+  },
+  {
+   "batch": 15,
+   "n": 55,
+   "strata": {
+    "A": 0,
+    "B": 55
+   }
+  },
+  {
+   "batch": 16,
+   "n": 55,
+   "strata": {
+    "A": 0,
+    "B": 55
+   }
+  },
+  {
+   "batch": 17,
+   "n": 55,
+   "strata": {
+    "A": 0,
+    "B": 55
+   }
+  },
+  {
+   "batch": 18,
+   "n": 55,
+   "strata": {
+    "A": 0,
+    "B": 55
+   }
+  },
+  {
+   "batch": 19,
+   "n": 55,
+   "strata": {
+    "A": 0,
+    "B": 55
+   }
+  },
+  {
+   "batch": 20,
+   "n": 55,
+   "strata": {
+    "A": 0,
+    "B": 55
+   }
+  },
+  {
+   "batch": 21,
+   "n": 55,
+   "strata": {
+    "A": 0,
+    "B": 55
+   }
+  },
+  {
+   "batch": 22,
+   "n": 55,
+   "strata": {
+    "A": 0,
+    "B": 55
+   }
+  },
+  {
+   "batch": 23,
+   "n": 55,
+   "strata": {
+    "A": 0,
+    "B": 55
+   }
+  },
+  {
+   "batch": 24,
+   "n": 55,
+   "strata": {
+    "A": 0,
+    "B": 55
+   }
+  },
+  {
+   "batch": 25,
+   "n": 55,
+   "strata": {
+    "A": 0,
+    "B": 55
+   }
+  },
+  {
+   "batch": 26,
+   "n": 55,
+   "strata": {
+    "A": 0,
+    "B": 55
+   }
+  },
+  {
+   "batch": 27,
+   "n": 55,
+   "strata": {
+    "A": 0,
+    "B": 55
+   }
+  },
+  {
+   "batch": 28,
+   "n": 55,
+   "strata": {
+    "A": 0,
+    "B": 55
+   }
+  },
+  {
+   "batch": 29,
+   "n": 55,
+   "strata": {
+    "A": 0,
+    "B": 55
+   }
+  },
+  {
+   "batch": 30,
+   "n": 55,
+   "strata": {
+    "A": 0,
+    "B": 55
+   }
+  },
+  {
+   "batch": 31,
+   "n": 55,
+   "strata": {
+    "A": 0,
+    "B": 55
+   }
+  },
+  {
+   "batch": 32,
+   "n": 55,
+   "strata": {
+    "A": 0,
+    "B": 55
+   }
+  },
+  {
+   "batch": 33,
+   "n": 55,
+   "strata": {
+    "A": 0,
+    "B": 55
+   }
+  },
+  {
+   "batch": 34,
+   "n": 55,
+   "strata": {
+    "A": 0,
+    "B": 55
+   }
+  },
+  {
+   "batch": 35,
+   "n": 55,
+   "strata": {
+    "A": 0,
+    "B": 55
+   }
+  },
+  {
+   "batch": 36,
+   "n": 55,
+   "strata": {
+    "A": 0,
+    "B": 55
+   }
+  },
+  {
+   "batch": 37,
+   "n": 55,
+   "strata": {
+    "A": 0,
+    "B": 55
+   }
+  },
+  {
+   "batch": 38,
+   "n": 55,
+   "strata": {
+    "A": 0,
+    "B": 55
+   }
+  },
+  {
+   "batch": 39,
+   "n": 55,
+   "strata": {
+    "A": 0,
+    "B": 55
+   }
+  },
+  {
+   "batch": 40,
+   "n": 55,
+   "strata": {
+    "A": 0,
+    "B": 55
+   }
+  },
+  {
+   "batch": 41,
+   "n": 55,
+   "strata": {
+    "A": 0,
+    "B": 55
+   }
+  },
+  {
+   "batch": 42,
+   "n": 55,
+   "strata": {
+    "A": 0,
+    "B": 55
+   }
+  },
+  {
+   "batch": 43,
+   "n": 7,
+   "strata": {
+    "A": 0,
+    "B": 7
+   }
+  }
+ ]
+}

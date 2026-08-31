@@ -9,7 +9,7 @@
 
 ## Acceptance criteria
 - [x] 2. Search strategy and scope drafted — `literature/search-logs/heritability-fertility-genetic-search-scope.md` (2026-08-31). **FROZEN:** Rulings 1–4 resolved; 5 routed to TICK-001. Stage 3 unblocked.
-- [~] 3. Literature search and AI screening, both phases (§5.1) — snowball pool built (3,140 records, 246) and diagnosed (247); production query and screen outstanding
+- [~] 3. Literature search and AI screening, both phases (§5.1) — pool (246), query (249), frame (251), prescreen (252), tail bound (253); screen batches 1–3 of 43 done, stratum A complete
 - [ ] 4. RA title/abstract review
 - [ ] 5. Full-text retrieval
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
@@ -158,4 +158,28 @@ tail population **29,077**, tail prevalence **1/136**, unscreened estimate **213
 All prescreen conclusions hold — same two rules adopted, gold 65/65 retained, title-only still
 destroys 8 gold. Raw frame dumps moved to `temp/a18/` and gitignored: the 75MB frame should never have
 been committed.
+
+**2026-08-31 (Shravan) — screen batches 1–3 (stratum A complete), 165 records.**
+
+Yield **53.3%** in the citation-intersect stratum against **0.7%** in the boolean-only tail — a 76x
+difference, and the quantitative case for building the frame from provenance.
+
+Screen audited against 34 hidden gold records: **sensitivity 91.2%** (94.1% counting UNCERTAIN). Both
+"misses" read back; one indicts the gold — *Partner + Children = Happiness?* has well-being as the
+outcome and fertility as the exposure, so rejecting it is correct and it is gold only because the
+proxy set was built on a title word.
+
+63 primary-synthesis records so far: `H2_FERTILITY` 26, `SELECTION_DIFFERENTIAL` 22,
+**`H2_MODERATION` 7**, **`PREDICTED_RESPONSE` 4**, `PEDIGREE_RESPONSE` 3, `WITHIN_VS_POPULATION` 1.
+
+Two scope predictions now measured. **The moderation arm is real** (7 records) — the arm the
+registered claim does not contain. And **the demsig-bearing cell is the thinnest**: Ruling 1 put
+demographic significance on `PREDICTED_RESPONSE`, which has 4 records against H2's 26. The
+well-evidenced half of the claim is the inert half.
+
+Exposure distance: **only 9 of 88 RELEVANT measure a fertility-associated genotype**; 13 measure
+selection on a correlated trait and 43 are anonymous twin variance. Ruling 3's conversion is doing
+more work than any single study.
+
+Next: batches 4–43 (stratum B).
 
