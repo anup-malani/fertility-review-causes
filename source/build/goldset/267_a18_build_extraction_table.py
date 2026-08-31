@@ -234,6 +234,65 @@ ROWS = [
          source_quote="medRxiv preprint of the Nature Ecology & Evolution paper, RETITLED on "
                       "publication so title-based dedup could not pair them. Same authors, same "
                       "estimate (h2 = 0.03, s.e. 1.4e-3). One study, counted twice in the 148."),
+    dict(openalex="W2110308604", study="Unraveling the intergenerational transmission of fertility (DF models, historical cohorts)",
+         year=2013, cell="H2_MODERATION", arm="H2_MOD",
+         design_class="sibling_DeFries_Fulker", relatedness_level="WITHIN_FAMILY",
+         exposure_distance="ANONYMOUS_VARIANCE", outcome_measure="completed_fertility",
+         estimand="h2_by_birth_cohort_FEMALE_sibs", estimate="0.39->0.46", se="0.25->0.16",
+         units="variance_share_per_cohort", n="", cohort_window="1810-1860",
+         phenomenon_window="FDT", cohort_complete="yes", sample_selection="historical_parish_sibs",
+         assortative_mating_handled="no",
+         estimate_superseded_by_authors="no — but SEX-DISCORDANT, see the row below",
+         extraction_status="VERIFIED_CELL_RECLASSIFIED_FROM_H2_FERTILITY",
+         source_quote="Table 2 ... Female sibs 1810 .. 0.39 0.25 | 1840 0.30 0.13 0.02 | "
+                      "1850 0.46 0.13 0.00 | 1860 0.46 0.16 0.01 (simple DF, h2 columns). "
+                      "NB the source renders minus signs as '2' (e.g. '20.05' = -0.05)."),
+    dict(openalex="W2110308604", study="Unraveling the intergenerational transmission of fertility (DF models, historical cohorts)",
+         year=2013, cell="H2_MODERATION", arm="H2_MOD",
+         design_class="sibling_DeFries_Fulker", relatedness_level="WITHIN_FAMILY",
+         exposure_distance="ANONYMOUS_VARIANCE", outcome_measure="completed_fertility",
+         estimand="h2_by_birth_cohort_MALE_sibs", estimate="0.37->0.07", se="0.29->0.17",
+         units="variance_share_per_cohort", n="", cohort_window="1810-1860",
+         phenomenon_window="FDT", cohort_complete="yes", sample_selection="historical_parish_sibs",
+         assortative_mating_handled="no",
+         estimate_superseded_by_authors="no — OPPOSITE trend to the female row above",
+         extraction_status="VERIFIED_CELL_RECLASSIFIED_FROM_H2_FERTILITY",
+         source_quote="Table 2 ... Male sibs 1810 .. 0.37 0.29 0.20 | 1820 0.47 0.16 0.00 | "
+                      "1850 0.21 0.15 0.15 | 1860 0.07 0.17 0.67 (simple DF, h2 columns)"),
+    dict(openalex="W2052070884", study="Genome-Wide Association Study of Parity in Bangladeshi Women",
+         year=2015, cell="H2_FERTILITY", arm="H2",
+         design_class="GREML_SNP", relatedness_level="POPULATION",
+         exposure_distance="ANONYMOUS_VARIANCE", outcome_measure="children_ever_born",
+         estimand="h2_SNP", estimate="0.149", se="0.24", units="variance_share",
+         n="", cohort_window="", phenomenon_window="SDT", cohort_complete="unclear",
+         sample_selection="population_cohort_Bangladesh", assortative_mating_handled="no",
+         estimate_superseded_by_authors="no — NOT significant (p = 0.265); a null, and the only "
+                                        "non-European-ancestry estimate in the set so far",
+         extraction_status="VERIFIED_NULL",
+         source_quote="children (hg2 = 0.149, SE = 0.24, p-value = 0.265) and number of pregnancies "
+                      "(hg2 = 0.007, SE = 0.22, p-value = 0.487)"),
+    dict(openalex="W2092739320", study="Byars/Stearns, demographic transition, variance in fitness, selection on height and BMI",
+         year=2013, cell="H2_MODERATION", arm="H2_MOD",
+         design_class="pedigree_parent_offspring", relatedness_level="WITHIN_FAMILY",
+         exposure_distance="ANONYMOUS_VARIANCE", outcome_measure="reproductive_success",
+         estimand="standardized_linear_selection_gradient_via_fertility_HEIGHT",
+         estimate="-0.0469", se="", units="standardized_gradient", n="812",
+         cohort_window="pre/post 1974", phenomenon_window="SDT", cohort_complete="yes",
+         sample_selection="cohort_study", assortative_mating_handled="no",
+         estimate_superseded_by_authors="no", extraction_status="VERIFIED",
+         source_quote="Table 1 Time Changes in Linear Selection by Fitness Components ... "
+                      "Fertility -4.69 x 10-2 +4.44 x 10-3 +0.36 0.01 [height]"),
+    dict(openalex="W1985105482", study="Pettay et al., natural selection on female life-history by socio-economic class, Finland",
+         year=2007, cell="PEDIGREE_RESPONSE", arm="SELECTION",
+         design_class="pedigree_parent_offspring", relatedness_level="WITHIN_FAMILY",
+         exposure_distance="ANONYMOUS_VARIANCE", outcome_measure="lifetime_reproductive_success",
+         estimand="opportunity_for_selection_I_LRS_by_wealth", estimate="0.287|0.357|0.660",
+         se="", units="variance_in_relative_fitness", n="", cohort_window="18th-19th century",
+         phenomenon_window="PM|FDT", cohort_complete="yes", sample_selection="parish_genealogy",
+         assortative_mating_handled="no",
+         estimate_superseded_by_authors="no", extraction_status="VERIFIED",
+         source_quote="Rich Middle-class Poor chi2 P | I LRS 0.287 0.357 0.660 5.99 0.003 | "
+                      "I fec 0.197 0.266 0.504 2.80 0.06 (pre-industrial Finnish women)"),
 ]
 
 

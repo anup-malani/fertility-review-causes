@@ -381,3 +381,25 @@ A diagnostic that scores 0 on its only known positive is not evidence about the 
 output must not be used. The confirmed pair is merged by hand; the general risk goes to the RA gate,
 where a human comparing author lists and cohorts sees what a regex cannot.
 
+**2026-08-31 (Shravan) — extraction pass 4: 21 rows resolved, 39 pending.**
+
+**A cohort-varying heritability table with opposite trends by sex**, from a study screened as
+`H2_FERTILITY` and now reclassified to `H2_MODERATION`. Completed fertility, historical sibling
+cohorts 1810–1860, DeFries–Fulker models: **female sibs h² rises 0.39 → 0.46** (significant from the
+1840 cohort on), **male sibs h² falls 0.37 → 0.07** (n.s. by 1860). The moderation claim in §4 is
+therefore not one direction — it is sex-specific in this dataset, and both rows are carried.
+*Transcription note:* the source renders minus signs as the digit 2 (`20.05` = −0.05), which would
+silently flip signs for anyone extracting by regex.
+
+Also verified: **GWAS of parity in Bangladeshi women** — h²_SNP for number of children 0.149
+(SE 0.24, **p = 0.265**) and for pregnancies 0.007 (SE 0.22, p = 0.487). A null, and the **only
+non-European-ancestry estimate in the set so far**, which matters for how far the h² arm generalises.
+**Byars/Stearns** standardized selection gradient on height via fertility −4.69×10⁻². **Pettay et al.**
+opportunity for selection I_LRS by wealth class in pre-industrial Finland: 0.287 rich / 0.357 middle /
+**0.660 poor** (χ² p = 0.003) — selection intensity is itself class-stratified.
+
+**A trap worth recording.** In *The Genetic and Environmental Structure of Reproduction-Related
+Variables*, the values "0.22 and 0.16" for number of children are **quoted from Kosova et al. and
+Miller et al.**, not that paper's own estimates. A regex harvest would have entered another study's
+numbers under this study's id. This is why the table carries the source sentence for every value.
+
