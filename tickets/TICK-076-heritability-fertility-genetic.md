@@ -8,7 +8,7 @@
 **Touches:** literature/search-logs/heritability-fertility-genetic-*, extraction/heritability-fertility-genetic-*, output/chapters/heritability-fertility-genetic.md
 
 ## Acceptance criteria
-- [x] 2. Search strategy and scope drafted — `literature/search-logs/heritability-fertility-genetic-search-scope.md` (2026-08-31). **Not frozen:** 5 rulings pending PI, of which 2 and 4 block stage 3.
+- [x] 2. Search strategy and scope drafted — `literature/search-logs/heritability-fertility-genetic-search-scope.md` (2026-08-31). **FROZEN:** Rulings 1–4 resolved; 5 routed to TICK-001. Stage 3 unblocked.
 - [ ] 3. Literature search and AI screening, both phases (§5.1)
 - [ ] 4. RA title/abstract review
 - [ ] 5. Full-text retrieval
@@ -42,3 +42,29 @@ Three things the scope work turned up that are not local to this chapter:
    alongside TICK-074, which is unmerged.
 
 Next: PI answers on Rulings 2 and 4, then stage 3.
+
+**2026-08-31 (Shravan) — Rulings 1–4 resolved, scope frozen, stage 3 unblocked.**
+
+1. **Demsig arm.** FDT and SDT compute on the selection response R = h² × S. **A PM cell for h² is
+   opened**, which reverses the draft's flat claim that heritability has no §4.2.1 numerator anywhere:
+   PM's denominator is a *range*, not a change, so a variance share is the right kind of quantity for
+   it. Contingent on a protocol answer about units (below). Carries a written caution: the PM share is
+   near-definitional, will clear the 10% threshold on almost any twin estimate, and means far less
+   there than "significant" means in any other chapter.
+2. **Phenomena.** Three-phenomenon chapter, verdicts wherever the arithmetic exists. The halfway
+   version first proposed — PM/FDT as evidence, SDT-only verdicts — would have left the
+   best-identified designs in the literature permanently unable to move a verdict cell.
+3. **`EDUCATION_PGS`.** PGS standard units primary; conversion to children per woman a labelled
+   secondary with the r_g interval propagated.
+4. **Fecundity traits.** `LINK_TRAIT` unless the same study links the trait to realized births.
+5. **Master-list edit confirmed necessary** and drafted in §13 for TICK-001 — `phenomena` widens to
+   PM/FDT/SDT, and the `claim` becomes three clauses matching the three arms, including the moderation
+   finding the registered text omits.
+
+**Two questions escalated to Anup as protocol-level, neither blocking:** whether PM's §4.2.1
+denominator admits a within-population between-individual variance numerator (binds stage 10, and A.9
+has the same problem), and the fact that GRADE §4.1 has no band for a non-effect estimand, so a
+competent twin design scores "Very low: correlational only" (binds stage 11; proposed
+`NOT RATEABLE — non-effect estimand`).
+
+Next: stage 3 — build the frame from anchor provenance, then the production query.

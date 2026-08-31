@@ -3,12 +3,12 @@
 **Hypothesis:** A.18 (HYPOTHESES-v5.md)
 **Hypothesis slug:** `heritability-fertility-genetic`
 **Ticket:** TICK-076
-**Target phenomenon:** SDT (as registered). **§4 argues the registered phenomenon is wrong and asks
-for a ruling.**
-**Status:** DRAFT (Shravan, 2026-08-31) — walls, estimand cells and the demsig computation proposed,
-**not frozen.** Five rulings below are marked *PI decision required*; Rulings 1 and 2 are load-bearing
-for the query and cannot be deferred past stage 3. Anchors are resolved (§12); the frame is not yet
-measured.
+**Target phenomenon:** PM, FDT, SDT — **widened from the registered SDT-only by Ruling 2.**
+**Status:** FROZEN for stage 3 (Shravan, 2026-08-31). Rulings 1–4 are resolved below; Ruling 5 is a
+master-list edit routed to TICK-001. Two questions remain open and are **protocol-level, not
+chapter-level** (§13): the PM denominator's units, and GRADE's missing band for a decomposition.
+Neither blocks the search — they bind at stages 10 and 11. Anchors are resolved (§12); the frame is
+not yet measured.
 
 ---
 
@@ -38,20 +38,39 @@ components within a population at a point in time. There is no counterfactual in
 withdrawn, no dose, and no sign. A population can have h² = 0.4 for completed fertility with a TFR of
 6 or a TFR of 1.3; h² is silent about which.
 
-It follows that **a heritability estimate cannot enter a demographic-significance calculation**, and
-the numerator PROTOCOL §4.2.1 requires does not exist for it. This is not a reason to exclude the h²
-literature — it is the evidentiary basis for the second conjunct, and the chapter needs it — but it
-fixes what that literature is *for*.
+It follows that **a heritability estimate cannot enter a demographic-significance calculation whose
+denominator is a change in a mean** — which is FDT's and SDT's. PM is the exception, because §4.2.1
+gives it a variation denominator rather than a change; Ruling 1 opens that cell and §13 question 1
+carries the units problem it raises. For the two decline phenomena the numerator §4.2.1 requires simply
+does not exist for h². This is not a reason to exclude the h² literature — it is the evidentiary basis
+for the second conjunct, and the chapter needs it — but it fixes what that literature is *for*.
 
-> **Ruling 1 — the demsig arm is computed on the selection response, never on h². (Shravan,
-> 2026-08-31; PI decision required.)**
-> h² studies are evidence for a **precondition** of the rebound claim and are reported as such. The
-> only quantity that can carry a demographic-significance number is a **shift in the mean** — the
-> per-generation response to selection. Concretely, §11 pre-specifies R = h² × S and scales it against
-> the §4.2.1 denominator. A chapter that pooled h² and reported "genes explain 30% of fertility
-> variation" against a denominator of observed TFR decline would be committing a category error in the
-> review's own headline units, and it is the error a reader is most likely to make on this chapter's
-> behalf if the chapter does not pre-empt it.
+> **Ruling 1 — RESOLVED 2026-08-31. The FDT and SDT demsig arms are computed on the selection
+> response, never on h². A PM cell for h² is opened, contingent on a §4.2.1 units extension.**
+>
+> For **FDT and SDT** the §4.2.1 denominator is a change in a mean, so the only admissible numerator is
+> also a shift in a mean — the per-generation response to selection, pre-specified as R = h² × S in
+> §11. A chapter that pooled h² and reported "genes explain 30% of fertility variation" against a
+> denominator of observed TFR decline would be committing a category error in the review's own headline
+> units, and it is the error a reader is most likely to make on this chapter's behalf.
+>
+> For **PM** the position is different, and the first draft of this memo got it wrong by asserting
+> flatly that h² has no numerator anywhere. §4.2.1 fixes the PM denominator as "the observed *range* of
+> completed fertility across pre-modern populations (a range, not a change — PM is a variation
+> phenomenon)." PM is the one phenomenon whose denominator is itself a variation quantity, so a variance
+> share is at least the right *kind* of numerator for it. It is not yet the right one — see the units
+> problem in §13, which is a protocol question and Anup's, not this chapter's. The cell is opened and
+> the computation specified; if the extension is declined the cell records NOT ASSESSED, which is a
+> legitimate outcome and not a failure of the chapter.
+>
+> **Caution binding the PM cell — the share is close to definitional.** h² *is* the share of
+> within-population between-individual variance in completed fertility attributable to genotype. Divide
+> it by a within-population variance denominator and the answer is h² again. The §4.2 threshold then
+> reduces to "is h² ≥ 0.10", which most twin studies of fertility clear comfortably, so this cell will
+> almost certainly read *significant* — and that word will mean much less here than it does in any other
+> chapter, where it means a mechanism accounts for a tenth of an observed decline. The chapter must say
+> so at the point the number is given. Without that sentence, Ruling 1's category error walks back in
+> through the one door Ruling 1 just opened.
 
 The A.9 precedent (`population-age-structure-momentum`, still unwritten) is the neighbouring case: an
 entry whose content is an accounting identity rather than a causal effect. A.18 is the variance-
@@ -87,7 +106,9 @@ runs from the SDT to the heritability, which is the reverse of the direction A.1
 
 This is worth the chapter's attention rather than a footnote, and it changes the phenomenon assignment:
 
-> **Ruling 2 — A.18 is not an SDT-only chapter. (Shravan, 2026-08-31; PI decision required.)**
+> **Ruling 2 — RESOLVED 2026-08-31. A.18 is a three-phenomenon chapter. PM, FDT and SDT all admit
+> evidence, and each carries a verdict wherever the arithmetic exists; cells where it does not are
+> NOT ASSESSED rather than silently omitted.**
 > Two independent reasons.
 > (a) The moderation finding is a *contrast across regimes* — pre-transition versus post-transition
 > cohorts — so it cannot be estimated inside the SDT window alone. It needs PM/FDT cohorts as the
@@ -98,9 +119,13 @@ This is worth the chapter's attention rather than a footnote, and it changes the
 > contemporary cohort can match. Restricting to SDT drops the identified arm and leaves the chapter
 > resting on UK Biobank and HRS, which are the *weakest* designs in the set (§10).
 > This is the A.23 pattern exactly (`identified-evidence-in-the-unnamed-arm`): count identified designs
-> per arm before scoping one out. Proposed: **PM and FDT admitted as evidence arms; SDT remains the
-> only arm carrying a demographic-significance verdict.** Requires a v5 `phenomena` edit; flagged to
-> TICK-001, not made here.
+> per arm before scoping one out.
+>
+> The adopted form goes further than the version first proposed here, which would have admitted PM and
+> FDT as evidence but let only SDT carry a verdict. That halfway position had the best-identified
+> designs in the literature permanently unable to move any verdict cell, which is a strange thing for a
+> review to build on purpose. Requires a v5 `phenomena` edit — Ruling 5, routed to TICK-001, not made
+> here.
 
 ## 5. Where admissible variation could come from — enumerated before searching
 
@@ -181,8 +206,11 @@ Heritability of a *clinical fecundity trait* — age at menopause, PCOS, endomet
 concentration — is not heritability of fertility. Proposed: a heritability estimate whose phenotype is
 a fecundity trait with **no fertility outcome** is `LINK_TRAIT` context; the trait's own effect on
 births belongs to A.15/A.16/B.3/B.4. A.18 owns heritability of **realized reproductive outcomes**.
-*PI decision required:* this is a defensible narrowing but it is a narrowing, and it removes a
-sizeable literature.
+**RESOLVED 2026-08-31 (Ruling 4), with a refinement:** a fecundity-trait heritability estimate enters
+A.18 when the *same study* links that trait to realized births, and is `LINK_TRAIT` context otherwise.
+This is narrower than the v5 claim's own wording — "heritable variation in fertility-**related traits**"
+reads on fecundity traits directly — so the ruling and the registered text disagree, and Ruling 5
+carries the correction.
 
 **Wall 5 — A.18 vs C.3.d / D.2.a and the education literature: the correlated-trait wall.**
 See §9 `EXPOSURE_DISTANCE`. A study measuring selection on an **educational-attainment** polygenic
@@ -196,11 +224,11 @@ silently stand in for it.
 
 | Cell | Estimand | Routing |
 |---|---|---|
-| `H2_FERTILITY` | h² (or h²_SNP) of a realized fertility outcome | Conjunct-1 pool. **Never enters demsig** (Ruling 1) |
+| `H2_FERTILITY` | h² (or h²_SNP) of a realized fertility outcome | Conjunct-1 pool. Enters demsig **for PM only**, contingent on §13 q1; never for FDT/SDT (Ruling 1) |
 | `H2_MODERATION` | h² estimated separately by cohort, regime, or contraceptive availability | Conjunct-3 pool (§4). Reported prominently; **arrow runs backwards**, excluded from demsig |
 | `SELECTION_DIFFERENTIAL` | Covariance of a genetic measure with realized relative fitness | Conjunct-2 pool — **the demsig arm** |
 | `ALLELE_FREQ_TREND` | Change in a genetic measure across birth cohorts | Conjunct-2 pool, separate stratum (different estimator) |
-| `PEDIGREE_RESPONSE` | Observed multi-generational trait change with known kinship | Conjunct-2 pool, separate stratum. Mostly PM/FDT (Ruling 2) |
+| `PEDIGREE_RESPONSE` | Observed multi-generational trait change with known kinship | Conjunct-2 pool, separate stratum. Mostly PM/FDT, which Ruling 2 now admits with verdicts |
 | `PREDICTED_RESPONSE` | R computed by the authors from their own h² and S | Conjunct-2, flagged derived — do not pool with directly estimated R |
 | `WITHIN_VS_POPULATION` | Same phenotype estimated both within-family and population-wide | Bias-magnitude record (§10); reported as a ratio |
 | `LINK_TRAIT` | h² of a fecundity trait, no fertility outcome | Context; cross-ref A.15/A.16/B.3/B.4 (Wall 4) |
@@ -232,7 +260,9 @@ silently stand in for it.
   healthy-volunteer selection and HRS's survivor selection both correlate with fertility.
 - `ASSORTATIVE_MATING_HANDLED` — whether the design corrects for it. Assortative mating inflates
   classical h² and is strong on education and AFB.
-- `PHENOMENON_WINDOW` — PM / FDT / SDT birth cohorts covered (Ruling 2).
+- `PHENOMENON_WINDOW` — PM / FDT / SDT birth cohorts covered, classified per PROTOCOL §2's
+  replacement-status rule rather than from calendar period (Ruling 2 makes all three live, so this tag
+  now routes to a verdict cell and not merely to a context note).
 
 ## 10. Identification threats
 
@@ -256,29 +286,47 @@ silently stand in for it.
 
 ## 11. The demographic-significance computation, pre-specified
 
-Fixed now so the arithmetic is not chosen after the numbers are known.
+Fixed now so the arithmetic is not chosen after the numbers are known. Ruling 2 makes this a
+three-phenomenon computation, and the three cells do **not** share a numerator.
 
+**FDT and SDT — the selection-response cells.**
 - **Numerator.** Per-generation response to selection, R = h² × S, in units of children per woman,
   where S is the selection differential on the fertility-relevant genetic measure in a cohort with
   completed reproduction. Where a study reports R directly (pedigree designs), that is used and
   `PREDICTED_RESPONSE` estimates are not pooled with it.
-- **Generations.** SDT window 1965–2025 at a mean generation length taken from the data, not assumed —
-  roughly two generations. The cumulative genetic contribution is R × G.
-- **Denominator.** The observed TFR decline over the same window in the same reference population, per
-  PROTOCOL §4.2.1. **The denominator rule is binding and is not restated loosely here.**
+- **Generations.** Each phenomenon's definitional window at a mean generation length taken from the
+  data, not assumed — roughly two generations for SDT (1965–2025), three for FDT (1870–1965). The
+  cumulative contribution is R × G.
+- **Denominator.** The fall in completed fertility over the phenomenon's **full definitional window**,
+  per PROTOCOL §4.2.1 rule 2 — not the study's observation window. **The denominator rule is binding
+  and is not restated loosely here.**
 - **Sign.** A rebound is a *positive* contribution against a *negative* observed change. The chapter
   reports it as an offset, and the sign convention is written into the table generator, because
   A.23's demsig was wrong-signed and B.5's FDT sign was inverted.
-- **Output.** Emitted from computed JSON by the table generator, never hand-typed
-  (`generate-result-tables-never-retype`).
 
-> **Ruling 3 — an `EDUCATION_PGS` selection differential may not be converted into a fertility
-> response without an explicit, stated genetic correlation. (PI decision required.)**
-> Most of the identified evidence measures selection on education-associated variants. Turning that
-> into "children per woman" requires r_g between the education PGS and fertility, which is itself an
-> estimate with a confidence interval. Either the conversion is done transparently with that interval
-> propagated, or the arm reports selection in PGS standard units and declines to convert. The chapter
-> must not present an unstated conversion.
+**PM — the variance cell (Ruling 1, contingent on §13 question 1).**
+- **Numerator.** The genetic component of between-individual variance in completed fertility in a
+  pre-modern population: h² × Var(completed fertility), from the pedigree and parish-register designs.
+- **Denominator.** *Unresolved — this is §13 question 1.* §4.2.1 as written gives PM a
+  between-population range, which does not share units with a within-population variance. Pending that
+  answer the cell is computed and reported with its denominator named but **no verdict band assigned**,
+  exactly as §4.2.1 requires for a share whose denominator is not the phenomenon.
+- **Caution.** The share is close to definitional; see the caution under Ruling 1. It is stated
+  wherever the number is.
+
+**Output.** All three cells emitted from computed JSON by the table generator, never hand-typed
+(`generate-result-tables-never-retype`), with numerator, denominator, denominator source and window
+printed beside each share per §4.2.1 rule 4.
+
+> **Ruling 3 — RESOLVED 2026-08-31. Selection is reported in PGS standard units as the primary
+> result; the conversion to children per woman is a labelled secondary line carrying the genetic
+> correlation's confidence interval.**
+> Most of the identified evidence measures selection on education-associated variants, so the primary
+> number must be the one actually estimated. Converting to "children per woman" requires r_g between the
+> education PGS and fertility, itself an estimate with an interval, and that interval propagates into
+> the converted figure rather than being dropped at the point of conversion. The two lines are never
+> presented in the same column: a derived quantity does not sit in the same units as a directly
+> estimated one without saying which is which.
 
 ## 12. Cold-start anchors — resolved 2026-08-31, all 25 confirmed
 
@@ -320,18 +368,58 @@ Stearns et al. 2010, Mills and Tropf 2020 and Stulp and Barrett 2016 as reviews.
    regression, within-sibship, breeder's equation, selection gradient. This channel must fail for
    unrelated reasons to the topical one, and it is tested on a known positive (Sanjak 2017) first.
 
-## 13. Rulings requiring PI sign-off
+## 13. Rulings — resolved 2026-08-31, and what is still open
 
-| # | Ruling | Where | Blocks |
+| # | Ruling | Resolution | Where |
 |---|---|---|---|
-| 1 | demsig computed on the selection response, never on h² | §2 | synthesis, and the A.9 precedent |
-| 2 | admit PM/FDT as evidence arms; SDT alone carries the verdict | §4 | **the production query** — cannot be deferred |
-| 3 | no unstated `EDUCATION_PGS` → fertility conversion | §11 | demsig |
-| 4 | fecundity-trait heritability is `LINK_TRAIT`, not A.18 | Wall 4 | screen rubric |
-| 5 | v5 `claim` and `phenomena` fields need editing to match Rulings 1–2 | §1, §4 | TICK-001, not this ticket |
+| 1 | What can carry a demsig number | FDT/SDT on the selection response; a PM variance cell opened, contingent on question 1 below | §2 |
+| 2 | Phenomena | **Three-phenomenon chapter.** PM, FDT, SDT all admit evidence; each carries a verdict where the arithmetic exists | §4 |
+| 3 | `EDUCATION_PGS` conversion | PGS SD units primary; conversion a labelled secondary with r_g interval propagated | §11 |
+| 4 | Fecundity traits | `LINK_TRAIT` unless the same study links the trait to realized births | Wall 4 |
+| 5 | v5 master-list edit | **Confirmed necessary by 2 and 4** — proposed text below; routed to TICK-001 | §1, §4 |
 
-Rulings 2 and 4 change what the query must reach and what the screen admits, so stage 3 does not start
-until they are answered. Rulings 1 and 3 bind at synthesis and can run behind.
+**Stage 3 is unblocked.** Rulings 2 and 4 were the two that bound the query and the screen rubric, and
+both are answered.
+
+### Ruling 5 — the proposed master-list edit, for TICK-001
+
+Not made here; HYPOTHESES-v5.md is the PI's file. Two fields on §A.18 disagree with the rulings above:
+
+- `phenomena:` **SDT** → **PM, FDT, SDT** (Ruling 2).
+- `claim:` the registered text is a conjunction — "explains a portion of between-individual fertility
+  differences **and** may produce a partial fertility rebound" — whose halves are different quantities
+  answered by different literatures (§3). It also says "fertility-**related** traits", which reads on
+  fecundity traits that Ruling 4 routes out. Proposed replacement:
+  > Heritable variation in **realized fertility outcomes** accounts for a portion of between-individual
+  > differences in completed fertility; the size of that portion **varies with how far fertility is
+  > under individual control**; and selection on fertility-associated genotypes produces a change in
+  > mean fertility across generations.
+  Three clauses, three arms, matching §8's cells — and the middle one is the moderation finding the
+  registered claim omits entirely.
+
+### Two questions that are protocol-level, not chapter-level — for Anup
+
+Neither blocks the search. Both bind later, and both outlive this chapter.
+
+**1. Does PM's §4.2.1 denominator admit a within-population variance numerator? (Binds stage 10.)**
+§2 defines PM as "fertility variation across populations **and within populations over time**", but
+§4.2.1's denominator is only the first of those: a range across pre-modern populations. Heritability is
+a third thing again — within-population, **between-individual**, at a point in time — so it matches
+neither clause as written. The gap is not specific to A.18: A.9's momentum decomposition is also a
+within-population share against a denominator defined between populations. Proposed amendment: split
+PM's denominator into the two variation quantities §2 already names, and add the between-individual
+one, so a decomposition-type hypothesis has somewhere to land. If declined, A.18's PM cell records
+NOT ASSESSED and the chapter says why.
+
+**2. GRADE §4.1 has no band for a variance decomposition. (Binds stage 11.)**
+The bands are defined by identification strategy — RCT, natural experiment, IV/DiD/RD, "correlational
+only". A classical twin design is none of these, so a well-executed decomposition falls to **Very low:
+correlational only**, which reads to a reader as *this literature is poorly identified*. It is not; it
+is answering a different question, and answering it competently. This is `empty-cell-is-the-result` in
+a new place: the nearest available label is actively misleading, so the right move is a new label
+rather than the nearest one. Proposed: a `NOT RATEABLE — non-effect estimand` value for §4.1, applied
+to the `H2_FERTILITY` and `H2_MODERATION` arms, with the selection-response arm rated on the ordinary
+bands. A.9 will need the same value.
 
 ## 14. When to adjudicate
 
