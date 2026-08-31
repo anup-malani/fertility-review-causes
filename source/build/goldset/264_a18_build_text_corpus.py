@@ -53,11 +53,18 @@ def toks(s):
 
 
 def html_to_text(p):
+    """Keeps table cells as delimited text. The first version stripped all markup
+    uniformly, so a <table> of heritability estimates collapsed into a run of bare
+    numbers with no association to their row or column labels."""
     raw = p.read_bytes().decode("utf8", "ignore")
     raw = re.sub(r"(?is)<(script|style|nav|header|footer)[^>]*>.*?</\1>", " ", raw)
+    # mark cell and row boundaries before the tags go
+    raw = re.sub(r"(?i)</t[dh]>", " | ", raw)
+    raw = re.sub(r"(?i)</tr>", " \n", raw)
     raw = re.sub(r"(?s)<[^>]+>", " ", raw)
     raw = re.sub(r"&[a-z]+;", " ", raw)
-    return re.sub(r"\s+", " ", raw).strip()
+    raw = re.sub(r"[ \t]+", " ", raw)
+    return re.sub(r"\n{3,}", "\n\n", raw).strip()
 
 
 def bioc_to_text(p):
@@ -77,17 +84,32 @@ def bioc_to_text(p):
 
 
 def pdf_to_text(p):
-    r = subprocess.run(["pdftotext", "-q", "-enc", "UTF-8", str(p), "-"],
+    """-layout preserves column structure. Without it pdftotext linearises tables and
+    the estimates they hold -- which is where h2, SE and n usually live -- become
+    unrecoverable word soup. Several 50-75k texts yielded no numeric estimate at all
+    on the first pass for exactly this reason."""
+    r = subprocess.run(["pdftotext", "-q", "-layout", "-enc", "UTF-8", str(p), "-"],
                        capture_output=True, text=True)
-    return r.stdout or ""
+    out = r.stdout or ""
+    if len(out) < 500:   # fall back if -layout produced nothing usable
+        r = subprocess.run(["pdftotext", "-q", "-enc", "UTF-8", str(p), "-"],
+                           capture_output=True, text=True)
+        out = r.stdout or ""
+    return out
 
 
 def main():
     TXT.mkdir(parents=True, exist_ok=True)
     state = json.loads((LOGS / "heritability-fertility-genetic-retrieval-state.json").read_text())["state"]
     rows, kinds = [], Counter()
+    # 265 rewrote the state vocabulary (RETRIEVED -> FULL_TEXT / ABSTRACT_ONLY /
+    # BOT_CHALLENGE_PAGE). Keying on the old literal made this stage silently skip
+    # every record and emit an empty corpus -- a pipeline that reports nothing rather
+    # than failing. Drive off "has files" instead, which is what this stage actually
+    # needs, and assert the corpus is non-empty before writing.
+    PROCESS = {"RETRIEVED", "FULL_TEXT", "ABSTRACT_ONLY"}
     for oid, s in state.items():
-        if s["status"] != "RETRIEVED":
+        if s["status"] not in PROCESS and not list(SRC.glob(f"{oid}.*")):
             continue
         files = sorted(SRC.glob(f"{oid}.*"))
         best = None
@@ -137,6 +159,8 @@ def main():
                      "file": f.name, "chars": len(text),
                      "title_overlap": round(overlap, 2), "sections": nsec, "verdict": v})
 
+    assert rows, ("no files processed -- check that the retrieval state's status "
+                  "vocabulary still matches what this stage expects")
     bycell = Counter((r["cell"], r["verdict"]) for r in rows)
     cells = sorted({r["cell"] for r in rows})
     print("verdicts:", dict(kinds))

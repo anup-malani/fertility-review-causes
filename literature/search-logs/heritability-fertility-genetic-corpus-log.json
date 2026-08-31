@@ -2,22 +2,22 @@
  "summary": {
   "verdicts": {
    "FULL": 56,
-   "JUNK": 46,
+   "JUNK": 79,
    "ABSTRACT_ONLY": 6
   },
   "by_cell": {
    "H2_FERTILITY|FULL": 21,
-   "H2_FERTILITY|JUNK": 23,
-   "SELECTION_DIFFERENTIAL|JUNK": 13,
+   "H2_FERTILITY|JUNK": 38,
+   "SELECTION_DIFFERENTIAL|JUNK": 20,
+   "PEDIGREE_RESPONSE|JUNK": 8,
    "H2_FERTILITY|ABSTRACT_ONLY": 4,
-   "PEDIGREE_RESPONSE|JUNK": 5,
    "PEDIGREE_RESPONSE|FULL": 7,
-   "PREDICTED_RESPONSE|JUNK": 3,
+   "H2_MODERATION|JUNK": 8,
+   "PREDICTED_RESPONSE|JUNK": 5,
    "SELECTION_DIFFERENTIAL|FULL": 21,
    "H2_MODERATION|FULL": 5,
    "SELECTION_DIFFERENTIAL|ABSTRACT_ONLY": 2,
    "PREDICTED_RESPONSE|FULL": 1,
-   "H2_MODERATION|JUNK": 2,
    "WITHIN_VS_POPULATION|FULL": 1
   },
   "note": "Only FULL proceeds to extraction. ABSTRACT_ONLY and WRONG_PAPER return to the retrieval queue: an abstract is not a full text."
@@ -28,7 +28,7 @@
    "cell": "H2_FERTILITY",
    "title": "Genome-Wide Association Study of Parity in Bangladeshi Women",
    "file": "W2052070884.html",
-   "chars": 34753,
+   "chars": 58756,
    "title_overlap": 1.0,
    "sections": 6,
    "verdict": "FULL"
@@ -38,7 +38,17 @@
    "cell": "H2_FERTILITY",
    "title": "Explaining stasis: microevolutionary studies in natural populations",
    "file": "W2165665473.html",
-   "chars": 303,
+   "chars": 333,
+   "title_overlap": 0.0,
+   "sections": 0,
+   "verdict": "JUNK"
+  },
+  {
+   "openalex": "W2170780249",
+   "cell": "H2_FERTILITY",
+   "title": "The lek paradox and the capture of genetic variance by condition dependent traits",
+   "file": "W2170780249.html",
+   "chars": 58,
    "title_overlap": 0.0,
    "sections": 0,
    "verdict": "JUNK"
@@ -48,7 +58,7 @@
    "cell": "H2_FERTILITY",
    "title": "A Heritability Study of Childbearing Motivation",
    "file": "W108975355.html",
-   "chars": 303,
+   "chars": 333,
    "title_overlap": 0.0,
    "sections": 0,
    "verdict": "JUNK"
@@ -64,11 +74,31 @@
    "verdict": "JUNK"
   },
   {
+   "openalex": "W2059206901",
+   "cell": "PEDIGREE_RESPONSE",
+   "title": "Genetics and analysis of quantitative traits",
+   "file": "W2059206901.html",
+   "chars": 58,
+   "title_overlap": 0.0,
+   "sections": 0,
+   "verdict": "JUNK"
+  },
+  {
    "openalex": "W1532328642",
    "cell": "H2_FERTILITY",
    "title": "Life History, Evolution of",
    "file": "W1532328642.html",
-   "chars": 11,
+   "chars": 64,
+   "title_overlap": 0.0,
+   "sections": 0,
+   "verdict": "JUNK"
+  },
+  {
+   "openalex": "W1966206981",
+   "cell": "H2_FERTILITY",
+   "title": "NATURAL SELECTION AND RANDOM GENETIC DRIFT IN PHENOTYPIC EVOLUTION",
+   "file": "W1966206981.html",
+   "chars": 58,
    "title_overlap": 0.0,
    "sections": 0,
    "verdict": "JUNK"
@@ -78,7 +108,7 @@
    "cell": "H2_FERTILITY",
    "title": "The Genetical Theory of Natural Selection",
    "file": "W1966568033.html",
-   "chars": 2848,
+   "chars": 3757,
    "title_overlap": 1.0,
    "sections": 1,
    "verdict": "ABSTRACT_ONLY"
@@ -88,7 +118,7 @@
    "cell": "PEDIGREE_RESPONSE",
    "title": "The adaptive landscape as a conceptual bridge between micro- and macroevolution",
    "file": "W4297124397.html",
-   "chars": 303,
+   "chars": 333,
    "title_overlap": 0.0,
    "sections": 0,
    "verdict": "JUNK"
@@ -98,10 +128,30 @@
    "cell": "PEDIGREE_RESPONSE",
    "title": "Genetic correlations, tradeoffs and environmental variation",
    "file": "W2084434401.pdf",
-   "chars": 44399,
+   "chars": 61900,
    "title_overlap": 1.0,
    "sections": 3,
    "verdict": "FULL"
+  },
+  {
+   "openalex": "W2022720305",
+   "cell": "H2_FERTILITY",
+   "title": "Conflicting selection pressures and life history trade-offs",
+   "file": "W2022720305.html",
+   "chars": 58,
+   "title_overlap": 0.0,
+   "sections": 0,
+   "verdict": "JUNK"
+  },
+  {
+   "openalex": "W2894859047",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "title": "AN UNSOLVED PROBLEM OF BIOLOGY",
+   "file": "W2894859047.html",
+   "chars": 58,
+   "title_overlap": 0.0,
+   "sections": 0,
+   "verdict": "JUNK"
   },
   {
    "openalex": "W2049107009",
@@ -124,6 +174,16 @@
    "verdict": "FULL"
   },
   {
+   "openalex": "W2103638956",
+   "cell": "H2_FERTILITY",
+   "title": "A Comprehensive Assessment of Parental Age and Psychiatric Disorders",
+   "file": "W2103638956.html",
+   "chars": 58,
+   "title_overlap": 0.0,
+   "sections": 0,
+   "verdict": "JUNK"
+  },
+  {
    "openalex": "W2068827105",
    "cell": "PEDIGREE_RESPONSE",
    "title": "Reproduction and longevity among the British peerage: the effect of frailty and health selection",
@@ -138,7 +198,7 @@
    "cell": "H2_FERTILITY",
    "title": "On genetic variation in menarche and age at first sexual intercourse",
    "file": "W1994535024.html",
-   "chars": 11,
+   "chars": 64,
    "title_overlap": 0.0,
    "sections": 0,
    "verdict": "JUNK"
@@ -148,7 +208,17 @@
    "cell": "SELECTION_DIFFERENTIAL",
    "title": "On the possibility of the reemergence of a dysgenic trend with respect to intelligence in American fertility differentials",
    "file": "W1978496284.html",
-   "chars": 11,
+   "chars": 64,
+   "title_overlap": 0.0,
+   "sections": 0,
+   "verdict": "JUNK"
+  },
+  {
+   "openalex": "W2058506038",
+   "cell": "H2_MODERATION",
+   "title": "The effects of demographic transition on the opportunity for selection: changes during the last century in Italy",
+   "file": "W2058506038.html",
+   "chars": 58,
    "title_overlap": 0.0,
    "sections": 0,
    "verdict": "JUNK"
@@ -158,7 +228,7 @@
    "cell": "PEDIGREE_RESPONSE",
    "title": "Examining the trade-offs between human fertility and longevity over three centuries using crowdsourced genealogy data",
    "file": "W3190761431.html",
-   "chars": 74601,
+   "chars": 118974,
    "title_overlap": 1.0,
    "sections": 5,
    "verdict": "FULL"
@@ -168,7 +238,7 @@
    "cell": "PEDIGREE_RESPONSE",
    "title": "Early-life environment and differences in costs of reproduction in a preindustrial human population",
    "file": "W2904304377.html",
-   "chars": 61827,
+   "chars": 95576,
    "title_overlap": 1.0,
    "sections": 6,
    "verdict": "FULL"
@@ -178,7 +248,7 @@
    "cell": "H2_FERTILITY",
    "title": "Age at first intercourse in twins reared apart: Genetic influence and life history events",
    "file": "W2057403477.html",
-   "chars": 11,
+   "chars": 64,
    "title_overlap": 0.0,
    "sections": 0,
    "verdict": "JUNK"
@@ -188,7 +258,17 @@
    "cell": "H2_FERTILITY",
    "title": "Genetic confounding of the relationship between father absence and age at menarche",
    "file": "W2560295938.html",
-   "chars": 11,
+   "chars": 64,
+   "title_overlap": 0.0,
+   "sections": 0,
+   "verdict": "JUNK"
+  },
+  {
+   "openalex": "W1975033759",
+   "cell": "H2_FERTILITY",
+   "title": "Intelligence and family size: A paradox resolved",
+   "file": "W1975033759.html",
+   "chars": 58,
    "title_overlap": 0.0,
    "sections": 0,
    "verdict": "JUNK"
@@ -198,7 +278,17 @@
    "cell": "PEDIGREE_RESPONSE",
    "title": "Reproductive life of french-canadians in the 17\u201318th centuries: A search for a trade-off between early fecundity and longevity",
    "file": "W2165786168.html",
-   "chars": 11,
+   "chars": 64,
+   "title_overlap": 0.0,
+   "sections": 0,
+   "verdict": "JUNK"
+  },
+  {
+   "openalex": "W1970145640",
+   "cell": "PREDICTED_RESPONSE",
+   "title": "Why Is Fertility Lower in Wealthier Countries? The Role of Relaxed Fertility-Selection",
+   "file": "W1970145640.html",
+   "chars": 58,
    "title_overlap": 0.0,
    "sections": 0,
    "verdict": "JUNK"
@@ -208,7 +298,7 @@
    "cell": "PEDIGREE_RESPONSE",
    "title": "Middleborns Disadvantaged? Testing Birth-Order Effects on Fitness in Pre-Industrial Finns",
    "file": "W2045292033.html",
-   "chars": 55681,
+   "chars": 56963,
    "title_overlap": 1.0,
    "sections": 4,
    "verdict": "FULL"
@@ -218,7 +308,17 @@
    "cell": "PREDICTED_RESPONSE",
    "title": "Wright\u2013Fisher Revisited: The Case of Fertility Correlation",
    "file": "W1999087381.html",
-   "chars": 11,
+   "chars": 64,
+   "title_overlap": 0.0,
+   "sections": 0,
+   "verdict": "JUNK"
+  },
+  {
+   "openalex": "W2010362031",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "title": "Changes of selection opportunities with a changing environment: regional heterogeneity in Italy",
+   "file": "W2010362031.html",
+   "chars": 58,
    "title_overlap": 0.0,
    "sections": 0,
    "verdict": "JUNK"
@@ -228,10 +328,20 @@
    "cell": "H2_FERTILITY",
    "title": "Age at First Sexual Intercourse and Teenage Pregnancy in Australian Female Twins",
    "file": "W2009595306.pdf",
-   "chars": 49931,
+   "chars": 85248,
    "title_overlap": 1.0,
    "sections": 6,
    "verdict": "FULL"
+  },
+  {
+   "openalex": "W2907419907",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "title": "A 10-year prospective study of personality and reproductive success: Testing the mediating role of healthy living",
+   "file": "W2907419907.html",
+   "chars": 58,
+   "title_overlap": 0.0,
+   "sections": 0,
+   "verdict": "JUNK"
   },
   {
    "openalex": "W2965692835",
@@ -248,7 +358,7 @@
    "cell": "SELECTION_DIFFERENTIAL",
    "title": "Detecting past and ongoing natural selection among ethnically Tibetan women at high altitude in Nepal",
    "file": "W2952789803.html",
-   "chars": 108455,
+   "chars": 171660,
    "title_overlap": 1.0,
    "sections": 6,
    "verdict": "FULL"
@@ -284,6 +394,16 @@
    "verdict": "JUNK"
   },
   {
+   "openalex": "W1992576554",
+   "cell": "H2_MODERATION",
+   "title": "Between nurture and nature: The shifting determinants of female fertility in Danish twin cohorts",
+   "file": "W1992576554.html",
+   "chars": 58,
+   "title_overlap": 0.0,
+   "sections": 0,
+   "verdict": "JUNK"
+  },
+  {
    "openalex": "W2856770414",
    "cell": "SELECTION_DIFFERENTIAL",
    "title": "Father Absence and Accelerated Reproductive Development in Non-Hispanic White Women in the United States",
@@ -298,7 +418,7 @@
    "cell": "H2_FERTILITY",
    "title": "Reproductive and cognitive phenotypes in carriers of recessive pathogenic variants",
    "file": "W4410412365.html",
-   "chars": 22465,
+   "chars": 24463,
    "title_overlap": 1.0,
    "sections": 4,
    "verdict": "FULL"
@@ -308,7 +428,7 @@
    "cell": "H2_MODERATION",
    "title": "The Influence of Societal Changes on the Contribution of Genetics to Fertility Behavior",
    "file": "W4390167893.html",
-   "chars": 60746,
+   "chars": 65376,
    "title_overlap": 1.0,
    "sections": 5,
    "verdict": "FULL"
@@ -318,7 +438,7 @@
    "cell": "SELECTION_DIFFERENTIAL",
    "title": "Measuring selection for genes that promote long life in a historical human population",
    "file": "W2762552667.html",
-   "chars": 17641,
+   "chars": 19797,
    "title_overlap": 1.0,
    "sections": 3,
    "verdict": "FULL"
@@ -328,7 +448,17 @@
    "cell": "SELECTION_DIFFERENTIAL",
    "title": "Natural Selection Across Three Generations of Americans",
    "file": "W4400559341.html",
-   "chars": 303,
+   "chars": 333,
+   "title_overlap": 0.0,
+   "sections": 0,
+   "verdict": "JUNK"
+  },
+  {
+   "openalex": "W2413981805",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "title": "Assortative mating and differential fertility by phenotype and genotype across the 20th century",
+   "file": "W2413981805.html",
+   "chars": 58,
    "title_overlap": 0.0,
    "sections": 0,
    "verdict": "JUNK"
@@ -338,7 +468,7 @@
    "cell": "SELECTION_DIFFERENTIAL",
    "title": "Deep Human Genealogies Reveal a Selective Advantage to Be on an Expanding Wave Front",
    "file": "W1973490559.html",
-   "chars": 2172,
+   "chars": 2581,
    "title_overlap": 1.0,
    "sections": 0,
    "verdict": "ABSTRACT_ONLY"
@@ -348,7 +478,7 @@
    "cell": "H2_FERTILITY",
    "title": "Genetic influence on age at first birth of female twins born in the UK, 1919\u201368",
    "file": "W1657275493.html",
-   "chars": 7726,
+   "chars": 8518,
    "title_overlap": 1.0,
    "sections": 1,
    "verdict": "ABSTRACT_ONLY"
@@ -404,11 +534,21 @@
    "verdict": "JUNK"
   },
   {
+   "openalex": "W1774122399",
+   "cell": "H2_MODERATION",
+   "title": "Effects of the demographic transition on the genetic variances and covariances of human life-history traits",
+   "file": "W1774122399.html",
+   "chars": 58,
+   "title_overlap": 0.0,
+   "sections": 0,
+   "verdict": "JUNK"
+  },
+  {
    "openalex": "W590852753",
    "cell": "H2_FERTILITY",
    "title": "Human Fertility, Molecular Genetics, and Natural Selection in Modern Societies",
    "file": "W590852753.html",
-   "chars": 54965,
+   "chars": 85438,
    "title_overlap": 1.0,
    "sections": 5,
    "verdict": "FULL"
@@ -418,7 +558,7 @@
    "cell": "PREDICTED_RESPONSE",
    "title": "The heritability of fertility makes world population stabilization unlikely in the foreseeable future",
    "file": "W2890425574.html",
-   "chars": 11,
+   "chars": 64,
    "title_overlap": 0.0,
    "sections": 0,
    "verdict": "JUNK"
@@ -428,7 +568,7 @@
    "cell": "PREDICTED_RESPONSE",
    "title": "DF-like Analyses of Binary, Ordered, and Censored Variables Using Probit and Tobit Approaches",
    "file": "W22472955.html",
-   "chars": 303,
+   "chars": 333,
    "title_overlap": 0.1,
    "sections": 0,
    "verdict": "JUNK"
@@ -438,7 +578,7 @@
    "cell": "SELECTION_DIFFERENTIAL",
    "title": "Why do we get sick? Genetic evidence for evolutionary trade-offs between fertility, longevity, and disease",
    "file": "W4411477116.pdf",
-   "chars": 81569,
+   "chars": 93545,
    "title_overlap": 1.0,
    "sections": 6,
    "verdict": "FULL"
@@ -448,7 +588,7 @@
    "cell": "H2_MODERATION",
    "title": "The Demographic Transition Influences Variance in Fitness and Selection on Height and BMI in Rural Gambia",
    "file": "W2092739320.pdf",
-   "chars": 13889,
+   "chars": 16724,
    "title_overlap": 1.0,
    "sections": 3,
    "verdict": "FULL"
@@ -458,7 +598,7 @@
    "cell": "SELECTION_DIFFERENTIAL",
    "title": "Reproductive fitness and genetic risk of psychiatric disorders in the general population",
    "file": "W2625700093.pdf",
-   "chars": 35292,
+   "chars": 50644,
    "title_overlap": 1.0,
    "sections": 6,
    "verdict": "FULL"
@@ -468,7 +608,7 @@
    "cell": "PREDICTED_RESPONSE",
    "title": "Impact of fertility transmission and other sociodemographic factors on reproductive success and coalescent trees",
    "file": "W2169871877.pdf",
-   "chars": 53790,
+   "chars": 85471,
    "title_overlap": 1.0,
    "sections": 7,
    "verdict": "FULL"
@@ -488,7 +628,7 @@
    "cell": "H2_FERTILITY",
    "title": "The age at first birth and completed fertility reconsidered: findings from a sample of identical twins",
    "file": "W2736952228.pdf",
-   "chars": 115228,
+   "chars": 135187,
    "title_overlap": 1.0,
    "sections": 0,
    "verdict": "ABSTRACT_ONLY"
@@ -498,7 +638,7 @@
    "cell": "SELECTION_DIFFERENTIAL",
    "title": "Evidence for evolution in response to natural selection in a contemporary human population",
    "file": "W2054229127.html",
-   "chars": 11109,
+   "chars": 12275,
    "title_overlap": 1.0,
    "sections": 1,
    "verdict": "ABSTRACT_ONLY"
@@ -508,9 +648,9 @@
    "cell": "H2_FERTILITY",
    "title": "The Sociogenomics of Polygenic Scores of Reproductive Behavior and Their Relationship to Other Fertility Traits",
    "file": "W2795856187.pdf",
-   "chars": 55014,
+   "chars": 70092,
    "title_overlap": 1.0,
-   "sections": 5,
+   "sections": 4,
    "verdict": "FULL"
   },
   {
@@ -518,7 +658,7 @@
    "cell": "H2_FERTILITY",
    "title": "Association studies between chromosomal regions 1q21.3, 5q21.3, 14q21.2 and 17q21.31 and numbers of children in Poland",
    "file": "W4308408443.pdf",
-   "chars": 52275,
+   "chars": 77741,
    "title_overlap": 1.0,
    "sections": 7,
    "verdict": "FULL"
@@ -528,7 +668,17 @@
    "cell": "H2_FERTILITY",
    "title": "Evolutionary Causes of Genetic Variation in Fertility and other Fitness Components",
    "file": "W189676882.html",
-   "chars": 303,
+   "chars": 333,
+   "title_overlap": 0.0,
+   "sections": 0,
+   "verdict": "JUNK"
+  },
+  {
+   "openalex": "W2009249473",
+   "cell": "H2_FERTILITY",
+   "title": "Variability and heritability of human fertility",
+   "file": "W2009249473.html",
+   "chars": 58,
    "title_overlap": 0.0,
    "sections": 0,
    "verdict": "JUNK"
@@ -538,10 +688,20 @@
    "cell": "H2_FERTILITY",
    "title": "Sexual dimorphism in the genetic influence on human childlessness",
    "file": "W2731861498.pdf",
-   "chars": 49077,
+   "chars": 70908,
    "title_overlap": 1.0,
    "sections": 7,
    "verdict": "FULL"
+  },
+  {
+   "openalex": "W1967862655",
+   "cell": "H2_FERTILITY",
+   "title": "Behavior genetic modeling of human fertility: Findings from a contemporary danish twin study",
+   "file": "W1967862655.html",
+   "chars": 58,
+   "title_overlap": 0.0,
+   "sections": 0,
+   "verdict": "JUNK"
   },
   {
    "openalex": "W2544485223",
@@ -588,7 +748,7 @@
    "cell": "SELECTION_DIFFERENTIAL",
    "title": "Modelling the on-going natural selection of educational attainment in contemporary societies",
    "file": "W3008866789.html",
-   "chars": 11,
+   "chars": 64,
    "title_overlap": 0.0,
    "sections": 0,
    "verdict": "JUNK"
@@ -598,7 +758,7 @@
    "cell": "H2_FERTILITY",
    "title": "Genetic Variance in Human Fertility: Biology, Psychology, or Both?",
    "file": "W39831267.html",
-   "chars": 303,
+   "chars": 333,
    "title_overlap": 0.0,
    "sections": 0,
    "verdict": "JUNK"
@@ -608,7 +768,7 @@
    "cell": "H2_FERTILITY",
    "title": "NATURE, NURTURE AND FIRST SEXUAL INTERCOURSE IN THE USA: FITTING BEHAVIOURAL GENETIC MODELS TO NLSY KINSHIP DATA",
    "file": "W2076586348.html",
-   "chars": 21617,
+   "chars": 24412,
    "title_overlap": 1.0,
    "sections": 5,
    "verdict": "FULL"
@@ -628,7 +788,7 @@
    "cell": "H2_FERTILITY",
    "title": "What Explains the Heritability of Completed Fertility? Evidence from Two Large Twin Studies",
    "file": "W2513851012.html",
-   "chars": 303,
+   "chars": 333,
    "title_overlap": 0.0,
    "sections": 0,
    "verdict": "JUNK"
@@ -638,7 +798,17 @@
    "cell": "H2_MODERATION",
    "title": "Biosocial Models of Low-Fertility Societies",
    "file": "W1979473713.html",
-   "chars": 303,
+   "chars": 333,
+   "title_overlap": 0.0,
+   "sections": 0,
+   "verdict": "JUNK"
+  },
+  {
+   "openalex": "W2548870266",
+   "cell": "PREDICTED_RESPONSE",
+   "title": "The Theoretical Potential for Selection on Determinants of Fertility to Cause Aggregate Fertility Increases in Human Populations",
+   "file": "W2548870266.html",
+   "chars": 58,
    "title_overlap": 0.0,
    "sections": 0,
    "verdict": "JUNK"
@@ -658,27 +828,47 @@
    "cell": "SELECTION_DIFFERENTIAL",
    "title": "Contrasting evolutionary outcomes in a human life history trait which is heritable and under consistent unbiased directional selection",
    "file": "W4415164102.retry.pdf",
-   "chars": 71803,
+   "chars": 85652,
    "title_overlap": 1.0,
    "sections": 7,
    "verdict": "FULL"
+  },
+  {
+   "openalex": "W3180091553",
+   "cell": "H2_FERTILITY",
+   "title": "Genome-Wide Heritability Estimates for Family Life Course Complexity",
+   "file": "W3180091553.html",
+   "chars": 58,
+   "title_overlap": 0.0,
+   "sections": 0,
+   "verdict": "JUNK"
   },
   {
    "openalex": "W7169878769",
    "cell": "SELECTION_DIFFERENTIAL",
    "title": "Genetic trade-offs in fertility and longevity explain the maintenance of disease-associated alleles in humans",
    "file": "W7169878769.pdf",
-   "chars": 86258,
+   "chars": 201241,
    "title_overlap": 1.0,
    "sections": 6,
    "verdict": "FULL"
+  },
+  {
+   "openalex": "W2091998589",
+   "cell": "H2_FERTILITY",
+   "title": "Genetic Influence Helps Explain Variation in Human Fertility: Evidence From Recent Behavioral and Molecular Genetic Studies",
+   "file": "W2091998589.html",
+   "chars": 58,
+   "title_overlap": 0.0,
+   "sections": 0,
+   "verdict": "JUNK"
   },
   {
    "openalex": "W2482869111",
    "cell": "H2_FERTILITY",
    "title": "Genetic Influences on Human Fertility and Sexuality",
    "file": "W2482869111.html",
-   "chars": 303,
+   "chars": 333,
    "title_overlap": 0.0,
    "sections": 0,
    "verdict": "JUNK"
@@ -688,7 +878,7 @@
    "cell": "SELECTION_DIFFERENTIAL",
    "title": "How Cognitive Genetic Factors Influence Fertility Outcomes: A Mediational SEM Analysis",
    "file": "W2950098314.pdf",
-   "chars": 49617,
+   "chars": 74084,
    "title_overlap": 1.0,
    "sections": 5,
    "verdict": "FULL"
@@ -708,7 +898,7 @@
    "cell": "WITHIN_VS_POPULATION",
    "title": "Within-family heritability estimates for behavioural and disease phenotypes from 500,000 sibling pairs of diverse ancestries",
    "file": "W4414345371.pdf",
-   "chars": 45074,
+   "chars": 68019,
    "title_overlap": 1.0,
    "sections": 6,
    "verdict": "FULL"
@@ -718,7 +908,7 @@
    "cell": "H2_FERTILITY",
    "title": "Heritable and environmental variables affect reproduction-related behaviors, but not ultimate reproductive success",
    "file": "W2062505457.html",
-   "chars": 11,
+   "chars": 64,
    "title_overlap": 0.0,
    "sections": 0,
    "verdict": "JUNK"
@@ -748,7 +938,7 @@
    "cell": "PEDIGREE_RESPONSE",
    "title": "The Biocultural Origins of Human Capital Formation",
    "file": "W1562851158.html",
-   "chars": 95629,
+   "chars": 126238,
    "title_overlap": 1.0,
    "sections": 5,
    "verdict": "FULL"
@@ -758,7 +948,7 @@
    "cell": "H2_FERTILITY",
    "title": "Perfect genetic correlation between number of offspring and grandoffspring in an industrialized human population",
    "file": "W2103205223.html",
-   "chars": 12343,
+   "chars": 13122,
    "title_overlap": 1.0,
    "sections": 1,
    "verdict": "ABSTRACT_ONLY"
@@ -768,17 +958,27 @@
    "cell": "H2_FERTILITY",
    "title": "Unraveling the intergenerational transmission of fertility: genetic and shared-environment effects during the demographic transition in the Netherlands, 1810\u20131910",
    "file": "W2110308604.html",
-   "chars": 62867,
+   "chars": 127861,
    "title_overlap": 1.0,
    "sections": 4,
    "verdict": "FULL"
+  },
+  {
+   "openalex": "W2109418124",
+   "cell": "H2_MODERATION",
+   "title": "Is Fertility Behavior in Our Genes? Findings from a Danish Twin Study",
+   "file": "W2109418124.html",
+   "chars": 58,
+   "title_overlap": 0.0,
+   "sections": 0,
+   "verdict": "JUNK"
   },
   {
    "openalex": "W3127086984",
    "cell": "H2_FERTILITY",
    "title": "Identification of 370 genetic loci for age at first sex and birth linked to externalising behaviour",
    "file": "W3127086984.retry.pdf",
-   "chars": 107843,
+   "chars": 119581,
    "title_overlap": 1.0,
    "sections": 6,
    "verdict": "FULL"
@@ -788,7 +988,7 @@
    "cell": "H2_FERTILITY",
    "title": "DOES EDUCATION MEDIATE THE RELATIONSHIP BETWEEN IQ AND AGE OF FIRST BIRTH? A BEHAVIOURAL GENETIC ANALYSIS",
    "file": "W2116934337.html",
-   "chars": 22243,
+   "chars": 25104,
    "title_overlap": 1.0,
    "sections": 4,
    "verdict": "FULL"
@@ -814,21 +1014,51 @@
    "verdict": "JUNK"
   },
   {
+   "openalex": "W1971984564",
+   "cell": "H2_MODERATION",
+   "title": "Educational Differences in Completed Fertility: A Behavioral Genetic Study of Finnish Male and Female Twins",
+   "file": "W1971984564.html",
+   "chars": 58,
+   "title_overlap": 0.0,
+   "sections": 0,
+   "verdict": "JUNK"
+  },
+  {
    "openalex": "W2337218734",
    "cell": "H2_MODERATION",
    "title": "Mega-analysis of 31,396 individuals from 6 countries uncovers strong gene-environment interaction for human fertility",
    "file": "W2337218734.retry.pdf",
-   "chars": 84417,
+   "chars": 117305,
    "title_overlap": 1.0,
    "sections": 6,
    "verdict": "FULL"
+  },
+  {
+   "openalex": "W2123568085",
+   "cell": "H2_FERTILITY",
+   "title": "Estrogen receptor alpha polymorphisms and fertility in populations with different reproductive patterns",
+   "file": "W2123568085.html",
+   "chars": 58,
+   "title_overlap": 0.0,
+   "sections": 0,
+   "verdict": "JUNK"
   },
   {
    "openalex": "W2160276478",
    "cell": "SELECTION_DIFFERENTIAL",
    "title": "Personality and reproductive fitness",
    "file": "W2160276478.html",
-   "chars": 303,
+   "chars": 333,
+   "title_overlap": 0.0,
+   "sections": 0,
+   "verdict": "JUNK"
+  },
+  {
+   "openalex": "W2106599966",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "title": "Pair\u2010Bonding Modifies the Age\u2010Specific Intensities of Natural Selection on Human Female Fecundity",
+   "file": "W2106599966.html",
+   "chars": 58,
    "title_overlap": 0.0,
    "sections": 0,
    "verdict": "JUNK"
@@ -838,7 +1068,7 @@
    "cell": "H2_FERTILITY",
    "title": "Using Polygenic Scores in Social Science Research: Unraveling Childlessness",
    "file": "W2990372252.html",
-   "chars": 73732,
+   "chars": 98998,
    "title_overlap": 1.0,
    "sections": 6,
    "verdict": "FULL"
@@ -874,6 +1104,16 @@
    "verdict": "JUNK"
   },
   {
+   "openalex": "W2093698295",
+   "cell": "H2_FERTILITY",
+   "title": "Bio\u2010social determinants of fertility",
+   "file": "W2093698295.html",
+   "chars": 58,
+   "title_overlap": 0.0,
+   "sections": 0,
+   "verdict": "JUNK"
+  },
+  {
    "openalex": "W4408525368",
    "cell": "SELECTION_DIFFERENTIAL",
    "title": "Consistency and Variation in Natural Selection on Personality Across 17 Countries",
@@ -884,21 +1124,61 @@
    "verdict": "FULL"
   },
   {
+   "openalex": "W2168144246",
+   "cell": "H2_FERTILITY",
+   "title": "NATURAL SELECTION AND QUANTITATIVE GENETICS OF LIFE-HISTORY TRAITS IN WESTERN WOMEN: A TWIN STUDY",
+   "file": "W2168144246.html",
+   "chars": 58,
+   "title_overlap": 0.0,
+   "sections": 0,
+   "verdict": "JUNK"
+  },
+  {
    "openalex": "W2969099478",
    "cell": "SELECTION_DIFFERENTIAL",
    "title": "The genetic relationship between female reproductive traits and six psychiatric disorders",
    "file": "W2969099478.pdf",
-   "chars": 50856,
+   "chars": 67684,
    "title_overlap": 1.0,
    "sections": 7,
    "verdict": "FULL"
+  },
+  {
+   "openalex": "W1981839149",
+   "cell": "PEDIGREE_RESPONSE",
+   "title": "Direct and correlative phenotypic selection on life-history traits in three pre-industrial human populations",
+   "file": "W1981839149.html",
+   "chars": 58,
+   "title_overlap": 0.0,
+   "sections": 0,
+   "verdict": "JUNK"
+  },
+  {
+   "openalex": "W1870016096",
+   "cell": "PEDIGREE_RESPONSE",
+   "title": "Be Fruitful and Multiply? Moderate Fecundity and Long-Run Reproductive Success",
+   "file": "W1870016096.html",
+   "chars": 407,
+   "title_overlap": 0.0,
+   "sections": 0,
+   "verdict": "JUNK"
+  },
+  {
+   "openalex": "W2004640129",
+   "cell": "H2_FERTILITY",
+   "title": "A re\u2010examination of the heritability of fertility in the British peerage",
+   "file": "W2004640129.html",
+   "chars": 58,
+   "title_overlap": 0.0,
+   "sections": 0,
+   "verdict": "JUNK"
   },
   {
    "openalex": "W3166912545",
    "cell": "SELECTION_DIFFERENTIAL",
    "title": "GWAS on Birth Year Infant Mortality Rates Provides New Evidence of Recent Natural Selection",
    "file": "W3166912545.pdf",
-   "chars": 43030,
+   "chars": 46645,
    "title_overlap": 1.0,
    "sections": 5,
    "verdict": "FULL"
@@ -908,7 +1188,7 @@
    "cell": "H2_FERTILITY",
    "title": "Genetic and Environmental Influences on Fertility Expectations and Outcomes Using NLSY Kinship Data",
    "file": "W1531221434.html",
-   "chars": 303,
+   "chars": 333,
    "title_overlap": 0.1,
    "sections": 0,
    "verdict": "JUNK"
@@ -938,7 +1218,7 @@
    "cell": "H2_FERTILITY",
    "title": "The Genetic and Environmental Structure of Reproduction-Related Variables: The Case of Fertility and Breastfeeding",
    "file": "W2090662598.pdf",
-   "chars": 35392,
+   "chars": 79709,
    "title_overlap": 1.0,
    "sections": 5,
    "verdict": "FULL"
@@ -948,7 +1228,7 @@
    "cell": "H2_FERTILITY",
    "title": "Is the Association Between Education and Fertility Postponement Causal? The Role of Family Background Factors",
    "file": "W2569771954.pdf",
-   "chars": 72120,
+   "chars": 78604,
    "title_overlap": 1.0,
    "sections": 5,
    "verdict": "FULL"
@@ -968,7 +1248,7 @@
    "cell": "SELECTION_DIFFERENTIAL",
    "title": "GEOSPATIAL ASSESSMENT BASED ON FERTILITY AND MORTALITY DIFFERENTIAL INDICES OF NATURAL SELECTION IN NORTH-WEST AND EASTERN HIMALAYAN POPULATIONS",
    "file": "W2566750848.html",
-   "chars": 25842,
+   "chars": 27740,
    "title_overlap": 1.0,
    "sections": 3,
    "verdict": "FULL"
@@ -998,10 +1278,20 @@
    "cell": "SELECTION_DIFFERENTIAL",
    "title": "How Intelligence Affects Fertility 30 Years On: Retherford and Sewell Revisited \u2014 With Polygenic Scores and Numbers of Grandchildren",
    "file": "W2955592702.pdf",
-   "chars": 37144,
+   "chars": 55538,
    "title_overlap": 1.0,
    "sections": 4,
    "verdict": "FULL"
+  },
+  {
+   "openalex": "W2171689700",
+   "cell": "H2_FERTILITY",
+   "title": "Reexamining the Association Between Fertility and Longevity: Testing the Disposable Soma Theory in a Modern Human Sample of Twins",
+   "file": "W2171689700.html",
+   "chars": 58,
+   "title_overlap": 0.0,
+   "sections": 0,
+   "verdict": "JUNK"
   },
   {
    "openalex": "W2575032714",
@@ -1018,7 +1308,7 @@
    "cell": "H2_FERTILITY",
    "title": "Genetic Influences on Fertility Behavior: Findings From a Danish Twin Study, 1910\u20131923",
    "file": "W198400850.html",
-   "chars": 303,
+   "chars": 333,
    "title_overlap": 0.0,
    "sections": 0,
    "verdict": "JUNK"
@@ -1028,7 +1318,7 @@
    "cell": "SELECTION_DIFFERENTIAL",
    "title": "Shared genetic basis between reproductive behaviors and anxiety-related disorders",
    "file": "W4283368917.html",
-   "chars": 20095,
+   "chars": 21809,
    "title_overlap": 1.0,
    "sections": 4,
    "verdict": "FULL"
@@ -1038,6 +1328,16 @@
    "cell": "H2_FERTILITY",
    "title": "Heritability of reproductive fitness traits in a human population",
    "file": "W2021992969.html",
+   "chars": 58,
+   "title_overlap": 0.0,
+   "sections": 0,
+   "verdict": "JUNK"
+  },
+  {
+   "openalex": "W4285005223",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "title": "Sexually antagonistic selection on educational attainment and body size in Estonian children",
+   "file": "W4285005223.html",
    "chars": 58,
    "title_overlap": 0.0,
    "sections": 0,
@@ -1058,7 +1358,7 @@
    "cell": "PEDIGREE_RESPONSE",
    "title": "Natural Selection on Female Life-History Traits in Relation to Socio-Economic Class in Pre-Industrial Human Populations",
    "file": "W1985105482.html",
-   "chars": 51743,
+   "chars": 52798,
    "title_overlap": 1.0,
    "sections": 5,
    "verdict": "FULL"
@@ -1068,7 +1368,7 @@
    "cell": "SELECTION_DIFFERENTIAL",
    "title": "Evidence of contemporary polygenic selection on the Big G of national cognitive ability: A cross-cultural sociogenetic analysis",
    "file": "W2470573555.html",
-   "chars": 11,
+   "chars": 64,
    "title_overlap": 0.0,
    "sections": 0,
    "verdict": "JUNK"
@@ -1098,10 +1398,40 @@
    "cell": "H2_FERTILITY",
    "title": "The fertility pattern of twins and the general population compared: evidence from Danish cohorts 1945-64",
    "file": "W2018862557.pdf",
-   "chars": 59035,
+   "chars": 67683,
    "title_overlap": 1.0,
    "sections": 5,
    "verdict": "FULL"
+  },
+  {
+   "openalex": "W4416670776",
+   "cell": "H2_FERTILITY",
+   "title": "Genetic variance in reproductive timing contributes to trait evolvability",
+   "file": "W4416670776.html",
+   "chars": 58,
+   "title_overlap": 0.0,
+   "sections": 0,
+   "verdict": "JUNK"
+  },
+  {
+   "openalex": "W4214728008",
+   "cell": "H2_MODERATION",
+   "title": "Gene-Environment Effects on Female Fertility",
+   "file": "W4214728008.html",
+   "chars": 407,
+   "title_overlap": 0.0,
+   "sections": 0,
+   "verdict": "JUNK"
+  },
+  {
+   "openalex": "W2784016405",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "title": "Secular changes in sexual and natural selection against deleterious genetic mutations in humans",
+   "file": "W2784016405.html",
+   "chars": 439,
+   "title_overlap": 0.0,
+   "sections": 0,
+   "verdict": "JUNK"
   }
  ]
 }

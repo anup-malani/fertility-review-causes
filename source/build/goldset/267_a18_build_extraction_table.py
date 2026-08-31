@@ -118,6 +118,56 @@ ROWS = [
          estimate_superseded_by_authors="no", extraction_status="VERIFIED",
          source_quote="In the Quebec sample the time from marriage to first birth is heritable "
                       "(h2 = 0.04)"),
+    dict(openalex="W2033634275", study="Briley/Harden/Tucker-Drob, Genotype x Cohort Interaction",
+         year=2014, cell="H2_MODERATION", arm="H2_MOD",
+         design_class="twin_MZDZ", relatedness_level="WITHIN_FAMILY",
+         exposure_distance="ANONYMOUS_VARIANCE", outcome_measure="completed_fertility",
+         estimand="additive_genetic_path_cohort_linear_term_SPLINE", estimate="-0.032", se="0.014",
+         units="path_coefficient_per_cohort_year", n="5600", cohort_window="1920-1955",
+         phenomenon_window="FDT|SDT", cohort_complete="yes", sample_selection="twin_registry",
+         assortative_mating_handled="no",
+         estimate_superseded_by_authors="no — but SIGN-DISCORDANT with the quartic specification "
+                                        "in the same table; see the row below",
+         extraction_status="VERIFIED_SPECIFICATION_DISCORDANT",
+         source_quote="a .350 (.424) | a-prime -.032 (.014) * [Completed Fertility, Spline] "
+                      "(PMC Table 1; standard errors in parentheses)"),
+    dict(openalex="W2033634275", study="Briley/Harden/Tucker-Drob, Genotype x Cohort Interaction",
+         year=2014, cell="H2_MODERATION", arm="H2_MOD",
+         design_class="twin_MZDZ", relatedness_level="WITHIN_FAMILY",
+         exposure_distance="ANONYMOUS_VARIANCE", outcome_measure="completed_fertility",
+         estimand="additive_genetic_path_cohort_linear_term_QUARTIC", estimate="0.016", se="0.009",
+         units="path_coefficient_per_cohort_year", n="5600", cohort_window="1920-1955",
+         phenomenon_window="FDT|SDT", cohort_complete="yes", sample_selection="twin_registry",
+         assortative_mating_handled="no",
+         estimate_superseded_by_authors="no — SIGN-DISCORDANT with the spline row above",
+         extraction_status="VERIFIED_SPECIFICATION_DISCORDANT",
+         source_quote="a .498 (.105) *** | a-prime .016 (.009) dagger [Completed Fertility, "
+                      "Quartic] (PMC Table 1)"),
+    dict(openalex="W2169871877", study="Brandenburg et al., fertility transmission and coalescent trees",
+         year=2012, cell="THEORY", arm="THEORY",
+         design_class="UNLISTED_coalescent_simulation", relatedness_level="",
+         exposure_distance="NOT_GENETIC", outcome_measure="genealogy_imbalance_and_Ne",
+         estimand="none_empirical", estimate="", se="", units="", n="",
+         cohort_window="", phenomenon_window="", cohort_complete="",
+         sample_selection="simulation", assortative_mating_handled="",
+         estimate_superseded_by_authors="",
+         extraction_status="RECLASSIFIED_OUT_OF_PREDICTED_RESPONSE",
+         source_quote="Individual-based coalescent simulation; outcomes are coalescent-tree "
+                      "imbalance and effective population size, not a human fertility estimate. "
+                      "Screened into PREDICTED_RESPONSE on title/abstract; the full text shows no "
+                      "empirical h2, S or R. PREDICTED_RESPONSE therefore has ZERO usable full texts."),
+    dict(openalex="W2084434401", study="Sgro & Hoffmann, Genetic correlations, tradeoffs and environmental variation",
+         year=2004, cell="OFF_SPECIES", arm="NONE",
+         design_class="UNLISTED_review_nonhuman", relatedness_level="",
+         exposure_distance="NOT_GENETIC", outcome_measure="",
+         estimand="none_human", estimate="", se="", units="", n="",
+         cohort_window="", phenomenon_window="", cohort_complete="",
+         sample_selection="", assortative_mating_handled="",
+         estimate_superseded_by_authors="",
+         extraction_status="RECLASSIFIED_OUT_OF_PEDIGREE_RESPONSE",
+         source_quote="Heredity review of correlated response to selection in insects and plants "
+                      "(grain yield, egg size, larval food environments). No human pedigree data. "
+                      "Screen design value was a hypothesis; the full text refutes it."),
 ]
 
 

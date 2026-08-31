@@ -331,3 +331,32 @@ corpus and the builder asserts that verified + pending reconciles against corpus
 join key in an extraction table is the quiet failure the match-by-content rule exists to stop, and it
 appeared in the key column itself.
 
+**2026-08-31 (Shravan) — extraction, second pass: table recovery and two reclassifications.**
+
+**`PREDICTED_RESPONSE` has ZERO usable full texts, not one.** Its only retrieved text — Brandenburg
+et al., *fertility transmission and coalescent trees* — is an individual-based **coalescent
+simulation** whose outcomes are genealogy imbalance and effective population size. No empirical h², S
+or R. It was screened in on title/abstract, and the full text refutes that: `design-is-not-a-property-
+of-the-title`. **No demographic-significance number is computable from anything currently in hand.**
+Also reclassified out: Sgrò & Hoffmann, a *Heredity* review of correlated selection response in
+insects and plants, screened as `PEDIGREE_RESPONSE`.
+
+**PMC BioC drops table bodies** — the rung that won this chapter's retrieval returns body text and no
+tables, and heritability estimates live almost entirely in tables. On the Genotype × Cohort paper the
+BioC text says "Table 1 reports the parameter estimates" and contains none of them. PMC's efetch XML
+does carry `<table-wrap>`; `268` appends them, recovering tables for **28 studies**, all with numeric
+values. BioC is excellent for screening and insufficient for extraction on its own.
+
+**A second defect that hid the first: behaviour-genetics papers write coefficients without a leading
+zero** — `.350 (.424)`, `.498 (.105)***`. A diagnostic anchored on `0\.` reports a table-rich paper as
+numberless, which is exactly what mine did.
+
+**The recovered table changed a substantive reading.** Briley et al.'s cohort-interaction term for
+completed fertility is **−.032 (.014)\* under the spline specification and +.016 (.009)† under the
+quartic — opposite signs in the same table.** Whether the heritability of completed fertility rises or
+falls across the 1920–1955 cohorts is specification-dependent in this study. Both rows are carried as
+`VERIFIED_SPECIFICATION_DISCORDANT`; taking either silently would report a direction the paper's own
+alternative specification contradicts. This bears directly on §4's moderation claim.
+
+Extraction now: 10 verified/reclassified rows, 49 pending.
+

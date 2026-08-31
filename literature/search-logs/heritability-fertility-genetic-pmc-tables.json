@@ -1,0 +1,364 @@
+{
+ "summary": {
+  "ticket": "TICK-076",
+  "pmc_records": 52,
+  "status": {
+   "NO_BASE_TEXT": 21,
+   "TABLES_APPENDED": 28,
+   "NO_TABLES": 3
+  },
+  "texts_appended": 28,
+  "records_with_table_numbers": 28,
+  "median_decimals_per_record": 179,
+  "note": "BioC returns body text but drops table bodies; estimates live in tables. Numbers are written WITHOUT a leading zero (.350), so any 0\\\\. anchored pattern reports a table-rich paper as numberless."
+ },
+ "records": [
+  {
+   "openalex": "W2068827105",
+   "pmcid": "PMC1691410",
+   "status": "NO_BASE_TEXT"
+  },
+  {
+   "openalex": "W2168212656",
+   "pmcid": "PMC549452",
+   "status": "NO_BASE_TEXT"
+  },
+  {
+   "openalex": "W2036516886",
+   "pmcid": "PMC1458927",
+   "status": "NO_BASE_TEXT"
+  },
+  {
+   "openalex": "W2055251693",
+   "pmcid": "PMC1766423",
+   "status": "NO_BASE_TEXT"
+  },
+  {
+   "openalex": "W2040190166",
+   "pmcid": "PMC2712577",
+   "status": "NO_BASE_TEXT"
+  },
+  {
+   "openalex": "W1985105482",
+   "pmcid": "PMC1904257",
+   "status": "TABLES_APPENDED",
+   "n_tables": 4,
+   "table_chars": 3898,
+   "decimal_values_in_tables": 175
+  },
+  {
+   "openalex": "W2045292033",
+   "pmcid": "PMC2683935",
+   "status": "TABLES_APPENDED",
+   "n_tables": 1,
+   "table_chars": 1017,
+   "decimal_values_in_tables": 1
+  },
+  {
+   "openalex": "W2062288399",
+   "pmcid": "PMC2749946",
+   "status": "NO_BASE_TEXT"
+  },
+  {
+   "openalex": "W2021992969",
+   "pmcid": "PMC2868280",
+   "status": "NO_BASE_TEXT"
+  },
+  {
+   "openalex": "W2038630720",
+   "pmcid": "PMC3000025",
+   "status": "NO_BASE_TEXT"
+  },
+  {
+   "openalex": "W3125451060",
+   "pmcid": "PMC3073853",
+   "status": "TABLES_APPENDED",
+   "n_tables": 5,
+   "table_chars": 8839,
+   "decimal_values_in_tables": 581
+  },
+  {
+   "openalex": "W2054229127",
+   "pmcid": "PMC3193187",
+   "status": "NO_BASE_TEXT"
+  },
+  {
+   "openalex": "W2117546824",
+   "pmcid": "PMC3361384",
+   "status": "NO_BASE_TEXT"
+  },
+  {
+   "openalex": "W2137890395",
+   "pmcid": "PMC3497102",
+   "status": "NO_BASE_TEXT"
+  },
+  {
+   "openalex": "W2092739320",
+   "pmcid": "PMC3668323",
+   "status": "TABLES_APPENDED",
+   "n_tables": 2,
+   "table_chars": 2172,
+   "decimal_values_in_tables": 54
+  },
+  {
+   "openalex": "W2053209564",
+   "pmcid": "PMC3675805",
+   "status": "NO_TABLES",
+   "xml_bytes": 143438
+  },
+  {
+   "openalex": "W2103205223",
+   "pmcid": "PMC3903217",
+   "status": "NO_BASE_TEXT"
+  },
+  {
+   "openalex": "W2128269372",
+   "pmcid": "PMC3868361",
+   "status": "TABLES_APPENDED",
+   "n_tables": 10,
+   "table_chars": 7047,
+   "decimal_values_in_tables": 197
+  },
+  {
+   "openalex": "W2033634275",
+   "pmcid": "PMC4289659",
+   "status": "TABLES_APPENDED",
+   "n_tables": 3,
+   "table_chars": 3361,
+   "decimal_values_in_tables": 203
+  },
+  {
+   "openalex": "W2052070884",
+   "pmcid": "PMC4350917",
+   "status": "TABLES_APPENDED",
+   "n_tables": 2,
+   "table_chars": 3967,
+   "decimal_values_in_tables": 138
+  },
+  {
+   "openalex": "W590852753",
+   "pmcid": "PMC4454512",
+   "status": "TABLES_APPENDED",
+   "n_tables": 3,
+   "table_chars": 2821,
+   "decimal_values_in_tables": 28
+  },
+  {
+   "openalex": "W2304069640",
+   "pmcid": "PMC5785705",
+   "status": "TABLES_APPENDED",
+   "n_tables": 2,
+   "table_chars": 1776,
+   "decimal_values_in_tables": 6
+  },
+  {
+   "openalex": "W2303250854",
+   "pmcid": "PMC4822435",
+   "status": "NO_BASE_TEXT"
+  },
+  {
+   "openalex": "W2342100485",
+   "pmcid": "PMC5238953",
+   "status": "TABLES_APPENDED",
+   "n_tables": 2,
+   "table_chars": 5795,
+   "decimal_values_in_tables": 398
+  },
+  {
+   "openalex": "W2413981805",
+   "pmcid": "PMC4914190",
+   "status": "NO_BASE_TEXT"
+  },
+  {
+   "openalex": "W2470195001",
+   "pmcid": "PMC4948342",
+   "status": "NO_BASE_TEXT"
+  },
+  {
+   "openalex": "W2544485223",
+   "pmcid": "PMC5695684",
+   "status": "TABLES_APPENDED",
+   "n_tables": 2,
+   "table_chars": 8836,
+   "decimal_values_in_tables": 91
+  },
+  {
+   "openalex": "W2575032714",
+   "pmcid": "PMC5293043",
+   "status": "NO_BASE_TEXT"
+  },
+  {
+   "openalex": "W2573112139",
+   "pmcid": "PMC5251940",
+   "status": "TABLES_APPENDED",
+   "n_tables": 2,
+   "table_chars": 968,
+   "decimal_values_in_tables": 30
+  },
+  {
+   "openalex": "W2607161571",
+   "pmcid": "PMC5442430",
+   "status": "TABLES_APPENDED",
+   "n_tables": 8,
+   "table_chars": 9080,
+   "decimal_values_in_tables": 398
+  },
+  {
+   "openalex": "W2625700093",
+   "pmcid": "PMC5474730",
+   "status": "TABLES_APPENDED",
+   "n_tables": 3,
+   "table_chars": 2759,
+   "decimal_values_in_tables": 171
+  },
+  {
+   "openalex": "W2731861498",
+   "pmcid": "PMC5555389",
+   "status": "TABLES_APPENDED",
+   "n_tables": 4,
+   "table_chars": 5015,
+   "decimal_values_in_tables": 223
+  },
+  {
+   "openalex": "W2752326665",
+   "pmcid": "PMC5642946",
+   "status": "NO_TABLES",
+   "xml_bytes": 164644
+  },
+  {
+   "openalex": "W2798180248",
+   "pmcid": "PMC5904310",
+   "status": "NO_BASE_TEXT"
+  },
+  {
+   "openalex": "W2856770414",
+   "pmcid": "PMC6467216",
+   "status": "TABLES_APPENDED",
+   "n_tables": 6,
+   "table_chars": 4414,
+   "decimal_values_in_tables": 135
+  },
+  {
+   "openalex": "W2952789803",
+   "pmcid": "PMC6143271",
+   "status": "TABLES_APPENDED",
+   "n_tables": 3,
+   "table_chars": 5326,
+   "decimal_values_in_tables": 179
+  },
+  {
+   "openalex": "W2904304377",
+   "pmcid": "PMC6291071",
+   "status": "NO_TABLES",
+   "xml_bytes": 141172
+  },
+  {
+   "openalex": "W2953318985",
+   "pmcid": "PMC6369964",
+   "status": "TABLES_APPENDED",
+   "n_tables": 1,
+   "table_chars": 1033,
+   "decimal_values_in_tables": 36
+  },
+  {
+   "openalex": "W2810866107",
+   "pmcid": "PMC6458425",
+   "status": "TABLES_APPENDED",
+   "n_tables": 4,
+   "table_chars": 7237,
+   "decimal_values_in_tables": 322
+  },
+  {
+   "openalex": "W2965692835",
+   "pmcid": "PMC6778682",
+   "status": "TABLES_APPENDED",
+   "n_tables": 5,
+   "table_chars": 4482,
+   "decimal_values_in_tables": 226
+  },
+  {
+   "openalex": "W2969099478",
+   "pmcid": "PMC6700195",
+   "status": "TABLES_APPENDED",
+   "n_tables": 2,
+   "table_chars": 2545,
+   "decimal_values_in_tables": 150
+  },
+  {
+   "openalex": "W2990372252",
+   "pmcid": "PMC8022451",
+   "status": "TABLES_APPENDED",
+   "n_tables": 2,
+   "table_chars": 5178,
+   "decimal_values_in_tables": 407
+  },
+  {
+   "openalex": "W3176120982",
+   "pmcid": "PMC7612120",
+   "status": "NO_BASE_TEXT"
+  },
+  {
+   "openalex": "W3190761431",
+   "pmcid": "PMC8341544",
+   "status": "TABLES_APPENDED",
+   "n_tables": 3,
+   "table_chars": 3553,
+   "decimal_values_in_tables": 241
+  },
+  {
+   "openalex": "W4220783065",
+   "pmcid": "PMC8944929",
+   "status": "TABLES_APPENDED",
+   "n_tables": 1,
+   "table_chars": 510,
+   "decimal_values_in_tables": 8
+  },
+  {
+   "openalex": "W4283157868",
+   "pmcid": "PMC9545724",
+   "status": "TABLES_APPENDED",
+   "n_tables": 5,
+   "table_chars": 8050,
+   "decimal_values_in_tables": 553
+  },
+  {
+   "openalex": "W3123168349",
+   "pmcid": "PMC9463317",
+   "status": "TABLES_APPENDED",
+   "n_tables": 5,
+   "table_chars": 5630,
+   "decimal_values_in_tables": 243
+  },
+  {
+   "openalex": "W4308408443",
+   "pmcid": "PMC9640534",
+   "status": "TABLES_APPENDED",
+   "n_tables": 3,
+   "table_chars": 3037,
+   "decimal_values_in_tables": 56
+  },
+  {
+   "openalex": "W4408525368",
+   "pmcid": "PMC11915285",
+   "status": "TABLES_APPENDED",
+   "n_tables": 4,
+   "table_chars": 4008,
+   "decimal_values_in_tables": 317
+  },
+  {
+   "openalex": "W7169815648",
+   "pmcid": "PMC13416551",
+   "status": "NO_BASE_TEXT"
+  },
+  {
+   "openalex": "W2049107009",
+   "pmcid": "PMC18762",
+   "status": "NO_BASE_TEXT"
+  },
+  {
+   "openalex": "W1977560735",
+   "pmcid": "PMC1689548",
+   "status": "NO_BASE_TEXT"
+  }
+ ]
+}
