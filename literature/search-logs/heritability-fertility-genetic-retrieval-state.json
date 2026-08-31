@@ -2,51 +2,48 @@
  "summary": {
   "ticket": "TICK-076",
   "primary_studies": 148,
-  "retrieved": 108,
-  "rate": 73.0,
-  "by_route": {
-   "1_oa_pdf": 37,
-   "4_publisher": 32,
-   "2_pmc_bioc": 6,
-   "1_oa_landing": 30,
-   "3b_unpaywall_retry": 3
+  "full_text": 56,
+  "rate": 37.8,
+  "superseded_claim": "263 reported 108/148 = 73.0% retrieved",
+  "downgraded": {
+   "downgraded_blocked": 46,
+   "downgraded_abstract": 6
   },
-  "outstanding": 40,
+  "outstanding": 92,
   "jobs": {
-   "BROWSER_JOB": 35,
+   "BROWSER_JOB": 87,
    "PROXY_JOB": 5
   },
-  "retried_429_recovered": 3,
   "by_cell": {
    "PREDICTED_RESPONSE": {
-    "retrieved": 4,
-    "outstanding": 2,
-    "rate": 66.7
+    "full_text": 1,
+    "outstanding": 5,
+    "rate": 16.7
    },
    "H2_MODERATION": {
-    "retrieved": 7,
-    "outstanding": 6,
-    "rate": 53.8
+    "full_text": 5,
+    "outstanding": 8,
+    "rate": 38.5
    },
    "WITHIN_VS_POPULATION": {
-    "retrieved": 1,
+    "full_text": 1,
     "outstanding": 1,
     "rate": 50.0
    },
    "PEDIGREE_RESPONSE": {
-    "retrieved": 12,
-    "outstanding": 4,
-    "rate": 75.0
+    "full_text": 7,
+    "outstanding": 9,
+    "rate": 43.8
    },
    "SELECTION_DIFFERENTIAL": {
-    "retrieved": 36,
-    "outstanding": 9,
-    "rate": 80.0
+    "full_text": 21,
+    "outstanding": 24,
+    "rate": 46.7
    },
    "H2_FERTILITY": {
-    "retrieved": 48,
-    "outstanding": 18,
-    "rate": 72.7
+    "full_text": 21,
+    "outstanding": 45,
+    "rate": 31.8
    }
   }
  },
@@ -56,7 +53,7 @@
    "arm": "H2",
    "title": "Genome-Wide Association Study of Parity in Bangladeshi Women",
    "doi": "10.1371/journal.pone.0118488",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_pdf",
    "file": "W2052070884.html",
    "blocked_urls": [
@@ -67,19 +64,22 @@
     "https://doi.org/10.6082/j97tb-kaw18",
     "https://doi.org/10.7916/d8xk8fcm",
     "https://doi.org/10.1371/journal.pone.0118488"
-   ]
+   ],
+   "text_chars": 34753
   },
   "W2165665473": {
    "cell": "H2_FERTILITY",
    "arm": "H2",
    "title": "Explaining stasis: microevolutionary studies in natural populations",
    "doi": "10.1023/a:1013391806317",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "4_publisher",
    "file": "W2165665473.html",
    "blocked_urls": [
     "https://doi.org/10.1023/a:1013391806317"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W2170780249": {
    "cell": "H2_FERTILITY",
@@ -100,24 +100,28 @@
    "arm": "H2",
    "title": "A Heritability Study of Childbearing Motivation",
    "doi": "10.1007/978-1-4615-4467-8_7",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "4_publisher",
    "file": "W108975355.html",
    "blocked_urls": [
     "https://doi.org/10.1007/978-1-4615-4467-8_7"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W2036516886": {
    "cell": "SELECTION_DIFFERENTIAL",
    "arm": "SELECTION",
    "title": "Quantitative genetics of age at reproduction in wild swans: Support for antagonistic pleiotropy models of senescence",
    "doi": "10.1073/pnas.0511123103",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "2_pmc_bioc",
    "file": "W2036516886.bioc.json",
    "blocked_urls": [
     "https://doi.org/10.1073/pnas.0511123103"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W2059206901": {
    "cell": "PEDIGREE_RESPONSE",
@@ -138,12 +142,14 @@
    "arm": "H2",
    "title": "Life History, Evolution of",
    "doi": "10.1016/b0-12-226865-2/00175-9",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "4_publisher",
    "file": "W1532328642.html",
    "blocked_urls": [
     "https://doi.org/10.1016/b0-12-226865-2/00175-9"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W1966206981": {
    "cell": "H2_FERTILITY",
@@ -164,37 +170,42 @@
    "arm": "H2",
    "title": "The Genetical Theory of Natural Selection",
    "doi": "10.1038/126595a0",
-   "status": "RETRIEVED",
+   "status": "ABSTRACT_ONLY",
    "route": "4_publisher",
    "file": "W1966568033.html",
    "blocked_urls": [
     "https://doi.org/10.1038/126595a0"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "landing page only \u2014 an abstract is not a full text"
   },
   "W4297124397": {
    "cell": "PEDIGREE_RESPONSE",
    "arm": "SELECTION",
    "title": "The adaptive landscape as a conceptual bridge between micro- and macroevolution",
    "doi": "10.1023/a:1013373907708",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "4_publisher",
    "file": "W4297124397.html",
    "blocked_urls": [
     "https://doi.org/10.1023/a:1013373907708"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W2084434401": {
    "cell": "PEDIGREE_RESPONSE",
    "arm": "SELECTION",
    "title": "Genetic correlations, tradeoffs and environmental variation",
    "doi": "10.1038/sj.hdy.6800532",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_pdf",
    "file": "W2084434401.pdf",
    "blocked_urls": [
     "https://www.nature.com/articles/6800532.pdf",
     "https://doi.org/10.1038/sj.hdy.6800532"
-   ]
+   ],
+   "text_chars": 44399
   },
   "W2022720305": {
    "cell": "H2_FERTILITY",
@@ -229,13 +240,15 @@
    "arm": "SELECTION",
    "title": "Grandmothering, menopause, and the evolution of human life histories",
    "doi": "10.1073/pnas.95.3.1336",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "1_oa_landing",
    "file": "W2049107009.html",
    "blocked_urls": [
     "https://www.ncbi.nlm.nih.gov/pmc/articles/18762",
     "https://doi.org/10.1073/pnas.95.3.1336"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W1539376400": {
    "cell": "PEDIGREE_RESPONSE",
@@ -266,12 +279,13 @@
    "arm": "H2",
    "title": "The Effect of Female Education on Fertility and Infant Health: Evidence from School Entry Policies Using Exact Date of Birth",
    "doi": "10.1257/aer.101.1.158",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "2_pmc_bioc",
    "file": "W3125451060.bioc.json",
    "blocked_urls": [
     "https://doi.org/10.1257/aer.101.1.158"
-   ]
+   ],
+   "text_chars": 99405
   },
   "W2103638956": {
    "cell": "H2_FERTILITY",
@@ -292,37 +306,43 @@
    "arm": "SELECTION",
    "title": "Reproduction and longevity among the British peerage: the effect of frailty and health selection",
    "doi": "10.1098/rspb.2003.2400",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "1_oa_landing",
    "file": "W2068827105.html",
    "blocked_urls": [
     "https://www.ncbi.nlm.nih.gov/pmc/articles/1691410",
     "https://doi.org/10.1098/rspb.2003.2400"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W1994535024": {
    "cell": "H2_FERTILITY",
    "arm": "H2",
    "title": "On genetic variation in menarche and age at first sexual intercourse",
    "doi": "10.1016/s1090-5138(02)00102-2",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "4_publisher",
    "file": "W1994535024.html",
    "blocked_urls": [
     "https://doi.org/10.1016/s1090-5138(02)00102-2"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W1978496284": {
    "cell": "SELECTION_DIFFERENTIAL",
    "arm": "SELECTION",
    "title": "On the possibility of the reemergence of a dysgenic trend with respect to intelligence in American fertility differentials",
    "doi": "10.1016/0160-2896(82)90002-2",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "4_publisher",
    "file": "W1978496284.html",
    "blocked_urls": [
     "https://doi.org/10.1016/0160-2896(82)90002-2"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W2058506038": {
    "cell": "H2_MODERATION",
@@ -343,7 +363,7 @@
    "arm": "SELECTION",
    "title": "Examining the trade-offs between human fertility and longevity over three centuries using crowdsourced genealogy data",
    "doi": "10.1371/journal.pone.0255528",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_pdf",
    "file": "W3190761431.html",
    "blocked_urls": [
@@ -352,14 +372,15 @@
     "https://doaj.org/article/19d60cd3d3554edfb451fdbce8804c22",
     "https://doaj.org/article/a3022b9b27544f11be4a24f1d88bde77",
     "https://doi.org/10.1371/journal.pone.0255528"
-   ]
+   ],
+   "text_chars": 74601
   },
   "W2904304377": {
    "cell": "PEDIGREE_RESPONSE",
    "arm": "SELECTION",
    "title": "Early-life environment and differences in costs of reproduction in a preindustrial human population",
    "doi": "10.1371/journal.pone.0207236",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_pdf",
    "file": "W2904304377.html",
    "blocked_urls": [
@@ -372,31 +393,36 @@
     "https://doaj.org/article/afa0876df6c3428b98ab5bb475f202de",
     "https://figshare.com/articles/dataset/Early-life_environment_and_differences_in_costs_of_reproduction_in_a_preindustrial_human_population/7455521",
     "https://doi.org/10.1371/journal.pone.0207236"
-   ]
+   ],
+   "text_chars": 61827
   },
   "W2057403477": {
    "cell": "H2_FERTILITY",
    "arm": "H2",
    "title": "Age at first intercourse in twins reared apart: Genetic influence and life history events",
    "doi": "10.1016/j.paid.2009.02.010",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "4_publisher",
    "file": "W2057403477.html",
    "blocked_urls": [
     "https://doi.org/10.1016/j.paid.2009.02.010"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W2560295938": {
    "cell": "H2_FERTILITY",
    "arm": "H2",
    "title": "Genetic confounding of the relationship between father absence and age at menarche",
    "doi": "10.1016/j.evolhumbehav.2016.11.007",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "4_publisher",
    "file": "W2560295938.html",
    "blocked_urls": [
     "https://doi.org/10.1016/j.evolhumbehav.2016.11.007"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W1975033759": {
    "cell": "H2_FERTILITY",
@@ -417,12 +443,14 @@
    "arm": "SELECTION",
    "title": "Reproductive life of french-canadians in the 17\u201318th centuries: A search for a trade-off between early fecundity and longevity",
    "doi": "10.1016/0531-5565(93)90030-h",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "4_publisher",
    "file": "W2165786168.html",
    "blocked_urls": [
     "https://doi.org/10.1016/0531-5565(93)90030-h"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W1970145640": {
    "cell": "PREDICTED_RESPONSE",
@@ -443,26 +471,29 @@
    "arm": "SELECTION",
    "title": "Middleborns Disadvantaged? Testing Birth-Order Effects on Fitness in Pre-Industrial Finns",
    "doi": "10.1371/journal.pone.0005680",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_landing",
    "file": "W2045292033.html",
    "blocked_urls": [
     "https://doi.org/10.1371/journal.pone.0005680",
     "https://www.ncbi.nlm.nih.gov/pmc/articles/2683935",
     "https://doaj.org/article/457e1350d3be43e0988fb905184ea780"
-   ]
+   ],
+   "text_chars": 55681
   },
   "W1999087381": {
    "cell": "PREDICTED_RESPONSE",
    "arm": "SELECTION",
    "title": "Wright\u2013Fisher Revisited: The Case of Fertility Correlation",
    "doi": "10.1006/tpbi.2002.1609",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "4_publisher",
    "file": "W1999087381.html",
    "blocked_urls": [
     "https://doi.org/10.1006/tpbi.2002.1609"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W2010362031": {
    "cell": "SELECTION_DIFFERENTIAL",
@@ -483,14 +514,15 @@
    "arm": "H2",
    "title": "Age at First Sexual Intercourse and Teenage Pregnancy in Australian Female Twins",
    "doi": "10.1375/twin.10.3.440",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_pdf",
    "file": "W2009595306.pdf",
    "blocked_urls": [
     "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/282F70129FD956DCBE92D496CA137440/S183242740000801Xa.pdf/div-class-title-age-at-first-sexual-intercourse-and-teenage-pregnancy-in-australian-female-twins-div.pdf",
     "https://digitalcommons.wustl.edu/cgi/viewcontent.cgi?article=4219&context=open_access_pubs",
     "https://doi.org/10.1375/twin.10.3.440"
-   ]
+   ],
+   "text_chars": 49931
   },
   "W2907419907": {
    "cell": "SELECTION_DIFFERENTIAL",
@@ -511,20 +543,21 @@
    "arm": "H2",
    "title": "Responding to a 100-Year-Old Challenge from Fisher: A Biometrical Analysis of Adult Height in the NLSY Data Using Only Cousin Pairs",
    "doi": "10.1007/s10519-019-09967-6",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_landing",
    "file": "W2965692835.html",
    "blocked_urls": [
     "https://www.ncbi.nlm.nih.gov/pmc/articles/6778682",
     "https://doi.org/10.1007/s10519-019-09967-6"
-   ]
+   ],
+   "text_chars": 48973
   },
   "W2952789803": {
    "cell": "SELECTION_DIFFERENTIAL",
    "arm": "SELECTION",
    "title": "Detecting past and ongoing natural selection among ethnically Tibetan women at high altitude in Nepal",
    "doi": "10.1371/journal.pgen.1007650",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_pdf",
    "file": "W2952789803.html",
    "blocked_urls": [
@@ -534,45 +567,51 @@
     "https://doaj.org/article/d6bf847e53364b1abf700ade9f49d887",
     "https://figshare.com/articles/dataset/Detecting_past_and_ongoing_natural_selection_among_ethnically_Tibetan_women_at_high_altitude_in_Nepal/7054748",
     "https://doi.org/10.1371/journal.pgen.1007650"
-   ]
+   ],
+   "text_chars": 108455
   },
   "W4236254606": {
    "cell": "H2_FERTILITY",
    "arm": "H2",
    "title": "Social Science Genetics and Fertility",
    "doi": "10.31235/osf.io/gn9ve",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "4_publisher",
    "file": "W4236254606.html",
    "blocked_urls": [
     "https://doi.org/10.31235/osf.io/gn9ve"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W4220783065": {
    "cell": "SELECTION_DIFFERENTIAL",
    "arm": "SELECTION",
    "title": "GWAS on birth year infant mortality rates provides evidence of recent natural selection",
    "doi": "10.1073/pnas.2117312119",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_landing",
    "file": "W4220783065.html",
    "blocked_urls": [
     "https://www.ncbi.nlm.nih.gov/pmc/articles/8944929",
     "https://doi.org/10.1073/pnas.2117312119"
-   ]
+   ],
+   "text_chars": 42364
   },
   "W2798180248": {
    "cell": "H2_FERTILITY",
    "arm": "H2",
    "title": "Heritable spouse effects increase evolutionary potential of human reproductive timing",
    "doi": "10.1098/rspb.2017.2763",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "2_pmc_bioc",
    "file": "W2798180248.bioc.json",
    "blocked_urls": [
     "https://figshare.com/articles/journal_contribution/Heritable_spouse_effects_increase_evolutionary_potential_of_human_reproductive_timing/29742032",
     "https://doi.org/10.1098/rspb.2017.2763"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W1992576554": {
    "cell": "H2_MODERATION",
@@ -593,64 +632,70 @@
    "arm": "SELECTION",
    "title": "Father Absence and Accelerated Reproductive Development in Non-Hispanic White Women in the United States",
    "doi": "10.1007/s13524-018-0696-1",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "2_pmc_bioc",
    "file": "W2856770414.bioc.json",
    "blocked_urls": [
     "https://read.dukeupress.edu/demography/article-pdf/55/4/1245/841792/1245gaydosh.pdf",
     "https://doi.org/10.1007/s13524-018-0696-1"
-   ]
+   ],
+   "text_chars": 50922
   },
   "W4410412365": {
    "cell": "H2_FERTILITY",
    "arm": "H2",
    "title": "Reproductive and cognitive phenotypes in carriers of recessive pathogenic variants",
    "doi": "10.1038/s41562-025-02204-7",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "4_publisher",
    "file": "W4410412365.html",
    "blocked_urls": [
     "https://repository.ubn.ru.nl//bitstream/handle/2066/322522/322522.pdf",
     "https://doi.org/10.1038/s41562-025-02204-7"
-   ]
+   ],
+   "text_chars": 22465
   },
   "W4390167893": {
    "cell": "H2_MODERATION",
    "arm": "H2_MOD",
    "title": "The Influence of Societal Changes on the Contribution of Genetics to Fertility Behavior",
    "doi": "10.1215/00703370-12757268",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_pdf",
    "file": "W4390167893.html",
    "blocked_urls": [
     "https://doi.org/10.1215/00703370-12757268",
     "https://osf.io/wmsq6/download"
-   ]
+   ],
+   "text_chars": 60746
   },
   "W2762552667": {
    "cell": "SELECTION_DIFFERENTIAL",
    "arm": "SELECTION",
    "title": "Measuring selection for genes that promote long life in a historical human population",
    "doi": "10.1038/s41559-017-0329-x",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "4_publisher",
    "file": "W2762552667.html",
    "blocked_urls": [
     "https://www.research.ed.ac.uk/files/45459335/PR_survival_IUSSP_002_.pdf",
     "https://doi.org/10.1038/s41559-017-0329-x"
-   ]
+   ],
+   "text_chars": 17641
   },
   "W4400559341": {
    "cell": "SELECTION_DIFFERENTIAL",
    "arm": "SELECTION",
    "title": "Natural Selection Across Three Generations of Americans",
    "doi": "10.1007/s10519-024-10189-8",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "4_publisher",
    "file": "W4400559341.html",
    "blocked_urls": [
     "https://doi.org/10.1007/s10519-024-10189-8"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W2413981805": {
    "cell": "SELECTION_DIFFERENTIAL",
@@ -671,13 +716,15 @@
    "arm": "SELECTION",
    "title": "Deep Human Genealogies Reveal a Selective Advantage to Be on an Expanding Wave Front",
    "doi": "10.1126/science.1212880",
-   "status": "RETRIEVED",
+   "status": "ABSTRACT_ONLY",
    "route": "1_oa_landing",
    "file": "W1973490559.html",
    "blocked_urls": [
     "https://constellation.uqac.ca/id/eprint/8286/",
     "https://doi.org/10.1126/science.1212880"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "landing page only \u2014 an abstract is not a full text"
   },
   "W76510084": {
    "cell": "H2_FERTILITY",
@@ -696,13 +743,15 @@
    "arm": "H2",
    "title": "Genetic influence on age at first birth of female twins born in the UK, 1919\u201368",
    "doi": "10.1080/00324728.2015.1056823",
-   "status": "RETRIEVED",
+   "status": "ABSTRACT_ONLY",
    "route": "1_oa_landing",
    "file": "W1657275493.html",
    "blocked_urls": [
     "https://research.wur.nl/en/publications/genetic-influence-on-age-at-first-birth-of-female-twins-born-in-t",
     "https://doi.org/10.1080/00324728.2015.1056823"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "landing page only \u2014 an abstract is not a full text"
   },
   "W603943191": {
    "cell": "H2_FERTILITY",
@@ -721,13 +770,15 @@
    "arm": "SELECTION",
    "title": "Constraints on the coevolution of contemporary human males and females",
    "doi": "10.1098/rspb.2012.2024",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "1_oa_landing",
    "file": "W2137890395.html",
    "blocked_urls": [
     "https://www.ncbi.nlm.nih.gov/pmc/articles/3497102",
     "https://doi.org/10.1098/rspb.2012.2024"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W2488523304": {
    "cell": "H2_FERTILITY",
@@ -746,7 +797,7 @@
    "arm": "H2",
    "title": "Hidden heritability due to heterogeneity across seven populations",
    "doi": "10.1038/s41562-017-0195-1",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_pdf",
    "file": "W2752326665.pdf",
    "blocked_urls": [
@@ -759,14 +810,15 @@
     "http://repub.eur.nl/pub/108038",
     "https://hdl.handle.net/1871.1/a5971535-9ad4-4646-bb49-7d692551a1c2",
     "https://doi.org/10.1038/s41562-017-0195-1"
-   ]
+   ],
+   "text_chars": 54854
   },
   "W2953318985": {
    "cell": "SELECTION_DIFFERENTIAL",
    "arm": "SELECTION",
    "title": "An evolutionary compass for detecting signals of polygenic selection and mutational bias",
    "doi": "10.1002/evl3.97",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_landing",
    "file": "W2953318985.html",
    "blocked_urls": [
@@ -774,28 +826,30 @@
     "http://europepmc.org/pmc/articles/PMC6369964",
     "https://www.ncbi.nlm.nih.gov/pmc/articles/6369964",
     "https://doi.org/10.1002/evl3.97"
-   ]
+   ],
+   "text_chars": 46003
   },
   "W4283157868": {
    "cell": "H2_FERTILITY",
    "arm": "H2",
    "title": "Alcohol consumption at age 18\u201325 and number of children at a 33\u2010year follow\u2010up: Individual and within\u2010pair analyses of Finnish twins",
    "doi": "10.1111/acer.14886",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_landing",
    "file": "W4283157868.html",
    "blocked_urls": [
     "https://doi.org/10.1111/acer.14886",
     "https://www.ncbi.nlm.nih.gov/pmc/articles/9545724",
     "http://hdl.handle.net/10138/347888"
-   ]
+   ],
+   "text_chars": 54624
   },
   "W4322766108": {
    "cell": "SELECTION_DIFFERENTIAL",
    "arm": "SELECTION",
    "title": "Genome-wide analysis identifies genetic effects on reproductive success and ongoing natural selection at the FADS locus",
    "doi": "10.1038/s41562-023-01528-6",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "1_oa_pdf",
    "file": "W4322766108.pdf",
    "blocked_urls": [
@@ -808,7 +862,9 @@
     "https://research-information.bris.ac.uk/en/publications/a55b2656-842b-4375-8438-3efd7e291a34",
     "https://hdl.handle.net/1871.1/9d4c5a89-fbff-44d1-a1a9-75509663bf72",
     "https://doi.org/10.1038/s41562-023-01528-6"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W1774122399": {
    "cell": "H2_MODERATION",
@@ -829,7 +885,7 @@
    "arm": "H2",
    "title": "Human Fertility, Molecular Genetics, and Natural Selection in Modern Societies",
    "doi": "10.1371/journal.pone.0126821",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_pdf",
    "file": "W590852753.html",
    "blocked_urls": [
@@ -840,51 +896,57 @@
     "https://figshare.com/articles/dataset/_Human_Fertility_Molecular_Genetics_and_Natural_Selection_in_Modern_Societies_/1435396",
     "https://hdl.handle.net/11370/ee31ddac-0254-44ec-8b57-e6a5aa2e1e52",
     "https://doi.org/10.1371/journal.pone.0126821"
-   ]
+   ],
+   "text_chars": 54965
   },
   "W2890425574": {
    "cell": "PREDICTED_RESPONSE",
    "arm": "SELECTION",
    "title": "The heritability of fertility makes world population stabilization unlikely in the foreseeable future",
    "doi": "10.1016/j.evolhumbehav.2018.09.001",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "4_publisher",
    "file": "W2890425574.html",
    "blocked_urls": [
     "https://doi.org/10.1016/j.evolhumbehav.2018.09.001"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W22472955": {
    "cell": "PREDICTED_RESPONSE",
    "arm": "SELECTION",
    "title": "DF-like Analyses of Binary, Ordered, and Censored Variables Using Probit and Tobit Approaches",
    "doi": "10.1023/a:1021686005855",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "4_publisher",
    "file": "W22472955.html",
    "blocked_urls": [
     "https://doi.org/10.1023/a:1021686005855"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W4411477116": {
    "cell": "SELECTION_DIFFERENTIAL",
    "arm": "SELECTION",
    "title": "Why do we get sick? Genetic evidence for evolutionary trade-offs between fertility, longevity, and disease",
    "doi": "10.1101/2025.06.18.25329754",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_pdf",
    "file": "W4411477116.pdf",
    "blocked_urls": [
     "https://www.medrxiv.org/content/medrxiv/early/2025/06/20/2025.06.18.25329754.full.pdf",
     "https://doi.org/10.1101/2025.06.18.25329754"
-   ]
+   ],
+   "text_chars": 81569
   },
   "W2092739320": {
    "cell": "H2_MODERATION",
    "arm": "H2_MOD",
    "title": "The Demographic Transition Influences Variance in Fitness and Selection on Height and BMI in Rural Gambia",
    "doi": "10.1016/j.cub.2013.04.006",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_pdf",
    "file": "W2092739320.pdf",
    "blocked_urls": [
@@ -893,14 +955,15 @@
     "https://www.ncbi.nlm.nih.gov/pmc/articles/3668323",
     "https://durham-repository.worktribe.com/output/1457919",
     "https://doi.org/10.1016/j.cub.2013.04.006"
-   ]
+   ],
+   "text_chars": 13889
   },
   "W2625700093": {
    "cell": "SELECTION_DIFFERENTIAL",
    "arm": "SELECTION",
    "title": "Reproductive fitness and genetic risk of psychiatric disorders in the general population",
    "doi": "10.1038/ncomms15833",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_pdf",
    "file": "W2625700093.pdf",
    "blocked_urls": [
@@ -909,27 +972,29 @@
     "https://doaj.org/article/6a60e54dd24e47ccb00660d46b48e9ad",
     "https://hdl.handle.net/20.500.11815/319",
     "https://doi.org/10.1038/ncomms15833"
-   ]
+   ],
+   "text_chars": 35292
   },
   "W2169871877": {
    "cell": "PREDICTED_RESPONSE",
    "arm": "SELECTION",
    "title": "Impact of fertility transmission and other sociodemographic factors on reproductive success and coalescent trees",
    "doi": "10.1017/s0016672312000298",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_pdf",
    "file": "W2169871877.pdf",
    "blocked_urls": [
     "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/DCD60A947A8A4E95E4BC5CABC52BF2B3/S0016672312000298a.pdf/div-class-title-impact-of-fertility-transmission-and-other-sociodemographic-factors-on-reproductive-success-and-coalescent-trees-div.pdf",
     "https://doi.org/10.1017/s0016672312000298"
-   ]
+   ],
+   "text_chars": 53790
   },
   "W2607161571": {
    "cell": "SELECTION_DIFFERENTIAL",
    "arm": "SELECTION",
    "title": "Ethnically Tibetan women in Nepal with low hemoglobin concentration have better reproductive outcomes",
    "doi": "10.1093/emph/eox008",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_landing",
    "file": "W2607161571.html",
    "blocked_urls": [
@@ -938,41 +1003,46 @@
     "https://www.ncbi.nlm.nih.gov/pmc/articles/5442430",
     "https://ora.ox.ac.uk/objects/uuid:35d7fc99-7933-4e9e-9c02-3e91b03c49c0",
     "https://doi.org/10.1093/emph/eox008"
-   ]
+   ],
+   "text_chars": 62173
   },
   "W2736952228": {
    "cell": "H2_FERTILITY",
    "arm": "H2",
    "title": "The age at first birth and completed fertility reconsidered: findings from a sample of identical twins",
    "doi": "10.4054/mpidr-wp-2001-006",
-   "status": "RETRIEVED",
+   "status": "ABSTRACT_ONLY",
    "route": "1_oa_pdf",
    "file": "W2736952228.pdf",
    "blocked_urls": [
     "https://www.demogr.mpg.de/Papers/Working/wp-2001-006.pdf",
     "https://doi.org/10.4054/mpidr-wp-2001-006"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "landing page only \u2014 an abstract is not a full text"
   },
   "W2054229127": {
    "cell": "SELECTION_DIFFERENTIAL",
    "arm": "SELECTION",
    "title": "Evidence for evolution in response to natural selection in a contemporary human population",
    "doi": "10.1073/pnas.1104210108",
-   "status": "RETRIEVED",
+   "status": "ABSTRACT_ONLY",
    "route": "1_oa_pdf",
    "file": "W2054229127.html",
    "blocked_urls": [
     "https://www.research.ed.ac.uk/en/publications/d75b36c6-b3da-47b0-9249-9ebab7252551",
     "https://www.ncbi.nlm.nih.gov/pmc/articles/3193187",
     "https://doi.org/10.1073/pnas.1104210108"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "landing page only \u2014 an abstract is not a full text"
   },
   "W2795856187": {
    "cell": "H2_FERTILITY",
    "arm": "H2",
    "title": "The Sociogenomics of Polygenic Scores of Reproductive Behavior and Their Relationship to Other Fertility Traits",
    "doi": "10.7758/rsf.2018.4.4.07",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_pdf",
    "file": "W2795856187.pdf",
    "blocked_urls": [
@@ -981,14 +1051,15 @@
     "https://doaj.org/article/dfaadcf8e3fd4fe587387f9e3e8ef0fc",
     "https://ora.ox.ac.uk/objects/uuid:541f0728-cf72-49a7-a968-fb5087b95704",
     "https://doi.org/10.7758/rsf.2018.4.4.07"
-   ]
+   ],
+   "text_chars": 55014
   },
   "W4308408443": {
    "cell": "H2_FERTILITY",
    "arm": "H2",
    "title": "Association studies between chromosomal regions 1q21.3, 5q21.3, 14q21.2 and 17q21.31 and numbers of children in Poland",
    "doi": "10.1038/s41598-022-21638-x",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_pdf",
    "file": "W4308408443.pdf",
    "blocked_urls": [
@@ -996,19 +1067,22 @@
     "https://www.ncbi.nlm.nih.gov/pmc/articles/9640534",
     "https://doaj.org/article/f0949f56338b44588357aa6c01132dae",
     "https://doi.org/10.1038/s41598-022-21638-x"
-   ]
+   ],
+   "text_chars": 52275
   },
   "W189676882": {
    "cell": "H2_FERTILITY",
    "arm": "H2",
    "title": "Evolutionary Causes of Genetic Variation in Fertility and other Fitness Components",
    "doi": "10.1007/978-1-4615-4467-8_3",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "4_publisher",
    "file": "W189676882.html",
    "blocked_urls": [
     "https://doi.org/10.1007/978-1-4615-4467-8_3"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W2009249473": {
    "cell": "H2_FERTILITY",
@@ -1029,7 +1103,7 @@
    "arm": "H2",
    "title": "Sexual dimorphism in the genetic influence on human childlessness",
    "doi": "10.1038/ejhg.2017.105",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_pdf",
    "file": "W2731861498.pdf",
    "blocked_urls": [
@@ -1040,7 +1114,8 @@
     "https://ora.ox.ac.uk/objects/uuid:806daa3b-ecd7-4c91-a500-31eca31211a6",
     "http://repub.eur.nl/pub/123215",
     "https://doi.org/10.1038/ejhg.2017.105"
-   ]
+   ],
+   "text_chars": 49077
   },
   "W1967862655": {
    "cell": "H2_FERTILITY",
@@ -1061,7 +1136,7 @@
    "arm": "H2",
    "title": "Genome-wide analysis identifies 12 loci influencing human reproductive behavior",
    "doi": "10.1038/ng.3698",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_pdf",
    "file": "W2544485223.pdf",
    "blocked_urls": [
@@ -1073,14 +1148,15 @@
     "https://research-information.bristol.ac.uk/en/publications/genomewide-analysis-identifies-12-loci-influencing-human-reproductive-behavior(32106775-7efb-4231-9412-b4e1885ac7cd).html",
     "https://research-information.bris.ac.uk/ws/files/92799064/main_article_Barban.pdf",
     "https://doi.org/10.1038/ng.3698"
-   ]
+   ],
+   "text_chars": 65034
   },
   "W3176120982": {
    "cell": "H2_FERTILITY",
    "arm": "H2",
    "title": "Identification of 371 genetic variants for age at first sex and birth linked to externalising behaviour",
    "doi": "10.1038/s41562-021-01135-3",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "1_oa_pdf",
    "file": "W3176120982.pdf",
    "blocked_urls": [
@@ -1094,14 +1170,16 @@
     "https://research.rug.nl/en/publications/67041e21-17d8-468a-b209-ea212f32c5b8",
     "https://doi.org/10.17863/cam.72698",
     "https://doi.org/10.1038/s41562-021-01135-3"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W2810866107": {
    "cell": "SELECTION_DIFFERENTIAL",
    "arm": "SELECTION",
    "title": "Schizophrenia risk and reproductive success: a Mendelian randomization study",
    "doi": "10.1098/rsos.181049",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_landing",
    "file": "W2810866107.html",
    "blocked_urls": [
@@ -1110,63 +1188,71 @@
     "https://research-information.bris.ac.uk/ws/files/189521555/rsos.181049.pdf",
     "https://www.ncbi.nlm.nih.gov/pmc/articles/6458425",
     "https://doaj.org/article/3d77cff4b33b4c8d84a48d14a1fee9a0"
-   ]
+   ],
+   "text_chars": 51709
   },
   "W2514010371": {
    "cell": "SELECTION_DIFFERENTIAL",
    "arm": "SELECTION",
    "title": "Genetic Associations Between Personality Traits and Lifetime Reproductive Success in Humans",
    "doi": "10.1007/s10519-016-9803-5",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "1_oa_pdf",
    "file": "W2514010371.html",
    "blocked_urls": [
     "http://hdl.handle.net/10138/230028",
     "https://doi.org/10.1007/s10519-016-9803-5"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W3008866789": {
    "cell": "SELECTION_DIFFERENTIAL",
    "arm": "SELECTION",
    "title": "Modelling the on-going natural selection of educational attainment in contemporary societies",
    "doi": "10.1016/j.jtbi.2020.110210",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "4_publisher",
    "file": "W3008866789.html",
    "blocked_urls": [
     "https://doi.org/10.1016/j.jtbi.2020.110210"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W39831267": {
    "cell": "H2_FERTILITY",
    "arm": "H2",
    "title": "Genetic Variance in Human Fertility: Biology, Psychology, or Both?",
    "doi": "10.1007/978-1-4615-1137-3_12",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "4_publisher",
    "file": "W39831267.html",
    "blocked_urls": [
     "https://doi.org/10.1007/978-1-4615-1137-3_12"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W2076586348": {
    "cell": "H2_FERTILITY",
    "arm": "H2",
    "title": "NATURE, NURTURE AND FIRST SEXUAL INTERCOURSE IN THE USA: FITTING BEHAVIOURAL GENETIC MODELS TO NLSY KINSHIP DATA",
    "doi": "10.1017/s0021932099000292",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "4_publisher",
    "file": "W2076586348.html",
    "blocked_urls": [
     "https://doi.org/10.1017/s0021932099000292"
-   ]
+   ],
+   "text_chars": 21617
   },
   "W2128269372": {
    "cell": "SELECTION_DIFFERENTIAL",
    "arm": "SELECTION",
    "title": "Genetic links between post-reproductive lifespan and family size in Framingham",
    "doi": "10.1093/emph/eot013",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_pdf",
    "file": "W2128269372.html",
    "blocked_urls": [
@@ -1174,31 +1260,36 @@
     "http://hdl.handle.net/11343/256704",
     "https://www.ncbi.nlm.nih.gov/pmc/articles/3868361",
     "https://doi.org/10.1093/emph/eot013"
-   ]
+   ],
+   "text_chars": 41918
   },
   "W2513851012": {
    "cell": "H2_FERTILITY",
    "arm": "H2",
    "title": "What Explains the Heritability of Completed Fertility? Evidence from Two Large Twin Studies",
    "doi": "10.1007/s10519-016-9805-3",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "4_publisher",
    "file": "W2513851012.html",
    "blocked_urls": [
     "https://doi.org/10.1007/s10519-016-9805-3"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W1979473713": {
    "cell": "H2_MODERATION",
    "arm": "H2_MOD",
    "title": "Biosocial Models of Low-Fertility Societies",
    "doi": "10.2307/2808017",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "4_publisher",
    "file": "W1979473713.html",
    "blocked_urls": [
     "https://doi.org/10.2307/2808017"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W2548870266": {
    "cell": "PREDICTED_RESPONSE",
@@ -1219,26 +1310,28 @@
    "arm": "H2_MOD",
    "title": "Genotype \u00d7 Cohort Interaction on Completed Fertility and Age at First Birth",
    "doi": "10.1007/s10519-014-9693-3",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_landing",
    "file": "W2033634275.html",
    "blocked_urls": [
     "https://www.ncbi.nlm.nih.gov/pmc/articles/4289659",
     "https://doi.org/10.1007/s10519-014-9693-3"
-   ]
+   ],
+   "text_chars": 49490
   },
   "W4415164102": {
    "cell": "SELECTION_DIFFERENTIAL",
    "arm": "SELECTION",
    "title": "Contrasting evolutionary outcomes in a human life history trait which is heritable and under consistent unbiased directional selection",
    "doi": "10.1101/2025.10.13.682154",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "3b_unpaywall_retry",
    "file": "W4415164102.retry.pdf",
    "blocked_urls": [
     "https://www.biorxiv.org/content/biorxiv/early/2025/10/14/2025.10.13.682154.full.pdf",
     "https://doi.org/10.1101/2025.10.13.682154"
-   ]
+   ],
+   "text_chars": 71803
   },
   "W3180091553": {
    "cell": "H2_FERTILITY",
@@ -1261,13 +1354,14 @@
    "arm": "SELECTION",
    "title": "Genetic trade-offs in fertility and longevity explain the maintenance of disease-associated alleles in humans",
    "doi": "10.1038/s41559-026-03140-z",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_pdf",
    "file": "W7169878769.pdf",
    "blocked_urls": [
     "https://www.nature.com/articles/s41559-026-03140-z.pdf",
     "https://doi.org/10.1038/s41559-026-03140-z"
-   ]
+   ],
+   "text_chars": 86258
   },
   "W2091998589": {
    "cell": "H2_FERTILITY",
@@ -1288,90 +1382,100 @@
    "arm": "H2",
    "title": "Genetic Influences on Human Fertility and Sexuality",
    "doi": "10.1007/978-1-4615-4467-8",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "4_publisher",
    "file": "W2482869111.html",
    "blocked_urls": [
     "https://doi.org/10.1007/978-1-4615-4467-8"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W2950098314": {
    "cell": "SELECTION_DIFFERENTIAL",
    "arm": "SELECTION",
    "title": "How Cognitive Genetic Factors Influence Fertility Outcomes: A Mediational SEM Analysis",
    "doi": "10.1017/thg.2016.82",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_pdf",
    "file": "W2950098314.pdf",
    "blocked_urls": [
     "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/8357A0764069B330F443B88ED24FE486/S1832427416000827a.pdf/div-class-title-how-cognitive-genetic-factors-influence-fertility-outcomes-a-mediational-sem-analysis-div.pdf",
     "https://doi.org/10.1017/thg.2016.82"
-   ]
+   ],
+   "text_chars": 49617
   },
   "W2055251693": {
    "cell": "PEDIGREE_RESPONSE",
    "arm": "SELECTION",
    "title": "Differential fitness costs of reproduction between the sexes",
    "doi": "10.1073/pnas.0609301103",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "1_oa_landing",
    "file": "W2055251693.html",
    "blocked_urls": [
     "https://www.ncbi.nlm.nih.gov/pmc/articles/1766423",
     "https://doi.org/10.1073/pnas.0609301103"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W4414345371": {
    "cell": "WITHIN_VS_POPULATION",
    "arm": "METHOD",
    "title": "Within-family heritability estimates for behavioural and disease phenotypes from 500,000 sibling pairs of diverse ancestries",
    "doi": "10.1101/2025.09.17.25336022",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_pdf",
    "file": "W4414345371.pdf",
    "blocked_urls": [
     "https://www.medrxiv.org/content/medrxiv/early/2025/09/19/2025.09.17.25336022.full.pdf",
     "https://doi.org/10.1101/2025.09.17.25336022"
-   ]
+   ],
+   "text_chars": 45074
   },
   "W2062505457": {
    "cell": "H2_FERTILITY",
    "arm": "H2",
    "title": "Heritable and environmental variables affect reproduction-related behaviors, but not ultimate reproductive success",
    "doi": "10.1016/0191-8869(93)90091-g",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "4_publisher",
    "file": "W2062505457.html",
    "blocked_urls": [
     "https://doi.org/10.1016/0191-8869(93)90091-g"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W2573112139": {
    "cell": "PEDIGREE_RESPONSE",
    "arm": "SELECTION",
    "title": "The impact of parental investment on lifetime reproductive success in Iceland",
    "doi": "10.7717/peerj.2904",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_landing",
    "file": "W2573112139.html",
    "blocked_urls": [
     "https://doi.org/10.7717/peerj.2904",
     "https://www.ncbi.nlm.nih.gov/pmc/articles/5251940",
     "https://doaj.org/article/60f7fa2e4a364d42a4bff1b9640cd6ce"
-   ]
+   ],
+   "text_chars": 41377
   },
   "W2053209564": {
    "cell": "H2_MODERATION",
    "arm": "H2_MOD",
    "title": "A DEMOGRAPHIC TRANSITION ALTERED THE STRENGTH OF SELECTION FOR FITNESS AND AGE-SPECIFIC SURVIVAL AND FERTILITY IN A 19TH CENTURY AMERICAN POPULATION",
    "doi": "10.1111/evo.12023",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_landing",
    "file": "W2053209564.html",
    "blocked_urls": [
     "https://www.ncbi.nlm.nih.gov/pmc/articles/3675805",
     "https://doi.org/10.1111/evo.12023"
-   ]
+   ],
+   "text_chars": 54140
   },
   "W1975448621": {
    "cell": "SELECTION_DIFFERENTIAL",
@@ -1394,19 +1498,20 @@
    "arm": "SELECTION",
    "title": "The Biocultural Origins of Human Capital Formation",
    "doi": "10.3386/w20474",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_pdf",
    "file": "W1562851158.html",
    "blocked_urls": [
     "https://doi.org/10.3386/w20474"
-   ]
+   ],
+   "text_chars": 95629
   },
   "W2103205223": {
    "cell": "H2_FERTILITY",
    "arm": "H2",
    "title": "Perfect genetic correlation between number of offspring and grandoffspring in an industrialized human population",
    "doi": "10.1073/pnas.1310058111",
-   "status": "RETRIEVED",
+   "status": "ABSTRACT_ONLY",
    "route": "1_oa_landing",
    "file": "W2103205223.html",
    "blocked_urls": [
@@ -1415,20 +1520,23 @@
     "https://research.vu.nl/en/publications/cfae4161-1db4-410c-a284-b799644708bc",
     "https://pure.amc.nl/en/publications/perfect-genetic-correlation-between-number-of-offspring-and-grandoffspring-in-an-industrialized-human-population(bbcb1400-1386-43a9-b909-4fbc23ddde72).html",
     "https://doi.org/10.1073/pnas.1310058111"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "landing page only \u2014 an abstract is not a full text"
   },
   "W2110308604": {
    "cell": "H2_FERTILITY",
    "arm": "H2",
    "title": "Unraveling the intergenerational transmission of fertility: genetic and shared-environment effects during the demographic transition in the Netherlands, 1810\u20131910",
    "doi": "10.1080/1081602x.2013.803491",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_pdf",
    "file": "W2110308604.html",
    "blocked_urls": [
     "https://lirias.kuleuven.be/retrieve/e6e563bb-21d2-4daf-babf-715457a72732",
     "https://doi.org/10.1080/1081602x.2013.803491"
-   ]
+   ],
+   "text_chars": 62867
   },
   "W2109418124": {
    "cell": "H2_MODERATION",
@@ -1449,32 +1557,34 @@
    "arm": "H2",
    "title": "Identification of 370 genetic loci for age at first sex and birth linked to externalising behaviour",
    "doi": "10.1101/2020.05.06.081273",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "3b_unpaywall_retry",
    "file": "W3127086984.retry.pdf",
    "blocked_urls": [
     "https://www.biorxiv.org/content/biorxiv/early/2021/02/04/2020.05.06.081273.full.pdf",
     "https://doi.org/10.1101/2020.05.06.081273"
-   ]
+   ],
+   "text_chars": 107843
   },
   "W2116934337": {
    "cell": "H2_FERTILITY",
    "arm": "H2",
    "title": "DOES EDUCATION MEDIATE THE RELATIONSHIP BETWEEN IQ AND AGE OF FIRST BIRTH? A BEHAVIOURAL GENETIC ANALYSIS",
    "doi": "10.1017/s0021932002002596",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "4_publisher",
    "file": "W2116934337.html",
    "blocked_urls": [
     "https://doi.org/10.1017/s0021932002002596"
-   ]
+   ],
+   "text_chars": 22243
   },
   "W2304069640": {
    "cell": "SELECTION_DIFFERENTIAL",
    "arm": "SELECTION",
    "title": "Evidence for Genetic Overlap Between Schizophrenia and Age at First Birth in Women",
    "doi": "10.1001/jamapsychiatry.2016.0129",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_landing",
    "file": "W2304069640.html",
    "blocked_urls": [
@@ -1483,20 +1593,23 @@
     "https://escholarship.org/content/qt0b2868b3/qt0b2868b3.pdf",
     "https://www.ncbi.nlm.nih.gov/pmc/articles/5785705",
     "https://doi.org/10.1001/jamapsychiatry.2016.0129"
-   ]
+   ],
+   "text_chars": 27945
   },
   "W2168212656": {
    "cell": "H2_FERTILITY",
    "arm": "H2",
    "title": "Heritability and genetic constraints of life-history trait evolution in preindustrial humans",
    "doi": "10.1073/pnas.0406709102",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "1_oa_landing",
    "file": "W2168212656.html",
    "blocked_urls": [
     "https://www.ncbi.nlm.nih.gov/pmc/articles/549452",
     "https://doi.org/10.1073/pnas.0406709102"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W1971984564": {
    "cell": "H2_MODERATION",
@@ -1519,13 +1632,14 @@
    "arm": "H2_MOD",
    "title": "Mega-analysis of 31,396 individuals from 6 countries uncovers strong gene-environment interaction for human fertility",
    "doi": "10.1101/049163",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "3b_unpaywall_retry",
    "file": "W2337218734.retry.pdf",
    "blocked_urls": [
     "https://www.biorxiv.org/content/biorxiv/early/2016/05/02/049163.full.pdf",
     "https://doi.org/10.1101/049163"
-   ]
+   ],
+   "text_chars": 84417
   },
   "W2123568085": {
    "cell": "H2_FERTILITY",
@@ -1546,12 +1660,14 @@
    "arm": "SELECTION",
    "title": "Personality and reproductive fitness",
    "doi": "10.1007/bf01065872",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "4_publisher",
    "file": "W2160276478.html",
    "blocked_urls": [
     "https://doi.org/10.1007/bf01065872"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W2106599966": {
    "cell": "SELECTION_DIFFERENTIAL",
@@ -1572,7 +1688,7 @@
    "arm": "H2",
    "title": "Using Polygenic Scores in Social Science Research: Unraveling Childlessness",
    "doi": "10.3389/fsoc.2019.00074",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_pdf",
    "file": "W2990372252.html",
    "blocked_urls": [
@@ -1584,46 +1700,53 @@
     "https://ora.ox.ac.uk/objects/uuid:1adc30e9-e2a5-48de-a3d7-aaf731066b19",
     "https://research.rug.nl/en/publications/2561deec-bf74-463b-8737-82b9171f3f1b",
     "https://doi.org/10.3389/fsoc.2019.00074"
-   ]
+   ],
+   "text_chars": 73732
   },
   "W2038630720": {
    "cell": "H2_FERTILITY",
    "arm": "H2",
    "title": "Biodemographic modeling of the links between fertility motivation and fertility outcomes in the NLSY79",
    "doi": "10.1353/dem.0.0107",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "1_oa_landing",
    "file": "W2038630720.html",
    "blocked_urls": [
     "https://www.ncbi.nlm.nih.gov/pmc/articles/3000025",
     "https://doi.org/10.1353/dem.0.0107"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W2040190166": {
    "cell": "H2_FERTILITY",
    "arm": "H2",
    "title": "Multivariate Cholesky Models of Human Female Fertility Patterns in the NLSY",
    "doi": "10.1007/s10519-006-9137-9",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "1_oa_landing",
    "file": "W2040190166.html",
    "blocked_urls": [
     "https://www.ncbi.nlm.nih.gov/pmc/articles/2712577",
     "https://doi.org/10.1007/s10519-006-9137-9"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W2303250854": {
    "cell": "H2_MODERATION",
    "arm": "H2_MOD",
    "title": "How does variance in fertility change over the demographic transition?",
    "doi": "10.1098/rstb.2015.0155",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "1_oa_landing",
    "file": "W2303250854.html",
    "blocked_urls": [
     "https://www.ncbi.nlm.nih.gov/pmc/articles/4822435",
     "https://doi.org/10.1098/rstb.2015.0155"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W2093698295": {
    "cell": "H2_FERTILITY",
@@ -1644,14 +1767,15 @@
    "arm": "SELECTION",
    "title": "Consistency and Variation in Natural Selection on Personality Across 17 Countries",
    "doi": "10.1177/14747049251324908",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_landing",
    "file": "W4408525368.html",
    "blocked_urls": [
     "https://doi.org/10.1177/14747049251324908",
     "https://www.ncbi.nlm.nih.gov/pmc/articles/11915285",
     "https://doaj.org/article/3f7c2d68f93948b3a1acd35a9a71c38a"
-   ]
+   ],
+   "text_chars": 37430
   },
   "W2168144246": {
    "cell": "H2_FERTILITY",
@@ -1672,7 +1796,7 @@
    "arm": "SELECTION",
    "title": "The genetic relationship between female reproductive traits and six psychiatric disorders",
    "doi": "10.1038/s41598-019-48403-x",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_pdf",
    "file": "W2969099478.pdf",
    "blocked_urls": [
@@ -1681,7 +1805,8 @@
     "http://hdl.handle.net/2440/122535",
     "https://hdl.handle.net/11541.2/138956",
     "https://doi.org/10.1038/s41598-019-48403-x"
-   ]
+   ],
+   "text_chars": 50856
   },
   "W1981839149": {
    "cell": "PEDIGREE_RESPONSE",
@@ -1731,72 +1856,80 @@
    "arm": "SELECTION",
    "title": "GWAS on Birth Year Infant Mortality Rates Provides New Evidence of Recent Natural Selection",
    "doi": "10.1101/2021.06.08.21258559",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_pdf",
    "file": "W3166912545.pdf",
    "blocked_urls": [
     "https://www.medrxiv.org/content/medrxiv/early/2021/06/12/2021.06.08.21258559.full.pdf",
     "https://doi.org/10.1101/2021.06.08.21258559"
-   ]
+   ],
+   "text_chars": 43030
   },
   "W1531221434": {
    "cell": "H2_FERTILITY",
    "arm": "H2",
    "title": "Genetic and Environmental Influences on Fertility Expectations and Outcomes Using NLSY Kinship Data",
    "doi": "10.1007/978-1-4615-4467-8_6",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "4_publisher",
    "file": "W1531221434.html",
    "blocked_urls": [
     "https://doi.org/10.1007/978-1-4615-4467-8_6"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W2062288399": {
    "cell": "H2_FERTILITY",
    "arm": "H2",
    "title": "Education and Cognitive Ability as Direct, Mediating, or Spurious Influences on Female Age at First Birth: Behavior Genetic Models Fit to Danish Twin Data",
    "doi": "10.1086/592205",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "1_oa_landing",
    "file": "W2062288399.html",
    "blocked_urls": [
     "https://www.ncbi.nlm.nih.gov/pmc/articles/2749946",
     "https://doi.org/10.1086/592205"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W3138806261": {
    "cell": "H2_FERTILITY",
    "arm": "H2",
    "title": "How family background shapes the relationship between human capital and fertility",
    "doi": "10.1007/s00148-021-00834-5",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "1_oa_pdf",
    "file": "W3138806261.pdf",
    "blocked_urls": [
     "https://link.springer.com/content/pdf/10.1007/s00148-021-00834-5.pdf",
     "http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-459594",
     "https://doi.org/10.1007/s00148-021-00834-5"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W2090662598": {
    "cell": "H2_FERTILITY",
    "arm": "H2",
    "title": "The Genetic and Environmental Structure of Reproduction-Related Variables: The Case of Fertility and Breastfeeding",
    "doi": "10.1017/thg.2013.64",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_pdf",
    "file": "W2090662598.pdf",
    "blocked_urls": [
     "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/1FF3F4ACAF23CD3DF6F3856B3AC8F57A/S1832427413000649a.pdf/div-class-title-the-genetic-and-environmental-structure-of-reproduction-related-variables-the-case-of-fertility-and-breastfeeding-div.pdf",
     "https://doi.org/10.1017/thg.2013.64"
-   ]
+   ],
+   "text_chars": 35392
   },
   "W2569771954": {
    "cell": "H2_FERTILITY",
    "arm": "H2",
    "title": "Is the Association Between Education and Fertility Postponement Causal? The Role of Family Background Factors",
    "doi": "10.1007/s13524-016-0531-5",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_pdf",
    "file": "W2569771954.pdf",
    "blocked_urls": [
@@ -1806,51 +1939,57 @@
     "https://dspace.library.uu.nl/handle/1874/361740",
     "https://osf.io/hvfgm",
     "https://doi.org/10.1007/s13524-016-0531-5"
-   ]
+   ],
+   "text_chars": 72120
   },
   "W7169815648": {
    "cell": "H2_FERTILITY",
    "arm": "H2",
    "title": "When children shape their families: Evocative effects analysis of 40,000 trios from the Norwegian Mother, Father and Child Cohort Study",
    "doi": "10.1073/pnas.2532642123",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "1_oa_landing",
    "file": "W7169815648.html",
    "blocked_urls": [
     "https://pmc.ncbi.nlm.nih.gov/articles/PMC13416551/",
     "https://doi.org/10.1073/pnas.2532642123"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W2566750848": {
    "cell": "SELECTION_DIFFERENTIAL",
    "arm": "SELECTION",
    "title": "GEOSPATIAL ASSESSMENT BASED ON FERTILITY AND MORTALITY DIFFERENTIAL INDICES OF NATURAL SELECTION IN NORTH-WEST AND EASTERN HIMALAYAN POPULATIONS",
    "doi": "10.1017/s0021932016000705",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "4_publisher",
    "file": "W2566750848.html",
    "blocked_urls": [
     "https://doi.org/10.1017/s0021932016000705"
-   ]
+   ],
+   "text_chars": 25842
   },
   "W2117546824": {
    "cell": "PEDIGREE_RESPONSE",
    "arm": "SELECTION",
    "title": "Natural and sexual selection in a monogamous historical human population",
    "doi": "10.1073/pnas.1118174109",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "2_pmc_bioc",
    "file": "W2117546824.bioc.json",
    "blocked_urls": [
     "https://doi.org/10.1073/pnas.1118174109"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W3123168349": {
    "cell": "SELECTION_DIFFERENTIAL",
    "arm": "SELECTION",
    "title": "Human Capital Mediates Natural Selection in Contemporary Humans",
    "doi": "10.1007/s10519-022-10107-w",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_pdf",
    "file": "W3123168349.pdf",
    "blocked_urls": [
@@ -1861,20 +2000,22 @@
     "https://www.ncbi.nlm.nih.gov/pmc/articles/9463317",
     "https://pure.amc.nl/en/publications/human-capital-mediates-natural-selection-in-contemporary-humans(3d18dd9a-0e08-46d1-be60-1c8ccca1c9c1).html",
     "https://doi.org/10.1007/s10519-022-10107-w"
-   ]
+   ],
+   "text_chars": 63428
   },
   "W2955592702": {
    "cell": "SELECTION_DIFFERENTIAL",
    "arm": "SELECTION",
    "title": "How Intelligence Affects Fertility 30 Years On: Retherford and Sewell Revisited \u2014 With Polygenic Scores and Numbers of Grandchildren",
    "doi": "10.1017/thg.2019.25",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_pdf",
    "file": "W2955592702.pdf",
    "blocked_urls": [
     "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/AB8EF68EE05C8DFD0A1C424B4FF7BC1F/S1832427419000252a.pdf/div-class-title-how-intelligence-affects-fertility-30-years-on-retherford-and-sewell-revisited-with-polygenic-scores-and-numbers-of-grandchildren-div.pdf",
     "https://doi.org/10.1017/thg.2019.25"
-   ]
+   ],
+   "text_chars": 37144
   },
   "W2171689700": {
    "cell": "H2_FERTILITY",
@@ -1895,7 +2036,7 @@
    "arm": "SELECTION",
    "title": "Selection against variants in the genome associated with educational attainment",
    "doi": "10.1073/pnas.1612113114",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "1_oa_landing",
    "file": "W2575032714.html",
    "blocked_urls": [
@@ -1903,43 +2044,50 @@
     "https://www.ncbi.nlm.nih.gov/pmc/articles/5293043",
     "http://hdl.handle.net/1765/95831",
     "https://doi.org/10.1073/pnas.1612113114"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W198400850": {
    "cell": "H2_FERTILITY",
    "arm": "H2",
    "title": "Genetic Influences on Fertility Behavior: Findings From a Danish Twin Study, 1910\u20131923",
    "doi": "10.1007/978-1-4615-4467-8_5",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "4_publisher",
    "file": "W198400850.html",
    "blocked_urls": [
     "https://doi.org/10.1007/978-1-4615-4467-8_5"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W4283368917": {
    "cell": "SELECTION_DIFFERENTIAL",
    "arm": "SELECTION",
    "title": "Shared genetic basis between reproductive behaviors and anxiety-related disorders",
    "doi": "10.1038/s41380-022-01667-8",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "4_publisher",
    "file": "W4283368917.html",
    "blocked_urls": [
     "https://doi.org/10.1038/s41380-022-01667-8"
-   ]
+   ],
+   "text_chars": 20095
   },
   "W2021992969": {
    "cell": "H2_FERTILITY",
    "arm": "H2",
    "title": "Heritability of reproductive fitness traits in a human population",
    "doi": "10.1073/pnas.0906196106",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "2_pmc_bioc",
    "file": "W2021992969.bioc.json",
    "blocked_urls": [
     "https://doi.org/10.1073/pnas.0906196106"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W4285005223": {
    "cell": "SELECTION_DIFFERENTIAL",
@@ -1976,20 +2124,22 @@
    "arm": "SELECTION",
    "title": "Genetic evidence for natural selection in humans in the contemporary United States",
    "doi": "10.1073/pnas.1600398113",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "1_oa_landing",
    "file": "W2470195001.html",
    "blocked_urls": [
     "https://www.ncbi.nlm.nih.gov/pmc/articles/4948342",
     "https://doi.org/10.1073/pnas.1600398113"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W1985105482": {
    "cell": "PEDIGREE_RESPONSE",
    "arm": "SELECTION",
    "title": "Natural Selection on Female Life-History Traits in Relation to Socio-Economic Class in Pre-Industrial Human Populations",
    "doi": "10.1371/journal.pone.0000606",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_landing",
    "file": "W1985105482.html",
    "blocked_urls": [
@@ -1999,59 +2149,66 @@
     "https://doaj.org/article/de17663a79ce4849906b20fa0d824bc7",
     "http://hdl.handle.net/20.500.11850/8662",
     "https://doi.org/10.3929/ethz-b-000008662"
-   ]
+   ],
+   "text_chars": 51743
   },
   "W2470573555": {
    "cell": "SELECTION_DIFFERENTIAL",
    "arm": "SELECTION",
    "title": "Evidence of contemporary polygenic selection on the Big G of national cognitive ability: A cross-cultural sociogenetic analysis",
    "doi": "10.1016/j.paid.2016.06.054",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "4_publisher",
    "file": "W2470573555.html",
    "blocked_urls": [
     "https://doi.org/10.1016/j.paid.2016.06.054"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W2342100485": {
    "cell": "H2_FERTILITY",
    "arm": "H2",
    "title": "Physical and neurobehavioral determinants of reproductive onset and success",
    "doi": "10.1038/ng.3551",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_landing",
    "file": "W2342100485.html",
    "blocked_urls": [
     "https://www.ncbi.nlm.nih.gov/pmc/articles/5238953",
     "https://www.repository.cam.ac.uk/handle/1810/254479",
     "https://doi.org/10.1038/ng.3551"
-   ]
+   ],
+   "text_chars": 45121
   },
   "W1977560735": {
    "cell": "SELECTION_DIFFERENTIAL",
    "arm": "SELECTION",
    "title": "Natural selection on age\u2013specific fertilities in human females: comparison of individual\u2013level fitness measures",
    "doi": "10.1098/rspb.1998.0592",
-   "status": "RETRIEVED",
+   "status": "BOT_CHALLENGE_PAGE",
    "route": "1_oa_landing",
    "file": "W1977560735.html",
    "blocked_urls": [
     "https://www.ncbi.nlm.nih.gov/pmc/articles/1689548",
     "https://doi.org/10.1098/rspb.1998.0592"
-   ]
+   ],
+   "job": "BROWSER_JOB",
+   "reason": "HTTP 200 bot-challenge page (Cloudflare/JS wall); not paywalled, needs a logged-in browser"
   },
   "W2018862557": {
    "cell": "H2_FERTILITY",
    "arm": "H2",
    "title": "The fertility pattern of twins and the general population compared: evidence from Danish cohorts 1945-64",
    "doi": "10.4054/mpidr-wp-2002-005",
-   "status": "RETRIEVED",
+   "status": "FULL_TEXT",
    "route": "1_oa_pdf",
    "file": "W2018862557.pdf",
    "blocked_urls": [
     "https://www.demogr.mpg.de/papers/working/wp-2002-005.pdf",
     "https://doi.org/10.4054/mpidr-wp-2002-005"
-   ]
+   ],
+   "text_chars": 59035
   },
   "W4416670776": {
    "cell": "H2_FERTILITY",

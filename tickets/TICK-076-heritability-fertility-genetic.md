@@ -11,7 +11,7 @@
 - [x] 2. Search strategy and scope drafted — `literature/search-logs/heritability-fertility-genetic-search-scope.md` (2026-08-31). **FROZEN:** Rulings 1–4 resolved; 5 routed to TICK-001. Stage 3 unblocked.
 - [x] 3. Literature search and AI screening, both phases (§5.1) — 696 distinct studies screened; stratum A complete, stratum B bounded, snowball rounds 1–2 done (§5.1 caps depth at 2)
 - [ ] 4. RA title/abstract review
-- [~] 5. Full-text retrieval — 108/148 (73.0%) automated; 40 handed off, split browser-job (35) / proxy-job (5)
+- [~] 5. Full-text retrieval — **56/148 (37.8%) usable full text**; 92 handed off (browser-job 87 / proxy-job 5). The earlier 73% counted bot-challenge pages as retrievals
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
 - [ ] 7. Extraction to `extraction/heritability-fertility-genetic.csv`, RA verifies a random 10%
 - [ ] 8. Risk-of-bias assessment per study
@@ -276,4 +276,28 @@ not blocks, and 3 of 4 recovered on backoff.
 75.0% · `H2_FERTILITY` 72.7% · `PREDICTED_RESPONSE` 66.7% (4/6) · **`H2_MODERATION` 53.8% (7/13)** ·
 `WITHIN_VS_POPULATION` 50%. The moderation arm — the chapter's distinctive finding — remains the
 worst-retrieved, and its outstanding records are at the front of the browser-job queue.
+
+**2026-08-31 (Shravan) — CORRECTION: retrieval is 56/148 (37.8%), not 108/148 (73.0%).**
+
+Converting every retrieved file to text (`264`) showed that **46 of the 108 "retrievals" are
+bot-challenge pages** — Cloudflare *Client Challenge*, *Just a moment… Enable JavaScript and cookies*
+— served with **HTTP 200** and enough raw markup to clear a byte threshold, stripping to 11–303
+characters of text. A further 6 are abstract-only landing pages. HTTP 200 plus bytes is not a
+retrieval; the only test that works is whether the text contains a paper. Those 46 are not paywalled
+and not fetched — they are bot-blocked, and the browser-job queue was 43 records short.
+
+Two further defects the text conversion exposed, both recovering real studies:
+- **Four PDFs were saved with a `.html` extension** because `260` named files from the URL suffix
+  rather than the content type, so the tag-stripper turned real full texts into binary garbage that
+  scored 0.00 title overlap and was filed `WRONG_PAPER`. Sniffing `%PDF` magic bytes recovered all
+  four — one of them in the thin `H2_MODERATION` arm.
+- The title-match window of 6,000 chars missed titles sitting behind a cover page; it now falls back
+  to the whole document before calling a file the wrong paper.
+
+**The binding constraint is now explicit: `PREDICTED_RESPONSE` has 1 full text of 6 studies (16.7%)**
+— and it is the only cell that can carry a demsig number under Ruling 1. Cell rates:
+`WITHIN_VS_POPULATION` 50% · `SELECTION_DIFFERENTIAL` 46.7% · `PEDIGREE_RESPONSE` 43.8% ·
+`H2_MODERATION` 38.5% · `H2_FERTILITY` 31.8% · **`PREDICTED_RESPONSE` 16.7%**.
+
+The handoff is regenerated and ordered by cell, with the demsig arm at the front.
 
