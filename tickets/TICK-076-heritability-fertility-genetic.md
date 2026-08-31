@@ -360,3 +360,24 @@ alternative specification contradicts. This bears directly on §4's moderation c
 
 Extraction now: 10 verified/reclassified rows, 49 pending.
 
+**2026-08-31 (Shravan) — extraction pass 3: 16 rows resolved, 43 pending.**
+
+Verified this pass: **Framingham** CEB h² = 0.09 (P = 0.03), AFB 0.18 · **Day et al.** SNP-h² for AFB
+0.290 (SE 0.015), AFS 0.248 men / 0.242 women · **childlessness GREML** overall h² 0.455
+(CI 0.341–0.569, N = 9,942; female 0.591, male 0.563) · **Tropf 2015** h²_SNP NEB 0.10 (SE 0.05), AFB
+0.15 (SE 0.04) · **Brigos-Barrios et al.** h²_SNP reproductive success 0.03 (SE 0.0014).
+
+**A version pair that title dedup structurally cannot catch.** *Why do we get sick? …* (medRxiv 2025)
+and *Genetic trade-offs in fertility and longevity …* (Nat Ecol Evol 2026) are the same study, same
+authors, same estimate — **retitled on publication**, so no title match exists. Both sat in the 148
+primary studies; the preprint is now marked `DUPLICATE_OF_W7169878769_DO_NOT_POOL`. Every
+preprint-bearing chapter in this review has the same exposure.
+
+**`269` is a FAILED diagnostic and is marked as such in its own docstring.** I tried numeric
+fingerprinting to find retitled pairs at scale: it scored **zero recall on the one pair known to be
+real** — the preprint writes `1.4 × 10⁻³` where the published version formats it differently, so the
+fingerprints never intersect — while emitting 18 false positives pairing plainly unrelated papers.
+A diagnostic that scores 0 on its only known positive is not evidence about the corpus, and its
+output must not be used. The confirmed pair is merged by hand; the general risk goes to the RA gate,
+where a human comparing author lists and cohorts sees what a regex cannot.
+

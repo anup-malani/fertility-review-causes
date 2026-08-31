@@ -168,6 +168,72 @@ ROWS = [
          source_quote="Heredity review of correlated response to selection in insects and plants "
                       "(grain yield, egg size, larval food environments). No human pedigree data. "
                       "Screen design value was a hypothesis; the full text refutes it."),
+    dict(openalex="W2128269372", study="Wang et al., post-reproductive lifespan and family size, Framingham",
+         year=2013, cell="SELECTION_DIFFERENTIAL", arm="SELECTION",
+         design_class="pedigree_parent_offspring", relatedness_level="WITHIN_FAMILY",
+         exposure_distance="ANONYMOUS_VARIANCE", outcome_measure="children_ever_born",
+         estimand="h2_narrow_sense", estimate="0.09", se="", units="variance_share",
+         n="", cohort_window="", phenomenon_window="SDT", cohort_complete="yes",
+         sample_selection="cohort_study_Framingham", assortative_mating_handled="no",
+         estimate_superseded_by_authors="no", extraction_status="VERIFIED",
+         source_quote="the heritabilities of most major life-history traits differed significantly "
+                      "from zero, including age at death (h2 = 0.12, P = 0.01), CEB (h2 = 0.09, "
+                      "P = 0.03), age at first birth (h2 = 0.18, P < 0.001)"),
+    dict(openalex="W2342100485", study="Day et al., determinants of reproductive onset and success",
+         year=2016, cell="H2_FERTILITY", arm="H2",
+         design_class="GREML_SNP", relatedness_level="POPULATION",
+         exposure_distance="ANONYMOUS_VARIANCE", outcome_measure="age_at_first_birth",
+         estimand="h2_SNP", estimate="0.290", se="0.015", units="variance_share",
+         n="", cohort_window="", phenomenon_window="SDT", cohort_complete="unclear",
+         sample_selection="volunteer_biobank", assortative_mating_handled="no",
+         estimate_superseded_by_authors="no", extraction_status="VERIFIED",
+         source_quote="moderate heritability for AFS both in men (h=0.248, s.e. 0.010) and in "
+                      "women (h=0.242, s.e. 0.010), and also moderate heritability for AFB "
+                      "(h=0.290, s.e. 0.015, women only)"),
+    dict(openalex="W2731861498", study="Sexual dimorphism in the genetic influence on childlessness",
+         year=2017, cell="H2_FERTILITY", arm="H2",
+         design_class="GREML_SNP", relatedness_level="WITHIN_FAMILY",
+         exposure_distance="ANONYMOUS_VARIANCE", outcome_measure="childlessness",
+         estimand="h2_GREML_twin_sample", estimate="0.455", se="CI 0.341-0.569",
+         units="variance_share", n="9942", cohort_window="", phenomenon_window="SDT",
+         cohort_complete="yes", sample_selection="twin_registry",
+         assortative_mating_handled="no", estimate_superseded_by_authors="no",
+         extraction_status="VERIFIED",
+         source_quote="Table 3 GREML analysis on childlessness in the twin sample ... Overall h2 "
+                      "0.455*** 0.341 0.569 9942 | Female h2 0.591*** 0.413 0.769 5408 | Male h2 "
+                      "0.563*** 0.394 0.732 4534"),
+    dict(openalex="W590852753", study="Tropf et al., Human fertility, molecular genetics and natural selection",
+         year=2015, cell="H2_FERTILITY", arm="H2",
+         design_class="GREML_SNP", relatedness_level="POPULATION",
+         exposure_distance="ANONYMOUS_VARIANCE", outcome_measure="children_ever_born",
+         estimand="h2_SNP", estimate="0.10", se="0.05", units="variance_share",
+         n="", cohort_window="", phenomenon_window="SDT", cohort_complete="yes",
+         sample_selection="population_cohort", assortative_mating_handled="no",
+         estimate_superseded_by_authors="no", extraction_status="VERIFIED",
+         source_quote="Both traits have a significant genetic component, with h2SNP for NEB of "
+                      "0.10 (SE 0.05) and for the AFB of 0.15 (SE 0.04)"),
+    dict(openalex="W7169878769", study="Brigos-Barrios et al., genetic trade-offs in fertility and longevity",
+         year=2026, cell="SELECTION_DIFFERENTIAL", arm="SELECTION",
+         design_class="GREML_SNP", relatedness_level="POPULATION",
+         exposure_distance="FERTILITY_PGS", outcome_measure="reproductive_success",
+         estimand="h2_SNP", estimate="0.03", se="0.0014", units="variance_share",
+         n="", cohort_window="", phenomenon_window="SDT", cohort_complete="unclear",
+         sample_selection="volunteer_biobank", assortative_mating_handled="no",
+         estimate_superseded_by_authors="no", extraction_status="VERIFIED",
+         source_quote="SNP-based heritability of reproductive success was modest but significant "
+                      "(h2 = 0.03, s.e. = 1.4 x 10-3)"),
+    dict(openalex="W4411477116", study="Why do we get sick? [medRxiv preprint of W7169878769]",
+         year=2025, cell="SELECTION_DIFFERENTIAL", arm="SELECTION",
+         design_class="GREML_SNP", relatedness_level="POPULATION",
+         exposure_distance="FERTILITY_PGS", outcome_measure="reproductive_success",
+         estimand="h2_SNP", estimate="0.03", se="0.0014", units="variance_share",
+         n="", cohort_window="", phenomenon_window="SDT", cohort_complete="unclear",
+         sample_selection="volunteer_biobank", assortative_mating_handled="no",
+         estimate_superseded_by_authors="",
+         extraction_status="DUPLICATE_OF_W7169878769_DO_NOT_POOL",
+         source_quote="medRxiv preprint of the Nature Ecology & Evolution paper, RETITLED on "
+                      "publication so title-based dedup could not pair them. Same authors, same "
+                      "estimate (h2 = 0.03, s.e. 1.4e-3). One study, counted twice in the 148."),
 ]
 
 
