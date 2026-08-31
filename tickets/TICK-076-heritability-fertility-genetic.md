@@ -120,3 +120,28 @@ design at under 250 records of frame cost.
 Next: pull the frame and run the §5.1 two-phase screen on abstracts (§6 — the phenotype wall is
 title-invisible).
 
+**2026-08-31 (Shravan) — frame pulled, prescreened, and the unscreened tail bounded.**
+
+Frame pulled whole: **45,568 records** (`251`), 18.4% with no indexed abstract.
+
+**PROTOCOL §5.1's saturation stopping rule fails here** (scope memo §16). Measured gold-recall curve:
+at the 1,000-record stopping rule this chapter would capture **31.7%** of its known gold, and the
+curve is still climbing at 26% of the frame. Escalated to Anup as protocol-level — the rule was
+calibrated on the OAS pilot and never re-tested, and **every chapter that already used it has an
+unmeasured recall problem rather than a clean PRISMA**. One relevance-ordered pull per chapter checks it.
+
+Prescreen (`252`): only two of six candidate rules survive a gold recall check — non-human organism
+(-25.0%) and no-fertility-outcome-in-abstract (-5.5%). Survivors **31,960**, gold 65/65. Title-only
+screening would cut 62% but destroy 8 gold: the §6 title-invisibility claim, now measured.
+
+The tempting reduction — keep only the 320 survivors the citation channel also reached, holding 64
+of 65 gold — is **circular** and was refused: the gold is pool-derived, so that statistic is a
+tautology.
+
+Instead `253` sampled the tail blind, with 12 hidden gold controls. **Sensitivity 12/12 (100%)**;
+tail prevalence **1/150 = 0.7%**, implying **≈210 relevant records (95% CI 37–1,164)** unscreened.
+PRISMA reports that bound rather than claiming completeness.
+
+Next: screen the citation-channel intersection (320) plus the boolean relevance head, and run
+snowball round 2 from whatever the screen promotes.
+

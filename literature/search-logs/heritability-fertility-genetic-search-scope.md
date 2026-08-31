@@ -545,3 +545,111 @@ Every term was dropped in turn and the frame and gold losses measured. Three fin
   enumerated in §5 and each costs under 250 records. They are there so that an empty cell is empty
   against an auditable list. Cheap-and-zero is not dead weight.
 
+## 16. The saturation stopping rule fails on this hypothesis (2026-08-31)
+
+PROTOCOL §5.1 Phase 1 pulls in relevance order and stops when yield falls below 5% for two
+consecutive batches, or at 1,000 records screened, expecting "20–50 RELEVANT seed papers from
+approximately 200–400 screened". That rule rests on an assumption worth testing rather than
+inheriting: that relevance ordering concentrates the relevant literature in the head.
+
+`251` tested it directly, by pulling the 45,491-record frame in relevance order and recording, at
+every page, how much known gold had appeared. Gold here is the 25 resolved anchors plus the 63
+wall-surviving pool-gold records from `250` — the 29 records that audit classified as Wall 1, Wall 3
+or no-exposure route-outs are excluded, because scoring recall against records the walls exist to
+remove would flatter any query.
+
+| records screened | share of frame | pool-gold recall | lift over uniform |
+|---|---|---|---|
+| 200 | 0.4% | 15.9% | ×36 |
+| **1,000 (the §5.1 stopping rule)** | **2.2%** | **31.7%** | ×14 |
+| 2,000 | 4.4% | 50.8% | ×12 |
+| 4,000 | 8.8% | 66.7% | ×8 |
+| 8,000 | 17.6% | 73.0% | ×4 |
+| 12,000 | 26.4% | 77.8% | ×3 |
+
+Relevance ordering is doing real work — the head is 36 times richer than a random draw — but the
+tail is long, and **at the protocol's own stopping rule this chapter would capture 31.7% of its
+known gold**. Two-thirds of the relevant literature sits behind the truncation. The curve is still
+climbing at the cap, so this is not a case where a slightly larger cap would have sufficed.
+
+Why here and not elsewhere: A.18's query is a broad disjunction against a broad disjunction, and
+OpenAlex's relevance score cannot know which arm carries the chapter's meaning. A record matching
+`heritability` × `fertility` scores like a record matching `natural selection` × `fitness`, and the
+gold is spread across both.
+
+**What this chapter does instead.** The frame is pulled whole and cut deterministically (`252`),
+on rules that can be audited and recall-checked, rather than on a ranking that can be neither. No
+prescreen rule is adopted unless it destroys zero gold.
+
+> **Escalation, protocol-level — for Anup.** §5.1's stopping rule was calibrated on the OAS pilot and
+> has not been re-tested since. This is the first chapter to measure the gold-recall curve directly
+> rather than trusting yield, and the rule fails here by a wide margin. Two things follow. The rule
+> should not be applied to a broad two-disjunction query without a measured curve, and **the curve
+> should be measured for every chapter that has already used the rule** — a chapter that stopped at
+> 1,000 records on a similar frame has an unmeasured recall problem, not a clean PRISMA. Cheap to
+> check: it is one relevance-ordered pull scored against the chapter's existing gold.
+
+## 17. The prescreen, and a measured bound on what the screen will not read (2026-08-31)
+
+### Deterministic prescreen: only two rules survive a recall check
+
+The frame was pulled whole (45,568 records, `251`) and cut on rules applied one at a time to the
+full frame and scored on **how much gold each destroys** (`252`). No rule is adopted that loses a
+single gold record; a false negative here has no downstream stage that can restore it.
+
+| rule | removes | % frame | gold lost | verdict |
+|---|---|---|---|---|
+| non-human study organism | 11,390 | 25.0% | 0 | **adopt** |
+| no fertility outcome in title+abstract | 2,492 | 5.5% | 0 | **adopt** |
+| no fertility outcome **in title alone** | 28,291 | 62.1% | 8 | reject |
+| no human signal | 23,400 | 51.4% | 5 | reject |
+| non-English | 947 | 2.1% | 1 | reject |
+| non-standard type | 4,325 | 9.5% | 1 | reject |
+
+Three of those rejections are worth keeping in view. The **title-only** variant is the §6 claim
+measured: screening on titles would cut 62% of the frame and destroy 8 gold records, which is why
+this screen reads abstracts. The **no-human-signal** rule destroys the theory and method layer —
+Udry 1996, Mills and Tropf 2020, Howe et al. 2022 — because methodological papers do not say
+"participants". And the **fertility-outcome** rule destroyed Beauchamp 2016 and Milot 2011 on its
+first run, because its vocabulary omitted `fitness`: the diagnostic vocabulary had drifted from the
+retrieval vocabulary adopted in §15. Derived from the query axis instead, it costs no gold.
+
+Survivors: **31,960**, gold retained 65/65. That is still ~590 screening batches, and no further
+deterministic rule reduces it without killing gold.
+
+### Why the obvious reduction is not available
+
+The survivors that the citation channel also reached number **320**, and they hold **64 of the 65
+gold**. It is tempting to screen those and stop. **That number is circular and cannot support the
+decision:** the gold set is pool-derived — the anchors seeded the pool, and the pool-gold are pool
+members by construction — so "the pool contains the gold" is a tautology. A gold set built from one
+channel cannot evaluate that channel.
+
+### So the tail was sampled, blind, with hidden controls
+
+`253` drew 150 random records from the 31,640 boolean-only survivors and mixed in 12 hidden positive
+controls drawn from known gold. Stratum and gold status were withheld from the screening record and
+the key written to a separate file, per the A.23 blinding rule. Two quantities come out, and the
+second is what makes the first usable:
+
+- **Screener sensitivity: 12/12 controls recovered (100%).** A prevalence estimate from a screen of
+  unmeasured sensitivity is not an estimate.
+- **Tail prevalence: 1/150 = 0.7%** (Wilson 95% CI 0.1–3.7%). Implied **≈210 relevant records
+  (95% CI 37–1,164)** among the 31,640.
+
+The one relevant tail record is *Apolipoprotein E polymorphism and fertility: a study in
+pre-industrial populations* — a genuine A.18 record, candidate-gene era, and a **PM/FDT** record of
+the kind Ruling 2 exists to admit.
+
+### What this buys the chapter
+
+The boolean-only tail is 99.3% noise, but it is not empty, and ~210 records is larger than the entire
+citation-channel candidate set. The chapter therefore does **not** get to claim it screened the
+literature. What it gets is better than an unmeasured stop: a stated bound. PRISMA will report that
+the screen covered the citation-channel intersection and the boolean relevance head, and that an
+estimated 210 relevant records (95% CI 37–1,164) lie in the unscreened tail, measured by a blinded
+sample against a screen of demonstrated 100% sensitivity on hidden controls.
+
+That sentence is the deliverable. A systematic review cannot always read everything; it can always
+say what it did not read, and how much of it mattered.
+

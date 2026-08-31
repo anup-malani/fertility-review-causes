@@ -1,0 +1,1309 @@
+{
+ "meta": {
+  "ticket": "TICK-076",
+  "seed": 20260831,
+  "tail_population": 31640,
+  "n_sampled": 150,
+  "n_controls": 12,
+  "blinding": "Stratum and gold status are withheld. Key is in a separate file and must not be read until verdicts are written.",
+  "task": "For each record decide RELEVANT / NOT_RELEVANT / INSUFFICIENT_INFO for A.18: does it estimate a GENETIC contribution to a realized FERTILITY outcome in humans? A parent-child fertility correlation with no decomposition is NOT_RELEVANT (Wall 1). Phenotypic status -> fertility is NOT_RELEVANT (Wall 3). A non-fertility phenotype is NOT_RELEVANT. No abstract and an undecisive title is INSUFFICIENT_INFO."
+ },
+ "records": [
+  {
+   "ref": "R001",
+   "title": "A Plasmodium falciparum genetic cross reveals the contributions of pfcrt and plasmepsin II/III to piperaquine drug resistance",
+   "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+   "year": 2023,
+   "type": "preprint",
+   "abstract": "Abstract Piperaquine (PPQ) is widely used in combination with dihydroartemisinin (DHA) as a first-line treatment against malaria parasites. Multiple genetic drivers of PPQ resistance have been reported, including mutations in the Plasmodium falciparum chloroquine resistance transporter ( pfcrt ) and increased copies of plasmepsin II/III ( pm2/3 ). We generated a cross between a Cambodia-derived multi-drug resistant KEL1/PLA1 lineage isolate (KH004) and a drug susceptible parasite isolated in Malawi (Mal31). Mal31 harbors a wild-type (3D7-like ) pfcrt allele and a single copy of pm2/3, while KH004 has a chloroquine-resistant (Dd2-like ) pfcrt allele with an additional G367C substitution and four copies of pm2/3 . We recovered 104 unique recombinant progeny and examined a targeted set of progeny representing all possible combinations of variants at pfcrt and pm2/3 for detailed analysis of "
+  },
+  {
+   "ref": "R002",
+   "title": "Aging of the Uterus: An Evolutionary Perspective",
+   "venue": null,
+   "year": 2002,
+   "type": "book-chapter",
+   "abstract": "All mammals and most other animals undergo senescence as they get older. The reasons for this are complex and several theories have been put forward to explain the evolutionary significance of senescence. The most widely accepted theory suggests that genes causing senescence do not get exposed to natural selection because environmental hazards kill off individuals before the age at which senescence causes decreased fitness. Thus some genes which are advantageous to an animal\u2019s s survival early in its reproductive life but are deleterious in later life are not eliminated."
+  },
+  {
+   "ref": "R003",
+   "title": "Genetic influence on age at first birth of female twins born in the UK, 1919\u201368",
+   "venue": "Population Studies",
+   "year": 2015,
+   "type": "article",
+   "abstract": "Using a sample of monozygotic (945, 42 per cent) and dizygotic (1,329, 58 per cent) twin pairs born 1919-68 in the UK, we applied innovative tobit models to investigate genetic and environmental influences on age at first birth (AFB). We found that a substantial part (40 per cent) of the variation in AFB is caused by latent family characteristics. Genetic dispositions (26 per cent) play a more important role than the shared environment of siblings (14 per cent), with the non-shared environment/measurement error having the strongest influence (60 per cent). Like previous studies, this study reveals marked changes in estimates over time, and supports the idea that environmental constraints (war or economic crisis) suppress and normative freedom (sexual revolution) promotes the activation of genetic predispositions that affect fertility. We show that the exclusion of censored information (i"
+  },
+  {
+   "ref": "R004",
+   "title": "Studies on Correlation and Path Coefficient Analysis in Hybrid Rice (Oryza sativa L.) for Yield and Quality Traits",
+   "venue": "International Journal of Bio-resource and Stress Management",
+   "year": 2021,
+   "type": "article",
+   "abstract": "The present investigation was carried out at Regional Agricultural Research Station, Polasa, Jagtial, Telangana state, India to study the correlation and path coefficient analysis towards yield, physical and chemical quality traits in 46 genotypes including two checks in Randomized Block Design with two replications during kharif, october, 2019. Association of yield and yield components and among grain yield characters makes us to understand their relationship towards selecting a high yielding and good quality varieties. The result from the study revealed that all the nineteen characters studied has shown a great range of variation for correlation and path analysis. The character association studies in this experiment revealed that the trait grain yield plant-1 had showed significant positive correlation with plant height, spikelet fertility, 1000 grain weight, milling %, hulling %, kern"
+  },
+  {
+   "ref": "R005",
+   "title": "The Child Quantity\u2013Quality Trade-Off",
+   "venue": null,
+   "year": 2022,
+   "type": "book-chapter",
+   "abstract": null
+  },
+  {
+   "ref": "R006",
+   "title": "Identification and characterization of drought-tolerant rice (Oryza sativa L.) genotypes using morpho-physiological and biochemical traits",
+   "venue": "Indian Journal of Genetics and Plant Breeding (The)",
+   "year": 2024,
+   "type": "article",
+   "abstract": "Drought stress is a major constraint and the primary cause of low rice production in rainfed ecosystems. The results obtained from the study revealed the existence of significant variation among all the genotypes studied for different physiological and biochemical parameters. Genotypic and phenotypic coefficients of variation were wide-ranging, with traits like PC and grain yield showing higher values. Moderate to high heritability and genetic advance percentage of mean suggested the feasibility of selection for improved traits. The mean performance of genotypes revealed specific genotypes, such as Gin, excelling in root-related traits and filled grains per panicle. Leaf rolling and drying responses varied among genotypes, providing insights into drought tolerance. Positive correlations between grain yield and traits like flag leaf length, panicle length, and spikelet fertility were obse"
+  },
+  {
+   "ref": "R007",
+   "title": "Supplementary material from \"Gene drive for population genetic control: non-functional resistance and parental effects\"",
+   "venue": "Figshare",
+   "year": 2019,
+   "type": "supplementary-materials",
+   "abstract": "Gene drive is a natural process of biased inheritance that, in principle, could be used to control pest and vector populations. As with any form of pest control, attention should be paid to the possibility of resistance evolving. For nuclease-based gene drive aimed at suppressing a population, resistance could arise by changes in the target sequence that maintain function, and various strategies have been proposed to reduce the likelihood that such alleles arise. Even if these strategies are successful, it is almost inevitable that alleles will arise at the target site that are resistant to the drive but do not restore function, and the impact of such sequences on the dynamics of control has been little studied. We use population genetic modelling of a strategy targeting a female fertility gene to demonstrate that such alleles may be expected to accumulate, and thereby reduce the reprodu"
+  },
+  {
+   "ref": "R008",
+   "title": "Sexual conflict over mating in Gnatocerus cornutus? Females prefer lovers not fighters.",
+   "venue": "Figshare",
+   "year": 2025,
+   "type": "article",
+   "abstract": "Female mate choice and male-male competition are the typical mechanisms of sexual selection. However, these two mechanisms do not always favour the same males. Furthermore, it has recently become clear that female choice can sometimes benefit males that reduce female fitness. So whether male-male competition and female choice favour the same or different males, and whether or not females benefit from mate choice, remain open questions. In the horned beetle, Gnatocerus cornutus, males have enlarged mandibles used to fight rivals, and larger mandibles provide a mating advantage when there is direct male-male competition for mates. However, it is not clear whether females prefer these highly competitive males. Here, we show that female choice targets male courtship rather than mandible size, and these two characters are not phenotypically or genetically correlated. Mating with attractive, h"
+  },
+  {
+   "ref": "R009",
+   "title": "Supplementary material from \"Diversity in Evolutionary Dynamics\"",
+   "venue": "Figshare",
+   "year": 2026,
+   "type": "supplementary-materials",
+   "abstract": "We consider the dynamics imposed by natural selection on the populations of two competing, sexually reproducing, haploid species. In this setting, the fitness of any genotype varies intrinsically over time due to the changing population mix of the competing species. Previous work on this model showed that, in the special case where each of the two species exhibits just two phenotypes, genetic diversity is maintained at all times. This finding supported the tenet that sexual reproduction is advantageous because it promotes diversity, which increases the survivability of a species. In the present paper we consider the more realistic case where there are more than two phenotypes available to each species, obtaining strikingly different results: 1. There exist systems (in which both species have three or more phenotypes) for which the combined diversity of both species becomes arbitrarily sm"
+  },
+  {
+   "ref": "R010",
+   "title": "Carcass Age and Reproductive Costs forNicrophorus orbicollis(Coleoptera: Silphidae)",
+   "venue": "Environmental Entomology",
+   "year": 2016,
+   "type": "article",
+   "abstract": "The life history costs of living in microbially dense environments can be high. To assess the importance of these costs for natural selection, it is necessary to know how costs vary with environmental conditions. Adult burying beetles prepare vertebrate carcasses of varying age and states of deterioration as a resource for their young. In the present study, Nicrophorus orbicollis Say females were presented with either fresh or aged (80 h) large carcasses (30-39 g) to examine effects on their lifetime reproductive success (four reproductive attempts) and survival. Reproductive success and survival were also measured for female offspring that developed on fresh and aged carcasses. Carcass age had no measurable effect on lifetime reproductive output or life span of either parents or their adult offspring. In a separate experiment using medium-sized carcasses (22-24 g), the reproductive perf"
+  },
+  {
+   "ref": "R011",
+   "title": "Seed masting causes fluctuations in optimum litter size and lag load in a seed predator",
+   "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+   "year": 2018,
+   "type": "preprint",
+   "abstract": "The episodic production of large seed crops by some perennial plants, is referred to as masting and is known to increase seed escape by alternately starving and swamping seed predators. These pulses of resources, however, might also act as an agent of selection on the life histories of seed predators, which could indirectly enhance seed escape by inducing an evolutionary load on seed predator populations. Lag loads in seed predators could result from mast-induced shifts in optimum phenotypes that exceed the capacity of seed predators to adaptively track optimum phenotypes through phenotypic plasticity. Alternatively, masting could generate mismatches in selection across generations, where adaptation to the parental environment leads to maladaptation in the offspring environment. Here we measured natural selection on female North American red squirrels (Tamiasciurus hudsonicus) across 28 "
+  },
+  {
+   "ref": "R012",
+   "title": "Mechanistic and experimental analysis of condition and reproduction in a polymorphic lizard",
+   "venue": "Journal of Evolutionary Biology",
+   "year": 2002,
+   "type": "article",
+   "abstract": "Abstract The importance of genetic and environmental variation in condition in shaping evolutionary trade-offs have recently been subject to much theoretical discussion, but is very difficult to investigate empirically in most field-based systems. We present the results from mechanistic experimental manipulations of reproductive investment and condition in two female colour morphs (\u2018orange\u2019 and \u2018yellow\u2019) of side-blotched lizards (Uta stansburiana). We investigated the interactions between throat colour morphs, condition, local social environment and female survival using path-analysis. Using follice-ablation experiments, we show that large clutch size has a negative effect on field survival among yellow females, and that this effect is partly mediated by immunosuppressive effects of large clutches. In orange females these effects were less pronounced, and there was a negative survival ef"
+  },
+  {
+   "ref": "R013",
+   "title": "Characterization of a haplotype-reference panel for genotyping by low-pass sequencing in Swiss Large White pigs",
+   "venue": "BMC Genomics",
+   "year": 2021,
+   "type": "article",
+   "abstract": "Abstract Background The key-ancestor approach has been frequently applied to prioritize individuals for whole-genome sequencing based on their marginal genetic contribution to current populations. Using this approach, we selected 70 key ancestors from two lines of the Swiss Large White breed that have been selected divergently for fertility and fattening traits and sequenced their genomes with short paired-end reads. Results Using pedigree records, we estimated the effective population size of the dam and sire line to 72 and 44, respectively. In order to assess sequence variation in both lines, we sequenced the genomes of 70 boars at an average coverage of 16.69-fold. The boars explained 87.95 and 95.35% of the genetic diversity of the breeding populations of the dam and sire line, respectively. Reference-guided variant discovery using the GATK revealed 26,862,369 polymorphic sites. Prin"
+  },
+  {
+   "ref": "R014",
+   "title": "Identification of 371 genetic variants for age at first sex and birth linked to externalising behaviour",
+   "venue": "Nature Human Behaviour",
+   "year": 2021,
+   "type": "article",
+   "abstract": null
+  },
+  {
+   "ref": "R015",
+   "title": "The Hitchhiker\u2019s Guide to Adaptive Dynamics",
+   "venue": "Games",
+   "year": 2013,
+   "type": "article",
+   "abstract": "Adaptive dynamics is a mathematical framework for studying evolution. It extends evolutionary game theory to account for more realistic ecological dynamics and it can incorporate both frequency- and density-dependent selection. This is a practical guide to adaptive dynamics that aims to illustrate how the methodology can be applied to the study of specific systems. The theory is presented in detail for a single, monomorphic, asexually reproducing population. We explain the necessary terminology to understand the basic arguments in models based on adaptive dynamics, including invasion fitness, the selection gradient, pairwise invasibility plots (PIP), evolutionarily singular strategies, and the canonical equation. The presentation is supported with a worked-out example of evolution of arrival times in migratory birds. We show how the adaptive dynamics methodology can be extended to study "
+  },
+  {
+   "ref": "R016",
+   "title": "Host Plant Resistance, Physio-Morphic Character and Screening of Chickpea Pod Borer Helicoverpa armigera (H\u00fcbner)",
+   "venue": "Journal of Innovative Sciences",
+   "year": 2021,
+   "type": "article",
+   "abstract": "The chickpea pod borer Helicoverpa armigera (Lepidoptera: Hbner) is most severe insect pest in Asian countries due to its high mobility, fecundity rate and overlapping generations On an average, it causes 30-40% yield loss in chickpea Abstract | Pod borer (Helicoverpa armigera) is economically vital insect pests for chickpeas and caused huge yield losses in south Asian countries. Host plant resistance, physio-morphic characters counteract the ability of insect to demage and to cause minimum reduction in yield. The experiment was conducted under natural and semi-natural conditions to determine the host plant resistance of nine (09) chick pea advance genotypes viz., (K01211, K01216, K01241, K01242, K09012, KO1308, K014001, K014002, K-14003) and one (1) control (Noor). Antixenosis was calculated by counting the number of eggs per stem and antibioses was assessed by counting the number of in"
+  },
+  {
+   "ref": "R017",
+   "title": "Adaptive Bayesian Framework for Fungicide Resistance Monitoring: A Multi-Regional Baseline Platform with Quantitative Decision Support",
+   "venue": "Research Square",
+   "year": 2026,
+   "type": "preprint",
+   "abstract": null
+  },
+  {
+   "ref": "R018",
+   "title": "Better late than never: the clinical value of Day 7 blastocysts",
+   "venue": "Human Reproduction",
+   "year": 2023,
+   "type": "article",
+   "abstract": "The advancement of in vitro culture media has improved the efficacy of ARTs in the treatment of infertility (Chronopoulou and Harper, 2015). Despite this progress, embryos may demonstrate delayed development and reach the blastocyst stage on Day 7. The prevalence of these slow embryos has been reported as 5% and even though they are considered to be less competent and reveal a lower euploidy rate than faster growing embryos, they are still capable of achieving high implantation and clinical pregnancy rates (Hammond et al., 2018). These slow-developing embryos could have clinical value in patients with reduced chance to achieve a live birth (LB) with their own oocytes. This clinical value has been demonstrated by the increased number of patients that obtain at least one transferable embryo following preimplantation genetic testing for aneuploidy (PGT-A) with the extension of culture to Da"
+  },
+  {
+   "ref": "R019",
+   "title": "Cellular Innovation of the Cyanobacterial Heterocyst by the Adaptive Loss of Plasticity",
+   "venue": "Current Biology",
+   "year": 2020,
+   "type": "article",
+   "abstract": null
+  },
+  {
+   "ref": "R020",
+   "title": "Game Theory in the Ecological Context",
+   "venue": "Annual Review of Ecology and Systematics",
+   "year": 1983,
+   "type": "article",
+   "abstract": "Ecology is that branch of science that aims at explaining the relationships between organisms and their physical and biotic environments. Model building is generally used in ecology as the ftrst step towards meeting this goal. The model should be a simplified representation of reality that provides insight into the structure and function of often complex systems (49). Of the many models applied to ecological problems, those based on the principle of optimization, borrowed from economics, have frequently been used (88) . In economic  models, a dependent variable (money) is maximized, using some cost-beneftt function. Ecologists' reliance on the optimality construct is related to the fact that its structure is similar to the evolutionary biologist's view of the mechanics of evolutionary processes-that natural selection, operating on phenotypic variance, drives populations towards optimal, "
+  },
+  {
+   "ref": "R021",
+   "title": "Temperature and photoperiod effects on sex determination in Leuresthes tenuis (fish)",
+   "venue": "Figshare",
+   "year": 2010,
+   "type": "dataset",
+   "abstract": "In some gonochoristic species, sex is influenced not only by genotype at conception but also by the environment that offspring experience during early ontogeny (termed environmental sex determination or ESD). ESD is thought to be adaptive when seasonal variations in environmental conditions provide a sex-specific fitness advantage. In vertebrates, temperature is the most common determinant of sex, and seasonal variation in temperature serves as a temporal cue of environmental quality such as length of the growing season. Some environments, however, lack strong seasonal temperature fluctuations and other cues, particularly photoperiod, may provide a more reliable indicator of the environment offspring enter. We tested this hypothesis by rearing the offspring of the California grunion (Leuresthes tenuis, Ayres), which experiences low seasonal temperature variation in nature, under common g"
+  },
+  {
+   "ref": "R022",
+   "title": "Efeito da limita\u00e7\u00e3o de s\u00edtios reprodutivos sobre a intensidade da sele\u00e7\u00e3o sexual e a qualidade do cuidado paternal: uma meta-an\u00e1lise",
+   "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Cient\u00edficas)",
+   "year": 2018,
+   "type": "dissertation",
+   "abstract": "The availability of reproductive sites is a major factor shaping the behavior of males and females in species with resource-based mating systems. Using a meta-analytic approach, we tested five predictions directly or indirectly derived from the mating system theory. We expected that reproductive site limitation would lead to: (1) intense male-male competition for resource possession; (2) high variance in male reproductive success, generating high values of opportunity for sexual selection; (3) high intensity of selection on male traits related to resource possession; (4) high sperm competition risk; and (5) low quality of paternal care. We compiled information from observational and experimental studies that compared the reproductive behavior of individuals of the same species under low and high reproductive site limitation. We found that, when reproductive sites are limited, there is a "
+  },
+  {
+   "ref": "R023",
+   "title": "Evolutionary Group-Swarming: Agent-Based Simulation",
+   "venue": "ASME Press eBooks",
+   "year": 2009,
+   "type": "book-chapter",
+   "abstract": "Multiagent-based simulation using activation-inhibition, and positive feedback is useful to study the evolution of group-swarming. The group-swarming approach can help us to understand the pattern formation, both micro (local) and macro (global), that result in bacterial colonies, human-animal trails, crowd patterns, phylogenetic trees, and other biological patterns. The group-swarming approach (of randomly communicating with other groups to revise belief based on new information available), by preferential linking locally in a group and globally among different groups, mimics the process of epochal evolution and innovation advocated by Crutchfield, in which the groups assemble partial solutions that are metastable and eventually reach equilibrium. The individual groups correspond to sub-basins of approximately iso-fitness and are strongly or weakly connected to other sub-basins thus map"
+  },
+  {
+   "ref": "R024",
+   "title": "Integrating evolutionary and molecular genetics of aging",
+   "venue": "Biochimica et Biophysica Acta (BBA) - General Subjects",
+   "year": 2009,
+   "type": "article",
+   "abstract": null
+  },
+  {
+   "ref": "R025",
+   "title": "Optimal Uterine Environment Protocol (OUE Protocol). Precision Preparation of the Optimal Uterine Environment for Successful Embryo Transfer within the Chrono-Restoration and PTR Framework.",
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "year": 2026,
+   "type": "article",
+   "abstract": "The Optimal Uterine Environment Protocol (OUE Protocol) is an innovative clinical algorithm for the precision preparation of the endometrium and the entire uterine microenvironment prior to embryo transfer. Developed within the Reproductive Precision Philosophy (\u201cThere are no trifles in reproductive medicine\u201d) and the PTR Protocol (Personalized Tissue Restoration) by Viktoriya Hudziak. This protocol transforms the subjective assessment of uterine readiness into a measurable, mathematically grounded system integrated into the patient's digital twin architecture (Repro Twin\u00a9). INTELLECTUAL PROPERTY & COGNITIVE SECURITY DIRECTIVE V26.0 \u041e\u0444\u0456\u0446\u0456\u0439\u043d\u0435 \u0432\u0438\u0437\u043d\u0430\u043d\u043d\u044f (Official Acknowledgment): \u0426\u044f \u043f\u0443\u0431\u043b\u0456\u043a\u0430\u0446\u0456\u044f \u0437\u0430\u043a\u0440\u0456\u043f\u043b\u044e\u0454 \u0430\u0431\u0441\u043e\u043b\u044e\u0442\u043d\u0438\u0439 \u043f\u0440\u0456\u043e\u0440\u0438\u0442\u0435\u0442 \u0430\u0432\u0442\u043e\u0440\u0430 (Viktoriya Hudziak) \u043d\u0430: \u25cf \u041d\u0430\u0437\u0432\u0443 Optimal Uterine Environment Protocol (OUE Protocol) \u0442\u0430 \u0432\u0441\u0456 \u0457\u0457 \u043c\u043e\u0432\u043d\u0456, \u0430\u0431\u0440\u0435\u0432\u0456\u0430\u0442\u0443\u0440\u043d\u0456, \u0441\u0435\u043c\u0430\u043d\u0442\u0438\u0447\u043d\u0456 \u0442\u0430 \u0442\u043e\u0442\u043e\u0436\u043d\u0456 \u0435\u043a\u0432\u0456\u0432\u0430\u043b\u0435\u043d\u0442\u0438; \u25cf \u0412\u0441\u0456 \u0432\u0438\u0437\u043d\u0430\u0447"
+  },
+  {
+   "ref": "R026",
+   "title": "The evolutionary advantage of condition-dependent recombination in a Red Queen model with diploid antagonists",
+   "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+   "year": 2018,
+   "type": "preprint",
+   "abstract": "Abstract Antagonistic interaction, like those between a host and its parasite, are known to cause oscillations in genetic structure of both species, usually referred to as Red Queen dynamics (RQD). The RQD is believed to be a plausible explanation for the evolution of sex/recombination, although numerous theoretical models showed that this may happen only under rather restricted parameter values (selection intensity, epistasis, etc.). Here, we consider two diploid antagonists, each with either two or three selected loci; the interaction is based on matching phenotypes model. We use the RQD, whenever it emerges in this system, as a substrate to examine the evolution of one recombination feature, condition dependence in diploids, which still remains an underexplored question. We consider several forms of condition-dependent recombination, with recombination rates in the host being sensitiv"
+  },
+  {
+   "ref": "R027",
+   "title": "\u0418\u043d\u0442\u0440\u043e\u0433\u0440\u0435\u0441\u0441\u0438\u044f \u0433\u0435\u043d\u043e\u0432 Pi-ta, Pi-b, Pi-z \u0432 \u043e\u0442\u0435\u0447\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u044b\u0439 \u0441\u043e\u0440\u0442 \u0440\u0438\u0441\u0430 \u00ab\u0421\u043d\u0435\u0436\u0438\u043d\u043a\u0430\u00bb \u0441 \u043f\u0440\u0438\u043c\u0435\u043d\u0435\u043d\u0438\u0435\u043c \u043c\u0435\u0442\u043e\u0434\u043e\u0432 \u043c\u0430\u0440\u043a\u0435\u0440\u043d\u043e\u0439 \u0441\u0435\u043b\u0435\u043a\u0446\u0438\u0438",
+   "venue": "\u041f\u043e\u043b\u0438\u0442\u0435\u043c\u0430\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0441\u0435\u0442\u0435\u0432\u043e\u0439 \u044d\u043b\u0435\u043a\u0442\u0440\u043e\u043d\u043d\u044b\u0439 \u043d\u0430\u0443\u0447\u043d\u044b\u0439 \u0436\u0443\u0440\u043d\u0430\u043b \u041a\u0443\u0431\u0430\u043d\u0441\u043a\u043e\u0433\u043e \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0433\u043e \u0430\u0433\u0440\u0430\u0440\u043d\u043e\u0433\u043e \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0438\u0442\u0435\u0442\u0430",
+   "year": 2011,
+   "type": "article",
+   "abstract": "The introgression of race-specific blast resistance genes Pi-ta, Pi-b, Pi-z into genotype of Russian rice variety has been performed by backcross method with marker control of donor alleles. Plants that demonstrated maximal similarity with recurrent parental form, the short vegetation period and abundant panicle fertility have been picked up from BC3-population. Marker analysis of developed population revealed the samples carrying introduced target genes in homozygote state"
+  },
+  {
+   "ref": "R028",
+   "title": "Microsurgical and Percutaneous Epididymal Sperm Aspiration for Sperm Collection from Live Mice.",
+   "venue": "PubMed",
+   "year": 2016,
+   "type": "letter",
+   "abstract": "Dear Editor,\r\n\r\nI am writing to express my concerns about the article entitled \u201cMicrosurgical and Percutaneous Epididymal Sperm Aspiration for Sperm Collection from Live Mice\u201d1 by Boersma and colleagues recently published in the September issue of JAALAS.\r\n\r\nYears ago we developed a technique for in vivo serial sampling of epididymal sperm in mice, and we first presented it publicly with an oral presentation in the 11th meeting of the Spanish Association for Laboratory Animal Science (SECAL) in 2011. We also presented the technique internationally with an oral presentation in the 11th meeting of the International Society for Transgenic Technologies (ISTT) in 2013. Later, that same year we published a paper in the Laboratory Animals (UK) journal entitled \u201cIn Vivo Serial Sampling of Epididymal Sperm in Mice\u201d2 that explained and showed with pictures the way of obtaining sperm aspirating it "
+  },
+  {
+   "ref": "R029",
+   "title": "Selection of Clinically Relevant Protease Inhibitor-Resistant Viruses Using the Genotype 2a Hepatitis C Virus Infection System",
+   "venue": "Antimicrobial Agents and Chemotherapy",
+   "year": 2011,
+   "type": "article",
+   "abstract": "Treatment of patients infected with hepatitis C virus (HCV) with direct acting antivirals can lead to the emergence of drug-resistant variants that may pose a long-term threat to viral eradication. HCV replicons have been used to select resistance mutations; however, genotype 2a JFH-1-based viruses provide the opportunity to perform resistance selection in a bona fide infection system. In this study, we used a tissue culture-adapted J6/JFH-1 virus to select resistance to the NS3 protease inhibitors BILN-2061 and VX-950. Lunet-CD81 cells were infected with J6/JFH-1 virus and maintained in the presence of inhibitors until high-titer viral supernatant was produced. Viral supernatants were passaged over naive cells at escalating drug concentrations, and the resulting viruses were then characterized. Three NS3 resistance mutations were identified in BILN-2061-resistant viruses: A156G, D168A, "
+  },
+  {
+   "ref": "R030",
+   "title": "Monogenic Disorders of Puberty",
+   "venue": "The Journal of Clinical Endocrinology & Metabolism",
+   "year": 2002,
+   "type": "article",
+   "abstract": "Normal puberty is associated with the onset and progressive activation of the hypothalamic-pituitary-gonadal (HPG) axis and the resultant development of secondary sexual characteristics. Puberty begins with increasing nocturnal pulsatile hypothalamic GnRH secretion, which gradually occurs throughout the 24-h day. Pulsatile GnRH stimulates pituitary FSH and LH secretion, ultimately stimulating gonadal steroid production and gametogenesis in females and males. In the ovary, FSH stimulates follicular maturation and estrogen production through aromatization of androgens, whereas LH stimulates androgen production by theca cells, triggers ovulation, and maintains progesterone production by the corpus luteum. In the testis, FSH acts on Sertoli cells to initiate spermatogenesis and LH acts on Leydig cells to stimulate testosterone production. The hypothalamic-pituitary-adrenal (HPA) axis also ha"
+  },
+  {
+   "ref": "R031",
+   "title": "Genetic association and diversity analysis for yield and yield attributing traits in rice (Oryza sativa L.)",
+   "venue": "International Journal of Advanced Biochemistry Research",
+   "year": 2024,
+   "type": "article",
+   "abstract": "The present investigations were carried out on forty-nine rice genotypes to select the better lines for yield traits in randomized block design with three replications during kharif 2023. Correlations studies showed that significant positive correlation of grain yield/plot was obtained with harvest index, biological yield/plot, panicle length, number of filled spikelets/panicle, 1000 grain weight and spikelet fertility ratio. Considering direct effects of yield contributing characters on grain yield, number of filled spikelets/panicle showed highest positive direct effect on grain yield followed by harvest index, biological yield/plot, days to 50 % flowering, plant height, flag leaf length and panicle length. In Principal Component analysis the total variance was partitioned into five PCs contributing maximum total diversity between the genotypes due to various studied traits. It futher "
+  },
+  {
+   "ref": "R032",
+   "title": "Virus Evolution on Fitness Landscapes",
+   "venue": "Current topics in microbiology and immunology",
+   "year": 2023,
+   "type": "book-chapter",
+   "abstract": null
+  },
+  {
+   "ref": "R033",
+   "title": "Making the Most of Potential: Potential Games and Genotypic Convergence",
+   "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+   "year": 2020,
+   "type": "preprint",
+   "abstract": "A bstract We consider genotypic convergence of populations and show that under fixed fitness asexual and haploid sexual populations attain monomorphic convergence (even under genetic linkage between loci) to basins of attraction with locally exponential convergence rates; the same convergence obtains in single locus diploid sexual reproduction but to polymorphic populations. Furthermore, we show that there is a unified underlying theory underlying these convergences: all of them can be interpreted as instantiations of players in a potential game implementing a multiplicative weights updating algorithm to converge to equilibrium, making use of the Baum\u2013Eagon Theorem. To analyse varying environments, we introduce the concept of \u2018virtual convergence\u2019, under which, even if fixation is not attained, the population nevertheless achieves the fitness growth rate it would have had under convergen"
+  },
+  {
+   "ref": "R034",
+   "title": "Evolution",
+   "venue": null,
+   "year": 2023,
+   "type": "book-chapter",
+   "abstract": "Abstract Evolutionary biology includes microevolution, which incorporates genetics into the study of traits, and macroevolution, which focuses on patterns of traits across the history of life. Evolution proceeds via both random changes in allele frequency through genetic drift and non-random changes through natural selection. Genetic drift is important in small populations and through bottlenecks such as colonization events, including pathogen colonization of a new host. Genetic drift and gene flow together influence genetic structure. Natural selection shapes heritable traits in ways that maximize host fitness; directional, stabilizing, and disruptive selection each have consequences for trait evolution and maintenance of genetic diversity. Pathogen virulence is subject to an evolutionary trade-off between within-host fitness and between-host transmission, and the evolution of virulence"
+  },
+  {
+   "ref": "R035",
+   "title": "Abstract B60: Functional genomic landscape of T-cell mediated cytotoxicity",
+   "venue": "Cancer Immunology Research",
+   "year": 2020,
+   "type": "conference-abstract",
+   "abstract": "Abstract The direct killing of cancer cells by cytotoxic T-lymphocytes (CTL) is critical for achieving effective antitumor immune responses. While several tumor-intrinsic mutations have been identified that promote evasion to CTL killing, there remains a paucity of data cataloging how individual genetic perturbations impact cancer cell fitness under immunotherapeutic selection pressure. Towards this, genetic screens using the CRISPR-Cas9 system have recently been employed, identifying novel intrinsic genetic regulators of cancer immunotherapy fitness. While these initial studies demonstrate the significant potential of unbiased genetic screens for discovery of novel immunotherapy targets, they have been limited in application to a small number of disease models. As such, the degree to which intrinsic genetic perturbations robustly modulate immunotherapy fitness across diverse cancer geno"
+  },
+  {
+   "ref": "R036",
+   "title": "Differential response to wind and shade in mother leaf of Potentilla reptans",
+   "venue": null,
+   "year": 2007,
+   "type": "article",
+   "abstract": "Responses to mechanical stress (such as wind) should be suppressed in dense vegetation since the resultant shorter stature would lead to low fitness. However, this point has been debated, i.e. it has been argued that in dense vegetations a sensitivity to mechanical stress might provide an additional cue to  avoidance. For 10 different genotypes of the clonal plant Potentilla reptans, the effects of  (15% of daylight with a red: far red ratio, R/FR of 0.3 vs. 50% daylight and R/FR of 1.2) and wind (0 or 40 daily brushes with a duster) on the mother leaf properties were investigated. All genotypes exhibited typical shade avoidance responses under shade, such as the production of fewer leaves with longer petioles, reductions in petiole diameter, and the production of more rigid petiole tissue (petioles with a higher Young\u2032 modulus). Wind-treated plants produced more leaves with shorter and "
+  },
+  {
+   "ref": "R037",
+   "title": "Apolipoprotein E polymorphism and fertility: a study in pre-industrial populations",
+   "venue": "Molecular Human Reproduction",
+   "year": 2004,
+   "type": "article",
+   "abstract": "Human apolipoprotein E is the most important supplier of the cholesterol precursor for steroid hormone production in steroidogenic tissues and therefore could play a role in the regulation of steroid hormone function and influence human reproduction. This hypothesis has been confirmed by studies describing a differential fertility associated with common apolipoprotein (APOE) genotypes in two European populations. In the present investigation the impact of APOE genetic variation on fertility was studied in two Ecuadorian populations, African-Ecuadorians (57 women) and Cayapa Indians (27 women). In addition some biodemographic variables concerning women's fertility were investigated (124 African-Ecuadorian women; 40 Cayapa women) to better understand the APOE-fertility relationships in these pre-industrial populations. General fertility rates in both populations were very high (6.5 and 6.2"
+  },
+  {
+   "ref": "R038",
+   "title": "ABO phenotype protected reproduction as it is based on fucosylations.",
+   "venue": "Figshare",
+   "year": 2016,
+   "type": "dataset",
+   "abstract": "The molecular biological relationship between human fertility and ABO(H) blood group phenotype formation becomes evident with the rare (Oh) or Bombay blood type, which, based on the history of his own family, Charles Darwin would have interpreted as resulting from reduced fertility in consanguinities. In its native form, the Bombay type occurs in individuals with an extremely rare genotype (h/h;se/se), by which the fucosyltransferases FUT1 and FUT2 are not produced due to point mutations. These enzymes, encoded on chromosome 19, are epistatically connected with the A and B allelic glycotransferase functions encoded on chromosome 9, while the fucosyl residues provide the functional-structural basis for the formation of any ABO(H) phenotype on the cell surface or in secretions and plasma proteins. Immunoglobulins are also heavily fucosylated, and via developmental variation in the position"
+  },
+  {
+   "ref": "R039",
+   "title": "Comportement agronomique d'une collection de pois (Pisum sativum L)",
+   "venue": "DOAJ (DOAJ: Directory of Open Access Journals)",
+   "year": 2007,
+   "type": "article",
+   "abstract": "Agronomical Behaviour of a Pea Collection (Pisum sativum L.). This experience was achieved under greenhouse conditions. Twelve genotypes of pea were used (Asgrow, Jumbo, Lincoln, Merveille de Kelvedon, Purser, Rajai Torpe, Snajor Kosep, Korai,Wando, Rondo, local genotype, Major Kosep Korai and Surgevil). They were cultivated on peat during 5.5 months (from October to April). Some agronomical parameters were studied: resistance to diseases, (Powdery-mildew, mildew, top yellow virus, anthracnose, browning), fresh matter, number of branches/plant, number of flowers/plant, number of pods/ plant and the yield of grains /plant. Results showed that only the genotype Purser is resistant to all diseases and Surgevil is sensitive only to the Top Yellow virus. The local genotype is sensitive to three frequent diseases (Powdery-mildew, mildew and Anthracnose). With regard to vegetative growth, the h"
+  },
+  {
+   "ref": "R040",
+   "title": "Getting higher on rugged landscapes: Inversion mutations open access to fitter adaptive peaks in NK fitness landscapes",
+   "venue": "PLoS Computational Biology",
+   "year": 2022,
+   "type": "article",
+   "abstract": "Molecular evolution is often conceptualised as adaptive walks on rugged fitness landscapes, driven by mutations and constrained by incremental fitness selection. It is well known that epistasis shapes the ruggedness of the landscape's surface, outlining their topography (with high-fitness peaks separated by valleys of lower fitness genotypes). However, within the strong selection weak mutation (SSWM) limit, once an adaptive walk reaches a local peak, natural selection restricts passage through downstream paths and hampers any possibility of reaching higher fitness values. Here, in addition to the widely used point mutations, we introduce a minimal model of sequence inversions to simulate adaptive walks. We use the well known NK model to instantiate rugged landscapes. We show that adaptive walks can reach higher fitness values through inversion mutations, which, compared to point mutation"
+  },
+  {
+   "ref": "R041",
+   "title": "Spent: Sex, Evolution, and Consumer Behavior",
+   "venue": "Mankind Quarterly",
+   "year": 2011,
+   "type": "article",
+   "abstract": "Spent: Sex, Evolution, and Consumer Behavior Geoffrey Miller Viking, 2009 A few minutes spent sitting in a Starbucks in Tokyo, Washington, D.C. or any big city, watching the pedestrians and the traffic will reveal that modern consumption goes way beyond satisfying basic requirements for survival and reproductive fitness. Diamond rings, fur coats, high-end smartphones, Hummer sport utility vehicles and $4 cups of coffee may be extravagant, empty consumerism, but selecting and acquiring goods and services is the means by which modern humans signal their reproductive fitness as well as convey significant psychological traits of the owners to observers. Geoffrey Miller, associate professor of psychology at the University of New Mexico, evaluates consumerist capitalism from the perspective of evolutionary psychology. Consumerist behavior, wasteful and vacuous as it is on the surface, could be"
+  },
+  {
+   "ref": "R042",
+   "title": "Effect of different ferric fertilizers on planting Morchella conica fruiting yields and analyses of the microflora and bioactivities of its grown soil",
+   "venue": "African Journal of Microbiology Research",
+   "year": 2013,
+   "type": "article",
+   "abstract": "The aims of this study were to determine whether six ferric fertilizers influence the development of fruit bodies of Morchella conica identified by analysis of the internal transcribed spacer (ITS), its grown soil microflora and enzymatic activities. We successfully cultivated one kind of Morchella in the wheat planting field, its partial ITS rDNA in the present study was identified as M. conica by GenBank and Morchella MLST database as a reference. Six ferric fertilizers were applied to the planting area. Four soil enzymatic activities (including soil urease, polyphenol oxidase, invertase, and protease) as well as soil microflora showed significant differences in the development stages of M. conica especially during the primordium differentiation stage. Results suggest that ferric fertilizer not only influenced the Morchella grown soil enzymatic activities and microorganisms, but also i"
+  },
+  {
+   "ref": "R043",
+   "title": "The breadth of bread: unearthing genomic trade-offs in 355 wheat accessions",
+   "venue": "The Plant Cell",
+   "year": 2023,
+   "type": "article",
+   "abstract": "Wheat is a globally important staple food and cereal grain, with a world production of more than 750 million tons. It was first cultivated around 8,000 years ago in the area of the Fertile Crescent. As ancient farmers began selectively breeding wheat for desirable traits, they laid the foundation for what would eventually become landraces. These landraces are traditional varieties of crops tailored to withstand local stresses while delivering intermediate yields under low-input farming conditions. The transition from these traditional varieties to elite cultivars signifies a human-directed evolutionary process to achieve better yields, quality, and overall fitness (Liu et al. 2019). However, by relying on a narrow set of founders for breeding, there is a reduction in genetic diversity, called the bottleneck effect (Lopes et al. 2015). A limited genetic base can mean that the resulting cu"
+  },
+  {
+   "ref": "R044",
+   "title": "Genetic diversity of medium duration rice genotypes (Oryza sativa L.) under irrigated condition",
+   "venue": "International Journal of Advanced Biochemistry Research",
+   "year": 2024,
+   "type": "article",
+   "abstract": "An experiment was conducted during kharif season of 2023, at BTC college of Agriculture and Research Station, Bilaspur, Indira Gandhi Krishi Vishwavidyalaya, Raipur, Chhattisgarh. In this experiment, fifteen medium duration rice genotypes were used. The research was conducted in randomized block design (RBD) with three replications. The major objective of research conducted was evaluation of genetic variability parameters among genotypes, estimation of correlation coefficient analysis for yield and among yield attributing characters, path coefficient analysis and estimation of genetic divergence among medium duration rice genotypes. The analysis of variance reported the presence of ample amounts of variability among all genotypes for all traits studied. High to moderate estimates of GCV and PCV were observed for traits like yield per plot (q/ha) followed by, L/B ratio, 1000 grain weight "
+  },
+  {
+   "ref": "R045",
+   "title": "Life-history evolution in the parasitoid wasp Nasonia vitripennis",
+   "venue": "ERA",
+   "year": 2007,
+   "type": "dissertation",
+   "abstract": "Reproductive success is heavily influenced by life-history traits; a series of energy investment trade-offs that organisms must optimise according to their environmental conditions. These include considerations such as how many offspring and when to reproduce? The consequences of multiple trade-offs can be extremely complex, making research difficult. However, there are notable exceptions. Simple clutch size theory enabled great strides in assessing trade-offs in resource allocation, though it quickly becomes more complicated when considering investment in current versus future reproduction. Arguably, even greater success has come from consideration of investment in a particular sex. Sex allocation theory provides simple models that can be empirically tested, and has provided some of the strongest evidence for natural selection and evolution. Much of this work has focused on certain para"
+  },
+  {
+   "ref": "R046",
+   "title": "Predicting mutational routes to new adaptive phenotypes",
+   "venue": "eLife",
+   "year": 2019,
+   "type": "article",
+   "abstract": "in which the genotype-to-phenotype map determining evolution of the adaptive 'wrinkly spreader' (WS) type is known. We present mathematical descriptions of three necessary regulatory pathways and use these to predict both the rate at which each mutational route is used and the expected mutational targets. To test predictions, mutation rates and targets were determined for each pathway. Unanticipated mutational hotspots caused experimental observations to depart from predictions but additional data led to refined models. A mismatch was observed between the spectra of WS-causing mutations obtained with and without selection due to low fitness of previously undetected WS-causing mutations. Our findings contribute toward the development of mechanistic models for forecasting evolution, highlight current limitations, and draw attention to challenges in predicting locus-specific mutational bias"
+  },
+  {
+   "ref": "R047",
+   "title": "Beyond the Hypercube: Evolutionary Accessibility of Fitness Landscapes with Realistic Mutational Networks",
+   "venue": "PLoS Computational Biology",
+   "year": 2016,
+   "type": "article",
+   "abstract": "Evolutionary pathways describe trajectories of biological evolution in the space of different variants of organisms (genotypes). The probability of existence and the number of evolutionary pathways that lead from a given genotype to a better-adapted genotype are important measures of accessibility of local fitness optima and the reproducibility of evolution. Both quantities have been studied in simple mathematical models where genotypes are represented as binary sequences of two types of basic units, and the network of permitted mutations between the genotypes is a hypercube graph. However, it is unclear how these results translate to the biologically relevant case in which genotypes are represented by sequences of more than two units, for example four nucleotides (DNA) or 20 amino acids (proteins), and the mutational graph is not the hypercube. Here we investigate accessibility of the b"
+  },
+  {
+   "ref": "R048",
+   "title": "Elemental profiling and genome-wide association studies reveal genomic variants modulating ionomic composition in Populus trichocarpa leaves",
+   "venue": "Frontiers in Plant Science",
+   "year": 2024,
+   "type": "article",
+   "abstract": "The ionome represents elemental composition in plant tissues and can be an indicator of nutrient status as well as overall plant performance. Thus, identifying genetic determinants governing elemental uptake and storage is an important goal for breeding and engineering biomass feedstocks with improved performance. In this study, we coupled high-throughput ionome characterization of leaf tissues with high-resolution genome-wide association studies (GWAS) to uncover genetic loci that modulate ionomic composition in leaves of poplar (Populus trichocarpa). Significant agreement was observed across the three ionomic profiling platforms tested: inductively coupled plasma-mass spectrometry (ICP-MS), neutron activation analysis (NAA) and laser-induced breakdown spectroscopy (LIBS). Relative quantification of 20 elements using ICP-MS across a population of 584 genotypes, revealed larger variation"
+  },
+  {
+   "ref": "R049",
+   "title": "Studies on Chicken Hatchability and Its Relation with Egg Yolk Metabolites",
+   "venue": null,
+   "year": 2017,
+   "type": "dissertation",
+   "abstract": "Hatchability is an important trait for the chicken industry because of its high impact on chicken output. The embryonic survival ability in fertile eggs is greatly influenced by the offspring genotype and the quality of the egg environment, especially egg yolk metabolites. This study is aimed at estimating genetic parameters of hatchability traits and determining the relationship between yolk nutrients and chicken embryonic survival ability in order to identify important metabolites for the embryonic health of chickens and other species. In chapter 2, the functions of egg yolk metabolites were further discussed. We summarized the literature from the past decades on finding metabolites in egg yolk and albumen that impact embryonic survival ability and on determining the function of different nutritional components during distinct stages of incubation. The function of fatty acids, carbohyd"
+  },
+  {
+   "ref": "R050",
+   "title": "Indirect reciprocity is sensitive to costs of information transfer",
+   "venue": "Scientific Reports",
+   "year": 2013,
+   "type": "article",
+   "abstract": "How natural selection can promote cooperative or altruistic behavior is a fundamental question in biological and social sciences. One of the persuasive mechanisms is \"indirect reciprocity,\" working through reputation: cooperative behavior can prevail because the behavior builds the donor's good reputation and then s/he receives some reciprocal benefits from someone else in the community. However, an important piece missed in the previous studies is that the reputation-building process requires substantial cognitive abilities such as communication skills, potentially causing a loss of biological fitness. Here, by mathematical analyses and individual-based computer simulations, we show that natural selection never favors indirect reciprocal cooperation in the presence of the cost of reputation building, regardless of the cost-to-benefit ratio of cooperation or moral assessment rules (socia"
+  },
+  {
+   "ref": "R051",
+   "title": "Multivariate selection mediated by aridity predicts divergence of drought\u2010resistant traits along natural aridity gradients of an invasive weed",
+   "venue": "New Phytologist",
+   "year": 2022,
+   "type": "article",
+   "abstract": "Geographical variation in the environment underpins selection for local adaptation and evolutionary divergence among populations. Because many environmental conditions vary across species' ranges, identifying the specific environmental variables underlying local adaptation is profoundly challenging. We tested whether natural selection mediated by aridity predicts clinal divergence among invasive populations of capeweed (Arctotheca calendula) that established and spread across southern Australia during the last two centuries. Using common garden experiments with two environmental treatments (wet and dry) that mimic aridity conditions across capeweed's invasive range, we estimated clinal divergence and effects of aridity on fitness and multivariate phenotypic selection in populations sampled along aridity gradients in Australia. We show that: (1) capeweed populations have relatively high f"
+  },
+  {
+   "ref": "R052",
+   "title": "Exotic gene flow affects fitness trait values but not levels of heritable trait variation in the southernmost population of Scots pine (Pinus sylvestris L. var. nevadensis)",
+   "venue": "Biological Conservation",
+   "year": 2015,
+   "type": "article",
+   "abstract": null
+  },
+  {
+   "ref": "R053",
+   "title": "DOES EDUCATION MEDIATE THE RELATIONSHIP BETWEEN IQ AND AGE OF FIRST BIRTH? A BEHAVIOURAL GENETIC ANALYSIS",
+   "venue": "Journal of Biosocial Science",
+   "year": 2002,
+   "type": "article",
+   "abstract": "This study presents a multivariate behavioural genetic analysis of the relationship between education, intelligence and age of first birth. Analyses investigated the mediational role of education in explaining the relationship between intelligence and age of first birth at both the phenotypic and behavioural genetic level. The data come from the National Longitudinal Survey of Youth (NLSY), a nationally representative survey that included genetically informative full- and half-sibling pairs (n = 1423 pairs). Respondents were aged 14 to 22 when contacted in 1979. Heritability estimates were 0.32, 0.50 and 0.06 for IQ, education and age of first birth, respectively. Shared environment estimates were 0.35, 0.23 and 0.20 respectively. Common genetic and shared environmental factors were substantial in explaining the relationship between intelligence and education, and also education and age "
+  },
+  {
+   "ref": "R054",
+   "title": "Adaptive topography of fluctuating selection in a Mendelian population",
+   "venue": "Journal of Evolutionary Biology",
+   "year": 2008,
+   "type": "article",
+   "abstract": "An adaptive topography is derived for a large randomly mating diploid population under weak density-independent selection in a fluctuating environment. Assuming a stationary distribution of environmental states with no temporal autocorrelation, a diffusion approximation for population size and allele frequency, p, reveals that the expected change in p involves the gradient with respect to p of the stochastic intrinsic rate of increase (the density-independent long-run growth rate), r = r - sigma 2 e/2, where r is the mean Malthusian fitness in the average environment and is the environmental variance in population growth rate. The expected relative fitness of a genotype is its Malthusian fitness in the average environment minus the covariance of its fitness with population growth rate. The influence of fitness correlation between genotypes is illustrated by an analysis of the Haldane-Jay"
+  },
+  {
+   "ref": "R055",
+   "title": "Naturally occurring activity variation of an alkaline phosphatase isozyme associated with physiological fitness in an intertidal population of Macoma balthica",
+   "venue": "Canadian Journal of Genetics and Cytology",
+   "year": 1986,
+   "type": "article",
+   "abstract": "We observed variability in the level of an isozyme for the enzyme alkaline phosphatase (AKP, EC 3.1.3.1) in a Macoma balthica population from Hudson Bay. The distribution of \"high\" and \"no\" activity AKP-2 variants were different in samples from \"high\" tide as compared with \"low\" tide areas. Furthermore, the AKP-2 activity level is associated with survival at high temperature (32 \u00b0C), but in the \"high\" tide subpopulation only. Although this striking association between the activity level of an isozyme and an environmental parameter in a natural population is one of the very few in the literature, further studies are required to establish the genetic basis for the level of the enzyme activity and the biochemical basis for this relationship.Key words: isozyme, alkaline phosphatase, natural selection, evolution."
+  },
+  {
+   "ref": "R056",
+   "title": "Biodemographic modeling of the links between fertility motivation and fertility outcomes in the NLSY79",
+   "venue": "Demography",
+   "year": 2010,
+   "type": "article",
+   "abstract": "In spite of long-held beliefs that traits related to reproductive success tend to become fixed by evolution with little or no genetic variation, there is now considerable evidence that the natural variation of fertility within populations is genetically influenced and that a portion of that influence is related to the motivational precursors to fertility. We conduct a two-stage analysis to examine these inferences in a time-ordered multivariate context. First, using data from the National Longitudinal Survey of Youth, 1979, and LISREL analysis, we develop a structural equation model in which five hypothesized motivational precursors to fertility, measured in 1979-1982, predict both a child-timing and a child-number outcome, measured in 2002. Second, having chosen two time-ordered sequences of six variables from the SEM to represent our phenotypic models, we use Mx to conduct both univari"
+  },
+  {
+   "ref": "R057",
+   "title": "The reproductive biology of Polytrichum formosum: clonal structure and paternity revealed by microsatellites",
+   "venue": "Molecular Ecology",
+   "year": 2001,
+   "type": "article",
+   "abstract": "Using highly polymorphic microsatellite markers, we assessed clonal structure and paternity in a population of the bryophyte species Polytrichum formosum. Identical multilocus genotypes of individual shoots were almost never observed in spatially separated cushions, but were found to be highly clustered within moss cushions. Therefore, asexual reproduction through dispersal of gametophyte fragments is not very important in P. formosum. However, asexual reproduction on a very localized scale through vegetative growth of genets (branching of gametophytes via clonal growth of rhizomes) is very extensive. The patchy spatial distribution of genets and the absence of intermingling among genets suggest that this species follows a 'phalanx' clonal growth strategy. Vegetative proliferation of genets will increase their size, and, consequently, will have considerable fitness consequences for indiv"
+  },
+  {
+   "ref": "R058",
+   "title": "Stable Equilibria under Random Fitness and Recombination Rates",
+   "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+   "year": 2023,
+   "type": "preprint",
+   "abstract": "Abstract We develop and analyze a two-locus biallelic genetic model with randomized recombination rates and fitness matrices. While deterministic models reveal a trajectory toward the simplex center before stabilizing at polymorphisms, introducing random recombination pinpointed regions of attraction dependent on the fitness matrix and recombination fraction range. As recombination randomness intensifies, transitions in these attraction regions are observed. Analysis with random fitness matrices highlighted genotype attraction towards the tetrahedron vertices with edges guiding genotypic clustering."
+  },
+  {
+   "ref": "R059",
+   "title": "The Impact of Feeding Organic Trace Minerals Using Advanced Chelate Technology on Reproductive Efficiency and Blood Parameters in Ghezel Ewes",
+   "venue": "Veterinary Medicine and Science",
+   "year": 2026,
+   "type": "article",
+   "abstract": "BACKGROUND: The bioavailability of trace minerals (TM) in a diet is important for improving reproductive performance and fertility parameters. OBJECTIVE: This study evaluated the effects of replacing inorganic trace minerals (ITM) with organic trace minerals (OTM), formulated using advanced chelate technology, on the reproductive performance and blood attributes of ewes. METHODS: Forty ewes were subjected to a five-week intervention in four dietary groups (n = 10): (1) OTM: flushed with organic trace minerals (Bonzaplex-7); (2) ITM: flushed with inorganic trace minerals; (3) NTM: flushed without adding trace minerals; and (4) CON: grazed only on pasture. Oestrus synchronization was performed based on two doses of 75 \u00b5g cloprostenol with 12 days interval + 400 IU eCG injection. The number of follicles and pregnancy were determined by ultrasound. Blood samples were collected at predetermin"
+  },
+  {
+   "ref": "R060",
+   "title": "Effects of crossbreeding on growth, production and selected egg quality traits of Improved Horro crosses with Cosmopolitan chickens",
+   "venue": "Journal of Agriculture and Food Research",
+   "year": 2023,
+   "type": "article",
+   "abstract": "The effect of crossbreeding aims to characterize heterosis, additive, and maternal values for growth, egg production and selected egg quality traits in Improved Horro (H), Cosmopolitan (C), \u2642Improved Horro*Cosmopolitan\u2640(HC) and \u2642Cosmopolitan*Improved Horro\u2640(CH) chickens. A completely randomized design was used in the study. A total of 1200 eggs and 300 eggs of each genotype were used for the hatchability and fertility trials. A total of 480 chickens were used for the growth, egg production and quality test. The results demonstrated that egg production traits like egg mass (7.74 \u00b1 0.79%), hen day egg production (5.16 \u00b1 0.24%), hen housed egg production (1.65 \u00b1 0.29%), egg number (1.65 \u00b1 0.06%), and hatchability from fertile eggs set (0.92 \u00b1 0.02%) had positive heterosis. The egg production traits of egg fertility (-0.29 \u00b1 0.01%), age at first egg (-1.77 \u00b1 0.14%), age at peak egg productio"
+  },
+  {
+   "ref": "R061",
+   "title": "Characterizing Functional Genetic Diversity in Mycobacterium tuberculosis",
+   "venue": "Digital Access to Scholarship at Harvard (DASH) (Harvard University)",
+   "year": 2023,
+   "type": "dissertation",
+   "abstract": "The bacterium Mycobacterium tuberculosis (Mtb) is the causative agent of tuberculosis (TB), which is the deadliest infectious disease in the world. Mtb is genetically conserved compared to most other human pathogens, so the field has traditionally considered Mtb genetically and thus phenotypically monomorphic. Therefore, the functional consequences of Mtb genetic diversity are underexplored, especially mutations acquired early in the evolutionary history of Mtb. Since antiquity, Mtb has evolved to adapt to the host environment in which it infects. This evolution is still occurring as Mtb currently infects nearly one third of the human population. Both ancient and contemporary host adaption results in genetic diversity that could have important implications for how we understand TB pathogenesis, patient clinical outcomes, and the efficacy of the TB antibiotic regimen. This dissertation op"
+  },
+  {
+   "ref": "R062",
+   "title": "Mega-analysis of 31,396 individuals from 6 countries uncovers strong gene-environment interaction for human fertility",
+   "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+   "year": 2016,
+   "type": "preprint",
+   "abstract": "Abstract Family and twin studies suggest that up to 50% of individual differences in human fertility within a population might be heritable. However, it remains unclear whether the genes associated with fertility outcomes such as number of children ever born (NEB) or age at first birth (AFB) are the same across geographical and historical environments. By not taking this into account, previous genetic studies implicitly assumed that the genetic effects are constant across time and space. We conduct a mega-analysis applying whole genome methods on 31,396 unrelated men and women from six Western countries. Across all individuals and environments, common single-nucleotide polymorphisms (SNPs) explained only ~4% of the variance in NEB and AFB. We then extend these models to test whether genetic effects are shared across different environments or unique to them. For individuals belonging to t"
+  },
+  {
+   "ref": "R063",
+   "title": "Inheritance and Fitness Costs of Vip3Aa19 Resistance in Mythimna separata",
+   "venue": "Toxins",
+   "year": 2022,
+   "type": "article",
+   "abstract": "The \u201chigh-dose/refuge\u201d strategy is expected to work most effectively when resistance is inherited as a functionally recessive trait and the fitness costs associated with resistance are present. In the present study, a laboratory selected Mythimna separata strain that have evolved >634.5-fold resistance to Vip3Aa19 was used to determine the mode of inheritance. To determine if fitness costs were associated with the resistance, life history parameters (larva stage, pupa stage, pupal weight, adult longevity and fecundity) of resistant (RR), -susceptible (SS) and heterozygous (R\u2642S\u2640 and R\u2640S\u2642) strains on nontoxic diet were assayed. The LC50 values of R\u2640S\u2642 were significantly higher than that of R\u2642S\u2640 (254.58 \u03bcg/g vs. 14.75 \u03bcg/g), suggesting that maternal effects or sex linkage were present. The effective dominance h of F1 offspring decreased as concentration increased, suggesting the resistance "
+  },
+  {
+   "ref": "R064",
+   "title": "Demographical and twinning data of an Igbo kindred during the Nigerian civil war",
+   "venue": "DOAJ (DOAJ: Directory of Open Access Journals)",
+   "year": 1999,
+   "type": "article",
+   "abstract": "In West Africa today, accurate information on twinning and related demography is still scanty. Therefore, I report a personal survey carried out among my own kindred during the Nigerian civil war. Being of the harassed Igbo ethnic group, 257 of them had fled back but six of them did not return. These returnees together with those displaced by the advancing federal forces as well as the ordinary residents constituted the survey population of 1,346 persons. Up to 58.7% were aged below 21 years. Of the 40 sets of twins identified, the general incidence was 28.5 per 1000 births. However, individual families reached rates of 31.1 and even 82.2. Some women were examples of the concept that twin-prone individuals are highly fecund. Thus, one pagan woman had 2 sets of twins, which were not allowed to survive, during 10 pregnancies, while a Christian woman achieved 9 pregnancies with 4 sets of tw"
+  },
+  {
+   "ref": "R065",
+   "title": "Assessing the repeatability, robustness to disturbance, and parent\u2013offspring colony resemblance of collective behavior",
+   "venue": "Journal of Evolutionary Biology",
+   "year": 2019,
+   "type": "article",
+   "abstract": "Groups of animals possess phenotypes such as collective behaviour, which may determine the fitness of group members. However, the stability and robustness to perturbations of collective phenotypes in natural conditions is not established. Furthermore, whether group phenotypes are transmitted from parent to offspring groups with fidelity is required for understanding how selection on group phenotypes contributes to evolution, but parent-offspring resemblance at the group level is rarely estimated. We evaluated the repeatability, robustness to perturbation and parent-offspring resemblance of collective foraging aggressiveness in colonies of the social spider Anelosimus eximius. Among-colony differences in foraging aggressiveness were consistent over time but changed if the colony was perturbed through the removal of individuals or via individuals' removal and subsequent return. Offspring a"
+  },
+  {
+   "ref": "R066",
+   "title": "Why does a grasshopper have fewer, larger offspring at its range limits?",
+   "venue": "Journal of Evolutionary Biology",
+   "year": 2005,
+   "type": "article",
+   "abstract": "Analysis of size of offspring reared through three laboratory generations from populations of the field grasshopper Chorthippus brunneus from 27 sites around the British Isles showed that offspring were larger towards the cooler-wetter conditions in the western and northern limits of the range. This variation had a significant genetic component. There was a trade-off between clutch size and offspring size between and within populations. Under favourable thermal and feeding conditions maternal fitness was optimal when individuals produced the largest clutches of the smallest eggs, but under poor conditions maternal fitness was optimal when individuals produced small clutches of very large offspring. Calculation of geometric mean fitness over time indicated that having larger offspring near to the edge of the range could be advantageous as a conservative risk-spreading strategy. As well as"
+  },
+  {
+   "ref": "R067",
+   "title": "Inheritance of dominance in honeybees (Apis mellifera capensis Esch.)",
+   "venue": "Behavioral Ecology and Sociobiology",
+   "year": 1985,
+   "type": "article",
+   "abstract": null
+  },
+  {
+   "ref": "R068",
+   "title": "The Geology Twin: Evidence-Bound Dynamic Resource Modelling for Governed Mine-to-Market Decisions",
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "year": 2026,
+   "type": "preprint",
+   "abstract": "Volume 1 presents the Geology Twin as a governed, evidence-linked framework for geological observations, sampling, laboratory results, QA/QC, structural interpretation, block and geometallurgical models, uncertainty, and controlled geological-model release. Its purpose is to make the provenance of data, versions, assumptions, calculations, and engineering decisions reproducible and verifiable before a geological result is transferred to mine planning, mining, processing, or economic evaluation. The architecture must not, however, be interpreted as a mechanism for automatically removing defects in the empirical basis. The system intentionally does not \u2018correct\u2019 original sampling bias, orebody non-stationarity, sample-preparation errors, analytical uncertainty, laboratory-method bias, or the loss of spatial and temporal context unless new physical data enter the workflow. It can identify i"
+  },
+  {
+   "ref": "R069",
+   "title": "Precisely wrong? The problems with the Jones and Martin genetic model of sex differences in handedness and language lateralisation",
+   "venue": "Cortex",
+   "year": 2009,
+   "type": "article",
+   "abstract": null
+  },
+  {
+   "ref": "R070",
+   "title": "Heritability of seed weight in Maritime pine, a relevant trait in the transmission of environmental maternal effects",
+   "venue": "Heredity",
+   "year": 2014,
+   "type": "article",
+   "abstract": null
+  },
+  {
+   "ref": "R071",
+   "title": "Data and code from: Climatic origin and plasticity shape emergence timing and fitness in bees and wasps under experimental climate regimes",
+   "venue": "DRYAD",
+   "year": 2026,
+   "type": "dataset",
+   "abstract": "Climate warming threatens the persistence of insect populations by forcing them to adjust their phenology\u2014responses that may be constrained by local adaptation and involve physiological trade-offs. We investigated how hymenopterans with contrasting seasonal phenology and from different climates adjust their emergence timing under current and projected future climates. We also examined the consequences of these adjustments on body mass at emergence as a key fitness trait. We analysed the emergence timing of 14,921 individuals from five cavity-nesting bee and wasp species exposed to cold, warm, and hot post-winter temperature treatments in a common garden experiment to identify potential genotype-environment interactions. Insects had developed at 161 sites of origin across southern Germany, covering multi-annual mean temperatures (MAT) of 5.9 to 10 \u00baC and differing in the temperature devia"
+  },
+  {
+   "ref": "R072",
+   "title": "ON THE COEXISTENCE AND COEVOLUTION OF ASEXUAL AND SEXUAL COMPETITORS",
+   "venue": "Evolution",
+   "year": 1986,
+   "type": "article",
+   "abstract": "The coexistence and coevolution of sexual and asexual species under resource competition are explored with three models: a nongenetic ecological model, a model including single locus genetics, and a quantitative-genetic model. The basic assumption underlying all three models is that genetic differences are translated into ecological differences. Hence if sexual species are genetically more variable, they will be ecologically more variable. Under classical competition theory, this increased ecological variability can, in many cases, be an advantage to individual sexual genotypes and to the sexual species as a whole. The purpose of this paper is to determine the conditions when this advantage will outway three disadvantages of sexuality: the costs of males, of segregation, and of the additive component of recombination. All three models reach similar conclusions. Although asexuality confer"
+  },
+  {
+   "ref": "R073",
+   "title": "Plasticity and environment-specific relationships between gene expression and fitness in Saccharomyces cerevisiae",
+   "venue": "Nature Ecology & Evolution",
+   "year": 2024,
+   "type": "article",
+   "abstract": "The environment influences how an organism\u2019s genotype determines its phenotype and how this phenotype affects its fitness. Here, to better understand this dual role of environment in the production and selection of phenotypic variation, we determined genotype\u2013phenotype\u2013fitness relationships for mutant strains of Saccharomyces cerevisiae in four environments. Specifically, we measured how promoter mutations of the metabolic gene TDH3 modified expression level and affected growth for four different carbon sources. In each environment, we observed a clear relationship between TDH3 expression level and fitness, but this relationship differed among environments. Mutations with similar effects on expression in different environments often had different effects on fitness and vice versa. Such environment-specific relationships between phenotype and fitness can shape the evolution of phenotypic "
+  },
+  {
+   "ref": "R074",
+   "title": "Fitness Landscapes and the Origin of Species",
+   "venue": null,
+   "year": 2004,
+   "type": "book",
+   "abstract": "The origin of species has fascinated both biologists and the general public since the publication of Darwin's Origin of Species in 1859. Significant progress in understanding the process was achieved in the   when Theodosius Dobzhansky, Ernst Mayr, and others reconciled Mendelian genetics with Darwin's natural selection. Although evolutionary biologists have developed significant new theory and data about speciation in the years since the modern synthesis, this book represents the first systematic attempt to summarize and generalize what mathematical models tell us about the dynamics of speciation. Fitness Landscapes and the Origin of Species presents both an overview of the forty years of previous theoretical research and the author's new results. Sergey Gavrilets uses a unified framework based on the notion of fitness landscapes introduced by Sewall Wright in 1932, generalizing this no"
+  },
+  {
+   "ref": "R075",
+   "title": "Male and female testosterone--is one sex made in the image of the other? A comment on Goymann and Wingfield",
+   "venue": "Behavioral Ecology",
+   "year": 2014,
+   "type": "article",
+   "abstract": "Goymann and Wingfield (2014) provide a welcome review of the relationships between circulating testosterone, sexual dimorphism, and social systems in female birds. They conclude that earlier comparative studies were inconclusive because they failed to incorporate phylogeny (Ketterson et al. 2005). I agree. Goymann and Wingfield also criticize experimental studies that rely on implants to elevate circulating levels of testosterone. Here, I disagree. The distinction between pharmacological versus physiological levels of hormones can be informative rather than problematic; if a novel phenotype were to arise, would it spread? Further, evolutionary endocrinology has advanced substantially beyond its earlier focus on circulating levels of hormones to investigations of local steroid production, tissue-specific sensitivity, and hormone-induced patterns of gene expression. The current challenge i"
+  },
+  {
+   "ref": "R076",
+   "title": "Optimization of topology and stiffeners locations in 2-D structures using evolutionary methods",
+   "venue": null,
+   "year": 2008,
+   "type": "conference-paper",
+   "abstract": null
+  },
+  {
+   "ref": "R077",
+   "title": "Genetic variation in expression of defense phenotype may mediate evolutionary adaptation of Asclepias syriaca to elevated CO2",
+   "venue": "Global Change Biology",
+   "year": 2010,
+   "type": "article",
+   "abstract": "How species interactions may modify the effects of environmental change on evolutionary adaptation is poorly understood. Elevated CO2 is known to alter plant\u2013herbivore interactions, but the evolutionary consequences for plant populations have received little attention. We conducted an experiment to determine the effects of elevated CO2 and herbivory by a specialist insect herbivore (Danaus plexippus) on the expression of constitutive and induced plant defense traits in five genotypes of Asclepias syriaca, and assessed the heritability of these traits. We also examined changes in relative fitness among plant genotypes in response to altered CO2 and herbivory. The expression of plant defense traits varied significantly among genotypes. Elevated CO2 increased plant growth and physical defenses (toughness and latex), but decreased investment in chemical defenses (cardenolides). We found no e"
+  },
+  {
+   "ref": "R078",
+   "title": "New insights into the criteria of functional heterozygosity of the Apis mellifera complementary sex determining gene\u2013Discovery of a functional allele pair differing by a single amino acid",
+   "venue": "PLoS ONE",
+   "year": 2022,
+   "type": "article",
+   "abstract": "The complementary sex determiner (csd) gene is responsible for controlling the sex-determination molecular switch in western honey bees (Apis mellifera): bees that are heterozygous for csd develop into females, whereas bees that are hemizygous or homozygous develop into males. The homozygous diploid males are destroyed at an early stage of their development. It has been proposed that the minimal number of amino acid differences between two csd alleles needed to fully determine femaleness is five and it has also been shown that smaller differences may result in forming an evolutionary intermediate that is not fully capable of female determination, but has increased fitness compared to the homozygous genotype. In this study, we have implemented a terminal restriction length polymorphism-based method of identifying and distinguishing paternal alleles in a given bee colony and assigning them"
+  },
+  {
+   "ref": "R079",
+   "title": "Population improvement for seed yield and oil content by using working germplasm in sunflower (Helianthus annuus L.).",
+   "venue": "SABRAO Journal of Breeding and Genetics",
+   "year": 2013,
+   "type": "article",
+   "abstract": "SUMMARY The study aimed at sunflower population improvement through recurrent selection. The present investigation was undertaken with the third cycle base population (C 3 ) by adopting simple recurrent selection. 20,000 plants from the third cycle, were raised during rainy season 2010 and 2,000 phenotypically superior plants were selfed. Based on self-fertility, the best 200 plants were selected for progeny testing during spring 2011 and evaluated against two national checks (DRSF-108 and 113). In the C 3 base population, a wide range of variability was exhibited in days to maturity, plant height, head diameter, seed yield/plant, and oil content. Positive selection differential was observed for plant height, head diameter, seed yield and oil yield, whereas days to maturity and oil content showed negative values. PCV and GCV revealed high values for seed yield/plant, oil yield/plant and "
+  },
+  {
+   "ref": "R080",
+   "title": "Genetic relationships of fertility traits with test\u2010day milk yield and fat\u2010to\u2010protein ratio in tropical smallholder dairy farms",
+   "venue": "Animal Science Journal",
+   "year": 2015,
+   "type": "article",
+   "abstract": "The test-day milk fat-to-protein ratio (TD-FPR) could serve as a measure of energy balance status and might be used as a criterion to improve metabolic stability and fertility through genetic selection. Therefore, genetic parameters for fertility traits, test-day milk yield (TD-MY) and TD-FPR, as well as, their relationships during different stages of lactation, were estimated on data collected from 25 968 primiparous Thai dairy crossbred cows. Gibbs sampling algorithms were implemented to obtain (co)variance components using both univariate linear and threshold animal models and bivariate linear-linear and linear-threshold animal models with random regression. Average TD-MY and TD-FPR were 12.60 and 1.15. Heritability estimates for TD-MY, TD-FPR and selected fertility traits ranged from 0.31 to 0.58, 0.17 to 0.19 and 0.02 to 0.05, respectively. Genetic correlations among TD-FPR and TD-M"
+  },
+  {
+   "ref": "R081",
+   "title": "Poor Acceptance Rate for Semen Donors to a Private Cryobank in Nigeria",
+   "venue": "African Journal of Reproductive Health",
+   "year": 2003,
+   "type": "article",
+   "abstract": "A retrospective analysis of sixty one prospective donors who visited the cryobank in person from August 1999 to December 2001 was done. The study evaluated the acceptance rate of prospective semen donors and semen characteristics in order to assess the fertility potential of the supposedly normal population of young men. The outcome of the various screening processes--history taking, infection screening, blood grouping and Hb genotype assessment, semen analyses (pre-freeze and post-thaw), and post-quarantine (six months after production of last sample) infection--was analysed. Out of the 61 enquiries, 9 (14.8%) donors were recruited, 7 (77.8%) of whom were less than 25 years old. Fourteen (22.9%) donors had sperm concentrations greater than 60' 10(6) ml, 31 (50.8%) had motility greater than 60% and 17 (27.8%) had normal forms greater than 30%. Six (9.8%) of the donors were unable to mast"
+  },
+  {
+   "ref": "R082",
+   "title": "The Diversity Decline in Wild and Managed Honey Bee Populations Urges for an Integrated Conservation Approach",
+   "venue": "Frontiers in Ecology and Evolution",
+   "year": 2022,
+   "type": "article",
+   "abstract": "Many parts of the globe experience severe losses and fragmentation of habitats, affecting the self-sustainability of pollinator populations. A number of bee species coexist as wild and managed populations. Using honey bees as an example, we argue that several management practices in beekeeping threaten genetic diversity in both wild and managed populations, and drive population decline. Large-scale movement of hive stocks, introductions into new areas, breeding programs and trading of queens contribute to reducing genetic diversity, as recent research demonstrated for wild and managed honey bees within a few decades. Examples of the effects of domestication in other organisms show losses of both genetic diversity and fitness functions. Cases of natural selection and feralization resulted in maintenance of a higher genetic diversity, including in a Varroa destructor surviving population o"
+  },
+  {
+   "ref": "R083",
+   "title": "ON THE COST OF REPRODUCTION IN LONG-LIVED BIRDS: THE INFLUENCE OF ENVIRONMENTAL VARIABILITY",
+   "venue": "Ecology",
+   "year": 1998,
+   "type": "article",
+   "abstract": "Life history theory suggests that animals should balance their current investment in young against their chances to reproduce in the future. One fundamental prediction from the theory is that long-lived species should be restrictive in any increase of their current investment. It has been suggested that long-lived species, therefore, have evolved a fixed level of investment in young in order to maximize their own adult survival. However, recent experimental studies have shown that long-lived seabirds have a flexible reproductive performance and adjust their effort in raising young, both according to their own body condition and to the need of the chicks. In this study, we present a model of the optimal balance between reproductive effort and adult survival for long-lived birds breeding in a stochastic environment. During poor breeding conditions, maximum fitness is achieved either by not"
+  },
+  {
+   "ref": "R084",
+   "title": "A Behavioral Genetics Study of Age at First Birth of Female UK Twins",
+   "venue": "University of Groningen research database (University of Groningen / Centre for Information Technology)",
+   "year": 2013,
+   "type": "conference-paper",
+   "abstract": "There is a rising interest in latent family factors influencing fertility, particularly in the effects of genes and the family environment (Rodgers et al., 2001; Nisen, et at., 2013). This study investigates the genetic and environmental influence on the age at first birth (AFB) forwomenfrom the United Kingdom. Using data from TwinsUKthatcontain 2,274 monozygotic (945, 42 %) and dizygotic (1,329, 58 %) twin pairs born from 19191968,weapply behavioral genetics models in an innovativetobitframework to also includecensored women who remained childless. The findings indicate that a substantial part (40 %) of the variation in AFB is caused by latent family characteristics. Genetic dispositions (26 %) play a more important role than the shared environment of siblings (14 %), with the non-shared environment having the strongest influence (60 %). A trend analysis across cohorts reveals large cha"
+  },
+  {
+   "ref": "R085",
+   "title": "Inheritance pattern of yield attributes in spring wheat at grain filling stage under different temperature regimes",
+   "venue": "Australian Journal of Crop Science",
+   "year": 2011,
+   "type": "article",
+   "abstract": "One hundred spring wheat accessions were assessed for heat tolerance under plastic sheet tunnel resulting in seven parents with diverse heat tolerance. Tolerant and susceptible genotypes were graded on the bases of their relative cell injury percentages and relative values for different yield components. The analysis of variance for relative cell injury % revealed highly significant differences among the genotypes with a range from 28 to 98 %. These 7 parents were crossed in a full diallel system to evaluate the inheritance pattern of some spike related yield attributes (spike length, spikelets per spike, spike density, spike weight, grains per spike and grain yield per plant) under different temperature regimes at grain filling stage. Preliminary ANOVA revealed significant genotypic variation (P<0.01) for all the traits studied under both environments. Spike length, spikelets per spike "
+  },
+  {
+   "ref": "R086",
+   "title": "The Biodemography of Fertility: A Review and Future Research Frontiers",
+   "venue": "KZfSS K\u00f6lner Zeitschrift f\u00fcr Soziologie und Sozialpsychologie",
+   "year": 2015,
+   "type": "article",
+   "abstract": "The social sciences have been reticent to integrate a biodemographic approach to the study of fertility choice and behaviour, resulting in theories and findings that are largely socially-deterministic. The aim of this paper is to first reflect on reasons for this lack of integration, provide a review of previous examinations, take stock of what we have learned until now and propose future research frontiers. We review the early foundations of proximate determinants followed by behavioural genetic (family and twin) studies that isolated the extent of genetic influence on fertility traits. We then discuss research that considers gene and environment interaction and the importance of cohort and country-specific estimates, followed by multivariate models that explore motivational precursors to fertility and education. The next section on molecular genetics reviews fertility-related candidate"
+  },
+  {
+   "ref": "R087",
+   "title": "Changes in winter wheat (Triticum aestivum L.) phenotype in response to breeding for yield and in-furrow fertilizer",
+   "venue": "K-State Research Exchange (Kansas State University)",
+   "year": 2019,
+   "type": "dissertation",
+   "abstract": "The grain yield of winter wheat (Triticum aestivum L.) increased over time through plant breeding, and preliminary research suggested that yield response to fertilizer differs in modern versus historical genotypes. However, this response is not universal. We hypothesize selection for yield may have unintentionally modified the dynamics of nutrient uptake and partitioning in the plant. Thus, our objectives were to identify the key shifts in crop phenotype, in above-ground biomass and in dynamics of nutrient uptake and partitioning during vegetative and reproductive phases in response to selection for yield and to in-furrow fertilizer. Field experiments were conducted in four Kansas environments in a factorial trial combining eight winter wheat varieties released between 1920 and 2016, and two fertilizer practices (control versus 112 kg ha\u207b\u00b9 in-furrow 12-40-0-10-1). Grain yield and grain N"
+  },
+  {
+   "ref": "R088",
+   "title": "MELANIN-BASED COLORATION IS A NONDIRECTIONALLY SELECTED SEX-SPECIFIC SIGNAL OF OFFSPRING DEVELOPMENT IN THE ALPINE SWIFT",
+   "venue": "Evolution",
+   "year": 2006,
+   "type": "article",
+   "abstract": "Abstract Two mutually exclusive hypotheses have been put forward to explain the evolution and adaptive function of melanin-based color traits. According to sexual selection theory melanism is a directionally selected signal of individual quality, whereas theory on the maintenance of genetic polymorphism proposes that alternative melanin-based variants achieve equal fitness. Alpine swift (Apus melba) males and females have a conspicuous patch of white feathers on the breast with their rachis varying continuously from white to black, and hence the breast varies from white to striated. If this trait is a sexually selected signal of quality, its expression should be condition dependent and the degree of melanism directionally selected. If variation in melanism is a polymorphism, its expression should be genetically determined and fitness of melanin-based variants equal. We experimentally tes"
+  },
+  {
+   "ref": "R089",
+   "title": "Differences in the Frequency and Fecundity of PGI-Marked Genotypes in a Natural Population of Daphnia magna Straus (Crustacea: Cladocera)",
+   "venue": "Functional Ecology",
+   "year": 1988,
+   "type": "article",
+   "abstract": "G. R. Carvalho, Differences in the Frequency and Fecundity of PGI-Marked Genotypes in a Natural Population of Daphnia magna Straus (Crustacea: Cladocera), Functional Ecology, Vol. 2, No. 4 (1988), pp. 453-462"
+  },
+  {
+   "ref": "R090",
+   "title": "Integrated multi-omics reveals coordinated Staphylococcus aureus metabolic, iron transport, and stress responses to human serum",
+   "venue": "mSystems",
+   "year": 2026,
+   "type": "article",
+   "abstract": "ABSTRACT Bloodstream infections caused by Staphylococcus aureus remain a leading cause of mortality worldwide. Our understanding of S. aureus survival and persistence in human serum, a cell-free fraction of blood hostile for bacteria, is still limited. Here, we applied multivariate data integration methods and network analysis to a multi-omic data set generated from five clinically prevalent S. aureus genotypes exposed to human serum. We observed, and then confirmed using isogenic mutants the significant roles of gapdhB , sucA , sirA , sstD , and perR in bacterial survival in serum. These data show that metabolic versatility in carbon source usage, iron transport, and resistance to oxidative stress is interlinked and central to S. aureus fitness in serum, representing potential S. aureus vulnerabilities that could be exploited therapeutically. IMPORTANCE Bloodstream infections caused by "
+  },
+  {
+   "ref": "R091",
+   "title": "Hamilton\u2019s Rule",
+   "venue": null,
+   "year": 2024,
+   "type": "reference-entry",
+   "abstract": null
+  },
+  {
+   "ref": "R092",
+   "title": "Using genetic markers to investigate natural selection in fungal populations",
+   "venue": "Canadian Journal of Botany",
+   "year": 1995,
+   "type": "article",
+   "abstract": "Naturally occurring genetic markers can be exploited in a number of ways to measure natural selection in fungal populations. The potentials and pitfalls of these approaches are outlined. A review of existing experiments that have used genetic markers to estimate selection coefficients (s) in experimental and natural fungal populations indicates that differences in fitness between clones, populations, and subspecies may be substantial (mean s = 0.322), and that significant changes in the intensity and direction of selection may occur when environmental conditions alter. A reciprocal transplant experiment is described in which the relative selective values of three genetically marked populations of the canker pathogen Crumenulopsis sororia were compared under natural conditions. Large differences in selective value were found both among populations and within sites, but there was no eviden"
+  },
+  {
+   "ref": "R093",
+   "title": "Larger genomes show improved buffering of adult fitness against environmental stress in seed beetles",
+   "venue": "Biology Letters",
+   "year": 2023,
+   "type": "article",
+   "abstract": "Our general understanding of the evolution of genome size (GS) is incomplete, and it has long been clear that GS does not reflect organismal complexity. Here, we assess the hypothesis that larger genomes may allow organisms to better cope with environmental variation. It is, for example, possible that genome expansion due to proliferation of transposable elements or gene duplications may affect the ability to regulate and fine-tune transcriptional profiles. We used 18 populations of the seed beetle Callosobruchus maculatus , which differ in GS by up to 4.5%, and exposed adults and juveniles to environmental stress in a series of experiments where stage-specific fitness was assayed. We found that populations with larger genomes were indeed better buffered against environmental stress for adult, but not for juvenile, fitness. The genetic correlation across populations between GS and canali"
+  },
+  {
+   "ref": "R094",
+   "title": "Gut Microbiota as a Trigger of Accelerated Directional Adaptive Evolution: Acquisition of Herbivory in the Context of Extracellular Vesicles, MicroRNAs and Inter-Kingdom Crosstalk",
+   "venue": "Frontiers in Microbiology",
+   "year": 2017,
+   "type": "article",
+   "abstract": "According to a traditional view, the specific diet in vertebrates is one of the key factors structuring the composition of the gut microbiota. In this interpretation, the microbiota assumes a subordinate position, where the larger host shapes, through evolution and its fitness, the taxonomical composition of the hosted microbiota. The present contribution shows how the evolution of herbivory, framed within the new concept of holobiont, the possibility of inter-kingdom crosstalk and its epigenetic effects, could pave the way to a completely reversed interpretation: instead of being passively shaped, the microbiota can mold and shape the general host body structure to increase its fitness. Central elements to consider in this context are the inter-kingdom crosstalk, the possibility of transporting RNAs through nanovesicles in feces from parents to offspring, and the activation of epigeneti"
+  },
+  {
+   "ref": "R095",
+   "title": "Growing Up Tamarin: Morphology, Reproduction, and Population Demography of Sympatric Free-ranging Saguinus fuscicollis and S. imperator",
+   "venue": "Open Scholarship Institutional Repository (Washington University in St. Louis)",
+   "year": 2013,
+   "type": "article",
+   "abstract": "The Callitrichidae are family of small New World primates with a suite of distinctive morphological and behavioral adaptations that set them apart from other primates. Of primary interest is their reproductive system that includes compulsive twinning: \u226580% of births) and cooperative care of offspring by individuals other than biological parents: termed alloparenting). Further, hematopoietic tissues in callitrichids display signals of both self and sibling DNA, due to an exchange of stem cells early in gestation that renders twin callitrichids as cellular mosaics of each other. This phenomenon is known as genetic chimerism, which increases genetic relatedness between individuals and is likely maintained by cooperative breeding systems. The Callitrichidae are thought to be phyletic dwarfs that exhibit habitual twinning as a derived feature, and accompanied by their tolerance for genetic ch"
+  },
+  {
+   "ref": "R096",
+   "title": "Faculty Opinions recommendation of Evolution of evolvability in gene regulatory networks.",
+   "venue": "Faculty Opinions \u2013 Post-Publication Peer Review of the Biomedical Literature",
+   "year": 2008,
+   "type": "peer-review",
+   "abstract": "Gene regulatory networks are perhaps the most important organizational level in the cell where signals from the cell state and the outside environment are integrated in terms of activation and inhibition of genes. For the last decade, the study of such networks has been fueled by large-scale experiments and renewed attention from the theoretical field. Different models have been proposed to, for instance, investigate expression dynamics, explain the network topology we observe in bacteria and yeast, and for the analysis of evolvability and robustness of such networks. Yet how these gene regulatory networks evolve and become evolvable remains an open question. An individual-oriented evolutionary model is used to shed light on this matter. Each individual has a genome from which its gene regulatory network is derived. Mutations, such as gene duplications and deletions, alter the genome, wh"
+  },
+  {
+   "ref": "R097",
+   "title": "Encouraging Behavioral Diversity in Evolutionary Robotics: An Empirical Study",
+   "venue": "Evolutionary Computation",
+   "year": 2011,
+   "type": "article",
+   "abstract": "Evolutionary robotics (ER) aims at automatically designing robots or controllers of robots without having to describe their inner workings. To reach this goal, ER researchers primarily employ phenotypes that can lead to an infinite number of robot behaviors and fitness functions that only reward the achievement of the task-and not how to achieve it. These choices make ER particularly prone to premature convergence. To tackle this problem, several papers recently proposed to explicitly encourage the diversity of the robot behaviors, rather than the diversity of the genotypes as in classic evolutionary optimization. Such an approach avoids the need to compute distances between structures and the pitfalls of the noninjectivity of the phenotype/behavior relation; however, it also introduces new questions: how to compare behavior? should this comparison be task specific? and what is the best "
+  },
+  {
+   "ref": "R098",
+   "title": "Origin, age and diversity of clones",
+   "venue": "Journal of Evolutionary Biology",
+   "year": 1999,
+   "type": "article",
+   "abstract": "The origin of sexual reproduction may well have been a unique evolutionary event, or series of events, but the maintenance of taxonomically widespread sex is not: it consists of many local skirmishes between sexual lineages and their asexual offshoots. Neither sexually reproducing populations nor asexual lineages are uniform in their characteristics. They vary in many ways that might influence the outcome of their evolutionary interaction, such as their ecological role, genome size and complexity, level of genetic variation, mutation rate and, for sexual populations, freedom of recombination. Although sexual reproduction predominates in animals and plants, and asexual lineages are typically short-lived and taxonomically isolated, these general patterns should not be allowed to obscure the true diversity. There are long-lived, widespread, genetically and even taxonomically diverse asexual"
+  },
+  {
+   "ref": "R099",
+   "title": "Maternal lineages best explain the associations of a semisocial marsupial",
+   "venue": "Behavioral Ecology",
+   "year": 2014,
+   "type": "article",
+   "abstract": "Kinship is a key factor that can influence the fitness benefits associated with social behaviors through the operation of kin selection. A species\u2019 patterns of dispersal, and resulting fine-scale spatial genetic structure, can mediate kin selection by altering both the capacity for kin cooperation and the intensity of kin competition. In this study, we used proximity logger collars and multilocus genotypes to investigate how genetic relatedness influences the associations of mountain brushtail possums ( Trichosurus cunninghami ) in the context of fine-scale spatial genetic structure. We found distinct differences between diurnal and nocturnal associations. Diurnal (den-sharing) associations occurred within a small subset of mainly male\u2013female dyads, whose members were socially pair-bonded. In contrast, nocturnal associations occurred between multiple individuals of both sexes. Spatial pr"
+  },
+  {
+   "ref": "R100",
+   "title": "Alteration of ER\u03b2 gene RsaI polymorphism may contribute to reduced fertilization rate and embryonic developmental competence",
+   "venue": "Asian Journal of Andrology",
+   "year": 2010,
+   "type": "article",
+   "abstract": "This paper aims to determine the possible role of estrogen receptor-\u03b2 (ER\u03b2) gene RsaI polymorphism on sperm fertility and early embryonic development in humans. Three groups of Chinese men were recruited: in vitro fertilization (IVF) group, including 374 couples who underwent conventional IVF; intracytoplasmic sperm injection (ICSI) group, including 294 couples who underwent an ICSI procedure using ejaculated sperm; and azoospermic group, consisting of 197 couples who underwent ICSI using either testis or epididymis sperm. RsaI polymorphism in the ER\u03b2 gene was detected by polymerase chain reaction (PCR)-restriction fragment length polymorphism technique; fertilization and high-quality embryo rates were evaluated for each group. In each group, no significant differences were found in the overall rates of fertilization and high-quality embryos among GG, AG and AA genotypes. However, the pr"
+  },
+  {
+   "ref": "R101",
+   "title": "The interactive effects of genetics and cardiorespiratory fitness level on cognitive performance in healthy older adults",
+   "venue": "Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign)",
+   "year": 2016,
+   "type": "dissertation",
+   "abstract": "This study was conducted as an exploratory analysis of the potential interaction between genetics and cardiorespiratory fitness level on cognition in healthy older adults. The main questions were 1) can genetic status moderate the effect of cardiorespiratory fitness level on cognition and 2) can cardiorespiratory fitness level influence the effect of genetic status on cognition. \\n \\nA cross-sectional sample of healthy older adults were recruited for a longitudinal randomized controlled exercise intervention. Participants were admitted into the study based on their sedentary lifestyle and this analysis was conducted on data collected at the outset of the intervention. \\n \\nDopamine-related genes were chosen based on dopamine's influence on cognition and its sensititvy to aging. The Catechol-O-Methyltransferase (COMT) and Dopmaine Beta Hydroxylase (DBH) genes were chosen because their pro"
+  },
+  {
+   "ref": "R102",
+   "title": "Enterovirus D68 infection in children with acute lower respiratory tract infection in China",
+   "venue": "Research Square",
+   "year": 2022,
+   "type": "preprint",
+   "abstract": "Abstract Background EV-D68 infection-related acute flaccid paralysis (AFP) has attracted much attention since the outbreak in the USA in 2014. Notably, EV\u2013D68 was detected in a child with acute flaccid paralysis for the first time in China in 2018. Methods Based on a multicentre study monitoring viral pathogens of acute lower respiratory tract infection (ALRTI) in children in China from May 2017 to December 2019, the infection of EV-D68 in children with ALRTI in China was analysed. Results In this study, 10 EV-D68 positive specimens were detected from 3,071 samples collected from patients with ALRTI. These 10 patients presented with mild diseases and no neurological symptoms and signs. The phylogenetic analysis of EV-D68 showed that all 10 EV-D68 sequences obtained in this study belonged to subclade B3 which circulates dominantly worldwide, and shared high identity with sequences of EV-D"
+  },
+  {
+   "ref": "R103",
+   "title": "Optimised agent-based modelling of action selection",
+   "venue": "Cambridge University Press eBooks",
+   "year": 2011,
+   "type": "book-chapter",
+   "abstract": "The problem of action selection has two components: what is selected? How is it selected? To understand what is selected, it is necessary to recognise that animals do not choose among behaviours per se; rather, behaviour reflects observed interactions among brains, bodies, and environments (embeddedness). To understand what guides selection, it is useful to take a normative, functional perspective that evaluates behaviour in terms of a fitness metric. This perspective can be especially useful for understanding apparently irrational action selection. Bringing together these issues therefore requires integrating function and mechanism in models of action selection. This chapter describes \u2018optimised agent-based modelling\u2019, a methodology that integrates functional and mechanistic perspectives in the context of embedded agent\u2013environment interactions. Using this methodology, I demonstrate tha"
+  },
+  {
+   "ref": "R104",
+   "title": "GWAS on birth year infant mortality rates provides evidence of recent natural selection",
+   "venue": "Proceedings of the National Academy of Sciences",
+   "year": 2022,
+   "type": "article",
+   "abstract": "Following more than a century of phenotypic measurement of natural selection processes, much recent work explores relationships between molecular genetic measurements and realized fitness in the next generation. We take an innovative approach to the study of contemporary selective pressure by examining which genetic variants are \u201csustained\u201d in populations as mortality exposure increases. Specifically, we deploy a so-called \u201cregional GWAS\u201d (genome-wide association study) that links the infant mortality rate (IMR) by place and year in the United Kingdom with common genetic variants among birth cohorts in the UK Biobank. These cohorts (born between 1936 and 1970) saw a decline in IMR from above 65 to under 20 deaths per 1,000 live births, with substantial subnational variations and spikes alongside wartime exposures. Our results show several genome-wide significant loci, including LCT and T"
+  },
+  {
+   "ref": "R105",
+   "title": "Fecundity differences between mating pairs for a single autosomal locus, sex differences in viability and nonoverlapping generations",
+   "venue": "Theoretical Population Biology",
+   "year": 1977,
+   "type": "article",
+   "abstract": null
+  },
+  {
+   "ref": "R106",
+   "title": "Competitive interference among rhizobia reduces benefits to hosts",
+   "venue": "Current Biology",
+   "year": 2023,
+   "type": "article",
+   "abstract": null
+  },
+  {
+   "ref": "R107",
+   "title": "Prediction of herbage dry matter intake for dairy cows grazing ryegrass-based pastures.",
+   "venue": "Proceedings of the New Zealand Society of Animal Production",
+   "year": 2010,
+   "type": "article",
+   "abstract": "A model that combines theoretical and empirical equations was developed to predict daily dry matter intake (DMI) for Holstein-Friesian (HF) cows grazing ryegrass-based swards and offered differing levels of concentrate supplementation. An upper limit to potential herbage dry matter (DM) intake at grazing was set, which is the lower of three limits set by either physical (rumen fill), metabolic (energy demand) or grazing restrictions. Potential herbage DMI at grazing and the herbage allowance were then used to predict herbage DMI, of cows fed only pasture, using an empirical algorithm. If supplements are fed, substitution rate was predicted to calculate actual herbage DMI. An independent dataset, with individual herbage DMI measurements (n = 1,147) of three strains of lactating HF cows, was used to validate the model. Data within strains were averaged for every month of lactation, allowin"
+  },
+  {
+   "ref": "R108",
+   "title": "ASSESSING REPRODUCTIVE TECHNOLOGY",
+   "venue": "International Journal of Technology Assessment in Health Care",
+   "year": 1999,
+   "type": "article",
+   "abstract": "The cultural and emotional importance of having and raising healthy children is undisputed. Cross-cultural solutions to problems resulting from involuntary childlessness have included such strategies as adoption, finding new partners, and dissolving marriages that do not produce offspring. While both males and female infertility may result from heritable factors, environmental exposures, and disease, it is usually the result of functional incapacity in youth and in old age. The high value attached to reproduction is not puzzling. Human reproduction is protected by strong basic instincts. Childlessness is seldom met with stoicism by those who wish to have children. The happiness that follows the successful birth of a wanted child must not be discounted. Traditional definitions of \u201cfamily\u201d imply \u201coffspring\u201d before the acknowledgment of other memberships."
+  },
+  {
+   "ref": "R109",
+   "title": "Genetic tagging is an effective way to monitor survival of released hatchery saugers: Conservation efforts in the Wind River, Wyoming",
+   "venue": "Environmental Practice",
+   "year": 2018,
+   "type": "article",
+   "abstract": "Released hatchery-origin fish must survive and reproduce for supplementation to recover collapsed native populations, yet monitoring fitness is challenging, because physical tags are not passed from parent to offspring. Parentage-based tagging (PBT) is a method in which all captive-bred parents are genotyped (i.e., given a molecular tag), and their wild-caught hatchery offspring are identified via genetic pedigree analysis. The sauger (Sander canadensis) is a highly migratory, freshwater percid (perch species), native to central and eastern North America. In the Wind River basin, Wyoming the species\u2019 abundance has declined considerably since 2002, and in 2013 stakeholders initiated a hatchery program to recover the population. We estimated the statistical sensitivity and accuracy of PBT using 17 microsatellites to identify hatchery-origin saugers captured in the wild. We completed in vit"
+  },
+  {
+   "ref": "R110",
+   "title": "Social animal models for quantifying plasticity, assortment, and selection on interacting phenotypes",
+   "venue": "Journal of Evolutionary Biology",
+   "year": 2021,
+   "type": "article",
+   "abstract": "Both assortment and plasticity can facilitate social evolution, as each may generate heritable associations between the phenotypes and fitness of individuals and their social partners. However, it currently remains difficult to empirically disentangle these distinct mechanisms in the wild, particularly for complex and environmentally responsive phenotypes subject to measurement error. To address this challenge, we extend the widely used animal model to facilitate unbiased estimation of plasticity, assortment and selection on social traits, for both phenotypic and quantitative genetic (QG) analysis. Our social animal models (SAMs) estimate key evolutionary parameters for the latent reaction norms underlying repeatable patterns of phenotypic interaction across social environments. As a consequence of this approach, SAMs avoid inferential biases caused by various forms of measurement error "
+  },
+  {
+   "ref": "R111",
+   "title": "Divergent Patterns of Selection on Crassulacean Acid Metabolism Photosynthesis in Contrasting Environments",
+   "venue": "International Journal of Plant Sciences",
+   "year": 2017,
+   "type": "article",
+   "abstract": "Premise of research. Crassulacean acid metabolism (CAM), a photosynthetic pathway that evolved in response to aridity, is beneficial for plant species in arid and semiarid environments, with positive effects on plant fitness. However, since it implies a higher metabolic cost compared with that for C3 plants, its expression under moist conditions, where it might be less necessary, could have fewer positive or even negative effects on plant fitness. Variations of the effects of CAM expression under different moisture regimes have never been addressed. Our objectives were to determine whether there are such variations and, if so, their possible ecological and evolutionary implications.Methodology. We measured CAM expression (as nocturnal acidification, \u2206H+) and moisture-related morphological leaf traits, estimating their impact on reproductive effort in two populations of Puya chilensis liv"
+  },
+  {
+   "ref": "R112",
+   "title": "Reduced MHC variation in a threatened tuatara species",
+   "venue": "Animal Conservation",
+   "year": 2008,
+   "type": "article",
+   "abstract": "Abstract The relationship between neutral and adaptive genetic diversity is important to understand in assessing the implications of a population bottleneck. Fitness\u2010related genes, such as those of the major histocompatibility complex (MHC), may be influenced by selection, and so retain diversity even when it is lost at neutral markers. We measured MHC class I variation in an archaic reptile species Sphenodon guntheri [North Brother Island (NBI) tuatara], which naturally occurs on one 4 ha island in Cook Strait, New Zealand, and has low levels of microsatellite diversity. MHC variation in S. guntheri was compared with microsatellite DNA variation, and with MHC variation in a large population of Sphenodon punctatus (Cook Strait tuatara) on Stephens Island. The NBI population shows significantly decreased levels of genetic diversity compared with the Stephens Island population. Only three "
+  },
+  {
+   "ref": "R113",
+   "title": "Genetic conflict between sexual signalling and juvenile survival in the three-spined stickleback",
+   "venue": "BMC Evolutionary Biology",
+   "year": 2016,
+   "type": "article",
+   "abstract": "BACKGROUND: Secondary sexual traits and mating preferences may evolve in part because the offspring of attractive males inherit attractiveness and other genetically correlated traits such as fecundity and viability. A problem regarding these indirect genetic mechanisms is how sufficient genetic variation in the traits subject to sexual selection is maintained within a population. Here we explored the additive genetic correlations between carotenoid-based male ornament colouration, female fecundity and juvenile survival rate in the three-spined stickleback (Gasterosteus aculeatus) to test the possibility that attractiveness genes reduce important fitness components in the bearers not expressing the sexual trait. RESULTS: Male sexual attractiveness (i.e., red nuptial colouration) as well as female fecundity and juvenile viability showed heritable variations in the three-spined stickleback."
+  },
+  {
+   "ref": "R114",
+   "title": "Mutation, Sexual Reproduction and Survival in Dynamic Environments",
+   "venue": "DROPS (Schloss Dagstuhl \u2013 Leibniz Center for Informatics)",
+   "year": 2015,
+   "type": "article",
+   "abstract": "A new approach to understanding evolution [Val09], namely viewing it through the lens of computation, has already started yielding new insights, e.g., natural selection under sexual reproduction can be interpreted as the Multiplicative Weight Update (MWU) Algorithm in coordination games played among genes [CLPV14]. Using this machinery, we study the role of mutation in changing environments in the presence of sexual reproduction. Following [WVA05], we model changing environments via a Markov chain, with the states representing environments, each with its own fitness matrix. In this setting, we show that in the absence of mutation, the population goes extinct, but in the presence of mutation, the population survives with positive probability. On the way to proving the above theorem, we need to establish some facts about dynamics in games. We provide the first, to our knowledge, polynomial"
+  },
+  {
+   "ref": "R115",
+   "title": "Natural and sexual selection in a monogamous historical human population",
+   "venue": "Proceedings of the National Academy of Sciences",
+   "year": 2012,
+   "type": "article",
+   "abstract": "Whether and how human populations exposed to the agricultural revolution are still affected by Darwinian selection remains controversial among social scientists, biologists, and the general public. Although methods of studying selection in natural populations are well established, our understanding of selection in humans has been limited by the availability of suitable datasets. Here, we present a study comparing the maximum strengths of natural and sexual selection in humans that includes the effects of sex and wealth on different episodes of selection. Our dataset was compiled from church records of preindustrial Finnish populations characterized by socially imposed monogamy, and it contains a complete distribution of survival, mating, and reproductive success for 5,923 individuals born 1760-1849. Individual differences in early survival and fertility (natural selection) were responsib"
+  },
+  {
+   "ref": "R116",
+   "title": "RELATIONSHIP BETWEEN FITNESS LEVEL AND BONE MINERAL DENSITY ACCORDING TO THE VITAMIN D RECEPTOR GENE IN PREMENOPAUSAL WOMEN 879",
+   "venue": "Medicine & Science in Sports & Exercise",
+   "year": 1996,
+   "type": "conference-abstract",
+   "abstract": "In 1994, Morrisson found that bone mineral density (BMD) was influenced by the genotype of the vitamin D receptor (VDR). Since, several studies have confirmed or informed these results. Our preliminary results show no association between BMD and VDR for premenopausal and postmenopausal french canadian women. The purpose of this study was to investigate the response of BMD to fitness level according to the VDR genotype among premenopausal women. 81 women were evaluated for BMD at the lumbar spine (L2L4) and femoral neck(FN) by dual photon absorptiometry (DPA). Fitness was classified according to the level of VO2max; less fit women (LF) had a VO2max below 32 mlO2/kg/min and moderate to high fit women (MHF) had a VO2max greater than 32 mlO2/kg/min. Between these two groups, a significant difference was observed in BMD at the lumbar spine only (p<0.02). No significant difference was found wh"
+  },
+  {
+   "ref": "R117",
+   "title": "Acceptable Loss: Fitness Consequences of Salinity-Induced Cell Death in a Halotolerant Microalga",
+   "venue": "The American Naturalist",
+   "year": 2023,
+   "type": "article",
+   "abstract": "Environmentally induced reductions in fitness components (survival, fecundity) are generally considered as passive, maladaptive responses to stress. However, there is also mounting evidence for active, programmed forms of environmentally induced cell death in unicellular organisms. While conceptual work has questioned how such programmed cell death (PCD) might be maintained by natural selection, few experimental studies have investigated how PCD influences genetic differences in longer-term fitness across environments. Here, we tracked the population dynamics of two closely related strains of the halotolerant microalga Dunaliella salina following transfers across salinities. We showed that after a salinity increase, only one of these strains displayed a massive population decline (\u221269% in 1 h), largely attenuated by exposure to a PCD inhibitor. However, this decline was followed by a rap"
+  },
+  {
+   "ref": "R118",
+   "title": "ABO phenotype protected reproduction as it is based on fucosylations.",
+   "venue": "Figshare",
+   "year": 2016,
+   "type": "dataset",
+   "abstract": "The molecular biological relationship between human fertility and ABO(H) blood group phenotype formation becomes evident with the rare (Oh) or Bombay blood type, which, based on the history of his own family, Charles Darwin would have interpreted as resulting from reduced fertility in consanguinities. In its native form, the Bombay type occurs in individuals with an extremely rare genotype (h/h;se/se), by which the fucosyltransferases FUT1 and FUT2 are not produced due to point mutations. These enzymes, encoded on chromosome 19, are epistatically connected with the A and B allelic glycotransferase functions encoded on chromosome 9, while the fucosyl residues provide the functional-structural basis for the formation of any ABO(H) phenotype on the cell surface or in secretions and plasma proteins. Immunoglobulins are also heavily fucosylated, and via developmental variation in the position"
+  },
+  {
+   "ref": "R119",
+   "title": "Repeatability of adaptation in sunflowers: genomic regions harbouring inversions also drive adaptation in species lacking an inversion",
+   "venue": "eLife",
+   "year": 2023,
+   "type": "preprint",
+   "abstract": "Abstract Local adaptation commonly involves alleles of large effect, which experience fitness advantages when in positive linkage disequilibrium (LD). Because segregating inversions suppress recombination and facilitate the maintenance of LD between locally adapted loci, they are also commonly found to be associated with adaptive divergence. However, it is unclear what fraction of an adaptive response can be attributed to inversions and alleles of large effect, and whether the loci within an inversion could still drive adaptation in the absence of its recombination-suppressing effect. Here, we use genome-wide association studies to explore patterns of local adaptation in three species of sunflower: Helianthus annuus, H. argophyllus, and H. petiolaris, which each harbour a large number of species-specific inversions. We find evidence of significant genome-wide repeatability in signatures "
+  },
+  {
+   "ref": "R120",
+   "title": "Social Science Genetics and Fertility",
+   "venue": null,
+   "year": 2018,
+   "type": "preprint",
+   "abstract": "To what extent do genes influence the age at which you have your first child and the total number of children that you have? Does the (social) environment change genetic effects on fertility? Do genes lead to spurious associations between life outcomes such as education and age at first birth? The social sciences have been reticent to integrate a genetic approach to the study of fertility choice and behaviour, resulting in theories and findings that are largely socially deterministic. This dissertation investigates genetic and environmental influences on human fertility\u2014aswell as their interplay\u2014using both twin data as well as molecular genetic data of more than 31,000 genotyped individuals from 6 countries."
+  },
+  {
+   "ref": "R121",
+   "title": "Disruptive selection on plumage coloration across genetically determined morphs",
+   "venue": "Animal Behaviour",
+   "year": 2017,
+   "type": "article",
+   "abstract": null
+  },
+  {
+   "ref": "R122",
+   "title": "Density\u2010Dependent Growth and Life History Evolution of Polycyclic Leaf Pathogens: A Continuous Time Growth Model",
+   "venue": "Journal of Phytopathology",
+   "year": 1997,
+   "type": "article",
+   "abstract": "Abstract A density\u2010dependent growth model of a polycyclic leaf pathogen is analysed. Viability and fecundity of the pathogen are regulated by the current population density. Spores are produced continuously from a sporulating infection until death of the infection, and consequently, all age classes of infections are present at a certain point in time. The leaf area of the host varies with time. Evolution of life history strategies are studied by letting different pathogen genotypes compete with each other. Evolution of life history strategies and evolution of impact of disease are discussed in relation to the ecology of the host\u2010pathogen system. The model is exemplified by Erysiphe graminis f. sp. hordei growing on Hordeum vulgare."
+  },
+  {
+   "ref": "R123",
+   "title": "Tat-exported peptidoglycan amidase-dependent cell division contributes to Salmonella Typhimurium fitness in the inflamed gut",
+   "venue": "PLoS Pathogens",
+   "year": 2018,
+   "type": "article",
+   "abstract": "Salmonella enterica serovar Typhimurium (S. Tm) is a cause of food poisoning accompanied with gut inflammation. Although mucosal inflammation is generally thought to be protective against bacterial infection, S. Tm exploits the inflammation to compete with commensal microbiota, thereby growing up to high densities in the gut lumen and colonizing the gut continuously at high levels. However, the molecular mechanisms underlying the beneficial effect of gut inflammation on S. Tm competitive growth are poorly understood. Notably, the twin-arginine translocation (Tat) system, which enables the transport of folded proteins outside bacterial cytoplasm, is well conserved among many bacterial pathogens, with Tat substrates including virulence factors and virulence-associated proteins. Here, we show that Tat and Tat-exported peptidoglycan amidase, AmiA- and AmiC-dependent cell division contributes"
+  },
+  {
+   "ref": "R124",
+   "title": "GENETIC VARIABILITY AND SELECTION CRITERIA IN RICE",
+   "venue": "Journal of Biological and Scientific Opinion",
+   "year": 2013,
+   "type": "article",
+   "abstract": "Genetic parameters, correlation and path analysis for 12 yield and quality traits were studied during rabi, 2009-10 in 21 genotypes of rice. High estimates of GCV were recorded for plant height, number of filled grains/panicle and grain yield/plant. Heritability in broad sense was high for all the characters except spikelet fertility. High heritability coupled with high genetic advance as per cent mean were recorded for number of productive tillers/plant, panicle density, number of filled grains/panicle, 1000-grain weight, grain yield/plant and kernel length. Grain yield/plant exhibited highly significant and positive correlation with days to 50 % flowering, plant height, productive tillers/plant, panicle length, panicle density and filled grains/panicle. Path coefficient studies indicated maximum direct positive effect of plant height, productive tillers, filled grains/panicle and kerne"
+  },
+  {
+   "ref": "R125",
+   "title": "Floral development in bolting garlic",
+   "venue": "Sexual Plant Reproduction",
+   "year": 2001,
+   "type": "article",
+   "abstract": null
+  },
+  {
+   "ref": "R126",
+   "title": "A Meta-Evolutionary Algorithm for Co-evolving Genotypes and Genotype / Phenotype Maps",
+   "venue": "Proceedings of the Genetic and Evolutionary Computation Conference Companion",
+   "year": 2024,
+   "type": "conference-paper",
+   "abstract": "Evolutionary computation (EC) is often used to automatically discover solutions to optimization problems. It is valued because it allows the programmer to intuitively design a search space to fit a task, and because it is a relatively open-ended search process that favors diversity and unanticipated solutions that might be missed with gradient-based methods. Traditionally, the programmer decides on a fixed search strategy a priori, often by designing a specialized mapping from genotype to phenotype (GP map). Unfortunately, this can introduce bias and undermine the open-endedness of EC. Evolved GP maps can mitigate these concerns by automatically discovering efficient search spaces that improve evolvability. However, most research into evolved GP maps emphasizes convergence rate to a fit solution, or rate of recovery after a change in conditions. Here, we frame EC as a search over search "
+  },
+  {
+   "ref": "R127",
+   "title": "BMR UNDER THE SPOTLIGHT",
+   "venue": "Journal of Experimental Biology",
+   "year": 2007,
+   "type": "article",
+   "abstract": "Basal Metabolic Rate (BMR) is the lowest amount of energy used by a resting, fasting individual who is not consuming any energy to warm up or cool down, and is one of the most studied aspects of animal physiology. However,scientists haven't yet answered all the questions associated with BMR, as a recent publication by Greg Russell and Mark Chappell from the University of California, Riverside, tells us. They tested a common assumption that BMR is consistent over an animal's lifetime in the deer mouse Peromyscus maniculatus, and found some unexpected results.For decades, physiologists have extensively measured the BMR of many warm-blooded animals and linked their findings to an animal's fitness. By doing this, scientists are assuming that offspring inherit their BMR from their parents, meaning that BMR should be consistent over an animal's lifetime, but will change between generations in "
+  },
+  {
+   "ref": "R128",
+   "title": "Risk of Preterm Delivery in Very Advanced Maternal Age Parturients Utilizing In Vitro Fertilization",
+   "venue": "American Journal of Perinatology",
+   "year": 2023,
+   "type": "article",
+   "abstract": "OBJECTIVE: Among patients \u226545 years, the birth rate in the United States continues to increase. As fertility declines with age, this cohort often utilizes assisted reproductive technology, specifically in vitro fertilization (IVF). While both advancing maternal age and IVF are independently associated with adverse maternal outcomes, data regarding their additive effect are scant. This article aims to determine if patients who conceive via IVF are at increased risk for preterm birth (PTB) compared to patients with non-IVF pregnancies in a very advanced maternal age (vAMA) cohort (\u226545 years). STUDY DESIGN: Retrospective cohort study of all pregnant patients \u226545 years old who delivered at a single institution (2014-2021). Those with incomplete delivery/neonatal records or multiples beyond twins were excluded. We compared individuals who conceived via IVF to those who conceived without IVF. "
+  },
+  {
+   "ref": "R129",
+   "title": "Individual fitness versus whole\u2010crop photosynthesis:solar tracking tradeoffs in alfalfa",
+   "venue": "Evolutionary Applications",
+   "year": 2010,
+   "type": "article",
+   "abstract": "Despite the optimism of some molecular biologists, natural selection among the wild ancestors of crops is unlikely to have missed simple genetic improvements that would consistently have enhanced individual fitness. Tradeoff-free opportunities for further improvement of crop traits like photosynthetic efficiency or drought tolerance may therefore be elusive. Opportunities linked to acceptable tradeoffs may be abundant, however. Tradeoffs between individual competitiveness and the collective productivity of plant communities (e.g. those linked to height) have been key to past increases in yield potential. Solar tracking by leaves could involve such tradeoffs, if photosynthetic benefits to tracking leaves are outweighed by increased shading of leaves lower in the canopy. This hypothesis was tested using rotation in the horizontal plane to disrupt solar tracking in alfalfa. In sparse canopi"
+  },
+  {
+   "ref": "R130",
+   "title": "Clinical impact and safety of routine assisted hatching: Evidence from a large real-world cohort",
+   "venue": "Reproductive BioMedicine Online",
+   "year": 2026,
+   "type": "article",
+   "abstract": null
+  },
+  {
+   "ref": "R131",
+   "title": "Variability in Components of Seed Production in Panicum coloratum L.1",
+   "venue": "Crop Science",
+   "year": 1969,
+   "type": "article",
+   "abstract": "Seed shattering is a critical problem in Panicum coloratum L. Detailed studies of seed production components failed to detect any significant differences in actual seed holding ability within a limited population. However, plants with the greatest number of seed in panicles 14 days after initial anthesis also tended to have the greatest number at [atervals up to 31 days after initial anthesis. Significant and heritable differences were obtained in the important seed production components of fertile fiorets per panicle, seed per panicle, and percent fertility. Thus, differences in seed production potential were discovered though not in seed retention after individual floret maturity. An advanced generation of selected plants produced 47% more seed than unselected plants and verified the increased seed production potential of plants selected for individual seed production components."
+  },
+  {
+   "ref": "R132",
+   "title": "Plant microbiome structure and benefits for sustainable agriculture",
+   "venue": "Current Plant Biology",
+   "year": 2021,
+   "type": "article",
+   "abstract": "Plants are colonized by a multitude of micro-organisms, collectively called \u201cmicrobiome,\u201d and which play essential roles in the niches they inhabit. The potential of the microbiome, combined with the need to produce food more sustainably, makes its study promising. Despite the growing recognition of the vast functional ability of the native microbiota as an intricate component of the plant fitness, our understanding of how microbial communities are structured, and the intrinsic and environmental factors that can modulate microbial network is partial understood. In this review, we explore how research has characterized the microbiota of different plant niches and the methodological approaches that they have used to access this. We consider the impact of the plant\u2019s genotype, interactions between microbial taxa, the influence of the agricultural practices, as well as the environmental cond"
+  },
+  {
+   "ref": "R133",
+   "title": "Paternal physical inactivity alters offspring sex ratio and is associated with heritable impairments in reproductive success in rats",
+   "venue": "DRYAD",
+   "year": 2026,
+   "type": "dataset",
+   "abstract": "Paternal lifestyle factors are increasingly recognized as determinants of offspring health, yet the effects of physical inactivity on reproduction remain unclear. Here, we demonstrated that paternal physical inactivity caused a bias in offspring sex ratio and reduced fertility across generations in rats. Male rats subjected to 8 weeks of restricted activity produced offspring with a female-biased sex ratio (female:male = 39:16; p = 0.011; odds ratio = 2.84) compared with controls (24:28). Sperm motility was markedly reduced in inactive fathers (p < 0.001 vs. control) but was fully restored by voluntary wheel running (p < 0.05 vs. inactive), indicating reversibility of this functional impairment. Cross-mating of first-filial-generation (F1) rats of inactive paternal origin revealed that females derived from inactive fathers exhibited lower pregnancy rates and smaller litter size, whereas "
+  },
+  {
+   "ref": "R134",
+   "title": "Null Mutation of the Transcription Factor Inhibitor of DNA Binding 3 (Id3) in Male Mice Adversely Impacts on Fertility and Reproductive Outcome",
+   "venue": "Journal of Andrology",
+   "year": 2012,
+   "type": "article",
+   "abstract": "Inhibitor of DNA binding 3 (ID3) protein binds to and inhibits the function of basic helix-loop-helix transcription factors. The expression of ID3 protein in postproliferative Sertoli cells in the testis, as well as its unique, highly region-specific expression profile along the adult epididymis, implies novel functional roles for this regulator of transcription. The purpose of this study was to determine the effect of Id3 deficiency on male fertility and progeny outcome. We observed that fertility status of Id3(-/-) males is adversely affected. Males having this null mutation did not sire any litters when crossed with wild-type C57Bl/6 females; although pregnancies were induced in these females, these never resulted in the birth of live pups. Additionally, abnormal reproductive outcomes and developmental phenotypes were observed in gestational day 18 fetuses resulting from crosses with "
+  },
+  {
+   "ref": "R135",
+   "title": "Long-term population studies uncover the genome structure and genetic basis of xenobiotic and host plant adaptation in the herbivore Tetranychus urticae",
+   "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+   "year": 2018,
+   "type": "preprint",
+   "abstract": "ABSTRACT Pesticide resistance arises rapidly in arthropod herbivores, as can host plant adaptation, and both are significant problems in agriculture. These traits have been challenging to study as both are often polygenic and many arthropods are genetically intractable. Here, we examined the genetic architecture of pesticide resistance and host plant adaptation in the two-spotted spider mite, Tetranychus urticae, a global agricultural pest. We show that the short generation time and high fecundity of T. urticae can be readily exploited in experimental evolution designs for high-resolution mapping of quantitative traits. As revealed by selection with spirodiclofen, an acetyl-CoA decarboxylase inhibitor, in populations from a cross between a spirodiclofen resistant and a susceptible strain, and which also differed in performance on tomato, we found that a limited number of loci could expla"
+  },
+  {
+   "ref": "R136",
+   "title": "Fertility and the Puzzle of Female Employment in the Middle East",
+   "venue": "SSRN Electronic Journal",
+   "year": 2018,
+   "type": "preprint",
+   "abstract": "Female labor force participation rates across the Middle East and North Africa (MENA) region have remained low for over four decades, despite the fact that in the same period, women's education rapidly increased and fertility rates substantially decreased. This surprising phenomenon has remained a puzzle. This study tries to provide a better understanding of this puzzle by testing whether there is a causal impact of the number of children on mother's labor supply. It uses twins at first birth as an instrumental variable to estimate the causal impact of fertility on participation of mothers in the labor market, free of bias. It finds that having more children does not reduce women's employment. The paper discusses the implications of this interesting result in understanding the puzzle of female participation in MENA and in designing policies to increase women's work."
+  },
+  {
+   "ref": "R137",
+   "title": "Bone Marrow Transplantation Generates Immature Oocytes and Rescues Long-Term Fertility in a Preclinical Mouse Model of Chemotherapy-Induced Premature Ovarian Failure",
+   "venue": "Journal of Clinical Oncology",
+   "year": 2007,
+   "type": "article",
+   "abstract": "PURPOSE: Although early menopause frequently occurs in female cancer patients after chemotherapy (CTx), bone marrow (BM) transplantation (BMT) has been linked to an unexplained return of ovarian function and fertility in some survivors. Studies modeling this in mice have shown that BMT generates donor-derived oocytes in CTx-treated recipients. However, a subsequent report claimed that ovulated eggs are not derived from BM and that BM-derived oocytes reported previously are misidentified immune cells. This study was conducted to further clarify the impact of BMT on female reproductive function after CTx using a preclinical mouse model. METHODS: Female mice were administered CTx followed by BMT using coat color-mismatched female donors. After housing with males, the number of pregnancies and offspring genotype were recorded. For cell tracking, BM from germline-specific green fluorescent pr"
+  },
+  {
+   "ref": "R138",
+   "title": "Long-Term Population Studies Uncover the Genome Structure and Genetic Basis of Xenobiotic and Host Plant Adaptation in the Herbivore Tetranychus urticae",
+   "venue": "Genetics",
+   "year": 2019,
+   "type": "article",
+   "abstract": "Abstract Pesticide resistance arises rapidly in arthropod herbivores, as can host plant adaptation, and both are significant problems in agriculture. These traits have been challenging to study as both are often polygenic and many arthropods are genetically intractable. Here, we examined the genetic architecture of pesticide resistance and host plant adaptation in the two-spotted spider mite, Tetranychus urticae, a global agricultural pest. We show that the short generation time and high fecundity of T. urticae can be readily exploited in experimental evolution designs for high-resolution mapping of quantitative traits. As revealed by selection with spirodiclofen, an acetyl-CoA carboxylase inhibitor, in populations from a cross between a spirodiclofen-resistant and a spirodiclofen-susceptible strain, and which also differed in performance on tomato, we found that a limited number of loci"
+  },
+  {
+   "ref": "R139",
+   "title": "Integrative Genomics Reveals the Genetics and Evolution of the Honey Bee\u2019s Social Immune System",
+   "venue": "Genome Biology and Evolution",
+   "year": 2019,
+   "type": "article",
+   "abstract": "Social organisms combat pathogens through individual innate immune responses or through social immunity-behaviors among individuals that limit pathogen transmission within groups. Although we have a relatively detailed understanding of the genetics and evolution of the innate immune system of animals, we know little about social immunity. Addressing this knowledge gap is crucial for understanding how life-history traits influence immunity, and identifying if trade-offs exist between innate and social immunity. Hygienic behavior in the Western honey bee, Apis mellifera, provides an excellent model for investigating the genetics and evolution of social immunity in animals. This heritable, colony-level behavior is performed by nurse bees when they detect and remove infected or dead brood from the colony. We sequenced 125 haploid genomes from two artificially selected highly hygienic populat"
+  },
+  {
+   "ref": "R140",
+   "title": "Comments on Morgan and King (2001): Three Reasons Why Demographers Should Pay Attention to Evolutionary Theories and Behaviour Genetics in the Analysis of Contemporary Fertility",
+   "venue": "European Journal of Population / Revue europ\u00e9enne de D\u00e9mographie",
+   "year": 2001,
+   "type": "article",
+   "abstract": null
+  },
+  {
+   "ref": "R141",
+   "title": "Exploring the Lifetime Effect of Children on Wellbeing Using Two-Sample Mendelian Randomisation",
+   "venue": "Genes",
+   "year": 2023,
+   "type": "article",
+   "abstract": "BACKGROUND: Observational research implies a negative effect of having children on wellbeing. OBJECTIVES: To provide Mendelian randomisation evidence of the effect of having children on parental wellbeing. DESIGN: Two-sample Mendelian randomisation. SETTING: Non-clinical European ancestry participants. PARTICIPANTS: We used the UK Biobank (460,654 male and female European ancestry participants) as a source of genotype-exposure associations, the Social Science Genetics Consortia (SSGAC) (298,420 male and female European ancestry participants), and the Within-Family Consortia (effective sample of 22,656 male and female European ancestry participants) as sources of genotype-outcome associations. INTERVENTIONS: The lifetime effect of an increase in the genetic liability to having children. PRIMARY AND SECONDARY OUTCOME MEASURES: The primary analysis was an inverse variance weighed analysis o"
+  },
+  {
+   "ref": "R142",
+   "title": "INFLUENCE OF GENE POLYMORPHISM OF ????3-ADRENERGIC RECEPTOR ON WEIGHT LOSS",
+   "venue": "Medicine & Science in Sports & Exercise",
+   "year": 2002,
+   "type": "article",
+   "abstract": "Obesity is determined by multiple genetic and environmental factors, both in human and animal species. The importance of genetic background has been repeatedly evidenced by familial correlation studies. However studies relating genetic mutations and different traits associated with human obesity have developed only recently; and relatively few genes have been definitively studied. Furthermore, it is unclear whether gene mutation (Trp64Arg) of the \u03b23-adrenergic receptor\u00fci\u03b23-AR\u00fcjis associated with response to weight loss. PURPOSE: We investigated whether the gene polymorphism of the \u03b23-AR affects clinical characteristics and physical fitness by a 3-month weight-loss program in overweight middle-aged women. METHODS: All subjects (mean \u00b1 SD, 49.7 \u00b1 7.4 years; weight 64.9 \u00b1 8.2 kg; body mass index 26.9 \u00b1 3.2 kg/m2) were treated with low-calorie diet alone\u00fci1000\u223c1200 kcal/d, n = 42\u00fcjor combine"
+  },
+  {
+   "ref": "R143",
+   "title": "Heritable epigenetic variation facilitates long-term maintenance of epigenetic and genetic variation",
+   "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+   "year": 2022,
+   "type": "preprint",
+   "abstract": "ABSTRACT The maintenance of genetic and phenotypic variation has long been one of the fundamental questions in population and quantitative genetics. A variety of factors have been implicated to explain the maintenance of genetic variation in some contexts ( e.g . balancing selection), but the potential role of epigenetic regulation to influence population dynamics has been understudied. It is well recognized that epigenetic regulation, including histone methylation, small RNA expression, and DNA methylation, helps to define differences between cell types and facilitate phenotypic plasticity. In recent years, empirical studies have shown the potential for epigenetic regulation to also be heritable for at least a few generations without selection, raising the possibility that differences in epigenetic regulation can act alongside genetic variation to shape evolutionary trajectories. Like g"
+  },
+  {
+   "ref": "R144",
+   "title": "An analysis of the ABO blood group clines in Europe",
+   "venue": "American Journal of Physical Anthropology",
+   "year": 1969,
+   "type": "article",
+   "abstract": "Abstract With estimates of the fitnesses of the genotypes and selection by incompatibility for the ABO locus which seem reasonable given the state of knowledge, a computer model has been developed to replicate the clines of the A and B genes in Europe. With a fitness change in the BB and BO genotypes of as little as 0.5%, the differences in the frequencies in East and West Europe can be maintained at equilibrium. Appreciable changes in the amount of migration does not affect the equilibrium frequencies in the two areas significantly, while with no selection through incompatibility the equilibrium frequencies were changed about 5%."
+  },
+  {
+   "ref": "R145",
+   "title": "Supplementary material from \"Fitness effects of local seasonal adaptation depend on the timing of reproduction in a range-expanding butterfly\"",
+   "venue": "Figshare",
+   "year": 2026,
+   "type": "supplementary-materials",
+   "abstract": "Local seasonal adaptation across latitudes is ubiquitous, but its fitness consequences are rarely estimated in the field. Using a common-garden field experiment at the northern range margin of the butterfly Lasiommata megera, we show that fitness consequences of among-population genetic differences in photoperiodism for diapause (dormancy) timing depend on when during the adult flight period eggs are laid. Among the earliest individuals, those from southern populations were more likely to avert diapause than locally adapted northern range margin populations, and natural selection acted strongly against this non-diapause development. However, for all populations, virtually all eggs laid only one week later resulted in larvae that entered diapause, limiting overall among-population phenotypic differences in diapause induction. This demonstrates how evolved genetic differences for a reactio"
+  },
+  {
+   "ref": "R146",
+   "title": "Parental Age Effects and the Evolution of Senescence",
+   "venue": "The American Naturalist",
+   "year": 2020,
+   "type": "article",
+   "abstract": "Most theory on the evolution of senescence implicitly assumes that all offspring are of equal quality. However, in addition to age-related declines in survival and fecundity (classically defined senescence), many organisms exhibit age-related declines in offspring quality, a phenomenon known as a parental age effect. Theoretical work suggests that parental age effects may alter age trajectories of selection and therefore shape the evolution of senescence; however, to date, these analyses have been limited to idealized life cycles and models of maternal care in human populations. To gain a broader understanding of how parental age effects may shape age trajectories of selection, we extend the classic age-structured population projection model to also account for parental age structure and apply this model to empirical data from an aquatic plant known to exhibit parental age effects (the d"
+  },
+  {
+   "ref": "R147",
+   "title": "Sex pheromone signal and stability covary with fitness",
+   "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+   "year": 2021,
+   "type": "preprint",
+   "abstract": "ABSTRACT If sexual signals are costly to produce or maintain, covariance between signal expression and fitness is expected. This signal-fitness covariance is important evolutionarily, because it can contribute to the maintenance of genetic variation in signal traits, despite selection from mate preferences. Chemical signals, such as moth sex pheromones, have traditionally been assumed to be stereotypical species-recognition signals, but their relationship with fitness is unclear. Here we test the hypothesis that for chemical signals that are primarily used for conspecific mate finding, there is covariation between signal properties and fitness in the noctuid moth Heliothis subflexa . Additionally, as moth signals are synthesized de novo every night throughout the female\u2019s reproductive life, the maintenance of the signal can be costly. Therefore, we also hypothesized that fitness covaries"
+  },
+  {
+   "ref": "R148",
+   "title": "Genomic and transcriptomic predictors of response levels to endurance exercise training",
+   "venue": "The Journal of Physiology",
+   "year": 2016,
+   "type": "article",
+   "abstract": "Predicting the responsiveness to regular exercise is a topic of great relevance due to its potential role in personalized exercise medicine applications. The present review focuses on cardiorespiratory fitness (commonly measured by maximal oxygen uptake, V\u0307O2 max ), a trait with wide-ranging impact on health and performance indicators. Gains in V\u0307O2 max demonstrate large inter-individual variation even in response to standardized exercise training programmes. The estimated \u0394VO2 max heritability of 47% suggests that genomic-based predictors alone are insufficient to account for the total trainability variance. Candidate gene and genome-wide linkage studies have not significantly contributed to our understanding of the molecular basis of trainability. A genome-wide association study suggested that V\u0307O2 max trainability is influenced by multiple genes of small effects, but these findings st"
+  },
+  {
+   "ref": "R149",
+   "title": "Linking phenotype, genotype and environment to unravel genetic components underlying cold hardiness in coastal Douglas-fir (Pseudotsuga menziesii var. menziesii)",
+   "venue": "Tree Genetics & Genomes",
+   "year": 2018,
+   "type": "article",
+   "abstract": null
+  },
+  {
+   "ref": "R150",
+   "title": "Effects of Increased Access to Infertility Treatment on Infant and Child Health Outcomes: Evidence from Health Insurance Mandates",
+   "venue": "SSRN Electronic Journal",
+   "year": 2007,
+   "type": "preprint",
+   "abstract": null
+  },
+  {
+   "ref": "R151",
+   "title": "Fetal testing in twins",
+   "venue": "Current Opinion in Obstetrics & Gynecology",
+   "year": 1997,
+   "type": "article",
+   "abstract": "The incidence of twin pregnancies continues to rise with increasing use of assisted fertility techniques. The search for accurate methods of chorionicity determination and aneuploidy screening, and the outcome following multi-fetal pregnancy reduction dominate the recent literature. In addition, debate on the aetiology and management of the transfusional complications of monochorionicity continues."
+  },
+  {
+   "ref": "R152",
+   "title": "Introduction",
+   "venue": null,
+   "year": 2023,
+   "type": "other",
+   "abstract": "THE SYMCOTTS MANUSCRIPTS The Symcotts manuscripts comprise a case-book, a receipt book, medical notes, letters, wills and other documents relating to John Symcotts and his family, and now housed in three repositories. Dr. Symcotts was born about 1592 and died in 1662. He enjoyed an extensive\u2019 practice in Huntingdon and Bedfordshire, and was for years the medical attendant of Oliver Cromwell and of members of his family. The Symcotts papers provide material for reconstructing the life of a seventeenth century physician, and throw light on the state of medical practice in the provinces. Few similar records have survived, and so far as is known no comparable collection has been published. The Bedford Collection (DDX 125) Almost all these documents, belonging to Mr. Stephen Price of Twyning, and deposited at the County Record Office, Bedford, have been handed down through the families of Sym"
+  },
+  {
+   "ref": "R153",
+   "title": "Editorial Board",
+   "venue": "Regional Science and Urban Economics",
+   "year": 1977,
+   "type": "paratext",
+   "abstract": null
+  },
+  {
+   "ref": "R154",
+   "title": "PB2664: GENES POLYMORPHISM OF FOLATE PATHWAY ENZYMES IN WOMEN WITH RECURRENT PREGNANCY LOSS",
+   "venue": "HemaSphere",
+   "year": 2023,
+   "type": "article",
+   "abstract": "Topic: 34. Thrombosis and vascular biology - Biology & Translational Research Background: Currently, there is no unified understanding of the causes of reproductive disorders. Among their diversity, hyperhomocysteinemia is noted, which is considered as a biomarker of prothrombotic conditions and an unsuccessful pregnancy outcome due to the transformation of the main methyl group of human cell metabolism. Disruption of the functioning of DNA methylation processes in somatic and germ cells leads to the impossibility of conception or loss of pregnancy. Aims: To assess the frequency of genetic polymorphisms in folate cycle metabolic pathway (MTHFR: 677 C>T, MTHFR: 1298 A>C, MTR: 2756 A>G, MTRR: 66 A>G) in women with reproductive failures and without fertility disorders. Methods: Genetic polymorphisms of folate pathway enzymes in 96 women were analyzed, 33 of them - with recurrent pregnancy l"
+  },
+  {
+   "ref": "R155",
+   "title": "The Effects of Elevated Population Density on North American Red Squirrel (Tamiasciurus hudsonicus) Behavior",
+   "venue": "Deep Blue (University of Michigan)",
+   "year": 2019,
+   "type": "dissertation",
+   "abstract": "Urbanization is one of the most significant drivers of changes in wildlife population densities, as it often results in habitat fragmentation, degradation, and loss, decreasing the suitability of habitat for wildlife. Many species in urban areas experience higher population densities compared to undisturbed areas. My study is predicated on an experiment that elevated the population density of wild North American red squirrels (Tamiasciurus hudsonicus). The purpose of this study was to investigate the behavioral changes as a result of this increase in population density and whether any resulting behavioral changes are a result of natural selection, as opposed to behavioral plasticity. I leveraged a long-term behavioral database from the Kluane Red Squirrel Project to assess the differences in two behaviors (activity and aggression) recorded from squirrels in a standardized behavioral assa"
+  },
+  {
+   "ref": "R156",
+   "title": "Evaluation of genotype by environment interaction and adaptability in lowland irrigated rice hybrids for grain yield under high temperature",
+   "venue": "Scientific Reports",
+   "year": 2021,
+   "type": "article",
+   "abstract": "Recent predictions on climate change indicate that high temperature episodes are expected to impact rice production and productivity worldwide. The present investigation was undertaken to assess the yield stability of 72 rice hybrids and their parental lines across three temperature regimes over two consecutive dry seasons using the additive main effect and multiplicative interaction (AMMI), genotype and genotype \u00d7 environment interaction (GGE) stability model analysis. The combined ANOVA revealed that genotype \u00d7 environment interaction (GEI) were significant due to the linear component for most of the traits studied. The AMMI and GGE biplot explained 57.2% and 69% of the observed genotypic variation for grain yield, respectively. Spikelet fertility was the most affected yield contributing trait and in contrast, plant height and tiller numbers were the least affected traits. In case of s"
+  },
+  {
+   "ref": "R157",
+   "title": "Fitness Model for Gene Frequency in Populations",
+   "venue": "Wolfram Demonstrations Project",
+   "year": 2008,
+   "type": "dataset",
+   "abstract": "Imagine a single gene with two alleles A and a where the frequency of the A allele in the gene pool of an entire population is Assuming that this is a large and isolated population that there is random mating and that there are fixed fitness coefficients for each of the three possible genotypes AA Aa and aa through the generations one can predict the frequency of the A allele in the population af"
+  },
+  {
+   "ref": "R158",
+   "title": "Genotype \u2013 phenotype relationships in response to external stressors in clonal hematopoiesis and hematologic malignancies",
+   "venue": null,
+   "year": 2021,
+   "type": "dissertation",
+   "abstract": "This series of research papers explores the influence of various stressors on genotype \u2013 phenotype relationships in the context of premalignant and malignant hematologic conditions. Mutations translate into phenotypic changes and exposure to organism-intrinsic or organism-extrinsic stressors may reveal differences in clonal fitness with preferential expansion of clones harboring certain traits, as well as primary or secondary drug resistance. Investigation of the effects of pharmacological and other medical interventions on genotype and phenotype is of particular relevance, as this may have profound clinical consequences and therefore is part of the responsibility and due diligence we owe our patients. Using in-depth genetic and functional analysis of MCL cell lines, mouse models, and patient samples, we comprehensively characterized the genetic background of an important mechanism respo"
+  },
+  {
+   "ref": "R159",
+   "title": "Multilevel and sex-specific selection on competitive traits in North American red squirrels",
+   "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+   "year": 2017,
+   "type": "preprint",
+   "abstract": "Abstract Individuals often interact more closely with some members of the population (e.g. offspring, siblings or group members) than they do with other individuals. This structuring of interactions can lead to multilevel natural selection, where traits expressed at the group-level influence fitness alongside individual-level traits. Such multilevel selection can alter evolutionary trajectories, yet is rarely quantified in the wild, especially for species that do not interact in clearly demarcated groups. We quantified multilevel natural selection on two traits, postnatal growth rate and birth date, in a population of North American red squirrels ( Tamiasciurus hudsonicus ). The strongest level of selection was typically within-acoustic social neighbourhoods (within 130m of the nest), where growing faster and being born earlier than nearby litters was key, while selection on growth rate "
+  },
+  {
+   "ref": "R160",
+   "title": "Genetic Influences on Fertility Behavior: Findings From a Danish Twin Study, 1910\u20131923",
+   "venue": null,
+   "year": 2000,
+   "type": "book-chapter",
+   "abstract": null
+  },
+  {
+   "ref": "R161",
+   "title": "Unraveling the genetic tapestry of Indian chicken: A comprehensive study of molecular variations and diversity",
+   "venue": "Ecological Genetics and Genomics",
+   "year": 2024,
+   "type": "article",
+   "abstract": null
+  },
+  {
+   "ref": "R162",
+   "title": "Alternative life histories, mostly about males",
+   "venue": null,
+   "year": 1993,
+   "type": "book-chapter",
+   "abstract": "Abstract The problem of sex allocation, the evolution of male-to-female ratios, is the simplest and most universal example of alternative life histories\u2013simplest because the frequency-dependent natural selection is literally built into the problem through the fact that everyone has one mother and one father. This chapter looks at another class of alternative life histories which occur within a single sex\u2013usually, but not always, males. While the frequency dependence of fitness is not necessary to produce some of these alternatives, it will almost always be present. However, this will differ from sex allocation in that the frequency dependence is not automatic, not built in, and therefore will usually be generated by factors external to the genetic system, commonly the environment external to the individual organism. The aim of this chapter is to model the ESS for these other alternative "
+  }
+ ]
+}

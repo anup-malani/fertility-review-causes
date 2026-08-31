@@ -1,0 +1,1843 @@
+{
+ "meta": {
+  "ticket": "TICK-076",
+  "query": "(\"heritability\" OR \"twin study\" OR \"twins\" OR \"monozygotic\" OR \"dizygotic\" OR \"behavior genetic\" OR \"behaviour genetic\" OR \"adoption study\" OR \"polygenic score\" OR \"polygenic index\" OR \"genome-wide association\" OR \"SNP heritability\" OR \"genetic variance\" OR \"additive genetic\" OR \"within-sibship\" OR \"genotype\" OR \"natural selection\" OR \"selection differential\" OR \"selection gradient\" OR \"response to selection\" OR \"quantitative genetics\") AND (\"fertility\" OR \"children ever born\" OR \"completed fertility\" OR \"number of children\" OR \"family size\" OR \"age at first birth\" OR \"childlessness\" OR \"reproductive success\" OR \"reproductive output\" OR \"offspring number\" OR \"fecundity\" OR \"fitness\")",
+  "frame_size": 45491,
+  "pulled": 45568,
+  "pages": 228,
+  "cap": 46000,
+  "coverage_of_frame_pct": 100.2,
+  "no_abstract": 8398,
+  "no_abstract_pct": 18.4,
+  "anchors_in_pull": "21/25",
+  "pool_gold_in_pull": "55/63",
+  "gold_still_arriving_at_cap": false,
+  "verdict": "gold recall flat at the cap - saturation defensible"
+ },
+ "curve": [
+  {
+   "page": 1,
+   "records": 200,
+   "anchors_found": 6,
+   "anchor_recall_pct": 24.0,
+   "pool_gold_found": 10,
+   "pool_gold_recall_pct": 15.9
+  },
+  {
+   "page": 2,
+   "records": 400,
+   "anchors_found": 9,
+   "anchor_recall_pct": 36.0,
+   "pool_gold_found": 13,
+   "pool_gold_recall_pct": 20.6
+  },
+  {
+   "page": 3,
+   "records": 600,
+   "anchors_found": 11,
+   "anchor_recall_pct": 44.0,
+   "pool_gold_found": 15,
+   "pool_gold_recall_pct": 23.8
+  },
+  {
+   "page": 4,
+   "records": 800,
+   "anchors_found": 12,
+   "anchor_recall_pct": 48.0,
+   "pool_gold_found": 18,
+   "pool_gold_recall_pct": 28.6
+  },
+  {
+   "page": 5,
+   "records": 1000,
+   "anchors_found": 13,
+   "anchor_recall_pct": 52.0,
+   "pool_gold_found": 20,
+   "pool_gold_recall_pct": 31.7
+  },
+  {
+   "page": 6,
+   "records": 1200,
+   "anchors_found": 13,
+   "anchor_recall_pct": 52.0,
+   "pool_gold_found": 23,
+   "pool_gold_recall_pct": 36.5
+  },
+  {
+   "page": 7,
+   "records": 1400,
+   "anchors_found": 13,
+   "anchor_recall_pct": 52.0,
+   "pool_gold_found": 26,
+   "pool_gold_recall_pct": 41.3
+  },
+  {
+   "page": 8,
+   "records": 1600,
+   "anchors_found": 13,
+   "anchor_recall_pct": 52.0,
+   "pool_gold_found": 28,
+   "pool_gold_recall_pct": 44.4
+  },
+  {
+   "page": 9,
+   "records": 1800,
+   "anchors_found": 14,
+   "anchor_recall_pct": 56.0,
+   "pool_gold_found": 30,
+   "pool_gold_recall_pct": 47.6
+  },
+  {
+   "page": 10,
+   "records": 2000,
+   "anchors_found": 14,
+   "anchor_recall_pct": 56.0,
+   "pool_gold_found": 31,
+   "pool_gold_recall_pct": 49.2
+  },
+  {
+   "page": 11,
+   "records": 2200,
+   "anchors_found": 14,
+   "anchor_recall_pct": 56.0,
+   "pool_gold_found": 32,
+   "pool_gold_recall_pct": 50.8
+  },
+  {
+   "page": 12,
+   "records": 2400,
+   "anchors_found": 14,
+   "anchor_recall_pct": 56.0,
+   "pool_gold_found": 32,
+   "pool_gold_recall_pct": 50.8
+  },
+  {
+   "page": 13,
+   "records": 2600,
+   "anchors_found": 16,
+   "anchor_recall_pct": 64.0,
+   "pool_gold_found": 37,
+   "pool_gold_recall_pct": 58.7
+  },
+  {
+   "page": 14,
+   "records": 2800,
+   "anchors_found": 16,
+   "anchor_recall_pct": 64.0,
+   "pool_gold_found": 37,
+   "pool_gold_recall_pct": 58.7
+  },
+  {
+   "page": 15,
+   "records": 3000,
+   "anchors_found": 16,
+   "anchor_recall_pct": 64.0,
+   "pool_gold_found": 37,
+   "pool_gold_recall_pct": 58.7
+  },
+  {
+   "page": 16,
+   "records": 3200,
+   "anchors_found": 16,
+   "anchor_recall_pct": 64.0,
+   "pool_gold_found": 38,
+   "pool_gold_recall_pct": 60.3
+  },
+  {
+   "page": 17,
+   "records": 3400,
+   "anchors_found": 16,
+   "anchor_recall_pct": 64.0,
+   "pool_gold_found": 38,
+   "pool_gold_recall_pct": 60.3
+  },
+  {
+   "page": 18,
+   "records": 3600,
+   "anchors_found": 16,
+   "anchor_recall_pct": 64.0,
+   "pool_gold_found": 39,
+   "pool_gold_recall_pct": 61.9
+  },
+  {
+   "page": 19,
+   "records": 3800,
+   "anchors_found": 16,
+   "anchor_recall_pct": 64.0,
+   "pool_gold_found": 40,
+   "pool_gold_recall_pct": 63.5
+  },
+  {
+   "page": 20,
+   "records": 4000,
+   "anchors_found": 16,
+   "anchor_recall_pct": 64.0,
+   "pool_gold_found": 42,
+   "pool_gold_recall_pct": 66.7
+  },
+  {
+   "page": 21,
+   "records": 4200,
+   "anchors_found": 16,
+   "anchor_recall_pct": 64.0,
+   "pool_gold_found": 43,
+   "pool_gold_recall_pct": 68.3
+  },
+  {
+   "page": 22,
+   "records": 4400,
+   "anchors_found": 16,
+   "anchor_recall_pct": 64.0,
+   "pool_gold_found": 43,
+   "pool_gold_recall_pct": 68.3
+  },
+  {
+   "page": 23,
+   "records": 4600,
+   "anchors_found": 16,
+   "anchor_recall_pct": 64.0,
+   "pool_gold_found": 43,
+   "pool_gold_recall_pct": 68.3
+  },
+  {
+   "page": 24,
+   "records": 4800,
+   "anchors_found": 16,
+   "anchor_recall_pct": 64.0,
+   "pool_gold_found": 43,
+   "pool_gold_recall_pct": 68.3
+  },
+  {
+   "page": 25,
+   "records": 5000,
+   "anchors_found": 17,
+   "anchor_recall_pct": 68.0,
+   "pool_gold_found": 43,
+   "pool_gold_recall_pct": 68.3
+  },
+  {
+   "page": 26,
+   "records": 5200,
+   "anchors_found": 17,
+   "anchor_recall_pct": 68.0,
+   "pool_gold_found": 43,
+   "pool_gold_recall_pct": 68.3
+  },
+  {
+   "page": 27,
+   "records": 5400,
+   "anchors_found": 18,
+   "anchor_recall_pct": 72.0,
+   "pool_gold_found": 44,
+   "pool_gold_recall_pct": 69.8
+  },
+  {
+   "page": 28,
+   "records": 5600,
+   "anchors_found": 19,
+   "anchor_recall_pct": 76.0,
+   "pool_gold_found": 44,
+   "pool_gold_recall_pct": 69.8
+  },
+  {
+   "page": 29,
+   "records": 5800,
+   "anchors_found": 19,
+   "anchor_recall_pct": 76.0,
+   "pool_gold_found": 44,
+   "pool_gold_recall_pct": 69.8
+  },
+  {
+   "page": 30,
+   "records": 6000,
+   "anchors_found": 19,
+   "anchor_recall_pct": 76.0,
+   "pool_gold_found": 44,
+   "pool_gold_recall_pct": 69.8
+  },
+  {
+   "page": 31,
+   "records": 6200,
+   "anchors_found": 19,
+   "anchor_recall_pct": 76.0,
+   "pool_gold_found": 45,
+   "pool_gold_recall_pct": 71.4
+  },
+  {
+   "page": 32,
+   "records": 6400,
+   "anchors_found": 19,
+   "anchor_recall_pct": 76.0,
+   "pool_gold_found": 45,
+   "pool_gold_recall_pct": 71.4
+  },
+  {
+   "page": 33,
+   "records": 6600,
+   "anchors_found": 19,
+   "anchor_recall_pct": 76.0,
+   "pool_gold_found": 45,
+   "pool_gold_recall_pct": 71.4
+  },
+  {
+   "page": 34,
+   "records": 6800,
+   "anchors_found": 19,
+   "anchor_recall_pct": 76.0,
+   "pool_gold_found": 46,
+   "pool_gold_recall_pct": 73.0
+  },
+  {
+   "page": 35,
+   "records": 7000,
+   "anchors_found": 19,
+   "anchor_recall_pct": 76.0,
+   "pool_gold_found": 46,
+   "pool_gold_recall_pct": 73.0
+  },
+  {
+   "page": 36,
+   "records": 7200,
+   "anchors_found": 20,
+   "anchor_recall_pct": 80.0,
+   "pool_gold_found": 46,
+   "pool_gold_recall_pct": 73.0
+  },
+  {
+   "page": 37,
+   "records": 7400,
+   "anchors_found": 20,
+   "anchor_recall_pct": 80.0,
+   "pool_gold_found": 46,
+   "pool_gold_recall_pct": 73.0
+  },
+  {
+   "page": 38,
+   "records": 7600,
+   "anchors_found": 20,
+   "anchor_recall_pct": 80.0,
+   "pool_gold_found": 46,
+   "pool_gold_recall_pct": 73.0
+  },
+  {
+   "page": 39,
+   "records": 7800,
+   "anchors_found": 20,
+   "anchor_recall_pct": 80.0,
+   "pool_gold_found": 46,
+   "pool_gold_recall_pct": 73.0
+  },
+  {
+   "page": 40,
+   "records": 8000,
+   "anchors_found": 20,
+   "anchor_recall_pct": 80.0,
+   "pool_gold_found": 46,
+   "pool_gold_recall_pct": 73.0
+  },
+  {
+   "page": 41,
+   "records": 8200,
+   "anchors_found": 20,
+   "anchor_recall_pct": 80.0,
+   "pool_gold_found": 46,
+   "pool_gold_recall_pct": 73.0
+  },
+  {
+   "page": 42,
+   "records": 8400,
+   "anchors_found": 20,
+   "anchor_recall_pct": 80.0,
+   "pool_gold_found": 46,
+   "pool_gold_recall_pct": 73.0
+  },
+  {
+   "page": 43,
+   "records": 8600,
+   "anchors_found": 20,
+   "anchor_recall_pct": 80.0,
+   "pool_gold_found": 47,
+   "pool_gold_recall_pct": 74.6
+  },
+  {
+   "page": 44,
+   "records": 8800,
+   "anchors_found": 20,
+   "anchor_recall_pct": 80.0,
+   "pool_gold_found": 47,
+   "pool_gold_recall_pct": 74.6
+  },
+  {
+   "page": 45,
+   "records": 9000,
+   "anchors_found": 20,
+   "anchor_recall_pct": 80.0,
+   "pool_gold_found": 47,
+   "pool_gold_recall_pct": 74.6
+  },
+  {
+   "page": 46,
+   "records": 9200,
+   "anchors_found": 20,
+   "anchor_recall_pct": 80.0,
+   "pool_gold_found": 47,
+   "pool_gold_recall_pct": 74.6
+  },
+  {
+   "page": 47,
+   "records": 9400,
+   "anchors_found": 20,
+   "anchor_recall_pct": 80.0,
+   "pool_gold_found": 48,
+   "pool_gold_recall_pct": 76.2
+  },
+  {
+   "page": 48,
+   "records": 9600,
+   "anchors_found": 20,
+   "anchor_recall_pct": 80.0,
+   "pool_gold_found": 48,
+   "pool_gold_recall_pct": 76.2
+  },
+  {
+   "page": 49,
+   "records": 9800,
+   "anchors_found": 20,
+   "anchor_recall_pct": 80.0,
+   "pool_gold_found": 48,
+   "pool_gold_recall_pct": 76.2
+  },
+  {
+   "page": 50,
+   "records": 10000,
+   "anchors_found": 20,
+   "anchor_recall_pct": 80.0,
+   "pool_gold_found": 48,
+   "pool_gold_recall_pct": 76.2
+  },
+  {
+   "page": 51,
+   "records": 10200,
+   "anchors_found": 20,
+   "anchor_recall_pct": 80.0,
+   "pool_gold_found": 48,
+   "pool_gold_recall_pct": 76.2
+  },
+  {
+   "page": 52,
+   "records": 10400,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 48,
+   "pool_gold_recall_pct": 76.2
+  },
+  {
+   "page": 53,
+   "records": 10600,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 48,
+   "pool_gold_recall_pct": 76.2
+  },
+  {
+   "page": 54,
+   "records": 10800,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 49,
+   "pool_gold_recall_pct": 77.8
+  },
+  {
+   "page": 55,
+   "records": 11000,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 49,
+   "pool_gold_recall_pct": 77.8
+  },
+  {
+   "page": 56,
+   "records": 11200,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 49,
+   "pool_gold_recall_pct": 77.8
+  },
+  {
+   "page": 57,
+   "records": 11400,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 49,
+   "pool_gold_recall_pct": 77.8
+  },
+  {
+   "page": 58,
+   "records": 11600,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 49,
+   "pool_gold_recall_pct": 77.8
+  },
+  {
+   "page": 59,
+   "records": 11800,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 49,
+   "pool_gold_recall_pct": 77.8
+  },
+  {
+   "page": 60,
+   "records": 12000,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 49,
+   "pool_gold_recall_pct": 77.8
+  },
+  {
+   "page": 61,
+   "records": 12200,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 49,
+   "pool_gold_recall_pct": 77.8
+  },
+  {
+   "page": 62,
+   "records": 12400,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 49,
+   "pool_gold_recall_pct": 77.8
+  },
+  {
+   "page": 63,
+   "records": 12600,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 49,
+   "pool_gold_recall_pct": 77.8
+  },
+  {
+   "page": 64,
+   "records": 12800,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 50,
+   "pool_gold_recall_pct": 79.4
+  },
+  {
+   "page": 65,
+   "records": 13000,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 50,
+   "pool_gold_recall_pct": 79.4
+  },
+  {
+   "page": 66,
+   "records": 13200,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 50,
+   "pool_gold_recall_pct": 79.4
+  },
+  {
+   "page": 67,
+   "records": 13400,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 51,
+   "pool_gold_recall_pct": 81.0
+  },
+  {
+   "page": 68,
+   "records": 13600,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 51,
+   "pool_gold_recall_pct": 81.0
+  },
+  {
+   "page": 69,
+   "records": 13800,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 51,
+   "pool_gold_recall_pct": 81.0
+  },
+  {
+   "page": 70,
+   "records": 14000,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 51,
+   "pool_gold_recall_pct": 81.0
+  },
+  {
+   "page": 71,
+   "records": 14200,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 51,
+   "pool_gold_recall_pct": 81.0
+  },
+  {
+   "page": 72,
+   "records": 14400,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 51,
+   "pool_gold_recall_pct": 81.0
+  },
+  {
+   "page": 73,
+   "records": 14600,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 51,
+   "pool_gold_recall_pct": 81.0
+  },
+  {
+   "page": 74,
+   "records": 14800,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 51,
+   "pool_gold_recall_pct": 81.0
+  },
+  {
+   "page": 75,
+   "records": 15000,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 51,
+   "pool_gold_recall_pct": 81.0
+  },
+  {
+   "page": 76,
+   "records": 15200,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 51,
+   "pool_gold_recall_pct": 81.0
+  },
+  {
+   "page": 77,
+   "records": 15400,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 51,
+   "pool_gold_recall_pct": 81.0
+  },
+  {
+   "page": 78,
+   "records": 15600,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 51,
+   "pool_gold_recall_pct": 81.0
+  },
+  {
+   "page": 79,
+   "records": 15800,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 51,
+   "pool_gold_recall_pct": 81.0
+  },
+  {
+   "page": 80,
+   "records": 16000,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 51,
+   "pool_gold_recall_pct": 81.0
+  },
+  {
+   "page": 81,
+   "records": 16200,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 51,
+   "pool_gold_recall_pct": 81.0
+  },
+  {
+   "page": 82,
+   "records": 16400,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 51,
+   "pool_gold_recall_pct": 81.0
+  },
+  {
+   "page": 83,
+   "records": 16600,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 51,
+   "pool_gold_recall_pct": 81.0
+  },
+  {
+   "page": 84,
+   "records": 16800,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 51,
+   "pool_gold_recall_pct": 81.0
+  },
+  {
+   "page": 85,
+   "records": 17000,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 51,
+   "pool_gold_recall_pct": 81.0
+  },
+  {
+   "page": 86,
+   "records": 17200,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 51,
+   "pool_gold_recall_pct": 81.0
+  },
+  {
+   "page": 87,
+   "records": 17400,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 51,
+   "pool_gold_recall_pct": 81.0
+  },
+  {
+   "page": 88,
+   "records": 17600,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 51,
+   "pool_gold_recall_pct": 81.0
+  },
+  {
+   "page": 89,
+   "records": 17800,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 52,
+   "pool_gold_recall_pct": 82.5
+  },
+  {
+   "page": 90,
+   "records": 18000,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 52,
+   "pool_gold_recall_pct": 82.5
+  },
+  {
+   "page": 91,
+   "records": 18200,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 52,
+   "pool_gold_recall_pct": 82.5
+  },
+  {
+   "page": 92,
+   "records": 18400,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 52,
+   "pool_gold_recall_pct": 82.5
+  },
+  {
+   "page": 93,
+   "records": 18600,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 52,
+   "pool_gold_recall_pct": 82.5
+  },
+  {
+   "page": 94,
+   "records": 18800,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 52,
+   "pool_gold_recall_pct": 82.5
+  },
+  {
+   "page": 95,
+   "records": 19000,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 52,
+   "pool_gold_recall_pct": 82.5
+  },
+  {
+   "page": 96,
+   "records": 19200,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 52,
+   "pool_gold_recall_pct": 82.5
+  },
+  {
+   "page": 97,
+   "records": 19400,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 52,
+   "pool_gold_recall_pct": 82.5
+  },
+  {
+   "page": 98,
+   "records": 19600,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 52,
+   "pool_gold_recall_pct": 82.5
+  },
+  {
+   "page": 99,
+   "records": 19800,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 52,
+   "pool_gold_recall_pct": 82.5
+  },
+  {
+   "page": 100,
+   "records": 20000,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 52,
+   "pool_gold_recall_pct": 82.5
+  },
+  {
+   "page": 101,
+   "records": 20200,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 52,
+   "pool_gold_recall_pct": 82.5
+  },
+  {
+   "page": 102,
+   "records": 20400,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 52,
+   "pool_gold_recall_pct": 82.5
+  },
+  {
+   "page": 103,
+   "records": 20600,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 52,
+   "pool_gold_recall_pct": 82.5
+  },
+  {
+   "page": 104,
+   "records": 20800,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 52,
+   "pool_gold_recall_pct": 82.5
+  },
+  {
+   "page": 105,
+   "records": 21000,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 52,
+   "pool_gold_recall_pct": 82.5
+  },
+  {
+   "page": 106,
+   "records": 21200,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 52,
+   "pool_gold_recall_pct": 82.5
+  },
+  {
+   "page": 107,
+   "records": 21400,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 52,
+   "pool_gold_recall_pct": 82.5
+  },
+  {
+   "page": 108,
+   "records": 21600,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 52,
+   "pool_gold_recall_pct": 82.5
+  },
+  {
+   "page": 109,
+   "records": 21800,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 52,
+   "pool_gold_recall_pct": 82.5
+  },
+  {
+   "page": 110,
+   "records": 22000,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 52,
+   "pool_gold_recall_pct": 82.5
+  },
+  {
+   "page": 111,
+   "records": 22200,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 52,
+   "pool_gold_recall_pct": 82.5
+  },
+  {
+   "page": 112,
+   "records": 22400,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 52,
+   "pool_gold_recall_pct": 82.5
+  },
+  {
+   "page": 113,
+   "records": 22600,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 52,
+   "pool_gold_recall_pct": 82.5
+  },
+  {
+   "page": 114,
+   "records": 22800,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 53,
+   "pool_gold_recall_pct": 84.1
+  },
+  {
+   "page": 115,
+   "records": 23000,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 116,
+   "records": 23200,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 117,
+   "records": 23400,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 118,
+   "records": 23600,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 119,
+   "records": 23800,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 120,
+   "records": 24000,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 121,
+   "records": 24200,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 122,
+   "records": 24400,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 123,
+   "records": 24600,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 124,
+   "records": 24800,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 125,
+   "records": 25000,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 126,
+   "records": 25200,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 127,
+   "records": 25400,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 128,
+   "records": 25600,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 129,
+   "records": 25800,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 130,
+   "records": 26000,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 131,
+   "records": 26200,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 132,
+   "records": 26400,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 133,
+   "records": 26600,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 134,
+   "records": 26800,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 135,
+   "records": 27000,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 136,
+   "records": 27200,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 137,
+   "records": 27400,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 138,
+   "records": 27600,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 139,
+   "records": 27800,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 140,
+   "records": 28000,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 141,
+   "records": 28200,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 142,
+   "records": 28400,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 143,
+   "records": 28600,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 144,
+   "records": 28800,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 145,
+   "records": 29000,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 146,
+   "records": 29200,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 147,
+   "records": 29400,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 148,
+   "records": 29600,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 149,
+   "records": 29800,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 150,
+   "records": 30000,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 151,
+   "records": 30200,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 152,
+   "records": 30400,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 153,
+   "records": 30600,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 154,
+   "records": 30800,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 155,
+   "records": 31000,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 156,
+   "records": 31200,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 157,
+   "records": 31400,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 158,
+   "records": 31600,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 159,
+   "records": 31800,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 160,
+   "records": 32000,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 161,
+   "records": 32200,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 162,
+   "records": 32400,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 163,
+   "records": 32600,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 164,
+   "records": 32800,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 165,
+   "records": 33000,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 166,
+   "records": 33200,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 167,
+   "records": 33400,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 168,
+   "records": 33600,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 169,
+   "records": 33800,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 170,
+   "records": 34000,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 171,
+   "records": 34200,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 172,
+   "records": 34400,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 173,
+   "records": 34600,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 174,
+   "records": 34800,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 175,
+   "records": 35000,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 176,
+   "records": 35200,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 54,
+   "pool_gold_recall_pct": 85.7
+  },
+  {
+   "page": 177,
+   "records": 35400,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 178,
+   "records": 35600,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 179,
+   "records": 35800,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 180,
+   "records": 36000,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 181,
+   "records": 36200,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 182,
+   "records": 36400,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 183,
+   "records": 36600,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 184,
+   "records": 36800,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 185,
+   "records": 37000,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 186,
+   "records": 37200,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 187,
+   "records": 37400,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 188,
+   "records": 37600,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 189,
+   "records": 37800,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 190,
+   "records": 38000,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 191,
+   "records": 38200,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 192,
+   "records": 38400,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 193,
+   "records": 38600,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 194,
+   "records": 38800,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 195,
+   "records": 39000,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 196,
+   "records": 39200,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 197,
+   "records": 39400,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 198,
+   "records": 39600,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 199,
+   "records": 39800,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 200,
+   "records": 40000,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 201,
+   "records": 40200,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 202,
+   "records": 40400,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 203,
+   "records": 40600,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 204,
+   "records": 40800,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 205,
+   "records": 41000,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 206,
+   "records": 41200,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 207,
+   "records": 41400,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 208,
+   "records": 41600,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 209,
+   "records": 41800,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 210,
+   "records": 42000,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 211,
+   "records": 42200,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 212,
+   "records": 42400,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 213,
+   "records": 42600,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 214,
+   "records": 42800,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 215,
+   "records": 43000,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 216,
+   "records": 43200,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 217,
+   "records": 43400,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 218,
+   "records": 43600,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 219,
+   "records": 43800,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 220,
+   "records": 44000,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 221,
+   "records": 44200,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 222,
+   "records": 44400,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 223,
+   "records": 44600,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 224,
+   "records": 44800,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 225,
+   "records": 45000,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 226,
+   "records": 45200,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 227,
+   "records": 45400,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  },
+  {
+   "page": 228,
+   "records": 45568,
+   "anchors_found": 21,
+   "anchor_recall_pct": 84.0,
+   "pool_gold_found": 55,
+   "pool_gold_recall_pct": 87.3
+  }
+ ]
+}

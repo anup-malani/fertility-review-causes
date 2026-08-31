@@ -1,0 +1,812 @@
+{
+ "R001": {
+  "openalex": "W4379911184",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R002": {
+  "openalex": "W4235846416",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R003": {
+  "openalex": "W1657275493",
+  "stratum": "CONTROL_GOLD",
+  "is_anchor": true
+ },
+ "R004": {
+  "openalex": "W3217337702",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R005": {
+  "openalex": "W4312321585",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R006": {
+  "openalex": "W4399515403",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R007": {
+  "openalex": "W3033631216",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R008": {
+  "openalex": "W7113173096",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R009": {
+  "openalex": "W7147421220",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R010": {
+  "openalex": "W2512604122",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R011": {
+  "openalex": "W2903869689",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R012": {
+  "openalex": "W2161896568",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R013": {
+  "openalex": "W3137985222",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R014": {
+  "openalex": "W3176120982",
+  "stratum": "CONTROL_GOLD",
+  "is_anchor": true
+ },
+ "R015": {
+  "openalex": "W1985036361",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R016": {
+  "openalex": "W4206313627",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R017": {
+  "openalex": "W7164899960",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R018": {
+  "openalex": "W4313704015",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R019": {
+  "openalex": "W2998896544",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R020": {
+  "openalex": "W2171888415",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R021": {
+  "openalex": "W2492488657",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R022": {
+  "openalex": "W7120299941",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R023": {
+  "openalex": "W312019805",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R024": {
+  "openalex": "W2151404895",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R025": {
+  "openalex": "W7163662068",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R026": {
+  "openalex": "W2902021251",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R027": {
+  "openalex": "W202193806",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R028": {
+  "openalex": "W2471711037",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R029": {
+  "openalex": "W1994024058",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R030": {
+  "openalex": "W2137988068",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R031": {
+  "openalex": "W4402962302",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R032": {
+  "openalex": "W4313481428",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R033": {
+  "openalex": "W3113145493",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R034": {
+  "openalex": "W4377021189",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R035": {
+  "openalex": "W3082159235",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R036": {
+  "openalex": "W2377459599",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R037": {
+  "openalex": "W2163794950",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R038": {
+  "openalex": "W4394235242",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R039": {
+  "openalex": "W4407054912",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R040": {
+  "openalex": "W4307698873",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R041": {
+  "openalex": "W294804430",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R042": {
+  "openalex": "W2114208547",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R043": {
+  "openalex": "W4386624487",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R044": {
+  "openalex": "W4405693529",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R045": {
+  "openalex": "W1516701030",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R046": {
+  "openalex": "W2909705794",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R047": {
+  "openalex": "W2560097163",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R048": {
+  "openalex": "W4404834570",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R049": {
+  "openalex": "W2605646825",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R050": {
+  "openalex": "W2005049448",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R051": {
+  "openalex": "W4210383100",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R052": {
+  "openalex": "W1832976883",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R053": {
+  "openalex": "W2116934337",
+  "stratum": "CONTROL_GOLD",
+  "is_anchor": false
+ },
+ "R054": {
+  "openalex": "W2046368119",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R055": {
+  "openalex": "W2087177518",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R056": {
+  "openalex": "W2038630720",
+  "stratum": "CONTROL_GOLD",
+  "is_anchor": false
+ },
+ "R057": {
+  "openalex": "W2134967272",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R058": {
+  "openalex": "W4388662400",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R059": {
+  "openalex": "W7126232745",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R060": {
+  "openalex": "W4384501607",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R061": {
+  "openalex": "W7111865399",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R062": {
+  "openalex": "W2337218734",
+  "stratum": "CONTROL_GOLD",
+  "is_anchor": false
+ },
+ "R063": {
+  "openalex": "W4281725874",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R064": {
+  "openalex": "W2267121949",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R065": {
+  "openalex": "W2996295340",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R066": {
+  "openalex": "W2016233605",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R067": {
+  "openalex": "W2012910657",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R068": {
+  "openalex": "W7203699454",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R069": {
+  "openalex": "W2064853091",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R070": {
+  "openalex": "W1983304585",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R071": {
+  "openalex": "W7135063473",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R072": {
+  "openalex": "W2313461145",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R073": {
+  "openalex": "W4404333997",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R074": {
+  "openalex": "W2004875842",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R075": {
+  "openalex": "W2153043918",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R076": {
+  "openalex": "W83812333",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R077": {
+  "openalex": "W1900897976",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R078": {
+  "openalex": "W4290779426",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R079": {
+  "openalex": "W324713026",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R080": {
+  "openalex": "W1573037293",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R081": {
+  "openalex": "W2095930715",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R082": {
+  "openalex": "W4214918509",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R083": {
+  "openalex": "W2157971432",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R084": {
+  "openalex": "W2488523304",
+  "stratum": "CONTROL_GOLD",
+  "is_anchor": false
+ },
+ "R085": {
+  "openalex": "W2160715525",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R086": {
+  "openalex": "W1799208969",
+  "stratum": "CONTROL_GOLD",
+  "is_anchor": false
+ },
+ "R087": {
+  "openalex": "W2945406326",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R088": {
+  "openalex": "W4231178373",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R089": {
+  "openalex": "W2315229761",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R090": {
+  "openalex": "W7130643949",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R091": {
+  "openalex": "W4401578595",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R092": {
+  "openalex": "W2066443337",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R093": {
+  "openalex": "W4318024906",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R094": {
+  "openalex": "W2607930810",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R095": {
+  "openalex": "W286056",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R096": {
+  "openalex": "W4247966526",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R097": {
+  "openalex": "W2155921792",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R098": {
+  "openalex": "W2034263880",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R099": {
+  "openalex": "W2114335270",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R100": {
+  "openalex": "W1979805908",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R101": {
+  "openalex": "W2580472304",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R102": {
+  "openalex": "W4292767332",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R103": {
+  "openalex": "W2477471079",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R104": {
+  "openalex": "W4220783065",
+  "stratum": "CONTROL_GOLD",
+  "is_anchor": false
+ },
+ "R105": {
+  "openalex": "W2072294644",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R106": {
+  "openalex": "W4385198242",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R107": {
+  "openalex": "W377061488",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R108": {
+  "openalex": "W2057524012",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R109": {
+  "openalex": "W2901417838",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R110": {
+  "openalex": "W3181865950",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R111": {
+  "openalex": "W2598402320",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R112": {
+  "openalex": "W2059181415",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R113": {
+  "openalex": "W2290323264",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R114": {
+  "openalex": "W2342774186",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R115": {
+  "openalex": "W2117546824",
+  "stratum": "CONTROL_GOLD",
+  "is_anchor": true
+ },
+ "R116": {
+  "openalex": "W2084490625",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R117": {
+  "openalex": "W4318071659",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R118": {
+  "openalex": "W4394532955",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R119": {
+  "openalex": "W4388623520",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R120": {
+  "openalex": "W4236254606",
+  "stratum": "CONTROL_GOLD",
+  "is_anchor": false
+ },
+ "R121": {
+  "openalex": "W2571467906",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R122": {
+  "openalex": "W2118816801",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R123": {
+  "openalex": "W2899109063",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R124": {
+  "openalex": "W2145449258",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R125": {
+  "openalex": "W1993494021",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R126": {
+  "openalex": "W4401215141",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R127": {
+  "openalex": "W2110173227",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R128": {
+  "openalex": "W4386021040",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R129": {
+  "openalex": "W1576075396",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R130": {
+  "openalex": "W7140236412",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R131": {
+  "openalex": "W2082199489",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R132": {
+  "openalex": "W3123832180",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R133": {
+  "openalex": "W7127892352",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R134": {
+  "openalex": "W2054015311",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R135": {
+  "openalex": "W2950225366",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R136": {
+  "openalex": "W3155111828",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R137": {
+  "openalex": "W2165735772",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R138": {
+  "openalex": "W2900991893",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R139": {
+  "openalex": "W2913254912",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R140": {
+  "openalex": "W1756290096",
+  "stratum": "CONTROL_GOLD",
+  "is_anchor": false
+ },
+ "R141": {
+  "openalex": "W4324359686",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R142": {
+  "openalex": "W2034032304",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R143": {
+  "openalex": "W4313451811",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R144": {
+  "openalex": "W1984593616",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R145": {
+  "openalex": "W7168430168",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R146": {
+  "openalex": "W3002589385",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R147": {
+  "openalex": "W3127172554",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R148": {
+  "openalex": "W2407469174",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R149": {
+  "openalex": "W2783688251",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R150": {
+  "openalex": "W1968787959",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R151": {
+  "openalex": "W1996002825",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R152": {
+  "openalex": "W7166060440",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R153": {
+  "openalex": "W4237911411",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R154": {
+  "openalex": "W4386143122",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R155": {
+  "openalex": "W2979389120",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R156": {
+  "openalex": "W3188000255",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R157": {
+  "openalex": "W4245555091",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R158": {
+  "openalex": "W3215211617",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R159": {
+  "openalex": "W2610199988",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R160": {
+  "openalex": "W198400850",
+  "stratum": "CONTROL_GOLD",
+  "is_anchor": false
+ },
+ "R161": {
+  "openalex": "W4390779523",
+  "stratum": "TAIL",
+  "is_anchor": false
+ },
+ "R162": {
+  "openalex": "W4388300016",
+  "stratum": "TAIL",
+  "is_anchor": false
+ }
+}
