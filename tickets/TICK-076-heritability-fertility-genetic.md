@@ -13,7 +13,7 @@
 - [ ] 4. RA title/abstract review
 - [~] 5. Full-text retrieval — **56/148 (37.8%) usable full text**; 92 handed off (browser-job 87 / proxy-job 5). The earlier 73% counted bot-challenge pages as retrievals
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
-- [ ] 7. Extraction to `extraction/heritability-fertility-genetic.csv`, RA verifies a random 10%
+- [~] 7. Extraction to `extraction/heritability-fertility-genetic.csv` — table generated, 6 rows verified from 4 chapter-critical studies, 52 pending second pass; RA 10% verification outstanding
 - [ ] 8. Risk-of-bias assessment per study
 - [ ] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise
 - [ ] 10. Demographic significance against PM / FDT / SDT
@@ -300,4 +300,34 @@ Two further defects the text conversion exposed, both recovering real studies:
 `H2_MODERATION` 38.5% · `H2_FERTILITY` 31.8% · **`PREDICTED_RESPONSE` 16.7%**.
 
 The handoff is regenerated and ordered by cell, with the demsig arm at the front.
+
+**2026-08-31 (Shravan) — extraction begun against the 56 full texts.**
+
+`264` built the text corpus (BioC / PDF / HTML → text, with content verification), `266` harvested
+candidate quantities, `267` generates `extraction/heritability-fertility-genetic.csv`. Every numeric
+cell carries the **verbatim sentence it came from**, so the RA's 10% check verifies a claim against
+its own source rather than against my transcription.
+
+**The most consequential extraction result is a study that refutes its own headline estimate.**
+Ísleifsson et al. (Iceland, national genealogy 1700–1920 + deCODE) reports narrow-sense **h² = 0.137
+(SE 0.02)** for lifetime reproductive success from IBD-based REML on 8,456 full sibling pairs. Adding
+a family effect and letting it compete with relatedness gives **f² = 0.129 (0.03) and a genetic effect
+of 0.00 (0.05)** — and the authors conclude, in their own words, that "the heritability estimate
+(h2 = 0.137) was based solely on shared family effects among full siblings and was not due to shared
+genes." **Extracting the headline 0.137 would have recorded the opposite of what the study found.**
+Both rows are carried with `estimate_superseded_by_authors` set. This is the largest pedigree design
+in the chapter.
+
+Other verified rows: **Tropf et al. mega-analysis** — h²_SNP for NEB **0.038 (SE 0.0097)** baseline,
+rising **fivefold to 0.22 (SE 0.026)** once population and demographic cohort are modelled, which is
+the §4 moderation claim quantified. **Within-family UK Biobank** — number of children **h² = 0.27
+(SE 0.11)**, the assortative-mating- and stratification-robust estimate. **Quebec (Galor & Klemp)** —
+time from marriage to first birth h² = 0.04.
+
+**A defect in my own table, caught by row reconciliation.** I hand-typed the four `openalex` join keys
+instead of resolving them from the corpus, and every one was wrong: the verified rows became orphans
+and the pending count silently read 56 instead of 52. The ids are now resolved by title from the
+corpus and the builder asserts that verified + pending reconciles against corpus size. A corrupted
+join key in an extraction table is the quiet failure the match-by-content rule exists to stop, and it
+appeared in the key column itself.
 
