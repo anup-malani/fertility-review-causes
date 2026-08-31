@@ -1,0 +1,41 @@
+{
+ "summary": {
+  "rows": 60,
+  "usable": 22,
+  "excluded": 38,
+  "excluded_breakdown": {
+   "VERIFIED_BUT_SUPERSEDED": 1,
+   "RECLASSIFIED_OUT_OF_PREDICTED_RESPONSE": 1,
+   "RECLASSIFIED_OUT_OF_PEDIGREE_RESPONSE": 1,
+   "DUPLICATE_OF_W7169878769_DO_NOT_POOL": 1,
+   "NO_EXTRACTABLE_ESTIMATE": 16,
+   "NO_H2_REPORTS_OTHER_ESTIMAND": 17,
+   "DUPLICATE_OF_W4220783065_DO_NOT_POOL": 1
+  },
+  "strata": {
+   "h2_within_family | children_ever_born | WITHIN_FAMILY": 1,
+   "h2_SNP_baseline | children_ever_born | POPULATION": 1,
+   "h2_SNP_with_cohort_and_population_interaction | children_ever_born | POPULATION": 1,
+   "h2_narrow_sense_family_effect_competing | lifetime_reproductive_success | WITHIN_FAMILY": 1,
+   "h2_narrow_sense | time_to_first_birth | WITHIN_FAMILY": 1,
+   "additive_genetic_path_cohort_linear_term_SPLINE | completed_fertility | WITHIN_FAMILY": 1,
+   "additive_genetic_path_cohort_linear_term_QUARTIC | completed_fertility | WITHIN_FAMILY": 1,
+   "h2_narrow_sense | children_ever_born | WITHIN_FAMILY": 1,
+   "h2_SNP | age_at_first_birth | POPULATION": 1,
+   "h2_GREML_twin_sample | childlessness | WITHIN_FAMILY": 1,
+   "h2_SNP | children_ever_born | POPULATION": 2,
+   "h2_SNP | reproductive_success | POPULATION": 1,
+   "h2_by_birth_cohort_FEMALE_sibs | completed_fertility | WITHIN_FAMILY": 1,
+   "h2_by_birth_cohort_MALE_sibs | completed_fertility | WITHIN_FAMILY": 1,
+   "standardized_linear_selection_gradient_via_fertility_HEIGHT | reproductive_success | WITHIN_FAMILY": 1,
+   "opportunity_for_selection_I_LRS_by_wealth | lifetime_reproductive_success | WITHIN_FAMILY": 1,
+   "pgs_number_of_children_beta | ? | ?": 1,
+   "pgs_variance_explained | ? | ?": 1,
+   "pgs_fertility_beta | ? | ?": 1,
+   "pgs_fertility_correlation | ? | ?": 1,
+   "genetic_correlation_ADHD_AFB | ? | ?": 1
+  },
+  "strata_meeting_pooling_test": 0,
+  "note": "The >=3 test is applied AFTER stratification. A hazard ratio beside a variance component is not a pool."
+ }
+}

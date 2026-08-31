@@ -13,9 +13,9 @@
 - [ ] 4. RA title/abstract review
 - [~] 5. Full-text retrieval — **56/148 (37.8%) usable full text**; 92 handed off (browser-job 87 / proxy-job 5). The earlier 73% counted bot-challenge pages as retrievals
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
-- [~] 7. Extraction to `extraction/heritability-fertility-genetic.csv` — table generated, 6 rows verified from 4 chapter-critical studies, 52 pending second pass; RA 10% verification outstanding
+- [x] 7. Extraction to `extraction/heritability-fertility-genetic.csv` — **all 56 full texts extracted, 0 pending**; 22 usable estimates. RA 10% verification outstanding
 - [ ] 8. Risk-of-bias assessment per study
-- [ ] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise
+- [x] 9. **Narrative synthesis** — 0 of 21 strata meet the ≥3 test after stratification (`271`); no meta-analytic pool is possible
 - [ ] 10. Demographic significance against PM / FDT / SDT
 - [ ] 11. GRADE rating, 3 independent raters
 - [ ] 12. Chapter draft on the §6 template
@@ -402,4 +402,34 @@ opportunity for selection I_LRS by wealth class in pre-industrial Finland: 0.287
 Variables*, the values "0.22 and 0.16" for number of children are **quoted from Kosova et al. and
 Miller et al.**, not that paper's own estimates. A regex harvest would have entered another study's
 numbers under this study's id. This is why the table carries the source sentence for every value.
+
+**2026-08-31 (Shravan) — EXTRACTION COMPLETE. All 56 full texts read; 0 pending.**
+
+60 rows, **22 usable estimates**, 38 excluded. The exclusions are the result, not a shortfall:
+
+- **17 studies report a different estimand** — GWAS loci, genetic correlations, PGS-fertility
+  associations, odds ratios. Real evidence, not h² evidence.
+- **16 have no extractable estimate at all** on a fertility outcome.
+- **2 are duplicates**, both retitled version pairs found by reading (see below).
+- 2 were reclassified out of their cells entirely.
+
+**Not one of the last 39 texts reports a heritability estimate for a fertility outcome.** The h²
+pool was never 66 studies; it is roughly a dozen.
+
+**A second retitled version pair.** *GWAS on Birth Year Infant Mortality Rates Provides New Evidence…*
+(medRxiv 2021) and *…provides evidence…* (2022) are one study. My dedup required **exact** folded-title
+equality, so a single differing word defeated it. Two double-counted studies now found in the 148,
+both by reading rather than tooling, and `269`'s attempt to automate the detection failed outright.
+
+**Verified non-h² estimates worth the chapter's attention.** The AFB/NEB polygenic scores explain
+**R² ≈ 0.015 — about 1.5% of variance**. One study's PGS-fertility association is **β = −0.045
+(p = .11), non-significant**, against educational attainment's β = −0.32 (p < .001) in the same model.
+The exposure A.18 actually registers is both weakly measured and weakly predictive.
+
+**Poolability (`271`): 21 strata, ZERO meet the ≥3 test.** The largest stratum has two studies.
+Applied *before* stratification the 22 estimates would have looked poolable; stratified by estimand ×
+outcome × relatedness they scatter into singletons, because a variance component, a per-SD polygenic
+beta and a genetic correlation are three different quantities. **The chapter is a narrative synthesis
+with a stratified evidence table, and that is a finding about this literature** — 696 studies screened,
+148 in primary cells, and their estimates heterogeneous in kind rather than in magnitude.
 

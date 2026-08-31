@@ -1,0 +1,120 @@
+{
+ "summary": {
+  "ticket": "TICK-076",
+  "pending_resolved": 39,
+  "breakdown": {
+   "none": 16,
+   "other_estimand": 17,
+   "verified_non_h2": 5,
+   "duplicate": 1
+  },
+  "studies_reporting_h2_on_fertility_among_the_39": 0,
+  "note": "Not one of the 39 reports a heritability estimate for a fertility outcome. A cell's study count is not its poolable-estimate count."
+ },
+ "classification": {
+  "W2009595306": [],
+  "W2018862557": [],
+  "W2045292033": [],
+  "W2053209564": [],
+  "W2076586348": [],
+  "W2090662598": [],
+  "W2116934337": [],
+  "W2304069640": [
+   "gwas_loci"
+  ],
+  "W2544485223": [
+   "genetic_correlation",
+   "gwas_loci"
+  ],
+  "W2566750848": [],
+  "W2569771954": [
+   "gwas_loci"
+  ],
+  "W2607161571": [],
+  "W2625700093": [
+   "pgs_fertility_assoc"
+  ],
+  "W2752326665": [
+   "genetic_correlation",
+   "gwas_loci"
+  ],
+  "W2762552667": [],
+  "W2795856187": [
+   "pgs_fertility_assoc",
+   "gwas_loci",
+   "odds_or_hazard"
+  ],
+  "W2810866107": [
+   "genetic_correlation",
+   "gwas_loci",
+   "odds_or_hazard"
+  ],
+  "W2856770414": [
+   "pgs_fertility_assoc",
+   "gwas_loci",
+   "odds_or_hazard"
+  ],
+  "W2904304377": [],
+  "W2950098314": [
+   "pgs_fertility_assoc",
+   "gwas_loci"
+  ],
+  "W2952789803": [
+   "gwas_loci"
+  ],
+  "W2953318985": [
+   "gwas_loci"
+  ],
+  "W2955592702": [
+   "pgs_fertility_assoc"
+  ],
+  "W2965692835": [],
+  "W2969099478": [
+   "pgs_fertility_assoc",
+   "genetic_correlation",
+   "gwas_loci"
+  ],
+  "W2990372252": [
+   "pgs_fertility_assoc",
+   "gwas_loci"
+  ],
+  "W3123168349": [
+   "gwas_loci"
+  ],
+  "W3125451060": [],
+  "W3127086984": [
+   "genetic_correlation",
+   "gwas_loci"
+  ],
+  "W3166912545": [
+   "genetic_correlation",
+   "gwas_loci",
+   "odds_or_hazard"
+  ],
+  "W3190761431": [],
+  "W4220783065": [
+   "genetic_correlation",
+   "gwas_loci",
+   "odds_or_hazard"
+  ],
+  "W4283157868": [
+   "odds_or_hazard"
+  ],
+  "W4283368917": [
+   "gwas_loci",
+   "odds_or_hazard"
+  ],
+  "W4308408443": [
+   "gwas_loci"
+  ],
+  "W4390167893": [],
+  "W4408525368": [],
+  "W4410412365": [
+   "gwas_loci"
+  ],
+  "W4415164102": [
+   "selection_gradient",
+   "genetic_correlation"
+  ]
+ }
+}
