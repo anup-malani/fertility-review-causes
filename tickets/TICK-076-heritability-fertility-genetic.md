@@ -1,5 +1,5 @@
 # TICK-076: A.18 Genetic and Heritable Variation in Fertility
-**Status:** open
+**Status:** in-progress
 **Assigned:** Shravan
 **Hypothesis:** `heritability-fertility-genetic` — HYPOTHESES-v5.md §A.18
 **Parallel-safe:** yes
