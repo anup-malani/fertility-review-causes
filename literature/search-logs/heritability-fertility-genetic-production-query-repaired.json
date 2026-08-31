@@ -1,0 +1,380 @@
+{
+ "meta": {
+  "ticket": "TICK-076",
+  "supersedes": "248 V1 (64% anchor / 54% pool recall)",
+  "repair": "added 'fitness', 'twins', 'genotype'; dropped 6 terms",
+  "dropped_with_reason": {
+   "\"parity\"": "240,805 frame / 0 anchors / 3 pool",
+   "\"pedigree\"": "63,967 frame / 0 anchors / 0 pool",
+   "\"GWAS\"": "75,753 frame; subsumed by genome-wide association",
+   "\"heritable\"": "stemming duplicate of heritability",
+   "\"twin studies\"": "stemming duplicate of twin study",
+   "\"childless\"": "stemming duplicate of childlessness"
+  },
+  "note": "Anchor recall is a floor test; pool recall is the independent estimate."
+ },
+ "query": "(\"heritability\" OR \"twin study\" OR \"twins\" OR \"monozygotic\" OR \"dizygotic\" OR \"behavior genetic\" OR \"behaviour genetic\" OR \"adoption study\" OR \"polygenic score\" OR \"polygenic index\" OR \"genome-wide association\" OR \"SNP heritability\" OR \"genetic variance\" OR \"additive genetic\" OR \"within-sibship\" OR \"genotype\" OR \"natural selection\" OR \"selection differential\" OR \"selection gradient\" OR \"response to selection\" OR \"quantitative genetics\") AND (\"fertility\" OR \"children ever born\" OR \"completed fertility\" OR \"number of children\" OR \"family size\" OR \"age at first birth\" OR \"childlessness\" OR \"reproductive success\" OR \"reproductive output\" OR \"offspring number\" OR \"fecundity\" OR \"fitness\")",
+ "frame_size": 45491,
+ "anchor_recall": "21/25",
+ "anchor_recall_pct": 84.0,
+ "pool_recall": "55/92",
+ "pool_recall_pct": 59.8,
+ "remaining_misses": [
+  {
+   "arm": "SELECTION",
+   "first_author": "Byars",
+   "year": 2009,
+   "title": "Natural selection in a contemporary human population"
+  },
+  {
+   "arm": "SELECTION",
+   "first_author": "Sanjak",
+   "year": 2017,
+   "title": "Evidence of directional and stabilizing selection in contemporary humans"
+  },
+  {
+   "arm": "THEORY",
+   "first_author": "Stulp",
+   "year": 2016,
+   "title": "Wealth, fertility and adaptive behaviour in industrial populations"
+  },
+  {
+   "arm": "SELECTION",
+   "first_author": "Fieder",
+   "year": 2007,
+   "title": "The effects of sex and childlessness on the association between status and reproductive output in modern society"
+  }
+ ],
+ "leave_one_out": {
+  "\"heritability\"": {
+   "axis": "GENETIC",
+   "frame_without": 41274,
+   "frame_cost": 4217,
+   "anchors_without": 21,
+   "anchors_gain": 0,
+   "pool_without": 45,
+   "pool_gain": 10,
+   "names_enumerated_design": false
+  },
+  "\"twin study\"": {
+   "axis": "GENETIC",
+   "frame_without": 45491,
+   "frame_cost": 0,
+   "anchors_without": 21,
+   "anchors_gain": 0,
+   "pool_without": 55,
+   "pool_gain": 0,
+   "names_enumerated_design": false
+  },
+  "\"twins\"": {
+   "axis": "GENETIC",
+   "frame_without": 41860,
+   "frame_cost": 3631,
+   "anchors_without": 20,
+   "anchors_gain": 1,
+   "pool_without": 52,
+   "pool_gain": 3,
+   "names_enumerated_design": false
+  },
+  "\"monozygotic\"": {
+   "axis": "GENETIC",
+   "frame_without": 45483,
+   "frame_cost": 8,
+   "anchors_without": 21,
+   "anchors_gain": 0,
+   "pool_without": 55,
+   "pool_gain": 0,
+   "names_enumerated_design": false
+  },
+  "\"dizygotic\"": {
+   "axis": "GENETIC",
+   "frame_without": 45489,
+   "frame_cost": 2,
+   "anchors_without": 21,
+   "anchors_gain": 0,
+   "pool_without": 55,
+   "pool_gain": 0,
+   "names_enumerated_design": false
+  },
+  "\"behavior genetic\"": {
+   "axis": "GENETIC",
+   "frame_without": 45446,
+   "frame_cost": 45,
+   "anchors_without": 21,
+   "anchors_gain": 0,
+   "pool_without": 55,
+   "pool_gain": 0,
+   "names_enumerated_design": false
+  },
+  "\"behaviour genetic\"": {
+   "axis": "GENETIC",
+   "frame_without": 45476,
+   "frame_cost": 15,
+   "anchors_without": 21,
+   "anchors_gain": 0,
+   "pool_without": 54,
+   "pool_gain": 1,
+   "names_enumerated_design": false
+  },
+  "\"adoption study\"": {
+   "axis": "GENETIC",
+   "frame_without": 45443,
+   "frame_cost": 48,
+   "anchors_without": 21,
+   "anchors_gain": 0,
+   "pool_without": 55,
+   "pool_gain": 0,
+   "names_enumerated_design": true
+  },
+  "\"polygenic score\"": {
+   "axis": "GENETIC",
+   "frame_without": 45444,
+   "frame_cost": 47,
+   "anchors_without": 21,
+   "anchors_gain": 0,
+   "pool_without": 53,
+   "pool_gain": 2,
+   "names_enumerated_design": false
+  },
+  "\"polygenic index\"": {
+   "axis": "GENETIC",
+   "frame_without": 45491,
+   "frame_cost": 0,
+   "anchors_without": 21,
+   "anchors_gain": 0,
+   "pool_without": 55,
+   "pool_gain": 0,
+   "names_enumerated_design": true
+  },
+  "\"genome-wide association\"": {
+   "axis": "GENETIC",
+   "frame_without": 44598,
+   "frame_cost": 893,
+   "anchors_without": 20,
+   "anchors_gain": 1,
+   "pool_without": 54,
+   "pool_gain": 1,
+   "names_enumerated_design": false
+  },
+  "\"SNP heritability\"": {
+   "axis": "GENETIC",
+   "frame_without": 45491,
+   "frame_cost": 0,
+   "anchors_without": 21,
+   "anchors_gain": 0,
+   "pool_without": 55,
+   "pool_gain": 0,
+   "names_enumerated_design": true
+  },
+  "\"genetic variance\"": {
+   "axis": "GENETIC",
+   "frame_without": 45092,
+   "frame_cost": 399,
+   "anchors_without": 21,
+   "anchors_gain": 0,
+   "pool_without": 55,
+   "pool_gain": 0,
+   "names_enumerated_design": false
+  },
+  "\"additive genetic\"": {
+   "axis": "GENETIC",
+   "frame_without": 45298,
+   "frame_cost": 193,
+   "anchors_without": 21,
+   "anchors_gain": 0,
+   "pool_without": 55,
+   "pool_gain": 0,
+   "names_enumerated_design": false
+  },
+  "\"within-sibship\"": {
+   "axis": "GENETIC",
+   "frame_without": 45481,
+   "frame_cost": 10,
+   "anchors_without": 21,
+   "anchors_gain": 0,
+   "pool_without": 55,
+   "pool_gain": 0,
+   "names_enumerated_design": true
+  },
+  "\"genotype\"": {
+   "axis": "GENETIC",
+   "frame_without": 24920,
+   "frame_cost": 20571,
+   "anchors_without": 19,
+   "anchors_gain": 2,
+   "pool_without": 54,
+   "pool_gain": 1,
+   "names_enumerated_design": false
+  },
+  "\"natural selection\"": {
+   "axis": "GENETIC",
+   "frame_without": 37986,
+   "frame_cost": 7505,
+   "anchors_without": 19,
+   "anchors_gain": 2,
+   "pool_without": 48,
+   "pool_gain": 7,
+   "names_enumerated_design": false
+  },
+  "\"selection differential\"": {
+   "axis": "GENETIC",
+   "frame_without": 45398,
+   "frame_cost": 93,
+   "anchors_without": 21,
+   "anchors_gain": 0,
+   "pool_without": 55,
+   "pool_gain": 0,
+   "names_enumerated_design": true
+  },
+  "\"selection gradient\"": {
+   "axis": "GENETIC",
+   "frame_without": 45259,
+   "frame_cost": 232,
+   "anchors_without": 21,
+   "anchors_gain": 0,
+   "pool_without": 55,
+   "pool_gain": 0,
+   "names_enumerated_design": true
+  },
+  "\"response to selection\"": {
+   "axis": "GENETIC",
+   "frame_without": 45001,
+   "frame_cost": 490,
+   "anchors_without": 21,
+   "anchors_gain": 0,
+   "pool_without": 55,
+   "pool_gain": 0,
+   "names_enumerated_design": false
+  },
+  "\"quantitative genetics\"": {
+   "axis": "GENETIC",
+   "frame_without": 45268,
+   "frame_cost": 223,
+   "anchors_without": 21,
+   "anchors_gain": 0,
+   "pool_without": 54,
+   "pool_gain": 1,
+   "names_enumerated_design": false
+  },
+  "\"fertility\"": {
+   "axis": "FERTILITY",
+   "frame_without": 31509,
+   "frame_cost": 13982,
+   "anchors_without": 17,
+   "anchors_gain": 4,
+   "pool_without": 37,
+   "pool_gain": 18,
+   "names_enumerated_design": false
+  },
+  "\"children ever born\"": {
+   "axis": "FERTILITY",
+   "frame_without": 45491,
+   "frame_cost": 0,
+   "anchors_without": 21,
+   "anchors_gain": 0,
+   "pool_without": 55,
+   "pool_gain": 0,
+   "names_enumerated_design": false
+  },
+  "\"completed fertility\"": {
+   "axis": "FERTILITY",
+   "frame_without": 45491,
+   "frame_cost": 0,
+   "anchors_without": 21,
+   "anchors_gain": 0,
+   "pool_without": 55,
+   "pool_gain": 0,
+   "names_enumerated_design": false
+  },
+  "\"number of children\"": {
+   "axis": "FERTILITY",
+   "frame_without": 45034,
+   "frame_cost": 457,
+   "anchors_without": 21,
+   "anchors_gain": 0,
+   "pool_without": 55,
+   "pool_gain": 0,
+   "names_enumerated_design": false
+  },
+  "\"family size\"": {
+   "axis": "FERTILITY",
+   "frame_without": 44975,
+   "frame_cost": 516,
+   "anchors_without": 21,
+   "anchors_gain": 0,
+   "pool_without": 55,
+   "pool_gain": 0,
+   "names_enumerated_design": false
+  },
+  "\"age at first birth\"": {
+   "axis": "FERTILITY",
+   "frame_without": 45338,
+   "frame_cost": 153,
+   "anchors_without": 21,
+   "anchors_gain": 0,
+   "pool_without": 53,
+   "pool_gain": 2,
+   "names_enumerated_design": false
+  },
+  "\"childlessness\"": {
+   "axis": "FERTILITY",
+   "frame_without": 45404,
+   "frame_cost": 87,
+   "anchors_without": 21,
+   "anchors_gain": 0,
+   "pool_without": 55,
+   "pool_gain": 0,
+   "names_enumerated_design": false
+  },
+  "\"reproductive success\"": {
+   "axis": "FERTILITY",
+   "frame_without": 43665,
+   "frame_cost": 1826,
+   "anchors_without": 20,
+   "anchors_gain": 1,
+   "pool_without": 55,
+   "pool_gain": 0,
+   "names_enumerated_design": false
+  },
+  "\"reproductive output\"": {
+   "axis": "FERTILITY",
+   "frame_without": 45243,
+   "frame_cost": 248,
+   "anchors_without": 21,
+   "anchors_gain": 0,
+   "pool_without": 55,
+   "pool_gain": 0,
+   "names_enumerated_design": false
+  },
+  "\"offspring number\"": {
+   "axis": "FERTILITY",
+   "frame_without": 45436,
+   "frame_cost": 55,
+   "anchors_without": 21,
+   "anchors_gain": 0,
+   "pool_without": 55,
+   "pool_gain": 0,
+   "names_enumerated_design": false
+  },
+  "\"fecundity\"": {
+   "axis": "FERTILITY",
+   "frame_without": 43041,
+   "frame_cost": 2450,
+   "anchors_without": 21,
+   "anchors_gain": 0,
+   "pool_without": 55,
+   "pool_gain": 0,
+   "names_enumerated_design": false
+  },
+  "\"fitness\"": {
+   "axis": "FERTILITY",
+   "frame_without": 24021,
+   "frame_cost": 21470,
+   "anchors_without": 19,
+   "anchors_gain": 2,
+   "pool_without": 55,
+   "pool_gain": 0,
+   "names_enumerated_design": false
+  }
+ }
+}

@@ -96,3 +96,27 @@ Three things worth carrying off this chapter:
 
 Re-ran `247` end to end: byte-identical output. Next: production query, calibrated against the pool.
 
+**2026-08-31 (Shravan) — production query adopted.** `(GENETIC) AND (FERTILITY)`, frame 45,491,
+84% anchor floor, **87.3% pool recall net of wall route-outs** (`248`–`250`, scope memo §15).
+
+The first candidate scored 64% anchor recall and lost seven of nine SELECTION anchors. Cause: **in
+the evolutionary-selection literature the fertility outcome is called `fitness`** — Kong, Beauchamp,
+Byars, Sanjak and Milot measure selection on lifetime reproductive success without ever using the
+word "fertility". Adding `fitness`, `twins` and `genotype` took anchor recall to 84%.
+
+Two anchors (Byars 2009, Sanjak 2017) are unreachable by any boolean — their abstracts name no
+fertility outcome at all — so **for the SELECTION arm the citation channel is co-equal with the
+boolean channel, not a supplement**, and PRISMA must report the asymmetry per arm rather than one
+pooled recall number.
+
+The raw 59.8% pool figure was the gold's fault: of 37 misses, 13 are Wall 1 route-outs to A.19,
+8 are Wall 3 route-outs to B.1, 8 have no genetic exposure, and only 8 are genuine A.18 candidates.
+Classifications are title-keyed hypotheses for the RA gate.
+
+Leave-one-out on every term: `parity` dropped (240,805 frame, zero anchors), `pedigree` dropped,
+three stemming duplicates dropped; six zero-yield terms KEPT because each names a §5 enumerated
+design at under 250 records of frame cost.
+
+Next: pull the frame and run the §5.1 two-phase screen on abstracts (§6 — the phenotype wall is
+title-invisible).
+

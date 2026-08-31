@@ -465,3 +465,83 @@ Boundary calls are batched and read against the **outcome** axis, not the exposu
 `wall-packet-sorted-on-exposure` lesson, which turned 26 records into 7 studies and made the expensive
 ruling the cheap one. Wall 1 (A.18 vs A.19) is the packet that matters and is assembled first, because
 it is the wall that determines whether this chapter has a primary pool at all.
+
+---
+
+## 15. The production query, and what calibrating it found (2026-08-31)
+
+Two axes, GENETIC × FERTILITY, per `decisions/2026-06-20-boolean-query-two-axis.md`: the boolean
+layer optimises **recall** and the LLM screen optimises precision, because a false negative at the
+search stage is unrecoverable and a false positive is not. No mechanism axis.
+
+**Adopted query** (`249`), frame **45,491** records:
+
+```
+("heritability" OR "twin study" OR "twins" OR "monozygotic" OR "dizygotic" OR "behavior genetic" OR "behaviour genetic" OR "adoption study" OR "polygenic score" OR "polygenic index" OR "genome-wide association" OR "SNP heritability" OR "genetic variance" OR "additive genetic" OR "within-sibship" OR "genotype" OR "natural selection" OR "selection differential" OR "selection gradient" OR "response to selection" OR "quantitative genetics") AND ("fertility" OR "children ever born" OR "completed fertility" OR "number of children" OR "family size" OR "age at first birth" OR "childlessness" OR "reproductive success" OR "reproductive output" OR "offspring number" OR "fecundity" OR "fitness")
+```
+
+| | anchor floor | pool recall (raw) | pool recall (net of route-outs) | frame |
+|---|---|---|---|---|
+| candidate (`248` V1) | 64.0% | 54.3% | — | 13,071 |
+| **adopted (`249`)** | **84.0%** | **59.8%** | **87.3%** | **45,491** |
+
+Anchor recall is a **floor test** — the anchors seeded the pool, so a query that cannot retrieve
+its own anchors is broken, but passing proves less than it looks. The independent estimate is
+against pool records the anchors did not supply.
+
+### The candidate query lost seven of nine SELECTION anchors, and the cause was one word
+
+`248` scored the first conjunction at 64% anchor recall — a 46% false-negative rate, more than twice
+the 20% threshold the 2026-06-20 decision set for revisiting a query. The misses were not scattered:
+Kong, Beauchamp, Byars, Sanjak, Milot, Conley and Fieder, which is the SELECTION arm almost entire.
+
+Reading the missed records rather than widening blindly gave the reason. **In the evolutionary-
+selection sub-literature the fertility outcome is called `fitness`.** Those papers measure selection
+on lifetime reproductive success and never need the word "fertility" to say so. Two smaller gaps:
+bare `twins` (the axis carried only "twin study", so Kohler 2002's "Danish twin cohorts" failed) and
+`genotype`. This is C.3.g's two missing words and A.23's "emancipation" a third time: a sub-literature
+is indexed in its own local vocabulary, and the axis that names only the review's vocabulary cannot
+reach it.
+
+### Two anchors are unreachable by any boolean, and that is a finding about the channel
+
+Byars 2009 and Sanjak 2017 still fail, and their abstracts show why: they say *natural selection*,
+*genetic variation*, *response to selection*, and never name a fertility outcome at all. Reaching
+them would mean adding "traits" or "evolution" to the outcome axis, which is the self-defeating
+bypass — gating the recovery on the vocabulary the problem says is absent.
+
+The right conclusion is about channel design, not about the query. **For the SELECTION arm the
+citation channel is not a supplement to the boolean channel but a co-equal one**, and the two fail
+for unrelated reasons: the boolean fails on abstract vocabulary, the snowball does not care what the
+abstract says. The frame is the union, per PROTOCOL §5.1's two-phase design, and the chapter's PRISMA
+must report the arm-level asymmetry rather than a single pooled recall figure.
+
+### The 59.8% was the gold's fault, not the query's
+
+`250` read all 37 pool-gold misses. The proxy gold was built on an **outcome** word, so it admits any
+record about fertility regardless of whether the exposure is genetic — which is exactly what the walls
+route out. Of 37 misses: **13 are Wall 1** (intergenerational fertility correlations with no
+decomposition, → A.19), **8 are Wall 3** (phenotypic status → reproductive success, → B.1), **8 have
+no genetic exposure at all**, and **8 are genuine A.18 candidates**. Net recall is **87.3%**; the
+query refusing the other 29 is the walls working.
+
+That is `recall-miss-can-indict-the-anchors` at larger scale than A.23's, where the same read moved 8
+of 19 gold out of the chapter. The classifications are title-keyed and go to the RA gate as
+hypotheses — design is not a property of a title.
+
+### Leave-one-out, so the axis is not a block of assumptions
+
+Every term was dropped in turn and the frame and gold losses measured. Three findings:
+
+- **`fitness` and `genotype` cost 42,041 of the 45,491-record frame between them** and buy 4 anchors
+  and 1 pool record. Kept: at roughly $15 to screen a 45k frame, the frame cost is affordable and the
+  recall is not recoverable downstream.
+- **`parity` was dropped**: a 240,805-record frame for zero anchors and three pool records. Frame
+  growth is not frame gain. `pedigree` (63,967 for nothing) went the same way, as did three stemming
+  duplicates — OpenAlex stems, so "heritable"/"heritability", "twin studies"/"twin study" and
+  "childless"/"childlessness" returned byte-identical results and one of each pair was doing no work.
+- **Six zero-yield terms were KEPT** — `adoption study`, `polygenic index`, `SNP heritability`,
+  `within-sibship`, `selection differential`, `selection gradient` — because each names a design
+  enumerated in §5 and each costs under 250 records. They are there so that an empty cell is empty
+  against an auditable list. Cheap-and-zero is not dead weight.
+

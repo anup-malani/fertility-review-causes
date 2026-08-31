@@ -1,0 +1,991 @@
+{
+ "summary": {
+  "proxy_gold": 92,
+  "retrieved": 55,
+  "missed": 37,
+  "raw_pool_recall_pct": 59.8,
+  "missed_by_class": {
+   "NO_GENETIC_EXPOSURE": 8,
+   "WALL3_B1_STATUS": 8,
+   "A18_CANDIDATE": 8,
+   "WALL1_A19_TRANSMISSION": 13
+  },
+  "route_outs_among_misses": 29,
+  "genuine_a18_candidates_missed": 8,
+  "net_pool_recall_pct": 87.3,
+  "net_denominator": 63,
+  "caveat": "Classifications are title-keyed hypotheses for the RA gate, not findings. Design is not a property of a title."
+ },
+ "missed": [
+  {
+   "openalex": "W2096062155",
+   "doi": "10.1007/s10680-012-9277-y",
+   "title": "Fertility in Advanced Societies: A Review of Research",
+   "norm_title": "fertility in advanced societies a review of research",
+   "year": 2012,
+   "type": "article",
+   "venue": "European Journal of Population / Revue europ\u00e9enne de D\u00e9mographie",
+   "cited_by": 635,
+   "authors": "Nicoletta Balbo; Francesco C. Billari; Melinda Mills",
+   "seeds_backward": [
+    "W1657275493",
+    "W2306841286",
+    "W2544485223",
+    "W2752326665",
+    "W3176120982",
+    "W590852753"
+   ],
+   "seeds_forward": [
+    "W2109418124",
+    "W1992576554"
+   ],
+   "first_found_round": 1,
+   "n_seeds": 8,
+   "seed_arms": [
+    "H2",
+    "H2_MOD",
+    "SELECTION",
+    "THEORY"
+   ],
+   "no_doi_flag": false,
+   "miss_class": "NO_GENETIC_EXPOSURE"
+  },
+  {
+   "openalex": "W2076797626",
+   "doi": "10.1016/j.evolhumbehav.2005.07.004",
+   "title": "Sex, status, and reproductive success in the contemporary United States",
+   "norm_title": "sex status and reproductive success in the contemporary united states",
+   "year": 2005,
+   "type": "article",
+   "venue": "Evolution and Human Behavior",
+   "cited_by": 321,
+   "authors": "Rosemary L. Hopcroft",
+   "seeds_backward": [
+    "W1971984564",
+    "W2012959128",
+    "W2137522241",
+    "W2306841286",
+    "W2470195001",
+    "W2513851012"
+   ],
+   "seeds_forward": [
+    "W2109418124"
+   ],
+   "first_found_round": 1,
+   "n_seeds": 7,
+   "seed_arms": [
+    "H2",
+    "H2_MOD",
+    "SELECTION",
+    "THEORY"
+   ],
+   "no_doi_flag": false,
+   "miss_class": "WALL3_B1_STATUS"
+  },
+  {
+   "openalex": "W1571903871",
+   "doi": "10.1007/s12110-006-1001-3",
+   "title": "Do high-status people really have fewer children?",
+   "norm_title": "do high status people really have fewer children",
+   "year": 2006,
+   "type": "article",
+   "venue": "Human Nature",
+   "cited_by": 86,
+   "authors": "Jason Weeden; Michael J. Abrams; Melanie C. Green; John Sabini",
+   "seeds_backward": [
+    "W1971984564",
+    "W2012959128",
+    "W2137522241",
+    "W2306841286",
+    "W2470195001",
+    "W2575032714",
+    "W2777723788"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 1,
+   "n_seeds": 7,
+   "seed_arms": [
+    "H2_MOD",
+    "SELECTION",
+    "THEORY"
+   ],
+   "no_doi_flag": false,
+   "miss_class": "WALL3_B1_STATUS"
+  },
+  {
+   "openalex": "W2136215220",
+   "doi": "10.1098/rspb.2012.1415",
+   "title": "Low fertility increases descendant socioeconomic position but reduces long-term fitness in a modern post-industrial society",
+   "norm_title": "low fertility increases descendant socioeconomic position but reduces long term fitness in a modern post industrial society",
+   "year": 2012,
+   "type": "article",
+   "venue": "Proceedings of the Royal Society B Biological Sciences",
+   "cited_by": 187,
+   "authors": "Anna Goodman; Ilona Koupil; David W. Lawson",
+   "seeds_backward": [
+    "W2306841286",
+    "W590852753"
+   ],
+   "seeds_forward": [
+    "W2012959128",
+    "W2061848926",
+    "W2117546824",
+    "W2137522241"
+   ],
+   "first_found_round": 1,
+   "n_seeds": 6,
+   "seed_arms": [
+    "SELECTION",
+    "THEORY"
+   ],
+   "no_doi_flag": false,
+   "miss_class": "WALL3_B1_STATUS"
+  },
+  {
+   "openalex": "W2520541949",
+   "doi": "10.1038/hdy.2016.81",
+   "title": "The effects of resource availability and the demographic transition on the genetic correlation between number of children and grandchildren in humans",
+   "norm_title": "the effects of resource availability and the demographic transition on the genetic correlation between number of children and grandchildren in humans",
+   "year": 2016,
+   "type": "article",
+   "venue": "Heredity",
+   "cited_by": 16,
+   "authors": "Elisabeth Bolund; Virpi Lummaa",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "W2012959128",
+    "W2061848926",
+    "W2054229127",
+    "W590852753",
+    "W2103205223",
+    "W1992576554"
+   ],
+   "first_found_round": 1,
+   "n_seeds": 6,
+   "seed_arms": [
+    "H2",
+    "H2_MOD",
+    "SELECTION"
+   ],
+   "no_doi_flag": false,
+   "miss_class": "WALL3_B1_STATUS"
+  },
+  {
+   "openalex": "W2943936599",
+   "doi": "10.1098/rspb.2019.0359",
+   "title": "Cognitive ability and fertility among Swedish men born 1951\u20131967: evidence from military conscription registers",
+   "norm_title": "cognitive ability and fertility among swedish men born 1951 1967 evidence from military conscription registers",
+   "year": 2019,
+   "type": "article",
+   "venue": "Proceedings of the Royal Society B Biological Sciences",
+   "cited_by": 30,
+   "authors": "Martin Kolk; Kieron Barclay",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "W2544485223",
+    "W2575032714",
+    "W2470195001",
+    "W2413981805",
+    "W2306841286"
+   ],
+   "first_found_round": 1,
+   "n_seeds": 5,
+   "seed_arms": [
+    "H2",
+    "SELECTION",
+    "THEORY"
+   ],
+   "no_doi_flag": false,
+   "miss_class": "A18_CANDIDATE"
+  },
+  {
+   "openalex": "W2092413559",
+   "doi": "10.4054/demres.2008.18.5",
+   "title": "Fertility trends by social status",
+   "norm_title": "fertility trends by social status",
+   "year": 2008,
+   "type": "article",
+   "venue": "Demographic Research",
+   "cited_by": 361,
+   "authors": "Vegard Skirbekk",
+   "seeds_backward": [
+    "W1971984564",
+    "W2306841286",
+    "W2470195001",
+    "W2777723788"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 1,
+   "n_seeds": 4,
+   "seed_arms": [
+    "H2_MOD",
+    "SELECTION",
+    "THEORY"
+   ],
+   "no_doi_flag": false,
+   "miss_class": "WALL3_B1_STATUS"
+  },
+  {
+   "openalex": "W2442202324",
+   "doi": "10.1007/s13524-019-00767-5",
+   "title": "Is the Family Size of Parents and Children Still Related? Revisiting the Cross-Generational Relationship Over the Last Century",
+   "norm_title": "is the family size of parents and children still related revisiting the cross generational relationship over the last century",
+   "year": 2019,
+   "type": "article",
+   "venue": "Demography",
+   "cited_by": 46,
+   "authors": "\u00c9va Beaujouan; Anne Solaz",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "W2109418124",
+    "W1992576554",
+    "W1971984564",
+    "W1979473713"
+   ],
+   "first_found_round": 1,
+   "n_seeds": 4,
+   "seed_arms": [
+    "H2",
+    "H2_MOD"
+   ],
+   "no_doi_flag": false,
+   "miss_class": "WALL1_A19_TRANSMISSION"
+  },
+  {
+   "openalex": "W2521889685",
+   "doi": "10.1007/s10680-016-9393-1",
+   "title": "Who Delays Childbearing? The Associations Between Time to First Birth, Personality Traits and Education",
+   "norm_title": "who delays childbearing the associations between time to first birth personality traits and education",
+   "year": 2016,
+   "type": "article",
+   "venue": "European Journal of Population / Revue europ\u00e9enne de D\u00e9mographie",
+   "cited_by": 33,
+   "authors": "Lara Patr\u00edcio Tavares",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "W2109418124",
+    "W1967862655",
+    "W1992576554",
+    "W1979473713"
+   ],
+   "first_found_round": 1,
+   "n_seeds": 4,
+   "seed_arms": [
+    "H2",
+    "H2_MOD"
+   ],
+   "no_doi_flag": false,
+   "miss_class": "A18_CANDIDATE"
+  },
+  {
+   "openalex": "W2900165221",
+   "doi": "10.3389/fpsyg.2018.02343",
+   "title": "Political Attitude and Fertility: Is There a Selection for the Political Extreme?",
+   "norm_title": "political attitude and fertility is there a selection for the political extreme",
+   "year": 2018,
+   "type": "article",
+   "venue": "Frontiers in Psychology",
+   "cited_by": 24,
+   "authors": "Martin Fieder; Susanne Huber",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "W2012959128",
+    "W2777723788",
+    "W2470195001",
+    "W2137522241"
+   ],
+   "first_found_round": 1,
+   "n_seeds": 4,
+   "seed_arms": [
+    "SELECTION"
+   ],
+   "no_doi_flag": false,
+   "miss_class": "A18_CANDIDATE"
+  },
+  {
+   "openalex": "W3011906076",
+   "doi": "10.1016/j.intell.2020.101514",
+   "title": "Do income and marriage mediate the relationship between cognitive ability and fertility? Data from Swedish taxation and conscriptions registers for men born 1951\u20131967",
+   "norm_title": "do income and marriage mediate the relationship between cognitive ability and fertility data from swedish taxation and conscriptions registers for men born 1951 1967",
+   "year": 2020,
+   "type": "article",
+   "venue": "Intelligence",
+   "cited_by": 20,
+   "authors": "Martin Kolk; Kieron Barclay",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "W2413981805",
+    "W2470195001",
+    "W2544485223",
+    "W2575032714"
+   ],
+   "first_found_round": 1,
+   "n_seeds": 4,
+   "seed_arms": [
+    "H2",
+    "SELECTION"
+   ],
+   "no_doi_flag": false,
+   "miss_class": "WALL3_B1_STATUS"
+  },
+  {
+   "openalex": "W2920874837",
+   "doi": "10.46469/mq.2019.59.3.5",
+   "title": "Social and Reproductive Success in the United States: The Roles of Income, Education and Cognition",
+   "norm_title": "social and reproductive success in the united states the roles of income education and cognition",
+   "year": 2019,
+   "type": "article",
+   "venue": "Mankind Quarterly",
+   "cited_by": 5,
+   "authors": "Gerhard Meisenberg",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "W2575032714",
+    "W2470195001",
+    "W2137522241",
+    "W2413981805"
+   ],
+   "first_found_round": 1,
+   "n_seeds": 4,
+   "seed_arms": [
+    "SELECTION"
+   ],
+   "no_doi_flag": false,
+   "miss_class": "NO_GENETIC_EXPOSURE"
+  },
+  {
+   "openalex": "W3044445098",
+   "doi": "10.18174/517335",
+   "title": "Family influences on fertility in Europe, 1850-1920",
+   "norm_title": "family influences on fertility in europe 1850 1920",
+   "year": 2020,
+   "type": "dissertation",
+   "venue": null,
+   "cited_by": 2,
+   "authors": "Paul Rotering",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "W2109418124",
+    "W1967862655",
+    "W1979473713",
+    "W1657275493"
+   ],
+   "first_found_round": 1,
+   "n_seeds": 4,
+   "seed_arms": [
+    "H2",
+    "H2_MOD"
+   ],
+   "no_doi_flag": false,
+   "miss_class": "WALL1_A19_TRANSMISSION"
+  },
+  {
+   "openalex": "W2006490730",
+   "doi": "10.1111/j.1728-4457.2002.00641.x",
+   "title": "The Emergence of Lowest\u2010Low Fertility in Europe During the 1990s",
+   "norm_title": "the emergence of lowest low fertility in europe during the 1990s",
+   "year": 2002,
+   "type": "article",
+   "venue": "Population and Development Review",
+   "cited_by": 1459,
+   "authors": "Hans\u2010Peter Kohler; Francesco C. Billari; Jos\u00e9 Antonio Ortega",
+   "seeds_backward": [
+    "W1657275493",
+    "W1992576554"
+   ],
+   "seeds_forward": [
+    "W2109418124"
+   ],
+   "first_found_round": 1,
+   "n_seeds": 3,
+   "seed_arms": [
+    "H2",
+    "H2_MOD"
+   ],
+   "no_doi_flag": false,
+   "miss_class": "NO_GENETIC_EXPOSURE"
+  },
+  {
+   "openalex": "W2171496494",
+   "doi": "10.1098/rstb.2010.0297",
+   "title": "Parental investment and the optimization of human family size",
+   "norm_title": "parental investment and the optimization of human family size",
+   "year": 2011,
+   "type": "article",
+   "venue": "Philosophical Transactions of the Royal Society B Biological Sciences",
+   "cited_by": 199,
+   "authors": "David W. Lawson; Ruth Mace",
+   "seeds_backward": [
+    "W2103205223",
+    "W2306841286",
+    "W2470195001"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 1,
+   "n_seeds": 3,
+   "seed_arms": [
+    "H2",
+    "SELECTION",
+    "THEORY"
+   ],
+   "no_doi_flag": false,
+   "miss_class": "NO_GENETIC_EXPOSURE"
+  },
+  {
+   "openalex": "W2090184462",
+   "doi": "10.2307/2061731",
+   "title": "Personality traits and developmental experiences as antecedents of childbearing motivation",
+   "norm_title": "personality traits and developmental experiences as antecedents of childbearing motivation",
+   "year": 1992,
+   "type": "article",
+   "venue": "Demography",
+   "cited_by": 153,
+   "authors": "Warren B. Miller",
+   "seeds_backward": [
+    "W1967862655",
+    "W1971984564",
+    "W1992576554"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 1,
+   "n_seeds": 3,
+   "seed_arms": [
+    "H2",
+    "H2_MOD"
+   ],
+   "no_doi_flag": false,
+   "miss_class": "A18_CANDIDATE"
+  },
+  {
+   "openalex": "W2162853572",
+   "doi": "10.1080/19485565.1999.9988991",
+   "title": "Is the relationship between fertility of parents and children really weak?",
+   "norm_title": "is the relationship between fertility of parents and children really weak",
+   "year": 1999,
+   "type": "article",
+   "venue": "Biodemography and Social Biology",
+   "cited_by": 121,
+   "authors": "Mike Murphy",
+   "seeds_backward": [
+    "W1657275493",
+    "W590852753"
+   ],
+   "seeds_forward": [
+    "W2109418124"
+   ],
+   "first_found_round": 1,
+   "n_seeds": 3,
+   "seed_arms": [
+    "H2",
+    "SELECTION"
+   ],
+   "no_doi_flag": false,
+   "miss_class": "WALL1_A19_TRANSMISSION"
+  },
+  {
+   "openalex": "W1969355575",
+   "doi": null,
+   "title": "Reexamining the link of early childbearing to marriage and to subsequent fertility.",
+   "norm_title": "reexamining the link of early childbearing to marriage and to subsequent fertility",
+   "year": 1999,
+   "type": "article",
+   "venue": "PubMed",
+   "cited_by": 107,
+   "authors": "S. Philip Morgan; Ronald R. Rindfuss",
+   "seeds_backward": [
+    "W1971984564",
+    "W1992576554",
+    "W2109418124"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 1,
+   "n_seeds": 3,
+   "seed_arms": [
+    "H2",
+    "H2_MOD"
+   ],
+   "no_doi_flag": true,
+   "miss_class": "NO_GENETIC_EXPOSURE"
+  },
+  {
+   "openalex": "W1966706839",
+   "doi": "10.1016/j.evolhumbehav.2014.10.003",
+   "title": "Sex differences in the relationship between status and number of offspring in the contemporary U.S.",
+   "norm_title": "sex differences in the relationship between status and number of offspring in the contemporary u s",
+   "year": 2014,
+   "type": "article",
+   "venue": "Evolution and Human Behavior",
+   "cited_by": 83,
+   "authors": "Rosemary L. Hopcroft",
+   "seeds_backward": [
+    "W2306841286"
+   ],
+   "seeds_forward": [
+    "W2137522241",
+    "W1971984564"
+   ],
+   "first_found_round": 1,
+   "n_seeds": 3,
+   "seed_arms": [
+    "H2_MOD",
+    "SELECTION",
+    "THEORY"
+   ],
+   "no_doi_flag": false,
+   "miss_class": "WALL3_B1_STATUS"
+  },
+  {
+   "openalex": "W2031263034",
+   "doi": "10.1111/j.1468-0084.2008.00524.x",
+   "title": "Intergenerational Transmission of Fertility Patterns*",
+   "norm_title": "intergenerational transmission of fertility patterns",
+   "year": 2008,
+   "type": "article",
+   "venue": "Oxford Bulletin of Economics and Statistics",
+   "cited_by": 83,
+   "authors": "Alison L. Booth; Hiau Joo Kee",
+   "seeds_backward": [
+    "W1657275493"
+   ],
+   "seeds_forward": [
+    "W2109418124",
+    "W1967862655"
+   ],
+   "first_found_round": 1,
+   "n_seeds": 3,
+   "seed_arms": [
+    "H2"
+   ],
+   "no_doi_flag": false,
+   "miss_class": "WALL1_A19_TRANSMISSION"
+  },
+  {
+   "openalex": "W4323517251",
+   "doi": "10.2307/2648134",
+   "title": "Reexamining the link of early childbearing to Marriage and to subsequent fertillty",
+   "norm_title": "reexamining the link of early childbearing to marriage and to subsequent fertillty",
+   "year": 1999,
+   "type": "article",
+   "venue": "Demography",
+   "cited_by": 71,
+   "authors": "S. Philip Morgan; Ronald R. Rindfuss",
+   "seeds_backward": [
+    "W1971984564",
+    "W1992576554",
+    "W2109418124"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 1,
+   "n_seeds": 3,
+   "seed_arms": [
+    "H2",
+    "H2_MOD"
+   ],
+   "no_doi_flag": false,
+   "miss_class": "NO_GENETIC_EXPOSURE"
+  },
+  {
+   "openalex": "W2170669442",
+   "doi": "10.1098/rspb.2013.2561",
+   "title": "Correlations in fertility across generations: can low fertility persist?",
+   "norm_title": "correlations in fertility across generations can low fertility persist",
+   "year": 2014,
+   "type": "article",
+   "venue": "Proceedings of the Royal Society B Biological Sciences",
+   "cited_by": 56,
+   "authors": "Martin Kolk; Daniel Cownden; Magnus Enquist",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "W2109418124",
+    "W1967862655",
+    "W1979473713"
+   ],
+   "first_found_round": 1,
+   "n_seeds": 3,
+   "seed_arms": [
+    "H2",
+    "H2_MOD"
+   ],
+   "no_doi_flag": false,
+   "miss_class": "WALL1_A19_TRANSMISSION"
+  },
+  {
+   "openalex": "W2143939680",
+   "doi": null,
+   "title": "Who delays childbearing? The relationships between fertility, education and personality traits",
+   "norm_title": "who delays childbearing the relationships between fertility education and personality traits",
+   "year": 2010,
+   "type": "report",
+   "venue": "Econstor (Econstor)",
+   "cited_by": 27,
+   "authors": "Lara Patr\u00edcio Tavares",
+   "seeds_backward": [
+    "W1971984564"
+   ],
+   "seeds_forward": [
+    "W2109418124",
+    "W1992576554"
+   ],
+   "first_found_round": 1,
+   "n_seeds": 3,
+   "seed_arms": [
+    "H2",
+    "H2_MOD"
+   ],
+   "no_doi_flag": true,
+   "miss_class": "A18_CANDIDATE"
+  },
+  {
+   "openalex": "W1983301168",
+   "doi": "10.1007/s11113-014-9328-7",
+   "title": "Intergenerational Transmission of Age at First Birth in the United States: Evidence from Multiple Surveys",
+   "norm_title": "intergenerational transmission of age at first birth in the united states evidence from multiple surveys",
+   "year": 2014,
+   "type": "article",
+   "venue": "Population Research and Policy Review",
+   "cited_by": 25,
+   "authors": "Keuntae Kim",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "W2109418124",
+    "W1967862655",
+    "W1979473713"
+   ],
+   "first_found_round": 1,
+   "n_seeds": 3,
+   "seed_arms": [
+    "H2",
+    "H2_MOD"
+   ],
+   "no_doi_flag": false,
+   "miss_class": "WALL1_A19_TRANSMISSION"
+  },
+  {
+   "openalex": "W2765407746",
+   "doi": "10.1007/s10144-017-0597-y",
+   "title": "Demographic studies enhance the understanding of evolutionarily (mal)adaptive behaviors and phenomena in humans: a review on fertility decline and an integrated model",
+   "norm_title": "demographic studies enhance the understanding of evolutionarily mal adaptive behaviors and phenomena in humans a review on fertility decline and an integrated model",
+   "year": 2017,
+   "type": "article",
+   "venue": "Population Ecology",
+   "cited_by": 16,
+   "authors": "Masahito Morita",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "W2012959128",
+    "W2137522241",
+    "W2306841286"
+   ],
+   "first_found_round": 1,
+   "n_seeds": 3,
+   "seed_arms": [
+    "SELECTION",
+    "THEORY"
+   ],
+   "no_doi_flag": false,
+   "miss_class": "NO_GENETIC_EXPOSURE"
+  },
+  {
+   "openalex": "W2566514953",
+   "doi": "10.1002/9781118900772.etrds0413",
+   "title": "The Intergenerational Transmission of Fertility",
+   "norm_title": "the intergenerational transmission of fertility",
+   "year": 2016,
+   "type": "other",
+   "venue": "Emerging Trends in the Social and Behavioral Sciences",
+   "cited_by": 14,
+   "authors": "Laura Bernardi",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "W2109418124",
+    "W590852753",
+    "W1979473713"
+   ],
+   "first_found_round": 1,
+   "n_seeds": 3,
+   "seed_arms": [
+    "H2",
+    "H2_MOD",
+    "SELECTION"
+   ],
+   "no_doi_flag": false,
+   "miss_class": "WALL1_A19_TRANSMISSION"
+  },
+  {
+   "openalex": "W2273719105",
+   "doi": "10.1080/14616696.2016.1141304",
+   "title": "Intergenerational transmission of age at first birth in Norway",
+   "norm_title": "intergenerational transmission of age at first birth in norway",
+   "year": 2016,
+   "type": "article",
+   "venue": "European Societies",
+   "cited_by": 13,
+   "authors": "Birgitte Sande Riise; Lars Dommermuth; Torkild Hovde Lyngstad",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "W2109418124",
+    "W1971984564",
+    "W1979473713"
+   ],
+   "first_found_round": 1,
+   "n_seeds": 3,
+   "seed_arms": [
+    "H2",
+    "H2_MOD"
+   ],
+   "no_doi_flag": false,
+   "miss_class": "WALL1_A19_TRANSMISSION"
+  },
+  {
+   "openalex": "W2053406570",
+   "doi": "10.1080/1081602x.2012.731016",
+   "title": "Differences in intergenerational fertility associations by sex and race in Saba, Dutch Caribbean, 1876\u20132004",
+   "norm_title": "differences in intergenerational fertility associations by sex and race in saba dutch caribbean 1876 2004",
+   "year": 2012,
+   "type": "article",
+   "venue": "The History of the Family",
+   "cited_by": 11,
+   "authors": "Julia A. Jennings; Paul W. Leslie",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "W2109418124",
+    "W1992576554",
+    "W1979473713"
+   ],
+   "first_found_round": 1,
+   "n_seeds": 3,
+   "seed_arms": [
+    "H2",
+    "H2_MOD"
+   ],
+   "no_doi_flag": false,
+   "miss_class": "WALL1_A19_TRANSMISSION"
+  },
+  {
+   "openalex": "W2174410234",
+   "doi": "10.1002/psp.2003",
+   "title": "Regional Differences in the Intergenerational Transmission of Family Size in Europe",
+   "norm_title": "regional differences in the intergenerational transmission of family size in europe",
+   "year": 2015,
+   "type": "article",
+   "venue": "Population Space and Place",
+   "cited_by": 10,
+   "authors": "Bastian M\u00f6nkediek; Paul Rotering; Hilde Bras",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "W2109418124",
+    "W1979473713",
+    "W1657275493"
+   ],
+   "first_found_round": 1,
+   "n_seeds": 3,
+   "seed_arms": [
+    "H2",
+    "H2_MOD"
+   ],
+   "no_doi_flag": false,
+   "miss_class": "WALL1_A19_TRANSMISSION"
+  },
+  {
+   "openalex": "W4200188972",
+   "doi": "10.5964/ps.7275",
+   "title": "Geographic variation in personality is associated with fertility across the United States",
+   "norm_title": "geographic variation in personality is associated with fertility across the united states",
+   "year": 2021,
+   "type": "article",
+   "venue": "Personality Science",
+   "cited_by": 8,
+   "authors": "Eleanor J Junkins; Joseph E. Potter; Peter J. Rentfrow; Samuel D. Gosling",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "W2752326665",
+    "W2117546824",
+    "W2513851012"
+   ],
+   "first_found_round": 1,
+   "n_seeds": 3,
+   "seed_arms": [
+    "H2",
+    "SELECTION"
+   ],
+   "no_doi_flag": false,
+   "miss_class": "A18_CANDIDATE"
+  },
+  {
+   "openalex": "W2185227306",
+   "doi": null,
+   "title": "Intergenerational transmission of fertility, review of up to date research and some new evidence from Bejsce parish register reconstitution study, 18 th - 20 th centuries, Poland.",
+   "norm_title": "intergenerational transmission of fertility review of up to date research and some new evidence from bejsce parish register reconstitution study 18 th 20 th centuries poland",
+   "year": 2005,
+   "type": "article",
+   "venue": null,
+   "cited_by": 7,
+   "authors": "Krzysztof Tymicki",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "W2109418124",
+    "W1967862655",
+    "W1992576554"
+   ],
+   "first_found_round": 1,
+   "n_seeds": 3,
+   "seed_arms": [
+    "H2",
+    "H2_MOD"
+   ],
+   "no_doi_flag": true,
+   "miss_class": "WALL1_A19_TRANSMISSION"
+  },
+  {
+   "openalex": "W4285098037",
+   "doi": "10.1007/s00265-022-03209-2",
+   "title": "Social status predicts different mating and reproductive success for men and women in China: evidence from the 2010\u20132017 CGSS data",
+   "norm_title": "social status predicts different mating and reproductive success for men and women in china evidence from the 2010 2017 cgss data",
+   "year": 2022,
+   "type": "article",
+   "venue": "Behavioral Ecology and Sociobiology",
+   "cited_by": 6,
+   "authors": "Yikang Zhang; Pekka Santtila",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "W2575032714",
+    "W2470195001",
+    "W2137522241"
+   ],
+   "first_found_round": 1,
+   "n_seeds": 3,
+   "seed_arms": [
+    "SELECTION"
+   ],
+   "no_doi_flag": false,
+   "miss_class": "WALL3_B1_STATUS"
+  },
+  {
+   "openalex": "W2791607709",
+   "doi": "10.1017/s0021932018000032",
+   "title": "IS FERTILITY AFTER THE DEMOGRAPHIC TRANSITION MALADAPTIVE?",
+   "norm_title": "is fertility after the demographic transition maladaptive",
+   "year": 2018,
+   "type": "article",
+   "venue": "Journal of Biosocial Science",
+   "cited_by": 6,
+   "authors": "Rosemary L. Hopcroft",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "W2137522241",
+    "W2306841286",
+    "W1971984564"
+   ],
+   "first_found_round": 1,
+   "n_seeds": 3,
+   "seed_arms": [
+    "H2_MOD",
+    "SELECTION",
+    "THEORY"
+   ],
+   "no_doi_flag": false,
+   "miss_class": "A18_CANDIDATE"
+  },
+  {
+   "openalex": "W4251110476",
+   "doi": "10.18174/379576",
+   "title": "Family systems and fertility : fertility behaviour in Europe from a network perspective",
+   "norm_title": "family systems and fertility fertility behaviour in europe from a network perspective",
+   "year": 2016,
+   "type": "dissertation",
+   "venue": null,
+   "cited_by": 3,
+   "authors": "Bastian Moenkediek",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "W2109418124",
+    "W1979473713",
+    "W1657275493"
+   ],
+   "first_found_round": 1,
+   "n_seeds": 3,
+   "seed_arms": [
+    "H2",
+    "H2_MOD"
+   ],
+   "no_doi_flag": false,
+   "miss_class": "WALL1_A19_TRANSMISSION"
+  },
+  {
+   "openalex": "W4363649730",
+   "doi": "10.1016/j.ehb.2023.101244",
+   "title": "Intergenerational transmission of fertility in Spain among cohorts born during the first half of twentieth century",
+   "norm_title": "intergenerational transmission of fertility in spain among cohorts born during the first half of twentieth century",
+   "year": 2023,
+   "type": "article",
+   "venue": "Economics & Human Biology",
+   "cited_by": 2,
+   "authors": "Miguel Requena; David Reher",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "W2109418124",
+    "W590852753",
+    "W1979473713"
+   ],
+   "first_found_round": 1,
+   "n_seeds": 3,
+   "seed_arms": [
+    "H2",
+    "H2_MOD",
+    "SELECTION"
+   ],
+   "no_doi_flag": false,
+   "miss_class": "WALL1_A19_TRANSMISSION"
+  },
+  {
+   "openalex": "W4226081856",
+   "doi": "10.1007/978-3-030-91611-4_16",
+   "title": "Contemporary Fertility from an Evolutionary Perspective: Are the Fittest Still Surviving?",
+   "norm_title": "contemporary fertility from an evolutionary perspective are the fittest still surviving",
+   "year": 2022,
+   "type": "book-chapter",
+   "venue": null,
+   "cited_by": 0,
+   "authors": "Vegard Skirbekk",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "W2575032714",
+    "W1657275493",
+    "W2513851012"
+   ],
+   "first_found_round": 1,
+   "n_seeds": 3,
+   "seed_arms": [
+    "H2",
+    "SELECTION"
+   ],
+   "no_doi_flag": false,
+   "miss_class": "A18_CANDIDATE"
+  },
+  {
+   "openalex": "W2625297804",
+   "doi": "10.1093/oxfordhb/9780190628963.013.8",
+   "title": "Nonmarital and Teen Fertility",
+   "norm_title": "nonmarital and teen fertility",
+   "year": 2018,
+   "type": "reference-entry",
+   "venue": null,
+   "cited_by": 0,
+   "authors": "Jason M. Fletcher; Jessica Polos",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "W2413981805",
+    "W590852753",
+    "W1657275493"
+   ],
+   "first_found_round": 1,
+   "n_seeds": 3,
+   "seed_arms": [
+    "H2",
+    "SELECTION"
+   ],
+   "no_doi_flag": false,
+   "miss_class": "NO_GENETIC_EXPOSURE"
+  }
+ ]
+}

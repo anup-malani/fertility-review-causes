@@ -1,0 +1,1082 @@
+{
+ "meta": {
+  "ticket": "TICK-076",
+  "anchors": 25,
+  "independent_pool_gold": 92,
+  "note": "Anchor recall is a FLOOR test - the anchors seeded the pool. Pool recall is the independent-channel estimate."
+ },
+ "variants": {
+  "V1_genetic_x_fertility": {
+   "query": "(\"heritability\" OR \"heritable\" OR \"twin study\" OR \"twin studies\" OR \"monozygotic\" OR \"dizygotic\" OR \"behaviour genetic\" OR \"behavior genetic\" OR \"adoption study\" OR \"polygenic score\" OR \"polygenic index\" OR \"genome-wide association\" OR \"GWAS\" OR \"SNP heritability\" OR \"genetic variance\" OR \"additive genetic\" OR \"within-sibship\" OR \"natural selection\" OR \"selection differential\" OR \"selection gradient\" OR \"response to selection\" OR \"quantitative genetics\" OR \"pedigree\") AND (\"fertility\" OR \"children ever born\" OR \"completed fertility\" OR \"number of children\" OR \"family size\" OR \"age at first birth\" OR \"childlessness\" OR \"childless\" OR \"parity\" OR \"reproductive success\" OR \"offspring number\" OR \"fecundity\")",
+   "frame_size": 13071,
+   "count_error": null,
+   "anchor_recall": "16/25",
+   "anchor_recall_pct": 64.0,
+   "anchor_misses": [
+    {
+     "arm": "H2_MOD",
+     "first_author": "Kohler",
+     "year": 2002,
+     "title": "Between nurture and nature: The shifting determinants of female fertility in Danish twin cohorts"
+    },
+    {
+     "arm": "SELECTION",
+     "first_author": "Beauchamp",
+     "year": 2016,
+     "title": "Genetic evidence for natural selection in humans in the contemporary United States"
+    },
+    {
+     "arm": "SELECTION",
+     "first_author": "Kong",
+     "year": 2017,
+     "title": "Selection against variants in the genome associated with educational attainment"
+    },
+    {
+     "arm": "SELECTION",
+     "first_author": "Byars",
+     "year": 2009,
+     "title": "Natural selection in a contemporary human population"
+    },
+    {
+     "arm": "SELECTION",
+     "first_author": "Sanjak",
+     "year": 2017,
+     "title": "Evidence of directional and stabilizing selection in contemporary humans"
+    },
+    {
+     "arm": "SELECTION",
+     "first_author": "Milot",
+     "year": 2011,
+     "title": "Evidence for evolution in response to natural selection in a contemporary human population"
+    },
+    {
+     "arm": "SELECTION",
+     "first_author": "Conley",
+     "year": 2016,
+     "title": "Assortative mating and differential fertility by phenotype and genotype across the 20th century"
+    },
+    {
+     "arm": "THEORY",
+     "first_author": "Stulp",
+     "year": 2016,
+     "title": "Wealth, fertility and adaptive behaviour in industrial populations"
+    },
+    {
+     "arm": "SELECTION",
+     "first_author": "Fieder",
+     "year": 2007,
+     "title": "The effects of sex and childlessness on the association between status and reproductive output in modern society"
+    }
+   ],
+   "pool_recall": "50/92",
+   "pool_recall_pct": 54.3,
+   "errors": []
+  },
+  "V2_no_evolutionary_family": {
+   "query": "(\"heritability\" OR \"heritable\" OR \"twin study\" OR \"twin studies\" OR \"monozygotic\" OR \"dizygotic\" OR \"behaviour genetic\" OR \"behavior genetic\" OR \"adoption study\" OR \"polygenic score\" OR \"polygenic index\" OR \"genome-wide association\" OR \"GWAS\" OR \"SNP heritability\" OR \"genetic variance\" OR \"additive genetic\" OR \"within-sibship\") AND (\"fertility\" OR \"children ever born\" OR \"completed fertility\" OR \"number of children\" OR \"family size\" OR \"age at first birth\" OR \"childlessness\" OR \"childless\" OR \"parity\" OR \"reproductive success\" OR \"offspring number\" OR \"fecundity\")",
+   "frame_size": 8621,
+   "count_error": null,
+   "anchor_recall": "14/25",
+   "anchor_recall_pct": 56.0,
+   "anchor_misses": [
+    {
+     "arm": "H2_MOD",
+     "first_author": "Kohler",
+     "year": 2002,
+     "title": "Between nurture and nature: The shifting determinants of female fertility in Danish twin cohorts"
+    },
+    {
+     "arm": "SELECTION",
+     "first_author": "Beauchamp",
+     "year": 2016,
+     "title": "Genetic evidence for natural selection in humans in the contemporary United States"
+    },
+    {
+     "arm": "SELECTION",
+     "first_author": "Kong",
+     "year": 2017,
+     "title": "Selection against variants in the genome associated with educational attainment"
+    },
+    {
+     "arm": "SELECTION",
+     "first_author": "Byars",
+     "year": 2009,
+     "title": "Natural selection in a contemporary human population"
+    },
+    {
+     "arm": "SELECTION",
+     "first_author": "Sanjak",
+     "year": 2017,
+     "title": "Evidence of directional and stabilizing selection in contemporary humans"
+    },
+    {
+     "arm": "SELECTION",
+     "first_author": "Stearns",
+     "year": 2010,
+     "title": "Measuring selection in contemporary human populations"
+    },
+    {
+     "arm": "SELECTION",
+     "first_author": "Milot",
+     "year": 2011,
+     "title": "Evidence for evolution in response to natural selection in a contemporary human population"
+    },
+    {
+     "arm": "SELECTION",
+     "first_author": "Courtiol",
+     "year": 2012,
+     "title": "Natural and sexual selection in a monogamous historical human population"
+    },
+    {
+     "arm": "SELECTION",
+     "first_author": "Conley",
+     "year": 2016,
+     "title": "Assortative mating and differential fertility by phenotype and genotype across the 20th century"
+    },
+    {
+     "arm": "THEORY",
+     "first_author": "Stulp",
+     "year": 2016,
+     "title": "Wealth, fertility and adaptive behaviour in industrial populations"
+    },
+    {
+     "arm": "SELECTION",
+     "first_author": "Fieder",
+     "year": 2007,
+     "title": "The effects of sex and childlessness on the association between status and reproductive output in modern society"
+    }
+   ],
+   "pool_recall": "43/92",
+   "pool_recall_pct": 46.7,
+   "errors": []
+  },
+  "V3_plus_moderation": {
+   "query": "(\"heritability\" OR \"heritable\" OR \"twin study\" OR \"twin studies\" OR \"monozygotic\" OR \"dizygotic\" OR \"behaviour genetic\" OR \"behavior genetic\" OR \"adoption study\" OR \"polygenic score\" OR \"polygenic index\" OR \"genome-wide association\" OR \"GWAS\" OR \"SNP heritability\" OR \"genetic variance\" OR \"additive genetic\" OR \"within-sibship\" OR \"natural selection\" OR \"selection differential\" OR \"selection gradient\" OR \"response to selection\" OR \"quantitative genetics\" OR \"pedigree\" OR \"gene-environment interaction\" OR \"nature and nurture\" OR \"across cohorts\" OR \"cohort differences\") AND (\"fertility\" OR \"children ever born\" OR \"completed fertility\" OR \"number of children\" OR \"family size\" OR \"age at first birth\" OR \"childlessness\" OR \"childless\" OR \"parity\" OR \"reproductive success\" OR \"offspring number\" OR \"fecundity\")",
+   "frame_size": 13537,
+   "count_error": null,
+   "anchor_recall": "17/25",
+   "anchor_recall_pct": 68.0,
+   "anchor_misses": [
+    {
+     "arm": "SELECTION",
+     "first_author": "Beauchamp",
+     "year": 2016,
+     "title": "Genetic evidence for natural selection in humans in the contemporary United States"
+    },
+    {
+     "arm": "SELECTION",
+     "first_author": "Kong",
+     "year": 2017,
+     "title": "Selection against variants in the genome associated with educational attainment"
+    },
+    {
+     "arm": "SELECTION",
+     "first_author": "Byars",
+     "year": 2009,
+     "title": "Natural selection in a contemporary human population"
+    },
+    {
+     "arm": "SELECTION",
+     "first_author": "Sanjak",
+     "year": 2017,
+     "title": "Evidence of directional and stabilizing selection in contemporary humans"
+    },
+    {
+     "arm": "SELECTION",
+     "first_author": "Milot",
+     "year": 2011,
+     "title": "Evidence for evolution in response to natural selection in a contemporary human population"
+    },
+    {
+     "arm": "SELECTION",
+     "first_author": "Conley",
+     "year": 2016,
+     "title": "Assortative mating and differential fertility by phenotype and genotype across the 20th century"
+    },
+    {
+     "arm": "THEORY",
+     "first_author": "Stulp",
+     "year": 2016,
+     "title": "Wealth, fertility and adaptive behaviour in industrial populations"
+    },
+    {
+     "arm": "SELECTION",
+     "first_author": "Fieder",
+     "year": 2007,
+     "title": "The effects of sex and childlessness on the association between status and reproductive output in modern society"
+    }
+   ],
+   "pool_recall": "52/92",
+   "pool_recall_pct": 56.5,
+   "errors": []
+  },
+  "V4_fertility_only": {
+   "query": "(\"fertility\" OR \"children ever born\" OR \"completed fertility\" OR \"number of children\" OR \"family size\" OR \"age at first birth\" OR \"childlessness\" OR \"childless\" OR \"parity\" OR \"reproductive success\" OR \"offspring number\" OR \"fecundity\")",
+   "frame_size": 841911,
+   "count_error": null,
+   "anchor_recall": "21/25",
+   "anchor_recall_pct": 84.0,
+   "anchor_misses": [
+    {
+     "arm": "SELECTION",
+     "first_author": "Beauchamp",
+     "year": 2016,
+     "title": "Genetic evidence for natural selection in humans in the contemporary United States"
+    },
+    {
+     "arm": "SELECTION",
+     "first_author": "Byars",
+     "year": 2009,
+     "title": "Natural selection in a contemporary human population"
+    },
+    {
+     "arm": "SELECTION",
+     "first_author": "Sanjak",
+     "year": 2017,
+     "title": "Evidence of directional and stabilizing selection in contemporary humans"
+    },
+    {
+     "arm": "SELECTION",
+     "first_author": "Milot",
+     "year": 2011,
+     "title": "Evidence for evolution in response to natural selection in a contemporary human population"
+    }
+   ],
+   "pool_recall": "90/92",
+   "pool_recall_pct": 97.8,
+   "errors": []
+  },
+  "V5_genetic_only": {
+   "query": "(\"heritability\" OR \"heritable\" OR \"twin study\" OR \"twin studies\" OR \"monozygotic\" OR \"dizygotic\" OR \"behaviour genetic\" OR \"behavior genetic\" OR \"adoption study\" OR \"polygenic score\" OR \"polygenic index\" OR \"genome-wide association\" OR \"GWAS\" OR \"SNP heritability\" OR \"genetic variance\" OR \"additive genetic\" OR \"within-sibship\" OR \"natural selection\" OR \"selection differential\" OR \"selection gradient\" OR \"response to selection\" OR \"quantitative genetics\" OR \"pedigree\")",
+   "frame_size": 411427,
+   "count_error": null,
+   "anchor_recall": "20/25",
+   "anchor_recall_pct": 80.0,
+   "anchor_misses": [
+    {
+     "arm": "H2_MOD",
+     "first_author": "Kohler",
+     "year": 2002,
+     "title": "Between nurture and nature: The shifting determinants of female fertility in Danish twin cohorts"
+    },
+    {
+     "arm": "SELECTION",
+     "first_author": "Kong",
+     "year": 2017,
+     "title": "Selection against variants in the genome associated with educational attainment"
+    },
+    {
+     "arm": "SELECTION",
+     "first_author": "Conley",
+     "year": 2016,
+     "title": "Assortative mating and differential fertility by phenotype and genotype across the 20th century"
+    },
+    {
+     "arm": "THEORY",
+     "first_author": "Stulp",
+     "year": 2016,
+     "title": "Wealth, fertility and adaptive behaviour in industrial populations"
+    },
+    {
+     "arm": "SELECTION",
+     "first_author": "Fieder",
+     "year": 2007,
+     "title": "The effects of sex and childlessness on the association between status and reproductive output in modern society"
+    }
+   ],
+   "pool_recall": "50/92",
+   "pool_recall_pct": 54.3,
+   "errors": []
+  }
+ },
+ "per_term": {
+  "\"heritability\"": {
+   "axis": "GENETIC",
+   "frame_size": 131575,
+   "anchors": 6,
+   "pool_gold": 24
+  },
+  "\"heritable\"": {
+   "axis": "GENETIC",
+   "frame_size": 131575,
+   "anchors": 6,
+   "pool_gold": 24
+  },
+  "\"twin study\"": {
+   "axis": "GENETIC",
+   "frame_size": 12397,
+   "anchors": 3,
+   "pool_gold": 7
+  },
+  "\"twin studies\"": {
+   "axis": "GENETIC",
+   "frame_size": 12397,
+   "anchors": 3,
+   "pool_gold": 7
+  },
+  "\"monozygotic\"": {
+   "axis": "GENETIC",
+   "frame_size": 17819,
+   "anchors": 1,
+   "pool_gold": 5
+  },
+  "\"dizygotic\"": {
+   "axis": "GENETIC",
+   "frame_size": 9307,
+   "anchors": 1,
+   "pool_gold": 5
+  },
+  "\"behaviour genetic\"": {
+   "axis": "GENETIC",
+   "frame_size": 546,
+   "anchors": 0,
+   "pool_gold": 3
+  },
+  "\"behavior genetic\"": {
+   "axis": "GENETIC",
+   "frame_size": 2614,
+   "anchors": 3,
+   "pool_gold": 7
+  },
+  "\"adoption study\"": {
+   "axis": "GENETIC",
+   "frame_size": 3124,
+   "anchors": 0,
+   "pool_gold": 0
+  },
+  "\"polygenic score\"": {
+   "axis": "GENETIC",
+   "frame_size": 5735,
+   "anchors": 4,
+   "pool_gold": 6
+  },
+  "\"polygenic index\"": {
+   "axis": "GENETIC",
+   "frame_size": 150,
+   "anchors": 0,
+   "pool_gold": 0
+  },
+  "\"genome-wide association\"": {
+   "axis": "GENETIC",
+   "frame_size": 105621,
+   "anchors": 5,
+   "pool_gold": 7
+  },
+  "\"GWAS\"": {
+   "axis": "GENETIC",
+   "frame_size": 75753,
+   "anchors": 2,
+   "pool_gold": 4
+  },
+  "\"SNP heritability\"": {
+   "axis": "GENETIC",
+   "frame_size": 766,
+   "anchors": 1,
+   "pool_gold": 0
+  },
+  "\"genetic variance\"": {
+   "axis": "GENETIC",
+   "frame_size": 14963,
+   "anchors": 4,
+   "pool_gold": 10
+  },
+  "\"additive genetic\"": {
+   "axis": "GENETIC",
+   "frame_size": 13439,
+   "anchors": 2,
+   "pool_gold": 2
+  },
+  "\"within-sibship\"": {
+   "axis": "GENETIC",
+   "frame_size": 230,
+   "anchors": 1,
+   "pool_gold": 0
+  },
+  "\"natural selection\"": {
+   "axis": "GENETIC",
+   "frame_size": 58379,
+   "anchors": 8,
+   "pool_gold": 13
+  },
+  "\"selection differential\"": {
+   "axis": "GENETIC",
+   "frame_size": 1302,
+   "anchors": 0,
+   "pool_gold": 0
+  },
+  "\"selection gradient\"": {
+   "axis": "GENETIC",
+   "frame_size": 1136,
+   "anchors": 0,
+   "pool_gold": 0
+  },
+  "\"response to selection\"": {
+   "axis": "GENETIC",
+   "frame_size": 7437,
+   "anchors": 2,
+   "pool_gold": 0
+  },
+  "\"quantitative genetics\"": {
+   "axis": "GENETIC",
+   "frame_size": 4738,
+   "anchors": 0,
+   "pool_gold": 1
+  },
+  "\"pedigree\"": {
+   "axis": "GENETIC",
+   "frame_size": 63967,
+   "anchors": 0,
+   "pool_gold": 0
+  },
+  "\"fertility\"": {
+   "axis": "FERTILITY",
+   "frame_size": 430683,
+   "anchors": 14,
+   "pool_gold": 78
+  },
+  "\"children ever born\"": {
+   "axis": "FERTILITY",
+   "frame_size": 1325,
+   "anchors": 3,
+   "pool_gold": 4
+  },
+  "\"completed fertility\"": {
+   "axis": "FERTILITY",
+   "frame_size": 953,
+   "anchors": 3,
+   "pool_gold": 11
+  },
+  "\"number of children\"": {
+   "axis": "FERTILITY",
+   "frame_size": 50979,
+   "anchors": 7,
+   "pool_gold": 20
+  },
+  "\"family size\"": {
+   "axis": "FERTILITY",
+   "frame_size": 27185,
+   "anchors": 0,
+   "pool_gold": 8
+  },
+  "\"age at first birth\"": {
+   "axis": "FERTILITY",
+   "frame_size": 3341,
+   "anchors": 6,
+   "pool_gold": 20
+  },
+  "\"childlessness\"": {
+   "axis": "FERTILITY",
+   "frame_size": 12049,
+   "anchors": 2,
+   "pool_gold": 10
+  },
+  "\"childless\"": {
+   "axis": "FERTILITY",
+   "frame_size": 12049,
+   "anchors": 2,
+   "pool_gold": 10
+  },
+  "\"parity\"": {
+   "axis": "FERTILITY",
+   "frame_size": 240805,
+   "anchors": 0,
+   "pool_gold": 3
+  },
+  "\"reproductive success\"": {
+   "axis": "FERTILITY",
+   "frame_size": 38260,
+   "anchors": 3,
+   "pool_gold": 15
+  },
+  "\"offspring number\"": {
+   "axis": "FERTILITY",
+   "frame_size": 1025,
+   "anchors": 0,
+   "pool_gold": 2
+  },
+  "\"fecundity\"": {
+   "axis": "FERTILITY",
+   "frame_size": 71773,
+   "anchors": 1,
+   "pool_gold": 4
+  },
+  "\"gene-environment interaction\"": {
+   "axis": "MODERATION",
+   "frame_size": 14843,
+   "anchors": 2,
+   "pool_gold": 4
+  },
+  "\"nature and nurture\"": {
+   "axis": "MODERATION",
+   "frame_size": 5930,
+   "anchors": 2,
+   "pool_gold": 2
+  },
+  "\"across cohorts\"": {
+   "axis": "MODERATION",
+   "frame_size": 7767,
+   "anchors": 0,
+   "pool_gold": 2
+  },
+  "\"cohort differences\"": {
+   "axis": "MODERATION",
+   "frame_size": 2746,
+   "anchors": 0,
+   "pool_gold": 0
+  }
+ },
+ "independent_gold": [
+  {
+   "openalex": "W590852753",
+   "title": "Human Fertility, Molecular Genetics, and Natural Selection in Modern Societies",
+   "year": 2015,
+   "n_seeds": 18
+  },
+  {
+   "openalex": "W1799208969",
+   "title": "The Biodemography of Fertility: A Review and Future Research Frontiers",
+   "year": 2015,
+   "n_seeds": 16
+  },
+  {
+   "openalex": "W1657275493",
+   "title": "Genetic influence on age at first birth of female twins born in the UK, 1919\u201368",
+   "year": 2015,
+   "n_seeds": 11
+  },
+  {
+   "openalex": "W2513851012",
+   "title": "What Explains the Heritability of Completed Fertility? Evidence from Two Large Twin Studies",
+   "year": 2016,
+   "n_seeds": 11
+  },
+  {
+   "openalex": "W4236254606",
+   "title": "Social Science Genetics and Fertility",
+   "year": 2018,
+   "n_seeds": 11
+  },
+  {
+   "openalex": "W2109418124",
+   "title": "Is Fertility Behavior in Our Genes? Findings from a Danish Twin Study",
+   "year": 1999,
+   "n_seeds": 10
+  },
+  {
+   "openalex": "W2337218734",
+   "title": "Mega-analysis of 31,396 individuals from 6 countries uncovers strong gene-environment interaction for human fertility",
+   "year": 2016,
+   "n_seeds": 10
+  },
+  {
+   "openalex": "W2033634275",
+   "title": "Genotype \u00d7 Cohort Interaction on Completed Fertility and Age at First Birth",
+   "year": 2014,
+   "n_seeds": 9
+  },
+  {
+   "openalex": "W2096062155",
+   "title": "Fertility in Advanced Societies: A Review of Research",
+   "year": 2012,
+   "n_seeds": 8
+  },
+  {
+   "openalex": "W1992576554",
+   "title": "Between nurture and nature: The shifting determinants of female fertility in Danish twin cohorts",
+   "year": 2002,
+   "n_seeds": 8
+  },
+  {
+   "openalex": "W2569771954",
+   "title": "Is the Association Between Education and Fertility Postponement Causal? The Role of Family Background Factors",
+   "year": 2017,
+   "n_seeds": 8
+  },
+  {
+   "openalex": "W2076797626",
+   "title": "Sex, status, and reproductive success in the contemporary United States",
+   "year": 2005,
+   "n_seeds": 7
+  },
+  {
+   "openalex": "W1571903871",
+   "title": "Do high-status people really have fewer children?",
+   "year": 2006,
+   "n_seeds": 7
+  },
+  {
+   "openalex": "W2093698295",
+   "title": "Bio\u2010social determinants of fertility",
+   "year": 2005,
+   "n_seeds": 7
+  },
+  {
+   "openalex": "W1971984564",
+   "title": "Educational Differences in Completed Fertility: A Behavioral Genetic Study of Finnish Male and Female Twins",
+   "year": 2013,
+   "n_seeds": 7
+  },
+  {
+   "openalex": "W2038630720",
+   "title": "Biodemographic modeling of the links between fertility motivation and fertility outcomes in the NLSY79",
+   "year": 2010,
+   "n_seeds": 7
+  },
+  {
+   "openalex": "W4220783065",
+   "title": "GWAS on birth year infant mortality rates provides evidence of recent natural selection",
+   "year": 2022,
+   "n_seeds": 7
+  },
+  {
+   "openalex": "W2795856187",
+   "title": "The Sociogenomics of Polygenic Scores of Reproductive Behavior and Their Relationship to Other Fertility Traits",
+   "year": 2018,
+   "n_seeds": 7
+  },
+  {
+   "openalex": "W2902948613",
+   "title": "The genetics of human fertility",
+   "year": 2018,
+   "n_seeds": 7
+  },
+  {
+   "openalex": "W2136215220",
+   "title": "Low fertility increases descendant socioeconomic position but reduces long-term fitness in a modern post-industrial society",
+   "year": 2012,
+   "n_seeds": 6
+  },
+  {
+   "openalex": "W1967862655",
+   "title": "Behavior genetic modeling of human fertility: Findings from a contemporary danish twin study",
+   "year": 2001,
+   "n_seeds": 6
+  },
+  {
+   "openalex": "W2091998589",
+   "title": "Genetic Influence Helps Explain Variation in Human Fertility: Evidence From Recent Behavioral and Molecular Genetic Studies",
+   "year": 2001,
+   "n_seeds": 6
+  },
+  {
+   "openalex": "W2103205223",
+   "title": "Perfect genetic correlation between number of offspring and grandoffspring in an industrialized human population",
+   "year": 2014,
+   "n_seeds": 6
+  },
+  {
+   "openalex": "W2062288399",
+   "title": "Education and Cognitive Ability as Direct, Mediating, or Spurious Influences on Female Age at First Birth: Behavior Genetic Models Fit to Danish Twin Data",
+   "year": 2008,
+   "n_seeds": 6
+  },
+  {
+   "openalex": "W4322766108",
+   "title": "Genome-wide analysis identifies genetic effects on reproductive success and ongoing natural selection at the FADS locus",
+   "year": 2023,
+   "n_seeds": 6
+  },
+  {
+   "openalex": "W2110308604",
+   "title": "Unraveling the intergenerational transmission of fertility: genetic and shared-environment effects during the demographic transition in the Netherlands, 1810\u20131910",
+   "year": 2013,
+   "n_seeds": 6
+  },
+  {
+   "openalex": "W2040190166",
+   "title": "Multivariate Cholesky Models of Human Female Fertility Patterns in the NLSY",
+   "year": 2007,
+   "n_seeds": 6
+  },
+  {
+   "openalex": "W4405350282",
+   "title": "Genetics of female and male reproductive traits and their relationship with health, longevity and consequences for offspring",
+   "year": 2024,
+   "n_seeds": 6
+  },
+  {
+   "openalex": "W2520541949",
+   "title": "The effects of resource availability and the demographic transition on the genetic correlation between number of children and grandchildren in humans",
+   "year": 2016,
+   "n_seeds": 6
+  },
+  {
+   "openalex": "W4285005223",
+   "title": "Sexually antagonistic selection on educational attainment and body size in Estonian children",
+   "year": 2022,
+   "n_seeds": 6
+  },
+  {
+   "openalex": "W4214728008",
+   "title": "Gene-Environment Effects on Female Fertility",
+   "year": 2021,
+   "n_seeds": 6
+  },
+  {
+   "openalex": "W3166912545",
+   "title": "GWAS on Birth Year Infant Mortality Rates Provides New Evidence of Recent Natural Selection",
+   "year": 2021,
+   "n_seeds": 6
+  },
+  {
+   "openalex": "W2413981805",
+   "title": "Assortative mating and differential fertility by phenotype and genotype across the 20th century",
+   "year": 2016,
+   "n_seeds": 5
+  },
+  {
+   "openalex": "W1979473713",
+   "title": "Biosocial Models of Low-Fertility Societies",
+   "year": 1996,
+   "n_seeds": 5
+  },
+  {
+   "openalex": "W76510084",
+   "title": "Education, Fertility, and Heritability: Explaining a Paradox",
+   "year": 2003,
+   "n_seeds": 5
+  },
+  {
+   "openalex": "W2307280253",
+   "title": "What if fertility decline is not permanent? The need for an evolutionarily informed approach to understanding low fertility",
+   "year": 2016,
+   "n_seeds": 5
+  },
+  {
+   "openalex": "W2890425574",
+   "title": "The heritability of fertility makes world population stabilization unlikely in the foreseeable future",
+   "year": 2018,
+   "n_seeds": 5
+  },
+  {
+   "openalex": "W2303250854",
+   "title": "How does variance in fertility change over the demographic transition?",
+   "year": 2016,
+   "n_seeds": 5
+  },
+  {
+   "openalex": "W2943936599",
+   "title": "Cognitive ability and fertility among Swedish men born 1951\u20131967: evidence from military conscription registers",
+   "year": 2019,
+   "n_seeds": 5
+  },
+  {
+   "openalex": "W2810866107",
+   "title": "Schizophrenia risk and reproductive success: a Mendelian randomization study",
+   "year": 2019,
+   "n_seeds": 5
+  },
+  {
+   "openalex": "W4390167893",
+   "title": "The Influence of Societal Changes on the Contribution of Genetics to Fertility Behavior",
+   "year": 2026,
+   "n_seeds": 5
+  },
+  {
+   "openalex": "W2092413559",
+   "title": "Fertility trends by social status",
+   "year": 2008,
+   "n_seeds": 4
+  },
+  {
+   "openalex": "W3176120982",
+   "title": "Identification of 371 genetic variants for age at first sex and birth linked to externalising behaviour",
+   "year": 2021,
+   "n_seeds": 4
+  },
+  {
+   "openalex": "W2062505457",
+   "title": "Heritable and environmental variables affect reproduction-related behaviors, but not ultimate reproductive success",
+   "year": 1993,
+   "n_seeds": 4
+  },
+  {
+   "openalex": "W2482869111",
+   "title": "Genetic Influences on Human Fertility and Sexuality",
+   "year": 2000,
+   "n_seeds": 4
+  },
+  {
+   "openalex": "W2116934337",
+   "title": "DOES EDUCATION MEDIATE THE RELATIONSHIP BETWEEN IQ AND AGE OF FIRST BIRTH? A BEHAVIOURAL GENETIC ANALYSIS",
+   "year": 2002,
+   "n_seeds": 4
+  },
+  {
+   "openalex": "W2442202324",
+   "title": "Is the Family Size of Parents and Children Still Related? Revisiting the Cross-Generational Relationship Over the Last Century",
+   "year": 2019,
+   "n_seeds": 4
+  },
+  {
+   "openalex": "W2521889685",
+   "title": "Who Delays Childbearing? The Associations Between Time to First Birth, Personality Traits and Education",
+   "year": 2016,
+   "n_seeds": 4
+  },
+  {
+   "openalex": "W2900165221",
+   "title": "Political Attitude and Fertility: Is There a Selection for the Political Extreme?",
+   "year": 2018,
+   "n_seeds": 4
+  },
+  {
+   "openalex": "W3011906076",
+   "title": "Do income and marriage mediate the relationship between cognitive ability and fertility? Data from Swedish taxation and conscriptions registers for men born 1951\u20131967",
+   "year": 2020,
+   "n_seeds": 4
+  },
+  {
+   "openalex": "W3127086984",
+   "title": "Identification of 370 genetic loci for age at first sex and birth linked to externalising behaviour",
+   "year": 2020,
+   "n_seeds": 4
+  },
+  {
+   "openalex": "W2955592702",
+   "title": "How Intelligence Affects Fertility 30 Years On: Retherford and Sewell Revisited \u2014 With Polygenic Scores and Numbers of Grandchildren",
+   "year": 2019,
+   "n_seeds": 4
+  },
+  {
+   "openalex": "W2920874837",
+   "title": "Social and Reproductive Success in the United States: The Roles of Income, Education and Cognition",
+   "year": 2019,
+   "n_seeds": 4
+  },
+  {
+   "openalex": "W3044445098",
+   "title": "Family influences on fertility in Europe, 1850-1920",
+   "year": 2020,
+   "n_seeds": 4
+  },
+  {
+   "openalex": "W2548870266",
+   "title": "The Theoretical Potential for Selection on Determinants of Fertility to Cause Aggregate Fertility Increases in Human Populations",
+   "year": 2016,
+   "n_seeds": 4
+  },
+  {
+   "openalex": "W2488523304",
+   "title": "A Behavioral Genetics Study of Age at First Birth of Female UK Twins",
+   "year": 2013,
+   "n_seeds": 4
+  },
+  {
+   "openalex": "W2006490730",
+   "title": "The Emergence of Lowest\u2010Low Fertility in Europe During the 1990s",
+   "year": 2002,
+   "n_seeds": 3
+  },
+  {
+   "openalex": "W2028660116",
+   "title": "Partner + Children = Happiness? The Effects of Partnerships and Fertility on Well\u2010Being",
+   "year": 2005,
+   "n_seeds": 3
+  },
+  {
+   "openalex": "W603943191",
+   "title": "Offspring: Human Fertility Behavior in Biodemographic Perspective",
+   "year": 2003,
+   "n_seeds": 3
+  },
+  {
+   "openalex": "W2171496494",
+   "title": "Parental investment and the optimization of human family size",
+   "year": 2011,
+   "n_seeds": 3
+  },
+  {
+   "openalex": "W2090184462",
+   "title": "Personality traits and developmental experiences as antecedents of childbearing motivation",
+   "year": 1992,
+   "n_seeds": 3
+  },
+  {
+   "openalex": "W2162853572",
+   "title": "Is the relationship between fertility of parents and children really weak?",
+   "year": 1999,
+   "n_seeds": 3
+  },
+  {
+   "openalex": "W2015226734",
+   "title": "The Limits to Low Fertility: A Biosocial Approach",
+   "year": 2000,
+   "n_seeds": 3
+  },
+  {
+   "openalex": "W1969355575",
+   "title": "Reexamining the link of early childbearing to marriage and to subsequent fertility.",
+   "year": 1999,
+   "n_seeds": 3
+  },
+  {
+   "openalex": "W1966706839",
+   "title": "Sex differences in the relationship between status and number of offspring in the contemporary U.S.",
+   "year": 2014,
+   "n_seeds": 3
+  },
+  {
+   "openalex": "W2031263034",
+   "title": "Intergenerational Transmission of Fertility Patterns*",
+   "year": 2008,
+   "n_seeds": 3
+  },
+  {
+   "openalex": "W4323517251",
+   "title": "Reexamining the link of early childbearing to Marriage and to subsequent fertillty",
+   "year": 1999,
+   "n_seeds": 3
+  },
+  {
+   "openalex": "W2304069640",
+   "title": "Evidence for Genetic Overlap Between Schizophrenia and Age at First Birth in Women",
+   "year": 2016,
+   "n_seeds": 3
+  },
+  {
+   "openalex": "W2170669442",
+   "title": "Correlations in fertility across generations: can low fertility persist?",
+   "year": 2014,
+   "n_seeds": 3
+  },
+  {
+   "openalex": "W1531221434",
+   "title": "Genetic and Environmental Influences on Fertility Expectations and Outcomes Using NLSY Kinship Data",
+   "year": 2000,
+   "n_seeds": 3
+  },
+  {
+   "openalex": "W2053209564",
+   "title": "A DEMOGRAPHIC TRANSITION ALTERED THE STRENGTH OF SELECTION FOR FITNESS AND AGE-SPECIFIC SURVIVAL AND FERTILITY IN A 19TH CENTURY AMERICAN POPULATION",
+   "year": 2012,
+   "n_seeds": 3
+  },
+  {
+   "openalex": "W2143939680",
+   "title": "Who delays childbearing? The relationships between fertility, education and personality traits",
+   "year": 2010,
+   "n_seeds": 3
+  },
+  {
+   "openalex": "W1983301168",
+   "title": "Intergenerational Transmission of Age at First Birth in the United States: Evidence from Multiple Surveys",
+   "year": 2014,
+   "n_seeds": 3
+  },
+  {
+   "openalex": "W2018862557",
+   "title": "The fertility pattern of twins and the general population compared: evidence from Danish cohorts 1945-64",
+   "year": 2002,
+   "n_seeds": 3
+  },
+  {
+   "openalex": "W198400850",
+   "title": "Genetic Influences on Fertility Behavior: Findings From a Danish Twin Study, 1910\u20131923",
+   "year": 2000,
+   "n_seeds": 3
+  },
+  {
+   "openalex": "W2765407746",
+   "title": "Demographic studies enhance the understanding of evolutionarily (mal)adaptive behaviors and phenomena in humans: a review on fertility decline and an integrated model",
+   "year": 2017,
+   "n_seeds": 3
+  },
+  {
+   "openalex": "W2566514953",
+   "title": "The Intergenerational Transmission of Fertility",
+   "year": 2016,
+   "n_seeds": 3
+  },
+  {
+   "openalex": "W2273719105",
+   "title": "Intergenerational transmission of age at first birth in Norway",
+   "year": 2016,
+   "n_seeds": 3
+  },
+  {
+   "openalex": "W2053406570",
+   "title": "Differences in intergenerational fertility associations by sex and race in Saba, Dutch Caribbean, 1876\u20132004",
+   "year": 2012,
+   "n_seeds": 3
+  },
+  {
+   "openalex": "W2950098314",
+   "title": "How Cognitive Genetic Factors Influence Fertility Outcomes: A Mediational SEM Analysis",
+   "year": 2016,
+   "n_seeds": 3
+  },
+  {
+   "openalex": "W39831267",
+   "title": "Genetic Variance in Human Fertility: Biology, Psychology, or Both?",
+   "year": 2003,
+   "n_seeds": 3
+  },
+  {
+   "openalex": "W2174410234",
+   "title": "Regional Differences in the Intergenerational Transmission of Family Size in Europe",
+   "year": 2015,
+   "n_seeds": 3
+  },
+  {
+   "openalex": "W4200188972",
+   "title": "Geographic variation in personality is associated with fertility across the United States",
+   "year": 2021,
+   "n_seeds": 3
+  },
+  {
+   "openalex": "W2185227306",
+   "title": "Intergenerational transmission of fertility, review of up to date research and some new evidence from Bejsce parish register reconstitution study, 18 th - 20 th centuries, Poland.",
+   "year": 2005,
+   "n_seeds": 3
+  },
+  {
+   "openalex": "W1756290096",
+   "title": "Comments on Morgan and King (2001): Three Reasons Why Demographers Should Pay Attention to Evolutionary Theories and Behaviour Genetics in the Analysis of Contemporary Fertility",
+   "year": 2001,
+   "n_seeds": 3
+  },
+  {
+   "openalex": "W4285098037",
+   "title": "Social status predicts different mating and reproductive success for men and women in China: evidence from the 2010\u20132017 CGSS data",
+   "year": 2022,
+   "n_seeds": 3
+  },
+  {
+   "openalex": "W2791607709",
+   "title": "IS FERTILITY AFTER THE DEMOGRAPHIC TRANSITION MALADAPTIVE?",
+   "year": 2018,
+   "n_seeds": 3
+  },
+  {
+   "openalex": "W4251110476",
+   "title": "Family systems and fertility : fertility behaviour in Europe from a network perspective",
+   "year": 2016,
+   "n_seeds": 3
+  },
+  {
+   "openalex": "W4363649730",
+   "title": "Intergenerational transmission of fertility in Spain among cohorts born during the first half of twentieth century",
+   "year": 2023,
+   "n_seeds": 3
+  },
+  {
+   "openalex": "W4226081856",
+   "title": "Contemporary Fertility from an Evolutionary Perspective: Are the Fittest Still Surviving?",
+   "year": 2022,
+   "n_seeds": 3
+  },
+  {
+   "openalex": "W4413061538",
+   "title": "Relational Aggression and Lifetime Offspring: A Preliminary Study in a Large Community-Based Sample of Polish Adults",
+   "year": 2025,
+   "n_seeds": 3
+  },
+  {
+   "openalex": "W2625297804",
+   "title": "Nonmarital and Teen Fertility",
+   "year": 2018,
+   "n_seeds": 3
+  }
+ ]
+}
