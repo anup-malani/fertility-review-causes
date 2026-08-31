@@ -1,0 +1,441 @@
+{
+ "summary": {
+  "ticket": "TICK-076",
+  "primary_studies": 148,
+  "with_pmid": 102,
+  "pmcid_found": 52,
+  "bioc_fetched": 49,
+  "found_by_cell": {
+   "PEDIGREE_RESPONSE": 8,
+   "H2_FERTILITY": 20,
+   "SELECTION_DIFFERENTIAL": 20,
+   "H2_MODERATION": 4
+  },
+  "fetched_by_cell": {
+   "PEDIGREE_RESPONSE": 8,
+   "H2_FERTILITY": 19,
+   "SELECTION_DIFFERENTIAL": 19,
+   "H2_MODERATION": 3
+  },
+  "idconv_failed_batches": [],
+  "note": "OpenAlex populates no pmcid for any of these records; the rung is reachable only by converting from pmid. found != fetched. A failed conversion batch is reported separately and is NOT a zero."
+ },
+ "records": [
+  {
+   "openalex": "W2068827105",
+   "pmcid": "PMC1691410",
+   "cell": "PEDIGREE_RESPONSE",
+   "http": "200",
+   "bytes": 6148,
+   "ok": true
+  },
+  {
+   "openalex": "W2168212656",
+   "pmcid": "PMC549452",
+   "cell": "H2_FERTILITY",
+   "http": "200",
+   "bytes": 6148,
+   "ok": true
+  },
+  {
+   "openalex": "W2036516886",
+   "pmcid": "PMC1458927",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "http": "200",
+   "bytes": 6148,
+   "ok": true
+  },
+  {
+   "openalex": "W2055251693",
+   "pmcid": "PMC1766423",
+   "cell": "PEDIGREE_RESPONSE",
+   "http": "200",
+   "bytes": 6148,
+   "ok": true
+  },
+  {
+   "openalex": "W2040190166",
+   "pmcid": "PMC2712577",
+   "cell": "H2_FERTILITY",
+   "http": "200",
+   "bytes": 6148,
+   "ok": true
+  },
+  {
+   "openalex": "W1985105482",
+   "pmcid": "PMC1904257",
+   "cell": "PEDIGREE_RESPONSE",
+   "http": "200",
+   "bytes": 99195,
+   "ok": true
+  },
+  {
+   "openalex": "W2045292033",
+   "pmcid": "PMC2683935",
+   "cell": "PEDIGREE_RESPONSE",
+   "http": "200",
+   "bytes": 89180,
+   "ok": true
+  },
+  {
+   "openalex": "W2062288399",
+   "pmcid": "PMC2749946",
+   "cell": "H2_FERTILITY",
+   "http": "200",
+   "bytes": 6148,
+   "ok": true
+  },
+  {
+   "openalex": "W2021992969",
+   "pmcid": "PMC2868280",
+   "cell": "H2_FERTILITY",
+   "http": "200",
+   "bytes": 6148,
+   "ok": true
+  },
+  {
+   "openalex": "W2038630720",
+   "pmcid": "PMC3000025",
+   "cell": "H2_FERTILITY",
+   "http": "200",
+   "bytes": 6148,
+   "ok": true
+  },
+  {
+   "openalex": "W3125451060",
+   "pmcid": "PMC3073853",
+   "cell": "H2_FERTILITY",
+   "http": "200",
+   "bytes": 205521,
+   "ok": true
+  },
+  {
+   "openalex": "W2054229127",
+   "pmcid": "PMC3193187",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "http": "200",
+   "bytes": 6148,
+   "ok": true
+  },
+  {
+   "openalex": "W2117546824",
+   "pmcid": "PMC3361384",
+   "cell": "PEDIGREE_RESPONSE",
+   "http": "200",
+   "bytes": 6148,
+   "ok": true
+  },
+  {
+   "openalex": "W2137890395",
+   "pmcid": "PMC3497102",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "http": "200",
+   "bytes": 6148,
+   "ok": true
+  },
+  {
+   "openalex": "W2092739320",
+   "pmcid": "PMC3668323",
+   "cell": "H2_MODERATION",
+   "http": "429",
+   "bytes": 899,
+   "ok": false
+  },
+  {
+   "openalex": "W2053209564",
+   "pmcid": "PMC3675805",
+   "cell": "H2_MODERATION",
+   "http": "200",
+   "bytes": 93648,
+   "ok": true
+  },
+  {
+   "openalex": "W2103205223",
+   "pmcid": "PMC3903217",
+   "cell": "H2_FERTILITY",
+   "http": "200",
+   "bytes": 6148,
+   "ok": true
+  },
+  {
+   "openalex": "W2128269372",
+   "pmcid": "PMC3868361",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "http": "200",
+   "bytes": 109198,
+   "ok": true
+  },
+  {
+   "openalex": "W2033634275",
+   "pmcid": "PMC4289659",
+   "cell": "H2_MODERATION",
+   "http": "200",
+   "bytes": 111511,
+   "ok": true
+  },
+  {
+   "openalex": "W2052070884",
+   "pmcid": "PMC4350917",
+   "cell": "H2_FERTILITY",
+   "http": "200",
+   "bytes": 80461,
+   "ok": true
+  },
+  {
+   "openalex": "W590852753",
+   "pmcid": "PMC4454512",
+   "cell": "H2_FERTILITY",
+   "http": "200",
+   "bytes": 94406,
+   "ok": true
+  },
+  {
+   "openalex": "W2304069640",
+   "pmcid": "PMC5785705",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "http": "200",
+   "bytes": 57791,
+   "ok": true
+  },
+  {
+   "openalex": "W2303250854",
+   "pmcid": "PMC4822435",
+   "cell": "H2_MODERATION",
+   "http": "200",
+   "bytes": 6148,
+   "ok": true
+  },
+  {
+   "openalex": "W2342100485",
+   "pmcid": "PMC5238953",
+   "cell": "H2_FERTILITY",
+   "http": "200",
+   "bytes": 132123,
+   "ok": true
+  },
+  {
+   "openalex": "W2413981805",
+   "pmcid": "PMC4914190",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "http": "429",
+   "bytes": 899,
+   "ok": false
+  },
+  {
+   "openalex": "W2470195001",
+   "pmcid": "PMC4948342",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "http": "200",
+   "bytes": 6148,
+   "ok": true
+  },
+  {
+   "openalex": "W2544485223",
+   "pmcid": "PMC5695684",
+   "cell": "H2_FERTILITY",
+   "http": "200",
+   "bytes": 176995,
+   "ok": true
+  },
+  {
+   "openalex": "W2575032714",
+   "pmcid": "PMC5293043",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "http": "200",
+   "bytes": 6148,
+   "ok": true
+  },
+  {
+   "openalex": "W2573112139",
+   "pmcid": "PMC5251940",
+   "cell": "PEDIGREE_RESPONSE",
+   "http": "200",
+   "bytes": 83367,
+   "ok": true
+  },
+  {
+   "openalex": "W2607161571",
+   "pmcid": "PMC5442430",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "http": "200",
+   "bytes": 156796,
+   "ok": true
+  },
+  {
+   "openalex": "W2625700093",
+   "pmcid": "PMC5474730",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "http": "200",
+   "bytes": 68268,
+   "ok": true
+  },
+  {
+   "openalex": "W2731861498",
+   "pmcid": "PMC5555389",
+   "cell": "H2_FERTILITY",
+   "http": "200",
+   "bytes": 113152,
+   "ok": true
+  },
+  {
+   "openalex": "W2752326665",
+   "pmcid": "PMC5642946",
+   "cell": "H2_FERTILITY",
+   "http": "200",
+   "bytes": 91767,
+   "ok": true
+  },
+  {
+   "openalex": "W2798180248",
+   "pmcid": "PMC5904310",
+   "cell": "H2_FERTILITY",
+   "http": "200",
+   "bytes": 6148,
+   "ok": true
+  },
+  {
+   "openalex": "W2856770414",
+   "pmcid": "PMC6467216",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "http": "200",
+   "bytes": 149981,
+   "ok": true
+  },
+  {
+   "openalex": "W2952789803",
+   "pmcid": "PMC6143271",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "http": "200",
+   "bytes": 170860,
+   "ok": true
+  },
+  {
+   "openalex": "W2904304377",
+   "pmcid": "PMC6291071",
+   "cell": "PEDIGREE_RESPONSE",
+   "http": "200",
+   "bytes": 90286,
+   "ok": true
+  },
+  {
+   "openalex": "W2953318985",
+   "pmcid": "PMC6369964",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "http": "200",
+   "bytes": 80014,
+   "ok": true
+  },
+  {
+   "openalex": "W2810866107",
+   "pmcid": "PMC6458425",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "http": "200",
+   "bytes": 114228,
+   "ok": true
+  },
+  {
+   "openalex": "W2965692835",
+   "pmcid": "PMC6778682",
+   "cell": "H2_FERTILITY",
+   "http": "200",
+   "bytes": 111283,
+   "ok": true
+  },
+  {
+   "openalex": "W2969099478",
+   "pmcid": "PMC6700195",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "http": "200",
+   "bytes": 88315,
+   "ok": true
+  },
+  {
+   "openalex": "W2990372252",
+   "pmcid": "PMC8022451",
+   "cell": "H2_FERTILITY",
+   "http": "200",
+   "bytes": 156669,
+   "ok": true
+  },
+  {
+   "openalex": "W3176120982",
+   "pmcid": "PMC7612120",
+   "cell": "H2_FERTILITY",
+   "http": "429",
+   "bytes": 899,
+   "ok": false
+  },
+  {
+   "openalex": "W3190761431",
+   "pmcid": "PMC8341544",
+   "cell": "PEDIGREE_RESPONSE",
+   "http": "200",
+   "bytes": 133253,
+   "ok": true
+  },
+  {
+   "openalex": "W4220783065",
+   "pmcid": "PMC8944929",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "http": "200",
+   "bytes": 74666,
+   "ok": true
+  },
+  {
+   "openalex": "W4283157868",
+   "pmcid": "PMC9545724",
+   "cell": "H2_FERTILITY",
+   "http": "200",
+   "bytes": 171572,
+   "ok": true
+  },
+  {
+   "openalex": "W3123168349",
+   "pmcid": "PMC9463317",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "http": "200",
+   "bytes": 140303,
+   "ok": true
+  },
+  {
+   "openalex": "W4308408443",
+   "pmcid": "PMC9640534",
+   "cell": "H2_FERTILITY",
+   "http": "200",
+   "bytes": 96109,
+   "ok": true
+  },
+  {
+   "openalex": "W4408525368",
+   "pmcid": "PMC11915285",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "http": "200",
+   "bytes": 89087,
+   "ok": true
+  },
+  {
+   "openalex": "W7169815648",
+   "pmcid": "PMC13416551",
+   "cell": "H2_FERTILITY",
+   "http": "200",
+   "bytes": 6148,
+   "ok": true
+  },
+  {
+   "openalex": "W2049107009",
+   "pmcid": "PMC18762",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "http": "200",
+   "bytes": 6148,
+   "ok": true
+  },
+  {
+   "openalex": "W1977560735",
+   "pmcid": "PMC1689548",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "http": "200",
+   "bytes": 6148,
+   "ok": true
+  }
+ ]
+}

@@ -11,7 +11,7 @@
 - [x] 2. Search strategy and scope drafted — `literature/search-logs/heritability-fertility-genetic-search-scope.md` (2026-08-31). **FROZEN:** Rulings 1–4 resolved; 5 routed to TICK-001. Stage 3 unblocked.
 - [x] 3. Literature search and AI screening, both phases (§5.1) — 696 distinct studies screened; stratum A complete, stratum B bounded, snowball rounds 1–2 done (§5.1 caps depth at 2)
 - [ ] 4. RA title/abstract review
-- [ ] 5. Full-text retrieval
+- [~] 5. Full-text retrieval — 108/148 (73.0%) automated; 40 handed off, split browser-job (35) / proxy-job (5)
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
 - [ ] 7. Extraction to `extraction/heritability-fertility-genetic.csv`, RA verifies a random 10%
 - [ ] 8. Risk-of-bias assessment per study
@@ -248,4 +248,28 @@ may not survive it. Expect a computed point estimate reported narratively, not a
 
 Next: RA title/abstract review (stage 4) on the 57 UNCERTAIN plus a 10% sample of the 148, then
 full-text retrieval.
+
+**2026-08-31 (Shravan) — full-text retrieval: 108/148 (73.0%).** 40 outstanding, split into a
+**browser job (35)** and a **proxy/ILL job (5)** — different work for different people, so the
+handoff does not conflate them.
+
+Routes: OA pdf/landing + publisher 99, **PMC BioC 49** (net of overlap), unpaywall-retry 3.
+
+**The PMC rung was reported dead twice and was neither time empty.** First, OpenAlex populates
+`ids.pmcid` for **0 of 148** records while carrying `ids.pmid` for 102 — the rung was unreachable by
+the route used, not absent. Then the NCBI ID converter 301-redirected to a new host and my curl
+lacked `-L`, so the redirect HTML parsed as "unparseable" and printed `pmcid_found: 0`. Then the
+response returns `pmid` as an **integer** against string keys, so every match failed and it printed
+zero a third time. Fixed: **52 PMCIDs found, 49 BioC full texts fetched** — a 94% fetch rate on the
+rung that three separate defects had reported as dead.
+
+**Unpaywall was found-143 / fetched-0 in `260` because I never followed the URLs** — the script
+recorded the API attempt and `continue`d. Following them (262) yielded 13 OA URLs and 0 fetches, and
+that zero IS genuine: 403 from SSRN and publisher CDNs, 429 from bioRxiv. The 429s are rate limits,
+not blocks, and 3 of 4 recovered on backoff.
+
+**Cell cross-tab, which the overall rate hides:** `SELECTION_DIFFERENTIAL` 80.0% · `PEDIGREE_RESPONSE`
+75.0% · `H2_FERTILITY` 72.7% · `PREDICTED_RESPONSE` 66.7% (4/6) · **`H2_MODERATION` 53.8% (7/13)** ·
+`WITHIN_VS_POPULATION` 50%. The moderation arm — the chapter's distinctive finding — remains the
+worst-retrieved, and its outstanding records are at the front of the browser-job queue.
 

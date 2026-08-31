@@ -1,0 +1,390 @@
+{
+ "summary": {
+  "ticket": "TICK-076",
+  "attempted": 44,
+  "oa_url_found": 13,
+  "fetched": 0,
+  "fetched_by_cell": {},
+  "note": "260 found 143 unpaywall routes and followed none; this follows them."
+ },
+ "records": [
+  {
+   "openalex": "W2170780249",
+   "cell": "H2_FERTILITY",
+   "doi": "10.1098/rspb.1996.0207",
+   "unpaywall_http": "200",
+   "oa_url": null,
+   "fetched": false
+  },
+  {
+   "openalex": "W2036516886",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "doi": "10.1073/pnas.0511123103",
+   "unpaywall_http": "200",
+   "oa_url": null,
+   "fetched": false
+  },
+  {
+   "openalex": "W2059206901",
+   "cell": "PEDIGREE_RESPONSE",
+   "doi": "10.1002/(sici)1096-8644(199903)108:3<375::aid-ajpa11>3.0.co;2-g",
+   "unpaywall_http": "200",
+   "oa_url": null,
+   "fetched": false
+  },
+  {
+   "openalex": "W1966206981",
+   "cell": "H2_FERTILITY",
+   "doi": "10.1111/j.1558-5646.1976.tb00911.x",
+   "unpaywall_http": "200",
+   "oa_url": null,
+   "fetched": false
+  },
+  {
+   "openalex": "W2022720305",
+   "cell": "H2_FERTILITY",
+   "doi": "10.1098/rspb.1991.0118",
+   "unpaywall_http": "200",
+   "oa_url": null,
+   "fetched": false
+  },
+  {
+   "openalex": "W2894859047",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "doi": "10.5694/j.1326-5377.1953.tb84985.x",
+   "unpaywall_http": "200",
+   "oa_url": null,
+   "fetched": false
+  },
+  {
+   "openalex": "W3125451060",
+   "cell": "H2_FERTILITY",
+   "doi": "10.1257/aer.101.1.158",
+   "unpaywall_http": "200",
+   "oa_url": null,
+   "fetched": false
+  },
+  {
+   "openalex": "W2103638956",
+   "cell": "H2_FERTILITY",
+   "doi": "10.1001/jamapsychiatry.2013.4081",
+   "unpaywall_http": "200",
+   "oa_url": null,
+   "fetched": false
+  },
+  {
+   "openalex": "W2058506038",
+   "cell": "H2_MODERATION",
+   "doi": "10.1111/j.1469-1809.1979.tb00671.x",
+   "unpaywall_http": "200",
+   "oa_url": null,
+   "fetched": false
+  },
+  {
+   "openalex": "W1975033759",
+   "cell": "H2_FERTILITY",
+   "doi": "10.1080/19485565.1962.9987508",
+   "unpaywall_http": "200",
+   "oa_url": null,
+   "fetched": false
+  },
+  {
+   "openalex": "W1970145640",
+   "cell": "PREDICTED_RESPONSE",
+   "doi": "10.1111/j.1728-4457.2005.00054.x",
+   "unpaywall_http": "200",
+   "oa_url": null,
+   "fetched": false
+  },
+  {
+   "openalex": "W2010362031",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "doi": "10.1111/j.1469-1809.1979.tb02006.x",
+   "unpaywall_http": "200",
+   "oa_url": null,
+   "fetched": false
+  },
+  {
+   "openalex": "W2907419907",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "doi": "10.1080/08870446.2018.1498499",
+   "unpaywall_http": "200",
+   "oa_url": null,
+   "fetched": false
+  },
+  {
+   "openalex": "W2798180248",
+   "cell": "H2_FERTILITY",
+   "doi": "10.1098/rspb.2017.2763",
+   "unpaywall_http": "200",
+   "oa_url": "https://figshare.com/articles/journal_contribution/Heritable_spouse_effects_increase_evolutionary_potential_of_human_reproductive_timing/29742032",
+   "fetched": false,
+   "fetch_http": "202",
+   "bytes": 0
+  },
+  {
+   "openalex": "W1992576554",
+   "cell": "H2_MODERATION",
+   "doi": "10.1080/19485565.2002.9989060",
+   "unpaywall_http": "200",
+   "oa_url": null,
+   "fetched": false
+  },
+  {
+   "openalex": "W2856770414",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "doi": "10.1007/s13524-018-0696-1",
+   "unpaywall_http": "200",
+   "oa_url": "https://read.dukeupress.edu/demography/article-pdf/55/4/1245/841792/1245gaydosh.pdf",
+   "fetched": false,
+   "fetch_http": "403",
+   "bytes": 5937
+  },
+  {
+   "openalex": "W2413981805",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "doi": "10.1073/pnas.1523592113",
+   "unpaywall_http": "200",
+   "oa_url": null,
+   "fetched": false
+  },
+  {
+   "openalex": "W1774122399",
+   "cell": "H2_MODERATION",
+   "doi": "10.1111/evo.12598",
+   "unpaywall_http": "200",
+   "oa_url": null,
+   "fetched": false
+  },
+  {
+   "openalex": "W2009249473",
+   "cell": "H2_FERTILITY",
+   "doi": "10.1111/j.1469-1809.1970.tb01650.x",
+   "unpaywall_http": "200",
+   "oa_url": null,
+   "fetched": false
+  },
+  {
+   "openalex": "W1967862655",
+   "cell": "H2_FERTILITY",
+   "doi": "10.1353/dem.2001.0009",
+   "unpaywall_http": "200",
+   "oa_url": null,
+   "fetched": false
+  },
+  {
+   "openalex": "W2548870266",
+   "cell": "PREDICTED_RESPONSE",
+   "doi": "10.1080/19485565.2016.1212322",
+   "unpaywall_http": "200",
+   "oa_url": null,
+   "fetched": false
+  },
+  {
+   "openalex": "W4415164102",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "doi": "10.1101/2025.10.13.682154",
+   "unpaywall_http": "200",
+   "oa_url": "https://www.biorxiv.org/content/biorxiv/early/2025/10/14/2025.10.13.682154.full.pdf",
+   "fetched": false,
+   "fetch_http": "429",
+   "bytes": 17
+  },
+  {
+   "openalex": "W3180091553",
+   "cell": "H2_FERTILITY",
+   "doi": "10.1215/00703370-9373608",
+   "unpaywall_http": "200",
+   "oa_url": "https://read.dukeupress.edu/demography/article-pdf/58/4/1575/934146/1575vanwinkle.pdf",
+   "fetched": false,
+   "fetch_http": "403",
+   "bytes": 5943
+  },
+  {
+   "openalex": "W2091998589",
+   "cell": "H2_FERTILITY",
+   "doi": "10.1111/1467-8721.00145",
+   "unpaywall_http": "200",
+   "oa_url": null,
+   "fetched": false
+  },
+  {
+   "openalex": "W1975448621",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "doi": "10.4236/aa.2013.33016",
+   "unpaywall_http": "200",
+   "oa_url": "http://www.scirp.org/journal/PaperDownload.aspx?paperID=34508",
+   "fetched": false,
+   "fetch_http": "403",
+   "bytes": 150
+  },
+  {
+   "openalex": "W2109418124",
+   "cell": "H2_MODERATION",
+   "doi": "10.1111/j.1728-4457.1999.00253.x",
+   "unpaywall_http": "200",
+   "oa_url": null,
+   "fetched": false
+  },
+  {
+   "openalex": "W3127086984",
+   "cell": "H2_FERTILITY",
+   "doi": "10.1101/2020.05.06.081273",
+   "unpaywall_http": "200",
+   "oa_url": "https://www.biorxiv.org/content/biorxiv/early/2021/02/04/2020.05.06.081273.full.pdf",
+   "fetched": false,
+   "fetch_http": "429",
+   "bytes": 17
+  },
+  {
+   "openalex": "W1971984564",
+   "cell": "H2_MODERATION",
+   "doi": "10.1007/s13524-012-0186-9",
+   "unpaywall_http": "200",
+   "oa_url": "https://read.dukeupress.edu/demography/article-pdf/50/4/1399/867618/1399nisen.pdf",
+   "fetched": false,
+   "fetch_http": "403",
+   "bytes": 5931
+  },
+  {
+   "openalex": "W2337218734",
+   "cell": "H2_MODERATION",
+   "doi": "10.1101/049163",
+   "unpaywall_http": "200",
+   "oa_url": "https://www.biorxiv.org/content/biorxiv/early/2016/05/02/049163.full.pdf",
+   "fetched": false,
+   "fetch_http": "429",
+   "bytes": 17
+  },
+  {
+   "openalex": "W2123568085",
+   "cell": "H2_FERTILITY",
+   "doi": "10.1093/molehr/gam041",
+   "unpaywall_http": "200",
+   "oa_url": null,
+   "fetched": false
+  },
+  {
+   "openalex": "W2106599966",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "doi": "10.1086/653668",
+   "unpaywall_http": "200",
+   "oa_url": null,
+   "fetched": false
+  },
+  {
+   "openalex": "W2093698295",
+   "cell": "H2_FERTILITY",
+   "doi": "10.1111/j.1365-2605.2005.00606.x",
+   "unpaywall_http": "200",
+   "oa_url": null,
+   "fetched": false
+  },
+  {
+   "openalex": "W2168144246",
+   "cell": "H2_FERTILITY",
+   "doi": "10.1111/j.0014-3820.2001.tb01304.x",
+   "unpaywall_http": "200",
+   "oa_url": null,
+   "fetched": false
+  },
+  {
+   "openalex": "W1981839149",
+   "cell": "PEDIGREE_RESPONSE",
+   "doi": "10.1098/rspb.1996.0215",
+   "unpaywall_http": "200",
+   "oa_url": null,
+   "fetched": false
+  },
+  {
+   "openalex": "W1870016096",
+   "cell": "PEDIGREE_RESPONSE",
+   "doi": "10.2139/ssrn.2409547",
+   "unpaywall_http": "200",
+   "oa_url": "https://doi.org/10.2139/ssrn.2409547",
+   "fetched": false,
+   "fetch_http": "403",
+   "bytes": 896435
+  },
+  {
+   "openalex": "W2004640129",
+   "cell": "H2_FERTILITY",
+   "doi": "10.1080/19485565.1974.9988115",
+   "unpaywall_http": "200",
+   "oa_url": null,
+   "fetched": false
+  },
+  {
+   "openalex": "W2117546824",
+   "cell": "PEDIGREE_RESPONSE",
+   "doi": "10.1073/pnas.1118174109",
+   "unpaywall_http": "200",
+   "oa_url": null,
+   "fetched": false
+  },
+  {
+   "openalex": "W2171689700",
+   "cell": "H2_FERTILITY",
+   "doi": "10.1093/gerona/gls218",
+   "unpaywall_http": "200",
+   "oa_url": null,
+   "fetched": false
+  },
+  {
+   "openalex": "W2021992969",
+   "cell": "H2_FERTILITY",
+   "doi": "10.1073/pnas.0906196106",
+   "unpaywall_http": "200",
+   "oa_url": null,
+   "fetched": false
+  },
+  {
+   "openalex": "W4285005223",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "doi": "10.1111/nyas.14859",
+   "unpaywall_http": "200",
+   "oa_url": null,
+   "fetched": false
+  },
+  {
+   "openalex": "W4403035796",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "doi": "10.1101/2024.09.30.615774",
+   "unpaywall_http": "200",
+   "oa_url": "https://www.biorxiv.org/content/biorxiv/early/2024/10/01/2024.09.30.615774.full.pdf",
+   "fetched": false,
+   "fetch_http": "429",
+   "bytes": 17
+  },
+  {
+   "openalex": "W4416670776",
+   "cell": "H2_FERTILITY",
+   "doi": "10.1093/jeb/voaf145",
+   "unpaywall_http": "200",
+   "oa_url": "https://academic.oup.com/jeb/advance-article-pdf/doi/10.1093/jeb/voaf145/65497252/voaf145.pdf",
+   "fetched": false,
+   "fetch_http": "403",
+   "bytes": 5952
+  },
+  {
+   "openalex": "W4214728008",
+   "cell": "H2_MODERATION",
+   "doi": "10.2139/ssrn.3938650",
+   "unpaywall_http": "200",
+   "oa_url": "https://doi.org/10.2139/ssrn.3938650",
+   "fetched": false,
+   "fetch_http": "403",
+   "bytes": 896435
+  },
+  {
+   "openalex": "W2784016405",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "doi": "10.53846/goediss-6628",
+   "unpaywall_http": "200",
+   "oa_url": "https://ediss.uni-goettingen.de/bitstream/11858/00-1735-0000-002E-E301-9/1/Dissertation_Ruben_C_Arslan.pdf",
+   "fetched": false,
+   "fetch_http": "403",
+   "bytes": 3780
+  }
+ ]
+}

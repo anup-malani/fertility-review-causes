@@ -1,0 +1,5615 @@
+{
+ "summary": {
+  "ticket": "TICK-076",
+  "n": 148,
+  "fetched": true,
+  "rung_found": {
+   "1_oa_pdf": 73,
+   "1_oa_landing": 132,
+   "3_unpaywall": 143,
+   "4_publisher": 133
+  },
+  "rung_fetched": {
+   "1_oa_pdf": 37,
+   "4_publisher": 32,
+   "1_oa_landing": 30
+  },
+  "status": {
+   "RETRIEVED": 99,
+   "BOT_BLOCKED": 44,
+   "NO_ROUTE": 5
+  },
+  "by_cell": {
+   "H2_FERTILITY": {
+    "RETRIEVED": 44,
+    "BOT_BLOCKED": 19,
+    "NO_ROUTE": 3
+   },
+   "SELECTION_DIFFERENTIAL": {
+    "BOT_BLOCKED": 12,
+    "RETRIEVED": 33
+   },
+   "PEDIGREE_RESPONSE": {
+    "BOT_BLOCKED": 4,
+    "RETRIEVED": 11,
+    "NO_ROUTE": 1
+   },
+   "WITHIN_VS_POPULATION": {
+    "NO_ROUTE": 1,
+    "RETRIEVED": 1
+   },
+   "H2_MODERATION": {
+    "BOT_BLOCKED": 7,
+    "RETRIEVED": 6
+   },
+   "PREDICTED_RESPONSE": {
+    "BOT_BLOCKED": 2,
+    "RETRIEVED": 4
+   }
+  },
+  "oa_share": 55.4
+ },
+ "records": [
+  {
+   "openalex": "W2052070884",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Genome-Wide Association Study of Parity in Bangladeshi Women",
+   "doi": "10.1371/journal.pone.0118488",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0118488&type=printable"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/4350917"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "http://knowledge.uchicago.edu/record/8414"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://doi.org/10.6082/evppr-fvf60"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://doi.org/10.6082/j97tb-kaw18"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://doi.org/10.7916/d8xk8fcm"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1371/journal.pone.0118488?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1371/journal.pone.0118488"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 2511323
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2052070884.html",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W2165665473",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Explaining stasis: microevolutionary studies in natural populations",
+   "doi": "10.1023/a:1013391806317",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1023/a:1013391806317?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1023/a:1013391806317"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 1337
+    },
+    {
+     "rung": "4_publisher",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 3038
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2165665473.html",
+   "rung": "4_publisher"
+  },
+  {
+   "openalex": "W2170780249",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "The lek paradox and the capture of genetic variance by condition dependent traits",
+   "doi": "10.1098/rspb.1996.0207",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1098/rspb.1996.0207?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1098/rspb.1996.0207"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 728
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5794
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W108975355",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "A Heritability Study of Childbearing Motivation",
+   "doi": "10.1007/978-1-4615-4467-8_7",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1007/978-1-4615-4467-8_7?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1007/978-1-4615-4467-8_7"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 884
+    },
+    {
+     "rung": "4_publisher",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 3038
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W108975355.html",
+   "rung": "4_publisher"
+  },
+  {
+   "openalex": "W2036516886",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "Quantitative genetics of age at reproduction in wild swans: Support for antagonistic pleiotropy models of senescence",
+   "doi": "10.1073/pnas.0511123103",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1073/pnas.0511123103?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1073/pnas.0511123103"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 1942
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5793
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W2059206901",
+   "cell": "PEDIGREE_RESPONSE",
+   "arm": "SELECTION",
+   "title": "Genetics and analysis of quantitative traits",
+   "doi": "10.1002/(sici)1096-8644(199903)108:3<375::aid-ajpa11>3.0.co;2-g",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1002/(sici)1096-8644(199903)108:3<375::aid-ajpa11>3.0.co;2-g?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1002/(sici)1096-8644(199903)108:3<375::aid-ajpa11>3.0.co;2-g"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 949
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 6075
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W1532328642",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Life History, Evolution of",
+   "doi": "10.1016/b0-12-226865-2/00175-9",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1016/b0-12-226865-2/00175-9?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1016/b0-12-226865-2/00175-9"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 707
+    },
+    {
+     "rung": "4_publisher",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 2640
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W1532328642.html",
+   "rung": "4_publisher"
+  },
+  {
+   "openalex": "W1966206981",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "NATURAL SELECTION AND RANDOM GENETIC DRIFT IN PHENOTYPIC EVOLUTION",
+   "doi": "10.1111/j.1558-5646.1976.tb00911.x",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1111/j.1558-5646.1976.tb00911.x?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1111/j.1558-5646.1976.tb00911.x"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 965
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5798
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W1966568033",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "The Genetical Theory of Natural Selection",
+   "doi": "10.1038/126595a0",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1038/126595a0?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1038/126595a0"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 746
+    },
+    {
+     "rung": "4_publisher",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 197846
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W1966568033.html",
+   "rung": "4_publisher"
+  },
+  {
+   "openalex": "W4297124397",
+   "cell": "PEDIGREE_RESPONSE",
+   "arm": "SELECTION",
+   "title": "The adaptive landscape as a conceptual bridge between micro- and macroevolution",
+   "doi": "10.1023/a:1013373907708",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1023/a:1013373907708?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1023/a:1013373907708"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 1325
+    },
+    {
+     "rung": "4_publisher",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 3038
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W4297124397.html",
+   "rung": "4_publisher"
+  },
+  {
+   "openalex": "W2084434401",
+   "cell": "PEDIGREE_RESPONSE",
+   "arm": "SELECTION",
+   "title": "Genetic correlations, tradeoffs and environmental variation",
+   "doi": "10.1038/sj.hdy.6800532",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://www.nature.com/articles/6800532.pdf"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1038/sj.hdy.6800532?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1038/sj.hdy.6800532"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 130525
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2084434401.pdf",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W2022720305",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Conflicting selection pressures and life history trade-offs",
+   "doi": "10.1098/rspb.1991.0118",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1098/rspb.1991.0118?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1098/rspb.1991.0118"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 706
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5794
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W2894859047",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "AN UNSOLVED PROBLEM OF BIOLOGY",
+   "doi": "10.5694/j.1326-5377.1953.tb84985.x",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.5694/j.1326-5377.1953.tb84985.x?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.5694/j.1326-5377.1953.tb84985.x"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 647
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5945
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W2049107009",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "Grandmothering, menopause, and the evolution of human life histories",
+   "doi": "10.1073/pnas.95.3.1336",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/18762"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1073/pnas.95.3.1336?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1073/pnas.95.3.1336"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_landing",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 20396
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2049107009.html",
+   "rung": "1_oa_landing"
+  },
+  {
+   "openalex": "W1539376400",
+   "cell": "PEDIGREE_RESPONSE",
+   "arm": "SELECTION",
+   "title": "Not in Our Genes: Biology, Ideology, and Human Nature",
+   "doi": null,
+   "is_oa": false,
+   "candidates": [],
+   "attempts": [],
+   "status": "NO_ROUTE",
+   "file": null
+  },
+  {
+   "openalex": "W1520559947",
+   "cell": "WITHIN_VS_POPULATION",
+   "arm": "METHOD",
+   "title": "Animal breeding plans",
+   "doi": null,
+   "is_oa": false,
+   "candidates": [],
+   "attempts": [],
+   "status": "NO_ROUTE",
+   "file": null
+  },
+  {
+   "openalex": "W3125451060",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "The Effect of Female Education on Fertility and Infant Health: Evidence from School Entry Policies Using Exact Date of Birth",
+   "doi": "10.1257/aer.101.1.158",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1257/aer.101.1.158?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1257/aer.101.1.158"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 1158
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5779
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W2103638956",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "A Comprehensive Assessment of Parental Age and Psychiatric Disorders",
+   "doi": "10.1001/jamapsychiatry.2013.4081",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1001/jamapsychiatry.2013.4081?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1001/jamapsychiatry.2013.4081"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 2713
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5936
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W2068827105",
+   "cell": "PEDIGREE_RESPONSE",
+   "arm": "SELECTION",
+   "title": "Reproduction and longevity among the British peerage: the effect of frailty and health selection",
+   "doi": "10.1098/rspb.2003.2400",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/1691410"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1098/rspb.2003.2400?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1098/rspb.2003.2400"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_landing",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 20402
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2068827105.html",
+   "rung": "1_oa_landing"
+  },
+  {
+   "openalex": "W1994535024",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "On genetic variation in menarche and age at first sexual intercourse",
+   "doi": "10.1016/s1090-5138(02)00102-2",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1016/s1090-5138(02)00102-2?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1016/s1090-5138(02)00102-2"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 896
+    },
+    {
+     "rung": "4_publisher",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 2682
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W1994535024.html",
+   "rung": "4_publisher"
+  },
+  {
+   "openalex": "W1978496284",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "On the possibility of the reemergence of a dysgenic trend with respect to intelligence in American fertility differentials",
+   "doi": "10.1016/0160-2896(82)90002-2",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1016/0160-2896(82)90002-2?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1016/0160-2896(82)90002-2"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 890
+    },
+    {
+     "rung": "4_publisher",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 2732
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W1978496284.html",
+   "rung": "4_publisher"
+  },
+  {
+   "openalex": "W2058506038",
+   "cell": "H2_MODERATION",
+   "arm": "H2_MOD",
+   "title": "The effects of demographic transition on the opportunity for selection: changes during the last century in Italy",
+   "doi": "10.1111/j.1469-1809.1979.tb00671.x",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1111/j.1469-1809.1979.tb00671.x?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1111/j.1469-1809.1979.tb00671.x"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 1328
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5933
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W3190761431",
+   "cell": "PEDIGREE_RESPONSE",
+   "arm": "SELECTION",
+   "title": "Examining the trade-offs between human fertility and longevity over three centuries using crowdsourced genealogy data",
+   "doi": "10.1371/journal.pone.0255528",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0255528&type=printable"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/8341544"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://doaj.org/article/19d60cd3d3554edfb451fdbce8804c22"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://doaj.org/article/a3022b9b27544f11be4a24f1d88bde77"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1371/journal.pone.0255528?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1371/journal.pone.0255528"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 1510645
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W3190761431.html",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W2904304377",
+   "cell": "PEDIGREE_RESPONSE",
+   "arm": "SELECTION",
+   "title": "Early-life environment and differences in costs of reproduction in a preindustrial human population",
+   "doi": "10.1371/journal.pone.0207236",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0207236&type=printable"
+    },
+    {
+     "rung": "1_oa_pdf",
+     "url": "http://ruj.uj.edu.pl/bitstreams/0aa505d0-0495-4db0-a005-438b56abcca8/download"
+    },
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://www.utupub.fi/bitstream/10024/183084/1/Plos_one_Article.pdf"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6291071"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://ruj.uj.edu.pl/xmlui/handle/item/103680"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://ruj.uj.edu.pl/xmlui/handle/item/124753"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://doaj.org/article/afa0876df6c3428b98ab5bb475f202de"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://figshare.com/articles/dataset/Early-life_environment_and_differences_in_costs_of_reproduction_in_a_preindustrial_human_population/7455521"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1371/journal.pone.0207236?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1371/journal.pone.0207236"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 864710
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2904304377.html",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W2057403477",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Age at first intercourse in twins reared apart: Genetic influence and life history events",
+   "doi": "10.1016/j.paid.2009.02.010",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1016/j.paid.2009.02.010?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1016/j.paid.2009.02.010"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 1243
+    },
+    {
+     "rung": "4_publisher",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 2703
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2057403477.html",
+   "rung": "4_publisher"
+  },
+  {
+   "openalex": "W2560295938",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Genetic confounding of the relationship between father absence and age at menarche",
+   "doi": "10.1016/j.evolhumbehav.2016.11.007",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1016/j.evolhumbehav.2016.11.007?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1016/j.evolhumbehav.2016.11.007"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 1189
+    },
+    {
+     "rung": "4_publisher",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 2718
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2560295938.html",
+   "rung": "4_publisher"
+  },
+  {
+   "openalex": "W1975033759",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Intelligence and family size: A paradox resolved",
+   "doi": "10.1080/19485565.1962.9987508",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1080/19485565.1962.9987508?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1080/19485565.1962.9987508"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 1443
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5929
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W2165786168",
+   "cell": "PEDIGREE_RESPONSE",
+   "arm": "SELECTION",
+   "title": "Reproductive life of french-canadians in the 17\u201318th centuries: A search for a trade-off between early fecundity and longevity",
+   "doi": "10.1016/0531-5565(93)90030-h",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1016/0531-5565(93)90030-h?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1016/0531-5565(93)90030-h"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 1005
+    },
+    {
+     "rung": "4_publisher",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 2742
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2165786168.html",
+   "rung": "4_publisher"
+  },
+  {
+   "openalex": "W1970145640",
+   "cell": "PREDICTED_RESPONSE",
+   "arm": "SELECTION",
+   "title": "Why Is Fertility Lower in Wealthier Countries? The Role of Relaxed Fertility-Selection",
+   "doi": "10.1111/j.1728-4457.2005.00054.x",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1111/j.1728-4457.2005.00054.x?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1111/j.1728-4457.2005.00054.x"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 900
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5927
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W2045292033",
+   "cell": "PEDIGREE_RESPONSE",
+   "arm": "SELECTION",
+   "title": "Middleborns Disadvantaged? Testing Birth-Order Effects on Fitness in Pre-Industrial Finns",
+   "doi": "10.1371/journal.pone.0005680",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_landing",
+     "url": "https://doi.org/10.1371/journal.pone.0005680"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/2683935"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://doaj.org/article/457e1350d3be43e0988fb905184ea780"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1371/journal.pone.0005680?email=shravanh@uchicago.edu"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_landing",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 236498
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2045292033.html",
+   "rung": "1_oa_landing"
+  },
+  {
+   "openalex": "W1999087381",
+   "cell": "PREDICTED_RESPONSE",
+   "arm": "SELECTION",
+   "title": "Wright\u2013Fisher Revisited: The Case of Fertility Correlation",
+   "doi": "10.1006/tpbi.2002.1609",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1006/tpbi.2002.1609?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1006/tpbi.2002.1609"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 1040
+    },
+    {
+     "rung": "4_publisher",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 2678
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W1999087381.html",
+   "rung": "4_publisher"
+  },
+  {
+   "openalex": "W2010362031",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "Changes of selection opportunities with a changing environment: regional heterogeneity in Italy",
+   "doi": "10.1111/j.1469-1809.1979.tb02006.x",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1111/j.1469-1809.1979.tb02006.x?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1111/j.1469-1809.1979.tb02006.x"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 1311
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5933
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W2009595306",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Age at First Sexual Intercourse and Teenage Pregnancy in Australian Female Twins",
+   "doi": "10.1375/twin.10.3.440",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/282F70129FD956DCBE92D496CA137440/S183242740000801Xa.pdf/div-class-title-age-at-first-sexual-intercourse-and-teenage-pregnancy-in-australian-female-twins-div.pdf"
+    },
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://digitalcommons.wustl.edu/cgi/viewcontent.cgi?article=4219&context=open_access_pubs"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1375/twin.10.3.440?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1375/twin.10.3.440"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 131554
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2009595306.pdf",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W2907419907",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "A 10-year prospective study of personality and reproductive success: Testing the mediating role of healthy living",
+   "doi": "10.1080/08870446.2018.1498499",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1080/08870446.2018.1498499?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1080/08870446.2018.1498499"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 1052
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5907
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W2965692835",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Responding to a 100-Year-Old Challenge from Fisher: A Biometrical Analysis of Adult Height in the NLSY Data Using Only Cousin Pairs",
+   "doi": "10.1007/s10519-019-09967-6",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6778682"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1007/s10519-019-09967-6?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1007/s10519-019-09967-6"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_landing",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 20404
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2965692835.html",
+   "rung": "1_oa_landing"
+  },
+  {
+   "openalex": "W2952789803",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "Detecting past and ongoing natural selection among ethnically Tibetan women at high altitude in Nepal",
+   "doi": "10.1371/journal.pgen.1007650",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://journals.plos.org/plosgenetics/article/file?id=10.1371/journal.pgen.1007650&type=printable"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6143271"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "http://knowledge.uchicago.edu/record/6360"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://doaj.org/article/d6bf847e53364b1abf700ade9f49d887"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://figshare.com/articles/dataset/Detecting_past_and_ongoing_natural_selection_among_ethnically_Tibetan_women_at_high_altitude_in_Nepal/7054748"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1371/journal.pgen.1007650?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1371/journal.pgen.1007650"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 4434884
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2952789803.html",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W4236254606",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Social Science Genetics and Fertility",
+   "doi": "10.31235/osf.io/gn9ve",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.31235/osf.io/gn9ve?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.31235/osf.io/gn9ve"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 706
+    },
+    {
+     "rung": "4_publisher",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 4207
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W4236254606.html",
+   "rung": "4_publisher"
+  },
+  {
+   "openalex": "W4220783065",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "GWAS on birth year infant mortality rates provides evidence of recent natural selection",
+   "doi": "10.1073/pnas.2117312119",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/8944929"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1073/pnas.2117312119?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1073/pnas.2117312119"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_landing",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 20403
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W4220783065.html",
+   "rung": "1_oa_landing"
+  },
+  {
+   "openalex": "W2798180248",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Heritable spouse effects increase evolutionary potential of human reproductive timing",
+   "doi": "10.1098/rspb.2017.2763",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_landing",
+     "url": "https://figshare.com/articles/journal_contribution/Heritable_spouse_effects_increase_evolutionary_potential_of_human_reproductive_timing/29742032"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1098/rspb.2017.2763?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1098/rspb.2017.2763"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_landing",
+     "http": "202",
+     "kind": "error",
+     "bytes": 0
+    },
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 3835
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5794
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W1992576554",
+   "cell": "H2_MODERATION",
+   "arm": "H2_MOD",
+   "title": "Between nurture and nature: The shifting determinants of female fertility in Danish twin cohorts",
+   "doi": "10.1080/19485565.2002.9989060",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1080/19485565.2002.9989060?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1080/19485565.2002.9989060"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 1641
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5926
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W2856770414",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "Father Absence and Accelerated Reproductive Development in Non-Hispanic White Women in the United States",
+   "doi": "10.1007/s13524-018-0696-1",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://read.dukeupress.edu/demography/article-pdf/55/4/1245/841792/1245gaydosh.pdf"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1007/s13524-018-0696-1?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1007/s13524-018-0696-1"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5937
+    },
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 3311
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 6052
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W4410412365",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Reproductive and cognitive phenotypes in carriers of recessive pathogenic variants",
+   "doi": "10.1038/s41562-025-02204-7",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://repository.ubn.ru.nl//bitstream/handle/2066/322522/322522.pdf"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1038/s41562-025-02204-7?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1038/s41562-025-02204-7"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 239
+    },
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 4083
+    },
+    {
+     "rung": "4_publisher",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 395381
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W4410412365.html",
+   "rung": "4_publisher"
+  },
+  {
+   "openalex": "W4390167893",
+   "cell": "H2_MODERATION",
+   "arm": "H2_MOD",
+   "title": "The Influence of Societal Changes on the Contribution of Genetics to Fertility Behavior",
+   "doi": "10.1215/00703370-12757268",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_landing",
+     "url": "https://doi.org/10.1215/00703370-12757268"
+    },
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://osf.io/wmsq6/download"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1215/00703370-12757268?email=shravanh@uchicago.edu"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_landing",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 6124
+    },
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 428969
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W4390167893.html",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W2762552667",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "Measuring selection for genes that promote long life in a historical human population",
+   "doi": "10.1038/s41559-017-0329-x",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://www.research.ed.ac.uk/files/45459335/PR_survival_IUSSP_002_.pdf"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1038/s41559-017-0329-x?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1038/s41559-017-0329-x"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5897
+    },
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 2998
+    },
+    {
+     "rung": "4_publisher",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 389069
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2762552667.html",
+   "rung": "4_publisher"
+  },
+  {
+   "openalex": "W4400559341",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "Natural Selection Across Three Generations of Americans",
+   "doi": "10.1007/s10519-024-10189-8",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1007/s10519-024-10189-8?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1007/s10519-024-10189-8"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 1006
+    },
+    {
+     "rung": "4_publisher",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 3038
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W4400559341.html",
+   "rung": "4_publisher"
+  },
+  {
+   "openalex": "W2413981805",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "Assortative mating and differential fertility by phenotype and genotype across the 20th century",
+   "doi": "10.1073/pnas.1523592113",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1073/pnas.1523592113?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1073/pnas.1523592113"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 1982
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5793
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W1973490559",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "Deep Human Genealogies Reveal a Selective Advantage to Be on an Expanding Wave Front",
+   "doi": "10.1126/science.1212880",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_landing",
+     "url": "https://constellation.uqac.ca/id/eprint/8286/"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1126/science.1212880?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1126/science.1212880"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_landing",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 17551
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W1973490559.html",
+   "rung": "1_oa_landing"
+  },
+  {
+   "openalex": "W76510084",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Education, Fertility, and Heritability: Explaining a Paradox",
+   "doi": null,
+   "is_oa": false,
+   "candidates": [],
+   "attempts": [],
+   "status": "NO_ROUTE",
+   "file": null
+  },
+  {
+   "openalex": "W1657275493",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Genetic influence on age at first birth of female twins born in the UK, 1919\u201368",
+   "doi": "10.1080/00324728.2015.1056823",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_landing",
+     "url": "https://research.wur.nl/en/publications/genetic-influence-on-age-at-first-birth-of-female-twins-born-in-t"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1080/00324728.2015.1056823?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1080/00324728.2015.1056823"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_landing",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 52087
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W1657275493.html",
+   "rung": "1_oa_landing"
+  },
+  {
+   "openalex": "W603943191",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Offspring: Human Fertility Behavior in Biodemographic Perspective",
+   "doi": null,
+   "is_oa": false,
+   "candidates": [],
+   "attempts": [],
+   "status": "NO_ROUTE",
+   "file": null
+  },
+  {
+   "openalex": "W2137890395",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "Constraints on the coevolution of contemporary human males and females",
+   "doi": "10.1098/rspb.2012.2024",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3497102"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1098/rspb.2012.2024?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1098/rspb.2012.2024"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_landing",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 20403
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2137890395.html",
+   "rung": "1_oa_landing"
+  },
+  {
+   "openalex": "W2488523304",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "A Behavioral Genetics Study of Age at First Birth of Female UK Twins",
+   "doi": null,
+   "is_oa": false,
+   "candidates": [],
+   "attempts": [],
+   "status": "NO_ROUTE",
+   "file": null
+  },
+  {
+   "openalex": "W2752326665",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Hidden heritability due to heterogeneity across seven populations",
+   "doi": "10.1038/s41562-017-0195-1",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://www.nature.com/articles/s41562-017-0195-1.pdf"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://research.vu.nl/en/publications/a5971535-9ad4-4646-bb49-7d692551a1c2"
+    },
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://iris.unil.ch/bitstreams/79aa4155-6123-4f8d-92af-125e88da2711/download"
+    },
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://pure.rug.nl/ws/files/51523072/Tropf_et_al_2017_Nature_Human_Behaviour.pdf"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "http://hdl.handle.net/1765/108038"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://hdl.handle.net/11370/7ef50cf2-e2eb-41ea-9668-fd8c4fc38e13"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "http://repub.eur.nl/pub/108038"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://hdl.handle.net/1871.1/a5971535-9ad4-4646-bb49-7d692551a1c2"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1038/s41562-017-0195-1?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1038/s41562-017-0195-1"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 398793
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2752326665.pdf",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W2953318985",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "An evolutionary compass for detecting signals of polygenic selection and mutational bias",
+   "doi": "10.1002/evl3.97",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/evl3.97"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "http://europepmc.org/pmc/articles/PMC6369964"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6369964"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1002/evl3.97?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1002/evl3.97"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5885
+    },
+    {
+     "rung": "1_oa_landing",
+     "http": "404",
+     "kind": "not_found",
+     "bytes": 118
+    },
+    {
+     "rung": "1_oa_landing",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 20402
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2953318985.html",
+   "rung": "1_oa_landing"
+  },
+  {
+   "openalex": "W4283157868",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Alcohol consumption at age 18\u201325 and number of children at a 33\u2010year follow\u2010up: Individual and within\u2010pair analyses of Finnish twins",
+   "doi": "10.1111/acer.14886",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_landing",
+     "url": "https://doi.org/10.1111/acer.14886"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/9545724"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "http://hdl.handle.net/10138/347888"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1111/acer.14886?email=shravanh@uchicago.edu"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_landing",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5864
+    },
+    {
+     "rung": "1_oa_landing",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 20404
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W4283157868.html",
+   "rung": "1_oa_landing"
+  },
+  {
+   "openalex": "W4322766108",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "Genome-wide analysis identifies genetic effects on reproductive success and ongoing natural selection at the FADS locus",
+   "doi": "10.1038/s41562-023-01528-6",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://www.nature.com/articles/s41562-023-01528-6.pdf"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://pure.eur.nl/en/publications/17658d70-a077-4eed-afec-b73c39000691"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://research.vu.nl/en/publications/9d4c5a89-fbff-44d1-a1a9-75509663bf72"
+    },
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://www.pure.ed.ac.uk/ws/files/334748516/NEB_Manuscript.pdf"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://ora.ox.ac.uk/objects/uuid:1fa711df-e6d5-4bfb-9248-4d8068ab74e4"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.research.ed.ac.uk/en/publications/171dce40-9359-44ba-953f-2397d4cda614"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://research-information.bris.ac.uk/en/publications/a55b2656-842b-4375-8438-3efd7e291a34"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://hdl.handle.net/1871.1/9d4c5a89-fbff-44d1-a1a9-75509663bf72"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1038/s41562-023-01528-6?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1038/s41562-023-01528-6"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 791586
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W4322766108.pdf",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W1774122399",
+   "cell": "H2_MODERATION",
+   "arm": "H2_MOD",
+   "title": "Effects of the demographic transition on the genetic variances and covariances of human life-history traits",
+   "doi": "10.1111/evo.12598",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1111/evo.12598?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1111/evo.12598"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 1603
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5798
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W590852753",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Human Fertility, Molecular Genetics, and Natural Selection in Modern Societies",
+   "doi": "10.1371/journal.pone.0126821",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0126821&type=printable"
+    },
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://pure.rug.nl/ws/files/21057986/journal.pone.0126821.pdf"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/4454512"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://doaj.org/article/01f77054e4fc43e3a814ef3a15d81810"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://figshare.com/articles/dataset/_Human_Fertility_Molecular_Genetics_and_Natural_Selection_in_Modern_Societies_/1435396"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://hdl.handle.net/11370/ee31ddac-0254-44ec-8b57-e6a5aa2e1e52"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1371/journal.pone.0126821?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1371/journal.pone.0126821"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 654797
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W590852753.html",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W2890425574",
+   "cell": "PREDICTED_RESPONSE",
+   "arm": "SELECTION",
+   "title": "The heritability of fertility makes world population stabilization unlikely in the foreseeable future",
+   "doi": "10.1016/j.evolhumbehav.2018.09.001",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1016/j.evolhumbehav.2018.09.001?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1016/j.evolhumbehav.2018.09.001"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 1082
+    },
+    {
+     "rung": "4_publisher",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 2737
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2890425574.html",
+   "rung": "4_publisher"
+  },
+  {
+   "openalex": "W22472955",
+   "cell": "PREDICTED_RESPONSE",
+   "arm": "SELECTION",
+   "title": "DF-like Analyses of Binary, Ordered, and Censored Variables Using Probit and Tobit Approaches",
+   "doi": "10.1023/a:1021686005855",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1023/a:1021686005855?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1023/a:1021686005855"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 1161
+    },
+    {
+     "rung": "4_publisher",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 3038
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W22472955.html",
+   "rung": "4_publisher"
+  },
+  {
+   "openalex": "W4411477116",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "Why do we get sick? Genetic evidence for evolutionary trade-offs between fertility, longevity, and disease",
+   "doi": "10.1101/2025.06.18.25329754",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://www.medrxiv.org/content/medrxiv/early/2025/06/20/2025.06.18.25329754.full.pdf"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1101/2025.06.18.25329754?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1101/2025.06.18.25329754"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 1435309
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W4411477116.pdf",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W2092739320",
+   "cell": "H2_MODERATION",
+   "arm": "H2_MOD",
+   "title": "The Demographic Transition Influences Variance in Fitness and Selection on Height and BMI in Rural Gambia",
+   "doi": "10.1016/j.cub.2013.04.006",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "http://www.cell.com/article/S0960982213004144/pdf"
+    },
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://researchonline.lshtm.ac.uk/id/eprint/1105247/1/mmc1.pdf"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3668323"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://durham-repository.worktribe.com/output/1457919"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1016/j.cub.2013.04.006?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1016/j.cub.2013.04.006"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5788
+    },
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 619719
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2092739320.pdf",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W2625700093",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "Reproductive fitness and genetic risk of psychiatric disorders in the general population",
+   "doi": "10.1038/ncomms15833",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://www.nature.com/articles/ncomms15833.pdf"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/5474730"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://doaj.org/article/6a60e54dd24e47ccb00660d46b48e9ad"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://hdl.handle.net/20.500.11815/319"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1038/ncomms15833?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1038/ncomms15833"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 315984
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2625700093.pdf",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W2169871877",
+   "cell": "PREDICTED_RESPONSE",
+   "arm": "SELECTION",
+   "title": "Impact of fertility transmission and other sociodemographic factors on reproductive success and coalescent trees",
+   "doi": "10.1017/s0016672312000298",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/DCD60A947A8A4E95E4BC5CABC52BF2B3/S0016672312000298a.pdf/div-class-title-impact-of-fertility-transmission-and-other-sociodemographic-factors-on-reproductive-success-and-coalescent-trees-div.pdf"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1017/s0016672312000298?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1017/s0016672312000298"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 263551
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2169871877.pdf",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W2607161571",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "Ethnically Tibetan women in Nepal with low hemoglobin concentration have better reproductive outcomes",
+   "doi": "10.1093/emph/eox008",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://academic.oup.com/emph/article-pdf/2017/1/82/18775297/eox008.pdf"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "http://europepmc.org/articles/PMC5442430"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/5442430"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://ora.ox.ac.uk/objects/uuid:35d7fc99-7933-4e9e-9c02-3e91b03c49c0"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1093/emph/eox008?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1093/emph/eox008"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5843
+    },
+    {
+     "rung": "1_oa_landing",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 29116
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2607161571.html",
+   "rung": "1_oa_landing"
+  },
+  {
+   "openalex": "W2736952228",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "The age at first birth and completed fertility reconsidered: findings from a sample of identical twins",
+   "doi": "10.4054/mpidr-wp-2001-006",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://www.demogr.mpg.de/Papers/Working/wp-2001-006.pdf"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.4054/mpidr-wp-2001-006?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.4054/mpidr-wp-2001-006"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 369056
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2736952228.pdf",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W2054229127",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "Evidence for evolution in response to natural selection in a contemporary human population",
+   "doi": "10.1073/pnas.1104210108",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://www.research.ed.ac.uk/en/publications/d75b36c6-b3da-47b0-9249-9ebab7252551"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3193187"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1073/pnas.1104210108?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1073/pnas.1104210108"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 65709
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2054229127.html",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W2795856187",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "The Sociogenomics of Polygenic Scores of Reproductive Behavior and Their Relationship to Other Fertility Traits",
+   "doi": "10.7758/rsf.2018.4.4.07",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://www.rsfjournal.org/content/rsfjss/4/4/122.full.pdf"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://muse.jhu.edu/pub/207/article/691678"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://doaj.org/article/dfaadcf8e3fd4fe587387f9e3e8ef0fc"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://ora.ox.ac.uk/objects/uuid:541f0728-cf72-49a7-a968-fb5087b95704"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.7758/rsf.2018.4.4.07?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.7758/rsf.2018.4.4.07"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 748007
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2795856187.pdf",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W4308408443",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Association studies between chromosomal regions 1q21.3, 5q21.3, 14q21.2 and 17q21.31 and numbers of children in Poland",
+   "doi": "10.1038/s41598-022-21638-x",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://www.nature.com/articles/s41598-022-21638-x.pdf"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/9640534"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://doaj.org/article/f0949f56338b44588357aa6c01132dae"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1038/s41598-022-21638-x?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1038/s41598-022-21638-x"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 1619097
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W4308408443.pdf",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W189676882",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Evolutionary Causes of Genetic Variation in Fertility and other Fitness Components",
+   "doi": "10.1007/978-1-4615-4467-8_3",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1007/978-1-4615-4467-8_3?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1007/978-1-4615-4467-8_3"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 923
+    },
+    {
+     "rung": "4_publisher",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 3038
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W189676882.html",
+   "rung": "4_publisher"
+  },
+  {
+   "openalex": "W2009249473",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Variability and heritability of human fertility",
+   "doi": "10.1111/j.1469-1809.1970.tb01650.x",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1111/j.1469-1809.1970.tb01650.x?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1111/j.1469-1809.1970.tb01650.x"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 1351
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5933
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W2731861498",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Sexual dimorphism in the genetic influence on human childlessness",
+   "doi": "10.1038/ejhg.2017.105",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://www.nature.com/articles/ejhg2017105.pdf"
+    },
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://pure.rug.nl/ws/files/49322934/ejhg2017105a.pdf"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/5555389"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "http://hdl.handle.net/1765/123215"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://ora.ox.ac.uk/objects/uuid:806daa3b-ecd7-4c91-a500-31eca31211a6"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "http://repub.eur.nl/pub/123215"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1038/ejhg.2017.105?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1038/ejhg.2017.105"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 383983
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2731861498.pdf",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W1967862655",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Behavior genetic modeling of human fertility: Findings from a contemporary danish twin study",
+   "doi": "10.1353/dem.2001.0009",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1353/dem.2001.0009?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1353/dem.2001.0009"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 1522
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 6049
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W2544485223",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Genome-wide analysis identifies 12 loci influencing human reproductive behavior",
+   "doi": "10.1038/ng.3698",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://www.nature.com/articles/ng.3698.pdf"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/5695684"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://pure.amsterdamumc.nl/en/publications/ba028a23-1e59-484e-bbfb-0189cf0f011b"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://research.manchester.ac.uk/en/publications/e3ee8aaa-f02e-4baf-a8a9-e97fd4ae792c"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://research.rug.nl/en/publications/712f6be4-d63d-4d93-a899-8c65e9e3603a"
+    },
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://research-information.bristol.ac.uk/en/publications/genomewide-analysis-identifies-12-loci-influencing-human-reproductive-behavior(32106775-7efb-4231-9412-b4e1885ac7cd).html"
+    },
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://research-information.bris.ac.uk/ws/files/92799064/main_article_Barban.pdf"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1038/ng.3698?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1038/ng.3698"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 1190583
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2544485223.pdf",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W3176120982",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Identification of 371 genetic variants for age at first sex and birth linked to externalising behaviour",
+   "doi": "10.1038/s41562-021-01135-3",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://www.nature.com/articles/s41562-021-01135-3.pdf"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://cris.maastrichtuniversity.nl/en/publications/eb66907d-21e6-43b0-8b82-a7188c77d5e9"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://research.vu.nl/en/publications/9610fe79-fe8f-4e26-8217-b1c3525a95a2"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://figshare.com/articles/journal_contribution/Identification_of_371_genetic_variants_for_age_at_first_sex_and_birth_linked_to_externalising_behaviour/26371792"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://hdl.handle.net/20.500.11820/3c0fd46f-ed44-431c-8cb2-cfbb2bb37776"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ebi.ac.uk/gwas/search?query=34211149"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://hdl.handle.net/11370/67041e21-17d8-468a-b209-ea212f32c5b8"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://research.rug.nl/en/publications/67041e21-17d8-468a-b209-ea212f32c5b8"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://doi.org/10.17863/cam.72698"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1038/s41562-021-01135-3?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1038/s41562-021-01135-3"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 548981
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W3176120982.pdf",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W2810866107",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "Schizophrenia risk and reproductive success: a Mendelian randomization study",
+   "doi": "10.1098/rsos.181049",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_landing",
+     "url": "https://doi.org/10.1098/rsos.181049"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://research-information.bris.ac.uk/en/publications/90e44641-bb2a-4ff5-9d22-8de22e7866b3"
+    },
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://research-information.bris.ac.uk/ws/files/189521555/rsos.181049.pdf"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6458425"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://doaj.org/article/3d77cff4b33b4c8d84a48d14a1fee9a0"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1098/rsos.181049?email=shravanh@uchicago.edu"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_landing",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5785
+    },
+    {
+     "rung": "1_oa_landing",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 93821
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2810866107.html",
+   "rung": "1_oa_landing"
+  },
+  {
+   "openalex": "W2514010371",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "Genetic Associations Between Personality Traits and Lifetime Reproductive Success in Humans",
+   "doi": "10.1007/s10519-016-9803-5",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "http://hdl.handle.net/10138/230028"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1007/s10519-016-9803-5?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1007/s10519-016-9803-5"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 4260
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2514010371.html",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W3008866789",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "Modelling the on-going natural selection of educational attainment in contemporary societies",
+   "doi": "10.1016/j.jtbi.2020.110210",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1016/j.jtbi.2020.110210?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1016/j.jtbi.2020.110210"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 957
+    },
+    {
+     "rung": "4_publisher",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 2706
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W3008866789.html",
+   "rung": "4_publisher"
+  },
+  {
+   "openalex": "W39831267",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Genetic Variance in Human Fertility: Biology, Psychology, or Both?",
+   "doi": "10.1007/978-1-4615-1137-3_12",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1007/978-1-4615-1137-3_12?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1007/978-1-4615-1137-3_12"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 1039
+    },
+    {
+     "rung": "4_publisher",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 3038
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W39831267.html",
+   "rung": "4_publisher"
+  },
+  {
+   "openalex": "W2076586348",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "NATURE, NURTURE AND FIRST SEXUAL INTERCOURSE IN THE USA: FITTING BEHAVIOURAL GENETIC MODELS TO NLSY KINSHIP DATA",
+   "doi": "10.1017/s0021932099000292",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1017/s0021932099000292?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1017/s0021932099000292"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 1307
+    },
+    {
+     "rung": "4_publisher",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 788462
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2076586348.html",
+   "rung": "4_publisher"
+  },
+  {
+   "openalex": "W2128269372",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "Genetic links between post-reproductive lifespan and family size in Framingham",
+   "doi": "10.1093/emph/eot013",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://academic.oup.com/emph/article-pdf/2013/1/241/16731602/eot013.pdf"
+    },
+    {
+     "rung": "1_oa_pdf",
+     "url": "http://hdl.handle.net/11343/256704"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3868361"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1093/emph/eot013?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1093/emph/eot013"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5867
+    },
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 32934
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2128269372.html",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W2513851012",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "What Explains the Heritability of Completed Fertility? Evidence from Two Large Twin Studies",
+   "doi": "10.1007/s10519-016-9805-3",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1007/s10519-016-9805-3?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1007/s10519-016-9805-3"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 1350
+    },
+    {
+     "rung": "4_publisher",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 3038
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2513851012.html",
+   "rung": "4_publisher"
+  },
+  {
+   "openalex": "W1979473713",
+   "cell": "H2_MODERATION",
+   "arm": "H2_MOD",
+   "title": "Biosocial Models of Low-Fertility Societies",
+   "doi": "10.2307/2808017",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.2307/2808017?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.2307/2808017"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 741
+    },
+    {
+     "rung": "4_publisher",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 3038
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W1979473713.html",
+   "rung": "4_publisher"
+  },
+  {
+   "openalex": "W2548870266",
+   "cell": "PREDICTED_RESPONSE",
+   "arm": "SELECTION",
+   "title": "The Theoretical Potential for Selection on Determinants of Fertility to Cause Aggregate Fertility Increases in Human Populations",
+   "doi": "10.1080/19485565.2016.1212322",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1080/19485565.2016.1212322?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1080/19485565.2016.1212322"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 930
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5907
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W2033634275",
+   "cell": "H2_MODERATION",
+   "arm": "H2_MOD",
+   "title": "Genotype \u00d7 Cohort Interaction on Completed Fertility and Age at First Birth",
+   "doi": "10.1007/s10519-014-9693-3",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/4289659"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1007/s10519-014-9693-3?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1007/s10519-014-9693-3"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_landing",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 20404
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2033634275.html",
+   "rung": "1_oa_landing"
+  },
+  {
+   "openalex": "W4415164102",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "Contrasting evolutionary outcomes in a human life history trait which is heritable and under consistent unbiased directional selection",
+   "doi": "10.1101/2025.10.13.682154",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://www.biorxiv.org/content/biorxiv/early/2025/10/14/2025.10.13.682154.full.pdf"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1101/2025.10.13.682154?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1101/2025.10.13.682154"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "429",
+     "kind": "bot_blocked",
+     "bytes": 17
+    },
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 2560
+    },
+    {
+     "rung": "4_publisher",
+     "http": "429",
+     "kind": "bot_blocked",
+     "bytes": 17
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W3180091553",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Genome-Wide Heritability Estimates for Family Life Course Complexity",
+   "doi": "10.1215/00703370-9373608",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://read.dukeupress.edu/demography/article-pdf/58/4/1575/934146/1575vanwinkle.pdf"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1215/00703370-9373608?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1215/00703370-9373608"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5943
+    },
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 2598
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 6073
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W7169878769",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "Genetic trade-offs in fertility and longevity explain the maintenance of disease-associated alleles in humans",
+   "doi": "10.1038/s41559-026-03140-z",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://www.nature.com/articles/s41559-026-03140-z.pdf"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1038/s41559-026-03140-z?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1038/s41559-026-03140-z"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 4073014
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W7169878769.pdf",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W2091998589",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Genetic Influence Helps Explain Variation in Human Fertility: Evidence From Recent Behavioral and Molecular Genetic Studies",
+   "doi": "10.1111/1467-8721.00145",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1111/1467-8721.00145?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1111/1467-8721.00145"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 2210
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5833
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W2482869111",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Genetic Influences on Human Fertility and Sexuality",
+   "doi": "10.1007/978-1-4615-4467-8",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1007/978-1-4615-4467-8?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1007/978-1-4615-4467-8"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 592
+    },
+    {
+     "rung": "4_publisher",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 3038
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2482869111.html",
+   "rung": "4_publisher"
+  },
+  {
+   "openalex": "W2950098314",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "How Cognitive Genetic Factors Influence Fertility Outcomes: A Mediational SEM Analysis",
+   "doi": "10.1017/thg.2016.82",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/8357A0764069B330F443B88ED24FE486/S1832427416000827a.pdf/div-class-title-how-cognitive-genetic-factors-influence-fertility-outcomes-a-mediational-sem-analysis-div.pdf"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1017/thg.2016.82?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1017/thg.2016.82"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 377332
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2950098314.pdf",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W2055251693",
+   "cell": "PEDIGREE_RESPONSE",
+   "arm": "SELECTION",
+   "title": "Differential fitness costs of reproduction between the sexes",
+   "doi": "10.1073/pnas.0609301103",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/1766423"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1073/pnas.0609301103?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1073/pnas.0609301103"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_landing",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 20402
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2055251693.html",
+   "rung": "1_oa_landing"
+  },
+  {
+   "openalex": "W4414345371",
+   "cell": "WITHIN_VS_POPULATION",
+   "arm": "METHOD",
+   "title": "Within-family heritability estimates for behavioural and disease phenotypes from 500,000 sibling pairs of diverse ancestries",
+   "doi": "10.1101/2025.09.17.25336022",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://www.medrxiv.org/content/medrxiv/early/2025/09/19/2025.09.17.25336022.full.pdf"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1101/2025.09.17.25336022?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1101/2025.09.17.25336022"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 585665
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W4414345371.pdf",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W2062505457",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Heritable and environmental variables affect reproduction-related behaviors, but not ultimate reproductive success",
+   "doi": "10.1016/0191-8869(93)90091-g",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1016/0191-8869(93)90091-g?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1016/0191-8869(93)90091-g"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 1138
+    },
+    {
+     "rung": "4_publisher",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 2724
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2062505457.html",
+   "rung": "4_publisher"
+  },
+  {
+   "openalex": "W2573112139",
+   "cell": "PEDIGREE_RESPONSE",
+   "arm": "SELECTION",
+   "title": "The impact of parental investment on lifetime reproductive success in Iceland",
+   "doi": "10.7717/peerj.2904",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_landing",
+     "url": "https://doi.org/10.7717/peerj.2904"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/5251940"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://doaj.org/article/60f7fa2e4a364d42a4bff1b9640cd6ce"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.7717/peerj.2904?email=shravanh@uchicago.edu"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_landing",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5758
+    },
+    {
+     "rung": "1_oa_landing",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 20403
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2573112139.html",
+   "rung": "1_oa_landing"
+  },
+  {
+   "openalex": "W2053209564",
+   "cell": "H2_MODERATION",
+   "arm": "H2_MOD",
+   "title": "A DEMOGRAPHIC TRANSITION ALTERED THE STRENGTH OF SELECTION FOR FITNESS AND AGE-SPECIFIC SURVIVAL AND FERTILITY IN A 19TH CENTURY AMERICAN POPULATION",
+   "doi": "10.1111/evo.12023",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3675805"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1111/evo.12023?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1111/evo.12023"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_landing",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 20404
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2053209564.html",
+   "rung": "1_oa_landing"
+  },
+  {
+   "openalex": "W1975448621",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "Opportunity for the Operation of Natural Selection in a Contemporary Local Population (The Case of Slovincians, Poland)",
+   "doi": "10.4236/aa.2013.33016",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "http://www.scirp.org/journal/PaperDownload.aspx?paperID=34508"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.4236/aa.2013.33016?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.4236/aa.2013.33016"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 150
+    },
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 2644
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 148
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W1562851158",
+   "cell": "PEDIGREE_RESPONSE",
+   "arm": "SELECTION",
+   "title": "The Biocultural Origins of Human Capital Formation",
+   "doi": "10.3386/w20474",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://doi.org/10.3386/w20474"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.3386/w20474?email=shravanh@uchicago.edu"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 620422
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W1562851158.html",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W2103205223",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Perfect genetic correlation between number of offspring and grandoffspring in an industrialized human population",
+   "doi": "10.1073/pnas.1310058111",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://www.pnas.org/content/pnas/111/3/1032.full.pdf"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://pure.amsterdamumc.nl/en/publications/eb12a743-c7c3-4f0c-8134-b68544b56d72"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://research.vu.nl/en/publications/cfae4161-1db4-410c-a284-b799644708bc"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://pure.amc.nl/en/publications/perfect-genetic-correlation-between-number-of-offspring-and-grandoffspring-in-an-industrialized-human-population(bbcb1400-1386-43a9-b909-4fbc23ddde72).html"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1073/pnas.1310058111?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1073/pnas.1310058111"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5797
+    },
+    {
+     "rung": "1_oa_landing",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 60112
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2103205223.html",
+   "rung": "1_oa_landing"
+  },
+  {
+   "openalex": "W2110308604",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Unraveling the intergenerational transmission of fertility: genetic and shared-environment effects during the demographic transition in the Netherlands, 1810\u20131910",
+   "doi": "10.1080/1081602x.2013.803491",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://lirias.kuleuven.be/retrieve/e6e563bb-21d2-4daf-babf-715457a72732"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1080/1081602x.2013.803491?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1080/1081602x.2013.803491"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 202788
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2110308604.html",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W2109418124",
+   "cell": "H2_MODERATION",
+   "arm": "H2_MOD",
+   "title": "Is Fertility Behavior in Our Genes? Findings from a Danish Twin Study",
+   "doi": "10.1111/j.1728-4457.1999.00253.x",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1111/j.1728-4457.1999.00253.x?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1111/j.1728-4457.1999.00253.x"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 1533
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5927
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W3127086984",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Identification of 370 genetic loci for age at first sex and birth linked to externalising behaviour",
+   "doi": "10.1101/2020.05.06.081273",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://www.biorxiv.org/content/biorxiv/early/2021/02/04/2020.05.06.081273.full.pdf"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1101/2020.05.06.081273?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1101/2020.05.06.081273"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "429",
+     "kind": "bot_blocked",
+     "bytes": 17
+    },
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 5551
+    },
+    {
+     "rung": "4_publisher",
+     "http": "429",
+     "kind": "bot_blocked",
+     "bytes": 17
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W2116934337",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "DOES EDUCATION MEDIATE THE RELATIONSHIP BETWEEN IQ AND AGE OF FIRST BIRTH? A BEHAVIOURAL GENETIC ANALYSIS",
+   "doi": "10.1017/s0021932002002596",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1017/s0021932002002596?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1017/s0021932002002596"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 1336
+    },
+    {
+     "rung": "4_publisher",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 791076
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2116934337.html",
+   "rung": "4_publisher"
+  },
+  {
+   "openalex": "W2304069640",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "Evidence for Genetic Overlap Between Schizophrenia and Age at First Birth in Women",
+   "doi": "10.1001/jamapsychiatry.2016.0129",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://jamanetwork.com/journals/jamapsychiatry/articlepdf/2500042/yoi160009.pdf"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://cris.maastrichtuniversity.nl/en/publications/0f7ac156-1a80-4095-81b0-811e29486422"
+    },
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://escholarship.org/content/qt0b2868b3/qt0b2868b3.pdf"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/5785705"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1001/jamapsychiatry.2016.0129?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1001/jamapsychiatry.2016.0129"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5957
+    },
+    {
+     "rung": "1_oa_landing",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 59524
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2304069640.html",
+   "rung": "1_oa_landing"
+  },
+  {
+   "openalex": "W2168212656",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Heritability and genetic constraints of life-history trait evolution in preindustrial humans",
+   "doi": "10.1073/pnas.0406709102",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/549452"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1073/pnas.0406709102?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1073/pnas.0406709102"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_landing",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 20403
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2168212656.html",
+   "rung": "1_oa_landing"
+  },
+  {
+   "openalex": "W1971984564",
+   "cell": "H2_MODERATION",
+   "arm": "H2_MOD",
+   "title": "Educational Differences in Completed Fertility: A Behavioral Genetic Study of Finnish Male and Female Twins",
+   "doi": "10.1007/s13524-012-0186-9",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://read.dukeupress.edu/demography/article-pdf/50/4/1399/867618/1399nisen.pdf"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1007/s13524-012-0186-9?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1007/s13524-012-0186-9"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5931
+    },
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 3119
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 6067
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W2337218734",
+   "cell": "H2_MODERATION",
+   "arm": "H2_MOD",
+   "title": "Mega-analysis of 31,396 individuals from 6 countries uncovers strong gene-environment interaction for human fertility",
+   "doi": "10.1101/049163",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://www.biorxiv.org/content/biorxiv/early/2016/05/02/049163.full.pdf"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1101/049163?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1101/049163"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "429",
+     "kind": "bot_blocked",
+     "bytes": 17
+    },
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 6389
+    },
+    {
+     "rung": "4_publisher",
+     "http": "429",
+     "kind": "bot_blocked",
+     "bytes": 17
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W2123568085",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Estrogen receptor alpha polymorphisms and fertility in populations with different reproductive patterns",
+   "doi": "10.1093/molehr/gam041",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1093/molehr/gam041?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1093/molehr/gam041"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 1565
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5967
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W2160276478",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "Personality and reproductive fitness",
+   "doi": "10.1007/bf01065872",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1007/bf01065872?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1007/bf01065872"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 1868
+    },
+    {
+     "rung": "4_publisher",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 3038
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2160276478.html",
+   "rung": "4_publisher"
+  },
+  {
+   "openalex": "W2106599966",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "Pair\u2010Bonding Modifies the Age\u2010Specific Intensities of Natural Selection on Human Female Fecundity",
+   "doi": "10.1086/653668",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1086/653668?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1086/653668"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 1212
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5832
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W2990372252",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Using Polygenic Scores in Social Science Research: Unraveling Childlessness",
+   "doi": "10.3389/fsoc.2019.00074",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://www.frontiersin.org/articles/10.3389/fsoc.2019.00074/pdf"
+    },
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://pure.eur.nl/ws/files/48260138/Repub_123190_O-A.pdf"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/8022451"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "http://hdl.handle.net/1765/123190"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://doaj.org/article/f9bdd78222304447b44073c11aa6dc5d"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://ora.ox.ac.uk/objects/uuid:1adc30e9-e2a5-48de-a3d7-aaf731066b19"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://research.rug.nl/en/publications/2561deec-bf74-463b-8737-82b9171f3f1b"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.3389/fsoc.2019.00074?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.3389/fsoc.2019.00074"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 1589247
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2990372252.html",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W2038630720",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Biodemographic modeling of the links between fertility motivation and fertility outcomes in the NLSY79",
+   "doi": "10.1353/dem.0.0107",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/3000025"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1353/dem.0.0107?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1353/dem.0.0107"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_landing",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 20404
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2038630720.html",
+   "rung": "1_oa_landing"
+  },
+  {
+   "openalex": "W2040190166",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Multivariate Cholesky Models of Human Female Fertility Patterns in the NLSY",
+   "doi": "10.1007/s10519-006-9137-9",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/2712577"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1007/s10519-006-9137-9?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1007/s10519-006-9137-9"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_landing",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 20404
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2040190166.html",
+   "rung": "1_oa_landing"
+  },
+  {
+   "openalex": "W2303250854",
+   "cell": "H2_MODERATION",
+   "arm": "H2_MOD",
+   "title": "How does variance in fertility change over the demographic transition?",
+   "doi": "10.1098/rstb.2015.0155",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/4822435"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1098/rstb.2015.0155?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1098/rstb.2015.0155"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_landing",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 20405
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2303250854.html",
+   "rung": "1_oa_landing"
+  },
+  {
+   "openalex": "W2093698295",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Bio\u2010social determinants of fertility",
+   "doi": "10.1111/j.1365-2605.2005.00606.x",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1111/j.1365-2605.2005.00606.x?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1111/j.1365-2605.2005.00606.x"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 1579
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5927
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W4408525368",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "Consistency and Variation in Natural Selection on Personality Across 17 Countries",
+   "doi": "10.1177/14747049251324908",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_landing",
+     "url": "https://doi.org/10.1177/14747049251324908"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/11915285"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://doaj.org/article/3f7c2d68f93948b3a1acd35a9a71c38a"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1177/14747049251324908?email=shravanh@uchicago.edu"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_landing",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5839
+    },
+    {
+     "rung": "1_oa_landing",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 20403
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W4408525368.html",
+   "rung": "1_oa_landing"
+  },
+  {
+   "openalex": "W2168144246",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "NATURAL SELECTION AND QUANTITATIVE GENETICS OF LIFE-HISTORY TRAITS IN WESTERN WOMEN: A TWIN STUDY",
+   "doi": "10.1111/j.0014-3820.2001.tb01304.x",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1111/j.0014-3820.2001.tb01304.x?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1111/j.0014-3820.2001.tb01304.x"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 2383
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5798
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W2969099478",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "The genetic relationship between female reproductive traits and six psychiatric disorders",
+   "doi": "10.1038/s41598-019-48403-x",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://www.nature.com/articles/s41598-019-48403-x.pdf"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6700195"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "http://hdl.handle.net/2440/122535"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://hdl.handle.net/11541.2/138956"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1038/s41598-019-48403-x?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1038/s41598-019-48403-x"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 2473098
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2969099478.pdf",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W1981839149",
+   "cell": "PEDIGREE_RESPONSE",
+   "arm": "SELECTION",
+   "title": "Direct and correlative phenotypic selection on life-history traits in three pre-industrial human populations",
+   "doi": "10.1098/rspb.1996.0215",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1098/rspb.1996.0215?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1098/rspb.1996.0215"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 1709
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5794
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W1870016096",
+   "cell": "PEDIGREE_RESPONSE",
+   "arm": "SELECTION",
+   "title": "Be Fruitful and Multiply? Moderate Fecundity and Long-Run Reproductive Success",
+   "doi": "10.2139/ssrn.2409547",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_landing",
+     "url": "https://doi.org/10.2139/ssrn.2409547"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.2139/ssrn.2409547?email=shravanh@uchicago.edu"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_landing",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 896435
+    },
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 2372
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W2004640129",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "A re\u2010examination of the heritability of fertility in the British peerage",
+   "doi": "10.1080/19485565.1974.9988115",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1080/19485565.1974.9988115?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1080/19485565.1974.9988115"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 1325
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5904
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W3166912545",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "GWAS on Birth Year Infant Mortality Rates Provides New Evidence of Recent Natural Selection",
+   "doi": "10.1101/2021.06.08.21258559",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://www.medrxiv.org/content/medrxiv/early/2021/06/12/2021.06.08.21258559.full.pdf"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1101/2021.06.08.21258559?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1101/2021.06.08.21258559"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 1150502
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W3166912545.pdf",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W1531221434",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Genetic and Environmental Influences on Fertility Expectations and Outcomes Using NLSY Kinship Data",
+   "doi": "10.1007/978-1-4615-4467-8_6",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1007/978-1-4615-4467-8_6?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1007/978-1-4615-4467-8_6"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 964
+    },
+    {
+     "rung": "4_publisher",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 3038
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W1531221434.html",
+   "rung": "4_publisher"
+  },
+  {
+   "openalex": "W2062288399",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Education and Cognitive Ability as Direct, Mediating, or Spurious Influences on Female Age at First Birth: Behavior Genetic Models Fit to Danish Twin Data",
+   "doi": "10.1086/592205",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/2749946"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1086/592205?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1086/592205"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_landing",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 20404
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2062288399.html",
+   "rung": "1_oa_landing"
+  },
+  {
+   "openalex": "W3138806261",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "How family background shapes the relationship between human capital and fertility",
+   "doi": "10.1007/s00148-021-00834-5",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://link.springer.com/content/pdf/10.1007/s00148-021-00834-5.pdf"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-459594"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1007/s00148-021-00834-5?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1007/s00148-021-00834-5"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 3038
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W3138806261.pdf",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W2090662598",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "The Genetic and Environmental Structure of Reproduction-Related Variables: The Case of Fertility and Breastfeeding",
+   "doi": "10.1017/thg.2013.64",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/1FF3F4ACAF23CD3DF6F3856B3AC8F57A/S1832427413000649a.pdf/div-class-title-the-genetic-and-environmental-structure-of-reproduction-related-variables-the-case-of-fertility-and-breastfeeding-div.pdf"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1017/thg.2013.64?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1017/thg.2013.64"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 118491
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2090662598.pdf",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W2569771954",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Is the Association Between Education and Fertility Postponement Causal? The Role of Family Background Factors",
+   "doi": "10.1007/s13524-016-0531-5",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://read.dukeupress.edu/demography/article-pdf/54/1/71/837839/71tropf.pdf"
+    },
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://pure.rug.nl/ws/files/97446109/Tropf_Mandemakers2017_Article_IsTheAssociationBetweenEducati.pdf"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://research.wur.nl/en/publications/is-the-association-between-education-and-fertility-postponement-c"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://dspace.library.uu.nl/handle/1874/361740"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://osf.io/hvfgm"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1007/s13524-016-0531-5?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1007/s13524-016-0531-5"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5919
+    },
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 788914
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2569771954.pdf",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W7169815648",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "When children shape their families: Evocative effects analysis of 40,000 trios from the Norwegian Mother, Father and Child Cohort Study",
+   "doi": "10.1073/pnas.2532642123",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_landing",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13416551/"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1073/pnas.2532642123?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1073/pnas.2532642123"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_landing",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 20417
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W7169815648.html",
+   "rung": "1_oa_landing"
+  },
+  {
+   "openalex": "W2566750848",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "GEOSPATIAL ASSESSMENT BASED ON FERTILITY AND MORTALITY DIFFERENTIAL INDICES OF NATURAL SELECTION IN NORTH-WEST AND EASTERN HIMALAYAN POPULATIONS",
+   "doi": "10.1017/s0021932016000705",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1017/s0021932016000705?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1017/s0021932016000705"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 946
+    },
+    {
+     "rung": "4_publisher",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 921764
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2566750848.html",
+   "rung": "4_publisher"
+  },
+  {
+   "openalex": "W2117546824",
+   "cell": "PEDIGREE_RESPONSE",
+   "arm": "SELECTION",
+   "title": "Natural and sexual selection in a monogamous historical human population",
+   "doi": "10.1073/pnas.1118174109",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1073/pnas.1118174109?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1073/pnas.1118174109"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 2070
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5793
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W3123168349",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "Human Capital Mediates Natural Selection in Contemporary Humans",
+   "doi": "10.1007/s10519-022-10107-w",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://link.springer.com/content/pdf/10.1007/s10519-022-10107-w.pdf"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://pure.amsterdamumc.nl/en/publications/4a84fe0b-d36a-4150-86bd-c1194aed36b7"
+    },
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://ueaeprints.uea.ac.uk/id/eprint/82027/1/Published_Version.pdf"
+    },
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://ueaeprints.uea.ac.uk/id/eprint/85588/7/Hugh_Jones_Abdellaoui_2022_BehaviorGenetics.pdf"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/9463317"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://pure.amc.nl/en/publications/human-capital-mediates-natural-selection-in-contemporary-humans(3d18dd9a-0e08-46d1-be60-1c8ccca1c9c1).html"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1007/s10519-022-10107-w?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1007/s10519-022-10107-w"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 3038
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W3123168349.pdf",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W2955592702",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "How Intelligence Affects Fertility 30 Years On: Retherford and Sewell Revisited \u2014 With Polygenic Scores and Numbers of Grandchildren",
+   "doi": "10.1017/thg.2019.25",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/AB8EF68EE05C8DFD0A1C424B4FF7BC1F/S1832427419000252a.pdf/div-class-title-how-intelligence-affects-fertility-30-years-on-retherford-and-sewell-revisited-with-polygenic-scores-and-numbers-of-grandchildren-div.pdf"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1017/thg.2019.25?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1017/thg.2019.25"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 258812
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2955592702.pdf",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W2171689700",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Reexamining the Association Between Fertility and Longevity: Testing the Disposable Soma Theory in a Modern Human Sample of Twins",
+   "doi": "10.1093/gerona/gls218",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1093/gerona/gls218?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1093/gerona/gls218"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 1790
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5900
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W2575032714",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "Selection against variants in the genome associated with educational attainment",
+   "doi": "10.1073/pnas.1612113114",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://www.pnas.org/content/pnas/114/5/E727.full.pdf"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/5293043"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "http://hdl.handle.net/1765/95831"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1073/pnas.1612113114?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1073/pnas.1612113114"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5797
+    },
+    {
+     "rung": "1_oa_landing",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 20402
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2575032714.html",
+   "rung": "1_oa_landing"
+  },
+  {
+   "openalex": "W198400850",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Genetic Influences on Fertility Behavior: Findings From a Danish Twin Study, 1910\u20131923",
+   "doi": "10.1007/978-1-4615-4467-8_5",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1007/978-1-4615-4467-8_5?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1007/978-1-4615-4467-8_5"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 932
+    },
+    {
+     "rung": "4_publisher",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 3038
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W198400850.html",
+   "rung": "4_publisher"
+  },
+  {
+   "openalex": "W4283368917",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "Shared genetic basis between reproductive behaviors and anxiety-related disorders",
+   "doi": "10.1038/s41380-022-01667-8",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1038/s41380-022-01667-8?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1038/s41380-022-01667-8"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 2019
+    },
+    {
+     "rung": "4_publisher",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 373477
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W4283368917.html",
+   "rung": "4_publisher"
+  },
+  {
+   "openalex": "W2021992969",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Heritability of reproductive fitness traits in a human population",
+   "doi": "10.1073/pnas.0906196106",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1073/pnas.0906196106?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1073/pnas.0906196106"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 1479
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5793
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W4285005223",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "Sexually antagonistic selection on educational attainment and body size in Estonian children",
+   "doi": "10.1111/nyas.14859",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1111/nyas.14859?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1111/nyas.14859"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 1216
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5873
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W4403035796",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "Reproductive and cognitive effects in carriers of recessive pathogenic variants",
+   "doi": "10.1101/2024.09.30.615774",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://www.biorxiv.org/content/biorxiv/early/2024/10/01/2024.09.30.615774.full.pdf"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1101/2024.09.30.615774?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1101/2024.09.30.615774"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "429",
+     "kind": "bot_blocked",
+     "bytes": 17
+    },
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 4042
+    },
+    {
+     "rung": "4_publisher",
+     "http": "429",
+     "kind": "bot_blocked",
+     "bytes": 17
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W2470195001",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "Genetic evidence for natural selection in humans in the contemporary United States",
+   "doi": "10.1073/pnas.1600398113",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/4948342"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1073/pnas.1600398113?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1073/pnas.1600398113"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_landing",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 20400
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2470195001.html",
+   "rung": "1_oa_landing"
+  },
+  {
+   "openalex": "W1985105482",
+   "cell": "PEDIGREE_RESPONSE",
+   "arm": "SELECTION",
+   "title": "Natural Selection on Female Life-History Traits in Relation to Socio-Economic Class in Pre-Industrial Human Populations",
+   "doi": "10.1371/journal.pone.0000606",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_landing",
+     "url": "https://doi.org/10.1371/journal.pone.0000606"
+    },
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://www.dora.lib4ri.ch/eawag/dload/eawag:5652/PDF/view"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/1904257"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://doaj.org/article/de17663a79ce4849906b20fa0d824bc7"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "http://hdl.handle.net/20.500.11850/8662"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://doi.org/10.3929/ethz-b-000008662"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1371/journal.pone.0000606?email=shravanh@uchicago.edu"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_landing",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 205914
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W1985105482.html",
+   "rung": "1_oa_landing"
+  },
+  {
+   "openalex": "W2470573555",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "Evidence of contemporary polygenic selection on the Big G of national cognitive ability: A cross-cultural sociogenetic analysis",
+   "doi": "10.1016/j.paid.2016.06.054",
+   "is_oa": false,
+   "candidates": [
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1016/j.paid.2016.06.054?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1016/j.paid.2016.06.054"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "shell_or_empty",
+     "bytes": 1591
+    },
+    {
+     "rung": "4_publisher",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 2763
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2470573555.html",
+   "rung": "4_publisher"
+  },
+  {
+   "openalex": "W2342100485",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Physical and neurobehavioral determinants of reproductive onset and success",
+   "doi": "10.1038/ng.3551",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/5238953"
+    },
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.repository.cam.ac.uk/handle/1810/254479"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1038/ng.3551?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1038/ng.3551"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_landing",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 20405
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2342100485.html",
+   "rung": "1_oa_landing"
+  },
+  {
+   "openalex": "W1977560735",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "Natural selection on age\u2013specific fertilities in human females: comparison of individual\u2013level fitness measures",
+   "doi": "10.1098/rspb.1998.0592",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_landing",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/1689548"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1098/rspb.1998.0592?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1098/rspb.1998.0592"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_landing",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 20404
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W1977560735.html",
+   "rung": "1_oa_landing"
+  },
+  {
+   "openalex": "W2018862557",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "The fertility pattern of twins and the general population compared: evidence from Danish cohorts 1945-64",
+   "doi": "10.4054/mpidr-wp-2002-005",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://www.demogr.mpg.de/papers/working/wp-2002-005.pdf"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.4054/mpidr-wp-2002-005?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.4054/mpidr-wp-2002-005"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 295252
+    }
+   ],
+   "status": "RETRIEVED",
+   "file": "W2018862557.pdf",
+   "rung": "1_oa_pdf"
+  },
+  {
+   "openalex": "W4416670776",
+   "cell": "H2_FERTILITY",
+   "arm": "H2",
+   "title": "Genetic variance in reproductive timing contributes to trait evolvability",
+   "doi": "10.1093/jeb/voaf145",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://academic.oup.com/jeb/advance-article-pdf/doi/10.1093/jeb/voaf145/65497252/voaf145.pdf"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.1093/jeb/voaf145?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.1093/jeb/voaf145"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5952
+    },
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 2457
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 5768
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W4214728008",
+   "cell": "H2_MODERATION",
+   "arm": "H2_MOD",
+   "title": "Gene-Environment Effects on Female Fertility",
+   "doi": "10.2139/ssrn.3938650",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_landing",
+     "url": "https://doi.org/10.2139/ssrn.3938650"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.2139/ssrn.3938650?email=shravanh@uchicago.edu"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_landing",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 896435
+    },
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 2755
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  },
+  {
+   "openalex": "W2784016405",
+   "cell": "SELECTION_DIFFERENTIAL",
+   "arm": "SELECTION",
+   "title": "Secular changes in sexual and natural selection against deleterious genetic mutations in humans",
+   "doi": "10.53846/goediss-6628",
+   "is_oa": true,
+   "candidates": [
+    {
+     "rung": "1_oa_pdf",
+     "url": "https://ediss.uni-goettingen.de/bitstream/11858/00-1735-0000-002E-E301-9/1/Dissertation_Ruben_C_Arslan.pdf"
+    },
+    {
+     "rung": "3_unpaywall",
+     "url": "https://api.unpaywall.org/v2/10.53846/goediss-6628?email=shravanh@uchicago.edu"
+    },
+    {
+     "rung": "4_publisher",
+     "url": "https://doi.org/10.53846/goediss-6628"
+    }
+   ],
+   "attempts": [
+    {
+     "rung": "1_oa_pdf",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 3780
+    },
+    {
+     "rung": "3_unpaywall",
+     "http": "200",
+     "kind": "ok",
+     "bytes": 2357
+    },
+    {
+     "rung": "4_publisher",
+     "http": "403",
+     "kind": "bot_blocked",
+     "bytes": 3780
+    }
+   ],
+   "status": "BOT_BLOCKED",
+   "file": null
+  }
+ ]
+}
