@@ -1,0 +1,902 @@
+[
+  {
+    "arm": "H2",
+    "first_author": "Kohler",
+    "year": 1999,
+    "title": "Is Fertility Behavior in Our Genes? Findings from a Danish Twin Study",
+    "note": "foundational twin h2 of fertility",
+    "queries": [
+      {
+        "mode": "title.search",
+        "error": "no meta.count - query refused, NOT an empty literature",
+        "count": null
+      },
+      {
+        "mode": "search",
+        "error": null,
+        "count": 1604
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2109418124",
+      "doi": "https://doi.org/10.1111/j.1728-4457.1999.00253.x",
+      "title": "Is Fertility Behavior in Our Genes? Findings from a Danish Twin Study",
+      "year": 1999,
+      "type": "article",
+      "venue": "Population and Development Review",
+      "authors_first": "Hans\u2010Peter Kohler",
+      "cited_by": 220,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "search"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "arm": "H2",
+    "first_author": "Rodgers",
+    "year": 2001,
+    "title": "Behavior genetic modeling of human fertility: findings from a contemporary Danish twin study",
+    "note": "Demography",
+    "queries": [
+      {
+        "mode": "title.search",
+        "error": "no meta.count - query refused, NOT an empty literature",
+        "count": null
+      },
+      {
+        "mode": "search",
+        "error": null,
+        "count": 626
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W1967862655",
+      "doi": "https://doi.org/10.1353/dem.2001.0009",
+      "title": "Behavior genetic modeling of human fertility: Findings from a contemporary danish twin study",
+      "year": 2001,
+      "type": "article",
+      "venue": "Demography",
+      "authors_first": "Joseph Lee Rodgers",
+      "cited_by": 129,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "search"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "arm": "H2_MOD",
+    "first_author": "Udry",
+    "year": 1996,
+    "title": "Biosocial models of low-fertility societies",
+    "note": "the moderation claim in its original form",
+    "queries": [
+      {
+        "mode": "title.search",
+        "error": "no meta.count - query refused, NOT an empty literature",
+        "count": null
+      },
+      {
+        "mode": "search",
+        "error": null,
+        "count": 3922
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W1979473713",
+      "doi": "https://doi.org/10.2307/2808017",
+      "title": "Biosocial Models of Low-Fertility Societies",
+      "year": 1996,
+      "type": "article",
+      "venue": "Population and Development Review",
+      "authors_first": "J. Richard Udry",
+      "cited_by": 53,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "search"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "arm": "H2_MOD",
+    "first_author": "Kohler",
+    "year": 2002,
+    "title": "Between nurture and nature: the shifting determinants of female fertility in Danish twin cohorts",
+    "note": "h2 rises across the transition",
+    "queries": [
+      {
+        "mode": "title.search",
+        "error": "no meta.count - query refused, NOT an empty literature",
+        "count": null
+      },
+      {
+        "mode": "search",
+        "error": null,
+        "count": 178
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W1992576554",
+      "doi": "https://doi.org/10.1080/19485565.2002.9989060",
+      "title": "Between nurture and nature: The shifting determinants of female fertility in Danish twin cohorts",
+      "year": 2002,
+      "type": "article",
+      "venue": "Biodemography and Social Biology",
+      "authors_first": "Hans\u2010Peter Kohler",
+      "cited_by": 66,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "search"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "arm": "H2",
+    "first_author": "Tropf",
+    "year": 2015,
+    "title": "Genetic influence on age at first birth of female twins born in the UK, 1919-68",
+    "note": "Population Studies",
+    "queries": [
+      {
+        "mode": "title.search",
+        "error": "no meta.count - query refused, NOT an empty literature",
+        "count": null
+      },
+      {
+        "mode": "search",
+        "error": null,
+        "count": 252
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W1657275493",
+      "doi": "https://doi.org/10.1080/00324728.2015.1056823",
+      "title": "Genetic influence on age at first birth of female twins born in the UK, 1919\u201368",
+      "year": 2015,
+      "type": "article",
+      "venue": "Population Studies",
+      "authors_first": "Felix C. Tropf",
+      "cited_by": 39,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "search"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "arm": "SELECTION",
+    "first_author": "Tropf",
+    "year": 2015,
+    "title": "Human fertility, molecular genetics, and natural selection in modern societies",
+    "note": "PLOS ONE",
+    "queries": [
+      {
+        "mode": "title.search",
+        "error": "no meta.count - query refused, NOT an empty literature",
+        "count": null
+      },
+      {
+        "mode": "search",
+        "error": null,
+        "count": 8551
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W590852753",
+      "doi": "https://doi.org/10.1371/journal.pone.0126821",
+      "title": "Human Fertility, Molecular Genetics, and Natural Selection in Modern Societies",
+      "year": 2015,
+      "type": "article",
+      "venue": "PLoS ONE",
+      "authors_first": "Felix C. Tropf",
+      "cited_by": 101,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "search"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "arm": "H2",
+    "first_author": "Tropf",
+    "year": 2017,
+    "title": "Hidden heritability due to heterogeneity across seven populations",
+    "note": "Nature Human Behaviour",
+    "queries": [
+      {
+        "mode": "title.search",
+        "error": "no meta.count - query refused, NOT an empty literature",
+        "count": null
+      },
+      {
+        "mode": "search",
+        "error": null,
+        "count": 2981
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2752326665",
+      "doi": "https://doi.org/10.1038/s41562-017-0195-1",
+      "title": "Hidden heritability due to heterogeneity across seven populations",
+      "year": 2017,
+      "type": "article",
+      "venue": "Nature Human Behaviour",
+      "authors_first": "Felix C. Tropf",
+      "cited_by": 184,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "search"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "arm": "H2",
+    "first_author": "Briley",
+    "year": 2017,
+    "title": "What explains the heritability of completed fertility? Evidence from two large twin studies",
+    "note": "Behavior Genetics",
+    "queries": [
+      {
+        "mode": "title.search",
+        "error": "no meta.count - query refused, NOT an empty literature",
+        "count": null
+      },
+      {
+        "mode": "search",
+        "error": null,
+        "count": 2262
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2513851012",
+      "doi": "https://doi.org/10.1007/s10519-016-9805-3",
+      "title": "What Explains the Heritability of Completed Fertility? Evidence from Two Large Twin Studies",
+      "year": 2016,
+      "type": "article",
+      "venue": "Behavior Genetics",
+      "authors_first": "Daniel A. Briley",
+      "cited_by": 24,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "search"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "arm": "H2",
+    "first_author": "Zietsch",
+    "year": 2014,
+    "title": "Perfect genetic correlation between number of offspring and grandoffspring in an industrialized human population",
+    "note": "PNAS",
+    "queries": [
+      {
+        "mode": "title.search",
+        "error": "no meta.count - query refused, NOT an empty literature",
+        "count": null
+      },
+      {
+        "mode": "search",
+        "error": null,
+        "count": 38
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2103205223",
+      "doi": "https://doi.org/10.1073/pnas.1310058111",
+      "title": "Perfect genetic correlation between number of offspring and grandoffspring in an industrialized human population",
+      "year": 2014,
+      "type": "article",
+      "venue": "Proceedings of the National Academy of Sciences",
+      "authors_first": "Brendan P. Zietsch",
+      "cited_by": 67,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "search"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "arm": "H2",
+    "first_author": "Barban",
+    "year": 2016,
+    "title": "Genome-wide analysis identifies 12 loci influencing human reproductive behavior",
+    "note": "Nature Genetics GWAS of AFB/NEB",
+    "queries": [
+      {
+        "mode": "title.search",
+        "error": "no meta.count - query refused, NOT an empty literature",
+        "count": null
+      },
+      {
+        "mode": "search",
+        "error": null,
+        "count": 21679
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2544485223",
+      "doi": "https://doi.org/10.1038/ng.3698",
+      "title": "Genome-wide analysis identifies 12 loci influencing human reproductive behavior",
+      "year": 2016,
+      "type": "article",
+      "venue": "Nature Genetics",
+      "authors_first": "Nicola Barban",
+      "cited_by": 381,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "search"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "arm": "H2",
+    "first_author": "Mills",
+    "year": 2021,
+    "title": "Identification of 371 genetic variants for age at first sex and birth linked to externalising behaviour",
+    "note": "Nature Human Behaviour",
+    "queries": [
+      {
+        "mode": "title.search",
+        "error": "no meta.count - query refused, NOT an empty literature",
+        "count": null
+      },
+      {
+        "mode": "search",
+        "error": null,
+        "count": 165
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W3176120982",
+      "doi": "https://doi.org/10.1038/s41562-021-01135-3",
+      "title": "Identification of 371 genetic variants for age at first sex and birth linked to externalising behaviour",
+      "year": 2021,
+      "type": "article",
+      "venue": "Nature Human Behaviour",
+      "authors_first": "Melinda Mills",
+      "cited_by": 164,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "search"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "arm": "SELECTION",
+    "first_author": "Beauchamp",
+    "year": 2016,
+    "title": "Genetic evidence for natural selection in humans in the contemporary United States",
+    "note": "PNAS, HRS, EA polygenic score",
+    "queries": [
+      {
+        "mode": "title.search",
+        "error": "no meta.count - query refused, NOT an empty literature",
+        "count": null
+      },
+      {
+        "mode": "search",
+        "error": null,
+        "count": 60810
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2470195001",
+      "doi": "https://doi.org/10.1073/pnas.1600398113",
+      "title": "Genetic evidence for natural selection in humans in the contemporary United States",
+      "year": 2016,
+      "type": "article",
+      "venue": "Proceedings of the National Academy of Sciences",
+      "authors_first": "Jonathan Beauchamp",
+      "cited_by": 134,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "search"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "arm": "SELECTION",
+    "first_author": "Kong",
+    "year": 2017,
+    "title": "Selection against variants in the genome associated with educational attainment",
+    "note": "PNAS, Iceland deCODE",
+    "queries": [
+      {
+        "mode": "title.search",
+        "error": "no meta.count - query refused, NOT an empty literature",
+        "count": null
+      },
+      {
+        "mode": "search",
+        "error": null,
+        "count": 3127
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2575032714",
+      "doi": "https://doi.org/10.1073/pnas.1612113114",
+      "title": "Selection against variants in the genome associated with educational attainment",
+      "year": 2017,
+      "type": "article",
+      "venue": "Proceedings of the National Academy of Sciences",
+      "authors_first": "Augustine Kong",
+      "cited_by": 189,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "search"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "arm": "SELECTION",
+    "first_author": "Byars",
+    "year": 2010,
+    "title": "Natural selection in a contemporary human population",
+    "note": "PNAS, Framingham",
+    "queries": [
+      {
+        "mode": "title.search",
+        "error": "no meta.count - query refused, NOT an empty literature",
+        "count": null
+      },
+      {
+        "mode": "search",
+        "error": null,
+        "count": 373805
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2061848926",
+      "doi": "https://doi.org/10.1073/pnas.0906199106",
+      "title": "Natural selection in a contemporary human population",
+      "year": 2009,
+      "type": "article",
+      "venue": "Proceedings of the National Academy of Sciences",
+      "authors_first": "Sean Byars",
+      "cited_by": 162,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "search"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "arm": "SELECTION",
+    "first_author": "Sanjak",
+    "year": 2018,
+    "title": "Evidence of directional and stabilizing selection in contemporary humans",
+    "note": "PNAS, UK Biobank",
+    "queries": [
+      {
+        "mode": "title.search",
+        "error": "no meta.count - query refused, NOT an empty literature",
+        "count": null
+      },
+      {
+        "mode": "search",
+        "error": null,
+        "count": 9738
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2777723788",
+      "doi": "https://doi.org/10.1073/pnas.1707227114",
+      "title": "Evidence of directional and stabilizing selection in contemporary humans",
+      "year": 2017,
+      "type": "article",
+      "venue": "Proceedings of the National Academy of Sciences",
+      "authors_first": "Jaleal Sanjak",
+      "cited_by": 203,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "search"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "arm": "SELECTION",
+    "first_author": "Stearns",
+    "year": 2010,
+    "title": "Measuring selection in contemporary human populations",
+    "note": "Nature Reviews Genetics",
+    "queries": [
+      {
+        "mode": "title.search",
+        "error": "no meta.count - query refused, NOT an empty literature",
+        "count": null
+      },
+      {
+        "mode": "search",
+        "error": null,
+        "count": 462621
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2012959128",
+      "doi": "https://doi.org/10.1038/nrg2831",
+      "title": "Measuring selection in contemporary human populations",
+      "year": 2010,
+      "type": "article",
+      "venue": "Nature Reviews Genetics",
+      "authors_first": "Stephen C. Stearns",
+      "cited_by": 236,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "search"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "arm": "SELECTION",
+    "first_author": "Milot",
+    "year": 2011,
+    "title": "Evidence for evolution in response to natural selection in a contemporary human population",
+    "note": "PNAS, Ile aux Coudres - PRE-SDT window",
+    "queries": [
+      {
+        "mode": "title.search",
+        "error": "no meta.count - query refused, NOT an empty literature",
+        "count": null
+      },
+      {
+        "mode": "search",
+        "error": null,
+        "count": 144492
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2054229127",
+      "doi": "https://doi.org/10.1073/pnas.1104210108",
+      "title": "Evidence for evolution in response to natural selection in a contemporary human population",
+      "year": 2011,
+      "type": "article",
+      "venue": "Proceedings of the National Academy of Sciences",
+      "authors_first": "Emmanuel Milot",
+      "cited_by": 126,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "search"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "arm": "SELECTION",
+    "first_author": "Courtiol",
+    "year": 2012,
+    "title": "Natural and sexual selection in a monogamous historical human population",
+    "note": "PNAS, Finland - PRE-SDT window",
+    "queries": [
+      {
+        "mode": "title.search",
+        "error": "no meta.count - query refused, NOT an empty literature",
+        "count": null
+      },
+      {
+        "mode": "search",
+        "error": null,
+        "count": 4037
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2117546824",
+      "doi": "https://doi.org/10.1073/pnas.1118174109",
+      "title": "Natural and sexual selection in a monogamous historical human population",
+      "year": 2012,
+      "type": "article",
+      "venue": "Proceedings of the National Academy of Sciences",
+      "authors_first": "Alexandre Courtiol",
+      "cited_by": 141,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "search"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "arm": "SELECTION",
+    "first_author": "Conley",
+    "year": 2016,
+    "title": "Assortative mating and differential fertility by phenotype and genotype across the 20th century",
+    "note": "PNAS",
+    "queries": [
+      {
+        "mode": "title.search",
+        "error": "no meta.count - query refused, NOT an empty literature",
+        "count": null
+      },
+      {
+        "mode": "search",
+        "error": null,
+        "count": 114
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2413981805",
+      "doi": "https://doi.org/10.1073/pnas.1523592113",
+      "title": "Assortative mating and differential fertility by phenotype and genotype across the 20th century",
+      "year": 2016,
+      "type": "article",
+      "venue": "Proceedings of the National Academy of Sciences",
+      "authors_first": "Dalton Conley",
+      "cited_by": 107,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "search"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "arm": "SELECTION",
+    "first_author": "Hugh-Jones",
+    "year": 2022,
+    "title": "Human capital mediates natural selection in contemporary humans",
+    "note": "Behavior Genetics",
+    "queries": [
+      {
+        "mode": "title.search",
+        "error": "no meta.count - query refused, NOT an empty literature",
+        "count": null
+      },
+      {
+        "mode": "search",
+        "error": null,
+        "count": 85029
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W3123168349",
+      "doi": "https://doi.org/10.1007/s10519-022-10107-w",
+      "title": "Human Capital Mediates Natural Selection in Contemporary Humans",
+      "year": 2022,
+      "type": "article",
+      "venue": "Behavior Genetics",
+      "authors_first": "David Hugh-Jones",
+      "cited_by": 15,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "search"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "arm": "METHOD",
+    "first_author": "Howe",
+    "year": 2022,
+    "title": "Within-sibship genome-wide association analyses decrease bias in estimates of direct genetic effects",
+    "note": "Nature Genetics - the within-family correction",
+    "queries": [
+      {
+        "mode": "title.search",
+        "error": "no meta.count - query refused, NOT an empty literature",
+        "count": null
+      },
+      {
+        "mode": "search",
+        "error": null,
+        "count": 1112
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4229455035",
+      "doi": "https://doi.org/10.1038/s41588-022-01062-7",
+      "title": "Within-sibship genome-wide association analyses decrease bias in estimates of direct genetic effects",
+      "year": 2022,
+      "type": "article",
+      "venue": "Nature Genetics",
+      "authors_first": "Laurence J. Howe",
+      "cited_by": 410,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "search"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "arm": "THEORY",
+    "first_author": "Mills",
+    "year": 2020,
+    "title": "Sociology, genetics, and the coming of age of sociogenomics",
+    "note": "Annual Review of Sociology",
+    "queries": [
+      {
+        "mode": "title.search",
+        "error": "no meta.count - query refused, NOT an empty literature",
+        "count": null
+      },
+      {
+        "mode": "search",
+        "error": null,
+        "count": 109
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W3024821462",
+      "doi": "https://doi.org/10.1146/annurev-soc-121919-054756",
+      "title": "Sociology, Genetics, and the Coming of Age of Sociogenomics",
+      "year": 2020,
+      "type": "article",
+      "venue": "Annual Review of Sociology",
+      "authors_first": "Melinda Mills",
+      "cited_by": 156,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "search"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "arm": "THEORY",
+    "first_author": "Stulp",
+    "year": 2016,
+    "title": "Wealth, fertility and adaptive behaviour in industrial populations",
+    "note": "Phil Trans R Soc B",
+    "queries": [
+      {
+        "mode": "title.search",
+        "error": "no meta.count - query refused, NOT an empty literature",
+        "count": null
+      },
+      {
+        "mode": "search",
+        "error": null,
+        "count": 8889
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2306841286",
+      "doi": "https://doi.org/10.1098/rstb.2015.0153",
+      "title": "Wealth, fertility and adaptive behaviour in industrial populations",
+      "year": 2016,
+      "type": "article",
+      "venue": "Philosophical Transactions of the Royal Society B Biological Sciences",
+      "authors_first": "Gert Stulp",
+      "cited_by": 62,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "search"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "arm": "SELECTION",
+    "first_author": "Fieder",
+    "year": 2007,
+    "title": "The effects of sex and childlessness on the association between status and reproductive output in modern society",
+    "note": "cross-ref B.1",
+    "queries": [
+      {
+        "mode": "title.search",
+        "error": "no meta.count - query refused, NOT an empty literature",
+        "count": null
+      },
+      {
+        "mode": "search",
+        "error": null,
+        "count": 551
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2137522241",
+      "doi": "https://doi.org/10.1016/j.evolhumbehav.2007.05.004",
+      "title": "The effects of sex and childlessness on the association between status and reproductive output in modern society",
+      "year": 2007,
+      "type": "article",
+      "venue": "Evolution and Human Behavior",
+      "authors_first": "Martin Fieder",
+      "cited_by": 130,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "search"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "arm": "H2_MOD",
+    "first_author": "Nisen",
+    "year": 2014,
+    "title": "Educational differences in completed fertility: a behavioral genetic study of Finnish male and female twins",
+    "note": "Demography",
+    "queries": [
+      {
+        "mode": "title.search",
+        "error": "no meta.count - query refused, NOT an empty literature",
+        "count": null
+      },
+      {
+        "mode": "search",
+        "error": null,
+        "count": 469
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W1971984564",
+      "doi": "https://doi.org/10.1007/s13524-012-0186-9",
+      "title": "Educational Differences in Completed Fertility: A Behavioral Genetic Study of Finnish Male and Female Twins",
+      "year": 2013,
+      "type": "article",
+      "venue": "Demography",
+      "authors_first": "Jessica Nis\u00e9n",
+      "cited_by": 58,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "search"
+    },
+    "verdict": "MATCH"
+  }
+]
