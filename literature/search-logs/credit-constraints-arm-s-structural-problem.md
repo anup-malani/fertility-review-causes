@@ -74,3 +74,60 @@ they are not a random sample — but that cuts against Arm S, not for it: these 
 Twelve Arm S records remain unread, and the ruling can wait for the rainfall-risk paper
 (`10.1093/jeg/lbz039`), which is the one plausibly identified Arm S design and the one most likely to
 vary a genuine risk-buffering instrument.
+
+---
+
+## Ruling: option 2, and what it costs
+
+**Shravan voted option 2 on 2026-09-01 — re-cut Wall 1 on the instrument, not the risk. Applied as an
+RA ruling; PI confirmation from Anup still required**, since it changes which phenomena are in scope.
+
+**Wall 1, as re-cut:**
+
+| Owns | Variation in |
+|---|---|
+| **C.3.c** | non-child **old-age security provision** — pensions, social pensions, retirement transfers |
+| **C.3.e Arm S** | availability of a **general financial instrument** to the household — savings, insurance, credit — *whatever risk it covers* |
+| **C.5.a** | **risk exposure itself**, instruments held fixed |
+| C.4.a | land and tenure |
+| C.2.d | the price of a birth |
+
+**Applied honestly, it routed 7 of the 12 remaining Arm S records out.** Arm S: **12 → 5**. Primary
+pool: **57 → 50**.
+
+| Routed out | To | Because |
+|---|---|---|
+| **Rainfall risk, American frontier** (2019) | C.5.a | rainfall risk varies; no instrument does |
+| Labor Income Risk and Falling Fertility (2016) | C.5.a | income risk varies |
+| Income Risk, the Tax-benefit System and the Demand for Children (2001) | C.5.a | income risk varies; the buffer is a public transfer system, not a household instrument |
+| Reassessing the Insurance Effect (2003) | C.5.a | risk environment |
+| Public policy, risk and fertility in Bangladesh (1983) | C.5.a | Cain risk exchange |
+| Economic utility of children in rural India (1982) | C.3.c | the utility measured is old-age support |
+| Risk Sharing, Inequality and Fertility (2009) | THEORY | no instrument varies empirically |
+
+**This predicted outcome 3, and it delivered it.** I said re-cutting on the instrument was principled
+but would empty most of Arm S. It did.
+
+### The cost, stated plainly
+
+**The re-cut demotes the rainfall paper** — the study I had ranked as the single highest-value
+outstanding retrieval in the chapter, and the only plausibly identified Arm S design in the pool. What
+varies in it is rainfall risk across frontier settlements, not access to any financial instrument, so
+under the rule we have just adopted it is **C.5.a's**. Consistency requires it; it is still worth
+retrieving, for C.5.a.
+
+That leaves **Arm S with five records**, of which one is retrieved and extracted (US counties c.1850),
+one is unavailable (19th-century Britain), and three are unread. And the US-counties study survives
+*because* of the re-cut: bank presence is a financial instrument becoming available, even though its
+authors frame the result as old-age security. Framing is not what varies — which is exactly the point
+of cutting on the instrument.
+
+### What this means for the chapter
+
+- **Arm S cannot support a GRADE rating as it stands**: five records, one read.
+- **PM and FDT hang on it.** If Arm S stays at five with one retrieved, the honest verdict for those
+  phenomena is **UNEVALUATED with GRADE No evidence**, not a rating.
+- **Ruling 1 still stands.** Composite exposures remain unallocable between saving and borrowing, so
+  this is still one chapter — but the S side of the two-arm structure is now thin enough that the
+  chapter should say so in the verdict rather than presenting two balanced arms.
+- **Arm B (13) and composite (32) are untouched.**

@@ -398,3 +398,25 @@ Three finished chapters have already routed evidence into this one. Read these b
   The ruling can wait for the rainfall-risk paper (`10.1093/jeg/lbz039`), still the highest-value
   outstanding retrieval.
 
+### 2026-09-01 — Wall 1 re-cut on the instrument (option 2). Arm S 12 -> 5.
+
+- **Shravan voted option 2; applied as an RA ruling, PI confirmation from Anup still required** (it
+  changes which phenomena are in scope). C.3.c owns old-age PROVISION; C.3.e Arm S owns availability
+  of a general financial instrument whatever risk it covers; C.5.a owns risk EXPOSURE with instruments
+  fixed; C.4.a land; C.2.d the price of a birth.
+- **Applied honestly it routed 7 of 12 out. Arm S 12 -> 5; primary pool 57 -> 50** (B 13, composite 32,
+  S 5). This is the outcome-3 I predicted from option 2.
+- **It demotes the rainfall paper** (`10.1093/jeg/lbz039`) — the highest-priority outstanding retrieval
+  and the only plausibly identified Arm S design — to **C.5.a**, because what varies is rainfall risk,
+  not instrument access. Consistency requires it. Still worth retrieving, for C.5.a.
+- Arm S survivors: US counties c.1850 (retrieved, extracted; survives BECAUSE bank presence is an
+  instrument, though its authors frame it as old-age security), 19th-c Britain (**unavailable**),
+  Risk/Consumption Smoothing 1991, Family size and life-cycle saving 1991, Consumption smoothing 2024.
+- **Arm S cannot support a GRADE rating at 5 records with 1 read. PM and FDT hang on it** — if it stays
+  here the honest verdict is UNEVALUATED + GRADE No evidence. Ruling 1 stands; Arm B and composite
+  untouched.
+- **Downloads still outstanding:** rainfall `10.1093/jeg/lbz039` (never arrived); credit supply shocks
+  `10.1016/j.jbef.2022.100633` (**ScienceDirect Cloudflare block** — the `main.html` file); bequest
+  receipt `10.1111/j.1465-7295.2008.00208.x` (**Wiley JS eReader shell**, not a PDF). Two confirmed
+  unavailable: 19th-c Britain, 1983 Bangladesh comment.
+

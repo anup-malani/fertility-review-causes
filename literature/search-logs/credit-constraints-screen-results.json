@@ -4,13 +4,14 @@
   "validation_errors": [],
   "cells": {
    "OFF_OTHER_read_not_routed": 2486,
-   "OFF_OLDAGE_C3c": 37,
+   "OFF_OLDAGE_C3c": 38,
    "PRIMARY_COMPOSITE_ACCESS": 32,
-   "THEORY": 19,
+   "THEORY": 20,
    "PRIMARY_BORROW_TERMS": 13,
-   "PRIMARY_SAVE_INSURE": 12,
    "MECHANISM_NO_FERTILITY": 8,
    "REVERSE": 7,
+   "PRIMARY_SAVE_INSURE": 5,
+   "OFF_RISK_EXPOSURE_C5a": 5,
    "OFF_HOUSING_C2c": 2,
    "OFF_PRICE_OF_BIRTH_C2d": 2,
    "OFF_LAND_C4a": 1,
@@ -19,7 +20,7 @@
   "primary_by_arm": {
    "B": 13,
    "composite": 32,
-   "S": 12
+   "S": 5
   },
   "by_stratum": {
    "both_channels": {
@@ -33589,7 +33590,7 @@
    "arm": "S",
    "screened_by": "Shravan/Claude",
    "screened_on": "2026-09-01",
-   "note": "Consumption smoothing, the cost of children, and family size desired in poor countries."
+   "note": "WALL 1 RE-CUT ON THE INSTRUMENT (RA ruling 2026-09-01, PI confirmation pending). Consumption smoothing, the cost of children, and family size desired: retrieved; confirm at full text whether an instrument varies or only the risk."
   },
   {
    "openalex": "W2995686300",
@@ -33598,11 +33599,11 @@
    "title": "Rainfall risk, fertility and development: evidence from farm settlements during the American demographic transition",
    "venue": "Journal of Economic Geography",
    "stratum": "both_channels",
-   "cell": "PRIMARY_SAVE_INSURE",
-   "arm": "S",
+   "cell": "OFF_RISK_EXPOSURE_C5a",
+   "arm": "",
    "screened_by": "Shravan/Claude",
    "screened_on": "2026-09-01",
-   "note": "Rainfall risk and fertility, American frontier farm settlements. Children as a buffer stock of labour against rainfall risk - the insurance motive with an FDT-era setting. HIGH VALUE: the historical Arm S cell."
+   "note": "WALL 1 RE-CUT ON THE INSTRUMENT (RA ruling 2026-09-01, PI confirmation pending). Rainfall risk on the American frontier: what varies is RAINFALL RISK EXPOSURE across settlements, not any financial instrument. Under the instrument re-cut this is C.5.a. NOTE THE COST: this was the chapter's highest-priority outstanding retrieval and its only plausibly identified Arm S design. The re-cut demotes it. Flag to C.5.a and to Anup."
   },
   {
    "openalex": "W2610590081",
@@ -33611,11 +33612,11 @@
    "title": "Labor Income Risk and Falling Fertility: Evidence from German Micro Data",
    "venue": "",
    "stratum": "frame_only",
-   "cell": "PRIMARY_SAVE_INSURE",
-   "arm": "S",
+   "cell": "OFF_RISK_EXPOSURE_C5a",
+   "arm": "",
    "screened_by": "Shravan/Claude",
    "screened_on": "2026-09-01",
-   "note": "Labor Income Risk and Falling Fertility: German micro data. Boundary with C.5.a."
+   "note": "WALL 1 RE-CUT ON THE INSTRUMENT (RA ruling 2026-09-01, PI confirmation pending). Labor income risk and falling fertility: labour-INCOME RISK varies, instruments do not. C.5.a."
   },
   {
    "openalex": "W1601642119",
@@ -33628,7 +33629,7 @@
    "arm": "S",
    "screened_by": "Shravan/Claude",
    "screened_on": "2026-09-01",
-   "note": "Fertility and Financial Development, US counties 19th century (NBER). Old-age-security hypothesis tested on FDT-era US data. HIGH VALUE: the scope memo called this cell the thinnest and most valuable if it existed."
+   "note": "WALL 1 RE-CUT ON THE INSTRUMENT (RA ruling 2026-09-01, PI confirmation pending). Fertility and Financial Development, US counties c.1850: BANK PRESENCE varies - a financial instrument becoming available. Survives the re-cut cleanly, which is the point of the re-cut: the authors FRAME it as old-age security, but framing is not what varies. Retrieved and extracted."
   },
   {
    "openalex": "W2104376772",
@@ -33637,11 +33638,11 @@
    "title": "Risk Sharing, Inequality and Fertility",
    "venue": "National Bureau of Economic Research",
    "stratum": "frame_only",
-   "cell": "PRIMARY_SAVE_INSURE",
-   "arm": "S",
+   "cell": "THEORY",
+   "arm": "",
    "screened_by": "Shravan/Claude",
    "screened_on": "2026-09-01",
-   "note": "Risk Sharing, Inequality and Fertility."
+   "note": "WALL 1 RE-CUT ON THE INSTRUMENT (RA ruling 2026-09-01, PI confirmation pending). Risk Sharing, Inequality and Fertility: theoretical, no instrument varies empirically."
   },
   {
    "openalex": "W1968782652",
@@ -33650,11 +33651,11 @@
    "title": "Reassessing the Insurance Effect: A Qualitative Analysis of Fertility Behavior in Senegal and Zimbabwe",
    "venue": "Population and Development Review",
    "stratum": "frame_only",
-   "cell": "PRIMARY_SAVE_INSURE",
-   "arm": "S",
+   "cell": "OFF_RISK_EXPOSURE_C5a",
+   "arm": "",
    "screened_by": "Shravan/Claude",
    "screened_on": "2026-09-01",
-   "note": "Reassessing the Insurance Effect: A Qualitative Analysis of Fertility Behavior."
+   "note": "WALL 1 RE-CUT ON THE INSTRUMENT (RA ruling 2026-09-01, PI confirmation pending). Reassessing the Insurance Effect: qualitative analysis of fertility behaviour under risk; risk environment varies, not instrument access. C.5.a. Confirm at full text."
   },
   {
    "openalex": "W2008777821",
@@ -33663,11 +33664,11 @@
    "title": "Income Risk, the Tax\u2010benefit System and the Demand for Children",
    "venue": "Economica",
    "stratum": "frame_only",
-   "cell": "PRIMARY_SAVE_INSURE",
-   "arm": "S",
+   "cell": "OFF_RISK_EXPOSURE_C5a",
+   "arm": "",
    "screened_by": "Shravan/Claude",
    "screened_on": "2026-09-01",
-   "note": "Income Risk, the Tax-benefit System and the Demand for Children. Boundary with C.5.a on whether risk or the buffer varies."
+   "note": "WALL 1 RE-CUT ON THE INSTRUMENT (RA ruling 2026-09-01, PI confirmation pending). Income risk and the demand for children: income risk varies; the tax-benefit system is the buffer but it is a public transfer system, not a household financial instrument. C.5.a, cross-ref C.2.d."
   },
   {
    "openalex": "W2121268104",
@@ -33680,7 +33681,7 @@
    "arm": "S",
    "screened_by": "Shravan/Claude",
    "screened_on": "2026-09-01",
-   "note": "Family size, household production, and life cycle saving."
+   "note": "WALL 1 RE-CUT ON THE INSTRUMENT (RA ruling 2026-09-01, PI confirmation pending). Family size, household production and life-cycle SAVING: saving behaviour is the margin. Survives provisionally; confirm at full text, and check the direction (children -> saving would be REVERSE)."
   },
   {
    "openalex": "W2549230894",
@@ -33693,7 +33694,7 @@
    "arm": "S",
    "screened_by": "Shravan/Claude",
    "screened_on": "2026-09-01",
-   "note": "Risk, Consumption Smoothing and the Family: Portfolio Management of Children and Assets. Directly on Arm S's estimand."
+   "note": "WALL 1 RE-CUT ON THE INSTRUMENT (RA ruling 2026-09-01, PI confirmation pending). Risk, Consumption Smoothing and the Family: PORTFOLIO MANAGEMENT OF CHILDREN AND ASSETS - the asset menu itself is the object. Survives the re-cut on its title; confirm at full text."
   },
   {
    "openalex": "W1572098935",
@@ -33706,7 +33707,7 @@
    "arm": "S",
    "screened_by": "Shravan/Claude",
    "screened_on": "2026-09-01",
-   "note": "Savings Behaviour, Fertility and Economic Development in Nineteenth Century Britain. HIGH VALUE: a third FDT-era Arm S record."
+   "note": "WALL 1 RE-CUT ON THE INSTRUMENT (RA ruling 2026-09-01, PI confirmation pending). Savings Behaviour, Fertility and Economic Development in 19th-c Britain: savings behaviour and institutions. Survives provisionally. UNAVAILABLE - the FDT cell turns on it."
   },
   {
    "openalex": "W2039772502",
@@ -33741,11 +33742,11 @@
    "title": "Public policy, risk and fertility in Bangladesh: a comment.",
    "venue": "PubMed",
    "stratum": "frame_only",
-   "cell": "PRIMARY_SAVE_INSURE",
-   "arm": "S",
+   "cell": "OFF_RISK_EXPOSURE_C5a",
+   "arm": "",
    "screened_by": "Shravan/Claude",
    "screened_on": "2026-09-01",
-   "note": "Public policy, risk and fertility in Bangladesh: a comment. Part of the Cain risk-and-insurance debate."
+   "note": "WALL 1 RE-CUT ON THE INSTRUMENT (RA ruling 2026-09-01, PI confirmation pending). Public policy, risk and fertility in Bangladesh: part of the Cain risk exchange; risk exposure. C.5.a. UNRETRIEVED - provisional."
   },
   {
    "openalex": "W2040907650",
@@ -33754,11 +33755,11 @@
    "title": "Economic utility of children and fertility in rural India",
    "venue": "Population Studies",
    "stratum": "frame_only",
-   "cell": "PRIMARY_SAVE_INSURE",
-   "arm": "S",
+   "cell": "OFF_OLDAGE_C3c",
+   "arm": "",
    "screened_by": "Shravan/Claude",
    "screened_on": "2026-09-01",
-   "note": "Economic utility of children and fertility in rural India. Arm S motive, descriptive."
+   "note": "WALL 1 RE-CUT ON THE INSTRUMENT (RA ruling 2026-09-01, PI confirmation pending). Economic utility of children in rural India: the utility measured is old-age support and security. Under the re-cut, old-age PROVISION is C.3.c's. UNRETRIEVED - provisional."
   },
   {
    "openalex": "W2049410699",
