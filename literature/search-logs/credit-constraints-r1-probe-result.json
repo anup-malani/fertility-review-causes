@@ -1,0 +1,15 @@
+{
+ "stratum_size": 3815,
+ "sample_n": 400,
+ "controls_n": 20,
+ "primary_found": 4,
+ "primary_rate": 0.01,
+ "uncertain_found": 2,
+ "theory_found": 2,
+ "upper_with_uncertain": 0.015,
+ "projected_primary_in_stratum": [
+  38,
+  57
+ ],
+ "sensitivity_arm": "NOT MEASURED - see log; verdicts were recorded only for new positives, so the 20 hidden controls cannot be scored, and self-blinding failed anyway because these records were screened hours earlier in the same session."
+}

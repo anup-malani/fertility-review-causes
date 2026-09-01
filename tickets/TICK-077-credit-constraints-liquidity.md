@@ -310,3 +310,22 @@ Three finished chapters have already routed evidence into this one. Read these b
 - Next: `snowball_r1_only` needs a 200+ record probe, not a 40; retrieve and extract the 62; mine the
   three reviews.
 
+### 2026-09-01 — blinded 400-record probe on `snowball_r1_only`
+
+- `295_c3e_blind_probe.py`; log at `credit-constraints-r1-probe-log.md`.
+- **4 primary in 400 = 1.00%** (1.50% counting two that need full text). **Projected 38-57 primary in
+  the 3,815-record stratum.** Finds include *Risk-sensitive fertility* (direct Arm S) and a
+  **cluster-randomised credit-with-health-education trial in Benin** — a randomised credit arm is
+  exactly what the composite cell lacks.
+- This matches the earlier 40-record estimate, **but that agreement is luck** — the same method
+  overestimated `frame_only` fourfold.
+- **The sensitivity arm FAILED and the design flaw was mine**: I recorded verdicts only for new
+  positives, so the 20 hidden controls cannot be scored, and self-blinding was impossible anyway since
+  I had screened those records hours earlier. Prevalence only. A real sensitivity measure needs a
+  verdict on every row and a second screener.
+- **Data-integrity catch: I hand-typed OpenAlex ids for the verdict file and all eight were wrong.**
+  The ingest validation (reject any id not on the sheet) caught every one; three would otherwise have
+  vanished and four attached to the wrong records. Never hand-type a record id.
+- **Recommendation: screen this stratum LAST**, after the 62-record primary pool is retrieved and
+  extracted. 38-57 marginal records will not change whether the arms can be rated; the 62 will.
+
