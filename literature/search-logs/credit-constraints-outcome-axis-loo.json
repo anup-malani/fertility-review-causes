@@ -1,0 +1,129 @@
+{
+  "baseline": {
+    "frame": 7021,
+    "gold": 10
+  },
+  "leave_one_out": [
+    {
+      "term": "fertility",
+      "frame_added": 998,
+      "term_alone": 1290,
+      "gold_lost": [
+        "cain-1981-risk-insurance",
+        "interest-rates-house-prices-fertility-macro",
+        "pitt-1999-credit-programs",
+        "yang-more-credit-babies-v1"
+      ]
+    },
+    {
+      "term": "birth rate",
+      "frame_added": 0,
+      "term_alone": 133,
+      "gold_lost": []
+    },
+    {
+      "term": "birth rates",
+      "frame_added": 0,
+      "term_alone": 133,
+      "gold_lost": []
+    },
+    {
+      "term": "childbearing",
+      "frame_added": 31,
+      "term_alone": 91,
+      "gold_lost": []
+    },
+    {
+      "term": "births",
+      "frame_added": 796,
+      "term_alone": 1096,
+      "gold_lost": []
+    },
+    {
+      "term": "number of children",
+      "frame_added": 135,
+      "term_alone": 205,
+      "gold_lost": [
+        "babies-of-mortgage-deregulation"
+      ]
+    },
+    {
+      "term": "family size",
+      "frame_added": 912,
+      "term_alone": 1015,
+      "gold_lost": []
+    },
+    {
+      "term": "parity",
+      "frame_added": 3509,
+      "term_alone": 3547,
+      "gold_lost": []
+    },
+    {
+      "term": "birth spacing",
+      "frame_added": 0,
+      "term_alone": 7,
+      "gold_lost": []
+    },
+    {
+      "term": "completed fertility",
+      "frame_added": 0,
+      "term_alone": 3,
+      "gold_lost": []
+    },
+    {
+      "term": "fertility intentions",
+      "frame_added": 0,
+      "term_alone": 6,
+      "gold_lost": []
+    },
+    {
+      "term": "baby boom",
+      "frame_added": 173,
+      "term_alone": 216,
+      "gold_lost": [
+        "baby-boom-house-prices-interest-rates"
+      ]
+    }
+  ],
+  "replacements": [
+    {
+      "term": "birth parity",
+      "alone": 0,
+      "gold": 10
+    },
+    {
+      "term": "parity progression",
+      "alone": 1,
+      "gold": 10
+    },
+    {
+      "term": "parity-specific",
+      "alone": 0,
+      "gold": 10
+    },
+    {
+      "term": "higher-order birth",
+      "alone": 1,
+      "gold": 10
+    }
+  ],
+  "repaired": {
+    "outcome_axis": [
+      "fertility",
+      "birth rate",
+      "birth rates",
+      "childbearing",
+      "births",
+      "number of children",
+      "family size",
+      "birth spacing",
+      "completed fertility",
+      "fertility intentions",
+      "baby boom"
+    ],
+    "frame": 3512,
+    "gold": 10,
+    "gold_lost": []
+  }
+}

@@ -212,3 +212,29 @@ Three finished chapters have already routed evidence into this one. Read these b
 - Next: screen the 15; mine the Orton review's included-study list; retrieve Islam et al. (JDS version);
   **run a separate round seeded from Arm S and Arm B** — they still rest on round 1.
 
+### 2026-09-01 — outcome axis was never calibrated; `parity` was half the frame
+
+- `289_c3e_outcome_axis_loo.py`, `290_c3e_arm_round3.py`; log at `credit-constraints-arm-round3-log.md`.
+- **278 calibrated the three exposure axes term by term and accepted the OUTCOME axis as a block.**
+  `parity` (for birth parity) plus `interest rate` (Arm B exposure) means **"interest rate parity"
+  satisfies both axes with one phrase**. Arm B frame 4,291 with it, 1,073 without.
+- **`parity` contributed 3,509 records — half the whole production frame — and ZERO gold.** Dropped.
+  Frame re-frozen at **3,512** (was 7,021), recall unchanged at 10/23. Demographic replacements
+  return 0-1 records each; that sense is not in these abstracts.
+- **Rule applied:** drop for a demonstrated homonym mechanism PLUS zero gold, never zero gold alone —
+  `family size` (+912) and `births` (+796) also miss the 23 anchors but are on-estimand and stay.
+  Dropping every term that misses the anchors overfits the query to the anchors.
+- **288 auto-selected its seeds and returned junk** ("The legacy of Lionel McKenzie"). The classifier
+  is a triage; 283 hand-read it before choosing composite seeds, and automating that step reproduced
+  the noise. 290's seeds are hand-read and named in the script.
+- **Round 3: pool 283, 261 new, and exactly ONE new exposure x outcome record — which is C.3.c's.**
+  Two caveats: **all six seeds have empty `referenced_works`**, so it was forward-only and weaker than
+  round 2's test; and 30% of new records have no abstract.
+- **The yield was the six seeds themselves**, found by the term channel: AGEP Zambia cluster-RCT,
+  Delavallade insurance-vs-savings experiment, **Dettling and Kearney 2025 NBER "Did the Modern
+  Mortgage Set the Stage for the U.S. Baby Boom?"** (mortgage credit, C.3.e's under Wall 2), Li
+  Australia, plus two C.3.c boundary decoys.
+- **Coverage reading, held weakly:** round 2 (composite) returned 15, round 3 (S and B) returned 1, so
+  the blind spot looks composite-specific — round 1's S and B seeds were estimand-matched from the
+  start. Not established: the round was forward-only and 30% blind.
+

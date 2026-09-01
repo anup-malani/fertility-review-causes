@@ -1,0 +1,77 @@
+{
+  "summary": {
+    "seeds": 6,
+    "prior_pool": 4273,
+    "round3_pool": 283,
+    "already_in_rounds_1_2": 22,
+    "NEW": 261,
+    "redundancy_rate": 0.078,
+    "NEW_carrying_exposure_and_outcome": 1,
+    "of_those_identified": 0,
+    "no_abstract_in_new": 79
+  },
+  "seeds": [
+    {
+      "openalex": "W3011170043",
+      "arm": "S",
+      "role": "anchor",
+      "label": "AGEP Zambia cluster RCT"
+    },
+    {
+      "openalex": "W3122525178",
+      "arm": "S",
+      "role": "anchor",
+      "label": "Delavallade: insurance vs savings experiment"
+    },
+    {
+      "openalex": "W1512976090",
+      "arm": "S",
+      "role": "decoy",
+      "label": "Billari and Galasso: Italian pension reforms (C.3.c boundary)"
+    },
+    {
+      "openalex": "W4407312762",
+      "arm": "B",
+      "role": "anchor",
+      "label": "Dettling and Kearney: the modern mortgage and the baby boom"
+    },
+    {
+      "openalex": "W2998507442",
+      "arm": "B",
+      "role": "anchor",
+      "label": "Li: fertility and housing market, Australia"
+    },
+    {
+      "openalex": "W2476864819",
+      "arm": "S",
+      "role": "decoy",
+      "label": "Davis-Friedmann: old age security and the one-child campaign"
+    }
+  ],
+  "candidates": [
+    {
+      "openalex": "W2990134641",
+      "doi": "10.2139/ssrn.3457324",
+      "title": "The Old-Age Security Motive for Fertility: Evidence from the Extension of Social Pensions in Namibia",
+      "year": 2019,
+      "type": "preprint",
+      "venue": "SSRN Electronic Journal",
+      "cited_by": 17,
+      "authors": "Pauline Rossi; Mathilde Godard",
+      "abstract": "",
+      "seeds_backward": [],
+      "seeds_forward": [
+        "W1512976090"
+      ],
+      "seed_arms": [
+        "S"
+      ],
+      "has_outcome": true,
+      "has_composite": false,
+      "has_S": true,
+      "has_B": false,
+      "has_ident": false,
+      "ident_terms": []
+    }
+  ]
+}

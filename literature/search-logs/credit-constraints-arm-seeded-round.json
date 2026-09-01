@@ -1,0 +1,487 @@
+{
+  "summary": {
+    "prior_pool": 4273,
+    "stage1_2": {
+      "S": {
+        "frame": 783,
+        "identified": 71,
+        "identified_and_new_to_rounds_1_2": 68,
+        "blind_spot_share": 0.958,
+        "no_abstract": 142,
+        "top_new": [
+          {
+            "openalex": "W4248535432",
+            "doi": "10.1596/0-8213-4898-1",
+            "title": "World Development Indicators 2001",
+            "year": 2001,
+            "venue": null,
+            "cited_by": 416
+          },
+          {
+            "openalex": "W4230888828",
+            "doi": "10.1596/0-8213-4697-0",
+            "title": "Evaluating the impact of development projects on poverty",
+            "year": 2000,
+            "venue": null,
+            "cited_by": 208
+          },
+          {
+            "openalex": "W3011170043",
+            "doi": "10.1186/s12889-020-08468-0",
+            "title": "The impact of the Adolescent Girls Empowerment Program (AGEP) on short and long term social, economic, education and fertility outcomes: a cluster randomized controlled trial in Zambia",
+            "year": 2020,
+            "venue": "BMC Public Health",
+            "cited_by": 120
+          },
+          {
+            "openalex": "W2067069545",
+            "doi": "10.1001/jamapediatrics.2013.4643",
+            "title": "Effects of Child Development Accounts on Early Social-Emotional Development",
+            "year": 2014,
+            "venue": "Archives of Pediatrics and Adolescent Medicine",
+            "cited_by": 107
+          },
+          {
+            "openalex": "W605949945",
+            "doi": "10.5860/choice.46-4516a",
+            "title": "Child welfare research: advances for practice and policy",
+            "year": 2009,
+            "venue": "Choice Reviews Online",
+            "cited_by": 86
+          },
+          {
+            "openalex": "W2736506551",
+            "doi": "10.1287/mnsc.2017.2779",
+            "title": "Risk Aversion and Son Preference: Experimental Evidence from Chinese Twin Parents",
+            "year": 2017,
+            "venue": "Management Science",
+            "cited_by": 32
+          },
+          {
+            "openalex": "W3153342399",
+            "doi": "10.1111/spol.12663",
+            "title": "Inequalities in pensions and retirement from a life course perspective: An introduction",
+            "year": 2021,
+            "venue": "Social Policy and Administration",
+            "cited_by": 24
+          },
+          {
+            "openalex": "W2476864819",
+            "doi": "10.1007/978-1-349-17900-8_6",
+            "title": "Old Age Security and the One-child Campaign",
+            "year": 1985,
+            "venue": "Palgrave Macmillan UK eBooks",
+            "cited_by": 21
+          },
+          {
+            "openalex": "W2164191253",
+            "doi": "10.1596/1813-9450-7176",
+            "title": "Managing Risk with Insurance and Savings: Experimental Evidence for Male and Female Farm Managers in the Sahel",
+            "year": 2015,
+            "venue": null,
+            "cited_by": 17
+          },
+          {
+            "openalex": "W2197629654",
+            "doi": null,
+            "title": "Fertility and old age security in an overlapping generations model.",
+            "year": 1988,
+            "venue": "PubMed",
+            "cited_by": 14
+          },
+          {
+            "openalex": "W2079329417",
+            "doi": "10.2134/jpa1994.0202",
+            "title": "Yield Loss Response of Navy Bean to Partial or Total Defoliation",
+            "year": 1994,
+            "venue": "jpa",
+            "cited_by": 14
+          },
+          {
+            "openalex": "W2024705358",
+            "doi": "10.1017/s0047279400008679",
+            "title": "Pricing, Insurance and the National Health Service",
+            "year": 1979,
+            "venue": "Journal of Social Policy",
+            "cited_by": 12
+          },
+          {
+            "openalex": "W1485132941",
+            "doi": "10.4324/9781315745930-15",
+            "title": "Tourism and economic growth: African evidence from panel vector autoregressive framework",
+            "year": 2015,
+            "venue": null,
+            "cited_by": 11
+          },
+          {
+            "openalex": "W2470788429",
+            "doi": "10.1002/cl2.1020",
+            "title": "PROTOCOL: Interventions designed to improve financial capability by improving financial behavior and financial access: A systematic review",
+            "year": 2019,
+            "venue": "Campbell Systematic Reviews",
+            "cited_by": 11
+          },
+          {
+            "openalex": "W3159565314",
+            "doi": "10.1093/ije/dyab091",
+            "title": "Rounding up the usual suspects: confirmation bias in epidemiological research",
+            "year": 2021,
+            "venue": "International Journal of Epidemiology",
+            "cited_by": 10
+          },
+          {
+            "openalex": "W2171072581",
+            "doi": "10.4419/86788545",
+            "title": "Social Norms and Mothers' Labor Market Attachment: The Medium-Run Effects of Parental Benefits",
+            "year": 2014,
+            "venue": "SSRN Electronic Journal",
+            "cited_by": 9
+          },
+          {
+            "openalex": "W1537555913",
+            "doi": null,
+            "title": "Developing a Liquid Market for Inflation-Indexed Government Securities: Lessons from Earlier Experiences",
+            "year": 2009,
+            "venue": "RePEc: Research Papers in Economics",
+            "cited_by": 8
+          },
+          {
+            "openalex": "W3125371290",
+            "doi": null,
+            "title": "What Explains Fertility? Evidence from Italian Pension Reforms",
+            "year": 2008,
+            "venue": "RePEc: Research Papers in Economics",
+            "cited_by": 6
+          },
+          {
+            "openalex": "W4411063268",
+            "doi": "10.3390/su17115206",
+            "title": "Weather Index Insurance and Input Intensification: Evidence from Smallholder Farmers in Kenya",
+            "year": 2025,
+            "venue": "Sustainability",
+            "cited_by": 6
+          },
+          {
+            "openalex": "W4404722599",
+            "doi": "10.1108/afr-03-2024-0049",
+            "title": "Estimating farmers\u2019 willingness to pay for crop insurance with application of choice experiment: case study in South Gondar Zone, Ethiopia",
+            "year": 2024,
+            "venue": "Agricultural Finance Review",
+            "cited_by": 5
+          }
+        ]
+      },
+      "B": {
+        "frame": 1073,
+        "identified": 82,
+        "identified_and_new_to_rounds_1_2": 80,
+        "blind_spot_share": 0.976,
+        "no_abstract": 175,
+        "top_new": [
+          {
+            "openalex": "W2118856209",
+            "doi": "10.1111/j.1468-0297.2005.01023.x",
+            "title": "Does Family Income Matter for Schooling Outcomes? Using Adoptees as a Natural Experiment",
+            "year": 2005,
+            "venue": "The Economic Journal",
+            "cited_by": 128
+          },
+          {
+            "openalex": "W2266804852",
+            "doi": null,
+            "title": "The Lost Decades: Explaining Developing Countries' Stagnation in Spite of Policy Reform 1980-1998",
+            "year": 2006,
+            "venue": "SSRN Electronic Journal",
+            "cited_by": 78
+          },
+          {
+            "openalex": "W3175439833",
+            "doi": "10.1057/9781137333117_5",
+            "title": "Inequality of Opportunity, Income Inequality, and Economic Mobility: Some International Comparisons",
+            "year": 2013,
+            "venue": "Palgrave Macmillan US eBooks",
+            "cited_by": 73
+          },
+          {
+            "openalex": "W2535447261",
+            "doi": "10.1111/joms.12245",
+            "title": "The Rise of Alternative Currencies in Post\u2010Capitalism",
+            "year": 2016,
+            "venue": "Journal of Management Studies",
+            "cited_by": 40
+          },
+          {
+            "openalex": "W3123479097",
+            "doi": "10.1920/wp.ifs.2002.0206",
+            "title": "Estimating Euler equations",
+            "year": 2002,
+            "venue": "Working paper series - Institute for Fiscal Studies/Working papers",
+            "cited_by": 30
+          },
+          {
+            "openalex": "W1520193514",
+            "doi": null,
+            "title": "Agroforestry Innovations in Africa: Can they Improve Soil Fertility on Women Farmers\u2019 Fields?",
+            "year": 2002,
+            "venue": "DOAJ (DOAJ: Directory of Open Access Journals)",
+            "cited_by": 26
+          },
+          {
+            "openalex": "W3124087991",
+            "doi": "10.1086/648710",
+            "title": "External Balance in Low\u2010Income Countries",
+            "year": 2010,
+            "venue": "NBER International Seminar on Macroeconomics",
+            "cited_by": 9
+          },
+          {
+            "openalex": "W253435368",
+            "doi": null,
+            "title": "Besting Malthus: The Green Revolution 1",
+            "year": 2005,
+            "venue": null,
+            "cited_by": 8
+          },
+          {
+            "openalex": "W1513927899",
+            "doi": "10.1111/j.1468-0475.2011.00534.x",
+            "title": "The Optimal Level of Debt in an OLG Model with Endogenous Fertility",
+            "year": 2011,
+            "venue": "German Economic Review",
+            "cited_by": 7
+          },
+          {
+            "openalex": "W4407312762",
+            "doi": "10.3386/w33446",
+            "title": "Did the Modern Mortgage Set the Stage for the U.S. Baby Boom?",
+            "year": 2025,
+            "venue": "National Bureau of Economic Research",
+            "cited_by": 6
+          },
+          {
+            "openalex": "W4318219724",
+            "doi": "10.17582/journal.aavs/2023/11.2.236.245",
+            "title": "Application of System Dynamics Modelling in Evaluating Sustainability of Beef Cattle Production and Business System in Smallholder Farmers in South Sumatera, Indonesia",
+            "year": 2023,
+            "venue": "Advances in Animal and Veterinary Sciences",
+            "cited_by": 5
+          },
+          {
+            "openalex": "W2998507442",
+            "doi": null,
+            "title": "Fertility and Housing Market: Australian Evidence",
+            "year": 2018,
+            "venue": "The Sydney eScholarship Repository (The University of Sydney)",
+            "cited_by": 4
+          },
+          {
+            "openalex": "W2113093842",
+            "doi": null,
+            "title": "Wealth Constraints and Self-Employment: Evidence from Birth Order",
+            "year": 2008,
+            "venue": "RePEc: Research Papers in Economics",
+            "cited_by": 4
+          },
+          {
+            "openalex": "W2937144931",
+            "doi": null,
+            "title": "Still time to save the Euro: A new agenda for growth and jobs with a focus on the euro area\u2019s four largest countries",
+            "year": 2019,
+            "venue": "Dialnet (Universidad de la Rioja)",
+            "cited_by": 4
+          },
+          {
+            "openalex": "W1499152895",
+            "doi": null,
+            "title": "The impact of Fiscal Instruments on Fertility: A Synthesis of the Economic Theory",
+            "year": 2014,
+            "venue": null,
+            "cited_by": 3
+          },
+          {
+            "openalex": "W2255579190",
+            "doi": null,
+            "title": "Optimal intergenerational redistribution and strategic incentives with two countries and endogenous fertility: Theory and application to the European Union",
+            "year": 1997,
+            "venue": "RePEc: Research Papers in Economics",
+            "cited_by": 3
+          },
+          {
+            "openalex": "W4383646133",
+            "doi": "10.1002/hec.4732",
+            "title": "Financial incentives and delivery care: Evidence from the Safe Delivery Incentive Program in Nepal",
+            "year": 2023,
+            "venue": "Health Economics",
+            "cited_by": 3
+          },
+          {
+            "openalex": "W580310112",
+            "doi": null,
+            "title": "The legacy of Lionel McKenzie",
+            "year": 1993,
+            "venue": "Academic Press eBooks",
+            "cited_by": 3
+          },
+          {
+            "openalex": "W2560067870",
+            "doi": "10.19044/esj.2016.v12n31p417",
+            "title": "Transformaci\u00f3n Del Sector El\u00e9ctrico Mexicano, Obst\u00e1culos Y Perspectivas De Competitividad Global En 2016",
+            "year": 2016,
+            "venue": "European Scientific Journal ESJ",
+            "cited_by": 3
+          },
+          {
+            "openalex": "W2564562582",
+            "doi": "10.1093/cjres/rsw034",
+            "title": "Revisiting development theory: Alice H. Amsden\u2019s impact on the field",
+            "year": 2016,
+            "venue": "Cambridge Journal of Regions Economy and Society",
+            "cited_by": 3
+          }
+        ]
+      }
+    },
+    "seeds": 16,
+    "seeds_by_arm": {
+      "S": 8,
+      "B": 8
+    },
+    "round3_pool": 1722,
+    "already_in_rounds_1_2": 13,
+    "NEW": 1709,
+    "redundancy_rate": 0.008,
+    "NEW_carrying_exposure_and_outcome": 0,
+    "of_those_identified": 0
+  },
+  "seeds": [
+    {
+      "openalex": "W4248535432",
+      "arm": "S",
+      "title": "World Development Indicators 2001",
+      "year": 2001,
+      "venue": null,
+      "cited_by": 416
+    },
+    {
+      "openalex": "W4230888828",
+      "arm": "S",
+      "title": "Evaluating the impact of development projects on poverty",
+      "year": 2000,
+      "venue": null,
+      "cited_by": 208
+    },
+    {
+      "openalex": "W3011170043",
+      "arm": "S",
+      "title": "The impact of the Adolescent Girls Empowerment Program (AGEP) on short and long term social, economic, education and fertility outcomes: a cluster randomized controlled trial in Zambia",
+      "year": 2020,
+      "venue": "BMC Public Health",
+      "cited_by": 120
+    },
+    {
+      "openalex": "W2067069545",
+      "arm": "S",
+      "title": "Effects of Child Development Accounts on Early Social-Emotional Development",
+      "year": 2014,
+      "venue": "Archives of Pediatrics and Adolescent Medicine",
+      "cited_by": 107
+    },
+    {
+      "openalex": "W605949945",
+      "arm": "S",
+      "title": "Child welfare research: advances for practice and policy",
+      "year": 2009,
+      "venue": "Choice Reviews Online",
+      "cited_by": 86
+    },
+    {
+      "openalex": "W2736506551",
+      "arm": "S",
+      "title": "Risk Aversion and Son Preference: Experimental Evidence from Chinese Twin Parents",
+      "year": 2017,
+      "venue": "Management Science",
+      "cited_by": 32
+    },
+    {
+      "openalex": "W3153342399",
+      "arm": "S",
+      "title": "Inequalities in pensions and retirement from a life course perspective: An introduction",
+      "year": 2021,
+      "venue": "Social Policy and Administration",
+      "cited_by": 24
+    },
+    {
+      "openalex": "W2476864819",
+      "arm": "S",
+      "title": "Old Age Security and the One-child Campaign",
+      "year": 1985,
+      "venue": "Palgrave Macmillan UK eBooks",
+      "cited_by": 21
+    },
+    {
+      "openalex": "W2118856209",
+      "arm": "B",
+      "title": "Does Family Income Matter for Schooling Outcomes? Using Adoptees as a Natural Experiment",
+      "year": 2005,
+      "venue": "The Economic Journal",
+      "cited_by": 128
+    },
+    {
+      "openalex": "W2266804852",
+      "arm": "B",
+      "title": "The Lost Decades: Explaining Developing Countries' Stagnation in Spite of Policy Reform 1980-1998",
+      "year": 2006,
+      "venue": "SSRN Electronic Journal",
+      "cited_by": 78
+    },
+    {
+      "openalex": "W3175439833",
+      "arm": "B",
+      "title": "Inequality of Opportunity, Income Inequality, and Economic Mobility: Some International Comparisons",
+      "year": 2013,
+      "venue": "Palgrave Macmillan US eBooks",
+      "cited_by": 73
+    },
+    {
+      "openalex": "W2535447261",
+      "arm": "B",
+      "title": "The Rise of Alternative Currencies in Post\u2010Capitalism",
+      "year": 2016,
+      "venue": "Journal of Management Studies",
+      "cited_by": 40
+    },
+    {
+      "openalex": "W3123479097",
+      "arm": "B",
+      "title": "Estimating Euler equations",
+      "year": 2002,
+      "venue": "Working paper series - Institute for Fiscal Studies/Working papers",
+      "cited_by": 30
+    },
+    {
+      "openalex": "W1520193514",
+      "arm": "B",
+      "title": "Agroforestry Innovations in Africa: Can they Improve Soil Fertility on Women Farmers\u2019 Fields?",
+      "year": 2002,
+      "venue": "DOAJ (DOAJ: Directory of Open Access Journals)",
+      "cited_by": 26
+    },
+    {
+      "openalex": "W3124087991",
+      "arm": "B",
+      "title": "External Balance in Low\u2010Income Countries",
+      "year": 2010,
+      "venue": "NBER International Seminar on Macroeconomics",
+      "cited_by": 9
+    },
+    {
+      "openalex": "W253435368",
+      "arm": "B",
+      "title": "Besting Malthus: The Green Revolution 1",
+      "year": 2005,
+      "venue": null,
+      "cited_by": 8
+    }
+  ],
+  "candidates": []
+}

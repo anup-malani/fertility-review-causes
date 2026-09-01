@@ -156,7 +156,6 @@
       "births",
       "number of children",
       "family size",
-      "parity",
       "birth spacing",
       "completed fertility",
       "fertility intentions",
@@ -208,7 +207,7 @@
         "credit program"
       ]
     },
-    "frame": 7021,
+    "frame": 3512,
     "gold_recalled": 10,
     "gold_total": 23,
     "unreached": [
@@ -225,6 +224,22 @@
       "prina-2015-banking-the-poor",
       "rosenzweig-1989-consumption-smoothing",
       "schultz-1997-demand-for-children"
-    ]
+    ],
+    "outcome_axis_pre_289": [
+      "fertility",
+      "birth rate",
+      "birth rates",
+      "childbearing",
+      "births",
+      "number of children",
+      "family size",
+      "parity",
+      "birth spacing",
+      "completed fertility",
+      "fertility intentions",
+      "baby boom"
+    ],
+    "frame_pre_289": 7021,
+    "note_289": "`parity` removed from the outcome axis 2026-09-01 by 289. It contributed 3,509 records -- half the whole frame -- and zero gold. Mechanism: it satisfies the outcome axis while 'interest rate' satisfies Arm B's exposure axis, so the single phrase 'interest rate parity' clears both. Demographic replacements (birth parity, parity progression, parity-specific, higher-order birth) return 0-1 records each: that sense is not carried in these abstracts. NOTE the rule applied: a term is dropped for a DEMONSTRATED HOMONYM MECHANISM plus zero gold, never for zero gold alone -- 'family size' (+912) and 'births' (+796) also lose no gold against a 23-record anchor set but are semantically on-estimand and stay. Dropping every term that misses the anchors would overfit the query to the anchors."
   }
 }
