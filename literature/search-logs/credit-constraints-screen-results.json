@@ -6,18 +6,20 @@
    "OFF_OTHER_read_not_routed": 2486,
    "OFF_OLDAGE_C3c": 37,
    "PRIMARY_COMPOSITE_ACCESS": 32,
-   "THEORY": 18,
-   "PRIMARY_SAVE_INSURE": 16,
+   "THEORY": 19,
    "PRIMARY_BORROW_TERMS": 13,
+   "PRIMARY_SAVE_INSURE": 12,
    "MECHANISM_NO_FERTILITY": 8,
    "REVERSE": 7,
    "OFF_HOUSING_C2c": 2,
+   "OFF_PRICE_OF_BIRTH_C2d": 2,
+   "OFF_LAND_C4a": 1,
    "REVIEW_TO_MINE": 1
   },
   "primary_by_arm": {
    "B": 13,
    "composite": 32,
-   "S": 16
+   "S": 12
   },
   "by_stratum": {
    "both_channels": {
@@ -42,6 +44,22 @@
     "from": "PRIMARY_BORROW_TERMS",
     "to": "MECHANISM_NO_FERTILITY",
     "reason": "family size is a regressor; outcome is children's education"
+   },
+   {
+    "openalex": "W2049410699",
+    "to": "OFF_PRICE_OF_BIRTH_C2d"
+   },
+   {
+    "openalex": "W2057693176",
+    "to": "OFF_PRICE_OF_BIRTH_C2d"
+   },
+   {
+    "openalex": "W2091475442",
+    "to": "OFF_LAND_C4a"
+   },
+   {
+    "openalex": "W2039772502",
+    "to": "THEORY"
    }
   ]
  },
@@ -33697,11 +33715,11 @@
    "title": "Risk and Fertility: A Reply to Robinson",
    "venue": "Population Studies",
    "stratum": "frame_only",
-   "cell": "PRIMARY_SAVE_INSURE",
-   "arm": "S",
+   "cell": "THEORY",
+   "arm": "",
    "screened_by": "Shravan/Claude",
    "screened_on": "2026-09-01",
-   "note": "Risk and Fertility: A Reply to Robinson. Cain debate; the exposure is RISK, not credit - this is the vocabulary the token filter misses."
+   "note": "RE-ROUTED AT FULL TEXT. Cain's reply is conceptual - it defends the coherence of treating children as insurance and reports no new estimate. AND IT RAISES A STRUCTURAL PROBLEM FOR WALL 1: Cain defines insurance as 'protection against the adverse economic consequences of a potentially threatening event', names disability, widowhood, depredation and floods alongside old age, and cites Nugent's old-age-security paper approvingly in support. The founding literature treats old-age security as ONE INSTANCE of the insurance motive, not a separable category - which is the axis Wall 1 cuts on. See the log."
   },
   {
    "openalex": "W2091475442",
@@ -33710,11 +33728,11 @@
    "title": "Is the Relationship Between Landholding and Fertility Spurious? A Response to Cain",
    "venue": "Population Studies",
    "stratum": "frame_only",
-   "cell": "PRIMARY_SAVE_INSURE",
-   "arm": "S",
+   "cell": "OFF_LAND_C4a",
+   "arm": "",
    "screened_by": "Shravan/Claude",
    "screened_on": "2026-09-01",
-   "note": "Is the Relationship Between Landholding and Fertility Spurious? A Response to Cain. Boundary with C.4.a."
+   "note": "RE-ROUTED AT FULL TEXT. Stokes, Schutjer and Bulatao is about LANDHOLDING and fertility - land tenure, land settlement, land reform. No financial instrument varies. Route to C.4.a."
   },
   {
    "openalex": "W2281299386",
@@ -33749,11 +33767,11 @@
    "title": "The No-Birth Bonus Scheme: The Use of Savings Accounts for Family Planning in South India",
    "venue": "Population and Development Review",
    "stratum": "both_channels",
-   "cell": "PRIMARY_SAVE_INSURE",
-   "arm": "S",
+   "cell": "OFF_PRICE_OF_BIRTH_C2d",
+   "arm": "",
    "screened_by": "Shravan/Claude",
    "screened_on": "2026-09-01",
-   "note": "No-Birth Bonus Scheme: savings accounts used as a family-planning incentive, South India tea estates. A savings instrument against fertility; incentive design, so check whether it identifies the saving channel or a price-of-children channel (C.2.d)."
+   "note": "RE-ROUTED AT FULL TEXT. The No-Birth Bonus Scheme pays into a savings account FOR EACH YEAR WITHOUT A BIRTH - the paper's own words, 'compensation for the loss incurred in forgoing additional children'. What varies is the PRICE OF A BIRTH; the savings account is the payment vehicle, not a change in the asset menu. Under the what-varies rule this is C.2.d. NOTE the design is otherwise good: a DiD over 18 tea estates, Type I (NBBS 1971) vs Type II (CLWS 1972) vs Type III (neither), CBR 1969-77; Type I 39.5 -> 25.4 against Type III 39.2 -> 33.0. The author's own verdict is cautious: rates were falling everywhere."
   },
   {
    "openalex": "W2057693176",
@@ -33762,11 +33780,11 @@
    "title": "Savings Accounts for Family Planning, An Illustration from the Tea Estates of India",
    "venue": "Studies in Family Planning",
    "stratum": "frame_only",
-   "cell": "PRIMARY_SAVE_INSURE",
-   "arm": "S",
+   "cell": "OFF_PRICE_OF_BIRTH_C2d",
+   "arm": "",
    "screened_by": "Shravan/Claude",
    "screened_on": "2026-09-01",
-   "note": "Savings Accounts for Family Planning, tea estates of India. Companion/variant of the No-Birth Bonus Scheme already in the pool - CHECK VERSION PAIR."
+   "note": "RE-ROUTED AT FULL TEXT. Ridker's 1971 report of the SAME SCHEME (tea estates, South India) that the 1980 PDR paper evaluates. Same author, same intervention - one study in two reports, and it is C.2.d for the reason above."
   },
   {
    "openalex": "W4402894665",

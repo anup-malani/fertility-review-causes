@@ -373,3 +373,28 @@ Three finished chapters have already routed evidence into this one. Read these b
   **19th-c Britain (Tier 1 #2)** — so the FDT-era Arm S cell stands at **1 of 3 read**, and the
   rainfall-risk paper (`10.1093/jeg/lbz039`) remains the highest-value outstanding item in the chapter.
 
+### 2026-09-01 — the first four Arm S full texts: NONE survived as C.3.e
+
+- Log at `credit-constraints-arm-s-structural-problem.md`. **FOR ANUP; supersedes PI Call 1.**
+- Ridker 1980 (No-Birth Bonus) and Ridker 1971 (tea estates) are **one study**, and the scheme pays
+  into a savings account **for each year without a birth** — "compensation for the loss incurred in
+  forgoing additional children". What varies is the **price of a birth**; the savings account is the
+  payment vehicle. → **C.2.d**. (The design is otherwise decent: DiD across 18 estates, Type I CBR
+  39.5→25.4 vs Type III 39.2→33.0; the author's own verdict is cautious.)
+- Stokes/Schutjer/Bulatao 1986 is about **landholding** → **C.4.a**.
+- Cain 1986 is a conceptual reply with no estimate → THEORY, **and it breaks Wall 1**: Cain defines
+  insurance broadly, names disability/widowhood/depredation/floods **alongside old age** as one
+  concept, and **cites Nugent's old-age-security paper approvingly**. The founding literature treats
+  old-age security as ONE INSTANCE of the insurance motive, so Wall 1 cuts on an axis its own sources
+  do not have. The 276 probe missed this because it measured VOCABULARY (13.7% old-age words), not
+  what the studies vary.
+- **Arm S 16 → 12. Primary pool 61 → 57.**
+- **Three options for Anup**: (1) merge Arm S into C.3.c; (2) re-cut Wall 1 on the INSTRUMENT (C.3.c =
+  old-age provision, C.3.e = general financial instruments) rather than the risk; (3) accept Arm S is
+  mostly empty of admissible variation. **I recommend 2 and expect it to deliver 3.**
+- Ruling 1 is unaffected — composite exposures still cannot be allocated, so this is still one
+  chapter — and Arm B is untouched.
+- Caveat: four full texts, chosen as the best cases, so not random — but that cuts against Arm S.
+  The ruling can wait for the rainfall-risk paper (`10.1093/jeg/lbz039`), still the highest-value
+  outstanding retrieval.
+
