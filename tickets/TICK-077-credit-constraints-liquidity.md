@@ -356,3 +356,20 @@ Three finished chapters have already routed evidence into this one. Read these b
 - Next: extract the remaining 10 retrieved; **the 50-study retrieval handoff is the binding
   constraint** on rating Arm S.
 
+### 2026-09-01 — first full-text check REVERSED a screen decision
+
+- One file arrived from the Tier 1-3 priority list: Lafortune and Lee, *All for One? Family Size and
+  Children's Educational Distribution under Credit Constraints* (AER P&P 2014).
+- **Re-routed PRIMARY_BORROW_TERMS -> MECHANISM_NO_FERTILITY.** Family size is a **regressor**; the
+  dependent variable is children's education, with credit constraints as a moderator. No fertility
+  outcome, so Wall 6 routes it out; cross-ref C.3.d.
+- **Two corrections, both mine.** (1) The screen cell was wrong in precisely the way the wave-1 log
+  warned — design and outcome values are hypotheses until full text — and this is the FIRST of the 62
+  checked against its own text. Expect more. (2) My priority note ranked it Tier 1 as a "top-five
+  journal, design likely strongest in the arm"; it is **AER Papers & Proceedings, 5 pages**, not a
+  refereed AER article. I ranked a venue string, not a paper.
+- **Primary pool 62 -> 61** (58 distinct studies). Arm B 14 -> 13.
+- **Everything else in Tiers 1-3 is still outstanding.** Unavailable: the 1983 Bangladesh comment and
+  **19th-c Britain (Tier 1 #2)** — so the FDT-era Arm S cell stands at **1 of 3 read**, and the
+  rainfall-risk paper (`10.1093/jeg/lbz039`) remains the highest-value outstanding item in the chapter.
+

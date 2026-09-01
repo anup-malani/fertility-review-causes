@@ -93,3 +93,36 @@ pooling with what it should be separated from; `identified` is YES/NO.
    access.** Arm S cannot be rated until a substantial part of it is read.
 3. The PI ruling on Wall 1 now has a concrete case attached — the 19th-century US counties study is an
    Arm S record whose authors frame it as old-age security.
+
+---
+
+## Addendum, 2026-09-01: the first full-text check reversed a screen decision
+
+Shravan retrieved from the Tier 1–3 priority list. **One file arrived** — Lafortune and Lee, *All for
+One? Family Size and Children's Educational Distribution under Credit Constraints* (Tier 1, item 5) —
+and reading it changed its routing.
+
+**Family size is a regressor, not the outcome.** The dependent variable is children's education:
+Table 1 is *"Family Size and Education Level"*, Table 2 *"Birth Order and Years of Education"*, and the
+cited follow-on is *"Effect of Family Size and Birth Order on Child Outcomes"*. Credit constraints
+enter as a **moderator** of the family-size-to-education relationship. There is no fertility outcome,
+so **Wall 6 routes it out**: re-cellled `MECHANISM_NO_FERTILITY`, cross-referenced to C.3.d.
+
+Two corrections follow, both mine:
+
+- **My screen cell was wrong**, and it was wrong in exactly the way the wave-1 log warned about —
+  *"design and outcome values are hypotheses until full text."* This is the first of the 62 to be
+  checked against its own text, and it did not survive. It is a reason to expect more of the same, and
+  an argument for checking outcome direction at full text before any pooling.
+- **My priority note oversold it.** I ranked it Tier 1 as a *"top-five journal, design likely the
+  strongest in the arm."* It is **AER Papers & Proceedings**, five pages, not a refereed AER article.
+  I ranked a venue string rather than a paper.
+
+**Primary pool: 62 → 61 records** (59 → 58 distinct studies after the three version pairs).
+Arm B 14 → 13.
+
+**Still outstanding from Tiers 1–3: everything else.** The two named as unavailable are *Public
+policy, risk and fertility in Bangladesh* (1983) and *Savings Behaviour, Fertility and Economic
+Development in Nineteenth Century Britain* (1987). The Britain paper was Tier 1 item 2, and with it
+unavailable **the FDT-era Arm S cell stands at one of three read** — the US-counties study — with the
+rainfall-risk paper still the highest-value outstanding item in the chapter.
