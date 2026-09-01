@@ -285,14 +285,15 @@ finding about the query.
 ## 11. Rulings
 
 **Ruling 1 — one chapter, two arms, three strata.** Resolved above (Shravan, 2026-09-01), on the
-question put by Anup: the treatments are *not* the same, but their exposure sets overlap in a class
+question put by Shravan: the treatments are *not* the same, but their exposure sets overlap in a class
 that cannot be allocated, so they cannot be two chapters. Arms are never pooled or averaged; GRADE
 and demsig are per arm per phenomenon.
 
 **Ruling 2 — the Lovenheim and Mumford double-listing, now acted on.** C.2.c recommended striking
 Lovenheim and Mumford 2013 from C.3.e's `seminal` list and cross-referencing C.2.c instead, and
 flagged rather than made the edit because HYPOTHESES-v5.md is under PI review at TICK-001. Authorised
-by Anup 2026-09-01; the edit is made on this branch and annotated in place so the PI sees an RA edit
+by Shravan (RA) 2026-09-01 — an RA authorisation, not a PI one, so the edit stands as a proposal to Anup at
+TICK-001; the edit is made on this branch and annotated in place so the PI sees an RA edit
 rather than a silent one. The substance: the home-equity channel's identifying variation is a housing
 **price** shock, so under Wall 2 the study is C.2.c's.
 

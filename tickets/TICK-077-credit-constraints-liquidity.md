@@ -53,7 +53,7 @@ Three finished chapters have already routed evidence into this one. Read these b
 
 - `literature/search-logs/credit-constraints-search-scope.md`. Six walls frozen; estimand cells,
   required tags, pooling rule and the demsig pre-specification written before any query.
-- **Ruling 1 (Anup asked whether the two treatments are the same): no, but they are not separable.**
+- **Ruling 1 (asked by Shravan: are the two treatments the same?): no, but they are not separable.**
   Arm S (saving/insurance instrument availability) acts on the *value* of children; Arm B (borrowing
   terms) acts on the *intertemporal budget constraint*; a pure shock to either leaves the other
   untouched. But composite financial-access designs — branch expansion, microfinance, inclusion
@@ -61,7 +61,7 @@ Three finished chapters have already routed evidence into this one. Read these b
   either arm. So: **one chapter, two arms, three strata; arms never pooled or averaged; GRADE and
   demsig per arm per phenomenon** (A.18 multi-arm precedent), ≥3-effects test applied after
   stratification.
-- **Ruling 2 (authorised by Anup): acted on.** Lovenheim and Mumford 2013 struck from C.3.e's
+- **Ruling 2 (RA-authorised by Shravan; awaiting PI confirmation): acted on.** Lovenheim and Mumford 2013 struck from C.3.e's
   `seminal` list in HYPOTHESES-v5.md and cross-referenced to C.2.c, with an in-place RA-edit
   annotation for PI confirmation at TICK-001. C.2.c had recommended and flagged this on 2026-07-31.
 - **Two PI calls opened.** Call 1: C.3.c's written chapter already claims "money in a bank, an
