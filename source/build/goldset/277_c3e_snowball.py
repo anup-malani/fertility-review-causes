@@ -170,7 +170,13 @@ def main():
     twin_log = []
     for sd in seeds:
         want = fold(sd["title"])
-        q = re.sub(r"\s+", " ", (sd["title"] or "").replace('"', " ")).strip()
+        # `?` and `!` inside a QUOTED filter value return a silent 0 -- valid meta, no
+        # error, just an absence that is not one. It is worse than the known `search=`
+        # wildcard refusal, which at least returns an error body. Seven of this chapter's
+        # 26 seeds carry a `?` in the title ("Do Rural Banks Matter?", "The Miracle of
+        # Microfinance?") and every one of them returned zero twins before this strip.
+        q = re.sub(r"[?!]", " ", (sd["title"] or "").replace('"', " "))
+        q = re.sub(r"\s+", " ", q).strip()
         d, err = get([("filter", f'title.search:"{q}"'), ("per-page", "10"),
                       ("select", SELECT)])
         sd["twins"] = []

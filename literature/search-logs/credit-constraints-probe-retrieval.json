@@ -1,0 +1,232 @@
+{
+  "summary": {
+    "targets": 10,
+    "fetched": 6,
+    "rung_found": {
+      "oa_self": 2,
+      "oa_twin": 8
+    },
+    "rung_fetched": {
+      "oa_self": 1,
+      "oa_twin": 5
+    },
+    "handoff": {
+      "attanasio-2015-mongolia": "browser-job (open URL refused by bot defence)",
+      "bruhn-2014-mexico": "browser-job (open URL refused by bot defence)",
+      "guinnane-credit-cooperatives": "no url produced at any rung",
+      "prina-2015-banking-the-poor": "no url produced at any rung"
+    }
+  },
+  "records": [
+    {
+      "key": "angelucci-2015-compartamos",
+      "title": "Microcredit Impacts: Evidence from a Randomized Microcredit Program Placement Experiment by Compartamos Banco",
+      "arm": "composite",
+      "role": "probe",
+      "attempts": [
+        {
+          "id": "W2080186747",
+          "rung": "oa_twin",
+          "url": "https://doi.org/10.3386/w19827",
+          "is_oa": true,
+          "http": "200",
+          "ok": true,
+          "note": "291 KB"
+        }
+      ],
+      "fetched_path": "temp/c3e-probe-fulltext/angelucci-2015-compartamos__W2080186747.pdf",
+      "rung": "oa_twin"
+    },
+    {
+      "key": "attanasio-2015-mongolia",
+      "title": "The Impacts of Microfinance: Evidence from Joint-Liability Lending in Mongolia",
+      "arm": "composite",
+      "role": "probe",
+      "attempts": [
+        {
+          "id": "W3123033381",
+          "rung": "oa_twin",
+          "url": "https://doi.org/10.2139/ssrn.1974414",
+          "is_oa": true,
+          "http": "403",
+          "ok": false,
+          "note": "BLOCKED (403) - open URL refused by bot defence, not a paywall"
+        }
+      ],
+      "fetched_path": null,
+      "rung": null,
+      "handoff": "browser-job (open URL refused by bot defence)"
+    },
+    {
+      "key": "banerjee-2015-miracle",
+      "title": "The Miracle of Microfinance? Evidence from a Randomized Evaluation",
+      "arm": "composite",
+      "role": "anchor",
+      "attempts": [
+        {
+          "id": "W2148197077",
+          "rung": "oa_twin",
+          "url": "https://doi.org/10.2139/ssrn.2250500",
+          "is_oa": true,
+          "http": "403",
+          "ok": false,
+          "note": "BLOCKED (403) - open URL refused by bot defence, not a paywall"
+        },
+        {
+          "id": "W2148197077",
+          "rung": "oa_twin",
+          "url": "https://dspace.mit.edu/bitstream/1721.1/95941/1/Banerjee_The%20miracle.pdf",
+          "is_oa": true,
+          "http": "200",
+          "ok": true,
+          "note": "770 KB"
+        }
+      ],
+      "fetched_path": "temp/c3e-probe-fulltext/banerjee-2015-miracle__W2148197077.pdf",
+      "rung": "oa_twin"
+    },
+    {
+      "key": "bruhn-2014-mexico",
+      "title": "The Real Impact of Improved Access to Finance: Evidence from Mexico",
+      "arm": "composite",
+      "role": "probe",
+      "attempts": [
+        {
+          "id": "W2145691096",
+          "rung": "oa_self",
+          "url": "https://zenodo.org/record/3452614",
+          "is_oa": true,
+          "http": "410",
+          "ok": false,
+          "note": "not a PDF (landing page or JS shell)"
+        },
+        {
+          "id": "W3125430065",
+          "rung": "oa_twin",
+          "url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID2285013_code493450.pdf?abstractid=2285013&mirid=1&type=2",
+          "is_oa": true,
+          "http": "403",
+          "ok": false,
+          "note": "BLOCKED (403) - open URL refused by bot defence, not a paywall"
+        }
+      ],
+      "fetched_path": null,
+      "rung": null,
+      "handoff": "browser-job (open URL refused by bot defence)"
+    },
+    {
+      "key": "burgess-2005-rural-banks",
+      "title": "Do Rural Banks Matter? Evidence from the Indian Social Banking Experiment",
+      "arm": "composite",
+      "role": "probe",
+      "attempts": [
+        {
+          "id": "W2052902050",
+          "rung": "oa_self",
+          "url": "https://researchonline.lse.ac.uk/id/eprint/2244/1/Do_Rural_Banks_Matter_Evidence_from_the_Indian_Social_Banking_Experiment.pdf",
+          "is_oa": true,
+          "http": "200",
+          "ok": true,
+          "note": "1088 KB"
+        }
+      ],
+      "fetched_path": "temp/c3e-probe-fulltext/burgess-2005-rural-banks__W2052902050.pdf",
+      "rung": "oa_self"
+    },
+    {
+      "key": "crepon-2015-morocco",
+      "title": "Estimating the Impact of Microcredit on Those Who Take It Up: Evidence from a Randomized Experiment in Morocco",
+      "arm": "composite",
+      "role": "probe",
+      "attempts": [
+        {
+          "id": "W3122400365",
+          "rung": "oa_twin",
+          "url": "https://doi.org/10.2139/ssrn.2438038",
+          "is_oa": true,
+          "http": "403",
+          "ok": false,
+          "note": "BLOCKED (403) - open URL refused by bot defence, not a paywall"
+        },
+        {
+          "id": "W2890199545",
+          "rung": "oa_twin",
+          "url": "https://doi.org/10.3386/w20144",
+          "is_oa": true,
+          "http": "200",
+          "ok": true,
+          "note": "1684 KB"
+        }
+      ],
+      "fetched_path": "temp/c3e-probe-fulltext/crepon-2015-morocco__W2890199545.pdf",
+      "rung": "oa_twin"
+    },
+    {
+      "key": "dupas-2013-savings-constraints",
+      "title": "Savings Constraints and Microenterprise Development: Evidence from a Field Experiment in Kenya",
+      "arm": "S",
+      "role": "probe",
+      "attempts": [
+        {
+          "id": "W2288915191",
+          "rung": "oa_twin",
+          "url": "https://doi.org/10.3386/w14693",
+          "is_oa": true,
+          "http": "200",
+          "ok": true,
+          "note": "542 KB"
+        }
+      ],
+      "fetched_path": "temp/c3e-probe-fulltext/dupas-2013-savings-constraints__W2288915191.pdf",
+      "rung": "oa_twin"
+    },
+    {
+      "key": "guinnane-credit-cooperatives",
+      "title": "COOPERATIVES AS INFORMATION MACHINES: GERMAN RURAL CREDIT COOPERATIVES, 1883\u20131914",
+      "arm": "S",
+      "role": "probe",
+      "attempts": [],
+      "fetched_path": null,
+      "rung": null,
+      "handoff": "no url produced at any rung"
+    },
+    {
+      "key": "prina-2015-banking-the-poor",
+      "title": "Banking the poor via savings accounts: Evidence from a field experiment",
+      "arm": "S",
+      "role": "probe",
+      "attempts": [],
+      "fetched_path": null,
+      "rung": null,
+      "handoff": "no url produced at any rung"
+    },
+    {
+      "key": "rosenzweig-1989-consumption-smoothing",
+      "title": "Consumption Smoothing, Migration, and Marriage: Evidence from Rural India",
+      "arm": "S",
+      "role": "probe",
+      "attempts": [
+        {
+          "id": "W3125776836",
+          "rung": "oa_twin",
+          "url": "https://doi.org/10.22004/ag.econ.7515",
+          "is_oa": true,
+          "http": "200",
+          "ok": false,
+          "note": "not a PDF (landing page or JS shell)"
+        },
+        {
+          "id": "W3125776836",
+          "rung": "oa_twin",
+          "url": "https://ageconsearch.umn.edu/record/7515/files/edc87-11.pdf",
+          "is_oa": false,
+          "http": "200",
+          "ok": true,
+          "note": "1346 KB"
+        }
+      ],
+      "fetched_path": "temp/c3e-probe-fulltext/rosenzweig-1989-consumption-smoothing__W3125776836.pdf",
+      "rung": "oa_twin"
+    }
+  ]
+}

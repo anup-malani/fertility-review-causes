@@ -14,7 +14,7 @@
    {
     "seed": "Abhijit Banerjee",
     "arm": "composite",
-    "true_count": 1492,
+    "true_count": 2537,
     "taken": 200
    },
    {
@@ -103,48 +103,65 @@
    }
   ],
   "raw_found_before_dedup": {
-   "backward": 1840,
-   "forward": 3493
+   "backward": 2101,
+   "forward": 3501
   },
   "new_records_by_rung": {
-   "backward": 1062,
-   "forward": 3100
+   "backward": 1078,
+   "forward": 3265
   },
-  "pool_size": 3810,
+  "pool_size": 3976,
   "reached_by_seed_arm": {
    "S": 2080,
-   "composite": 1163,
+   "composite": 1357,
    "B": 745
   },
   "reached_by_exactly_one_arm": {
-   "composite": 1011,
+   "composite": 1177,
    "B": 713,
-   "S": 1912
+   "S": 1884
   },
   "reached_by_seed_role": {
    "probe": 1899,
-   "anchor": 1126,
+   "anchor": 1372,
    "decoy": 531,
    "theory": 550,
-   "version_twin": 96
+   "version_twin": 102
   },
   "reached_by_exactly_one_role": {
-   "probe": 1735,
-   "anchor": 813,
+   "probe": 1682,
+   "anchor": 973,
    "decoy": 402,
-   "theory": 484,
-   "version_twin": 25
+   "theory": 484
   },
-  "no_doi": 297,
-  "preprints": 393,
-  "multi_seed": 687,
-  "duplicates_collapsed": 352,
-  "seeds_with_version_twins": 12,
-  "records_reached_only_via_a_twin": 617,
+  "no_doi": 306,
+  "preprints": 408,
+  "multi_seed": 753,
+  "duplicates_collapsed": 367,
+  "seeds_with_version_twins": 16,
+  "records_reached_only_via_a_twin": 870,
   "errors": 0,
   "note": "Pool is candidates, not a frame. Nothing here has been screened."
  },
  "version_twins": [
+  {
+   "seed": "banerjee-2015-miracle",
+   "seed_cited_by_rank": null,
+   "twins": [
+    {
+     "openalex": "W2148197077",
+     "year": 2013,
+     "type": "preprint",
+     "cited_by": 944
+    },
+    {
+     "openalex": "W3023102027",
+     "year": 2013,
+     "type": "report",
+     "cited_by": 94
+    }
+   ]
+  },
   {
    "seed": "rosenzweig-1989-consumption-smoothing",
    "seed_cited_by_rank": null,
@@ -242,6 +259,18 @@
    ]
   },
   {
+   "seed": "pitt-1999-credit-programs",
+   "seed_cited_by_rank": null,
+   "twins": [
+    {
+     "openalex": "W3123038710",
+     "year": 1999,
+     "type": "article",
+     "cited_by": 4
+    }
+   ]
+  },
+  {
    "seed": "cain-1983-adjustment-to-risk",
    "seed_cited_by_rank": null,
    "twins": [
@@ -290,6 +319,24 @@
    ]
   },
   {
+   "seed": "yang-more-credit-babies-v1",
+   "seed_cited_by_rank": null,
+   "twins": [
+    {
+     "openalex": "W7148719326",
+     "year": 2026,
+     "type": "preprint",
+     "cited_by": 0
+    },
+    {
+     "openalex": "W7128532933",
+     "year": 2026,
+     "type": "preprint",
+     "cited_by": 0
+    }
+   ]
+  },
+  {
    "seed": "dettling-2014-house-prices-birth-rates",
    "seed_cited_by_rank": null,
    "twins": [
@@ -300,15 +347,40 @@
      "cited_by": 67
     }
    ]
+  },
+  {
+   "seed": "yang-more-credit-babies",
+   "seed_cited_by_rank": null,
+   "twins": [
+    {
+     "openalex": "W4381108710",
+     "year": 2023,
+     "type": "preprint",
+     "cited_by": 4
+    },
+    {
+     "openalex": "W7148719326",
+     "year": 2026,
+     "type": "preprint",
+     "cited_by": 0
+    }
+   ]
   }
  ],
  "per_seed_yield": [
+  {
+   "key": "banerjee-2015-miracle",
+   "arm": "composite",
+   "role": "anchor",
+   "reached": 453,
+   "reached_only_by_this_seed": 267
+  },
   {
    "key": "dupas-2013-savings-constraints",
    "arm": "S",
    "role": "probe",
    "reached": 418,
-   "reached_only_by_this_seed": 272
+   "reached_only_by_this_seed": 256
   },
   {
    "key": "schultz-1997-demand-for-children",
@@ -322,21 +394,21 @@
    "arm": "composite",
    "role": "probe",
    "reached": 346,
-   "reached_only_by_this_seed": 131
+   "reached_only_by_this_seed": 128
   },
   {
    "key": "crepon-2015-morocco",
    "arm": "composite",
    "role": "probe",
    "reached": 321,
-   "reached_only_by_this_seed": 113
+   "reached_only_by_this_seed": 111
   },
   {
    "key": "attanasio-2015-mongolia",
    "arm": "composite",
    "role": "probe",
    "reached": 270,
-   "reached_only_by_this_seed": 105
+   "reached_only_by_this_seed": 98
   },
   {
    "key": "nugent-1985-old-age-security",
@@ -350,14 +422,7 @@
    "arm": "composite",
    "role": "probe",
    "reached": 230,
-   "reached_only_by_this_seed": 164
-  },
-  {
-   "key": "banerjee-2015-miracle",
-   "arm": "composite",
-   "role": "anchor",
-   "reached": 226,
-   "reached_only_by_this_seed": 101
+   "reached_only_by_this_seed": 162
   },
   {
    "key": "prina-2015-banking-the-poor",
@@ -406,7 +471,7 @@
    "arm": "S",
    "role": "anchor",
    "reached": 172,
-   "reached_only_by_this_seed": 144
+   "reached_only_by_this_seed": 138
   },
   {
    "key": "cain-1983-adjustment-to-risk",
@@ -433,8 +498,15 @@
    "key": "yang-more-credit-babies-v1",
    "arm": "B",
    "role": "version_twin",
-   "reached": 96,
-   "reached_only_by_this_seed": 25
+   "reached": 102,
+   "reached_only_by_this_seed": 0
+  },
+  {
+   "key": "yang-more-credit-babies",
+   "arm": "B",
+   "role": "anchor",
+   "reached": 102,
+   "reached_only_by_this_seed": 0
   },
   {
    "key": "dettling-2014-house-prices-birth-rates",
@@ -456,13 +528,6 @@
    "role": "anchor",
    "reached": 73,
    "reached_only_by_this_seed": 67
-  },
-  {
-   "key": "yang-more-credit-babies",
-   "arm": "B",
-   "role": "anchor",
-   "reached": 62,
-   "reached_only_by_this_seed": 5
   },
   {
    "key": "portner-2001-children-as-insurance",
@@ -487,6 +552,12 @@
   }
  ],
  "duplicates_collapsed": [
+  {
+   "dropped": "W1515906603",
+   "kept": "W1963965317",
+   "title": "Labor Market Institutions and the Distribution of Wages, 1973-1992: A Semiparametric Approach",
+   "reason": "normalized-title duplicate"
+  },
   {
    "dropped": "W3121843590",
    "kept": "W1489903261",
@@ -554,12 +625,6 @@
    "reason": "normalized-title duplicate"
   },
   {
-   "dropped": "W3125656997",
-   "kept": "W1970883168",
-   "title": "Panel Data and Unobservable Individual Effects",
-   "reason": "normalized-title duplicate"
-  },
-  {
    "dropped": "W2890199545",
    "kept": "W1815911686",
    "title": "Estimating the Impact of Microcredit on Those Who Take It Up: Evidence from a Randomized Experiment in Morocco",
@@ -596,6 +661,12 @@
    "reason": "normalized-title duplicate"
   },
   {
+   "dropped": "W1892370673",
+   "kept": "W3122092010",
+   "title": "The Impact of Microcredit on the Poor in Bangladesh: Revisiting the Evidence",
+   "reason": "normalized-title duplicate"
+  },
+  {
    "dropped": "W1777583413",
    "kept": "W3124626047",
    "title": "Returns To Capital In Microenterprises : Evidence From A Field Experiment",
@@ -608,6 +679,12 @@
    "reason": "normalized-title duplicate"
   },
   {
+   "dropped": "W3125656997",
+   "kept": "W1970883168",
+   "title": "Panel Data and Unobservable Individual Effects",
+   "reason": "normalized-title duplicate"
+  },
+  {
    "dropped": "W4235375412",
    "kept": "W1981651168",
    "title": "Estimation and Inference in Two-Step Econometric Models",
@@ -617,6 +694,12 @@
    "dropped": "W3123575829",
    "kept": "W1985791213",
    "title": "In Pursuit Of Balance: Randomization In Practice In Development Field Experiments",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2891791808",
+   "kept": "W1981635403",
+   "title": "The Impacts of Microcredit: Evidence from Bosnia and Herzegovina",
    "reason": "normalized-title duplicate"
   },
   {
@@ -644,6 +727,12 @@
    "reason": "normalized-title duplicate"
   },
   {
+   "dropped": "W4240005767",
+   "kept": "W1990539663",
+   "title": "Cross-Sectional Impact Analysis: Bias from Dropouts",
+   "reason": "normalized-title duplicate"
+  },
+  {
    "dropped": "W4244305723",
    "kept": "W1979682263",
    "title": "Conditions of Fertility Decline in Developing Countries, 1965-75",
@@ -653,6 +742,12 @@
    "dropped": "W1997917263",
    "kept": "W4205210034",
    "title": "Multiple Comparison Procedures",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3124276351",
+   "kept": "W1999203981",
+   "title": "Beyond Baseline and Follow-up: The Case for More T in Experiments",
    "reason": "normalized-title duplicate"
   },
   {
@@ -716,12 +811,6 @@
    "reason": "normalized-title duplicate"
   },
   {
-   "dropped": "W2324120532",
-   "kept": "W2033367998",
-   "title": "West Indian Family Structure.",
-   "reason": "normalized-title duplicate"
-  },
-  {
    "dropped": "W2084252228",
    "kept": "W2023591708",
    "title": "Poor Economics. A Radical Rethinking of the Way to Fight Global Poverty",
@@ -749,6 +838,12 @@
    "dropped": "W799390227",
    "kept": "W2045494914",
    "title": "China\u2019s Changing Population",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2324120532",
+   "kept": "W2033367998",
+   "title": "West Indian Family Structure.",
    "reason": "normalized-title duplicate"
   },
   {
@@ -785,18 +880,6 @@
    "dropped": "W3122293688",
    "kept": "W2070327496",
    "title": "House Lock and Structural Unemployment",
-   "reason": "normalized-title duplicate"
-  },
-  {
-   "dropped": "W2891907099",
-   "kept": "W2096684396",
-   "title": "How Much Should We Trust Differences-in-Differences Estimates?",
-   "reason": "normalized-title duplicate"
-  },
-  {
-   "dropped": "W3124878057",
-   "kept": "W2096684396",
-   "title": "How Much Should We Trust Differences-in-Differences Estimates?",
    "reason": "normalized-title duplicate"
   },
   {
@@ -887,6 +970,18 @@
    "dropped": "W2323602348",
    "kept": "W2098910318",
    "title": "Limited-Dependent and Qualitative Variables in Econometrics.",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2891907099",
+   "kept": "W2096684396",
+   "title": "How Much Should We Trust Differences-in-Differences Estimates?",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3124878057",
+   "kept": "W2096684396",
+   "title": "How Much Should We Trust Differences-in-Differences Estimates?",
    "reason": "normalized-title duplicate"
   },
   {
@@ -998,12 +1093,6 @@
    "reason": "normalized-title duplicate"
   },
   {
-   "dropped": "W2140968572",
-   "kept": "W3122178585",
-   "title": "Bootstrap-Based Improvements for Inference with Clustered Errors",
-   "reason": "normalized-title duplicate"
-  },
-  {
    "dropped": "W2118796624",
    "kept": "W3122049385",
    "title": "The Consequences of Mortgage Credit Expansion: Evidence from the U.S. Mortgage Default Crisis",
@@ -1040,9 +1129,9 @@
    "reason": "normalized-title duplicate"
   },
   {
-   "dropped": "W3125408371",
-   "kept": "W2156809834",
-   "title": "Prices or Knowledge? What Drives Demand for Financial Services in Emerging Markets?",
+   "dropped": "W3124558260",
+   "kept": "W2152534713",
+   "title": "The Impact of Group-Based Credit Programs on Poor Households in Bangladesh: Does the Gender of Participants Matter",
    "reason": "normalized-title duplicate"
   },
   {
@@ -1052,21 +1141,27 @@
    "reason": "normalized-title duplicate"
   },
   {
-   "dropped": "W3122005127",
-   "kept": "W2156344177",
-   "title": "Does Consumption Inequality Track Income Inequality in Italy",
-   "reason": "normalized-title duplicate"
-  },
-  {
    "dropped": "W2148488174",
    "kept": "W2318674509",
    "title": "Population and Economic Change in Developing Countries",
    "reason": "normalized-title duplicate"
   },
   {
+   "dropped": "W2235267957",
+   "kept": "W2143291331",
+   "title": "The Economics of Microfinance",
+   "reason": "normalized-title duplicate"
+  },
+  {
    "dropped": "W2149855692",
    "kept": "W3022712314",
    "title": "Monetary Policy Rules and Macroeconomic Stability: Evidence and Some Theory",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2140968572",
+   "kept": "W3122178585",
+   "title": "Bootstrap-Based Improvements for Inference with Clustered Errors",
    "reason": "normalized-title duplicate"
   },
   {
@@ -1106,6 +1201,12 @@
    "reason": "normalized-title duplicate"
   },
   {
+   "dropped": "W3125408371",
+   "kept": "W2156809834",
+   "title": "Prices or Knowledge? What Drives Demand for Financial Services in Emerging Markets?",
+   "reason": "normalized-title duplicate"
+  },
+  {
    "dropped": "W4390318777",
    "kept": "W2328258804",
    "title": "Demographic and Economic Change in Developed Countries",
@@ -1115,6 +1216,24 @@
    "dropped": "W2233714653",
    "kept": "W2328258804",
    "title": "Demographic and Economic Change in Developed Countries",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4303113988",
+   "kept": "W2165166995",
+   "title": "Evaluation of Financial Liberalization: A General Equilibrium Model with Constrained Occupation Choice",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3123582902",
+   "kept": "W2165166995",
+   "title": "Evaluation of financial liberalization: a general equilibrium model with constrained occupation choice",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3122005127",
+   "kept": "W2156344177",
+   "title": "Does Consumption Inequality Track Income Inequality in Italy",
    "reason": "normalized-title duplicate"
   },
   {
@@ -1145,12 +1264,6 @@
    "dropped": "W4321465705",
    "kept": "W2504128430",
    "title": "Post-Keynesian economics",
-   "reason": "normalized-title duplicate"
-  },
-  {
-   "dropped": "W3143159490",
-   "kept": "W2524060882",
-   "title": "Mortgage Design in an Equilibrium Model of the Housing Market",
    "reason": "normalized-title duplicate"
   },
   {
@@ -1190,6 +1303,12 @@
    "reason": "normalized-title duplicate"
   },
   {
+   "dropped": "W4200488579",
+   "kept": "W4211154831",
+   "title": "Introduction",
+   "reason": "normalized-title duplicate"
+  },
+  {
    "dropped": "W3060383990",
    "kept": "W4211154831",
    "title": "Introduction",
@@ -1217,6 +1336,12 @@
    "dropped": "W2891148447",
    "kept": "W2615098921",
    "title": "Male Earnings, Marriageable Men, and Nonmarital Fertility: Evidence from the Fracking Boom",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3143159490",
+   "kept": "W2524060882",
+   "title": "Mortgage Design in an Equilibrium Model of the Housing Market",
    "reason": "normalized-title duplicate"
   },
   {
@@ -1262,12 +1387,6 @@
    "reason": "normalized-title duplicate"
   },
   {
-   "dropped": "W3142499389",
-   "kept": "W3023400318",
-   "title": "Do Demographic Changes Affect Risk Premiums? Evidence from International Data",
-   "reason": "normalized-title duplicate"
-  },
-  {
    "dropped": "W2890420392",
    "kept": "W3123955717",
    "title": "The Impact of Bank Credit on Labor Reallocation and Aggregate Industry Productivity",
@@ -1304,15 +1423,9 @@
    "reason": "normalized-title duplicate"
   },
   {
-   "dropped": "W1892370673",
-   "kept": "W3122092010",
-   "title": "The Impact of Microcredit on the Poor in Bangladesh: Revisiting the Evidence",
-   "reason": "normalized-title duplicate"
-  },
-  {
-   "dropped": "W3123061216",
-   "kept": "W3125750551",
-   "title": "The Demographic Transition and The Emergence of Sustained Economic Growth",
+   "dropped": "W3142499389",
+   "kept": "W3023400318",
+   "title": "Do Demographic Changes Affect Risk Premiums? Evidence from International Data",
    "reason": "normalized-title duplicate"
   },
   {
@@ -1325,6 +1438,12 @@
    "dropped": "W4301010968",
    "kept": "W3123676081",
    "title": "Will Bequests Attenuate the Predicted Meltdown in Stock Prices When Baby Boomers Retire?",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3123061216",
+   "kept": "W3125750551",
+   "title": "The Demographic Transition and The Emergence of Sustained Economic Growth",
    "reason": "normalized-title duplicate"
   },
   {
@@ -1358,27 +1477,9 @@
    "reason": "normalized-title duplicate"
   },
   {
-   "dropped": "W4225751474",
-   "kept": "W3196836501",
-   "title": "Revisiting event study designs: robust and efficient estimation",
-   "reason": "normalized-title duplicate"
-  },
-  {
    "dropped": "W3146978907",
    "kept": "W3142103175",
    "title": "Population and Development",
-   "reason": "normalized-title duplicate"
-  },
-  {
-   "dropped": "W3202809629",
-   "kept": "W3202502686",
-   "title": "The Puzzle of Falling US Birth Rates Since the Great Recession",
-   "reason": "normalized-title duplicate"
-  },
-  {
-   "dropped": "W4243680677",
-   "kept": "W3202502686",
-   "title": "The Puzzle of Falling Us Birth Rates Since the Great Recession",
    "reason": "normalized-title duplicate"
   },
   {
@@ -1391,6 +1492,24 @@
    "dropped": "W3129236866",
    "kept": "W4214485069",
    "title": "Do Credit Supply Shocks Affect Fertility Choices?",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4225751474",
+   "kept": "W3196836501",
+   "title": "Revisiting event study designs: robust and efficient estimation",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3202809629",
+   "kept": "W3202502686",
+   "title": "The Puzzle of Falling US Birth Rates Since the Great Recession",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4243680677",
+   "kept": "W3202502686",
+   "title": "The Puzzle of Falling Us Birth Rates Since the Great Recession",
    "reason": "normalized-title duplicate"
   },
   {
@@ -1451,6 +1570,12 @@
    "dropped": "W2910233051",
    "kept": "W3023318991",
    "title": "Impact of financial inclusion in low- and middle-income countries: A systematic review of reviews",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2949752655",
+   "kept": "W2596669114",
+   "title": "Using Aggregated Relational Data to Feasibly Identify Network Structure without Network Data",
    "reason": "normalized-title duplicate"
   },
   {
@@ -1541,6 +1666,72 @@
    "dropped": "W4300809326",
    "kept": "W2170560975",
    "title": "Can Self-Help Groups Really Be Self-Help?",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2102303103",
+   "kept": "W3121387877",
+   "title": "The Impact of Consulting Services on Small and Medium Enterprises: Evidence from a Randomized Trial in Mexico",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W1888696638",
+   "kept": "W3126085889",
+   "title": "Business Training and Female Enterprise Start-Up, Growth, and Dynamics: Experimental Evidence from Sri Lanka",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2089818805",
+   "kept": "W3022466121",
+   "title": "Liquidity, Risk, and Occupational Choices",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2795588601",
+   "kept": "W2907912864",
+   "title": "Sell Low and Buy High: Arbitrage and Local Price Effects in Kenyan Markets",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2265346783",
+   "kept": "W2098736400",
+   "title": "High Noon for Microfinance Impact Evaluations: Re-Investigating the Evidence from Bangladesh",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W1999221414",
+   "kept": "W3121873191",
+   "title": "Business Training Plus for Female Entrepreneurship? Short and Medium-Term Experimental Evidence from Peru",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W4211240110",
+   "kept": "W1557736859",
+   "title": "The Idea of Antipoverty Policy",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3157287928",
+   "kept": "W3047373226",
+   "title": "At What Level Should One Cluster Standard Errors in Paired and Small-Strata Experiments?",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3123227379",
+   "kept": "W2771142853",
+   "title": "Poverty and Wellbeing Impacts of Microfinance: What Do We Know?",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W3125623751",
+   "kept": "W1595046113",
+   "title": "Financing Smallholder Agriculture: An Experiment with Agent-Intermediated Microloans in India",
+   "reason": "normalized-title duplicate"
+  },
+  {
+   "dropped": "W2885351834",
+   "kept": "W4231361262",
+   "title": "Inclusive Disruption",
    "reason": "normalized-title duplicate"
   },
   {
@@ -1670,12 +1861,6 @@
    "reason": "normalized-title duplicate"
   },
   {
-   "dropped": "W2089818805",
-   "kept": "W3022466121",
-   "title": "Liquidity, Risk, and Occupational Choices",
-   "reason": "normalized-title duplicate"
-  },
-  {
    "dropped": "W2021126349",
    "kept": "W3125660708",
    "title": "Inferring Welfare Maximizing Treatment Assignment Under Budget Constraints",
@@ -1796,21 +1981,9 @@
    "reason": "normalized-title duplicate"
   },
   {
-   "dropped": "W2795588601",
-   "kept": "W2907912864",
-   "title": "Sell Low and Buy High: Arbitrage and Local Price Effects in Kenyan Markets",
-   "reason": "normalized-title duplicate"
-  },
-  {
    "dropped": "W4205635601",
    "kept": "W3101226062",
    "title": "Long-Term Effects of the Targeting the Ultra Poor Program",
-   "reason": "normalized-title duplicate"
-  },
-  {
-   "dropped": "W3125623751",
-   "kept": "W1595046113",
-   "title": "Financing Smallholder Agriculture: An Experiment with Agent-Intermediated Microloans in India",
    "reason": "normalized-title duplicate"
   },
   {
@@ -1832,21 +2005,9 @@
    "reason": "normalized-title duplicate"
   },
   {
-   "dropped": "W3157287928",
-   "kept": "W3047373226",
-   "title": "At What Level Should One Cluster Standard Errors in Paired and Small-Strata Experiments?",
-   "reason": "normalized-title duplicate"
-  },
-  {
    "dropped": "W3023318906",
    "kept": "W2755823394",
    "title": "How Much do Existing Borrowers Value Microfinance? Evidence from an Experiment on Bundling Microcredit and Insurance",
-   "reason": "normalized-title duplicate"
-  },
-  {
-   "dropped": "W3123227379",
-   "kept": "W2771142853",
-   "title": "Poverty and Wellbeing Impacts of Microfinance: What Do We Know?",
    "reason": "normalized-title duplicate"
   },
   {
@@ -2501,12 +2662,6 @@
    "dropped": "W2058292732",
    "kept": "W3123492965",
    "title": "The Impact of Lending to Women on Household Vulnerability and Women's Empowerment: Evidence from India",
-   "reason": "normalized-title duplicate"
-  },
-  {
-   "dropped": "W2265346783",
-   "kept": "W2098736400",
-   "title": "High Noon for Microfinance Impact Evaluations: Re-Investigating the Evidence from Bangladesh",
    "reason": "normalized-title duplicate"
   },
   {

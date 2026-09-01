@@ -122,3 +122,24 @@ Three finished chapters have already routed evidence into this one. Read these b
   measures it. `PRIMARY_COMPOSITE_ACCESS` may be empty — which would leave the sign-flip question
   without direct evidence. Full-text check on the nine before any such statement.
 
+### 2026-09-01 — probe full-text check: 6 of 10 read, zero fertility outcomes
+
+- `280_c3e_probe_retrieval.py`, `281_c3e_probe_outcome_scan.py`, `282_c3e_scan_control.py`; log at
+  `credit-constraints-probe-fulltext-check.md`.
+- **Zero fertility or birth outcomes in six probe full texts** (~450k chars). The two apparent hits
+  were "purchasing power parity" and "place of birth". Two independent channels — abstract indexing and
+  full text — now agree, and they fail for unrelated reasons.
+- **The scan was validated on positive controls first**: Cumming and Dettling 175 hits / 17 strong,
+  Dettling and Kearney 243 / 15, correctly classified. A detector that fires on nothing is
+  indistinguishable from a broken one.
+- **`?` and `!` inside a QUOTED filter value return a silent zero** — valid meta, no error. All seven
+  seeds with a `?` in the title returned zero twins. After the strip: twins for 16 seeds not 12, pool
+  3,976, and 870 records (22%) twin-only. Banerjee's OA twin appeared only after this fix.
+- Retrieval 6/10, and the twin rung produced 5 of the 6 fetches. Four outstanding, split by cause:
+  **browser-job** (Attanasio, Bruhn — open URLs killed by bot defence, 403) and **proxy-job**
+  (Guinnane, Prina — no open copy).
+- **Status of the composite cell: UNRESOLVED, not empty.** 6 of 10 checked, 0 positive. If the last
+  four come back negative, `PRIMARY_COMPOSITE_ACCESS` is empty and the sign-flip question that made
+  this one chapter has no direct evidence — UNEVALUATED with GRADE No evidence. Ruling 1 is unaffected:
+  the arms stay unpoolable either way.
+

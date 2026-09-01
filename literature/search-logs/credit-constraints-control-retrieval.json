@@ -1,0 +1,136 @@
+{
+  "summary": {
+    "targets": 5,
+    "fetched": 2,
+    "rung_found": {
+      "oa_self": 3,
+      "oa_twin": 2
+    },
+    "rung_fetched": {
+      "oa_self": 1,
+      "oa_twin": 1
+    },
+    "handoff": {
+      "pitt-1999-credit-programs": "no url produced at any rung",
+      "babies-of-mortgage-deregulation": "browser-job (open URL refused by bot defence)",
+      "pnas-2026-provident-fund": "browser-job (open URL refused by bot defence)"
+    }
+  },
+  "records": [
+    {
+      "key": "pitt-1999-credit-programs",
+      "title": "Credit programs for the poor and reproductive behavior in low-income countries: Are the reported causal relationships the result of heterogeneity bias?",
+      "arm": "S",
+      "role": "anchor",
+      "attempts": [],
+      "fetched_path": null,
+      "rung": null,
+      "handoff": "no url produced at any rung"
+    },
+    {
+      "key": "cumming-2023-monetary-policy-birth-rates",
+      "title": "Monetary Policy and Birth Rates: The Effect of Mortgage Rate Pass-Through on Fertility",
+      "arm": "B",
+      "role": "anchor",
+      "attempts": [
+        {
+          "id": "W3122498213",
+          "rung": "oa_self",
+          "url": "https://academic.oup.com/restud/advance-article-pdf/doi/10.1093/restud/rdad034/50448772/rdad034.pdf",
+          "is_oa": true,
+          "http": "403",
+          "ok": false,
+          "note": "BLOCKED (403) - open URL refused by bot defence, not a paywall"
+        },
+        {
+          "id": "W2998308097",
+          "rung": "oa_twin",
+          "url": "https://doi.org/10.17016/feds.2020.002",
+          "is_oa": true,
+          "http": "200",
+          "ok": false,
+          "note": "not a PDF (landing page or JS shell)"
+        },
+        {
+          "id": "W2998308097",
+          "rung": "oa_twin",
+          "url": "https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2019/monetary-policy-and-birth-rates-the-effect-of-mortgage-rate-pass-through-on-ferti",
+          "is_oa": false,
+          "http": "200",
+          "ok": true,
+          "note": "3704 KB"
+        }
+      ],
+      "fetched_path": "temp/c3e-probe-fulltext/cumming-2023-monetary-policy-birth-rates__W2998308097.pdf",
+      "rung": "oa_twin"
+    },
+    {
+      "key": "babies-of-mortgage-deregulation",
+      "title": "The Babies of Mortgage Market Deregulation",
+      "arm": "B",
+      "role": "anchor",
+      "attempts": [
+        {
+          "id": "W3008370086",
+          "rung": "oa_twin",
+          "url": "https://doi.org/10.2139/ssrn.2464530",
+          "is_oa": true,
+          "http": "403",
+          "ok": false,
+          "note": "BLOCKED (403) - open URL refused by bot defence, not a paywall"
+        }
+      ],
+      "fetched_path": null,
+      "rung": null,
+      "handoff": "browser-job (open URL refused by bot defence)"
+    },
+    {
+      "key": "dettling-2014-house-prices-birth-rates",
+      "title": "House prices and birth rates: The impact of the real estate market on the decision to have a baby",
+      "arm": "B",
+      "role": "decoy",
+      "attempts": [
+        {
+          "id": "W3024244835",
+          "rung": "oa_self",
+          "url": "http://www.nber.org/papers/w17485.pdf",
+          "is_oa": true,
+          "http": "200",
+          "ok": true,
+          "note": "484 KB"
+        }
+      ],
+      "fetched_path": "temp/c3e-probe-fulltext/dettling-2014-house-prices-birth-rates__W3024244835.pdf",
+      "rung": "oa_self"
+    },
+    {
+      "key": "pnas-2026-provident-fund",
+      "title": "Can stimulating ownership increase fertility: Evidence from housing interventions in China",
+      "arm": "B",
+      "role": "anchor",
+      "attempts": [
+        {
+          "id": "W7171437109",
+          "rung": "oa_self",
+          "url": "https://doi.org/10.1073/pnas.2602426123",
+          "is_oa": true,
+          "http": "403",
+          "ok": false,
+          "note": "BLOCKED (403) - open URL refused by bot defence, not a paywall"
+        },
+        {
+          "id": "W7171437109",
+          "rung": "oa_self",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13438492/",
+          "is_oa": true,
+          "http": "200",
+          "ok": false,
+          "note": "not a PDF (landing page or JS shell)"
+        }
+      ],
+      "fetched_path": null,
+      "rung": null,
+      "handoff": "browser-job (open URL refused by bot defence)"
+    }
+  ]
+}
