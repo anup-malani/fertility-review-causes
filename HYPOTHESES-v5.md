@@ -514,9 +514,9 @@ E. Frameworks / Theoretical Scaffolding
 - **claim:** Imperfect credit markets alter the value of children: in settings without formal finance, children serve as savings/insurance vehicles (raising their value and fertility); in richer settings, liquidity constraints on young households delay and reduce childbearing.
 - **why:** Without good banks or insurance, children act as a savings account and old-age safety net, raising their value. In richer settings, young couples cannot borrow against future earnings to fund a family early, so they delay — sometimes permanently.
 - **phenomena:** PM, FDT, SDT
-- **seminal:** Becker 1981, Lehrer and Nerlove 1986, Lovenheim and Mumford 2013
-- **cross-ref:** C.3.g (Student Debt — a specific balance-sheet liability that compounds credit constraints for post-2000 cohorts)
-- **notes:** Sign ambiguous: insurance motive raises the value of children in poor settings; liquidity constraint reduces effective demand in young SDT households.
+- **seminal:** Becker 1981, Lehrer and Nerlove 1986
+- **cross-ref:** C.3.g (Student Debt — a specific balance-sheet liability that compounds credit constraints for post-2000 cohorts); C.2.c (Housing Costs — owns the home-equity/collateral studies, whose identifying variation is a housing price shock); C.3.c (Old-Age Security — owns the longevity/retirement half of the asset motive; see TICK-077 Wall 1)
+- **notes:** Sign ambiguous: insurance motive raises the value of children in poor settings; liquidity constraint reduces effective demand in young SDT households. **[RA edit, Shravan 2026-09-01, authorised by Anup — for PI confirmation at TICK-001.]** Lovenheim and Mumford 2013 struck from `seminal` here and cross-referenced to C.2.c instead. It was double-listed as seminal for both C.2.c and C.3.e; under the boundary rule frozen by C.2.c on 2026-07-31 — neighbours are separated by *what varies*, not by the narrated mechanism — the home-equity channel's identifying variation is a housing **price** shock, so the study is C.2.c's. C.2.c recommended this edit and flagged rather than made it because this file is under PI review. The two configurations in the claim above are treated as **two arms of one chapter**, not two hypotheses: their exposure sets overlap in composite financial-access designs (branch expansion, microfinance) that move saving and borrowing at once and cannot be allocated to either arm. See `literature/search-logs/credit-constraints-search-scope.md` §2.
 
 #### C.3.f. Intergenerational Wealth Flows Reversal
 - **slug:** `wealth-flows-reversal`

@@ -8,7 +8,7 @@
 **Touches:** literature/search-logs/credit-constraints-*, extraction/credit-constraints-*, output/chapters/credit-constraints.md
 
 ## Acceptance criteria
-- [ ] 2. Search strategy and scope drafted
+- [x] 2. Search strategy and scope drafted
 - [ ] 3. Literature search and AI screening, both phases (§5.1)
 - [ ] 4. RA title/abstract review
 - [ ] 5. Full-text retrieval
@@ -48,3 +48,25 @@ Three finished chapters have already routed evidence into this one. Read these b
    cross-ref C.2.c instead; it was flagged, not acted on. This chapter resolves it.
 
 ## Log
+
+### 2026-09-01 — scope drafted, both rulings resolved
+
+- `literature/search-logs/credit-constraints-search-scope.md`. Six walls frozen; estimand cells,
+  required tags, pooling rule and the demsig pre-specification written before any query.
+- **Ruling 1 (Anup asked whether the two treatments are the same): no, but they are not separable.**
+  Arm S (saving/insurance instrument availability) acts on the *value* of children; Arm B (borrowing
+  terms) acts on the *intertemporal budget constraint*; a pure shock to either leaves the other
+  untouched. But composite financial-access designs — branch expansion, microfinance, inclusion
+  reform — move both at once in opposite directions, and their estimates cannot be allocated to
+  either arm. So: **one chapter, two arms, three strata; arms never pooled or averaged; GRADE and
+  demsig per arm per phenomenon** (A.18 multi-arm precedent), ≥3-effects test applied after
+  stratification.
+- **Ruling 2 (authorised by Anup): acted on.** Lovenheim and Mumford 2013 struck from C.3.e's
+  `seminal` list in HYPOTHESES-v5.md and cross-referenced to C.2.c, with an in-place RA-edit
+  annotation for PI confirmation at TICK-001. C.2.c had recommended and flagged this on 2026-07-31.
+- **Two PI calls opened.** Call 1: C.3.c's written chapter already claims "money in a bank, an
+  insurance policy" as its substitutes, so Wall 1 — longevity risk to C.3.c, within-life risk to
+  C.3.e — is the difference between a two-arm chapter and a one-arm one. Proceeding under the split,
+  with a cheap probe to measure it before extraction. Call 2: inherited from A.24, unanswered —
+  whether two chapters may both report the same study from a `MIXED_*` class.
+- Next: cold-start anchors (hand-sourced, recall scored **per arm**), then the Arm S survival probe.
