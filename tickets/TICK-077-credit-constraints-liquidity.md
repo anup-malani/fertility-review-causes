@@ -1,5 +1,5 @@
 # TICK-077: C.3.e Credit Constraints and Liquidity
-**Status:** open
+**Status:** in-progress
 **Assigned:** Shravan
 **Hypothesis:** `credit-constraints` — HYPOTHESES-v5.md §C.3.e
 **Parallel-safe:** yes
