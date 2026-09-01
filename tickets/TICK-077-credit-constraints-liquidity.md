@@ -238,3 +238,25 @@ Three finished chapters have already routed evidence into this one. Read these b
   the blind spot looks composite-specific — round 1's S and B seeds were estimand-matched from the
   start. Not established: the round was forward-only and 30% blind.
 
+### 2026-09-01 — screening universe 7,327; prescreen; depth probe over 160 records
+
+- `291_c3e_build_screen_universe.py`, `292_c3e_prescreen.py`; log at
+  `credit-constraints-screen-depth-probe.md`.
+- **The hand-sourced studies were missing from the universe.** A snowball pool holds what the seeds
+  REACHED, not the seeds. The 2026 PNAS study C.2.c explicitly routed here, Islam et al. 2026, Yang
+  2026, Cain 1983 and Guinnane were all absent until injected as a `hand_*` channel. Also: three known
+  records read as absent by ID while present as their version twins — the recall check now matches on
+  folded title. Universe complete at 34/34.
+- **The two discovery channels overlap by only ~2.5% (91 records).**
+- **Prescreen: 3 of 4 rules survived the recall check.** The rejected one would have removed 1,335
+  records (20%) and destroyed Prina and Delavallade. 7,327 -> 6,535, retention 34/34.
+- **Depth probe, 160 records read.** Yields: `both_channels` ~23% (80 recs), `frame_only` ~6% (2,271),
+  `snowball_r2_only` ~4% (269), `snowball_r1_only` ~1% (3,815). The cheapest stratum is 58% of the
+  survivors and ~20% of the relevant records; screening order follows the curve, not the count.
+- **The probe already found the historical FDT cell the scope memo called the most valuable if it
+  existed: "Fertility and Financial Development: Evidence from U.S. Counties in the 19th Century"
+  (NBER 2014).** Also "The No-Birth Bonus Scheme: Savings Accounts for Family Planning in South India"
+  (PDR 1980, Arm S), "Loans vs. Lives: Credit Obligations and Childbirth in Russia" (2026, Arm B),
+  a Thai credit-constraints/family-size panel, and a second systematic review (J Economic Surveys 2020).
+- Bounds: 1,672 records (23%) have no abstract; yields are one rater at n=40 per stratum.
+

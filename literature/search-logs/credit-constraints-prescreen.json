@@ -1,0 +1,1488 @@
+{
+ "rule_verdicts": {
+  "agronomy_soil_fertility_homonym": {
+   "would_remove": 724,
+   "known_relevant_removed": [],
+   "accepted": true
+  },
+  "veterinary_animal_reproduction": {
+   "would_remove": 20,
+   "known_relevant_removed": [],
+   "accepted": true
+  },
+  "non_study_record_type": {
+   "would_remove": 77,
+   "known_relevant_removed": [],
+   "accepted": true
+  },
+  "no_abstract_and_no_outcome_word_in_title": {
+   "would_remove": 1335,
+   "known_relevant_removed": [
+    "W2139599662",
+    "W3122525178"
+   ],
+   "accepted": false
+  }
+ },
+ "accepted_rules": [
+  "agronomy_soil_fertility_homonym",
+  "veterinary_animal_reproduction",
+  "non_study_record_type"
+ ],
+ "universe": 7327,
+ "survivors": 6535,
+ "known_relevant_in_universe": [
+  "W1485700608",
+  "W1565426900",
+  "W1597793728",
+  "W1815911686",
+  "W188381894",
+  "W1985479434",
+  "W1986211821",
+  "W2001136655",
+  "W2036080479",
+  "W2039710642",
+  "W2045582700",
+  "W2052902050",
+  "W2106180746",
+  "W2139599662",
+  "W2145691096",
+  "W2513923226",
+  "W2613324243",
+  "W2998507442",
+  "W3007987552",
+  "W3011170043",
+  "W3023775768",
+  "W3121502504",
+  "W3122498213",
+  "W3122525178",
+  "W3122660248",
+  "W3122916816",
+  "W3125880351",
+  "W4295539930",
+  "W4381108710",
+  "W4385666598",
+  "W4407312762",
+  "W7163998811",
+  "W7171437109"
+ ],
+ "strata_sizes": {
+  "hand_sourced": 100,
+  "both_channels": 80,
+  "frame_only": 2271,
+  "snowball_r1_only": 3815,
+  "snowball_r2_only": 269
+ },
+ "probe_batches": {
+  "snowball_r1_only": [
+   {
+    "openalex": "W3005454789",
+    "title": "Foreclosed American Dream? Parental Foreclosure and Young Adult Children\u2019s Homeownership",
+    "year": 2020,
+    "venue": "Journal of Family and Economic Issues",
+    "abstract": ""
+   },
+   {
+    "openalex": "W1994387878",
+    "title": "Health shocks and consumption smoothing in rural households: Does microcredit have a role to play?",
+    "year": 2011,
+    "venue": "Journal of Development Economics",
+    "abstract": ""
+   },
+   {
+    "openalex": "W3122644241",
+    "title": "Payment Size, Negative Equity, and Mortgage Default",
+    "year": 2017,
+    "venue": "American Economic Journal Economic Policy",
+    "abstract": "This paper studies the treatment effect of monthly payment size on mortgage default, using a sample of adjustable-rate loans that experienced large payment reductions thanks to the recent low interest rate environment. Payment size has an economically large effect on repayment behavior; for instance, cutting the required payment in half reduces the delinquency hazard by about 55 percent. Importantly, the link between payment size and delinquency is equally strong for borrowers that are significantly underwater on their mortgage. Relying on payment reductions for identification circumvents the selection concerns due to prepayments that would be associated with rate increases. (JEL D14, G21, R"
+   },
+   {
+    "openalex": "W182629641",
+    "title": "The analysis of household surveys",
+    "year": 1997,
+    "venue": null,
+    "abstract": "Two decades after its original publication, The Analysis of Household Surveys is reissued with a new preface by its author, Sir Angus Deaton, recipient of the 2015 Nobel Prize in Economic Sciences. This classic work remains relevant to anyone with a serious interest in using household survey data to shed light on policy issues. This book reviews the analysis of household survey data, including the construction of household surveys, the econometric tools useful for such analysis, and a range of problems in development policy for which this survey analysis can be applied. The author's approach remains close to the data, using transparent econometric and graphical techniques to present data in "
+   },
+   {
+    "openalex": "W3121387877",
+    "title": "The Impact of Consulting Services on Small and Medium Enterprises: Evidence from a Randomized Trial in Mexico",
+    "year": 2017,
+    "venue": "Journal of Political Economy",
+    "abstract": "A randomized control trial with 432 small and medium enterprises in Mexico shows positive impact of access to 1 year of management consulting services on total factor productivity and return on assets. Owners also had an increase in \u201centrepreneurial spirit\u201d (an index that measures entrepreneurial confidence and goal setting). Using Mexican social security data, we find a persistent large increase (about 50 percent) in the number of employees and total wage bill even 5 years after the program. We document large heterogeneity in the specific managerial practices that improved as a result of the consulting, with the most prominent being marketing, financial accounting, and long-term business pl"
+   },
+   {
+    "openalex": "W2320014267",
+    "title": "What Explains the 2007-2009 Drop in Employment?",
+    "year": 2014,
+    "venue": "Econometrica",
+    "abstract": "We show that deterioration in household balance sheets, or the housing net worth channel, played a significant role in the sharp decline in U.S. employment between 2007 and 2009. Counties with a larger decline in housing net worth experience a larger decline in non-tradable employment. This result is not driven by industry-specific supply-side shocks, exposure to the construction sector, policy-induced business uncertainty, or contemporaneous credit supply tightening. We find little evidence of labor market adjustment in response to the housing net worth shock. There is no significant expansion of the tradable sector in counties with the largest decline in housing net worth. Further, there i"
+   },
+   {
+    "openalex": "W4413415348",
+    "title": "The effect of housing wealth on health care spending",
+    "year": 2025,
+    "venue": "Journal of Health Economics",
+    "abstract": ""
+   },
+   {
+    "openalex": "W1985831616",
+    "title": "The Distributive Impacts of Financial Development: Evidence from Mortgage Markets during US Bank Branch Deregulation",
+    "year": 2014,
+    "venue": "American Economic Journal Applied Economics",
+    "abstract": "Well-functioning credit markets play a key role in boosting overall economic growth, but their impact on distributional outcomes is much less clear. I use a quasi-experimental setting provided by branch banking deregulation, an important episode of US financial development, to study the distributive impacts of finance. Following removal of geographic restrictions on banks in the 1980s and early 1990s, mortgage access increased for lower-middle income groups, young, and also black households. These effects were driven by commercial banks, the only financial institutions subject to the policy. Banks' new screening technologies may have been responsible for this expansion of credit. (JEL D14, D"
+   },
+   {
+    "openalex": "W2002393554",
+    "title": "Home equity commitment and long-term care insurance demand",
+    "year": 2009,
+    "venue": "Journal of Public Economics",
+    "abstract": ""
+   },
+   {
+    "openalex": "W1516021691",
+    "title": "What Drives Housing Prices?",
+    "year": 2008,
+    "venue": "SSRN Electronic Journal",
+    "abstract": ""
+   },
+   {
+    "openalex": "W2271280593",
+    "title": "Social Capital, Network Effects, and Savings in Rural V ietnam",
+    "year": 2014,
+    "venue": "Review of Income and Wealth",
+    "abstract": "Information failures are a major barrier to formal financial saving in low\u2010income countries. We explore the extent to which social capital in rural Vietnam plays a role in increasing formal savings where knowledge gaps exist. Social capital is defined as information sharing and the elimination of information asymmetries through active participation in the Women's Union. We consider high\u2010 and low\u2010quality networks in terms of the quality of information transmitted. We find that membership of high\u2010quality networks leads to higher levels of saving in formal financial institutions and saving for productive investments. Our results support a role for social capital in facilitating savings and sugg"
+   },
+   {
+    "openalex": "W2883592914",
+    "title": "Effects and mechanisms of market-based reforms on access to electricity in developing countries: a systematic review",
+    "year": 2016,
+    "venue": null,
+    "abstract": "This systematic review by Bensch and colleagues examines the impacts of market-based reforms on access to electricity in developing countries, compiling evidence from both quantitative and qualitative rigorous impact evaluations."
+   },
+   {
+    "openalex": "W2092413559",
+    "title": "Fertility trends by social status",
+    "year": 2008,
+    "venue": "Demographic Research",
+    "abstract": "This article discusses how fertility relates to social status with the use of a new dataset, several times larger than the ones used so far. The status-fertility relation is investigated over several centuries, across world regions and by the type of s"
+   },
+   {
+    "openalex": "W147161411",
+    "title": "A longitudinal analysis of health and mortality in a migrant-sending region of Bangladesh",
+    "year": 2006,
+    "venue": null,
+    "abstract": "A longitudinal analysis of health and mortality in a migrant-sending region of Bangladesh - 1"
+   },
+   {
+    "openalex": "W2890624872",
+    "title": "Rural credit cooperatives\u2019 contribution to agricultural growth: evidence from China",
+    "year": 2018,
+    "venue": "Agricultural Finance Review",
+    "abstract": "Purpose Rural credit cooperatives (RCCs) have long dominated China\u2019s rural credit market and met most of agricultural credit demands while the existing literature seldom examines their contribution to agricultural sector. The purpose of this paper is to provide empirical evidence on the contribution of RCCs to agricultural growth, using China\u2019s provincial panel data from 1997 to 2014. Design/methodology/approach Both static fixed effects models and two-step generalized method of moment dynamic panel data models, which control the endogeneity, are employed to identify the causality from RCC credit to agricultural growth in China. Findings The results show that the credit from RCCs increases t"
+   },
+   {
+    "openalex": "W3007724749",
+    "title": "INCOME, SOCIAL SECURITY AND CHINESE FAMILIES\u2019 \u201cTWO-CHILD\u201d DECISIONS: EVIDENCE FROM URBAN RESIDENTS\u2019 FERTILITY INTENTIONS",
+    "year": 2020,
+    "venue": "The Singapore Economic Review",
+    "abstract": "The increase in income, the improvement of social security and the decline in the desire for fertility in urban residents have been extremely important social and economic phenomena in China over the past three decades. However, there have been few studies of China\u2019s situations because of the use of long-term birth control. An analysis based on the framework of lifetime utility maximization for individuals indicated that income and social security have substitution effects on the number of births. This study conducts an empirical analysis with data extracted from the Chinese General Social Survey (CGSS). The results show that an increase in income lowers the willingness for fertility, and th"
+   },
+   {
+    "openalex": "W2589017241",
+    "title": "Fertility: theories, frameworks, models, concepts",
+    "year": 2006,
+    "venue": "Data Archiving and Networked Services (DANS)",
+    "abstract": ""
+   },
+   {
+    "openalex": "W1540112526",
+    "title": "Birth Order and the Intrahousehold Allocation of Time and Education",
+    "year": 2000,
+    "venue": "SSRN Electronic Journal",
+    "abstract": ""
+   },
+   {
+    "openalex": "W3124880542",
+    "title": "Savings by and for the Poor: A Research Review and Agenda",
+    "year": 2014,
+    "venue": "Review of Income and Wealth",
+    "abstract": "The poor can and do save, but often use formal or informal instruments that have high risk, high cost, and limited functionality. This could lead to undersaving compared to a world without market or behavioral frictions. Undersaving can have important welfare consequences: variable consumption, low resilience to shocks, and foregone profitable investments. We lay out five sets of constraints that may hinder the adoption and effective usage of savings products and services by the poor: transaction costs, lack of trust and regulatory barriers, information and knowledge gaps, social constraints, and behavioral biases. We discuss each in theory, and then summarize related empirical evidence, wit"
+   },
+   {
+    "openalex": "W4301347412",
+    "title": "Einkommensverteilung und Bev\u00f6lkerungsentwicklung",
+    "year": 2021,
+    "venue": "DUNCKER UND HUMBLOT eBooks",
+    "abstract": "This paper presents a survey of the reeent literature on the effeets of demographie variables on eeonomie inequality. First, a number of eoneeptual and methodologieal questions are raised and diseussed. They pertain to wh at is meant by inequality, what is the range of demographie variables, and how variable are the demographie variables most widely used."
+   },
+   {
+    "openalex": "W1968002753",
+    "title": "Conceptualizing Social Responsibility in Operations Via Stakeholder Resource\u2010Based View",
+    "year": 2015,
+    "venue": "Production and Operations Management",
+    "abstract": "We seek to conceptualize social responsibility for operations management (OM) research to develop a social responsibility lens through which to view operations. To do so, we first consider the corporate social responsibility, sustainability, as well as the bottom\u2010of\u2010the\u2010pyramid and shared value approaches and identify three challenges to developing such a lens: selecting the level of analysis, tackling the huge multitude of objectives, and developing theoretical underpinnings. We then propose a \u201cstakeholder resource\u2010based view\u201d (SRBV) building on resource\u2010based view, stakeholder theory, and utility theory to address these challenges. Under SRBV, all stakeholders are treated on a par with eac"
+   },
+   {
+    "openalex": "W2021521964",
+    "title": "Experimental Evidence on Returns to Capital and Access to Finance in Mexico",
+    "year": 2008,
+    "venue": "The World Bank Economic Review",
+    "abstract": "A strong theoretical argument for focusing on access to finance is that financial market imperfections can result in large inefficiencies, as firms with productive investment opportunities underinvest. Lack of access to finance is a frequent complaint of microenterprises, which account for a large share of employment in developing countries. However, assessing the extent to which a lack of capital affects their business profits is complicated by the fact that business investment is likely to be correlated with a host of unmeasured characteristics of the owner and firm, such as entrepreneurial ability and demand shocks. In a randomized experiment that gave cash and in-kind grants to small ret"
+   },
+   {
+    "openalex": "W1535153344",
+    "title": "Household Debt in Seventeenth-Century W\u00fcrttemberg: Evidence from Personal Inventories",
+    "year": 2011,
+    "venue": "RePEc: Research Papers in Economics",
+    "abstract": "The \u201cless-developed\u201d interior of early modern Europe, especially the rural economy, is often regarded as financially comatose. This paper investigates this view using a rich dataset of marriage and death inventories for seventeenth-century Germany. It first analyzes how borrowing varied with gender, age, marital status, occupation, lifecycle juncture, date, and asset portfolios. It then explores the characteristics of debts, examining borrowing purposes, familial links, intracommunal ties, and documentary instruments. It finds that ordinary people, even in a \u201cless-developed\u201d economy in rural central Europe, sought to invest profitably, smooth consumption, bridge low liquidity, and hold savin"
+   },
+   {
+    "openalex": "W4410607890",
+    "title": "Theories of Discrimination and Economic Policy",
+    "year": 2025,
+    "venue": null,
+    "abstract": "Abstract This chapter focuses asks how we can explain differences in productivities among groups, where the groups are, in some sense, \u201cinnately\u201d the same. We show how groups that are intrinsically the same, when confronted with a discriminatory equilibrium, make different decisions concerning investments in productivity. These give rise, in a rational expectations equilibrium to differences in wages received by those with the same observable characteristics but belonging to different identifiable groups. Thus, the differences in productivity are endogenous and a result themselves of discrimination. These differences can be sustained over time. We present alternative models in which this can"
+   },
+   {
+    "openalex": "W3022712314",
+    "title": "Monetary Policy Rules and Macroeconomic Stability: Evidence and Some Theory*",
+    "year": 2000,
+    "venue": "The Quarterly Journal of Economics",
+    "abstract": "We estimate a forward-looking monetary policy reaction function for the postwar United States economy, before and after Volcker's appointment as Fed Chairman in 1979. Our results point to substantial differences in the estimated rule across periods. In particular, interest rate policy in the Volcker-Greenspan period appears to have been much more sensitive to changes in expected inflation than in the pre-Volcker period. We then compare some of the implications of the estimated rules for the equilibrium properties of inflation and output, using a simple macroeconomic model, and show that the Volcker-Greenspan rule is stabilizing."
+   },
+   {
+    "openalex": "W2006194183",
+    "title": "A reappraisal of the social security-fertility hypothesis: A bidirectional approach",
+    "year": 1986,
+    "venue": "The Social Science Journal",
+    "abstract": "There has been considerable debate in the literature regarding the social security-fertility hypothesis. By analyzing 81 countries for which data was available, numerous econometric models were developed to test both the relative importance of social security as a causal factor affecting fertility and the subsequent effect of lower fertility levels on social security expenditures. By controlling for economic development and testing the model at different points in time, the social security variable was found to be causally linked to subsequent fertility levels as well as fertility levels being causally linked to subsequent social security expenditures. Furthermore, the appropriate response l"
+   },
+   {
+    "openalex": "W4407023807",
+    "title": "Fertility decline and tax revenues in South Korea",
+    "year": 2025,
+    "venue": "Research in Economics",
+    "abstract": "This study investigates the link between taxation and fertility in South Korea, focusing on the historical period surrounding the mid-70s tax reforms. The longstanding decline in fertility rates has been widely discussed in relation to factors such as increasing human capital, women\u2019s employment, and rising housing costs, leading couples to postpone or forego childbearing decisions. However, less attention has been paid to how tax policies that influence disposable income and economic planning horizons could indirectly affect fertility choices. While taxation is crucial for funding social security systems, policies that reduce household resources without considering demographic impacts may h"
+   },
+   {
+    "openalex": "W2256988667",
+    "title": "2. De Gustibus Non Est Disputandum",
+    "year": 1996,
+    "venue": "Harvard University Press eBooks",
+    "abstract": "De gustibus...non est disputandum\u00a0!* Les eleves latinistes de troisieme se transforment en... critiques de cinema. Decouvrez les peplums regardes en cours de latin et les"
+   },
+   {
+    "openalex": "W2027049053",
+    "title": "The Joint Family in the Nivernais",
+    "year": 1978,
+    "venue": "Journal of Family History",
+    "abstract": ""
+   },
+   {
+    "openalex": "W2146131247",
+    "title": "Financial Development and Sectoral Output Growth in 19th Century Germany",
+    "year": 2010,
+    "venue": "SSRN Electronic Journal",
+    "abstract": ""
+   },
+   {
+    "openalex": "W4323030677",
+    "title": "How does digital finance affect regional innovation capacity? A spatial econometric analysis",
+    "year": 2023,
+    "venue": "Economic Modelling",
+    "abstract": "Digital finance is a new model of financial services that impacts social development; however, there is a lack of adequate theoretical explanation of how digital finance affects regional innovation. Using the panel data for 31 provinces in China from 2011 to 2018, this paper investigates the impact of digital finance on regional innovation Capacity. We find that digital finance can enhance regional capacity. Further analysis indicates that the positive impact of digital finance on regional innovation capacity is stronger for provinces with a higher tertiary sector share of total GDP and a lower degree of market development. Digital finance still has a significant effect on regional innovatio"
+   },
+   {
+    "openalex": "W2151405999",
+    "title": "Finite state markov-chain approximations to univariate and vector autoregressions",
+    "year": 1986,
+    "venue": "Economics Letters",
+    "abstract": ""
+   },
+   {
+    "openalex": "W1541891808",
+    "title": "Expenditures on Children by Families, 2007",
+    "year": 2008,
+    "venue": "RePEc: Research Papers in Economics",
+    "abstract": "Since 1960, the U.S. Department of Agriculture has provided estimates of expenditures on children from birth through age 17. This technical report presents the most recent estimates for husband-wife and single-parent families using data from the 1990-92 Consumer Expenditure Survey, updated to 2007 dollars using the Consumer Price Index. Data and methods used in calculating annual child-rearing expenses are described. Estimates are provided for major components of the budget by age of child, family income, and region of residence. For the overall United States, child-rearing expense estimates ranged between $10,930 and $12,030 for a child in a two-child, married-couple family in the middle-in"
+   },
+   {
+    "openalex": "W2026894377",
+    "title": "Coping with Disaster: The Impact of Hurricanes on International Financial Flows, 1970-2002",
+    "year": 2006,
+    "venue": "National Bureau of Economic Research",
+    "abstract": "How well do countries cope with the aftermath of natural disasters? In particular, do international financial flows help buffer countries in the wake of disasters? This paper focuses on hurricanes (one of the most common and destructive types of disasters), and examines the impact of hurricane exposure on resource flows to developing countries. Using meteorological data on storm paths, I construct a time-varying storm index that takes into account the fraction of a country's population exposed to storms of varying intensities. Across developing countries, greater hurricane exposure leads to large increases in foreign aid. For other types of international financial flows, the impact of hurric"
+   },
+   {
+    "openalex": "W3122832244",
+    "title": "Hoping to Win, Expected to Lose: Theory and Lessons on Microenterprise Development",
+    "year": 2013,
+    "venue": "SSRN Electronic Journal",
+    "abstract": ""
+   },
+   {
+    "openalex": "W1545009124",
+    "title": "Extended Family and Kinship Networks: Economic Insights and Evolutionary Directions",
+    "year": 2008,
+    "venue": "RePEc: Research Papers in Economics",
+    "abstract": "What do we know about extended families and kinship networks? What gaps in our knowledge most need to be filled? How can we best organize current work and identify priorities for future research? These questions are important for several reasons: households in developing countries depend on friends and relatives for their livelihood and sometimes their survival; help exchanged within extended families and kin networks affects the distribution of economic well-being, and this private assistance and exchange can interact with public income redistribution. Yet despite rapid recent progress there remain significant deficiencies in our understanding of the economics of extended families. Research"
+   },
+   {
+    "openalex": "W2053986206",
+    "title": "Testing alternative measures of microenterprise profits and net worth",
+    "year": 2001,
+    "venue": "Journal of International Development",
+    "abstract": "Abstract Using data from 448 microenterprises in Zimbabwe, this paper examines five alternative measures of profits and five alternative measures of net worth. The results show that the single\u2010question proxies are too difficult for proprietors to answer, whereas the most complex profit measures generate many negative estimates. The best measure of profits, based on three questions, could be answered by all proprietors and it avoids recall problems associated with sales and expenses. Among the net worth proxies, all of the measures are positively correlated. Nonetheless, the proxy based on fixed assets, accounts receivable, debt, and inventory, showed the highest correlation with the full mea"
+   },
+   {
+    "openalex": "W3163496378",
+    "title": "House Prices and China\u2019s Birth Rate: A Note",
+    "year": 2021,
+    "venue": "Asian Economics Letters",
+    "abstract": "This study aims to explore whether house prices have an asymmetrical threshold effect on the birth rate in China. We find that house prices have a significant negative impact on the birth rate when it is higher than the threshold value. This result indicates that excessive house prices have reduced the birth rate. Therefore, for areas above the threshold, their housing market should be regulated to alleviate family burden."
+   },
+   {
+    "openalex": "W3028369439",
+    "title": "Cooperative financial institutions: A review of the literature",
+    "year": 2020,
+    "venue": "International Review of Financial Analysis",
+    "abstract": ""
+   },
+   {
+    "openalex": "W1496582523",
+    "title": "The Cost of Empowerment: Multiple Sources of Women\u2019s Debt in Rural India",
+    "year": 2016,
+    "venue": "The Journal of Development Studies",
+    "abstract": "Poor women borrow from multiple sources. This study examines whether the source of debt matters for women\u2019s role in household financial decisions. Drawing on a household survey from rural Tamil Nadu, we categorise women\u2019s loans along the lines of accessibility and formality into \u2018planned loans\u2019 and \u2018instant loans\u2019. We find that \u2018instant loans\u2019 support women\u2019s bargaining power in various types of household financial decisions, whereas \u2018planned loans\u2019 have no impact. This surprising result is better understood when the nature of \u2018instant loans\u2019 is examined \u2013 these are frequently usurious, involve coercive enforcement methods and are considered socially debasing. Hence women who use them perfor"
+   }
+  ],
+  "frame_only": [
+   {
+    "openalex": "W7166186232",
+    "title": "Essays in Empirical Development Economics",
+    "year": 2026,
+    "venue": "Lancaster EPrints (Lancaster University)",
+    "abstract": "This thesis comprises three empirical essays in development economics on how large shocks and public policies shape human capital formation, fertility, and labour-market outcomes in low- and middle-income countries. Using microdata from Peru and Zambia linked to administrative and geospatial sources, the chapters examine the intergenerational consequences of civil conflict, the effects of adolescent-friendly reproductive health services, and the gendered impacts of climate shocks. The first chapter, The long shadow of conflict on human capital: Intergenerational evidence from Peru, estimates the intergenerational impacts of mothers\u2019 exposure to the 1980-2000 Peruvian civil conflict on their "
+   },
+   {
+    "openalex": "W4318043370",
+    "title": "Willingness to Pay for Environmental Quality Improvement Programs and Its Determinants: Empirical Analysis in Western Nepal",
+    "year": 2023,
+    "venue": "Sustainability",
+    "abstract": "Environmental conditions in western Nepal are experiencing a possible threat to economic losses and sustainability, especially due to decreased productivity and increased health risks. This research investigates the maximum willingness to pay (WTP) of the local community for environmental quality improvement programs by using the contingent valuation technique. It also explores socio-economic and behavioral determinants that influence the maximum WTP for environmental quality improvement. A cross-sectional analytical design is employed using primary data obtained through in-depth face-to-face interviews with people in the community, interviews with key informants, focus group discussions and"
+   },
+   {
+    "openalex": "W3212773912",
+    "title": "THE IMPACT OF MICROFINANCE ON WOMEN'S EMPOWERMENT IN SELF-HELP GROUPS",
+    "year": 2021,
+    "venue": "Journal of Emerging Technologies and Innovative Research",
+    "abstract": "The first and perhaps the most critical Millennium Development Goals of all is to make a pivotal difference in reducing the extreme poverty and hunger by half within 2015. Around the globe, the United Nations Development Program (UNDP) seeks to promote various approaches to reduce human poverty by emphasizing the importance of social inclusion and equity, human rights and women\u2019s empowerment. A well understood but poorly articulated reality of development is the role of women. The UN commission on status of women observed \u2018 women who contribute half of the world\u2019s population by virtue of an accident of birth, perform two-thirds of the world\u2019s work, receive one-tenth of its income and owns le"
+   },
+   {
+    "openalex": "W7129335952",
+    "title": "Financial Inclusion and Women Empowerment Through Financial Literacy: Evidence from India",
+    "year": 2026,
+    "venue": "Sustainable development goals series",
+    "abstract": ""
+   },
+   {
+    "openalex": "W2902660783",
+    "title": "The Regulatory and Operational Framework of Microfinance Banks on Consumers in Nigeria: An Appraisal",
+    "year": 2018,
+    "venue": "International Journal of Managerial Studies and Research",
+    "abstract": "This work is aimed at appraising the impact of the regulatory and operational framework of microfinance banks on the consumer. It is illicited by the current negative complaints on the role of microfinance banks in the economy generally and consumers in particular since its birth. Generally, the banking industry is so strategic to the economy that naturally, everybody is a stakeholder. It act as lubricants of the economy custodians of the payment system, saving mobilization, financing trade, agriculture, industry, consumer activities, stimulate economic and assist consumers in providing micro credits. The cost of credit as evidenced in the high interest rate, the non-availability of branches"
+   },
+   {
+    "openalex": "W3123216327",
+    "title": "Postponement (1) of Maternity and the Duration of Time Spent at Home after First Birth Panel Data Analyses Comparing Germany, Great Britain, the Netherlands and Sweden (2)",
+    "year": 2002,
+    "venue": "Public Finance and Management",
+    "abstract": "This paper analyses the postponement of first births of the 1990s compared to the 1980s, using panel data from four countries, namely, Germany (GSOEP), Great Britain (BHPS), the Netherlands (OSA) and Sweden (HUS). We find substantial postponement of maternity in all four countries for all educational groups with the most pronounced postponement among highly educated women. However the mean age of the mother at giving birth to the first child was the lowest in Great Britain both in the 1980s and 1990s. Theoretically we can distinguish two motives for postponing maternity namely, the consumption-smoothing motive and the career-planning motive. in this paper we concentrate on an important deter"
+   },
+   {
+    "openalex": "W2803812443",
+    "title": "Child Support, Pension and Fertility",
+    "year": 2018,
+    "venue": null,
+    "abstract": ""
+   },
+   {
+    "openalex": "W7110967988",
+    "title": "A Thesis Submitted in Partial Fulfillment of the Master's Degree in Economics, Development Policy Analysis Specializations",
+    "year": 2025,
+    "venue": "Mekelle University Institutional Repository (MU-IR)",
+    "abstract": "Urban poverty remains a significant challenge in Ethiopia, particularly in medium-sized towns like Kolla-Tembien Wereda, despite national economic progress. This study investigates the incidence, depth, determinants, and coping strategies of urban poverty in this context, where rising living costs, limited employment, and inadequate institutional support persist. The research aims to identify key poverty determinants and assess survival mechanisms of poor households. A cross-sectional survey was conducted with 300 randomly selected household heads across six kebeles in Kolla-Tembien Wereda, using a structured questionnaire to collect data on demographics, income, expenditure, education, empl"
+   },
+   {
+    "openalex": "W7146366671",
+    "title": "2020-February-03-Free tax preparation assistance",
+    "year": 2020,
+    "venue": "Digital Commons - East Tennessee State University (East Tennessee State University)",
+    "abstract": "JOHNSON CITY (Feb. 3, 2020) \u2014 A group of East Tennessee State University business student volunteers, under the guidance of accountancy faculty member Dr. Michelle Freeman, will offer free tax preparation assistance again this year through the Internal Revenue Service Volunteer Income Tax Assistance (VITA) Program. ETSU is an approved VITA location, and with financial support from Eastman Credit Union (ECU), student volunteers will assist taxpayers whose total household income was $55,000 or less during tax year 2019. Tax preparation services will be offered on the following Saturdays \u2013 Feb. 15, Feb. 29, March 14, and 28, from 8:45 a.m. to 4 p.m., at Sam Wilson Hall, room 318, on ETSU\u2019s main"
+   },
+   {
+    "openalex": "W3181113384",
+    "title": "Cluster analysis of health systems in Europe according to life expectancy at birth",
+    "year": 2021,
+    "venue": "The International Journal of Health Planning and Management",
+    "abstract": "PURPOSE: The aim of this study was to group European countries according to life expectancy at birth and to determine the impact of economic growth and financial indicators on European country groups. METHOD: This study planned and conducted by using life expectancy at birth time series, economic growth and financial development indicators data for the period of 1980 to 2015. European countries are classified in terms of life expectancy (LE) at birth time series data from 1980 to 2015 by using hierarchical clustering analysis method. Random Forest and Classification and Regression Tree (CART) algorithm was used to examine predictors of European country groups in terms of long-term LE time se"
+   },
+   {
+    "openalex": "W2480748074",
+    "title": "Can the State Engage in Self-Control? A Survey of Old-Age Security",
+    "year": 1998,
+    "venue": "Palgrave Macmillan UK eBooks",
+    "abstract": "A major division of the literature on old-age security and the economics of pensions is between the economics of pensions and the economics of other forms of old-age security. Pensions are regular payments of money to the old, disabled and survivors. Non-pension sources of old-age security are intrafamily support, village-level institutions, charitable organizations, fertility and mortality; these are the mainstay of old-age security in the many developing countries where formal sector coverage is low."
+   },
+   {
+    "openalex": "W4414979259",
+    "title": "Microcredit and Rural Household Outcomes: Evidence from Habru Woreda\u2019s Smallholder Farmers, Ethiopia",
+    "year": 2025,
+    "venue": "F1000Research",
+    "abstract": "Background Most people in third-world countries are impoverished and rely on small-holder farming as a source of income. Due to a lack of working capital to diversify their sources of income and acquire new sources, farmers are highly dependent on financial institutions to access microloans. Method This study utilized logistic regression and propensity score matching methods to analyze the primary data collected from a sample of 385 household heads. Results The Estimation results of the study shows that Gender, age, family size, and education, access to irrigation, extension services, dependency ratio, and distance to credit sources were among the significant determinants of access to microc"
+   },
+   {
+    "openalex": "W7125813434",
+    "title": "Non-Farm diversification as a climate adaptation: impacts on income and resilience in Wolaita, Southern Ethiopia",
+    "year": 2026,
+    "venue": "SN Business & Economics",
+    "abstract": "Climate change presents major challenges to farming worldwide, especially in Ethiopia\u2019s lowlands which have limited resilience. Non-farm diversification strategies can help smallholders adapt and mitigate adverse impacts. However, there is limited studies on the determinants and impact of non-farm diversification on resilience and annual farm income together in Ethiopia lowland. This study examined factors influencing the adoption of non-farm strategies and their effect on agricultural revenue and smallholder farmers\u2019 resilience in Southern Ethiopia\u2019s Wolaita Zone. The simple push\u2013distress versus pull-accumulation motivations dichotomy provides a useful framework for determinants hypothesizi"
+   },
+   {
+    "openalex": "W13958817",
+    "title": "Demographic Change and Old-Age Security",
+    "year": 1984,
+    "venue": "Studies in contemporary economics",
+    "abstract": ""
+   },
+   {
+    "openalex": "W3124117845",
+    "title": "Investigating the existence of entry barriers in rural non-farm sector (RNFS) employment in India: A theoretical modelling and an empirical analysis",
+    "year": 2021,
+    "venue": "World Development",
+    "abstract": ""
+   },
+   {
+    "openalex": "W4391537115",
+    "title": "Profitability of Palm Oil Marketers in Delta State",
+    "year": 2024,
+    "venue": "Journal of Global Agriculture and Ecology",
+    "abstract": "The study analyzed profitability of oil palm marketers and data were collected using a well-structured questionnaire. Multistage sampling procedure was used to collect data from 108 oil palm marketers which was analyzed using descriptive statistics and gross budgetary analysis. It was revealed that oil palm marketing was dominated with active married and well experience marketers with a relatively moderate family size. However, majority of the palm oil marketers were female that were found not highly educated as majority of them only attained secondary education. The major source of fund for the marketers is cooperative societies which account for about 61.1%. Marketers were involved in the "
+   },
+   {
+    "openalex": "W2066268816",
+    "title": "Factors Affecting Farmers\u2019 Adaptation Strategies to Environmental Degradation and Climate Change Effects: A Farm Level Study in Bangladesh",
+    "year": 2014,
+    "venue": "Climate",
+    "abstract": "Offering a case study of coastal Bangladesh, this study examines the adaptation of agriculturalists to degrading environmental conditions likely to be caused or exacerbated under global climate change. It examines four central components: (1) the rate of self-reported adoption of adaptive mechanisms (coping strategies) as a result of changes in climate; (2) ranking the potential coping strategies based on their perceived importance to agricultural enterprises; (3) identification the socio-economic factors associated with adoption of coping strategies, and (4) ranking potential constraints to adoption of coping strategies based on farmers\u2019 reporting on the degree to which they face these cons"
+   },
+   {
+    "openalex": "W4255064894",
+    "title": "Cartography",
+    "year": 2015,
+    "venue": "Prairie schooner",
+    "abstract": "Cartography Gregory Pardlo (bio) It seemed the problem of my adolescence was the yellow line. The Nubian God slapped the switch on the wall and peeled the quasi-converted space in half by light. Toward the end of the driveway, my skateboard lay on its side like a capsized tanker. Beyond that, the solid yellow line. Like the stripe down a coward's back, it divided Twin Hills Drive, the sinuous main road bisecting Twin Hills Park, our subdivision in Willingboro, New Jersey, and established an unofficial border between two hoods: man and child. He often cracked on me because I lived on the east side of Twin Hills. Nubie said that because I lived on the east side, I lived in the ghetto, the barr"
+   },
+   {
+    "openalex": "W2074069386",
+    "title": "Competitiveness of tourist destinations in long distance markets",
+    "year": 1994,
+    "venue": "Tourism Review",
+    "abstract": "Competitiveness: The Birth of a New Paradigm. According to conventional economic theory, macroeconomic factors such as the cost of manpower, interest rates, exchange rates and scale savings, are the most important determining factors of competitiveness."
+   },
+   {
+    "openalex": "W4386165899",
+    "title": "Effects of Poverty on Early Marriages: A Case of Mansa District in Luapula Province, Zambia.",
+    "year": 2023,
+    "venue": "International Journal For Multidisciplinary Research",
+    "abstract": "Early marriage perpetuates the feminization of poverty, preventing girls from attaining their full potential in terms of developing their social capabilities. Poverty on the other hand, is a state or condition in which a person or community lacks the financial resources and essentials for a minimum standard of living. Education in Zambia was a road to success and every child desired to have access to education and finish without any difficulties but many children failed to succeed in school because they were victims of early marriages. Poverty was the main reason behind early marriages in rural areas as most families had large family sizes. Hence, the study aimed at exploring the effects of "
+   },
+   {
+    "openalex": "W2998205388",
+    "title": "The Effect of National Health Care and Motivation of Maternity Mothers in Health Care Facilities in the Working Area of Bantilang Health Center East Luwu Regency in 2018",
+    "year": 2019,
+    "venue": "Indian Journal of Public Health Research & Development",
+    "abstract": "Social Security Organizing Agency (BPJS) is organized through a social insurance mechanism and the BPJS membership is all Indonesian citizens without exception. Objective: To determine the effect of nasuonal health care and motivation of mothers giving birth in health care facilities in the work area of Bantilang Health Center East Luwu District in 2018 Method: This study used a cross sectional method. The population in this study were all obstetric patients at the time of the study. The sample in this study were some obstetric patients both from Maternity Mothers Care (KIA) and Family Planning (KB) Polyclinics and the delivery room (Inpatient) at the time of the ongoing study who were willi"
+   },
+   {
+    "openalex": "W4251197644",
+    "title": "Abstracts - 2010 Meetings",
+    "year": 2012,
+    "venue": "Michigan Academician",
+    "abstract": "GAAP have permitted private sector and public sector organizations to present particular gains and losses as extraordinary items on the operating statement if certain criteria are met. The application of the criteria has evolved over time resulting in different treatment for similar events in the private sector compared to the public sector. This paper traces the evolution of extraordinary items and examines examples of these differing treatments.Beginning with the 2008 tax year, the Internal Revenue Service has dramatically increased the reporting requirements in the Form 990 information return for tax-exempt organizations. Non-profit organizations are now required to go well beyond the tra"
+   },
+   {
+    "openalex": "W7128057025",
+    "title": "Transformational Interlinkages between Ukraine\u2019s Economic and Demographics Potential: Implications for Public Governance Based on the Analysis of Migration, Public Health, and Citizens\u2019 Well-Being Shifts",
+    "year": 2026,
+    "venue": "Public Governance Regulation and Law",
+    "abstract": "Demography is one of the key factors in shaping the state\u2019s economic potential and a strategic priority for public governance, as population size, age structure, birth and mortality rates, and migration processes directly dictate the sustainability of internal economic and administrative frameworks. At the same time, economic stability and the material well-being of citizens create a favorable basis for increasing the birth rate, curbing emigration, and improving the quality of human capital. Negative economic trends, especially under the conditions of military conflict, provoke increased migration processes, a reduction in labor resources, and a deepening of social problems. The article is "
+   },
+   {
+    "openalex": "W2972750547",
+    "title": "Analysis on the Change of Family Scale Structure and Its Social Effect in Lanzhou City",
+    "year": 2019,
+    "venue": "Proceedings of the 2019 5th International Conference on Social Science and Higher Education (ICSSHE 2019)",
+    "abstract": "Based on the data of national census in 2000 and 2010, this paper analyzes the basic changing trend of family size and structure in Lanzhou City, and discusses the social effects brought about by it. The results show that the total number of households in Lanzhou has risen rapidly in the past ten years, and the decrease of household size shows the development characteristics of the miniaturization of family scale and the simplification of family structure, and the phenomenon of aging and fewer children is highlighted. The change of family size structure gradually weakens the traditional family moral concept, weakens the family's old-age security function and the outstanding problem of child "
+   },
+   {
+    "openalex": "W2992993881",
+    "title": "Broke, USA: From Pawnshops to Poverty, Inc. - How the Poor Became Big Business, by Gary Rivlin",
+    "year": 2011,
+    "venue": null,
+    "abstract": "Gary Rivlin's Broke, USA tells the story of the birth, growth, and\\nflourishing of fringe lending, the business of extending credit to the\\nworking poor. Beginning in the 1980s, and accelerating in the 1990s and\\n2000s, fringe lenders sprung up in gas stations and pawnshops across\\nAmerica, and by loaning small sums at high interest rates, ultimately\\ncreated a multi-billion dollar consort to CitiBank, Bank of America, and\\nother major financial institutions. While payday outlets, rent-to-own shops,\\nand check cashers are now fixtures of the urban landscape, this was not\\nalways so. Through interviews with the entrepreneurs behind one of the\\nfastest growing industries of the last twenty yea"
+   },
+   {
+    "openalex": "W3022965862",
+    "title": "Saving and Interest Rates in Japan: Why They Have Fallen and Why They Will Remain Low",
+    "year": 2006,
+    "venue": "Federal Reserve Bank of San Francisco, Working Paper Series",
+    "abstract": "This paper quantifies the role of alternative shocks in accounting for the recent declines in Japanese saving rates and interest rates and provides some projections about their future course. We consider three distinct sources of variation in saving rates and real interest rates: changes in fertility rates, changes in survival rates, and changes in technology. The empirical relevance of these factors is explored using a computable dynamic OLG model. We find that the combined effects of demographics and slower total factor productivity growth successfully explain both the levels and the magnitudes of the declines in the saving rate and the after-tax real interest rate during the 1990s. Model "
+   },
+   {
+    "openalex": "W4235999920",
+    "title": "Buchbesprechung",
+    "year": 2014,
+    "venue": "Krankenhaus-Hygiene + Infektionsverh\u00fctung",
+    "abstract": ""
+   },
+   {
+    "openalex": "W3100156693",
+    "title": "Essays on demographic change and R&D-based economic growth",
+    "year": 2020,
+    "venue": null,
+    "abstract": "This dissertation analyzes the economic growth effects of demographic change embedded in a framework of endogenous RD 2) by endogenizing life expectancy in a growth framework with horizontal innovations; and 3) by examining the growth effects of basic scientific knowledge over the very long run.\r\nChapter two contains the first paper titled \u201cLongevity-induced Vertical Innovation and the Tradeoff Between Life and Growth\u201d, which is joint work with Annarita Baldanzi and Klaus Prettner. In this paper, the positive effect of a longer retirement period on individual savings is utilized. A higher exogenous probability to survive to old age raises savings, placing a downward pressure on the market in"
+   },
+   {
+    "openalex": "W4405576946",
+    "title": "Drivers of vegetable market participation in southcentral Ethiopia: Heckman two-stage model approach",
+    "year": 2024,
+    "venue": "Discover Food",
+    "abstract": "Vegetable marketing helps to increase household income and ensure food and nutrition security in developing countries, including Ethiopia. However, market participation by vegetable producers is typically low in many parts of Ethiopia. Thus, our study intends to investigate key drivers affecting vegetable market participation and its intensity among smallholder households in the Lemo district of southcentral Ethiopia. The data were collected from a total of 345 randomly selected respondents. Heckman\u2019s two-stage model was employed to analyze the data. The findings show that the intensity of vegetable sales in the study area was 34.32%, implying that the larger proportion of the vegetable outp"
+   },
+   {
+    "openalex": "W1576596283",
+    "title": "Risk Sharing through Social Security Retirement Income Systems: A Comparison of Canada and the United States",
+    "year": 2001,
+    "venue": "Employment Research",
+    "abstract": "Workers bear risk through variations in compensation due to changes in wage and nonwage compensation, the hours and tenure on their job, and benefits from government labor market programs. Insights about worker risk-bearing can be gained through comparisons of the Canadian and U.S. labor markets, which is the topic of a recently published Upjohn volume (Turner 2001). Labor markets in the two countries have many similarities (such as facing the aging of the baby-boom generation) and many interconnections (they exchange more goods and services than any other two countries in the world). The social security old-age benefit programs in Canada and the United States provide social insurance that r"
+   },
+   {
+    "openalex": "W4411662658",
+    "title": "Women empowerment through helabojun food courts: an evaluation of livelihood outcomes",
+    "year": 2019,
+    "venue": "Tropical agriculturist",
+    "abstract": "Helabojun concept was originated and organized in an institutional level by the Department of Agriculture (DOA) to develop business incubators for women and promote consumption of healthy food and beverages prepared using local raw materials employing traditional culinary methods. Food courts offer a range of local foods and drinks at affordable prices with ensured safety under one shelter. Objective of this study was to measure livelihood outcomes attained by women through engagement in Helabojun food courts using Sustainable Livelihood Framework (SLF). A Livelihood Outcome Index (LOI) was developed to measure livelihood outcomes and a correlation analysis was done between livelihood outcom"
+   },
+   {
+    "openalex": "W3094475313",
+    "title": "Factors influencing adoption of climate resilient paddy production practices in Andhra Pradesh, India",
+    "year": 2020,
+    "venue": "ORYZA- An International Journal on Rice",
+    "abstract": "This paper examined the factors affecting adoption of climate resilient practices in paddy production using data collected from farmers of Andhra Pradesh during the year 2019. Majority of the farmers reported increase in temperature, unpredictability in weather, reduced duration of winter, uneven and irregular rainfall as the climatic change events. The practices being followed by farmers which fit the adaptation criteria were timely sowing and weeding, proper spacing and formation of soil bunds. The climate resilient practices most preferred and prioritized by paddy farmers were direct sown rice, drought tolerant varieties, weather forecast services, integrated nutrient management, growing "
+   },
+   {
+    "openalex": "W4396752173",
+    "title": "The influence of financial development on total fertility rate in Indonesia",
+    "year": 2024,
+    "venue": "Jurnal Perspektif Pembiayaan dan Pembangunan Daerah",
+    "abstract": "This study investigated the impact of financial development on the total fertility rate in Indonesia, hypothesizing that financial development significantly influences fertility rates. The objective was to ascertain the effects of financial development on Indonesia's total fertility rate, utilizing annual time series data from 1980 to 2021 obtained from the official websites of Bank Indonesia, the Central Bureau of Statistics, and the World Bank. The analysis employed the Autoregressive Distributed Lag (ARDL) method to examine the influence of the money supply in circulation (M2), Gross Domestic Product, and household consumption on the total fertility rate, with these variables serving as p"
+   },
+   {
+    "openalex": "W2282173375",
+    "title": "[What can be expected of family planning?].",
+    "year": 1989,
+    "venue": "PubMed",
+    "abstract": "Growing concern over Rwanda's rapid demographic growth and the development of a family planning program beginning around 1981 have so far had little practical effect on the number of births. Significant mortality reductions resulting from vaccination programs and other development projects may mean that population growth has actually accelerated instead of slowing. Most Rwandans still have the strongly pronatalist attitudes appropriate to an environment with high infant and general mortality rates, small populations, abundant land resources, and a need for manpower and old age security. Lack of services, fear of side effects, and rumors have also hampered acceptance of family planning. Rwand"
+   },
+   {
+    "openalex": "W1215420",
+    "title": "Retirement Income: Risks and Strategies",
+    "year": 2011,
+    "venue": "MIT Press Books",
+    "abstract": "As members of the baby boom generation head into retirement, they face an economic environment that has changed noticeably since their parents retired. Most of these new retirees will not be equipped, as many in the earlier generation were, with private pension plans, early retirement options, and fully paid retiree health benefits in addition to Social Security and Medicare. Today it is increasingly left to retirees themselves to plan how to maximize retirement income and minimize risk. In Retirement Income, Mark Warshawsky and his colleagues describe strategies, products, and public policies that will help a new generation achieve financial security and income growth in retirement. Warshaw"
+   },
+   {
+    "openalex": "W1752400673",
+    "title": "The Long-run Effects of Household Liquidity Constraints and Taxation on Fertility, Education, Saving and Growth",
+    "year": 2008,
+    "venue": "Munich Personal RePEc Archive (Ludwig Maximilian University of Munich)",
+    "abstract": "This paper investigates economic growth under liquidity constraints by taking into account the choices of fertility, human capital and saving. In a model of four overlapping generations, parents are altruistic towards their offspring and finance their education investment. The government provides education subsidies to young adult parents and levies taxes on income of the adult generation. Sensitivity analysis on borrowing limits and tax parameters highlights effects with opposite sign on the main endogenous variables at steady state. A lift in liquidity constraints decreases savings and capital accumulation and this effect is responsible for the ambiguous sign of comparative statics on the "
+   },
+   {
+    "openalex": "W4388106938",
+    "title": "Digital inclusive and rural household fertility decision-making",
+    "year": 2023,
+    "venue": "Finance research letters",
+    "abstract": ""
+   },
+   {
+    "openalex": "W1997132720",
+    "title": "Strengthening the Supply of Routinely Administered Vaccines in the United States: Progress and Problems\u20142005",
+    "year": 2006,
+    "venue": "Clinical Infectious Diseases",
+    "abstract": "In February 2002, the National Vaccine Advisory Committee (NVAC), acting on a request from the Assistant Secretary for Health of the US Department of Health and Human Services, organized a workshop to identify reasons for vaccine shortages and to develop strategies and solutions to prevent future shortages. A report was prepared for the Assistant Secretary and was summarized in an article published in the Journal of the American Medical Association in 2003 [1]. The report concluded that the disruptions in the vaccine supply were likely to continue, and the following strategies were recommended: evaluating appropriate financial incentives for manufacturers, streamlining the regulatory process"
+   },
+   {
+    "openalex": "W4295885707",
+    "title": "BLOCKCHAIN, CRYPTOCURRENCY AND THE STATE OF FINANCIAL INCLUSION IN MOROCCO",
+    "year": 2022,
+    "venue": "European Journal of Economic and Financial Research",
+    "abstract": "The immense potential of Blockchain and crypto-currencies is no longer a matter of doubt. These technologies have the power to revolutionize and change the landscape of many sectors, primarily finance. The advent of blockchain technologies provides a potential solution to the first three challenges of financial inclusion. In a few years, blockchain and its applications have the potential to become the \"beating heart\" of the global financial system as predicted by the WEF (World Economic Forum) in its report \"The Future of Financial Infrastructure\". All over the world, these technologies are currently considered as the new great technological revolution that could change our lifestyles and im"
+   },
+   {
+    "openalex": "W2168987389",
+    "title": "GROWING RISK IN AN AGING NATION",
+    "year": 2007,
+    "venue": "The Gerontologist",
+    "abstract": "Aging Nation: The Economics and Politics of Growing Older in America, by James H. Schulz and Robert H. Binstock, Praeger, Westport, CT, 2006, 283 pp. $49.95 (cloth). The Great Risk Shift: The Assault on American Jobs, Families, Health Care, and Retirement\u2014and How You Can Fight Back, by Jacob S. Hacker, Oxford University Press, NY, 2006, 240 pp. $26.00 (cloth). Social insurance programs designed to provide universal protection against economic risk have been under attack by conservative scholars, pundits, and politicians for over two decades. These critics of the social welfare state argue that we can no longer afford to pay for programs like Social Security and Medicare in an increasingly co"
+   }
+  ],
+  "snowball_r2_only": [
+   {
+    "openalex": "W2903546372",
+    "title": "Exploring the influence of interest free microfinance programmes on empowerment of the participating women borrowers in Pakistan : an interpretative inquiry",
+    "year": 2018,
+    "venue": "University of Salford Institutional Repository (University of Salford)",
+    "abstract": "This study has argued that conventional microfinance has failed to serve a large number of Muslim consumers worldwide, which provided an opportunity to interest free microfinance to emerge as a subsector within the microfinance industry to serve this unserved target market. In the last few years, it has acquired particular recognition in Pakistan; however, there is lack of evidence to suggest that interest free microfinance is more successful than conventional microfinance. In this context, this study investigates the influence of interest free microfinance on empowerment of the women borrowers, which is one of the two main objectives of microfinance interventions. \\n \\nThis study has also h"
+   },
+   {
+    "openalex": "W171073141",
+    "title": "Urbanization, unemployment and migration in Africa: Theory and policy",
+    "year": 1997,
+    "venue": null,
+    "abstract": "During the past three decades, the cities of the developing world in general, and of Africa in particular, have witnessed a remarkable and in many ways unprecedented demographic growth spurt. Despite some slowdown in rates of increase in the past few years as a result of falling wages, contracting social services, and changing demographic trends, contemporary urban areas remain the growth poles of economic progress and the lightning rods of political and social unrest. Nowhere is this dilemma more visible nor the resulting problems more intractable than in the crowded cities of sub-Saharan Africa, where projections of urban population growth remain the highest in the world. This essay focuse"
+   },
+   {
+    "openalex": "W2226059584",
+    "title": "The impact of family planning household service delivery on women's status in Bangladesh",
+    "year": 1998,
+    "venue": null,
+    "abstract": "Since 1982, the Maternal and Child Health and Family Planning Extension Project has compiled longitudinal panel data on rural women\u2019s contact with household service providers who visit homes to discuss family planning and offer services to women on request. This study tests the hypothesis that home-based services reinforce customs of purdah (female seclusion) by sustaining the dependency and isolation of the women served by the program. Results show that household services improve women\u2019s status. This effect is largely attributable to the impact of outreach on effective fertility regulation. Findings do not support the hypothesis that household service delivery is detrimental to women\u2019s stat"
+   },
+   {
+    "openalex": "W4313462042",
+    "title": "May Analyze like a Capitalist",
+    "year": 2023,
+    "venue": null,
+    "abstract": ""
+   },
+   {
+    "openalex": "W2478665775",
+    "title": "Research Questions and Methods",
+    "year": 2016,
+    "venue": null,
+    "abstract": "This chapter presents some questions students frequently ask when developing their research questions and selecting their methods: What are students research questions? what is the goal of students' research? should students use quantitative or qualitative methods in their research? how do students use theories in their research? are ethical matters important in research? and to what ethical issues should students pay attention? To help the students work out their research design, it first focuses on things they should consider in order to choose the right research design for their study. Research questions are questions about more general patterns commonly found in the population, or about "
+   },
+   {
+    "openalex": "W2118349819",
+    "title": "Microfinance Handbook: An Institutional and Financial Perspective",
+    "year": 1998,
+    "venue": "RePEc: Research Papers in Economics",
+    "abstract": "The purpose of this handbook is to bring together in a single source guiding principles and tools that will promote sustainable microfinance and create viable institutions. It provides a comprehensive source for the design, implementation, evaluation, and management of microfinance activities. The book has three parts: part one takes a macroeconomic perspective toward general microfinance issues and is primarily non-technical. Part two narrows its focus to the provision of financial intermediation, taking a more technical approach and moving progressively toward more specific (or micro) issues. Part three, the most technical part of the handbook, focuses primarily on assessing the financial "
+   },
+   {
+    "openalex": "W204037490",
+    "title": "Does it Work? The Need for and Potentials of Randomized Evaluations in Microfinance",
+    "year": 2010,
+    "venue": "Figshare",
+    "abstract": "During the last thirty years, microfinance has spread all over the globe from its roots in Bangladesh. However, as this paper will show, this expansion has not been high quality research demonstrating its effectiveness in improving the lives of the poor. In addition to showing the statistical shortcomings of the research that has been done on the subject, I will show how and why randomized evaluations can fill that gap. Several factors that have historically been considered unrealistic, including financial sustainability for most microfinance institutions and the feasibility of performing randomized evaluations on small scales, have recently become a reality. This has opened the doors for th"
+   },
+   {
+    "openalex": "W2064454615",
+    "title": "Factors Underlying Unmet Need for Family Planning in the Philippines",
+    "year": 1997,
+    "venue": "Studies in Family Planning",
+    "abstract": "The prevalence of unmet need for family planning is a primary justification for family planning programs, but the causes of unmet need have not been much explored. This article investigates four explanations for unmet need: (1) as an artifact of inaccurate measurement of fertility preferences and contraceptive practice; (2) as a reflection of weakly held fertility preferences; (3) as a result of women's perceiving themselves to be at low risk of conceiving; (4) as due to excessive costs of contraception. The explanations are examined using quantitative and qualitative data collected in 1993 from currently married women and their husbands in two provinces in the Philippines. The results indic"
+   },
+   {
+    "openalex": "W2755592216",
+    "title": "Greater investments in children through women's empowerment: A key to demographic change in Pakistan?",
+    "year": 2000,
+    "venue": null,
+    "abstract": "Women\u2019s status has received considerable attention as a significant factor in demographic behavior and outcomes in South Asia however, little research has addressed the links between women\u2019s status and their investments in children. In this paper, we empirically investigate how women\u2019s status on multiple levels is associated with demographic outcomes. Using data from the Pakistan Status of Women and Fertility Survey in rural Punjab, we confirm that empowered women, or those with higher status, are better able to make positive investments in their children, thus increasing their children\u2019s chances of survival during infancy and increasing their likelihood of ever attending school. It is in ex"
+   },
+   {
+    "openalex": "W2014942510",
+    "title": "Assessing the Participation of Women in Microfinance Institutions: Evidence From a Multinational Study",
+    "year": 2013,
+    "venue": "Journal of Social Service Research",
+    "abstract": "Microfinance institutions (MFIs) typically offer small credit services with no collateral to low-income clients, particularly women microentrepreneurs. Evidence suggests that microcredit services are an effective tool for the social and financial empowerment of women and have a significant impact on maternal health, children's education, and sustainable economic growth. With multiple financial institutions offering various microfinance services, women's participation as borrowers has changed. We examine the variation in women borrowers\u2019 participation rates in 105 developing countries by analyzing participation rates using selected determinants such as legal status, outreach, external control"
+   },
+   {
+    "openalex": "W2144489347",
+    "title": "The Spread of Primary Schooling in sub\u2010Saharan Africa: Implications for Fertility Change",
+    "year": 2000,
+    "venue": "Population and Development Review",
+    "abstract": "In 1980 Caldwell hypothesized that the time of the onset of the fertility transition in developing countries would be linked with the achievement of \u201cmass formal schooling.\u201d This article applies Demographic and Health Survey data to assess schooling patterns and trends for 23 sub\u2010Saharan African countries, using the percentage of 15\u201319\u2010year olds who have completed at least four years of schooling as an indicator of progress in education. As background to that assessment, the article includes a review of the sparse literature on the links between children's schooling and fertility decline. The analysis strongly supports Caldwell's hypothesis with empirical evidence of the much stronger negati"
+   },
+   {
+    "openalex": "W2110153620",
+    "title": "Testing for Weak Instruments in Linear IV Regression",
+    "year": 2002,
+    "venue": "National Bureau of Economic Research",
+    "abstract": "Weak instruments can produce biased IV estimators and hypothesis tests with large size distortions. But what, precisely, are weak instruments, and how does one detect them in practice? This paper proposes quantitative definitions of weak instruments based on the maximum IV estimator bias, or the maximum Wald test size distortion, when there are multiple endogenous regressors. We tabulate critical values that enable using the first-stage F-statistic (or, when there are multiple endogenous regressors, the Cragg-Donald (1993) statistic) to test whether given instruments are weak. A technical contribution is to justify sequential asymptotic approximations for IV statistics with many weak instrum"
+   },
+   {
+    "openalex": "W2765392606",
+    "title": "Lifecycle Contraceptive Choice in Sub-Saharan Africa",
+    "year": 2017,
+    "venue": "SSRN Electronic Journal",
+    "abstract": ""
+   },
+   {
+    "openalex": "W1968847657",
+    "title": "Indeterminate Responses to Attitudinal Questions About Intimate Partner Violence Against Women in Rural Bangladesh",
+    "year": 2012,
+    "venue": "Population Research and Policy Review",
+    "abstract": ""
+   },
+   {
+    "openalex": "W2403359882",
+    "title": "Assessing relationship between rural women empowerment and employment",
+    "year": 2013,
+    "venue": null,
+    "abstract": "Abstract: Rural women constitute about half of the world\u2019s population and in the world production supply they have energetic communion and constitute a great part of agriculture workforce. They constitute % 50 of the workforce and they participate in the production of half of the foods in the agriculture section. As an example the rural women constitute about 70 to % 80 of agriculture workforce in sub-Saharan Africa, %65 in Asia, %45 in Latin American & Caribbean, %80 in Nigeria & Tunisia and %80 in India, but their role in production system is the men\u2019s supplements roles and this causes a big responsibility inside their mother & wife duties and it takes a great time and energy of them. Stud"
+   },
+   {
+    "openalex": "W4281859719",
+    "title": "Infant Mortality and Desired Fertility: The Case of the Free Health Care Initiative in Sierra Leone",
+    "year": 2022,
+    "venue": "The Journal of Development Studies",
+    "abstract": "Sierra Leone launched the Free Health Care Initiative, which abolished health user fees for pregnant and breastfeeding women and children under five years of age, in 2010. Combining data from the Demographic and Health Survey and a geocoded dataset for the distribution of public health facilities, I design a difference-in-differences study involving birth timing and transportation cost to investigate its impact on infant mortality and desired fertility. I find that the program does not achieve its goal of reducing infant mortality, with the lack of vaccination being a major problem. Notwithstanding the lack of reduction in infant mortality, the program leads to a significant decline in desir"
+   },
+   {
+    "openalex": "W4313331266",
+    "title": "Exploring the Gender Dimension in Financial Inclusion in India: Insights from the Global Findex Database",
+    "year": 2022,
+    "venue": "Journal of Development Policy and Practice",
+    "abstract": "Despite great progress in recent years in improving access to formal financial services in developing countries, there is still significant access and usage disparity between men and women. We use individual-level data from the World Bank\u2019s Global Findex 2017 database to investigate the differences in the use of accounts by men and women who are account holders and who save and borrow money formally to provide a comprehensive picture of individuals\u2019 financial behaviour in India. Employing treatment effects estimations through the use of propensity scores, we find that although there is improvement in saving behaviour, borrowing behaviour as well as financial resilience among men and women wh"
+   },
+   {
+    "openalex": "W26732782",
+    "title": "The quantity-quality transition in Asia",
+    "year": 1999,
+    "venue": null,
+    "abstract": "Societies in which fertility is falling and human capital investment per child increasing are experiencing a \u201cquantity-quality transition.\u201d Such transitions imply, over the long term, both slower rates of labor force growth and higher levels of human capital per worker. They are fundamental to economic development. Yet, these transitions are neither automatic or self-propelling. Their momentum depends on competing forces acting at both the family and the macroeconomic levels; the balance can easily tip against further transition. Family decisions about schooling are largely motivated by its private economic returns. These returns are determined in labor markets, and here the logic of supply "
+   },
+   {
+    "openalex": "W2301852053",
+    "title": "Can Microfinance Help to Reduce Poverty? A Review of Evidence for Developing Countries",
+    "year": 2016,
+    "venue": "Journal of the Knowledge Economy",
+    "abstract": ""
+   },
+   {
+    "openalex": "W3023318991",
+    "title": "IMPACT OF FINANCIAL INCLUSION IN LOW\u2010 AND MIDDLE\u2010INCOME COUNTRIES: A SYSTEMATIC REVIEW OF REVIEWS",
+    "year": 2020,
+    "venue": "Journal of Economic Surveys",
+    "abstract": "Abstract Financial inclusion programmes seek to increase access to financial services such as credit, savings, insurance and money transfers. Despite a wealth of systematic review evidence, the impacts of financial inclusion are inconclusive. Hence, the first systematic review of systematic reviews was undertaken to synthesize the impacts of financial inclusion interventions on economic, social, gender and behavioural outcomes. Thirty\u2010two systematic reviews were identified. The headline finding is that impacts are more likely to be positive than negative, but the effects vary, and appear not to be transformative in scope or scale, as they largely occur in the early stages of the causal chain"
+   },
+   {
+    "openalex": "W4238757406",
+    "title": "Who takes the credit? Gender, power, and control over loan use in rural credit programs in Bangladesh",
+    "year": 1996,
+    "venue": "World Development",
+    "abstract": ""
+   },
+   {
+    "openalex": "W2153706584",
+    "title": "Closing the Implementation Gap in Services for Children Affected by HIV/AIDS: From Assisting Orphans and Vulnerable Children (OVC) to Providing Long-term Opportunities for Economic Growth",
+    "year": 2011,
+    "venue": "Journal of Health Care for the Poor and Underserved",
+    "abstract": "While delivering innovative care for over 17 million children living with and affected by HIV/AIDS is a priority for today's global health community, most of these children's health needs remain unmet. Concerns about funding, implementation, and transparency continue to obstruct quality care for all. This paper discusses why services supported by macro-level funding, local initiatives, innovative financing, and enhanced long-term development strategies, are imperative. Concurrent advocacy and preventive measures, such as universal access to education, can sustain this investment in human capital. Such efforts may enhance economic growth, expand local capacity, and improve the quality of life"
+   },
+   {
+    "openalex": "W3009270836",
+    "title": "No More Babies without Help for Whom? Education, Division of Labor, and Fertility Intentions",
+    "year": 2020,
+    "venue": "Journal of Marriage and the Family",
+    "abstract": "Abstract Objective This study examines whether the impact of husbands' involvement in childcare and housework on wives' fertility intentions varies by wives' education in Taiwan. Background Recent research has pointed to the positive influence of a more egalitarian division of labor on wives' fertility intentions, yet existing literature often fails to examine educational variations in such linkages. Method This paper analyzed reports of time spent on domestic work (i.e., housework and childcare) for both spouses in the 2016 Women's Marriage, Fertility, and Employment Survey. The analytical sample included all married respondents with at least one child. Regression models and counterfactual "
+   },
+   {
+    "openalex": "W1567585726",
+    "title": "Safe motherhood strategies: a review of the evidence",
+    "year": 2001,
+    "venue": null,
+    "abstract": ""
+   },
+   {
+    "openalex": "W2566842557",
+    "title": "Fertility decline and womens status- the role of non-government organizations (NGOs) in Bangladesh: A micro data analysis",
+    "year": 2010,
+    "venue": "International NGO Journal",
+    "abstract": "In the last two decades, Bangladesh has achieved considerable fertility decline despite pervasive poverty and under development. Unfortunately, recent statistics suggest that despite continued increase in contraceptive use, the fertility decline has stalled. Thus Bangladesh becomes an interesting case study for exploring the question of what factors are necessary to bring about further fertility decline. In this paper an attempt will be made to highlight women\u2019s status, non-governmental organizations (NGOs) and some demographic factors, which are affecting the decline in fertility. It is found that the desire for an additional child is lower among working women, who have a number of living c"
+   },
+   {
+    "openalex": "W4409592516",
+    "title": "Women\u2019s Financial Inclusion and Sequential Continuum of Care for Maternal and Child Health in India: An Intervention Approach",
+    "year": 2025,
+    "venue": "Journal of Health Management",
+    "abstract": "We estimate the causal impact of financial inclusion of women on the sequential continuum of care for maternal and child health in India. Using data from the fifth round of the National Family Health Survey, 2019\u20132021, considering financial inclusion to be a treatment/intervention and employing endogenous treatment effects as our methodology to address self-selection bias, we find that the propensity for availing antenatal care is 17 percentage points higher among women who are financially included. Further, usage of antenatal care and institutional delivery, along with postnatal care for mother and child as well as full immunisation of a child, is 17, 18, 10 and 5 percentage points greater,"
+   },
+   {
+    "openalex": "W2767246638",
+    "title": "Microfinance Institutions\u2019 Successful Delivery Of Micronutrient Powders: A Randomized Trial In Rural Haiti",
+    "year": 2017,
+    "venue": "Health Affairs",
+    "abstract": "Globally, two-thirds of child deaths could be prevented by increased provision of health interventions such as vaccines, micronutrient supplements, and water purification tablets. We report the results from a randomized controlled trial in Haiti during 2012 that tested whether microfinance institutions-which reach 200 million households worldwide-can effectively deliver health products. These institutions provide loans to underserved entrepreneurs, primarily poor women in rural areas. In the intervention group, micronutrient powders to improve the nutrition of young children were distributed at regularly occurring microfinance meetings by a trained borrower. In both the control and the inter"
+   },
+   {
+    "openalex": "W7167205808",
+    "title": "An Empirical Investigation of The Factors Affecting Women's Empowerment in The Karur District",
+    "year": 2024,
+    "venue": "Vidhyayana",
+    "abstract": "\"Women Empowerment\" is currently all the rage in a lot of countries. The concepts of \"equality of women and men\" and \"women empowerment\" are timeless and applicable everywhere. What we mean when we speak about empowering women is building a society where they have more say in important decisions. They make their own decisions while keeping societal and individual interests in mind. This topic is highly significant to the development agenda, as highlighted by a Millennium Development Goal that aims to advance gender parity and women's empowerment (UN 2002). Emancipation can be understood from a variety of perspectives. The term \"empowerment\" describes the process of giving people more agency "
+   },
+   {
+    "openalex": "W1530306231",
+    "title": "The Economics and Econometrics of Active Labor Market Programs",
+    "year": 1999,
+    "venue": "Handbook of labour economics",
+    "abstract": ""
+   },
+   {
+    "openalex": "W2767185910",
+    "title": "Guatemalan women achieve ideal family size: Empowerment through education and decision-making",
+    "year": 2017,
+    "venue": "Health Care For Women International",
+    "abstract": "Women's empowerment in family planning strengthens families and communities. Using 2014/2015 Demographic and Health Surveys data from 7,168 Guatemalan women, ages 35 and above with at least one living child, we examined indicators of empowerment in four domains - economic, educational, social, and contraceptive - and their relation to the number of living children compared to the ideal number of children. We reveal our analysis showing that economic, educational, and social empowerment predicted achieving the preferred number of children. Education and control over their own income are two critical empowerment factors for Guatemalan women."
+   },
+   {
+    "openalex": "W2124758339",
+    "title": "Econometric Analysis of Cross Section and Panel Data",
+    "year": 2001,
+    "venue": "RePEc: Research Papers in Economics",
+    "abstract": "This graduate text provides an intuitive but rigorous treatment of contemporary methods used in microeconometric research. The book makes clear that applied microeconometrics is about the estimation of marginal and treatment effects, and that parametric estimation is simply a means to this end. It also clarifies the distinction between causality and statistical association. The book focuses specifically on cross section and panel data methods. Population assumptions are stated separately from sampling assumptions, leading to simple statements as well as to important insights. The unified approach to linear and nonlinear models and to cross section and panel data enables straightforward cover"
+   },
+   {
+    "openalex": "W1969204385",
+    "title": "Accelerating reproductive and child health programme impact with community-based services: the Navrongo experiment in Ghana",
+    "year": 2006,
+    "venue": "Bulletin of the World Health Organization",
+    "abstract": "OBJECTIVE: To determine the demographic and health impact of deploying health service nurses and volunteers to village locations with a view to scaling up results. METHODS: A four-celled plausibility trial was used for testing the impact of aligning community health services with the traditional social institutions that organize village life. Data from the Navrongo Demographic Surveillance System that tracks fertility and mortality events over time were used to estimate impact on fertility and mortality. RESULTS: Assigning nurses to community locations reduced childhood mortality rates by over half in 3 years and accelerated the time taken for attainment of the child survival Millennium Deve"
+   },
+   {
+    "openalex": "W2530848521",
+    "title": "The effects of China's universal two-child policy",
+    "year": 2016,
+    "venue": "The Lancet",
+    "abstract": ""
+   },
+   {
+    "openalex": "W2571143398",
+    "title": "Do Targeted Reproductive Health Services Matter? \u2013 The Impact of a Midwife Program in Indonesia",
+    "year": 2017,
+    "venue": "Health Economics",
+    "abstract": "This paper examines empirically whether midwives, as an integral part of the reproductive health and family planning programs in Indonesia, are effective in advising young women to delay their first birth and also influence the decision on post-primary school attendance. Using the Indonesian Family Life Survey, I investigate the extent to which the expansion of a midwife program affects the age at first birth and the number of school years of women. My findings suggest that women who were exposed to a midwife when they have to decide on further school attendance (aged 13-20 years) delay their first birth and also stay longer in school. According to the average returns of education in Indones"
+   },
+   {
+    "openalex": "W1584748175",
+    "title": "Overcoming Barriers to Health Service Access and Influencing the Demand Side Through Purchasing",
+    "year": 2004,
+    "venue": "World Bank, Washington, DC eBooks",
+    "abstract": "This paper investigates the role of demand-side barriers in impeding access to the use of health services. Demand-side barriers are defined as determinants of use of health care that are not dependent on service delivery or price or direct price of those services. They include distance, education, opportunity cost, and cultural and social barriers. There is some evidence that these barriers are at least as important in determining access to services as the quality, volume, and price of services delivered by health care providers. The paper is divided into two sections. In the first section literature on demand barriers to accessing services is reviewed. Since the literature on these barriers"
+   },
+   {
+    "openalex": "W2134612802",
+    "title": "Absent and Problematic Men: Demographic Accounts of Male Reproductive Roles",
+    "year": 2000,
+    "venue": "Population and Development Review",
+    "abstract": "Both men and women are important actors in bringing children into life, yet demographic studies on reproduction have tended to focus on women alone. The aims of this article are: 1) to describe why men have attracted limited interest as subjects of such research; 2) to evaluate existing research on men's roles in developing countries; and 3) to suggest directions for future research on male reproductive roles. Men, once neglected, are now included in research on fertility but from a narrow, overly problem\u2010oriented perspective. A review of the literature, however, raises questions about the adequacy of a problem oriented approach. The authors argue that demography should focus on men not only"
+   },
+   {
+    "openalex": "W7140925528",
+    "title": "Fintech agglomeration and urban labor markets: Evidence from Chinese cities",
+    "year": 2026,
+    "venue": "Habitat International",
+    "abstract": ""
+   },
+   {
+    "openalex": "W2736179794",
+    "title": "Fertility Intentions and Residential Relocations",
+    "year": 2017,
+    "venue": "Demography",
+    "abstract": "This research addresses the question of whether fertility intentions (before conception) are associated with residential relocations and the distance of the relocation. We empirically tested this using data from two birth cohorts (aged 24-28 and 34-38 in the first survey wave) of the German Family Panel (pairfam) and event history analysis. Bivariate analyses showed that coupled individuals relocated at a higher rate if they intended to have a(nother) child. We found substantial heterogeneity according to individuals' age and parental status, particularly for outside-town relocations. Childless individuals of average age at family formation-a highly mobile group-relocated at a lower rate if "
+   },
+   {
+    "openalex": "W2184152115",
+    "title": "How community structures of time and opportunity shape adolescent sexual behavior in South Africa",
+    "year": 2002,
+    "venue": null,
+    "abstract": "Recently, South Africa has led the world in rates of HIV/AIDS infection. Particularly among young adults, the prevalence of HIV has soared, now reaching 25 percent. The statistics suggest a high level of unprotected sex and risky sexual behavior even in the midst of high levels of knowledge. Research has focused on the dynamics of individuals\u2019 and partners\u2019 sexual decisionmaking. Little is known, however, about the larger context in which those decisions are made. What are the everyday experiences that influence risk-taking? Are young people with little to do more likely to engage in risky behavior? Do community opportunities of schooling, work, and other activities make a difference? This s"
+   },
+   {
+    "openalex": "W2099035145",
+    "title": "Women's empowerment and fertility: A review of the literature",
+    "year": 2014,
+    "venue": "Social Science & Medicine",
+    "abstract": ""
+   }
+  ],
+  "hand_sourced": [
+   {
+    "openalex": "W4381108710",
+    "title": "More Credit, More Babies? Bank Credit Expansion, House Prices, and Fertility",
+    "year": 2023,
+    "venue": "SSRN Electronic Journal",
+    "abstract": ""
+   },
+   {
+    "openalex": "W7163998811",
+    "title": "Microcredit Participation and Fertility: Evidence from Bangladesh",
+    "year": 2026,
+    "venue": "Figshare",
+    "abstract": "Bangladesh has experienced a significant decline in fertility in recent decades. At the same time, the country has witnessed a rapid increase in microcredit coverage. This article examines the role of microcredit in fertility decline in Bangladesh. It uses a large household-level panel dataset for the period 1997\u20132005 designed specifically to evaluate microcredit programmes across Bangladesh. Using a difference-in-differences framework combined with matching techniques, the article finds that access to microcredit is associated with lower recent fertility and fewer births during the study period. It also finds that the channels through which this association appears to operate include increa"
+   },
+   {
+    "openalex": "W2367129434",
+    "title": "Coverage for Doula Services: How State Medicaid Programs Can Address Concerns about Maternity Care Costs and Quality",
+    "year": 2016,
+    "venue": "Birth",
+    "abstract": "Controlling Medicaid costs is a key issue facing United States health insurers, managed care organizations, state policymakers, and clinicians who care for low-income populations. Each year, Medicaid programs pay $13 billion to hospitals for maternal and newborn care for just under 2 million births 1. The high costs of childbirth are sometimes compounded by the expenses related to adverse birth outcomes such as cesarean delivery, preterm births, and morbidity. Preterm births, for instance, cost the United States health care system more than $26 billion annually, and infants born preterm are likely to incur medical costs that are ten times higher than full-term infants during their first year"
+   },
+   {
+    "openalex": "W2069432153",
+    "title": "Does High Cost of Mortgage Debt Explain Why Young Adults Live with Their Parents?",
+    "year": 2009,
+    "venue": "Journal of the European Economic Association",
+    "abstract": "Young adults leave their parents' homes at a higher rate in Northern Europe or in the United States than in Southern Europe, with broad implications on labor market mobility and on fertility. We assess if differences in household formation are associated to differences in access to credit by estimating the impact of the cost of a mortgage on the probability that a young adult leaves his or her parents' home. Exogenous changes in the cost of credit are identified using the reform in 1998 and the cancellation in 2002 of Credito Bonificado, a Portuguese program that provided four different reductions of the interest rate of mortgages signed by low- and medium-income youth. Using a unique data s"
+   },
+   {
+    "openalex": "W2098582820",
+    "title": "Integrating Group Counseling, Cell Phone Messaging, and Participant-Generated Songs and Dramas into a Microcredit Program Increases Nigerian Women\u2019s Adherence to International Breastfeeding Recommendations",
+    "year": 2014,
+    "venue": "Journal of Nutrition",
+    "abstract": "In northern Nigeria, interventions are urgently needed to narrow the large gap between international breastfeeding recommendations and actual breastfeeding practices. Studies of integrated microcredit and community health interventions documented success in modifying health behaviors but typically had uncontrolled designs. We conducted a cluster-randomized controlled trial in Bauchi State, Nigeria, with the aim of increasing early breastfeeding initiation and exclusive breastfeeding among female microcredit clients. The intervention had 3 components. Trained credit officers led monthly breastfeeding learning sessions during regularly scheduled microcredit meetings for 10 mo. Text and voice m"
+   },
+   {
+    "openalex": "W2525741328",
+    "title": "Does Microfinance Elevate Poverty? Does Family Size Matter in the Provision of Microcredit? Evidence from a Randomised Evaluation",
+    "year": 2015,
+    "venue": "SSRN Electronic Journal",
+    "abstract": "This paper looks at randomised assessment of microcredit intervention through Spandana in Hyderabad, India. It looks at households with six or more than six members as a restricting conditioning to see whether provision of microcredit affects them differently. This paper finds significant differences in the way which smaller and bigger families allocate their additional resource received in the form of microcredit intervention. As stated above, bigger households spend more on durable goods as soon as they received a loan whereas smaller households do not emphasis on increasing household stocks. These results are revealing on how different households prioritise their expenditure categories an"
+   },
+   {
+    "openalex": "W2883824115",
+    "title": "Microfinance and health interventions: Factors influencing loan repayment success with young men in Dar es Salaam, Tanzania",
+    "year": 2018,
+    "venue": "Global Public Health",
+    "abstract": "Poverty is associated with numerous poor health outcomes. Youth unemployment in Tanzania is approximately 13.7%, and concentrates in urban areas. These youth lack relevant job skills and access to financial capital. Microfinance continues to be implemented globally to address poverty, and increasingly has been linked to health interventions. Men less frequently are recipients of microfinance loans. We offered microcredit to young men in an area of Dar es Salaam with high poverty as part of a randomised controlled-trial to assess the efficacy of a microfinance and health leadership intervention in preventing STI acquisition. We used mixed methods to understand predictors of successful loan re"
+   },
+   {
+    "openalex": "W1565426900",
+    "title": "An empirical analysis of microcredit on China rural household",
+    "year": 2010,
+    "venue": "Lincoln University Research Archive (Lincoln University)",
+    "abstract": "Since its introduction in Bangladesh in the seventies, microcredit has been well documented to have social implications such as reducing poverty and empowering the poor by offering them opportunities to access economic resources. Microcredit was introduced into China in the mid-1990s, aiming to facilitate credit access by farmers and mitigate rural poverty in China. However, the impacts of microcredit on China rural households\u2019 livelihoods are not well documented. In addition, despite the efforts made by the Chinese government to support and popularise the implementation of microcredit, the access to institutional credits including microcredit by the rural population remains insufficient. Th"
+   },
+   {
+    "openalex": "W2476864819",
+    "title": "Old Age Security and the One-child Campaign",
+    "year": 1985,
+    "venue": "Palgrave Macmillan UK eBooks",
+    "abstract": "In each of the four post-1949 birth control campaigns, official and unofficial sources have claimed that elderly grandparents undermined government efforts to restrict family size by their persistent desire for many grandchildren. 1 Evidence supporting the elderly\u2019s preference for large families, particularly for large numbers of male descendants to carry on the family surname, is widely available. Conclusive proof that elderly parents actively block acceptance of the one-child ideal, however, is more difficult to find. In fact, Chinese government sources generally identify young people as the main sources of opposition and focus propaganda efforts on the young, involving the elderly only as"
+   },
+   {
+    "openalex": "W1597793728",
+    "title": "The Baby Boom: Predictability in House Prices and Interest Rates",
+    "year": 2005,
+    "venue": "International Finance Discussion Paper",
+    "abstract": "This paper explores the baby boom's impact on U.S. house prices and interest rates in the post-war 20th century and beyond. Using a simple Lucas asset pricing model, I quantitatively account for the increase in real house prices, the path of real interest rates, and the timing of low-frequency fluctuations in real house prices. The model predicts that the primary force underlying the evolution of real house prices is the systematic and predictable changes in the working age population driven by the baby boom. The model is calibrated to U.S. data and tested on international data. One surprising success of the model is its ability to predict the boom and bust in Japanese real estate markets ar"
+   },
+   {
+    "openalex": "W3022477743",
+    "title": "Essays on economics of microcredit and economics of fertility",
+    "year": 2014,
+    "venue": null,
+    "abstract": "[ACCESS RESTRICTED TO THE UNIVERSITY OF MISSOURI AT AUTHOR'S REQUEST.] This dissertation is a combination of three essays on development economics. In essay 1, I examine the impact of microcredit use on several aspects of households in Vietnam. One of the main findings is that access to microcredit makes people feel more optimistic. To deal with the possible endogeneity of microcredit availability, I use fixed effect models and also consider an instrumental variables approach. This framework provides controls for both unobserved and observed attributes of households. I do not find clear evidence that microcredit use has significant impact on household profits and expenditures on healthcare, "
+   },
+   {
+    "openalex": "W4392286525",
+    "title": "A critical evaluation of Central Bank Digital Currencies (CBDCs): payments\u2019 final frontier?",
+    "year": 2024,
+    "venue": "Capital Markets Law Journal",
+    "abstract": "CBDCs are a digital form of fiat money. CBDCs raise a number of challenges in terms of payments\u2019 privacy. CBDCs may be implemented in two models (wholesale and retail). CBDCs may be used on a cross-border basis, subject to the connectivity of the technology. Cross-border use of some countries\u2019 CBDCs could even bring about, under certain conditions, a shift in geopolitical power, especially if challenger currencies were to eventually lead to a replacement of the USD as the global reserve currency. As regards the key question about the interoperability of CBDC systems with private payment networks, the answer relies on the choice of technology and the location of the CBDC\u2019s ledger, that is wit"
+   },
+   {
+    "openalex": "W4410171434",
+    "title": "Burkina Faso - Promoting Growth, Competitiveness and Diversification : Country Economic Memorandum, Volume 2. Sources of Growth - Key Sectors for Tomorrow",
+    "year": 2010,
+    "venue": null,
+    "abstract": "The main conclusion of Country Economic Memorandum is that the previous model of extensive growth has now exhausted its potential and must be renewed. Given the existing population dynamics, low environmental tolerance due to its Sahelian climate and competition forces imposed due to its open economy, Burkina Faso is heavily investing in growth based on increased productivity to overcome its low level of initial human capital, capacity constraints and regulation. To help define the new model of development of Burkina Faso, the Country Economic Memorandum is exploring growth based on productivity both at macro-, meso-economic or sectoral, micro and institutional levels only. It also assesses "
+   },
+   {
+    "openalex": "W789889709",
+    "title": "Essays in finance and welfare",
+    "year": 2014,
+    "venue": "eScholarship (California Digital Library)",
+    "abstract": "This dissertation explores the relationship between finance and welfare, focusing on how the expansion of credit supply in the beginning of the 2000s, leading to the 2007 financial crisis, affected U.S. households. This dissertation helps advance the study of how financial policies affect households' well- being.In the first chapter, I study the effect of access to credit on family structure. There is a large debate over the welfare effects of the early 2000s housing boom and bust. One potentially important welfare effect is the impact of mortgage credit expansion on family structure. Exploiting pre-housing boom variation on the distribution of old homeowners who live alone and are older tha"
+   },
+   {
+    "openalex": "W2139599662",
+    "title": "Banking the poor via savings accounts: Evidence from a field experiment",
+    "year": 2015,
+    "venue": "Journal of Development Economics",
+    "abstract": ""
+   },
+   {
+    "openalex": "W3023775768",
+    "title": "Microcredit Impacts: Evidence from a Randomized Microcredit Program Placement Experiment by Compartamos Banco",
+    "year": 2015,
+    "venue": "American Economic Journal Applied Economics",
+    "abstract": "We use a clustered randomized trial, and over 16,000 household surveys, to estimate impacts at the community level from a group lending expansion at 110 percent APR by the largest microlender in Mexico. We find no evidence of transformative impacts on 37 outcomes (although some estimates have large confidence intervals), measured at a mean of 27 months post-expansion, across 6 domains: microentrepreneurship, income, labor supply, expenditures, social status, and subjective well-being. We also examine distributional impacts using quantile regressions, given theory and evidence regarding negative impacts from borrowing at high interest rates, but do not find strong evidence for heterogeneity. "
+   },
+   {
+    "openalex": "W2762927404",
+    "title": "Essays on information and training in developing countries",
+    "year": 2017,
+    "venue": "UCL Discovery (University College London)",
+    "abstract": "This PhD thesis focuses on the role of information and training in developing countries. Chapter 1 studies the persuasive impacts of non-informative communication on the short-run beliefs and long-run behavior of individuals. This is done in the context of the Papal visit to Brazil in October 1991, in which persuasive messages related to fertility were salient in Papal speeches. The analysis measures how persuasion shifts short-run beliefs, such as intentions to contracept, and long-term fertility outcomes, such as the timing and total number of births. The last two chapters center around the evaluations of novel large-scale randomized control trials (RCTs) implemented in the Ugandan labor m"
+   },
+   {
+    "openalex": "W7164655895",
+    "title": "ECONOMIC MECHANISMS FOR THE DEVELOPMENT OF SMALL BUSINESSES AND ENTREPRENEURSHIP",
+    "year": 2026,
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "abstract": "Research objectives: This paper examines the economic mechanisms that catalyze the development ofsmall businesses and entrepreneurship, focusing on finance, taxation, regulatory frameworks, innovation systems, marketaccess, human capital, and digitalization. It seeks to identify which mechanisms most strongly correlate with firm growth,formalization, productivity, and survival.Design/Methodology/Approach: We employ a mixed-methods design combining (i) a systematic review of internationalevidence (OECD, World Bank, IMF, ILO), (ii) a cross-country panel analysis (2006\u20132024) across 45 economies linkingpolicy indicators to SME outcomes, and (iii) a case-comparative analysis of five reform episod"
+   },
+   {
+    "openalex": "W2493090411",
+    "title": "Do Rich Countries Have A Negative Duty to Fight Global Poverty?",
+    "year": 2006,
+    "venue": "Palgrave Macmillan UK eBooks",
+    "abstract": "According to Thomas Pogge, citizens of rich countries are responsible for the extreme poverty that currently exists in the world. The reason is that their governments act to keep a global set of institutions in force which causes much of this poverty. Rich countries, Pogge holds, have the power to change the ruling arrangements in such ways that extreme poverty can be eradicated. A mere 1 percent of Global GNP (321 billion dollar) would suffice for bringing the 2.8 billion of people now eking out an existence below the poverty line of 2 dollar PPP (purchasing power parity) a day up to this threshold, by means of targeted and effective development programs. Pogge has long argued that a substa"
+   },
+   {
+    "openalex": "W2037323381",
+    "title": "Racial and Ethnic Disparities in Food Insufficiency: Evidence from a Statewide Probability Sample",
+    "year": 2015,
+    "venue": "Journal of the Society for Social Work and Research",
+    "abstract": "Objective: This study examines racial/ethnic disparities in the experience of food insufficiency among families with infants, focusing on the roles of socioeconomic characteristics. Method: We examine the SEED for Oklahoma Kids experiment data collected from a probability sample of White, African American, American Indian, and Hispanic caregivers of infants randomly selected from Oklahoma\u2019s birth certificates (N = 2,652). Data are analyzed using Fairlie\u2019s extension of the Blinder-Oaxaca decomposition. Results: Whites experience food insufficiency at a statistically significantly lower rate than do the 3 minority groups. Estimates suggest most of the racial/ethnic disparity in food insufficie"
+   },
+   {
+    "openalex": "W2911311420",
+    "title": "Is microfinance associated with changes in women\u2019s well-being and children\u2019s nutrition? A systematic review and meta-analysis",
+    "year": 2019,
+    "venue": "BMJ Open",
+    "abstract": "BACKGROUND: Microfinance is the provision of savings and small loans services, with no physical collateral. Most recipients are disadvantaged women. The social and health impacts of microfinance have not been comprehensively evaluated. OBJECTIVE: To explore the impact of microfinance on contraceptive use, female empowerment and children's nutrition in South Asia, Sub-Saharan Africa and Latin America and the Caribbean. DESIGN: We conducted a systematic search of published and grey literature (1990-2018), with no language restrictions. We conducted meta-analysis, where possible, to calculate pooled ORs. Where studies could not be combined, we described these qualitatively. DATA SOURCES: EMBASE"
+   },
+   {
+    "openalex": "W2613324243",
+    "title": "The impact of an integrated micro-credit programme on women's empowerment and fertility behavior in rural Bangladesh",
+    "year": 1998,
+    "venue": null,
+    "abstract": "This paper examines the impact of participation in women\u2019s savings and credit groups organized by Save the Children USA on women\u2019s empowerment, contraceptive use, and fertility in a rural area of Bangladesh. The data are drawn from a panel survey conducted in 1993, shortly before the groups were formed, and in 1995 after interventions began. This quasi-experimental design enables us to identify the characteristics of women who chose to join savings groups. The findings show that those who joined tend to more educated and more socially independent than are women who did not. Thus, to control for selection bias, preintervention measures of empowerment are taken into consideration in the analys"
+   },
+   {
+    "openalex": "W7203512935",
+    "title": "Essays on Public Finance",
+    "year": 2021,
+    "venue": "Rice Digital Scholarship Archive (Rice University)",
+    "abstract": "This dissertation contains three chapters. In the first chapter, ``Finance, Public Goods, and Migration'', I show that shocks to the supply of municipal credit affect both the quantity and quality of local public goods provision, and through this channel, resident migration. I use a difference-in-differences approach based on a regulation that unintendedly decreased bank investment in municipal bonds. Following the credit shock, municipalities cut spending, especially infrastructure investment. Public service quality deteriorates, manifested in increased water contamination and prolonged power outages. While high income residents \u201cvote with their feet\u201d and leave, low income residents have li"
+   },
+   {
+    "openalex": "W3012274083",
+    "title": "Testing the impact of financial inclusion on income convergence: Empirical evidence from Nigeria",
+    "year": 2020,
+    "venue": "African Development Review",
+    "abstract": "Abstract Financial inclusion, as a key pillar for inclusive development, has long been considered as an important instrument for reducing poverty and income inequality. However, the income convergence effect of financial inclusion remains only partially explored. Using longitudinal data covering three survey waves on Nigerian households, this study explores the potential of financial inclusion as an instrument for reducing income disparity. After controlling for the endogeneity issues, the results of instrumental variable linear and quantile regressions consistently show a strong nexus between financial inclusion and per capita income. This positive effect is experienced by all households re"
+   },
+   {
+    "openalex": "W7133307998",
+    "title": "Microcredit and Maternal Health in Northern Ghana: An Impact Study on Smallholder Women Farmers",
+    "year": 2007,
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "abstract": "Microcredit programmes have been implemented in various regions to support smallholder farmers, often with a focus on economic empowerment and poverty reduction. In Northern Ghana, these initiatives are aimed at improving the livelihoods of women who engage primarily in agriculture. The study employs a mixed-methods approach, combining quantitative data from health records with qualitative insights from interviews and focus group discussions. Data collection spans two years (-), including baseline and follow-up surveys of participants in the microcredit programme compared to a control group. Analysis revealed that women participating in the microcredit programme were significantly less likel"
+   },
+   {
+    "openalex": "W3121502504",
+    "title": "The Miracle of Microfinance? Evidence from a Randomized Evaluation",
+    "year": 2015,
+    "venue": "American Economic Journal Applied Economics",
+    "abstract": "This paper reports results from the randomized evaluation of a group-lending microcredit program in Hyderabad, India. A lender worked in 52 randomly selected neighborhoods, leading to an 8.4 percentage point increase in takeup of microcredit. Small business investment and profits of preexisting businesses increased, but consumption did not significantly increase. Durable goods expenditure increased, while \u201ctemptation goods\u201d expenditure declined. We found no significant changes in health, education, or women's empowerment. Two years later, after control areas had gained access to microcredit but households in treatment area had borrowed for longer and in larger amounts, very few significant d"
+   },
+   {
+    "openalex": "W2134916940",
+    "title": "The Gender and Intergenerational Consequences of the Demographic Dividend: An Assessment of the Micro- and Macrolinkages between the Demographic Transition and Economic Development",
+    "year": 2009,
+    "venue": "The World Bank Economic Review",
+    "abstract": "The demographic transition changes the age composition of a population, potentially affecting resource allocation at the household level and exerting general equilibrium effects at the aggregate level. If age profiles of income, consumption, and savings were stable and estimable for the entire population, they might imply how the demographic transition would affect national savings rates, but there is little agreement on the impact of age composition. These age profiles differ by gender and are affected by human capital investments, whereas existing microsimulations are estimated from samples of wage earners that are not distinguished by sex or schooling and make no effort to model family la"
+   },
+   {
+    "openalex": "W2889711136",
+    "title": "A modified choice experiment to examine willingness to participate in a Community Supported Agriculture (CSA) program among low-income parents",
+    "year": 2018,
+    "venue": "Renewable Agriculture and Food Systems",
+    "abstract": "Abstract There is a need to improve geographical and financial access to healthy foods for limited resource populations in rural areas. Community Supported Agriculture (CSA) programs can improve access to healthy foods in rural and limited-resource populations. However, research is needed to discern the most appealing conditions for a CSA (e.g. price, frequency, food quantity) among rural, low-income customers. The goal of this study was to understand low-income consumers' preferences related to participation in a CSA program, considering price, frequency, food quantity and accessibility (e.g. distance) conditions. A modified exploratory choice experiment exercise was embedded within in-dept"
+   },
+   {
+    "openalex": "W7118187922",
+    "title": "Demand for weather index insurance: evidence from Indian cotton farmers",
+    "year": 2026,
+    "venue": "Journal of Agribusiness in Developing and Emerging Economies",
+    "abstract": "Purpose Adverse climatic conditions have significantly impacted agricultural production in India. To manage climate risk, weather index insurance (WII) is emerging as a useful tool to transfer risk. However, despite the potential advantages, the adoption of weather-based insurance remains low. Thus, this study aims to examine the factors influencing farmers\u2019 willingness to pay (WTP) for WII. Design/methodology/approach A cross-sectional survey was conducted among 350 cotton farmers in the Virudhunagar district, selected through a multistage sampling approach, incorporating simple random sampling. Data were collected through personal interviews using a pre-tested questionnaire. The logit mode"
+   },
+   {
+    "openalex": "W4225269300",
+    "title": "An experiment of health services and additional microcredit in 128 villages of Bangladesh",
+    "year": 2022,
+    "venue": "Journal of Health Population and Nutrition",
+    "abstract": "BACKGROUND: Studies in the literature have found mixed results on the effect of microcredit on health outcomes. Of the five previous experimental studies that included microcredit and a health intervention, three reported no significant changes in health status or behaviors. The purpose of this study was to test for marginal and interactive effects of increased microcredit and provision of basic health services. METHODS: This study had a 4-celled experimental design in 128 villages in rural Bangladesh. For villages in one cell, an additional microcredit worker was assigned. For those in a second cell, a health assistant visited households each month, provided simple medicines and announced a"
+   },
+   {
+    "openalex": "W3122660248",
+    "title": "Fertility choice in a life cycle model with idiosyncratic uninsurable earnings risk",
+    "year": 2016,
+    "venue": "Journal of Monetary Economics",
+    "abstract": "This paper studies the link between rising income uncertainty and household fertility patterns in an Aiyagari-Bewley-Huggett framework augmented to include fertility decisions and infertility risk. Building on Becker and Tomes (1976), I model fertility decisions as sequential, irreversible choices over the number of children, accompanied by parental choices of time and money invested toward improving children's quality. The calibrated model is used to quantify the contribution of earnings uncertainty to the changes in the key fertility indicators between steady states. I show that realistic increases in uninsurable earnings risk lead to a postponement in births by young households, and are a"
+   },
+   {
+    "openalex": "W2513923226",
+    "title": "Group-based microfinance for collective empowerment: a systematic review of health impacts",
+    "year": 2016,
+    "venue": "Bulletin of the World Health Organization",
+    "abstract": "OBJECTIVE: To assess the impact on health-related outcomes, of group microfinance schemes based on collective empowerment. METHODS: We searched the databases Social Sciences Citation Index, Embase, MEDLINE, MEDLINE In-Process, PsycINFO, Social Policy & Practice and Conference Proceedings Citation Index for articles published between 1 January 1980 and 29 February 2016. Articles reporting on health impacts associated with group-based microfinance were included in a narrative synthesis. FINDINGS: We identified one cluster-randomized control trial and 22 quasi-experimental studies. All of the included interventions targeted poor women living in low- or middle-income countries. Some included a h"
+   },
+   {
+    "openalex": "W1512976090",
+    "title": "What Explains Fertility? Evidence from Italian Pension Reforms",
+    "year": 2009,
+    "venue": "SSRN Electronic Journal",
+    "abstract": "Why do people have kids in developed societies? We propose an empirical test of two alternative theories - children as 'consumption' vs. 'investment' good. We use as a natural experiment the Italian pension reforms of the 90s that introduced a clear discontinuity in the treatment across workers. This policy experiment is particularly well suited, since the 'consumption' motive predicts lower future pensions to reduce fertility, while the 'old-age security' to increase it. Our empirical analysis identifies a clear and robust positive effect of less generous future pensions on post-reform fertility. These findings are consistent with 'old-age security' even for contemporary fertility."
+   },
+   {
+    "openalex": "W2045582700",
+    "title": "Risk and Insurance: Perspectives on Fertility and Agrarian Change in India and Bangladesh",
+    "year": 1981,
+    "venue": "Population and Development Review",
+    "abstract": "Relative to other approaches and emphases -- the value of childrens labor for example -- the potential importance of environmentally and socially determined risk as a source of derived demand for children in poor agrarian settings has been largely overlooked. Using frequency of distress sale of land as an indicator of the adequacy of insurance mechanisms this article compares sources of risk and means of insurance in rural Bangladesh (represented by the village of Char Gopalpur) and a semi arid area of south central India (represented by 2 villages in Maharashtra and 1 in Andhra Pradesh). While both regions are characterized by harsh environment of risk in the Indian setting efficient adjust"
+   },
+   {
+    "openalex": "W1815911686",
+    "title": "Estimating the Impact of Microcredit on Those Who Take It Up: Evidence from a Randomized Experiment in Morocco",
+    "year": 2015,
+    "venue": "American Economic Journal Applied Economics",
+    "abstract": "We report results from a randomized evaluation of a microcredit program introduced in rural areas of Morocco in 2006. Thirteen percent of the households in treatment villages took a loan, and none in control villages did. Among households identified as more likely to borrow, microcredit access led to a significant rise in investment in assets used for self-employment activities, and an increase in profit, but also to a reduction in income from casual labor. Overall there was no gain in income or consumption. We find suggestive evidence that these results are mainly driven by effects on borrowers, rather than by externalities. (JEL D14, G21, J23, O12, O16, O18)"
+   },
+   {
+    "openalex": "W2170808980",
+    "title": "The Microfinance of Reproduction and the Reproduction of Microfinance: Understanding the Connections between Microfinance, Empowerment, Contraception and Fertility in Bangladesh in the 1990s",
+    "year": 2011,
+    "venue": "SSRN Electronic Journal",
+    "abstract": "Microfinance (MF) and family planning (FP) are thought to be very important interventions in the promotion of human development and it has been suggested that MF has significant beneficent impacts on contraceptive adoption and fertility. Thus, several authors, e.g. Amin, Hill and Li (1995), Amin et al (1994 and 2001); Schuler, Hashemi and Riley (1997); Hashemi, Schuler and Riley (1996); Schuler and Hashemi (1994), using naive methods find that MF in Bangladesh increases contraceptive use and reduces fertility at the individual level, largely because MF empowers women. Pitt et al (1999 \u2013 henceforth PKML), however, using instrumental variables (IV) estimation find that MF is associated with de"
+   },
+   {
+    "openalex": "W3122498213",
+    "title": "Monetary Policy and Birth Rates: The Effect of Mortgage Rate Pass-Through on Fertility",
+    "year": 2023,
+    "venue": "The Review of Economic Studies",
+    "abstract": "Abstract This paper examines whether monetary policy pass-through to mortgage interest rates affects household fertility decisions. Our empirical strategy exploits variation in households\u2019 eligibility for a rate adjustment, coupled with the large reductions in the monetary policy rate that occurred during the Great Recession in the U.K. and U.S. We estimate that each one percentage point drop in the policy rate increased birth rates amongst households eligible for a rate adjustment by 3%. Our results provide new evidence on the nature of monetary policy transmission to households and suggest a new mechanism via which mortgage contract structures can affect both aggregate demand and supply."
+   },
+   {
+    "openalex": "W2036080479",
+    "title": "Children as insurance",
+    "year": 2001,
+    "venue": "Journal of Population Economics",
+    "abstract": "This paper presents a dynamic model of fertility decisions in which children serve as an incomplete insurance good. The model incorporates uncertainty about future income and the survival of children as well as a discrete representation of the number of children. It provides an alternative explanation to the negative relation between fertility and the education of the parents, and especially the mother's education. The model also demonstrates why parents demand children even if the return is negative and explains why fertility might rise with with increasing income when income is low and decrease when income is high. Furthermore, the model can account for the decline in fertility when the ri"
+   },
+   {
+    "openalex": "W2743869821",
+    "title": "How Does the Million Baht Village Fund Impact Fertility in Thailand",
+    "year": 2017,
+    "venue": "The Mathematics Enthusiast",
+    "abstract": "This study evaluates the impact of Thailand\u2019s Million Baht Village Fund program on household fertility decisions. Thailand\u2019s fertility rates are alarmingly low and it is imperative to recognize the unintended consequences a microfinance program may have on fertility choices within Thailand. Using panel data from pre- and post-program years, this research identifies the change in number of babies in a household associated with getting a microloan from the Village Fund program. The quasi-experimental nature of the program and an instrumental variable model with fixed effects identifies a negative relationship between the number of babies within families and participation in the microfinance pr"
+   },
+   {
+    "openalex": "W2172159835",
+    "title": "Migration, Remittances and Human Capital Development in Ghana",
+    "year": 2013,
+    "venue": null,
+    "abstract": "In the past few decades, there has been a steady increase in the amount of remittances to most developing countries, often surpassing the amount of development aid. In Ghana, remittances have become an important source of in-come to most households. However, there has been little or no empirical work to look at the effect of remittances on human capital development in Ghana. This paper aims to explore the extent to which Ghanaian households have used remittances in developing the human capital capacity of children between 5 and 19. School enrolment, years of schooling completed, expenditure on education and number of children enrolled in school are used as a measure of human capital.\r\nInstru"
+   }
+  ],
+  "both_channels": [
+   {
+    "openalex": "W4307711611",
+    "title": "The Old-Age Security Motive for Fertility: Evidence from the Extension of Social Pensions in Namibia",
+    "year": 2022,
+    "venue": "American Economic Journal Economic Policy",
+    "abstract": "The old-age security motive for fertility postulates that people\u2019s needs for old-age support raise the demand for children. We exploit the extension of social pensions in Namibia during the 1990s to provide a quasi-experimental quantification of this widespread idea. The reform eliminated inequalities in pension coverage and benefits across regions and ethnic groups. Combining differences in pre-reform pensions and differences in exposure across cohorts, we show that pensions substantially reduce fertility, especially in late reproductive life. The results suggest that improving social protection for the elderly could go a long way in fostering fertility decline in sub-Saharan Africa. (JEL H"
+   },
+   {
+    "openalex": "W4392128437",
+    "title": "Tradeoff between Entrepreneurship and Fertility: Evidence from China\u2019s Nationwide Two-Child Policy",
+    "year": 2024,
+    "venue": "SSRN Electronic Journal",
+    "abstract": ""
+   },
+   {
+    "openalex": "W2805340188",
+    "title": "Escaping Malthus: Economic Growth and Fertility Change in the Developing World",
+    "year": 2018,
+    "venue": "American Economic Review",
+    "abstract": "Following mid-twentieth century predictions of Malthusian catastrophe, fertility in the developing world more than halved, while living standards more than doubled. We analyze how fertility change related to economic growth during this episode, using data on 2.3 million women from 255 household surveys. We find different responses to fluctuations and long-run growth, both heterogeneous over the life cycle. Fertility was procyclical but declined and delayed with long-run growth; fluctuations late (but not early) in the reproductive period affected lifetime fertility. The results are consistent with models of the escape from the Malthusian trap, extended with a life cycle and liquidity constra"
+   },
+   {
+    "openalex": "W2115546483",
+    "title": "The influence of women's changing roles and status in Bangladesh's fertility transition: Evidence from a study of credit programs and contraceptive use",
+    "year": 1997,
+    "venue": "World Development",
+    "abstract": ""
+   },
+   {
+    "openalex": "W2096833676",
+    "title": "Demographic Dimensions of an Intervillage Land Dispute in Nubri, Nepal",
+    "year": 2001,
+    "venue": "American Anthropologist",
+    "abstract": "The demographic basis for a land dispute between two Tibetan villages in Nubri, Nepal, is examined in relation to family systems. Despite close proximity and sociocultural ties, the villages experience divergent population growth rates resulting from different frequencies of marriage. In one, old\u2010age security concerns induce parents to retain female labor within the household by designating daughters to be nuns, a practice that has the unintended consequence of limiting aggregate population growth by barring many women from marriage and reproduction. In the other village the slightly different family system results in fewer nuns, faster population growth, and a need for more land. Comparison"
+   },
+   {
+    "openalex": "W2049410699",
+    "title": "The No-Birth Bonus Scheme: The Use of Savings Accounts for Family Planning in South India",
+    "year": 1980,
+    "venue": "Population and Development Review",
+    "abstract": "Reviews the history and assesses the results of a monetary incentive scheme for family planning operating in 3 tea estates in South India since 1971. The incentive involves deposits into a savings account payable upon retirement for those who have small families. Since 1971 fertility appears to have fallen somewhat faster on the estates where the scheme was offered than on other comparable estates but not as rapidly as might have been expected had the scheme been better administered and implemented. Evidence to this effect is reviewed and conditions for future applications of similar schemes are discussed. (Authors ) (Summaries in FRE SPA)"
+   },
+   {
+    "openalex": "W2111150212",
+    "title": "Fertility and Consumption When Having a Child is a Risky Investment",
+    "year": 2011,
+    "venue": "SSRN Electronic Journal",
+    "abstract": "In this paper we study a new factor that matters for fertility and consumption decisions: the risks associated with having and raising a child. We analyze a real options model with incomplete markets to explicitly model both children as a risky investment and the parental option to time fertility. We focus on CRRA preferences and uninsurable shocks to future parental income and to the costs of raising a child. We obtain several results that are new relative to the standard Beckerian fertility framework where children are deterministic goods: i) Independently of wealth, higher child cost volatility diminishes fertility. ii) Consumption is decreasing in higher cost volatility but the slope fla"
+   },
+   {
+    "openalex": "W4410344305",
+    "title": "Education Subsidy as Insurance for Fertility Choices",
+    "year": 2025,
+    "venue": "SSRN Electronic Journal",
+    "abstract": ""
+   },
+   {
+    "openalex": "W1567213421",
+    "title": "FERTILITY RISK IN THE LIFE CYCLE",
+    "year": 2017,
+    "venue": "International Economic Review",
+    "abstract": "In this article, I study fertility decisions with special emphasis on the timing of births and abortions over the life cycle. Given the policy debate regarding abortion availability and recent evidence of its positive impact on women's outcomes, understanding the fertility process should help guide the discussion. Here, I present a life\u2010cycle model of consumption\u2013savings and fertility decisions in an environment with uninsurable income shocks and imperfect fertility control. My model presents a framework in which both opportunity costs of child rearing and technological restrictions (in the form of contraception effectiveness) have roles shaping lifetime fertility choices."
+   },
+   {
+    "openalex": "W3175718361",
+    "title": "Is landownership a ladder out of poverty?",
+    "year": 2021,
+    "venue": "World Development",
+    "abstract": ""
+   },
+   {
+    "openalex": "W4385055356",
+    "title": "Wealth and the Transition to Motherhood",
+    "year": 2023,
+    "venue": "Social Problems",
+    "abstract": "Abstract Wealth, a significant dimension of inequality that captures both financial security and social position, shapes patterns of family formation. This study evaluates the role of wealth in the transition to motherhood. We argue that wealth is particularly relevant to when women become mothers, and whether their first birth is desired or undesired. Leveraging longitudinal panel data from the NLSY79 (n=2,382), we find that net worth is linked with a higher risk of a desired first birth and lower risk of an undesired first birth in the subsequent year. These countervailing effects are obscured when desired and undesired births are combined. Our study adds another important dimension to exi"
+   },
+   {
+    "openalex": "W2514518411",
+    "title": "The Babies of Financial Deregulation",
+    "year": 2016,
+    "venue": "SSRN Electronic Journal",
+    "abstract": "Does financial deregulation lead to unintended consequences at the family level by affecting fundamental choices such as the decision to have children? Using household-level data and a ruling by a U.S. federal regulator that created geographical heterogeneity in access to mortgage credit, this paper shows that financial deregulation leads to an increase in homeownership, which in turn leads to an increase in the propensity to have a child. Households of childbearing age who are fully exposed to this financial deregulation event increase their probability of both purchasing a home and having a child by 4 to 5 percentage points. The documented increases in births are not driven by housing weal"
+   },
+   {
+    "openalex": "W4230356224",
+    "title": "Explaining Income Inequality and Intergenerational Mobility: The Role of Fertility and Family Transfers",
+    "year": 2015,
+    "venue": "SSRN Electronic Journal",
+    "abstract": "How much of income inequality is due to initial opportunities relative to adult income risk? What factors determine intergenerational mobility? We study these questions with a particular interest in the impact of family choices: fertility and transfers. Fertility rates, which are higher for low-income than high-income families, are associated with differences in the level of resources available for children's education. To evaluate the quantitative importance of fertility and family transfers we extend the standard heterogeneous agent life-cycle model with idiosyncratic income shocks and incomplete markets to allow for endogenous fertility, family transfers and education. Initial conditions "
+   },
+   {
+    "openalex": "W2089571109",
+    "title": "An Inquiry into Well-Being and Destitution",
+    "year": 1996,
+    "venue": "Southern Economic Journal",
+    "abstract": "Part 1 Well-being - theory and realization: the commodity basis of well-being political morality and the state the object of social contracts well-being - from theory to measurement appendix - political and civil rights indices. Part 2 Allocation of resources among households - the standard theory: resource allocation mechanisms public goods and common property resources decentralization and central guidance real national income as a measure of general well-being uncertainty, insurance and social norms. Part 3 The household and its setting - extensions of the standard theory: land, labour, savings and credit households and credit constraints poverty and the environmental resource base net na"
+   },
+   {
+    "openalex": "W3049703514",
+    "title": "Essays in Development Economics",
+    "year": 2020,
+    "venue": null,
+    "abstract": "My dissertation focuses on several fields of study within economics. The common lens through which I ask all my questions is development economics. I employ health and public economics to aide in the interpretation and discussion of my analyses. Separately, my chapters explore issues related positive spillovers from overcompetition in contests, demand for financial services among low-income households, and the empowerment of women through access to guaranteed employment. Collectively, my dissertation offers evidence and insight regarding how we analyze and improve development initiatives that aim to change the lives of people who are poor or ill."
+   },
+   {
+    "openalex": "W3081536835",
+    "title": "Does financial development influence fertility rate in South Asian economies? An empirical insight",
+    "year": 2020,
+    "venue": "Business Strategy & Development",
+    "abstract": "Abstract The purpose of this paper is to empirically investigate the effect of financial development on fertility rate along with other major indicators in select South Asian economies over the period 1990\u20132016. The study uses various statistical techniques such as Johansen\u2013Fisher panel co\u2010integration approaches are employed to examine the long\u2010run relationship among the variables and for statistically quantile regression is employed. The study finds that the variables under consideration are found to be cointegrated, that is, they are found to be having a long\u2010term relationship. By using three different measures of financial sector development, it is also observed that financial sector deve"
+   },
+   {
+    "openalex": "W4417102578",
+    "title": "Review of periodical literature published in 2024: 1945\u2013present",
+    "year": 2025,
+    "venue": "The Economic History Review",
+    "abstract": "The periodical literature on the period 1945\u2013present published in 2024 focused on themes including labour markets, inequality, monetary policy, and the effects of technological change on jobs, growth, and productivity. The impacts of major shocks, especially Brexit and the coronavirus disease 2019 (COVID-19) pandemic, continued to permeate the literature, alongside work on historical business cycles, especially inflationary episodes. Following Claudia Goldin's Nobel Prize, research on gender pay gaps and gendered labour market dynamics remained strong. Papers also explored topics including environmental outcomes, automation, populism, and wealth inequality. Methodologically, many studies dre"
+   },
+   {
+    "openalex": "W2133534169",
+    "title": "One explanation for the demographic transition in developing countries",
+    "year": 1998,
+    "venue": "Oxford Economic Papers",
+    "abstract": "This paper considers, in an overlapping generations model, the fertility choice of parents confronted with the possibility of child mortality. The motive for having children is assumed to be old age security and, therefore, not altruistic It is shown first in a partial equilibrium setting that reductions in child mortality can induce a demographic transition. In a general equilibrium setting, it is shown that a marginal reduction in child mortality can raise or lower the standard of living of the steady-state equilibrium population, depending on the initial level of child mortality. Finally the paper draws some relevant policy implications."
+   },
+   {
+    "openalex": "W4286491533",
+    "title": "Colonial Legacies, Ethnicity and Fertility Decline in Kenya: What has Financial Inclusion Got to Do with It?",
+    "year": 2022,
+    "venue": "European Journal of Development Research",
+    "abstract": ""
+   },
+   {
+    "openalex": "W7138865959",
+    "title": "Loans vs. Lives: Credit Obligations and Childbirth in Russia",
+    "year": 2026,
+    "venue": "Population Research and Policy Review",
+    "abstract": ""
+   },
+   {
+    "openalex": "W1555707317",
+    "title": "The Old Age Security Hypothesis and Population Growth",
+    "year": 1979,
+    "venue": "National Bureau of Economic Research",
+    "abstract": "In traditional societies it is often argued that parents' desire for old age security in the form of transfers from their children provides an important motive for childbearing. Some doubt has been cast on this \"old age security hypothesis\" by recent estimates which suggest that the rate of return on investments in children tend to be negative in most developing countries."
+   },
+   {
+    "openalex": "W2115994022",
+    "title": "Social Security, Differential Fertility, and the Dynamics of the Earnings Distribution",
+    "year": 2011,
+    "venue": "The B E Journal of Macroeconomics",
+    "abstract": "Economists and demographers have long argued that fertility differs by income (differential fertility), and that social security creates incentives for people to rear fewer children. Does the effect of social security on fertility differ by income? Does social security further affect the dynamics of the earnings distribution through its differential effects on fertility? We answer these questions in a three-period OLG model with heterogeneous agents and endogenous fertility. We find that given its redistributional property, social security reduces fertility of the poor proportionally more than it reduces fertility of the rich. Assuming that earning ability is transmitted from parents to chil"
+   },
+   {
+    "openalex": "W2012053867",
+    "title": "Son and daughter preferences in Benighat, Nepal: Implications for fertility transition",
+    "year": 1995,
+    "venue": "Social Biology",
+    "abstract": "Married women in Benighat, Nepal stressed old age security and continuity of lineage as prominent reasons for wanting sons. In addition, women clearly desired daughters too--an important finding that is less often stressed. Religious reasons and help with household chores were the most common reasons reported for wanting a daughter. Strong desires for sons could increase fertility in settings where fertility is controlled. Additional desires for daughters could have an additional pronatalist influence. For Benighat we document a pervasive desire for at least two sons and at least one daughter. If realized, these sex composition preferences would increase fertility by 50 per cent. Actual effe"
+   },
+   {
+    "openalex": "W2021231170",
+    "title": "Child Survival and Fertility of Refugees in Rwanda",
+    "year": 2005,
+    "venue": "European Journal of Population / Revue europ\u00e9enne de D\u00e9mographie",
+    "abstract": ""
+   },
+   {
+    "openalex": "W2031415000",
+    "title": "Attitudes Among Tunisians Toward Family Formation",
+    "year": 1988,
+    "venue": "International Family Planning Perspectives",
+    "abstract": "A 1983 survey of Tunisian adults indicates that the large majority prefer the nuclear family believe that people should be free to choose their own spouses and agree with the right of women to divorce and with the laws that prohibit polygamy. The leading reason Tunisians give for having children is to ensure support in old age. However most disapprove of large families (generally considered to be 5 or 6 children) and approve of small families (defined as 3-5 children). A family size of 4 children (3.7) is considered the ideal primarily because that number according to the respondents enables parents to adequately provide for their children. Even among younger and more educated Tunisians the "
+   },
+   {
+    "openalex": "W2145982329",
+    "title": "Insecure old-age security",
+    "year": 2002,
+    "venue": "Oxford Economic Papers",
+    "abstract": "In this paper, we examine the old\u2010age security hypothesis according to which parents rear children because they expect the latter to care for them in their later years. In developing countries where there are no perfect capital markets, children are usually viewed as a potential source of income and as a time\u2010related support in old age. However, investing in children remains risky. By focusing on uncertainty about the parental consumption during old age, we show that there exists a precautionary motive for the demand for children so that fertility of prudent parents is expected to increase."
+   },
+   {
+    "openalex": "W3037455063",
+    "title": "Home prices, fertility, and early-life health outcomes",
+    "year": 2021,
+    "venue": "Journal of Public Economics",
+    "abstract": "We estimate the effect of housing price changes on fertility and early-life child health in Denmark. Using rich population register data among women aged 20-44 who own a home, we find that for each 100,000 DKK increase in home prices (equivalent to $12,000), the likelihood of giving birth increases by 0.27 percentage points or 2.32%. These estimates are similar to findings from the US per dollar of home price change, which is surprising given the strong pro-natalist policies and generous government programs in Denmark. We also present the first estimates of the effect of home prices on infant health. Our findings indicate that housing price increases lead to better child health at birth in t"
+   },
+   {
+    "openalex": "W2035702475",
+    "title": "Endogenous fertility and optimal population size",
+    "year": 1985,
+    "venue": "Journal of Public Economics",
+    "abstract": ""
+   },
+   {
+    "openalex": "W3088349231",
+    "title": "Credit constraints and the trade\u2010off between family size and children's investment in Thailand",
+    "year": 2020,
+    "venue": "Asian-Pacific Economic Literature",
+    "abstract": "Using three\u2010wave Thai household panel data covering the years 2005 to 2007, this study examined the effect of liquidity constraints on the quality\u2010quantity trade\u2010off for children. The results show that there was a quality\u2010quantity trade\u2010off for credit\u2010constrained households, while there was no such trade\u2010off for unconstrained households when a 6,000 Baht monthly income and ability to borrow were used as the classifying criteria. The evidence of the Q\u2010Q trade\u2010off is less clear when a 15,000 Baht monthly income is used. The quality income elasticity was found to be higher than the quantity income elasticity for credit\u2010constrained households."
+   },
+   {
+    "openalex": "W4313690340",
+    "title": "The Cyclicality of Births and Babies\u2019 Health, Revisited: Evidence from Unemployment Insurance",
+    "year": 2022,
+    "venue": "SSRN Electronic Journal",
+    "abstract": ""
+   },
+   {
+    "openalex": "W139476958",
+    "title": "The Impact of Microfinance Institutions on Women Empowerment in Rajshahi, Bangladesh",
+    "year": 2011,
+    "venue": "UUM Electronic Theses and Dissertation [eTheses] (Northern University of Malaysia)",
+    "abstract": "The empowerment of women is one of the central issues in the process of development of all developing countries in the world. This study investigated the empowerment of poor women who participated in group-based credit program in Bangladesh. Studies have shown how women participation in group-based credit program can improve individual and household income. However, limited evidence exists on which type of empowerment is more significant for poor women. It is not known whether economic decision making, household decision making, freedom of movement, ownership of property or political and social awareness is more significant for women. This study is based on household level data collected fro"
+   },
+   {
+    "openalex": "W1983191203",
+    "title": "Fertility impact of high-coverage public pensions in sub-Saharan Africa",
+    "year": 2011,
+    "venue": "Global Social Policy",
+    "abstract": "The potential link between child-related cash transfers and increased fertility is often raised as an issue of concern in debates as to their use. Old age pensions are a form of cash transfer where theory would suggest the opposite impact, namely, pensions equalling decreasing fertility. A handful of sub-Saharan African countries have introduced non-contributory social pensions that cover the great majority of the older population. This makes these countries a distinctive group in relation to the rest of the region, where public old age security arrangements, if they exist at all, are largely confined to the formal sector. This article attempts to trace the impact these high-coverage pension"
+   },
+   {
+    "openalex": "W2765482846",
+    "title": "Childbearing postponement, its option value, and the biological clock",
+    "year": 2021,
+    "venue": "Journal of Economic Theory",
+    "abstract": "Having children is like investing in a risky project. Postponing birth is like delaying an irreversible investment. It has an option value, which depends on its costs and benefits, and in particular on the additional risks motherhood brings. We develop a parsimonious theory of childbearing postponement along these lines. We derive its implications for asset accumulation, income, optimal age at first birth, and childlessness. The structural parameters are estimated by matching the predictions of the model to data from the National Longitudinal Survey of Youth NLSY79. The uncertainty surrounding income growth is shown to increase with childbearing, and this increase is stronger for more educat"
+   },
+   {
+    "openalex": "W214813789",
+    "title": "Microfinance Programs and Contraceptive Use: Evidence from Indonesia",
+    "year": 2006,
+    "venue": "eScholarship (California Digital Library)",
+    "abstract": "This study examines the relationship between microfinance programs and contraceptive use with data from the 1997 and 2000 waves of the Indonesia Family Life Survey. Community and individual fixed-effects models are used to control for nonrandom program placement and program participation selection bias. Given wide availability of contraceptive services at low costs in Indonesia, the hypothesized mechanism linking microfinance programs to contraceptive use is the desire to stop childbearing. I conclude that microfinance program availability is associated with increased contraceptive use, with a stronger effect at lower levels of community resources. The effect is also conditioned on desire fo"
+   },
+   {
+    "openalex": "W7150016014",
+    "title": "Effects of access to agricultural microcredit on the multidimensional well-being of households in Borgou, Benin",
+    "year": 2026,
+    "venue": "International Journal of Agronomy and Agricultural Research (IJAAR)",
+    "abstract": "The objective of this research is to evaluate the effect of microcredit on the multidimensional well-being of agricultural households in three municipalities south of Borgou in Benin, based on a sample of 372 producers divided into three socioeconomic groups: (1) young farmers with low integration into microcredit schemes, (2) experienced and well-integrated farmers, and (3) intermediate farmers oriented towards diversification. A quantitative approach was adopted, using analyses of variance (ANOVA) and descriptive statistics under the Stata software to compare indicators of well-being before and after access to credit. The results reveal significant effects of microcredit on several dimensi"
+   },
+   {
+    "openalex": "W1601642119",
+    "title": "Fertility and Financial Development: Evidence from U.S. Counties in the 19th Century",
+    "year": 2014,
+    "venue": "National Bureau of Economic Research",
+    "abstract": "The old-age security hypothesis establishes that one important reason why parents have a large offspring is to ensure that they will receive financial support from them in old age. In this paper we use data on fertility and financial development in 19th century U.S. to indirectly test this theory. In particular, we explore whether more developed local financial markets reduce the incentives for families to have a large offspring. After controlling for several factors likely to create cross-county variation in fertility levels and for potential spatial correlation, we find that the presence of a bank and the degree of financial development in a given county are strongly associated with lower "
+   },
+   {
+    "openalex": "W2215741775",
+    "title": "Essays on intrahousehold allocation and the family: Fertility, child education, and nutrition",
+    "year": 2007,
+    "venue": "ScholarWorks - WMU (Western Michigan University)",
+    "abstract": "Understanding the constraints that households face when making decisions on fertility, education, and health is beneficial for effective interventions aimed at enhancing investments in human capital, promoting gender equity, and reducing poverty. This dissertation consists of four essays that analyze the nature, performance, and determinants of fertility, child education, and nutritional status in a developing economy.\\nThe first essay identifies peculiar constraints, including gender preference and income uncertainty that households face when making fertility and schooling choices. The underlying assumption in the theoretical analysis is that in the absence of formal risk and capital market"
+   },
+   {
+    "openalex": "W2170301097",
+    "title": "Women, Microcredit and Family Planning Practices: A Case Study from Rural Ghana",
+    "year": 2011,
+    "venue": "Journal of Asian and African Studies",
+    "abstract": "This paper examines the influence of informal banking club participation on family planning practices in rural Ghana. Research from Asia suggests that family planning practices are improved by club participation. This study examines this thesis in an African context, using rural Ghana as a case study. A sample of 204 women (19 years and older) was drawn from Abokobi village, Ghana. Multivariate analyses of direct, mediating and moderating effects of women\u2019s demographic background characteristics, membership status and length, and women\u2019s empowerment status as predictors of family planning practices are assessed. Findings suggest that club membership and membership length is not associated wi"
+   },
+   {
+    "openalex": "W2964520071",
+    "title": "More than credit: Exploring associations between microcredit programs and maternal and reproductive health service utilization in India",
+    "year": 2019,
+    "venue": "SSM - Population Health",
+    "abstract": "Microcredit programs are increasingly popular interventions aimed at enabling women's economic empowerment in low- and middle-income countries. Resultant improved income, and social support from co-members of microcredit programs, may lead to increased utilization of health services. But existing research is inconclusive. This study investigates the association of microcredit program awareness and participation, with maternal and postpartum reproductive health service utilization in India. We use data from a nationally representative survey, the National Family Health Survey (2015-16), and assess three indicators of maternal health service utilization: receipt of four or more antenatal check"
+   },
+   {
+    "openalex": "W1982325724",
+    "title": "Old-age security, religious celibacy, and aggregate fertility in a Tibetan population",
+    "year": 2001,
+    "venue": "Journal of Population Research",
+    "abstract": ""
+   }
+  ]
+ }
+}
