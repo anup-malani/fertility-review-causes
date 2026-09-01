@@ -1,0 +1,1057 @@
+{
+ "summary": {
+  "primary_before_dedup": 62,
+  "version_pairs_collapsed": 0,
+  "primary_after_dedup": 62,
+  "fetched": 12,
+  "fetch_rate": 0.194,
+  "rung_found": {
+   "oa_self": 23,
+   "oa_twin": 3
+  },
+  "rung_fetched": {
+   "oa_self": 11,
+   "oa_twin": 1
+  },
+  "fetched_by_arm": {
+   "B": 3,
+   "composite": 6,
+   "S": 3
+  },
+  "outstanding_by_arm": {
+   "B": 11,
+   "composite": 26,
+   "S": 13
+  },
+  "handoff_by_cause": {
+   "no url produced at any rung": 36,
+   "browser-job (open URL, 403 bot defence)": 9,
+   "proxy-job (no open copy at any rung)": 5
+  }
+ },
+ "collapsed": [],
+ "records": [
+  {
+   "openalex": "W7138865959",
+   "title": "Loans vs. Lives: Credit Obligations and Childbirth in Russia",
+   "year": "2026",
+   "cell": "PRIMARY_BORROW_TERMS",
+   "arm": "B",
+   "doi": "10.1007/s11113-026-10002-w",
+   "attempts": [],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "no url produced at any rung"
+  },
+  {
+   "openalex": "W7154967232",
+   "title": "Do Mortgage Interest Subsidies Affect Fertility and Housing Purchase Decisions? Evidence from an Aging Society",
+   "year": 2026,
+   "cell": "PRIMARY_BORROW_TERMS",
+   "arm": "B",
+   "doi": "10.2139/ssrn.6532778",
+   "attempts": [
+    {
+     "id": "W7154967232",
+     "rung": "oa_self",
+     "http": "403",
+     "ok": false,
+     "note": "BLOCKED (403) - open URL refused by bot defence, not a paywall",
+     "url": "https://doi.org/10.2139/ssrn.6532778"
+    }
+   ],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "browser-job (open URL, 403 bot defence)"
+  },
+  {
+   "openalex": "W4417408273",
+   "title": "Credit Availability, Intergenerational Interactions and Family Fertility Decisions",
+   "year": 2025,
+   "cell": "PRIMARY_BORROW_TERMS",
+   "arm": "B",
+   "doi": "10.2139/ssrn.5901871",
+   "attempts": [
+    {
+     "id": "W4417408273",
+     "rung": "oa_self",
+     "http": "403",
+     "ok": false,
+     "note": "BLOCKED (403) - open URL refused by bot defence, not a paywall",
+     "url": "https://doi.org/10.2139/ssrn.5901871"
+    }
+   ],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "browser-job (open URL, 403 bot defence)"
+  },
+  {
+   "openalex": "W4405014414",
+   "title": "Do Mortgage Interest Subsidies Affect Fertility and Housing Purchase Decisions? Evidence from an Aging Economy",
+   "year": 2024,
+   "cell": "PRIMARY_BORROW_TERMS",
+   "arm": "B",
+   "doi": "10.2139/ssrn.5044513",
+   "attempts": [
+    {
+     "id": "W4405014414",
+     "rung": "oa_self",
+     "http": "403",
+     "ok": false,
+     "note": "BLOCKED (403) - open URL refused by bot defence, not a paywall",
+     "url": "https://doi.org/10.2139/ssrn.5044513"
+    }
+   ],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "browser-job (open URL, 403 bot defence)"
+  },
+  {
+   "openalex": "W4214485069",
+   "title": "Do credit supply shocks affect fertility choices?",
+   "year": "2022",
+   "cell": "PRIMARY_BORROW_TERMS",
+   "arm": "B",
+   "doi": "10.1016/j.jbef.2022.100633",
+   "attempts": [
+    {
+     "id": "W3129236866",
+     "rung": "oa_twin",
+     "http": "403",
+     "ok": false,
+     "note": "BLOCKED (403) - open URL refused by bot defence, not a paywall",
+     "url": "https://doi.org/10.2139/ssrn.3740323"
+    }
+   ],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "browser-job (open URL, 403 bot defence)"
+  },
+  {
+   "openalex": "W3088349231",
+   "title": "Credit constraints and the trade\u2010off between family size and children's investment in Thailand",
+   "year": "2020",
+   "cell": "PRIMARY_BORROW_TERMS",
+   "arm": "B",
+   "doi": "10.1111/apel.12297",
+   "attempts": [],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "no url produced at any rung"
+  },
+  {
+   "openalex": "W2908179307",
+   "title": "Research on the Influences of Credit Constraints & Occupational Heterogeneity on Women\u2019s Participation in Continuing Education",
+   "year": 2018,
+   "cell": "PRIMARY_BORROW_TERMS",
+   "arm": "B",
+   "doi": "10.2991/cesses-18.2018.152",
+   "attempts": [
+    {
+     "id": "W2908179307",
+     "rung": "oa_self",
+     "http": "200",
+     "ok": true,
+     "note": "2322 KB",
+     "url": "https://download.atlantis-press.com/article/25906604.pdf"
+    }
+   ],
+   "fetched_path": "temp/c3e-primary-fulltext/W2908179307.pdf",
+   "rung": "oa_self"
+  },
+  {
+   "openalex": "W2514518411",
+   "title": "The Babies of Financial Deregulation",
+   "year": "2016",
+   "cell": "PRIMARY_BORROW_TERMS",
+   "arm": "B",
+   "doi": "",
+   "attempts": [
+    {
+     "id": "W2514518411",
+     "rung": "oa_self",
+     "http": "403",
+     "ok": false,
+     "note": "BLOCKED (403) - open URL refused by bot defence, not a paywall",
+     "url": "https://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID2815685_code1516547.pdf?abstractid=2464530&mirid=1"
+    }
+   ],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "browser-job (open URL, 403 bot defence)"
+  },
+  {
+   "openalex": "W2563714876",
+   "title": "Falling Real Interest Rates, House Prices, and the Introduction of the Pill",
+   "year": 2016,
+   "cell": "PRIMARY_BORROW_TERMS",
+   "arm": "B",
+   "doi": "10.17863/cam.7863",
+   "attempts": [
+    {
+     "id": "W2563714876",
+     "rung": "oa_self",
+     "http": "200",
+     "ok": false,
+     "note": "not a PDF (landing page or JS shell)",
+     "url": "https://www.repository.cam.ac.uk/handle/1810/262597"
+    },
+    {
+     "id": "W2563714876",
+     "rung": "oa_self",
+     "http": "200",
+     "ok": false,
+     "note": "not a PDF (landing page or JS shell)",
+     "url": "https://doi.org/10.17863/cam.7863"
+    },
+    {
+     "id": "W2563714876",
+     "rung": "oa_self",
+     "http": "200",
+     "ok": true,
+     "note": "1223 KB",
+     "url": "https://www.econ.cam.ac.uk/sites/default/files/publication-cwpe-pdfs/cwpe1662.pdf"
+    }
+   ],
+   "fetched_path": "temp/c3e-primary-fulltext/W2563714876.pdf",
+   "rung": "oa_self"
+  },
+  {
+   "openalex": "W2106362541",
+   "title": "All for One? Family Size and Children's Educational Distribution under Credit Constraints",
+   "year": 2014,
+   "cell": "PRIMARY_BORROW_TERMS",
+   "arm": "B",
+   "doi": "10.1257/aer.104.5.365",
+   "attempts": [],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "no url produced at any rung"
+  },
+  {
+   "openalex": "W1979646151",
+   "title": "BEQUEST RECEIPT AND FAMILY SIZE EFFECTS",
+   "year": 2010,
+   "cell": "PRIMARY_BORROW_TERMS",
+   "arm": "B",
+   "doi": "10.1111/j.1465-7295.2008.00208.x",
+   "attempts": [],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "no url produced at any rung"
+  },
+  {
+   "openalex": "W2186788266",
+   "title": "Do Credit Constraints Explain Family Size Effects? Tests Based on Bequest Receipt and Family Earnings",
+   "year": 2005,
+   "cell": "PRIMARY_BORROW_TERMS",
+   "arm": "B",
+   "doi": "",
+   "attempts": [],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "no url produced at any rung"
+  },
+  {
+   "openalex": "W2345953986",
+   "title": "Intergenerational Transfers, Borrowing Constraints and Household Size",
+   "year": 1999,
+   "cell": "PRIMARY_BORROW_TERMS",
+   "arm": "B",
+   "doi": "10.22004/ag.econ.232813",
+   "attempts": [
+    {
+     "id": "W2345953986",
+     "rung": "oa_self",
+     "http": "200",
+     "ok": false,
+     "note": "not a PDF (landing page or JS shell)",
+     "url": "https://doi.org/10.22004/ag.econ.232813"
+    },
+    {
+     "id": "W2345953986",
+     "rung": "oa_self",
+     "http": "200",
+     "ok": true,
+     "note": "7300 KB",
+     "url": "https://ageconsearch.umn.edu/record/232813/files/hebrewuniv-workingpapers-9901.pdf"
+    }
+   ],
+   "fetched_path": "temp/c3e-primary-fulltext/W2345953986.pdf",
+   "rung": "oa_self"
+  },
+  {
+   "openalex": "W1978021930",
+   "title": "The Baby Boom, Housing and Loanable Funds",
+   "year": 1989,
+   "cell": "PRIMARY_BORROW_TERMS",
+   "arm": "B",
+   "doi": "10.2307/135464",
+   "attempts": [],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "no url produced at any rung"
+  },
+  {
+   "openalex": "W4410478319",
+   "title": "How does digital finance impact birth rates: Evidence from China",
+   "year": "2025",
+   "cell": "PRIMARY_COMPOSITE_ACCESS",
+   "arm": "composite",
+   "doi": "10.1016/j.eap.2025.05.030",
+   "attempts": [
+    {
+     "id": "W4410478319",
+     "rung": "oa_self",
+     "http": "200",
+     "ok": false,
+     "note": "too small - probably an interstitial or an error page",
+     "url": "https://doi.org/10.1016/j.eap.2025.05.030"
+    }
+   ],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "proxy-job (no open copy at any rung)"
+  },
+  {
+   "openalex": "W4396752173",
+   "title": "The influence of financial development on total fertility rate in Indonesia",
+   "year": 2024,
+   "cell": "PRIMARY_COMPOSITE_ACCESS",
+   "arm": "composite",
+   "doi": "10.22437/ppd.v11i6.28113",
+   "attempts": [
+    {
+     "id": "W4396752173",
+     "rung": "oa_self",
+     "http": "403",
+     "ok": false,
+     "note": "BLOCKED (403) - open URL refused by bot defence, not a paywall",
+     "url": "http://dx.doi.org/10.22437/ppd.v11i6.28113"
+    }
+   ],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "browser-job (open URL, 403 bot defence)"
+  },
+  {
+   "openalex": "W4405643448",
+   "title": "Economic Drivers of China's Declining Fertility: The Role of Digital Inclusive Finance and Household Debt",
+   "year": 2024,
+   "cell": "PRIMARY_COMPOSITE_ACCESS",
+   "arm": "composite",
+   "doi": "10.1002/jid.3983",
+   "attempts": [],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "no url produced at any rung"
+  },
+  {
+   "openalex": "W4387941831",
+   "title": "Financial Inclusion and Its Impact on Fertility: An Empirical Investigation",
+   "year": "2023",
+   "cell": "PRIMARY_COMPOSITE_ACCESS",
+   "arm": "composite",
+   "doi": "10.1177/09737030231200149",
+   "attempts": [],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "no url produced at any rung"
+  },
+  {
+   "openalex": "W4313814222",
+   "title": "The impact of access to credit and capitalmarkets on fertility: Evidence from China",
+   "year": 2023,
+   "cell": "PRIMARY_COMPOSITE_ACCESS",
+   "arm": "composite",
+   "doi": "10.21203/rs.3.rs-2437964/v1",
+   "attempts": [
+    {
+     "id": "W4313814222",
+     "rung": "oa_self",
+     "http": "200",
+     "ok": true,
+     "note": "378 KB",
+     "url": "https://www.researchsquare.com/article/rs-2437964/latest.pdf"
+    }
+   ],
+   "fetched_path": "temp/c3e-primary-fulltext/W4313814222.pdf",
+   "rung": "oa_self"
+  },
+  {
+   "openalex": "W4388106938",
+   "title": "Digital inclusive and rural household fertility decision-making",
+   "year": 2023,
+   "cell": "PRIMARY_COMPOSITE_ACCESS",
+   "arm": "composite",
+   "doi": "10.1016/j.frl.2023.104656",
+   "attempts": [],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "no url produced at any rung"
+  },
+  {
+   "openalex": "W4286491533",
+   "title": "Colonial Legacies, Ethnicity and Fertility Decline in Kenya: What has Financial Inclusion Got to Do with It?",
+   "year": "2022",
+   "cell": "PRIMARY_COMPOSITE_ACCESS",
+   "arm": "composite",
+   "doi": "10.1057/s41287-022-00557-7",
+   "attempts": [
+    {
+     "id": "W4286491533",
+     "rung": "oa_self",
+     "http": "200",
+     "ok": true,
+     "note": "3138 KB",
+     "url": "https://ueaeprints.uea.ac.uk/id/eprint/86862/1/Main_manuscript_revised_30March2022.pdf"
+    }
+   ],
+   "fetched_path": "temp/c3e-primary-fulltext/W4286491533.pdf",
+   "rung": "oa_self"
+  },
+  {
+   "openalex": "W4285115633",
+   "title": "The dynamics of asymmetry among fertility, income inequality and financial development in Bangladesh",
+   "year": 2022,
+   "cell": "PRIMARY_COMPOSITE_ACCESS",
+   "arm": "composite",
+   "doi": "10.1016/j.wds.2022.100014",
+   "attempts": [
+    {
+     "id": "W4285115633",
+     "rung": "oa_self",
+     "http": "200",
+     "ok": false,
+     "note": "too small - probably an interstitial or an error page",
+     "url": "https://doi.org/10.1016/j.wds.2022.100014"
+    },
+    {
+     "id": "W4285115633",
+     "rung": "oa_self",
+     "http": "403",
+     "ok": false,
+     "note": "BLOCKED (403) - open URL refused by bot defence, not a paywall",
+     "url": "https://doaj.org/article/27fe76d285a6416ca84f9af2e9602ffc"
+    }
+   ],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "browser-job (open URL, 403 bot defence)"
+  },
+  {
+   "openalex": "W4300308429",
+   "title": "Escaping the 'Low Fertility Trap' through Financial Development? Evidence from Bank Deregulation in China",
+   "year": 2022,
+   "cell": "PRIMARY_COMPOSITE_ACCESS",
+   "arm": "composite",
+   "doi": "10.2139/ssrn.4179968",
+   "attempts": [
+    {
+     "id": "W4300308429",
+     "rung": "oa_self",
+     "http": "403",
+     "ok": false,
+     "note": "BLOCKED (403) - open URL refused by bot defence, not a paywall",
+     "url": "https://doi.org/10.2139/ssrn.4179968"
+    }
+   ],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "browser-job (open URL, 403 bot defence)"
+  },
+  {
+   "openalex": "W3154219013",
+   "title": "Fertility and financial development: an analysis of Indian households",
+   "year": "2021",
+   "cell": "PRIMARY_COMPOSITE_ACCESS",
+   "arm": "composite",
+   "doi": "10.1007/s11135-021-01139-1",
+   "attempts": [],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "no url produced at any rung"
+  },
+  {
+   "openalex": "W3210507281",
+   "title": "Does Financial Development Contribute to Fertility Decline in Developed and Developing Countries?",
+   "year": 2021,
+   "cell": "PRIMARY_COMPOSITE_ACCESS",
+   "arm": "composite",
+   "doi": "10.6007/ijarbss/v11-i18/11429",
+   "attempts": [
+    {
+     "id": "W3210507281",
+     "rung": "oa_self",
+     "http": "200",
+     "ok": true,
+     "note": "744 KB",
+     "url": "https://hrmars.com/papers_submitted/11429/does-financial-development-contribute-to-fertility-decline-in-developed-and-de"
+    }
+   ],
+   "fetched_path": "temp/c3e-primary-fulltext/W3210507281.pdf",
+   "rung": "oa_self"
+  },
+  {
+   "openalex": "W3081536835",
+   "title": "Does financial development influence fertility rate in South Asian economies? An empirical insight",
+   "year": "2020",
+   "cell": "PRIMARY_COMPOSITE_ACCESS",
+   "arm": "composite",
+   "doi": "10.1002/bsd2.131",
+   "attempts": [],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "no url produced at any rung"
+  },
+  {
+   "openalex": "W2927943462",
+   "title": "Does owning a bank account improve reproductive and maternal health services utilization and behavior in India? Evidence from the National Family Health Survey 2015\u201316",
+   "year": "2019",
+   "cell": "PRIMARY_COMPOSITE_ACCESS",
+   "arm": "composite",
+   "doi": "10.1016/j.ssmph.2019.100396",
+   "attempts": [
+    {
+     "id": "W2927943462",
+     "rung": "oa_self",
+     "http": "200",
+     "ok": false,
+     "note": "too small - probably an interstitial or an error page",
+     "url": "https://doi.org/10.1016/j.ssmph.2019.100396"
+    },
+    {
+     "id": "W2927943462",
+     "rung": "oa_self",
+     "http": "200",
+     "ok": false,
+     "note": "not a PDF (landing page or JS shell)",
+     "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/6468192"
+    }
+   ],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "proxy-job (no open copy at any rung)"
+  },
+  {
+   "openalex": "W2976307347",
+   "title": "Financial development and fertility in South Asia",
+   "year": 2019,
+   "cell": "PRIMARY_COMPOSITE_ACCESS",
+   "arm": "composite",
+   "doi": "",
+   "attempts": [],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "no url produced at any rung"
+  },
+  {
+   "openalex": "W2806253944",
+   "title": "Microfinance participation and contraceptive use and intention in Bangladesh",
+   "year": "2018",
+   "cell": "PRIMARY_COMPOSITE_ACCESS",
+   "arm": "composite",
+   "doi": "10.1177/0020872818774089",
+   "attempts": [],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "no url produced at any rung"
+  },
+  {
+   "openalex": "W4214908230",
+   "title": "Does Financial Development Contribute to Fertility Decline in Malaysia? An Empirical Investigation",
+   "year": 2018,
+   "cell": "PRIMARY_COMPOSITE_ACCESS",
+   "arm": "composite",
+   "doi": "10.17576/jem-2018-5201-16",
+   "attempts": [
+    {
+     "id": "W4214908230",
+     "rung": "oa_self",
+     "http": "200",
+     "ok": false,
+     "note": "not a PDF (landing page or JS shell)",
+     "url": "http://funes.uniandes.edu.co/19635/1/Vieira2013Indica%C3%A7%C3%B5es.pdf"
+    }
+   ],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "proxy-job (no open copy at any rung)"
+  },
+  {
+   "openalex": "W2385528357",
+   "title": "Micro-Finance, Women\u2019s Empowerment and Fertility Decline in Bangladesh: How Important Was Women\u2019s Agency?",
+   "year": "2016",
+   "cell": "PRIMARY_COMPOSITE_ACCESS",
+   "arm": "composite",
+   "doi": "10.1080/00220388.2016.1205731",
+   "attempts": [
+    {
+     "id": "W2385528357",
+     "rung": "oa_self",
+     "http": "202",
+     "ok": false,
+     "note": "too small - probably an interstitial or an error page",
+     "url": "https://figshare.com/articles/journal_contribution/Micro-Finance_Women_s_Empowerment_and_Fertility_Decline_in_Bangladesh"
+    },
+    {
+     "id": "W2385528357",
+     "rung": "oa_self",
+     "http": "200",
+     "ok": true,
+     "note": "844 KB",
+     "url": "https://ueaeprints.uea.ac.uk/id/eprint/58632/1/Manuscript.pdf"
+    }
+   ],
+   "fetched_path": "temp/c3e-primary-fulltext/W2385528357.pdf",
+   "rung": "oa_self"
+  },
+  {
+   "openalex": "W2440702328",
+   "title": "Fertility and Financial Development in South Asia",
+   "year": "2016",
+   "cell": "PRIMARY_COMPOSITE_ACCESS",
+   "arm": "composite",
+   "doi": "10.1007/s11205-016-1382-6",
+   "attempts": [],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "no url produced at any rung"
+  },
+  {
+   "openalex": "W2481779103",
+   "title": "Microfinance participation and contraceptive decision-making: results from a national sample of women in Bangladesh",
+   "year": "2016",
+   "cell": "PRIMARY_COMPOSITE_ACCESS",
+   "arm": "composite",
+   "doi": "10.1016/j.puhe.2016.06.019",
+   "attempts": [],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "no url produced at any rung"
+  },
+  {
+   "openalex": "W2789120117",
+   "title": "Declining fertility and financial development in high - income and low - income countries",
+   "year": 2016,
+   "cell": "PRIMARY_COMPOSITE_ACCESS",
+   "arm": "composite",
+   "doi": "",
+   "attempts": [
+    {
+     "id": "W2789120117",
+     "rung": "oa_self",
+     "http": "200",
+     "ok": true,
+     "note": "82 KB",
+     "url": "http://psasir.upm.edu.my/id/eprint/55428/1/Declining%20fertility%20and%20financial%20development%20in%20high-income%20an"
+    }
+   ],
+   "fetched_path": "temp/c3e-primary-fulltext/W2789120117.pdf",
+   "rung": "oa_self"
+  },
+  {
+   "openalex": "W2119295186",
+   "title": "Fertility choice and financial development",
+   "year": "2014",
+   "cell": "PRIMARY_COMPOSITE_ACCESS",
+   "arm": "composite",
+   "doi": "10.1016/j.ejpoleco.2014.11.004",
+   "attempts": [
+    {
+     "id": "W2233183979",
+     "rung": "oa_twin",
+     "http": "200",
+     "ok": true,
+     "note": "290 KB",
+     "url": "http://www.eeri.eu/documents/wp/EERI_RP_2011_02.pdf"
+    }
+   ],
+   "fetched_path": "temp/c3e-primary-fulltext/W2119295186.pdf",
+   "rung": "oa_twin"
+  },
+  {
+   "openalex": "W2418774744",
+   "title": "Women's Empowerment and Microcredit: A Case Study from Rural Ghana.",
+   "year": "2014",
+   "cell": "PRIMARY_COMPOSITE_ACCESS",
+   "arm": "composite",
+   "doi": "",
+   "attempts": [],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "no url produced at any rung"
+  },
+  {
+   "openalex": "W2170301097",
+   "title": "Women, Microcredit and Family Planning Practices: A Case Study from Rural Ghana",
+   "year": "2011",
+   "cell": "PRIMARY_COMPOSITE_ACCESS",
+   "arm": "composite",
+   "doi": "10.1177/0021909610388747",
+   "attempts": [],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "no url produced at any rung"
+  },
+  {
+   "openalex": "W172493613",
+   "title": "The second-generation effects of microcredit in western Guatemala",
+   "year": 2011,
+   "cell": "PRIMARY_COMPOSITE_ACCESS",
+   "arm": "composite",
+   "doi": "",
+   "attempts": [
+    {
+     "id": "W172493613",
+     "rung": "oa_self",
+     "http": "403",
+     "ok": false,
+     "note": "BLOCKED (403) - open URL refused by bot defence, not a paywall",
+     "url": "https://scholarworks.utep.edu/cgi/viewcontent.cgi?article=3496&context=open_etd"
+    }
+   ],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "browser-job (open URL, 403 bot defence)"
+  },
+  {
+   "openalex": "W214813789",
+   "title": "Microfinance Programs and Contraceptive Use: Evidence from Indonesia",
+   "year": "2006",
+   "cell": "PRIMARY_COMPOSITE_ACCESS",
+   "arm": "composite",
+   "doi": "",
+   "attempts": [
+    {
+     "id": "W214813789",
+     "rung": "oa_self",
+     "http": "202",
+     "ok": false,
+     "note": "too small - probably an interstitial or an error page",
+     "url": "http://www.escholarship.org/uc/item/95p795bc"
+    }
+   ],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "proxy-job (no open copy at any rung)"
+  },
+  {
+   "openalex": "W2145677907",
+   "title": "Macro Promises of Microcredit: A Case of a local eSusu in Rural Ghana",
+   "year": "2005",
+   "cell": "PRIMARY_COMPOSITE_ACCESS",
+   "arm": "composite",
+   "doi": "",
+   "attempts": [],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "no url produced at any rung"
+  },
+  {
+   "openalex": "W2609164414",
+   "title": "Credit programme womens autonomy and reproductive behaviour: evidence from BRAC villages Bangladesh.",
+   "year": 1997,
+   "cell": "PRIMARY_COMPOSITE_ACCESS",
+   "arm": "composite",
+   "doi": "",
+   "attempts": [],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "no url produced at any rung"
+  },
+  {
+   "openalex": "W1787354462",
+   "title": "The Role of Family Planning and Targeted Credit Programs in Demographic Change in Bangladesh",
+   "year": "1996",
+   "cell": "PRIMARY_COMPOSITE_ACCESS",
+   "arm": "composite",
+   "doi": "10.1596/0-8213-3707-6",
+   "attempts": [],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "no url produced at any rung"
+  },
+  {
+   "openalex": "W2006801834",
+   "title": "Women's Credit Programs and Family Planning in Rural Bangladesh",
+   "year": "1996",
+   "cell": "PRIMARY_COMPOSITE_ACCESS",
+   "arm": "composite",
+   "doi": "10.2307/2950813",
+   "attempts": [],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "no url produced at any rung"
+  },
+  {
+   "openalex": "W2932166169",
+   "title": "Impact of the Grameen bank on women's status and fertility in Bangladesh",
+   "year": "1995",
+   "cell": "PRIMARY_COMPOSITE_ACCESS",
+   "arm": "composite",
+   "doi": "",
+   "attempts": [],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "no url produced at any rung"
+  },
+  {
+   "openalex": "W2032566434",
+   "title": "Credit Programs, Women's Empowerment, and Contraceptive use in Rural Bangladesh",
+   "year": "1994",
+   "cell": "PRIMARY_COMPOSITE_ACCESS",
+   "arm": "composite",
+   "doi": "10.2307/2138085",
+   "attempts": [],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "no url produced at any rung"
+  },
+  {
+   "openalex": "W57373025",
+   "title": "Assessing the Impact of the Grameen Bank on Women's Status and Fertility in Bangladesh",
+   "year": 1993,
+   "cell": "PRIMARY_COMPOSITE_ACCESS",
+   "arm": "composite",
+   "doi": "",
+   "attempts": [],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "no url produced at any rung"
+  },
+  {
+   "openalex": "W4404547386",
+   "title": "Consumption smoothing, the cost of children, and family size desired in poor households: empirical evidence from family planning villages in Sintang Regency, the Province of West Kalimantan, Indonesia",
+   "year": 2024,
+   "cell": "PRIMARY_SAVE_INSURE",
+   "arm": "S",
+   "doi": "10.3897/popecon.8.e108790",
+   "attempts": [
+    {
+     "id": "W4404547386",
+     "rung": "oa_self",
+     "http": "200",
+     "ok": false,
+     "note": "not a PDF (landing page or JS shell)",
+     "url": "http://dx.doi.org/10.3897/popecon.8.e108790"
+    },
+    {
+     "id": "W4404547386",
+     "rung": "oa_self",
+     "http": "200",
+     "ok": true,
+     "note": "245 KB",
+     "url": "https://populationandeconomics.pensoft.net/article/108790/download/pdf/"
+    }
+   ],
+   "fetched_path": "temp/c3e-primary-fulltext/W4404547386.pdf",
+   "rung": "oa_self"
+  },
+  {
+   "openalex": "W2995686300",
+   "title": "Rainfall risk, fertility and development: evidence from farm settlements during the American demographic transition",
+   "year": "2019",
+   "cell": "PRIMARY_SAVE_INSURE",
+   "arm": "S",
+   "doi": "10.1093/jeg/lbz039",
+   "attempts": [
+    {
+     "id": "W3121443082",
+     "rung": "oa_twin",
+     "http": "200",
+     "ok": false,
+     "note": "too small - probably an interstitial or an error page",
+     "url": "https://www.econstor.eu/bitstream/10419/171222/1/1003996450.pdf"
+    }
+   ],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "proxy-job (no open copy at any rung)"
+  },
+  {
+   "openalex": "W2610590081",
+   "title": "Labor Income Risk and Falling Fertility: Evidence from German Micro Data",
+   "year": 2016,
+   "cell": "PRIMARY_SAVE_INSURE",
+   "arm": "S",
+   "doi": "",
+   "attempts": [],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "no url produced at any rung"
+  },
+  {
+   "openalex": "W1601642119",
+   "title": "Fertility and Financial Development: Evidence from U.S. Counties in the 19th Century",
+   "year": "2014",
+   "cell": "PRIMARY_SAVE_INSURE",
+   "arm": "S",
+   "doi": "10.3386/w20491",
+   "attempts": [
+    {
+     "id": "W1601642119",
+     "rung": "oa_self",
+     "http": "200",
+     "ok": true,
+     "note": "624 KB",
+     "url": "https://doi.org/10.3386/w20491"
+    }
+   ],
+   "fetched_path": "temp/c3e-primary-fulltext/W1601642119.pdf",
+   "rung": "oa_self"
+  },
+  {
+   "openalex": "W2104376772",
+   "title": "Risk Sharing, Inequality and Fertility",
+   "year": 2009,
+   "cell": "PRIMARY_SAVE_INSURE",
+   "arm": "S",
+   "doi": "10.3386/w15111",
+   "attempts": [
+    {
+     "id": "W2104376772",
+     "rung": "oa_self",
+     "http": "200",
+     "ok": true,
+     "note": "743 KB",
+     "url": "https://doi.org/10.3386/w15111"
+    }
+   ],
+   "fetched_path": "temp/c3e-primary-fulltext/W2104376772.pdf",
+   "rung": "oa_self"
+  },
+  {
+   "openalex": "W1968782652",
+   "title": "Reassessing the Insurance Effect: A Qualitative Analysis of Fertility Behavior in Senegal and Zimbabwe",
+   "year": 2003,
+   "cell": "PRIMARY_SAVE_INSURE",
+   "arm": "S",
+   "doi": "10.1111/j.1728-4457.2003.00375.x",
+   "attempts": [],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "no url produced at any rung"
+  },
+  {
+   "openalex": "W2008777821",
+   "title": "Income Risk, the Tax\u2010benefit System and the Demand for Children",
+   "year": 2001,
+   "cell": "PRIMARY_SAVE_INSURE",
+   "arm": "S",
+   "doi": "10.1111/1468-0335.00236",
+   "attempts": [],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "no url produced at any rung"
+  },
+  {
+   "openalex": "W2121268104",
+   "title": "Family size, household production, and life cycle saving.",
+   "year": 1991,
+   "cell": "PRIMARY_SAVE_INSURE",
+   "arm": "S",
+   "doi": "",
+   "attempts": [],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "no url produced at any rung"
+  },
+  {
+   "openalex": "W2549230894",
+   "title": "Risk, Consumption Smoothing and the Family: Portfolio Management of Children and Assets in Rural Families",
+   "year": 1991,
+   "cell": "PRIMARY_SAVE_INSURE",
+   "arm": "S",
+   "doi": "10.21648/arthavij/1991/v33/i1/116243",
+   "attempts": [],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "no url produced at any rung"
+  },
+  {
+   "openalex": "W1572098935",
+   "title": "Savings Behaviour, Fertility and Economic Development in Nineteenth Century Britain and America",
+   "year": 1987,
+   "cell": "PRIMARY_SAVE_INSURE",
+   "arm": "S",
+   "doi": "",
+   "attempts": [],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "no url produced at any rung"
+  },
+  {
+   "openalex": "W2039772502",
+   "title": "Risk and Fertility: A Reply to Robinson",
+   "year": 1986,
+   "cell": "PRIMARY_SAVE_INSURE",
+   "arm": "S",
+   "doi": "10.1080/0032472031000142096",
+   "attempts": [],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "no url produced at any rung"
+  },
+  {
+   "openalex": "W2091475442",
+   "title": "Is the Relationship Between Landholding and Fertility Spurious? A Response to Cain",
+   "year": 1986,
+   "cell": "PRIMARY_SAVE_INSURE",
+   "arm": "S",
+   "doi": "10.1080/0032472031000142106",
+   "attempts": [],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "no url produced at any rung"
+  },
+  {
+   "openalex": "W2281299386",
+   "title": "Public policy, risk and fertility in Bangladesh: a comment.",
+   "year": 1983,
+   "cell": "PRIMARY_SAVE_INSURE",
+   "arm": "S",
+   "doi": "",
+   "attempts": [],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "no url produced at any rung"
+  },
+  {
+   "openalex": "W2040907650",
+   "title": "Economic utility of children and fertility in rural India",
+   "year": 1982,
+   "cell": "PRIMARY_SAVE_INSURE",
+   "arm": "S",
+   "doi": "10.1080/00324728.1982.10412563",
+   "attempts": [],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "no url produced at any rung"
+  },
+  {
+   "openalex": "W2049410699",
+   "title": "The No-Birth Bonus Scheme: The Use of Savings Accounts for Family Planning in South India",
+   "year": "1980",
+   "cell": "PRIMARY_SAVE_INSURE",
+   "arm": "S",
+   "doi": "10.2307/1972656",
+   "attempts": [],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "no url produced at any rung"
+  },
+  {
+   "openalex": "W2057693176",
+   "title": "Savings Accounts for Family Planning, An Illustration from the Tea Estates of India",
+   "year": 1971,
+   "cell": "PRIMARY_SAVE_INSURE",
+   "arm": "S",
+   "doi": "10.2307/1964823",
+   "attempts": [],
+   "fetched_path": null,
+   "rung": null,
+   "handoff": "no url produced at any rung"
+  }
+ ]
+}

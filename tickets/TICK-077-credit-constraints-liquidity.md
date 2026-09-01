@@ -329,3 +329,30 @@ Three finished chapters have already routed evidence into this one. Read these b
 - **Recommendation: screen this stratum LAST**, after the 62-record primary pool is retrieved and
   extracted. 38-57 marginal records will not change whether the arms can be rated; the 62 will.
 
+### 2026-09-01 — primary pool de-duped, retrieved 12/62, first extraction rows
+
+- `296`-`299`; log at `credit-constraints-extraction-wave1.md`; table at
+  `extraction/credit-constraints-effects.csv`.
+- **Three version pairs; folded-title dedup found ZERO of them.** One pair differs by a single word
+  ("Aging Society" vs "Aging Economy"), the other shares no title at all (Jaccard 0.43). `297` uses
+  author-gated Jaccard OR author-gated containment, re-found both hand-declared pairs, and **proposed
+  a third I had missed** (two Grameen Bank papers, same first author, J=0.875). **62 records -> 59
+  distinct studies.**
+- **Retrieval 12 of 62.** 36 have no open URL at any rung (Unpaywall spot-check confirms), 9 are
+  browser-jobs, 5 proxy-jobs. **Arm S is retrieval-bound at 3 of 16**, and TWO OF THE THREE FDT-era
+  Arm S records are unretrieved. This is the B.1 problem again.
+- **THE SIGN FLIP IS MEASURED.** *Fertility choice and financial development* (145 countries,
+  1980-2006): +1 SD private credit **decreases fertility 1.7-5% in low-income countries and increases
+  it 3.7-5% in high-income countries** — exactly the question Ruling 1 rests on. **But it is not
+  identified**: aggregate cross-country panel, no instrument for credit, secondary pool per the scope
+  memo. All four extracted rows are `identified: NO`.
+- The FDT-era Arm S estimate (US counties c.1850): bank presence associated with a child-woman ratio
+  ~3pp lower, crude birth rate ~5% lower, OLS cross-section. **Its authors frame it as the
+  old-age-security motive — C.3.c's under Wall 1**, so PI Call 1 now has a concrete case attached.
+- **`299` written because I hand-typed an OpenAlex id into the extraction table one hour after
+  recording the lesson that says never to.** It was wrong and the CSV would not have shown it. The
+  script now validates id existence, title agreement, `OUTCOME_LEVEL` against a closed list, and
+  `estimator_class` against a closed list.
+- Next: extract the remaining 10 retrieved; **the 50-study retrieval handoff is the binding
+  constraint** on rating Arm S.
+

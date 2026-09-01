@@ -1,0 +1,31 @@
+{
+ "declared": [
+  {
+   "a": "W7154967232",
+   "b": "W4405014414",
+   "why": "Do Mortgage Interest Subsidies Affect Fertility... 'Aging Society' (2026) vs 'Aging Economy' (2024). One word apart; same study."
+  },
+  {
+   "a": "W2186788266",
+   "b": "W1979646151",
+   "why": "Do Credit Constraints Explain Family Size Effects? Tests Based on Bequest Receipt (2005) vs Bequest Receipt and Family Size Effects (2010). Retitled; no shared title."
+  }
+ ],
+ "proposed": [
+  {
+   "a": "W2932166169",
+   "b": "W57373025",
+   "title_a": "Impact of the Grameen bank on women's status and fertility in Bangladesh",
+   "title_b": "Assessing the Impact of the Grameen Bank on Women's Status and Fertility in Bangladesh",
+   "jaccard": 0.875,
+   "containment": 1.0,
+   "first_author": "rahman",
+   "years": [
+    1995,
+    1993
+   ],
+   "rule": "jaccard+author"
+  }
+ ],
+ "rules_refound_declared": 2
+}
