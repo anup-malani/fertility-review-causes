@@ -14,11 +14,11 @@
 - [ ] 5. Full-text retrieval
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
 - [ ] 7. Extraction to `extraction/credit-constraints.csv`, RA verifies a random 10%
-- [ ] 8. Risk-of-bias assessment per study
-- [ ] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise
-- [ ] 10. Demographic significance against PM / FDT / SDT
-- [ ] 11. GRADE rating, 3 independent raters
-- [ ] 12. Chapter draft on the §6 template
+- [x] 8. Risk-of-bias assessment per study
+- [x] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise
+- [x] 10. Demographic significance against PM / FDT / SDT
+- [~] 11. GRADE rating, 3 independent raters
+- [x] 12. Chapter draft on the §6 template
 - [ ] 13. RA lay-readability check
 - [ ] 14. PI review and sign-off
 
@@ -595,4 +595,23 @@ Three finished chapters have already routed evidence into this one. Read these b
   they failed ~2/3 of the time; arm counts are an upper bound. Three things would move the verdict:
   Arm S retrieval (9 unread), the two weak-venue identified sign-relevant studies, and Anup's Wall 1
   ruling.
+
+### 2026-09-01 — chapter drafted at `output/chapters/credit-constraints.md`
+
+- **Drafted at Shravan's instruction after I advised against it**; the objection is recorded in the
+  chapter's Provenance block as the template requires.
+- Conforms to `docs/chapter-template.md`: S1-S7 present and in place, sections 1-12 in order, plain
+  terms before technical in §1 and §7, S4 before arithmetic in §8, no analogy, verdict standalone.
+- **Verdict: credit constraints are NOT an explanation of fertility decline; on the best evidence they
+  worked against it.** Carry-away number **+5.4%** (US banking deregulation on the fertility rate),
+  with the SIGN being the point. Two qualifications in the same breath: cheaper credit is not more
+  credit (Taiwan null, first stage verified), and the poor-country half of the hypothesis is
+  UNEVALUATED rather than refuted.
+- GRADE: SDT/Arm B **Moderate** (downgraded for indirectness); FDT/Arm S Very low; everything else
+  **No evidence**. Demsig: NOT ASSESSED in all nine cells on the arithmetic, with the SDT cell
+  foreclosed by the sign rather than by the missing denominator.
+- Stage 11 marked **partial**: one rater, protocol requires three.
+- §11 records the two PI calls (the Wall 1 re-cut applied on RA authority; whether the US-counties
+  study stays given its authors attribute it to C.3.c) and names the largest gap in the literature:
+  **of ten microcredit RCTs read in full, not one estimates a fertility outcome anywhere in its text.**
 
