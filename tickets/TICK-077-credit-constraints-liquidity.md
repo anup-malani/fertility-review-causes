@@ -96,3 +96,29 @@ Three finished chapters have already routed evidence into this one. Read these b
   version of record decides its sign. C.2.c's stored snapshot is stale against the live record.
 - Next: snowball the 26 anchors including decoys; production query per arm with per-arm recall.
 
+### 2026-09-01 — snowball (pool 3,810) and production query frozen (frame 7,021)
+
+- `277_c3e_snowball.py`, `278_c3e_production_query.py`, `279_c3e_query_repair.py`; log at
+  `credit-constraints-snowball-and-query-log.md`.
+- **Snowball pool 3,810, zero errors.** Reach by arm S 2,080 / composite 1,163 / B 745. Decoys were
+  seeded deliberately and returned ~340 uniquely-reached records.
+- **Four seeds reached 0-1 records because the resolver had matched "Replication data for:" deposits**
+  — `dataset` records sharing the article's title, authors AND year, so the author and year gates gave
+  no protection. My own bidirectional `is_stem` fix admitted them and its safety justification was
+  wrong. Restricted to an allowlist of structural prefixes (chapter/part/section/volume), non-study
+  types refused outright, citation count as tiebreak. 0 shadow records after; those seeds now reach
+  211-346 each.
+- **Version twins add 617 records, 16% of the pool.** Citations do not follow the version of record:
+  Dettling and Kearney's JPubE article has 0 citations, its NBER twin 67. Twins found for 12 of 26
+  seeds and snowballed with them.
+- **Production query frozen at 7,021 records.** Anchor recall 8/11 (S 3/4, B 5/6, composite 0/1).
+  Four repair terms kept of 26 candidates, each on gold recovered, not frame growth; `mortgage` was
+  refused at +622 records and no gold.
+- **A measurement bug in the repair loop, caught and fixed:** candidates were scored against a frozen
+  baseline while the kept set grew, so later terms inherited earlier terms' recoveries. It had accepted
+  17 terms and 737 records of frame for zero gold.
+- **Probes recall 0/9, and that is the composite stratum's answer.** None of the microcredit RCTs,
+  savings experiments or branch-expansion studies mentions fertility in its abstract, because none
+  measures it. `PRIMARY_COMPOSITE_ACCESS` may be empty — which would leave the sign-flip question
+  without direct evidence. Full-text check on the nine before any such statement.
+

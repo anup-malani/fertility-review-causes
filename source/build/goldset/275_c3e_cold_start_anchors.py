@@ -64,20 +64,38 @@ def jaccard(a, b):
     A, B = set(toks(a)), set(toks(b))
     return len(A & B) / len(A | B) if A | B else 0.0
 
-def is_stem(cand, got):
-    """cand's tokens sit contiguously inside got's, in either direction.
+# Suffix containment is UNSOUND in general. It was added here to catch book chapters
+# indexed as "Chapter 8 <title>", and it promptly admitted four "Replication data for:
+# <title>" deposits -- which share the article's authors AND its year, so the author and
+# year gates gave exactly zero protection. Named qualifiers only, as an ALLOWLIST.
+STEM_PREFIX_OK = re.compile(r"^(chapter|part|section|volume)( [0-9ivxl]+)?$")
 
-    Two real cases, both of which the one-directional prefix test refused:
-      - the index DROPPED a subtitle -> cand is a prefix of got;
-      - the record ADDED a prefix ("Chapter 8 ...", "Editorial: ...") -> cand is a
-        suffix of got. Suffix containment on a NAMED qualifier is safe here because a
-        4+ token title match plus the author and year gates still have to pass; this is
-        not the unbounded suffix-containment the shadow-record gate rejects.
+
+def is_stem(cand, got):
+    """cand's tokens sit contiguously inside got's.
+
+    Prefix direction (the index DROPPED a subtitle) is unrestricted.
+    Suffix direction (the record ADDED a prefix) is allowed only when the added prefix is
+    an allowlisted structural qualifier -- "Chapter 8", "Part II". Anything else is a
+    shadow record: replication data, editorials, comments, recommendations.
     """
     c, g = toks(cand), toks(got)
     if len(c) < 4 or len(g) <= len(c):
         return False
-    return any(g[i:i + len(c)] == c for i in range(len(g) - len(c) + 1))
+    if g[:len(c)] == c:
+        return True                      # dropped subtitle
+    for i in range(1, len(g) - len(c) + 1):
+        if g[i:i + len(c)] == c:
+            return bool(STEM_PREFIX_OK.match(" ".join(g[:i])))
+    return False
+
+
+# An anchor is a STUDY. A data deposit, a peer review, an erratum or a paratext record can
+# carry the study's exact title, authors and year, so nothing downstream distinguishes it.
+# Refuse by type, and say so, rather than letting it score.
+NON_STUDY_TYPES = {"dataset", "peer-review", "paratext", "editorial", "erratum",
+                   "grant", "retraction", "letter", "other"}
+
 
 def last_name(author_field: str) -> str:
     t = toks(author_field)
@@ -215,7 +233,11 @@ def resolve(c):
                     "cited_by": w.get("cited_by_count"),
                     "jaccard": round(j, 3), "stem": stem, "first_author_ok": first_ok,
                     "year_ok": yr_ok, "score": round(score, 3), "via": mode}
-            if best is None or cand["score"] > best["score"]:
+            cand["non_study_type"] = (w.get("type") or "").lower() in NON_STUDY_TYPES
+            if cand["non_study_type"]:
+                cand["score"] = round(cand["score"] - 1.0, 3)   # never outranks the study
+            if best is None or (cand["score"], cand["cited_by"] or 0) > \
+                    (best["score"], best["cited_by"] or 0):
                 best = cand
         if best and best["score"] >= 1.0:
             break
@@ -226,6 +248,8 @@ def resolve(c):
         rec["verdict"] = "QUERY_REFUSED"     # never report this as an absence
     elif best is None:
         rec["verdict"] = "NO_RESULTS"
+    elif best.get("non_study_type"):
+        rec["verdict"] = "NON_STUDY_RECORD"      # a deposit or paratext, not the study
     elif best["first_author_ok"] is not False and (best["jaccard"] >= 0.6 or best["stem"]) and best["year_ok"]:
         rec["verdict"] = "MATCH_STEM" if best["stem"] and best["jaccard"] < 0.6 else "MATCH"
     elif best["jaccard"] >= 0.85 and best["year_ok"]:

@@ -1,0 +1,371 @@
+{
+  "outcome_axis": [
+    "fertility",
+    "birth rate",
+    "birth rates",
+    "childbearing",
+    "births",
+    "number of children",
+    "family size",
+    "parity",
+    "birth spacing",
+    "completed fertility",
+    "fertility intentions"
+  ],
+  "exposure_axes": {
+    "S": [
+      "children as insurance",
+      "insurance motive",
+      "old age security",
+      "old-age security",
+      "precautionary saving",
+      "consumption smoothing",
+      "informal insurance",
+      "risk sharing",
+      "crop insurance",
+      "income risk",
+      "savings account",
+      "commitment savings"
+    ],
+    "B": [
+      "credit constraint",
+      "credit constraints",
+      "liquidity constraint",
+      "borrowing constraint",
+      "down payment",
+      "loan-to-value",
+      "mortgage credit",
+      "credit supply",
+      "credit expansion",
+      "interest rate",
+      "mortgage rate",
+      "loan ceiling",
+      "collateral constraint"
+    ],
+    "composite": [
+      "financial inclusion",
+      "bank branch",
+      "microfinance",
+      "microcredit",
+      "access to credit",
+      "credit access",
+      "financial development",
+      "access to finance",
+      "banking access",
+      "financial access"
+    ]
+  },
+  "arms": {
+    "S": {
+      "frame_count": 803,
+      "error": null,
+      "gold_in_arm": 9,
+      "gold_in_arm_recalled": 1,
+      "gold_in_arm_missed": [
+        "cain-1981-risk-insurance",
+        "cain-1983-adjustment-to-risk",
+        "dupas-2013-savings-constraints",
+        "guinnane-credit-cooperatives",
+        "pitt-1999-credit-programs",
+        "prina-2015-banking-the-poor",
+        "rosenzweig-1989-consumption-smoothing",
+        "schultz-1997-demand-for-children"
+      ],
+      "gold_all_recalled": 1,
+      "gold_all": 23,
+      "decoys_admitted": [
+        "nugent-1985-old-age-security"
+      ]
+    },
+    "B": {
+      "frame_count": 4155,
+      "error": null,
+      "gold_in_arm": 8,
+      "gold_in_arm_recalled": 5,
+      "gold_in_arm_missed": [
+        "baby-boom-house-prices-interest-rates",
+        "pnas-2026-provident-fund",
+        "sommer-2016-fertility-uninsurable-risk"
+      ],
+      "gold_all_recalled": 5,
+      "gold_all": 23,
+      "decoys_admitted": []
+    },
+    "composite": {
+      "frame_count": 1985,
+      "error": null,
+      "gold_in_arm": 6,
+      "gold_in_arm_recalled": 0,
+      "gold_in_arm_missed": [
+        "angelucci-2015-compartamos",
+        "attanasio-2015-mongolia",
+        "banerjee-2015-miracle",
+        "bruhn-2014-mexico",
+        "burgess-2005-rural-banks",
+        "crepon-2015-morocco"
+      ],
+      "gold_all_recalled": 0,
+      "gold_all": 23,
+      "decoys_admitted": []
+    }
+  },
+  "leave_one_out": {
+    "S": [
+      {
+        "term": "risk sharing",
+        "frame_without": 650,
+        "frame_added_by_term": 153,
+        "term_alone": 161,
+        "gold_lost_without": []
+      },
+      {
+        "term": "savings account",
+        "frame_without": 675,
+        "frame_added_by_term": 128,
+        "term_alone": 128,
+        "gold_lost_without": []
+      },
+      {
+        "term": "crop insurance",
+        "frame_without": 727,
+        "frame_added_by_term": 76,
+        "term_alone": 77,
+        "gold_lost_without": []
+      },
+      {
+        "term": "income risk",
+        "frame_without": 740,
+        "frame_added_by_term": 63,
+        "term_alone": 68,
+        "gold_lost_without": []
+      },
+      {
+        "term": "consumption smoothing",
+        "frame_without": 748,
+        "frame_added_by_term": 55,
+        "term_alone": 67,
+        "gold_lost_without": []
+      },
+      {
+        "term": "children as insurance",
+        "frame_without": 756,
+        "frame_added_by_term": 47,
+        "term_alone": 48,
+        "gold_lost_without": [
+          "portner-2001-children-as-insurance"
+        ]
+      },
+      {
+        "term": "precautionary saving",
+        "frame_without": 790,
+        "frame_added_by_term": 13,
+        "term_alone": 19,
+        "gold_lost_without": []
+      },
+      {
+        "term": "insurance motive",
+        "frame_without": 795,
+        "frame_added_by_term": 8,
+        "term_alone": 9,
+        "gold_lost_without": []
+      },
+      {
+        "term": "informal insurance",
+        "frame_without": 795,
+        "frame_added_by_term": 8,
+        "term_alone": 10,
+        "gold_lost_without": []
+      },
+      {
+        "term": "old age security",
+        "frame_without": 803,
+        "frame_added_by_term": 0,
+        "term_alone": 236,
+        "gold_lost_without": []
+      },
+      {
+        "term": "old-age security",
+        "frame_without": 803,
+        "frame_added_by_term": 0,
+        "term_alone": 236,
+        "gold_lost_without": []
+      },
+      {
+        "term": "commitment savings",
+        "frame_without": 803,
+        "frame_added_by_term": 0,
+        "term_alone": 0,
+        "gold_lost_without": []
+      }
+    ],
+    "B": [
+      {
+        "term": "interest rate",
+        "frame_without": 405,
+        "frame_added_by_term": 3750,
+        "term_alone": 3824,
+        "gold_lost_without": [
+          "interest-rates-house-prices-fertility-macro"
+        ]
+      },
+      {
+        "term": "liquidity constraint",
+        "frame_without": 4084,
+        "frame_added_by_term": 71,
+        "term_alone": 92,
+        "gold_lost_without": []
+      },
+      {
+        "term": "borrowing constraint",
+        "frame_without": 4112,
+        "frame_added_by_term": 43,
+        "term_alone": 54,
+        "gold_lost_without": []
+      },
+      {
+        "term": "down payment",
+        "frame_without": 4121,
+        "frame_added_by_term": 34,
+        "term_alone": 36,
+        "gold_lost_without": []
+      },
+      {
+        "term": "mortgage credit",
+        "frame_without": 4137,
+        "frame_added_by_term": 18,
+        "term_alone": 23,
+        "gold_lost_without": [
+          "babies-of-mortgage-deregulation"
+        ]
+      },
+      {
+        "term": "credit expansion",
+        "frame_without": 4138,
+        "frame_added_by_term": 17,
+        "term_alone": 25,
+        "gold_lost_without": []
+      },
+      {
+        "term": "mortgage rate",
+        "frame_without": 4139,
+        "frame_added_by_term": 16,
+        "term_alone": 30,
+        "gold_lost_without": []
+      },
+      {
+        "term": "credit supply",
+        "frame_without": 4140,
+        "frame_added_by_term": 15,
+        "term_alone": 33,
+        "gold_lost_without": []
+      },
+      {
+        "term": "loan-to-value",
+        "frame_without": 4149,
+        "frame_added_by_term": 6,
+        "term_alone": 7,
+        "gold_lost_without": []
+      },
+      {
+        "term": "collateral constraint",
+        "frame_without": 4153,
+        "frame_added_by_term": 2,
+        "term_alone": 10,
+        "gold_lost_without": []
+      },
+      {
+        "term": "credit constraint",
+        "frame_without": 4155,
+        "frame_added_by_term": 0,
+        "term_alone": 117,
+        "gold_lost_without": []
+      },
+      {
+        "term": "credit constraints",
+        "frame_without": 4155,
+        "frame_added_by_term": 0,
+        "term_alone": 117,
+        "gold_lost_without": []
+      },
+      {
+        "term": "loan ceiling",
+        "frame_without": 4155,
+        "frame_added_by_term": 0,
+        "term_alone": 0,
+        "gold_lost_without": []
+      }
+    ],
+    "composite": [
+      {
+        "term": "access to credit",
+        "frame_without": 1277,
+        "frame_added_by_term": 708,
+        "term_alone": 860,
+        "gold_lost_without": []
+      },
+      {
+        "term": "microfinance",
+        "frame_without": 1766,
+        "frame_added_by_term": 219,
+        "term_alone": 296,
+        "gold_lost_without": []
+      },
+      {
+        "term": "credit access",
+        "frame_without": 1795,
+        "frame_added_by_term": 190,
+        "term_alone": 306,
+        "gold_lost_without": []
+      },
+      {
+        "term": "financial inclusion",
+        "frame_without": 1800,
+        "frame_added_by_term": 185,
+        "term_alone": 238,
+        "gold_lost_without": []
+      },
+      {
+        "term": "financial development",
+        "frame_without": 1858,
+        "frame_added_by_term": 127,
+        "term_alone": 143,
+        "gold_lost_without": []
+      },
+      {
+        "term": "financial access",
+        "frame_without": 1880,
+        "frame_added_by_term": 105,
+        "term_alone": 139,
+        "gold_lost_without": []
+      },
+      {
+        "term": "microcredit",
+        "frame_without": 1898,
+        "frame_added_by_term": 87,
+        "term_alone": 138,
+        "gold_lost_without": []
+      },
+      {
+        "term": "access to finance",
+        "frame_without": 1901,
+        "frame_added_by_term": 84,
+        "term_alone": 113,
+        "gold_lost_without": []
+      },
+      {
+        "term": "bank branch",
+        "frame_without": 1962,
+        "frame_added_by_term": 23,
+        "term_alone": 33,
+        "gold_lost_without": []
+      },
+      {
+        "term": "banking access",
+        "frame_without": 1984,
+        "frame_added_by_term": 1,
+        "term_alone": 1,
+        "gold_lost_without": []
+      }
+    ]
+  }
+}

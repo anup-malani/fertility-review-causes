@@ -1,0 +1,230 @@
+{
+  "outcome_additions": [
+    {
+      "term": "demand for children",
+      "frame_added": 3,
+      "gold_recovered": []
+    },
+    {
+      "term": "reproductive behavior",
+      "frame_added": 2,
+      "gold_recovered": []
+    },
+    {
+      "term": "reproductive behaviour",
+      "frame_added": 2,
+      "gold_recovered": []
+    },
+    {
+      "term": "baby boom",
+      "frame_added": 167,
+      "gold_recovered": [
+        "baby-boom-house-prices-interest-rates"
+      ]
+    },
+    {
+      "term": "total fertility rate",
+      "frame_added": 0,
+      "gold_recovered": []
+    },
+    {
+      "term": "number of births",
+      "frame_added": 0,
+      "gold_recovered": []
+    },
+    {
+      "term": "fertility decline",
+      "frame_added": 0,
+      "gold_recovered": []
+    }
+  ],
+  "exposure_additions": {
+    "S": [
+      {
+        "term": "old age support",
+        "frame_added": 213,
+        "gold_recovered": []
+      },
+      {
+        "term": "children as security",
+        "frame_added": 25,
+        "gold_recovered": []
+      },
+      {
+        "term": "insurance mechanism",
+        "frame_added": 39,
+        "gold_recovered": [
+          "cain-1981-risk-insurance"
+        ]
+      },
+      {
+        "term": "security motive",
+        "frame_added": 2,
+        "gold_recovered": []
+      },
+      {
+        "term": "risk coping",
+        "frame_added": 10,
+        "gold_recovered": []
+      }
+    ],
+    "B": [
+      {
+        "term": "housing loan",
+        "frame_added": 26,
+        "gold_recovered": []
+      },
+      {
+        "term": "housing finance",
+        "frame_added": 26,
+        "gold_recovered": []
+      },
+      {
+        "term": "provident fund",
+        "frame_added": 30,
+        "gold_recovered": []
+      },
+      {
+        "term": "uninsurable",
+        "frame_added": 18,
+        "gold_recovered": [
+          "sommer-2016-fertility-uninsurable-risk"
+        ]
+      },
+      {
+        "term": "mortgage",
+        "frame_added": 622,
+        "gold_recovered": []
+      },
+      {
+        "term": "credit rationing",
+        "frame_added": 3,
+        "gold_recovered": []
+      }
+    ],
+    "composite": [
+      {
+        "term": "credit program",
+        "frame_added": 53,
+        "gold_recovered": [
+          "pitt-1999-credit-programs"
+        ]
+      },
+      {
+        "term": "credit programme",
+        "frame_added": 10,
+        "gold_recovered": []
+      },
+      {
+        "term": "group lending",
+        "frame_added": 4,
+        "gold_recovered": []
+      },
+      {
+        "term": "group-based lending",
+        "frame_added": 0,
+        "gold_recovered": []
+      },
+      {
+        "term": "joint liability",
+        "frame_added": 9,
+        "gold_recovered": []
+      },
+      {
+        "term": "rural bank",
+        "frame_added": 9,
+        "gold_recovered": []
+      },
+      {
+        "term": "branch expansion",
+        "frame_added": 2,
+        "gold_recovered": []
+      },
+      {
+        "term": "bank expansion",
+        "frame_added": 1,
+        "gold_recovered": []
+      }
+    ]
+  },
+  "final": {
+    "outcome_axis": [
+      "fertility",
+      "birth rate",
+      "birth rates",
+      "childbearing",
+      "births",
+      "number of children",
+      "family size",
+      "parity",
+      "birth spacing",
+      "completed fertility",
+      "fertility intentions",
+      "baby boom"
+    ],
+    "exposure_axes": {
+      "S": [
+        "children as insurance",
+        "insurance motive",
+        "old age security",
+        "old-age security",
+        "precautionary saving",
+        "consumption smoothing",
+        "informal insurance",
+        "risk sharing",
+        "crop insurance",
+        "income risk",
+        "savings account",
+        "commitment savings",
+        "insurance mechanism"
+      ],
+      "B": [
+        "credit constraint",
+        "credit constraints",
+        "liquidity constraint",
+        "borrowing constraint",
+        "down payment",
+        "loan-to-value",
+        "mortgage credit",
+        "credit supply",
+        "credit expansion",
+        "interest rate",
+        "mortgage rate",
+        "loan ceiling",
+        "collateral constraint",
+        "uninsurable"
+      ],
+      "composite": [
+        "financial inclusion",
+        "bank branch",
+        "microfinance",
+        "microcredit",
+        "access to credit",
+        "credit access",
+        "financial development",
+        "access to finance",
+        "banking access",
+        "financial access",
+        "credit program"
+      ]
+    },
+    "frame": 7021,
+    "gold_recalled": 10,
+    "gold_total": 23,
+    "unreached": [
+      "angelucci-2015-compartamos",
+      "attanasio-2015-mongolia",
+      "banerjee-2015-miracle",
+      "bruhn-2014-mexico",
+      "burgess-2005-rural-banks",
+      "cain-1983-adjustment-to-risk",
+      "crepon-2015-morocco",
+      "dupas-2013-savings-constraints",
+      "guinnane-credit-cooperatives",
+      "pnas-2026-provident-fund",
+      "prina-2015-banking-the-poor",
+      "rosenzweig-1989-consumption-smoothing",
+      "schultz-1997-demand-for-children"
+    ]
+  }
+}

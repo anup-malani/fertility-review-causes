@@ -30,7 +30,8 @@
       "first_author_ok": true,
       "year_ok": true,
       "score": 1.5,
-      "via": "filter_title_quoted"
+      "via": "filter_title_quoted",
+      "non_study_type": false
     },
     "verdict": "MATCH"
   },
@@ -65,7 +66,8 @@
       "first_author_ok": true,
       "year_ok": true,
       "score": 1.5,
-      "via": "filter_title_quoted"
+      "via": "filter_title_quoted",
+      "non_study_type": false
     },
     "verdict": "MATCH"
   },
@@ -100,7 +102,8 @@
       "first_author_ok": true,
       "year_ok": true,
       "score": 1.5,
-      "via": "filter_title_quoted"
+      "via": "filter_title_quoted",
+      "non_study_type": false
     },
     "verdict": "MATCH"
   },
@@ -135,7 +138,8 @@
       "first_author_ok": true,
       "year_ok": true,
       "score": 1.5,
-      "via": "filter_title_quoted"
+      "via": "filter_title_quoted",
+      "non_study_type": false
     },
     "verdict": "MATCH"
   },
@@ -175,7 +179,8 @@
       "first_author_ok": false,
       "year_ok": true,
       "score": 1.105,
-      "via": "filter_title_head_quoted"
+      "via": "filter_title_head_quoted",
+      "non_study_type": false
     },
     "verdict": "MATCH_TITLE_AUTHOR_DISAGREES"
   },
@@ -210,7 +215,8 @@
       "first_author_ok": true,
       "year_ok": true,
       "score": 1.5,
-      "via": "filter_title_quoted"
+      "via": "filter_title_quoted",
+      "non_study_type": false
     },
     "verdict": "MATCH"
   },
@@ -232,20 +238,21 @@
     ],
     "top_candidate": {
       "first_author_elsewhere_in_list": true,
-      "oa_id": "https://openalex.org/W3196979806",
-      "doi": "https://doi.org/10.3886/e116333v1",
-      "title": "Replication data for: Estimating the Impact of Microcredit on Those Who Take It Up: Evidence from a Randomized Experiment in Morocco",
+      "oa_id": "https://openalex.org/W1815911686",
+      "doi": "https://doi.org/10.1257/app.20130535",
+      "title": "Estimating the Impact of Microcredit on Those Who Take It Up: Evidence from a Randomized Experiment in Morocco",
       "year": 2015,
-      "type": "dataset",
-      "venue": "ICPSR Data Holdings",
+      "type": "article",
+      "venue": "American Economic Journal Applied Economics",
       "authors_first": "Bruno Cr\u00e9pon",
-      "cited_by": 1,
-      "jaccard": 0.857,
-      "stem": true,
+      "cited_by": 417,
+      "jaccard": 1.0,
+      "stem": false,
       "first_author_ok": true,
       "year_ok": true,
-      "score": 1.607,
-      "via": "filter_title_quoted"
+      "score": 1.5,
+      "via": "filter_title_quoted",
+      "non_study_type": false
     },
     "verdict": "MATCH"
   },
@@ -267,20 +274,21 @@
     ],
     "top_candidate": {
       "first_author_elsewhere_in_list": true,
-      "oa_id": "https://openalex.org/W3092583275",
-      "doi": "https://doi.org/10.3886/e116334v1",
-      "title": "Replication data for: Microcredit Impacts: Evidence from a Randomized Microcredit Program Placement Experiment by Compartamos Banco",
+      "oa_id": "https://openalex.org/W3023775768",
+      "doi": "https://doi.org/10.1257/app.20130537",
+      "title": "Microcredit Impacts: Evidence from a Randomized Microcredit Program Placement Experiment by Compartamos Banco",
       "year": 2015,
-      "type": "dataset",
-      "venue": "ICPSR Data Holdings",
+      "type": "article",
+      "venue": "American Economic Journal Applied Economics",
       "authors_first": "Manuela Angelucci",
-      "cited_by": 0,
-      "jaccard": 0.8,
-      "stem": true,
+      "cited_by": 357,
+      "jaccard": 1.0,
+      "stem": false,
       "first_author_ok": true,
       "year_ok": true,
-      "score": 1.55,
-      "via": "filter_title_quoted"
+      "score": 1.5,
+      "via": "filter_title_quoted",
+      "non_study_type": false
     },
     "verdict": "MATCH"
   },
@@ -302,20 +310,21 @@
     ],
     "top_candidate": {
       "first_author_elsewhere_in_list": true,
-      "oa_id": "https://openalex.org/W3092569910",
-      "doi": "https://doi.org/10.3886/e113597v1",
-      "title": "Replication data for: The Impacts of Microfinance: Evidence from Joint-Liability Lending in Mongolia",
+      "oa_id": "https://openalex.org/W2001136655",
+      "doi": "https://doi.org/10.1257/app.20130489",
+      "title": "The Impacts of Microfinance: Evidence from Joint-Liability Lending in Mongolia",
       "year": 2015,
-      "type": "dataset",
-      "venue": "ICPSR Data Holdings",
+      "type": "article",
+      "venue": "American Economic Journal Applied Economics",
       "authors_first": "Orazio Attanasio",
-      "cited_by": 1,
-      "jaccard": 0.786,
-      "stem": true,
+      "cited_by": 381,
+      "jaccard": 1.0,
+      "stem": false,
       "first_author_ok": true,
       "year_ok": true,
-      "score": 1.536,
-      "via": "filter_title_quoted"
+      "score": 1.5,
+      "via": "filter_title_quoted",
+      "non_study_type": false
     },
     "verdict": "MATCH"
   },
@@ -350,7 +359,8 @@
       "first_author_ok": true,
       "year_ok": true,
       "score": 1.5,
-      "via": "filter_title_quoted"
+      "via": "filter_title_quoted",
+      "non_study_type": false
     },
     "verdict": "MATCH"
   },
@@ -385,7 +395,8 @@
       "first_author_ok": true,
       "year_ok": true,
       "score": 1.5,
-      "via": "filter_title_quoted"
+      "via": "filter_title_quoted",
+      "non_study_type": false
     },
     "verdict": "MATCH"
   },
@@ -407,20 +418,21 @@
     ],
     "top_candidate": {
       "first_author_elsewhere_in_list": true,
-      "oa_id": "https://openalex.org/W3086327014",
-      "doi": "https://doi.org/10.3886/e112313v1",
-      "title": "Replication data for: Do Rural Banks Matter? Evidence from the Indian Social Banking Experiment",
+      "oa_id": "https://openalex.org/W2052902050",
+      "doi": "https://doi.org/10.1257/0002828054201242",
+      "title": "Do Rural Banks Matter? Evidence from the Indian Social Banking Experiment",
       "year": 2005,
-      "type": "dataset",
-      "venue": "ICPSR Data Holdings",
+      "type": "article",
+      "venue": "American Economic Review",
       "authors_first": "Robin Burgess",
-      "cited_by": 0,
-      "jaccard": 0.786,
-      "stem": true,
+      "cited_by": 324,
+      "jaccard": 1.0,
+      "stem": false,
       "first_author_ok": true,
       "year_ok": true,
-      "score": 1.536,
-      "via": "filter_title_quoted"
+      "score": 1.5,
+      "via": "filter_title_quoted",
+      "non_study_type": false
     },
     "verdict": "MATCH"
   },
@@ -455,7 +467,8 @@
       "first_author_ok": true,
       "year_ok": true,
       "score": 1.5,
-      "via": "filter_title_quoted"
+      "via": "filter_title_quoted",
+      "non_study_type": false
     },
     "verdict": "MATCH"
   },
@@ -490,7 +503,8 @@
       "first_author_ok": true,
       "year_ok": true,
       "score": 1.5,
-      "via": "filter_title_quoted"
+      "via": "filter_title_quoted",
+      "non_study_type": false
     },
     "verdict": "MATCH"
   },
@@ -525,7 +539,8 @@
       "first_author_ok": true,
       "year_ok": true,
       "score": 1.528,
-      "via": "filter_title_quoted"
+      "via": "filter_title_quoted",
+      "non_study_type": false
     },
     "verdict": "MATCH"
   },
@@ -819,7 +834,8 @@
       "first_author_ok": true,
       "year_ok": true,
       "score": 1.5,
-      "via": "filter_title_quoted"
+      "via": "filter_title_quoted",
+      "non_study_type": false
     },
     "verdict": "MATCH"
   },
@@ -891,7 +907,8 @@
       "first_author_ok": true,
       "year_ok": true,
       "score": 1.5,
-      "via": "filter_title_quoted"
+      "via": "filter_title_quoted",
+      "non_study_type": false
     },
     "verdict": "MATCH"
   },
@@ -926,7 +943,8 @@
       "first_author_ok": true,
       "year_ok": true,
       "score": 1.5,
-      "via": "filter_title_quoted"
+      "via": "filter_title_quoted",
+      "non_study_type": false
     },
     "verdict": "MATCH"
   }
