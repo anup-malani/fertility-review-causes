@@ -546,3 +546,26 @@ Three finished chapters have already routed evidence into this one. Read these b
   shreds two-column layouts and these estimates live in TABLES. They need hand reading.
 - **Honest state: 11 of 69 extracted (16%).** A synthesis today would report on a sixth of the pool.
 
+### 2026-09-01 — every retrievable text read; 12 screen cells overturned
+
+- **All primary records with a verified full text have now been read.** Extraction table **18 rows,
+  14 studies, 7 identified** (15 realized / 2 desired / 1 intention).
+- **Twelve screen cells overturned by reading the paper: eleven removals, one rescue.** Primary pool
+  **69 -> 65** (B 14, composite 40, S 11).
+- **Four of the eleven removals are the SAME failure: fertility or family size on the right-hand
+  side.** The AER P&P paper, Grawe (both versions), and the credit-constraints/continuing-education
+  paper all regress a non-fertility outcome on family size or childbearing.
+  **Screening rule to add:** a title naming family size or childbearing ALONGSIDE a second
+  non-fertility noun is a warning, not a match — the second noun is usually the dependent variable.
+- Other removals: an OLG theory model; a reversed-arrow paper (pill -> fertility -> cohort size ->
+  interest rates and house prices); an Indonesian survey whose exposures are transfer expectations and
+  a pension scheme (C.3.c) with an uninformative pension null (no pension exists for those households).
+- **Implication for the 51 unread primary records: where screen cells have been tested they failed
+  about two-thirds of the time, almost always by removal. The current arm counts are an UPPER BOUND,
+  and no synthesis should rest on screen cells alone.**
+- New table extractions: **Suriani et al. 2021** (developed AND developing both NEGATIVE, developing
+  larger — contradicts the Filoso-Papagni sign flip), **Karim et al. 2016** (NGO membership proxy,
+  positive only after 2007, tiny), **Steele et al. 1998** (fertility DESIRES, authors' own reading is
+  no significant effect; severe self-selection, joiners more likely to have used contraception before
+  joining).
+

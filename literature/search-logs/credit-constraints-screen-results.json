@@ -4,13 +4,13 @@
   "validation_errors": [],
   "cells": {
    "OFF_OTHER_read_not_routed": 2571,
-   "OFF_OLDAGE_C3c": 41,
+   "OFF_OLDAGE_C3c": 42,
    "PRIMARY_COMPOSITE_ACCESS": 40,
-   "MECHANISM_NO_FERTILITY": 25,
-   "THEORY": 22,
-   "PRIMARY_BORROW_TERMS": 17,
-   "PRIMARY_SAVE_INSURE": 12,
-   "REVERSE": 7,
+   "MECHANISM_NO_FERTILITY": 26,
+   "THEORY": 23,
+   "PRIMARY_BORROW_TERMS": 14,
+   "PRIMARY_SAVE_INSURE": 11,
+   "REVERSE": 8,
    "OFF_HOUSING_C2c": 6,
    "OFF_RISK_EXPOSURE_C5a": 4,
    "OFF_PRICE_OF_BIRTH_C2d": 2,
@@ -18,9 +18,9 @@
    "OFF_LAND_C4a": 1
   },
   "primary_by_arm": {
-   "B": 17,
+   "B": 14,
    "composite": 40,
-   "S": 12
+   "S": 11
   },
   "by_stratum": {
    "both_channels": {
@@ -33063,11 +33063,11 @@
    "title": "Research on the Influences of Credit Constraints & Occupational Heterogeneity on Women\u2019s Participation in Continuing Education",
    "venue": "Proceedings of the International Conference on Contemporary Education, Social Sciences and Ecological Studies (CESSES 2018)",
    "stratum": "frame_only",
-   "cell": "PRIMARY_BORROW_TERMS",
-   "arm": "B",
+   "cell": "MECHANISM_NO_FERTILITY",
+   "arm": "",
    "screened_by": "Shravan/Claude",
    "screened_on": "2026-09-01",
-   "note": "Credit constraints and occupational heterogeneity on fertility."
+   "note": "RE-ROUTED AT FULL TEXT. The outcome is PARTICIPATION IN CONTINUING EDUCATION (Tables I and II). Both 'Credit' (0.7770***) and 'Childbearing/Having Children' (-0.3124***) are REGRESSORS. Fertility is on the right-hand side. THIRD instance of this failure mode in the chapter after the AER P&P paper and Grawe. Wall 6."
   },
   {
    "openalex": "W2514518411",
@@ -33089,11 +33089,11 @@
    "title": "Falling Real Interest Rates, House Prices, and the Introduction of the Pill",
    "venue": "RePEc: Research Papers in Economics",
    "stratum": "frame_only",
-   "cell": "PRIMARY_BORROW_TERMS",
-   "arm": "B",
+   "cell": "REVERSE",
+   "arm": "",
    "screened_by": "Shravan/Claude",
    "screened_on": "2026-09-01",
-   "note": "Falling Real Interest Rates, House Prices, and the Introduction of the Pill. Three-way boundary: C.3.e rates, C.2.c prices, A.2 the Pill."
+   "note": "RE-ROUTED AT FULL TEXT. The arrow runs BACKWARDS: the pill causes a fertility shock, the fertility shock changes cohort size, and cohort size drives REAL INTEREST RATES AND HOUSE PRICES. Fertility is the cause; interest rates and prices are the outcome. Not a C.3.e estimate; cross-ref A.2 for the exposure and C.2.c for the outcome."
   },
   {
    "openalex": "W2106362541",
@@ -33141,11 +33141,11 @@
    "title": "Intergenerational Transfers, Borrowing Constraints and Household Size",
    "venue": "RePEc: Research Papers in Economics",
    "stratum": "frame_only",
-   "cell": "PRIMARY_BORROW_TERMS",
-   "arm": "B",
+   "cell": "THEORY",
+   "arm": "",
    "screened_by": "Shravan/Claude",
    "screened_on": "2026-09-01",
-   "note": "Intergenerational Transfers, Borrowing Constraints and Household Size."
+   "note": "RE-ROUTED AT FULL TEXT. Theoretical OLG model with comparative statics - 'transfers to the old are ambiguous in the fertility rate ... if the elasticity of the altruism multiplier with respect to the fertility rate is greater than unity'. No empirical estimate. Theory stream."
   },
   {
    "openalex": "W1978021930",
@@ -33583,11 +33583,11 @@
    "title": "Consumption smoothing, the cost of children, and family size desired in poor households: empirical evidence from family planning villages in Sintang Regency, the Province of West Kalimantan, Indonesia",
    "venue": "Population and Economics",
    "stratum": "frame_only",
-   "cell": "PRIMARY_SAVE_INSURE",
-   "arm": "S",
+   "cell": "OFF_OLDAGE_C3c",
+   "arm": "",
    "screened_by": "Shravan/Claude",
    "screened_on": "2026-09-01",
-   "note": "WALL 1 RE-CUT ON THE INSTRUMENT (RA ruling 2026-09-01, PI confirmation pending). Consumption smoothing, the cost of children, and family size desired: retrieved; confirm at full text whether an instrument varies or only the risk."
+   "note": "RE-ROUTED AT FULL TEXT 2026-09-01 under the instrument re-cut. Suratman et al., Sintang District, West Kalimantan. Table 7 regresses DESIRED FAMILY SIZE on (i) expectation of an INTERGENERATIONAL TRANSFER, +1.339 (t=15.75, p=0.000), (ii) a government PENSION scheme, -0.046 (t=-0.56, p=0.576), (iii) the cost of children, -0.016 (p=0.895). No financial instrument varies: the exposures are old-age transfer expectations and a pension scheme, which are C.3.c's under the re-cut. AND the pension null is UNINFORMATIVE by the authors' own account - 'there has been no pension scheme for poor households in Indonesia, therefore the respondents obviously did not consider this variable', i.e. the exposure does not vary. Cross-sectional survey regression, not identified."
   },
   {
    "openalex": "W2995686300",
@@ -34125,7 +34125,7 @@
   {
    "openalex": "W2466519265",
    "doi": "10.1017/cbo9780511805653.001",
-   "year": 1980,
+   "year": "1980",
    "title": "Preface",
    "venue": "Cambridge University Press eBooks",
    "stratum": "hand_sourced",
@@ -34138,7 +34138,7 @@
   {
    "openalex": "W2045582700",
    "doi": "10.2307/1972559",
-   "year": 1981,
+   "year": "1981",
    "title": "Risk and Insurance: Perspectives on Fertility and Agrarian Change in India and Bangladesh",
    "venue": "Population and Development Review",
    "stratum": "hand_sourced",
@@ -34151,7 +34151,7 @@
   {
    "openalex": "W2041407368",
    "doi": "10.2307/1973379",
-   "year": 1985,
+   "year": "1985",
    "title": "The Old-Age Security Motive for Fertility",
    "venue": "Population and Development Review",
    "stratum": "hand_sourced",
@@ -34164,7 +34164,7 @@
   {
    "openalex": "W2476864819",
    "doi": "10.1007/978-1-349-17900-8_6",
-   "year": 1985,
+   "year": "1985",
    "title": "Old Age Security and the One-child Campaign",
    "venue": "Palgrave Macmillan UK eBooks",
    "stratum": "hand_sourced",
@@ -34177,7 +34177,7 @@
   {
    "openalex": "W1485700608",
    "doi": "10.1086/261633",
-   "year": 1989,
+   "year": "1989",
    "title": "Consumption Smoothing, Migration, and Marriage: Evidence from Rural India",
    "venue": "Journal of Political Economy",
    "stratum": "hand_sourced",
@@ -34190,7 +34190,7 @@
   {
    "openalex": "W188381894",
    "doi": "10.1016/s1574-003x(97)80025-6",
-   "year": 1997,
+   "year": "1997",
    "title": "Chapter 8 Demand for children in low income countries",
    "venue": "Handbook of Population and Family Economics",
    "stratum": "hand_sourced",
@@ -34203,7 +34203,7 @@
   {
    "openalex": "W2613324243",
    "doi": "10.31899/pgy6.1016",
-   "year": 1998,
+   "year": "1998",
    "title": "The impact of an integrated micro-credit programme on women's empowerment and fertility behavior in rural Bangladesh",
    "venue": "",
    "stratum": "hand_sourced",
@@ -34216,7 +34216,7 @@
   {
    "openalex": "W1985479434",
    "doi": "10.2307/2648131",
-   "year": 1999,
+   "year": "1999",
    "title": "Credit programs for the poor and reproductive behavior in low-income countries: Are the reported causal relationships the result of heterogeneity bias?",
    "venue": "Demography",
    "stratum": "hand_sourced",
@@ -34229,7 +34229,7 @@
   {
    "openalex": "W4230454232",
    "doi": "10.1596/0-8213-4562-1",
-   "year": 1999,
+   "year": "1999",
    "title": "Social capital",
    "venue": "",
    "stratum": "hand_sourced",
@@ -34242,7 +34242,7 @@
   {
    "openalex": "W4230888828",
    "doi": "10.1596/0-8213-4697-0",
-   "year": 2000,
+   "year": "2000",
    "title": "Evaluating the impact of development projects on poverty",
    "venue": "",
    "stratum": "hand_sourced",
@@ -34255,7 +34255,7 @@
   {
    "openalex": "W2036080479",
    "doi": "10.1007/s001480050162",
-   "year": 2001,
+   "year": "2001",
    "title": "Children as insurance",
    "venue": "Journal of Population Economics",
    "stratum": "hand_sourced",
@@ -34268,7 +34268,7 @@
   {
    "openalex": "W4248535432",
    "doi": "10.1596/0-8213-4898-1",
-   "year": 2001,
+   "year": "2001",
    "title": "World Development Indicators 2001",
    "venue": "",
    "stratum": "hand_sourced",
@@ -34281,7 +34281,7 @@
   {
    "openalex": "W2106180746",
    "doi": "10.1017/s0022050701028042",
-   "year": 2001,
+   "year": "2001",
    "title": "COOPERATIVES AS INFORMATION MACHINES: GERMAN RURAL CREDIT COOPERATIVES, 1883\u20131914",
    "venue": "The Journal of Economic History",
    "stratum": "hand_sourced",
@@ -34294,7 +34294,7 @@
   {
    "openalex": "W2344739590",
    "doi": "",
-   "year": 2003,
+   "year": "2003",
    "title": "Family behaviors and Social Security",
    "venue": "Scholarly Commons (University of Pennsylvania)",
    "stratum": "hand_sourced",
@@ -34307,7 +34307,7 @@
   {
    "openalex": "W2253146834",
    "doi": "",
-   "year": 2003,
+   "year": "2003",
    "title": "Agricultural diversification project in Vietnam, research component : Annual report year 2002 sub component \"farming and cropping systems\" (doc RC-MR 25/01",
    "venue": "Agritrop (Cirad)",
    "stratum": "hand_sourced",
@@ -34320,7 +34320,7 @@
   {
    "openalex": "W1597793728",
    "doi": "10.17016/ifdp.2005.847",
-   "year": 2005,
+   "year": "2005",
    "title": "The Baby Boom: Predictability in House Prices and Interest Rates",
    "venue": "International Finance Discussion Paper",
    "stratum": "hand_sourced",
@@ -34333,7 +34333,7 @@
   {
    "openalex": "W178678576",
    "doi": "",
-   "year": 2005,
+   "year": "2005",
    "title": "\u00d6kologischer Landbau in Sri Lanka - unter besonderer Ber\u00fccksichtigung von Tee-Anbausystemen (Camellia sinensis (L.) O. Kuntze)",
    "venue": "Organic Eprints (International Centre for Research in Organic Food Systems, and Research Institute of Organic Agriculture)",
    "stratum": "hand_sourced",
@@ -34346,7 +34346,7 @@
   {
    "openalex": "W2052902050",
    "doi": "10.1257/0002828054201242",
-   "year": 2005,
+   "year": "2005",
    "title": "Do Rural Banks Matter? Evidence from the Indian Social Banking Experiment",
    "venue": "American Economic Review",
    "stratum": "hand_sourced",
@@ -34359,7 +34359,7 @@
   {
    "openalex": "W2493090411",
    "doi": "10.1057/9780230288928_4",
-   "year": 2006,
+   "year": "2006",
    "title": "Do Rich Countries Have A Negative Duty to Fight Global Poverty?",
    "venue": "Palgrave Macmillan UK eBooks",
    "stratum": "hand_sourced",
@@ -34372,7 +34372,7 @@
   {
    "openalex": "W7133307998",
    "doi": "10.5281/zenodo.18853261",
-   "year": 2007,
+   "year": "2007",
    "title": "Microcredit and Maternal Health in Northern Ghana: An Impact Study on Smallholder Women Farmers",
    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
    "stratum": "hand_sourced",
@@ -34385,7 +34385,7 @@
   {
    "openalex": "W1512976090",
    "doi": "10.2139/ssrn.1406946",
-   "year": 2009,
+   "year": "2009",
    "title": "What Explains Fertility? Evidence from Italian Pension Reforms",
    "venue": "SSRN Electronic Journal",
    "stratum": "hand_sourced",
@@ -34398,7 +34398,7 @@
   {
    "openalex": "W2069432153",
    "doi": "10.1162/jeea.2009.7.5.974",
-   "year": 2009,
+   "year": "2009",
    "title": "Does High Cost of Mortgage Debt Explain Why Young Adults Live with Their Parents?",
    "venue": "Journal of the European Economic Association",
    "stratum": "hand_sourced",
@@ -34411,7 +34411,7 @@
   {
    "openalex": "W2134916940",
    "doi": "10.1093/wber/lhp015",
-   "year": 2009,
+   "year": "2009",
    "title": "The Gender and Intergenerational Consequences of the Demographic Dividend: An Assessment of the Micro- and Macrolinkages between the Demographic Transition and Economic Development",
    "venue": "The World Bank Economic Review",
    "stratum": "hand_sourced",
@@ -34424,7 +34424,7 @@
   {
    "openalex": "W1586388129",
    "doi": "10.1596/4509",
-   "year": 2009,
+   "year": "2009",
    "title": "The Gender and Intergenerational Consequences of the Demographic Dividend",
    "venue": "",
    "stratum": "hand_sourced",
@@ -34437,7 +34437,7 @@
   {
    "openalex": "W215750997",
    "doi": "10.17660/actahortic.2009.831.3",
-   "year": 2009,
+   "year": "2009",
    "title": "PRODUCTION AND MARKETING PROBLEMS IN SMALL SCALE HORTICULTURAL FARMING IN BOTSWANA",
    "venue": "Acta Horticulturae",
    "stratum": "hand_sourced",
@@ -34450,7 +34450,7 @@
   {
    "openalex": "W1565426900",
    "doi": "",
-   "year": 2010,
+   "year": "2010",
    "title": "An empirical analysis of microcredit on China rural household",
    "venue": "Lincoln University Research Archive (Lincoln University)",
    "stratum": "hand_sourced",
@@ -34463,7 +34463,7 @@
   {
    "openalex": "W1520584388",
    "doi": "",
-   "year": 2010,
+   "year": "2010",
    "title": "New Mothers' Survey in 2008 in rural China : A CHIMACA report",
    "venue": "LSTM Online Archive (Liverpool School of Tropical Medicine)",
    "stratum": "hand_sourced",
@@ -34476,7 +34476,7 @@
   {
    "openalex": "W3124087991",
    "doi": "10.1086/648710",
-   "year": 2010,
+   "year": "2010",
    "title": "External Balance in Low\u2010Income Countries",
    "venue": "NBER International Seminar on Macroeconomics",
    "stratum": "hand_sourced",
@@ -34489,7 +34489,7 @@
   {
    "openalex": "W4410169839",
    "doi": "10.1596/12359",
-   "year": 2010,
+   "year": "2010",
    "title": "Burkina Faso - Promoting Growth, Competitiveness and Diversification : Country Economic Memorandum, Volume 3. Enhancing Growth Factors",
    "venue": "",
    "stratum": "hand_sourced",
@@ -34502,7 +34502,7 @@
   {
    "openalex": "W4410171434",
    "doi": "10.1596/12360",
-   "year": 2010,
+   "year": "2010",
    "title": "Burkina Faso - Promoting Growth, Competitiveness and Diversification : Country Economic Memorandum, Volume 2. Sources of Growth - Key Sectors for Tomorrow",
    "venue": "",
    "stratum": "hand_sourced",
@@ -34515,7 +34515,7 @@
   {
    "openalex": "W4410173557",
    "doi": "10.1596/12325",
-   "year": 2010,
+   "year": "2010",
    "title": "Burkina Faso - Promoting Growth, Competitiveness and Diversification : Country Economic Memorandum, Volume 1. Main Report",
    "venue": "",
    "stratum": "hand_sourced",
@@ -34528,7 +34528,7 @@
   {
    "openalex": "W2039710642",
    "doi": "10.1007/s13524-011-0029-0",
-   "year": 2011,
+   "year": "2011",
    "title": "Microcredit, Family Planning Programs, and Contraceptive Behavior: Evidence From a Field Experiment in Ethiopia",
    "venue": "Demography",
    "stratum": "hand_sourced",
@@ -34541,7 +34541,7 @@
   {
    "openalex": "W2170808980",
    "doi": "10.2139/ssrn.1893664",
-   "year": 2011,
+   "year": "2011",
    "title": "The Microfinance of Reproduction and the Reproduction of Microfinance: Understanding the Connections between Microfinance, Empowerment, Contraception and Fertility in Bangladesh in the 1990s",
    "venue": "SSRN Electronic Journal",
    "stratum": "hand_sourced",
@@ -34554,7 +34554,7 @@
   {
    "openalex": "W4205806018",
    "doi": "10.1542/pir.32.5.204",
-   "year": 2011,
+   "year": "2011",
    "title": "Ethics for the Pediatrician",
    "venue": "Pediatrics in Review",
    "stratum": "hand_sourced",
@@ -34567,7 +34567,7 @@
   {
    "openalex": "W2017790450",
    "doi": "10.3386/w17485",
-   "year": 2011,
+   "year": "2011",
    "title": "House Prices and Birth Rates: The Impact of the Real Estate Market on the Decision to Have a Baby",
    "venue": "National Bureau of Economic Research",
    "stratum": "hand_sourced",
@@ -34580,7 +34580,7 @@
   {
    "openalex": "W3125880351",
    "doi": "10.1353/jda.2012.0037",
-   "year": 2012,
+   "year": "2012",
    "title": "Do Microfinance Programs Change Fertility?: Evidence Using Panel Data From Bangladesh",
    "venue": "\u0098The \u009cJournal of developing areas",
    "stratum": "hand_sourced",
@@ -34593,7 +34593,7 @@
   {
    "openalex": "W2774696498",
    "doi": "",
-   "year": 2012,
+   "year": "2012",
    "title": "Technological Change and Productivity Growth for Food Security: The Case of Shifting Cultivation and the REDD Policy",
    "venue": "Charles Sturt University Research Output (CRO)",
    "stratum": "hand_sourced",
@@ -34606,7 +34606,7 @@
   {
    "openalex": "W2035671284",
    "doi": "10.1162/rest_a_00266",
-   "year": 2012,
+   "year": "2012",
    "title": "Do Family Wealth Shocks Affect Fertility Choices? Evidence from the Housing Market",
    "venue": "The Review of Economics and Statistics",
    "stratum": "hand_sourced",
@@ -34619,7 +34619,7 @@
   {
    "openalex": "W2113745910",
    "doi": "10.5271/sjweh.3396",
-   "year": 2013,
+   "year": "2013",
    "title": "Randomized controlled trials are needed to close the evidence gap in the prevention of preterm birth",
    "venue": "Scandinavian Journal of Work Environment & Health",
    "stratum": "hand_sourced",
@@ -34632,7 +34632,7 @@
   {
    "openalex": "W2264759646",
    "doi": "10.22004/ag.econ.149820",
-   "year": 2013,
+   "year": "2013",
    "title": "The Impact of Interstate Bank Branching Deregulations on the U.S. Agricultural Sector: From Better Access to Credit to Higher Farm Sales and Profits",
    "venue": "AgEcon Search (University of Minnesota, USA)",
    "stratum": "hand_sourced",
@@ -34645,7 +34645,7 @@
   {
    "openalex": "W2172159835",
    "doi": "",
-   "year": 2013,
+   "year": "2013",
    "title": "Migration, Remittances and Human Capital Development in Ghana",
    "venue": "",
    "stratum": "hand_sourced",
@@ -34658,7 +34658,7 @@
   {
    "openalex": "W3122916816",
    "doi": "10.1257/app.5.1.163",
-   "year": 2013,
+   "year": "2013",
    "title": "Savings Constraints and Microenterprise Development: Evidence from a Field Experiment in Kenya",
    "venue": "American Economic Journal Applied Economics",
    "stratum": "hand_sourced",
@@ -34671,7 +34671,7 @@
   {
    "openalex": "W2145691096",
    "doi": "10.1111/jofi.12091",
-   "year": 2013,
+   "year": "2013",
    "title": "The Real Impact of Improved Access to Finance: Evidence from Mexico",
    "venue": "The Journal of Finance",
    "stratum": "hand_sourced",
@@ -34684,7 +34684,7 @@
   {
    "openalex": "W7135172366",
    "doi": "10.5281/zenodo.19011059",
-   "year": 2013,
+   "year": "2013",
    "title": "Gender Parity Strategies and Female Agricultural Productivity Enhancement in Zimbabwean Farmlands: A Mixed Methods Study in Cameroon",
    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
    "stratum": "hand_sourced",
@@ -34697,7 +34697,7 @@
   {
    "openalex": "W2098582820",
    "doi": "10.3945/jn.113.190124",
-   "year": 2014,
+   "year": "2014",
    "title": "Integrating Group Counseling, Cell Phone Messaging, and Participant-Generated Songs and Dramas into a Microcredit Program Increases Nigerian Women\u2019s Adherence to International Breastfeeding Recommendations",
    "venue": "Journal of Nutrition",
    "stratum": "hand_sourced",
@@ -34710,7 +34710,7 @@
   {
    "openalex": "W3022477743",
    "doi": "10.32469/10355/45904",
-   "year": 2014,
+   "year": "2014",
    "title": "Essays on economics of microcredit and economics of fertility",
    "venue": "",
    "stratum": "hand_sourced",
@@ -34723,7 +34723,7 @@
   {
    "openalex": "W789889709",
    "doi": "",
-   "year": 2014,
+   "year": "2014",
    "title": "Essays in finance and welfare",
    "venue": "eScholarship (California Digital Library)",
    "stratum": "hand_sourced",
@@ -34736,7 +34736,7 @@
   {
    "openalex": "W2525741328",
    "doi": "10.2139/ssrn.2845256",
-   "year": 2015,
+   "year": "2015",
    "title": "Does Microfinance Elevate Poverty? Does Family Size Matter in the Provision of Microcredit? Evidence from a Randomised Evaluation",
    "venue": "SSRN Electronic Journal",
    "stratum": "hand_sourced",
@@ -34749,7 +34749,7 @@
   {
    "openalex": "W2562949456",
    "doi": "10.31274/etd-180810-4844",
-   "year": 2015,
+   "year": "2015",
    "title": "Farmers\u2019 Knowledge, Perceptions, and Socioeconomic Factors Influencing Decision Making For Integrated Soil Fertility Management Practices in Masaka and Rakai Districts, Central Uganda",
    "venue": "",
    "stratum": "hand_sourced",
@@ -34762,7 +34762,7 @@
   {
    "openalex": "W3122525178",
    "doi": "10.2139/ssrn.2583847",
-   "year": 2015,
+   "year": "2015",
    "title": "Managing Risk with Insurance and Savings: Experimental Evidence for Male and Female Farm Managers in West Africa",
    "venue": "SSRN Electronic Journal",
    "stratum": "hand_sourced",
@@ -34775,7 +34775,7 @@
   {
    "openalex": "W2037323381",
    "doi": "10.1086/681574",
-   "year": 2015,
+   "year": "2015",
    "title": "Racial and Ethnic Disparities in Food Insufficiency: Evidence from a Statewide Probability Sample",
    "venue": "Journal of the Society for Social Work and Research",
    "stratum": "hand_sourced",
@@ -34788,7 +34788,7 @@
   {
    "openalex": "W2093397488",
    "doi": "10.1016/s2214-109x(15)70141-5",
-   "year": 2015,
+   "year": "2015",
    "title": "Chamas for Change: an integrated community-based strategy of peer support in pregnancy and infancy in Kenya",
    "venue": "The Lancet Global Health",
    "stratum": "hand_sourced",
@@ -34801,7 +34801,7 @@
   {
    "openalex": "W2418195671",
    "doi": "10.22024/unikent/01.02.54355",
-   "year": 2015,
+   "year": "2015",
    "title": "Essays on Small Scale Finance and Recipient Behaviour",
    "venue": "Kent Academic Repository (University of Kent)",
    "stratum": "hand_sourced",
@@ -34814,7 +34814,7 @@
   {
    "openalex": "W3121502504",
    "doi": "10.1257/app.20130533",
-   "year": 2015,
+   "year": "2015",
    "title": "The Miracle of Microfinance? Evidence from a Randomized Evaluation",
    "venue": "American Economic Journal Applied Economics",
    "stratum": "hand_sourced",
@@ -34827,7 +34827,7 @@
   {
    "openalex": "W2139599662",
    "doi": "10.1016/j.jdeveco.2015.01.004",
-   "year": 2015,
+   "year": "2015",
    "title": "Banking the poor via savings accounts: Evidence from a field experiment",
    "venue": "Journal of Development Economics",
    "stratum": "hand_sourced",
@@ -34840,7 +34840,7 @@
   {
    "openalex": "W1815911686",
    "doi": "10.1257/app.20130535",
-   "year": 2015,
+   "year": "2015",
    "title": "Estimating the Impact of Microcredit on Those Who Take It Up: Evidence from a Randomized Experiment in Morocco",
    "venue": "American Economic Journal Applied Economics",
    "stratum": "hand_sourced",
@@ -34853,7 +34853,7 @@
   {
    "openalex": "W2001136655",
    "doi": "10.1257/app.20130489",
-   "year": 2015,
+   "year": "2015",
    "title": "The Impacts of Microfinance: Evidence from Joint-Liability Lending in Mongolia",
    "venue": "American Economic Journal Applied Economics",
    "stratum": "hand_sourced",
@@ -34866,7 +34866,7 @@
   {
    "openalex": "W3023775768",
    "doi": "10.1257/app.20130537",
-   "year": 2015,
+   "year": "2015",
    "title": "Microcredit Impacts: Evidence from a Randomized Microcredit Program Placement Experiment by Compartamos Banco",
    "venue": "American Economic Journal Applied Economics",
    "stratum": "hand_sourced",
@@ -34879,7 +34879,7 @@
   {
    "openalex": "W3122660248",
    "doi": "10.1016/j.jmoneco.2016.08.002",
-   "year": 2016,
+   "year": "2016",
    "title": "Fertility choice in a life cycle model with idiosyncratic uninsurable earnings risk",
    "venue": "Journal of Monetary Economics",
    "stratum": "hand_sourced",
@@ -34892,7 +34892,7 @@
   {
    "openalex": "W2367129434",
    "doi": "10.1111/birt.12213",
-   "year": 2016,
+   "year": "2016",
    "title": "Coverage for Doula Services: How State Medicaid Programs Can Address Concerns about Maternity Care Costs and Quality",
    "venue": "Birth",
    "stratum": "hand_sourced",
@@ -34905,7 +34905,7 @@
   {
    "openalex": "W2515519848",
    "doi": "10.1002/uog.16005",
-   "year": 2016,
+   "year": "2016",
    "title": "Ultrasound guidance for embryo transfer: where do we stand?",
    "venue": "Ultrasound in Obstetrics and Gynecology",
    "stratum": "hand_sourced",
@@ -34918,7 +34918,7 @@
   {
    "openalex": "W2513923226",
    "doi": "10.2471/blt.15.168252",
-   "year": 2016,
+   "year": "2016",
    "title": "Group-based microfinance for collective empowerment: a systematic review of health impacts",
    "venue": "Bulletin of the World Health Organization",
    "stratum": "hand_sourced",
@@ -34931,7 +34931,7 @@
   {
    "openalex": "W4252752336",
    "doi": "10.1086/689956",
-   "year": 2016,
+   "year": "2016",
    "title": "Comparative Education Review Bibliography 2015",
    "venue": "Comparative Education Review",
    "stratum": "hand_sourced",
@@ -34944,7 +34944,7 @@
   {
    "openalex": "W2743869821",
    "doi": "",
-   "year": 2017,
+   "year": "2017",
    "title": "How Does the Million Baht Village Fund Impact Fertility in Thailand",
    "venue": "The Mathematics Enthusiast",
    "stratum": "hand_sourced",
@@ -34957,7 +34957,7 @@
   {
    "openalex": "W2762927404",
    "doi": "",
-   "year": 2017,
+   "year": "2017",
    "title": "Essays on information and training in developing countries",
    "venue": "UCL Discovery (University College London)",
    "stratum": "hand_sourced",
@@ -34970,7 +34970,7 @@
   {
    "openalex": "W2956504476",
    "doi": "10.1002/cl2.172",
-   "year": 2017,
+   "year": "2017",
    "title": "PROTOCOL: The effect of interventions for women's empowerment on children's health and education: A systematic review of evidence from low\u2010 and middle\u2010income countries",
    "venue": "Campbell Systematic Reviews",
    "stratum": "hand_sourced",
@@ -34983,7 +34983,7 @@
   {
    "openalex": "W2614541528",
    "doi": "",
-   "year": 2017,
+   "year": "2017",
    "title": "The Role of Tree Fertilizer in Enhancing Maize Production and Mitigating Soil Acidity at Haro Sebu On-station, Kellem Wollega Zone of Oromia, Western Ethiopia",
    "venue": "Journals & Books Hosting (International Knowledge Sharing Platform)",
    "stratum": "hand_sourced",
@@ -34996,7 +34996,7 @@
   {
    "openalex": "W2883824115",
    "doi": "10.1080/17441692.2018.1501079",
-   "year": 2018,
+   "year": "2018",
    "title": "Microfinance and health interventions: Factors influencing loan repayment success with young men in Dar es Salaam, Tanzania",
    "venue": "Global Public Health",
    "stratum": "hand_sourced",
@@ -35009,7 +35009,7 @@
   {
    "openalex": "W2998507442",
    "doi": "",
-   "year": 2018,
+   "year": "2018",
    "title": "Fertility and Housing Market: Australian Evidence",
    "venue": "The Sydney eScholarship Repository (The University of Sydney)",
    "stratum": "hand_sourced",
@@ -35022,7 +35022,7 @@
   {
    "openalex": "W2888470228",
    "doi": "10.1371/journal.pone.0202562",
-   "year": 2018,
+   "year": "2018",
    "title": "Effect of health intervention integration within women's self-help groups on collectivization and healthy practices around reproductive, maternal, neonatal and child health in rural India",
    "venue": "PLoS ONE",
    "stratum": "hand_sourced",
@@ -35035,7 +35035,7 @@
   {
    "openalex": "W2889711136",
    "doi": "10.1017/s1742170518000364",
-   "year": 2018,
+   "year": "2018",
    "title": "A modified choice experiment to examine willingness to participate in a Community Supported Agriculture (CSA) program among low-income parents",
    "venue": "Renewable Agriculture and Food Systems",
    "stratum": "hand_sourced",
@@ -35048,7 +35048,7 @@
   {
    "openalex": "W2921041981",
    "doi": "",
-   "year": 2018,
+   "year": "2018",
    "title": "Rural Households\u2019 Preferences for Microfinance and Its Impact of Participation on Households\u2019 Welfare in China",
    "venue": "Multimedialen Archiv und Publikationsserver der Christian-Albrechts-Universit\u00e4t zu Kiel (Christian-Albrechts-Universit\u00e4t zu Kiel)",
    "stratum": "hand_sourced",
@@ -35061,7 +35061,7 @@
   {
    "openalex": "W2919713295",
    "doi": "",
-   "year": 2018,
+   "year": "2018",
    "title": "Essays on finance, productivity, market participation and welfare : the case of smallholder agricultural farmers in Ghana",
    "venue": "SUNScholar (Stellenbosch University)",
    "stratum": "hand_sourced",
@@ -35074,7 +35074,7 @@
   {
    "openalex": "W2790405686",
    "doi": "10.1057/978-1-349-95342-4_10",
-   "year": 2018,
+   "year": "2018",
    "title": "Looking Ahead: Prospects for India",
    "venue": "Palgrave Macmillan UK eBooks",
    "stratum": "hand_sourced",
@@ -35087,7 +35087,7 @@
   {
    "openalex": "W1986211821",
    "doi": "10.4324/9781351329040-10",
-   "year": 2018,
+   "year": "2018",
    "title": "Fertility as an Adjustment to Risk *",
    "venue": "",
    "stratum": "hand_sourced",
@@ -35100,7 +35100,7 @@
   {
    "openalex": "W2994985492",
    "doi": "",
-   "year": 2019,
+   "year": "2019",
    "title": "Impact of Micro-Finance on Women\u2019s Economic Empowerment: A Case study in Gimbo Woreda, South Nation, Nationalities and Peoples Region, Ethiopia",
    "venue": "DOAJ (DOAJ: Directory of Open Access Journals)",
    "stratum": "hand_sourced",
@@ -35113,7 +35113,7 @@
   {
    "openalex": "W2911311420",
    "doi": "10.1136/bmjopen-2018-023658",
-   "year": 2019,
+   "year": "2019",
    "title": "Is microfinance associated with changes in women\u2019s well-being and children\u2019s nutrition? A systematic review and meta-analysis",
    "venue": "BMJ Open",
    "stratum": "hand_sourced",
@@ -35126,7 +35126,7 @@
   {
    "openalex": "W2952427801",
    "doi": "10.3386/w25981",
-   "year": 2019,
+   "year": "2019",
    "title": "No Household Left Behind: Afghanistan Targeting the Ultra Poor Impact Evaluation",
    "venue": "National Bureau of Economic Research",
    "stratum": "hand_sourced",
@@ -35139,7 +35139,7 @@
   {
    "openalex": "W3011170043",
    "doi": "10.1186/s12889-020-08468-0",
-   "year": 2020,
+   "year": "2020",
    "title": "The impact of the Adolescent Girls Empowerment Program (AGEP) on short and long term social, economic, education and fertility outcomes: a cluster randomized controlled trial in Zambia",
    "venue": "BMC Public Health",
    "stratum": "hand_sourced",
@@ -35152,7 +35152,7 @@
   {
    "openalex": "W3007987552",
    "doi": "10.1093/rfs/hhaa073",
-   "year": 2020,
+   "year": "2020",
    "title": "The Babies of Mortgage Market Deregulation",
    "venue": "Review of Financial Studies",
    "stratum": "hand_sourced",
@@ -35165,7 +35165,7 @@
   {
    "openalex": "W3112093089",
    "doi": "10.1111/jmwh.13193",
-   "year": 2020,
+   "year": "2020",
    "title": "COVID\u201019 and Perinatal Care: Facing Challenges, Seizing Opportunities",
    "venue": "Journal of Midwifery & Women s Health",
    "stratum": "hand_sourced",
@@ -35178,7 +35178,7 @@
   {
    "openalex": "W3017286856",
    "doi": "10.1002/ird.2397",
-   "year": 2020,
+   "year": "2020",
    "title": "INNOVATIONS IN IRRIGATION SYSTEMS IN AFRICA\u2020",
    "venue": "Irrigation and Drainage",
    "stratum": "hand_sourced",
@@ -35191,7 +35191,7 @@
   {
    "openalex": "W7160461214",
    "doi": "",
-   "year": 2020,
+   "year": "2020",
    "title": "M-CARES: The Michigan Contraceptive Access, Research, and Evaluation Study",
    "venue": "OSF Preprints (OSF Preprints)",
    "stratum": "hand_sourced",
@@ -35204,7 +35204,7 @@
   {
    "openalex": "W3082343908",
    "doi": "",
-   "year": 2020,
+   "year": "2020",
    "title": "The Child Care Tax Credit, Maternal Labor Supply, and Children\u2019s Well-being",
    "venue": "TigerPrints (Clemson University)",
    "stratum": "hand_sourced",
@@ -35217,7 +35217,7 @@
   {
    "openalex": "W3012274083",
    "doi": "10.1111/1467-8268.12413",
-   "year": 2020,
+   "year": "2020",
    "title": "Testing the impact of financial inclusion on income convergence: Empirical evidence from Nigeria",
    "venue": "African Development Review",
    "stratum": "hand_sourced",
@@ -35230,7 +35230,7 @@
   {
    "openalex": "W3115661930",
    "doi": "10.21203/rs.3.rs-124963/v1",
-   "year": 2020,
+   "year": "2020",
    "title": "The Female Financial Inclusion and the Sustainable Development in MENA Countries",
    "venue": "Research Square",
    "stratum": "hand_sourced",
@@ -35243,7 +35243,7 @@
   {
    "openalex": "W3134705928",
    "doi": "10.18174/533040",
-   "year": 2021,
+   "year": "2021",
    "title": "Coping with risk and climate change in farming: exploring an Index-based crop Insurance in Burundi",
    "venue": "",
    "stratum": "hand_sourced",
@@ -35256,7 +35256,7 @@
   {
    "openalex": "W3155126310",
    "doi": "10.1111/ajae.12214",
-   "year": 2021,
+   "year": "2021",
    "title": "Do Remittances Promote Fertilizer Use? The Case of Ugandan Farmers",
    "venue": "American Journal of Agricultural Economics",
    "stratum": "hand_sourced",
@@ -35269,7 +35269,7 @@
   {
    "openalex": "W4205470082",
    "doi": "10.1109/ict4da53266.2021.9672241",
-   "year": 2021,
+   "year": "2021",
    "title": "Identifying Risk Factors and Predicting Food Security Status using Supervised Machine Learning Techniques",
    "venue": "",
    "stratum": "hand_sourced",
@@ -35282,7 +35282,7 @@
   {
    "openalex": "W7203512935",
    "doi": "",
-   "year": 2021,
+   "year": "2021",
    "title": "Essays on Public Finance",
    "venue": "Rice Digital Scholarship Archive (Rice University)",
    "stratum": "hand_sourced",
@@ -35295,7 +35295,7 @@
   {
    "openalex": "W4287005160",
    "doi": "10.22051/jwsps.2021.35287.2403",
-   "year": 2021,
+   "year": "2021",
    "title": "The Effect of Gender Gap on Women Entrepreneurship in Selected Countries",
    "venue": "DOAJ (DOAJ: Directory of Open Access Journals)",
    "stratum": "hand_sourced",
@@ -35308,7 +35308,7 @@
   {
    "openalex": "W3186289738",
    "doi": "10.2499/p15738coll2.134482",
-   "year": 2021,
+   "year": "2021",
    "title": "Did a microfinance \u2018plus\u2019 programme empower female farmers and pastoralists and improve intrahousehold equality in rural Ethiopia? Evidence from an impact evaluation using a Project-Women\u2019s Empowerment in Agricultural Index (pro-WEAI) survey tool",
    "venue": "",
    "stratum": "hand_sourced",
@@ -35321,7 +35321,7 @@
   {
    "openalex": "W4295539930",
    "doi": "10.3390/jrfm15090403",
-   "year": 2022,
+   "year": "2022",
    "title": "Interest Rates, House Prices, Fertility, and the Macroeconomy",
    "venue": "Journal of risk and financial management",
    "stratum": "hand_sourced",
@@ -35334,7 +35334,7 @@
   {
    "openalex": "W4213118794",
    "doi": "10.1136/bmjopen-2021-054318",
-   "year": 2022,
+   "year": "2022",
    "title": "Improving birth preparedness and complication readiness in rural India through an integrated microfinance and health literacy programme: evidence from a quasi-experimental study",
    "venue": "BMJ Open",
    "stratum": "hand_sourced",
@@ -35347,7 +35347,7 @@
   {
    "openalex": "W4225269300",
    "doi": "10.1186/s41043-022-00292-z",
-   "year": 2022,
+   "year": "2022",
    "title": "An experiment of health services and additional microcredit in 128 villages of Bangladesh",
    "venue": "Journal of Health Population and Nutrition",
    "stratum": "hand_sourced",
@@ -35360,7 +35360,7 @@
   {
    "openalex": "W3122498213",
    "doi": "10.1093/restud/rdad034",
-   "year": 2023,
+   "year": "2023",
    "title": "Monetary Policy and Birth Rates: The Effect of Mortgage Rate Pass-Through on Fertility",
    "venue": "The Review of Economic Studies",
    "stratum": "hand_sourced",
@@ -35373,7 +35373,7 @@
   {
    "openalex": "W4385666598",
    "doi": "10.1080/00036846.2023.2244249",
-   "year": 2023,
+   "year": "2023",
    "title": "The role of digital financial inclusion in increasing fertility intentions: evidence from China",
    "venue": "Applied Economics",
    "stratum": "hand_sourced",
@@ -35386,7 +35386,7 @@
   {
    "openalex": "W4381108710",
    "doi": "10.2139/ssrn.4473936",
-   "year": 2023,
+   "year": "2023",
    "title": "More Credit, More Babies? Bank Credit Expansion, House Prices, and Fertility",
    "venue": "SSRN Electronic Journal",
    "stratum": "hand_sourced",
@@ -35399,7 +35399,7 @@
   {
    "openalex": "W4388854868",
    "doi": "10.21203/rs.3.rs-3593574/v1",
-   "year": 2023,
+   "year": "2023",
    "title": "Financing Fertility through Bank Competition? Evidence from a Quasi-Natural Experiment in China",
    "venue": "Research Square",
    "stratum": "hand_sourced",
@@ -35412,7 +35412,7 @@
   {
    "openalex": "W4385241130",
    "doi": "10.1007/s43546-023-00521-5",
-   "year": 2023,
+   "year": "2023",
    "title": "Household size and food consumption spending in cameroon. is there evidence of economies of size?",
    "venue": "SN Business & Economics",
    "stratum": "hand_sourced",
@@ -35425,7 +35425,7 @@
   {
    "openalex": "W4375951600",
    "doi": "10.1111/dmcn.15564",
-   "year": 2023,
+   "year": "2023",
    "title": "Communication as a human right for children with profound intellectual disabilities",
    "venue": "Developmental Medicine & Child Neurology",
    "stratum": "hand_sourced",
@@ -35438,7 +35438,7 @@
   {
    "openalex": "W4402405260",
    "doi": "10.4103/ajrge.ajrge_11_24",
-   "year": 2023,
+   "year": "2023",
    "title": "Conference Abstracts 2023",
    "venue": "African journal of reproduction and gynaecological endoscopy",
    "stratum": "hand_sourced",
@@ -35451,7 +35451,7 @@
   {
    "openalex": "W4396609968",
    "doi": "10.5539/sar.v13n2p1",
-   "year": 2024,
+   "year": "2024",
    "title": "Impact of Climate Change Adaptation Strategies on Food Security of Farm Households in Rural Dire Dawa Administration, Ethiopia",
    "venue": "Sustainable Agriculture Research",
    "stratum": "hand_sourced",
@@ -35464,7 +35464,7 @@
   {
    "openalex": "W4404511295",
    "doi": "10.3389/fsufs.2024.1505567",
-   "year": 2024,
+   "year": "2024",
    "title": "Editorial: Increasing resilience and adaptability to climate change of vulnerable groups in agriculture",
    "venue": "Frontiers in Sustainable Food Systems",
    "stratum": "hand_sourced",
@@ -35477,7 +35477,7 @@
   {
    "openalex": "W4401606290",
    "doi": "10.4337/9781788972246.00048",
-   "year": 2024,
+   "year": "2024",
    "title": "Index",
    "venue": "Edward Elgar Publishing eBooks",
    "stratum": "hand_sourced",
@@ -35490,7 +35490,7 @@
   {
    "openalex": "W7120687553",
    "doi": "",
-   "year": 2024,
+   "year": "2024",
    "title": "Essays in empirical microeconomics",
    "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Cient\u00edficas)",
    "stratum": "hand_sourced",
@@ -35503,7 +35503,7 @@
   {
    "openalex": "W4403819679",
    "doi": "10.22541/au.173016227.72566669/v1",
-   "year": 2024,
+   "year": "2024",
    "title": "Food Security and Agricultural Sustainability in South Asia: The Effects of Policy Reforms in Nepal and Afghanistan",
    "venue": "",
    "stratum": "hand_sourced",
@@ -35516,7 +35516,7 @@
   {
    "openalex": "W4411762796",
    "doi": "10.69987/jacs.2024.40204",
-   "year": 2024,
+   "year": "2024",
    "title": "Algorithmic Fairness in Financial Decision-Making: Detection and Mitigation of Bias in Credit Scoring Applications",
    "venue": "Journal of Advanced Computing Systems",
    "stratum": "hand_sourced",
@@ -35529,7 +35529,7 @@
   {
    "openalex": "W4392286525",
    "doi": "10.1093/cmlj/kmae002",
-   "year": 2024,
+   "year": "2024",
    "title": "A critical evaluation of Central Bank Digital Currencies (CBDCs): payments\u2019 final frontier?",
    "venue": "Capital Markets Law Journal",
    "stratum": "hand_sourced",
@@ -35542,7 +35542,7 @@
   {
    "openalex": "W4403792731",
    "doi": "10.9790/5933-1505055473",
-   "year": 2024,
+   "year": "2024",
    "title": "Firm Characteristics, Interest Rate And Financial Performance Of Microfinance Banks In Kenya",
    "venue": "IOSR Journal of Economics and Finance",
    "stratum": "hand_sourced",
@@ -35555,7 +35555,7 @@
   {
    "openalex": "W4407312762",
    "doi": "10.3386/w33446",
-   "year": 2025,
+   "year": "2025",
    "title": "Did the Modern Mortgage Set the Stage for the U.S. Baby Boom?",
    "venue": "National Bureau of Economic Research",
    "stratum": "hand_sourced",
@@ -35568,7 +35568,7 @@
   {
    "openalex": "W4411063268",
    "doi": "10.3390/su17115206",
-   "year": 2025,
+   "year": "2025",
    "title": "Weather Index Insurance and Input Intensification: Evidence from Smallholder Farmers in Kenya",
    "venue": "Sustainability",
    "stratum": "hand_sourced",
@@ -35581,7 +35581,7 @@
   {
    "openalex": "W7110481351",
    "doi": "",
-   "year": 2025,
+   "year": "2025",
    "title": "Impacts of Information Access and Adoption of Soil Fertility and Water Conservation Practices on Smallholder Household Welfare: Experimental Evidence from Uganda",
    "venue": "Multimedialen Archiv und Publikationsserver der Christian-Albrechts-Universit\u00e4t zu Kiel (Christian-Albrechts-Universit\u00e4t zu Kiel)",
    "stratum": "hand_sourced",
@@ -35594,7 +35594,7 @@
   {
    "openalex": "W4411490232",
    "doi": "10.36948/ijfmr.2025.v07i03.48567",
-   "year": 2025,
+   "year": "2025",
    "title": "Green Roots of Growth: Opportunities and Challenges of Organic Farming in Maharashtra",
    "venue": "International Journal For Multidisciplinary Research",
    "stratum": "hand_sourced",
@@ -35607,7 +35607,7 @@
   {
    "openalex": "W4411565970",
    "doi": "10.3389/fanim.2025.1628166",
-   "year": 2025,
+   "year": "2025",
    "title": "Editorial: Interventions for improving livestock productivity in developing countries",
    "venue": "Frontiers in Animal Science",
    "stratum": "hand_sourced",
@@ -35620,7 +35620,7 @@
   {
    "openalex": "W4415822819",
    "doi": "10.3390/su17219726",
-   "year": 2025,
+   "year": "2025",
    "title": "Documenting the Transition: Sustainable Strategic Management and Leadership in European SMEs\u2014A Comparative Analysis of Policy and Industry Reports",
    "venue": "Sustainability",
    "stratum": "hand_sourced",
@@ -35633,7 +35633,7 @@
   {
    "openalex": "W4412861187",
    "doi": "10.33545/26633213.2025.v7.i2b.332",
-   "year": 2025,
+   "year": "2025",
    "title": "A study on women's empowerment and sustainable development in India",
    "venue": "International Journal of Research in Human Resource Management",
    "stratum": "hand_sourced",
@@ -35646,7 +35646,7 @@
   {
    "openalex": "W7108324212",
    "doi": "10.5281/zenodo.17785466",
-   "year": 2025,
+   "year": "2025",
    "title": "The Influence of Gender on Adoption of Climate Smart Agricultural Practices Among Households in Embu County, Kenya",
    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
    "stratum": "hand_sourced",
@@ -35659,7 +35659,7 @@
   {
    "openalex": "W7163998811",
    "doi": "10.6084/m9.figshare.32612390",
-   "year": 2026,
+   "year": "2026",
    "title": "Microcredit Participation and Fertility: Evidence from Bangladesh",
    "venue": "Figshare",
    "stratum": "hand_sourced",
@@ -35672,7 +35672,7 @@
   {
    "openalex": "W7167528381",
    "doi": "10.1111/1467-8489.70128",
-   "year": 2026,
+   "year": "2026",
    "title": "Gender and Adoption of Climate\u2010Smart Agricultural Practices in Developing Countries: Evidence From West African Countries",
    "venue": "Australian Journal of Agricultural and Resource Economics",
    "stratum": "hand_sourced",
@@ -35685,7 +35685,7 @@
   {
    "openalex": "W7127376512",
    "doi": "10.1016/j.sciaf.2026.e03236",
-   "year": 2026,
+   "year": "2026",
    "title": "Marketed surplus of head cabbage in Northwest Ethiopia: Evidence from an instrumental variable regression analysis",
    "venue": "Scientific African",
    "stratum": "hand_sourced",
@@ -35698,7 +35698,7 @@
   {
    "openalex": "W7118187922",
    "doi": "10.1108/jadee-08-2024-0275",
-   "year": 2026,
+   "year": "2026",
    "title": "Demand for weather index insurance: evidence from Indian cotton farmers",
    "venue": "Journal of Agribusiness in Developing and Emerging Economies",
    "stratum": "hand_sourced",
@@ -35711,7 +35711,7 @@
   {
    "openalex": "W7134937172",
    "doi": "10.58414/scientifictemper.2026.17.2.15",
-   "year": 2026,
+   "year": "2026",
    "title": "Evaluating Direct Benefit Transfer as a Policy Instrument for Achieving Sustainable Development Goals: Evidence from Uttar Pradesh",
    "venue": "THE SCIENTIFIC TEMPER",
    "stratum": "hand_sourced",
@@ -35724,7 +35724,7 @@
   {
    "openalex": "W7135238979",
    "doi": "10.5194/egusphere-egu26-225",
-   "year": 2026,
+   "year": "2026",
    "title": "Soil Carbon Sequestration and Climate Change Mitigation: Pathways for Sustainable Agriculture",
    "venue": "",
    "stratum": "hand_sourced",
@@ -35737,7 +35737,7 @@
   {
    "openalex": "W7164655895",
    "doi": "10.5281/zenodo.20677464",
-   "year": 2026,
+   "year": "2026",
    "title": "ECONOMIC MECHANISMS FOR THE DEVELOPMENT OF SMALL BUSINESSES AND ENTREPRENEURSHIP",
    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
    "stratum": "hand_sourced",
@@ -35750,7 +35750,7 @@
   {
    "openalex": "W7124738426",
    "doi": "10.3389/fagro.2026.1753394",
-   "year": 2026,
+   "year": "2026",
    "title": "Cutting N2O without cutting yields: a case for microbial bioinputs",
    "venue": "Frontiers in Agronomy",
    "stratum": "hand_sourced",
@@ -35763,7 +35763,7 @@
   {
    "openalex": "W7125778168",
    "doi": "10.5281/zenodo.18386097",
-   "year": 2026,
+   "year": "2026",
    "title": "Fairness Evaluation in Machine Learning for Lending Decisions: A Comprehensive Framework",
    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
    "stratum": "hand_sourced",
@@ -35776,7 +35776,7 @@
   {
    "openalex": "W7169737478",
    "doi": "",
-   "year": 2026,
+   "year": "2026",
    "title": "Essays in International Macroeconomics",
    "venue": "eScholarship (California Digital Library)",
    "stratum": "hand_sourced",
@@ -35789,7 +35789,7 @@
   {
    "openalex": "W7171437109",
    "doi": "10.1073/pnas.2602426123",
-   "year": 2026,
+   "year": "2026",
    "title": "Can stimulating ownership increase fertility: Evidence from housing interventions in China",
    "venue": "Proceedings of the National Academy of Sciences",
    "stratum": "hand_sourced",
@@ -35802,7 +35802,7 @@
   {
    "openalex": "W7172384171",
    "doi": "10.1201/9781779641618-6",
-   "year": 2026,
+   "year": "2026",
    "title": "Foundation for a Sustainable and Prosperous Future: Women Empowerment",
    "venue": "Apple Academic Press eBooks",
    "stratum": "hand_sourced",

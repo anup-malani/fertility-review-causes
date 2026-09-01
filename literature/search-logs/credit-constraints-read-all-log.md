@@ -122,3 +122,45 @@ it is an association with controls, not an identified estimate.
 The identified estimates are consistent with a sign difference by income level. **The aggregate panels
 — the only sources that claim to measure the flip directly — disagree with each other.** That is the
 honest state of the chapter's central claim.
+
+---
+
+## Addendum 2: the full-text read has now overturned twelve screen decisions
+
+Every primary record with a verified full text has been read. **Twelve screen cells have been
+overturned by reading the paper**, and the direction is overwhelmingly one way — out of the pool.
+
+| Study | Screened as | What the text showed |
+|---|---|---|
+| Research on the Influences of Credit Constraints & Occupational Heterogeneity | Arm B primary | outcome is **participation in continuing education**; credit and childbearing are both **regressors** |
+| Falling Real Interest Rates, House Prices, and the Introduction of the Pill | Arm B primary | **arrow reversed** — the pill drives fertility, fertility drives cohort size, cohort size drives rates and prices |
+| All for One? Family Size and Children's Educational Distribution | Arm B primary | outcome is **children's education**; family size is a regressor |
+| Bequest Receipt and Family Size Effects (both versions) | Arm B primary | outcome is **child earnings** |
+| Intergenerational Transfers, Borrowing Constraints and Household Size | Arm B primary | **theoretical OLG model**, no empirical estimate |
+| Consumption smoothing, the cost of children, family size desired | Arm S primary | exposures are **transfer expectations and a pension scheme** — C.3.c's; and the pension null is uninformative because no pension exists for these households |
+| No-Birth Bonus Scheme + tea-estates report | Arm S primary | the savings account is the **vehicle for a payment for not giving birth** — C.2.d |
+| Is the Relationship Between Landholding and Fertility Spurious? | Arm S primary | **landholding** — C.4.a |
+| Risk and Fertility: A Reply to Robinson | Arm S primary | conceptual reply, **no estimate** |
+| Rainfall risk, fertility and development | routed to C.5.a **on its title** | a second estimand hidden in Table 4 — **rescued back into Arm S** |
+
+**Eleven removals and one rescue.** The pattern in the removals is remarkably consistent: **fertility
+or family size appears on the right-hand side**, or the outcome is education, earnings, or interest
+rates. Four of the twelve are that exact failure.
+
+### What this implies for the fifty-one records not yet read
+
+The screen assigned cells from titles and abstracts. **Where those cells have been tested, they have
+failed about two-thirds of the time**, almost always by removing a record. The remaining 51 unread
+primary records should be expected to shrink substantially on contact with their own texts, and
+**no synthesis should be written on screen cells alone.**
+
+The chapter's arms as they stand — Arm B 14, composite 40, Arm S 11 — are therefore an **upper bound**,
+not a count.
+
+### And a screening rule that would have caught four of them
+
+Every one of the "fertility is a regressor" failures had a title of the form *"…family size and
+[non-fertility outcome]…"* or *"…[credit] and childbearing…"*. **A title naming family size or
+childbearing alongside a second, non-fertility noun is a warning, not a match** — the second noun is
+usually the dependent variable. That belongs in the screening rubric rather than being rediscovered
+paper by paper.
