@@ -189,3 +189,26 @@ Three finished chapters have already routed evidence into this one. Read these b
 - Next: strip and screen round 2; extract the four with `OUTCOME_LEVEL` mandatory; **power-read Desai
   and Tarozzi** — an uninformative null and a precise zero are recorded very differently in GRADE.
 
+### 2026-09-01 — round 2 screened: 15 composite candidates, and a sign refinement
+
+- `287_c3e_round2_screen.py`; log at `credit-constraints-round2-screen-log.md`.
+- **Correction: the method layer is 8.4% (25 of 297), not "heavy".** I read a citation-sorted top-20 as
+  if it described the pool; econometrics textbooks own the head of any citation-ordered list. Measured
+  and reported as a flag, not used as a gate — the estimand classifier does the screening.
+- **15 records pair an exposure with a fertility outcome; all 15 composite, 0 Arm S, 0 Arm B.** Round 2
+  extended only the composite cell and is not evidence about the other two arms.
+- **Islam, Kamal and Nguyen 2026 (JDS)**: purpose-built 1997-2005 microcredit panel, DiD + matching,
+  finds **lower recent fertility and fewer births**. Third version pair in this chapter — the title
+  query resolves first to a Figshare deposit; the JDS article is the version of record.
+- **Orton et al. 2016 (Bulletin of the WHO)**: systematic review of group-based microfinance health
+  impacts over 1 cluster-RCT + 22 quasi-experimental studies. An external-authority anchor source with
+  a 23-study base — cheaper than a third snowball round.
+- **Sign refinement, against what I said earlier.** "The direction runs against Arm S" came from the
+  desires arm alone and was too strong. On REALIZED fertility: two negatives (Desai-Tarozzi RCT, Islam
+  et al.) and two nulls (Kuchler, Steele) — Arm S's predicted sign. On STATED desires: positive
+  (desired family size +0.38-0.40; intentions up). The two outcome levels carry **opposite signs from
+  the same exposure**, so `OUTCOME_LEVEL` is load-bearing for the verdict, not for bookkeeping.
+- Bound: **85 of 297 (29%) have no abstract**; the 15 is a floor.
+- Next: screen the 15; mine the Orton review's included-study list; retrieve Islam et al. (JDS version);
+  **run a separate round seeded from Arm S and Arm B** — they still rest on round 1.
+

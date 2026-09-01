@@ -1,0 +1,130 @@
+{
+  "summary": {
+    "round2_new_records": 297,
+    "hydrated": 297,
+    "no_abstract": 85,
+    "method_layer_flagged": 25,
+    "method_layer_share": 0.084,
+    "method_flagged_that_also_carry_an_estimand": 2,
+    "exposure_x_outcome": 15,
+    "\u2026_and_identification": 3,
+    "by_arm_of_the_identified": {
+      "composite": 3,
+      "S": 0,
+      "B": 0
+    }
+  },
+  "identified": [
+    {
+      "openalex": "W2513923226",
+      "doi": "10.2471/blt.15.168252",
+      "title": "Group-based microfinance for collective empowerment: a systematic review of health impacts",
+      "norm_title": "group based microfinance for collective empowerment a systematic review of health impacts",
+      "year": 2016,
+      "type": "review",
+      "venue": "Bulletin of the World Health Organization",
+      "cited_by": 99,
+      "authors": "Lois Orton; Andy Pennington; Shilpa Nayak; Amanda Sowden",
+      "seeds_backward": [],
+      "seeds_forward": [
+        "desai-tarozzi-2011"
+      ],
+      "first_found_round": 2,
+      "abstract": "OBJECTIVE: To assess the impact on health-related outcomes, of group microfinance schemes based on collective empowerment. METHODS: We searched the databases Social Sciences Citation Index, Embase, MEDLINE, MEDLINE In-Process, PsycINFO, Social Policy & Practice and Conference Proceedings Citation Index for articles published between 1 January 1980 and 29 February 2016. Articles reporting on health impacts associated with group-based microfinance were included in a narrative synthesis. FINDINGS: We identified one cluster-randomized control trial and 22 quasi-experimental studies. All of the included interventions targeted poor women living in low- or middle-income countries. Some included a health-promotion component. The results of the higher quality studies indicated an association between membership of a microfinance scheme and improvements in the health of women and their children. The observed improvements included reduced maternal and infant mortality, better sexual health and, in some cases, lower levels of interpersonal violence. According to the results of the few studies in which changes in empowerment were measured, membership of the relatively large and well-established microfinance schemes generally led to increased empowerment but this did not necessarily translate into improved health outcomes. Qualitative evidence suggested that increased empowerment may have contributed to observed improvements in contraceptive use and mental well-being and reductions in the risk of violence from an intimate partner. CONCLUSION: Membership of the larger, well-established group-based microfinance schemes is associated with improvements in some health outcomes. Future studies need to be designed to cope better with bias and to assess negative as well as positive social and health impacts.",
+      "has_outcome": true,
+      "has_composite": true,
+      "has_S": false,
+      "has_B": false,
+      "has_ident": true,
+      "ident_terms": [
+        "quasi-experiment",
+        "randomized"
+      ],
+      "method_layer": false,
+      "no_abstract": false
+    },
+    {
+      "openalex": "W1565426900",
+      "doi": null,
+      "title": "An empirical analysis of microcredit on China rural household",
+      "norm_title": "an empirical analysis of microcredit on china rural household",
+      "year": 2010,
+      "type": "dissertation",
+      "venue": "Lincoln University Research Archive (Lincoln University)",
+      "cited_by": 13,
+      "authors": "Li Xia",
+      "seeds_backward": [],
+      "seeds_forward": [
+        "steele-amin-naved-1998"
+      ],
+      "first_found_round": 2,
+      "abstract": "Since its introduction in Bangladesh in the seventies, microcredit has been well documented to have social implications such as reducing poverty and empowering the poor by offering them opportunities to access economic resources. Microcredit was introduced into China in the mid-1990s, aiming to facilitate credit access by farmers and mitigate rural poverty in China. However, the impacts of microcredit on China rural households\u2019 livelihoods are not well documented. In addition, despite the efforts made by the Chinese government to support and popularise the implementation of microcredit, the access to institutional credits including microcredit by the rural population remains insufficient. This research assesses the impacts of microcredit on household welfare (measured by income and consumption) and women empowerment in rural China. In addition, it examines the key factors that influence the accessibility of microcredit by rural households in China. The impact of microcredit on household welfare is estimated using the difference-in-difference approach and logistic regression is employed to analyse the accessibility to microcredit by Chinese rural households and the women\u2019s empowerment impact of microcredit respectively. Both primary and secondary data are used in the empirical analyses: primary data are collected through a household survey using a structured questionnaire; secondary data are obtained from the Rural Credit Cooperative, the largest microcredit provider in China. The results support the wide belief in the literature that microcredit can significantly improve the households\u2019 welfare such as income and consumption. The results also reveal that microcredit has a significant impact on five different dimensions of women empowerment ranging from economic security (i.e., control of financial resources) to awareness of social/legal issues (e.g., rights to protest against domestic abuse, minimum legal marriage age, etc). Furthermore, a total of twelve household-related factors (e.g., household income, family size) are identified as key factors influencing households\u2019 accessibility to microcredit. Despite the optimistic findings on how microcredit has changed the rural households\u2019 lives, the results show that the vast majority of the programme participants are non-poor, which casts some doubts on the social potential (such as poverty reduction) of China\u2019s microcredit programmes.",
+      "has_outcome": true,
+      "has_composite": true,
+      "has_S": false,
+      "has_B": false,
+      "has_ident": true,
+      "ident_terms": [
+        "difference-in-difference"
+      ],
+      "method_layer": false,
+      "no_abstract": false
+    },
+    {
+      "openalex": "W7163997065",
+      "doi": "10.1080/00220388.2026.2679278",
+      "title": "Microcredit Participation and Fertility: Evidence from Bangladesh",
+      "norm_title": "microcredit participation and fertility evidence from bangladesh",
+      "year": 2026,
+      "type": "article",
+      "venue": "The Journal of Development Studies",
+      "cited_by": 0,
+      "authors": "Asad Islam; Mustafa Kamal; Vy Nguyen; Russell Smyth",
+      "seeds_backward": [],
+      "seeds_forward": [
+        "steele-amin-naved-1998",
+        "desai-tarozzi-2011",
+        "kuchler-2012"
+      ],
+      "first_found_round": 2,
+      "abstract": "Bangladesh has experienced a significant decline in fertility in recent decades. At the same time, the country has witnessed a rapid increase in microcredit coverage. This article examines the role of microcredit in fertility decline in Bangladesh. It uses a large household-level panel dataset for the period 1997\u20132005 designed specifically to evaluate microcredit programmes across Bangladesh. Using a difference-in-differences framework combined with matching techniques, the article finds that access to microcredit is associated with lower recent fertility and fewer births during the study period. It also finds that the channels through which this association appears to operate include increased awareness of contraception use, a reduction in child mortality, increased time engaged in income-generating and productive activities, and reduced time available for child-rearing.",
+      "has_outcome": true,
+      "has_composite": true,
+      "has_S": false,
+      "has_B": false,
+      "has_ident": true,
+      "ident_terms": [
+        "difference-in-difference"
+      ],
+      "method_layer": false,
+      "no_abstract": false
+    }
+  ],
+  "method_flagged_titles": [
+    "Econometric Analysis of Cross Section and Panel Data",
+    "Statistical Analysis With Missing Data",
+    "Identification of Causal Effects Using Instrumental Variables",
+    "Ethiopia demographic and health survey, 2000",
+    "The Economics and Econometrics of Active Labor Market Programs",
+    "Generalized reduced rank tests using the singular value decomposition",
+    "Statistical Analysis with Missing Data",
+    "Testing for Weak Instruments in Linear IV Regression",
+    "Limited-Dependent and Qualitative Variables in Econometrics.",
+    "Enhanced Routines for Instrumental Variables/Generalized Method of Moments Estimation and Testing",
+    "Microfinance and Poverty: Evidence Using Panel Data from Bangladesh",
+    "Latent Variable Models and Factor Analysis",
+    "THE ESTIMATION OF CAUSAL EFFECTS FROM OBSERVATIONAL DATA",
+    "Latent Variable Models and Factor Analysis",
+    "Latent Variable Models and Factor Analysis.",
+    "Microfinance and Poverty: Evidence Using Panel Data from Bangladesh",
+    "Bangladesh Demographic and Health Survey 1993-1994",
+    "Purposive Program Placement and the Estimation of Family Planning Program Effects in Tanzania",
+    "The determinants of contraceptive innovation : a case-control study of family planning acceptance in a traditional African society",
+    "Overcoming Barriers to Health Service Access and Influencing the Demand Side Through Purchasing",
+    "Sustainability of a government targeted credit program",
+    "Population, Family Planning and Reproductive Health Policy Harmonization in Bangladesh",
+    "Societal Development in Rural China",
+    "Subjective expectations and demand for contraception",
+    "Do Microfinance Programs Change Fertility? Evidence Using Panel Data from Bangladesh"
+  ]
+}
