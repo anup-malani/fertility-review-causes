@@ -521,3 +521,28 @@ Three finished chapters have already routed evidence into this one. Read these b
 - **Benin RCT resolved NEGATIVE:** no fertility term in the abstract, and the 2x2 varies credit-product
   FEATURES, not access. Not a C.3.e estimate.
 
+### 2026-09-01 — read everything retrievable; 11 of 69 extracted
+
+- Log at `credit-constraints-read-all-log.md`; script `300_c3e_read_all.py`.
+- **"Read all the studies" is bounded by retrieval: 69 primary records, 18 with a verified full text,
+  51 without.**
+- **A mis-mapping was caught before it corrupted anything.** Reconciling the two PDF folders by fuzzy
+  title match **mis-assigned 8 of 10 files** — a PDF named for a record that had been ROUTED OUT fell
+  through to "best title match above 0.6" and landed on an unrelated record. Desai and Tarozzi's record
+  was handed the No-Birth-Bonus PDF. Caught because the candidate sentences read wrong; no extraction
+  row was written from a bad pairing. The map is now filename-is-an-id or the handoff CSV's explicit
+  map, **no fuzzy fallback**, each re-verified against the PDF's first page.
+- **Desai and Tarozzi had never been extracted** — retrieved this morning, quoted in four write-ups as
+  the centrepiece, no row. Now two rows: realized births **-0.106 to -0.166** (small, some significant)
+  and desired family size **+0.38 to +0.40** (5%). Context: fertility ROSE in the study area over the
+  period (TFR 5.5->6.0), which is a time trend, NOT a treatment effect.
+- Also extracted: **Kuchler 2012** (recent fertility -0.14, t=-1.54, ns) and **Lan et al. 2023**
+  (+0.136% fertility INTENTIONS per 1% digital financial inclusion).
+- **Extraction table: 14 rows, 11 studies, 7 identified; outcome levels 12 realized / 1 desired /
+  1 intention.** The pattern is now visible in the table: **every positive result sits on desires or
+  intentions, and every realized-fertility result in a low- or middle-income setting is null or
+  negative.** The realized positives are all high-income Arm B credit-access shocks.
+- **12 retrieved texts returned zero candidate sentences** — a method limit, not a finding: pdftotext
+  shreds two-column layouts and these estimates live in TABLES. They need hand reading.
+- **Honest state: 11 of 69 extracted (16%).** A synthesis today would report on a sixth of the pool.
+

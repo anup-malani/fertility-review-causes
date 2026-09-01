@@ -7,8 +7,11 @@ the study name was right, the estimate was right, and the row would have attache
 that does not exist -- or worse, to a real record that is a different study.
 
 Checks, all cheap and all of which have now failed at least once on this chapter:
-  1. every `openalex` exists in the retrieval record;
-  2. every id's title in the retrieval record matches the row's `study` field;
+  1. every `openalex` exists in the SCREEN TABLE -- the authoritative record set. It used to check
+     the 296 retrieval record, which was one run against one pool, and that produced FALSE POSITIVES
+     as soon as PDFs began arriving by other routes (hand delivery, the browser, the handoff folder).
+     A validator that flags correct rows gets ignored, which is worse than no validator;
+  2. every id's title in the screen table matches the row's `study` field;
   3. `OUTCOME_LEVEL` is present and from the closed list -- realized / desired / intention.
      This chapter's composite studies carried OPPOSITE SIGNS at different outcome levels, so a
      blank here is not a missing tag, it is a missing finding;
@@ -36,14 +39,15 @@ def norm(s):
 
 
 def main():
-    ret = json.loads((LOGS / "credit-constraints-primary-retrieval.json").read_text())
-    byid = {r["openalex"]: r for r in ret["records"]}
+    import csv as _csv
+    byid = {r["openalex"]: r for r in
+            _csv.DictReader((ROOT / "extraction" / "credit-constraints-screen.csv").open())}
     rows = list(csv.DictReader(CSVP.open()))
     errs = []
     for i, r in enumerate(rows, 2):
         oid = r["openalex"]
         if oid not in byid:
-            errs.append(f"row {i}: id {oid} is not in the retrieval record")
+            errs.append(f"row {i}: id {oid} is not in the screen table")
             continue
         t_ret, t_row = norm(byid[oid]["title"]), norm(r["study"])
         if not (t_row[:28] in t_ret or t_ret[:28] in t_row):
