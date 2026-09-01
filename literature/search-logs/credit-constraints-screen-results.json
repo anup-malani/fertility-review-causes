@@ -7,8 +7,8 @@
    "OFF_OLDAGE_C3c": 38,
    "PRIMARY_COMPOSITE_ACCESS": 32,
    "THEORY": 20,
-   "PRIMARY_BORROW_TERMS": 11,
-   "MECHANISM_NO_FERTILITY": 10,
+   "MECHANISM_NO_FERTILITY": 11,
+   "PRIMARY_BORROW_TERMS": 10,
    "REVERSE": 7,
    "PRIMARY_SAVE_INSURE": 6,
    "OFF_RISK_EXPOSURE_C5a": 4,
@@ -18,7 +18,7 @@
    "REVIEW_TO_MINE": 1
   },
   "primary_by_arm": {
-   "B": 11,
+   "B": 10,
    "composite": 32,
    "S": 6
   },
@@ -33005,7 +33005,7 @@
    "arm": "B",
    "screened_by": "Shravan/Claude",
    "screened_on": "2026-09-01",
-   "note": "Do Mortgage Interest Subsidies Affect Fertility... - VERSION TWIN of 1937, do not double count."
+   "note": "ABSTRACT READ VIA BROWSER 2026-09-01. Ao, Chen and Tseng, Academia Economic Papers 54(1) 71-105. Taiwan. DiD with matching on preferential mortgage rates for specific groups. IDENTIFIED. First stage verified: mortgage burden -7.9% (-17.6% outside the most expensive cities). NO effect on home purchase or fertility. Full text still wanted for SEs."
   },
   {
    "openalex": "W4417408273",
@@ -33018,7 +33018,7 @@
    "arm": "B",
    "screened_by": "Shravan/Claude",
    "screened_on": "2026-09-01",
-   "note": "Credit Availability, Intergenerational Interactions and Family Fertility Decisions."
+   "note": "ABSTRACT READ VIA BROWSER 2026-09-01. Wang and He, Jinan University, 82pp, posted Dec 2025. China Family Panel Studies 2018-2022, fixed-effects Poisson + IV. INVERTED-U effect of credit expansion on fertility. Mixed outcome levels \u2014 'fertility rates' for the main result, 'fertility intentions' for the bequest channel; record separately. Full text still wanted."
   },
   {
    "openalex": "W4405014414",
@@ -33027,11 +33027,11 @@
    "title": "Do Mortgage Interest Subsidies Affect Fertility and Housing Purchase Decisions? Evidence from an Aging Economy",
    "venue": "SSRN Electronic Journal",
    "stratum": "frame_only",
-   "cell": "PRIMARY_BORROW_TERMS",
-   "arm": "B",
+   "cell": "MECHANISM_NO_FERTILITY",
+   "arm": "",
    "screened_by": "Shravan/Claude",
    "screened_on": "2026-09-01",
-   "note": "Do Mortgage Interest Subsidies Affect Fertility and Housing Purchase Decisions. Credit TERMS at given prices - C.3.e under Wall 2."
+   "note": "VERSION PAIR RESOLVED VIA BROWSER 2026-09-01. The 2024 SSRN posting (5044513) has been WITHDRAWN \u2014 'under review or has been removed from SSRN at the request of the author'. The 2026 posting is the version of record and is published in Academia Economic Papers 54(1), 71-105. Collapsed into the 2026 record; not a separate study."
   },
   {
    "openalex": "W4214485069",

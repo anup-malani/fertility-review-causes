@@ -469,3 +469,28 @@ Three finished chapters have already routed evidence into this one. Read these b
   identified estimate for the arm it needs least and none for the arm PM/FDT depends on.
 - **Primary pool 49** (B 11, composite 32, S 6). Extraction: 7 rows, 5 studies, **2 identified**.
 
+### 2026-09-01 — Arm B browser jobs: 4 listed, 1 dissolved, 1 withdrawn, 2 read
+
+- Log at `credit-constraints-armb-browser-jobs.md`.
+- **"The Babies of Financial Deregulation" was never a separate study** — Isaac Hacamo, same
+  federal-regulator-ruling design as the delivered SSRN paper and the RFS article. **One study, three
+  versions.** Extracted: **+6 pp** on the probability of having a child for fully-exposed young
+  households. **Second identified estimate.** Author rejects income and housing-wealth channels and
+  points to ACCESS TO SPACE — a C.2.c boundary note.
+- **The 2024 mortgage-subsidy posting is WITHDRAWN from SSRN**; the 2026 posting is the version of
+  record, published in Academia Economic Papers 54(1) 71-105. Version pair resolved.
+- **Ao/Chen/Tseng 2026 is the chapter's FIRST IDENTIFIED NULL** — DiD with matching, Taiwan; first
+  stage verified (mortgage burden **-7.9%**, -17.6% outside the priciest cities) but **no effect on
+  home purchase or fertility**. An INFORMATIVE null, unlike Grimm's.
+- **A candidate reconciliation:** the two positive identified estimates are credit SUPPLY/ACCESS shocks
+  (extensive margin — can you borrow); this null is a COST reduction for people already borrowing
+  (intensive margin). Access moves fertility; cheapness may not. Test it against the remaining Arm B
+  records rather than assuming it.
+- **Wang and He 2025**: FE-Poisson + IV on China Family Panel Studies 2018-2022, **inverted-U** effect
+  of credit on fertility — a within-setting nonlinearity echoing the cross-setting sign flip, and the
+  first time the chapter has that theme from an identified design.
+- **Extraction table: 10 rows, 8 studies, 5 identified.** Arm B has 5 estimates, 4 identified, and they
+  DISAGREE: two positive access shocks, one null cost reduction, one inverted U. Primary pool 48.
+- Both new rows are **abstract-sourced** and on the residual retrieval list; do not pool before the
+  full texts are read.
+
