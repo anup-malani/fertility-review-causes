@@ -285,3 +285,28 @@ Three finished chapters have already routed evidence into this one. Read these b
 - Bounds: title/abstract only, design values are hypotheses; the 269 were screened on titles so 2.2% is
   a floor; 23% of the universe still has no abstract.
 
+### 2026-09-01 — screen wave 2: all 2,271 `frame_only` records; primary pool now 62
+
+- Log at `credit-constraints-screen-wave2.md`; table at `extraction/credit-constraints-screen.csv`.
+  **2,620 screened across three strata, zero validation errors.**
+- **The depth probe FAILED on this stratum: predicted ~6%, actual 1.6% primary — a 4x overestimate.**
+  It held to two points on `both_channels` (25.0% vs ~23%) and `snowball_r2_only` (2.2% vs ~4%). Cause:
+  a 40-record probe cannot measure a 1.6% base rate (expected count 0.6), and the probe counted
+  "relevant" loosely while the screen applied the cells strictly. **Rule: where a probe returns 0-2 of
+  40, the stratum is UNMEASURED, not low-yield.**
+- **Primary pool 26 -> 62** (composite 19->32, Arm S 3->16, Arm B 4->14).
+- **Wave 1's "Arm S is the thinnest arm and that is a finding" was PREMATURE** — an artefact of which
+  stratum had been screened. Arm S is now the second largest.
+- **A third FDT-era Arm S record**: *Savings Behaviour, Fertility and Economic Development in
+  Nineteenth Century Britain*, joining the US-counties and American-frontier papers. Two countries,
+  two distinct sources of variation.
+- **Arm S's exposure vocabulary is "risk", not "credit"** — four new Arm S records come from the Cain
+  debate and carry no finance token in the title. This is why the token filter (24/26 recall) could
+  not be used as a gate.
+- **Two more version pairs inside the primary pool** (bequest-receipt papers; mortgage-interest-subsidy
+  papers). Five in the chapter so far; de-dup before extraction is not optional.
+- 37 records now route to C.3.c. Flagged to revisit with the antebellum paper: *Bismarck in the
+  bedroom? Pension reform and fertility 1870-2010* — FDT-era, long panel.
+- Next: `snowball_r1_only` needs a 200+ record probe, not a 40; retrieve and extract the 62; mine the
+  three reviews.
+
