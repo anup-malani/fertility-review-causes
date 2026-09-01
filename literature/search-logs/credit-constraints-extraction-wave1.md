@@ -126,3 +126,51 @@ policy, risk and fertility in Bangladesh* (1983) and *Savings Behaviour, Fertili
 Development in Nineteenth Century Britain* (1987). The Britain paper was Tier 1 item 2, and with it
 unavailable **the FDT-era Arm S cell stands at one of three read** — the US-counties study — with the
 rainfall-risk paper still the highest-value outstanding item in the chapter.
+
+---
+
+## Addendum 2, 2026-09-01: the last two priority PDFs — one routed out, one is the chapter's first identified estimate
+
+### Bequest receipt: the same failure as the AER paper
+
+Grawe, *Bequest Receipt and Family Size Effects*, tests credit constraints using bequest receipt as a
+signal of credit-market access — and the **outcome is child earnings**: *"the connection between credit
+constraints and negative family size effects **on child earnings**."* Family size is the regressor. It
+is a quantity–quality study, not a fertility-outcome study.
+
+That is the **second** time today the identical failure mode has appeared, and both were Arm B records
+screened on a title containing "family size". Wall 6 routes both members of the version pair out;
+cross-ref C.3.d. **Arm B 13 → 11.**
+
+### Do credit supply shocks affect fertility choices? — the first identified estimate in the chapter
+
+Every extracted row until now has been `identified: NO`. This one is not.
+
+**Two shocks, two designs, one paper:**
+
+| Design | Estimate |
+|---|---|
+| US banking deregulation of the 1980s, exogenous variation in **state adoption timing** | deregulation increased the fertility rate by **+5.4%** |
+| Great Recession, **Bartik instrument** on pre-recession bank share | doubling household credit raises the propensity to give birth by **+9.5 pp on a 7.7 pp base** — from 7.7 to 17.2 pp |
+
+A one-standard-deviation increase in credit is associated with a 0.121 SD rise in the propensity to
+give birth; a 32% credit increase gives +3.2 pp. The effect is stronger **for young women and for
+families with unemployed husbands**, and the authors offer suggestive evidence that credit access works
+through more optimistic expectations.
+
+**The sign is positive: more credit supply, more fertility.** That is Arm B's predicted direction —
+liquidity relaxed, more children — and it is the first time the chapter has that direction from an
+identified design rather than a correlation.
+
+**It also corroborates the high-income half of the sign flip.** Filoso and Papagni's unidentified
+cross-country panel put high-income countries at **+3.7 to +5%** for a one-SD credit increase. This
+paper, identified, in a high-income setting, gives **+5.4%** from deregulation. Two very different
+designs, the same sign and a similar magnitude on the Arm B side.
+
+**What is still missing is the other half.** The low-income side of the flip — where Arm S should
+dominate and credit access should *lower* fertility — rests entirely on that same unidentified
+aggregate panel, plus Desai and Tarozzi's randomised null and Grimm's imprecise bank-access
+interaction. **The chapter now has an identified estimate for the arm it needs least and none for the
+arm the registry's PM/FDT configuration depends on.**
+
+**Primary pool: 49** (B 11, composite 32, S 6). Extraction table: 7 rows, 5 studies, 2 identified.

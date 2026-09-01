@@ -450,3 +450,22 @@ Three finished chapters have already routed evidence into this one. Read these b
   `10.1111/j.1465-7295.2008.00208.x` (**Wiley JS eReader shell**, not a PDF). Confirmed unavailable:
   19th-c Britain, 1983 Bangladesh comment.
 
+### 2026-09-01 — last two priority PDFs: one routed out, one is the first identified estimate
+
+- **Bequest receipt (Grawe) routed OUT.** The outcome is **child earnings**, family size is the
+  regressor — the identical failure to the AER P&P paper, and both were Arm B records screened on a
+  title containing "family size". Wall 6; cross-ref C.3.d. Applies to both members of the version pair.
+  **Arm B 13 -> 11.**
+- **"Do credit supply shocks affect fertility choices?" is the chapter's FIRST IDENTIFIED ESTIMATE.**
+  Two shocks in one paper: US banking deregulation of the 1980s (exogenous state adoption timing) gives
+  **+5.4% on the fertility rate**; the Great Recession with a **Bartik IV** on pre-recession bank share
+  gives **+9.5 pp on a 7.7 pp base** for the propensity to give birth. One SD of credit = 0.121 SD of
+  birth propensity. Stronger for young women and families with unemployed husbands.
+- **Sign positive — Arm B's predicted direction — and it corroborates the high-income half of the sign
+  flip**: Filoso-Papagni's unidentified panel says +3.7 to +5% for high-income countries; this says
+  +5.4%, identified. Two very different designs, same sign and magnitude.
+- **The low-income half of the flip still has NO identified support** — only the aggregate panel,
+  Desai-Tarozzi's randomised null, and Grimm's imprecise bank interaction. The chapter has an
+  identified estimate for the arm it needs least and none for the arm PM/FDT depends on.
+- **Primary pool 49** (B 11, composite 32, S 6). Extraction: 7 rows, 5 studies, **2 identified**.
+

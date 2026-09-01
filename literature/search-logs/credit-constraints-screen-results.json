@@ -7,8 +7,8 @@
    "OFF_OLDAGE_C3c": 38,
    "PRIMARY_COMPOSITE_ACCESS": 32,
    "THEORY": 20,
-   "PRIMARY_BORROW_TERMS": 13,
-   "MECHANISM_NO_FERTILITY": 8,
+   "PRIMARY_BORROW_TERMS": 11,
+   "MECHANISM_NO_FERTILITY": 10,
    "REVERSE": 7,
    "PRIMARY_SAVE_INSURE": 6,
    "OFF_RISK_EXPOSURE_C5a": 4,
@@ -18,7 +18,7 @@
    "REVIEW_TO_MINE": 1
   },
   "primary_by_arm": {
-   "B": 13,
+   "B": 11,
    "composite": 32,
    "S": 6
   },
@@ -33044,7 +33044,7 @@
    "arm": "B",
    "screened_by": "Shravan/Claude",
    "screened_on": "2026-09-01",
-   "note": "Do credit supply shocks affect fertility choices? Credit-supply variation, fertility outcome. Directly on Arm B's estimand."
+   "note": "RETRIEVED AND EXTRACTED 2026-09-01. IDENTIFIED: two credit-supply shocks \u2014 US banking deregulation of the 1980s (exogenous variation in adoption timing) and the 2007-09 Great Recession, the latter with a Bartik instrument on pre-recession bank share. The chapter's FIRST identified estimate."
   },
   {
    "openalex": "W3088349231",
@@ -33118,11 +33118,11 @@
    "title": "BEQUEST RECEIPT AND FAMILY SIZE EFFECTS",
    "venue": "Economic Inquiry",
    "stratum": "frame_only",
-   "cell": "PRIMARY_BORROW_TERMS",
-   "arm": "B",
+   "cell": "MECHANISM_NO_FERTILITY",
+   "arm": "",
    "screened_by": "Shravan/Claude",
    "screened_on": "2026-09-01",
-   "note": "Bequest Receipt and Family Size Effects. Companion to 407 - CHECK VERSION PAIR."
+   "note": "RE-ROUTED AT FULL TEXT. Grawe tests credit constraints via bequest receipt, but the OUTCOME IS CHILD EARNINGS: 'the connection between credit constraints and negative family size effects ON CHILD EARNINGS'. Family size is the regressor. Identical failure mode to the AER P&P paper \u2014 a quantity-quality study, not a fertility-outcome study. Wall 6 routes it out; cross-ref C.3.d. Applies to BOTH members of the version pair, which is one study."
   },
   {
    "openalex": "W2186788266",
@@ -33131,11 +33131,11 @@
    "title": "Do Credit Constraints Explain Family Size Effects? Tests Based on Bequest Receipt and Family Earnings",
    "venue": "",
    "stratum": "frame_only",
-   "cell": "PRIMARY_BORROW_TERMS",
-   "arm": "B",
+   "cell": "MECHANISM_NO_FERTILITY",
+   "arm": "",
    "screened_by": "Shravan/Claude",
    "screened_on": "2026-09-01",
-   "note": "Do Credit Constraints Explain Family Size Effects? Tests Based on Bequest Receipt. Bequest receipt as the source of variation."
+   "note": "RE-ROUTED AT FULL TEXT. Grawe tests credit constraints via bequest receipt, but the OUTCOME IS CHILD EARNINGS: 'the connection between credit constraints and negative family size effects ON CHILD EARNINGS'. Family size is the regressor. Identical failure mode to the AER P&P paper \u2014 a quantity-quality study, not a fertility-outcome study. Wall 6 routes it out; cross-ref C.3.d. Applies to BOTH members of the version pair, which is one study."
   },
   {
    "openalex": "W2345953986",
