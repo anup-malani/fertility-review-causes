@@ -569,3 +569,30 @@ Three finished chapters have already routed evidence into this one. Read these b
   no significant effect; severe self-selection, joiners more likely to have used contraception before
   joining).
 
+### 2026-09-01 — stages 8-11 run on the texts in hand (22% of the pool)
+
+- `301` poolability, `302` risk of bias, `303` demsig + GRADE; synthesis at
+  `credit-constraints-interim-synthesis.md`. **Not a chapter draft — see below.**
+- **Stage 9: NO META-ANALYSIS. Not one stratum qualifies.** A naive pool would have "qualified" on 14
+  studies; stratified by arm x outcome-level x estimator, every cell fails on study count or estimator
+  heterogeneity. Narrative synthesis.
+- **Stage 8: risk of bias — LOW 1, MODERATE 5, SERIOUS 6, CRITICAL 2.** D1 selection fails hardest
+  (Steele's joiners were more likely to have used contraception BEFORE joining). D5 first-stage-verified
+  separates the informative null (Ao, burden -7.9%) from the uninformative one (Grimm, measures "too
+  crude").
+- **Stage 10: every cell NOT ASSESSED on the arithmetic** (no fertility panel in the repo; C.2.c's
+  precedent). **But slope sufficiency answers the prior question and it is decisive:** over the SDT the
+  exposure EXPANDED (private credit/GDP 0.39->1.14 high-income, 0.13->0.31 LDC) and every identified
+  estimate says expansion RAISES fertility. **A mechanism whose exposure moved the way that raises
+  fertility cannot explain a fertility decline.** For the SDT, Arm B is an OFFSET, not a cause. The
+  composite cell is CONTESTED AT THE SIGN (Filoso-Papagni +3.7 to +5% vs Suriani negative throughout).
+- **Stage 11 GRADE (single rater; protocol needs three):** PM — S No evidence / B n/a / composite No
+  evidence. FDT — S Very low / B No evidence / composite No evidence. SDT — S No evidence /
+  **B Moderate** (four identified designs, downgraded once for indirectness) / composite Very low.
+- **THE RESULT: C.3.e's best-identified evidence does not support C.3.e as an explanation of fertility
+  decline — it supports the opposite.** The registry's PM/FDT configuration has no read evidence at all.
+- **§6 chapter draft deliberately NOT written.** 22% of the pool read; where screen cells were tested
+  they failed ~2/3 of the time; arm counts are an upper bound. Three things would move the verdict:
+  Arm S retrieval (9 unread), the two weak-venue identified sign-relevant studies, and Anup's Wall 1
+  ruling.
+

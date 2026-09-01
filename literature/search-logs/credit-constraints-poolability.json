@@ -1,0 +1,96 @@
+{
+ "strata": [
+  {
+   "arm": "B",
+   "outcome_level": "realized",
+   "identified": "identified",
+   "effects": 5,
+   "studies": 4,
+   "estimator_classes": [
+    "DiD_matching",
+    "IV",
+    "quasi_experimental_other"
+   ],
+   "poolable": false,
+   "verdict": "no \u2014 3 estimator classes: DiD_matching, IV, quasi_experimental_other"
+  },
+  {
+   "arm": "S",
+   "outcome_level": "realized",
+   "identified": "unidentified",
+   "effects": 3,
+   "studies": 2,
+   "estimator_classes": [
+    "cross_section_OLS_uncorrected",
+    "panel_FE"
+   ],
+   "poolable": false,
+   "verdict": "no \u2014 2 studies"
+  },
+  {
+   "arm": "composite",
+   "outcome_level": "desired",
+   "identified": "identified",
+   "effects": 1,
+   "studies": 1,
+   "estimator_classes": [
+    "RCT"
+   ],
+   "poolable": false,
+   "verdict": "no \u2014 1 studies"
+  },
+  {
+   "arm": "composite",
+   "outcome_level": "desired",
+   "identified": "unidentified",
+   "effects": 1,
+   "studies": 1,
+   "estimator_classes": [
+    "cross_section_OLS_uncorrected"
+   ],
+   "poolable": false,
+   "verdict": "no \u2014 1 studies"
+  },
+  {
+   "arm": "composite",
+   "outcome_level": "intention",
+   "identified": "unidentified",
+   "effects": 1,
+   "studies": 1,
+   "estimator_classes": [
+    "IV"
+   ],
+   "poolable": false,
+   "verdict": "no \u2014 1 studies"
+  },
+  {
+   "arm": "composite",
+   "outcome_level": "realized",
+   "identified": "identified",
+   "effects": 1,
+   "studies": 1,
+   "estimator_classes": [
+    "RCT"
+   ],
+   "poolable": false,
+   "verdict": "no \u2014 1 studies"
+  },
+  {
+   "arm": "composite",
+   "outcome_level": "realized",
+   "identified": "unidentified",
+   "effects": 6,
+   "studies": 5,
+   "estimator_classes": [
+    "DiD",
+    "aggregate_panel_uncorrected",
+    "cross_section_OLS_uncorrected",
+    "theory_plus_empirical_uncorrected"
+   ],
+   "poolable": false,
+   "verdict": "no \u2014 4 estimator classes: DiD, aggregate_panel_uncorrected, cross_section_OLS_uncorrected, theory_plus_empirical_uncorrected"
+  }
+ ],
+ "naive_studies": 14,
+ "any_poolable": false
+}

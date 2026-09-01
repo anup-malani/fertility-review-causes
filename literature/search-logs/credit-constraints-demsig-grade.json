@@ -1,0 +1,84 @@
+{
+ "demographic_significance": {
+  "PM": {
+   "arm_S": "NOT ASSESSED \u2014 cell is in scope per the registry and EMPTY of read evidence. 11 Arm S records, 2 read at full text, both re-routed out or uninformative. GRADE: No evidence. Sign if it were assessed: negative (children as assets).",
+   "arm_B": "OUT OF SCOPE \u2014 borrowing terms require a credit market.",
+   "composite": "NOT ASSESSED \u2014 no pre-modern study in the pool."
+  },
+  "FDT": {
+   "arm_S": "NOT ASSESSED \u2014 three FDT-era records identified (19th-c US counties, 19th-c Britain, American frontier), ONE read, and it is an unidentified OLS cross-section. GRADE: Very low on one study, or No evidence if that study is routed to C.3.c on its own framing. Sign if assessed: negative.",
+   "arm_B": "NOT ASSESSED \u2014 no FDT-era borrowing-terms study in the pool.",
+   "composite": "NOT ASSESSED \u2014 no FDT-era composite study read."
+  },
+  "SDT": {
+   "arm_S": "NOT ASSESSED \u2014 no SDT-era Arm S estimate read.",
+   "arm_B": "**SIGN IS WRONG FOR THE PHENOMENON.** Over the SDT window the exposure EXPANDED (private credit/GDP 0.39 -> 1.14 in high-income countries), and every identified estimate says expansion RAISES fertility: +5.4% (US deregulation), +6pp (US mortgage deregulation), +9.5pp on a 7.7pp base (Bartik credit shock), one verified null (Taiwan). A mechanism whose exposure moved the way that RAISES fertility cannot explain a fertility DECLINE. At most it is an OFFSET that made the SDT smaller than it would otherwise have been. No share is computed and none should be: the sign forecloses the question.",
+   "composite": "NOT ASSESSED, and CONTESTED AT THE SIGN. The two aggregate panels disagree for developed countries \u2014 Filoso and Papagni +3.7 to +5%, Suriani et al. negative and significant in all 11 models. Both are unidentified and Suriani's Sargan test is rejected throughout. No share is computable and the sign is not agreed."
+  }
+ },
+ "grade": {
+  "PM": {
+   "arm_S": [
+    "No evidence",
+    "cell in scope and empty of read evidence"
+   ],
+   "arm_B": [
+    "n/a",
+    "out of scope"
+   ],
+   "composite": [
+    "No evidence",
+    "no pre-modern study"
+   ]
+  },
+  "FDT": {
+   "arm_S": [
+    "Very low",
+    "one unidentified OLS cross-section; downgraded for risk of bias (D1 selection SERIOUS, D3 confounded shock SERIOUS) and indirectness \u2014 the authors frame it as old-age security, C.3.c's motive"
+   ],
+   "arm_B": [
+    "No evidence",
+    "no FDT-era borrowing-terms study"
+   ],
+   "composite": [
+    "No evidence",
+    "no FDT-era composite study read"
+   ]
+  },
+  "SDT": {
+   "arm_S": [
+    "No evidence",
+    "no SDT-era Arm S estimate read"
+   ],
+   "arm_B": [
+    "Moderate",
+    "four identified designs (deregulation timing, Bartik IV, a federal regulator ruling, DiD-with-matching), consistent in sign, one with a verified first stage. Downgraded once for INDIRECTNESS: the estimates answer 'does credit access raise fertility', while the chapter asks whether credit constraints explain the SDT DECLINE, and the sign runs the wrong way for that question. Not downgraded for inconsistency: the null is on the intensive cost margin, the positives on the extensive access margin"
+   ],
+   "composite": [
+    "Very low",
+    "no identified estimate on realized fertility outside the Ethiopian RCT; the two aggregate panels disagree at the SIGN; Sargan rejected in one; D1 selection CRITICAL in two studies"
+   ]
+  }
+ },
+ "exposure_trend": {
+  "note": "Private credit to GDP, the chapter's own exposure, over the SDT window. Source: Filoso and Papagni's own reported figures, quoted in their text.",
+  "high_income": {
+   "from": 0.39,
+   "to": 1.14,
+   "direction": "EXPANDED, roughly threefold"
+  },
+  "LDC": {
+   "from": 0.13,
+   "to": 0.31,
+   "direction": "EXPANDED, roughly 2.4x"
+  }
+ },
+ "basis": {
+  "primary_pool": 65,
+  "studies_extracted": 14,
+  "effect_rows": 18,
+  "identified_studies": 5,
+  "share_of_pool_read": 0.215
+ },
+ "rater_note": "Rated by one rater. PROTOCOL \u00a75 stage 11 requires three independent raters; this is a single-rater draft and must be labelled as such. One rater arguing both sides is not a panel."
+}
