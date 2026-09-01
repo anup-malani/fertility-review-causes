@@ -10,8 +10,8 @@
    "PRIMARY_BORROW_TERMS": 13,
    "MECHANISM_NO_FERTILITY": 8,
    "REVERSE": 7,
-   "PRIMARY_SAVE_INSURE": 5,
-   "OFF_RISK_EXPOSURE_C5a": 5,
+   "PRIMARY_SAVE_INSURE": 6,
+   "OFF_RISK_EXPOSURE_C5a": 4,
    "OFF_HOUSING_C2c": 2,
    "OFF_PRICE_OF_BIRTH_C2d": 2,
    "OFF_LAND_C4a": 1,
@@ -20,7 +20,7 @@
   "primary_by_arm": {
    "B": 13,
    "composite": 32,
-   "S": 5
+   "S": 6
   },
   "by_stratum": {
    "both_channels": {
@@ -33599,11 +33599,11 @@
    "title": "Rainfall risk, fertility and development: evidence from farm settlements during the American demographic transition",
    "venue": "Journal of Economic Geography",
    "stratum": "both_channels",
-   "cell": "OFF_RISK_EXPOSURE_C5a",
-   "arm": "",
+   "cell": "PRIMARY_SAVE_INSURE",
+   "arm": "S",
    "screened_by": "Shravan/Claude",
    "screened_on": "2026-09-01",
-   "note": "WALL 1 RE-CUT ON THE INSTRUMENT (RA ruling 2026-09-01, PI confirmation pending). Rainfall risk on the American frontier: what varies is RAINFALL RISK EXPOSURE across settlements, not any financial instrument. Under the instrument re-cut this is C.5.a. NOTE THE COST: this was the chapter's highest-priority outstanding retrieval and its only plausibly identified Arm S design. The re-cut demotes it. Flag to C.5.a and to Anup."
+   "note": "WALL 1 RE-CUT ON THE INSTRUMENT (RA ruling 2026-09-01, PI confirmation pending) -- and then CORRECTED AT FULL TEXT. I had routed this to C.5.a on its title, on the reasoning that rainfall risk varies and no instrument does. The full text splits: the HEADLINE effect (rainfall variance x farm/non-farm differential within counties over time) is C.5.a's, but Table 4 cols (5)-(6) interact rainfall variability with ACCESS TO FINANCIAL SERVICES, measured as banks per county and banks per farm, time-varying. That interaction IS Arm S's estimand: does access to a formal instrument reduce the use of children as a risk buffer? RETAINED in Arm S for that estimate; main effect cross-refs C.5.a. One study, two estimands -- do not route wholesale."
   },
   {
    "openalex": "W2610590081",

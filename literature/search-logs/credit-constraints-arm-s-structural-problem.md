@@ -131,3 +131,68 @@ of cutting on the instrument.
   this is still one chapter — but the S side of the two-arm structure is now thin enough that the
   chapter should say so in the verdict rather than presenting two balanced arms.
 - **Arm B (13) and composite (32) are untouched.**
+
+---
+
+## Ruling: option 2, applied — and immediately corrected by a full text
+
+**Shravan voted option 2 on 2026-09-01 — re-cut Wall 1 on the instrument, not the risk. Applied as an
+RA ruling; PI confirmation from Anup is still required**, since it changes which phenomena are in scope.
+
+| Owns | Variation in |
+|---|---|
+| **C.3.c** | non-child **old-age security provision** — pensions, social pensions |
+| **C.3.e Arm S** | availability of a **general financial instrument** to the household — savings, insurance, credit — *whatever risk it covers* |
+| **C.5.a** | **risk exposure itself**, instruments held fixed |
+| C.4.a | land and tenure · C.2.d | the price of a birth |
+
+Applied to the twelve remaining Arm S records it routed **seven out** — five to C.5.a (rainfall risk,
+labour-income risk, income risk and the tax-benefit system, the insurance-effect reassessment, the
+1983 Bangladesh comment), one to C.3.c (economic utility of children in rural India), one to THEORY.
+**This is the outcome-3 I predicted from option 2, and it arrived immediately.**
+
+### Then the rainfall paper arrived and corrected the ruling's first casualty
+
+I had routed Grimm's *Rainfall risk, fertility and development* to C.5.a **on its title**, reasoning
+that rainfall risk varies and no instrument does. That is exactly the inference that failed four times
+earlier today. The full text splits:
+
+- **The headline effect** — rainfall variance interacted with the farm/non-farm fertility differential,
+  within counties and over time — is **C.5.a's**. Risk exposure varies.
+- **Table 4, columns (5)–(6)** interact rainfall variability with **access to financial services**,
+  measured as **banks per county** and banks per farm, time-varying. That is **Arm S's estimand
+  exactly**: does access to a formal instrument reduce the use of children as a risk buffer?
+
+So it is a **boundary-spanning design and must be split by estimate, not routed wholesale.** Retained
+in Arm S for the interaction; the main effect cross-references C.5.a.
+
+**The Arm S estimate itself is an uninformative null.** The interaction is negative in sign but
+"economically small and statistically insignificant", and the author says plainly that it is "hard to
+say whether financial services could not or were not used for risk coping or whether the available
+measures of access to financial services are simply too crude." Recorded as **imprecise, not as
+evidence of no effect** — the distinction that decides whether GRADE downgrades for imprecision or
+records a null.
+
+The contrast inside the same table is the interesting part: **irrigation and machinery interactions do
+attenuate the buffer effect**, while the financial-access measure does not. Risk-mitigating technology
+works where the crude bank-count proxy cannot detect anything.
+
+### Where Arm S stands
+
+**Arm S: 12 → 6.** Primary pool **57 → 51** (B 13, composite 32, S 6). Of the six, two are retrieved
+and extracted (US counties c.1850; this paper), one is unavailable (19th-century Britain), three unread.
+
+- **Arm S still cannot support a GRADE rating**, and PM and FDT hang on it. If it stays here the honest
+  verdict for those phenomena is **UNEVALUATED with GRADE No evidence**.
+- **Both extracted Arm S estimates are `identified: NO`** and one is explicitly imprecise.
+- **Ruling 1 stands.** Composite exposures remain unallocable, so this is still one chapter — but the
+  S side is thin enough that the verdict must say so rather than presenting two balanced arms.
+- Arm B (13) and composite (32) are untouched.
+
+### A pattern worth naming
+
+Three routings were overturned by full text today — the AER paper (family size was a regressor), the
+Ridker scheme (the savings account was a payment vehicle), and this one (a second estimand hid inside
+a paper whose title names only the first). **The screen's cells are hypotheses, and the error runs in
+both directions**: full text has now removed studies from the pool *and* rescued one the ruling had
+just discarded.

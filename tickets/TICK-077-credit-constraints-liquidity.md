@@ -420,3 +420,33 @@ Three finished chapters have already routed evidence into this one. Read these b
   receipt `10.1111/j.1465-7295.2008.00208.x` (**Wiley JS eReader shell**, not a PDF). Two confirmed
   unavailable: 19th-c Britain, 1983 Bangladesh comment.
 
+### 2026-09-01 — Wall 1 re-cut on the instrument (option 2); Arm S 12 -> 6
+
+- **Shravan voted option 2; applied as an RA ruling, PI confirmation from Anup still required** (it
+  changes which phenomena are in scope). C.3.c owns old-age PROVISION; C.3.e Arm S owns availability
+  of a general financial instrument whatever risk it covers; C.5.a owns risk EXPOSURE with instruments
+  fixed; C.4.a land; C.2.d the price of a birth.
+- Applied to the 12 remaining Arm S records it routed **7 out** (5 to C.5.a, 1 to C.3.c, 1 to THEORY).
+  The outcome-3 I predicted from option 2, and it arrived immediately.
+- **Then the rainfall paper arrived and corrected the ruling's first casualty.** I had routed Grimm's
+  *Rainfall risk, fertility and development* to C.5.a **on its title**. The full text SPLITS: the
+  headline effect (rainfall variance x farm/non-farm differential) is C.5.a's, but **Table 4 cols
+  (5)-(6) interact rainfall variability with ACCESS TO FINANCIAL SERVICES (banks per county, banks per
+  farm, time-varying)** — which is Arm S's estimand exactly. **Retained in Arm S for that estimate;
+  main effect cross-refs C.5.a. Split by estimate, not routed wholesale.**
+- **That Arm S estimate is an UNINFORMATIVE null**: negative in sign, "economically small and
+  statistically insignificant", and the author says it is "hard to say whether financial services could
+  not or were not used ... or whether the available measures ... are simply too crude." Recorded as
+  imprecise, NOT as evidence of no effect. Note the contrast in the same table: irrigation and
+  machinery interactions DO attenuate the buffer effect.
+- **Arm S 12 -> 6; primary pool 57 -> 51** (B 13, composite 32, S 6). Two of the six retrieved and
+  extracted, one unavailable, three unread. **Arm S still cannot support a GRADE rating; PM and FDT
+  hang on it.** All five extracted rows remain `identified: NO`.
+- **Three routings overturned by full text today** — the AER paper (family size a regressor), Ridker
+  (savings account a payment vehicle), Grimm (a second estimand hidden in the paper). The error runs
+  BOTH ways: full text has removed studies and rescued one the ruling had just discarded.
+- **Still outstanding:** credit supply shocks `10.1016/j.jbef.2022.100633` (**ScienceDirect Cloudflare
+  block** — the `main.html` file is the failed save); bequest receipt
+  `10.1111/j.1465-7295.2008.00208.x` (**Wiley JS eReader shell**, not a PDF). Confirmed unavailable:
+  19th-c Britain, 1983 Bangladesh comment.
+
