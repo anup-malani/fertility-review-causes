@@ -143,3 +143,24 @@ Three finished chapters have already routed evidence into this one. Read these b
   this one chapter has no direct evidence — UNEVALUATED with GRADE No evidence. Ruling 1 is unaffected:
   the arms stay unpoolable either way.
 
+### 2026-09-01 — the composite cell is NOT empty; four boundary-spanning candidates
+
+- `283_c3e_boundary_hunt.py`; log at `credit-constraints-boundary-hunt-log.md`.
+- **Correction to the previous entry.** Six probes reading zero made "the composite cell is empty" the
+  natural inference; it is wrong. Four studies pair a financial-access exposure with a fertility
+  outcome under an identified design: **Desai and Tarozzi 2011 (Demography, randomized field
+  experiment crossing credit with family planning; outcomes contraceptive use, fertility, family-size
+  preferences)**, Steele/Amin/Naved 1998 (quasi-experimental panel), Kuchler 2012 (DiD + IV), Lan et
+  al. 2023 (IV, fertility intentions).
+- **Why it nearly stuck: the anchors were chosen by design celebrity, not by estimand.** The ten probes
+  were the 2015 AEJ:Applied microcredit symposium and friends. The microfinance-and-fertility literature
+  is a different literature, in Demography and development journals.
+- **The channel split is the diagnostic: 112 term-only, 2 provenance-only, 5 both.** The 3,976-record
+  snowball found almost none of this, because it was built from the same wrong anchors. A provenance
+  channel inherits its anchors' blind spot and cannot confirm a null those anchors caused.
+- Bound: 1,463 of 6,018 records have no abstract, so the triage is blind to them.
+- All four are retrieval-blocked (2 browser-job, 2 proxy-job). **Handoff is now eight studies**;
+  Desai and Tarozzi is the highest-priority item in the chapter.
+- Next: the handoff; snowball round 2 seeded from the four new candidates (unexplored neighbourhood);
+  fold `banked`/`unbanked` into the frame on the gold-recovered test.
+
