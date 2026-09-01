@@ -494,3 +494,30 @@ Three finished chapters have already routed evidence into this one. Read these b
 - Both new rows are **abstract-sourced** and on the residual retrieval list; do not pool before the
   full texts are read.
 
+### 2026-09-01 — the hand-sourced stratum was never screened; primary pool 48 -> 69
+
+- Log at `credit-constraints-handsourced-screen.md`.
+- **130 hand-sourced records had no cell assignment.** The sheets covered only the three discovery
+  strata. Excluded from the pool were **Desai and Tarozzi** (the chapter's only randomised estimate,
+  which I had retrieved, scanned and reasoned about all day), Steele, Kuchler, Lan, **Islam et al.**,
+  the inherited C.2.c Arm B anchors including **the PNAS provident-fund study C.2.c routed here**, and
+  the Arm S anchors (Cain 1981/1983, Portner, Pitt, Delavallade, AGEP).
+- **Third time hand-sourced studies have fallen out of an accounting in this chapter** — missing from
+  the universe (fixed in 291), absent-by-id when present as twins (fixed in 292), now missing from the
+  screen. The rule that catches all three: **reconcile against the hand-sourced list at EVERY stage,
+  as a check that fails loudly.**
+- **Primary pool 48 -> 69** (B 10->17, composite 32->40, S 6->12). Total screened 2,750.
+- **Two genuinely new IDENTIFIED records, both what the search phase was going to hunt for:**
+  **Million Baht Village Fund, Thailand** (IV+FE panel, **negative** — the missing identified support
+  for the low-income half of the sign flip; caveat: The Mathematics Enthusiast, 0 cites) and
+  **Financing Fertility through Bank Competition, China** (deregulation shock, **positive**; caveat:
+  Research Square preprint, 0 cites).
+- **Seven identified/quasi-identified estimates now, and they disagree.** TWO structures are on the
+  table, not one: the cross-setting **sign flip** and the within-setting **inverted U**. Do not blur
+  them in synthesis.
+- **Orton review mined:** 5 of 56 references carry a fertility term, 3 already in the pool. An
+  independent review contains almost nothing we lack — corroboration that the composite cell is
+  saturated, from a channel owing nothing to our query.
+- **Benin RCT resolved NEGATIVE:** no fertility term in the abstract, and the 2x2 varies credit-product
+  FEATURES, not access. Not a C.3.e estimate.
+
