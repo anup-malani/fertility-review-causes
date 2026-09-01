@@ -260,3 +260,28 @@ Three finished chapters have already routed evidence into this one. Read these b
   a Thai credit-constraints/family-size panel, and a second systematic review (J Economic Surveys 2020).
 - Bounds: 1,672 records (23%) have no abstract; yields are one rater at n=40 per stratum.
 
+### 2026-09-01 — screen wave 1: 349 records, primary pool of 26
+
+- `293_c3e_emit_screen_sheets.py`, `294_c3e_ingest_screen.py`; log at
+  `credit-constraints-screen-wave1.md`; routed table at `extraction/credit-constraints-screen.csv`.
+- **349 screened, zero validation errors** (no verdict for an off-sheet id, nothing routed twice, all
+  349 accounted for with 292 as an explicit `OFF_OTHER_read_not_routed` residual).
+- **The probe's yield curve held to within two points:** `both_channels` predicted ~23%, actual 25.0%
+  primary; `snowball_r2_only` predicted ~4%, actual 2.2%. The `frame_only` ~6% and `snowball_r1_only`
+  ~1% estimates can now be planned against.
+- **Primary pool 26: composite 19, Arm B 4, Arm S 3.** The composite cell, empty this morning, is now
+  the chapter's largest.
+- **The FDT cell has two members, both Arm S**: the 19th-century US counties study and "Rainfall risk,
+  fertility and development: farm settlements during the American frontier" (children as a buffer stock
+  of labour against rainfall risk).
+- **Arm S is the thinnest arm at 3 primary records.** If that survives the remaining waves its GRADE
+  rests on very little and PM may end UNEVALUATED.
+- **Wall 1 is load-bearing: 15 records routed to C.3.c**, 19% of `both_channels`, through to the 2022
+  AEJ:EP Namibian social-pension study. One flagged to revisit if C.3.c declines it: "Old-age security
+  motives, labor markets, and farm family fertility in antebellum America" — FDT-era, Arm S setting.
+- **One `REVERSE` record**: "Children as insurance revisited" estimates children -> insurance adoption.
+  Direct measured evidence that reverse causality here is real, not merely possible — risk-of-bias
+  material, not pool material.
+- Bounds: title/abstract only, design values are hypotheses; the 269 were screened on titles so 2.2% is
+  a floor; 23% of the universe still has no abstract.
+
