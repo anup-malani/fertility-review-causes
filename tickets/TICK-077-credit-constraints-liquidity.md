@@ -70,3 +70,29 @@ Three finished chapters have already routed evidence into this one. Read these b
   with a cheap probe to measure it before extraction. Call 2: inherited from A.24, unanswered —
   whether two chapters may both report the same study from a `MIXED_*` class.
 - Next: cold-start anchors (hand-sourced, recall scored **per arm**), then the Arm S survival probe.
+
+### 2026-09-01 — anchors resolved 26/26, PI Call 1 answered, shared resolver found dead
+
+- `275_c3e_cold_start_anchors.py`, `276_c3e_arm_s_probe.py`; log at
+  `literature/search-logs/credit-constraints-cold-start-anchors-log.md`.
+- **26 candidates, 26 resolved, zero absences.** Nine Arm B anchors were inherited
+  already-screened from C.2.c's `OFF_CREDIT_C3e` cell, plus the 2026 PNAS provident-fund study
+  C.2.c routed here and had already extracted.
+- **`title.search` is not a root OpenAlex parameter — the title channel failed 18/18 and every
+  resolution silently fell through to `search=`.** Inherited from A.18's script 245, so every
+  chapter's anchor resolution ran on the fallback. Fixed here with a quoted `filter=title.search:`
+  rung; after the fix 0 of 26 resolve via the fallback. **Flagged to TICK-074** as a shared-resolver
+  defect. Also: `%2C` does not escape a comma in a filter value, and the API's own error message
+  recommends `%2C`.
+- Two further false-absence defects fixed: `is_stem` was one-directional and refused book chapters
+  carrying an added "Chapter 8" prefix; a colon-spanning title does not match as one stemmed phrase,
+  so a head-quoted rung was added. Both surfaced real anchors that had read as missing.
+- **PI Call 1 answered: Arm S survives.** On the on-estimand asset-motive vocabulary the frame is
+  262 records, of which 36 (13.7%) are old-age framed — C.3.c has not taken the arm. The first
+  measurement said 6.2% and was not usable: "health insurance" alone carried 90% of that block and
+  is A.17's estimand, so it is banned from Arm S retrieval.
+- One inherited record is a **version pair** (Xi Yang, two DOIs) whose headline sign flips between
+  versions, from "More Credit, Fewer Babies?" to "More Credit, More Babies?" — one study, and the
+  version of record decides its sign. C.2.c's stored snapshot is stale against the live record.
+- Next: snowball the 26 anchors including decoys; production query per arm with per-arm recall.
+

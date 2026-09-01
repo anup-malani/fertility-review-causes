@@ -1,0 +1,162 @@
+{
+  "per_term": {
+    "oldage::old age security": {
+      "n": 212,
+      "error": null
+    },
+    "oldage::old-age security": {
+      "n": 212,
+      "error": null
+    },
+    "oldage::old age support": {
+      "n": 207,
+      "error": null
+    },
+    "oldage::pension": {
+      "n": 2819,
+      "error": null
+    },
+    "oldage::retirement": {
+      "n": 2590,
+      "error": null
+    },
+    "oldage::old age insurance": {
+      "n": 41,
+      "error": null
+    },
+    "withinlife_risk::children as insurance": {
+      "n": 34,
+      "error": null
+    },
+    "withinlife_risk::insurance motive": {
+      "n": 5,
+      "error": null
+    },
+    "withinlife_risk::consumption smoothing": {
+      "n": 44,
+      "error": null
+    },
+    "withinlife_risk::risk sharing": {
+      "n": 57,
+      "error": null
+    },
+    "withinlife_risk::crop insurance": {
+      "n": 68,
+      "error": null
+    },
+    "withinlife_risk::health insurance": {
+      "n": 2195,
+      "error": null
+    },
+    "withinlife_risk::income risk": {
+      "n": 52,
+      "error": null
+    },
+    "withinlife_risk::precautionary saving": {
+      "n": 11,
+      "error": null
+    },
+    "financial_access::financial inclusion": {
+      "n": 73,
+      "error": null
+    },
+    "financial_access::bank branch": {
+      "n": 10,
+      "error": null
+    },
+    "financial_access::microfinance": {
+      "n": 164,
+      "error": null
+    },
+    "financial_access::microcredit": {
+      "n": 97,
+      "error": null
+    },
+    "financial_access::savings account": {
+      "n": 46,
+      "error": null
+    },
+    "financial_access::access to credit": {
+      "n": 769,
+      "error": null
+    },
+    "financial_access::credit access": {
+      "n": 290,
+      "error": null
+    },
+    "financial_access::financial development": {
+      "n": 63,
+      "error": null
+    },
+    "borrowing_terms::credit constraint": {
+      "n": 85,
+      "error": null
+    },
+    "borrowing_terms::liquidity constraint": {
+      "n": 43,
+      "error": null
+    },
+    "borrowing_terms::borrowing constraint": {
+      "n": 40,
+      "error": null
+    },
+    "borrowing_terms::down payment": {
+      "n": 14,
+      "error": null
+    },
+    "borrowing_terms::loan-to-value": {
+      "n": 3,
+      "error": null
+    },
+    "borrowing_terms::mortgage credit": {
+      "n": 11,
+      "error": null
+    },
+    "borrowing_terms::credit supply": {
+      "n": 18,
+      "error": null
+    },
+    "borrowing_terms::interest rate": {
+      "n": 435,
+      "error": null
+    }
+  },
+  "blocks": {
+    "oldage": {
+      "n": 4812,
+      "error": null
+    },
+    "withinlife_risk": {
+      "n": 2431,
+      "error": null
+    },
+    "financial_access": {
+      "n": 1344,
+      "error": null
+    },
+    "borrowing_terms": {
+      "n": 620,
+      "error": null
+    }
+  },
+  "cross": {
+    "withinlife_risk_AND_oldage": {
+      "n": 151,
+      "of": 2431,
+      "share": 0.062,
+      "error": null
+    },
+    "financial_access_AND_oldage": {
+      "n": 34,
+      "of": 1344,
+      "share": 0.025,
+      "error": null
+    },
+    "borrowing_terms_AND_oldage": {
+      "n": 101,
+      "of": 620,
+      "share": 0.163,
+      "error": null
+    }
+  }
+}

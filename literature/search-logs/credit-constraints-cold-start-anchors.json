@@ -1,0 +1,933 @@
+[
+  {
+    "key": "cain-1981-risk-insurance",
+    "arm": "S",
+    "role": "anchor",
+    "confidence": "high",
+    "title": "Risk and Insurance: Perspectives on Fertility and Agrarian Change in India and Bangladesh",
+    "first_author": "Mead Cain",
+    "year": 1981,
+    "why": "Founding statement of the children-as-insurance motive; the Arm S theory anchor.",
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W2045582700",
+      "doi": "https://doi.org/10.2307/1972559",
+      "title": "Risk and Insurance: Perspectives on Fertility and Agrarian Change in India and Bangladesh",
+      "year": 1981,
+      "type": "article",
+      "venue": "Population and Development Review",
+      "authors_first": "Mead Cain",
+      "cited_by": 357,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "key": "cain-1983-adjustment-to-risk",
+    "arm": "S",
+    "role": "anchor",
+    "confidence": "high",
+    "title": "Fertility as an Adjustment to Risk",
+    "first_author": "Mead Cain",
+    "year": 1983,
+    "why": "Arm S mechanism, stated as a risk-buffering rather than an old-age claim - the Wall 1 distinction in its original form.",
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 2
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W4247490471",
+      "doi": "https://doi.org/10.2307/1973546",
+      "title": "Fertility as an Adjustment to Risk",
+      "year": 1983,
+      "type": "article",
+      "venue": "Population and Development Review",
+      "authors_first": "Mead Cain",
+      "cited_by": 111,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "key": "portner-2001-children-as-insurance",
+    "arm": "S",
+    "role": "anchor",
+    "confidence": "high",
+    "title": "Children as insurance",
+    "first_author": "Claus Portner",
+    "year": 2001,
+    "why": "Formalises the insurance motive; short generic title, expect resolver trouble.",
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 30
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W2036080479",
+      "doi": "https://doi.org/10.1007/s001480050162",
+      "title": "Children as insurance",
+      "year": 2001,
+      "type": "article",
+      "venue": "Journal of Population Economics",
+      "authors_first": "Claus C. P\u00f6rtner",
+      "cited_by": 59,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "key": "nugent-1985-old-age-security",
+    "arm": "S",
+    "role": "decoy",
+    "confidence": "high",
+    "title": "The Old-Age Security Motive for Fertility",
+    "first_author": "Jeffrey Nugent",
+    "year": 1985,
+    "why": "DECOY, expected to route to C.3.c. This is the Wall 1 test case: if the Arm S literature is all shaped like this, Arm S is C.3.c's.",
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 8
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W2041407368",
+      "doi": "https://doi.org/10.2307/1973379",
+      "title": "The Old-Age Security Motive for Fertility",
+      "year": 1985,
+      "type": "article",
+      "venue": "Population and Development Review",
+      "authors_first": "Jeffrey B. Nugent",
+      "cited_by": 307,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "key": "pitt-1999-credit-programs",
+    "arm": "S",
+    "role": "anchor",
+    "confidence": "high",
+    "title": "Credit Programs for the Poor and Reproductive Behavior in Low-Income Countries: Are the Reported Causal Effects the Result of Heterogeneity Bias?",
+    "first_author": "Mark Pitt",
+    "year": 1999,
+    "why": "Microcredit and reproductive behaviour, with the identification problem named in the title. Closest thing to an Arm S/composite gold record.",
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 0
+      },
+      {
+        "mode": "filter_title_head_quoted",
+        "error": null,
+        "count": 2
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": false,
+      "oa_id": "https://openalex.org/W1985479434",
+      "doi": "https://doi.org/10.2307/2648131",
+      "title": "Credit programs for the poor and reproductive behavior in low-income countries: Are the reported causal relationships the result of heterogeneity bias?",
+      "year": 1999,
+      "type": "article",
+      "venue": "Demography",
+      "authors_first": "Mark M. Pin",
+      "cited_by": 151,
+      "jaccard": 0.905,
+      "stem": false,
+      "first_author_ok": false,
+      "year_ok": true,
+      "score": 1.105,
+      "via": "filter_title_head_quoted"
+    },
+    "verdict": "MATCH_TITLE_AUTHOR_DISAGREES"
+  },
+  {
+    "key": "banerjee-2015-miracle",
+    "arm": "composite",
+    "role": "anchor",
+    "confidence": "high",
+    "title": "The Miracle of Microfinance? Evidence from a Randomized Evaluation",
+    "first_author": "Abhijit Banerjee",
+    "year": 2015,
+    "why": "Composite access, RCT. Fertility may be a secondary outcome or absent - which is itself the measurement.",
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 5
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W3121502504",
+      "doi": "https://doi.org/10.1257/app.20130533",
+      "title": "The Miracle of Microfinance? Evidence from a Randomized Evaluation",
+      "year": 2015,
+      "type": "article",
+      "venue": "American Economic Journal Applied Economics",
+      "authors_first": "Abhijit Banerjee",
+      "cited_by": 1478,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "key": "crepon-2015-morocco",
+    "arm": "composite",
+    "role": "probe",
+    "confidence": "probe",
+    "title": "Estimating the Impact of Microcredit on Those Who Take It Up: Evidence from a Randomized Experiment in Morocco",
+    "first_author": "Bruno Crepon",
+    "year": 2015,
+    "why": "Same family as Banerjee; probing whether the microcredit RCT wave measured fertility at all.",
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 5
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W3196979806",
+      "doi": "https://doi.org/10.3886/e116333v1",
+      "title": "Replication data for: Estimating the Impact of Microcredit on Those Who Take It Up: Evidence from a Randomized Experiment in Morocco",
+      "year": 2015,
+      "type": "dataset",
+      "venue": "ICPSR Data Holdings",
+      "authors_first": "Bruno Cr\u00e9pon",
+      "cited_by": 1,
+      "jaccard": 0.857,
+      "stem": true,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.607,
+      "via": "filter_title_quoted"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "key": "angelucci-2015-compartamos",
+    "arm": "composite",
+    "role": "probe",
+    "confidence": "probe",
+    "title": "Microcredit Impacts: Evidence from a Randomized Microcredit Program Placement Experiment by Compartamos Banco",
+    "first_author": "Manuela Angelucci",
+    "year": 2015,
+    "why": "As above.",
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 4
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W3092583275",
+      "doi": "https://doi.org/10.3886/e116334v1",
+      "title": "Replication data for: Microcredit Impacts: Evidence from a Randomized Microcredit Program Placement Experiment by Compartamos Banco",
+      "year": 2015,
+      "type": "dataset",
+      "venue": "ICPSR Data Holdings",
+      "authors_first": "Manuela Angelucci",
+      "cited_by": 0,
+      "jaccard": 0.8,
+      "stem": true,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.55,
+      "via": "filter_title_quoted"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "key": "attanasio-2015-mongolia",
+    "arm": "composite",
+    "role": "probe",
+    "confidence": "probe",
+    "title": "The Impacts of Microfinance: Evidence from Joint-Liability Lending in Mongolia",
+    "first_author": "Orazio Attanasio",
+    "year": 2015,
+    "why": "As above.",
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 7
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W3092569910",
+      "doi": "https://doi.org/10.3886/e113597v1",
+      "title": "Replication data for: The Impacts of Microfinance: Evidence from Joint-Liability Lending in Mongolia",
+      "year": 2015,
+      "type": "dataset",
+      "venue": "ICPSR Data Holdings",
+      "authors_first": "Orazio Attanasio",
+      "cited_by": 1,
+      "jaccard": 0.786,
+      "stem": true,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.536,
+      "via": "filter_title_quoted"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "key": "dupas-2013-savings-constraints",
+    "arm": "S",
+    "role": "probe",
+    "confidence": "probe",
+    "title": "Savings Constraints and Microenterprise Development: Evidence from a Field Experiment in Kenya",
+    "first_author": "Pascaline Dupas",
+    "year": 2013,
+    "why": "Saving-pure access. Outcome is enterprise, not fertility - a Wall 6 boundary probe.",
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 7
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W3122916816",
+      "doi": "https://doi.org/10.1257/app.5.1.163",
+      "title": "Savings Constraints and Microenterprise Development: Evidence from a Field Experiment in Kenya",
+      "year": 2013,
+      "type": "article",
+      "venue": "American Economic Journal Applied Economics",
+      "authors_first": "Pascaline Dupas",
+      "cited_by": 959,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "key": "prina-2015-banking-the-poor",
+    "arm": "S",
+    "role": "probe",
+    "confidence": "probe",
+    "title": "Banking the poor via savings accounts: Evidence from a field experiment",
+    "first_author": "Silvia Prina",
+    "year": 2015,
+    "why": "Saving-pure access with household outcomes; probe for a fertility or birth-spacing outcome.",
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W2139599662",
+      "doi": "https://doi.org/10.1016/j.jdeveco.2015.01.004",
+      "title": "Banking the poor via savings accounts: Evidence from a field experiment",
+      "year": 2015,
+      "type": "article",
+      "venue": "Journal of Development Economics",
+      "authors_first": "Silvia Prina",
+      "cited_by": 427,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "key": "burgess-2005-rural-banks",
+    "arm": "composite",
+    "role": "probe",
+    "confidence": "probe",
+    "title": "Do Rural Banks Matter? Evidence from the Indian Social Banking Experiment",
+    "first_author": "Robin Burgess",
+    "year": 2005,
+    "why": "The canonical staggered branch-expansion design. Outcome is poverty; the probe asks whether anyone has run it on fertility.",
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 2
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W3086327014",
+      "doi": "https://doi.org/10.3886/e112313v1",
+      "title": "Replication data for: Do Rural Banks Matter? Evidence from the Indian Social Banking Experiment",
+      "year": 2005,
+      "type": "dataset",
+      "venue": "ICPSR Data Holdings",
+      "authors_first": "Robin Burgess",
+      "cited_by": 0,
+      "jaccard": 0.786,
+      "stem": true,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.536,
+      "via": "filter_title_quoted"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "key": "bruhn-2014-mexico",
+    "arm": "composite",
+    "role": "probe",
+    "confidence": "probe",
+    "title": "The Real Impact of Improved Access to Finance: Evidence from Mexico",
+    "first_author": "Miriam Bruhn",
+    "year": 2014,
+    "why": "Branch-expansion family, outcome income and employment. Boundary probe.",
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 2
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W2145691096",
+      "doi": "https://doi.org/10.1111/jofi.12091",
+      "title": "The Real Impact of Improved Access to Finance: Evidence from Mexico",
+      "year": 2013,
+      "type": "article",
+      "venue": "The Journal of Finance",
+      "authors_first": "Miriam Bruhn",
+      "cited_by": 719,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "key": "rosenzweig-1989-consumption-smoothing",
+    "arm": "S",
+    "role": "probe",
+    "confidence": "probe",
+    "title": "Consumption Smoothing, Migration, and Marriage: Evidence from Rural India",
+    "first_author": "Mark Rosenzweig",
+    "year": 1989,
+    "why": "Risk-coping through family structure where formal insurance is absent; marriage not fertility, so a Wall 6 case.",
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 2
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W1485700608",
+      "doi": "https://doi.org/10.1086/261633",
+      "title": "Consumption Smoothing, Migration, and Marriage: Evidence from Rural India",
+      "year": 1989,
+      "type": "article",
+      "venue": "Journal of Political Economy",
+      "authors_first": "Mark R. Rosenzweig",
+      "cited_by": 1197,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "key": "schultz-1997-demand-for-children",
+    "arm": "S",
+    "role": "theory",
+    "confidence": "probe",
+    "title": "Demand for children in low income countries",
+    "first_author": "T. Paul Schultz",
+    "year": 1997,
+    "why": "Handbook chapter; theory stream, and a citation hub for Arm S.",
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 2
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W188381894",
+      "doi": "https://doi.org/10.1016/s1574-003x(97)80025-6",
+      "title": "Chapter 8 Demand for children in low income countries",
+      "year": 1997,
+      "type": "book-chapter",
+      "venue": "Handbook of Population and Family Economics",
+      "authors_first": "Tanja Schultz",
+      "cited_by": 215,
+      "jaccard": 0.778,
+      "stem": true,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.528,
+      "via": "filter_title_quoted"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "key": "cumming-2023-monetary-policy-birth-rates",
+    "arm": "B",
+    "role": "anchor",
+    "confidence": "confirmed",
+    "title": "Monetary Policy and Birth Rates: The Effect of Mortgage Rate Pass-Through on Fertility",
+    "first_author": "Fergus Cumming",
+    "year": 2023,
+    "why": "INHERITED from C.2.c as OFF_CREDIT_C3e. Interest-rate shock at fixed house prices - the cleanest Arm B design in the inherited set.",
+    "openalex": "W3122498213",
+    "doi": "10.1093/restud/rdad034",
+    "queries": [
+      {
+        "mode": "by_id",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W3122498213",
+      "doi": "https://doi.org/10.1093/restud/rdad034",
+      "title": "Monetary Policy and Birth Rates: The Effect of Mortgage Rate Pass-Through on Fertility",
+      "year": 2023,
+      "type": "article",
+      "venue": "The Review of Economic Studies",
+      "authors_first": "Fergus Cumming",
+      "cited_by": 20,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "by_id"
+    },
+    "verdict": "MATCH_BY_ID",
+    "title_drift": false
+  },
+  {
+    "key": "babies-of-mortgage-deregulation",
+    "arm": "B",
+    "role": "anchor",
+    "confidence": "confirmed",
+    "title": "The Babies of Mortgage Market Deregulation",
+    "first_author": "",
+    "year": 2020,
+    "why": "INHERITED from C.2.c. Credit-supply deregulation, fertility outcome in the title. First author unknown to this candidate list - resolver supplies it.",
+    "openalex": "W3007987552",
+    "doi": "10.1093/rfs/hhaa073",
+    "queries": [
+      {
+        "mode": "by_id",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W3007987552",
+      "doi": "https://doi.org/10.1093/rfs/hhaa073",
+      "title": "The Babies of Mortgage Market Deregulation",
+      "year": 2020,
+      "type": "article",
+      "venue": "Review of Financial Studies",
+      "authors_first": "Isaac Hacamo",
+      "cited_by": 29,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "by_id"
+    },
+    "verdict": "MATCH_BY_ID",
+    "title_drift": false
+  },
+  {
+    "key": "pnas-2026-provident-fund",
+    "arm": "B",
+    "role": "anchor",
+    "confidence": "confirmed",
+    "title": "Can stimulating ownership increase fertility",
+    "first_author": "",
+    "year": 2026,
+    "why": "ROUTED HERE EXPLICITLY by C.2.c on 2026-07-31 and already extracted there: +2.73pp on a 0.1314 baseline. Down payment ratios, interest rates and loan ceilings move; prices do not.",
+    "openalex": "W7171437109",
+    "doi": "10.1073/pnas.2602426123",
+    "queries": [
+      {
+        "mode": "by_id",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W7171437109",
+      "doi": "https://doi.org/10.1073/pnas.2602426123",
+      "title": "Can stimulating ownership increase fertility: Evidence from housing interventions in China",
+      "year": 2026,
+      "type": "article",
+      "venue": "Proceedings of the National Academy of Sciences",
+      "authors_first": "Zhang Xin",
+      "cited_by": 0,
+      "jaccard": 0.455,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "by_id"
+    },
+    "verdict": "MATCH_BY_ID",
+    "title_drift": true
+  },
+  {
+    "key": "yang-more-credit-babies",
+    "arm": "B",
+    "role": "anchor",
+    "confidence": "confirmed",
+    "title": "More Credit, More Babies? Bank Credit Expansion, House Prices, and Fertility",
+    "first_author": "Xi Yang",
+    "year": 2026,
+    "why": "INHERITED. VERSION PAIR - see the anchor log. Two DOIs, one author, and C.2.c's stored snapshot has the 2023 title as 'More Credit, FEWER Babies?'. Treat as ONE study and settle the version of record before extracting.",
+    "openalex": "W7128532933",
+    "doi": "10.2139/ssrn.6213441",
+    "queries": [
+      {
+        "mode": "by_id",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W7128532933",
+      "doi": "https://doi.org/10.2139/ssrn.6213441",
+      "title": "More Credit, More Babies? Bank Credit Expansion, House Prices, and Fertility",
+      "year": 2026,
+      "type": "preprint",
+      "venue": "SSRN Electronic Journal",
+      "authors_first": "Xi Yang",
+      "cited_by": 0,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "by_id"
+    },
+    "verdict": "MATCH_BY_ID",
+    "title_drift": false
+  },
+  {
+    "key": "yang-more-credit-babies-v1",
+    "arm": "B",
+    "role": "version_twin",
+    "confidence": "confirmed",
+    "title": "More Credit, Fewer Babies? Bank Credit Expansion, House Price, and Fertility",
+    "first_author": "Xi Yang",
+    "year": 2023,
+    "why": "The earlier version of the record above, under C.2.c's stored title. Listed separately ONLY so the pair is visible; it is not a second study.",
+    "openalex": "W4381108710",
+    "doi": "10.2139/ssrn.4473936",
+    "queries": [
+      {
+        "mode": "by_id",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4381108710",
+      "doi": "https://doi.org/10.2139/ssrn.4473936",
+      "title": "More Credit, More Babies? Bank Credit Expansion, House Prices, and Fertility",
+      "year": 2023,
+      "type": "preprint",
+      "venue": "SSRN Electronic Journal",
+      "authors_first": "Xi Yang",
+      "cited_by": 4,
+      "jaccard": 0.727,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "by_id"
+    },
+    "verdict": "MATCH_BY_ID",
+    "title_drift": true
+  },
+  {
+    "key": "interest-rates-house-prices-fertility-macro",
+    "arm": "B",
+    "role": "anchor",
+    "confidence": "confirmed",
+    "title": "Interest Rates, House Prices, Fertility, and the Macroeconomy",
+    "first_author": "",
+    "year": 2022,
+    "why": "INHERITED from C.2.c.",
+    "openalex": "W4295539930",
+    "doi": "10.3390/jrfm15090403",
+    "queries": [
+      {
+        "mode": "by_id",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4295539930",
+      "doi": "https://doi.org/10.3390/jrfm15090403",
+      "title": "Interest Rates, House Prices, Fertility, and the Macroeconomy",
+      "year": 2022,
+      "type": "article",
+      "venue": "Journal of risk and financial management",
+      "authors_first": "Ermanno Affuso",
+      "cited_by": 7,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "by_id"
+    },
+    "verdict": "MATCH_BY_ID",
+    "title_drift": false
+  },
+  {
+    "key": "baby-boom-house-prices-interest-rates",
+    "arm": "B",
+    "role": "anchor",
+    "confidence": "confirmed",
+    "title": "The Baby Boom: Predictability in House Prices and Interest Rates",
+    "first_author": "",
+    "year": 2005,
+    "why": "INHERITED. Likely REVERSE direction (fertility to prices); kept so the direction is decided rather than assumed.",
+    "openalex": "W1597793728",
+    "doi": "10.17016/ifdp.2005.847",
+    "queries": [
+      {
+        "mode": "by_id",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W1597793728",
+      "doi": "https://doi.org/10.17016/ifdp.2005.847",
+      "title": "The Baby Boom: Predictability in House Prices and Interest Rates",
+      "year": 2005,
+      "type": "article",
+      "venue": "International Finance Discussion Paper",
+      "authors_first": "Robert F. Martin",
+      "cited_by": 15,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "by_id"
+    },
+    "verdict": "MATCH_BY_ID",
+    "title_drift": false
+  },
+  {
+    "key": "sommer-2016-fertility-uninsurable-risk",
+    "arm": "B",
+    "role": "theory",
+    "confidence": "probe",
+    "title": "Fertility choice in a life cycle model with idiosyncratic uninsurable earnings risk",
+    "first_author": "Kamila Sommer",
+    "year": 2016,
+    "why": "Quantitative life-cycle model with borrowing constraints; theory stream and the C.5.a boundary in model form.",
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 3
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W3122660248",
+      "doi": "https://doi.org/10.1016/j.jmoneco.2016.08.002",
+      "title": "Fertility choice in a life cycle model with idiosyncratic uninsurable earnings risk",
+      "year": 2016,
+      "type": "article",
+      "venue": "Journal of Monetary Economics",
+      "authors_first": "Kamila Sommer",
+      "cited_by": 81,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "key": "lovenheim-2013-family-wealth-shocks",
+    "arm": "B",
+    "role": "decoy",
+    "confidence": "confirmed",
+    "title": "Do Family Wealth Shocks Affect Fertility Choices? Evidence from the Housing Market",
+    "first_author": "Michael Lovenheim",
+    "year": 2013,
+    "why": "DECOY, expected to route to C.2.c under Wall 2. This is the study Ruling 2 struck from C.3.e's seminal list; it is here to confirm the wall fires.",
+    "openalex": "W2035671284",
+    "doi": "10.1162/rest_a_00266",
+    "queries": [
+      {
+        "mode": "by_id",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2035671284",
+      "doi": "https://doi.org/10.1162/rest_a_00266",
+      "title": "Do Family Wealth Shocks Affect Fertility Choices? Evidence from the Housing Market",
+      "year": 2012,
+      "type": "article",
+      "venue": "The Review of Economics and Statistics",
+      "authors_first": "Michael Lovenheim",
+      "cited_by": 329,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "by_id"
+    },
+    "verdict": "MATCH_BY_ID",
+    "title_drift": false
+  },
+  {
+    "key": "dettling-2014-house-prices-birth-rates",
+    "arm": "B",
+    "role": "decoy",
+    "confidence": "high",
+    "title": "House prices and birth rates: The impact of the real estate market on the decision to have a baby",
+    "first_author": "Lisa Dettling",
+    "year": 2014,
+    "why": "DECOY, expected C.2.c. Same first author as the ReStud Arm B anchor, which makes it a sharp test that the wall routes on variation and not on author or topic.",
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 2
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W3024244835",
+      "doi": "https://doi.org/10.1016/j.jpubeco.2013.09.009",
+      "title": "House prices and birth rates: The impact of the real estate market on the decision to have a baby",
+      "year": 2013,
+      "type": "article",
+      "venue": "Journal of Public Economics",
+      "authors_first": "Lisa Dettling",
+      "cited_by": 0,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted"
+    },
+    "verdict": "MATCH"
+  },
+  {
+    "key": "guinnane-credit-cooperatives",
+    "arm": "S",
+    "role": "probe",
+    "confidence": "probe",
+    "title": "Cooperatives as information machines: German rural credit cooperatives 1883-1914",
+    "first_author": "Timothy Guinnane",
+    "year": 2001,
+    "why": "PROBE for the historical FDT cell - savings and credit institution founding dates against parish fertility. If this cell is empty, Arm S has no FDT evidence and the demsig for FDT is NOT ASSESSED.",
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W2106180746",
+      "doi": "https://doi.org/10.1017/s0022050701028042",
+      "title": "COOPERATIVES AS INFORMATION MACHINES: GERMAN RURAL CREDIT COOPERATIVES, 1883\u20131914",
+      "year": 2001,
+      "type": "article",
+      "venue": "The Journal of Economic History",
+      "authors_first": "Timothy W. Guinnane",
+      "cited_by": 254,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted"
+    },
+    "verdict": "MATCH"
+  }
+]
