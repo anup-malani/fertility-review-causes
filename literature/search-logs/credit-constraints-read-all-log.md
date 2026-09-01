@@ -66,3 +66,59 @@ sentence-level extraction cannot reach. Reading them properly means reading the 
 
 **The honest state: 11 of 69 primary records extracted, 18 retrieved, 51 unretrieved.** Anyone
 reporting a synthesis today would be reporting on 16% of the pool.
+
+---
+
+## Addendum: yes, the tables can be read — and one of them breaks the sign flip
+
+The zero-hit problem was my sentence-level regex, not the documents. Estimates in these papers live in
+tables, and tables are readable two ways: `pdftotext -layout` preserves the grid well enough to locate
+a caption, and the PDF pages themselves can be read directly. Locating every table caption containing
+a fertility term found results tables in 6 of the 12 apparently unreadable papers.
+
+### The aggregate panels contradict each other on the developed-country sign
+
+**Suriani et al. 2021, *Does Financial Development Contribute to Fertility Decline in Developed and
+Developing Countries?*** — two-step system GMM, lagged dependent variable, 42 developed countries
+(252 obs) and 43 developing (258 obs), read from Tables 3 and 4:
+
+| Sample | Private credit → TFR |
+|---|---|
+| **Developed** | **−0.00634\*\*\* to −0.0318\*\*\*** (t = −4.02 to −12.19), negative and significant in **all 11 models** |
+| **Developing** | **−0.0137\*\*\* to −0.0372\*\*\*** (t = −5.01 to −14.88), negative and significant in all 11, and **larger** |
+
+**This directly contradicts Filoso and Papagni**, whose cross-country panel put high-income countries
+at **+3.7 to +5%**. Here the developed-country effect is negative in every specification, and the
+story is monotone — financial depth lowers fertility everywhere, more so where finance is shallow —
+**not a sign flip**.
+
+**So the sign flip rests on one unidentified aggregate panel and is contradicted by another.** It can
+no longer be presented as the structure the chapter's two-arm logic implies; it is one of at least
+three rival readings, alongside the within-setting inverted U and this monotone-negative account.
+
+*Specification note recorded with the row:* the Sargan test p-value is 0.000 in all 11 models — the
+overidentifying restrictions are rejected — while Hansen sits at 0.16–0.29. The table marks the Sargan
+p-value with significance stars, which reads as though rejection were a result.
+
+### Bangladesh, from Table 5
+
+**Karim et al. 2016**: major NGO membership (a **proxy** for microfinance participation) against
+children ever born, six surveys 1993–2011 — incidence ratios 1.007, 1.011, 1.020, 0.978, 1.028\*,
+1.024\*. Positive and significant **only after 2007**, and tiny: "NGO members having 2 to 3 in 100 more
+children." The authors conclude membership "has either no effect on or **increases** fertility."
+Opposite in sign to Islam et al. on the same country — and the exposure is a self-selected proxy, so
+it is an association with controls, not an identified estimate.
+
+### The extraction table, sorted by setting
+
+**17 rows, 13 studies, 7 identified.** Sorting the realized-fertility rows by income level:
+
+- **High-income, identified:** +5.4%, +9.5 pp, +6 pp, and one verified null. **Positive or null, never
+  negative.**
+- **Low/middle-income, identified:** small negatives (Desai and Tarozzi −0.106 to −0.166), an inverted
+  U, and Thailand's negative. **Never positive.**
+- **Aggregate panels, unidentified:** one says flip, one says monotone negative.
+
+The identified estimates are consistent with a sign difference by income level. **The aggregate panels
+— the only sources that claim to measure the flip directly — disagree with each other.** That is the
+honest state of the chapter's central claim.
