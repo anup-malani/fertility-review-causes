@@ -1,0 +1,4781 @@
+{
+ "log": {
+  "meta": {
+   "ticket": "TICK-077",
+   "round": 2,
+   "seeds": 4,
+   "round2_pool": 365,
+   "already_in_round1": 68,
+   "NEW_not_in_round1": 297,
+   "redundancy_rate": 0.186,
+   "errors": 0
+  },
+  "errors": {}
+ },
+ "records": [
+  {
+   "openalex": "W2124758339",
+   "doi": null,
+   "title": "Econometric Analysis of Cross Section and Panel Data",
+   "norm_title": "econometric analysis of cross section and panel data",
+   "year": 2001,
+   "type": "preprint",
+   "venue": "RePEc: Research Papers in Economics",
+   "cited_by": 28298,
+   "authors": "Jeffrey M. Wooldridge",
+   "seeds_backward": [
+    "kuchler-2012"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2044758663",
+   "doi": "10.2307/2289883",
+   "title": "Statistical Analysis With Missing Data",
+   "norm_title": "statistical analysis with missing data",
+   "year": 1989,
+   "type": "article",
+   "venue": "Journal of the American Statistical Association",
+   "cited_by": 17507,
+   "authors": "Maureen Lahiff; Roderick J. A. Little; Donald B. Rubin",
+   "seeds_backward": [
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2138290169",
+   "doi": "10.2307/2291629",
+   "title": "Identification of Causal Effects Using Instrumental Variables",
+   "norm_title": "identification of causal effects using instrumental variables",
+   "year": 1996,
+   "type": "article",
+   "venue": "Journal of the American Statistical Association",
+   "cited_by": 4076,
+   "authors": "Joshua D. Angrist; Guido W. Imbens; Donald B. Rubin",
+   "seeds_backward": [
+    "kuchler-2012"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W566149836",
+   "doi": null,
+   "title": "Ethiopia demographic and health survey, 2000",
+   "norm_title": "ethiopia demographic and health survey 2000",
+   "year": 2017,
+   "type": "book",
+   "venue": null,
+   "cited_by": 4019,
+   "authors": "Central Statistical Agency; Ethiopia",
+   "seeds_backward": [
+    "desai-tarozzi-2011"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1530306231",
+   "doi": "10.1016/s1573-4463(99)03012-6",
+   "title": "The Economics and Econometrics of Active Labor Market Programs",
+   "norm_title": "the economics and econometrics of active labor market programs",
+   "year": 1999,
+   "type": "book-chapter",
+   "venue": "Handbook of labour economics",
+   "cited_by": 3110,
+   "authors": "James J. Heckman; Robert Lalonde; Jeffrey A. Smith",
+   "seeds_backward": [
+    "desai-tarozzi-2011"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W3022774728",
+   "doi": "10.1016/j.jeconom.2005.02.011",
+   "title": "Generalized reduced rank tests using the singular value decomposition",
+   "norm_title": "generalized reduced rank tests using the singular value decomposition",
+   "year": 2005,
+   "type": "article",
+   "venue": "Journal of Econometrics",
+   "cited_by": 2753,
+   "authors": "Frank Kleibergen; Richard Paap",
+   "seeds_backward": [
+    "desai-tarozzi-2011"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2313407065",
+   "doi": "10.2307/1533221",
+   "title": "Statistical Analysis with Missing Data",
+   "norm_title": "statistical analysis with missing data",
+   "year": 1988,
+   "type": "article",
+   "venue": "Population",
+   "cited_by": 2143,
+   "authors": "N. Bo.; Roderick J. A. Little; Donald B. Rubin",
+   "seeds_backward": [
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2110153620",
+   "doi": "10.3386/t0284",
+   "title": "Testing for Weak Instruments in Linear IV Regression",
+   "norm_title": "testing for weak instruments in linear iv regression",
+   "year": 2002,
+   "type": "report",
+   "venue": "National Bureau of Economic Research",
+   "cited_by": 1913,
+   "authors": "James H. Stock; Motohiro Yogo",
+   "seeds_backward": [
+    "desai-tarozzi-2011"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1536726302",
+   "doi": "10.1016/0304-3878(92)90010-7",
+   "title": "Handbook of development economics",
+   "norm_title": "handbook of development economics",
+   "year": 1992,
+   "type": "article",
+   "venue": "Journal of Development Economics",
+   "cited_by": 1653,
+   "authors": "Jaime de M\u00e9lo",
+   "seeds_backward": [
+    "desai-tarozzi-2011"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W3121726158",
+   "doi": "10.2307/2233228",
+   "title": "Limited-Dependent and Qualitative Variables in Econometrics.",
+   "norm_title": "limited dependent and qualitative variables in econometrics",
+   "year": 1985,
+   "type": "article",
+   "venue": "The Economic Journal",
+   "cited_by": 1352,
+   "authors": "Hedley Rees; G. S. Maddala",
+   "seeds_backward": [
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2103130810",
+   "doi": "10.1257/jel.48.2.424",
+   "title": "Instruments, Randomization, and Learning about Development",
+   "norm_title": "instruments randomization and learning about development",
+   "year": 2010,
+   "type": "article",
+   "venue": "Journal of Economic Literature",
+   "cited_by": 1293,
+   "authors": "Angus Deaton",
+   "seeds_backward": [
+    "desai-tarozzi-2011"
+   ],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1547506455",
+   "doi": "10.1177/1536867x0800700402",
+   "title": "Enhanced Routines for Instrumental Variables/Generalized Method of Moments Estimation and Testing",
+   "norm_title": "enhanced routines for instrumental variables generalized method of moments estimation and testing",
+   "year": 2007,
+   "type": "article",
+   "venue": "The Stata Journal Promoting communications on statistics and Stata",
+   "cited_by": 1283,
+   "authors": "Christopher F. Baum; Mark E. Schaffer; Steven Stillman",
+   "seeds_backward": [
+    "desai-tarozzi-2011"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W3121900324",
+   "doi": "10.1093/wber/lhi008",
+   "title": "Microfinance and Poverty: Evidence Using Panel Data from Bangladesh",
+   "norm_title": "microfinance and poverty evidence using panel data from bangladesh",
+   "year": 2005,
+   "type": "article",
+   "venue": "The World Bank Economic Review",
+   "cited_by": 1256,
+   "authors": "Shahidur R. Khandker",
+   "seeds_backward": [
+    "kuchler-2012"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1965972316",
+   "doi": "10.2307/2137804",
+   "title": "Social Interactions and Contemporary Fertility Transitions",
+   "norm_title": "social interactions and contemporary fertility transitions",
+   "year": 1996,
+   "type": "article",
+   "venue": "Population and Development Review",
+   "cited_by": 1048,
+   "authors": "John Bongaarts; Susan Watkins",
+   "seeds_backward": [
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2060542838",
+   "doi": "10.2307/1164730",
+   "title": "Latent Variable Models and Factor Analysis",
+   "norm_title": "latent variable models and factor analysis",
+   "year": 1989,
+   "type": "article",
+   "venue": "Journal of Educational Statistics",
+   "cited_by": 1030,
+   "authors": "Kikumi K. Tatsuoka; David J. Bartholomew",
+   "seeds_backward": [
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4238757406",
+   "doi": "10.1016/0305-750x(95)00124-u",
+   "title": "Who takes the credit? Gender, power, and control over loan use in rural credit programs in Bangladesh",
+   "norm_title": "who takes the credit gender power and control over loan use in rural credit programs in bangladesh",
+   "year": 1996,
+   "type": "article",
+   "venue": "World Development",
+   "cited_by": 1019,
+   "authors": "Anne Marie Goetz; Rina Sen Gupta",
+   "seeds_backward": [
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1974989013",
+   "doi": "10.1111/j.1468-0297.2007.02017.x",
+   "title": "Financial performance and Outreach: A Global Analysis of Leading Microbanks",
+   "norm_title": "financial performance and outreach a global analysis of leading microbanks",
+   "year": 2007,
+   "type": "article",
+   "venue": "The Economic Journal",
+   "cited_by": 1002,
+   "authors": "Robert Cull; Asli Demirgu \u0308\u00e7\u2010Kunt; Jonathan Morduch",
+   "seeds_backward": [
+    "kuchler-2012"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2148197077",
+   "doi": "10.2139/ssrn.2250500",
+   "title": "The Miracle of Microfinance? Evidence from a Randomized Evaluation",
+   "norm_title": "the miracle of microfinance evidence from a randomized evaluation",
+   "year": 2013,
+   "type": "preprint",
+   "venue": "SSRN Electronic Journal",
+   "cited_by": 944,
+   "authors": "Abhijit V. Banerjee; Esther Duflo; Rachel Glennerster; Cynthia Kinnan",
+   "seeds_backward": [
+    "kuchler-2012"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2973338680",
+   "doi": "10.1016/j.econmod.2019.09.027",
+   "title": "The impact of digital finance on household consumption: Evidence from China",
+   "norm_title": "the impact of digital finance on household consumption evidence from china",
+   "year": 2019,
+   "type": "article",
+   "venue": "Economic Modelling",
+   "cited_by": 939,
+   "authors": "Jie Li; Yu Wu; Jing Jian Xiao",
+   "seeds_backward": [
+    "lan-pan-yu-2023"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1972368754",
+   "doi": null,
+   "title": "Who Takes the Credit?: Gender, Power, and Control Over Loan Use in Rural Credit Programmes in Bangladesh",
+   "norm_title": "who takes the credit gender power and control over loan use in rural credit programmes in bangladesh",
+   "year": 1994,
+   "type": "article",
+   "venue": "OpenGrey (Institut de l'Information Scientifique et Technique)",
+   "cited_by": 934,
+   "authors": "Anne Marie Goetz; Rina Sen Gupta",
+   "seeds_backward": [
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2103614491",
+   "doi": "10.1146/annurev.soc.25.1.659",
+   "title": "THE ESTIMATION OF CAUSAL EFFECTS FROM OBSERVATIONAL DATA",
+   "norm_title": "the estimation of causal effects from observational data",
+   "year": 1999,
+   "type": "article",
+   "venue": "Annual Review of Sociology",
+   "cited_by": 901,
+   "authors": "Christopher Winship; Stephen L. Morgan",
+   "seeds_backward": [
+    "kuchler-2012"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2138752415",
+   "doi": "10.1920/wp.cem.2008.2608",
+   "title": "Alternative approaches to evaluation in empirical microeconomics",
+   "norm_title": "alternative approaches to evaluation in empirical microeconomics",
+   "year": 2008,
+   "type": "report",
+   "venue": null,
+   "cited_by": 901,
+   "authors": "Richard Blundell; M\u00f3nica Costa Dias",
+   "seeds_backward": [
+    "kuchler-2012"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W3123968295",
+   "doi": "10.2139/ssrn.951841",
+   "title": "Using Randomization in Development Economics Research: A Toolkit",
+   "norm_title": "using randomization in development economics research a toolkit",
+   "year": 2006,
+   "type": "preprint",
+   "venue": "SSRN Electronic Journal",
+   "cited_by": 843,
+   "authors": "Esther Duflo; Rachel Glennerster; Michael Kremer",
+   "seeds_backward": [
+    "desai-tarozzi-2011"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4292494783",
+   "doi": "10.1002/9781119970583",
+   "title": "Latent Variable Models and Factor Analysis",
+   "norm_title": "latent variable models and factor analysis",
+   "year": 2011,
+   "type": "book",
+   "venue": "Wiley series in probability and statistics",
+   "cited_by": 839,
+   "authors": "David J. Bartholomew; M. Knott; Irini Moustaki",
+   "seeds_backward": [
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2530848521",
+   "doi": "10.1016/s0140-6736(16)31405-2",
+   "title": "The effects of China's universal two-child policy",
+   "norm_title": "the effects of china s universal two child policy",
+   "year": 2016,
+   "type": "article",
+   "venue": "The Lancet",
+   "cited_by": 751,
+   "authors": "Yi Zeng; Th\u00e9r\u00e8se Hesketh",
+   "seeds_backward": [
+    "lan-pan-yu-2023"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1569384484",
+   "doi": "10.2307/2137629",
+   "title": "Desired Fertility and the Impact of Population Policies",
+   "norm_title": "desired fertility and the impact of population policies",
+   "year": 1994,
+   "type": "article",
+   "venue": "Population and Development Review",
+   "cited_by": 674,
+   "authors": "Lant Pritchett",
+   "seeds_backward": [
+    "desai-tarozzi-2011"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2068751029",
+   "doi": "10.2307/2648118",
+   "title": "Measuring living standards with proxy variables",
+   "norm_title": "measuring living standards with proxy variables",
+   "year": 2000,
+   "type": "article",
+   "venue": "Demography",
+   "cited_by": 636,
+   "authors": "Mark R. Montgomery; Michele Gragnolati; Kathleen A. Burke; Edmundo Paredes",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2007380343",
+   "doi": "10.2307/2552939",
+   "title": "Altruism in the Family and Selfishness in the Market Place",
+   "norm_title": "altruism in the family and selfishness in the market place",
+   "year": 1981,
+   "type": "article",
+   "venue": "Economica",
+   "cited_by": 596,
+   "authors": "Gary S. Becker",
+   "seeds_backward": [
+    "lan-pan-yu-2023"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2099035145",
+   "doi": "10.1016/j.socscimed.2014.06.014",
+   "title": "Women's empowerment and fertility: A review of the literature",
+   "norm_title": "women s empowerment and fertility a review of the literature",
+   "year": 2014,
+   "type": "article",
+   "venue": "Social Science & Medicine",
+   "cited_by": 552,
+   "authors": "Ushma D. Upadhyay; Jessica D. Gipson; Mellissa Withers; Shayna Lewis",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2165611738",
+   "doi": "10.1257/aer.96.5.1384",
+   "title": "Assessing the Impact of a School Subsidy Program in Mexico: Using a Social Experiment to Validate a Dynamic Behavioral Model of Child Schooling and Fertility",
+   "norm_title": "assessing the impact of a school subsidy program in mexico using a social experiment to validate a dynamic behavioral model of child schooling and fertility",
+   "year": 2006,
+   "type": "article",
+   "venue": "American Economic Review",
+   "cited_by": 534,
+   "authors": "Petra Todd; Kenneth I. Wolpin",
+   "seeds_backward": [
+    "kuchler-2012"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2118349819",
+   "doi": null,
+   "title": "Microfinance Handbook: An Institutional and Financial Perspective",
+   "norm_title": "microfinance handbook an institutional and financial perspective",
+   "year": 1998,
+   "type": "preprint",
+   "venue": "RePEc: Research Papers in Economics",
+   "cited_by": 453,
+   "authors": "Joanna Ledgerwood",
+   "seeds_backward": [
+    "kuchler-2012"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2134612802",
+   "doi": "10.1111/j.1728-4457.2000.00081.x",
+   "title": "Absent and Problematic Men: Demographic Accounts of Male Reproductive Roles",
+   "norm_title": "absent and problematic men demographic accounts of male reproductive roles",
+   "year": 2000,
+   "type": "article",
+   "venue": "Population and Development Review",
+   "cited_by": 449,
+   "authors": "Margaret E. Greene; Ann Biddlecom",
+   "seeds_backward": [
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2148472246",
+   "doi": "10.1016/j.aam.2006.12.003",
+   "title": "On regression adjustments to experimental data",
+   "norm_title": "on regression adjustments to experimental data",
+   "year": 2007,
+   "type": "article",
+   "venue": "Advances in Applied Mathematics",
+   "cited_by": 431,
+   "authors": "David A. Freedman",
+   "seeds_backward": [
+    "desai-tarozzi-2011"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4289257589",
+   "doi": "10.2307/2290173",
+   "title": "Latent Variable Models and Factor Analysis.",
+   "norm_title": "latent variable models and factor analysis",
+   "year": 1988,
+   "type": "article",
+   "venue": "Journal of the American Statistical Association",
+   "cited_by": 419,
+   "authors": "Robert D. Gibbons; David J. Bartholomew",
+   "seeds_backward": [
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2104167547",
+   "doi": "10.4054/demres.2013.29.8",
+   "title": "Fertility intentions",
+   "norm_title": "fertility intentions",
+   "year": 2013,
+   "type": "article",
+   "venue": "Demographic Research",
+   "cited_by": 399,
+   "authors": "Icek Ajzen; Jane Klobas",
+   "seeds_backward": [
+    "lan-pan-yu-2023"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W3024833799",
+   "doi": "10.1016/j.jdeveco.2007.10.003",
+   "title": "Does female schooling reduce fertility? Evidence from Nigeria",
+   "norm_title": "does female schooling reduce fertility evidence from nigeria",
+   "year": 2007,
+   "type": "article",
+   "venue": "Journal of Development Economics",
+   "cited_by": 383,
+   "authors": "Una Osili; Bridget Terry Long",
+   "seeds_backward": [
+    "kuchler-2012"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2137877360",
+   "doi": "10.1111/j.1728-4457.2000.00691.x",
+   "title": "Unmet Need for Family Planning in Developing Countries and Implications for Population Policy",
+   "norm_title": "unmet need for family planning in developing countries and implications for population policy",
+   "year": 2000,
+   "type": "article",
+   "venue": "Population and Development Review",
+   "cited_by": 371,
+   "authors": "John B. Casterline; Steven W. Sinding",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2789606400",
+   "doi": "10.1002/fee.1777",
+   "title": "Nudging pro\u2010environmental behavior: evidence and opportunities",
+   "norm_title": "nudging pro environmental behavior evidence and opportunities",
+   "year": 2018,
+   "type": "article",
+   "venue": "Frontiers in Ecology and the Environment",
+   "cited_by": 363,
+   "authors": "Hilary Byerly; Andrew Balmford; Paul J. Ferraro; Courtney Hammond Wagner",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2040782959",
+   "doi": "10.1007/bf01115740",
+   "title": "The status of women: Conceptual and methodological issues in demographic studies",
+   "norm_title": "the status of women conceptual and methodological issues in demographic studies",
+   "year": 1986,
+   "type": "article",
+   "venue": "Sociological Forum",
+   "cited_by": 350,
+   "authors": "Karen Oppenheim Mason",
+   "seeds_backward": [
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W3013022547",
+   "doi": "10.1016/j.iref.2021.03.014",
+   "title": "Financial inclusion and economic growth: The role of governance in selected MENA countries",
+   "norm_title": "financial inclusion and economic growth the role of governance in selected mena countries",
+   "year": 2021,
+   "type": "article",
+   "venue": "International Review of Economics & Finance",
+   "cited_by": 335,
+   "authors": "Noha Emara; Ayah El Said",
+   "seeds_backward": [
+    "lan-pan-yu-2023"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1567585726",
+   "doi": null,
+   "title": "Safe motherhood strategies: a review of the evidence",
+   "norm_title": "safe motherhood strategies a review of the evidence",
+   "year": 2001,
+   "type": "review",
+   "venue": null,
+   "cited_by": 329,
+   "authors": "Vincent De Brouwere; Wim Van Lerberghe",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W3191646389",
+   "doi": "10.1016/j.iref.2021.07.018",
+   "title": "Does digital finance promote manufacturing servitization: Micro evidence from China",
+   "norm_title": "does digital finance promote manufacturing servitization micro evidence from china",
+   "year": 2021,
+   "type": "article",
+   "venue": "International Review of Economics & Finance",
+   "cited_by": 328,
+   "authors": "Shengqi Chen; Hong Zhang",
+   "seeds_backward": [
+    "lan-pan-yu-2023"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2113732149",
+   "doi": null,
+   "title": "A Survey of Theories of the Family",
+   "norm_title": "a survey of theories of the family",
+   "year": 1993,
+   "type": "report",
+   "venue": "Deep Blue (University of Michigan)",
+   "cited_by": 302,
+   "authors": "Th\u00e9odore C. Bergstrom",
+   "seeds_backward": [
+    "kuchler-2012"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2062893990",
+   "doi": "10.1111/j.1728-4457.2010.00319.x",
+   "title": "The Correspondence Between Fertility Intentions and Behavior in the United States",
+   "norm_title": "the correspondence between fertility intentions and behavior in the united states",
+   "year": 2010,
+   "type": "article",
+   "venue": "Population and Development Review",
+   "cited_by": 297,
+   "authors": "S. Philip Morgan; Heather Rackin",
+   "seeds_backward": [
+    "lan-pan-yu-2023"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2009073950",
+   "doi": "10.1002/(sici)1099-1328(199911/12)11:7<957::aid-jid623>3.0.co;2-#",
+   "title": "Questioning virtuous spirals: micro\u2010finance and women's empowerment in Africa",
+   "norm_title": "questioning virtuous spirals micro finance and women s empowerment in africa",
+   "year": 1999,
+   "type": "article",
+   "venue": "Journal of International Development",
+   "cited_by": 290,
+   "authors": "Linda Mayoux",
+   "seeds_backward": [
+    "desai-tarozzi-2011"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2144185246",
+   "doi": "10.1111/j.1728-4465.2001.00147.x",
+   "title": "Adolescent Pregnancy and Parenthood in South Africa",
+   "norm_title": "adolescent pregnancy and parenthood in south africa",
+   "year": 2001,
+   "type": "article",
+   "venue": "Studies in Family Planning",
+   "cited_by": 264,
+   "authors": "Carol E. Kaufman; Thea de Wet; Jonathan Stadler",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1998422421",
+   "doi": "10.2307/2061907",
+   "title": "How Economic Development and Family Planning Programs Combined to Reduce Indonesian Fertility",
+   "norm_title": "how economic development and family planning programs combined to reduce indonesian fertility",
+   "year": 1994,
+   "type": "article",
+   "venue": "Demography",
+   "cited_by": 257,
+   "authors": "Paul Gertler; John W. Molyneaux",
+   "seeds_backward": [
+    "desai-tarozzi-2011"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4310723700",
+   "doi": "10.3368/jhr.44.3.565",
+   "title": "Alternative Approaches to Evaluation in Empirical Microeconomics",
+   "norm_title": "alternative approaches to evaluation in empirical microeconomics",
+   "year": 2009,
+   "type": "article",
+   "venue": "The Journal of Human Resources",
+   "cited_by": 246,
+   "authors": "Richard Blundell; M\u00f3nica Costa Dias",
+   "seeds_backward": [
+    "kuchler-2012"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2106190478",
+   "doi": null,
+   "title": "Microfinance and Poverty: Evidence Using Panel Data from Bangladesh",
+   "norm_title": "microfinance and poverty evidence using panel data from bangladesh",
+   "year": 2003,
+   "type": "preprint",
+   "venue": "SSRN Electronic Journal",
+   "cited_by": 238,
+   "authors": "r R. Khandker",
+   "seeds_backward": [
+    "kuchler-2012"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1996813794",
+   "doi": "10.1111/1467-7660.00320",
+   "title": "Actually how Empowering is Microcredit?",
+   "norm_title": "actually how empowering is microcredit",
+   "year": 2003,
+   "type": "article",
+   "venue": "Development and Change",
+   "cited_by": 215,
+   "authors": "Simeen Mahmud",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2328040283",
+   "doi": "10.2307/2137858",
+   "title": "Trends in Unwanted Childbearing in the Developing World",
+   "norm_title": "trends in unwanted childbearing in the developing world",
+   "year": 1997,
+   "type": "article",
+   "venue": "Studies in Family Planning",
+   "cited_by": 202,
+   "authors": "John Bongaarts",
+   "seeds_backward": [
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2032250448",
+   "doi": "10.31899/pgy6.1009",
+   "title": "Covert contraceptive use: Prevalence, motivations, and consequences",
+   "norm_title": "covert contraceptive use prevalence motivations and consequences",
+   "year": 1998,
+   "type": "report",
+   "venue": null,
+   "cited_by": 197,
+   "authors": "Ann Biddlecom; Bolaji Fapohunda",
+   "seeds_backward": [
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2144489347",
+   "doi": "10.1111/j.1728-4457.2000.00483.x",
+   "title": "The Spread of Primary Schooling in sub\u2010Saharan Africa: Implications for Fertility Change",
+   "norm_title": "the spread of primary schooling in sub saharan africa implications for fertility change",
+   "year": 2000,
+   "type": "article",
+   "venue": "Population and Development Review",
+   "cited_by": 196,
+   "authors": "Cynthia B. Lloyd; Carol E. Kaufman; Paul Hewett",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4232832438",
+   "doi": "10.2307/172249",
+   "title": "Covert Contraceptive Use: Prevalence, Motivations, and Consequences",
+   "norm_title": "covert contraceptive use prevalence motivations and consequences",
+   "year": 1998,
+   "type": "article",
+   "venue": "Studies in Family Planning",
+   "cited_by": 178,
+   "authors": "Ann Biddlecom; Bolaji Fapohunda",
+   "seeds_backward": [
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2064454615",
+   "doi": "10.2307/2137886",
+   "title": "Factors Underlying Unmet Need for Family Planning in the Philippines",
+   "norm_title": "factors underlying unmet need for family planning in the philippines",
+   "year": 1997,
+   "type": "article",
+   "venue": "Studies in Family Planning",
+   "cited_by": 176,
+   "authors": "John B. Casterline; Aurora E. Perez; Ann Biddlecom",
+   "seeds_backward": [
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2134388821",
+   "doi": "10.1111/j.1728-4465.2002.00141.x",
+   "title": "The Impact of the Navrongo Project on Contraceptive Knowledge and Use, Reproductive Preferences, and Fertility",
+   "norm_title": "the impact of the navrongo project on contraceptive knowledge and use reproductive preferences and fertility",
+   "year": 2002,
+   "type": "article",
+   "venue": "Studies in Family Planning",
+   "cited_by": 175,
+   "authors": "Cornelius Debpuur; James F. Phillips; Elizabeth F. Jackson; Alex Nazzar",
+   "seeds_backward": [
+    "desai-tarozzi-2011"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W3216977371",
+   "doi": "10.1111/rode.12846",
+   "title": "Digital inclusive finance and urban innovation: Evidence from China",
+   "norm_title": "digital inclusive finance and urban innovation evidence from china",
+   "year": 2021,
+   "type": "article",
+   "venue": "Review of Development Economics",
+   "cited_by": 169,
+   "authors": "Jingrong Li; Bowen Li",
+   "seeds_backward": [
+    "lan-pan-yu-2023"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2163696679",
+   "doi": "10.1111/j.1728-4465.2000.00193.x",
+   "title": "The Potential Role of Contraception in Reducing Abortion",
+   "norm_title": "the potential role of contraception in reducing abortion",
+   "year": 2000,
+   "type": "article",
+   "venue": "Studies in Family Planning",
+   "cited_by": 169,
+   "authors": "John Bongaarts; Charles F. Westoff",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2027257474",
+   "doi": "10.1016/j.worlddev.2012.11.002",
+   "title": "Financial Inclusion and Financial Integrity: Aligned Incentives?",
+   "norm_title": "financial inclusion and financial integrity aligned incentives",
+   "year": 2013,
+   "type": "article",
+   "venue": "World Development",
+   "cited_by": 167,
+   "authors": "Louis de Koker; Nicola Jentzsch",
+   "seeds_backward": [
+    "lan-pan-yu-2023"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2033203315",
+   "doi": null,
+   "title": "Gender differences in the schooling experiences of adolescents in low-income countries: the case of Kenya.",
+   "norm_title": "gender differences in the schooling experiences of adolescents in low income countries the case of kenya",
+   "year": 1998,
+   "type": "article",
+   "venue": "PubMed",
+   "cited_by": 161,
+   "authors": "Barbara Mensch; Cynthia B. Lloyd",
+   "seeds_backward": [
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2076049652",
+   "doi": "10.2307/2137832",
+   "title": "The Navrongo Community Health and Family Planning Project",
+   "norm_title": "the navrongo community health and family planning project",
+   "year": 1995,
+   "type": "article",
+   "venue": "Studies in Family Planning",
+   "cited_by": 160,
+   "authors": "Fred Binka; Alex Nazzar; James F. Phillips",
+   "seeds_backward": [
+    "desai-tarozzi-2011"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2059357051",
+   "doi": "10.1111/1467-7660.00041",
+   "title": "The Poverty\u2013Purdah Trap in Rural Bangladesh: Implications for Women's Roles in the Family",
+   "norm_title": "the poverty purdah trap in rural bangladesh implications for women s roles in the family",
+   "year": 1997,
+   "type": "article",
+   "venue": "Development and Change",
+   "cited_by": 157,
+   "authors": "Sajeda Amin",
+   "seeds_backward": [
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2114827394",
+   "doi": null,
+   "title": "Demand for Children in Low Income Countries",
+   "norm_title": "demand for children in low income countries",
+   "year": 1993,
+   "type": "preprint",
+   "venue": "RePEc: Research Papers in Economics",
+   "cited_by": 153,
+   "authors": "Tanja Schultz",
+   "seeds_backward": [
+    "desai-tarozzi-2011",
+    "kuchler-2012"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1985479434",
+   "doi": "10.2307/2648131",
+   "title": "Credit programs for the poor and reproductive behavior in low-income countries: Are the reported causal relationships the result of heterogeneity bias?",
+   "norm_title": "credit programs for the poor and reproductive behavior in low income countries are the reported causal relationships the result of heterogeneity bias",
+   "year": 1999,
+   "type": "article",
+   "venue": "Demography",
+   "cited_by": 151,
+   "authors": "Mark M. Pin; Shahidur R. Khandker; Signe\u2010Mary McKernan; Muhammad Abdul Latif",
+   "seeds_backward": [
+    "desai-tarozzi-2011",
+    "kuchler-2012",
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2035354396",
+   "doi": null,
+   "title": "Family Planning in Taiwan: An Experiment in Social Change",
+   "norm_title": "family planning in taiwan an experiment in social change",
+   "year": 1969,
+   "type": "article",
+   "venue": "Project Muse (Johns Hopkins University)",
+   "cited_by": 150,
+   "authors": "Ronald Freedman; John Y. Takeshita",
+   "seeds_backward": [
+    "desai-tarozzi-2011"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2599184542",
+   "doi": "10.1016/j.jdeveco.2018.06.010",
+   "title": "Improving or disappearing: Firm-level adjustments to minimum wages in China",
+   "norm_title": "improving or disappearing firm level adjustments to minimum wages in china",
+   "year": 2018,
+   "type": "article",
+   "venue": "Journal of Development Economics",
+   "cited_by": 148,
+   "authors": "Florian Mayneris; Sandra Poncet; Tao Zhang",
+   "seeds_backward": [
+    "lan-pan-yu-2023"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2114596136",
+   "doi": "10.1177/02685809030183002",
+   "title": "Recasting Our Understanding of Gender and Work During Global Restructuring",
+   "norm_title": "recasting our understanding of gender and work during global restructuring",
+   "year": 2003,
+   "type": "article",
+   "venue": "International Sociology",
+   "cited_by": 148,
+   "authors": "Jean L. Pyle; Kathryn B. Ward",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1990858113",
+   "doi": null,
+   "title": "Bangladesh Demographic and Health Survey 1993-1994",
+   "norm_title": "bangladesh demographic and health survey 1993 1994",
+   "year": 1994,
+   "type": "book",
+   "venue": null,
+   "cited_by": 146,
+   "authors": "S. N. Mitra; M. Nawab Ali; Shahidul Islam; Anne R. Cross",
+   "seeds_backward": [
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W171073141",
+   "doi": "10.31899/pgy6.1004",
+   "title": "Urbanization, unemployment and migration in Africa: Theory and policy",
+   "norm_title": "urbanization unemployment and migration in africa theory and policy",
+   "year": 1997,
+   "type": "report",
+   "venue": null,
+   "cited_by": 139,
+   "authors": "Michael P. Todaro",
+   "seeds_backward": [
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1969204385",
+   "doi": "10.2471/blt.06.030064",
+   "title": "Accelerating reproductive and child health programme impact with community-based services: the Navrongo experiment in Ghana",
+   "norm_title": "accelerating reproductive and child health programme impact with community based services the navrongo experiment in ghana",
+   "year": 2006,
+   "type": "article",
+   "venue": "Bulletin of the World Health Organization",
+   "cited_by": 135,
+   "authors": "James F. Phillips",
+   "seeds_backward": [
+    "desai-tarozzi-2011"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W3006968904",
+   "doi": "10.1111/cwe.12312",
+   "title": "Digital Financial Inclusion and Consumption Smoothing in China",
+   "norm_title": "digital financial inclusion and consumption smoothing in china",
+   "year": 2020,
+   "type": "article",
+   "venue": "China & World Economy",
+   "cited_by": 132,
+   "authors": "Jennifer T. Lai; Isabel K. Yan; Xingjian Yi; Hao Zhang",
+   "seeds_backward": [
+    "lan-pan-yu-2023"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2160178725",
+   "doi": "10.1080/01621459.1998.10473745",
+   "title": "Purposive Program Placement and the Estimation of Family Planning Program Effects in Tanzania",
+   "norm_title": "purposive program placement and the estimation of family planning program effects in tanzania",
+   "year": 1998,
+   "type": "article",
+   "venue": "Journal of the American Statistical Association",
+   "cited_by": 129,
+   "authors": "Gustavo \u00c1ngeles; David K. Guilkey; Thomas A. Mroz",
+   "seeds_backward": [
+    "desai-tarozzi-2011"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2166482828",
+   "doi": "10.1016/s0277-9536(01)00020-x",
+   "title": "The decline of female circumcision in Egypt: evidence and interpretation",
+   "norm_title": "the decline of female circumcision in egypt evidence and interpretation",
+   "year": 2002,
+   "type": "article",
+   "venue": "Social Science & Medicine",
+   "cited_by": 121,
+   "authors": "Omaima El\u2010Gibaly; Barbara Lethem Ibrahim; Barbara Mensch; Wesley H. Clark",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W3094329544",
+   "doi": null,
+   "title": "Empowering Women through Microfinance: Evidence from Tanzania",
+   "norm_title": "empowering women through microfinance evidence from tanzania",
+   "year": 2013,
+   "type": "article",
+   "venue": null,
+   "cited_by": 120,
+   "authors": "Mushumbusi Paul Kato; Jan Kratzer",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2024993879",
+   "doi": "10.1353/dem.2002.0014",
+   "title": "Spatial variation in contraceptive use in Bangladesh: Looking Beyond the borders",
+   "norm_title": "spatial variation in contraceptive use in bangladesh looking beyond the borders",
+   "year": 2002,
+   "type": "article",
+   "venue": "Demography",
+   "cited_by": 115,
+   "authors": "Sajeda Amin; Alaka Malwade Basu; Rob Stephenson",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W3125417968",
+   "doi": "10.3386/w16018",
+   "title": "Building Social Capital Through MicroFinance",
+   "norm_title": "building social capital through microfinance",
+   "year": 2010,
+   "type": "report",
+   "venue": "National Bureau of Economic Research",
+   "cited_by": 108,
+   "authors": "Benjamin Feigenberg; Erica Field; Rohini Pande",
+   "seeds_backward": [
+    "kuchler-2012"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1867491469",
+   "doi": "10.1111/j.1728-4465.2015.00028.x",
+   "title": "Community Health Workers\u2019 Provision of Family Planning Services in Low\u2010 and Middle\u2010Income Countries: A Systematic Review of Effectiveness",
+   "norm_title": "community health workers provision of family planning services in low and middle income countries a systematic review of effectiveness",
+   "year": 2015,
+   "type": "review",
+   "venue": "Studies in Family Planning",
+   "cited_by": 107,
+   "authors": "Valerie Scott; Lindsey B. Gottschalk; Kelsey Wright; Claire Twose",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4252627552",
+   "doi": "10.2307/172157",
+   "title": "Gender Differences in the Schooling Experiences of Adolescents in Low-Income Countries: The Case of Kenya",
+   "norm_title": "gender differences in the schooling experiences of adolescents in low income countries the case of kenya",
+   "year": 1998,
+   "type": "article",
+   "venue": "Studies in Family Planning",
+   "cited_by": 104,
+   "authors": "Barbara Mensch; Cynthia B. Lloyd",
+   "seeds_backward": [
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1975690953",
+   "doi": "10.1111/j.1728-4457.1999.00515.x",
+   "title": "Completing the Demographic Transition",
+   "norm_title": "completing the demographic transition",
+   "year": 1999,
+   "type": "article",
+   "venue": "Population and Development Review",
+   "cited_by": 104,
+   "authors": "John Bongaarts; Rodolfo A. Bulatao",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2006705160",
+   "doi": "10.3386/w13070",
+   "title": "Does Female Schooling Reduce Fertility? Evidence from Nigeria",
+   "norm_title": "does female schooling reduce fertility evidence from nigeria",
+   "year": 2007,
+   "type": "report",
+   "venue": "National Bureau of Economic Research",
+   "cited_by": 103,
+   "authors": "Una Osili; Bridget Terry Long",
+   "seeds_backward": [
+    "kuchler-2012"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2165079811",
+   "doi": "10.31899/pgy6.1001",
+   "title": "Reproductive control in South Africa",
+   "norm_title": "reproductive control in south africa",
+   "year": 1997,
+   "type": "report",
+   "venue": null,
+   "cited_by": 103,
+   "authors": "Carol E. Kaufman",
+   "seeds_backward": [
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2052201924",
+   "doi": "10.2307/2137966",
+   "title": "Do Family Planning Programs Affect Fertility Preferences? A Literature Review",
+   "norm_title": "do family planning programs affect fertility preferences a literature review",
+   "year": 1997,
+   "type": "article",
+   "venue": "Studies in Family Planning",
+   "cited_by": 101,
+   "authors": "R. Freedman",
+   "seeds_backward": [
+    "desai-tarozzi-2011"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2075713492",
+   "doi": "10.1080/00324720308088",
+   "title": "The fertility impact of changes in the timing of childbearing in the developing world",
+   "norm_title": "the fertility impact of changes in the timing of childbearing in the developing world",
+   "year": 1999,
+   "type": "article",
+   "venue": "Population Studies",
+   "cited_by": 101,
+   "authors": "John Bongaarts",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W3124058059",
+   "doi": null,
+   "title": "Family Planning as an Investment in Development: Evaluation of a Program\u2019s Consequences in Matlab, Bangladesh",
+   "norm_title": "family planning as an investment in development evaluation of a program s consequences in matlab bangladesh",
+   "year": 2007,
+   "type": "preprint",
+   "venue": "RePEc: Research Papers in Economics",
+   "cited_by": 100,
+   "authors": "Shareen Joshi; Tim Schultz",
+   "seeds_backward": [
+    "desai-tarozzi-2011"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2755592216",
+   "doi": "10.31899/pgy6.1039",
+   "title": "Greater investments in children through women's empowerment: A key to demographic change in Pakistan?",
+   "norm_title": "greater investments in children through women s empowerment a key to demographic change in pakistan",
+   "year": 2000,
+   "type": "report",
+   "venue": null,
+   "cited_by": 99,
+   "authors": "Valerie Durrant; Zeba A. Sathar",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2513923226",
+   "doi": "10.2471/blt.15.168252",
+   "title": "Group-based microfinance for collective empowerment: a systematic review of health impacts",
+   "norm_title": "group based microfinance for collective empowerment a systematic review of health impacts",
+   "year": 2016,
+   "type": "review",
+   "venue": "Bulletin of the World Health Organization",
+   "cited_by": 99,
+   "authors": "Lois Orton; Andy Pennington; Shilpa Nayak; Amanda Sowden",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2090951478",
+   "doi": "10.1111/j.0012-155x.2005.00413.x",
+   "title": "Women's Employment in Urban Bangladesh: A Challenge to Gender Identity?",
+   "norm_title": "women s employment in urban bangladesh a challenge to gender identity",
+   "year": 2005,
+   "type": "article",
+   "venue": "Development and Change",
+   "cited_by": 98,
+   "authors": "Sarah Salway; Sonia Jesmin; Shahana Rahman",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2317307457",
+   "doi": "10.2307/2137604",
+   "title": "The Impact of Population Policies: Comment",
+   "norm_title": "the impact of population policies comment",
+   "year": 1994,
+   "type": "article",
+   "venue": "Population and Development Review",
+   "cited_by": 97,
+   "authors": "John Bongaarts",
+   "seeds_backward": [
+    "desai-tarozzi-2011"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2944829317",
+   "doi": "10.1016/j.jmoneco.2020.01.003",
+   "title": "Distinguishing constraints on financial inclusion and their impact on GDP, TFP, and the distribution of income",
+   "norm_title": "distinguishing constraints on financial inclusion and their impact on gdp tfp and the distribution of income",
+   "year": 2020,
+   "type": "article",
+   "venue": "Journal of Monetary Economics",
+   "cited_by": 97,
+   "authors": "Era Dabla\u2010Norris; Yan Ji; Robert M. Townsend; D. Filiz Unsal",
+   "seeds_backward": [
+    "lan-pan-yu-2023"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2074410968",
+   "doi": "10.1086/431261",
+   "title": "The Effects of Education and Family Planning Programs on Fertility in Indonesia",
+   "norm_title": "the effects of education and family planning programs on fertility in indonesia",
+   "year": 2005,
+   "type": "article",
+   "venue": "Economic Development and Cultural Change",
+   "cited_by": 96,
+   "authors": "Gustavo \u00c1ngeles; David K. Guilkey; Thomas A. Mroz",
+   "seeds_backward": [
+    "desai-tarozzi-2011"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W3161482878",
+   "doi": "10.1080/00220388.2021.1919631",
+   "title": "Digitally Down to the Countryside: Fintech and Rural Development in China",
+   "norm_title": "digitally down to the countryside fintech and rural development in china",
+   "year": 2021,
+   "type": "article",
+   "venue": "The Journal of Development Studies",
+   "cited_by": 95,
+   "authors": "Sherry Tao Kong; Nicholas Loubere",
+   "seeds_backward": [
+    "lan-pan-yu-2023"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2053757360",
+   "doi": "10.31899/pgy6.1013",
+   "title": "The onset of fertility transition in Pakistan",
+   "norm_title": "the onset of fertility transition in pakistan",
+   "year": 1998,
+   "type": "report",
+   "venue": null,
+   "cited_by": 94,
+   "authors": "Zeba A. Sathar; John B. Casterline",
+   "seeds_backward": [
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2910233051",
+   "doi": "10.4073/csr.2019.2",
+   "title": "Impact of financial inclusion in low- and middle-income countries: A systematic review of reviews",
+   "norm_title": "impact of financial inclusion in low and middle income countries a systematic review of reviews",
+   "year": 2019,
+   "type": "review",
+   "venue": "Campbell Systematic Reviews",
+   "cited_by": 93,
+   "authors": "Maren Duvendack; Philip Mader",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2077914392",
+   "doi": "10.31899/pgy6.1030",
+   "title": "Fertility preferences and contraceptive change in developing countries",
+   "norm_title": "fertility preferences and contraceptive change in developing countries",
+   "year": 1999,
+   "type": "report",
+   "venue": null,
+   "cited_by": 91,
+   "authors": "Bamikale J. Feyisetan; John B. Casterline",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2340959483",
+   "doi": "10.1111/j.1728-4457.2016.00109.x",
+   "title": "Family Planning Program Effects: Evidence from Microdata",
+   "norm_title": "family planning program effects evidence from microdata",
+   "year": 2016,
+   "type": "article",
+   "venue": "Population and Development Review",
+   "cited_by": 91,
+   "authors": "Grant Miller; Kimberly Singer Babiarz",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2340123883",
+   "doi": "10.31899/pgy6.1022",
+   "title": "Lessons from community-based distribution of family planning in Africa",
+   "norm_title": "lessons from community based distribution of family planning in africa",
+   "year": 1999,
+   "type": "report",
+   "venue": null,
+   "cited_by": 89,
+   "authors": "James F. Phillips; Wendy Greene; Elizabeth B. Jackson",
+   "seeds_backward": [
+    "desai-tarozzi-2011"
+   ],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2586377455",
+   "doi": "10.1111/padr.12030",
+   "title": "Fertility Desires and the Course of Fertility Decline in sub\u2010Saharan Africa",
+   "norm_title": "fertility desires and the course of fertility decline in sub saharan africa",
+   "year": 2017,
+   "type": "article",
+   "venue": "Population and Development Review",
+   "cited_by": 84,
+   "authors": "John B. Casterline; Samuel Agyei\u2010Mensah",
+   "seeds_backward": [
+    "lan-pan-yu-2023"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1503504393",
+   "doi": "10.31899/pgy6.1031",
+   "title": "Urban growth in developing countries: A review of projections and predictions",
+   "norm_title": "urban growth in developing countries a review of projections and predictions",
+   "year": 1999,
+   "type": "report",
+   "venue": null,
+   "cited_by": 84,
+   "authors": "Martin Brockerhoff",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2010855089",
+   "doi": "10.2139/ssrn.1396122",
+   "title": "Great Expectations: Microfinance and Poverty Reduction in Asia and Latin America",
+   "norm_title": "great expectations microfinance and poverty reduction in asia and latin america",
+   "year": 2009,
+   "type": "preprint",
+   "venue": "SSRN Electronic Journal",
+   "cited_by": 82,
+   "authors": "John Weiss; Heather Montgomery",
+   "seeds_backward": [
+    "kuchler-2012"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2314182880",
+   "doi": "10.2307/2137717",
+   "title": "Population Pressure and the Food Supply System in the Developing World",
+   "norm_title": "population pressure and the food supply system in the developing world",
+   "year": 1996,
+   "type": "article",
+   "venue": "Population and Development Review",
+   "cited_by": 82,
+   "authors": "John Bongaarts",
+   "seeds_backward": [
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2070063133",
+   "doi": "10.1111/j.1728-4465.2008.00150.x",
+   "title": "Women's Acceptance of Intimate Partner Violence within Marriage in Rural Bangladesh",
+   "norm_title": "women s acceptance of intimate partner violence within marriage in rural bangladesh",
+   "year": 2008,
+   "type": "article",
+   "venue": "Studies in Family Planning",
+   "cited_by": 82,
+   "authors": "Sidney Ruth Schuler; Farzana Islam",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2186394662",
+   "doi": "10.31899/pgy6.1034",
+   "title": "The effects of schooling incentive programs on household resource allocation in Bangladesh",
+   "norm_title": "the effects of schooling incentive programs on household resource allocation in bangladesh",
+   "year": 2000,
+   "type": "report",
+   "venue": null,
+   "cited_by": 80,
+   "authors": "Mary Arends\u2010Kuenning; Sajeda Amin",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2149122444",
+   "doi": "10.31899/pgy6.1014",
+   "title": "Government and fertility in transitional and post-transitional societies",
+   "norm_title": "government and fertility in transitional and post transitional societies",
+   "year": 1998,
+   "type": "report",
+   "venue": null,
+   "cited_by": 70,
+   "authors": "Geoffrey McNicoll",
+   "seeds_backward": [
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1483507314",
+   "doi": "10.31899/pgy6.1007",
+   "title": "Incentive schemes for school attendance in rural Bangladesh",
+   "norm_title": "incentive schemes for school attendance in rural bangladesh",
+   "year": 1998,
+   "type": "report",
+   "venue": null,
+   "cited_by": 69,
+   "authors": "Sajeda Amin; Gilda Sedgh",
+   "seeds_backward": [
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W3171272810",
+   "doi": "10.1136/bmjopen-2020-045952",
+   "title": "Women\u2019s empowerment and fertility decision-making in 53 low and middle resource countries: a pooled analysis of demographic and health surveys",
+   "norm_title": "women s empowerment and fertility decision making in 53 low and middle resource countries a pooled analysis of demographic and health surveys",
+   "year": 2021,
+   "type": "article",
+   "venue": "BMJ Open",
+   "cited_by": 67,
+   "authors": "Rezwanul Haque; Khorshed Alam; Syed Mahbubur Rahman; Syed Afroz Keramat",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2580912023",
+   "doi": "10.1093/heapol/czw170",
+   "title": "Evaluating the effect of integrated microfinance and health interventions: an updated review of the evidence",
+   "norm_title": "evaluating the effect of integrated microfinance and health interventions an updated review of the evidence",
+   "year": 2016,
+   "type": "article",
+   "venue": "Health Policy and Planning",
+   "cited_by": 66,
+   "authors": "Lara Lorenzetti; Sheila Leatherman; Valerie L. Flax",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2127403861",
+   "doi": "10.1111/j.1728-4465.2013.00356.x",
+   "title": "Perceived Decline in Intimate Partner Violence Against Women in Bangladesh: Qualitative Evidence",
+   "norm_title": "perceived decline in intimate partner violence against women in bangladesh qualitative evidence",
+   "year": 2013,
+   "type": "article",
+   "venue": "Studies in Family Planning",
+   "cited_by": 64,
+   "authors": "Sidney Ruth Schuler; Rachel Lenzi; Sohela Nazneen; Lisa M. Bates",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W3153097645",
+   "doi": "10.3846/tede.2021.14508",
+   "title": "IMPACT OF MOBILE PHONES AND INTERNET USE ON FINANCIAL INCLUSION: EMPIRICAL EVIDENCE FROM THE EU POST-COMMUNIST COUNTRIES",
+   "norm_title": "impact of mobile phones and internet use on financial inclusion empirical evidence from the eu post communist countries",
+   "year": 2021,
+   "type": "article",
+   "venue": "Technological and Economic Development of Economy",
+   "cited_by": 63,
+   "authors": "Y\u0131lmaz Bayar; Marius Dan Gavriletea; Drago\u0219 P\u0103un",
+   "seeds_backward": [
+    "lan-pan-yu-2023"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2252804009",
+   "doi": null,
+   "title": "Excess Fertility, Unintended Births, and Children's Schooling",
+   "norm_title": "excess fertility unintended births and children s schooling",
+   "year": 1997,
+   "type": "article",
+   "venue": null,
+   "cited_by": 61,
+   "authors": "Mark R. Montgomery; Cynthia B. Lloyd",
+   "seeds_backward": [
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4238728374",
+   "doi": "10.31899/pgy6.1003",
+   "title": "Absent and problematic men: Demographic accounts of male reproductive roles",
+   "norm_title": "absent and problematic men demographic accounts of male reproductive roles",
+   "year": 1997,
+   "type": "report",
+   "venue": null,
+   "cited_by": 61,
+   "authors": "Margaret E. Greene; Ann Biddlecom",
+   "seeds_backward": [
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2068685292",
+   "doi": "10.1111/j.1728-4465.2011.00261.x",
+   "title": "Justification of Intimate Partner Violence in Rural Bangladesh: What Survey Questions Fail to Capture",
+   "norm_title": "justification of intimate partner violence in rural bangladesh what survey questions fail to capture",
+   "year": 2011,
+   "type": "article",
+   "venue": "Studies in Family Planning",
+   "cited_by": 60,
+   "authors": "Sidney Ruth Schuler; Rachel Lenzi; Kathryn M. Yount",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2067508372",
+   "doi": "10.1111/j.0039-3665.2004.00030.x",
+   "title": "Communities, Opportunities, and Adolescents\u2019 Sexual Behavior in KwaZulu\u2010Natal, South Africa",
+   "norm_title": "communities opportunities and adolescents sexual behavior in kwazulu natal south africa",
+   "year": 2004,
+   "type": "article",
+   "venue": "Studies in Family Planning",
+   "cited_by": 59,
+   "authors": "Carol E. Kaufman; Shelley Clark; Ntsiki Manzini; Julian May",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2736179794",
+   "doi": "10.1007/s13524-017-0592-0",
+   "title": "Fertility Intentions and Residential Relocations",
+   "norm_title": "fertility intentions and residential relocations",
+   "year": 2017,
+   "type": "article",
+   "venue": "Demography",
+   "cited_by": 58,
+   "authors": "Sergi Vidal; Johannes Huinink; Michael Feldhaus",
+   "seeds_backward": [
+    "lan-pan-yu-2023"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2051892665",
+   "doi": "10.1080/14765284.2011.592352",
+   "title": "The impact of microcredit on women's empowerment: evidence from China",
+   "norm_title": "the impact of microcredit on women s empowerment evidence from china",
+   "year": 2011,
+   "type": "article",
+   "venue": "Journal of Chinese Economic and Business Studies",
+   "cited_by": 58,
+   "authors": "Xia Li; Christopher Gan; Baiding Hu",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1867126887",
+   "doi": null,
+   "title": "The determinants of contraceptive innovation : a case-control study of family planning acceptance in a traditional African society",
+   "norm_title": "the determinants of contraceptive innovation a case control study of family planning acceptance in a traditional african society",
+   "year": 1997,
+   "type": "book",
+   "venue": "Medical Entomology and Zoology",
+   "cited_by": 57,
+   "authors": "Phillips Jf; Fred Binka; Martin Adjuik; Alex Nazzar",
+   "seeds_backward": [
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2007935555",
+   "doi": "10.1080/0966369x.2011.572435",
+   "title": "Out of the dark but not out of the cage: women's empowerment and gender relations in the Dangme West district of Ghana",
+   "norm_title": "out of the dark but not out of the cage women s empowerment and gender relations in the dangme west district of ghana",
+   "year": 2011,
+   "type": "article",
+   "venue": "Gender Place & Culture",
+   "cited_by": 57,
+   "authors": "Charlotte Wrigley\u2010Asante",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2128524997",
+   "doi": "10.31899/pgy6.1025",
+   "title": "Premarital sex and school dropout in Kenya: Can schools make a difference?",
+   "norm_title": "premarital sex and school dropout in kenya can schools make a difference",
+   "year": 1999,
+   "type": "report",
+   "venue": null,
+   "cited_by": 57,
+   "authors": "Barbara Mensch; Wesley H. Clark; Cynthia B. Lloyd; Annabel Erulkar",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2003905296",
+   "doi": "10.2307/3038206",
+   "title": "Increasing Access to Family Planning Services in Rural Mali Through Community-Based Distribution",
+   "norm_title": "increasing access to family planning services in rural mali through community based distribution",
+   "year": 1998,
+   "type": "article",
+   "venue": "International Family Planning Perspectives",
+   "cited_by": 56,
+   "authors": "Karen Katz; Caroline G. West; Fod\u00e9 Doumbia; Fatoumata Kane",
+   "seeds_backward": [
+    "desai-tarozzi-2011"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4221108595",
+   "doi": "10.1086/719966",
+   "title": "Labor Market Discrimination against Family Responsibilities: A Correspondence Study with Policy Change in China",
+   "norm_title": "labor market discrimination against family responsibilities a correspondence study with policy change in china",
+   "year": 2022,
+   "type": "article",
+   "venue": "Journal of Labor Economics",
+   "cited_by": 56,
+   "authors": "Haoran He; Sherry Xin Li; Yuling Han",
+   "seeds_backward": [
+    "lan-pan-yu-2023"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W26732782",
+   "doi": "10.31899/pgy6.1024",
+   "title": "The quantity-quality transition in Asia",
+   "norm_title": "the quantity quality transition in asia",
+   "year": 1999,
+   "type": "report",
+   "venue": null,
+   "cited_by": 56,
+   "authors": "Mark R. Montgomery; Mary Arends\u2010Kuenning; Cem Mete",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1576578023",
+   "doi": "10.1016/0002-9378(72)90103-2",
+   "title": "Auxiliary midwife prescription of oral contraceptives",
+   "norm_title": "auxiliary midwife prescription of oral contraceptives",
+   "year": 1972,
+   "type": "article",
+   "venue": "American Journal of Obstetrics and Gynecology",
+   "cited_by": 54,
+   "authors": "Allan Rosenfield; Charoon Limcharoen",
+   "seeds_backward": [
+    "desai-tarozzi-2011"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2395893983",
+   "doi": null,
+   "title": "Learning and Lags in Mortality Perceptions",
+   "norm_title": "learning and lags in mortality perceptions",
+   "year": 1998,
+   "type": "article",
+   "venue": null,
+   "cited_by": 54,
+   "authors": "Mark R. Montgomery; B. Beth Cohen",
+   "seeds_backward": [
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W25972056",
+   "doi": "10.31899/pgy6.1023",
+   "title": "Mortality decline and the demographic response: Toward a new agenda",
+   "norm_title": "mortality decline and the demographic response toward a new agenda",
+   "year": 1999,
+   "type": "report",
+   "venue": null,
+   "cited_by": 54,
+   "authors": "Mark Montgomery",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2614858880",
+   "doi": null,
+   "title": "Gender inequality within households: the impact of a womens development program in 36 Bangladeshi villages.",
+   "norm_title": "gender inequality within households the impact of a womens development program in 36 bangladeshi villages",
+   "year": 1990,
+   "type": "article",
+   "venue": null,
+   "cited_by": 53,
+   "authors": "Sajeda Amin; Pebley Ar",
+   "seeds_backward": [
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W3123520422",
+   "doi": null,
+   "title": "Instruments of Development: Randomization in the Tropics, and the Search for the Elusive Keys to Economic Development",
+   "norm_title": "instruments of development randomization in the tropics and the search for the elusive keys to economic development",
+   "year": 2009,
+   "type": "preprint",
+   "venue": "RePEc: Research Papers in Economics",
+   "cited_by": 53,
+   "authors": "Angus Deaton",
+   "seeds_backward": [
+    "desai-tarozzi-2011"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1996828144",
+   "doi": "10.1093/wber/10.1.189",
+   "title": "Fertility, Contraceptive Choice, and Public Policy in Zimbabwe",
+   "norm_title": "fertility contraceptive choice and public policy in zimbabwe",
+   "year": 1996,
+   "type": "article",
+   "venue": "The World Bank Economic Review",
+   "cited_by": 51,
+   "authors": "David L. Thomas; John A. Maluccio",
+   "seeds_backward": [
+    "desai-tarozzi-2011"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2618414730",
+   "doi": "10.31899/pgy6.1011",
+   "title": "The changing social environment for adolescents in Kassena-Nankana District of northern Ghana: Implications for reproductive behavior",
+   "norm_title": "the changing social environment for adolescents in kassena nankana district of northern ghana implications for reproductive behavior",
+   "year": 1998,
+   "type": "report",
+   "venue": null,
+   "cited_by": 51,
+   "authors": "Barbara Mensch; Daniel A. Bagah; Wesley H. Clark; Fred Binka",
+   "seeds_backward": [
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2999720768",
+   "doi": "10.1007/s12134-019-00754-0",
+   "title": "Empowered by Absence: Does Male Out-migration Empower Female Household Heads Left Behind?",
+   "norm_title": "empowered by absence does male out migration empower female household heads left behind",
+   "year": 2020,
+   "type": "article",
+   "venue": "Journal of International Migration and Integration / Revue de l integration et de la migration internationale",
+   "cited_by": 51,
+   "authors": "Adnan Fakir; Naveen Abedin",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1533315389",
+   "doi": "10.1023/a:1020030616075",
+   "title": "Women's lives and rapid fertility decline: Some lessons from Bangladesh and Egypt",
+   "norm_title": "women s lives and rapid fertility decline some lessons from bangladesh and egypt",
+   "year": 2002,
+   "type": "article",
+   "venue": "Population Research and Policy Review",
+   "cited_by": 51,
+   "authors": "Sajeda Amin; Cynthia B. Lloyd",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2765017098",
+   "doi": null,
+   "title": "World Rural Observations",
+   "norm_title": "world rural observations",
+   "year": 2015,
+   "type": "article",
+   "venue": "ADVANCED SCIENCES INDEX",
+   "cited_by": 50,
+   "authors": "Publisher Marsland Press",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W3120514773",
+   "doi": "10.1016/j.worlddev.2020.105313",
+   "title": "Women\u2019s reproductive health and economic activity: A narrative review",
+   "norm_title": "women s reproductive health and economic activity a narrative review",
+   "year": 2021,
+   "type": "review",
+   "venue": "World Development",
+   "cited_by": 50,
+   "authors": "Jocelyn E. Finlay",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2011943360",
+   "doi": "10.1086/649638",
+   "title": "Women\u2019s Education and Fertility: An Analysis of the Relationship between Education and Birth Spacing in Indonesia",
+   "norm_title": "women s education and fertility an analysis of the relationship between education and birth spacing in indonesia",
+   "year": 2010,
+   "type": "article",
+   "venue": "Economic Development and Cultural Change",
+   "cited_by": 49,
+   "authors": "Jungho Kim",
+   "seeds_backward": [
+    "kuchler-2012"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1584748175",
+   "doi": "10.1596/13791",
+   "title": "Overcoming Barriers to Health Service Access and Influencing the Demand Side Through Purchasing",
+   "norm_title": "overcoming barriers to health service access and influencing the demand side through purchasing",
+   "year": 2004,
+   "type": "book",
+   "venue": "World Bank, Washington, DC eBooks",
+   "cited_by": 49,
+   "authors": "Tim Ensor; Stephanie Cooper",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2790177397",
+   "doi": "10.1007/s11135-018-0713-x",
+   "title": "The impact of women\u2019s education and employment on their empowerment: an empirical evidence from household level survey",
+   "norm_title": "the impact of women s education and employment on their empowerment an empirical evidence from household level survey",
+   "year": 2018,
+   "type": "article",
+   "venue": "Quality & Quantity",
+   "cited_by": 47,
+   "authors": "Sofia Riaz; Zahid Pervaiz",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2184152115",
+   "doi": "10.31899/pgy6.1061",
+   "title": "How community structures of time and opportunity shape adolescent sexual behavior in South Africa",
+   "norm_title": "how community structures of time and opportunity shape adolescent sexual behavior in south africa",
+   "year": 2002,
+   "type": "report",
+   "venue": null,
+   "cited_by": 47,
+   "authors": "Carol E. Kaufman; Shelley Clark; Ntsiki Manzini; Julian May",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2152583422",
+   "doi": "10.31899/pgy6.1041",
+   "title": "Socialization to gender roles and marriage among Egyptian adolescents",
+   "norm_title": "socialization to gender roles and marriage among egyptian adolescents",
+   "year": 2000,
+   "type": "report",
+   "venue": null,
+   "cited_by": 47,
+   "authors": "Barbara Mensch; Barbara Lethem Ibrahim; Susan Lee; Omaima El\u2010Gibaly",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W3009270836",
+   "doi": "10.1111/jomf.12672",
+   "title": "No More Babies without Help for Whom? Education, Division of Labor, and Fertility Intentions",
+   "norm_title": "no more babies without help for whom education division of labor and fertility intentions",
+   "year": 2020,
+   "type": "article",
+   "venue": "Journal of Marriage and the Family",
+   "cited_by": 46,
+   "authors": "Yen\u2010hsin Alice Cheng; Chen\u2010Hao Hsu",
+   "seeds_backward": [
+    "lan-pan-yu-2023"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2098408838",
+   "doi": "10.31899/pgy6.1042",
+   "title": "Future trends in contraception in the developing world: Prevalence and method mix",
+   "norm_title": "future trends in contraception in the developing world prevalence and method mix",
+   "year": 2000,
+   "type": "report",
+   "venue": null,
+   "cited_by": 46,
+   "authors": "John Bongaarts; Elof D.B. Johansson",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W850379250",
+   "doi": "10.1080/00220388.2016.1208178",
+   "title": "Bride Price and Fertility Decisions: Evidence from Rural Senegal",
+   "norm_title": "bride price and fertility decisions evidence from rural senegal",
+   "year": 2016,
+   "type": "article",
+   "venue": "The Journal of Development Studies",
+   "cited_by": 45,
+   "authors": "Lingu\u00e8re Mously Mbaye; Natascha Wagner",
+   "seeds_backward": [
+    "lan-pan-yu-2023"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2067618881",
+   "doi": "10.1086/375519",
+   "title": "Schooling Opportunities for Girls as a Stimulus for Fertility Change in Rural Pakistan",
+   "norm_title": "schooling opportunities for girls as a stimulus for fertility change in rural pakistan",
+   "year": 2003,
+   "type": "article",
+   "venue": "Economic Development and Cultural Change",
+   "cited_by": 45,
+   "authors": "Zeba A. Sathar; Cynthia B. Lloyd; Cem Mete; Minhaj ul Haque",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2590023569",
+   "doi": "10.31899/pgy6.1002",
+   "title": "Transition to adulthood of female factory workers: Some evidence from Bangladesh",
+   "norm_title": "transition to adulthood of female factory workers some evidence from bangladesh",
+   "year": 1997,
+   "type": "report",
+   "venue": null,
+   "cited_by": 44,
+   "authors": "Sajeda Amin; Ian Diamond; Ruchira Tabassum Naved; Margaret Newby",
+   "seeds_backward": [
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2020653457",
+   "doi": "10.1080/00220380412331322181",
+   "title": "Ideas, Economics and 'the Sociology of Supply': Explanations for Fertility Decline in Bangladesh",
+   "norm_title": "ideas economics and the sociology of supply explanations for fertility decline in bangladesh",
+   "year": 2001,
+   "type": "article",
+   "venue": "The Journal of Development Studies",
+   "cited_by": 43,
+   "authors": "Naila Kabeer",
+   "seeds_backward": [
+    "lan-pan-yu-2023"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2166467139",
+   "doi": "10.1177/1077801212465152",
+   "title": "Justification of Wife Beating in Rural Bangladesh",
+   "norm_title": "justification of wife beating in rural bangladesh",
+   "year": 2012,
+   "type": "article",
+   "venue": "Violence Against Women",
+   "cited_by": 43,
+   "authors": "Sidney Ruth Schuler; Kathryn M. Yount; Rachel Lenzi",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4281388680",
+   "doi": "10.1073/pnas.2200279119",
+   "title": "The causal effect of a family planning intervention on women\u2019s contraceptive use and birth spacing",
+   "norm_title": "the causal effect of a family planning intervention on women s contraceptive use and birth spacing",
+   "year": 2022,
+   "type": "article",
+   "venue": "Proceedings of the National Academy of Sciences",
+   "cited_by": 43,
+   "authors": "Mahesh Karra; Daniel Maggio; Muqi Guo; Bagrey Ngwira",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2226059584",
+   "doi": "10.31899/pgy6.1019",
+   "title": "The impact of family planning household service delivery on women's status in Bangladesh",
+   "norm_title": "the impact of family planning household service delivery on women s status in bangladesh",
+   "year": 1998,
+   "type": "report",
+   "venue": null,
+   "cited_by": 42,
+   "authors": "James F. Phillips; Mian Bazle Hossain",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2561750235",
+   "doi": null,
+   "title": "Review of Methodological Approaches to the Study of the Impact of the Microenterprise Credit Programs",
+   "norm_title": "review of methodological approaches to the study of the impact of the microenterprise credit programs",
+   "year": 1996,
+   "type": "article",
+   "venue": null,
+   "cited_by": 41,
+   "authors": "Gary L. Gaile; Jennifer Foster",
+   "seeds_backward": [
+    "kuchler-2012"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1967617716",
+   "doi": "10.1007/s00148-005-0226-5",
+   "title": "The determinants of fertility in rural Peru: Program effects in the early years of the national family planning program",
+   "norm_title": "the determinants of fertility in rural peru program effects in the early years of the national family planning program",
+   "year": 2005,
+   "type": "article",
+   "venue": "Journal of Population Economics",
+   "cited_by": 40,
+   "authors": "Gustavo \u00c1ngeles; David K. Guilkey; Thomas A. Mroz",
+   "seeds_backward": [
+    "desai-tarozzi-2011"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2112767191",
+   "doi": "10.4054/demres.2011.25.27",
+   "title": "Ethnic differentials of the impact of Family Planning Program on contraceptive use in Nepal",
+   "norm_title": "ethnic differentials of the impact of family planning program on contraceptive use in nepal",
+   "year": 2011,
+   "type": "article",
+   "venue": "Demographic Research",
+   "cited_by": 35,
+   "authors": "Sharad Sharma; Naresh Pratap; Dhruba Ghimire",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4242919895",
+   "doi": "10.1596/0-8213-3516-2",
+   "title": "Sustainability of a government targeted credit program",
+   "norm_title": "sustainability of a government targeted credit program",
+   "year": 1995,
+   "type": "book",
+   "venue": "World Bank discussion papers",
+   "cited_by": 33,
+   "authors": "Shahidur R. Khandker; Zahed Hossain Khan; Baqui Khalily",
+   "seeds_backward": [
+    "kuchler-2012"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2741898846",
+   "doi": "10.31899/pgy6.1043",
+   "title": "Some preconditions for fertility decline in Bengal: History, language identity, and an openness to innovations",
+   "norm_title": "some preconditions for fertility decline in bengal history language identity and an openness to innovations",
+   "year": 2000,
+   "type": "report",
+   "venue": null,
+   "cited_by": 32,
+   "authors": "Alaka Malwade Basu; Sajeda Amin",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2024004380",
+   "doi": "10.1371/journal.pone.0068794",
+   "title": "Meeting Rural Demand: A Case for Combining Community-Based Distribution and Social Marketing of Injectable Contraceptives in Tigray, Ethiopia",
+   "norm_title": "meeting rural demand a case for combining community based distribution and social marketing of injectable contraceptives in tigray ethiopia",
+   "year": 2013,
+   "type": "article",
+   "venue": "PLoS ONE",
+   "cited_by": 32,
+   "authors": "Ndola Prata; Karen Weidert; Ashley Fraser; Amanuel Gessessew",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4389431553",
+   "doi": "10.1016/j.iref.2023.12.001",
+   "title": "Digital financial inclusion and tourism development",
+   "norm_title": "digital financial inclusion and tourism development",
+   "year": 2023,
+   "type": "article",
+   "venue": "International Review of Economics & Finance",
+   "cited_by": 32,
+   "authors": "Haohan Luo; Haijun Wang; Ying Wu",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "lan-pan-yu-2023"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2036663396",
+   "doi": "10.1111/j.1728-4465.2000.00325.x",
+   "title": "Mobilizing Demand for Contraception in Rural Gambia",
+   "norm_title": "mobilizing demand for contraception in rural gambia",
+   "year": 2000,
+   "type": "article",
+   "venue": "Studies in Family Planning",
+   "cited_by": 30,
+   "authors": "Margaret Luck; Ebrima Jarju; M. Diane Nell; Melville O. George",
+   "seeds_backward": [
+    "desai-tarozzi-2011"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2358983334",
+   "doi": null,
+   "title": "Women Empowerment Performance of Income Generating Activities Supported by Rural Women Employment Creation Project (RWECP): A Case Study in Dumuria Thana, Bangladesh",
+   "norm_title": "women empowerment performance of income generating activities supported by rural women employment creation project rwecp a case study in dumuria thana bangladesh",
+   "year": 2005,
+   "type": "article",
+   "venue": null,
+   "cited_by": 30,
+   "authors": "Gulsan Ara Parvin; Mahmudur Rahman Chowdhury",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2610942192",
+   "doi": "10.1080/00220388.2017.1400017",
+   "title": "Female Land Ownership and Fertility in Nepal",
+   "norm_title": "female land ownership and fertility in nepal",
+   "year": 2017,
+   "type": "article",
+   "venue": "The Journal of Development Studies",
+   "cited_by": 28,
+   "authors": "Averi Chakrabarti",
+   "seeds_backward": [
+    "lan-pan-yu-2023"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1998777417",
+   "doi": "10.1007/s12546-011-9055-4",
+   "title": "\u2018\u2026And one for the country\u2019 The effect of the baby bonus on Australian women\u2019s childbearing intentions",
+   "norm_title": "and one for the country the effect of the baby bonus on australian women s childbearing intentions",
+   "year": 2010,
+   "type": "article",
+   "venue": "Journal of Population Research",
+   "cited_by": 26,
+   "authors": "Leonora Risse",
+   "seeds_backward": [
+    "lan-pan-yu-2023"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2018424948",
+   "doi": "10.1016/s1081-602x(01)00073-2",
+   "title": "\u201cWe are family\u201d: Gender, microenterprise, family work, and well-being in Ecuador and the Dominican Republic \u2014 with comparative data from Guatemala, Swaziland, and Guinea-Bissau",
+   "norm_title": "we are family gender microenterprise family work and well being in ecuador and the dominican republic with comparative data from guatemala swaziland and guinea bissau",
+   "year": 2001,
+   "type": "article",
+   "venue": "The History of the Family",
+   "cited_by": 26,
+   "authors": "Rae Lesser Blumberg",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2909002907",
+   "doi": "10.31899/pgy1.1027",
+   "title": "Managing population-environment systems: Problems of institutional design",
+   "norm_title": "managing population environment systems problems of institutional design",
+   "year": 2000,
+   "type": "report",
+   "venue": null,
+   "cited_by": 26,
+   "authors": "Geoffrey McNicoll",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2099070821",
+   "doi": "10.31899/pgy6.1012",
+   "title": "Migration, sexual behavior and HIV diffusion in Kenya",
+   "norm_title": "migration sexual behavior and hiv diffusion in kenya",
+   "year": 1998,
+   "type": "report",
+   "venue": null,
+   "cited_by": 25,
+   "authors": "Martin Brockerhoff; Ann Biddlecom",
+   "seeds_backward": [
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W3168440355",
+   "doi": "10.1016/j.worlddev.2021.105574",
+   "title": "Enforcing government policies: The role of state-owned enterprise in China\u2019s one child policy",
+   "norm_title": "enforcing government policies the role of state owned enterprise in china s one child policy",
+   "year": 2021,
+   "type": "article",
+   "venue": "World Development",
+   "cited_by": 23,
+   "authors": "Hua Cheng; Yuanyuan Ma; Shusen Qi; Lixin Colin Xu",
+   "seeds_backward": [
+    "lan-pan-yu-2023"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2927943462",
+   "doi": "10.1016/j.ssmph.2019.100396",
+   "title": "Does owning a bank account improve reproductive and maternal health services utilization and behavior in India? Evidence from the National Family Health Survey 2015\u201316",
+   "norm_title": "does owning a bank account improve reproductive and maternal health services utilization and behavior in india evidence from the national family health survey 2015 16",
+   "year": 2019,
+   "type": "article",
+   "venue": "SSM - Population Health",
+   "cited_by": 23,
+   "authors": "Abhishek Singh; Kaushalendra Kumar; Lotus McDougal; Jay G. Silverman",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998",
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2301852053",
+   "doi": "10.1007/s13132-015-0348-2",
+   "title": "Can Microfinance Help to Reduce Poverty? A Review of Evidence for Developing Countries",
+   "norm_title": "can microfinance help to reduce poverty a review of evidence for developing countries",
+   "year": 2016,
+   "type": "book-chapter",
+   "venue": "Journal of the Knowledge Economy",
+   "cited_by": 22,
+   "authors": "Kamel Bel Hadj Miled; Jaleleddine Ben Rejeb",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1974327418",
+   "doi": null,
+   "title": "Contraceptive use and fertility decline in Chogoria, Kenya.",
+   "norm_title": "contraceptive use and fertility decline in chogoria kenya",
+   "year": 1989,
+   "type": "article",
+   "venue": "PubMed",
+   "cited_by": 21,
+   "authors": "Howard I. Goldberg; M McNeil; Alison M. Spitz",
+   "seeds_backward": [
+    "desai-tarozzi-2011"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2041294832",
+   "doi": "10.2105/ajph.87.4.666",
+   "title": "The effectiveness of family planning programs evaluated with true experimental designs.",
+   "norm_title": "the effectiveness of family planning programs evaluated with true experimental designs",
+   "year": 1997,
+   "type": "article",
+   "venue": "American Journal of Public Health",
+   "cited_by": 21,
+   "authors": "Karl E. Bauman",
+   "seeds_backward": [
+    "desai-tarozzi-2011"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4200564011",
+   "doi": "10.1111/jomf.12815",
+   "title": "Desired fertility and educational aspirations: Adolescent goals in rapidly changing social contexts",
+   "norm_title": "desired fertility and educational aspirations adolescent goals in rapidly changing social contexts",
+   "year": 2021,
+   "type": "article",
+   "venue": "Journal of Marriage and the Family",
+   "cited_by": 21,
+   "authors": "Melissa Alcaraz; Sarah R. Hayford; Jennifer E. Glick",
+   "seeds_backward": [
+    "lan-pan-yu-2023"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4388084584",
+   "doi": "10.1093/oso/9780199241859.003.0020",
+   "title": "Prospects for Fertility Decline and Implications for Population Growth in South Asia",
+   "norm_title": "prospects for fertility decline and implications for population growth in south asia",
+   "year": 2001,
+   "type": "book-chapter",
+   "venue": null,
+   "cited_by": 21,
+   "authors": "John Bongaarts; Sajeda Amin",
+   "seeds_backward": [
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2014942510",
+   "doi": "10.1080/01488376.2013.816409",
+   "title": "Assessing the Participation of Women in Microfinance Institutions: Evidence From a Multinational Study",
+   "norm_title": "assessing the participation of women in microfinance institutions evidence from a multinational study",
+   "year": 2013,
+   "type": "article",
+   "venue": "Journal of Social Service Research",
+   "cited_by": 21,
+   "authors": "Karabi Bezboruah; Vijayan K. Pillai",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "kuchler-2012"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2131786868",
+   "doi": "10.1186/1471-2458-13-372",
+   "title": "Determinants of better health: a cross-sectional assessment of positive deviants among women in West Bengal",
+   "norm_title": "determinants of better health a cross sectional assessment of positive deviants among women in west bengal",
+   "year": 2013,
+   "type": "article",
+   "venue": "BMC Public Health",
+   "cited_by": 20,
+   "authors": "Katelyn Long; Lisa H. Gren; Chris A. Rees; Joshua H. West",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1543756500",
+   "doi": null,
+   "title": "Sustainability of a Government Targeted Credit Program: Evidence from Bangladesh",
+   "norm_title": "sustainability of a government targeted credit program evidence from bangladesh",
+   "year": 1995,
+   "type": "preprint",
+   "venue": "RePEc: Research Papers in Economics",
+   "cited_by": 19,
+   "authors": "Shahidur R. Khandker; Zahed Hossain Khan; M. A. Baqui Khalily",
+   "seeds_backward": [
+    "kuchler-2012"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4250251007",
+   "doi": "10.2307/3088313",
+   "title": "How Do Family Planning Workers' Visits Affect Women's Contraceptive Behavior in Bangladesh?",
+   "norm_title": "how do family planning workers visits affect women s contraceptive behavior in bangladesh",
+   "year": 2001,
+   "type": "article",
+   "venue": "Demography",
+   "cited_by": 19,
+   "authors": "Mary Arends\u2010Kuenning",
+   "seeds_backward": [
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1490416086",
+   "doi": "10.1002/jid.3130",
+   "title": "How Does Microcredit Lead to Empowerment? A Case Study of the Vinya wa Aka Group in Kenya",
+   "norm_title": "how does microcredit lead to empowerment a case study of the vinya wa aka group in kenya",
+   "year": 2015,
+   "type": "article",
+   "venue": "Journal of International Development",
+   "cited_by": 19,
+   "authors": "Carolyn Kulb; Monique Hennink; Ndunge Kiiti; Jane Mutinda",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2029568511",
+   "doi": "10.1080/17441692.2012.762032",
+   "title": "A delicate web: Household changes in health behaviour enabled by microcredit in Burkina Faso",
+   "norm_title": "a delicate web household changes in health behaviour enabled by microcredit in burkina faso",
+   "year": 2013,
+   "type": "article",
+   "venue": "Global Public Health",
+   "cited_by": 19,
+   "authors": "Monique Hennink; Deborah A. McFarland",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2077545178",
+   "doi": "10.2307/2133484",
+   "title": "The Effect of Counseling on Sterilization Acceptance by High-Parity Women in Nigeria",
+   "norm_title": "the effect of counseling on sterilization acceptance by high parity women in nigeria",
+   "year": 1989,
+   "type": "article",
+   "venue": "International Family Planning Perspectives",
+   "cited_by": 18,
+   "authors": "Alexander E. Omu; Sharon S. Weir; Barbara Janowitz; Deborah L. Covington",
+   "seeds_backward": [
+    "desai-tarozzi-2011"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2755234252",
+   "doi": "10.1007/978-3-319-60417-6_17",
+   "title": "Economic Empowerment to Improve Sexual and Reproductive Health Among Women and Girls",
+   "norm_title": "economic empowerment to improve sexual and reproductive health among women and girls",
+   "year": 2017,
+   "type": "book-chapter",
+   "venue": null,
+   "cited_by": 17,
+   "authors": "Elizabeth Reed; Brooke S. West; Marissa Salazar; Ricardo Vera Monroy",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1527975890",
+   "doi": null,
+   "title": "Women Becoming Bosses: Changing Gender Roles and Decision Making in Dangme West District of Ghana",
+   "norm_title": "women becoming bosses changing gender roles and decision making in dangme west district of ghana",
+   "year": 2011,
+   "type": "article",
+   "venue": "Ghana Journal of Geography",
+   "cited_by": 17,
+   "authors": "Charlotte Wrigley\u2010Asante",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1994322174",
+   "doi": "10.1353/jhr.2009.0031",
+   "title": "Testing the External Effect of Household Behavior: The Case of the Demand for Children",
+   "norm_title": "testing the external effect of household behavior the case of the demand for children",
+   "year": 2009,
+   "type": "article",
+   "venue": "The Journal of Human Resources",
+   "cited_by": 16,
+   "authors": "Hongbin Li; Junsen Zhang",
+   "seeds_backward": [
+    "kuchler-2012"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4403616828",
+   "doi": "10.3389/fsufs.2024.1345549",
+   "title": "The intermediate role of farmland transfer in the impact of digital financial inclusion on agricultural total factor productivity in China",
+   "norm_title": "the intermediate role of farmland transfer in the impact of digital financial inclusion on agricultural total factor productivity in china",
+   "year": 2024,
+   "type": "article",
+   "venue": "Frontiers in Sustainable Food Systems",
+   "cited_by": 15,
+   "authors": "Jiali Yang; Abate Meseretchanie",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "lan-pan-yu-2023"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W3128877112",
+   "doi": "10.1177/0160017621989421",
+   "title": "Human Capital and International Capital Flows: Evidence from China",
+   "norm_title": "human capital and international capital flows evidence from china",
+   "year": 2021,
+   "type": "article",
+   "venue": "International Regional Science Review",
+   "cited_by": 14,
+   "authors": "Zhenshan Yang; Yinghao Pan; Dongqi Sun; Li Ma",
+   "seeds_backward": [
+    "lan-pan-yu-2023"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1566844580",
+   "doi": "10.1002/jid.2815",
+   "title": "SELF\u2010HELP GROUPS AND EMPOWERMENT OF WOMEN: SELF\u2010SELECTION, OR ACTUAL BENEFITS?",
+   "norm_title": "self help groups and empowerment of women self selection or actual benefits",
+   "year": 2012,
+   "type": "article",
+   "venue": "Journal of International Development",
+   "cited_by": 14,
+   "authors": "Zakir Husain; Diganta Mukherjee; Mousumi Dutta",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2964520071",
+   "doi": "10.1016/j.ssmph.2019.100467",
+   "title": "More than credit: Exploring associations between microcredit programs and maternal and reproductive health service utilization in India",
+   "norm_title": "more than credit exploring associations between microcredit programs and maternal and reproductive health service utilization in india",
+   "year": 2019,
+   "type": "article",
+   "venue": "SSM - Population Health",
+   "cited_by": 14,
+   "authors": "Nabamallika Dehingia; Abhishek Singh; Anita Raj; Lotus McDougal",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2007994224",
+   "doi": "10.1080/00324728.1965.10405451",
+   "title": "Fertility and family planning in rural Korea",
+   "norm_title": "fertility and family planning in rural korea",
+   "year": 1965,
+   "type": "article",
+   "venue": "Population Studies",
+   "cited_by": 13,
+   "authors": "Jae Mo Yang; Sook Bang; Myung Ho Kim; Man Gap Lee",
+   "seeds_backward": [
+    "desai-tarozzi-2011"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2323020589",
+   "doi": "10.2307/2133513",
+   "title": "Use of True Experimental Designs for Family Planning Program Evaluation: Merits, Problems and Solutions",
+   "norm_title": "use of true experimental designs for family planning program evaluation merits problems and solutions",
+   "year": 1994,
+   "type": "article",
+   "venue": "International Family Planning Perspectives",
+   "cited_by": 13,
+   "authors": "Karl E. Bauman; Claire I. Viadro; Amy O. Tsui",
+   "seeds_backward": [
+    "desai-tarozzi-2011"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W3038272160",
+   "doi": "10.1002/psp.2342",
+   "title": "Shifting links in the relationship between education and fertility",
+   "norm_title": "shifting links in the relationship between education and fertility",
+   "year": 2020,
+   "type": "article",
+   "venue": "Population Space and Place",
+   "cited_by": 13,
+   "authors": "Jonas Wood; Sebastian Kl\u00fcsener; Karel Neels; Mikko Myrskyl\u00e4",
+   "seeds_backward": [
+    "lan-pan-yu-2023"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1565426900",
+   "doi": null,
+   "title": "An empirical analysis of microcredit on China rural household",
+   "norm_title": "an empirical analysis of microcredit on china rural household",
+   "year": 2010,
+   "type": "dissertation",
+   "venue": "Lincoln University Research Archive (Lincoln University)",
+   "cited_by": 13,
+   "authors": "Li Xia",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2268067810",
+   "doi": null,
+   "title": "Socio-cultural Determinants Of Women\u2019s Empowerment In Punjab, Pakistan",
+   "norm_title": "socio cultural determinants of women s empowerment in punjab pakistan",
+   "year": 2010,
+   "type": "dissertation",
+   "venue": null,
+   "cited_by": 13,
+   "authors": "Tariq M. Khan",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W3169365608",
+   "doi": "10.1007/978-3-030-70948-8_6",
+   "title": "Financial Inclusion as a Complementary Strategy to Address the SDGs for Society",
+   "norm_title": "financial inclusion as a complementary strategy to address the sdgs for society",
+   "year": 2021,
+   "type": "book-chapter",
+   "venue": "Sustainable development goals series",
+   "cited_by": 13,
+   "authors": "Daniel Cardona Valencia; Carola Calabuig; Eliana Villa; Fray Betancur",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2571143398",
+   "doi": "10.1002/hec.3465",
+   "title": "Do Targeted Reproductive Health Services Matter? \u2013 The Impact of a Midwife Program in Indonesia",
+   "norm_title": "do targeted reproductive health services matter the impact of a midwife program in indonesia",
+   "year": 2017,
+   "type": "article",
+   "venue": "Health Economics",
+   "cited_by": 13,
+   "authors": "Christoph Strupat",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W3190727261",
+   "doi": "10.1111/sifp.12171",
+   "title": "Birth Collapse and a Large\u2010Scale Access Intervention with Subdermal Contraceptive Implants",
+   "norm_title": "birth collapse and a large scale access intervention with subdermal contraceptive implants",
+   "year": 2021,
+   "type": "article",
+   "venue": "Studies in Family Planning",
+   "cited_by": 12,
+   "authors": "Rodrigo Ceni; Cecilia Parada; Ivone Perazzo; Eliana Sena",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2557712164",
+   "doi": "10.1111/sifp.12000",
+   "title": "Community\u2010Based Financing of Family Planning in Developing Countries: A Systematic Review",
+   "norm_title": "community based financing of family planning in developing countries a systematic review",
+   "year": 2016,
+   "type": "review",
+   "venue": "Studies in Family Planning",
+   "cited_by": 12,
+   "authors": "Mahesh Karra; David Canning; Janice Hu; Moazzam Ali",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011",
+    "kuchler-2012"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2810407119",
+   "doi": "10.1080/01488376.2018.1476287",
+   "title": "Microfinance Participation and Women's Empowerment: Evidence from a Nationally Representative Sample of Women in Bangladesh",
+   "norm_title": "microfinance participation and women s empowerment evidence from a nationally representative sample of women in bangladesh",
+   "year": 2018,
+   "type": "article",
+   "venue": "Journal of Social Service Research",
+   "cited_by": 11,
+   "authors": "Nadine Shaanta Murshid",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1873290370",
+   "doi": null,
+   "title": "The role of rural women in livestock management : socio-economic evidences from diverse geographical locations of Punjab (Pakistan)",
+   "norm_title": "the role of rural women in livestock management socio economic evidences from diverse geographical locations of punjab pakistan",
+   "year": 2013,
+   "type": "dissertation",
+   "venue": "HAL (Le Centre pour la Communication Scientifique Directe)",
+   "cited_by": 11,
+   "authors": "Tusawar Iftikhar Ahmad",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1544303446",
+   "doi": "10.4471/generos.2013.22",
+   "title": "Women Empowerment through Microcredit: Rhetoric or Reality? An evidence from Bangladesh",
+   "norm_title": "women empowerment through microcredit rhetoric or reality an evidence from bangladesh",
+   "year": 2013,
+   "type": "article",
+   "venue": "Multidisciplinary Journal of Gender Studies",
+   "cited_by": 11,
+   "authors": "Md. Al-Amin; Md. Ismail Hossain; Golam M. Mathbor",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1410799678",
+   "doi": null,
+   "title": "Is there a case for privatising reproductive health? Patchy evidence and much wishful thinking",
+   "norm_title": "is there a case for privatising reproductive health patchy evidence and much wishful thinking",
+   "year": 2001,
+   "type": "article",
+   "venue": null,
+   "cited_by": 10,
+   "authors": "Paulo Ferrinho; A. M. Bugalho; Wim Van Lerberghe",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2793185538",
+   "doi": "10.1016/j.hjdsi.2017.12.003",
+   "title": "Expanding access to primary healthcare for women through a microfinance institution: A case study from rural Guatemala",
+   "norm_title": "expanding access to primary healthcare for women through a microfinance institution a case study from rural guatemala",
+   "year": 2018,
+   "type": "article",
+   "venue": "Healthcare",
+   "cited_by": 10,
+   "authors": "Marcela Colom; Kirsten Austad; Neftali Sacuj; Karen Larson",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1968792527",
+   "doi": "10.2307/1965146",
+   "title": "KOREA: The Relationship Between IUD Retention and Check-up Visits",
+   "norm_title": "korea the relationship between iud retention and check up visits",
+   "year": 1971,
+   "type": "article",
+   "venue": "Studies in Family Planning",
+   "cited_by": 9,
+   "authors": "Sook Bang",
+   "seeds_backward": [
+    "desai-tarozzi-2011"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2085573460",
+   "doi": "10.2307/1965120",
+   "title": "HONG KONG: Report of the IUD Reassurance Project",
+   "norm_title": "hong kong report of the iud reassurance project",
+   "year": 1971,
+   "type": "article",
+   "venue": "Studies in Family Planning",
+   "cited_by": 9,
+   "authors": "Kwun Chuen Gary Chan",
+   "seeds_backward": [
+    "desai-tarozzi-2011"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2767185910",
+   "doi": "10.1080/07399332.2017.1395028",
+   "title": "Guatemalan women achieve ideal family size: Empowerment through education and decision-making",
+   "norm_title": "guatemalan women achieve ideal family size empowerment through education and decision making",
+   "year": 2017,
+   "type": "article",
+   "venue": "Health Care For Women International",
+   "cited_by": 9,
+   "authors": "Katelyn E. Poelker; Judith L. Gibbons",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1968847657",
+   "doi": "10.1007/s11113-012-9241-x",
+   "title": "Indeterminate Responses to Attitudinal Questions About Intimate Partner Violence Against Women in Rural Bangladesh",
+   "norm_title": "indeterminate responses to attitudinal questions about intimate partner violence against women in rural bangladesh",
+   "year": 2012,
+   "type": "article",
+   "venue": "Population Research and Policy Review",
+   "cited_by": 9,
+   "authors": "Kathryn M. Yount; Nafisa Halim; Sara K. Head; Sidney Ruth Schuler",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2145677907",
+   "doi": null,
+   "title": "Macro Promises of Microcredit: A Case of a local eSusu in Rural Ghana",
+   "norm_title": "macro promises of microcredit a case of a local esusu in rural ghana",
+   "year": 2005,
+   "type": "article",
+   "venue": null,
+   "cited_by": 9,
+   "authors": "Carolette Norwood",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W322371126",
+   "doi": null,
+   "title": "Microfinance strategies for HIV/AIDS mitigation and prevention in Sub-Saharan Africa",
+   "norm_title": "microfinance strategies for hiv aids mitigation and prevention in sub saharan africa",
+   "year": 2001,
+   "type": "preprint",
+   "venue": "RePEc: Research Papers in Economics",
+   "cited_by": 9,
+   "authors": "Amy McDonagh",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2807681204",
+   "doi": "10.12688/gatesopenres.12755.2",
+   "title": "Evaluating the impact of integrated development: are we asking the right questions? A systematic review",
+   "norm_title": "evaluating the impact of integrated development are we asking the right questions a systematic review",
+   "year": 2018,
+   "type": "review",
+   "venue": "Gates Open Research",
+   "cited_by": 9,
+   "authors": "Tessa W Ahner-McHaffie; Greg Guest; Tricia Petruney; Alexandra Eterno",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W3081536835",
+   "doi": "10.1002/bsd2.131",
+   "title": "Does financial development influence fertility rate in South Asian economies? An empirical insight",
+   "norm_title": "does financial development influence fertility rate in south asian economies an empirical insight",
+   "year": 2020,
+   "type": "article",
+   "venue": "Business Strategy & Development",
+   "cited_by": 9,
+   "authors": "Narayan Sethi; Nihar Ranjan Jena; Nanthakumar Loganathan",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "kuchler-2012"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4396867999",
+   "doi": "10.1111/jors.12708",
+   "title": "Building bridges of trust: Impact of regional digital financial inclusion on social capital in China",
+   "norm_title": "building bridges of trust impact of regional digital financial inclusion on social capital in china",
+   "year": 2024,
+   "type": "article",
+   "venue": "Journal of Regional Science",
+   "cited_by": 9,
+   "authors": "Jiajun Lan; Yihan Liu; Yinghao Pan; Zhiyu Peng",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "lan-pan-yu-2023"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2013038249",
+   "doi": "10.1080/00220388.2011.609585",
+   "title": "Can Education Subsidy Reverse Falling Fertility? The Case of Taiwan",
+   "norm_title": "can education subsidy reverse falling fertility the case of taiwan",
+   "year": 2011,
+   "type": "article",
+   "venue": "The Journal of Development Studies",
+   "cited_by": 8,
+   "authors": "Shao\u2010Hsun Keng; Sheng\u2010Jang Sheu",
+   "seeds_backward": [
+    "lan-pan-yu-2023"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2932166169",
+   "doi": null,
+   "title": "Impact of the Grameen bank on women's status and fertility in Bangladesh",
+   "norm_title": "impact of the grameen bank on women s status and fertility in bangladesh",
+   "year": 1995,
+   "type": "article",
+   "venue": null,
+   "cited_by": 8,
+   "authors": "Md Mizanur Rahman; Julie DaVanzo",
+   "seeds_backward": [
+    "kuchler-2012",
+    "steele-amin-naved-1998"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2520374222",
+   "doi": "10.1177/1077801216665480",
+   "title": "Microfinance Participation and Marital Violence in Bangladesh: A Qualitative Inquiry",
+   "norm_title": "microfinance participation and marital violence in bangladesh a qualitative inquiry",
+   "year": 2016,
+   "type": "article",
+   "venue": "Violence Against Women",
+   "cited_by": 8,
+   "authors": "Nadine Shaanta Murshid; Allison Zippay",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1630368805",
+   "doi": "10.1596/20663",
+   "title": "Population, Family Planning and Reproductive Health Policy Harmonization in Bangladesh",
+   "norm_title": "population family planning and reproductive health policy harmonization in bangladesh",
+   "year": 2014,
+   "type": "book",
+   "venue": "World Bank, Washington, DC eBooks",
+   "cited_by": 8,
+   "authors": "Sameh El-Saharty; Karar Zunaid Ahsan; John F. May",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W59027840",
+   "doi": null,
+   "title": "Contraceptive Access and Fertility: The Impact of Supply-Side Interventions",
+   "norm_title": "contraceptive access and fertility the impact of supply side interventions",
+   "year": 2014,
+   "type": "article",
+   "venue": null,
+   "cited_by": 8,
+   "authors": "Nava Ashraf; Erica Field; Jessica Leight",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2964233366",
+   "doi": "10.1007/978-981-13-8082-2",
+   "title": "Societal Development in Rural China",
+   "norm_title": "societal development in rural china",
+   "year": 2019,
+   "type": "book",
+   "venue": null,
+   "cited_by": 7,
+   "authors": "Wenrong Qian",
+   "seeds_backward": [
+    "lan-pan-yu-2023"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2908927346",
+   "doi": "10.15294/jejak.v11i2.16051",
+   "title": "Women\u2019s Control Over Economic Resources Effect to Family Welfare",
+   "norm_title": "women s control over economic resources effect to family welfare",
+   "year": 2018,
+   "type": "article",
+   "venue": "Jejak (Jurnal Ekonomi dan Kebijakan)/Jejak",
+   "cited_by": 7,
+   "authors": "Ni Putu Wiwin Setyari; Anak Agung Bagus Putu Widanta; Ida Bagus Putu Purbadharmaja",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4313331266",
+   "doi": "10.1177/24551333221141570",
+   "title": "Exploring the Gender Dimension in Financial Inclusion in India: Insights from the Global Findex Database",
+   "norm_title": "exploring the gender dimension in financial inclusion in india insights from the global findex database",
+   "year": 2022,
+   "type": "article",
+   "venue": "Journal of Development Policy and Practice",
+   "cited_by": 7,
+   "authors": "Sanjukta Sarkar; Saritha Nair; M. Vishnu Vardhana Rao",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2767246638",
+   "doi": "10.1377/hlthaff.2017.0281",
+   "title": "Microfinance Institutions\u2019 Successful Delivery Of Micronutrient Powders: A Randomized Trial In Rural Haiti",
+   "norm_title": "microfinance institutions successful delivery of micronutrient powders a randomized trial in rural haiti",
+   "year": 2017,
+   "type": "article",
+   "venue": "Health Affairs",
+   "cited_by": 7,
+   "authors": "Aaron Baum; Wesly Elize; Florence Jean-Louis",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2566842557",
+   "doi": "10.5897/ingoj.9000052",
+   "title": "Fertility decline and womens status- the role of non-government organizations (NGOs) in Bangladesh: A micro data analysis",
+   "norm_title": "fertility decline and womens status the role of non government organizations ngos in bangladesh a micro data analysis",
+   "year": 2010,
+   "type": "article",
+   "venue": "International NGO Journal",
+   "cited_by": 6,
+   "authors": "Abdul Goni; Osamu Sait\u00f4",
+   "seeds_backward": [
+    "kuchler-2012"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4396849323",
+   "doi": "10.3386/w32427",
+   "title": "The Negligible Effect of Free Contraception on Fertility: Experimental Evidence from Burkina Faso",
+   "norm_title": "the negligible effect of free contraception on fertility experimental evidence from burkina faso",
+   "year": 2024,
+   "type": "report",
+   "venue": "National Bureau of Economic Research",
+   "cited_by": 6,
+   "authors": "Pascaline Dupas; Seema Jayachandran; Adriana Lleras\u2010Muney; Pauline Rossi",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2338305004",
+   "doi": "10.1080/17441730.2016.1142796",
+   "title": "The effects of setting up a National Family Planning Program in local communities on women's contraceptive experiences and fertility in rural Thailand",
+   "norm_title": "the effects of setting up a national family planning program in local communities on women s contraceptive experiences and fertility in rural thailand",
+   "year": 2016,
+   "type": "article",
+   "venue": "Asian Population Studies",
+   "cited_by": 6,
+   "authors": "Adriaan Kalwij",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4387666727",
+   "doi": "10.4018/joeuc.332245",
+   "title": "Regional Culture and Digital Financial Inclusion in China",
+   "norm_title": "regional culture and digital financial inclusion in china",
+   "year": 2023,
+   "type": "article",
+   "venue": "Journal of Organizational and End User Computing",
+   "cited_by": 6,
+   "authors": "Yunchuan Sun; Ying Xu; Xiaoping Zeng; Xiao Li",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "lan-pan-yu-2023"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W1126290362",
+   "doi": "10.1007/978-1-4939-2525-4_8",
+   "title": "Microfinance Institutions and Human Security in Muslim Majority Countries: Achievements and Challenges",
+   "norm_title": "microfinance institutions and human security in muslim majority countries achievements and challenges",
+   "year": 2015,
+   "type": "book-chapter",
+   "venue": "Nonprofit and civil society studies",
+   "cited_by": 5,
+   "authors": "Fatima Rasheed",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2505944370",
+   "doi": "10.4018/978-1-4666-8611-3.ch003",
+   "title": "Impact of Microfinance on Female Empowerment",
+   "norm_title": "impact of microfinance on female empowerment",
+   "year": 2015,
+   "type": "book-chapter",
+   "venue": "Advances in finance, accounting, and economics book series",
+   "cited_by": 5,
+   "authors": "Sefa Kwami Awaworyi Churchill",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4412789100",
+   "doi": "10.1257/aer.20241305",
+   "title": "The Negligible Effect of Free Contraception on Fertility: Experimental Evidence from Burkina Faso",
+   "norm_title": "the negligible effect of free contraception on fertility experimental evidence from burkina faso",
+   "year": 2025,
+   "type": "article",
+   "venue": "American Economic Review",
+   "cited_by": 5,
+   "authors": "Pascaline Dupas; Seema Jayachandran; Adriana Lleras\u2010Muney; Pauline Rossi",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W150914982",
+   "doi": null,
+   "title": "Closing the deadly gap between what we know and what we do",
+   "norm_title": "closing the deadly gap between what we know and what we do",
+   "year": 2013,
+   "type": "article",
+   "venue": null,
+   "cited_by": 5,
+   "authors": "Karen A. Gr\u00e9pin; Jeni Klugman",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2481779103",
+   "doi": "10.1016/j.puhe.2016.06.019",
+   "title": "Microfinance participation and contraceptive decision-making: results from a national sample of women in Bangladesh",
+   "norm_title": "microfinance participation and contraceptive decision making results from a national sample of women in bangladesh",
+   "year": 2016,
+   "type": "article",
+   "venue": "Public Health",
+   "cited_by": 5,
+   "authors": "Nadine Shaanta Murshid; Gretchen E. Ely",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "kuchler-2012"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4400962547",
+   "doi": "10.1080/00036846.2024.2383331",
+   "title": "How digital inclusive finance affects the health of the migrant population \u2013evidence from China migrants dynamic survey",
+   "norm_title": "how digital inclusive finance affects the health of the migrant population evidence from china migrants dynamic survey",
+   "year": 2024,
+   "type": "article",
+   "venue": "Applied Economics",
+   "cited_by": 5,
+   "authors": "Guoqiang Yan; Javier Cifuentes\u2010Faura; Xiaoqian Liu",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "lan-pan-yu-2023"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2153706584",
+   "doi": "10.1353/hpu.2011.0133",
+   "title": "Closing the Implementation Gap in Services for Children Affected by HIV/AIDS: From Assisting Orphans and Vulnerable Children (OVC) to Providing Long-term Opportunities for Economic Growth",
+   "norm_title": "closing the implementation gap in services for children affected by hiv aids from assisting orphans and vulnerable children ovc to providing long term opportunities for economic growth",
+   "year": 2011,
+   "type": "article",
+   "venue": "Journal of Health Care for the Poor and Underserved",
+   "cited_by": 4,
+   "authors": "Mary C. Smith Fawzi; Susan R. Holman; Robert Kiley; Michelle Li",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W3162319707",
+   "doi": "10.14457/nida.the.2008.166",
+   "title": "Women's decision-making power in the rural family in Northeastern Thailand",
+   "norm_title": "women s decision making power in the rural family in northeastern thailand",
+   "year": 2008,
+   "type": "dataset",
+   "venue": "NRCT Data Center",
+   "cited_by": 4,
+   "authors": "Piengjit Boonto",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2258516123",
+   "doi": "10.1093/jae/ejx042",
+   "title": "The Demand for Reproductive Health Care",
+   "norm_title": "the demand for reproductive health care",
+   "year": 2018,
+   "type": "article",
+   "venue": "Journal of African Economies",
+   "cited_by": 4,
+   "authors": "Gauthier Tshiswaka-Kashalala; Steven F. Koch",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2767497269",
+   "doi": "10.12688/gatesopenres.12755.1",
+   "title": "Evaluating integrated development: are we asking the right questions? A systematic review",
+   "norm_title": "evaluating integrated development are we asking the right questions a systematic review",
+   "year": 2017,
+   "type": "review",
+   "venue": "Gates Open Research",
+   "cited_by": 4,
+   "authors": "Tessa W Ahner-McHaffie; Greg Guest; Tricia Petruney; Alexandra Eterno",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2290568467",
+   "doi": "10.2139/ssrn.2736952",
+   "title": "Family Planning Program Effects: A Review of Evidence from Microdata",
+   "norm_title": "family planning program effects a review of evidence from microdata",
+   "year": 2016,
+   "type": "preprint",
+   "venue": "SSRN Electronic Journal",
+   "cited_by": 4,
+   "authors": "Grant Miller; Kimberly Singer Babiarz",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4387941831",
+   "doi": "10.1177/09737030231200149",
+   "title": "Financial Inclusion and Its Impact on Fertility: An Empirical Investigation",
+   "norm_title": "financial inclusion and its impact on fertility an empirical investigation",
+   "year": 2023,
+   "type": "article",
+   "venue": "Indian Journal of Human Development",
+   "cited_by": 4,
+   "authors": "Suresh Govindapuram",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "kuchler-2012"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4402404260",
+   "doi": "10.1016/j.iref.2024.103631",
+   "title": "Interest rate liberalization and household investment in China",
+   "norm_title": "interest rate liberalization and household investment in china",
+   "year": 2024,
+   "type": "article",
+   "venue": "International Review of Economics & Finance",
+   "cited_by": 4,
+   "authors": "Jiajun Lan; Zhiyu Peng; Yinghao Pan; Yihan Liu",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "lan-pan-yu-2023"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4281859719",
+   "doi": "10.1080/00220388.2022.2081501",
+   "title": "Infant Mortality and Desired Fertility: The Case of the Free Health Care Initiative in Sierra Leone",
+   "norm_title": "infant mortality and desired fertility the case of the free health care initiative in sierra leone",
+   "year": 2022,
+   "type": "article",
+   "venue": "The Journal of Development Studies",
+   "cited_by": 3,
+   "authors": "Fang Xia",
+   "seeds_backward": [
+    "lan-pan-yu-2023"
+   ],
+   "seeds_forward": [],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4413242736",
+   "doi": "10.1111/gwao.70031",
+   "title": "Microfinance: The Political Project of Global Finance and Liberal Feminism",
+   "norm_title": "microfinance the political project of global finance and liberal feminism",
+   "year": 2025,
+   "type": "article",
+   "venue": "Gender Work and Organization",
+   "cited_by": 3,
+   "authors": "Ghazal Zulfiqar",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4410522289",
+   "doi": "10.1186/s12889-025-23000-y",
+   "title": "Women\u2019s empowerment and intentions for additional children among reproductive-aged women: an analysis of demographic and health surveys in South Asia",
+   "norm_title": "women s empowerment and intentions for additional children among reproductive aged women an analysis of demographic and health surveys in south asia",
+   "year": 2025,
+   "type": "article",
+   "venue": "BMC Public Health",
+   "cited_by": 3,
+   "authors": "Md. Mosfequr Rahman; Aree Jampaklay",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W139476958",
+   "doi": null,
+   "title": "The Impact of Microfinance Institutions on Women Empowerment in Rajshahi, Bangladesh",
+   "norm_title": "the impact of microfinance institutions on women empowerment in rajshahi bangladesh",
+   "year": 2011,
+   "type": "dissertation",
+   "venue": "UUM Electronic Theses and Dissertation [eTheses] (Northern University of Malaysia)",
+   "cited_by": 3,
+   "authors": "Tasqurun Nessa",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4414314642",
+   "doi": "10.1016/j.irfa.2025.104616",
+   "title": "Social trust and fertility intentions: Evidence from China with causal and structural insights",
+   "norm_title": "social trust and fertility intentions evidence from china with causal and structural insights",
+   "year": 2025,
+   "type": "article",
+   "venue": "International Review of Financial Analysis",
+   "cited_by": 3,
+   "authors": "Xin Deng; Yang Wang; Xiaobo Tao",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "lan-pan-yu-2023"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4409592516",
+   "doi": "10.1177/09720634251332672",
+   "title": "Women\u2019s Financial Inclusion and Sequential Continuum of Care for Maternal and Child Health in India: An Intervention Approach",
+   "norm_title": "women s financial inclusion and sequential continuum of care for maternal and child health in india an intervention approach",
+   "year": 2025,
+   "type": "article",
+   "venue": "Journal of Health Management",
+   "cited_by": 2,
+   "authors": "Sanjukta Sarkar; Saritha Nair; M. Vishnu Vardhana Rao",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2582400253",
+   "doi": null,
+   "title": "The role of female community health volunteers in maternal health service provision in Nepal : a qualitative study",
+   "norm_title": "the role of female community health volunteers in maternal health service provision in nepal a qualitative study",
+   "year": 2016,
+   "type": "dissertation",
+   "venue": "White Rose eTheses Online (University of Leeds, The University of Sheffield, University of York)",
+   "cited_by": 2,
+   "authors": "Sarita Panday",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2087897636",
+   "doi": "10.1016/s1098-2140(02)00172-8",
+   "title": "Transparency, Stakeholder Involvement, and Explanation in Contemporary Evaluation: A Review Essay Stimulated by \u201cSuccess in Early Intervention: The Chicago Child\u2013Parent Centers\u201d, edited by Arthur J. Reynolds, University of Nebraska Press, 2000, 261 pp.",
+   "norm_title": "transparency stakeholder involvement and explanation in contemporary evaluation a review essay stimulated by success in early intervention the chicago child parent centers edited by arthur j reynolds university of nebraska press 2000 261 pp",
+   "year": 2002,
+   "type": "book-review",
+   "venue": "American Journal of Evaluation",
+   "cited_by": 2,
+   "authors": "Gary T. Henry",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4411177542",
+   "doi": "10.1016/j.psep.2025.107433",
+   "title": "Can integrative nudge strategies promote green transportation and trigger spillover effects? A field experiment",
+   "norm_title": "can integrative nudge strategies promote green transportation and trigger spillover effects a field experiment",
+   "year": 2025,
+   "type": "article",
+   "venue": "Process Safety and Environmental Protection",
+   "cited_by": 2,
+   "authors": "Yu Zhang; Yu Zhang; Kaiqin Li; Xiaoling Zhang",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W3016054946",
+   "doi": "10.1016/j.worlddev.2021.105534",
+   "title": "Can weak ties create social capital? Evidence from Self-Help Groups in rural India",
+   "norm_title": "can weak ties create social capital evidence from self help groups in rural india",
+   "year": 2021,
+   "type": "article",
+   "venue": "World Development",
+   "cited_by": 2,
+   "authors": "Ashwini Deshpande; Shantanu Khanna",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2765805737",
+   "doi": "10.2139/ssrn.3054888",
+   "title": "Lifecycle Fertility and the Impact of Family Planning Programs: Evidence from Southern Africa",
+   "norm_title": "lifecycle fertility and the impact of family planning programs evidence from southern africa",
+   "year": 2016,
+   "type": "preprint",
+   "venue": "SSRN Electronic Journal",
+   "cited_by": 2,
+   "authors": "Nikhil Gupta; Ishita Rajani",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2759154725",
+   "doi": null,
+   "title": "On a New Path: Microfinance as a Tool to Help Bedouin Women Extricate Themselves from Poverty in Israel",
+   "norm_title": "on a new path microfinance as a tool to help bedouin women extricate themselves from poverty in israel",
+   "year": 2015,
+   "type": "article",
+   "venue": null,
+   "cited_by": 2,
+   "authors": "Nuzha Allassad Alhuzail",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2920968271",
+   "doi": "10.1080/10911359.2019.1587730",
+   "title": "Women\u2019s microfinance participation and HIV literacy in Bangladesh: results from a nationally representative study",
+   "norm_title": "women s microfinance participation and hiv literacy in bangladesh results from a nationally representative study",
+   "year": 2019,
+   "type": "article",
+   "venue": "Journal of Human Behavior in the Social Environment",
+   "cited_by": 2,
+   "authors": "Nadine Shaanta Murshid; Elizabeth A. Bowen",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "kuchler-2012"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4410418458",
+   "doi": "10.1111/1467-8454.12403",
+   "title": "Can Digital Finance Narrow Regional Economic Disparities? Evidence From Urban Agglomerations in China",
+   "norm_title": "can digital finance narrow regional economic disparities evidence from urban agglomerations in china",
+   "year": 2025,
+   "type": "article",
+   "venue": "Australian Economic Papers",
+   "cited_by": 2,
+   "authors": "Qiuyang Zhou",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "lan-pan-yu-2023"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2903546372",
+   "doi": null,
+   "title": "Exploring the influence of interest free microfinance programmes on empowerment of the participating women borrowers in Pakistan : an interpretative inquiry",
+   "norm_title": "exploring the influence of interest free microfinance programmes on empowerment of the participating women borrowers in pakistan an interpretative inquiry",
+   "year": 2018,
+   "type": "dissertation",
+   "venue": "University of Salford Institutional Repository (University of Salford)",
+   "cited_by": 1,
+   "authors": "Adnan Ahmad",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2135217156",
+   "doi": "10.5539/res.v4n1p235",
+   "title": "Welfare Implication of Foreign Aid and Domestically Funded Microfinance Programs",
+   "norm_title": "welfare implication of foreign aid and domestically funded microfinance programs",
+   "year": 2012,
+   "type": "article",
+   "venue": "Review of European Studies",
+   "cited_by": 1,
+   "authors": "Md. Abul Basher",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2339393504",
+   "doi": null,
+   "title": "Importance of Credits for Rural Women",
+   "norm_title": "importance of credits for rural women",
+   "year": 2011,
+   "type": "article",
+   "venue": null,
+   "cited_by": 1,
+   "authors": "Mohammad Reza Abedi; S M Mirdamadi; Seyed Mahmoud Hosseini; Iraj Saleh",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W3172115052",
+   "doi": "10.1016/j.jeconom.2025.105997",
+   "title": "Subjective expectations and demand for contraception",
+   "norm_title": "subjective expectations and demand for contraception",
+   "year": 2025,
+   "type": "article",
+   "venue": "Journal of Econometrics",
+   "cited_by": 1,
+   "authors": "Grant Miller; \u00c1ureo de Paula; Christine Valente",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4405020843",
+   "doi": "10.1111/padr.12693",
+   "title": "A Narrative Review of the Impact of Public Family Planning Policies and Programs on the Contraceptive Transition in Low\u2010 and Middle\u2010Income Countries",
+   "norm_title": "a narrative review of the impact of public family planning policies and programs on the contraceptive transition in low and middle income countries",
+   "year": 2024,
+   "type": "review",
+   "venue": "Population and Development Review",
+   "cited_by": 1,
+   "authors": "Jocelyn E. Finlay",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2951243890",
+   "doi": "10.7189/jogh.09.010435",
+   "title": "Evaluating an MFI Community Health Worker Program: How microfinance group networks influence intervention outreach and impact",
+   "norm_title": "evaluating an mfi community health worker program how microfinance group networks influence intervention outreach and impact",
+   "year": 2019,
+   "type": "article",
+   "venue": "Journal of Global Health",
+   "cited_by": 1,
+   "authors": "Roman Hoffmann",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2889867596",
+   "doi": "10.1016/b978-0-08-097086-8.31036-4",
+   "title": "Family Planning: Program Effects",
+   "norm_title": "family planning program effects",
+   "year": 2015,
+   "type": "reference-entry",
+   "venue": "Elsevier eBooks",
+   "cited_by": 1,
+   "authors": "Grant Miller; Kimberly Singer Babiarz",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2806253944",
+   "doi": "10.1177/0020872818774089",
+   "title": "Microfinance participation and contraceptive use and intention in Bangladesh",
+   "norm_title": "microfinance participation and contraceptive use and intention in bangladesh",
+   "year": 2018,
+   "type": "article",
+   "venue": "International Social Work",
+   "cited_by": 1,
+   "authors": "Nadine Shaanta Murshid; Gretchen E. Ely",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "kuchler-2012"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4410478319",
+   "doi": "10.1016/j.eap.2025.05.030",
+   "title": "How does digital finance impact birth rates: Evidence from China",
+   "norm_title": "how does digital finance impact birth rates evidence from china",
+   "year": 2025,
+   "type": "article",
+   "venue": "Economic Analysis and Policy",
+   "cited_by": 1,
+   "authors": "Junshi Chen; Jing Chi; David J. Smith; Mui Kuen Yuen",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "lan-pan-yu-2023"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W7163997065",
+   "doi": "10.1080/00220388.2026.2679278",
+   "title": "Microcredit Participation and Fertility: Evidence from Bangladesh",
+   "norm_title": "microcredit participation and fertility evidence from bangladesh",
+   "year": 2026,
+   "type": "article",
+   "venue": "The Journal of Development Studies",
+   "cited_by": 0,
+   "authors": "Asad Islam; Mustafa Kamal; Vy Nguyen; Russell Smyth",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998",
+    "desai-tarozzi-2011",
+    "kuchler-2012"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4408340425",
+   "doi": "10.1007/978-3-031-75405-0_11",
+   "title": "Gender Equality in the Sustainable Development Framework",
+   "norm_title": "gender equality in the sustainable development framework",
+   "year": 2025,
+   "type": "book-chapter",
+   "venue": "Sustainable landscape planning and natural resources management",
+   "cited_by": 0,
+   "authors": "Joyeeta Bhattacharjee; Niraj Singh; Dilfuza Egamberdieva",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W7167205808",
+   "doi": "10.58213/jf6ct379",
+   "title": "An Empirical Investigation of The Factors Affecting Women's Empowerment in The Karur District",
+   "norm_title": "an empirical investigation of the factors affecting women s empowerment in the karur district",
+   "year": 2024,
+   "type": "article",
+   "venue": "Vidhyayana",
+   "cited_by": 0,
+   "authors": "Mr. R. Aravinth",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W7167268249",
+   "doi": "10.58213/y3g3hh83",
+   "title": "An Empirical Investigation on The Factors That Impact Women's Empowerment in Karur District",
+   "norm_title": "an empirical investigation on the factors that impact women s empowerment in karur district",
+   "year": 2024,
+   "type": "article",
+   "venue": "Vidhyayana",
+   "cited_by": 0,
+   "authors": "Dr. P. Vijayakumar",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W3199750853",
+   "doi": "10.4324/9781003008828-5",
+   "title": "Outreach and Empowerment",
+   "norm_title": "outreach and empowerment",
+   "year": 2021,
+   "type": "book-chapter",
+   "venue": null,
+   "cited_by": 0,
+   "authors": "Regina Luttrell",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2613315161",
+   "doi": null,
+   "title": "The role of the health system in women's utilisation of maternal health services in Sudan",
+   "norm_title": "the role of the health system in women s utilisation of maternal health services in sudan",
+   "year": 2015,
+   "type": "dissertation",
+   "venue": "City Research Online (City University London)",
+   "cited_by": 0,
+   "authors": "Ghada Ibrahim",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W582165054",
+   "doi": "10.83049/unicatt/publicatt/10280_2913",
+   "title": "MICROFINANCE AND WOMEN: FINANCIAL PERFORMANCE, OUTREACH AND EMPOWERMENT",
+   "norm_title": "microfinance and women financial performance outreach and empowerment",
+   "year": 2014,
+   "type": "dissertation",
+   "venue": "Open MIND",
+   "cited_by": 0,
+   "authors": "Francesca Spina",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2403359882",
+   "doi": null,
+   "title": "Assessing relationship between rural women empowerment and employment",
+   "norm_title": "assessing relationship between rural women empowerment and employment",
+   "year": 2013,
+   "type": "article",
+   "venue": null,
+   "cited_by": 0,
+   "authors": "Akram Ghaffari; Darab Branch",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2186415230",
+   "doi": null,
+   "title": "Assessing Criteria of Rural Women Empowerment",
+   "norm_title": "assessing criteria of rural women empowerment",
+   "year": 2011,
+   "type": "article",
+   "venue": null,
+   "cited_by": 0,
+   "authors": "Mehdi Nazarpour; Mojtaba Sadighi",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2188033524",
+   "doi": null,
+   "title": "Rural Women's Financial Self-Reliance",
+   "norm_title": "rural women s financial self reliance",
+   "year": 2011,
+   "type": "article",
+   "venue": null,
+   "cited_by": 0,
+   "authors": "Khatereh Sobhani; Elham Majidi; Mohammad Reza Rezaei",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2189087422",
+   "doi": null,
+   "title": "Importance and Necessity of micro-credit program for rural women",
+   "norm_title": "importance and necessity of micro credit program for rural women",
+   "year": 2011,
+   "type": "article",
+   "venue": null,
+   "cited_by": 0,
+   "authors": "Khatereh Siyar",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2189166301",
+   "doi": null,
+   "title": "Role of rural women in rural economy",
+   "norm_title": "role of rural women in rural economy",
+   "year": 2011,
+   "type": "article",
+   "venue": null,
+   "cited_by": 0,
+   "authors": "Ali Badragheh; Mohammad Reza Abedi",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W204037490",
+   "doi": "10.1184/r1/6685088",
+   "title": "Does it Work? The Need for and Potentials of Randomized Evaluations in Microfinance",
+   "norm_title": "does it work the need for and potentials of randomized evaluations in microfinance",
+   "year": 2010,
+   "type": "dissertation",
+   "venue": "Figshare",
+   "cited_by": 0,
+   "authors": "Francesco Ariel Coco",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2089340403",
+   "doi": "10.2139/ssrn.1585110",
+   "title": "Do Microfinance Programs Change Fertility? Evidence Using Panel Data from Bangladesh",
+   "norm_title": "do microfinance programs change fertility evidence using panel data from bangladesh",
+   "year": 2010,
+   "type": "preprint",
+   "venue": "SSRN Electronic Journal",
+   "cited_by": 0,
+   "authors": "Andreas K\u00fcchler",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2185141671",
+   "doi": null,
+   "title": "Expanding Access to Services and Protecting Human Rights",
+   "norm_title": "expanding access to services and protecting human rights",
+   "year": 2008,
+   "type": "article",
+   "venue": null,
+   "cited_by": 0,
+   "authors": "Susan R. Holman; M. Smith",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2291400316",
+   "doi": "10.2139/ssrn.1014646",
+   "title": "Prying into the Shadows: A General Equilibrium Model to Analyze the Effects of the Emerging Institutions on the Structure of Production and Welfare in Developing Countries",
+   "norm_title": "prying into the shadows a general equilibrium model to analyze the effects of the emerging institutions on the structure of production and welfare in developing countries",
+   "year": 2007,
+   "type": "preprint",
+   "venue": "SSRN Electronic Journal",
+   "cited_by": 0,
+   "authors": "Md. Abul Basher",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2041688420",
+   "doi": "10.1177/109821400202300214",
+   "title": "Book Review: Transparency, Stakeholder Involvement, and Explanation in Contemporary Evaluation: A Review Essay Stimulated by \u201cSuccess in Early Intervention: The Chicago Child-Parent Centers\u201d",
+   "norm_title": "book review transparency stakeholder involvement and explanation in contemporary evaluation a review essay stimulated by success in early intervention the chicago child parent centers",
+   "year": 2002,
+   "type": "book-review",
+   "venue": "American Journal of Evaluation",
+   "cited_by": 0,
+   "authors": "Gary T. Henry",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "steele-amin-naved-1998"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4286491533",
+   "doi": "10.1057/s41287-022-00557-7",
+   "title": "Colonial Legacies, Ethnicity and Fertility Decline in Kenya: What has Financial Inclusion Got to Do with It?",
+   "norm_title": "colonial legacies ethnicity and fertility decline in kenya what has financial inclusion got to do with it",
+   "year": 2022,
+   "type": "article",
+   "venue": "European Journal of Development Research",
+   "cited_by": 0,
+   "authors": "Maren Duvendack; Richard Palmer\u2010Jones",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4385832897",
+   "doi": "10.46254/af03.20220069",
+   "title": "Toward the Achievement of Goal 2 of SDGs: Are Indonesian Children Well Fed? The Impacts of Mother\u2019s Internet Usage and Financial Empowerment on the Infant and Young Child Feeding Practice",
+   "norm_title": "toward the achievement of goal 2 of sdgs are indonesian children well fed the impacts of mother s internet usage and financial empowerment on the infant and young child feeding practice",
+   "year": 2022,
+   "type": "conference-paper",
+   "venue": null,
+   "cited_by": 0,
+   "authors": "Omas Bulan Samosir; Dinda Srikandi Radjiman; Flora Aninditya",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W3134996317",
+   "doi": null,
+   "title": "Birth Collapse and Long-Acting Reversible Contraceptive Policies",
+   "norm_title": "birth collapse and long acting reversible contraceptive policies",
+   "year": 2020,
+   "type": "preprint",
+   "venue": "RePEc: Research Papers in Economics",
+   "cited_by": 0,
+   "authors": "Rodrigo Ceni; Cecilia Parada; Ivone Perazzo; Eliana Sena",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2594234738",
+   "doi": "10.17615/hwsy-8p08",
+   "title": "Microfinance, health, and empowerment: Evaluating the effect of an integrated intervention on client revenue and profit in Benin",
+   "norm_title": "microfinance health and empowerment evaluating the effect of an integrated intervention on client revenue and profit in benin",
+   "year": 2019,
+   "type": "article",
+   "venue": "Carolina Digital Repository (University of North Carolina at Chapel Hill)",
+   "cited_by": 0,
+   "authors": "Lara Lorenzetti",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2765392606",
+   "doi": "10.2139/ssrn.3054894",
+   "title": "Lifecycle Contraceptive Choice in Sub-Saharan Africa",
+   "norm_title": "lifecycle contraceptive choice in sub saharan africa",
+   "year": 2017,
+   "type": "preprint",
+   "venue": "SSRN Electronic Journal",
+   "cited_by": 0,
+   "authors": "Nikhil Gupta; Ishita Rajani",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2918156748",
+   "doi": "10.23846/sr51253usaid",
+   "title": "Parental, community and familial support for children\u2019s literacy in developing countries",
+   "norm_title": "parental community and familial support for children s literacy in developing countries",
+   "year": 2016,
+   "type": "report",
+   "venue": null,
+   "cited_by": 0,
+   "authors": "Elizabeth Spier; Pia Rebello Britto; UNICEF; Terri Pigott",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2478665775",
+   "doi": "10.1002/9781119104490.ch5",
+   "title": "Research Questions and Methods",
+   "norm_title": "research questions and methods",
+   "year": 2016,
+   "type": "other",
+   "venue": null,
+   "cited_by": 0,
+   "authors": "Keumjae Park; Gabe T Wang",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W3121218829",
+   "doi": "10.2139/ssrn.2509934",
+   "title": "Does Timing of Health and Family Planning Services Matter? - Age at First Birth and Educational Attainment in Indonesia",
+   "norm_title": "does timing of health and family planning services matter age at first birth and educational attainment in indonesia",
+   "year": 2014,
+   "type": "preprint",
+   "venue": "SSRN Electronic Journal",
+   "cited_by": 0,
+   "authors": "Christoph Strupat",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W3121357334",
+   "doi": "10.2139/ssrn.2561241",
+   "title": "Does Timing of Health and Family Planning Services Matter? Age at First Birth and Educational Attainment in Indonesia",
+   "norm_title": "does timing of health and family planning services matter age at first birth and educational attainment in indonesia",
+   "year": 2014,
+   "type": "preprint",
+   "venue": "SSRN Electronic Journal",
+   "cited_by": 0,
+   "authors": "Christoph Strupat",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4244381401",
+   "doi": "10.1007/s13524-011-0069-5",
+   "title": "Volume 48 Index",
+   "norm_title": "volume 48 index",
+   "year": 2011,
+   "type": "article",
+   "venue": "Demography",
+   "cited_by": 0,
+   "authors": "",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "desai-tarozzi-2011"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4313459824",
+   "doi": "10.1215/9781478023838-015",
+   "title": "Notes",
+   "norm_title": "notes",
+   "year": 2023,
+   "type": "paratext",
+   "venue": null,
+   "cited_by": 0,
+   "authors": "",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "kuchler-2012"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4313459909",
+   "doi": "10.1215/9781478023838-016",
+   "title": "Bibliography",
+   "norm_title": "bibliography",
+   "year": 2023,
+   "type": "paratext",
+   "venue": null,
+   "cited_by": 0,
+   "authors": "",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "kuchler-2012"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4313461094",
+   "doi": "10.1215/9781478023838-013",
+   "title": "Hope for the Future",
+   "norm_title": "hope for the future",
+   "year": 2023,
+   "type": "book-chapter",
+   "venue": null,
+   "cited_by": 0,
+   "authors": "",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "kuchler-2012"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4313461099",
+   "doi": "10.1215/9781478023838-012",
+   "title": "Ongoing",
+   "norm_title": "ongoing",
+   "year": 2023,
+   "type": "book-chapter",
+   "venue": null,
+   "cited_by": 0,
+   "authors": "",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "kuchler-2012"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4313461109",
+   "doi": "10.1215/9781478023838-014",
+   "title": "May 2017",
+   "norm_title": "may 2017",
+   "year": 2023,
+   "type": "book-chapter",
+   "venue": null,
+   "cited_by": 0,
+   "authors": "",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "kuchler-2012"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4313461139",
+   "doi": "10.1215/9781478023838-011",
+   "title": "The Hunt for Yes",
+   "norm_title": "the hunt for yes",
+   "year": 2023,
+   "type": "book-chapter",
+   "venue": null,
+   "cited_by": 0,
+   "authors": "",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "kuchler-2012"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4313461140",
+   "doi": "10.1215/9781478023838-010",
+   "title": "February 2018",
+   "norm_title": "february 2018",
+   "year": 2023,
+   "type": "book-chapter",
+   "venue": null,
+   "cited_by": 0,
+   "authors": "",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "kuchler-2012"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4313462042",
+   "doi": "10.1215/9781478023838-003",
+   "title": "May Analyze like a Capitalist",
+   "norm_title": "may analyze like a capitalist",
+   "year": 2023,
+   "type": "book-chapter",
+   "venue": null,
+   "cited_by": 0,
+   "authors": "",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "kuchler-2012"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4313465208",
+   "doi": "10.1215/9781478023838-004",
+   "title": "June 2017",
+   "norm_title": "june 2017",
+   "year": 2023,
+   "type": "book-chapter",
+   "venue": null,
+   "cited_by": 0,
+   "authors": "",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "kuchler-2012"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4313465290",
+   "doi": "10.1215/9781478023838-002",
+   "title": "Late May 2017",
+   "norm_title": "late may 2017",
+   "year": 2023,
+   "type": "book-chapter",
+   "venue": null,
+   "cited_by": 0,
+   "authors": "",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "kuchler-2012"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4313465348",
+   "doi": "10.1215/9781478023838-005",
+   "title": "Ethical Vampires",
+   "norm_title": "ethical vampires",
+   "year": 2023,
+   "type": "book-chapter",
+   "venue": null,
+   "cited_by": 0,
+   "authors": "",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "kuchler-2012"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4313465349",
+   "doi": "10.1215/9781478023838-007",
+   "title": "Marxists in the Microbank",
+   "norm_title": "marxists in the microbank",
+   "year": 2023,
+   "type": "book-chapter",
+   "venue": null,
+   "cited_by": 0,
+   "authors": "",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "kuchler-2012"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4313465357",
+   "doi": "10.1215/9781478023838-006",
+   "title": "October 2017",
+   "norm_title": "october 2017",
+   "year": 2023,
+   "type": "book-chapter",
+   "venue": null,
+   "cited_by": 0,
+   "authors": "",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "kuchler-2012"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4313465392",
+   "doi": "10.1215/9781478023838-009",
+   "title": "Representing Inclusion",
+   "norm_title": "representing inclusion",
+   "year": 2023,
+   "type": "book-chapter",
+   "venue": null,
+   "cited_by": 0,
+   "authors": "",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "kuchler-2012"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4313465396",
+   "doi": "10.1215/9781478023838-008",
+   "title": "December 2017",
+   "norm_title": "december 2017",
+   "year": 2023,
+   "type": "book-chapter",
+   "venue": null,
+   "cited_by": 0,
+   "authors": "",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "kuchler-2012"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W4313522082",
+   "doi": "10.1215/9781478023838-001",
+   "title": "Capitalist Humanitarianism",
+   "norm_title": "capitalist humanitarianism",
+   "year": 2023,
+   "type": "book-chapter",
+   "venue": null,
+   "cited_by": 0,
+   "authors": "",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "kuchler-2012"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W2775104964",
+   "doi": null,
+   "title": "Essays on International Trade and Finance: An Empirical Assessment of Food Safety and Banking Crises",
+   "norm_title": "essays on international trade and finance an empirical assessment of food safety and banking crises",
+   "year": 2017,
+   "type": "article",
+   "venue": null,
+   "cited_by": 0,
+   "authors": "Rui Chen",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "kuchler-2012"
+   ],
+   "first_found_round": 2
+  },
+  {
+   "openalex": "W7140925528",
+   "doi": "10.1016/j.habitatint.2026.103790",
+   "title": "Fintech agglomeration and urban labor markets: Evidence from Chinese cities",
+   "norm_title": "fintech agglomeration and urban labor markets evidence from chinese cities",
+   "year": 2026,
+   "type": "article",
+   "venue": "Habitat International",
+   "cited_by": 0,
+   "authors": "Jiajun Lan; Mengyuan Chen; Yinghao Pan",
+   "seeds_backward": [],
+   "seeds_forward": [
+    "lan-pan-yu-2023"
+   ],
+   "first_found_round": 2
+  }
+ ]
+}

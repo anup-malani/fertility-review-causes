@@ -164,3 +164,28 @@ Three finished chapters have already routed evidence into this one. Read these b
 - Next: the handoff; snowball round 2 seeded from the four new candidates (unexplored neighbourhood);
   fold `banked`/`unbanked` into the frame on the gold-recovered test.
 
+### 2026-09-01 — all eight retrieved; probe bound CLOSED; composite cell has an identified estimate
+
+- Shravan hand-retrieved all eight. `284` installed them by **content**, not filename — two files both
+  named `EBSCO-FullText-09_01_2026.pdf`; all eight matched at title overlap 1.00 and the two opaque
+  ones were confirmed by hand. `286` scanned them on the 281 code path.
+- **Probe bound closed: 10 of 10 read, zero fertility outcomes.** Attanasio 3 hits, Prina 1, Bruhn 0,
+  Guinnane 0 — every hit a baseline covariate ("Number of children in the HH") or a summary-stats row.
+- **The composite cell has an identified estimate.** Desai and Tarozzi 2011 (*Demography*) randomly
+  allocated areas to credit+FP / **credit only** / FP only / control. The credit-only arm is separately
+  randomised. Findings: births in the previous three years **−0.106 to −0.166** (small, some
+  significant); **desired family size +0.38 to +0.4, significant at 5%**; contraceptive intention −9%.
+  Authors: *"consistent with microcredit leading to an increase in the demand for children."*
+- **The pattern across all four is in the OUTCOME LEVEL, not the exposure.** Realized fertility: null
+  in three independent designs (RCT, DiD+IV, quasi-exp panel). Stated desires/intentions: positive in
+  two. Pooling across outcome levels would average a null against a positive and report a number
+  describing neither — the pre-registered `OUTCOME_LEVEL` tag is the finding, not bookkeeping.
+- **The direction runs AGAINST Arm S.** Arm S predicts access lowers desired fertility; the one
+  randomised test raised desired family size. That is Arm B's sign appearing in the composite cell.
+  One experiment in rural Ethiopia — not to be over-read, but to be said plainly.
+- **Round 2**: pool 365, 297 new (81%), redundancy 18.6%. Heavily contaminated by method citations
+  (Wooldridge, Little and Rubin, Stock-Yogo) — strip the method-reference layer before screening.
+  Kuchler cites Steele: this literature is internally connected and round 1 reached none of it.
+- Next: strip and screen round 2; extract the four with `OUTCOME_LEVEL` mandatory; **power-read Desai
+  and Tarozzi** — an uninformative null and a precise zero are recorded very differently in GRADE.
+
