@@ -9,16 +9,16 @@
 
 ## Acceptance criteria
 - [x] 2. Search strategy and scope drafted
-- [ ] 3. Literature search and AI screening, both phases (§5.1)
-- [ ] 4. RA title/abstract review
-- [ ] 5. Full-text retrieval
-- [ ] 6. Full-text screen, RA spot-checks 5–10%
-- [ ] 7. Extraction to `extraction/easterlin-relative-income.csv`, RA verifies a random 10%
-- [ ] 8. Risk-of-bias assessment per study
-- [ ] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise
-- [ ] 10. Demographic significance against PM / FDT / SDT
-- [ ] 11. GRADE rating, 3 independent raters
-- [ ] 12. Chapter draft on the §6 template
+- [x] 3. Literature search and AI screening, both phases (§5.1)
+- [~] 4. RA title/abstract review
+- [~] 5. Full-text retrieval
+- [~] 6. Full-text screen, RA spot-checks 5–10%
+- [~] 7. Extraction to `extraction/easterlin-relative-income.csv`, RA verifies a random 10%
+- [~] 8. Risk-of-bias assessment per study
+- [x] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise
+- [x] 10. Demographic significance against PM / FDT / SDT
+- [~] 11. GRADE rating, 3 independent raters
+- [x] 12. Chapter draft on the §6 template
 - [ ] 13. RA lay-readability check
 - [ ] 14. PI review and sign-off
 
@@ -464,4 +464,40 @@ publisher lookup.
 | `MIXED_COHORT_MARRIAGE` | 3/15 | 3/15 |
 
 Overall **34/156**. Handoff regenerated: 24 browser, 98 proxy.
+
+### 2026-09-02 — extraction complete on what we have (34/34), and the chapter is drafted
+
+- **All 34 retrieved full texts extracted**, `extraction/easterlin-relative-income.csv`, 34 rows x 20
+  columns. **6 could not be read at all** — scans with no text layer — and carry `NOT EXTRACTED` in
+  every field so nothing downstream can read them as absences. The most consequential is Macunovich
+  (2000), the strongest global statement of the hypothesis, still unread.
+- **Chapter at `output/chapters/easterlin-relative-income.md`**, 4,845 words, conformant to
+  `docs/chapter-template.md`: S1–S7 present in their sections, §1–§12 in order, plain terms before
+  technical in §1 and §7, S4 before any arithmetic in §8, no analogy, verdict standalone.
+
+**The verdict changed during §8, on a number I did not have when I started writing.** I expected
+NEGLIGIBLE for the SDT, because the sign test returns 0 of 18 across the full window. Computing how
+the decline is *distributed* across that window reversed it: **the median country took 75% of its
+entire post-1965 fertility fall during 1965–1980**, which is the sub-window where the mechanism's
+exposure moves correctly in 14 of 18 countries. A mechanism that works across three-quarters of the
+decline is not negligible. **SDT = MINOR**, not NEGLIGIBLE (no share was computed, and NEGLIGIBLE
+asserts one under 5%) and not SUBSTANTIAL (the direction result is shared with any co-trending pair
+of series, and the distinctive prediction fails).
+
+- **The carry-away is 0 of 18.** The mechanism requires fertility to *recover* once the small
+  post-bust cohorts came of age after 1980. In none of the 18 countries did it. That is the
+  falsification of the cycling claim specifically, as against a general claim that young people's
+  prospects matter — and it is what Wachter (1991) predicted formally when he asked whether
+  dynamically possible Lee–Easterlin models exist.
+- **GRADE:** PM **No evidence**; FDT **No evidence** for the FDT as a decline (the boom-era body
+  answers a different question); SDT **VERY LOW**, downgraded for inconsistency (Pampel's country
+  effects span significant positives and negatives; Hill's sign flips with fixed effects) and risk of
+  bias (aggregate series dominate, and the exposure is mechanically a lagged function of the outcome).
+- **No study in the body uses exogenous variation in cohort size.** Sixty years of testing on the
+  correlation between a country's age structure and its birth rate, two series in which one is built
+  from the other's past. §5.2 names the designs that would work; the immigration-wave instrument
+  appears to be unused for this question.
+- Stage 11 is partial: **one GRADE rater, protocol requires three.**
+- Written at 22% retrieval on Shravan's instruction; no objection was recorded against doing so, and
+  the Provenance block says exactly which findings would survive full retrieval and which might not.
 
