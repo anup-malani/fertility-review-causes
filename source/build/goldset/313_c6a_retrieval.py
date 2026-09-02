@@ -120,11 +120,19 @@ def fetch(url, dest):
 
 def main():
     limit = int(sys.argv[sys.argv.index("--limit") + 1]) if "--limit" in sys.argv else None
+    # --ids W123,W456 re-runs just those records. The handoff tells an RA to re-run this script
+    # after installing hand-retrieved PDFs; re-attempting all 156 over the network to ingest three
+    # new files is waste, and the state merge means a targeted pass no longer shrinks the output.
+    only = None
+    if "--ids" in sys.argv:
+        only = {x.strip() for x in sys.argv[sys.argv.index("--ids") + 1].split(",") if x.strip()}
     res = json.loads((LOGS / "easterlin-relative-income-screen-results.json").read_text())
     import csv
     rows = list(csv.DictReader((ROOT / "extraction" /
                                "easterlin-relative-income-screen.csv").open()))
     queue = [r for r in rows if r["cell"] in PRIMARY or r["cell"] in ALSO]
+    if only:
+        queue = [r for r in queue if r["openalex"] in only]
     if limit:
         queue = queue[:limit]
     DEST.mkdir(parents=True, exist_ok=True)
@@ -178,6 +186,24 @@ def main():
             rungs.append(("pmc_bioc", f"https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/"
                                       f"pmcoa.cgi/BioC_json/{pmid}/unicode"))
 
+        rec = {"cell": r["cell"], "title": r["title"], "year": r["year"],
+               "doi": doi, "rungs_found": sorted({x for x, _ in rungs}), "attempts": []}
+
+        if dest.exists() and dest.stat().st_size > 12000:
+            p = prior.get("records", {}).get(oid, {})
+            rec["status"] = "have"
+            # Never invent a rung. If prior state does not know how this file arrived -- a
+            # hand-retrieved PDF dropped in by an RA, or a state file lost -- say so, and keep it
+            # OUT of the rung counters. "cached" as a rung name would make the second run's rung
+            # table disagree with the first's, which is exactly the failure a re-run is meant to
+            # catch, not to cause.
+            rec["via"] = p.get("via") or "unknown_provenance"
+            rec["attempts"] = p.get("attempts", [])
+            if rec["via"] != "unknown_provenance":
+                fetched[rec["via"]] += 1
+            out[oid] = rec
+            continue
+
         # `probed` = the rung was tried. `found` = the rung actually PRODUCED a URL. Conflating
         # them was this script's own first defect: unpaywall was credited with 114 "found" when 81
         # of those were unpaywall replying that no OA copy exists, and those records were then
@@ -194,17 +220,6 @@ def main():
             # of `rung-found-is-not-rung-fetched`, and worth as much care.
             if rung not in ("unpaywall", "pmc_bioc"):
                 found[rung] += 1
-
-        rec = {"cell": r["cell"], "title": r["title"], "year": r["year"],
-               "doi": doi, "rungs_found": sorted({x for x, _ in rungs}), "attempts": []}
-
-        if dest.exists() and dest.stat().st_size > 12000:
-            p = prior.get("records", {}).get(oid, {})
-            rec["status"] = "have"
-            rec["via"] = p.get("via", "cached")
-            fetched[rec["via"]] += 1
-            out[oid] = rec
-            continue
 
         got = False
         for rung, url in rungs:
@@ -269,7 +284,14 @@ def main():
         if n % 25 == 0:
             print(f"  {n}/{len(queue)}...", flush=True)
 
-    state_path.write_text(json.dumps({"n": len(queue), "records": out,
+    # A --limit run must not shrink the state file. Merge into what is already there, and record
+    # which records this pass actually touched, so a partial run is legible as partial rather than
+    # silently discarding 126 records' rung attribution (`stage-output-must-survive-rerun`).
+    merged = dict(prior.get("records", {}))
+    merged.update(out)
+    state_path.write_text(json.dumps({"n": len(merged), "records": merged,
+                                      "last_pass_n": len(queue),
+                                      "last_pass_ids": sorted(out),
                                       "probed_per_rung": dict(probed),
                                       "found_per_rung": dict(found),
                                       "fetched_per_rung": dict(fetched)}, indent=1) + "\n")

@@ -2990,17 +2990,30 @@
    "status": "blocked"
   }
  },
- "probed_per_rung": {
-  "unpaywall": 114,
-  "pmc_bioc": 45,
-  "oa_locations": 72,
-  "repec": 47
- },
- "found_per_rung": {
-  "oa_locations": 72,
-  "unpaywall": 17,
-  "repec": 47
- },
+ "last_pass_n": 19,
+ "last_pass_ids": [
+  "W1027588031",
+  "W1514847978",
+  "W1548937558",
+  "W1549671565",
+  "W1827173338",
+  "W1989526901",
+  "W2041439812",
+  "W2088709176",
+  "W2097443099",
+  "W2103311117",
+  "W2734359938",
+  "W2754794359",
+  "W2885834959",
+  "W3123365169",
+  "W4210484104",
+  "W4390669034",
+  "W7144173156",
+  "W7163598424",
+  "W7165438111"
+ ],
+ "probed_per_rung": {},
+ "found_per_rung": {},
  "fetched_per_rung": {
   "repec": 4,
   "oa_locations": 12,

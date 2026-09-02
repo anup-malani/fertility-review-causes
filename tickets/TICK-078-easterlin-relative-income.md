@@ -335,3 +335,34 @@ neighbouring literatures, which is the `snowball-pools-omit-their-own-seeds` fai
 - **313 is idempotent** — files already on disk are skipped with their original rung attribution
   preserved, so a second run reports the same numbers rather than losing provenance to a cache.
 
+### 2026-09-02 — the re-run check found two hazards in 313, both now fixed
+
+The idempotence claim in the previous entry was **asserted, not tested**. Testing it turned up two
+defects, and the test itself nearly caused a third.
+
+- **A `--limit` run REPLACED the state file.** A bounded re-run would have silently discarded the
+  other 126 records' rung attribution — a shrinking input shrinking the output, which is exactly
+  `stage-output-must-survive-rerun`. The state is now **merged** into what is already on disk, and
+  the pass records `last_pass_n` / `last_pass_ids` so a partial run is legible as partial.
+- **The cache branch invented a rung.** A file on disk with no prior state fell back to
+  `via="cached"`, which was then counted in `fetched_per_rung` — a fake rung name that would make
+  the second run's table disagree with the first's. It now records `unknown_provenance` and is kept
+  **out** of the rung counters. This matters concretely: hand-retrieved PDFs from the handoff arrive
+  with no automated provenance, and they must not be credited to a rung that never fetched them.
+- **The cache path also inflated `probed`.** The rung counters ran before the cache check, so a
+  cached record counted rungs nothing had contacted; a cache-only pass reported unpaywall as
+  "probed 13, found 0, empty for this literature" while simultaneously showing `fetched 1`.
+  Contradictory on its face. Counters now sit after the cache check.
+- **Added `--ids`**, so an RA installing three hand-retrieved PDFs can re-ingest just those instead
+  of re-attempting 156 records over the network. The handoff already instructs a re-run; it should
+  not cost an hour.
+
+**Verified:** re-running the 19 cached records reports `probed 0` on every rung (nothing contacted),
+reproduces the fetch attribution exactly — `oa_locations` 14, `repec` 4, `unpaywall` 1 — and leaves
+the state at 156 records / 19 have.
+
+**Not claimed:** a bit-identical *full* re-run. The 137 unretrieved records re-contact the network,
+and a host that answers 403 today may answer 200 tomorrow, so their classification is legitimately
+live. The property that had to hold is that retrieved files survive a re-run with their provenance
+intact, and that a partial pass cannot shrink the record. Both now do.
+
