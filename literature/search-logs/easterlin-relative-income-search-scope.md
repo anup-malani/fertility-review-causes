@@ -135,6 +135,16 @@ If that holds when computed on the actual cohort-size series for the countries c
 `slope-sufficiency-beats-a-missing-share`, the C.3.e finding, applied to a chapter where the same
 structure is visible before the search rather than after it.
 
+**Computed 2026-09-02, before any search — `easterlin-relative-income-sign-test.md`.** The test was
+run on 18 SDT countries from World Bank age structure. It splits, and the split is the registry's own
+claim rather than a window chosen after the fact: **1965–80, 14 of 18 countries consistent** with the
+required sign — this is the mechanism's famous success case, and the within-window correlations are
+very strong (US r = −0.98, Belgium −0.99, Canada −0.98). **1980–present, 0 of 18.** Across the full
+window, 0 of 18, and relative cohort size *returns to within a fraction of its own amplitude of where
+it started* while TFR falls by roughly a birth and stays down. A driver that ends where it began has
+nothing left over to explain a permanent level shift. That is the cycles-cannot-explain-a-trend point,
+measured rather than asserted, and it is the chapter's spine.
+
 What would overturn it, specified now: (i) relative cohort size does not in fact fall over the window
 in the countries carrying the SDT — this is an arithmetic question and is computed at stage 10 from
 HFD/WPP regardless of what the literature says; (ii) the effect is institutionally moderated (the
@@ -400,6 +410,21 @@ and C.2.e**, with C.2.e marked as the named rival model rather than a boundary. 
 made, because `HYPOTHESES-v5.md` is under PI review at TICK-001 — the same course C.2.c took with the
 Lovenheim–Mumford double-listing, and which C.3.e then had to resolve. Recording it here so it is not
 flagged a third time and acted on a fourth.
+
+### PI Call 3 — the R² criterion is sign-blind, and this chapter demonstrates it
+
+PROTOCOL §4.2's third route to demographic significance is "conditional R² ≥ 0.15". **R² does not
+know the sign.** On the sign-test run, **6 of 18 countries clear the 0.15 threshold on TFR against
+relative cohort size, and all 6 do so with the correlation running opposite to what the hypothesis
+predicts** (Japan R² = 0.71 at r = +0.84; Switzerland 0.46 at +0.68; Korea 0.44 at +0.66; also
+Sweden, Canada, Australia). Read literally, the criterion would certify C.6.a as demographically
+significant on the strength of evidence against it.
+
+This chapter attaches a sign condition and proceeds — an R² only counts toward demographic
+significance where the relationship runs in the direction the hypothesis predicts. **Question for
+Anup:** should §4.2 carry that condition generally? It affects every hypothesis with a
+directional prediction, which is all of them, and it is invisible in chapters whose fitted sign
+happens to be right.
 
 ---
 

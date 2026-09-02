@@ -108,3 +108,34 @@ neighbouring literatures, which is the `snowball-pools-omit-their-own-seeds` fai
 - Open for Anup: **PI Call 1** (the replacement rule has no category for a fertility rise) and
   **PI Call 2** (v5 gives C.6.a `cross-ref: --`; on the walls it should read C.1.a, C.5.a, C.7.a, A.9,
   C.2.e). Call 2 is flagged, not made, because HYPOTHESES-v5.md is under PI review at TICK-001.
+
+### 2026-09-02 — free seeds harvested, and the pre-registered sign test run before any search
+
+- **143 free seed candidates** recovered by `source/build/goldset/305_c6a_free_seeds.py` from other
+  chapters' pools — 842 branch:file pairs, 60 unique blobs, zero retrieval cost. Includes Macunovich's
+  relative-cohort-size paper, two Butz–Ward evaluations for `RIVAL_TEST`, a Lee–Easterlin dynamic-
+  cycles paper for `CYCLE_TEST`, a cohort-size marriage-market study for Wall 3, and a Chinese-famine
+  cohort-shrinkage index — scope §7 row 3 arriving unbidden.
+- The harvest reports yield **per term and per term alone**, which is what caught the first run's
+  defect: a bare `baby boom` returned 402 of 480 records, nearly all *Baby Boomers* the living
+  generation. Excluding the `-er` suffix cuts the pool to 143 and makes the axis usable.
+- **`data/raw/` is no longer empty.** `source/build/306_c6a_cohort_size_series.py` pulls World Bank
+  age structure and TFR for 18 SDT countries, 1960–2024, deposits the unmodified responses in
+  `data/raw/wdi-age-structure/` with a PROVENANCE note, and derives
+  `output/tables/easterlin-relative-cohort-size.csv`. Later chapters read from there instead of
+  re-pulling.
+- **The sign test, run before any search, at `easterlin-relative-income-sign-test.md`.** Result:
+  **1965–80, 14 of 18 countries consistent** with the sign the mechanism requires, with very strong
+  within-window correlations (US r = −0.98, Belgium −0.99, Canada −0.98). **1980–present, 0 of 18.**
+  Full window, 0 of 18.
+- **The full-window column is the finding, not a null.** Relative cohort size is a *hump*: it returns
+  to within a fraction of its own amplitude of where it began (US 0.333 → 0.466 in 1980 → 0.291)
+  while TFR falls by roughly a birth and stays down. A driver that ends where it started cannot
+  account for a permanent level shift. The first version of this test reported only full-window
+  endpoints and read "0 of 18" as uniform failure; splitting the window recovered the mechanism's
+  genuine success case and located the failure precisely where the registry says it is.
+- **PI Call 3 raised — PROTOCOL §4.2's R² criterion is sign-blind.** 6 of 18 countries clear the
+  0.15 threshold and **all 6 do so with the correlation running against the hypothesis** (Japan
+  R² = 0.71 at r = +0.84). Read literally the criterion certifies a hypothesis on evidence that
+  refutes it. This chapter attaches a sign condition; whether §4.2 should carry one generally is for
+  Anup, and it affects every hypothesis with a directional prediction.
