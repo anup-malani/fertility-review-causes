@@ -1,0 +1,1849 @@
+{
+  "n_files_scanned": 842,
+  "n_unique_blobs": 60,
+  "n_records": 143,
+  "per_term": {
+    "easterlin": {
+      "n": 9,
+      "only": 6
+    },
+    "macunovich": {
+      "n": 0,
+      "only": 0
+    },
+    "butz": {
+      "n": 2,
+      "only": 2
+    },
+    "cohort size": {
+      "n": 10,
+      "only": 8
+    },
+    "relative cohort": {
+      "n": 2,
+      "only": 0
+    },
+    "relative income": {
+      "n": 17,
+      "only": 14
+    },
+    "baby boom/bust": {
+      "n": 110,
+      "only": 108
+    }
+  },
+  "records": [
+    {
+      "title": "Did the Modern Mortgage Set the Stage for the U.S. Baby Boom?",
+      "id": "10.2139/ssrn.5130538",
+      "year": 2025,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "co-residence-parents-household-delay-snowball-pool.json",
+        "credit-constraints-screen-results.json",
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json",
+        "despair-hopelessness-fertility-tier-b-frame.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json",
+        "housing-costs-frame-abstracts.json",
+        "housing-costs-screen-pass2.json",
+        "housing-costs-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "Job bust, baby bust?: Evidence from Spain",
+      "id": "10.1007/s001480100093",
+      "year": 2001,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "climate-anxiety-eco-doomerism-screen-tiers.json",
+        "climate-anxiety-eco-doomerism-tier-b-frame.json",
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json",
+        "despair-hopelessness-fertility-tier-b-frame.json",
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json"
+      ]
+    },
+    {
+      "title": "Cohort Size and the Marriage Market: Explaining Nearly a Century of Changes in US Marriage Rates",
+      "id": "10.1086/724047",
+      "year": 2023,
+      "matched": [
+        "cohort size"
+      ],
+      "seen_in": [
+        "dating-apps-union-formation-friction-d1-ranked.json",
+        "dating-apps-union-formation-friction-screen-worklist.json",
+        "dating-apps-union-formation-friction-screened.json",
+        "dating-apps-union-formation-friction-tier-b-frame.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json",
+        "housing-costs-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "The Baby Boom and Baby Bust",
+      "id": "10.1257/0002828053828680",
+      "year": 2005,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-screen-tiers.json",
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json",
+        "despair-hopelessness-fertility-tier-b-frame.json",
+        "housing-costs-snowball-pool.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ]
+    },
+    {
+      "title": "The Baby bust: who will do the work? who will pay the taxes?",
+      "id": "10.5860/choice.43-5989",
+      "year": 2006,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "caldwell-wealth-flows-westernization-PARTIAL-screen-tiers.json",
+        "caldwell-wealth-flows-westernization-tier-b-frame.json",
+        "co-residence-parents-household-delay-snowball-pool.json",
+        "housing-costs-snowball-pool.json",
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-sequential-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ]
+    },
+    {
+      "title": "The Effects of a Baby Boom on Stock Prices and Capital Accumulation in the Presence of Social Security",
+      "id": "",
+      "year": "",
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json",
+        "old-age-security-pension-crowdout-metaanalysis-candidates.json",
+        "old-age-security-pension-crowdout-prioritized.json",
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-sequential-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ]
+    },
+    {
+      "title": "Did Organized Labor Induce Labor? Unionization and the American Baby Boom",
+      "id": "10.2139/ssrn.4870124",
+      "year": 2024,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json",
+        "despair-hopelessness-fertility-tier-b-frame.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json",
+        "housing-costs-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "Individual and community factors associated with lifetime fertility in Eswatini: an application of the Easterlin\u2013Crimmins model",
+      "id": "10.1007/s12546-020-09244-y",
+      "year": 2020,
+      "matched": [
+        "easterlin"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json",
+        "fetal-loss-intrauterine-mortality-d1-ranked.json",
+        "fetal-loss-intrauterine-mortality-tier-b-frame.json",
+        "heritability-fertility-genetic-pool-diagnostics.json",
+        "heritability-fertility-genetic-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "The Baby Boom, Housing and Loanable Funds",
+      "id": "10.2307/135464",
+      "year": 1989,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "credit-constraints-frameonly-sheet.json",
+        "credit-constraints-screen-results.json",
+        "credit-constraints-screen-universe.json",
+        "housing-costs-frame-abstracts.json",
+        "housing-costs-screen-pass2.json",
+        "housing-costs-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "The US COVID-19 Baby Bust and Rebound",
+      "id": "10.3386/w30000",
+      "year": 2022,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json",
+        "despair-hopelessness-fertility-tier-b-frame.json",
+        "fetal-loss-intrauterine-mortality-d1-ranked.json",
+        "fetal-loss-intrauterine-mortality-tier-b-frame.json",
+        "housing-costs-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "The Baby Boom and World War II: A Macroeconomic Analysis",
+      "id": "10.1093/restud/rdv010",
+      "year": 2015,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json",
+        "fetal-loss-intrauterine-mortality-d1-ranked.json",
+        "fetal-loss-intrauterine-mortality-tier-b-frame.json",
+        "housing-costs-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "Relative Cohort Size and Fertility: The Socio-Political Context of the Easterlin Effect",
+      "id": "",
+      "year": "",
+      "matched": [
+        "easterlin",
+        "cohort size",
+        "relative cohort"
+      ],
+      "seen_in": [
+        "heritability-fertility-genetic-pool-diagnostics.json",
+        "heritability-fertility-genetic-snowball-pool.json",
+        "old-age-security-pension-crowdout-metaanalysis-candidates.json",
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-sequential-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ]
+    },
+    {
+      "title": "Gender Identity and Relative Income within Households*",
+      "id": "10.1093/qje/qjv001",
+      "year": 2015,
+      "matched": [
+        "relative income"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-screen-tiers.json",
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json",
+        "housing-costs-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "The Baby Boom, The Baby Bust, and the Housing Market",
+      "id": "10.3386/w2794",
+      "year": 1988,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json",
+        "housing-costs-frame-abstracts.json",
+        "housing-costs-screen-pass2.json",
+        "housing-costs-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "The Baby Boom: Predictability in House Prices and Interest Rates",
+      "id": "10.17016/ifdp.2005.847",
+      "year": 2005,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "credit-constraints-screen-results.json",
+        "credit-constraints-screen-universe.json",
+        "housing-costs-frame-abstracts.json",
+        "housing-costs-screen-pass2.json",
+        "housing-costs-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "No room, no baby boom -the impact of housing markets on fertility",
+      "id": "10.2139/ssrn.5208139",
+      "year": 2025,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json",
+        "housing-costs-frame-abstracts.json",
+        "housing-costs-screen-pass2.json",
+        "housing-costs-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "Baby busts and baby booms: The fertility response to shocks in dynastic models",
+      "id": "10.1016/j.red.2016.07.001",
+      "year": 2016,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json",
+        "despair-hopelessness-fertility-tier-b-frame.json",
+        "housing-costs-snowball-pool.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ]
+    },
+    {
+      "title": "The \u201cBaby Bust\u201d: awareness of the gap between desired and actual family size and review of practical options",
+      "id": "10.1016/j.fertnstert.2025.09.012",
+      "year": 2025,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "art-access-fertility-recovery-d1-ranked.json",
+        "art-access-fertility-recovery-screen-worklist.json",
+        "art-access-fertility-recovery-screened.json",
+        "art-access-fertility-recovery-tier-b-frame.json",
+        "housing-costs-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "[Fluctuations in relative income and the baby boom in the United States].",
+      "id": "",
+      "year": 1998,
+      "matched": [
+        "relative income",
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "credit-constraints-frameonly-sheet.json",
+        "credit-constraints-screen-results.json",
+        "credit-constraints-screen-universe.json",
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ]
+    },
+    {
+      "title": "The (temporary) Covid-19 baby bust in Mexico",
+      "id": "10.1080/00324728.2023.2168298",
+      "year": 2023,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json",
+        "fetal-loss-intrauterine-mortality-d1-ranked.json",
+        "fetal-loss-intrauterine-mortality-tier-b-frame.json",
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ]
+    },
+    {
+      "title": "Maternal Health and the Baby Boom",
+      "id": "10.3386/w16146",
+      "year": 2010,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json",
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ]
+    },
+    {
+      "title": "Educational Attainment and Cohort Size",
+      "id": "10.1086/298186",
+      "year": 1988,
+      "matched": [
+        "cohort size"
+      ],
+      "seen_in": [
+        "co-residence-parents-household-delay-snowball-pool.json",
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json",
+        "housing-costs-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "The Baby Boom and International Capital Flows.",
+      "id": "10.20955/wp.1994.031",
+      "year": 1994,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "credit-constraints-frameonly-sheet.json",
+        "credit-constraints-screen-results.json",
+        "credit-constraints-screen-universe.json",
+        "housing-costs-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "Retirement Prospects of the Baby Boom Generation: A Different Perspective",
+      "id": "",
+      "year": "",
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-metaanalysis-candidates.json",
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-sequential-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ]
+    },
+    {
+      "title": "On the Design of Sustainable and Fair PAYG Pension Systems When Cohort Sizes Change",
+      "id": "",
+      "year": "",
+      "matched": [
+        "cohort size"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-metaanalysis-candidates.json",
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-sequential-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ]
+    },
+    {
+      "title": "Religiously inspired baby boom: evidence from Georgia",
+      "id": "10.1007/s00148-025-01092-5",
+      "year": 2025,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json",
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json",
+        "postmaterialism-individualism-secularization-live-corpus-v2.json"
+      ]
+    },
+    {
+      "title": "Subreplacement fertility in the West before the baby boom: Past and current perspectives",
+      "id": "10.1080/00324720903362806",
+      "year": 2009,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "climate-anxiety-eco-doomerism-screen-tiers.json",
+        "climate-anxiety-eco-doomerism-tier-b-frame.json",
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ]
+    },
+    {
+      "title": "The Missing Baby Bust: The Consequences of the COVID-19 Pandemic for Contraceptive Use, Pregnancy, and Childbirth Among Low-Income Women",
+      "id": "10.1007/s11113-022-09703-9",
+      "year": 2022,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ]
+    },
+    {
+      "title": "The Baby Boom and Its Causes: What We Know and What We Need to Know",
+      "id": "10.1111/j.1728-4457.2013.00591.x",
+      "year": 2013,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json",
+        "housing-costs-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "The baby boom, the baby bust, and the housing market A second look",
+      "id": "10.1016/0166-0462(91)90018-i",
+      "year": 1991,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "housing-costs-frame-abstracts.json",
+        "housing-costs-screen-pass2.json",
+        "housing-costs-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "Homes and husbands for all: Marriage, housing and the baby boom",
+      "id": "W2224046657",
+      "year": 2014,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "housing-costs-frame-abstracts.json",
+        "housing-costs-screen-pass2.json",
+        "housing-costs-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "The baby boom, the baby bust and the housing market: a further look at the debate",
+      "id": "10.1007/bf01580365",
+      "year": 1995,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "housing-costs-frame-abstracts.json",
+        "housing-costs-screen-pass2.json",
+        "housing-costs-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "A Peace Baby Boom? Evidence from Colombia's Peace Agreement",
+      "id": "10.31235/osf.io/c2ypd",
+      "year": 2020,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json",
+        "housing-costs-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "The Peace Baby Boom: Evidence From Colombia\u2019s Peace Agreement With the FARC",
+      "id": "10.2139/ssrn.3695131",
+      "year": 2020,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json",
+        "housing-costs-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "Did Improvements in Household Technology Cause the Baby Boom? Evidence from Electrification, Appliance Diffusion, and the Amish",
+      "id": "10.1257/mac.3.2.189",
+      "year": 2011,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "housing-costs-snowball-pool.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ]
+    },
+    {
+      "title": "Japan's baby bust : causes, implications, and policy responses",
+      "id": "W2265277799",
+      "year": 2005,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json",
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ]
+    },
+    {
+      "title": "DOES COHORT SIZE MATTER TO RESIDENTIAL MOBILITY? THE CASE OF BARCELONA'S CENTRAL CITY 1",
+      "id": "W2165748147",
+      "year": 2013,
+      "matched": [
+        "cohort size"
+      ],
+      "seen_in": [
+        "co-residence-parents-household-delay-frame.json",
+        "co-residence-parents-household-delay-screened.json",
+        "housing-costs-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "How Should Retirement Policy Adjust to the Baby Bust",
+      "id": "",
+      "year": "",
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-metaanalysis-candidates.json",
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ]
+    },
+    {
+      "title": "The US baby boom and the 1935 Social Security Act",
+      "id": "",
+      "year": "",
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-metaanalysis-candidates.json",
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ]
+    },
+    {
+      "title": "Life-cycle earnings, cohort size effects and social security: a quantitative exploration",
+      "id": "10.1016/j.jpubeco.2004.04.003",
+      "year": 2005,
+      "matched": [
+        "cohort size"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-sequential-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ]
+    },
+    {
+      "title": "Relative Income and Female Autonomy",
+      "id": "10.1080/17441730.2013.876703",
+      "year": 2014,
+      "matched": [
+        "relative income"
+      ],
+      "seen_in": [
+        "caldwell-wealth-flows-westernization-tier-b-frame.json",
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "Digital Trace Data and Demographic Forecasting: How Well Did Google Predict the US COVID\u201019 Baby Bust?",
+      "id": "10.1111/padr.12647",
+      "year": 2024,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json",
+        "fetal-loss-intrauterine-mortality-d1-ranked.json",
+        "fetal-loss-intrauterine-mortality-tier-b-frame.json"
+      ]
+    },
+    {
+      "title": "Baby Boom or Baby Bust After the COVID-19 Onset in the United States? Evidence from an ARIMA Time-Series Analysis",
+      "id": "10.1007/s11113-023-09843-6",
+      "year": 2023,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json",
+        "fetal-loss-intrauterine-mortality-d1-ranked.json",
+        "fetal-loss-intrauterine-mortality-tier-b-frame.json"
+      ]
+    },
+    {
+      "title": "Demography, stock prices and interest rates: The Easterlin hypothesis revisited",
+      "id": "W1584592506",
+      "year": "",
+      "matched": [
+        "easterlin"
+      ],
+      "seen_in": [
+        "credit-constraints-frameonly-sheet.json",
+        "credit-constraints-screen-results.json",
+        "credit-constraints-screen-universe.json"
+      ]
+    },
+    {
+      "title": "The macroeconomic impact of the baby boom generation",
+      "id": "10.1016/0164-0704(90)90028-9",
+      "year": 1990,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "credit-constraints-frameonly-sheet.json",
+        "credit-constraints-screen-results.json",
+        "credit-constraints-screen-universe.json"
+      ]
+    },
+    {
+      "title": "Easterlin Hypothesis",
+      "id": "10.1057/978-1-349-95121-5_531-2",
+      "year": 2008,
+      "matched": [
+        "easterlin"
+      ],
+      "seen_in": [
+        "credit-constraints-frameonly-sheet.json",
+        "credit-constraints-screen-results.json",
+        "credit-constraints-screen-universe.json"
+      ]
+    },
+    {
+      "title": "War Debt and the Baby Boom",
+      "id": "W2139556376",
+      "year": 2009,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "credit-constraints-frameonly-sheet.json",
+        "credit-constraints-screen-results.json",
+        "credit-constraints-screen-universe.json"
+      ]
+    },
+    {
+      "title": "The baby boom, housing and loanable",
+      "id": "W2328010494",
+      "year": 2016,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "credit-constraints-frameonly-sheet.json",
+        "credit-constraints-screen-results.json",
+        "credit-constraints-screen-universe.json"
+      ]
+    },
+    {
+      "title": "Why Do Young Adults Retreat from Marriage? An Easterlin Relative Income Approach",
+      "id": "10.12765/cpos-2022-03",
+      "year": 2022,
+      "matched": [
+        "easterlin",
+        "relative income"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ]
+    },
+    {
+      "title": "Baby Boom/Baby Bust",
+      "id": "10.1007/978-3-030-22009-9_653",
+      "year": 2021,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ]
+    },
+    {
+      "title": "World War II, the Baby Boom, and Employment: County-Level Evidence",
+      "id": "10.1086/715485",
+      "year": 2021,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ]
+    },
+    {
+      "title": "Relative Income, Race, and Fertility",
+      "id": "10.1080/0032472031000141306",
+      "year": 1985,
+      "matched": [
+        "relative income"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ]
+    },
+    {
+      "title": "Relative Income and Price of Time: Exploring Their Effects on US Fertility and Female Labor Force Participation",
+      "id": "10.2307/2808013",
+      "year": 1996,
+      "matched": [
+        "relative income"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json",
+        "housing-costs-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "Growing into Relative Income Poverty: Urban China, 1988\u20132013",
+      "id": "10.1007/s11205-019-02155-3",
+      "year": 2019,
+      "matched": [
+        "relative income"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ]
+    },
+    {
+      "title": "America's baby boom generation: the fateful bulge.",
+      "id": "",
+      "year": 1980,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ]
+    },
+    {
+      "title": "Earnings, Relative Income, and Family Formation",
+      "id": "10.2307/2061088",
+      "year": 1981,
+      "matched": [
+        "relative income"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ]
+    },
+    {
+      "title": "The 2021 Baby Boom in Iceland: Exploring the Role of a Parental Leave Reform and the COVID-19 Pandemic",
+      "id": "10.1007/s10680-024-09727-1",
+      "year": 2025,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ]
+    },
+    {
+      "title": "Baby boom generation at the retirement onset",
+      "id": "10.2298/stnv1002075s",
+      "year": 2010,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ]
+    },
+    {
+      "title": "A reversal of the socioeconomic gradient of nuptiality during the Swedish mid-20th-century baby boom",
+      "id": "10.4054/demres.2017.37.50",
+      "year": 2017,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ]
+    },
+    {
+      "title": "Birth Quake: The Baby Boom and its Aftershocks",
+      "id": "10.1108/03068290310483788",
+      "year": 2003,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ]
+    },
+    {
+      "title": "Introduction: The Aging of the Baby Boom",
+      "id": "",
+      "year": 1998,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ]
+    },
+    {
+      "title": "Linked lives, linked retirement? Relative income differences within couples and gendered retirement decisions in Europe",
+      "id": "10.1016/j.alcr.2020.100380",
+      "year": 2020,
+      "matched": [
+        "relative income"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ]
+    },
+    {
+      "title": "The Baby Boom and Changing Family Values, 1945\u20131980",
+      "id": "10.1017/cbo9780511616631.007",
+      "year": 2004,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ]
+    },
+    {
+      "title": "Baby Boom Caregivers: Care in the Age of Individualization",
+      "id": "10.1093/geront/gnr140",
+      "year": 2012,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ]
+    },
+    {
+      "title": "Trajectoires familiales et professionnelles durant le baby boom en Suisse: continuit\u00e9s et ruptures parmi les g\u00e9n\u00e9rations f\u00e9minines",
+      "id": "W2887940459",
+      "year": 2016,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ]
+    },
+    {
+      "title": "SECULAR FERTILITY DECLINES, BABY BOOMS, AND ECONOMIC GROWTH: INTERNATIONAL EVIDENCE",
+      "id": "10.1017/s1365100515001017",
+      "year": 2017,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ]
+    },
+    {
+      "title": "Did Gender Egalitarianism Weaken Religiosity in Baby Boom Women? A Developmental-Historical Approach",
+      "id": "10.1093/socrel/srad032",
+      "year": 2023,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ]
+    },
+    {
+      "title": "2019 Marriage Law Triggered \u201cBaby Bust'\u201d An Islamic Legal Perspective On The Decline In Marriage Rates",
+      "id": "10.33754/masadir.v5i02.1896",
+      "year": 2025,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ]
+    },
+    {
+      "title": "The \u2018Tinkering\u2019 Generation\u2014 Religion After the Baby Boom",
+      "id": "10.3200/sspt.18.5.62-65",
+      "year": 2007,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ]
+    },
+    {
+      "title": "Postwar education and the Catholic schools from the viewpoint of \"the baby boom generation\"",
+      "id": "W2562389029",
+      "year": 2008,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ]
+    },
+    {
+      "title": "Baby boom consumers and technology: shooting down stereotypes",
+      "id": "10.1108/07363760710773120",
+      "year": 2007,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ]
+    },
+    {
+      "title": "Consuming modernity : gendered behaviour and consumerism before the baby boom",
+      "id": "W598287480",
+      "year": 2013,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ]
+    },
+    {
+      "title": "[Abstract] Consuming modernity: Gendered behaviour and consumerism before the baby boom",
+      "id": "10.25316/r95y-2m88",
+      "year": 2026,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ]
+    },
+    {
+      "title": "Consuming Modernity: Gendered Behaviour and Consumerism before the Baby Boom ed. by Cheryl Krasnick Warsh and Dan Malleck (review)",
+      "id": "W1501162239",
+      "year": 2014,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ]
+    },
+    {
+      "title": "Trends, Issues, Perspectives, and Values for the Aging of the Baby Boom Cohorts",
+      "id": "10.1093/geront/36.1.15",
+      "year": 1996,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ]
+    },
+    {
+      "title": "BLACK AND WHITE FERTILITY, DIFFERENTIAL BABY BOOMS: THE VALUE OF EQUAL EDUCATION OPPORTUNITY",
+      "id": "10.1017/dem.2015.17",
+      "year": 2016,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ]
+    },
+    {
+      "title": "Online Viewing and Aesthetic Preferences of Generation Y and the Baby Boom Generation: Testing User Web Site Experience Through Eye Tracking",
+      "id": "10.2753/jec1086-4415150404",
+      "year": 2011,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ]
+    },
+    {
+      "title": "The Political Impact of the Baby Boom: Are There Persistent Generational Differences in Political Beliefs and Behavior?",
+      "id": "W42766042",
+      "year": 1998,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ]
+    },
+    {
+      "title": "Steroid-inducible BABY BOOM system for development of fertile Arabidopsis thaliana plants after prolonged tissue culture",
+      "id": "10.1007/s00299-015-1832-7",
+      "year": 2015,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ]
+    },
+    {
+      "title": "A putative BABY BOOM-like gene (CaBBM) is expressed in embryogenic calli and embryogenic cell suspension culture of Coffea arabica L",
+      "id": "10.1007/s11627-014-9643-z",
+      "year": 2014,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ]
+    },
+    {
+      "title": "Pre-baby boom women's attitudes and responses to second wave feminism in Ireland",
+      "id": "10.1016/j.wsif.2014.01.013",
+      "year": 2014,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ]
+    },
+    {
+      "title": "Black and White Fertility, Differential Baby Booms: The Value of Civil Rights (Equal Opportunity for Education)",
+      "id": "W1548500100",
+      "year": 2011,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ]
+    },
+    {
+      "title": "Cultural Capital and Participation in Cultural Activities among Korean Baby Boom Generation: From a Cultural Welfare Perspective",
+      "id": "W2626989590",
+      "year": 2008,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ]
+    },
+    {
+      "title": "Influence on Successful Aging and Mediation Effect of Retirement Preparation by Social Paritication Attitude of Public Officials in Korean Baby Boom Generation",
+      "id": "10.14400/jdc.2018.16.1.093",
+      "year": 2018,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ]
+    },
+    {
+      "title": "Relationship among Perceived Value, Leisure Satisfaction, and Quality of Life for Baby Boom Generations Participating in Golf",
+      "id": "10.23949/kjpe.2021.7.60.4.8",
+      "year": 2021,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ]
+    },
+    {
+      "title": "Attitudes Towards One\u2019s Aging among Single, Professional, Highly Educated, Baby Boom Women: \u201cI Don\u2019t Know Who I Am, But I Am Not a Crazy Old Maid!\u201d",
+      "id": "W2479630370",
+      "year": 2008,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ]
+    },
+    {
+      "title": "Attachment Bonds and Baby Booms: A Cross\u2010Cultural Study of Reproductive Success",
+      "id": "10.1002/ijop.70214",
+      "year": 2026,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ]
+    },
+    {
+      "title": "Black and White Fertility, Differential Baby Booms: The Value of Civil Rights",
+      "id": "W2106038707",
+      "year": 2012,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ]
+    },
+    {
+      "title": "Whither Goest the Baby Boom? Politics and Values in an Aging Society",
+      "id": "10.1093/geront/40.2.246",
+      "year": 2000,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ]
+    },
+    {
+      "title": "THE BABY BOOM, YOUTH CULTURE, AND FAMILY LIFE",
+      "id": "10.1002/9781119027737.ch5",
+      "year": 2017,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ]
+    },
+    {
+      "title": "Perspectives on the residential preference of the baby bust generation within metropolitan areas",
+      "id": "10.14866/ajg.2013s.0_295",
+      "year": 2013,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ]
+    },
+    {
+      "title": "Retirement attitude and unknown caregiving roles: findings from the Australian baby boom career women national survey",
+      "id": "W1842820341",
+      "year": 2012,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ]
+    },
+    {
+      "title": "Retirement Housing and Locational Preferences of The Depression and Early Baby Boom Age Cohorts",
+      "id": "10.1080/08882746.1997.11430267",
+      "year": 1997,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ]
+    },
+    {
+      "title": "Analysis of Consumer's Preference on Visual Image of Brand Mark - Focused on Baby Boom Generation -",
+      "id": "10.17548/ksaf.2013.12.14.11",
+      "year": 2013,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ]
+    },
+    {
+      "title": "The early baby boom age cohort : housing and locational preferences and plans for the first 10 years of retirement",
+      "id": "W138845135",
+      "year": 2000,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ]
+    },
+    {
+      "title": "Retirement attitude and unknown caregiving roles: Findings from the Australian Baby Boom Career Women National survey. International Psychogeriatric Association International Meeting, 7-11 September",
+      "id": "W2301803285",
+      "year": 2012,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ]
+    },
+    {
+      "title": "Eternal youths: A narrative inquiry into the buffering effects of a generational cultural complex against the anxiety of aging and death in the American Baby Boom generation",
+      "id": "W2521098278",
+      "year": "",
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ]
+    },
+    {
+      "title": "Power Outages, Power Externalities, and Baby Booms",
+      "id": "10.1007/s13524-014-0316-7",
+      "year": 2014,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "caldwell-wealth-flows-westernization-PARTIAL-screen-tiers.json",
+        "caldwell-wealth-flows-westernization-tier-b-frame.json"
+      ]
+    },
+    {
+      "title": "What We Know and What We Need to Know About the Baby Boom",
+      "id": "",
+      "year": 2012,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "caldwell-wealth-flows-westernization-PARTIAL-screen-tiers.json",
+        "caldwell-wealth-flows-westernization-tier-b-frame.json"
+      ]
+    },
+    {
+      "title": "Looking for Japan's missing third baby boom",
+      "id": "10.1111/jog.13491",
+      "year": 2017,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "fetal-loss-intrauterine-mortality-d1-ranked.json",
+        "fetal-loss-intrauterine-mortality-tier-b-frame.json"
+      ]
+    },
+    {
+      "title": "Can the Spanish Influenza Pandemic of 1918 Explain the Baby Boom of 1920 in Neutral Norway?",
+      "id": "10.2307/3654904",
+      "year": 2004,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "fetal-loss-intrauterine-mortality-d1-ranked.json",
+        "fetal-loss-intrauterine-mortality-tier-b-frame.json"
+      ]
+    },
+    {
+      "title": "Did the 1918 influenza pandemic cause a 1920 baby boom? Demographic evidence from neutral Europe",
+      "id": "10.1080/00324728.2023.2192041",
+      "year": 2023,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "fetal-loss-intrauterine-mortality-d1-ranked.json",
+        "fetal-loss-intrauterine-mortality-tier-b-frame.json"
+      ]
+    },
+    {
+      "title": "Demographic Transition in Morocco: an application of Easterlin-Crimmins\u2019s model using DHS data",
+      "id": "10.11564/28-0-546",
+      "year": 2014,
+      "matched": [
+        "easterlin"
+      ],
+      "seen_in": [
+        "fetal-loss-intrauterine-mortality-d1-ranked.json",
+        "fetal-loss-intrauterine-mortality-tier-b-frame.json"
+      ]
+    },
+    {
+      "title": "The use of a Cohort Size Shrinkage Index (CSSI) to quantify regional famine intensity during the Chinese famine of 1959-1961",
+      "id": "10.1101/2021.12.24.21268375",
+      "year": 2021,
+      "matched": [
+        "cohort size"
+      ],
+      "seen_in": [
+        "fetal-loss-intrauterine-mortality-d1-ranked.json",
+        "fetal-loss-intrauterine-mortality-tier-b-frame.json"
+      ]
+    },
+    {
+      "title": "Baby booms, busts, and population ageing in the developed world",
+      "id": "10.1080/00324728.2014.963421",
+      "year": 2015,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "co-residence-parents-household-delay-snowball-pool.json",
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ]
+    },
+    {
+      "title": "Birth order and the decline in college completion among the baby boom generation",
+      "id": "10.1111/ecin.13109",
+      "year": 2022,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ]
+    },
+    {
+      "title": "The Greater St. Louis LGBT Health and Human Services Needs Assessment: An Examination of the Silent and Baby Boom Generations",
+      "id": "10.1080/00918369.2013.835239",
+      "year": 2013,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "dating-apps-union-formation-friction-d1-ranked.json",
+        "dating-apps-union-formation-friction-tier-b-frame.json"
+      ]
+    },
+    {
+      "title": "Bridging Relative Income and Marital Satisfaction: The Role of Household Debt As a Mediator",
+      "id": "10.1007/s10834-025-10059-3",
+      "year": 2025,
+      "matched": [
+        "relative income"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json"
+      ]
+    },
+    {
+      "title": "Low Fertility and Population Aging: Socioeconomic Impacts of Baby Bust",
+      "id": "W927410434",
+      "year": 2011,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "co-residence-parents-household-delay-frame.json",
+        "co-residence-parents-household-delay-screened.json"
+      ]
+    },
+    {
+      "title": "Japan's baby bust: an economic issue?",
+      "id": "W4299882424",
+      "year": 1998,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "co-residence-parents-household-delay-frame.json",
+        "co-residence-parents-household-delay-screened.json"
+      ]
+    },
+    {
+      "title": "The \"Lucky Few\"? How Shrinking Cohort Size Affects Life-Course Chances",
+      "id": "W2187529166",
+      "year": 2011,
+      "matched": [
+        "cohort size"
+      ],
+      "seen_in": [
+        "co-residence-parents-household-delay-frame.json",
+        "co-residence-parents-household-delay-screened.json"
+      ]
+    },
+    {
+      "title": "The Baby Boom and Its Explanations",
+      "id": "W2127606842",
+      "year": 1983,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "heritability-fertility-genetic-pool-diagnostics.json",
+        "heritability-fertility-genetic-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "Asset-Market Effects of the Baby Boom and Social-Security Reform",
+      "id": "10.1257/000282802320191697",
+      "year": 2002,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "Population Changes and Capital Accumulation: The Aging of the Baby Boom",
+      "id": "10.2202/1534-6013.1008",
+      "year": 2001,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "The baby boom, the baby bust, and the housing market A reply to our critics",
+      "id": "10.1016/0166-0462(91)90021-e",
+      "year": 1991,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "The Baby Boom and the Stock Market Boom*",
+      "id": "10.1111/1467-9442.t01-2-00003",
+      "year": 2003,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "AN EVALUATION OF THE BUTZ-WARD HYPOTHESIS OF CONTERCYCLICAL FERTILITY",
+      "id": "W1578287828",
+      "year": 1990,
+      "matched": [
+        "butz"
+      ],
+      "seen_in": [
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "Baby Boom, Population Aging, and Capital Markets",
+      "id": "10.1086/296629",
+      "year": 1994,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "The Butz-Ward Fertility Model in the Light of More Recent Data",
+      "id": "10.2307/146118",
+      "year": 1995,
+      "matched": [
+        "butz"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "Fertility Decline, Baby Boom, and Economic Growth",
+      "id": "10.1086/593052",
+      "year": 2008,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "Relative Cohort Size: Source of a Unifying Theory of Global Fertility Transition?",
+      "id": "10.1111/j.1728-4457.2000.00235.x",
+      "year": 2000,
+      "matched": [
+        "cohort size",
+        "relative cohort"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "Elusive Cycles: Are there Dynamically Possible Lee-Easterlin Models for U.S. Births?",
+      "id": "10.1080/0032472031000145116",
+      "year": 1991,
+      "matched": [
+        "easterlin"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "The Baby Boom Generation and the Economy.",
+      "id": "10.2307/1973060",
+      "year": 1983,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "Race and relative income/price of time effects on U.S. fertility",
+      "id": "10.1016/s1053-5357(99)80095-x",
+      "year": 1998,
+      "matched": [
+        "relative income"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "The Dynamics of Fertility and Growth: Baby Boom, Bust and Bounce-Back",
+      "id": "10.2202/1534-5998.1167",
+      "year": 2004,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "Relative income and fertility",
+      "id": "10.2307/2060575",
+      "year": 1977,
+      "matched": [
+        "relative income"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "Easterlin revisited: Relative income and the baby boom",
+      "id": "10.1016/j.eeh.2014.10.001",
+      "year": 2014,
+      "matched": [
+        "easterlin",
+        "relative income",
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "Misalignment of Housing Growth and Population Trends: Cohort Size and Lagging Measurements Through Recession and Recovery",
+      "id": "10.7758/rsf.2025.11.1.05",
+      "year": 2025,
+      "matched": [
+        "cohort size"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "Becker vs. Easterlin. Education, Fertility and Growth in France after World War II",
+      "id": "W1608837277",
+      "year": 2005,
+      "matched": [
+        "easterlin"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "Fertility Decline and Baby Boom",
+      "id": "W2184517750",
+      "year": 2008,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "The Baby Boom and Economic Growth",
+      "id": "10.20955/wp.1994.001",
+      "year": 1994,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "Couples\u2019 ideological pairings, relative income and housework sharing",
+      "id": "10.4054/mpidr-wp-2023-033",
+      "year": 2023,
+      "matched": [
+        "relative income"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ]
+    },
+    {
+      "title": "Baby Boom Generation's Burden for Taking Care of Children, Aging Anxiety, Preparations for Old Age and Quality of Life",
+      "id": "10.5932/jkphn.2012.26.3.440",
+      "year": 2012,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-live-corpus.json"
+      ]
+    },
+    {
+      "title": "Explaining the Baby Bust: The Role of Female Labor Force Participation and Marriage",
+      "id": "",
+      "year": "",
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-tiers.json"
+      ]
+    },
+    {
+      "title": "Did Homeownership Policies Cause the Postwar Baby Boom? Evidence From the Servicemen's Readjustment Act of 1944",
+      "id": "",
+      "year": "",
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-tiers.json"
+      ]
+    },
+    {
+      "title": "Marital Fertility and Educational Assortative Mating before, during, and after the Baby Boom in Belgium",
+      "id": "10.3917/adh.132.0139",
+      "year": 2017,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json"
+      ]
+    },
+    {
+      "title": "Baby bust in the wake of the COVID-19 pandemic? First results from the new STFF data series",
+      "id": "10.31235/osf.io/mvy62",
+      "year": 2021,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ]
+    },
+    {
+      "title": "Your Place in the World: Relative Income and Global Inequality",
+      "id": "10.3386/w26555",
+      "year": 2019,
+      "matched": [
+        "relative income"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ]
+    },
+    {
+      "title": "Impacts of Absolute and Relative Income on Self-Rated Health in Urban and Rural China",
+      "id": "10.1177/0020731420922689",
+      "year": 2020,
+      "matched": [
+        "relative income"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ]
+    },
+    {
+      "title": "Baby Boom to Birth Dearth and Beyond",
+      "id": "10.1177/000271627843500104",
+      "year": 1978,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ]
+    },
+    {
+      "title": "The Millennial Boom, the Baby Bust, and the Housing Market",
+      "id": "10.48550/arxiv.2003.11565",
+      "year": 2020,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ]
+    },
+    {
+      "title": "Is it all relative? The health impacts of changes to absolute and relative income",
+      "id": "W2948741300",
+      "year": 2019,
+      "matched": [
+        "relative income"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ]
+    },
+    {
+      "title": "COVID-19 AND FERTILITY \u2013 BABY BOOM OR BUST?",
+      "id": "10.5114/hpc.2021.102655",
+      "year": 2021,
+      "matched": [
+        "baby boom/bust"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ]
+    }
+  ]
+}
