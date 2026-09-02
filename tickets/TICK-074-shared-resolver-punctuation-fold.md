@@ -81,3 +81,43 @@ systematic review first. A rung quoting only the **pre-colon clause** finds it i
 1999 is indexed with a first author of "Mark M. **Pin**". Do not loosen the first-author gate to
 membership to accommodate it — route to a human read instead.
 
+---
+
+## Three further shared-resolver defects, found on C.6.a (TICK-078) 2026-09-02
+
+Found by porting `275_c3e_cold_start_anchors.py` — the *fixed* copy — to C.6.a as `307_`. All three
+are in 275 and therefore in every copy on `main`. All three showed up on a single anchor, Easterlin's
+*Birth and Fortune*, and each one alone is enough to lose it.
+
+**5. `is_stem` is fixed in one direction only.** It tolerates the index carrying a LONGER title than
+the candidate (subtitle the candidate omitted). The mirror case is not handled: the index carries the
+SHORTER title. *Birth and Fortune: The Impact of Numbers on Personal Welfare* is indexed as **Birth
+and fortune** — Jaccard 0.33 — while four reviews of the book carry its full title at Jaccard 1.00.
+`title-stem-indexing-defeats-resolver` had only ever been fixed one way round. Fix:
+`is_stem_reversed`, gated behind the first-author test, since that direction admits more.
+
+**6. The first-author gate is a scoring weight, so it can refuse but cannot promote.** Book reviews
+list the reviewed author as a co-author, so they fail only the first-author test — and on score they
+beat the book **1.20 to 0.83**. The gate refused the winner and had no mechanism to promote the
+correct record sitting in the same result set. Fix: rank on the gate first — passing an applicable
+first-author gate outranks everything, failing one outranks nothing. This is the promotion half of
+`book-canon-first-author`, which until now only had the refusal half.
+
+**7. The early exit is conditioned on a different test than the verdict — and this is the one that
+does the damage.** The rung loop breaks when any candidate scores ≥ 1.0, including one the gate is
+certain to refuse, so the later rungs never run. Fixing 5 and 6 alone left the anchor unresolved
+because the rung that can reach a truncated book title was never reached. **An early exit must be
+conditioned on the same gate the verdict uses.** Generalises past the resolver: any short-circuit
+scored on a different criterion than the accept test can terminate on a record it is about to reject.
+
+**8. Smaller, same family:** the pre-colon head rung requires a 4-token head. *Birth and Fortune* is
+three tokens. Lowered to 3 where a first author is available to gate on.
+
+**And a new verdict class worth adopting shared: `MATCH_VERSION_TWIN`.** Same title, same FIRST
+author, year outside the ±1 gate = a working-paper/version-of-record pair, not a different study.
+Butz and Ward's *Emergence of Countercyclical U.S. Fertility* exists twice — the record OpenAlex
+dates 1977 carries **438** citations, the 1979 record carries **0** — so a candidate naming either
+year fails the gate against the other. Five of C.6.a's 31 anchors have twins and the citation split
+is severe: Welch's twin holds **0** of 659. Reference implementation:
+`source/build/goldset/307_c6a_cold_start_anchors.py`.
+

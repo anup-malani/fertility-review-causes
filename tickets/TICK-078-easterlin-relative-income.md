@@ -139,3 +139,34 @@ neighbouring literatures, which is the `snowball-pools-omit-their-own-seeds` fai
   R² = 0.71 at r = +0.84). Read literally the criterion certifies a hypothesis on evidence that
   refutes it. This chapter attaches a sign condition; whether §4.2 should carry one generally is for
   Anup, and it affects every hypothesis with a directional prediction.
+
+### 2026-09-02 — cold-start anchors: 31 of 31, zero ghosts, three inherited resolver defects
+
+- `source/build/goldset/307_c6a_cold_start_anchors.py`, a direct port of C.3.e's `275_` — the only
+  copy carrying all four TICK-074 fixes. Log at `easterlin-relative-income-cold-start-anchors-log.md`.
+- **The candidate list is its own control.** 18 `control` candidates are titles copied verbatim from
+  records script 305 found in other chapters' pools, so they demonstrably exist; 13 `hand` candidates
+  are author–year–title triples written from knowledge of the literature. A failure on a control is a
+  broken resolver; a failure on a hand candidate may be a ghost citation. **Controls 18/18 on the
+  first run**, which localised every failure to the candidate side before any of it was read.
+- **Final: 31/31. Zero ghost citations** — every hand-typed title corresponds to a real indexed work.
+- **Three inherited resolver defects, all found on one anchor** (Easterlin's *Birth and Fortune*),
+  all present in `275_` and therefore in every copy on `main`. Reported to TICK-074 as defects 5–8.
+  (i) `is_stem` was fixed in one direction only — it tolerates the index having the *longer* title,
+  not the shorter one, and this book is indexed as the bare *Birth and fortune* at Jaccard 0.33 while
+  four **reviews** of it score 1.00. (ii) The first-author gate was a scoring weight, so it could
+  refuse the winner but not promote the correct record sitting in the same result set — the reviews
+  beat the book 1.20 to 0.83. (iii) **The early exit was conditioned on a different test than the
+  verdict**, so the loop stopped on a record the gate was certain to refuse and the rungs that can
+  reach a truncated book title never ran. Fixing (i) and (ii) alone did not resolve the anchor; (iii)
+  is what did.
+- **New verdict class, `MATCH_VERSION_TWIN`**, proposed shared. Butz and Ward's *Emergence of
+  Countercyclical U.S. Fertility* exists twice: the record OpenAlex dates 1977 carries **438**
+  citations and the 1979 record carries **0**, so a candidate naming either year fails a ±1 gate
+  against the other. Five of 31 anchors have twins and the split is severe — Welch's twin holds
+  **0** of 659 citations. Both ids kept for every pair; a snowball seeded on one misses the other's
+  citing set.
+- **`BENCHMARK_MEASURED` — scope §4's value-added cell — has one anchor, and it is theory**
+  (Easterlin's own 1976 aspirations-versus-resources statement). No empirical anchor measures the
+  parental-household benchmark. A prediction for the search to test, not yet a finding.
+

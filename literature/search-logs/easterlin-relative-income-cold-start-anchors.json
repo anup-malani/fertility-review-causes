@@ -1,0 +1,1274 @@
+[
+  {
+    "key": "pampel-relative-cohort-size-sociopolitical",
+    "title": "Relative Cohort Size and Fertility: The Socio-Political Context of the Easterlin Effect",
+    "year": 1993,
+    "first_author": "",
+    "doi": "",
+    "source": "control",
+    "link": "link2",
+    "cell": "COHORT_SIZE_FERTILITY",
+    "role": "primary",
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": false,
+      "oa_id": "https://openalex.org/W2085786802",
+      "doi": "https://doi.org/10.2307/2096073",
+      "title": "Relative Cohort Size and Fertility: The Socio-Political Context of the Easterlin Effect",
+      "year": 1993,
+      "type": "article",
+      "venue": "American Sociological Review",
+      "authors_first": "Fred C. Pampel",
+      "cited_by": 62,
+      "jaccard": 1.0,
+      "stem": false,
+      "stem_reversed": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.35,
+      "via": "filter_title_quoted",
+      "non_study_type": false
+    },
+    "twins": [],
+    "verdict": "MATCH"
+  },
+  {
+    "key": "macunovich-2000-unifying-theory",
+    "title": "Relative Cohort Size: Source of a Unifying Theory of Global Fertility Transition?",
+    "year": 2000,
+    "first_author": "Macunovich",
+    "doi": "10.1111/j.1728-4457.2000.00235.x",
+    "source": "control",
+    "link": "link2",
+    "cell": "COHORT_SIZE_FERTILITY",
+    "role": "primary",
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2101704947",
+      "doi": "https://doi.org/10.1111/j.1728-4457.2000.00235.x",
+      "title": "Relative Cohort Size: Source of a Unifying Theory of Global Fertility Transition?",
+      "year": 2000,
+      "type": "article",
+      "venue": "Population and Development Review",
+      "authors_first": "Diane J. Macunovich",
+      "cited_by": 56,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "key": "easterlin-revisited-baby-boom",
+    "title": "Easterlin revisited: Relative income and the baby boom",
+    "year": 2014,
+    "first_author": "",
+    "doi": "10.1016/j.eeh.2014.10.001",
+    "source": "control",
+    "link": "link2",
+    "cell": "RELATIVE_INCOME_FERTILITY",
+    "role": "primary",
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2271295701",
+      "doi": "https://doi.org/10.1016/j.eeh.2014.10.001",
+      "title": "Easterlin revisited: Relative income and the baby boom",
+      "year": 2014,
+      "type": "article",
+      "venue": "Explorations in Economic History",
+      "authors_first": "M. J. Hill",
+      "cited_by": 9,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "key": "elusive-cycles-lee-easterlin",
+    "title": "Elusive Cycles: Are there Dynamically Possible Lee-Easterlin Models for U.S. Births?",
+    "year": 1991,
+    "first_author": "",
+    "doi": "10.1080/0032472031000145116",
+    "source": "control",
+    "link": "cycle",
+    "cell": "CYCLE_TEST",
+    "role": "primary",
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2070549219",
+      "doi": "https://doi.org/10.1080/0032472031000145116",
+      "title": "Elusive Cycles: Are there Dynamically Possible Lee-Easterlin Models for U.S. Births?",
+      "year": 1991,
+      "type": "article",
+      "venue": "Population Studies",
+      "authors_first": "Kenneth W. Wachter",
+      "cited_by": 51,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "key": "evaluation-butz-ward",
+    "title": "AN EVALUATION OF THE BUTZ-WARD HYPOTHESIS OF CONTERCYCLICAL FERTILITY",
+    "year": 1990,
+    "first_author": "",
+    "doi": "",
+    "source": "control",
+    "link": "rival",
+    "cell": "RIVAL_TEST",
+    "role": "primary",
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": false,
+      "oa_id": "https://openalex.org/W1578287828",
+      "doi": null,
+      "title": "AN EVALUATION OF THE BUTZ-WARD HYPOTHESIS OF CONTERCYCLICAL FERTILITY",
+      "year": 1990,
+      "type": "preprint",
+      "venue": "RePEc: Research Papers in Economics",
+      "authors_first": "Diane J. Macunovich",
+      "cited_by": 7,
+      "jaccard": 1.0,
+      "stem": false,
+      "stem_reversed": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.35,
+      "via": "filter_title_quoted",
+      "non_study_type": false
+    },
+    "twins": [],
+    "verdict": "MATCH"
+  },
+  {
+    "key": "butz-ward-more-recent-data",
+    "title": "The Butz-Ward Fertility Model in the Light of More Recent Data",
+    "year": 1995,
+    "first_author": "Macunovich",
+    "doi": "10.2307/146118",
+    "source": "control",
+    "link": "rival",
+    "cell": "RIVAL_TEST",
+    "role": "primary",
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W1574851409",
+      "doi": "https://doi.org/10.2307/146118",
+      "title": "The Butz-Ward Fertility Model in the Light of More Recent Data",
+      "year": 1995,
+      "type": "article",
+      "venue": "The Journal of Human Resources",
+      "authors_first": "Diane J. Macunovich",
+      "cited_by": 67,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "key": "relative-income-and-fertility-1977",
+    "title": "Relative income and fertility",
+    "year": 1977,
+    "first_author": "",
+    "doi": "10.2307/2060575",
+    "source": "control",
+    "link": "link2",
+    "cell": "RELATIVE_INCOME_FERTILITY",
+    "role": "primary",
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2152580559",
+      "doi": "https://doi.org/10.2307/2060575",
+      "title": "Relative income and fertility",
+      "year": 1977,
+      "type": "article",
+      "venue": "Demography",
+      "authors_first": "Rafiqul Hudo Choudhury",
+      "cited_by": 12,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "key": "relative-income-race-fertility",
+    "title": "Relative Income, Race, and Fertility",
+    "year": 1985,
+    "first_author": "",
+    "doi": "10.1080/0032472031000141306",
+    "source": "control",
+    "link": "link2",
+    "cell": "RELATIVE_INCOME_FERTILITY",
+    "role": "primary",
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2122579310",
+      "doi": "https://doi.org/10.1080/0032472031000141306",
+      "title": "Relative Income, Race, and Fertility",
+      "year": 1985,
+      "type": "article",
+      "venue": "Population Studies",
+      "authors_first": "Nan E. Johnson",
+      "cited_by": 59,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "key": "earnings-relative-income-family-formation",
+    "title": "Earnings, Relative Income, and Family Formation",
+    "year": 1981,
+    "first_author": "",
+    "doi": "10.2307/2061088",
+    "source": "control",
+    "link": "link2",
+    "cell": "RELATIVE_INCOME_FERTILITY",
+    "role": "primary",
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2150140465",
+      "doi": "https://doi.org/10.2307/2061088",
+      "title": "Earnings, Relative Income, and Family Formation",
+      "year": 1981,
+      "type": "article",
+      "venue": "Demography",
+      "authors_first": "Maurice MacDonald",
+      "cited_by": 50,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "key": "macunovich-1996-price-of-time",
+    "title": "Relative Income and Price of Time: Exploring Their Effects on US Fertility and Female Labor Force Participation",
+    "year": 1996,
+    "first_author": "Macunovich",
+    "doi": "10.2307/2808013",
+    "source": "control",
+    "link": "rival",
+    "cell": "RIVAL_TEST",
+    "role": "primary",
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W1989526901",
+      "doi": "https://doi.org/10.2307/2808013",
+      "title": "Relative Income and Price of Time: Exploring Their Effects on US Fertility and Female Labor Force Participation",
+      "year": 1996,
+      "type": "article",
+      "venue": "Population and Development Review",
+      "authors_first": "Diane J. Macunovich",
+      "cited_by": 170,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "key": "race-relative-income-price-of-time",
+    "title": "Race and relative income/price of time effects on U.S. fertility",
+    "year": 1998,
+    "first_author": "",
+    "doi": "10.1016/s1053-5357(99)80095-x",
+    "source": "control",
+    "link": "link2",
+    "cell": "RELATIVE_INCOME_FERTILITY",
+    "role": "primary",
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2064179828",
+      "doi": "https://doi.org/10.1016/s1053-5357(99)80095-x",
+      "title": "Race and relative income/price of time effects on U.S. fertility",
+      "year": 1998,
+      "type": "article",
+      "venue": "The Journal of Socio-Economics",
+      "authors_first": "Diane J. Macunovich",
+      "cited_by": 22,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "key": "cohort-size-marriage-market",
+    "title": "Cohort Size and the Marriage Market: Explaining Nearly a Century of Changes in US Marriage Rates",
+    "year": 2023,
+    "first_author": "",
+    "doi": "10.1086/724047",
+    "source": "control",
+    "link": "link2",
+    "cell": "MIXED_COHORT_MARRIAGE",
+    "role": "wall-3 boundary",
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2181558514",
+      "doi": "https://doi.org/10.1086/724047",
+      "title": "Cohort Size and the Marriage Market: Explaining Nearly a Century of Changes in US Marriage Rates",
+      "year": 2023,
+      "type": "article",
+      "venue": "Journal of Labor Economics",
+      "authors_first": "Mary Ann Bronson",
+      "cited_by": 19,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "key": "young-adults-retreat-marriage",
+    "title": "Why Do Young Adults Retreat from Marriage? An Easterlin Relative Income Approach",
+    "year": 2022,
+    "first_author": "",
+    "doi": "10.12765/cpos-2022-03",
+    "source": "control",
+    "link": "link2",
+    "cell": "MIXED_COHORT_MARRIAGE",
+    "role": "wall-3 boundary",
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4210484104",
+      "doi": "https://doi.org/10.12765/cpos-2022-03",
+      "title": "Why Do Young Adults Retreat from Marriage? An Easterlin Relative Income Approach",
+      "year": 2022,
+      "type": "article",
+      "venue": "Comparative Population Studies",
+      "authors_first": "Georgios Mavropoulos",
+      "cited_by": 1,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "key": "becker-vs-easterlin-france",
+    "title": "Becker vs. Easterlin. Education, Fertility and Growth in France after World War II",
+    "year": 2005,
+    "first_author": "",
+    "doi": "",
+    "source": "control",
+    "link": "rival",
+    "cell": "RIVAL_TEST",
+    "role": "primary",
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": false,
+      "oa_id": "https://openalex.org/W1608837277",
+      "doi": null,
+      "title": "Becker vs. Easterlin. Education, Fertility and Growth in France after World War II",
+      "year": 2005,
+      "type": "preprint",
+      "venue": "RePEc: Research Papers in Economics",
+      "authors_first": "Claude Diebolt",
+      "cited_by": 3,
+      "jaccard": 1.0,
+      "stem": false,
+      "stem_reversed": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.35,
+      "via": "filter_title_quoted",
+      "non_study_type": false
+    },
+    "twins": [],
+    "verdict": "MATCH"
+  },
+  {
+    "key": "lucky-few-shrinking-cohort",
+    "title": "The \"Lucky Few\"? How Shrinking Cohort Size Affects Life-Course Chances",
+    "year": 2011,
+    "first_author": "",
+    "doi": "",
+    "source": "control",
+    "link": "link1",
+    "cell": "LINK1_LABOUR",
+    "role": "context",
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": false,
+      "oa_id": "https://openalex.org/W2187529166",
+      "doi": null,
+      "title": "The \"Lucky Few\"? How Shrinking Cohort Size Affects Life-Course Chances",
+      "year": 2011,
+      "type": "article",
+      "venue": null,
+      "authors_first": "Joshua R. Goldstein",
+      "cited_by": 0,
+      "jaccard": 1.0,
+      "stem": false,
+      "stem_reversed": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.35,
+      "via": "filter_title_quoted",
+      "non_study_type": false
+    },
+    "twins": [],
+    "verdict": "MATCH"
+  },
+  {
+    "key": "cssi-chinese-famine",
+    "title": "The use of a Cohort Size Shrinkage Index (CSSI) to quantify regional famine intensity during the Chinese famine of 1959-1961",
+    "year": 2021,
+    "first_author": "",
+    "doi": "10.1101/2021.12.24.21268375",
+    "source": "control",
+    "link": "link1",
+    "cell": "LINK1_LABOUR",
+    "role": "scope 7 row 3 - famine cohort",
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4200232215",
+      "doi": "https://doi.org/10.1101/2021.12.24.21268375",
+      "title": "The use of a Cohort Size Shrinkage Index (CSSI) to quantify regional famine intensity during the Chinese famine of 1959-1961",
+      "year": 2021,
+      "type": "preprint",
+      "venue": "medRxiv",
+      "authors_first": "Chunyu Liu",
+      "cited_by": 14,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "key": "educational-attainment-cohort-size",
+    "title": "Educational Attainment and Cohort Size",
+    "year": 1988,
+    "first_author": "",
+    "doi": "10.1086/298186",
+    "source": "control",
+    "link": "link1",
+    "cell": "LINK1_LABOUR",
+    "role": "context",
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2058029498",
+      "doi": "https://doi.org/10.1086/298186",
+      "title": "Educational Attainment and Cohort Size",
+      "year": 1988,
+      "type": "article",
+      "venue": "Journal of Labor Economics",
+      "authors_first": "David C. Stapleton",
+      "cited_by": 67,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "key": "lifecycle-earnings-cohort-size-social-security",
+    "title": "Life-cycle earnings, cohort size effects and social security: a quantitative exploration",
+    "year": 2005,
+    "first_author": "",
+    "doi": "10.1016/j.jpubeco.2004.04.003",
+    "source": "control",
+    "link": "link1",
+    "cell": "LINK1_LABOUR",
+    "role": "context",
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2020618503",
+      "doi": "https://doi.org/10.1016/j.jpubeco.2004.04.003",
+      "title": "Life-cycle earnings, cohort size effects and social security: a quantitative exploration",
+      "year": 2005,
+      "type": "article",
+      "venue": "Journal of Public Economics",
+      "authors_first": "Juan A. Rojas",
+      "cited_by": 50,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "key": "easterlin-1961-american-baby-boom",
+    "title": "The American Baby Boom in Historical Perspective",
+    "year": 1961,
+    "first_author": "Easterlin",
+    "doi": "",
+    "source": "hand",
+    "link": "link2",
+    "cell": "RELATIVE_INCOME_FERTILITY",
+    "role": "registry seminal",
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 6
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W2088709176",
+      "doi": null,
+      "title": "The American Baby Boom in Historical Perspective",
+      "year": 1962,
+      "type": "book",
+      "venue": "RePEc: Research Papers in Economics",
+      "authors_first": "Richard A. Easterlin",
+      "cited_by": 197,
+      "jaccard": 1.0,
+      "stem": false,
+      "stem_reversed": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted",
+      "non_study_type": false
+    },
+    "twins": [],
+    "verdict": "MATCH"
+  },
+  {
+    "key": "easterlin-1976-conflict-aspirations",
+    "title": "The Conflict between Aspirations and Resources",
+    "year": 1976,
+    "first_author": "Easterlin",
+    "doi": "",
+    "source": "hand",
+    "link": "link2",
+    "cell": "BENCHMARK_MEASURED",
+    "role": "registry seminal - the benchmark statement",
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W2312541858",
+      "doi": "https://doi.org/10.2307/1971619",
+      "title": "The Conflict between Aspirations and Resources",
+      "year": 1976,
+      "type": "article",
+      "venue": "Population and Development Review",
+      "authors_first": "Richard A. Easterlin",
+      "cited_by": 224,
+      "jaccard": 1.0,
+      "stem": false,
+      "stem_reversed": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted",
+      "non_study_type": false
+    },
+    "twins": [],
+    "verdict": "MATCH"
+  },
+  {
+    "key": "easterlin-1980-birth-and-fortune",
+    "title": "Birth and Fortune: The Impact of Numbers on Personal Welfare",
+    "year": 1980,
+    "first_author": "Easterlin",
+    "doi": "",
+    "source": "hand",
+    "link": "theory",
+    "cell": "THEORY",
+    "role": "the book-length statement",
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 10
+      },
+      {
+        "mode": "filter_title_head_quoted",
+        "error": null,
+        "count": 17
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W3147225783",
+      "doi": null,
+      "title": "Birth and fortune",
+      "year": 1980,
+      "type": "book",
+      "venue": null,
+      "authors_first": "Richard A. Easterlin",
+      "cited_by": 286,
+      "jaccard": 0.3,
+      "stem": true,
+      "stem_reversed": true,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.05,
+      "via": "filter_title_head_quoted",
+      "non_study_type": false
+    },
+    "twins": [],
+    "verdict": "MATCH_STEM"
+  },
+  {
+    "key": "macunovich-1998-assessment",
+    "title": "Fertility and the Easterlin hypothesis: An assessment of the literature",
+    "year": 1998,
+    "first_author": "Macunovich",
+    "doi": "",
+    "source": "hand",
+    "link": "review",
+    "cell": "THEORY",
+    "role": "registry seminal - review",
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W2092242825",
+      "doi": "https://doi.org/10.1007/s001480050058",
+      "title": "Fertility and the Easterlin hypothesis: An assessment of the literature",
+      "year": 1998,
+      "type": "article",
+      "venue": "Journal of Population Economics",
+      "authors_first": "Diane J. Macunovich",
+      "cited_by": 138,
+      "jaccard": 1.0,
+      "stem": false,
+      "stem_reversed": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted",
+      "non_study_type": false
+    },
+    "twins": [],
+    "verdict": "MATCH"
+  },
+  {
+    "key": "pampel-peters-1995-easterlin-effect",
+    "title": "The Easterlin Effect",
+    "year": 1995,
+    "first_author": "Pampel",
+    "doi": "",
+    "source": "hand",
+    "link": "review",
+    "cell": "THEORY",
+    "role": "review - external authority",
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 5
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W1978750732",
+      "doi": "https://doi.org/10.1146/annurev.so.21.080195.001115",
+      "title": "The Easterlin Effect",
+      "year": 1995,
+      "type": "article",
+      "venue": "Annual Review of Sociology",
+      "authors_first": "Fred C. Pampel",
+      "cited_by": 96,
+      "jaccard": 1.0,
+      "stem": false,
+      "stem_reversed": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted",
+      "non_study_type": false
+    },
+    "twins": [
+      {
+        "first_author_elsewhere_in_list": true,
+        "oa_id": "https://openalex.org/W4239405828",
+        "doi": "https://doi.org/10.1146/annurev.soc.21.1.163",
+        "title": "The Easterlin Effect",
+        "year": 1995,
+        "type": "article",
+        "venue": "Annual Review of Sociology",
+        "authors_first": "F. C Pampel",
+        "cited_by": 3,
+        "jaccard": 1.0,
+        "stem": false,
+        "stem_reversed": false,
+        "first_author_ok": true,
+        "year_ok": true,
+        "score": 1.5,
+        "via": "filter_title_quoted",
+        "non_study_type": false
+      }
+    ],
+    "verdict": "MATCH"
+  },
+  {
+    "key": "welch-1979-cohort-size-earnings",
+    "title": "Effects of Cohort Size on Earnings: The Baby Boom Babies' Financial Bust",
+    "year": 1979,
+    "first_author": "Welch",
+    "doi": "",
+    "source": "hand",
+    "link": "link1",
+    "cell": "LINK1_LABOUR",
+    "role": "link 1 canon",
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 2
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W2089371094",
+      "doi": "https://doi.org/10.1086/260823",
+      "title": "Effects of Cohort Size on Earnings: The Baby Boom Babies' Financial Bust",
+      "year": 1979,
+      "type": "article",
+      "venue": "Journal of Political Economy",
+      "authors_first": "Finis Welch",
+      "cited_by": 659,
+      "jaccard": 1.0,
+      "stem": false,
+      "stem_reversed": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted",
+      "non_study_type": false
+    },
+    "twins": [
+      {
+        "first_author_elsewhere_in_list": true,
+        "oa_id": "https://openalex.org/W3121564273",
+        "doi": null,
+        "title": "Effects of Cohort Size on Earnings: The Baby Boom Babies' Financial Bust",
+        "year": 1979,
+        "type": "preprint",
+        "venue": "RePEc: Research Papers in Economics",
+        "authors_first": "Finis Welch",
+        "cited_by": 0,
+        "jaccard": 1.0,
+        "stem": false,
+        "stem_reversed": false,
+        "first_author_ok": true,
+        "year_ok": true,
+        "score": 1.5,
+        "via": "filter_title_quoted",
+        "non_study_type": false
+      }
+    ],
+    "verdict": "MATCH"
+  },
+  {
+    "key": "butz-ward-1979-countercyclical",
+    "title": "The Emergence of Countercyclical U.S. Fertility",
+    "year": 1979,
+    "first_author": "Butz",
+    "doi": "",
+    "source": "hand",
+    "link": "rival",
+    "cell": "RIVAL_TEST",
+    "role": "the named rival model",
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 2
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W1564268483",
+      "doi": null,
+      "title": "The Emergence of Countercyclical U.S. Fertility",
+      "year": 1977,
+      "type": "article",
+      "venue": "American Economic Review",
+      "authors_first": "William Butz",
+      "cited_by": 438,
+      "jaccard": 1.0,
+      "stem": false,
+      "stem_reversed": false,
+      "first_author_ok": true,
+      "year_ok": false,
+      "score": 1.3,
+      "via": "filter_title_quoted",
+      "non_study_type": false
+    },
+    "twins": [],
+    "verdict": "MATCH_VERSION_TWIN"
+  },
+  {
+    "key": "lee-1974-formal-dynamics",
+    "title": "The formal dynamics of controlled populations and the echo, the boom and the bust",
+    "year": 1974,
+    "first_author": "Lee",
+    "doi": "",
+    "source": "hand",
+    "link": "cycle",
+    "cell": "THEORY",
+    "role": "cycle theory",
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W2012524273",
+      "doi": "https://doi.org/10.2307/2060471",
+      "title": "The Formal Dynamics of Controlled Populations and the Echo, the Boom and the Bust",
+      "year": 1974,
+      "type": "article",
+      "venue": "Demography",
+      "authors_first": "Ronald Lee",
+      "cited_by": 162,
+      "jaccard": 1.0,
+      "stem": false,
+      "stem_reversed": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted",
+      "non_study_type": false
+    },
+    "twins": [],
+    "verdict": "MATCH"
+  },
+  {
+    "key": "samuelson-1976-fertility-waves",
+    "title": "An Economist's Non-Linear Model of Self-Generated Fertility Waves",
+    "year": 1976,
+    "first_author": "Samuelson",
+    "doi": "",
+    "source": "hand",
+    "link": "cycle",
+    "cell": "THEORY",
+    "role": "cycle theory",
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 2
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W2320417142",
+      "doi": "https://doi.org/10.1080/00324728.1976.10412732",
+      "title": "An economist's non-linear model of self-generated fertility waves",
+      "year": 1976,
+      "type": "article",
+      "venue": "Population Studies",
+      "authors_first": "Paul A. Samuelson",
+      "cited_by": 68,
+      "jaccard": 1.0,
+      "stem": false,
+      "stem_reversed": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted",
+      "non_study_type": false
+    },
+    "twins": [
+      {
+        "first_author_elsewhere_in_list": true,
+        "oa_id": "https://openalex.org/W4229680619",
+        "doi": "https://doi.org/10.2307/2173607",
+        "title": "An Economist's Non-Linear Model of Self-Generated Fertility Waves",
+        "year": 1976,
+        "type": "article",
+        "venue": "Population Studies",
+        "authors_first": "Paul A. Samuelson",
+        "cited_by": 17,
+        "jaccard": 1.0,
+        "stem": false,
+        "stem_reversed": false,
+        "first_author_ok": true,
+        "year_ok": true,
+        "score": 1.5,
+        "via": "filter_title_quoted",
+        "non_study_type": false
+      }
+    ],
+    "verdict": "MATCH"
+  },
+  {
+    "key": "korenman-neumark-cohort-crowding",
+    "title": "Cohort Crowding and Youth Labor Markets: A Cross-National Analysis",
+    "year": 2000,
+    "first_author": "Korenman",
+    "doi": "",
+    "source": "hand",
+    "link": "link1",
+    "cell": "LINK1_LABOUR",
+    "role": "link 1 canon",
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 2
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W1506832854",
+      "doi": "https://doi.org/10.3386/w6031",
+      "title": "Cohort Crowding and Youth Labor Markets: A Cross-National Analysis",
+      "year": 1997,
+      "type": "report",
+      "venue": "National Bureau of Economic Research",
+      "authors_first": "Sanders Korenman",
+      "cited_by": 100,
+      "jaccard": 1.0,
+      "stem": false,
+      "stem_reversed": false,
+      "first_author_ok": true,
+      "year_ok": false,
+      "score": 1.3,
+      "via": "filter_title_quoted",
+      "non_study_type": false
+    },
+    "twins": [
+      {
+        "first_author_elsewhere_in_list": true,
+        "oa_id": "https://openalex.org/W3121546369",
+        "doi": null,
+        "title": "Cohort Crowding and Youth Labor Markets (A Cross-National Analysis)",
+        "year": 1997,
+        "type": "preprint",
+        "venue": "RePEc: Research Papers in Economics",
+        "authors_first": "Sanders Korenman",
+        "cited_by": 7,
+        "jaccard": 1.0,
+        "stem": false,
+        "stem_reversed": false,
+        "first_author_ok": true,
+        "year_ok": false,
+        "score": 1.3,
+        "via": "filter_title_quoted",
+        "non_study_type": false
+      }
+    ],
+    "verdict": "MATCH_VERSION_TWIN"
+  },
+  {
+    "key": "wright-1989-easterlin-european",
+    "title": "The Easterlin Hypothesis and European Fertility Rates",
+    "year": 1989,
+    "first_author": "Wright",
+    "doi": "",
+    "source": "hand",
+    "link": "link2",
+    "cell": "COHORT_SIZE_FERTILITY",
+    "role": "critique",
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W1986354126",
+      "doi": "https://doi.org/10.2307/1973407",
+      "title": "The Easterlin Hypothesis and European Fertility Rates",
+      "year": 1989,
+      "type": "article",
+      "venue": "Population and Development Review",
+      "authors_first": "Robert E. Wright",
+      "cited_by": 42,
+      "jaccard": 1.0,
+      "stem": false,
+      "stem_reversed": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted",
+      "non_study_type": false
+    },
+    "twins": [],
+    "verdict": "MATCH"
+  },
+  {
+    "key": "ermisch-1979-easterlin-britain",
+    "title": "The relevance of the Easterlin hypothesis and the new home economics to fertility movements in Great Britain",
+    "year": 1979,
+    "first_author": "Ermisch",
+    "doi": "",
+    "source": "hand",
+    "link": "link2",
+    "cell": "RELATIVE_INCOME_FERTILITY",
+    "role": "non-US test",
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 2
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W1968721410",
+      "doi": "https://doi.org/10.1080/00324728.1979.10412776",
+      "title": "The Relevance of the \u2018Easterlin hypothesis\u2019 and the \u2018new home economics\u2019 to fertility movements in Great Britain",
+      "year": 1979,
+      "type": "article",
+      "venue": "Population Studies",
+      "authors_first": "John Ermisch",
+      "cited_by": 56,
+      "jaccard": 1.0,
+      "stem": false,
+      "stem_reversed": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted",
+      "non_study_type": false
+    },
+    "twins": [
+      {
+        "first_author_elsewhere_in_list": true,
+        "oa_id": "https://openalex.org/W4230004613",
+        "doi": "https://doi.org/10.2307/2173865",
+        "title": "The Relevance of the `Easterlin Hypothesis' and the `New Home Economics' to Fertility Movements in Great Britain",
+        "year": 1979,
+        "type": "article",
+        "venue": "Population Studies",
+        "authors_first": "John Ermisch",
+        "cited_by": 13,
+        "jaccard": 1.0,
+        "stem": false,
+        "stem_reversed": false,
+        "first_author_ok": true,
+        "year_ok": true,
+        "score": 1.5,
+        "via": "filter_title_quoted",
+        "non_study_type": false
+      }
+    ],
+    "verdict": "MATCH"
+  },
+  {
+    "key": "waldorf-byun-age-structure-meta",
+    "title": "Meta-analysis of the impact of age structure on fertility",
+    "year": 2005,
+    "first_author": "Waldorf",
+    "doi": "",
+    "source": "hand",
+    "link": "review",
+    "cell": "COHORT_SIZE_FERTILITY",
+    "role": "cross-national synthesis",
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W1992628433",
+      "doi": "https://doi.org/10.1007/s00148-004-0199-9",
+      "title": "Meta-analysis of the impact of age structure on fertility",
+      "year": 2005,
+      "type": "review",
+      "venue": "Journal of Population Economics",
+      "authors_first": "Brigitte S. Waldorf",
+      "cited_by": 50,
+      "jaccard": 1.0,
+      "stem": false,
+      "stem_reversed": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted",
+      "non_study_type": false
+    },
+    "twins": [],
+    "verdict": "MATCH"
+  }
+]
