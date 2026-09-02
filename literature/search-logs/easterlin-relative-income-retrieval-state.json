@@ -1,0 +1,3010 @@
+{
+ "n": 156,
+ "records": {
+  "W1981297366": {
+   "cell": "BENCHMARK_MEASURED",
+   "title": "Scarcity and Prosperity in Postwar Childbearing: Explorations From a Life Course Perspective",
+   "year": "1981",
+   "doi": "10.1177/036319908100600404",
+   "rungs_found": [
+    "pmc_bioc",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    },
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/11610974/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W1987353646": {
+   "cell": "BENCHMARK_MEASURED",
+   "title": "A test of the Easterlin fertility model using income for two generations and a comparison with the Becker model",
+   "year": "1989",
+   "doi": "10.2307/2061498",
+   "rungs_found": [
+    "pmc_bioc",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    },
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/2737351/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W3123292807": {
+   "cell": "BENCHMARK_MEASURED",
+   "title": "Resources, aspirations and first births during the Great Recession",
+   "year": "2021",
+   "doi": "10.1016/j.alcr.2021.100405",
+   "rungs_found": [
+    "oa_locations",
+    "pmc_bioc",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "oa_locations",
+     "url": "https://www.sciencedirect.com/science/article/pii/S1040260821000046/pdf",
+     "http": "403",
+     "note": "landing page or JS shell, not a document"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "https://doi.org/10.1016/j.alcr.2021.100405",
+     "http": "200",
+     "note": "too small \u2014 interstitial or error page"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "https://hdl.handle.net/11585/849857",
+     "http": "200",
+     "note": "landing page or JS shell, not a document"
+    },
+    {
+     "rung": "oa_locations+hop",
+     "url": "https://hdl.handle.net/retrieve/a29b03e6-1dac-4dee-bea5-0f32c7138b66/1-s2.0-S1040260821000046-main.pdf",
+     "http": "404",
+     "note": "404 at the recorded location"
+    },
+    {
+     "rung": "oa_locations+hop",
+     "url": "https://hdl.handle.net/retrieve/a29b03e6-1dac-4dee-bea5-0f32c7138b66/1-s2.0-S1040260821000046-main.pdf",
+     "http": "404",
+     "note": "404 at the recorded location"
+    },
+    {
+     "rung": "unpaywall",
+     "url": "https://www.sciencedirect.com/science/article/pii/S1040260821000046/pdf",
+     "http": "403",
+     "note": "landing page or JS shell, not a document"
+    },
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/36695137/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "blocked"
+  },
+  "W2272291772": {
+   "cell": "BENCHMARK_MEASURED",
+   "title": "Subjective relative affluence and expected family size",
+   "year": "1985",
+   "doi": "",
+   "rungs_found": [],
+   "attempts": [],
+   "status": "paywalled"
+  },
+  "W3014487108": {
+   "cell": "BENCHMARK_MEASURED",
+   "title": "Resources and aspirations during the Great Recession: the impact on the transition to motherhood",
+   "year": "2020",
+   "doi": "10.17045/sthlmuni.11876391.v1",
+   "rungs_found": [
+    "oa_locations",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "oa_locations",
+     "url": "https://figshare.com/articles/preprint/Resources_and_aspirations_during_the_Great_Recession_the_impact_on_the_transition_to_motherhood/11876",
+     "http": "202",
+     "note": "BLOCKED (202 interstitial) \u2014 a challenge page, not a paywall. 403 is not the only shape bot defence takes"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "https://doi.org/10.17045/sthlmuni.11876391.v1",
+     "http": "202",
+     "note": "BLOCKED (202 interstitial) \u2014 a challenge page, not a paywall. 403 is not the only shape bot defence takes"
+    },
+    {
+     "rung": "unpaywall",
+     "note": "unpaywall non-JSON"
+    }
+   ],
+   "status": "blocked"
+  },
+  "W2085786802": {
+   "cell": "COHORT_SIZE_FERTILITY",
+   "title": "Relative Cohort Size and Fertility: The Socio-Political Context of the Easterlin Effect",
+   "year": "1993",
+   "doi": "10.2307/2096073",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2101704947": {
+   "cell": "COHORT_SIZE_FERTILITY",
+   "title": "Relative Cohort Size: Source of a Unifying Theory of Global Fertility Transition?",
+   "year": "2000",
+   "doi": "10.1111/j.1728-4457.2000.00235.x",
+   "rungs_found": [
+    "pmc_bioc",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    },
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/18386429/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W1992628433": {
+   "cell": "COHORT_SIZE_FERTILITY",
+   "title": "Meta-analysis of the impact of age structure on fertility",
+   "year": "2005",
+   "doi": "10.1007/s00148-004-0199-9",
+   "rungs_found": [
+    "oa_locations",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "oa_locations",
+     "url": "https://link.springer.com/content/pdf/10.1007/s00148-004-0199-9.pdf",
+     "http": "200",
+     "note": "too small \u2014 interstitial or error page"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "https://doi.org/10.1007/s00148-004-0199-9",
+     "http": "200",
+     "note": "too small \u2014 interstitial or error page"
+    },
+    {
+     "rung": "unpaywall",
+     "url": "https://link.springer.com/content/pdf/10.1007/s00148-004-0199-9.pdf",
+     "http": "200",
+     "note": "too small \u2014 interstitial or error page"
+    }
+   ],
+   "status": "blocked"
+  },
+  "W1986354126": {
+   "cell": "COHORT_SIZE_FERTILITY",
+   "title": "The Easterlin Hypothesis and European Fertility Rates",
+   "year": "1989",
+   "doi": "10.2307/1973407",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2079547700": {
+   "cell": "COHORT_SIZE_FERTILITY",
+   "title": "The Easterlin hypothesis in the recent experience of higher-income OECD countries: A panel-data approach",
+   "year": "2005",
+   "doi": "10.1007/s00148-004-0190-5",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2017509630": {
+   "cell": "COHORT_SIZE_FERTILITY",
+   "title": "Age\u2013Period\u2013Cohort Decomposition of U.S. and Japanese Birth Rates",
+   "year": "2008",
+   "doi": "10.1007/s11113-008-9074-9",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2094635454": {
+   "cell": "COHORT_SIZE_FERTILITY",
+   "title": "Socio-economic effects of relative income and relative cohort size",
+   "year": "1988",
+   "doi": "10.1016/0049-089x(88)90009-9",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2036366128": {
+   "cell": "COHORT_SIZE_FERTILITY",
+   "title": "On testing Easterlin's hypothesis using relative cohort size as a proxy for relative income",
+   "year": "1991",
+   "doi": "10.1007/bf00160368",
+   "rungs_found": [
+    "pmc_bioc",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    },
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/12316771/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W1994515362": {
+   "cell": "COHORT_SIZE_FERTILITY",
+   "title": "A relative cohort size forecasting model of Canadian total live births",
+   "year": "1986",
+   "doi": "10.1080/19485565.1986.9988621",
+   "rungs_found": [
+    "pmc_bioc",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    },
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/3775441/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2093187833": {
+   "cell": "COHORT_SIZE_FERTILITY",
+   "title": "Canadian fertility trends: a further test of the Easterlin Hypothesis",
+   "year": "1987",
+   "doi": "10.1111/j.1755-618x.1987.tb01100.x",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2097443099": {
+   "cell": "COHORT_SIZE_FERTILITY",
+   "title": "The Impact of Relative Cohort Size on U.S. Fertility, 1913-2001",
+   "year": "2008",
+   "doi": "",
+   "rungs_found": [
+    "oa_locations",
+    "repec"
+   ],
+   "attempts": [],
+   "status": "have",
+   "via": "repec"
+  },
+  "W1523271267": {
+   "cell": "COHORT_SIZE_FERTILITY",
+   "title": "Fertility and relative cohort size",
+   "year": "2007",
+   "doi": "",
+   "rungs_found": [
+    "repec"
+   ],
+   "attempts": [
+    {
+     "rung": "repec",
+     "url": "https://EconPapers.repec.org/RePEc:hhs:ifswps:2007_011",
+     "http": "200",
+     "note": "landing page or JS shell, not a document"
+    },
+    {
+     "rung": "repec+hop",
+     "url": "https://EconPapers.repec.org/scripts/redir.pf?u=http%3A%2F%2Fwww.framtidsstudier.se%2Fwp-content%2Fuploads%2F2011%2F01%2F20071005123330filno",
+     "http": "200",
+     "note": "landing page or JS shell, not a document"
+    },
+    {
+     "rung": "repec",
+     "url": "https://ideas.repec.org/p/hhs/ifswps/2007_011.html",
+     "http": "200",
+     "note": "landing page or JS shell, not a document"
+    }
+   ],
+   "status": "landing_only"
+  },
+  "W2041439812": {
+   "cell": "COHORT_SIZE_FERTILITY",
+   "title": "Relative Cohort Size and Fertility in Latin America and the Caribbean: A Panel Data Approach",
+   "year": "2014",
+   "doi": "10.5430/rwe.v5n2p135",
+   "rungs_found": [
+    "oa_locations",
+    "unpaywall"
+   ],
+   "attempts": [],
+   "status": "have",
+   "via": "oa_locations"
+  },
+  "W2497447152": {
+   "cell": "COHORT_SIZE_FERTILITY",
+   "title": "Relative Cohort Size and Fertility",
+   "year": "2002",
+   "doi": "10.7208/chicago/9780226500928.003.0013",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W1027588031": {
+   "cell": "COHORT_SIZE_FERTILITY",
+   "title": "The Effect of Relative Cohort Size on Fertility: Assessing the Importance of the Easterlin Hypothesis Today",
+   "year": "2015",
+   "doi": "",
+   "rungs_found": [
+    "oa_locations"
+   ],
+   "attempts": [],
+   "status": "have",
+   "via": "oa_locations+hop"
+  },
+  "W1510320434": {
+   "cell": "COHORT_SIZE_FERTILITY",
+   "title": "The Role of Relative Cohort Size, and Relative Income in the Demographic Transition",
+   "year": "2011",
+   "doi": "10.2139/ssrn.1807992",
+   "rungs_found": [
+    "oa_locations",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "oa_locations",
+     "url": "https://doi.org/10.2139/ssrn.1807992",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    },
+    {
+     "rung": "unpaywall",
+     "url": "https://doi.org/10.2139/ssrn.1807992",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    }
+   ],
+   "status": "blocked"
+  },
+  "W3122262971": {
+   "cell": "COHORT_SIZE_FERTILITY",
+   "title": "Relative Cohort Size: Source of a Unifying Theory of Global Fertility Transition",
+   "year": "2011",
+   "doi": "10.2139/ssrn.1807991",
+   "rungs_found": [
+    "oa_locations",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "oa_locations",
+     "url": "https://doi.org/10.2139/ssrn.1807991",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    },
+    {
+     "rung": "unpaywall",
+     "url": "https://doi.org/10.2139/ssrn.1807991",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    }
+   ],
+   "status": "blocked"
+  },
+  "W2001410463": {
+   "cell": "COHORT_SIZE_FERTILITY",
+   "title": "Births and cohort size",
+   "year": "1991",
+   "doi": "10.1080/19485565.1991.9988778",
+   "rungs_found": [
+    "pmc_bioc",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    },
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/1749963/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W1548937558": {
+   "cell": "COHORT_SIZE_FERTILITY",
+   "title": "Re-Visiting the Easterlin Hypothesis: U.S. Fertility 1968-2010",
+   "year": "2011",
+   "doi": "10.2139/ssrn.1906188",
+   "rungs_found": [
+    "oa_locations",
+    "repec",
+    "unpaywall"
+   ],
+   "attempts": [],
+   "status": "have",
+   "via": "repec"
+  },
+  "W2200617268": {
+   "cell": "COHORT_SIZE_FERTILITY",
+   "title": "Measurement and analysis of cohort-size variations.",
+   "year": "1991",
+   "doi": "",
+   "rungs_found": [
+    "pmc_bioc"
+   ],
+   "attempts": [
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/12283811/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2255840281": {
+   "cell": "COHORT_SIZE_FERTILITY",
+   "title": "[Causes and consequences of age structure fluctuations: the Easterlin hypothesis].",
+   "year": "1979",
+   "doi": "",
+   "rungs_found": [
+    "pmc_bioc"
+   ],
+   "attempts": [
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/12279081/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2054767885": {
+   "cell": "COHORT_SIZE_FERTILITY",
+   "title": "A Note on the Easterlin Model of Fertility in Northwestern Europe and the United States: 1950-1981",
+   "year": "1987",
+   "doi": "10.1163/156854287x00059",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W4237191528": {
+   "cell": "COHORT_SIZE_FERTILITY",
+   "title": "A Note on the Easterlin Model of Fertility in Northwestern Europe and the United States: 1950-1981",
+   "year": "1987",
+   "doi": "10.1177/002071528702800105",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2070087063": {
+   "cell": "COHORT_SIZE_FERTILITY",
+   "title": "Spatial Dimensions of the Easterlin Hypothesis: Fertility Variations in Italy",
+   "year": "2002",
+   "doi": "10.1111/1467-9787.00272",
+   "rungs_found": [
+    "repec",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "repec",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=330417",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    },
+    {
+     "rung": "unpaywall",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=330417",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    }
+   ],
+   "status": "blocked"
+  },
+  "W2276413219": {
+   "cell": "COHORT_SIZE_FERTILITY",
+   "title": "[Births and cohort size: an empirical test of the Easterlin hypothesis].",
+   "year": "1987",
+   "doi": "",
+   "rungs_found": [
+    "pmc_bioc"
+   ],
+   "attempts": [
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/12314755/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2475481166": {
+   "cell": "COHORT_SIZE_FERTILITY",
+   "title": "Relative Cohort Size and the Total Fertility Rate",
+   "year": "2001",
+   "doi": "10.7208/chicago/9780226645278.003.0004",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2484820379": {
+   "cell": "COHORT_SIZE_FERTILITY",
+   "title": "Relative Cohort Size Effects\u2014Even in Developing Countries",
+   "year": "2002",
+   "doi": "10.7208/chicago/9780226500928.003.0018",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2488050239": {
+   "cell": "COHORT_SIZE_FERTILITY",
+   "title": "The Demographic Consequences of Changing Cohort Size and Female Work",
+   "year": "2001",
+   "doi": "10.7208/chicago/9780226645278.003.0001",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2488885282": {
+   "cell": "COHORT_SIZE_FERTILITY",
+   "title": "Contextual Variation in the Determinants of Fertility",
+   "year": "2001",
+   "doi": "10.7208/chicago/9780226645278.003.0003",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2497257810": {
+   "cell": "COHORT_SIZE_FERTILITY",
+   "title": "Sociopolitical Sources of Demographic Divergence",
+   "year": "2001",
+   "doi": "10.7208/chicago/9780226645278.003.0002",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W3122371138": {
+   "cell": "COHORT_SIZE_FERTILITY",
+   "title": "The Role of Relative Cohort Size and Relative Income in the Demographic Transition",
+   "year": "1999",
+   "doi": "10.1007/bf02436113",
+   "rungs_found": [
+    "repec",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "repec",
+     "url": "https://EconPapers.repec.org/RePEc:max:cprwps:9",
+     "http": "200",
+     "note": "landing page or JS shell, not a document"
+    },
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "landing_only"
+  },
+  "W3126051512": {
+   "cell": "COHORT_SIZE_FERTILITY",
+   "title": "Relative Cohort Size: Source of a Unifying Theory of Global Fertility Transition",
+   "year": "1999",
+   "doi": "",
+   "rungs_found": [
+    "repec"
+   ],
+   "attempts": [
+    {
+     "rung": "repec",
+     "url": "https://ideas.repec.org/p/max/cprwps/8.html",
+     "http": "200",
+     "note": "landing page or JS shell, not a document"
+    }
+   ],
+   "status": "landing_only"
+  },
+  "W2146944376": {
+   "cell": "CYCLE_TEST",
+   "title": "Natural Fertility, Population Cycles and the Spectral Analysis of Births and Marriages",
+   "year": "1975",
+   "doi": "10.1080/01621459.1975.10479862",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W4240478754": {
+   "cell": "CYCLE_TEST",
+   "title": "Natural Fertility, Population Cycles and the Spectral Analysis of Births and Marriages",
+   "year": "1975",
+   "doi": "10.2307/2285812",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2008743395": {
+   "cell": "CYCLE_TEST",
+   "title": "The problem of persistence in economic-demographic cycles",
+   "year": "1981",
+   "doi": "10.1016/0040-5809(81)90013-7",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2885834959": {
+   "cell": "CYCLE_TEST",
+   "title": "The impact of post-war birth cycles on modern demographic development of rural areas",
+   "year": "2018",
+   "doi": "10.28983/asj.v0i6.507",
+   "rungs_found": [
+    "oa_locations",
+    "unpaywall"
+   ],
+   "attempts": [],
+   "status": "have",
+   "via": "oa_locations"
+  },
+  "W3001619904": {
+   "cell": "CYCLE_TEST",
+   "title": "Modeling of the Medium-Term Post-War Demographic Cycles in Russia",
+   "year": "2019",
+   "doi": "10.18288/1994-5124-2019-5-36-61",
+   "rungs_found": [
+    "oa_locations",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "oa_locations",
+     "url": "https://doi.org/10.18288/1994-5124-2019-5-36-61",
+     "http": "404",
+     "note": "404 at the recorded location"
+    },
+    {
+     "rung": "unpaywall",
+     "url": "https://doi.org/10.18288/1994-5124-2019-5-36-61",
+     "http": "404",
+     "note": "404 at the recorded location"
+    }
+   ],
+   "status": "found_not_fetched"
+  },
+  "W1559380475": {
+   "cell": "CYCLE_TEST",
+   "title": "Wsp\u00f3\u0142czesne spo\u0142ecze\u0144stwo polskie przez pryzmat mi\u0119dzypokoleniowego dziedziczenia",
+   "year": "2012",
+   "doi": "",
+   "rungs_found": [],
+   "attempts": [],
+   "status": "paywalled"
+  },
+  "W4390669034": {
+   "cell": "CYCLE_TEST",
+   "title": "DZIMST\u012aBAS TRAJEKTORIJA LATVIJ\u0100 UN T\u0100S MATEM\u0100TISK\u0100 ANAL\u012aZE",
+   "year": "2024",
+   "doi": "10.9770/szv.2023.2(5)",
+   "rungs_found": [
+    "oa_locations",
+    "unpaywall"
+   ],
+   "attempts": [],
+   "status": "have",
+   "via": "oa_locations"
+  },
+  "W2253451392": {
+   "cell": "CYCLE_TEST",
+   "title": "Responses of female labor supply and fertility to the demographic cycle.",
+   "year": "1996",
+   "doi": "",
+   "rungs_found": [
+    "pmc_bioc"
+   ],
+   "attempts": [
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/12320269/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W1965582807": {
+   "cell": "CYCLE_TEST",
+   "title": "THE INTERACTING EFFECTS OF PRICES AND WEATHER ON POPULATION CYCLES IN A PREINDUSTRIAL COMMUNITY",
+   "year": "1998",
+   "doi": "10.1017/s0021932098000157",
+   "rungs_found": [
+    "pmc_bioc",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    },
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/9746811/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2763697449": {
+   "cell": "CYCLE_TEST",
+   "title": "Looking for Japan's missing third baby boom",
+   "year": "2017",
+   "doi": "10.1111/jog.13491",
+   "rungs_found": [
+    "pmc_bioc",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    },
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/28994173/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2103311117": {
+   "cell": "CYCLE_TEST",
+   "title": "Baby busts and baby booms: The fertility response to shocks in dynastic models",
+   "year": "2016",
+   "doi": "10.1016/j.red.2016.07.001",
+   "rungs_found": [
+    "repec",
+    "unpaywall"
+   ],
+   "attempts": [],
+   "status": "have",
+   "via": "repec"
+  },
+  "W1981202290": {
+   "cell": "CYCLE_TEST",
+   "title": "The Dynamics of Fertility and Growth: Baby Boom, Bust and Bounce-Back",
+   "year": "2004",
+   "doi": "10.2202/1534-5998.1167",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2033116112": {
+   "cell": "CYCLE_TEST",
+   "title": "Baby booms, busts, and population ageing in the developed world",
+   "year": "2015",
+   "doi": "10.1080/00324728.2014.963421",
+   "rungs_found": [
+    "pmc_bioc",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    },
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/25912917/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2012524273": {
+   "cell": "CYCLE_TEST",
+   "title": "The Formal Dynamics of Controlled Populations and the Echo, the Boom and the Bust",
+   "year": "1974",
+   "doi": "10.2307/2060471",
+   "rungs_found": [
+    "oa_locations",
+    "pmc_bioc",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "oa_locations",
+     "url": "https://read.dukeupress.edu/demography/article-pdf/11/4/563/906349/563lee.pdf",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "https://doi.org/10.2307/2060471",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    },
+    {
+     "rung": "unpaywall",
+     "url": "https://read.dukeupress.edu/demography/article-pdf/11/4/563/906349/563lee.pdf",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    },
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/21279746/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "blocked"
+  },
+  "W1996984725": {
+   "cell": "CYCLE_TEST",
+   "title": "Demographic Forecasting and the Easterlin Hypothesis",
+   "year": "1976",
+   "doi": "10.2307/1971622",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2070549219": {
+   "cell": "CYCLE_TEST",
+   "title": "Elusive Cycles: Are there Dynamically Possible Lee-Easterlin Models for U.S. Births?",
+   "year": "1991",
+   "doi": "10.1080/0032472031000145116",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2063476582": {
+   "cell": "CYCLE_TEST",
+   "title": "Limit cycle oscillations of the human population",
+   "year": "1983",
+   "doi": "10.2307/2061243",
+   "rungs_found": [
+    "oa_locations",
+    "pmc_bioc",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "oa_locations",
+     "url": "https://read.dukeupress.edu/demography/article-pdf/20/3/285/905543/285frauenthal.pdf",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "https://doi.org/10.2307/2061243",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    },
+    {
+     "rung": "unpaywall",
+     "url": "https://read.dukeupress.edu/demography/article-pdf/20/3/285/905543/285frauenthal.pdf",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    },
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/6628772/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "blocked"
+  },
+  "W1982044215": {
+   "cell": "CYCLE_TEST",
+   "title": "Good times, bad times: A study of the future path of U. S. fertility",
+   "year": "1983",
+   "doi": "10.1080/19485565.1983.9988512",
+   "rungs_found": [
+    "pmc_bioc",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    },
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/6658482/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2044925113": {
+   "cell": "CYCLE_TEST",
+   "title": "The Easterlin Hypothesis: Another Aspect of the Echo to Consider",
+   "year": "1976",
+   "doi": "10.2307/1971621",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2004253433": {
+   "cell": "CYCLE_TEST",
+   "title": "Capital accumulation, endogenous population growth, and Easterlin cycles",
+   "year": "1990",
+   "doi": "10.1007/bf00187285",
+   "rungs_found": [
+    "pmc_bioc",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    },
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/12283297/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W1545327802": {
+   "cell": "CYCLE_TEST",
+   "title": "Endogenous Fluctuations in the Barro-Becker Theory of Fertility",
+   "year": "1989",
+   "doi": "10.1007/978-3-642-83789-0_2",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2280813871": {
+   "cell": "CYCLE_TEST",
+   "title": "The new Kuznets cycle: a test of the Easterlin-Wachter-Wachter hypothesis.",
+   "year": "1982",
+   "doi": "",
+   "rungs_found": [
+    "pmc_bioc"
+   ],
+   "attempts": [
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/12264907/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W1978464389": {
+   "cell": "CYCLE_TEST",
+   "title": "A Reconsideration of Easterlin Cycles",
+   "year": "1981",
+   "doi": "10.2307/2174938",
+   "rungs_found": [
+    "pmc_bioc",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    },
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/11630762/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W4245372435": {
+   "cell": "CYCLE_TEST",
+   "title": "A reconsideration of Easterlin cycles",
+   "year": "1981",
+   "doi": "10.1080/00324728.1981.10404966",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W1709838505": {
+   "cell": "CYCLE_TEST",
+   "title": "La notion de cycle en d\u00e9mographie. La f\u00e9condit\u00e9 post-transitionnelle est-elle cyclique?",
+   "year": "1983",
+   "doi": "10.2307/1532148",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2065021598": {
+   "cell": "CYCLE_TEST",
+   "title": "Toward a general analysis of endogenous Easterlin cycles",
+   "year": "1995",
+   "doi": "10.1007/bf00172037",
+   "rungs_found": [
+    "pmc_bioc",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    },
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/12289749/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2001684172": {
+   "cell": "CYCLE_TEST",
+   "title": "Inverted Easterlin Fertility Cycles and Kornai's \"Soft\" Budget Constraint",
+   "year": "1992",
+   "doi": "10.2307/1973759",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2299850506": {
+   "cell": "CYCLE_TEST",
+   "title": "Postwar fertility cycles and the Easterlin hypothesis: a life-cycle approach.",
+   "year": "1982",
+   "doi": "",
+   "rungs_found": [
+    "pmc_bioc"
+   ],
+   "attempts": [
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/12264903/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2048156563": {
+   "cell": "CYCLE_TEST",
+   "title": "Self-generated fertility waves in a non-linear continuous overlapping generations model",
+   "year": "1989",
+   "doi": "10.1007/bf00171004",
+   "rungs_found": [
+    "pmc_bioc",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    },
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/12282647/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W128046232": {
+   "cell": "CYCLE_TEST",
+   "title": "Graphic tests of Easterlin's hypothesis: science or art?",
+   "year": "1984",
+   "doi": "",
+   "rungs_found": [
+    "pmc_bioc"
+   ],
+   "attempts": [
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/12266413/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2048252691": {
+   "cell": "CYCLE_TEST",
+   "title": "Forecasting births in Greater London: An application of the easterlin hypothesis",
+   "year": "1980",
+   "doi": "10.1080/00324728.1980.10410389",
+   "rungs_found": [
+    "pmc_bioc",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    },
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/22077125/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2079182865": {
+   "cell": "CYCLE_TEST",
+   "title": "Exploring cyclic net reproduction",
+   "year": "1997",
+   "doi": "10.1080/08898489709525437",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2106901393": {
+   "cell": "CYCLE_TEST",
+   "title": "The cohort feedback model with symmetric net maternity",
+   "year": "1994",
+   "doi": "10.1080/08898489409525386",
+   "rungs_found": [
+    "pmc_bioc",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    },
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/12288877/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2009575204": {
+   "cell": "CYCLE_TEST",
+   "title": "Fertility forecasts and structural interpretations: an application to London and England and Wales",
+   "year": "1989",
+   "doi": "10.3406/espos.1989.1318",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2130177755": {
+   "cell": "CYCLE_TEST",
+   "title": "Baby Booms and Baby Busts in the Twentieth Century",
+   "year": "2001",
+   "doi": "10.1016/b0-08-043076-7/02143-4",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2198356993": {
+   "cell": "CYCLE_TEST",
+   "title": "Population Cycles and Demographic Behavior",
+   "year": "2001",
+   "doi": "10.1016/b0-08-043076-7/02175-6",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W143771925": {
+   "cell": "CYCLE_TEST",
+   "title": "Cycles post-transitionnels et mod\u00e8les proie-pr\u00e9dateur",
+   "year": "2008",
+   "doi": "10.7202/600637ar",
+   "rungs_found": [
+    "oa_locations",
+    "pmc_bioc",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "oa_locations",
+     "url": "https://www.erudit.org/fr/revues/cqd/1988-v17-n2-cqd2465/600637ar.pdf",
+     "http": "200",
+     "note": "too small \u2014 interstitial or error page"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "https://doi.org/10.7202/600637ar",
+     "http": "200",
+     "note": "too small \u2014 interstitial or error page"
+    },
+    {
+     "rung": "unpaywall",
+     "url": "https://www.erudit.org/fr/revues/cqd/1988-v17-n2-cqd2465/600637ar.pdf",
+     "http": "200",
+     "note": "too small \u2014 interstitial or error page"
+    },
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/12342213/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "blocked"
+  },
+  "W1509301874": {
+   "cell": "CYCLE_TEST",
+   "title": "Population Dynamics and Labour Force Participation within Goodwin Type Growth-Cycle Models",
+   "year": "1999",
+   "doi": "",
+   "rungs_found": [
+    "repec"
+   ],
+   "attempts": [
+    {
+     "rung": "repec",
+     "url": "https://econpapers.repec.org/RePEc:sce:scecf9:713",
+     "http": "200",
+     "note": "landing page or JS shell, not a document"
+    },
+    {
+     "rung": "repec",
+     "url": "https://ideas.repec.org/p/sce/scecf9/713.html",
+     "http": "200",
+     "note": "landing page or JS shell, not a document"
+    }
+   ],
+   "status": "landing_only"
+  },
+  "W2033547631": {
+   "cell": "CYCLE_TEST",
+   "title": "An economic-demographic approach to forecasting national and subnational birth rates",
+   "year": "1983",
+   "doi": "10.1016/0038-0121(83)90041-1",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W3105895495": {
+   "cell": "CYCLE_TEST",
+   "title": "Easterlin Cycles: Fertility and the Labor Market",
+   "year": "1998",
+   "doi": "10.1093/oso/9780195121582.003.0015",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W4390310817": {
+   "cell": "CYCLE_TEST",
+   "title": "La notion de cycle en d\u00e9mographie. La f\u00e9condit\u00e9 post-transitionnelle est-elle cyclique ?",
+   "year": "1983",
+   "doi": "10.3917/popu.p1983.38n2.0390",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W7163138335": {
+   "cell": "CYCLE_TEST",
+   "title": "Endogenous Fertility Waves and the Dynamics of Utility in an Overlapping Generations Model",
+   "year": "2026",
+   "doi": "10.48550/arxiv.2606.02362",
+   "rungs_found": [
+    "oa_locations",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "oa_locations",
+     "url": "https://doi.org/10.48550/arxiv.2606.02362",
+     "http": "200",
+     "note": "landing page or JS shell, not a document"
+    },
+    {
+     "rung": "unpaywall",
+     "note": "unpaywall non-JSON"
+    }
+   ],
+   "status": "landing_only"
+  },
+  "W7163598424": {
+   "cell": "CYCLE_TEST",
+   "title": "Endogenous Fertility Waves and the Dynamics of Utility in an Overlapping Generations Model",
+   "year": "2026",
+   "doi": "",
+   "rungs_found": [
+    "oa_locations"
+   ],
+   "attempts": [],
+   "status": "have",
+   "via": "oa_locations"
+  },
+  "W7165438111": {
+   "cell": "CYCLE_TEST",
+   "title": "Changing Patterns of Fertility in Sweden: A Time Series Analysis of Structural Breaks and Sequential Detection, 1950\u20132025",
+   "year": "2026",
+   "doi": "",
+   "rungs_found": [
+    "oa_locations"
+   ],
+   "attempts": [],
+   "status": "have",
+   "via": "oa_locations"
+  },
+  "W4248042928": {
+   "cell": "CYCLE_TEST",
+   "title": "Fertility Trends and Homeostatic Mechanisms in The United States",
+   "year": "2018",
+   "doi": "10.4324/9781351298803-7",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W7144173156": {
+   "cell": "CYCLE_TEST",
+   "title": "1970\u5e74\u4ee3\u534a\u3070\u304b\u3089\u306e\u5408\u8a08\u51fa\u751f\u7387\u4f4e\u4e0b : \u30b3\u30fc\u30db\u30fc\u30c8\u51fa\u751f\u7387\u306b\u3088\u308b\u30b7\u30df\u30e5\u30ec\u30fc\u30b7\u30e7\u30f3\u5206\u6790",
+   "year": "2000",
+   "doi": "10.24568/2176",
+   "rungs_found": [
+    "oa_locations",
+    "unpaywall"
+   ],
+   "attempts": [],
+   "status": "have",
+   "via": "oa_locations"
+  },
+  "W2181558514": {
+   "cell": "MIXED_COHORT_MARRIAGE",
+   "title": "Cohort Size and the Marriage Market: Explaining Nearly a Century of Changes in US Marriage Rates",
+   "year": "2023",
+   "doi": "10.1086/724047",
+   "rungs_found": [
+    "oa_locations",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "oa_locations",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12726969/pdf/nihms-2049132.pdf",
+     "http": "200",
+     "note": "landing page or JS shell, not a document"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12726969/",
+     "http": "200",
+     "note": "landing page or JS shell, not a document"
+    },
+    {
+     "rung": "unpaywall",
+     "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12726969/pdf/nihms-2049132.pdf",
+     "http": "200",
+     "note": "landing page or JS shell, not a document"
+    }
+   ],
+   "status": "landing_only"
+  },
+  "W7117339285": {
+   "cell": "MIXED_COHORT_MARRIAGE",
+   "title": "Cohort Size and the Marriage Market: Explaining Nearly a Century of Changes in US Marriage Rates.",
+   "year": "2024",
+   "doi": "",
+   "rungs_found": [
+    "pmc_bioc"
+   ],
+   "attempts": [
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/41446659/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2794044963": {
+   "cell": "MIXED_COHORT_MARRIAGE",
+   "title": "Cohort Size and the Marriage Market: What Explains the Negative Relationship?",
+   "year": "2018",
+   "doi": "",
+   "rungs_found": [],
+   "attempts": [],
+   "status": "paywalled"
+  },
+  "W2161298896": {
+   "cell": "MIXED_COHORT_MARRIAGE",
+   "title": "WOMEN'S JOBS AND MARRIAGE\u2014 BABY-BOOM VERSUS BABY-BUST*",
+   "year": "1998",
+   "doi": "",
+   "rungs_found": [],
+   "attempts": [],
+   "status": "paywalled"
+  },
+  "W2754794359": {
+   "cell": "MIXED_COHORT_MARRIAGE",
+   "title": "Women\u2019s Jobs and Marriage: Baby-Boom versus Baby-Bust (Travail des Femmes et Mariage: du baby-boom au baby-bust)",
+   "year": "1998",
+   "doi": "",
+   "rungs_found": [
+    "oa_locations",
+    "repec"
+   ],
+   "attempts": [],
+   "status": "have",
+   "via": "oa_locations"
+  },
+  "W2035271869": {
+   "cell": "MIXED_COHORT_MARRIAGE",
+   "title": "Do not sell marriage short: Reply to strober",
+   "year": "1995",
+   "doi": "10.1080/714042223",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2205405475": {
+   "cell": "MIXED_COHORT_MARRIAGE",
+   "title": "The Demographic Transition and the Position of Women: a Marriage Market Perspective",
+   "year": "2019",
+   "doi": "10.1093/ej/uez027",
+   "rungs_found": [
+    "repec",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "repec",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2610754",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    },
+    {
+     "rung": "repec",
+     "url": "https://ideas.repec.org/p/cpr/ceprdp/10619.html",
+     "http": "200",
+     "note": "landing page or JS shell, not a document"
+    },
+    {
+     "rung": "repec",
+     "url": "http://www.cepr.org/active/publications/discussion_papers/dp.php?dpno=10619",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    },
+    {
+     "rung": "unpaywall",
+     "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2610754",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    }
+   ],
+   "status": "blocked"
+  },
+  "W1514847978": {
+   "cell": "MIXED_COHORT_MARRIAGE",
+   "title": "MARRIAGE AND DIVORCE IN THE U.S.: TESTING FOR COHORT SIZE EFFECTS",
+   "year": "1996",
+   "doi": "10.22004/ag.econ.296614",
+   "rungs_found": [
+    "oa_locations",
+    "unpaywall"
+   ],
+   "attempts": [],
+   "status": "have",
+   "via": "oa_locations"
+  },
+  "W2186484750": {
+   "cell": "MIXED_COHORT_MARRIAGE",
+   "title": "Who suffered from the superstition in the marriage market? The case of Hinoeuma in Japan",
+   "year": "2006",
+   "doi": "",
+   "rungs_found": [],
+   "attempts": [],
+   "status": "paywalled"
+  },
+  "W4403418534": {
+   "cell": "MIXED_COHORT_MARRIAGE",
+   "title": "Did the Baby Boom Cause the Us Divorce Boom?",
+   "year": "2024",
+   "doi": "10.2139/ssrn.4987302",
+   "rungs_found": [
+    "oa_locations",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "oa_locations",
+     "url": "https://doi.org/10.2139/ssrn.4987302",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    },
+    {
+     "rung": "unpaywall",
+     "url": "https://doi.org/10.2139/ssrn.4987302",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    }
+   ],
+   "status": "blocked"
+  },
+  "W3007964634": {
+   "cell": "MIXED_COHORT_MARRIAGE",
+   "title": "Why Young Adults Retreat from Marriage? An Easterlin Relative Income Approach",
+   "year": "2020",
+   "doi": "",
+   "rungs_found": [
+    "repec"
+   ],
+   "attempts": [
+    {
+     "rung": "repec",
+     "url": "https://ideas.repec.org/p/mcd/mcddps/2020_01.html",
+     "http": "200",
+     "note": "landing page or JS shell, not a document"
+    },
+    {
+     "rung": "repec+hop",
+     "url": "https://ideas.repec.org/p/pri/crcwel/wp09-04-ff.pdf.html",
+     "http": "200",
+     "note": "landing page or JS shell, not a document"
+    }
+   ],
+   "status": "landing_only"
+  },
+  "W1605318112": {
+   "cell": "MIXED_COHORT_MARRIAGE",
+   "title": "The Effects of Cohort Size on Marriage Markets in Twentieth-Century Sweden",
+   "year": "1994",
+   "doi": "10.1093/oso/9780198288183.003.0003",
+   "rungs_found": [
+    "oa_locations",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "oa_locations",
+     "url": "http://deepblue.lib.umich.edu/bitstream/2027.42/101112/1/ECON095.pdf",
+     "http": "200",
+     "note": "too small \u2014 interstitial or error page"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "https://hdl.handle.net/2027.42/101112",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "http://www.escholarship.org/uc/item/9w1371kd",
+     "http": "202",
+     "note": "BLOCKED (202 interstitial) \u2014 a challenge page, not a paywall. 403 is not the only shape bot defence takes"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "http://www.escholarship.org/uc/item/9w1371kd",
+     "http": "202",
+     "note": "BLOCKED (202 interstitial) \u2014 a challenge page, not a paywall. 403 is not the only shape bot defence takes"
+    },
+    {
+     "rung": "unpaywall",
+     "url": "http://deepblue.lib.umich.edu/bitstream/2027.42/101112/1/ECON095.pdf",
+     "http": "200",
+     "note": "too small \u2014 interstitial or error page"
+    }
+   ],
+   "status": "blocked"
+  },
+  "W3027277978": {
+   "cell": "MIXED_COHORT_MARRIAGE",
+   "title": "Marriage squeeze and changes in family formation: historical comparative evidence in Spain, France, and United States in the XXth century",
+   "year": "2004",
+   "doi": "",
+   "rungs_found": [],
+   "attempts": [],
+   "status": "paywalled"
+  },
+  "W2092328687": {
+   "cell": "MIXED_COHORT_MARRIAGE",
+   "title": "DEMOGRAPHIC DECOMPOSITION OF THE MARRIAGE MARKET IN ENGLAND AND WALES 1911\u20131991",
+   "year": "2008",
+   "doi": "10.1017/s0021932007002519",
+   "rungs_found": [
+    "pmc_bioc",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    },
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/18241522/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W4210484104": {
+   "cell": "MIXED_COHORT_MARRIAGE",
+   "title": "Why Do Young Adults Retreat from Marriage? An Easterlin Relative Income Approach",
+   "year": "2022",
+   "doi": "10.12765/cpos-2022-03",
+   "rungs_found": [
+    "oa_locations",
+    "unpaywall"
+   ],
+   "attempts": [],
+   "status": "have",
+   "via": "oa_locations"
+  },
+  "W2088709176": {
+   "cell": "RELATIVE_INCOME_FERTILITY",
+   "title": "The American Baby Boom in Historical Perspective",
+   "year": "1962",
+   "doi": "",
+   "rungs_found": [
+    "repec"
+   ],
+   "attempts": [],
+   "status": "have",
+   "via": "repec"
+  },
+  "W2122579310": {
+   "cell": "RELATIVE_INCOME_FERTILITY",
+   "title": "Relative Income, Race, and Fertility",
+   "year": "1985",
+   "doi": "10.1080/0032472031000141306",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2150140465": {
+   "cell": "RELATIVE_INCOME_FERTILITY",
+   "title": "Earnings, Relative Income, and Family Formation",
+   "year": "1981",
+   "doi": "10.2307/2061088",
+   "rungs_found": [
+    "oa_locations",
+    "pmc_bioc",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "oa_locations",
+     "url": "https://read.dukeupress.edu/demography/article-pdf/18/2/123/905301/123macdonald.pdf",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "https://doi.org/10.2307/2061088",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    },
+    {
+     "rung": "unpaywall",
+     "url": "https://read.dukeupress.edu/demography/article-pdf/18/2/123/905301/123macdonald.pdf",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    },
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/7227580/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "blocked"
+  },
+  "W2186396602": {
+   "cell": "RELATIVE_INCOME_FERTILITY",
+   "title": "Earnings relative income and family formation; part 1: marriage.",
+   "year": "1980",
+   "doi": "",
+   "rungs_found": [],
+   "attempts": [],
+   "status": "paywalled"
+  },
+  "W2079240151": {
+   "cell": "RELATIVE_INCOME_FERTILITY",
+   "title": "An analysis of variations in U. S. fertility and female labor force participation trends",
+   "year": "1983",
+   "doi": "10.2307/2061232",
+   "rungs_found": [
+    "oa_locations",
+    "pmc_bioc",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "oa_locations",
+     "url": "https://read.dukeupress.edu/demography/article-pdf/20/2/147/905495/147devaney.pdf",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "https://doi.org/10.2307/2061232",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    },
+    {
+     "rung": "unpaywall",
+     "url": "https://read.dukeupress.edu/demography/article-pdf/20/2/147/905495/147devaney.pdf",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    },
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/6862059/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "blocked"
+  },
+  "W2037533458": {
+   "cell": "RELATIVE_INCOME_FERTILITY",
+   "title": "Time cost, relative income and fertility in Canada",
+   "year": "1993",
+   "doi": "10.1007/bf00178562",
+   "rungs_found": [
+    "pmc_bioc",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    },
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/12318065/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2152580559": {
+   "cell": "RELATIVE_INCOME_FERTILITY",
+   "title": "Relative income and fertility",
+   "year": "1977",
+   "doi": "10.2307/2060575",
+   "rungs_found": [
+    "pmc_bioc",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    },
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/870350/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W1974512109": {
+   "cell": "RELATIVE_INCOME_FERTILITY",
+   "title": "Cross-Sectional Areal Analyses of Factors Affecting Marital Fertility: Actual versus Relative Income",
+   "year": "1976",
+   "doi": "10.2307/350686",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2181778518": {
+   "cell": "RELATIVE_INCOME_FERTILITY",
+   "title": "Relative Income and Fertility: The Analysis of Individuals' Fertility in a Biracial Sample",
+   "year": "1975",
+   "doi": "10.2307/350832",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W1874532313": {
+   "cell": "RELATIVE_INCOME_FERTILITY",
+   "title": "Fertility, Labor Force Participation and the Relative Income Hypothesis:",
+   "year": "1982",
+   "doi": "10.1111/j.1536-7150.1982.tb03040.x",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2000653545": {
+   "cell": "RELATIVE_INCOME_FERTILITY",
+   "title": "The Effect of Relative Economic Status on Fertility",
+   "year": "1975",
+   "doi": "10.2307/350966",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2242491800": {
+   "cell": "RELATIVE_INCOME_FERTILITY",
+   "title": "[Fluctuations in relative income and the baby boom in the United States].",
+   "year": "1998",
+   "doi": "",
+   "rungs_found": [
+    "pmc_bioc"
+   ],
+   "attempts": [
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/12321543/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2376041923": {
+   "cell": "RELATIVE_INCOME_FERTILITY",
+   "title": "Income,Relative Status and Childbearing Willing of Chinese Women",
+   "year": "2010",
+   "doi": "",
+   "rungs_found": [],
+   "attempts": [],
+   "status": "paywalled"
+  },
+  "W1827173338": {
+   "cell": "RELATIVE_INCOME_FERTILITY",
+   "title": "Relative and potential income and fertility",
+   "year": "1982",
+   "doi": "10.25336/p6hc8g",
+   "rungs_found": [
+    "oa_locations",
+    "unpaywall"
+   ],
+   "attempts": [],
+   "status": "have",
+   "via": "oa_locations"
+  },
+  "W2260582785": {
+   "cell": "RELATIVE_INCOME_FERTILITY",
+   "title": "The Effect of Relative Income on Fertility (in Japanese)",
+   "year": "2011",
+   "doi": "",
+   "rungs_found": [
+    "repec"
+   ],
+   "attempts": [
+    {
+     "rung": "repec",
+     "url": "https://econpapers.repec.org/RePEc:esj:esriea:185c",
+     "http": "200",
+     "note": "landing page or JS shell, not a document"
+    },
+    {
+     "rung": "repec+hop",
+     "url": "https://econpapers.repec.org/scripts/redir.pf?u=http%3A%2F%2Fwww.esri.go.jp%2Fjp%2Farchive%2Fbun%2Fbun185%2Fbun185c.pdf;h=repec:esj:esriea:1",
+     "http": "200",
+     "note": "landing page or JS shell, not a document"
+    }
+   ],
+   "status": "landing_only"
+  },
+  "W628360424": {
+   "cell": "RELATIVE_INCOME_FERTILITY",
+   "title": "Women's economic contribution, relative income and fertility decision-making in Malaysia",
+   "year": "1984",
+   "doi": "",
+   "rungs_found": [],
+   "attempts": [],
+   "status": "paywalled"
+  },
+  "W1968721410": {
+   "cell": "RELATIVE_INCOME_FERTILITY",
+   "title": "The Relevance of the \u2018Easterlin hypothesis\u2019 and the \u2018new home economics\u2019 to fertility movements in Great Britain",
+   "year": "1979",
+   "doi": "10.1080/00324728.1979.10412776",
+   "rungs_found": [
+    "pmc_bioc",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    },
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/22077891/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W4230004613": {
+   "cell": "RELATIVE_INCOME_FERTILITY",
+   "title": "The Relevance of the `Easterlin Hypothesis' and the `New Home Economics' to Fertility Movements in Great Britain",
+   "year": "1979",
+   "doi": "10.2307/2173865",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2064179828": {
+   "cell": "RELATIVE_INCOME_FERTILITY",
+   "title": "Race and relative income/price of time effects on U.S. fertility",
+   "year": "1998",
+   "doi": "10.1016/s1053-5357(99)80095-x",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2329087805": {
+   "cell": "RELATIVE_INCOME_FERTILITY",
+   "title": "The economic explanation of fertility changes in the United States",
+   "year": "1971",
+   "doi": "10.1080/00324728.1971.10405801",
+   "rungs_found": [
+    "pmc_bioc",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    },
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/22070110/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2187762407": {
+   "cell": "RELATIVE_INCOME_FERTILITY",
+   "title": "RELATIVE ECONOMIC STATUS AND.FERTILITY: EVIDENCE FROM A CROSS-SECTION",
+   "year": "1976",
+   "doi": "",
+   "rungs_found": [],
+   "attempts": [],
+   "status": "paywalled"
+  },
+  "W2094511977": {
+   "cell": "RELATIVE_INCOME_FERTILITY",
+   "title": "A Note on Some Evidence on the Easterlin Hypothesis",
+   "year": "1978",
+   "doi": "10.1086/260720",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2271295701": {
+   "cell": "RELATIVE_INCOME_FERTILITY",
+   "title": "Easterlin revisited: Relative income and the baby boom",
+   "year": "2014",
+   "doi": "10.1016/j.eeh.2014.10.001",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2490782812": {
+   "cell": "RELATIVE_INCOME_FERTILITY",
+   "title": "Male Relative Income and Its Significance",
+   "year": "2002",
+   "doi": "10.7208/chicago/9780226500928.003.0004",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W3123365169": {
+   "cell": "RELATIVE_INCOME_FERTILITY",
+   "title": "The Origins of the fertility transition in rural Japan",
+   "year": "1981",
+   "doi": "10.25336/p68w3k",
+   "rungs_found": [
+    "oa_locations",
+    "unpaywall"
+   ],
+   "attempts": [],
+   "status": "have",
+   "via": "unpaywall"
+  },
+  "W3123456113": {
+   "cell": "RELATIVE_INCOME_FERTILITY",
+   "title": "Easterlin revisted: Relative income and the baby boom",
+   "year": "2014",
+   "doi": "",
+   "rungs_found": [
+    "oa_locations",
+    "repec"
+   ],
+   "attempts": [
+    {
+     "rung": "oa_locations",
+     "url": "http://hdl.handle.net/10230/22806",
+     "http": "200",
+     "note": "too small \u2014 interstitial or error page"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "http://hdl.handle.net/10230/22806",
+     "http": "200",
+     "note": "too small \u2014 interstitial or error page"
+    },
+    {
+     "rung": "repec",
+     "url": "https://EconPapers.repec.org/RePEc:upf:upfgen:1453",
+     "http": "200",
+     "note": "landing page or JS shell, not a document"
+    },
+    {
+     "rung": "repec+hop",
+     "url": "https://EconPapers.repec.org/scripts/redir.pf?u=https%3A%2F%2Fecon-papers.upf.edu%2Fpapers%2F1453.pdf;h=repec:upf:upfgen:1453",
+     "http": "200",
+     "note": "landing page or JS shell, not a document"
+    }
+   ],
+   "status": "blocked"
+  },
+  "W7160416708": {
+   "cell": "RELATIVE_INCOME_FERTILITY",
+   "title": "Aplikasi Teori Easterlin di Kabupaten Jember",
+   "year": "2003",
+   "doi": "10.35719/fenomena.v2i2.336",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W4288096208": {
+   "cell": "RELATIVE_INCOME_FERTILITY",
+   "title": "The role of relative income in the share of children born out-of-wedlock in the USA",
+   "year": "2022",
+   "doi": "10.1007/s00181-022-02285-7",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W4312707265": {
+   "cell": "RELATIVE_INCOME_FERTILITY",
+   "title": "The Influence of Relative Socio-Economic Status on Fertility Intention\u2014Based on Easterlin Hypothesis",
+   "year": "2022",
+   "doi": "10.12677/orf.2022.124162",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W1564268483": {
+   "cell": "RIVAL_TEST",
+   "title": "The Emergence of Countercyclical U.S. Fertility",
+   "year": "1977",
+   "doi": "",
+   "rungs_found": [],
+   "attempts": [],
+   "status": "paywalled"
+  },
+  "W1574851409": {
+   "cell": "RIVAL_TEST",
+   "title": "The Butz-Ward Fertility Model in the Light of More Recent Data",
+   "year": "1995",
+   "doi": "10.2307/146118",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2083744276": {
+   "cell": "RIVAL_TEST",
+   "title": "The emergence of countercyclical US fertility: A reassessment of the evidence",
+   "year": "1983",
+   "doi": "10.1016/0164-0704(83)90032-0",
+   "rungs_found": [
+    "pmc_bioc",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    },
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/12313364/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W265593301": {
+   "cell": "RIVAL_TEST",
+   "title": "An economic analysis of recent fertility in Japan: an application of the Butz-Ward model.",
+   "year": "1986",
+   "doi": "",
+   "rungs_found": [
+    "pmc_bioc"
+   ],
+   "attempts": [
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/12268092/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2734359938": {
+   "cell": "RIVAL_TEST",
+   "title": "Countercyclical Fertility in Canada: Some Empirical Results",
+   "year": "1991",
+   "doi": "10.25336/p60p4d",
+   "rungs_found": [
+    "oa_locations",
+    "unpaywall"
+   ],
+   "attempts": [],
+   "status": "have",
+   "via": "oa_locations"
+  },
+  "W1995291423": {
+   "cell": "RIVAL_TEST",
+   "title": "An economic analysis of fertility, market participation and marriage behaviour in recent Japan",
+   "year": "1989",
+   "doi": "10.1080/772284231",
+   "rungs_found": [
+    "pmc_bioc",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    },
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/12342450/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W1578287828": {
+   "cell": "RIVAL_TEST",
+   "title": "AN EVALUATION OF THE BUTZ-WARD HYPOTHESIS OF CONTERCYCLICAL FERTILITY",
+   "year": "1990",
+   "doi": "",
+   "rungs_found": [
+    "repec"
+   ],
+   "attempts": [
+    {
+     "rung": "repec",
+     "url": "https://econpapers.repec.org/paper/wilwileco/155.htm",
+     "http": "200",
+     "note": "too small \u2014 interstitial or error page"
+    }
+   ],
+   "status": "blocked"
+  },
+  "W1586476858": {
+   "cell": "RIVAL_TEST",
+   "title": "An Evaluation Of The Butz-Ward Hypothesis On Countercyclical Fertility: Technical Documentation",
+   "year": "1990",
+   "doi": "",
+   "rungs_found": [
+    "repec"
+   ],
+   "attempts": [
+    {
+     "rung": "repec",
+     "url": "https://econpapers.repec.org/RePEc:wil:wileco:156",
+     "http": "200",
+     "note": "too small \u2014 interstitial or error page"
+    }
+   ],
+   "status": "blocked"
+  },
+  "W2950726802": {
+   "cell": "RIVAL_TEST",
+   "title": "Structural Changes in the Patterns of Japanese Fertility",
+   "year": "2019",
+   "doi": "",
+   "rungs_found": [
+    "repec"
+   ],
+   "attempts": [
+    {
+     "rung": "repec",
+     "url": "https://EconPapers.repec.org/RePEc:ebl:ecbull:eb-18-00775",
+     "http": "200",
+     "note": "landing page or JS shell, not a document"
+    },
+    {
+     "rung": "repec+hop",
+     "url": "https://EconPapers.repec.org/scripts/redir.pf?u=http%3A%2F%2Fwww.accessecon.com%2FPubs%2FEB%2F2019%2FVolume39%2FEB-19-V39-I2-P86.pdf;h=repec",
+     "http": "200",
+     "note": "landing page or JS shell, not a document"
+    }
+   ],
+   "status": "landing_only"
+  },
+  "W2252586419": {
+   "cell": "RIVAL_TEST",
+   "title": "Intended Fertility and Birth Behavior (in Japanese)",
+   "year": "2008",
+   "doi": "",
+   "rungs_found": [
+    "repec"
+   ],
+   "attempts": [
+    {
+     "rung": "repec",
+     "url": "https://econpapers.repec.org/RePEc:esj:esriea:180a",
+     "http": "200",
+     "note": "too small \u2014 interstitial or error page"
+    }
+   ],
+   "status": "blocked"
+  },
+  "W2280027806": {
+   "cell": "RIVAL_TEST",
+   "title": "[[The tempo and quantum components in trends in period fertility measures in present-day Japan: a Butz-Ward-type model and its application]].",
+   "year": "1991",
+   "doi": "",
+   "rungs_found": [
+    "pmc_bioc"
+   ],
+   "attempts": [
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/12317847/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2036171136": {
+   "cell": "RIVAL_TEST",
+   "title": "Is the Preference for Children so Low, or is the Price of Time so High? A simultaneous model of fertility and participation in Italy with cohort effects",
+   "year": "1996",
+   "doi": "10.1111/j.1467-9914.1996.tb00096.x",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W1775494842": {
+   "cell": "RIVAL_TEST",
+   "title": "TIME COSTS, ASPIRATIONS AND THE EFFECT OF ECONOMIC GROWTH ON GERMAN FERTILITY*",
+   "year": "1980",
+   "doi": "10.1111/j.1468-0084.1980.mp42002004.x",
+   "rungs_found": [
+    "pmc_bioc",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    },
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/12264326/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W4387618925": {
+   "cell": "RIVAL_TEST",
+   "title": "The emergence of procyclical fertility: The role of breadwinner women",
+   "year": "2023",
+   "doi": "10.1016/j.jmoneco.2023.10.004",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W1995758137": {
+   "cell": "RIVAL_TEST",
+   "title": "A Cointegration Model of Age-Specific Fertility and Female Labor Supply in the United States",
+   "year": "2003",
+   "doi": "10.2307/3648973",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W4234242892": {
+   "cell": "RIVAL_TEST",
+   "title": "A Cointegration Model of Age\u2010Specific Fertility and Female Labor Supply in the United States",
+   "year": "2003",
+   "doi": "10.1002/j.2325-8012.2003.tb00574.x",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W1989526901": {
+   "cell": "RIVAL_TEST",
+   "title": "Relative Income and Price of Time: Exploring Their Effects on US Fertility and Female Labor Force Participation",
+   "year": "1996",
+   "doi": "10.2307/2808013",
+   "rungs_found": [
+    "oa_locations",
+    "unpaywall"
+   ],
+   "attempts": [],
+   "status": "have",
+   "via": "oa_locations+hop"
+  },
+  "W3001029832": {
+   "cell": "RIVAL_TEST",
+   "title": "The Emergence of Procyclical Fertility: The Role of Gender Differences in Employment Risk",
+   "year": "2022",
+   "doi": "10.48720/iab.dp.2227",
+   "rungs_found": [
+    "oa_locations",
+    "repec",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "repec",
+     "url": "https://ideas.repec.org/p/bon/boncrc/crctr224_2020_142v2.html",
+     "http": "200",
+     "note": "landing page or JS shell, not a document"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "https://doi.org/10.48720/iab.dp.2227",
+     "http": "200",
+     "note": "landing page or JS shell, not a document"
+    },
+    {
+     "rung": "unpaywall",
+     "note": "unpaywall non-JSON"
+    }
+   ],
+   "status": "landing_only"
+  },
+  "W2140909212": {
+   "cell": "RIVAL_TEST",
+   "title": "The causal relationship between female labor supply and fertility in the USA: updated evidence via a time series multi-horizon approach",
+   "year": "2012",
+   "doi": "10.1007/s00148-012-0418-8",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2295027657": {
+   "cell": "RIVAL_TEST",
+   "title": "Empirical tests of the Chicago model and the Easterlin hypothesis: a case study of Japan.",
+   "year": "1982",
+   "doi": "",
+   "rungs_found": [
+    "pmc_bioc"
+   ],
+   "attempts": [
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/12338784/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2127054757": {
+   "cell": "RIVAL_TEST",
+   "title": "Approches \u00e9conomiques de la f\u00e9condit\u00e9",
+   "year": "2008",
+   "doi": "10.7202/600612ar",
+   "rungs_found": [
+    "oa_locations",
+    "pmc_bioc",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "oa_locations",
+     "url": "https://www.erudit.org/fr/revues/cqd/1987-v16-n2-cqd2462/600612ar.pdf",
+     "http": "200",
+     "note": "too small \u2014 interstitial or error page"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "https://doi.org/10.7202/600612ar",
+     "http": "200",
+     "note": "too small \u2014 interstitial or error page"
+    },
+    {
+     "rung": "unpaywall",
+     "url": "https://www.erudit.org/fr/revues/cqd/1987-v16-n2-cqd2462/600612ar.pdf",
+     "http": "200",
+     "note": "too small \u2014 interstitial or error page"
+    },
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/12268998/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "blocked"
+  },
+  "W1549671565": {
+   "cell": "RIVAL_TEST",
+   "title": "THE MISSING FACTOR: VARIATIONS IN THE INCOME EFFECT OF THE FEMALE WAGE ON FERTILITY IN THE U.S.",
+   "year": "1993",
+   "doi": "10.22004/ag.econ.296608",
+   "rungs_found": [
+    "oa_locations",
+    "unpaywall"
+   ],
+   "attempts": [],
+   "status": "have",
+   "via": "oa_locations"
+  },
+  "W2058350159": {
+   "cell": "RIVAL_TEST",
+   "title": "Comment on barbara devaney\u2019s \u201cAn analysis of variations in U.S. Fertility and female labor force participation trends\u201d",
+   "year": "1986",
+   "doi": "10.2307/2061414",
+   "rungs_found": [
+    "pmc_bioc",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    },
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/3956804/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W2039112600": {
+   "cell": "RIVAL_TEST",
+   "title": "A comparison and latent variable test of two fertile ideas",
+   "year": "1990",
+   "doi": "10.1007/bf00160415",
+   "rungs_found": [
+    "pmc_bioc",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    },
+    {
+     "rung": "pmc_bioc",
+     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/12282986/unicode",
+     "http": "200",
+     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W3024207051": {
+   "cell": "RIVAL_TEST",
+   "title": "Total Fertility Rates of OECD Countries: Becker Hypothesis, Easterlin Hypothesis, Family Policies and Implications",
+   "year": "2019",
+   "doi": "",
+   "rungs_found": [],
+   "attempts": [],
+   "status": "paywalled"
+  },
+  "W2005480324": {
+   "cell": "RIVAL_TEST",
+   "title": "Cointegration modeling of fertility in the United States",
+   "year": "2003",
+   "doi": "10.1080/08898480306712",
+   "rungs_found": [
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "note": "no OA location in unpaywall"
+    }
+   ],
+   "status": "paywalled"
+  },
+  "W1608837277": {
+   "cell": "RIVAL_TEST",
+   "title": "Becker vs. Easterlin. Education, Fertility and Growth in France after World War II",
+   "year": "2005",
+   "doi": "",
+   "rungs_found": [
+    "repec"
+   ],
+   "attempts": [
+    {
+     "rung": "repec",
+     "url": "https://EconPapers.repec.org/RePEc:afc:wpaper:05-03",
+     "http": "200",
+     "note": "landing page or JS shell, not a document"
+    },
+    {
+     "rung": "repec+hop",
+     "url": "https://EconPapers.repec.org/scripts/redir.pf?u=http%3A%2F%2Fwww.cliometrie.org%2Fimages%2Fwp%2FAFC_WP_03-2005.pdf;h=repec:afc:wpaper:05-03",
+     "http": "200",
+     "note": "landing page or JS shell, not a document"
+    }
+   ],
+   "status": "landing_only"
+  },
+  "W3122651457": {
+   "cell": "RIVAL_TEST",
+   "title": "Relative Income and Price of Time: Exploring their effcts on U.S. Fertility and Female Labor Force Participation, 1963-1993",
+   "year": "1996",
+   "doi": "",
+   "rungs_found": [
+    "repec"
+   ],
+   "attempts": [
+    {
+     "rung": "repec",
+     "url": "https://ideas.repec.org/p/wil/wileco/174.html",
+     "http": "200",
+     "note": "landing page or JS shell, not a document"
+    }
+   ],
+   "status": "landing_only"
+  },
+  "W4244320184": {
+   "cell": "RIVAL_TEST",
+   "title": "The Causal Relationship between Female Labor Supply and Fertility in the U.S. Updated Evidence Via a Time Series Multi-Horizon Approach",
+   "year": "2011",
+   "doi": "10.2139/ssrn.1670581",
+   "rungs_found": [
+    "oa_locations",
+    "unpaywall"
+   ],
+   "attempts": [
+    {
+     "rung": "oa_locations",
+     "url": "https://doi.org/10.2139/ssrn.1670581",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    },
+    {
+     "rung": "unpaywall",
+     "url": "https://doi.org/10.2139/ssrn.1670581",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    }
+   ],
+   "status": "blocked"
+  }
+ },
+ "probed_per_rung": {
+  "unpaywall": 114,
+  "pmc_bioc": 45,
+  "oa_locations": 72,
+  "repec": 47
+ },
+ "found_per_rung": {
+  "oa_locations": 72,
+  "unpaywall": 17,
+  "repec": 47
+ },
+ "fetched_per_rung": {
+  "repec": 4,
+  "oa_locations": 12,
+  "oa_locations+hop": 2,
+  "unpaywall": 1
+ }
+}

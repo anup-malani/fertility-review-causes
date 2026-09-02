@@ -291,3 +291,47 @@ neighbouring literatures, which is the `snowball-pools-omit-their-own-seeds` fai
 - **Next: full-text retrieval.** The 141 primary records plus 15 `MIXED_COHORT_MARRIAGE` are the
   retrieval queue; `LINK1_LABOUR` and `THEORY` are context and are not retrieved in this pass.
 
+### 2026-09-02 — full-text retrieval: automated ceiling at 19/156, and the gate is one cell
+
+- `313_c6a_retrieval.py` (retrieval) and `314_c6a_retrieval_handoff.py` (handoff). Queue was the
+  141 primary records plus 15 `MIXED_COHORT_MARRIAGE`; `LINK1_LABOUR` and `THEORY` are context by
+  scope §3 and were not retrieved.
+- **Rung order was chosen for this chapter, and the choice is now measured.** This is an economics
+  and demography literature, so the rungs are OA locations → **RePEc/NBER** → Unpaywall → PMC BioC.
+  **PMC is empty here: 45 records carry a pmid — demography journals are indexed in PubMed — and not
+  one is in the PMC open-access subset.** Carrying another chapter's rung order would have spent the
+  effort on the wrong index.
+- **Three defects, and the first was mine.** (i) `found` was incremented for every rung *attempted*
+  rather than every rung that *produced a URL*, so Unpaywall was credited with 114 "found" when 81
+  of those were Unpaywall replying that no open copy exists — and those 81 were then mislabelled
+  `found_not_fetched` instead of paywalled. `probed` and `found` are now separate counters. (ii) The
+  same conflation applied to PMC BioC, which answers **HTTP 200 with an empty body** outside the OA
+  subset; crediting the constructed URL made an absent corpus read as a broken downloader. (iii) A
+  landing page is not a dead end — RePEc, EconPapers and NBER pages link the PDF one hop away, and
+  26 records had died there.
+- **403 is not the only shape bot defence takes.** A 202 interstitial and a 200 with a stub body are
+  the same defence, quieter. Counting those as "not found" turns retrievable records into confident
+  absences. Reclassified: **32 browser jobs** (open URLs defeated by defences) against **105 proxy
+  jobs** (no open copy exists). A single undifferentiated "missing PDFs" list sends a person to the
+  wrong tool.
+- **The gate is not the rate.** 19/156 is low, but the number that decides the chapter is
+  **`BENCHMARK_MEASURED` 0/5** — the only cell where a study measures the parental-household
+  benchmark rather than proxying it with cohort size. **Extraction does not begin until those five
+  are resolved.** This is A.17's lesson: 23/114 was survivable there and 0 of 4 identified
+  direct-arm records was not.
+
+| cell | have | browser | proxy |
+|---|---|---|---|
+| `BENCHMARK_MEASURED` | **0/5** | 2 | 3 |
+| `RIVAL_TEST` | 3/29 | 9 | 17 |
+| `CYCLE_TEST` | 6/46 | 5 | 35 |
+| `COHORT_SIZE_FERTILITY` | 4/32 | 7 | 21 |
+| `RELATIVE_INCOME_FERTILITY` | 3/29 | 4 | 22 |
+| `MIXED_COHORT_MARRIAGE` | 3/15 | 5 | 7 |
+
+- Handoff at `easterlin-relative-income-retrieval-handoff.md`, ordered by cell rather than by
+  convenience, with the file-matching warning attached: hand-retrieved PDFs arrive publisher-named
+  and a wrong pairing corrupts the extraction table silently.
+- **313 is idempotent** — files already on disk are skipped with their original rung attribution
+  preserved, so a second run reports the same numbers rather than losing provenance to a cache.
+
