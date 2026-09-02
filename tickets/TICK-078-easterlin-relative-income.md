@@ -170,3 +170,40 @@ neighbouring literatures, which is the `snowball-pools-omit-their-own-seeds` fai
   (Easterlin's own 1976 aspirations-versus-resources statement). No empirical anchor measures the
   parental-household benchmark. A prediction for the search to test, not yet a finding.
 
+### 2026-09-02 — production query: a SET of five, 90% recall, 909-record frame
+
+- `source/build/goldset/308_c6a_production_query.py`, log at
+  `easterlin-relative-income-production-query.{json,md}`. Recall is measured by asking OpenAlex which
+  anchors each query returns (`ids.openalex:` alongside the search filter), never by re-implementing
+  its tokenizer locally.
+- **The first design was the wrong shape, and the anchors said so.** One exposure axis calibrated
+  against all primary anchors plateaued at **15/21**, and the six misses clustered by arm rather than
+  scattering: all three `RIVAL_TEST` anchors are Butz–Ward papers arguing the competing female-wage
+  model and never use Easterlin's vocabulary; the `MIXED_COHORT_MARRIAGE` anchor pairs a cohort-size
+  exposure with a *marriage* outcome. **No tuning of a single axis reaches them.** Scope §8 Wall 5
+  says the rival-model tests are the most informative records this search can find, so a query that
+  structurally cannot retrieve them is not one to tighten.
+- **Rebuilt as five arms**, each calibrated against its own target cells: `easterlin` (6/8, frame
+  339), `cohort-size` (3/4, 203), `cycle` (1/1, 444), `rival` (4/5, 66), `marriage-boundary` (2/2,
+  550). **Union primary recall 18/20 = 90%**, deduplicated frame **909** — three arms carry
+  `"Easterlin"`, so the 1,602 sum of arms is an upper bound, not the screening cost. The union query
+  was checked to recall the same 18 the arms recall separately; a lower number would have meant the
+  nested boolean parses differently than intended and its count is unusable.
+- **The acceptance rule had to be made cost-aware.** Accepting any term with recall gain > 0 admitted
+  `"aspirations"` for **one** anchor at **2,082 records**, and leave-one-out then showed it carried
+  nothing else. Now gain > 0 **and** under 400 records per anchor, with every rejection logged at its
+  price so the ceiling is auditable. `"Becker"` was rejected the same way on the rival arm (581/anchor)
+  and `"aspirations"` again on the easterlin arm (3,087/anchor).
+- **The outcome axis is calibrated per arm too**, and it held two of the three remaining misses —
+  an anchor whose outcome is *family formation* is invisible to a fertility-only outcome axis however
+  well the exposure axis is tuned. Adding it took the union from 17/20 to 18/20 for +5 records.
+- **The two remaining misses are Easterlin's own 1961 and 1976 papers, and they are not a reason to
+  add terms.** The only term reaching the 1976 paper prices at 3,087 records per anchor. Both route
+  to the Phase 2 citation channel, which is where the most-cited works in a field are cheapest to
+  find. `LINK1_LABOUR` anchors are also unreachable and that is by design — no arm targets link 1,
+  and a query retrieving that literature well would be retrieving the wrong literature.
+- **A caveat recorded rather than papered over:** the `cycle` arm has one target anchor, so its
+  leave-one-out cannot discriminate. `"fertility cycles"` and `"fertility waves"` carry nothing
+  uniquely against a single anchor, which is not evidence that they carry nothing. Kept, and flagged
+  for re-calibration once the screen produces more cycle-cell records.
+
