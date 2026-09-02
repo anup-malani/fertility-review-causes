@@ -58,10 +58,15 @@ ARMS = [
      "candidates": ['"relative cohort size"', '"cohort crowding"', '"birth cohort size"',
                     '"size of the cohort"', '"cohort effects"'],
      "outcome_candidates": ['"family formation"', '"completed fertility"', '"first birth"']},
+    # "fertility cycles" was in this arm's base until the screen universe was stratified and the
+    # 177 records it uniquely produced turned out to be MENSTRUAL cycles -- menstruation, menopause,
+    # cycle tracking -- for zero gold. Leave-one-out on recall had already said the term carried
+    # nothing unique, and that was dismissed because the arm has one anchor and LOO cannot
+    # discriminate on one. The precision side settled what the recall side could not.
     {"name": "cycle", "targets": ["CYCLE_TEST"],
-     "base": ['"fertility cycles"', '"fertility waves"'], "outcome": OUTCOME,
-     "candidates": ['"echo effect"', '"self-generating"', '"population cycles"',
-                    '"baby boom"', '"baby bust"', '"Easterlin"'],
+     "base": ['"demographic cycles"', '"population cycles"', '"birth cycles"'], "outcome": OUTCOME,
+     "candidates": ['"fertility waves"', '"endogenous cycles"', '"self-generating"',
+                    '"echo effect"', '"baby bust"', '"Easterlin"'],
      "outcome_candidates": ['"births"', '"birth sequences"']},
     {"name": "rival", "targets": ["RIVAL_TEST"],
      "base": ['"countercyclical fertility"', '"Butz"'], "outcome": OUTCOME,
@@ -69,8 +74,12 @@ ARMS = [
                     '"Butz-Ward"', '"Becker"', '"relative income"'],
      "outcome_candidates": ['"female labor force"', '"completed fertility"']},
     {"name": "marriage-boundary", "targets": ["MIXED_COHORT_MARRIAGE"],
-     "base": ['"cohort size"', '"marriage squeeze"'], "outcome": OUTCOME_MARRIAGE,
-     "candidates": ['"relative cohort size"', '"Easterlin"', '"sex ratio"'],
+     # "marriage squeeze" moved out of the base for the same reason: leave-one-out showed it
+     # carried no anchor uniquely, and the 151-record stratum it produced is dominated by the
+     # sex-ratio and dowry literature of China and India -- which Wall 3 assigns to A.10, not here.
+     # Demoted to a candidate so it has to buy its way in at a measured price.
+     "base": ['"cohort size"'], "outcome": OUTCOME_MARRIAGE,
+     "candidates": ['"marriage squeeze"', '"relative cohort size"', '"Easterlin"', '"sex ratio"'],
      "outcome_candidates": ['"union formation"', '"first birth"']},
 ]
 
@@ -188,6 +197,17 @@ def main():
                         "uniquely_carries": base_hit - h3, "frame_without": n3})
             if base_hit - h3 == 0:
                 print(f"  LOO: {term} carries nothing unique — frame {base_n} -> {n3}")
+        # For every accepted term, measure the records it uniquely contributes and how much gold
+        # sits in them. A term adding many records and no gold is the shape of a homonym cloud --
+        # "fertility cycles" added 177 records of menstrual-cycle literature and no gold, and only
+        # a hand read caught it. This makes that pattern visible without one.
+        for x in loo:
+            n_unique = base_n - x["frame_without"]
+            x["unique_records"] = n_unique
+            x["suspect_homonym"] = n_unique >= 50 and x["uniquely_carries"] == 0
+            if x["suspect_homonym"]:
+                print(f"  SUSPECT: {x['term']} adds {n_unique} records and no anchor — "
+                      f"read a sample of them before keeping it")
         union_hits |= base_got
         log["arms"].append({"name": arm["name"], "targets": arm["targets"],
                             "exposure_axis": exposure, "outcome_axis": arm["outcome"],

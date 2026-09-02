@@ -207,3 +207,41 @@ neighbouring literatures, which is the `snowball-pools-omit-their-own-seeds` fai
   uniquely against a single anchor, which is not evidence that they carry nothing. Kept, and flagged
   for re-calibration once the screen produces more cycle-cell records.
 
+### 2026-09-02 — screen: universe built, prescreen recall-checked, 164 of 709 screened
+
+- Pipeline: `309_` universe → `310_` prescreen → `311_` sheets → screen → `312_` validating ingest.
+  Rubric at `easterlin-relative-income-screen-rubric.md`.
+- **Two homonym clouds found by stratifying the universe, and both were free to remove.** The
+  `cycle` arm's 177-record private stratum turned out to be **menstrual** cycles — menstruation,
+  menopause, cycle-tracking — because `"fertility cycles"` means that in most of the indexed
+  literature. The `marriage-boundary` arm's 151-record stratum was the sex-ratio and dowry literature
+  of China and India, which Wall 3 assigns to A.10. Re-specifying both arms took the frame **909 →
+  683 with recall unchanged at 18/20**.
+- **The recall-side diagnostic had already flagged both and I had dismissed it.** Leave-one-out said
+  `"fertility cycles"` and `"marriage squeeze"` carried no anchor uniquely, and I kept them because
+  the cycle arm has one target anchor and LOO cannot discriminate on one. **The precision side
+  settled what the recall side could not** — a term adding 177 records and no gold is the shape of a
+  homonym cloud. 308 now computes `unique_records` and flags `suspect_homonym` so this is visible
+  without a hand read.
+- **A third homonym, in the `easterlin` arm: Duesenberry's relative-income hypothesis in CONSUMPTION
+  theory**, plus "relative income poverty" as a poverty-measurement term. Together ~21 of that
+  stratum's 87 records. Not removable by prescreen without risking the real ones; routed at the screen.
+- Prescreen: 6 rules, all recall-checked, **31/31 gold retained**, 798 → 709.
+- **Screened 164 (23%): `anchor_only` 5, `arm_only_rival` 47, `arm_only_marriage-boundary` 25,
+  `arm_only_easterlin` 87 — each complete.** Ingest validates that every verdict id is on a sheet,
+  no id is routed twice, and no stratum is left half-screened and reported as done.
+- **Blind sensitivity 12/12 (100%).** The anchors sit in the sheets unmarked; 312 is the first place
+  they are identified.
+- Yield so far: **33/164 primary (20%)**, 59/164 kept in some cell. `RIVAL_TEST` 16 and
+  `RELATIVE_INCOME_FERTILITY` 16 are both well populated.
+- **`BENCHMARK_MEASURED` has its first empirical record.** Scope §4 predicted the value-added cell
+  might be empty — that no study measures the parental-household standard rather than proxying it.
+  *Scarcity and Prosperity in Postwar Childbearing* (1981) follows two 1920s birth cohorts through
+  Depression scarcity into postwar prosperity, which is the benchmark measured rather than assumed.
+  One record is not a cell, but it is not zero.
+- **One retrieval artefact worth recording:** 14 of the 47 `arm_only_rival` records are chapters of a
+  single edited volume, each carrying the volume's table of contents as its abstract. A shared-abstract
+  volume can supply a third of a stratum on one term match.
+- **Outstanding: 545 records in three strata** — `multi_arm` 374, `free_seed_only` 98,
+  `arm_only_cycle` 73.
+

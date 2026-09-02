@@ -121,13 +121,17 @@
           "term": "\"relative income\"",
           "arm_recall_without": 2,
           "uniquely_carries": 4,
-          "frame_without": 232
+          "frame_without": 232,
+          "unique_records": 107,
+          "suspect_homonym": false
         },
         {
           "term": "\"Easterlin\"",
           "arm_recall_without": 5,
           "uniquely_carries": 1,
-          "frame_without": 142
+          "frame_without": 142,
+          "unique_records": 197,
+          "suspect_homonym": false
         }
       ]
     },
@@ -241,8 +245,9 @@
         "CYCLE_TEST"
       ],
       "exposure_axis": [
-        "\"fertility cycles\"",
-        "\"fertility waves\"",
+        "\"demographic cycles\"",
+        "\"population cycles\"",
+        "\"birth cycles\"",
         "\"Easterlin\""
       ],
       "outcome_axis": [
@@ -253,19 +258,46 @@
         "\"family size\"",
         "\"number of children\""
       ],
-      "query": "(\"fertility cycles\" OR \"fertility waves\" OR \"Easterlin\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
-      "frame": 444,
+      "query": "(\"demographic cycles\" OR \"population cycles\" OR \"birth cycles\" OR \"Easterlin\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "frame": 347,
       "arm_recall": 1,
       "arm_n": 1,
       "steps": [
         {
           "label": "baseline",
-          "frame": 220,
+          "frame": 119,
           "arm_recall": 0
         },
         {
+          "term": "\"fertility waves\"",
+          "frame": 132,
+          "arm_recall": 0,
+          "gain": 0,
+          "cost": 13,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"endogenous cycles\"",
+          "frame": 127,
+          "arm_recall": 0,
+          "gain": 0,
+          "cost": 8,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"self-generating\"",
+          "frame": 145,
+          "arm_recall": 0,
+          "gain": 0,
+          "cost": 26,
+          "price": null,
+          "accepted": false
+        },
+        {
           "term": "\"echo effect\"",
-          "frame": 223,
+          "frame": 122,
           "arm_recall": 0,
           "gain": 0,
           "cost": 3,
@@ -273,64 +305,37 @@
           "accepted": false
         },
         {
-          "term": "\"self-generating\"",
-          "frame": 245,
-          "arm_recall": 0,
-          "gain": 0,
-          "cost": 25,
-          "price": null,
-          "accepted": false
-        },
-        {
-          "term": "\"population cycles\"",
-          "frame": 269,
-          "arm_recall": 0,
-          "gain": 0,
-          "cost": 49,
-          "price": null,
-          "accepted": false
-        },
-        {
-          "term": "\"baby boom\"",
-          "frame": 1639,
-          "arm_recall": 0,
-          "gain": 0,
-          "cost": 1419,
-          "price": null,
-          "accepted": false
-        },
-        {
           "term": "\"baby bust\"",
-          "frame": 390,
+          "frame": 294,
           "arm_recall": 0,
           "gain": 0,
-          "cost": 170,
+          "cost": 175,
           "price": null,
           "accepted": false
         },
         {
           "term": "\"Easterlin\"",
-          "frame": 444,
+          "frame": 347,
           "arm_recall": 1,
           "gain": 1,
-          "cost": 224,
-          "price": 224.0,
+          "cost": 228,
+          "price": 228.0,
           "accepted": true
         },
         {
           "axis": "outcome",
           "term": "\"births\"",
-          "frame": 472,
+          "frame": 488,
           "arm_recall": 1,
           "gain": 0,
-          "cost": 28,
+          "cost": 141,
           "price": null,
           "accepted": false
         },
         {
           "axis": "outcome",
           "term": "\"birth sequences\"",
-          "frame": 444,
+          "frame": 347,
           "arm_recall": 1,
           "gain": 0,
           "cost": 0,
@@ -340,22 +345,36 @@
       ],
       "leave_one_out": [
         {
-          "term": "\"fertility cycles\"",
+          "term": "\"demographic cycles\"",
           "arm_recall_without": 1,
           "uniquely_carries": 0,
-          "frame_without": 241
+          "frame_without": 307,
+          "unique_records": 40,
+          "suspect_homonym": false
         },
         {
-          "term": "\"fertility waves\"",
+          "term": "\"population cycles\"",
           "arm_recall_without": 1,
           "uniquely_carries": 0,
-          "frame_without": 435
+          "frame_without": 301,
+          "unique_records": 46,
+          "suspect_homonym": false
+        },
+        {
+          "term": "\"birth cycles\"",
+          "arm_recall_without": 1,
+          "uniquely_carries": 0,
+          "frame_without": 321,
+          "unique_records": 26,
+          "suspect_homonym": false
         },
         {
           "term": "\"Easterlin\"",
           "arm_recall_without": 0,
           "uniquely_carries": 1,
-          "frame_without": 220
+          "frame_without": 119,
+          "unique_records": 228,
+          "suspect_homonym": false
         }
       ]
     },
@@ -467,19 +486,25 @@
           "term": "\"countercyclical fertility\"",
           "arm_recall_without": 3,
           "uniquely_carries": 1,
-          "frame_without": 62
+          "frame_without": 62,
+          "unique_records": 4,
+          "suspect_homonym": false
         },
         {
           "term": "\"Butz\"",
           "arm_recall_without": 3,
           "uniquely_carries": 1,
-          "frame_without": 27
+          "frame_without": 27,
+          "unique_records": 39,
+          "suspect_homonym": false
         },
         {
           "term": "\"price of time\"",
           "arm_recall_without": 3,
           "uniquely_carries": 1,
-          "frame_without": 47
+          "frame_without": 47,
+          "unique_records": 19,
+          "suspect_homonym": false
         }
       ]
     },
@@ -490,7 +515,6 @@
       ],
       "exposure_axis": [
         "\"cohort size\"",
-        "\"marriage squeeze\"",
         "\"Easterlin\""
       ],
       "outcome_axis": [
@@ -505,19 +529,28 @@
         "\"nuptiality\"",
         "\"family formation\""
       ],
-      "query": "(\"cohort size\" OR \"marriage squeeze\" OR \"Easterlin\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\" OR \"marriage rate\" OR \"marriage market\" OR \"nuptiality\" OR \"family formation\")",
-      "frame": 550,
+      "query": "(\"cohort size\" OR \"Easterlin\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\" OR \"marriage rate\" OR \"marriage market\" OR \"nuptiality\" OR \"family formation\")",
+      "frame": 422,
       "arm_recall": 2,
       "arm_n": 2,
       "steps": [
         {
           "label": "baseline",
-          "frame": 356,
+          "frame": 227,
           "arm_recall": 1
         },
         {
-          "term": "\"relative cohort size\"",
+          "term": "\"marriage squeeze\"",
           "frame": 356,
+          "arm_recall": 1,
+          "gain": 0,
+          "cost": 129,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"relative cohort size\"",
+          "frame": 227,
           "arm_recall": 1,
           "gain": 0,
           "cost": 0,
@@ -526,39 +559,39 @@
         },
         {
           "term": "\"Easterlin\"",
-          "frame": 550,
+          "frame": 422,
           "arm_recall": 2,
           "gain": 1,
-          "cost": 194,
-          "price": 194.0,
+          "cost": 195,
+          "price": 195.0,
           "accepted": true
         },
         {
           "term": "\"sex ratio\"",
-          "frame": 4573,
+          "frame": 4493,
           "arm_recall": 2,
           "gain": 0,
-          "cost": 4023,
+          "cost": 4071,
           "price": null,
           "accepted": false
         },
         {
           "axis": "outcome",
           "term": "\"union formation\"",
-          "frame": 551,
+          "frame": 422,
           "arm_recall": 2,
           "gain": 0,
-          "cost": 1,
+          "cost": 0,
           "price": null,
           "accepted": false
         },
         {
           "axis": "outcome",
           "term": "\"first birth\"",
-          "frame": 551,
+          "frame": 422,
           "arm_recall": 2,
           "gain": 0,
-          "cost": 1,
+          "cost": 0,
           "price": null,
           "accepted": false
         }
@@ -568,32 +601,30 @@
           "term": "\"cohort size\"",
           "arm_recall_without": 1,
           "uniquely_carries": 1,
-          "frame_without": 368
-        },
-        {
-          "term": "\"marriage squeeze\"",
-          "arm_recall_without": 2,
-          "uniquely_carries": 0,
-          "frame_without": 422
+          "frame_without": 235,
+          "unique_records": 187,
+          "suspect_homonym": false
         },
         {
           "term": "\"Easterlin\"",
           "arm_recall_without": 1,
           "uniquely_carries": 1,
-          "frame_without": 356
+          "frame_without": 227,
+          "unique_records": 195,
+          "suspect_homonym": false
         }
       ]
     }
   ],
   "gold_n": 31,
-  "union_query": "((\"relative income\" OR \"Easterlin\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\" OR \"family formation\")) OR ((\"cohort size\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")) OR ((\"fertility cycles\" OR \"fertility waves\" OR \"Easterlin\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")) OR ((\"countercyclical fertility\" OR \"Butz\" OR \"price of time\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")) OR ((\"cohort size\" OR \"marriage squeeze\" OR \"Easterlin\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\" OR \"marriage rate\" OR \"marriage market\" OR \"nuptiality\" OR \"family formation\"))",
-  "union_frame_deduplicated": 909,
+  "union_query": "((\"relative income\" OR \"Easterlin\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\" OR \"family formation\")) OR ((\"cohort size\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")) OR ((\"demographic cycles\" OR \"population cycles\" OR \"birth cycles\" OR \"Easterlin\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")) OR ((\"countercyclical fertility\" OR \"Butz\" OR \"price of time\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")) OR ((\"cohort size\" OR \"Easterlin\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\" OR \"marriage rate\" OR \"marriage market\" OR \"nuptiality\" OR \"family formation\"))",
+  "union_frame_deduplicated": 683,
   "union_frame_error": null,
   "union_query_recall": 18,
   "union": {
     "primary_recall": 18,
     "primary_n": 20,
-    "total_frame_upper_bound": 1602,
+    "total_frame_upper_bound": 1377,
     "unreachable": [
       {
         "key": "cssi-chinese-famine",

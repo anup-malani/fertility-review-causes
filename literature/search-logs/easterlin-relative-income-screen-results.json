@@ -1,0 +1,38 @@
+{
+ "screened": 164,
+ "universe": 709,
+ "errors": [],
+ "complete_strata": [
+  "anchor_only",
+  "arm_only_rival",
+  "arm_only_easterlin",
+  "arm_only_marriage-boundary"
+ ],
+ "unscreened_strata": {
+  "free_seed_only": 98,
+  "multi_arm": 374,
+  "arm_only_cycle": 73
+ },
+ "cells": {
+  "RELATIVE_INCOME_FERTILITY": 16,
+  "THEORY": 7,
+  "LINK1_LABOUR": 8,
+  "RIVAL_TEST": 16,
+  "MIXED_COHORT_MARRIAGE": 11,
+  "OFF_SEXRATIO_A10": 3,
+  "OFF_MARRIAGE_C7a": 7,
+  "OFF_UNCERTAINTY_C5a": 1,
+  "OFF_CLINICAL": 2,
+  "OFF_OTHER": 85,
+  "INSUFFICIENT_INFO": 4,
+  "BENCHMARK_MEASURED": 1,
+  "OFF_ABSOLUTE_C1a": 3
+ },
+ "primary": 33,
+ "kept": 59,
+ "blind_sensitivity": {
+  "anchors_in_screened_strata": 12,
+  "kept": 12,
+  "routed_out": {}
+ }
+}
