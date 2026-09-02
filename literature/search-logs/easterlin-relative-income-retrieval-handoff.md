@@ -8,17 +8,17 @@ Queue was **156** records: every primary cell plus `MIXED_COHORT_MARRIAGE` (Wall
 
 | cell | have | browser job | proxy job | total |
 |---|---|---|---|---|
-| `BENCHMARK_MEASURED` | **0/5** | 2 | 3 | 5 |
-| `RIVAL_TEST` | **3/29** | 9 | 17 | 29 |
-| `CYCLE_TEST` | **6/46** | 5 | 35 | 46 |
+| `BENCHMARK_MEASURED` | **1/5** | 1 | 3 | 5 |
+| `RIVAL_TEST` | **6/29** | 6 | 17 | 29 |
+| `CYCLE_TEST` | **7/46** | 4 | 35 | 46 |
 | `COHORT_SIZE_FERTILITY` | **4/32** | 7 | 21 | 32 |
-| `RELATIVE_INCOME_FERTILITY` | **3/29** | 4 | 22 | 29 |
+| `RELATIVE_INCOME_FERTILITY` | **4/29** | 3 | 22 | 29 |
 | `MIXED_COHORT_MARRIAGE` | **3/15** | 5 | 7 | 15 |
-| **total** | **19/156** | 32 | 105 | 156 |
+| **total** | **25/156** | 26 | 105 | 156 |
 
 ## The gate, stated before anyone starts
 
-Overall retrieval is **19/156**, which is low — but the rate is not the finding. `BENCHMARK_MEASURED` is at **0/5**, and that cell is the only place a study measures the parental-household benchmark rather than proxying it with cohort size. Scope §4 predicted the cell might be empty; the screen found five; **retrieval has so far returned none of them.**
+Overall retrieval is **25/156**, which is low — but the rate is not the finding. `BENCHMARK_MEASURED` is at **1/5**, and that cell is the only place a study measures the parental-household benchmark rather than proxying it with cohort size. Scope §4 predicted the cell might be empty; the screen found five; **retrieval has so far returned none of them.**
 
 **Extraction does not begin until the five `BENCHMARK_MEASURED` records are resolved one way or the other.** Not because five records outweigh a hundred, but because a chapter that reports the reduced-form cells while its identification cell sits unread would be reporting a literature it did not read — the A.17 failure, where 23/114 was survivable and 0 of 4 identified direct-arm records was not.
 
@@ -26,48 +26,42 @@ Overall retrieval is **19/156**, which is low — but the rate is not the findin
 
 | rung | probed | found | fetched | |
 |---|---|---|---|---|
-| `oa_locations` | 72 | 72 | 14 |  |
-| `repec` | 47 | 47 | 4 |  |
-| `unpaywall` | 114 | 17 | 1 |  |
-| `pmc_bioc` | 45 | 0 | 0 | **empty for this literature** — probed and produced no URL at all |
+| `oa_locations` | 69 | 69 | 2 |  |
+| `repec` | 16 | 16 | 0 |  |
+| `unpaywall` | 19 | 15 | 0 |  |
+| `pmc_bioc` | 7 | 0 | 0 | **empty for this literature** — probed and produced no URL at all |
 
 **PMC is empty here, and that was the point of choosing the rung order for this chapter.** 45 records carry a pmid — demography journals are indexed in PubMed — but not one is in the PMC open-access subset, so BioC answers HTTP 200 with an empty body every time. A script that credited the constructed URL as 'found' would report this rung as a broken downloader rather than an absent corpus. Do not carry this rung into another economics chapter expecting yield.
 
-## Browser job — 32 records
+## Browser job — 26 records
 
 These URLs are **open**. They fail to a challenge page (403, or a 202 interstitial, or a 200 with a stub body) or stop at a landing page whose PDF link the script could not follow. A logged-in browser session retrieves them. **None of these is a paywall** — do not send them to ILL.
 
 | cell | year | title | doi | status |
 |---|---|---|---|---|
-| `BENCHMARK_MEASURED` | 2021 | Resources, aspirations and first births during the Great Recession | 10.1016/j.alcr.2021.100405 | blocked |
 | `BENCHMARK_MEASURED` | 2020 | Resources and aspirations during the Great Recession: the impact on the tr | 10.17045/sthlmuni.11876391.v1 | blocked |
-| `RIVAL_TEST` | 2022 | The Emergence of Procyclical Fertility: The Role of Gender Differences in  | 10.48720/iab.dp.2227 | landing_only |
-| `RIVAL_TEST` | 2019 | Structural Changes in the Patterns of Japanese Fertility | — | landing_only |
 | `RIVAL_TEST` | 2011 | The Causal Relationship between Female Labor Supply and Fertility in the U | 10.2139/ssrn.1670581 | blocked |
 | `RIVAL_TEST` | 2008 | Intended Fertility and Birth Behavior (in Japanese) | — | blocked |
 | `RIVAL_TEST` | 2008 | Approches économiques de la fécondité | 10.7202/600612ar | blocked |
-| `RIVAL_TEST` | 2005 | Becker vs. Easterlin. Education, Fertility and Growth in France after Worl | — | landing_only |
 | `RIVAL_TEST` | 1996 | Relative Income and Price of Time: Exploring their effcts on U.S. Fertilit | — | landing_only |
 | `RIVAL_TEST` | 1990 | AN EVALUATION OF THE BUTZ-WARD HYPOTHESIS OF CONTERCYCLICAL FERTILITY | — | blocked |
 | `RIVAL_TEST` | 1990 | An Evaluation Of The Butz-Ward Hypothesis On Countercyclical Fertility: Te | — | blocked |
-| `CYCLE_TEST` | 2026 | Endogenous Fertility Waves and the Dynamics of Utility in an Overlapping G | 10.48550/arxiv.2606.02362 | landing_only |
 | `CYCLE_TEST` | 2008 | Cycles post-transitionnels et modèles proie-prédateur | 10.7202/600637ar | blocked |
 | `CYCLE_TEST` | 1999 | Population Dynamics and Labour Force Participation within Goodwin Type Gro | — | landing_only |
 | `CYCLE_TEST` | 1983 | Limit cycle oscillations of the human population | 10.2307/2061243 | blocked |
 | `CYCLE_TEST` | 1974 | The Formal Dynamics of Controlled Populations and the Echo, the Boom and t | 10.2307/2060471 | blocked |
 | `COHORT_SIZE_FERTILITY` | 2011 | The Role of Relative Cohort Size, and Relative Income in the Demographic T | 10.2139/ssrn.1807992 | blocked |
 | `COHORT_SIZE_FERTILITY` | 2011 | Relative Cohort Size: Source of a Unifying Theory of Global Fertility Tran | 10.2139/ssrn.1807991 | blocked |
-| `COHORT_SIZE_FERTILITY` | 2007 | Fertility and relative cohort size | — | landing_only |
+| `COHORT_SIZE_FERTILITY` | 2007 | Fertility and relative cohort size | — | blocked |
 | `COHORT_SIZE_FERTILITY` | 2005 | Meta-analysis of the impact of age structure on fertility | 10.1007/s00148-004-0199-9 | blocked |
 | `COHORT_SIZE_FERTILITY` | 2002 | Spatial Dimensions of the Easterlin Hypothesis: Fertility Variations in It | 10.1111/1467-9787.00272 | blocked |
-| `COHORT_SIZE_FERTILITY` | 1999 | The Role of Relative Cohort Size and Relative Income in the Demographic Tr | 10.1007/bf02436113 | landing_only |
-| `COHORT_SIZE_FERTILITY` | 1999 | Relative Cohort Size: Source of a Unifying Theory of Global Fertility Tran | — | landing_only |
-| `RELATIVE_INCOME_FERTILITY` | 2014 | Easterlin revisted: Relative income and the baby boom | — | blocked |
+| `COHORT_SIZE_FERTILITY` | 1999 | The Role of Relative Cohort Size and Relative Income in the Demographic Tr | 10.1007/bf02436113 | blocked |
+| `COHORT_SIZE_FERTILITY` | 1999 | Relative Cohort Size: Source of a Unifying Theory of Global Fertility Tran | — | blocked |
 | `RELATIVE_INCOME_FERTILITY` | 2011 | The Effect of Relative Income on Fertility (in Japanese) | — | landing_only |
 | `RELATIVE_INCOME_FERTILITY` | 1983 | An analysis of variations in U. S. fertility and female labor force partic | 10.2307/2061232 | blocked |
 | `RELATIVE_INCOME_FERTILITY` | 1981 | Earnings, Relative Income, and Family Formation | 10.2307/2061088 | blocked |
 | `MIXED_COHORT_MARRIAGE` | 2024 | Did the Baby Boom Cause the Us Divorce Boom? | 10.2139/ssrn.4987302 | blocked |
-| `MIXED_COHORT_MARRIAGE` | 2023 | Cohort Size and the Marriage Market: Explaining Nearly a Century of Change | 10.1086/724047 | landing_only |
+| `MIXED_COHORT_MARRIAGE` | 2023 | Cohort Size and the Marriage Market: Explaining Nearly a Century of Change | 10.1086/724047 | blocked |
 | `MIXED_COHORT_MARRIAGE` | 2020 | Why Young Adults Retreat from Marriage? An Easterlin Relative Income Appro | — | landing_only |
 | `MIXED_COHORT_MARRIAGE` | 2019 | The Demographic Transition and the Position of Women: a Marriage Market Pe | 10.1093/ej/uez027 | blocked |
 | `MIXED_COHORT_MARRIAGE` | 1994 | The Effects of Cohort Size on Marriage Markets in Twentieth-Century Sweden | 10.1093/oso/9780198288183.003.0003 | blocked |

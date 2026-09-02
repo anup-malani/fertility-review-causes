@@ -69,6 +69,21 @@ def oa(path, params):
 
 
 PDF_HREF = re.compile(r'href=["\']([^"\']+\.pdf[^"\']*)["\']', re.I)
+REDIR = re.compile(r'[?&]u=([^;&"\']+)', re.I)
+
+
+def unwrap_redir(url):
+    """EconPapers/IDEAS wrap the real target in `redir.pf?u=<urlencoded target>`. The wrapper is
+    bot-defended; the target usually is not, because it sits on a university web server. Decoding
+    the parameter and fetching the target directly is what turned a 403 into a 352 KB PDF for the
+    Becker-vs-Easterlin working paper. This is the chapter-specific rung that actually pays here --
+    the same shape as `recovery-rung-order-is-chapter-specific`, one level down."""
+    m = REDIR.search(url or "")
+    if not m:
+        return None
+    from urllib.parse import unquote
+    tgt = unquote(m.group(1))
+    return tgt if tgt.startswith("http") else None
 
 
 def pdf_links_on(url):
@@ -79,7 +94,27 @@ def pdf_links_on(url):
     if r.returncode != 0 or not r.stdout:
         return []
     out = []
-    for href in PDF_HREF.findall(r.stdout)[:6]:
+    # `citation_pdf_url` is the Highwire/Google-Scholar meta tag, and essentially every repository
+    # and journal platform emits it. Looking only for href="*.pdf" missed it entirely: DSpace and
+    # bepress serve PDFs from /bitstream/ and /cgi/viewcontent.cgi paths with no .pdf extension,
+    # which is why seven institutional-repository records died as "landing page".
+    for m in re.finditer(r'<meta[^>]+name=["\']citation_pdf_url["\'][^>]+content=["\']([^"\']+)',
+                         r.stdout, re.I):
+        out.append(m.group(1))
+    for m in re.finditer(r'<meta[^>]+content=["\']([^"\']+)["\'][^>]+name=["\']citation_pdf_url',
+                         r.stdout, re.I):
+        out.append(m.group(1))
+    for m in re.finditer(r'href=["\']([^"\']*(?:viewcontent\.cgi|/bitstream/|/download)[^"\']*)',
+                         r.stdout, re.I):
+        h = m.group(1)
+        out.append(h if h.startswith("http") else
+                   (re.match(r"(https?://[^/]+)", url).group(1) + h if h.startswith("/") else h))
+    for href in REDIR.findall(r.stdout)[:6]:
+        from urllib.parse import unquote
+        tgt = unquote(href)
+        if tgt.startswith("http"):
+            out.append(tgt)
+    for href in PDF_HREF.findall(r.stdout)[:8]:
         if href.startswith("http"):
             out.append(href)
         elif href.startswith("/"):
@@ -88,7 +123,12 @@ def pdf_links_on(url):
                 out.append(m.group(1) + href)
         else:
             out.append(url.rsplit("/", 1)[0] + "/" + href)
-    return out
+    seen, uniq = set(), []
+    for u in out:
+        if u not in seen:
+            seen.add(u)
+            uniq.append(u)
+    return uniq[:10]
 
 
 def fetch(url, dest):
@@ -174,8 +214,15 @@ def main():
                 if not u:
                     continue
                 rung = "repec" if REPEC_HOSTS.search(u) else "oa_locations"
-                if loc.get("is_oa") or rung == "repec":
-                    rungs.append((rung, u))
+                # DO NOT gate on loc["is_oa"]. The flag is the index's OPINION; the URL is the
+                # fact. Becker vs Easterlin has two locations, both flagged is_oa=False, and one
+                # of them is a 352 KB PDF on a university web server that downloads on the first
+                # try. Skipping it because a metadata field said "not OA" is a confident absence
+                # manufactured from someone else's annotation. Trying costs one HTTP request.
+                tgt = unwrap_redir(u)
+                if tgt:
+                    rungs.append(("repec_direct", tgt))   # the real host, tried before the wrapper
+                rungs.append((rung, u))
         # rung 3: unpaywall
         doi = (w.get("doi") or "").replace("https://doi.org/", "")
         if doi:
@@ -267,10 +314,10 @@ def main():
             # it is the same defence, just quieter. Counting those as "not found" is how a
             # retrievable record becomes a confident absence.
             interstitial = any(a.get("note", "").startswith("too small")
-                               and a.get("rung") in ("oa_locations", "repec")
+                               and a.get("rung") in ("oa_locations", "repec", "repec_direct")
                                for a in rec["attempts"])
             productive = [a for a in rec["attempts"]
-                          if a.get("rung") in ("oa_locations", "repec")
+                          if a.get("rung") in ("oa_locations", "repec", "repec_direct")
                           or (a.get("rung") == "unpaywall" and a.get("http"))]
             if "BLOCKED" in notes or interstitial:
                 rec["status"] = "blocked"            # BROWSER job: open URL, defeated by defences
@@ -301,7 +348,7 @@ def main():
     for k, v in st.most_common():
         print(f"  {k:20} {v}")
     print("\nRUNGS — probed / found / fetched")
-    for rung in ("oa_locations", "repec", "unpaywall", "pmc_bioc"):
+    for rung in ("oa_locations", "repec_direct", "repec", "unpaywall", "pmc_bioc"):
         f = found[rung] + fetched.get(rung + "+hop", 0)
         got = fetched[rung] + fetched.get(rung + "+hop", 0)
         note = ""

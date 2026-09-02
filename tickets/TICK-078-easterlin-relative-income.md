@@ -366,3 +366,48 @@ and a host that answers 403 today may answer 200 tomorrow, so their classificati
 live. The property that had to hold is that retrieved files survive a re-run with their provenance
 intact, and that a partial pass cannot shrink the record. Both now do.
 
+### 2026-09-02 — the browser job: 19 → 25, and what the browser was actually good for
+
+Attempted the 32-record browser job. **The browser could not deliver files, but it diagnosed why the
+script was failing, and fixing that recovered 6 records without any clicking.**
+
+**What the browser cannot do here.** Chrome renders these PDFs fine, but no route gets bytes to disk:
+downloads triggered from the page do not land in Chrome's configured download directory; a
+page-context `fetch()` is refused by the extension's CSP; and a natively rendered PDF keeps its text
+in the plugin, not the DOM, so there is nothing to read out either. `curl` with a browser
+User-Agent still gets 403 from figshare's direct download URL, so these really are bot-defence
+blocks — the classification was right, the tool was wrong.
+
+**What it was good for: it showed me the URL my own script was refusing to try.** Reading one
+EconPapers record in the browser exposed three defects in 313, all of which manufacture false
+absences:
+
+1. **I gated `oa_locations` on `loc["is_oa"]`.** *Becker vs Easterlin* has two locations, **both
+   flagged `is_oa=False`**, and one of them is a 352 KB PDF on a university web server that
+   downloads on the first request. **The flag is the index's opinion; the URL is the fact.** Trying
+   costs one HTTP request; skipping costs a record.
+2. **EconPapers/IDEAS wrap the real target in `redir.pf?u=<urlencoded>`.** The wrapper is
+   bot-defended, the target usually is not. Decode the parameter and fetch the target.
+3. **Landing-page link extraction looked only for `href="*.pdf"`.** DSpace and bepress serve PDFs
+   from `/bitstream/` and `viewcontent.cgi` paths with no extension. Added the
+   **`citation_pdf_url` meta tag**, which nearly every repository and journal platform emits and
+   which is the reliable route.
+
+**Result: 19 → 25 retrieved**, including *Becker vs Easterlin* (a `RIVAL_TEST` anchor) and — the one
+that matters — **`BENCHMARK_MEASURED` is no longer 0/5.**
+
+| cell | have | was |
+|---|---|---|
+| `BENCHMARK_MEASURED` | **1/5** | 0/5 |
+| `RIVAL_TEST` | 6/29 | 3/29 |
+| `CYCLE_TEST` | 7/46 | 6/46 |
+| `RELATIVE_INCOME_FERTILITY` | 4/29 | 3/29 |
+| `COHORT_SIZE_FERTILITY` | 4/32 | 4/32 |
+| `MIXED_COHORT_MARRIAGE` | 3/15 | 3/15 |
+
+**The gate still holds.** Four of five `BENCHMARK_MEASURED` records remain unread, and extraction
+does not begin until they are resolved. Handoff regenerated: **26 browser jobs, 105 proxy jobs.**
+The browser job now genuinely needs a human — the blocks are Cloudflare-class on `read.dukeupress.edu`,
+`papers.ssrn.com`, `sciencedirect.com` and `pmc.ncbi.nlm.nih.gov`, where the clearance cookie is
+HttpOnly and cannot be handed to a script.
+

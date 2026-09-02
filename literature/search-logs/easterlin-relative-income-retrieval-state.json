@@ -72,36 +72,25 @@
     },
     {
      "rung": "oa_locations",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/36695137",
+     "http": "203",
+     "note": "too small \u2014 interstitial or error page"
+    },
+    {
+     "rung": "oa_locations",
      "url": "https://hdl.handle.net/11585/849857",
      "http": "200",
      "note": "landing page or JS shell, not a document"
     },
     {
      "rung": "oa_locations+hop",
-     "url": "https://hdl.handle.net/retrieve/a29b03e6-1dac-4dee-bea5-0f32c7138b66/1-s2.0-S1040260821000046-main.pdf",
-     "http": "404",
-     "note": "404 at the recorded location"
-    },
-    {
-     "rung": "oa_locations+hop",
-     "url": "https://hdl.handle.net/retrieve/a29b03e6-1dac-4dee-bea5-0f32c7138b66/1-s2.0-S1040260821000046-main.pdf",
-     "http": "404",
-     "note": "404 at the recorded location"
-    },
-    {
-     "rung": "unpaywall",
-     "url": "https://www.sciencedirect.com/science/article/pii/S1040260821000046/pdf",
-     "http": "403",
-     "note": "landing page or JS shell, not a document"
-    },
-    {
-     "rung": "pmc_bioc",
-     "url": "https://www.ncbi.nlm.nih.gov/research/bionlp/RESTful/pmcoa.cgi/BioC_json/36695137/unicode",
+     "url": "https://cris.unibo.it/bitstream/11585/849857/4/1-s2.0-S1040260821000046-main.pdf",
      "http": "200",
-     "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
+     "note": "3284 KB"
     }
    ],
-   "status": "blocked"
+   "status": "have",
+   "via": "oa_locations+hop"
   },
   "W2272291772": {
    "cell": "BENCHMARK_MEASURED",
@@ -131,6 +120,12 @@
     {
      "rung": "oa_locations",
      "url": "https://doi.org/10.17045/sthlmuni.11876391.v1",
+     "http": "202",
+     "note": "BLOCKED (202 interstitial) \u2014 a challenge page, not a paywall. 403 is not the only shape bot defence takes"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "https://su.figshare.com/articles/preprint/Resources_and_aspirations_during_the_Great_Recession_the_impact_on_the_transition_to_motherhood/11",
      "http": "202",
      "note": "BLOCKED (202 interstitial) \u2014 a challenge page, not a paywall. 403 is not the only shape bot defence takes"
     },
@@ -199,6 +194,12 @@
     {
      "rung": "oa_locations",
      "url": "https://doi.org/10.1007/s00148-004-0199-9",
+     "http": "200",
+     "note": "too small \u2014 interstitial or error page"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "http://hdl.handle.net/10.1007/s00148-004-0199-9",
      "http": "200",
      "note": "too small \u2014 interstitial or error page"
     },
@@ -356,14 +357,33 @@
    "year": "2007",
    "doi": "",
    "rungs_found": [
+    "oa_locations",
     "repec"
    ],
    "attempts": [
+    {
+     "rung": "oa_locations",
+     "url": "http://www.framtidsstudier.se/wp-content/uploads/2011/01/20071005123330filno7ST0tzOGE57TO7TmPI.pdf",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "http://www.framtidsstudier.se/wp-content/uploads/2011/01/20071005123330filno7ST0tzOGE57TO7TmPI.pdf",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    },
     {
      "rung": "repec",
      "url": "https://EconPapers.repec.org/RePEc:hhs:ifswps:2007_011",
      "http": "200",
      "note": "landing page or JS shell, not a document"
+    },
+    {
+     "rung": "repec+hop",
+     "url": "http://www.framtidsstudier.se/wp-content/uploads/2011/01/20071005123330filno7ST0tzOGE57TO7TmPI.pdf",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
     },
     {
      "rung": "repec+hop",
@@ -378,7 +398,7 @@
      "note": "landing page or JS shell, not a document"
     }
    ],
-   "status": "landing_only"
+   "status": "blocked"
   },
   "W2041439812": {
    "cell": "COHORT_SIZE_FERTILITY",
@@ -582,10 +602,17 @@
    "year": "2002",
    "doi": "10.1111/1467-9787.00272",
    "rungs_found": [
+    "oa_locations",
     "repec",
     "unpaywall"
    ],
    "attempts": [
+    {
+     "rung": "oa_locations",
+     "url": "https://doi.org/10.1111/1467-9787.00272",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    },
     {
      "rung": "repec",
      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=330417",
@@ -705,13 +732,56 @@
    "year": "1999",
    "doi": "10.1007/bf02436113",
    "rungs_found": [
+    "oa_locations",
     "repec",
     "unpaywall"
    ],
    "attempts": [
     {
+     "rung": "oa_locations",
+     "url": "https://doi.org/10.1007/bf02436113",
+     "http": "200",
+     "note": "too small \u2014 interstitial or error page"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "https://doi.org/10.1023/a:1023358501683",
+     "http": "200",
+     "note": "too small \u2014 interstitial or error page"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "https://surface.syr.edu/cpr/138/",
+     "http": "200",
+     "note": "landing page or JS shell, not a document"
+    },
+    {
+     "rung": "oa_locations+hop",
+     "url": "https://surface.syr.edu/cgi/viewcontent.cgi?article=1137&amp;context=cpr",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "https://surface.syr.edu/cpr/138",
+     "http": "200",
+     "note": "landing page or JS shell, not a document"
+    },
+    {
+     "rung": "oa_locations+hop",
+     "url": "https://surface.syr.edu/cgi/viewcontent.cgi?article=1137&amp;context=cpr",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    },
+    {
      "rung": "repec",
      "url": "https://EconPapers.repec.org/RePEc:max:cprwps:9",
+     "http": "200",
+     "note": "landing page or JS shell, not a document"
+    },
+    {
+     "rung": "repec+hop",
+     "url": "https://surface.syr.edu/cpr/138/",
      "http": "200",
      "note": "landing page or JS shell, not a document"
     },
@@ -720,7 +790,7 @@
      "note": "no OA location in unpaywall"
     }
    ],
-   "status": "landing_only"
+   "status": "blocked"
   },
   "W3126051512": {
    "cell": "COHORT_SIZE_FERTILITY",
@@ -728,9 +798,34 @@
    "year": "1999",
    "doi": "",
    "rungs_found": [
+    "oa_locations",
     "repec"
    ],
    "attempts": [
+    {
+     "rung": "oa_locations",
+     "url": "https://surface.syr.edu/cpr/139/",
+     "http": "200",
+     "note": "landing page or JS shell, not a document"
+    },
+    {
+     "rung": "oa_locations+hop",
+     "url": "https://surface.syr.edu/cgi/viewcontent.cgi?article=1138&amp;context=cpr",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "https://surface.syr.edu/cpr/139",
+     "http": "200",
+     "note": "landing page or JS shell, not a document"
+    },
+    {
+     "rung": "oa_locations+hop",
+     "url": "https://surface.syr.edu/cgi/viewcontent.cgi?article=1138&amp;context=cpr",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    },
     {
      "rung": "repec",
      "url": "https://ideas.repec.org/p/max/cprwps/8.html",
@@ -738,7 +833,7 @@
      "note": "landing page or JS shell, not a document"
     }
    ],
-   "status": "landing_only"
+   "status": "blocked"
   },
   "W2146944376": {
    "cell": "CYCLE_TEST",
@@ -988,6 +1083,18 @@
      "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
     },
     {
+     "rung": "oa_locations",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/21279746",
+     "http": "203",
+     "note": "too small \u2014 interstitial or error page"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "http://hdl.handle.net/10.2307/2060471",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    },
+    {
      "rung": "unpaywall",
      "url": "https://read.dukeupress.edu/demography/article-pdf/11/4/563/906349/563lee.pdf",
      "http": "403",
@@ -1054,6 +1161,18 @@
     {
      "rung": "oa_locations",
      "url": "https://doi.org/10.2307/2061243",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/6628772",
+     "http": "200",
+     "note": "landing page or JS shell, not a document"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "http://hdl.handle.net/10.2307/2061243",
      "http": "403",
      "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
     },
@@ -1455,6 +1574,18 @@
      "note": "too small \u2014 interstitial or error page"
     },
     {
+     "rung": "oa_locations",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/12342213",
+     "http": "203",
+     "note": "too small \u2014 interstitial or error page"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "http://id.erudit.org/iderudit/600637ar",
+     "http": "200",
+     "note": "too small \u2014 interstitial or error page"
+    },
+    {
      "rung": "unpaywall",
      "url": "https://www.erudit.org/fr/revues/cqd/1988-v17-n2-cqd2465/600637ar.pdf",
      "http": "200",
@@ -1558,11 +1689,14 @@
      "note": "landing page or JS shell, not a document"
     },
     {
-     "rung": "unpaywall",
-     "note": "unpaywall non-JSON"
+     "rung": "oa_locations+hop",
+     "url": "https://arxiv.org/pdf/2606.02362",
+     "http": "200",
+     "note": "336 KB"
     }
    ],
-   "status": "landing_only"
+   "status": "have",
+   "via": "oa_locations+hop"
   },
   "W7163598424": {
    "cell": "CYCLE_TEST",
@@ -1629,6 +1763,12 @@
    "attempts": [
     {
      "rung": "oa_locations",
+     "url": "https://doi.org/10.1086/724047",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    },
+    {
+     "rung": "oa_locations",
      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12726969/pdf/nihms-2049132.pdf",
      "http": "200",
      "note": "landing page or JS shell, not a document"
@@ -1646,7 +1786,7 @@
      "note": "landing page or JS shell, not a document"
     }
    ],
-   "status": "landing_only"
+   "status": "blocked"
   },
   "W7117339285": {
    "cell": "MIXED_COHORT_MARRIAGE",
@@ -1719,10 +1859,17 @@
    "year": "2019",
    "doi": "10.1093/ej/uez027",
    "rungs_found": [
+    "oa_locations",
     "repec",
     "unpaywall"
    ],
    "attempts": [
+    {
+     "rung": "oa_locations",
+     "url": "https://doi.org/10.1093/ej/uez027",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    },
     {
      "rung": "repec",
      "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2610754",
@@ -1738,6 +1885,12 @@
     {
      "rung": "repec",
      "url": "http://www.cepr.org/active/publications/discussion_papers/dp.php?dpno=10619",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "http://hdl.handle.net/10.1093/ej/uez027",
      "http": "403",
      "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
     },
@@ -1803,9 +1956,22 @@
    "year": "2020",
    "doi": "",
    "rungs_found": [
+    "oa_locations",
     "repec"
    ],
    "attempts": [
+    {
+     "rung": "oa_locations",
+     "url": "http://aphrodite.uom.gr/econwp/pdf/dp012020.pdf",
+     "http": "000",
+     "note": "curl rc=28"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "http://aphrodite.uom.gr/econwp/pdf/dp012020.pdf",
+     "http": "000",
+     "note": "curl rc=28"
+    },
     {
      "rung": "repec",
      "url": "https://ideas.repec.org/p/mcd/mcddps/2020_01.html",
@@ -1833,6 +1999,12 @@
    "attempts": [
     {
      "rung": "oa_locations",
+     "url": "https://doi.org/10.1093/oso/9780198288183.003.0003",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    },
+    {
+     "rung": "oa_locations",
      "url": "http://deepblue.lib.umich.edu/bitstream/2027.42/101112/1/ECON095.pdf",
      "http": "200",
      "note": "too small \u2014 interstitial or error page"
@@ -1854,6 +2026,24 @@
      "url": "http://www.escholarship.org/uc/item/9w1371kd",
      "http": "202",
      "note": "BLOCKED (202 interstitial) \u2014 a challenge page, not a paywall. 403 is not the only shape bot defence takes"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "http://repositories.cdlib.org/cgi/viewcontent.cgi?article=1162&context=ucsbecon",
+     "http": "202",
+     "note": "BLOCKED (202 interstitial) \u2014 a challenge page, not a paywall. 403 is not the only shape bot defence takes"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "https://escholarship.org/uc/item/9w1371kd",
+     "http": "202",
+     "note": "BLOCKED (202 interstitial) \u2014 a challenge page, not a paywall. 403 is not the only shape bot defence takes"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "http://deepblue.lib.umich.edu/bitstream/2027.42/101112/1/ECON095.pdf",
+     "http": "200",
+     "note": "too small \u2014 interstitial or error page"
     },
     {
      "rung": "unpaywall",
@@ -1961,6 +2151,18 @@
      "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
     },
     {
+     "rung": "oa_locations",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/7227580",
+     "http": "203",
+     "note": "too small \u2014 interstitial or error page"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "http://hdl.handle.net/10.2307/2061088",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    },
+    {
      "rung": "unpaywall",
      "url": "https://read.dukeupress.edu/demography/article-pdf/18/2/123/905301/123macdonald.pdf",
      "http": "403",
@@ -2004,6 +2206,18 @@
     {
      "rung": "oa_locations",
      "url": "https://doi.org/10.2307/2061232",
+     "http": "403",
+     "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/6862059",
+     "http": "203",
+     "note": "too small \u2014 interstitial or error page"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "http://hdl.handle.net/10.2307/2061232",
      "http": "403",
      "note": "BLOCKED (403) \u2014 bot defence on an open URL, NOT a paywall"
     },
@@ -2178,14 +2392,33 @@
    "year": "2011",
    "doi": "",
    "rungs_found": [
+    "oa_locations",
     "repec"
    ],
    "attempts": [
+    {
+     "rung": "oa_locations",
+     "url": "http://www.esri.go.jp/jp/archive/bun/bun185/bun185c.pdf",
+     "http": "000",
+     "note": "curl rc=6"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "http://www.esri.go.jp/jp/archive/bun/bun185/bun185c.pdf",
+     "http": "000",
+     "note": "curl rc=6"
+    },
     {
      "rung": "repec",
      "url": "https://econpapers.repec.org/RePEc:esj:esriea:185c",
      "http": "200",
      "note": "landing page or JS shell, not a document"
+    },
+    {
+     "rung": "repec+hop",
+     "url": "http://www.esri.go.jp/jp/archive/bun/bun185/bun185c.pdf",
+     "http": "000",
+     "note": "curl rc=6"
     },
     {
      "rung": "repec+hop",
@@ -2383,12 +2616,13 @@
     },
     {
      "rung": "repec+hop",
-     "url": "https://EconPapers.repec.org/scripts/redir.pf?u=https%3A%2F%2Fecon-papers.upf.edu%2Fpapers%2F1453.pdf;h=repec:upf:upfgen:1453",
+     "url": "https://econ-papers.upf.edu/papers/1453.pdf",
      "http": "200",
-     "note": "landing page or JS shell, not a document"
+     "note": "358 KB"
     }
    ],
-   "status": "blocked"
+   "status": "have",
+   "via": "repec+hop"
   },
   "W7160416708": {
    "cell": "RELATIVE_INCOME_FERTILITY",
@@ -2593,12 +2827,13 @@
     },
     {
      "rung": "repec+hop",
-     "url": "https://EconPapers.repec.org/scripts/redir.pf?u=http%3A%2F%2Fwww.accessecon.com%2FPubs%2FEB%2F2019%2FVolume39%2FEB-19-V39-I2-P86.pdf;h=repec",
+     "url": "http://www.accessecon.com/Pubs/EB/2019/Volume39/EB-19-V39-I2-P86.pdf",
      "http": "200",
-     "note": "landing page or JS shell, not a document"
+     "note": "310 KB"
     }
    ],
-   "status": "landing_only"
+   "status": "have",
+   "via": "repec+hop"
   },
   "W2252586419": {
    "cell": "RIVAL_TEST",
@@ -2606,9 +2841,34 @@
    "year": "2008",
    "doi": "",
    "rungs_found": [
+    "oa_locations",
     "repec"
    ],
    "attempts": [
+    {
+     "rung": "oa_locations",
+     "url": "http://www.esri.go.jp/jp/archive/bun/bun180/bun180a.pdf",
+     "http": "000",
+     "note": "curl rc=6"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "http://www.esri.go.jp/jp/archive/bun/bun180/bun180a.pdf",
+     "http": "000",
+     "note": "curl rc=6"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "http://www.esri.go.jp/jp/archive/bun/bun181/bun181a.pdf",
+     "http": "000",
+     "note": "curl rc=6"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "http://www.esri.go.jp/jp/archive/bun/bun181/bun181a.pdf",
+     "http": "000",
+     "note": "curl rc=6"
+    },
     {
      "rung": "repec",
      "url": "https://econpapers.repec.org/RePEc:esj:esriea:180a",
@@ -2755,16 +3015,19 @@
     },
     {
      "rung": "oa_locations",
-     "url": "https://doi.org/10.48720/iab.dp.2227",
+     "url": "https://www.crctr224.de/en/research-output/discussion-papers/discussion-papers#DP142",
      "http": "200",
      "note": "landing page or JS shell, not a document"
     },
     {
-     "rung": "unpaywall",
-     "note": "unpaywall non-JSON"
+     "rung": "oa_locations",
+     "url": "https://www.crctr224.de/research/discussion-papers/archive/dp142",
+     "http": "200",
+     "note": "2503 KB"
     }
    ],
-   "status": "landing_only"
+   "status": "have",
+   "via": "oa_locations"
   },
   "W2140909212": {
    "cell": "RIVAL_TEST",
@@ -2820,6 +3083,18 @@
     {
      "rung": "oa_locations",
      "url": "https://doi.org/10.7202/600612ar",
+     "http": "200",
+     "note": "too small \u2014 interstitial or error page"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/12268998",
+     "http": "203",
+     "note": "too small \u2014 interstitial or error page"
+    },
+    {
+     "rung": "oa_locations",
+     "url": "http://id.erudit.org/iderudit/600612ar",
      "http": "200",
      "note": "too small \u2014 interstitial or error page"
     },
@@ -2939,12 +3214,13 @@
     },
     {
      "rung": "repec+hop",
-     "url": "https://EconPapers.repec.org/scripts/redir.pf?u=http%3A%2F%2Fwww.cliometrie.org%2Fimages%2Fwp%2FAFC_WP_03-2005.pdf;h=repec:afc:wpaper:05-03",
+     "url": "http://www.cliometrie.org/images/wp/AFC_WP_03-2005.pdf",
      "http": "200",
-     "note": "landing page or JS shell, not a document"
+     "note": "344 KB"
     }
    ],
-   "status": "landing_only"
+   "status": "have",
+   "via": "repec+hop"
   },
   "W3122651457": {
    "cell": "RIVAL_TEST",
@@ -2990,34 +3266,49 @@
    "status": "blocked"
   }
  },
- "last_pass_n": 19,
+ "last_pass_n": 28,
  "last_pass_ids": [
-  "W1027588031",
-  "W1514847978",
-  "W1548937558",
-  "W1549671565",
-  "W1827173338",
-  "W1989526901",
-  "W2041439812",
-  "W2088709176",
-  "W2097443099",
-  "W2103311117",
-  "W2734359938",
-  "W2754794359",
-  "W2885834959",
-  "W3123365169",
-  "W4210484104",
-  "W4390669034",
-  "W7144173156",
-  "W7163598424",
-  "W7165438111"
+  "W143771925",
+  "W1509301874",
+  "W1510320434",
+  "W1523271267",
+  "W1578287828",
+  "W1586476858",
+  "W1605318112",
+  "W1992628433",
+  "W2012524273",
+  "W2063476582",
+  "W2070087063",
+  "W2079240151",
+  "W2127054757",
+  "W2150140465",
+  "W2181558514",
+  "W2205405475",
+  "W2252586419",
+  "W2260582785",
+  "W3007964634",
+  "W3014487108",
+  "W3122262971",
+  "W3122371138",
+  "W3122651457",
+  "W3123292807",
+  "W3126051512",
+  "W4244320184",
+  "W4403418534",
+  "W7163138335"
  ],
- "probed_per_rung": {},
- "found_per_rung": {},
+ "probed_per_rung": {
+  "oa_locations": 69,
+  "unpaywall": 19,
+  "pmc_bioc": 7,
+  "repec": 16
+ },
+ "found_per_rung": {
+  "oa_locations": 69,
+  "unpaywall": 15,
+  "repec": 16
+ },
  "fetched_per_rung": {
-  "repec": 4,
-  "oa_locations": 12,
-  "oa_locations+hop": 2,
-  "unpaywall": 1
+  "oa_locations+hop": 2
  }
 }
