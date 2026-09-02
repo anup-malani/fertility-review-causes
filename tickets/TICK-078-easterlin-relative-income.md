@@ -245,3 +245,49 @@ neighbouring literatures, which is the `snowball-pools-omit-their-own-seeds` fai
 - **Outstanding: 545 records in three strata** — `multi_arm` 374, `free_seed_only` 98,
   `arm_only_cycle` 73.
 
+### 2026-09-02 — screen COMPLETE: 709 of 709, blind sensitivity 31/31
+
+- All seven strata finished. Validation clean: every verdict id on a sheet, no id routed twice, no
+  stratum left partial. **Blind sensitivity 31/31 (100%)** — the anchors sat in the sheets unmarked
+  and `312_` is the first place they are identified.
+- **Yield 141/709 primary (19.9%); 293/709 (41.3%) kept in some cell.**
+
+| cell | n | |
+|---|---|---|
+| `CYCLE_TEST` | **46** | the cell the scope worried had no retrievable vocabulary |
+| `COHORT_SIZE_FERTILITY` | 32 | |
+| `RELATIVE_INCOME_FERTILITY` | 29 | |
+| `RIVAL_TEST` | 29 | Butz–Ward and the Chicago model, well populated |
+| `BOOM_ALTERNATIVE` | 18 | new cell, added mid-screen |
+| `MIXED_COHORT_MARRIAGE` | 15 | Wall 3, unallocated |
+| `BENCHMARK_MEASURED` | **5** | |
+| `LINK1_LABOUR` | 45 | context, never pooled |
+| `THEORY` | 74 | |
+
+- **`CYCLE_TEST` is the surprise, at 46.** Scope §2 separated the cycling claim from the reduced-form
+  claim and expected the former to be thin; the arm calibration reinforced that by finding only one
+  anchor. There is a substantial formal literature — Lee's feedback models, Samuelson's waves,
+  Wachter's *Elusive Cycles*, OLG and limit-cycle models, spectral analyses, and repeated forecasting
+  applications. This cell can carry the cycling claim on its own and must not be pooled with the
+  reduced-form cells.
+- **`BENCHMARK_MEASURED` finished at 5, not 0.** Scope §4 predicted the value-added cell might be
+  empty because studies proxy the parental-household standard rather than measuring it. Five measure
+  something closer to it: two Great Recession *resources-and-aspirations* papers, a test using
+  **income for two generations**, subjective relative affluence, and the Depression-scarcity
+  life-course study. Thin, but the cell exists and it is where the chapter's strongest identification
+  claim will have to come from.
+- **A new cell was added mid-screen: `BOOM_ALTERNATIVE`** — competing explanations of the baby boom
+  itself (WWII female labour supply, household technology, war debt, mortgages, 1918 influenza,
+  unionisation). They are not evidence about Easterlin's mechanism, but they are evidence about how
+  much of the mechanism's own best case is already spoken for, which §5 demsig needs. Forcing them to
+  `OFF_OTHER` would have discarded exactly those records. **The four strata screened before the cell
+  existed were re-checked programmatically: zero affected records.**
+- **Retrieval artefacts worth recording.** (i) 14 of 47 `arm_only_rival` records are chapters of one
+  edited volume, each carrying the volume's table of contents as its abstract. (ii) The `rival` arm's
+  term `"Butz"` matched a paper on obese-rat reproduction whose co-author is named Butz — an
+  author-name homonym inside an exposure term. (iii) `multi_arm` contains ~20 near-duplicate
+  2025–26 preprints of two titles (*Life-Value Reflow*, *Ecological Loop Demography*), which inflate
+  a frame without adding a study.
+- **Next: full-text retrieval.** The 141 primary records plus 15 `MIXED_COHORT_MARRIAGE` are the
+  retrieval queue; `LINK1_LABOUR` and `THEORY` are context and are not retrieved in this pass.
+

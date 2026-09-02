@@ -1,5 +1,105 @@
 openalex,cell,stratum,year,title,venue,cited_by,is_anchor,note
 W1981297366,BENCHMARK_MEASURED,arm_only_easterlin,1981,Scarcity and Prosperity in Postwar Childbearing: Explorations From a Life Course Perspective,Journal of Family History,8,,"Depression scarcity then postwar prosperity, two 1920s birth cohorts -- the parental-era standard is measured, not proxied"
+W1987353646,BENCHMARK_MEASURED,multi_arm,1989,A test of the Easterlin fertility model using income for two generations and a comparison with the Becker model,Demography,11,,tests the Easterlin model using income for TWO GENERATIONS -- the parental standard measured
+W3123292807,BENCHMARK_MEASURED,multi_arm,2021,"Resources, aspirations and first births during the Great Recession",Advances in Life Course Research,13,,resources against aspirations and first births in the Great Recession
+W2272291772,BENCHMARK_MEASURED,multi_arm,1985,Subjective relative affluence and expected family size,Sociology and social research,1,,"SUBJECTIVE relative affluence and expected family size -- the benchmark elicited, not proxied"
+W3014487108,BENCHMARK_MEASURED,multi_arm,2020,Resources and aspirations during the Great Recession: the impact on the transition to motherhood,Figshare,0,,"twin: resources against aspirations, Great Recession first births"
+W3122622865,BOOM_ALTERNATIVE,free_seed_only,2005,The Baby Boom and Baby Bust,American Economic Review,238,,"what caused the baby boom, inside the secular decline"
+W2135497181,BOOM_ALTERNATIVE,free_seed_only,2015,The Baby Boom and World War II: A Macroeconomic Analysis,The Review of Economic Studies,152,,WWII female labour supply as the cause of the US boom
+W2148109971,BOOM_ALTERNATIVE,free_seed_only,2011,"Did Improvements in Household Technology Cause the Baby Boom? Evidence from Electrification, Appliance Diffusion, and the Amish",American Economic Journal Macroeconomics,70,,household technology tested as a cause of the boom -- finds no support
+W2139556376,BOOM_ALTERNATIVE,free_seed_only,2009,War Debt and the Baby Boom,Munich Personal RePEc Archive (Ludwig Maximilian University of Munich),3,,the postwar drop in the debt-GDP ratio as the cause
+W2112145823,BOOM_ALTERNATIVE,free_seed_only,2010,Maternal Health and the Baby Boom,Quantitative Economics,3,,maternal health and the boom
+W2224046657,BOOM_ALTERNATIVE,free_seed_only,2014,"Homes and husbands for all: Marriage, housing and the baby boom",RePEc: Research Papers in Economics,7,,marriage and housing -- homes and husbands for all
+W4407337151,BOOM_ALTERNATIVE,free_seed_only,2025,Did the Modern Mortgage Set the Stage for the U.S. Baby Boom?,SSRN Electronic Journal,0,,the modern mortgage and the US boom
+W4400036027,BOOM_ALTERNATIVE,free_seed_only,2024,Did Organized Labor Induce Labor? Unionization and the American Baby Boom,SSRN Electronic Journal,3,,unionisation and the American baby boom
+W3164039973,BOOM_ALTERNATIVE,free_seed_only,2021,"World War II, the Baby Boom, and Employment: County-Level Evidence",Journal of Labor Economics,26,,"WWII male casualties -> fertility and female employment, county level"
+W2104481226,BOOM_ALTERNATIVE,free_seed_only,2004,Can the Spanish Influenza Pandemic of 1918 Explain the Baby Boom of 1920 in Neutral Norway?,Population (English Edition),43,,Spanish influenza as the explanation of Norway's 1920 boom
+W4362523973,BOOM_ALTERNATIVE,free_seed_only,2023,Did the 1918 influenza pandemic cause a 1920 baby boom? Demographic evidence from neutral Europe,Population Studies,10,,1918 influenza and the 1920 boom across neutral Europe
+W2770972544,BOOM_ALTERNATIVE,free_seed_only,2017,A reversal of the socioeconomic gradient of nuptiality during the Swedish mid-20th-century baby boom,Demographic Research,9,,reversal of the socioeconomic gradient of nuptiality in the Swedish boom
+W2564432549,BOOM_ALTERNATIVE,free_seed_only,2017,"Marital Fertility and Educational Assortative Mating before, during, and after the Baby Boom in Belgium",Annales de Démographie Historique,10,,"educational assortative mating before, during and after the boom"
+W2093827718,BOOM_ALTERNATIVE,free_seed_only,2009,Subreplacement fertility in the West before the baby boom: Past and current perspectives,Population Studies,128,,sub-replacement fertility in the West BEFORE the boom
+W1548500100,BOOM_ALTERNATIVE,free_seed_only,2011,"Black and White Fertility, Differential Baby Booms: The Value of Civil Rights (Equal Opportunity for Education)",RePEc: Research Papers in Economics,1,,black and white differential baby booms; equal opportunity
+W2106038707,BOOM_ALTERNATIVE,free_seed_only,2012,"Black and White Fertility, Differential Baby Booms: The Value of Civil Rights",Munich Personal RePEc Archive (Ludwig Maximilian University of Munich),0,,twin of the civil-rights differential-booms paper
+W2331598135,BOOM_ALTERNATIVE,free_seed_only,2016,"BLACK AND WHITE FERTILITY, DIFFERENTIAL BABY BOOMS: THE VALUE OF EQUAL EDUCATION OPPORTUNITY",Journal of Demographic Economics,31,,"twin, equal education opportunity version"
+W2887940459,BOOM_ALTERNATIVE,free_seed_only,2016,Trajectoires familiales et professionnelles durant le baby boom en Suisse: continuités et ruptures parmi les générations féminines,Archive ouverte UNIGE (University of Geneva),0,,family and occupational trajectories through the Swiss boom
+W2085786802,COHORT_SIZE_FERTILITY,multi_arm,1993,Relative Cohort Size and Fertility: The Socio-Political Context of the Easterlin Effect,American Sociological Review,62,yes,"Pampel: relative cohort size -> fertility, conditioned on social protection"
+W2101704947,COHORT_SIZE_FERTILITY,multi_arm,2000,Relative Cohort Size: Source of a Unifying Theory of Global Fertility Transition?,Population and Development Review,56,yes,"Macunovich: relative cohort size across 184 countries, 1950-"
+W1992628433,COHORT_SIZE_FERTILITY,multi_arm,2005,Meta-analysis of the impact of age structure on fertility,Journal of Population Economics,50,yes,meta-analysis of age structure on fertility
+W1986354126,COHORT_SIZE_FERTILITY,multi_arm,1989,The Easterlin Hypothesis and European Fertility Rates,Population and Development Review,42,yes,Wright: the Easterlin hypothesis against European fertility rates
+W2079547700,COHORT_SIZE_FERTILITY,multi_arm,2005,The Easterlin hypothesis in the recent experience of higher-income OECD countries: A panel-data approach,Journal of Population Economics,36,,panel test of the Easterlin hypothesis in higher-income OECD countries
+W2017509630,COHORT_SIZE_FERTILITY,multi_arm,2008,Age–Period–Cohort Decomposition of U.S. and Japanese Birth Rates,Population Research and Policy Review,17,,age-period-cohort decomposition of US and Japanese birth rates
+W2094635454,COHORT_SIZE_FERTILITY,multi_arm,1988,Socio-economic effects of relative income and relative cohort size,Social Science Research,15,,socio-economic effects of relative income and relative cohort size
+W2036366128,COHORT_SIZE_FERTILITY,multi_arm,1991,On testing Easterlin's hypothesis using relative cohort size as a proxy for relative income,Journal of Population Economics,12,,tests whether relative cohort size is a valid PROXY for relative income
+W1994515362,COHORT_SIZE_FERTILITY,multi_arm,1986,A relative cohort size forecasting model of Canadian total live births,Biodemography and Social Biology,11,,relative-cohort-size forecasting model of Canadian live births
+W2093187833,COHORT_SIZE_FERTILITY,multi_arm,1987,Canadian fertility trends: a further test of the Easterlin Hypothesis,Canadian Review of Sociology/Revue canadienne de sociologie,10,,a further test of the Easterlin hypothesis on Canadian fertility
+W2097443099,COHORT_SIZE_FERTILITY,multi_arm,2008,"The Impact of Relative Cohort Size on U.S. Fertility, 1913-2001",RePEc: Research Papers in Economics,3,,relative cohort size -> US fertility 1913-2001
+W1523271267,COHORT_SIZE_FERTILITY,multi_arm,2007,Fertility and relative cohort size,RePEc: Research Papers in Economics,1,,fertility and relative cohort size
+W2041439812,COHORT_SIZE_FERTILITY,multi_arm,2014,Relative Cohort Size and Fertility in Latin America and the Caribbean: A Panel Data Approach,Research in World Economy,1,,"relative cohort size and fertility, Latin America panel"
+W2497447152,COHORT_SIZE_FERTILITY,multi_arm,2002,Relative Cohort Size and Fertility,,1,,"relative cohort size and fertility, US young women"
+W1027588031,COHORT_SIZE_FERTILITY,multi_arm,2015,The Effect of Relative Cohort Size on Fertility: Assessing the Importance of the Easterlin Hypothesis Today,Lund University Publications Student Papers (Lund University),0,,assessing the importance of the Easterlin effect on fertility
+W1510320434,COHORT_SIZE_FERTILITY,multi_arm,2011,"The Role of Relative Cohort Size, and Relative Income in the Demographic Transition",SSRN Electronic Journal,3,,relative cohort size and relative income in the transition
+W3122262971,COHORT_SIZE_FERTILITY,multi_arm,2011,Relative Cohort Size: Source of a Unifying Theory of Global Fertility Transition,SSRN Electronic Journal,3,,twin of the unifying-theory paper
+W2001410463,COHORT_SIZE_FERTILITY,multi_arm,1991,Births and cohort size,Social Biology,5,,births and cohort size; tests Ahlburg's version of the model
+W1548937558,COHORT_SIZE_FERTILITY,multi_arm,2011,Re-Visiting the Easterlin Hypothesis: U.S. Fertility 1968-2010,SSRN Electronic Journal,4,,"re-visiting the Easterlin hypothesis, US fertility 1968-2010"
+W2200617268,COHORT_SIZE_FERTILITY,multi_arm,1991,Measurement and analysis of cohort-size variations.,PubMed,4,,measures of cohort-size variation
+W2255840281,COHORT_SIZE_FERTILITY,multi_arm,1979,[Causes and consequences of age structure fluctuations: the Easterlin hypothesis].,PubMed,2,,causes and consequences of age-structure fluctuation under the hypothesis
+W2054767885,COHORT_SIZE_FERTILITY,multi_arm,1987,A Note on the Easterlin Model of Fertility in Northwestern Europe and the United States: 1950-1981,Comparative Sociology,7,,Easterlin model tested on NW European and US fertility
+W4237191528,COHORT_SIZE_FERTILITY,multi_arm,1987,A Note on the Easterlin Model of Fertility in Northwestern Europe and the United States: 1950-1981,International Journal of Comparative Sociology,4,,twin of the NW Europe note
+W2070087063,COHORT_SIZE_FERTILITY,multi_arm,2002,Spatial Dimensions of the Easterlin Hypothesis: Fertility Variations in Italy,Journal of Regional Science,0,,"spatial re-evaluation of the Easterlin hypothesis, Italian regions"
+W2276413219,COHORT_SIZE_FERTILITY,multi_arm,1987,[Births and cohort size: an empirical test of the Easterlin hypothesis].,PubMed,0,,an alternative specification of the Easterlin hypothesis on births and cohort size
+W2475481166,COHORT_SIZE_FERTILITY,multi_arm,2001,Relative Cohort Size and the Total Fertility Rate,,0,,relative cohort size and the TFR -- Birth Quake
+W2484820379,COHORT_SIZE_FERTILITY,multi_arm,2002,Relative Cohort Size Effects—Even in Developing Countries,,0,,relative cohort size effects in developing countries
+W2488050239,COHORT_SIZE_FERTILITY,multi_arm,2001,The Demographic Consequences of Changing Cohort Size and Female Work,,0,,"changing cohort size and female work, demographic consequences"
+W2488885282,COHORT_SIZE_FERTILITY,multi_arm,2001,Contextual Variation in the Determinants of Fertility,,0,,contextual variation in cohort-size effects
+W2497257810,COHORT_SIZE_FERTILITY,multi_arm,2001,Sociopolitical Sources of Demographic Divergence,,0,,sociopolitical sources of divergence in cohort-size effects
+W3122371138,COHORT_SIZE_FERTILITY,multi_arm,1999,The Role of Relative Cohort Size and Relative Income in the Demographic Transition,Population and Environment,0,,twin of the relative cohort size and income paper
+W3126051512,COHORT_SIZE_FERTILITY,multi_arm,1999,Relative Cohort Size: Source of a Unifying Theory of Global Fertility Transition,RePEc: Research Papers in Economics,0,,twin of the unifying-theory paper
+W2146944376,CYCLE_TEST,arm_only_cycle,1975,"Natural Fertility, Population Cycles and the Spectral Analysis of Births and Marriages",Journal of the American Statistical Association,28,,spectral analysis of birth and marriage series; natural fertility and population cycles
+W4240478754,CYCLE_TEST,arm_only_cycle,1975,"Natural Fertility, Population Cycles and the Spectral Analysis of Births and Marriages",Journal of the American Statistical Association,3,,twin record of the spectral-analysis study
+W2008743395,CYCLE_TEST,arm_only_cycle,1981,The problem of persistence in economic-demographic cycles,Theoretical Population Biology,8,,the persistence problem in economic-demographic cycles
+W2885834959,CYCLE_TEST,arm_only_cycle,2018,The impact of post-war birth cycles on modern demographic development of rural areas,The Agrarian Scientific Journal,1,,three post-war birth cycles and their propagation through rural demography
+W3001619904,CYCLE_TEST,arm_only_cycle,2019,Modeling of the Medium-Term Post-War Demographic Cycles in Russia,Economic Policy,1,,"simulates medium-term post-war demographic cycles, Russia"
+W1559380475,CYCLE_TEST,arm_only_cycle,2012,Współczesne społeczeństwo polskie przez pryzmat międzypokoleniowego dziedziczenia,DOAJ (DOAJ: Directory of Open Access Journals),0,,"demographic cycles as intertwined baby booms and busts, Poland; intergenerational"
+W4390669034,CYCLE_TEST,arm_only_cycle,2024,DZIMSTĪBAS TRAJEKTORIJA LATVIJĀ UN TĀS MATEMĀTISKĀ ANALĪZE,Sociālo Zinātņu Vēstnesis=Social Sciences Bulletin,0,,"medium-term birth trajectory, Latvia, by mathematical analysis"
+W2253451392,CYCLE_TEST,arm_only_cycle,1996,Responses of female labor supply and fertility to the demographic cycle.,PubMed,3,,women retime childbearing to mitigate the demographic cycle
+W1965582807,CYCLE_TEST,arm_only_cycle,1998,THE INTERACTING EFFECTS OF PRICES AND WEATHER ON POPULATION CYCLES IN A PREINDUSTRIAL COMMUNITY,Journal of Biosocial Science,18,,"prices, weather and population cycles at Penrith 1557-1812 -- pre-modern"
+W2763697449,CYCLE_TEST,free_seed_only,2017,Looking for Japan's missing third baby boom,Journal of obstetrics and gynaecology research,8,,Japan's MISSING third baby boom -- the echo that did not arrive
+W2103311117,CYCLE_TEST,free_seed_only,2016,Baby busts and baby booms: The fertility response to shocks in dynastic models,Review of Economic Dynamics,51,,boom and bust as the fertility response to shocks in dynastic models
+W1981202290,CYCLE_TEST,free_seed_only,2004,"The Dynamics of Fertility and Growth: Baby Boom, Bust and Bounce-Back",Contributions in Macroeconomics,19,,"baby boom, bust and bounce-back; fertility-growth dynamics"
+W2033116112,CYCLE_TEST,free_seed_only,2015,"Baby booms, busts, and population ageing in the developed world",Population Studies,59,,population ageing rooted in past fertility cycles
+W2012524273,CYCLE_TEST,multi_arm,1974,"The Formal Dynamics of Controlled Populations and the Echo, the Boom and the Bust",Demography,162,yes,"Lee: formal dynamics of the echo, the boom and the bust"
+W1996984725,CYCLE_TEST,multi_arm,1976,Demographic Forecasting and the Easterlin Hypothesis,Population and Development Review,52,,forecasting fertility fluctuations under the Easterlin hypothesis
+W2070549219,CYCLE_TEST,multi_arm,1991,Elusive Cycles: Are there Dynamically Possible Lee-Easterlin Models for U.S. Births?,Population Studies,51,yes,are dynamically possible Lee-Easterlin models of US births available
+W2063476582,CYCLE_TEST,multi_arm,1983,Limit cycle oscillations of the human population,Demography,41,,limit-cycle oscillations of an age-structured human population
+W1982044215,CYCLE_TEST,multi_arm,1983,"Good times, bad times: A study of the future path of U. S. fertility",Biodemography and Social Biology,39,,a relative-cohort-size model used to forecast US fertility
+W2044925113,CYCLE_TEST,multi_arm,1976,The Easterlin Hypothesis: Another Aspect of the Echo to Consider,Population and Development Review,35,,another aspect of the echo in the Easterlin concept
+W2004253433,CYCLE_TEST,multi_arm,1990,"Capital accumulation, endogenous population growth, and Easterlin cycles",Journal of Population Economics,32,,"capital accumulation, endogenous population growth and Easterlin cycles"
+W1545327802,CYCLE_TEST,multi_arm,1989,Endogenous Fluctuations in the Barro-Becker Theory of Fertility,Studies in contemporary economics,30,,endogenous fluctuations in Barro-Becker fertility
+W2280813871,CYCLE_TEST,multi_arm,1982,The new Kuznets cycle: a test of the Easterlin-Wachter-Wachter hypothesis.,PubMed,26,,the new Kuznets cycle; test of Easterlin-Wachter-Wachter
+W1978464389,CYCLE_TEST,multi_arm,1981,A Reconsideration of Easterlin Cycles,Population Studies,23,,a reconsideration of Easterlin cycles
+W4245372435,CYCLE_TEST,multi_arm,1981,A reconsideration of Easterlin cycles,Population Studies,10,,twin of the reconsideration paper
+W1709838505,CYCLE_TEST,multi_arm,1983,La notion de cycle en démographie. La fécondité post-transitionnelle est-elle cyclique?,Population,18,,is post-transitional fertility cyclical
+W2065021598,CYCLE_TEST,multi_arm,1995,Toward a general analysis of endogenous Easterlin cycles,Journal of Population Economics,18,,a general analysis of endogenous Easterlin cycles
+W2001684172,CYCLE_TEST,multi_arm,1992,"Inverted Easterlin Fertility Cycles and Kornai's ""Soft"" Budget Constraint",Population and Development Review,16,,inverted Easterlin cycles under a soft budget constraint
+W2299850506,CYCLE_TEST,multi_arm,1982,Postwar fertility cycles and the Easterlin hypothesis: a life-cycle approach.,PubMed,15,,"postwar fertility cycles, life-cycle approach"
+W2048156563,CYCLE_TEST,multi_arm,1989,Self-generated fertility waves in a non-linear continuous overlapping generations model,Journal of Population Economics,14,,self-generated fertility waves in a continuous OLG model
+W128046232,CYCLE_TEST,multi_arm,1984,Graphic tests of Easterlin's hypothesis: science or art?,PubMed,8,,graphic tests of Easterlin's hypothesis -- science or art
+W2048252691,CYCLE_TEST,multi_arm,1980,Forecasting births in Greater London: An application of the easterlin hypothesis,Population Studies,8,,forecasting London births from the Easterlin hypothesis
+W2079182865,CYCLE_TEST,multi_arm,1997,Exploring cyclic net reproduction,Mathematical Population Studies,8,,closed-form birth trajectories under cyclic net reproduction
+W2106901393,CYCLE_TEST,multi_arm,1994,The cohort feedback model with symmetric net maternity,Mathematical Population Studies,5,,cohort feedback model with symmetric net maternity
+W2009575204,CYCLE_TEST,multi_arm,1989,Fertility forecasts and structural interpretations: an application to London and England and Wales,Espace populations sociétés,3,,fertility forecasts as control cycles
+W2130177755,CYCLE_TEST,multi_arm,2001,Baby Booms and Baby Busts in the Twentieth Century,Elsevier eBooks,2,,baby booms and busts in the twentieth century
+W2198356993,CYCLE_TEST,multi_arm,2001,Population Cycles and Demographic Behavior,Elsevier eBooks,1,,population cycles and demographic behaviour
+W143771925,CYCLE_TEST,multi_arm,2008,Cycles post-transitionnels et modèles proie-prédateur,Cahiers québécois de démographie,0,,post-transitional cycles and predator-prey models of fertility
+W1509301874,CYCLE_TEST,multi_arm,1999,Population Dynamics and Labour Force Participation within Goodwin Type Growth-Cycle Models,RePEc: Research Papers in Economics,0,,population dynamics in Goodwin growth-cycle models
+W2033547631,CYCLE_TEST,multi_arm,1983,An economic-demographic approach to forecasting national and subnational birth rates,Socio-Economic Planning Sciences,0,,economic-demographic forecasting of national and subnational birth rates
+W3105895495,CYCLE_TEST,multi_arm,1998,Easterlin Cycles: Fertility and the Labor Market,Oxford University Press eBooks,0,,Easterlin cycles: fertility and the labour market
+W4390310817,CYCLE_TEST,multi_arm,1983,La notion de cycle en démographie. La fécondité post-transitionnelle est-elle cyclique ?,Population,0,,twin of the post-transitional cyclicality paper
+W7163138335,CYCLE_TEST,multi_arm,2026,Endogenous Fertility Waves and the Dynamics of Utility in an Overlapping Generations Model,arXiv (Cornell University),0,,conditions under which the Easterlin hypothesis holds in a neoclassical OLG model
+W7163598424,CYCLE_TEST,multi_arm,2026,Endogenous Fertility Waves and the Dynamics of Utility in an Overlapping Generations Model,arXiv (Cornell University),0,,twin of the endogenous fertility waves paper
+W7165438111,CYCLE_TEST,multi_arm,2026,"Changing Patterns of Fertility in Sweden: A Time Series Analysis of Structural Breaks and Sequential Detection, 1950–2025",Lund University Publications Student Papers (Lund University),0,,structural breaks in long-run Swedish fertility
+W4248042928,CYCLE_TEST,multi_arm,2018,Fertility Trends and Homeostatic Mechanisms in The United States,,0,,fertility trends and homeostatic mechanisms in the US
+W7144173156,CYCLE_TEST,multi_arm,2000,1970年代半ばからの合計出生率低下 : コーホート出生率によるシミュレーション分析,Institutional Repositories DataBase (IRDB),0,,cohort simulation of the post-1975 Japanese TFR decline
 W2085438457,INSUFFICIENT_INFO,arm_only_marriage-boundary,2012,Superstition effects versus cohort effects: is it bad luck to be born in the year of the fire horse in Japan?,Review of Economics of the Household,9,,"superstition vs cohort effects, fire-horse year; no abstract, outcome not visible"
 W1986108524,INSUFFICIENT_INFO,arm_only_rival,2002,A note on the changing relationship between fertility and female employment rates in developed countries,Journal of Population Economics,632,,fertility and female employment rates in developed countries; no abstract
 W2262483616,INSUFFICIENT_INFO,arm_only_easterlin,1981,A stock adjustment model of U.S. marital fertility.,PubMed,2,,stock-adjustment model of US marital fertility; cannot tell from the abstract whether it tests oscillation
@@ -12,6 +112,43 @@ W2005943790,LINK1_LABOUR,arm_only_easterlin,1994,Demographic aspects on the labo
 W2021835352,LINK1_LABOUR,arm_only_easterlin,1982,Intergenerational Differences in Income: An Analysis of Japan,Population and Development Review,0,,"intergenerational income differences, Japan. Outcome is income"
 W2015959347,LINK1_LABOUR,arm_only_easterlin,1980,The Labor Market and Illegal Immigration: The Outlook for the 1980S,Industrial and Labor Relations Review,9,,labour-supply forecast built on recent low fertility -- cohort size -> labour market
 W1871988388,LINK1_LABOUR,arm_only_easterlin,2001,Why Did Black Relative Earnings Surge in the Early 1990s?,Journal of Economic Issues,0,,black relative earnings surge; outcome is earnings
+W2058029498,LINK1_LABOUR,free_seed_only,1988,Educational Attainment and Cohort Size,Journal of Labor Economics,67,yes,the boom caused fluctuations in the returns to education
+W2020618503,LINK1_LABOUR,free_seed_only,2005,"Life-cycle earnings, cohort size effects and social security: a quantitative exploration",Journal of Public Economics,50,yes,cohort size effects in life-cycle earnings and social security
+W4200232215,LINK1_LABOUR,free_seed_only,2021,The use of a Cohort Size Shrinkage Index (CSSI) to quantify regional famine intensity during the Chinese famine of 1959-1961,medRxiv,14,yes,Cohort Size Shrinkage Index as a famine-intensity measure
+W3134611170,LINK1_LABOUR,free_seed_only,2022,Birth order and the decline in college completion among the baby boom generation,Economic Inquiry,2,,birth order shifts in the boom -> college completion
+W2098355289,LINK1_LABOUR,multi_arm,2009,Accounting for wage and employment changes in the US from 1968–2000: A dynamic model of labor market equilibrium,Journal of Econometrics,87,,"wage and employment changes 1968-2000, dynamic labour model"
+W1985659841,LINK1_LABOUR,multi_arm,1987,"Political Alienation, Cohort Size, and the Easterlin Hypothesis",American Sociological Review,48,,cohort crowding tested on political alienation
+W1567432773,LINK1_LABOUR,multi_arm,1998,Generations and the Distribution of Economic Well-Being A Cross-National View,Econstor (Econstor),47,,"economic well-being across cohorts, four countries"
+W2060242132,LINK1_LABOUR,multi_arm,2000,RELATIVE COHORT SIZE AND AGE‐SPECIFIC ARREST RATES: A CONDITIONAL INTERPRETATION OF THE EASTERLIN EFFECT*,Criminology,42,,relative cohort size -> age-specific arrest rates
+W1983552477,LINK1_LABOUR,multi_arm,2006,A cohort analysis of female labor participation rates in the U.S. and Japan,Review of Economics of the Household,18,,"cohort analysis of female participation, US and Japan"
+W2027433860,LINK1_LABOUR,multi_arm,1995,The Effect of Cohort Composition on Human Capital Accumulation across Generations,Journal of Labor Economics,11,,cohort composition -> human capital across generations
+W1547370155,LINK1_LABOUR,multi_arm,1994,The Demographics of Labour Turnover: A Comparison of Ordinal Probit and Censored Count Data Models,,10,,demographics of labour turnover
+W4205896731,LINK1_LABOUR,multi_arm,2022,Lonely in a Crowd: Cohort Size and Happiness in the United Kingdom,Journal of Happiness Studies,9,,cohort size -> happiness in the UK
+W1998259994,LINK1_LABOUR,multi_arm,2012,"Relative Cohort Size, Relative Income, and Married Women's Labor Force Participation: United States, 1968–2010",Population and Development Review,8,,relative cohort size and relative income -> married women's participation
+W3121546369,LINK1_LABOUR,multi_arm,1997,Cohort Crowding and Youth Labor Markets (A Cross-National Analysis),RePEc: Research Papers in Economics,7,,twin of Korenman and Neumark
+W3022981232,LINK1_LABOUR,multi_arm,2013,The cohort size-wage relationship in Europe,RePEc: Research Papers in Economics,6,,the cohort size-wage relationship in Europe
+W1579326526,LINK1_LABOUR,multi_arm,1984,Cohort size effects on employment and relative wages: the case of Japan,Medical Entomology and Zoology,4,,"cohort size on employment and relative wages, Japan"
+W2103669352,LINK1_LABOUR,multi_arm,2010,Do smaller labour market entry cohorts really reduce German unemployment,RePEc: Research Papers in Economics,1,,do small entry cohorts reduce German unemployment
+W3110430628,LINK1_LABOUR,multi_arm,2020,"Fertility, immigration, and lifetime wages under imperfect labor substitution",Journal of Demographic Economics,1,,birth cohort size and lifetime wages under imperfect substitution
+W3123197329,LINK1_LABOUR,multi_arm,1990,Cohort Size and Female Labor Supply,RePEc: Research Papers in Economics,3,,cohort size and female labour supply
+W2068038472,LINK1_LABOUR,multi_arm,1992,Cohort size and female labour supply,European Journal of Population / Revue européenne de Démographie,2,,twin of cohort size and female labour supply
+W3124002635,LINK1_LABOUR,multi_arm,2011,"Relative cohort size, relative income, and women's labor force participation 1968 - 2010",RePEc: Research Papers in Economics,1,,relative cohort size and women's participation 1968-2010
+W1551996466,LINK1_LABOUR,multi_arm,2011,"Relative Cohort Size, Relative Income, and Women's Labor Force Participation 1968-2010",SSRN Electronic Journal,5,,twin of the participation paper
+W3125049432,LINK1_LABOUR,multi_arm,1988,The Effect of Cohort Composition On Human Capital Accumulation Across Generations,RePEc: Research Papers in Economics,1,,twin of the cohort-composition human-capital paper
+W3121463215,LINK1_LABOUR,multi_arm,2006,Accounting for Wage and Employment Changes in the U.S. from 1968-2000: A Dynamic Model of Labor Market Equilibrium,RePEc: Research Papers in Economics,3,,twin of the wage/employment accounting paper
+W1525577648,LINK1_LABOUR,multi_arm,2006,"Accounting for Wage and Employment Changes in the U.S. From 1968-2000: A Dynamic Model of Labor Market Equilibrium, Second Version",SSRN Electronic Journal,2,,twin of the wage/employment accounting paper
+W3123911607,LINK1_LABOUR,multi_arm,1992,The Demographics of Labour Turnover: A Comparison of Ordinal Probit and Censored Count Data Models,Recherches économiques de Louvain,7,,twin of the labour-turnover paper
+W2053442331,LINK1_LABOUR,multi_arm,2012,The Decomposition of Economic Outcomes as a Result of Changes in Brazil’s Male Age–Education Structure,Population Research and Policy Review,6,,decomposition of Brazilian male age-education outcomes
+W4285286082,LINK1_LABOUR,multi_arm,2022,"Demographic Changes, Labor Supplies, Labor Complementarities, Calendar Annual Wages of Age Groups, and Cohort Life Wage Incomes",SSRN Electronic Journal,1,,"demographic change, labour complementarity and annual wages"
+W1571096061,LINK1_LABOUR,multi_arm,2010,Reassessing the Demography Hypothesis: the Great Brazilian Crime Shift,RePEc: Research Papers in Economics,2,,the demography hypothesis and Brazil's crime shift
+W2165748147,LINK1_LABOUR,multi_arm,2013,DOES COHORT SIZE MATTER TO RESIDENTIAL MOBILITY? THE CASE OF BARCELONA'S CENTRAL CITY 1,,0,,"cohort size and residential mobility, Barcelona"
+W2187529166,LINK1_LABOUR,multi_arm,2011,"The ""Lucky Few""? How Shrinking Cohort Size Affects Life-Course Chances",,0,yes,twin of The Lucky Few
+W2503628882,LINK1_LABOUR,multi_arm,2002,Population-Induced Economic Slumps,,0,,population-induced economic slumps
+W2977682032,LINK1_LABOUR,multi_arm,2018,The Impact of Cohort Size on Labour Force Participation in Canada,Journal of Applied Business and Economics,0,,cohort size and Canadian labour force participation
+W3021988936,LINK1_LABOUR,multi_arm,2018,The decomposition of economic outcomes as a result of changes in Brazil’s male age-education structure,,0,,twin of the Brazil decomposition
+W4410817943,LINK1_LABOUR,multi_arm,2023,"The age, period, and cohort effects on crime rates in the Republic of Korea",,0,,age-period-cohort effects on Korean crime rates
+W2987240887,LINK1_LABOUR,multi_arm,2019,"Czechoslovak pronatalist policy, cohort size and health: hierarchical age-period-cohort analysis of birth outcomes in the Czech Republic","University of Economics, Prague Oeconomica Publishing House eBooks",0,,"Czechoslovak pronatalist cohort size and later health, APC"
+W7161257737,LINK1_LABOUR,multi_arm,2026,"The pig in the python: US decennial labor flows and economic opportunity, 1910–2040",Proceedings of the National Academy of Sciences,0,,the pig in the python: US labour flows revisiting relative cohort size
 W2181558514,MIXED_COHORT_MARRIAGE,arm_only_marriage-boundary,2023,Cohort Size and the Marriage Market: Explaining Nearly a Century of Changes in US Marriage Rates,Journal of Labor Economics,19,yes,Bronson-Mazzocco: cohort size -> US marriage rates
 W7117339285,MIXED_COHORT_MARRIAGE,arm_only_marriage-boundary,2024,Cohort Size and the Marriage Market: Explaining Nearly a Century of Changes in US Marriage Rates.,PubMed,0,,twin record of the same study
 W2794044963,MIXED_COHORT_MARRIAGE,arm_only_marriage-boundary,2018,Cohort Size and the Marriage Market: What Explains the Negative Relationship?,,2,,explains the negative cohort-size/marriage relationship
@@ -23,11 +160,52 @@ W1514847978,MIXED_COHORT_MARRIAGE,arm_only_marriage-boundary,1996,MARRIAGE AND D
 W2186484750,MIXED_COHORT_MARRIAGE,arm_only_marriage-boundary,2006,Who suffered from the superstition in the marriage market? The case of Hinoeuma in Japan,,4,,"Hinoeuma 1966: a 25% single-year birth drop, marriage-market consequences"
 W4403418534,MIXED_COHORT_MARRIAGE,arm_only_marriage-boundary,2024,Did the Baby Boom Cause the Us Divorce Boom?,SSRN Electronic Journal,0,,did the baby boom cause the US divorce boom
 W3007964634,MIXED_COHORT_MARRIAGE,arm_only_marriage-boundary,2020,Why Young Adults Retreat from Marriage? An Easterlin Relative Income Approach,RePEc: Research Papers in Economics,0,,Easterlin relative income -> marriage rates for young adults
+W1605318112,MIXED_COHORT_MARRIAGE,multi_arm,1994,The Effects of Cohort Size on Marriage Markets in Twentieth-Century Sweden,,34,,"cohort size -> marriage markets, 20th-century Sweden"
+W3027277978,MIXED_COHORT_MARRIAGE,multi_arm,2004,"Marriage squeeze and changes in family formation: historical comparative evidence in Spain, France, and United States in the XXth century",Papers de demografia,4,,"cohort size and family formation in Spain, after Easterlin"
+W2092328687,MIXED_COHORT_MARRIAGE,multi_arm,2008,DEMOGRAPHIC DECOMPOSITION OF THE MARRIAGE MARKET IN ENGLAND AND WALES 1911–1991,Journal of Biosocial Science,6,,demographic decomposition of the England and Wales marriage market
+W4210484104,MIXED_COHORT_MARRIAGE,multi_arm,2022,Why Do Young Adults Retreat from Marriage? An Easterlin Relative Income Approach,Comparative Population Studies,1,yes,twin of the retreat-from-marriage paper
 W2009723125,OFF_ABSOLUTE_C1a,arm_only_easterlin,1994,The effect of income on fertility among Canadian women,Journal of Family and Economic Issues,3,,"income and fertility, Canadian women; absolute income"
 W1841152390,OFF_ABSOLUTE_C1a,arm_only_easterlin,2014,Essays on Income and Fertility: Sweden 1968-2009,Lund University Publications (Lund University),2,,"income and fertility, Sweden 1968-2009; absolute income"
 W2323612063,OFF_ABSOLUTE_C1a,arm_only_easterlin,1965,The Relation of Income and Fertility,Journal of Marriage and the Family,18,,"the relation of income and fertility, 1960 census; absolute income"
+W2275236082,OFF_ABSOLUTE_C1a,multi_arm,1983,The curvilinearity between income and fertility: evidence from Korea.,Seoul National University Open Repository (Seoul National University),1,,"curvilinearity of income and fertility, Korea -- absolute income"
 W2315743526,OFF_CLINICAL,arm_only_rival,1994,The First Documentation of Reproduction in a Genetically Obese Female fa/cp Rat,ILAR Journal,3,,reproduction in an obese rat. Matched the rival arm on the AUTHOR name Butz
 W4382934337,OFF_CLINICAL,arm_only_rival,2023,KEEPING YOUR OPTIONS OPEN: USING FINANCIAL DERIVATIVES TO MODEL THE VALUE OF UNDERGOING FERTILITY PRESERVATION,Fertility and Sterility,0,,financial derivatives to value fertility preservation
+W2117099751,OFF_CLINICAL,arm_only_cycle,2013,Dual trigger with combination of gonadotropin-releasing hormone agonist and human chorionic gonadotropin significantly improves the live-birth rate for normal responders in GnRH-antagonist cycles,Fertility and Sterility,167,,"GnRH agonist/hCG dual trigger, IVF"
+W2976706620,OFF_CLINICAL,arm_only_cycle,2019,"A 5-year analysis of demographics, cycle characteristics and reproductive outcomes of 907 egg freezing cycles in patients with diminished ovarian reserve and age-related fertility decline",Fertility and Sterility,10,,egg-donation treatment cycles
+W4308772316,OFF_CLINICAL,arm_only_cycle,2022,Do chromosomal inversion carriers really need preimplantation genetic testing?,Journal of Assisted Reproduction and Genetics,8,,preimplantation genetic testing
+W2104239838,OFF_CLINICAL,arm_only_cycle,2013,Estrogen priming GnRH antagonist regimen is an efficient protocol in poor responders,Fertility and Sterility,0,,estrogen priming GnRH antagonist protocol
+W2900910676,OFF_CLINICAL,arm_only_cycle,2018,Resultados de la inseminación artificial conyugal en un centro hospitalario no especializado durante los años 2001 y 2017,Medicina Reproductiva y Embriología Clínica,0,,intrauterine insemination outcomes
+W2147235628,OFF_CLINICAL,arm_only_cycle,1983,Modulation of the Estrous Cycle by Pheromones from Pregnant and Lactating Rats,Biology of Reproduction,25,,pheromonal modulation of the rat estrous cycle
+W191674627,OFF_CLINICAL,arm_only_cycle,1983,Synchronizing Ovarian and Birth Cycles by Female Pheromones,,23,,synchronising ovarian and birth cycles by pheromones
+W2043900859,OFF_CLINICAL,arm_only_cycle,1998,Density-dependent Prenatal Androgen Exposure as an Endogenous Mechanism for the Generation of Cycles in Small Mammal Populations,Journal of Theoretical Biology,10,,"prenatal androgen exposure, rodent"
+W2411860392,OFF_CLINICAL,arm_only_cycle,2010,"[Reproduction of European bank vole (Myodes glareolus, Rodentia) under conditions of natural geochemical anomalies].",PubMed,0,,bank vole reproduction
+W1992771063,OFF_CLINICAL,arm_only_cycle,1986,Seasonal fertility cycles in rural Egypt: behavioral and biological linkages.,PubMed,20,,"seasonality of births in rural Egypt -- seasonal, not cohort, cycles"
+W4298072246,OFF_CLINICAL,arm_only_cycle,1986,Seasonal fertility cycles in rural Egypt: Behavioral and biological linkages,Demography,17,,twin of the Egypt seasonality paper
+W976269522,OFF_CLINICAL,multi_arm,2015,Pregnancy outcome after exposure to the novel oral anticoagulant rivaroxaban in women at suspected risk for thromboembolic events: a case series from the German Embryotox Pharmacovigilance Centre,Clinical Research in Cardiology,70,,rivaroxaban exposure in pregnancy
+W2147562691,OFF_CLINICAL,multi_arm,2013,Caesarean delivery and subsequent pregnancy interval: a systematic review and meta-analysis,BMC Pregnancy and Childbirth,63,,caesarean and pregnancy interval
+W2049733011,OFF_CLINICAL,multi_arm,2013,Premature formation of nucleolar channel systems indicates advanced endometrial maturation following controlled ovarian hyperstimulation,Human Reproduction,57,,endometrial nucleolar channel systems
+W3187420747,OFF_CLINICAL,multi_arm,2021,The cyto-protective effects of LH on ovarian reserve and female fertility during exposure to gonadotoxic alkylating agents in an adult mouse model,Human Reproduction,37,,LH and mouse ovarian reserve
+W2785180944,OFF_CLINICAL,multi_arm,2018,Exogenous reproductive hormone use in breast cancer survivors and previvors,Nature Reviews Clinical Oncology,26,,reproductive hormones in breast cancer survivors
+W2341538228,OFF_CLINICAL,multi_arm,2015,"Ingestion of monosodium glutamate (MSG) in adult male rats reduces sperm count, testosterone, and disrupts testicular histology",eScholarship (California Digital Library),15,,MSG and rat sperm
+W2211733583,OFF_CLINICAL,multi_arm,2015,Why do array-CGH (ACGH) euploid embryos miscarry? Reanalysis by NGS reveals undetected abnormalities which would have prevented 56% of the miscarriages,Fertility and Sterility,11,,"euploid embryo miscarriage, NGS reanalysis"
+W3188147195,OFF_CLINICAL,multi_arm,2021,P–146 Differential impact of three embryo culture media for IVF on in vitro development and perinatal outcome: a single-center RCT,Human Reproduction,1,,embryo culture media RCT
+W4396744048,OFF_CLINICAL,multi_arm,2024,Interindividual variation in ovarian reserve after gonadotoxic treatment in female childhood cancer survivors – a genome-wide association study: results from PanCareLIFE,Fertility and Sterility,1,,ovarian reserve after gonadotoxic treatment
+W4400297299,OFF_CLINICAL,multi_arm,2024,"O-280 Vaginal microbiota transplant (VMT) without antibiotic pretreatment reveals changes in vaginal microbiota and immune profile in women with asymptomatic dysbiosis – a randomized, placebo-controlled trial",Human Reproduction,1,,vaginal microbiota transplant
+W2078650487,OFF_CLINICAL,multi_arm,2013,Strategy for euploid embryo banking,Fertility and Sterility,0,,euploid embryo banking
+W2892713338,OFF_CLINICAL,multi_arm,2018,288. Obstetric and renal outcomes of pregnant women with chronic kidney disease (CKD) stages 3–5,Pregnancy Hypertension,0,,pregnancy in chronic kidney disease
+W4235636136,OFF_CLINICAL,multi_arm,2010,Apport de l’homéopathie dans le traitement de la ménopause: effets du médicament ou de l’approche homéopathique?,La Revue d Homéopathie,0,,homeopathy for menopause
+W4319827366,OFF_CLINICAL,multi_arm,2023,Baby Steps Taken in Developing an Understanding of the Long-term Health Consequences of Pregnancy Complications in Living Kidney Donors,Transplantation,0,,living kidney donor outcomes
+W4391384571,OFF_CLINICAL,multi_arm,2024,11.25 What is the risk of recurrent concussion in children and adolescents aged 5–18 years? A systematic review and meta-analysis,,0,,repeat concussion in children
+W4411757597,OFF_CLINICAL,multi_arm,2025,P-379 Long-term Reproductive and Oncological Outcomes of Patients with Breast Cancer : Final analysis of the Brovale trial,Human Reproduction,0,,reproductive outcomes after breast cancer
+W7127606155,OFF_CLINICAL,multi_arm,2026,Contribution of endometrial microbiome to inflammation-mediated infertility in women undergoing ART,Human Reproduction,0,,endometrial microbiome and ART
+W7167662929,OFF_CLINICAL,multi_arm,2026,"L26/P-045 From seminal dysbiosis to endometrial resilience: High-resolution metagenomics, sperm DNA integrity and couple dynamics",Human Reproduction,0,,seminal dysbiosis and sperm DNA fragmentation
+W7167687374,OFF_CLINICAL,multi_arm,2026,L26/P-011 Does elevated sperm DNA fragmentation alter cumulative live birth rates in good-prognosis ICSI cycles using frozen single blastocyst transfer?,Human Reproduction,0,,sperm DNA fragmentation and live birth after ICSI
+W7167738474,OFF_CLINICAL,multi_arm,2026,"L26/O-167 Determinants of live birth and perinatal outcomes after single euploid embryo transfer: a multivariable analysis of 2,599 cycles",Human Reproduction,0,,live birth after single euploid transfer
+W7201858973,OFF_CLINICAL,multi_arm,2026,The Female Reproductive Microbiome: Mechanistic Insights and Bioengineering Perspectives,Biology,0,,the female reproductive microbiome
+W2124684663,OFF_COMPOSITION_A9,multi_arm,2008,"Stages of the Demographic Transition from a Child's Perspective: Family Size, Cohort Size, and Children's Resources",Population and Development Review,53,,"transition stages characterised by family size and cohort size, descriptive"
+W2943796994,OFF_COMPOSITION_A9,multi_arm,2004,The Demographic Gift in Australia,Agenda - A Journal of Policy Analysis and Reform,14,,the demographic gift -- age-structure accounting
+W4236875776,OFF_COMPOSITION_A9,multi_arm,2015,Education Effects of the Demographic Dividend,,1,,education effects of the demographic dividend
+W2418201694,OFF_COMPOSITION_A9,multi_arm,1970,Age-structural transition in Indonesia: the problem of macro- and micro-linkages,ePrints Soton (University of Southampton),0,,"age-structural transition in Indonesia, macro-micro linkage"
 W2993009882,OFF_MARRIAGE_C7a,arm_only_marriage-boundary,2001,Flexibility in the marriage market,Population,44,,"marriage-market flexibility against the squeeze hypothesis; age distribution, not cohort size"
 W1987929274,OFF_MARRIAGE_C7a,arm_only_marriage-boundary,2000,La flexibilite du marche matrimonial,Population,9,,French twin of the same
 W1530350246,OFF_MARRIAGE_C7a,arm_only_marriage-boundary,1989,The two-sex problem and the marriage squeeze in an equilibrium model of marriage markets.,eScholarship (California Digital Library),16,,two-sex equilibrium model of marriage markets; method
@@ -35,6 +213,9 @@ W2140025249,OFF_MARRIAGE_C7a,arm_only_marriage-boundary,2015,"Potential (Mis)mat
 W3189431473,OFF_MARRIAGE_C7a,arm_only_marriage-boundary,1984,"Age At Marriage and Earnings in Peninsular Malaysia (Nuptiality, Demography).",Deep Blue (University of Michigan),0,,"age at marriage and earnings, Malaysia"
 W2316069517,OFF_MARRIAGE_C7a,arm_only_easterlin,1990,Determinants of Trends toward Marriage Postponement,Kazoku syakaigaku kenkyu,0,,determinants of marriage postponement
 W7135615826,OFF_MARRIAGE_C7a,arm_only_easterlin,2010,The Economy of Marriage in the Czech Republic,Digital Repository (National Repository of Grey Literature),0,,the economy of marriage in the Czech Republic
+W1492868993,OFF_MARRIAGE_C7a,multi_arm,1997,Chapter 3 The formation and dissolution of families: Why marry? Who marries whom? And what happens upon divorce,Handbook of Population and Family Economics,290,,handbook chapter on family formation and dissolution
+W1126390058,OFF_MARRIAGE_C7a,multi_arm,2012,Essays on the Economy and Marriage:1930-1960,eScholarship (California Digital Library),0,,marriage and the economy 1930-1960
+W4297952659,OFF_MARRIAGE_C7a,multi_arm,1980,"The Determinants of Rising Female Age At Marriage: Taiwan, 1905-1976.",Deep Blue (University of Michigan),4,,"rising female age at marriage, Taiwan"
 W2964951616,OFF_OTHER,arm_only_marriage-boundary,2019,Marriage-induced homeownership as a driver of housing booms: evidence from Hong Kong,Housing Studies,31,,marriage-induced homeownership and housing booms -- C.2.c
 W2032280640,OFF_OTHER,arm_only_marriage-boundary,2005,"Women's Labor Supply, Marriage, and Welfare Dependency",Labour,15,,"women's labour supply, marriage and welfare dependency"
 W2765888340,OFF_OTHER,arm_only_marriage-boundary,2014,"Essays in Labor Economics on Marriage, Education, and Labor Supply",eScholarship (California Digital Library),0,,"labour-economics dissertation, no C.6.a exposure"
@@ -120,10 +301,281 @@ W2295256059,OFF_OTHER,arm_only_easterlin,2011,Who Adopts: An Economists View,Jou
 W3131234632,OFF_OTHER,arm_only_easterlin,2021,Chapter IV Do Commuting Women Have Fewer Children,RePEc: Research Papers in Economics,0,,commuting and fertility
 W4405458423,OFF_OTHER,arm_only_easterlin,2024,Is There a Central European Fertility Paradox?,Európai Tükör,1,,the Central European fertility paradox
 W2182900951,OFF_OTHER,arm_only_easterlin,2013,Gender Empowerment in 19th Century Sweden: Women's Economic Empowerment and the Intergenerational Transmission of Human Capital,,0,,"women's economic empowerment, 19th-century Sweden -- D.2.a"
+W2077050245,OFF_OTHER,arm_only_cycle,2004,POPULATION VIABILITY WITH FIRE IN ERYNGIUM CUNEIFOLIUM: DECIPHERING A DECADE OF DEMOGRAPHIC DATA,Ecological Monographs,140,,"plant demography, Florida scrub"
+W2700556373,OFF_OTHER,arm_only_cycle,2017,Using experimentation to understand the 10‐year snowshoe hare cycle in the boreal forest of North America,Journal of Animal Ecology,123,,"snowshoe hare cycle, boreal forest"
+W1975263693,OFF_OTHER,arm_only_cycle,1984,The synergistic effects of temperature and food concentration of life history parameters of Daphnia,Oecologia,114,,Daphnia life history
+W2101834119,OFF_OTHER,arm_only_cycle,2007,Effects of rapid prey evolution on predator–prey cycles,Journal of Mathematical Biology,105,,predator-prey cycles under rapid prey evolution
+W3098377583,OFF_OTHER,arm_only_cycle,2008,6 Effects of rapid prey evolution on predator-prey cycles,,69,,twin of the predator-prey evolution chapter
+W2141969987,OFF_OTHER,arm_only_cycle,1999,Population Cycles in Small Mammals: The Role of Age at Sexual Maturity,Oikos,85,,small-mammal population cycles and age at maturity
+W2029919475,OFF_OTHER,arm_only_cycle,2006,Delayed Density‐Dependent Season Length Alone Can Lead to Rodent Population Cycles,The American Naturalist,58,,"rodent population cycles, season length"
+W3142363467,OFF_OTHER,arm_only_cycle,2006,Delayed Density-Dependent Season Length Alone Can Lead to Rodent Population Cycles,The American Naturalist,10,,twin of the rodent season-length paper
+W2163058075,OFF_OTHER,arm_only_cycle,2007,Disease effects on reproduction can cause population cycles in seasonal environments,Journal of Animal Ecology,58,,"disease effects on reproduction, rodent cycles"
+W2021033388,OFF_OTHER,arm_only_cycle,2001,Chaos in Real Data. The Analysis of Non‐Linear Dynamics from Short Ecological Time Series,Journal of Animal Ecology,42,,chaos and non-linear dynamics in ecological time series
+W1995964001,OFF_OTHER,arm_only_cycle,1999,"Genetic patterns as possible factors causing population cycles in oak leafroller moth, Tortrix Viridana L.",Forest Ecology and Management,35,,oak leafroller moth cycles
+W2317088468,OFF_OTHER,arm_only_cycle,1977,Long and Short Term Changes in Gonadal Activity of Field Voles and Bank Voles,Oikos,31,,gonadal activity in field and bank voles
+W2325731645,OFF_OTHER,arm_only_cycle,1983,"Age-Specific Survival, Fecundity and Fertility of the Adult Blowfly, Lucilia cuprina, in Relation to Crowding, Protein Food and Population Cycles",Journal of Animal Ecology,31,,blowfly age-specific fecundity
+W2062243022,OFF_OTHER,arm_only_cycle,1984,"The growth and decline of a population of the spruce aphid Elatobium abietinum during a three year study, and the changing pattern of fecundity, recruitment and alary polymorphism in a Northern Ireland Forest",Oecologia,28,,spruce aphid population
+W2074438095,OFF_OTHER,arm_only_cycle,2000,Population crises and population cycles,Medicine Conflict & Survival,22,,population crises in mammals
+W2168573498,OFF_OTHER,arm_only_cycle,2009,Is there direct and delayed density dependent variation in population structure in a temperate European cyclic vole population?,Oikos,21,,"density-dependent population structure, ungulate"
+W4402468348,OFF_OTHER,arm_only_cycle,2024,"Bistability in a predator–prey model characterized by the Crowley–Martin functional response: Effects of fear, hunting cooperation, additional foods and nonlinear harvesting",Mathematics and Computers in Simulation,21,,predator-prey bistability model
+W2152697511,OFF_OTHER,arm_only_cycle,2009,Decreasing stochasticity through enhanced seasonality in measles epidemics,Journal of The Royal Society Interface,20,,measles epidemic seasonality
+W2005970206,OFF_OTHER,arm_only_cycle,2002,The kin facilitation hypothesis for red grouse population cycles: territorial dynamics of the family cluster,Ecological Modelling,17,,red grouse kin facilitation
+W2068669694,OFF_OTHER,arm_only_cycle,2004,Disease reservoirs in complex systems: a comment on recent work by Laurenson et al.,Journal of Animal Ecology,11,,"disease reservoirs, mountain hare"
+W1979711669,OFF_OTHER,arm_only_cycle,1982,Regulation of population cycles by genetic feedback: Existence of periodic solutions of a mathematical model,Journal of Mathematical Biology,10,,"genetic-feedback regulation of population cycles, mathematical"
+W2945176185,OFF_OTHER,arm_only_cycle,2018,A century of mammal research: changes in research paradigms and emphases,Journal of Mammalogy,7,,a century of mammal research
+W4327629216,OFF_OTHER,arm_only_cycle,2023,Cooperation-mediated regime shifts in a disease-dominated prey–predator system,Chaos Solitons & Fractals,7,,prey-predator regime shifts
+W2007729417,OFF_OTHER,arm_only_cycle,2000,"A Simple Model for the Interplay of Predators, Rodents and Food",Journal of Theoretical Biology,6,,"predators, rodents and food"
+W2024111704,OFF_OTHER,arm_only_cycle,2005,Interactions driving the population cycle of Arctic small rodents,Lund University Publications (Lund University),2,,Arctic small-rodent cycles
+W4391519878,OFF_OTHER,arm_only_cycle,2023,The Wolf (Canis lupus L.): Territory or Habitat,Biology Bulletin Reviews,2,,wolf territory and habitat
+W2509455645,OFF_OTHER,arm_only_cycle,2005,"Zur Populationsökologie und Raumnutzung der Steppenwühlmaus Microtus brandti (Radde, 1861) in der Fortpflanzungsperiode",,0,,Brandt's vole population ecology
+W4323567007,OFF_OTHER,arm_only_cycle,2023,"Gender inequality in a transition economy: heights and sexual height dimorphism in Southwestern France, 1640–1850",Cliometrica,6,,sexual height dimorphism in a transition economy
+W2055012599,OFF_OTHER,arm_only_cycle,2010,Otorhinolaryngological disorders in a geriatric population: A study from a rural tertiary care hospital in India.,Australasian Medical Journal,4,,geriatric ENT disorders; 'demographic cycle' used in passing
+W7106555610,OFF_OTHER,arm_only_cycle,2025,Lava-Void Continuum,Zenodo (CERN European Organization for Nuclear Research),3,,cosmology preprint
+W3008578678,OFF_OTHER,arm_only_cycle,2020,Adjustment for non-confounders could increase systematic error,Reproductive BioMedicine Online,1,,confounder adjustment methods note
+W3163168762,OFF_OTHER,arm_only_cycle,2014,Обряды родинного цикла у албанцев в условиях межкультурных контактов на юге Украины,Вестник Пермского университета. Серия: История,0,,birth-cycle rituals among Albanians in southern Ukraine
+W4252936648,OFF_OTHER,arm_only_cycle,2018,Демографический дайджест,Демографическое обозрение,0,,a demographic digest listing
+W4323966649,OFF_OTHER,arm_only_cycle,2023,The Anti-political Identities of East German Youth,,0,,political identities of East German youth
+W626323602,OFF_OTHER,arm_only_cycle,1971,"Kuwait: urban and medical ecology;: A geomedical study,",,5,,Kuwait geomedical study
+W2257514323,OFF_OTHER,arm_only_cycle,1994,SOUTH AFRICAN POPULATION PROSPECTS,Southern African Journal of Demography,1,,South African population prospects
+W4301160417,OFF_OTHER,arm_only_cycle,1993,The South African Population and its Environment into the Twenty-First Century,Studies in Economics and Econometrics,0,,South African population and environment
+W2130050699,OFF_OTHER,arm_only_cycle,1994,The Chinese Single-Child Family Programme and Population Psychology1,Psychology and Developing Societies,5,,the Chinese single-child programme and population psychology
+W7165067969,OFF_OTHER,arm_only_cycle,1981,The Fertility Decrease in France Within the Last Fifteen Years,Repozytorium Uniwersytetu im. Adama Mickiewicza (Adam Mickiewicz University in Poznań),0,,the fertility decrease in France
+W583237891,OFF_OTHER,arm_only_cycle,1981,Research in population economics: a research annual,Medical Entomology and Zoology,12,,"population economics annual, contents"
+W923947360,OFF_OTHER,arm_only_cycle,1987,The Politics of Intra-Uterine Life: How Society Reaches within the Womb,Pre- and Peri-natal Psychology Journal,0,,the politics of intra-uterine life
+W4401030512,OFF_OTHER,arm_only_cycle,2024,Population replacement in Latvia: current state and prospects,Baltic Region,1,,population replacement in Latvia
+W4399513986,OFF_OTHER,arm_only_cycle,2024,Is It Possible to Increase Fertility in Latvia in the Near Future?,Socialinė teorija empirija politika ir praktika,0,,can fertility be increased in Latvia
+W2061663771,OFF_OTHER,free_seed_only,1994,"Baby Boom, Population Aging, and Capital Markets",The Journal of Business,433,,"baby boom, ageing and capital markets"
+W2011107832,OFF_OTHER,free_seed_only,2002,Asset-Market Effects of the Baby Boom and Social-Security Reform,American Economic Review,115,,asset-market effects of the boom and social-security reform
+W2083572171,OFF_OTHER,free_seed_only,2001,Population Changes and Capital Accumulation: The Aging of the Baby Boom,Topics in Macroeconomics,104,,population ageing and capital accumulation
+W3122195959,OFF_OTHER,free_seed_only,2003,The Baby Boom and the Stock Market Boom*,Scandinavian Journal of Economics,25,,the boom and the stock-market boom
+W1556217905,OFF_OTHER,free_seed_only,1994,The Baby Boom and Economic Growth,,2,,"the boom and economic growth, life-cycle model"
+W1552062476,OFF_OTHER,free_seed_only,1994,The Baby Boom and International Capital Flows.,,1,,the boom and international capital flows
+W2032430358,OFF_OTHER,free_seed_only,1990,The macroeconomic impact of the baby boom generation,Journal of Macroeconomics,68,,macroeconomic impact of the boom generation
+W4302199176,OFF_OTHER,free_seed_only,1983,The Baby Boom Generation and the Economy.,Population and Development Review,26,,the boom generation and the economy
+W2125000112,OFF_OTHER,free_seed_only,1988,"The Baby Boom, The Baby Bust, and the Housing Market",National Bureau of Economic Research,136,,"the boom, bust and the housing market -- C.2.c"
+W2065211235,OFF_OTHER,free_seed_only,1991,"The baby boom, the baby bust, and the housing market A second look",Regional Science and Urban Economics,60,,a second look at the housing-market debate
+W1968170884,OFF_OTHER,free_seed_only,1991,"The baby boom, the baby bust, and the housing market A reply to our critics",Regional Science and Urban Economics,35,,reply to critics in the housing-market debate
+W2085288226,OFF_OTHER,free_seed_only,1995,"The baby boom, the baby bust and the housing market: a further look at the debate",The Annals of Regional Science,5,,a further look at the housing-market debate
+W1597793728,OFF_OTHER,free_seed_only,2005,The Baby Boom: Predictability in House Prices and Interest Rates,International Finance Discussion Paper,15,,the boom's effect on house prices and interest rates
+W1978021930,OFF_OTHER,free_seed_only,1989,"The Baby Boom, Housing and Loanable Funds",Canadian Journal of Economics/Revue canadienne d économique,15,,"the boom, housing and loanable funds"
+W2328010494,OFF_OTHER,free_seed_only,2016,"The baby boom, housing and loanable",,0,,twin of the loanable-funds paper
+W4410111576,OFF_OTHER,free_seed_only,2025,"No room, no baby boom -the impact of housing markets on fertility",SSRN Electronic Journal,0,,housing markets and fertility -- C.2.c
+W4405959990,OFF_OTHER,free_seed_only,2025,Misalignment of Housing Growth and Population Trends: Cohort Size and Lagging Measurements Through Recession and Recovery,RSF The Russell Sage Foundation Journal of the Social Sciences,5,,housing growth against population trends
+W3205507095,OFF_OTHER,free_seed_only,2021,Baby bust in the wake of the COVID-19 pandemic? First results from the new STFF data series,,84,,"COVID baby bust, STFF series"
+W4221133067,OFF_OTHER,free_seed_only,2022,"The Missing Baby Bust: The Consequences of the COVID-19 Pandemic for Contraceptive Use, Pregnancy, and Childbirth Among Low-Income Women",Population Research and Policy Review,38,,the missing COVID baby bust; contraception and pregnancy
+W4225331229,OFF_OTHER,free_seed_only,2022,The US COVID-19 Baby Bust and Rebound,National Bureau of Economic Research,16,,US COVID baby bust and rebound
+W4318924713,OFF_OTHER,free_seed_only,2023,The (temporary) Covid-19 baby bust in Mexico,Population Studies,11,,temporary COVID baby bust in Mexico
+W4389545579,OFF_OTHER,free_seed_only,2023,Baby Boom or Baby Bust After the COVID-19 Onset in the United States? Evidence from an ARIMA Time-Series Analysis,Population Research and Policy Review,4,,"COVID boom or bust, ARIMA"
+W3128637959,OFF_OTHER,free_seed_only,2021,COVID-19 AND FERTILITY – BABY BOOM OR BUST?,Health Problems of Civilization,0,,"COVID and fertility, boom or bust"
+W4401121518,OFF_OTHER,free_seed_only,2024,Digital Trace Data and Demographic Forecasting: How Well Did Google Predict the US COVID‐19 Baby Bust?,Population and Development Review,9,,Google search data and COVID birth forecasting
+W4205242121,OFF_OTHER,free_seed_only,2021,Baby Boom/Baby Bust,,0,,baby boom/baby bust encyclopedia entry
+W4255948888,OFF_OTHER,free_seed_only,2020,A Peace Baby Boom? Evidence from Colombia's Peace Agreement,,5,,Colombia's peace agreement and fertility
+W3123371161,OFF_OTHER,free_seed_only,2020,The Peace Baby Boom: Evidence From Colombia’s Peace Agreement With the FARC,SSRN Electronic Journal,1,,twin of the Colombia peace-boom paper
+W2094569690,OFF_OTHER,free_seed_only,2014,"Power Outages, Power Externalities, and Baby Booms",Demography,43,,power outages and fertility
+W4406326619,OFF_OTHER,free_seed_only,2025,The 2021 Baby Boom in Iceland: Exploring the Role of a Parental Leave Reform and the COVID-19 Pandemic,European Journal of Population / Revue européenne de Démographie,3,,Iceland parental-leave reform and the 2021 boom -- C.2.d
+W4408003316,OFF_OTHER,free_seed_only,2025,Religiously inspired baby boom: evidence from Georgia,Journal of Population Economics,2,,a church intervention and Georgian fertility -- D.1.d
+W7160852448,OFF_OTHER,free_seed_only,2025,2019 Marriage Law Triggered “Baby Bust'” An Islamic Legal Perspective On The Decline In Marriage Rates,MASADIR Jurnal Hukum Islam,1,,Indonesia's 2019 marriage law and a claimed baby bust
+W4414149973,OFF_OTHER,free_seed_only,2025,The “Baby Bust”: awareness of the gap between desired and actual family size and review of practical options,Fertility and Sterility,1,,the gap between desired and actual family size
+W2265277799,OFF_OTHER,free_seed_only,2005,"Japan's baby bust : causes, implications, and policy responses",ScholarSpace (University of Hawaii at Manoa),57,,"Japan's baby bust, policy volume"
+W633949256,OFF_OTHER,free_seed_only,2006,The Baby bust: who will do the work? who will pay the taxes?,Choice Reviews Online,115,,"the global baby bust, edited volume front matter"
+W4299882424,OFF_OTHER,free_seed_only,1998,Japan's baby bust: an economic issue?,PubMed,0,,Japan's baby bust as a corporate-culture problem
+W2160434973,OFF_OTHER,free_seed_only,2015,Gender Identity and Relative Income within Households *,The Quarterly Journal of Economics,1175,,relative income WITHIN households and gender identity
+W3160490483,OFF_OTHER,free_seed_only,2019,Your Place in the World: Relative Income and Global Inequality,National Bureau of Economic Research,35,,relative income and global inequality preferences
+W3098742090,OFF_OTHER,free_seed_only,2020,"Linked lives, linked retirement? Relative income differences within couples and gendered retirement decisions in Europe",Advances in Life Course Research,15,,relative income within couples and retirement timing
+W1998376629,OFF_OTHER,free_seed_only,2014,Relative Income and Female Autonomy,Asian Population Studies,10,,relative income and women's autonomy
+W3021662929,OFF_OTHER,free_seed_only,2020,Impacts of Absolute and Relative Income on Self-Rated Health in Urban and Rural China,International Journal of Health Services,8,,"absolute and relative income and self-rated health, China"
+W2948741300,OFF_OTHER,free_seed_only,2019,Is it all relative? The health impacts of changes to absolute and relative income,8th Annual Conference of the American Society of Health Economists,0,,absolute and relative income and health
+W4385647602,OFF_OTHER,free_seed_only,2023,"Couples’ ideological pairings, relative income and housework sharing",,0,,relative income and housework sharing
+W4415308829,OFF_OTHER,free_seed_only,2025,Bridging Relative Income and Marital Satisfaction: The Role of Household Debt As a Mediator,Journal of Family and Economic Issues,0,,"relative income, household debt and marital satisfaction"
+W2168353688,OFF_OTHER,free_seed_only,1996,"Trends, Issues, Perspectives, and Values for the Aging of the Baby Boom Cohorts",The Gerontologist,75,,"ageing of the baby boom cohorts, gerontology"
+W2011861949,OFF_OTHER,free_seed_only,2012,"Baby Boom Generation's Burden for Taking Care of Children, Aging Anxiety, Preparations for Old Age and Quality of Life",Journal of Korean Public Health Nursing,12,,boom generation's caregiving burden and ageing anxiety
+W1963980246,OFF_OTHER,free_seed_only,2010,Baby boom generation at the retirement onset,Stanovnistvo,9,,the boom generation at retirement onset
+W2626989590,OFF_OTHER,free_seed_only,2008,Cultural Capital and Participation in Cultural Activities among Korean Baby Boom Generation: From a Cultural Welfare Perspective,,3,,cultural capital among the Korean boom generation
+W2479630370,OFF_OTHER,free_seed_only,2008,"Attitudes Towards One’s Aging among Single, Professional, Highly Educated, Baby Boom Women: “I Don’t Know Who I Am, But I Am Not a Crazy Old Maid!”",OhioLink ETD Center (Ohio Library and Information Network),1,,attitudes to ageing among boom-generation women
+W2964675792,OFF_OTHER,free_seed_only,2018,Influence on Successful Aging and Mediation Effect of Retirement Preparation by Social Paritication Attitude of Public Officials in Korean Baby Boom Generation,Journal of Digital Convergence,1,,successful ageing and retirement preparation
+W4285381797,OFF_OTHER,free_seed_only,2021,"Relationship among Perceived Value, Leisure Satisfaction, and Quality of Life for Baby Boom Generations Participating in Golf",한국체육학회지,1,,"leisure satisfaction and quality of life, boom-generation golfers"
+W138845135,OFF_OTHER,free_seed_only,2000,The early baby boom age cohort : housing and locational preferences and plans for the first 10 years of retirement,,0,,housing and locational preferences of the early boom cohort
+W2511218063,OFF_OTHER,free_seed_only,2013,Perspectives on the residential preference of the baby bust generation within metropolitan areas,The American Journal of Gastroenterology,0,,residential preferences of the baby-bust generation
+W2301803285,OFF_OTHER,free_seed_only,2012,"Retirement attitude and unknown caregiving roles: Findings from the Australian Baby Boom Career Women National survey. International Psychogeriatric Association International Meeting, 7-11 September",,0,,retirement attitudes of Australian boom career women
+W2779780716,OFF_OTHER,free_seed_only,2000,Whither Goest the Baby Boom? Politics and Values in an Aging Society,The Gerontologist,0,,politics and values in an ageing society
+W42766042,OFF_OTHER,free_seed_only,1998,The Political Impact of the Baby Boom: Are There Persistent Generational Differences in Political Beliefs and Behavior?,,29,,political impact of the boom; generational party preferences
+W2041282234,OFF_OTHER,free_seed_only,2007,The ‘Tinkering’ Generation— Religion After the Baby Boom,Science & Spirit,0,,religion after the baby boom
+W2257480669,OFF_OTHER,free_seed_only,2013,Analysis of Consumer's Preference on Visual Image of Brand Mark - Focused on Baby Boom Generation -,The Korean Society of Science & Art,0,,"brand-mark preference among the boom generation, marketing"
+W2562389029,OFF_OTHER,free_seed_only,2008,"Postwar education and the Catholic schools from the viewpoint of ""the baby boom generation""",Medical Entomology and Zoology,0,,postwar Catholic schooling seen from the boom generation
+W2083660440,OFF_OTHER,free_seed_only,2014,Pre-baby boom women's attitudes and responses to second wave feminism in Ireland,Women s Studies International Forum,2,,pre-boom women and second-wave feminism in Ireland
+W598287480,OFF_OTHER,free_seed_only,2013,Consuming modernity : gendered behaviour and consumerism before the baby boom,Medical Entomology and Zoology,8,,"consumerism before the baby boom, edited volume"
+W1501162239,OFF_OTHER,free_seed_only,2014,Consuming Modernity: Gendered Behaviour and Consumerism before the Baby Boom ed. by Cheryl Krasnick Warsh and Dan Malleck (review),Canadian Historical Review,0,,review of the same volume
+W2792943775,OFF_OTHER,free_seed_only,2026,[Abstract] Consuming modernity: Gendered behaviour and consumerism before the baby boom,VIUSpace (Vancouver Island University Library),0,,abstract record of the same volume
+W98104966,OFF_OTHER,free_seed_only,2004,"The Baby Boom and Changing Family Values, 1945–1980",Cambridge University Press eBooks,0,,"the boom and changing family values, 1945-1980"
+W2047763671,OFF_OTHER,free_seed_only,2014,A putative BABY BOOM-like gene (CaBBM) is expressed in embryogenic calli and embryogenic cell suspension culture of Coffea arabica L,In Vitro Cellular & Developmental Biology - Plant,30,,"a BABY BOOM-like gene in chickpea -- the plant transcription factor, not the event"
+W7158821039,OFF_OTHER,free_seed_only,2026,Attachment Bonds and Baby Booms: A Cross‐Cultural Study of Reproductive Success,International Journal of Psychology,0,,"attachment bonds and reproductive success, cross-cultural"
+W1493855268,OFF_OTHER,multi_arm,1997,Growth triumphant: the twenty-first century in historical perspective,Choice Reviews Online,184,,"Easterlin, Growth Triumphant -- economic development"
+W4253802706,OFF_OTHER,multi_arm,1996,Growth Triumphant,University of Michigan Press eBooks,142,,twin of Growth Triumphant
+W2309442875,OFF_OTHER,multi_arm,2015,Cohort Profile: World Trade Center Health Program General Responder Cohort,International Journal of Epidemiology,137,,World Trade Center responder COHORT -- the epidemiological sense
+W2165288064,OFF_OTHER,multi_arm,2007,Cohort Profile: The International Childhood Cancer Cohort Consortium (I4C),International Journal of Epidemiology,89,,childhood cancer cohort consortium
+W2134282933,OFF_OTHER,multi_arm,2011,Cohort description: The Northern Ireland Longitudinal Study (NILS),International Journal of Epidemiology,85,,Northern Ireland Longitudinal Study
+W2152498209,OFF_OTHER,multi_arm,2007,Cohort Profile: The Florey Adelaide Male Ageing Study (FAMAS),International Journal of Epidemiology,45,,Florey Adelaide male ageing cohort
+W2089856194,OFF_OTHER,multi_arm,2001,Population pressure and fertility in pre-transition Thailand,Population Studies,86,,population pressure and pre-transition Thai fertility -- C.4.a
+W2005560468,OFF_OTHER,multi_arm,1976,Factors in the Decline of Farm Family Fertility in the United States: Some Preliminary Research Results,Journal of American History,80,,Easterlin on farm family fertility and land availability -- C.4.a
+W2086971080,OFF_OTHER,multi_arm,1978,Fertility and land availability in rural Brazil,Demography,51,,fertility and land availability in rural Brazil -- C.4.a
+W2157083172,OFF_OTHER,multi_arm,1980,Family and Population in Nineteenth-Century America,The American Historical Review,79,,family and population in 19th-century America
+W3015907946,OFF_OTHER,multi_arm,2020,"Safety, tolerability, pharmacokinetics, and antimalarial efficacy of a novel Plasmodium falciparum ATP4 inhibitor SJ733: a first-in-human and induced blood-stage malaria phase 1a/b trial",The Lancet Infectious Diseases,77,,antimalarial trial
+W2067237797,OFF_OTHER,multi_arm,1989,"Economic Development, the Family, and Income Distribution",Cambridge University Press eBooks,70,,Kuznets essays on development and distribution
+W2072076501,OFF_OTHER,multi_arm,2009,Superior consistency of ambulatory blood pressure monitoring in children: implications for clinical trials,Journal of Hypertension,65,,paediatric blood-pressure monitoring
+W1970657829,OFF_OTHER,multi_arm,1986,Proception: an important fertility behavior.,PubMed,55,,proception as fertility behaviour
+W4388073899,OFF_OTHER,multi_arm,1995,Changing Gender Roles and Below-Replacement Fertility in Japan,,47,,gender roles and below-replacement fertility in Japan -- D.2.a
+W3081840470,OFF_OTHER,multi_arm,2020,Brazil’s Missing Infants: Zika Risk Changes Reproductive Behavior,Demography,45,,Zika risk and reproductive behaviour
+W3125977607,OFF_OTHER,multi_arm,2021,Male–Female Fertility Differentials Across 17 High-Income Countries: Insights From A New Data Resource,European Journal of Population / Revue européenne de Démographie,41,,male-female fertility differentials
+W2012505011,OFF_OTHER,multi_arm,1991,Increasing contraceptive use in Bangladesh: The role of demand and supply factors,Demography,39,,contraceptive demand and supply in Bangladesh
+W1893654629,OFF_OTHER,multi_arm,2012,"Birth Rates and Border Crossings: Latin American Migration to the US, Canada, Spain and the UK",The Economic Journal,38,,birth rates and Latin American migration
+W1993270799,OFF_OTHER,multi_arm,2007,"Does Increased Abortion Lead to Lower Crime? Evaluating the Relationship between Crime, Abortion, and Fertility",The B E Journal of Economic Analysis & Policy,38,,abortion and crime
+W2602901973,OFF_OTHER,multi_arm,2017,Post-disaster fertility: Hurricane Katrina and the changing racial composition of New Orleans,Population and Environment,37,,post-Katrina fertility and racial composition
+W2808259670,OFF_OTHER,multi_arm,2018,Sub-national variation in measles vaccine coverage and outbreak risk: a case study from a 2010 outbreak in Malawi,BMC Public Health,36,,measles vaccine coverage
+W2158989947,OFF_OTHER,multi_arm,2009,The suitability ofAnastrephaspp. andCeratitis capitatalarvae as hosts ofDiachasmimorpha longicaudataandDiachasmimorpha tryoni: Effects of host age and radiation dose and implications for quality control in mass rearing,Biocontrol Science and Technology,35,,parasitoid rearing on tephritid larvae
+W2026940911,OFF_OTHER,multi_arm,1999,"Contribution of the demographic factor to the migration turnarounds in Japan, Sweden and Canada",International Journal of Population Geography,28,,demographic factor in migration turnarounds
+W1860129791,OFF_OTHER,multi_arm,2010,"Happiness, Growth, and the Life Cycle",OUP Catalogue,25,,Easterlin on happiness and the life cycle -- the well-being homonym
+W294884320,OFF_OTHER,multi_arm,2011,Misleading Policy Messages from the Period TFR: Should We Stop Using It?,IIASA PURE (International Institute of Applied Systems Analysis),25,,period TFR as a policy measure -- A.11 tempo
+W4389804675,OFF_OTHER,multi_arm,2023,The demography of the great migration in China,Journal of Development Economics,23,,demography of China's great migration
+W2321961961,OFF_OTHER,multi_arm,1978,The Transition from Natural to Controlled Fertility in Taiwan: A Cross-Sectional Analysis of Demand and Supply Factors,Studies in Family Planning,22,,natural to controlled fertility in Taiwan
+W4206260053,OFF_OTHER,multi_arm,2021,Cohort consequences of drought and family disruption for male and female African elephants,Behavioral Ecology,22,,cohort effects in African elephants
+W2085614871,OFF_OTHER,multi_arm,2005,Education and Fertility: A Panel Data Analysis for Middle Eastern Countries,The Journal of developing areas,21,,"education and fertility, Middle East"
+W2151872046,OFF_OTHER,multi_arm,1986,Childhood in Sociodemographic Perspective,Annual Review of Sociology,21,,childhood in sociodemographic perspective
+W2060917945,OFF_OTHER,multi_arm,1997,A conversation with Richard Easterlin,Journal of Population Economics,19,,a conversation with Richard Easterlin
+W2039376050,OFF_OTHER,multi_arm,1984,Factors Affecting Fertility Control in India: A Cross-Sectional Study,Population and Development Review,17,,factors affecting fertility control in India
+W2074500234,OFF_OTHER,multi_arm,1996,Oscillations and stability due to juvenile competitive effects on adult fertility,Computers & Mathematics with Applications,17,,juvenile competition and adult fertility -- population ecology
+W2090860951,OFF_OTHER,multi_arm,1990,Graduation of Fertility Schedules: An Analysis of Fertility Patterns in London in the 1980s and an Application to Fertility Forecasts,Regional Studies,16,,"graduation of fertility schedules, London"
+W2001760389,OFF_OTHER,multi_arm,1979,Homicide and fertility rates in the United States: A comment,Social Biology,15,,"homicide and fertility rates, comment"
+W2264217695,OFF_OTHER,multi_arm,2004,The Reluctant Economist,Cambridge University Press eBooks,15,,"Easterlin, The Reluctant Economist"
+W4385520204,OFF_OTHER,multi_arm,2023,Abortion Bans and Resource Utilization for Congenital Heart Disease,Obstetrics and Gynecology,15,,abortion bans and congenital heart disease resource use
+W3215029404,OFF_OTHER,multi_arm,2021,Estimation of macro- and micro-genetic environmental sensitivity in unbalanced datasets,animal,14,,genetic environmental sensitivity estimation
+W127134799,OFF_OTHER,multi_arm,1984,"A time series study of fertility in England and Wales, 1877-1938.",PubMed,13,,time-series test of several hypotheses for the England and Wales decline; cohort size is not the exposure
+W2076465054,OFF_OTHER,multi_arm,1977,"Nutrition, Health, and Population in Strategies for Rural Development",Economic Development and Cultural Change,12,,nutrition and health in rural development strategy
+W2412148994,OFF_OTHER,multi_arm,1985,Population and development in rural Egypt.,PubMed,12,,population and development in rural Egypt
+W4283754697,OFF_OTHER,multi_arm,2022,Returning to “Normal”? Evolutionary Roots of the Human Prospect,BioScience,10,,"evolutionary roots of the human prospect, essay"
+W74407986,OFF_OTHER,multi_arm,1987,"Economic History and Historical Demography: Past, Present, and Future",,10,,economic history and historical demography
+W2020722765,OFF_OTHER,multi_arm,2006,Nonmarital Fertility and the Effects of Divorce Rates on Youth Suicide Rates,Journal of Marriage and the Family,9,,divorce rates and youth suicide
+W3185200228,OFF_OTHER,multi_arm,2021,Sex Differences in Childlessness in Norway: Identification of Underlying Demographic Drivers,European Journal of Population / Revue européenne de Démographie,9,,"sex differences in childlessness, Norway"
+W796542502,OFF_OTHER,multi_arm,2009,Procreate and cherish: A note on Australia’s abrupt shift to Pro-Natalism,Research Commons (University of Waikato),9,,Australia's shift to pronatalism -- C.2.d
+W1531566869,OFF_OTHER,multi_arm,2005,On the Design of Sustainable and Fair PAYG Pension Systems When Cohort Sizes Change,RePEc: Research Papers in Economics,8,,PAYG pension design under changing cohort sizes
+W1692934184,OFF_OTHER,multi_arm,1993,"Determinants of Marital Fertility in Pakistan: An Application of the ""Synthesis Framework""",The Pakistan Development Review,8,,"marital fertility in Pakistan, synthesis framework"
+W2119719070,OFF_OTHER,multi_arm,1990,An Analysis of Reproductive Behavior in Brazil,,8,,reproductive behaviour in Brazil
+W2567425247,OFF_OTHER,multi_arm,2015,Accelerating Fertility Decline in Sub-Saharan Africa,Ageing horizons,8,,accelerating fertility decline in sub-Saharan Africa
+W2746773578,OFF_OTHER,multi_arm,1981,Fertility and Female Labor-Force Participation: Estimates and Projections for Austrian Women Aged 20-30,IIASA PURE (International Institute of Applied Systems Analysis),8,,"fertility and participation, Austrian women"
+W2465485510,OFF_OTHER,multi_arm,2010,Essays in Public Economics,,7,,public-economics thesis
+W3122690397,OFF_OTHER,multi_arm,2002,"Does Increased Abortion Lead to Reduced Crime? Evaluating the Relationship between Crime, Abortion, and Fertility",RePEc: Research Papers in Economics,7,,twin of the abortion-and-crime paper
+W2173028474,OFF_OTHER,multi_arm,2007,"Readiness, willingness and ability to use contraception in Bangladesh",Asia-Pacific population journal,5,,"readiness, willingness, ability in Bangladesh"
+W2500295958,OFF_OTHER,multi_arm,2015,Family and Population in 19th Century America,Princeton University Press eBooks,5,,twin of Family and Population in 19th-Century America
+W2890664454,OFF_OTHER,multi_arm,2006,Abortion and Selection,National Bureau of Economic Research,5,,abortion and selection
+W112278128,OFF_OTHER,multi_arm,2001,Social Demography: Role of Inequality and Social Differentiation,Elsevier eBooks,4,,social demography and inequality
+W1817910058,OFF_OTHER,multi_arm,2000,Assessing the Impact of Modernization on Fertility: The Case of Mozambique,IIASA PURE (International Institute of Applied Systems Analysis),4,,modernisation and fertility in Mozambique
+W2142067277,OFF_OTHER,multi_arm,1984,"Combining Marriage, Motherhood, and Jobs Before World War Ii: Women College Graduates, Classes of 1905-1935",Journal of Family History,4,,"marriage, motherhood and jobs before WWII"
+W2735067577,OFF_OTHER,multi_arm,1994,To Sow One Acre More: Childbearing and Farm Productivity in the Antebellum North.,Journal of American History,4,,childbearing and antebellum farm productivity
+W3013561031,OFF_OTHER,multi_arm,2020,Individual and community factors associated with lifetime fertility in Eswatini: an application of the Easterlin–Crimmins model,Journal of Population Research,4,,Easterlin framework applied in Eswatini
+W4408924633,OFF_OTHER,multi_arm,2025,"Declining Fertility, Human Capital Investment, and Economic Sustainability",Demography,4,,declining fertility and economic sustainability
+W4409190509,OFF_OTHER,multi_arm,2025,"Data Resource Profile Update: The Opioid Agonist Treatment and Safety II (OATS II) Study, 2001–22, New South Wales, Australia",International Journal of Epidemiology,4,,opioid treatment cohort profile
+W1557443946,OFF_OTHER,multi_arm,2004,A Dinâmica da Escolaridade das Crianças Brasileiras durante a Transição Demográfica: aumento no tamanho da coorte versus diminuição no tamanho da família *,RePEc: Research Papers in Economics,3,,age structure and Brazilian schooling
+W191731307,OFF_OTHER,multi_arm,1988,The demographic transition and population policy in Egypt.,PubMed,3,,transition and population policy in Egypt
+W2068307540,OFF_OTHER,multi_arm,2008,‘Finitics’,EMBO Reports,3,,'Finitics'
+W2284978178,OFF_OTHER,multi_arm,1992,"Micro and Macro Land Availability as a Determinant of Human Fertility in Rural Canada West, 1851",Social Science History,3,,"land availability and fertility, rural Canada -- C.4.a"
+W2500045908,OFF_OTHER,multi_arm,1985,Problems of Interpretation and Specification in Analysing Fertility Differentials: Illustrated with Kenyan Survey Data,Palgrave Macmillan UK eBooks,3,,specification problems in fertility differentials
+W2528997718,OFF_OTHER,multi_arm,2009,"Public education spending in the German Länder: adjustment to demographic shocks, politics, and cost efficiency",Qucosa (Saxon State and University Library Dresden),3,,German education spending under demographic shocks
+W2890694512,OFF_OTHER,multi_arm,2004,"Marriage, motherhood, and wages",,3,,"marriage, motherhood and wages"
+W2890897825,OFF_OTHER,multi_arm,2010,"Birth Rates and Border Crossings: Latin American Migration to the US, Canada, Spain, and the UK",National Bureau of Economic Research,3,,twin of birth rates and border crossings
+W2979696299,OFF_OTHER,multi_arm,2019,Fertility transition in selected sub-Saharan African countries: the role of family planning programs,F1000Research,3,,family planning and sub-Saharan transition
+W2997945193,OFF_OTHER,multi_arm,2019,New opportunities for comparative male fertility research: insights from a new data resource based on high-quality birth registers,,3,,a male-fertility data resource
+W4237347880,OFF_OTHER,multi_arm,2020,Fertility transition in selected sub-Saharan African countries: the role of family planning programs,F1000Research,3,,twin of the sub-Saharan family-planning paper
+W4243635430,OFF_OTHER,multi_arm,2005,HOW DO ATTITUDES SHAPE CHILDBEARING IN THE UNITED STATES?,Psychology Press eBooks,3,,attitudes and childbearing in the US
+W967129929,OFF_OTHER,multi_arm,1984,The Monetary Cost of a Child,Studies in contemporary economics,3,,the monetary cost of a child -- C.2.b
+W125718406,OFF_OTHER,multi_arm,1994,The economic context of past and future Bulgarian fertility,European Journal of Population / Revue européenne de Démographie,2,,economic context of Bulgarian fertility
+W1534849123,OFF_OTHER,multi_arm,2014,Childbearing and the Labor Market: Time and Space Dynamics,Applied demography series,2,,"childbearing and the labour market, time and space"
+W1576695001,OFF_OTHER,multi_arm,2007,ASIAN DEMOGRAPHIC TRANSITION: AN INSTRUMENTAL-VARIABLES PANEL APPROACH,RePEc: Research Papers in Economics,1,,"Asian transition, IV panel"
+W1584592506,OFF_OTHER,multi_arm,,"Demography, stock prices and interest rates: The Easterlin hypothesis revisited",RePEc: Research Papers in Economics,1,,the Easterlin hypothesis on stock prices and interest rates -- asset-price outcome
+W1870026660,OFF_OTHER,multi_arm,1999,"Welfare, Security and the Level of Fertility: A Global Analysis, 1985 and 1995.",Lund University Publications (Lund University),1,,"welfare, security and fertility levels, global"
+W1889929305,OFF_OTHER,multi_arm,2009,The Impact of Indirect Cost-Reducing Family Policy on Fertility in Canada,Lund University Publications Student Papers (Lund University),1,,"indirect cost-reducing family policy, Canada -- C.2.d"
+W1955325155,OFF_OTHER,multi_arm,2017,On Teaching Demography: Some Non-traditional Guidelines,Demographic research monographs,1,,on teaching demography
+W1967082452,OFF_OTHER,multi_arm,2011,Constraint or choice? Disentangling fertility determinants by switching regressions,Demographic Research,1,,"constraint or choice, switching regressions"
+W2033591054,OFF_OTHER,multi_arm,1983,"The Whaling Industry and Fertility Decline: Nantucket, Massachusetts 1660-1850",Social Science History,5,,the whaling industry and Nantucket fertility
+W2036431237,OFF_OTHER,multi_arm,2010,What caused fertility variations by settlement in Transylvania at the time of industrialization?,The History of the Family,2,,fertility variation in industrialising Transylvania
+W2099935436,OFF_OTHER,multi_arm,1960,On the Possibility of Increasing Fertility in the Underdeveloped Nations,Comparative Studies in Society and History,2,,"increasing fertility in underdeveloped nations, exchange"
+W2151811067,OFF_OTHER,multi_arm,2014,A Revolution in Education: Determinants of the Gender Gap Reversal,Scholarly Commons (University of Pennsylvania),2,,the gender gap reversal in education
+W2199559630,OFF_OTHER,multi_arm,1984,Determinants of fertility control in Taiwan: an application of the Easterlin framework.,PubMed,2,,Easterlin framework applied to Taiwanese fertility control
+W2282482278,OFF_OTHER,multi_arm,1991,Socio-economic development and fertility decline: an application of the Easterlin synthesis approach to data from the World Fertility Survey: Colombia Costa Rica Sri Lanka and Tunisia,,2,,Easterlin synthesis applied to development and decline
+W2524313072,OFF_OTHER,multi_arm,2008,"There are simply always enough good reasons against having a child! Fears and worries about motherhood among childless, highly educated Austrian women",Social Science Open Access Repository (GESIS – Leibniz Institute for the Social Sciences),2,,fears and worries about having a child
+W3028954496,OFF_OTHER,multi_arm,2019,Brazil's Missing Infants: Zika Risk Changes Reproductive Behavior,,2,,twin of the Zika paper
+W22571848,OFF_OTHER,multi_arm,2009,The Barrington Lecture 2009: Well-Being under Conditions of Abundance: Ireland from 1990-2007,Journal of the Statistical and Social Inquiry Society of Ireland,1,,well-being in Ireland since 1990
+W2151197410,OFF_OTHER,multi_arm,2014,Demographic Transition in Morocco: an application of Easterlin-Crimmins’s model using DHS data,African Population Studies,1,,Easterlin-Crimmins model applied in Morocco
+W2328948038,OFF_OTHER,multi_arm,1991,Increasing Contraceptive Use in Bangladesh: The Role of Demand and Supply Factors.,Studies in Family Planning,1,,twin of the Bangladesh contraception paper
+W2400012601,OFF_OTHER,multi_arm,1984,Recent advances in explaining fertility declines in the third world.,PubMed,1,,review of third-world fertility decline
+W4235752386,OFF_OTHER,multi_arm,1986,Childhood in Sociodemographic Perspective,Annual Review of Sociology,1,,twin of Childhood in Sociodemographic Perspective
+W4281753704,OFF_OTHER,multi_arm,2022,Morphometric prognostication of post-liver transplant mortality,American Journal of Transplantation,1,,post-liver-transplant mortality
+W4300111892,OFF_OTHER,multi_arm,2015,9. Questions and Conclusions,Princeton University Press eBooks,1,,questions and conclusions chapter
+W438393521,OFF_OTHER,multi_arm,1993,Differentials And Determinants Of Fertility Behaviour In Bolivia,Scholarship@Western (Western University),1,,fertility behaviour in Bolivia
+W131705820,OFF_OTHER,multi_arm,1990,[Ideas on socioeconomic and cultural determinants of demographic trends].,PubMed,0,,socioeconomic and cultural determinants of demographic trends
+W1591366900,OFF_OTHER,multi_arm,1992,How reduced demand for children and access to family planning accelerated the fertility decline in Colombia,RePEc: Research Papers in Economics,2,,demand and family planning in Colombia
+W1988748809,OFF_OTHER,multi_arm,1983,Defining and measuring the supply of children: Some anthropological considerations,Biodemography and Social Biology,2,,anthropological considerations on the supply of children
+W1543812987,OFF_OTHER,multi_arm,1979,"Families and Land in Toronto Gore Township, Peel County, Ontario, 1820-1890",MacSphere (McMaster University),0,,families and land in a Peel County township
+W1547645913,OFF_OTHER,multi_arm,2013,A structural model with latent variables used to analyse the links between modernization and fertility: the case of Brazil,Università degli Studi di Bologna,0,,LISREL model of modernisation and fertility
+W1560000721,OFF_OTHER,multi_arm,2009,Intergenerational Child Care Support and the Fluctuating Fertility: A Note,RePEc: Research Papers in Economics,0,,intergenerational child-care support and fertility -- A.23/C.2.a
+W1587965990,OFF_OTHER,multi_arm,2003,The Childcare Problem for Low‐Income Working Families,,0,,childcare for low-income working families
+W176383349,OFF_OTHER,multi_arm,1997,Easterlin's fertility theory and population adjustment and regulation in rural China.,PubMed,0,,Easterlin's framework applied to rural Chinese population policy
+W1791984608,OFF_OTHER,multi_arm,2011,"RUSSIAN REGIONAL SCENARIOS OF FERTILITY RESPONSES TO MODERNIZATION, 1958-1978.",Lund University Publications Student Papers (Lund University),0,,Russian regional fertility responses to modernisation
+W203667398,OFF_OTHER,multi_arm,2009,A Case of ‘Unmet need’? Barriers to Women’s use of Modern Contraceptives in the Republic of Yemen,The Maghreb review/Maghreb review,0,,barriers to contraceptive use in Yemen
+W2059767036,OFF_OTHER,multi_arm,1986,Public policy and the total fertility rate: cross-sectional evidence from the LDCs,Population Research and Policy Review,0,,public policy and TFR in LDCs
+W2160463749,OFF_OTHER,multi_arm,1990,Determinants of fertility control in Korea.,PubMed,0,,determinants of fertility control in Korea
+W2212736731,OFF_OTHER,multi_arm,1986,An economic analysis of fertility determinants in Indonesia.,PubMed,0,,synthesis-framework analysis of Indonesian fertility
+W2280750584,OFF_OTHER,multi_arm,1983,A sequential economic model of fertility behavior in developing countries.,PubMed,0,,a sequential economic model of fertility in developing countries
+W2281880673,OFF_OTHER,multi_arm,1979,[Some issues in population projections (author's transl)].,PubMed,0,,methodology of population projections
+W2289633851,OFF_OTHER,multi_arm,1983,Economic explanation of fertility in the presence of immigration : the West German case / 983,Illinois Digital Environment for Access to Learning and Scholarship (University of Illinois at Urbana-Champaign),0,,West German fertility with immigration; exposure is not cohort-relative
+W2295999605,OFF_OTHER,multi_arm,1980,Estimation of an equilibrium model for Singapore fertility.,PubMed,0,,an equilibrium model of Singapore fertility
+W2311651183,OFF_OTHER,multi_arm,1991,Population growth and socioeconomic development: A case study of Bahrain.,Figshare,0,,population growth and development in Bahrain
+W2314411247,OFF_OTHER,multi_arm,1984,[Demographic dimensions of the world economic crisis].,PubMed,0,,demographic dimensions of the world economic crisis
+W2327409170,OFF_OTHER,multi_arm,1982,"Research in Population Economics: A Research Annual, Volume 2.",International Migration Review,0,,"population economics annual, contents"
+W2412099072,OFF_OTHER,multi_arm,1982,[On the recent fertility decline in Japan].,PubMed,0,,the recent Japanese fertility decline
+W2413460744,OFF_OTHER,multi_arm,1987,[Demographic and ideational change in the European Community].,PubMed,0,,demographic and ideational change in the EC -- D.1.a
+W2424731990,OFF_OTHER,multi_arm,2016,"DavidCanning, SangeetaRaja, and Abdo S.Yazbeck (eds.) Africa's Demographic Transition: Dividend or Disaster?World Bank Publications, 2015. 214 p. $35.00",Population and Development Review,0,,review of Africa's Demographic Transition
+W2734801948,OFF_OTHER,multi_arm,1999,"Determinants of fertility in Kenya: comparative analysis of central, Nyanza, and Western- Provinces",University of Nairobi Research Archive (University of Nairobi),0,,determinants of fertility in Kenyan provinces
+W2748570726,OFF_OTHER,multi_arm,2017,"Ensaios em microeconomia do desenvolvimento: demografia, educação e mercado de trabalho",,0,,development microeconomics essays
+W2807949464,OFF_OTHER,multi_arm,2017,Essays on demographic change and education,,0,,demographic change and education essays
+W2924202280,OFF_OTHER,multi_arm,2019,"DanielCohenThe Infinite Desire for GrowthPrinceton, NJ: Princeton University Press, 184 p. $24.95",Population and Development Review,0,,"review of Cohen, The Infinite Desire for Growth"
+W2976881985,OFF_OTHER,multi_arm,2019,ECONOMIC AND LEGAL ANALYSIS OF THE RESTRICTIVE MONETARY POLICY OF STATE,Economics and Law,0,,"restrictive monetary policy, legal analysis"
+W3003989380,OFF_OTHER,multi_arm,2019,Family Planning: The Anchor behind the Sub-Saharan African Fertility Progression,The International Journal of Humanities & Social Studies,0,,family planning and sub-Saharan fertility
+W3130195092,OFF_OTHER,multi_arm,2021,Four essays on demographic economics,,0,,four essays on demographic economics
+W3144291150,OFF_OTHER,multi_arm,2018,Population in china,,0,,Bayesian demographic accounting for China
+W3158012559,OFF_OTHER,multi_arm,2019,New opportunities for comparative male fertility research: Insights from a new data resource based on high-quality birth registers,,0,,twin of the male-fertility data resource
+W42106813,OFF_OTHER,multi_arm,2011,Understanding reproductive decisions,Cambridge University Press eBooks,0,,understanding reproductive decisions
+W4211205100,OFF_OTHER,multi_arm,2004,Epilogue,Cambridge University Press eBooks,0,,epilogue
+W4254167457,OFF_OTHER,multi_arm,2020,Comment,NBER Macroeconomics Annual,0,,discussant comment
+W4254738225,OFF_OTHER,multi_arm,2015,The Social and Civic Consequences of Parenthood for Adults,,0,,social and civic consequences of parenthood
+W4256433669,OFF_OTHER,multi_arm,2018,Departures from the typical fertility transition,The state of world population/The State of world population,0,,departures from the typical fertility transition
+W4283747126,OFF_OTHER,multi_arm,2022,Рождение детей как фактор регресса социально-экономического положения семьи Институт демографических,Research Result Sociology and Management,0,,"childbearing and family socio-economic regression, Russia"
+W4388114289,OFF_OTHER,multi_arm,1999,"Religious Values and Fertility Decline: Catholics and Lutherans in Alsace, 1750-1870",,0,,religious values and fertility decline in Alsace -- D.1.a
+W4391818447,OFF_OTHER,multi_arm,2024,"Declining Fertility, Human Capital Investment, and Economic Sustainability",,0,,twin of declining fertility and sustainability
+W4415555628,OFF_OTHER,multi_arm,2025,Dopaminergic Relativity and the Abundance Paradox: Why Prosperity Predicts Fertility and Motivational Decline,,0,,dopaminergic relativity and the abundance paradox -- superseded preprint
+W7115573404,OFF_OTHER,multi_arm,2025,Ecological Loop Demography: A Systematic Feedback Theory of Population Decline and Structural Ageing,,0,,Ecological Loop Demography preprint
+W7115593029,OFF_OTHER,multi_arm,2025,Ecological Loop Demography: A Systematic Feedback Theory of Population Decline and Structural Ageing,,0,,duplicate preprint
+W7119670801,OFF_OTHER,multi_arm,2026,Ecological Loop Demography: A Systematic Feedback Theory of Population Decline and Structural Ageing,,0,,duplicate preprint
+W7119763175,OFF_OTHER,multi_arm,2026,Ecological Loop Demography: A Systematic Feedback Theory of Population Decline and Structural Ageing,,0,,duplicate preprint
+W7130718043,OFF_OTHER,multi_arm,2025,Institutional Mediation and Structural Adaptation of Early Childhood Education under Sustained Demographic Contraction (2020–2025 Evidence),Zenodo (CERN European Organization for Nuclear Research),0,,"early childhood education under low fertility, preprint"
+W7130725440,OFF_OTHER,multi_arm,2025,Institutional Mediation and Structural Adaptation of Early Childhood Education under Sustained Demographic Contraction (2020–2025 Evidence),Zenodo (CERN European Organization for Nuclear Research),0,,duplicate preprint
+W7133420322,OFF_OTHER,multi_arm,1983,Socio-Economic Determinants of Fertility Change: An Inquiry Into The Philippine Experience,RUNE (Research UNE),0,,socio-economic determinants of Philippine fertility
+W7141836051,OFF_OTHER,multi_arm,2026,"Life-Value Reflow: A Unified Framework of Time Allocation, Structural Extraction, and Population Dynamics",Zenodo (CERN European Organization for Nuclear Research),0,,Life-Value Reflow preprint
+W7141896784,OFF_OTHER,multi_arm,2026,"Life-Value Reflow: A Unified Framework of Time Allocation, Structural Extraction, and Population Dynamics",Zenodo (CERN European Organization for Nuclear Research),0,,duplicate preprint
+W7142729438,OFF_OTHER,multi_arm,2026,"Life-Value Reflow: A Unified Framework of Time Allocation, Structural Extraction, and Population Dynamics",Zenodo (CERN European Organization for Nuclear Research),0,,duplicate preprint
+W7142939892,OFF_OTHER,multi_arm,2026,"Life-Value Reflow: A Unified Framework of Time Allocation, Structural Extraction, and Population Dynamics",Zenodo (CERN European Organization for Nuclear Research),0,,duplicate preprint
+W7147697975,OFF_OTHER,multi_arm,2026,"Life-Value Reflow: A Unified Framework of Time Allocation, Structural Extraction, and Population Dynamics",Zenodo (CERN European Organization for Nuclear Research),0,,duplicate preprint
+W7148588025,OFF_OTHER,multi_arm,2026,"Life-Value Reflow: A Unified Framework of Time Allocation, Structural Extraction, and Population Dynamics",Zenodo (CERN European Organization for Nuclear Research),0,,duplicate preprint
+W7151106893,OFF_OTHER,multi_arm,2026,"Life-Value Reflow: A Unified Framework of Time Allocation, Structural Extraction, and Population Dynamics",Zenodo (CERN European Organization for Nuclear Research),0,,duplicate preprint
+W7154974122,OFF_OTHER,multi_arm,2026,"Life-Value Reflow: A Unified Framework of Time Allocation, Structural Extraction, and Population Dynamics",SSRN Electronic Journal,0,,duplicate preprint
+W7143719178,OFF_OTHER,multi_arm,2007,出生率低下に関わる経済学的・進化生物学的要因の検討,Institutional Repositories DataBase (IRDB),0,,economic and evolutionary-biological factors in fertility decline
+W7155630762,OFF_OTHER,multi_arm,2026,"Demographic change, consumption and equity returns. An international approach",Portuguese Economic Journal,0,,"demographic change, consumption and equity returns"
+W7197779307,OFF_OTHER,multi_arm,1988,Socio-economic and cultural factors affecting fertility : a replication of Easterlin and Crimmins,UVic’s Research and Learning Repository (University of Victoria),0,,replication of the Easterlin synthesis framework on socio-cultural factors
 W2161438007,OFF_SEXRATIO_A10,arm_only_marriage-boundary,2011,Sex Selection and Gender Balance,American Economic Journal Microeconomics,59,,sex selection and equilibrium sex ratio
 W2079414367,OFF_SEXRATIO_A10,arm_only_marriage-boundary,2014,How do sex ratios in China influence marriage decisions and intra-household resource allocation?,Review of Economics of the Household,54,,China sex ratios -> marriage and intra-household allocation
 W2059120046,OFF_SEXRATIO_A10,arm_only_marriage-boundary,2006,Female deficit and the marriage market in Korea,Demographic Research,8,,female deficit from selective abortion -> Korean marriage market
 W2329524034,OFF_UNCERTAINTY_C5a,arm_only_rival,2016,The Effects of Unemployment on Fertility: Evidence from England,The B E Journal of Economic Analysis & Policy,16,,"local unemployment -> fertility, England. Aggregate shock, not cohort-specific"
+W4233068658,OFF_UNCERTAINTY_C5a,free_seed_only,2001,"Job bust, baby bust?: Evidence from Spain",Journal of Population Economics,123,,job bust and baby bust in Spain -- an aggregate labour-market shock
+W1492445576,OFF_UNCERTAINTY_C5a,multi_arm,2013,Abortion and the Business Cycle in Sweden 1939-2010,Lund University Publications Student Papers (Lund University),0,,abortion and the business cycle in Sweden
+W2304798210,OFF_UNCERTAINTY_C5a,multi_arm,1984,Future trends in unemployment and fertility,Revista Española de Investigaciones Sociológicas,0,,future unemployment and Spanish fertility
 W2088709176,RELATIVE_INCOME_FERTILITY,anchor_only,1962,The American Baby Boom in Historical Perspective,RePEc: Research Papers in Economics,197,yes,"Easterlin 1962 AER, the original relative-income treatment of the baby boom"
 W2122579310,RELATIVE_INCOME_FERTILITY,arm_only_easterlin,1985,"Relative Income, Race, and Fertility",Population Studies,59,yes,relative income of white husbands -> completed fertility
 W2150140465,RELATIVE_INCOME_FERTILITY,arm_only_easterlin,1981,"Earnings, Relative Income, and Family Formation",Demography,50,yes,"Wisconsin 1957 cohort, earnings vs relative income -> first marriage"
@@ -140,6 +592,19 @@ W2376041923,RELATIVE_INCOME_FERTILITY,arm_only_easterlin,2010,"Income,Relative S
 W1827173338,RELATIVE_INCOME_FERTILITY,arm_only_easterlin,1982,Relative and potential income and fertility,Canadian Studies in Population,0,,husband's relative and family potential income vs current income -> fertility
 W2260582785,RELATIVE_INCOME_FERTILITY,arm_only_easterlin,2011,The Effect of Relative Income on Fertility (in Japanese),RePEc: Research Papers in Economics,0,,relative income framework applied to Japanese fertility
 W628360424,RELATIVE_INCOME_FERTILITY,arm_only_easterlin,1984,"Women's economic contribution, relative income and fertility decision-making in Malaysia",UMI Dissertation Information Service eBooks,0,,"women's economic contribution and relative income -> fertility decisions, Malaysia"
+W1968721410,RELATIVE_INCOME_FERTILITY,multi_arm,1979,The Relevance of the ‘Easterlin hypothesis’ and the ‘new home economics’ to fertility movements in Great Britain,Population Studies,56,yes,Ermisch: relative economic status and British fertility
+W4230004613,RELATIVE_INCOME_FERTILITY,multi_arm,1979,The Relevance of the `Easterlin Hypothesis' and the `New Home Economics' to Fertility Movements in Great Britain,Population Studies,13,,twin of the Ermisch paper
+W2064179828,RELATIVE_INCOME_FERTILITY,multi_arm,1998,Race and relative income/price of time effects on U.S. fertility,The Journal of Socio-Economics,22,yes,race and relative income/price of time on US fertility
+W2329087805,RELATIVE_INCOME_FERTILITY,multi_arm,1971,The economic explanation of fertility changes in the United States,Population Studies,26,,the economic explanation of US fertility changes
+W2187762407,RELATIVE_INCOME_FERTILITY,multi_arm,1976,RELATIVE ECONOMIC STATUS AND.FERTILITY: EVIDENCE FROM A CROSS-SECTION,,21,,"relative economic status and fertility, cross-section"
+W2094511977,RELATIVE_INCOME_FERTILITY,multi_arm,1978,A Note on Some Evidence on the Easterlin Hypothesis,Journal of Political Economy,19,,a note on evidence for the Easterlin hypothesis
+W2271295701,RELATIVE_INCOME_FERTILITY,multi_arm,2014,Easterlin revisited: Relative income and the baby boom,Explorations in Economic History,9,yes,Easterlin revisited: relative income and the baby boom
+W2490782812,RELATIVE_INCOME_FERTILITY,multi_arm,2002,Male Relative Income and Its Significance,,0,,male relative income and its significance
+W3123365169,RELATIVE_INCOME_FERTILITY,multi_arm,1981,The Origins of the fertility transition in rural Japan,University of Alberta Library,0,,the Easterlin thesis and the rural Japanese transition
+W3123456113,RELATIVE_INCOME_FERTILITY,multi_arm,2014,Easterlin revisted: Relative income and the baby boom,RePEc: Research Papers in Economics,0,,twin of Easterlin revisited
+W7160416708,RELATIVE_INCOME_FERTILITY,multi_arm,2003,Aplikasi Teori Easterlin di Kabupaten Jember,Fenomena,0,,"Easterlin's theory applied in Jember, Indonesia"
+W4288096208,RELATIVE_INCOME_FERTILITY,multi_arm,2022,The role of relative income in the share of children born out-of-wedlock in the USA,Empirical Economics,0,,"relative income and out-of-wedlock births, USA"
+W4312707265,RELATIVE_INCOME_FERTILITY,multi_arm,2022,The Influence of Relative Socio-Economic Status on Fertility Intention—Based on Easterlin Hypothesis,Operations Research and Fuzziology,0,,relative socio-economic status and fertility INTENTION -- stated outcome
 W1564268483,RIVAL_TEST,arm_only_rival,1977,The Emergence of Countercyclical U.S. Fertility,American Economic Review,438,yes,"Butz and Ward, the rival model itself"
 W1574851409,RIVAL_TEST,arm_only_rival,1995,The Butz-Ward Fertility Model in the Light of More Recent Data,The Journal of Human Resources,67,yes,Macunovich: Butz-Ward updated on later data
 W2083744276,RIVAL_TEST,arm_only_rival,1983,The emergence of countercyclical US fertility: A reassessment of the evidence,Journal of Macroeconomics,27,,reassessment of the countercyclical-fertility evidence
@@ -156,6 +621,19 @@ W1775494842,RIVAL_TEST,arm_only_easterlin,1980,"TIME COSTS, ASPIRATIONS AND THE 
 W4387618925,RIVAL_TEST,arm_only_easterlin,2023,The emergence of procyclical fertility: The role of breadwinner women,Journal of Monetary Economics,20,,the emergence of PROcyclical fertility -- a direct answer to Butz-Ward
 W1995758137,RIVAL_TEST,arm_only_easterlin,2003,A Cointegration Model of Age-Specific Fertility and Female Labor Supply in the United States,Southern Economic Journal,19,,"cointegration of age-specific fertility and female labour supply, US"
 W4234242892,RIVAL_TEST,arm_only_easterlin,2003,A Cointegration Model of Age‐Specific Fertility and Female Labor Supply in the United States,Southern Economic Journal,2,,twin record of the cointegration study
+W1989526901,RIVAL_TEST,multi_arm,1996,Relative Income and Price of Time: Exploring Their Effects on US Fertility and Female Labor Force Participation,Population and Development Review,170,yes,Macunovich: relative income against price of time
+W3001029832,RIVAL_TEST,multi_arm,2022,The Emergence of Procyclical Fertility: The Role of Gender Differences in Employment Risk,RePEc: Research Papers in Economics,20,,procyclical fertility from gender differences in employment risk
+W2140909212,RIVAL_TEST,multi_arm,2012,The causal relationship between female labor supply and fertility in the USA: updated evidence via a time series multi-horizon approach,Journal of Population Economics,14,,"causal relationship between female labour supply and fertility, updated"
+W2295027657,RIVAL_TEST,multi_arm,1982,Empirical tests of the Chicago model and the Easterlin hypothesis: a case study of Japan.,PubMed,8,,"Chicago model against the Easterlin hypothesis, Japan"
+W2127054757,RIVAL_TEST,multi_arm,2008,Approches économiques de la fécondité,Cahiers québécois de démographie,3,,New Home Economics against Easterlin theory
+W1549671565,RIVAL_TEST,multi_arm,1993,THE MISSING FACTOR: VARIATIONS IN THE INCOME EFFECT OF THE FEMALE WAGE ON FERTILITY IN THE U.S.,"AgEcon Search (University of Minnesota, USA)",4,,the income effect of the female wage against relative earnings
+W2058350159,RIVAL_TEST,multi_arm,1986,Comment on barbara devaney’s “An analysis of variations in U.S. Fertility and female labor force participation trends”,Demography,1,,comment extending the Easterlin model with wages
+W2039112600,RIVAL_TEST,multi_arm,1990,A comparison and latent variable test of two fertile ideas,Journal of Population Economics,7,,latent-variable comparison of two fertility theories
+W3024207051,RIVAL_TEST,multi_arm,2019,"Total Fertility Rates of OECD Countries: Becker Hypothesis, Easterlin Hypothesis, Family Policies and Implications",Korean Journal of Public Finance,2,,Becker against Easterlin on OECD TFRs
+W2005480324,RIVAL_TEST,multi_arm,2003,Cointegration modeling of fertility in the United States,Mathematical Population Studies,2,,"cointegrated fertility and female labour supply, US"
+W1608837277,RIVAL_TEST,multi_arm,2005,"Becker vs. Easterlin. Education, Fertility and Growth in France after World War II",RePEc: Research Papers in Economics,3,yes,"Becker vs Easterlin, France after WWII"
+W3122651457,RIVAL_TEST,multi_arm,1996,"Relative Income and Price of Time: Exploring their effcts on U.S. Fertility and Female Labor Force Participation, 1963-1993",RePEc: Research Papers in Economics,0,,twin of relative income and price of time
+W4244320184,RIVAL_TEST,multi_arm,2011,The Causal Relationship between Female Labor Supply and Fertility in the U.S. Updated Evidence Via a Time Series Multi-Horizon Approach,SSRN Electronic Journal,0,,twin of the female labour supply causality paper
 W3147225783,THEORY,anchor_only,1980,Birth and fortune,,286,yes,"Easterlin, Birth and Fortune -- the book-length statement"
 W2312541858,THEORY,anchor_only,1976,The Conflict between Aspirations and Resources,Population and Development Review,224,yes,"Easterlin 1976 aspirations-vs-resources; the mechanism stated, no estimate"
 W2078758495,THEORY,arm_only_rival,1981,An Emerging Secular Rise in the Western World's Fertility?,Population and Development Review,2,,"argues a minimum-family-size floor inside the recent fertility model; theory, no new estimate"
@@ -163,3 +641,70 @@ W1986642406,THEORY,arm_only_easterlin,1984,Commodity aspirations in easterlin's 
 W2315800015,THEORY,arm_only_easterlin,1985,[The formal dynamics of population transition].,PubMed,0,,"formal dynamics of the population transition, reconsidered"
 W4361273120,THEORY,arm_only_easterlin,2023,Are fertility theories still relevant in explaining fertility behaviour in traditional and contemporary societies in sub-Saharan Africa? A systematic review,Journal of Population Research,6,,are fertility theories still relevant -- review
 W116680022,THEORY,arm_only_easterlin,1999,[The causes of the population implosion at the end of the twentieth century].,PubMed,0,,causes of the late-20th-century population implosion -- essay
+W2055639185,THEORY,arm_only_cycle,2006,On the Weak Solutions of the McKendrick Equation: Existence of Demography Cycles,Mathematical Modelling of Natural Phenomena,8,,McKendrick PDE; existence of demography cycles
+W2777885277,THEORY,arm_only_cycle,2006,On the weak solutions of the McKendrick equation,arXiv (Cornell University),0,,twin of the McKendrick paper
+W2950934635,THEORY,arm_only_cycle,2006,On the weak solutions of the McKendrick equation: Existence of demography cycles,arXiv (Cornell University),0,,twin of the McKendrick paper
+W3099090224,THEORY,arm_only_cycle,1998,Cyclical Patterns of Human Population: Summary of Previous Research,Oxford University Press eBooks,0,,review of cyclical patterns in human population
+W4416218891,THEORY,arm_only_cycle,2025,Toward Order and Efficiency,,0,,the modern demographic cycle of the West through its phases
+W2119584680,THEORY,arm_only_cycle,2007,The Population Cycle Drives Human History - from a Eugenic Phase into a Dysgenic Phase and Eventual Collapse,Munich Personal RePEc Archive (Ludwig Maximilian University of Munich),13,,"population cycle and eugenic/dysgenic phases -- theory, contested"
+W2621327282,THEORY,arm_only_cycle,1977,Population change and economic development in Mainland China since 1400.,,20,,long-run population fluctuation in China since 1400
+W2485759401,THEORY,arm_only_cycle,1998,Prospectives – towards a metapopulation study,Cambridge University Press eBooks,0,,time-series methods for historical demographers studying population cycles
+W1885468499,THEORY,arm_only_cycle,2012,"Timing of childbirth, capital accumulation, and economic welfare",Oxford Economic Papers,4,,"OLG model, timing of childbirth and capital accumulation"
+W2404615446,THEORY,arm_only_cycle,2011,"Timing of childbirth, capital accumulation, and economic welfare",Munich Personal RePEc Archive (Ludwig Maximilian University of Munich),0,,twin of the OLG timing paper
+W2011680811,THEORY,free_seed_only,2013,The Baby Boom and Its Causes: What We Know and What We Need to Know,Population and Development Review,198,,review: what we know and need to know about the boom
+W2127606842,THEORY,free_seed_only,1983,The Baby Boom and Its Explanations,Sociological Quarterly,43,,review of explanations of the US baby boom
+W1976809699,THEORY,free_seed_only,1978,Baby Boom to Birth Dearth and Beyond,The Annals of the American Academy of Political and Social Science,8,,baby boom to birth dearth; how fertility change exaggerates annual trends
+W1598241229,THEORY,free_seed_only,2017,"SECULAR FERTILITY DECLINES, BABY BOOMS, AND ECONOMIC GROWTH: INTERNATIONAL EVIDENCE",Macroeconomic Dynamics,19,,unified-growth model of secular decline plus a boom
+W2184517750,THEORY,free_seed_only,2008,Fertility Decline and Baby Boom,,2,,twin of the fertility-decline-and-boom model
+W2121656151,THEORY,free_seed_only,2008,"Fertility Decline, Baby Boom, and Economic Growth",Journal of Human Capital,59,,"twin, with new US fertility/schooling data 1800-2000"
+W2092242825,THEORY,multi_arm,1998,Fertility and the Easterlin hypothesis: An assessment of the literature,Journal of Population Economics,138,yes,Macunovich's assessment of the Easterlin literature
+W1978750732,THEORY,multi_arm,1995,The Easterlin Effect,Annual Review of Sociology,96,yes,"Pampel and Peters, The Easterlin Effect -- review"
+W2089365815,THEORY,multi_arm,1987,The Fertility Revolution: A Supply-Demand Analysis,Southern Economic Journal,89,,Easterlin and Crimmins supply-demand framework
+W2320417142,THEORY,multi_arm,1976,An economist's non-linear model of self-generated fertility waves,Population Studies,68,yes,Samuelson's non-linear model of self-generated fertility waves
+W1998665602,THEORY,multi_arm,1976,On Two Schools of the Economics of Fertility,Population and Development Review,47,,Easterlin's and Becker's schools of fertility economics compared
+W2009119204,THEORY,multi_arm,1986,Economic Preconceptions and Demographic Research: A Comment,Population and Development Review,35,,comment on a review of The Fertility Revolution
+W2076354570,THEORY,multi_arm,1988,Economic Influences On Birth Rates,National Institute Economic Review,34,,"economic influences on birth rates, from Malthus onward"
+W1989159787,THEORY,multi_arm,1994,"Capital accumulation, inertia of consumption and norms of reproduction",Journal of Population Economics,25,,"capital accumulation, consumption inertia and reproduction norms"
+W4213173576,THEORY,multi_arm,1972,Population Waves,Elsevier eBooks,22,,population waves
+W2006746235,THEORY,multi_arm,1987,"A new look at the Easterlin ""synthesis"" framework.",PubMed,19,,a new look at the Easterlin synthesis framework
+W2019040892,THEORY,multi_arm,2014,Optimal life-cycle fertility in a Barro-Becker economy,Journal of Population Economics,18,,optimal life-cycle fertility in a Barro-Becker economy
+W2028334213,THEORY,multi_arm,1992,The synthesis economic fertility model,Journal of Population Economics,12,,the synthesis economic fertility model
+W2130268630,THEORY,multi_arm,1999,A Theory of Population Growth When Women Really Count,Kyklos,11,,a theory of population growth when women really count
+W4256008062,THEORY,multi_arm,1987,Easterlin Hypothesis,The New Palgrave Dictionary of Economics,10,,Easterlin (cohort size) hypothesis -- encyclopedia entry
+W4239405828,THEORY,multi_arm,1995,The Easterlin Effect,Annual Review of Sociology,3,,twin of The Easterlin Effect
+W4246763242,THEORY,multi_arm,2010,Easterlin hypothesis,Palgrave Macmillan UK eBooks,3,,"Easterlin hypothesis, reference entry"
+W4232847035,THEORY,multi_arm,2008,Easterlin Hypothesis,The New Palgrave Dictionary of Economics,2,,"Easterlin hypothesis, reference entry"
+W4247330688,THEORY,multi_arm,2018,Easterlin Hypothesis,The New Palgrave Dictionary of Economics,1,,"Easterlin hypothesis, reference entry"
+W1532683566,THEORY,multi_arm,2003,Birth Quake: The Baby Boom and its Aftershocks,International Journal of Social Economics,5,,review of Macunovich's Birth Quake
+W2200763375,THEORY,multi_arm,1985,The Fertility Revolution,University of Chicago Press Economics Books,4,,The Fertility Revolution
+W3016098961,THEORY,multi_arm,1986,The Fertility Revolution: A Review Essay,Econstor (Econstor),2,,review essay on The Fertility Revolution
+W2261630161,THEORY,multi_arm,1984,A critique of the Easterlin approach to micro-level fertility analysis.,PubMed,4,,critique of the Easterlin micro-level approach
+W1576768396,THEORY,multi_arm,1993,Economic approaches to modeling fertility determinants: a selective review,RePEc: Research Papers in Economics,2,,selective review of economic fertility models
+W1650985154,THEORY,multi_arm,1988,Malthus' preconditions to moral restraint and modern population economics.,PubMed,1,,Malthus and modern population economics
+W3083076796,THEORY,multi_arm,2004,An Economic Framework for Fertility Analysis,Cambridge University Press eBooks,1,,an economic framework for fertility analysis
+W990781867,THEORY,multi_arm,1998,CZYNNIK EKONOMICZNY WE WSPÓŁCZESNYCH KONCEPCJACH LUDNOŚCIOWYCH,Repozytorium Uniwersytetu im. Adama Mickiewicza (Adam Mickiewicz University in Poznań),1,,review of the economic factor in population theory
+W2186805210,THEORY,multi_arm,1976,"Fertility, Aspirations, and Resources: A Symposium on the Easterlin Hypothesis: Introduction",Population and Development Review,3,,introduction to the symposium on the Easterlin hypothesis
+W2300100509,THEORY,multi_arm,2004,The Easterlin Hypothesis,Social Science Open Access Repository (GESIS – Leibniz Institute for the Social Sciences),1,,the Easterlin hypothesis stated
+W1557652263,THEORY,multi_arm,1985,An Econometric Test of Structural Change in the Demographic Transition,Scandinavian Journal of Economics,1,,econometric test of structural change in the transition
+W2119406465,THEORY,multi_arm,2013,Family Expansion and Capital Accumulation of a Dynasty,Studies in Microeconomics,1,,family expansion and dynastic capital accumulation
+W2161625834,THEORY,multi_arm,1989,"Age, Period, and Cohort Effects",Research in criminology,0,,"age, period and cohort effects -- method"
+W2274357952,THEORY,multi_arm,1982,[The development of the birth rate: two economic interpretations].,PubMed,0,,two economic interpretations of the birth rate
+W2275239932,THEORY,multi_arm,1980,[The economics of fertility: toward a synthetic population science].,PubMed,0,,the economics of fertility as a synthetic population science
+W2735105556,THEORY,multi_arm,2008,Fertility and Its Economic Determinants,Revue économique,0,,"economic theories of fertility, review"
+W2760874103,THEORY,multi_arm,2017,Teaching the Fundamentals of Demography: A Model-Based Approach to Fertility,Demographic research monographs,0,,model-based teaching of fertility
+W4210845274,THEORY,multi_arm,2002,Conclusion,,0,,Birth Quake conclusion
+W4234276146,THEORY,multi_arm,2002,Overview,,0,,Birth Quake overview
+W4252729313,THEORY,multi_arm,2001,Conclusion,,0,,concluding chapter of the eight-country study
+W4231184333,THEORY,multi_arm,2001,"Population Cycles, Formal Theory of",Elsevier eBooks,0,,formal theory of population cycles
+W4231759999,THEORY,multi_arm,2008,population dynamics,The New Palgrave Dictionary of Economics,0,,"population dynamics, reference entry"
+W4234040712,THEORY,multi_arm,2008,Population Dynamics,The New Palgrave Dictionary of Economics,0,,"population dynamics, reference entry"
+W4237310166,THEORY,multi_arm,2018,Population Dynamics,The New Palgrave Dictionary of Economics,0,,"population dynamics, reference entry"
+W4246838248,THEORY,multi_arm,2011,Easterlin hypothesis,The New Palgrave Dictionary of Economics,0,,"Easterlin hypothesis, reference entry"
+W4247803545,THEORY,multi_arm,2018,E,,0,,"Easterlin hypothesis, reference entry"
+W4251102139,THEORY,multi_arm,2008,Easterlin hypothesis,The New Palgrave Dictionary of Economics,0,,"Easterlin hypothesis, reference entry"
+W4416091011,THEORY,multi_arm,2008,Easterlin Hypothesis,The New Palgrave Dictionary of Economics,0,,"Easterlin hypothesis, reference entry"
+W7113529207,THEORY,multi_arm,1999,A theory of population growth when women realty count,Discovery Research Portal (University of Dundee),0,,twin of population growth when women really count
+W7029877321,THEORY,multi_arm,2006,The low fertility trap hypothesis: Forces that may lead to further postponement and fewer births in Europe,WU Research,0,,the low fertility trap hypothesis
+W2916718397,THEORY,multi_arm,2018,History Does Not Stop,,0,,"long-run US fertility trends, essay"
+W7165087323,THEORY,multi_arm,1998,ECONOMIC FACTOR IN CONTEMPORARY DEMOGRAPHIC CONCEPTIONS,Repozytorium Uniwersytetu im. Adama Mickiewicza (Adam Mickiewicz University in Poznań),0,,twin of the economic-factor review
+W7139226057,THEORY,multi_arm,2026,"Endogenous Education Duration, Fertility Choice, and Mortality: A Framework for Optimal Population Policy",IIASA PURE (International Institute of Applied Systems Analysis),0,,optimal education and population policy in continuous-time OLG

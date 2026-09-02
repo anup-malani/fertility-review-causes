@@ -30,7 +30,14 @@ OUTJSON = LOGS / "easterlin-relative-income-screen-results.json"
 
 PRIMARY = {"RELATIVE_INCOME_FERTILITY", "COHORT_SIZE_FERTILITY", "BENCHMARK_MEASURED",
            "CYCLE_TEST", "RIVAL_TEST", "INSTITUTIONAL_MODERATION"}
-KEPT = PRIMARY | {"LINK1_LABOUR", "MIXED_COHORT_MARRIAGE", "THEORY"}
+# BOOM_ALTERNATIVE was added to the rubric DURING the screen, at the free_seed stratum, when it
+# became clear that a large class of records -- competing explanations of the baby boom itself
+# (WWII female labour supply, household technology, war debt, mortgages, influenza) -- had no cell.
+# They are not evidence about Easterlin's mechanism, but they are evidence about how much of the
+# mechanism's own best case is already spoken for, which is a scope §5 demsig input. Forcing them to
+# OFF_OTHER would have discarded exactly the records the demographic-significance step needs.
+# The four strata screened before it existed are re-checked in 313.
+KEPT = PRIMARY | {"LINK1_LABOUR", "MIXED_COHORT_MARRIAGE", "THEORY", "BOOM_ALTERNATIVE"}
 
 by_id, stratum_of = {}, {}
 for strat, rows in SHEET.items():
