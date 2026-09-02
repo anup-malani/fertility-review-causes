@@ -1,5 +1,5 @@
 # TICK-078: C.6.a Easterlin Relative Income / Cohort Size
-**Status:** open
+**Status:** in-progress
 **Assigned:** Shravan
 **Hypothesis:** `easterlin-relative-income` — HYPOTHESES-v5.md §C.6.a
 **Parallel-safe:** yes
