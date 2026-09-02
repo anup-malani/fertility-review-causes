@@ -1,6 +1,6 @@
 # Work Queue
 
-Last updated: 2026-09-01
+Last updated: 2026-09-02
 
 Pick the first open ticket assigned to you or `any`. Before starting, pull/sync, then **claim** it
 before doing the work. The active mode is **Mode B (branch-per-ticket)** — the simplest path is
@@ -27,7 +27,7 @@ tickets can be worked concurrently.
 > commit message dated 07-21 to 07-25 against this table; in commit messages from Alexandra's schooling
 > workstream, `TICK-032` means the compulsory-education split and needs no translation.
 >
-> **Next free number is TICK-078.** Claim a number by pushing its QUEUE.md row before starting work,
+> **Next free number is TICK-079.** Claim a number by pushing its QUEUE.md row before starting work,
 > not after. That is what would have prevented the collision. TICK-047 through TICK-053 were claimed
 > for the D.3.b climate-anxiety chain on 2026-07-27; TICK-054 (A.10) and TICK-055 (C.2.c) on
 > 2026-07-31; TICK-056 opens C.2.c library retrieval. TICK-075 (A.23) was claimed on 2026-08-27.
@@ -46,6 +46,7 @@ tickets can be worked concurrently.
 
 | Ticket | Title | Assigned | Parallel-safe |
 |--------|-------|----------|---------------|
+| [TICK-078](TICK-078-easterlin-relative-income.md) | C.6.a Easterlin Relative Income / Cohort Size | Shravan | yes |
 | [TICK-077](TICK-077-credit-constraints-liquidity.md) | C.3.e Credit Constraints and Liquidity | Shravan | yes |
 | [TICK-076](TICK-076-heritability-fertility-genetic.md) | A.18 Genetic and Heritable Variation in Fertility | Shravan | yes |
 | [TICK-075](TICK-075-co-residence-parents-household-delay.md) | A.23 Co-Residence with Parents and Delayed Household Formation | Shravan | yes |
