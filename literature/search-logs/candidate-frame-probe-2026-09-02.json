@@ -1,0 +1,484 @@
+{
+  "date": "2026-09-02",
+  "outcome_axis": "(\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\")",
+  "outcome_axis_wide": "(\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+  "control": {
+    "label": "C.3.e (chapter written)",
+    "n": 84
+  },
+  "pass1_narrow": [
+    {
+      "row": [
+        "A.6",
+        "stigma-reduction-contraception-abortion"
+      ],
+      "axis": "(\"abortion stigma\" OR \"contraceptive stigma\" OR \"contraception stigma\" OR \"family planning stigma\")",
+      "n": 12,
+      "err": null
+    },
+    {
+      "row": [
+        "A.8",
+        "parity-progression-stopping-behavior"
+      ],
+      "axis": "(\"parity progression\" OR \"stopping behaviour\" OR \"stopping behavior\" OR \"birth spacing\" OR \"birth interval\")",
+      "n": 2519,
+      "err": null
+    },
+    {
+      "row": [
+        "A.9",
+        "population-age-structure-momentum"
+      ],
+      "axis": "(\"population momentum\" OR \"demographic momentum\" OR \"population age structure\")",
+      "n": 500,
+      "err": null
+    },
+    {
+      "row": [
+        "A.13",
+        "breastfeeding-lactational-amenorrhea"
+      ],
+      "axis": "(\"lactational amenorrhea\" OR \"lactational amenorrhoea\" OR \"postpartum amenorrhea\" OR \"breastfeeding duration\")",
+      "n": 448,
+      "err": null
+    },
+    {
+      "row": [
+        "A.14",
+        "coital-frequency-biological"
+      ],
+      "axis": "(\"coital frequency\" OR \"sexual frequency\" OR \"frequency of intercourse\" OR \"sexual inactivity\")",
+      "n": 311,
+      "err": null
+    },
+    {
+      "row": [
+        "A.16",
+        "paternal-age-sperm-quality"
+      ],
+      "axis": "(\"sperm count\" OR \"semen quality\" OR \"sperm quality\" OR \"sperm concentration\" OR \"paternal age\")",
+      "n": 15655,
+      "err": null
+    },
+    {
+      "row": [
+        "A.19",
+        "intergenerational-transmission-fertility"
+      ],
+      "axis": "(\"intergenerational transmission of fertility\" OR \"intergenerational fertility correlation\" OR \"fertility transmission\")",
+      "n": 88,
+      "err": null
+    },
+    {
+      "row": [
+        "A.20",
+        "cultural-diffusion-mechanisms"
+      ],
+      "axis": "(\"cultural diffusion\" OR \"social learning\" OR \"social contagion\" OR \"peer effects\")",
+      "n": 204,
+      "err": null
+    },
+    {
+      "row": [
+        "B.2",
+        "endocrine-disruptors-environmental-toxins"
+      ],
+      "axis": "(\"endocrine disruptor\" OR \"endocrine disrupting chemical\" OR \"bisphenol\" OR \"phthalate\" OR \"pesticide exposure\")",
+      "n": 2936,
+      "err": null
+    },
+    {
+      "row": [
+        "B.3",
+        "infectious-disease-sterility"
+      ],
+      "axis": "(\"sexually transmitted infection\" OR \"pelvic inflammatory disease\" OR \"infertility belt\" OR \"chlamydia\" OR \"gonorrhea\")",
+      "n": 2723,
+      "err": null
+    },
+    {
+      "row": [
+        "B.4",
+        "obesity-metabolic-subfecundity"
+      ],
+      "axis": "(\"obesity\" OR \"body mass index\" OR \"metabolic syndrome\")",
+      "n": 12100,
+      "err": null
+    },
+    {
+      "row": [
+        "C.2.a",
+        "childcare-availability-cost"
+      ],
+      "axis": "(\"childcare cost\" OR \"child care cost\" OR \"childcare availability\" OR \"childcare subsidy\" OR \"daycare\")",
+      "n": 251,
+      "err": null
+    },
+    {
+      "row": [
+        "C.2.d",
+        "tax-and-transfer-pronatalism"
+      ],
+      "axis": "(\"child allowance\" OR \"baby bonus\" OR \"child benefit\" OR \"parental leave\" OR \"child tax credit\")",
+      "n": 1297,
+      "err": null
+    },
+    {
+      "row": [
+        "C.2.f",
+        "rising-inequality-and-status-competition"
+      ],
+      "axis": "(\"income inequality\" OR \"status competition\" OR \"positional competition\" OR \"relative status\")",
+      "n": 538,
+      "err": null
+    },
+    {
+      "row": [
+        "C.2.h",
+        "digital-leisure-substitution"
+      ],
+      "axis": "(\"screen time\" OR \"video games\" OR \"social media use\" OR \"smartphone use\" OR \"digital leisure\" OR \"internet use\")",
+      "n": 141,
+      "err": null
+    },
+    {
+      "row": [
+        "C.3.a",
+        "agricultural-mode-of-production"
+      ],
+      "axis": "(\"mode of production\" OR \"agricultural household\" OR \"peasant household\" OR \"farm household\")",
+      "n": 619,
+      "err": null
+    },
+    {
+      "row": [
+        "C.3.d",
+        "quantity-quality-tradeoff"
+      ],
+      "axis": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\")",
+      "n": 566,
+      "err": null
+    },
+    {
+      "row": [
+        "C.3.f",
+        "wealth-flows-reversal"
+      ],
+      "axis": "(\"wealth flows\" OR \"intergenerational transfer\" OR \"intergenerational wealth\")",
+      "n": 330,
+      "err": null
+    },
+    {
+      "row": [
+        "C.4.a",
+        "land-and-resource-constraints-malthusian"
+      ],
+      "axis": "(\"land constraints\" OR \"land scarcity\" OR \"Malthusian\" OR \"land availability\")",
+      "n": 1015,
+      "err": null
+    },
+    {
+      "row": [
+        "C.6.a",
+        "easterlin-relative-income"
+      ],
+      "axis": "(\"relative income hypothesis\" OR \"Easterlin hypothesis\" OR \"relative cohort size\" OR \"cohort size\")",
+      "n": 236,
+      "err": null
+    },
+    {
+      "row": [
+        "D.1.c",
+        "cultural-evolution-demographic-transition"
+      ],
+      "axis": "(\"cultural evolution\" OR \"cultural transmission\" OR \"gene-culture coevolution\")",
+      "n": 224,
+      "err": null
+    },
+    {
+      "row": [
+        "D.1.d",
+        "nationalism-pronatalist-ideology"
+      ],
+      "axis": "(\"pronatalist\" OR \"pronatalism\" OR \"natalist policy\" OR \"nationalist ideology\")",
+      "n": 1292,
+      "err": null
+    },
+    {
+      "row": [
+        "D.2.c",
+        "son-preference-cultural"
+      ],
+      "axis": "(\"son preference\" OR \"sex selection\" OR \"missing women\")",
+      "n": 1046,
+      "err": null
+    },
+    {
+      "row": [
+        "D.3.a",
+        "mental-health-anxiety-epidemic"
+      ],
+      "axis": "(\"mental health\" OR \"anxiety disorder\" OR \"depression\" OR \"psychological distress\")",
+      "n": 9146,
+      "err": null
+    }
+  ],
+  "pass2_wide": [
+    {
+      "row": [
+        "A.6"
+      ],
+      "axis": "(\"stigma\" OR \"taboo\" OR \"social disapproval\" OR \"shame\") AND (\"contraception\" OR \"contraceptive\" OR \"abortion\" OR \"family planning\")",
+      "n": 686,
+      "err": null
+    },
+    {
+      "row": [
+        "A.9"
+      ],
+      "axis": "(\"population momentum\" OR \"demographic momentum\" OR \"age structure\" OR \"age composition\" OR \"tempo effect\" OR \"compositional change\")",
+      "n": 3658,
+      "err": null
+    },
+    {
+      "row": [
+        "A.13"
+      ],
+      "axis": "(\"breastfeeding\" OR \"breast feeding\" OR \"lactation\" OR \"amenorrhea\" OR \"amenorrhoea\" OR \"weaning\" OR \"suckling\")",
+      "n": 14423,
+      "err": null
+    },
+    {
+      "row": [
+        "A.14"
+      ],
+      "axis": "(\"coital frequency\" OR \"sexual frequency\" OR \"sexual activity\" OR \"sexual behaviour\" OR \"sexual behavior\" OR \"sexual abstinence\" OR \"fecundability\")",
+      "n": 12147,
+      "err": null
+    },
+    {
+      "row": [
+        "A.19"
+      ],
+      "axis": "(\"intergenerational transmission\" OR \"intergenerational correlation\" OR \"intergenerational continuity\" OR \"mother-daughter\") AND (\"family size\" OR \"number of children\" OR \"fertility preferences\" OR \"fertility\")",
+      "n": 386,
+      "err": null
+    },
+    {
+      "row": [
+        "A.20"
+      ],
+      "axis": "(\"diffusion\" OR \"social learning\" OR \"social network\" OR \"peer effect\" OR \"social influence\" OR \"ideational change\")",
+      "n": 3024,
+      "err": null
+    },
+    {
+      "row": [
+        "C.2.a"
+      ],
+      "axis": "(\"childcare\" OR \"child care\" OR \"day care\" OR \"daycare\" OR \"kindergarten\" OR \"preschool\" OR \"creche\" OR \"nursery school\")",
+      "n": 4079,
+      "err": null
+    },
+    {
+      "row": [
+        "C.2.h"
+      ],
+      "axis": "(\"screen time\" OR \"video game\" OR \"social media\" OR \"smartphone\" OR \"internet\" OR \"television\" OR \"leisure time\" OR \"time use\")",
+      "n": 4484,
+      "err": null
+    },
+    {
+      "row": [
+        "C.3.f"
+      ],
+      "axis": "(\"wealth flows\" OR \"intergenerational transfer\" OR \"net transfers\" OR \"child cost\" OR \"value of children\" OR \"old age support\")",
+      "n": 905,
+      "err": null
+    },
+    {
+      "row": [
+        "C.6.a"
+      ],
+      "axis": "(\"Easterlin\" OR \"relative income\" OR \"cohort size\" OR \"cohort crowding\" OR \"baby boom\")",
+      "n": 1786,
+      "err": null
+    },
+    {
+      "row": [
+        "D.1.c"
+      ],
+      "axis": "(\"cultural evolution\" OR \"cultural transmission\" OR \"gene-culture\" OR \"evolutionary demography\" OR \"natural selection\" OR \"reproductive success\" OR \"fitness\")",
+      "n": 6818,
+      "err": null
+    },
+    {
+      "row": [
+        "D.1.d"
+      ],
+      "axis": "(\"pronatalist\" OR \"pronatalism\" OR \"natalism\" OR \"nationalism\" OR \"population policy\" OR \"demographic anxiety\" OR \"great replacement\")",
+      "n": 5701,
+      "err": null
+    }
+  ],
+  "pass3_sublit": [
+    {
+      "row": [
+        "A.19",
+        "core (pass 1)"
+      ],
+      "axis": "(\"intergenerational transmission of fertility\" OR \"intergenerational fertility correlation\" OR \"fertility transmission\")",
+      "n": 88,
+      "err": null
+    },
+    {
+      "row": [
+        "A.19",
+        "epidemiological / immigrant"
+      ],
+      "axis": "(\"second-generation immigrants\" OR \"immigrant fertility\" OR \"country of origin culture\" OR \"epidemiological approach\")",
+      "n": 263,
+      "err": null
+    },
+    {
+      "row": [
+        "A.19",
+        "sibship / family-size lineage"
+      ],
+      "axis": "(\"sibship size\" OR \"family size of origin\" OR \"parental family size\" OR \"number of siblings\")",
+      "n": 674,
+      "err": null
+    },
+    {
+      "row": [
+        "A.19",
+        "multigenerational registers"
+      ],
+      "axis": "(\"multigenerational\" OR \"three generations\" OR \"grandparents\" OR \"lineage\")",
+      "n": 3814,
+      "err": null
+    },
+    {
+      "row": [
+        "A.19",
+        "socialization of preferences"
+      ],
+      "axis": "(\"fertility preferences\" OR \"ideal family size\" OR \"family size preferences\") AND (\"parents\" OR \"socialization\" OR \"transmitted\")",
+      "n": 183,
+      "err": null
+    },
+    {
+      "row": [
+        "C.3.f",
+        "core (pass 1)"
+      ],
+      "axis": "(\"wealth flows\" OR \"intergenerational transfer\" OR \"intergenerational wealth\")",
+      "n": 367,
+      "err": null
+    },
+    {
+      "row": [
+        "C.3.f",
+        "NTA / lifecycle deficit"
+      ],
+      "axis": "(\"National Transfer Accounts\" OR \"lifecycle deficit\" OR \"life cycle deficit\" OR \"generational accounts\")",
+      "n": 104,
+      "err": null
+    },
+    {
+      "row": [
+        "C.3.f",
+        "child economic contribution"
+      ],
+      "axis": "(\"child labour contribution\" OR \"child labor contribution\" OR \"children economic value\" OR \"value of children\" OR \"cost of children\")",
+      "n": 709,
+      "err": null
+    },
+    {
+      "row": [
+        "C.3.f",
+        "upward support"
+      ],
+      "axis": "(\"old age support\" OR \"old-age support\" OR \"filial support\" OR \"remittances to parents\" OR \"parental support in old age\")",
+      "n": 218,
+      "err": null
+    }
+  ],
+  "pass4_union": [
+    {
+      "row": [
+        "A.6"
+      ],
+      "axis": "(\"abortion stigma\" OR \"contraceptive stigma\" OR \"contraception stigma\" OR \"family planning stigma\" OR \"stigma\" OR \"taboo\" OR \"social disapproval\" OR \"moral opposition\") AND (\"contraception\" OR \"contraceptive\" OR \"abortion\" OR \"family planning\" OR \"birth control\")",
+      "n": 675,
+      "err": null
+    },
+    {
+      "row": [
+        "A.19"
+      ],
+      "axis": "(\"intergenerational transmission of fertility\" OR \"intergenerational fertility correlation\" OR \"fertility transmission\" OR \"second-generation immigrants\" OR \"immigrant fertility\" OR \"epidemiological approach\" OR \"sibship size\" OR \"parental family size\" OR \"family size of origin\" OR \"number of siblings\" OR \"ideal family size\" OR \"fertility preferences\")",
+      "n": 2774,
+      "err": null
+    },
+    {
+      "row": [
+        "C.3.f"
+      ],
+      "axis": "(\"wealth flows\" OR \"intergenerational transfer\" OR \"intergenerational wealth\" OR \"National Transfer Accounts\" OR \"lifecycle deficit\" OR \"life cycle deficit\" OR \"child labour contribution\" OR \"child labor contribution\" OR \"value of children\" OR \"old age support\" OR \"old-age support\" OR \"filial support\")",
+      "n": 1103,
+      "err": null
+    },
+    {
+      "row": [
+        "C.6.a"
+      ],
+      "axis": "(\"Easterlin\" OR \"relative income\" OR \"cohort size\" OR \"cohort crowding\" OR \"relative cohort\")",
+      "n": 487,
+      "err": null
+    }
+  ],
+  "homonym": [
+    {
+      "row": [
+        "C.6.a",
+        "Easterlin paradox, unrestricted"
+      ],
+      "axis": "\"Easterlin paradox\"",
+      "outcome": null,
+      "n": 437,
+      "err": null
+    },
+    {
+      "row": [
+        "C.6.a",
+        "Easterlin paradox INTERSECT fertility"
+      ],
+      "axis": "\"Easterlin paradox\"",
+      "outcome": "(\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 2,
+      "err": null
+    },
+    {
+      "row": [
+        "C.6.a",
+        "relative income INTERSECT well-being"
+      ],
+      "axis": "(\"relative income\") AND (\"happiness\" OR \"life satisfaction\" OR \"subjective well-being\")",
+      "outcome": null,
+      "n": 566,
+      "err": null
+    },
+    {
+      "row": [
+        "C.6.a",
+        "relative income INTERSECT fertility"
+      ],
+      "axis": "(\"relative income\")",
+      "outcome": "(\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 137,
+      "err": null
+    }
+  ]
+}
