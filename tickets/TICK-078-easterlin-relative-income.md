@@ -8,7 +8,7 @@
 **Touches:** literature/search-logs/easterlin-relative-income-*, extraction/easterlin-relative-income-*, output/chapters/easterlin-relative-income.md
 
 ## Acceptance criteria
-- [ ] 2. Search strategy and scope drafted
+- [x] 2. Search strategy and scope drafted
 - [ ] 3. Literature search and AI screening, both phases (§5.1)
 - [ ] 4. RA title/abstract review
 - [ ] 5. Full-text retrieval
@@ -73,3 +73,38 @@ branches. Mine these before the cold-start anchor round — they are provenance-
 neighbouring literatures, which is the `snowball-pools-omit-their-own-seeds` failure in reverse.
 
 ## Log
+
+### 2026-09-02 — opened, and scope drafted with three rulings resolved
+
+- Selected by `source/build/goldset/304_candidate_frame_probe.py`, which sizes every unstarted
+  hypothesis and generates its own ranking table. Union frames: **C.6.a 487**, A.6 675, C.3.f 1,103,
+  A.19 2,774. Four passes, because one vocabulary ranks the wrong chapter — a narrow axis put A.6
+  first at 12 records against a union frame of 675.
+- Scope at `literature/search-logs/easterlin-relative-income-search-scope.md`. Six walls, twelve
+  estimand cells, required tags, pooling rule and the demsig route all frozen before any query.
+- **Ruling 1 (the ticket's central question — what does demographic significance mean for a mechanism
+  that predicts a cycle?): RESOLVED, and it does not go to NOT ASSESSED.** PROTOCOL §4.2 offers three
+  independent routes and only the first needs a decomposition denominator. Slope sufficiency and R²
+  are both computable here. The **sign test is pre-registered before the search**: post-boom cohorts
+  entering the labour market are small, so the hypothesis predicts favourable relative income and
+  *rising* fertility across the SDT window, against an observed fall. If that holds when computed,
+  the SDT cell is settled by the sign and the missing share is irrelevant to it.
+- **Ruling 2 (phenomenon assignment): RESOLVED provisionally.** SDT cell as registered; the baby boom
+  classified by PROTOCOL §2's replacement rule, which returns FDT-like — assigning a fertility *rise*
+  to a phenomenon defined as a decline. That is PI Call 1 and it is protocol-level: C.6.a is the first
+  hypothesis in the review whose central evidence is an increase, and C.2.d and D.1.d will follow.
+- **Ruling 3 (the cohort-size marriage squeeze): RESOLVED** as jointly claimed and unallocated, on
+  C.2.c's `MIXED_PRICE_CREDIT` precedent rather than a new device.
+- **Wall 6 is a measured non-threat.** "Easterlin paradox" returns 437 records unrestricted and **2**
+  against the fertility outcome axis, so the happiness literature separates itself and no screen rule
+  is spent on it. Recorded because the usual finding runs the other way.
+- **Found while checking a claim in the draft: `data/raw/` is empty.** `CLAUDE.md` describes it as
+  holding HFD, WPP, Maddison, Gapminder and WDI; on `main` and every branch it holds `.gitkeep` alone.
+  The only macro data in the repository is two ad-hoc World Bank TFR pulls sitting on B.6's and B.7's
+  unmerged branches. Every demsig denominator to date has come from what individual studies reported.
+  This chapter cannot borrow that workaround — its decisive computation is an exposure series, not an
+  estimate — so it builds the series and deposits it in `data/raw/` for A.9, C.2.d and anything else
+  that needs cohort structure.
+- Open for Anup: **PI Call 1** (the replacement rule has no category for a fertility rise) and
+  **PI Call 2** (v5 gives C.6.a `cross-ref: --`; on the walls it should read C.1.a, C.5.a, C.7.a, A.9,
+  C.2.e). Call 2 is flagged, not made, because HYPOTHESES-v5.md is under PI review at TICK-001.
