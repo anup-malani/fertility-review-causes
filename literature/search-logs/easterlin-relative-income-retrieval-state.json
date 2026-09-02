@@ -7,6 +7,7 @@
    "year": "1981",
    "doi": "10.1177/036319908100600404",
    "rungs_found": [
+    "oa_locations",
     "pmc_bioc",
     "unpaywall"
    ],
@@ -22,7 +23,8 @@
      "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
     }
    ],
-   "status": "paywalled"
+   "status": "have",
+   "via": "unknown_provenance"
   },
   "W1987353646": {
    "cell": "BENCHMARK_MEASURED",
@@ -30,6 +32,7 @@
    "year": "1989",
    "doi": "10.2307/2061498",
    "rungs_found": [
+    "oa_locations",
     "pmc_bioc",
     "unpaywall"
    ],
@@ -45,7 +48,8 @@
      "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
     }
    ],
-   "status": "paywalled"
+   "status": "have",
+   "via": "unknown_provenance"
   },
   "W3123292807": {
    "cell": "BENCHMARK_MEASURED",
@@ -134,7 +138,8 @@
      "note": "unpaywall non-JSON"
     }
    ],
-   "status": "blocked"
+   "status": "have",
+   "via": "unknown_provenance"
   },
   "W2085786802": {
    "cell": "COHORT_SIZE_FERTILITY",
@@ -142,6 +147,7 @@
    "year": "1993",
    "doi": "10.2307/2096073",
    "rungs_found": [
+    "oa_locations",
     "unpaywall"
    ],
    "attempts": [
@@ -150,7 +156,8 @@
      "note": "no OA location in unpaywall"
     }
    ],
-   "status": "paywalled"
+   "status": "have",
+   "via": "unknown_provenance"
   },
   "W2101704947": {
    "cell": "COHORT_SIZE_FERTILITY",
@@ -158,6 +165,7 @@
    "year": "2000",
    "doi": "10.1111/j.1728-4457.2000.00235.x",
    "rungs_found": [
+    "oa_locations",
     "pmc_bioc",
     "unpaywall"
    ],
@@ -173,7 +181,8 @@
      "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
     }
    ],
-   "status": "paywalled"
+   "status": "have",
+   "via": "unknown_provenance"
   },
   "W1992628433": {
    "cell": "COHORT_SIZE_FERTILITY",
@@ -234,6 +243,7 @@
    "year": "2005",
    "doi": "10.1007/s00148-004-0190-5",
    "rungs_found": [
+    "oa_locations",
     "unpaywall"
    ],
    "attempts": [
@@ -242,7 +252,8 @@
      "note": "no OA location in unpaywall"
     }
    ],
-   "status": "paywalled"
+   "status": "have",
+   "via": "unknown_provenance"
   },
   "W2017509630": {
    "cell": "COHORT_SIZE_FERTILITY",
@@ -1107,7 +1118,8 @@
      "note": "not in the PMC OA subset (BioC returns 200 with an empty body)"
     }
    ],
-   "status": "blocked"
+   "status": "have",
+   "via": "unknown_provenance"
   },
   "W1996984725": {
    "cell": "CYCLE_TEST",
@@ -1131,6 +1143,7 @@
    "year": "1991",
    "doi": "10.1080/0032472031000145116",
    "rungs_found": [
+    "oa_locations",
     "unpaywall"
    ],
    "attempts": [
@@ -1139,7 +1152,8 @@
      "note": "no OA location in unpaywall"
     }
    ],
-   "status": "paywalled"
+   "status": "have",
+   "via": "unknown_provenance"
   },
   "W2063476582": {
    "cell": "CYCLE_TEST",
@@ -2677,9 +2691,12 @@
    "title": "The Emergence of Countercyclical U.S. Fertility",
    "year": "1977",
    "doi": "",
-   "rungs_found": [],
+   "rungs_found": [
+    "oa_locations"
+   ],
    "attempts": [],
-   "status": "paywalled"
+   "status": "have",
+   "via": "unknown_provenance"
   },
   "W1574851409": {
    "cell": "RIVAL_TEST",
@@ -3266,49 +3283,19 @@
    "status": "blocked"
   }
  },
- "last_pass_n": 28,
+ "last_pass_n": 9,
  "last_pass_ids": [
-  "W143771925",
-  "W1509301874",
-  "W1510320434",
-  "W1523271267",
-  "W1578287828",
-  "W1586476858",
-  "W1605318112",
-  "W1992628433",
+  "W1564268483",
+  "W1981297366",
+  "W1987353646",
   "W2012524273",
-  "W2063476582",
-  "W2070087063",
-  "W2079240151",
-  "W2127054757",
-  "W2150140465",
-  "W2181558514",
-  "W2205405475",
-  "W2252586419",
-  "W2260582785",
-  "W3007964634",
-  "W3014487108",
-  "W3122262971",
-  "W3122371138",
-  "W3122651457",
-  "W3123292807",
-  "W3126051512",
-  "W4244320184",
-  "W4403418534",
-  "W7163138335"
+  "W2070549219",
+  "W2079547700",
+  "W2085786802",
+  "W2101704947",
+  "W3014487108"
  ],
- "probed_per_rung": {
-  "oa_locations": 69,
-  "unpaywall": 19,
-  "pmc_bioc": 7,
-  "repec": 16
- },
- "found_per_rung": {
-  "oa_locations": 69,
-  "unpaywall": 15,
-  "repec": 16
- },
- "fetched_per_rung": {
-  "oa_locations+hop": 2
- }
+ "probed_per_rung": {},
+ "found_per_rung": {},
+ "fetched_per_rung": {}
 }

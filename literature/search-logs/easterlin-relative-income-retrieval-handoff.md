@@ -8,17 +8,17 @@ Queue was **156** records: every primary cell plus `MIXED_COHORT_MARRIAGE` (Wall
 
 | cell | have | browser job | proxy job | total |
 |---|---|---|---|---|
-| `BENCHMARK_MEASURED` | **1/5** | 1 | 3 | 5 |
-| `RIVAL_TEST` | **6/29** | 6 | 17 | 29 |
-| `CYCLE_TEST` | **7/46** | 4 | 35 | 46 |
-| `COHORT_SIZE_FERTILITY` | **4/32** | 7 | 21 | 32 |
+| `BENCHMARK_MEASURED` | **4/5** | 0 | 1 | 5 |
+| `RIVAL_TEST` | **7/29** | 6 | 16 | 29 |
+| `CYCLE_TEST` | **9/46** | 3 | 34 | 46 |
+| `COHORT_SIZE_FERTILITY` | **7/32** | 7 | 18 | 32 |
 | `RELATIVE_INCOME_FERTILITY` | **4/29** | 3 | 22 | 29 |
 | `MIXED_COHORT_MARRIAGE` | **3/15** | 5 | 7 | 15 |
-| **total** | **25/156** | 26 | 105 | 156 |
+| **total** | **34/156** | 24 | 98 | 156 |
 
 ## The gate, stated before anyone starts
 
-Overall retrieval is **25/156**, which is low — but the rate is not the finding. `BENCHMARK_MEASURED` is at **1/5**, and that cell is the only place a study measures the parental-household benchmark rather than proxying it with cohort size. Scope §4 predicted the cell might be empty; the screen found five; **retrieval has so far returned none of them.**
+Overall retrieval is **34/156**, which is low — but the rate is not the finding. `BENCHMARK_MEASURED` is at **4/5**, and that cell is the only place a study measures the parental-household benchmark rather than proxying it with cohort size. Scope §4 predicted the cell might be empty; the screen found five; **retrieval has so far returned none of them.**
 
 **Extraction does not begin until the five `BENCHMARK_MEASURED` records are resolved one way or the other.** Not because five records outweigh a hundred, but because a chapter that reports the reduced-form cells while its identification cell sits unread would be reporting a literature it did not read — the A.17 failure, where 23/114 was survivable and 0 of 4 identified direct-arm records was not.
 
@@ -26,20 +26,19 @@ Overall retrieval is **25/156**, which is low — but the rate is not the findin
 
 | rung | probed | found | fetched | |
 |---|---|---|---|---|
-| `oa_locations` | 69 | 69 | 2 |  |
-| `repec` | 16 | 16 | 0 |  |
-| `unpaywall` | 19 | 15 | 0 |  |
-| `pmc_bioc` | 7 | 0 | 0 | **empty for this literature** — probed and produced no URL at all |
+| `oa_locations` | 0 | 0 | 0 |  |
+| `repec` | 0 | 0 | 0 |  |
+| `unpaywall` | 0 | 0 | 0 |  |
+| `pmc_bioc` | 0 | 0 | 0 |  |
 
 **PMC is empty here, and that was the point of choosing the rung order for this chapter.** 45 records carry a pmid — demography journals are indexed in PubMed — but not one is in the PMC open-access subset, so BioC answers HTTP 200 with an empty body every time. A script that credited the constructed URL as 'found' would report this rung as a broken downloader rather than an absent corpus. Do not carry this rung into another economics chapter expecting yield.
 
-## Browser job — 26 records
+## Browser job — 24 records
 
 These URLs are **open**. They fail to a challenge page (403, or a 202 interstitial, or a 200 with a stub body) or stop at a landing page whose PDF link the script could not follow. A logged-in browser session retrieves them. **None of these is a paywall** — do not send them to ILL.
 
 | cell | year | title | doi | status |
 |---|---|---|---|---|
-| `BENCHMARK_MEASURED` | 2020 | Resources and aspirations during the Great Recession: the impact on the tr | 10.17045/sthlmuni.11876391.v1 | blocked |
 | `RIVAL_TEST` | 2011 | The Causal Relationship between Female Labor Supply and Fertility in the U | 10.2139/ssrn.1670581 | blocked |
 | `RIVAL_TEST` | 2008 | Intended Fertility and Birth Behavior (in Japanese) | — | blocked |
 | `RIVAL_TEST` | 2008 | Approches économiques de la fécondité | 10.7202/600612ar | blocked |
@@ -49,7 +48,6 @@ These URLs are **open**. They fail to a challenge page (403, or a 202 interstiti
 | `CYCLE_TEST` | 2008 | Cycles post-transitionnels et modèles proie-prédateur | 10.7202/600637ar | blocked |
 | `CYCLE_TEST` | 1999 | Population Dynamics and Labour Force Participation within Goodwin Type Gro | — | landing_only |
 | `CYCLE_TEST` | 1983 | Limit cycle oscillations of the human population | 10.2307/2061243 | blocked |
-| `CYCLE_TEST` | 1974 | The Formal Dynamics of Controlled Populations and the Echo, the Boom and t | 10.2307/2060471 | blocked |
 | `COHORT_SIZE_FERTILITY` | 2011 | The Role of Relative Cohort Size, and Relative Income in the Demographic T | 10.2139/ssrn.1807992 | blocked |
 | `COHORT_SIZE_FERTILITY` | 2011 | Relative Cohort Size: Source of a Unifying Theory of Global Fertility Tran | 10.2139/ssrn.1807991 | blocked |
 | `COHORT_SIZE_FERTILITY` | 2007 | Fertility and relative cohort size | — | blocked |
@@ -66,15 +64,13 @@ These URLs are **open**. They fail to a challenge page (403, or a 202 interstiti
 | `MIXED_COHORT_MARRIAGE` | 2019 | The Demographic Transition and the Position of Women: a Marriage Market Pe | 10.1093/ej/uez027 | blocked |
 | `MIXED_COHORT_MARRIAGE` | 1994 | The Effects of Cohort Size on Marriage Markets in Twentieth-Century Sweden | 10.1093/oso/9780198288183.003.0003 | blocked |
 
-## Proxy job — 105 records
+## Proxy job — 98 records
 
 No open copy exists. These need the UChicago proxy, a publisher subscription, or ILL. Mostly pre-2000 society journals.
 
 | cell | year | title | doi | status |
 |---|---|---|---|---|
-| `BENCHMARK_MEASURED` | 1989 | A test of the Easterlin fertility model using income for two generations a | 10.2307/2061498 | paywalled |
 | `BENCHMARK_MEASURED` | 1985 | Subjective relative affluence and expected family size | — | paywalled |
-| `BENCHMARK_MEASURED` | 1981 | Scarcity and Prosperity in Postwar Childbearing: Explorations From a Life  | 10.1177/036319908100600404 | paywalled |
 | `RIVAL_TEST` | 2023 | The emergence of procyclical fertility: The role of breadwinner women | 10.1016/j.jmoneco.2023.10.004 | paywalled |
 | `RIVAL_TEST` | 2019 | Total Fertility Rates of OECD Countries: Becker Hypothesis, Easterlin Hypo | — | paywalled |
 | `RIVAL_TEST` | 2012 | The causal relationship between female labor supply and fertility in the U | 10.1007/s00148-012-0418-8 | paywalled |
@@ -91,7 +87,6 @@ No open copy exists. These need the UChicago proxy, a publisher subscription, or
 | `RIVAL_TEST` | 1983 | The emergence of countercyclical US fertility: A reassessment of the evide | 10.1016/0164-0704(83)90032-0 | paywalled |
 | `RIVAL_TEST` | 1982 | Empirical tests of the Chicago model and the Easterlin hypothesis: a case  | — | paywalled |
 | `RIVAL_TEST` | 1980 | TIME COSTS, ASPIRATIONS AND THE EFFECT OF ECONOMIC GROWTH ON GERMAN FERTIL | 10.1111/j.1468-0084.1980.mp42002004.x | paywalled |
-| `RIVAL_TEST` | 1977 | The Emergence of Countercyclical U.S. Fertility | — | paywalled |
 | `CYCLE_TEST` | 2019 | Modeling of the Medium-Term Post-War Demographic Cycles in Russia | 10.18288/1994-5124-2019-5-36-61 | found_not_fetched |
 | `CYCLE_TEST` | 2018 | Fertility Trends and Homeostatic Mechanisms in The United States | 10.4324/9781351298803-7 | paywalled |
 | `CYCLE_TEST` | 2017 | Looking for Japan's missing third baby boom | 10.1111/jog.13491 | paywalled |
@@ -107,7 +102,6 @@ No open copy exists. These need the UChicago proxy, a publisher subscription, or
 | `CYCLE_TEST` | 1995 | Toward a general analysis of endogenous Easterlin cycles | 10.1007/bf00172037 | paywalled |
 | `CYCLE_TEST` | 1994 | The cohort feedback model with symmetric net maternity | 10.1080/08898489409525386 | paywalled |
 | `CYCLE_TEST` | 1992 | Inverted Easterlin Fertility Cycles and Kornai's "Soft" Budget Constraint | 10.2307/1973759 | paywalled |
-| `CYCLE_TEST` | 1991 | Elusive Cycles: Are there Dynamically Possible Lee-Easterlin Models for U. | 10.1080/0032472031000145116 | paywalled |
 | `CYCLE_TEST` | 1990 | Capital accumulation, endogenous population growth, and Easterlin cycles | 10.1007/bf00187285 | paywalled |
 | `CYCLE_TEST` | 1989 | Endogenous Fluctuations in the Barro-Becker Theory of Fertility | 10.1007/978-3-642-83789-0_2 | paywalled |
 | `CYCLE_TEST` | 1989 | Self-generated fertility waves in a non-linear continuous overlapping gene | 10.1007/bf00171004 | paywalled |
@@ -128,15 +122,12 @@ No open copy exists. These need the UChicago proxy, a publisher subscription, or
 | `CYCLE_TEST` | 1975 | Natural Fertility, Population Cycles and the Spectral Analysis of Births a | 10.1080/01621459.1975.10479862 | paywalled |
 | `CYCLE_TEST` | 1975 | Natural Fertility, Population Cycles and the Spectral Analysis of Births a | 10.2307/2285812 | paywalled |
 | `COHORT_SIZE_FERTILITY` | 2008 | Age–Period–Cohort Decomposition of U.S. and Japanese Birth Rates | 10.1007/s11113-008-9074-9 | paywalled |
-| `COHORT_SIZE_FERTILITY` | 2005 | The Easterlin hypothesis in the recent experience of higher-income OECD co | 10.1007/s00148-004-0190-5 | paywalled |
 | `COHORT_SIZE_FERTILITY` | 2002 | Relative Cohort Size and Fertility | 10.7208/chicago/9780226500928.003.0013 | paywalled |
 | `COHORT_SIZE_FERTILITY` | 2002 | Relative Cohort Size Effects—Even in Developing Countries | 10.7208/chicago/9780226500928.003.0018 | paywalled |
 | `COHORT_SIZE_FERTILITY` | 2001 | Relative Cohort Size and the Total Fertility Rate | 10.7208/chicago/9780226645278.003.0004 | paywalled |
 | `COHORT_SIZE_FERTILITY` | 2001 | The Demographic Consequences of Changing Cohort Size and Female Work | 10.7208/chicago/9780226645278.003.0001 | paywalled |
 | `COHORT_SIZE_FERTILITY` | 2001 | Contextual Variation in the Determinants of Fertility | 10.7208/chicago/9780226645278.003.0003 | paywalled |
 | `COHORT_SIZE_FERTILITY` | 2001 | Sociopolitical Sources of Demographic Divergence | 10.7208/chicago/9780226645278.003.0002 | paywalled |
-| `COHORT_SIZE_FERTILITY` | 2000 | Relative Cohort Size: Source of a Unifying Theory of Global Fertility Tran | 10.1111/j.1728-4457.2000.00235.x | paywalled |
-| `COHORT_SIZE_FERTILITY` | 1993 | Relative Cohort Size and Fertility: The Socio-Political Context of the Eas | 10.2307/2096073 | paywalled |
 | `COHORT_SIZE_FERTILITY` | 1991 | On testing Easterlin's hypothesis using relative cohort size as a proxy fo | 10.1007/bf00160368 | paywalled |
 | `COHORT_SIZE_FERTILITY` | 1991 | Births and cohort size | 10.1080/19485565.1991.9988778 | paywalled |
 | `COHORT_SIZE_FERTILITY` | 1991 | Measurement and analysis of cohort-size variations. | — | paywalled |

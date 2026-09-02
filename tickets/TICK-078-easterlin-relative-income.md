@@ -411,3 +411,57 @@ The browser job now genuinely needs a human — the blocks are Cloudflare-class 
 `papers.ssrn.com`, `sciencedirect.com` and `pmc.ncbi.nlm.nih.gov`, where the clearance cookie is
 HttpOnly and cannot be handed to a script.
 
+### 2026-09-02 — 9 hand-retrieved PDFs installed by content; retrieval 25 → 34
+
+Shravan retrieved the tier-1-to-4 priority list. Installed with
+`315_c6a_install_handoff.py`, which matches each file to a record **by its own content** — never by
+filename, because nothing downstream would catch a wrong pairing.
+
+- **`117behrman.pdf` is the Tier 1 two-generations paper.** The filename says nothing; the content
+  matched it at 1.00. This is the single record that gated the chapter.
+- **`2060471.pdf` is Lee 1974** — believed not retrieved, but it was in the folder and matched at
+  1.00. Content matching found a record nobody knew they had.
+- **Butz and Ward settles its own version-twin question.** The PDF's title page reads *American
+  Economic Review, Jun. 1979, Vol. 69, No. 3, pp. 318–328.* OpenAlex dates the 438-citation record
+  **1977**; the version of record is **1979**. Recorded against the resolver's `MATCH_VERSION_TWIN`.
+- Three identical copies of the Stockholm report were in the folder; all resolved to one record.
+- One file had **no text layer** (a Wiley scan) and was matched on the **DOI printed in the
+  document** instead.
+
+**The matcher had to be built and then fixed four times, and its selftest is the only reason none of
+that reached an install.** It runs against the PDFs already retrieved automatically, whose pairing
+is known, and refuses to install when it scores under 80%.
+
+1. A hand-rolled FlateDecode/Tj extractor scored **2/25**. Replaced with macOS PDFKit via JXA — no
+   install needed, and it reads what a person would see.
+2. Scoring counted title tokens appearing anywhere in 40,000 characters, so a generic title
+   ("Did the Baby Boom Cause the US Divorce Boom") matched any fertility paper's **bibliography**
+   and won seven files that were not it. Fixed to a contiguous run over the title page.
+3. That broke to **2/25** because I stripped stopwords from titles but not from the text, so every
+   run ended at the first `and`. Symmetric tokenisation.
+4. **The DOI matcher — the strongest signal — was dead on arrival.** `pdf_text` returned *folded*
+   text, and folding turns `10.1111/j.1728-4457...` into spaces, so the regex could never match
+   while the title heuristics carried on and made the selftest look fine. Same shape as
+   `norm-strips-punctuation-dead-patterns`, in a different stage.
+
+Final selftest **21/25**; the four failures are scans with no text layer, reported as unmatchable
+rather than guessed. Three files that tied at 1.00 against a shorter generic title were verified by
+reading their title pages by hand and installed by id. All nine carry `via=unknown_provenance` and
+are excluded from the rung counters, as they must be — no rung fetched them.
+
+**`BENCHMARK_MEASURED` is 4/5.** The gate is all but cleared. The one outstanding record is
+*Subjective relative affluence and expected family size* (1985, *Sociology and Social Research*),
+which has **no DOI in OpenAlex** and is pre-DOI-era — it needs a catalogue or ILL request, not a
+publisher lookup.
+
+| cell | have | was |
+|---|---|---|
+| `BENCHMARK_MEASURED` | **4/5** | 1/5 |
+| `CYCLE_TEST` | 9/46 | 7/46 |
+| `RIVAL_TEST` | 7/29 | 6/29 |
+| `COHORT_SIZE_FERTILITY` | 7/32 | 4/32 |
+| `RELATIVE_INCOME_FERTILITY` | 4/29 | 4/29 |
+| `MIXED_COHORT_MARRIAGE` | 3/15 | 3/15 |
+
+Overall **34/156**. Handoff regenerated: 24 browser, 98 proxy.
+
