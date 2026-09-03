@@ -15,8 +15,8 @@
 - [~] 6. Full-text screen, RA spot-checks 5–10%
 - [~] 7. Extraction to `extraction/child-cost-direct.csv`, RA verifies a random 10%
 - [~] 8. Risk-of-bias assessment per study
-- [ ] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise
-- [ ] 10. Demographic significance against PM / FDT / SDT
+- [x] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise
+- [x] 10. Demographic significance against PM / FDT / SDT
 - [ ] 11. GRADE rating, 3 independent raters
 - [ ] 12. Chapter draft on the §6 template
 - [ ] 13. RA lay-readability check
@@ -474,4 +474,42 @@ has no low-risk estimate of its own parameter.**
 
 Next: the six P1/P2 studies still outstanding, then synthesis and demsig. The SDT arm currently rests
 on **one** MODERATE study.
+
+### 2026-09-03 — demographic significance: the macro series and the micro elasticity contradict each other
+
+Stage 9 resolves to **narrative synthesis** — largest poolable stratum is 2.
+
+Stage 10 by **slope sufficiency**, the route §5 pre-registered, using the only elasticity the chapter
+has inside its registered SDT window: the kibbutz arc elasticity of about **−0.2**, used throughout
+as an upper bound.
+
+**A defect caught by reading the first output.** The tuition series begin in 1978, and every
+education arm's share was being divided by the fertility fall from **1967** — a numerator covering
+1978+ over a denominator including the 1970s, the decade holding most of the net decline *and* the
+one in which the real price of children fell. Correcting it changed the answer completely: education
+arms went from 44–113% to 196–505%.
+
+**What it shows is a contradiction, not a share:**
+
+| reading | window | price | TFR | implied share |
+|---|---|---|---|---|
+| 1 | 1967–2023 | **+10.9%** | **−36.8%** | **13%** — real and small |
+| 2 | post-1978 | **+79–205%** | **−8.1%** | **190–365%** — over-predicts 2–4× |
+
+Both cannot be true of one parameter. Either the index overstates the price parents actually face —
+what carries it is college tuition and a K-12 series priced off *private* schooling, neither being
+the required outlay most parents meet — or the kibbutz elasticity does not transport, which its own
+authors warn about when they say the elasticity "may not be constant".
+
+**Strip education out and the sign flips**: the `without_education` arm falls 16.6% in real terms,
+implying fertility should have *risen*. The component carrying every favourable number is the one
+scope ruling 2 assigns largely to **C.3.d** as chosen quality rather than to C.2.b as a required
+price.
+
+Reported as both an endpoint and a decade-by-decade sum, because an endpoint calculation nets away a
+decade in which the price moved the wrong way.
+
+Next: chapter draft (stage 12) on the §6 template. The synthesis has to carry three things — a thin
+but correctly-signed micro literature (2 clean studies), a macro exposure that contradicts it in two
+incompatible directions, and an SDT arm resting on a single MODERATE study.
 
