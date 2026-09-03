@@ -208,3 +208,66 @@ ignores `startyear`/`endyear` and returns only the most recent three years.
 **Status: this is co-movement in one country, not identification.** It bounds what the mechanism
 could be doing and it is the SDT slope-sufficiency input; it does not settle the cell on its own the
 way C.6.a's did. Next: cold-start anchors (319), then the per-arm production query (320).
+
+### 2026-09-03 — anchors (319) and the production query set (320)
+
+**Anchors: 32/32, zero ghost citations.** Controls 18/18, hand 14/14. Script 319 is a direct port of
+C.6.a's 307 — the only copy carrying all four TICK-074 fixes plus the three defects C.6.a found on
+*Birth and Fortune*. The 18 controls are titles and ids taken **programmatically** from script 317's
+harvest, so a failure on one would localise to the resolver before anything was read.
+
+Two inherited fixes earned their keep at once. Espenshade 1984 is indexed as the bare *INVESTING IN
+CHILDREN* at Jaccard 0.375 and resolves only through the stem rung and the 3-token head floor; Hotz's
+handbook chapter is indexed as *Chapter 7 The economics of fertility...* and resolves only through the
+allowlisted structural prefix.
+
+**New resolver defect, reported to TICK-074 as defect 9.** OpenAlex stores some titles with HTML
+markup — this chapter's control is `<i>'Two children to make ends meet'</i>: ...` — and stripping
+non-alphanumerics turned `<i>` into the token `i` at both ends. Measured cost on that record is small
+(Jaccard 0.933 rather than 1.0, verdict unchanged), but it breaks contiguous stem containment
+outright, which is the path short titles depend on. Present in every copy of the resolver.
+
+**Twin splitting is heavy: 5 of 32 anchors carry 8 twins.** Doepke's AER 2019 holds 288 citations
+against 94 across three earlier twins; Osili 383 against 108; and Hotz's 1993 twin holds *more*
+citations than the 1997 chapter, 255 to 234. Both ids kept for every pair.
+
+**Production query: seven arms, union primary recall 13/14 (93%) at a deduplicated frame of 963.**
+
+| arm | frame | recall | |
+|---|---|---|---|
+| `direct-cost` | 326 | 8/9 | |
+| `school-fee` | 269 | 4/6 | the policy-evaluation vocabulary; §7's second channel |
+| `anticipated-cost` | 186 | 1/1 | |
+| `measurement` | 136 | 2/6 | |
+| `health-price` | 21 | 0/1 | **uncalibrated — no valid anchor exists** |
+| `boundary-timecost` | 57 | 1/1 | the §16.1 separation arm |
+| `boundary-qq` | 683 | 1/2 | calibrated, **not screened** |
+
+- **The health-price arm has no valid anchor.** Currie and Gruber's outcome is infant mortality and
+  birth weight, not fertility (`anchor-on-the-estimand-not-the-famous-design`). Its first base,
+  `"Medicaid" OR "health insurance"`, cost **2,865 records for zero anchors**. Rebuilt narrow at 21
+  and kept in the union anyway, because §7 row 3 registers the variation and an arm that does not
+  exist would turn a vocabulary gap into a finding of no evidence.
+- **Seven anchors do not measure fertility** — three in primary arms, four in `measurement`, where an
+  expenditure outcome is what makes a record measurement rather than effect. Flagged, not deleted, so
+  the unreachable table separates *arm not screened* and *outcome is not fertility* from the single
+  real vocabulary miss. Counting all 17 unreachable anchors against the query would blame it for the
+  anchor list's errors.
+- **`boundary-qq` is calibrated but not screened.** §16.1's separation requirement is specific to Wall
+  4, whose vocabulary is this chapter's own name; quantity-quality vocabulary shares nothing with
+  "cost of children", so 683 records is too dear for a wall that does not leak.
+
+**BLOCKED: the query log files are not on disk.** The final re-run hit OpenAlex's daily budget
+mid-calibration (`dailyRemainingUsd` 0.0004, `retryAfter` ~6.5h, resets midnight UTC). The numbers
+above are from the last complete run and the calibrated script is committed; **re-run
+`320_c2b_production_query.py` after the reset to emit the artefacts** before building the screen
+universe.
+
+**New gate in 320, and the reason.** The inherited per-arm `continue` on error is unsound: a refused
+arm reports recall 0 and frame 0, and the union is then built from an empty hit set. The
+rate-limited run wrote a log in which five already-verified anchors — including both Chicoine
+free-primary-education papers — appeared as `VOCABULARY MISS`. The console said "query refused (NOT
+an empty literature)"; the file said nothing of the kind, and the file is what survives. 320 now
+collects every refusal and exits without writing anything.
+
+Next: re-run 320 after the budget reset, then the screen universe (321).
