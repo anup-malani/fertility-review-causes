@@ -1,0 +1,3056 @@
+{
+ "n": 75,
+ "retrieved": 25,
+ "studies": 62,
+ "studies_covered": 17,
+ "rungs": {
+  "wp_host": {
+   "probed": 75,
+   "found": 14,
+   "fetched": 4
+  },
+  "oa_location": {
+   "probed": 71,
+   "found": 65,
+   "fetched": 14
+  },
+  "sibling_version": {
+   "probed": 57,
+   "found": 16,
+   "fetched": 5
+  },
+  "unpaywall": {
+   "probed": 52,
+   "found": 11,
+   "fetched": 2
+  },
+  "pmc_bioc": {
+   "probed": 50
+  }
+ },
+ "records": [
+  {
+   "screen_id": "C2B0015",
+   "tier": 2,
+   "cell": "SCHOOL_COST_FERTILITY",
+   "title": "Does female schooling reduce fertility? Evidence from Nigeria",
+   "year": 2007,
+   "doi": "10.1016/j.jdeveco.2007.10.003",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.1016/j.jdeveco.2007.10.003",
+     "final": "https://linkinghub.elsevier.com/retrieve/pii/S0304387807000855",
+     "http": "200",
+     "ctype": "text/html;charset=UTF-8",
+     "pdf": false
+    }
+   ],
+   "status": "covered_by_twin",
+   "path": null,
+   "handoff": null,
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0022",
+   "tier": 1,
+   "cell": "SCHOOL_COST_FERTILITY",
+   "title": "Women's schooling, fertility, and child health outcomes: Evidence from Uganda's free primary education program",
+   "year": 2018,
+   "doi": "10.1016/j.jdeveco.2018.07.002",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.1016/j.jdeveco.2018.07.002",
+     "final": "https://linkinghub.elsevier.com/retrieve/pii/S0304387818304371",
+     "http": "200",
+     "ctype": "text/html;charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "http://www.sciencedirect.com/science/article/pii/S0304387818304371",
+     "final": "https://www.sciencedirect.com/science/article/pii/S0304387818304371",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "proxy",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0032",
+   "tier": 1,
+   "cell": "SCHOOL_COST_FERTILITY",
+   "title": "The Impact of Free Secondary Education: Experimental Evidence from Ghana",
+   "year": 2021,
+   "doi": "10.3386/w28937",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.3386/w28937",
+     "final": "https://www.nber.org/system/files/working_papers/w28937/w28937.pdf",
+     "http": "200",
+     "ctype": "application/pdf",
+     "pdf": true
+    }
+   ],
+   "status": "already_on_disk",
+   "path": "literature/pdfs/child-cost-direct/C2B0032.pdf",
+   "handoff": null,
+   "rung": "oa_location",
+   "probed": [
+    "wp_host",
+    "oa_location"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0034",
+   "tier": 3,
+   "cell": "MIXED_PRICE_VALUE",
+   "title": "A defense of compulsive measures against child labor",
+   "year": 2000,
+   "doi": "10.1016/s0304-3878(00)00083-3",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.1016/s0304-3878(00)00083-3",
+     "final": "https://linkinghub.elsevier.com/retrieve/pii/S0304387800000833",
+     "http": "200",
+     "ctype": "text/html;charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "http://www.sciencedirect.com/science/article/pii/S0304-3878(00)00083-3",
+     "final": "https://www.sciencedirect.com/science/article/pii/S0304-3878(00)00083-3",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "proxy",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0045",
+   "tier": 3,
+   "cell": "PRICE_ASSOCIATION",
+   "title": "Do Cross-National Differences in the Costs of Children Generate Cross-National Differences in Fertility Rates?",
+   "year": 2003,
+   "doi": "10.1023/b:popu.0000020961.89068.91",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.1023/b:popu.0000020961.89068.91",
+     "final": "https://link.springer.com/10.1023/B:POPU.0000020961.89068.91",
+     "http": "200",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "http://hdl.handle.net/10419/18115",
+     "final": "https://www.econstor.eu/handle/10419/18115",
+     "http": "200",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "proxy",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0048",
+   "tier": 3,
+   "cell": "MIXED_PRICE_VALUE",
+   "title": "High Fertility and Children's Schooling in Ghana: Sex Differences in Parental Contributions and Educational Outcomes",
+   "year": 1994,
+   "doi": "10.1080/0032472031000147806",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.1080/0032472031000147806",
+     "final": "https://www.tandfonline.com/doi/abs/10.1080/0032472031000147806",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "proxy",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0053",
+   "tier": 2,
+   "cell": "SCHOOL_COST_FERTILITY",
+   "title": "Does Female Schooling Reduce Fertility? Evidence from Nigeria",
+   "year": 2007,
+   "doi": "10.3386/w13070",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.3386/w13070",
+     "final": "https://www.nber.org/system/files/working_papers/w13070/w13070.pdf",
+     "http": "200",
+     "ctype": "application/pdf",
+     "pdf": true
+    }
+   ],
+   "status": "already_on_disk",
+   "path": "literature/pdfs/child-cost-direct/C2B0053.pdf",
+   "handoff": null,
+   "rung": "oa_location",
+   "probed": [
+    "wp_host",
+    "oa_location"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0071",
+   "tier": 3,
+   "cell": "PRICE_ASSOCIATION",
+   "title": "The Income\u2013Fertility Relationship: Effect of the Net Price of a Child",
+   "year": 1989,
+   "doi": "10.2307/2061527",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://read.dukeupress.edu/demography/article-pdf/26/2/301/907533/301borg.pdf",
+     "final": "https://read.dukeupress.edu/demography/article-pdf/26/2/301/907533/301borg.pdf",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/2659402",
+     "final": "https://pubmed.ncbi.nlm.nih.gov/2659402/",
+     "http": "203",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "http://hdl.handle.net/10.2307/2061527",
+     "final": "https://read.dukeupress.edu/demography/article/26/2/301/171260/The-Income-Fertility-Relationship-Effect-of-the",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "unpaywall",
+     "url": "https://read.dukeupress.edu/demography/article-pdf/26/2/301/907533/301borg.pdf",
+     "final": "https://read.dukeupress.edu/demography/article-pdf/26/2/301/907533/301borg.pdf",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "browser",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location",
+    "unpaywall"
+   ]
+  },
+  {
+   "screen_id": "C2B0088",
+   "tier": 3,
+   "cell": "PRICE_ASSOCIATION",
+   "title": "DECLINING FERTILITY AND THE RISING COST OF CHILDREN",
+   "year": 2009,
+   "doi": "10.1080/17441730903351586",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.1080/17441730903351586",
+     "final": "https://www.tandfonline.com/doi/full/10.1080/17441730903351586",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "sibling_version",
+     "url": "http://ci.nii.ac.jp/ncid/BB05912155",
+     "final": "https://ci.nii.ac.jp:443/ncid/BB05912155",
+     "http": "200",
+     "ctype": "text/html;charset=UTF-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "proxy",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location",
+    "sibling_version"
+   ]
+  },
+  {
+   "screen_id": "C2B0105",
+   "tier": 1,
+   "cell": "SCHOOL_COST_FERTILITY",
+   "title": "The Impact of Free Secondary Education: Experimental Evidence from Ghana",
+   "year": 2021,
+   "doi": "10.2139/ssrn.3874078",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.2139/ssrn.3874078",
+     "final": "https://www.ssrn.com/abstract=3874078",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "sibling_version",
+     "url": "http://www.nber.org/papers/w28937.pdf",
+     "final": "https://www.nber.org/system/files/working_papers/w28937/w28937.pdf",
+     "http": "200",
+     "ctype": "application/pdf",
+     "pdf": true
+    }
+   ],
+   "status": "already_on_disk",
+   "path": "literature/pdfs/child-cost-direct/C2B0105.pdf",
+   "handoff": null,
+   "rung": "sibling_version",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version"
+   ],
+   "found": [
+    "oa_location",
+    "sibling_version"
+   ]
+  },
+  {
+   "screen_id": "C2B0114",
+   "tier": 2,
+   "cell": "SCHOOL_COST_FERTILITY",
+   "title": "Free Primary Education, Fertility, and Women\u2019s Access to the Labor Market: Evidence from Ethiopia",
+   "year": 2019,
+   "doi": "10.1093/wber/lhz042",
+   "attempts": [
+    {
+     "rung": "wp_host",
+     "url": "http://documents.worldbank.org/curated/en/463371578408927261/pdf/Free-Primary-Education-Fertility-and-Womens-Access-to-the-Labor-Market-Evidence-from-Ethiopia.pdf",
+     "final": "https://documents1.worldbank.org/curated/en/463371578408927261/pdf/Free-Primary-Education-Fertility-and-Womens-Access-to-the-Labor-Market-Evidence-from-Ethiopia.pdf",
+     "http": "200",
+     "ctype": "application/pdf;charset=utf-8",
+     "pdf": true
+    }
+   ],
+   "status": "already_on_disk",
+   "path": "literature/pdfs/child-cost-direct/C2B0114.pdf",
+   "handoff": null,
+   "rung": "wp_host",
+   "probed": [
+    "wp_host"
+   ],
+   "found": [
+    "wp_host"
+   ]
+  },
+  {
+   "screen_id": "C2B0127",
+   "tier": 1,
+   "cell": "SCHOOL_COST_FERTILITY",
+   "title": "Impact of Tuition\u2010Free Education Policy on Child Marriage and Early Childbearing: Does Secondary Matter More?",
+   "year": 2023,
+   "doi": "10.1111/padr.12538",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.1111/padr.12538",
+     "final": "https://onlinelibrary.wiley.com/doi/10.1111/padr.12538",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "unpaywall",
+     "url": "https://doi.org/10.1111/padr.12538",
+     "final": "https://onlinelibrary.wiley.com/doi/10.1111/padr.12538",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "proxy",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location",
+    "unpaywall"
+   ]
+  },
+  {
+   "screen_id": "C2B0128",
+   "tier": 1,
+   "cell": "PRICE_SHOCK_FERTILITY",
+   "title": "Fertility and the Price of Children: Evidence from Slavery and Slave Emancipation",
+   "year": 2014,
+   "doi": "10.1017/s0022050714000850",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/459B187BEDB1B60DF8331C2BD5E1EBF0/S0022050714000850a.pdf/div-class-title-fertility-and-the-price-of-children-",
+     "final": "https://www.cambridge.org/core/journals/journal-of-economic-history/article/abs/fertility-and-the-price-of-children-evidence-from-slavery-and-slave-emancipation/459B187BEDB1B60DF83",
+     "http": "200",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/459B187BEDB1B60DF8331C2BD5E1EBF0/S0022050714000850a.pdf/div-class-title-fertility-and-the-price-of-children-",
+     "final": "https://www.cambridge.org/core/journals/journal-of-economic-history/article/abs/fertility-and-the-price-of-children-evidence-from-slavery-and-slave-emancipation/459B187BEDB1B60DF83",
+     "http": "200",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "proxy",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0131",
+   "tier": 1,
+   "cell": "CHILD_HEALTH_COST_FERTILITY",
+   "title": "Effects of early health-insurance programs on European mortality and fertility trends",
+   "year": 2003,
+   "doi": "10.1016/s0277-9536(03)00403-9",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.1016/s0277-9536(03)00403-9",
+     "final": "https://linkinghub.elsevier.com/retrieve/pii/S0277953603004039",
+     "http": "200",
+     "ctype": "text/html;charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/15020000",
+     "final": "https://pubmed.ncbi.nlm.nih.gov/15020000/",
+     "http": "203",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "http://www.sciencedirect.com/science/article/pii/S0277-9536(03)00403-9",
+     "final": "https://www.sciencedirect.com/science/article/pii/S0277-9536(03)00403-9",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "proxy",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0158",
+   "tier": 3,
+   "cell": "PRICE_ASSOCIATION",
+   "title": "Economic Determinants of Family Size in West Africa",
+   "year": 1974,
+   "doi": "10.2307/2060473",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.2307/2060473",
+     "final": "https://read.dukeupress.edu/demography/article/11/4/613/172048/Economic-Determinants-of-Family-Size-in-West",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/21279748",
+     "final": "https://pubmed.ncbi.nlm.nih.gov/21279748/",
+     "http": "203",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "http://hdl.handle.net/10.2307/2060473",
+     "final": "https://read.dukeupress.edu/demography/article/11/4/613/172048/Economic-Determinants-of-Family-Size-in-West",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "browser",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0177",
+   "tier": 3,
+   "cell": "PRICE_ASSOCIATION",
+   "title": "The price of children and socio-economic theories of fertility",
+   "year": 1972,
+   "doi": "10.1080/00324728.1972.10405546",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.1080/00324728.1972.10405546",
+     "final": "https://www.tandfonline.com/doi/abs/10.1080/00324728.1972.10405546",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/22074162",
+     "final": "https://pubmed.ncbi.nlm.nih.gov/22074162/",
+     "http": "203",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    },
+    {
+     "rung": "sibling_version",
+     "url": "https://doi.org/10.2307/2173578",
+     "final": "https://www.tandfonline.com/doi/abs/10.1080/00324728.1972.10405546",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "proxy",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location",
+    "sibling_version"
+   ]
+  },
+  {
+   "screen_id": "C2B0178",
+   "tier": 2,
+   "cell": "SCHOOL_COST_FERTILITY",
+   "title": "Free Primary Education, Timing of Fertility, and Total Fertility",
+   "year": 2019,
+   "doi": "10.1093/wber/lhz003",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.1093/wber/lhz003",
+     "final": "https://academic.oup.com/wber/article/34/3/730/5610323",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "http://hdl.handle.net/10.1093/wber/lhz003",
+     "final": "https://academic.oup.com/wber/article/34/3/730/5610323",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "proxy",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0184",
+   "tier": 1,
+   "cell": "PRICE_SHOCK_FERTILITY",
+   "title": "Changing the Cost of Children and Fertility: Evidence from the Israeli Kibbutz",
+   "year": 2015,
+   "doi": "10.1111/ecoj.12240",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.1111/ecoj.12240",
+     "final": "https://academic.oup.com/ej/article/126/597/2038-2063/5077960",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "http://hdl.handle.net/10.1111/ecoj.12240",
+     "final": "https://academic.oup.com/ej/article/126/597/2038-2063/5077960",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "sibling_version",
+     "url": "https://econpapers.repec.org/RePEc:ags:huaedp:164526",
+     "final": "https://econpapers.repec.org/paper/agshuaedp/164526.htm",
+     "http": "200",
+     "ctype": "text/html",
+     "pdf": false
+    },
+    {
+     "rung": "sibling_version",
+     "url": "https://ageconsearch.umn.edu/record/164526/files/updated%204.13%20Kibbutz_Fertility_Feb2014_SUB4.pdf",
+     "final": "https://ageconsearch.umn.edu/nanna/record/164526/files/updated%204.13%20Kibbutz_Fertility_Feb2014_SUB4.pdf?withWatermark=0&withMetadata=0&registerDownload=1&version=1",
+     "http": "200",
+     "ctype": "application/pdf",
+     "pdf": true
+    }
+   ],
+   "status": "already_on_disk",
+   "path": "literature/pdfs/child-cost-direct/C2B0184.pdf",
+   "handoff": null,
+   "rung": "sibling_version",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version"
+   ],
+   "found": [
+    "oa_location",
+    "sibling_version"
+   ]
+  },
+  {
+   "screen_id": "C2B0199",
+   "tier": 1,
+   "cell": "CHILD_HEALTH_COST_FERTILITY",
+   "title": "Abolishing user fees, fertility choice, and educational attainment",
+   "year": 2017,
+   "doi": "10.1016/j.jdeveco.2017.09.006",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.1016/j.jdeveco.2017.09.006",
+     "final": "https://linkinghub.elsevier.com/retrieve/pii/S030438781730069X",
+     "http": "200",
+     "ctype": "text/html;charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "http://www.sciencedirect.com/science/article/pii/S030438781730069X",
+     "final": "https://www.sciencedirect.com/science/article/pii/S030438781730069X",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "sibling_version",
+     "url": "https://econpapers.repec.org/RePEc:hir:idecdp:4-1",
+     "final": "https://econpapers.repec.org/paper/hiridecdp/4-1.htm",
+     "http": "200",
+     "ctype": "text/html",
+     "pdf": false
+    },
+    {
+     "rung": "sibling_version",
+     "url": "http://ir.lib.hiroshima-u.ac.jp/files/public/35321/2014101620493194277/IDEC-DP2_04-1.pdf",
+     "final": "https://ir.lib.hiroshima-u.ac.jp/files/public/35321/2014101620493194277/IDEC-DP2_04-1.pdf",
+     "http": "404",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "sibling_version",
+     "url": "http://ir.lib.hiroshima-u.ac.jp/00035321",
+     "final": "https://hiroshima.repo.nii.ac.jp/records/2015611",
+     "http": "406",
+     "ctype": "text/html",
+     "pdf": false
+    },
+    {
+     "rung": "sibling_version",
+     "url": "https://hiroshima.repo.nii.ac.jp/record/2015611/files/IDEC-DP2_04-1.pdf",
+     "final": "https://hiroshima.repo.nii.ac.jp/record/2015611/files/IDEC-DP2_04-1.pdf",
+     "http": "406",
+     "ctype": "text/html",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "proxy",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location",
+    "sibling_version"
+   ]
+  },
+  {
+   "screen_id": "C2B0201",
+   "tier": 3,
+   "cell": "EXPENDITURE_ASSOCIATION",
+   "title": "\u2018Two children to make ends meet\u2019: the ideal family size, parental responsibilities and costs of children on two sides of the Iron Curtain during the post-war fertility decline",
+   "year": 2018,
+   "doi": "10.1080/1081602x.2018.1470547",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://www.tandfonline.com/doi/pdf/10.1080/1081602X.2018.1470547?needAccess=true",
+     "final": "https://www.tandfonline.com/doi/pdf/10.1080/1081602X.2018.1470547?needAccess=true",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "https://pure.knaw.nl/portal/en/publications/733c8f6f-31fe-43e1-b722-660862340280",
+     "final": "https://pure.knaw.nl/portal/en/publications/two-children-to-make-ends-meet-the-ideal-family-size-parental-res/",
+     "http": "200",
+     "ctype": "text/html;charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "https://eprints.bbk.ac.uk/id/eprint/25001/1/25001.pdf",
+     "final": "https://eprints.bbk.ac.uk/id/eprint/25001/1/25001.pdf",
+     "http": "200",
+     "ctype": "application/pdf",
+     "pdf": true
+    }
+   ],
+   "status": "already_on_disk",
+   "path": "literature/pdfs/child-cost-direct/C2B0201.pdf",
+   "handoff": null,
+   "rung": "oa_location",
+   "probed": [
+    "wp_host",
+    "oa_location"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0241",
+   "tier": 1,
+   "cell": "PRICE_SHOCK_FERTILITY",
+   "title": "The Influence of College Tuition and Fees on Fertility Rate in Taiwan",
+   "year": 2006,
+   "doi": "10.1007/s10834-006-9037-4",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.1007/s10834-006-9037-4",
+     "final": "https://link.springer.com/article/10.1007/s10834-006-9037-4",
+     "http": "200",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "http://hdl.handle.net/10.1007/s10834-006-9037-4",
+     "final": "https://link.springer.com/article/10.1007/s10834-006-9037-4",
+     "http": "200",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "proxy",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0253",
+   "tier": 3,
+   "cell": "PRICE_ASSOCIATION",
+   "title": "Economic Aspects of the Fertility of Rural-Farm and Urban Women",
+   "year": 1972,
+   "doi": "10.2307/1056507",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.2307/1056507",
+     "final": "https://www.jstor.org/stable/1056507?origin=crossref",
+     "http": "200",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "proxy",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0257",
+   "tier": 1,
+   "cell": "SCHOOL_COST_FERTILITY",
+   "title": "Fertility Responses to Schooling Costs: Evidence from Uganda\u2019s Universal Primary Education Policy",
+   "year": 2021,
+   "doi": "10.1086/713938",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.1086/713938",
+     "final": "https://www.journals.uchicago.edu/doi/10.1086/713938",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "sibling_version",
+     "url": "https://doi.org/10.2139/ssrn.3290339",
+     "final": "https://www.ssrn.com/abstract=3290339",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "proxy",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location",
+    "sibling_version"
+   ]
+  },
+  {
+   "screen_id": "C2B0273",
+   "tier": 3,
+   "cell": "PRICE_ASSOCIATION",
+   "title": "Determinants of Fertility in a Developing Society: The Case of Sierra Leone",
+   "year": 1979,
+   "doi": "10.2307/2173893",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.2307/2173893",
+     "final": "https://www.jstor.org/stable/2173893?origin=crossref",
+     "http": "200",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "proxy",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0280",
+   "tier": 3,
+   "cell": "PRICE_ASSOCIATION",
+   "title": "Do Cross-National Differences in the Costs of Children Generate Cross-National Differences in Fertility Rates?",
+   "year": 2003,
+   "doi": null,
+   "attempts": [
+    {
+     "rung": "wp_host",
+     "url": "https://EconPapers.repec.org/RePEc:diw:diwwpp:dp355",
+     "final": "https://EconPapers.repec.org/paper/diwdiwwpp/dp355.htm",
+     "http": "200",
+     "ctype": "text/html",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "https://www.diw.de/documents/publikationen/73/diw_01.c.40633.de/dp355.pdf",
+     "final": "https://www.diw.de/documents/publikationen/73/diw_01.c.40633.de/dp355.pdf",
+     "http": "000",
+     "ctype": "",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "http://hdl.handle.net/10068/89678",
+     "final": "http://hdl.handle.net/10068/89678",
+     "http": "500",
+     "ctype": "text/html;charset=utf-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "browser",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "wp_host",
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0304",
+   "tier": 3,
+   "cell": "PRICE_ASSOCIATION",
+   "title": "Technological advances and the transformation of the cost of children.",
+   "year": 1993,
+   "doi": null,
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/12345186",
+     "final": "https://pubmed.ncbi.nlm.nih.gov/12345186/",
+     "http": "203",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "browser",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0305",
+   "tier": 3,
+   "cell": "EXPENDITURE_ASSOCIATION",
+   "title": "FENOMENA SHOUSHIKA DI JEPANG : PERUBAHAN KONSEP ANAK",
+   "year": 2016,
+   "doi": "10.14710/izumi.5.1.32-39",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://ejournal.undip.ac.id/index.php/izumi/article/download/11772/9007",
+     "final": "https://ejournal.undip.ac.id/index.php/izumi/article/download/11772/9007",
+     "http": "200",
+     "ctype": "application/pdf",
+     "pdf": true
+    }
+   ],
+   "status": "already_on_disk",
+   "path": "literature/pdfs/child-cost-direct/C2B0305.pdf",
+   "handoff": null,
+   "rung": "oa_location",
+   "probed": [
+    "wp_host",
+    "oa_location"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0310",
+   "tier": 2,
+   "cell": "SCHOOL_COST_FERTILITY",
+   "title": "Heterogeneous Effects of Women's Schooling on Fertility, Literacy and Work: Evidence from Burundi's Free Primary Education Policy",
+   "year": 2023,
+   "doi": "10.1093/jae/ejad002",
+   "attempts": [
+    {
+     "rung": "wp_host",
+     "url": "https://www.econstor.eu/bitstream/10419/224607/1/vfs-2020-pid-40165.pdf",
+     "final": "https://www.econstor.eu/bitstream/10419/224607/1/vfs-2020-pid-40165.pdf",
+     "http": "200",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.1093/jae/ejad002",
+     "final": "https://academic.oup.com/jae/article/33/1/67/7152895",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "http://hdl.handle.net/10.1093/jae/ejad002",
+     "final": "https://academic.oup.com/jae/article/33/1/67/7152895",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "http://hdl.handle.net/10419/224607",
+     "final": "https://www.econstor.eu/handle/10419/224607",
+     "http": "200",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "http://localhost:4000/bitstreams/2cd8105e-44ed-47d9-b5cb-ef7bda094d64/download",
+     "final": "http://localhost:4000/bitstreams/2cd8105e-44ed-47d9-b5cb-ef7bda094d64/download",
+     "http": "000",
+     "ctype": "",
+     "pdf": false
+    },
+    {
+     "rung": "unpaywall",
+     "url": "http://localhost:4000/bitstreams/2cd8105e-44ed-47d9-b5cb-ef7bda094d64/download",
+     "final": "http://localhost:4000/bitstreams/2cd8105e-44ed-47d9-b5cb-ef7bda094d64/download",
+     "http": "000",
+     "ctype": "",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "proxy",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "wp_host",
+    "oa_location",
+    "unpaywall"
+   ]
+  },
+  {
+   "screen_id": "C2B0317",
+   "tier": 2,
+   "cell": "SCHOOL_COST_FERTILITY",
+   "title": "Universal secondary education, schooling and women \u2019s empowerment: Evidence from Uganda",
+   "year": 2025,
+   "doi": "10.1016/j.jdeveco.2025.103464",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.1016/j.jdeveco.2025.103464",
+     "final": "https://linkinghub.elsevier.com/retrieve/pii/S030438782500015X",
+     "http": "200",
+     "ctype": "text/html;charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "https://openresearch-repository.anu.edu.au/bitstreams/948c9de2-26b3-4102-a132-a3febcf52ea6/download",
+     "final": "https://openresearch-repository.anu.edu.au/bitstreams/948c9de2-26b3-4102-a132-a3febcf52ea6/download",
+     "http": "200",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    },
+    {
+     "rung": "unpaywall",
+     "url": "https://doi.org/10.1016/j.jdeveco.2025.103464",
+     "final": "https://linkinghub.elsevier.com/retrieve/pii/S030438782500015X",
+     "http": "200",
+     "ctype": "text/html;charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "unpaywall",
+     "url": "https://openresearch-repository.anu.edu.au/bitstreams/948c9de2-26b3-4102-a132-a3febcf52ea6/download",
+     "final": "https://openresearch-repository.anu.edu.au/bitstreams/948c9de2-26b3-4102-a132-a3febcf52ea6/download",
+     "http": "200",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "proxy",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location",
+    "unpaywall"
+   ]
+  },
+  {
+   "screen_id": "C2B0336",
+   "tier": 3,
+   "cell": "PRICE_ASSOCIATION",
+   "title": "The Effects of Cost of Children on Fertility Rate: Focusing on OECD Countires",
+   "year": 2020,
+   "doi": "10.33900/kaps.2020.29.3.4",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.33900/kaps.2020.29.3.4",
+     "final": "https://kiss.kstudy.com/Detail/Ar?key=3826158",
+     "http": "200",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "browser",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0337",
+   "tier": 2,
+   "cell": "SCHOOL_COST_FERTILITY",
+   "title": "Does Female Schooling Reduce Fertility? Evidence from Nigeria",
+   "year": 2007,
+   "doi": null,
+   "attempts": [
+    {
+     "rung": "wp_host",
+     "url": "http://www.nber.org/papers/w13070.pdf",
+     "final": "https://www.nber.org/system/files/working_papers/w13070/w13070.pdf",
+     "http": "200",
+     "ctype": "application/pdf",
+     "pdf": true
+    }
+   ],
+   "status": "already_on_disk",
+   "path": "literature/pdfs/child-cost-direct/C2B0337.pdf",
+   "handoff": null,
+   "rung": "wp_host",
+   "probed": [
+    "wp_host"
+   ],
+   "found": [
+    "wp_host"
+   ]
+  },
+  {
+   "screen_id": "C2B0344",
+   "tier": 2,
+   "cell": "SCHOOL_COST_FERTILITY",
+   "title": "The impact of female education on fertility: evidence from Malawi Universal Primary Education program",
+   "year": 2024,
+   "doi": "10.1017/dem.2024.3",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/54600A3C9F729AF1400EDBC2250F417E/S2054089224000038a.pdf/div-class-title-the-impact-of-female-education-on-fe",
+     "final": "https://www.cambridge.org/core/journals/journal-of-demographic-economics/article/abs/impact-of-female-education-on-fertility-evidence-from-malawi-universal-primary-education-progra",
+     "http": "200",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    },
+    {
+     "rung": "unpaywall",
+     "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/54600A3C9F729AF1400EDBC2250F417E/S2054089224000038a.pdf/div-class-title-the-impact-of-female-education-on-fe",
+     "final": "https://www.cambridge.org/core/journals/journal-of-demographic-economics/article/abs/impact-of-female-education-on-fertility-evidence-from-malawi-universal-primary-education-progra",
+     "http": "200",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "proxy",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location",
+    "unpaywall"
+   ]
+  },
+  {
+   "screen_id": "C2B0349",
+   "tier": 3,
+   "cell": "PRICE_ASSOCIATION",
+   "title": "The Effect of the Cost of Children on Recent Fertility Decline in Japan",
+   "year": 2004,
+   "doi": null,
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://hit-u.repo.nii.ac.jp/records/2050862",
+     "final": "https://hit-u.repo.nii.ac.jp/records/2050862",
+     "http": "406",
+     "ctype": "text/html",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "https://hit-u.repo.nii.ac.jp/record/2050862/files/pie_dp221.pdf",
+     "final": "https://hit-u.repo.nii.ac.jp/record/2050862/files/pie_dp221.pdf",
+     "http": "406",
+     "ctype": "text/html",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "http://cis.ier.hit-u.ac.jp/Common/pdf/dp/2004/dp221.pdf",
+     "final": "https://cis.ier.hit-u.ac.jp/Common/pdf/dp/2004/dp221.pdf",
+     "http": "200",
+     "ctype": "application/pdf",
+     "pdf": true
+    }
+   ],
+   "status": "already_on_disk",
+   "path": "literature/pdfs/child-cost-direct/C2B0349.pdf",
+   "handoff": null,
+   "rung": "oa_location",
+   "probed": [
+    "wp_host",
+    "oa_location"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0357",
+   "tier": 1,
+   "cell": "PRICE_SHOCK_FERTILITY",
+   "title": "Effects of income and the cost of children on fertility. Quasi-experimental evidence from Norway",
+   "year": 2015,
+   "doi": null,
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://brage.bibsys.no/xmlui/handle/11250/2570030",
+     "final": "https://brage.bibsys.no/xmlui/handle/11250/2570030",
+     "http": "000",
+     "ctype": "",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "https://www.ssb.no/en/forskning/discussion-papers/_attachment/247932",
+     "final": "https://www.ssb.no/en/forskning/discussion-papers/_attachment/247932",
+     "http": "404",
+     "ctype": "text/html;charset=utf-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "http://hdl.handle.net/10419/192810",
+     "final": "https://www.econstor.eu/handle/10419/192810",
+     "http": "200",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "http://hdl.handle.net/11250/2570030",
+     "final": "https://nva.sikt.no/registration/0199385c2f30-d91e2458-0ae8-4650-84eb-a3d1b80b3ac9",
+     "http": "200",
+     "ctype": "text/html",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "browser",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0365",
+   "tier": 1,
+   "cell": "PRICE_SHOCK_FERTILITY",
+   "title": "Climate Shocks and Teenage Fertility",
+   "year": 2020,
+   "doi": null,
+   "attempts": [
+    {
+     "rung": "wp_host",
+     "url": "https://www.econstor.eu/bitstream/10419/214837/1/GLO-DP-0490.pdf",
+     "final": "https://www.econstor.eu/bitstream/10419/214837/1/GLO-DP-0490.pdf",
+     "http": "200",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "http://hdl.handle.net/10419/214837",
+     "final": "https://www.econstor.eu/handle/10419/214837",
+     "http": "200",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "browser",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "wp_host",
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0405",
+   "tier": 1,
+   "cell": "CHILD_HEALTH_COST_FERTILITY",
+   "title": "Infant Mortality and Desired Fertility: The Case of the Free Health Care Initiative in Sierra Leone",
+   "year": 2022,
+   "doi": "10.1080/00220388.2022.2081501",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.1080/00220388.2022.2081501",
+     "final": "https://www.tandfonline.com/doi/full/10.1080/00220388.2022.2081501",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "http://hdl.handle.net/10.1080/00220388.2022.2081501",
+     "final": "https://www.tandfonline.com/doi/full/10.1080/00220388.2022.2081501",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "https://figshare.com/articles/journal_contribution/Infant_Mortality_and_Desired_Fertility_The_Case_of_the_Free_Health_Care_Initiative_in_Sierra_Leone/20013369",
+     "final": "https://figshare.com/articles/journal_contribution/Infant_Mortality_and_Desired_Fertility_The_Case_of_the_Free_Health_Care_Initiative_in_Sierra_Leone/20013369",
+     "http": "202",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.6084/m9.figshare.20013369.v1",
+     "final": "https://tandf.figshare.com/articles/journal_contribution/Infant_Mortality_and_Desired_Fertility_The_Case_of_the_Free_Health_Care_Initiative_in_Sierra_Leone/20013369/1",
+     "http": "202",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "unpaywall",
+     "url": "https://figshare.com/articles/journal_contribution/Infant_Mortality_and_Desired_Fertility_The_Case_of_the_Free_Health_Care_Initiative_in_Sierra_Leone/20013369",
+     "final": "https://figshare.com/articles/journal_contribution/Infant_Mortality_and_Desired_Fertility_The_Case_of_the_Free_Health_Care_Initiative_in_Sierra_Leone/20013369",
+     "http": "202",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "unpaywall",
+     "url": "https://doi.org/10.6084/m9.figshare.20013369.v1",
+     "final": "https://tandf.figshare.com/articles/journal_contribution/Infant_Mortality_and_Desired_Fertility_The_Case_of_the_Free_Health_Care_Initiative_in_Sierra_Leone/20013369/1",
+     "http": "202",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "proxy",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location",
+    "unpaywall"
+   ]
+  },
+  {
+   "screen_id": "C2B0431",
+   "tier": 3,
+   "cell": "EXPENDITURE_ASSOCIATION",
+   "title": "FAMILY SIZE AND ITS SOCIO-ECONOMIC IMPLICATIONS ON THE INHABITANTS OF DELTA STATE, NIGERIA",
+   "year": 2011,
+   "doi": null,
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "http://icidr.org/doc/ICIDR%20PDF%20contents/journal%20of%20research%20in%20education%20and%20society/JRESSvol2%20nos3%20december%202011/family%20size%20and%20its%20socio.pdf",
+     "final": "http://icidr.org/doc/ICIDR%20PDF%20contents/journal%20of%20research%20in%20education%20and%20society/JRESSvol2%20nos3%20december%202011/family%20size%20and%20its%20socio.pdf",
+     "http": "200",
+     "ctype": "application/pdf",
+     "pdf": true
+    }
+   ],
+   "status": "already_on_disk",
+   "path": "literature/pdfs/child-cost-direct/C2B0431.pdf",
+   "handoff": null,
+   "rung": "oa_location",
+   "probed": [
+    "wp_host",
+    "oa_location"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0435",
+   "tier": 3,
+   "cell": "MIXED_PRICE_VALUE",
+   "title": "Returns to Parental Investment in Children in Benguet Province, Philippines",
+   "year": 1991,
+   "doi": "10.3138/jcfs.22.3.313",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.3138/jcfs.22.3.313",
+     "final": "https://utppublishing.com/doi/10.3138/jcfs.22.3.313",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "browser",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0457",
+   "tier": 1,
+   "cell": "SCHOOL_COST_FERTILITY",
+   "title": "Fertility Responses to Schooling Costs: Evidence from Uganda's Universal Primary Education Policy",
+   "year": 2018,
+   "doi": "10.2139/ssrn.3290339",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.2139/ssrn.3290339",
+     "final": "https://www.ssrn.com/abstract=3290339",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "unpaywall",
+     "url": "https://doi.org/10.2139/ssrn.3290339",
+     "final": "https://www.ssrn.com/abstract=3290339",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "browser",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location",
+    "unpaywall"
+   ]
+  },
+  {
+   "screen_id": "C2B0461",
+   "tier": 2,
+   "cell": "SCHOOL_COST_FERTILITY",
+   "title": "Free Primary Education, Fertility, And Women's Access To The Labor Market : Evidence From Ethiopia",
+   "year": 2020,
+   "doi": "10.1596/1813-9450-9105",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.1596/1813-9450-9105",
+     "final": "https://openknowledge.worldbank.org/handle/10986/33154",
+     "http": "200",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "http://hdl.handle.net/10986/33154",
+     "final": "https://openknowledge.worldbank.org/handle/10986/33154",
+     "http": "200",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "sibling_version",
+     "url": "https://files.eric.ed.gov/fulltext/ED604381.pdf",
+     "final": "https://files.eric.ed.gov/fulltext/ED604381.pdf",
+     "http": "200",
+     "ctype": "application/pdf",
+     "pdf": true
+    }
+   ],
+   "status": "already_on_disk",
+   "path": "literature/pdfs/child-cost-direct/C2B0461.pdf",
+   "handoff": null,
+   "rung": "sibling_version",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version"
+   ],
+   "found": [
+    "oa_location",
+    "sibling_version"
+   ]
+  },
+  {
+   "screen_id": "C2B0471",
+   "tier": 3,
+   "cell": "PRICE_ASSOCIATION",
+   "title": "The Price of Children and Socio-Economic Theories of Fertility",
+   "year": 1972,
+   "doi": "10.2307/2173578",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.2307/2173578",
+     "final": "https://www.tandfonline.com/doi/abs/10.1080/00324728.1972.10405546",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "sibling_version",
+     "url": "https://doi.org/10.1080/00324728.1972.10405546",
+     "final": "https://www.tandfonline.com/doi/abs/10.1080/00324728.1972.10405546",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "sibling_version",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/22074162",
+     "final": "https://pubmed.ncbi.nlm.nih.gov/22074162/",
+     "http": "203",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "proxy",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location",
+    "sibling_version"
+   ]
+  },
+  {
+   "screen_id": "C2B0484",
+   "tier": 2,
+   "cell": "SCHOOL_COST_FERTILITY",
+   "title": "Does Female Schooling Reduce Fertility? The Case of Universal Primary Education in Nigeria",
+   "year": 2004,
+   "doi": null,
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.616.7138",
+     "final": "https://web.archive.org/web/20251230112235/https://citeseerx.ist.psu.edu//viewdoc/summary?doi=10.1.1.616.7138",
+     "http": "429",
+     "ctype": "text/html",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "browser",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0522",
+   "tier": 2,
+   "cell": "SCHOOL_COST_FERTILITY",
+   "title": "Free Primary Education, Schooling, and Fertility: Evidence from Ethiopia",
+   "year": 2016,
+   "doi": "10.2139/ssrn.2879794",
+   "attempts": [
+    {
+     "rung": "wp_host",
+     "url": "https://docs.iza.org/dp10387.pdf",
+     "final": "https://docs.iza.org/dp10387.pdf",
+     "http": "200",
+     "ctype": "application/pdf",
+     "pdf": true
+    }
+   ],
+   "status": "already_on_disk",
+   "path": "literature/pdfs/child-cost-direct/C2B0522.pdf",
+   "handoff": null,
+   "rung": "wp_host",
+   "probed": [
+    "wp_host"
+   ],
+   "found": [
+    "wp_host"
+   ]
+  },
+  {
+   "screen_id": "C2B0543",
+   "tier": 2,
+   "cell": "SCHOOL_COST_FERTILITY",
+   "title": "Free Primary Education, Fertility, and Women\u2019s Access to the Labor Market: Evidence from Ethiopia",
+   "year": 2020,
+   "doi": "10.1596/40810",
+   "attempts": [
+    {
+     "rung": "wp_host",
+     "url": "https://openknowledge.worldbank.org/handle/10986/40810",
+     "final": "https://openknowledge.worldbank.org/handle/10986/40810",
+     "http": "200",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.1596/40810",
+     "final": "https://openknowledge.worldbank.org/handle/10986/40810",
+     "http": "200",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "sibling_version",
+     "url": "https://doi.org/10.1596/1813-9450-9105",
+     "final": "https://openknowledge.worldbank.org/handle/10986/33154",
+     "http": "200",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "sibling_version",
+     "url": "http://hdl.handle.net/10986/33154",
+     "final": "https://openknowledge.worldbank.org/handle/10986/33154",
+     "http": "200",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "sibling_version",
+     "url": "https://files.eric.ed.gov/fulltext/ED604381.pdf",
+     "final": "https://files.eric.ed.gov/fulltext/ED604381.pdf",
+     "http": "200",
+     "ctype": "application/pdf",
+     "pdf": true
+    }
+   ],
+   "status": "already_on_disk",
+   "path": "literature/pdfs/child-cost-direct/C2B0543.pdf",
+   "handoff": null,
+   "rung": "sibling_version",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version"
+   ],
+   "found": [
+    "wp_host",
+    "oa_location",
+    "sibling_version"
+   ]
+  },
+  {
+   "screen_id": "C2B0546",
+   "tier": 1,
+   "cell": "CHILD_HEALTH_COST_FERTILITY",
+   "title": "Abolishing User Fees, Fertility Choice, and Educational Attainment",
+   "year": 2014,
+   "doi": "10.15027/35321",
+   "attempts": [
+    {
+     "rung": "wp_host",
+     "url": "https://econpapers.repec.org/RePEc:hir:idecdp:4-1",
+     "final": "https://econpapers.repec.org/paper/hiridecdp/4-1.htm",
+     "http": "200",
+     "ctype": "text/html",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "http://ir.lib.hiroshima-u.ac.jp/files/public/35321/2014101620493194277/IDEC-DP2_04-1.pdf",
+     "final": "https://ir.lib.hiroshima-u.ac.jp/files/public/35321/2014101620493194277/IDEC-DP2_04-1.pdf",
+     "http": "404",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "http://ir.lib.hiroshima-u.ac.jp/00035321",
+     "final": "https://hiroshima.repo.nii.ac.jp/records/2015611",
+     "http": "406",
+     "ctype": "text/html",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "https://hiroshima.repo.nii.ac.jp/record/2015611/files/IDEC-DP2_04-1.pdf",
+     "final": "https://hiroshima.repo.nii.ac.jp/record/2015611/files/IDEC-DP2_04-1.pdf",
+     "http": "406",
+     "ctype": "text/html",
+     "pdf": false
+    },
+    {
+     "rung": "sibling_version",
+     "url": "https://doi.org/10.1016/j.jdeveco.2017.09.006",
+     "final": "https://linkinghub.elsevier.com/retrieve/pii/S030438781730069X",
+     "http": "200",
+     "ctype": "text/html;charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "sibling_version",
+     "url": "http://www.sciencedirect.com/science/article/pii/S030438781730069X",
+     "final": "https://www.sciencedirect.com/science/article/pii/S030438781730069X",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "proxy",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "wp_host",
+    "oa_location",
+    "sibling_version"
+   ]
+  },
+  {
+   "screen_id": "C2B0553",
+   "tier": 3,
+   "cell": "PRICE_ASSOCIATION",
+   "title": "COST OF RAISING CHILDREN, CHILD POVERTY AND FERTILITY DECISIONS",
+   "year": null,
+   "doi": null,
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://riss.vitaepensiero.it/scheda-articolo_digital/martina-menon-federico-perali/cost-of-raising-children-child-poverty-and-fertility-decisions-000518_2019_0003_0225-369606.html",
+     "final": "https://riss.vitaepensiero.it/scheda-articolo_digital/martina-menon-federico-perali/cost-of-raising-children-child-poverty-and-fertility-decisions-000518_2019_0003_0225-369606.html",
+     "http": "200",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "sibling_version",
+     "url": "https://iris.univr.it/handle/11562/1046398",
+     "final": "https://iris.univr.it/handle/11562/1046398",
+     "http": "200",
+     "ctype": "text/html;charset=utf-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "browser",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location",
+    "sibling_version"
+   ]
+  },
+  {
+   "screen_id": "C2B0583",
+   "tier": 3,
+   "cell": "PRICE_ASSOCIATION",
+   "title": "Declining fertility and the rising cost of children : what can NTA say about low fertility in Japan and other Asian countries?",
+   "year": 2010,
+   "doi": null,
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "http://ci.nii.ac.jp/ncid/BB05912155",
+     "final": "https://ci.nii.ac.jp:443/ncid/BB05912155",
+     "http": "200",
+     "ctype": "text/html;charset=UTF-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "browser",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0594",
+   "tier": 2,
+   "cell": "SCHOOL_COST_FERTILITY",
+   "title": "The impact of eliminating primary school tuition fees on child marriage in sub-Saharan Africa: A quasi-experimental evaluation of policy changes in 8 countries",
+   "year": 2018,
+   "doi": "10.1371/journal.pone.0197928",
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0197928&type=printable",
+     "final": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0197928&type=printable",
+     "http": "200",
+     "ctype": "application/pdf",
+     "pdf": true
+    }
+   ],
+   "status": "already_on_disk",
+   "path": "literature/pdfs/child-cost-direct/C2B0594.pdf",
+   "handoff": null,
+   "rung": "unpaywall",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall"
+   ],
+   "found": [
+    "unpaywall"
+   ]
+  },
+  {
+   "screen_id": "C2B0619",
+   "tier": 2,
+   "cell": "SCHOOL_COST_FERTILITY",
+   "title": "Free Primary Education, Schooling, and Fertility: Evidence from Ethiopia",
+   "year": 2016,
+   "doi": "10.2139/ssrn.2868563",
+   "attempts": [
+    {
+     "rung": "sibling_version",
+     "url": "https://docs.iza.org/dp10387.pdf",
+     "final": "https://docs.iza.org/dp10387.pdf",
+     "http": "200",
+     "ctype": "application/pdf",
+     "pdf": true
+    }
+   ],
+   "status": "already_on_disk",
+   "path": "literature/pdfs/child-cost-direct/C2B0619.pdf",
+   "handoff": null,
+   "rung": "sibling_version",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version"
+   ],
+   "found": [
+    "sibling_version"
+   ]
+  },
+  {
+   "screen_id": "C2B0622",
+   "tier": 3,
+   "cell": "PRICE_ASSOCIATION",
+   "title": "Declining fertility and the rising costs of children and the elderly in Japan and other selected Asian countries: An analysis based upon the NTA approach",
+   "year": 2016,
+   "doi": "10.22459/paaf.11.2016.05",
+   "attempts": [
+    {
+     "rung": "unpaywall",
+     "url": "https://doi.org/10.22459/paaf.11.2016.05",
+     "final": "https://press-files.anu.edu.au/downloads/press/n2121/pdf/ch05.pdf",
+     "http": "200",
+     "ctype": "application/pdf",
+     "pdf": true
+    }
+   ],
+   "status": "already_on_disk",
+   "path": "literature/pdfs/child-cost-direct/C2B0622.pdf",
+   "handoff": null,
+   "rung": "unpaywall",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall"
+   ],
+   "found": [
+    "unpaywall"
+   ]
+  },
+  {
+   "screen_id": "C2B0632",
+   "tier": 3,
+   "cell": "EXPENDITURE_ASSOCIATION",
+   "title": "Income inequality and educational expenditures on children: Evidence from the China Family Panel Studies",
+   "year": 2023,
+   "doi": "10.1016/j.chieco.2023.101932",
+   "attempts": [
+    {
+     "rung": "sibling_version",
+     "url": "https://doi.org/10.1016/j.chieco.2023.101932",
+     "final": "https://linkinghub.elsevier.com/retrieve/pii/S1043951X23000172",
+     "http": "200",
+     "ctype": "text/html;charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "sibling_version",
+     "url": "http://www.sciencedirect.com/science/article/pii/S1043951X23000172",
+     "final": "https://www.sciencedirect.com/science/article/pii/S1043951X23000172",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "proxy",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "sibling_version"
+   ]
+  },
+  {
+   "screen_id": "C2B0649",
+   "tier": 3,
+   "cell": "EXPENDITURE_ASSOCIATION",
+   "title": "The Impact of Government Transfer Payments on Extracurricular Tuition Expenditure for Children in Urban China",
+   "year": 2023,
+   "doi": "10.1353/chn.2023.0001",
+   "attempts": [
+    {
+     "rung": "sibling_version",
+     "url": "https://doi.org/10.1353/chn.2023.0001",
+     "final": "https://muse.jhu.edu/verify?url=%2Farticle%2F884124&r=1003440",
+     "http": "200",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    },
+    {
+     "rung": "sibling_version",
+     "url": "https://hdl.handle.net/10356/172275",
+     "final": "https://dr.ntu.edu.sg/handle/10356/172275",
+     "http": "405",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "proxy",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "sibling_version"
+   ]
+  },
+  {
+   "screen_id": "C2B0658",
+   "tier": 3,
+   "cell": "EXPENDITURE_ASSOCIATION",
+   "title": "Costi dei figli, valore dei figli. Economia e cultura nelle scelte riproduttive",
+   "year": 2014,
+   "doi": "10.1473/101",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://rivisteclueb.it/index.php/etnoantropologia/article/download/101/149",
+     "final": "https://rivisteclueb.it/index.php/etnoantropologia/search",
+     "http": "200",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "https://doaj.org/article/9c6bd31bcf15445ca36502585f31f95d",
+     "final": "https://doaj.org/article/9c6bd31bcf15445ca36502585f31f95d",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "browser",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0667",
+   "tier": 3,
+   "cell": "EXPENDITURE_ASSOCIATION",
+   "title": "\uac00\uacc4\uacbd\uc81c \uce21\uba74\uc5d0\uc11c \ubcf4\ub294 \uc800\ucd9c\uc0b0 \ud604\uc0c1",
+   "year": 2008,
+   "doi": null,
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "http://www.dbpia.co.kr/Journal/ArticleDetail/NODE02050131?q=%5B%EC%A0%80%EC%B6%9C%EC%82%B0%20%EA%B2%BD%EC%A0%9C%C2%A7coldb%C2%A72%C2%A751%C2%A73%5D&Multimedia=0&SearchAll=%EC%A0%80",
+     "final": "https://www.dbpia.co.kr:443/journal/articleDetail?nodeId=NODE02050131",
+     "http": "200",
+     "ctype": "text/html;charset=UTF-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "browser",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0676",
+   "tier": 3,
+   "cell": "PRICE_ASSOCIATION",
+   "title": "Cost of Children and the Recent Fertility Decline in Japan",
+   "year": 2003,
+   "doi": null,
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://hit-u.repo.nii.ac.jp/records/2050906",
+     "final": "https://hit-u.repo.nii.ac.jp/records/2050906",
+     "http": "406",
+     "ctype": "text/html",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "https://hit-u.repo.nii.ac.jp/record/2050906/files/pie_dp180.pdf",
+     "final": "https://hit-u.repo.nii.ac.jp/record/2050906/files/pie_dp180.pdf",
+     "http": "406",
+     "ctype": "text/html",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "http://hermes-ir.lib.hit-u.ac.jp/rs/bitstream/10086/14315/1/pie_dp180.pdf",
+     "final": "http://hermes-ir.lib.hit-u.ac.jp/rs/bitstream/10086/14315/1/pie_dp180.pdf",
+     "http": "000",
+     "ctype": "",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "http://hdl.handle.net/10086/14315",
+     "final": "https://hit-u.repo.nii.ac.jp/records/2050906",
+     "http": "406",
+     "ctype": "text/html",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "browser",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0688",
+   "tier": 3,
+   "cell": "PRICE_ASSOCIATION",
+   "title": "Transactional price of an expected child and its application in birth control.",
+   "year": 1993,
+   "doi": null,
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/12287289",
+     "final": "https://pubmed.ncbi.nlm.nih.gov/12287289/",
+     "http": "203",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "browser",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0694",
+   "tier": 1,
+   "cell": "PRICE_SHOCK_FERTILITY",
+   "title": "The United States Fertility Decline: Lessons from Slavery and Slave Emancipation",
+   "year": 2009,
+   "doi": null,
+   "attempts": [
+    {
+     "rung": "wp_host",
+     "url": "https://econpapers.repec.org/RePEc:pra:mprapa:42390",
+     "final": "https://econpapers.repec.org/paper/pramprapa/42390.htm",
+     "http": "200",
+     "ctype": "text/html",
+     "pdf": false
+    },
+    {
+     "rung": "wp_host",
+     "url": "https://ideas.repec.org/p/pra/mprapa/42390.html",
+     "final": "https://ideas.repec.org/p/pra/mprapa/42390.html",
+     "http": "200",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "https://mpra.ub.uni-muenchen.de/42390/1/MPRA_paper_42390.pdf",
+     "final": "https://mpra.ub.uni-muenchen.de/42390/1/MPRA_paper_42390.pdf",
+     "http": "200",
+     "ctype": "application/pdf",
+     "pdf": true
+    }
+   ],
+   "status": "already_on_disk",
+   "path": "literature/pdfs/child-cost-direct/C2B0694.pdf",
+   "handoff": null,
+   "rung": "oa_location",
+   "probed": [
+    "wp_host",
+    "oa_location"
+   ],
+   "found": [
+    "wp_host",
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0704",
+   "tier": 3,
+   "cell": "PRICE_ASSOCIATION",
+   "title": "An Assessment Of The Impact Of Economic Factors On Planned Fertility In New York City, 1970",
+   "year": 1976,
+   "doi": "10.1207/s15327906mbr1104_7",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.1207/s15327906mbr1104_7",
+     "final": "https://www.tandfonline.com/doi/abs/10.1207/s15327906mbr1104_7",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/26804116",
+     "final": "https://pubmed.ncbi.nlm.nih.gov/26804116/",
+     "http": "203",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "proxy",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0729",
+   "tier": 3,
+   "cell": "PRICE_ASSOCIATION",
+   "title": "The shadow price of children.",
+   "year": 1978,
+   "doi": null,
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/12309643",
+     "final": "https://pubmed.ncbi.nlm.nih.gov/12309643/",
+     "http": "200",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "browser",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0738",
+   "tier": 3,
+   "cell": "PRICE_ASSOCIATION",
+   "title": "The Effect of Relative Income on Fertility (in Japanese)",
+   "year": 2011,
+   "doi": null,
+   "attempts": [
+    {
+     "rung": "wp_host",
+     "url": "https://econpapers.repec.org/RePEc:esj:esriea:185c",
+     "final": "https://econpapers.repec.org/article/esjesriea/185c.htm",
+     "http": "200",
+     "ctype": "text/html",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "http://www.esri.go.jp/jp/archive/bun/bun185/bun185c.pdf",
+     "final": "http://www.esri.go.jp/jp/archive/bun/bun185/bun185c.pdf",
+     "http": "000",
+     "ctype": "",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "browser",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "wp_host",
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0785",
+   "tier": 3,
+   "cell": "EXPENDITURE_ASSOCIATION",
+   "title": "A Study on Causes of Low Fertility in Korea - Focusing on Family Value -",
+   "year": 2012,
+   "doi": "10.18398/kjlgas.2012.26.2.305",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.18398/kjlgas.2012.26.2.305",
+     "final": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001690224",
+     "http": "200",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "sibling_version",
+     "url": "https://www.earticle.net/Article/A184298",
+     "final": "https://www.earticle.net/Article/A184298",
+     "http": "200",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    },
+    {
+     "rung": "unpaywall",
+     "url": "https://doi.org/10.18398/kjlgas.2012.26.2.305",
+     "final": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART001690224",
+     "http": "200",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "browser",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location",
+    "sibling_version",
+    "unpaywall"
+   ]
+  },
+  {
+   "screen_id": "C2B0814",
+   "tier": 3,
+   "cell": "EXPENDITURE_ASSOCIATION",
+   "title": "Does fertility decrease household consumption",
+   "year": 2009,
+   "doi": null,
+   "attempts": [
+    {
+     "rung": "wp_host",
+     "url": "https://econpapers.repec.org/article/demdemres/v_3a20_3ay_3a2009_3ai_3a26.htm",
+     "final": "https://econpapers.repec.org/article/demdemres/v_3a20_3ay_3a2009_3ai_3a26.htm",
+     "http": "200",
+     "ctype": "text/html",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "https://www.demographic-research.org/volumes/vol20/26/20-26.pdf",
+     "final": "https://www.demographic-research.org/volumes/vol20/26/20-26.pdf",
+     "http": "200",
+     "ctype": "application/pdf",
+     "pdf": true
+    }
+   ],
+   "status": "already_on_disk",
+   "path": "literature/pdfs/child-cost-direct/C2B0814.pdf",
+   "handoff": null,
+   "rung": "oa_location",
+   "probed": [
+    "wp_host",
+    "oa_location"
+   ],
+   "found": [
+    "wp_host",
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0830",
+   "tier": 2,
+   "cell": "SCHOOL_COST_FERTILITY",
+   "title": "Free Primary Education, Fertility, and Women's Access to the Labor Market: Evidence from Ethiopia. Policy Research Working Paper 9105.",
+   "year": 2020,
+   "doi": null,
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://files.eric.ed.gov/fulltext/ED604381.pdf",
+     "final": "https://files.eric.ed.gov/fulltext/ED604381.pdf",
+     "http": "200",
+     "ctype": "application/pdf",
+     "pdf": true
+    }
+   ],
+   "status": "already_on_disk",
+   "path": "literature/pdfs/child-cost-direct/C2B0830.pdf",
+   "handoff": null,
+   "rung": "oa_location",
+   "probed": [
+    "wp_host",
+    "oa_location"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0849",
+   "tier": 1,
+   "cell": "PRICE_SHOCK_FERTILITY",
+   "title": "Changing the Cost of Children and Fertility: Evidence from the Israeli Kibbutz",
+   "year": 2014,
+   "doi": "10.22004/ag.econ.164526",
+   "attempts": [
+    {
+     "rung": "wp_host",
+     "url": "https://econpapers.repec.org/RePEc:ags:huaedp:164526",
+     "final": "https://econpapers.repec.org/paper/agshuaedp/164526.htm",
+     "http": "200",
+     "ctype": "text/html",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "https://ageconsearch.umn.edu/record/164526/files/updated%204.13%20Kibbutz_Fertility_Feb2014_SUB4.pdf",
+     "final": "https://ageconsearch.umn.edu/nanna/record/164526/files/updated%204.13%20Kibbutz_Fertility_Feb2014_SUB4.pdf?withWatermark=0&withMetadata=0&registerDownload=1&version=1",
+     "http": "200",
+     "ctype": "application/pdf",
+     "pdf": true
+    }
+   ],
+   "status": "already_on_disk",
+   "path": "literature/pdfs/child-cost-direct/C2B0849.pdf",
+   "handoff": null,
+   "rung": "oa_location",
+   "probed": [
+    "wp_host",
+    "oa_location"
+   ],
+   "found": [
+    "wp_host",
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0858",
+   "tier": 3,
+   "cell": "EXPENDITURE_ASSOCIATION",
+   "title": "Does the increase in private education expenditures drive down the total fertility rate",
+   "year": 2020,
+   "doi": null,
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://kiss.kstudy.com/thesis/thesis-view.asp?key=3837232",
+     "final": "https://kiss.kstudy.com/Detail/Ar?key=3837232",
+     "http": "200",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "browser",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0866",
+   "tier": 1,
+   "cell": "SCHOOL_COST_FERTILITY",
+   "title": "The Impact of Free Secondary Education: Experimental Evidence from Ghana",
+   "year": 2021,
+   "doi": "10.26085/c3s59j",
+   "attempts": [
+    {
+     "rung": "wp_host",
+     "url": "http://www.nber.org/papers/w28937.pdf",
+     "final": "https://www.nber.org/system/files/working_papers/w28937/w28937.pdf",
+     "http": "200",
+     "ctype": "application/pdf",
+     "pdf": true
+    }
+   ],
+   "status": "already_on_disk",
+   "path": "literature/pdfs/child-cost-direct/C2B0866.pdf",
+   "handoff": null,
+   "rung": "wp_host",
+   "probed": [
+    "wp_host"
+   ],
+   "found": [
+    "wp_host"
+   ]
+  },
+  {
+   "screen_id": "C2B0936",
+   "tier": 3,
+   "cell": "PRICE_ASSOCIATION",
+   "title": "Consumption smoothing, the cost of children, and family size desired in poor households: empirical evidence from family planning villages in Sintang Regency, the Province of West Kalimantan, Indonesia",
+   "year": 2024,
+   "doi": "10.3897/popecon.8.e108790",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://populationandeconomics.pensoft.net/article/108790/download/pdf/",
+     "final": "https://public.pensoft.net/items/?p=7TVeXpoqfNYT89tyrm3ifrTeG9Wv8P676JSQp%2FH2pj9hhtoybol4GF7LEbj3fxHT5Fo8esHsuNoAZJFvZxrccgjFFvxwaOIgBeAihijAHQvASBIF%2FAxzIL3E%2FCyyb%2Bc%3D&n=khV",
+     "http": "200",
+     "ctype": "application/pdf",
+     "pdf": true
+    }
+   ],
+   "status": "already_on_disk",
+   "path": "literature/pdfs/child-cost-direct/C2B0936.pdf",
+   "handoff": null,
+   "rung": "oa_location",
+   "probed": [
+    "wp_host",
+    "oa_location"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0939",
+   "tier": 3,
+   "cell": "PRICE_ASSOCIATION",
+   "title": "Fertility Rate under the Dual Pressure of Raising Children and the Elderly",
+   "year": 2024,
+   "doi": "10.54254/2754-1169/2024.ga18555",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://www.ewadirect.com/proceedings/aemps/article/view/18555/pdf",
+     "final": "https://aemps.ewapub.com/article/view/18555.pdf",
+     "http": "200",
+     "ctype": "application/pdf",
+     "pdf": true
+    }
+   ],
+   "status": "already_on_disk",
+   "path": "literature/pdfs/child-cost-direct/C2B0939.pdf",
+   "handoff": null,
+   "rung": "oa_location",
+   "probed": [
+    "wp_host",
+    "oa_location"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0953",
+   "tier": 1,
+   "cell": "SCHOOL_COST_FERTILITY",
+   "title": "The impact of terminating universal primary education on fertility: Evidence from Kenya",
+   "year": 2025,
+   "doi": "10.1016/j.ijedudev.2025.103361",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.1016/j.ijedudev.2025.103361",
+     "final": "https://linkinghub.elsevier.com/retrieve/pii/S0738059325001592",
+     "http": "200",
+     "ctype": "text/html;charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "unpaywall",
+     "url": "https://doi.org/10.1016/j.ijedudev.2025.103361",
+     "final": "https://linkinghub.elsevier.com/retrieve/pii/S0738059325001592",
+     "http": "200",
+     "ctype": "text/html;charset=UTF-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "proxy",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location",
+    "unpaywall"
+   ]
+  },
+  {
+   "screen_id": "C2B0961",
+   "tier": 2,
+   "cell": "BIRTH_EVENT_COST",
+   "title": "Who benefits the most? Direct and indirect effects of a free cesarean section policy in Benin",
+   "year": 2025,
+   "doi": "10.48550/arxiv.2510.03658",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://arxiv.org/pdf/2510.03658",
+     "final": "https://arxiv.org/pdf/2510.03658",
+     "http": "200",
+     "ctype": "application/pdf",
+     "pdf": true
+    }
+   ],
+   "status": "already_on_disk",
+   "path": "literature/pdfs/child-cost-direct/C2B0961.pdf",
+   "handoff": null,
+   "rung": "oa_location",
+   "probed": [
+    "wp_host",
+    "oa_location"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B0964",
+   "tier": 2,
+   "cell": "BIRTH_EVENT_COST",
+   "title": "Direct and Indirect Effects of Free Cesarean Section Access on Maternal and Infant Outcomes",
+   "year": 2025,
+   "doi": "10.21203/rs.3.rs-7781801/v1",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://www.researchsquare.com/article/rs-7781801/latest.pdf",
+     "final": "https://assets-eu.researchsquare.com/files/rs-7781801/v1_covered_95cea109-f08c-480d-b3ee-b98c4c12dca7.pdf?c=1762878616",
+     "http": "200",
+     "ctype": "application/pdf",
+     "pdf": true
+    }
+   ],
+   "status": "already_on_disk",
+   "path": "literature/pdfs/child-cost-direct/C2B0964.pdf",
+   "handoff": null,
+   "rung": "oa_location",
+   "probed": [
+    "wp_host",
+    "oa_location"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B1007",
+   "tier": 2,
+   "cell": "SCHOOL_COST_FERTILITY",
+   "title": "Effects of Vietnam's Universal Primary Education Law on Women's Education, Marriage, Fertility, and Labor Market Outcomes",
+   "year": 2026,
+   "doi": "10.1162/edfp.a.443",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.1162/edfp.a.443",
+     "final": "https://direct.mit.edu/edfp/article/doi/10.1162/EDFP.a.443/135687/Effects-of-Vietnam-s-Universal-Primary-Education",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "browser",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2B1020",
+   "tier": 1,
+   "cell": "SCHOOL_COST_FERTILITY",
+   "title": "Gender norms and the quantity-quality tradeoff: Evidence from free primary education in Africa",
+   "year": 2026,
+   "doi": null,
+   "attempts": [
+    {
+     "rung": "wp_host",
+     "url": "https://www.econstor.eu/bitstream/10419/338313/1/cesifo1_wp11994.pdf",
+     "final": "https://www.econstor.eu/bitstream/10419/338313/1/cesifo1_wp11994.pdf",
+     "http": "200",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "browser",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "wp_host"
+   ]
+  },
+  {
+   "screen_id": "C2B1053",
+   "tier": 3,
+   "cell": "PRICE_ASSOCIATION",
+   "title": "The cost of children",
+   "year": null,
+   "doi": null,
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://www.nature.com/articles/nature12257.pdf",
+     "final": "https://www.nature.com/articles/nature12257?error=cookies_not_supported&code=977f063a-a931-44b4-a8b2-d47df445e8eb",
+     "http": "200",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    },
+    {
+     "rung": "sibling_version",
+     "url": "https://ideas.repec.org/p/wop/sprcdp/0010.html",
+     "final": "https://ideas.repec.org/p/wop/sprcdp/0010.html",
+     "http": "200",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "sibling_version",
+     "url": "https://doi.org/10.2307/2231554",
+     "final": "https://academic.oup.com/ej/article/87/347/460-487/5220956",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "sibling_version",
+     "url": "http://economics.ouls.ox.ac.uk/10554/",
+     "final": "http://economics.ouls.ox.ac.uk/10554/",
+     "http": "000",
+     "ctype": "",
+     "pdf": false
+    },
+    {
+     "rung": "sibling_version",
+     "url": "http://links.jstor.org/sici?sici=0013-0133%28197709%2987%3A347%3C460%3ATTBMOH%3E2.0.CO%3B2-O&origin=bc",
+     "final": "https://www.jstor.org/sici?sici=0013-0133%28197709%2987%3A347%3C460%3ATTBMOH%3E2.0.CO%3B2-O&origin=bc",
+     "http": "404",
+     "ctype": "text/html;charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "sibling_version",
+     "url": "https://ora.ox.ac.uk/objects/uuid:d4e33b41-63b1-4f39-9942-5d3260adf36b",
+     "final": "https://ora.ox.ac.uk/objects/uuid:d4e33b41-63b1-4f39-9942-5d3260adf36b",
+     "http": "200",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    },
+    {
+     "rung": "sibling_version",
+     "url": "https://doi.org/10.2307/1966297",
+     "final": "https://www.jstor.org/stable/1966297?origin=crossref",
+     "http": "200",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    },
+    {
+     "rung": "sibling_version",
+     "url": "https://pubmed.ncbi.nlm.nih.gov/12260055",
+     "final": "https://pubmed.ncbi.nlm.nih.gov/12260055/",
+     "http": "203",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    },
+    {
+     "rung": "sibling_version",
+     "url": "https://link.springer.com/content/pdf/10.1007/s001480050111.pdf",
+     "final": "https://link.springer.com/content/pdf/10.1007/s001480050111.pdf",
+     "http": "200",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "proxy",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location",
+    "sibling_version"
+   ]
+  },
+  {
+   "screen_id": "C2B1060",
+   "tier": 1,
+   "cell": "PRICE_SHOCK_FERTILITY",
+   "title": "The College Tuition and Fertility Rate in Taiwan",
+   "year": 2005,
+   "doi": null,
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "http://nccur.lib.nccu.edu.tw/handle/140.119/21713",
+     "final": "http://nccur.lib.nccu.edu.tw/handle/140.119/21713",
+     "http": "000",
+     "ctype": "",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "browser",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  }
+ ]
+}
