@@ -1,0 +1,1806 @@
+{
+  "n_files_scanned": 1136,
+  "n_unique_blobs": 88,
+  "n_records": 130,
+  "n_dropped_homonym": 2,
+  "n_dropped_shadow": 5,
+  "n_timecost": 17,
+  "per_term": {
+    "cost of children": {
+      "n": 33,
+      "only": 33,
+      "timecost": 11
+    },
+    "cost of raising": {
+      "n": 9,
+      "only": 8,
+      "timecost": 1
+    },
+    "child-rearing cost": {
+      "n": 1,
+      "only": 1,
+      "timecost": 0
+    },
+    "expenditure": {
+      "n": 10,
+      "only": 10,
+      "timecost": 0
+    },
+    "price of children": {
+      "n": 2,
+      "only": 2,
+      "timecost": 0
+    },
+    "school fees": {
+      "n": 24,
+      "only": 23,
+      "timecost": 0
+    },
+    "tuition": {
+      "n": 40,
+      "only": 39,
+      "timecost": 0
+    },
+    "equivalence scale": {
+      "n": 7,
+      "only": 6,
+      "timecost": 0
+    },
+    "cost of childbearing": {
+      "n": 6,
+      "only": 6,
+      "timecost": 5
+    }
+  },
+  "records": [
+    {
+      "title": "The Career Costs of Children",
+      "id": "10.1086/690952",
+      "year": 2017,
+      "matched": [
+        "cost of children"
+      ],
+      "seen_in": [
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json",
+        "housing-costs-snowball-pool.json",
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "timecost": true
+    },
+    {
+      "title": "Is it beneficial for households without children to subsidy the cost of rearing children to increase pension benefits",
+      "id": "",
+      "year": 2008,
+      "matched": [
+        "cost of raising"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-d1-pool.json",
+        "old-age-security-pension-crowdout-live-corpus.json",
+        "old-age-security-pension-crowdout-metaanalysis-candidates.json",
+        "old-age-security-pension-crowdout-screen-tiers-ra-signed.json",
+        "old-age-security-pension-crowdout-screen-tiers.json",
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Expenditures on Children by Families, 2007",
+      "id": "10.22004/ag.econ.45852",
+      "year": 2008,
+      "matched": [
+        "expenditure"
+      ],
+      "seen_in": [
+        "credit-constraints-prescreen.json",
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json",
+        "housing-costs-snowball-pool.json",
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "The Time Cost of Raising Children in Different Fertility Contexts: Evidence from France and Italy",
+      "id": "10.1007/s10680-018-9470-8",
+      "year": 2018,
+      "matched": [
+        "cost of raising"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-anchor-resolution.json",
+        "child-centeredness-intensive-parenting-cold-start-anchors.json",
+        "child-centeredness-intensive-parenting-tier-a.json",
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-sequential-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "timecost": true
+    },
+    {
+      "title": "Consumption smoothing, the cost of children, and family size desired in poor households: empirical evidence from family planning villages in Sintang Regency, the Province of West Kalimantan, Indonesia",
+      "id": "W4404547386",
+      "year": 2024,
+      "matched": [
+        "cost of children"
+      ],
+      "seen_in": [
+        "credit-constraints-extraction-candidates.json",
+        "credit-constraints-frameonly-sheet.json",
+        "credit-constraints-primary-retrieval.json",
+        "credit-constraints-read-all.json",
+        "credit-constraints-screen-results.json",
+        "credit-constraints-screen-universe.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Abolishing user fees, fertility choice, and educational attainment",
+      "id": "10.1016/j.jdeveco.2017.09.006",
+      "year": 2017,
+      "matched": [
+        "school fees"
+      ],
+      "seen_in": [
+        "child-labor-laws-and-schooling-citation-frame.json",
+        "child-labor-laws-and-schooling-screened.json",
+        "housing-costs-snowball-pool.json",
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "The cost of children",
+      "id": "10.1038/nature12257",
+      "year": 2013,
+      "matched": [
+        "cost of children"
+      ],
+      "seen_in": [
+        "caldwell-wealth-flows-westernization-PARTIAL-screen-tiers.json",
+        "caldwell-wealth-flows-westernization-tier-b-frame.json",
+        "caldwell-wealth-flows-westernization-title-only-stratum.json",
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "child-centeredness-intensive-parenting-title-only-stratum.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Echoes of rising tuition in students\u2019 borrowing, educational attainment, and homeownership in post-recession America",
+      "id": "10.1016/j.jue.2020.103298",
+      "year": 2021,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-oa-status.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-screened.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Impact of Tuition-Free Education Policy on Child Marriage and Early Childbearing",
+      "id": "10.1111/padr.12538",
+      "year": 2023,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-cold-start-anchors.json",
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-screened.json",
+        "student-debt-household-formation-tier-a.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Free Primary Education, Fertility, And Women's Access To The Labor Market : Evidence From Ethiopia",
+      "id": "10.1596/1813-9450-9105",
+      "year": 2020,
+      "matched": [
+        "school fees"
+      ],
+      "seen_in": [
+        "child-labor-laws-and-schooling-citation-frame.json",
+        "child-labor-laws-and-schooling-screened.json",
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Women's schooling, fertility, and child health outcomes: Evidence from Uganda's free primary education program",
+      "id": "10.1016/j.jdeveco.2018.07.002",
+      "year": 2018,
+      "matched": [
+        "school fees"
+      ],
+      "seen_in": [
+        "child-labor-laws-and-schooling-citation-frame.json",
+        "child-labor-laws-and-schooling-screened.json",
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Do Cross-National Differences in the Costs of Children Generate Cross-National Differences in Fertility Rates?",
+      "id": "10.1023/b:popu.0000020961.89068.91",
+      "year": 2003,
+      "matched": [
+        "cost of children"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "child-centeredness-intensive-parenting-title-only-stratum.json",
+        "co-residence-parents-household-delay-snowball-pool.json",
+        "housing-costs-snowball-pool.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Permanent employment and fertility: The importance of job security and the career costs of childbearing",
+      "id": "",
+      "year": 2018,
+      "matched": [
+        "cost of childbearing"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-d1-pool.json",
+        "old-age-security-pension-crowdout-live-corpus.json",
+        "old-age-security-pension-crowdout-screen-tiers-ra-signed.json",
+        "old-age-security-pension-crowdout-screen-tiers.json"
+      ],
+      "timecost": true
+    },
+    {
+      "title": "The Monetary Cost of a Child",
+      "id": "10.1007/978-3-642-86478-0_15",
+      "year": 1984,
+      "matched": [
+        "cost of children"
+      ],
+      "seen_in": [
+        "easterlin-relative-income-screen-sheet.json",
+        "easterlin-relative-income-screen-universe.json",
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "University Dropouts: An Evaluation of the Eects of a Tuition Fee Reform in the UK",
+      "id": "W2188902070",
+      "year": 2013,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-screened.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Equity Implications of State Tuition Policy and Student Loans",
+      "id": "10.1086/259992",
+      "year": 1972,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-screened.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Do Tuition Controls Freeze Student Debt?",
+      "id": "10.1177/08959048251395202",
+      "year": 2025,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-screened.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Student Loan Debt Response to Tuition Changes",
+      "id": "10.1177/05694345231192981",
+      "year": 2023,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-screened.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Electoral Accountability for Rising Tuition in the US: Evidence from a Survey Experiment and Observational Data",
+      "id": "10.1080/00221546.2023.2266354",
+      "year": 2023,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-screened.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Intended and Unintended Effects of State Tuition Benefits to Undocumented Students: Institution and Individual-Level Evidence",
+      "id": "10.2139/ssrn.4278871",
+      "year": 2022,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "co-residence-parents-household-delay-frame.json",
+        "co-residence-parents-household-delay-ra-gate-abstracts.json",
+        "co-residence-parents-household-delay-ra-gate-reread.json",
+        "co-residence-parents-household-delay-screened.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Heterogeneous Effects of Women's Schooling on Fertility, Literacy and Work: Evidence from Burundi's Free Primary Education Policy",
+      "id": "10.1093/jae/ejad002",
+      "year": 2023,
+      "matched": [
+        "school fees"
+      ],
+      "seen_in": [
+        "caldwell-wealth-flows-westernization-tier-b-frame.json",
+        "child-labor-laws-and-schooling-citation-frame.json",
+        "child-labor-laws-and-schooling-screened.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Changing the Cost of Children and Fertility: Evidence from the Israeli Kibbutz",
+      "id": "10.1111/ecoj.12240",
+      "year": 2015,
+      "matched": [
+        "cost of children"
+      ],
+      "seen_in": [
+        "child-labor-laws-and-schooling-citation-frame.json",
+        "child-labor-laws-and-schooling-screened.json",
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Taxing reproduction: the full transfer cost of rearing children in Europe",
+      "id": "10.1098/rsos.230759",
+      "year": 2023,
+      "matched": [
+        "cost of raising"
+      ],
+      "seen_in": [
+        "climate-anxiety-eco-doomerism-screen-tiers.json",
+        "climate-anxiety-eco-doomerism-tier-b-frame.json",
+        "old-age-security-pension-crowdout-live-corpus.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "DECLINING FERTILITY AND THE RISING COST OF CHILDREN",
+      "id": "10.1080/17441730903351586",
+      "year": 2009,
+      "matched": [
+        "cost of children"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-screen-tiers.json",
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "housing-costs-snowball-pool.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "\"The Value and Cost of Children\"",
+      "id": "10.2307/1966297",
+      "year": 1978,
+      "matched": [
+        "cost of children"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-sequential-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Household production, full consumption and the costs of children",
+      "id": "10.1016/s0927-5371(01)00047-1",
+      "year": 2001,
+      "matched": [
+        "cost of children"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "child-centeredness-intensive-parenting-title-only-stratum.json",
+        "co-residence-parents-household-delay-snowball-pool.json"
+      ],
+      "timecost": true
+    },
+    {
+      "title": "The impact of eliminating primary school tuition fees on child marriage in sub-Saharan Africa: A quasi-experimental evaluation of policy changes in 8 countries",
+      "id": "10.1371/journal.pone.0197928",
+      "year": 2018,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Decreased State Appropriations and their Impact on Texas Public Four-Year Higher Education Institutions Tuition Rates through Deregulated Tuition",
+      "id": "10.46303/repam.02.01.4",
+      "year": 2020,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Credit Supply and the Rise in College Tuition: Evidence from the Expansion in Federal Student Aid Programs",
+      "id": "10.1093/rfs/hhy069",
+      "year": 2018,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "The Role of Tuition, Financial Aid Policies, and Student Outcomes on Average Student Debt",
+      "id": "W2187620570",
+      "year": 2012,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "How Much Does College Cost and How Does it Relate to Student Borrowing? Tuition Growth and Borrowing Over the Past 30 Years",
+      "id": "10.1086/731505",
+      "year": 2024,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Removing user fees for facility-based delivery services: a difference-in-differences evaluation from ten sub-Saharan African countries",
+      "id": "10.1093/heapol/czu027",
+      "year": 2014,
+      "matched": [
+        "school fees"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Effects of tuition-free primary education on women's access to family planning and on health decision-making: A cross-national study",
+      "id": "10.1016/j.socscimed.2019.112478",
+      "year": 2019,
+      "matched": [
+        "school fees",
+        "tuition"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "The intergenerational effect of tuition-free lower-secondary education on children\u2019s nutritional outcomes in Africa",
+      "id": "10.1080/17441692.2023.2291703",
+      "year": 2023,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Rising Public College Tuition and College Entry: How Well Do Public Subsidies Promote Access to College?",
+      "id": "W3121148741",
+      "year": 1995,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "College on the Cheap: Consequences of Community College Tuition Reductions",
+      "id": "10.1257/pol.20150374",
+      "year": 2017,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Tuition Fees, Student Finances, and Student Achievement: Evidence from a Differential Raise in Fees",
+      "id": "10.1086/698132",
+      "year": 2018,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Do tuition-free lower secondary education policies matter for antenatal care among women in sub-saharan African countries?",
+      "id": "10.1186/s12884-024-06406-1",
+      "year": 2024,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Medical School Tuition And Young Physicians\u2019 Indebtedness",
+      "id": "10.1377/hlthaff.24.2.527",
+      "year": 2005,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Implementation of free basic education policy",
+      "id": "W197562361",
+      "year": 2006,
+      "matched": [
+        "school fees"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Does Federal Student Aid Raise Tuition? New Evidence on For-Profit Colleges",
+      "id": "10.1257/pol.6.4.174",
+      "year": 2012,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "The international market for MBA qualifications: The relationship between tuition fees and applications",
+      "id": "10.1016/j.econedurev.2013.02.006",
+      "year": 2013,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "The effects of the 2006 tuition fee reform and the Great Recession on university student dropout behaviour in the UK",
+      "id": "10.1016/j.jebo.2019.06.002",
+      "year": 2019,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "The Anatomy of College Tuition",
+      "id": "10.13140/2.1.4160.7045",
+      "year": 2012,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "High Tuition, Low-Quality Education, and Racism: The Spiral Eroding Academic Integrity",
+      "id": "10.1007/978-3-031-54144-5_128",
+      "year": 2024,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Changes in population literacy and numeracy in Ghana after three decades of free basic education",
+      "id": "10.1111/dpr.12824",
+      "year": 2024,
+      "matched": [
+        "school fees"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "The perk you can\u2019t ignore: how dependent tuition benefits shape recruitment in American higher education",
+      "id": "10.1080/03075079.2025.2491747",
+      "year": 2025,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "College is unaffordable for many Americans \u2013 but don\u2019t just blame rising tuition",
+      "id": "10.64628/aai.dn73dq4ps",
+      "year": 2026,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Tuition as a Path for Affordability? The Pursuit of a Progressive Tuition Model at the University of California",
+      "id": "10.5070/p2cjpp10139471",
+      "year": 2018,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Pharmacy School Cost and Opioid Dispensing: A Hidden Connection?",
+      "id": "10.2139/ssrn.5114005",
+      "year": 2025,
+      "matched": [
+        "school fees"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Better late than never: Macroeconomic impact of intermittent college enrollment and tuition subsidies",
+      "id": "10.1016/j.jedc.2025.105219",
+      "year": 2025,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "No Longer Priced Out: The Effects of Tuition Fees on Funding Choice, Field of Study, and Dropout Under Minimal Credit Constraints",
+      "id": "10.2139/ssrn.6022247",
+      "year": 2026,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Tuition Discounting: Promoting Access in American Postsecondary Education?",
+      "id": "W3081966096",
+      "year": 2020,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Tuition, Debt, and Human Capital",
+      "id": "10.1093/rfs/hhac065",
+      "year": 2022,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Secondary School Fee Abolition in Sub-Saharan Africa: Taking Stock of the Evidence",
+      "id": "10.31235/osf.io/8fa2c",
+      "year": 2023,
+      "matched": [
+        "school fees"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Schooling with learning: The effect of free primary education and mother tongue instruction reforms in Ethiopia",
+      "id": "10.1016/j.econedurev.2019.01.002",
+      "year": 2019,
+      "matched": [
+        "school fees"
+      ],
+      "seen_in": [
+        "child-labor-laws-and-schooling-citation-frame.json",
+        "child-labor-laws-and-schooling-screened.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Free Primary Education, Schooling, and Fertility: Evidence from Ethiopia",
+      "id": "10.2139/ssrn.2868563",
+      "year": 2016,
+      "matched": [
+        "school fees"
+      ],
+      "seen_in": [
+        "child-labor-laws-and-schooling-citation-frame.json",
+        "child-labor-laws-and-schooling-screened.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Economic Dependency and Opportunity Cost of Childbearing: Implications for fertility control in sub-Sahara Africa",
+      "id": "10.21203/rs.3.rs-28948/v1",
+      "year": 2020,
+      "matched": [
+        "cost of childbearing"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "timecost": true
+    },
+    {
+      "title": "Investing in Children: Changes in Parental Spending on Children, 1972\u20132007",
+      "id": "10.1007/s13524-012-0146-4",
+      "year": 2012,
+      "matched": [
+        "expenditure"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "housing-costs-snowball-pool.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "The costs of raising children and the effectiveness of policies to support parenthood in European countries : a literature review",
+      "id": "W1604459434",
+      "year": 2009,
+      "matched": [
+        "cost of raising"
+      ],
+      "seen_in": [
+        "co-residence-parents-household-delay-snowball-pool.json",
+        "housing-costs-snowball-pool.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Using the OECD equivalence scale in taxes and benefits analysis",
+      "id": "10.1057/elmr.2010.9",
+      "year": 2010,
+      "matched": [
+        "equivalence scale"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Declining fertility and the rising costs of children and the elderly in Japan and other selected Asian countries: An analysis based upon the NTA approach",
+      "id": "10.22459/paaf.11.2016.05",
+      "year": 2016,
+      "matched": [
+        "cost of children"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Analysing the expenditure on childbearing: a community-based cross-sectional study in rural areas of Punjab (India)",
+      "id": "10.1186/s12913-021-06075-2",
+      "year": 2021,
+      "matched": [
+        "expenditure"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Intergenerational nutrition benefits of India\u2019s national school feeding program",
+      "id": "10.1038/s41467-021-24433-w",
+      "year": 2021,
+      "matched": [
+        "school fees"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "The role of the career costs of children for the effect of public child care on fertility and maternal employment",
+      "id": "",
+      "year": 2019,
+      "matched": [
+        "cost of children"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "timecost": true
+    },
+    {
+      "title": "Value and cost of children in rural Sudan.",
+      "id": "",
+      "year": 1983,
+      "matched": [
+        "cost of children"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Specification of household expenditure functions and equivalence scales by nonparametric regression",
+      "id": "",
+      "year": 1987,
+      "matched": [
+        "equivalence scale"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "The cost of children and the use of demographic variables in consumer demand",
+      "id": "",
+      "year": "",
+      "matched": [
+        "cost of children"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-snowball.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Time use, child care, and the cost of children",
+      "id": "10.1016/j.red.2020.09.002",
+      "year": 2021,
+      "matched": [
+        "cost of children"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-snowball.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "timecost": true
+    },
+    {
+      "title": "The Costs of Children - Perceptions of Australian and Papua-New Guinean Students",
+      "id": "10.1177/0022022183141010",
+      "year": 1983,
+      "matched": [
+        "cost of children"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-snowball.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Taxing reproduction: the full transfer cost of rearing children",
+      "id": "10.1007/s10797-022-09775-3",
+      "year": 2023,
+      "matched": [
+        "cost of raising"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-snowball.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "The transfer cost of parenthood in Europe",
+      "id": "10.1007/s10797-019-09591-4",
+      "year": 2020,
+      "matched": [
+        "cost of childbearing"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-snowball.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "A Scoping Review of Skilled Birth Attendance Trends Following User Fee Removal for Maternity Services in Monrovia, Liberia",
+      "id": "10.5281/zenodo.18527793",
+      "year": 2001,
+      "matched": [
+        "school fees"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Impact of Tuition\u2010Free Education Policy on Child Marriage and Early Childbearing: Does Secondary Matter More?",
+      "id": "10.1111/padr.12538",
+      "year": 2023,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "From fees to free: User fee removal, maternal health care utilization and child health in Zambia",
+      "id": "10.1016/j.worlddev.2022.105891",
+      "year": 2022,
+      "matched": [
+        "school fees"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "From fees to free: impacts of user fee removal on child health outcomes \u2013 a systematic review",
+      "id": "10.1186/s12939-025-02730-w",
+      "year": 2025,
+      "matched": [
+        "school fees"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Efficacy of free primary education in withdrawing children from child labour in Kiambu District; Kenya",
+      "id": "W2582137583",
+      "year": 2011,
+      "matched": [
+        "school fees"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Time cost of child rearing and its effect on women's uptake of free health checkups in Japan",
+      "id": "10.1016/j.socscimed.2018.03.025",
+      "year": 2018,
+      "matched": [
+        "cost of children"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ],
+      "timecost": true
+    },
+    {
+      "title": "Free Tuition Secondary Education Policy on Girl-Child Participation",
+      "id": "W2789191293",
+      "year": 2013,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "The impact of tuition-free policies on schooling and child labour incidence in Ghana",
+      "id": "W3176386521",
+      "year": 2021,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "The effect of child labour on free primary education: a case study of Mwea division, Kirinyaga district, Kenya.",
+      "id": "W312714057",
+      "year": 2011,
+      "matched": [
+        "school fees"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "An investigation to the efficacy of free primary education in withdrawing and maintaining children from child labour in Kiambu district, Kenya",
+      "id": "W2618951628",
+      "year": 2010,
+      "matched": [
+        "school fees"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "IMPLEMENTATION OF THE CONVENTION ON THE RIGHTS OF THE CHILD: DEVELOPMENT COOPERATION BANGLADESH \u2013 NORWAY AND SUPPORT TO FULFILMENT OF THE CRC\u2019S GOAL OF FREE PRIMARY EDUCATION",
+      "id": "W1776713589",
+      "year": 2008,
+      "matched": [
+        "school fees"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "<i>\u2018Two children to make ends meet\u2019</i>: the ideal family size, parental responsibilities and costs of children on two sides of the Iron Curtain during the post-war fertility decline",
+      "id": "10.1080/1081602x.2018.1470547",
+      "year": 2018,
+      "matched": [
+        "cost of children"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Fawcett, J.T. ( 1976). The value and cost of children: Converging theory and research. In L. T. Ruzicka (Ed.), The economic and social supports for high fertility (Vol. 2, pp. 91-114). Canberra, Australia: Australian National University .",
+      "id": "",
+      "year": "",
+      "matched": [
+        "cost of children"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-miss-decomposition.json",
+        "postmaterialism-individualism-secularization-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Income inequality and educational expenditures on children: Evidence from the China Family Panel Studies",
+      "id": "10.1016/j.chieco.2023.101932",
+      "year": 2023,
+      "matched": [
+        "expenditure"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "child-centeredness-intensive-parenting-title-only-stratum.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Lino M. Expenditures on Children by Families, 2013. Washington, DC: US Department of Agriculture, Center for Nutrition Policy and Promotion; 2014. Miscellaneous Publication No. 1528-2013",
+      "id": "10.3945/an.115.008227",
+      "year": 2015,
+      "matched": [
+        "expenditure"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "child-centeredness-intensive-parenting-title-only-stratum.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Time Cost of Children as Parents' Foregone Leisure",
+      "id": "10.1080/08898480.2013.836332",
+      "year": 2015,
+      "matched": [
+        "cost of children"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-screen-tiers.json",
+        "child-centeredness-intensive-parenting-tier-b-frame.json"
+      ],
+      "timecost": true
+    },
+    {
+      "title": "Time use in child care and housework and the total cost of children",
+      "id": "10.1007/bf00517301",
+      "year": 1994,
+      "matched": [
+        "cost of children"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "child-centeredness-intensive-parenting-title-only-stratum.json"
+      ],
+      "timecost": true
+    },
+    {
+      "title": "Sibling Sex Composition and Cost of Children",
+      "id": "W2184588304",
+      "year": 2010,
+      "matched": [
+        "cost of children"
+      ],
+      "seen_in": [
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "The Monetary Cost of Raising Children",
+      "id": "10.1108/s0193-589520150000027008",
+      "year": 2015,
+      "matched": [
+        "cost of raising"
+      ],
+      "seen_in": [
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "The Career Costs of Children's Health Shocks",
+      "id": "10.2139/ssrn.3960821",
+      "year": 2021,
+      "matched": [
+        "cost of children"
+      ],
+      "seen_in": [
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "timecost": true
+    },
+    {
+      "title": "The Equivalence of Equivalence Scales",
+      "id": "10.1093/oso/9780199324323.005.0003",
+      "year": 2024,
+      "matched": [
+        "equivalence scale"
+      ],
+      "seen_in": [
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Two-Sided Matching via Balanced Exchange: Tuition and Worker Exchanges",
+      "id": "10.2139/ssrn.2180357",
+      "year": 2012,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "dating-apps-union-formation-friction-d1-ranked.json",
+        "dating-apps-union-formation-friction-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "The Cash Opportunity Costs of Childbearing: An Approach To Estimation Using British Data",
+      "id": "W2030205967",
+      "year": 1990,
+      "matched": [
+        "cost of childbearing"
+      ],
+      "seen_in": [
+        "heritability-fertility-genetic-pool-diagnostics.json",
+        "heritability-fertility-genetic-snowball-pool.json"
+      ],
+      "timecost": true
+    },
+    {
+      "title": "Free Primary Education, Timing of Fertility, and Total Fertility",
+      "id": "10.1093/wber/lhz003",
+      "year": 2019,
+      "matched": [
+        "school fees"
+      ],
+      "seen_in": [
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "The Income\u2013Fertility Relationship: Effect of the Net Price of a Child",
+      "id": "10.2307/2061527",
+      "year": 1989,
+      "matched": [
+        "price of children"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Behind the child penalty: understanding what contributes to the labour market costs of motherhood",
+      "id": "10.1007/s00148-023-00937-1",
+      "year": 2023,
+      "matched": [
+        "cost of childbearing"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ],
+      "timecost": true
+    },
+    {
+      "title": "Expenditures on Children by Families, 2008",
+      "id": "10.22004/ag.econ.327251",
+      "year": 2009,
+      "matched": [
+        "expenditure"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Costs of Children: Research Commissioned by the Ministerial Taskforce on Child Support",
+      "id": "10.2139/ssrn.1728598",
+      "year": 2007,
+      "matched": [
+        "cost of children"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "The price of children and socio-economic theories of fertility",
+      "id": "10.1080/00324728.1972.10405546",
+      "year": 1972,
+      "matched": [
+        "price of children"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "The Influence of College Tuition and Fees on Fertility Rate in Taiwan",
+      "id": "10.1007/s10834-006-9037-4",
+      "year": 2006,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Updated costs of children using Australian budget standards",
+      "id": "W64457875",
+      "year": 2007,
+      "matched": [
+        "cost of children"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "The Effects of Cost of Children on Fertility Rate: Focusing on OECD Countires",
+      "id": "10.33900/kaps.2020.29.3.4",
+      "year": 2020,
+      "matched": [
+        "cost of children"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "The Implicit Costs of Motherhood over the Lifecycle: Cross\u2010Cohort Evidence from Administrative Longitudinal Data",
+      "id": "10.1002/soej.12239",
+      "year": 2017,
+      "matched": [
+        "cost of childbearing"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ],
+      "timecost": true
+    },
+    {
+      "title": "The Cost of Child and Adolescent Injuries and the Savings from Prevention",
+      "id": "",
+      "year": 2012,
+      "matched": [
+        "cost of children"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-live-corpus.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "4 Child expenditure and public pensions: policy issues",
+      "id": "10.4324/9781315193670-20",
+      "year": 2017,
+      "matched": [
+        "expenditure"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-live-corpus.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "COMPARISON OF ALTERNATIVE TAX AND TRANSFER TREATMENT OF CHILDREN USING ADULT EQUIVALENCE SCALES",
+      "id": "10.1111/j.1475-4991.1997.tb00203.x",
+      "year": 1997,
+      "matched": [
+        "equivalence scale"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-live-corpus.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "The use of savings as a family resource management strategy to meet child rearing costs",
+      "id": "10.1007/bf00989509",
+      "year": 1989,
+      "matched": [
+        "child-rearing cost"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-live-corpus.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "<b>Chapter 2</b>The Cost of Child and Adolescent Injuries and the Savings From Prevention",
+      "id": "10.2105/9780875530055ch02",
+      "year": 2012,
+      "matched": [
+        "cost of children"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-live-corpus.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Family healthcare expenditure on children affiliated to the Medical Insurance for a New Generation",
+      "id": "10.1590/s0036-36342012000700009",
+      "year": 2012,
+      "matched": [
+        "expenditure"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-live-corpus.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Luck, Hypothetical Insurance, and the Costs of Children",
+      "id": "10.1111/japp.12549",
+      "year": 2021,
+      "matched": [
+        "cost of children"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-live-corpus.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "The Impact of Government Transfer Payments on Extracurricular Tuition Expenditure for Children in Urban China",
+      "id": "10.1353/chn.2023.0001",
+      "year": 2023,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-live-corpus.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "An Analysis of Expenditures on Children and Public Transfer Benefits of Family : Focused on Cash, Service, and Tax Benefits by Income Level",
+      "id": "",
+      "year": 2018,
+      "matched": [
+        "expenditure"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-live-corpus.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "SCHOOL FEEDING PROGRAMMES, NATIONAL FOOD POLICIES, ACTION OF PLAN AND STRATEGIES ON SCHOOL MEALS AND FOOD SECURITY AMONG SCHOOL CHILDREN IN KENYA. (REVIEW)",
+      "id": "",
+      "year": 2019,
+      "matched": [
+        "school fees"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-live-corpus.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "UNICEF Annual State of the World's Children, Annual UNDP Annual Human Development Report, Annual Financing Health Care in Sub-Saharan Africa through User Fees and Insurance, R. Paul Shaw",
+      "id": "",
+      "year": 1995,
+      "matched": [
+        "school fees"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-live-corpus.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Estimating the Indirect Cost of Children in terms of Loss of Career Advancement, Salary, and Pension Rights for Women",
+      "id": "",
+      "year": 2014,
+      "matched": [
+        "cost of children"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-live-corpus.json"
+      ],
+      "timecost": true
+    },
+    {
+      "title": "Line 324 - Tuition, education and textbook amounts transferred from a child",
+      "id": "",
+      "year": 2004,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-live-corpus.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Taxing Reproduction : The Invisible Transfer Cost of Rearing Children in Europe",
+      "id": "",
+      "year": 2023,
+      "matched": [
+        "cost of raising"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-live-corpus.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Contribution of the National School Feeding Program to the food and nutrition security situation in families with children up to six years during the Covid-19 pandemic",
+      "id": "",
+      "year": 2022,
+      "matched": [
+        "school fees"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-live-corpus.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Family healthcare expenditure on children affiliated to the Medical Insurance for a New Generation Gasto en salud de los hogares con ni\u00f1os afiliados al Seguro M\u00e9dico para una Nueva Generaci\u00f3n",
+      "id": "",
+      "year": 2012,
+      "matched": [
+        "expenditure"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-live-corpus.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "The value and cost of children: Converging theory and research",
+      "id": "",
+      "year": "",
+      "matched": [
+        "cost of children"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-tier-b-frame-repaired.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Consumption Patterns, Inflation, and Household Welfare: Demand-Based Equivalence Scales in Europe",
+      "id": "10.1007/s11205-026-03882-0",
+      "year": 2026,
+      "matched": [
+        "equivalence scale"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "TIME AND THE COST OF CHILDREN",
+      "id": "10.1111/j.1475-4991.2008.00277.x",
+      "year": 2008,
+      "matched": [
+        "cost of children"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "The incremental time costs of children: An analysis of children's impact on adult time use in Australia",
+      "id": "10.1080/13545700701880999",
+      "year": 2008,
+      "matched": [
+        "cost of children"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json"
+      ],
+      "timecost": true
+    },
+    {
+      "title": "The Time Cost of Children and Other Household Production",
+      "id": "10.1080/0032472031000142816",
+      "year": 1987,
+      "matched": [
+        "cost of children"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json"
+      ],
+      "timecost": true
+    },
+    {
+      "title": "EQUIVALENCE SCALES, WELL\u2010BEING, INEQUALITY, AND POVERTY: SENSITIVITY ESTIMATES ACROSS TEN COUNTRIES USING THE LUXEMBOURG INCOME STUDY (LIS) DATABASE",
+      "id": "10.1111/j.1475-4991.1988.tb00564.x",
+      "year": 1988,
+      "matched": [
+        "equivalence scale"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "College prospects and risky behavior among Mexican immigrant youth: The effects of in-state tuition policies on schooling and childbearing",
+      "id": "10.1016/j.econedurev.2017.03.009",
+      "year": 2017,
+      "matched": [
+        "tuition"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "The cost of raising a child: Equivalence scales in the United States",
+      "id": "10.1016/j.econlet.2025.112359",
+      "year": 2025,
+      "matched": [
+        "cost of raising",
+        "equivalence scale"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "timecost": false
+    },
+    {
+      "title": "Differential Costs of Raising Grandchildren on Older Mother-Adult Child Relations in Black and White Families",
+      "id": "10.1177/01640275241259463",
+      "year": 2024,
+      "matched": [
+        "cost of raising"
+      ],
+      "seen_in": [
+        "co-residence-parents-household-delay-snowball-pool.json"
+      ],
+      "timecost": false
+    }
+  ]
+}
