@@ -25,6 +25,16 @@ Guarded OpenAlex hazards: no commas inside filter values, no phrase beginning wi
 wildcards, and a known-positive control so a run of zeros reads as a broken probe rather than as an
 empty literature (`validate-a-null-detector-on-positives`).
 
+Coverage is checked, not assumed
+--------------------------------
+The 2026-09-02 run's generated table said "every unstarted candidate" and was measuring 24 of 38.
+Fifteen live registry entries were absent from NARROW entirely -- A.1-A.5, A.7, A.15, C.1.a, C.2.b,
+C.2.e, C.2.g, C.5.a, D.2.a, D.2.b and E.1 -- so the ranking that picked C.6.a had never been scored
+against them. They are all plausibly large literatures, but "plausibly large" is the assumption this
+script exists to replace. `check_coverage()` now parses HYPOTHESES-v5.md and refuses to run unless
+every live non-deprecated entry is either STARTED, in EXCLUDED with a stated reason, or a candidate
+in NARROW. An omission is now a crash, not a silently smaller denominator.
+
 Outputs
 -------
 literature/search-logs/candidate-frame-probe-<date>.json   every count, with the axis that produced it
@@ -34,6 +44,7 @@ Usage: python3 source/build/goldset/304_candidate_frame_probe.py [--date YYYY-MM
 """
 import argparse
 import json
+import re
 import subprocess
 import sys
 import time
@@ -45,6 +56,31 @@ LOGS = ROOT / "literature" / "search-logs"
 KEY = next((l.split("=", 1)[1].strip() for l in (ROOT / ".env").read_text().splitlines()
             if l.startswith("OPENALEX_API_KEY=")), "")
 MAILTO = "shravanh@uchicago.edu"
+
+REGISTRY = ROOT / "HYPOTHESES-v5.md"
+
+# Hypotheses with a chapter or a frozen search scope somewhere in the repository. Derived by listing
+# output/chapters/*.md and literature/search-logs/*-search-scope.md across every branch on origin,
+# then matching the filename stem against the registry slug. Update it when a chapter opens.
+STARTED = {
+    "antidepressants-ssri-subfecundity", "art-access-fertility-recovery",
+    "caldwell-wealth-flows-westernization", "child-centeredness-intensive-parenting",
+    "child-labor-laws-and-schooling", "climate-anxiety-eco-doomerism",
+    "co-residence-parents-household-delay", "credit-constraints",
+    "dating-apps-union-formation-friction", "despair-hopelessness-fertility",
+    "easterlin-relative-income", "evolutionary-sex-drive-contraceptive-decoupling",
+    "fetal-loss-intrauterine-mortality", "heritability-fertility-genetic", "housing-costs",
+    "marriage-market-economics", "microplastics-pfas-reproductive",
+    "old-age-security-pension-crowdout", "postmaterialism-individualism-secularization",
+    "sex-ratio-marriage-market", "student-debt-household-formation",
+    "tempo-effects-birth-postponement", "twinning-multiple-births",
+}
+
+# Unstarted, but deliberately not a chapter candidate. Each needs a reason that is in the registry.
+EXCLUDED = {
+    "E.1": "v5 section E: a modeling framework, and the section header says entries here "
+           "'should not receive independent GRADE ratings'. Not a chapter.",
+}
 
 # Held identical across candidates in passes 1-2 so the counts are comparable.
 OUTCOME = '("fertility" OR "childbearing" OR "birth rate" OR "total fertility rate")'
@@ -92,14 +128,40 @@ NARROW = [
   '("wealth flows" OR "intergenerational transfer" OR "intergenerational wealth")'),
  ("C.4.a","land-and-resource-constraints-malthusian",
   '("land constraints" OR "land scarcity" OR "Malthusian" OR "land availability")'),
- ("C.6.a","easterlin-relative-income",
-  '("relative income hypothesis" OR "Easterlin hypothesis" OR "relative cohort size" OR "cohort size")'),
  ("D.1.c","cultural-evolution-demographic-transition",
   '("cultural evolution" OR "cultural transmission" OR "gene-culture coevolution")'),
  ("D.1.d","nationalism-pronatalist-ideology",
   '("pronatalist" OR "pronatalism" OR "natalist policy" OR "nationalist ideology")'),
  ("D.2.c","son-preference-cultural",
   '("son preference" OR "sex selection" OR "missing women")'),
+ ("A.1",  "child-mortality-decline-replacement",
+  '("child mortality" OR "infant mortality" OR "child survival" OR "replacement effect" OR "hoarding behaviour" OR "hoarding behavior")'),
+ ("A.2",  "contraceptive-technology-diffusion",
+  '("oral contraceptive" OR "contraceptive technology" OR "intrauterine device" OR "contraceptive prevalence" OR "contraceptive diffusion" OR "modern contraception")'),
+ ("A.3",  "diffusion-of-fertility-control",
+  '("diffusion of fertility control" OR "ideational change" OR "fertility diffusion" OR "innovation diffusion" OR "spread of birth control")'),
+ ("A.4",  "induced-abortion-access",
+  '("induced abortion" OR "abortion legalization" OR "abortion legalisation" OR "abortion access" OR "abortion law")'),
+ ("A.5",  "family-planning-programs",
+  '("family planning program" OR "family planning programme" OR "family planning services" OR "unmet need for contraception" OR "contraceptive supply")'),
+ ("A.7",  "marriage-timing-age-at-marriage",
+  '("age at marriage" OR "age at first marriage" OR "marriage timing" OR "European marriage pattern" OR "Hajnal" OR "proportion never married")'),
+ ("A.15", "maternal-age-fecundity-decline",
+  '("advanced maternal age" OR "ovarian reserve" OR "age-related fertility decline" OR "fecundity decline" OR "reproductive ageing" OR "reproductive aging")'),
+ ("C.1.a","income-effect-normal-good",
+  '("income effect" OR "income elasticity" OR "normal good" OR "permanent income" OR "income shock")'),
+ ("C.2.b","child-cost-direct",
+  '("cost of children" OR "cost of raising children" OR "child rearing cost" OR "child-rearing expenditure" OR "expenditure on children")'),
+ ("C.2.e","female-wage-opportunity-cost",
+  '("opportunity cost of time" OR "female wage" OR "female labor force participation" OR "female labour force participation" OR "gender wage gap")'),
+ ("C.2.g","urbanization-residential-shift",
+  '("urbanization" OR "urbanisation" OR "rural-urban migration" OR "urban residence" OR "rural to urban")'),
+ ("C.5.a","economic-uncertainty-and-unemployment",
+  '("economic uncertainty" OR "labour market insecurity" OR "labor market insecurity" OR "job insecurity" OR "precarious employment" OR "unemployment")'),
+ ("D.2.a","female-empowerment-gender-equity",
+  '("gender equity" OR "gender equality" OR "female empowerment" OR "gender revolution" OR "female autonomy")'),
+ ("D.2.b","marriage-family-norms",
+  '("marriage norms" OR "family norms" OR "cohabitation" OR "nonmarital childbearing" OR "deinstitutionalization of marriage")'),
  ("D.3.a","mental-health-anxiety-epidemic",
   '("mental health" OR "anxiety disorder" OR "depression" OR "psychological distress")'),
 ]
@@ -118,6 +180,12 @@ WIDE = [
  ("C.6.a",'("Easterlin" OR "relative income" OR "cohort size" OR "cohort crowding" OR "baby boom")'),
  ("D.1.c",'("cultural evolution" OR "cultural transmission" OR "gene-culture" OR "evolutionary demography" OR "natural selection" OR "reproductive success" OR "fitness")'),
  ("D.1.d",'("pronatalist" OR "pronatalism" OR "natalism" OR "nationalism" OR "population policy" OR "demographic anxiety" OR "great replacement")'),
+ ("A.3",  '("diffusion" OR "ideational change" OR "social learning" OR "cultural transmission" OR "social contagion" OR "spatial diffusion" OR "family limitation")'),
+ ("C.1.a",'("household income" OR "family income" OR "income effect" OR "income elasticity" OR "permanent income" OR "income shock" OR "windfall" OR "lottery winnings")'),
+ ("C.2.b",'("cost of children" OR "child cost" OR "child expenditure" OR "expenditure on children" OR "cost of raising" OR "equivalence scale" OR "child budget share")'),
+ ("C.2.f",'("income inequality" OR "status competition" OR "positional good" OR "relative status" OR "social comparison" OR "educational arms race")'),
+ ("C.3.a",'("mode of production" OR "agricultural household" OR "peasant household" OR "farm household" OR "subsistence agriculture" OR "land tenure" OR "agrarian society")'),
+ ("C.3.d",'("quantity-quality" OR "quantity quality" OR "child quality" OR "child investment" OR "sibsize" OR "human capital of children")'),
 ]
 
 # --------------------------------- pass 3: each sub-literature of the finalists, queried on its own
@@ -131,6 +199,15 @@ SUBLIT = [
  ("C.3.f", "NTA / lifecycle deficit", '("National Transfer Accounts" OR "lifecycle deficit" OR "life cycle deficit" OR "generational accounts")'),
  ("C.3.f", "child economic contribution", '("child labour contribution" OR "child labor contribution" OR "children economic value" OR "value of children" OR "cost of children")'),
  ("C.3.f", "upward support", '("old age support" OR "old-age support" OR "filial support" OR "remittances to parents" OR "parental support in old age")'),
+ ("C.2.b", "core cost phrases", '("cost of children" OR "cost of raising children" OR "child rearing cost")'),
+ ("C.2.b", "expenditure framing", '("expenditure on children" OR "child-rearing expenditure" OR "child expenditure" OR "child budget share")'),
+ ("C.2.b", "equivalence scales", '("equivalence scale")'),
+ ("C.2.b", "price framing (third vocabulary)", '("price of children" OR "child price" OR "relative price of children" OR "cost of childbearing" OR "affordability of children")'),
+ ("C.2.f", "core (pass 1)", '("income inequality" OR "status competition" OR "positional competition" OR "relative status")'),
+ ("C.2.f", "social comparison framing", '("social comparison" OR "educational arms race" OR "positional good")'),
+ ("A.3", "core (pass 1)", '("diffusion of fertility control" OR "fertility diffusion" OR "spread of birth control")'),
+ ("A.3", "ideational / social learning", '("ideational change" OR "social learning" OR "cultural transmission" OR "social contagion")'),
+ ("A.3", "family limitation", '("family limitation" OR "spatial diffusion" OR "innovation diffusion")'),
 ]
 
 # ------------------------------------------------------ pass 4: the union frame that does the ranking
@@ -139,6 +216,12 @@ UNION = [
  ("A.19",  '("intergenerational transmission of fertility" OR "intergenerational fertility correlation" OR "fertility transmission" OR "second-generation immigrants" OR "immigrant fertility" OR "epidemiological approach" OR "sibship size" OR "parental family size" OR "family size of origin" OR "number of siblings" OR "ideal family size" OR "fertility preferences")'),
  ("C.3.f", '("wealth flows" OR "intergenerational transfer" OR "intergenerational wealth" OR "National Transfer Accounts" OR "lifecycle deficit" OR "life cycle deficit" OR "child labour contribution" OR "child labor contribution" OR "value of children" OR "old age support" OR "old-age support" OR "filial support")'),
  ("C.6.a", '("Easterlin" OR "relative income" OR "cohort size" OR "cohort crowding" OR "relative cohort")'),
+ ("A.3",   '("diffusion of fertility control" OR "ideational change" OR "fertility diffusion" OR "innovation diffusion" OR "spread of birth control" OR "social learning" OR "cultural transmission" OR "social contagion" OR "spatial diffusion" OR "family limitation")'),
+ ("C.1.a", '("income effect" OR "income elasticity" OR "normal good" OR "permanent income" OR "income shock" OR "household income" OR "family income" OR "windfall" OR "lottery winnings")'),
+ ("C.2.b", '("cost of children" OR "cost of raising children" OR "child rearing cost" OR "child-rearing expenditure" OR "expenditure on children" OR "child cost" OR "child expenditure" OR "cost of raising" OR "equivalence scale" OR "child budget share" OR "price of children" OR "child price" OR "relative price of children" OR "cost of childbearing" OR "affordability of children")'),
+ ("C.2.f", '("income inequality" OR "status competition" OR "positional competition" OR "positional good" OR "relative status" OR "social comparison" OR "educational arms race")'),
+ ("C.3.a", '("mode of production" OR "agricultural household" OR "peasant household" OR "farm household" OR "subsistence agriculture" OR "land tenure" OR "agrarian society")'),
+ ("C.3.d", '("quantity-quality" OR "quantity quality tradeoff" OR "child quality" OR "child investment" OR "sibsize" OR "human capital of children")'),
 ]
 
 # ---------------------------------------------------- homonym: shared vocabulary, unrelated literature
@@ -147,10 +230,59 @@ HOMONYM = [
  ("C.6.a", "Easterlin paradox INTERSECT fertility", '"Easterlin paradox"', OUTCOME_WIDE),
  ("C.6.a", "relative income INTERSECT well-being", '("relative income") AND ("happiness" OR "life satisfaction" OR "subjective well-being")', None),
  ("C.6.a", "relative income INTERSECT fertility", '("relative income")', OUTCOME_WIDE),
+ ("C.2.b", "cost of children, unrestricted", '"cost of children"', None),
+ ("C.2.b", "cost of children INTERSECT paediatric illness", '"cost of children"',
+  '("disease" OR "hospital" OR "treatment" OR "patients" OR "illness")'),
+ ("C.2.b", "cost of children INTERSECT fertility", '"cost of children"', OUTCOME_WIDE),
+ ("C.2.b", "boundary: C.2.a childcare vocabulary", '("cost of children" OR "child cost") AND ("childcare" OR "child care" OR "daycare")', OUTCOME_WIDE),
+ ("C.2.b", "illness residue INSIDE the fertility-restricted frame",
+  '("cost of children") AND ("disease" OR "hospital" OR "treatment" OR "patients" OR "illness")', OUTCOME_WIDE),
+ ("C.2.b", "boundary: C.2.c housing vocabulary (a started chapter)",
+  '("cost of children" OR "child cost" OR "cost of raising children") AND ("housing" OR "house price" OR "rent")', OUTCOME_WIDE),
 ]
 
 # A hypothesis with a chapter already written. A run where this returns 0 is a broken probe.
 CONTROL = ('C.3.e (chapter written)', '("credit constraint" OR "liquidity constraint")', OUTCOME)
+
+
+def registry_entries():
+    """(code, slug, deprecated) for every ### / #### entry in HYPOTHESES-v5.md that declares a slug."""
+    out, cur = [], None
+    for ln in REGISTRY.read_text().splitlines():
+        m = re.match(r"^#{3,4}\s+([A-E]\.\d+(?:\.[a-z])?)\.\s+(.*)$", ln)
+        if m:
+            cur = {"code": m.group(1), "slug": None, "dep": "DEPRECATED" in m.group(2)}
+            out.append(cur)
+        m2 = re.match(r"^- \*\*slug:\*\*\s*`([^`]+)`", ln)
+        if m2 and cur is not None:
+            cur["slug"] = m2.group(1)
+    return [e for e in out if e["slug"] and not e["dep"]]
+
+
+def check_coverage():
+    """Every live registry entry must be STARTED, EXCLUDED, or a NARROW candidate.
+
+    The failure this guards against is not a wrong number; it is a smaller denominator reported as
+    the whole set. It also refuses a candidate that has since been started, so a re-run after a
+    chapter opens cannot rank a hypothesis already under way.
+    """
+    live = registry_entries()
+    cand = {c: slug for c, slug, _ in NARROW}
+    missing = [e for e in live
+               if e["slug"] not in STARTED and e["code"] not in EXCLUDED and e["code"] not in cand]
+    stale = [e for e in live if e["code"] in cand and e["slug"] in STARTED]
+    if missing or stale:
+        for e in missing:
+            print(f"  UNMEASURED  {e['code']:7} {e['slug']}", file=sys.stderr)
+        for e in stale:
+            print(f"  STARTED but still a candidate  {e['code']:7} {e['slug']}", file=sys.stderr)
+        sys.exit("candidate list does not cover the registry: add an axis to NARROW, a reason to "
+                 "EXCLUDED, or the slug to STARTED. Ranking a subset and calling it 'every "
+                 "unstarted candidate' is the defect this check exists to stop.")
+    n_started = len(STARTED & {e["slug"] for e in live})
+    print(f"COVERAGE: {len(live)} live registry entries = {n_started} started + {len(EXCLUDED)} "
+          f"excluded + {len(cand)} candidates measured below.")
+    return live
 
 
 def count(axis, outcome=None):
@@ -192,7 +324,11 @@ def main():
         sys.exit("no OPENALEX_API_KEY in .env — an unauthenticated run is budget-limited and its "
                  "zeros are not evidence")
 
-    print("CONTROL (a hypothesis known to have a literature):")
+    live = check_coverage()
+    started_codes = {e["code"] for e in live if e["slug"] in STARTED}
+    keep = lambda rows: [r for r in rows if r[0] not in started_codes]
+
+    print("\nCONTROL (a hypothesis known to have a literature):")
     ctrl, ctrl_err = count(CONTROL[1], CONTROL[2])
     print(f"  {CONTROL[0]:52} {ctrl!s:>8}  {ctrl_err or ''}")
     if not ctrl:
@@ -202,14 +338,14 @@ def main():
     print("\nPASS 1 — narrow axis, every unstarted candidate:")
     p1 = run(NARROW, OUTCOME)
     print("\nPASS 2 — second vocabulary, the small end of pass 1:")
-    p2 = run(WIDE, OUTCOME)
+    p2 = run(keep(WIDE), OUTCOME)
     print("\nPASS 3 — sub-literatures of the finalists, each alone:")
-    p3 = run(SUBLIT, OUTCOME_WIDE)
+    p3 = run(keep(SUBLIT), OUTCOME_WIDE)
     print("\nPASS 4 — deduplicated union frame, the finalists:")
-    p4 = run(UNION, OUTCOME_WIDE)
+    p4 = run(keep(UNION), OUTCOME_WIDE)
     print("\nHOMONYM — shared vocabulary against an unrelated literature:")
     hm = []
-    for code, label, axis, outcome in HOMONYM:
+    for code, label, axis, outcome in keep(HOMONYM):
         n, err = count(axis, outcome)
         hm.append({"row": [code, label], "axis": axis, "outcome": outcome, "n": n, "err": err})
         print(f"  {code} / {label:46} {n!s:>8}  {err or ''}")
