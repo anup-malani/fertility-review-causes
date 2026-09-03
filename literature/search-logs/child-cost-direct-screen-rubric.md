@@ -52,6 +52,7 @@ may be `SCHOOL_COST_FERTILITY`.
 | `MIXED_PRICE_VALUE` | fees inseparable from forgone child labour (scope §6) | jointly claimed, unallocated |
 | `MIXED_PRICE_TRANSFER` | gross price and a transfer move together (Wall 5) | jointly claimed, unallocated |
 | `PERCEIVED_COST` | stated cost as a barrier → intentions or desires | **separate outcome level; never pooled with realized** |
+| `PRICE_ASSOCIATION` | a **price** of children (constructed index, net price, cross-national cost level) regressed on fertility with **no exogenous variation** | context; not primary |
 | `EXPENDITURE_ASSOCIATION` | expenditure per child vs fertility, no price variation | context; the §2 identity |
 | `COST_SERIES_MEASUREMENT` | equivalence scales, cost-of-a-child accounting, price-index construction | exposure measurement, not an effect |
 | `QQ_BOUNDARY` | the price of child *quality* or investment is what moves | Wall 1 packet |
@@ -130,3 +131,23 @@ C.2.b's vocabulary and belongs to C.2.e.
 - **Spot-check 5–10% by a second reader**, stratified on the flags that matter — `channel`,
   `exposure_direction`, and the no-abstract flag — not on a uniform random draw
   (`safeguards-must-be-measured-not-trusted`).
+
+---
+
+## 7. Amendment — 2026-09-03, `PRICE_ASSOCIATION` added mid-screen
+
+Batch `rest-00` produced a class the rubric had no cell for: a study using a **price** of children —
+Ermisch's net price of a child, cross-national child-cost levels, Japan's aggregate cost-of-children
+index — regressed on fertility with **no exogenous variation** in it.
+
+§1 step 2 routes on price-vs-expenditure, so these clear it. But `PRICE_SHOCK_FERTILITY` requires an
+exogenous move, which they do not have, and `EXPENDITURE_ASSOCIATION` is specifically the §2 budget
+identity, which they are not: a constructed price index is not the same object as observed spending
+per child, and collapsing them would hide the distinction the chapter turns on.
+
+They are added as `PRICE_ASSOCIATION` rather than forced into `OFF_OTHER`
+(`add-a-cell-when-the-rubric-lacks-one`; C.6.a's `BOOM_ALTERNATIVE` was added the same way). It is
+**context, never primary**: the exposure is right and the identification is absent, so these records
+speak to whether the mechanism's vocabulary is used, not to whether the mechanism works.
+
+**Completed batches were re-checked as code against the new cell**, not left as they were.
