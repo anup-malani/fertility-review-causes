@@ -1,0 +1,19 @@
+{
+ "elasticity": -0.2,
+ "elasticity_source": "Ebenstein, Hazan & Simhon (2015), Israeli kibbutz privatisation: ~0% -> ~100% parental cost share, lifetime fertility -0.59 children = ~20% of the 3-child mean. Arc elasticity ~ -0.2, used as an UPPER bound.",
+ "observed_pct": -36.395621579358874,
+ "endpoint_share_pct": {
+  "arm_long_run_1967_equal": 5.9260786397449525,
+  "arm_with_education_equal": 195.51999999999992,
+  "arm_with_education_usda": 324.2830769230768,
+  "arm_education_only_equal": 505.25538461538434,
+  "arm_without_education_equal": -5.981239269856934
+ },
+ "timing_share_pct": {
+  "arm_long_run_1967_equal": 12.872183686772926,
+  "arm_with_education_equal": 190.10934979831663,
+  "arm_with_education_usda": 270.9148568359872,
+  "arm_education_only_equal": 364.5254485813289,
+  "arm_without_education_equal": -2.2383047843781134
+ }
+}
