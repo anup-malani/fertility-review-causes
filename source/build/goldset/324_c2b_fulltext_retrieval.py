@@ -53,6 +53,9 @@ KEY = next((l.split("=", 1)[1].strip() for l in (ROOT / ".env").read_text().spli
 MAILTO = "shravanh@uchicago.edu"
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) "
       "Chrome/126.0 Safari/537.36")
+# One definition of "we have the full text", shared by 324/325/326. Three scripts each
+# carrying their own status tuple is how `hand_retrieved` silently read as outstanding.
+GOT = {"fetched", "already_on_disk", "hand_retrieved"}
 PRIMARY_CELLS = {"PRICE_SHOCK_FERTILITY", "SCHOOL_COST_FERTILITY",
                  "CHILD_HEALTH_COST_FERTILITY", "BIRTH_EVENT_COST"}
 CONTEXT_CELLS = {"PRICE_ASSOCIATION", "EXPENDITURE_ASSOCIATION", "MIXED_PRICE_VALUE"}
@@ -329,7 +332,7 @@ def main():
         if r.get("rung"):
             counters[r["rung"]]["fetched"] += 1
 
-    n_ok = sum(1 for r in out if r["status"] in ("fetched", "already_on_disk"))
+    n_ok = sum(1 for r in out if r["status"] in GOT)
     # Studies, not records. Three retrieved records of one Ghana RCT is one study retrieved.
     def fold(t):
         return re.sub(r"[^a-z0-9]+", " ", (t or "").lower()).strip()[:60]
@@ -337,7 +340,7 @@ def main():
     for r in out:
         studies[fold(r["title"])].append(r)
     covered = {k for k, v in studies.items()
-               if any(x["status"] in ("fetched", "already_on_disk") for x in v)}
+               if any(x["status"] in GOT for x in v)}
     for r in out:
         if r["status"] == "failed" and fold(r["title"]) in covered:
             r["status"] = "covered_by_twin"
@@ -374,7 +377,7 @@ def main():
     L += ["", "## By tier", "", "| tier | n | retrieved | failed |", "|---|---|---|---|"]
     for t in sorted(by_tier):
         c = by_tier[t]
-        got = c["fetched"] + c["already_on_disk"]
+        got = sum(c[k] for k in GOT)
         L.append(f"| {t} | {sum(c.values())} | **{got}** | {c['failed']} |")
     hand = Counter(r["handoff"] for r in out if r["status"] == "failed")
     L += ["", "## Handoff — classified by what a human must DO", "",

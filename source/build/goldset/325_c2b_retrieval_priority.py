@@ -32,7 +32,7 @@ ROOT = Path(__file__).resolve().parents[3]
 LOGS = ROOT / "literature" / "search-logs"
 PRIMARY_CELLS = {"PRICE_SHOCK_FERTILITY", "SCHOOL_COST_FERTILITY",
                  "CHILD_HEALTH_COST_FERTILITY", "BIRTH_EVENT_COST"}
-GOT = {"fetched", "already_on_disk", "covered_by_twin"}
+GOT = {"fetched", "already_on_disk", "covered_by_twin", "hand_retrieved"}
 
 
 def fold(t):
