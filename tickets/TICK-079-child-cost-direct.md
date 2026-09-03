@@ -12,13 +12,13 @@
 - [x] 3. Literature search and AI screening, both phases (§5.1)
 - [ ] 4. RA title/abstract review
 - [x] 5. Full-text retrieval
-- [~] 6. Full-text screen, RA spot-checks 5–10%
+- [x] 6. Full-text screen, RA spot-checks 5–10%
 - [~] 7. Extraction to `extraction/child-cost-direct.csv`, RA verifies a random 10%
 - [~] 8. Risk-of-bias assessment per study
 - [x] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise
 - [x] 10. Demographic significance against PM / FDT / SDT
 - [ ] 11. GRADE rating, 3 independent raters
-- [ ] 12. Chapter draft on the §6 template
+- [x] 12. Chapter draft on the §6 template
 - [ ] 13. RA lay-readability check
 - [ ] 14. PI review and sign-off
 
@@ -512,4 +512,37 @@ decade in which the price moved the wrong way.
 Next: chapter draft (stage 12) on the §6 template. The synthesis has to carry three things — a thin
 but correctly-signed micro literature (2 clean studies), a macro exposure that contradicts it in two
 incompatible directions, and an SDT arm resting on a single MODERATE study.
+
+### 2026-09-03 — CHAPTER DRAFTED
+
+`output/chapters/child-cost-direct.md`, ~5,000 words, template-conformant: S1–S7 in place, sections in
+§1.2 order, S4 before any arithmetic, margin named (intensive), naive estimator and its bias direction
+stated, attrition ledger run, no banded share above 100%, No evidence rather than VERY LOW on the
+empty cell.
+
+**Verdict: SDT MINOR · FDT NOT ASSESSED · PM NOT ASSESSED. GRADE VERY LOW / VERY LOW / No evidence.**
+Carry-away number: **13%**.
+
+- **SDT MINOR.** On the only price series covering the whole window, the real price of child-specific
+  goods rose **+10.9%** against a **−36.8%** fall in fertility; at an upper-bound elasticity of −0.2
+  that is **13%** of the decline.
+- **FDT NOT ASSESSED** — a *data* absence, not an empty cell: no price series exists for 1870–1965.
+  And the sign runs the wrong way for the hypothesis as a cause of the FDT: Winegarden & Murray find
+  cheaper children **retarding** the decline, so the mechanism is a brake, not an engine.
+- **PM NOT ASSESSED** — out of registry scope.
+
+**The attrition ledger is new work and it matters.** For a price mechanism the ledger runs from the
+price *counted* to the price *faced*: three of its four entries say the index **overstates** the price
+of a required child-specific good, which is a bias toward the hypothesis and one of the two candidate
+explanations for §8.3's post-1978 over-prediction.
+
+**Written over three recorded objections**, all in the provenance block: the routing of Keats, Wakano
+& Yamada and Duflo–Dupas–Kremer out of the primary cell is a judgement about what their designs
+identify, made against two of the three papers' own framing; and Wanamaker's re-celling is
+contestable.
+
+**Stage 11 is one rater of three.** Stage 13 (RA lay-readability) and 14 (PI sign-off) are open.
+
+Next: the six outstanding tier-1 studies, two of which are proxy jobs, then re-check the MINOR band —
+which the provenance block names as the finding most likely not to survive full retrieval.
 
