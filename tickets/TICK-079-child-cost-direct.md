@@ -271,3 +271,41 @@ an empty literature)"; the file said nothing of the kind, and the file is what s
 collects every refusal and exits without writing anything.
 
 Next: re-run 320 after the budget reset, then the screen universe (321).
+
+### 2026-09-03 — screen stage: blocked on the OpenAlex budget, everything else built
+
+**Blocked.** OpenAlex's daily budget for this client is spent — `dailyRemainingUsd` 0, resets
+**2026-09-04T00:00:00Z**. The universe cannot be pulled until then.
+
+**A correction I got wrong first.** The keyed path reported `dailyRemainingUsd` 0.0004 while keyless
+requests still succeeded, which read as "the `api_key` is the metered path and the keyless polite
+pool is free". It is not — 89 keyless requests later the keyless path also reported 0. Same wallet.
+What keyless *does* have is an additional limit the keyed path lacks: **queries with more than 5
+boolean operators are throttled to 1 request per second per client**. Both failures are worded
+`Rate limit exceeded`, so the message body has to be read to tell an exhausted budget (retry
+tomorrow) from a throttle (retry in a second). Re-running 320 to test the fallback is what consumed
+the remaining allowance. Recorded as `openalex-two-limits-one-error`.
+
+**Built and committed, so the run at reset is a single pass:**
+
+- **`source/lib/openalex.py`** — shared client: pool fallback, boolean-throttle pacing,
+  refusal-vs-zero, and a **cache written per measurement**. At roughly 100 requests a day, an
+  interrupted run that keeps nothing wastes the whole allowance and two stages cannot run on the same
+  day. It exists as a library because that machinery was about to sit in two scripts and `main`
+  already carries twelve divergent copies of the anchor resolver.
+- **321, the screen-universe builder** — does four things a plain pull does not: counts per arm
+  **before** deduplication, so a redundant arm reads as redundant and not as empty; **injects** the 32
+  anchors and 130 free seeds and reports how many were already present, which is a recall check on
+  the query set; **withholds** the gold flags into a separate file so the screen can measure its own
+  sensitivity; and reconstructs abstracts, flagging records that have none as a separate screening
+  problem rather than an ordinary row. It refuses to write a partial universe if any arm fails to
+  page.
+- **The screen rubric, frozen before any record is read** —
+  `literature/search-logs/child-cost-direct-screen-rubric.md`. One admissibility question (a price
+  faced, not an expenditure observed), the routing order, 13 cells, 8 required tags, the §16.2
+  `channel` gate on school-fee records, and the Wall 4 test for telling money spent on a child from
+  earnings a parent forgoes.
+
+**Order at reset: run 320 first** (it emits the query artefacts 321 reads), **then 321.** 320's
+calibration is ~104 requests and may not fit alongside 321 in one day's budget; the cache makes any
+repeat free.
