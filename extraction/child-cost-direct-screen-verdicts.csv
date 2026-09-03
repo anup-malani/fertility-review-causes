@@ -1,0 +1,151 @@
+screen_id,verdict,cell,note,screener,date
+C2B0000,INCLUDE_CONTEXT,THEORY,"Becker 1960; foundational price-of-children theory, no estimate",claude-opus-5,2026-09-03
+C2B0001,INCLUDE_CONTEXT,THEORY,Willis 1973 theory,claude-opus-5,2026-09-03
+C2B0002,INCLUDE_CONTEXT,THEORY,Caldwell 1976; the FDT arm's seminal statement,claude-opus-5,2026-09-03
+C2B0003,EXCLUDE,OFF_OTHER,labour-economics textbook,claude-opus-5,2026-09-03
+C2B0004,EXCLUDE,OFF_OTHER,"Medicaid eligibility; outcome is infant mortality and birth weight, not fertility",claude-opus-5,2026-09-03
+C2B0005,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,Browning JEL survey of child costs; outcome is expenditure,claude-opus-5,2026-09-03
+C2B0006,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"Kornrich; parental spending trend, no price variation",claude-opus-5,2026-09-03
+C2B0007,BOUNDARY,QQ_BOUNDARY,Angrist QQ; Wall 1 packet,claude-opus-5,2026-09-03
+C2B0008,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"Deaton-Muellbauer; equivalence-scale canon, a source for the SS5 index",claude-opus-5,2026-09-03
+C2B0009,EXCLUDE,OFF_OTHER,"Uganda UPE; outcome is enrolment, not fertility",claude-opus-5,2026-09-03
+C2B0010,BOUNDARY,QQ_BOUNDARY,Becker-Lewis QQ theory; Wall 1,claude-opus-5,2026-09-03
+C2B0011,BOUNDARY,TIMECOST_BOUNDARY,"Adda; career cost, C.2.e's estimand in C.2.b's vocabulary",claude-opus-5,2026-09-03
+C2B0012,ROUTED_OTHER,OFF_OTHER,childcare price and labour supply; C.2.a,claude-opus-5,2026-09-03
+C2B0013,EXCLUDE,OFF_OTHER,family-planning economics; A.5,claude-opus-5,2026-09-03
+C2B0014,EXCLUDE,OFF_OTHER,World Bank statistical annual,claude-opus-5,2026-09-03
+C2B0015,BOUNDARY,SCHOOL_COST_FERTILITY,"Osili; school BUILDING supply not price, channel MATERNAL_SCHOOLING -> routes out at full text",claude-opus-5,2026-09-03
+C2B0016,EXCLUDE,OFF_OTHER,parental health literacy,claude-opus-5,2026-09-03
+C2B0017,INCLUDE_CONTEXT,THEORY,Doepke-Kindermann; bargaining model,claude-opus-5,2026-09-03
+C2B0018,ROUTED_OTHER,MIXED_PRICE_TRANSFER,Dutch child benefit labelling; C.2.d,claude-opus-5,2026-09-03
+C2B0019,EXCLUDE,OFF_OTHER,teen pregnancy review,claude-opus-5,2026-09-03
+C2B0020,EXCLUDE,OFF_OTHER,World Bank education strategy,claude-opus-5,2026-09-03
+C2B0021,ROUTED_OTHER,MIXED_PRICE_TRANSFER,"family-policy expenditure; C.2.d and C.2.a, explicitly opportunity cost",claude-opus-5,2026-09-03
+C2B0022,INCLUDE_PRIMARY,SCHOOL_COST_FERTILITY,"Uganda FPE with a fertility outcome; channel BOTH_UNSEPARATED, women's schooling named in title",claude-opus-5,2026-09-03
+C2B0023,INCLUDE_CONTEXT,THEORY,Hotz handbook chapter,claude-opus-5,2026-09-03
+C2B0024,EXCLUDE,OFF_OTHER,women's employment cohorts,claude-opus-5,2026-09-03
+C2B0025,EXCLUDE,OFF_OTHER,impact-evaluation handbook,claude-opus-5,2026-09-03
+C2B0026,INCLUDE_CONTEXT,THEORY,"1975 QJE; utility cost of children and status goods, adjacent to C.2.f",claude-opus-5,2026-09-03
+C2B0027,EXCLUDE,OFF_OTHER,small ruminant production,claude-opus-5,2026-09-03
+C2B0028,ROUTED_OTHER,TIMECOST_BOUNDARY,work-family policy and mothers' hours/wages; C.2.e,claude-opus-5,2026-09-03
+C2B0029,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,family equivalence scales,claude-opus-5,2026-09-03
+C2B0212,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,1949 expenditure survey; the identity in its purest form,claude-opus-5,2026-09-03
+C2B0213,EXCLUDE,OFF_OTHER,dental caries cost-effectiveness; the measured cost-of-illness homonym,claude-opus-5,2026-09-03
+C2B0214,ROUTED_OTHER,OFF_OTHER,free contraceptive method mix; A.5/A.2,claude-opus-5,2026-09-03
+C2B0215,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"subjective child cost; outcome is making ends meet, not fertility",claude-opus-5,2026-09-03
+C2B0216,EXCLUDE,OFF_OTHER,cervical cancer screening,claude-opus-5,2026-09-03
+C2B0217,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"Japan equivalence scale, motivated by C.2.b's claim but measures cost only",claude-opus-5,2026-09-03
+C2B0218,EXCLUDE,OFF_OTHER,edited seminar volume,claude-opus-5,2026-09-03
+C2B0219,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,cost of children WITH endogenous fertility; directly on the SS2 identity,claude-opus-5,2026-09-03
+C2B0220,ROUTED_OTHER,OFF_OTHER,ECEC policy Taiwan; C.2.a,claude-opus-5,2026-09-03
+C2B0221,ROUTED_OTHER,OFF_OTHER,childcare leave and fertility Japan; C.2.a/C.2.d,claude-opus-5,2026-09-03
+C2B0222,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,household decisions and equivalence scales,claude-opus-5,2026-09-03
+C2B0223,INSUFFICIENT_INFO,,no abstract; growth book chapter,claude-opus-5,2026-09-03
+C2B0224,EXCLUDE,OFF_OTHER,happiness in Israel,claude-opus-5,2026-09-03
+C2B0225,INSUFFICIENT_INFO,,no abstract; Victorian population policy,claude-opus-5,2026-09-03
+C2B0226,EXCLUDE,OFF_OTHER,cohort data resource profile,claude-opus-5,2026-09-03
+C2B0227,INSUFFICIENT_INFO,,no abstract; low-fertility norms chapter,claude-opus-5,2026-09-03
+C2B0228,EXCLUDE,OFF_OTHER,Nigeria primary schools and social capital,claude-opus-5,2026-09-03
+C2B0229,EXCLUDE,OFF_OTHER,out-of-school children Nigeria,claude-opus-5,2026-09-03
+C2B0230,BOUNDARY,TIMECOST_BOUNDARY,"time cost of a child, Italy",claude-opus-5,2026-09-03
+C2B0231,INSUFFICIENT_INFO,,no abstract,claude-opus-5,2026-09-03
+C2B0232,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"equivalence scale, family spending power",claude-opus-5,2026-09-03
+C2B0233,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"adult equivalence scales, Vietnam child poverty",claude-opus-5,2026-09-03
+C2B0234,EXCLUDE,OFF_OTHER,children and life satisfaction,claude-opus-5,2026-09-03
+C2B0235,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"cost of children, urban US",claude-opus-5,2026-09-03
+C2B0236,EXCLUDE,OFF_OTHER,QTL fine mapping,claude-opus-5,2026-09-03
+C2B0237,EXCLUDE,COST_SERIES_MEASUREMENT,children's medical expenditure by life-cycle stage; outcome is expenditure,claude-opus-5,2026-09-03
+C2B0238,INSUFFICIENT_INFO,,"no abstract; hospital user fees Jamaica, possible BIRTH_EVENT_COST",claude-opus-5,2026-09-03
+C2B0239,EXCLUDE,OFF_OTHER,Hebrew in Palestine,claude-opus-5,2026-09-03
+C2B0240,ROUTED_OTHER,OFF_OTHER,"childcare cost reform and demand for children; C.2.a, cleanly",claude-opus-5,2026-09-03
+C2B0241,INCLUDE_PRIMARY,PRICE_SHOCK_FERTILITY,"college tuition and fees vs fertility, Taiwan; SS7 row 8 anticipated cost. No abstract, design unknown",claude-opus-5,2026-09-03
+C2B0424,EXCLUDE,OFF_OTHER,reproductive health bill news,claude-opus-5,2026-09-03
+C2B0425,EXCLUDE,OFF_OTHER,"Guyana fertility trend, no cost exposure",claude-opus-5,2026-09-03
+C2B0426,ROUTED_OTHER,TIMECOST_BOUNDARY,trade and fertility via time cost of children; C.2.e,claude-opus-5,2026-09-03
+C2B0427,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"intertemporal equivalence scale, lifetime child cost",claude-opus-5,2026-09-03
+C2B0428,EXCLUDE,OFF_OTHER,girls' lives Malawi,claude-opus-5,2026-09-03
+C2B0429,EXCLUDE,OFF_OTHER,"isoelastic equivalence scales for inequality, not child cost",claude-opus-5,2026-09-03
+C2B0430,EXCLUDE,OFF_OTHER,paediatric long-term ventilation,claude-opus-5,2026-09-03
+C2B0431,INCLUDE_CONTEXT,EXPENDITURE_ASSOCIATION,"family size and cost of children, Delta State; narrative association",claude-opus-5,2026-09-03
+C2B0432,EXCLUDE,OFF_OTHER,Rwanda human capital thesis,claude-opus-5,2026-09-03
+C2B0433,EXCLUDE,OFF_OTHER,recession and child public insurance enrolment,claude-opus-5,2026-09-03
+C2B0434,EXCLUDE,OFF_OTHER,Malawi MDG projections,claude-opus-5,2026-09-03
+C2B0435,INCLUDE_CONTEXT,MIXED_PRICE_VALUE,"tests Caldwell's mechanisms incl. increased cost of children; FDT arm, fees inseparable from child work",claude-opus-5,2026-09-03
+C2B0436,EXCLUDE,OFF_OTHER,audiology outreach,claude-opus-5,2026-09-03
+C2B0437,EXCLUDE,OFF_OTHER,essay,claude-opus-5,2026-09-03
+C2B0438,EXCLUDE,BIRTH_EVENT_COST,"maternity user-fee removal; outcome is service utilisation, not fertility",claude-opus-5,2026-09-03
+C2B0439,EXCLUDE,OFF_OTHER,wastewater reuse,claude-opus-5,2026-09-03
+C2B0440,INSUFFICIENT_INFO,,three essays on health policy; one may touch child insurance,claude-opus-5,2026-09-03
+C2B0441,EXCLUDE,OFF_OTHER,learning assessment Uganda,claude-opus-5,2026-09-03
+C2B0442,EXCLUDE,OFF_OTHER,poverty duration measurement,claude-opus-5,2026-09-03
+C2B0443,EXCLUDE,OFF_OTHER,biography,claude-opus-5,2026-09-03
+C2B0444,EXCLUDE,OFF_OTHER,cost of higher education Bangladesh; no fertility outcome,claude-opus-5,2026-09-03
+C2B0445,EXCLUDE,OFF_OTHER,cancer journal editorial,claude-opus-5,2026-09-03
+C2B0446,EXCLUDE,OFF_OTHER,AIDS and children,claude-opus-5,2026-09-03
+C2B0447,BOUNDARY,TIMECOST_BOUNDARY,economies of scale in domestic work time,claude-opus-5,2026-09-03
+C2B0448,EXCLUDE,OFF_OTHER,school dropout Kenya,claude-opus-5,2026-09-03
+C2B0449,INCLUDE_CONTEXT,PERCEIVED_COST,"Value of Children study, Malaysia; perceived value and cost",claude-opus-5,2026-09-03
+C2B0450,ROUTED_OTHER,SCHOOL_COST_FERTILITY,schooling and teenage childbirth Uganda; channel MATERNAL_SCHOOLING,claude-opus-5,2026-09-03
+C2B0451,EXCLUDE,OFF_OTHER,ADHD rehabilitation expenditure,claude-opus-5,2026-09-03
+C2B0452,EXCLUDE,OFF_OTHER,secondary education financing Cameroon; no fertility outcome,claude-opus-5,2026-09-03
+C2B0453,INCLUDE_CONTEXT,THEORY,"Japan tuition cost-sharing review essay, links to low fertility",claude-opus-5,2026-09-03
+C2B0636,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,monetary cost of raising children,claude-opus-5,2026-09-03
+C2B0637,BOUNDARY,TIMECOST_BOUNDARY,career cost of children's health shocks,claude-opus-5,2026-09-03
+C2B0638,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,equivalence-scale methodology,claude-opus-5,2026-09-03
+C2B0639,EXCLUDE,OFF_OTHER,matching theory; tuition exchange,claude-opus-5,2026-09-03
+C2B0640,BOUNDARY,TIMECOST_BOUNDARY,child penalty decomposition,claude-opus-5,2026-09-03
+C2B0641,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,NZ child-support cost estimates,claude-opus-5,2026-09-03
+C2B0642,BOUNDARY,TIMECOST_BOUNDARY,implicit costs of motherhood,claude-opus-5,2026-09-03
+C2B0643,ROUTED_OTHER,OFF_OTHER,child expenditure and public pensions; C.3.c,claude-opus-5,2026-09-03
+C2B0644,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,tax/transfer treatment of children via equivalence scales,claude-opus-5,2026-09-03
+C2B0645,INSUFFICIENT_INFO,,no abstract; savings strategy for child-rearing costs,claude-opus-5,2026-09-03
+C2B0646,EXCLUDE,OFF_OTHER,cost of child injuries; cost-of-illness homonym,claude-opus-5,2026-09-03
+C2B0647,EXCLUDE,OFF_OTHER,child healthcare expenditure; outcome is expenditure,claude-opus-5,2026-09-03
+C2B0648,EXCLUDE,OFF_OTHER,political philosophy,claude-opus-5,2026-09-03
+C2B0649,EXCLUDE,EXPENDITURE_ASSOCIATION,transfers and extracurricular tuition spend; outcome is expenditure,claude-opus-5,2026-09-03
+C2B0650,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,demand-based equivalence scales,claude-opus-5,2026-09-03
+C2B0651,BOUNDARY,TIMECOST_BOUNDARY,time and the cost of children,claude-opus-5,2026-09-03
+C2B0652,BOUNDARY,TIMECOST_BOUNDARY,"incremental time costs, Australia",claude-opus-5,2026-09-03
+C2B0653,EXCLUDE,OFF_OTHER,equivalence scales for poverty comparison,claude-opus-5,2026-09-03
+C2B0654,EXCLUDE,OFF_OTHER,grandparent caregiving relations,claude-opus-5,2026-09-03
+C2B0655,EXCLUDE,OFF_OTHER,IRS collection rules,claude-opus-5,2026-09-03
+C2B0656,EXCLUDE,OFF_OTHER,financial aid practice note,claude-opus-5,2026-09-03
+C2B0657,EXCLUDE,OFF_OTHER,primary school access Kenya,claude-opus-5,2026-09-03
+C2B0658,INCLUDE_CONTEXT,EXPENDITURE_ASSOCIATION,Italian direct and opportunity cost of children and reproductive choice; narrative,claude-opus-5,2026-09-03
+C2B0659,EXCLUDE,OFF_OTHER,"school fee reduction project, no fertility outcome",claude-opus-5,2026-09-03
+C2B0660,INCLUDE_CONTEXT,THEORY,fertility inefficiencies model,claude-opus-5,2026-09-03
+C2B0661,EXCLUDE,OFF_OTHER,malaria care seeking,claude-opus-5,2026-09-03
+C2B0662,EXCLUDE,OFF_OTHER,maths achievement Malaysia,claude-opus-5,2026-09-03
+C2B0663,EXCLUDE,OFF_OTHER,lifelong education,claude-opus-5,2026-09-03
+C2B0664,EXCLUDE,OFF_OTHER,acupuncture preterm labour,claude-opus-5,2026-09-03
+C2B0665,INCLUDE_CONTEXT,THEORY,OLG model with cost of children as a parameter,claude-opus-5,2026-09-03
+C2B0848,EXCLUDE,OFF_OTHER,child health coverage adequacy,claude-opus-5,2026-09-03
+C2B0849,INCLUDE_PRIMARY,PRICE_SHOCK_FERTILITY,"Israeli kibbutz privatisation of child costs; exogenous cross-kibbutz variation, lifetime fertility -0.59. Direction RISE",claude-opus-5,2026-09-03
+C2B0850,EXCLUDE,OFF_OTHER,FPE and child labour; outcome is child labour,claude-opus-5,2026-09-03
+C2B0851,EXCLUDE,OFF_OTHER,corporal punishment Tanzania,claude-opus-5,2026-09-03
+C2B0852,EXCLUDE,OFF_OTHER,health system priorities,claude-opus-5,2026-09-03
+C2B0853,EXCLUDE,OFF_OTHER,paediatric hepatitis C,claude-opus-5,2026-09-03
+C2B0854,EXCLUDE,OFF_OTHER,soybean production,claude-opus-5,2026-09-03
+C2B0855,BOUNDARY,TIMECOST_BOUNDARY,non-market time and household well-being,claude-opus-5,2026-09-03
+C2B0856,INSUFFICIENT_INFO,,"Persian; intergenerational childbearing ideals, cost content unclear",claude-opus-5,2026-09-03
+C2B0857,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"cost of children in family budgets, Argentina",claude-opus-5,2026-09-03
+C2B0858,INCLUDE_CONTEXT,EXPENDITURE_ASSOCIATION,"private education spending vs TFR, Korea; observed expenditure, the SS2 identity",claude-opus-5,2026-09-03
+C2B0859,EXCLUDE,OFF_OTHER,"fertility of working women, Indonesia",claude-opus-5,2026-09-03
+C2B0860,EXCLUDE,OFF_OTHER,education in Africa overview,claude-opus-5,2026-09-03
+C2B0861,EXCLUDE,OFF_OTHER,obituary,claude-opus-5,2026-09-03
+C2B0862,EXCLUDE,OFF_OTHER,tuition-free Ghana; outcomes schooling and child labour,claude-opus-5,2026-09-03
+C2B0863,EXCLUDE,OFF_OTHER,education and natural disasters,claude-opus-5,2026-09-03
+C2B0864,EXCLUDE,OFF_OTHER,commentary,claude-opus-5,2026-09-03
+C2B0865,INSUFFICIENT_INFO,,essays in development economics; contents unknown,claude-opus-5,2026-09-03
+C2B0866,INCLUDE_PRIMARY,SCHOOL_COST_FERTILITY,"randomised secondary scholarships Ghana, 12y follow-up; a clean price shock, fertility outcome to confirm at full text",claude-opus-5,2026-09-03
+C2B0867,EXCLUDE,OFF_OTHER,teaching materials and performance,claude-opus-5,2026-09-03
+C2B0868,EXCLUDE,OFF_OTHER,adolescent obesity,claude-opus-5,2026-09-03
+C2B0869,BOUNDARY,TIMECOST_BOUNDARY,cost of Britain's children as mothers' forgone income,claude-opus-5,2026-09-03
+C2B0870,INCLUDE_CONTEXT,THEORY,population externalities and optimal policy,claude-opus-5,2026-09-03
+C2B0871,EXCLUDE,OFF_OTHER,patient handout,claude-opus-5,2026-09-03
+C2B0872,EXCLUDE,OFF_OTHER,HIV disclosure,claude-opus-5,2026-09-03
+C2B0873,EXCLUDE,OFF_OTHER,iron deficiency review,claude-opus-5,2026-09-03
+C2B0874,EXCLUDE,OFF_OTHER,news items,claude-opus-5,2026-09-03
+C2B0875,BOUNDARY,OFF_OTHER,"in-state tuition benefits; the exposure is the WOMAN'S OWN education price, not the price of a child -> C.3.g/C.2.e",claude-opus-5,2026-09-03
+C2B0876,EXCLUDE,OFF_OTHER,journal cover matter,claude-opus-5,2026-09-03
+C2B0877,EXCLUDE,OFF_OTHER,infant mortality inequalities,claude-opus-5,2026-09-03
