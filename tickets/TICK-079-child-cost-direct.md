@@ -151,3 +151,60 @@ probes against the neighbouring cost chapters are also small: C.2.a childcare **
   is now the seminal citation of four chapters), **PI Call 3** (what to do when the identified
   evidence runs in the opposite direction to the registered claim).
 
+
+### 2026-09-03 — free seeds (317), and the pre-registered sign test (318)
+
+**Free seeds: 130 records at zero retrieval cost.** Script 317, ported from C.6.a's 305. Scanned
+1,136 branch:file pairs (88 unique blobs) across every branch on origin. Dropped 2 as paediatric
+cost-of-illness and 5 as peer-review apparatus — three of those five were "Review for", "Decision
+letter for" and "Author response for" the *same* paper (`shadow-record-gate`, named qualifiers only).
+
+Two amendments to the scope followed, both recorded in §16:
+
+- **Wall 4 is a vocabulary problem, not only a routing one.** 17 of 130 kept records are C.2.e's
+  time-cost / child-penalty literature — 11 of the 33 that `cost of children` returns, and **5 of the
+  6** that `cost of childbearing` returns. The hypothesis's own name is the neighbour's name. §8 had
+  scored only the cost-of-illness homonym, which turned out to be the harmless one: 2 records against
+  17. The exposure axis in script 320 separates them; the screen will not.
+- **The fee-abolition vein may identify the wrong estimand.** §7 row 1 called it the largest expected
+  source of identified variation and the volume agrees (24 records). But of the 8 carrying a
+  fertility outcome, **6 name women's or girls' schooling in the title** — a maternal-education
+  channel, which *lowers* fertility, where the mechanism says a price cut should *raise* it. A
+  required `channel` tag now gates `SCHOOL_COST_FERTILITY`. Title-level signal only
+  (`design-is-not-a-property-of-the-title`); every one is re-read at full text.
+
+**The sign test (script 318) passes on the whole window and the timing runs the other way.**
+
+The whole-window test is nearly uninformative: every arm containing education rises hard in real
+terms (education alone +205%, with-education +79% to +132%), and the arm **without** education
+**falls** on equal weights (−17%). The composite rises only because of education — the component
+ruling 2 puts most in doubt, since college tuition is largely chosen quality (C.3.d) and the BLS K-12
+index prices *private* schooling, not the price most US parents face.
+
+Decade by decade, against the share of TFR movement:
+
+| decade | share of all movement | real child price | verdict |
+|---|---|---|---|
+| 1970–1980 | **46%** | **−13.3%** | **inconsistent** |
+| 1980–1990 | 17% | +21.3% (TFR *rose*) | **inconsistent** |
+| the other four | 37% | rising | consistent |
+
+**63% of the total decade-to-decade movement in US fertility since 1967 runs against the mechanism.**
+The real price of children fell through the decade in which fertility fell fastest, and rose through
+the decade in which it recovered.
+
+**A defect caught in our own diagnostic.** The first version of the decade table read only the price
+direction and scored the 1980s as *supporting* the hypothesis when price and fertility rose together
+— `r2-criterion-is-sign-blind` reproduced in the instrument built to avoid it. The verdict column now
+compares both directions.
+
+**Three data deviations from §5, reported and not absorbed:** no education price series before 1967
+and no tuition before 1977-12, so the 1965–67 gap is a data absence and not a null; BLS publishes no
+long children's apparel series, so all-apparel is substituted and labelled; day care is excluded as
+C.2.a's but fetched and reported so the exclusion can be priced. BLS was reached through DBnomics —
+`download.bls.gov` returns 403 from Akamai bot defence, and the unregistered BLS API v1 silently
+ignores `startyear`/`endyear` and returns only the most recent three years.
+
+**Status: this is co-movement in one country, not identification.** It bounds what the mechanism
+could be doing and it is the SDT slope-sufficiency input; it does not settle the cell on its own the
+way C.6.a's did. Next: cold-start anchors (319), then the per-arm production query (320).
