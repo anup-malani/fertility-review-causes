@@ -6,6 +6,7 @@
     "source": "control",
     "arm": "direct-cost",
     "doi": "10.1023/b:popu.0000020961.89068.91",
+    "outcome_is_fertility": true,
     "queries": [
       {
         "mode": "doi",
@@ -39,6 +40,7 @@
     "source": "control",
     "arm": "direct-cost",
     "doi": "10.1111/ecoj.12240",
+    "outcome_is_fertility": true,
     "queries": [
       {
         "mode": "doi",
@@ -72,6 +74,7 @@
     "source": "control",
     "arm": "direct-cost",
     "doi": "10.1080/17441730903351586",
+    "outcome_is_fertility": true,
     "queries": [
       {
         "mode": "doi",
@@ -105,6 +108,7 @@
     "source": "control",
     "arm": "direct-cost",
     "doi": "10.33900/kaps.2020.29.3.4",
+    "outcome_is_fertility": true,
     "queries": [
       {
         "mode": "doi",
@@ -138,6 +142,7 @@
     "source": "control",
     "arm": "direct-cost",
     "doi": "10.1080/00324728.1972.10405546",
+    "outcome_is_fertility": true,
     "queries": [
       {
         "mode": "doi",
@@ -171,6 +176,7 @@
     "source": "control",
     "arm": "direct-cost",
     "doi": "10.2307/2061527",
+    "outcome_is_fertility": true,
     "queries": [
       {
         "mode": "doi",
@@ -204,6 +210,7 @@
     "source": "control",
     "arm": "direct-cost",
     "openalex": "W4404547386",
+    "outcome_is_fertility": true,
     "queries": [
       {
         "mode": "by_id",
@@ -237,6 +244,7 @@
     "source": "control",
     "arm": "direct-cost",
     "doi": "10.1007/978-3-642-86478-0_15",
+    "outcome_is_fertility": true,
     "queries": [
       {
         "mode": "doi",
@@ -270,6 +278,7 @@
     "source": "control",
     "arm": "direct-cost",
     "doi": "10.1080/1081602x.2018.1470547",
+    "outcome_is_fertility": true,
     "queries": [
       {
         "mode": "doi",
@@ -303,6 +312,7 @@
     "source": "control",
     "arm": "anticipated-cost",
     "doi": "10.1007/s10834-006-9037-4",
+    "outcome_is_fertility": true,
     "queries": [
       {
         "mode": "doi",
@@ -336,6 +346,7 @@
     "source": "control",
     "arm": "school-fee",
     "doi": "10.1016/j.jdeveco.2017.09.006",
+    "outcome_is_fertility": true,
     "queries": [
       {
         "mode": "doi",
@@ -369,6 +380,7 @@
     "source": "control",
     "arm": "school-fee",
     "doi": "10.1093/wber/lhz003",
+    "outcome_is_fertility": true,
     "queries": [
       {
         "mode": "doi",
@@ -402,6 +414,7 @@
     "source": "control",
     "arm": "school-fee",
     "doi": "10.2139/ssrn.2868563",
+    "outcome_is_fertility": true,
     "queries": [
       {
         "mode": "doi",
@@ -443,6 +456,8 @@
     "source": "control",
     "arm": "school-fee",
     "doi": "10.31235/osf.io/8fa2c",
+    "outcome_is_fertility": false,
+    "outcome_note": "outcomes are access, achievement and cost-effectiveness; the abstract contains no fertility, childbearing or birth term",
     "queries": [
       {
         "mode": "doi",
@@ -476,6 +491,8 @@
     "source": "control",
     "arm": "measurement",
     "doi": "10.1007/s13524-012-0146-4",
+    "outcome_is_fertility": false,
+    "outcome_note": "exposure-measurement record: its outcome is expenditure, not fertility",
     "queries": [
       {
         "mode": "doi",
@@ -509,6 +526,7 @@
     "source": "control",
     "arm": "measurement",
     "doi": "10.22004/ag.econ.45852",
+    "outcome_is_fertility": true,
     "queries": [
       {
         "mode": "doi",
@@ -542,6 +560,7 @@
     "source": "control",
     "arm": "measurement",
     "doi": "10.1016/j.econlet.2025.112359",
+    "outcome_is_fertility": true,
     "queries": [
       {
         "mode": "doi",
@@ -575,6 +594,7 @@
     "source": "control",
     "arm": "boundary-timecost",
     "doi": "10.1086/690952",
+    "outcome_is_fertility": true,
     "queries": [
       {
         "mode": "doi",
@@ -607,6 +627,7 @@
     "first_author": "Caldwell",
     "source": "hand",
     "arm": "theory",
+    "outcome_is_fertility": true,
     "queries": [
       {
         "mode": "filter_title_quoted",
@@ -642,6 +663,7 @@
     "first_author": "Doepke",
     "source": "hand",
     "arm": "theory",
+    "outcome_is_fertility": true,
     "queries": [
       {
         "mode": "filter_title_quoted",
@@ -735,6 +757,7 @@
     "first_author": "Folbre",
     "source": "hand",
     "arm": "theory",
+    "outcome_is_fertility": true,
     "queries": [
       {
         "mode": "filter_title_quoted",
@@ -770,6 +793,7 @@
     "first_author": "Becker",
     "source": "hand",
     "arm": "theory",
+    "outcome_is_fertility": true,
     "queries": [
       {
         "mode": "filter_title_quoted",
@@ -805,6 +829,7 @@
     "first_author": "Becker",
     "source": "hand",
     "arm": "boundary-qq",
+    "outcome_is_fertility": true,
     "queries": [
       {
         "mode": "filter_title_quoted",
@@ -840,6 +865,7 @@
     "first_author": "Angrist",
     "source": "hand",
     "arm": "boundary-qq",
+    "outcome_is_fertility": true,
     "queries": [
       {
         "mode": "filter_title_quoted",
@@ -895,6 +921,8 @@
     "first_author": "Espenshade",
     "source": "hand",
     "arm": "measurement",
+    "outcome_is_fertility": false,
+    "outcome_note": "exposure-measurement record: its outcome is expenditure, not fertility",
     "queries": [
       {
         "mode": "filter_title_quoted",
@@ -935,6 +963,8 @@
     "first_author": "Deaton",
     "source": "hand",
     "arm": "measurement",
+    "outcome_is_fertility": false,
+    "outcome_note": "exposure-measurement record: its outcome is expenditure, not fertility",
     "queries": [
       {
         "mode": "filter_title_quoted",
@@ -970,6 +1000,8 @@
     "first_author": "Browning",
     "source": "hand",
     "arm": "measurement",
+    "outcome_is_fertility": false,
+    "outcome_note": "exposure-measurement record: its outcome is expenditure, not fertility",
     "queries": [
       {
         "mode": "filter_title_quoted",
@@ -1005,6 +1037,8 @@
     "first_author": "Deininger",
     "source": "hand",
     "arm": "school-fee",
+    "outcome_is_fertility": false,
+    "outcome_note": "outcome is school enrolment, not fertility",
     "queries": [
       {
         "mode": "filter_title_quoted",
@@ -1040,6 +1074,7 @@
     "first_author": "Osili",
     "source": "hand",
     "arm": "school-fee",
+    "outcome_is_fertility": true,
     "queries": [
       {
         "mode": "filter_title_quoted",
@@ -1114,6 +1149,8 @@
     "first_author": "Currie",
     "source": "hand",
     "arm": "health-price",
+    "outcome_is_fertility": false,
+    "outcome_note": "outcome is infant mortality and birth weight, not fertility",
     "queries": [
       {
         "mode": "filter_title_quoted",
@@ -1169,6 +1206,7 @@
     "first_author": "Hotz",
     "source": "hand",
     "arm": "theory",
+    "outcome_is_fertility": true,
     "queries": [
       {
         "mode": "filter_title_quoted",
@@ -1224,6 +1262,7 @@
     "first_author": "Willis",
     "source": "hand",
     "arm": "theory",
+    "outcome_is_fertility": true,
     "queries": [
       {
         "mode": "filter_title_quoted",
