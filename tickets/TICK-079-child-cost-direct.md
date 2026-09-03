@@ -1,5 +1,5 @@
 # TICK-079: C.2.b Rising Direct Costs of Children
-**Status:** open
+**Status:** in-progress
 **Assigned:** Shravan
 **Hypothesis:** `child-cost-direct` — HYPOTHESES-v5.md §C.2.b
 **Parallel-safe:** yes
