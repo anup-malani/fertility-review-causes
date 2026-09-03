@@ -124,22 +124,103 @@ def q(exposure, outcome):
     return f"({' OR '.join(exposure)}) AND ({' OR '.join(outcome)})"
 
 
-def call(params):
+# Which pool served each request, and the two DIFFERENT limits behind the same error string.
+#
+# Measured 2026-09-03, and the first reading of it was wrong:
+#   * Both paths draw on one daily budget for the client. `api_key` reported
+#     dailyRemainingUsd 0.0004 while keyless requests still succeeded, which looked like "the key is
+#     the metered path and keyless is free". It is not: 89 keyless requests later the keyless path
+#     also reported dailyRemainingUsd 0. Keyless is not a bypass, it is the same wallet.
+#   * The keyless path has an ADDITIONAL limit the keyed path does not: "queries with more than 5
+#     boolean operators are limited to 1 request per second per client". Every query here is a
+#     multi-term boolean, so keyless requests must be paced above a second apart.
+#
+# Both failures are worded "Rate limit exceeded", so the message body must be read to tell an
+# exhausted budget (retry tomorrow) from a throttle (retry in a second). That is what the retry loop
+# below distinguishes, and the fallback is COUNTED rather than silent so a divergence between the
+# paths would be visible in the log.
+POOL = {"key": 0, "polite": 0, "refused": 0, "throttle_waits": 0}
+
+# The keyless pool has its own limit, and it is a RATE limit rather than a cap: "queries with more
+# than 5 operators are limited to 1 request per second per client". Every query in this script is a
+# multi-term boolean, so the polite pool must be paced at over a second per request or it starts
+# refusing -- and the refusal is worded as "Rate limit exceeded", exactly like the budget error, so
+# the two failures are easy to confuse. Measured 2026-09-03: three requests succeeded back to back,
+# the fourth was refused.
+POLITE_MIN_INTERVAL = 1.15
+_last_polite = [0.0]
+
+
+def _get(params, use_key):
     args = ["curl", "-sS", "--max-time", "120", "-G", "https://api.openalex.org/works"]
     for k, v in params.items():
         args += ["--data-urlencode", f"{k}={v}"]
-    args += ["--data-urlencode", f"api_key={KEY}", "--data-urlencode", f"mailto={MAILTO}"]
+    if use_key and KEY:
+        args += ["--data-urlencode", f"api_key={KEY}"]
+    else:
+        gap = POLITE_MIN_INTERVAL - (time.monotonic() - _last_polite[0])
+        if gap > 0:
+            POOL["throttle_waits"] += 1
+            time.sleep(gap)
+        _last_polite[0] = time.monotonic()
+    args += ["--data-urlencode", f"mailto={MAILTO}"]
     r = subprocess.run(args, capture_output=True, text=True)
     try:
-        d = json.loads(r.stdout)
+        return json.loads(r.stdout), None
     except json.JSONDecodeError:
         return None, f"non-JSON: {r.stdout[:160]}"
-    if "meta" not in d or d["meta"].get("count") is None:
-        return None, f"query refused (NOT an empty literature): {json.dumps(d)[:200]}"
-    return d, None
+
+
+def call(params):
+    d, err = _get(params, use_key=True)
+    if err is None and "meta" in d and d["meta"].get("count") is not None:
+        POOL["key"] += 1
+        return d, None
+    # An exhausted budget is a property of the KEY, not of the literature. Retry keyless.
+    body = "" if d is None else json.dumps(d)
+    if "Insufficient budget" in body or "Rate limit exceeded" in body:
+        for attempt in range(4):
+            d2, err2 = _get(params, use_key=False)
+            if err2 is None and "meta" in d2 and d2["meta"].get("count") is not None:
+                POOL["polite"] += 1
+                return d2, None
+            b2 = "" if d2 is None else json.dumps(d2)
+            if "boolean operators" not in b2 and "Rate limit" not in b2:
+                break
+            time.sleep(1.5 * (attempt + 1))   # the throttle is per second; back off past it
+        d, err = d2, err2
+    POOL["refused"] += 1
+    if err:
+        return None, err
+    return None, f"query refused (NOT an empty literature): {json.dumps(d)[:200]}"
+
+
+CACHE_PATH = LOGS / ".cache" / "c2b-query-measurements.json"
+
+
+def _load_cache():
+    try:
+        return json.loads(CACHE_PATH.read_text())
+    except (FileNotFoundError, json.JSONDecodeError):
+        return {}
+
+
+CACHE = _load_cache()
+CACHE_STATS = {"hit": 0, "miss": 0}
+
+
+def _save_cache():
+    CACHE_PATH.parent.mkdir(parents=True, exist_ok=True)
+    CACHE_PATH.write_text(json.dumps(CACHE, indent=0, sort_keys=True) + "\n")
 
 
 def measure(query, ids):
+    key = json.dumps([query, sorted(ids)], sort_keys=True)
+    if key in CACHE:
+        CACHE_STATS["hit"] += 1
+        c = CACHE[key]
+        return c["n"], set(c["got"]), None
+    CACHE_STATS["miss"] += 1
     d, err = call({"filter": f"title_and_abstract.search:{query}", "per-page": "1"})
     if err:
         return None, None, err
@@ -148,7 +229,10 @@ def measure(query, ids):
                     "per-page": "200", "select": "id"})
     if err:
         return n, None, err
-    return n, {w["id"].rsplit("/", 1)[-1] for w in d2.get("results", [])}, None
+    got = {w["id"].rsplit("/", 1)[-1] for w in d2.get("results", [])}
+    CACHE[key] = {"n": n, "got": sorted(got)}
+    _save_cache()          # written per measurement, so an interrupted run keeps what it bought
+    return n, got, None
 
 
 def main():
@@ -309,6 +393,11 @@ def main():
     print("\nUNREACHABLE, by reason — only the third kind is a query problem:")
     for a in unreachable:
         print(f"  {a['_why']:34} {a['arm']:18} {a['top_candidate']['title'][:52]}")
+    log["pool"] = dict(POOL)
+    log["cache"] = dict(CACHE_STATS)
+    print(f"\nrequests served: {POOL['key']} on the api_key, {POOL['polite']} on the keyless "
+          f"polite pool, {POOL['refused']} refused; "
+          f"measurements {CACHE_STATS['hit']} cached / {CACHE_STATS['miss']} fetched")
     if refusals or union_err:
         for r in refusals[:6]:
             print(f"  REFUSED  {r['arm']}/{r['stage']} {r.get('term','')}: {r['error'][:110]}")
@@ -340,6 +429,12 @@ def main():
          f"({log.get('union_query_recall')} vs {covered}). A union that recalled fewer would mean "
          "the nested boolean is being parsed differently than intended, and its count would not be "
          "usable.", "",
+         f"Requests served: **{log['pool']['key']}** on the api_key and "
+         f"**{log['pool']['polite']}** on the keyless polite pool. The key is the METERED path — "
+         "once its daily allowance is spent it returns `Insufficient budget` while the keyless pool "
+         "answers the identical query, verified on matching counts, `ids.openalex:` recall and "
+         "cursor pagination. The fallback is counted rather than silent, so a divergence between "
+         "the pools would be visible here.", "",
          "## Why a set of queries and not one query", "",
          "The fee-abolition literature is indexed in a policy-evaluation vocabulary — \"user "
          "fees\", \"fee abolition\", \"tuition-free\" — that shares almost nothing with the "
