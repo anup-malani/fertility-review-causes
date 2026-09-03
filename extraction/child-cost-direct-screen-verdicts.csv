@@ -198,7 +198,7 @@ C2B0195,EXCLUDE,OFF_OTHER,fertility measurement in tropical Africa,claude-opus-5
 C2B0196,EXCLUDE,OFF_OTHER,HIV disclosure,claude-opus-5,2026-09-03
 C2B0197,INCLUDE_CONTEXT,THEORY,economics of US population policy,claude-opus-5,2026-09-03
 C2B0198,ROUTED_OTHER,OFF_OTHER,leisure goods and fertility choice; C.2.h,claude-opus-5,2026-09-03
-C2B0199,INCLUDE_PRIMARY,SCHOOL_COST_FERTILITY,"abolishing user fees, FERTILITY CHOICE and attainment; JDE published version",claude-opus-5,2026-09-03
+C2B0199,INCLUDE_PRIMARY,CHILD_HEALTH_COST_FERTILITY,"abolishing HEALTH user fees, fertility choice and attainment; JDE published version. Re-celled from SCHOOL_COST_FERTILITY after the working paper made the health channel explicit",claude-opus-5,2026-09-03
 C2B0200,EXCLUDE,OFF_OTHER,"family coping and child investment, Indonesia",claude-opus-5,2026-09-03
 C2B0201,INCLUDE_CONTEXT,EXPENDITURE_ASSOCIATION,"ideal family size and costs, twin of the probe record",claude-opus-5,2026-09-03
 C2B0202,EXCLUDE,OFF_OTHER,home background and performance,claude-opus-5,2026-09-03
@@ -319,6 +319,110 @@ C2B0316,EXCLUDE,OFF_OTHER,child marriage reduction,claude-opus-5,2026-09-03
 C2B0317,BOUNDARY,SCHOOL_COST_FERTILITY,"Uganda USE tuition-fee elimination; schooling and empowerment framing, channel BOTH_UNSEPARATED",claude-opus-5,2026-09-03
 C2B0318,EXCLUDE,OFF_OTHER,crop management extension,claude-opus-5,2026-09-03
 C2B0319,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,welfare interpretation of equivalence scales,claude-opus-5,2026-09-03
+C2B0320,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"expenditure-dependent equivalence scales, Italy",claude-opus-5,2026-09-03
+C2B0321,EXCLUDE,OFF_OTHER,RSV hospitalisation costs; cost-of-illness homonym,claude-opus-5,2026-09-03
+C2B0322,EXCLUDE,OFF_OTHER,skull deformity management,claude-opus-5,2026-09-03
+C2B0323,ROUTED_OTHER,OFF_OTHER,fertility and maternal labour supply Japan; C.2.e,claude-opus-5,2026-09-03
+C2B0324,EXCLUDE,OFF_OTHER,chronic fatigue services,claude-opus-5,2026-09-03
+C2B0325,EXCLUDE,OFF_OTHER,Medicaid carve-out expenditures,claude-opus-5,2026-09-03
+C2B0326,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"equivalence scales, Indigenous Australian poverty",claude-opus-5,2026-09-03
+C2B0327,INCLUDE_CONTEXT,THEORY,PAYG pensions and tax-cum-subsidy,claude-opus-5,2026-09-03
+C2B0328,INCLUDE_CONTEXT,PERCEIVED_COST,"rationales for childbearing, qualitative",claude-opus-5,2026-09-03
+C2B0329,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"public and private costs of children, Australia",claude-opus-5,2026-09-03
+C2B0330,INCLUDE_CONTEXT,THEORY,"low fertility and growth with a large public sector, twin",claude-opus-5,2026-09-03
+C2B0331,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,cost of rearing children in agricultural economies; FDT-relevant,claude-opus-5,2026-09-03
+C2B0332,EXCLUDE,OFF_OTHER,contraceptive need Burkina Faso,claude-opus-5,2026-09-03
+C2B0333,EXCLUDE,OFF_OTHER,family income and child outcomes,claude-opus-5,2026-09-03
+C2B0334,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"subjective cost of young children, twin",claude-opus-5,2026-09-03
+C2B0335,EXCLUDE,OFF_OTHER,"school fees and left-behind children, twin; outcome is migration",claude-opus-5,2026-09-03
+C2B0336,INCLUDE_CONTEXT,PRICE_ASSOCIATION,cost of children vs TFR across OECD; no exogenous variation,claude-opus-5,2026-09-03
+C2B0337,BOUNDARY,SCHOOL_COST_FERTILITY,Osili RePEc twin; channel MATERNAL_SCHOOLING,claude-opus-5,2026-09-03
+C2B0338,ROUTED_OTHER,OFF_OTHER,"childcare costs and demand for children; C.2.a, SSRN twin",claude-opus-5,2026-09-03
+C2B0339,EXCLUDE,OFF_OTHER,k-means clustering of education costs,claude-opus-5,2026-09-03
+C2B0340,INCLUDE_CONTEXT,THEORY,"public programmes and fertility, Malaysia; multi-programme",claude-opus-5,2026-09-03
+C2B0341,INCLUDE_CONTEXT,THEORY,French village modernisation 1730-1895; FDT context,claude-opus-5,2026-09-03
+C2B0342,EXCLUDE,OFF_OTHER,book index,claude-opus-5,2026-09-03
+C2B0343,ROUTED_OTHER,SCHOOL_COST_FERTILITY,UPE and brideprice; channel MATERNAL_SCHOOLING,claude-opus-5,2026-09-03
+C2B0344,BOUNDARY,SCHOOL_COST_FERTILITY,"Malawi UPE natural experiment; framed as female education, channel MATERNAL_SCHOOLING",claude-opus-5,2026-09-03
+C2B0345,BOUNDARY,TIMECOST_BOUNDARY,motherhood wage and income traps,claude-opus-5,2026-09-03
+C2B0346,EXCLUDE,OFF_OTHER,adolescent childbearing qualitative,claude-opus-5,2026-09-03
+C2B0347,EXCLUDE,OFF_OTHER,population and human resources planning,claude-opus-5,2026-09-03
+C2B0348,EXCLUDE,OFF_OTHER,medical bill hardship,claude-opus-5,2026-09-03
+C2B0349,INCLUDE_CONTEXT,PRICE_ASSOCIATION,"cost of children and Japan's fertility decline; estimated, not identified",claude-opus-5,2026-09-03
+C2B0350,INSUFFICIENT_INFO,,no abstract; Spanish fertility policy context,claude-opus-5,2026-09-03
+C2B0351,EXCLUDE,OFF_OTHER,demographic dividend and schooling Pakistan,claude-opus-5,2026-09-03
+C2B0352,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"equivalence-scale sensitivity, Australian distributions",claude-opus-5,2026-09-03
+C2B0353,EXCLUDE,OFF_OTHER,global women's health disparities,claude-opus-5,2026-09-03
+C2B0354,EXCLUDE,OFF_OTHER,climate economics evidence,claude-opus-5,2026-09-03
+C2B0355,EXCLUDE,OFF_OTHER,soybean farmer field schools,claude-opus-5,2026-09-03
+C2B0356,EXCLUDE,OFF_OTHER,international education targets,claude-opus-5,2026-09-03
+C2B0357,INCLUDE_PRIMARY,PRICE_SHOCK_FERTILITY,"quasi-experimental, EXOGENOUS variation in family income AND the cost of children",claude-opus-5,2026-09-03
+C2B0358,EXCLUDE,OFF_OTHER,population and educational development essay,claude-opus-5,2026-09-03
+C2B0359,EXCLUDE,OFF_OTHER,SCHIP access review,claude-opus-5,2026-09-03
+C2B0360,EXCLUDE,OFF_OTHER,child hospitalisation,claude-opus-5,2026-09-03
+C2B0361,EXCLUDE,OFF_OTHER,isoelastic equivalence scales; inequality not child cost,claude-opus-5,2026-09-03
+C2B0362,ROUTED_OTHER,SCHOOL_COST_FERTILITY,female education and adolescent pregnancy; channel MATERNAL_SCHOOLING,claude-opus-5,2026-09-03
+C2B0363,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"USDA Expenditures on Children, further edition",claude-opus-5,2026-09-03
+C2B0364,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,household cost functions and equivalence scales,claude-opus-5,2026-09-03
+C2B0365,INCLUDE_PRIMARY,PRICE_SHOCK_FERTILITY,climate shocks lower the MARGINAL COST OF A CHILD and raise fertility; a price mechanism with a fertility outcome,claude-opus-5,2026-09-03
+C2B0366,INCLUDE_CONTEXT,THEORY,fertility and scarcity in America,claude-opus-5,2026-09-03
+C2B0367,EXCLUDE,OFF_OTHER,educational inequality trends,claude-opus-5,2026-09-03
+C2B0368,EXCLUDE,OFF_OTHER,accounting enrolment crisis,claude-opus-5,2026-09-03
+C2B0369,EXCLUDE,OFF_OTHER,"child poverty policy, Poland",claude-opus-5,2026-09-03
+C2B0370,INCLUDE_CONTEXT,THEORY,human capital and why schooling became optional; C.3.b adjacent,claude-opus-5,2026-09-03
+C2B0371,EXCLUDE,OFF_OTHER,ELIE redistribution simulation,claude-opus-5,2026-09-03
+C2B0372,EXCLUDE,OFF_OTHER,ageing and consumption,claude-opus-5,2026-09-03
+C2B0373,EXCLUDE,OFF_OTHER,"children, happiness and taxation",claude-opus-5,2026-09-03
+C2B0374,EXCLUDE,OFF_OTHER,population change Kericho,claude-opus-5,2026-09-03
+C2B0375,INCLUDE_CONTEXT,PERCEIVED_COST,low-fertility childbearing decision making,claude-opus-5,2026-09-03
+C2B0376,EXCLUDE,OFF_OTHER,health financing model,claude-opus-5,2026-09-03
+C2B0377,INCLUDE_CONTEXT,THEORY,"women's income and fertility, rural Kenya",claude-opus-5,2026-09-03
+C2B0378,INCLUDE_CONTEXT,THEORY,"determinants of the fertility transition, economic approach",claude-opus-5,2026-09-03
+C2B0379,EXCLUDE,OFF_OTHER,soil fertility framework,claude-opus-5,2026-09-03
+C2B0380,EXCLUDE,OFF_OTHER,high tuition policy Taiwan; no fertility outcome,claude-opus-5,2026-09-03
+C2B0381,EXCLUDE,OFF_OTHER,EFA Zimbabwe,claude-opus-5,2026-09-03
+C2B0382,INCLUDE_CONTEXT,THEORY,"family policies and optimal population growth, OLG",claude-opus-5,2026-09-03
+C2B0383,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"declining equivalence scales, RePEc twin",claude-opus-5,2026-09-03
+C2B0384,INCLUDE_CONTEXT,THEORY,household labour supply and fertility game,claude-opus-5,2026-09-03
+C2B0385,EXCLUDE,OFF_OTHER,free education policy Kenya critique,claude-opus-5,2026-09-03
+C2B0386,EXCLUDE,OFF_OTHER,health programmes and breastfeeding,claude-opus-5,2026-09-03
+C2B0387,INCLUDE_CONTEXT,THEORY,"New Home Economics vs Easterlin, comparative review",claude-opus-5,2026-09-03
+C2B0388,EXCLUDE,OFF_OTHER,home factors and girls' exam performance,claude-opus-5,2026-09-03
+C2B0389,EXCLUDE,OFF_OTHER,global education transition simulation,claude-opus-5,2026-09-03
+C2B0390,EXCLUDE,OFF_OTHER,tuition decision model,claude-opus-5,2026-09-03
+C2B0391,ROUTED_OTHER,OFF_OTHER,pension entitlements by number of children; C.3.c,claude-opus-5,2026-09-03
+C2B0392,EXCLUDE,OFF_OTHER,economics of immigration review,claude-opus-5,2026-09-03
+C2B0393,EXCLUDE,OFF_OTHER,crop management programme,claude-opus-5,2026-09-03
+C2B0394,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,family-size adjustment in the Supplemental Poverty Measure,claude-opus-5,2026-09-03
+C2B0395,INCLUDE_CONTEXT,PERCEIVED_COST,"family size preference as a norm, Nigeria",claude-opus-5,2026-09-03
+C2B0396,EXCLUDE,OFF_OTHER,school feeding,claude-opus-5,2026-09-03
+C2B0397,EXCLUDE,OFF_OTHER,Indonesian school operational grants; outcome is schooling,claude-opus-5,2026-09-03
+C2B0398,EXCLUDE,OFF_OTHER,reproductive decision-making Zimbabwe,claude-opus-5,2026-09-03
+C2B0399,ROUTED_OTHER,OFF_OTHER,"comparative advantage and fertility, NBER twin; C.2.e",claude-opus-5,2026-09-03
+C2B0400,ROUTED_OTHER,MIXED_PRICE_TRANSFER,"financial incentives and sex ratio, RePEc twin; C.2.d",claude-opus-5,2026-09-03
+C2B0401,EXCLUDE,OFF_OTHER,Uganda education system strengthening,claude-opus-5,2026-09-03
+C2B0402,ROUTED_OTHER,OFF_OTHER,family formation and the Great Recession; C.5.a,claude-opus-5,2026-09-03
+C2B0403,EXCLUDE,OFF_OTHER,"democracy and gender education gap, twin",claude-opus-5,2026-09-03
+C2B0404,EXCLUDE,OFF_OTHER,"HIV disclosure, twin",claude-opus-5,2026-09-03
+C2B0405,INCLUDE_PRIMARY,CHILD_HEALTH_COST_FERTILITY,Sierra Leone Free Health Care Initiative abolished user fees for under-fives and pregnant women; DESIRED fertility outcome,claude-opus-5,2026-09-03
+C2B0406,EXCLUDE,OFF_OTHER,adolescent pregnancy Maasai,claude-opus-5,2026-09-03
+C2B0407,ROUTED_OTHER,OFF_OTHER,student loan debt and family formation Japan; C.3.g,claude-opus-5,2026-09-03
+C2B0408,EXCLUDE,OFF_OTHER,cash transfers and catastrophic health expenditure,claude-opus-5,2026-09-03
+C2B0409,BOUNDARY,TIMECOST_BOUNDARY,"marriage penalty and child penalty, South Korea",claude-opus-5,2026-09-03
+C2B0410,ROUTED_OTHER,MIXED_PRICE_TRANSFER,"personal income tax and the demographic crisis, Russia; C.2.d",claude-opus-5,2026-09-03
+C2B0411,EXCLUDE,OFF_OTHER,cognitive enhancement commentary,claude-opus-5,2026-09-03
+C2B0412,BOUNDARY,TIMECOST_BOUNDARY,disability and parental employment,claude-opus-5,2026-09-03
+C2B0413,EXCLUDE,OFF_OTHER,"FPE implementation, head teachers",claude-opus-5,2026-09-03
+C2B0414,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"monetary cost of a child, twin",claude-opus-5,2026-09-03
+C2B0415,EXCLUDE,OFF_OTHER,reading recovery,claude-opus-5,2026-09-03
+C2B0416,INCLUDE_CONTEXT,THEORY,maternal health improvements lower the cost of having children; model plus evidence,claude-opus-5,2026-09-03
+C2B0417,INCLUDE_CONTEXT,PERCEIVED_COST,"rational-choice tests of low marital fertility, Korea",claude-opus-5,2026-09-03
+C2B0418,INCLUDE_CONTEXT,THEORY,"child costs and survival in unified growth, RePEc twin",claude-opus-5,2026-09-03
+C2B0419,ROUTED_OTHER,MIXED_PRICE_TRANSFER,efficiency cost of child tax benefits; C.2.d,claude-opus-5,2026-09-03
+C2B0420,EXCLUDE,OFF_OTHER,health care demand Mekelle,claude-opus-5,2026-09-03
+C2B0421,EXCLUDE,OFF_OTHER,self-assessed health and expenditure,claude-opus-5,2026-09-03
+C2B0422,ROUTED_OTHER,MIXED_PRICE_TRANSFER,child cash benefits Serbia; C.2.d,claude-opus-5,2026-09-03
+C2B0423,EXCLUDE,OFF_OTHER,maternal mortality commentary,claude-opus-5,2026-09-03
 C2B0424,EXCLUDE,OFF_OTHER,reproductive health bill news,claude-opus-5,2026-09-03
 C2B0425,EXCLUDE,OFF_OTHER,"Guyana fertility trend, no cost exposure",claude-opus-5,2026-09-03
 C2B0426,ROUTED_OTHER,TIMECOST_BOUNDARY,trade and fertility via time cost of children; C.2.e,claude-opus-5,2026-09-03
@@ -349,6 +453,188 @@ C2B0450,ROUTED_OTHER,SCHOOL_COST_FERTILITY,schooling and teenage childbirth Ugan
 C2B0451,EXCLUDE,OFF_OTHER,ADHD rehabilitation expenditure,claude-opus-5,2026-09-03
 C2B0452,EXCLUDE,OFF_OTHER,secondary education financing Cameroon; no fertility outcome,claude-opus-5,2026-09-03
 C2B0453,INCLUDE_CONTEXT,THEORY,"Japan tuition cost-sharing review essay, links to low fertility",claude-opus-5,2026-09-03
+C2B0454,BOUNDARY,QQ_BOUNDARY,quantity-quality with child health as quality,claude-opus-5,2026-09-03
+C2B0455,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,income-satisfaction equivalence scales,claude-opus-5,2026-09-03
+C2B0456,ROUTED_OTHER,OFF_OTHER,student loan debt and family formation; C.3.g,claude-opus-5,2026-09-03
+C2B0457,INCLUDE_PRIMARY,SCHOOL_COST_FERTILITY,"fertility responses to schooling COSTS, Uganda UPE; SSRN twin",claude-opus-5,2026-09-03
+C2B0458,EXCLUDE,OFF_OTHER,private school growth after FPE,claude-opus-5,2026-09-03
+C2B0459,EXCLUDE,OFF_OTHER,"children, happiness and taxation, twin",claude-opus-5,2026-09-03
+C2B0460,INCLUDE_CONTEXT,THEORY,theory of child adoption,claude-opus-5,2026-09-03
+C2B0461,BOUNDARY,SCHOOL_COST_FERTILITY,"Ethiopia FPE, World Bank twin; the paper's own channel is women's schooling",claude-opus-5,2026-09-03
+C2B0462,ROUTED_OTHER,OFF_OTHER,low fertility and female labour supply Japan; C.2.e,claude-opus-5,2026-09-03
+C2B0463,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"cost of children estimated free of welfare assumptions, Italy",claude-opus-5,2026-09-03
+C2B0464,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,cost of children from Korean household survey,claude-opus-5,2026-09-03
+C2B0465,EXCLUDE,OFF_OTHER,Depression and private higher education,claude-opus-5,2026-09-03
+C2B0466,EXCLUDE,OFF_OTHER,"health financing Zaire, twin",claude-opus-5,2026-09-03
+C2B0467,EXCLUDE,OFF_OTHER,research integrity chapter,claude-opus-5,2026-09-03
+C2B0468,EXCLUDE,OFF_OTHER,medical curriculum,claude-opus-5,2026-09-03
+C2B0469,INSUFFICIENT_INFO,,"no abstract; economic-demographic interactions, twin",claude-opus-5,2026-09-03
+C2B0470,EXCLUDE,OFF_OTHER,age-sex data accuracy; price-of-children theory cited only,claude-opus-5,2026-09-03
+C2B0471,INCLUDE_CONTEXT,PRICE_ASSOCIATION,"price of children and fertility theories, further twin",claude-opus-5,2026-09-03
+C2B0472,EXCLUDE,OFF_OTHER,PCOS lived experience,claude-opus-5,2026-09-03
+C2B0473,BOUNDARY,TIMECOST_BOUNDARY,couples and gender inequality,claude-opus-5,2026-09-03
+C2B0474,ROUTED_OTHER,MIXED_PRICE_TRANSFER,"California paid family leave, SSRN twin; C.2.d",claude-opus-5,2026-09-03
+C2B0475,BOUNDARY,TIMECOST_BOUNDARY,heterogeneous motherhood effects,claude-opus-5,2026-09-03
+C2B0476,ROUTED_OTHER,OFF_OTHER,preschool tuition benefits China; C.2.a,claude-opus-5,2026-09-03
+C2B0477,EXCLUDE,OFF_OTHER,university financial insolvency,claude-opus-5,2026-09-03
+C2B0478,ROUTED_OTHER,SCHOOL_COST_FERTILITY,"Malawi FPE intergenerational human capital; channel MATERNAL_SCHOOLING, outcome is child outcomes",claude-opus-5,2026-09-03
+C2B0479,EXCLUDE,OFF_OTHER,teacher burnout corrigendum,claude-opus-5,2026-09-03
+C2B0480,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"cost of children free of welfare assumptions, twin",claude-opus-5,2026-09-03
+C2B0481,EXCLUDE,OFF_OTHER,girls' education barriers Uganda,claude-opus-5,2026-09-03
+C2B0482,EXCLUDE,OFF_OTHER,preschool returns advocacy,claude-opus-5,2026-09-03
+C2B0483,EXCLUDE,OFF_OTHER,fertiliser and the green revolution,claude-opus-5,2026-09-03
+C2B0484,BOUNDARY,SCHOOL_COST_FERTILITY,UPE and female schooling vs fertility; channel MATERNAL_SCHOOLING,claude-opus-5,2026-09-03
+C2B0485,INCLUDE_CONTEXT,PERCEIVED_COST,value and cost of children in changing societies,claude-opus-5,2026-09-03
+C2B0486,INCLUDE_CONTEXT,THEORY,altruistic OLG fertility and mortality,claude-opus-5,2026-09-03
+C2B0487,ROUTED_OTHER,OFF_OTHER,child care and low fertility of educated women; C.2.a,claude-opus-5,2026-09-03
+C2B0488,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,horizontally equitable tax system by family size,claude-opus-5,2026-09-03
+C2B0489,INSUFFICIENT_INFO,,three essays on household behaviour; contents unclear,claude-opus-5,2026-09-03
+C2B0490,EXCLUDE,OFF_OTHER,Indigenous girls' school access,claude-opus-5,2026-09-03
+C2B0491,EXCLUDE,OFF_OTHER,enrolment projection,claude-opus-5,2026-09-03
+C2B0492,EXCLUDE,OFF_OTHER,Kenya fertility differentials,claude-opus-5,2026-09-03
+C2B0493,EXCLUDE,OFF_OTHER,"socioeconomic status and fertility, Indonesia",claude-opus-5,2026-09-03
+C2B0494,EXCLUDE,OFF_OTHER,factors affecting education standards,claude-opus-5,2026-09-03
+C2B0495,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,private expenditure AND forgone earnings; both cost types measured,claude-opus-5,2026-09-03
+C2B0496,EXCLUDE,OFF_OTHER,education in Africa overview,claude-opus-5,2026-09-03
+C2B0497,ROUTED_OTHER,OFF_OTHER,land reform and fertility; C.4.a,claude-opus-5,2026-09-03
+C2B0498,EXCLUDE,OFF_OTHER,childhood obesity prevalence,claude-opus-5,2026-09-03
+C2B0499,EXCLUDE,OFF_OTHER,home teaching survey,claude-opus-5,2026-09-03
+C2B0500,EXCLUDE,OFF_OTHER,book review,claude-opus-5,2026-09-03
+C2B0501,BOUNDARY,TIMECOST_BOUNDARY,maternal role rewards and opportunity costs,claude-opus-5,2026-09-03
+C2B0502,INCLUDE_CONTEXT,THEORY,"family altruism, growth and the cost of children",claude-opus-5,2026-09-03
+C2B0503,EXCLUDE,OFF_OTHER,doctoral study advice,claude-opus-5,2026-09-03
+C2B0504,EXCLUDE,OFF_OTHER,history of teacher training,claude-opus-5,2026-09-03
+C2B0505,EXCLUDE,OFF_OTHER,education cost sharing and dropout,claude-opus-5,2026-09-03
+C2B0506,ROUTED_OTHER,MIXED_PRICE_TRANSFER,Swedish fertility swings and public expenditure for children; C.2.d,claude-opus-5,2026-09-03
+C2B0507,INCLUDE_CONTEXT,THEORY,"economic fertility model with childrearing costs and contraception, mediation analysis",claude-opus-5,2026-09-03
+C2B0508,EXCLUDE,OFF_OTHER,"one-child policy and savings, twin",claude-opus-5,2026-09-03
+C2B0509,EXCLUDE,OFF_OTHER,services for children of leprosy patients,claude-opus-5,2026-09-03
+C2B0510,EXCLUDE,OFF_OTHER,family size and parental involvement,claude-opus-5,2026-09-03
+C2B0511,EXCLUDE,OFF_OTHER,"primary expansion and schooling quality, twin",claude-opus-5,2026-09-03
+C2B0512,EXCLUDE,OFF_OTHER,demographic policy essay,claude-opus-5,2026-09-03
+C2B0513,INCLUDE_CONTEXT,PERCEIVED_COST,"perceptions of child costs as a proximate determinant, Romania",claude-opus-5,2026-09-03
+C2B0514,EXCLUDE,OFF_OTHER,family planning Nangong County,claude-opus-5,2026-09-03
+C2B0515,INCLUDE_CONTEXT,PERCEIVED_COST,"value of children, older people's view, Philippines",claude-opus-5,2026-09-03
+C2B0516,EXCLUDE,OFF_OTHER,day-care building conversion,claude-opus-5,2026-09-03
+C2B0517,EXCLUDE,OFF_OTHER,Balint group medicine,claude-opus-5,2026-09-03
+C2B0518,EXCLUDE,OFF_OTHER,family planning Singapore,claude-opus-5,2026-09-03
+C2B0519,INCLUDE_CONTEXT,PERCEIVED_COST,"determinants of low marital fertility, Korea; twin",claude-opus-5,2026-09-03
+C2B0520,ROUTED_OTHER,MIXED_PRICE_TRANSFER,taxation and the control of fertility; C.2.d,claude-opus-5,2026-09-03
+C2B0521,ROUTED_OTHER,MIXED_PRICE_TRANSFER,social expenditure on child-rearing households and birth rates; C.2.d,claude-opus-5,2026-09-03
+C2B0522,BOUNDARY,SCHOOL_COST_FERTILITY,"Ethiopia FPE, SSRN twin; channel BOTH_UNSEPARATED",claude-opus-5,2026-09-03
+C2B0523,EXCLUDE,OFF_OTHER,"isoelastic equivalence scales, twin",claude-opus-5,2026-09-03
+C2B0524,INSUFFICIENT_INFO,,dissertation on education policy reforms; fertility content unclear,claude-opus-5,2026-09-03
+C2B0525,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"household decisions and equivalence scales, twin",claude-opus-5,2026-09-03
+C2B0526,EXCLUDE,OFF_OTHER,population and poverty essay,claude-opus-5,2026-09-03
+C2B0527,BOUNDARY,TIMECOST_BOUNDARY,non-market household time and the cost of children,claude-opus-5,2026-09-03
+C2B0528,INCLUDE_CONTEXT,PERCEIVED_COST,"value and cost of children, Australian/Greek/Italian parents; twin",claude-opus-5,2026-09-03
+C2B0529,INSUFFICIENT_INFO,,health economics essays including fertility; contents unclear,claude-opus-5,2026-09-03
+C2B0530,EXCLUDE,OFF_OTHER,school operating efficiency Taiwan,claude-opus-5,2026-09-03
+C2B0531,EXCLUDE,OFF_OTHER,Zimbabwean diaspora,claude-opus-5,2026-09-03
+C2B0532,BOUNDARY,TIMECOST_BOUNDARY,time cost of child rearing and health check-up uptake,claude-opus-5,2026-09-03
+C2B0533,EXCLUDE,OFF_OTHER,university governance Taiwan,claude-opus-5,2026-09-03
+C2B0534,EXCLUDE,OFF_OTHER,school vouchers Colorado,claude-opus-5,2026-09-03
+C2B0535,EXCLUDE,OFF_OTHER,poverty alleviation and gender,claude-opus-5,2026-09-03
+C2B0536,INSUFFICIENT_INFO,,"no abstract; determinants of local fertility rates, Korea",claude-opus-5,2026-09-03
+C2B0537,EXCLUDE,OFF_OTHER,social determinants and adolescent pregnancy,claude-opus-5,2026-09-03
+C2B0538,INCLUDE_CONTEXT,PERCEIVED_COST,"value and cost of children, rural Sudan",claude-opus-5,2026-09-03
+C2B0539,EXCLUDE,OFF_OTHER,health policy history Malawi,claude-opus-5,2026-09-03
+C2B0540,EXCLUDE,OFF_OTHER,preschool needs forecast,claude-opus-5,2026-09-03
+C2B0541,BOUNDARY,TIMECOST_BOUNDARY,career costs of children and public child care; C.2.a and C.2.e,claude-opus-5,2026-09-03
+C2B0542,INSUFFICIENT_INFO,,essays on health and human capital determinants,claude-opus-5,2026-09-03
+C2B0543,BOUNDARY,SCHOOL_COST_FERTILITY,"Ethiopia FPE, further twin; channel MATERNAL_SCHOOLING per the paper's own framing",claude-opus-5,2026-09-03
+C2B0544,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"cost of children with endogenous fertility, SSRN twin",claude-opus-5,2026-09-03
+C2B0545,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"cost of children, Japanese panel; RePEc twin",claude-opus-5,2026-09-03
+C2B0546,INCLUDE_PRIMARY,CHILD_HEALTH_COST_FERTILITY,"abolishing HEALTH user fees, fertility choice and attainment; the working-paper version makes the health channel explicit",claude-opus-5,2026-09-03
+C2B0547,EXCLUDE,OFF_OTHER,"happiness Israel, twin",claude-opus-5,2026-09-03
+C2B0548,BOUNDARY,TIMECOST_BOUNDARY,"non-market time and household well-being, SSRN twin",claude-opus-5,2026-09-03
+C2B0549,EXCLUDE,OFF_OTHER,"children left behind China, twin",claude-opus-5,2026-09-03
+C2B0550,EXCLUDE,OFF_OTHER,home garden value,claude-opus-5,2026-09-03
+C2B0551,INCLUDE_CONTEXT,THEORY,"Saint-Germain village modernisation, twin",claude-opus-5,2026-09-03
+C2B0552,EXCLUDE,OFF_OTHER,take a child to school project,claude-opus-5,2026-09-03
+C2B0553,INCLUDE_CONTEXT,PRICE_ASSOCIATION,"cost of raising children termed the PRICE of children, collective model; no exogenous variation",claude-opus-5,2026-09-03
+C2B0554,EXCLUDE,OFF_OTHER,population growth and universal education,claude-opus-5,2026-09-03
+C2B0555,EXCLUDE,OFF_OTHER,pihon lifestyle Korea,claude-opus-5,2026-09-03
+C2B0556,EXCLUDE,OFF_OTHER,World Vision financial services,claude-opus-5,2026-09-03
+C2B0557,EXCLUDE,OFF_OTHER,"children left behind China, policy paper twin",claude-opus-5,2026-09-03
+C2B0558,INSUFFICIENT_INFO,,"no abstract; economic-demographic interactions, twin",claude-opus-5,2026-09-03
+C2B0559,EXCLUDE,OFF_OTHER,affordability essay,claude-opus-5,2026-09-03
+C2B0560,EXCLUDE,OFF_OTHER,private elementary schools Taiwan,claude-opus-5,2026-09-03
+C2B0561,EXCLUDE,OFF_OTHER,OECD fertility trends chapter,claude-opus-5,2026-09-03
+C2B0562,EXCLUDE,OFF_OTHER,overeducation China,claude-opus-5,2026-09-03
+C2B0563,EXCLUDE,OFF_OTHER,replacement-level fertility strategy,claude-opus-5,2026-09-03
+C2B0564,EXCLUDE,OFF_OTHER,Ghana country spotlight,claude-opus-5,2026-09-03
+C2B0565,EXCLUDE,OFF_OTHER,"happiness Israel, further twin",claude-opus-5,2026-09-03
+C2B0566,EXCLUDE,OFF_OTHER,rural women's higher education access,claude-opus-5,2026-09-03
+C2B0567,EXCLUDE,OFF_OTHER,health insurance and hospital supply; no fertility outcome,claude-opus-5,2026-09-03
+C2B0568,EXCLUDE,OFF_OTHER,paediatric hepatitis B costs; cost-of-illness homonym,claude-opus-5,2026-09-03
+C2B0569,BOUNDARY,TIMECOST_BOUNDARY,"causal inference for child penalties, methods",claude-opus-5,2026-09-03
+C2B0570,EXCLUDE,OFF_OTHER,FPE gender and intersectionality Kenya,claude-opus-5,2026-09-03
+C2B0571,EXCLUDE,OFF_OTHER,health agenda remarks,claude-opus-5,2026-09-03
+C2B0572,BOUNDARY,TIMECOST_BOUNDARY,youth policy and Korea's child penalty,claude-opus-5,2026-09-03
+C2B0573,EXCLUDE,OFF_OTHER,parental satisfaction with online education,claude-opus-5,2026-09-03
+C2B0574,BOUNDARY,QQ_BOUNDARY,cost-sharing policy and the quantity-quality tradeoff; a fee shock read as QQ,claude-opus-5,2026-09-03
+C2B0575,EXCLUDE,OFF_OTHER,Myanmar enrolment patterns,claude-opus-5,2026-09-03
+C2B0576,ROUTED_OTHER,OFF_OTHER,"local employment and marriage/fertility, Korea; C.5.a",claude-opus-5,2026-09-03
+C2B0577,ROUTED_OTHER,OFF_OTHER,alimony reform and fertility; C.7.a,claude-opus-5,2026-09-03
+C2B0578,EXCLUDE,OFF_OTHER,malaria chemoprevention cost analysis,claude-opus-5,2026-09-03
+C2B0579,INCLUDE_CONTEXT,PERCEIVED_COST,"the financial burdens of parenting, essay",claude-opus-5,2026-09-03
+C2B0580,ROUTED_OTHER,OFF_OTHER,"comparative advantage and fertility, book twin; C.2.e",claude-opus-5,2026-09-03
+C2B0581,INSUFFICIENT_INFO,,no abstract; technology vs social norms in fertility,claude-opus-5,2026-09-03
+C2B0582,BOUNDARY,TIMECOST_BOUNDARY,gender norms and child penalties,claude-opus-5,2026-09-03
+C2B0583,INCLUDE_CONTEXT,PRICE_ASSOCIATION,declining fertility and rising cost of children via National Transfer Accounts,claude-opus-5,2026-09-03
+C2B0584,EXCLUDE,OFF_OTHER,reprogenetic technology attitudes,claude-opus-5,2026-09-03
+C2B0585,INCLUDE_CONTEXT,PERCEIVED_COST,childbearing intentions under fertility decline,claude-opus-5,2026-09-03
+C2B0586,INCLUDE_CONTEXT,THEORY,household composition and optimal commodity taxes,claude-opus-5,2026-09-03
+C2B0587,EXCLUDE,OFF_OTHER,"rising tuition, borrowing and homeownership; C.3.g cloud",claude-opus-5,2026-09-03
+C2B0588,EXCLUDE,OFF_OTHER,state tuition policy equity,claude-opus-5,2026-09-03
+C2B0589,EXCLUDE,OFF_OTHER,tuition controls and student debt,claude-opus-5,2026-09-03
+C2B0590,EXCLUDE,OFF_OTHER,student loan response to tuition,claude-opus-5,2026-09-03
+C2B0591,EXCLUDE,OFF_OTHER,electoral accountability for tuition,claude-opus-5,2026-09-03
+C2B0592,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"taxing reproduction, transfer cost of rearing children; twin",claude-opus-5,2026-09-03
+C2B0593,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,household production and the costs of children; twin,claude-opus-5,2026-09-03
+C2B0594,BOUNDARY,SCHOOL_COST_FERTILITY,eliminating primary school tuition fees and CHILD MARRIAGE; outcome adjacent to fertility,claude-opus-5,2026-09-03
+C2B0595,EXCLUDE,OFF_OTHER,state appropriations Texas universities,claude-opus-5,2026-09-03
+C2B0596,EXCLUDE,OFF_OTHER,credit supply and college tuition,claude-opus-5,2026-09-03
+C2B0597,EXCLUDE,OFF_OTHER,college cost and student borrowing,claude-opus-5,2026-09-03
+C2B0598,EXCLUDE,BIRTH_EVENT_COST,"removing delivery user fees; outcome is facility delivery, not fertility",claude-opus-5,2026-09-03
+C2B0599,ROUTED_OTHER,OFF_OTHER,tuition-free primary education and family planning access; A.5,claude-opus-5,2026-09-03
+C2B0600,EXCLUDE,OFF_OTHER,tuition-free secondary and child nutrition,claude-opus-5,2026-09-03
+C2B0601,EXCLUDE,OFF_OTHER,community college tuition reductions,claude-opus-5,2026-09-03
+C2B0602,EXCLUDE,OFF_OTHER,tuition fees and student achievement,claude-opus-5,2026-09-03
+C2B0603,EXCLUDE,OFF_OTHER,tuition-free secondary and antenatal care,claude-opus-5,2026-09-03
+C2B0604,EXCLUDE,OFF_OTHER,medical school tuition and physician debt,claude-opus-5,2026-09-03
+C2B0605,EXCLUDE,OFF_OTHER,federal student aid and tuition,claude-opus-5,2026-09-03
+C2B0606,EXCLUDE,OFF_OTHER,MBA market tuition and applications,claude-opus-5,2026-09-03
+C2B0607,EXCLUDE,OFF_OTHER,tuition fee reform and dropout,claude-opus-5,2026-09-03
+C2B0608,EXCLUDE,OFF_OTHER,anatomy of college tuition,claude-opus-5,2026-09-03
+C2B0609,EXCLUDE,OFF_OTHER,high tuition and academic integrity,claude-opus-5,2026-09-03
+C2B0610,EXCLUDE,OFF_OTHER,"literacy after free basic education, Ghana",claude-opus-5,2026-09-03
+C2B0611,EXCLUDE,OFF_OTHER,dependent tuition benefits and recruitment,claude-opus-5,2026-09-03
+C2B0612,EXCLUDE,OFF_OTHER,college affordability commentary,claude-opus-5,2026-09-03
+C2B0613,EXCLUDE,OFF_OTHER,progressive tuition model,claude-opus-5,2026-09-03
+C2B0614,EXCLUDE,OFF_OTHER,pharmacy school cost and opioid dispensing,claude-opus-5,2026-09-03
+C2B0615,EXCLUDE,OFF_OTHER,intermittent college enrolment,claude-opus-5,2026-09-03
+C2B0616,EXCLUDE,OFF_OTHER,tuition fees and funding choice,claude-opus-5,2026-09-03
+C2B0617,EXCLUDE,OFF_OTHER,"tuition, debt and human capital",claude-opus-5,2026-09-03
+C2B0618,EXCLUDE,OFF_OTHER,free primary education and learning outcomes,claude-opus-5,2026-09-03
+C2B0619,BOUNDARY,SCHOOL_COST_FERTILITY,"Ethiopia FPE, further twin; channel BOTH_UNSEPARATED",claude-opus-5,2026-09-03
+C2B0620,BOUNDARY,TIMECOST_BOUNDARY,economic dependency and opportunity cost of childbearing,claude-opus-5,2026-09-03
+C2B0621,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,OECD equivalence scale in tax-benefit analysis,claude-opus-5,2026-09-03
+C2B0622,INCLUDE_CONTEXT,PRICE_ASSOCIATION,"declining fertility and rising costs of children and the elderly, East Asia",claude-opus-5,2026-09-03
+C2B0623,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"expenditure on childbearing, rural community survey",claude-opus-5,2026-09-03
+C2B0624,EXCLUDE,OFF_OTHER,school feeding and nutrition,claude-opus-5,2026-09-03
+C2B0625,BOUNDARY,TIMECOST_BOUNDARY,"time use, child care and the cost of children",claude-opus-5,2026-09-03
+C2B0626,INCLUDE_CONTEXT,PERCEIVED_COST,"perceived costs of children, Australia and PNG; twin",claude-opus-5,2026-09-03
+C2B0627,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"taxing reproduction, transfer cost of rearing children; twin",claude-opus-5,2026-09-03
+C2B0628,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,transfer cost of parenthood in Europe,claude-opus-5,2026-09-03
+C2B0629,EXCLUDE,BIRTH_EVENT_COST,skilled birth attendance after user-fee removal; outcome is attendance,claude-opus-5,2026-09-03
+C2B0630,EXCLUDE,BIRTH_EVENT_COST,"user-fee removal and maternal care utilisation, Zambia",claude-opus-5,2026-09-03
+C2B0631,EXCLUDE,BIRTH_EVENT_COST,user-fee removal and child health outcomes,claude-opus-5,2026-09-03
+C2B0632,ROUTED_OTHER,EXPENDITURE_ASSOCIATION,"inequality and educational spending on children, China; C.2.f",claude-opus-5,2026-09-03
+C2B0633,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,USDA Expenditures on Children 2013; twin,claude-opus-5,2026-09-03
+C2B0634,BOUNDARY,TIMECOST_BOUNDARY,time cost of children as forgone leisure,claude-opus-5,2026-09-03
+C2B0635,BOUNDARY,TIMECOST_BOUNDARY,time use in child care and the total cost of children,claude-opus-5,2026-09-03
 C2B0636,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,monetary cost of raising children,claude-opus-5,2026-09-03
 C2B0637,BOUNDARY,TIMECOST_BOUNDARY,career cost of children's health shocks,claude-opus-5,2026-09-03
 C2B0638,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,equivalence-scale methodology,claude-opus-5,2026-09-03
@@ -379,6 +665,188 @@ C2B0662,EXCLUDE,OFF_OTHER,maths achievement Malaysia,claude-opus-5,2026-09-03
 C2B0663,EXCLUDE,OFF_OTHER,lifelong education,claude-opus-5,2026-09-03
 C2B0664,EXCLUDE,OFF_OTHER,acupuncture preterm labour,claude-opus-5,2026-09-03
 C2B0665,INCLUDE_CONTEXT,THEORY,OLG model with cost of children as a parameter,claude-opus-5,2026-09-03
+C2B0666,EXCLUDE,OFF_OTHER,perinatal mortality rural China,claude-opus-5,2026-09-03
+C2B0667,INCLUDE_CONTEXT,EXPENDITURE_ASSOCIATION,household economics of Korea's low fertility,claude-opus-5,2026-09-03
+C2B0668,INCLUDE_CONTEXT,THEORY,macroeconomics and population growth essays,claude-opus-5,2026-09-03
+C2B0669,INCLUDE_CONTEXT,PERCEIVED_COST,the role and value of children in economic development,claude-opus-5,2026-09-03
+C2B0670,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,direct child costs in Austria,claude-opus-5,2026-09-03
+C2B0671,EXCLUDE,OFF_OTHER,iron deficiency review,claude-opus-5,2026-09-03
+C2B0672,EXCLUDE,OFF_OTHER,life-cycle income and consumption,claude-opus-5,2026-09-03
+C2B0673,EXCLUDE,OFF_OTHER,cancer research advocacy note,claude-opus-5,2026-09-03
+C2B0674,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,continuous consumer equivalence scales,claude-opus-5,2026-09-03
+C2B0675,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,equivalence scales by family size,claude-opus-5,2026-09-03
+C2B0676,INCLUDE_CONTEXT,PRICE_ASSOCIATION,cost of children and Japan's fertility decline; twin,claude-opus-5,2026-09-03
+C2B0677,INCLUDE_CONTEXT,THEORY,Barro-Becker with mortality differential and labour taxation,claude-opus-5,2026-09-03
+C2B0678,INCLUDE_CONTEXT,THEORY,"testing demographic transition hypotheses, Bolivia",claude-opus-5,2026-09-03
+C2B0679,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"costs of raising children and policy effectiveness, Europe; twin",claude-opus-5,2026-09-03
+C2B0680,EXCLUDE,OFF_OTHER,"poverty and population growth, Uganda",claude-opus-5,2026-09-03
+C2B0681,EXCLUDE,OFF_OTHER,student dormitory housing,claude-opus-5,2026-09-03
+C2B0682,EXCLUDE,OFF_OTHER,cash transfers and orphans' school access,claude-opus-5,2026-09-03
+C2B0683,INSUFFICIENT_INFO,,no abstract; Bayesian model of the fertility decision and the cost of a child,claude-opus-5,2026-09-03
+C2B0684,EXCLUDE,OFF_OTHER,welfare legislation for children in Sweden,claude-opus-5,2026-09-03
+C2B0685,EXCLUDE,OFF_OTHER,German foreigner policy,claude-opus-5,2026-09-03
+C2B0686,ROUTED_OTHER,MIXED_PRICE_TRANSFER,monetary pronatalism effectiveness; C.2.d,claude-opus-5,2026-09-03
+C2B0687,ROUTED_OTHER,MIXED_PRICE_TRANSFER,incentives and disincentives in population policy; C.2.d,claude-opus-5,2026-09-03
+C2B0688,INCLUDE_CONTEXT,PRICE_ASSOCIATION,transactional price of an expected child and birth control,claude-opus-5,2026-09-03
+C2B0689,EXCLUDE,OFF_OTHER,CRC implementation report,claude-opus-5,2026-09-03
+C2B0690,INSUFFICIENT_INFO,,no abstract; book chapter titled The Cost of Children,claude-opus-5,2026-09-03
+C2B0691,EXCLUDE,OFF_OTHER,alternative poverty measures Italy,claude-opus-5,2026-09-03
+C2B0692,BOUNDARY,TIMECOST_BOUNDARY,non-market time and household well-being; twin,claude-opus-5,2026-09-03
+C2B0693,INCLUDE_CONTEXT,THEORY,"population, technology and output after Galor-Weil",claude-opus-5,2026-09-03
+C2B0694,INCLUDE_PRIMARY,PRICE_SHOCK_FERTILITY,US fertility decline from slavery and emancipation as a shock to the NET PRICE of children; twin of the JEH article,claude-opus-5,2026-09-03
+C2B0695,EXCLUDE,OFF_OTHER,population and inequality framework,claude-opus-5,2026-09-03
+C2B0696,EXCLUDE,OFF_OTHER,taekwondo coaching,claude-opus-5,2026-09-03
+C2B0697,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"equivalence scales, poverty and inequality Indonesia",claude-opus-5,2026-09-03
+C2B0698,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,demand-based cost-of-children estimates and child poverty,claude-opus-5,2026-09-03
+C2B0699,EXCLUDE,OFF_OTHER,preschool sharing behaviour,claude-opus-5,2026-09-03
+C2B0700,EXCLUDE,OFF_OTHER,free basic education implementation; twin,claude-opus-5,2026-09-03
+C2B0701,EXCLUDE,OFF_OTHER,Jewish supplementary schooling,claude-opus-5,2026-09-03
+C2B0702,EXCLUDE,OFF_OTHER,health care reform and families,claude-opus-5,2026-09-03
+C2B0703,EXCLUDE,OFF_OTHER,social welfare and the elderly France,claude-opus-5,2026-09-03
+C2B0704,INCLUDE_CONTEXT,PRICE_ASSOCIATION,economic factors and planned fertility; financial resources and the price of children,claude-opus-5,2026-09-03
+C2B0705,INSUFFICIENT_INFO,,essays on human capital investment,claude-opus-5,2026-09-03
+C2B0706,BOUNDARY,TIMECOST_BOUNDARY,cash opportunity costs of childbearing; twin,claude-opus-5,2026-09-03
+C2B0707,EXCLUDE,OFF_OTHER,biographical note,claude-opus-5,2026-09-03
+C2B0708,EXCLUDE,OFF_OTHER,childhood in South Africa,claude-opus-5,2026-09-03
+C2B0709,EXCLUDE,OFF_OTHER,obituary,claude-opus-5,2026-09-03
+C2B0710,EXCLUDE,OFF_OTHER,teacher education Northeast India,claude-opus-5,2026-09-03
+C2B0711,EXCLUDE,OFF_OTHER,Canadian health financing,claude-opus-5,2026-09-03
+C2B0712,INCLUDE_CONTEXT,PERCEIVED_COST,"motivations for childbearing, Malaysia; economic reasons dominate",claude-opus-5,2026-09-03
+C2B0713,ROUTED_OTHER,OFF_OTHER,Caldwell wealth-flows theory revisited; C.3.f,claude-opus-5,2026-09-03
+C2B0714,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,separating family size and age effects in equivalence scales,claude-opus-5,2026-09-03
+C2B0715,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,parental expenditure on children's apparel; the SS5 clothing component,claude-opus-5,2026-09-03
+C2B0716,ROUTED_OTHER,MIXED_PRICE_TRANSFER,family transfers and children's economic well-being; C.2.d,claude-opus-5,2026-09-03
+C2B0717,EXCLUDE,OFF_OTHER,parallel simulation scheduling,claude-opus-5,2026-09-03
+C2B0718,INCLUDE_CONTEXT,THEORY,theory of child adoption; twin,claude-opus-5,2026-09-03
+C2B0719,EXCLUDE,OFF_OTHER,"education MDG targets, Spanish twin",claude-opus-5,2026-09-03
+C2B0720,EXCLUDE,OFF_OTHER,public health insurance and small business,claude-opus-5,2026-09-03
+C2B0721,EXCLUDE,OFF_OTHER,school activity fee notice,claude-opus-5,2026-09-03
+C2B0722,EXCLUDE,OFF_OTHER,"tuition, aid policy and student debt",claude-opus-5,2026-09-03
+C2B0723,EXCLUDE,OFF_OTHER,tuition fee reform and dropout,claude-opus-5,2026-09-03
+C2B0724,EXCLUDE,OFF_OTHER,comment on a population policy model,claude-opus-5,2026-09-03
+C2B0725,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,putting a price tag on children; survey of cost measures,claude-opus-5,2026-09-03
+C2B0726,BOUNDARY,TIMECOST_BOUNDARY,causal effect of childbearing on economic wellbeing,claude-opus-5,2026-09-03
+C2B0727,EXCLUDE,OFF_OTHER,ageing and consumption France; twin,claude-opus-5,2026-09-03
+C2B0728,EXCLUDE,OFF_OTHER,child labour in brick kilns,claude-opus-5,2026-09-03
+C2B0729,INCLUDE_CONTEXT,PRICE_ASSOCIATION,"the shadow price of children, Philippine rural households",claude-opus-5,2026-09-03
+C2B0730,EXCLUDE,OFF_OTHER,grade repetition profile,claude-opus-5,2026-09-03
+C2B0731,EXCLUDE,OFF_OTHER,education administrators' discernment,claude-opus-5,2026-09-03
+C2B0732,EXCLUDE,OFF_OTHER,women's micro-enterprise,claude-opus-5,2026-09-03
+C2B0733,EXCLUDE,OFF_OTHER,community music programme,claude-opus-5,2026-09-03
+C2B0734,EXCLUDE,OFF_OTHER,one-child family income commentary,claude-opus-5,2026-09-03
+C2B0735,ROUTED_OTHER,MIXED_PRICE_TRANSFER,"monetary pronatalism, twin; C.2.d",claude-opus-5,2026-09-03
+C2B0736,EXCLUDE,OFF_OTHER,enterprise risk Kenya,claude-opus-5,2026-09-03
+C2B0737,EXCLUDE,OFF_OTHER,contraceptive prevalence Kenya,claude-opus-5,2026-09-03
+C2B0738,ROUTED_OTHER,PRICE_ASSOCIATION,"income and cost of children on fertility, Japan; framed on relative income, C.6.a",claude-opus-5,2026-09-03
+C2B0739,EXCLUDE,OFF_OTHER,"microenterprise and women, Sudan",claude-opus-5,2026-09-03
+C2B0740,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"equivalence scales, cost of children and cost of living",claude-opus-5,2026-09-03
+C2B0741,EXCLUDE,OFF_OTHER,health coverage presentation,claude-opus-5,2026-09-03
+C2B0742,ROUTED_OTHER,OFF_OTHER,fertility and married women's labour force participation; C.2.e,claude-opus-5,2026-09-03
+C2B0743,EXCLUDE,OFF_OTHER,basic education access Garissa,claude-opus-5,2026-09-03
+C2B0744,ROUTED_OTHER,MIXED_PRICE_TRANSFER,Swedish family policy and Japan; C.2.d,claude-opus-5,2026-09-03
+C2B0745,INCLUDE_CONTEXT,PERCEIVED_COST,value of children among family planning acceptors,claude-opus-5,2026-09-03
+C2B0746,INSUFFICIENT_INFO,,three essays on labour economics,claude-opus-5,2026-09-03
+C2B0747,ROUTED_OTHER,OFF_OTHER,child care provision and female labour supply Japan; C.2.a,claude-opus-5,2026-09-03
+C2B0748,EXCLUDE,OFF_OTHER,doctoral programmes in industrial education,claude-opus-5,2026-09-03
+C2B0749,EXCLUDE,OFF_OTHER,basic education advocacy,claude-opus-5,2026-09-03
+C2B0750,EXCLUDE,OFF_OTHER,high fertility in West Africa,claude-opus-5,2026-09-03
+C2B0751,INCLUDE_CONTEXT,PERCEIVED_COST,the 'cost' of a child weighed against perceived benefits,claude-opus-5,2026-09-03
+C2B0752,EXCLUDE,OFF_OTHER,reproductive revolution Thailand,claude-opus-5,2026-09-03
+C2B0753,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,direct maintenance cost of children in Egypt,claude-opus-5,2026-09-03
+C2B0754,EXCLUDE,OFF_OTHER,alternative basic education Uganda,claude-opus-5,2026-09-03
+C2B0755,EXCLUDE,OFF_OTHER,cost of father desertion; twin,claude-opus-5,2026-09-03
+C2B0756,EXCLUDE,OFF_OTHER,electronic health records,claude-opus-5,2026-09-03
+C2B0757,EXCLUDE,OFF_OTHER,editor's note from a maternity hospital,claude-opus-5,2026-09-03
+C2B0758,EXCLUDE,OFF_OTHER,"gender equality discourse and TFR, Japan",claude-opus-5,2026-09-03
+C2B0759,EXCLUDE,OFF_OTHER,gender discrimination in educational investment,claude-opus-5,2026-09-03
+C2B0760,ROUTED_OTHER,MIXED_PRICE_TRANSFER,Italy's Bonus Bebe; C.2.d,claude-opus-5,2026-09-03
+C2B0761,INSUFFICIENT_INFO,,essays on financial aid and student loans,claude-opus-5,2026-09-03
+C2B0762,EXCLUDE,OFF_OTHER,medical bill hardship; twin,claude-opus-5,2026-09-03
+C2B0763,EXCLUDE,OFF_OTHER,fertility change in rural China,claude-opus-5,2026-09-03
+C2B0764,EXCLUDE,OFF_OTHER,private vocational colleges Taiwan,claude-opus-5,2026-09-03
+C2B0765,EXCLUDE,OFF_OTHER,compulsory education of migrant children,claude-opus-5,2026-09-03
+C2B0766,INCLUDE_CONTEXT,PERCEIVED_COST,cost-effect analysis of children within family and society,claude-opus-5,2026-09-03
+C2B0767,ROUTED_OTHER,OFF_OTHER,preschool child care costs within the cost structure of a child; C.2.a,claude-opus-5,2026-09-03
+C2B0768,EXCLUDE,OFF_OTHER,physician workforce growth,claude-opus-5,2026-09-03
+C2B0769,EXCLUDE,OFF_OTHER,Ghana family planning programme,claude-opus-5,2026-09-03
+C2B0770,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Differences in Perception among Teachers about Rashtriya Madhyamik Shi,claude-opus-5,2026-09-03
+C2B0771,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Inside View,claude-opus-5,2026-09-03
+C2B0772,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Essays on Applied Econometrics,claude-opus-5,2026-09-03
+C2B0773,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Tuition in the Public Schools,claude-opus-5,2026-09-03
+C2B0774,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Conclusion and Recommendations,claude-opus-5,2026-09-03
+C2B0775,EXCLUDE,OFF_OTHER,"read and judged off-topic on title and abstract: Energy Provision, Poverty Alleviation and Sustainable Development",claude-opus-5,2026-09-03
+C2B0776,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Jewish Education and Jewish Continuity: Lessons and Challenges,claude-opus-5,2026-09-03
+C2B0777,ROUTED_OTHER,OFF_OTHER,France-Korea child care system comparison; C.2.a,claude-opus-5,2026-09-03
+C2B0778,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Работа с родителями детей с ограниченными возможностями: отечественный,claude-opus-5,2026-09-03
+C2B0779,EXCLUDE,OFF_OTHER,"read and judged off-topic on title and abstract: The Nature and Causes of Poverty, 1900–18",claude-opus-5,2026-09-03
+C2B0780,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Social Welfare Policy Expansion and Generational Equity: Generational ,claude-opus-5,2026-09-03
+C2B0781,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Efficacy of free primary education in withdrawing children from child ,claude-opus-5,2026-09-03
+C2B0782,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Microfinance Products and Enterpreneurship: Analysis of Financial Need,claude-opus-5,2026-09-03
+C2B0783,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Essays on Development Economics: Issues in Macroeconomics and Populati,claude-opus-5,2026-09-03
+C2B0784,EXCLUDE,OFF_OTHER,"read and judged off-topic on title and abstract: MADARIS AND RIGHT TO EDUCATION ACT, 2009",claude-opus-5,2026-09-03
+C2B0785,INCLUDE_CONTEXT,EXPENDITURE_ASSOCIATION,causes of low fertility in Korea; cost among them,claude-opus-5,2026-09-03
+C2B0786,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Crossing the Finish Line,claude-opus-5,2026-09-03
+C2B0787,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: The role of agricultural technology in poverty reduction among crop fa,claude-opus-5,2026-09-03
+C2B0788,INCLUDE_CONTEXT,PERCEIVED_COST,"changing cost and value of children, Nigeria; parental perceptions",claude-opus-5,2026-09-03
+C2B0789,EXCLUDE,OFF_OTHER,"read and judged off-topic on title and abstract: On The Empirics of User-Fees, Maternal Health-Seeking Behavior and Chi",claude-opus-5,2026-09-03
+C2B0790,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: An investigation to the efficacy of free primary education in withdraw,claude-opus-5,2026-09-03
+C2B0791,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Free primary education in Kenya: A household analysis of access to pub,claude-opus-5,2026-09-03
+C2B0792,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Peuplement Spontané Et Accès À L’éducation Primaire Dans La Commune De,claude-opus-5,2026-09-03
+C2B0793,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Free Tuition Secondary Education Policy on Girl-Child Participation,claude-opus-5,2026-09-03
+C2B0794,ROUTED_OTHER,MIXED_PRICE_TRANSFER,optimal child benefits and income taxes; C.2.d,claude-opus-5,2026-09-03
+C2B0795,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Female African American Childcare Teachers in Milwaukee: Construction ,claude-opus-5,2026-09-03
+C2B0796,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Essays on demographic change and education,claude-opus-5,2026-09-03
+C2B0797,ROUTED_OTHER,MIXED_PRICE_TRANSFER,Russia's maternal capital law; C.2.d,claude-opus-5,2026-09-03
+C2B0798,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: The New Eugenics—Selective Breeding in an Era of Reproductive Technolo,claude-opus-5,2026-09-03
+C2B0799,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Four Essays in Inequality,claude-opus-5,2026-09-03
+C2B0800,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Health care financing challenges in the Pacific: priority setting and ,claude-opus-5,2026-09-03
+C2B0801,INCLUDE_CONTEXT,THEORY,"the price of a child under China's one-child policy; a quota, not a price",claude-opus-5,2026-09-03
+C2B0802,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Enrollment Leaders: A Phenomenological Study of Leadership Styles of E,claude-opus-5,2026-09-03
+C2B0803,BOUNDARY,TIMECOST_BOUNDARY,market and nonmarket costs of childbearing,claude-opus-5,2026-09-03
+C2B0804,INSUFFICIENT_INFO,,"no abstract; economic-demographic interactions, twin",claude-opus-5,2026-09-03
+C2B0805,EXCLUDE,OFF_OTHER,"read and judged off-topic on title and abstract: Essays on Women's Fertility, Education, and Female Labor Supply in Vie",claude-opus-5,2026-09-03
+C2B0806,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: HRSA Scholarships for Disadvantaged Students – Undergrad Nursing,claude-opus-5,2026-09-03
+C2B0807,EXCLUDE,OFF_OTHER,"read and judged off-topic on title and abstract: Essays in Education, Fertility, and the Welfare State",claude-opus-5,2026-09-03
+C2B0808,BOUNDARY,TIMECOST_BOUNDARY,motherhood ceiling and Korea's gender pay gap,claude-opus-5,2026-09-03
+C2B0809,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Kaunas Jewish Gymnasium with the Lithuanian Language of Instruction: A,claude-opus-5,2026-09-03
+C2B0810,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Bitterness and intrigue,claude-opus-5,2026-09-03
+C2B0811,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Essays in Women's Fertility and Public Policies,claude-opus-5,2026-09-03
+C2B0812,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Impact of Rashtriya Madhyamik Shiksha AbhiyAn in Kolkata from parents’,claude-opus-5,2026-09-03
+C2B0813,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: How to Find and Keep the Best Employees in the 21st Century; It's Time,claude-opus-5,2026-09-03
+C2B0814,INCLUDE_CONTEXT,EXPENDITURE_ASSOCIATION,"does fertility decrease household consumption; the SS2 identity, direct measure",claude-opus-5,2026-09-03
+C2B0815,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Child Schooling in Sidama: Predicting School Dropping out and Sex-Pref,claude-opus-5,2026-09-03
+C2B0816,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,child support cost tables and second-household adjustment,claude-opus-5,2026-09-03
+C2B0817,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Essays on Schooling and Health in Sub-Saharan Africa,claude-opus-5,2026-09-03
+C2B0818,EXCLUDE,OFF_OTHER,"read and judged off-topic on title and abstract: In Memoriam: C. Wayne Bardin, 1934–2019",claude-opus-5,2026-09-03
+C2B0819,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: THE EXPENDITURES OF THE CITIES BUDGETS OF THE UKRAINIAN SSR ON THE DEV,claude-opus-5,2026-09-03
+C2B0820,INCLUDE_CONTEXT,PERCEIVED_COST,"family size decisions, Czech Republic",claude-opus-5,2026-09-03
+C2B0821,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Three Essays on the Economics of Education,claude-opus-5,2026-09-03
+C2B0822,BOUNDARY,TIMECOST_BOUNDARY,gender wage gap and child employment penalty,claude-opus-5,2026-09-03
+C2B0823,EXCLUDE,OFF_OTHER,"read and judged off-topic on title and abstract: A Freedom to Die For, 1964–1982",claude-opus-5,2026-09-03
+C2B0824,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,redistributive taxation and household work status,claude-opus-5,2026-09-03
+C2B0825,INCLUDE_CONTEXT,THEORY,economics of fertility and ageing,claude-opus-5,2026-09-03
+C2B0826,INCLUDE_CONTEXT,THEORY,demographic transition and economic development,claude-opus-5,2026-09-03
+C2B0827,ROUTED_OTHER,OFF_OTHER,"house prices and birth rates, twin; C.2.c",claude-opus-5,2026-09-03
+C2B0828,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: ‘Weak Blood’ and ‘Crowded Bellies’: Cultural Influences on Contracepti,claude-opus-5,2026-09-03
+C2B0829,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: FIELD OF STUDY CHOICES OF YOUNG FEMALE POSTSECONDARY STUDENTS IN FOUR ,claude-opus-5,2026-09-03
+C2B0830,BOUNDARY,SCHOOL_COST_FERTILITY,"Ethiopia FPE, further twin; channel BOTH_UNSEPARATED",claude-opus-5,2026-09-03
+C2B0831,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Tuition Discounting: Promoting Access in American Postsecondary Educat,claude-opus-5,2026-09-03
+C2B0832,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"household demand behaviour, Spanish expenditure data",claude-opus-5,2026-09-03
+C2B0833,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Rethinking problems surrounding access to care: the moral economies sh,claude-opus-5,2026-09-03
+C2B0834,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Pemanfaatan Keberadaan Alun-Alun Karanganyar Untuk Kesejahteraan Pedag,claude-opus-5,2026-09-03
+C2B0835,BOUNDARY,TIMECOST_BOUNDARY,"child penalty in pensions, twin",claude-opus-5,2026-09-03
+C2B0836,INCLUDE_CONTEXT,THEORY,standard endogenous fertility model and family policy,claude-opus-5,2026-09-03
+C2B0837,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Rising Public College Tuition and College Entry: How Well Do Public Su,claude-opus-5,2026-09-03
+C2B0838,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Increasing Access by Waiving Tuition: Evidence from Haiti,claude-opus-5,2026-09-03
+C2B0839,ROUTED_OTHER,OFF_OTHER,"fertility, female labour supply and family policy; C.2.e",claude-opus-5,2026-09-03
+C2B0840,EXCLUDE,OFF_OTHER,"read and judged off-topic on title and abstract: Reconciling Work, Family and Child Outcomes: What Implications for Fam",claude-opus-5,2026-09-03
+C2B0841,INCLUDE_CONTEXT,THEORY,"human capital and the demographic transition, twin",claude-opus-5,2026-09-03
+C2B0842,INSUFFICIENT_INFO,,"no abstract; TERMINATION of universal primary education, Kenya -- a fee REINTRODUCTION and therefore a rare RISE-direction shock",claude-opus-5,2026-09-03
+C2B0843,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Trends in the Education Sector from 1993-98,claude-opus-5,2026-09-03
+C2B0844,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Measurement of Low Incomes and Poverty in A Perspective of Internation,claude-opus-5,2026-09-03
+C2B0845,EXCLUDE,OFF_OTHER,"read and judged off-topic on title and abstract: Human Capital, Household Welfare, and Children’s Schooling in Mozambiq",claude-opus-5,2026-09-03
+C2B0846,ROUTED_OTHER,MIXED_PRICE_TRANSFER,"efficiency cost of child tax benefits, twin; C.2.d",claude-opus-5,2026-09-03
+C2B0847,ROUTED_OTHER,OFF_OTHER,"fertility and maternal labour supply Japan, twin; C.2.e",claude-opus-5,2026-09-03
 C2B0848,EXCLUDE,OFF_OTHER,child health coverage adequacy,claude-opus-5,2026-09-03
 C2B0849,INCLUDE_PRIMARY,PRICE_SHOCK_FERTILITY,"Israeli kibbutz privatisation of child costs; exogenous cross-kibbutz variation, lifetime fertility -0.59. Direction RISE",claude-opus-5,2026-09-03
 C2B0850,EXCLUDE,OFF_OTHER,FPE and child labour; outcome is child labour,claude-opus-5,2026-09-03
@@ -409,3 +877,186 @@ C2B0874,EXCLUDE,OFF_OTHER,news items,claude-opus-5,2026-09-03
 C2B0875,BOUNDARY,OFF_OTHER,"in-state tuition benefits; the exposure is the WOMAN'S OWN education price, not the price of a child -> C.3.g/C.2.e",claude-opus-5,2026-09-03
 C2B0876,EXCLUDE,OFF_OTHER,journal cover matter,claude-opus-5,2026-09-03
 C2B0877,EXCLUDE,OFF_OTHER,infant mortality inequalities,claude-opus-5,2026-09-03
+C2B0878,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: ABOUT THE AUTHORS,claude-opus-5,2026-09-03
+C2B0879,EXCLUDE,OFF_OTHER,"read and judged off-topic on title and abstract: Provisional Birth-Planning Rules for Han-Chinese Cadres, Workers, and ",claude-opus-5,2026-09-03
+C2B0880,EXCLUDE,OFF_OTHER,"read and judged off-topic on title and abstract: Detroit Area Study, 1983: Attitudes and Experiences in Detroit",claude-opus-5,2026-09-03
+C2B0881,EXCLUDE,OFF_OTHER,"read and judged off-topic on title and abstract: In Memoriam: C. Wayne Bardin, 1934–2019",claude-opus-5,2026-09-03
+C2B0882,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Decision-making within higher education,claude-opus-5,2026-09-03
+C2B0883,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Giving Children and Parents a Brighter Future,claude-opus-5,2026-09-03
+C2B0884,EXCLUDE,OFF_OTHER,"read and judged off-topic on title and abstract: In Memoriam: C. Wayne Bardin, 1934-2019",claude-opus-5,2026-09-03
+C2B0885,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: A Kind of Schooling,claude-opus-5,2026-09-03
+C2B0886,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"family size and age effects in equivalence scales, twin",claude-opus-5,2026-09-03
+C2B0887,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: 9 Management challenges in achieving Education For All: South Asian pe,claude-opus-5,2026-09-03
+C2B0888,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Cropland,claude-opus-5,2026-09-03
+C2B0889,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Preface,claude-opus-5,2026-09-03
+C2B0890,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Education,claude-opus-5,2026-09-03
+C2B0891,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: On Universities Across the Strait,claude-opus-5,2026-09-03
+C2B0892,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: A rapid assessment of post-disclosure experiences of urban HIV-positiv,claude-opus-5,2026-09-03
+C2B0893,ROUTED_OTHER,OFF_OTHER,grandparent coresidence; A.23,claude-opus-5,2026-09-03
+C2B0894,BOUNDARY,TIMECOST_BOUNDARY,female LFP barriers and the child penalty,claude-opus-5,2026-09-03
+C2B0895,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Patient Handout,claude-opus-5,2026-09-03
+C2B0896,BOUNDARY,TIMECOST_BOUNDARY,"unequal earnings trajectories after parenthood, twin",claude-opus-5,2026-09-03
+C2B0897,EXCLUDE,OFF_OTHER,"read and judged off-topic on title and abstract: Women's income, fertility and development policy",claude-opus-5,2026-09-03
+C2B0898,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: A Special Issue: Coding for Children With Special Health Care Needs,claude-opus-5,2026-09-03
+C2B0899,ROUTED_OTHER,MIXED_PRICE_TRANSFER,"incentives to delay marriage, Bangladesh; C.2.d",claude-opus-5,2026-09-03
+C2B0900,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Comparing random forest and AdaBoost with resampling for modeling imba,claude-opus-5,2026-09-03
+C2B0901,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Intended and Unintended Effects of State Tuition Benefits to Undocumen,claude-opus-5,2026-09-03
+C2B0902,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Difficulties with handwriting in primary school children,claude-opus-5,2026-09-03
+C2B0903,BOUNDARY,TIMECOST_BOUNDARY,"motherhood wage and income traps, twin",claude-opus-5,2026-09-03
+C2B0904,BOUNDARY,TIMECOST_BOUNDARY,"motherhood wage and income traps, further twin",claude-opus-5,2026-09-03
+C2B0905,INSUFFICIENT_INFO,,no abstract; bounding fertility elasticities,claude-opus-5,2026-09-03
+C2B0906,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: FUNDAMENTAL TAX REFORM IS URGENTLY NEEDED,claude-opus-5,2026-09-03
+C2B0907,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Essays on the Economics of Health and Education,claude-opus-5,2026-09-03
+C2B0908,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: The Impact of Clan Culture on Married Female's Income in the Context o,claude-opus-5,2026-09-03
+C2B0909,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: The Education Policy Agenda and Education Research in Africa : Concern,claude-opus-5,2026-09-03
+C2B0910,EXCLUDE,OFF_OTHER,"read and judged off-topic on title and abstract: Intercountry adoption in Europe 1998–2007: patterns, trends and issues",claude-opus-5,2026-09-03
+C2B0911,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: From the Editor,claude-opus-5,2026-09-03
+C2B0912,INSUFFICIENT_INFO,,"no abstract; economic-demographic interactions, twin",claude-opus-5,2026-09-03
+C2B0913,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"family fertility cost estimation, CFPS",claude-opus-5,2026-09-03
+C2B0914,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Education and skills,claude-opus-5,2026-09-03
+C2B0915,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Determinants of Human Capital Investment in Indian Punjab,claude-opus-5,2026-09-03
+C2B0916,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Staring into the Abyss: Does Accounting Face a Looming Enrollment Cris,claude-opus-5,2026-09-03
+C2B0917,BOUNDARY,TIMECOST_BOUNDARY,educational hypogamy and the child penalty,claude-opus-5,2026-09-03
+C2B0918,ROUTED_OTHER,MIXED_PRICE_TRANSFER,"California paid family leave, twin; C.2.d",claude-opus-5,2026-09-03
+C2B0919,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Penentuan Program Indonesia Pintar (PIP) Pada Siswa Kurang Mampu denga,claude-opus-5,2026-09-03
+C2B0920,ROUTED_OTHER,SCHOOL_COST_FERTILITY,"UPE and brideprice, twin; channel MATERNAL_SCHOOLING",claude-opus-5,2026-09-03
+C2B0921,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Cultural and Socio-Economic Factors Contributing to Upsurge in Teenage,claude-opus-5,2026-09-03
+C2B0922,BOUNDARY,TIMECOST_BOUNDARY,"non-market household time and the cost of children, dataset record",claude-opus-5,2026-09-03
+C2B0923,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Relationship Between Fathers’ Employment Characteristics at First Chil,claude-opus-5,2026-09-03
+C2B0924,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Socio-Economic Factors Impacting Education Attainment in Primary Schoo,claude-opus-5,2026-09-03
+C2B0925,INSUFFICIENT_INFO,,"no abstract; economic-demographic interactions, further twin",claude-opus-5,2026-09-03
+C2B0926,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: The History of Bunkerville,claude-opus-5,2026-09-03
+C2B0927,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: The Looming Storm,claude-opus-5,2026-09-03
+C2B0928,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Regional public university chief marketing officers' perceptions of be,claude-opus-5,2026-09-03
+C2B0929,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"the cost of children, household-expenses chapter",claude-opus-5,2026-09-03
+C2B0930,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Preschool Availability in New Hampshire Public Schools,claude-opus-5,2026-09-03
+C2B0931,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Impact of School Canteens on School Retention and Academic Performance,claude-opus-5,2026-09-03
+C2B0932,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Disentangling the antecedents of higher education mergers,claude-opus-5,2026-09-03
+C2B0933,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: The Failure of Public Higher Education Reform in North America and Wes,claude-opus-5,2026-09-03
+C2B0934,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: A study of private tuition inequality: focusing on the private tuition,claude-opus-5,2026-09-03
+C2B0935,BOUNDARY,TIMECOST_BOUNDARY,"child penalties, child outcomes and family culture",claude-opus-5,2026-09-03
+C2B0936,INCLUDE_CONTEXT,PRICE_ASSOCIATION,"consumption smoothing, cost of children and DESIRED family size, twin",claude-opus-5,2026-09-03
+C2B0937,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Financial Barriers to Oncofertility Services for Adolescent & Young Ad,claude-opus-5,2026-09-03
+C2B0938,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: The Korean Residency Crisis: A Cautionary Tale for U.S. Health Care,claude-opus-5,2026-09-03
+C2B0939,INCLUDE_CONTEXT,PRICE_ASSOCIATION,"fertility under the pressure of child-raising costs, China",claude-opus-5,2026-09-03
+C2B0940,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Long-Run Impacts of Fertility Restriction Policy on China's Gender Gap,claude-opus-5,2026-09-03
+C2B0941,EXCLUDE,OFF_OTHER,"read and judged off-topic on title and abstract: Практика применения мер, направленных на снижение бедности, c учетом у",claude-opus-5,2026-09-03
+C2B0942,BOUNDARY,TIMECOST_BOUNDARY,variation in child penalties and gender norms,claude-opus-5,2026-09-03
+C2B0943,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: The family ability to pay for health care expenditures on malaria trea,claude-opus-5,2026-09-03
+C2B0944,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"cost of raising a child, US equivalence scales; twin",claude-opus-5,2026-09-03
+C2B0945,INCLUDE_CONTEXT,THEORY,"New Household economics and Black families, historical",claude-opus-5,2026-09-03
+C2B0946,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Birthing a Nation: Political Legitimacy and Health Policy in Hastings ,claude-opus-5,2026-09-03
+C2B0947,INSUFFICIENT_INFO,,no abstract; chapter titled The Cost of Children,claude-opus-5,2026-09-03
+C2B0948,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Revitalizing Interest among MBBS Graduates in Pursuing Anatomy as Care,claude-opus-5,2026-09-03
+C2B0949,ROUTED_OTHER,OFF_OTHER,IVF and involuntary childlessness; A.17,claude-opus-5,2026-09-03
+C2B0950,BOUNDARY,TIMECOST_BOUNDARY,fertility and promotion in academic careers,claude-opus-5,2026-09-03
+C2B0951,EXCLUDE,OFF_OTHER,"read and judged off-topic on title and abstract: Fertility in Sub-Saharan Africa: The Interplay between Policy, Culture",claude-opus-5,2026-09-03
+C2B0952,EXCLUDE,OFF_OTHER,"read and judged off-topic on title and abstract: Forgive Us Our Debts, as We Forgive Our Debtors",claude-opus-5,2026-09-03
+C2B0953,INCLUDE_PRIMARY,SCHOOL_COST_FERTILITY,"TERMINATION of universal primary education and fertility -- a fee REINTRODUCTION, the RISE direction scope SS4 says is nearly absent",claude-opus-5,2026-09-03
+C2B0954,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Household factors influencing child dropout in government-aided primar,claude-opus-5,2026-09-03
+C2B0955,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Germany and International Student Mobility,claude-opus-5,2026-09-03
+C2B0956,ROUTED_OTHER,MIXED_PRICE_TRANSFER,paternity leave and fertility; C.2.d,claude-opus-5,2026-09-03
+C2B0957,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: EFFECT OF INTERNATIONAL FUNDS FOR AGRICULTURAL DEVELOPMENT-VALUE CHAIN,claude-opus-5,2026-09-03
+C2B0958,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Sistem Pendukung Keputusan Penerima Dispensasi UKT(Uang Kuliah Tunggal,claude-opus-5,2026-09-03
+C2B0959,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: The Impact of Women’s Education on the Second Childbirth Interval: Evi,claude-opus-5,2026-09-03
+C2B0960,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: A cost analysis comparing seasonal malaria chemoprevention with and wi,claude-opus-5,2026-09-03
+C2B0961,BOUNDARY,BIRTH_EVENT_COST,"free caesarean section access, Benin; the price of a BIRTH",claude-opus-5,2026-09-03
+C2B0962,BOUNDARY,TIMECOST_BOUNDARY,fertility choices under career risk,claude-opus-5,2026-09-03
+C2B0963,ROUTED_OTHER,MIXED_PRICE_TRANSFER,"parental leave, families and firms; C.2.d",claude-opus-5,2026-09-03
+C2B0964,BOUNDARY,BIRTH_EVENT_COST,"free caesarean access, Benin; twin",claude-opus-5,2026-09-03
+C2B0965,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: SOCIO-ECONOMIC FACTORS INFLUENCING PRIMARY SCHOOL DROPOUT AMONG HOUSEH,claude-opus-5,2026-09-03
+C2B0966,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Peer Review Report For: A demographic dividend of the FP2020 Initiativ,claude-opus-5,2026-09-03
+C2B0967,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Peer Review Report For: A demographic dividend of the FP2020 Initiativ,claude-opus-5,2026-09-03
+C2B0968,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Barriers to Girls’ Secondary School Participation: Retention and Compl,claude-opus-5,2026-09-03
+C2B0969,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,econometric analysis of household consumption patterns,claude-opus-5,2026-09-03
+C2B0970,EXCLUDE,OFF_OTHER,"read and judged off-topic on title and abstract: Essays on the Economics of Women, Work and Family",claude-opus-5,2026-09-03
+C2B0971,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Suggestions to the promoters of Dr. Bell's system of tuition : with an,claude-opus-5,2026-09-03
+C2B0972,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: How Far is Early Education Achieving the Dakar Goals? Young Lives Evid,claude-opus-5,2026-09-03
+C2B0973,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"family cost of children, quantile regression",claude-opus-5,2026-09-03
+C2B0974,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"updated costs of children, Australian budget standards; twin",claude-opus-5,2026-09-03
+C2B0975,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Data and Code for: The Long-Run Effects of Taking Up Paid Leave on Wom,claude-opus-5,2026-09-03
+C2B0976,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,cost of children in one-adult households,claude-opus-5,2026-09-03
+C2B0977,BOUNDARY,TIMECOST_BOUNDARY,"motherhood wage and income traps, working paper twin",claude-opus-5,2026-09-03
+C2B0978,ROUTED_OTHER,OFF_OTHER,"birth timing and spacing under parental leave, twin",claude-opus-5,2026-09-03
+C2B0979,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Data set and cost categories,claude-opus-5,2026-09-03
+C2B0980,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Education and teenage childbirth in Uganda,claude-opus-5,2026-09-03
+C2B0981,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Education and teenage childbirth in Uganda,claude-opus-5,2026-09-03
+C2B0982,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Annex 2: Sensitivity analyses.,claude-opus-5,2026-09-03
+C2B0983,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Inclusivity questionnaire.,claude-opus-5,2026-09-03
+C2B0984,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Medicaid Managed Care for Children and Youth,claude-opus-5,2026-09-03
+C2B0985,INCLUDE_CONTEXT,THEORY,health and education investment with endogenous fertility,claude-opus-5,2026-09-03
+C2B0986,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"cost of children in one-headed households, twin",claude-opus-5,2026-09-03
+C2B0987,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Un confronto tra misure alternative della povert? nel caso italiano,claude-opus-5,2026-09-03
+C2B0988,ROUTED_OTHER,OFF_OTHER,universal preschool lottery; C.2.a,claude-opus-5,2026-09-03
+C2B0989,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"subjective cost of young children, twin",claude-opus-5,2026-09-03
+C2B0990,INCLUDE_CONTEXT,THEORY,"economic approach to fertility, causal mediation; twin",claude-opus-5,2026-09-03
+C2B0991,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Performance of women micro - enterprises in Misungwi village : the cas,claude-opus-5,2026-09-03
+C2B0992,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,endogeneity of household size in equivalence scales,claude-opus-5,2026-09-03
+C2B0993,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Universal Primary Education in Nigeria,claude-opus-5,2026-09-03
+C2B0994,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"intra-household inequality, Brazil, collective model",claude-opus-5,2026-09-03
+C2B0995,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: An analysis of livelihood security dimensions of pomegranate growers u,claude-opus-5,2026-09-03
+C2B0996,INCLUDE_CONTEXT,THEORY,"fertility, taxation and redistribution in ageing democracies",claude-opus-5,2026-09-03
+C2B0997,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Demographic Issues in Contemporary Russia: Causes and Legal Solutions,claude-opus-5,2026-09-03
+C2B0998,BOUNDARY,TIMECOST_BOUNDARY,endogenous motherhood penalties and career choice,claude-opus-5,2026-09-03
+C2B0999,BOUNDARY,TIMECOST_BOUNDARY,identification of child penalties,claude-opus-5,2026-09-03
+C2B1000,BOUNDARY,TIMECOST_BOUNDARY,"identification of child penalties, twin",claude-opus-5,2026-09-03
+C2B1001,INCLUDE_CONTEXT,THEORY,"low fertility in Australia, twin",claude-opus-5,2026-09-03
+C2B1002,INCLUDE_CONTEXT,THEORY,"low fertility in Australia, further twin",claude-opus-5,2026-09-03
+C2B1003,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: A Comparative Analysis of National and Regional Poverty Targeting: A C,claude-opus-5,2026-09-03
+C2B1004,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Nova University National Ed.D. Program for Educational Leaders 1989-19,claude-opus-5,2026-09-03
+C2B1005,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Services Available To Children Of Leprosy Patients In Leprosy Settleme,claude-opus-5,2026-09-03
+C2B1006,BOUNDARY,TIMECOST_BOUNDARY,"parenthood and the gender gap, Italy",claude-opus-5,2026-09-03
+C2B1007,BOUNDARY,SCHOOL_COST_FERTILITY,Vietnam's Universal Primary Education Law and women's outcomes; channel MATERNAL_SCHOOLING,claude-opus-5,2026-09-03
+C2B1008,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Investigation of The Effects of Free Primary Education on Transition A,claude-opus-5,2026-09-03
+C2B1009,EXCLUDE,OFF_OTHER,"read and judged off-topic on title and abstract: Factors affecting enrollment in public primary schools in Kiteta zone,",claude-opus-5,2026-09-03
+C2B1010,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: The influence of poverty on academic achievement of Secondary school s,claude-opus-5,2026-09-03
+C2B1011,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Socio-economic factors influencing boy- child drop out rate from publi,claude-opus-5,2026-09-03
+C2B1012,BOUNDARY,TIMECOST_BOUNDARY,"marriage penalty and child penalty, twin",claude-opus-5,2026-09-03
+C2B1013,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Socio-economic factors influencing boy- child drop Out rate in public ,claude-opus-5,2026-09-03
+C2B1014,INSUFFICIENT_INFO,,structural issues in macroeconomics dissertation,claude-opus-5,2026-09-03
+C2B1015,INCLUDE_CONTEXT,PERCEIVED_COST,"decision about family size, twin",claude-opus-5,2026-09-03
+C2B1016,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: [[alternative]]The Establishment of Poverty Threshold and Measurement ,claude-opus-5,2026-09-03
+C2B1017,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Thanks from Haiti,claude-opus-5,2026-09-03
+C2B1018,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: The Impact of High University Tuition Policy on Disadvantage Students ,claude-opus-5,2026-09-03
+C2B1019,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Preschool Availability in New Hampshire Public Schools,claude-opus-5,2026-09-03
+C2B1020,INCLUDE_PRIMARY,SCHOOL_COST_FERTILITY,"causal impact of FREE PRIMARY EDUCATION on FERTILITY, framed through gender norms and the QQ tradeoff",claude-opus-5,2026-09-03
+C2B1021,INCLUDE_CONTEXT,THEORY,microeconomic theory of fertility choice,claude-opus-5,2026-09-03
+C2B1022,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: 発展途上国における教育政策の実証分析 : 西アフリカの教育政策における分権化アプローチの効果 (本文),claude-opus-5,2026-09-03
+C2B1023,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: 都道府県別に見た世帯所得の分布と平均寿命の変化 : 地域の所得格差は健康を損なうか,claude-opus-5,2026-09-03
+C2B1024,BOUNDARY,TIMECOST_BOUNDARY,the child penalty in the rental housing market,claude-opus-5,2026-09-03
+C2B1025,ROUTED_OTHER,MIXED_PRICE_TRANSFER,"family policy reform and fertility intentions, East Asia; C.2.d",claude-opus-5,2026-09-03
+C2B1026,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Essays in Applied Microeconomics,claude-opus-5,2026-09-03
+C2B1027,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Advancing Access and Innovation in Contraceptive Technology: Current P,claude-opus-5,2026-09-03
+C2B1028,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: OF INTERNAL CONTROL AND HUMAN RESOURCES ON FINANCIAL REPORTS,claude-opus-5,2026-09-03
+C2B1029,INCLUDE_CONTEXT,COST_SERIES_MEASUREMENT,"cost of children within marriage, revealed preference",claude-opus-5,2026-09-03
+C2B1030,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Version 5,claude-opus-5,2026-09-03
+C2B1031,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Version 3,claude-opus-5,2026-09-03
+C2B1032,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Version 2,claude-opus-5,2026-09-03
+C2B1033,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Version 4,claude-opus-5,2026-09-03
+C2B1034,BOUNDARY,QQ_BOUNDARY,shadow education and family size effects on parental spending,claude-opus-5,2026-09-03
+C2B1035,BOUNDARY,TIMECOST_BOUNDARY,delaying fertility and career consequences,claude-opus-5,2026-09-03
+C2B1036,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: SAVI Where You Live Matters: Exploring education opportunity and outco,claude-opus-5,2026-09-03
+C2B1037,EXCLUDE,OFF_OTHER,"read and judged off-topic on title and abstract: Appendix: Heterogeneous Effects of Womens Schooling on Fertility, Lite",claude-opus-5,2026-09-03
+C2B1038,BOUNDARY,TIMECOST_BOUNDARY,"causal inference for child penalties, twin",claude-opus-5,2026-09-03
+C2B1039,EXCLUDE,OFF_OTHER,"read and judged off-topic on title and abstract: A reassessment of orthodontic residents’ demographics, educational exp",claude-opus-5,2026-09-03
+C2B1040,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Crate or Crib: (Some) Economics of Pet Ownership,claude-opus-5,2026-09-03
+C2B1041,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Crate or Crib: (Some) Economics of Pet Ownership,claude-opus-5,2026-09-03
+C2B1042,INSUFFICIENT_INFO,,no abstract; family formation under a subjective future constraint,claude-opus-5,2026-09-03
+C2B1043,EXCLUDE,OFF_OTHER,"read and judged off-topic on title and abstract: PREVALENCE, PATTERN, AND DETERMINANTS OF CHILDREN'S INVOLVEMENT IN ECO",claude-opus-5,2026-09-03
+C2B1044,EXCLUDE,OFF_OTHER,"read and judged off-topic on title and abstract: PREVALENCE, PATTERN, AND DETERMINANTS OF CHILDREN'S INVOLVEMENT IN ECO",claude-opus-5,2026-09-03
+C2B1045,ROUTED_OTHER,OFF_OTHER,"universal free PRESCHOOL and fertility; preschool is childcare, C.2.a",claude-opus-5,2026-09-03
+C2B1046,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: The Effect of Early Marriages on Social Development in Kakabara Town C,claude-opus-5,2026-09-03
+C2B1047,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Lapsensaannin vaikutukset sukupuolten väliseen palkkaeroon ja työtunte,claude-opus-5,2026-09-03
+C2B1048,INSUFFICIENT_INFO,,essays on women's fertility and public policy,claude-opus-5,2026-09-03
+C2B1049,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Economic Background of Undergraduate Students and their Academic Perfo,claude-opus-5,2026-09-03
+C2B1050,INCLUDE_CONTEXT,THEORY,gender norms and fertility decline,claude-opus-5,2026-09-03
+C2B1051,INSUFFICIENT_INFO,,"education, care and fertility in South Korea; essays",claude-opus-5,2026-09-03
+C2B1052,EXCLUDE,OFF_OTHER,"read and judged off-topic on title and abstract: High School and Beyond, 1980: Sophomore and Senior Cohort Second Follo",claude-opus-5,2026-09-03
+C2B1053,INCLUDE_CONTEXT,PRICE_ASSOCIATION,the cost of children as a cause of the decline in births,claude-opus-5,2026-09-03
+C2B1054,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Speaking Up on IDEA ’04: Members Testify in Seven Cities About Regulat,claude-opus-5,2026-09-03
+C2B1055,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Postsecondary Education in Hard Times: Appearances and Realities.,claude-opus-5,2026-09-03
+C2B1056,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Providing Affordable Access to Higher Education through Year-Round Ope,claude-opus-5,2026-09-03
+C2B1057,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: Participatory Perspectives: A Photovoice Narrative Study of Zambian Vu,claude-opus-5,2026-09-03
+C2B1058,INCLUDE_CONTEXT,THEORY,"micro-level decisions to limit fertility, theory",claude-opus-5,2026-09-03
+C2B1059,EXCLUDE,OFF_OTHER,read and judged off-topic on title and abstract: The role of 'mzungu' voluntourism in schools and community development,claude-opus-5,2026-09-03
+C2B1060,INCLUDE_PRIMARY,PRICE_SHOCK_FERTILITY,college tuition and the fertility rate in Taiwan; twin of the published record,claude-opus-5,2026-09-03

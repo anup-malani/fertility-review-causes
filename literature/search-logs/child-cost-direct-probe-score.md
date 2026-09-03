@@ -27,25 +27,27 @@ Per-stratum primary counts, head to tail: **[1, 1, 0, 0, 2]**.
 
 | cell | n |
 |---|---|
-| `OFF_OTHER` | 82 |
-| `COST_SERIES_MEASUREMENT` | 20 |
-| `TIMECOST_BOUNDARY` | 12 |
-| `THEORY` | 10 |
-| `(none)` | 9 |
-| `SCHOOL_COST_FERTILITY` | 4 |
-| `EXPENDITURE_ASSOCIATION` | 4 |
-| `QQ_BOUNDARY` | 2 |
-| `MIXED_PRICE_TRANSFER` | 2 |
-| `PRICE_SHOCK_FERTILITY` | 2 |
-| `MIXED_PRICE_VALUE` | 1 |
-| `BIRTH_EVENT_COST` | 1 |
-| `PERCEIVED_COST` | 1 |
+| `OFF_OTHER` | 625 |
+| `COST_SERIES_MEASUREMENT` | 99 |
+| `THEORY` | 69 |
+| `TIMECOST_BOUNDARY` | 67 |
+| `(none)` | 39 |
+| `MIXED_PRICE_TRANSFER` | 36 |
+| `SCHOOL_COST_FERTILITY` | 33 |
+| `PERCEIVED_COST` | 28 |
+| `PRICE_ASSOCIATION` | 23 |
+| `EXPENDITURE_ASSOCIATION` | 10 |
+| `BIRTH_EVENT_COST` | 9 |
+| `QQ_BOUNDARY` | 8 |
+| `PRICE_SHOCK_FERTILITY` | 8 |
+| `CHILD_HEALTH_COST_FERTILITY` | 4 |
+| `MIXED_PRICE_VALUE` | 3 |
 
 ## Sensitivity against the withheld gold
 
-The universe holds **23** gold records. The probe touched **8** of them; the other **15** are UNSCREENED and are counted neither as a catch nor as a miss.
+The universe holds **23** gold records. The probe touched **23** of them; the other **0** are UNSCREENED and are counted neither as a catch nor as a miss.
 
-**Sensitivity on screened gold: 8/8 = 100%**
+**Sensitivity on screened gold: 23/23 = 100%**
 
 | gold record | verdict | cell |
 |---|---|---|
@@ -56,13 +58,73 @@ The universe holds **23** gold records. The probe touched **8** of them; the oth
 | Does female schooling reduce fertility? Evidence from Nigeria | `BOUNDARY` | `SCHOOL_COST_FERTILITY` |
 | Bargaining over Babies: Theory, Evidence, and Policy Implications | `INCLUDE_CONTEXT` | `THEORY` |
 | Chapter 7 The economics of fertility in developed countries | `INCLUDE_CONTEXT` | `THEORY` |
+| Expenditures on Children by Families, 2007 | `INCLUDE_CONTEXT` | `COST_SERIES_MEASUREMENT` |
+| Do Cross-National Differences in the Costs of Children Generate Cr | `INCLUDE_CONTEXT` | `PRICE_ASSOCIATION` |
+| The Income–Fertility Relationship: Effect of the Net Price of a Ch | `INCLUDE_CONTEXT` | `PRICE_ASSOCIATION` |
+| DECLINING FERTILITY AND THE RISING COST OF CHILDREN | `INCLUDE_CONTEXT` | `PRICE_ASSOCIATION` |
+| The price of children and socio-economic theories of fertility | `INCLUDE_CONTEXT` | `PRICE_ASSOCIATION` |
+| Free Primary Education, Timing of Fertility, and Total Fertility | `BOUNDARY` | `SCHOOL_COST_FERTILITY` |
+| Changing the Cost of Children and Fertility: Evidence from the Isr | `INCLUDE_PRIMARY` | `PRICE_SHOCK_FERTILITY` |
+| Abolishing user fees, fertility choice, and educational attainment | `INCLUDE_PRIMARY` | `CHILD_HEALTH_COST_FERTILITY` |
+| ‘Two children to make ends meet’: the ideal family size, parental  | `INCLUDE_CONTEXT` | `EXPENDITURE_ASSOCIATION` |
 | The Influence of College Tuition and Fees on Fertility Rate in Tai | `INCLUDE_PRIMARY` | `PRICE_SHOCK_FERTILITY` |
+| Valuing Children: Rethinking the Economics of the Family | `INCLUDE_CONTEXT` | `THEORY` |
+| The Effects of Cost of Children on Fertility Rate: Focusing on OEC | `INCLUDE_CONTEXT` | `PRICE_ASSOCIATION` |
+| The Monetary Cost of a Child | `INCLUDE_CONTEXT` | `COST_SERIES_MEASUREMENT` |
+| Free Primary Education, Schooling, and Fertility: Evidence from Et | `BOUNDARY` | `SCHOOL_COST_FERTILITY` |
+| Consumption smoothing, the cost of children, and family size desir | `INCLUDE_CONTEXT` | `PRICE_ASSOCIATION` |
+| The cost of raising a child: Equivalence scales in the United Stat | `INCLUDE_CONTEXT` | `COST_SERIES_MEASUREMENT` |
+
+## The probe's extrapolation against the completed pass
+
+The probe screened 150 records, found **4** primary, and projected **11-71** for the universe (point 28). The completed pass over all 1061 records found **21**.
+
+**Inside the interval.** The spaced-strata design estimated the whole pool from 14% of it, which is the case for running a probe before committing to a full screen — and, here, for not truncating after one.
+
+## Primary records vs primary STUDIES
+
+**21 primary records** collapse to **16 distinct studies** once version twins are grouped on folded title. A count of records overstates the evidence base whenever a working paper and its journal version both survive (`version-pair-is-one-study`).
+
+- **The Impact of Free Secondary Education: Experimental Evidence from Ghana** — 3 record(s), `SCHOOL_COST_FERTILITY`
+- **Changing the Cost of Children and Fertility: Evidence from the Israeli Kib** — 2 record(s), `PRICE_SHOCK_FERTILITY`
+- **Abolishing user fees, fertility choice, and educational attainment** — 2 record(s), `CHILD_HEALTH_COST_FERTILITY`
+- **Fertility Responses to Schooling Costs: Evidence from Uganda’s Universal P** — 2 record(s), `SCHOOL_COST_FERTILITY`
+- **Women's schooling, fertility, and child health outcomes: Evidence from Uga** — 1 record(s), `SCHOOL_COST_FERTILITY`
+- **Impact of Tuition‐Free Education Policy on Child Marriage and Early Childb** — 1 record(s), `SCHOOL_COST_FERTILITY`
+- **Fertility and the Price of Children: Evidence from Slavery and Slave Emanc** — 1 record(s), `PRICE_SHOCK_FERTILITY`
+- **Effects of early health-insurance programs on European mortality and ferti** — 1 record(s), `CHILD_HEALTH_COST_FERTILITY`
+- **The Influence of College Tuition and Fees on Fertility Rate in Taiwan** — 1 record(s), `PRICE_SHOCK_FERTILITY`
+- **Effects of income and the cost of children on fertility. Quasi-experimenta** — 1 record(s), `PRICE_SHOCK_FERTILITY`
+- **Climate Shocks and Teenage Fertility** — 1 record(s), `PRICE_SHOCK_FERTILITY`
+- **Infant Mortality and Desired Fertility: The Case of the Free Health Care I** — 1 record(s), `CHILD_HEALTH_COST_FERTILITY`
+- **The United States Fertility Decline: Lessons from Slavery and Slave Emanci** — 1 record(s), `PRICE_SHOCK_FERTILITY`
+- **The impact of terminating universal primary education on fertility: Eviden** — 1 record(s), `SCHOOL_COST_FERTILITY`
+- **Gender norms and the quantity-quality tradeoff: Evidence from free primary** — 1 record(s), `SCHOOL_COST_FERTILITY`
+- **The College Tuition and Fertility Rate in Taiwan** — 1 record(s), `PRICE_SHOCK_FERTILITY`
+
 
 ## Every primary-cell record the probe found
 
 | id | title | cell | note |
 |---|---|---|---|
 | C2B0022 | Women's schooling, fertility, and child health outcomes: | `SCHOOL_COST_FERTILITY` | Uganda FPE with a fertility outcome; channel BOTH_UNSEPARATED, women's schooling named i |
+| C2B0032 | The Impact of Free Secondary Education: Experimental Evi | `SCHOOL_COST_FERTILITY` | Ghana free secondary RCT, NBER twin of the SSRN/published record |
+| C2B0105 | The Impact of Free Secondary Education: Experimental Evi | `SCHOOL_COST_FERTILITY` | Ghana free secondary RCT, SSRN twin |
+| C2B0127 | Impact of Tuition‐Free Education Policy on Child Marriag | `SCHOOL_COST_FERTILITY` | tuition-free policy vs child marriage and early childbearing; fee shock with a childbear |
+| C2B0128 | Fertility and the Price of Children: Evidence from Slave | `PRICE_SHOCK_FERTILITY` | slavery and emancipation as a shock to the price of children, antebellum US; PM/FDT wind |
+| C2B0131 | Effects of early health-insurance programs on European m | `CHILD_HEALTH_COST_FERTILITY` | early European health-insurance programmes vs mortality AND fertility; the health-price  |
+| C2B0184 | Changing the Cost of Children and Fertility: Evidence fr | `PRICE_SHOCK_FERTILITY` | Israeli kibbutz cost privatisation, Economic Journal published twin |
+| C2B0199 | Abolishing user fees, fertility choice, and educational  | `CHILD_HEALTH_COST_FERTILITY` | abolishing HEALTH user fees, fertility choice and attainment; JDE published version. Re- |
 | C2B0241 | The Influence of College Tuition and Fees on Fertility R | `PRICE_SHOCK_FERTILITY` | college tuition and fees vs fertility, Taiwan; SS7 row 8 anticipated cost. No abstract,  |
+| C2B0257 | Fertility Responses to Schooling Costs: Evidence from Ug | `SCHOOL_COST_FERTILITY` | fertility responses to SCHOOLING COSTS, Uganda UPE; explicitly about transmission channe |
+| C2B0357 | Effects of income and the cost of children on fertility. | `PRICE_SHOCK_FERTILITY` | quasi-experimental, EXOGENOUS variation in family income AND the cost of children |
+| C2B0365 | Climate Shocks and Teenage Fertility | `PRICE_SHOCK_FERTILITY` | climate shocks lower the MARGINAL COST OF A CHILD and raise fertility; a price mechanism |
+| C2B0405 | Infant Mortality and Desired Fertility: The Case of the  | `CHILD_HEALTH_COST_FERTILITY` | Sierra Leone Free Health Care Initiative abolished user fees for under-fives and pregnan |
+| C2B0457 | Fertility Responses to Schooling Costs: Evidence from Ug | `SCHOOL_COST_FERTILITY` | fertility responses to schooling COSTS, Uganda UPE; SSRN twin |
+| C2B0546 | Abolishing User Fees, Fertility Choice, and Educational  | `CHILD_HEALTH_COST_FERTILITY` | abolishing HEALTH user fees, fertility choice and attainment; the working-paper version  |
+| C2B0694 | The United States Fertility Decline: Lessons from Slaver | `PRICE_SHOCK_FERTILITY` | US fertility decline from slavery and emancipation as a shock to the NET PRICE of childr |
 | C2B0849 | Changing the Cost of Children and Fertility: Evidence fr | `PRICE_SHOCK_FERTILITY` | Israeli kibbutz privatisation of child costs; exogenous cross-kibbutz variation, lifetim |
 | C2B0866 | The Impact of Free Secondary Education: Experimental Evi | `SCHOOL_COST_FERTILITY` | randomised secondary scholarships Ghana, 12y follow-up; a clean price shock, fertility o |
+| C2B0953 | The impact of terminating universal primary education on | `SCHOOL_COST_FERTILITY` | TERMINATION of universal primary education and fertility -- a fee REINTRODUCTION, the RI |
+| C2B1020 | Gender norms and the quantity-quality tradeoff: Evidence | `SCHOOL_COST_FERTILITY` | causal impact of FREE PRIMARY EDUCATION on FERTILITY, framed through gender norms and th |
+| C2B1060 | The College Tuition and Fertility Rate in Taiwan | `PRICE_SHOCK_FERTILITY` | college tuition and the fertility rate in Taiwan; twin of the published record |

@@ -41,8 +41,8 @@ def main():
             verdicts[row["screen_id"]] = row
 
     strata = {}
-    for p in sorted(BATCH.glob("probe-s*.json")):
-        d = json.loads(p.read_text())
+    for f in sorted(BATCH.glob("probe-s*.json")):
+        d = json.loads(f.read_text())
         strata[d["name"]] = [r["screen_id"] for r in d["records"]]
 
     L = ["# C.2.b depth probe — yield by stratum and screen sensitivity", "",
@@ -115,7 +115,40 @@ def main():
         L += ["", "**Missed gold — read these before trusting the rubric:**", ""]
         L += [f"- {by_id[i]['title'][:80]} — {verdicts[i]['note']}" for i in sorted(missed)]
 
+    # ------------------------------------------------------------------ full pass vs the probe
+    done = len(verdicts)
+    if done >= len(uni):
+        k, N = totals["INCLUDE_PRIMARY"], sum(len(v) for v in strata.values())
+        actual = sum(1 for v in verdicts.values() if v["verdict"] == "INCLUDE_PRIMARY")
+        L += ["", "## The probe's extrapolation against the completed pass", "",
+              f"The probe screened {N} records, found **{k}** primary, and projected "
+              f"**{lo * tot:.0f}-{hi * tot:.0f}** for the universe (point {ph * tot:.0f}). The "
+              f"completed pass over all {done} records found **{actual}**.", "",
+              ("**Inside the interval.** The spaced-strata design estimated the whole pool from 14% "
+               "of it, which is the case for running a probe before committing to a full screen — "
+               "and, here, for not truncating after one."
+               if lo * tot <= actual <= hi * tot else
+               "**OUTSIDE the interval.** The probe's design did not represent the pool; treat any "
+               "future extrapolation from spaced strata on this chapter as unvalidated.")]
+
+    # Version twins are one study (`version-pair-is-one-study`). A count of primary RECORDS
+    # overstates the evidence base whenever a working paper and its journal version both survive.
+    import re as _re
+    def fold(t):
+        return _re.sub(r"[^a-z0-9]+", " ", (t or "").lower()).strip()
     prim = [i for i in verdicts if verdicts[i]["verdict"] == "INCLUDE_PRIMARY"]
+    groups = {}
+    for i in prim:
+        groups.setdefault(fold(by_id[i]["title"])[:60], []).append(i)
+    L += ["", "## Primary records vs primary STUDIES", "",
+          f"**{len(prim)} primary records** collapse to **{len(groups)} distinct studies** once "
+          "version twins are grouped on folded title. A count of records overstates the evidence "
+          "base whenever a working paper and its journal version both survive "
+          "(`version-pair-is-one-study`).", ""]
+    for key, ids in sorted(groups.items(), key=lambda kv: -len(kv[1])):
+        L.append(f"- **{by_id[ids[0]]['title'][:74]}** — {len(ids)} record(s), "
+                 f"`{verdicts[ids[0]]['cell']}`")
+    L.append("")
     L += ["", "## Every primary-cell record the probe found", "",
           "| id | title | cell | note |", "|---|---|---|---|"]
     for i in sorted(prim):
