@@ -309,3 +309,62 @@ the remaining allowance. Recorded as `openalex-two-limits-one-error`.
 **Order at reset: run 320 first** (it emits the query artefacts 321 reads), **then 321.** 320's
 calibration is ~104 requests and may not fit alongside 321 in one day's budget; the cache makes any
 repeat free.
+
+### 2026-09-03 — universe built (1061) and the depth probe screened (150)
+
+**Unblocked by a new API key.** 320 ran clean — 144 requests, zero refusals — and reproduced the
+earlier calibration exactly: **union primary recall 13/14 (93%), deduplicated frame 963**.
+
+A correction on the earlier diagnosis: the keyed path read `dailyRemainingUsd` 0.0004 while keyless
+requests still worked, which I read as "the key is metered and the polite pool is free". It is the
+same wallet — 89 keyless requests later, keyless read 0 too. What keyless *does* have is an extra
+limit the keyed path lacks: >5 boolean operators are throttled to 1 request/second. Both are worded
+`Rate limit exceeded`. Recorded as `openalex-two-limits-one-error`.
+
+**Universe: 1061 records.** Every arm pulled exactly its declared frame. Two defects in 321 found by
+reading its own first output:
+
+- 114 of the 130 free seeds carry a DOI and no OpenAlex id and were being dropped as "DOI-only" —
+  the exact failure injection exists to prevent. Matching on a normalised DOI moves it from 2
+  present / 14 injected to **31 present / 82 injected / 17 unmatchable**. The first number is the
+  interesting one: the query found only **31 of 113** matchable seeds on its own.
+- "anchors 16 present / 16 injected" mixed theory and boundary anchors into what is meant to be a
+  recall check. Split out: **gold found by the query itself 16/23**.
+
+**266 of 1061 (25%) carry no abstract** and are flagged as a distinct screening problem.
+
+**Depth probe: 5 evenly spaced strata × 30, screened blind.** Per-stratum primary counts head to
+tail: **[1, 1, 0, 0, 2]**.
+
+| | s1 | s2 | s3 | s4 | s5 | all |
+|---|---|---|---|---|---|---|
+| primary | 1 | 1 | 0 | 0 | **2** | **4** |
+| context | 10 | 8 | 5 | 8 | 3 | 34 |
+| boundary | 4 | 1 | 1 | 5 | 3 | 14 |
+| routed / excluded / insufficient | 15 | 20 | 24 | 17 | 22 | 98 |
+
+**The curve is flat, and that is the operational result.** A.18 ran 53% / 9.1% / 3.3% / 0.7%, where
+truncating cost almost nothing. Here the tail carries more than the head and the cleanest primary
+record in the probe sits in the **last** stratum, so **this screen cannot be truncated** — a
+citation-ordered partial pass would have missed both the kibbutz privatisation and the Ghana
+scholarship RCT.
+
+Prevalence **4/150 = 2.7%** (Wilson 95% CI 1.0–6.7%) → **11–71 primary records** in the universe,
+point estimate 28. Screen sensitivity **8/8 = 100%** on the gold the probe touched; the other 15 gold
+are reported UNSCREENED and counted neither way.
+
+**Two cell counts that bear on the scope.** `TIMECOST_BOUNDARY` is **12** against the primary cell's
+**4** — §16.1 confirmed quantitatively, C.2.e's literature is three times C.2.b's inside this
+universe and arrives in this chapter's own vocabulary. And `COST_SERIES_MEASUREMENT` is the largest
+non-excluded cell at **20**: the frame is dominated by work measuring what a child costs rather than
+estimating what that cost does to fertility, which is §2's identity appearing as a population
+statistic.
+
+**The four primary records:** the Israeli kibbutz privatisation of child costs (exogenous
+cross-kibbutz variation, lifetime fertility −0.59); a randomised secondary-school scholarship in
+Ghana with 12 years of follow-up; Uganda free primary education; and college tuition and fees against
+fertility in Taiwan. Two of the four carry the §16.2 channel risk and go to full text before any is
+routed.
+
+Next: screen the remaining 911 records (the flat curve says all of them), then full-text retrieval on
+the primary cell.
