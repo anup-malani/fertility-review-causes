@@ -9,7 +9,7 @@
 
 ## Acceptance criteria
 - [x] 2. Search strategy and scope drafted
-- [ ] 3. Literature search and AI screening, both phases (§5.1)
+- [x] 3. Literature search and AI screening, both phases (§5.1)
 - [ ] 4. RA title/abstract review
 - [ ] 5. Full-text retrieval
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
@@ -368,3 +368,59 @@ routed.
 
 Next: screen the remaining 911 records (the flat curve says all of them), then full-text retrieval on
 the primary cell.
+
+### 2026-09-03 — screen COMPLETE, 1061/1061
+
+Every record carries a verdict, including the obvious excludes: hidden controls need one or
+sensitivity cannot be computed. Blinded throughout — batches carried no gold flag, no provenance and
+no arm, because the arm a record arrived on predicts its cell.
+
+| verdict | n |
+|---|---|
+| `INCLUDE_PRIMARY` | **21** |
+| `INCLUDE_CONTEXT` | 224 |
+| `BOUNDARY` | 93 |
+| `ROUTED_OTHER` | 111 |
+| `INSUFFICIENT_INFO` | 39 |
+| `EXCLUDE` | 573 |
+
+**Sensitivity 23/23 = 100%** against the withheld gold, now that every gold record has been screened
+rather than the 8 the probe happened to touch.
+
+**The probe is validated.** It screened 150, found 4 primary, projected **11–71**; the full pass found
+**21** — inside the interval. Its flat shape was also right to forbid truncation: two of the eventual
+primary studies (slave emancipation, early European health insurance) sit where a citation-ordered
+partial pass would never have reached.
+
+**21 primary records collapse to 16 distinct studies.** Ghana free secondary appears three times; the
+kibbutz, Uganda schooling-costs and health-user-fee papers twice each. Counting records would have
+overstated the evidence base by a third (`version-pair-is-one-study`).
+
+**Two scope predictions confirmed at full scale.** `TIMECOST_BOUNDARY` is **67** against 21 primary —
+C.2.e's literature is three times C.2.b's inside C.2.b's own frame, the same ratio the probe measured
+at 12 vs 4, so §16.1's amendment was right and the separation had to happen on the exposure axis.
+And `COST_SERIES_MEASUREMENT` is **99**, five times the primary cell: this frame is dominated by work
+measuring what a child costs rather than estimating what that cost does to fertility — §2's identity
+as a population statistic.
+
+**Two findings that change the evidence picture.**
+
+- **The health-price arm was calibrated at 0/1 with no valid anchor, and the screen found four
+  records for it**: abolishing health user fees in Ghana (two versions), Sierra Leone's Free Health
+  Care Initiative, and early European health-insurance programmes. Keeping an uncalibrated arm in the
+  union — rather than deleting it after its first build cost 2,865 records for zero anchors — is what
+  produced them. `empty-cell-needs-second-channel`, vindicated.
+- **§4 said the hypothesis is about a RISE while nearly every clean shock is a FALL. The screen found
+  the exception**: the *termination* of universal primary education, a fee **reintroduction** with a
+  fertility outcome, plus two independent studies of slave emancipation as a shock to the net price
+  of children — a PM/FDT-window rise. The symmetry assumption (PI Call 3) may not have to carry the
+  whole chapter after all.
+
+`PRICE_ASSOCIATION`, added mid-screen, ended at **23** records — a real class, not a stopgap.
+
+Also corrected mid-screen: *Abolishing user fees* was celled `SCHOOL_COST_FERTILITY` from its
+published title and is about **health** user fees; the working-paper version made it explicit.
+
+Next: full-text retrieval on the 16 primary studies, with the §16.2 `channel` gate read at full text
+before any `SCHOOL_COST_FERTILITY` record is routed.
+
