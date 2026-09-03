@@ -11,10 +11,10 @@
 - [x] 2. Search strategy and scope drafted
 - [x] 3. Literature search and AI screening, both phases (§5.1)
 - [ ] 4. RA title/abstract review
-- [ ] 5. Full-text retrieval
-- [ ] 6. Full-text screen, RA spot-checks 5–10%
-- [ ] 7. Extraction to `extraction/child-cost-direct.csv`, RA verifies a random 10%
-- [ ] 8. Risk-of-bias assessment per study
+- [x] 5. Full-text retrieval
+- [~] 6. Full-text screen, RA spot-checks 5–10%
+- [~] 7. Extraction to `extraction/child-cost-direct.csv`, RA verifies a random 10%
+- [~] 8. Risk-of-bias assessment per study
 - [ ] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise
 - [ ] 10. Demographic significance against PM / FDT / SDT
 - [ ] 11. GRADE rating, 3 independent raters
@@ -423,4 +423,55 @@ published title and is about **health** user fees; the working-paper version mad
 
 Next: full-text retrieval on the 16 primary studies, with the §16.2 `channel` gate read at full text
 before any `SCHOOL_COST_FERTILITY` record is routed.
+
+### 2026-09-03 — retrieval, extraction and risk of bias
+
+**Retrieval.** Automated ceiling 17/62 studies; the rung table is honest about why (`oa_location` 14,
+`sibling_version` 5, `wp_host` 4, Unpaywall 2, **PMC 0 — measured empty, as on C.6.a**). Shravan
+pulled all seven P0 studies; script 326 installed them by the **DOI printed inside each document**
+after its selftest first scored 44% and refused — every failure was a version-twin tie, and
+collapsing twins took it to 80%. All four primary cells are now evidenced. **Tier 1 is 10 of 16
+studies.**
+
+**Extraction: 4 of the first 7 moved out of the cell the screen put them in, and a 5th followed.**
+
+The channel ruling was settled on one policy read two ways. Uganda's 1997 UPE waived fees for up to
+**four** children per household, so a mother with 4+ primary-age children faced an unchanged price
+for her *next* child. **Burlando & Bbaale** exploit exactly that contrast and isolate the cost
+channel deliberately: **−4.2pp** on a further birth within 46 months, 8% of the mean. They state that
+the rest of the UPE literature "cannot separate the roles of reducing monetary costs to schooling,
+improvements in access, changes in desired fertility levels, or changes in the opportunity cost of
+fertility for mothers."
+
+**Keats**, **Wakano & Yamada** and **Duflo, Dupas & Kremer** all use fee variation as a shock to the
+*woman's own schooling* and all three **route out**. §16.2 predicted this from titles alone and is
+now **3 for 3** at full text. Wakano's exit costs one of only two RISE-direction records.
+
+**The health cell exists and disagrees with itself.** Winegarden & Murray (five countries, 1875–1913)
+find insurance *retarded* the fertility decline — consistent. Ito & Tanaka find price down and
+fertility down 27–32%, read by the authors as **quantity-quality** — scope ruling 2's C.3.d problem
+arriving as a signed estimate. Xia's desired-fertility fall runs through revised **mortality
+expectations**, which is A.1's mechanism.
+
+**Wanamaker re-celled** to `MIXED_PRICE_VALUE`: her price is a shadow price net of the child's
+marginal product, which scope §3 gives to C.3.a.
+
+**Ebenstein, Hazan & Simhon (kibbutz)** is the find of this pass — privatising the cost of children
+is a genuine price **RISE**, lifetime fertility **−0.59 children**, and it is the **only study in the
+chapter sitting in the registered SDT window**.
+
+| phenomenon | studies |
+|---|---|
+| **SDT** | **1** (kibbutz) |
+| FDT | 1 (Winegarden) |
+| PM/FDT-like LMIC | 4 |
+
+**Poolability: largest stratum = 2.** No meta-analysis; stage 9 is narrative synthesis.
+
+**Risk of bias.** Domains are §11's named threats. `D3 channel separation` does the work: three of
+six studies lose their weight there. **3 of 6 are MODERATE or better and none is LOW — the chapter
+has no low-risk estimate of its own parameter.**
+
+Next: the six P1/P2 studies still outstanding, then synthesis and demsig. The SDT arm currently rests
+on **one** MODERATE study.
 
