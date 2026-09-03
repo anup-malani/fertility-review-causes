@@ -356,3 +356,72 @@ the verdict sentence, but it is a protocol-level choice and C.2.d will hit it ne
 3. Cold-start anchors (319).
 4. Production query, calibrated per arm (320).
 5. Screen universe (321).
+
+---
+
+## 16. Amendments — 2026-09-03, after the free-seed harvest (script 317)
+
+The harvest recovered **130** records from neighbouring chapters' pools at zero retrieval cost. Two
+of them change decisions taken above. Both are amendments to this document, not discoveries to be
+reported later as if they had been anticipated.
+
+### 16.1 Wall 4 is a vocabulary problem, not only a routing problem
+
+§8 Wall 4 separated C.2.e (the price of the mother's time) from C.2.b on *what varies* and assumed
+the screen would enforce it. It will not, because **the two literatures share this chapter's own
+name.** In the harvest, **17 of 130** kept records are the time-cost / child-penalty literature: 11
+of the 33 returned by `cost of children`, and **5 of the 6** returned by `cost of childbearing`.
+
+"The Career Costs of Children", "Time and the Cost of Children", "The Time Cost of Children as
+Parents' Forgone Leisure" and "Estimating the Indirect Cost of Children in terms of Loss of Career
+Advancement" are all titled in C.2.b's vocabulary and all measure C.2.e's estimand.
+
+**Amendment:** the exposure axis in script 320 separates the two — it does not defer the separation
+to the screen. `cost of childbearing` is not usable as a stand-alone exposure term at 5/6
+contamination. Records that match anyway are kept and tagged, because they are Wall 4's own packet
+and `decoy-clouds-are-boundary-cases` says a boundary record is the useful kind.
+
+This is `anchored-vocabulary-has-own-homonym`: the term that names the hypothesis is the term that
+imports the neighbour. It was measurable in advance and §8 did not measure it — only the
+cost-of-illness homonym was scored, and that one turned out to be the harmless one (2 records
+dropped, against 17).
+
+### 16.2 The best-identified vein may be identifying the wrong estimand
+
+§7 row 1 named school-fee abolition as the largest expected source of identified variation, and the
+harvest agrees on volume: **24** school-fee records, the second-largest term. But of the **8** that
+carry a fertility or family-planning outcome, **6 name women's or girls' schooling in the title** —
+*Abolishing user fees, fertility choice, and educational attainment*; *Women's schooling, fertility,
+and child health outcomes: Uganda's free primary education*; *Free Primary Education, Schooling, and
+Fertility: Ethiopia*; and three more.
+
+If those papers identify through the mother's own schooling, they are not measuring the price of a
+child. They are measuring an education effect that **lowers** fertility, while the C.2.b mechanism
+says a price cut should **raise** it. Pooling them into `SCHOOL_COST_FERTILITY` would put a
+wrong-signed education elasticity into this chapter's primary cell and call it a price elasticity.
+
+**This is a title-level signal and nothing more.** `design-is-not-a-property-of-the-title`: A.23
+carried a paper as an administrative allocation through search, screen and priority retrieval and it
+was IPTW. Every one of these is re-read at full text before routing.
+
+**Amendment — a required check, not a new wall.** Every record entering `SCHOOL_COST_FERTILITY` must
+have its identifying channel read and recorded as `channel` ∈ {`PRICE_OF_CHILD`, `MATERNAL_SCHOOLING`,
+`BOTH_UNSEPARATED`}. `MATERNAL_SCHOOLING` routes out. `BOTH_UNSEPARATED` is held jointly claimed and
+unallocated. A cell populated mostly by `MATERNAL_SCHOOLING` is reported as an **empty primary cell**
+in those words (`empty-cell-is-the-result`), not as weak evidence.
+
+### 16.3 Two smaller items
+
+**User-fee removal for facility-based delivery is the price of a birth, not the price of a child.**
+Three such records are in the harvest. It is a real out-of-pocket price and it is plausibly in scope,
+but it is a different component from anything in §3 and it belongs to the *event* rather than the
+*child*. **Ruling: admissible, as its own `cost_component` value `BIRTH_EVENT`**, reported separately
+and never pooled with `SCHOOLING` or `HEALTH`. Flagged for Anup alongside PI Call 1.
+
+**`tuition` is the largest single term (40 records) and roughly 13% on topic.** The rest is C.3.g's
+higher-education-finance literature — student debt, college affordability, state appropriations. It
+is kept, because it holds the only record matching §7 row 8: *The Influence of College Tuition and
+Fees on Fertility Rate in Taiwan* (2006), the anticipated future cost of a child. `tuition` does not
+become a production-query axis on its own; it is a seed-harvest term only, and the distinction is
+recorded because `frame-growth-is-not-frame-gain` — a term that grows the frame without adding gold
+is a cost, and this one is on the line.
