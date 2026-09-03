@@ -8,7 +8,7 @@
 **Touches:** literature/search-logs/child-cost-direct-*, extraction/child-cost-direct-*, output/chapters/child-cost-direct.md
 
 ## Acceptance criteria
-- [ ] 2. Search strategy and scope drafted
+- [x] 2. Search strategy and scope drafted
 - [ ] 3. Literature search and AI screening, both phases (§5.1)
 - [ ] 4. RA title/abstract review
 - [ ] 5. Full-text retrieval
@@ -105,3 +105,49 @@ probes against the neighbouring cost chapters are also small: C.2.a childcare **
   (`script-number-collision`: start above every branch, not above main).
 
 ## Log
+
+### 2026-09-03 — opened, claimed, and scope drafted with three rulings resolved
+
+- Selected by `304_candidate_frame_probe.py` after the coverage defect was fixed. Union frames on
+  three vocabularies: **C.2.b 587**, A.6 675, C.2.f 714, A.3 726, C.3.d 762, C.3.f 1101, C.3.a 1804,
+  A.19 2778, C.1.a 6164. Only six of 37 candidates needed widening: a union frame is a superset of
+  every axis inside it, so a narrow count already above the incumbent's 675 is out with no further
+  queries.
+- Scope at `literature/search-logs/child-cost-direct-search-scope.md`. Nine walls, ten estimand
+  cells, seven required tags, the pooling rule and the demsig route all frozen before any query.
+- **Ruling 1 (the load-bearing one): the estimand is a price faced, not an expenditure observed.**
+  Spending per child is quantity-chosen times price-faced, and fertility and quantity-per-child are
+  chosen together, so the expenditure–fertility correlation is negative under any quantity-quality
+  model with no price change anywhere. The canonical series are outputs of that identity — USDA/Lino
+  is computed from CEX budgets *conditional on family size and income*. Admissibility is therefore
+  defined on the variation, not the vocabulary, and `EXPENDITURE_ASSOCIATION` exists to quarantine
+  the identity. Third instance of the shape behind `exposure-estimand-distance-domain` (A.24),
+  `read-the-mechanism-not-the-instrument-name` (C.3.e) and `exposure-outcome-same-sequence` (A.23).
+- **Ruling 2 (the bundle): C.2.b is the residual, not the total.** Childcare is C.2.a's, housing
+  C.2.c's, the mother's time C.2.e's, the norm D.2.d's, the chosen investment level C.3.d's, and the
+  net-of-transfer price C.2.d's. What remains is the out-of-pocket price of child-specific goods and
+  services. The total reading is rejected because it would make this chapter's estimate a function of
+  five unfinished chapters. Raised as PI Call 1, because C.2.f and C.3.f have the same shape.
+- **Ruling 3 (the FDT arm): in scope, restricted to the out-of-pocket half of Caldwell.** Fees here;
+  compulsion and forgone child labour to C.3.b, a written chapter. Inseparable cases go to
+  `MIXED_PRICE_VALUE`, jointly claimed and unallocated, on C.2.c's `MIXED_PRICE_CREDIT` precedent.
+  Not dropped, because `identified-evidence-in-the-unnamed-arm` says count identified designs per arm
+  first — and the fee-abolition designs are likely the best-identified variation this chapter sees.
+- **Registered before searching: the hypothesis is about a rise and the clean variation is mostly a
+  fall.** Fee abolition, free primary education, subsidised uniforms and meals, child health-insurance
+  expansion all *lower* the price. `exposure_direction` is a required tag, effects stratify on it
+  before the ≥3 poolability test, and the symmetry assumption is PI Call 3.
+- **The demsig route is named: slope sufficiency, with the index specified before it is computed** —
+  components, deflator, two weighting variants, and three arms (with education, without, education
+  alone), because a "price of children" index can be made to rise or fall by choosing components
+  after seeing the answer. Carries C.6.a's two guards: a sign condition on any R²
+  (`r2-criterion-is-sign-blind`) and a split window as well as endpoints
+  (`endpoint-test-nets-a-hump-to-nothing`).
+- **Wall 9 is a measured non-threat.** "cost of children" returns 740 records unrestricted and 206 of
+  those intersect the paediatric cost-of-illness vocabulary, but only **10** survive inside the
+  fertility-restricted frame. The outcome axis separates the literatures on its own and no screen rule
+  is spent on it. Neighbour probes are also small: C.2.a 28, C.2.c 11.
+- Open for Anup: **PI Call 1** (residual vs total, and it generalises), **PI Call 2** (Caldwell 1976
+  is now the seminal citation of four chapters), **PI Call 3** (what to do when the identified
+  evidence runs in the opposite direction to the registered claim).
+
