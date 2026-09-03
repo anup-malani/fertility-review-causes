@@ -1,0 +1,935 @@
+{
+  "cost_ceiling": 400,
+  "arms": [
+    {
+      "name": "direct-cost",
+      "targets": [
+        "direct-cost"
+      ],
+      "exposure_axis": [
+        "\"cost of children\"",
+        "\"price of children\"",
+        "\"child costs\"",
+        "\"cost of a child\"",
+        "\"price of a child\""
+      ],
+      "outcome_axis": [
+        "\"fertility\"",
+        "\"childbearing\"",
+        "\"birth rate\"",
+        "\"total fertility rate\"",
+        "\"family size\"",
+        "\"number of children\""
+      ],
+      "query": "(\"cost of children\" OR \"price of children\" OR \"child costs\" OR \"cost of a child\" OR \"price of a child\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "frame": 326,
+      "arm_recall": 8,
+      "arm_n": 9,
+      "steps": [
+        {
+          "label": "baseline",
+          "frame": 226,
+          "arm_recall": 5
+        },
+        {
+          "term": "\"cost of raising children\"",
+          "frame": 289,
+          "arm_recall": 5,
+          "gain": 0,
+          "cost": 63,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"child costs\"",
+          "frame": 267,
+          "arm_recall": 6,
+          "gain": 1,
+          "cost": 41,
+          "price": 41.0,
+          "accepted": true
+        },
+        {
+          "term": "\"cost of a child\"",
+          "frame": 316,
+          "arm_recall": 7,
+          "gain": 1,
+          "cost": 49,
+          "price": 49.0,
+          "accepted": true
+        },
+        {
+          "term": "\"child rearing costs\"",
+          "frame": 360,
+          "arm_recall": 7,
+          "gain": 0,
+          "cost": 44,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"direct costs of children\"",
+          "frame": 320,
+          "arm_recall": 7,
+          "gain": 0,
+          "cost": 4,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"economic cost of children\"",
+          "frame": 316,
+          "arm_recall": 7,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"cost of childrearing\"",
+          "frame": 350,
+          "arm_recall": 7,
+          "gain": 0,
+          "cost": 34,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"price of a child\"",
+          "frame": 326,
+          "arm_recall": 8,
+          "gain": 1,
+          "cost": 10,
+          "price": 10.0,
+          "accepted": true
+        },
+        {
+          "term": "\"net price\"",
+          "frame": 328,
+          "arm_recall": 8,
+          "gain": 0,
+          "cost": 2,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"desired family size\"",
+          "frame": 326,
+          "arm_recall": 8,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"ideal family size\"",
+          "frame": 326,
+          "arm_recall": 8,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"completed fertility\"",
+          "frame": 326,
+          "arm_recall": 8,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"first birth\"",
+          "frame": 328,
+          "arm_recall": 8,
+          "gain": 0,
+          "cost": 2,
+          "price": null,
+          "accepted": false
+        }
+      ],
+      "leave_one_out": [
+        {
+          "term": "\"cost of children\"",
+          "arm_recall_without": 4,
+          "uniquely_carries": 4,
+          "frame_without": 137,
+          "unique_records": 189,
+          "suspect_homonym": false
+        },
+        {
+          "term": "\"price of children\"",
+          "arm_recall_without": 8,
+          "uniquely_carries": 0,
+          "frame_without": 305,
+          "unique_records": 21,
+          "suspect_homonym": false
+        },
+        {
+          "term": "\"child costs\"",
+          "arm_recall_without": 7,
+          "uniquely_carries": 1,
+          "frame_without": 287,
+          "unique_records": 39,
+          "suspect_homonym": false
+        },
+        {
+          "term": "\"cost of a child\"",
+          "arm_recall_without": 7,
+          "uniquely_carries": 1,
+          "frame_without": 277,
+          "unique_records": 49,
+          "suspect_homonym": false
+        },
+        {
+          "term": "\"price of a child\"",
+          "arm_recall_without": 7,
+          "uniquely_carries": 1,
+          "frame_without": 316,
+          "unique_records": 10,
+          "suspect_homonym": false
+        }
+      ]
+    },
+    {
+      "name": "school-fee",
+      "targets": [
+        "school-fee"
+      ],
+      "exposure_axis": [
+        "\"school fees\"",
+        "\"free primary education\"",
+        "\"user fees\"",
+        "\"universal primary education\""
+      ],
+      "outcome_axis": [
+        "\"fertility\"",
+        "\"childbearing\"",
+        "\"birth rate\"",
+        "\"total fertility rate\"",
+        "\"family size\"",
+        "\"number of children\""
+      ],
+      "query": "(\"school fees\" OR \"free primary education\" OR \"user fees\" OR \"universal primary education\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "frame": 269,
+      "arm_recall": 4,
+      "arm_n": 6,
+      "steps": [
+        {
+          "label": "baseline",
+          "frame": 136,
+          "arm_recall": 2
+        },
+        {
+          "term": "\"user fees\"",
+          "frame": 189,
+          "arm_recall": 3,
+          "gain": 1,
+          "cost": 53,
+          "price": 53.0,
+          "accepted": true
+        },
+        {
+          "term": "\"fee abolition\"",
+          "frame": 189,
+          "arm_recall": 3,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"tuition-free\"",
+          "frame": 195,
+          "arm_recall": 3,
+          "gain": 0,
+          "cost": 6,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"cost of schooling\"",
+          "frame": 201,
+          "arm_recall": 3,
+          "gain": 0,
+          "cost": 12,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"universal primary education\"",
+          "frame": 269,
+          "arm_recall": 4,
+          "gain": 1,
+          "cost": 80,
+          "price": 80.0,
+          "accepted": true
+        },
+        {
+          "term": "\"school costs\"",
+          "frame": 271,
+          "arm_recall": 4,
+          "gain": 0,
+          "cost": 2,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"education costs\"",
+          "frame": 328,
+          "arm_recall": 4,
+          "gain": 0,
+          "cost": 59,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"family planning\"",
+          "frame": 343,
+          "arm_recall": 4,
+          "gain": 0,
+          "cost": 74,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"age at first birth\"",
+          "frame": 269,
+          "arm_recall": 4,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"birth spacing\"",
+          "frame": 269,
+          "arm_recall": 4,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        }
+      ],
+      "leave_one_out": [
+        {
+          "term": "\"school fees\"",
+          "arm_recall_without": 4,
+          "uniquely_carries": 0,
+          "frame_without": 181,
+          "unique_records": 88,
+          "suspect_homonym": true
+        },
+        {
+          "term": "\"free primary education\"",
+          "arm_recall_without": 3,
+          "uniquely_carries": 1,
+          "frame_without": 238,
+          "unique_records": 31,
+          "suspect_homonym": false
+        },
+        {
+          "term": "\"user fees\"",
+          "arm_recall_without": 3,
+          "uniquely_carries": 1,
+          "frame_without": 216,
+          "unique_records": 53,
+          "suspect_homonym": false
+        },
+        {
+          "term": "\"universal primary education\"",
+          "arm_recall_without": 3,
+          "uniquely_carries": 1,
+          "frame_without": 189,
+          "unique_records": 80,
+          "suspect_homonym": false
+        }
+      ]
+    },
+    {
+      "name": "health-price",
+      "targets": [
+        "health-price"
+      ],
+      "exposure_axis": [
+        "\"child health insurance\"",
+        "\"health insurance expansion\"",
+        "\"maternity care fees\"",
+        "\"delivery fees\""
+      ],
+      "outcome_axis": [
+        "\"fertility\"",
+        "\"childbearing\"",
+        "\"birth rate\"",
+        "\"total fertility rate\"",
+        "\"family size\"",
+        "\"number of children\""
+      ],
+      "query": "(\"child health insurance\" OR \"health insurance expansion\" OR \"maternity care fees\" OR \"delivery fees\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "frame": 21,
+      "arm_recall": 0,
+      "arm_n": 1,
+      "steps": [
+        {
+          "label": "baseline",
+          "frame": 21,
+          "arm_recall": 0
+        },
+        {
+          "term": "\"out-of-pocket health\"",
+          "frame": 72,
+          "arm_recall": 0,
+          "gain": 0,
+          "cost": 51,
+          "price": null,
+          "accepted": false
+        }
+      ],
+      "leave_one_out": [
+        {
+          "term": "\"child health insurance\"",
+          "arm_recall_without": 0,
+          "uniquely_carries": 0,
+          "frame_without": 8,
+          "unique_records": 13,
+          "suspect_homonym": false
+        },
+        {
+          "term": "\"health insurance expansion\"",
+          "arm_recall_without": 0,
+          "uniquely_carries": 0,
+          "frame_without": 17,
+          "unique_records": 4,
+          "suspect_homonym": false
+        },
+        {
+          "term": "\"maternity care fees\"",
+          "arm_recall_without": 0,
+          "uniquely_carries": 0,
+          "frame_without": 21,
+          "unique_records": 0,
+          "suspect_homonym": false
+        },
+        {
+          "term": "\"delivery fees\"",
+          "arm_recall_without": 0,
+          "uniquely_carries": 0,
+          "frame_without": 17,
+          "unique_records": 4,
+          "suspect_homonym": false
+        }
+      ]
+    },
+    {
+      "name": "anticipated-cost",
+      "targets": [
+        "anticipated-cost"
+      ],
+      "exposure_axis": [
+        "\"tuition\""
+      ],
+      "outcome_axis": [
+        "\"fertility\"",
+        "\"childbearing\"",
+        "\"birth rate\"",
+        "\"total fertility rate\"",
+        "\"family size\"",
+        "\"number of children\""
+      ],
+      "query": "(\"tuition\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "frame": 186,
+      "arm_recall": 1,
+      "arm_n": 1,
+      "steps": [
+        {
+          "label": "baseline",
+          "frame": 186,
+          "arm_recall": 1
+        },
+        {
+          "term": "\"college costs\"",
+          "frame": 187,
+          "arm_recall": 1,
+          "gain": 0,
+          "cost": 1,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"cost of higher education\"",
+          "frame": 189,
+          "arm_recall": 1,
+          "gain": 0,
+          "cost": 3,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"expected costs\"",
+          "frame": 215,
+          "arm_recall": 1,
+          "gain": 0,
+          "cost": 29,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"anticipated costs\"",
+          "frame": 196,
+          "arm_recall": 1,
+          "gain": 0,
+          "cost": 10,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"fertility intentions\"",
+          "frame": 186,
+          "arm_recall": 1,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"first birth\"",
+          "frame": 189,
+          "arm_recall": 1,
+          "gain": 0,
+          "cost": 3,
+          "price": null,
+          "accepted": false
+        }
+      ],
+      "leave_one_out": []
+    },
+    {
+      "name": "measurement",
+      "targets": [
+        "measurement"
+      ],
+      "exposure_axis": [
+        "\"equivalence scale\"",
+        "\"expenditures on children\""
+      ],
+      "outcome_axis": [
+        "\"fertility\"",
+        "\"childbearing\"",
+        "\"birth rate\"",
+        "\"total fertility rate\"",
+        "\"family size\"",
+        "\"number of children\""
+      ],
+      "query": "(\"equivalence scale\" OR \"expenditures on children\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "frame": 136,
+      "arm_recall": 2,
+      "arm_n": 6,
+      "steps": [
+        {
+          "label": "baseline",
+          "frame": 136,
+          "arm_recall": 2
+        },
+        {
+          "term": "\"parental spending\"",
+          "frame": 138,
+          "arm_recall": 2,
+          "gain": 0,
+          "cost": 2,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"child expenditure\"",
+          "frame": 144,
+          "arm_recall": 2,
+          "gain": 0,
+          "cost": 8,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"consumer expenditure\"",
+          "frame": 225,
+          "arm_recall": 2,
+          "gain": 0,
+          "cost": 89,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"cost of children\"",
+          "frame": 320,
+          "arm_recall": 2,
+          "gain": 0,
+          "cost": 184,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"household expenditure\"",
+          "frame": 382,
+          "arm_recall": 2,
+          "gain": 0,
+          "cost": 246,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"family size\"",
+          "frame": 136,
+          "arm_recall": 2,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        }
+      ],
+      "leave_one_out": [
+        {
+          "term": "\"equivalence scale\"",
+          "arm_recall_without": 1,
+          "uniquely_carries": 1,
+          "frame_without": 45,
+          "unique_records": 91,
+          "suspect_homonym": false
+        },
+        {
+          "term": "\"expenditures on children\"",
+          "arm_recall_without": 1,
+          "uniquely_carries": 1,
+          "frame_without": 92,
+          "unique_records": 44,
+          "suspect_homonym": false
+        }
+      ]
+    },
+    {
+      "name": "boundary-timecost",
+      "targets": [
+        "boundary-timecost"
+      ],
+      "exposure_axis": [
+        "\"career costs of children\"",
+        "\"child penalty\""
+      ],
+      "outcome_axis": [
+        "\"fertility\"",
+        "\"childbearing\"",
+        "\"birth rate\"",
+        "\"total fertility rate\"",
+        "\"family size\"",
+        "\"number of children\""
+      ],
+      "query": "(\"career costs of children\" OR \"child penalty\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "frame": 57,
+      "arm_recall": 1,
+      "arm_n": 1,
+      "steps": [
+        {
+          "label": "baseline",
+          "frame": 57,
+          "arm_recall": 1
+        },
+        {
+          "term": "\"opportunity cost of time\"",
+          "frame": 97,
+          "arm_recall": 1,
+          "gain": 0,
+          "cost": 40,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"time costs\"",
+          "frame": 128,
+          "arm_recall": 1,
+          "gain": 0,
+          "cost": 71,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"motherhood penalty\"",
+          "frame": 160,
+          "arm_recall": 1,
+          "gain": 0,
+          "cost": 103,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"forgone earnings\"",
+          "frame": 62,
+          "arm_recall": 1,
+          "gain": 0,
+          "cost": 5,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"cost of childbearing\"",
+          "frame": 132,
+          "arm_recall": 1,
+          "gain": 0,
+          "cost": 75,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"labor supply\"",
+          "frame": 86,
+          "arm_recall": 1,
+          "gain": 0,
+          "cost": 29,
+          "price": null,
+          "accepted": false
+        }
+      ],
+      "leave_one_out": [
+        {
+          "term": "\"career costs of children\"",
+          "arm_recall_without": 0,
+          "uniquely_carries": 1,
+          "frame_without": 54,
+          "unique_records": 3,
+          "suspect_homonym": false
+        },
+        {
+          "term": "\"child penalty\"",
+          "arm_recall_without": 1,
+          "uniquely_carries": 0,
+          "frame_without": 3,
+          "unique_records": 54,
+          "suspect_homonym": true
+        }
+      ]
+    },
+    {
+      "name": "boundary-qq",
+      "targets": [
+        "boundary-qq"
+      ],
+      "exposure_axis": [
+        "\"quantity-quality\"",
+        "\"child quality\""
+      ],
+      "outcome_axis": [
+        "\"fertility\"",
+        "\"childbearing\"",
+        "\"birth rate\"",
+        "\"total fertility rate\"",
+        "\"family size\"",
+        "\"number of children\""
+      ],
+      "query": "(\"quantity-quality\" OR \"child quality\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "frame": 683,
+      "arm_recall": 1,
+      "arm_n": 2,
+      "steps": [
+        {
+          "label": "baseline",
+          "frame": 683,
+          "arm_recall": 1
+        },
+        {
+          "term": "\"quantity quality tradeoff\"",
+          "frame": 683,
+          "arm_recall": 1,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"child investment\"",
+          "frame": 713,
+          "arm_recall": 1,
+          "gain": 0,
+          "cost": 30,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"sibsize\"",
+          "frame": 709,
+          "arm_recall": 1,
+          "gain": 0,
+          "cost": 26,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"human capital of children\"",
+          "frame": 706,
+          "arm_recall": 1,
+          "gain": 0,
+          "cost": 23,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"family size\"",
+          "frame": 683,
+          "arm_recall": 1,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        }
+      ],
+      "leave_one_out": [
+        {
+          "term": "\"quantity-quality\"",
+          "arm_recall_without": 1,
+          "uniquely_carries": 0,
+          "frame_without": 245,
+          "unique_records": 438,
+          "suspect_homonym": true
+        },
+        {
+          "term": "\"child quality\"",
+          "arm_recall_without": 1,
+          "uniquely_carries": 0,
+          "frame_without": 493,
+          "unique_records": 190,
+          "suspect_homonym": true
+        }
+      ]
+    }
+  ],
+  "gold_n": 32,
+  "arms_not_screened": [
+    "boundary-qq"
+  ],
+  "union_query": "((\"cost of children\" OR \"price of children\" OR \"child costs\" OR \"cost of a child\" OR \"price of a child\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")) OR ((\"school fees\" OR \"free primary education\" OR \"user fees\" OR \"universal primary education\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")) OR ((\"child health insurance\" OR \"health insurance expansion\" OR \"maternity care fees\" OR \"delivery fees\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")) OR ((\"tuition\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")) OR ((\"equivalence scale\" OR \"expenditures on children\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")) OR ((\"career costs of children\" OR \"child penalty\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\"))",
+  "union_frame_deduplicated": 963,
+  "union_frame_error": null,
+  "union_query_recall": 13,
+  "union": {
+    "primary_recall": 13,
+    "primary_n": 14,
+    "total_frame_upper_bound": 995,
+    "unreachable": [
+      {
+        "arm": "direct-cost",
+        "source": "control",
+        "title": "\u2018Two children to make ends meet\u2019: the ideal family size, parental responsibilities and costs of children on two sides of the Iron Curtain during the post-war fertility decline",
+        "why": "VOCABULARY MISS -> citation channel"
+      },
+      {
+        "arm": "school-fee",
+        "source": "control",
+        "title": "Secondary School Fee Abolition in Sub-Saharan Africa: Taking Stock of the Evidence",
+        "why": "outcome is not fertility"
+      },
+      {
+        "arm": "measurement",
+        "source": "control",
+        "title": "Investing in Children: Changes in Parental Spending on Children, 1972\u20132007",
+        "why": "outcome is not fertility"
+      },
+      {
+        "arm": "theory",
+        "source": "hand",
+        "title": "Toward A Restatement of Demographic Transition Theory",
+        "why": "arm not screened"
+      },
+      {
+        "arm": "theory",
+        "source": "hand",
+        "title": "Bargaining over Babies: Theory, Evidence, and Policy Implications",
+        "why": "arm not screened"
+      },
+      {
+        "arm": "theory",
+        "source": "hand",
+        "title": "Valuing Children: Rethinking the Economics of the Family",
+        "why": "arm not screened"
+      },
+      {
+        "arm": "theory",
+        "source": "hand",
+        "title": "An Economic Analysis of Fertility",
+        "why": "arm not screened"
+      },
+      {
+        "arm": "boundary-qq",
+        "source": "hand",
+        "title": "On the Interaction between the Quantity and Quality of Children",
+        "why": "arm not screened"
+      },
+      {
+        "arm": "boundary-qq",
+        "source": "hand",
+        "title": "Multiple Experiments for the Causal Link between the Quantity and Quality of Children",
+        "why": "arm not screened"
+      },
+      {
+        "arm": "measurement",
+        "source": "hand",
+        "title": "INVESTING IN CHILDREN",
+        "why": "outcome is not fertility"
+      },
+      {
+        "arm": "measurement",
+        "source": "hand",
+        "title": "On Measuring Child Costs: With Applications to Poor Countries",
+        "why": "outcome is not fertility"
+      },
+      {
+        "arm": "measurement",
+        "source": "hand",
+        "title": "Children and Household Economic Behavior",
+        "why": "outcome is not fertility"
+      },
+      {
+        "arm": "school-fee",
+        "source": "hand",
+        "title": "Does cost of schooling affect enrollment by the poor? Universal primary education in Uganda",
+        "why": "outcome is not fertility"
+      },
+      {
+        "arm": "health-price",
+        "source": "hand",
+        "title": "Saving Babies: The Efficacy and Cost of Recent Changes in the Medicaid Eligibility of Pregnant Women",
+        "why": "outcome is not fertility"
+      },
+      {
+        "arm": "theory",
+        "source": "hand",
+        "title": "Chapter 7 The economics of fertility in developed countries",
+        "why": "arm not screened"
+      },
+      {
+        "arm": "theory",
+        "source": "hand",
+        "title": "A New Approach to the Economic Theory of Fertility Behavior",
+        "why": "arm not screened"
+      }
+    ]
+  },
+  "pool": {
+    "key": 144,
+    "polite": 0,
+    "refused": 0,
+    "throttle_waits": 0
+  },
+  "cache": {
+    "hit": 2,
+    "miss": 72
+  }
+}

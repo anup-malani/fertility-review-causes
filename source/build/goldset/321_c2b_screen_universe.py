@@ -126,37 +126,57 @@ def main():
                          "outcome_is_fertility": a.get("outcome_is_fertility", True)}
         if oid in universe:
             already += 1
+            gold_ids[oid]["found_by_query"] = True
             universe[oid]["provenance"].append("anchor")
         else:
             injected += 1
+            gold_ids[oid]["found_by_query"] = False
             universe[oid] = {"oa_id": oid, "doi": tc.get("doi"), "title": tc.get("title"),
                              "year": tc.get("year"), "type": tc.get("type"),
                              "venue": tc.get("venue"), "first_author": tc.get("authors_first"),
                              "n_authors": None, "cited_by": tc.get("cited_by"), "abstract": None,
                              "arms": [], "provenance": ["anchor_injected"]}
 
+    def norm_doi(d):
+        if not d:
+            return None
+        d = d.strip().lower()
+        for pre in ("https://doi.org/", "http://doi.org/", "doi:"):
+            if d.startswith(pre):
+                d = d[len(pre):]
+        return d or None
+
+    by_doi = {}
+    for r in universe.values():
+        nd = norm_doi(r.get("doi"))
+        if nd:
+            by_doi[nd] = r["oa_id"]
+
     seeds = json.loads((LOGS / "child-cost-direct-free-seeds.json").read_text())["records"]
-    seed_present = seed_injected = seed_noid = 0
-    for s in seeds:
-        ident = (s.get("id") or "")
+    seed_present = seed_injected = seed_unmatchable = 0
+    for sd in seeds:
+        ident = (sd.get("id") or "")
         oid = ident if ident.startswith("W") else None
-        if not oid:
-            seed_noid += 1          # DOI-only seeds; matched at screen by DOI, not dropped
-            continue
-        if oid in universe:
+        nd = norm_doi(ident) if ident.startswith("10.") else None
+        hit = oid if (oid and oid in universe) else (by_doi.get(nd) if nd else None)
+        if hit:
             seed_present += 1
-            universe[oid]["provenance"].append("free_seed")
-        else:
-            seed_injected += 1
-            universe[oid] = {"oa_id": oid, "doi": None, "title": s["title"], "year": s.get("year"),
-                             "type": None, "venue": None, "first_author": None, "n_authors": None,
-                             "cited_by": None, "abstract": None, "arms": [],
-                             "provenance": ["free_seed_injected"]}
+            universe[hit]["provenance"].append("free_seed")
+            continue
+        key = oid or (f"doi:{nd}" if nd else None)
+        if not key:
+            seed_unmatchable += 1     # no id and no DOI: cannot be placed, and is COUNTED not lost
+            continue
+        seed_injected += 1
+        universe[key] = {"oa_id": oid or "", "doi": nd, "title": sd["title"],
+                         "year": sd.get("year"), "type": None, "venue": None,
+                         "first_author": None, "n_authors": None, "cited_by": None,
+                         "abstract": None, "arms": [], "provenance": ["free_seed_injected"]}
 
     rows = sorted(universe.values(), key=lambda r: (-(r.get("cited_by") or 0), r["oa_id"]))
     no_abstract = sum(1 for r in rows if not r.get("abstract"))
-    gold_in = sum(1 for oid, g in gold_ids.items() if g["is_gold"] and oid in universe)
     gold_n = sum(1 for g in gold_ids.values() if g["is_gold"])
+    gold_found = sum(1 for g in gold_ids.values() if g["is_gold"] and g.get("found_by_query"))
 
     # What the screen reads. No gold flags, no provenance that reveals them.
     screen_rows = [{k: v for k, v in r.items() if k != "provenance"} for r in rows]
@@ -183,9 +203,12 @@ def main():
           "were **already present** is a recall check on the query set; how many had to be injected "
           "is the size of the gap.", "",
           f"- anchors already in the pull: **{already}**; injected: **{injected}**",
-          f"- free seeds already in the pull: **{seed_present}**; injected: **{seed_injected}**; "
-          f"DOI-only, matched at screen rather than by id: {seed_noid}",
-          f"- hidden gold in the universe: **{gold_in}/{gold_n}**", "",
+          f"- free seeds already in the pull: **{seed_present}**; injected: "
+          f"**{seed_injected}**",
+          f"- **gold found by the query itself: {gold_found}/{gold_n}** — this is the recall "
+          "check that matters. The rest are present only because they were injected, and an "
+          "injected anchor tests nothing about the query.",
+          f"- free seeds unmatchable (no id and no DOI): {seed_unmatchable}", "",
           "## Abstracts", "",
           f"**{no_abstract} of {len(rows)}** records carry no abstract. A title-only row cannot "
           "support scope §10's tags — `design-is-not-a-property-of-the-title` — so these are a "
@@ -197,8 +220,8 @@ def main():
           "(`a-positives-only-screen-cannot-measure-sensitivity`).", ""]
     (LOGS / "child-cost-direct-screen-universe.md").write_text("\n".join(L))
     print(f"\nuniverse {len(rows)} records; anchors {already} present / {injected} injected; "
-          f"seeds {seed_present} present / {seed_injected} injected; "
-          f"hidden gold {gold_in}/{gold_n}; no abstract {no_abstract}")
+          f"seeds {seed_present} present / {seed_injected} injected / {seed_unmatchable} "
+          f"unmatchable; GOLD FOUND BY QUERY {gold_found}/{gold_n}; no abstract {no_abstract}")
     print(f"requests: {POOL['key']} keyed, {POOL['polite']} keyless, {POOL['refused']} refused; "
           f"pages {oa.stats['hit']} cached / {oa.stats['miss']} fetched")
 
