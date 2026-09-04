@@ -28,7 +28,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[3]
 LOGS = ROOT / "literature" / "search-logs"
 OUT = ROOT / "extraction" / "child-cost-direct-screen-batches"
-ABSTRACT_CHARS = 700
+ABSTRACT_CHARS = 460
 
 
 def load():
@@ -59,6 +59,10 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--probe", nargs=2, type=int, metavar=("STRATA", "PER"))
     ap.add_argument("--batch", nargs=2, type=int, metavar=("INDEX", "SIZE"))
+    ap.add_argument("--remaining", type=int, metavar="SIZE",
+                    help="emit every record with no verdict yet, in batches of SIZE. The probe "
+                         "returned a FLAT yield curve, so the remainder cannot be truncated: the "
+                         "cleanest primary record in the probe was in the last stratum.")
     a = ap.parse_args()
     recs = load()
     for i, r in enumerate(recs):
@@ -74,11 +78,22 @@ def main():
             emit(slim[lo:lo + per], f"probe-s{s + 1}-of-{k}")
         print(f"\n{k} strata x {per} = {k * per} of {len(slim)} records "
               f"({100 * k * per / len(slim):.0f}% of the universe), evenly spaced by citation rank")
+    elif a.remaining:
+        import csv
+        done = set()
+        vp = ROOT / "extraction" / "child-cost-direct-screen-verdicts.csv"
+        if vp.exists():
+            with vp.open() as f:
+                done = {r["screen_id"] for r in csv.DictReader(f)}
+        left = [r for r in slim if r["screen_id"] not in done]
+        print(f"{len(done)} already screened, {len(left)} remaining of {len(slim)}")
+        for i in range(0, len(left), a.remaining):
+            emit(left[i:i + a.remaining], f"rest-{i // a.remaining:02d}")
     elif a.batch:
         i, size = a.batch
         emit(slim[i * size:(i + 1) * size], f"batch-{i:03d}")
     else:
-        ap.error("give --probe or --batch")
+        ap.error("give --probe, --remaining or --batch")
 
 
 main()
