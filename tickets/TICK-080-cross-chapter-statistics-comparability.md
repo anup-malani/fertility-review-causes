@@ -1,5 +1,5 @@
 # TICK-080: Cross-chapter statistics — comparability, the demsig routes, and the sign-blind R²
-**Status:** open
+**Status:** in-progress
 **Assigned:** Shravan
 **Parallel-safe:** yes — but any resolution is **retroactive** (see *What this costs*)
 **Blocks:** none
