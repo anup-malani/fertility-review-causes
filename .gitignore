@@ -52,6 +52,9 @@ temp/
 source/build/goldset/cache/
 source/build/goldset/*.json
 
+# Per-chapter search-log API response cache (regenerable; deliverables are the .md/.csv logs beside it)
+literature/search-logs/.cache/
+
 # Secrets — API keys. Never commit.
 .env
 .env.*
