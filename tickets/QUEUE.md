@@ -46,7 +46,6 @@ tickets can be worked concurrently.
 
 | Ticket | Title | Assigned | Parallel-safe |
 |--------|-------|----------|---------------|
-| [TICK-080](TICK-080-cross-chapter-statistics-comparability.md) | Cross-chapter statistics — comparability, the demsig routes, and the sign-blind R². **Standing methods ticket; resolutions are retroactive to drafted chapters** | Shravan | yes |
 | [TICK-079](TICK-079-child-cost-direct.md) | C.2.b Rising Direct Costs of Children | Shravan | yes |
 | [TICK-077](TICK-077-credit-constraints-liquidity.md) | C.3.e Credit Constraints and Liquidity | Shravan | yes |
 | [TICK-076](TICK-076-heritability-fertility-genetic.md) | A.18 Genetic and Heritable Variation in Fertility | Shravan | yes |
@@ -84,6 +83,7 @@ tickets can be worked concurrently.
 
 | Ticket | Title | Owner | Branch (the claim) | Claimed (UTC) | Touches |
 |--------|-------|-------|--------------------|---------------|---------|
+| [TICK-080](TICK-080-cross-chapter-statistics-comparability.md) | Cross-chapter statistics — comparability, the demsig routes, and the sign-blind R². **Standing methods ticket, not a hypothesis; items 2, 4 and 5 are retroactive to drafted chapters** | Shravan | `080-cross-chapter-statistics-comparability` | 2026-09-06T17:25:24Z | `PROTOCOL.md`, `decisions/`, `docs/chapter-template.md`, `source/analysis/`, `output/tables/` |
 | [TICK-078](TICK-078-easterlin-relative-income.md) | C.6.a Easterlin Relative Income / Cohort Size — chapter drafted 2026-09-02; SDT MINOR, GRADE VERY LOW; three PI calls open | Shravan | `078-easterlin-relative-income` | 2026-09-02T16:07:13Z | `literature/search-logs/easterlin-relative-income-*`, `extraction/easterlin-relative-income-*`, `output/chapters/easterlin-relative-income.md` |
 | [TICK-068](TICK-068-microplastics-pfas-reproductive.md) | B.6. Microplastics and PFAS in Reproductive Tissues — both chapter drafts on the PROTOCOL §6 template; last commit 2026-08-14 | Shravan | `068-microplastics-pfas-reproductive` | 2026-08-14T14:23:49Z | `literature/search-logs/microplastics-pfas-reproductive-*`, `extraction/microplastics-pfas-reproductive-*`, `output/chapters/microplastics-pfas-reproductive.md`, `source/build/goldset/13*` |
 | [TICK-067](TICK-067-automate-ticket-claim-loop.md) | Automate the QUEUE.md board move in `scripts/ticket.sh claim` — **built and verified on its branch, unmerged.** This is the fix for the defect that left every row below missing from this board | Shravan | `067-automate-ticket-claim-loop` | 2026-08-13T20:13:46Z | `scripts/ticket.sh`, `tickets/README.md`, `tickets/opening-a-chapter-ticket.md` |
