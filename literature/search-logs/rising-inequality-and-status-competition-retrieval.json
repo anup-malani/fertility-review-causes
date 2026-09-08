@@ -1,0 +1,671 @@
+{
+ "n": 19,
+ "retrieved": 7,
+ "studies": 19,
+ "studies_covered": 7,
+ "rungs": {
+  "wp_host": {
+   "probed": 19
+  },
+  "oa_location": {
+   "probed": 19,
+   "found": 19,
+   "fetched": 7
+  },
+  "sibling_version": {
+   "probed": 12
+  },
+  "unpaywall": {
+   "probed": 12,
+   "found": 4
+  },
+  "pmc_bioc": {
+   "probed": 12
+  }
+ },
+ "records": [
+  {
+   "screen_id": "C2F0066",
+   "tier": 1,
+   "cell": "POSITIONAL_ALLOCATION_FERTILITY",
+   "title": "Status Anxiety and Demographic Contraction of Privileged Populations",
+   "year": 1987,
+   "doi": "10.2307/1973134",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.2307/1973134",
+     "final": "https://www.jstor.org/stable/1973134?origin=crossref",
+     "http": "200",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "proxy",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2F0259",
+   "tier": 1,
+   "cell": "DISPERSION_FERTILITY",
+   "title": "Women\u2019s relative status and childbearing intentions: Empirical evidence from Iran",
+   "year": 2018,
+   "doi": "10.1371/journal.pone.0195428",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0195428&type=printable",
+     "final": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0195428&type=printable",
+     "http": "200",
+     "ctype": "application/pdf",
+     "pdf": true
+    }
+   ],
+   "status": "already_on_disk",
+   "path": "literature/pdfs/rising-inequality-and-status-competition/C2F0259.pdf",
+   "handoff": null,
+   "rung": "oa_location",
+   "probed": [
+    "wp_host",
+    "oa_location"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2F0357",
+   "tier": 1,
+   "cell": "DISPERSION_FERTILITY",
+   "title": "The impact of income inequality on the fertility intention: A micro perspective based on relative deprivation",
+   "year": 2024,
+   "doi": "10.1371/journal.pone.0311991",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0311991&type=printable",
+     "final": "https://journals.plos.org/plosone/article/file?id=10.1371/journal.pone.0311991&type=printable",
+     "http": "200",
+     "ctype": "application/pdf",
+     "pdf": true
+    }
+   ],
+   "status": "already_on_disk",
+   "path": "literature/pdfs/rising-inequality-and-status-competition/C2F0357.pdf",
+   "handoff": null,
+   "rung": "oa_location",
+   "probed": [
+    "wp_host",
+    "oa_location"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2F0428",
+   "tier": 1,
+   "cell": "TUTORING_POLICY_FERTILITY",
+   "title": "Education Competition and Fertility Intention: Evidence from China's Private Tutoring Ban",
+   "year": 2024,
+   "doi": "10.2139/ssrn.4980022",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.2139/ssrn.4980022",
+     "final": "https://www.ssrn.com/abstract=4980022",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "unpaywall",
+     "url": "https://doi.org/10.2139/ssrn.4980022",
+     "final": "https://www.ssrn.com/abstract=4980022",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "browser",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location",
+    "unpaywall"
+   ]
+  },
+  {
+   "screen_id": "C2F0515",
+   "tier": 1,
+   "cell": "DISPERSION_FERTILITY",
+   "title": "Income,Relative Status and Childbearing Willing of Chinese Women",
+   "year": 2010,
+   "doi": null,
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://en.cnki.com.cn/Article_en/CJFDTOTAL-LFRK201004003.htm",
+     "final": "https://en.cnki.com.cn/Article_en/CJFDTOTAL-LFRK201004003.htm",
+     "http": "000",
+     "ctype": "",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "browser",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2F0592",
+   "tier": 1,
+   "cell": "REQUIRED_INVESTMENT_FERTILITY",
+   "title": "The impact of shadow education expenditures on fertility rates in South Korea",
+   "year": 2026,
+   "doi": "10.1007/s00148-026-01156-0",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.1007/s00148-026-01156-0",
+     "final": "https://link.springer.com/10.1007/s00148-026-01156-0",
+     "http": "200",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "proxy",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2F0593",
+   "tier": 1,
+   "cell": "REQUIRED_INVESTMENT_FERTILITY",
+   "title": "Expansion of shadow education, status externalities, and fertility intentions",
+   "year": 2025,
+   "doi": "10.3724/1005-0566.20251207",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://www.sciengine.com/doi/pdf/1CC12B686FA547DDB29D7F0BA27780F0",
+     "final": "https://www.sciengine.com/doi/pdf/1CC12B686FA547DDB29D7F0BA27780F0",
+     "http": "418",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    },
+    {
+     "rung": "unpaywall",
+     "url": "https://www.sciengine.com/doi/pdf/1CC12B686FA547DDB29D7F0BA27780F0",
+     "final": "https://www.sciengine.com/doi/pdf/1CC12B686FA547DDB29D7F0BA27780F0",
+     "http": "418",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "proxy",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location",
+    "unpaywall"
+   ]
+  },
+  {
+   "screen_id": "C2F0721",
+   "tier": 1,
+   "cell": "REQUIRED_INVESTMENT_FERTILITY",
+   "title": "\u88dc\u7fd2\u3001\u751f\u80b2\u8207\u968e\u7d1a\u6d41\u52d5;Shadow Education, Fertility, and Social Mobility",
+   "year": 2015,
+   "doi": null,
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "http://ir.lib.ncu.edu.tw/handle/987654321/67809",
+     "final": "http://ir.lib.ncu.edu.tw/handle/987654321/67809",
+     "http": "000",
+     "ctype": "",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "browser",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2F0844",
+   "tier": 1,
+   "cell": "REQUIRED_INVESTMENT_FERTILITY",
+   "title": "Marital Fertility and Investment in Children\u2019s Education",
+   "year": 2019,
+   "doi": "10.1007/978-3-319-99480-2_3",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.1007/978-3-319-99480-2_3",
+     "final": "https://link.springer.com/10.1007/978-3-319-99480-2_3",
+     "http": "200",
+     "ctype": "text/html; charset=utf-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "https://portal.findresearcher.sdu.dk/da/publications/a99cfa66-e9fd-4839-8659-eb942bfd5417",
+     "final": "https://portal.findresearcher.sdu.dk/da/publications/marital-fertility-and-investment-in-childrens-education/",
+     "http": "200",
+     "ctype": "text/html;charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "http://hdl.handle.net/10446/146359",
+     "final": "https://aisberg.unibg.it/handle/10446/146359",
+     "http": "200",
+     "ctype": "text/html;charset=utf-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "proxy",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2F0850",
+   "tier": 1,
+   "cell": "REQUIRED_INVESTMENT_FERTILITY",
+   "title": "Exploring ways to revitalize public education and reduce private education costs to increase fertility rate in Korea: Focusing on Sweden Education Introduction",
+   "year": 2019,
+   "doi": "10.31203/aepa.2019.16.1.008",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.31203/aepa.2019.16.1.008",
+     "final": "https://scholar.kyobobook.co.kr/article/detail/4010069701842",
+     "http": "200",
+     "ctype": "text/html;charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "unpaywall",
+     "url": "https://doi.org/10.31203/aepa.2019.16.1.008",
+     "final": "https://scholar.kyobobook.co.kr/article/detail/4010069701842",
+     "http": "200",
+     "ctype": "text/html;charset=UTF-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "browser",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location",
+    "unpaywall"
+   ]
+  },
+  {
+   "screen_id": "C2F1108",
+   "tier": 1,
+   "cell": "DISPERSION_FERTILITY",
+   "title": "Development Strategy, Relative Deprivation And Fertility Behavior In Taiwan.",
+   "year": 1979,
+   "doi": "10.7302/11361",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://hdl.handle.net/2027.42/180972",
+     "final": "https://deepblue.lib.umich.edu/items/58b0f935-dd64-41ef-9975-68d3376b9c43",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.7302/11361",
+     "final": "https://deepblue.lib.umich.edu/handle/2027.42/180972",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "browser",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2F1212",
+   "tier": 1,
+   "cell": "DISPERSION_FERTILITY",
+   "title": "Income Inequality, Educational Aspirations, and Fertility Behavior",
+   "year": 2025,
+   "doi": "10.2139/ssrn.5388883",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.2139/ssrn.5388883",
+     "final": "https://www.ssrn.com/abstract=5388883",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "unpaywall",
+     "url": "https://doi.org/10.2139/ssrn.5388883",
+     "final": "https://www.ssrn.com/abstract=5388883",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "browser",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location",
+    "unpaywall"
+   ]
+  },
+  {
+   "screen_id": "C2F1217",
+   "tier": 1,
+   "cell": "DISPERSION_FERTILITY",
+   "title": "Income Inequality and the Realization of Fertility Desires in China: Evidence from CGSS Panel Data",
+   "year": 2025,
+   "doi": "10.54254/2754-1169/2025.lh27674",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://www.ewadirect.com/proceedings/aemps/article/view/27674/pdf",
+     "final": "https://aemps.ewapub.com/article/view/27674.pdf",
+     "http": "200",
+     "ctype": "application/pdf",
+     "pdf": true
+    }
+   ],
+   "status": "already_on_disk",
+   "path": "literature/pdfs/rising-inequality-and-status-competition/C2F1217.pdf",
+   "handoff": null,
+   "rung": "oa_location",
+   "probed": [
+    "wp_host",
+    "oa_location"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2F1264",
+   "tier": 1,
+   "cell": "DISPERSION_FERTILITY",
+   "title": "Widening Regional Economic Disparities and Fertility Decline in South Korea: A Cross\u2010Level Analysis",
+   "year": 2026,
+   "doi": "10.1002/psp.70210",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.1002/psp.70210",
+     "final": "https://onlinelibrary.wiley.com/doi/10.1002/psp.70210",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "proxy",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2F1279",
+   "tier": 1,
+   "cell": "TUTORING_POLICY_FERTILITY",
+   "title": "The impact of China\u2019s \u201cDouble Reduction\u201d policy on the fertility and education investment behaviour of Chinese households",
+   "year": 2026,
+   "doi": "10.1080/00036846.2026.2635625",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.1080/00036846.2026.2635625",
+     "final": "https://www.tandfonline.com/doi/full/10.1080/00036846.2026.2635625",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    }
+   ],
+   "status": "failed",
+   "path": null,
+   "handoff": "proxy",
+   "probed": [
+    "wp_host",
+    "oa_location",
+    "sibling_version",
+    "unpaywall",
+    "pmc_bioc"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2F1327",
+   "tier": 1,
+   "cell": "REQUIRED_INVESTMENT_FERTILITY",
+   "title": "Educational competition and reduced family size in China",
+   "year": 2026,
+   "doi": "10.4054/demres.2026.55.2",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://www.demographic-research.org/volumes/vol55/2/55-2.pdf",
+     "final": "https://www.demographic-research.org/volumes/vol55/2/55-2.pdf",
+     "http": "200",
+     "ctype": "application/pdf",
+     "pdf": true
+    }
+   ],
+   "status": "already_on_disk",
+   "path": "literature/pdfs/rising-inequality-and-status-competition/C2F1327.pdf",
+   "handoff": null,
+   "rung": "oa_location",
+   "probed": [
+    "wp_host",
+    "oa_location"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2F1343",
+   "tier": 1,
+   "cell": "REQUIRED_INVESTMENT_FERTILITY",
+   "title": "Education, care, and fertility in South Korea: essays on household constraints and social pressure",
+   "year": 2026,
+   "doi": "10.25675/3.027501",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://mountainscholar.org/bitstreams/295b0103-7f86-4dbf-8064-65424f4e4904/download",
+     "final": "https://api.mountainscholar.org/server/api/core/bitstreams/295b0103-7f86-4dbf-8064-65424f4e4904/content",
+     "http": "200",
+     "ctype": "application/pdf;charset=UTF-8",
+     "pdf": true
+    }
+   ],
+   "status": "already_on_disk",
+   "path": "literature/pdfs/rising-inequality-and-status-competition/C2F1343.pdf",
+   "handoff": null,
+   "rung": "oa_location",
+   "probed": [
+    "wp_host",
+    "oa_location"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2F1346",
+   "tier": 1,
+   "cell": "DISPERSION_FERTILITY",
+   "title": "Income Inequality, Human Capital Aspirations, and Fertility Decisions: Evidence from China",
+   "year": 2026,
+   "doi": "10.21203/rs.3.rs-10364333/v1",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://www.researchsquare.com/article/rs-10364333/latest.pdf",
+     "final": "https://assets-eu.researchsquare.com/files/rs-10364333/v1_covered_6408113d-c5b0-4f87-8712-b824cf70fa3a.pdf?c=1788246721",
+     "http": "200",
+     "ctype": "application/pdf",
+     "pdf": true
+    }
+   ],
+   "status": "already_on_disk",
+   "path": "literature/pdfs/rising-inequality-and-status-competition/C2F1346.pdf",
+   "handoff": null,
+   "rung": "oa_location",
+   "probed": [
+    "wp_host",
+    "oa_location"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  },
+  {
+   "screen_id": "C2F1348",
+   "tier": 1,
+   "cell": "POSITIONAL_ALLOCATION_FERTILITY",
+   "title": "The Race for Elite Destinations: Education Competition and Low Fertility in Korea",
+   "year": 2026,
+   "doi": "10.2139/ssrn.7362758",
+   "attempts": [
+    {
+     "rung": "oa_location",
+     "url": "https://doi.org/10.2139/ssrn.7362758",
+     "final": "https://www.ssrn.com/abstract=7362758",
+     "http": "403",
+     "ctype": "text/html; charset=UTF-8",
+     "pdf": false
+    },
+    {
+     "rung": "oa_location",
+     "url": "https://arxiv.org/pdf/2608.27980",
+     "final": "https://arxiv.org/pdf/2608.27980",
+     "http": "200",
+     "ctype": "application/pdf",
+     "pdf": true
+    }
+   ],
+   "status": "already_on_disk",
+   "path": "literature/pdfs/rising-inequality-and-status-competition/C2F1348.pdf",
+   "handoff": null,
+   "rung": "oa_location",
+   "probed": [
+    "wp_host",
+    "oa_location"
+   ],
+   "found": [
+    "oa_location"
+   ]
+  }
+ ]
+}

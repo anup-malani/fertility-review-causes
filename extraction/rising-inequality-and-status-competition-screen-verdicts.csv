@@ -1,0 +1,331 @@
+screen_id,verdict,cell,note,title_only
+C2F0000,CONTEXT,THEORY,"Veblen, positional canon, no estimate",False
+C2F0001,CONTEXT,THEORY,Hirsch Social Limits to Growth; title only,True
+C2F0002,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0003,EXCLUDE,OFF_OTHER,"economics of women, men and work; textbook",False
+C2F0004,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0005,CONTEXT,THEORY,"de la Croix & Doepke; model, and inequality is the OUTCOME",False
+C2F0006,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0007,CONTEXT,THEORY,"Schor, positional canon",False
+C2F0008,EXCLUDE,INEQ_INVESTMENT,"Kornrich & Furstenberg; link 1, outcome is spending",False
+C2F0009,EXCLUDE,OFF_OTHER,Wilkinson relative deprivation; health outcomes,True
+C2F0010,BOUNDARY,QQ_BOUNDARY,Becker & Lewis; Wall 1; title only,True
+C2F0011,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0012,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",True
+C2F0013,CONTEXT,THEORY,Doepke & Zilibotti parenting style; no fertility outcome,False
+C2F0014,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0015,CONTEXT,WRONG_DIRECTION,sorting -> inequality; Wall 9,False
+C2F0016,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0017,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0018,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0019,EXCLUDE,INEQ_INVESTMENT,"Schneider et al; link 1, outcome is investment",False
+C2F0020,EXCLUDE,OFF_OTHER,teen childbearing / socioeconomic disadvantage -> route D.3.c (Wall 7),False
+C2F0021,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0022,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0023,CONTEXT,THEORY,"demographic transition, income distribution, growth; title only",True
+C2F0024,CONTEXT,THEORY,Doepke et al survey,False
+C2F0025,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0026,EXCLUDE,INEQ_INVESTMENT,"Ramey & Ramey Rug Rat Race; link 1, outcome is parental time",False
+C2F0027,CONTEXT,THEORY,"Frank Expenditure Cascades; positional consumption, not child investment",False
+C2F0028,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",True
+C2F0029,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0034,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,True
+C2F0039,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0040,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0041,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,True
+C2F0043,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,True
+C2F0044,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,True
+C2F0046,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0050,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0055,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0056,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0058,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0066,INCLUDE_PRIMARY,POSITIONAL_ALLOCATION_FERTILITY,"status anxiety -> demographic contraction of privileged populations, 1987",False
+C2F0070,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,True
+C2F0077,CONTEXT,THEORY,"status competition, inequality and fertility; small-scale societies",False
+C2F0087,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0088,CONTEXT,THEORY,Becker allocation of time,False
+C2F0089,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0098,BOUNDARY,QQ_BOUNDARY,"child quality over quantity, Vietnam",False
+C2F0099,BOUNDARY,QQ_BOUNDARY,"family size -> tutoring expenditure, Korea; the QQ arrow",False
+C2F0108,BOUNDARY,EDUCOMP_BOUNDARY,"shadow education and inequality, Cambodia",False
+C2F0116,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,True
+C2F0123,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0139,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0143,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,True
+C2F0147,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0149,CONTEXT,INEQ_ASSOCIATION,"fertility, income inequality and labour productivity",False
+C2F0160,BOUNDARY,EDUCOMP_BOUNDARY,tutoring industry Hong Kong,False
+C2F0162,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0166,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,True
+C2F0167,BOUNDARY,EDUCOMP_BOUNDARY,"parental involvement, private tutoring, reading achievement",False
+C2F0170,CONTEXT,INEQ_ASSOCIATION,understanding ultra-low fertility in Hong Kong; title only,True
+C2F0171,BOUNDARY,QQ_BOUNDARY,"child quality over quantity, Vietnam",False
+C2F0173,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0184,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0185,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0194,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0195,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,True
+C2F0201,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0206,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0225,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0237,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0241,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0242,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0245,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0259,INCLUDE_PRIMARY,DISPERSION_FERTILITY,"women's relative status -> childbearing intentions, Iran",False
+C2F0265,BOUNDARY,EDUCOMP_BOUNDARY,Double Reduction impact on education system; no fertility outcome,False
+C2F0273,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0274,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0275,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0276,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,True
+C2F0277,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0278,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0279,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0280,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0281,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0282,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0283,BOUNDARY,EDUCOMP_BOUNDARY,US private tutoring centres; no fertility outcome,False
+C2F0284,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0285,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0286,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0287,EXCLUDE,OFF_OTHER,Singapore pronatal policy -> route C.2.d,False
+C2F0288,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0289,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0290,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0291,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0292,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0293,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0294,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0295,CONTEXT,WRONG_DIRECTION,educational hypergamy,False
+C2F0296,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0297,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0298,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0299,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",True
+C2F0300,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0301,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0302,EXCLUDE,OFF_OTHER,adolescent childbearing Bangladesh -> D.3.c,False
+C2F0306,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0309,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,True
+C2F0311,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0313,CONTEXT,INEQ_ASSOCIATION,"inequality and fertility, 1985; title only",True
+C2F0318,CONTEXT,THEORY,"envy, inequality and fertility; title only",True
+C2F0320,EXCLUDE,OFF_OTHER,"social status -> reproductive success; evolutionary, boundary cloud",False
+C2F0321,BOUNDARY,EDUCOMP_BOUNDARY,family responses to Double Reduction; no fertility outcome; title only,True
+C2F0349,BOUNDARY,QQ_BOUNDARY,"child quality over quantity, Vietnam; title only",True
+C2F0354,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0355,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0357,INCLUDE_PRIMARY,DISPERSION_FERTILITY,income inequality -> fertility intention via relative deprivation index,False
+C2F0358,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,True
+C2F0372,BOUNDARY,QQ_BOUNDARY,"child quality over quantity, Vietnam",False
+C2F0376,BOUNDARY,QQ_BOUNDARY,"child quality over quantity, Vietnam",False
+C2F0381,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0387,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0390,BOUNDARY,QQ_BOUNDARY,"declining fertility -> household education investment, Vietnam",False
+C2F0391,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0392,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0407,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0413,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0419,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0428,INCLUDE_PRIMARY,TUTORING_POLICY_FERTILITY,China private tutoring ban -> fertility intention; title only,True
+C2F0429,EXCLUDE,OFF_OTHER,child-contingent policies Spain -> route C.2.d,False
+C2F0432,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0438,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0439,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0443,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,True
+C2F0448,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0450,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0452,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0469,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,True
+C2F0474,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0475,BOUNDARY,EDUCOMP_BOUNDARY,"household demand for private tutoring, Tunisia",False
+C2F0488,CONTEXT,WRONG_DIRECTION,spousal educational matching -> fertility behaviour; assortative mating,False
+C2F0489,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0493,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0503,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0511,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0514,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0515,INCLUDE_PRIMARY,DISPERSION_FERTILITY,"income and relative status -> childbearing willingness, China CHNS",False
+C2F0519,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0522,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0525,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0529,EXCLUDE,OFF_OTHER,child policy and income distribution -> route C.2.d,False
+C2F0534,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0536,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0540,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0546,CONTEXT,WRONG_DIRECTION,one-child policy -> inequality; fertility is the CAUSE,True
+C2F0547,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0548,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",True
+C2F0549,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0550,EXCLUDE,OFF_OTHER,secularization/insecurity -> route D.1.a,False
+C2F0551,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0552,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0553,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",True
+C2F0554,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0555,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0556,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0557,CONTEXT,WRONG_DIRECTION,demographic and family structure change -> income distribution,False
+C2F0558,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0559,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0560,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0561,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0562,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0563,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0564,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0565,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0566,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",True
+C2F0567,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0568,EXCLUDE,OFF_OTHER,Korean pronatal subsidy -> route C.2.d,False
+C2F0569,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0570,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0571,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0572,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0573,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",True
+C2F0574,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",True
+C2F0575,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0582,BOUNDARY,EDUCOMP_BOUNDARY,vocational tracking and educational inequality,False
+C2F0592,INCLUDE_PRIMARY,REQUIRED_INVESTMENT_FERTILITY,"shadow education expenditure -> fertility rates, South Korea; title only",True
+C2F0593,INCLUDE_PRIMARY,REQUIRED_INVESTMENT_FERTILITY,"shadow education expansion, status externalities -> fertility intentions",False
+C2F0602,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0604,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0629,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,True
+C2F0645,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,True
+C2F0675,CONTEXT,WRONG_DIRECTION,male earnings inequality -> family income inequality,False
+C2F0680,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0694,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0695,BOUNDARY,QQ_BOUNDARY,sibling size -> education investment; title only,True
+C2F0708,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0712,BOUNDARY,QQ_BOUNDARY,efficient investment in children; title only,True
+C2F0721,INCLUDE_PRIMARY,REQUIRED_INVESTMENT_FERTILITY,"shadow education, fertility, social mobility (zh); title only",True
+C2F0734,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0736,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0741,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0743,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0753,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0766,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0781,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0801,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0804,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0808,CONTEXT,INEQ_ASSOCIATION,essays on economics of education and fertility,False
+C2F0811,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0819,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",True
+C2F0820,CONTEXT,THEORY,status competition model of cultural production; title only,True
+C2F0821,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0822,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0823,CONTEXT,WRONG_DIRECTION,inequality persistence BASED ON fertility; title only,True
+C2F0824,CONTEXT,INEQ_ASSOCIATION,"income inequality -> fertility, LDCs, 1986; no identified variation; title only",True
+C2F0825,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0826,BOUNDARY,EDUCOMP_BOUNDARY,"shadow education access, China",False
+C2F0827,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",True
+C2F0828,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0829,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0830,BOUNDARY,EDUCOMP_BOUNDARY,private tutoring long-term effect Korea; no fertility outcome,True
+C2F0831,CONTEXT,WRONG_DIRECTION,fertility -> wealth distribution,False
+C2F0832,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0833,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0834,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0835,CONTEXT,INEQ_ASSOCIATION,"fertility rate and income inequality, international; associational",False
+C2F0836,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0837,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0838,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0839,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0840,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0841,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0842,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0843,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0844,INCLUDE_PRIMARY,REQUIRED_INVESTMENT_FERTILITY,"marital fertility AND investment in children's education; title only, FULL-TEXT NEEDED",True
+C2F0845,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0846,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0847,EXCLUDE,INEQ_INVESTMENT,parental investment in college; link 1,False
+C2F0848,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F0850,INCLUDE_PRIMARY,REQUIRED_INVESTMENT_FERTILITY,"reduce private education costs to raise birthrate, Korea",False
+C2F0873,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0874,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,True
+C2F0879,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,True
+C2F0889,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0894,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,True
+C2F0931,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0937,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0950,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0971,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0979,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,True
+C2F0983,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0989,EXCLUDE,OFF_OTHER,social status -> mating/reproductive outcomes; evolutionary; title only,True
+C2F0994,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F0999,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F1017,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F1018,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F1019,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F1023,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F1024,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F1030,CONTEXT,WRONG_DIRECTION,assortative mating -> income inequality,False
+C2F1037,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,True
+C2F1048,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F1051,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F1082,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F1085,BOUNDARY,EDUCOMP_BOUNDARY,private tutoring and academic performance; title only,True
+C2F1092,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F1093,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",True
+C2F1094,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F1095,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F1096,EXCLUDE,OFF_OTHER,pensions -> child investment -> route C.3.c,False
+C2F1097,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F1098,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F1099,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F1100,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F1101,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F1102,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",True
+C2F1103,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,True
+C2F1104,EXCLUDE,INEQ_INVESTMENT,socioeconomic gaps in parental expenditure; title only,True
+C2F1105,EXCLUDE,INEQ_INVESTMENT,parental investment and intra-household inequality,False
+C2F1106,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",True
+C2F1107,BOUNDARY,EDUCOMP_BOUNDARY,wealth transfer -> shadow education; no fertility outcome,False
+C2F1108,INCLUDE_PRIMARY,DISPERSION_FERTILITY,"relative deprivation -> fertility behaviour, Taiwan 1979; title only",False
+C2F1109,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",True
+C2F1110,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F1111,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F1112,CONTEXT,THEORY,parenting-investment ideal as policy critique,False
+C2F1113,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F1114,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F1115,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F1116,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F1117,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",True
+C2F1118,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",True
+C2F1119,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F1120,EXCLUDE,OFF_OTHER,"general income-inequality literature, no C.2.f exposure",False
+C2F1121,EXCLUDE,OFF_OTHER,perceptions of inequality and intrasexual competition; no fertility outcome,True
+C2F1125,BOUNDARY,EDUCOMP_BOUNDARY,parent attitudes to private tutoring,False
+C2F1146,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,True
+C2F1162,BOUNDARY,EDUCOMP_BOUNDARY,private education policy China vs Korea; no fertility outcome,False
+C2F1163,BOUNDARY,EDUCOMP_BOUNDARY,"private tutoring -> human capital investment, Korea",False
+C2F1169,BOUNDARY,PERCEIVED_STATUS,"expected socioeconomic status -> willingness to have another child, China",False
+C2F1200,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F1208,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F1212,INCLUDE_PRIMARY,DISPERSION_FERTILITY,"income inequality, educational aspirations, fertility behavior; title only",True
+C2F1214,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F1217,INCLUDE_PRIMARY,DISPERSION_FERTILITY,"income inequality -> realization of fertility desires, China, CGSS panel",False
+C2F1230,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F1243,CONTEXT,THEORY,duplicate of C2F1355,False
+C2F1255,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,True
+C2F1259,BOUNDARY,EDUCOMP_BOUNDARY,shadow price of schooling; tutoring expenditure,False
+C2F1260,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F1262,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F1264,INCLUDE_PRIMARY,DISPERSION_FERTILITY,"widening regional economic disparities -> fertility decline, Korea",False
+C2F1265,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F1279,INCLUDE_PRIMARY,TUTORING_POLICY_FERTILITY,China 2021 Double Reduction -> BOTH fertility AND education investment. one-study-can-carry-the-structure,False
+C2F1281,CONTEXT,THEORY,"success, status and the endogenous origins of decline; title only",True
+C2F1286,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F1297,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F1309,BOUNDARY,EDUCOMP_BOUNDARY,educational reform and youth wellbeing Japan/Korea; title only,True
+C2F1310,CONTEXT,THEORY,status anxiety in East Asian work ecologies,False
+C2F1312,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F1314,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F1318,BOUNDARY,QQ_BOUNDARY,shadow education and family size effects on investment,False
+C2F1321,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F1325,BOUNDARY,EDUCOMP_BOUNDARY,"AI, private tutoring, class reproduction; title only",True
+C2F1327,INCLUDE_PRIMARY,REQUIRED_INVESTMENT_FERTILITY,"educational competition -> reduced family size, China",False
+C2F1328,EXCLUDE,OFF_OTHER,no C.2.f exposure or no fertility outcome,False
+C2F1343,INCLUDE_PRIMARY,REQUIRED_INVESTMENT_FERTILITY,"education, care, fertility Korea; social pressure and household constraints",False
+C2F1346,INCLUDE_PRIMARY,DISPERSION_FERTILITY,"income inequality, human capital aspirations, fertility decisions, China; title only",True
+C2F1348,INCLUDE_PRIMARY,POSITIONAL_ALLOCATION_FERTILITY,"race for elite destinations: education competition -> low fertility, Korea; title only",True
+C2F1355,CONTEXT,THEORY,school choice and private tutoring in an endogenous fertility model,False

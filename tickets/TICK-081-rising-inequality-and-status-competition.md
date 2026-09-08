@@ -11,7 +11,7 @@
 - [x] 2. Search strategy and scope drafted
 - [~] 3. Literature search and AI screening, both phases (§5.1) — targeted arms screened exhaustively; `dispersion` remainder outstanding
 - [ ] 4. RA title/abstract review
-- [ ] 5. Full-text retrieval
+- [~] 5. Full-text retrieval — automated ceiling 7/19; 12 in handoff
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
 - [ ] 7. Extraction to `extraction/rising-inequality-and-status-competition.csv`, RA verifies a random 10%
 - [ ] 8. Risk-of-bias assessment per study
@@ -714,4 +714,57 @@ bought for.
 scope §14 was run-it-and-report-UNEVALUATED. On 18 primary records including a policy shock with both
 outcomes, C.2.f is a chapter with an evidence base, and the question is no longer whether it survives
 but whether Wall 1 can be enforced at full text.
+
+### 2026-09-08 — tier-1 full-text retrieval: 7/19, and the cell that matters is EMPTY
+
+`342_c2f_fulltext_retrieval.py`, ported from C.2.b's `324` with the rung order re-argued for this
+literature rather than inherited.
+
+**Three rung predictions were recorded in the script docstring BEFORE the run, and all three held:**
+
+| rung | predicted | measured |
+|---|---|---|
+| `oa_location` | carries most of it | probed 19, **found 19, fetched 7** |
+| `wp_host` | little — not an NBER/IZA literature | probed 19, found **0** |
+| `pmc_bioc` | empty — no biomedical indexing | probed 12, found **0** |
+
+`unpaywall` probed 12, **found 4, fetched 0** — not dead, its URLs are blocked. That is
+`rung-found-is-not-rung-fetched` reproducing: one counter would have reported it as an empty rung.
+
+**Coverage by cell is the number, not the 37% rate** (`retrieval-rate-hides-which-records`):
+
+| cell | retrieved |
+|---|---|
+| `DISPERSION_FERTILITY` | 4/8 |
+| `REQUIRED_INVESTMENT_FERTILITY` | 2/7 |
+| `POSITIONAL_ALLOCATION_FERTILITY` | 1/2 |
+| **`TUTORING_POLICY_FERTILITY`** | **0/2 — EMPTY** |
+
+**The empty cell is the one carrying the boundary-spanning design.** C2F1279 (*The impact of China's
+"Double Reduction" policy on the fertility and education investment behaviour*, **Applied
+Economics**, Taylor & Francis) and C2F0428 (*Education Competition and Fertility Intention: Evidence
+from China's Private Tutoring Ban*, SSRN). Both are recoverable — T&F is squarely inside the
+UChicago proxy and SSRN is free but bot-defended — but **neither can be read until a human runs the
+handoff, and the chapter's best evidence is behind that step.** 37% would have read as survivable;
+0/2 on this cell is not.
+
+**A third handoff kind, pre-registered and then measured.** The docstring predicted that regional
+Chinese and Korean venues sit outside both open access and the UChicago proxy, making them a third
+job rather than a `proxy` job. `reclassify_regional()` now looks up the **Crossref publisher** for
+every `proxy` failure and moves it when the publisher is outside the set the library can be expected
+to license. It moved one: *China Soft Science* (China Science Publishing & Media). Telling a human
+to "try the proxy" for that would have burned the one expensive resource in this pipeline.
+Handoff is now **5 proxy, 6 browser, 1 regional**.
+
+**Two of my own reporting bugs, both caught before the numbers were written down.** The summary
+counter was computed in the fetch loop and printed the PRE-reclassification handoff counts, so it
+disagreed with the files on disk. And the new per-cell coverage line checked `status == "fetched"`
+literally, reporting **0/19 primary against a true 7/19**, because a re-run reports
+`already_on_disk` and a twin-covered record reports `covered_by_twin` — the script has a `GOT` set
+for exactly this. Same shape as the id-format mismatch in `340`'s enrichment: a plausible-looking
+zero from checking one literal.
+
+Next: the handoff is a human step (5 proxy + 6 browser + 1 regional). Tier 2 (the 30-record boundary
+packet) has not been run. **Extraction is gated on `TUTORING_POLICY_FERTILITY`**, so the two records
+in it are the priority — not the 12-record total.
 
