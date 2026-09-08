@@ -1,0 +1,1367 @@
+{
+ "n": 150,
+ "rubric_frozen": "2026-09-08",
+ "cells": {
+  "THEORY": 10,
+  "OFF_OTHER": 120,
+  "INEQ_INVESTMENT": 6,
+  "QQ_BOUNDARY": 1,
+  "WRONG_DIRECTION": 5,
+  "EDUCOMP_BOUNDARY": 4,
+  "INEQ_ASSOCIATION": 2,
+  "REQUIRED_INVESTMENT_FERTILITY": 1,
+  "DISPERSION_FERTILITY": 1
+ },
+ "verdicts": [
+  {
+   "screen_id": "C2F0000",
+   "stratum": 1,
+   "cell": "THEORY",
+   "note": "Veblen, positional canon, no estimate",
+   "title": "The Theory of the Leisure Class",
+   "year": 2009,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0001",
+   "stratum": 1,
+   "cell": "THEORY",
+   "note": "Hirsch Social Limits to Growth; title only",
+   "title": "Social Limits to Growth",
+   "year": 1976,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0002",
+   "stratum": 1,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Early Exposure to Anesthesia and Learning Disabilities in a Population-based Birth Cohort",
+   "year": 2009,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0003",
+   "stratum": 1,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "The Economics of Women, Men, and Work.",
+   "year": 1987,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0004",
+   "stratum": 1,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Housework: Who Did, Does or Will Do It, and How Much Does It Matter?",
+   "year": 2012,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0005",
+   "stratum": 1,
+   "cell": "THEORY",
+   "note": "de la Croix & Doepke; model, and inequality is the OUTCOME",
+   "title": "Inequality and Growth: Why Differential Fertility Matters",
+   "year": 2003,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0006",
+   "stratum": 1,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Economic and Health Predictors of National Postpartum Depression Prevalence: A Systematic Review, Meta-analysis, and Meta-Regression of 291 Studies from 56 Countries",
+   "year": 2018,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0007",
+   "stratum": 1,
+   "cell": "THEORY",
+   "note": "Schor, positional canon",
+   "title": "The Overspent American: Why We Want What We Don't Need",
+   "year": 1997,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0008",
+   "stratum": 1,
+   "cell": "INEQ_INVESTMENT",
+   "note": "Kornrich & Furstenberg; link 1, outcome is spending",
+   "title": "Investing in Children: Changes in Parental Spending on Children, 1972\u20132007",
+   "year": 2012,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0009",
+   "stratum": 1,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "The problems of relative deprivation: Why some societies do better than others",
+   "year": 2007,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0010",
+   "stratum": 1,
+   "cell": "QQ_BOUNDARY",
+   "note": "Becker & Lewis; Wall 1; title only",
+   "title": "On the Interaction between the Quantity and Quality of Children",
+   "year": 1973,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0011",
+   "stratum": 1,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Worldwide increases in adolescent loneliness",
+   "year": 2021,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0012",
+   "stratum": 1,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "The Bangladesh paradox: exceptional health achievement despite economic poverty",
+   "year": 2013,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0013",
+   "stratum": 1,
+   "cell": "THEORY",
+   "note": "Doepke & Zilibotti parenting style; no fertility outcome",
+   "title": "Parenting With Style: Altruism and Paternalism in Intergenerational Preference Transmission",
+   "year": 2017,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0014",
+   "stratum": 1,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Making kin not population",
+   "year": 2018,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0015",
+   "stratum": 1,
+   "cell": "WRONG_DIRECTION",
+   "note": "sorting -> inequality; Wall 9",
+   "title": "Sorting and Long-Run Inequality",
+   "year": 2001,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0016",
+   "stratum": 1,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Child wellbeing and income inequality in rich societies: ecological cross sectional study",
+   "year": 2007,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0017",
+   "stratum": 1,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Income Distribution and Infant Mortality",
+   "year": 1992,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0018",
+   "stratum": 1,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Bust to Boom? the Irish Experience of Growth and Inequality",
+   "year": 2000,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0019",
+   "stratum": 1,
+   "cell": "INEQ_INVESTMENT",
+   "note": "Schneider et al; link 1, outcome is investment",
+   "title": "Income Inequality and Class Divides in Parental Investments",
+   "year": 2018,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0020",
+   "stratum": 1,
+   "cell": "OFF_OTHER",
+   "note": "teen childbearing / socioeconomic disadvantage -> route D.3.c (Wall 7)",
+   "title": "Socioeconomic Disadvantage as a Social Determinant of Teen Childbearing in the U.S.",
+   "year": 2013,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0021",
+   "stratum": 1,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Income inequality, unemployment, and suicide: a panel data analysis of 15 European countries",
+   "year": 2005,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0022",
+   "stratum": 1,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Is modern Western culture a health hazard?",
+   "year": 2005,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0023",
+   "stratum": 1,
+   "cell": "THEORY",
+   "note": "demographic transition, income distribution, growth; title only",
+   "title": "Demographic Transition, Income Distribution, and Economic Growth",
+   "year": 1998,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0024",
+   "stratum": 1,
+   "cell": "THEORY",
+   "note": "Doepke et al survey",
+   "title": "The Economics of Fertility: A New Era",
+   "year": 2022,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0025",
+   "stratum": 1,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Income Distribution and Differences in Needs",
+   "year": 1987,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0026",
+   "stratum": 1,
+   "cell": "INEQ_INVESTMENT",
+   "note": "Ramey & Ramey Rug Rat Race; link 1, outcome is parental time",
+   "title": "The Rug Rat Race",
+   "year": 2009,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0027",
+   "stratum": 1,
+   "cell": "THEORY",
+   "note": "Frank Expenditure Cascades; positional consumption, not child investment",
+   "title": "Expenditure Cascades",
+   "year": 2014,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0028",
+   "stratum": 1,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Does economic inequality affect child malnutrition? The case of Ecuador",
+   "year": 2004,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0029",
+   "stratum": 1,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Economic Development and Female Labor Force Participation: A Reconsideration",
+   "year": 1986,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0273",
+   "stratum": 2,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Variation in Clone Fertility and its Effect on the Gene Diversity of Seeds From a Seed Orchard of Chamaecyparis obtusa in Korea",
+   "year": 2007,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0274",
+   "stratum": 2,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Fertility Variation and Genetic Diversity in a Clonal Seed Orchard of Cryptomeria japonica",
+   "year": 2005,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0275",
+   "stratum": 2,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "The Structure and Diversity of Bacterial Communities in Differently Managed Soils Studied by Molecular Fingerprinting Methods",
+   "year": 2018,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0276",
+   "stratum": 2,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Theoretical Basis of Measures of Natural Fertility",
+   "year": 1977,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0277",
+   "stratum": 2,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Macroeconomic and distributional effects of demographic change in an open economy\u2014the case of Belgium",
+   "year": 2020,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0278",
+   "stratum": 2,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Women Labor Force Participation and Governance in Developing Economies: A Panel Analysis",
+   "year": 2019,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0279",
+   "stratum": 2,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Physical cues of partner quality",
+   "year": 2021,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0280",
+   "stratum": 2,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Comprehensive analysis of the effectiveness of social security regional financial models in Russia based on the DEA method",
+   "year": 2023,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0281",
+   "stratum": 2,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Wealth inequality in the prehispanic northern US Southwest: from Malthus to Tyche",
+   "year": 2023,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0282",
+   "stratum": 2,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Development of geographic inequality in dental caries and its association with socioeconomic factors over an 18-year period in Denmark",
+   "year": 2023,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0283",
+   "stratum": 2,
+   "cell": "EDUCOMP_BOUNDARY",
+   "note": "US private tutoring centres; no fertility outcome",
+   "title": "Kumon In: The Recent, Rapid Rise of Private Tutoring Centers",
+   "year": 2024,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0284",
+   "stratum": 2,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Labour market participation of mothers in Italy: facts, studies and public policies",
+   "year": 2002,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0285",
+   "stratum": 2,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Poverty in the Brazilian Amazon: An Assessment of Poverty Focused on the State of Par\u00e1",
+   "year": 2004,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0286",
+   "stratum": 2,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Risk-Taking Reproductive Competition Explains National Murder Rates Better Than Socioeconomic Inequality",
+   "year": 2008,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0287",
+   "stratum": 2,
+   "cell": "OFF_OTHER",
+   "note": "Singapore pronatal policy -> route C.2.d",
+   "title": "Managing prolonged low fertility: the case of Singapore",
+   "year": 2009,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0288",
+   "stratum": 2,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Still Penalized? Parity, Age at First Birth and Women's Income in Later Life",
+   "year": 2012,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0289",
+   "stratum": 2,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Land Degradation and Poverty",
+   "year": 2008,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0290",
+   "stratum": 2,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "The Millennium Development Goals",
+   "year": 2007,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0291",
+   "stratum": 2,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Selection and mortality: a ten-year follow-up of income decile mortality in Norway",
+   "year": 2012,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0292",
+   "stratum": 2,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Epidemiology: a science for justice in health\u2020",
+   "year": 2007,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0293",
+   "stratum": 2,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Status of Women and Fertility in Iran",
+   "year": 1992,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0294",
+   "stratum": 2,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Determinants of income inequality in urban Ethiopia: A study of South Wollo Administrative Zone, Amhara National Regional State",
+   "year": 2016,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0295",
+   "stratum": 2,
+   "cell": "WRONG_DIRECTION",
+   "note": "educational hypergamy; assortative mating",
+   "title": "Is the end of educational hypergamy the end of hypergamy? Evidence from Sweden.",
+   "year": 2017,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0296",
+   "stratum": 2,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "A Shelter Is Not a Home: The Crisis of Family Homelessness in the United States",
+   "year": 2018,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0297",
+   "stratum": 2,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Insecurity and Development in Latin America and the Caribbean",
+   "year": 2015,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0298",
+   "stratum": 2,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Cohort Profile: The 1978\u201379 Ribeirao Preto (Brazil) birth cohort study",
+   "year": 2021,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0299",
+   "stratum": 2,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Increasing inequality and voting for basic income: Could gender inequality worsen?",
+   "year": 2022,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0300",
+   "stratum": 2,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Contribution of Dry Forests and Forest Products to Climate Change Adaptation in Tigray Region, Ethiopia",
+   "year": 2022,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0301",
+   "stratum": 2,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Physical Cues of Partner Quality",
+   "year": 2023,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0302",
+   "stratum": 2,
+   "cell": "OFF_OTHER",
+   "note": "adolescent childbearing Bangladesh -> D.3.c",
+   "title": "Prevalence and determinants of adolescent childbearing: comparative analysis of 2017\u201318 and 2014 Bangladesh Demographic Health Survey",
+   "year": 2023,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0546",
+   "stratum": 3,
+   "cell": "WRONG_DIRECTION",
+   "note": "one-child policy -> inequality; fertility is the CAUSE",
+   "title": "The One-Child Policy Amplifies Economic Inequality Across Generations in China",
+   "year": 2020,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0547",
+   "stratum": 3,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Hospitalization Patterns for Inpatient Pediatric Surgery and Procedures in California: The Ground Is Shifting",
+   "year": 2020,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0548",
+   "stratum": 3,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "The Global Cross-Section of Crime and Punishment",
+   "year": 2009,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0549",
+   "stratum": 3,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Public family spending, labour productivity, income inequality and poverty gap in the group of seven countries",
+   "year": 2020,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0550",
+   "stratum": 3,
+   "cell": "OFF_OTHER",
+   "note": "secularization/insecurity -> route D.1.a",
+   "title": "What\u2019s Causing Secularization? Insecurity",
+   "year": 2020,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0551",
+   "stratum": 3,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Recent population trends in less developed countries and implications for internal income inequality",
+   "year": 1989,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0552",
+   "stratum": 3,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "The impact of ICTs on women's economic empowerment",
+   "year": 2016,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0553",
+   "stratum": 3,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Does Gender Equality Translate into Economic Equality? Evidence from About 150 Nations",
+   "year": 2021,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0554",
+   "stratum": 3,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "How Is Suicide Different in Japan",
+   "year": 2007,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0555",
+   "stratum": 3,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "A CASE STUDY OF FUNCTIONS OF \u201cIBASHO\u201d FACILITY FOR NON-ATTENDANT TEENAGE STUDENTS FROM THEIR \u201cBA\u201d AND \u201cIBASHO\u201d APPRAISEMENT",
+   "year": 2018,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0556",
+   "stratum": 3,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Extensive Huffman-tree-based Neural Network for the Imbalanced Dataset and Its Application in Accent Recognition",
+   "year": 2021,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0557",
+   "stratum": 3,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "The impact of demographic and family structure changes on income distribution in Hungary and OECD countries",
+   "year": 2019,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0558",
+   "stratum": 3,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "DO METHODS MATTER? IMPLICATIONS FOR UNDERSTANDING AGRICULTURAL PRODUCTIVITY DRIVERS IN SMALLHOLDER FARMING SYSTEMS",
+   "year": 2019,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0559",
+   "stratum": 3,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Health in Japan through the lens of social epidemiology",
+   "year": 2021,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0560",
+   "stratum": 3,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Investigating Factors Affecting Divorce Rate in Iran's Provinces Using Path Analysis Model",
+   "year": 2018,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0561",
+   "stratum": 3,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "The unwanted child.",
+   "year": 1982,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0562",
+   "stratum": 3,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Strengthening the Link between Economic Growth and Poverty Reduction in Mali",
+   "year": 2021,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0563",
+   "stratum": 3,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Analysis of Development of Birth Control Policy in China Under Economic Perspective",
+   "year": 2021,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0564",
+   "stratum": 3,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "INEQUALITY PROFILES BASED ON GINI COEFFICIENT DECOMPOSITION WITH HIDDEN HOUSEHOLD INCOME",
+   "year": 2021,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0565",
+   "stratum": 3,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Income inequality among entrepreneurs in Ondo State, Nigeria",
+   "year": 2020,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0566",
+   "stratum": 3,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Geographic access and maternal health services utilization in S\u00e9lingu\u00e9 Health District, Mali.",
+   "year": 2020,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0567",
+   "stratum": 3,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Korea",
+   "year": 2014,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0568",
+   "stratum": 3,
+   "cell": "OFF_OTHER",
+   "note": "Korean pronatal subsidy -> route C.2.d",
+   "title": "An Evaluation of a Pronatal Subsidy in Korea: A Quasi-experimental Approach",
+   "year": 2010,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0569",
+   "stratum": 3,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Association between preterm births and socioeconomic development: analysis of national data",
+   "year": 2022,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0570",
+   "stratum": 3,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Climate Change, Inequality, and Human Migration",
+   "year": 2019,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0571",
+   "stratum": 3,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "https://www.esri.ie/publications/poverty-income-inequality-and-living-standards-in-ireland-third-annual-report",
+   "year": 2023,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0572",
+   "stratum": 3,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Modelling Mortality in Kenya",
+   "year": 2024,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0573",
+   "stratum": 3,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Fallow Lengths and the Structure of Property Rights",
+   "year": 2024,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0574",
+   "stratum": 3,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Redistribution Trends in Turkey: Regressive taxes, Structural Change, and Demographics",
+   "year": 2024,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0575",
+   "stratum": 3,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Analysis of Socio-economic Factors on Dry Farming Households of Ananthapuramu District of Andhra Pradesh, India",
+   "year": 2024,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0819",
+   "stratum": 4,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "High parental investment in childhood is associated with increased mate value in adulthood",
+   "year": 2018,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0820",
+   "stratum": 4,
+   "cell": "THEORY",
+   "note": "status competition model of cultural production; title only",
+   "title": "The Status Competition Model of Cultural Production",
+   "year": 2018,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0821",
+   "stratum": 4,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Assessing France as a model of societal success",
+   "year": 2010,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0822",
+   "stratum": 4,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Increasing Income Inequality in the Nordics",
+   "year": 2018,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0823",
+   "stratum": 4,
+   "cell": "WRONG_DIRECTION",
+   "note": "persistence of inequality BASED ON fertility; title only",
+   "title": "Persistence of Income Inequality Based on Fertility and Education Investment",
+   "year": 2009,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0824",
+   "stratum": 4,
+   "cell": "INEQ_ASSOCIATION",
+   "note": "income inequality -> fertility, LDCs, 1986; no identified variation; title only",
+   "title": "The role of income inequality on fertility in less developed countries",
+   "year": 1986,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0825",
+   "stratum": 4,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Figures, tables and boxes",
+   "year": 2014,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0826",
+   "stratum": 4,
+   "cell": "EDUCOMP_BOUNDARY",
+   "note": "shadow education access China; no fertility outcome",
+   "title": "The Acquistion of Opportunity of Shadow Education for Chinese Junior High School Student",
+   "year": 2018,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0827",
+   "stratum": 4,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Overcoming Barriers to Reducing Adolescent Pregnancy and Improving Maternal Health in Nicaragua",
+   "year": 2018,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0828",
+   "stratum": 4,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Analysis of Economic Situation, Potential, and Risk Factors in Korea, China, Japan, Germany, Greece, and Russia",
+   "year": 2016,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0829",
+   "stratum": 4,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Indkomst og d\u00f8delighed i en dansk befolkningsstikpr\u00f8ve",
+   "year": 2007,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0830",
+   "stratum": 4,
+   "cell": "EDUCOMP_BOUNDARY",
+   "note": "private tutoring long-term effect Korea; no fertility outcome",
+   "title": "Is There any Long-term Effect of Private Tutoring?: Analysis Using the Korean Education & Employment Panel",
+   "year": 2016,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0831",
+   "stratum": 4,
+   "cell": "WRONG_DIRECTION",
+   "note": "fertility -> wealth distribution",
+   "title": "Three Essays on Wealth and Income Inequality",
+   "year": 2018,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0832",
+   "stratum": 4,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Innovative Approaches to Improve Social Security Adequacy in the 21st Century",
+   "year": 2018,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0833",
+   "stratum": 4,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Differential allocation of parental investment and the trade-off between size and number of offspring",
+   "year": 2018,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0834",
+   "stratum": 4,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Simula\u00e7\u00f5es dos efeitos de mudan\u00e7a nos diferenciais de mortalidade e fecundidade sobre vari\u00e1veis socioecon\u00f4micas no Brasil de 1970 a 2008",
+   "year": 2013,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0835",
+   "stratum": 4,
+   "cell": "INEQ_ASSOCIATION",
+   "note": "fertility rate and income inequality, international; associational",
+   "title": "An International Study on the Relationship between Fertility Rate and Income Inequality under the Constraint of Intergenerational Mobility",
+   "year": 2017,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0836",
+   "stratum": 4,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "CAN GREATER ATTENTION TO WOMEN'S RIGHTS HELP ADDRESS INCOME INEQUALITY?",
+   "year": 2018,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0837",
+   "stratum": 4,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Inequality and Growth: Theoretical Aspects of Dependence [\u041d\u0435\u0440\u0430\u0432\u0435\u043d\u0441\u0442\u0432\u043e \u0418 \u042d\u043a\u043e\u043d\u043e\u043c\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u0420\u043e\u0441\u0442: \u0422\u0435\u043e\u0440\u0435\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u0410\u0441\u043f\u0435\u043a\u0442\u044b \u0417\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0441\u0442\u0438]",
+   "year": 2016,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0838",
+   "stratum": 4,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Microfinance and income inequality: New macrolevel evidence",
+   "year": 2018,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0839",
+   "stratum": 4,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "The impact of education on earnings and occupational mobility in Kenya.",
+   "year": 1983,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0840",
+   "stratum": 4,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Manufacturing Jobs: Implications for Income Inequality",
+   "year": 2018,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0841",
+   "stratum": 4,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "South Korean economy",
+   "year": 2017,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0842",
+   "stratum": 4,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Solving Millennial Marriage Evolution",
+   "year": 2018,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0843",
+   "stratum": 4,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "International trade, development traps, and the core-periphery structure of income inequality",
+   "year": 2019,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0844",
+   "stratum": 4,
+   "cell": "REQUIRED_INVESTMENT_FERTILITY",
+   "note": "marital fertility AND investment in children's education; title only, FULL-TEXT NEEDED",
+   "title": "Marital Fertility and Investment in Children\u2019s Education",
+   "year": 2019,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0845",
+   "stratum": 4,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "The Transition to the Knowledge Economy, Labor Market Institutions, and Income Inequality in Advanced Democracies",
+   "year": 2019,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0846",
+   "stratum": 4,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Demographics and Poverty Analysis for Developing Countries and Regions of the World for Developing Countries and Regions of the World \u2013 Part Two",
+   "year": 2018,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0847",
+   "stratum": 4,
+   "cell": "INEQ_INVESTMENT",
+   "note": "parental investment in college; link 1",
+   "title": "Parental Investments in College and Later Cash Transfers.",
+   "year": 2018,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0848",
+   "stratum": 4,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Like Watching Grass Grow?",
+   "year": 2018,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1092",
+   "stratum": 5,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "County-Level Income Inequality, Social Mobility, and Deaths of Despair in the US, 2000-2019",
+   "year": 2023,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1093",
+   "stratum": 5,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Financial Inclusion, Poverty, and Income Inequality in ASEAN Countries: Does Financial Innovation Matter?",
+   "year": 2023,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F1094",
+   "stratum": 5,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Productivity dispersion, wage dispersion and superstar firms",
+   "year": 2023,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1095",
+   "stratum": 5,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "El gasto de bolsillo en salud: el caso de Chile, 1997 y 2007 Out-of-pocket health spending: the case of Chile, 1997 and 2007",
+   "year": 2012,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1096",
+   "stratum": 5,
+   "cell": "OFF_OTHER",
+   "note": "pensions -> child investment -> route C.3.c",
+   "title": "Access to Pensions, Old-Age Support, and Child Investment in China",
+   "year": 2023,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1097",
+   "stratum": 5,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Measurement of Health Inequality in Odisha: A Statistical and Econometric Approach",
+   "year": 2023,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1098",
+   "stratum": 5,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Influencing Factor Analysis for Automobile Customers Based on One-Way ANOVA and Decision Tree",
+   "year": 2023,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1099",
+   "stratum": 5,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "PANEL DATA ANALYSIS MAKING EFFECT THE VARIABLES ON INCOME DISTRIBUTION INJUSTICE",
+   "year": 2023,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1100",
+   "stratum": 5,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Hwang, Gyu\u2010Jin. Building markets: Distributional consequences of social policy in East Asia. Northampton, MA, Elgar, 2022. 236 pp. ISBN 9781789901078.",
+   "year": 2023,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1101",
+   "stratum": 5,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Income inequality and \u2018hospitalisations of despair\u2019 in Canada: a study on longitudinal, population-based data",
+   "year": 2023,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1102",
+   "stratum": 5,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "The causal effect of regulation on income inequality across the U.S. states",
+   "year": 2023,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F1103",
+   "stratum": 5,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Motherhood Penalty and Fatherhood Premium: An Empirical Study Based on the Characteristics of Income Distribution and Long-Term Changes",
+   "year": 2023,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F1104",
+   "stratum": 5,
+   "cell": "INEQ_INVESTMENT",
+   "note": "socioeconomic gaps in parental expenditure; title only",
+   "title": "The summer parental investment gap? Socioeconomic gaps in the seasonality of parental expenditures and time with school-age children",
+   "year": 2023,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F1105",
+   "stratum": 5,
+   "cell": "INEQ_INVESTMENT",
+   "note": "parental investment and intra-household inequality",
+   "title": "Parental Investments and Intra-household Inequality in Child Human Capital: Evidence from a Survey Experiment",
+   "year": 2023,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1106",
+   "stratum": 5,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Human capital, self-esteem, and income inequality",
+   "year": 2023,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F1107",
+   "stratum": 5,
+   "cell": "EDUCOMP_BOUNDARY",
+   "note": "wealth transfer -> shadow education; no fertility outcome",
+   "title": "Intergenerational wealth transfer and family investment in shadow education: Empirical evidence from housing in China",
+   "year": 2023,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1108",
+   "stratum": 5,
+   "cell": "DISPERSION_FERTILITY",
+   "note": "relative deprivation -> FERTILITY BEHAVIOUR, Taiwan 1979; PRIMARY CANDIDATE; title only",
+   "title": "Development Strategy, Relative Deprivation And Fertility Behavior In Taiwan.",
+   "year": 1979,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1109",
+   "stratum": 5,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Credit and Income Inequality",
+   "year": 2023,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F1110",
+   "stratum": 5,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Family allowances",
+   "year": 2005,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1111",
+   "stratum": 5,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "The Income of Families: Earnings and Transfers",
+   "year": 1998,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1112",
+   "stratum": 5,
+   "cell": "THEORY",
+   "note": "parenting-investment ideal as policy critique",
+   "title": "America's Parenting Economy: How the Ideal of Parental Investment Scaffolds Family\u2010Hostile Policy",
+   "year": 2023,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1113",
+   "stratum": 5,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Step-grandparental investment: role of childhood co-residence with grandchild\u2019s parent",
+   "year": 2023,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1114",
+   "stratum": 5,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "The Ideology of Sacrifice in Mythmaking",
+   "year": 1991,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1115",
+   "stratum": 5,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Parental investment or parenting stress? Examining the links between poverty and child development in Ireland",
+   "year": 2023,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1116",
+   "stratum": 5,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Demographics and Poverty Analysis for Developing Countries and Regions of the World for Developing Countries and Regions of the World \u2013 Part One",
+   "year": 2018,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1117",
+   "stratum": 5,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Population Aging and Income Inequality in a Semi-Endogenous Growth Model",
+   "year": 2023,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F1118",
+   "stratum": 5,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Wage Dispersion and Private Sector Substitutes for Unpaid Household Work",
+   "year": 2023,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F1119",
+   "stratum": 5,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Transmission Channels of Effects of Inequality in Income Distribution on Economic Growth in the Group of Countries with Lower Levels of Inequality and Economic Development than Average - Suggestions for Vietnam",
+   "year": 2023,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1120",
+   "stratum": 5,
+   "cell": "OFF_OTHER",
+   "note": "general income-inequality literature, no C.2.f exposure",
+   "title": "Income inequality and socioeconomic differences in bullying perpetration among adolescents in post-communist countries of Europe: Findings from the HBSC study",
+   "year": 2023,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1121",
+   "stratum": 5,
+   "cell": "OFF_OTHER",
+   "note": "perceptions of inequality and intrasexual competition; no fertility outcome",
+   "title": "Perceptions of Income Inequality and Women\u2019s Intrasexual Competition",
+   "year": 2023,
+   "title_only": true
+  }
+ ]
+}

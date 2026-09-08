@@ -606,3 +606,55 @@ Next: the screen rubric. It must carry `return_separated` and `own_income_held` 
 fields or Walls 1 and 4 cannot be enforced at title/abstract, and the rubric needs an
 `education-competition` cell that scope §4A only created today.
 
+### 2026-09-08 — rubric frozen, depth probe screened (150 of 1,366)
+
+**Rubric frozen before any record was screened**,
+`literature/search-logs/rising-inequality-and-status-competition-screen-rubric.md`, 136 lines.
+`return_separated` and `own_income_held` are screen-visible fields, because Walls 1 and 4 are this
+chapter's two largest (8 and 90 records) and a wall the screen cannot see is a wall it cannot
+enforce. `UNCLEAR` is an explicit legitimate value on both and **must not be coerced to `NO`** — the
+count of `UNCLEAR` is itself a finding and it sizes the full-text work.
+
+Batcher `341` ported from C.2.b's `322`. Its screen-id prefix was literally `C2B`, which would have
+collided with C.2.b's ids in any shared table; now `C2F`.
+
+**Depth probe: 5 strata x 30 = 150 records (11%), evenly spaced by citation rank.**
+
+| cell | n |
+|---|---|
+| `OFF_OTHER` | 120 |
+| `THEORY` | 10 |
+| `INEQ_INVESTMENT` | 6 |
+| `WRONG_DIRECTION` | 5 |
+| `EDUCOMP_BOUNDARY` | 4 |
+| `INEQ_ASSOCIATION` | 2 |
+| `QQ_BOUNDARY` | 1 |
+| **`REQUIRED_INVESTMENT_FERTILITY`** | **1** |
+| **`DISPERSION_FERTILITY`** | **1** |
+
+**Primary yield 2/150 (1.3%), and the curve is inverted.** By stratum: 0, 0, 0, 1, 1. The citation
+HEAD holds no primary cell at all — it is the canon (Veblen, Hirsch, Schor, Becker, de la Croix,
+Doepke, Ramey & Ramey, Kornrich, Schneider, Frank), which is 10 `THEORY` plus 6 `INEQ_INVESTMENT`.
+Both primary candidates sit in the deep strata. This is the opposite of A.18's declining curve, and
+it is a warning against ever screening this universe front-to-back
+(`citation-sorted-head-is-not-the-population`).
+
+Best candidate found: **C2F1108, *Development Strategy, Relative Deprivation and Fertility Behavior
+in Taiwan* (1979)** — relative deprivation against fertility behaviour, which is the registered
+exposure against the registered outcome. It is a PhD thesis whose abstract is the single word "PhD",
+so it is title-only and needs full text.
+
+**The probe design under-samples the arm that matters, and that is the actionable finding.** Strata
+are evenly spaced across all 1,366 records, which are dominated by `dispersion` (851). The
+`education-competition` arm — scope §4A's recovered channel, the one carrying the China 2021 and
+Korea 1980 policy shocks — is **42 records, 3% of the universe**, so an 11% sample reaches about
+five of them. The 1.3% primary yield is therefore a statement about the dispersion literature, not
+about this chapter's best cell.
+
+**So the next pass is not a bigger sample.** `education-competition` (42) and `mechanism` (79) are
+121 records between them and should be screened **exhaustively** — cheaper than another probe and
+aimed where the primary cells are. `dispersion`'s 851 can then be screened knowing its measured
+yield is near zero, which is exactly the cost information the probe existed to buy.
+
+30 of the 150 were title-only and are flagged as such.
+
