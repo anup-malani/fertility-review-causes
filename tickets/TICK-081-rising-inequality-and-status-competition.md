@@ -103,3 +103,74 @@ outcome axis needs the same treatment. Do not write a frame number into this tic
   what gets ported and from where, or the next chapter re-derives it.
 
 ## Log
+
+### 2026-09-08 — stage-2 term diagnostics, and the frame is NOT what ranked it
+
+Scripts `328_c2f_term_diagnostics.py` and `329_c2f_second_channel.py`; logs
+`literature/search-logs/c2f-term-diagnostics-2026-09-08.md` and `c2f-second-channel-2026-09-08.md`.
+Counting only, no records retained, both re-runnable. 24 and 14 measurements, **zero refused** — the
+first run of `328` had 6 requests throttled by OpenAlex's >5-boolean-operator limit and the `Refused`
+path kept them out of the counts rather than recording them as zeros, which is the whole reason that
+path exists.
+
+**The union frame reproduces: 716 today against 714 on 09-03.** Everything below is inside it.
+
+**Finding 1 — 89% of the frame is one general-purpose term.**
+
+| measurement | n |
+|---|---|
+| C.2.f union frame | **716** |
+| `"income inequality"` alone, fertility-restricted | **635** |
+| the whole axis MINUS `"income inequality"` | **83** |
+| `"income inequality"` unrestricted | 49,350 |
+
+The six mechanism-specific terms sum to 83 and the axis-minus-largest is also 83, so they barely
+overlap: status competition 13, relative status 44, social comparison 24, positional competition 2,
+positional good 0, educational arms race 0.
+
+**This falsifies the reason I picked C.2.f over A.6.** The "Why this one now" section above argues
+that C.2.f's 539-of-714 core is "an anchored literature rather than a vocabulary artefact", against
+A.6's 12-of-675. That was read off the probe's pass-1 label without checking what the pass-1 query
+contained — it is `("income inequality" OR "status competition" OR "positional competition" OR
+"relative status")`, so the 539 is the same general term, not a core. On the metric I actually meant,
+C.2.f is **83/716 = 11.6%** mechanism-specific against A.6's **12/675 = 1.8%** — still ~6x better,
+and C.2.f additionally has a real Tier-A theory canon and a large middle-link literature to snowball,
+which A.6 does not. **The pick stands; the stated reason for it does not.**
+
+**Finding 2 — the middle link has a large literature and it does not touch fertility.**
+
+The mechanism is a conjunction: inequality → required investment per child → fertility. Second
+channel, sharing no phrase with the first:
+
+| measurement | n |
+|---|---|
+| shadow education / private tutoring × inequality | 580 |
+| enrichment / extracurricular spending × inequality | 343 |
+| `"educational arms race" OR "credential inflation"` | 221 |
+| parental spending responds to inequality | 40 |
+| **full chain: exposure AND investment AND fertility** | **2** |
+| **full chain: status/positional AND investment AND fertility** | **2** |
+
+Known-positive controls alive on the same channel (Q-Q 683, intensive parenting 29, shadow education
+1,285), so the 2s are measurements and not a dead query.
+
+**Read this as a lower bound, not as the evidence base.** These are title/abstract phrase counts; a
+study can estimate the chain without carrying all three vocabularies in its abstract, and
+`tier-a-anchors-are-studies` says the hand-sourced canon (de la Croix–Doepke 2003, Kearney–Levine
+2014, Doepke–Hannusch–Kindermann–Tertilt 2022) will not come from counts at all. But the shape is
+B.7's and A.24's: **expect an empty or near-empty primary cell and an UNEVALUATED verdict**, per
+`empty-cell-is-the-result`, and plan the chapter as the rigorous establishment of that rather than as
+a pooling exercise.
+
+**Two corrections to the scope above, both now measured.** Ruling 3's exposure set must include the
+distribution statistics, which the 09-03 axis missed entirely — `"Gini"` alone is 288 inside the
+frame, top income share 8, wage dispersion 36, relative deprivation 35, status anxiety / positional
+externality 34. And `"credential inflation"` is worth ~205 records on its own against
+`"educational arms race"`'s 16; it belongs in the axis.
+
+**Boundaries are small inside the frame and none is alarming:** C.3.d 8, D.2.d 3, C.6.a 15. The
+C.6.a number matters because ruling 2 predicted that wall would be the expensive one — it is not.
+
+Next: freeze rulings 1–6 with the revised exposure axis, then A3 cold-start anchors on the Tier-A
+canon (import `source/lib/textnorm.py`, now canonical on `main`; do not copy a `norm()`).
+

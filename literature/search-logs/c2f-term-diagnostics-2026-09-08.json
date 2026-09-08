@@ -1,0 +1,134 @@
+{
+  "date": "2026-09-08",
+  "script": "328_c2f_term_diagnostics.py",
+  "outcome_axis_wide": "(\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+  "union_axis": "(\"income inequality\" OR \"status competition\" OR \"positional competition\" OR \"positional good\" OR \"relative status\" OR \"social comparison\" OR \"educational arms race\")",
+  "rows": [
+    {
+      "label": "CONTROL fertility decline",
+      "query": "\"fertility decline\"",
+      "n": 7126
+    },
+    {
+      "label": "CONTROL C.2.f union frame (reproduces the 09-03 number)",
+      "query": "(\"income inequality\" OR \"status competition\" OR \"positional competition\" OR \"positional good\" OR \"relative status\" OR \"social comparison\" OR \"educational arms race\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 716
+    },
+    {
+      "label": "TERM income inequality",
+      "query": "\"income inequality\" AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 635
+    },
+    {
+      "label": "TERM status competition",
+      "query": "\"status competition\" AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 13
+    },
+    {
+      "label": "TERM positional competition",
+      "query": "\"positional competition\" AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 2
+    },
+    {
+      "label": "TERM positional good",
+      "query": "\"positional good\" AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 0
+    },
+    {
+      "label": "TERM relative status",
+      "query": "\"relative status\" AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 44
+    },
+    {
+      "label": "TERM social comparison",
+      "query": "\"social comparison\" AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 24
+    },
+    {
+      "label": "TERM educational arms race",
+      "query": "\"educational arms race\" AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 0
+    },
+    {
+      "label": "BARE income inequality",
+      "query": "\"income inequality\"",
+      "n": 49350
+    },
+    {
+      "label": "BARE status competition",
+      "query": "\"status competition\"",
+      "n": 691
+    },
+    {
+      "label": "BARE positional competition",
+      "query": "\"positional competition\"",
+      "n": 178
+    },
+    {
+      "label": "BARE positional good",
+      "query": "\"positional good\"",
+      "n": 222
+    },
+    {
+      "label": "BARE relative status",
+      "query": "\"relative status\"",
+      "n": 1859
+    },
+    {
+      "label": "BARE social comparison",
+      "query": "\"social comparison\"",
+      "n": 16189
+    },
+    {
+      "label": "BARE educational arms race",
+      "query": "\"educational arms race\"",
+      "n": 16
+    },
+    {
+      "label": "AXIS minus 'income inequality'",
+      "query": "(\"status competition\" OR \"positional competition\" OR \"positional good\" OR \"relative status\" OR \"social comparison\" OR \"educational arms race\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 83
+    },
+    {
+      "label": "SCOPE inequality as CONSEQUENCE of differential fertility",
+      "query": "\"income inequality\" AND (\"differential fertility\" OR \"fertility differentials\")",
+      "n": 22
+    },
+    {
+      "label": "SCOPE income gradient in fertility",
+      "query": "\"income inequality\" AND (\"income gradient\" OR \"socioeconomic gradient\" OR \"education gradient\")",
+      "n": 104
+    },
+    {
+      "label": "SCOPE teen childbearing arm (D.3.c / C.6.a estimand)",
+      "query": "\"income inequality\" AND (\"teen birth\" OR \"teenage childbearing\" OR \"teen childbearing\")",
+      "n": 18
+    },
+    {
+      "label": "SCOPE boundary INSIDE the frame: C.3.d quantity-quality vocabulary",
+      "query": "(\"income inequality\" OR \"status competition\" OR \"positional competition\" OR \"positional good\" OR \"relative status\" OR \"social comparison\" OR \"educational arms race\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"quantity-quality\" OR \"child quality\" OR \"child investment\")",
+      "n": 8
+    },
+    {
+      "label": "SCOPE boundary INSIDE the frame: D.2.d intensive-parenting vocabulary",
+      "query": "(\"income inequality\" OR \"status competition\" OR \"positional competition\" OR \"positional good\" OR \"relative status\" OR \"social comparison\" OR \"educational arms race\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"intensive parenting\" OR \"concerted cultivation\")",
+      "n": 3
+    },
+    {
+      "label": "SCOPE boundary INSIDE the frame: C.6.a Easterlin vocabulary",
+      "query": "(\"income inequality\" OR \"status competition\" OR \"positional competition\" OR \"positional good\" OR \"relative status\" OR \"social comparison\" OR \"educational arms race\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"Easterlin\" OR \"relative income\" OR \"cohort size\")",
+      "n": 15
+    },
+    {
+      "label": "SCOPE the MIDDLE LINK: inequality -> investment per child",
+      "query": "\"income inequality\" AND (\"investment per child\" OR \"child investment\" OR \"parental investment\")",
+      "n": 22
+    },
+    {
+      "label": "SCOPE the MIDDLE LINK, fertility-restricted",
+      "query": "\"income inequality\" AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"investment per child\" OR \"child investment\" OR \"parental investment\")",
+      "n": 3
+    }
+  ],
+  "refused": []
+}
