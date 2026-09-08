@@ -13,7 +13,7 @@
 - [ ] 4. RA title/abstract review
 - [~] 5. Full-text retrieval — **15/19 primary**; both gating cells COMPLETE; 4 outstanding
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
-- [ ] 7. Extraction to `extraction/rising-inequality-and-status-competition.csv`, RA verifies a random 10%
+- [~] 7. Extraction — 2 of 15 done (the two structural records); RA verification outstanding
 - [ ] 8. Risk-of-bias assessment per study
 - [ ] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise
 - [ ] 10. Demographic significance against PM / FDT / SDT
@@ -819,4 +819,50 @@ opening the page can. That is worth carrying to other chapters.
 
 Outstanding: **4** — C2F1108 (proquest), C2F0844 (proxy), C2F0515 (regional/ILL), C2F0721 (dead).
 None is in a gating cell.
+
+### 2026-09-08 — extraction begun, and it reverses which record carries the chapter
+
+`extraction/rising-inequality-and-status-competition-extraction.csv`, 22 columns on the C.2.b
+schema plus this chapter's `return_separated` / `own_income_held` / `link_measured` fields.
+
+**I had the two `TUTORING_POLICY` records the wrong way round, and full text is what showed it.**
+
+**C2F1279 (Zhou, Shao & Zhang, *Applied Economics* 2026) is mostly a SIMULATION.** I called it "the
+single most valuable record in the chapter" and "one policy shock, both outcomes". At full text it
+is two things: §III is an IV estimate on CFPS 2018 (n=3,481) of shadow-education **expenditure** on
+fertility **intentions**, and §§IV–VI are a calibrated heterogeneous-agent model solved with a new
+DeepHAM+DIRECT algorithm. **The Double Reduction result is model-generated — there is no DiD, no
+event study, no estimate of the policy's effect on anyone's fertility.** Its own abstract says
+"quantitative simulations show". That is `design-is-not-a-property-of-the-title` paying out exactly
+as the rubric warned: I carried this through search, screen, priority retrieval and a handoff
+request as the identified design.
+
+Its empirical arm also has a specific problem worth recording: the instrument is **county-level peer
+shadow-education expenditure**, and county-level peer spending *is the reference standard this
+chapter names as the mechanism* — so it plausibly affects fertility intentions directly and the
+exclusion restriction is doing heavy work. Flagged for risk of bias.
+
+**C2F0428 (Meng, Wang, Yang & Zhang 2025) is the identified design, and it is a good one.**
+
+- A survey experiment eliciting fertility intentions with and without the policy, within-subject with
+  individual fixed effects plus a between-subject arm — **and** a city-level **DID on ACTUAL BIRTH
+  RATES**, policy intensity measured as per-capita tutoring institutions in 2016, five years before
+  the policy, against 2023 (319 cities) and 2024 (204 cities).
+- Ban raises expected total fertility **7–8%**, larger where intensity is higher; the DID finds
+  higher-intensity cities had significantly greater increases in actual birth rates.
+- **The channel decomposition is what makes it C.2.f's rather than C.2.b's.** The primary driver is
+  the *perceived reduction in educational competition* (45% of parents expected others to cut
+  tutoring), ahead of parental health, then time (−0.69 h/day) and money (−275 RMB/month, −34.5%).
+
+**This is the first record in the chapter where Wall 1 is actually satisfied.** A tutoring ban does
+not change the **return** to human capital; it changes the investment required to hold a given rank
+— and the authors' own footnote defines perceived competition as how hard it is for a child to
+maintain the academic ranking that determines elite admission. `return_separated = YES`. Every other
+primary record so far is `NO` or `UNCLEAR`.
+
+**Consequence for pooling:** the two must never be pooled, though they nominally study the same
+policy. One is an estimate and one is a simulation (`resolve-disagreements-dont-average`: ask whether
+they share an estimator before averaging — here they do not even share an epistemic class).
+
+Remaining: 13 of 15 retrieved records to extract.
 
