@@ -61,6 +61,16 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--probe", nargs=2, type=int, metavar=("STRATA", "PER"))
     ap.add_argument("--batch", nargs=2, type=int, metavar=("INDEX", "SIZE"))
+    ap.add_argument("--arms", metavar="A,B",
+                    help="screen the named arms EXHAUSTIVELY, mixed with size-matched decoys from "
+                         "the rest of the universe and shuffled. The probe sampled evenly by "
+                         "citation rank across 1,366 records dominated by `dispersion` (851), so it "
+                         "reached only ~5 of `education-competition`'s 42 -- its 1.3%% primary yield "
+                         "describes the dispersion literature, not this chapter's best cell. "
+                         "Decoys exist because a pure single-arm batch would tell the screen every "
+                         "row's arm, and the arm predicts the cell.")
+    ap.add_argument("--decoy-ratio", type=float, default=0.5,
+                    help="decoys as a fraction of the targeted rows (default 0.5)")
     ap.add_argument("--remaining", type=int, metavar="SIZE",
                     help="emit every record with no verdict yet, in batches of SIZE. The probe "
                          "returned a FLAT yield curve, so the remainder cannot be truncated: the "
@@ -73,6 +83,23 @@ def main():
         # collided with that chapter's ids in any shared extraction table.
     keep = ("screen_id", "title", "year", "venue", "type", "cited_by", "abstract")
     slim = [{k: r.get(k) for k in keep} for r in recs]
+
+    if a.arms:
+        import random
+        want = {x.strip() for x in a.arms.split(",")}
+        by_id = {r["screen_id"]: r for r in recs}
+        tgt = [r["screen_id"] for r in recs if want & set(r.get("arms") or [])]
+        rest = [r["screen_id"] for r in recs if not (want & set(r.get("arms") or []))]
+        random.seed(81)                      # reproducible mix; the seed is the ticket number
+        decoys = random.sample(rest, min(len(rest), int(len(tgt) * a.decoy_ratio)))
+        ids = tgt + decoys
+        random.shuffle(ids)                  # so no row's arm is inferable from its position
+        rows = [{k: by_id[i].get(k) for k in keep} for i in ids]
+        for j in range(0, len(rows), 60):
+            emit(rows[j:j + 60], f"arms-{'-'.join(sorted(want))}-{j // 60}")
+        print(f"\n{len(tgt)} records in {sorted(want)} (exhaustive) + {len(decoys)} decoys "
+              f"= {len(ids)} rows, shuffled. Arm membership is NOT in the emitted rows.")
+        return
 
     if a.probe:
         k, per = a.probe

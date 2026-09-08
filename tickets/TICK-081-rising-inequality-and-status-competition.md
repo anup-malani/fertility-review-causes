@@ -9,7 +9,7 @@
 
 ## Acceptance criteria
 - [x] 2. Search strategy and scope drafted
-- [~] 3. Literature search and AI screening, both phases (§5.1) — free seeds + anchors done
+- [~] 3. Literature search and AI screening, both phases (§5.1) — targeted arms screened exhaustively; `dispersion` remainder outstanding
 - [ ] 4. RA title/abstract review
 - [ ] 5. Full-text retrieval
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
@@ -657,4 +657,61 @@ aimed where the primary cells are. `dispersion`'s 851 can then be screened knowi
 yield is near zero, which is exactly the cost information the probe existed to buy.
 
 30 of the 150 were title-only and are flagged as such.
+
+### 2026-09-08 — targeted arms screened exhaustively: the primary cell is 18 records, not empty
+
+`341 --arms education-competition,mechanism`: **134 targeted records screened exhaustively, mixed
+with 67 shuffled decoys** drawn from the rest of the universe. Decoys exist because a pure
+single-arm batch tells the screen every row's arm, and the arm predicts the cell; with them, no row's
+arm is inferable from its position.
+
+**The arm-targeted pass is 10x the citation-ranked probe, and the decoys prove it is the targeting
+and not the screener.**
+
+| | primary yield |
+|---|---|
+| targeted arms (`education-competition` + `mechanism`) | **18/134 — 13.4%** |
+| decoys (rest of universe, mostly `dispersion`) | **0/67 — 0.0%** |
+| the earlier citation-ranked probe | 2/150 — 1.3% |
+
+**The primary cell now holds 18 records**, against the ~2 that scope §4 measured this morning and the
+"expect an empty cell" it concluded:
+
+| cell | n |
+|---|---|
+| `DISPERSION_FERTILITY` | **8** |
+| `REQUIRED_INVESTMENT_FERTILITY` | **6** |
+| `POSITIONAL_ALLOCATION_FERTILITY` | **2** |
+| `TUTORING_POLICY_FERTILITY` | **2** |
+| `PERCEIVED_STATUS` (separate outcome level) | 1 |
+
+Plus 15 `EDUCOMP_BOUNDARY`, 10 `QQ_BOUNDARY` (Wall 1's packet), 6 `WRONG_DIRECTION` (Wall 9), 7
+`THEORY`, 4 `INEQ_ASSOCIATION`.
+
+**The single most valuable record in the chapter is C2F1279:** *The impact of China's "Double
+Reduction" policy on the fertility and education investment behaviour* (2026). One policy shock,
+**both** outcomes — the required investment per child AND fertility. That is
+`one-study-can-carry-the-structure`: a design estimating both links beats any cross-literature count,
+and scope §7 row 7 pre-registered exactly this as the place to hunt. C2F0428 (*Education Competition
+and Fertility Intention: Evidence from China's Private Tutoring Ban*) is the same shock on the
+intention outcome.
+
+The `DISPERSION_FERTILITY` eight are mostly China/Korea/Taiwan micro studies using relative
+deprivation or realized-vs-desired fertility gaps, plus the 1979 Taiwan thesis the probe found and a
+1987 status-anxiety paper. **Whether any of them separates the return from the reference standard
+(Wall 1) or holds own income fixed (Wall 4) cannot be judged at title/abstract** — that is what
+`return_separated` and `own_income_held` exist to record, and it is the full-text question.
+
+**6 of the 18 are title-only** and need full text before anything is claimed about their designs.
+
+**What this means for the remaining screen.** `dispersion`'s 851 records now have two independent
+measurements of near-zero yield (0/67 decoys, and the probe's dispersion-dominated 1.3%). They are
+**not** skippable — the probe's curve was flat and its cleanest record was in the last stratum — but
+they can be screened last and at lower priority, which is exactly the cost information the probe was
+bought for.
+
+**PI call 1 should now be answered differently from this morning.** The recommendation recorded at
+scope §14 was run-it-and-report-UNEVALUATED. On 18 primary records including a policy shock with both
+outcomes, C.2.f is a chapter with an evidence base, and the question is no longer whether it survives
+but whether Wall 1 can be enforced at full text.
 

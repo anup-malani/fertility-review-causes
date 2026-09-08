@@ -1,0 +1,2412 @@
+{
+ "n": 201,
+ "cells": {
+  "OFF_OTHER": 140,
+  "QQ_BOUNDARY": 10,
+  "EDUCOMP_BOUNDARY": 15,
+  "DISPERSION_FERTILITY": 8,
+  "WRONG_DIRECTION": 6,
+  "POSITIONAL_ALLOCATION_FERTILITY": 2,
+  "PERCEIVED_STATUS": 1,
+  "REQUIRED_INVESTMENT_FERTILITY": 6,
+  "THEORY": 7,
+  "INEQ_ASSOCIATION": 4,
+  "TUTORING_POLICY_FERTILITY": 2
+ },
+ "verdicts": [
+  {
+   "screen_id": "C2F0525",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "The effects of educational reversals on first births in sub-Saharan Africa: a dynamic multilevel perspective.",
+   "year": 2005,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0098",
+   "cell": "QQ_BOUNDARY",
+   "note": "child quality over quantity, Vietnam",
+   "title": "The Decision to Invest in Child Quality over Quantity: Household Size and Household Investment in Education in Vietnam",
+   "year": 2015,
+   "arms": [
+    "education-competition"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1082",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Cash Transfer versus Staple Food Subsidies: An Effective Factor on Food Security and Expenditure of Urban Households in Iran",
+   "year": 2023,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0443",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Illegitimate birth and deprivation: Recent findings from an exploratory study",
+   "year": 1985,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0493",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Telecommuting: The Escher Stairway of Work/Family Conflict",
+   "year": 2002,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0387",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Childhood leukaemia and socioeconomic status",
+   "year": 2012,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0712",
+   "cell": "QQ_BOUNDARY",
+   "note": "efficient investment in children; title only",
+   "title": "Efficient Investment in Children",
+   "year": 2002,
+   "arms": [],
+   "targeted": false,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0167",
+   "cell": "EDUCOMP_BOUNDARY",
+   "note": "parental involvement, private tutoring, reading achievement",
+   "title": "Parental Involvement and Grade Four Students' English Reading Achievement",
+   "year": 2011,
+   "arms": [
+    "education-competition"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1214",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "CONSEQUENCES OF ETHNIC RELATIONS IN THE ECONOMIC AND SOCIAL LIFE OF TAKAB",
+   "year": 2025,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0225",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Why did fertility decline?: an analysis of the individual level economics correlates of the nineteenth century fertility transition in England and France",
+   "year": 2009,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0602",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Fertility Variation and Its Effect on Genetic Diversity of Seeds from a Clonal Seed Orchard of Cryptomeria japonica",
+   "year": 2007,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0009",
+   "cell": "OFF_OTHER",
+   "note": "Wilkinson relative deprivation; health outcomes",
+   "title": "The problems of relative deprivation: Why some societies do better than others",
+   "year": 2007,
+   "arms": [
+    "dispersion",
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0503",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Contributions of agricultural economics to critical policy issues: selected papers presented at the XXVI IAAE conference",
+   "year": 2007,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0983",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Four Essays on Labor and Development Economics",
+   "year": 2019,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0432",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Income inequality and income stratification in Poland",
+   "year": 2014,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1312",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Intrasexual Vigilance in Women: Social, Cognitive, and Neuroendocrine Mechanisms",
+   "year": 2016,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1309",
+   "cell": "EDUCOMP_BOUNDARY",
+   "note": "educational reform and youth wellbeing Japan/Korea; title only",
+   "title": "Beyond Test Scores: Educational Reform and Youth Wellbeing in Japan and South Korea",
+   "year": 2026,
+   "arms": [
+    "education-competition"
+   ],
+   "targeted": true,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0392",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Three Essays on the Social, Economic, and Demographic Causes and Consequences of Low Fertility",
+   "year": 2015,
+   "arms": [
+    "education-competition"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0003",
+   "cell": "OFF_OTHER",
+   "note": "economics of women, men and work; textbook",
+   "title": "The Economics of Women, Men, and Work.",
+   "year": 1987,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0743",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Role of gender equality: Challenges and Cures",
+   "year": 2016,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1264",
+   "cell": "DISPERSION_FERTILITY",
+   "note": "widening regional economic disparities -> fertility decline, Korea",
+   "title": "Widening Regional Economic Disparities and Fertility Decline in South Korea: A Cross\u2010Level Analysis",
+   "year": 2026,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0306",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "The Effect of Fertility on Women\u2019s Intrasexual Competition",
+   "year": 2015,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0979",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Civil War, Famine and the Persistence of Human Capital: Evidence from Tajikistan",
+   "year": 2021,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F1017",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Index",
+   "year": 2019,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0522",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Calendars, feasting, cosmology and identities: later Neolithic-early Bronze Age Ireland in European context",
+   "year": 2016,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0488",
+   "cell": "WRONG_DIRECTION",
+   "note": "spousal educational matching -> fertility behaviour; assortative mating",
+   "title": "Spousal educational matching patterns and fertility behavior",
+   "year": 2025,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1018",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Editor's Introduction",
+   "year": 1998,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0358",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Social Demography: Role of Inequality and Social Differentiation",
+   "year": 2001,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0066",
+   "cell": "POSITIONAL_ALLOCATION_FERTILITY",
+   "note": "status anxiety -> demographic contraction of privileged populations, 1987",
+   "title": "Status Anxiety and Demographic Contraction of Privileged Populations",
+   "year": 1987,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0245",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "From Safe Motherhood to Cognitive Ability: Exploring Intrahousehold and Intergenerational Spillovers",
+   "year": 2021,
+   "arms": [
+    "education-competition"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1169",
+   "cell": "PERCEIVED_STATUS",
+   "note": "expected socioeconomic status -> willingness to have another child, China",
+   "title": "The Effect of Expected Socioeconomic Status on the Willingness to Have another Child among Contemporary Chinese People of Childbearing Age",
+   "year": 2024,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0276",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Theoretical Basis of Measures of Natural Fertility",
+   "year": 1977,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0695",
+   "cell": "QQ_BOUNDARY",
+   "note": "sibling size -> education investment; title only",
+   "title": "Sibling size and investment in children\u2019s education: an asian instrument",
+   "year": 2007,
+   "arms": [],
+   "targeted": false,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F1163",
+   "cell": "EDUCOMP_BOUNDARY",
+   "note": "private tutoring -> human capital investment, Korea",
+   "title": "The effect of experience and environment in private tutoring on human capital investment",
+   "year": 2024,
+   "arms": [],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0050",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Low Expectations, Sexual Attitudes and Knowledge: Explaining Teenage Pregnancy and Fertility in English Communities. Insights from Qualitative Research",
+   "year": 2003,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1230",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Adults before their time : parentification during adolescence in divorcing and married families",
+   "year": 2006,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0989",
+   "cell": "OFF_OTHER",
+   "note": "social status -> mating/reproductive outcomes; evolutionary; title only",
+   "title": "Social Status Predicts Different Mating and Reproductive Outcomes for Men and Women in China: Evidence from the 2010-2017 CGSS Data",
+   "year": 2022,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0593",
+   "cell": "REQUIRED_INVESTMENT_FERTILITY",
+   "note": "shadow education expansion, status externalities -> fertility intentions",
+   "title": "Expansion of shadow education, status externalities, and fertility intentions",
+   "year": 2025,
+   "arms": [
+    "education-competition"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0349",
+   "cell": "QQ_BOUNDARY",
+   "note": "child quality over quantity, Vietnam; title only",
+   "title": "The Decision to Invest in Child Quality Over Quantity: Household Size and Household Investment in Education in Vietnam",
+   "year": 2015,
+   "arms": [
+    "education-competition",
+    "link1-investment"
+   ],
+   "targeted": true,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F1355",
+   "cell": "THEORY",
+   "note": "school choice and private tutoring in an endogenous fertility model",
+   "title": "School Choice and Private Tutoring in an Endogenous Fertility Model",
+   "year": 2023,
+   "arms": [
+    "education-competition"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0629",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Financial Inclusion, Poverty, and Income Inequality in Developing Asia",
+   "year": 2015,
+   "arms": [],
+   "targeted": false,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F1212",
+   "cell": "DISPERSION_FERTILITY",
+   "note": "income inequality, educational aspirations, fertility behavior; title only",
+   "title": "Income Inequality, Educational Aspirations, and Fertility Behavior",
+   "year": 2025,
+   "arms": [
+    "dispersion",
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0357",
+   "cell": "DISPERSION_FERTILITY",
+   "note": "income inequality -> fertility intention via relative deprivation index",
+   "title": "The impact of income inequality on the fertility intention: A micro perspective based on relative deprivation",
+   "year": 2024,
+   "arms": [
+    "dispersion",
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1262",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Diagnosis of Agroecological Practices in the Commune of Savalou, Tchetti District",
+   "year": 2026,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1286",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Conditions of distance learning and teaching and their relation to elementary school children's basic number skills after the suspension of face-to-face teaching during the COVID-19 pandemic",
+   "year": 2025,
+   "arms": [
+    "education-competition"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0056",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Cohort description: The Northern Ireland Longitudinal Study (NILS)",
+   "year": 2011,
+   "arms": [
+    "dispersion",
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1328",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Li-Chia-ching/AlfalfaGeoSelect",
+   "year": 2026,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1260",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Determinants of income inequality in Southeast European transition economies",
+   "year": 2025,
+   "arms": [],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0139",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "a sociological analysis of maternal infanticide in the united states, 1984-1996",
+   "year": 2003,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0514",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "A Comment on Palmore and Whittington's Relative Status of the Aged",
+   "year": 1973,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0206",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Fertility Variation and its Impact on Effective Population Size in Seed Stands of Tamarindus indica and Azadirachta indica",
+   "year": 2015,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0087",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Regional economic empowerment through oil palm economic institutional development",
+   "year": 2019,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0291",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Selection and mortality: a ten-year follow-up of income decile mortality in Norway",
+   "year": 2012,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0823",
+   "cell": "WRONG_DIRECTION",
+   "note": "inequality persistence BASED ON fertility; title only",
+   "title": "Persistence of Income Inequality Based on Fertility and Education Investment",
+   "year": 2009,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0873",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Rising Income Inequalities \u2013 the Causes of and Consequences for Long-term Growth",
+   "year": 2019,
+   "arms": [],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0160",
+   "cell": "EDUCOMP_BOUNDARY",
+   "note": "tutoring industry Hong Kong",
+   "title": "The Tutoring Industry in Hong Kong: From the Past Four Decades to the Future",
+   "year": 2019,
+   "arms": [
+    "education-competition"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1265",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "The Impact of Population Aging on Government Functioning in Iran Since the 80s",
+   "year": 2025,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0452",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Child Malnutrition in Shining India: A X-state Empirical Analysis",
+   "year": 2006,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1114",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "The Ideology of Sacrifice in Mythmaking",
+   "year": 1991,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0534",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Female Fertility in Pinus sylvestris L var. compacta (TOSUN) Clonal Seed Orchard",
+   "year": 2017,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1318",
+   "cell": "QQ_BOUNDARY",
+   "note": "shadow education and family size effects on investment",
+   "title": "Shadow education and the effects of family size on parental educational investment",
+   "year": 2026,
+   "arms": [
+    "education-competition",
+    "link1-investment"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0801",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "An exploratory research on income dynamics, inequality, determinants & policy implications for sustainable livelihoods of tribal community in eastern India",
+   "year": 2016,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0273",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Variation in Clone Fertility and its Effect on the Gene Diversity of Seeds From a Seed Orchard of Chamaecyparis obtusa in Korea",
+   "year": 2007,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0429",
+   "cell": "OFF_OTHER",
+   "note": "child-contingent policies Spain -> route C.2.d",
+   "title": "Two decades of child-contingent policies and redistribution in Spain",
+   "year": 2025,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0391",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "What happened to the distribution of income in Puerto Rico during the last three decades of the XX Century? A statistical point of view.",
+   "year": 2004,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0489",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Tending Our Vines:",
+   "year": 2013,
+   "arms": [
+    "education-competition"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1259",
+   "cell": "EDUCOMP_BOUNDARY",
+   "note": "shadow price of schooling; tutoring expenditure",
+   "title": "The Shadow Price of Schooling: Determinants of Household Expenditure on Private Tutoring in Pakistan",
+   "year": 2025,
+   "arms": [
+    "link1-investment"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0950",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "MatthewYglesiasOne Billion Americans: The Case for Thinking Bigger. Portfolio, 2020. 288 p. $28.00",
+   "year": 2021,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0879",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Impact of economic growth volatility on income inequality: ASEAN experience",
+   "year": 2020,
+   "arms": [],
+   "targeted": false,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0173",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "The Determinants of Migration and Remittances in Albania",
+   "year": 2012,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0557",
+   "cell": "WRONG_DIRECTION",
+   "note": "demographic and family structure change -> income distribution",
+   "title": "The impact of demographic and family structure changes on income distribution in Hungary and OECD countries",
+   "year": 2019,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0734",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Gender income inequality in Norway",
+   "year": 2006,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0002",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Early Exposure to Anesthesia and Learning Disabilities in a Population-based Birth Cohort",
+   "year": 2009,
+   "arms": [
+    "education-competition"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0766",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Crecimiento econ\u00f3mico y desigualdad en el ingreso regional de M\u00e9xico",
+   "year": 2011,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0088",
+   "cell": "THEORY",
+   "note": "Becker allocation of time",
+   "title": "Introduction to a Theory of the Allocation of Time by Gary Becker",
+   "year": 2015,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1100",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Hwang, Gyu\u2010Jin. Building markets: Distributional consequences of social policy in East Asia. Northampton, MA, Elgar, 2022. 236 pp. ISBN 9781789901078.",
+   "year": 2023,
+   "arms": [
+    "education-competition"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1019",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Survey on Russian Marriages, 1996",
+   "year": 1999,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0201",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "FURTHER OBSERVATIONS ON COST OF PREVENTING RETROLENTAL FIBROPLASIA",
+   "year": 1975,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0311",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Entertaining a Dangerous Guest: Sacrifice and Play in the Ma'pakorong Ritual of the Sa'dan Toraja",
+   "year": 1995,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1325",
+   "cell": "EDUCOMP_BOUNDARY",
+   "note": "AI, private tutoring, class reproduction; title only",
+   "title": "Artificial Intelligence, Private Tutoring, and Class Reproduction A Political-Economy Hypothesis and Evidence Map Using Korea as a Case",
+   "year": 2026,
+   "arms": [
+    "education-competition"
+   ],
+   "targeted": true,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0309",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Fertility, family planning, and development: Indirect influences",
+   "year": 1986,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0804",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Financial sector development and income inequality in South Africa",
+   "year": 2017,
+   "arms": [],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0265",
+   "cell": "EDUCOMP_BOUNDARY",
+   "note": "Double Reduction impact on education system; no fertility outcome",
+   "title": "The Impact of Double Reduction Policy on the China\u2019s Education System",
+   "year": 2023,
+   "arms": [
+    "education-competition"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1023",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Index",
+   "year": 2019,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1297",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "How Is Suiside Different in Japan?",
+   "year": 2008,
+   "arms": [
+    "dispersion",
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1024",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Index",
+   "year": 2020,
+   "arms": [
+    "dispersion",
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1255",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "On An Ironic Reversal of 'Fate' Demographic Anthropology of Tribes in Central India, 1951-2021",
+   "year": 2026,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0070",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Use of biomedical obstetric care in rural Tanzania: The role of social and material inequalities",
+   "year": 2010,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0781",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "The impact of parental investment on lifetime reproductive success in Iceland",
+   "year": 2017,
+   "arms": [],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0171",
+   "cell": "QQ_BOUNDARY",
+   "note": "child quality over quantity, Vietnam",
+   "title": "The Decision to Invest in Child Quality over Quantity: Household Size and Household Investment in Education in Vietnam",
+   "year": 2016,
+   "arms": [
+    "education-competition",
+    "link1-investment"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0381",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Demographic and Economic Consequences of the COVID-19 Pandemic in the Russian Federation",
+   "year": 2025,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0039",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Algorithm for decomposition of differences between aggregate demographic measures and its application to life expectancies, Gini coefficients, health expectancies, parity-progression ratios and total fertility rates",
+   "year": 2002,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1103",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Motherhood Penalty and Fatherhood Premium: An Empirical Study Based on the Characteristics of Income Distribution and Long-Term Changes",
+   "year": 2023,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0043",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Income inequality, residential poverty clustering and infant mortality: a study in Rio de Janeiro, Brazil",
+   "year": 2002,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0143",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Age difference asymmetry and a two-sex perspective",
+   "year": 1992,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0894",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Income Inequality, Debt Burden and COVID-19",
+   "year": 2020,
+   "arms": [],
+   "targeted": false,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0438",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Income Distribution and Poverty in Jordanian Nomadic Communities",
+   "year": 2010,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0044",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "More Statistical and Methodological Myths and Urban Legends",
+   "year": 2016,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0826",
+   "cell": "EDUCOMP_BOUNDARY",
+   "note": "shadow education access, China",
+   "title": "The Acquistion of Opportunity of Shadow Education for Chinese Junior High School Student",
+   "year": 2018,
+   "arms": [
+    "education-competition"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0694",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "The impact of grandparental investment on mothers\u2019 fertility intentions in four European countries",
+   "year": 2014,
+   "arms": [],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1343",
+   "cell": "REQUIRED_INVESTMENT_FERTILITY",
+   "note": "education, care, fertility Korea; social pressure and household constraints",
+   "title": "Education, care, and fertility in South Korea: essays on household constraints and social pressure",
+   "year": 2026,
+   "arms": [
+    "mechanism",
+    "education-competition"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0741",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Family Income and Adolescent Blood Pressure in a Chinese Birth Cohort: \u2018Children of 1997'.",
+   "year": 2015,
+   "arms": [
+    "dispersion",
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0259",
+   "cell": "DISPERSION_FERTILITY",
+   "note": "women's relative status -> childbearing intentions, Iran",
+   "title": "Women\u2019s relative status and childbearing intentions: Empirical evidence from Iran",
+   "year": 2018,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0077",
+   "cell": "THEORY",
+   "note": "status competition, inequality and fertility; small-scale societies",
+   "title": "Status competition, inequality, and fertility: implications for the demographic transition",
+   "year": 2016,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1051",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "An\u00e1lise por dados em painel do status de sa\u00fade no Nordeste Brasileiro An\u00e1lisis por datos de panel del estatus de salud en el Noreste Brasilero Panel data analysis of health status in Northeast Brazil",
+   "year": 2008,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1321",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "ACHIEVING SUSTAINABLE DEVELOPMENT GOALS THROUGH INDIAN KNOWLEDGE SYSTEMS: A REVIEW-BASED PERSPECTIVE",
+   "year": 2025,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0390",
+   "cell": "QQ_BOUNDARY",
+   "note": "declining fertility -> household education investment, Vietnam",
+   "title": "The decision to invest in child quality over quantity: Has declining fertility increased household investment in education in Vietnam?",
+   "year": 2009,
+   "arms": [
+    "education-competition",
+    "link1-investment"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0184",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Fertility Variation and Status Number Between a Base Population and a Seed Orchard of Pinus brutia",
+   "year": 2004,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0372",
+   "cell": "QQ_BOUNDARY",
+   "note": "child quality over quantity, Vietnam",
+   "title": "The Decision to Invest in Child Quality over Quantity: Household Size and Household Investment in Education in Vietnam",
+   "year": 2013,
+   "arms": [
+    "education-competition",
+    "link1-investment"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0874",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "The Kuznets curve for export diversification and income inequality: Evidence from a global sample",
+   "year": 2019,
+   "arms": [],
+   "targeted": false,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0355",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Exploring Trends and Factors Influencing Labour Force Participation in Uttarakhand: Evidence from NSSO Data",
+   "year": 2023,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0931",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Trends in the Education Sector from 1993-98",
+   "year": 2002,
+   "arms": [
+    "education-competition"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0149",
+   "cell": "INEQ_ASSOCIATION",
+   "note": "fertility, income inequality and labour productivity",
+   "title": "Fertility, income inequality, and labour productivity",
+   "year": 2007,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0592",
+   "cell": "REQUIRED_INVESTMENT_FERTILITY",
+   "note": "shadow education expenditure -> fertility rates, South Korea; title only",
+   "title": "The impact of shadow education expenditures on fertility rates in South Korea",
+   "year": 2026,
+   "arms": [
+    "education-competition"
+   ],
+   "targeted": true,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0166",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Household Archaeology, Lifecycles and Status in a Nineteenth-Century Australian Coastal Community",
+   "year": 2012,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0185",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Risk factors of suicide with reference to the theory of social integration by \u00c9mile Durkheim",
+   "year": 2019,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0099",
+   "cell": "QQ_BOUNDARY",
+   "note": "family size -> tutoring expenditure, Korea; the QQ arrow",
+   "title": "Family Size and Educational Investments in Children: Evidence from Private Tutoring Expenditures in South Korea*",
+   "year": 2010,
+   "arms": [
+    "education-competition",
+    "link1-investment"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1085",
+   "cell": "EDUCOMP_BOUNDARY",
+   "note": "private tutoring and academic performance; title only",
+   "title": "Private Tutoring and Academic Performance of Elementary, Middle, and High School Students: A Decision Tree Algorithm",
+   "year": 2023,
+   "arms": [],
+   "targeted": false,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0721",
+   "cell": "REQUIRED_INVESTMENT_FERTILITY",
+   "note": "shadow education, fertility, social mobility (zh); title only",
+   "title": "\u88dc\u7fd2\u3001\u751f\u80b2\u8207\u968e\u7d1a\u6d41\u52d5;Shadow Education, Fertility, and Social Mobility",
+   "year": 2015,
+   "arms": [
+    "education-competition"
+   ],
+   "targeted": true,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0515",
+   "cell": "DISPERSION_FERTILITY",
+   "note": "income and relative status -> childbearing willingness, China CHNS",
+   "title": "Income,Relative Status and Childbearing Willing of Chinese Women",
+   "year": 2010,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0475",
+   "cell": "EDUCOMP_BOUNDARY",
+   "note": "household demand for private tutoring, Tunisia",
+   "title": "Household demand for private tutoring in Tunisia",
+   "year": 2022,
+   "arms": [
+    "education-competition"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0195",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Other women\u2019s fertility moderates female resource distribution across the menstrual cycle",
+   "year": 2016,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F1030",
+   "cell": "WRONG_DIRECTION",
+   "note": "assortative mating -> income inequality",
+   "title": "The role of partnering and assortative mating by social origin for income inequality: The case of Finland, 1991\u20132014",
+   "year": 2020,
+   "arms": [],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1281",
+   "cell": "THEORY",
+   "note": "success, status and the endogenous origins of decline; title only",
+   "title": "Success, Status, and the Endogenous Origins of Decline",
+   "year": 2026,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0313",
+   "cell": "INEQ_ASSOCIATION",
+   "note": "inequality and fertility, 1985; title only",
+   "title": "Inequality and fertility",
+   "year": 1985,
+   "arms": [
+    "dispersion",
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F1314",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Version 2",
+   "year": 2002,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0604",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Water and fertility",
+   "year": 1983,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0108",
+   "cell": "EDUCOMP_BOUNDARY",
+   "note": "shadow education and inequality, Cambodia",
+   "title": "Shadow Education and Inequality in Lower Secondary Schooling in Cambodia: Understanding the Dynamics of Private Tutoring Participation and Provision",
+   "year": 2018,
+   "arms": [
+    "education-competition"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0194",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Clone Fertility and Genetic Diversity in a Black Pine Seed Orchard",
+   "year": 2010,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0040",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Unwanted fertility among the poor: an inequity?",
+   "year": 2007,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0147",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Supply-and-demand demographics: dowry, daughter aversion and marriage markets in contemporary north India",
+   "year": 2014,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1310",
+   "cell": "THEORY",
+   "note": "status anxiety in East Asian work ecologies",
+   "title": "Status anxiety in modern work ecologies: An evolutionary perspective from East Asia",
+   "year": 2026,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0448",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Are families poor because they are large or are they large because they are poor?",
+   "year": 1982,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0994",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "The impact of inequality: empirical evidence",
+   "year": 2009,
+   "arms": [
+    "dispersion",
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0413",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Algorithm for decomposition of differences between aggregate demographic measures and its application to life expectancies, Gini coefficients, health expectancies, parity-progression ratios and total fertility rates",
+   "year": 2002,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0170",
+   "cell": "INEQ_ASSOCIATION",
+   "note": "understanding ultra-low fertility in Hong Kong; title only",
+   "title": "Understanding Ultra-Low Fertility in Hong Kong",
+   "year": 2015,
+   "arms": [
+    "education-competition"
+   ],
+   "targeted": true,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0582",
+   "cell": "EDUCOMP_BOUNDARY",
+   "note": "vocational tracking and educational inequality",
+   "title": "Senior-secondary vocational tracking and socio-economic inequality in student educational performance: evidence from the Taiwan Education Panel Survey",
+   "year": 2024,
+   "arms": [
+    "link1-investment"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0753",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Rural Migrants\u2019 Sex Preference in Reproduction under the Marriage Squeeze:From the Perspective of Relative Deprivation",
+   "year": 2013,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0645",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Human status seeking is a Darwinian adaptation",
+   "year": 1993,
+   "arms": [],
+   "targeted": false,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0419",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "A Century of Key Trends and Debates in Social Stratification in Social Forces",
+   "year": 2022,
+   "arms": [
+    "dispersion",
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0889",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "\u0627\u0631\u0632\u06cc\u0627\u0628\u06cc \u0627\u062b\u0631\u0627\u062a \u0641\u0636\u0627\u06cc\u06cc \u2013 \u06a9\u0627\u0644\u0628\u062f\u06cc \u06a9\u0644\u0627\u0646\u0634\u0647\u0631 \u062a\u0628\u0631\u06cc\u0632 \u0628\u0631 \u0634\u0647\u0631\u0647\u0627\u06cc \u067e\u06cc\u0631\u0627\u0645\u0648\u0646\u06cc \u0646\u0645\u0648\u0646\u0647\u06cc \u0645\u0648\u0631\u062f\u06cc : \u0634\u0647\u0631 \u0633\u0631\u062f\u0631\u0648\u062f",
+   "year": 2020,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0708",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Parental Investment and Elite Family Structure in Preindustrial States: A Case Study of Late Medieval\u2010Early Modern Portuguese Genealogies",
+   "year": 1986,
+   "arms": [],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0850",
+   "cell": "REQUIRED_INVESTMENT_FERTILITY",
+   "note": "reduce private education costs to raise birthrate, Korea",
+   "title": "Exploring ways to revitalize public education and reduce private education costs to increase fertility rate in Korea: Focusing on Sweden Education Introduction",
+   "year": 2019,
+   "arms": [
+    "education-competition"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0568",
+   "cell": "OFF_OTHER",
+   "note": "Korean pronatal subsidy -> route C.2.d",
+   "title": "An Evaluation of a Pronatal Subsidy in Korea: A Quasi-experimental Approach",
+   "year": 2010,
+   "arms": [
+    "education-competition"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1037",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Civil War, Famine and the Persistence of Human Capital: Evidence from Tajikistan",
+   "year": 2022,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0428",
+   "cell": "TUTORING_POLICY_FERTILITY",
+   "note": "China private tutoring ban -> fertility intention; title only",
+   "title": "Education Competition and Fertility Intention: Evidence from China's Private Tutoring Ban",
+   "year": 2024,
+   "arms": [
+    "education-competition"
+   ],
+   "targeted": true,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0116",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Sexual Selection on Human Voices",
+   "year": 2014,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0295",
+   "cell": "WRONG_DIRECTION",
+   "note": "educational hypergamy",
+   "title": "Is the end of educational hypergamy the end of hypergamy? Evidence from Sweden.",
+   "year": 2017,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1217",
+   "cell": "DISPERSION_FERTILITY",
+   "note": "income inequality -> realization of fertility desires, China, CGSS panel",
+   "title": "Income Inequality and the Realization of Fertility Desires in China: Evidence from CGSS Panel Data",
+   "year": 2025,
+   "arms": [
+    "dispersion",
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0274",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Fertility Variation and Genetic Diversity in a Clonal Seed Orchard of Cryptomeria japonica",
+   "year": 2005,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0376",
+   "cell": "QQ_BOUNDARY",
+   "note": "child quality over quantity, Vietnam",
+   "title": "The Decision to Invest in Child Quality over Quantity",
+   "year": 2013,
+   "arms": [
+    "education-competition",
+    "link1-investment"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0237",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "What Accounts for the Emergence of Malthusian Fertility in Transition Economies",
+   "year": 2002,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0554",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "How Is Suicide Different in Japan",
+   "year": 2007,
+   "arms": [
+    "dispersion",
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0089",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "The Evolutionary Economics and Psychology of the Demographic Transition to Low Fertility",
+   "year": 2017,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0474",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Regional Differences and Influencing Factors of Psychological Integration of Urban Floating Population in China",
+   "year": 2022,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0450",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Robert Merton: Occupational Roles, Social Status and Health Inequalities",
+   "year": 2015,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0123",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Educational reversals and first-birth timing in sub-Saharan Africa: A dynamic multilevel approach",
+   "year": 2007,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0293",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Status of Women and Fertility in Iran",
+   "year": 1992,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0439",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Female Labor Force Participation and Dependency Ratios in Border States",
+   "year": 2015,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1348",
+   "cell": "POSITIONAL_ALLOCATION_FERTILITY",
+   "note": "race for elite destinations: education competition -> low fertility, Korea; title only",
+   "title": "The Race for Elite Destinations: Education Competition and Low Fertility in Korea",
+   "year": 2026,
+   "arms": [
+    "education-competition"
+   ],
+   "targeted": true,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0058",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Money, Status, and the Ovulatory Cycle",
+   "year": 2013,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0529",
+   "cell": "OFF_OTHER",
+   "note": "child policy and income distribution -> route C.2.d",
+   "title": "Child policy changes and estimation of income distribution effects",
+   "year": 2017,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0241",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Insights into Spousal Differences in Reproductive Dis/Agreement",
+   "year": 1993,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0318",
+   "cell": "THEORY",
+   "note": "envy, inequality and fertility; title only",
+   "title": "Envy, inequality and fertility",
+   "year": 2018,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F1200",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "SURVIVAL METHODOLOGY: INTEGRATING ENVIRONMENTAL DATA INTO HUMAN CAPITAL ASSESSMENT",
+   "year": 2025,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1162",
+   "cell": "EDUCOMP_BOUNDARY",
+   "note": "private education policy China vs Korea; no fertility outcome",
+   "title": "A Comparative Study on the Characteristics of Private Education Policies in China and South Korea: Focusing on China's \u2018Double Reduction\u2019 Policy",
+   "year": 2024,
+   "arms": [
+    "education-competition"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0469",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Civil War, Famine and the Persistence of Human Capital: Evidence from Tajikistan",
+   "year": 2021,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F1048",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Conditions of distance learning and teaching and their relation to elementary school children\u2019s basic number skills after the suspension of face-to-face teaching during the COVID-19 pandemic",
+   "year": 2022,
+   "arms": [
+    "education-competition"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0511",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Socio-Economic Differentials in Age at Marriage",
+   "year": 1988,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0536",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Marital Instability in the United States",
+   "year": 2017,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0736",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Sex-role homogeneity, female status and demographic change.",
+   "year": 1989,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1327",
+   "cell": "REQUIRED_INVESTMENT_FERTILITY",
+   "note": "educational competition -> reduced family size, China",
+   "title": "Educational competition and reduced family size in China",
+   "year": 2026,
+   "arms": [
+    "education-competition"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0999",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Mortality, Fertility, and the Status of Women in India, 1881-1931",
+   "year": 2022,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1346",
+   "cell": "DISPERSION_FERTILITY",
+   "note": "income inequality, human capital aspirations, fertility decisions, China; title only",
+   "title": "Income Inequality, Human Capital Aspirations, and Fertility Decisions: Evidence from China",
+   "year": 2026,
+   "arms": [
+    "dispersion",
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0242",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Response: Time for species--course epidemiology?",
+   "year": 2008,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0041",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "FURTHER OBSERVATIONS ON COST OF PREVENTING RETROLENTAL FIBROPLASIA",
+   "year": 1974,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0004",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Housework: Who Did, Does or Will Do It, and How Much Does It Matter?",
+   "year": 2012,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0675",
+   "cell": "WRONG_DIRECTION",
+   "note": "male earnings inequality -> family income inequality",
+   "title": "Male Earnings Inequality, Women's Earnings, and Family Income Inequality in Australia, 1982-2007",
+   "year": 2013,
+   "arms": [],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0519",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Poverty: Identification and Aggregation",
+   "year": 1983,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0811",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Hidden Needs in Suffolk",
+   "year": 2017,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0320",
+   "cell": "OFF_OTHER",
+   "note": "social status -> reproductive success; evolutionary, boundary cloud",
+   "title": "Social status predicts different mating and reproductive success for men and women in China: evidence from the 2010\u20132017 CGSS data",
+   "year": 2022,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0572",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Modelling Mortality in Kenya",
+   "year": 2024,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1279",
+   "cell": "TUTORING_POLICY_FERTILITY",
+   "note": "China 2021 Double Reduction -> BOTH fertility AND education investment. one-study-can-carry-the-structure",
+   "title": "The impact of China\u2019s \u201cDouble Reduction\u201d policy on the fertility and education investment behaviour of Chinese households",
+   "year": 2026,
+   "arms": [
+    "education-competition"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0680",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Does microfinance affect income inequality?",
+   "year": 2014,
+   "arms": [],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1146",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Does network infrastructure construction reduce urban\u2013rural income inequality? Based on the \u201cBroadband China\u201d policy",
+   "year": 2024,
+   "arms": [],
+   "targeted": false,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0046",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Girl child marriage, socioeconomic status, and undernutrition: evidence from 35 countries in Sub-Saharan Africa",
+   "year": 2019,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1208",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Health Status Inequalities In North-Eastern States Of India: An Analytical Study By Considering Selected Indicators",
+   "year": 2025,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0354",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Conditions of distance learning and teaching and their relation to elementary school children\u2019s basic number skills after the suspension of face-to-face teaching during the COVID-19 pandemic",
+   "year": 2023,
+   "arms": [
+    "education-competition"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1125",
+   "cell": "EDUCOMP_BOUNDARY",
+   "note": "parent attitudes to private tutoring",
+   "title": "Attitude of Parents Who Have Primary School Children Towards Private Tutoring",
+   "year": 2023,
+   "arms": [
+    "education-competition"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0055",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Medical Anthropology: A Biocultural Approach",
+   "year": 2008,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0540",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Analysis of the determinants of poverty in tigrai and afar national regional state, Ethiopia",
+   "year": 2019,
+   "arms": [
+    "dispersion"
+   ],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0321",
+   "cell": "EDUCOMP_BOUNDARY",
+   "note": "family responses to Double Reduction; no fertility outcome; title only",
+   "title": "Regulating Private Tutoring: Family Responses to the Double-Reduction Policy in China",
+   "year": 2022,
+   "arms": [
+    "link1-investment"
+   ],
+   "targeted": false,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0162",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Trends in the Education Sector from 1993\u201398",
+   "year": 2002,
+   "arms": [
+    "education-competition"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0561",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "The unwanted child.",
+   "year": 1982,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1108",
+   "cell": "DISPERSION_FERTILITY",
+   "note": "relative deprivation -> fertility behaviour, Taiwan 1979; title only",
+   "title": "Development Strategy, Relative Deprivation And Fertility Behavior In Taiwan.",
+   "year": 1979,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F1243",
+   "cell": "THEORY",
+   "note": "duplicate of C2F1355",
+   "title": "School Choice and Private Tutoring in an Endogenous Fertility Model",
+   "year": null,
+   "arms": [
+    "education-competition"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0937",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Career, Family and Emotional Work: Graduate Mothers in 1960s Britain*",
+   "year": 2020,
+   "arms": [
+    "education-competition"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0407",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Role of women for making household decision in nepalese societies",
+   "year": 2019,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0971",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Trade openness and income inequality: New empirical evidence",
+   "year": 2021,
+   "arms": [],
+   "targeted": false,
+   "title_only": false
+  },
+  {
+   "screen_id": "C2F0034",
+   "cell": "OFF_OTHER",
+   "note": "no C.2.f exposure or no fertility outcome",
+   "title": "Household and Kin Provisioning by Hadza Men",
+   "year": 2013,
+   "arms": [
+    "mechanism"
+   ],
+   "targeted": true,
+   "title_only": true
+  },
+  {
+   "screen_id": "C2F0808",
+   "cell": "INEQ_ASSOCIATION",
+   "note": "essays on economics of education and fertility",
+   "title": "Essays on the economics of education and fertility",
+   "year": 2016,
+   "arms": [
+    "education-competition",
+    "link1-investment"
+   ],
+   "targeted": true,
+   "title_only": false
+  }
+ ]
+}
