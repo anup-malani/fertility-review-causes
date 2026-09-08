@@ -216,3 +216,52 @@ Next: free-seed harvest (331), then build the inequality series and run the §5 
 the production query — on C.6.a the sign test settled the cell, and on C.2.b the index inverted its
 own answer once the deflator was fixed.
 
+### 2026-09-08 — §5 sign test run BEFORE the production query, and the sign fails in 8 of 21
+
+`source/build/331_c2f_sign_test.py`, log `literature/search-logs/c2f-sign-test-2026-09-08.md`, raw
+pulls deposited in `data/raw/wdi-inequality-fertility/` — **the first real contents `data/raw` has
+had** (`data-raw-is-empty`). World Bank WDI, `SP.DYN.TFRT.IN` and `SI.POV.GINI`, 21 SDT-core
+countries, 42 pulls, zero refused. Re-running re-uses the deposit rather than re-fetching.
+
+Order changed from scope §15: the free-seed harvest was to be 331 and this 332. Swapped because the
+harvest reads neighbouring chapters' screen files, which sit on unmerged branches; this test depends
+on nothing but public data. The harvest keeps its place in the plan.
+
+**Result 1 — the pre-registered sign fails in 8 of 21 countries.**
+
+| | countries |
+|---|---|
+| Gini RISING, sign supports the hypothesis (13) | USA, GBR, DEU, ITA, ESP, SWE, AUS, DNK, NOR, FIN, BEL, AUT, KOR |
+| Gini FALLING, sign runs against it (8) | **FRA, NLD, JPN, CAN, CHE, PRT, GRC, IRL** |
+
+Fertility fell in all 21. So in **38% of the SDT core the exposure moved the wrong way**, and the
+hypothesis has to explain those countries' declines with something else. Reported sign-first: the R²
+column shows why (`r2-criterion-is-sign-blind`) — IRL fits at R²=0.76 and PRT at 0.67, both with the
+correlation running *against* the hypothesis. A fit criterion alone would have counted them as
+support.
+
+**Result 2 — median 79% of the SDT decline predates the inequality series, and the caveat is the
+finding's limit.** Range 20–103% across 20 countries. **This measures when the exposure becomes
+OBSERVABLE in WDI, not when it moved**, so it is suggestive and confounded with data availability —
+a Gini series starting in 1987 does not mean inequality was flat before 1987. The log now says so in
+its own generated text rather than only here, because the first version of that summary asserted
+"the elasticity cannot be doing the work", which the data cannot support.
+
+**The substantive version is the next test and it is worth running.** The claim that inequality was
+flat or falling from 1945 to ~1980 while the main SDT fertility collapse ran 1965–1980 needs a
+long-run series — WID top shares, Atkinson/Piketty/Saez — not the absence of WDI data. If it holds,
+this is B.7's finding in a second chapter (67.6% of the SDT decline predating the exposure) and it
+would settle the SDT cell on timing rather than on elasticity. WID's bulk file is 882 MB, so this
+needs a per-country route rather than the whole download.
+
+**Where this leaves the chapter.** Two independent lines now point the same way: §4's conjunction has
+~2 records at the join, and the exposure has the wrong sign in 38% of the countries and is
+unobservable across most of the period in which the outcome moved. Neither is yet a verdict — both
+are pre-search measurements — but the working expectation of **SDT UNEVALUATED or a demonstrated
+wrong sign** is now supported by two channels rather than one.
+
+DEU's 103% is arithmetically correct: TFR fell below its end-of-window level and partially recovered.
+Flagged in the log so it is not read as the >100% banding error the chapter template forbids.
+
+Next: long-run WID series for the timing test, then the free-seed harvest, then anchors.
+
