@@ -1,0 +1,98 @@
+{
+  "date": "2026-09-08",
+  "script": "333_c2f_tempo_adjusted_timing.py",
+  "method": "aggregate Bongaarts-Feeney, r smoothed over 5 years",
+  "rows": [
+    {
+      "country": "FRA",
+      "trough_year": 1982,
+      "tfr_unadj_share": 0.7967479674796748,
+      "share_before_trough_adjusted": null,
+      "uncomputable": "adjusted series starts 1999, not 1965 \u2014 windows not comparable",
+      "mean_r_1965_1985": 0.0
+    },
+    {
+      "country": "SWE",
+      "trough_year": 1979,
+      "tfr_unadj_share": 0.7604166666666667,
+      "share_before_trough_adjusted": null,
+      "uncomputable": "adjusted series starts 1969, not 1965 \u2014 windows not comparable",
+      "mean_r_1965_1985": 0.0766
+    },
+    {
+      "country": "FIN",
+      "trough_year": 1992,
+      "uncomputable": null,
+      "tfr_unadj_share": 0.5121951219512194,
+      "tfr_adj_window": [
+        1965,
+        2023
+      ],
+      "tfr_adj_first": 2.255,
+      "tfr_adj_last": 1.375,
+      "tfr_adj_total_change": -0.88,
+      "share_before_trough_adjusted": 0.3014751621789736,
+      "mean_r_1965_1985": 0.0243
+    },
+    {
+      "country": "PRT",
+      "trough_year": 1979,
+      "uncomputable": null,
+      "tfr_unadj_share": 0.4827586206896551,
+      "tfr_adj_window": [
+        1965,
+        2023
+      ],
+      "tfr_adj_first": 2.972,
+      "tfr_adj_last": 1.45,
+      "tfr_adj_total_change": -1.522,
+      "share_before_trough_adjusted": 0.4932280986217748,
+      "mean_r_1965_1985": -0.111
+    },
+    {
+      "country": "GRC",
+      "trough_year": 1989,
+      "uncomputable": null,
+      "tfr_unadj_share": 0.8415841584158417,
+      "tfr_adj_window": [
+        1965,
+        2023
+      ],
+      "tfr_adj_first": 1.957,
+      "tfr_adj_last": 1.375,
+      "tfr_adj_total_change": -0.582,
+      "share_before_trough_adjusted": 0.3167995763396712,
+      "mean_r_1965_1985": -0.0852
+    },
+    {
+      "country": "IRL",
+      "trough_year": 1977,
+      "uncomputable": null,
+      "tfr_unadj_share": 0.3112840466926069,
+      "tfr_adj_window": [
+        1965,
+        2023
+      ],
+      "tfr_adj_first": 3.673,
+      "tfr_adj_last": 1.667,
+      "tfr_adj_total_change": -2.006,
+      "share_before_trough_adjusted": 0.2317011157309087,
+      "mean_r_1965_1985": -0.0552
+    },
+    {
+      "country": "CHE",
+      "trough_year": 1993,
+      "uncomputable": null,
+      "tfr_unadj_share": 0.8307692307692308,
+      "tfr_adj_window": [
+        1965,
+        2023
+      ],
+      "tfr_adj_first": 2.421,
+      "tfr_adj_last": 1.4,
+      "tfr_adj_total_change": -1.021,
+      "share_before_trough_adjusted": 0.7278184778184773,
+      "mean_r_1965_1985": 0.0338
+    }
+  ]
+}

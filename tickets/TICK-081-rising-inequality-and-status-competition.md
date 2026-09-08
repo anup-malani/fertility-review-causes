@@ -317,3 +317,53 @@ roughly 31%** before a single study is read.
 Next: re-run 332 on HFD completed cohort fertility to remove the tempo bias, then the free-seed
 harvest and cold-start anchors.
 
+### 2026-09-08 — tempo adjustment: 332's carry-away number does NOT survive
+
+`source/build/333_c2f_tempo_adjusted_timing.py`, log
+`literature/search-logs/c2f-tempo-adjusted-2026-09-08.md`. Eurostat `demo_find` (`TOTFERRT`,
+`AGEMOTH`) deposited in `data/raw/eurostat-fertility/`.
+
+HFD cohort fertility needs an account, so the tempo correction is computed instead from data that is
+open: Eurostat carries mean age at childbirth from 1960 beside the TFR, which gives the
+Bongaarts–Feeney adjustment `TFR/(1-r)` directly.
+
+**The first run of this check produced three false numbers and I nearly reported them.** It returned
+SWE **-156%** — an impossible share — FRA compared against 332 using a window that silently started
+in **1999** rather than 1965, and a headline "median falls 76% → 32%" computed over two different
+country sets. Three guards now stand, each named after the failure that motivated it: a **common
+window** (refuse a country whose adjusted series does not start at 1965), a **denominator floor**
+(a share whose denominator is under 0.25 children is undefined, not small — that was Sweden at
+-0.14), and a **plausibility band** against the unadjusted series. FRA and SWE are now reported
+`UNCOMPUTABLE` **with the reason printed in the table** rather than as numbers.
+
+**Result, like for like on the five countries where both measures compute** (FIN, PRT, GRC, IRL, CHE):
+
+| measure | median share of the SDT decline before the inequality trough |
+|---|---|
+| period TFR | **51%** |
+| tempo-adjusted | **32%** |
+
+Per country: CHE 83→73, FIN 51→30, GRC 84→32, IRL 31→23, PRT 48→49.
+
+**This retracts the carry-away number I recorded three hours ago.** 332's "median 69%, so only ~31%
+of the SDT decline is available for this mechanism" is **not robust**. The correction runs in the
+predicted direction and is large: on these five countries roughly **two thirds** of the decline
+remains available to the mechanism, not one third. **332's 69% is an upper bound and nothing more.**
+
+**What survives is directional, and it is weaker than what 332 claimed.** A substantial part of the
+SDT decline does predate the inequality turn — every computable country still shows 23–73% — and in
+all ten countries of 332 the pre-trough inequality slope is negative. But the *fraction* is not
+pinned down, and no share number should enter a verdict until the definitive version is run on HFD
+completed cohort fertility. **HFD requires an account: that is a human step, like the B.1 Zotero
+retrieval, and it is the blocker to name in the PI packet.**
+
+The aggregate BF adjustment is also not the parity-specific form its authors recommend, and `r` is
+smoothed over 5 years. Both are stated in the log.
+
+**Status of the three pre-search lines**, revised:
+1. §4's conjunction has ~2 records at the join — **unchanged**.
+2. The exposure has the wrong sign over the whole window in 8 of 21 countries (331) — **unchanged**.
+3. Timing (332) — **weakened**: directionally intact, magnitude retracted pending HFD.
+
+Next: free-seed harvest and cold-start anchors. The demsig side is as far as it goes without HFD.
+
