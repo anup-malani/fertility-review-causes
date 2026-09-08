@@ -41,6 +41,13 @@ LIGATURES = {"ﬀ": "ff", "ﬁ": "fi", "ﬂ": "fl", "ﬃ": "ffi", "ﬄ": "ffl",
              "¤": "ff", "­": ""}
 
 
+_TRANSLIT_84 = {ord("ø"): "o", ord("Ø"): "O", ord("đ"): "d", ord("Đ"): "D",
+                ord("ð"): "d", ord("Ð"): "D", ord("þ"): "th", ord("Þ"): "Th",
+                ord("ı"): "i", ord("İ"): "I", ord("ł"): "l", ord("Ł"): "L",
+                ord("æ"): "ae", ord("Æ"): "Ae", ord("œ"): "oe", ord("Œ"): "Oe",
+                ord("ß"): "ss"}
+
+
 def norm(t: str) -> str:
     """Normalise for matching.
 
@@ -48,7 +55,9 @@ def norm(t: str) -> str:
     with 'e¤ect' for 'effect', 'bene…t' for 'benefit'. Exact title matching can never work against
     that, which is why matching below is containment-scored on tokens rather than substring.
     """
-    t = (t or "")
+    # TICK-074: non-decomposable base letters (ø, ı, ł, đ...) survive NFKD and are then
+    # DELETED by the [^a-z0-9] strip, shortening a name instead of folding it.
+    t = (t or "").translate(_TRANSLIT_84)
     for k, v in LIGATURES.items():
         t = t.replace(k, v)
     t = unicodedata.normalize("NFKD", t.lower())

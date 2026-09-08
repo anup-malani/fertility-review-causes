@@ -20,6 +20,7 @@ Deterministic given the Crossref cache (crossref_resolve_cache.json); re-runs ar
 free. Outputs output/{slug}-fine-resolved.json + a short report. No OpenAlex.
 """
 import json, os, re, subprocess
+import unicodedata
 from urllib.parse import quote
 
 SLUG = "old-age-security-pension-crowdout"
@@ -28,7 +29,40 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.dirname(os.path.a
 def rp(*a): return os.path.join(ROOT, *a)
 GS = lambda f: rp("source", "build", "goldset", f)
 
-def norm(t): return re.sub(r"[^a-z0-9]", "", (t or "").lower())
+# --- canonical fold, TICK-074. Keep in sync with source/lib/textnorm.py; enforced by
+# scripts/verify_norm.py. An unfolded accent SHATTERS a surname and an ASCII apostrophe
+# becomes a SPACE while a curly one is DELETED — both silent, both producing a confident
+# wrong answer rather than an error.
+_TRANSLIT = {
+    ord("ø"): "o", ord("Ø"): "O", ord("đ"): "d", ord("Đ"): "D",
+    ord("ð"): "d", ord("Ð"): "D", ord("þ"): "th", ord("Þ"): "Th",
+    ord("ı"): "i", ord("İ"): "I", ord("ł"): "l", ord("Ł"): "L",
+    ord("æ"): "ae", ord("Æ"): "Ae", ord("œ"): "oe", ord("Œ"): "Oe",
+    ord("ß"): "ss", ord("ħ"): "h", ord("Ħ"): "H", ord("ŋ"): "n", ord("Ŋ"): "N",
+}
+
+# U+0027 apostrophe, U+2018/U+2019 curly quotes, U+02BC modifier letter, U+00B4 acute used as an
+# apostrophe, U+0060 backtick. All six occur in indexed titles.
+_APOSTROPHE_CLASS = re.compile("['‘’ʼ´`]")
+# U+002D hyphen-minus, U+2010-U+2015 the dash block, U+2212 minus, U+00AD soft hyphen.
+_DASH_CLASS = re.compile("[-‐‑‒–—―−­]")
+
+
+def norm(s):
+    """Fold to a comparable ASCII token string. Order is load-bearing: translit, then punctuation
+    classes, then NFKD, then the strip."""
+    s = (s or "").translate(_TRANSLIT)
+    s = _APOSTROPHE_CLASS.sub("", s)
+    s = _DASH_CLASS.sub(" ", s)
+    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode("ascii")
+    s = re.sub(r"[^a-z0-9 ]", " ", s.lower())
+    return re.sub(r"\s+", " ", s).strip()
+
+
+def norm_slug(s):
+    """53_'s original semantics: a squashed key with no separators, now built on
+    the canonical fold so an accented title keys the same way from either spelling."""
+    return norm(s).replace(" ", "")
 def toks(t): return set(re.sub(r"[^a-z0-9 ]", " ", (t or "").lower()).split())
 def jacc(a, b):
     A, B = toks(a), toks(b)
@@ -43,9 +77,9 @@ pri = {r["paperId"]: clean_doi(r.get("corrected_doi") or r.get("ondisk_doi"))
        for r in json.load(open(GS("prioritized_doi_corrected.json")))}
 tmap = {}
 for r in json.load(open(GS("tier_a_draft.json"))):
-    if r.get("doi"): tmap.setdefault(norm(r["title"]), clean_doi(r["doi"]))
+    if r.get("doi"): tmap.setdefault(norm_slug(r["title"]), clean_doi(r["doi"]))
 for r in json.load(open(GS("canon_resolved.json"))):
-    if r.get("final_doi"): tmap.setdefault(norm(r["title"]), clean_doi(r["final_doi"]))
+    if r.get("final_doi"): tmap.setdefault(norm_slug(r["title"]), clean_doi(r["final_doi"]))
 
 # abstract/year/author index (for the dedup author/year gate + Crossref year check)
 absidx = {}
@@ -90,7 +124,7 @@ for r in pool:
     doi, src = None, None
     if wid.get(i):                      doi, src = clean_doi(wid[i]), "wid_doi_map"
     elif pri.get(i):                    doi, src = pri[i], "prioritized_corrected"
-    elif tmap.get(norm(t)):             doi, src = tmap[norm(t)], "title_map"
+    elif tmap.get(norm_slug(t)):             doi, src = tmap[norm_slug(t)], "title_map"
     else:
         hit = crossref_doi(t, yr)
         if hit:                         doi, src = hit[0], f"crossref(J={hit[1]:.2f})"
@@ -109,7 +143,7 @@ for r in pool:
     if r["doi"]:
         key = ("doi", r["doi"])
     else:
-        key = ("tk", norm(r["title"])[:40] or r["paperId"])
+        key = ("tk", norm_slug(r["title"])[:40] or r["paperId"])
     groups.setdefault(key, []).append(r)
 
 # second pass: merge title-keyed records that share author+year+title-containment

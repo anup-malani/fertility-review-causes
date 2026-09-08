@@ -1,11 +1,11 @@
 # TICK-074: Shared resolver — fold apostrophes and dashes before the ASCII strip
-**Status:** open
+**Status:** done
 **Assigned:** Shravan
 **Hypothesis:** n/a — shared scaffold defect found on C.3.g (TICK-073)
 **Parallel-safe:** yes
 **Blocks:** none
 **Blocked by:** none
-**Touches:** source/build/goldset/{22,38,49,55,64,69,70,71,72,79,80,81}_*.py, source/lib/textnorm.py, scripts/audit_norm.sh
+**Touches:** source/lib/textnorm.py, scripts/verify_norm.py, source/build/goldset/{18,22,49,53,55,56c,64,69,70,72,79,80,84}_*.py
 
 ## The defect
 
@@ -26,58 +26,81 @@ Fixed there in `201_` and `204_`; **12 inherited copies on `main` still carry th
 new chapter copies one of them.
 
 ## Acceptance criteria
-- [ ] `source/lib/textnorm.py` carries the canonical `norm()`, the punctuation classes, and
+- [x] `source/lib/textnorm.py` carries the canonical `norm()`, the punctuation classes, and
       `punctuation_fold_selftest()` (checks BOTH that the two sides agree AND that they agree on the
       intended string — a fold that deleted everything would pass a symmetry check alone)
-- [ ] All 12 defective copies on `main` patched, each still parsing and each agreeing with the
+- [x] All 12 identity-matching copies on `main` patched, each still parsing and each agreeing with the
       canonical implementation on a shared test vector
-- [ ] `scripts/audit_norm.sh` reports defective copies across every branch, and is correct — the
+- [x] `scripts/verify_norm.py` reports defective copies across every branch, and is correct — the
       first version of this audit returned all zeros because zsh does not word-split unquoted
       expansions, i.e. it was itself a fake zero
-- [ ] Exposure recorded: which past chapter runs could have lost an anchor to this, and which of
+- [x] Exposure recorded: which past chapter runs could have lost an anchor to this, and which of
       those are worth re-running
 
 ## Log
 
----
+### Result
 
-## Three further shared-resolver defects, found on C.3.e (TICK-077) 2026-09-01
+**`source/lib/textnorm.py`** is now the canonical fold, with `selftest()` covering 14 fold cases, 5
+ASCII-vs-Unicode pair cases and 3 query cases. **`scripts/verify_norm.py`** extracts every `norm()`
+in `source/build/goldset` by AST, executes it in isolation, and compares it against the canonical one
+on a shared vector. **12 copies checked, 0 drifted; 7 excluded by name with a stated reason.**
 
-Same file family, same failure mode — each one manufactures a **false absence**, which is worse than
-a wrong match because a NO-MATCH reads as "this work does not exist."
+**The textual audit was wrong twice, and the behavioural one corrected it both times.**
 
-**1. The title channel has never worked, in any chapter.** `title.search` is **not a root OpenAlex
-parameter**. Sending `title.search=<title>` as a top-level query param makes the API reject the whole
-request — *"title.search is not a valid parameter"* — so the primary title channel returns nothing and
-the code silently falls through to `search=`, which ranks by relevance across the entire record and is
-much weaker. On C.3.e it failed **18 out of 18** and every single resolution came from the fallback.
+1. The first audit reported **zero** defective copies on every branch — including the branch that
+   carries the fix. zsh does not word-split unquoted expansions, so the loop never ran. A fake zero
+   in a tool built to find fake zeros.
+2. The corrected textual audit reported 12 copies "defective" by absence of the apostrophe class.
+   Running them found something different and larger: **all of them were exposed to the ACCENT
+   defect, and only some to the apostrophe one** — and three of the twelve are not identity matchers
+   at all.
 
-It was invisible because the fallback usually finds the right paper anyway. It was caught only by
-counting *which channel produced each match*, not by reading the code.
+**The apostrophe asymmetry was INTRODUCED by the accent fix.** Before `NFKD` + `encode("ascii",
+"ignore")`, non-ASCII characters and ASCII punctuation both became a space — symmetric, and wrong
+about accents. Adding the ASCII fold made non-ASCII characters vanish while ASCII punctuation still
+became a space. The second defect is a side effect of repairing the first, which is the argument for
+a single canonical implementation rather than twelve hand-copies.
 
-The correct form is `filter=title.search:VALUE`, with the value **wrapped in double quotes** — see
-defect 2. After the fix, 0 of 26 C.3.e anchors resolve via the fallback and mean Jaccard is 0.94.
-Reference implementation: `source/build/goldset/275_c3e_cold_start_anchors.py`.
+### Exclusions, each with a reason rather than an omission
 
-**This is inherited from A.18's `245_a18_cold_start_anchors.py` and is in every descendant.** No
-earlier chapter's anchor recall was measured against a working title channel.
+- `38_`, `71_`, `81_` (`cluster_overlap`) — `norm()` prepares a TITLE+ABSTRACT blob for term
+  matching and never lowercases. Substituting the canonical fold would change every cluster-overlap
+  number rather than repair a match. **It is still a real defect** (a lowercase term list matched
+  against a non-lowercased blob under-matches) and is filed separately, not smuggled in here.
+- `26_`, `28_`, `30_` — `norm(d)` takes a **DOI**, not a title. Comparing it against a title fold is
+  a category error; the exclusion list records that so it is not rediscovered.
+- `84_c2c_ingest_pdfs.py` — a deliberate ligature-aware matcher for `pdftotext` output ("e¤ect" for
+  "effect"), documented in place. It already folds accents correctly by stripping combining marks and
+  is symmetric on apostrophes; this ticket adds only the non-decomposable translit pass.
 
-**2. `%2C` does not escape a comma in a filter value — and the API's own error message says it does.**
-A bare comma in a filter VALUE is fatal (known). Sending the percent-encoded form the error message
-recommends returns *the identical error*. **Double-quoting the whole value works**, and has the
-side benefit of keeping phrase matching instead of degrading to a token AND.
+### One behaviour change, stated rather than buried
 
-**3. `is_stem` is one-directional.** It tolerates a *dropped subtitle* (candidate is a prefix of the
-returned title) but not an *added prefix*. Book chapters carry one — Schultz's Handbook chapter is
-indexed as "**Chapter 8** Demand for children in low income countries" — and the test refuses it.
-Fix: contiguous containment in **both** directions. This is not the unbounded suffix-containment the
-shadow-record gate rejects; the author and year gates still apply on top of a 4+ token contiguous match.
+`53_resolve_and_dedupe_pool.py` keyed a title→DOI map on a **squashed** slug with no separators. That
+shape is preserved as `norm_slug()`, but its duplicate-merge pass at line 157 does substring
+containment between two titles and now runs on the space-separated form. Containment is therefore
+**stricter** than before — the squashed form could match across word boundaries. Both sides use the
+same function so nothing is compared across forms, and a re-run of `53_` may merge slightly fewer
+records than the committed output.
 
-**4. Related, not a defect but a required rung:** a title spanning a colon does not match as a single
-stemmed phrase. Pitt 1999 returned 0 on the full quoted title and the fallback ranked an unrelated
-systematic review first. A rung quoting only the **pre-colon clause** finds it immediately.
+### Exposure in past runs
 
-**And a caution for whoever does this work:** OpenAlex's own author metadata can be the error. Pitt
-1999 is indexed with a first author of "Mark M. **Pin**". Do not loosen the first-author gate to
-membership to accommodate it — route to a human read instead.
+Every chapter's anchor log was scanned for refusals whose CANDIDATE TITLE carries a non-ASCII
+character or an apostrophe. **Two, and neither is a confirmed loss:**
 
+| Chapter | Record | Status |
+|---|---|---|
+| D.1.b | *Women's empowerment and fertility: A review of the literature* | NO-MATCH at J=0.545; a live re-test does NOT reproduce it, so the cause is unattributed |
+| D.3.c | *Labor's Love Lost* | BOOK-NO-DOI, an expected index miss |
+
+**No confirmed anchor loss in any prior run** — and this is a LOWER BOUND, because a case where the
+asymmetric fold merely depressed a Jaccard without crossing the floor leaves no trace in these logs.
+The first version of this scan also over-reported, matching the log format's own `→` arrow rather
+than the titles.
+
+### Workflow impact
+
+New chapters should `from textnorm import norm, oa_search_safe, selftest` rather than copy. Where a
+standalone copy is genuinely wanted, `scripts/verify_norm.py` is what keeps it honest, and it belongs
+in CI. The exclusion list is part of the artifact: a verifier that silently skips what it cannot
+classify is the same failure as the audit that returned zeros.
