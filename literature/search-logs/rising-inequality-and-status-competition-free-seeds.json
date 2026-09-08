@@ -1,0 +1,6101 @@
+{
+  "n_files_scanned": 1830,
+  "n_unique_blobs": 142,
+  "n_records": 393,
+  "n_dropped_homonym": 5,
+  "n_dropped_shadow": 1,
+  "n_timecost": 4,
+  "per_term": {
+    "income inequality": {
+      "n": 189,
+      "only": 186,
+      "wrongdir": 3,
+      "evo": 6,
+      "c3d": 0
+    },
+    "distribution stat": {
+      "n": 5,
+      "only": 5,
+      "wrongdir": 0,
+      "evo": 0,
+      "c3d": 0
+    },
+    "relative deprivation": {
+      "n": 4,
+      "only": 3,
+      "wrongdir": 0,
+      "evo": 0,
+      "c3d": 0
+    },
+    "status competition": {
+      "n": 4,
+      "only": 4,
+      "wrongdir": 0,
+      "evo": 0,
+      "c3d": 0
+    },
+    "positional": {
+      "n": 2,
+      "only": 2,
+      "wrongdir": 0,
+      "evo": 0,
+      "c3d": 0
+    },
+    "relative status": {
+      "n": 11,
+      "only": 11,
+      "wrongdir": 0,
+      "evo": 0,
+      "c3d": 0
+    },
+    "social comparison": {
+      "n": 13,
+      "only": 13,
+      "wrongdir": 0,
+      "evo": 3,
+      "c3d": 0
+    },
+    "arms race": {
+      "n": 7,
+      "only": 6,
+      "wrongdir": 0,
+      "evo": 1,
+      "c3d": 0
+    },
+    "shadow education": {
+      "n": 19,
+      "only": 18,
+      "wrongdir": 0,
+      "evo": 0,
+      "c3d": 2
+    },
+    "investment per child": {
+      "n": 143,
+      "only": 142,
+      "wrongdir": 1,
+      "evo": 31,
+      "c3d": 13
+    }
+  },
+  "records": [
+    {
+      "title": "Investment in children, social security, and intragenerational risk sharing",
+      "id": "10.1007/s10797-021-09664-3",
+      "year": 2021,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-d1-pool.json",
+        "old-age-security-pension-crowdout-live-corpus.json",
+        "old-age-security-pension-crowdout-prioritized.json",
+        "old-age-security-pension-crowdout-screen-tiers-ra-signed.json",
+        "old-age-security-pension-crowdout-screen-tiers.json",
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-sequential-screened.json",
+        "old-age-security-pension-crowdout-snowball.json",
+        "old-age-security-pension-crowdout-tier-b-deghosted.json",
+        "old-age-security-pension-crowdout-tier-b-frame.json",
+        "old-age-security-pension-crowdout-tier-b-frozen.json",
+        "old-age-security-pension-crowdout-tier-b-rebuilt.json",
+        "old-age-security-pension-crowdout-tier-b-resolved.json",
+        "old-age-security-pension-crowdout-tier-b-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Pension Coverage for Parents and Educational Investment in Children: Evidence from Urban China",
+      "id": "10.1093/wber/lhv060",
+      "year": 2015,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json",
+        "credit-constraints-snowball-round1.json",
+        "old-age-security-pension-crowdout-d1-pool.json",
+        "old-age-security-pension-crowdout-live-corpus.json",
+        "old-age-security-pension-crowdout-metaanalysis-ready-final.json",
+        "old-age-security-pension-crowdout-metaanalysis-ready.json",
+        "old-age-security-pension-crowdout-metaanalysis-studies.json",
+        "old-age-security-pension-crowdout-ra-gate-decisions.json",
+        "old-age-security-pension-crowdout-screen-tiers-ra-signed.json",
+        "old-age-security-pension-crowdout-screen-tiers.json",
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "A theory of fertility and parental investment in traditional and modern human societies",
+      "id": "10.1002/(sici)1096-8644(1996)23+<91::aid-ajpa4>3.0.co;2-c",
+      "year": 1996,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "caldwell-wealth-flows-westernization-PARTIAL-screen-tiers.json",
+        "caldwell-wealth-flows-westernization-tier-b-frame.json",
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-theory-stream.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json",
+        "heritability-fertility-genetic-pool-diagnostics.json",
+        "heritability-fertility-genetic-snowball-pool.json",
+        "housing-costs-snowball-pool.json",
+        "old-age-security-pension-crowdout-snowball.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Grandparental investment and reproductive decisions in the longitudinal 1970 British cohort study",
+      "id": "10.1098/rspb.2011.1424",
+      "year": 2011,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "co-residence-parents-household-delay-anchor-candidates.json",
+        "co-residence-parents-household-delay-exposure-audit.json",
+        "co-residence-parents-household-delay-frame.json",
+        "co-residence-parents-household-delay-screened.json",
+        "co-residence-parents-household-delay-snowball-pool.json",
+        "co-residence-parents-household-delay-targeted-pulls.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json",
+        "heritability-fertility-genetic-pool-diagnostics.json",
+        "heritability-fertility-genetic-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "Parental investment and the optimization of human family size",
+      "id": "10.1098/rstb.2010.0297",
+      "year": 2011,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "caldwell-wealth-flows-westernization-PARTIAL-screen-tiers.json",
+        "caldwell-wealth-flows-westernization-tier-b-frame.json",
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json",
+        "heritability-fertility-genetic-pool-diagnostics.json",
+        "heritability-fertility-genetic-production-query.json",
+        "heritability-fertility-genetic-recall-audit.json",
+        "heritability-fertility-genetic-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": true
+    },
+    {
+      "title": "The dynamics of asymmetry among fertility, income inequality and financial development in Bangladesh",
+      "id": "10.1016/j.wds.2022.100014",
+      "year": 2022,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "credit-constraints-frameonly-sheet.json",
+        "credit-constraints-primary-retrieval.json",
+        "credit-constraints-screen-results.json",
+        "credit-constraints-screen-universe.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json",
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Grandparental Investment",
+      "id": "10.1093/oxfordhb/9780190674687.013.20",
+      "year": 2021,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "co-residence-parents-household-delay-snowball-pool.json",
+        "co-residence-parents-household-delay-targeted-pulls.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json",
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json",
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "The impact of parental investment on lifetime reproductive success in Iceland",
+      "id": "10.7717/peerj.2904",
+      "year": 2017,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json",
+        "heritability-fertility-genetic-corpus-log.json",
+        "heritability-fertility-genetic-evidence-base.json",
+        "heritability-fertility-genetic-pool-diagnostics.json",
+        "heritability-fertility-genetic-retrieval-log.json",
+        "heritability-fertility-genetic-retrieval-state.json",
+        "heritability-fertility-genetic-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "The impact of grandparental investment on mothers\u2019 fertility intentions in four European countries",
+      "id": "10.4054/demres.2014.31.1",
+      "year": 2014,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "co-residence-parents-household-delay-exposure-audit.json",
+        "co-residence-parents-household-delay-snowball-pool.json",
+        "co-residence-parents-household-delay-targeted-pulls.json",
+        "despair-hopelessness-fertility-tier-b-frame.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json",
+        "housing-costs-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "An Evolutionary and Ecological Analysis of Human Fertility, Mating Patterns, and Parental Investment",
+      "id": "",
+      "year": 2003,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-theory-stream.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json",
+        "heritability-fertility-genetic-pool-diagnostics.json",
+        "heritability-fertility-genetic-snowball-pool.json",
+        "old-age-security-pension-crowdout-snowball.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "Parental Investment After the Birth of a Sibling: The Effect of Family Size in Low-Fertility China",
+      "id": "10.1007/s13524-020-00931-2",
+      "year": 2020,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-sequential-screened.json",
+        "old-age-security-pension-crowdout-tiers.json",
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-screen-worklist.json",
+        "twinning-multiple-births-screened.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": true
+    },
+    {
+      "title": "Parental investment and sexual selection",
+      "id": "",
+      "year": 1972,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "dating-apps-union-formation-friction-d1-ranked.json",
+        "dating-apps-union-formation-friction-tier-b-frame.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-anchor-resolution.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-cold-start-anchors.json",
+        "heritability-fertility-genetic-pool-diagnostics.json",
+        "heritability-fertility-genetic-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "Status competition, inequality, and fertility: implications for the demographic transition",
+      "id": "10.1098/rstb.2015.0150",
+      "year": 2016,
+      "matched": [
+        "status competition"
+      ],
+      "seen_in": [
+        "caldwell-wealth-flows-westernization-tier-b-frame.json",
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json",
+        "heritability-fertility-genetic-pool-diagnostics.json",
+        "heritability-fertility-genetic-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Does Wealth Increase Parental Investment Biases in Child Education?",
+      "id": "10.1086/655954",
+      "year": 2010,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json",
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-screen-worklist.json",
+        "twinning-multiple-births-screened.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Efficient Investment in Children",
+      "id": "10.1006/jeth.2001.2852",
+      "year": 2002,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json",
+        "old-age-security-pension-crowdout-prioritized.json",
+        "old-age-security-pension-crowdout-snowball.json",
+        "old-age-security-pension-crowdout-tier-b-frame.json",
+        "old-age-security-pension-crowdout-tier-b-resolved.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Access to Pensions, Old-Age Support, and Child Investment in the People\u2019s Republic of China",
+      "id": "10.22617/wps230161-2",
+      "year": 2023,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-d1-pool.json",
+        "old-age-security-pension-crowdout-live-corpus.json",
+        "old-age-security-pension-crowdout-screen-tiers-ra-signed.json",
+        "old-age-security-pension-crowdout-screen-tiers.json",
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Explaining Income Inequality and Intergenerational Mobility: The Role of Fertility and Family Transfers",
+      "id": "10.2139/ssrn.2699516",
+      "year": 2015,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "credit-constraints-prescreen.json",
+        "credit-constraints-screen-results.json",
+        "credit-constraints-screen-sheet.json",
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json",
+        "old-age-security-pension-crowdout-live-corpus.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "The impact of women's social position on fertility in developing countries",
+      "id": "10.1007/bf01124382",
+      "year": 1987,
+      "matched": [
+        "relative status"
+      ],
+      "seen_in": [
+        "caldwell-wealth-flows-westernization-PARTIAL-screen-tiers.json",
+        "caldwell-wealth-flows-westernization-tier-b-frame.json",
+        "caldwell-wealth-flows-westernization-title-only-stratum.json",
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-sequential-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Is There Really a Trade-off? Family Size and Investment in Child Quality in India",
+      "id": "10.2139/ssrn.2934467",
+      "year": 2017,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "child-centeredness-intensive-parenting-title-only-stratum.json",
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-screen-worklist.json",
+        "twinning-multiple-births-screened.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": true
+    },
+    {
+      "title": "Is There a Cost Associated with an Increase in Family Size Beyond Child Investment? Evidence from Developing Countries",
+      "id": "10.2139/ssrn.1935286",
+      "year": 2011,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "child-centeredness-intensive-parenting-title-only-stratum.json",
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-screen-worklist.json",
+        "twinning-multiple-births-screened.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": true
+    },
+    {
+      "title": "The consequences of miscarriage on parental investments",
+      "id": "10.1920/wp.ifs.2024.0624",
+      "year": 2024,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "art-access-fertility-recovery-d1-ranked.json",
+        "art-access-fertility-recovery-screen-worklist.json",
+        "art-access-fertility-recovery-screened.json",
+        "art-access-fertility-recovery-tier-b-frame.json",
+        "fetal-loss-intrauterine-mortality-d1-ranked.json",
+        "fetal-loss-intrauterine-mortality-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Shadow education and the effects of family size on parental educational investment",
+      "id": "10.1017/dem.2026.10024",
+      "year": 2026,
+      "matched": [
+        "shadow education"
+      ],
+      "seen_in": [
+        "child-cost-direct-screen-universe.json",
+        "rest-06.json",
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-screen-worklist.json",
+        "twinning-multiple-births-screened.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": true
+    },
+    {
+      "title": "Family Size and Educational Investments in Children: Evidence from Private Tutoring Expenditures in South Korea*",
+      "id": "10.1111/j.1468-0084.2010.00607.x",
+      "year": 2010,
+      "matched": [
+        "shadow education"
+      ],
+      "seen_in": [
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json",
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-screen-worklist.json",
+        "twinning-multiple-births-screened.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": true
+    },
+    {
+      "title": "Multi-partner fertility is associated with lower grandparental investment from in-laws in Finland",
+      "id": "10.1016/j.alcr.2014.04.003",
+      "year": 2014,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "co-residence-parents-household-delay-anchor-candidates.json",
+        "co-residence-parents-household-delay-frame.json",
+        "co-residence-parents-household-delay-ra-gate-abstracts.json",
+        "co-residence-parents-household-delay-screened.json",
+        "co-residence-parents-household-delay-snowball-pool.json",
+        "co-residence-parents-household-delay-targeted-pulls.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "Long-term mating positively predicts both reproductive fitness and parental investment",
+      "id": "10.1017/s0021932021000407",
+      "year": 2021,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-estimand-ready-set.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json",
+        "heritability-fertility-genetic-pool-diagnostics.json",
+        "heritability-fertility-genetic-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "On the Quantity and Quality of Girls: Fertility, Parental Investments and Mortality",
+      "id": "10.1093/ej/ueab035",
+      "year": 2021,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json",
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-sequential-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Sex-Biased Parental Investment among Contemporary Chinese Peasants: Testing the Trivers-Willard Hypothesis",
+      "id": "10.3389/fpsyg.2016.01215",
+      "year": 2016,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json",
+        "heritability-fertility-genetic-pool-diagnostics.json",
+        "heritability-fertility-genetic-snowball-pool.json",
+        "housing-costs-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "TESTING EVOLUTIONARY THEORIES OF DISCRIMINATIVE GRANDPARENTAL INVESTMENT",
+      "id": "10.1017/s0021932012000612",
+      "year": 2012,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "co-residence-parents-household-delay-snowball-pool.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json",
+        "heritability-fertility-genetic-pool-diagnostics.json",
+        "heritability-fertility-genetic-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "Ideal Age at First Birth and Associated Factors Among Young Adults in Greater New York City: Findings From the Social Position and Family Formation Study",
+      "id": "10.1177/0192513x19875762",
+      "year": 2019,
+      "matched": [
+        "relative status"
+      ],
+      "seen_in": [
+        "art-access-fertility-recovery-d1-ranked.json",
+        "art-access-fertility-recovery-tier-b-frame.json",
+        "housing-costs-snowball-pool.json",
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "The impact of income inequality on the fertility intention: A micro perspective based on relative deprivation",
+      "id": "10.1371/journal.pone.0311991",
+      "year": 2024,
+      "matched": [
+        "income inequality",
+        "relative deprivation"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "despair-hopelessness-fertility-tier-b-frame.json",
+        "housing-costs-snowball-pool.json",
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "The associations of cash transfers with parental investment and couples\u2019 fertility among low-income Serbian Roma",
+      "id": "10.1080/19485565.2025.2465545",
+      "year": 2025,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-d1-pool.json",
+        "old-age-security-pension-crowdout-live-corpus.json",
+        "old-age-security-pension-crowdout-ra-gate-decisions.json",
+        "old-age-security-pension-crowdout-screen-tiers-ra-signed.json",
+        "old-age-security-pension-crowdout-screen-tiers.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "The Manipulation of Children\u2019s Preferences, Old-Age Support, and Investment in Children\u2019s Human Capital",
+      "id": "10.1086/683778",
+      "year": 2016,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-screen-tiers.json",
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "child-centeredness-intensive-parenting-title-only-stratum.json",
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Education Competition and Fertility Intention: Evidence from China's Private Tutoring Ban",
+      "id": "10.2139/ssrn.4980022",
+      "year": 2024,
+      "matched": [
+        "shadow education"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "child-centeredness-intensive-parenting-title-only-stratum.json",
+        "despair-hopelessness-fertility-tier-b-frame.json",
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Income inequality and educational expenditures on children: Evidence from the China Family Panel Studies",
+      "id": "10.1016/j.chieco.2023.101932",
+      "year": 2023,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "child-centeredness-intensive-parenting-title-only-stratum.json",
+        "child-cost-direct-free-seeds.json",
+        "child-cost-direct-screen-universe.json",
+        "rest-04.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "College student loan debt and income inequality in the US: national and regional evidence",
+      "id": "10.1108/jes-05-2022-0287",
+      "year": 2022,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json",
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-screened.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "STASIS AMID CHANGE INCOME INEQUALITY IN CANADA 1965\u20101983",
+      "id": "10.1111/j.1475-4991.1986.tb00545.x",
+      "year": 1986,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "co-residence-parents-household-delay-frame.json",
+        "co-residence-parents-household-delay-screened.json",
+        "credit-constraints-frameonly-sheet.json",
+        "credit-constraints-screen-results.json",
+        "credit-constraints-screen-universe.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Does Parental Investment Shape Adult Children\u2019s Fertility Intentions? Findings From a German Family Panel",
+      "id": "10.3389/fsoc.2021.693119",
+      "year": 2021,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "co-residence-parents-household-delay-snowball-pool.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json",
+        "housing-costs-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Peer Review #1 of \"The impact of parental investment on lifetime reproductive success in Iceland (v0.2)\"",
+      "id": "10.7287/peerj.2904v0.2/reviews/1",
+      "year": 2017,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json",
+        "heritability-fertility-genetic-pool-diagnostics.json",
+        "heritability-fertility-genetic-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "Peer Review #2 of \"The impact of parental investment on lifetime reproductive success in Iceland (v0.1)\"",
+      "id": "10.7287/peerj.2904v0.1/reviews/2",
+      "year": 2017,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json",
+        "heritability-fertility-genetic-pool-diagnostics.json",
+        "heritability-fertility-genetic-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "Peer Review #2 of \"The impact of parental investment on lifetime reproductive success in Iceland (v0.2)\"",
+      "id": "10.7287/peerj.2904v0.2/reviews/2",
+      "year": 2017,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json",
+        "heritability-fertility-genetic-pool-diagnostics.json",
+        "heritability-fertility-genetic-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "Evidence for quantity\u2013quality trade-offs, sex-specific parental investment, and variance compensation in colonized Agta foragers undergoing demographic transition",
+      "id": "10.1016/j.evolhumbehav.2016.02.005",
+      "year": 2016,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json",
+        "heritability-fertility-genetic-pool-diagnostics.json",
+        "heritability-fertility-genetic-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": true
+    },
+    {
+      "title": "Parental Investments and Educational Outcomes: Trivers\u2013Willard in the U.S.",
+      "id": "10.3389/fsoc.2016.00003",
+      "year": 2016,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json",
+        "heritability-fertility-genetic-pool-diagnostics.json",
+        "heritability-fertility-genetic-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "The Primary Parental Investment in Children in the Contemporary USA is Education",
+      "id": "10.1007/s12110-014-9197-0",
+      "year": 2014,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json",
+        "heritability-fertility-genetic-pool-diagnostics.json",
+        "heritability-fertility-genetic-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Grandparental investment: Past, present, and future",
+      "id": "10.1017/s0140525x09991105",
+      "year": 2010,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "co-residence-parents-household-delay-snowball-pool.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "The behavioural ecology of modern families : a longitudinal study of parental investment and child development",
+      "id": "",
+      "year": 2009,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json",
+        "heritability-fertility-genetic-pool-diagnostics.json",
+        "heritability-fertility-genetic-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "The Trivers\u2013Willard hypothesis of parental investment",
+      "id": "10.1016/s1090-5138(01)00075-7",
+      "year": 2001,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "child-centeredness-intensive-parenting-title-only-stratum.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Biased parental investment and reproductive success in Gabbra pastoralists",
+      "id": "10.1007/s002650050219",
+      "year": 1996,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "child-centeredness-intensive-parenting-title-only-stratum.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "Human status seeking is a Darwinian adaptation",
+      "id": "10.1017/s0140525x00030259",
+      "year": 1993,
+      "matched": [
+        "status competition"
+      ],
+      "seen_in": [
+        "antidepressants-ssri-subfecundity-d1-ranked.json",
+        "antidepressants-ssri-subfecundity-tier-b-frame.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Low Socioeconomic Status and Female\u2010Biased Parental Investment: The Mukogodo Example",
+      "id": "10.1525/aa.1989.91.2.02a00090",
+      "year": 1989,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json",
+        "heritability-fertility-genetic-pool-diagnostics.json",
+        "heritability-fertility-genetic-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Costly children: the motivations for parental investment in children in a low fertility context",
+      "id": "10.1186/s41118-020-00111-5",
+      "year": 2021,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-anchor-resolution.json",
+        "child-centeredness-intensive-parenting-cold-start-anchors.json",
+        "child-centeredness-intensive-parenting-tier-a.json",
+        "housing-costs-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Access to Pensions, Old-Age Support, and Child Investment in China",
+      "id": "10.3368/jhr.0321-11555r3",
+      "year": 2023,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-d1-pool.json",
+        "old-age-security-pension-crowdout-live-corpus.json",
+        "old-age-security-pension-crowdout-screen-tiers-ra-signed.json",
+        "old-age-security-pension-crowdout-screen-tiers.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "The Heterogeneous Effect of Parental Investment on Old-Age Support: Only Children As the Main Caregivers in China",
+      "id": "10.1177/0192513x221150972",
+      "year": 2023,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-d1-pool.json",
+        "old-age-security-pension-crowdout-live-corpus.json",
+        "old-age-security-pension-crowdout-screen-tiers-ra-signed.json",
+        "old-age-security-pension-crowdout-screen-tiers.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "An International Study on the Relationship between Fertility Rate and Income Inequality under the Constraint of Intergenerational Mobility",
+      "id": "10.16538/j.cnki.jfe.2017.05.002",
+      "year": 2017,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-d1-pool.json",
+        "old-age-security-pension-crowdout-live-corpus.json",
+        "old-age-security-pension-crowdout-screen-tiers-ra-signed.json",
+        "old-age-security-pension-crowdout-screen-tiers.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Step-grandparental investment: role of childhood co-residence with grandchild\u2019s parent",
+      "id": "10.31235/osf.io/ag6b2",
+      "year": 2023,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "caldwell-wealth-flows-westernization-PARTIAL-screen-tiers.json",
+        "caldwell-wealth-flows-westernization-tier-b-frame.json",
+        "co-residence-parents-household-delay-frame.json",
+        "co-residence-parents-household-delay-screened.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "Parental Investment Theory",
+      "id": "10.4135/9781529739442.n8",
+      "year": 2020,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "child-centeredness-intensive-parenting-title-only-stratum.json",
+        "heritability-fertility-genetic-pool-diagnostics.json",
+        "heritability-fertility-genetic-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Child Development and Parental Investment: Introduction",
+      "id": "10.1111/ecoj.12388",
+      "year": 2016,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-screen-tiers.json",
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "The Impacts of Family Size on Investment in Child Quality",
+      "id": "10.3368/jhr.xli.4.738",
+      "year": 2006,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-screen-worklist.json",
+        "twinning-multiple-births-screened.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": true
+    },
+    {
+      "title": "Beliefs and Investment in Child Human Capital: Case Study from Benin",
+      "id": "10.1080/00220388.2020.1762860",
+      "year": 2020,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-screen-worklist.json",
+        "twinning-multiple-births-screened.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "The impact of family size on child investment in Thailand: Revisiting with an alternative approach",
+      "id": "10.1111/asej.12281",
+      "year": 2022,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-screen-worklist.json",
+        "twinning-multiple-births-screened.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": true
+    },
+    {
+      "title": "Effects of birth order and sibling sex composition on human capital investment in children in India",
+      "id": "10.20561/00037850",
+      "year": 2012,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-screen-worklist.json",
+        "twinning-multiple-births-screened.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Do Private Tutoring Expenditures Raise Academic Performance? Evidence from Middle School Students in S outh K orea",
+      "id": "10.1111/asej.12002",
+      "year": 2013,
+      "matched": [
+        "shadow education"
+      ],
+      "seen_in": [
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-screen-worklist.json",
+        "twinning-multiple-births-screened.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "The Effect of Private Tutoring Expenditures on Academic Performance: Evidence from Middle School Students in South Korea",
+      "id": "10.23895/kdijep.2012.34.2.139",
+      "year": 2012,
+      "matched": [
+        "shadow education"
+      ],
+      "seen_in": [
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-screen-worklist.json",
+        "twinning-multiple-births-screened.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Popularity Feedback and Adaptation Strategies in Online Dating: A Social Comparison Perspective",
+      "id": "10.25300/misq/2024/17861",
+      "year": 2025,
+      "matched": [
+        "social comparison"
+      ],
+      "seen_in": [
+        "dating-apps-union-formation-friction-d1-ranked.json",
+        "dating-apps-union-formation-friction-screen-worklist.json",
+        "dating-apps-union-formation-friction-screened.json",
+        "dating-apps-union-formation-friction-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Inequality of Opportunity, Income Inequality, and Economic Mobility: Some International Comparisons",
+      "id": "10.1057/9781137333117_5",
+      "year": 2013,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "credit-constraints-arm-seeded-round.json",
+        "credit-constraints-frameonly-sheet.json",
+        "credit-constraints-screen-results.json",
+        "credit-constraints-screen-universe.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Fertility, parental investment, and the early adoption of modern contraception in rural ethiopia",
+      "id": "10.1002/ajhb.22348",
+      "year": 2012,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "The Evolutionary History of Human Parental Investment in Relation to Population Growth and Social Stratification",
+      "id": "10.1007/978-1-4615-5985-6_19",
+      "year": 1997,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-theory-stream.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "Income Inequality and Reproductive Competition: Implications for Consumption, Status-Seeking, and Women\u2019s Self-Sexualization",
+      "id": "10.1007/978-3-030-28856-3_11",
+      "year": 2019,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Sexual selection, conspicuous consumption and economic growth",
+      "id": "10.1007/s10818-015-9200-9",
+      "year": 2015,
+      "matched": [
+        "social comparison"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-theory-stream.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "Parental Investment and Elite Family Structure in Preindustrial States: A Case Study of Late Medieval\u2010Early Modern Portuguese Genealogies",
+      "id": "10.1525/aa.1986.88.4.02a00050",
+      "year": 1986,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "caldwell-wealth-flows-westernization-tier-b-frame.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Income Inequality and Class Divides in Parental Investments",
+      "id": "10.1177/0003122418772034",
+      "year": 2018,
+      "matched": [
+        "income inequality",
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "despair-hopelessness-fertility-tier-b-frame.json",
+        "housing-costs-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Sibling size and investment in children\u2019s education: an asian instrument",
+      "id": "10.1007/s00148-006-0124-5",
+      "year": 2007,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json",
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Public pensions and family dynamics: Eldercare, child investment, and son preference in rural China",
+      "id": "10.1016/j.jdeveco.2024.103390",
+      "year": 2024,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-live-corpus.json",
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Learning support in child welfare facilities(1)Practice of a free cram school for children who retire from maternal and child life support facilities",
+      "id": "",
+      "year": 2018,
+      "matched": [
+        "shadow education"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-live-corpus.json",
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Ecological Analysis of Teen Birth Rates: Association with Community Income and Income Inequality",
+      "id": "10.1023/a:1011343817153",
+      "year": 2001,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-sequential-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Income Inequality and Early Non-Marital Childbearing: An Economic Exploration of the \"Culture of Despair\"",
+      "id": "10.3386/w17157",
+      "year": 2011,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Does network infrastructure construction reduce urban\u2013rural income inequality? Based on the \u201cBroadband China\u201d policy",
+      "id": "10.1016/j.techfore.2024.123486",
+      "year": 2024,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "caldwell-wealth-flows-westernization-PARTIAL-screen-tiers.json",
+        "caldwell-wealth-flows-westernization-tier-b-frame.json",
+        "caldwell-wealth-flows-westernization-title-only-stratum.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "How does China\u2019s HSR development affect urban-rural income inequality? Based on the enterprise productivity perspective",
+      "id": "10.21203/rs.3.rs-5253290/v1",
+      "year": 2024,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "caldwell-wealth-flows-westernization-PARTIAL-screen-tiers.json",
+        "caldwell-wealth-flows-westernization-tier-b-frame.json",
+        "caldwell-wealth-flows-westernization-title-only-stratum.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "The role of mating effort and co-residence history in step-grandparental investment",
+      "id": "10.1017/ehs.2024.17",
+      "year": 2024,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "caldwell-wealth-flows-westernization-tier-b-frame.json",
+        "co-residence-parents-household-delay-frame.json",
+        "co-residence-parents-household-delay-screened.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "The Rug Rat Race",
+      "id": "10.1353/eca.2010.0003",
+      "year": 2010,
+      "matched": [
+        "arms race"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-anchor-resolution.json",
+        "child-centeredness-intensive-parenting-cold-start-anchors.json",
+        "child-centeredness-intensive-parenting-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Widening income inequality and the decline in fertility intentions: Micro evidence from Chinese households",
+      "id": "10.1016/j.iref.2025.104723",
+      "year": 2025,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-screen-tiers.json",
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "The summer parental investment gap? Socioeconomic gaps in the seasonality of parental expenditures and time with school-age children",
+      "id": "10.1016/j.rssm.2023.100846",
+      "year": 2023,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-screen-tiers.json",
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "child-centeredness-intensive-parenting-title-only-stratum.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Adolescent Cranial Volume as a Sensitive Marker of Parental Investment: The Role of Non-material Resources?",
+      "id": "10.3389/fpsyg.2020.602401",
+      "year": 2020,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "heritability-fertility-genetic-pool-diagnostics.json",
+        "heritability-fertility-genetic-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Global Trends in Adolescent Fertility, 1990\u20132012, in Relation to National Wealth, Income Inequalities, and Educational Expenditures",
+      "id": "10.1016/j.jadohealth.2016.08.026",
+      "year": 2016,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json",
+        "fetal-loss-intrauterine-mortality-d1-ranked.json",
+        "fetal-loss-intrauterine-mortality-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "\u201cNot Nearly as Bad\u201d: Social Comparisons and the Debt Experience",
+      "id": "10.1177/23780231221121075",
+      "year": 2022,
+      "matched": [
+        "social comparison"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Postsecondary Education, Neighborhood Disadvantage, and Crime: An Examination of Life Course Relative Deprivation",
+      "id": "10.1177/0011128717753115",
+      "year": 2018,
+      "matched": [
+        "relative deprivation"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Income Inequality, Debt Burden and COVID-19",
+      "id": "10.2139/ssrn.3641965",
+      "year": 2020,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Conspicuous Consumption: Vehicle Purchases by Non-Prime Consumers",
+      "id": "10.24149/wp2107",
+      "year": 2021,
+      "matched": [
+        "social comparison"
+      ],
+      "seen_in": [
+        "student-debt-household-formation-d1-ranked.json",
+        "student-debt-household-formation-pool.json",
+        "student-debt-household-formation-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Delay in Marriage and Income Inequality in Japan: The Impact of the Increased Number of Unmarried Adults Living with Their Parents on the Household",
+      "id": "10.2139/ssrn.1413821",
+      "year": 2009,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "co-residence-parents-household-delay-frame.json",
+        "co-residence-parents-household-delay-ra-gate-abstracts.json",
+        "co-residence-parents-household-delay-screened.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Unexpected Monetary Policy and the Wealth Gradient in Parental Investment: Evidence from Korea's Household Data",
+      "id": "10.2139/ssrn.7354947",
+      "year": 2026,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "co-residence-parents-household-delay-snowball-pool.json",
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Using DNA From Mothers and Children to Study Parental Investment in Children\u2019s Educational Attainment",
+      "id": "W2974594040",
+      "year": 2019,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "heritability-fertility-genetic-pool-diagnostics.json",
+        "heritability-fertility-genetic-snowball-pool.json",
+        "heritability-fertility-genetic-snowball-round1.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Wealth Composition, Endogenous Fertility and the Dynamics of Income Inequality",
+      "id": "W1498829123",
+      "year": 2000,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "credit-constraints-frameonly-sheet.json",
+        "credit-constraints-screen-results.json",
+        "credit-constraints-screen-universe.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Consumption and Earnings Inequality with Risky Human Capital",
+      "id": "W1504717100",
+      "year": 2004,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "credit-constraints-frameonly-sheet.json",
+        "credit-constraints-screen-results.json",
+        "credit-constraints-screen-universe.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "ANALYSIS OF INCOME INEQUALITY IN NIGERIAN AGRICULTURAL ECONOMY: A CASE STUDY OF EKITI STATE.",
+      "id": "10.22004/ag.econ.126228",
+      "year": 2012,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "credit-constraints-frameonly-sheet.json",
+        "credit-constraints-screen-results.json",
+        "credit-constraints-screen-universe.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Exploring the impacts of assets and vulnerabilities of families experiencing multidimensional poverty and income inequality on children's early cognitive, social, emotional and behavioural developmental outcomes in Scotland",
+      "id": "W347110539",
+      "year": 2013,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "credit-constraints-frameonly-sheet.json",
+        "credit-constraints-screen-results.json",
+        "credit-constraints-screen-universe.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "The determinants of income inequality in Thailand: A synthetic cohort analysis",
+      "id": "10.1016/j.asieco.2014.02.001",
+      "year": 2014,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "credit-constraints-frameonly-sheet.json",
+        "credit-constraints-screen-results.json",
+        "credit-constraints-screen-universe.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Essays on Gender Roles and Child Investment in Developing Countries",
+      "id": "W2734928942",
+      "year": 2017,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "credit-constraints-frameonly-sheet.json",
+        "credit-constraints-screen-results.json",
+        "credit-constraints-screen-universe.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Status and determinants of poverty and income inequality in pastoral and agro-pastoral communities: Household-based evidence from Afar Regional State, Ethiopia",
+      "id": "10.1016/j.wdp.2019.100123",
+      "year": 2019,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "credit-constraints-frameonly-sheet.json",
+        "credit-constraints-screen-results.json",
+        "credit-constraints-screen-universe.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "Analysis of poverty, income inequality and their effects on food insecurity in southern Ethiopia",
+      "id": "10.1186/s40066-020-00269-3",
+      "year": 2020,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "credit-constraints-frameonly-sheet.json",
+        "credit-constraints-screen-results.json",
+        "credit-constraints-screen-universe.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Exploring Macroeconomic Factors of Income Inequality: A Comparative Analysis of Emerging Markets and Developing Economies and Advanced Economies",
+      "id": "10.47814/ijssrr.v7i7.2220",
+      "year": 2024,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "credit-constraints-frameonly-sheet.json",
+        "credit-constraints-screen-results.json",
+        "credit-constraints-screen-universe.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Expansion of shadow education, status externalities, and fertility intentions",
+      "id": "10.3724/1005-0566.20251207",
+      "year": 2025,
+      "matched": [
+        "shadow education"
+      ],
+      "seen_in": [
+        "credit-constraints-frameonly-sheet.json",
+        "credit-constraints-screen-results.json",
+        "credit-constraints-screen-universe.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Earnings Inequality and Mobility in the United States: Evidence from Social Security Data since 1937*",
+      "id": "W2030042690",
+      "year": 2010,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "credit-constraints-r1-probe-batch.json",
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Financial inclusion, income inequality, and institutions in sub-Saharan Africa: Identifying cross-country inequality regimes",
+      "id": "W3163855129",
+      "year": 2021,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "credit-constraints-r1-probe-batch.json",
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "FINANCIAL INCLUSIONS, FINANCIAL STABILITY, AND INCOME INEQUALITY IN OIC COUNTRIES: A GMM AND QUANTILE REGRESSION APPLICATION",
+      "id": "W2982091332",
+      "year": 2019,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "credit-constraints-r1-probe-batch.json",
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Microfinance and income inequality: New macrolevel evidence",
+      "id": "W2904427995",
+      "year": 2018,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "credit-constraints-r1-probe-batch.json",
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Does consumption inequality track income inequality in Italy?",
+      "id": "10.1016/j.red.2009.11.001",
+      "year": 2009,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json",
+        "credit-constraints-snowball-round1.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Income,Relative Status and Childbearing Willing of Chinese Women",
+      "id": "",
+      "year": "2010",
+      "matched": [
+        "relative status"
+      ],
+      "seen_in": [
+        "easterlin-relative-income-retrieval-state.json",
+        "easterlin-relative-income-screen-sheet.json",
+        "easterlin-relative-income-screen-universe.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Marital Fertility and Investment in Children\u2019s Education",
+      "id": "10.1007/978-3-319-99480-2_3",
+      "year": 2019,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-labor-laws-and-schooling-citation-frame.json",
+        "child-labor-laws-and-schooling-screened.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Life-history theory and climate change: resolving population and parental investment paradoxes",
+      "id": "10.1098/rsos.160470",
+      "year": 2016,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "climate-anxiety-eco-doomerism-screen-tiers.json",
+        "climate-anxiety-eco-doomerism-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "When unpaid cooking, cleaning and child care get a dollar value, income inequality in the US shrinks \u2013 but the gap has grown since 1965",
+      "id": "10.64628/aai.eckcqr5mk",
+      "year": 2026,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Roma Parental Investment, Unwanted Childbearing and Child Nutritional Status in the Western Balkan Roma Communities",
+      "id": "10.1007/978-3-031-91536-9_6",
+      "year": 2025,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Ultimate Context of the Termination of Parental Investment",
+      "id": "10.3390/ijerph22060944",
+      "year": 2025,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Perceptions of Income Inequality and Women\u2019s Intrasexual Competition",
+      "id": "10.1007/s12110-023-09466-y",
+      "year": 2023,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Phenotypic Mimicry Distinguishes Cues of Mating Competition From Paternal Investment in Men\u2019s Conspicuous Consumption",
+      "id": "10.1177/01461672211007229",
+      "year": 2021,
+      "matched": [
+        "social comparison"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "Changes in gendered social position and the depression gap over time in the United States",
+      "id": "10.7916/d8-aq41-5094",
+      "year": 2019,
+      "matched": [
+        "relative status"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Increasing earnings inequality and the gender pay gap in Canada: Prospects for convergence",
+      "id": "10.1111/caje.12386",
+      "year": 2019,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "High parental investment in childhood is associated with increased mate value in adulthood",
+      "id": "10.1016/j.paid.2018.02.004",
+      "year": 2018,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Parental Investment and Mate Value",
+      "id": "10.31234/osf.io/wv5an",
+      "year": 2018,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "The Status Competition Model of Cultural Production",
+      "id": "10.1007/s40806-018-0147-7",
+      "year": 2018,
+      "matched": [
+        "status competition"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "What Do Economically Costly Signals Signal?: a Life History Framework for Interpreting Conspicuous Consumption",
+      "id": "10.1007/s40806-018-0151-y",
+      "year": 2018,
+      "matched": [
+        "social comparison"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "Partner Choice, Investment in Children, and the Marital College Premium",
+      "id": "10.1257/aer.20150154",
+      "year": 2017,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Good genes, good providers, and good fathers and mothers: The withholding of parental investment by married couples.",
+      "id": "10.1037/ebs0000086",
+      "year": 2016,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Sending children to school: rural livelihoods and parental investment in education in northern Tanzania",
+      "id": "10.1016/j.evolhumbehav.2015.10.001",
+      "year": 2015,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Emotion Expression and Color: Their Joint Influence on Perceived Attractiveness and Social Position",
+      "id": "10.1007/s12144-014-9266-x",
+      "year": 2014,
+      "matched": [
+        "relative status"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Continuity between pre- and post-demographic transition populations with respect to grandparental investment",
+      "id": "10.1017/s0140525x0999166x",
+      "year": 2010,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "Toward an integrative framework of grandparental investment",
+      "id": "10.1017/s0140525x10000014",
+      "year": 2010,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "Income Inequality Among Seniors in Canada: The Role of Women's Labour Market Experience",
+      "id": "",
+      "year": 2009,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Innovation diffusion in time and space: effects of social information and of income inequality",
+      "id": "",
+      "year": 2009,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "The effect of conspicuous consumption on men\u2019s testosterone levels",
+      "id": "10.1016/j.obhdp.2009.06.001",
+      "year": 2009,
+      "matched": [
+        "social comparison"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Ecological dominance, social competition, and coalitionary arms races",
+      "id": "10.1016/j.evolhumbehav.2004.08.005",
+      "year": 2005,
+      "matched": [
+        "arms race"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "EMBODIED CAPITAL AND HERITABLE WEALTH IN COMPLEX CULTURES: A CLASS-BASED ANALYSIS OF PARENTAL INVESTMENT IN URBAN SOUTH INDIA",
+      "id": "10.1016/s0190-1281(04)23013-x",
+      "year": 2004,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Differential Fecundity and Gender-Biased Parental Investments in Health",
+      "id": "10.1006/redy.2002.0196",
+      "year": 2002,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Conception of parental investment as a useful explanation of diverse human parental behavior",
+      "id": "",
+      "year": 1999,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Conception of parental investment as a useful explanation of diverse human parental behaviour",
+      "id": "10.18778/1898-6773.62.11",
+      "year": 1999,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Gender differences in mate selection preferences: A test of the parental investment model.",
+      "id": "10.1037/0033-2909.112.1.125",
+      "year": 1992,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Evolution, Traits, and the Stages of Human Courtship: Qualifying the Parental Investment Model",
+      "id": "10.1111/j.1467-6494.1990.tb00909.x",
+      "year": 1990,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Keys to a Unified Theory of Warfare and Arms Races",
+      "id": "10.1017/s0730938400004299",
+      "year": 1989,
+      "matched": [
+        "arms race"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "The Nuclear Arms Race: An Evolutionary Perspective",
+      "id": "10.1017/s0730938400004263",
+      "year": 1989,
+      "matched": [
+        "arms race"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "Local Mate Competition and Parental Investment in Social Insects",
+      "id": "10.1126/science.196.4289.494",
+      "year": 1977,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Parental investment: A prospective analysis",
+      "id": "10.1016/0003-3472(77)90062-8",
+      "year": 1977,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Parental investment, mate desertion and a fallacy",
+      "id": "10.1038/262131a0",
+      "year": 1976,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "evolutionary-sex-drive-contraceptive-decoupling-screen-tiers.json",
+        "evolutionary-sex-drive-contraceptive-decoupling-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Parental investment: How an equity motive can produce inequality.",
+      "id": "10.1037/0033-2909.128.5.728",
+      "year": 2002,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "housing-costs-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Sustaining Impacts When Transfers End: Women Leaders, Aspirations, and Investment in Children",
+      "id": "10.3386/w22871",
+      "year": 2016,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "caldwell-wealth-flows-westernization-tier-b-frame.json",
+        "old-age-security-pension-crowdout-live-corpus.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Reducing Income Inequality and Poverty and Promoting Social Mobility in Korea",
+      "id": "10.1787/5jz0wh6l5p7l-en",
+      "year": 2014,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "How does income inequality affects economic growth at different income levels?",
+      "id": "10.1080/1331677x.2022.2080742",
+      "year": 2022,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "The Impact of Pension Reforms on Income Inequality, Savings, and Health",
+      "id": "10.17169/refubium-1960",
+      "year": 2019,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "On the Quantity and Quality of Girls: New Evidence on Abortion, Fertility, and Parental Investments",
+      "id": "10.2139/ssrn.2849756",
+      "year": 2016,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "A new approach to social inequality: inequality of income and wealth in South Korea",
+      "id": "10.1186/s40711-020-00126-7",
+      "year": 2020,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "The Gender Pay Gap: Income Inequality Over Life Course \u2013 A Multilevel Analysis",
+      "id": "10.3389/fsoc.2021.815376",
+      "year": 2021,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Income Inequality, Fertility, Human Capital Accumulation and Economic Growth in Mexico",
+      "id": "10.5430/rwe.v6n1p172",
+      "year": 2015,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Income Inequality and Government Transfers in Mexico",
+      "id": "10.5089/9781498320863.001",
+      "year": 2019,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-screened.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Employment Protection and Parental Investments in Children",
+      "id": "",
+      "year": "",
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-snowball.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Social Security and Child Investment",
+      "id": "",
+      "year": "",
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-snowball.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Income Inequality and the Timing of Demographic Transitions",
+      "id": "10.2307/2006958",
+      "year": 1991,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-snowball.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Chapter 18 Demographic variables and income inequality",
+      "id": "10.1016/s1574-003x(97)80010-4",
+      "year": 1997,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-snowball.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Investment in Children's Human Capital Through PAYG Pension Systems",
+      "id": "10.3390/economies11040109",
+      "year": 2023,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-snowball.json",
+        "old-age-security-pension-crowdout-tiers.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Conspicuous consumption for social parity",
+      "id": "10.35188/unu-wider/2023/386-4",
+      "year": 2023,
+      "matched": [
+        "social comparison"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Inconspicuous Consumption: Sake, Beer, and the Birth of the Consumer in Japan",
+      "id": "10.1017/s0021911809000035",
+      "year": 2009,
+      "matched": [
+        "social comparison"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Charles Frederick Worth and the birth of Haute Couture: Fashion design and textile renewal in the times of conspicuous consumption",
+      "id": "10.1201/9781315100210-52",
+      "year": 2018,
+      "matched": [
+        "social comparison"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Perceived ideal circumstances for childbearing across groups of different social position",
+      "id": "W2384238532",
+      "year": 2013,
+      "matched": [
+        "relative status"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Attitude of Parents Who Have Primary School Children Towards Private Tutoring",
+      "id": "10.15345/iojes.2023.05.005",
+      "year": 2023,
+      "matched": [
+        "shadow education"
+      ],
+      "seen_in": [
+        "postmaterialism-individualism-secularization-live-corpus-v2.json",
+        "postmaterialism-individualism-secularization-live-corpus.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "The impact of income inequality on the family: a test of a thesis",
+      "id": "",
+      "year": 2013,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "caldwell-wealth-flows-westernization-PARTIAL-screen-tiers.json",
+        "caldwell-wealth-flows-westernization-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Educational assortative mating and changing patterns of parental financial investment in children, 1990\u20132024",
+      "id": "10.1016/j.ssresearch.2026.103347",
+      "year": 2026,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "child-centeredness-intensive-parenting-title-only-stratum.json"
+      ],
+      "wrongdir": true,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "The Externalities of Private Tutoring on Students' Academic and Noncognitive Outcomes: Evidence and Mechanisms",
+      "id": "10.2139/ssrn.5738142",
+      "year": 2025,
+      "matched": [
+        "shadow education"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "child-centeredness-intensive-parenting-title-only-stratum.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Are children spending too much time on enrichment activities?",
+      "id": "10.1016/j.econedurev.2023.102503",
+      "year": 2024,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "child-centeredness-intensive-parenting-title-only-stratum.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Changes in family investment in children's out-of-school education in China, 2010\u20132018",
+      "id": "10.1080/21620555.2024.2303599",
+      "year": 2024,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-screen-tiers.json",
+        "child-centeredness-intensive-parenting-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Dynamic Competition in Parental Investment and Child's Efforts",
+      "id": "10.2139/ssrn.5038482",
+      "year": 2024,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "child-centeredness-intensive-parenting-title-only-stratum.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Income Inequality and Fertility Behavior: An Empirical Study on China",
+      "id": "10.20965/jaciii.2024.p0816",
+      "year": 2024,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Do Less Informative College Admission Exams Reduce Earnings Inequality? Evidence from Colombia",
+      "id": "10.1086/725167",
+      "year": 2023,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-screen-tiers.json",
+        "child-centeredness-intensive-parenting-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Education investment \u201crat race\u201d in China: how income inequality shapes family investment in shadow education",
+      "id": "10.1007/s12564-023-09852-2",
+      "year": 2023,
+      "matched": [
+        "income inequality",
+        "arms race",
+        "shadow education"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "child-centeredness-intensive-parenting-title-only-stratum.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Fertility: Parental Investment Theory",
+      "id": "10.1007/978-3-031-08956-5_373-1",
+      "year": 2023,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "child-centeredness-intensive-parenting-title-only-stratum.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Human capital, self-esteem, and income inequality",
+      "id": "10.1007/s10887-023-09235-7",
+      "year": 2023,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "child-centeredness-intensive-parenting-title-only-stratum.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Wage Dispersion and Private Sector Substitutes for Unpaid Household Work",
+      "id": "10.1007/978-3-031-46098-2_7",
+      "year": 2023,
+      "matched": [
+        "distribution stat"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "child-centeredness-intensive-parenting-title-only-stratum.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Cultural attributes, income inequality, and ethnic differentials",
+      "id": "10.1016/j.red.2021.02.007",
+      "year": 2021,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "child-centeredness-intensive-parenting-title-only-stratum.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Social Interactions and Competition in Shadow Education",
+      "id": "10.2139/ssrn.3562806",
+      "year": 2020,
+      "matched": [
+        "shadow education"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "child-centeredness-intensive-parenting-title-only-stratum.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Social Class and Parental Investment in Children",
+      "id": "10.1002/9781118900772.etrds0306",
+      "year": 2015,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-screen-tiers.json",
+        "child-centeredness-intensive-parenting-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Parental Investment and the Intergenerational Transmission of Economic Preferences and Attitudes",
+      "id": "10.2139/ssrn.2304090",
+      "year": 2013,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "child-centeredness-intensive-parenting-title-only-stratum.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "\u201cModernization\u201d increases parental investment and sibling resource competition: evidence from a rural development initiative in Ethiopia",
+      "id": "10.1016/j.evolhumbehav.2010.10.002",
+      "year": 2011,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "child-centeredness-intensive-parenting-title-only-stratum.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Grandparental investment: The influence of reproductive timing and family size",
+      "id": "10.1002/ajhb.20894",
+      "year": 2009,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "co-residence-parents-household-delay-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": true
+    },
+    {
+      "title": "Confidence of paternity, divorce, and investment in children by Albuquerque men",
+      "id": "10.1016/j.evolhumbehav.2006.06.004",
+      "year": 2006,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "child-centeredness-intensive-parenting-title-only-stratum.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Resources, Fertility, and Parental Investment in Mao's China",
+      "id": "10.1023/b:poen.0000036481.07682.7e",
+      "year": 2004,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json",
+        "child-centeredness-intensive-parenting-title-only-stratum.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Keeping up with the Joneses: Consumption Externalities, Portfolio Choice, and Asset Prices",
+      "id": "10.2307/2078030",
+      "year": 1994,
+      "matched": [
+        "social comparison"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-screen-tiers.json",
+        "child-centeredness-intensive-parenting-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Ageing and social rank effects on the reproductive system of free-ranging yellow baboons (Papio cynocephalus) at Mikumi National Park, Tanzania",
+      "id": "10.1093/humupd/4.4.430",
+      "year": 1998,
+      "matched": [
+        "relative status"
+      ],
+      "seen_in": [
+        "fetal-loss-intrauterine-mortality-d1-ranked.json",
+        "fetal-loss-intrauterine-mortality-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Birth order and gender : differential parental investment in Medieval England and France in the eleventh, twelfth, and thirteenth centuries",
+      "id": "10.32469/10355/78072",
+      "year": 2020,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "fetal-loss-intrauterine-mortality-d1-ranked.json",
+        "fetal-loss-intrauterine-mortality-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Differential Allocation Revisited: When Should Mate Quality Affect Parental Investment?",
+      "id": "10.1086/693484",
+      "year": 2017,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "fetal-loss-intrauterine-mortality-d1-ranked.json",
+        "fetal-loss-intrauterine-mortality-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Differential allocation of parental investment and the trade-off between size and number of offspring",
+      "id": "10.1098/rspb.2018.1074",
+      "year": 2018,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "fetal-loss-intrauterine-mortality-d1-ranked.json",
+        "fetal-loss-intrauterine-mortality-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": true
+    },
+    {
+      "title": "Effects of Intention Status and Social Support on Parental Investment",
+      "id": "10.18122/td/1519/boisestate",
+      "year": 2019,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "fetal-loss-intrauterine-mortality-d1-ranked.json",
+        "fetal-loss-intrauterine-mortality-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Arranged Marriage, Partner Traits and Parental Investment",
+      "id": "10.18122/td/1744/boisestate",
+      "year": 2020,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "fetal-loss-intrauterine-mortality-d1-ranked.json",
+        "fetal-loss-intrauterine-mortality-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "The role of female investment in a sexual arms race",
+      "id": "10.1111/jav.02322",
+      "year": 2020,
+      "matched": [
+        "arms race"
+      ],
+      "seen_in": [
+        "fetal-loss-intrauterine-mortality-d1-ranked.json",
+        "fetal-loss-intrauterine-mortality-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Income Inequality and Early Nonmarital Childbearing",
+      "id": "10.1353/jhr.2014.0001",
+      "year": 2014,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-cold-start-anchors.json",
+        "despair-hopelessness-fertility-tier-a.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Relaxed population policy, family size and parental investments in children\u2019s education in rural Northwestern China",
+      "id": "10.1016/j.ijedudev.2017.03.009",
+      "year": 2017,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": true
+    },
+    {
+      "title": "Parental investment in child immunisation: the role of birth order and number of children",
+      "id": "10.18203/2394-6040.ijcmph20261842",
+      "year": 2026,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": true
+    },
+    {
+      "title": "The impact of shadow education expenditures on fertility rates in South Korea",
+      "id": "10.1007/s00148-026-01156-0",
+      "year": 2026,
+      "matched": [
+        "shadow education"
+      ],
+      "seen_in": [
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Parental Investments and Intra-household Inequality in Child Human Capital: Evidence from a Survey Experiment",
+      "id": "10.1093/ej/uead086",
+      "year": 2023,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Citizenship, Fertility, and Parental Investments",
+      "id": "10.1257/app.6.4.35",
+      "year": 2014,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Child Gender and Parental Investments In India: Are Boys and Girls Treated Differently?",
+      "id": "10.1257/app.6.1.157",
+      "year": 2013,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Why do larger families reduce parental investments in child quality, but not child quality per se?",
+      "id": "10.1007/s11150-010-9115-0",
+      "year": 2010,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": true
+    },
+    {
+      "title": "Parental Investments and Intra-household Inequality in Child Human Capital: Evidence from a Lab-in-the-Field Experiment",
+      "id": "10.1920/wp.ifs.2022.2822",
+      "year": 2022,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Growing Up Together: Cohort Composition and Child Investment",
+      "id": "10.1007/s13524-013-0237-x",
+      "year": 2013,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Parental Investments in College and Later Cash Transfers.",
+      "id": "10.1007/s13524-018-0703-6",
+      "year": 2018,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Maternal Education, Parental Investment, and Noncognitive Characteristics in Rural China",
+      "id": "10.1086/702994",
+      "year": 2019,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Money and success \u2013 Sibling and birth-order effects on positional concerns",
+      "id": "10.1016/j.joep.2009.11.009",
+      "year": 2009,
+      "matched": [
+        "positional"
+      ],
+      "seen_in": [
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Family, Community and Long-Term Earnings Inequality",
+      "id": "10.2139/ssrn.2819370",
+      "year": 2016,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "The Effect of Private Tutoring Expenditures on Academic Performance: Evidence from a Nonparametric Bounding Method",
+      "id": "W1521037131",
+      "year": 2007,
+      "matched": [
+        "shadow education"
+      ],
+      "seen_in": [
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Maternal Education, Parental Investment and Non-Cognitive Characteristics in Rural China",
+      "id": "10.2139/ssrn.3205894",
+      "year": 2018,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Birth Order and Parental Investment",
+      "id": "10.1007/978-3-319-16999-6_3586-1",
+      "year": 2016,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Is There any Long-term Effect of Private Tutoring?: Analysis Using the Korean Education & Employment Panel",
+      "id": "10.36907/krivet.2016.19.3.57",
+      "year": 2016,
+      "matched": [
+        "shadow education"
+      ],
+      "seen_in": [
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "The effect of experience and environment in private tutoring on human capital investment",
+      "id": "10.1111/asej.12340",
+      "year": 2024,
+      "matched": [
+        "shadow education"
+      ],
+      "seen_in": [
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Health Endowments and Parental Investments in Infancy and Early Childhood",
+      "id": "10.7249/wr367",
+      "year": 2006,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Childcare and Parental Investment: Early- and Mid-Life Effects",
+      "id": "10.2139/ssrn.2916496",
+      "year": 2017,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "twinning-multiple-births-d1-ranked.json",
+        "twinning-multiple-births-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Educational Assortative Mating and Household Income Inequality",
+      "id": "10.3386/w20271",
+      "year": 2014,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "dating-apps-union-formation-friction-d1-ranked.json",
+        "dating-apps-union-formation-friction-tier-b-frame.json"
+      ],
+      "wrongdir": true,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "Who Marries Whom and Its Impact on Household Income Inequality",
+      "id": "10.21203/rs.3.rs-2263831/v1",
+      "year": 2022,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "dating-apps-union-formation-friction-d1-ranked.json",
+        "dating-apps-union-formation-friction-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Generation Validation: The Role of Social Comparison in Use of Instagram Among Emerging Adults",
+      "id": "10.1089/cyber.2016.0444",
+      "year": 2017,
+      "matched": [
+        "social comparison"
+      ],
+      "seen_in": [
+        "dating-apps-union-formation-friction-d1-ranked.json",
+        "dating-apps-union-formation-friction-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Choice and chance relative deprivation as determinants of cognitive dissonance.",
+      "id": "10.1037/h0044993",
+      "year": 1959,
+      "matched": [
+        "relative deprivation"
+      ],
+      "seen_in": [
+        "dating-apps-union-formation-friction-d1-ranked.json",
+        "dating-apps-union-formation-friction-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Income inequality and socioeconomic differences in bullying perpetration among adolescents in post-communist countries of Europe: Findings from the HBSC study",
+      "id": "10.1016/j.pmedr.2023.102540",
+      "year": 2023,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "dating-apps-union-formation-friction-d1-ranked.json",
+        "dating-apps-union-formation-friction-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "The relationships between economic freedom, income inequality, and economic growth: empirical evidence from an asymmetric analysis in the case of Greece",
+      "id": "10.1007/s10258-025-00269-w",
+      "year": 2025,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "art-access-fertility-recovery-d1-ranked.json",
+        "art-access-fertility-recovery-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Social position and referral to rehabilitation among cancer patients",
+      "id": "10.3109/0284186x.2014.997836",
+      "year": 2015,
+      "matched": [
+        "relative status"
+      ],
+      "seen_in": [
+        "co-residence-parents-household-delay-frame.json",
+        "co-residence-parents-household-delay-screened.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Income inequality and marriage",
+      "id": "W2129366206",
+      "year": 2007,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "co-residence-parents-household-delay-frame.json",
+        "co-residence-parents-household-delay-screened.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Delay in Marriage and Income Inequality in Japan: The Impact of the Increased Number of Unmarried Adults Living with Their Parents on the Household Economy",
+      "id": "W3121291397",
+      "year": 2009,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "co-residence-parents-household-delay-frame.json",
+        "co-residence-parents-household-delay-screened.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Importance of Grandparental Investment",
+      "id": "10.1007/978-3-319-19650-3_1500",
+      "year": 2021,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "co-residence-parents-household-delay-snowball-pool.json",
+        "co-residence-parents-household-delay-snowball-round1.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "Retirement-age Extension and Parental Investment in Education",
+      "id": "10.2139/ssrn.6140224",
+      "year": 2026,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "co-residence-parents-household-delay-snowball-pool.json",
+        "co-residence-parents-household-delay-snowball-round1.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Parental investment, sexual selection and sex ratios",
+      "id": "W2115493532",
+      "year": 2008,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "heritability-fertility-genetic-pool-diagnostics.json",
+        "heritability-fertility-genetic-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "Earnings Inequality and the Changing Association between Spouses\u2019 Earnings",
+      "id": "W2011493602",
+      "year": 2010,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "heritability-fertility-genetic-pool-diagnostics.json",
+        "heritability-fertility-genetic-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Genetic associations with parental investment from conception to wealth inheritance in six cohorts",
+      "id": "W4382632573",
+      "year": 2023,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "heritability-fertility-genetic-pool-diagnostics.json",
+        "heritability-fertility-genetic-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Height, social position and coronary heart disease incidence: the contribution of genetic and environmental factors",
+      "id": "W4360839096",
+      "year": 2023,
+      "matched": [
+        "relative status"
+      ],
+      "seen_in": [
+        "heritability-fertility-genetic-pool-diagnostics.json",
+        "heritability-fertility-genetic-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Parental investment or parenting stress? Examining the links between poverty and child development in Ireland",
+      "id": "W4388459915",
+      "year": 2023,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "heritability-fertility-genetic-pool-diagnostics.json",
+        "heritability-fertility-genetic-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Fintech, financial inclusion and income inequality: a quantile regression approach",
+      "id": "10.1080/1351847x.2020.1772335",
+      "year": 2020,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Credit and Income Inequality",
+      "id": "10.2139/ssrn.4607561",
+      "year": 2023,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "A theory of financial inclusion and income inequality",
+      "id": "10.1080/1351847x.2020.1792960",
+      "year": 2020,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Financial Inclusion, Poverty, and Income Inequality in ASEAN Countries: Does Financial Innovation Matter?",
+      "id": "10.1007/s11205-023-03169-8",
+      "year": 2023,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "U.S. Earnings Levels and Earnings Inequality: A Review of Recent Trends and Proposed Explanations",
+      "id": "W2137695232",
+      "year": 1992,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Financial Inclusion, Poverty, and Income Inequality in Developing Asia",
+      "id": "10.2139/ssrn.2558936",
+      "year": 2015,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Does microfinance affect income inequality?",
+      "id": "10.1080/00036846.2013.864039",
+      "year": 2014,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Fintech, financial inclusion and income inequality nexus in Africa",
+      "id": "10.1080/23322039.2021.1986926",
+      "year": 2021,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Does microfinance program innovation reduce income inequality? Cross-country and panel data analysis",
+      "id": "10.1186/s13731-022-00195-7",
+      "year": 2022,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "The relationship between financial inclusion and income inequality in sub-Saharan Africa: Evidence from disaggregated data",
+      "id": "W2783199831",
+      "year": 2017,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Financial sector development and income inequality in South Africa",
+      "id": "10.1108/ajems-11-2016-0177",
+      "year": 2017,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "ON THE ACCESSIBILITY OF FINANCIAL SERVICES AND INCOME INEQUALITY: AN INTERNATIONAL PERSPECTIVE",
+      "id": "10.3846/tede.2023.18722",
+      "year": 2023,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Technological change, completeness of financing microstructures, and impact on well-being and income inequality",
+      "id": "10.1016/j.telpol.2023.102571",
+      "year": 2023,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Banking Development, Economic Structure and Income Inequality",
+      "id": "10.2139/ssrn.2350165",
+      "year": 2013,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "'Financial Inclusion-Income Inequality' Nexus in Nigeria: Evidence from Dynamic Ordinary Least Square (DOLS) Modeling Approach",
+      "id": "10.51244/ijrsi.2022.9205",
+      "year": 2022,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "DETERMINANT OF INCOME INEQUALITY IN INDONESIA: STUDY CASE 33 PROVINCES IN 2011-2016",
+      "id": "10.20472/iac.2018.044.004",
+      "year": 2018,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "credit-constraints-screen-universe.json",
+        "credit-constraints-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Male Earnings Inequality, Women's Earnings, and Family Income Inequality in Australia, 1982-2007",
+      "id": "W2066140641",
+      "year": 2013,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "easterlin-relative-income-screen-sheet.json",
+        "easterlin-relative-income-screen-universe.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Returns to Parental Investment in Children in Benguet Province, Philippines",
+      "id": "",
+      "year": 1991,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-cost-direct-screen-universe.json",
+        "probe-s3-of-5.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Home ownership as status competition: Some theory and evidence",
+      "id": "10.1016/j.jdeveco.2016.12.001",
+      "year": 2016,
+      "matched": [
+        "status competition"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Housing and Income Inequality in Europe: Distributional Effects of Non\u2010Cash Income From Imputed Rents",
+      "id": "10.1111/roiw.12597",
+      "year": 2022,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Maternal Social Support and Neighborhood Income Inequality as Predictors of Low Birth Weight and Preterm Birth Outcome Disparities: Analysis of South Carolina Pregnancy Risk Assessment and Monitoring System Survey, 2000\u20132003",
+      "id": "10.1007/s10995-009-0508-8",
+      "year": 2009,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "The impact of population aging on income inequality in developing countries: Evidence from rural China",
+      "id": "10.1016/j.chieco.2010.09.003",
+      "year": 2010,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "What scale matters? exploring the relationships between individuals' social position, neighbourhood context and the scale of neighbourhood",
+      "id": "10.1111/j.1468-0467.2010.00331.x",
+      "year": 2010,
+      "matched": [
+        "relative status"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Income Inequality and Economic Growth: Heterogeneity and Nonlinearity",
+      "id": "10.1515/snde-2018-0084",
+      "year": 2019,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Segmented Local Labor Markets in Postreform China: Gender Earnings Inequality in the Case of Two Towns in Zhejiang Province",
+      "id": "10.1068/a37295",
+      "year": 2006,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Income inequality and housing prices in the very long\u2010run",
+      "id": "10.1002/soej.12520",
+      "year": 2021,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Economic Change and Rising Income Inequality in the Oslo Region: The Importance of Knowledge-Intensive Business Services",
+      "id": "10.1080/00343404.2011.600301",
+      "year": 2011,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Social construction of house size expectations: testing the positional good theory and aspiration spiral theory using UK and German panel data",
+      "id": "10.1080/02673037.2020.1795086",
+      "year": 2020,
+      "matched": [
+        "positional"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Assessing the Decline of Wage Dispersion in Sweden",
+      "id": "W2205166885",
+      "year": 1986,
+      "matched": [
+        "distribution stat"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Betting the House: How Assets Influence Marriage Selection, Marital Stability, and Child Investments",
+      "id": "10.2139/ssrn.3081410",
+      "year": 2017,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Private Tutoring and Academic Performance of Elementary, Middle, and High School Students: A Decision Tree Algorithm",
+      "id": "10.9728/dcs.2023.24.4.847",
+      "year": 2023,
+      "matched": [
+        "shadow education"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Reconsidering income inequality among Japanese youth: focusing on the employment ice age generation",
+      "id": "10.1007/s42495-025-00161-7",
+      "year": 2025,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Intergenerational wealth transfer and family investment in shadow education: Empirical evidence from housing in China",
+      "id": "10.21203/rs.3.rs-3406414/v1",
+      "year": 2023,
+      "matched": [
+        "shadow education"
+      ],
+      "seen_in": [
+        "housing-costs-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Return Migration, Investment in Children, and Intergenerational Mobility: Comparing Sons of Foreign- and Native-Born Fathers",
+      "id": "10.1353/jhr.2008.0000",
+      "year": 2008,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-live-corpus.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Return Migration, Investment in Children, and Intergenerational Mobility",
+      "id": "10.3368/jhr.43.2.299",
+      "year": 2008,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-live-corpus.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Return of migrant workers, educational investment in children and intergenerational mobility in China",
+      "id": "10.1016/j.eap.2022.10.005",
+      "year": 2022,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-live-corpus.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Do Pensions Help Children Too: Effects of China\u2019s New Rural Pension Scheme on Child Investment, Health, and Education",
+      "id": "",
+      "year": 2023,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-live-corpus.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Exposure and Vulnerability: Child Health as a Vector in the Intergenerational Transmission of Social Position",
+      "id": "",
+      "year": 2009,
+      "matched": [
+        "relative status"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-live-corpus.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Insurance against Income Shocks, Parental Investments, and Child Development",
+      "id": "10.2139/ssrn.4861032",
+      "year": 2024,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "old-age-security-pension-crowdout-live-corpus.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Widening or narrowing: how support policies in border ethnic regions shape urban-rural income inequality",
+      "id": "10.1080/00036846.2025.2585207",
+      "year": 2025,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "caldwell-wealth-flows-westernization-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "\u201cThere She Is, Your Ideal\u201d Negative Social Comparisons and Health Behaviors",
+      "id": "10.3386/w31156",
+      "year": 2023,
+      "matched": [
+        "social comparison"
+      ],
+      "seen_in": [
+        "caldwell-wealth-flows-westernization-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Perceptions of relative deprivation and women\u2019s empowerment",
+      "id": "10.1016/j.worlddev.2020.105218",
+      "year": 2020,
+      "matched": [
+        "relative deprivation"
+      ],
+      "seen_in": [
+        "caldwell-wealth-flows-westernization-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "CAN GREATER ATTENTION TO WOMEN'S RIGHTS HELP ADDRESS INCOME INEQUALITY?",
+      "id": "10.1111/coep.12406",
+      "year": 2018,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "caldwell-wealth-flows-westernization-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Knowledge and Beliefs Concerning Development and Income Inequality in China and the United States",
+      "id": "",
+      "year": 2009,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "caldwell-wealth-flows-westernization-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Decoding the educational illusio: self-assurance, anxiety, and adaptive strategies in Chinese middle-class parental investment",
+      "id": "10.1080/01425692.2025.2472063",
+      "year": 2025,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "How kin help with parental investments",
+      "id": "10.1111/1468-4446.13176_2",
+      "year": 2025,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Income Inequality and Parent Education Spending in Canada",
+      "id": "10.1017/s0008423925100516",
+      "year": 2025,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "How investment in children shape fertility choices of families: Evidence from Pakistan",
+      "id": "10.1371/journal.pgph.0003957",
+      "year": 2024,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Impact of Provincial Income Inequality on Parenting Styles in China during COVID-19",
+      "id": "10.3390/bs14070587",
+      "year": 2024,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Is shadow education a myth? How schools affect private tutoring in China",
+      "id": "10.1080/21620555.2024.2321122",
+      "year": 2024,
+      "matched": [
+        "shadow education"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Parental investment and the economization of parenting",
+      "id": "10.1080/17530350.2024.2349601",
+      "year": 2024,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Why cash grants fail to raise household investment in child education in developing countries",
+      "id": "10.1111/rode.13092",
+      "year": 2024,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "America's Parenting Economy: How the Ideal of Parental Investment Scaffolds Family\u2010Hostile Policy",
+      "id": "10.1111/socf.12948",
+      "year": 2023,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Varieties of the rat race: working hours in the age of abundance",
+      "id": "10.1093/ser/mwac067",
+      "year": 2023,
+      "matched": [
+        "arms race"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Income inequality and student achievement: trends among US States (1992\u20132019)",
+      "id": "10.1080/00131911.2021.1974349",
+      "year": 2021,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Early Skill Gap Effects on Long-Run Outcomes and Parental Investments",
+      "id": "10.18235/0002161",
+      "year": 2020,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "GENDER ANALYSIS OF CHILD INVESTMENT AND CHILD QUALITY AMONG FARMER FAMILIES IN INDONESIA",
+      "id": "10.24156/jikk.2020.13.3.199",
+      "year": 2020,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": true
+    },
+    {
+      "title": "Should Children Do More Enrichment Activities? Leveraging Bunching to Correct for Endogeneity",
+      "id": "10.17016/feds.2020.036",
+      "year": 2020,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Family Background, Private Tutoring, and Children's Educational Performance in Contemporary China",
+      "id": "10.1080/21620555.2015.1096193",
+      "year": 2015,
+      "matched": [
+        "shadow education"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Persistence Of Income Inequality: Does Child Mortality Matter?",
+      "id": "10.1353/jda.2012.0025",
+      "year": 2012,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Income Inequality in the United States, 1913-1998",
+      "id": "10.1162/00335530360535135",
+      "year": 2003,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "PARENTAL INVESTMENT AND CHILD HEALTH IN A YANOMAM\u00d6 VILLAGE SUFFERING SHORT-TERM FOOD STRESS",
+      "id": "10.1017/s002193200100503x",
+      "year": 2001,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "child-centeredness-intensive-parenting-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Geographic earnings inequality by race, 1960\u20132016",
+      "id": "10.1111/jors.12623",
+      "year": 2022,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Nonmarital First Births, Marriage, and Income Inequality",
+      "id": "10.1177/0003122416653112",
+      "year": 2016,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Income inequality and deaths of despair risk in Canada, identifying possible mechanisms",
+      "id": "10.1016/j.socscimed.2024.116623",
+      "year": 2024,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Rising childhood income inequality and declining Americans\u2019 health",
+      "id": "10.1016/j.socscimed.2022.115016",
+      "year": 2022,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Potential Consequences of Post\u2010Brexit Trade Barriers for Earnings Inequality in the UK",
+      "id": "10.1111/ecca.12381",
+      "year": 2021,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Globalization and income inequality",
+      "id": "10.4337/9781800884120.00009",
+      "year": 2022,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Income change and sympathy for right\u2010wing populist parties in the Netherlands: The role of gender and income inequality within households",
+      "id": "10.1111/1468-4446.13122",
+      "year": 2024,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Changes in the Wage Structure and Earnings Inequality",
+      "id": "10.1016/s1573-4463(99)03007-2",
+      "year": 1999,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Skills, education, and the rise of earnings inequality among the \u201cother 99 percent\u201d",
+      "id": "10.1126/science.1251868",
+      "year": 2014,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Population health in an era of rising income inequality: USA, 1980\u20132015",
+      "id": "10.1016/s0140-6736(17)30571-8",
+      "year": 2017,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Poverty or income inequality as predictor of mortality: longitudinal cohort study",
+      "id": "10.1136/bmj.314.7096.1724",
+      "year": 1997,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Reexamining the Evidence of an Ecological Association between Income Inequality and Health",
+      "id": "10.1215/03616878-26-3-487",
+      "year": 2001,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Macro\u2010to\u2010Micro Links in the Relation between Income Inequality and Mortality",
+      "id": "10.1111/1468-0009.00094",
+      "year": 1998,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "How Firms Shape Income Inequality: Stakeholder Power, Executive Decision Making, and the Structuring of Employment Relationships",
+      "id": "10.5465/amr.2013.0451",
+      "year": 2015,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Growing Income Inequality in the United States and Other Advanced Economies",
+      "id": "10.1257/jep.34.4.52",
+      "year": 2020,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Income Inequality, Social Mobility, and the Decision to Drop Out of High School",
+      "id": "10.3386/w20195",
+      "year": 2014,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "The Kuznets curve for export diversification and income inequality: Evidence from a global sample",
+      "id": "10.1016/j.eap.2019.11.004",
+      "year": 2019,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Trade openness and income inequality: New empirical evidence",
+      "id": "10.1111/ecin.13018",
+      "year": 2021,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "The Transition to the Knowledge Economy, Labor Market Institutions, and Income Inequality in Advanced Democracies",
+      "id": "10.1017/s0043887118000333",
+      "year": 2019,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Imports, Exports, and Earnings Inequality: Measures of Exposure and Estimates of Incidence",
+      "id": "10.1093/qje/qjac012",
+      "year": 2022,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "International trade, development traps, and the core-periphery structure of income inequality",
+      "id": "10.1016/j.econ.2019.09.001",
+      "year": 2019,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Globalization and top income shares",
+      "id": "10.1016/j.jinteco.2020.103312",
+      "year": 2020,
+      "matched": [
+        "distribution stat"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Increasing Income Inequality in the Nordics",
+      "id": "10.6027/tn2018-519",
+      "year": 2018,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Income inequality is associated with adolescent fertility in Brazil: a longitudinal multilevel analysis of 5,565 municipalities",
+      "id": "10.1186/s12889-015-1369-2",
+      "year": 2015,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Presidential Address 2019: How Should Tax Progressivity Respond to Rising Income Inequality?",
+      "id": "10.1093/jeea/jvaa050",
+      "year": 2020,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Employment relations and growing income inequality: Causes and potential options for its reversal",
+      "id": "10.1177/0022185616634337",
+      "year": 2016,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "International Trade and Income Inequality*",
+      "id": "10.1111/sjoe.12360",
+      "year": 2019,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Earnings inequality and workers\u2019 skills in Italy",
+      "id": "10.1016/j.strueco.2019.09.004",
+      "year": 2019,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Does economic structure matter for income inequality?",
+      "id": "10.1007/s11135-022-01462-1",
+      "year": 2022,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "County-Level Income Inequality, Social Mobility, and Deaths of Despair in the US, 2000-2019",
+      "id": "10.1001/jamanetworkopen.2023.23030",
+      "year": 2023,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Impact of economic growth volatility on income inequality: ASEAN experience",
+      "id": "10.1007/s11135-019-00960-z",
+      "year": 2020,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Interaction of Global and National Income Inequalities",
+      "id": "10.1515/jgd-2016-0023",
+      "year": 2016,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Ageing Poorly?: Accounting for the Decline in Earnings Inequality in Brazil, 1995-2012",
+      "id": "10.18235/0000655",
+      "year": 2017,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Investigating the association between income inequality in youth and deaths of despair in Canada: a population-based cohort study from 2006 to 2019",
+      "id": "10.1136/jech-2022-219630",
+      "year": 2022,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Corporate governance and wealth and income inequality",
+      "id": "10.1111/corg.12391",
+      "year": 2021,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "International Trade, Factor Endowments, and Income Inequality: Evidence from Chinese Regional Data",
+      "id": "10.1080/1540496x.2019.1694893",
+      "year": 2019,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Solidarity Within and Across Workplaces: How Cross-Workplace Coordination Affects Earnings Inequality",
+      "id": "10.7758/rsf.2019.5.4.07",
+      "year": 2019,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Globalization of production, manufacturing employment, and income inequality in developing nations",
+      "id": "10.1016/j.ssresearch.2023.102975",
+      "year": 2024,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Changing income inequality: A distributional paradigm for Canada",
+      "id": "10.1111/caje.12248",
+      "year": 2016,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "International Trade and Earnings Inequality: A New Factor Content Approach",
+      "id": "10.3386/w28263",
+      "year": 2020,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "How Should Tax Progressivity Respond to Rising Income Inequality?",
+      "id": "10.3386/w28006",
+      "year": 2020,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Export diversification and income inequality in Central Africa: An analysis of the employment channel",
+      "id": "10.1080/09638199.2023.2203785",
+      "year": 2023,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Greenhouse gas emission widens income inequality in Africa",
+      "id": "10.1007/s11356-022-18925-5",
+      "year": 2022,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Inequality and Opportunity: The Relationship Between Income Inequality and Intergenerational Transmission of Income",
+      "id": "10.7249/rr1509",
+      "year": 2016,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Productivity dispersion, wage dispersion and superstar firms",
+      "id": "10.1111/ecca.12490",
+      "year": 2023,
+      "matched": [
+        "distribution stat"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Effort: The Unrecognized Contributor to US Income Inequality",
+      "id": "10.3386/w26421",
+      "year": 2019,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Income Inequality and Job Creation",
+      "id": "10.2139/ssrn.4149736",
+      "year": 2022,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Trade Ties and Economic Divides: Trade and Income Inequality in the Regions of Europe",
+      "id": "10.1111/grow.70036",
+      "year": 2025,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "The Impacts of Import Penetration on Regional Income Inequality in China: A Global Value Chain Perspective",
+      "id": "10.1111/deve.12211",
+      "year": 2019,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Entropy, directionality theory and the evolution of income inequality",
+      "id": "10.1016/j.jebo.2022.03.017",
+      "year": 2022,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Drivers of income inequality in OECD countries: Testing the Milanovic's TOP hypothesis",
+      "id": "10.1016/j.strueco.2025.04.004",
+      "year": 2025,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "China\u2019s WTO accession and income inequality in European regions: External pressure and internal adjustments",
+      "id": "10.1016/j.eap.2020.11.006",
+      "year": 2020,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "R&amp;D intensity and income inequality in the G7: 1870\u20132016",
+      "id": "10.1111/sjpe.12298",
+      "year": 2021,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Income inequality and \u2018hospitalisations of despair\u2019 in Canada: a study on longitudinal, population-based data",
+      "id": "10.1136/jech-2023-220900",
+      "year": 2023,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Income Inequality and Mortality: A Norwegian Perspective*",
+      "id": "10.1111/1475-5890.12261",
+      "year": 2021,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Export Expansion and Investment in Children's Human Capital: Evidence from the U.S.-Vietnam Bilateral Trade Agreement",
+      "id": "10.2139/ssrn.4056784",
+      "year": 2022,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Estimating the income inequality-health relationship for the United States between 1941 and 2015: Will the relevant frequencies please stand up?",
+      "id": "10.1016/j.jeoa.2020.100275",
+      "year": 2020,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "Income inequality and house prices across US states",
+      "id": "10.1016/j.qref.2022.11.004",
+      "year": 2022,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "The causal effect of regulation on income inequality across the U.S. states",
+      "id": "10.1016/j.ejpoleco.2023.102471",
+      "year": 2023,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Free-market institutions and income inequality: Did the link persist around the world even in times of falling within-country inequality, 2000\u20132021?",
+      "id": "10.1177/00207152241285759",
+      "year": 2024,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Trade, education, and income inequality",
+      "id": "10.1080/00036846.2022.2027862",
+      "year": 2022,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Income Concentration, Financial Liberalization, and Decoupling Between the United States and China",
+      "id": "10.2753/jei0021-3624460219",
+      "year": 2012,
+      "matched": [
+        "distribution stat"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Is Globalization Coming to an End Due to the Rise in Income Inequality?",
+      "id": "10.3390/jrfm18030138",
+      "year": 2025,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Working Time, Income Inequality, and Life Expectancy: A\u00a0Longitudinal Analysis of US States, 2005\u20132018",
+      "id": "10.1111/soin.12630",
+      "year": 2024,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Income inequality, economic openness and current account imbalances in new EU member states",
+      "id": "10.1007/s10663-024-09606-2",
+      "year": 2024,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Multiple Scales of Income Inequality: A Longitudinal Analysis of Swedish Regions",
+      "id": "10.1111/gean.70003",
+      "year": 2025,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Income inequality and trade of \u2018Made in China\u2019",
+      "id": "10.1080/09638199.2021.1999484",
+      "year": 2021,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Labor's Declining Share of Corporate Income: Impact on Income Inequality and the U.S. Job Recovery",
+      "id": "10.2139/ssrn.2441795",
+      "year": 2014,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Decomposing Changes in Subnational Income Inequality in the United States, 1980-2019",
+      "id": "10.31235/osf.io/8vqpa",
+      "year": 2022,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Revisiting the Nexus Between Trade Liberalisation and Income Inequality: The Case of Sub\u2010Saharan African Countries",
+      "id": "10.1002/ijfe.70164",
+      "year": 2026,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "The Impact of Trade Openness on Income Inequality: A Theoretical and Empirical Review",
+      "id": "10.51505/ijebmr.2025.9502",
+      "year": 2025,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Non-linear Dynamics of Trade Openness and Income Inequality: New Evidence from a Dynamic Panel Threshold Analysis",
+      "id": "10.1177/00157325251362519",
+      "year": 2025,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "The impact of trade openness on perceived income inequality: evidence from China",
+      "id": "10.1007/s00181-025-02800-6",
+      "year": 2025,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Institutional, economic, and social determinants of income inequality in Kazakhstan",
+      "id": "10.21511/ppm.24(1).2026.04",
+      "year": 2026,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Determinants of income inequality in Southeast European transition economies",
+      "id": "10.14254/2071-8330.2025/18-4/10",
+      "year": 2025,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Winners and losers of globalization: Sectoral trade concentration and income inequality",
+      "id": "10.1080/09638199.2026.2698632",
+      "year": 2026,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Trade Openness and Income Inequality: Evidence from India",
+      "id": "10.47604/ijecon.2443",
+      "year": 2024,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Regional per capita income inequality and fiscal policy in Mexico, 1989\u20132021",
+      "id": "10.1007/s00168-024-01312-y",
+      "year": 2024,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Income Inequality and Economic Complexity Nexus: The Moderating Roles of Institutional Quality and Globalization",
+      "id": "10.2478/sues-2025-0016",
+      "year": 2025,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Manufacturing Jobs: Implications for Income Inequality",
+      "id": "W2905484346",
+      "year": 2018,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Tariffs and the Unequal Burden: How Trade Policy Deepens Income Inequality",
+      "id": "10.2139/ssrn.5219949",
+      "year": 2025,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Inequality in the Great Recession - The Case of the United States FRDB International Income Inequality Project",
+      "id": "W2468968883",
+      "year": 2011,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Rising Income Inequalities \u2013 the Causes of and Consequences for Long-term Growth",
+      "id": "10.15678/znuek.2019.0981.0302",
+      "year": 2019,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Income Inequality in Mexico and Import Exposure: Estimating the Impacts from the Expenditure Channel",
+      "id": "10.18235/0002045",
+      "year": 2019,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "Does an Increase in Trade-Openness and Import-Penetration Affect Income Inequality? Evidence from the Manufacturing Sector Output Growth and Employment Growth",
+      "id": "10.1007/978-3-030-55148-3_4",
+      "year": 2020,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Decades of Income Inequality",
+      "id": "10.1017/9781108854443.002",
+      "year": 2020,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Organization of production and income inequality",
+      "id": "10.1111/jems.12583",
+      "year": 2024,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Exports and Income Inequality in Mexico",
+      "id": "10.1080/00220388.2024.2337373",
+      "year": 2024,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "The other side of the China syndrome: Export opportunities and gender income inequality in China",
+      "id": "10.1016/j.asieco.2025.102054",
+      "year": 2025,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Global Agrifood Value Chains, Structural Transformation and Income Inequality",
+      "id": "10.1111/agec.70097",
+      "year": 2026,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "How Does FinTech Affect Household Income Inequality? Evidence from China",
+      "id": "10.2139/ssrn.6505590",
+      "year": 2026,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Is Globalization Coming to an End Due to Rise of Income Inequalities?",
+      "id": "10.2139/ssrn.2823620",
+      "year": 2016,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Income inequality and deaths of despair: a population-based study of 19\u00a0million Canadian adults",
+      "id": "10.1007/s00127-025-02913-4",
+      "year": 2025,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "County-level income inequality and suicide in the United States",
+      "id": "10.1016/j.ehb.2026.101600",
+      "year": 2026,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Europeanisation of Income Inequality Before and During the Eurozone Crisis: Inter-, Supra- and Transnational Perspectives",
+      "id": "10.1007/978-3-031-12630-7_7",
+      "year": 2022,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Associations of family policy and income inequality with loneliness in midlife: Cross-national evidence from the United States and Europe",
+      "id": "10.1016/j.socscimed.2026.119048",
+      "year": 2026,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "despair-hopelessness-fertility-tier-b-frame.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "The association between grandparental investment and grandparents' happiness in Finland",
+      "id": "10.1111/pere.12160",
+      "year": 2016,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "co-residence-parents-household-delay-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "The relationship of income inequality to mortality: Does the choice of indicator matter?",
+      "id": "10.1016/s0277-9536(97)00044-0",
+      "year": 1997,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "co-residence-parents-household-delay-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Regional Variation in Earnings Inequality in Reform-Era Urban China",
+      "id": "10.1086/230785",
+      "year": 1996,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "co-residence-parents-household-delay-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": false,
+      "c3d": false
+    },
+    {
+      "title": "Do grandparents favor granddaughters? Biased grandparental investment in UK",
+      "id": "10.1016/j.evolhumbehav.2011.02.001",
+      "year": 2011,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "co-residence-parents-household-delay-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "Grandparental investment facilitates harmonization of work and family in employed parents: A lifespan psychological perspective",
+      "id": "10.1017/s0140525x09991658",
+      "year": 2010,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "co-residence-parents-household-delay-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "Grandparental investment and reproductive success in modern Japanese society",
+      "id": "10.1556/jep.11.2013.1.4",
+      "year": 2013,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "co-residence-parents-household-delay-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "The role of partnering and assortative mating for income inequality: The case of Finland, 1991\u20132014",
+      "id": "10.1177/00016993211004703",
+      "year": 2021,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "co-residence-parents-household-delay-snowball-pool.json"
+      ],
+      "wrongdir": true,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "Discriminative grandparental investment \u2013 the impact of grandchild\u2019s gender and sociodemographic parameters",
+      "id": "10.1515/anre-2016-0012",
+      "year": 2016,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "co-residence-parents-household-delay-snowball-pool.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "The role of partnering and assortative mating by social origin for income inequality: The case of Finland, 1991\u20132014",
+      "id": "10.31235/osf.io/xhuad",
+      "year": 2020,
+      "matched": [
+        "income inequality"
+      ],
+      "seen_in": [
+        "co-residence-parents-household-delay-snowball-pool.json"
+      ],
+      "wrongdir": true,
+      "evo": true,
+      "c3d": false
+    },
+    {
+      "title": "Fitness effects of grandparental investments in contemporary low-risk societies",
+      "id": "10.1017/s0140525x09991671",
+      "year": 2010,
+      "matched": [
+        "investment per child"
+      ],
+      "seen_in": [
+        "co-residence-parents-household-delay-targeted-pulls.json"
+      ],
+      "wrongdir": false,
+      "evo": true,
+      "c3d": false
+    }
+  ]
+}
