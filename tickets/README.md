@@ -40,10 +40,26 @@ scripts/ticket.sh close  NNN   # mark the ticket done, then merge + delete the b
 ```
 
 `claim` derives the slug from the ticket filename, refuses if a `NNN-*` branch already exists on
-`origin` (someone else has it), and flips the ticket's `Status:` line for you. You still: move the
-ticket's row on the `QUEUE.md` board, do the work, and — before `close` — write the `## Log`
-(**Result** + **Workflow impact**, see "Closing a ticket"). Everything git-shaped is automated; only
-the judgment parts are left to you. If you cannot run the helper, follow the manual loop below.
+`origin` (someone else has it), flips the ticket's `Status:` line, **and moves the ticket's row from
+Open to In progress on the `QUEUE.md` board** — filling in Owner, Branch, Claimed (UTC), and
+`Touches:` from the ticket file, and committing the whole claim in one push. You still: do the work,
+and — before `close` — write the `## Log` (**Result** + **Workflow impact**, see "Closing a ticket").
+The bookkeeping is automated; only the judgment parts are left to you. If you cannot run the helper,
+follow the manual loop below.
+
+Before it changes anything, `claim` runs three preflight checks and stops on the first failure, so a
+refused claim leaves the repo exactly as it found it:
+
+- the working tree is clean and `main` is in sync with `origin`;
+- no `NNN-*` branch exists on `origin`, and the ticket has the `# TICK-NNN:` heading, `**Assigned:**`
+  and `**Touches:**` lines the board row is built from;
+- **`Touches:` overlap** against every live **In progress** row. This is a warning, not a refusal —
+  overlap is often legitimate — but it should be a decision rather than a surprise. Because it reads
+  the board rather than `git branch -r`, it also sees the Mode A rows whose Branch column is `—`.
+
+If a row for the ticket is already on the **In progress** board (a Mode A claim, or a stale claim you
+are taking over), `claim` updates that row's Branch and Claimed cells in place instead of adding a
+second one.
 
 ### Mode B — branch-per-ticket (PR merge) — ACTIVE
 
@@ -55,9 +71,10 @@ Each ticket gets its own branch; the **pushed branch is the claim** — visible 
    `NNN-*` already exists on `origin`, it is taken. Also check `Touches:` overlap with other
    live branches.
 3. **Claim it.** `git checkout -b NNN-slug`, set the ticket `Status: in-progress` + your name,
-   add its **In progress** row in `QUEUE.md`, then push the branch immediately:
-   `git push -u origin NNN-slug`. First to push the branch wins; a name clash is rejected.
-   *(`scripts/ticket.sh claim NNN` does steps 1–3.)*
+   move its row from **Open** to **In progress** in `QUEUE.md` (Owner, Branch, Claimed UTC,
+   `Touches:`), then push the branch immediately: `git push -u origin NNN-slug`. First to push the
+   branch wins; a name clash is rejected.
+   *(`scripts/ticket.sh claim NNN` does all of steps 1–3, board row included.)*
 4. **Do the work on the branch.** Commit as you go — your pushed branch shows everyone it is live.
 5. **Open a PR into `main`.** Any same-file conflict with another ticket is resolved at PR review on
    the branch, never directly on `main`. *(`scripts/ticket.sh submit NNN`.)*

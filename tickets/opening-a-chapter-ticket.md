@@ -106,37 +106,39 @@ Alexandra and Anup.
 ### 7. Claim it
 
 ```bash
-git branch -r
 scripts/ticket.sh claim 62
 ```
 
-`git branch -r` confirms no `062-*` exists yet. Then `claim` creates
-`062-postmaterialism-individualism-secularization`, flips the status to `in-progress`, commits, and
-pushes.
+That is the whole claim. It checks that your tree is clean and `main` is in sync, that no `062-*`
+branch exists on `origin`, and that nothing already **In progress** overlaps your `Touches:`; then it
+creates `062-postmaterialism-individualism-secularization`, flips the status to `in-progress`, moves
+the ticket's row from **Open** to **In progress** on the board with the branch name and a UTC
+timestamp, commits, and pushes.
 
-### 8. Finish the claim, on the branch
-
-```bash
-date -u +%Y-%m-%dT%H:%M:%SZ
-code tickets/QUEUE.md
-```
-
-Delete the TICK-062 row from **Open**, add it to **In progress** (six columns, note the extra `Branch`
-one), pasting your timestamp:
+You should see:
 
 ```
-| [TICK-062](TICK-062-postmaterialism-individualism-secularization.md) | D.1.a Postmaterialism, Individualism, and Secularization | Shravan | `062-postmaterialism-individualism-secularization` | PASTE_TIMESTAMP | `literature/search-logs/postmaterialism-individualism-secularization-*`, `extraction/postmaterialism-individualism-secularization-*` |
+  ✓ main synced, tree clean
+  ✓ no 062-* branch on origin
+  ✓ Touches overlap: none
+  ✓ branch 062-postmaterialism-individualism-secularization created
+  ✓ status → in-progress
+  ✓ QUEUE.md: row moved Open → In progress
+      branch  062-postmaterialism-individualism-secularization
+      claimed 2026-08-13T21:04:11Z
+  ✓ pushed — the branch is the claim
 ```
 
-Then:
+A `!` on the overlap line instead of `✓` names the ticket you collide with and the path you collide
+on. It is a warning, not a refusal — overlap is often legitimate — but read it before carrying on.
 
-```bash
-git add tickets/
-git commit -m "TICK-062: claim on the board"
-git push
-```
+If a check fails, nothing has been changed: fix what it names and run the same command again.
 
-### 9. Show the claim is live
+**Do not edit `QUEUE.md` by hand here.** Before TICK-067 this was a separate step 8, and it was the
+step people skipped: TICK-062 through TICK-066 all had live branches while their rows still sat under
+**Open**, which is exactly the collision Mode B exists to prevent.
+
+### 8. Show the claim is live
 
 ```bash
 git branch -r
