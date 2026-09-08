@@ -354,8 +354,10 @@ remains available to the mechanism, not one third. **332's 69% is an upper bound
 SDT decline does predate the inequality turn — every computable country still shows 23–73% — and in
 all ten countries of 332 the pre-trough inequality slope is negative. But the *fraction* is not
 pinned down, and no share number should enter a verdict until the definitive version is run on HFD
-completed cohort fertility. **HFD requires an account: that is a human step, like the B.1 Zotero
-retrieval, and it is the blocker to name in the PI packet.**
+completed cohort fertility. ~~**HFD requires an account: that is a human step, like the B.1 Zotero retrieval, and it is the
+blocker to name in the PI packet.**~~ **RETRACTED 2026-09-08 — see the correction entry below.
+Eurostat `demo_frate` gives single-year ASFR from 1960; cohort fertility is the diagonal sum and
+needs no account. There is no blocker.**
 
 The aggregate BF adjustment is also not the parity-specific form its authors recommend, and `r` is
 smoothed over 5 years. Both are stated in the log.
@@ -366,4 +368,39 @@ smoothed over 5 years. Both are stated in the log.
 3. Timing (332) — **weakened**: directionally intact, magnitude retracted pending HFD.
 
 Next: free-seed harvest and cold-start anchors. The demsig side is as far as it goes without HFD.
+
+### 2026-09-08 — CORRECTION: the HFD blocker recorded above is false
+
+**Retracting the sentence "HFD requires an account: that is a human step, like the B.1 Zotero
+retrieval, and it is the blocker to name in the PI packet."** It is wrong and it must not go to the
+PI. There is no blocker.
+
+**Eurostat `demo_frate` carries single-year age-specific fertility rates for 1960–2024.** Completed
+cohort fertility is the diagonal sum of that table (cohort = year − age), so every cohort whose full
+15–49 span falls inside the window is directly computable — **cohorts born 1945 through 1975**,
+which is exactly the SDT range. That is the same construction HFD performs. HFD is a convenience
+here, not a requirement.
+
+**How the false blocker was produced, because the mechanism matters more than the fact.** I guessed
+four OWID grapher slugs and one HFD download URL, got 404s from all five, and recorded a
+human-in-the-loop blocker. I did not query the Eurostat catalogue, which answers it in one request.
+That is `refusals-read-as-zeros` — a failed search reported as an absence — committed while writing
+explicit `Refused` handling into scripts 328–333 so that the *API* could not do the same thing to me.
+The guard was pointed outward and not at my own search.
+
+**A second error, larger and quieter: cohort fertility does not fit the test I said it would
+settle.** CFR is indexed by birth cohort; `332` asks what share of the *calendar-time* decline
+preceded a *calendar-time* inequality trough. The two do not align without an explicit mapping —
+attributing each cohort to its mean year of childbearing, or re-expressing the exposure in cohort
+terms. Obtaining HFD would not have closed the question; it would have changed it. **Naming a data
+source as "the definitive version" without checking that its index matches the test is the real
+mistake here**, and it is the one worth carrying forward.
+
+**Revised next step**, replacing "get HFD credentials": build completed cohort fertility from
+Eurostat `demo_frate` (script 334) and re-run the timing test with the cohort→calendar mapping stated
+as an assumption rather than buried. This also removes Bongaarts–Feeney from the chain entirely —
+no `r`, no division by `(1-r)`, and none of the blow-ups that made `333` need three guards.
+
+`333`'s substantive result is unaffected: the tempo correction still runs against `332`, and `332`'s
+69% is still an upper bound. Only the claim about what is needed to settle it changes.
 
