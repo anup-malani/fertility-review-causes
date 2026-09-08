@@ -1,5 +1,5 @@
 # TICK-081: C.2.f Inequality and Status Competition in Child Investment
-**Status:** open
+**Status:** in-progress
 **Assigned:** Shravan
 **Hypothesis:** `rising-inequality-and-status-competition` — HYPOTHESES-v5.md §C.2.f
 **Parallel-safe:** yes

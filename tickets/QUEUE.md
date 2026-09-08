@@ -48,7 +48,6 @@ tickets can be worked concurrently.
 
 | Ticket | Title | Assigned | Parallel-safe |
 |--------|-------|----------|---------------|
-| [TICK-081](TICK-081-rising-inequality-and-status-competition.md) | C.2.f Inequality and Status Competition in Child Investment | Shravan | yes |
 | [TICK-048](TICK-048-d3b-fulltext-retrieval.md) | D.3.b full-text retrieval — mirror the B.1 scripts; realized-8 and desire-independence-4 first. **Watch the OA rate: it is what decides whether D.3.b avoids B.1's selection problem** | any | yes (with the full-62 half of 047) |
 | [TICK-039](TICK-039-compulsory-education-chapter-readability.md) | Compulsory-education chapter lay-readability review | Alexandra | no |
 | [TICK-030](TICK-030-replicate-gacs-agricultural-mode-production.md) | Replicate GACS for agricultural mode of production | any | no |
@@ -89,6 +88,7 @@ tickets can be worked concurrently.
 
 | Ticket | Title | Owner | Branch (the claim) | Claimed (UTC) | Touches |
 |--------|-------|-------|--------------------|---------------|---------|
+| [TICK-081](TICK-081-rising-inequality-and-status-competition.md) | C.2.f Inequality and Status Competition in Child Investment | Shravan | `081-rising-inequality-and-status-competition` | 2026-09-08T17:49:24Z | `literature/search-logs/rising-inequality-and-status-competition-*, extraction/rising-inequality-and-status-competition-*, output/chapters/rising-inequality-and-status-competition.md, source/build/goldset/32[89]*, source/build/goldset/33*` |
 | [TICK-080](TICK-080-cross-chapter-statistics-comparability.md) | Cross-chapter statistics — comparability, the demsig routes, and the sign-blind R². **Standing methods ticket, not a hypothesis; items 2, 4 and 5 are retroactive to drafted chapters** | Shravan | `080-cross-chapter-statistics-comparability` | 2026-09-06T17:25:24Z | `PROTOCOL.md`, `decisions/`, `docs/chapter-template.md`, `source/analysis/`, `output/tables/` |
 | [TICK-079](TICK-079-child-cost-direct.md) | C.2.b Rising Direct Costs of Children — smallest remaining frame (587) and the first candidate the fixed coverage check surfaced; the stage-2 ruling that matters is that the estimand is a price faced, not an expenditure observed — chapter drafted 2026-09-03 — SDT MINOR at 13%; stage 11 is one rater of three, stages 13 and 14 open | Shravan | `079-child-cost-direct` | 2026-09-03T16:57:27Z | `literature/search-logs/child-cost-direct-*`, `extraction/child-cost-direct-*`, `output/chapters/child-cost-direct.md` |
 | [TICK-078](TICK-078-easterlin-relative-income.md) | C.6.a Easterlin Relative Income / Cohort Size — chapter drafted 2026-09-02; SDT MINOR, GRADE VERY LOW; three PI calls open | Shravan | `078-easterlin-relative-income` | 2026-09-02T16:07:13Z | `literature/search-logs/easterlin-relative-income-*`, `extraction/easterlin-relative-income-*`, `output/chapters/easterlin-relative-income.md` |
