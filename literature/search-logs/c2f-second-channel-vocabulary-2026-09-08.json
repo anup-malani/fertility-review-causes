@@ -1,0 +1,61 @@
+{
+  "date": "2026-09-08",
+  "script": "338_c2f_second_channel_vocabulary.py",
+  "rows": [
+    {
+      "label": "\u00a74's original full-chain probe, economics-of-inequality vocabulary",
+      "query": "(\"income inequality\" OR \"Gini\" OR \"top income share\") AND (\"parental investment\" OR \"child investment\" OR \"educational spending\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\" OR \"fertility intention\")",
+      "n": 2,
+      "status": "kept"
+    },
+    {
+      "label": "shadow education / private tutoring / cram school \u00d7 fertility",
+      "query": "(\"shadow education\" OR \"private tutoring\" OR \"cram school\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\" OR \"fertility intention\")",
+      "n": 56,
+      "status": "kept"
+    },
+    {
+      "label": "education competition \u00d7 fertility",
+      "query": "(\"education competition\" OR \"educational competition\" OR \"academic competition\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\" OR \"fertility intention\")",
+      "n": 14,
+      "status": "kept"
+    },
+    {
+      "label": "tutoring ban / double reduction \u00d7 fertility (scope \u00a77 row 7)",
+      "query": "(\"private tutoring ban\" OR \"double reduction\" OR \"tutoring policy\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\" OR \"fertility intention\")",
+      "n": 20,
+      "status": "kept"
+    },
+    {
+      "label": "educational burden / education expenditure \u00d7 fertility \u2014 HOMONYM UNCHECKED",
+      "query": "(\"educational burden\" OR \"burden of education\" OR \"education expenditure\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\" OR \"fertility intention\")",
+      "n": 117,
+      "status": "kept"
+    },
+    {
+      "label": "involution (neijuan) \u00d7 fertility \u2014 REFUSED, veterinary/obstetric homonym",
+      "query": "\"involution\" AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\" OR \"fertility intention\")",
+      "n": 398,
+      "status": "refused"
+    },
+    {
+      "label": "involution \u2229 uterine/thymic/mammary/postpartum \u2014 the homonym's size",
+      "query": "\"involution\" AND (\"uterine\" OR \"thymic\" OR \"mammary\" OR \"postpartum\")",
+      "n": 7379,
+      "status": "refused"
+    }
+  ],
+  "sample_titles": [
+    "Family Size and Educational Investments in Children: Evidence from Private Tutoring Expenditures in South Korea*",
+    "Shadow Education and Inequality in Lower Secondary Schooling in Cambodia: Understanding the Dynamics of Private Tutoring Participation and Provision",
+    "Education Competition and Fertility Intention: Evidence from China's Private Tutoring Ban",
+    "THE CONTRIBUTION OF EDUCATION TO SOUTH KOREA'S FERTILITY DECLINE TO \u2018LOWEST-LOW\u2019 LEVEL",
+    "Understanding Ultra-Low Fertility in Hong Kong",
+    "The impact of shadow education expenditures on fertility rates in South Korea",
+    "Household demand for private tutoring in Tunisia",
+    "Expansion of shadow education, status externalities, and fertility intentions",
+    "Status Externalities in Education and Low Birth Rates in Korea",
+    "Three Essays on the Social, Economic, and Demographic Causes and Consequences of Low Fertility"
+  ],
+  "refused": []
+}

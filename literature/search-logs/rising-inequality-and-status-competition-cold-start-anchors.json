@@ -238,312 +238,6 @@
     "title_drift": false
   },
   {
-    "title": "Human status seeking is a Darwinian adaptation",
-    "year": 1993,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.1017/s0140525x00030259",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W1985170751",
-      "doi": "https://doi.org/10.1017/s0140525x00030259",
-      "title": "Human status seeking is a Darwinian adaptation",
-      "year": 1993,
-      "type": "article",
-      "venue": "Behavioral and Brain Sciences",
-      "authors_first": "Daniel P\u00e9russe",
-      "cited_by": 0,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "Do Private Tutoring Expenditures Raise Academic Performance? Evidence from Middle School Students in S outh K orea",
-    "year": 2013,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.1111/asej.12002",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W1589556010",
-      "doi": "https://doi.org/10.1111/asej.12002",
-      "title": "Do Private Tutoring Expenditures Raise Academic Performance? Evidence from Middle School Students in S outh K orea",
-      "year": 2013,
-      "type": "article",
-      "venue": "Asian Economic Journal",
-      "authors_first": "Deockhyun Ryu",
-      "cited_by": 72,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "The Effect of Private Tutoring Expenditures on Academic Performance: Evidence from Middle School Students in South Korea",
-    "year": 2012,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.23895/kdijep.2012.34.2.139",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W2580410384",
-      "doi": "https://doi.org/10.23895/kdijep.2012.34.2.139",
-      "title": "The Effect of Private Tutoring Expenditures on Academic Performance: Evidence from Middle School Students in South Korea",
-      "year": 2012,
-      "type": "article",
-      "venue": "\ud55c\uad6d\uac1c\ubc1c\uc5f0\uad6c",
-      "authors_first": "\uac15\ucc3d\ud76c",
-      "cited_by": 6,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "Popularity Feedback and Adaptation Strategies in Online Dating: A Social Comparison Perspective",
-    "year": 2025,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.25300/misq/2024/17861",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W4410841559",
-      "doi": "https://doi.org/10.25300/misq/2024/17861",
-      "title": "Popularity Feedback and Adaptation Strategies in Online Dating: A Social Comparison Perspective",
-      "year": 2025,
-      "type": "article",
-      "venue": "MIS Quarterly",
-      "authors_first": "Lanfei Shi",
-      "cited_by": 3,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "Sexual selection, conspicuous consumption and economic growth",
-    "year": 2015,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.1007/s10818-015-9200-9",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W3121389463",
-      "doi": "https://doi.org/10.1007/s10818-015-9200-9",
-      "title": "Sexual selection, conspicuous consumption and economic growth",
-      "year": 2015,
-      "type": "article",
-      "venue": "Journal of Bioeconomics",
-      "authors_first": "Jason Collins",
-      "cited_by": 0,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "The Rug Rat Race",
-    "year": 2010,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.1353/eca.2010.0003",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W4229649621",
-      "doi": "https://doi.org/10.1353/eca.2010.0003",
-      "title": "The Rug Rat Race",
-      "year": 2010,
-      "type": "article",
-      "venue": "Brookings Papers on Economic Activity",
-      "authors_first": "Garey Ramey",
-      "cited_by": 191,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "\u201cNot Nearly as Bad\u201d: Social Comparisons and the Debt Experience",
-    "year": 2022,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.1177/23780231221121075",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W4296880287",
-      "doi": "https://doi.org/10.1177/23780231221121075",
-      "title": "\u201cNot Nearly as Bad\u201d: Social Comparisons and the Debt Experience",
-      "year": 2022,
-      "type": "article",
-      "venue": "Socius Sociological Research for a Dynamic World",
-      "authors_first": "Ellen Bryer",
-      "cited_by": 0,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "Postsecondary Education, Neighborhood Disadvantage, and Crime: An Examination of Life Course Relative Deprivation",
-    "year": 2018,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.1177/0011128717753115",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W2784325708",
-      "doi": "https://doi.org/10.1177/0011128717753115",
-      "title": "Postsecondary Education, Neighborhood Disadvantage, and Crime: An Examination of Life Course Relative Deprivation",
-      "year": 2018,
-      "type": "article",
-      "venue": "Crime & Delinquency",
-      "authors_first": "Christopher R. Dennison",
-      "cited_by": 17,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "Conspicuous Consumption: Vehicle Purchases by Non-Prime Consumers",
-    "year": 2021,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.24149/wp2107",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W3166048495",
-      "doi": "https://doi.org/10.24149/wp2107",
-      "title": "Conspicuous Consumption: Vehicle Purchases by Non-Prime Consumers",
-      "year": 2021,
-      "type": "article",
-      "venue": "Federal Reserve Bank of Dallas, Working Papers",
-      "authors_first": "Federal Reserve Bank of Dallas",
-      "cited_by": 1,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
     "title": "Expansion of shadow education, status externalities, and fertility intentions",
     "year": 2025,
     "first_author": "",
@@ -567,346 +261,6 @@
       "venue": "Zhongguo ruankexue",
       "authors_first": "Fei Chen",
       "cited_by": 1,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "Phenotypic Mimicry Distinguishes Cues of Mating Competition From Paternal Investment in Men\u2019s Conspicuous Consumption",
-    "year": 2021,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.1177/01461672211007229",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W3156546079",
-      "doi": "https://doi.org/10.1177/01461672211007229",
-      "title": "Phenotypic Mimicry Distinguishes Cues of Mating Competition From Paternal Investment in Men\u2019s Conspicuous Consumption",
-      "year": 2021,
-      "type": "article",
-      "venue": "Personality and Social Psychology Bulletin",
-      "authors_first": "Daniel J. Kruger",
-      "cited_by": 9,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "Changes in gendered social position and the depression gap over time in the United States",
-    "year": 2019,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.7916/d8-aq41-5094",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W2983174332",
-      "doi": "https://doi.org/10.7916/d8-aq41-5094",
-      "title": "Changes in gendered social position and the depression gap over time in the United States",
-      "year": 2019,
-      "type": "article",
-      "venue": null,
-      "authors_first": "Platt, Jonathan M.",
-      "cited_by": 1,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "The Status Competition Model of Cultural Production",
-    "year": 2018,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.1007/s40806-018-0147-7",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W2791712684",
-      "doi": "https://doi.org/10.1007/s40806-018-0147-7",
-      "title": "The Status Competition Model of Cultural Production",
-      "year": 2018,
-      "type": "article",
-      "venue": "Evolutionary Psychological Science",
-      "authors_first": "Bo Winegard",
-      "cited_by": 24,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "What Do Economically Costly Signals Signal?: a Life History Framework for Interpreting Conspicuous Consumption",
-    "year": 2018,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.1007/s40806-018-0151-y",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W2802669252",
-      "doi": "https://doi.org/10.1007/s40806-018-0151-y",
-      "title": "What Do Economically Costly Signals Signal?: a Life History Framework for Interpreting Conspicuous Consumption",
-      "year": 2018,
-      "type": "article",
-      "venue": "Evolutionary Psychological Science",
-      "authors_first": "Daniel J. Kruger",
-      "cited_by": 16,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "Emotion Expression and Color: Their Joint Influence on Perceived Attractiveness and Social Position",
-    "year": 2014,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.1007/s12144-014-9266-x",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W2082295639",
-      "doi": "https://doi.org/10.1007/s12144-014-9266-x",
-      "title": "Emotion Expression and Color: Their Joint Influence on Perceived Attractiveness and Social Position",
-      "year": 2014,
-      "type": "article",
-      "venue": "Current Psychology",
-      "authors_first": "Vanessa L. B\u00fcechner",
-      "cited_by": 38,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "The effect of conspicuous consumption on men\u2019s testosterone levels",
-    "year": 2009,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.1016/j.obhdp.2009.06.001",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W2122342105",
-      "doi": "https://doi.org/10.1016/j.obhdp.2009.06.001",
-      "title": "The effect of conspicuous consumption on men\u2019s testosterone levels",
-      "year": 2009,
-      "type": "article",
-      "venue": "Organizational Behavior and Human Decision Processes",
-      "authors_first": "Gad Saad",
-      "cited_by": 153,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "Ecological dominance, social competition, and coalitionary arms races",
-    "year": 2005,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.1016/j.evolhumbehav.2004.08.005",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W2054865339",
-      "doi": "https://doi.org/10.1016/j.evolhumbehav.2004.08.005",
-      "title": "Ecological dominance, social competition, and coalitionary arms races",
-      "year": 2005,
-      "type": "article",
-      "venue": "Evolution and Human Behavior",
-      "authors_first": "Mark V. Flinn",
-      "cited_by": 344,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "Keys to a Unified Theory of Warfare and Arms Races",
-    "year": 1989,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.1017/s0730938400004299",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W2586331999",
-      "doi": "https://doi.org/10.1017/s0730938400004299",
-      "title": "Keys to a Unified Theory of Warfare and Arms Races",
-      "year": 1989,
-      "type": "article",
-      "venue": "Politics and the Life Sciences",
-      "authors_first": "R. Paul Shaw",
-      "cited_by": 0,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "The Nuclear Arms Race: An Evolutionary Perspective",
-    "year": 1989,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.1017/s0730938400004263",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W2587337566",
-      "doi": "https://doi.org/10.1017/s0730938400004263",
-      "title": "The Nuclear Arms Race: An Evolutionary Perspective",
-      "year": 1989,
-      "type": "article",
-      "venue": "Politics and the Life Sciences",
-      "authors_first": "Arthur A. Joyce",
-      "cited_by": 5,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "Conspicuous consumption for social parity",
-    "year": 2023,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.35188/unu-wider/2023/386-4",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W4381383768",
-      "doi": "https://doi.org/10.35188/unu-wider/2023/386-4",
-      "title": "Conspicuous consumption for social parity",
-      "year": 2023,
-      "type": "report",
-      "venue": "Working Paper Series",
-      "authors_first": "Chinmayi Srikanth",
-      "cited_by": 6,
       "jaccard": 1.0,
       "stem": false,
       "first_author_ok": null,
@@ -986,210 +340,6 @@
     "title_drift": false
   },
   {
-    "title": "Attitude of Parents Who Have Primary School Children Towards Private Tutoring",
-    "year": 2023,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.15345/iojes.2023.05.005",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W4391107793",
-      "doi": "https://doi.org/10.15345/iojes.2023.05.005",
-      "title": "Attitude of Parents Who Have Primary School Children Towards Private Tutoring",
-      "year": 2023,
-      "type": "article",
-      "venue": "International Online Journal of Educational Sciences",
-      "authors_first": "O\u011fuzhan Kuru",
-      "cited_by": 0,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "The Externalities of Private Tutoring on Students' Academic and Noncognitive Outcomes: Evidence and Mechanisms",
-    "year": 2025,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.2139/ssrn.5738142",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W4417161011",
-      "doi": "https://doi.org/10.2139/ssrn.5738142",
-      "title": "The Externalities of Private Tutoring on Students' Academic and Noncognitive Outcomes: Evidence and Mechanisms",
-      "year": 2025,
-      "type": "preprint",
-      "venue": "SSRN Electronic Journal",
-      "authors_first": "Zhengwei Yan",
-      "cited_by": 0,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "Education investment \u201crat race\u201d in China: how income inequality shapes family investment in shadow education",
-    "year": 2023,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.1007/s12564-023-09852-2",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W4366826602",
-      "doi": "https://doi.org/10.1007/s12564-023-09852-2",
-      "title": "Education investment \u201crat race\u201d in China: how income inequality shapes family investment in shadow education",
-      "year": 2023,
-      "type": "article",
-      "venue": "Asia Pacific Education Review",
-      "authors_first": "Shaoyi Li",
-      "cited_by": 10,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "Wage Dispersion and Private Sector Substitutes for Unpaid Household Work",
-    "year": 2023,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.1007/978-3-031-46098-2_7",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W4389236509",
-      "doi": "https://doi.org/10.1007/978-3-031-46098-2_7",
-      "title": "Wage Dispersion and Private Sector Substitutes for Unpaid Household Work",
-      "year": 2023,
-      "type": "book-chapter",
-      "venue": null,
-      "authors_first": "Daniel Dinale",
-      "cited_by": 0,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "Social Interactions and Competition in Shadow Education",
-    "year": 2020,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.2139/ssrn.3562806",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W3125564084",
-      "doi": "https://doi.org/10.2139/ssrn.3562806",
-      "title": "Competition in household human capital investments: strength, motivations and consequences",
-      "year": 2020,
-      "type": "preprint",
-      "venue": "SSRN Electronic Journal",
-      "authors_first": "Juncong Guo",
-      "cited_by": 0,
-      "jaccard": 0.214,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": true
-  },
-  {
-    "title": "Keeping up with the Joneses: Consumption Externalities, Portfolio Choice, and Asset Prices",
-    "year": 1994,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.2307/2078030",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W2050095948",
-      "doi": "https://doi.org/10.2307/2078030",
-      "title": "Keeping up with the Joneses: Consumption Externalities, Portfolio Choice, and Asset Prices",
-      "year": 1994,
-      "type": "article",
-      "venue": "Journal of money credit and banking",
-      "authors_first": "Jordi Ga\u013a\u0131",
-      "cited_by": 655,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
     "title": "Ageing and social rank effects on the reproductive system of free-ranging yellow baboons (Papio cynocephalus) at Mikumi National Park, Tanzania",
     "year": 1998,
     "first_author": "",
@@ -1213,40 +363,6 @@
       "venue": "Human Reproduction Update",
       "authors_first": "Solomon P. Wasser",
       "cited_by": 51,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "The role of female investment in a sexual arms race",
-    "year": 2020,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.1111/jav.02322",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W3012373887",
-      "doi": "https://doi.org/10.1111/jav.02322",
-      "title": "The role of female investment in a sexual arms race",
-      "year": 2020,
-      "type": "article",
-      "venue": "Journal of Avian Biology",
-      "authors_first": "Bernd Leisler",
-      "cited_by": 2,
       "jaccard": 1.0,
       "stem": false,
       "first_author_ok": null,
@@ -1326,618 +442,6 @@
     "title_drift": false
   },
   {
-    "title": "Is There any Long-term Effect of Private Tutoring?: Analysis Using the Korean Education & Employment Panel",
-    "year": 2016,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.36907/krivet.2016.19.3.57",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W2810553571",
-      "doi": "https://doi.org/10.36907/krivet.2016.19.3.57",
-      "title": "Is There any Long-term Effect of Private Tutoring?: Analysis Using the Korean Education & Employment Panel",
-      "year": 2016,
-      "type": "article",
-      "venue": "Journal of Vocational Education & Training",
-      "authors_first": "\uc774\uc7ac\uc131",
-      "cited_by": 1,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "The effect of experience and environment in private tutoring on human capital investment",
-    "year": 2024,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.1111/asej.12340",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W4404512154",
-      "doi": "https://doi.org/10.1111/asej.12340",
-      "title": "The effect of experience and environment in private tutoring on human capital investment",
-      "year": 2024,
-      "type": "article",
-      "venue": "Asian Economic Journal",
-      "authors_first": "Jaeram Lee",
-      "cited_by": 1,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "Generation Validation: The Role of Social Comparison in Use of Instagram Among Emerging Adults",
-    "year": 2017,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.1089/cyber.2016.0444",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W2592507752",
-      "doi": "https://doi.org/10.1089/cyber.2016.0444",
-      "title": "Generation Validation: The Role of Social Comparison in Use of Instagram Among Emerging Adults",
-      "year": 2017,
-      "type": "article",
-      "venue": "Cyberpsychology Behavior and Social Networking",
-      "authors_first": "Peta Stapleton",
-      "cited_by": 168,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "Choice and chance relative deprivation as determinants of cognitive dissonance.",
-    "year": 1959,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.1037/h0044993",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W2048791745",
-      "doi": "https://doi.org/10.1037/h0044993",
-      "title": "Choice and chance relative deprivation as determinants of cognitive dissonance.",
-      "year": 1959,
-      "type": "article",
-      "venue": "Journal of Abnormal & Social Psychology",
-      "authors_first": "Jack W. Brehm",
-      "cited_by": 38,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "Social position and referral to rehabilitation among cancer patients",
-    "year": 2015,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.3109/0284186x.2014.997836",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W2164658587",
-      "doi": "https://doi.org/10.3109/0284186x.2014.997836",
-      "title": "Social position and referral to rehabilitation among cancer patients",
-      "year": 2015,
-      "type": "article",
-      "venue": "Acta Oncologica",
-      "authors_first": "Ida Rask Moustsen\u2010Helms",
-      "cited_by": 43,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "Home ownership as status competition: Some theory and evidence",
-    "year": 2016,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.1016/j.jdeveco.2016.12.001",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W2561285590",
-      "doi": "https://doi.org/10.1016/j.jdeveco.2016.12.001",
-      "title": "Home ownership as status competition: Some theory and evidence",
-      "year": 2016,
-      "type": "article",
-      "venue": "Journal of Development Economics",
-      "authors_first": "Shang\u2010Jin Wei",
-      "cited_by": 162,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "What scale matters? exploring the relationships between individuals' social position, neighbourhood context and the scale of neighbourhood",
-    "year": 2010,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.1111/j.1468-0467.2010.00331.x",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W1963761136",
-      "doi": "https://doi.org/10.1111/j.1468-0467.2010.00331.x",
-      "title": "What scale matters? exploring the relationships between individuals' social position, neighbourhood context and the scale of neighbourhood",
-      "year": 2010,
-      "type": "article",
-      "venue": "Geografiska Annaler Series B Human Geography",
-      "authors_first": "Roger Andersson",
-      "cited_by": 91,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "Social construction of house size expectations: testing the positional good theory and aspiration spiral theory using UK and German panel data",
-    "year": 2020,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.1080/02673037.2020.1795086",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W3043882863",
-      "doi": "https://doi.org/10.1080/02673037.2020.1795086",
-      "title": "Social construction of house size expectations: testing the positional good theory and aspiration spiral theory using UK and German panel data",
-      "year": 2020,
-      "type": "article",
-      "venue": "Housing Studies",
-      "authors_first": "Chris Foye",
-      "cited_by": 7,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "Private Tutoring and Academic Performance of Elementary, Middle, and High School Students: A Decision Tree Algorithm",
-    "year": 2023,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.9728/dcs.2023.24.4.847",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W4376503151",
-      "doi": "https://doi.org/10.9728/dcs.2023.24.4.847",
-      "title": "Private Tutoring and Academic Performance of Elementary, Middle, and High School Students: A Decision Tree Algorithm",
-      "year": 2023,
-      "type": "article",
-      "venue": "Journal of Digital Contents Society",
-      "authors_first": "Keunho Choi",
-      "cited_by": 1,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "Intergenerational wealth transfer and family investment in shadow education: Empirical evidence from housing in China",
-    "year": 2023,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.21203/rs.3.rs-3406414/v1",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W4387499017",
-      "doi": "https://doi.org/10.21203/rs.3.rs-3406414/v1",
-      "title": "Intergenerational wealth transfer and family investment in shadow education: Empirical evidence from housing in China",
-      "year": 2023,
-      "type": "preprint",
-      "venue": "Research Square",
-      "authors_first": "XuanHan Cao",
-      "cited_by": 0,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "\u201cThere She Is, Your Ideal\u201d Negative Social Comparisons and Health Behaviors",
-    "year": 2023,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.3386/w31156",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W4366814735",
-      "doi": "https://doi.org/10.3386/w31156",
-      "title": "\u201cThere She Is, Your Ideal\u201d Negative Social Comparisons and Health Behaviors",
-      "year": 2023,
-      "type": "report",
-      "venue": "National Bureau of Economic Research",
-      "authors_first": "Christopher Carpenter",
-      "cited_by": 1,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "Perceptions of relative deprivation and women\u2019s empowerment",
-    "year": 2020,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.1016/j.worlddev.2020.105218",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W3100314925",
-      "doi": "https://doi.org/10.1016/j.worlddev.2020.105218",
-      "title": "Perceptions of relative deprivation and women\u2019s empowerment",
-      "year": 2020,
-      "type": "article",
-      "venue": "World Development",
-      "authors_first": "Katrina Kosec",
-      "cited_by": 40,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "Is shadow education a myth? How schools affect private tutoring in China",
-    "year": 2024,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.1080/21620555.2024.2321122",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W4392295339",
-      "doi": "https://doi.org/10.1080/21620555.2024.2321122",
-      "title": "Is shadow education a myth? How schools affect private tutoring in China",
-      "year": 2024,
-      "type": "article",
-      "venue": "Chinese Sociological Review",
-      "authors_first": "Zhidi Pan",
-      "cited_by": 4,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "Varieties of the rat race: working hours in the age of abundance",
-    "year": 2023,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.1093/ser/mwac067",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W4313706997",
-      "doi": "https://doi.org/10.1093/ser/mwac067",
-      "title": "Varieties of the rat race: working hours in the age of abundance",
-      "year": 2023,
-      "type": "article",
-      "venue": "Socio-Economic Review",
-      "authors_first": "Jan Behringer",
-      "cited_by": 5,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "Family Background, Private Tutoring, and Children's Educational Performance in Contemporary China",
-    "year": 2015,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.1080/21620555.2015.1096193",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W2256736689",
-      "doi": "https://doi.org/10.1080/21620555.2015.1096193",
-      "title": "Family Background, Private Tutoring, and Children's Educational Performance in Contemporary China",
-      "year": 2015,
-      "type": "article",
-      "venue": "Chinese Sociological Review",
-      "authors_first": "Yueyun Zhang",
-      "cited_by": 94,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "Globalization and top income shares",
-    "year": 2020,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.1016/j.jinteco.2020.103312",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W3121748952",
-      "doi": "https://doi.org/10.1016/j.jinteco.2020.103312",
-      "title": "Globalization and top income shares",
-      "year": 2020,
-      "type": "article",
-      "venue": "Journal of International Economics",
-      "authors_first": "Lin Ma",
-      "cited_by": 47,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "Productivity dispersion, wage dispersion and superstar firms",
-    "year": 2023,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.1111/ecca.12490",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W4384823080",
-      "doi": "https://doi.org/10.1111/ecca.12490",
-      "title": "Productivity dispersion, wage dispersion and superstar firms",
-      "year": 2023,
-      "type": "article",
-      "venue": "Economica",
-      "authors_first": "Yannick Bormans",
-      "cited_by": 8,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "Income Concentration, Financial Liberalization, and Decoupling Between the United States and China",
-    "year": 2012,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.2753/jei0021-3624460219",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W1984794647",
-      "doi": "https://doi.org/10.2753/jei0021-3624460219",
-      "title": "Income Concentration, Financial Liberalization, and Decoupling Between the United States and China",
-      "year": 2012,
-      "type": "article",
-      "venue": "Journal of Economic Issues",
-      "authors_first": "Carlos Aguiar de Medeiros",
-      "cited_by": 3,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
     "title": "The dynamics of asymmetry among fertility, income inequality and financial development in Bangladesh",
     "year": 2022,
     "first_author": "",
@@ -2006,108 +510,6 @@
     "title_drift": false
   },
   {
-    "title": "Income inequality and educational expenditures on children: Evidence from the China Family Panel Studies",
-    "year": 2023,
-    "first_author": "",
-    "source": "control",
-    "arm": "inequality-general",
-    "doi": "10.1016/j.chieco.2023.101932",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W4319441420",
-      "doi": "https://doi.org/10.1016/j.chieco.2023.101932",
-      "title": "Income inequality and educational expenditures on children: Evidence from the China Family Panel Studies",
-      "year": 2023,
-      "type": "article",
-      "venue": "China Economic Review",
-      "authors_first": "Yuanyuan Chen",
-      "cited_by": 51,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "College student loan debt and income inequality in the US: national and regional evidence",
-    "year": 2022,
-    "first_author": "",
-    "source": "control",
-    "arm": "inequality-general",
-    "doi": "10.1108/jes-05-2022-0287",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W4306407518",
-      "doi": "https://doi.org/10.1108/jes-05-2022-0287",
-      "title": "College student loan debt and income inequality in the US: national and regional evidence",
-      "year": 2022,
-      "type": "article",
-      "venue": "Journal of Economic Studies",
-      "authors_first": "Nicholas Apergis",
-      "cited_by": 0,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "STASIS AMID CHANGE INCOME INEQUALITY IN CANADA 1965\u20101983",
-    "year": 1986,
-    "first_author": "",
-    "source": "control",
-    "arm": "inequality-general",
-    "doi": "10.1111/j.1475-4991.1986.tb00545.x",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W2040842119",
-      "doi": "https://doi.org/10.1111/j.1475-4991.1986.tb00545.x",
-      "title": "STASIS AMID CHANGE INCOME INEQUALITY IN CANADA 1965\u20101983",
-      "year": 1986,
-      "type": "article",
-      "venue": "Review of Income and Wealth",
-      "authors_first": "Michael Wolfson",
-      "cited_by": 64,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
     "title": "An International Study on the Relationship between Fertility Rate and Income Inequality under the Constraint of Intergenerational Mobility",
     "year": 2017,
     "first_author": "",
@@ -2142,40 +544,6 @@
     "title_drift": false
   },
   {
-    "title": "Inequality of Opportunity, Income Inequality, and Economic Mobility: Some International Comparisons",
-    "year": 2013,
-    "first_author": "",
-    "source": "control",
-    "arm": "inequality-general",
-    "doi": "10.1057/9781137333117_5",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W3175439833",
-      "doi": "https://doi.org/10.1057/9781137333117_5",
-      "title": "Inequality of Opportunity, Income Inequality, and Economic Mobility: Some International Comparisons",
-      "year": 2013,
-      "type": "book-chapter",
-      "venue": "Palgrave Macmillan US eBooks",
-      "authors_first": "Paolo Brunori",
-      "cited_by": 73,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
     "title": "Income Inequality and Reproductive Competition: Implications for Consumption, Status-Seeking, and Women\u2019s Self-Sexualization",
     "year": 2019,
     "first_author": "",
@@ -2199,6 +567,346 @@
       "venue": null,
       "authors_first": "Khandis R. Blake",
       "cited_by": 12,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Ecological Analysis of Teen Birth Rates: Association with Community Income and Income Inequality",
+    "year": 2001,
+    "first_author": "",
+    "source": "control",
+    "arm": "inequality-general",
+    "doi": "10.1023/a:1011343817153",
+    "outcome_is_fertility": true,
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W1598091654",
+      "doi": "https://doi.org/10.1023/a:1011343817153",
+      "title": "Ecological Analysis of Teen Birth Rates: Association with Community Income and Income Inequality",
+      "year": 2001,
+      "type": "article",
+      "venue": "Maternal and Child Health Journal",
+      "authors_first": "Rachel Gold",
+      "cited_by": 67,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Income Inequality and Early Non-Marital Childbearing: An Economic Exploration of the \"Culture of Despair\"",
+    "year": 2011,
+    "first_author": "",
+    "source": "control",
+    "arm": "inequality-general",
+    "doi": "10.3386/w17157",
+    "outcome_is_fertility": true,
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W1603127176",
+      "doi": "https://doi.org/10.3386/w17157",
+      "title": "Income Inequality and Early Non-Marital Childbearing: An Economic Exploration of the \"Culture of Despair\"",
+      "year": 2011,
+      "type": "report",
+      "venue": "National Bureau of Economic Research",
+      "authors_first": "Melissa S. Kearney",
+      "cited_by": 29,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Widening income inequality and the decline in fertility intentions: Micro evidence from Chinese households",
+    "year": 2025,
+    "first_author": "",
+    "source": "control",
+    "arm": "inequality-general",
+    "doi": "10.1016/j.iref.2025.104723",
+    "outcome_is_fertility": true,
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4415885281",
+      "doi": "https://doi.org/10.1016/j.iref.2025.104723",
+      "title": "Widening income inequality and the decline in fertility intentions: Micro evidence from Chinese households",
+      "year": 2025,
+      "type": "article",
+      "venue": "International Review of Economics & Finance",
+      "authors_first": "Shaobo Lin",
+      "cited_by": 1,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Global Trends in Adolescent Fertility, 1990\u20132012, in Relation to National Wealth, Income Inequalities, and Educational Expenditures",
+    "year": 2016,
+    "first_author": "",
+    "source": "control",
+    "arm": "inequality-general",
+    "doi": "10.1016/j.jadohealth.2016.08.026",
+    "outcome_is_fertility": true,
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2553545459",
+      "doi": "https://doi.org/10.1016/j.jadohealth.2016.08.026",
+      "title": "Global Trends in Adolescent Fertility, 1990\u20132012, in Relation to National Wealth, Income Inequalities, and Educational Expenditures",
+      "year": 2016,
+      "type": "article",
+      "venue": "Journal of Adolescent Health",
+      "authors_first": "John Santelli",
+      "cited_by": 78,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Income Inequality, Fertility, Human Capital Accumulation and Economic Growth in Mexico",
+    "year": 2015,
+    "first_author": "",
+    "source": "control",
+    "arm": "inequality-general",
+    "doi": "10.5430/rwe.v6n1p172",
+    "outcome_is_fertility": true,
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2001774082",
+      "doi": "https://doi.org/10.5430/rwe.v6n1p172",
+      "title": "Income Inequality, Fertility, Human Capital Accumulation and Economic Growth in Mexico",
+      "year": 2015,
+      "type": "article",
+      "venue": "Research in World Economy",
+      "authors_first": "Jorge A. Charles-Coll",
+      "cited_by": 1,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Income Inequality and Fertility Behavior: An Empirical Study on China",
+    "year": 2024,
+    "first_author": "",
+    "source": "control",
+    "arm": "inequality-general",
+    "doi": "10.20965/jaciii.2024.p0816",
+    "outcome_is_fertility": true,
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4400820169",
+      "doi": "https://doi.org/10.20965/jaciii.2024.p0816",
+      "title": "Income Inequality and Fertility Behavior: An Empirical Study on China",
+      "year": 2024,
+      "type": "article",
+      "venue": "Journal of Advanced Computational Intelligence and Intelligent Informatics",
+      "authors_first": "Weicong Wu",
+      "cited_by": 7,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Income Inequality and Early Nonmarital Childbearing",
+    "year": 2014,
+    "first_author": "",
+    "source": "control",
+    "arm": "inequality-general",
+    "doi": "10.1353/jhr.2014.0001",
+    "outcome_is_fertility": true,
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2042907129",
+      "doi": "https://doi.org/10.1353/jhr.2014.0001",
+      "title": "Income Inequality and Early Nonmarital Childbearing",
+      "year": 2014,
+      "type": "article",
+      "venue": "The Journal of Human Resources",
+      "authors_first": "Melissa S. Kearney",
+      "cited_by": 99,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Maternal Social Support and Neighborhood Income Inequality as Predictors of Low Birth Weight and Preterm Birth Outcome Disparities: Analysis of South Carolina Pregnancy Risk Assessment and Monitoring System Survey, 2000\u20132003",
+    "year": 2009,
+    "first_author": "",
+    "source": "control",
+    "arm": "inequality-general",
+    "doi": "10.1007/s10995-009-0508-8",
+    "outcome_is_fertility": true,
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2077549678",
+      "doi": "https://doi.org/10.1007/s10995-009-0508-8",
+      "title": "Maternal Social Support and Neighborhood Income Inequality as Predictors of Low Birth Weight and Preterm Birth Outcome Disparities: Analysis of South Carolina Pregnancy Risk Assessment and Monitoring System Survey, 2000\u20132003",
+      "year": 2009,
+      "type": "article",
+      "venue": "Maternal and Child Health Journal",
+      "authors_first": "Stephen Nkansah\u2010Amankra",
+      "cited_by": 128,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Nonmarital First Births, Marriage, and Income Inequality",
+    "year": 2016,
+    "first_author": "",
+    "source": "control",
+    "arm": "inequality-general",
+    "doi": "10.1177/0003122416653112",
+    "outcome_is_fertility": true,
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2465963169",
+      "doi": "https://doi.org/10.1177/0003122416653112",
+      "title": "Nonmarital First Births, Marriage, and Income Inequality",
+      "year": 2016,
+      "type": "article",
+      "venue": "American Sociological Review",
+      "authors_first": "Andrew J. Cherlin",
+      "cited_by": 80,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Income inequality is associated with adolescent fertility in Brazil: a longitudinal multilevel analysis of 5,565 municipalities",
+    "year": 2015,
+    "first_author": "",
+    "source": "control",
+    "arm": "inequality-general",
+    "doi": "10.1186/s12889-015-1369-2",
+    "outcome_is_fertility": true,
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2062148673",
+      "doi": "https://doi.org/10.1186/s12889-015-1369-2",
+      "title": "Income inequality is associated with adolescent fertility in Brazil: a longitudinal multilevel analysis of 5,565 municipalities",
+      "year": 2015,
+      "type": "article",
+      "venue": "BMC Public Health",
+      "authors_first": "Alexandre DP Chiavegatto Filho",
+      "cited_by": 45,
       "jaccard": 1.0,
       "stem": false,
       "first_author_ok": null,

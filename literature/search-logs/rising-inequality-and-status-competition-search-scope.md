@@ -127,11 +127,58 @@ varies dispersion (or an explicitly positional feature of the allocation), holds
 measures it separately, and estimates a **fertility** response. §7 enumerates where such variation
 could come from.
 
-**Expect an empty or near-empty primary cell.** That is a legitimate result and the chapter is
-planned as the rigorous establishment of it, not as a pooling exercise: `empty-cell-is-the-result`
-says say **UNEVALUATED**, not "weak", because GRADE has no band for an empty cell and VERY LOW reads
-as a poorly identified literature rather than an absent one. The same shape as B.7 (link 2 of three
-had one record) and A.24 (primary cell measured empty).
+**~~Expect an empty or near-empty primary cell.~~ RETRACTED 2026-09-08 — see §4A below.**
+
+---
+
+## 4A. AMENDMENT 2026-09-08 — §4's empty join was a vocabulary artefact
+
+Script `338`, log `c2f-second-channel-vocabulary-2026-09-08.md`. **§4's conclusion is withdrawn.**
+
+The full chain is not missing from the literature; it is missing from the vocabulary §4 probed it
+with. The chain is written in the **East Asian education-competition** language, not the
+economics-of-inequality language:
+
+| probe | n |
+|---|---|
+| §4's original full-chain probe (economics-of-inequality vocabulary) | **2** |
+| shadow education / private tutoring / cram school × fertility | **56** |
+| education competition × fertility | **14** |
+| tutoring ban / "double reduction" × fertility | **20** |
+| educational burden / education expenditure × fertility — *homonym unchecked* | 117 |
+
+Sample of what was being missed: *The impact of shadow education expenditures on fertility rates in
+South Korea*; *Education Competition and Fertility Intention: Evidence from China's Private Tutoring
+Ban*; *Expansion of shadow education, status externalities, and fertility intentions*; *The
+contribution of education to South Korea's fertility decline to lowest-low level*; *Understanding
+ultra-low fertility in Hong Kong*.
+
+**How it was caught, because the route matters.** The production-query calibration (`337`) put 13
+control anchors in the `mechanism` arm and recalled 2. The recall mechanism was tested against those
+controls and found working — the outcome axis alone returns each of them — so the controls genuinely
+lacked the arm's vocabulary. Reading them was the fix: they were never status-competition records.
+This is `empty-cell-needs-second-channel` (C.3.g's "no natural experiment exists" was two missing
+words) and `policy-literatures-indexed-in-local-vocabulary` (worth +40% of A.23's frame).
+
+**It lands §7 row 7**, pre-registered as one of only two places where the positional mechanism
+separates from the return. China's 2021 "double reduction" tutoring ban is a policy shock to required
+investment per child with fertility outcomes attached, and Korea's 1980 ban and its lifting are the
+same design in an earlier period.
+
+**One term is refused and the refusal is recorded.** `"involution"` (Chinese *neijuan*, the popular
+name for the competition) returns 398 records against the fertility axis and they are the veterinary
+and obstetric homonym — uterine involution in dairy cattle, thymic involution in pregnancy; 7,379
+records intersect that vocabulary. `homonym-shares-outcome-vocabulary`: the homonym lives inside the
+outcome literature itself.
+
+**What this changes.** The working expectation of an empty primary cell and an UNEVALUATED SDT
+verdict is withdrawn. §7 rows 6 and 7 remain the rows to hunt, and row 7 now has a measured
+literature and a named policy shock. The production query needs a **sixth arm** in this vocabulary
+before any screen universe is built, and the `mechanism` arm's 13 controls must be re-assigned to it.
+
+**What it does not change.** The exposure-side findings stand: `"income inequality"` still carries
+89% of the frame (§3), the sign still fails in 8 of 21 countries (`331`), and the timing result is
+still directionally intact with its magnitude retracted (`332`, `333`).
 
 ---
 

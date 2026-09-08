@@ -454,3 +454,61 @@ fertility**. That is the chapter's central problem stated in its own seminal lit
 
 Next: production query on the revised axis (337).
 
+### 2026-09-08 — production query (337), and §4's central finding is RETRACTED
+
+**The headline first: the full chain is not empty. Scope §4 is withdrawn and amended as §4A.**
+
+`338` + log. §4 probed the conjunction in economics-of-inequality vocabulary and got **2** records.
+The same chain in the East Asian education-competition vocabulary returns **56** (shadow education /
+private tutoring / cram school × fertility), **14** (education competition × fertility) and **20**
+(tutoring ban / "double reduction" × fertility). Titles include *The impact of shadow education
+expenditures on fertility rates in South Korea*, *Education Competition and Fertility Intention:
+Evidence from China's Private Tutoring Ban*, and *Expansion of shadow education, status
+externalities, and fertility intentions*.
+
+**This lands scope §7 row 7**, which was pre-registered as one of only two places where the
+positional mechanism separates from the return. China's 2021 tutoring ban is a policy shock to
+required investment per child with fertility outcomes attached.
+
+`"involution"` (*neijuan*) is REFUSED and the refusal recorded: 398 records against the fertility
+axis, all the veterinary/obstetric homonym — uterine involution in dairy cattle, thymic involution in
+pregnancy, 7,379 records in that vocabulary.
+
+**How it surfaced, via two of my own errors.**
+
+1. **The first control list was not a control list.** It required only "carries an exposure term and
+   has a DOI", which admitted *The Nuclear Arms Race: An Evolutionary Perspective* and *Conspicuous
+   Consumption: Vehicle Purchases by Non-Profits*. The mechanism arm read **2/57** — a number that
+   measured my list, not the query. Controls now require an exposure term AND a fertility outcome;
+   the interpretable figure is **2/13**.
+2. **Then 2/13 was itself the finding.** I tested the recall mechanism against those 13 controls
+   before blaming the query: the outcome axis alone returns each of them, so recall measurement was
+   sound and the controls genuinely lacked the arm's vocabulary. Reading them showed they were never
+   status-competition records — they are the shadow-education cloud. A calibration failure was the
+   route to the substantive result.
+
+**Calibration state, and it is NOT ready for a screen universe.**
+
+| arm | recall | frame |
+|---|---|---|
+| `dispersion` | 13/16 | 851 |
+| `mechanism` | 2/13 | 92 |
+| `link1-investment` | 0/5 | 47 |
+| `positional-canon` | 0/3 | 5 |
+| `c3d-boundary` (not screened) | 0/1 | 683 |
+| **union primary** | **5/15 (33%)** | **982** |
+
+33% is far below the ~90% floors C.2.b and C.6.a calibrated to. Two structural reasons, both real:
+the `mechanism` arm's controls belong in a sixth arm that does not yet exist (§4A), and the
+`positional-canon` monographs are **not retrievable by vocabulary at all** — *The Theory of the
+Leisure Class* contains neither "positional good" nor an investment term, so those anchors have to
+come through the citation channel rather than a query.
+
+**Also fixed:** the generated report carried C.6.a's script name, a hardcoded 2026-09-03 date and
+C.2.b's arm prose describing fee-abolition and time-cost arms this chapter does not have. The port
+copied the code and not the report text.
+
+Next, in order: (1) sixth arm in the education-competition vocabulary and re-assign the 13 mechanism
+controls to it; (2) homonym-check `"educational burden"` (117, unchecked); (3) re-calibrate to a
+stated recall floor; (4) only then build the screen universe.
+

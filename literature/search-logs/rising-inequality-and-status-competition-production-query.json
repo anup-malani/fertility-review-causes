@@ -1,0 +1,812 @@
+{
+  "cost_ceiling": 400,
+  "arms": [
+    {
+      "name": "dispersion",
+      "targets": [
+        "inequality-general",
+        "fertility"
+      ],
+      "exposure_axis": [
+        "\"income inequality\"",
+        "\"Gini\""
+      ],
+      "outcome_axis": [
+        "\"fertility\"",
+        "\"childbearing\"",
+        "\"birth rate\"",
+        "\"total fertility rate\"",
+        "\"family size\"",
+        "\"number of children\"",
+        "\"first birth\""
+      ],
+      "query": "(\"income inequality\" OR \"Gini\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\" OR \"first birth\")",
+      "frame": 851,
+      "arm_recall": 13,
+      "arm_n": 16,
+      "steps": [
+        {
+          "label": "baseline",
+          "frame": 845,
+          "arm_recall": 12
+        },
+        {
+          "term": "\"top income share\"",
+          "frame": 845,
+          "arm_recall": 12,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"income concentration\"",
+          "frame": 849,
+          "arm_recall": 12,
+          "gain": 0,
+          "cost": 4,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"wage dispersion\"",
+          "frame": 850,
+          "arm_recall": 12,
+          "gain": 0,
+          "cost": 5,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"earnings inequality\"",
+          "frame": 868,
+          "arm_recall": 12,
+          "gain": 0,
+          "cost": 23,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"income dispersion\"",
+          "frame": 848,
+          "arm_recall": 12,
+          "gain": 0,
+          "cost": 3,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"income distribution\"",
+          "frame": 1232,
+          "arm_recall": 12,
+          "gain": 0,
+          "cost": 387,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"90/10 ratio\"",
+          "frame": 847,
+          "arm_recall": 12,
+          "gain": 0,
+          "cost": 2,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"top 1 percent\"",
+          "frame": 847,
+          "arm_recall": 12,
+          "gain": 0,
+          "cost": 2,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"completed fertility\"",
+          "frame": 845,
+          "arm_recall": 12,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"desired family size\"",
+          "frame": 845,
+          "arm_recall": 12,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"fertility intentions\"",
+          "frame": 845,
+          "arm_recall": 12,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"first birth\"",
+          "frame": 851,
+          "arm_recall": 13,
+          "gain": 1,
+          "cost": 6,
+          "price": 6.0,
+          "accepted": true
+        }
+      ],
+      "leave_one_out": [
+        {
+          "term": "\"income inequality\"",
+          "arm_recall_without": 4,
+          "uniquely_carries": 9,
+          "frame_without": 289,
+          "unique_records": 562,
+          "suspect_homonym": false
+        },
+        {
+          "term": "\"Gini\"",
+          "arm_recall_without": 13,
+          "uniquely_carries": 0,
+          "frame_without": 641,
+          "unique_records": 210,
+          "suspect_homonym": true
+        }
+      ]
+    },
+    {
+      "name": "mechanism",
+      "targets": [
+        "mechanism"
+      ],
+      "exposure_axis": [
+        "\"status competition\"",
+        "\"relative status\"",
+        "\"relative deprivation\""
+      ],
+      "outcome_axis": [
+        "\"fertility\"",
+        "\"childbearing\"",
+        "\"birth rate\"",
+        "\"total fertility rate\"",
+        "\"family size\"",
+        "\"number of children\""
+      ],
+      "query": "(\"status competition\" OR \"relative status\" OR \"relative deprivation\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "frame": 92,
+      "arm_recall": 2,
+      "arm_n": 13,
+      "steps": [
+        {
+          "label": "baseline",
+          "frame": 57,
+          "arm_recall": 1
+        },
+        {
+          "term": "\"positional good\"",
+          "frame": 57,
+          "arm_recall": 1,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"positional externality\"",
+          "frame": 58,
+          "arm_recall": 1,
+          "gain": 0,
+          "cost": 1,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"social comparison\"",
+          "frame": 81,
+          "arm_recall": 1,
+          "gain": 0,
+          "cost": 24,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"conspicuous consumption\"",
+          "frame": 81,
+          "arm_recall": 1,
+          "gain": 0,
+          "cost": 24,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"relative deprivation\"",
+          "frame": 92,
+          "arm_recall": 2,
+          "gain": 1,
+          "cost": 35,
+          "price": 35.0,
+          "accepted": true
+        },
+        {
+          "term": "\"status anxiety\"",
+          "frame": 100,
+          "arm_recall": 2,
+          "gain": 0,
+          "cost": 8,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"positional competition\"",
+          "frame": 94,
+          "arm_recall": 2,
+          "gain": 0,
+          "cost": 2,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"reproductive competition\"",
+          "frame": 122,
+          "arm_recall": 2,
+          "gain": 0,
+          "cost": 30,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"desired family size\"",
+          "frame": 92,
+          "arm_recall": 2,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"fertility intentions\"",
+          "frame": 92,
+          "arm_recall": 2,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        }
+      ],
+      "leave_one_out": [
+        {
+          "term": "\"status competition\"",
+          "arm_recall_without": 1,
+          "uniquely_carries": 1,
+          "frame_without": 79,
+          "unique_records": 13,
+          "suspect_homonym": false
+        },
+        {
+          "term": "\"relative status\"",
+          "arm_recall_without": 2,
+          "uniquely_carries": 0,
+          "frame_without": 48,
+          "unique_records": 44,
+          "suspect_homonym": false
+        },
+        {
+          "term": "\"relative deprivation\"",
+          "arm_recall_without": 1,
+          "uniquely_carries": 1,
+          "frame_without": 57,
+          "unique_records": 35,
+          "suspect_homonym": false
+        }
+      ]
+    },
+    {
+      "name": "link1-investment",
+      "targets": [
+        "link1-investment"
+      ],
+      "exposure_axis": [
+        "\"shadow education\"",
+        "\"private tutoring\""
+      ],
+      "outcome_axis": [
+        "\"parental investment\"",
+        "\"child investment\"",
+        "\"investment in children\"",
+        "\"educational spending\"",
+        "\"parental spending\"",
+        "\"educational investment\""
+      ],
+      "query": "(\"shadow education\" OR \"private tutoring\") AND (\"parental investment\" OR \"child investment\" OR \"investment in children\" OR \"educational spending\" OR \"parental spending\" OR \"educational investment\")",
+      "frame": 47,
+      "arm_recall": 0,
+      "arm_n": 5,
+      "steps": [
+        {
+          "label": "baseline",
+          "frame": 47,
+          "arm_recall": 0
+        },
+        {
+          "term": "\"cram school\"",
+          "frame": 50,
+          "arm_recall": 0,
+          "gain": 0,
+          "cost": 3,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"credential inflation\"",
+          "frame": 49,
+          "arm_recall": 0,
+          "gain": 0,
+          "cost": 2,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"educational arms race\"",
+          "frame": 47,
+          "arm_recall": 0,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"enrichment activities\"",
+          "frame": 56,
+          "arm_recall": 0,
+          "gain": 0,
+          "cost": 9,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"extracurricular\"",
+          "frame": 84,
+          "arm_recall": 0,
+          "gain": 0,
+          "cost": 37,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"supplementary education\"",
+          "frame": 53,
+          "arm_recall": 0,
+          "gain": 0,
+          "cost": 6,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"double reduction\"",
+          "frame": 52,
+          "arm_recall": 0,
+          "gain": 0,
+          "cost": 5,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"educational expenditure\"",
+          "frame": 57,
+          "arm_recall": 0,
+          "gain": 0,
+          "cost": 10,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"human capital investment\"",
+          "frame": 51,
+          "arm_recall": 0,
+          "gain": 0,
+          "cost": 4,
+          "price": null,
+          "accepted": false
+        }
+      ],
+      "leave_one_out": [
+        {
+          "term": "\"shadow education\"",
+          "arm_recall_without": 0,
+          "uniquely_carries": 0,
+          "frame_without": 40,
+          "unique_records": 7,
+          "suspect_homonym": false
+        },
+        {
+          "term": "\"private tutoring\"",
+          "arm_recall_without": 0,
+          "uniquely_carries": 0,
+          "frame_without": 9,
+          "unique_records": 38,
+          "suspect_homonym": false
+        }
+      ]
+    },
+    {
+      "name": "positional-canon",
+      "targets": [
+        "positional-canon"
+      ],
+      "exposure_axis": [
+        "\"positional good\"",
+        "\"conspicuous consumption\""
+      ],
+      "outcome_axis": [
+        "\"parental investment\"",
+        "\"child investment\"",
+        "\"investment in children\"",
+        "\"educational spending\"",
+        "\"parental spending\"",
+        "\"educational investment\""
+      ],
+      "query": "(\"positional good\" OR \"conspicuous consumption\") AND (\"parental investment\" OR \"child investment\" OR \"investment in children\" OR \"educational spending\" OR \"parental spending\" OR \"educational investment\")",
+      "frame": 5,
+      "arm_recall": 0,
+      "arm_n": 3,
+      "steps": [
+        {
+          "label": "baseline",
+          "frame": 5,
+          "arm_recall": 0
+        },
+        {
+          "term": "\"social limits\"",
+          "frame": 5,
+          "arm_recall": 0,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"expenditure cascade\"",
+          "frame": 5,
+          "arm_recall": 0,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"keeping up with the Joneses\"",
+          "frame": 5,
+          "arm_recall": 0,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"rat race\"",
+          "frame": 10,
+          "arm_recall": 0,
+          "gain": 0,
+          "cost": 5,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"arms race\"",
+          "frame": 17,
+          "arm_recall": 0,
+          "gain": 0,
+          "cost": 12,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"status signaling\"",
+          "frame": 9,
+          "arm_recall": 0,
+          "gain": 0,
+          "cost": 4,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"consumption\"",
+          "frame": 4603,
+          "arm_recall": 1,
+          "gain": 1,
+          "cost": 4598,
+          "price": 4598.0,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"household spending\"",
+          "frame": 23,
+          "arm_recall": 0,
+          "gain": 0,
+          "cost": 18,
+          "price": null,
+          "accepted": false
+        }
+      ],
+      "leave_one_out": [
+        {
+          "term": "\"positional good\"",
+          "arm_recall_without": 0,
+          "uniquely_carries": 0,
+          "frame_without": 5,
+          "unique_records": 0,
+          "suspect_homonym": false
+        },
+        {
+          "term": "\"conspicuous consumption\"",
+          "arm_recall_without": 0,
+          "uniquely_carries": 0,
+          "frame_without": 0,
+          "unique_records": 5,
+          "suspect_homonym": false
+        }
+      ]
+    },
+    {
+      "name": "c3d-boundary",
+      "targets": [
+        "c3d-boundary"
+      ],
+      "exposure_axis": [
+        "\"quantity-quality\"",
+        "\"child quality\""
+      ],
+      "outcome_axis": [
+        "\"fertility\"",
+        "\"childbearing\"",
+        "\"birth rate\"",
+        "\"total fertility rate\"",
+        "\"family size\"",
+        "\"number of children\""
+      ],
+      "query": "(\"quantity-quality\" OR \"child quality\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "frame": 683,
+      "arm_recall": 0,
+      "arm_n": 1,
+      "steps": [
+        {
+          "label": "baseline",
+          "frame": 683,
+          "arm_recall": 0
+        },
+        {
+          "term": "\"quantity quality tradeoff\"",
+          "frame": 683,
+          "arm_recall": 0,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"sibsize\"",
+          "frame": 710,
+          "arm_recall": 0,
+          "gain": 0,
+          "cost": 27,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"human capital of children\"",
+          "frame": 706,
+          "arm_recall": 0,
+          "gain": 0,
+          "cost": 23,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"family size\"",
+          "frame": 683,
+          "arm_recall": 0,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        }
+      ],
+      "leave_one_out": [
+        {
+          "term": "\"quantity-quality\"",
+          "arm_recall_without": 0,
+          "uniquely_carries": 0,
+          "frame_without": 245,
+          "unique_records": 438,
+          "suspect_homonym": true
+        },
+        {
+          "term": "\"child quality\"",
+          "arm_recall_without": 0,
+          "uniquely_carries": 0,
+          "frame_without": 493,
+          "unique_records": 190,
+          "suspect_homonym": true
+        }
+      ]
+    }
+  ],
+  "gold_n": 40,
+  "arms_not_screened": [
+    "c3d-boundary"
+  ],
+  "union_query": "((\"income inequality\" OR \"Gini\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\" OR \"first birth\")) OR ((\"status competition\" OR \"relative status\" OR \"relative deprivation\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")) OR ((\"shadow education\" OR \"private tutoring\") AND (\"parental investment\" OR \"child investment\" OR \"investment in children\" OR \"educational spending\" OR \"parental spending\" OR \"educational investment\")) OR ((\"positional good\" OR \"conspicuous consumption\") AND (\"parental investment\" OR \"child investment\" OR \"investment in children\" OR \"educational spending\" OR \"parental spending\" OR \"educational investment\"))",
+  "union_frame_deduplicated": 982,
+  "union_frame_error": null,
+  "union_query_recall": 5,
+  "union": {
+    "primary_recall": 5,
+    "primary_n": 15,
+    "total_frame_upper_bound": 995,
+    "unreachable": [
+      {
+        "arm": "mechanism",
+        "source": "control",
+        "title": "The impact of women's social position on fertility in developing countries",
+        "why": "VOCABULARY MISS -> citation channel"
+      },
+      {
+        "arm": "mechanism",
+        "source": "control",
+        "title": "Ideal Age at First Birth and Associated Factors Among Young Adults in Greater New York City: Findings From the Social Position and Family Formation Study",
+        "why": "VOCABULARY MISS -> citation channel"
+      },
+      {
+        "arm": "mechanism",
+        "source": "control",
+        "title": "Education Competition and Fertility Intention: Evidence from China's Private Tutoring Ban",
+        "why": "VOCABULARY MISS -> citation channel"
+      },
+      {
+        "arm": "mechanism",
+        "source": "control",
+        "title": "Expansion of shadow education, status externalities, and fertility intentions",
+        "why": "VOCABULARY MISS -> citation channel"
+      },
+      {
+        "arm": "mechanism",
+        "source": "control",
+        "title": "Inconspicuous Consumption: Sake, Beer, and the Birth of the Consumer in Japan",
+        "why": "VOCABULARY MISS -> citation channel"
+      },
+      {
+        "arm": "mechanism",
+        "source": "control",
+        "title": "Charles Frederick Worth and the birth of Haute Couture: Fashion design and textile renewal in the times of conspicuous consumption",
+        "why": "VOCABULARY MISS -> citation channel"
+      },
+      {
+        "arm": "mechanism",
+        "source": "control",
+        "title": "Ageing and social rank effects on the reproductive system of free-ranging yellow baboons (Papio cynocephalus) at Mikumi National Park, Tanzania",
+        "why": "VOCABULARY MISS -> citation channel"
+      },
+      {
+        "arm": "mechanism",
+        "source": "control",
+        "title": "The impact of shadow education expenditures on fertility rates in South Korea",
+        "why": "VOCABULARY MISS -> citation channel"
+      },
+      {
+        "arm": "mechanism",
+        "source": "control",
+        "title": "Money and success \u2013 Sibling and birth-order effects on positional concerns",
+        "why": "VOCABULARY MISS -> citation channel"
+      },
+      {
+        "arm": "inequality-general",
+        "source": "control",
+        "title": "Income Inequality and Reproductive Competition: Implications for Consumption, Status-Seeking, and Women\u2019s Self-Sexualization",
+        "why": "VOCABULARY MISS -> citation channel"
+      },
+      {
+        "arm": "inequality-general",
+        "source": "control",
+        "title": "Maternal Social Support and Neighborhood Income Inequality as Predictors of Low Birth Weight and Preterm Birth Outcome Disparities: Analysis of South Carolina Pregnancy Risk Assessment and Monitoring System Survey, 2000\u20132003",
+        "why": "VOCABULARY MISS -> citation channel"
+      },
+      {
+        "arm": "theory",
+        "source": "hand",
+        "title": "Inequality and Growth: Why Differential Fertility Matters",
+        "why": "arm not screened"
+      },
+      {
+        "arm": "theory",
+        "source": "hand",
+        "title": "The Economics of Fertility: A New Era",
+        "why": "arm not screened"
+      },
+      {
+        "arm": "fertility",
+        "source": "hand",
+        "title": "Why did rich families increase their fertility? Inequality and marketization of child care",
+        "why": "VOCABULARY MISS -> citation channel"
+      },
+      {
+        "arm": "link1-investment",
+        "source": "hand",
+        "title": "The Rug Rat Race",
+        "why": "outcome is not fertility"
+      },
+      {
+        "arm": "link1-investment",
+        "source": "hand",
+        "title": "Investing in Children: Changes in Parental Spending on Children, 1972\u20132007",
+        "why": "outcome is not fertility"
+      },
+      {
+        "arm": "link1-investment",
+        "source": "hand",
+        "title": "Income Inequality and Class Divides in Parental Investments",
+        "why": "outcome is not fertility"
+      },
+      {
+        "arm": "link1-investment",
+        "source": "hand",
+        "title": "Expenditure Cascades",
+        "why": "outcome is not fertility"
+      },
+      {
+        "arm": "positional-canon",
+        "source": "hand",
+        "title": "Social Limits to Growth",
+        "why": "outcome is not fertility"
+      },
+      {
+        "arm": "positional-canon",
+        "source": "hand",
+        "title": "The Overspent American: Why We Want What We Don't Need",
+        "why": "outcome is not fertility"
+      },
+      {
+        "arm": "positional-canon",
+        "source": "hand",
+        "title": "The Theory of the Leisure Class",
+        "why": "outcome is not fertility"
+      },
+      {
+        "arm": "link1-investment",
+        "source": "hand",
+        "title": "Parenting With Style: Altruism and Paternalism in Intergenerational Preference Transmission",
+        "why": "outcome is not fertility"
+      },
+      {
+        "arm": "c3d-boundary",
+        "source": "hand",
+        "title": "On the Interaction between the Quantity and Quality of Children",
+        "why": "arm not screened"
+      }
+    ]
+  },
+  "pool": {
+    "key": 118,
+    "polite": 0,
+    "refused": 0,
+    "throttle_waits": 0
+  },
+  "cache": {
+    "hit": 1,
+    "miss": 59
+  }
+}
