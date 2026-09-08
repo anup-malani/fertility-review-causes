@@ -13,7 +13,7 @@
 - [ ] 4. RA title/abstract review
 - [~] 5. Full-text retrieval — **15/19 primary**; both gating cells COMPLETE; 4 outstanding
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
-- [~] 7. Extraction — 2 of 15 done (the two structural records); RA verification outstanding
+- [x] 7. Extraction — all 15 retrieved records extracted (14 rows; one version pair); RA verification outstanding
 - [ ] 8. Risk-of-bias assessment per study
 - [ ] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise
 - [ ] 10. Demographic significance against PM / FDT / SDT
@@ -865,4 +865,65 @@ policy. One is an estimate and one is a simulation (`resolve-disagreements-dont-
 they share an estimator before averaging — here they do not even share an epistemic class).
 
 Remaining: 13 of 15 retrieved records to extract.
+
+### 2026-09-08 — extraction COMPLETE on the 15 retrieved records, and the cell collapses
+
+14 rows (15 records; C2F1346 and C2F1212 are one study). **Nine of the fifteen changed cell or
+status at full text.** The screen's own rubric said `design` values are hypotheses; this is the size
+of the correction.
+
+**The identified evidence is two studies, not nineteen.**
+
+| record | design | outcome | effect |
+|---|---|---|---|
+| **C2F0428** Meng et al. | within-subject experiment + **city DID on ACTUAL births** | intended **and realized** | ban raises expected fertility **7-8%**; higher-intensity cities show greater actual birth increases; **perceived competition is the primary channel**, ahead of money and time |
+| **C2F0592** Kim, *J Pop Econ* | **FE-IV**, instrument = provincial composition of parents with school-age children | **realized TFR** | 1% higher shadow-education spend → **TFR −0.18 to −0.26%**, stronger at higher parities |
+
+Both are `return_separated = YES` or near it, both are on the education-competition arm, and both
+support the hypothesis.
+
+**The dispersion arm's identified estimates run AGAINST it — and that is the finding of the day.**
+
+- **C2F0357** (2SLS, individual relative deprivation): income inequality **BOOSTS** fertility
+  intentions. Channels: "build hopes on children", "allocate more time to families", and **"put less
+  value on children's education"**.
+- **C2F1346/1212** (Meng & Xie, IV, CFPS): inequality **AMPLIFIES** fertility; mediator is that
+  higher inequality **lowers** educational aspirations, cutting the anticipated cost of children.
+
+Both are the reverse of C.2.f's mechanism: inequality reduces required investment rather than
+raising it. The two supporting dispersion records (C2F1217, C2F1264) are FE-only and their own
+authors call them associations.
+
+**So the sign splits cleanly by exposure**, exactly as §3's diagnostic predicted: measured as
+**required educational investment** the mechanism works; measured as **income inequality** it
+reverses. That is a chapter-defining result and it is not a wash — it says the general term §3
+measured at 89% of the frame is not measuring this mechanism.
+
+**C2F1348 (Kim, *The Race for Elite Destinations*) is the most decision-relevant record for the
+verdict even though it is a model.** It formalises the assignment externality exactly as C.2.f
+describes it — families spend 9% of lifetime income on education with near-zero measured returns,
+and a capacity-preserving lottery would raise completed fertility by **0.24 children per couple**.
+And its own cohort decomposition concludes: **"Preference shifts, not a fiercer race, explain the
+decline across cohorts."** The strongest formal statement of the mechanism says the mechanism did
+not drive the historical decline.
+
+**Re-cellings worth naming.**
+
+- **C2F0259 was the gender homonym.** "Relative status of women" means status relative to MEN, which
+  is D.2.a's estimand, not position in the income distribution. Scope §8 Wall 10 measured that cloud
+  at 30 records and predicted it would arrive; it arrived in the primary cell.
+- **C2F1327 and C2F0593** are unidentified associations, so a **new cell `EDUCOMP_ASSOCIATION`** was
+  added at extraction — the rubric had `INEQ_ASSOCIATION` only for inequality exposures
+  (`add-a-cell-when-the-rubric-lacks-one`). C2F0593 is notable anyway: it names the mechanism in its
+  own title (地位外部性, status externality).
+- **C2F1343** (CSU dissertation) identifies peer effects in shadow-education *spending* with PSM/AIPW
+  — but the fertility chapter is a model. Link 1 only.
+- **C2F0066** (Johansson 1987, PDR) and **C2F0850** (Korean policy essay) carry no estimation.
+
+**Pooling implication:** the ≥3 test now fails on every stratum. Two identified estimates with
+different outcome levels, different exposures and different countries do not pool
+(`stratify-before-counting-poolable`). This chapter is a narrative synthesis, not a meta-analysis.
+
+Next: risk of bias (stage 8), then the demsig section — where C2F0592's elasticity and C2F1348's
+0.24-children counterfactual are the two numbers that can carry it.
 
