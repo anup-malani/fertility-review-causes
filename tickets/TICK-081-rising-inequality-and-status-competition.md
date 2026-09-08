@@ -9,7 +9,7 @@
 
 ## Acceptance criteria
 - [x] 2. Search strategy and scope drafted
-- [ ] 3. Literature search and AI screening, both phases (§5.1)
+- [~] 3. Literature search and AI screening, both phases (§5.1) — free seeds + anchors done
 - [ ] 4. RA title/abstract review
 - [ ] 5. Full-text retrieval
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
@@ -403,4 +403,54 @@ no `r`, no division by `(1-r)`, and none of the blow-ups that made `333` need th
 
 `333`'s substantive result is unaffected: the tempo correction still runs against `332`, and `332`'s
 69% is still an upper bound. Only the claim about what is needed to settle it changes.
+
+### 2026-09-08 — free seeds (335) and cold-start anchors (336)
+
+**Free seeds: 393 records recovered at zero retrieval cost**, from 1,830 branch:file pairs across
+142 unique blobs. Yield per term repeats §3's diagnostic exactly: `income inequality` returns 189
+(186 catchable by no other term) while the entire mechanism-specific vocabulary — status competition
+4, positional 2, relative status 11, social comparison 13, arms race 7, relative deprivation 4,
+distribution statistics 5 — returns **46 between them**. `shadow education` returns 19 free records
+on link 1, the link §4 measured as missing from the fertility literature.
+
+I misread the head of the `investment per child` term (143 records) as mostly Trivers-style
+evolutionary parental investment. **Measured, that cloud is 31 of 143 (23%)**; the bulk is the
+economics sense, which is C.3.d's quantity-quality literature — Wall 1's packet, not contamination.
+Both clouds now have their own counted column rather than an eyeball
+(`citation-sorted-head-is-not-the-population`). Neither is dropped: 9 records are evolutionary AND
+carry a C.2.f exposure term (conspicuous-consumption signalling, sexual selection and growth), which
+is where boundary cases live.
+
+**Anchors: 65/65 controls and 13/14 hand, zero ghost citations.**
+
+| | |
+|---|---|
+| control (taken programmatically from 335, never retyped) | **65/65** — `MATCH_BY_DOI` |
+| hand (the Tier-A canon) | **13/14** clean |
+| the exception | Frank 2007 *Falling Behind* → `MATCH_TITLE_AUTHOR_DISAGREES`, top candidate a **Choice Reviews Online book review** of it |
+
+That exception is the `anchor-resolver-book-canon` failure caught working: a monograph resolving to
+its own review at Jaccard 1.00, refused by the first-author gate. All four positional monographs —
+Hirsch, Frank, Schor, Veblen — went through that gate and only the review was rejected.
+
+**A false alarm I raised and then measured away, worth recording because the shape recurs.** The
+resolved records appeared to carry no author list at all, which would have meant the first-author
+gate silently no-opped on all 79 (`optional-field-gate-disengages`). It does not: `top_candidate`
+stores the field as `authors_first`, and I queried `authors`, which is never written.
+`first_author_ok` is **True on 13 hand anchors and False on exactly the book review**. The gate is
+live. `candidate-attribution-is-the-error` — check which side is wrong before keying an exception —
+and the wrong side was mine.
+
+Two OpenAlex metadata oddities, both benign once the author gate is read: Schor's *The Overspent
+American* carries venue "Medical Entomology and Zoology" (first author still checks out, so the venue
+field is noise), and Hirsch's *Social Limits to Growth* resolves to a 1976 `article` rather than the
+Harvard UP book, with Hirsch as first author.
+
+**§4's conjunction now has a second, independent confirmation on the canon rather than on counts.**
+Of the 14 hand anchors, **9 are flagged `outcome_is_fertility: false`** — Ramey & Ramey, Kornrich &
+Furstenberg, Schneider et al., Frank's *Expenditure Cascades*, and the four positional monographs.
+The positional and link-1 canon is real, resolvable and substantial, and it **does not measure
+fertility**. That is the chapter's central problem stated in its own seminal literature.
+
+Next: production query on the revised axis (337).
 
