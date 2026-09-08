@@ -17,8 +17,8 @@
 - [x] 8. Risk-of-bias assessment per study — 9 assessed
 - [x] 9. Narrative synthesis — the ≥3 test fails on every stratum
 - [x] 10. Demographic significance — three routes computed
-- [ ] 11. GRADE rating, 3 independent raters
-- [ ] 12. Chapter draft on the §6 template
+- [~] 11. GRADE — rated, but by ONE assessor; the three-rater requirement stays open
+- [x] 12. Chapter draft on the §6 template — 3,840 words, all 13 template checks pass
 - [ ] 13. RA lay-readability check
 - [ ] 14. PI review and sign-off
 
@@ -970,4 +970,47 @@ inequality the sign reverses in two identified studies and is wrong in 38% of th
 
 Next: GRADE (stage 11) and the chapter draft (12). The GRADE rating has to carry that split — this
 is not one body of evidence with a single certainty level.
+
+### 2026-09-08 — GRADE and CHAPTER DRAFTED
+
+`output/chapters/rising-inequality-and-status-competition.md`, 3,840 words. All seven mandatory
+sentences present and in place, section order 1–12 + provenance correct, S4 ahead of every §8
+arithmetic, plain terms ahead of technical in both §1 and §7, no banded share above 100%, empty cells
+written as **No evidence** rather than VERY LOW. 13 of 13 template checks pass.
+
+**Verdict: SDT MINOR · FDT No evidence · PM No evidence. Carry-away: 12%.**
+
+**GRADE is rated on TWO ARMS, which departs from the template**, and the departure is the chapter's
+central finding rather than a convenience:
+
+| phenomenon | arm | rating |
+|---|---|---|
+| SDT | required educational investment | **LOW** (−1 imprecision, −1 indirectness) |
+| SDT | income inequality, *as registered* | **VERY LOW** (−1 risk of bias, −1 inconsistency, −1 indirectness) |
+
+GRADE assumes one body of evidence per outcome. Here the body splits by **exposure**, the halves
+point opposite ways, and one rating would average a supported narrow mechanism with a refuted broad
+one. Flagged as PI call 2.
+
+**The verdict in one line:** rising income inequality is not established as a cause of the SDT and
+the identified evidence on that exposure runs the other way; what survives is that where competition
+for ranked school places raises required investment per child, fertility falls — worth about an
+eighth of Korea's decline.
+
+**Four PI calls, and the first is now sharper than it was this morning.** Not "does C.2.f survive"
+but **"should the registry re-specify C.2.f's exposure?"** The registered claim names income
+inequality; the evidence supports required educational investment. The chapter as written answers a
+question the registry did not ask. Related: PI call 3 asks whether the C.3.d boundary is tenable at
+all, given that **eight of nine studies cannot separate the return from the reference standard** —
+and C.3.d is unstarted, so that is decidable now rather than after two chapters exist.
+
+**§11 names a study that should exist and does not.** Korea's 1980 tutoring ban and its later lifting
+is the closest natural experiment to the ideal design anywhere, and **no study in the pool uses it**;
+every retrieved policy study uses China 2021.
+
+**Standing objections are in the provenance block, not buried**: the two-arm GRADE, the hand-entered
+KOSIS spending figure (the only unautomated number in the demsig computation), the provincial→national
+transport in route 2, and the routing of C2F0259 out of the primary cell against its own placement.
+
+Stages 13 (RA lay-readability) and 14 (PI review) are open, and stage 11 needs two more raters.
 
