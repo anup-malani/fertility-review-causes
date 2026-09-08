@@ -1,0 +1,28 @@
+{
+  "elasticity": [
+    -0.0018,
+    -0.0026
+  ],
+  "lottery_gain": 0.24,
+  "korea_private_ed": {
+    "series": "KOSIS Private Education Expenditure Survey, monthly per-student spend, all students",
+    "2007_nominal_krw": 222000,
+    "2023_nominal_krw": 434000,
+    "cpi_2007": 74.6,
+    "cpi_2023": 111.6,
+    "cpi_base": "2020=100",
+    "source_note": "HAND-ENTERED, and flagged as the weakest link in this computation. Must be replaced by a machine-read KOSIS pull before the chapter is signed off."
+  },
+  "spend_growth_real": 0.30680680680680683,
+  "tfr_2007": 1.259,
+  "tfr_2023": 0.721,
+  "observed_change": -0.5379999999999999,
+  "implied": {
+    "low": -0.05920325251296557,
+    "high": -0.08461425981113105
+  },
+  "share_low": 0.11004322028432263,
+  "share_high": 0.15727557585712093,
+  "share_post1980_lottery": 0.11583011583011582,
+  "share_full_lottery": 0.045749142203583684
+}

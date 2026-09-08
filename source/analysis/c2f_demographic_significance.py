@@ -1,0 +1,136 @@
+#!/usr/bin/env python3
+"""C.2.f demographic significance (TICK-081, stage 10).
+
+Scope §5 named the route BEFORE searching: slope sufficiency, plus an elasticity route if the
+literature yielded one. Both are now live, and they are reported side by side because they disagree
+in an informative way.
+
+Numbers are COMPUTED here and the table is generated, never retyped: A.17's hand-typed demsig table
+had the right offsets and the wrong baselines (`generate-result-tables-never-retype`).
+
+Three routes, all reported:
+
+  R1  SLOPE / SIGN  — scripts 331-333. Does the exposure move the right way over the window in
+      which fertility fell? Reported, not recomputed here.
+
+  R2  ELASTICITY    — C2F0592 (Kim, J Pop Econ 2026) gives the only identified elasticity on a
+      REALIZED national fertility rate: a 1% rise in shadow-education spending lowers TFR by
+      0.18-0.26%. Applied to Korea's observed growth in shadow-education spending.
+
+  R3  COUNTERFACTUAL — C2F1348 (Kim, arXiv 2026) simulates that replacing score-based assignment
+      with a capacity-preserving lottery raises completed fertility by 0.24 children per couple.
+      That is an upper bound on what removing the positional externality ENTIRELY would buy.
+
+R3 is a model, not an estimate, and is labelled so. It is included because it is the only number in
+the pool that prices the mechanism at its theoretical maximum, which is what a demographic-
+significance verdict needs to bound.
+"""
+import json, pathlib, sys
+
+RAW = pathlib.Path("data/raw/wdi-inequality-fertility")
+OUT = pathlib.Path("output/tables"); OUT.mkdir(parents=True, exist_ok=True)
+
+# C2F0592, Table abstract: 1% rise in shadow-education spending -> 0.18-0.26% fall in TFR.
+ELAST = (-0.0018, -0.0026)          # per 1% spending, as a proportion
+# C2F1348 counterfactual, completed fertility per couple.
+LOTTERY_GAIN = 0.24
+
+# Korean private-education expenditure per student, KOSIS annual survey (2007 first year of the
+# official series; 2023 latest). Nominal KRW per student per month, deflated by Korean CPI.
+# Deposited rather than hard-coded silently: these are the only two numbers in this file that are
+# not machine-read, and they are the ones a reader must check.
+KOREA_PRIVATE_ED = {
+    "series": "KOSIS Private Education Expenditure Survey, monthly per-student spend, all students",
+    "2007_nominal_krw": 222000, "2023_nominal_krw": 434000,
+    "cpi_2007": 74.6, "cpi_2023": 111.6, "cpi_base": "2020=100",
+    "source_note": "HAND-ENTERED, and flagged as the weakest link in this computation. Must be "
+                   "replaced by a machine-read KOSIS pull before the chapter is signed off.",
+}
+
+
+def tfr(code):
+    f = RAW / f"{code}_SP.DYN.TFRT.IN.json"
+    if not f.exists():
+        sys.exit(f"missing {f}: run source/build/331_c2f_sign_test.py first")
+    return {int(k): v for k, v in json.loads(f.read_text()).items()}
+
+
+def main():
+    kr = tfr("KOR")
+    d = KOREA_PRIVATE_ED
+    real_2007 = d["2007_nominal_krw"] / d["cpi_2007"]
+    real_2023 = d["2023_nominal_krw"] / d["cpi_2023"]
+    spend_growth = real_2023 / real_2007 - 1                      # proportional, real
+
+    t07, t23 = kr[2007], kr[2023]
+    obs_change = t23 - t07
+    implied = {}
+    for lab, e in (("low", ELAST[0]), ("high", ELAST[1])):
+        # elasticity is d ln TFR / d ln spend; apply over the observed log change in spending
+        import math
+        dln = math.log(1 + spend_growth)
+        implied[lab] = t07 * (math.exp((e / 0.01) * dln) - 1)
+
+    # R3: the lottery counterfactual against two denominators
+    t80 = kr.get(1980)
+    t_latest = kr[max(kr)]
+    share_post80 = LOTTERY_GAIN / abs(t80 - t_latest) if t80 else None
+    share_full = LOTTERY_GAIN / abs(kr[min(kr)] - t_latest)
+
+    rows = [
+        ("R2 elasticity route (C2F0592, identified, realized TFR)", ""),
+        ("  real private-education spend per student, 2007->2023", f"{spend_growth*100:+.0f}%"),
+        ("  observed Korean TFR 2007 -> 2023", f"{t07:.2f} -> {t23:.2f}  ({obs_change:+.2f})"),
+        ("  TFR change implied by the elasticity, low end", f"{implied['low']:+.3f}"),
+        ("  TFR change implied by the elasticity, high end", f"{implied['high']:+.3f}"),
+        ("  SHARE of the observed 2007-2023 decline explained",
+         f"**{implied['low']/obs_change*100:.0f}% to {implied['high']/obs_change*100:.0f}%**"),
+        ("", ""),
+        ("R3 counterfactual route (C2F1348, MODEL not estimate)", ""),
+        ("  completed fertility gained by abolishing score-based assignment", f"{LOTTERY_GAIN:+.2f} children"),
+        ("  Korean TFR 1980 -> latest", f"{t80:.2f} -> {t_latest:.2f}"),
+        ("  share of the POST-1980 decline", f"**{share_post80*100:.0f}%**"),
+        ("  share of the FULL 1960-latest decline", f"{share_full*100:.0f}%"),
+    ]
+
+    L = ["# C.2.f demographic significance — computed, not retyped", "",
+         "Generated by `source/analysis/c2f_demographic_significance.py`. Do not edit by hand.", "",
+         "Scope §5 pre-registered **slope sufficiency** as the route. The literature then yielded an",
+         "elasticity and a counterfactual, so three routes are reported and they do not agree.", "",
+         "| quantity | value |", "|---|---|"]
+    L += [f"| {k} | {v} |" for k, v in rows]
+    L += ["", "## R1 — the sign route, from scripts 331-333", "",
+          "- Fertility fell in all 21 SDT-core countries; the Gini trend **rises in 13 and falls in 8**",
+          "  (FRA, NLD, JPN, CAN, CHE, PRT, GRC, IRL). In 38% of the core the exposure moves the wrong way.",
+          "- On a long-run series, a median **69%** of the SDT decline was complete before inequality",
+          "  turned up — an UPPER BOUND, since the tempo correction cuts it to about 32% on the five",
+          "  countries where it computes.", "",
+          "## What the three routes together support", "",
+          "**They disagree, and the disagreement is the finding.** R2 and R3 price the",
+          "education-competition mechanism at a real but minority share in ONE country. R1 says the",
+          "*inequality* exposure has the wrong sign in more than a third of the SDT core and moved the",
+          "wrong way through most of the decline.", "",
+          "That is the same split the extraction found: measured as **required educational investment**",
+          "the mechanism works; measured as **income inequality** it reverses. The demsig verdict must",
+          "be written on the arm that survives, and its scope is East Asian ultra-low fertility, not",
+          "the SDT as registered.", "",
+          "## The weakest link, named", "",
+          f"- {KOREA_PRIVATE_ED['source_note']}",
+          "- R2 transports a Korean provincial elasticity to a Korean national time series. That is the",
+          "  same country, but not the same variation.",
+          "- R3 is a calibrated model whose own author concludes that **preference shifts, not a fiercer",
+          "  race, explain the cohort decline** — so its 0.24 children is what the mechanism COULD buy,",
+          "  not what it did."]
+    (OUT / "c2f-demographic-significance.md").write_text("\n".join(L) + "\n")
+    (OUT / "c2f-demographic-significance.json").write_text(json.dumps(
+        {"elasticity": ELAST, "lottery_gain": LOTTERY_GAIN, "korea_private_ed": KOREA_PRIVATE_ED,
+         "spend_growth_real": spend_growth, "tfr_2007": t07, "tfr_2023": t23,
+         "observed_change": obs_change, "implied": implied,
+         "share_low": implied['low']/obs_change, "share_high": implied['high']/obs_change,
+         "share_post1980_lottery": share_post80, "share_full_lottery": share_full}, indent=2))
+    for k, v in rows:
+        if k: print(f"  {k:62s} {v}")
+
+
+if __name__ == "__main__":
+    main()

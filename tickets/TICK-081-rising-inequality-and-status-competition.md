@@ -14,9 +14,9 @@
 - [~] 5. Full-text retrieval — **15/19 primary**; both gating cells COMPLETE; 4 outstanding
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
 - [x] 7. Extraction — all 15 retrieved records extracted (14 rows; one version pair); RA verification outstanding
-- [ ] 8. Risk-of-bias assessment per study
-- [ ] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise
-- [ ] 10. Demographic significance against PM / FDT / SDT
+- [x] 8. Risk-of-bias assessment per study — 9 assessed
+- [x] 9. Narrative synthesis — the ≥3 test fails on every stratum
+- [x] 10. Demographic significance — three routes computed
 - [ ] 11. GRADE rating, 3 independent raters
 - [ ] 12. Chapter draft on the §6 template
 - [ ] 13. RA lay-readability check
@@ -926,4 +926,48 @@ different outcome levels, different exposures and different countries do not poo
 
 Next: risk of bias (stage 8), then the demsig section — where C2F0592's elasticity and C2F1348's
 0.24-children counterfactual are the two numbers that can carry it.
+
+### 2026-09-08 — risk of bias (9) and demographic significance (3 routes)
+
+**Risk of bias: 2 MODERATE, 7 HIGH.** The domains are this chapter's walls made into rateable
+fields, and one result dominates:
+
+> **D2 — is the RETURN separated from the REFERENCE STANDARD — is LOW in exactly ONE of nine
+> studies.** C2F0428, the tutoring ban. Every other study is HIGH.
+
+That is Wall 1 measured rather than asserted: **only one study in the chapter can distinguish C.2.f
+from C.3.d.** Scope §2 said this wall decides the chapter, and it does.
+
+The other binding domain is D5 (reference-group composition), HIGH in five. C2F1279 fails it on its
+own terms: it instruments own shadow-education spending with **county peer spending**, which assumes
+county-level competition affects fertility *only* through own spending — but that competition is
+precisely the reference standard this chapter says is the mechanism.
+
+**Demographic significance — `source/analysis/c2f_demographic_significance.py`, table generated not
+retyped** (`generate-result-tables-never-retype`; A.17's hand-typed demsig had right offsets and
+wrong baselines).
+
+| route | result |
+|---|---|
+| **R2 elasticity** — C2F0592's identified −0.18/−0.26% per 1%, applied to Korea's +31% real private-education spend 2007–23 against an observed TFR fall of 1.26 → 0.72 | **11–16%** of the decline |
+| **R3 counterfactual** — C2F1348's lottery raising completed fertility 0.24 children, against Korea's 2.82 → 0.75 post-1980 fall | **12%** |
+| **R1 sign** — scripts 331–333 | wrong sign in **8 of 21** SDT-core countries; the exposure moved the wrong way through most of the decline |
+
+**Two independent routes converge on roughly an eighth of Korea's fertility decline.** They share no
+data and no method — one is an FE-IV elasticity on provincial spending, the other a calibrated
+assignment-externality model. Convergence at 11–16% and 12% is worth more than either alone, though
+some of the closeness is luck given R2's inputs.
+
+**The weakest link is named rather than buried:** Korea's private-education spending growth is
+hand-entered from KOSIS and is the only unautomated number in the computation. It must be replaced
+by a machine-read pull before sign-off. R2 also transports a *provincial* elasticity to a *national*
+time series — same country, different variation.
+
+**The shape of the verdict is now clear, and it is not the registered hypothesis.** What survives is
+the education-competition arm in East Asia, worth ~12% of Korea's decline, resting on **one**
+study that clears Wall 1. What fails is the exposure the registry actually names: measured as income
+inequality the sign reverses in two identified studies and is wrong in 38% of the SDT core.
+
+Next: GRADE (stage 11) and the chapter draft (12). The GRADE rating has to carry that split — this
+is not one body of evidence with a single certainty level.
 
