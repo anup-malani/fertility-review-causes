@@ -265,3 +265,55 @@ Flagged in the log so it is not read as the >100% banding error the chapter temp
 
 Next: long-run WID series for the timing test, then the free-seed harvest, then anchors.
 
+### 2026-09-08 — timing test on a long-run series: the exposure moves the wrong way through most of the decline
+
+`source/build/332_c2f_timing_test.py`, log `literature/search-logs/c2f-timing-test-2026-09-08.md`.
+Exposure: **WID top-10% pre-tax income share** via Our World in Data's grapher CSV — the same
+variable as WID's 882 MB bulk file at 95 KB — deposited in `data/raw/wid-top10-share/`. Outcome: the
+WDI TFR pull from 331, read from its deposit rather than re-fetched.
+
+This is the substantive version of 331's suggestive result, and it survives the caveat that killed
+it: **the inequality series covers the whole period here, so nothing is confounded with data
+availability.**
+
+**The test.** Rich-country inequality is U-shaped — falling to a post-war trough, rising after. The
+SDT fertility collapse ran roughly 1965–1980. What share of the decline was complete **before
+inequality turned up**? The trough is found in the data, not assumed, and the pre/post slopes are
+reported so a country with no U-shape shows as one.
+
+**Result: median 69% of the SDT decline was complete before inequality turned up. Range 31–84%,
+across 9 countries with a computable share, 8 of 10 U-shaped.** In every one of the ten the
+pre-trough inequality slope is **negative** — so through the period carrying most of the fertility
+decline, the exposure was moving in the direction *opposite* to the one the hypothesis requires.
+
+| | |
+|---|---|
+| GRC 84 · CHE 83 · FRA 80 · SWE 76 · AUS 69 | most of the decline predates the turn |
+| FIN 51 · PRT 48 | roughly half |
+| USA 34 · IRL 31 | most of the decline follows the turn — these run WITH the hypothesis |
+
+**The carry-away number is an upper bound, and it is the useful output.** In the median country only
+about **31%** of the SDT decline is even *available* for this mechanism to explain, because the rest
+happened while the exposure moved the other way. That bound is derived from exposure and outcome
+alone and holds whatever the elasticity turns out to be — `slope-sufficiency-beats-a-missing-share`:
+no denominator needed, ask whether the exposure moved the right way.
+
+**Three limits are in the log rather than buried, and the first is material.** TFR is a period
+measure and the 1965–1980 collapse is **partly tempo, not quantum** — A.11's chapter. Postponement
+depresses period TFR without an equal fall in completed cohort fertility, so a cohort series would
+put less of the decline in the pre-trough window. **The bias runs against the finding**, so 69% is an
+overstatement of unknown size and the test must be re-run on HFD completed cohort fertility before
+the number enters a verdict. Also: the trough of measured inequality is not necessarily when the
+mechanism switches on (the registered claim is about *rising* inequality, so the test is fair to the
+claim as written); and 11 of 21 countries are excluded for thin pre-1980 coverage, including GBR,
+DEU, ITA, ESP and JPN.
+
+**Three independent lines now agree**, all pre-search: the conjunction has ~2 records at its join
+(§4), the exposure has the wrong sign over the whole window in 8 of 21 countries (331), and it moves
+the wrong way through ~69% of the decline in the countries with long series (332). None is a verdict
+— the literature has not been searched — but the SDT cell now has a **pre-registered upper bound of
+roughly 31%** before a single study is read.
+
+Next: re-run 332 on HFD completed cohort fertility to remove the tempo bias, then the free-seed
+harvest and cold-start anchors.
+
