@@ -1,11 +1,13 @@
 # Work Queue
 
-Last updated: 2026-09-06
+Last updated: 2026-09-08
 
 Pick the first open ticket assigned to you or `any`. Before starting, pull/sync, then **claim** it
 before doing the work. The active mode is **Mode B (branch-per-ticket)** — the simplest path is
-`scripts/ticket.sh claim NNN`, which creates and pushes the `NNN-slug` branch and flips the
-ticket status; then move its row to **In progress** below. (See `README.md` for the full loop and
+`scripts/ticket.sh claim NNN`, which creates and pushes the `NNN-slug` branch, flips the ticket
+status, and — since TICK-067 was merged on 2026-09-08 — moves its row to **In progress** below for
+you. **Merge the branch when the ticket is done:** a board move committed on an unmerged branch
+never reaches `main`, which is what stranded ten rows between 2026-08-18 and 2026-09-03. (See `README.md` for the full loop and
 the Mode A fallback.) Do not start a blocked ticket until its dependency is done. Parallel-safe
 tickets can be worked concurrently.
 
@@ -46,16 +48,6 @@ tickets can be worked concurrently.
 
 | Ticket | Title | Assigned | Parallel-safe |
 |--------|-------|----------|---------------|
-| [TICK-079](TICK-079-child-cost-direct.md) | C.2.b Rising Direct Costs of Children | Shravan | yes |
-| [TICK-077](TICK-077-credit-constraints-liquidity.md) | C.3.e Credit Constraints and Liquidity | Shravan | yes |
-| [TICK-076](TICK-076-heritability-fertility-genetic.md) | A.18 Genetic and Heritable Variation in Fertility | Shravan | yes |
-| [TICK-075](TICK-075-co-residence-parents-household-delay.md) | A.23 Co-Residence with Parents and Delayed Household Formation | Shravan | yes |
-| [TICK-074](TICK-074-shared-resolver-punctuation-fold.md) | Shared resolver: fold apostrophes and dashes before the ASCII strip — 12 defective copies on `main`, found on C.3.g | Shravan | yes |
-| [TICK-073](TICK-073-student-debt-household-formation.md) | C.3.g Student Debt and Household Formation Constraint | Shravan | yes |
-| [TICK-072](TICK-072-art-access-fertility-recovery.md) | A.17 Assisted Reproductive Technology Access | Shravan | yes |
-| [TICK-071](TICK-071-dating-apps-union-formation-friction.md) | A.24 Dating Apps and Union-Formation Friction | Shravan | yes |
-| [TICK-070](TICK-070-twinning-multiple-births.md) | A.12 Twinning Rates and Multiple Births | Shravan | yes |
-| [TICK-069](TICK-069-despair-hopelessness-fertility.md) | D.3.c Despair and Hopelessness | Shravan | yes |
 | [TICK-048](TICK-048-d3b-fulltext-retrieval.md) | D.3.b full-text retrieval — mirror the B.1 scripts; realized-8 and desire-independence-4 first. **Watch the OA rate: it is what decides whether D.3.b avoids B.1's selection problem** | any | yes (with the full-62 half of 047) |
 | [TICK-039](TICK-039-compulsory-education-chapter-readability.md) | Compulsory-education chapter lay-readability review | Alexandra | no |
 | [TICK-030](TICK-030-replicate-gacs-agricultural-mode-production.md) | Replicate GACS for agricultural mode of production | any | no |
@@ -75,20 +67,40 @@ tickets can be worked concurrently.
 > Reading the board yourself is still worthwhile — the overlap check is advisory, and only you can
 > judge whether an overlap is a real conflict.
 
-> **2026-08-15 — TICK-062 through TICK-068 were added to this board retroactively.** `ticket.sh claim`
-> leaves the board move to be done by hand, and it was never done on `main` for any of them: all seven
-> had live branches on `origin` while this file still advertised them under *Open — can start now*.
-> One attempt exists, commit `1399787`, which removed TICK-064 from Open and wrote the replacement row
-> for TICK-062 — right timestamp, wrong ticket — on a branch that was never merged. Claim times below
-> are recovered from each `claim TICK-NNN` commit. **Merging TICK-067 is the durable fix**; until then
-> the board move stays manual and this failure will recur.
+> **2026-08-15 — TICK-062 through TICK-068 were added to this board retroactively**, because the
+> hand board move was being skipped: all seven had live branches on `origin` while this file still
+> advertised them under *Open — can start now*. Claim times for those rows are recovered from each
+> `claim TICK-NNN` commit.
+>
+> **2026-09-08 — TICK-069 through TICK-077 and TICK-079 were backfilled, and the cause was NOT the
+> same one.** Every one of those ten branches *did* do its own board move: each carries a correct
+> **In progress** row in its own `tickets/QUEUE.md`. The rows never reached `main` because the
+> branches were never merged. Of the 20 live `NNN-*` branches on `origin`, exactly one — TICK-067,
+> merged today — is an ancestor of `main`; the other 19 hold **19 chapter files that exist nowhere
+> else**, against the 15 in `main`'s `output/chapters/`. Automating the claim (TICK-067) does not fix
+> this: the row is written correctly and then stranded with everything else on the branch. **The
+> board will go stale again after the next claim unless branches are merged**, and `close` still asks
+> a human to move the row to **Done** by hand.
+>
+> Rows below are each branch's own row, taken verbatim and annotated with current state. Three
+> carried a local timestamp mislabelled `Z` (TICK-074, TICK-076, TICK-079) and were corrected to the
+> true UTC of their `claim` commit.
 
 | Ticket | Title | Owner | Branch (the claim) | Claimed (UTC) | Touches |
 |--------|-------|-------|--------------------|---------------|---------|
 | [TICK-080](TICK-080-cross-chapter-statistics-comparability.md) | Cross-chapter statistics — comparability, the demsig routes, and the sign-blind R². **Standing methods ticket, not a hypothesis; items 2, 4 and 5 are retroactive to drafted chapters** | Shravan | `080-cross-chapter-statistics-comparability` | 2026-09-06T17:25:24Z | `PROTOCOL.md`, `decisions/`, `docs/chapter-template.md`, `source/analysis/`, `output/tables/` |
+| [TICK-079](TICK-079-child-cost-direct.md) | C.2.b Rising Direct Costs of Children — smallest remaining frame (587) and the first candidate the fixed coverage check surfaced; the stage-2 ruling that matters is that the estimand is a price faced, not an expenditure observed — chapter drafted 2026-09-03 — SDT MINOR at 13%; stage 11 is one rater of three, stages 13 and 14 open | Shravan | `079-child-cost-direct` | 2026-09-03T16:57:27Z | `literature/search-logs/child-cost-direct-*`, `extraction/child-cost-direct-*`, `output/chapters/child-cost-direct.md` |
 | [TICK-078](TICK-078-easterlin-relative-income.md) | C.6.a Easterlin Relative Income / Cohort Size — chapter drafted 2026-09-02; SDT MINOR, GRADE VERY LOW; three PI calls open | Shravan | `078-easterlin-relative-income` | 2026-09-02T16:07:13Z | `literature/search-logs/easterlin-relative-income-*`, `extraction/easterlin-relative-income-*`, `output/chapters/easterlin-relative-income.md` |
+| [TICK-077](TICK-077-credit-constraints-liquidity.md) | C.3.e Credit Constraints and Liquidity — inherits the C.2.c/C.3.g/A.23 "what varies" boundary rule and the `MIXED_PRICE_CREDIT` routing — chapter drafted 2026-09-01 on the 22% of the pool retrieved | Shravan | `077-credit-constraints-liquidity` | 2026-09-01T16:49:06Z | `literature/search-logs/credit-constraints-*`, `extraction/credit-constraints-*`, `output/chapters/credit-constraints.md` |
+| [TICK-076](TICK-076-heritability-fertility-genetic.md) | A.18 Genetic and Heritable Variation in Fertility — SDT-only arm; scope not yet drafted — **row text is claim-time and stale** — chapter drafted 2026-08-31; NOT ASSESSED on all three phenomena, three-rater panel open | Shravan | `076-heritability-fertility-genetic` | 2026-08-31T17:26:36Z | `literature/search-logs/heritability-fertility-genetic-*`, `extraction/heritability-fertility-genetic-*`, `output/chapters/heritability-fertility-genetic.md` |
+| [TICK-075](TICK-075-co-residence-parents-household-delay.md) | A.23 Co-Residence with Parents and Delayed Household Formation — scope wall inherited from C.2.c's mediator ruling; seeds to harvest from the C.2.c snowball log before a fresh frame — chapter drafted 2026-08-28, 5 rulings PI-pending; demsig vocabulary conformed 2026-08-29 | Shravan | `075-co-residence-parents-household-delay` | 2026-08-27T17:12:42Z | `literature/search-logs/co-residence-parents-household-delay-*`, `extraction/co-residence-parents-household-delay-*`, `output/chapters/co-residence-parents-household-delay.md` |
+| [TICK-074](TICK-074-shared-resolver-punctuation-fold.md) | Shared resolver punctuation and accent fold — canonical `source/lib/textnorm.py` plus a BEHAVIOURAL verifier; 12 copies synced, 7 excluded with reasons — **COMPLETE on its branch (4/4 criteria) and unmerged — the 12 defective resolver copies are still live on `main`** | Shravan | `074-shared-resolver-punctuation-fold` | 2026-08-26T17:23:04Z | `source/lib/textnorm.py`, `scripts/verify_norm.py`, `source/build/goldset/{18,22,49,53,55,56c,64,69,70,72,79,80,84}_*.py` |
+| [TICK-073](TICK-073-student-debt-household-formation.md) | C.3.g Student Debt and Household Formation Constraint — opened 2026-08-26 as the next-smallest hypothesis by measured literature size (48 records in the exposure x fertility cell) — interim chapter drafted; template rewrite 2026-08-29 | Shravan | `073-student-debt-household-formation` | 2026-08-26T15:25:24Z | `literature/search-logs/student-debt-household-formation-*`, `extraction/student-debt-household-formation-*`, `output/chapters/student-debt-household-formation.md`, `source/build/goldset/199*` |
+| [TICK-072](TICK-072-art-access-fertility-recovery.md) | A.17. Assisted Reproductive Technology Access — **boundary inherited from A.12's scope-freeze**: ART live births = ART deliveries x (1 + *m*); A.17 owns the deliveries, A.12 owns only the multiplier, additively separable. Goldset scripts start at **185** (max across every branch, not main's 88) — interim chapter on 33 of 131 full texts; template rewrite 2026-08-29. **The ticket `## Log` is empty, so `close` will refuse it** | Shravan | `072-art-access-fertility-recovery` | 2026-08-25T15:50:40Z | `literature/search-logs/art-access-fertility-recovery-*`, `extraction/art-access-fertility-recovery-*`, `output/chapters/art-access-fertility-recovery.md`, `source/build/goldset/185*` |
+| [TICK-071](TICK-071-dating-apps-union-formation-friction.md) | A.24 Dating Apps and Union-Formation Friction — pre-scope reconnaissance — **row text is claim-time and stale** — chapter drafted, GRADE panel and PI packet done, template rewrite 2026-08-29 | Shravan | `071-dating-apps-union-formation-friction` | 2026-08-24T16:13:04Z | `literature/search-logs/dating-apps-union-formation-friction-*`, `extraction/dating-apps-union-formation-friction-*`, `output/chapters/dating-apps-union-formation-friction.md`, `source/build/goldset/17*` |
+| [TICK-070](TICK-070-twinning-multiple-births.md) | A.12 Twinning Rates and Multiple Births — accounting-identity estimand; DS runs on HMBD + ART registry rates, not on retrieved PDFs — chapter drafted on the 68 readables; template rewrite 2026-08-29 | Shravan | `070-twinning-multiple-births` | 2026-08-21T00:36:46Z | `literature/search-logs/twinning-multiple-births-*`, `extraction/twinning-multiple-births-*`, `output/chapters/twinning-multiple-births.md` |
+| [TICK-069](TICK-069-despair-hopelessness-fertility.md) | D.3.c Despair and Hopelessness — A3+A4 run; PI split it into **two chapters** (deferral, acceleration) on 8/18; B1 deferred pending Calls 3/5 — interim drafts of both chapters; template rewrite 2026-08-29 | Shravan | `069-despair-hopelessness-fertility` | 2026-08-18T23:38:24Z | `literature/search-logs/despair-hopelessness-fertility-*`, `extraction/despair-hopelessness-fertility-*`, `output/chapters/despair-hopelessness-fertility-{deferral,acceleration}.md`, `source/build/goldset/14[7-9]*`, `source/build/goldset/15[01]*` |
 | [TICK-068](TICK-068-microplastics-pfas-reproductive.md) | B.6. Microplastics and PFAS in Reproductive Tissues — both chapter drafts on the PROTOCOL §6 template; last commit 2026-08-14 | Shravan | `068-microplastics-pfas-reproductive` | 2026-08-14T14:23:49Z | `literature/search-logs/microplastics-pfas-reproductive-*`, `extraction/microplastics-pfas-reproductive-*`, `output/chapters/microplastics-pfas-reproductive.md`, `source/build/goldset/13*` |
-| [TICK-067](TICK-067-automate-ticket-claim-loop.md) | Automate the QUEUE.md board move in `scripts/ticket.sh claim` — **built and verified on its branch, unmerged.** This is the fix for the defect that left every row below missing from this board | Shravan | `067-automate-ticket-claim-loop` | 2026-08-13T20:13:46Z | `scripts/ticket.sh`, `tickets/README.md`, `tickets/opening-a-chapter-ticket.md` |
 | [TICK-066](TICK-066-antidepressants-ssri-subfecundity.md) | B.7. Antidepressants and Pharmacological Subfecundity — chapter and verdict drafted; carries a script-numbering flag; last commit 2026-08-12 | Shravan | `066-antidepressants-ssri-subfecundity` | 2026-08-12T19:28:10Z | `literature/search-logs/antidepressants-ssri-subfecundity-*`, `extraction/antidepressants-ssri-subfecundity-*`, `output/chapters/antidepressants-ssri-subfecundity.md` |
 | [TICK-065](TICK-065-fetal-loss-intrauterine-mortality.md) | B.5. Fetal Loss and Intrauterine Mortality — chapter drafted through the verdict section; last commit 2026-08-11 | Shravan | `065-fetal-loss-intrauterine-mortality` | 2026-08-11T20:00:22Z | `literature/search-logs/fetal-loss-intrauterine-mortality-*`, `extraction/fetal-loss-intrauterine-mortality-*`, `output/chapters/fetal-loss-intrauterine-mortality.md` |
 | [TICK-064](TICK-064-child-centeredness-intensive-parenting.md) | D.2.d Child-Centered Intensive Parenting Norms — **chapter drafted, NOT review-ready**; screen at 21% with 53 of 76 batches outstanding, and the 9 primary-cell candidates need a full-text routing pass | Shravan | `064-child-centeredness-intensive-parenting` | 2026-08-08T16:02:45Z | `literature/search-logs/child-centeredness-intensive-parenting-*`, `extraction/child-centeredness-intensive-parenting-*`, `output/chapters/child-centeredness-intensive-parenting.md` |
@@ -119,6 +131,7 @@ tickets can be worked concurrently.
 
 | Ticket | Title | Closed |
 |--------|-------|--------|
+| [TICK-067](TICK-067-automate-ticket-claim-loop.md) | Automate the QUEUE.md board move in `scripts/ticket.sh claim` — merged into `main` 2026-09-08, 26 days after it was built and verified | 2026-09-08 |
 | [TICK-061](TICK-061-one-ticket-per-hypothesis.md) | One ticket and one branch per hypothesis; PROTOCOL §5 stages become the checklist. **Pending PI confirmation at the Monday sync** | 2026-08-02 |
 | [TICK-060](TICK-060-document-ticket-creation-rule.md) | Document where ticket creation happens under Mode B, plus the four `ticket.sh` constraints on new ticket files. First ticket run end-to-end through the Mode B loop. **Numbered TICK-061 in commit history** | 2026-08-02 |
 | [TICK-008](TICK-008-collab-system-design.md) | Design team collaboration/ticketing system; Mode B implementation and `scripts/ticket.sh` | 2026-08-02 |
