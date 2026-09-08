@@ -1,0 +1,63 @@
+{
+  "date": "2026-09-08",
+  "script": "330_c2f_wall_probes.py",
+  "frame": "\"income inequality\" AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+  "rows": [
+    {
+      "label": "the 'income inequality' arm of the frame (328 got 635)",
+      "query": "\"income inequality\" AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 635
+    },
+    {
+      "label": "WALL C.1.a own-income / income-effect vocabulary",
+      "query": "\"income inequality\" AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"income effect\" OR \"household income\" OR \"family income\" OR \"income elasticity\")",
+      "n": 90
+    },
+    {
+      "label": "WALL C.5.a uncertainty / unemployment vocabulary",
+      "query": "\"income inequality\" AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"economic uncertainty\" OR \"unemployment\" OR \"job insecurity\" OR \"precarity\")",
+      "n": 70
+    },
+    {
+      "label": "WALL D.3.c despair / teen-birth vocabulary (2nd wording)",
+      "query": "\"income inequality\" AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"despair\" OR \"hopelessness\" OR \"economic despair\" OR \"teen birth\" OR \"adolescent childbearing\")",
+      "n": 21
+    },
+    {
+      "label": "WALL C.2.h digital / social-media reference group",
+      "query": "\"income inequality\" AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"social media\" OR \"internet use\" OR \"smartphone\")",
+      "n": 1
+    },
+    {
+      "label": "HOMONYM gender inequality arm (D.2.a's estimand)",
+      "query": "(\"gender inequality\" OR \"gender equity\" OR \"gender gap\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 2281
+    },
+    {
+      "label": "HOMONYM gender arm INSIDE the income-inequality frame",
+      "query": "\"income inequality\" AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"gender inequality\" OR \"gender equity\" OR \"gender gap\")",
+      "n": 30
+    },
+    {
+      "label": "HOMONYM health / educational inequality inside the frame",
+      "query": "\"income inequality\" AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"health inequality\" OR \"health disparities\" OR \"educational inequality\")",
+      "n": 8
+    },
+    {
+      "label": "DIRECTION fertility as a cause of inequality (wrong direction)",
+      "query": "\"income inequality\" AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"differential fertility\" OR \"fertility differentials\" OR \"assortative mating\")",
+      "n": 25
+    },
+    {
+      "label": "DIRECTION cross-sectional gradient (context, not an effect)",
+      "query": "\"income inequality\" AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"income gradient\" OR \"socioeconomic gradient\" OR \"socioeconomic status\")",
+      "n": 26
+    },
+    {
+      "label": "DIRECTION policy/quasi-experimental language inside the frame",
+      "query": "\"income inequality\" AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"natural experiment\" OR \"difference-in-differences\" OR \"instrumental variable\" OR \"regression discontinuity\" OR \"randomized\")",
+      "n": 32
+    }
+  ],
+  "refused": []
+}

@@ -8,7 +8,7 @@
 **Touches:** literature/search-logs/rising-inequality-and-status-competition-*, extraction/rising-inequality-and-status-competition-*, output/chapters/rising-inequality-and-status-competition.md, source/build/goldset/32[89]*, source/build/goldset/33*
 
 ## Acceptance criteria
-- [ ] 2. Search strategy and scope drafted
+- [x] 2. Search strategy and scope drafted
 - [ ] 3. Literature search and AI screening, both phases (§5.1)
 - [ ] 4. RA title/abstract review
 - [ ] 5. Full-text retrieval
@@ -173,4 +173,46 @@ C.6.a number matters because ruling 2 predicted that wall would be the expensive
 
 Next: freeze rulings 1–6 with the revised exposure axis, then A3 cold-start anchors on the Tier-A
 canon (import `source/lib/textnorm.py`, now canonical on `main`; do not copy a `norm()`).
+
+### 2026-09-08 — walls measured (script 330) and the scope FROZEN
+
+`literature/search-logs/rising-inequality-and-status-competition-search-scope.md`, 353 lines, on the
+C.2.b section order. Walls, estimand cells, required tags, pooling rule and the demsig route are
+frozen. Four PI calls open. `330_c2f_wall_probes.py` + log; 12 measurements, zero refused.
+
+**The four walls that had no number now have one**, all inside the fertility-restricted frame of 635:
+
+| wall | n | note |
+|---|---|---|
+| C.1.a own income | **90** | the largest, and the one most likely to be violated silently |
+| C.5.a uncertainty | **70** | §7 row 3 moves dispersion and insecurity together |
+| D.3.c despair / teen births | **21** | Kearney–Levine's headline is this, not status competition |
+| C.2.h digital reference group | **1** | no screen rule spent |
+| gender-inequality homonym | **30** | the gender-and-fertility literature is 2,281 and barely intersects |
+| health / educational inequality | **8** | no screen rule spent |
+| wrong direction (fertility → inequality) | **25** | context cell |
+| cross-sectional gradient | **26** | context cell |
+
+**A diagnostic of mine was refuted by its own output, exactly as `diagnostic-refuted-by-own-output`
+predicts.** `330`'s identification probe used a narrow IDENT list — natural experiment,
+diff-in-diff, IV, RDD, randomized — and returned **32** of 635. The list lacks bare `"experiment"`,
+`"event study"`, `"synthetic control"`, `"quasi-experimental"`, and the panel vocabulary. Re-measured:
+adding the first group gives 13 more, adding the panel group 59 more, and the **union of all three is
+89**, 2.8x the narrow count. The scope document uses the range, not the 32, and notes that panel
+fixed effects is weak identification *for this estimand* — a panel regression of fertility on a Gini
+is still associational for a positional mechanism.
+
+**The scope's substantive core is §2 and §4.** §2 freezes the C.3.d wall on return-vs-reference-
+standard, written so C.3.d can inherit it. §4 records that both outer links of the conjunction have
+substantial literatures, that the join has ~2 records, and that link 2 *is C.3.d's chapter* — so
+C.2.f risks being composed entirely of its neighbours' links. §7 rows 6 and 7 (rank-based school
+allocation; shadow-education bans, Korea 1980 and China 2021) are named as the only two places where
+the positional mechanism separates from the return, and row 7 sits directly on the missing link.
+
+**PI call 1 is the real one**: whether C.2.f survives as its own chapter, merges into C.3.d as its
+positional arm, or waits for C.3.d. Recommendation recorded as run-it-and-report-UNEVALUATED.
+
+Next: free-seed harvest (331), then build the inequality series and run the §5 sign test **before**
+the production query — on C.6.a the sign test settled the cell, and on C.2.b the index inverted its
+own answer once the deflator was fixed.
 
