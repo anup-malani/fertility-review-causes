@@ -49,6 +49,9 @@ COST_CEILING = 400      # records admitted per additional anchor recalled
 
 OUTCOME = ['"fertility"', '"childbearing"', '"birth rate"', '"total fertility rate"',
            '"family size"', '"number of children"']
+# §4A's recovered cloud reports FERTILITY INTENTIONS as often as realized fertility; omitting the
+# term would make that arm's recall a partial artefact of the outcome axis rather than the exposure.
+# Kept as an outcome CANDIDATE per arm rather than added to the base, so its price is visible.
 
 # The second outcome axis. Scope §4 and script 336: nine of fourteen canon anchors do not measure
 # fertility at all, so an arm aimed at them must be scored against the INVESTMENT outcome or its
@@ -59,7 +62,7 @@ OUTCOME_INVEST = ['"parental investment"', '"child investment"', '"investment in
 # Only the arms whose outcome IS fertility can populate a primary cell. The link-1 and positional
 # arms are retrieved to size the mechanism literature and to feed the snowball, never to be counted
 # as evidence on the demographic question.
-PRIMARY_ARMS = {"dispersion", "fertility", "mechanism"}
+PRIMARY_ARMS = {"dispersion", "fertility", "mechanism", "education-competition"}
 
 ARMS = [
     # The general exposure axis. Scope §3 measured "income inequality" carrying 635 of a 716-record
@@ -80,6 +83,22 @@ ARMS = [
                     '"conspicuous consumption"', '"relative deprivation"', '"status anxiety"',
                     '"positional competition"', '"reproductive competition"'],
      "outcome_candidates": ['"desired family size"', '"fertility intentions"']},
+    # Scope §4A, added 2026-09-08. The recovered second channel, and on current evidence the arm
+    # most likely to hold an identified design. §4 probed this chain in economics-of-inequality
+    # vocabulary and got 2 records; in the East Asian education-competition vocabulary it returns 56.
+    # It lands §7 row 7 -- China's 2021 "double reduction" tutoring ban and Korea's 1980 ban are
+    # policy shocks to REQUIRED INVESTMENT PER CHILD with fertility outcomes attached.
+    #
+    # Bare "education expenditure" is deliberately EXCLUDED: it returns 102 against the fertility
+    # axis and splits ~50/50 into household and GOVERNMENT spending, and the public-finance half is
+    # C.2.d's estimand, not this chapter's. "educational burden" (16) carries the household sense.
+    {"name": "education-competition", "targets": ["education-competition"],
+     "base": ['"shadow education"', '"private tutoring"'], "outcome": OUTCOME,
+     "candidates": ['"cram school"', '"education competition"', '"educational competition"',
+                    '"private tutoring ban"', '"double reduction"', '"educational burden"',
+                    '"burden of education"', '"status externalities"'],
+     "outcome_candidates": ['"fertility intention"', '"desired family size"',
+                            '"completed fertility"']},
     # Scope §7's SECOND CHANNEL, and it is a different literature's local vocabulary
     # (`policy-literatures-indexed-in-local-vocabulary`, worth +40% of A.23's frame). Scored on the
     # INVESTMENT outcome: these anchors do not measure fertility.

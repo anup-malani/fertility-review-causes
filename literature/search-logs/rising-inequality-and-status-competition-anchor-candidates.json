@@ -1,5 +1,14 @@
 [
  {
+  "title": "The dynamics of asymmetry among fertility, income inequality and financial development in Bangladesh",
+  "year": 2022,
+  "first_author": "",
+  "source": "control",
+  "arm": "inequality-general",
+  "doi": "10.1016/j.wds.2022.100014",
+  "outcome_is_fertility": true
+ },
+ {
   "title": "Status competition, inequality, and fertility: implications for the demographic transition",
   "year": 2016,
   "first_author": "",
@@ -9,12 +18,12 @@
   "outcome_is_fertility": true
  },
  {
-  "title": "The impact of women's social position on fertility in developing countries",
-  "year": 1987,
+  "title": "Explaining Income Inequality and Intergenerational Mobility: The Role of Fertility and Family Transfers",
+  "year": 2015,
   "first_author": "",
   "source": "control",
-  "arm": "mechanism",
-  "doi": "10.1007/bf01124382",
+  "arm": "inequality-general",
+  "doi": "10.2139/ssrn.2699516",
   "outcome_is_fertility": true
  },
  {
@@ -22,7 +31,7 @@
   "year": 2026,
   "first_author": "",
   "source": "control",
-  "arm": "mechanism",
+  "arm": "education-competition",
   "doi": "10.1017/dem.2026.10024",
   "outcome_is_fertility": true
  },
@@ -31,17 +40,8 @@
   "year": 2010,
   "first_author": "",
   "source": "control",
-  "arm": "mechanism",
+  "arm": "education-competition",
   "doi": "10.1111/j.1468-0084.2010.00607.x",
-  "outcome_is_fertility": true
- },
- {
-  "title": "Ideal Age at First Birth and Associated Factors Among Young Adults in Greater New York City: Findings From the Social Position and Family Formation Study",
-  "year": 2019,
-  "first_author": "",
-  "source": "control",
-  "arm": "mechanism",
-  "doi": "10.1177/0192513x19875762",
   "outcome_is_fertility": true
  },
  {
@@ -58,80 +58,8 @@
   "year": 2024,
   "first_author": "",
   "source": "control",
-  "arm": "mechanism",
+  "arm": "education-competition",
   "doi": "10.2139/ssrn.4980022",
-  "outcome_is_fertility": true
- },
- {
-  "title": "Expansion of shadow education, status externalities, and fertility intentions",
-  "year": 2025,
-  "first_author": "",
-  "source": "control",
-  "arm": "mechanism",
-  "doi": "10.3724/1005-0566.20251207",
-  "outcome_is_fertility": true
- },
- {
-  "title": "Inconspicuous Consumption: Sake, Beer, and the Birth of the Consumer in Japan",
-  "year": 2009,
-  "first_author": "",
-  "source": "control",
-  "arm": "mechanism",
-  "doi": "10.1017/s0021911809000035",
-  "outcome_is_fertility": true
- },
- {
-  "title": "Charles Frederick Worth and the birth of Haute Couture: Fashion design and textile renewal in the times of conspicuous consumption",
-  "year": 2018,
-  "first_author": "",
-  "source": "control",
-  "arm": "mechanism",
-  "doi": "10.1201/9781315100210-52",
-  "outcome_is_fertility": true
- },
- {
-  "title": "Ageing and social rank effects on the reproductive system of free-ranging yellow baboons (Papio cynocephalus) at Mikumi National Park, Tanzania",
-  "year": 1998,
-  "first_author": "",
-  "source": "control",
-  "arm": "mechanism",
-  "doi": "10.1093/humupd/4.4.430",
-  "outcome_is_fertility": true
- },
- {
-  "title": "The impact of shadow education expenditures on fertility rates in South Korea",
-  "year": 2026,
-  "first_author": "",
-  "source": "control",
-  "arm": "mechanism",
-  "doi": "10.1007/s00148-026-01156-0",
-  "outcome_is_fertility": true
- },
- {
-  "title": "Money and success \u2013 Sibling and birth-order effects on positional concerns",
-  "year": 2009,
-  "first_author": "",
-  "source": "control",
-  "arm": "mechanism",
-  "doi": "10.1016/j.joep.2009.11.009",
-  "outcome_is_fertility": true
- },
- {
-  "title": "The dynamics of asymmetry among fertility, income inequality and financial development in Bangladesh",
-  "year": 2022,
-  "first_author": "",
-  "source": "control",
-  "arm": "inequality-general",
-  "doi": "10.1016/j.wds.2022.100014",
-  "outcome_is_fertility": true
- },
- {
-  "title": "Explaining Income Inequality and Intergenerational Mobility: The Role of Fertility and Family Transfers",
-  "year": 2015,
-  "first_author": "",
-  "source": "control",
-  "arm": "inequality-general",
-  "doi": "10.2139/ssrn.2699516",
   "outcome_is_fertility": true
  },
  {
@@ -141,15 +69,6 @@
   "source": "control",
   "arm": "inequality-general",
   "doi": "10.16538/j.cnki.jfe.2017.05.002",
-  "outcome_is_fertility": true
- },
- {
-  "title": "Income Inequality and Reproductive Competition: Implications for Consumption, Status-Seeking, and Women\u2019s Self-Sexualization",
-  "year": 2019,
-  "first_author": "",
-  "source": "control",
-  "arm": "inequality-general",
-  "doi": "10.1007/978-3-030-28856-3_11",
   "outcome_is_fertility": true
  },
  {
@@ -184,8 +103,17 @@
   "year": 2016,
   "first_author": "",
   "source": "control",
-  "arm": "inequality-general",
+  "arm": "education-competition",
   "doi": "10.1016/j.jadohealth.2016.08.026",
+  "outcome_is_fertility": true
+ },
+ {
+  "title": "Expansion of shadow education, status externalities, and fertility intentions",
+  "year": 2025,
+  "first_author": "",
+  "source": "control",
+  "arm": "education-competition",
+  "doi": "10.3724/1005-0566.20251207",
   "outcome_is_fertility": true
  },
  {
@@ -216,12 +144,12 @@
   "outcome_is_fertility": true
  },
  {
-  "title": "Maternal Social Support and Neighborhood Income Inequality as Predictors of Low Birth Weight and Preterm Birth Outcome Disparities: Analysis of South Carolina Pregnancy Risk Assessment and Monitoring System Survey, 2000\u20132003",
-  "year": 2009,
+  "title": "The impact of shadow education expenditures on fertility rates in South Korea",
+  "year": 2026,
   "first_author": "",
   "source": "control",
-  "arm": "inequality-general",
-  "doi": "10.1007/s10995-009-0508-8",
+  "arm": "education-competition",
+  "doi": "10.1007/s00148-026-01156-0",
   "outcome_is_fertility": true
  },
  {
@@ -352,6 +280,22 @@
   "first_author": "Becker",
   "source": "hand",
   "arm": "c3d-boundary",
+  "outcome_is_fertility": true
+ },
+ {
+  "title": "The impact of shadow education expenditures on fertility rates in South Korea",
+  "year": 2026,
+  "first_author": "",
+  "source": "hand",
+  "arm": "education-competition",
+  "outcome_is_fertility": true
+ },
+ {
+  "title": "Education Competition and Fertility Intention: Evidence from China's Private Tutoring Ban",
+  "year": 2024,
+  "first_author": "",
+  "source": "hand",
+  "arm": "education-competition",
   "outcome_is_fertility": true
  }
 ]

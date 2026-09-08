@@ -22,18 +22,18 @@
       ],
       "query": "(\"income inequality\" OR \"Gini\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\" OR \"first birth\")",
       "frame": 851,
-      "arm_recall": 13,
-      "arm_n": 16,
+      "arm_recall": 12,
+      "arm_n": 13,
       "steps": [
         {
           "label": "baseline",
           "frame": 845,
-          "arm_recall": 12
+          "arm_recall": 11
         },
         {
           "term": "\"top income share\"",
           "frame": 845,
-          "arm_recall": 12,
+          "arm_recall": 11,
           "gain": 0,
           "cost": 0,
           "price": null,
@@ -42,7 +42,7 @@
         {
           "term": "\"income concentration\"",
           "frame": 849,
-          "arm_recall": 12,
+          "arm_recall": 11,
           "gain": 0,
           "cost": 4,
           "price": null,
@@ -51,7 +51,7 @@
         {
           "term": "\"wage dispersion\"",
           "frame": 850,
-          "arm_recall": 12,
+          "arm_recall": 11,
           "gain": 0,
           "cost": 5,
           "price": null,
@@ -60,7 +60,7 @@
         {
           "term": "\"earnings inequality\"",
           "frame": 868,
-          "arm_recall": 12,
+          "arm_recall": 11,
           "gain": 0,
           "cost": 23,
           "price": null,
@@ -69,7 +69,7 @@
         {
           "term": "\"income dispersion\"",
           "frame": 848,
-          "arm_recall": 12,
+          "arm_recall": 11,
           "gain": 0,
           "cost": 3,
           "price": null,
@@ -78,7 +78,7 @@
         {
           "term": "\"income distribution\"",
           "frame": 1232,
-          "arm_recall": 12,
+          "arm_recall": 11,
           "gain": 0,
           "cost": 387,
           "price": null,
@@ -87,7 +87,7 @@
         {
           "term": "\"90/10 ratio\"",
           "frame": 847,
-          "arm_recall": 12,
+          "arm_recall": 11,
           "gain": 0,
           "cost": 2,
           "price": null,
@@ -96,7 +96,7 @@
         {
           "term": "\"top 1 percent\"",
           "frame": 847,
-          "arm_recall": 12,
+          "arm_recall": 11,
           "gain": 0,
           "cost": 2,
           "price": null,
@@ -106,7 +106,7 @@
           "axis": "outcome",
           "term": "\"completed fertility\"",
           "frame": 845,
-          "arm_recall": 12,
+          "arm_recall": 11,
           "gain": 0,
           "cost": 0,
           "price": null,
@@ -116,7 +116,7 @@
           "axis": "outcome",
           "term": "\"desired family size\"",
           "frame": 845,
-          "arm_recall": 12,
+          "arm_recall": 11,
           "gain": 0,
           "cost": 0,
           "price": null,
@@ -126,7 +126,7 @@
           "axis": "outcome",
           "term": "\"fertility intentions\"",
           "frame": 845,
-          "arm_recall": 12,
+          "arm_recall": 11,
           "gain": 0,
           "cost": 0,
           "price": null,
@@ -136,7 +136,7 @@
           "axis": "outcome",
           "term": "\"first birth\"",
           "frame": 851,
-          "arm_recall": 13,
+          "arm_recall": 12,
           "gain": 1,
           "cost": 6,
           "price": 6.0,
@@ -146,7 +146,7 @@
       "leave_one_out": [
         {
           "term": "\"income inequality\"",
-          "arm_recall_without": 4,
+          "arm_recall_without": 3,
           "uniquely_carries": 9,
           "frame_without": 289,
           "unique_records": 562,
@@ -154,7 +154,7 @@
         },
         {
           "term": "\"Gini\"",
-          "arm_recall_without": 13,
+          "arm_recall_without": 12,
           "uniquely_carries": 0,
           "frame_without": 641,
           "unique_records": 210,
@@ -183,7 +183,7 @@
       "query": "(\"status competition\" OR \"relative status\" OR \"relative deprivation\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
       "frame": 92,
       "arm_recall": 2,
-      "arm_n": 13,
+      "arm_n": 2,
       "steps": [
         {
           "label": "baseline",
@@ -306,6 +306,155 @@
           "uniquely_carries": 1,
           "frame_without": 57,
           "unique_records": 35,
+          "suspect_homonym": false
+        }
+      ]
+    },
+    {
+      "name": "education-competition",
+      "targets": [
+        "education-competition"
+      ],
+      "exposure_axis": [
+        "\"shadow education\"",
+        "\"private tutoring\""
+      ],
+      "outcome_axis": [
+        "\"fertility\"",
+        "\"childbearing\"",
+        "\"birth rate\"",
+        "\"total fertility rate\"",
+        "\"family size\"",
+        "\"number of children\""
+      ],
+      "query": "(\"shadow education\" OR \"private tutoring\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "frame": 43,
+      "arm_recall": 7,
+      "arm_n": 8,
+      "steps": [
+        {
+          "label": "baseline",
+          "frame": 43,
+          "arm_recall": 7
+        },
+        {
+          "term": "\"cram school\"",
+          "frame": 56,
+          "arm_recall": 7,
+          "gain": 0,
+          "cost": 13,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"education competition\"",
+          "frame": 48,
+          "arm_recall": 7,
+          "gain": 0,
+          "cost": 5,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"educational competition\"",
+          "frame": 48,
+          "arm_recall": 7,
+          "gain": 0,
+          "cost": 5,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"private tutoring ban\"",
+          "frame": 43,
+          "arm_recall": 7,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"double reduction\"",
+          "frame": 59,
+          "arm_recall": 7,
+          "gain": 0,
+          "cost": 16,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"educational burden\"",
+          "frame": 52,
+          "arm_recall": 7,
+          "gain": 0,
+          "cost": 9,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"burden of education\"",
+          "frame": 50,
+          "arm_recall": 7,
+          "gain": 0,
+          "cost": 7,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"status externalities\"",
+          "frame": 47,
+          "arm_recall": 7,
+          "gain": 0,
+          "cost": 4,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"fertility intention\"",
+          "frame": 43,
+          "arm_recall": 7,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"desired family size\"",
+          "frame": 43,
+          "arm_recall": 7,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"completed fertility\"",
+          "frame": 43,
+          "arm_recall": 7,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        }
+      ],
+      "leave_one_out": [
+        {
+          "term": "\"shadow education\"",
+          "arm_recall_without": 5,
+          "uniquely_carries": 2,
+          "frame_without": 35,
+          "unique_records": 8,
+          "suspect_homonym": false
+        },
+        {
+          "term": "\"private tutoring\"",
+          "arm_recall_without": 4,
+          "uniquely_carries": 3,
+          "frame_without": 11,
+          "unique_records": 32,
           "suspect_homonym": false
         }
       ]
@@ -646,85 +795,19 @@
       ]
     }
   ],
-  "gold_n": 40,
+  "gold_n": 34,
   "arms_not_screened": [
     "c3d-boundary"
   ],
-  "union_query": "((\"income inequality\" OR \"Gini\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\" OR \"first birth\")) OR ((\"status competition\" OR \"relative status\" OR \"relative deprivation\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")) OR ((\"shadow education\" OR \"private tutoring\") AND (\"parental investment\" OR \"child investment\" OR \"investment in children\" OR \"educational spending\" OR \"parental spending\" OR \"educational investment\")) OR ((\"positional good\" OR \"conspicuous consumption\") AND (\"parental investment\" OR \"child investment\" OR \"investment in children\" OR \"educational spending\" OR \"parental spending\" OR \"educational investment\"))",
-  "union_frame_deduplicated": 982,
+  "union_query": "((\"income inequality\" OR \"Gini\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\" OR \"first birth\")) OR ((\"status competition\" OR \"relative status\" OR \"relative deprivation\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")) OR ((\"shadow education\" OR \"private tutoring\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")) OR ((\"shadow education\" OR \"private tutoring\") AND (\"parental investment\" OR \"child investment\" OR \"investment in children\" OR \"educational spending\" OR \"parental spending\" OR \"educational investment\")) OR ((\"positional good\" OR \"conspicuous consumption\") AND (\"parental investment\" OR \"child investment\" OR \"investment in children\" OR \"educational spending\" OR \"parental spending\" OR \"educational investment\"))",
+  "union_frame_deduplicated": 1016,
   "union_frame_error": null,
-  "union_query_recall": 5,
+  "union_query_recall": 11,
   "union": {
-    "primary_recall": 5,
-    "primary_n": 15,
-    "total_frame_upper_bound": 995,
+    "primary_recall": 11,
+    "primary_n": 12,
+    "total_frame_upper_bound": 1038,
     "unreachable": [
-      {
-        "arm": "mechanism",
-        "source": "control",
-        "title": "The impact of women's social position on fertility in developing countries",
-        "why": "VOCABULARY MISS -> citation channel"
-      },
-      {
-        "arm": "mechanism",
-        "source": "control",
-        "title": "Ideal Age at First Birth and Associated Factors Among Young Adults in Greater New York City: Findings From the Social Position and Family Formation Study",
-        "why": "VOCABULARY MISS -> citation channel"
-      },
-      {
-        "arm": "mechanism",
-        "source": "control",
-        "title": "Education Competition and Fertility Intention: Evidence from China's Private Tutoring Ban",
-        "why": "VOCABULARY MISS -> citation channel"
-      },
-      {
-        "arm": "mechanism",
-        "source": "control",
-        "title": "Expansion of shadow education, status externalities, and fertility intentions",
-        "why": "VOCABULARY MISS -> citation channel"
-      },
-      {
-        "arm": "mechanism",
-        "source": "control",
-        "title": "Inconspicuous Consumption: Sake, Beer, and the Birth of the Consumer in Japan",
-        "why": "VOCABULARY MISS -> citation channel"
-      },
-      {
-        "arm": "mechanism",
-        "source": "control",
-        "title": "Charles Frederick Worth and the birth of Haute Couture: Fashion design and textile renewal in the times of conspicuous consumption",
-        "why": "VOCABULARY MISS -> citation channel"
-      },
-      {
-        "arm": "mechanism",
-        "source": "control",
-        "title": "Ageing and social rank effects on the reproductive system of free-ranging yellow baboons (Papio cynocephalus) at Mikumi National Park, Tanzania",
-        "why": "VOCABULARY MISS -> citation channel"
-      },
-      {
-        "arm": "mechanism",
-        "source": "control",
-        "title": "The impact of shadow education expenditures on fertility rates in South Korea",
-        "why": "VOCABULARY MISS -> citation channel"
-      },
-      {
-        "arm": "mechanism",
-        "source": "control",
-        "title": "Money and success \u2013 Sibling and birth-order effects on positional concerns",
-        "why": "VOCABULARY MISS -> citation channel"
-      },
-      {
-        "arm": "inequality-general",
-        "source": "control",
-        "title": "Income Inequality and Reproductive Competition: Implications for Consumption, Status-Seeking, and Women\u2019s Self-Sexualization",
-        "why": "VOCABULARY MISS -> citation channel"
-      },
-      {
-        "arm": "inequality-general",
-        "source": "control",
-        "title": "Maternal Social Support and Neighborhood Income Inequality as Predictors of Low Birth Weight and Preterm Birth Outcome Disparities: Analysis of South Carolina Pregnancy Risk Assessment and Monitoring System Survey, 2000\u20132003",
-        "why": "VOCABULARY MISS -> citation channel"
-      },
       {
         "arm": "theory",
         "source": "hand",
@@ -800,13 +883,13 @@
     ]
   },
   "pool": {
-    "key": 118,
+    "key": 146,
     "polite": 0,
     "refused": 0,
     "throttle_waits": 0
   },
   "cache": {
     "hit": 1,
-    "miss": 59
+    "miss": 73
   }
 }

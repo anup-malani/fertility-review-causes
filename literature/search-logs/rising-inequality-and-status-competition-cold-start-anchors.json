@@ -1,5 +1,39 @@
 [
   {
+    "title": "The dynamics of asymmetry among fertility, income inequality and financial development in Bangladesh",
+    "year": 2022,
+    "first_author": "",
+    "source": "control",
+    "arm": "inequality-general",
+    "doi": "10.1016/j.wds.2022.100014",
+    "outcome_is_fertility": true,
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4285115633",
+      "doi": "https://doi.org/10.1016/j.wds.2022.100014",
+      "title": "The dynamics of asymmetry among fertility, income inequality and financial development in Bangladesh",
+      "year": 2022,
+      "type": "article",
+      "venue": "World Development Sustainability",
+      "authors_first": "Humaira Husain",
+      "cited_by": 6,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
     "title": "Status competition, inequality, and fertility: implications for the demographic transition",
     "year": 2016,
     "first_author": "",
@@ -34,12 +68,12 @@
     "title_drift": false
   },
   {
-    "title": "The impact of women's social position on fertility in developing countries",
-    "year": 1987,
+    "title": "Explaining Income Inequality and Intergenerational Mobility: The Role of Fertility and Family Transfers",
+    "year": 2015,
     "first_author": "",
     "source": "control",
-    "arm": "mechanism",
-    "doi": "10.1007/bf01124382",
+    "arm": "inequality-general",
+    "doi": "10.2139/ssrn.2699516",
     "outcome_is_fertility": true,
     "queries": [
       {
@@ -49,14 +83,14 @@
       }
     ],
     "top_candidate": {
-      "oa_id": "https://openalex.org/W2008883797",
-      "doi": "https://doi.org/10.1007/bf01124382",
-      "title": "The impact of women's social position on fertility in developing countries",
-      "year": 1987,
-      "type": "article",
-      "venue": "Sociological Forum",
-      "authors_first": "Karen Oppenheim Mason",
-      "cited_by": 255,
+      "oa_id": "https://openalex.org/W4230356224",
+      "doi": "https://doi.org/10.2139/ssrn.2699516",
+      "title": "Explaining Income Inequality and Intergenerational Mobility: The Role of Fertility and Family Transfers",
+      "year": 2015,
+      "type": "preprint",
+      "venue": "SSRN Electronic Journal",
+      "authors_first": "Diego Daruich",
+      "cited_by": 2,
       "jaccard": 1.0,
       "stem": false,
       "first_author_ok": null,
@@ -72,7 +106,7 @@
     "year": 2026,
     "first_author": "",
     "source": "control",
-    "arm": "mechanism",
+    "arm": "education-competition",
     "doi": "10.1017/dem.2026.10024",
     "outcome_is_fertility": true,
     "queries": [
@@ -106,7 +140,7 @@
     "year": 2010,
     "first_author": "",
     "source": "control",
-    "arm": "mechanism",
+    "arm": "education-competition",
     "doi": "10.1111/j.1468-0084.2010.00607.x",
     "outcome_is_fertility": true,
     "queries": [
@@ -125,40 +159,6 @@
       "venue": "Oxford Bulletin of Economics and Statistics",
       "authors_first": "Changhui Kang",
       "cited_by": 51,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "Ideal Age at First Birth and Associated Factors Among Young Adults in Greater New York City: Findings From the Social Position and Family Formation Study",
-    "year": 2019,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.1177/0192513x19875762",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W2973477826",
-      "doi": "https://doi.org/10.1177/0192513x19875762",
-      "title": "Ideal Age at First Birth and Associated Factors Among Young Adults in Greater New York City: Findings From the Social Position and Family Formation Study",
-      "year": 2019,
-      "type": "article",
-      "venue": "Journal of Family Issues",
-      "authors_first": "Andrea Melnikas",
-      "cited_by": 19,
       "jaccard": 1.0,
       "stem": false,
       "first_author_ok": null,
@@ -208,7 +208,7 @@
     "year": 2024,
     "first_author": "",
     "source": "control",
-    "arm": "mechanism",
+    "arm": "education-competition",
     "doi": "10.2139/ssrn.4980022",
     "outcome_is_fertility": true,
     "queries": [
@@ -227,278 +227,6 @@
       "venue": "SSRN Electronic Journal",
       "authors_first": "Juanjuan Meng",
       "cited_by": 3,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "Expansion of shadow education, status externalities, and fertility intentions",
-    "year": 2025,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.3724/1005-0566.20251207",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W7131356537",
-      "doi": "https://doi.org/10.3724/1005-0566.20251207",
-      "title": "Expansion of shadow education, status externalities, and fertility intentions",
-      "year": 2025,
-      "type": "article",
-      "venue": "Zhongguo ruankexue",
-      "authors_first": "Fei Chen",
-      "cited_by": 1,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "Inconspicuous Consumption: Sake, Beer, and the Birth of the Consumer in Japan",
-    "year": 2009,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.1017/s0021911809000035",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W2074784620",
-      "doi": "https://doi.org/10.1017/s0021911809000035",
-      "title": "Inconspicuous Consumption: Sake, Beer, and the Birth of the Consumer in Japan",
-      "year": 2009,
-      "type": "article",
-      "venue": "The Journal of Asian Studies",
-      "authors_first": "Penelope Francks",
-      "cited_by": 39,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "Charles Frederick Worth and the birth of Haute Couture: Fashion design and textile renewal in the times of conspicuous consumption",
-    "year": 2018,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.1201/9781315100210-52",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W3023481492",
-      "doi": "https://doi.org/10.1201/9781315100210-52",
-      "title": "Charles Frederick Worth and the birth of Haute Couture: Fashion design and textile renewal in the times of conspicuous consumption",
-      "year": 2018,
-      "type": "book-chapter",
-      "venue": null,
-      "authors_first": "Maria Jo\u00e3o",
-      "cited_by": 5,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "Ageing and social rank effects on the reproductive system of free-ranging yellow baboons (Papio cynocephalus) at Mikumi National Park, Tanzania",
-    "year": 1998,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.1093/humupd/4.4.430",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W2150857792",
-      "doi": "https://doi.org/10.1093/humupd/4.4.430",
-      "title": "Ageing and social rank effects on the reproductive system of free-ranging yellow baboons (Papio cynocephalus) at Mikumi National Park, Tanzania",
-      "year": 1998,
-      "type": "article",
-      "venue": "Human Reproduction Update",
-      "authors_first": "Solomon P. Wasser",
-      "cited_by": 51,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "The impact of shadow education expenditures on fertility rates in South Korea",
-    "year": 2026,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.1007/s00148-026-01156-0",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W7127591645",
-      "doi": "https://doi.org/10.1007/s00148-026-01156-0",
-      "title": "The impact of shadow education expenditures on fertility rates in South Korea",
-      "year": 2026,
-      "type": "article",
-      "venue": "Journal of Population Economics",
-      "authors_first": "Taehoon Kim",
-      "cited_by": 1,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "Money and success \u2013 Sibling and birth-order effects on positional concerns",
-    "year": 2009,
-    "first_author": "",
-    "source": "control",
-    "arm": "mechanism",
-    "doi": "10.1016/j.joep.2009.11.009",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W2011116607",
-      "doi": "https://doi.org/10.1016/j.joep.2009.11.009",
-      "title": "Money and success \u2013 Sibling and birth-order effects on positional concerns",
-      "year": 2009,
-      "type": "article",
-      "venue": "Journal of Economic Psychology",
-      "authors_first": "Elina Lampi",
-      "cited_by": 19,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "The dynamics of asymmetry among fertility, income inequality and financial development in Bangladesh",
-    "year": 2022,
-    "first_author": "",
-    "source": "control",
-    "arm": "inequality-general",
-    "doi": "10.1016/j.wds.2022.100014",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W4285115633",
-      "doi": "https://doi.org/10.1016/j.wds.2022.100014",
-      "title": "The dynamics of asymmetry among fertility, income inequality and financial development in Bangladesh",
-      "year": 2022,
-      "type": "article",
-      "venue": "World Development Sustainability",
-      "authors_first": "Humaira Husain",
-      "cited_by": 6,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "Explaining Income Inequality and Intergenerational Mobility: The Role of Fertility and Family Transfers",
-    "year": 2015,
-    "first_author": "",
-    "source": "control",
-    "arm": "inequality-general",
-    "doi": "10.2139/ssrn.2699516",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W4230356224",
-      "doi": "https://doi.org/10.2139/ssrn.2699516",
-      "title": "Explaining Income Inequality and Intergenerational Mobility: The Role of Fertility and Family Transfers",
-      "year": 2015,
-      "type": "preprint",
-      "venue": "SSRN Electronic Journal",
-      "authors_first": "Diego Daruich",
-      "cited_by": 2,
       "jaccard": 1.0,
       "stem": false,
       "first_author_ok": null,
@@ -533,40 +261,6 @@
       "venue": "Cai-jing yanjiu",
       "authors_first": "Jiajun Lan",
       "cited_by": 0,
-      "jaccard": 1.0,
-      "stem": false,
-      "first_author_ok": null,
-      "year_ok": true,
-      "score": 1.0,
-      "via": "doi"
-    },
-    "verdict": "MATCH_BY_DOI",
-    "title_drift": false
-  },
-  {
-    "title": "Income Inequality and Reproductive Competition: Implications for Consumption, Status-Seeking, and Women\u2019s Self-Sexualization",
-    "year": 2019,
-    "first_author": "",
-    "source": "control",
-    "arm": "inequality-general",
-    "doi": "10.1007/978-3-030-28856-3_11",
-    "outcome_is_fertility": true,
-    "queries": [
-      {
-        "mode": "doi",
-        "error": null,
-        "count": 1
-      }
-    ],
-    "top_candidate": {
-      "oa_id": "https://openalex.org/W2984871310",
-      "doi": "https://doi.org/10.1007/978-3-030-28856-3_11",
-      "title": "Income Inequality and Reproductive Competition: Implications for Consumption, Status-Seeking, and Women\u2019s Self-Sexualization",
-      "year": 2019,
-      "type": "book-chapter",
-      "venue": null,
-      "authors_first": "Khandis R. Blake",
-      "cited_by": 12,
       "jaccard": 1.0,
       "stem": false,
       "first_author_ok": null,
@@ -684,7 +378,7 @@
     "year": 2016,
     "first_author": "",
     "source": "control",
-    "arm": "inequality-general",
+    "arm": "education-competition",
     "doi": "10.1016/j.jadohealth.2016.08.026",
     "outcome_is_fertility": true,
     "queries": [
@@ -703,6 +397,40 @@
       "venue": "Journal of Adolescent Health",
       "authors_first": "John Santelli",
       "cited_by": 78,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Expansion of shadow education, status externalities, and fertility intentions",
+    "year": 2025,
+    "first_author": "",
+    "source": "control",
+    "arm": "education-competition",
+    "doi": "10.3724/1005-0566.20251207",
+    "outcome_is_fertility": true,
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W7131356537",
+      "doi": "https://doi.org/10.3724/1005-0566.20251207",
+      "title": "Expansion of shadow education, status externalities, and fertility intentions",
+      "year": 2025,
+      "type": "article",
+      "venue": "Zhongguo ruankexue",
+      "authors_first": "Fei Chen",
+      "cited_by": 1,
       "jaccard": 1.0,
       "stem": false,
       "first_author_ok": null,
@@ -816,12 +544,12 @@
     "title_drift": false
   },
   {
-    "title": "Maternal Social Support and Neighborhood Income Inequality as Predictors of Low Birth Weight and Preterm Birth Outcome Disparities: Analysis of South Carolina Pregnancy Risk Assessment and Monitoring System Survey, 2000\u20132003",
-    "year": 2009,
+    "title": "The impact of shadow education expenditures on fertility rates in South Korea",
+    "year": 2026,
     "first_author": "",
     "source": "control",
-    "arm": "inequality-general",
-    "doi": "10.1007/s10995-009-0508-8",
+    "arm": "education-competition",
+    "doi": "10.1007/s00148-026-01156-0",
     "outcome_is_fertility": true,
     "queries": [
       {
@@ -831,14 +559,14 @@
       }
     ],
     "top_candidate": {
-      "oa_id": "https://openalex.org/W2077549678",
-      "doi": "https://doi.org/10.1007/s10995-009-0508-8",
-      "title": "Maternal Social Support and Neighborhood Income Inequality as Predictors of Low Birth Weight and Preterm Birth Outcome Disparities: Analysis of South Carolina Pregnancy Risk Assessment and Monitoring System Survey, 2000\u20132003",
-      "year": 2009,
+      "oa_id": "https://openalex.org/W7127591645",
+      "doi": "https://doi.org/10.1007/s00148-026-01156-0",
+      "title": "The impact of shadow education expenditures on fertility rates in South Korea",
+      "year": 2026,
       "type": "article",
-      "venue": "Maternal and Child Health Journal",
-      "authors_first": "Stephen Nkansah\u2010Amankra",
-      "cited_by": 128,
+      "venue": "Journal of Population Economics",
+      "authors_first": "Taehoon Kim",
+      "cited_by": 1,
       "jaccard": 1.0,
       "stem": false,
       "first_author_ok": null,
@@ -1698,6 +1426,78 @@
       "first_author_ok": true,
       "year_ok": true,
       "score": 1.5,
+      "via": "filter_title_quoted",
+      "non_study_type": false
+    },
+    "twins": [],
+    "verdict": "MATCH"
+  },
+  {
+    "title": "The impact of shadow education expenditures on fertility rates in South Korea",
+    "year": 2026,
+    "first_author": "",
+    "source": "hand",
+    "arm": "education-competition",
+    "outcome_is_fertility": true,
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": false,
+      "oa_id": "https://openalex.org/W7127591645",
+      "doi": "https://doi.org/10.1007/s00148-026-01156-0",
+      "title": "The impact of shadow education expenditures on fertility rates in South Korea",
+      "year": 2026,
+      "type": "article",
+      "venue": "Journal of Population Economics",
+      "authors_first": "Taehoon Kim",
+      "cited_by": 1,
+      "jaccard": 1.0,
+      "stem": false,
+      "stem_reversed": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.35,
+      "via": "filter_title_quoted",
+      "non_study_type": false
+    },
+    "twins": [],
+    "verdict": "MATCH"
+  },
+  {
+    "title": "Education Competition and Fertility Intention: Evidence from China's Private Tutoring Ban",
+    "year": 2024,
+    "first_author": "",
+    "source": "hand",
+    "arm": "education-competition",
+    "outcome_is_fertility": true,
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": false,
+      "oa_id": "https://openalex.org/W4403258680",
+      "doi": "https://doi.org/10.2139/ssrn.4980022",
+      "title": "Education Competition and Fertility Intention: Evidence from China's Private Tutoring Ban",
+      "year": 2024,
+      "type": "preprint",
+      "venue": "SSRN Electronic Journal",
+      "authors_first": "Juanjuan Meng",
+      "cited_by": 3,
+      "jaccard": 1.0,
+      "stem": false,
+      "stem_reversed": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.35,
       "via": "filter_title_quoted",
       "non_study_type": false
     },

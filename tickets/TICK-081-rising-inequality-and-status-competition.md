@@ -512,3 +512,52 @@ Next, in order: (1) sixth arm in the education-competition vocabulary and re-ass
 controls to it; (2) homonym-check `"educational burden"` (117, unchecked); (3) re-calibrate to a
 stated recall floor; (4) only then build the screen universe.
 
+### 2026-09-08 — production query CALIBRATED at 92%, frame 1,016
+
+Scripts `339` (candidate builder) and `337` (calibration). The §4A channel was added as a sixth arm
+and the calibration converged.
+
+| arm | recall | frame |
+|---|---|---|
+| `dispersion` | **12/13** | 851 |
+| `mechanism` | **2/2** | 92 |
+| `education-competition` (§4A, new) | **7/8** | 43 |
+| `link1-investment` | 0/5 | 47 |
+| `positional-canon` | 0/3 | 5 |
+| `c3d-boundary` (not screened) | 0/1 | 683 |
+| **union primary** | **11/12 — 92%** | **1,016** |
+
+92% meets the floor C.2.b (93%) and C.6.a calibrated to. The union query was checked to recall the
+same anchors the arms recall separately (11 vs 11), so the nested boolean is being parsed as
+intended and its count is usable.
+
+**The two zero arms are not failures and must not be re-tuned into the union.** `link1-investment`
+and `positional-canon` target anchors whose own outcome is not fertility, so they are excluded from
+`PRIMARY_ARMS` by construction. *The Theory of the Leisure Class* contains neither "positional good"
+nor an investment term: those anchors are **not retrievable by vocabulary at all** and route to the
+citation channel. Spending frame on them would buy nothing.
+
+**The candidate builder is now a script (`339`) because it was wrong twice as inline code.** v1
+required only an exposure term plus a DOI and admitted *The Nuclear Arms Race: An Evolutionary
+Perspective*. v2 added a fertility word and the `birth` word-boundary admitted *…and the birth of
+Haute Couture* and *…the Birth of the Consumer in Japan* — "birth of X" is an idiom, not an outcome.
+v3 excludes the idiom by name, excludes the behavioural-ecology cloud, and **derives the arm from the
+title's own term family** rather than from the free-seed bucket. That last change is what fixed the
+mechanism arm: every shadow-education record had been landing in `mechanism`, which is why it scored
+2/13 against vocabulary it does not contain.
+
+**One anchor was corrected on my side, not OpenAlex's.** *The impact of shadow education expenditures
+on fertility rates in South Korea* came back `NEEDS_HUMAN_READ` at Jaccard 1.0 with an exact title
+match in *Journal of Population Economics*: the year was mine, hand-typed as 2024 against a true
+2026. `candidate-attribution-is-the-error`.
+
+**`"education expenditure"` is excluded from the new arm by decision, not oversight.** It returns 102
+against the fertility axis and splits roughly 50/50 into household and **government** spending; the
+public-finance half is C.2.d's estimand. `"educational burden"` (16) carries the household sense.
+
+**Stage 3 is now unblocked.** 1,016 records is a screenable frame — an order of magnitude below the
+pools D.1.a and A.18 had to bound by sampling.
+
+Next: screen universe and rubric (340). The rubric must carry `return_separated` and `own_income_held`
+as screen-visible fields, or Walls 1 and 4 cannot be enforced at title/abstract.
+
