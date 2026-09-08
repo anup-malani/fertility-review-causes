@@ -41,9 +41,9 @@
      "pdf": false
     }
    ],
-   "status": "failed",
-   "path": null,
-   "handoff": "proxy",
+   "status": "hand_retrieved",
+   "path": "literature/pdfs/rising-inequality-and-status-competition/C2F0066.pdf",
+   "handoff": null,
    "probed": [
     "wp_host",
     "oa_location",
@@ -53,7 +53,8 @@
    ],
    "found": [
     "oa_location"
-   ]
+   ],
+   "installed_from": "Johansson-StatusAnxietyDemographic-1987.pdf"
   },
   {
    "screen_id": "C2F0259",
@@ -138,9 +139,9 @@
      "pdf": false
     }
    ],
-   "status": "failed",
-   "path": null,
-   "handoff": "browser",
+   "status": "hand_retrieved",
+   "path": "literature/pdfs/rising-inequality-and-status-competition/C2F0428.pdf",
+   "handoff": null,
    "probed": [
     "wp_host",
     "oa_location",
@@ -151,7 +152,8 @@
    "found": [
     "oa_location",
     "unpaywall"
-   ]
+   ],
+   "installed_from": "ssrn-4980022.pdf"
   },
   {
    "screen_id": "C2F0515",
@@ -172,7 +174,7 @@
    ],
    "status": "failed",
    "path": null,
-   "handoff": "browser",
+   "handoff": "regional",
    "probed": [
     "wp_host",
     "oa_location",
@@ -182,7 +184,9 @@
    ],
    "found": [
     "oa_location"
-   ]
+   ],
+   "handoff_reason": "en.cnki.com.cn returns a browser error page. CNKI is a subscription database, so this is a regional/ILL job and never a browser one. A title search on both the English and Chinese forms returned zero web results.",
+   "browser_job_attempted": "2026-09-08"
   },
   {
    "screen_id": "C2F0592",
@@ -201,9 +205,9 @@
      "pdf": false
     }
    ],
-   "status": "failed",
-   "path": null,
-   "handoff": "proxy",
+   "status": "hand_retrieved",
+   "path": "literature/pdfs/rising-inequality-and-status-competition/C2F0592.pdf",
+   "handoff": null,
    "probed": [
     "wp_host",
     "oa_location",
@@ -213,7 +217,8 @@
    ],
    "found": [
     "oa_location"
-   ]
+   ],
+   "installed_from": "s00148-026-01156-0.pdf"
   },
   {
    "screen_id": "C2F0593",
@@ -240,9 +245,9 @@
      "pdf": false
     }
    ],
-   "status": "failed",
-   "path": null,
-   "handoff": "proxy",
+   "status": "hand_retrieved",
+   "path": "literature/pdfs/rising-inequality-and-status-competition/C2F0593.pdf",
+   "handoff": null,
    "probed": [
     "wp_host",
     "oa_location",
@@ -253,7 +258,8 @@
    "found": [
     "oa_location",
     "unpaywall"
-   ]
+   ],
+   "installed_from": "05E53C072D3948BDA9AEF3723DC3CF35.pdf"
   },
   {
    "screen_id": "C2F0721",
@@ -274,7 +280,7 @@
    ],
    "status": "failed",
    "path": null,
-   "handoff": "browser",
+   "handoff": "dead",
    "probed": [
     "wp_host",
     "oa_location",
@@ -284,7 +290,9 @@
    ],
    "found": [
     "oa_location"
-   ]
+   ],
+   "handoff_reason": "ir.lib.ncu.edu.tw returns a browser error page over both http and https \u2014 the URL is dead, not bot-defended. A title search on both the Chinese and English forms returned zero web results. Needs the Taiwan NDLTD system or ILL; do not retry this URL.",
+   "browser_job_attempted": "2026-09-08"
   },
   {
    "screen_id": "C2F0844",
@@ -358,9 +366,9 @@
      "pdf": false
     }
    ],
-   "status": "failed",
-   "path": null,
-   "handoff": "browser",
+   "status": "hand_retrieved",
+   "path": "literature/pdfs/rising-inequality-and-status-competition/C2F0850.pdf",
+   "handoff": null,
    "probed": [
     "wp_host",
     "oa_location",
@@ -371,7 +379,8 @@
    "found": [
     "oa_location",
     "unpaywall"
-   ]
+   ],
+   "installed_from": "KCI_FI002451885.pdf"
   },
   {
    "screen_id": "C2F1108",
@@ -400,7 +409,7 @@
    ],
    "status": "failed",
    "path": null,
-   "handoff": "browser",
+   "handoff": "proquest",
    "probed": [
     "wp_host",
     "oa_location",
@@ -410,7 +419,9 @@
    ],
    "found": [
     "oa_location"
-   ]
+   ],
+   "handoff_reason": "Deep Blue page LOADS but the file is 'Access Restricted to UM users only' \u2014 so the `browser` classification was WRONG: no browser session gets this, it is an entitlement problem. The page names ProQuest Dissertation No. 8007866, which UChicago does license. Route: ProQuest Dissertations & Theses, not Deep Blue.",
+   "browser_job_attempted": "2026-09-08"
   },
   {
    "screen_id": "C2F1212",
@@ -437,9 +448,9 @@
      "pdf": false
     }
    ],
-   "status": "failed",
-   "path": null,
-   "handoff": "browser",
+   "status": "hand_retrieved",
+   "path": "literature/pdfs/rising-inequality-and-status-competition/C2F1212.pdf",
+   "handoff": null,
    "probed": [
     "wp_host",
     "oa_location",
@@ -450,7 +461,8 @@
    "found": [
     "oa_location",
     "unpaywall"
-   ]
+   ],
+   "installed_from": "ssrn-5388883.pdf"
   },
   {
    "screen_id": "C2F1217",
@@ -498,9 +510,9 @@
      "pdf": false
     }
    ],
-   "status": "failed",
-   "path": null,
-   "handoff": "proxy",
+   "status": "hand_retrieved",
+   "path": "literature/pdfs/rising-inequality-and-status-competition/C2F1264.pdf",
+   "handoff": null,
    "probed": [
     "wp_host",
     "oa_location",
@@ -510,7 +522,8 @@
    ],
    "found": [
     "oa_location"
-   ]
+   ],
+   "installed_from": "Population Space and Place - 2026 - Lee - Widening Regional Economic Disparities and Fertility Decline in South Korea  A.pdf"
   },
   {
    "screen_id": "C2F1279",
@@ -529,9 +542,9 @@
      "pdf": false
     }
    ],
-   "status": "failed",
-   "path": null,
-   "handoff": "proxy",
+   "status": "hand_retrieved",
+   "path": "literature/pdfs/rising-inequality-and-status-competition/C2F1279.pdf",
+   "handoff": null,
    "probed": [
     "wp_host",
     "oa_location",
@@ -541,7 +554,8 @@
    ],
    "found": [
     "oa_location"
-   ]
+   ],
+   "installed_from": "EBSCO-FullText-09_08_2026.pdf"
   },
   {
    "screen_id": "C2F1327",

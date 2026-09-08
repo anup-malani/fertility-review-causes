@@ -11,7 +11,7 @@
 - [x] 2. Search strategy and scope drafted
 - [~] 3. Literature search and AI screening, both phases (§5.1) — targeted arms screened exhaustively; `dispersion` remainder outstanding
 - [ ] 4. RA title/abstract review
-- [~] 5. Full-text retrieval — automated ceiling 7/19; 12 in handoff
+- [~] 5. Full-text retrieval — **15/19 primary**; both gating cells COMPLETE; 4 outstanding
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
 - [ ] 7. Extraction to `extraction/rising-inequality-and-status-competition.csv`, RA verifies a random 10%
 - [ ] 8. Risk-of-bias assessment per study
@@ -767,4 +767,56 @@ zero from checking one literal.
 Next: the handoff is a human step (5 proxy + 6 browser + 1 regional). Tier 2 (the 30-record boundary
 packet) has not been run. **Extraction is gated on `TUTORING_POLICY_FERTILITY`**, so the two records
 in it are the priority — not the 12-record total.
+
+### 2026-09-08 — handoff installed (8) and browser job run: primary cell now 15/19
+
+**Install (script `343`).** 10 PDFs supplied; **8 installed, 2 refused**, matched by CONTENT not
+filename — the files arrive named `EBSCO-FullText-09_08_2026.pdf` and
+`05E53C072D3948BDA9AEF3723DC3CF35.pdf`, so the filename carries nothing.
+
+**The content match earned its keep immediately.** One file was *Mobile Health App Use Among Older
+Adults* — not in this chapter at all. The other was *Gendered fertility intentions and child
+schooling: insights on the quantity–quality trade-off from Ethiopia* (J. Demographic Economics 2025),
+which my **first** matcher paired with C2F0844 *Marital Fertility and Investment in Children's
+Education* at 0.80 token overlap. They share only the generic words fertility, investment, children,
+education. The rule is now **contiguous title containment**, not token overlap, and both files were
+correctly refused. `handoff-file-match-by-content`: a wrong pairing is worse than a missing file,
+because it enters the extraction table looking correct.
+
+The Ethiopia paper is **not in our universe and is plausibly on-topic** (quantity-quality, fertility
+intentions). Logged as a candidate for the screen rather than discarded.
+
+**Both gating cells are now COMPLETE:**
+
+| cell | before | after |
+|---|---|---|
+| `TUTORING_POLICY_FERTILITY` | 0/2 | **2/2** |
+| `POSITIONAL_ALLOCATION_FERTILITY` | 1/2 | **2/2** |
+| `DISPERSION_FERTILITY` | 4/8 | 6/8 |
+| `REQUIRED_INVESTMENT_FERTILITY` | 2/7 | 5/7 |
+| **primary overall** | 7/19 | **15/19** |
+
+C2F1279 (China's Double Reduction, both outcomes) and C2F0428 (tutoring ban → fertility intention)
+are both on disk. **Extraction is no longer gated.**
+
+**Browser job on the three browser-classified records — and it reclassified all three.**
+
+- **C2F1108** — Deep Blue *loads*, but the file reads **"Access Restricted to UM users only."** So
+  `browser` was the wrong call: no browser session gets this, it is an entitlement problem. The page
+  names **ProQuest Dissertation No. 8007866**, which UChicago licenses. Reclassified `proquest` with
+  that instruction.
+- **C2F0721** — `ir.lib.ncu.edu.tw` returns a browser error page over both http and https. The URL is
+  **dead**, not bot-defended. Title searches on both the Chinese and English forms returned zero web
+  results. Reclassified `dead`; do not retry the URL.
+- **C2F0515** — `en.cnki.com.cn` errors. CNKI is a subscription database, so this was never a browser
+  job. Reclassified `regional`.
+
+**All three were misfiled by the automated classifier, and the reason is general:** it infers the
+handoff from an HTTP-level symptom (a 200 that is not a PDF, or no status line at all), and three
+different underlying causes — an entitlement wall behind a public landing page, a dead host, and a
+subscription database — all present the same way to curl. The classifier cannot see the difference;
+opening the page can. That is worth carrying to other chapters.
+
+Outstanding: **4** — C2F1108 (proquest), C2F0844 (proxy), C2F0515 (regional/ILL), C2F0721 (dead).
+None is in a gating cell.
 
