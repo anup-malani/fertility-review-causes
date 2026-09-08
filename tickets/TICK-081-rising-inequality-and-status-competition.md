@@ -561,3 +561,48 @@ pools D.1.a and A.18 had to bound by sampling.
 Next: screen universe and rubric (340). The rubric must carry `return_separated` and `own_income_held`
 as screen-visible fields, or Walls 1 and 4 cannot be enforced at title/abstract.
 
+### 2026-09-08 — screen universe built: 1,366 records, ready to screen
+
+`340_c2f_screen_universe.py`, ported from C.2.b's `321`. Also landed the shared OpenAlex client on
+`main` (`source/lib/openalex.py`, written for C.2.b and stranded on its branch since 09-03) rather
+than making a second copy of it — it is purely additive, nothing on `main` imports it, so unlike the
+textnorm fix it cannot change existing behaviour. Both `main` checks stayed green.
+
+**Every arm contributes genuinely new records — none is redundant** (`dedup-before-counting-hides-
+redundant-rung`):
+
+| arm | declared | pulled | new after dedup |
+|---|---|---|---|
+| dispersion | 851 | 851 | 851 |
+| mechanism | 92 | 92 | 79 |
+| education-competition | 43 | 43 | 42 |
+| link1-investment | 47 | 47 | 39 |
+| positional-canon | 5 | 5 | 5 |
+
+Universe **1,366**; anchors 22 present / 12 injected; free seeds 40 present / 338 injected / 15
+unmatchable; **gold found by query 19/22**. Gold flags are withheld from the file the screen reads.
+
+**The abstract enrichment is new work and it was needed.** The port injected anchors and free seeds
+with title and DOI only, so 350 of the universe's 550 missing abstracts were the injected records —
+a **100%** miss rate against 19–26% for the query pull. Those are the highest-value rows in the
+universe (`tier-a-anchors-are-studies`: on D.2.d that distinction was 2 studies against 9), and a
+title-only row cannot carry scope §10's tags (`design-is-not-a-property-of-the-title`).
+
+Two rungs now run, and the first one was broken in a way worth recording. It filled **0 of 232 while
+refusing nothing** — injected records store the bare id `W2048002868` while the query pull and the
+API both return `https://openalex.org/W2048002868`, so the lookup matched nothing. A silent zero from
+an id-format mismatch, in a session where I have flagged three others. There is now a **loud warning
+when enrichment fills nothing while refusing nothing**, because that combination is always a bug and
+never an absence. Rung 2 (DOI) then covered the 118 injected records that had no OpenAlex id at all
+and were never tried by rung 1 (`rung-found-is-not-rung-fetched`).
+
+Result: **237/550 filled, no-abstract down from 550 to 313 (23%)** — in line with the query pull's
+natural rate, so what remains is genuine absence rather than a fetch we skipped.
+
+One loose end: `dispersion` declared 851 and pulled 852 on one run, a one-record drift between
+calibration and pull. Not blocking, but it should not be silent — noted for the screen log.
+
+Next: the screen rubric. It must carry `return_separated` and `own_income_held` as screen-visible
+fields or Walls 1 and 4 cannot be enforced at title/abstract, and the rubric needs an
+`education-competition` cell that scope §4A only created today.
+

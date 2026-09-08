@@ -1,0 +1,4381 @@
+{
+ "note": "WITHHELD from the screen. Merge only when scoring sensitivity.",
+ "gold": {
+  "W4285115633": {
+   "arm": "inequality-general",
+   "source": "control",
+   "is_gold": true,
+   "outcome_is_fertility": true,
+   "found_by_query": true
+  },
+  "W2306291166": {
+   "arm": "mechanism",
+   "source": "control",
+   "is_gold": true,
+   "outcome_is_fertility": true,
+   "found_by_query": true
+  },
+  "W4230356224": {
+   "arm": "inequality-general",
+   "source": "control",
+   "is_gold": true,
+   "outcome_is_fertility": true,
+   "found_by_query": true
+  },
+  "W7165114627": {
+   "arm": "education-competition",
+   "source": "control",
+   "is_gold": true,
+   "outcome_is_fertility": true,
+   "found_by_query": true
+  },
+  "W1887572780": {
+   "arm": "education-competition",
+   "source": "control",
+   "is_gold": true,
+   "outcome_is_fertility": true,
+   "found_by_query": true
+  },
+  "W4405057359": {
+   "arm": "mechanism",
+   "source": "control",
+   "is_gold": true,
+   "outcome_is_fertility": true,
+   "found_by_query": true
+  },
+  "W4403258680": {
+   "arm": "education-competition",
+   "source": "hand",
+   "is_gold": true,
+   "outcome_is_fertility": true,
+   "found_by_query": true
+  },
+  "W2890718499": {
+   "arm": "inequality-general",
+   "source": "control",
+   "is_gold": true,
+   "outcome_is_fertility": true,
+   "found_by_query": true
+  },
+  "W1598091654": {
+   "arm": "inequality-general",
+   "source": "control",
+   "is_gold": true,
+   "outcome_is_fertility": true,
+   "found_by_query": true
+  },
+  "W1603127176": {
+   "arm": "inequality-general",
+   "source": "control",
+   "is_gold": true,
+   "outcome_is_fertility": true,
+   "found_by_query": true
+  },
+  "W4415885281": {
+   "arm": "inequality-general",
+   "source": "control",
+   "is_gold": true,
+   "outcome_is_fertility": true,
+   "found_by_query": true
+  },
+  "W2553545459": {
+   "arm": "education-competition",
+   "source": "control",
+   "is_gold": true,
+   "outcome_is_fertility": true,
+   "found_by_query": true
+  },
+  "W7131356537": {
+   "arm": "education-competition",
+   "source": "control",
+   "is_gold": true,
+   "outcome_is_fertility": true,
+   "found_by_query": true
+  },
+  "W2001774082": {
+   "arm": "inequality-general",
+   "source": "control",
+   "is_gold": true,
+   "outcome_is_fertility": true,
+   "found_by_query": true
+  },
+  "W4400820169": {
+   "arm": "inequality-general",
+   "source": "control",
+   "is_gold": true,
+   "outcome_is_fertility": true,
+   "found_by_query": true
+  },
+  "W2042907129": {
+   "arm": "fertility",
+   "source": "hand",
+   "is_gold": true,
+   "outcome_is_fertility": true,
+   "found_by_query": true
+  },
+  "W7127591645": {
+   "arm": "education-competition",
+   "source": "hand",
+   "is_gold": true,
+   "outcome_is_fertility": true,
+   "found_by_query": true
+  },
+  "W2465963169": {
+   "arm": "inequality-general",
+   "source": "control",
+   "is_gold": true,
+   "outcome_is_fertility": true,
+   "found_by_query": true
+  },
+  "W2062148673": {
+   "arm": "inequality-general",
+   "source": "control",
+   "is_gold": true,
+   "outcome_is_fertility": true,
+   "found_by_query": true
+  },
+  "W2087229412": {
+   "arm": "theory",
+   "source": "hand",
+   "is_gold": true,
+   "outcome_is_fertility": true,
+   "found_by_query": false
+  },
+  "W4224299613": {
+   "arm": "theory",
+   "source": "hand",
+   "is_gold": true,
+   "outcome_is_fertility": true,
+   "found_by_query": false
+  },
+  "W2900275120": {
+   "arm": "fertility",
+   "source": "hand",
+   "is_gold": true,
+   "outcome_is_fertility": true,
+   "found_by_query": false
+  },
+  "W2098091184": {
+   "arm": "link1-investment",
+   "source": "hand",
+   "is_gold": false,
+   "outcome_is_fertility": false,
+   "found_by_query": false
+  },
+  "W2053646573": {
+   "arm": "link1-investment",
+   "source": "hand",
+   "is_gold": false,
+   "outcome_is_fertility": false,
+   "found_by_query": false
+  },
+  "W2803425653": {
+   "arm": "link1-investment",
+   "source": "hand",
+   "is_gold": false,
+   "outcome_is_fertility": false,
+   "found_by_query": false
+  },
+  "W4205339089": {
+   "arm": "link1-investment",
+   "source": "hand",
+   "is_gold": false,
+   "outcome_is_fertility": false,
+   "found_by_query": false
+  },
+  "W2068288993": {
+   "arm": "positional-canon",
+   "source": "hand",
+   "is_gold": false,
+   "outcome_is_fertility": false,
+   "found_by_query": false
+  },
+  "W609341256": {
+   "arm": "positional-canon",
+   "source": "hand",
+   "is_gold": false,
+   "outcome_is_fertility": false,
+   "found_by_query": false
+  },
+  "W2048002868": {
+   "arm": "positional-canon",
+   "source": "hand",
+   "is_gold": false,
+   "outcome_is_fertility": false,
+   "found_by_query": false
+  },
+  "W3124700401": {
+   "arm": "link1-investment",
+   "source": "hand",
+   "is_gold": false,
+   "outcome_is_fertility": false,
+   "found_by_query": false
+  },
+  "W1517466339": {
+   "arm": "c3d-boundary",
+   "source": "hand",
+   "is_gold": false,
+   "outcome_is_fertility": true,
+   "found_by_query": false
+  }
+ },
+ "provenance": {
+  "W2048002868": [
+   "anchor_injected"
+  ],
+  "W2068288993": [
+   "anchor_injected"
+  ],
+  "W2140594985": [
+   "query"
+  ],
+  "W2055129232": [
+   "query"
+  ],
+  "W2054019280": [
+   "query"
+  ],
+  "W2087229412": [
+   "anchor_injected"
+  ],
+  "W2794431233": [
+   "query"
+  ],
+  "W609341256": [
+   "anchor_injected"
+  ],
+  "W2053646573": [
+   "anchor_injected"
+  ],
+  "W2170435828": [
+   "query"
+  ],
+  "W1517466339": [
+   "anchor_injected"
+  ],
+  "W3183254835": [
+   "query"
+  ],
+  "W2033473905": [
+   "query"
+  ],
+  "W3124700401": [
+   "anchor_injected"
+  ],
+  "W3172632526": [
+   "query"
+  ],
+  "W2170238606": [
+   "query"
+  ],
+  "W2033490532": [
+   "query"
+  ],
+  "W2009325862": [
+   "query"
+  ],
+  "W2143306393": [
+   "query"
+  ],
+  "W2803425653": [
+   "anchor_injected",
+   "free_seed"
+  ],
+  "W2191191673": [
+   "query"
+  ],
+  "W1967103331": [
+   "query"
+  ],
+  "W2109777902": [
+   "query"
+  ],
+  "W1540070842": [
+   "query"
+  ],
+  "W4224299613": [
+   "anchor_injected"
+  ],
+  "W2460387640": [
+   "query"
+  ],
+  "W2098091184": [
+   "anchor_injected"
+  ],
+  "W4205339089": [
+   "anchor_injected"
+  ],
+  "W2166756626": [
+   "query"
+  ],
+  "W2157323610": [
+   "query"
+  ],
+  "W2900275120": [
+   "anchor_injected"
+  ],
+  "W2125484247": [
+   "query"
+  ],
+  "W4255055688": [
+   "query"
+  ],
+  "W2052386990": [
+   "query"
+  ],
+  "W2008868943": [
+   "query"
+  ],
+  "W1971781828": [
+   "query"
+  ],
+  "W291004932": [
+   "query"
+  ],
+  "W2070256570": [
+   "query"
+  ],
+  "W3171047392": [
+   "query"
+  ],
+  "W2018656798": [
+   "query"
+  ],
+  "W2141656470": [
+   "query"
+  ],
+  "W2145759626": [
+   "query"
+  ],
+  "W2080330612": [
+   "query"
+  ],
+  "W2093634727": [
+   "query"
+  ],
+  "W2518505150": [
+   "query"
+  ],
+  "W647291931": [
+   "query"
+  ],
+  "W2921207925": [
+   "query"
+  ],
+  "W2123877915": [
+   "query"
+  ],
+  "W2010061744": [
+   "query"
+  ],
+  "W2042907129": [
+   "query",
+   "anchor",
+   "anchor",
+   "free_seed"
+  ],
+  "W1985211978": [
+   "query"
+  ],
+  "W1993281542": [
+   "query"
+  ],
+  "W2026316952": [
+   "query"
+  ],
+  "W2569807061": [
+   "query"
+  ],
+  "W627802920": [
+   "query"
+  ],
+  "W1597014556": [
+   "query"
+  ],
+  "W2134282933": [
+   "query"
+  ],
+  "W1972536064": [
+   "query"
+  ],
+  "W2117662405": [
+   "query"
+  ],
+  "W2115394623": [
+   "query"
+  ],
+  "W2465963169": [
+   "query",
+   "anchor",
+   "free_seed"
+  ],
+  "W1892952888": [
+   "query"
+  ],
+  "W2553545459": [
+   "query",
+   "anchor",
+   "free_seed"
+  ],
+  "W2771593488": [
+   "query"
+  ],
+  "W4210314453": [
+   "query"
+  ],
+  "W3175439833": [
+   "query",
+   "free_seed"
+  ],
+  "W3147365412": [
+   "query"
+  ],
+  "W2067237797": [
+   "query"
+  ],
+  "W2144765256": [
+   "query"
+  ],
+  "W2039669650": [
+   "query"
+  ],
+  "W2153128133": [
+   "query"
+  ],
+  "W2166149754": [
+   "query"
+  ],
+  "W2966346747": [
+   "query"
+  ],
+  "W1598091654": [
+   "query",
+   "anchor",
+   "free_seed"
+  ],
+  "W1975060632": [
+   "query"
+  ],
+  "W2937292420": [
+   "query"
+  ],
+  "W2040842119": [
+   "query",
+   "free_seed"
+  ],
+  "W2306291166": [
+   "query",
+   "anchor",
+   "free_seed"
+  ],
+  "W4229377532": [
+   "query"
+  ],
+  "W2087476612": [
+   "query"
+  ],
+  "W2954903560": [
+   "query",
+   "free_seed"
+  ],
+  "W2160951325": [
+   "query"
+  ],
+  "W2089302011": [
+   "query"
+  ],
+  "W3111605777": [
+   "query",
+   "free_seed"
+  ],
+  "W145524815": [
+   "query",
+   "free_seed"
+  ],
+  "W1558041255": [
+   "query"
+  ],
+  "W3127062931": [
+   "query"
+  ],
+  "W2921725292": [
+   "query"
+  ],
+  "W1984649738": [
+   "query"
+  ],
+  "W2903803182": [
+   "query"
+  ],
+  "W4297346281": [
+   "query"
+  ],
+  "W1988376969": [
+   "query"
+  ],
+  "W2014335482": [
+   "query"
+  ],
+  "W2077405084": [
+   "query"
+  ],
+  "W2099447147": [
+   "query"
+  ],
+  "W1991276739": [
+   "query"
+  ],
+  "W2030388474": [
+   "query",
+   "free_seed"
+  ],
+  "W2103109352": [
+   "query"
+  ],
+  "W1840632865": [
+   "query"
+  ],
+  "W1887572780": [
+   "query",
+   "anchor",
+   "free_seed"
+  ],
+  "W3120514773": [
+   "query"
+  ],
+  "W1634754101": [
+   "query"
+  ],
+  "W2048966232": [
+   "query"
+  ],
+  "W2000751168": [
+   "query"
+  ],
+  "W2891306925": [
+   "query"
+  ],
+  "W4253776982": [
+   "query"
+  ],
+  "W2062148673": [
+   "query",
+   "anchor",
+   "free_seed"
+  ],
+  "W2098804465": [
+   "query"
+  ],
+  "W2904696878": [
+   "query"
+  ],
+  "W3013005394": [
+   "query"
+  ],
+  "W2480265826": [
+   "query"
+  ],
+  "W2765839923": [
+   "query"
+  ],
+  "W2914263327": [
+   "query"
+  ],
+  "W2905287248": [
+   "query"
+  ],
+  "W3035625257": [
+   "query"
+  ],
+  "W4283456767": [
+   "query",
+   "free_seed"
+  ],
+  "W25367315": [
+   "query"
+  ],
+  "W1942259275": [
+   "query"
+  ],
+  "W2046234650": [
+   "query"
+  ],
+  "W3125940254": [
+   "query"
+  ],
+  "W1607792954": [
+   "query"
+  ],
+  "W2123160566": [
+   "query"
+  ],
+  "W4231341912": [
+   "query"
+  ],
+  "W1966717453": [
+   "query"
+  ],
+  "W4280565462": [
+   "query"
+  ],
+  "W2149732048": [
+   "query"
+  ],
+  "W2598274471": [
+   "query"
+  ],
+  "W3087506804": [
+   "query"
+  ],
+  "W1813627773": [
+   "query"
+  ],
+  "W21717003": [
+   "query"
+  ],
+  "W2517105790": [
+   "query"
+  ],
+  "W137823846": [
+   "query"
+  ],
+  "W175366405": [
+   "query"
+  ],
+  "W2025169886": [
+   "query"
+  ],
+  "W2033050666": [
+   "query"
+  ],
+  "W2513586904": [
+   "query"
+  ],
+  "W2768829740": [
+   "query"
+  ],
+  "W2788218319": [
+   "query"
+  ],
+  "W4210930350": [
+   "query"
+  ],
+  "W1984688453": [
+   "query"
+  ],
+  "W2012570600": [
+   "query"
+  ],
+  "W3157264283": [
+   "query"
+  ],
+  "W4361197453": [
+   "query"
+  ],
+  "W2300300930": [
+   "query"
+  ],
+  "W1603127176": [
+   "query",
+   "anchor",
+   "free_seed"
+  ],
+  "W2028597346": [
+   "query"
+  ],
+  "W3038733347": [
+   "query"
+  ],
+  "W1998180467": [
+   "query"
+  ],
+  "W2038187944": [
+   "query"
+  ],
+  "W2143995806": [
+   "query"
+  ],
+  "W3092280820": [
+   "query"
+  ],
+  "W2921471294": [
+   "query"
+  ],
+  "W3122135047": [
+   "query"
+  ],
+  "W3133731447": [
+   "query"
+  ],
+  "W2168820913": [
+   "query"
+  ],
+  "W2465845816": [
+   "query"
+  ],
+  "W3199795688": [
+   "query"
+  ],
+  "W4221101112": [
+   "query"
+  ],
+  "W4384524186": [
+   "query"
+  ],
+  "W1988420851": [
+   "query"
+  ],
+  "W2925532046": [
+   "query"
+  ],
+  "W3006819824": [
+   "query"
+  ],
+  "W1499433238": [
+   "query"
+  ],
+  "W2051775284": [
+   "query"
+  ],
+  "W3127240570": [
+   "query"
+  ],
+  "W4206929968": [
+   "query"
+  ],
+  "W2082653231": [
+   "query"
+  ],
+  "W37475535": [
+   "query"
+  ],
+  "W2032534317": [
+   "query"
+  ],
+  "W2160399633": [
+   "query"
+  ],
+  "W2189947023": [
+   "query"
+  ],
+  "W4301262808": [
+   "query"
+  ],
+  "W4307989847": [
+   "query"
+  ],
+  "W1603516397": [
+   "query"
+  ],
+  "W2069287044": [
+   "query"
+  ],
+  "W2152798383": [
+   "query"
+  ],
+  "W2520913474": [
+   "query"
+  ],
+  "W2789763628": [
+   "query"
+  ],
+  "W2943217165": [
+   "query"
+  ],
+  "W2947686836": [
+   "query"
+  ],
+  "W3087953798": [
+   "query",
+   "free_seed"
+  ],
+  "W2014379886": [
+   "query"
+  ],
+  "W2062486203": [
+   "query"
+  ],
+  "W2318974723": [
+   "query"
+  ],
+  "W2765836936": [
+   "query"
+  ],
+  "W2972556437": [
+   "query"
+  ],
+  "W3135488150": [
+   "query"
+  ],
+  "W1988294639": [
+   "query"
+  ],
+  "W2401461649": [
+   "query"
+  ],
+  "W3122093615": [
+   "query"
+  ],
+  "W3124380652": [
+   "query"
+  ],
+  "W3145375943": [
+   "query"
+  ],
+  "W4401861925": [
+   "query"
+  ],
+  "W2032878543": [
+   "query"
+  ],
+  "W2257201002": [
+   "query"
+  ],
+  "W2298232341": [
+   "query"
+  ],
+  "W2970638178": [
+   "query"
+  ],
+  "W2047959598": [
+   "query"
+  ],
+  "W2802669252": [
+   "query",
+   "free_seed"
+  ],
+  "W2987553581": [
+   "query"
+  ],
+  "W4388131027": [
+   "query"
+  ],
+  "W2054324549": [
+   "query"
+  ],
+  "W2066024296": [
+   "query"
+  ],
+  "W2128435300": [
+   "query"
+  ],
+  "W2279755989": [
+   "query"
+  ],
+  "W2566432613": [
+   "query"
+  ],
+  "W2623070690": [
+   "query"
+  ],
+  "W2766757566": [
+   "query"
+  ],
+  "W2964064322": [
+   "query"
+  ],
+  "W3004080181": [
+   "query"
+  ],
+  "W3036926978": [
+   "query"
+  ],
+  "W4377116173": [
+   "query"
+  ],
+  "W2310922954": [
+   "query"
+  ],
+  "W2786878820": [
+   "query"
+  ],
+  "W2796034883": [
+   "query"
+  ],
+  "W4308425481": [
+   "query"
+  ],
+  "W4393246610": [
+   "query"
+  ],
+  "W607494020": [
+   "query"
+  ],
+  "W771078188": [
+   "query"
+  ],
+  "W2019702681": [
+   "query"
+  ],
+  "W2516552109": [
+   "query"
+  ],
+  "W2582471394": [
+   "query"
+  ],
+  "W2897749682": [
+   "query"
+  ],
+  "W4400333797": [
+   "query"
+  ],
+  "W1543192402": [
+   "query"
+  ],
+  "W1563133177": [
+   "query"
+  ],
+  "W1606171424": [
+   "query"
+  ],
+  "W2269236044": [
+   "query"
+  ],
+  "W2513362014": [
+   "query"
+  ],
+  "W2759391832": [
+   "query"
+  ],
+  "W3093199083": [
+   "query"
+  ],
+  "W310991917": [
+   "query"
+  ],
+  "W3112162289": [
+   "query"
+  ],
+  "W1979705719": [
+   "query"
+  ],
+  "W3045607084": [
+   "query"
+  ],
+  "W3123240422": [
+   "query"
+  ],
+  "W3123584003": [
+   "query"
+  ],
+  "W3124850349": [
+   "query"
+  ],
+  "W1539495951": [
+   "query"
+  ],
+  "W2080148338": [
+   "query"
+  ],
+  "W2121122465": [
+   "query"
+  ],
+  "W2161776405": [
+   "query"
+  ],
+  "W2168424192": [
+   "query"
+  ],
+  "W2199678085": [
+   "query"
+  ],
+  "W3123287611": [
+   "query"
+  ],
+  "W3173847658": [
+   "query"
+  ],
+  "W3203080576": [
+   "query"
+  ],
+  "W4229722161": [
+   "query"
+  ],
+  "W4285084774": [
+   "query"
+  ],
+  "W4367322536": [
+   "query"
+  ],
+  "W4388310922": [
+   "query"
+  ],
+  "W4389702491": [
+   "query"
+  ],
+  "W1542182892": [
+   "query"
+  ],
+  "W1897179718": [
+   "query"
+  ],
+  "W1975981672": [
+   "query"
+  ],
+  "W1995842215": [
+   "query"
+  ],
+  "W2196801966": [
+   "query"
+  ],
+  "W2611964092": [
+   "query"
+  ],
+  "W2792139460": [
+   "query"
+  ],
+  "W2797496247": [
+   "query"
+  ],
+  "W2902299958": [
+   "query"
+  ],
+  "W2906906545": [
+   "query"
+  ],
+  "W3005180048": [
+   "query"
+  ],
+  "W3156546079": [
+   "query",
+   "free_seed"
+  ],
+  "W4311147794": [
+   "query"
+  ],
+  "W4362670162": [
+   "query"
+  ],
+  "W4402692355": [
+   "query"
+  ],
+  "W1521037131": [
+   "query",
+   "free_seed"
+  ],
+  "W1987631919": [
+   "query"
+  ],
+  "W2054387871": [
+   "query"
+  ],
+  "W21994841": [
+   "query"
+  ],
+  "W2226756708": [
+   "query"
+  ],
+  "W2340866529": [
+   "query"
+  ],
+  "W2766142618": [
+   "query"
+  ],
+  "W2766859873": [
+   "query"
+  ],
+  "W2796021615": [
+   "query"
+  ],
+  "W28951683": [
+   "query"
+  ],
+  "W2998197641": [
+   "query"
+  ],
+  "W3135353691": [
+   "query"
+  ],
+  "W3163344126": [
+   "query"
+  ],
+  "W4379651004": [
+   "query"
+  ],
+  "W4382068107": [
+   "query"
+  ],
+  "W4386697419": [
+   "query"
+  ],
+  "W4401987905": [
+   "query"
+  ],
+  "W1527140276": [
+   "query"
+  ],
+  "W1583274833": [
+   "query"
+  ],
+  "W2010719542": [
+   "query"
+  ],
+  "W2015836460": [
+   "query"
+  ],
+  "W2036825455": [
+   "query"
+  ],
+  "W2044979845": [
+   "query"
+  ],
+  "W2074874472": [
+   "query"
+  ],
+  "W2075269213": [
+   "query"
+  ],
+  "W2150833901": [
+   "query"
+  ],
+  "W2282262360": [
+   "query"
+  ],
+  "W2557325507": [
+   "query"
+  ],
+  "W2789750289": [
+   "query"
+  ],
+  "W2896664785": [
+   "query"
+  ],
+  "W2991978684": [
+   "query"
+  ],
+  "W3204285787": [
+   "query"
+  ],
+  "W4294204360": [
+   "query"
+  ],
+  "W4311160287": [
+   "query"
+  ],
+  "W4321607564": [
+   "query"
+  ],
+  "W4381252700": [
+   "query"
+  ],
+  "W4391563221": [
+   "query"
+  ],
+  "W4400820169": [
+   "query",
+   "anchor",
+   "free_seed"
+  ],
+  "W98737865": [
+   "query"
+  ],
+  "W1425450409": [
+   "query"
+  ],
+  "W1539247532": [
+   "query"
+  ],
+  "W1857753601": [
+   "query"
+  ],
+  "W1966533049": [
+   "query"
+  ],
+  "W1985347648": [
+   "query"
+  ],
+  "W1991794700": [
+   "query"
+  ],
+  "W2053442331": [
+   "query"
+  ],
+  "W2063938557": [
+   "query"
+  ],
+  "W2138115773": [
+   "query"
+  ],
+  "W2559474351": [
+   "query"
+  ],
+  "W2751227351": [
+   "query"
+  ],
+  "W2751951552": [
+   "query"
+  ],
+  "W2886205380": [
+   "query"
+  ],
+  "W3029458628": [
+   "query"
+  ],
+  "W4285098037": [
+   "query"
+  ],
+  "W4285114123": [
+   "query"
+  ],
+  "W4285115633": [
+   "query",
+   "anchor",
+   "free_seed"
+  ],
+  "W4311365218": [
+   "query"
+  ],
+  "W4382401374": [
+   "query"
+  ],
+  "W4393857943": [
+   "query"
+  ],
+  "W4408158529": [
+   "query"
+  ],
+  "W4416954006": [
+   "query"
+  ],
+  "W608567706": [
+   "query"
+  ],
+  "W809825802": [
+   "query"
+  ],
+  "W1497223368": [
+   "query"
+  ],
+  "W1519182572": [
+   "query"
+  ],
+  "W1993091779": [
+   "query"
+  ],
+  "W2016098489": [
+   "query"
+  ],
+  "W2018658119": [
+   "query"
+  ],
+  "W2022877354": [
+   "query"
+  ],
+  "W2125724973": [
+   "query"
+  ],
+  "W2145906316": [
+   "query"
+  ],
+  "W2183002757": [
+   "query"
+  ],
+  "W2218420112": [
+   "query"
+  ],
+  "W2296118759": [
+   "query"
+  ],
+  "W2767132067": [
+   "query"
+  ],
+  "W2793434681": [
+   "query"
+  ],
+  "W2803206940": [
+   "query"
+  ],
+  "W2895546920": [
+   "query"
+  ],
+  "W2921433226": [
+   "query"
+  ],
+  "W3002483120": [
+   "query"
+  ],
+  "W3047696539": [
+   "query"
+  ],
+  "W3108381607": [
+   "query"
+  ],
+  "W3122647678": [
+   "query"
+  ],
+  "W3123480894": [
+   "query"
+  ],
+  "W3129763181": [
+   "query"
+  ],
+  "W3141139830": [
+   "query"
+  ],
+  "W4249315099": [
+   "query"
+  ],
+  "W4320494288": [
+   "query"
+  ],
+  "W4381335816": [
+   "query"
+  ],
+  "W4388866111": [
+   "query"
+  ],
+  "W4405057359": [
+   "query",
+   "anchor",
+   "free_seed"
+  ],
+  "W112278128": [
+   "query"
+  ],
+  "W1504702089": [
+   "query"
+  ],
+  "W1605695276": [
+   "query"
+  ],
+  "W1990480773": [
+   "query"
+  ],
+  "W2001344416": [
+   "query"
+  ],
+  "W2001618027": [
+   "query"
+  ],
+  "W2035027695": [
+   "query"
+  ],
+  "W2258917038": [
+   "query"
+  ],
+  "W2344802885": [
+   "query"
+  ],
+  "W2553084831": [
+   "query"
+  ],
+  "W263773383": [
+   "query"
+  ],
+  "W2919466731": [
+   "query"
+  ],
+  "W2972875685": [
+   "query"
+  ],
+  "W3123003622": [
+   "query"
+  ],
+  "W3123731236": [
+   "query"
+  ],
+  "W3124477828": [
+   "query"
+  ],
+  "W3136360852": [
+   "query"
+  ],
+  "W3209661964": [
+   "query"
+  ],
+  "W4241676986": [
+   "query"
+  ],
+  "W4289860799": [
+   "query"
+  ],
+  "W4392727040": [
+   "query"
+  ],
+  "W4406464896": [
+   "query"
+  ],
+  "W4408385537": [
+   "query"
+  ],
+  "W4411802728": [
+   "query"
+  ],
+  "W1541938708": [
+   "query"
+  ],
+  "W1555600892": [
+   "query"
+  ],
+  "W1579318352": [
+   "query"
+  ],
+  "W2042203211": [
+   "query"
+  ],
+  "W2045947883": [
+   "query"
+  ],
+  "W2057861444": [
+   "query"
+  ],
+  "W2076677581": [
+   "query"
+  ],
+  "W2089322081": [
+   "query"
+  ],
+  "W214651834": [
+   "query"
+  ],
+  "W2185789597": [
+   "query"
+  ],
+  "W2207589642": [
+   "query"
+  ],
+  "W2274927104": [
+   "query"
+  ],
+  "W2397236813": [
+   "query"
+  ],
+  "W2398694255": [
+   "query"
+  ],
+  "W2464769618": [
+   "query"
+  ],
+  "W2480339371": [
+   "query"
+  ],
+  "W250221373": [
+   "query"
+  ],
+  "W2512211631": [
+   "query"
+  ],
+  "W2592576083": [
+   "query"
+  ],
+  "W2598566451": [
+   "query"
+  ],
+  "W2784783029": [
+   "query"
+  ],
+  "W2789328989": [
+   "query"
+  ],
+  "W2898850451": [
+   "query"
+  ],
+  "W2927334468": [
+   "query"
+  ],
+  "W2939788834": [
+   "query"
+  ],
+  "W2944783862": [
+   "query"
+  ],
+  "W2994196749": [
+   "query"
+  ],
+  "W3111856438": [
+   "query"
+  ],
+  "W3118901220": [
+   "query"
+  ],
+  "W3120067351": [
+   "query"
+  ],
+  "W3123875386": [
+   "query"
+  ],
+  "W3125228673": [
+   "query"
+  ],
+  "W3148232211": [
+   "query"
+  ],
+  "W3160047319": [
+   "query"
+  ],
+  "W3194364383": [
+   "query"
+  ],
+  "W3211127234": [
+   "query"
+  ],
+  "W4283726731": [
+   "query"
+  ],
+  "W4312773289": [
+   "query"
+  ],
+  "W4320500365": [
+   "query"
+  ],
+  "W4361000524": [
+   "query"
+  ],
+  "W4390344938": [
+   "query"
+  ],
+  "W4392308653": [
+   "query"
+  ],
+  "W4393317721": [
+   "query"
+  ],
+  "W4395463994": [
+   "query"
+  ],
+  "W4401557905": [
+   "query"
+  ],
+  "W4401581135": [
+   "query"
+  ],
+  "W4403258680": [
+   "query",
+   "anchor",
+   "anchor",
+   "free_seed"
+  ],
+  "W4409443977": [
+   "query"
+  ],
+  "W7117568195": [
+   "query"
+  ],
+  "W776732201": [
+   "query"
+  ],
+  "W795128287": [
+   "query"
+  ],
+  "W108621384": [
+   "query"
+  ],
+  "W1510228078": [
+   "query"
+  ],
+  "W1522073949": [
+   "query",
+   "free_seed"
+  ],
+  "W1571096061": [
+   "query"
+  ],
+  "W1605194144": [
+   "query"
+  ],
+  "W1607162483": [
+   "query"
+  ],
+  "W1616586911": [
+   "query"
+  ],
+  "W1636412999": [
+   "query"
+  ],
+  "W1793811215": [
+   "query"
+  ],
+  "W1997720269": [
+   "query"
+  ],
+  "W2025179975": [
+   "query"
+  ],
+  "W2048455641": [
+   "query"
+  ],
+  "W2156988352": [
+   "query"
+  ],
+  "W2166124561": [
+   "query"
+  ],
+  "W2258081652": [
+   "query"
+  ],
+  "W2283513477": [
+   "query"
+  ],
+  "W2289290215": [
+   "query"
+  ],
+  "W2305321635": [
+   "query"
+  ],
+  "W2316853943": [
+   "query"
+  ],
+  "W2336531845": [
+   "query"
+  ],
+  "W2344104716": [
+   "query"
+  ],
+  "W2546377411": [
+   "query"
+  ],
+  "W2599760612": [
+   "query"
+  ],
+  "W2610594815": [
+   "query"
+  ],
+  "W2749930565": [
+   "query"
+  ],
+  "W2896362516": [
+   "query"
+  ],
+  "W2940547232": [
+   "query"
+  ],
+  "W2997604481": [
+   "query"
+  ],
+  "W3110817743": [
+   "query"
+  ],
+  "W3122560556": [
+   "query"
+  ],
+  "W3125537449": [
+   "query"
+  ],
+  "W3130844879": [
+   "query"
+  ],
+  "W3137910269": [
+   "query"
+  ],
+  "W3138302550": [
+   "query"
+  ],
+  "W3146283320": [
+   "query"
+  ],
+  "W3170460267": [
+   "query"
+  ],
+  "W3212254488": [
+   "query"
+  ],
+  "W4206260863": [
+   "query"
+  ],
+  "W4230356224": [
+   "query",
+   "anchor",
+   "free_seed"
+  ],
+  "W4240638796": [
+   "query"
+  ],
+  "W4240920167": [
+   "query"
+  ],
+  "W4283362326": [
+   "query"
+  ],
+  "W4297760333": [
+   "query"
+  ],
+  "W4312363558": [
+   "query"
+  ],
+  "W4320158365": [
+   "query"
+  ],
+  "W4361734057": [
+   "query"
+  ],
+  "W4366219270": [
+   "query"
+  ],
+  "W4390760401": [
+   "query"
+  ],
+  "W4391164542": [
+   "query"
+  ],
+  "W4400058111": [
+   "query"
+  ],
+  "W4401585628": [
+   "query"
+  ],
+  "W4404205831": [
+   "query"
+  ],
+  "W4405424767": [
+   "query"
+  ],
+  "W4408635638": [
+   "query"
+  ],
+  "W4409621690": [
+   "query"
+  ],
+  "W4415091058": [
+   "query"
+  ],
+  "W49593199": [
+   "query"
+  ],
+  "W560813070": [
+   "query"
+  ],
+  "W1495242263": [
+   "query"
+  ],
+  "W1497141875": [
+   "query"
+  ],
+  "W1503374272": [
+   "query"
+  ],
+  "W1530872263": [
+   "query"
+  ],
+  "W1542359813": [
+   "query"
+  ],
+  "W181385477": [
+   "query"
+  ],
+  "W1980343188": [
+   "query"
+  ],
+  "W1995435187": [
+   "query"
+  ],
+  "W2001774082": [
+   "query",
+   "anchor",
+   "free_seed"
+  ],
+  "W2034238278": [
+   "query"
+  ],
+  "W2059058701": [
+   "query"
+  ],
+  "W2068466348": [
+   "query"
+  ],
+  "W2098229772": [
+   "query"
+  ],
+  "W2104790664": [
+   "query"
+  ],
+  "W2129366206": [
+   "query",
+   "free_seed"
+  ],
+  "W2145021079": [
+   "query"
+  ],
+  "W2154499566": [
+   "query"
+  ],
+  "W221984541": [
+   "query"
+  ],
+  "W2235549094": [
+   "query"
+  ],
+  "W2257268530": [
+   "query"
+  ],
+  "W2289702335": [
+   "query"
+  ],
+  "W2297651230": [
+   "query"
+  ],
+  "W2307837354": [
+   "query"
+  ],
+  "W2318562693": [
+   "query"
+  ],
+  "W2376041923": [
+   "query"
+  ],
+  "W2396083459": [
+   "query"
+  ],
+  "W2411087467": [
+   "query"
+  ],
+  "W2484284326": [
+   "query"
+  ],
+  "W2492600292": [
+   "query"
+  ],
+  "W2510044226": [
+   "query"
+  ],
+  "W2519133442": [
+   "query"
+  ],
+  "W2538229740": [
+   "query"
+  ],
+  "W2543593372": [
+   "query"
+  ],
+  "W2597994131": [
+   "query"
+  ],
+  "W2605455356": [
+   "query"
+  ],
+  "W2610517318": [
+   "query"
+  ],
+  "W2613412171": [
+   "query"
+  ],
+  "W2614308128": [
+   "query"
+  ],
+  "W2626617956": [
+   "query"
+  ],
+  "W262800637": [
+   "query"
+  ],
+  "W2640628436": [
+   "query"
+  ],
+  "W267568164": [
+   "query"
+  ],
+  "W2749991774": [
+   "query"
+  ],
+  "W2770142399": [
+   "query"
+  ],
+  "W2794826512": [
+   "query"
+  ],
+  "W2803904439": [
+   "query"
+  ],
+  "W2806104093": [
+   "query"
+  ],
+  "W2806543514": [
+   "query"
+  ],
+  "W2913091731": [
+   "query"
+  ],
+  "W2919138912": [
+   "query"
+  ],
+  "W2942948331": [
+   "query"
+  ],
+  "W2945088323": [
+   "query"
+  ],
+  "W2988121523": [
+   "query"
+  ],
+  "W3010237317": [
+   "query"
+  ],
+  "W3035618093": [
+   "query"
+  ],
+  "W3080387614": [
+   "query"
+  ],
+  "W3085315172": [
+   "query"
+  ],
+  "W3093974902": [
+   "query"
+  ],
+  "W3113329977": [
+   "query"
+  ],
+  "W3115656297": [
+   "query"
+  ],
+  "W3124123565": [
+   "query"
+  ],
+  "W3124160365": [
+   "query"
+  ],
+  "W3138178711": [
+   "query"
+  ],
+  "W3151222073": [
+   "query"
+  ],
+  "W3157507734": [
+   "query"
+  ],
+  "W3159483243": [
+   "query"
+  ],
+  "W3162966506": [
+   "query"
+  ],
+  "W3165099462": [
+   "query"
+  ],
+  "W3170167768": [
+   "query"
+  ],
+  "W3199562641": [
+   "query"
+  ],
+  "W336873887": [
+   "query"
+  ],
+  "W4200118439": [
+   "query"
+  ],
+  "W4205752749": [
+   "query"
+  ],
+  "W4205990904": [
+   "query"
+  ],
+  "W4233098976": [
+   "query"
+  ],
+  "W4236406066": [
+   "query"
+  ],
+  "W4246352983": [
+   "query"
+  ],
+  "W4248242659": [
+   "query"
+  ],
+  "W4293078706": [
+   "query"
+  ],
+  "W4321339673": [
+   "query"
+  ],
+  "W4386482628": [
+   "query"
+  ],
+  "W4391298361": [
+   "query"
+  ],
+  "W4392702211": [
+   "query"
+  ],
+  "W4392910990": [
+   "query"
+  ],
+  "W4394814552": [
+   "query"
+  ],
+  "W4394996748": [
+   "query"
+  ],
+  "W4397555782": [
+   "query"
+  ],
+  "W4400131663": [
+   "query"
+  ],
+  "W4401118168": [
+   "query"
+  ],
+  "W4403424634": [
+   "query"
+  ],
+  "W4403497668": [
+   "query"
+  ],
+  "W4404720913": [
+   "query"
+  ],
+  "W4405465302": [
+   "query",
+   "free_seed"
+  ],
+  "W4405737938": [
+   "query"
+  ],
+  "W4406930173": [
+   "query"
+  ],
+  "W4409072812": [
+   "query"
+  ],
+  "W4409847780": [
+   "query"
+  ],
+  "W4410490969": [
+   "query"
+  ],
+  "W4414168492": [
+   "query"
+  ],
+  "W4415759131": [
+   "query"
+  ],
+  "W4415885281": [
+   "query",
+   "anchor",
+   "free_seed"
+  ],
+  "W7127591645": [
+   "query",
+   "anchor",
+   "anchor",
+   "free_seed"
+  ],
+  "W7131356537": [
+   "query",
+   "anchor",
+   "free_seed"
+  ],
+  "W7162432993": [
+   "query"
+  ],
+  "": [
+   "free_seed_injected"
+  ],
+  "W1032880010": [
+   "query"
+  ],
+  "W119016344": [
+   "query"
+  ],
+  "W1277967398": [
+   "free_seed_injected"
+  ],
+  "W137797113": [
+   "query"
+  ],
+  "W1423551682": [
+   "query"
+  ],
+  "W1432854760": [
+   "query"
+  ],
+  "W1481804660": [
+   "query"
+  ],
+  "W1484828176": [
+   "query"
+  ],
+  "W1488505220": [
+   "query"
+  ],
+  "W1489263452": [
+   "query"
+  ],
+  "W1498829123": [
+   "query",
+   "free_seed"
+  ],
+  "W1499701180": [
+   "query",
+   "free_seed"
+  ],
+  "W1504717100": [
+   "free_seed_injected"
+  ],
+  "W1510512017": [
+   "query"
+  ],
+  "W1516203886": [
+   "free_seed_injected"
+  ],
+  "W1539737045": [
+   "free_seed_injected"
+  ],
+  "W1540326639": [
+   "query"
+  ],
+  "W1543216914": [
+   "query"
+  ],
+  "W1554992007": [
+   "query"
+  ],
+  "W1555627239": [
+   "query"
+  ],
+  "W1561177093": [
+   "query"
+  ],
+  "W1568865890": [
+   "query"
+  ],
+  "W1572661874": [
+   "query"
+  ],
+  "W1587576291": [
+   "query"
+  ],
+  "W1589556010": [
+   "free_seed_injected"
+  ],
+  "W1593485151": [
+   "free_seed_injected"
+  ],
+  "W1608858379": [
+   "query"
+  ],
+  "W1618137834": [
+   "free_seed_injected"
+  ],
+  "W16257302": [
+   "free_seed_injected"
+  ],
+  "W16308357": [
+   "free_seed_injected"
+  ],
+  "W167855127": [
+   "query"
+  ],
+  "W1689187390": [
+   "query"
+  ],
+  "W169567974": [
+   "free_seed_injected"
+  ],
+  "W172245386": [
+   "query"
+  ],
+  "W1760490687": [
+   "query"
+  ],
+  "W1839074416": [
+   "free_seed_injected"
+  ],
+  "W1861563280": [
+   "free_seed_injected"
+  ],
+  "W1870122370": [
+   "query"
+  ],
+  "W1885258807": [
+   "free_seed_injected"
+  ],
+  "W191721984": [
+   "query"
+  ],
+  "W1935586798": [
+   "query"
+  ],
+  "W1963562210": [
+   "free_seed_injected"
+  ],
+  "W1963761136": [
+   "free_seed_injected"
+  ],
+  "W1963764272": [
+   "free_seed_injected"
+  ],
+  "W1970343069": [
+   "free_seed_injected"
+  ],
+  "W1978590384": [
+   "free_seed_injected"
+  ],
+  "W1981874288": [
+   "free_seed_injected"
+  ],
+  "W1984794647": [
+   "free_seed_injected"
+  ],
+  "W1985170751": [
+   "free_seed_injected"
+  ],
+  "W1988427925": [
+   "free_seed_injected"
+  ],
+  "W1989748059": [
+   "free_seed_injected"
+  ],
+  "W1997262786": [
+   "free_seed_injected"
+  ],
+  "W2001339486": [
+   "free_seed_injected"
+  ],
+  "W2003432583": [
+   "free_seed_injected"
+  ],
+  "W2005418644": [
+   "free_seed_injected"
+  ],
+  "W2008317537": [
+   "free_seed_injected"
+  ],
+  "W2008577810": [
+   "free_seed_injected"
+  ],
+  "W2008883797": [
+   "free_seed_injected"
+  ],
+  "W2011116607": [
+   "free_seed_injected"
+  ],
+  "W2011493602": [
+   "free_seed_injected"
+  ],
+  "W2014026987": [
+   "free_seed_injected"
+  ],
+  "W2016240141": [
+   "free_seed_injected"
+  ],
+  "W2016653648": [
+   "free_seed_injected"
+  ],
+  "W2026228162": [
+   "free_seed_injected"
+  ],
+  "W2030042690": [
+   "free_seed_injected"
+  ],
+  "W2032333009": [
+   "query"
+  ],
+  "W2044641966": [
+   "free_seed_injected"
+  ],
+  "W2048791745": [
+   "free_seed_injected"
+  ],
+  "W2049942213": [
+   "query"
+  ],
+  "W2050095948": [
+   "free_seed_injected"
+  ],
+  "W2051791898": [
+   "query"
+  ],
+  "W2052028310": [
+   "free_seed_injected"
+  ],
+  "W2054865339": [
+   "free_seed_injected"
+  ],
+  "W2056509504": [
+   "free_seed_injected"
+  ],
+  "W2060160734": [
+   "free_seed_injected"
+  ],
+  "W2062425908": [
+   "free_seed_injected"
+  ],
+  "W2062512837": [
+   "free_seed_injected"
+  ],
+  "W2065451751": [
+   "free_seed_injected"
+  ],
+  "W2066140641": [
+   "free_seed_injected"
+  ],
+  "W2066650872": [
+   "free_seed_injected"
+  ],
+  "W2066924533": [
+   "free_seed_injected"
+  ],
+  "W2067987812": [
+   "free_seed_injected"
+  ],
+  "W2069681849": [
+   "free_seed_injected"
+  ],
+  "W2071313917": [
+   "free_seed_injected"
+  ],
+  "W2073755048": [
+   "free_seed_injected"
+  ],
+  "W2074485586": [
+   "free_seed_injected"
+  ],
+  "W2074784620": [
+   "free_seed_injected"
+  ],
+  "W207565811": [
+   "query"
+  ],
+  "W2077549678": [
+   "free_seed_injected"
+  ],
+  "W2082295639": [
+   "free_seed_injected"
+  ],
+  "W2084350210": [
+   "free_seed_injected"
+  ],
+  "W2088162514": [
+   "query"
+  ],
+  "W2090059100": [
+   "free_seed_injected"
+  ],
+  "W2100234383": [
+   "free_seed_injected"
+  ],
+  "W2101734703": [
+   "free_seed_injected"
+  ],
+  "W2102292466": [
+   "free_seed_injected"
+  ],
+  "W2104962414": [
+   "free_seed_injected"
+  ],
+  "W2109371068": [
+   "free_seed_injected"
+  ],
+  "W2111647511": [
+   "free_seed_injected"
+  ],
+  "W2112136134": [
+   "free_seed_injected"
+  ],
+  "W2115072803": [
+   "query",
+   "free_seed"
+  ],
+  "W2115493532": [
+   "free_seed_injected"
+  ],
+  "W2117289558": [
+   "free_seed_injected"
+  ],
+  "W2121199232": [
+   "free_seed_injected"
+  ],
+  "W2122342105": [
+   "free_seed_injected"
+  ],
+  "W2125422847": [
+   "free_seed_injected"
+  ],
+  "W2125511659": [
+   "free_seed_injected"
+  ],
+  "W2131076386": [
+   "free_seed_injected"
+  ],
+  "W2137695232": [
+   "free_seed_injected"
+  ],
+  "W2138271547": [
+   "free_seed_injected"
+  ],
+  "W2142276329": [
+   "query"
+  ],
+  "W2145286217": [
+   "free_seed_injected"
+  ],
+  "W2146010513": [
+   "free_seed_injected"
+  ],
+  "W2147559196": [
+   "query"
+  ],
+  "W2148501506": [
+   "free_seed_injected"
+  ],
+  "W2148761999": [
+   "free_seed_injected"
+  ],
+  "W2149797875": [
+   "free_seed_injected"
+  ],
+  "W2150857792": [
+   "free_seed_injected"
+  ],
+  "W2156344177": [
+   "free_seed_injected"
+  ],
+  "W2160391531": [
+   "free_seed_injected"
+  ],
+  "W2161582948": [
+   "query"
+  ],
+  "W2163676012": [
+   "free_seed_injected"
+  ],
+  "W2164658587": [
+   "free_seed_injected"
+  ],
+  "W2171496494": [
+   "free_seed_injected"
+  ],
+  "W2180859613": [
+   "query"
+  ],
+  "W2183944164": [
+   "free_seed_injected"
+  ],
+  "W2185565868": [
+   "query"
+  ],
+  "W2185811018": [
+   "query"
+  ],
+  "W2189796237": [
+   "free_seed_injected"
+  ],
+  "W2205166885": [
+   "free_seed_injected"
+  ],
+  "W2206318542": [
+   "query"
+  ],
+  "W2217181412": [
+   "query"
+  ],
+  "W2254857213": [
+   "query"
+  ],
+  "W2255765804": [
+   "query"
+  ],
+  "W2256736689": [
+   "free_seed_injected"
+  ],
+  "W2264467593": [
+   "query"
+  ],
+  "W2269365485": [
+   "query"
+  ],
+  "W2270048413": [
+   "query"
+  ],
+  "W2276889042": [
+   "free_seed_injected"
+  ],
+  "W2277375493": [
+   "query"
+  ],
+  "W2281286321": [
+   "query"
+  ],
+  "W2288306919": [
+   "free_seed_injected"
+  ],
+  "W2291587621": [
+   "query"
+  ],
+  "W2297699010": [
+   "query"
+  ],
+  "W2318395666": [
+   "query"
+  ],
+  "W2318826782": [
+   "query"
+  ],
+  "W2324262322": [
+   "query"
+  ],
+  "W2325363405": [
+   "query"
+  ],
+  "W2325536249": [
+   "free_seed_injected"
+  ],
+  "W2336711689": [
+   "query"
+  ],
+  "W2340515454": [
+   "query"
+  ],
+  "W2341359338": [
+   "free_seed_injected"
+  ],
+  "W2343682629": [
+   "query"
+  ],
+  "W2346300213": [
+   "query"
+  ],
+  "W2366636331": [
+   "query"
+  ],
+  "W2384238532": [
+   "free_seed_injected"
+  ],
+  "W2385113234": [
+   "query"
+  ],
+  "W2387190768": [
+   "query"
+  ],
+  "W2389871831": [
+   "query"
+  ],
+  "W2416052851": [
+   "query"
+  ],
+  "W2468809093": [
+   "query"
+  ],
+  "W2468968883": [
+   "free_seed_injected"
+  ],
+  "W2470459650": [
+   "free_seed_injected"
+  ],
+  "W2474726454": [
+   "free_seed_injected"
+  ],
+  "W2477347685": [
+   "query"
+  ],
+  "W2485941071": [
+   "free_seed_injected"
+  ],
+  "W2488807045": [
+   "query"
+  ],
+  "W2496462225": [
+   "query"
+  ],
+  "W2497304148": [
+   "free_seed_injected"
+  ],
+  "W2504085744": [
+   "query"
+  ],
+  "W2507468033": [
+   "free_seed_injected"
+  ],
+  "W2508663164": [
+   "query"
+  ],
+  "W2513590065": [
+   "free_seed_injected"
+  ],
+  "W2516613481": [
+   "query"
+  ],
+  "W2530906077": [
+   "free_seed_injected"
+  ],
+  "W2545863805": [
+   "free_seed_injected"
+  ],
+  "W2549217036": [
+   "free_seed_injected"
+  ],
+  "W2557448197": [
+   "query"
+  ],
+  "W2558564380": [
+   "free_seed_injected"
+  ],
+  "W2559360998": [
+   "free_seed_injected"
+  ],
+  "W2561056888": [
+   "free_seed_injected"
+  ],
+  "W2561285590": [
+   "free_seed_injected"
+  ],
+  "W2562083466": [
+   "free_seed_injected"
+  ],
+  "W2569390496": [
+   "free_seed_injected"
+  ],
+  "W2573112139": [
+   "free_seed_injected"
+  ],
+  "W2580410384": [
+   "free_seed_injected"
+  ],
+  "W2581656134": [
+   "query"
+  ],
+  "W2582415124": [
+   "free_seed_injected"
+  ],
+  "W2584314773": [
+   "query"
+  ],
+  "W2586331999": [
+   "free_seed_injected"
+  ],
+  "W2587337566": [
+   "free_seed_injected"
+  ],
+  "W258803880": [
+   "query"
+  ],
+  "W2592507752": [
+   "free_seed_injected"
+  ],
+  "W2596175799": [
+   "query"
+  ],
+  "W2601185098": [
+   "query"
+  ],
+  "W2604491623": [
+   "free_seed_injected"
+  ],
+  "W2604721135": [
+   "free_seed_injected"
+  ],
+  "W2606621473": [
+   "free_seed_injected"
+  ],
+  "W2606781361": [
+   "query"
+  ],
+  "W2606896579": [
+   "query"
+  ],
+  "W2713225645": [
+   "query"
+  ],
+  "W2729182898": [
+   "query"
+  ],
+  "W2729598680": [
+   "query"
+  ],
+  "W2734928942": [
+   "free_seed_injected"
+  ],
+  "W2736927708": [
+   "query"
+  ],
+  "W2745036969": [
+   "query"
+  ],
+  "W2747037329": [
+   "free_seed_injected"
+  ],
+  "W2757474149": [
+   "free_seed_injected"
+  ],
+  "W2758640036": [
+   "query"
+  ],
+  "W2760670502": [
+   "query"
+  ],
+  "W2765092913": [
+   "query"
+  ],
+  "W2765699213": [
+   "query"
+  ],
+  "W2767172469": [
+   "query"
+  ],
+  "W2768409455": [
+   "query"
+  ],
+  "W2768868713": [
+   "query"
+  ],
+  "W2777995722": [
+   "free_seed_injected"
+  ],
+  "W2778656137": [
+   "query"
+  ],
+  "W2782853292": [
+   "query"
+  ],
+  "W2783191936": [
+   "query"
+  ],
+  "W2783199831": [
+   "free_seed_injected"
+  ],
+  "W2784325708": [
+   "free_seed_injected"
+  ],
+  "W2788254966": [
+   "query"
+  ],
+  "W2791583305": [
+   "free_seed_injected"
+  ],
+  "W2791712684": [
+   "free_seed_injected"
+  ],
+  "W2793844170": [
+   "query"
+  ],
+  "W2800591045": [
+   "free_seed_injected"
+  ],
+  "W2801036053": [
+   "query"
+  ],
+  "W2803014686": [
+   "query"
+  ],
+  "W2804032477": [
+   "query"
+  ],
+  "W2805938432": [
+   "query"
+  ],
+  "W2806988982": [
+   "query"
+  ],
+  "W2808991736": [
+   "query"
+  ],
+  "W2810278383": [
+   "query"
+  ],
+  "W2810553571": [
+   "free_seed_injected"
+  ],
+  "W2885850767": [
+   "query"
+  ],
+  "W2885969527": [
+   "query"
+  ],
+  "W2886612431": [
+   "free_seed_injected"
+  ],
+  "W2887285455": [
+   "query"
+  ],
+  "W2890718499": [
+   "query",
+   "anchor",
+   "free_seed"
+  ],
+  "W2897830232": [
+   "free_seed_injected"
+  ],
+  "W2902850797": [
+   "query"
+  ],
+  "W2904427995": [
+   "free_seed_injected"
+  ],
+  "W2904958533": [
+   "query"
+  ],
+  "W2905484346": [
+   "free_seed_injected"
+  ],
+  "W2906735183": [
+   "query"
+  ],
+  "W2908206288": [
+   "query"
+  ],
+  "W2909411031": [
+   "free_seed_injected"
+  ],
+  "W2911332409": [
+   "free_seed_injected"
+  ],
+  "W2914330090": [
+   "free_seed_injected"
+  ],
+  "W2921014189": [
+   "query"
+  ],
+  "W2921591275": [
+   "free_seed_injected"
+  ],
+  "W2922468207": [
+   "query"
+  ],
+  "W2938438990": [
+   "free_seed_injected"
+  ],
+  "W2940522742": [
+   "query"
+  ],
+  "W2940575166": [
+   "free_seed_injected"
+  ],
+  "W2950129418": [
+   "free_seed_injected"
+  ],
+  "W2951990667": [
+   "query"
+  ],
+  "W2953621806": [
+   "query"
+  ],
+  "W2956890465": [
+   "free_seed_injected"
+  ],
+  "W2962825922": [
+   "free_seed_injected"
+  ],
+  "W2963271496": [
+   "query"
+  ],
+  "W2967465382": [
+   "query"
+  ],
+  "W2971726392": [
+   "query"
+  ],
+  "W2972217716": [
+   "free_seed_injected"
+  ],
+  "W2973082842": [
+   "query"
+  ],
+  "W2973477826": [
+   "free_seed_injected"
+  ],
+  "W2974594040": [
+   "free_seed_injected"
+  ],
+  "W2974663597": [
+   "query"
+  ],
+  "W2978107196": [
+   "query"
+  ],
+  "W2978740058": [
+   "free_seed_injected"
+  ],
+  "W2979546775": [
+   "free_seed_injected"
+  ],
+  "W2982091332": [
+   "free_seed_injected"
+  ],
+  "W2983174332": [
+   "free_seed_injected"
+  ],
+  "W2984871310": [
+   "free_seed_injected"
+  ],
+  "W2985566218": [
+   "free_seed_injected"
+  ],
+  "W2989613586": [
+   "query"
+  ],
+  "W2990048096": [
+   "free_seed_injected"
+  ],
+  "W2990480573": [
+   "free_seed_injected"
+  ],
+  "W2991902987": [
+   "free_seed_injected"
+  ],
+  "W2992988068": [
+   "free_seed_injected"
+  ],
+  "W2996494146": [
+   "query"
+  ],
+  "W2996881158": [
+   "query"
+  ],
+  "W2997472955": [
+   "free_seed_injected"
+  ],
+  "W3003607795": [
+   "free_seed_injected"
+  ],
+  "W3010203134": [
+   "query"
+  ],
+  "W3012373887": [
+   "free_seed_injected"
+  ],
+  "W3016985072": [
+   "query"
+  ],
+  "W3020087244": [
+   "free_seed_injected"
+  ],
+  "W3021988936": [
+   "query"
+  ],
+  "W3022947773": [
+   "query"
+  ],
+  "W3023481492": [
+   "free_seed_injected"
+  ],
+  "W3026854120": [
+   "free_seed_injected"
+  ],
+  "W3027090780": [
+   "query"
+  ],
+  "W3028411707": [
+   "query"
+  ],
+  "W3031910649": [
+   "free_seed_injected"
+  ],
+  "W3034082147": [
+   "free_seed_injected"
+  ],
+  "W3037414605": [
+   "free_seed_injected"
+  ],
+  "W3040337981": [
+   "free_seed_injected"
+  ],
+  "W3041984169": [
+   "free_seed_injected"
+  ],
+  "W3042162857": [
+   "query"
+  ],
+  "W3043882863": [
+   "free_seed_injected"
+  ],
+  "W3044076351": [
+   "free_seed_injected"
+  ],
+  "W3045534414": [
+   "query"
+  ],
+  "W3081263675": [
+   "query"
+  ],
+  "W3086050366": [
+   "query"
+  ],
+  "W3093321227": [
+   "free_seed_injected"
+  ],
+  "W3094340244": [
+   "free_seed_injected"
+  ],
+  "W3096022720": [
+   "free_seed_injected"
+  ],
+  "W3096471403": [
+   "free_seed_injected"
+  ],
+  "W3096654316": [
+   "query"
+  ],
+  "W3100314925": [
+   "free_seed_injected"
+  ],
+  "W3103118018": [
+   "query"
+  ],
+  "W3105911453": [
+   "free_seed_injected"
+  ],
+  "W3111873845": [
+   "free_seed_injected"
+  ],
+  "W3113777195": [
+   "free_seed_injected"
+  ],
+  "W3113828850": [
+   "query"
+  ],
+  "W3116754936": [
+   "free_seed_injected"
+  ],
+  "W3121154301": [
+   "free_seed_injected"
+  ],
+  "W3121291397": [
+   "query",
+   "free_seed"
+  ],
+  "W3121301118": [
+   "query"
+  ],
+  "W3121389463": [
+   "free_seed_injected"
+  ],
+  "W3121397652": [
+   "free_seed_injected"
+  ],
+  "W3121429070": [
+   "query"
+  ],
+  "W3121442173": [
+   "query"
+  ],
+  "W3121681462": [
+   "query"
+  ],
+  "W3121748952": [
+   "free_seed_injected"
+  ],
+  "W3122245900": [
+   "free_seed_injected"
+  ],
+  "W3122784869": [
+   "query"
+  ],
+  "W3123038130": [
+   "query"
+  ],
+  "W3123189461": [
+   "free_seed_injected"
+  ],
+  "W3123206888": [
+   "query"
+  ],
+  "W3123238202": [
+   "free_seed_injected"
+  ],
+  "W3123341868": [
+   "query"
+  ],
+  "W3123709937": [
+   "free_seed_injected"
+  ],
+  "W3124184302": [
+   "query"
+  ],
+  "W3124365129": [
+   "query"
+  ],
+  "W3124374830": [
+   "query"
+  ],
+  "W3124397733": [
+   "free_seed_injected"
+  ],
+  "W3124518877": [
+   "query"
+  ],
+  "W3125089137": [
+   "query"
+  ],
+  "W3125446428": [
+   "query"
+  ],
+  "W3125472633": [
+   "query"
+  ],
+  "W3125564084": [
+   "free_seed_injected"
+  ],
+  "W3125686052": [
+   "query"
+  ],
+  "W3125718946": [
+   "query"
+  ],
+  "W3125955604": [
+   "query"
+  ],
+  "W3125987311": [
+   "query"
+  ],
+  "W3126059007": [
+   "free_seed_injected"
+  ],
+  "W3129315188": [
+   "free_seed_injected"
+  ],
+  "W3134843666": [
+   "free_seed_injected"
+  ],
+  "W3136000187": [
+   "free_seed_injected"
+  ],
+  "W3147189550": [
+   "query"
+  ],
+  "W3147337473": [
+   "query"
+  ],
+  "W3149506768": [
+   "query"
+  ],
+  "W3149703866": [
+   "query"
+  ],
+  "W3150460630": [
+   "query"
+  ],
+  "W3150944146": [
+   "query"
+  ],
+  "W3157756975": [
+   "free_seed_injected"
+  ],
+  "W3159047475": [
+   "free_seed_injected"
+  ],
+  "W3162957964": [
+   "query"
+  ],
+  "W3162958359": [
+   "free_seed_injected"
+  ],
+  "W3163855129": [
+   "free_seed_injected"
+  ],
+  "W3166048495": [
+   "free_seed_injected"
+  ],
+  "W3167364157": [
+   "query"
+  ],
+  "W3167749772": [
+   "free_seed_injected"
+  ],
+  "W3167911739": [
+   "free_seed_injected"
+  ],
+  "W3168324633": [
+   "query"
+  ],
+  "W3169501348": [
+   "query"
+  ],
+  "W3169860430": [
+   "free_seed_injected"
+  ],
+  "W3171811593": [
+   "free_seed_injected"
+  ],
+  "W3173216537": [
+   "query"
+  ],
+  "W3173224348": [
+   "free_seed_injected"
+  ],
+  "W3180239287": [
+   "query"
+  ],
+  "W3182547489": [
+   "query"
+  ],
+  "W3187756521": [
+   "free_seed_injected"
+  ],
+  "W3191001840": [
+   "free_seed_injected"
+  ],
+  "W3193642780": [
+   "query"
+  ],
+  "W3195867441": [
+   "free_seed_injected"
+  ],
+  "W3197668689": [
+   "query"
+  ],
+  "W3202703353": [
+   "free_seed_injected"
+  ],
+  "W3204266000": [
+   "query"
+  ],
+  "W3206588888": [
+   "free_seed_injected"
+  ],
+  "W3207422004": [
+   "query"
+  ],
+  "W3207809457": [
+   "query"
+  ],
+  "W3208114725": [
+   "query"
+  ],
+  "W3208473583": [
+   "query"
+  ],
+  "W3214282405": [
+   "query"
+  ],
+  "W3217138164": [
+   "free_seed_injected"
+  ],
+  "W347110539": [
+   "free_seed_injected"
+  ],
+  "W403171685": [
+   "query"
+  ],
+  "W4200497564": [
+   "query"
+  ],
+  "W4200560522": [
+   "free_seed_injected"
+  ],
+  "W4205087032": [
+   "query"
+  ],
+  "W4205247098": [
+   "query"
+  ],
+  "W4206003681": [
+   "query"
+  ],
+  "W4206604452": [
+   "query"
+  ],
+  "W4206624638": [
+   "query"
+  ],
+  "W4207053165": [
+   "query"
+  ],
+  "W4207053771": [
+   "free_seed_injected"
+  ],
+  "W4213066125": [
+   "free_seed_injected"
+  ],
+  "W4213158739": [
+   "free_seed_injected"
+  ],
+  "W4214593538": [
+   "query"
+  ],
+  "W4220705139": [
+   "query"
+  ],
+  "W4223448754": [
+   "free_seed_injected"
+  ],
+  "W4224277991": [
+   "query"
+  ],
+  "W4225492871": [
+   "free_seed_injected"
+  ],
+  "W4226034848": [
+   "free_seed_injected"
+  ],
+  "W4226242509": [
+   "free_seed_injected"
+  ],
+  "W4229029886": [
+   "free_seed_injected"
+  ],
+  "W4229649621": [
+   "free_seed_injected"
+  ],
+  "W4230031041": [
+   "free_seed_injected"
+  ],
+  "W4232317165": [
+   "query"
+  ],
+  "W4232802954": [
+   "query"
+  ],
+  "W4233681918": [
+   "query"
+  ],
+  "W4235370558": [
+   "free_seed_injected"
+  ],
+  "W4235999920": [
+   "query"
+  ],
+  "W4237416596": [
+   "free_seed_injected"
+  ],
+  "W4237896740": [
+   "free_seed_injected"
+  ],
+  "W4238196879": [
+   "query"
+  ],
+  "W4240527180": [
+   "query"
+  ],
+  "W4240588792": [
+   "query"
+  ],
+  "W4242858552": [
+   "query"
+  ],
+  "W4243819972": [
+   "query"
+  ],
+  "W4244515351": [
+   "query"
+  ],
+  "W4245755809": [
+   "query"
+  ],
+  "W4245816470": [
+   "query"
+  ],
+  "W4246896705": [
+   "query"
+  ],
+  "W4247097281": [
+   "query"
+  ],
+  "W4247521114": [
+   "free_seed_injected"
+  ],
+  "W4247561620": [
+   "free_seed_injected"
+  ],
+  "W4249182744": [
+   "query"
+  ],
+  "W4249834329": [
+   "free_seed_injected"
+  ],
+  "W4251312404": [
+   "free_seed_injected"
+  ],
+  "W4251670398": [
+   "free_seed_injected"
+  ],
+  "W4252001259": [
+   "query"
+  ],
+  "W4253482466": [
+   "free_seed_injected"
+  ],
+  "W4254167457": [
+   "query"
+  ],
+  "W4254196559": [
+   "query"
+  ],
+  "W4283768764": [
+   "free_seed_injected"
+  ],
+  "W4284887170": [
+   "free_seed_injected"
+  ],
+  "W4285265634": [
+   "query"
+  ],
+  "W4285296949": [
+   "free_seed_injected"
+  ],
+  "W4288398621": [
+   "query"
+  ],
+  "W4289257946": [
+   "free_seed_injected"
+  ],
+  "W4290072758": [
+   "free_seed_injected"
+  ],
+  "W4294811938": [
+   "free_seed_injected"
+  ],
+  "W4295592775": [
+   "query"
+  ],
+  "W4296220256": [
+   "free_seed_injected"
+  ],
+  "W4296880287": [
+   "free_seed_injected"
+  ],
+  "W4297662280": [
+   "query"
+  ],
+  "W4297688539": [
+   "query"
+  ],
+  "W4298005712": [
+   "query"
+  ],
+  "W4298255879": [
+   "free_seed_injected"
+  ],
+  "W4299414339": [
+   "query"
+  ],
+  "W4299606394": [
+   "query"
+  ],
+  "W4300775725": [
+   "query"
+  ],
+  "W4300855090": [
+   "query"
+  ],
+  "W4301258227": [
+   "query"
+  ],
+  "W4301798498": [
+   "query"
+  ],
+  "W4306181332": [
+   "free_seed_injected"
+  ],
+  "W4306407518": [
+   "free_seed_injected"
+  ],
+  "W4307935395": [
+   "free_seed_injected"
+  ],
+  "W4309754549": [
+   "free_seed_injected"
+  ],
+  "W4309759164": [
+   "free_seed_injected"
+  ],
+  "W4312305161": [
+   "query"
+  ],
+  "W4312581272": [
+   "free_seed_injected"
+  ],
+  "W4313305483": [
+   "query"
+  ],
+  "W4313706997": [
+   "free_seed_injected"
+  ],
+  "W4316927574": [
+   "query"
+  ],
+  "W4319441420": [
+   "free_seed_injected"
+  ],
+  "W4319840112": [
+   "free_seed_injected"
+  ],
+  "W4322771429": [
+   "query"
+  ],
+  "W4323529273": [
+   "query"
+  ],
+  "W4323772587": [
+   "query"
+  ],
+  "W4360839096": [
+   "free_seed_injected"
+  ],
+  "W4361251042": [
+   "query"
+  ],
+  "W4361811657": [
+   "free_seed_injected"
+  ],
+  "W4362557413": [
+   "free_seed_injected"
+  ],
+  "W4362663476": [
+   "free_seed_injected"
+  ],
+  "W4362683635": [
+   "query"
+  ],
+  "W4366085283": [
+   "query"
+  ],
+  "W4366372508": [
+   "query"
+  ],
+  "W4366814735": [
+   "free_seed_injected"
+  ],
+  "W4366826602": [
+   "free_seed_injected"
+  ],
+  "W4367053219": [
+   "free_seed_injected"
+  ],
+  "W4367598460": [
+   "query"
+  ],
+  "W4375853392": [
+   "free_seed_injected"
+  ],
+  "W4376255533": [
+   "free_seed_injected"
+  ],
+  "W4376503151": [
+   "free_seed_injected"
+  ],
+  "W4377967036": [
+   "query"
+  ],
+  "W4381383768": [
+   "free_seed_injected"
+  ],
+  "W4382026022": [
+   "query"
+  ],
+  "W4382301226": [
+   "free_seed_injected"
+  ],
+  "W4382632573": [
+   "free_seed_injected"
+  ],
+  "W4383744876": [
+   "query"
+  ],
+  "W4383998429": [
+   "free_seed_injected"
+  ],
+  "W4384282094": [
+   "free_seed_injected"
+  ],
+  "W4384823080": [
+   "free_seed_injected"
+  ],
+  "W4385683425": [
+   "query"
+  ],
+  "W4385749519": [
+   "free_seed_injected"
+  ],
+  "W4386501261": [
+   "query"
+  ],
+  "W4386641321": [
+   "query"
+  ],
+  "W4386740261": [
+   "query"
+  ],
+  "W4386918665": [
+   "query"
+  ],
+  "W4386955243": [
+   "free_seed_injected"
+  ],
+  "W4387117958": [
+   "free_seed_injected"
+  ],
+  "W4387123123": [
+   "query"
+  ],
+  "W4387381324": [
+   "free_seed_injected"
+  ],
+  "W4387425989": [
+   "free_seed_injected"
+  ],
+  "W4387448757": [
+   "free_seed_injected"
+  ],
+  "W4387499017": [
+   "free_seed_injected"
+  ],
+  "W4387689594": [
+   "query"
+  ],
+  "W4387797014": [
+   "free_seed_injected"
+  ],
+  "W4388073988": [
+   "query"
+  ],
+  "W4388111435": [
+   "query"
+  ],
+  "W4388302539": [
+   "free_seed_injected"
+  ],
+  "W4388344800": [
+   "free_seed_injected"
+  ],
+  "W4388382065": [
+   "query"
+  ],
+  "W4388459915": [
+   "free_seed_injected"
+  ],
+  "W4388481526": [
+   "query"
+  ],
+  "W4388837695": [
+   "query"
+  ],
+  "W4389236509": [
+   "free_seed_injected"
+  ],
+  "W4389481411": [
+   "query"
+  ],
+  "W4389502207": [
+   "free_seed_injected"
+  ],
+  "W4390012104": [
+   "free_seed_injected"
+  ],
+  "W4390149033": [
+   "query"
+  ],
+  "W4390597977": [
+   "free_seed_injected"
+  ],
+  "W4390656048": [
+   "query"
+  ],
+  "W4391107793": [
+   "query",
+   "free_seed"
+  ],
+  "W4391119077": [
+   "query"
+  ],
+  "W4391179435": [
+   "free_seed_injected"
+  ],
+  "W4391270905": [
+   "free_seed_injected"
+  ],
+  "W4391574590": [
+   "query"
+  ],
+  "W4392085080": [
+   "free_seed_injected"
+  ],
+  "W4392237320": [
+   "free_seed_injected"
+  ],
+  "W4392295339": [
+   "free_seed_injected"
+  ],
+  "W4392319677": [
+   "query"
+  ],
+  "W4392732371": [
+   "free_seed_injected"
+  ],
+  "W4393075399": [
+   "free_seed_injected"
+  ],
+  "W4393234534": [
+   "free_seed_injected"
+  ],
+  "W4393304046": [
+   "query"
+  ],
+  "W4393510743": [
+   "free_seed_injected"
+  ],
+  "W4393953379": [
+   "query"
+  ],
+  "W4394359129": [
+   "query"
+  ],
+  "W4394486809": [
+   "query"
+  ],
+  "W4396763074": [
+   "query"
+  ],
+  "W4396904090": [
+   "free_seed_injected"
+  ],
+  "W4396956957": [
+   "free_seed_injected"
+  ],
+  "W4399518485": [
+   "free_seed_injected"
+  ],
+  "W4399766916": [
+   "free_seed_injected"
+  ],
+  "W4399858508": [
+   "query"
+  ],
+  "W4399984051": [
+   "query"
+  ],
+  "W4400484551": [
+   "free_seed_injected"
+  ],
+  "W4400514641": [
+   "free_seed_injected"
+  ],
+  "W4400936009": [
+   "query"
+  ],
+  "W4400956316": [
+   "query"
+  ],
+  "W4401279960": [
+   "free_seed_injected"
+  ],
+  "W4401513056": [
+   "query"
+  ],
+  "W4401983377": [
+   "query",
+   "free_seed"
+  ],
+  "W4402097621": [
+   "free_seed_injected"
+  ],
+  "W4403366807": [
+   "free_seed_injected"
+  ],
+  "W4403510832": [
+   "query"
+  ],
+  "W4403727727": [
+   "free_seed_injected"
+  ],
+  "W4403962969": [
+   "query"
+  ],
+  "W4404118609": [
+   "free_seed_injected"
+  ],
+  "W4404510672": [
+   "query"
+  ],
+  "W4404512154": [
+   "free_seed_injected"
+  ],
+  "W4404777440": [
+   "query"
+  ],
+  "W4404935329": [
+   "free_seed_injected"
+  ],
+  "W4405485306": [
+   "query"
+  ],
+  "W4405783431": [
+   "query"
+  ],
+  "W4405939306": [
+   "free_seed_injected"
+  ],
+  "W4406056888": [
+   "query"
+  ],
+  "W4406087064": [
+   "query"
+  ],
+  "W4406247451": [
+   "query"
+  ],
+  "W4406308786": [
+   "query"
+  ],
+  "W4406957315": [
+   "query"
+  ],
+  "W4406990151": [
+   "query"
+  ],
+  "W4407531642": [
+   "free_seed_injected"
+  ],
+  "W4407852969": [
+   "free_seed_injected"
+  ],
+  "W4408021696": [
+   "free_seed_injected"
+  ],
+  "W4408215383": [
+   "query"
+  ],
+  "W4408305360": [
+   "free_seed_injected"
+  ],
+  "W4408538421": [
+   "free_seed_injected"
+  ],
+  "W4408550180": [
+   "free_seed_injected"
+  ],
+  "W4408915325": [
+   "query"
+  ],
+  "W4409571893": [
+   "free_seed_injected"
+  ],
+  "W4409749448": [
+   "query"
+  ],
+  "W4410116860": [
+   "free_seed_injected"
+  ],
+  "W4410119366": [
+   "query"
+  ],
+  "W4410162221": [
+   "query"
+  ],
+  "W4410168326": [
+   "query"
+  ],
+  "W4410171119": [
+   "query"
+  ],
+  "W4410191940": [
+   "query"
+  ],
+  "W4410279302": [
+   "query"
+  ],
+  "W4410477498": [
+   "free_seed_injected"
+  ],
+  "W4410502116": [
+   "free_seed_injected"
+  ],
+  "W4410512797": [
+   "free_seed_injected"
+  ],
+  "W4410586894": [
+   "query"
+  ],
+  "W4410820144": [
+   "query"
+  ],
+  "W4410841559": [
+   "free_seed_injected"
+  ],
+  "W4411040865": [
+   "free_seed_injected"
+  ],
+  "W4411069708": [
+   "query"
+  ],
+  "W4411111926": [
+   "query"
+  ],
+  "W4411132965": [
+   "query"
+  ],
+  "W4411383390": [
+   "free_seed_injected"
+  ],
+  "W4411385309": [
+   "query"
+  ],
+  "W4411701486": [
+   "query"
+  ],
+  "W4412042388": [
+   "query"
+  ],
+  "W4412184018": [
+   "query"
+  ],
+  "W4412261174": [
+   "query"
+  ],
+  "W4412468424": [
+   "query"
+  ],
+  "W4412717623": [
+   "query"
+  ],
+  "W4412873952": [
+   "query"
+  ],
+  "W4412897986": [
+   "query"
+  ],
+  "W4413187798": [
+   "query"
+  ],
+  "W4413341907": [
+   "query"
+  ],
+  "W4414062147": [
+   "query"
+  ],
+  "W4414134574": [
+   "free_seed_injected"
+  ],
+  "W4414674472": [
+   "free_seed_injected"
+  ],
+  "W4415156660": [
+   "query"
+  ],
+  "W4415252446": [
+   "free_seed_injected"
+  ],
+  "W4415413757": [
+   "free_seed_injected"
+  ],
+  "W4415809296": [
+   "free_seed_injected"
+  ],
+  "W4415984786": [
+   "free_seed_injected"
+  ],
+  "W4416091101": [
+   "query"
+  ],
+  "W4416456170": [
+   "free_seed_injected"
+  ],
+  "W4416712043": [
+   "query"
+  ],
+  "W4417102578": [
+   "query"
+  ],
+  "W4417161011": [
+   "free_seed_injected"
+  ],
+  "W4417424700": [
+   "query"
+  ],
+  "W49184632": [
+   "query"
+  ],
+  "W51563627": [
+   "query"
+  ],
+  "W55876457": [
+   "query"
+  ],
+  "W583117838": [
+   "query"
+  ],
+  "W592315713": [
+   "query"
+  ],
+  "W601270806": [
+   "query"
+  ],
+  "W624460361": [
+   "query"
+  ],
+  "W7019036814": [
+   "query"
+  ],
+  "W7108326044": [
+   "query"
+  ],
+  "W7110594621": [
+   "query"
+  ],
+  "W7110659818": [
+   "query"
+  ],
+  "W7111444674": [
+   "query"
+  ],
+  "W7111513110": [
+   "query"
+  ],
+  "W7111750037": [
+   "query"
+  ],
+  "W7112031719": [
+   "query"
+  ],
+  "W7112037305": [
+   "query"
+  ],
+  "W7112086282": [
+   "query"
+  ],
+  "W7112111046": [
+   "query"
+  ],
+  "W7112537774": [
+   "query"
+  ],
+  "W7112607244": [
+   "query"
+  ],
+  "W7112697714": [
+   "query"
+  ],
+  "W7113506239": [
+   "query"
+  ],
+  "W7113545999": [
+   "query"
+  ],
+  "W7113721227": [
+   "query"
+  ],
+  "W7115597930": [
+   "query"
+  ],
+  "W7115619186": [
+   "query"
+  ],
+  "W7116863621": [
+   "query"
+  ],
+  "W7117980566": [
+   "query"
+  ],
+  "W7120378122": [
+   "query"
+  ],
+  "W7120645405": [
+   "query"
+  ],
+  "W7122744366": [
+   "free_seed_injected"
+  ],
+  "W7122806293": [
+   "query"
+  ],
+  "W7125022179": [
+   "free_seed_injected"
+  ],
+  "W7125383234": [
+   "query"
+  ],
+  "W7125632459": [
+   "query"
+  ],
+  "W7125797254": [
+   "free_seed_injected"
+  ],
+  "W7125925219": [
+   "query"
+  ],
+  "W7125949795": [
+   "query"
+  ],
+  "W7127050212": [
+   "free_seed_injected"
+  ],
+  "W7127900483": [
+   "query"
+  ],
+  "W7128071582": [
+   "free_seed_injected"
+  ],
+  "W7128369970": [
+   "free_seed_injected"
+  ],
+  "W7128427761": [
+   "query"
+  ],
+  "W7130935920": [
+   "query"
+  ],
+  "W7132289093": [
+   "query"
+  ],
+  "W7132498527": [
+   "query"
+  ],
+  "W7133356014": [
+   "query"
+  ],
+  "W7133382669": [
+   "query"
+  ],
+  "W7133420322": [
+   "query"
+  ],
+  "W7133422686": [
+   "query"
+  ],
+  "W7133517469": [
+   "free_seed_injected"
+  ],
+  "W7133969683": [
+   "query"
+  ],
+  "W7134046591": [
+   "query"
+  ],
+  "W7134950537": [
+   "query"
+  ],
+  "W7135639803": [
+   "query"
+  ],
+  "W7135649331": [
+   "query"
+  ],
+  "W7135775666": [
+   "query"
+  ],
+  "W7135860871": [
+   "query"
+  ],
+  "W7136468322": [
+   "query"
+  ],
+  "W7137429366": [
+   "query"
+  ],
+  "W7137730895": [
+   "query"
+  ],
+  "W7137841082": [
+   "query"
+  ],
+  "W7139812783": [
+   "query"
+  ],
+  "W7139961804": [
+   "query"
+  ],
+  "W7140295102": [
+   "query"
+  ],
+  "W7141384766": [
+   "query"
+  ],
+  "W7143985888": [
+   "query"
+  ],
+  "W7145124963": [
+   "query"
+  ],
+  "W7145650834": [
+   "query"
+  ],
+  "W7145728751": [
+   "query"
+  ],
+  "W7146166903": [
+   "query"
+  ],
+  "W7147660629": [
+   "free_seed_injected"
+  ],
+  "W7149881900": [
+   "query"
+  ],
+  "W7152117909": [
+   "query"
+  ],
+  "W7154947856": [
+   "query"
+  ],
+  "W7155490378": [
+   "query"
+  ],
+  "W7155521471": [
+   "free_seed_injected"
+  ],
+  "W7155916769": [
+   "query"
+  ],
+  "W7158898073": [
+   "query"
+  ],
+  "W7159970158": [
+   "query"
+  ],
+  "W7160884309": [
+   "query"
+  ],
+  "W7161115323": [
+   "query"
+  ],
+  "W7161787307": [
+   "query"
+  ],
+  "W7161963622": [
+   "query"
+  ],
+  "W7163014734": [
+   "query"
+  ],
+  "W7164189874": [
+   "query"
+  ],
+  "W7164449696": [
+   "query"
+  ],
+  "W7164468612": [
+   "query"
+  ],
+  "W7164618774": [
+   "query"
+  ],
+  "W7164745220": [
+   "query"
+  ],
+  "W7165114627": [
+   "query",
+   "anchor",
+   "free_seed"
+  ],
+  "W7165660244": [
+   "query"
+  ],
+  "W7165771082": [
+   "query"
+  ],
+  "W7165798472": [
+   "query"
+  ],
+  "W7165821897": [
+   "query"
+  ],
+  "W7167034190": [
+   "query"
+  ],
+  "W7167080095": [
+   "query"
+  ],
+  "W7167084123": [
+   "query"
+  ],
+  "W7167694010": [
+   "free_seed_injected"
+  ],
+  "W7167703623": [
+   "query"
+  ],
+  "W7168038483": [
+   "query"
+  ],
+  "W7168082387": [
+   "query"
+  ],
+  "W7168092919": [
+   "query"
+  ],
+  "W7169654298": [
+   "query"
+  ],
+  "W7169850491": [
+   "query"
+  ],
+  "W7171506337": [
+   "query"
+  ],
+  "W7171624349": [
+   "query"
+  ],
+  "W7171677446": [
+   "query"
+  ],
+  "W7171753412": [
+   "query"
+  ],
+  "W7172523058": [
+   "query"
+  ],
+  "W7198200496": [
+   "query"
+  ],
+  "W7198458450": [
+   "query"
+  ],
+  "W7202175119": [
+   "query"
+  ],
+  "W7203622719": [
+   "query"
+  ],
+  "W7204092322": [
+   "query"
+  ],
+  "W7204141357": [
+   "query"
+  ],
+  "W7204228299": [
+   "query"
+  ],
+  "W7204273545": [
+   "free_seed_injected"
+  ],
+  "W7204440887": [
+   "query"
+  ],
+  "W7204468015": [
+   "query"
+  ],
+  "W7204644198": [
+   "query"
+  ],
+  "W7204886054": [
+   "query"
+  ],
+  "W7204957156": [
+   "query"
+  ],
+  "W7206861526": [
+   "query"
+  ],
+  "W7207837483": [
+   "query"
+  ],
+  "W7208058969": [
+   "query"
+  ],
+  "W7208254928": [
+   "query"
+  ],
+  "W7208654202": [
+   "query"
+  ],
+  "W7209154989": [
+   "query"
+  ],
+  "W7210359003": [
+   "query"
+  ],
+  "W7211916691": [
+   "query"
+  ],
+  "W73192884": [
+   "query"
+  ],
+  "W768120411": [
+   "query"
+  ],
+  "W76964246": [
+   "free_seed_injected"
+  ],
+  "W793405488": [
+   "query"
+  ],
+  "W88685004": [
+   "query"
+  ],
+  "W964576818": [
+   "query"
+  ],
+  "W98493721": [
+   "query"
+  ]
+ }
+}
