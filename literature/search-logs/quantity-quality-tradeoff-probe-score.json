@@ -118,8 +118,8 @@
   ],
   "sensitivity": {
     "THEORY": {
-      "n": 4,
-      "in_scope": 4,
+      "n": 8,
+      "in_scope": 8,
       "off": 0,
       "rows": [
         {
@@ -145,13 +145,37 @@
           "kept": true,
           "cell": "THEORY",
           "title": "On the Interaction between the Quantity and Quality of Children"
+        },
+        {
+          "screen_id": "C3D0039",
+          "kept": true,
+          "cell": "THEORY",
+          "title": "Child Endowments and the Quantity and Quality of Children"
+        },
+        {
+          "screen_id": "C3D0055",
+          "kept": true,
+          "cell": "THEORY",
+          "title": "The Baby Boom and Baby Bust"
+        },
+        {
+          "screen_id": "C3D0713",
+          "kept": true,
+          "cell": "THEORY",
+          "title": "Accounting for Fertility Decline During the Transition to Growth"
+        },
+        {
+          "screen_id": "C3D1540",
+          "kept": true,
+          "cell": "THEORY",
+          "title": "Natural Selection and the Origin of Economic Growth"
         }
       ]
     },
     "BACKWARD": {
-      "n": 3,
-      "in_scope": 3,
-      "off": 0,
+      "n": 15,
+      "in_scope": 12,
+      "off": 3,
       "rows": [
         {
           "screen_id": "C3D0005",
@@ -170,19 +194,242 @@
           "kept": true,
           "cell": "QQ_SUBSTITUTION",
           "title": "Multiple Experiments for the Causal Link between the Quantity and Qual"
+        },
+        {
+          "screen_id": "C3D0040",
+          "kept": true,
+          "cell": "QQ_SUBSTITUTION",
+          "title": "The quantity-Quality trade-Off of children In a developing country: Id"
+        },
+        {
+          "screen_id": "C3D0053",
+          "kept": true,
+          "cell": "QQ_SUBSTITUTION",
+          "title": "The Impacts of Family Size on Investment in Child Quality"
+        },
+        {
+          "screen_id": "C3D0410",
+          "kept": true,
+          "cell": "QQ_SUBSTITUTION",
+          "title": "Can resource dilution explain differences in height by birth order and"
+        },
+        {
+          "screen_id": "C3D0920",
+          "kept": false,
+          "cell": "OFF_TOPIC",
+          "title": "Association between Number of Siblings and Cardiovascular Risk Factors"
+        },
+        {
+          "screen_id": "C3D1539",
+          "kept": true,
+          "cell": "QQ_SUBSTITUTION",
+          "title": "Is There Really a Trade-off? Family Size and Investment in Child Quali"
+        },
+        {
+          "screen_id": "C3D1611",
+          "kept": false,
+          "cell": "OFF_TOPIC",
+          "title": "The Inverse Association Between Number of Siblings and Divorce: New Ev"
+        },
+        {
+          "screen_id": "C3D1684",
+          "kept": true,
+          "cell": "QQ_SUBSTITUTION",
+          "title": "Explaining Birth Order Effects on Child Nutrition: The Role of Resourc"
+        },
+        {
+          "screen_id": "C3D1717",
+          "kept": false,
+          "cell": "OFF_TOPIC",
+          "title": "Number of siblings and psychotropic medication purchases surrounding p"
+        },
+        {
+          "screen_id": "C3D2638",
+          "kept": true,
+          "cell": "QQ_SUBSTITUTION",
+          "title": "Early school leaving, number of siblings and birth order in Spain"
+        },
+        {
+          "screen_id": "C3D2659",
+          "kept": true,
+          "cell": "QQ_SUBSTITUTION",
+          "title": "Unveiling the direct and indirect effects of sibling size on happiness"
+        },
+        {
+          "screen_id": "C3D3122",
+          "kept": true,
+          "cell": "QQ_SUBSTITUTION",
+          "title": "Parental investment in child immunisation: the role of birth order and"
+        },
+        {
+          "screen_id": "C3D3133",
+          "kept": true,
+          "cell": "QQ_SUBSTITUTION",
+          "title": "Shadow education and the effects of family size on parental educationa"
+        }
+      ]
+    },
+    "FORWARD": {
+      "n": 4,
+      "in_scope": 4,
+      "off": 0,
+      "rows": [
+        {
+          "screen_id": "C3D0059",
+          "kept": true,
+          "cell": "SHOCK_FERTILITY",
+          "title": "Chronic Disease Burden and the Interaction of Education, Fertility, an"
+        },
+        {
+          "screen_id": "C3D0102",
+          "kept": true,
+          "cell": "SHOCK_FERTILITY",
+          "title": "Fertility Transitions Along the Extensive and Intensive Margins"
+        },
+        {
+          "screen_id": "C3D0176",
+          "kept": true,
+          "cell": "SHOCK_FERTILITY",
+          "title": "Human capital and the quantity\u2013quality trade-off during the demographi"
+        },
+        {
+          "screen_id": "C3D0255",
+          "kept": true,
+          "cell": "RETURN_FERTILITY",
+          "title": "Fecundity, Fertility and The Formation of Human Capital"
         }
       ]
     },
     "UNKNOWN": {
-      "n": 3,
-      "in_scope": 3,
-      "off": 0,
+      "n": 54,
+      "in_scope": 48,
+      "off": 6,
       "rows": [
+        {
+          "screen_id": "C3D0064",
+          "kept": true,
+          "cell": "MIXED_CHILD_PARENT_RETURN",
+          "title": "Partner Choice, Investment in Children, and the Marital College Premiu"
+        },
+        {
+          "screen_id": "C3D0119",
+          "kept": true,
+          "cell": "PERCEIVED_RETURN",
+          "title": "Parental Beliefs about Returns to Educational Investments\u2014The Later th"
+        },
+        {
+          "screen_id": "C3D0200",
+          "kept": true,
+          "cell": "RETURN_FERTILITY",
+          "title": "Skill premium effects on fertility and female labor force supply"
+        },
+        {
+          "screen_id": "C3D0286",
+          "kept": false,
+          "cell": "OFF_TOPIC",
+          "title": "Testing the Confluence Model of the Association Between Pornography Us"
+        },
+        {
+          "screen_id": "C3D0395",
+          "kept": true,
+          "cell": "QQ_SUBSTITUTION",
+          "title": "Intergenerational Exchange of Support in Low\u2010Income Families: Understa"
+        },
+        {
+          "screen_id": "C3D0442",
+          "kept": true,
+          "cell": "THEORY",
+          "title": "The empirics of economic growth over time and across nations: a unifie"
+        },
+        {
+          "screen_id": "C3D0465",
+          "kept": true,
+          "cell": "RETURN_FERTILITY",
+          "title": "Population Density, Migration, and the Returns to Human Capital and La"
+        },
+        {
+          "screen_id": "C3D0490",
+          "kept": true,
+          "cell": "RETURN_FERTILITY",
+          "title": "Women\u2019s right to property and the child quantity-quality trade-off: ev"
+        },
         {
           "screen_id": "C3D0554",
           "kept": true,
           "cell": "THEORY",
           "title": "Development, fertility and childbearing age: A Unified Growth Theory"
+        },
+        {
+          "screen_id": "C3D0612",
+          "kept": true,
+          "cell": "QQ_SUBSTITUTION",
+          "title": "Parental involvement and Children's human capital: A tax-subsidy exper"
+        },
+        {
+          "screen_id": "C3D0656",
+          "kept": true,
+          "cell": "MIXED_CHILD_PARENT_RETURN",
+          "title": "The compulsory education law, female education and fertility: An empir"
+        },
+        {
+          "screen_id": "C3D0675",
+          "kept": true,
+          "cell": "QQ_SUBSTITUTION",
+          "title": "When does family size matter? Sibship size, socioeconomic status and e"
+        },
+        {
+          "screen_id": "C3D0825",
+          "kept": true,
+          "cell": "QQ_SUBSTITUTION",
+          "title": "Quantity-quality trade-off in Northeast China during the Qing dynasty"
+        },
+        {
+          "screen_id": "C3D0828",
+          "kept": true,
+          "cell": "SHOCK_FERTILITY",
+          "title": "Demographic impacts of China\u2019s trade liberalization: marriage, spousal"
+        },
+        {
+          "screen_id": "C3D0853",
+          "kept": true,
+          "cell": "QQ_SUBSTITUTION",
+          "title": "Economies of scale, resource dilution and education choice in developi"
+        },
+        {
+          "screen_id": "C3D0880",
+          "kept": true,
+          "cell": "QQ_SUBSTITUTION",
+          "title": "Rationed Fertility: Treatment Effect Heterogeneity in the Child Quanti"
+        },
+        {
+          "screen_id": "C3D0934",
+          "kept": true,
+          "cell": "MIXED_CHILD_PARENT_RETURN",
+          "title": "Agricultural Technological Change, Female Earnings and Fertility: Evid"
+        },
+        {
+          "screen_id": "C3D0998",
+          "kept": true,
+          "cell": "QQ_SUBSTITUTION",
+          "title": "The Gendered Resource Dilution: Sibling Structure, Parental Non-Moneta"
+        },
+        {
+          "screen_id": "C3D1001",
+          "kept": true,
+          "cell": "MIXED_CHILD_PARENT_RETURN",
+          "title": "The impact of female education on fertility: evidence from Malawi Univ"
+        },
+        {
+          "screen_id": "C3D1004",
+          "kept": true,
+          "cell": "THEORY",
+          "title": "Unified Growth Theory: Roots of Growth and Inequality in the Wealth of"
+        },
+        {
+          "screen_id": "C3D1081",
+          "kept": true,
+          "cell": "QQ_SUBSTITUTION",
+          "title": "Number of siblings, access to treated water and returns to education i"
         },
         {
           "screen_id": "C3D1100",
@@ -191,10 +438,196 @@
           "title": "The effect of trade liberalization on marriage and fertility: evidence"
         },
         {
+          "screen_id": "C3D1168",
+          "kept": true,
+          "cell": "PERCEIVED_RETURN",
+          "title": "Beliefs and Investment in Child Human Capital: Case Study from Benin"
+        },
+        {
+          "screen_id": "C3D1189",
+          "kept": true,
+          "cell": "THEORY",
+          "title": "Energy, Knowledge, and Demo-Economic Development in the Long Run: A Un"
+        },
+        {
+          "screen_id": "C3D1193",
+          "kept": false,
+          "cell": "OFF_TOPIC",
+          "title": "Explaining and Evaluating the Effective Factors in Improving the Quali"
+        },
+        {
+          "screen_id": "C3D1220",
+          "kept": true,
+          "cell": "QQ_SUBSTITUTION",
+          "title": "Family Planning and Children's Human Capital: Experimental Evidence Fr"
+        },
+        {
+          "screen_id": "C3D1346",
+          "kept": true,
+          "cell": "QQ_SUBSTITUTION",
+          "title": "Direct Cash Transfer Effect on Children Quality in Women\u2019s Household i"
+        },
+        {
+          "screen_id": "C3D1356",
+          "kept": true,
+          "cell": "QQ_SUBSTITUTION",
+          "title": "Housing Wealth, Fertility, and Child Quality"
+        },
+        {
+          "screen_id": "C3D1365",
+          "kept": true,
+          "cell": "QQ_SUBSTITUTION",
+          "title": "Violent conflict and the child quantity\u2013quality tradeoff"
+        },
+        {
+          "screen_id": "C3D1600",
+          "kept": true,
+          "cell": "THEORY",
+          "title": "Reconciling Reversal of Fortune in early United States Development wit"
+        },
+        {
           "screen_id": "C3D1648",
           "kept": true,
           "cell": "QQ_SUBSTITUTION",
           "title": "Cost-sharing policy and its long-term impact on quantity\u2013quality trade"
+        },
+        {
+          "screen_id": "C3D1666",
+          "kept": true,
+          "cell": "SHOCK_FERTILITY",
+          "title": "Input-Trade Liberalization, Female-Skill Intensity and Fertility in Ch"
+        },
+        {
+          "screen_id": "C3D1668",
+          "kept": true,
+          "cell": "MIXED_RETURN_POSITION",
+          "title": "Money, child quantity-quality tradeoff, growth and welfare in a Schump"
+        },
+        {
+          "screen_id": "C3D1669",
+          "kept": true,
+          "cell": "THEORY",
+          "title": "The effectiveness of child policies to boost child quality and quantit"
+        },
+        {
+          "screen_id": "C3D1676",
+          "kept": true,
+          "cell": "QQ_SUBSTITUTION",
+          "title": "The long-term effect of television on children's human capital develop"
+        },
+        {
+          "screen_id": "C3D1687",
+          "kept": true,
+          "cell": "QQ_SUBSTITUTION",
+          "title": "Intergenerational effects of sick leave on child human capital"
+        },
+        {
+          "screen_id": "C3D1696",
+          "kept": false,
+          "cell": "OFF_OTHER",
+          "title": "Conceptive risk-taking: Personal uncertainty, flexible fertility inten"
+        },
+        {
+          "screen_id": "C3D1704",
+          "kept": true,
+          "cell": "THEORY",
+          "title": "The Trade-Off Between Child Quantity and Child Quality and the Public "
+        },
+        {
+          "screen_id": "C3D2218",
+          "kept": true,
+          "cell": "QQ_SUBSTITUTION",
+          "title": "Child Human Capital\u2014The Importance Of Parenting Style"
+        },
+        {
+          "screen_id": "C3D2653",
+          "kept": true,
+          "cell": "QQ_SUBSTITUTION",
+          "title": "Human Capital Investments and Family Size in Italy: IV Estimates Using"
+        },
+        {
+          "screen_id": "C3D2669",
+          "kept": true,
+          "cell": "SHOCK_FERTILITY",
+          "title": "Fertility and Automation"
+        },
+        {
+          "screen_id": "C3D2763",
+          "kept": true,
+          "cell": "MIXED_CHILD_PARENT_RETURN",
+          "title": "Education and fertility: Evidence from an instrumental variable approa"
+        },
+        {
+          "screen_id": "C3D2776",
+          "kept": true,
+          "cell": "THEORY",
+          "title": "6. Inside the black box of population growth : tracing the roots of un"
+        },
+        {
+          "screen_id": "C3D2777",
+          "kept": true,
+          "cell": "MIXED_CHILD_PARENT_RETURN",
+          "title": "Do Compulsory Schooling Laws Affect Fertility Behaviors and Marriages?"
+        },
+        {
+          "screen_id": "C3D2789",
+          "kept": true,
+          "cell": "SHOCK_FERTILITY",
+          "title": "The impact of terminating universal primary education on fertility: Ev"
+        },
+        {
+          "screen_id": "C3D2811",
+          "kept": true,
+          "cell": "PERCEIVED_RETURN",
+          "title": "Education, desired fertility, and HIV/AIDS: Evidence from China\u2019s comp"
+        },
+        {
+          "screen_id": "C3D2933",
+          "kept": true,
+          "cell": "QQ_SUBSTITUTION",
+          "title": "Retirement-age Extension and Parental Investment in Education"
+        },
+        {
+          "screen_id": "C3D3030",
+          "kept": false,
+          "cell": "OFF_OTHER",
+          "title": "Trends in Birth Rates, Sex Ratio, and Infant Mortality Rates Among Sin"
+        },
+        {
+          "screen_id": "C3D3038",
+          "kept": true,
+          "cell": "QQ_SUBSTITUTION",
+          "title": "Educational assortative mating and changing patterns of parental finan"
+        },
+        {
+          "screen_id": "C3D3059",
+          "kept": true,
+          "cell": "RETURN_FERTILITY",
+          "title": "Double the Diapers, Double the Degrees? Anticipated Children and Educa"
+        },
+        {
+          "screen_id": "C3D3094",
+          "kept": false,
+          "cell": "OFF_OTHER",
+          "title": "Fertility rates across generations in twins and singletons: A total po"
+        },
+        {
+          "screen_id": "C3D3097",
+          "kept": false,
+          "cell": "OFF_TOPIC",
+          "title": "Anthropometric differences between twins at birth and their associatio"
+        },
+        {
+          "screen_id": "C3D3138",
+          "kept": true,
+          "cell": "THEORY",
+          "title": "Automation and Aging in General Equilibrium: AI Capital, Fertility, an"
+        },
+        {
+          "screen_id": "C3D3228",
+          "kept": true,
+          "cell": "QQ_SUBSTITUTION",
+          "title": "Unexpected Monetary Policy and the Wealth Gradient in Parental Investm"
         }
       ]
     }

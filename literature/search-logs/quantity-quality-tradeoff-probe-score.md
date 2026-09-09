@@ -23,11 +23,24 @@ The batches carried no gold flag, no provenance and no arm; the key is merged on
 
 | direction | kept in scope | gold in probe |
 |---|---|---|
-| `BACKWARD` | 3 | 3 |
-| `THEORY` | 4 | 4 |
-| `UNKNOWN` | 3 | 3 |
+| `BACKWARD` | 12 | 15 |
+| `FORWARD` | 4 | 4 |
+| `THEORY` | 8 | 8 |
+| `UNKNOWN` | 48 | 54 |
 
-**No gold was routed out of scope.**
+### Gold the screen routed out
+
+| direction | cell given | title |
+|---|---|---|
+| `BACKWARD` | `OFF_TOPIC` | Association between Number of Siblings and Cardiovascular Risk Factors |
+| `BACKWARD` | `OFF_TOPIC` | The Inverse Association Between Number of Siblings and Divorce: New Ev |
+| `BACKWARD` | `OFF_TOPIC` | Number of siblings and psychotropic medication purchases surrounding p |
+| `UNKNOWN` | `OFF_TOPIC` | Testing the Confluence Model of the Association Between Pornography Us |
+| `UNKNOWN` | `OFF_TOPIC` | Explaining and Evaluating the Effective Factors in Improving the Quali |
+| `UNKNOWN` | `OFF_OTHER` | Conceptive risk-taking: Personal uncertainty, flexible fertility inten |
+| `UNKNOWN` | `OFF_OTHER` | Trends in Birth Rates, Sex Ratio, and Infant Mortality Rates Among Sin |
+| `UNKNOWN` | `OFF_OTHER` | Fertility rates across generations in twins and singletons: A total po |
+| `UNKNOWN` | `OFF_TOPIC` | Anthropometric differences between twins at birth and their associatio |
 
 ### Gold errata — records in the key that are NOT gold
 

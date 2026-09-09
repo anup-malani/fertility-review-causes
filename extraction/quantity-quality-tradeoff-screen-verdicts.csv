@@ -259,10 +259,8 @@ C3D0973,NA,OFF_OTHER,UNCLEAR,,NA,true,LOW,low-skilled immigration and private sc
 C3D0466,NA,OFF_TOPIC,NA,,NA,true,HIGH,hepatitis A in children,hand
 C3D0421,FORWARD,SHOCK_FERTILITY,NATURAL_EXPERIMENT,W7_SCHOOLING_LAW,FERTILITY,true,HIGH,compulsory schooling and child-labour restrictions -> fertility in the early twentieth century; an FDT-window forward design,hand
 C3D1585,BACKWARD,QQ_SUBSTITUTION,DESCRIPTIVE,,CHILD_ATTAINMENT,false,MED,Zajonc-Markus confluence test of family size and achievement decline,hand
-C3D0558,NA,OFF_TOPIC,NA,,NA,true,HIGH,metal silos rice storage; duplicate of C3D0558 in the probe,hand
 C3D2824,NA,OFF_TOPIC,NA,,NA,true,HIGH,soil health deep learning,hand
 C3D3043,BOTH,RETURN_FERTILITY,CROSS_SECTION,,FERTILITY,false,MED,two-way tradeoff between education and fertility using PISA; explicitly estimates both directions,hand
-C3D1100,FORWARD,SHOCK_FERTILITY,DID,W4_INCOME,FERTILITY,false,HIGH,Indian 1991 trade liberalization -> marriage and fertility; duplicate of the probe row,hand
 C3D0933,NA,OFF_OTHER,DID,W2_PARENT_RETURN,NA,true,MED,export shock -> female labour force participation; C.2.e,hand
 C3D1690,NA,OFF_TOPIC,NA,,NA,false,HIGH,egg fertility classification; poultry homonym,hand
 C3D0338,NA,OFF_TOPIC,NA,,NA,false,HIGH,maize root imaging,hand
@@ -3139,3 +3137,119 @@ C3D3132,NA,OFF_TOPIC,NA,,NA,false,HIGH,development in Guatemala,hand
 C3D3133,BACKWARD,QQ_SUBSTITUTION,IV,W1_POSITION,INVESTMENT_PER_CHILD,false,HIGH,SHADOW EDUCATION and the effect of family size on parental educational investment; C.2.f boundary,hand
 C3D3134,BACKWARD,QQ_SUBSTITUTION,CROSS_SECTION,,INVESTMENT_PER_CHILD,false,MED,family size and household expenditure allocation,hand
 C3D3135,BOTH,QQ_SUBSTITUTION,REVIEW,,NA,false,HIGH,is the economic mechanism of the quantity-quality tradeoff sustainable,hand
+C3D3136,NA,OFF_TOPIC,NA,,NA,false,HIGH,banking and AI in Japan's ageing economy,hand
+C3D3137,NA,OFF_TOPIC,NA,,NA,false,HIGH,duplicate of banking and AI in Japan,hand
+C3D3138,FORWARD,THEORY,CALIBRATION,,FERTILITY,false,HIGH,automation and ageing in general equilibrium; AI capital and fertility,hand
+C3D3139,FORWARD,MIXED_CHILD_PARENT_RETURN,PANEL_FE,W2_PARENT_RETURN,FERTILITY,false,HIGH,horizontal stratification in higher education and gendered family formation,hand
+C3D3140,NA,OFF_TOPIC,NA,,NA,false,LOW,essays on education economics and political economy,hand
+C3D3141,NA,OFF_TOPIC,NA,,NA,false,HIGH,IoT soil regeneration,hand
+C3D3142,NA,OFF_TOPIC,NA,,NA,false,HIGH,duplicate of IoT soil regeneration,hand
+C3D3143,NA,OFF_TOPIC,NA,,NA,false,HIGH,agricultural land quality,hand
+C3D3144,NA,OFF_TOPIC,NA,,NA,true,HIGH,Society 5.0 and labour shortage,hand
+C3D3145,FORWARD,THEORY,CALIBRATION,,FERTILITY,false,HIGH,duplicate of automation and ageing in general equilibrium,hand
+C3D3146,NA,OFF_TOPIC,NA,,NA,false,HIGH,duplicate of tribal healthcare attitudes,hand
+C3D3147,NA,OFF_TOPIC,NA,,NA,false,HIGH,gold investment behaviour,hand
+C3D3148,NA,OFF_TOPIC,NA,,NA,false,HIGH,nominal problem-solving preprint,hand
+C3D3149,NA,OFF_TOPIC,NA,,NA,false,HIGH,duplicate of the nominal problem-solving preprint,hand
+C3D3150,NA,OFF_TOPIC,NA,,NA,false,HIGH,grade 3 numeracy and reading,hand
+C3D3152,FORWARD,MIXED_CHILD_PARENT_RETURN,REVIEW,W2_PARENT_RETURN,FERTILITY,false,MED,bibliometric analysis of education and fertility in Asia,hand
+C3D3153,NA,OFF_TOPIC,NA,,NA,false,HIGH,fuel subsidy removal,hand
+C3D3154,FORWARD,PERCEIVED_RETURN,CROSS_SECTION,,FERTILITY,false,MED,young mothers' fertility decisions and ideal family size in Indonesia,hand
+C3D3155,NA,OFF_OTHER,DESCRIPTIVE,,FERTILITY,false,MED,fertility rates and national impact; a comparison,hand
+C3D3156,NA,OFF_TOPIC,NA,,NA,false,HIGH,curriculum and job market needs,hand
+C3D3157,BOTH,QQ_SUBSTITUTION,CALIBRATION,,INVESTMENT_PER_CHILD,false,HIGH,human capital differences and fertility inequality; a substitution analysis,hand
+C3D3158,NA,OFF_TOPIC,NA,,NA,false,HIGH,duplicate of economic status and health among Arabs in Israel,hand
+C3D3159,NA,OFF_TOPIC,NA,,NA,false,HIGH,egg incubator machine learning,hand
+C3D3160,FORWARD,SHOCK_FERTILITY,DID,W2_PARENT_RETURN;W4_INCOME,FERTILITY,true,HIGH,duplicate of when trade raises fertility,hand
+C3D3161,NA,OFF_TOPIC,NA,,NA,false,HIGH,ageing and labour productivity in Japan,hand
+C3D3162,NA,OFF_OTHER,NATURAL_EXPERIMENT,,FERTILITY,false,MED,child-care subsidies on fertility and birth outcomes; C.2.a,hand
+C3D3163,NA,OFF_TOPIC,NA,,NA,false,HIGH,AI relationships and techno-intimacy,hand
+C3D3164,NA,OFF_TOPIC,NA,,NA,false,HIGH,financial inclusion among farmers,hand
+C3D3165,NA,OFF_TOPIC,NA,,NA,false,LOW,untitled multidimensional study,hand
+C3D3166,NA,OFF_TOPIC,NA,,NA,false,HIGH,reading remediation programme,hand
+C3D3167,NA,OFF_TOPIC,NA,,NA,false,HIGH,comprehension and mathematics,hand
+C3D3168,NA,OFF_TOPIC,NA,,NA,false,HIGH,parental involvement in kindergarten,hand
+C3D3169,FORWARD,SHOCK_FERTILITY,PANEL_FE,,OTHER,false,MED,how demography shapes the macroeconomic returns to automation; the reverse direction,hand
+C3D3170,NA,OFF_TOPIC,NA,,NA,false,HIGH,micro-irrigation and fertigation,hand
+C3D3171,BACKWARD,QQ_SUBSTITUTION,CROSS_SECTION,,CHILD_ATTAINMENT,false,MED,education family size and socio-economic conditions of rural households,hand
+C3D3172,NA,OFF_TOPIC,REVIEW,,NA,false,HIGH,a peer review record; paratext not a study,hand
+C3D3173,NA,OFF_TOPIC,NA,,NA,false,HIGH,work in transition,hand
+C3D3174,NA,OFF_TOPIC,NA,,NA,false,HIGH,classroom management strategies,hand
+C3D3175,NA,OFF_TOPIC,NA,,NA,false,HIGH,nation-building and social cleavages,hand
+C3D3176,NA,OFF_TOPIC,NA,,NA,false,HIGH,nutritional status and academic performance,hand
+C3D3177,NA,OFF_TOPIC,NA,,NA,false,HIGH,embryology laboratory quality,hand
+C3D3178,NA,OFF_TOPIC,REVIEW,,NA,false,HIGH,a peer review record; paratext not a study,hand
+C3D3179,NA,OFF_TOPIC,NA,,NA,false,HIGH,infant mortality among the Gond,hand
+C3D3180,NA,OFF_TOPIC,NA,,NA,false,HIGH,abundance system preprint,hand
+C3D3181,NA,OFF_TOPIC,NA,,NA,false,HIGH,duplicate of the abundance system preprint,hand
+C3D3182,FORWARD,MIXED_RETURN_POSITION,PANEL_FE,W1_POSITION,FERTILITY,false,HIGH,the Confucian fertility paradox; EDUCATION COMPETITION and ultra-low fertility in East Asia; C.2.f's estimand,hand
+C3D3183,NA,OFF_TOPIC,NA,,NA,false,HIGH,duplicate of the abundance system preprint,hand
+C3D3184,NA,OFF_TOPIC,NA,,NA,false,HIGH,assistive technology editorial,hand
+C3D3186,FORWARD,MIXED_RETURN_POSITION,PANEL_FE,W1_POSITION,FERTILITY,true,HIGH,SSRN copy of the Confucian fertility paradox,hand
+C3D3187,NA,OFF_TOPIC,NA,,NA,true,HIGH,human capacity dividend essay,hand
+C3D3188,NA,OFF_OTHER,NATURAL_EXPERIMENT,W7_SCHOOLING_LAW,CHILD_ATTAINMENT,false,MED,can schooling reduce inequality; two centuries of compulsory education,hand
+C3D3189,NA,OFF_TOPIC,NA,,NA,false,HIGH,soil health machine learning,hand
+C3D3190,NA,OFF_TOPIC,NA,,NA,false,HIGH,social stratification editorial,hand
+C3D3191,FORWARD,MIXED_RETURN_POSITION,PANEL_FE,W1_POSITION,FERTILITY,false,HIGH,repository copy of the Confucian fertility paradox,hand
+C3D3192,NA,OFF_TOPIC,NA,,NA,false,HIGH,AI smart agriculture,hand
+C3D3193,NA,OFF_TOPIC,NA,,NA,false,HIGH,duplicate of AI smart agriculture,hand
+C3D3194,NA,OFF_OTHER,CROSS_SECTION,W7_SCHOOLING_LAW,NA,false,MED,children's involvement in economic activities; Alexandra's chapter,hand
+C3D3195,NA,OFF_OTHER,CROSS_SECTION,W7_SCHOOLING_LAW,NA,false,MED,duplicate of children's economic activity,hand
+C3D3196,NA,OFF_TOPIC,NA,,NA,false,HIGH,homegarden economics,hand
+C3D3197,NA,OFF_OTHER,CROSS_SECTION,,NA,false,MED,spousal vasectomy acceptability; A.5,hand
+C3D3198,NA,OFF_TOPIC,NA,,NA,false,HIGH,monosex fish engineering,hand
+C3D3199,NA,OFF_TOPIC,NA,,NA,false,HIGH,fertilizer and manure rates,hand
+C3D3200,NA,OFF_OTHER,CROSS_SECTION,,FERTILITY,false,MED,sex preference and fertility in Nepal; D.2.c,hand
+C3D3201,NA,OFF_OTHER,DESCRIPTIVE,,FERTILITY,false,MED,China's three-child policy and welfare reform; C.2.d,hand
+C3D3202,NA,OFF_TOPIC,NA,,NA,false,HIGH,ultra-low fertility as a bank run; preprint essay,hand
+C3D3203,NA,OFF_TOPIC,NA,,NA,false,HIGH,duplicate of the bank run preprint,hand
+C3D3204,NA,OFF_TOPIC,NA,,NA,false,HIGH,precise seeding of crops,hand
+C3D3205,NA,OFF_TOPIC,NA,,NA,false,HIGH,RSV bronchiolitis,hand
+C3D3206,NA,OFF_TOPIC,NA,,NA,false,HIGH,duplicate of exact seeding,hand
+C3D3207,NA,OFF_OTHER,PANEL_FE,W6_MORTALITY,FERTILITY,false,MED,population health the demographic transition and development in sub-Saharan Africa; A.1,hand
+C3D3208,NA,OFF_TOPIC,NA,,NA,false,HIGH,government college enrolment policy,hand
+C3D3209,NA,OFF_TOPIC,NA,,NA,true,HIGH,social disconnectedness determinants,hand
+C3D3210,NA,OFF_TOPIC,NA,,NA,false,HIGH,sperm morphology classification,hand
+C3D3211,NA,OFF_OTHER,CROSS_SECTION,,FERTILITY,false,MED,climate variability and fertility preferences in Zimbabwe; D.3.b,hand
+C3D3212,NA,OFF_TOPIC,NA,,NA,false,HIGH,demographics and AI on economic power,hand
+C3D3213,NA,OFF_OTHER,NATURAL_EXPERIMENT,W7_SCHOOLING_LAW,OTHER,false,MED,compulsory schooling and health inequality; anthropometric evidence,hand
+C3D3214,NA,OFF_OTHER,CROSS_SECTION,W1_POSITION,FERTILITY,false,MED,pressure on women of childbearing age to have a child; D.2.b,hand
+C3D3215,NA,OFF_TOPIC,NA,,NA,false,HIGH,dairy cattle genomic variants,hand
+C3D3216,NA,OFF_TOPIC,NA,,NA,false,HIGH,duplicate of the abundance system preprint,hand
+C3D3217,NA,OFF_TOPIC,NA,,NA,false,HIGH,agricultural credit access,hand
+C3D3218,NA,OFF_TOPIC,NA,,NA,false,HIGH,duplicate of agricultural credit access,hand
+C3D3219,NA,OFF_TOPIC,NA,,NA,false,HIGH,duplicate of agricultural credit access,hand
+C3D3220,NA,OFF_TOPIC,NA,,NA,false,HIGH,AI in the embryo laboratory,hand
+C3D3221,NA,OFF_TOPIC,NA,,NA,false,HIGH,duplicate of agricultural credit access,hand
+C3D3222,FORWARD,MIXED_RETURN_POSITION,PANEL_FE,W1_POSITION,FERTILITY,false,HIGH,education care and fertility in South Korea; household constraints and SOCIAL PRESSURE; C.2.f boundary,hand
+C3D3223,NA,OFF_TOPIC,NA,,NA,false,HIGH,economics of human shrinkage preprint,hand
+C3D3224,NA,OFF_OTHER,PANEL_FE,,FERTILITY,false,MED,immigrant fertility assimilation; A.19,hand
+C3D3225,NA,OFF_TOPIC,NA,,NA,false,HIGH,duplicate of the human shrinkage preprint,hand
+C3D3226,NA,OFF_TOPIC,NA,,NA,false,HIGH,omnidirectional robot control,hand
+C3D3227,NA,OFF_TOPIC,NA,,NA,true,HIGH,growth and redistribution Bayesian estimation,hand
+C3D3228,BACKWARD,QQ_SUBSTITUTION,PANEL_FE,W4_INCOME,INVESTMENT_PER_CHILD,true,HIGH,duplicate of monetary policy and the wealth gradient in parental investment,hand
+C3D3229,BACKWARD,QQ_SUBSTITUTION,NATURAL_EXPERIMENT,,CHILD_ATTAINMENT,false,HIGH,family planning policy and the intergenerational transmission of education,hand
+C3D3230,NA,OFF_OTHER,NATURAL_EXPERIMENT,W2_PARENT_RETURN,CHILD_ATTAINMENT,false,MED,re-entry policies and teen mothers' education in Senegal; A.7,hand
+C3D3231,BACKWARD,QQ_SUBSTITUTION,CROSS_SECTION,,CHILD_ATTAINMENT,true,HIGH,family size and educational exclusion in Afghanistan; household resource allocation,hand
+C3D3232,NA,OFF_TOPIC,NA,,NA,false,HIGH,duplicate of the historical US data collection,hand
+C3D3233,NA,OFF_TOPIC,NA,,NA,false,LOW,three essays on public policy and inequality in China,hand
+C3D3234,NA,OFF_TOPIC,NA,,NA,false,HIGH,museum science learning,hand
+C3D3235,NA,OFF_TOPIC,NA,,NA,false,HIGH,duplicate of peer effects on young adults,hand
+C3D3236,NA,OFF_TOPIC,NA,,NA,false,HIGH,compulsory education resource allocation,hand
+C3D3237,NA,OFF_OTHER,NATURAL_EXPERIMENT,W2_PARENT_RETURN;W7_SCHOOLING_LAW,NA,false,MED,free lower secondary education and gendered labour market consequences; C.2.e,hand
+C3D3238,NA,OFF_TOPIC,NA,,NA,false,HIGH,parental involvement in school activities,hand
+C3D3239,NA,OFF_TOPIC,NA,,NA,false,HIGH,duplicate of parental involvement in school activities,hand
+C3D3240,FORWARD,SHOCK_FERTILITY,NATURAL_EXPERIMENT,,FERTILITY,false,HIGH,journal version of Froebel's gifts; the kindergarten movement and the immigrant family,hand
+C3D3241,NA,OFF_OTHER,CROSS_SECTION,W2_PARENT_RETURN,FERTILITY,false,MED,family of origin and fertility preferences in Nigeria; A.19,hand
+C3D3242,NA,OFF_TOPIC,NA,,NA,false,HIGH,personal growth course and self-esteem,hand
+C3D3243,NA,OFF_TOPIC,NA,,NA,false,HIGH,loan repayment among rubber farmers,hand
+C3D3244,BACKWARD,QQ_SUBSTITUTION,CROSS_SECTION,,CHILD_ATTAINMENT,false,HIGH,sibship size effects on women's education in Japan and Korea; a measurement paper,hand
+C3D3245,NA,OFF_TOPIC,NA,,NA,false,HIGH,state ideology and female school enrolment in Iran,hand
+C3D3246,NA,OFF_OTHER,DESCRIPTIVE,,NA,false,MED,family planning motivation programmes in Ghana; A.5,hand
+C3D3247,FORWARD,MIXED_CHILD_PARENT_RETURN,CROSS_SECTION,W2_PARENT_RETURN,FERTILITY,false,MED,education and female fertility behaviour in Libya; C.2.e,hand
+C3D3248,NA,OFF_TOPIC,NA,,NA,false,HIGH,child support programme performance,hand
+C3D3249,NA,OFF_OTHER,DESCRIPTIVE,W2_PARENT_RETURN,FERTILITY,false,MED,the family demography of higher education,hand
+C3D3251,NA,OFF_TOPIC,NA,,NA,false,HIGH,voluntourism in rural schools,hand
+C3D3185,NA,OFF_TOPIC,NA,,NA,false,HIGH,duplicate of the abundance system preprint,hand
+C3D3252,BACKWARD,QQ_SUBSTITUTION,NATURAL_EXPERIMENT,W2_PARENT_RETURN,CHILD_ATTAINMENT,false,MED,duplicate of the Indonesia family planning and schooling essays,hand
+C3D3253,FORWARD,MIXED_CHILD_PARENT_RETURN,CROSS_SECTION,W2_PARENT_RETURN,FERTILITY,false,MED,women's socio-economic status and the timing of first births; C.2.e and the tempo chapter,hand

@@ -1,0 +1,112 @@
+{
+  "n_screened": 3254,
+  "complete": true,
+  "cells": {
+    "THEORY": 255,
+    "OFF_TOPIC": 1557,
+    "QQ_SUBSTITUTION": 615,
+    "RETURN_ASSOCIATION": 45,
+    "MIXED_CHILD_PARENT_RETURN": 150,
+    "SHOCK_FERTILITY": 92,
+    "RETURN_FERTILITY": 23,
+    "UNCLEAR": 5,
+    "OFF_OTHER": 460,
+    "PERCEIVED_RETURN": 30,
+    "MIXED_RETURN_POSITION": 22
+  },
+  "directions": {
+    "FORWARD": 609,
+    "NA": 2022,
+    "BACKWARD": 570,
+    "BOTH": 53
+  },
+  "in_scope": 1232,
+  "primary": 115,
+  "forward_family": 287,
+  "backward": 615,
+  "walls": {
+    "W4_INCOME": 71,
+    "W2_PARENT_RETURN": 282,
+    "W7_SCHOOLING_LAW": 105,
+    "W5_A12_TWINNING": 48,
+    "W1_POSITION": 50,
+    "W6_MORTALITY": 52
+  },
+  "wall2_in_forward_family": 164,
+  "primary_identified": 49,
+  "backward_identified": 233,
+  "sensitivity": {
+    "THEORY": {
+      "n": 8,
+      "kept": 8,
+      "missed": []
+    },
+    "BACKWARD": {
+      "n": 15,
+      "kept": 12,
+      "missed": [
+        {
+          "screen_id": "C3D0920",
+          "cell": "OFF_TOPIC",
+          "title": "Association between Number of Siblings and Cardiovascular Risk Factors"
+        },
+        {
+          "screen_id": "C3D1611",
+          "cell": "OFF_TOPIC",
+          "title": "The Inverse Association Between Number of Siblings and Divorce: New Ev"
+        },
+        {
+          "screen_id": "C3D1717",
+          "cell": "OFF_TOPIC",
+          "title": "Number of siblings and psychotropic medication purchases surrounding p"
+        }
+      ]
+    },
+    "UNKNOWN": {
+      "n": 55,
+      "kept": 48,
+      "missed": [
+        {
+          "screen_id": "C3D1106",
+          "cell": "OFF_TOPIC",
+          "title": "Genetics of twin birth rate in German Holstein and options for breedin"
+        },
+        {
+          "screen_id": "C3D0286",
+          "cell": "OFF_TOPIC",
+          "title": "Testing the Confluence Model of the Association Between Pornography Us"
+        },
+        {
+          "screen_id": "C3D1193",
+          "cell": "OFF_TOPIC",
+          "title": "Explaining and Evaluating the Effective Factors in Improving the Quali"
+        },
+        {
+          "screen_id": "C3D1696",
+          "cell": "OFF_OTHER",
+          "title": "Conceptive risk-taking: Personal uncertainty, flexible fertility inten"
+        },
+        {
+          "screen_id": "C3D3030",
+          "cell": "OFF_OTHER",
+          "title": "Trends in Birth Rates, Sex Ratio, and Infant Mortality Rates Among Sin"
+        },
+        {
+          "screen_id": "C3D3094",
+          "cell": "OFF_OTHER",
+          "title": "Fertility rates across generations in twins and singletons: A total po"
+        },
+        {
+          "screen_id": "C3D3097",
+          "cell": "OFF_TOPIC",
+          "title": "Anthropometric differences between twins at birth and their associatio"
+        }
+      ]
+    },
+    "FORWARD": {
+      "n": 4,
+      "kept": 4,
+      "missed": []
+    }
+  }
+}
