@@ -360,3 +360,72 @@ rediscovered at stage 4.
 **Next:** build the screen universe from the union query, then the screening rubric and depth probe.
 
 Scripts: `352`. Log: `quantity-quality-tradeoff-production-query.{json,md}`.
+
+### 2026-09-09 (stage 3–4) — universe, rubric, probe, and the forward-arm screen begun
+
+**Screen universe: 3,254 records** (`353`), four arms paged to exhaustion, **no arm redundant**.
+Anchors 41 present / 41 injected; free seeds 186 present / 289 injected / 40 unmatchable. 692 rows
+(21%) are title-only — verified real, not a broken rung: an independent re-query of 40 randomly
+sampled no-abstract records returned all 40 and **none** carries an abstract in OpenAlex.
+
+The same two ported defects 352 hit were in this script too (`None`-is-falsy on the 65 controls;
+arm *names* compared against anchor arm *values*), both fixed. Abstract enrichment now has **two
+counters per rung** — the ported version returned one combined pair, so a rung that attempted 655
+and filled 48 was indistinguishable from one never attempted.
+
+**Rubric frozen** (`quantity-quality-tradeoff-screen-rubric.md`). Its first question is DIRECTION,
+and it states plainly that the screen **routes** but does not adjudicate walls 1, 2 and 4.
+
+**Depth probe, 150 records across 6 evenly spaced strata** (`354`, scored by `355`):
+
+| stratum | n | primary | in scope | off-topic | fwd | back |
+|---|---|---|---|---|---|---|
+| 1 | 25 | **0** | 14 | 11 | 6 | 7 |
+| 2 | 25 | 3 | 16 | 9 | 7 | 9 |
+| 3 | 25 | 2 | 7 | 17 | 2 | 5 |
+| 4 | 25 | 2 | 5 | 18 | 4 | 1 |
+| 5 | 25 | 1 | 9 | 9 | 3 | 7 |
+| 6 | 25 | **0** | 5 | 13 | 3 | 2 |
+
+Primary 8/150 (5.3%), in scope 56/150 (37.3%).
+
+**The most-cited stratum holds ZERO primary records.** Stratum 1 is Becker, Becker-Lewis, Galor-Weil,
+Rosenzweig-Wolpin, Black-Devereux-Salvanes and Angrist-Lavy-Schlosser — theory and the backward
+canon. Every primary record is in strata 2–5. **A front-to-back screen truncated at the head would
+have found not one record of the registered forward estimand** and reported that as the finding.
+The curve is also non-monotone (14, 16, 7, 5, 9, 5), so the remainder cannot be truncated.
+
+**Sensitivity 10/10** on the withheld gold — BACKWARD 3/3, THEORY 4/4, UNKNOWN 3/3.
+
+**And the blinded screen caught an error in my gold key.** It routed *"Genetics of twin birth rate in
+German Holstein"* to OFF_TOPIC; that record was **in** the key, so it first scored as the run's only
+miss. It is a dairy-cattle paper — the screen was right and the key was wrong. It reached the seed
+table on "twin birth" + "birth rate" because `348`'s livestock filter had `dairy (cow|cattle)` but no
+**breed name**. `blinded-screen-audits-the-anchors`, exactly as on A.23. The filter is widened and
+verified by **executing** it against the whole 515-record seed table (removes this row, nothing
+else); **not re-run here**, because `screen_id` is a universe position and re-running would
+invalidate 150 hand-screened verdicts to remove one bad control.
+
+**Forward-arm screen begun: 2 of 30 batches** (`356` bounds it rather than counting it).
+
+| population | n | primary | rate | 95% CI |
+|---|---|---|---|---|
+| forward arms (target) | 80 | 6 | 7.5% | 3.5–15.4% |
+| decoys (rest of universe) | 40 | 4 | 10.0% | 4.0–23.1% |
+
+Projected primary in the forward arms: **41–182 of 1,184**.
+
+**Wall 2 is the headline, and it is far bigger than the anchors implied.** Among records whose
+exposure moves a *return* and whose outcome is *fertility*, **7 of 12 (58%)** are the **parent's**
+return — C.2.e's estimand. `350` put the floor at 19% and said it was a floor. **PI call 3 now sizes
+this chapter's primary cell rather than tidying its edges.**
+
+Second reading, held loosely: the decoy rate is not lower than the target rate and the intervals
+overlap almost entirely, so the forward arms are **not enriched** relative to the rest of the
+universe. On 120 rows that is a flag to re-read, not a conclusion.
+
+**Where this stops.** 28 batches (1,656 rows) of the same manual screening remain. That is bulk
+labour, not a decision — and `screen-cost-is-not-the-constraint` says to cost a batched two-stage
+LLM screen before treating it as a bottleneck.
+
+Scripts: `353`, `354`, `355`, `356`. Rubric + probe score + prevalence logs beside them.
