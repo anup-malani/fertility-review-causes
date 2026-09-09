@@ -240,3 +240,73 @@ Black–Devereux–Salvanes 2005 and Angrist–Lavy–Schlosser 2010 on the back
 seeds from C.2.b, C.2.f, C.3.e, C.3.f, C.3.g, D.2.d and A.12.
 
 Scripts: `344`, `345`, `346`, `347`. Scope: `quantity-quality-tradeoff-search-scope.md`.
+
+### 2026-09-09 (stage 3 begun) — free seeds, anchors, and the seed set
+
+**Free seeds: 515 records (`348`), after two measured corrections.** The first run kept 1,653 and
+was wrong in a way worth recording, because the error was in the port's *design*, not in a word
+list. `family-size instrument` returned 608 records (586 flagged A.12) and `skill shock` 457. A
+**random** sample of what each caught alone was A.12's twin-obstetrics corpus (twin gestational
+size, conjoined twins, twin speaker verification) and a trade-and-automation labour corpus with no
+fertility or child outcome anywhere — about 1 of 12 and 0 of 12 usable.
+
+The cause: those patterns came from the scope's **three-axis production query**, where the design
+and shock axes are intersected with an outcome axis. Mining a neighbour's pool has no such
+intersection, so they match the *donor's* corpus instead. `diagnostic-and-retrieval-vocabularies-differ`.
+
+- **Fix 1, the two-tier keep rule.** Theory terms are self-sufficient; design and shock terms are
+  half a record and must co-occur with a fertility or child outcome. 1,653 → 639. Audited at scale
+  per `validate-fixes-at-scale`, reading **rejected as well as admitted**: 16 random admits on-topic,
+  16 random refusals genuine half-records, no clear loss.
+- **Fix 2, found by scoring the outcome list's own terms alone.** Bare `births?` admitted 124
+  records at **0.8% precision** — A.12 twin epidemiology reaching the outcome tier through "twin
+  births" — with one real C.3.d record among them. 639 → 515. `anchored-vocabulary-has-own-homonym`
+  applies to the outcome list, not just the exposure axis.
+- **Filter order.** With the half-record rule first, the soil/livestock counter fell from 12 to 0 —
+  not because contamination had gone but because an earlier filter was eating it. DROP and SHADOW
+  now run first (`dedup-before-counting-hides-redundant-rung`). Kept set identical; only the counter
+  was lying.
+
+**Anchors: 82/82 (`349` builds, `350` resolves).** 65 controls taken programmatically from 348,
+stratified ≤6 per free-seed term; 17 hand Tier-A anchors split 8 THEORY / 5 BACKWARD / 4 FORWARD.
+`control 65/65`, `hand 17/17` — **no ghost citations in the canon**, and the clean controls are what
+makes that statement mean anything. 350 imports canonical `textnorm` with one documented wrapper for
+TICK-082's HTML gap.
+
+**Scope §2 is confirmed on the canon, not just on record counts.** Hand anchors only, so the counts
+are comparable:
+
+| direction | anchors | total cites | median |
+|---|---|---|---|
+| BACKWARD | 5 | **2,898** | 538 |
+| FORWARD | 4 | **491** | 141 |
+
+The backward arm carries roughly **six times** the citation weight of the registered forward
+estimand. The field's identified empirical work on "the quantity-quality tradeoff" is overwhelmingly
+the direction that does not answer the registry.
+
+**Wall 2 is already visible and it lands on PI call 3.** Of the 26 resolved controls whose title
+carries a fertility outcome, **5 name female or maternal education or earnings** — the *parent's*
+return, which is C.2.e's estimand. Most arrived through the `schooling reform` seed term, scope §7
+row 3, the largest forward row. **19% is a floor, not an estimate**: the count needs the parent named
+in the title, and an "education and fertility" paper can be about maternal schooling without saying
+so. PI call 3 is not hypothetical.
+
+**Snowball seeds (`351`): 92 records from 82 anchors, and the version of record is the wrong seed
+twice.** Seeding on versions of record alone reaches 10,843 citing works; the full version pairs
+reach 11,848 (+9.3%).
+
+- Galor & Moav 2002 — QJE article **1** cite vs SSRN preprint **93**
+- Doepke 2004 — JEG article **11** vs SSRN preprint **145**
+
+**This is not the QJE DOI migration**, though that shape is here too: Black-Devereux-Salvanes carries
+`10.1162/…` at 1,051 alongside `10.1093/qje/…` at 446, and the twin gate caught it. A.12 documented
+that case and wrote it "will recur in EVERY chapter that anchors on QJE and is therefore worth its
+own note rather than a local fix" — it never got one, it recurred here, and **TICK-084 now opens it**.
+The Galor-Moav shape is worse: `filter=doi:10.1093/qje/117.4.1133` returns *no* record, so there is
+no twin to merge. OpenAlex's citation graph never attached to the published version.
+
+**Next:** the three-axis production query (scope §3) and its calibration against these 82 anchors,
+with recall checked **per axis**.
+
+Scripts: `348`, `349`, `350`, `351`.
