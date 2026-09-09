@@ -1,0 +1,1562 @@
+{
+  "n_rows": 3254,
+  "n_findings": 194,
+  "by_rule": {
+    "title_only_high_confidence": 194
+  },
+  "hard_findings": 0,
+  "findings": [
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0421",
+      "cell": "SHOCK_FERTILITY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "compulsory schooling and child-labour restrictions -> fertility in the early twe"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0032",
+      "cell": "THEORY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "Galor unified growth chapter"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0034",
+      "cell": "MIXED_CHILD_PARENT_RETURN",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "female schooling and fertility in Nigeria; C.2.e"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0036",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "birth order and family size on educational attainment"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0074",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "birth order family size and educational attainment"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0075",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "relaxation of China's one-child policy as exogenous family size"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0086",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "birth order and intelligence in Norwegian conscripts"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0090",
+      "cell": "MIXED_CHILD_PARENT_RETURN",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "education on fertility via a compulsory schooling reform"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0095",
+      "cell": "THEORY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "Doepke SSRN preprint; the dead-version-of-record twin"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0122",
+      "cell": "MIXED_CHILD_PARENT_RETURN",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "women's education natural experiment in Turkey; C.2.e"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0139",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN version of Black-Devereux-Salvanes"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0146",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "family size and child outcomes; is there really no trade-off"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0159",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "one-child policy enforcement and child quality"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0189",
+      "cell": "MIXED_CHILD_PARENT_RETURN",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "schooling and teenage childbearing via compulsory education laws"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0192",
+      "cell": "RETURN_FERTILITY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "investment in children's education on fertility in 1816 Prussia; a direct FDT-wi"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0200",
+      "cell": "RETURN_FERTILITY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "skill premium effects on fertility and female labour supply; the return is the e"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0209",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "twins birthweight and the one-child policy on human capital investment"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0228",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN version of Birth Order Matters"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0248",
+      "cell": "THEORY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "Luddites the industrial revolution and the demographic transition"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0252",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "family size and birth order for test scores and behaviour"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0266",
+      "cell": "THEORY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "Galor-Weil SSRN preprint"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0270",
+      "cell": "MIXED_CHILD_PARENT_RETURN",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "female education and fertility via China's compulsory schooling reform"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0272",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN version of the causal link between quantity and quality"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0275",
+      "cell": "MIXED_CHILD_PARENT_RETURN",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "education on fertility via compulsory schooling laws"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0284",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "intelligence and birth order"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0292",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "population control policy and human capital investment"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0299",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "joint test of confluence and resource dilution"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0324",
+      "cell": "MIXED_CHILD_PARENT_RETURN",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN version of education on fertility via a schooling reform"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0348",
+      "cell": "MIXED_CHILD_PARENT_RETURN",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "Turkish compulsory schooling on teenage marriage and births"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0359",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "family size birth order and tests of the QQ model"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0367",
+      "cell": "THEORY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "reconciling Kuznets and Habbakuk in unified growth theory"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0371",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "family size birth order and attainment in China"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0373",
+      "cell": "MIXED_CHILD_PARENT_RETURN",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "more schooling more children; compulsory schooling reforms in Europe"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0390",
+      "cell": "MIXED_CHILD_PARENT_RETURN",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "women's education and fertility in China; C.2.e"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0419",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "family size and attainment; cousins contexts and compensation"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0449",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "one-child policy test of QQ tradeoffs in food allocation"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0450",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "selective two-child policy and household resource allocation"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0460",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "relaxed population policy family size and educational investment in rural China"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0467",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "do children from small families do better"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0482",
+      "cell": "MIXED_CHILD_PARENT_RETURN",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "education and fertility timing"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0485",
+      "cell": "MIXED_CHILD_PARENT_RETURN",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "education gender gap and the demographic transition"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0487",
+      "cell": "MIXED_CHILD_PARENT_RETURN",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "higher education reforms and fertility in Greece; C.2.e"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0498",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "why larger families reduce investment but not child quality per se"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0508",
+      "cell": "SHOCK_FERTILITY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN version of the fertility-education tradeoff before the demographic transiti"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0517",
+      "cell": "MIXED_CHILD_PARENT_RETURN",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "parental education and fertility in pre-transition Prussia; FDT window"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0519",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "intergenerational correlations with birth order and family size effects"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0572",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "family size effects on childhood obesity using the QQ tradeoff"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0583",
+      "cell": "SHOCK_FERTILITY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "the child QQ trade-off during the Industrial Revolution in England; FDT window"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0594",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "family size and schooling in sub-Saharan Africa; testing the QQ tradeoff"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0609",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "abolishing user fees fertility choice and attainment"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0648",
+      "cell": "THEORY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN version of the economic and demographic transition"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0656",
+      "cell": "MIXED_CHILD_PARENT_RETURN",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "China compulsory education law female education and fertility"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0663",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN version of education birth order and family size"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0677",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN version of the Chinese twins QQ paper"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0693",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "sibling sex composition and the family size-quality link"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0700",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "who takes care of the children; the QQ model revisited"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0707",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "the quality-quantity trade-off among Australian children"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0711",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "children's socio-emotional skills and the QQ tradeoff"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0713",
+      "cell": "THEORY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "Doepke journal version; the anchor"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0745",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "sibship composition birth order and education in Vietnam"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0752",
+      "cell": "MIXED_CHILD_PARENT_RETURN",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "Thailand compulsory schooling on women's marriage and fertility"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0771",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "fertility determinants in Peru; a quantity-quality analysis"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0778",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "IV estimates of sibship size on attainment in the US"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0825",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "quantity-quality trade-off in Qing dynasty Northeast China; a pre-modern test"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0828",
+      "cell": "SHOCK_FERTILITY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "China trade liberalization on marriage spousal quality and fertility"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0833",
+      "cell": "THEORY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN version of contraception and development"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0850",
+      "cell": "SHOCK_FERTILITY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "the child quality-quantity tradeoff in England 1780-1880; FDT window"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0880",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "rationed fertility; treatment effect heterogeneity in the child QQ trade-off"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0915",
+      "cell": "MIXED_CHILD_PARENT_RETURN",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "duplicate SSRN copy of empowering women"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0927",
+      "cell": "MIXED_CHILD_PARENT_RETURN",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN copy of more schooling more children"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0968",
+      "cell": "THEORY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "quantity-quality trade-off of children and school finance"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0970",
+      "cell": "SHOCK_FERTILITY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN version of trade exposure on marriage and fertility in Brazil"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0989",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BOTH",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "the child quantity-quality trade-off; a review chapter"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D0992",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "to what extent does the fertility rate explain the education gap"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1010",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN copy of siblings and immigrant children's educational choices"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1046",
+      "cell": "SHOCK_FERTILITY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN copy of the fertility-education trade-off before the demographic transition"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1079",
+      "cell": "MIXED_CHILD_PARENT_RETURN",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN copy of more schooling more children"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1081",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "number of siblings water access and returns to education in China"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1141",
+      "cell": "RETURN_FERTILITY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN copy of investment in children's education and fertility in 1816 Prussia"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1162",
+      "cell": "SHOCK_FERTILITY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN copy of fertility transitions along the extensive and intensive margins"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1178",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "the twin instrument; fertility and human capital investment; a methods paper on "
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1184",
+      "cell": "MIXED_CHILD_PARENT_RETURN",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "RePEc copy of the Spanish gender equalization reform"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1190",
+      "cell": "THEORY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "Darwin beats Malthus; evolutionary anthropology human capital and the demographi"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1206",
+      "cell": "MIXED_CHILD_PARENT_RETURN",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "compulsory education and fertility; Poland's 1956 reform"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1214",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "how birth order shapes child development"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1231",
+      "cell": "THEORY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "evolutionary advantage of moderate fertility in Ming-Qing China; a unified growt"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1274",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "journal copy of who takes care of the children"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1316",
+      "cell": "SHOCK_FERTILITY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN copy of fertility responses to schooling costs; Uganda UPE"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1322",
+      "cell": "MIXED_CHILD_PARENT_RETURN",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN copy of female education fertility and infant health in China"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1333",
+      "cell": "SHOCK_FERTILITY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN copy of trade liberalization on marriage and fertility in Indian districts"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1335",
+      "cell": "SHOCK_FERTILITY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN copy of testing unified growth theory; technological progress and the QQ tr"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1337",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN copy of family size birth order and attainment in China"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1341",
+      "cell": "MIXED_CHILD_PARENT_RETURN",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "tertiary education expansion and fertility; a note on identification"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1352",
+      "cell": "SHOCK_FERTILITY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "local labour market and fertility; trade liberalization in Brazil"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1363",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BOTH",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN copy of the child quantity-quality trade-off review"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1369",
+      "cell": "OFF_OTHER",
+      "direction": "NA",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "lottery winnings and fertility; C.1.a's estimand"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1376",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "consequences of fertility decline on educational attainment in China"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1388",
+      "cell": "SHOCK_FERTILITY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "does robotic technology reduce fertility; longitudinal evidence from China; a sc"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1426",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "quantity and quality of children; a semi-parametric Bayesian IV approach"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1446",
+      "cell": "THEORY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "the simplest unified growth theory"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1455",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "fertility and the opportunities of children; quantity-quality interactions in Sw"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1462",
+      "cell": "THEORY",
+      "direction": "BOTH",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "Gary Becker on the quantity and quality of children; a retrospective"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1480",
+      "cell": "SHOCK_FERTILITY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "free primary education schooling and fertility in Ethiopia"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1481",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN copy of the twin instrument"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1509",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "testing the QQ fertility model with a natural experiment"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1521",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "cheaper by the dozen; family size effects on attainment in Egypt"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1526",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BOTH",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "determination of fertility child quality and child survival in Guatemala"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1528",
+      "cell": "THEORY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN copy of the biocultural origins of human capital formation"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1529",
+      "cell": "THEORY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "gender gap in education investment and the demographic transition"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1539",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN copy of is there really a trade-off in India"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1547",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN copy of Angrist-Lavy-Schlosser"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1593",
+      "cell": "PERCEIVED_RETURN",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "maternal education on fertility DESIRE in China; stated outcome; C.2.e"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1594",
+      "cell": "OFF_OTHER",
+      "direction": "NA",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN copy of air pollution and fertility in China; B.2"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1599",
+      "cell": "SHOCK_FERTILITY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN copy of China's trade liberalization and fertility"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1608",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "birth order effects in developed and developing countries; test scores"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1618",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "fertility son-preference and the gender gap in test scores"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1620",
+      "cell": "THEORY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN copy of automation education and population"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1625",
+      "cell": "MIXED_CHILD_PARENT_RETURN",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "women's access to school attainment and fertility in Jordan; C.2.e"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1663",
+      "cell": "SHOCK_FERTILITY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "export shocks and fertility in China; a scope 7 row 1 design"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1666",
+      "cell": "SHOCK_FERTILITY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "input-trade liberalization female-skill intensity and fertility in China"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1684",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN copy of birth order effects on child nutrition and resource dilution"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1688",
+      "cell": "THEORY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "fighting for resources; a unified growth model of the Great Divergence"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1706",
+      "cell": "MIXED_RETURN_POSITION",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "education fever; inequality fertility and growth; C.2.f boundary"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1744",
+      "cell": "THEORY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "duplicate of from stagnation to growth; unified growth theory"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1746",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "family size and children's quality with new exogenous shocks in Colombia"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1802",
+      "cell": "RETURN_ASSOCIATION",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "Malthus to modernity; wealth status and fertility in England 1500-1879; FDT wind"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1832",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "sibship size and education in South Africa"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1837",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "birth order sibship size and status in modern Canada"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1840",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "resources fertility and parental investment in Mao's China"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1844",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "public policy and the sibship-size effect on achievement across 20 countries"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1849",
+      "cell": "MIXED_CHILD_PARENT_RETURN",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "do more-schooled women have fewer children; US twins; C.2.e"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1853",
+      "cell": "THEORY",
+      "direction": "BOTH",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "signs of compensated price effects in quantity/quality models; the Rosenzweig-Wo"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1857",
+      "cell": "THEORY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "from stagnation to growth; revisiting three historical regimes"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1870",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "sibling size and investment in children's education; an Asian instrument"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1892",
+      "cell": "THEORY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "Klein Lecture; comparative development from unified growth theory"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1896",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "the QQ trade-off across parent earnings levels; a test for credit market failure"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1913",
+      "cell": "THEORY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "from Malthus to modern growth; child labour schooling and human capital"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1932",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "women's economic opportunities and intra-household production of child human cap"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1962",
+      "cell": "PERCEIVED_RETURN",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "perceived OPPORTUNITY in fertility choice in Latin America; the perceived return"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1963",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BOTH",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "quantity quality and timing adjustment of births when having more is disincentiv"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1967",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "the tradeoff between family size and child health in the United States"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1973",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "population control policies and human capital investment; one-child policy revis"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1975",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "the QQ tradeoff of fertility; an empirical study in India"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D1993",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "does China's birth control policy induce more human capital investment"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2055",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "does the one-child policy improve children's human capital; a regression discont"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2056",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BOTH",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "on the quantity and quality of girls; abortion fertility and parental investment"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2074",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "maternal education parental investment and non-cognitive characteristics in rura"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2118",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "three essays on the QQ model of fertility for India"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2215",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "sibship size on children's outcomes in Vietnam"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2233",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "sibship size and structure on children's educational attainment"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2269",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BOTH",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "son preference fertility and children's quality; D.2.c boundary"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2329",
+      "cell": "SHOCK_FERTILITY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "termination of universal primary education in Kenya; a schooling-cost shock"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2330",
+      "cell": "MIXED_CHILD_PARENT_RETURN",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "duplicate of do more-schooled women have fewer children; US twins"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2339",
+      "cell": "MIXED_CHILD_PARENT_RETURN",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN copy of the inverse J effect; gender wages and maternal time"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2350",
+      "cell": "MIXED_CHILD_PARENT_RETURN",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "the effect of education on overall fertility; C.2.e"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2378",
+      "cell": "SHOCK_FERTILITY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "trade shocks fertility and marital behaviour"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2437",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BOTH",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "reproduction and survival in Chinese families 1350-1920; a pre-modern QQ test"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2458",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "housing tenure and the quantity-quality trade-off; C.2.c boundary"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2459",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BOTH",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "from daughters to mothers; fertility schooling and human capital spillovers"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2461",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "family size and aspirations in China"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2462",
+      "cell": "THEORY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "optimal taxation with endogenous population growth and the child QQ tradeoff"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2463",
+      "cell": "RETURN_FERTILITY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN copy of women's property rights and the child QQ trade-off in India"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2468",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "causal effect of family size on child outcomes in Ghana"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2508",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "number of siblings and intellectual development; the resource dilution explanati"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2531",
+      "cell": "MIXED_CHILD_PARENT_RETURN",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "women's education and fertility in China; C.2.e"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2532",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "human capital investment and family size in Italy using twin births"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2533",
+      "cell": "SHOCK_FERTILITY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN copy of globalization fertility and marital behaviour"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2552",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "sibling sex composition and girls' noncognitive skills"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2566",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "return of migrant workers educational investment and mobility in China"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2572",
+      "cell": "MIXED_CHILD_PARENT_RETURN",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "identification of the tertiary education expansion effect on fertility"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2574",
+      "cell": "SHOCK_FERTILITY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN copy of trade liberalization on marriage and fertility in Indian censuses"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2578",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN copy of the QQ trade-off in Qing dynasty Northeast China"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2583",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "the effects of having a sibling; China's family planning policy"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2613",
+      "cell": "SHOCK_FERTILITY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN copy of when women's work disappears in Peru"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2615",
+      "cell": "SHOCK_FERTILITY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "duplicate SSRN copy of when women's work disappears in Peru"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2648",
+      "cell": "MIXED_CHILD_PARENT_RETURN",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "education and reproductive health; schooling expansion in Turkey; C.2.e"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2669",
+      "cell": "SHOCK_FERTILITY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "fertility and automation; a scope 7 row 2 design"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2674",
+      "cell": "MIXED_CHILD_PARENT_RETURN",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "compulsory schooling shaping women's lives from school to motherhood"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2675",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "insurance against income shocks parental investment and child development; C.3.e"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2709",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "public pensions eldercare and child investment in rural China; C.3.c boundary"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2749",
+      "cell": "THEORY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "family planning policy human capital and demographics"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2798",
+      "cell": "MIXED_RETURN_POSITION",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "educational INVOLUTION and fertility decline in China via household savings; C.2"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2810",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BOTH",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "fewer and better children; urban-rural disparities in the effects of fertility"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2814",
+      "cell": "THEORY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "duplicate of PAYG pension fertility and educational investment"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2834",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BOTH",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "population quantity-quality transition employment structure and pensions; C.3.c "
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2933",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "duplicate of retirement-age extension and parental investment in education"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D2951",
+      "cell": "SHOCK_FERTILITY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "duplicate of input-trade liberalization and fertility in China"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D3052",
+      "cell": "SHOCK_FERTILITY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "does automation decrease fertility; a new channel"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D3058",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "effects of fertility on child stunting in Nigeria"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D3061",
+      "cell": "SHOCK_FERTILITY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "when trade raises fertility; women's labour market attachment"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D3160",
+      "cell": "SHOCK_FERTILITY",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "duplicate of when trade raises fertility"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D3186",
+      "cell": "MIXED_RETURN_POSITION",
+      "direction": "FORWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "SSRN copy of the Confucian fertility paradox"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D3228",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "duplicate of monetary policy and the wealth gradient in parental investment"
+    },
+    {
+      "rule": "title_only_high_confidence",
+      "screen_id": "C3D3231",
+      "cell": "QQ_SUBSTITUTION",
+      "direction": "BACKWARD",
+      "detail": "title-only row given HIGH confidence in an in-scope cell; the rubric asks for caution here (advisory, not an error)",
+      "note": "family size and educational exclusion in Afghanistan; household resource allocat"
+    }
+  ]
+}

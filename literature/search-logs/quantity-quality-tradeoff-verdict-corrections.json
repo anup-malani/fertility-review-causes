@@ -1,0 +1,109 @@
+{
+  "corrections": [
+    {
+      "screen_id": "C3D2222",
+      "from_cell": "SHOCK_FERTILITY",
+      "to_cell": "OFF_TOPIC",
+      "from_outcome": "FERTILITY",
+      "to_outcome": "NA",
+      "reason": "REPLICATION DATA DEPOSIT for Aaronson et al, not the study; it carried the parent title verbatim and was routed to SHOCK_FERTILITY on that basis"
+    },
+    {
+      "screen_id": "C3D2275",
+      "from_cell": "THEORY",
+      "to_cell": "OFF_TOPIC",
+      "from_outcome": "FERTILITY",
+      "to_outcome": "NA",
+      "reason": "replication data deposit for the economic and demographic transition paper, not the study"
+    },
+    {
+      "screen_id": "C3D2279",
+      "from_cell": "QQ_SUBSTITUTION",
+      "to_cell": "OFF_TOPIC",
+      "from_outcome": "CHILD_ATTAINMENT",
+      "to_outcome": "NA",
+      "reason": "replication data deposit for All for One, not the study; was in QQ_SUBSTITUTION"
+    },
+    {
+      "screen_id": "C3D1633",
+      "from_cell": "SHOCK_FERTILITY",
+      "to_cell": "OFF_OTHER",
+      "from_outcome": "OTHER",
+      "to_outcome": "OTHER",
+      "reason": "Brazil commodities-for-manufactures boom; the outcome is manufacturing, not fertility. Link-1 evidence with no link 3"
+    },
+    {
+      "screen_id": "C3D2379",
+      "from_cell": "SHOCK_FERTILITY",
+      "to_cell": "OFF_OTHER",
+      "from_outcome": "OTHER",
+      "to_outcome": "OTHER",
+      "reason": "SSRN copy of the Brazil trade boom; same reason"
+    },
+    {
+      "screen_id": "C3D1667",
+      "from_cell": "SHOCK_FERTILITY",
+      "to_cell": "OFF_OTHER",
+      "from_outcome": "OTHER",
+      "to_outcome": "OTHER",
+      "reason": "import competition and INFANT HEALTH; a trade shock with a child-health outcome, so neither a fertility numerator nor a family-size exposure"
+    },
+    {
+      "screen_id": "C3D0625",
+      "from_cell": "SHOCK_FERTILITY",
+      "to_cell": "OFF_OTHER",
+      "from_outcome": "OTHER",
+      "to_outcome": "OTHER",
+      "reason": "journal copy of the Brazil trade reform and infant health; same reason"
+    },
+    {
+      "screen_id": "C3D0465",
+      "from_cell": "RETURN_FERTILITY",
+      "to_cell": "OFF_OTHER",
+      "from_outcome": "OTHER",
+      "to_outcome": "OTHER",
+      "reason": "population density migration and returns to human capital and land; measures the return but reports no fertility outcome"
+    },
+    {
+      "screen_id": "C3D2263",
+      "from_cell": "SHOCK_FERTILITY",
+      "to_cell": "OFF_OTHER",
+      "from_outcome": "OTHER",
+      "to_outcome": "OTHER",
+      "reason": "skill-biased imports and the allocation of talent; the SBTC exposure with no fertility outcome -- link 1 only"
+    },
+    {
+      "screen_id": "C3D3059",
+      "from_cell": "RETURN_FERTILITY",
+      "to_cell": "OFF_OTHER",
+      "from_outcome": "INVESTMENT_PER_CHILD",
+      "to_outcome": "OTHER",
+      "reason": "anticipated children -> the PARENT's educational investment; that is fertility driving education, the reverse of the registered claim"
+    },
+    {
+      "screen_id": "C3D3169",
+      "from_cell": "SHOCK_FERTILITY",
+      "to_cell": "OFF_OTHER",
+      "from_outcome": "OTHER",
+      "to_outcome": "OTHER",
+      "reason": "how demography shapes the returns to automation; the reverse direction"
+    },
+    {
+      "screen_id": "C3D0110",
+      "from_cell": "RETURN_FERTILITY",
+      "to_cell": "QQ_SUBSTITUTION",
+      "from_outcome": "INVESTMENT_PER_CHILD",
+      "to_outcome": "INVESTMENT_PER_CHILD",
+      "reason": "The Production of Human Capital estimates endowments, investments AND fertility jointly, but its reported dependent variable is investment per child, so it is link-2 mechanism evidence and cannot carry a demsig numerator"
+    },
+    {
+      "screen_id": "C3D0526",
+      "from_cell": "RETURN_FERTILITY",
+      "to_cell": "QQ_SUBSTITUTION",
+      "from_outcome": "INVESTMENT_PER_CHILD",
+      "to_outcome": "INVESTMENT_PER_CHILD",
+      "reason": "RePEc copy of the same paper; same reason"
+    }
+  ],
+  "design_cleared": 11
+}

@@ -2,28 +2,28 @@
   "n_screened": 3254,
   "complete": true,
   "cells": {
-    "THEORY": 255,
-    "OFF_TOPIC": 1557,
-    "QQ_SUBSTITUTION": 615,
+    "THEORY": 254,
+    "OFF_TOPIC": 1560,
+    "QQ_SUBSTITUTION": 616,
     "RETURN_ASSOCIATION": 45,
     "MIXED_CHILD_PARENT_RETURN": 150,
-    "SHOCK_FERTILITY": 92,
-    "RETURN_FERTILITY": 23,
+    "SHOCK_FERTILITY": 85,
+    "RETURN_FERTILITY": 19,
     "UNCLEAR": 5,
-    "OFF_OTHER": 460,
+    "OFF_OTHER": 468,
     "PERCEIVED_RETURN": 30,
     "MIXED_RETURN_POSITION": 22
   },
   "directions": {
-    "FORWARD": 609,
-    "NA": 2022,
-    "BACKWARD": 570,
+    "FORWARD": 599,
+    "NA": 2033,
+    "BACKWARD": 569,
     "BOTH": 53
   },
-  "in_scope": 1232,
-  "primary": 115,
-  "forward_family": 287,
-  "backward": 615,
+  "in_scope": 1221,
+  "primary": 104,
+  "forward_family": 276,
+  "backward": 616,
   "walls": {
     "W4_INCOME": 71,
     "W2_PARENT_RETURN": 282,
@@ -33,7 +33,7 @@
     "W6_MORTALITY": 52
   },
   "wall2_in_forward_family": 164,
-  "primary_identified": 49,
+  "primary_identified": 45,
   "backward_identified": 233,
   "sensitivity": {
     "THEORY": {
@@ -64,7 +64,7 @@
     },
     "UNKNOWN": {
       "n": 55,
-      "kept": 48,
+      "kept": 46,
       "missed": [
         {
           "screen_id": "C3D1106",
@@ -75,6 +75,11 @@
           "screen_id": "C3D0286",
           "cell": "OFF_TOPIC",
           "title": "Testing the Confluence Model of the Association Between Pornography Us"
+        },
+        {
+          "screen_id": "C3D0465",
+          "cell": "OFF_OTHER",
+          "title": "Population Density, Migration, and the Returns to Human Capital and La"
         },
         {
           "screen_id": "C3D1193",
@@ -90,6 +95,11 @@
           "screen_id": "C3D3030",
           "cell": "OFF_OTHER",
           "title": "Trends in Birth Rates, Sex Ratio, and Infant Mortality Rates Among Sin"
+        },
+        {
+          "screen_id": "C3D3059",
+          "cell": "OFF_OTHER",
+          "title": "Double the Diapers, Double the Degrees? Anticipated Children and Educa"
         },
         {
           "screen_id": "C3D3094",

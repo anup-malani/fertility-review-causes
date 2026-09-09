@@ -42,6 +42,7 @@ four. Its pre-dedup count against its post-dedup contribution says whether it is
 or a relabelling of the theory arm.
 """
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -56,6 +57,29 @@ MAILTO = "shravanh@uchicago.edu"
 SELECT = ("id,doi,display_name,publication_year,type,authorships,primary_location,"
           "cited_by_count,abstract_inverted_index")
 MATCHED = {"MATCH", "MATCH_STEM", "MATCH_BY_ID", "MATCH_BY_DOI", "MATCH_VERSION_TWIN"}
+
+
+# THE SHADOW-RECORD GATE, and it belongs HERE as much as in the mining path.
+#
+# 348 (free seeds) has run this gate since it was written. 353 never did, because the gate was
+# authored for the mining path and the query pull was assumed clean. It is not: fourteen paratext
+# records reached C.3.d's screen universe -- peer reviews, published comments, and three
+# "Replication data for: <parent title>" deposits.
+#
+# The deposits are the dangerous ones. They carry the parent study's title VERBATIM, so the title
+# gate, the author gate and the year gate all pass and none of them discriminates
+# (`replication-deposits-are-shadow-records`). In C.3.d's hand screen all three were read off their
+# titles and given the parent's estimand cell -- one landed in SHOCK_FERTILITY, a PRIMARY cell --
+# and only the invariant audit in 359 caught them. A data deposit counted as a study inflates a
+# cell count and would eventually be sent for full-text retrieval.
+#
+# Named qualifiers only. Suffix containment is unsound: it once admitted four replication deposits
+# on another chapter (`shadow-record-gate`).
+SHADOW = re.compile(r"^\s*(review for|decision letter for|author response for|"
+                    r"editorial comment to|comment on|correction to|erratum|"
+                    r"faculty opinions recommendation of|supplemental material for|"
+                    r"data and code for|peer review( #\d+)?( report)? (for|of)|"
+                    r"replication (data|package) for)\b", re.I)
 
 
 def abstract_of(rec):
@@ -170,6 +194,7 @@ def main():
 
     oa = OpenAlex(KEY, MAILTO, LOGS / ".cache" / "c3d-screen-pages.json")
     universe, per_arm, errors = {}, [], []
+    n_shadow = 0
     for a in arms:
         recs, err = oa.page_all(a["query"], SELECT)
         if err:
@@ -181,6 +206,9 @@ def main():
             r = short(w)
             if not r["oa_id"]:
                 continue
+            if SHADOW.match(r.get("title") or ""):
+                n_shadow += 1
+                continue
             if r["oa_id"] in universe:
                 universe[r["oa_id"]]["arms"].append(a["name"])
             else:
@@ -191,6 +219,8 @@ def main():
         print(f"  {a['name']:20} declared {a['frame']:>5}  pulled {len(recs):>5}  "
               f"new {new:>5}  {'REDUNDANT' if recs and new == 0 else ''}")
 
+    print(f"\n  shadow/paratext records refused at the pull: {n_shadow} "
+          f"(peer reviews, comments, replication deposits)")
     if errors:
         sys.exit(f"\n*** {len(errors)} arms could not be paged. NOTHING WAS WRITTEN.\n"
                  "A partly-paged universe silently under-counts every downstream number. "
