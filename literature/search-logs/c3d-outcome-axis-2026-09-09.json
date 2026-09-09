@@ -1,0 +1,198 @@
+{
+  "date": "2026-09-09",
+  "script": "345_c3d_outcome_axis_and_direction.py",
+  "outcome_axis_wide": "(\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+  "union_axis": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\")",
+  "nonhuman_axis": "(\"soil fertility\" OR \"crop yield\" OR \"grain yield\" OR \"fertilizer\" OR \"fertiliser\" OR \"livestock\" OR \"dairy cattle\" OR \"semen quality\" OR \"broiler\" OR \"silage\" OR \"agronomic\")",
+  "child_outcome_axis": "(\"educational attainment\" OR \"test scores\" OR \"cognitive ability\" OR \"years of schooling\" OR \"child outcomes\" OR \"school achievement\")",
+  "frame": 762,
+  "outcome_term_shares": {
+    "fertility": {
+      "n": 616,
+      "nonhuman": 42
+    },
+    "childbearing": {
+      "n": 57,
+      "nonhuman": 0
+    },
+    "birth rate": {
+      "n": 14,
+      "nonhuman": 2
+    },
+    "total fertility rate": {
+      "n": 26,
+      "nonhuman": 0
+    },
+    "family size": {
+      "n": 207,
+      "nonhuman": 0
+    },
+    "number of children": {
+      "n": 114,
+      "nonhuman": 0
+    }
+  },
+  "rows": [
+    {
+      "label": "CONTROL fertility decline",
+      "query": "\"fertility decline\"",
+      "n": 7141
+    },
+    {
+      "label": "CONTROL C.3.d frame (344's baseline: 762)",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 762
+    },
+    {
+      "label": "non-human residue INSIDE the fertility-restricted frame",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"soil fertility\" OR \"crop yield\" OR \"grain yield\" OR \"fertilizer\" OR \"fertiliser\" OR \"livestock\" OR \"dairy cattle\" OR \"semen quality\" OR \"broiler\" OR \"silage\" OR \"agronomic\")",
+      "n": 43
+    },
+    {
+      "label": "quantity-quality AND fertility, non-human marked",
+      "query": "\"quantity-quality\" AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"soil fertility\" OR \"crop yield\" OR \"grain yield\" OR \"fertilizer\" OR \"fertiliser\" OR \"livestock\" OR \"dairy cattle\" OR \"semen quality\" OR \"broiler\" OR \"silage\" OR \"agronomic\")",
+      "n": 43
+    },
+    {
+      "label": "quantity-quality bare AND non-human marked",
+      "query": "\"quantity-quality\" AND (\"soil fertility\" OR \"crop yield\" OR \"grain yield\" OR \"fertilizer\" OR \"fertiliser\" OR \"livestock\" OR \"dairy cattle\" OR \"semen quality\" OR \"broiler\" OR \"silage\" OR \"agronomic\")",
+      "n": 250
+    },
+    {
+      "label": "quantity-quality bare AND human-demographic marked",
+      "query": "\"quantity-quality\" AND (\"household\" OR \"parents\" OR \"children\" OR \"demographic\" OR \"human capital\")",
+      "n": 970
+    },
+    {
+      "label": "OUTCOME fertility",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\") AND \"fertility\"",
+      "n": 616
+    },
+    {
+      "label": "OUTCOME fertility -- non-human marked",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\") AND \"fertility\" AND (\"soil fertility\" OR \"crop yield\" OR \"grain yield\" OR \"fertilizer\" OR \"fertiliser\" OR \"livestock\" OR \"dairy cattle\" OR \"semen quality\" OR \"broiler\" OR \"silage\" OR \"agronomic\")",
+      "n": 42
+    },
+    {
+      "label": "OUTCOME childbearing",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\") AND \"childbearing\"",
+      "n": 57
+    },
+    {
+      "label": "OUTCOME childbearing -- non-human marked",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\") AND \"childbearing\" AND (\"soil fertility\" OR \"crop yield\" OR \"grain yield\" OR \"fertilizer\" OR \"fertiliser\" OR \"livestock\" OR \"dairy cattle\" OR \"semen quality\" OR \"broiler\" OR \"silage\" OR \"agronomic\")",
+      "n": 0
+    },
+    {
+      "label": "OUTCOME birth rate",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\") AND \"birth rate\"",
+      "n": 14
+    },
+    {
+      "label": "OUTCOME birth rate -- non-human marked",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\") AND \"birth rate\" AND (\"soil fertility\" OR \"crop yield\" OR \"grain yield\" OR \"fertilizer\" OR \"fertiliser\" OR \"livestock\" OR \"dairy cattle\" OR \"semen quality\" OR \"broiler\" OR \"silage\" OR \"agronomic\")",
+      "n": 2
+    },
+    {
+      "label": "OUTCOME total fertility rate",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\") AND \"total fertility rate\"",
+      "n": 26
+    },
+    {
+      "label": "OUTCOME total fertility rate -- non-human marked",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\") AND \"total fertility rate\" AND (\"soil fertility\" OR \"crop yield\" OR \"grain yield\" OR \"fertilizer\" OR \"fertiliser\" OR \"livestock\" OR \"dairy cattle\" OR \"semen quality\" OR \"broiler\" OR \"silage\" OR \"agronomic\")",
+      "n": 0
+    },
+    {
+      "label": "OUTCOME family size",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\") AND \"family size\"",
+      "n": 207
+    },
+    {
+      "label": "OUTCOME family size -- non-human marked",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\") AND \"family size\" AND (\"soil fertility\" OR \"crop yield\" OR \"grain yield\" OR \"fertilizer\" OR \"fertiliser\" OR \"livestock\" OR \"dairy cattle\" OR \"semen quality\" OR \"broiler\" OR \"silage\" OR \"agronomic\")",
+      "n": 0
+    },
+    {
+      "label": "OUTCOME number of children",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\") AND \"number of children\"",
+      "n": 114
+    },
+    {
+      "label": "OUTCOME number of children -- non-human marked",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\") AND \"number of children\" AND (\"soil fertility\" OR \"crop yield\" OR \"grain yield\" OR \"fertilizer\" OR \"fertiliser\" OR \"livestock\" OR \"dairy cattle\" OR \"semen quality\" OR \"broiler\" OR \"silage\" OR \"agronomic\")",
+      "n": 0
+    },
+    {
+      "label": "frame on the outcome axis minus bare 'fertility'",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\") AND (\"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 354
+    },
+    {
+      "label": "BACKWARD axis AND child-outcome vocabulary",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\") AND (\"educational attainment\" OR \"test scores\" OR \"cognitive ability\" OR \"years of schooling\" OR \"child outcomes\" OR \"school achievement\")",
+      "n": 200
+    },
+    {
+      "label": "BOTH axis AND fertility AND child-outcome",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"educational attainment\" OR \"test scores\" OR \"cognitive ability\" OR \"years of schooling\" OR \"child outcomes\" OR \"school achievement\")",
+      "n": 98
+    },
+    {
+      "label": "BACKWARD with an identified family-size design attached",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\") AND (\"educational attainment\" OR \"test scores\" OR \"cognitive ability\" OR \"years of schooling\" OR \"child outcomes\" OR \"school achievement\") AND (\"twin birth\" OR \"twinning\" OR \"sibling sex composition\" OR \"same-sex siblings\" OR \"instrumental variable\")",
+      "n": 35
+    },
+    {
+      "label": "FORWARD with a returns-to-skill exposure attached",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"return to education\" OR \"returns to schooling\" OR \"skill premium\" OR \"return to human capital\")",
+      "n": 8
+    },
+    {
+      "label": "the family-size-shock literature that does NOT use C.3.d vocabulary, backward",
+      "query": "(\"twin birth\" OR \"twinning\" OR \"sibling sex composition\" OR \"same-sex siblings\") AND (\"educational attainment\" OR \"test scores\" OR \"cognitive ability\" OR \"years of schooling\" OR \"child outcomes\" OR \"school achievement\")",
+      "n": 1562
+    },
+    {
+      "label": "CHANNEL CONTROL returns to schooling AND fertility (known to exist: 344 got 212)",
+      "query": "(\"return to education\" OR \"returns to schooling\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 66
+    },
+    {
+      "label": "CHANNEL CONTROL skill premium bare (known large)",
+      "query": "\"skill premium\"",
+      "n": 1570
+    },
+    {
+      "label": "SBTC2 technology raising the return to human capital",
+      "query": "(\"technological change\" OR \"technical change\" OR \"industrialization\" OR \"industrialisation\") AND (\"return to human capital\" OR \"return to education\" OR \"skill premium\")",
+      "n": 427
+    },
+    {
+      "label": "SBTC2 that same axis AND a fertility outcome",
+      "query": "(\"technological change\" OR \"technical change\" OR \"industrialization\" OR \"industrialisation\") AND (\"return to human capital\" OR \"return to education\" OR \"skill premium\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 9
+    },
+    {
+      "label": "SBTC2 demand for skill AND fertility",
+      "query": "(\"demand for skill\" OR \"demand for skilled labour\" OR \"demand for skilled labor\" OR \"skill demand\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 24
+    },
+    {
+      "label": "SBTC2 unified growth framing of the same shock",
+      "query": "(\"unified growth\" OR \"human capital accumulation\") AND (\"technological\" OR \"technology\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 85
+    },
+    {
+      "label": "SBTC2 trade shock as the skill shock AND fertility",
+      "query": "(\"trade liberalization\" OR \"trade liberalisation\" OR \"import competition\" OR \"China shock\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 88
+    }
+  ],
+  "notes": [
+    "Non-human residue inside the 762-record frame: 43 (5.6%).",
+    "Backward-direction frame (child outcomes): 200 against a forward frame of 762.",
+    "Records carrying BOTH outcomes: 98 (49.0% of the backward frame)."
+  ],
+  "refused": []
+}
