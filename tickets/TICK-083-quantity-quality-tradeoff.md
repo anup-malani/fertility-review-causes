@@ -8,7 +8,7 @@
 **Touches:** literature/search-logs/quantity-quality-tradeoff-*, extraction/quantity-quality-tradeoff-*, output/chapters/quantity-quality-tradeoff.md, source/build/goldset/34[4-9]*, source/build/goldset/35*
 
 ## Acceptance criteria
-- [ ] 2. Search strategy and scope drafted
+- [x] 2. Search strategy and scope drafted — `literature/search-logs/quantity-quality-tradeoff-search-scope.md`, 2026-09-09
 - [ ] 3. Literature search and AI screening, both phases (§5.1)
 - [ ] 4. RA title/abstract review
 - [ ] 5. Full-text retrieval
@@ -185,3 +185,58 @@ standard, and found it at full text. Ruling 1 is not discharged by those numbers
 
 Scripts: `304` (ported), `344`, `345`. Logs: `candidate-frame-probe-2026-09-09.*`,
 `c3d-term-diagnostics-2026-09-09.*`, `c3d-outcome-axis-2026-09-09.*`.
+
+### 2026-09-09 (later) — second channel run first, then the scope drafted
+
+**The forward arm's 8 was not allowed to become a sentence.** 345 measured the registered forward
+estimand at 8 records and that was about to be the chapter's most consequential claim, on one
+vocabulary. C.2.f wrote exactly that sentence into its scope §4 — "expect an empty or near-empty
+primary cell" — and retracted it the same week. So `346` ran the second channel **before** the scope
+was drafted rather than after.
+
+**The forward arm is not empty. It is large, and it is elsewhere.** Channel 1 (economics-of-education
+vocabulary) is 16 inside the frame and **231** unrestricted — 93% already outside. Channel 2 asked
+for the *shocks* that move the return, each in its own local words, every control firing non-zero:
+occupational structure 329, historical industrialization 275, schooling supply 188, trade 88,
+technology 27, local labour demand 23. The channel-2 axis crossed with fertility is **770 records, of
+which 15 are in the C.3.d frame and 8 in channel-1 vocabulary** — 98% invisible to both. Their
+pairwise crossovers are 0, 0, 2, 11, 1, 3: `channels-must-fail-differently` is satisfied about as
+strongly as it can be, so a null on both would have meant something. 35 carry an identified-design
+marker.
+
+**Walls measured from both sides**, since an overlap read from one side says only which frame is
+bigger. Every vocabulary overlap is ≤8% of the frame: A.12 60, A.1 38, C.1.a 20, C.2.e 13, C.2.b 12,
+C.3.f 11, C.2.f 9, compulsory schooling 6, D.2.d 0.
+
+**Scope drafted: `literature/search-logs/quantity-quality-tradeoff-search-scope.md`.** Acceptance
+criterion 2 met. What it freezes:
+
+- **§2, the ruling that decides the chapter — DIRECTION.** Forward (return → fertility) is the
+  primary cell; backward (family size → child outcomes) is mechanism evidence on link 2, never pooled
+  and never a demsig numerator. The registry cites the backward literature as evidence about C.3.d.
+- **§4** — a three-link conjunction whose middle link's best identification (twins) runs *against*
+  the mechanism. Recorded as a prediction before searching.
+- **§3** — three production axes (theory, design, shock), recall checked per axis. Ten candidate
+  terms priced by marginal gain; none accepted until scored for gold.
+- **§5** — demsig routes named per phenomenon. SDT: R2 elasticity gated on an R1 sign test expected
+  to **split by country** rather than settle the cell as C.2.f's did. FDT: R1 first, with the
+  conditions for computability stated now so stage 10 does not discover them.
+- **§8** — ten walls. **Wall 2 (C.2.e) is new**: C.3.d owns the return to the *child's* human capital,
+  C.2.e the *parent's*, and the largest forward row moves both. **Wall 5** separates A.12's
+  twinning-as-exposure from C.3.d's twins-as-instrument.
+- **§9–§12** — nine estimand cells, ten required tags led by `direction`, and a pooling rule that
+  stratifies before counting.
+- **§13** — five PI calls. Call 2 has a deadline: C.2.f's PI call 3 is answerable only while C.3.d is
+  unstarted, and C.3.d is now started.
+
+**`347` asserts all 75 figures quoted in the scope against the JSON the scripts wrote**, and was
+verified to fire by mutating an expected value. A scope is prose and cannot be generated, but its
+numbers can be tested, so re-running 344–346 now fails loudly if the prose goes stale.
+
+**Not yet done.** No production query, no anchor resolved, no record screened. Stage 3 next: build
+the three-axis query, resolve the Tier-A canon (Becker 1960, Becker–Lewis 1973, Becker–Tomes 1976,
+Galor–Weil 2000, Galor–Moav 2002, Doepke 2004, Greenwood–Seshadri–Vandenbroucke 2005, plus
+Black–Devereux–Salvanes 2005 and Angrist–Lavy–Schlosser 2010 on the backward arm), and harvest free
+seeds from C.2.b, C.2.f, C.3.e, C.3.f, C.3.g, D.2.d and A.12.
+
+Scripts: `344`, `345`, `346`, `347`. Scope: `quantity-quality-tradeoff-search-scope.md`.
