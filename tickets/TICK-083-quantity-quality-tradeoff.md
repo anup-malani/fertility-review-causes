@@ -1,5 +1,5 @@
 # TICK-083: C.3.d Quantity-Quality Tradeoff
-**Status:** open
+**Status:** in-progress
 **Assigned:** Shravan
 **Hypothesis:** `quantity-quality-tradeoff` — HYPOTHESES-v5.md §C.3.d
 **Parallel-safe:** yes
