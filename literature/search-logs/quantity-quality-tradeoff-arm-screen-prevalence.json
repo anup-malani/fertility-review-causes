@@ -1,0 +1,58 @@
+{
+  "batches_screened": [
+    "arms-forward-design-forward-shock-0.json",
+    "arms-forward-design-forward-shock-1.json"
+  ],
+  "n_screened": 120,
+  "target_records_in_arms": 1184,
+  "target": {
+    "label": "forward arms (target)",
+    "n": 80,
+    "primary": 6,
+    "primary_rate": 0.075,
+    "primary_lo": 0.03482477485108787,
+    "primary_hi": 0.15412200097380097,
+    "off_topic": 45,
+    "forward_family": 12,
+    "wall2": 7,
+    "wall2_share": 0.5833333333333334,
+    "cells": {
+      "OFF_OTHER": 17,
+      "MIXED_CHILD_PARENT_RETURN": 6,
+      "RETURN_FERTILITY": 1,
+      "OFF_TOPIC": 45,
+      "SHOCK_FERTILITY": 5,
+      "QQ_SUBSTITUTION": 1,
+      "PERCEIVED_RETURN": 2,
+      "THEORY": 3
+    }
+  },
+  "decoy": {
+    "label": "decoys (rest of universe)",
+    "n": 40,
+    "primary": 4,
+    "primary_rate": 0.1,
+    "primary_lo": 0.03957888759557486,
+    "primary_hi": 0.23052074380473897,
+    "off_topic": 18,
+    "forward_family": 5,
+    "wall2": 1,
+    "wall2_share": 0.2,
+    "cells": {
+      "SHOCK_FERTILITY": 1,
+      "OFF_OTHER": 6,
+      "QQ_SUBSTITUTION": 8,
+      "THEORY": 2,
+      "OFF_TOPIC": 18,
+      "RETURN_FERTILITY": 3,
+      "RETURN_ASSOCIATION": 1,
+      "MIXED_CHILD_PARENT_RETURN": 1
+    }
+  },
+  "projected_primary_in_forward_arms": {
+    "point": 88.8,
+    "lo": 41.23253342368804,
+    "hi": 182.48044915298036
+  },
+  "coverage": 0.06756756756756757
+}
