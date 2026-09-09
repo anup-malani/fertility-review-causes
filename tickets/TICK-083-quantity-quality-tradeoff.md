@@ -310,3 +310,53 @@ no twin to merge. OpenAlex's citation graph never attached to the published vers
 with recall checked **per axis**.
 
 Scripts: `348`, `349`, `350`, `351`.
+
+### 2026-09-09 (stage 3 cont.) — production query calibrated
+
+**Five arms, union frame 2,926 records** (`352`). The outcome axis differs by direction per scope §2.
+
+| arm | frame | recall of reachable | outcome axis |
+|---|---|---|---|
+| `theory` | 838 | 15/19 (79%) | fertility |
+| `forward-shock` | 699 | 7/12 (58%) | fertility |
+| `forward-design` | 500 | 6/6 (100%) | fertility |
+| `backward` | 1,006 | 7/7 (100%) | child outcomes |
+| `c2e-boundary` | 2,080 | — | **not screened** — Wall 2, C.2.e's chapter |
+
+**Union recall on the Tier-A canon — the number that matters: BACKWARD 5/5, FORWARD 3/4, THEORY 3/8.**
+
+**Three defects found, two of them mine.**
+
+1. `PRIMARY_ARMS` holds *arm names*; anchors carry the `arm` values those arms **target**. On C.2.f
+   the two vocabularies coincided and the ported expression worked by accident. Here it selected
+   **zero** primary anchors, and the only reason it was caught is that it then divided by zero
+   instead of printing a wrong percentage.
+2. The ported gold filter is `a.get("outcome_is_fertility", True)`. `349` writes that field as
+   `None` on all 65 controls, meaning *not known* — and `None` is falsy, so every control would have
+   been silently dropped from the primary denominator. `optional-field-gate-disengages`.
+3. **The reachability ceiling**, new here and worth porting back. A query is (exposure AND outcome),
+   so an anchor the **outcome axis alone** cannot return can never be returned by the conjunction —
+   counting it as a miss blames the query for a property of the anchor list. The controls were
+   harvested on an *exposure* vocabulary, so many have no fertility outcome at all. The backward
+   arm's raw 7/29 is **7/7 of what is reachable**. C.2.f set this by hand on 14 anchors; at 82 it has
+   to be measured. The unreachable-reason report now consults the ceiling too — it had been
+   relabelling structural zeros as vocabulary misses, the same defect one screen further down.
+
+**One widening measured and reverted.** The ceiling showed the child-outcome axis could not reach two
+of its own five Tier-A anchors, so I widened it — and priced properly, every candidate bought **zero**
+canon recall (`+ "education"` cost +9,423 records for nothing). The gain the widening did show was
+all *controls*, at ~1,600 records per anchor against a 400 ceiling; putting it in the **base** axis
+rather than in `outcome_candidates` is what let it bypass the script's own acceptance rule. The two
+anchors were never an axis problem: Rosenzweig-Wolpin and Angrist-Lavy-Schlosser say "quantity and
+quality", not "family size", so they arrive through the **theory** axis — and the union reaches both.
+`a-recall-miss-can-indict-the-anchors`: read the missed record before widening the query.
+
+**THEORY 3/8 is expected and is not a query problem.** Becker 1960, Becker-Lewis 1973 and
+Becker-Tomes 1976 are title-only records whose titles carry neither half of any conjunction. Scope §9
+puts calibrated theory in a context-only cell; they are resolved as anchors (`350`) and are snowball
+seeds (`351`), so the citation channel is their route **by design**. Recorded so it is not
+rediscovered at stage 4.
+
+**Next:** build the screen universe from the union query, then the screening rubric and depth probe.
+
+Scripts: `352`. Log: `quantity-quality-tradeoff-production-query.{json,md}`.
