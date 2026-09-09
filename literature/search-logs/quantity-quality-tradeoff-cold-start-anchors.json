@@ -1,0 +1,3825 @@
+[
+  {
+    "title": "Violent conflict and the child quantity\u2013quality tradeoff",
+    "year": 2025,
+    "doi": "10.1017/dem.2023.28",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:quantity-quality",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "quantity-quality"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 2
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4289776917",
+      "doi": "https://doi.org/10.1017/dem.2023.28",
+      "title": "Violent conflict and the child quantity\u2013quality tradeoff",
+      "year": 2025,
+      "type": "article",
+      "venue": "WU Research",
+      "authors_first": "Apsara Karki Nepal",
+      "cited_by": 2,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Rationed Fertility: Treatment Effect Heterogeneity in the Child Quantity-Quality Trade-off",
+    "year": 2025,
+    "doi": "10.1086/736768",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:quantity-quality",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "quantity-quality"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4410772348",
+      "doi": "https://doi.org/10.1086/736768",
+      "title": "Rationed Fertility: Treatment Effect Heterogeneity in the Child Quantity-Quality Trade-Off",
+      "year": 2025,
+      "type": "article",
+      "venue": "Journal of Political Economy",
+      "authors_first": "Rufei Guo",
+      "cited_by": 7,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Money, child quantity-quality tradeoff, growth and welfare in a Schumpeterian model with status-seeking in human capital",
+    "year": 2025,
+    "doi": "10.1007/s00712-025-00901-5",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:quantity-quality",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "quantity-quality"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4408047085",
+      "doi": "https://doi.org/10.1007/s00712-025-00901-5",
+      "title": "Money, child quantity-quality tradeoff, growth and welfare in a Schumpeterian model with status-seeking in human capital",
+      "year": 2025,
+      "type": "article",
+      "venue": "Journal of Economics",
+      "authors_first": "Qichun He",
+      "cited_by": 1,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Cost-sharing policy and its long-term impact on quantity\u2013quality tradeoff: Evidence from Kenya",
+    "year": 2024,
+    "doi": "10.21203/rs.3.rs-4556531/v1",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:quantity-quality",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "quantity-quality"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4400011452",
+      "doi": "https://doi.org/10.21203/rs.3.rs-4556531/v1",
+      "title": "Cost-sharing policy and its long-term impact on quantity\u2013quality tradeoff: Evidence from Kenya",
+      "year": 2024,
+      "type": "preprint",
+      "venue": "Research Square",
+      "authors_first": "Ayako Wakano",
+      "cited_by": 1,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Women\u2019s right to property and the child quantity-quality trade-off: evidence from India",
+    "year": 2023,
+    "doi": "10.1007/s00148-023-00970-0",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:quantity-quality",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "quantity-quality"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4386254190",
+      "doi": "https://doi.org/10.1007/s00148-023-00970-0",
+      "title": "Women\u2019s right to property and the child quantity-quality trade-off: evidence from India",
+      "year": 2023,
+      "type": "article",
+      "venue": "Journal of Population Economics",
+      "authors_first": "Vaidehi Tandel",
+      "cited_by": 21,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Quantity-quality trade-off in Northeast China during the Qing dynasty",
+    "year": 2023,
+    "doi": "10.1007/s00148-022-00933-x",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:quantity-quality",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "quantity-quality"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4317638297",
+      "doi": "https://doi.org/10.1007/s00148-022-00933-x",
+      "title": "Quantity-quality trade-off in Northeast China during the Qing dynasty",
+      "year": 2023,
+      "type": "article",
+      "venue": "Journal of Population Economics",
+      "authors_first": "Yu Bai",
+      "cited_by": 8,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "The effectiveness of child policies to boost child quality and quantity in the PAYG pension system",
+    "year": 2025,
+    "doi": "10.1057/s41599-025-04639-9",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:child quality",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "child quality"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4408100961",
+      "doi": "https://doi.org/10.1057/s41599-025-04639-9",
+      "title": "The effectiveness of child policies to boost child quality and quantity in the PAYG pension system",
+      "year": 2025,
+      "type": "article",
+      "venue": "Humanities and Social Sciences Communications",
+      "authors_first": "Minglu Wang",
+      "cited_by": 1,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Housing Wealth, Fertility, and Child Quality",
+    "year": 2022,
+    "doi": "10.53383/100334",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:child quality",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "child quality"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4280562027",
+      "doi": "https://doi.org/10.53383/100334",
+      "title": "Housing Wealth, Fertility, and Child Quality",
+      "year": 2022,
+      "type": "article",
+      "venue": "International Real Estate Review",
+      "authors_first": "Mingzhe Tang",
+      "cited_by": 2,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Direct Cash Transfer Effect on Children Quality in Women\u2019s Household in Indonesia",
+    "year": 2022,
+    "doi": "10.15408/sjie.v11i1.22769",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:child quality",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "child quality"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4213109636",
+      "doi": "https://doi.org/10.15408/sjie.v11i1.22769",
+      "title": "Direct Cash Transfer Effect on Children Quality in Women\u2019s Household in Indonesia",
+      "year": 2022,
+      "type": "article",
+      "venue": "Signifikan Jurnal Ilmu Ekonomi",
+      "authors_first": "Ni Putu Wiwin Setyari",
+      "cited_by": 2,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "The Trade-Off Between Child Quantity and Child Quality and the Public Provision of Education: A Case Study in Rural Terengganu, Malaysia",
+    "year": 2020,
+    "doi": "10.32890/mmj.14.2010.8967",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:child quality",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "child quality"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W656827371",
+      "doi": "https://doi.org/10.32890/mmj.14.2010.8967",
+      "title": "The Trade-Off Between Child Quantity and Child Quality and the Public Provision of Education: A Case Study in Rural Terengganu, Malaysia",
+      "year": 2010,
+      "type": "article",
+      "venue": "Malaysian Management Journal",
+      "authors_first": "Nor Azam Abdul Razak",
+      "cited_by": 1,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Explaining and Evaluating the Effective Factors in Improving the Quality of Children\u2019s Playgrounds in Cities with an Emphasis on Safety and Security Aspects of Children from Parents\u2019 Viewpoint; Case study: Koodak Park of Isfahan",
+    "year": 2020,
+    "doi": "10.52547/mmi.10.22.87",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:child quality",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "child quality"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4205769708",
+      "doi": "https://doi.org/10.52547/mmi.10.22.87",
+      "title": "Explaining and Evaluating the Effective Factors in Improving the Quality of Children\u2019s Playgrounds in Cities with an Emphasis on Safety and Security Aspects of Children from Parents\u2019 Viewpoint; Case study: Koodak Park of Isfahan",
+      "year": 2020,
+      "type": "article",
+      "venue": "Scientific Journal of Maremat and Me mari-e",
+      "authors_first": "Pargol Chapnevis",
+      "cited_by": 3,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Is There Really a Trade-off? Family Size and Investment in Child Quality in India",
+    "year": 2017,
+    "doi": "10.2139/ssrn.2934467",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:child quality",
+    "direction": "BACKWARD",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "child quality"
+    ],
+    "seed_flags": {
+      "backward": true,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W3121397652",
+      "doi": "https://doi.org/10.2139/ssrn.2934467",
+      "title": "Is There Really a Trade-off? Family Size and Investment in Child Quality in India",
+      "year": 2017,
+      "type": "preprint",
+      "venue": "SSRN Electronic Journal",
+      "authors_first": "Mehtabul Azam",
+      "cited_by": 1,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Number of siblings and psychotropic medication purchases surrounding parental death in adulthood: a population-wide cohort study in Finland",
+    "year": 2026,
+    "doi": "10.1136/jech-2025-224775",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:sibsize / sibship",
+    "direction": "BACKWARD",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "sibsize / sibship"
+    ],
+    "seed_flags": {
+      "backward": true,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W7147602731",
+      "doi": "https://doi.org/10.1136/jech-2025-224775",
+      "title": "Number of siblings and psychotropic medication purchases surrounding parental death in adulthood: a population-wide cohort study in Finland",
+      "year": 2026,
+      "type": "article",
+      "venue": "Journal of Epidemiology & Community Health",
+      "authors_first": "J. Luukkonen",
+      "cited_by": 1,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Unveiling the direct and indirect effects of sibling size on happiness: evidence from adults in early and mid-adulthood in China",
+    "year": 2024,
+    "doi": "10.1057/s41599-024-02877-x",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:sibsize / sibship",
+    "direction": "BACKWARD",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "sibsize / sibship"
+    ],
+    "seed_flags": {
+      "backward": true,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4392717119",
+      "doi": "https://doi.org/10.1057/s41599-024-02877-x",
+      "title": "Unveiling the direct and indirect effects of sibling size on happiness: evidence from adults in early and mid-adulthood in China",
+      "year": 2024,
+      "type": "article",
+      "venue": "Humanities and Social Sciences Communications",
+      "authors_first": "Honghui Li",
+      "cited_by": 0,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "The Inverse Association Between Number of Siblings and Divorce: New Evidence From China and Europe",
+    "year": 2023,
+    "doi": "10.1177/0192513x231162977",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:sibsize / sibship",
+    "direction": "BACKWARD",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "sibsize / sibship"
+    ],
+    "seed_flags": {
+      "backward": true,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4327587825",
+      "doi": "https://doi.org/10.1177/0192513x231162977",
+      "title": "The Inverse Association Between Number of Siblings and Divorce: New Evidence From China and Europe",
+      "year": 2023,
+      "type": "article",
+      "venue": "Journal of Family Issues",
+      "authors_first": "Douglas B. Downey",
+      "cited_by": 1,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Early school leaving, number of siblings and birth order in Spain",
+    "year": 2023,
+    "doi": "10.1080/03054985.2023.2281313",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:sibsize / sibship",
+    "direction": "BACKWARD",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "sibsize / sibship"
+    ],
+    "seed_flags": {
+      "backward": true,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4388893174",
+      "doi": "https://doi.org/10.1080/03054985.2023.2281313",
+      "title": "Early school leaving, number of siblings and birth order in Spain",
+      "year": 2023,
+      "type": "article",
+      "venue": "Oxford Review of Education",
+      "authors_first": "Miguel Requena",
+      "cited_by": 0,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Association between Number of Siblings and Cardiovascular Risk Factors in Childhood and in Adulthood: The Cardiovascular Risk in Young Finns Study",
+    "year": 2021,
+    "doi": "10.1016/j.jpeds.2021.05.058",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:sibsize / sibship",
+    "direction": "BACKWARD",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "sibsize / sibship"
+    ],
+    "seed_flags": {
+      "backward": true,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W3164741988",
+      "doi": "https://doi.org/10.1016/j.jpeds.2021.05.058",
+      "title": "Association between Number of Siblings and Cardiovascular Risk Factors in Childhood and in Adulthood: The Cardiovascular Risk in Young Finns Study",
+      "year": 2021,
+      "type": "article",
+      "venue": "The Journal of Pediatrics",
+      "authors_first": "Jukka Pihlman",
+      "cited_by": 6,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "When does family size matter? Sibship size, socioeconomic status and education in England",
+    "year": 2020,
+    "doi": "10.1017/ehs.2020.54",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:sibsize / sibship",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "sibsize / sibship"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W3093586374",
+      "doi": "https://doi.org/10.1017/ehs.2020.54",
+      "title": "When does family size matter? Sibship size, socioeconomic status and education in England",
+      "year": 2020,
+      "type": "article",
+      "venue": "Evolutionary Human Sciences",
+      "authors_first": "Paula Sheppard",
+      "cited_by": 12,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Shadow education and the effects of family size on parental educational investment",
+    "year": 2026,
+    "doi": "10.1017/dem.2026.10024",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:child investment",
+    "direction": "BACKWARD",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "child investment"
+    ],
+    "seed_flags": {
+      "backward": true,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W7165114627",
+      "doi": "https://doi.org/10.1017/dem.2026.10024",
+      "title": "Shadow education and the effects of family size on parental educational investment",
+      "year": 2026,
+      "type": "article",
+      "venue": "Journal of Demographic Economics",
+      "authors_first": "Tanmoy Majilla",
+      "cited_by": 0,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Unexpected Monetary Policy and the Wealth Gradient in Parental Investment: Evidence from Korea's Household Data",
+    "year": 2026,
+    "doi": "10.2139/ssrn.7354947",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:child investment",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "child investment"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W7204273545",
+      "doi": "https://doi.org/10.2139/ssrn.7354947",
+      "title": "Unexpected Monetary Policy and the Wealth Gradient in Parental Investment: Evidence from Korea's Household Data",
+      "year": 2026,
+      "type": "preprint",
+      "venue": "SSRN Electronic Journal",
+      "authors_first": "Hyunjoon Lim",
+      "cited_by": 0,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Educational assortative mating and changing patterns of parental financial investment in children, 1990\u20132024",
+    "year": 2026,
+    "doi": "10.1016/j.ssresearch.2026.103347",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:child investment",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "child investment"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": true,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W7154719314",
+      "doi": "https://doi.org/10.1016/j.ssresearch.2026.103347",
+      "title": "Educational assortative mating and changing patterns of parental financial investment in children, 1990\u20132024",
+      "year": 2026,
+      "type": "article",
+      "venue": "Social Science Research",
+      "authors_first": "Hyo Joo Lee",
+      "cited_by": 0,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Parental investment in child immunisation: the role of birth order and number of children",
+    "year": 2026,
+    "doi": "10.18203/2394-6040.ijcmph20261842",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:child investment",
+    "direction": "BACKWARD",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "child investment"
+    ],
+    "seed_flags": {
+      "backward": true,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W7163907252",
+      "doi": "https://doi.org/10.18203/2394-6040.ijcmph20261842",
+      "title": "Parental investment in child immunisation: the role of birth order and number of children",
+      "year": 2026,
+      "type": "article",
+      "venue": "International Journal of Community Medicine and Public Health",
+      "authors_first": "Saranika Sarkar",
+      "cited_by": 0,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Retirement-age Extension and Parental Investment in Education",
+    "year": 2026,
+    "doi": "10.2139/ssrn.6140224",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:child investment",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "child investment"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W7125797254",
+      "doi": "https://doi.org/10.2139/ssrn.6140224",
+      "title": "Retirement-age Extension and Parental Investment in Education",
+      "year": 2026,
+      "type": "preprint",
+      "venue": "SSRN Electronic Journal",
+      "authors_first": "Youngho Kang",
+      "cited_by": 0,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Double the Diapers, Double the Degrees? Anticipated Children and Educational Investment in China",
+    "year": 2026,
+    "doi": "10.1086/742050",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:child investment",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "child investment"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W7158570198",
+      "doi": "https://doi.org/10.1086/742050",
+      "title": "Double the Diapers, Double the Degrees? Anticipated Children and Educational Investment in China",
+      "year": 2026,
+      "type": "article",
+      "venue": "Economic Development and Cultural Change",
+      "authors_first": "Eva Raiber",
+      "cited_by": 0,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Child Human Capital\u2014The Importance Of Parenting Style",
+    "year": 2026,
+    "doi": "10.2139/ssrn.6796091",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:child human capital",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "child human capital"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2970282652",
+      "doi": "https://doi.org/10.2139/ssrn.6796091",
+      "title": "Child Human Capital\u2014The Importance Of Parenting Style",
+      "year": 2026,
+      "type": "preprint",
+      "venue": "SSRN Electronic Journal",
+      "authors_first": "Kristian Bolin",
+      "cited_by": 0,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Intergenerational effects of sick leave on child human capital",
+    "year": 2025,
+    "doi": "10.1016/j.jhealeco.2025.103047",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:child human capital",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "child human capital"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4412796387",
+      "doi": "https://doi.org/10.1016/j.jhealeco.2025.103047",
+      "title": "Intergenerational effects of sick leave on child human capital",
+      "year": 2025,
+      "type": "article",
+      "venue": "Journal of Health Economics",
+      "authors_first": "Julie Riise",
+      "cited_by": 1,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "The long-term effect of television on children's human capital development in China",
+    "year": 2025,
+    "doi": "10.1016/j.jdeveco.2025.103538",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:child human capital",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "child human capital"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4410221165",
+      "doi": "https://doi.org/10.1016/j.jdeveco.2025.103538",
+      "title": "The long-term effect of television on children's human capital development in China",
+      "year": 2025,
+      "type": "article",
+      "venue": "Journal of Development Economics",
+      "authors_first": "Fangjing Zha",
+      "cited_by": 1,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Family Planning and Children's Human Capital: Experimental Evidence From Urban Malawi",
+    "year": 2024,
+    "doi": "10.1215/00703370-11581796",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:child human capital",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "child human capital"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4402862765",
+      "doi": "https://doi.org/10.1215/00703370-11581796",
+      "title": "Family Planning and Children's Human Capital: Experimental Evidence From Urban Malawi",
+      "year": 2024,
+      "type": "article",
+      "venue": "Demography",
+      "authors_first": "Daniel Maggio",
+      "cited_by": 3,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Beliefs and Investment in Child Human Capital: Case Study from Benin",
+    "year": 2020,
+    "doi": "10.1080/00220388.2020.1762860",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:child human capital",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "child human capital"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W3034082147",
+      "doi": "https://doi.org/10.1080/00220388.2020.1762860",
+      "title": "Beliefs and Investment in Child Human Capital: Case Study from Benin",
+      "year": 2020,
+      "type": "article",
+      "venue": "The Journal of Development Studies",
+      "authors_first": "Sahawal Alidou",
+      "cited_by": 3,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Parental involvement and Children's human capital: A tax-subsidy experiment",
+    "year": 2019,
+    "doi": "10.1016/j.econmod.2019.05.002",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:child human capital",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "child human capital"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2944910293",
+      "doi": "https://doi.org/10.1016/j.econmod.2019.05.002",
+      "title": "Parental involvement and Children's human capital: A tax-subsidy experiment",
+      "year": 2019,
+      "type": "article",
+      "venue": "Economic Modelling",
+      "authors_first": "Emin Gahramanov",
+      "cited_by": 14,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Population Density, Migration, and the Returns to Human Capital and Land: Insights from Indonesia",
+    "year": 2013,
+    "doi": "10.2139/ssrn.2286845",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:returns to skill",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "returns to skill"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2064509494",
+      "doi": "https://doi.org/10.2139/ssrn.2286845",
+      "title": "Population Density, Migration, and the Returns to Human Capital and Land: Insights from Indonesia",
+      "year": 2013,
+      "type": "preprint",
+      "venue": "SSRN Electronic Journal",
+      "authors_first": "Yanyan Liu",
+      "cited_by": 22,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Skill premium effects on fertility and female labor force supply",
+    "year": 2004,
+    "doi": "10.1007/s00148-003-0150-5",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:returns to skill",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "returns to skill"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": true,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W1491140986",
+      "doi": "https://doi.org/10.1007/s00148-003-0150-5",
+      "title": "Skill premium effects on fertility and female labor force supply",
+      "year": 2004,
+      "type": "article",
+      "venue": "Journal of Population Economics",
+      "authors_first": "Dolores Ferrero Mart\ufffdnez",
+      "cited_by": 68,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Number of siblings, access to treated water and returns to education in China",
+    "year": 2022,
+    "doi": "10.1016/j.eap.2022.03.004",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:returns to skill",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "sibsize / sibship",
+      "returns to skill"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4220821710",
+      "doi": "https://doi.org/10.1016/j.eap.2022.03.004",
+      "title": "Number of siblings, access to treated water and returns to education in China",
+      "year": 2022,
+      "type": "article",
+      "venue": "Economic Analysis and Policy",
+      "authors_first": "Fei Peng",
+      "cited_by": 4,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Parental Beliefs about Returns to Educational Investments\u2014The Later the Better?",
+    "year": 2018,
+    "doi": "10.1093/jeea/jvy006",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:returns to skill",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "child investment",
+      "returns to skill"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W3022058118",
+      "doi": "https://doi.org/10.1093/jeea/jvy006",
+      "title": "Parental Beliefs about Returns to Educational Investments\u2014The Later the Better?",
+      "year": 2018,
+      "type": "article",
+      "venue": "Journal of the European Economic Association",
+      "authors_first": "Teodora Boneva",
+      "cited_by": 128,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Partner Choice, Investment in Children, and the Marital College Premium",
+    "year": 2017,
+    "doi": "10.1257/aer.20150154",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:returns to skill",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "child investment",
+      "returns to skill"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2582415124",
+      "doi": "https://doi.org/10.1257/aer.20150154",
+      "title": "Partner Choice, Investment in Children, and the Marital College Premium",
+      "year": 2017,
+      "type": "article",
+      "venue": "American Economic Review",
+      "authors_first": "Pierre\u2010Andr\u00e9 Chiappori",
+      "cited_by": 202,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Fertility rates across generations in twins and singletons: A total population study in Finland",
+    "year": 2026,
+    "doi": "10.64898/2026.05.20.26353670",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:family-size instrument",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "family-size instrument"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": true,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W7162146170",
+      "doi": "https://doi.org/10.64898/2026.05.20.26353670",
+      "title": "Fertility rates across generations in twins and singletons: A total population study in Finland",
+      "year": 2026,
+      "type": "preprint",
+      "venue": "medRxiv",
+      "authors_first": "Sarah Nieme de Paiva",
+      "cited_by": 0,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Trends in Birth Rates, Sex Ratio, and Infant Mortality Rates Among Singletons, Twins, and Higher Order Multiples in Brazil Between 2010 and 2023",
+    "year": 2026,
+    "doi": "10.1017/thg.2026.10061",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:family-size instrument",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "family-size instrument"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": true,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W7154109899",
+      "doi": "https://doi.org/10.1017/thg.2026.10061",
+      "title": "Trends in Birth Rates, Sex Ratio, and Infant Mortality Rates Among Singletons, Twins, and Higher Order Multiples in Brazil Between 2010 and 2023",
+      "year": 2026,
+      "type": "article",
+      "venue": "Twin Research and Human Genetics",
+      "authors_first": "T\u00e2nia Kiehl Lucci",
+      "cited_by": 0,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Anthropometric differences between twins at birth and their association with later cognitive performance",
+    "year": 2026,
+    "doi": "10.1111/jcpp.70170",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:family-size instrument",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "family-size instrument"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": true,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W7162198115",
+      "doi": "https://doi.org/10.1111/jcpp.70170",
+      "title": "Anthropometric differences between twins at birth and their association with later cognitive performance",
+      "year": 2026,
+      "type": "article",
+      "venue": "Journal of Child Psychology and Psychiatry",
+      "authors_first": "Robert Eves",
+      "cited_by": 0,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Genetics of twin birth rate in German Holstein and options for breeding",
+    "year": 2025,
+    "doi": "10.3168/jds.2024-25972",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:family-size instrument",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "family-size instrument"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": true,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4409548817",
+      "doi": "https://doi.org/10.3168/jds.2024-25972",
+      "title": "Genetics of twin birth rate in German Holstein and options for breeding",
+      "year": 2025,
+      "type": "article",
+      "venue": "Journal of Dairy Science",
+      "authors_first": "Laura H\u00fcneke",
+      "cited_by": 4,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Conceptive risk-taking: Personal uncertainty, flexible fertility intentions, and twins from medically assisted reproduction",
+    "year": 2025,
+    "doi": "10.1016/j.socscimed.2025.118743",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:family-size instrument",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "family-size instrument"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": true,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4415760736",
+      "doi": "https://doi.org/10.1016/j.socscimed.2025.118743",
+      "title": "Conceptive risk-taking: Personal uncertainty, flexible fertility intentions, and twins from medically assisted reproduction",
+      "year": 2025,
+      "type": "article",
+      "venue": "Social Science & Medicine",
+      "authors_first": "Eliza Brown",
+      "cited_by": 1,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Human Capital Investments and Family Size in Italy: IV Estimates Using Twin Births as an Instrument",
+    "year": 2024,
+    "doi": "10.1515/bejeap-2022-0461",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:family-size instrument",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "family-size instrument"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": true,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4391730891",
+      "doi": "https://doi.org/10.1515/bejeap-2022-0461",
+      "title": "Human Capital Investments and Family Size in Italy: IV Estimates Using Twin Births as an Instrument",
+      "year": 2024,
+      "type": "article",
+      "venue": "The B E Journal of Economic Analysis & Policy",
+      "authors_first": "Michela Ponzo",
+      "cited_by": 0,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "The impact of terminating universal primary education on fertility: Evidence from Kenya",
+    "year": 2025,
+    "doi": "10.1016/j.ijedudev.2025.103361",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:schooling reform",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "schooling reform"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4413192467",
+      "doi": "https://doi.org/10.1016/j.ijedudev.2025.103361",
+      "title": "The impact of terminating universal primary education on fertility: Evidence from Kenya",
+      "year": 2025,
+      "type": "article",
+      "venue": "International Journal of Educational Development",
+      "authors_first": "Ayako Wakano",
+      "cited_by": 0,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Do Compulsory Schooling Laws Affect Fertility Behaviors and Marriages? Evidence From India",
+    "year": 2025,
+    "doi": "10.1111/rode.70016",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:schooling reform",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "schooling reform"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4412362654",
+      "doi": "https://doi.org/10.1111/rode.70016",
+      "title": "Do Compulsory Schooling Laws Affect Fertility Behaviors and Marriages? Evidence From India",
+      "year": 2025,
+      "type": "article",
+      "venue": "Review of Development Economics",
+      "authors_first": "Sandipa Bhattacharjee",
+      "cited_by": 0,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Education and fertility: Evidence from an instrumental variable approach using higher education expansions in Turkey",
+    "year": 2025,
+    "doi": "10.1016/j.healthpol.2025.105366",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:schooling reform",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "schooling reform"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4410857465",
+      "doi": "https://doi.org/10.1016/j.healthpol.2025.105366",
+      "title": "Education and fertility: Evidence from an instrumental variable approach using higher education expansions in Turkey",
+      "year": 2025,
+      "type": "article",
+      "venue": "Health Policy",
+      "authors_first": "Badi H. Baltagi",
+      "cited_by": 0,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Education, desired fertility, and HIV/AIDS: Evidence from China\u2019s compulsory schooling law",
+    "year": 2025,
+    "doi": "10.1016/j.jce.2025.09.002",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:schooling reform",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "schooling reform"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4415043415",
+      "doi": "https://doi.org/10.1016/j.jce.2025.09.002",
+      "title": "Education, desired fertility, and HIV/AIDS: Evidence from China\u2019s compulsory schooling law",
+      "year": 2025,
+      "type": "article",
+      "venue": "Journal of Comparative Economics",
+      "authors_first": "Xiaoyan Lei",
+      "cited_by": 0,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "The compulsory education law, female education and fertility: An empirical study in China",
+    "year": 2024,
+    "doi": "10.1016/j.jce.2024.06.001",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:schooling reform",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "schooling reform"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": true,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4399700690",
+      "doi": "https://doi.org/10.1016/j.jce.2024.06.001",
+      "title": "The compulsory education law, female education and fertility: An empirical study in China",
+      "year": 2024,
+      "type": "article",
+      "venue": "Journal of Comparative Economics",
+      "authors_first": "Shenglong Liu",
+      "cited_by": 13,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "The impact of female education on fertility: evidence from Malawi Universal Primary Education program",
+    "year": 2024,
+    "doi": "10.1017/dem.2024.3",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:schooling reform",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "schooling reform"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": true,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4392921943",
+      "doi": "https://doi.org/10.1017/dem.2024.3",
+      "title": "The impact of female education on fertility: evidence from Malawi Universal Primary Education program",
+      "year": 2024,
+      "type": "article",
+      "venue": "Journal of Demographic Economics",
+      "authors_first": "Tianheng Wang",
+      "cited_by": 5,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Automation and Aging in General Equilibrium: AI Capital, Fertility, and the Return to Capital",
+    "year": 2026,
+    "doi": "10.48550/arxiv.2606.22037",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:skill shock",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "skill shock"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": true
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W7165684671",
+      "doi": "https://doi.org/10.48550/arxiv.2606.22037",
+      "title": "Automation and Aging in General Equilibrium: AI Capital, Fertility, and the Return to Capital",
+      "year": 2026,
+      "type": "preprint",
+      "venue": "HAL (Le Centre pour la Communication Scientifique Directe)",
+      "authors_first": "James Wabenga Yango",
+      "cited_by": 0,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Input-Trade Liberalization, Female-Skill Intensity and Fertility in China",
+    "year": 2025,
+    "doi": "10.2139/ssrn.5132231",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:skill shock",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "skill shock"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4407839875",
+      "doi": "https://doi.org/10.2139/ssrn.5132231",
+      "title": "Input-Trade Liberalization, Female-Skill Intensity and Fertility in China",
+      "year": 2025,
+      "type": "preprint",
+      "venue": "SSRN Electronic Journal",
+      "authors_first": "Feng Chen",
+      "cited_by": 1,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Agricultural Technological Change, Female Earnings and Fertility: Evidence from Brazil",
+    "year": 2024,
+    "doi": "10.1093/ej/ueae069",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:skill shock",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "skill shock"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4400800630",
+      "doi": "https://doi.org/10.1093/ej/ueae069",
+      "title": "Agricultural Technological Change, Female Earnings and Fertility: Evidence from Brazil",
+      "year": 2024,
+      "type": "article",
+      "venue": "The Economic Journal",
+      "authors_first": "Vivek S. Moorthy",
+      "cited_by": 6,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "The effect of trade liberalization on marriage and fertility: evidence from Indian census",
+    "year": 2024,
+    "doi": "10.1093/oep/gpae043",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:skill shock",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "skill shock"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4404444577",
+      "doi": "https://doi.org/10.1093/oep/gpae043",
+      "title": "The effect of trade liberalization on marriage and fertility: evidence from Indian census",
+      "year": 2024,
+      "type": "article",
+      "venue": "Oxford Economic Papers",
+      "authors_first": "Shruti Sengupta",
+      "cited_by": 4,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Demographic impacts of China\u2019s trade liberalization: marriage, spousal quality, and fertility",
+    "year": 2024,
+    "doi": "10.1007/s00148-024-01040-9",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:skill shock",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "skill shock"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4400378681",
+      "doi": "https://doi.org/10.1007/s00148-024-01040-9",
+      "title": "Demographic impacts of China\u2019s trade liberalization: marriage, spousal quality, and fertility",
+      "year": 2024,
+      "type": "article",
+      "venue": "Journal of Population Economics",
+      "authors_first": "Wei Luo",
+      "cited_by": 8,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Fertility and Automation",
+    "year": 2024,
+    "doi": "10.2139/ssrn.4820056",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:skill shock",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "skill shock"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4396868272",
+      "doi": "https://doi.org/10.2139/ssrn.4820056",
+      "title": "Fertility and Automation",
+      "year": 2024,
+      "type": "preprint",
+      "venue": "SSRN Electronic Journal",
+      "authors_first": "Derick Almeida",
+      "cited_by": 0,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Unified Growth Theory: Roots of Growth and Inequality in the Wealth of Nations",
+    "year": 2025,
+    "doi": "10.1146/annurev-economics-090324-034939",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:unified growth",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "unified growth"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": true
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4408937971",
+      "doi": "https://doi.org/10.1146/annurev-economics-090324-034939",
+      "title": "Unified Growth Theory: Roots of Growth and Inequality in the Wealth of Nations",
+      "year": 2025,
+      "type": "review",
+      "venue": "Annual Review of Economics",
+      "authors_first": "Oded Galor",
+      "cited_by": 5,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "6. Inside the black box of population growth\u00a0: tracing the roots of unified growth theory",
+    "year": 2025,
+    "doi": "10.3917/cep1.087.0142",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:unified growth",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "unified growth"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": true
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4412113913",
+      "doi": "https://doi.org/10.3917/cep1.087.0142",
+      "title": "6. Inside the black box of population growth : tracing the roots of unified growth theory",
+      "year": 2025,
+      "type": "article",
+      "venue": "Cahiers d \u00e9conomie politique",
+      "authors_first": "Tanguy Le Fur",
+      "cited_by": 0,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Reconciling Reversal of Fortune in early United States Development within Unified Growth Framework",
+    "year": 2022,
+    "doi": "10.21203/rs.3.rs-2000443/v1",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:unified growth",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "unified growth"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": true
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4293582102",
+      "doi": "https://doi.org/10.21203/rs.3.rs-2000443/v1",
+      "title": "Reconciling Reversal of Fortune in early United States Development within Unified Growth Framework",
+      "year": 2022,
+      "type": "preprint",
+      "venue": "Research Square",
+      "authors_first": "CP HO",
+      "cited_by": 1,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "The empirics of economic growth over time and across nations: a unified growth perspective",
+    "year": 2022,
+    "doi": "10.1007/s10887-022-09216-2",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:unified growth",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "unified growth"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": true
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4307102606",
+      "doi": "https://doi.org/10.1007/s10887-022-09216-2",
+      "title": "The empirics of economic growth over time and across nations: a unified growth perspective",
+      "year": 2022,
+      "type": "article",
+      "venue": "Journal of Economic Growth",
+      "authors_first": "Matteo Cervellati",
+      "cited_by": 25,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Energy, Knowledge, and Demo-Economic Development in the Long Run: A Unified Growth Model",
+    "year": 2019,
+    "doi": "10.2139/ssrn.3364278",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:unified growth",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "unified growth"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": true
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W3161140337",
+      "doi": "https://doi.org/10.2139/ssrn.3364278",
+      "title": "Energy, Knowledge, and Demo-Economic Development in the Long Run: A Unified Growth Model",
+      "year": 2019,
+      "type": "preprint",
+      "venue": "SSRN Electronic Journal",
+      "authors_first": "Emmanuel Bovari",
+      "cited_by": 3,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Development, fertility and childbearing age: A Unified Growth Theory",
+    "year": 2018,
+    "doi": "10.1016/j.jet.2018.07.004",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:unified growth",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "unified growth"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": true
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2591799884",
+      "doi": "https://doi.org/10.1016/j.jet.2018.07.004",
+      "title": "Development, fertility and childbearing age: A Unified Growth Theory",
+      "year": 2018,
+      "type": "article",
+      "venue": "Journal of Economic Theory",
+      "authors_first": "Hippolyte d\u2019Albis",
+      "cited_by": 17,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Explaining Birth Order Effects on Child Nutrition: The Role of Resource Dilution and Cultural Factors",
+    "year": 2025,
+    "doi": "10.2139/ssrn.5345998",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:resource dilution",
+    "direction": "BACKWARD",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "resource dilution"
+    ],
+    "seed_flags": {
+      "backward": true,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4412435124",
+      "doi": "https://doi.org/10.2139/ssrn.5345998",
+      "title": "Explaining Birth Order Effects on Child Nutrition: The Role of Resource Dilution and Cultural Factors",
+      "year": 2025,
+      "type": "preprint",
+      "venue": "SSRN Electronic Journal",
+      "authors_first": "Dinara Issabekova",
+      "cited_by": 1,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "The Gendered Resource Dilution: Sibling Structure, Parental Non-Monetary Investment, and Child Housework Labor in China",
+    "year": 2023,
+    "doi": "10.1007/s11199-023-01436-z",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:resource dilution",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "resource dilution"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W4388458845",
+      "doi": "https://doi.org/10.1007/s11199-023-01436-z",
+      "title": "The Gendered Resource Dilution: Sibling Structure, Parental Non-Monetary Investment, and Child Housework Labor in China",
+      "year": 2023,
+      "type": "article",
+      "venue": "Sex Roles",
+      "authors_first": "Ran Liu",
+      "cited_by": 5,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Testing the Confluence Model of the Association Between Pornography Use and Male Sexual Aggression: A Longitudinal Assessment in Two Independent Adolescent Samples from Croatia",
+    "year": 2020,
+    "doi": "10.1007/s10508-020-01824-6",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:resource dilution",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "resource dilution"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W3094062766",
+      "doi": "https://doi.org/10.1007/s10508-020-01824-6",
+      "title": "Testing the Confluence Model of the Association Between Pornography Use and Male Sexual Aggression: A Longitudinal Assessment in Two Independent Adolescent Samples from Croatia",
+      "year": 2020,
+      "type": "article",
+      "venue": "Archives of Sexual Behavior",
+      "authors_first": "Taylor Kohut",
+      "cited_by": 45,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Intergenerational Exchange of Support in Low\u2010Income Families: Understanding Resource Dilution and Increased Contribution",
+    "year": 2019,
+    "doi": "10.1111/jomf.12558",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:resource dilution",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "resource dilution"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2915368336",
+      "doi": "https://doi.org/10.1111/jomf.12558",
+      "title": "Intergenerational Exchange of Support in Low\u2010Income Families: Understanding Resource Dilution and Increased Contribution",
+      "year": 2019,
+      "type": "article",
+      "venue": "Journal of Marriage and the Family",
+      "authors_first": "Josipa Roksa",
+      "cited_by": 28,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Economies of scale, resource dilution and education choice in developing countries: Evidence from Chinese households",
+    "year": 2017,
+    "doi": "10.1016/j.chieco.2017.03.003",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:resource dilution",
+    "direction": "UNKNOWN",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "resource dilution"
+    ],
+    "seed_flags": {
+      "backward": false,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2596478378",
+      "doi": "https://doi.org/10.1016/j.chieco.2017.03.003",
+      "title": "Economies of scale, resource dilution and education choice in developing countries: Evidence from Chinese households",
+      "year": 2017,
+      "type": "article",
+      "venue": "China Economic Review",
+      "authors_first": "Guangjun Shen",
+      "cited_by": 7,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "Can resource dilution explain differences in height by birth order and family size? A study of 389,287 male recruits in twentieth-century Netherlands",
+    "year": 2016,
+    "doi": "10.1080/1081602x.2016.1230510",
+    "first_author": "",
+    "source": "control",
+    "arm": "seed:resource dilution",
+    "direction": "BACKWARD",
+    "outcome_is_fertility": null,
+    "seed_terms": [
+      "resource dilution"
+    ],
+    "seed_flags": {
+      "backward": true,
+      "wall_c2e": false,
+      "wall_a12": false,
+      "evo": false,
+      "theory": false
+    },
+    "queries": [
+      {
+        "mode": "doi",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "oa_id": "https://openalex.org/W2537895450",
+      "doi": "https://doi.org/10.1080/1081602x.2016.1230510",
+      "title": "Can resource dilution explain differences in height by birth order and family size? A study of 389,287 male recruits in twentieth-century Netherlands",
+      "year": 2016,
+      "type": "article",
+      "venue": "The History of the Family",
+      "authors_first": "Laura Stradford",
+      "cited_by": 27,
+      "jaccard": 1.0,
+      "stem": false,
+      "first_author_ok": null,
+      "year_ok": true,
+      "score": 1.0,
+      "via": "doi"
+    },
+    "verdict": "MATCH_BY_DOI",
+    "title_drift": false
+  },
+  {
+    "title": "An Economic Analysis of Fertility",
+    "year": 1960,
+    "first_author": "Gary Becker",
+    "arm": "theory",
+    "direction": "THEORY",
+    "outcome_is_fertility": true,
+    "source": "hand",
+    "doi": "",
+    "openalex": "",
+    "seed_terms": [],
+    "seed_flags": {},
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 22
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W1590372966",
+      "doi": null,
+      "title": "An Economic Analysis of Fertility",
+      "year": 1960,
+      "type": "preprint",
+      "venue": "RePEc: Research Papers in Economics",
+      "authors_first": "Gary S. Becker",
+      "cited_by": 1275,
+      "jaccard": 1.0,
+      "stem": false,
+      "stem_reversed": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted",
+      "non_study_type": false
+    },
+    "twins": [],
+    "verdict": "MATCH"
+  },
+  {
+    "title": "On the Interaction between the Quantity and Quality of Children",
+    "year": 1973,
+    "first_author": "Gary Becker",
+    "arm": "theory",
+    "direction": "THEORY",
+    "outcome_is_fertility": true,
+    "source": "hand",
+    "doi": "",
+    "openalex": "",
+    "seed_terms": [],
+    "seed_flags": {},
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 4
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W1517466339",
+      "doi": "https://doi.org/10.1086/260166",
+      "title": "On the Interaction between the Quantity and Quality of Children",
+      "year": 1973,
+      "type": "article",
+      "venue": "Journal of Political Economy",
+      "authors_first": "Gary S. Becker",
+      "cited_by": 507,
+      "jaccard": 1.0,
+      "stem": false,
+      "stem_reversed": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted",
+      "non_study_type": false
+    },
+    "twins": [],
+    "verdict": "MATCH"
+  },
+  {
+    "title": "Child Endowments and the Quantity and Quality of Children",
+    "year": 1976,
+    "first_author": "Gary Becker",
+    "arm": "theory",
+    "direction": "THEORY",
+    "outcome_is_fertility": true,
+    "source": "hand",
+    "doi": "",
+    "openalex": "",
+    "seed_terms": [],
+    "seed_flags": {},
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W2089530081",
+      "doi": "https://doi.org/10.1086/260536",
+      "title": "Child Endowments and the Quantity and Quality of Children",
+      "year": 1976,
+      "type": "article",
+      "venue": "Journal of Political Economy",
+      "authors_first": "Gary S. Becker",
+      "cited_by": 357,
+      "jaccard": 1.0,
+      "stem": false,
+      "stem_reversed": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted",
+      "non_study_type": false
+    },
+    "twins": [],
+    "verdict": "MATCH"
+  },
+  {
+    "title": "Human Capital, Fertility, and Economic Growth",
+    "year": 1990,
+    "first_author": "Gary Becker",
+    "arm": "theory",
+    "direction": "THEORY",
+    "outcome_is_fertility": true,
+    "source": "hand",
+    "doi": "",
+    "openalex": "",
+    "seed_terms": [],
+    "seed_flags": {},
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 4
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W3121822366",
+      "doi": "https://doi.org/10.1086/261723",
+      "title": "Human Capital, Fertility, and Economic Growth",
+      "year": 1990,
+      "type": "article",
+      "venue": "Journal of Political Economy",
+      "authors_first": "Gary S. Becker",
+      "cited_by": 1988,
+      "jaccard": 1.0,
+      "stem": false,
+      "stem_reversed": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted",
+      "non_study_type": false
+    },
+    "twins": [
+      {
+        "first_author_elsewhere_in_list": true,
+        "oa_id": "https://openalex.org/W1986167999",
+        "doi": "https://doi.org/10.3386/w3414",
+        "title": "Human Capital, Fertility, and Economic Growth",
+        "year": 1990,
+        "type": "report",
+        "venue": "National Bureau of Economic Research",
+        "authors_first": "Gary S. Becker",
+        "cited_by": 305,
+        "jaccard": 1.0,
+        "stem": false,
+        "stem_reversed": false,
+        "first_author_ok": true,
+        "year_ok": true,
+        "score": 1.5,
+        "via": "filter_title_quoted",
+        "non_study_type": false
+      },
+      {
+        "first_author_elsewhere_in_list": true,
+        "oa_id": "https://openalex.org/W3123865361",
+        "doi": null,
+        "title": "Human Capital, Fertility, and Economic Growth",
+        "year": 1990,
+        "type": "preprint",
+        "venue": "RePEc: Research Papers in Economics",
+        "authors_first": "Gary S. Becker",
+        "cited_by": 5,
+        "jaccard": 1.0,
+        "stem": false,
+        "stem_reversed": false,
+        "first_author_ok": true,
+        "year_ok": true,
+        "score": 1.5,
+        "via": "filter_title_quoted",
+        "non_study_type": false
+      }
+    ],
+    "verdict": "MATCH"
+  },
+  {
+    "title": "Population, Technology, and Growth: From Malthusian Stagnation to the Demographic Transition and Beyond",
+    "year": 2000,
+    "first_author": "Oded Galor",
+    "arm": "theory",
+    "direction": "THEORY",
+    "outcome_is_fertility": true,
+    "source": "hand",
+    "doi": "",
+    "openalex": "",
+    "seed_terms": [],
+    "seed_flags": {},
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 2
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W3121565390",
+      "doi": "https://doi.org/10.1257/aer.90.4.806",
+      "title": "Population, Technology, and Growth: From Malthusian Stagnation to the Demographic Transition and Beyond",
+      "year": 2000,
+      "type": "article",
+      "venue": "American Economic Review",
+      "authors_first": "Oded Galor",
+      "cited_by": 2353,
+      "jaccard": 1.0,
+      "stem": false,
+      "stem_reversed": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted",
+      "non_study_type": false
+    },
+    "twins": [
+      {
+        "first_author_elsewhere_in_list": true,
+        "oa_id": "https://openalex.org/W3123056268",
+        "doi": null,
+        "title": "Population, Technology, and Growth: From Malthusian Stagnation to the Demographic Transition and Beyond",
+        "year": null,
+        "type": "preprint",
+        "venue": "RePEc: Research Papers in Economics",
+        "authors_first": "Oded Galor",
+        "cited_by": 0,
+        "jaccard": 1.0,
+        "stem": false,
+        "stem_reversed": false,
+        "first_author_ok": true,
+        "year_ok": false,
+        "score": 1.3,
+        "via": "filter_title_quoted",
+        "non_study_type": false
+      }
+    ],
+    "verdict": "MATCH"
+  },
+  {
+    "title": "Natural Selection and the Origin of Economic Growth",
+    "year": 2002,
+    "first_author": "Oded Galor",
+    "arm": "theory",
+    "direction": "THEORY",
+    "outcome_is_fertility": true,
+    "source": "hand",
+    "doi": "",
+    "openalex": "",
+    "seed_terms": [],
+    "seed_flags": {},
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 2
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W3121688017",
+      "doi": "https://doi.org/10.1162/003355302320935007",
+      "title": "Natural Selection and the Origin of Economic Growth",
+      "year": 2002,
+      "type": "article",
+      "venue": "The Quarterly Journal of Economics",
+      "authors_first": "Oded Galor",
+      "cited_by": 1,
+      "jaccard": 1.0,
+      "stem": false,
+      "stem_reversed": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted",
+      "non_study_type": false
+    },
+    "twins": [
+      {
+        "first_author_elsewhere_in_list": true,
+        "oa_id": "https://openalex.org/W2163169561",
+        "doi": "https://doi.org/10.2139/ssrn.246300",
+        "title": "Natural Selection and the Origin of Economic Growth",
+        "year": 2000,
+        "type": "preprint",
+        "venue": "SSRN Electronic Journal",
+        "authors_first": "Oded Galor",
+        "cited_by": 93,
+        "jaccard": 1.0,
+        "stem": false,
+        "stem_reversed": false,
+        "first_author_ok": true,
+        "year_ok": false,
+        "score": 1.3,
+        "via": "filter_title_quoted",
+        "non_study_type": false
+      }
+    ],
+    "verdict": "MATCH"
+  },
+  {
+    "title": "Accounting for Fertility Decline during the Transition to Growth",
+    "year": 2004,
+    "first_author": "Matthias Doepke",
+    "arm": "theory",
+    "direction": "THEORY",
+    "outcome_is_fertility": true,
+    "source": "hand",
+    "doi": "",
+    "openalex": "",
+    "seed_terms": [],
+    "seed_flags": {},
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 2
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W3122927652",
+      "doi": "https://doi.org/10.1023/b:joeg.0000038935.84627.e4",
+      "title": "Accounting for Fertility Decline During the Transition to Growth",
+      "year": 2004,
+      "type": "article",
+      "venue": "Journal of Economic Growth",
+      "authors_first": "Matthias Doepke",
+      "cited_by": 11,
+      "jaccard": 1.0,
+      "stem": false,
+      "stem_reversed": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted",
+      "non_study_type": false
+    },
+    "twins": [
+      {
+        "first_author_elsewhere_in_list": true,
+        "oa_id": "https://openalex.org/W2005150451",
+        "doi": "https://doi.org/10.2139/ssrn.279519",
+        "title": "Accounting for Fertility Decline During the Transition to Growth",
+        "year": 2001,
+        "type": "preprint",
+        "venue": "SSRN Electronic Journal",
+        "authors_first": "Matthias Doepke",
+        "cited_by": 145,
+        "jaccard": 1.0,
+        "stem": false,
+        "stem_reversed": false,
+        "first_author_ok": true,
+        "year_ok": false,
+        "score": 1.3,
+        "via": "filter_title_quoted",
+        "non_study_type": false
+      }
+    ],
+    "verdict": "MATCH"
+  },
+  {
+    "title": "The Baby Boom and Baby Bust",
+    "year": 2005,
+    "first_author": "Jeremy Greenwood",
+    "arm": "theory",
+    "direction": "THEORY",
+    "outcome_is_fertility": true,
+    "source": "hand",
+    "doi": "",
+    "openalex": "",
+    "seed_terms": [],
+    "seed_flags": {},
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 40
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W3122622865",
+      "doi": "https://doi.org/10.1257/0002828053828680",
+      "title": "The Baby Boom and Baby Bust",
+      "year": 2005,
+      "type": "article",
+      "venue": "American Economic Review",
+      "authors_first": "Jeremy Greenwood",
+      "cited_by": 240,
+      "jaccard": 1.0,
+      "stem": false,
+      "stem_reversed": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted",
+      "non_study_type": false
+    },
+    "twins": [],
+    "verdict": "MATCH"
+  },
+  {
+    "title": "Testing the Quantity-Quality Fertility Model: The Use of Twins as a Natural Experiment",
+    "year": 1980,
+    "first_author": "Mark Rosenzweig",
+    "arm": "backward",
+    "direction": "BACKWARD",
+    "outcome_is_fertility": false,
+    "source": "hand",
+    "doi": "",
+    "openalex": "",
+    "seed_terms": [],
+    "seed_flags": {},
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W1980801036",
+      "doi": "https://doi.org/10.2307/1912026",
+      "title": "Testing the Quantity-Quality Fertility Model: The Use of Twins as a Natural Experiment",
+      "year": 1980,
+      "type": "article",
+      "venue": "Econometrica",
+      "authors_first": "Mark R. Rosenzweig",
+      "cited_by": 716,
+      "jaccard": 1.0,
+      "stem": false,
+      "stem_reversed": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted",
+      "non_study_type": false
+    },
+    "twins": [],
+    "verdict": "MATCH"
+  },
+  {
+    "title": "The More the Merrier? The Effect of Family Size and Birth Order on Children's Education",
+    "year": 2005,
+    "first_author": "Sandra Black",
+    "arm": "backward",
+    "direction": "BACKWARD",
+    "outcome_is_fertility": false,
+    "source": "hand",
+    "doi": "",
+    "openalex": "",
+    "seed_terms": [],
+    "seed_flags": {},
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 2
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W2101535662",
+      "doi": "https://doi.org/10.1162/0033553053970179",
+      "title": "The More the Merrier? The Effect of Family Size and Birth Order on Children's Education*",
+      "year": 2005,
+      "type": "article",
+      "venue": "The Quarterly Journal of Economics",
+      "authors_first": "Sandra E. Black",
+      "cited_by": 1051,
+      "jaccard": 1.0,
+      "stem": false,
+      "stem_reversed": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted",
+      "non_study_type": false
+    },
+    "twins": [
+      {
+        "first_author_elsewhere_in_list": true,
+        "oa_id": "https://openalex.org/W2256191495",
+        "doi": "https://doi.org/10.1093/qje/120.2.669",
+        "title": "The More the Merrier? The Effect of Family Size and Birth Order on Children's Education",
+        "year": 2005,
+        "type": "article",
+        "venue": "The Quarterly Journal of Economics",
+        "authors_first": "Sandra E. Black",
+        "cited_by": 446,
+        "jaccard": 1.0,
+        "stem": false,
+        "stem_reversed": false,
+        "first_author_ok": true,
+        "year_ok": true,
+        "score": 1.5,
+        "via": "filter_title_quoted",
+        "non_study_type": false
+      }
+    ],
+    "verdict": "MATCH"
+  },
+  {
+    "title": "The Impacts of Family Size on Investment in Child Quality",
+    "year": 2006,
+    "first_author": "Julio Caceres-Delpiano",
+    "arm": "backward",
+    "direction": "BACKWARD",
+    "outcome_is_fertility": false,
+    "source": "hand",
+    "doi": "",
+    "openalex": "",
+    "seed_terms": [],
+    "seed_flags": {},
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W1839074416",
+      "doi": "https://doi.org/10.3368/jhr.xli.4.738",
+      "title": "The Impacts of Family Size on Investment in Child Quality",
+      "year": 2006,
+      "type": "article",
+      "venue": "The Journal of Human Resources",
+      "authors_first": "Julio C\u00e1ceres-Delpiano",
+      "cited_by": 244,
+      "jaccard": 1.0,
+      "stem": false,
+      "stem_reversed": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted",
+      "non_study_type": false
+    },
+    "twins": [],
+    "verdict": "MATCH"
+  },
+  {
+    "title": "The Quantity-Quality Trade-off of Children in a Developing Country: Identification Using Chinese Twins",
+    "year": 2008,
+    "first_author": "Hongbin Li",
+    "arm": "backward",
+    "direction": "BACKWARD",
+    "outcome_is_fertility": false,
+    "source": "hand",
+    "doi": "",
+    "openalex": "",
+    "seed_terms": [],
+    "seed_flags": {},
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W2119175127",
+      "doi": "https://doi.org/10.1353/dem.2008.0006",
+      "title": "The quantity-Quality trade-Off of children In a developing country: Identification using chinese twins",
+      "year": 2008,
+      "type": "article",
+      "venue": "Demography",
+      "authors_first": "Hongbin Li",
+      "cited_by": 349,
+      "jaccard": 1.0,
+      "stem": false,
+      "stem_reversed": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted",
+      "non_study_type": false
+    },
+    "twins": [],
+    "verdict": "MATCH"
+  },
+  {
+    "title": "Multiple Experiments for the Causal Link between the Quantity and Quality of Children",
+    "year": 2010,
+    "first_author": "Joshua Angrist",
+    "arm": "backward",
+    "direction": "BACKWARD",
+    "outcome_is_fertility": false,
+    "source": "hand",
+    "doi": "",
+    "openalex": "",
+    "seed_terms": [],
+    "seed_flags": {},
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 2
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W1953626533",
+      "doi": "https://doi.org/10.1086/653830",
+      "title": "Multiple Experiments for the Causal Link between the Quantity and Quality of Children",
+      "year": 2010,
+      "type": "article",
+      "venue": "Journal of Labor Economics",
+      "authors_first": "Joshua D. Angrist",
+      "cited_by": 538,
+      "jaccard": 1.0,
+      "stem": false,
+      "stem_reversed": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted",
+      "non_study_type": false
+    },
+    "twins": [
+      {
+        "first_author_elsewhere_in_list": true,
+        "oa_id": "https://openalex.org/W3123180928",
+        "doi": "https://doi.org/10.2139/ssrn.931948",
+        "title": "Multiple Experiments for the Causal Link between the Quantity and Quality of Children",
+        "year": 2006,
+        "type": "preprint",
+        "venue": "SSRN Electronic Journal",
+        "authors_first": "Joshua D. Angrist",
+        "cited_by": 1,
+        "jaccard": 1.0,
+        "stem": false,
+        "stem_reversed": false,
+        "first_author_ok": true,
+        "year_ok": false,
+        "score": 1.3,
+        "via": "filter_title_quoted",
+        "non_study_type": false
+      }
+    ],
+    "verdict": "MATCH"
+  },
+  {
+    "title": "Chronic Disease Burden and the Interaction of Education, Fertility, and Growth",
+    "year": 2009,
+    "first_author": "Hoyt Bleakley",
+    "arm": "forward",
+    "direction": "FORWARD",
+    "outcome_is_fertility": true,
+    "source": "hand",
+    "doi": "",
+    "openalex": "",
+    "seed_terms": [],
+    "seed_flags": {},
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 1
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W2023910919",
+      "doi": "https://doi.org/10.1162/rest.91.1.52",
+      "title": "Chronic Disease Burden and the Interaction of Education, Fertility, and Growth",
+      "year": 2009,
+      "type": "article",
+      "venue": "The Review of Economics and Statistics",
+      "authors_first": "Hoyt Bleakley",
+      "cited_by": 214,
+      "jaccard": 1.0,
+      "stem": false,
+      "stem_reversed": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted",
+      "non_study_type": false
+    },
+    "twins": [],
+    "verdict": "MATCH"
+  },
+  {
+    "title": "Fertility Transitions Along the Extensive and Intensive Margins",
+    "year": 2014,
+    "first_author": "Daniel Aaronson",
+    "arm": "forward",
+    "direction": "FORWARD",
+    "outcome_is_fertility": true,
+    "source": "hand",
+    "doi": "",
+    "openalex": "",
+    "seed_terms": [],
+    "seed_flags": {},
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 5
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W2152754212",
+      "doi": "https://doi.org/10.1257/aer.104.11.3701",
+      "title": "Fertility Transitions Along the Extensive and Intensive Margins",
+      "year": 2014,
+      "type": "article",
+      "venue": "American Economic Review",
+      "authors_first": "Daniel Aaronson",
+      "cited_by": 141,
+      "jaccard": 1.0,
+      "stem": false,
+      "stem_reversed": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted",
+      "non_study_type": false
+    },
+    "twins": [
+      {
+        "first_author_elsewhere_in_list": true,
+        "oa_id": "https://openalex.org/W2951482278",
+        "doi": "https://doi.org/10.2139/ssrn.2872262",
+        "title": "Fertility Transitions Along the Extensive and Intensive Margins",
+        "year": 2016,
+        "type": "preprint",
+        "venue": "SSRN Electronic Journal",
+        "authors_first": "Daniel Aaronson",
+        "cited_by": 3,
+        "jaccard": 1.0,
+        "stem": false,
+        "stem_reversed": false,
+        "first_author_ok": true,
+        "year_ok": false,
+        "score": 1.3,
+        "via": "filter_title_quoted",
+        "non_study_type": false
+      },
+      {
+        "first_author_elsewhere_in_list": true,
+        "oa_id": "https://openalex.org/W3124692224",
+        "doi": null,
+        "title": "Fertility transitions along the extensive and intensive margins",
+        "year": 2014,
+        "type": "preprint",
+        "venue": "RePEc: Research Papers in Economics",
+        "authors_first": "Daniel Aaronson",
+        "cited_by": 3,
+        "jaccard": 1.0,
+        "stem": false,
+        "stem_reversed": false,
+        "first_author_ok": true,
+        "year_ok": true,
+        "score": 1.5,
+        "via": "filter_title_quoted",
+        "non_study_type": false
+      }
+    ],
+    "verdict": "MATCH"
+  },
+  {
+    "title": "Human capital and the quantity-quality trade-off during the demographic transition",
+    "year": 2017,
+    "first_author": "Alan Fernihough",
+    "arm": "forward",
+    "direction": "FORWARD",
+    "outcome_is_fertility": true,
+    "source": "hand",
+    "doi": "",
+    "openalex": "",
+    "seed_terms": [],
+    "seed_flags": {},
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 2
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W2522483843",
+      "doi": "https://doi.org/10.1007/s10887-016-9138-3",
+      "title": "Human capital and the quantity\u2013quality trade-off during the demographic transition",
+      "year": 2016,
+      "type": "article",
+      "venue": "Journal of Economic Growth",
+      "authors_first": "Alan Fernihough",
+      "cited_by": 83,
+      "jaccard": 1.0,
+      "stem": false,
+      "stem_reversed": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted",
+      "non_study_type": false
+    },
+    "twins": [],
+    "verdict": "MATCH"
+  },
+  {
+    "title": "Fecundity, Fertility and the Formation of Human Capital",
+    "year": 2019,
+    "first_author": "Marc Klemp",
+    "arm": "forward",
+    "direction": "FORWARD",
+    "outcome_is_fertility": true,
+    "source": "hand",
+    "doi": "",
+    "openalex": "",
+    "seed_terms": [],
+    "seed_flags": {},
+    "queries": [
+      {
+        "mode": "filter_title_quoted",
+        "error": null,
+        "count": 2
+      }
+    ],
+    "top_candidate": {
+      "first_author_elsewhere_in_list": true,
+      "oa_id": "https://openalex.org/W2521735653",
+      "doi": "https://doi.org/10.1111/ecoj.12589",
+      "title": "Fecundity, Fertility and The Formation of Human Capital",
+      "year": 2018,
+      "type": "article",
+      "venue": "The Economic Journal",
+      "authors_first": "Marc Klemp",
+      "cited_by": 53,
+      "jaccard": 1.0,
+      "stem": false,
+      "stem_reversed": false,
+      "first_author_ok": true,
+      "year_ok": true,
+      "score": 1.5,
+      "via": "filter_title_quoted",
+      "non_study_type": false
+    },
+    "twins": [
+      {
+        "first_author_elsewhere_in_list": true,
+        "oa_id": "https://openalex.org/W3124830241",
+        "doi": null,
+        "title": "Fecundity, fertility and the formation of human capital",
+        "year": 2019,
+        "type": "preprint",
+        "venue": "RePEc: Research Papers in Economics",
+        "authors_first": "Marc Klemp",
+        "cited_by": 4,
+        "jaccard": 1.0,
+        "stem": false,
+        "stem_reversed": false,
+        "first_author_ok": true,
+        "year_ok": true,
+        "score": 1.5,
+        "via": "filter_title_quoted",
+        "non_study_type": false
+      }
+    ],
+    "verdict": "MATCH"
+  }
+]
