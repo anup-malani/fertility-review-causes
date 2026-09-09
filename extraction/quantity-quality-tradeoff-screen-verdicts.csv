@@ -1739,3 +1739,233 @@ C3D1610,BACKWARD,QQ_SUBSTITUTION,PANEL_FE,,CHILD_ATTAINMENT,false,HIGH,sibling e
 C3D1611,NA,OFF_TOPIC,NA,,NA,false,HIGH,siblings and divorce,hand
 C3D1612,FORWARD,MIXED_CHILD_PARENT_RETURN,NATURAL_EXPERIMENT,W2_PARENT_RETURN,FERTILITY,true,MED,duplicate of marrying young,hand
 C3D1613,NA,OFF_TOPIC,NA,,NA,false,HIGH,sprinkler control systems,hand
+C3D1614,NA,OFF_TOPIC,NA,,NA,true,MED,transitory earnings opportunities and educational scarring,hand
+C3D1615,NA,OFF_TOPIC,NA,,NA,true,MED,duplicate of educational scarring of men,hand
+C3D1617,FORWARD,THEORY,CALIBRATION,,FERTILITY,true,MED,journal version of optimal taxation with endogenous fertility,hand
+C3D1618,BACKWARD,QQ_SUBSTITUTION,CROSS_SECTION,,CHILD_ATTAINMENT,true,HIGH,fertility son-preference and the gender gap in test scores,hand
+C3D1619,NA,OFF_OTHER,CALIBRATION,,FERTILITY,true,MED,fertility subsidies and birth timing; C.2.d,hand
+C3D1620,FORWARD,THEORY,CALIBRATION,,FERTILITY,true,HIGH,SSRN copy of automation education and population,hand
+C3D1621,FORWARD,THEORY,CALIBRATION,,FERTILITY,true,MED,SSRN copy of robots jobs and optimal fertility timing,hand
+C3D1622,NA,OFF_OTHER,CALIBRATION,,NA,false,MED,growth intergenerational transfers and population ageing; A.9 and C.3.f,hand
+C3D1623,NA,OFF_OTHER,CALIBRATION,,NA,false,MED,automation and ageing; A.9,hand
+C3D1624,NA,OFF_TOPIC,NA,,NA,false,HIGH,agricultural mechanization,hand
+C3D1625,FORWARD,MIXED_CHILD_PARENT_RETURN,NATURAL_EXPERIMENT,W2_PARENT_RETURN,FERTILITY,true,HIGH,women's access to school attainment and fertility in Jordan; C.2.e,hand
+C3D1626,NA,OFF_TOPIC,NA,,NA,false,HIGH,computational intelligence in agriculture,hand
+C3D1652,NA,OFF_TOPIC,NA,,NA,false,HIGH,drug information services,hand
+C3D1654,NA,OFF_TOPIC,NA,,NA,false,HIGH,population ageing and employment,hand
+C3D1655,NA,OFF_TOPIC,NA,,NA,true,HIGH,parental discretion in school absence,hand
+C3D1656,NA,OFF_TOPIC,NA,,NA,false,HIGH,sustainable vegetable gardening,hand
+C3D1657,FORWARD,THEORY,REVIEW,,FERTILITY,false,MED,demographic transition and post-transition dynamics; a review,hand
+C3D1659,BACKWARD,QQ_SUBSTITUTION,PANEL_FE,W5_A12_TWINNING,CHILD_ATTAINMENT,false,HIGH,sibling patterns in the attainment of Hungarian twins,hand
+C3D1660,NA,OFF_TOPIC,NA,,NA,false,HIGH,ageing and worker displacement,hand
+C3D1661,NA,OFF_TOPIC,NA,,NA,false,HIGH,Russia's modern growth regime,hand
+C3D1662,NA,OFF_TOPIC,NA,,NA,false,HIGH,IoT precision agriculture,hand
+C3D1663,FORWARD,SHOCK_FERTILITY,DID,W4_INCOME,FERTILITY,true,HIGH,export shocks and fertility in China; a scope 7 row 1 design,hand
+C3D1665,NA,OFF_TOPIC,NA,,NA,false,HIGH,soil microbial biomass prediction,hand
+C3D1666,FORWARD,SHOCK_FERTILITY,DID,W2_PARENT_RETURN;W4_INCOME,FERTILITY,true,HIGH,input-trade liberalization female-skill intensity and fertility in China,hand
+C3D1668,FORWARD,MIXED_RETURN_POSITION,CALIBRATION,W1_POSITION,FERTILITY,false,HIGH,money child QQ tradeoff and growth with STATUS-SEEKING; C.2.f boundary in a model,hand
+C3D1669,FORWARD,THEORY,CALIBRATION,,FERTILITY,false,MED,child policies to boost child quality and quantity under PAYG pensions,hand
+C3D1670,NA,OFF_OTHER,CROSS_SECTION,,NA,false,MED,long-acting contraceptive use; A.5,hand
+C3D1671,NA,OFF_TOPIC,NA,,NA,false,HIGH,health insurance utilization in Indonesia,hand
+C3D1672,NA,OFF_TOPIC,NA,,NA,false,HIGH,hepatitis B knowledge in pregnancy,hand
+C3D1673,NA,OFF_OTHER,PANEL_FE,,FERTILITY,true,MED,air pollution and fertility in Thailand; B.2,hand
+C3D1674,FORWARD,THEORY,CALIBRATION,,FERTILITY,false,HIGH,journal version of automation education and population,hand
+C3D1675,NA,OFF_OTHER,CROSS_SECTION,,NA,false,MED,duplicate of returns to education in Turkey,hand
+C3D1676,BACKWARD,QQ_SUBSTITUTION,NATURAL_EXPERIMENT,,CHILD_ATTAINMENT,true,MED,television and children's human capital in China; C.2.h boundary,hand
+C3D1677,NA,OFF_TOPIC,NA,,NA,false,HIGH,poultry artificial insemination,hand
+C3D1678,NA,OFF_OTHER,CROSS_SECTION,,NA,false,MED,urbanization and family structure in Islamabad; C.2.g,hand
+C3D1679,NA,OFF_TOPIC,NA,,NA,false,HIGH,AI in rice production,hand
+C3D1680,NA,OFF_TOPIC,NA,,NA,false,HIGH,4Ps children's academic performance,hand
+C3D1681,NA,OFF_TOPIC,NA,,NA,false,HIGH,sperm detection after TESE,hand
+C3D1682,NA,OFF_TOPIC,NA,,NA,false,HIGH,internet subscription demand,hand
+C3D1683,NA,OFF_TOPIC,NA,,NA,false,HIGH,social mobility after higher education expansion,hand
+C3D1684,BACKWARD,QQ_SUBSTITUTION,CROSS_SECTION,,OTHER,true,HIGH,SSRN copy of birth order effects on child nutrition and resource dilution,hand
+C3D1686,NA,OFF_TOPIC,NA,,NA,false,HIGH,AI in fertility care access,hand
+C3D1687,BACKWARD,QQ_SUBSTITUTION,NATURAL_EXPERIMENT,,CHILD_ATTAINMENT,true,MED,intergenerational effects of sick leave on child human capital,hand
+C3D1688,FORWARD,THEORY,CALIBRATION,,FERTILITY,true,HIGH,fighting for resources; a unified growth model of the Great Divergence,hand
+C3D1689,NA,OFF_OTHER,REVIEW,W2_PARENT_RETURN,NA,false,MED,female labour force participation in Indonesia; C.2.e,hand
+C3D1691,NA,OFF_TOPIC,NA,,NA,false,HIGH,willingness to pay for pesticide-free vegetables,hand
+C3D1692,NA,OFF_TOPIC,NA,,NA,false,HIGH,ovarian ageing and mitochondria,hand
+C3D1693,NA,OFF_TOPIC,NA,,NA,false,HIGH,GIS and AI in soil study,hand
+C3D1694,NA,OFF_TOPIC,NA,,NA,false,HIGH,speculative design on automated care,hand
+C3D1695,NA,OFF_OTHER,CROSS_SECTION,W1_POSITION,FERTILITY,false,MED,AI and fertility; gender and educational inequalities in family formation,hand
+C3D1696,NA,OFF_OTHER,CROSS_SECTION,W5_A12_TWINNING,FERTILITY,false,MED,conceptive risk-taking and twins from medically assisted reproduction; A.17,hand
+C3D1697,NA,OFF_TOPIC,NA,,NA,false,HIGH,invasive species and greening,hand
+C3D1698,NA,OFF_TOPIC,NA,,NA,false,HIGH,nursing education evolution,hand
+C3D1699,NA,OFF_TOPIC,NA,,NA,false,HIGH,Italy's demographic shift and innovation,hand
+C3D1700,FORWARD,THEORY,CALIBRATION,,FERTILITY,false,MED,fertility behaviour in school finance policy design,hand
+C3D1701,FORWARD,THEORY,CALIBRATION,,FERTILITY,false,MED,public education endogenous fertility and growth in an OLG model,hand
+C3D1702,NA,OFF_TOPIC,NA,,NA,false,LOW,essays in empirical labour economics,hand
+C3D1703,FORWARD,THEORY,CALIBRATION,,FERTILITY,false,HIGH,endogenous fertility and human capital investment,hand
+C3D1704,FORWARD,THEORY,CALIBRATION,,FERTILITY,false,HIGH,the QQ trade-off and public provision of education,hand
+C3D1705,NA,OFF_OTHER,NATURAL_EXPERIMENT,,CHILD_ATTAINMENT,true,MED,SSRN copy of universal pre-primary expansion in Argentina; C.2.a,hand
+C3D1706,FORWARD,MIXED_RETURN_POSITION,CALIBRATION,W1_POSITION,FERTILITY,true,HIGH,education fever; inequality fertility and growth; C.2.f boundary,hand
+C3D1707,NA,OFF_OTHER,REVIEW,,NA,false,MED,vasectomy attitudes in Ethiopia; A.5,hand
+C3D1708,NA,OFF_TOPIC,NA,,NA,false,HIGH,electrical appliance adoption,hand
+C3D1709,NA,OFF_TOPIC,NA,,NA,false,HIGH,chronic liver disease prevention,hand
+C3D1710,NA,OFF_TOPIC,NA,,NA,true,HIGH,digital twins in agriculture,hand
+C3D1711,FORWARD,MIXED_RETURN_POSITION,CALIBRATION,W1_POSITION,FERTILITY,false,HIGH,education fever applied to China; demand for education inequality and fertility; C.2.f boundary,hand
+C3D1712,FORWARD,RETURN_ASSOCIATION,CROSS_SECTION,W4_INCOME,FERTILITY,false,MED,socioeconomic status and fertility behaviour in Enugu State,hand
+C3D1713,NA,OFF_TOPIC,NA,,NA,false,HIGH,library resource utilization,hand
+C3D1714,FORWARD,MIXED_RETURN_POSITION,PANEL_FE,W1_POSITION,FERTILITY,false,HIGH,expansion of SHADOW EDUCATION status externalities and fertility intentions; C.2.f's estimand,hand
+C3D1715,NA,OFF_TOPIC,NA,,NA,false,HIGH,sports development programme,hand
+C3D1716,NA,OFF_TOPIC,NA,,NA,false,HIGH,digital agricultural knowledge management,hand
+C3D1717,NA,OFF_TOPIC,NA,,NA,false,HIGH,siblings and psychotropic medication after parental death,hand
+C3D1718,NA,OFF_TOPIC,NA,,NA,false,HIGH,numeracy intervention programme,hand
+C3D1719,NA,OFF_TOPIC,NA,,NA,false,HIGH,improved chicken keeping,hand
+C3D1720,NA,OFF_TOPIC,NA,,NA,false,HIGH,advanced maternal age and childhood allergy,hand
+C3D1721,NA,OFF_OTHER,IV,,OTHER,false,MED,delayed childbearing and child gender diversity; the tempo chapter,hand
+C3D1722,NA,OFF_TOPIC,NA,,NA,false,HIGH,digital transformation and remote work,hand
+C3D1723,NA,OFF_TOPIC,NA,,NA,true,HIGH,variety-specific wheat fertilization,hand
+C3D1724,BACKWARD,QQ_SUBSTITUTION,REVIEW,,INVESTMENT_PER_CHILD,true,MED,termination of parental investment; evolutionary,hand
+C3D1725,BACKWARD,QQ_SUBSTITUTION,PANEL_FE,W6_MORTALITY,CHILD_ATTAINMENT,true,MED,health shocks and children's human capital in rural China,hand
+C3D1726,FORWARD,PERCEIVED_RETURN,CROSS_SECTION,,FERTILITY,false,HIGH,perceived VALUE OF CHILDREN and fertility behaviour by sibship size; C.3.f boundary,hand
+C3D1727,FORWARD,THEORY,CALIBRATION,,FERTILITY,true,MED,optimal family policy when quantity and quality of children are stochastic,hand
+C3D1728,FORWARD,THEORY,CALIBRATION,,FERTILITY,true,MED,SSRN copy of optimal family policy with stochastic quantity and quality,hand
+C3D1729,NA,OFF_OTHER,DID,W4_INCOME,CHILD_ATTAINMENT,true,MED,trade shocks and human capital in Brazil; outcome is human capital not fertility,hand
+C3D1730,BACKWARD,QQ_SUBSTITUTION,CROSS_SECTION,,CHILD_ATTAINMENT,false,HIGH,sibling structure birth order and spacing on educational achievement,hand
+C3D1731,NA,OFF_TOPIC,NA,,NA,true,HIGH,legislation and politics of education,hand
+C3D1732,NA,OFF_TOPIC,NA,,NA,false,HIGH,deferral of compulsory schooling in Zlin,hand
+C3D1733,FORWARD,MIXED_CHILD_PARENT_RETURN,PANEL_FE,W2_PARENT_RETURN,FERTILITY,false,HIGH,gender-specific effects of education on the transition to parenthood,hand
+C3D1734,NA,OFF_TOPIC,NA,,NA,false,HIGH,home automation for senior citizens,hand
+C3D1735,BACKWARD,QQ_SUBSTITUTION,DESCRIPTIVE,,INVESTMENT_PER_CHILD,true,MED,education as the primary parental investment in the contemporary USA,hand
+C3D1737,NA,OFF_TOPIC,NA,,NA,false,LOW,three essays on education in Oromia,hand
+C3D1738,BACKWARD,QQ_SUBSTITUTION,IV,,CHILD_ATTAINMENT,false,MED,three essays on children's wellbeing in developing countries,hand
+C3D1739,BACKWARD,QQ_SUBSTITUTION,CROSS_SECTION,,INVESTMENT_PER_CHILD,false,MED,testing economic models of household resource allocation,hand
+C3D1741,FORWARD,RETURN_ASSOCIATION,PANEL_FE,,OTHER,false,MED,differential returns to education by cognitive ability; the return series without a fertility outcome,hand
+C3D1742,FORWARD,THEORY,CALIBRATION,,FERTILITY,false,MED,corruption endogenous fertility and growth,hand
+C3D1743,BACKWARD,QQ_SUBSTITUTION,CROSS_SECTION,,CHILD_ATTAINMENT,false,MED,pupils' performance and self-esteem by position in family,hand
+C3D1744,FORWARD,THEORY,CALIBRATION,,FERTILITY,true,HIGH,duplicate of from stagnation to growth; unified growth theory,hand
+C3D1745,NA,OFF_TOPIC,NA,,NA,false,HIGH,school fee reduction project case study,hand
+C3D1746,BACKWARD,QQ_SUBSTITUTION,IV,,INVESTMENT_PER_CHILD,true,HIGH,family size and children's quality with new exogenous shocks in Colombia,hand
+C3D1747,FORWARD,THEORY,CALIBRATION,W1_POSITION,FERTILITY,false,MED,wealth composition endogenous fertility and income inequality dynamics; C.2.f boundary,hand
+C3D1748,BACKWARD,QQ_SUBSTITUTION,IV,,OTHER,false,HIGH,fertility and the health of children; a nonparametric LATE estimator,hand
+C3D1749,BACKWARD,QQ_SUBSTITUTION,PANEL_FE,W6_MORTALITY,INVESTMENT_PER_CHILD,false,HIGH,cohort composition and child investment in sub-Saharan Africa,hand
+C3D1750,BACKWARD,QQ_SUBSTITUTION,NATURAL_EXPERIMENT,,CHILD_ATTAINMENT,false,HIGH,duplicate of Qian's one-child policy only-child disadvantage,hand
+C3D1751,NA,OFF_OTHER,NATURAL_EXPERIMENT,W2_PARENT_RETURN;W7_SCHOOLING_LAW,CHILD_ATTAINMENT,false,HIGH,does human capital transfer from parent to child; compulsory schooling; A.19 and C.2.e,hand
+C3D1752,NA,OFF_TOPIC,NA,,NA,false,HIGH,poverty and educational attainment in Africa,hand
+C3D1753,NA,OFF_OTHER,CROSS_SECTION,,FERTILITY,false,MED,own sibship size and desired number of children; A.19 transmission,hand
+C3D1754,BACKWARD,QQ_SUBSTITUTION,IV,,CHILD_ATTAINMENT,false,HIGH,is the QQ trade-off a trade-off for all none or some,hand
+C3D1755,NA,OFF_TOPIC,NA,,NA,false,MED,determinants of human capital among Canadian youth,hand
+C3D1756,BACKWARD,QQ_SUBSTITUTION,IV,,INVESTMENT_PER_CHILD,false,HIGH,birth order and sibling sex composition on human capital investment in India,hand
+C3D1758,FORWARD,THEORY,CALIBRATION,,FERTILITY,false,MED,explaining movements in completed fertility across cohorts; a life-cycle model; C.6.a boundary,hand
+C3D1759,FORWARD,THEORY,CALIBRATION,,FERTILITY,false,MED,optimal population and education,hand
+C3D1760,FORWARD,THEORY,CALIBRATION,,FERTILITY,true,MED,multiple growth regimes; insights from unified growth theory,hand
+C3D1761,FORWARD,MIXED_CHILD_PARENT_RETURN,NATURAL_EXPERIMENT,W2_PARENT_RETURN;W7_SCHOOLING_LAW,FERTILITY,false,HIGH,RePEc copy of more schooling more children,hand
+C3D1762,FORWARD,THEORY,CALIBRATION,,FERTILITY,true,MED,the dual economy in long-run development,hand
+C3D1763,NA,OFF_OTHER,CALIBRATION,W7_SCHOOLING_LAW,NA,false,MED,a theory of the emergence of compulsory education laws; Alexandra's chapter,hand
+C3D1764,NA,OFF_TOPIC,NA,,NA,true,HIGH,globalisation population and ecology,hand
+C3D1765,FORWARD,PERCEIVED_RETURN,CROSS_SECTION,,FERTILITY,false,HIGH,perceived value of children and fertility behaviour in Odisha; C.3.f boundary,hand
+C3D1766,NA,OFF_TOPIC,NA,,NA,false,MED,non-contractibilities in the household,hand
+C3D1767,BACKWARD,QQ_SUBSTITUTION,IV,,CHILD_ATTAINMENT,false,HIGH,sibship size birth order and children's education in Bangladesh,hand
+C3D1768,NA,OFF_TOPIC,NA,,NA,false,HIGH,maize nutrient management,hand
+C3D1769,BACKWARD,QQ_SUBSTITUTION,PANEL_FE,,OTHER,true,MED,parental investment and transmission of economic preferences; A.19,hand
+C3D1770,NA,OFF_OTHER,REVIEW,,FERTILITY,false,MED,culture and fertility in Thailand; D.1.a,hand
+C3D1771,BACKWARD,QQ_SUBSTITUTION,IV,,OTHER,false,HIGH,costs of family size beyond child investment in developing countries,hand
+C3D1772,NA,OFF_TOPIC,NA,,NA,false,LOW,essays on population ageing and fiscal policy,hand
+C3D1773,BACKWARD,QQ_SUBSTITUTION,DESCRIPTIVE,,INVESTMENT_PER_CHILD,true,MED,evolutionary history of parental investment and stratification,hand
+C3D1774,NA,OFF_TOPIC,NA,,NA,false,LOW,essays in development and labour economics,hand
+C3D1775,NA,OFF_OTHER,PANEL_FE,,FERTILITY,false,MED,parenthood decisions and family structure transformation; D.2.b,hand
+C3D1776,NA,OFF_OTHER,DESCRIPTIVE,,NA,false,MED,cost-benefit ratio of raising children; C.2.b,hand
+C3D1777,NA,OFF_OTHER,IV,,FERTILITY,false,MED,an additional sibling on completed fertility; A.19 transmission,hand
+C3D1778,NA,OFF_OTHER,DESCRIPTIVE,W2_PARENT_RETURN,INVESTMENT_PER_CHILD,false,MED,changing patterns of educational investment for women in Japan,hand
+C3D1779,NA,OFF_TOPIC,NA,,NA,false,MED,why women's university enrolment is low in Japan,hand
+C3D1780,NA,OFF_TOPIC,NA,,NA,false,LOW,essays in empirical microeconomics,hand
+C3D1781,FORWARD,THEORY,CALIBRATION,W2_PARENT_RETURN,FERTILITY,false,HIGH,gender inequality technological progress and the demographic transition,hand
+C3D1782,NA,OFF_TOPIC,NA,,NA,false,HIGH,measuring minority children's intelligence,hand
+C3D1783,FORWARD,THEORY,CALIBRATION,,FERTILITY,false,HIGH,extending Galor-Weil; the evolution of population technology and output,hand
+C3D1784,BACKWARD,QQ_SUBSTITUTION,NATURAL_EXPERIMENT,,INVESTMENT_PER_CHILD,false,HIGH,pension coverage for parents and educational investment in urban China; C.3.c boundary,hand
+C3D1785,FORWARD,THEORY,CALIBRATION,,FERTILITY,true,MED,family allowances and fertility-related pensions; C.2.d and C.3.c,hand
+C3D1786,NA,OFF_TOPIC,NA,,NA,false,HIGH,social investment policy comment,hand
+C3D1787,BACKWARD,QQ_SUBSTITUTION,IV,,CHILD_ATTAINMENT,false,HIGH,does a QQ trade-off exist in Malaysia,hand
+C3D1788,FORWARD,THEORY,CALIBRATION,,FERTILITY,false,MED,poverty altruism and economic growth,hand
+C3D1789,NA,OFF_TOPIC,NA,,NA,false,HIGH,urban education crisis,hand
+C3D1790,NA,OFF_TOPIC,NA,,NA,true,HIGH,multi-partner fertility and grandparental investment,hand
+C3D1791,NA,OFF_OTHER,CROSS_SECTION,W5_A12_TWINNING,FERTILITY,false,HIGH,parity progression and lifetime fertility in mothers of twins; A.12's estimand,hand
+C3D1792,NA,OFF_TOPIC,NA,,NA,false,HIGH,book review on modern motherhood,hand
+C3D1793,NA,OFF_TOPIC,NA,,NA,false,HIGH,human courtship and the parental investment model,hand
+C3D1794,NA,OFF_OTHER,PANEL_FE,W2_PARENT_RETURN,FERTILITY,false,MED,educational differences in completed fertility among Finnish twins; A.18,hand
+C3D1795,NA,OFF_TOPIC,NA,,NA,false,HIGH,automated sperm nuclei measurement,hand
+C3D1796,NA,OFF_TOPIC,NA,,NA,false,HIGH,monozygotic twin differences by chorion type,hand
+C3D1797,NA,OFF_TOPIC,NA,,NA,false,HIGH,stem cell biology conference,hand
+C3D1798,NA,OFF_TOPIC,NA,,NA,false,HIGH,grandparental investment and reproductive timing,hand
+C3D1799,NA,OFF_TOPIC,NA,,NA,false,HIGH,grandparental investment and work-family harmonization,hand
+C3D1800,NA,OFF_OTHER,DESCRIPTIVE,W5_A12_TWINNING,NA,true,MED,nulliparity fertility treatments and twins; A.17 and A.12,hand
+C3D1801,NA,OFF_TOPIC,NA,,NA,false,HIGH,crop residue and soil organic matter,hand
+C3D1802,FORWARD,RETURN_ASSOCIATION,PANEL_FE,W4_INCOME,FERTILITY,true,HIGH,Malthus to modernity; wealth status and fertility in England 1500-1879; FDT window,hand
+C3D1803,BACKWARD,QQ_SUBSTITUTION,CROSS_SECTION,,CHILD_ATTAINMENT,false,HIGH,Thai children from small families attain more education,hand
+C3D1804,BACKWARD,QQ_SUBSTITUTION,PANEL_FE,,CHILD_ATTAINMENT,false,HIGH,fertility limitation and intergenerational social mobility; the QQ trade-off in the transition,hand
+C3D1805,NA,OFF_TOPIC,NA,,NA,false,HIGH,trade and food policy editorial,hand
+C3D1806,NA,OFF_TOPIC,NA,,NA,false,HIGH,duplicate of maternal employment and school readiness,hand
+C3D1807,NA,OFF_TOPIC,NA,,NA,true,HIGH,level of national intelligence,hand
+C3D1808,NA,OFF_TOPIC,NA,,NA,true,HIGH,Trivers-Willard hypothesis,hand
+C3D1809,BACKWARD,QQ_SUBSTITUTION,CROSS_SECTION,,OTHER,true,MED,differential fecundity and gender-biased parental investment in health,hand
+C3D1810,NA,OFF_TOPIC,NA,,NA,false,HIGH,female-biased parental investment among the Mukogodo,hand
+C3D1811,NA,OFF_TOPIC,NA,,NA,false,HIGH,pesticides in British food production,hand
+C3D1812,NA,OFF_TOPIC,NA,,NA,false,HIGH,stillbirth rates in multiples,hand
+C3D1813,NA,OFF_TOPIC,NA,,NA,false,HIGH,maternal and child health policy in India,hand
+C3D1814,NA,OFF_OTHER,CROSS_SECTION,W5_A12_TWINNING,FERTILITY,false,MED,fertility and longevity in twins and their parents; A.12,hand
+C3D1815,NA,OFF_OTHER,DESCRIPTIVE,W5_A12_TWINNING,NA,false,HIGH,how fertility-treatment twins bias twin studies; a methods caution for this chapter's instrument,hand
+C3D1816,BACKWARD,QQ_SUBSTITUTION,CROSS_SECTION,,CHILD_ATTAINMENT,false,HIGH,birth order and intellectual development; cross-cultural test of the confluence model,hand
+C3D1817,BACKWARD,QQ_SUBSTITUTION,CROSS_SECTION,,CHILD_ATTAINMENT,false,HIGH,is the sibship size-intellectual development relationship causal,hand
+C3D1818,NA,OFF_TOPIC,NA,,NA,false,HIGH,grandparental investment framework,hand
+C3D1819,NA,OFF_TOPIC,NA,,NA,true,HIGH,grandparental investment by grandchild sex,hand
+C3D1820,FORWARD,THEORY,CALIBRATION,,FERTILITY,true,MED,social security and endogenous fertility; pensions and child allowances,hand
+C3D1821,NA,OFF_OTHER,CROSS_SECTION,W5_A12_TWINNING,FERTILITY,false,MED,familial twinning and fertility in Dutch mothers of twins; A.12,hand
+C3D1822,NA,OFF_OTHER,CROSS_SECTION,W5_A12_TWINNING,FERTILITY,false,MED,fertility pattern of twins vs the general population; A.12,hand
+C3D1823,BACKWARD,QQ_SUBSTITUTION,CROSS_SECTION,,CHILD_ATTAINMENT,true,MED,sibling spacing and intellectual development; confluence models,hand
+C3D1824,BOTH,QQ_SUBSTITUTION,CALIBRATION,,INVESTMENT_PER_CHILD,false,HIGH,a theory of fertility and parental investment in traditional and modern societies,hand
+C3D1825,NA,OFF_TOPIC,NA,,NA,false,LOW,essays in private and public human capital investment,hand
+C3D1826,NA,OFF_OTHER,CROSS_SECTION,W5_A12_TWINNING,FERTILITY,false,MED,correlation of fecundability among twins; A.18 and A.12,hand
+C3D1827,NA,OFF_TOPIC,NA,,NA,false,HIGH,twins discordant for bipolar disorder,hand
+C3D1828,NA,OFF_TOPIC,NA,,NA,false,HIGH,development of ART-conceived twins,hand
+C3D1829,BACKWARD,QQ_SUBSTITUTION,CALIBRATION,,CHILD_ATTAINMENT,false,HIGH,the QQ trade-off applied to rural households via the Kremer-Chen model,hand
+C3D1830,NA,OFF_TOPIC,NA,,NA,false,HIGH,book review on youth leisure,hand
+C3D1831,BACKWARD,QQ_SUBSTITUTION,CROSS_SECTION,,CHILD_ATTAINMENT,false,HIGH,adjusting for selection bias in sibship size and cognitive performance,hand
+C3D1832,BACKWARD,QQ_SUBSTITUTION,CROSS_SECTION,,CHILD_ATTAINMENT,true,HIGH,sibship size and education in South Africa,hand
+C3D1833,NA,OFF_TOPIC,NA,,NA,true,HIGH,biased parental investment among Gabbra pastoralists,hand
+C3D1834,NA,OFF_TOPIC,NA,,NA,false,HIGH,authoritarian family ideology,hand
+C3D1835,FORWARD,THEORY,REVIEW,,FERTILITY,false,MED,population and growth from Malthus to endogenous population models,hand
+C3D1836,BOTH,QQ_SUBSTITUTION,CROSS_SECTION,,INVESTMENT_PER_CHILD,false,HIGH,fertility parental investment and early contraceptive adoption in rural Ethiopia,hand
+C3D1837,BACKWARD,QQ_SUBSTITUTION,CROSS_SECTION,,CHILD_ATTAINMENT,true,HIGH,birth order sibship size and status in modern Canada,hand
+C3D1838,NA,OFF_TOPIC,NA,,NA,false,HIGH,ART twins and preterm birth,hand
+C3D1839,BACKWARD,QQ_SUBSTITUTION,NATURAL_EXPERIMENT,,INVESTMENT_PER_CHILD,false,HIGH,citizenship fertility and parental investments,hand
+C3D1840,BACKWARD,QQ_SUBSTITUTION,CROSS_SECTION,,INVESTMENT_PER_CHILD,true,HIGH,resources fertility and parental investment in Mao's China,hand
+C3D1841,NA,OFF_TOPIC,NA,,NA,true,HIGH,parental investment and mate desertion,hand
+C3D1842,NA,OFF_TOPIC,NA,,NA,false,HIGH,mate selection preferences,hand
+C3D1843,NA,OFF_TOPIC,NA,,NA,false,HIGH,grandparental investment in Japan,hand
+C3D1844,BACKWARD,QQ_SUBSTITUTION,CROSS_SECTION,,CHILD_ATTAINMENT,true,HIGH,public policy and the sibship-size effect on achievement across 20 countries,hand
+C3D1845,NA,OFF_TOPIC,NA,,NA,false,HIGH,twin birth rate in Irish cattle,hand
+C3D1846,NA,OFF_TOPIC,NA,,NA,true,HIGH,paternity confidence and investment in children,hand
+C3D1847,NA,OFF_TOPIC,NA,,NA,false,HIGH,local mate competition in social insects,hand
+C3D1848,NA,OFF_OTHER,DESCRIPTIVE,,FERTILITY,false,MED,Colombian fertility rates,hand
+C3D1849,FORWARD,MIXED_CHILD_PARENT_RETURN,IV,W2_PARENT_RETURN;W5_A12_TWINNING,FERTILITY,true,HIGH,do more-schooled women have fewer children; US twins; C.2.e,hand
+C3D1850,NA,OFF_TOPIC,NA,,NA,false,HIGH,obituary,hand
+C3D1851,NA,OFF_TOPIC,NA,,NA,false,HIGH,teacher education in northeast India,hand
+C3D1852,NA,OFF_OTHER,PANEL_FE,,CHILD_ATTAINMENT,false,MED,return migration investment in children and mobility; A.19,hand
+C3D1853,BOTH,THEORY,CALIBRATION,,NA,true,HIGH,signs of compensated price effects in quantity/quality models; the Rosenzweig-Wolpin theory thread,hand
+C3D1855,NA,OFF_TOPIC,NA,,NA,false,HIGH,livestock fertility technical assistance,hand
+C3D1856,NA,OFF_TOPIC,NA,,NA,false,HIGH,pregnancy outcomes in subfertility-treatment twins,hand
+C3D1857,FORWARD,THEORY,CALIBRATION,,FERTILITY,true,HIGH,from stagnation to growth; revisiting three historical regimes,hand
+C3D1858,NA,OFF_TOPIC,NA,,NA,false,HIGH,seasonality in twin birth rates,hand
+C3D1859,NA,OFF_OTHER,CROSS_SECTION,W5_A12_TWINNING,FERTILITY,false,MED,childbearing patterns of Swedish mothers of twins; A.12,hand
+C3D1860,NA,OFF_TOPIC,NA,,NA,false,HIGH,discriminative grandparental investment,hand
+C3D1861,BACKWARD,QQ_SUBSTITUTION,CROSS_SECTION,,CHILD_ATTAINMENT,false,HIGH,sibling struggle for schooling; resource dilution in the Netherlands 1850-1920; FDT window,hand
+C3D1862,BACKWARD,QQ_SUBSTITUTION,CALIBRATION,,INVESTMENT_PER_CHILD,false,MED,how an equity motive in parental investment produces inequality,hand
+C3D1863,BACKWARD,QQ_SUBSTITUTION,PANEL_FE,W6_MORTALITY,CHILD_ATTAINMENT,false,MED,orphanhood and critical periods in human capital formation,hand
+C3D1864,BACKWARD,QQ_SUBSTITUTION,IV,,OTHER,false,MED,family size and parental health production in Indonesia,hand
+C3D1865,FORWARD,RETURN_FERTILITY,CROSS_SECTION,W2_PARENT_RETURN,FERTILITY,false,HIGH,skill level and the timing and number of children; the return is the exposure,hand
+C3D1866,BACKWARD,QQ_SUBSTITUTION,CROSS_SECTION,,INVESTMENT_PER_CHILD,false,HIGH,do human parents face a quantity-quality tradeoff; Shuar evidence,hand
+C3D1867,BACKWARD,QQ_SUBSTITUTION,CROSS_SECTION,,CHILD_ATTAINMENT,false,HIGH,sibship size birth order and sex composition on enrolment in urban Turkey,hand
+C3D1868,NA,OFF_TOPIC,NA,,NA,false,HIGH,siblings and divorce likelihood,hand
+C3D1869,NA,OFF_OTHER,CROSS_SECTION,,FERTILITY,false,MED,grandparental investment and mothers' fertility intentions,hand
+C3D1870,BACKWARD,QQ_SUBSTITUTION,IV,,INVESTMENT_PER_CHILD,true,HIGH,sibling size and investment in children's education; an Asian instrument,hand
+C3D1871,NA,OFF_TOPIC,NA,,NA,false,HIGH,dowries in medieval Florence,hand
+C3D1872,NA,OFF_OTHER,CROSS_SECTION,,FERTILITY,false,MED,gender preference and childbearing intention; D.2.c,hand
+C3D1873,NA,OFF_TOPIC,NA,,NA,false,HIGH,parental investment and sex ratios in evolutionary biology,hand
+C3D1874,NA,OFF_TOPIC,NA,,NA,false,HIGH,vitrification machine design,hand
+C3D1875,BACKWARD,QQ_SUBSTITUTION,CROSS_SECTION,,INVESTMENT_PER_CHILD,false,HIGH,parental educational investment and academic risk by sibship size and birth order,hand
+C3D1876,BACKWARD,QQ_SUBSTITUTION,CROSS_SECTION,,CHILD_ATTAINMENT,true,MED,validating the confluence model,hand
+C3D1877,BACKWARD,QQ_SUBSTITUTION,CROSS_SECTION,,OTHER,false,MED,intergenerational transfers and the number of siblings; C.3.f boundary,hand
+C3D1878,BACKWARD,QQ_SUBSTITUTION,CROSS_SECTION,,INVESTMENT_PER_CHILD,false,HIGH,child gender and parental investment in India; D.2.c boundary,hand
+C3D1879,NA,OFF_TOPIC,NA,,NA,false,HIGH,school education among the Qiang,hand
