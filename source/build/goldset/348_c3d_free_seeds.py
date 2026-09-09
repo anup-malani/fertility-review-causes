@@ -102,8 +102,25 @@ REQUIRE_OUTCOME = {"family-size instrument", "skill shock", "schooling reform", 
 # the 43 sit under the single word "fertility". Small, so the filter is kept NARROW — a wide
 # agricultural filter would delete the historical-agriculture records this chapter's FDT arm runs on
 # (`filter-can-delete-your-own-method-canon`: a species filter flagged A.18's own method canon).
+#
+# BREED NAMES ADDED 2026-09-09, and the route by which the gap was found is the point. The blinded
+# depth probe (354/355) routed "Genetics of twin birth rate in German Holstein and options for
+# breeding" to OFF_TOPIC. It was in the GOLD KEY -- 349 had made it a control -- so it scored as the
+# screen's only sensitivity miss. It is not a miss: the screen was right and the gold was wrong.
+# The record reached the seed table because it matched `family-size instrument` on "twin birth" and
+# cleared the outcome tier on "birth rate", and this filter had `dairy (cow|cattle)` and `livestock`
+# but no BREED NAME. `blinded-screen-audits-the-anchors`: on A.23 the blinded screen corrected three
+# anchors the exposure audit had already missed, and it has now done the same here.
+#
+# NOT RE-RUN ON THIS CHAPTER. `screen_id` is the record's position in the citation-ranked universe,
+# so re-running 348 would renumber every id and invalidate 150 hand-screened verdicts to remove one
+# bad control out of 82. The defect is recorded, the regex is fixed for the next chapter, and the
+# single affected row is annotated in the probe score instead.
 DROP = re.compile(r"soil fertilit|crop yield|grain yield|fertili[sz]er|\blivestock\b|dairy (cow|cattle)|"
-                  r"broiler|silage|semen quality|agronomic|sperm (quality|motility)", re.I)
+                  r"broiler|silage|semen quality|agronomic|sperm (quality|motility)|"
+                  r"\bHolstein\b|\bHereford\b|\bAngus\b|\bJersey (cow|cattle)\b|\bsow(s)?\b|"
+                  r"\bewe(s)?\b|\bheifer|\bcalving\b|\bpiglet|\blitter size\b|\bbovine\b|"
+                  r"\bovine\b|\bporcine\b|\bpoultry\b|breeding value", re.I)
 
 # THE flag of this chapter (scope §2). BACKWARD = family size is the EXPOSURE and a child outcome is
 # the DEPENDENT variable. The registry's own cited evidence (Black-Devereux-Salvanes) is backward.

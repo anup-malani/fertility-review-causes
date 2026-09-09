@@ -1,0 +1,212 @@
+{
+  "n_screened": 150,
+  "primary": 8,
+  "in_scope": 56,
+  "strata": [
+    {
+      "stratum": 1,
+      "n": 25,
+      "verdicts": 25,
+      "missing_verdict": [],
+      "primary": 0,
+      "in_scope": 14,
+      "off_topic": 11,
+      "backward": 7,
+      "forward": 6,
+      "cells": {
+        "THEORY": 4,
+        "OFF_TOPIC": 11,
+        "QQ_SUBSTITUTION": 7,
+        "RETURN_ASSOCIATION": 2,
+        "MIXED_CHILD_PARENT_RETURN": 1
+      }
+    },
+    {
+      "stratum": 2,
+      "n": 25,
+      "verdicts": 25,
+      "missing_verdict": [],
+      "primary": 3,
+      "in_scope": 16,
+      "off_topic": 9,
+      "backward": 9,
+      "forward": 7,
+      "cells": {
+        "SHOCK_FERTILITY": 2,
+        "QQ_SUBSTITUTION": 9,
+        "OFF_TOPIC": 9,
+        "THEORY": 1,
+        "MIXED_CHILD_PARENT_RETURN": 2,
+        "RETURN_ASSOCIATION": 1,
+        "RETURN_FERTILITY": 1
+      }
+    },
+    {
+      "stratum": 3,
+      "n": 25,
+      "verdicts": 25,
+      "missing_verdict": [],
+      "primary": 2,
+      "in_scope": 7,
+      "off_topic": 17,
+      "backward": 5,
+      "forward": 2,
+      "cells": {
+        "QQ_SUBSTITUTION": 5,
+        "OFF_TOPIC": 17,
+        "UNCLEAR": 1,
+        "SHOCK_FERTILITY": 2
+      }
+    },
+    {
+      "stratum": 4,
+      "n": 25,
+      "verdicts": 25,
+      "missing_verdict": [],
+      "primary": 2,
+      "in_scope": 5,
+      "off_topic": 18,
+      "backward": 1,
+      "forward": 4,
+      "cells": {
+        "RETURN_FERTILITY": 1,
+        "OFF_TOPIC": 18,
+        "OFF_OTHER": 2,
+        "SHOCK_FERTILITY": 1,
+        "THEORY": 2,
+        "QQ_SUBSTITUTION": 1
+      }
+    },
+    {
+      "stratum": 5,
+      "n": 25,
+      "verdicts": 25,
+      "missing_verdict": [],
+      "primary": 1,
+      "in_scope": 9,
+      "off_topic": 9,
+      "backward": 7,
+      "forward": 3,
+      "cells": {
+        "QQ_SUBSTITUTION": 7,
+        "OFF_TOPIC": 9,
+        "THEORY": 1,
+        "OFF_OTHER": 6,
+        "UNCLEAR": 1,
+        "SHOCK_FERTILITY": 1
+      }
+    },
+    {
+      "stratum": 6,
+      "n": 25,
+      "verdicts": 25,
+      "missing_verdict": [],
+      "primary": 0,
+      "in_scope": 5,
+      "off_topic": 13,
+      "backward": 2,
+      "forward": 3,
+      "cells": {
+        "THEORY": 2,
+        "OFF_TOPIC": 13,
+        "QQ_SUBSTITUTION": 2,
+        "OFF_OTHER": 5,
+        "UNCLEAR": 2,
+        "MIXED_CHILD_PARENT_RETURN": 1
+      }
+    }
+  ],
+  "sensitivity": {
+    "THEORY": {
+      "n": 4,
+      "in_scope": 4,
+      "off": 0,
+      "rows": [
+        {
+          "screen_id": "C3D0000",
+          "kept": true,
+          "cell": "THEORY",
+          "title": "Population, Technology, and Growth: From Malthusian Stagnation to the "
+        },
+        {
+          "screen_id": "C3D0001",
+          "kept": true,
+          "cell": "THEORY",
+          "title": "Human Capital, Fertility, and Economic Growth"
+        },
+        {
+          "screen_id": "C3D0003",
+          "kept": true,
+          "cell": "THEORY",
+          "title": "An Economic Analysis of Fertility"
+        },
+        {
+          "screen_id": "C3D0020",
+          "kept": true,
+          "cell": "THEORY",
+          "title": "On the Interaction between the Quantity and Quality of Children"
+        }
+      ]
+    },
+    "BACKWARD": {
+      "n": 3,
+      "in_scope": 3,
+      "off": 0,
+      "rows": [
+        {
+          "screen_id": "C3D0005",
+          "kept": true,
+          "cell": "QQ_SUBSTITUTION",
+          "title": "The More the Merrier? The Effect of Family Size and Birth Order on Chi"
+        },
+        {
+          "screen_id": "C3D0014",
+          "kept": true,
+          "cell": "QQ_SUBSTITUTION",
+          "title": "Testing the Quantity-Quality Fertility Model: The Use of Twins as a Na"
+        },
+        {
+          "screen_id": "C3D0018",
+          "kept": true,
+          "cell": "QQ_SUBSTITUTION",
+          "title": "Multiple Experiments for the Causal Link between the Quantity and Qual"
+        }
+      ]
+    },
+    "UNKNOWN": {
+      "n": 3,
+      "in_scope": 3,
+      "off": 0,
+      "rows": [
+        {
+          "screen_id": "C3D0554",
+          "kept": true,
+          "cell": "THEORY",
+          "title": "Development, fertility and childbearing age: A Unified Growth Theory"
+        },
+        {
+          "screen_id": "C3D1100",
+          "kept": true,
+          "cell": "SHOCK_FERTILITY",
+          "title": "The effect of trade liberalization on marriage and fertility: evidence"
+        },
+        {
+          "screen_id": "C3D1648",
+          "kept": true,
+          "cell": "QQ_SUBSTITUTION",
+          "title": "Cost-sharing policy and its long-term impact on quantity\u2013quality trade"
+        }
+      ]
+    }
+  },
+  "gold_errata_excluded": [
+    {
+      "oa_id": "W4409548817",
+      "screen_id": "C3D1106",
+      "title": "Genetics of twin birth rate in German Holstein and options for breedin",
+      "cell": "OFF_TOPIC",
+      "why": "dairy-cattle twinning genetics; livestock homonym that 348's breed-name gap let into the seed table. The screen was right to route it out."
+    }
+  ],
+  "rows_without_verdict": []
+}
