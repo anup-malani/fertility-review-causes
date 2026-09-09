@@ -9,7 +9,7 @@
 
 ## Acceptance criteria
 - [x] 2. Search strategy and scope drafted — `literature/search-logs/quantity-quality-tradeoff-search-scope.md`, 2026-09-09
-- [ ] 3. Literature search and AI screening, both phases (§5.1)
+- [x] 3. Literature search and AI screening — query calibrated (`352`), universe built (`353`), **screen COMPLETE 3,254/3,254** 2026-09-09
 - [ ] 4. RA title/abstract review
 - [ ] 5. Full-text retrieval
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
@@ -429,3 +429,66 @@ labour, not a decision — and `screen-cost-is-not-the-constraint` says to cost 
 LLM screen before treating it as a bottleneck.
 
 Scripts: `353`, `354`, `355`, `356`. Rubric + probe score + prevalence logs beside them.
+
+### 2026-09-09 (stage 3 complete) — the full screen, 3,254/3,254
+
+**Every record in the universe carries a verdict; none unscreened.** Every figure below is a count,
+not a bound.
+
+| cell | n | share |
+|---|---|---|
+| `OFF_TOPIC` | 1,557 | 47.8% |
+| `QQ_SUBSTITUTION` | 615 | 18.9% |
+| `OFF_OTHER` | 460 | 14.1% |
+| `THEORY` | 255 | 7.8% |
+| `MIXED_CHILD_PARENT_RETURN` | 150 | 4.6% |
+| `SHOCK_FERTILITY` | 92 | 2.8% |
+| `RETURN_ASSOCIATION` | 45 | 1.4% |
+| `PERCEIVED_RETURN` | 30 | 0.9% |
+| `RETURN_FERTILITY` | 23 | 0.7% |
+| `MIXED_RETURN_POSITION` | 22 | 0.7% |
+| `UNCLEAR` | 5 | 0.2% |
+
+In scope **1,232 (37.9%)**.
+
+**The direction split — scope §2 predicted it from retrieval counts, and the screen confirms it.**
+Over records in an estimand cell:
+
+| arm | n | share | identified designs |
+|---|---|---|---|
+| backward (`QQ_SUBSTITUTION`, link 2) | **615** | 49.9% | 233 |
+| forward, primary cells | **115** | 9.3% | 49 |
+| forward family incl. `MIXED_*` | 287 | 23.3% | — |
+
+**The backward arm outnumbers the registered forward estimand 5.3 to 1** and carries nearly five
+times as many identified designs.
+
+**Wall 2 is the deciding number, and the two-batch bound called it almost exactly.** Over the
+**forward family** — the denominator PI call 3 asks about — **164 of 287 (57.1%)** carry
+`W2_PARENT_RETURN`: the exposure moves the **parent's** return, not the child's. The partial screen
+estimated 58% on n=12; the complete screen says 57.1% on n=287. **If PI call 3 routes those to
+C.2.e, the forward cell drops from 287 to 123.**
+
+Wall flags across all rows: `W2_PARENT_RETURN` 282, `W7_SCHOOLING_LAW` 105, `W4_INCOME` 71,
+`W6_MORTALITY` 52, `W1_POSITION` 50, `W5_A12_TWINNING` 48.
+
+**Sensitivity: FORWARD 4/4, THEORY 8/8, BACKWARD 12/15, UNKNOWN 48/55.** All ten routed-out gold
+records are **gold-key errata rather than screen failures** — siblings and cardiovascular risk,
+siblings and divorce, twin birth rate in German Holstein cattle, twin fertility rates in Finland.
+The blinded screen caught every one. `blinded-screen-audits-the-anchors`, now at n=10.
+
+**How this was screened, and the honest caveat.** `357` is the batched, resumable, blinded LLM screen
+and is committed and dry-run clean ($7.04 on Opus 5, ~$3.50 batched), but there is **no
+`ANTHROPIC_API_KEY`** in the environment or `.env`, so it could not run. The 3,254 verdicts were
+therefore produced **by hand**, marked `rater=hand`, at the PI's explicit instruction after being
+shown that the inline route costs *more* ($9.63–$31.48 against $2.33–$3.52) because a conversation
+retransmits its transcript every turn. **This is a manual step between raw data and final output,
+which CLAUDE.md's production standard forbids**: the verdicts cannot be re-run, diffed, or checked
+for drift between the first batch and the last. Recorded as a known limitation, not smoothed over.
+When a key exists, `357` can re-screen the whole universe as `rater=llm` and `358` will score the
+two raters' agreement on the overlap — the closest thing to a second rater this chapter has.
+
+**Next:** stage 4 (RA title/abstract review, spot-checking 5–10%), then full-text retrieval on the
+115 primary and 233 identified backward records.
+
+Scripts: `357` (unrun), `358`. Logs: `quantity-quality-tradeoff-screen-summary.{json,md}`.
