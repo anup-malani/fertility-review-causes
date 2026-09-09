@@ -1,0 +1,1073 @@
+{
+  "cost_ceiling": 400,
+  "arms": [
+    {
+      "name": "theory",
+      "targets": [
+        "theory",
+        "seed:quantity-quality",
+        "seed:child quality",
+        "seed:child human capital",
+        "seed:unified growth"
+      ],
+      "exposure_axis": [
+        "\"quantity-quality\"",
+        "\"child quality\"",
+        "\"human capital of children\"",
+        "\"unified growth\""
+      ],
+      "outcome_axis": [
+        "\"fertility\"",
+        "\"childbearing\"",
+        "\"birth rate\"",
+        "\"total fertility rate\"",
+        "\"family size\"",
+        "\"number of children\"",
+        "\"demographic transition\""
+      ],
+      "query": "(\"quantity-quality\" OR \"child quality\" OR \"human capital of children\" OR \"unified growth\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\" OR \"demographic transition\")",
+      "frame": 838,
+      "arm_recall": 15,
+      "arm_n": 32,
+      "reachable_n": 19,
+      "reachable_recall": 15,
+      "steps": [
+        {
+          "label": "baseline",
+          "frame": 700,
+          "arm_recall": 9
+        },
+        {
+          "term": "\"quantity quality tradeoff\"",
+          "frame": 700,
+          "arm_recall": 9,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"quality-quantity\"",
+          "frame": 841,
+          "arm_recall": 9,
+          "gain": 0,
+          "cost": 141,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"child quantity\"",
+          "frame": 739,
+          "arm_recall": 9,
+          "gain": 0,
+          "cost": 39,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"human capital of children\"",
+          "frame": 725,
+          "arm_recall": 10,
+          "gain": 1,
+          "cost": 25,
+          "price": 25.0,
+          "accepted": true
+        },
+        {
+          "term": "\"child human capital\"",
+          "frame": 739,
+          "arm_recall": 10,
+          "gain": 0,
+          "cost": 14,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"sibsize\"",
+          "frame": 752,
+          "arm_recall": 10,
+          "gain": 0,
+          "cost": 27,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"unified growth\"",
+          "frame": 838,
+          "arm_recall": 15,
+          "gain": 5,
+          "cost": 113,
+          "price": 22.6,
+          "accepted": true
+        },
+        {
+          "term": "\"quality of children\"",
+          "frame": 992,
+          "arm_recall": 15,
+          "gain": 0,
+          "cost": 154,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"completed fertility\"",
+          "frame": 838,
+          "arm_recall": 15,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"desired family size\"",
+          "frame": 838,
+          "arm_recall": 15,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"fertility decline\"",
+          "frame": 838,
+          "arm_recall": 15,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        }
+      ],
+      "leave_one_out": [
+        {
+          "term": "\"quantity-quality\"",
+          "arm_recall_without": 11,
+          "uniquely_carries": 4,
+          "frame_without": 406,
+          "unique_records": 432,
+          "suspect_homonym": false
+        },
+        {
+          "term": "\"child quality\"",
+          "arm_recall_without": 13,
+          "uniquely_carries": 2,
+          "frame_without": 654,
+          "unique_records": 184,
+          "suspect_homonym": false
+        },
+        {
+          "term": "\"human capital of children\"",
+          "arm_recall_without": 14,
+          "uniquely_carries": 1,
+          "frame_without": 813,
+          "unique_records": 25,
+          "suspect_homonym": false
+        },
+        {
+          "term": "\"unified growth\"",
+          "arm_recall_without": 10,
+          "uniquely_carries": 5,
+          "frame_without": 725,
+          "unique_records": 113,
+          "suspect_homonym": false
+        }
+      ]
+    },
+    {
+      "name": "forward-shock",
+      "targets": [
+        "forward",
+        "seed:skill shock",
+        "seed:returns to skill"
+      ],
+      "exposure_axis": [
+        "\"import competition\"",
+        "\"skill premium\"",
+        "\"trade liberalization\"",
+        "\"automation\"",
+        "\"return to human capital\""
+      ],
+      "outcome_axis": [
+        "\"fertility\"",
+        "\"childbearing\"",
+        "\"birth rate\"",
+        "\"total fertility rate\"",
+        "\"family size\"",
+        "\"number of children\"",
+        "\"demographic transition\""
+      ],
+      "query": "(\"import competition\" OR \"skill premium\" OR \"trade liberalization\" OR \"automation\" OR \"return to human capital\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\" OR \"demographic transition\")",
+      "frame": 699,
+      "arm_recall": 7,
+      "arm_n": 15,
+      "reachable_n": 12,
+      "reachable_recall": 7,
+      "steps": [
+        {
+          "label": "baseline",
+          "frame": 34,
+          "arm_recall": 1
+        },
+        {
+          "term": "\"trade liberalization\"",
+          "frame": 108,
+          "arm_recall": 4,
+          "gain": 3,
+          "cost": 74,
+          "price": 24.666666666666668,
+          "accepted": true
+        },
+        {
+          "term": "\"China shock\"",
+          "frame": 110,
+          "arm_recall": 4,
+          "gain": 0,
+          "cost": 2,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"industrial robots\"",
+          "frame": 133,
+          "arm_recall": 4,
+          "gain": 0,
+          "cost": 25,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"automation\"",
+          "frame": 675,
+          "arm_recall": 6,
+          "gain": 2,
+          "cost": 567,
+          "price": 283.5,
+          "accepted": true
+        },
+        {
+          "term": "\"returns to schooling\"",
+          "frame": 697,
+          "arm_recall": 6,
+          "gain": 0,
+          "cost": 22,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"return to education\"",
+          "frame": 722,
+          "arm_recall": 6,
+          "gain": 0,
+          "cost": 47,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"occupational structure\"",
+          "frame": 781,
+          "arm_recall": 6,
+          "gain": 0,
+          "cost": 106,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"skill-biased technical change\"",
+          "frame": 683,
+          "arm_recall": 6,
+          "gain": 0,
+          "cost": 8,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"return to human capital\"",
+          "frame": 699,
+          "arm_recall": 7,
+          "gain": 1,
+          "cost": 24,
+          "price": 24.0,
+          "accepted": true
+        },
+        {
+          "term": "\"college premium\"",
+          "frame": 700,
+          "arm_recall": 7,
+          "gain": 0,
+          "cost": 1,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"completed fertility\"",
+          "frame": 699,
+          "arm_recall": 7,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"fertility decline\"",
+          "frame": 699,
+          "arm_recall": 7,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"fertility transition\"",
+          "frame": 699,
+          "arm_recall": 7,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        }
+      ],
+      "leave_one_out": [
+        {
+          "term": "\"import competition\"",
+          "arm_recall_without": 7,
+          "uniquely_carries": 0,
+          "frame_without": 687,
+          "unique_records": 12,
+          "suspect_homonym": false
+        },
+        {
+          "term": "\"skill premium\"",
+          "arm_recall_without": 6,
+          "uniquely_carries": 1,
+          "frame_without": 682,
+          "unique_records": 17,
+          "suspect_homonym": false
+        },
+        {
+          "term": "\"trade liberalization\"",
+          "arm_recall_without": 4,
+          "uniquely_carries": 3,
+          "frame_without": 625,
+          "unique_records": 74,
+          "suspect_homonym": false
+        },
+        {
+          "term": "\"automation\"",
+          "arm_recall_without": 5,
+          "uniquely_carries": 2,
+          "frame_without": 132,
+          "unique_records": 567,
+          "suspect_homonym": false
+        },
+        {
+          "term": "\"return to human capital\"",
+          "arm_recall_without": 6,
+          "uniquely_carries": 1,
+          "frame_without": 675,
+          "unique_records": 24,
+          "suspect_homonym": false
+        }
+      ]
+    },
+    {
+      "name": "forward-design",
+      "targets": [
+        "seed:schooling reform"
+      ],
+      "exposure_axis": [
+        "\"compulsory schooling\"",
+        "\"school construction\"",
+        "\"compulsory education\"",
+        "\"education expansion\"",
+        "\"universal primary education\""
+      ],
+      "outcome_axis": [
+        "\"fertility\"",
+        "\"childbearing\"",
+        "\"birth rate\"",
+        "\"total fertility rate\"",
+        "\"family size\"",
+        "\"number of children\"",
+        "\"demographic transition\""
+      ],
+      "query": "(\"compulsory schooling\" OR \"school construction\" OR \"compulsory education\" OR \"education expansion\" OR \"universal primary education\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\" OR \"demographic transition\")",
+      "frame": 500,
+      "arm_recall": 6,
+      "arm_n": 6,
+      "reachable_n": 6,
+      "reachable_recall": 6,
+      "steps": [
+        {
+          "label": "baseline",
+          "frame": 146,
+          "arm_recall": 2
+        },
+        {
+          "term": "\"compulsory education\"",
+          "frame": 349,
+          "arm_recall": 3,
+          "gain": 1,
+          "cost": 203,
+          "price": 203.0,
+          "accepted": true
+        },
+        {
+          "term": "\"school leaving age\"",
+          "frame": 372,
+          "arm_recall": 3,
+          "gain": 0,
+          "cost": 23,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"education expansion\"",
+          "frame": 411,
+          "arm_recall": 4,
+          "gain": 1,
+          "cost": 62,
+          "price": 62.0,
+          "accepted": true
+        },
+        {
+          "term": "\"universal primary education\"",
+          "frame": 500,
+          "arm_recall": 6,
+          "gain": 2,
+          "cost": 89,
+          "price": 44.5,
+          "accepted": true
+        },
+        {
+          "term": "\"education reform\"",
+          "frame": 607,
+          "arm_recall": 6,
+          "gain": 0,
+          "cost": 107,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"schooling reform\"",
+          "frame": 502,
+          "arm_recall": 6,
+          "gain": 0,
+          "cost": 2,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"completed fertility\"",
+          "frame": 500,
+          "arm_recall": 6,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"fertility decline\"",
+          "frame": 500,
+          "arm_recall": 6,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        }
+      ],
+      "leave_one_out": [
+        {
+          "term": "\"compulsory schooling\"",
+          "arm_recall_without": 4,
+          "uniquely_carries": 2,
+          "frame_without": 399,
+          "unique_records": 101,
+          "suspect_homonym": false
+        },
+        {
+          "term": "\"school construction\"",
+          "arm_recall_without": 6,
+          "uniquely_carries": 0,
+          "frame_without": 476,
+          "unique_records": 24,
+          "suspect_homonym": false
+        },
+        {
+          "term": "\"compulsory education\"",
+          "arm_recall_without": 5,
+          "uniquely_carries": 1,
+          "frame_without": 299,
+          "unique_records": 201,
+          "suspect_homonym": false
+        },
+        {
+          "term": "\"education expansion\"",
+          "arm_recall_without": 5,
+          "uniquely_carries": 1,
+          "frame_without": 439,
+          "unique_records": 61,
+          "suspect_homonym": false
+        },
+        {
+          "term": "\"universal primary education\"",
+          "arm_recall_without": 4,
+          "uniquely_carries": 2,
+          "frame_without": 411,
+          "unique_records": 89,
+          "suspect_homonym": false
+        }
+      ]
+    },
+    {
+      "name": "backward",
+      "targets": [
+        "backward",
+        "seed:sibsize / sibship",
+        "seed:family-size instrument",
+        "seed:resource dilution",
+        "seed:child investment"
+      ],
+      "exposure_axis": [
+        "\"family size\"",
+        "\"sibship size\"",
+        "\"resource dilution\""
+      ],
+      "outcome_axis": [
+        "\"educational attainment\"",
+        "\"test scores\"",
+        "\"years of schooling\"",
+        "\"child outcomes\"",
+        "\"school achievement\"",
+        "\"cognitive ability\""
+      ],
+      "query": "(\"family size\" OR \"sibship size\" OR \"resource dilution\") AND (\"educational attainment\" OR \"test scores\" OR \"years of schooling\" OR \"child outcomes\" OR \"school achievement\" OR \"cognitive ability\")",
+      "frame": 1006,
+      "arm_recall": 7,
+      "arm_n": 29,
+      "reachable_n": 7,
+      "reachable_recall": 7,
+      "steps": [
+        {
+          "label": "baseline",
+          "frame": 991,
+          "arm_recall": 6
+        },
+        {
+          "term": "\"number of siblings\"",
+          "frame": 1202,
+          "arm_recall": 6,
+          "gain": 0,
+          "cost": 211,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"sibsize\"",
+          "frame": 1001,
+          "arm_recall": 6,
+          "gain": 0,
+          "cost": 10,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"twin birth\"",
+          "frame": 1019,
+          "arm_recall": 6,
+          "gain": 0,
+          "cost": 28,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"sibling sex composition\"",
+          "frame": 1006,
+          "arm_recall": 6,
+          "gain": 0,
+          "cost": 15,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"birth order\"",
+          "frame": 1478,
+          "arm_recall": 6,
+          "gain": 0,
+          "cost": 487,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"resource dilution\"",
+          "frame": 1006,
+          "arm_recall": 7,
+          "gain": 1,
+          "cost": 15,
+          "price": 15.0,
+          "accepted": true
+        },
+        {
+          "term": "\"quantity-quality\"",
+          "frame": 1052,
+          "arm_recall": 7,
+          "gain": 0,
+          "cost": 46,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"family size and\"",
+          "frame": 1006,
+          "arm_recall": 7,
+          "gain": 0,
+          "cost": 0,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"child quality\"",
+          "frame": 1059,
+          "arm_recall": 7,
+          "gain": 0,
+          "cost": 53,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"human capital\"",
+          "frame": 1292,
+          "arm_recall": 7,
+          "gain": 0,
+          "cost": 286,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "axis": "outcome",
+          "term": "\"child development\"",
+          "frame": 1110,
+          "arm_recall": 7,
+          "gain": 0,
+          "cost": 104,
+          "price": null,
+          "accepted": false
+        }
+      ],
+      "leave_one_out": [
+        {
+          "term": "\"family size\"",
+          "arm_recall_without": 2,
+          "uniquely_carries": 5,
+          "frame_without": 115,
+          "unique_records": 891,
+          "suspect_homonym": false
+        },
+        {
+          "term": "\"sibship size\"",
+          "arm_recall_without": 7,
+          "uniquely_carries": 0,
+          "frame_without": 940,
+          "unique_records": 66,
+          "suspect_homonym": true
+        },
+        {
+          "term": "\"resource dilution\"",
+          "arm_recall_without": 6,
+          "uniquely_carries": 1,
+          "frame_without": 991,
+          "unique_records": 15,
+          "suspect_homonym": false
+        }
+      ]
+    },
+    {
+      "name": "c2e-boundary",
+      "targets": [],
+      "exposure_axis": [
+        "\"female education\"",
+        "\"maternal education\""
+      ],
+      "outcome_axis": [
+        "\"fertility\"",
+        "\"childbearing\"",
+        "\"birth rate\"",
+        "\"total fertility rate\"",
+        "\"family size\"",
+        "\"number of children\"",
+        "\"demographic transition\""
+      ],
+      "query": "(\"female education\" OR \"maternal education\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\" OR \"demographic transition\")",
+      "frame": 2080,
+      "arm_recall": 0,
+      "arm_n": 0,
+      "reachable_n": 0,
+      "reachable_recall": 0,
+      "steps": [
+        {
+          "label": "baseline",
+          "frame": 2080,
+          "arm_recall": 0
+        },
+        {
+          "term": "\"mother education\"",
+          "frame": 2355,
+          "arm_recall": 0,
+          "gain": 0,
+          "cost": 275,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"female labor force participation\"",
+          "frame": 2913,
+          "arm_recall": 0,
+          "gain": 0,
+          "cost": 833,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"opportunity cost of time\"",
+          "frame": 2116,
+          "arm_recall": 0,
+          "gain": 0,
+          "cost": 36,
+          "price": null,
+          "accepted": false
+        },
+        {
+          "term": "\"female wage\"",
+          "frame": 2164,
+          "arm_recall": 0,
+          "gain": 0,
+          "cost": 84,
+          "price": null,
+          "accepted": false
+        }
+      ],
+      "leave_one_out": [
+        {
+          "term": "\"female education\"",
+          "arm_recall_without": 0,
+          "uniquely_carries": 0,
+          "frame_without": 1125,
+          "unique_records": 955,
+          "suspect_homonym": true
+        },
+        {
+          "term": "\"maternal education\"",
+          "arm_recall_without": 0,
+          "uniquely_carries": 0,
+          "frame_without": 973,
+          "unique_records": 1107,
+          "suspect_homonym": true
+        }
+      ]
+    }
+  ],
+  "gold_n": 82,
+  "arms_not_screened": [
+    "c2e-boundary"
+  ],
+  "union_query": "((\"quantity-quality\" OR \"child quality\" OR \"human capital of children\" OR \"unified growth\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\" OR \"demographic transition\")) OR ((\"import competition\" OR \"skill premium\" OR \"trade liberalization\" OR \"automation\" OR \"return to human capital\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\" OR \"demographic transition\")) OR ((\"compulsory schooling\" OR \"school construction\" OR \"compulsory education\" OR \"education expansion\" OR \"universal primary education\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\" OR \"demographic transition\")) OR ((\"family size\" OR \"sibship size\" OR \"resource dilution\") AND (\"educational attainment\" OR \"test scores\" OR \"years of schooling\" OR \"child outcomes\" OR \"school achievement\" OR \"cognitive ability\"))",
+  "union_frame_deduplicated": 2926,
+  "union_frame_error": null,
+  "union_query_recall": 16,
+  "canon_union_recall": {
+    "THEORY": {
+      "hit": 3,
+      "n": 8,
+      "missed": [
+        "An Economic Analysis of Fertility",
+        "On the Interaction between the Quantity and Quality of Children",
+        "Child Endowments and the Quantity and Quality of Children",
+        "Natural Selection and the Origin of Economic Growth",
+        "The Baby Boom and Baby Bust"
+      ]
+    },
+    "BACKWARD": {
+      "hit": 5,
+      "n": 5,
+      "missed": []
+    },
+    "FORWARD": {
+      "hit": 3,
+      "n": 4,
+      "missed": [
+        "Fecundity, Fertility and the Formation of Human Capital"
+      ]
+    }
+  },
+  "union": {
+    "primary_recall": 16,
+    "primary_n": 21,
+    "total_frame_upper_bound": 3043,
+    "unreachable": [
+      {
+        "arm": "seed:child quality",
+        "source": "control",
+        "title": "Direct Cash Transfer Effect on Children Quality in Women\u2019s Household in Indonesia",
+        "why": "unreachable by construction (outcome axis alone cannot return it)"
+      },
+      {
+        "arm": "seed:child quality",
+        "source": "control",
+        "title": "The Trade-Off Between Child Quantity and Child Quality and the Public Provision of Education: A Case Study in Rural Terengganu, Malaysia",
+        "why": "unreachable by construction (outcome axis alone cannot return it)"
+      },
+      {
+        "arm": "seed:child quality",
+        "source": "control",
+        "title": "Explaining and Evaluating the Effective Factors in Improving the Quality of Children\u2019s Playgrounds in Cities with an Emphasis on Safety and Security Aspects of Children from Parents\u2019 Viewpoint; Case study: Koodak Park of Isfahan",
+        "why": "unreachable by construction (outcome axis alone cannot return it)"
+      },
+      {
+        "arm": "seed:sibsize / sibship",
+        "source": "control",
+        "title": "Number of siblings and psychotropic medication purchases surrounding parental death in adulthood: a population-wide cohort study in Finland",
+        "why": "unreachable by construction (outcome axis alone cannot return it)"
+      },
+      {
+        "arm": "seed:sibsize / sibship",
+        "source": "control",
+        "title": "Unveiling the direct and indirect effects of sibling size on happiness: evidence from adults in early and mid-adulthood in China",
+        "why": "unreachable by construction (outcome axis alone cannot return it)"
+      },
+      {
+        "arm": "seed:sibsize / sibship",
+        "source": "control",
+        "title": "The Inverse Association Between Number of Siblings and Divorce: New Evidence From China and Europe",
+        "why": "unreachable by construction (outcome axis alone cannot return it)"
+      },
+      {
+        "arm": "seed:sibsize / sibship",
+        "source": "control",
+        "title": "Early school leaving, number of siblings and birth order in Spain",
+        "why": "unreachable by construction (outcome axis alone cannot return it)"
+      },
+      {
+        "arm": "seed:sibsize / sibship",
+        "source": "control",
+        "title": "Association between Number of Siblings and Cardiovascular Risk Factors in Childhood and in Adulthood: The Cardiovascular Risk in Young Finns Study",
+        "why": "unreachable by construction (outcome axis alone cannot return it)"
+      },
+      {
+        "arm": "seed:child investment",
+        "source": "control",
+        "title": "Unexpected Monetary Policy and the Wealth Gradient in Parental Investment: Evidence from Korea's Household Data",
+        "why": "unreachable by construction (outcome axis alone cannot return it)"
+      },
+      {
+        "arm": "seed:child investment",
+        "source": "control",
+        "title": "Educational assortative mating and changing patterns of parental financial investment in children, 1990\u20132024",
+        "why": "unreachable by construction (outcome axis alone cannot return it)"
+      },
+      {
+        "arm": "seed:child investment",
+        "source": "control",
+        "title": "Parental investment in child immunisation: the role of birth order and number of children",
+        "why": "unreachable by construction (outcome axis alone cannot return it)"
+      },
+      {
+        "arm": "seed:child investment",
+        "source": "control",
+        "title": "Retirement-age Extension and Parental Investment in Education",
+        "why": "unreachable by construction (outcome axis alone cannot return it)"
+      },
+      {
+        "arm": "seed:child investment",
+        "source": "control",
+        "title": "Double the Diapers, Double the Degrees? Anticipated Children and Educational Investment in China",
+        "why": "unreachable by construction (outcome axis alone cannot return it)"
+      },
+      {
+        "arm": "seed:child human capital",
+        "source": "control",
+        "title": "Child Human Capital\u2014The Importance Of Parenting Style",
+        "why": "unreachable by construction (outcome axis alone cannot return it)"
+      },
+      {
+        "arm": "seed:child human capital",
+        "source": "control",
+        "title": "Intergenerational effects of sick leave on child human capital",
+        "why": "unreachable by construction (outcome axis alone cannot return it)"
+      },
+      {
+        "arm": "seed:child human capital",
+        "source": "control",
+        "title": "The long-term effect of television on children's human capital development in China",
+        "why": "unreachable by construction (outcome axis alone cannot return it)"
+      },
+      {
+        "arm": "seed:child human capital",
+        "source": "control",
+        "title": "Family Planning and Children's Human Capital: Experimental Evidence From Urban Malawi",
+        "why": "VOCABULARY MISS -> citation channel"
+      },
+      {
+        "arm": "seed:child human capital",
+        "source": "control",
+        "title": "Beliefs and Investment in Child Human Capital: Case Study from Benin",
+        "why": "unreachable by construction (outcome axis alone cannot return it)"
+      },
+      {
+        "arm": "seed:returns to skill",
+        "source": "control",
+        "title": "Population Density, Migration, and the Returns to Human Capital and Land: Insights from Indonesia",
+        "why": "unreachable by construction (outcome axis alone cannot return it)"
+      },
+      {
+        "arm": "seed:returns to skill",
+        "source": "control",
+        "title": "Parental Beliefs about Returns to Educational Investments\u2014The Later the Better?",
+        "why": "unreachable by construction (outcome axis alone cannot return it)"
+      },
+      {
+        "arm": "seed:returns to skill",
+        "source": "control",
+        "title": "Partner Choice, Investment in Children, and the Marital College Premium",
+        "why": "unreachable by construction (outcome axis alone cannot return it)"
+      },
+      {
+        "arm": "seed:family-size instrument",
+        "source": "control",
+        "title": "Fertility rates across generations in twins and singletons: A total population study in Finland",
+        "why": "unreachable by construction (outcome axis alone cannot return it)"
+      },
+      {
+        "arm": "seed:family-size instrument",
+        "source": "control",
+        "title": "Trends in Birth Rates, Sex Ratio, and Infant Mortality Rates Among Singletons, Twins, and Higher Order Multiples in Brazil Between 2010 and 2023",
+        "why": "unreachable by construction (outcome axis alone cannot return it)"
+      },
+      {
+        "arm": "seed:family-size instrument",
+        "source": "control",
+        "title": "Anthropometric differences between twins at birth and their association with later cognitive performance",
+        "why": "unreachable by construction (outcome axis alone cannot return it)"
+      },
+      {
+        "arm": "seed:family-size instrument",
+        "source": "control",
+        "title": "Genetics of twin birth rate in German Holstein and options for breeding",
+        "why": "unreachable by construction (outcome axis alone cannot return it)"
+      },
+      {
+        "arm": "seed:family-size instrument",
+        "source": "control",
+        "title": "Conceptive risk-taking: Personal uncertainty, flexible fertility intentions, and twins from medically assisted reproduction",
+        "why": "unreachable by construction (outcome axis alone cannot return it)"
+      },
+      {
+        "arm": "seed:skill shock",
+        "source": "control",
+        "title": "Agricultural Technological Change, Female Earnings and Fertility: Evidence from Brazil",
+        "why": "VOCABULARY MISS -> citation channel"
+      },
+      {
+        "arm": "seed:unified growth",
+        "source": "control",
+        "title": "Unified Growth Theory: Roots of Growth and Inequality in the Wealth of Nations",
+        "why": "unreachable by construction (outcome axis alone cannot return it)"
+      },
+      {
+        "arm": "seed:unified growth",
+        "source": "control",
+        "title": "6. Inside the black box of population growth : tracing the roots of unified growth theory",
+        "why": "unreachable by construction (outcome axis alone cannot return it)"
+      },
+      {
+        "arm": "seed:unified growth",
+        "source": "control",
+        "title": "Reconciling Reversal of Fortune in early United States Development within Unified Growth Framework",
+        "why": "unreachable by construction (outcome axis alone cannot return it)"
+      },
+      {
+        "arm": "seed:resource dilution",
+        "source": "control",
+        "title": "Explaining Birth Order Effects on Child Nutrition: The Role of Resource Dilution and Cultural Factors",
+        "why": "unreachable by construction (outcome axis alone cannot return it)"
+      },
+      {
+        "arm": "seed:resource dilution",
+        "source": "control",
+        "title": "The Gendered Resource Dilution: Sibling Structure, Parental Non-Monetary Investment, and Child Housework Labor in China",
+        "why": "unreachable by construction (outcome axis alone cannot return it)"
+      },
+      {
+        "arm": "seed:resource dilution",
+        "source": "control",
+        "title": "Testing the Confluence Model of the Association Between Pornography Use and Male Sexual Aggression: A Longitudinal Assessment in Two Independent Adolescent Samples from Croatia",
+        "why": "unreachable by construction (outcome axis alone cannot return it)"
+      },
+      {
+        "arm": "seed:resource dilution",
+        "source": "control",
+        "title": "Intergenerational Exchange of Support in Low\u2010Income Families: Understanding Resource Dilution and Increased Contribution",
+        "why": "unreachable by construction (outcome axis alone cannot return it)"
+      },
+      {
+        "arm": "seed:resource dilution",
+        "source": "control",
+        "title": "Can resource dilution explain differences in height by birth order and family size? A study of 389,287 male recruits in twentieth-century Netherlands",
+        "why": "unreachable by construction (outcome axis alone cannot return it)"
+      },
+      {
+        "arm": "theory",
+        "source": "hand",
+        "title": "An Economic Analysis of Fertility",
+        "why": "VOCABULARY MISS -> citation channel"
+      },
+      {
+        "arm": "theory",
+        "source": "hand",
+        "title": "On the Interaction between the Quantity and Quality of Children",
+        "why": "unreachable by construction (outcome axis alone cannot return it)"
+      },
+      {
+        "arm": "theory",
+        "source": "hand",
+        "title": "Child Endowments and the Quantity and Quality of Children",
+        "why": "unreachable by construction (outcome axis alone cannot return it)"
+      },
+      {
+        "arm": "theory",
+        "source": "hand",
+        "title": "Natural Selection and the Origin of Economic Growth",
+        "why": "unreachable by construction (outcome axis alone cannot return it)"
+      },
+      {
+        "arm": "theory",
+        "source": "hand",
+        "title": "The Baby Boom and Baby Bust",
+        "why": "VOCABULARY MISS -> citation channel"
+      },
+      {
+        "arm": "forward",
+        "source": "hand",
+        "title": "Fecundity, Fertility and The Formation of Human Capital",
+        "why": "VOCABULARY MISS -> citation channel"
+      }
+    ]
+  },
+  "pool": {
+    "key": 0,
+    "polite": 0,
+    "refused": 0,
+    "throttle_waits": 0
+  },
+  "cache": {
+    "hit": 77,
+    "miss": 0
+  }
+}
