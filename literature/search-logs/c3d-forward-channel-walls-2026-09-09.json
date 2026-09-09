@@ -1,0 +1,317 @@
+{
+  "date": "2026-09-09",
+  "script": "346_c3d_forward_channel_and_walls.py",
+  "outcome_axis_wide": "(\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+  "union_axis": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\")",
+  "channel1": "(\"return to education\" OR \"returns to schooling\" OR \"returns to education\" OR \"skill premium\" OR \"college premium\" OR \"return to human capital\")",
+  "frame": 762,
+  "channel1_forward_arm_in_frame": 16,
+  "channel2": [
+    {
+      "label": "trade / import competition",
+      "control": 28785,
+      "arm": 88,
+      "overlap_ch1": 0
+    },
+    {
+      "label": "technology adoption / automation exposure",
+      "control": 28453,
+      "arm": 27,
+      "overlap_ch1": 0
+    },
+    {
+      "label": "schooling supply expansion",
+      "control": 5346,
+      "arm": 188,
+      "overlap_ch1": 2
+    },
+    {
+      "label": "historical industrialization and human capital",
+      "control": 7316,
+      "arm": 275,
+      "overlap_ch1": 11
+    },
+    {
+      "label": "local labour-demand shocks to skill",
+      "control": 1908,
+      "arm": 23,
+      "overlap_ch1": 1
+    },
+    {
+      "label": "occupational structure / white-collar shift",
+      "control": 29581,
+      "arm": 329,
+      "overlap_ch1": 3
+    }
+  ],
+  "walls": [
+    {
+      "label": "C.2.f reference standard -- the wall C.2.f's PI call 3 challenges",
+      "neighbour_frame": 718,
+      "overlap": 9
+    },
+    {
+      "label": "C.2.e female wage / opportunity cost of mother's time",
+      "neighbour_frame": 1738,
+      "overlap": 13
+    },
+    {
+      "label": "C.2.b direct cost of children",
+      "neighbour_frame": 326,
+      "overlap": 12
+    },
+    {
+      "label": "C.1.a income effect",
+      "neighbour_frame": 421,
+      "overlap": 20
+    },
+    {
+      "label": "A.1 child mortality and replacement",
+      "neighbour_frame": 7416,
+      "overlap": 38
+    },
+    {
+      "label": "A.12 twinning as an accounting identity (drafted) vs as an instrument",
+      "neighbour_frame": 5550,
+      "overlap": 60
+    },
+    {
+      "label": "Alexandra's compulsory schooling / child labour laws",
+      "neighbour_frame": 364,
+      "overlap": 6
+    },
+    {
+      "label": "C.3.f wealth flows / value of children",
+      "neighbour_frame": 859,
+      "overlap": 11
+    },
+    {
+      "label": "D.2.d intensive parenting norms",
+      "neighbour_frame": 40,
+      "overlap": 0
+    }
+  ],
+  "rows": [
+    {
+      "label": "CONTROL fertility decline",
+      "query": "\"fertility decline\"",
+      "n": 7141
+    },
+    {
+      "label": "CONTROL C.3.d frame (762)",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 762
+    },
+    {
+      "label": "CHANNEL 1 forward arm, inside the C.3.d frame (345 got 8)",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"return to education\" OR \"returns to schooling\" OR \"returns to education\" OR \"skill premium\" OR \"college premium\" OR \"return to human capital\")",
+      "n": 16
+    },
+    {
+      "label": "CHANNEL 1 forward arm, NOT restricted to the C.3.d frame",
+      "query": "(\"return to education\" OR \"returns to schooling\" OR \"returns to education\" OR \"skill premium\" OR \"college premium\" OR \"return to human capital\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 231
+    },
+    {
+      "label": "CH2 CONTROL trade / import competition",
+      "query": "(\"import competition\" OR \"trade liberalization\" OR \"trade liberalisation\" OR \"China shock\")",
+      "n": 28785
+    },
+    {
+      "label": "CH2 ARM     trade / import competition AND fertility",
+      "query": "(\"import competition\" OR \"trade liberalization\" OR \"trade liberalisation\" OR \"China shock\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 88
+    },
+    {
+      "label": "CH2 XOVER   trade / import competition INTERSECT channel-1 vocabulary",
+      "query": "((\"import competition\" OR \"trade liberalization\" OR \"trade liberalisation\" OR \"China shock\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")) AND (\"return to education\" OR \"returns to schooling\" OR \"returns to education\" OR \"skill premium\" OR \"college premium\" OR \"return to human capital\")",
+      "n": 0
+    },
+    {
+      "label": "CH2 CONTROL technology adoption / automation exposure",
+      "query": "(\"robot adoption\" OR \"industrial robots\" OR \"computer adoption\" OR \"routine-biased\")",
+      "n": 28453
+    },
+    {
+      "label": "CH2 ARM     technology adoption / automation exposure AND fertility",
+      "query": "(\"robot adoption\" OR \"industrial robots\" OR \"computer adoption\" OR \"routine-biased\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 27
+    },
+    {
+      "label": "CH2 XOVER   technology adoption / automation exposure INTERSECT channel-1 vocabulary",
+      "query": "((\"robot adoption\" OR \"industrial robots\" OR \"computer adoption\" OR \"routine-biased\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")) AND (\"return to education\" OR \"returns to schooling\" OR \"returns to education\" OR \"skill premium\" OR \"college premium\" OR \"return to human capital\")",
+      "n": 0
+    },
+    {
+      "label": "CH2 CONTROL schooling supply expansion",
+      "query": "(\"school construction\" OR \"school expansion\" OR \"education expansion\" OR \"universal primary education\")",
+      "n": 5346
+    },
+    {
+      "label": "CH2 ARM     schooling supply expansion AND fertility",
+      "query": "(\"school construction\" OR \"school expansion\" OR \"education expansion\" OR \"universal primary education\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 188
+    },
+    {
+      "label": "CH2 XOVER   schooling supply expansion INTERSECT channel-1 vocabulary",
+      "query": "((\"school construction\" OR \"school expansion\" OR \"education expansion\" OR \"universal primary education\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")) AND (\"return to education\" OR \"returns to schooling\" OR \"returns to education\" OR \"skill premium\" OR \"college premium\" OR \"return to human capital\")",
+      "n": 2
+    },
+    {
+      "label": "CH2 CONTROL historical industrialization and human capital",
+      "query": "(\"industrial revolution\" OR \"industrialization\" OR \"industrialisation\") AND (\"human capital\" OR \"literacy\" OR \"schooling\")",
+      "n": 7316
+    },
+    {
+      "label": "CH2 ARM     historical industrialization and human capital AND fertility",
+      "query": "(\"industrial revolution\" OR \"industrialization\" OR \"industrialisation\") AND (\"human capital\" OR \"literacy\" OR \"schooling\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 275
+    },
+    {
+      "label": "CH2 XOVER   historical industrialization and human capital INTERSECT channel-1 vocabulary",
+      "query": "((\"industrial revolution\" OR \"industrialization\" OR \"industrialisation\") AND (\"human capital\" OR \"literacy\" OR \"schooling\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")) AND (\"return to education\" OR \"returns to schooling\" OR \"returns to education\" OR \"skill premium\" OR \"college premium\" OR \"return to human capital\")",
+      "n": 11
+    },
+    {
+      "label": "CH2 CONTROL local labour-demand shocks to skill",
+      "query": "(\"labour demand shock\" OR \"labor demand shock\" OR \"local labour market\" OR \"local labor market\") AND (\"skill\" OR \"education\")",
+      "n": 1908
+    },
+    {
+      "label": "CH2 ARM     local labour-demand shocks to skill AND fertility",
+      "query": "(\"labour demand shock\" OR \"labor demand shock\" OR \"local labour market\" OR \"local labor market\") AND (\"skill\" OR \"education\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 23
+    },
+    {
+      "label": "CH2 XOVER   local labour-demand shocks to skill INTERSECT channel-1 vocabulary",
+      "query": "((\"labour demand shock\" OR \"labor demand shock\" OR \"local labour market\" OR \"local labor market\") AND (\"skill\" OR \"education\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")) AND (\"return to education\" OR \"returns to schooling\" OR \"returns to education\" OR \"skill premium\" OR \"college premium\" OR \"return to human capital\")",
+      "n": 1
+    },
+    {
+      "label": "CH2 CONTROL occupational structure / white-collar shift",
+      "query": "(\"occupational structure\" OR \"white-collar\" OR \"skilled occupations\" OR \"deskilling\")",
+      "n": 29581
+    },
+    {
+      "label": "CH2 ARM     occupational structure / white-collar shift AND fertility",
+      "query": "(\"occupational structure\" OR \"white-collar\" OR \"skilled occupations\" OR \"deskilling\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 329
+    },
+    {
+      "label": "CH2 XOVER   occupational structure / white-collar shift INTERSECT channel-1 vocabulary",
+      "query": "((\"occupational structure\" OR \"white-collar\" OR \"skilled occupations\" OR \"deskilling\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")) AND (\"return to education\" OR \"returns to schooling\" OR \"returns to education\" OR \"skill premium\" OR \"college premium\" OR \"return to human capital\")",
+      "n": 3
+    },
+    {
+      "label": "channel-2 axis AND fertility",
+      "query": "(\"import competition\" OR \"trade liberalization\" OR \"China shock\" OR \"industrial robots\" OR \"school construction\" OR \"education expansion\" OR \"industrial revolution\" OR \"occupational structure\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 770
+    },
+    {
+      "label": "channel-2 axis AND fertility AND the C.3.d frame",
+      "query": "(\"import competition\" OR \"trade liberalization\" OR \"China shock\" OR \"industrial robots\" OR \"school construction\" OR \"education expansion\" OR \"industrial revolution\" OR \"occupational structure\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\")",
+      "n": 15
+    },
+    {
+      "label": "channel-2 axis AND fertility AND channel-1 vocabulary",
+      "query": "(\"import competition\" OR \"trade liberalization\" OR \"China shock\" OR \"industrial robots\" OR \"school construction\" OR \"education expansion\" OR \"industrial revolution\" OR \"occupational structure\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"return to education\" OR \"returns to schooling\" OR \"returns to education\" OR \"skill premium\" OR \"college premium\" OR \"return to human capital\")",
+      "n": 8
+    },
+    {
+      "label": "channel-2 axis AND fertility AND an identified-design marker",
+      "query": "(\"import competition\" OR \"trade liberalization\" OR \"China shock\" OR \"industrial robots\" OR \"school construction\" OR \"education expansion\" OR \"industrial revolution\" OR \"occupational structure\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"difference-in-differences\" OR \"instrumental variable\" OR \"natural experiment\" OR \"regression discontinuity\" OR \"event study\")",
+      "n": 35
+    },
+    {
+      "label": "WALL C.2.f reference standard -- the wall C.2.f's PI call 3 challenges -- neighbour frame",
+      "query": "(\"income inequality\" OR \"status competition\" OR \"positional good\" OR \"relative status\" OR \"social comparison\" OR \"educational arms race\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 718
+    },
+    {
+      "label": "WALL C.2.f reference standard -- the wall C.2.f's PI call 3 challenges -- overlap with the C.3.d frame",
+      "query": "(\"income inequality\" OR \"status competition\" OR \"positional good\" OR \"relative status\" OR \"social comparison\" OR \"educational arms race\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\")",
+      "n": 9
+    },
+    {
+      "label": "WALL C.2.e female wage / opportunity cost of mother's time -- neighbour frame",
+      "query": "(\"opportunity cost of time\" OR \"female wage\" OR \"female labor force participation\" OR \"female labour force participation\" OR \"mother's education\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 1738
+    },
+    {
+      "label": "WALL C.2.e female wage / opportunity cost of mother's time -- overlap with the C.3.d frame",
+      "query": "(\"opportunity cost of time\" OR \"female wage\" OR \"female labor force participation\" OR \"female labour force participation\" OR \"mother's education\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\")",
+      "n": 13
+    },
+    {
+      "label": "WALL C.2.b direct cost of children -- neighbour frame",
+      "query": "(\"cost of children\" OR \"child cost\" OR \"expenditure on children\" OR \"cost of raising children\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 326
+    },
+    {
+      "label": "WALL C.2.b direct cost of children -- overlap with the C.3.d frame",
+      "query": "(\"cost of children\" OR \"child cost\" OR \"expenditure on children\" OR \"cost of raising children\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\")",
+      "n": 12
+    },
+    {
+      "label": "WALL C.1.a income effect -- neighbour frame",
+      "query": "(\"income effect\" OR \"income elasticity\" OR \"permanent income\" OR \"income shock\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 421
+    },
+    {
+      "label": "WALL C.1.a income effect -- overlap with the C.3.d frame",
+      "query": "(\"income effect\" OR \"income elasticity\" OR \"permanent income\" OR \"income shock\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\")",
+      "n": 20
+    },
+    {
+      "label": "WALL A.1 child mortality and replacement -- neighbour frame",
+      "query": "(\"child mortality\" OR \"infant mortality\" OR \"child survival\" OR \"replacement effect\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 7416
+    },
+    {
+      "label": "WALL A.1 child mortality and replacement -- overlap with the C.3.d frame",
+      "query": "(\"child mortality\" OR \"infant mortality\" OR \"child survival\" OR \"replacement effect\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\")",
+      "n": 38
+    },
+    {
+      "label": "WALL A.12 twinning as an accounting identity (drafted) vs as an instrument -- neighbour frame",
+      "query": "(\"twin birth\" OR \"twinning\" OR \"multiple births\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 5550
+    },
+    {
+      "label": "WALL A.12 twinning as an accounting identity (drafted) vs as an instrument -- overlap with the C.3.d frame",
+      "query": "(\"twin birth\" OR \"twinning\" OR \"multiple births\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\")",
+      "n": 60
+    },
+    {
+      "label": "WALL Alexandra's compulsory schooling / child labour laws -- neighbour frame",
+      "query": "(\"compulsory schooling\" OR \"compulsory education\" OR \"school leaving age\" OR \"child labour law\" OR \"child labor law\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 364
+    },
+    {
+      "label": "WALL Alexandra's compulsory schooling / child labour laws -- overlap with the C.3.d frame",
+      "query": "(\"compulsory schooling\" OR \"compulsory education\" OR \"school leaving age\" OR \"child labour law\" OR \"child labor law\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\")",
+      "n": 6
+    },
+    {
+      "label": "WALL C.3.f wealth flows / value of children -- neighbour frame",
+      "query": "(\"wealth flows\" OR \"value of children\" OR \"intergenerational transfer\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 859
+    },
+    {
+      "label": "WALL C.3.f wealth flows / value of children -- overlap with the C.3.d frame",
+      "query": "(\"wealth flows\" OR \"value of children\" OR \"intergenerational transfer\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\")",
+      "n": 11
+    },
+    {
+      "label": "WALL D.2.d intensive parenting norms -- neighbour frame",
+      "query": "(\"intensive parenting\" OR \"concerted cultivation\" OR \"parenting norms\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 40
+    },
+    {
+      "label": "WALL D.2.d intensive parenting norms -- overlap with the C.3.d frame",
+      "query": "(\"intensive parenting\" OR \"concerted cultivation\" OR \"parenting norms\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\")",
+      "n": 0
+    }
+  ],
+  "refused": []
+}
