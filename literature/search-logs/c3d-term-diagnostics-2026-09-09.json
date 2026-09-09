@@ -1,0 +1,362 @@
+{
+  "date": "2026-09-09",
+  "script": "344_c3d_term_diagnostics.py",
+  "outcome_axis_wide": "(\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+  "union_axis": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\")",
+  "baseline_union_frame": 762,
+  "rows": [
+    {
+      "label": "CONTROL fertility decline",
+      "query": "\"fertility decline\"",
+      "n": 7141
+    },
+    {
+      "label": "CONTROL C.3.d union frame (reproduces the 09-09 number: 762)",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 762
+    },
+    {
+      "label": "TERM quantity-quality",
+      "query": "\"quantity-quality\" AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 494
+    },
+    {
+      "label": "TERM quantity quality tradeoff",
+      "query": "\"quantity quality tradeoff\" AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 95
+    },
+    {
+      "label": "TERM child quality",
+      "query": "\"child quality\" AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 243
+    },
+    {
+      "label": "TERM child investment",
+      "query": "\"child investment\" AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 40
+    },
+    {
+      "label": "TERM sibsize",
+      "query": "\"sibsize\" AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 27
+    },
+    {
+      "label": "TERM human capital of children",
+      "query": "\"human capital of children\" AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 31
+    },
+    {
+      "label": "BARE quantity-quality",
+      "query": "\"quantity-quality\"",
+      "n": 8154
+    },
+    {
+      "label": "BARE quantity quality tradeoff",
+      "query": "\"quantity quality tradeoff\"",
+      "n": 162
+    },
+    {
+      "label": "BARE child quality",
+      "query": "\"child quality\"",
+      "n": 793
+    },
+    {
+      "label": "BARE child investment",
+      "query": "\"child investment\"",
+      "n": 125
+    },
+    {
+      "label": "BARE sibsize",
+      "query": "\"sibsize\"",
+      "n": 69
+    },
+    {
+      "label": "BARE human capital of children",
+      "query": "\"human capital of children\"",
+      "n": 182
+    },
+    {
+      "label": "AXIS minus 'child quality'",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 586
+    },
+    {
+      "label": "AXIS minus 'child investment'",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"sibsize\" OR \"human capital of children\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 732
+    },
+    {
+      "label": "SPELLING quantity-quality tradeoff",
+      "query": "\"quantity-quality tradeoff\" AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 95
+    },
+    {
+      "label": "SPELLING quantity-quality trade-off",
+      "query": "\"quantity-quality trade-off\" AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 207
+    },
+    {
+      "label": "SPELLING quantity quality trade off",
+      "query": "\"quantity quality trade off\" AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 207
+    },
+    {
+      "label": "SPELLING quantity and quality of children",
+      "query": "\"quantity and quality of children\" AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 93
+    },
+    {
+      "label": "SPELLING trade-off between quantity and quality",
+      "query": "\"trade-off between quantity and quality\" AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 10
+    },
+    {
+      "label": "SPELLING child quantity",
+      "query": "\"child quantity\" AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 149
+    },
+    {
+      "label": "SPELLING quantity-quality model",
+      "query": "\"quantity-quality model\" AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 48
+    },
+    {
+      "label": "HOMONYM child quality, unrestricted",
+      "query": "\"child quality\"",
+      "n": 793
+    },
+    {
+      "label": "HOMONYM child quality INTERSECT childcare/service quality",
+      "query": "\"child quality\" AND (\"child care\" OR \"childcare\" OR \"quality of care\" OR \"day care\")",
+      "n": 47
+    },
+    {
+      "label": "HOMONYM child quality INTERSECT clinical/health-services",
+      "query": "\"child quality\" AND (\"patients\" OR \"hospital\" OR \"clinical\" OR \"health care quality\")",
+      "n": 199
+    },
+    {
+      "label": "HOMONYM child quality INTERSECT Becker vocabulary",
+      "query": "\"child quality\" AND (\"quantity\" OR \"human capital\" OR \"fertility\")",
+      "n": 258
+    },
+    {
+      "label": "HOMONYM childcare residue INSIDE the fertility-restricted frame",
+      "query": "\"child quality\" AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"child care\" OR \"childcare\" OR \"quality of care\")",
+      "n": 23
+    },
+    {
+      "label": "HOMONYM child investment, unrestricted",
+      "query": "\"child investment\"",
+      "n": 125
+    },
+    {
+      "label": "HOMONYM child investment INTERSECT development-aid framing",
+      "query": "\"child investment\" AND (\"developing countries\" OR \"poverty\" OR \"cash transfer\" OR \"nutrition\")",
+      "n": 27
+    },
+    {
+      "label": "BOUNDARY C.2.f status competition / reference standard (the wall under challenge)",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"income inequality\" OR \"status competition\" OR \"positional good\" OR \"social comparison\" OR \"educational arms race\")",
+      "n": 9
+    },
+    {
+      "label": "BOUNDARY C.2.b direct cost of children",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"cost of children\" OR \"child cost\" OR \"expenditure on children\" OR \"cost of raising children\")",
+      "n": 12
+    },
+    {
+      "label": "BOUNDARY D.2.d intensive parenting norms",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"intensive parenting\" OR \"concerted cultivation\" OR \"parenting norms\")",
+      "n": 0
+    },
+    {
+      "label": "BOUNDARY C.3.f wealth flows / value of children",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"wealth flows\" OR \"value of children\" OR \"intergenerational transfer\")",
+      "n": 11
+    },
+    {
+      "label": "BOUNDARY A.12 twin instrument (drafted -- check its pool before building one)",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"twin birth\" OR \"twinning\" OR \"twins as an instrument\" OR \"same-sex siblings\" OR \"sibling sex composition\")",
+      "n": 61
+    },
+    {
+      "label": "BOUNDARY Alexandra's compulsory-schooling chapter",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"compulsory schooling\" OR \"compulsory education\" OR \"school leaving age\" OR \"child labour law\" OR \"child labor law\")",
+      "n": 6
+    },
+    {
+      "label": "SBTC axis, unrestricted",
+      "query": "(\"skill-biased technical change\" OR \"skill biased technological change\" OR \"routine task\" OR \"routinization\" OR \"computerization\" OR \"automation\")",
+      "n": 2339090
+    },
+    {
+      "label": "SBTC axis AND fertility outcome",
+      "query": "(\"skill-biased technical change\" OR \"skill biased technological change\" OR \"routine task\" OR \"routinization\" OR \"computerization\" OR \"automation\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 12416
+    },
+    {
+      "label": "SBTC axis AND fertility AND returns-to-skill framing",
+      "query": "(\"skill-biased technical change\" OR \"skill biased technological change\" OR \"routine task\" OR \"routinization\" OR \"computerization\" OR \"automation\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"return to education\" OR \"returns to schooling\" OR \"skill premium\" OR \"college premium\")",
+      "n": 3
+    },
+    {
+      "label": "SBTC axis INTERSECT the current C.3.d axis (shared vocabulary, if any)",
+      "query": "(\"skill-biased technical change\" OR \"skill biased technological change\" OR \"routine task\" OR \"routinization\" OR \"computerization\" OR \"automation\") AND (\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 5
+    },
+    {
+      "label": "ESTIMAND returns to schooling / skill premium",
+      "query": "(\"return to education\" OR \"returns to schooling\" OR \"returns to education\" OR \"skill premium\" OR \"college premium\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 212
+    },
+    {
+      "label": "ESTIMAND returns to schooling / skill premium INTERSECT the C.3.d axis",
+      "query": "(\"return to education\" OR \"returns to schooling\" OR \"returns to education\" OR \"skill premium\" OR \"college premium\") AND (\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 14
+    },
+    {
+      "label": "ESTIMAND family-size shocks (twins / sex composition)",
+      "query": "(\"twin birth\" OR \"twinning\" OR \"sibling sex composition\" OR \"same-sex siblings\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 4690
+    },
+    {
+      "label": "ESTIMAND family-size shocks (twins / sex composition) INTERSECT the C.3.d axis",
+      "query": "(\"twin birth\" OR \"twinning\" OR \"sibling sex composition\" OR \"same-sex siblings\") AND (\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 61
+    },
+    {
+      "label": "ESTIMAND schooling reforms as the policy variation",
+      "query": "(\"compulsory schooling\" OR \"compulsory education\" OR \"school leaving age\" OR \"education reform\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 451
+    },
+    {
+      "label": "ESTIMAND schooling reforms as the policy variation INTERSECT the C.3.d axis",
+      "query": "(\"compulsory schooling\" OR \"compulsory education\" OR \"school leaving age\" OR \"education reform\") AND (\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 9
+    },
+    {
+      "label": "ESTIMAND unified growth / calibrated macro",
+      "query": "(\"unified growth\" OR \"unified growth theory\" OR \"growth and demographic transition\" OR \"calibrated overlapping generations\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 123
+    },
+    {
+      "label": "ESTIMAND unified growth / calibrated macro INTERSECT the C.3.d axis",
+      "query": "(\"unified growth\" OR \"unified growth theory\" OR \"growth and demographic transition\" OR \"calibrated overlapping generations\") AND (\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 22
+    },
+    {
+      "label": "CANDIDATE +quality-quantity (axis OR term)",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\" OR \"quality-quantity\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 900
+    },
+    {
+      "label": "CANDIDATE +child human capital (axis OR term)",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\" OR \"child human capital\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 776
+    },
+    {
+      "label": "CANDIDATE +investment in children (axis OR term)",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\" OR \"investment in children\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 944
+    },
+    {
+      "label": "CANDIDATE +parental investment (axis OR term)",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\" OR \"parental investment\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 1094
+    },
+    {
+      "label": "CANDIDATE +human capital investment (axis OR term)",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\" OR \"human capital investment\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 1068
+    },
+    {
+      "label": "CANDIDATE +sibship size (axis OR term)",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\" OR \"sibship size\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 944
+    },
+    {
+      "label": "CANDIDATE +family size and educational attainment (axis OR term)",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\" OR \"family size and educational attainment\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 804
+    },
+    {
+      "label": "CANDIDATE +dilution of resources (axis OR term)",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\" OR \"dilution of resources\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 764
+    },
+    {
+      "label": "CANDIDATE +resource dilution (axis OR term)",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\" OR \"resource dilution\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 824
+    },
+    {
+      "label": "CANDIDATE +education-fertility tradeoff (axis OR term)",
+      "query": "(\"quantity-quality\" OR \"quantity quality tradeoff\" OR \"child quality\" OR \"child investment\" OR \"sibsize\" OR \"human capital of children\" OR \"education-fertility tradeoff\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 762
+    }
+  ],
+  "marginal": [
+    {
+      "term": "quality-quantity",
+      "widened": 900,
+      "baseline": 762,
+      "gain": 138
+    },
+    {
+      "term": "child human capital",
+      "widened": 776,
+      "baseline": 762,
+      "gain": 14
+    },
+    {
+      "term": "investment in children",
+      "widened": 944,
+      "baseline": 762,
+      "gain": 182
+    },
+    {
+      "term": "parental investment",
+      "widened": 1094,
+      "baseline": 762,
+      "gain": 332
+    },
+    {
+      "term": "human capital investment",
+      "widened": 1068,
+      "baseline": 762,
+      "gain": 306
+    },
+    {
+      "term": "sibship size",
+      "widened": 944,
+      "baseline": 762,
+      "gain": 182
+    },
+    {
+      "term": "family size and educational attainment",
+      "widened": 804,
+      "baseline": 762,
+      "gain": 42
+    },
+    {
+      "term": "dilution of resources",
+      "widened": 764,
+      "baseline": 762,
+      "gain": 2
+    },
+    {
+      "term": "resource dilution",
+      "widened": 824,
+      "baseline": 762,
+      "gain": 62
+    },
+    {
+      "term": "education-fertility tradeoff",
+      "widened": 762,
+      "baseline": 762,
+      "gain": 0
+    }
+  ],
+  "refused": []
+}
