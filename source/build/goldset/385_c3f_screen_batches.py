@@ -120,8 +120,15 @@ def load():
     recs = json.loads(HYDRATED.read_text())["records"]
     # Citation-sorted, so an evenly spaced probe strides the yield curve rather than the arms.
     recs.sort(key=lambda r: -(r.get("cited_by") or 0))
-    for i, r in enumerate(recs):
-        r["screen_id"] = f"C3F{i:04d}"
+    # Ids are FROZEN by 387 and read from the file, never recomputed. They were position-based, so
+    # any change to the universe -- 387 removed 384 records -- would otherwise renumber everything
+    # below the first removal and silently invalidate every verdict already written
+    # (`stage-output-must-survive-rerun`).
+    missing = [r for r in recs if not r.get("screen_id")]
+    if missing:
+        sys.exit(f"{len(missing)} records carry no frozen screen_id. Run 387 to freeze them before "
+                 "emitting batches; recomputing them here would renumber the universe.")
+    for r in recs:
         r["title_only"] = not (r.get("abstract") or "").strip()
     return recs
 

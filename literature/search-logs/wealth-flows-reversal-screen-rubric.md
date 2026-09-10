@@ -34,8 +34,11 @@ else; C.3.d's D.1.b neighbour found four of eight papers doing exactly that.
 | `FLOW_ASSOCIATION` | a flow series against a fertility series, no identified variation | context; never primary |
 | `REVERSE` | fertility → the flow, or → expectations of support | context |
 | `THEORY` | Caldwell's statements, extensions, critiques; no empirical fertility estimate | context |
+| `OFF_SIBLING` | a determinant that is another registry entry's estimand — C.3.d's return to child human capital, D.1.b's cultural diffusion, A.3's ideational diffusion, D.2.a's female autonomy, A.1's mortality. Name the sibling in `note` | route out, named |
 | `OFF_TOPIC` | none of the above | out |
 | `INSUFFICIENT_INFO` | cannot be routed on the visible record | pairs only with `UNCERTAIN` |
+
+**`OFF_SIBLING` was added mid-probe, in stratum 1, and the earlier strata are unaffected because it was the first.** Without it, Dyson and Moore on kinship and female autonomy, Coale and Watkins on the European decline, and Becker-Murphy-Tamura on the return to human capital would all have been `OFF_TOPIC` — which is true of this chapter and useless to the review, since each is a sibling chapter's central evidence. `add-a-cell-when-the-rubric-lacks-one`.
 
 `add-a-cell-when-the-rubric-lacks-one`: if a real class of record fits nowhere, add a cell and re-run
 completed strata rather than forcing it into `OFF_TOPIC`.

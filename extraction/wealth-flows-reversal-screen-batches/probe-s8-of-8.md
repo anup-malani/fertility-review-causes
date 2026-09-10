@@ -4,127 +4,127 @@ Blinded: no provenance, no channel, no anchor or decoy flag. Apply
 `literature/search-logs/wealth-flows-reversal-screen-rubric.md`. **Every row needs a
 verdict**, including the obvious excludes.
 
-### 1. `C3F3994` — Reading Family Offices through Fiscal Geometry X–Y Interfaces for Market Capture and Intergenerational Capacity
-*2025 · Zenodo (CERN European Organization for Nuclear Research) · article · cited 0*
-
-This paper uses Fiscal Geometry as a descriptive framework to examine how Family Offices operate at the intersection of cross-border fiscal rules and intergenerational wealth transmission. Instead of treating Family Offices as collections of services, it reframes them as structural interfaces between horizontal capital movement across jurisdictions and vertical post-tax capacity across generations. The paper is non-normative and non-evaluative. It does not rank institutions or propose strategies. Its purpose is to provide a clear language for reading regulatory signals, jurisdictional boundaries, and succession structures in a consistent and repeatable way. By mapping rules, events, and constraints into an X–Y plane, the framework makes visible how fiscal systems shape long-term capacity, governance, and continuity. The result is a portable method for describing wealth structures without relying on narrative interpretation, enabling systematic comparison and audit-ready representation of complex fiscal environments.
-
-### 2. `C3F3995` — Land Without Legacy: The Case for Market-Based Appraisals on Hawaiian Home Lands
-*2026 · bepress Legal Repository · article · cited 0*
-
-The Hawaiian Homes Commission Act of 1920 (HHCA) was enacted to restore Native Hawaiians to ancestral lands and promote long term economic self-sufficiency. More than a century later, that promise remains unfulfilled. This Note argues that a central but overlooked barrier lies in the HHCA’s mandated use of the replacement cost appraisal method, which systematically undervalues homestead properties by excluding market forces. In one of the most expensive housing markets in the United States, this approach suppresses home equity, the primary means of intergenerational wealth building, and restricts beneficiaries’ access to credit and financial stability. By severing the connection between land tenure and meaningful economic gain, the HHCA’s valuation framework undermines its own rehabilitative purpose. This Note contends that adopting the sales comparison approach would better align property valuations with market realities and restore the Act’s capacity to deliver not only land, but the possibility of legacy.
-
-### 3. `C3F3996` — GOLD AS A CULTURAL INSTITUTION AND ECONOMIC CATALYST IN TAMIL SOCIETY: A HOLISTIC ANALYSIS OF TRADITIONS, IDENTITY, AND MARKET DYNAMICS
-*2026 · Zenodo (CERN European Organization for Nuclear Research) · article · cited 0*
-
-This comprehensive study explores the multifaceted role of gold and gold jewellery in Tamil society, emphasizing its deep-rooted cultural, social, religious, and economic significance. Rooted in ancient traditions dating back to the Sangam Age, gold symbolizes prosperity, purity, social status, and spiritual devotion. It plays a vital role in rituals, marriage, religious offerings, and social identity, serving as both a tangible store of wealth and a marker of cultural continuity. The study examines traditional practices such as gold gifting during festivals, weddings, naming ceremonies, and religious festivals, highlighting its function as intergenerational wealth transfer and social symbol. It also analyzes contemporary trends, including rising gold prices, digital gold investments, hallmarking, and regional variations in design and consumption. Gold’s symbolic importance persists despite modernization, with its role evolving into lightweight, fusion, and modern designs while maintaining traditional aesthetics.
-
-### 4. `C3F3997` — Reading Family Offices through Fiscal Geometry X–Y Interfaces for Market Capture and Intergenerational Capacity
-*2025 · Zenodo (CERN European Organization for Nuclear Research) · article · cited 0*
-
-This paper uses Fiscal Geometry as a descriptive framework to examine how Family Offices operate at the intersection of cross-border fiscal rules and intergenerational wealth transmission. Instead of treating Family Offices as collections of services, it reframes them as structural interfaces between horizontal capital movement across jurisdictions and vertical post-tax capacity across generations. The paper is non-normative and non-evaluative. It does not rank institutions or propose strategies. Its purpose is to provide a clear language for reading regulatory signals, jurisdictional boundaries, and succession structures in a consistent and repeatable way. By mapping rules, events, and constraints into an X–Y plane, the framework makes visible how fiscal systems shape long-term capacity, governance, and continuity. The result is a portable method for describing wealth structures without relying on narrative interpretation, enabling systematic comparison and audit-ready representation of complex fiscal environments.
-
-### 5. `C3F3998` — An Analysis of the Impact of Property Taxes on Household Savings Behavior: A Comparison between Generations
-*2023 · Institute for Future Growth · article · cited 0*
-
-This paper analyzes the impact of property taxes on household savings behavior using fiscal panel data from the 7th to the 14th. The objective is to examine whether property taxes have a significant policy effect in mitigating wealth inequality. Specifically, we focus on intergenerational inequality and use a panel fixed effect model to investigate whether changes in property taxes have different effects on different generations. When we limit the sample to the years 2014-2019, property taxes and comprehensive real estate taxes were found to have a negative impact only on the savings behavior of household heads born after 1974. Conversely, when including the period of a sharp increase in property taxes as a percentage of GDP (2020-2021), a significant negative correlation was observed in the savings behavior of household heads born before 1964. We interpret these results as supporting the notion that property taxes are a significant policy tool in determining the direction of intergenerational wealth inequality.
-
-### 6. `C3F3999` — Moving money to support social justice movements: A spiritual practice
-*2024 · Journal of Community Psychology · article · cited 0*
-
-Wealth inequality is rising, and millennials will be the future recipients of the largest intergenerational wealth transfer. Meanwhile, there is a need to move more money to support transformative social justice movements. This study examines the impact of spirituality as a motivator for the social justice movement giving among progressive young adult activists with wealth and class privilege, organizing toward the equitable redistribution of wealth, land, and power. Using survey data (n = 560), regressions and mediation models suggest that spiritual motivation was a significant positive predictor of how much participants monetarily gave to social justice movements. While religion did not significantly predict movement giving, indirect effects models showed that spirituality positively mediated the effect of being raised with any religion on movement giving compared to those indicating no religion. Implications are explored for how transformative organizing models draw upon secular spiritual practices in their pursuit of individual and collective change.
-
-### 7. `C3F4000` — The bank of mom and dad: intergenerational transfers and macroprudential regulation
-*2025 · SSRN Electronic Journal · preprint · cited 0*
+### 1. `C3F3879` — Did seniors benefit from consumption and public transfers at the expense of youth? Evidence from National Transfer Accounts in Canada’s Provinces (1997–2017)
+*2025 · The Journal of the Economics of Ageing · article · cited 0*
 
 **NO ABSTRACT**
 
-### 8. `C3F4001` — The Legislation Deficiency of Chinese Charity Incentive Mechanism and Its Improvement
-*2016 · Shanghai Caijing Daxue xuebao · article · cited 0*
+### 2. `C3F3880` — Implications of Philippine Trends in Education Financing and Projected Change in School-age Population on Education Expenditures by Income Group: Using National Transfer Accounts Results
+*2012 · no venue · report · cited 0*
 
-Charity incentive mechanism is a set of official incentives encouraging wealth flow from the private to charity, thereby enlarging public welfare supply and equalizing social resources allocation, which consists of a raft of tax deduction and exemption on charitable organizations' denoted property and self-operated income. In the process of improving the development of their own charity, all of developed countries take thorough and detailed incentive mechanisms as the keynote of their charity legislation. However, Chinese legislation related to charity fails to reflect the nature that charity law is tax-exemption law, which is also the principle reason for that Chinese charity has so far failed to break through billion scale bottleneck. Therefore, the establishment of efficient incentive mechanisms and adequate guidance with social wealth flow based on learning from the idea of supple-front reform will dramatically boost the development of Chinese charity.
+Financing of education in the Philippines is mainly by the government (public) and by households (private), and since the 1990s there has been a shift in the public/private mix in education financing toward higher private share. Between 2007 and 2040 the schooling age population of the Philippines is projected to continue to increase in size and the age structure to shift toward higher proportion in the age group that attend the tertiary school level. This paper presents results of simulations of aggregate education consumption or expenditures by age and by income group for two hypothetical scenarios: simulations using an alternative education financing mix (alternative to the 2007 financing mix); and simulations using the 2040 school-age population (in place of the 2007 population).The aggregate age profile simulations for the two scenarios are then compared with the 2007 actual aggregate age profiles to derive implications of the two sets of change on the education expenditures of the different income groups. The comparisons showed that the two changes, shift in education financing mix toward higher private share and change in school-age population age structure from 2007 to 2040, would among others result to reduced share of education resources and higher per capita private education cost for the bottom income tercile group.
 
-### 9. `C3F4002` — Preface
-*2025 · United Nations eBooks · paratext · cited 0*
+### 3. `C3F3881` — Microeconomic Effect Analysis on Kids Scalar of Family Based on "the Wealth Flows " Model Among Generations
+*2007 · Journal of Huazhong University of Science and Technology · article · cited 0*
 
-This manual picks up where the previous manual in the series left off. The earlier manual, on the methodology of National Transfer Accounts (NTAs), shows how National Accounts data can be used to construct age profiles of economic production and consumption and to illustrate how resources flow from persons in age groups producing more than they consume to those in age groups producing less than they consume (United Nations, 2013).
+According to gist of savings' Lifecycle and the Wealth Flows theory,based on simplified generations relationship and life course,a model on Wealth Flows between generations within family is constructed.The kids number of a generation affecting on parents and the next generation is respectively analyzed,for the kids number of a family choosing,Microeconomic effect on the family and kids' generation can be accumulated or dispersed between generations.Demographic effect regulations on kids choosing are also induced.
 
-### 10. `C3F4003` — Bequest Motives, Education Investment, and Social Security
+### 4. `C3F3883` — Philippines 2011 National Transfer Accounts Estimates of Consumption and Labor Income Age Profiles: Discussions on the 1991-2011 Age Profile Change and Implications on Economic Gains from the First Demographic Dividend
+*? · RePEc: Research Papers in Economics · preprint · cited 0*
+
+This paper has two parts. The first part presents and discusses the 2011 Philippine National Transfer Accounts (NTA) estimates for selected flow accounts components, the most recent estimates available for the country, and compares the 2011 to the 1991 and 1999 estimates. The second part, also covering the years 1991, 1999, and 2011, examines change in Philippine population age structure, discusses economic gains from population change and the implications of economic lifecycle change on the economic gain. In the first part, more recent information about the economic lifecycle of Filipinos is provided from the 2011 NTA: age profiles of consumption and labor income (and their components) for the year 2011, and which population age groups incurred lifecycle deficit and the sizes of the aggregate deficits. The 2011 Philippine NTA national level estimates for per capita consumption and labor income age profiles are also compared to corresponding components of the 1991 and 1999 NTA estimates to determine the general directions and relative sizes of change over time.In the second part of the paper, findings about the per capita age profiles from the first part are used. The changes in the age structure of the Philippine population over the three years are also examined in the second part. There is potential for economic gain resulting from population change, more specifically from an increasing proportion of the population in the working ages--the phenomenon often referred to as the first demographic dividend. The effects of change in the population age structure and change in the economic lifecycle on economic gain are examined in the second part of the paper in two ways: using aggregate flows estimates of the NTA for the three years and using economic support ratios as defi…
+
+### 5. `C3F3885` — “Cities, royal estates and harbours: settlement organization, flows of wealth and urban agency in Egypt in the third and early second millennium BC”
+*2023 · HAL (Le Centre pour la Communication Scientifique Directe) · book-chapter · cited 0*
+
+International audience
+
+### 6. `C3F3886` — Social Thermodynamics: Technological Transformation, Wealth Flow Equilibrium, and the Essence of Economic Crisis — A Civilizational National Power Axiomatic System Based on the Four Laws of Thermodynamics and the BZ Oscillation Reaction
+*2026 · Zenodo (CERN European Organization for Nuclear Research) · preprint · cited 0*
+
+Traditional economics remains confined to the superficial cognition of material stocks and monetary accounts, unable to explain three ultimate questions: What determines the hierarchy of wealth? What constitutes the underlying barrier of national strength? What is the nonlinear and disordered root of economic crises? Relying on the complete axiomatic system of the Zeroth, First, Second, and Third Laws of Social Thermodynamics, combined with scientific cognition of energy, the essential nature of technological energy transformation, and the Belousov–Zhabotinsky (BZ) nonlinear oscillation mechanism, this paper achieves multi-level theoretical breakthroughs. This system takes the core thermodynamic state parameters — social system internal energy , heat exchange flux , social work, entropy , and social temperature — as the quantitative base, whose mathematical foundation is strictly defined by the standard mathematical expressions of the four laws: 1. Zeroth Law of Thermodynamics: If social subsystem reaches steady-state equilibrium with , and reaches steady-state equilibrium with , then must reach equilibrium with . Its mathematical expression is: 2. First Law of Thermodynamics (Energy Conservation): The increment of internal energy of the social system equals the external energy flux absorbed by the system plus the work done on the system by the outside world, satisfying the energy conservation constraint: 3. Second Law of Thermodynamics (Entropy Increase Principle): The entropy change of the social system satisfies . For a closed social system, the total entropy increases unidirectionally with time, and the disorder evolves irreversibly: 4. Third Law of Thermodynamics: When the technological transformation level of the social system approaches the minimum threshold infi…
+
+### 7. `C3F3887` — Social Thermodynamics: Technological Transformation, Wealth Flow Equilibrium, and the Essence of Economic Crisis — A Civilizational National Power Axiomatic System Based on the Four Laws of Thermodynamics and the BZ Oscillation Reaction
+*2026 · Zenodo (CERN European Organization for Nuclear Research) · preprint · cited 0*
+
+Traditional economics remains confined to the superficial cognition of material stocks and monetary accounts, unable to explain three ultimate questions: What determines the hierarchy of wealth? What constitutes the underlying barrier of national strength? What is the nonlinear and disordered root of economic crises? Relying on the complete axiomatic system of the Zeroth, First, Second, and Third Laws of Social Thermodynamics, combined with scientific cognition of energy, the essential nature of technological energy transformation, and the Belousov–Zhabotinsky (BZ) nonlinear oscillation mechanism, this paper achieves multi-level theoretical breakthroughs. This system takes the core thermodynamic state parameters — social system internal energy , heat exchange flux , social work, entropy , and social temperature — as the quantitative base, whose mathematical foundation is strictly defined by the standard mathematical expressions of the four laws: 1. Zeroth Law of Thermodynamics: If social subsystem reaches steady-state equilibrium with , and reaches steady-state equilibrium with , then must reach equilibrium with . Its mathematical expression is: 2. First Law of Thermodynamics (Energy Conservation): The increment of internal energy of the social system equals the external energy flux absorbed by the system plus the work done on the system by the outside world, satisfying the energy conservation constraint: 3. Second Law of Thermodynamics (Entropy Increase Principle): The entropy change of the social system satisfies . For a closed social system, the total entropy increases unidirectionally with time, and the disorder evolves irreversibly: 4. Third Law of Thermodynamics: When the technological transformation level of the social system approaches the minimum threshold infi…
+
+### 8. `C3F3888` — 4.2.3.1_Z-BURIAL-ECONOMICS | 陪葬文化與資源流通模型：死亡、信仰與財富流向 (Burial Culture & Resource Circulation Model: Death, Belief, & Wealth Flow) v1.0
+*2025 · OSF Preprints (OSF Preprints) · preprint · cited 0*
+
+**NO ABSTRACT**
+
+### 9. `C3F3889` — Le déficit de cycle de vie en France: une évaluation pour la période 1979-2011
+*2015 · Munich Personal RePEc Archive (Ludwig Maximilian University of Munich) · report · cited 0*
+
+This article presents the age profiles of consumption and labor incomes computed for France following the methodology of the National Transfer Accounts. The life-cycle deficit, which is obtained by the difference between the consumption and income profiles, permits to measure the contribution of active age classes to the financing of the consumption of dependent age classes. Labor income and consumption profiles are decomposed at both the individual and the aggregate levels and their evolution between 1979 and 2011 are presented. International comparisons are also proposed.
+
+### 10. `C3F3890` — Comparing the 1999 and 2007 Philippine NTA Estimates and Examining the Effects of a Definitional Change of Overseas Workers' Remittances
+*2014 · no venue · report · cited 0*
+
+This paper compares the estimates of the 1999 and 2007 Philippine National Transfer Accounts (NTA) and examines the implications of using two alternative treatments or definitions of overseas Filipino workers` (OFW) remittances in the NTA. To reflect official definitions in the Philippine System of_x000D_ National Accounts, the treatment of OFW remittances in the estimation is changed from being mainly_x000D_ interhousehold transfers in previous NTA estimates to being mainly labor income (earnings) in the revised NTA estimates. This results in a downward revision in lifecycle deficit estimates for 1999 and 2007, highlighting the sensitivity of estimates to definitional changes.
+
+### 11. `C3F3891` — 한국의 인구 고령화와 세대간 경제 : 특징 및 전망
+*2019 · 정책연구 · article · cited 0*
+
+In order to predict the economic impact of the rapid population aging in Korea, we examined the characteristics and prospects of the generational economy using National Transfer accounts data. Korean first posted a life cycle surplus at 27 before turning back into a deficit at 56. As such, the life cycle surplus is seen in the working age group at the main workplace. Five years later, the first-ever surplus and reentry into the deficit were delayed by about two years. These changes in life-cycle deficits can be accounted for in large part by changes in private and public transfers. These are also partly linked to asset reallocation in the private sector.
+
+### 12. `C3F3892` — Demographic changes and intergenerational reallocations in Brazil, 2003–2018
+*2025 · The Journal of the Economics of Ageing · article · cited 0*
+
+**NO ABSTRACT**
+
+### 13. `C3F3894` — Measuring Economic Lifecycle and Flows across Population Age Groups: Data and Methods in the Application of the NTA in the Philippines
+*2007 · no venue · report · cited 0*
+
+This paper provides an overview of the National Transfer Accounts (NTA) system and then describes the methods and data used in the application of NTA in the Philippines. The NTA system is consistent with the System of National Accounts. It provides methodologies for assigning labor earnings and consumption to population age groups, and for estimating reallocation or transfer of economic resources across age groups. Age reallocations are generally from the working age groups to children and the elderly. Data sources for the estimation of components of the NTA Flow Accounts for the Philippines include National Income Accounts, National Health Accounts, National Education Expenditure Accounts, household income and expenditure surveys, and government finance documents. Some Philippine NTA results are presented as examples, specifically the age profiles of current consumption (C), labor income (YL), and the lifecycle deficit (LCD).
+
+### 14. `C3F3895` — Assessment of the immigrants’ impact on Slovak economy
+*2023 · Economics and Business Review/The Poznań University of Economics Review · article · cited 0*
+
+The migration process is becoming more and more intensive in European region. There are different opinions about effects from immigration on country economy. Most of them show the positive effect via fulfilling deficit in labour market and tax payments. From the other hand, there is negative long-term effect on social security system because of poor integration of immigrants into domestic population. This paper analyses effects from immigration based on United nations National transfer accounts methodology invented by Lee and Mason. This methodology is called to break down system of national accounts with respect to age groups or generations and shows economic flows between them. Findings of this paper show that earnings and consumption behaviour of immigrants and natives in Slovakia differs – immigrants work after retirement age, earn more and consume less, what leads to positive effects in aggregate life cycle deficit.
+
+### 15. `C3F3896` — Demographic Changes and Intergenerational Reallocations in Brazil, 2003-2018
 *2024 · SSRN Electronic Journal · preprint · cited 0*
 
 **NO ABSTRACT**
 
-### 11. `C3F4004` — Understanding the Provincial Generational Economy for Improved Policymaking
-*? · RePEc: Research Papers in Economics · preprint · cited 0*
+### 16. `C3F3897` — Three Essays on Demographic Changes and International Trade
+*2015 · no venue · article · cited 0*
 
-In understanding Pakistan’s economy, the national-level analysis of National Transfer Accounts (NTA) has been instrumental in providing overarching insights into the generational economy and its macroeconomic implications[1]. Yet, each province in Pakistan has its unique characteristics, like demographics and economic structures, making a provincial estimation imperative. Additionally, the 18th Amendment devolved major subjects to provinces, making it crucial to look closely at each province’s generational economy.
+Chapter 1: A Population Aging Analysis for Canada Using the National Transfer Accounts Approach: This analysis develops a new data set for Canada using an accounting methodology called National Transfer Accounts (NTA). NTA permits building an accounting system that introduces age into national accounts. NTA is consistent with the conventional national accounts and allows the estimation of lifecycle patterns for labour income and consumption from private and public sources. It also allows the calculation of per capita and aggregate lifecycle deficits (LCD) or surpluses (LCS) in an economy. In this chapter we calculate Canada’s per capita and aggregate LCD for 2006. Using demographic projections for the next five decades, we present the aggregate LCD in Canada for the period 2006 to 2056 assuming a constant per capital LCD during this time horizon. The projection results show that labour income needs to increase rapidly or consumption needs to be cut significantly to compensate for the pressure on the aggregate lifecycle deficit as a result of population aging. Chapter 2: An Overlapping Generations Computable General Equilibrium (OLG-CGE) Model with Age-dependent Rates of Time Preference: This analysis develops a methodology to introduce an age-dependent rate of time preference to calibrate an OLG-CGE model with per capita age profile consumption path derived from the NTA framework of Chapter 1. The results show that the economic impact from an aging population will be significant. The living standard will decline by 15% from the present to 2050 and decline by 20% by the year 2105. To reduce such a decline, the Canadian government may introduce policies that could encourage labour force participation. We analyze the impact of: a) an increase in the general labour force pa…
 
-### 12. `C3F4005` — Turning Citation Networks Inside Out: Studying Science Using Content-Based Knowledge Graphs from LLM-Derived Taxonomies
-*2026 · arXiv (Cornell University) · preprint · cited 0*
-
-Scientific fields are often mapped using citations and metadata, despite knowledge being transmitted primarily through content. We introduce an 'inside-out' approach that reconstructs field structure directly from text by representing each paper as a small set of interpretable knowledge components. Using a large language model to induce domain-specific taxonomies and label papers, each publication is encoded as a triplet of measure, data type, and research-question type. These triplets define a knowledge graph with edges weighted by shared papers. Applied to 617 studies on intergenerational wealth mobility, the graph reveals a stable methodological backbone centered on regression-based mobility measures, alongside substantial temporal variation in component recombination. We further utilize normalized betweenness-to-connectivity ratios to identify components and pairings that act as structural bridges disproportionate to their prevalence. This content-derived, taxonomy-driven mapping complements citation-based approaches by exposing the evolving architecture of methods, data, and questions that define a field.
-
-### 13. `C3F4006` — Migration and Inheritance: Further Lenses for the Secular Stagnation Hypothesis
+### 17. `C3F3898` — Exploring the Impact of Carbon Taxes on Environmental Policies in Developing Nations towards Economic Development
 *2024 · SSRN Electronic Journal · preprint · cited 0*
 
 **NO ABSTRACT**
 
-### 14. `C3F4007` — Is Intergenerational Elasticity (IGE) a Misleading Measure of Wealth Mobility?
+### 18. `C3F3901` — Smoothing or Strengthening the Great Gatsby Curvee? The Intergenerational Impact of China's New Rural Pension Scheme
+*2017 · SSRN Electronic Journal · preprint · cited 0*
+
+**NO ABSTRACT**
+
+### 19. `C3F3903` — Policy-making by Understanding the Generational Economy
+*2022 · The Pakistan Development Review · article · cited 0*
+
+The current population age structure of Pakistan provides the country an opportunity to reap the demographic dividend but there is no concrete evidence on its magnitude. The National Transfer Accounts (NTA) can fill this gap by quantifying the wealth flows taking place in a population through an improved understanding of the generational economy.2 The NTA provides estimates of people’s income and their consumption at every age. What is more important, however, is that the NTA helps to understand how do people, especially the young and the old who consume more than they produce, support themselves. It sheds light on whether it is through the private or public sources that the existing deficit—the difference between income and consumption—if any is filled. The estimation of the NTA for Pakistan, therefore, would strengthen our understanding of the linkages between population dynamics and development. The NTA for Pakistan provides the opportunity to look at the economic indicators through the perspective of age. It can help design public policies ranging from healthcare, education, gender equality, reproductive health and social protection to economic, social and political implications of population ageing and generational equity.
+
+### 20. `C3F3910` — The Impact of Resources and Family-Level Cultural Practices on Immigrant Women vs Workforce Participation
+*2018 · no venue · book-chapter · cited 0*
+
+This article aims to assess the extent to which women’s labor force participation reflects culturally or situationally induced family strategies above and beyond the well-known effects of opportunities and constraints associated with education and the life cycle. We focus particularly on women immigrants from the former Yugoslavia in Australia, and explore the family strategies by comparing the Yugoslav women systematically to immigrant women from other parts of the Mediterranean world and to immigrant women from other parts of the Slavic world. To this end, we use data from the one percent public use sample of individual records of the 1981 Australian Census. We find that the labor force participation patterns of immigrant women from the former Yugoslavia are more shaped by education and less shaped by the life course than is true of other groups, although the life course matters for all of them. Indeed, in the impact of education on labor force they closely resemble the Eastern Europeans across most of the range of education. But in the impact of life cycle stage on participation they more closely resemble the Greeks and the Italians. This emphasizes how important it is that statistical agencies release data at the greatest possible level of detail: A country may belong in one group for some purposes, but in a different group for other purposes. We assess a number of explanations for birthplace differences in participation patterns, and find most wanting. We suggest that they may reflect culturally conditioned intergenerational wealth flows and patterns of time investment in children and the elderly.
+
+### 21. `C3F3918` — Education-as-Inheritance Crowds Out Education-as-Opportunity
+*2013 · SSRN Electronic Journal · preprint · cited 0*
+
+**NO ABSTRACT**
+
+### 22. `C3F3920` — Understanding the Provincial Generational Economy for Improved Policy-making
+*2025 · The Pakistan Development Review · article · cited 0*
+
+AbstractIntroductionIn understanding Pakistan’s economy, the national-level analysis of National Transfer Accounts (NTA) has been instrumental in providing overarching insights into the generational economy and its macroeconomic implications[1]. Yet, each province in Pakistan has its unique characteristics, like demographics and economic structures, making a provincial estimation imperative. Additionally, the 18th Amendment devolved major subjects to provinces, making it crucial to look closely at each province’s generational economy.The demographic transition currently underway in Pakistan presents an opportune moment, often referred to as the ‘demographic dividend,’ wherein the country’s large working-age population can potentially drive economic growth. However, unlocking this potential requires policymakers to be equipped with precise and province-specific data on age structure changes and their economic ramifications. The adoption of the NTA framework at the provincial level emerges as a strategic approach to gaining deeper insights into the wealth flows occurring within each province’s population. This localized analysis allows for a granular understanding of how individuals across different age groups contribute to, consume, and share resources, both in private and public spheres. By focusing on provinces, it aims to estimate age-specific economic indicators, spot disparities in economic behaviors across regions, analyze contributions from public and private sources, guide provincial policies, and ultimately provide policymakers with informed insights to foster inclusive, sustainable development tailored to the unique characteristics of each province.
+
+### 23. `C3F3927` — Social Welfare, Parental Altruism and Inequality
+*2018 · SSRN Electronic Journal · preprint · cited 0*
+
+**NO ABSTRACT**
+
+### 24. `C3F3939` — The Gospel of Wealth for African Americans: A 120-Hour Course for Black Business Success
 *2025 · SSRN Electronic Journal · preprint · cited 0*
 
 **NO ABSTRACT**
 
-### 15. `C3F4008` — Is intergenerational elasticity (IGE) a misleading measure of wealth mobility?
-*2025 · PLoS ONE · article · cited 0*
-
-Intergenerational elasticity (IGE) is a widely used measure of wealth mobility, represented as the slope in an AR(1) model. While intended to capture the extent of wealth mobility between generations, this paper identifies two key issues with its use. First, the IGE provides meaningful insights only when paired with the model's convergence value, which is embedded in the intercept. A low IGE, often interpreted as high wealth mobility, does not necessarily imply that every subgroup of the population regresses to the same wealth level. Instead, it reflects the average rate at which the population converges toward the overall mean. Second, a comprehensive understanding of society's wealth mobility requires a low variance of each parameter across subgroups. A high variance suggests that different subgroups converge to different wealth levels or at different rates. In order to use the IGE as a comparative measure across countries and time periods, we suggest examining both parameters and their variance. This way, a more nuanced and thorough assessment of intergenerational wealth mobility can be achieved.
-
-### 16. `C3F4009` — Dividend Reinvestment Wealth Funds for Financial Inclusion GPIA-DIV and the Transformation of Generational Wealth
-*2026 · SSRN Electronic Journal · preprint · cited 0*
-
-**NO ABSTRACT**
-
-### 17. `C3F4010` — Development of Future Generations: Oriented Virtual Negotiation Support System for Intergenerational Conflict
-*2008 · Chinese Journal of Population Resources and Environment · article · cited 0*
-
-**NO ABSTRACT**
-
-### 18. `C3F4011` — Financialisation and illegal capital flight
-*2024 · no venue · book-chapter · cited 0*
-
-For years illegal capital flight from South Africa has resulted in a staggering loss of wealth for the country. Below I investigate efforts to curb these flows of wealth. I argue that capital flight not only shifts resources elsewhere as is commonly presumed, it also shifts speculation elsewhere – capital flight is financialised.
-
-### 19. `C3F4012` — Provincial Transfer Accounts: Generational Economy in Punjab, Sindh, Khyber Pakhtunkhwa and Balochistan
-*? · RePEc: Research Papers in Economics · preprint · cited 0*
-
-While the national-level analysis of National Transfer Accounts (NTA) provides valuable insights into the generational economy and its macroeconomic implications, a more granular understanding of the provincial dynamics is essential for effective policymaking in Pakistan. Each province in the country exhibits unique demographic patterns, economic structures and social contexts, which necessitate a localized examination of the generational economy. The passage of the 18th Amendment of the constitution devolved many major subjects to the provinces, including health and education, making such a disaggregated estimation imperative.
-
-### 20. `C3F4013` — To Bequeath, or Not to Bequeath? On Labour Income Risk and Top Wealth Concentration
-*2024 · The B E Journal of Theoretical Economics · article · cited 0*
-
-Abstract Recent theoretical advances suggest that capital income risk, rather than earnings uncertainty, is the key determinant of fat-tailed behavior of stationary wealth distributions. I provide novel insights into this issue by studying an incomplete market model with general time and state separable preferences, where parental altruism and unobservable idiosyncratic shocks engender non-linear bequest rules. I analytically pin down conditions on the preference structure and other model’s primitives under which optimal bequest behavior hinders intergenerational wealth transmission for any degree of capital income risk, causing the dynamics of wealth to converge to a unique (stationary) distribution with thin tails. These results imply, in particular, that (i) the stochastic properties of labour income risk (as shaped by, e.g. fiscal policies) may play a role in defining the structure of the upper tail of the limiting distribution of wealth, and that (ii) matching empirically documented fat tails with choice theoretic frameworks of wealth dynamics requires joint restrictions on preferences and calibrated earnings processes to be met.
-
-### 21. `C3F4014` — Intergenerational finance: parental housing wealth and children’s financial outcomes
-*2018 · 25th Annual European Real Estate Society Conference · conference-paper · cited 0*
-
-In this paper I study the effect of changes in the value of parental housing wealth during children’s teenage years on the parental and children’s financial outcomes and consumption patterns later in life. Increases in the value of home equity when children are teenagers affect the parents’ ability to finance children’s further education as well as other expenditures. In particular, appreciating house prices increase the value of housing equity, which in turn can increase parental investment in their children’s education due to a “wealth” effect, or because the value of their collateral to be used for financing college debt has increased. By using parental and their children’s demographic and financial information from the Panel of Income Dynamics (PSID), I investigate how increases in the housing value just before children turn 18, affect their indebtedness levels later in life, their likelihood of purchasing a house and their predominant choice of financing house purchases, as well as their consumption choices. In particular, I study whether these intergenerational wealth transfers operate through relaxation of financing constraints (the collateral channel), or through increases in wealth (the wealth channel).
-
-### 22. `C3F4015` — Business Dimensions of Grief
-*2026 · Theseus (Ammattikorkeakoulujen) · dissertation · cited 0*
-
-Estate-related client encounters are among the most emotionally demanding situations in private banking. As intergenerational wealth transfers accelerate, managing these encounters with emotional awareness is becoming increasingly critical for client relationship continuity. This study examined how emotional leadership and emotional capability are recognized, supported, and experienced within estate management at Nordea Private Banking Finland, with the aim of identifying structural gaps and development opportunities. Data were collected through an internal employee survey and two external benchmark interviews with professionals in veterinary and palliative care settings. Qualitative content analysis was the primary analytical method, with descriptive statistical analysis as support. The findings reveal a resilient workforce operating without sufficient organizational support. Peer support emerged as the primary coping mechanism, while organizational emotional frameworks and workload recognition were identified as the most significant structural gaps. Development proposals address individual emotional competence, client encounter design, and organizational conditions for sustained emotional leadership, with direct effects on client trust, relationship continuity, and asset preservation across generational transitions.
-
-### 23. `C3F4016` — The Per Capita Distribution Disconnect: A Blueprint For Reforming The Law Of Life Insurance
-*2026 · SSRN Electronic Journal · preprint · cited 0*
-
-**NO ABSTRACT**
-
-### 24. `C3F4017` — Inheritance, Gifts and the Wealth Deficit of Low-Income Households
-*2021 · no venue · preprint · cited 0*
-
-Many low-income households in rich countries have very little wealth, but the role of intergenerational wealth transmission in underpinning this deficit is not known. This paper seeks to fill that gap by investigating patterns of past wealth transfer receipt for low-income versus other households in seven rich countries and assessing the contribution that these transfers, or their absence, make to current wealth levels. We find that households on low incomes are relatively disadvantaged in terms of intergenerational transfers received in the past, both in terms of the likelihood of having received any and the amounts received by those who do benefit from such transfers. The role that this disadvantage plays in the linkage between current low income and low wealth is assessed and evidence presented that it is significant. Simulation of a universal wealth transfer scheme or ‘capital endowment’ on reaching adulthood for two countries shows that such a policy could lead to a marked decline in the proportion of low-income adults with no wealth. This and alternative or complementary policy responses to these wealth deficits merit the most serious attention. (Stone Center on Socio-Economic Inequality Working Paper)
-
-### 25. `C3F4018` — Dynamics of Intergenerational Transfers and Wealth Accumulation
-*2025 · Research Square · preprint · cited 0*
+### 25. `C3F3945` — The Gospel of Wealth for African Americans: A 120-Hour Course for Black Business Success
+*2025 · SSRN Electronic Journal · preprint · cited 0*
 
 **NO ABSTRACT**

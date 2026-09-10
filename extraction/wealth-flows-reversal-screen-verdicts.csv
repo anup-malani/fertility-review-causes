@@ -1,0 +1,51 @@
+screen_id,cell,flow_direction,flow_object,outcome_object,outcome_level,identified,phenomenon,confidence,rater,batch,note
+C3F0000,THEORY,NET,PRIVATE_FAMILY,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s1-of-8,Becker Treatise; models intergenerational transfers and demand for children but states no testable net-flow claim
+C3F0001,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s1-of-8,tropical deforestation; land-fertility homonym
+C3F0002,OFF_SIBLING,NA,NA,FERTILITY,NA,NO,OTHER,CERTAIN,hand,probe-s1-of-8,C.3.d - return to child human capital drives fertility; theory model
+C3F0003,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,SDT,CERTAIN,hand,probe-s1-of-8,D.1.a - van de Kaa second demographic transition; descriptive
+C3F0004,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,OTHER,CERTAIN,hand,probe-s1-of-8,D.2.a - Dyson and Moore kinship structure and female autonomy
+C3F0005,THEORY,DOWNWARD,PRIVATE_FAMILY,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s1-of-8,Becker-Barro dynastic altruism; child-rearing cost and cross-generation arbitrage
+C3F0006,THEORY,NET,PRIVATE_FAMILY,NONE,NA,NO,FDT,UNCERTAIN,hand,probe-s1-of-8,no abstract; title is Caldwell's monograph and this may be a review of it rather than the work
+C3F0007,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,OTHER,CERTAIN,hand,probe-s1-of-8,A.8 - Bongaarts proximate determinants framework
+C3F0008,THEORY,DOWNWARD,PRIVATE_FAMILY,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s1-of-8,Becker 1960; children as consumption and investment goods
+C3F0009,THEORY,DOWNWARD,PRIVATE_FAMILY,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s1-of-8,no abstract; Willis household model of fertility
+C3F0010,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,YES,SDT,CERTAIN,hand,probe-s1-of-8,A.19 - epidemiological approach; culture proxied by country of ancestry
+C3F0011,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s1-of-8,Dasgupta well-being and destitution; no fertility estimand in the visible record
+C3F0012,THEORY,NET,PRIVATE_FAMILY,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s1-of-8,Barro-Becker; intergenerational transfers and fertility jointly chosen in a growth model
+C3F0013,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,FDT,UNCERTAIN,hand,probe-s1-of-8,no abstract; A.3 - Coale and Watkins European Fertility Project
+C3F0014,OFF_SIBLING,NA,NA,NONE,NA,NO,OTHER,UNCERTAIN,hand,probe-s1-of-8,no abstract; A.1 - kin effects on child survival not on resource flows
+C3F0015,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,OTHER,CERTAIN,hand,probe-s1-of-8,A.3 - Bongaarts and Watkins social interaction and diffusion
+C3F0016,THEORY,NET,MIXED,NONE,NA,NO,FDT,CERTAIN,hand,probe-s1-of-8,Lee JEP review of the transition; carries transfer framing but presents no flow series against fertility
+C3F0017,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s1-of-8,no abstract; child sexual abuse sourcebook
+C3F0018,THEORY,NET,PRIVATE_FAMILY,NONE,NA,NO,FDT,CERTAIN,hand,probe-s1-of-8,Caldwell 1976 restatement; the registered claim's founding statement
+C3F0019,OFF_SIBLING,NA,NA,NONE,NA,NO,SDT,CERTAIN,hand,probe-s1-of-8,D.2.d - children's time use and parental investment
+C3F0020,THEORY,NA,NA,NONE,NA,NO,FDT,CERTAIN,hand,probe-s1-of-8,Kirk demographic transition theory review; net-flow account is one of several surveyed
+C3F0021,THEORY,NET,PRIVATE_FAMILY,NONE,NA,NO,FDT,CERTAIN,hand,probe-s1-of-8,Cleland and Wilson iconoclastic view; a direct critique of the cost-benefit account this chapter tests
+C3F0022,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s1-of-8,macroeconomics of population ageing; no fertility estimand
+C3F0023,FLOW_ASSOCIATION,UPWARD,PRIVATE_FAMILY,FERTILITY,REALIZED,NO,FDT,CERTAIN,hand,probe-s1-of-8,Caldwell and Caldwell sub-Saharan Africa; names upward flows of wealth as the mechanism sustaining high fertility but estimates nothing
+C3F0024,THEORY,UPWARD,PRIVATE_FAMILY,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s1-of-8,Baland and Robinson child labour and bequests; upward flow modelled but no fertility outcome
+C3F3994,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8-preprune,family offices and cross-border fiscal structuring; finance sense of intergenerational wealth
+C3F3995,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8-preprune,Hawaiian Home Lands appraisal law; home equity as wealth building
+C3F3996,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8-preprune,gold as a cultural institution in Tamil society
+C3F3997,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8-preprune,duplicate deposit of C3F3994 - same title year and venue
+C3F3998,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8-preprune,property taxes and household savings
+C3F3999,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8-preprune,philanthropic giving and spirituality
+C3F4000,OFF_TOPIC,DOWNWARD,PRIVATE_FAMILY,NONE,NA,NO,OTHER,UNCERTAIN,hand,probe-s8-of-8-preprune,no abstract; parental transfers for house purchase studied for macroprudential policy - a downward transfer with no fertility outcome; see the bequest boundary question
+C3F4001,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8-preprune,charity incentive legislation; wealth flow homonym
+C3F4002,FLOW_MEASUREMENT,NET,PRIVATE_FAMILY,FLOW_MAGNITUDE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8-preprune,UN National Transfer Accounts manual; age profiles of production and consumption - the demsig input in method form
+C3F4003,INSUFFICIENT_INFO,NA,NA,NONE,NA,UNCLEAR,OTHER,UNCERTAIN,hand,probe-s8-of-8-preprune,no abstract; bequest motives education investment and social security could be in scope or C.3.c
+C3F4004,FLOW_MEASUREMENT,NET,PRIVATE_FAMILY,FLOW_MAGNITUDE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8-preprune,provincial NTA for Pakistan; generational economy age profiles
+C3F4005,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8-preprune,bibliometric method paper that happens to use intergenerational wealth studies as its corpus
+C3F4006,INSUFFICIENT_INFO,NA,NA,NONE,NA,UNCLEAR,OTHER,UNCERTAIN,hand,probe-s8-of-8-preprune,no abstract; migration and inheritance under secular stagnation
+C3F4007,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8-preprune,intergenerational elasticity as a wealth mobility measure
+C3F4008,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8-preprune,same work as C3F4007 in a journal version; wealth mobility measurement
+C3F4009,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8-preprune,no abstract; dividend reinvestment funds
+C3F4010,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8-preprune,no abstract; negotiation support system for intergenerational conflict
+C3F4011,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8-preprune,illegal capital flight and financialisation
+C3F4012,FLOW_MEASUREMENT,NET,PRIVATE_FAMILY,FLOW_MAGNITUDE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8-preprune,provincial transfer accounts Pakistan; same programme as C3F4004
+C3F4013,OFF_TOPIC,DOWNWARD,PRIVATE_FAMILY,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8-preprune,bequest rules and top wealth concentration; a wealth-distribution question
+C3F4014,OFF_TOPIC,DOWNWARD,PRIVATE_FAMILY,NONE,NA,YES,OTHER,CERTAIN,hand,probe-s8-of-8-preprune,parental housing wealth and children's financial outcomes; identified but no fertility outcome
+C3F4015,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8-preprune,estate management and emotional leadership in private banking
+C3F4016,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8-preprune,no abstract; life insurance distribution law
+C3F4017,OFF_TOPIC,DOWNWARD,PRIVATE_FAMILY,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8-preprune,inheritance receipt and the wealth deficit of low-income households
+C3F4018,INSUFFICIENT_INFO,NA,NA,NONE,NA,UNCLEAR,OTHER,UNCERTAIN,hand,probe-s8-of-8-preprune,no abstract; dynamics of intergenerational transfers and wealth accumulation

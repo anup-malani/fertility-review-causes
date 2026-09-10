@@ -1,0 +1,331 @@
+{
+  "date": "2026-09-10",
+  "universe": 4565,
+  "only_flowmeas": 1199,
+  "also_gated": 169,
+  "by_term": {
+    "intergenerational wealth": 403,
+    "National Transfer Accounts": 263,
+    "lifecycle deficit": 45,
+    "flow of wealth": 70,
+    "life cycle deficit": 37,
+    "wealth flows": 86,
+    "intergenerational resource flows": 6,
+    "net intergenerational transfer": 2
+  },
+  "finance_vocab": 419,
+  "demographic_vocab": 477,
+  "intergenerational_wealth_only": 396,
+  "iw_finance": 240,
+  "iw_demographic_not_finance": 44,
+  "would_lose": [
+    {
+      "id": "W2054484673",
+      "title": "FAVORITE SONS: INTERGENERATIONAL WEALTH TRANSFERS AMONG POLITICIANS",
+      "year": 1985,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W2043830093",
+      "title": "Indicators of Housing Finance Intergenerational Wealth Transfers",
+      "year": 1997,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W2018824314",
+      "title": "The impact of class, education, and health care on infant mortality in a developing society: The case of rural Thailand",
+      "year": 1982,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W2283579401",
+      "title": "Housing Finance and Intergenerational Wealth Transfer",
+      "year": 1997,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W4386649944",
+      "title": "Children in Need and the Great Intergenerational Wealth Transfer",
+      "year": 2023,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W2511477298",
+      "title": "Migrant household homeownership outcomes in large Chinese cities - the sustained impact ofhukou",
+      "year": 2016,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W4408672269",
+      "title": "Hidden treasures: estimating intergenerational wealth transfers in rural Canada",
+      "year": 2025,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W4400012975",
+      "title": "Rational Intergenerational Wealth Transfers and Bargaining Over Parents in One-Child Families",
+      "year": 2024,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W1967092579",
+      "title": "Demographic Structure and International Student Mobility: An Investigation of Chinese Students in Australia",
+      "year": 2010,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W2762048436",
+      "title": "The role of parents on the home ownership experience of their children: Evidence from the health and retirement study",
+      "year": 2020,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W7171298813",
+      "title": "Replication package: A Demographic Demand Floor for Bitcoin \u2014 Participation-Weighted Household Allocation and the Intergenerational Wealth Transfer",
+      "year": 2026,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W7171295796",
+      "title": "Replication package: A Demographic Demand Floor for Bitcoin \u2014 Participation-Weighted Household Allocation and the Intergenerational Wealth Transfer",
+      "year": 2026,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W4405956925",
+      "title": "Intergenerational Wealth Dynamics in an Aging Society: A Panel Data Analysis of Economic Inequality across Vietnamese Provinces",
+      "year": 2024,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W4380301204",
+      "title": "Public Education and Intergenerational Housing Wealth Effects",
+      "year": 2023,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W3117586062",
+      "title": "Rethinking entrepreneurship through distribution: distributive relations and the reproduction of racialized inequality among South African entrepreneurs",
+      "year": 2020,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W3040801271",
+      "title": "Generationing housing",
+      "year": 2017,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W4403177068",
+      "title": "Why do wealthy parents have wealthy children?",
+      "year": 2021,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W2533038857",
+      "title": "THE FUTURE OF NONPROFIT LEADERSHIP AND MANAGEMENT",
+      "year": 2012,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W589308304",
+      "title": "The American Political Family",
+      "year": 1993,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W2329314893",
+      "title": "Social Security, Liquidity Constraints, and Pre-Retirement Consumption",
+      "year": 1985,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W4392305307",
+      "title": "A Critical Review of Women\u2019s Consumption and Empowerment in China",
+      "year": 2024,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W2954511040",
+      "title": "Inheriting the family farm: Generational wealth transfers in rural Kenya",
+      "year": 2019,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W2161103598",
+      "title": "On the Intergenerational Persistence of Work Hours",
+      "year": 2006,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W4415380294",
+      "title": "When parental care hurts: extended parental care and the evolution of overparenting",
+      "year": 2025,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W4324020300",
+      "title": "Ecological and individualistic fallacies in health disparities research",
+      "year": 2023,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W4390080467",
+      "title": "A CONTENT ANALYSIS OF NATIONAL AFRICAN AMERICAN REPARATION COMMISSION\u2019S REPARATIONS PLAN FOR OLDER BLACK AMERICANS",
+      "year": 2023,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W3195814539",
+      "title": "The Parenting Trap",
+      "year": 2020,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W2263047468",
+      "title": "New Approaches to Preventing Financial Exploitation: A Focus on the Banks",
+      "year": 2016,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W7110610030",
+      "title": "Public Education and Intergenerational Housing Wealth Effects",
+      "year": null,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W2966422491",
+      "title": "Downward Mobility: When Social Lifts Change Direction",
+      "year": 2019,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W2970702656",
+      "title": "Examining access to formal justice mechanisms for vulnerable older people in the context of misuse of enduring powers of attorney",
+      "year": 2019,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W3153056249",
+      "title": "The Family and Intergenerational Justice",
+      "year": 2021,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W2277154834",
+      "title": "Testing the Effect of Family Characteristics on Locational Choice for Residence",
+      "year": 1997,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W4398223176",
+      "title": "The rebirth of survivalist entrepreneurship",
+      "year": 2024,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W2910434720",
+      "title": "\"The Prince and the Pauper\" : The effect of inherited-wealth status on productivity in the lab",
+      "year": 2019,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W2889491192",
+      "title": "Intergenerational finance: parental housing wealth and children\u2019s financial outcomes",
+      "year": 2018,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W2916766381",
+      "title": "Corporate Governance and Control: The Board\u2019s Role in M&A",
+      "year": 2019,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W7113204286",
+      "title": "Estimation of Nonlinear Intergenerational Mobility and Analysis of Influencing Factors from Perspective of Income Inequality",
+      "year": null,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W7163741080",
+      "title": "\u201cHow did I get here?\u201d: a qualitative life-course analysis of Australian women\u2019s experiences of elder abuse",
+      "year": 2026,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W7158492914",
+      "title": "Participatory systems science modeling with coalitions identifies common dynamics that drive health trends and disparities in seven communities across the United States",
+      "year": 2026,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W4366366376",
+      "title": "In This Issue",
+      "year": 2023,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W4401210061",
+      "title": "O Pioneer",
+      "year": 2024,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W7134165175",
+      "title": "Scholars and Their Kin: Historical Explorations, Literary Experiments. Edited by St\u00e9phaneGerson. University of Chicago Press, 2025. 248 pp. $30.",
+      "year": 2026,
+      "finance": false,
+      "demographic": true
+    },
+    {
+      "id": "W4362683682",
+      "title": "Stay Mad: A Love Letter to QTBIPOC Psychiatric Survivors",
+      "year": 2022,
+      "finance": false,
+      "demographic": true
+    }
+  ]
+}

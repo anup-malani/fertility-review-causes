@@ -1,0 +1,266 @@
+{
+  "date": "2026-09-10",
+  "drop_term": "intergenerational wealth",
+  "keep_terms": [
+    "wealth flows",
+    "National Transfer Accounts",
+    "lifecycle deficit",
+    "life cycle deficit",
+    "intergenerational resource flows",
+    "flow of wealth",
+    "net intergenerational transfer"
+  ],
+  "before": 4565,
+  "after": 4181,
+  "pruned": 384,
+  "anchors_protected": 30,
+  "verdicts_protected": 50,
+  "rule_validated_on": {
+    "n": 12,
+    "cells": [
+      "OFF_TOPIC"
+    ]
+  },
+  "examples": [
+    {
+      "id": "W2067786881",
+      "screen_id": "C3F0041",
+      "title": "Intergenerational Wealth Transmission and the Dynamics of Inequality in Small-Scale Societies",
+      "year": 2009
+    },
+    {
+      "id": "W2772867153",
+      "screen_id": "C3F0114",
+      "title": "Generations of Advantage. Multigenerational Correlations in Family Wealth",
+      "year": 2017
+    },
+    {
+      "id": "W2512952691",
+      "screen_id": "C3F0127",
+      "title": "Intergenerational Wealth Mobility and the Role of Inheritance: Evidence from Multiple Generations",
+      "year": 2018
+    },
+    {
+      "id": "W2003514985",
+      "screen_id": "C3F0134",
+      "title": "Intergenerational Wealth Mobility in England, 1858-2012: Surnames and Social Mobility",
+      "year": 2014
+    },
+    {
+      "id": "W2125689441",
+      "screen_id": "C3F0178",
+      "title": "Wealth Transmission and Inequality among Hunter\u2010Gatherers",
+      "year": 2010
+    },
+    {
+      "id": "W1492780117",
+      "screen_id": "C3F0282",
+      "title": "Intergenerational Wealth Transmission among Agriculturalists",
+      "year": 2010
+    },
+    {
+      "id": "W1541563375",
+      "screen_id": "C3F0283",
+      "title": "Production Systems, Inheritance, and Inequality in Premodern Societies",
+      "year": 2010
+    },
+    {
+      "id": "W1529384033",
+      "screen_id": "C3F0284",
+      "title": "The Secret Life of the Trust: The Trust as an Instrument of Commerce",
+      "year": 1997
+    },
+    {
+      "id": "W2123096446",
+      "screen_id": "C3F0305",
+      "title": "Crime and Punishment: And Skin Hue Too?",
+      "year": 2006
+    },
+    {
+      "id": "W2143283053",
+      "screen_id": "C3F0326",
+      "title": "Self-Made Wealth or Family Wealth? Changes in Intergenerational Wealth Mobility",
+      "year": 2014
+    },
+    {
+      "id": "W2924600205",
+      "screen_id": "C3F0371",
+      "title": "Intergenerational Wealth Mobility and Racial Inequality",
+      "year": 2019
+    },
+    {
+      "id": "W2028277606",
+      "screen_id": "C3F0381",
+      "title": "Dead Money: Inheritance Law and the Longevity of Family Firms",
+      "year": 2014
+    },
+    {
+      "id": "W3125970998",
+      "screen_id": "C3F0395",
+      "title": "The Correlation of Wealth Across Generations",
+      "year": 2002
+    },
+    {
+      "id": "W2802266789",
+      "screen_id": "C3F0404",
+      "title": "The SAGE Encyclopedia of Business Ethics and Society",
+      "year": 2018
+    },
+    {
+      "id": "W2805834055",
+      "screen_id": "C3F0495",
+      "title": "How Does Intergenerational Wealth Transmission Affect Wealth Concentration?",
+      "year": 2018
+    },
+    {
+      "id": "W2054484673",
+      "screen_id": "C3F0542",
+      "title": "FAVORITE SONS: INTERGENERATIONAL WEALTH TRANSFERS AMONG POLITICIANS",
+      "year": 1985
+    },
+    {
+      "id": "W1988167032",
+      "screen_id": "C3F0565",
+      "title": "Pathways into and out of Poverty: A Study of Rural Household Wealth Dynamics in Kenya",
+      "year": 2013
+    },
+    {
+      "id": "W2018824314",
+      "screen_id": "C3F0566",
+      "title": "The impact of class, education, and health care on infant mortality in a developing society: The case of rural Thailand",
+      "year": 1982
+    },
+    {
+      "id": "W2753987412",
+      "screen_id": "C3F0589",
+      "title": "The lasting effect of intergenerational wealth transfers: Human capital, family formation, and wealth",
+      "year": 2017
+    },
+    {
+      "id": "W4324020300",
+      "screen_id": "C3F0592",
+      "title": "Ecological and individualistic fallacies in health disparities research",
+      "year": 2023
+    },
+    {
+      "id": "W2511477298",
+      "screen_id": "C3F0601",
+      "title": "Migrant household homeownership outcomes in large Chinese cities - the sustained impact ofhukou",
+      "year": 2016
+    },
+    {
+      "id": "W1572084198",
+      "screen_id": "C3F0606",
+      "title": "Closing the Wealth Gap: A Review of Racial and Ethnic Inequalities in Homeownership",
+      "year": 2013
+    },
+    {
+      "id": "W2477062410",
+      "screen_id": "C3F0647",
+      "title": "Family Firm Challenges in Intergenerational Wealth Transfer",
+      "year": 2016
+    },
+    {
+      "id": "W1489347927",
+      "screen_id": "C3F0661",
+      "title": "8 Household Wealth in Latin America",
+      "year": 2008
+    },
+    {
+      "id": "W4241916049",
+      "screen_id": "C3F0686",
+      "title": "Generations of Advantage. Multigenerational Correlations in Family Wealth",
+      "year": 2017
+    },
+    {
+      "id": "W3125091525",
+      "screen_id": "C3F0696",
+      "title": "Issues in Pension Economics",
+      "year": null
+    },
+    {
+      "id": "W3123415016",
+      "screen_id": "C3F0711",
+      "title": "Household Asset Allocation, Offspring Education, and the Sandwich Generation",
+      "year": 2015
+    },
+    {
+      "id": "W2160332590",
+      "screen_id": "C3F0758",
+      "title": "Ethics, engineering and the challenge of racial reform in education",
+      "year": 2005
+    },
+    {
+      "id": "W2133143546",
+      "screen_id": "C3F0773",
+      "title": "Intergenerational Wealth Mobility in Rural Bangladesh",
+      "year": 2012
+    },
+    {
+      "id": "W3200752096",
+      "screen_id": "C3F0774",
+      "title": "Anticipating Climate-Related Changes to Residential Energy Burden in the United States: Advance Planning for Equity and Resilience",
+      "year": 2021
+    },
+    {
+      "id": "W2019493316",
+      "screen_id": "C3F0787",
+      "title": "Intergenerational Wealth Transfers and the Educational Decisions of Male Youth",
+      "year": 1975
+    },
+    {
+      "id": "W2182749524",
+      "screen_id": "C3F0788",
+      "title": "Stability and persistence of intergenerational wealth formation: Evidence from Danish wealth records of three generations",
+      "year": 2014
+    },
+    {
+      "id": "W3117307695",
+      "screen_id": "C3F0790",
+      "title": "Intergenerational wealth transfers and wealth inequality in rich countries: What do we learn from Gini decomposition?",
+      "year": 2021
+    },
+    {
+      "id": "W2252332608",
+      "screen_id": "C3F0791",
+      "title": "Is Age Discrimination Really Age Discrimination?: The Adea's Unnatural Solution",
+      "year": 1997
+    },
+    {
+      "id": "W3126081601",
+      "screen_id": "C3F0854",
+      "title": "Intergenerational Transfers in Philippine Rice Villages: Gender Differences in Traditional Inheritance Customs",
+      "year": 1991
+    },
+    {
+      "id": "W2130581798",
+      "screen_id": "C3F0920",
+      "title": "The Tax Treatment of Intergenerational Wealth Transfers",
+      "year": 2011
+    },
+    {
+      "id": "W2085947411",
+      "screen_id": "C3F0921",
+      "title": "Intergenerational Wealth Transfers and the Educational Decisions of Male Youth: An Alternative Interpretation",
+      "year": 1978
+    },
+    {
+      "id": "W4200203865",
+      "screen_id": "C3F0923",
+      "title": "Inheritance, gifts and the accumulation of wealth for low-income households",
+      "year": 2021
+    },
+    {
+      "id": "W2276079880",
+      "screen_id": "C3F0926",
+      "title": "The Social Reproduction of Systemic Racial Inequality",
+      "year": 2013
+    },
+    {
+      "id": "W2131006266",
+      "screen_id": "C3F0956",
+      "title": "Uncertain Lifetimes, Pensions, and Individual Saving",
+      "year": 1984
+    }
+  ]
+}
