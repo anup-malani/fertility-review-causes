@@ -1,5 +1,5 @@
 # TICK-086: C.3.f Intergenerational Wealth Flows Reversal
-**Status:** open
+**Status:** in-progress
 **Assigned:** Shravan
 **Hypothesis:** `wealth-flows-reversal` — HYPOTHESES-v5.md §C.3.f
 **Parallel-safe:** yes

@@ -48,7 +48,6 @@ tickets can be worked concurrently.
 
 | Ticket | Title | Assigned | Parallel-safe |
 |--------|-------|----------|---------------|
-| [TICK-086](TICK-086-wealth-flows-reversal.md) | C.3.f Intergenerational Wealth Flows Reversal | Shravan | yes |
 | [TICK-084](TICK-084-shared-resolver-version-pair-citations.md) | Version-pair citation splitting belongs in the shared resolver — A.12 said so on 2026-08-21 and it recurred on C.3.d, plus two instances of a worse shape where no twin exists to merge | any | yes |
 | [TICK-083](TICK-083-quantity-quality-tradeoff.md) | C.3.d Quantity-Quality Tradeoff | Shravan | yes |
 | [TICK-082](TICK-082-textnorm-html-markup-fold.md) | Canonical `textnorm.norm()` does not strip HTML markup — C.2.b's *defect 9*, which TICK-074 merged without because C.2.b's branch is unmerged. Found again on C.2.f | any | yes |
@@ -93,6 +92,7 @@ tickets can be worked concurrently.
 
 | Ticket | Title | Owner | Branch (the claim) | Claimed (UTC) | Touches |
 |--------|-------|-------|--------------------|---------------|---------|
+| [TICK-086](TICK-086-wealth-flows-reversal.md) | C.3.f Intergenerational Wealth Flows Reversal | Shravan | `086-wealth-flows-reversal` | 2026-09-10T22:23:37Z | `literature/search-logs/wealth-flows-reversal-*, extraction/wealth-flows-reversal-*, output/chapters/wealth-flows-reversal.md, source/build/goldset/37[6-9]*, source/build/goldset/38*, source/build/goldset/304_candidate_frame_probe.py` |
 | [TICK-080](TICK-080-cross-chapter-statistics-comparability.md) | Cross-chapter statistics — comparability, the demsig routes, and the sign-blind R². **Standing methods ticket, not a hypothesis; items 2, 4 and 5 are retroactive to drafted chapters** | Shravan | `080-cross-chapter-statistics-comparability` | 2026-09-06T17:25:24Z | `PROTOCOL.md`, `decisions/`, `docs/chapter-template.md`, `source/analysis/`, `output/tables/` |
 | [TICK-079](TICK-079-child-cost-direct.md) | C.2.b Rising Direct Costs of Children — smallest remaining frame (587) and the first candidate the fixed coverage check surfaced; the stage-2 ruling that matters is that the estimand is a price faced, not an expenditure observed — chapter drafted 2026-09-03 — SDT MINOR at 13%; stage 11 is one rater of three, stages 13 and 14 open | Shravan | `079-child-cost-direct` | 2026-09-03T16:57:27Z | `literature/search-logs/child-cost-direct-*`, `extraction/child-cost-direct-*`, `output/chapters/child-cost-direct.md` |
 | [TICK-078](TICK-078-easterlin-relative-income.md) | C.6.a Easterlin Relative Income / Cohort Size — chapter drafted 2026-09-02; SDT MINOR, GRADE VERY LOW; three PI calls open | Shravan | `078-easterlin-relative-income` | 2026-09-02T16:07:13Z | `literature/search-logs/easterlin-relative-income-*`, `extraction/easterlin-relative-income-*`, `output/chapters/easterlin-relative-income.md` |
