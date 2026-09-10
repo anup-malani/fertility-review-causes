@@ -74,14 +74,15 @@ def validate_collapse_rule():
         if not r:
             continue
         blob = f"{r.get('title') or ''} {r.get('abstract') or ''}"
-        if not OUTCOME.search(blob) and not FLOW.search(blob):
+        if (r.get("abstract") or "").strip() and not FLOW.search(blob):
             hidden.append((sid, (r.get("title") or "")[:70]))
     if hidden:
         for sid, t in hidden:
             print(f"  COLLAPSE RULE WOULD HIDE {sid}  {t}", file=sys.stderr)
         sys.exit(f"the collapse rule would hide {len(hidden)} of {len(primary)} known primary "
                  "records. Widen the patterns before reading anything with it.")
-    print(f"[collapse rule checked against {len(primary)} known primary records: hides none]",
+    print(f"[collapse rules checked against {len(primary)} known primary records — including the "
+          f"stricter flow-only tier: hides none]",
           file=sys.stderr)
 
 
@@ -89,6 +90,9 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("batch")
     ap.add_argument("--window", type=int, default=600)
+    ap.add_argument("--flow-only", action="store_true",
+                    help="also collapse records with an outcome word but NO flow vocabulary "
+                         "anywhere in the full text; they cannot be in any C.3.f cell")
     a = ap.parse_args()
     validate_collapse_rule()
     p = BATCHES / f"{a.batch}.json"
@@ -96,13 +100,28 @@ def main():
         sys.exit(f"no such batch: {p}")
     recs = json.loads(p.read_text())["records"]
 
-    skipped = []
+    # TIER 2 (--flow-only): C.3.f's estimand requires a resource flow between parents and children.
+    # A record with an outcome word but NO flow vocabulary anywhere in its full text cannot be in
+    # any of this chapter's cells -- not even FLOW_MEASUREMENT, which is defined by measuring a
+    # flow. Collapsing those to a title line is the largest available saving in a 4,181-record
+    # screen, and like tier 1 it is a confident negative, so it is validated against every known
+    # primary record before it is allowed to run.
+    skipped, flow_only = [], []
     for r in recs:
         ab = (r.get("abstract") or "").strip()
         blob = f"{r.get('title') or ''} {ab}"
         mo, mf = OUTCOME.search(blob), FLOW.search(blob)
         if not mo and not mf:
             skipped.append(r)
+            continue
+        # Only for records that HAVE an abstract. The validation refused the first version of this
+        # tier: it would have hidden 3 of 21 known primary records, and all three were TITLE-ONLY
+        # ("Lithium-ion Batteries and Fertility in Africa"; "Women's Right to Property and the
+        # Quantity-Quality Trade-Off of Children"). A title carries ~10 words, so a vocabulary test
+        # on it is far weaker evidence than the same test on 200 words of abstract, and the flow is
+        # often implied by the topic rather than named. Title-only records are always shown.
+        if a.flow_only and ab and not mf:
+            flow_only.append(r)
             continue
         print(f"{r['screen_id']} | {r.get('year')} | "
               f"{(r.get('venue') or 'no venue')[:30]} | c{r.get('cited_by')}")
@@ -115,13 +134,17 @@ def main():
                       f"{sentence_at(blob, m.start())}")
         print()
 
-    if skipped:
-        print(f"--- {len(skipped)} records with NO outcome and NO flow vocabulary anywhere in the "
-              f"full text. They cannot be in scope; titles only: ---")
-        for r in skipped:
-            print(f"  {r['screen_id']}  {r.get('year')}  {(r.get('title') or '')[:96]}")
-    print(f"\n[{len(recs)} records: {len(recs) - len(skipped)} shown in full, "
-          f"{len(skipped)} collapsed]")
+    for label, group in (("NO outcome and NO flow vocabulary", skipped),
+                         ("an outcome word but NO FLOW vocabulary anywhere", flow_only)):
+        if group:
+            print(f"--- {len(group)} records with {label} in the full text. "
+                  f"They cannot be in a C.3.f cell; titles only: ---")
+            for r in group:
+                print(f"  {r['screen_id']}  {r.get('year')}  {(r.get('title') or '')[:96]}")
+            print()
+    shown = len(recs) - len(skipped) - len(flow_only)
+    print(f"[{len(recs)} records: {shown} shown in full, {len(skipped)} no-signal, "
+          f"{len(flow_only)} outcome-only]")
 
 
 main()
