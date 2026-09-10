@@ -1,0 +1,506 @@
+{
+  "date": "2026-09-10",
+  "n_anchors": 24,
+  "n_decoys": 6,
+  "term_reach": {
+    "wealth flows": 4,
+    "intergenerational transfer": 1,
+    "intergenerational wealth": 2,
+    "value of children": 2,
+    "old age support": 0,
+    "old-age support": 0,
+    "filial support": 0,
+    "net transfers": 0,
+    "children as investment": 0,
+    "intergenerational support": 0,
+    "National Transfer Accounts": 1,
+    "lifecycle deficit": 0,
+    "life cycle deficit": 0,
+    "economic life cycle": 0,
+    "intergenerational resource flows": 0,
+    "flow of wealth": 1,
+    "direction of transfers": 0,
+    "economic value of children": 1,
+    "inheritance law": 0,
+    "inheritance reform": 0,
+    "land titling": 0,
+    "land reform": 0,
+    "bequest motive": 0,
+    "inheritance rights": 0,
+    "child labour ban": 0,
+    "child labor ban": 0,
+    "child labour law": 0,
+    "child labor law": 0,
+    "school construction": 0,
+    "schooling supply": 0,
+    "compulsory schooling": 0,
+    "compulsory education": 0,
+    "filial responsibility law": 0,
+    "filial piety law": 0,
+    "family support obligation": 0,
+    "parental maintenance": 0,
+    "maintenance of parents": 0,
+    "elderly rights law": 0,
+    "old age maintenance": 0,
+    "remittances to parents": 0,
+    "support to parents": 0,
+    "transfers to parents": 0,
+    "remittances and fertility": 0,
+    "child labour": 0,
+    "child labor": 2,
+    "child work": 0,
+    "child employment": 0,
+    "working children": 0,
+    "commodity price": 0,
+    "mining boom": 0,
+    "cash crop": 0,
+    "export crop": 0,
+    "trade shock": 0,
+    "labour demand": 0,
+    "labor demand": 0,
+    "mechanization": 0,
+    "mechanisation": 0,
+    "agricultural productivity shock": 0,
+    "mining": 2,
+    "mines": 1,
+    "plantation": 0,
+    "agricultural productivity": 0
+  },
+  "term_arm": {
+    "wealth flows": [
+      "THEORY",
+      "THEORY + intergenerational support"
+    ],
+    "intergenerational transfer": [
+      "THEORY",
+      "THEORY + intergenerational support"
+    ],
+    "intergenerational wealth": [
+      "THEORY",
+      "THEORY + intergenerational support"
+    ],
+    "value of children": [
+      "THEORY",
+      "THEORY + intergenerational support"
+    ],
+    "old age support": [
+      "THEORY",
+      "THEORY + intergenerational support"
+    ],
+    "old-age support": [
+      "THEORY",
+      "THEORY + intergenerational support"
+    ],
+    "filial support": [
+      "THEORY",
+      "THEORY + intergenerational support"
+    ],
+    "net transfers": [
+      "THEORY",
+      "THEORY + intergenerational support"
+    ],
+    "children as investment": [
+      "THEORY",
+      "THEORY + intergenerational support"
+    ],
+    "intergenerational support": [
+      "THEORY + intergenerational support"
+    ],
+    "National Transfer Accounts": [
+      "MEASUREMENT"
+    ],
+    "lifecycle deficit": [
+      "MEASUREMENT"
+    ],
+    "life cycle deficit": [
+      "MEASUREMENT"
+    ],
+    "economic life cycle": [
+      "MEASUREMENT"
+    ],
+    "intergenerational resource flows": [
+      "MEASUREMENT"
+    ],
+    "flow of wealth": [
+      "MEASUREMENT"
+    ],
+    "direction of transfers": [
+      "MEASUREMENT"
+    ],
+    "economic value of children": [
+      "MEASUREMENT"
+    ],
+    "inheritance law": [
+      "SHOCK inheritance and land"
+    ],
+    "inheritance reform": [
+      "SHOCK inheritance and land"
+    ],
+    "land titling": [
+      "SHOCK inheritance and land"
+    ],
+    "land reform": [
+      "SHOCK inheritance and land"
+    ],
+    "bequest motive": [
+      "SHOCK inheritance and land"
+    ],
+    "inheritance rights": [
+      "SHOCK inheritance and land"
+    ],
+    "child labour ban": [
+      "SHOCK schooling and child-labour law"
+    ],
+    "child labor ban": [
+      "SHOCK schooling and child-labour law"
+    ],
+    "child labour law": [
+      "SHOCK schooling and child-labour law"
+    ],
+    "child labor law": [
+      "SHOCK schooling and child-labour law"
+    ],
+    "school construction": [
+      "SHOCK schooling and child-labour law"
+    ],
+    "schooling supply": [
+      "SHOCK schooling and child-labour law"
+    ],
+    "compulsory schooling": [
+      "SHOCK schooling and child-labour law"
+    ],
+    "compulsory education": [
+      "SHOCK schooling and child-labour law"
+    ],
+    "filial responsibility law": [
+      "SHOCK filial-responsibility law"
+    ],
+    "filial piety law": [
+      "SHOCK filial-responsibility law"
+    ],
+    "family support obligation": [
+      "SHOCK filial-responsibility law"
+    ],
+    "parental maintenance": [
+      "SHOCK filial-responsibility law"
+    ],
+    "maintenance of parents": [
+      "SHOCK filial-responsibility law"
+    ],
+    "elderly rights law": [
+      "SHOCK filial-responsibility law"
+    ],
+    "old age maintenance": [
+      "SHOCK filial-responsibility law"
+    ],
+    "remittances to parents": [
+      "SHOCK remittances to parents"
+    ],
+    "support to parents": [
+      "SHOCK remittances to parents"
+    ],
+    "transfers to parents": [
+      "SHOCK remittances to parents"
+    ],
+    "remittances and fertility": [
+      "SHOCK remittances to parents"
+    ],
+    "child labour": [
+      "ROW5 labour demand x child work (narrow \u2014 the scope's)",
+      "ROW5 labour demand x child work (wide \u2014 'mining' not 'mining boom')"
+    ],
+    "child labor": [
+      "ROW5 labour demand x child work (narrow \u2014 the scope's)",
+      "ROW5 labour demand x child work (wide \u2014 'mining' not 'mining boom')"
+    ],
+    "child work": [
+      "ROW5 labour demand x child work (narrow \u2014 the scope's)",
+      "ROW5 labour demand x child work (wide \u2014 'mining' not 'mining boom')"
+    ],
+    "child employment": [
+      "ROW5 labour demand x child work (narrow \u2014 the scope's)",
+      "ROW5 labour demand x child work (wide \u2014 'mining' not 'mining boom')"
+    ],
+    "working children": [
+      "ROW5 labour demand x child work (narrow \u2014 the scope's)",
+      "ROW5 labour demand x child work (wide \u2014 'mining' not 'mining boom')"
+    ],
+    "commodity price": [
+      "ROW5 labour demand x child work (narrow \u2014 the scope's)",
+      "ROW5 labour demand x child work (wide \u2014 'mining' not 'mining boom')"
+    ],
+    "mining boom": [
+      "ROW5 labour demand x child work (narrow \u2014 the scope's)"
+    ],
+    "cash crop": [
+      "ROW5 labour demand x child work (narrow \u2014 the scope's)",
+      "ROW5 labour demand x child work (wide \u2014 'mining' not 'mining boom')"
+    ],
+    "export crop": [
+      "ROW5 labour demand x child work (narrow \u2014 the scope's)",
+      "ROW5 labour demand x child work (wide \u2014 'mining' not 'mining boom')"
+    ],
+    "trade shock": [
+      "ROW5 labour demand x child work (narrow \u2014 the scope's)",
+      "ROW5 labour demand x child work (wide \u2014 'mining' not 'mining boom')"
+    ],
+    "labour demand": [
+      "ROW5 labour demand x child work (narrow \u2014 the scope's)",
+      "ROW5 labour demand x child work (wide \u2014 'mining' not 'mining boom')"
+    ],
+    "labor demand": [
+      "ROW5 labour demand x child work (narrow \u2014 the scope's)",
+      "ROW5 labour demand x child work (wide \u2014 'mining' not 'mining boom')"
+    ],
+    "mechanization": [
+      "ROW5 labour demand x child work (narrow \u2014 the scope's)",
+      "ROW5 labour demand x child work (wide \u2014 'mining' not 'mining boom')"
+    ],
+    "mechanisation": [
+      "ROW5 labour demand x child work (narrow \u2014 the scope's)",
+      "ROW5 labour demand x child work (wide \u2014 'mining' not 'mining boom')"
+    ],
+    "agricultural productivity shock": [
+      "ROW5 labour demand x child work (narrow \u2014 the scope's)"
+    ],
+    "mining": [
+      "ROW5 labour demand x child work (wide \u2014 'mining' not 'mining boom')"
+    ],
+    "mines": [
+      "ROW5 labour demand x child work (wide \u2014 'mining' not 'mining boom')"
+    ],
+    "plantation": [
+      "ROW5 labour demand x child work (wide \u2014 'mining' not 'mining boom')"
+    ],
+    "agricultural productivity": [
+      "ROW5 labour demand x child work (wide \u2014 'mining' not 'mining boom')"
+    ]
+  },
+  "per_anchor_terms": {
+    "W1968681873": [
+      "intergenerational transfer"
+    ],
+    "W2166683595": [
+      "intergenerational wealth",
+      "value of children",
+      "wealth flows"
+    ],
+    "W2011774072": [],
+    "W2080580016": [],
+    "W2291007676": [
+      "economic value of children",
+      "mining",
+      "value of children"
+    ],
+    "W2123066109": [
+      "wealth flows"
+    ],
+    "W2125236554": [],
+    "W2072439318": [
+      "wealth flows"
+    ],
+    "W2171516515": [],
+    "W2100112274": [],
+    "W4392107509": [
+      "mines",
+      "mining"
+    ],
+    "W4390206201": [],
+    "W1586803970": [],
+    "W2133707003": [],
+    "W2071910106": [],
+    "W2085516690": [
+      "flow of wealth",
+      "intergenerational wealth"
+    ],
+    "W2079885391": [
+      "wealth flows"
+    ],
+    "W2035781515": [],
+    "W7111906193": [],
+    "W1527576846": [
+      "National Transfer Accounts"
+    ],
+    "W4300037787": [],
+    "W2929932278": [],
+    "W2112203404": [
+      "child labor"
+    ],
+    "W2119566744": [
+      "child labor"
+    ],
+    "W2041407368": [],
+    "W1517466339": [],
+    "W2031727718": [],
+    "W2035671284": [],
+    "W2168476128": [],
+    "W1541891808": []
+  },
+  "unreached": [
+    "W2011774072",
+    "W2080580016",
+    "W2125236554",
+    "W2171516515",
+    "W2100112274",
+    "W4390206201",
+    "W1586803970",
+    "W2133707003",
+    "W2071910106",
+    "W2035781515",
+    "W7111906193",
+    "W4300037787",
+    "W2929932278"
+  ],
+  "texts": {
+    "W2071910106": {
+      "title": "Toward A Restatement of Demographic Transition Theory",
+      "year": 1976,
+      "abstract_chars": 1587
+    },
+    "W1517466339": {
+      "title": "On the Interaction between the Quantity and Quality of Children",
+      "year": 1973,
+      "abstract_chars": 0
+    },
+    "W2112203404": {
+      "title": "Child Labor in the Global Economy",
+      "year": 2005,
+      "abstract_chars": 475
+    },
+    "W1527576846": {
+      "title": "Fertility, Human Capital, and Economic Growth over the Demographic Transition",
+      "year": 2009,
+      "abstract_chars": 907
+    },
+    "W2080580016": {
+      "title": "The Economic Activities of Children in a Village in Bangladesh",
+      "year": 1977,
+      "abstract_chars": 1562
+    },
+    "W2079885391": {
+      "title": "Evolutionary and Wealth Flows Theories of Fertility: Empirical Tests and New Models",
+      "year": 1994,
+      "abstract_chars": 1708
+    },
+    "W2035671284": {
+      "title": "Do Family Wealth Shocks Affect Fertility Choices? Evidence from the Housing Market",
+      "year": 2012,
+      "abstract_chars": 631
+    },
+    "W2031727718": {
+      "title": "The developmental paradigm, reading history sideways, and family change",
+      "year": 2001,
+      "abstract_chars": 972
+    },
+    "W2041407368": {
+      "title": "The Old-Age Security Motive for Fertility",
+      "year": 1985,
+      "abstract_chars": 2246
+    },
+    "W2119566744": {
+      "title": "The effect of trade liberalization on child labor",
+      "year": 2004,
+      "abstract_chars": 0
+    },
+    "W2291007676": {
+      "title": "An Anthropological Approach to the Study of the Economic Value of Children in Java and Nepal [and Comments and Reply]",
+      "year": 1978,
+      "abstract_chars": 1755
+    },
+    "W2168476128": {
+      "title": "The intergenerational transmission of fertility in contemporary Denmark: The effects of number of siblings (full and half), birth order, and whether male or female",
+      "year": 2002,
+      "abstract_chars": 1122
+    },
+    "W2166683595": {
+      "title": "On Net Intergenerational Wealth Flows: An Update",
+      "year": 2005,
+      "abstract_chars": 1287
+    },
+    "W2171516515": {
+      "title": "Useful and Priceless Children in Contemporary Welfare States",
+      "year": 2005,
+      "abstract_chars": 1161
+    },
+    "W2035781515": {
+      "title": "Evolution and the Demand for Children",
+      "year": 1989,
+      "abstract_chars": 1560
+    },
+    "W2085516690": {
+      "title": "A Theory of Fertility: From High Plateau to Destabilization",
+      "year": 1978,
+      "abstract_chars": 1293
+    },
+    "W2125236554": {
+      "title": "The co-evolution of human fertility and wealth inheritance strategies",
+      "year": 1998,
+      "abstract_chars": 2121
+    },
+    "W2929932278": {
+      "title": "Can Policy Change Culture? Government Pension Plans and Traditional Kinship Practices",
+      "year": 2021,
+      "abstract_chars": 741
+    },
+    "W2123066109": {
+      "title": "The Modern Demographic Transition: An Analysis of Subsistence Choices and Reproductive Consequences",
+      "year": 1986,
+      "abstract_chars": 826
+    },
+    "W2011774072": {
+      "title": "The economic rationality of high fertility: An investigation illustrated with Nigerian survey data",
+      "year": 1977,
+      "abstract_chars": 1721
+    },
+    "W1586803970": {
+      "title": "Rural Agricultural Change and Fertility Transition in N epal",
+      "year": 2013,
+      "abstract_chars": 1249
+    },
+    "W1968681873": {
+      "title": "The Direction of Intergenerational Transfers and Demographic Transition: The Caldwell Hypothesis Reexamined",
+      "year": 1982,
+      "abstract_chars": 236
+    },
+    "W4392107509": {
+      "title": "Lithium-ion batteries and fertility in Africa",
+      "year": 2024,
+      "abstract_chars": 823
+    },
+    "W2100112274": {
+      "title": "Fertility Transition in South and Southeast Asia",
+      "year": 2004,
+      "abstract_chars": 779
+    },
+    "W2072439318": {
+      "title": "Darwinian Transitions?: A Comment",
+      "year": 1990,
+      "abstract_chars": 664
+    },
+    "W4300037787": {
+      "title": "Fertility and Scarcity in America",
+      "year": 2015,
+      "abstract_chars": 1846
+    },
+    "W1541891808": {
+      "title": "Expenditures on Children by Families, 2007",
+      "year": 2008,
+      "abstract_chars": 941
+    },
+    "W4390206201": {
+      "title": "Long-run Impacts of Forced Labor Migration on Fertility Behaviors: Evidence from Colonial West Africa",
+      "year": 2023,
+      "abstract_chars": 173
+    },
+    "W2133707003": {
+      "title": "The influence of structural change in agriculture on childbearing among Iowa's farm population",
+      "year": 1994,
+      "abstract_chars": 1448
+    },
+    "W7111906193": {
+      "title": "Population Aging and the Generational Economy",
+      "year": null,
+      "abstract_chars": 542
+    }
+  }
+}

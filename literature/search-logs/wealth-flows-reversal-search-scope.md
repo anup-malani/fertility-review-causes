@@ -510,6 +510,65 @@ reviewed author first. But on this canon the text pattern contributed nothing at
 
 ---
 
+## 15. The production query — and why the term channel cannot be primary **[381–383]**
+
+**Recall was measured per axis against the 30 reachable anchors, and the term channel failed.**
+
+| arm | records | anchor recall |
+|---|---|---|
+| THEORY (probe vocabulary) | 1,097 | 7/24 |
+| MEASUREMENT | 151 | 3/24 |
+| SHOCK inheritance and land | 320 | 0/24 |
+| SHOCK schooling and child-labour law | 365 | 0/24 |
+| SHOCK remittances to parents | 335 | 0/24 |
+| SHOCK filial-responsibility law | 5 | 0/24 |
+| ROW 5 labour demand × child work | 19 / 46 | 0/24 |
+
+**Two of those zeros mean opposite things, and the difference decides what to fix.** The SHOCK arms
+score 0 because **no anchor lives in their cells** — §7 rows 2, 3 and 4 have no canonical work, which
+is what those rows already found. Adding terms until their recall rose would be fitting the query to
+an absence of anchors. They are left alone. THEORY's 7 of 24 is a defect.
+
+**The diagnosis was done on the anchors' own text, not by guessing.** One batched request fetched all
+thirty titles and abstracts, and every term of every arm was then tested locally against the real
+text at no further cost (`382`). It ruled out the obvious story first: 23 of 24 anchors have an
+indexed abstract, so this is not the title-only stratum. **Thirteen of twenty-four anchors contain
+not one term of any arm.** The reasons are specific and none of them is exotic:
+
+- **`wealth flows` does not reach Caldwell 1976**, the paper that founded the theory. Its abstract
+  talks about transition theory and fertility decline, and never uses the phrase.
+- `old age support` reaches **0 anchors**. Bau 2021 says "supports parents in their old age".
+- The Iowa study says "wealth-flow **theory**", singular. The plural term does not match it.
+- Turke 1989 argues the same mechanism as "resource insolvency" and a "kin hypothesis".
+- One anchor's indexed abstract is its **acknowledgements section**.
+
+**The axis was rebuilt from the anchors' own language** (`383`), mining phrases locally from the
+unreached texts and pricing each candidate by marginal anchor recall against **a baseline that
+advances as terms are accepted**. That rule earned its place immediately: priced against a frozen
+baseline, `wealth inheritance` (+5 records) and `parental investment` (+367) each claimed the *same*
+anchor, and accepting both would have bought nothing for 367 records. Three terms were accepted —
+`economic rationality of high fertility` (+2), `wealth inheritance` (+5), `productive contribution`
+(+11). Thirteen were rejected.
+
+**Rebuilt THEORY axis: 942 records, recall 11/24** — the same recall the 1,307-record version
+reached, for 365 fewer records of noise.
+
+**Ruling: this chapter is citation-channel-first.** Eleven of twenty-four is the ceiling of a
+vocabulary query on a canon whose founding paper does not use its own vocabulary, and no amount of
+term-mining closes that. The production pool is the **union of a citation channel snowballed from the
+30 resolved anchors** and the term arms above, with the term arms supplying coverage of the modern
+policy literatures the anchors do not represent. Recall figures quoted for the term arms alone are
+never quoted as the chapter's recall.
+
+**A note for the universe build, because it is a live trap.** The arms must be pulled **separately
+and deduplicated by id, never OR'd into one query string.** `381` built a union that way and OpenAlex
+collapsed it to a single arm: the union returned 46 records — exactly the count of the one
+AND-containing arm — against a THEORY arm of 1,097. The tell was that dropping arms produced
+*negative* marginals. An arm containing `AND` cannot be dropped into an `OR` chain and survive the
+parse.
+
+---
+
 ## Provenance
 
 | artifact | produced by |
@@ -519,6 +578,9 @@ reviewed author first. But on this canon the text pattern contributed nothing at
 | `c3f-inherited-seeds-2026-09-10.{json,md}` | `source/build/goldset/377_c3f_inherited_seeds.py` |
 | `c3f-wall5-null-probe-2026-09-10.{json,md}` | `source/build/goldset/379_c3f_wall5_and_null_probe.py` |
 | `c3f-anchors-2026-09-10.{json,md}` | `source/build/goldset/380_c3f_anchors.py` (uses `source/lib/openalex.py`) |
+| `c3f-query-calibration-2026-09-10.{json,md}` | `source/build/goldset/381_c3f_query_calibration.py` |
+| `c3f-anchor-vocabulary-2026-09-10.{json,md}` | `source/build/goldset/382_c3f_anchor_vocabulary_audit.py` |
+| `c3f-theory-axis-2026-09-10.{json,md}` | `source/build/goldset/383_c3f_theory_axis_rebuild.py` |
 | `c3f-inherited-seeds-routing.md` | hand-read, 2026-09-10 |
 
 Inherited seeds come from branch `063-caldwell-wealth-flows-westernization` at `5859297e`. C.3.c

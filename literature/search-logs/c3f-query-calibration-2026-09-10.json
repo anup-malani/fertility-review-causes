@@ -1,0 +1,236 @@
+{
+  "date": "2026-09-10",
+  "outcome_axis": "(\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+  "arms": {
+    "THEORY": "(\"wealth flows\" OR \"intergenerational transfer\" OR \"intergenerational wealth\" OR \"value of children\" OR \"old age support\" OR \"old-age support\" OR \"filial support\" OR \"net transfers\" OR \"children as investment\")",
+    "THEORY + intergenerational support": "(\"wealth flows\" OR \"intergenerational transfer\" OR \"intergenerational wealth\" OR \"value of children\" OR \"old age support\" OR \"old-age support\" OR \"filial support\" OR \"net transfers\" OR \"children as investment\" OR \"intergenerational support\")",
+    "MEASUREMENT": "(\"National Transfer Accounts\" OR \"lifecycle deficit\" OR \"life cycle deficit\" OR \"economic life cycle\" OR \"intergenerational resource flows\" OR \"flow of wealth\" OR \"direction of transfers\" OR \"economic value of children\")",
+    "SHOCK inheritance and land": "(\"inheritance law\" OR \"inheritance reform\" OR \"land titling\" OR \"land reform\" OR \"bequest motive\" OR \"inheritance rights\")",
+    "SHOCK schooling and child-labour law": "(\"child labour ban\" OR \"child labor ban\" OR \"child labour law\" OR \"child labor law\" OR \"school construction\" OR \"schooling supply\" OR \"compulsory schooling\" OR \"compulsory education\")",
+    "SHOCK filial-responsibility law": "(\"filial responsibility law\" OR \"filial piety law\" OR \"family support obligation\" OR \"parental maintenance\" OR \"maintenance of parents\" OR \"elderly rights law\" OR \"old age maintenance\")",
+    "SHOCK remittances to parents": "(\"remittances to parents\" OR \"support to parents\" OR \"transfers to parents\" OR \"remittances and fertility\")",
+    "ROW5 labour demand x child work (narrow \u2014 the scope's)": "(\"child labour\" OR \"child labor\" OR \"child work\" OR \"child employment\" OR \"working children\") AND (\"commodity price\" OR \"mining boom\" OR \"cash crop\" OR \"export crop\" OR \"trade shock\" OR \"labour demand\" OR \"labor demand\" OR \"mechanization\" OR \"mechanisation\" OR \"agricultural productivity shock\")",
+    "ROW5 labour demand x child work (wide \u2014 'mining' not 'mining boom')": "(\"child labour\" OR \"child labor\" OR \"child work\" OR \"child employment\" OR \"working children\") AND (\"commodity price\" OR \"mining\" OR \"mines\" OR \"cash crop\" OR \"export crop\" OR \"trade shock\" OR \"labour demand\" OR \"labor demand\" OR \"mechanization\" OR \"mechanisation\" OR \"plantation\" OR \"agricultural productivity\")"
+  },
+  "union_arms": [
+    "THEORY + intergenerational support",
+    "MEASUREMENT",
+    "SHOCK inheritance and land",
+    "SHOCK schooling and child-labour law",
+    "SHOCK filial-responsibility law",
+    "SHOCK remittances to parents",
+    "ROW5 labour demand x child work (wide \u2014 'mining' not 'mining boom')"
+  ],
+  "union_axis": "((\"wealth flows\" OR \"intergenerational transfer\" OR \"intergenerational wealth\" OR \"value of children\" OR \"old age support\" OR \"old-age support\" OR \"filial support\" OR \"net transfers\" OR \"children as investment\" OR \"intergenerational support\") OR (\"National Transfer Accounts\" OR \"lifecycle deficit\" OR \"life cycle deficit\" OR \"economic life cycle\" OR \"intergenerational resource flows\" OR \"flow of wealth\" OR \"direction of transfers\" OR \"economic value of children\") OR (\"inheritance law\" OR \"inheritance reform\" OR \"land titling\" OR \"land reform\" OR \"bequest motive\" OR \"inheritance rights\") OR (\"child labour ban\" OR \"child labor ban\" OR \"child labour law\" OR \"child labor law\" OR \"school construction\" OR \"schooling supply\" OR \"compulsory schooling\" OR \"compulsory education\") OR (\"filial responsibility law\" OR \"filial piety law\" OR \"family support obligation\" OR \"parental maintenance\" OR \"maintenance of parents\" OR \"elderly rights law\" OR \"old age maintenance\") OR (\"remittances to parents\" OR \"support to parents\" OR \"transfers to parents\" OR \"remittances and fertility\") OR (\"child labour\" OR \"child labor\" OR \"child work\" OR \"child employment\" OR \"working children\") AND (\"commodity price\" OR \"mining\" OR \"mines\" OR \"cash crop\" OR \"export crop\" OR \"trade shock\" OR \"labour demand\" OR \"labor demand\" OR \"mechanization\" OR \"mechanisation\" OR \"plantation\" OR \"agricultural productivity\")) AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+  "anchors": [
+    "W1968681873",
+    "W2166683595",
+    "W2011774072",
+    "W2080580016",
+    "W2291007676",
+    "W2123066109",
+    "W2125236554",
+    "W2072439318",
+    "W2171516515",
+    "W2100112274",
+    "W4392107509",
+    "W4390206201",
+    "W1586803970",
+    "W2133707003",
+    "W2071910106",
+    "W2085516690",
+    "W2079885391",
+    "W2035781515",
+    "W7111906193",
+    "W1527576846",
+    "W4300037787",
+    "W2929932278",
+    "W2112203404",
+    "W2119566744"
+  ],
+  "decoys": [
+    "W2041407368",
+    "W1517466339",
+    "W2031727718",
+    "W2035671284",
+    "W2168476128",
+    "W1541891808"
+  ],
+  "labels": {
+    "W1968681873": "inherited \u00b7 The Direction of Intergenerational Transfers and Demograph",
+    "W2166683595": "inherited \u00b7 On Net Intergenerational Wealth Flows: An Update",
+    "W2011774072": "inherited \u00b7 The economic rationality of high fertility: An investigati",
+    "W2080580016": "inherited \u00b7 The Economic Activities of Children in a Village in Bangla",
+    "W2291007676": "inherited \u00b7 An Anthropological Approach to the Study of the Economic V",
+    "W2123066109": "inherited \u00b7 The Modern Demographic Transition: An Analysis of Subsiste",
+    "W2125236554": "inherited \u00b7 The co-evolution of human fertility and wealth inheritance",
+    "W2072439318": "inherited \u00b7 Darwinian Transitions?: A Comment",
+    "W2171516515": "inherited \u00b7 Useful and Priceless Children in Contemporary Welfare Stat",
+    "W2100112274": "inherited \u00b7 Fertility Transition in South and Southeast Asia",
+    "W4392107509": "inherited \u00b7 Lithium-ion batteries and fertility in Africa",
+    "W4390206201": "inherited \u00b7 Long-run Impacts of Forced Labor Migration on Fertility Be",
+    "W1586803970": "inherited \u00b7 Rural Agricultural Change and Fertility Transition in N ep",
+    "W2133707003": "inherited \u00b7 The influence of structural change in agriculture on child",
+    "W2071910106": "anchor \u00b7 Caldwell 1976 \u00b7 NET/theory",
+    "W2085516690": "anchor \u00b7 Caldwell 1978 \u00b7 NET/theory",
+    "W2079885391": "anchor \u00b7 Kaplan 1994 \u00b7 NET/theory",
+    "W2035781515": "anchor \u00b7 Turke 1989 \u00b7 NET/theory",
+    "W7111906193": "anchor \u00b7 Lee 2011 \u00b7 NET/measurement",
+    "W1527576846": "anchor \u00b7 Lee 2010 \u00b7 NET/measurement",
+    "W4300037787": "anchor \u00b7 Lindert 1978 \u00b7 DOWNWARD",
+    "W2929932278": "anchor \u00b7 Bau 2021 \u00b7 CH2/identified",
+    "W2112203404": "anchor \u00b7 Edmonds 2005 \u00b7 CH2/identified",
+    "W2119566744": "anchor \u00b7 Edmonds 2005 \u00b7 CH2/identified",
+    "W2041407368": "decoy \u00b7 Nugent 1985 \u00b7 C.3.c old-age security",
+    "W1517466339": "decoy \u00b7 Becker 1973 \u00b7 C.3.d quantity-quality",
+    "W2031727718": "decoy \u00b7 Thornton 2001 \u00b7 D.1.b developmental idealism",
+    "W2035671284": "decoy \u00b7 Lovenheim 2013 \u00b7 C.1.a income and wealth shocks",
+    "W2168476128": "decoy \u00b7 Murphy 2002 \u00b7 A.19 transmission of fertility",
+    "W1541891808": "decoy \u00b7 Lino 2017 \u00b7 C.2.b direct costs"
+  },
+  "per_arm": {
+    "THEORY": {
+      "axis": "(\"wealth flows\" OR \"intergenerational transfer\" OR \"intergenerational wealth\" OR \"value of children\" OR \"old age support\" OR \"old-age support\" OR \"filial support\" OR \"net transfers\" OR \"children as investment\")",
+      "n": 1097,
+      "hits": [
+        "W2072439318",
+        "W2079885391",
+        "W2085516690",
+        "W2123066109",
+        "W2133707003",
+        "W2166683595",
+        "W2291007676"
+      ],
+      "leak": []
+    },
+    "THEORY + intergenerational support": {
+      "axis": "(\"wealth flows\" OR \"intergenerational transfer\" OR \"intergenerational wealth\" OR \"value of children\" OR \"old age support\" OR \"old-age support\" OR \"filial support\" OR \"net transfers\" OR \"children as investment\" OR \"intergenerational support\")",
+      "n": 1211,
+      "hits": [
+        "W2072439318",
+        "W2079885391",
+        "W2085516690",
+        "W2123066109",
+        "W2133707003",
+        "W2166683595",
+        "W2291007676"
+      ],
+      "leak": []
+    },
+    "MEASUREMENT": {
+      "axis": "(\"National Transfer Accounts\" OR \"lifecycle deficit\" OR \"life cycle deficit\" OR \"economic life cycle\" OR \"intergenerational resource flows\" OR \"flow of wealth\" OR \"direction of transfers\" OR \"economic value of children\")",
+      "n": 151,
+      "hits": [
+        "W1527576846",
+        "W2085516690",
+        "W2291007676"
+      ],
+      "leak": []
+    },
+    "SHOCK inheritance and land": {
+      "axis": "(\"inheritance law\" OR \"inheritance reform\" OR \"land titling\" OR \"land reform\" OR \"bequest motive\" OR \"inheritance rights\")",
+      "n": 320,
+      "hits": [],
+      "leak": []
+    },
+    "SHOCK schooling and child-labour law": {
+      "axis": "(\"child labour ban\" OR \"child labor ban\" OR \"child labour law\" OR \"child labor law\" OR \"school construction\" OR \"schooling supply\" OR \"compulsory schooling\" OR \"compulsory education\")",
+      "n": 365,
+      "hits": [],
+      "leak": []
+    },
+    "SHOCK filial-responsibility law": {
+      "axis": "(\"filial responsibility law\" OR \"filial piety law\" OR \"family support obligation\" OR \"parental maintenance\" OR \"maintenance of parents\" OR \"elderly rights law\" OR \"old age maintenance\")",
+      "n": 5,
+      "hits": [],
+      "leak": []
+    },
+    "SHOCK remittances to parents": {
+      "axis": "(\"remittances to parents\" OR \"support to parents\" OR \"transfers to parents\" OR \"remittances and fertility\")",
+      "n": 335,
+      "hits": [],
+      "leak": []
+    },
+    "ROW5 labour demand x child work (narrow \u2014 the scope's)": {
+      "axis": "(\"child labour\" OR \"child labor\" OR \"child work\" OR \"child employment\" OR \"working children\") AND (\"commodity price\" OR \"mining boom\" OR \"cash crop\" OR \"export crop\" OR \"trade shock\" OR \"labour demand\" OR \"labor demand\" OR \"mechanization\" OR \"mechanisation\" OR \"agricultural productivity shock\")",
+      "n": 19,
+      "hits": [],
+      "leak": []
+    },
+    "ROW5 labour demand x child work (wide \u2014 'mining' not 'mining boom')": {
+      "axis": "(\"child labour\" OR \"child labor\" OR \"child work\" OR \"child employment\" OR \"working children\") AND (\"commodity price\" OR \"mining\" OR \"mines\" OR \"cash crop\" OR \"export crop\" OR \"trade shock\" OR \"labour demand\" OR \"labor demand\" OR \"mechanization\" OR \"mechanisation\" OR \"plantation\" OR \"agricultural productivity\")",
+      "n": 46,
+      "hits": [],
+      "leak": []
+    }
+  },
+  "union": {
+    "n": 46,
+    "recall": [],
+    "leak": []
+  },
+  "marginal": {
+    "THEORY + intergenerational support": {
+      "union_without": 46,
+      "records_added": 0,
+      "anchors_added": 0
+    },
+    "MEASUREMENT": {
+      "union_without": 46,
+      "records_added": 0,
+      "anchors_added": 0
+    },
+    "SHOCK inheritance and land": {
+      "union_without": 46,
+      "records_added": 0,
+      "anchors_added": 0
+    },
+    "SHOCK schooling and child-labour law": {
+      "union_without": 46,
+      "records_added": 0,
+      "anchors_added": 0
+    },
+    "SHOCK filial-responsibility law": {
+      "union_without": 46,
+      "records_added": 0,
+      "anchors_added": 0
+    },
+    "SHOCK remittances to parents": {
+      "union_without": 46,
+      "records_added": 0,
+      "anchors_added": 0
+    },
+    "ROW5 labour demand x child work (wide \u2014 'mining' not 'mining boom')": {
+      "union_without": 2243,
+      "records_added": -2197,
+      "anchors_added": -8
+    }
+  },
+  "unreached": [
+    "W1968681873",
+    "W2166683595",
+    "W2011774072",
+    "W2080580016",
+    "W2291007676",
+    "W2123066109",
+    "W2125236554",
+    "W2072439318",
+    "W2171516515",
+    "W2100112274",
+    "W4392107509",
+    "W4390206201",
+    "W1586803970",
+    "W2133707003",
+    "W2071910106",
+    "W2085516690",
+    "W2079885391",
+    "W2035781515",
+    "W7111906193",
+    "W1527576846",
+    "W4300037787",
+    "W2929932278",
+    "W2112203404",
+    "W2119566744"
+  ],
+  "errors": []
+}

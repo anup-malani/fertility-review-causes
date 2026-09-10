@@ -213,6 +213,35 @@ def main():
     derived("§14 unreachable (5)", 5,
             n["book_reviews_caught_by_author_gate"] + (n["retry_total"] - n["retry_recovered"]))
 
+    # ---------------------------------------------------------------- 381-383: the query
+    d381 = load("c3f-query-calibration")
+    d382 = load("c3f-anchor-vocabulary")
+    d383 = load("c3f-theory-axis")
+    arm = {k: v for k, v in d381["per_arm"].items()}
+    for label, claimed_n, claimed_r in [
+            ("THEORY", 1097, 7), ("MEASUREMENT", 151, 3),
+            ("SHOCK inheritance and land", 320, 0),
+            ("SHOCK schooling and child-labour law", 365, 0),
+            ("SHOCK remittances to parents", 335, 0),
+            ("SHOCK filial-responsibility law", 5, 0)]:
+        log(f"§15 arm records — {label[:30]}", claimed_n, arm[label]["n"])
+        log(f"§15 arm recall — {label[:30]}", claimed_r, len(arm[label]["hits"]))
+    log("§15 row 5 narrow", 19, arm["ROW5 labour demand x child work (narrow — the scope's)"]["n"])
+    log("§15 row 5 wide", 46,
+        arm["ROW5 labour demand x child work (wide — 'mining' not 'mining boom')"]["n"])
+    log("§15 anchors reached by no term of any arm", 13, len(d382["unreached"]))
+    log("§15 'old age support' anchor reach", 0, d382["term_reach"]["old age support"])
+    log("§15 baseline axis records", 924, d383["base_records"])
+    log("§15 baseline axis recall", 8, len(d383["base_recall"]))
+    log("§15 rebuilt axis records", 942, d383["final_records"])
+    log("§15 rebuilt axis recall", 11, len(d383["final_recall"]))
+    log("§15 accepted terms", 3, len(d383["accepted"]))
+    derived("§15 rejected terms", 13, len(d383["priced"]) - len(d383["accepted"]))
+    pi = next(r for r in d383["priced"] if r["term"] == "parental investment")
+    log("§15 'parental investment' frozen-baseline cost", 367, pi["records_added"])
+    derived("§15 noise saved by the advancing baseline (365)", 365, 1307 - d383["final_records"])
+    log("§15 the collapsed union", 46, d381["union"]["n"])
+
     # ---------------------------------------------------------------- EXTERNAL: C.3.c's verdict
     c3c = C3C.read_text()
     external = [("§4/§5 C.3.c FDT magnitude", "0.0677 births per woman"),
