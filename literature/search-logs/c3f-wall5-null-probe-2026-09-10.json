@@ -1,0 +1,197 @@
+{
+  "date": "2026-09-10",
+  "outcome_axis": "(\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+  "c3f_axis": "(\"wealth flows\" OR \"intergenerational transfer\" OR \"intergenerational wealth\" OR \"National Transfer Accounts\" OR \"lifecycle deficit\" OR \"life cycle deficit\" OR \"child labour contribution\" OR \"child labor contribution\" OR \"value of children\" OR \"old age support\" OR \"old-age support\" OR \"filial support\")",
+  "c1a_axis": "(\"income effect\" OR \"income elasticity\" OR \"normal good\" OR \"permanent income\" OR \"income shock\" OR \"household income\" OR \"family income\" OR \"windfall\" OR \"lottery winnings\")",
+  "ident_axis": "(\"instrumental variable\" OR \"difference-in-differences\" OR \"differences-in-differences\" OR \"natural experiment\" OR \"regression discontinuity\" OR \"randomized controlled trial\" OR \"randomised controlled trial\" OR \"event study\" OR \"synthetic control\")",
+  "row5_axis": "(\"child labour\" OR \"child labor\" OR \"child work\" OR \"child employment\" OR \"working children\") AND (\"commodity price\" OR \"mining boom\" OR \"cash crop\" OR \"export crop\" OR \"trade shock\" OR \"labour demand\" OR \"labor demand\" OR \"mechanization\" OR \"mechanisation\" OR \"agricultural productivity shock\")",
+  "filial_union": "(\"filial responsibility law\" OR \"filial piety law\" OR \"family support obligation\" OR \"parental maintenance\" OR \"maintenance of parents\" OR \"elderly rights law\" OR \"old age maintenance\" OR \"elder support law\")",
+  "rows": [
+    {
+      "label": "CONTROL C.3.f frame (the scope's 1099)",
+      "query": "(\"wealth flows\" OR \"intergenerational transfer\" OR \"intergenerational wealth\" OR \"National Transfer Accounts\" OR \"lifecycle deficit\" OR \"life cycle deficit\" OR \"child labour contribution\" OR \"child labor contribution\" OR \"value of children\" OR \"old age support\" OR \"old-age support\" OR \"filial support\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 1099
+    },
+    {
+      "label": "C.1.a neighbour frame",
+      "query": "(\"income effect\" OR \"income elasticity\" OR \"normal good\" OR \"permanent income\" OR \"income shock\" OR \"household income\" OR \"family income\" OR \"windfall\" OR \"lottery winnings\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 6397
+    },
+    {
+      "label": "overlap: C.3.f AND C.1.a",
+      "query": "(\"wealth flows\" OR \"intergenerational transfer\" OR \"intergenerational wealth\" OR \"National Transfer Accounts\" OR \"lifecycle deficit\" OR \"life cycle deficit\" OR \"child labour contribution\" OR \"child labor contribution\" OR \"value of children\" OR \"old age support\" OR \"old-age support\" OR \"filial support\") AND (\"income effect\" OR \"income elasticity\" OR \"normal good\" OR \"permanent income\" OR \"income shock\" OR \"household income\" OR \"family income\" OR \"windfall\" OR \"lottery winnings\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 51
+    },
+    {
+      "label": "C.3.f frame carrying an identified design (376 got 18)",
+      "query": "(\"wealth flows\" OR \"intergenerational transfer\" OR \"intergenerational wealth\" OR \"National Transfer Accounts\" OR \"lifecycle deficit\" OR \"life cycle deficit\" OR \"child labour contribution\" OR \"child labor contribution\" OR \"value of children\" OR \"old age support\" OR \"old-age support\" OR \"filial support\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"instrumental variable\" OR \"difference-in-differences\" OR \"differences-in-differences\" OR \"natural experiment\" OR \"regression discontinuity\" OR \"randomized controlled trial\" OR \"randomised controlled trial\" OR \"event study\" OR \"synthetic control\")",
+      "n": 18
+    },
+    {
+      "label": "overlap INSIDE the identified subset",
+      "query": "(\"wealth flows\" OR \"intergenerational transfer\" OR \"intergenerational wealth\" OR \"National Transfer Accounts\" OR \"lifecycle deficit\" OR \"life cycle deficit\" OR \"child labour contribution\" OR \"child labor contribution\" OR \"value of children\" OR \"old age support\" OR \"old-age support\" OR \"filial support\") AND (\"income effect\" OR \"income elasticity\" OR \"normal good\" OR \"permanent income\" OR \"income shock\" OR \"household income\" OR \"family income\" OR \"windfall\" OR \"lottery winnings\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"instrumental variable\" OR \"difference-in-differences\" OR \"differences-in-differences\" OR \"natural experiment\" OR \"regression discontinuity\" OR \"randomized controlled trial\" OR \"randomised controlled trial\" OR \"event study\" OR \"synthetic control\")",
+      "n": 0
+    },
+    {
+      "label": "row 2 inheritance/land AND C.1.a",
+      "query": "(\"inheritance law\" OR \"inheritance reform\" OR \"land titling\" OR \"land reform\" OR \"bequest motive\") AND (\"income effect\" OR \"income elasticity\" OR \"normal good\" OR \"permanent income\" OR \"income shock\" OR \"household income\" OR \"family income\" OR \"windfall\" OR \"lottery winnings\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 7
+    },
+    {
+      "label": "row 5 labour-demand x child work AND C.1.a",
+      "query": "(\"child labour\" OR \"child labor\" OR \"child work\" OR \"child employment\" OR \"working children\") AND (\"commodity price\" OR \"mining boom\" OR \"cash crop\" OR \"export crop\" OR \"trade shock\" OR \"labour demand\" OR \"labor demand\" OR \"mechanization\" OR \"mechanisation\" OR \"agricultural productivity shock\") AND (\"income effect\" OR \"income elasticity\" OR \"normal good\" OR \"permanent income\" OR \"income shock\" OR \"household income\" OR \"family income\" OR \"windfall\" OR \"lottery winnings\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 5
+    },
+    {
+      "label": "row 6 remittances AND C.1.a",
+      "query": "(\"remittance\" OR \"remittances\") AND (\"income effect\" OR \"income elasticity\" OR \"normal good\" OR \"permanent income\" OR \"income shock\" OR \"household income\" OR \"family income\" OR \"windfall\" OR \"lottery winnings\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 40
+    },
+    {
+      "label": "row 5 volume",
+      "query": "(\"child labour\" OR \"child labor\" OR \"child work\" OR \"child employment\" OR \"working children\") AND (\"commodity price\" OR \"mining boom\" OR \"cash crop\" OR \"export crop\" OR \"trade shock\" OR \"labour demand\" OR \"labor demand\" OR \"mechanization\" OR \"mechanisation\" OR \"agricultural productivity shock\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 19
+    },
+    {
+      "label": "row 5 carrying an identified design",
+      "query": "(\"child labour\" OR \"child labor\" OR \"child work\" OR \"child employment\" OR \"working children\") AND (\"commodity price\" OR \"mining boom\" OR \"cash crop\" OR \"export crop\" OR \"trade shock\" OR \"labour demand\" OR \"labor demand\" OR \"mechanization\" OR \"mechanisation\" OR \"agricultural productivity shock\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"instrumental variable\" OR \"difference-in-differences\" OR \"differences-in-differences\" OR \"natural experiment\" OR \"regression discontinuity\" OR \"randomized controlled trial\" OR \"randomised controlled trial\" OR \"event study\" OR \"synthetic control\")",
+      "n": 1
+    },
+    {
+      "label": "row 5 crossover with the C.3.f axis",
+      "query": "(\"child labour\" OR \"child labor\" OR \"child work\" OR \"child employment\" OR \"working children\") AND (\"commodity price\" OR \"mining boom\" OR \"cash crop\" OR \"export crop\" OR \"trade shock\" OR \"labour demand\" OR \"labor demand\" OR \"mechanization\" OR \"mechanisation\" OR \"agricultural productivity shock\") AND (\"wealth flows\" OR \"intergenerational transfer\" OR \"intergenerational wealth\" OR \"National Transfer Accounts\" OR \"lifecycle deficit\" OR \"life cycle deficit\" OR \"child labour contribution\" OR \"child labor contribution\" OR \"value of children\" OR \"old age support\" OR \"old-age support\" OR \"filial support\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 1
+    },
+    {
+      "label": "row 6 volume",
+      "query": "(\"remittance\" OR \"remittances\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 429
+    },
+    {
+      "label": "row 6 carrying an identified design",
+      "query": "(\"remittance\" OR \"remittances\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"instrumental variable\" OR \"difference-in-differences\" OR \"differences-in-differences\" OR \"natural experiment\" OR \"regression discontinuity\" OR \"randomized controlled trial\" OR \"randomised controlled trial\" OR \"event study\" OR \"synthetic control\")",
+      "n": 18
+    },
+    {
+      "label": "row 6 crossover with the C.3.f axis",
+      "query": "(\"remittance\" OR \"remittances\") AND (\"wealth flows\" OR \"intergenerational transfer\" OR \"intergenerational wealth\" OR \"National Transfer Accounts\" OR \"lifecycle deficit\" OR \"life cycle deficit\" OR \"child labour contribution\" OR \"child labor contribution\" OR \"value of children\" OR \"old age support\" OR \"old-age support\" OR \"filial support\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 5
+    },
+    {
+      "label": "row 6 signed on the TRANSFER (parents named as recipients)",
+      "query": "(\"remittance\" OR \"remittances\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"remittances to parents\" OR \"support to parents\" OR \"old age support\" OR \"filial\")",
+      "n": 6
+    },
+    {
+      "label": "spelling 'filial responsibility law'",
+      "query": "\"filial responsibility law\"",
+      "n": 21
+    },
+    {
+      "label": "spelling 'filial piety law'",
+      "query": "\"filial piety law\"",
+      "n": 9
+    },
+    {
+      "label": "spelling 'family support obligation'",
+      "query": "\"family support obligation\"",
+      "n": 33
+    },
+    {
+      "label": "spelling 'parental maintenance'",
+      "query": "\"parental maintenance\"",
+      "n": 25
+    },
+    {
+      "label": "spelling 'maintenance of parents'",
+      "query": "\"maintenance of parents\"",
+      "n": 147
+    },
+    {
+      "label": "spelling 'elderly rights law'",
+      "query": "\"elderly rights law\"",
+      "n": 1
+    },
+    {
+      "label": "spelling 'old age maintenance'",
+      "query": "\"old age maintenance\"",
+      "n": 15
+    },
+    {
+      "label": "spelling 'elder support law'",
+      "query": "\"elder support law\"",
+      "n": 0
+    },
+    {
+      "label": "filial-law union, unrestricted",
+      "query": "(\"filial responsibility law\" OR \"filial piety law\" OR \"family support obligation\" OR \"parental maintenance\" OR \"maintenance of parents\" OR \"elderly rights law\" OR \"old age maintenance\" OR \"elder support law\")",
+      "n": 250
+    },
+    {
+      "label": "filial-law union AND a fertility outcome",
+      "query": "(\"filial responsibility law\" OR \"filial piety law\" OR \"family support obligation\" OR \"parental maintenance\" OR \"maintenance of parents\" OR \"elderly rights law\" OR \"old age maintenance\" OR \"elder support law\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 5
+    },
+    {
+      "label": "filial-law union AND fertility AND an identified design",
+      "query": "(\"filial responsibility law\" OR \"filial piety law\" OR \"family support obligation\" OR \"parental maintenance\" OR \"maintenance of parents\" OR \"elderly rights law\" OR \"old age maintenance\" OR \"elder support law\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"instrumental variable\" OR \"difference-in-differences\" OR \"differences-in-differences\" OR \"natural experiment\" OR \"regression discontinuity\" OR \"randomized controlled trial\" OR \"randomised controlled trial\" OR \"event study\" OR \"synthetic control\")",
+      "n": 0
+    },
+    {
+      "label": "DETECTOR pension and social-security expansion (376 measured 26)",
+      "query": "(\"pension expansion\" OR \"social pension\" OR \"old age pension\" OR \"pension reform\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"instrumental variable\" OR \"difference-in-differences\" OR \"differences-in-differences\" OR \"natural experiment\" OR \"regression discontinuity\" OR \"randomized controlled trial\" OR \"randomised controlled trial\" OR \"event study\" OR \"synthetic control\")",
+      "n": 26
+    },
+    {
+      "label": "DETECTOR compulsory schooling reform",
+      "query": "(\"compulsory schooling\" OR \"school leaving age\" OR \"compulsory education\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"instrumental variable\" OR \"difference-in-differences\" OR \"differences-in-differences\" OR \"natural experiment\" OR \"regression discontinuity\" OR \"randomized controlled trial\" OR \"randomised controlled trial\" OR \"event study\" OR \"synthetic control\")",
+      "n": 76
+    },
+    {
+      "label": "DETECTOR cash transfer programmes",
+      "query": "(\"cash transfer\" OR \"conditional cash transfer\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\") AND (\"instrumental variable\" OR \"difference-in-differences\" OR \"differences-in-differences\" OR \"natural experiment\" OR \"regression discontinuity\" OR \"randomized controlled trial\" OR \"randomised controlled trial\" OR \"event study\" OR \"synthetic control\")",
+      "n": 78
+    },
+    {
+      "label": "OUTCOME 'fertility'",
+      "query": "(\"wealth flows\" OR \"intergenerational transfer\" OR \"intergenerational wealth\" OR \"National Transfer Accounts\" OR \"lifecycle deficit\" OR \"life cycle deficit\" OR \"child labour contribution\" OR \"child labor contribution\" OR \"value of children\" OR \"old age support\" OR \"old-age support\" OR \"filial support\") AND \"fertility\"",
+      "n": 840
+    },
+    {
+      "label": "OUTCOME 'childbearing'",
+      "query": "(\"wealth flows\" OR \"intergenerational transfer\" OR \"intergenerational wealth\" OR \"National Transfer Accounts\" OR \"lifecycle deficit\" OR \"life cycle deficit\" OR \"child labour contribution\" OR \"child labor contribution\" OR \"value of children\" OR \"old age support\" OR \"old-age support\" OR \"filial support\") AND \"childbearing\"",
+      "n": 160
+    },
+    {
+      "label": "OUTCOME 'birth rate'",
+      "query": "(\"wealth flows\" OR \"intergenerational transfer\" OR \"intergenerational wealth\" OR \"National Transfer Accounts\" OR \"lifecycle deficit\" OR \"life cycle deficit\" OR \"child labour contribution\" OR \"child labor contribution\" OR \"value of children\" OR \"old age support\" OR \"old-age support\" OR \"filial support\") AND \"birth rate\"",
+      "n": 77
+    },
+    {
+      "label": "OUTCOME 'total fertility rate'",
+      "query": "(\"wealth flows\" OR \"intergenerational transfer\" OR \"intergenerational wealth\" OR \"National Transfer Accounts\" OR \"lifecycle deficit\" OR \"life cycle deficit\" OR \"child labour contribution\" OR \"child labor contribution\" OR \"value of children\" OR \"old age support\" OR \"old-age support\" OR \"filial support\") AND \"total fertility rate\"",
+      "n": 45
+    },
+    {
+      "label": "OUTCOME 'family size'",
+      "query": "(\"wealth flows\" OR \"intergenerational transfer\" OR \"intergenerational wealth\" OR \"National Transfer Accounts\" OR \"lifecycle deficit\" OR \"life cycle deficit\" OR \"child labour contribution\" OR \"child labor contribution\" OR \"value of children\" OR \"old age support\" OR \"old-age support\" OR \"filial support\") AND \"family size\"",
+      "n": 160
+    },
+    {
+      "label": "OUTCOME 'number of children'",
+      "query": "(\"wealth flows\" OR \"intergenerational transfer\" OR \"intergenerational wealth\" OR \"National Transfer Accounts\" OR \"lifecycle deficit\" OR \"life cycle deficit\" OR \"child labour contribution\" OR \"child labor contribution\" OR \"value of children\" OR \"old age support\" OR \"old-age support\" OR \"filial support\") AND \"number of children\"",
+      "n": 211
+    },
+    {
+      "label": "'family size' INTERSECT household-size vocabulary (the worry)",
+      "query": "(\"wealth flows\" OR \"intergenerational transfer\" OR \"intergenerational wealth\" OR \"National Transfer Accounts\" OR \"lifecycle deficit\" OR \"life cycle deficit\" OR \"child labour contribution\" OR \"child labor contribution\" OR \"value of children\" OR \"old age support\" OR \"old-age support\" OR \"filial support\") AND \"family size\" AND (\"household size\" OR \"co-residence\" OR \"coresidence\" OR \"household composition\" OR \"living arrangements\")",
+      "n": 5
+    },
+    {
+      "label": "'number of children' INTERSECT the same",
+      "query": "(\"wealth flows\" OR \"intergenerational transfer\" OR \"intergenerational wealth\" OR \"National Transfer Accounts\" OR \"lifecycle deficit\" OR \"life cycle deficit\" OR \"child labour contribution\" OR \"child labor contribution\" OR \"value of children\" OR \"old age support\" OR \"old-age support\" OR \"filial support\") AND \"number of children\" AND (\"household size\" OR \"co-residence\" OR \"coresidence\" OR \"household composition\" OR \"living arrangements\")",
+      "n": 4
+    }
+  ],
+  "errors": []
+}

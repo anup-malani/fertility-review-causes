@@ -45,6 +45,8 @@ def main():
     gains = {m["term"]: m["gain"] for m in d376["marginal"]}
     d377 = load("c3f-inherited-seeds")
     d304 = load("candidate-frame-probe")
+    d379 = load("c3f-wall5-null-probe")
+    w = {r["label"]: r["n"] for r in d379["rows"]}
     probe = {r["row"][1]: r["n"] for r in d304["homonym"] if r["row"][0] == "C.3.f"}
     union = {r["row"][0]: r["n"] for r in d304["pass4_union"]}
     sublit = {r["row"][1]: r["n"] for r in d304["pass3_sublit"] if r["row"][0] == "C.3.f"}
@@ -154,6 +156,45 @@ def main():
     log("ticket/§1 C.3.f union frame on the probe", 1101, union["C.3.f"])
     log("ticket C.3.f core", 367, sublit["core (pass 1)"])
     log("§13 C.3.a union frame", 1811, union["C.3.a"])
+
+    # ---------------------------------------------------------------- 379: the amended figures
+    log("§8 Wall 5 — C.1.a neighbour frame", 6397, w["C.1.a neighbour frame"])
+    log("§8 Wall 5 — overlap", 51, w["overlap: C.3.f AND C.1.a"])
+    derived("§8 Wall 5 — share of C.3.f (4.6%)", 4.6,
+            round(100 * w["overlap: C.3.f AND C.1.a"] / FRAME, 1))
+    derived("§8 Wall 5 — share of C.1.a (0.8%)", 0.8,
+            round(100 * w["overlap: C.3.f AND C.1.a"] / w["C.1.a neighbour frame"], 1))
+    log("§8 Wall 5 — inside the identified subset", 0, w["overlap INSIDE the identified subset"])
+    log("§8 Wall 5 — identified frame, reproduced from 376", 18,
+        w["C.3.f frame carrying an identified design (376 got 18)"])
+    log("§8 Wall 5 — remittances x income", 40, w["row 6 remittances AND C.1.a"])
+    log("§8 Wall 5 — inheritance x income", 7, w["row 2 inheritance/land AND C.1.a"])
+    log("§8 Wall 5 — labour demand x income", 5, w["row 5 labour-demand x child work AND C.1.a"])
+    log("§7 row 5 volume", 19, w["row 5 volume"])
+    log("§7 row 5 identified", 1, w["row 5 carrying an identified design"])
+    log("§7 row 5 crossover", 1, w["row 5 crossover with the C.3.f axis"])
+    log("§7 row 6 volume", 429, w["row 6 volume"])
+    log("§7 row 6 identified", 18, w["row 6 carrying an identified design"])
+    log("§7 row 6 crossover", 5, w["row 6 crossover with the C.3.f axis"])
+    log("§7/§13 row 6 signed on the transfer", 6,
+        w["row 6 signed on the TRANSFER (parents named as recipients)"])
+    log("§7 row 4 — filial law across eight spellings", 250, w["filial-law union, unrestricted"])
+    log("§7 row 4 — 'maintenance of parents' alone", 147, w["spelling 'maintenance of parents'"])
+    log("§7 row 4 — with a fertility outcome", 5, w["filial-law union AND a fertility outcome"])
+    log("§7 row 4 — with an identified design", 0,
+        w["filial-law union AND fertility AND an identified design"])
+    for label, claimed in [("pension and social-security expansion (376 measured 26)", 26),
+                           ("compulsory schooling reform", 76),
+                           ("cash transfer programmes", 78)]:
+        log(f"§7 detector control — {label[:34]}", claimed, w[f"DETECTOR {label}"])
+    for term, claimed in [("fertility", 840), ("number of children", 211), ("childbearing", 160),
+                          ("family size", 160), ("birth rate", 77),
+                          ("total fertility rate", 45)]:
+        log(f"§3B outcome term — {term}", claimed, w[f"OUTCOME '{term}'"])
+    log("§3B 'family size' x household size", 5,
+        w["'family size' INTERSECT household-size vocabulary (the worry)"])
+    log("§3B 'number of children' x household size", 4,
+        w["'number of children' INTERSECT the same"])
 
     # ---------------------------------------------------------------- EXTERNAL: C.3.c's verdict
     c3c = C3C.read_text()

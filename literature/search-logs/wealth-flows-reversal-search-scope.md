@@ -4,7 +4,7 @@
 **Ticket:** TICK-086 · branch `086-wealth-flows-reversal`
 **Status:** stage 2, drafted 2026-09-10 (Shravan). The direction ruling, the walls, the estimand
 cells, the required tags, the pooling rule and the demographic-significance route are frozen below.
-Five PI calls open (§13).
+Five PI calls open (§13). **Amended 2026-09-10 (`379`)**: the three gaps this document flagged — Wall 5, §7 rows 5 and 6, and the §7 row 4 null — are now measured, and the outcome axis is calibrated. Amendments are marked **[379]**.
 
 **What is measured here and what is not.** Every count comes from
 `source/build/goldset/304_candidate_frame_probe.py`, `376_c3f_term_diagnostics.py` and
@@ -125,6 +125,23 @@ elsewhere. `intergenerational transfer` is a public-finance and behaviour-geneti
 records unrestricted, 364 of them bequest-and-estate — but the bequest residue *inside* the
 fertility-restricted frame is 33 (3.0%) and the genetics residue is **1**. `wealth flows` intersects
 capital markets 21 times unrestricted. Neither needs a homonym gate.
+
+### 3B. The outcome axis, calibrated **[379]**
+
+`calibrate-the-outcome-axis-too`. Each outcome term scored against the C.3.f exposure axis:
+
+| term | n |
+|---|---|
+| `fertility` | 840 |
+| `number of children` | 211 |
+| `childbearing` · `family size` | 160 each |
+| `birth rate` | 77 |
+| `total fertility rate` | 45 |
+
+**The specific worry was `family size`.** In a transfer literature that phrase often means *household*
+size — who lives with whom — not completed fertility, and admitting it would let co-residence records
+in as fertility ones. Measured: `family size` inside this frame intersects household-size vocabulary
+**5 times**, and `number of children` **4 times**. The worry is discharged; both terms stay.
 
 ### 3A. Candidate terms, priced by marginal gain
 
@@ -264,9 +281,9 @@ vocabulary axis.
 | 1 | Pension and social-security expansion substituting for support from children | 2 | 433 | **26** | 19 | **C.3.c owns this and has closed it** (§4) |
 | 2 | Inheritance law and land-title reform moving the downward bequest flow | 2 | 291 | 9 | 6 | C.4.a (land), C.1.a (it moves wealth) |
 | 3 | Child-labour bans and schooling supply removing the child's contribution | 1→2 | 46 | 11 | 2 | Alexandra's chapter; C.3.a — `same-policy-two-estimands` |
-| 4 | Filial-responsibility and family-support law mandating upward support | 2 | 24 | **0** | 0 | a genuine hole; worth a targeted probe rather than a conclusion |
-| 5 | Labour-demand shocks raising a child's earning power (mining, cash cropping, colonial labour migration) | 1→2 | not yet measured | — | — | C.3.a; C.1.a. Two of the four primary seeds are here |
-| 6 | Migrant remittances reversing the flow upward in adulthood | 2 | not yet measured | — | — | **C.1.a — PI call 2** |
+| 4 | Filial-responsibility and family-support law mandating upward support | 2 | 250 **[379]** | **0** | 0 | the null survives widening — see below |
+| 5 | Labour-demand shocks raising a child's earning power (mining, cash cropping, colonial labour migration) | 1→2 | 19 **[379]** | 1 | 1 | C.3.a; C.1.a. Two of the four primary seeds are here, and the axis may not reach them |
+| 6 | Migrant remittances reversing the flow upward in adulthood | 2 | 429 **[379]** | 18 | 5 | **C.1.a — PI call 2, now largely settled by measurement** |
 | 7 | NTA cross-country lifecycle-deficit profiles against fertility | 1 | 425 | — | — | association only; never primary |
 
 **Row 3 is small and is the best-shaped variation on the list.** Forty-six records, eleven of them
@@ -275,10 +292,29 @@ Caldwell vocabulary is blind to almost all of it. It is also the row most likely
 Alexandra's compulsory-schooling chapter, which owns the same policy through the same mechanism.
 Coordinate before building, do not re-derive.
 
-**Row 4 is the one place a null would be informative.** Twenty-four records, zero identified designs,
-zero crossover. A law that *mandates* upward support is the cleanest conceivable move in the upward
-component, and nobody appears to have used one. Probe it deliberately: `validate-a-null-detector-on-
-positives` first, so that a zero is a finding about the literature rather than a broken query.
+**Row 4 — the null was probed, and it holds. [379]** A law that *mandates* upward support is the
+cleanest conceivable move in the upward component. The original 24 records were a spelling artefact:
+a law is indexed in its local name (`policy-literatures-indexed-in-the-local-vocabulary`), and across
+eight national spellings the legal literature is **250 records**, ten times larger — `maintenance of
+parents` alone is 147, the Indian Maintenance and Welfare of Parents Act vocabulary. Of those 250,
+**5 carry a fertility outcome and 0 carry an identified design.** The identified-design detector was
+validated on three vocabularies where such designs certainly exist and returned 26, 76 and 78, so the
+zero is about this literature and not about the detector (`validate-a-null-detector-on-positives`).
+**This is now a real finding rather than a thin query**: the cleanest available policy variation in
+the upward flow has never been used to estimate a fertility effect.
+
+**Row 6 — PI call 2 is largely settled by measurement. [379]** The remittance literature with a
+fertility outcome is 429 records carrying 18 identified designs, which would be the largest
+identified block available to this chapter. But only **6** are signed on the transfer with parents
+named as recipients, while **40** carry C.1.a income vocabulary. So the literature is overwhelmingly
+about what remittances do to household income, which is C.1.a's estimand, and the part that is about
+a child-to-parent transfer is about six records.
+
+**Row 5 is a lower bound and its axis is under suspicion. [379]** Nineteen records, one identified.
+But one of the four primary seeds is *Lithium-ion batteries and fertility in Africa* — child labour
+in mines — and the shock axis here says `mining boom`, not `mining`. Before this row is called thin,
+test whether the axis retrieves the seeds already known to sit in it. A count from an axis that
+cannot reach its own known positives is not a measurement of the literature.
 
 **The channels fail differently, which is what makes any null here worth something.** Crossovers of
 6, 2, 19 and 0 against a 1,099-record frame mean the policy literatures and the theory vocabulary are
@@ -297,16 +333,23 @@ Overlaps measured inside the fertility-restricted frame (`304`, `376`).
 | 2 | **C.3.a mode of production** | C.3.a owns cross-**population** variation in baseline child productive value; C.3.f owns **change over time** in the net flow within a population. ⇒ `MIXED_FLOW_PRODUCTION`. | 5 | 0.5% | unstarted — **PI call 3**; write it inheritable |
 | 3 | C.2.b direct costs | C.2.b owns the **price** of a required input; C.3.f owns the **net** of what a child costs against what a child gives. | 19 | 1.7% | drafted |
 | 4 | C.3.d quantity-quality | C.3.d owns the **return** to making a child more productive later; C.3.f owns children ceasing to be net producers at all. Inherited verbatim from C.3.d's Wall 8. | 21 | 1.9% | drafted |
-| 5 | C.1.a income effect | C.1.a owns **own income**; C.3.f owns the **flow**, holding income fixed. Rows 2, 5 and 6 of §7 all move both. ⇒ `MIXED_FLOW_INCOME`. | **not measured** | — | unstarted |
+| 5 | C.1.a income effect | C.1.a owns **own income**; C.3.f owns the **flow**, holding income fixed. ⇒ `MIXED_FLOW_INCOME`. | 51 **[379]** | 4.6% (0.8% of C.1.a) | unstarted |
 | 6 | **D.1.b cultural westernization** | D.1.b owns exposure to a normative model of the modern family; C.3.f owns the transfer. **Written by D.1.b and inherited verbatim**: a study measuring transfers, their direction or their magnitude is C.3.f's even when it cites Caldwell's cultural argument in its framing. | 1 | 0.1% | drafted |
 | 7 | A.19 intergenerational transmission of fertility | A.19 owns fertility inherited from parents; C.3.f owns resources moving between them. Shares one word. | 1 | 0.1% | unstarted |
 | 8 | Alexandra's compulsory schooling | Her chapter owns the reform through the **child's lost labour value**; C.3.f owns it through the **net flow**. These are close to the same thing — coordinate rather than wall. | 5 | 0.5% | in progress |
 | 9 | **direction** (§2) | Not a neighbour but a wall: single-component records are link evidence, never primary and never a demsig numerator. | 227 up / 1,168 down | — | — |
 | 10 | **outcome level** | A stated valuation of children is not a realized flow. Never pooled with realized outcomes. | 191 | 17% | — |
 
-**Wall 5 is unmeasured and that is a gap, not a zero.** I did not run C.1.a's overlap, and it is the
-wall most likely to be violated by the §7 rows that carry the identification. Measure it before the
-production query is frozen.
+**Wall 5 was measured after this document was first frozen, and the answer relocates the risk. [379]**
+Read from both sides (`wall-cut-on-wrong-axis`), C.3.f and C.1.a share 51 records: 4.6% of this frame
+and 0.8% of C.1.a's 6,397. More to the point, **0 of C.3.f's 18 identified records carry C.1.a
+vocabulary** — the population that matters is not contaminated at the vocabulary level at all.
+
+But 0 of 18 is a small denominator, and the risk did not vanish; it moved. The §7 rows that carry the
+identification *do* intersect income vocabulary: remittances 40, inheritance and land reform 7,
+labour-demand shocks 5. **Wall 5 is a channel-2 wall, not a channel-1 wall** — it will be adjudicated
+on the policy-shock records the theory vocabulary cannot see, not on the Caldwell literature. Wall 5
+therefore stays a full-text wall and its `MIXED_FLOW_INCOME` cell stays open.
 
 **The small numbers are not reassurance.** C.3.d recorded the same pattern and drew the right
 conclusion from it: C.2.f's *vocabulary* overlap with C.3.d was nine records, and at full text eight
@@ -416,9 +459,13 @@ with the search that failed described, not "weak evidence".
    mechanism evidence; never pooled, never a demsig numerator.*
 2. **Are migrant remittances to parents an upward flow for our purposes?** Two inherited seeds
    estimate remittances → fertility. They are literally child-to-parent transfers, but D.1.b read the
-   Moroccan mechanism as income and human capital, which is C.1.a's. *Recommendation: in scope only
-   where the estimate is signed on the transfer rather than on household income, tagged
-   `shared_with: C.1.a`.*
+   Moroccan mechanism as income and human capital, which is C.1.a's. **[379] The measurement mostly
+   answers this:** 429 records with a fertility outcome and 18 identified designs, but only 6 signed
+   on the transfer with parents named as recipients, against 40 carrying income vocabulary.
+   *Recommendation: in scope only where the estimate is signed on the transfer rather than on
+   household income, tagged `shared_with: C.1.a`. On the measurement that is roughly six records, so
+   the call decides a small cell rather than the chapter — but it decides whether the chapter's
+   largest identified block is admissible, so it is still worth a ruling.*
 3. **Where does the C.3.a wall sit?** Three of four primary seeds move the flow through child labour
    demand, which is C.3.a's mechanism, and C.3.a is unstarted with a union frame of 1,811.
    *Recommendation: C.3.a owns cross-population variation in baseline child productive value; C.3.f
@@ -444,6 +491,7 @@ with the search that failed described, not "weak evidence".
 | `candidate-frame-probe-2026-09-10.{json,md}` | `source/build/goldset/304_candidate_frame_probe.py` |
 | `c3f-term-diagnostics-2026-09-10.{json,md}` | `source/build/goldset/376_c3f_term_diagnostics.py` |
 | `c3f-inherited-seeds-2026-09-10.{json,md}` | `source/build/goldset/377_c3f_inherited_seeds.py` |
+| `c3f-wall5-null-probe-2026-09-10.{json,md}` | `source/build/goldset/379_c3f_wall5_and_null_probe.py` |
 | `c3f-inherited-seeds-routing.md` | hand-read, 2026-09-10 |
 
 Inherited seeds come from branch `063-caldwell-wealth-flows-westernization` at `5859297e`. C.3.c
