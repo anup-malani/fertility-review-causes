@@ -478,7 +478,7 @@ C3F1467,OFF_TOPIC,NA,NA,NONE,NA,NO,SDT,CERTAIN,hand,chan-term:shock-03,cohort pr
 C3F2906,REVERSE,UPWARD,PRIVATE_FAMILY,NONE,NA,NO,SDT,CERTAIN,hand,chan-term:shock-03,sonless families and mothers' expectations of old-age support; same work as C3F3023 and the estimand runs from fertility to expected support
 C3F2651,OFF_SIBLING,NA,NA,NONE,NA,NO,SDT,CERTAIN,hand,chan-term:shock-03,C.3.d - same work as C3F0636 on returns to education in Turkey
 C3F2318,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-03,food security and agricultural land use after land reform - agronomy sense
-C3F0916,OFF_SIBLING,DOWNWARD,PRIVATE_FAMILY,NONE,NA,YES,SDT,UNCERTAIN,hand,chan-term:shock-03,C.3.d - Indian inheritance law reform with a triple-difference design; the visible outcome is second-generation human capital NOT fertility - RE-READ AT FULL TEXT because three sibling papers in this literature do estimate fertility
+C3F0916,SHOCK_NET_FERTILITY,DOWNWARD,PRIVATE_FAMILY,FERTILITY,REALIZED,YES,SDT,CERTAIN,hand,chan-term:shock-03,"CORRECTED: its twin C3F2311 shows the abstract continues 'lower FERTILITY in the parent generation', past the window I read. Indian inheritance reform with a triple-difference design and a fertility outcome - the re-read I flagged, resolved"
 C3F1404,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-03,parenting efficacy among mothers in substance abuse treatment
 C3F3555,OFF_SIBLING,NA,NA,NONE,NA,YES,SDT,CERTAIN,hand,chan-term:shock-03,C.2.e and A.1 - quasi-experimental essays on shocks and child human capital
 C3F1982,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-03,burnout among day-care educators in Israel
@@ -533,7 +533,7 @@ C3F3385,OFF_TOPIC,NET,MIXED,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-04,ind
 C3F2136,UPWARD_COMPONENT,UPWARD,PRIVATE_FAMILY,FERTILITY,REALIZED,NO,SDT,UNCERTAIN,hand,chan-term:shock-04,remittances against fertility across post-communist countries; shared_with C.1.a until the estimate is shown to be signed on the transfer rather than on income - PI call 2
 C3F1402,UPWARD_COMPONENT,UPWARD,PRIVATE_FAMILY,FERTILITY,REALIZED,NO,SDT,UNCERTAIN,hand,chan-term:shock-04,remittances and Morocco's fertility decline 1975-2018 by ARDL; one of the two inherited remittance seeds - shared_with C.1.a pending PI call 2
 C3F0852,FLOW_MEASUREMENT,NET,MIXED,FLOW_MAGNITUDE,NA,NO,SDT,UNCERTAIN,hand,chan-term:shock-04,no abstract; NTA lifecycle deficit and mature-age participation in Australia
-C3F1840,OFF_TOPIC,NA,NA,FERTILITY,INTENDED,NO,SDT,CERTAIN,hand,chan-term:shock-04,fertility intentions in Dalian under the two-child policy
+C3F1840,DOWNWARD_COMPONENT,DOWNWARD,PRIVATE_FAMILY,FERTILITY,INTENDED,NO,SDT,CERTAIN,hand,chan-term:shock-04,CORRECTED: inability to obtain financial support from parents predicts childbearing in model 2 - a downward transfer as the regressor; found in the beyond-window flag I had stripped
 C3F3439,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-04,books received listing
 C3F3636,THEORY,UPWARD,PRIVATE_FAMILY,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-04,Basu's adult-equivalent labour model explaining child labour from binding subsistence requirements
 C3F2678,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-04,psychological adjustment among parents of autistic children
@@ -595,7 +595,7 @@ C3F3032,THEORY,DOWNWARD,PRIVATE_FAMILY,FERTILITY,REALIZED,NO,OTHER,CERTAIN,hand,
 C3F3340,FLOW_MEASUREMENT,DOWNWARD,PRIVATE_FAMILY,FLOW_MAGNITUDE,NA,NO,FDT,CERTAIN,hand,chan-term:shock-05,successions and heirs in nineteenth-century rural Loire-Inferieure; a rare HISTORICAL empirical measurement of intergenerational transfers in the FDT window - relevant to §5's series problem
 C3F3618,OFF_TOPIC,UPWARD,PRIVATE_FAMILY,FERTILITY,REALIZED,NO,SDT,CERTAIN,hand,chan-term:shock-05,bibliometric review of remittances and fertility; a map of a literature not an estimate
 C3F3116,OFF_TOPIC,NA,NA,NONE,NA,NO,SDT,CERTAIN,hand,chan-term:shock-05,intergenerational income mobility in Latin America
-C3F1027,OFF_SIBLING,DOWNWARD,PRIVATE_FAMILY,FERTILITY,REALIZED,YES,SDT,UNCERTAIN,hand,chan-term:shock-05,D.2.c - fertility behaviour and sex bias in large Indian families; the title puns on wills so CHECK AT FULL TEXT whether a bequest mechanism is the operative variable
+C3F1027,NET_FLOW_FERTILITY,DOWNWARD,PRIVATE_FAMILY,FERTILITY,REALIZED,YES,SDT,CERTAIN,hand,chan-term:shock-05,"CORRECTED: the abstract states outright that BEQUEST MOTIVES DRIVE FERTILITY BEHAVIOR, generating sex-based differences without explicit son preference - a downward-flow mechanism with a fertility outcome, not D.2.c's. I had missed it by stripping script 390's beyond-window flags out of the batch read"
 C3F1964,OFF_TOPIC,NA,NA,NONE,NA,NO,SDT,CERTAIN,hand,chan-term:shock-05,protocol for a review of female economic empowerment interventions
 C3F0057,THEORY,NET,MIXED,FERTILITY,REALIZED,NO,SDT,CERTAIN,hand,chan-term:shock-05,Lee and Mason on fertility human capital and growth across the transition; an anchor and the macro form of the net-flow account
 C3F0286,THEORY,DOWNWARD,MIXED,NONE,NA,NO,SDT,UNCERTAIN,hand,chan-term:shock-05,no abstract; same work as C3F3348
@@ -690,3 +690,119 @@ C3F3612,OFF_TOPIC,NA,NA,NONE,NA,NO,SDT,CERTAIN,hand,chan-term:shock-06,graduate 
 C3F2640,OFF_SIBLING,NA,NA,NONE,NA,NO,SDT,CERTAIN,hand,chan-term:shock-06,C.2.e - female education and child education
 C3F3514,OFF_TOPIC,NA,NA,NONE,NA,NO,SDT,CERTAIN,hand,chan-term:shock-06,education provision and demographic change in England and Wales
 C3F0573,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-06,parents with mental handicaps and child care
+C3F0731,NET_FLOW_FERTILITY,NET,PRIVATE_FAMILY,FERTILITY,REALIZED,NO,FDT,CERTAIN,hand,chan-term:shock-07,A THAI PROVINCE LEVEL TEST OF CALDWELL'S WEALTH FLOWS THEORY - mass education changing the DIRECTION of wealth flow between generations against fertility decline; the registered claim tested by name
+C3F2728,FLOW_MEASUREMENT,NET,MIXED,FLOW_MAGNITUDE,NA,NO,SDT,CERTAIN,hand,chan-term:shock-07,NTA lifecycle deficit in Poland 2004-2016
+C3F3692,OFF_TOPIC,NA,NA,NONE,NA,NO,SDT,CERTAIN,hand,chan-term:shock-07,aspirations of married adolescent girls in Niger
+C3F2311,SHOCK_NET_FERTILITY,DOWNWARD,PRIVATE_FAMILY,FERTILITY,REALIZED,YES,SDT,CERTAIN,hand,chan-term:shock-07,Indian inheritance law reform with a triple-difference design; the abstract reports LOWER FERTILITY in the parent generation - same work as C3F0916 which this corrects
+C3F3433,OFF_TOPIC,NA,NA,NONE,NA,NO,PM,CERTAIN,hand,chan-term:shock-07,ecological capital and subsistence among the Buru; inheritance of farming rights mentioned in passing
+C3F4446,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,SDT,UNCERTAIN,hand,chan-term:shock-07,no abstract; C.2.e - high fertility and low women's work participation in India
+C3F2129,OFF_SIBLING,NA,NA,NONE,NA,NO,SDT,CERTAIN,hand,chan-term:shock-07,C.2.a - education and population trajectories for Pakistan
+C3F4325,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-07,US-China trade and labour rights; wealth flows out of the country homonym
+C3F1950,UPWARD_COMPONENT,UPWARD,PRIVATE_FAMILY,NONE,STATED_VALUATION,NO,SDT,CERTAIN,hand,chan-term:shock-07,importance of children in old-age security provision among the Ijebu of south-west Nigeria; the upward flow assessed directly
+C3F3190,VOC_STATED,NA,PRIVATE_FAMILY,FERTILITY,DESIRED,NO,SDT,CERTAIN,hand,chan-term:shock-07,cohort differences in perceptions of family formation and the value of children
+C3F3475,THEORY,DOWNWARD,MIXED,FERTILITY,REALIZED,NO,OTHER,CERTAIN,hand,chan-term:shock-07,same work as C3F1631; fertility and education externalities on capital returns with a fertility-contingent pension scheme
+C3F1297,OFF_TOPIC,NA,NA,FERTILITY,REALIZED,NO,FDT,CERTAIN,hand,chan-term:shock-07,gender inequality since 1820; inheritance rights are one indicator among many
+C3F2605,THEORY,UPWARD,PRIVATE_FAMILY,FERTILITY,REALIZED,NO,SDT,CERTAIN,hand,chan-term:shock-07,argues fertility reduction programmes should accompany land reforms; a policy commentary asserting the land-fertility link
+C3F3682,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-07,play-group method for special needs students
+C3F1720,FLOW_MEASUREMENT,UPWARD,PRIVATE_FAMILY,FLOW_MAGNITUDE,NA,NO,SDT,CERTAIN,hand,chan-term:shock-07,family support networks and population ageing in Latin America and the Caribbean
+C3F1284,VOC_STATED,NA,PRIVATE_FAMILY,FERTILITY,DESIRED,NO,SDT,CERTAIN,hand,chan-term:shock-07,intergenerational transmission of the VALUE OF CHILDREN in Taiwan and mainland China; the changing valuation as the documented mechanism
+C3F3631,NET_FLOW_FERTILITY,BOTH_MEASURED,PRIVATE_FAMILY,FERTILITY,INTENDED,NO,SDT,CERTAIN,hand,chan-term:shock-07,sets parental financial and childcare support AGAINST competing eldercare obligations on fertility intentions in China - both directions of the flow in one estimate
+C3F2319,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-07,agricultural land market and prices in Ukraine
+C3F2679,OFF_TOPIC,NA,NA,NONE,NA,NO,SDT,CERTAIN,hand,chan-term:shock-07,age class and family formation in US law
+C3F3686,OFF_TOPIC,NA,NA,FERTILITY,REALIZED,NO,SDT,CERTAIN,hand,chan-term:shock-07,perinatal psychosocial factors and stopping at one child
+C3F3262,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-07,paediatric cephalometrics; genetic inheritance sense
+C3F1230,THEORY,NA,NA,FERTILITY,REALIZED,NO,SDT,CERTAIN,hand,chan-term:shock-07,OLG simulation of age structure and growth in China
+C3F3242,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-07,language vitality; intergenerational transfer of a LANGUAGE not of resources
+C3F3653,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-07,duplicate of C3F3652; lactation in chronic kidney disease
+C3F0998,SHOCK_NET_FERTILITY,DOWNWARD,PRIVATE_FAMILY,FERTILITY,REALIZED,YES,SDT,CERTAIN,hand,chan-term:shock-07,published version of C3F3358 - state and federal reforms granting Indian women equal INHERITANCE RIGHTS against the quantity and quality of children by difference-in-differences
+C3F0494,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-07,child mental health promotion
+C3F3396,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-07,state regulation of land resource use in Ukraine
+C3F3625,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-07,fertility treatment support for veterinary professionals
+C3F0210,NET_FLOW_FERTILITY,NET,PRIVATE_FAMILY,FERTILITY,REALIZED,NO,FDT,CERTAIN,hand,chan-term:shock-07,Caldwell's own Karnataka micro-study - anthropological account of demographic change tied to the shift from home production and the changing economic role of children
+C3F4274,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-07,optimal asset allocation for institutional investors
+C3F2349,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-07,parental perceptions of Montessori programmes
+C3F0472,OFF_TOPIC,NA,NA,FERTILITY,REALIZED,NO,SDT,CERTAIN,hand,chan-term:shock-07,US teen pregnancy surveillance
+C3F4091,FLOW_MEASUREMENT,DOWNWARD,PUBLIC_TRANSFER,FLOW_MAGNITUDE,NA,NO,SDT,CERTAIN,hand,chan-term:shock-07,NTA age profiles of health consumption for Indian universal coverage costing
+C3F2361,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-07,family support for parents of children with cardiac disease
+C3F2682,VOC_STATED,UPWARD,PRIVATE_FAMILY,NONE,STATED_VALUATION,NO,SDT,CERTAIN,hand,chan-term:shock-07,normative attitudes on intergenerational relationships in Japan; the norm of supporting ageing parents elicited
+C3F1841,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,SDT,CERTAIN,hand,chan-term:shock-07,C.2.e and D.2.a - Korea's birth rate and the career-family constraint
+C3F0142,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-07,agribusiness and the agrarian question; land reform as a political chapter
+C3F1143,OFF_TOPIC,NA,NA,FERTILITY,REALIZED,NO,SDT,CERTAIN,hand,chan-term:shock-07,supports for teenage mothers in Georgia
+C3F3628,FLOW_MEASUREMENT,UPWARD,PRIVATE_FAMILY,FLOW_MAGNITUDE,NA,NO,PM,CERTAIN,hand,chan-term:shock-07,children per conscripted or enslaved adult in Ur III Umma inspection texts; individuals SUPPORTING THEIR PARENTS are a recorded category - a pre-modern flow measurement
+C3F0683,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-07,land reform and sustainable development; no fertility outcome
+C3F3517,OFF_TOPIC,NA,NA,NONE,NA,NO,SDT,CERTAIN,hand,chan-term:shock-07,same work as C3F3519; peer effects on young adults
+C3F1345,OFF_TOPIC,NA,NA,NONE,NA,NO,SDT,CERTAIN,hand,chan-term:shock-07,Swedish upper secondary vocational education
+C3F3535,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-07,a century of Qiang schooling
+C3F2329,OFF_TOPIC,NA,NA,FERTILITY,REALIZED,NO,SDT,CERTAIN,hand,chan-term:shock-07,mathematical analysis of China's birth rate
+C3F1141,OFF_SIBLING,NA,NA,NONE,NA,YES,SDT,CERTAIN,hand,chan-term:shock-07,C.3.d - family size and children's education under the one-child policy
+C3F3492,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,YES,SDT,CERTAIN,hand,chan-term:shock-07,Alexandra's chapter - Argentina's federal education law and adolescent fertility
+C3F3458,OFF_SIBLING,NA,NA,NONE,NA,NO,SDT,CERTAIN,hand,chan-term:shock-07,C.2.b - family educational expenditure under compulsory education
+C3F3567,OFF_SIBLING,NA,NA,NONE,NA,NO,SDT,CERTAIN,hand,chan-term:shock-07,C.3.d - educational choices and schooling quality
+C3F0061,OFF_SIBLING,NA,NA,NONE,NA,NO,SDT,CERTAIN,hand,chan-term:shock-07,D.2.c - birth order son preference and child height in India
+C3F2330,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-07,education ministry and local government cooperation
+C3F1802,OFF_TOPIC,NA,NA,FERTILITY,REALIZED,NO,FDT,CERTAIN,hand,chan-term:shock-07,onset of fertility decline in Nepal
+C3F3520,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,SDT,CERTAIN,hand,chan-term:shock-07,C.2.e - nonlinear effect of education on childlessness in China
+C3F3506,OFF_TOPIC,NA,NA,NONE,NA,NO,SDT,CERTAIN,hand,chan-term:shock-07,teacher burnout under falling enrolment in Taiwan
+C3F2119,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,FDT,CERTAIN,hand,chan-term:shock-07,D.1.b and A.3 - cultural causes of nineteenth-century fertility decline in three Yorkshire towns
+C3F1920,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-07,antibacterial evaluation of pomegranate
+C3F3450,OFF_SIBLING,NA,NA,NONE,NA,YES,FDT,CERTAIN,hand,chan-term:shock-07,Alexandra's chapter - compulsory schooling and anthropometric health inequality
+C3F3527,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-07,book reviews
+C3F2689,OFF_TOPIC,NA,NA,NONE,NA,NO,SDT,CERTAIN,hand,chan-term:shock-08,parental anxiety and parenting practices in Libya
+C3F2110,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-08,nanoclay and soil physical properties - agronomy sense
+C3F2167,FLOW_MEASUREMENT,DOWNWARD,PUBLIC_TRANSFER,FLOW_MAGNITUDE,NA,NO,SDT,CERTAIN,hand,chan-term:shock-08,age-profile decomposition of health expenditure and public transfers under Covid-19 in Indonesia
+C3F2281,THEORY,UPWARD,PUBLIC_TRANSFER,FERTILITY,REALIZED,NO,SDT,CERTAIN,hand,chan-term:shock-08,OLG model of the two-child policy and public pensions in China
+C3F1601,NET_FLOW_FERTILITY,NET,PRIVATE_FAMILY,FERTILITY,REALIZED,NO,FDT,CERTAIN,hand,chan-term:shock-08,subjective equilibrium model of the VALUE OF CHILDREN in Philippine agricultural households with demographic structure endogenous - the flow and fertility jointly
+C3F1528,OFF_SIBLING,UPWARD,PRIVATE_FAMILY,FERTILITY,DESIRED,NO,SDT,CERTAIN,hand,chan-term:shock-08,C.5.a - livelihood uncertainty and fertility preferences in Malawi; shifts in the value of children are the framing not the estimand
+C3F3699,FLOW_MEASUREMENT,UPWARD,PRIVATE_FAMILY,NONE,NA,YES,SDT,CERTAIN,hand,chan-term:shock-08,intra-household transfers and elderly parents' labour supply using child's gender as an instrument in Korea; identified but the outcome is labour supply
+C3F0894,UPWARD_COMPONENT,UPWARD,PRIVATE_FAMILY,FERTILITY,REALIZED,UNCLEAR,SDT,UNCERTAIN,hand,chan-term:shock-08,no abstract; remittances and the fertility rate - shared_with C.1.a pending PI call 2
+C3F0137,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,FDT,UNCERTAIN,hand,chan-term:shock-08,no abstract; A.1 - infant mortality and family size regulation
+C3F1333,MIXED_PUBLIC_PRIVATE,UPWARD,PUBLIC_TRANSFER,FERTILITY,REALIZED,NO,FDT,CERTAIN,hand,chan-term:shock-08,empirical test of US social security on fertility 1933-1974; C.3.c owns the public substitute - rubric rule 1
+C3F2697,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-08,early intervention for infants with hearing loss
+C3F2670,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,YES,SDT,UNCERTAIN,hand,chan-term:shock-08,no abstract; C.2.a - childcare cost subsidies and fertility via the dependent care tax credit
+C3F2328,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,YES,SDT,UNCERTAIN,hand,chan-term:shock-08,no abstract; C.2.e - female education and fertility under China's compulsory education law
+C3F1400,FLOW_MEASUREMENT,UPWARD,PRIVATE_FAMILY,NONE,NA,NO,SDT,UNCERTAIN,hand,chan-term:shock-08,no abstract; causes and consequences of child labour
+C3F3562,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,SDT,CERTAIN,hand,chan-term:shock-08,A.5 - family planning programme in Zhejiang; old-age pensions listed among services
+C3F0195,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,PM,UNCERTAIN,hand,chan-term:shock-08,no abstract; C.3.d - quantity-quality tradeoff among agropastoral Kipsigis
+C3F2616,OFF_SIBLING,DOWNWARD,PRIVATE_FAMILY,NONE,NA,NO,SDT,CERTAIN,hand,chan-term:shock-08,D.2.c - market transition reshaping INHERITANCE BELIEFS and son preference in China; the belief about the downward flow is the outcome not fertility
+C3F1028,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-08,same work as C3F3347; land and water rhetoric in Zimbabwe
+C3F3509,OFF_SIBLING,NA,NA,NONE,NA,NO,FDT,CERTAIN,hand,chan-term:shock-08,C.2.e - historical determinants of women's educational participation
+C3F0604,OFF_TOPIC,DOWNWARD,PRIVATE_FAMILY,NONE,NA,NO,SDT,UNCERTAIN,hand,chan-term:shock-08,no abstract; bequest motives and micro life insurance demand in Sri Lanka - no fertility outcome
+C3F2083,VOC_STATED,NA,PRIVATE_FAMILY,FERTILITY,DESIRED,NO,SDT,CERTAIN,hand,chan-term:shock-08,Singapore arm of the cross-national Value of Children Study; child-rearing decisions
+C3F3360,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-08,crop diversification after land reform in Jammu and Kashmir
+C3F1952,NET_FLOW_FERTILITY,DOWNWARD,PRIVATE_FAMILY,FERTILITY,REALIZED,UNCLEAR,SDT,UNCERTAIN,hand,chan-term:shock-08,no abstract; BEQUEST MOTIVES AND FERTILITY DECISIONS - the downward flow named as the fertility determinant in the title; retrieve at full text
+C3F2674,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-08,health visitors and childhood asthma
+C3F2543,VOC_STATED,UPWARD,PRIVATE_FAMILY,NONE,STATED_VALUATION,NO,FDT,CERTAIN,hand,chan-term:shock-08,value of children among tea estate workers in West Java; a VOC case study in an agricultural society
+C3F3711,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-08,difficulties facing families of autistic children in Kuwait
+C3F2652,OFF_SIBLING,NA,NA,NONE,NA,NO,SDT,CERTAIN,hand,chan-term:shock-08,C.3.d - same work as C3F0636 and C3F2651 on returns to education in Turkey
+C3F3623,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,SDT,CERTAIN,hand,chan-term:shock-08,D.1.a - religion as a variable in Australian fertility research
+C3F3579,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-08,migration model schedules in Kenya
+C3F3724,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-08,gender dysphoria services editorial
+C3F1981,FLOW_MEASUREMENT,NET,PRIVATE_FAMILY,FLOW_MAGNITUDE,NA,NO,SDT,CERTAIN,hand,chan-term:shock-08,discusses HRS data for studying transfers between parents and children and among siblings; a data-resource note on measuring the flow
+C3F1731,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-08,riverbank cultivation participation in Zambia
+C3F0348,OFF_TOPIC,NA,NA,FERTILITY,REALIZED,NO,PM,UNCERTAIN,hand,chan-term:shock-08,no abstract; risk-sensitive fertility
+C3F2611,SHOCK_NET_FERTILITY,UPWARD,PRIVATE_FAMILY,FERTILITY,REALIZED,NO,FDT,CERTAIN,hand,chan-term:shock-08,assesses the implications of Ethiopia's 1975 LAND REFORM for rural fertility against five comparison countries; the land-security channel in the §7 row 2 cell
+C3F3663,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-08,preschooler cooperation during injections
+C3F1033,FLOW_MEASUREMENT,NET,MIXED,FLOW_MAGNITUDE,NA,NO,SDT,CERTAIN,hand,chan-term:shock-08,statistics of LIFETIME ECONOMIC TRANSFERS under individual stochasticity; the lifecycle deficit as a distribution rather than a mean - a methods advance for §5
+C3F3571,FLOW_MEASUREMENT,UPWARD,PRIVATE_FAMILY,NONE,NA,NO,SDT,CERTAIN,hand,chan-term:shock-08,child workers and education in India
+C3F3416,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-08,book review on American agriculturalists in China
+C3F1843,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-08,post-traumatic stress following childbirth
+C3F4106,OFF_TOPIC,NA,NA,NONE,NA,NO,SDT,CERTAIN,hand,chan-term:shock-08,introduction to an edited volume on old age
+C3F3496,OFF_SIBLING,NA,NA,NONE,NA,NO,SDT,CERTAIN,hand,chan-term:shock-08,C.2.a - public education in the transition to ageing societies
+C3F1916,OFF_SIBLING,NA,NA,NONE,NA,NO,PM,CERTAIN,hand,chan-term:shock-08,C.3.c and evolutionary demography - grandmothers and human life history
+C3F4112,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-08,sovereign debt series
+C3F2009,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-08,spatial justice codification in Iran
+C3F2654,OFF_SIBLING,NA,NA,NONE,NA,YES,SDT,CERTAIN,hand,chan-term:shock-08,A.7 - education and age at marriage
+C3F3540,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-08,statistical compendium chapter on education
+C3F3531,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-08,education office role in compulsory schooling under fiqh siyasah
+C3F2014,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,OTHER,CERTAIN,hand,chan-term:shock-08,C.3.d - human capital fertility and growth
+C3F2446,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,FDT,CERTAIN,hand,chan-term:shock-08,A.1 and D.2.a - mortality economics and female empowerment in fertility transformations
+C3F0187,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,FDT,CERTAIN,hand,chan-term:shock-08,C.3.d - demographic transition and sustained growth in unified growth theory
+C3F1420,OFF_TOPIC,NA,NA,FERTILITY,REALIZED,NO,SDT,CERTAIN,hand,chan-term:shock-08,structural determinants of teenage childbearing
+C3F3441,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,YES,SDT,CERTAIN,hand,chan-term:shock-08,Alexandra's chapter - education and fertility from a compulsory schooling reform
+C3F0748,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,SDT,CERTAIN,hand,chan-term:shock-08,D.2.a - women's equality demography and public policy
+C3F1209,OFF_TOPIC,NA,NA,NONE,NA,NO,FDT,CERTAIN,hand,chan-term:shock-08,physical culture for Frenchwomen
+C3F1586,OFF_TOPIC,NA,NA,NONE,NA,NO,SDT,CERTAIN,hand,chan-term:shock-08,population environment and development linkages
+C3F0605,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-08,adolescent growth study in Newcastle
+C3F3481,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,SDT,UNCERTAIN,hand,chan-term:shock-08,no abstract; C.2.e - high fertility of college-educated women in Norway
+C3F2635,OFF_TOPIC,NA,NA,FERTILITY,REALIZED,NO,SDT,CERTAIN,hand,chan-term:shock-08,same work as C3F2634; determinants of fertility in rural Punjab
+C3F3476,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,SDT,CERTAIN,hand,chan-term:shock-08,C.2.e - essays on education fertility and well-being
