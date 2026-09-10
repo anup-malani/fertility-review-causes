@@ -242,6 +242,20 @@ def main():
     derived("§15 noise saved by the advancing baseline (365)", 365, 1307 - d383["final_records"])
     log("§15 the collapsed union", 46, d381["union"]["n"])
 
+    # ---------------------------------------------------------------- 384: the universe
+    d384 = load("c3f-universe")
+    log("§16 universe size", 4565, d384["universe_n"])
+    log("§16 anchors present", 24, d384["anchors_present"])
+    log("§16 anchors total", 24, d384["anchors_total"])
+    log("§16 only the citation channel", 1374, d384["only_citation"])
+    log("§16 only the term channel", 1734, d384["only_term"])
+    log("§16 seeds backfilled", 15, d384["seeds_backfilled"])
+    log("§16 forward citations unrestricted", 3605, d384["forward_unrestricted"])
+    log("§16 forward citations after the gate", 1208, d384["forward_outcome_gated"])
+    log("§16 backward references", 1070, d384["backward_references"])
+    fm = next(p for p in d384["plan"] if p["channel"] == "FLOWMEAS")
+    log("§16 flow-measurement channel", 1368, fm["n"])
+
     # ---------------------------------------------------------------- EXTERNAL: C.3.c's verdict
     c3c = C3C.read_text()
     external = [("§4/§5 C.3.c FDT magnitude", "0.0677 births per woman"),

@@ -1,0 +1,404 @@
+{
+  "date": "2026-09-10",
+  "arms": {
+    "THEORY (rebuilt, 383)": "(\"wealth flows\" OR \"intergenerational transfer\" OR \"intergenerational wealth\" OR \"value of children\" OR \"National Transfer Accounts\" OR \"flow of wealth\" OR \"economic rationality of high fertility\" OR \"wealth inheritance\" OR \"productive contribution\")",
+    "MEASUREMENT": "(\"National Transfer Accounts\" OR \"lifecycle deficit\" OR \"life cycle deficit\" OR \"economic life cycle\" OR \"intergenerational resource flows\" OR \"flow of wealth\" OR \"direction of transfers\" OR \"economic value of children\")",
+    "SHOCK inheritance and land": "(\"inheritance law\" OR \"inheritance reform\" OR \"land titling\" OR \"land reform\" OR \"bequest motive\" OR \"inheritance rights\")",
+    "SHOCK schooling and child-labour law": "(\"child labour ban\" OR \"child labor ban\" OR \"child labour law\" OR \"child labor law\" OR \"school construction\" OR \"schooling supply\" OR \"compulsory schooling\" OR \"compulsory education\")",
+    "SHOCK filial-responsibility law": "(\"filial responsibility law\" OR \"filial piety law\" OR \"family support obligation\" OR \"parental maintenance\" OR \"maintenance of parents\" OR \"elderly rights law\" OR \"old age maintenance\")",
+    "SHOCK remittances to parents": "(\"remittances to parents\" OR \"support to parents\" OR \"transfers to parents\" OR \"remittances and fertility\")",
+    "ROW5 labour demand x child work": "(\"child labour\" OR \"child labor\" OR \"child work\" OR \"child employment\" OR \"working children\") AND (\"commodity price\" OR \"mining\" OR \"mines\" OR \"cash crop\" OR \"export crop\" OR \"trade shock\" OR \"labour demand\" OR \"labor demand\" OR \"mechanization\" OR \"mechanisation\" OR \"plantation\" OR \"agricultural productivity\")"
+  },
+  "outcome_axis": "(\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+  "flow_measurement_axis": "(\"wealth flows\" OR \"intergenerational wealth\" OR \"National Transfer Accounts\" OR \"lifecycle deficit\" OR \"life cycle deficit\" OR \"intergenerational resource flows\" OR \"flow of wealth\" OR \"net intergenerational transfer\")",
+  "plan": [
+    {
+      "channel": "TERM",
+      "name": "THEORY (rebuilt, 383)",
+      "query": "(\"wealth flows\" OR \"intergenerational transfer\" OR \"intergenerational wealth\" OR \"value of children\" OR \"National Transfer Accounts\" OR \"flow of wealth\" OR \"economic rationality of high fertility\" OR \"wealth inheritance\" OR \"productive contribution\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 942,
+      "pages": 5
+    },
+    {
+      "channel": "TERM",
+      "name": "MEASUREMENT",
+      "query": "(\"National Transfer Accounts\" OR \"lifecycle deficit\" OR \"life cycle deficit\" OR \"economic life cycle\" OR \"intergenerational resource flows\" OR \"flow of wealth\" OR \"direction of transfers\" OR \"economic value of children\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 151,
+      "pages": 1
+    },
+    {
+      "channel": "TERM",
+      "name": "SHOCK inheritance and land",
+      "query": "(\"inheritance law\" OR \"inheritance reform\" OR \"land titling\" OR \"land reform\" OR \"bequest motive\" OR \"inheritance rights\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 320,
+      "pages": 2
+    },
+    {
+      "channel": "TERM",
+      "name": "SHOCK schooling and child-labour law",
+      "query": "(\"child labour ban\" OR \"child labor ban\" OR \"child labour law\" OR \"child labor law\" OR \"school construction\" OR \"schooling supply\" OR \"compulsory schooling\" OR \"compulsory education\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 365,
+      "pages": 2
+    },
+    {
+      "channel": "TERM",
+      "name": "SHOCK filial-responsibility law",
+      "query": "(\"filial responsibility law\" OR \"filial piety law\" OR \"family support obligation\" OR \"parental maintenance\" OR \"maintenance of parents\" OR \"elderly rights law\" OR \"old age maintenance\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 5,
+      "pages": 1
+    },
+    {
+      "channel": "TERM",
+      "name": "SHOCK remittances to parents",
+      "query": "(\"remittances to parents\" OR \"support to parents\" OR \"transfers to parents\" OR \"remittances and fertility\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 335,
+      "pages": 2
+    },
+    {
+      "channel": "TERM",
+      "name": "ROW5 labour demand x child work",
+      "query": "(\"child labour\" OR \"child labor\" OR \"child work\" OR \"child employment\" OR \"working children\") AND (\"commodity price\" OR \"mining\" OR \"mines\" OR \"cash crop\" OR \"export crop\" OR \"trade shock\" OR \"labour demand\" OR \"labor demand\" OR \"mechanization\" OR \"mechanisation\" OR \"plantation\" OR \"agricultural productivity\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 46,
+      "pages": 1
+    },
+    {
+      "channel": "FLOWMEAS",
+      "name": "flow accounting, UNGATED by outcome",
+      "query": "(\"wealth flows\" OR \"intergenerational wealth\" OR \"National Transfer Accounts\" OR \"lifecycle deficit\" OR \"life cycle deficit\" OR \"intergenerational resource flows\" OR \"flow of wealth\" OR \"net intergenerational transfer\")",
+      "n": 1368,
+      "pages": 7
+    },
+    {
+      "channel": "CITATION",
+      "name": "forward (cited-by, outcome-gated)",
+      "filter": "cites:W1968681873|W2166683595|W2011774072|W2080580016|W2291007676|W2123066109|W2125236554|W2072439318|W2171516515|W2100112274|W4392107509|W4390206201|W1586803970|W2133707003|W2071910106|W2085516690|W2079885391|W2035781515|W7111906193|W1527576846|W4300037787|W2929932278|W2112203404|W2119566744,title_and_abstract.search:(\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+      "n": 1208,
+      "pages": 7,
+      "unrestricted": 3605
+    }
+  ],
+  "declined": [],
+  "cap_pages": 40,
+  "forward_unrestricted": 3605,
+  "forward_outcome_gated": 1208,
+  "backward_references": 1070,
+  "backward_kept": 256,
+  "universe_n": 4565,
+  "anchors_present": 24,
+  "seeds_backfilled": 15,
+  "outcome_gate_sample": {
+    "n": 100,
+    "in_pool": 39,
+    "excluded": [
+      {
+        "id": "W4237485216",
+        "title": "Quais s\u00e3o os efeitos do envelhecimento populacional nos sistemas previdenci\u00e1rios de Brasil, Espanha e Fran\u00e7a?",
+        "year": 2018
+      },
+      {
+        "id": "W1729086520",
+        "title": "Household Composition and the Response of Child Labor Supply to Product Market Integration: Evidence from Vietnam",
+        "year": 2004
+      },
+      {
+        "id": "W2266089680",
+        "title": "On the Demand for Grandchildren: Tied Transfers and the Demonstration Effect",
+        "year": 2007
+      },
+      {
+        "id": "W2992158026",
+        "title": "Repensando as migra\u00e7\u00f5es a partir de um arcabou\u00e7o processual multiescalar",
+        "year": 2019
+      },
+      {
+        "id": "W2494410805",
+        "title": "Incentives and Development Policies",
+        "year": 1995
+      },
+      {
+        "id": "W2251147758",
+        "title": "Social policy and citizenship. Dialogues between feminist theory and childhood studies",
+        "year": 2012
+      },
+      {
+        "id": "W3189463119",
+        "title": "Reevaluating the grandmother hypothesis",
+        "year": 2021
+      },
+      {
+        "id": "W2752400254",
+        "title": "Material wealth in 3D: Mapping multiple paths to prosperity in low- and middle- income countries",
+        "year": 2017
+      },
+      {
+        "id": "W4211204581",
+        "title": "The international economic and political order since 1945",
+        "year": 2018
+      },
+      {
+        "id": "W2186394662",
+        "title": "The effects of schooling incentive programs on household resource allocation in Bangladesh",
+        "year": 2000
+      },
+      {
+        "id": "W4310989664",
+        "title": "Inter-generational Interactions and Families under Risks",
+        "year": 2022
+      },
+      {
+        "id": "W4211086731",
+        "title": "The Aesthetic Politics of Aspiration",
+        "year": 2003
+      },
+      {
+        "id": "W4389240356",
+        "title": "Ageing and Economic Growth: A Literature Review",
+        "year": 2023
+      },
+      {
+        "id": "W1778532488",
+        "title": "The Causal Impacts of Child Labor Law in Brazil: Some Preliminary Findings",
+        "year": 2016
+      },
+      {
+        "id": "W3122767087",
+        "title": "Combating Child Labor: Incentives and Information Disclosure in Global Supply Chains",
+        "year": 2019
+      },
+      {
+        "id": "W4285293421",
+        "title": "Child Labor Eradication Without Tears",
+        "year": 2022
+      },
+      {
+        "id": "W3125061895",
+        "title": "Implications of higher global food prices for poverty in low\u2010income countries 1",
+        "year": 2008
+      },
+      {
+        "id": "W1621923311",
+        "title": "Health and Child Labour",
+        "year": 2014
+      },
+      {
+        "id": "W4224016757",
+        "title": "Export expansion and intergenerational education mobility: Evidence from China",
+        "year": 2022
+      },
+      {
+        "id": "W4295168565",
+        "title": "Kin-based institutions and economic development",
+        "year": 2022
+      },
+      {
+        "id": "W2051234894",
+        "title": "The fiscal impact of population aging in Brazil: 2005-2050",
+        "year": 2013
+      },
+      {
+        "id": "W2741575934",
+        "title": "The Generational and the Gender Contract",
+        "year": 2017
+      },
+      {
+        "id": "W4281653607",
+        "title": "Do subsidies on seed and fertilizer lead to child labour? Evidence from Malawi",
+        "year": 2022
+      },
+      {
+        "id": "W2811310605",
+        "title": "Family Rationales Behind Child Begging in Antananarivo, Madagascar",
+        "year": 2018
+      },
+      {
+        "id": "W2071561026",
+        "title": "Addressing child sex tourism: The Indian case",
+        "year": 2015
+      },
+      {
+        "id": "W2139360143",
+        "title": "Natural resource collection and children's literacy: empirical evidence from panel data in rural Ethiopia.",
+        "year": 2014
+      },
+      {
+        "id": "W4256572108",
+        "title": "Intergenerational Family Relations",
+        "year": 2018
+      },
+      {
+        "id": "W2128885192",
+        "title": "Making Meaning of Everyday Practices: Parents' Attitudes toward Children's Extracurricular Activities in the United States and in Italy",
+        "year": 2010
+      },
+      {
+        "id": "W4210744732",
+        "title": "State formation and political aspects of development",
+        "year": 2018
+      },
+      {
+        "id": "W1862237267",
+        "title": "Product Market Integration and Household Labor Supply in a Poor Economy: Evidence from Vietnam",
+        "year": 2004
+      },
+      {
+        "id": "W4235531516",
+        "title": "Child Labour",
+        "year": 2018
+      },
+      {
+        "id": "W2171920838",
+        "title": "Adult Mortality in Latin America and the Caribbean",
+        "year": 2011
+      },
+      {
+        "id": "W2040739959",
+        "title": "El envejecimiento demogr\u00e1fico del Mediterr\u00e1neo: 1950-2050",
+        "year": 2009
+      },
+      {
+        "id": "W2498994685",
+        "title": "Growing Girls/Closing Circles: Limits on the Spaces of Knowing in Rural Sudan and United States Cities",
+        "year": 2001
+      },
+      {
+        "id": "W2586466346",
+        "title": "Sex, Coalitions, and Politics in Preindustrial Societies",
+        "year": 1992
+      },
+      {
+        "id": "W2204058556",
+        "title": "A Tale of Two Worlds : Wealth and Wastage, and Scarcity and Sustainability",
+        "year": 2015
+      },
+      {
+        "id": "W4240354449",
+        "title": "Journal on Education in Emergencies: Volume 6, Number 1 (Complete)",
+        "year": 2020
+      },
+      {
+        "id": "W1994523808",
+        "title": "Sociology and the Reproductive Self: Demographic Transitions and Modernity",
+        "year": 1997
+      },
+      {
+        "id": "W2340959483",
+        "title": "Family Planning Program Effects: Evidence from Microdata",
+        "year": 2016
+      },
+      {
+        "id": "W2063057073",
+        "title": "Why What Juveniles Do Matters in the Evolution of Cooperative Breeding",
+        "year": 2014
+      },
+      {
+        "id": "W3115495603",
+        "title": "A Roy Model with Non-Homothetic Preferences and Endogenous Transfers: Quantifying the Incidence of a Global Oil Price Shock and Subsequent Fuel Subsidy Reform in Nigeria",
+        "year": 2019
+      },
+      {
+        "id": "W2969838964",
+        "title": "The 21st Century Coal Question: China, India, Development, and Climate Change",
+        "year": 2019
+      },
+      {
+        "id": "W2115281762",
+        "title": "Papers, Please! The Effect of Birth Registration on Child Labor and Education in Early 20th Century USA",
+        "year": 2011
+      },
+      {
+        "id": "W4402461387",
+        "title": "The nexus of Green finance and renewable energy on CO2 emissions",
+        "year": 2024
+      },
+      {
+        "id": "W2141352093",
+        "title": "Demografia do consumo urbano: um estudo sobre a gera\u00e7\u00e3o de res\u00edduos s\u00f3lidos domiciliares no munic\u00edpio de Belo Horizonte",
+        "year": 2012
+      },
+      {
+        "id": "W2332177502",
+        "title": "\u201cIntroduction\u201d for special issue of Journal of the Economics of Aging titled \u201cThe demographic dividend and population aging in Asia and the Pacific\u201d",
+        "year": 2016
+      },
+      {
+        "id": "W4240673973",
+        "title": "Health, healthcare and development",
+        "year": 2018
+      },
+      {
+        "id": "W2602292028",
+        "title": "Emergence and Evolution of Cooperation Under Resource Pressure",
+        "year": 2017
+      },
+      {
+        "id": "W4250601959",
+        "title": "Population Studies",
+        "year": 1982
+      },
+      {
+        "id": "W2157503936",
+        "title": "Care-giving expectations and challenges among elders and their adult children in Southern Sri Lanka",
+        "year": 2013
+      },
+      {
+        "id": "W592939075",
+        "title": "Department of Economic History",
+        "year": 2014
+      },
+      {
+        "id": "W2162485817",
+        "title": "Reply to Harbison's Comments on Nardi's \u201cModes of Explanation in Anthropological Population Theory\u201d",
+        "year": 1983
+      },
+      {
+        "id": "W4205560837",
+        "title": "Specific features of the population mental health during the COVID-19 pandemic",
+        "year": 2021
+      },
+      {
+        "id": "W2128545160",
+        "title": "Do International Labor Standards Contribute to the Persistence of the Child Labor Problem?",
+        "year": 2010
+      },
+      {
+        "id": "W1975374384",
+        "title": "Fish, pots and grain: Early and Mid-Holocene adaptations in the Central Sudan",
+        "year": 1992
+      },
+      {
+        "id": "W811428757",
+        "title": "Understanding Economic Growth in Specific Contexts: An Overview of the First Phase of Global Research Project \u2018Explaining Growth\u2019",
+        "year": 2009
+      },
+      {
+        "id": "W7117318920",
+        "title": "A regional gender inequality index: the case of T\u00fcrkiye\u2014a BWM\u2013WASPAS-based approach",
+        "year": 2025
+      },
+      {
+        "id": "W2504807658",
+        "title": "RISK PERCEPTION AND RESOURCE SECURITY FOR FEMALE AGRICULTURAL WORKERS",
+        "year": 2004
+      },
+      {
+        "id": "W3127400411",
+        "title": "Temporary and Child Marriages: Historical Perspectives and Contemporary Issues in Iran, Iraq, and Afghanistan",
+        "year": 2021
+      },
+      {
+        "id": "W2466108147",
+        "title": "Exploring school exclusion through the perspective of child labourers living in Sultanbeyli, on the periphery of Istanbul, Turkey",
+        "year": 2016
+      },
+      {
+        "id": "W2115493414",
+        "title": "Unemployment, Informal Work, Precarious Employment, Child Labor, Slavery, and Health Inequalities: Pathways and Mechanisms",
+        "year": 2010
+      }
+    ]
+  },
+  "anchors_total": 24,
+  "only_citation": 1374,
+  "only_term": 1734,
+  "errors": []
+}

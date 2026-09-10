@@ -9,7 +9,7 @@
 
 ## Acceptance criteria
 - [x] 2. Search strategy and scope drafted — `literature/search-logs/wealth-flows-reversal-search-scope.md`, 2026-09-10. Direction ruling, 10 walls, estimand cells, required tags, pooling rule and the single demsig route frozen; 5 PI calls open. All 83 quoted figures asserted against their logs by `378`, verified to fire on three classes of mutation
-- [ ] 3. Literature search and AI screening, both phases (§5.1)
+- [~] 3. Literature search and AI screening — anchors resolved (`380`, 30 reachable of 35), query calibrated per axis (`381`–`383`, rebuilt THEORY axis 942 records at recall 11/24), **universe built 2026-09-10: 4,565 records, 24/24 anchors present** (`384`). Screening not begun
 - [ ] 4. RA title/abstract review
 - [ ] 5. Full-text retrieval
 - [ ] 6. Full-text screen, RA spot-checks 5–10%

@@ -569,6 +569,48 @@ parse.
 
 ---
 
+## 16. The screening universe **[384]**
+
+**4,565 records, and all 24 anchors are in it.**
+
+| channel | records | note |
+|---|---|---|
+| TERM (seven arms, pulled separately) | 2,162 | the rebuilt THEORY axis plus MEASUREMENT and the four SHOCK arms |
+| CITATION forward and backward | 1,529 | from the 30 resolved anchors |
+| FLOW_MEASUREMENT, ungated by outcome | 1,368 | see below — this channel exists because §9 needed it |
+| SEED backfill | 15 | anchors and decoys no channel retrieved |
+
+**1,374 records are reachable only by the citation channel and 1,734 only by the term channel.** The
+ruling in §15 is vindicated by the split: neither channel alone is the pool.
+
+**Seeds go in the universe.** Before the backfill the universe held 14 of its own 24 anchors: a pool
+built *from* the anchors does not contain them, and a screening set that omits its own known
+positives cannot reach 100% recall by construction (`snowball-pools-omit-their-own-seeds`). Fifteen
+seeds were absent and are now in, flagged by provenance.
+
+**The outcome gate on the citation channel is a real cost and it is measured, not assumed.** Forward
+citations of the 30 anchors are 3,605 unrestricted and 1,208 after the gate — it removes about
+two-thirds. A random sample of 100 forward citations was drawn and every excluded title read by
+hand. Of the 64 excluded in the sample: **two belong in this universe** — *On the Demand for
+Grandchildren: Tied Transfers and the Demonstration Effect* (2007), which is a transfer→fertility
+estimate, and an Indonesian wealth-flows measurement study — about **ten are link-1 mechanism
+evidence** (child-labour responses to trade, schooling incentives, a Brazilian child-labour-law
+design), and the rest are off topic. **The gate's loss is concentrated in link-1 evidence rather than
+in the primary cell**, which is the trade the scope can accept; it is recorded here so that stage 4
+knows the mechanism arm is under-sampled relative to the primary one.
+
+**Reading those titles exposed a contradiction in this document's own design, and it is fixed.** §9
+defines a `FLOW_MEASUREMENT` cell as "measures the flow, no fertility outcome", and §5's demsig route
+needs exactly that literature, because it wants a net-flow series. But every channel was gated on the
+outcome axis, so a record with no fertility vocabulary could never enter the universe: **the cell was
+unreachable by construction.** It was caught on a real record — *Ageing and inter-generational wealth
+flows in two Indonesian communities* (2008) carries this chapter's central phrase and was excluded by
+both channels. One channel now runs **ungated**, on a deliberately tight flow-accounting vocabulary
+only. `value of children` is not in it: at 7,083 records unrestricted it would have swamped the pool.
+The channel adds 1,368 records and recovers the Indonesian study.
+
+---
+
 ## Provenance
 
 | artifact | produced by |
@@ -581,6 +623,7 @@ parse.
 | `c3f-query-calibration-2026-09-10.{json,md}` | `source/build/goldset/381_c3f_query_calibration.py` |
 | `c3f-anchor-vocabulary-2026-09-10.{json,md}` | `source/build/goldset/382_c3f_anchor_vocabulary_audit.py` |
 | `c3f-theory-axis-2026-09-10.{json,md}` | `source/build/goldset/383_c3f_theory_axis_rebuild.py` |
+| `c3f-universe-2026-09-10.{json,md}` · `output/wealth-flows-reversal-universe.json` | `source/build/goldset/384_c3f_universe.py` |
 | `c3f-inherited-seeds-routing.md` | hand-read, 2026-09-10 |
 
 Inherited seeds come from branch `063-caldwell-wealth-flows-westernization` at `5859297e`. C.3.c
