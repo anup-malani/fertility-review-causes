@@ -14,10 +14,10 @@ the most-cited head, stratum 8 the uncited tail.
 | s4-of-8 | 25 | 0 | 11 | 7 |
 | s5-of-8 | 25 | 2 | 2 | 8 |
 | s6-of-8 | 25 | 0 | 12 | 6 |
-| s7-of-8 | 25 | 4 | 7 | 7 |
+| s7-of-8 | 25 | 4 | 9 | 6 |
 | s8-of-8 | 25 | 0 | 12 | 6 |
 | s8-of-8-preprune | 25 | 0 | 3 | 4 |
-| **total** | **225** | **6** | **54** | **54** |
+| **total** | **225** | **6** | **56** | **53** |
 
 ## Every primary record found, and where it sat
 
@@ -34,8 +34,8 @@ the most-cited head, stratum 8 the uncited tail.
 
 | cell | n |
 |---|---|
-| `OFF_TOPIC` | 98 |
-| `FLOW_MEASUREMENT` | 44 |
+| `OFF_TOPIC` | 96 |
+| `FLOW_MEASUREMENT` | 46 |
 | `OFF_SIBLING` | 39 |
 | `THEORY` | 18 |
 | `INSUFFICIENT_INFO` | 10 |

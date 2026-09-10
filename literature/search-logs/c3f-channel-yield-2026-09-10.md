@@ -16,18 +16,18 @@ as a measurement of the channel.
 
 | channel | size | screened | coverage | primary | unique | yield | |
 |---|---|---|---|---|---|---|---|
-| `TERM:SHOCK inheritance and land` | 320 | 33 | 10% | 7 | 7 | 21.2% | **thin** |
+| `TERM:SHOCK inheritance and land` | 320 | 320 | 100% | 34 | 29 | 10.6% |  |
+| `TERM:THEORY (rebuilt, 383)` | 940 | 170 | 18% | 16 | 0 | 9.4% | **thin** |
+| `CITATION:forward (cited-by, outcome-gated)` | 1,207 | 238 | 20% | 16 | 8 | 6.7% | **thin** |
+| `CITATION:backward (references)` | 322 | 77 | 24% | 8 | 0 | 10.4% |  |
+| `FLOWMEAS:flow accounting, UNGATED by outcome` | 984 | 223 | 23% | 8 | 0 | 3.6% |  |
 | `TERM:ROW5 labour demand x child work` | 46 | 46 | 100% | 7 | 6 | 15.2% |  |
-| `TERM:THEORY (rebuilt, 383)` | 940 | 25 | 3% | 2 | 0 | 8.0% | **thin** |
-| `CITATION:forward (cited-by, outcome-gated)` | 1,207 | 67 | 6% | 2 | 1 | 3.0% | **thin** |
-| `TERM:MEASUREMENT` | 151 | 14 | 9% | 2 | 0 | 14.3% | **thin** |
-| `CITATION:backward (references)` | 322 | 35 | 11% | 1 | 0 | 2.9% | **thin** |
-| `TERM:SHOCK remittances to parents` | 335 | 18 | 5% | 1 | 1 | 5.6% | **thin** |
-| `FLOWMEAS:flow accounting, UNGATED by outcome` | 984 | 111 | 11% | 0 | 0 | 0.0% | **thin** |
-| `SEED:anchor or decoy not otherwise retrieved` | 15 | 0 | 0% | 0 | 0 | 0.0% | **thin** |
-| `TERM:SHOCK schooling and child-labour law` | 365 | 25 | 7% | 0 | 0 | 0.0% | **thin** |
-| `TERM:SHOCK filial-responsibility law` | 5 | 1 | 20% | 0 | 0 | 0.0% |  |
+| `TERM:SHOCK schooling and child-labour law` | 365 | 365 | 100% | 7 | 4 | 1.9% |  |
+| `TERM:SHOCK remittances to parents` | 335 | 335 | 100% | 5 | 3 | 1.5% |  |
+| `TERM:MEASUREMENT` | 151 | 34 | 23% | 4 | 0 | 11.8% |  |
+| `SEED:anchor or decoy not otherwise retrieved` | 15 | 1 | 7% | 1 | 1 | 100.0% | **thin** |
+| `TERM:SHOCK filial-responsibility law` | 5 | 5 | 100% | 0 | 0 | 0.0% |  |
 
-Totals: **18 primary records** from **342 verdicts**.
+Totals: **74 primary records** from **1651 verdicts**.
 
 The only row that is a finished measurement is the one at 100% coverage.
