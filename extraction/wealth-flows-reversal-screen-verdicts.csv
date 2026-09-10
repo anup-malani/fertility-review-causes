@@ -49,3 +49,178 @@ C3F4015,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8-preprune,est
 C3F4016,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8-preprune,no abstract; life insurance distribution law
 C3F4017,OFF_TOPIC,DOWNWARD,PRIVATE_FAMILY,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8-preprune,inheritance receipt and the wealth deficit of low-income households
 C3F4018,INSUFFICIENT_INFO,NA,NA,NONE,NA,UNCLEAR,OTHER,UNCERTAIN,hand,probe-s8-of-8-preprune,no abstract; dynamics of intergenerational transfers and wealth accumulation
+C3F0537,REVERSE,UPWARD,PRIVATE_FAMILY,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s2-of-8,fertility to household savings in an OLG model; documents the old-age-support motive but the estimand runs the other way
+C3F0538,INSUFFICIENT_INFO,NA,NA,FERTILITY,REALIZED,NO,OTHER,UNCERTAIN,hand,probe-s2-of-8,institutions and policies to rural fertility in China; the visible record names no flow
+C3F0539,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s2-of-8,Russian land reform institutional design; no fertility outcome - from the inheritance and land arm
+C3F0540,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s2-of-8,soil properties on the Loess Plateau; agronomy sense of fertility - rubric rule 6
+C3F0541,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,YES,SDT,CERTAIN,hand,probe-s2-of-8,compulsory schooling law to teenage fertility in Turkey; the mother's own education - Alexandra's chapter and C.2.e
+C3F0543,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,UNCERTAIN,hand,probe-s2-of-8,no abstract; income and mortality
+C3F0544,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,OTHER,CERTAIN,hand,probe-s2-of-8,A.1 and A.3 - infant mortality and social learning
+C3F0545,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,SDT,CERTAIN,hand,probe-s2-of-8,C.3.c grandparental childcare sub-claim - kin influence on second births
+C3F0546,INSUFFICIENT_INFO,NA,NA,FERTILITY,REALIZED,NO,OTHER,UNCERTAIN,hand,probe-s2-of-8,no abstract; 1965 Jamaica fertility control
+C3F0547,FLOW_MEASUREMENT,UPWARD,PRIVATE_FAMILY,NONE,NA,YES,OTHER,CERTAIN,hand,probe-s2-of-8,bride price is a child-to-parent transfer and income shocks move it; outcome is child marriage not fertility - flag for the bequest boundary ruling
+C3F0548,FLOW_ASSOCIATION,DOWNWARD,MIXED,FERTILITY,REALIZED,NO,SDT,CERTAIN,hand,probe-s2-of-8,NTA-measured transfers into child age groups against TFR in East Asia with an estimated elasticity - a demsig-relevant number and the closest thing yet to the registered quantity
+C3F0549,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s2-of-8,capital flight methodology
+C3F0550,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,OTHER,UNCERTAIN,hand,probe-s2-of-8,no abstract; A.3 - fertility decline as a coordination problem
+C3F0551,THEORY,DOWNWARD,PRIVATE_FAMILY,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s2-of-8,game-theoretic model of offspring investment and low fertility
+C3F0552,FLOW_MEASUREMENT,NET,PRIVATE_FAMILY,FLOW_MAGNITUDE,NA,NO,OTHER,CERTAIN,hand,probe-s2-of-8,patterns and determinants of private interhousehold transfers in Russia; no fertility outcome
+C3F0553,UPWARD_COMPONENT,UPWARD,PRIVATE_FAMILY,FERTILITY,REALIZED,NO,OTHER,CERTAIN,hand,probe-s2-of-8,econometric test of Cain's old-age-security motive on Malaysian birth intervals; private support from children not a public pension
+C3F0554,THEORY,NA,NA,FERTILITY,REALIZED,NO,OTHER,UNCERTAIN,hand,probe-s2-of-8,no abstract; dynastic model of fertility response to shocks
+C3F0555,OFF_SIBLING,NA,NA,FERTILITY,DESIRED,NO,OTHER,CERTAIN,hand,probe-s2-of-8,C.3.d and D.1.c - quantity-quality against biased cultural transmission in Tanzania
+C3F0556,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,SDT,CERTAIN,hand,probe-s2-of-8,C.3.c grandparental and alloparental support to maternal fertility
+C3F0557,OFF_TOPIC,NA,NA,FERTILITY,REALIZED,NO,OTHER,CERTAIN,hand,probe-s2-of-8,developmental psychology of parenthood motivation
+C3F0558,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s2-of-8,evolutionary review of female kin cooperation and conflict
+C3F0559,OFF_TOPIC,NA,NA,NONE,NA,NO,PM,UNCERTAIN,hand,probe-s2-of-8,no abstract; Neolithic child transport and family size
+C3F0560,INSUFFICIENT_INFO,NA,NA,FERTILITY,REALIZED,NO,OTHER,UNCERTAIN,hand,probe-s2-of-8,no abstract; Indianapolis fertility study reanalysis
+C3F0561,OFF_SIBLING,NA,NA,FERTILITY,DESIRED,NO,OTHER,CERTAIN,hand,probe-s2-of-8,D.2.c sex preference and A.2 contraceptive nonuse
+C3F0562,THEORY,NET,MIXED,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s2-of-8,externalities to childbearing including reproductive dilution of collective wealth; a theoretical taxonomy
+C3F1640,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s4-of-8,perinatal addiction treatment and parent-infant interaction
+C3F1641,FLOW_MEASUREMENT,UPWARD,PRIVATE_FAMILY,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s4-of-8,descriptive survey of child labourers in Pakistan; measures children's work with no fertility outcome - rubric rule 4
+C3F1642,FLOW_MEASUREMENT,UPWARD,PRIVATE_FAMILY,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s4-of-8,review of children's work and independent child migration; child time allocation
+C3F1643,FLOW_MEASUREMENT,NET,MIXED,FLOW_MAGNITUDE,NA,NO,OTHER,CERTAIN,hand,probe-s4-of-8,NTA for Uruguay; economic lifecycle and the role of public transfers
+C3F1644,FLOW_MEASUREMENT,NET,MIXED,FLOW_MAGNITUDE,NA,NO,OTHER,CERTAIN,hand,probe-s4-of-8,NTA Spain 2000; childhood consumption financed 69 percent by private transfers and 32 percent public - the split this chapter needs
+C3F1646,FLOW_MEASUREMENT,NET,MIXED,FLOW_MAGNITUDE,NA,NO,OTHER,UNCERTAIN,hand,probe-s4-of-8,no abstract; NTA analysis of elderly and child protection in crisis
+C3F1647,FLOW_MEASUREMENT,NET,MIXED,FLOW_MAGNITUDE,NA,NO,OTHER,CERTAIN,hand,probe-s4-of-8,NTA reallocation across age and gender in comparative Europe; lifecycle deficit as a dependency measure
+C3F1649,OFF_TOPIC,DOWNWARD,PRIVATE_FAMILY,NONE,NA,NO,OTHER,UNCERTAIN,hand,probe-s4-of-8,no abstract; bequests of large fortunes - flag for the bequest boundary ruling
+C3F1650,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s4-of-8,no abstract; fiscal policy in a non-Ricardian model
+C3F1652,FLOW_MEASUREMENT,NET,MIXED,FLOW_MAGNITUDE,NA,NO,OTHER,CERTAIN,hand,probe-s4-of-8,NTA East and West Germany; a divided-country setting for how institutions shape the economic lifecycle
+C3F1653,FLOW_MEASUREMENT,DOWNWARD,MIXED,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s4-of-8,NTA human capital spending in middle-income Asia; outcome is growth and inequality not fertility
+C3F1654,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s4-of-8,ethics of intangible cultural heritage
+C3F1655,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s4-of-8,banking soundness and profitability; wealth flow homonym
+C3F1656,FLOW_MEASUREMENT,NET,MIXED,FLOW_MAGNITUDE,NA,NO,OTHER,UNCERTAIN,hand,probe-s4-of-8,no abstract; welfare regimes and inter-age reallocation systems
+C3F1657,FLOW_MEASUREMENT,NET,PRIVATE_FAMILY,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s4-of-8,NTA time-use and unpaid production by age and gender in Costa Rica; also D.2.a adjacent
+C3F1658,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s4-of-8,corporate purpose and stakeholder finance
+C3F1659,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s4-of-8,real exchange rate puzzle
+C3F1660,OFF_TOPIC,NA,NA,FERTILITY,REALIZED,NO,OTHER,CERTAIN,hand,probe-s4-of-8,descriptive fertility trends across Moslem countries; no flow exposure
+C3F1661,FLOW_ASSOCIATION,NET,MIXED,FERTILITY,REALIZED,NO,SDT,UNCERTAIN,hand,probe-s4-of-8,no abstract; title names very low fertility against the costs of children AND of the elderly - both sides of the net flow; retrieve at full text
+C3F1662,INSUFFICIENT_INFO,NA,NA,FERTILITY,REALIZED,NO,OTHER,UNCERTAIN,hand,probe-s4-of-8,no abstract; development and global fertility decline
+C3F1663,INSUFFICIENT_INFO,NA,NA,FERTILITY,REALIZED,NO,SDT,UNCERTAIN,hand,probe-s4-of-8,no abstract; explaining low fertility in Malaysia
+C3F1664,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,OTHER,CERTAIN,hand,probe-s4-of-8,A.23 and D.2.b - nuclear against extended household structure and fertility
+C3F1665,OFF_SIBLING,NA,NA,FERTILITY,DESIRED,NO,OTHER,CERTAIN,hand,probe-s4-of-8,D.2.a - wives' role in fertility decision-making in Nepal
+C3F1666,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,OTHER,UNCERTAIN,hand,probe-s4-of-8,no abstract; A.5 - fertility development and family planning
+C3F1667,OFF_TOPIC,NA,NA,FERTILITY,REALIZED,NO,OTHER,CERTAIN,hand,probe-s4-of-8,multi-determinant description of high fertility in sub-Saharan Africa
+C3F2750,FLOW_MEASUREMENT,NET,MIXED,FLOW_MAGNITUDE,NA,NO,OTHER,CERTAIN,hand,probe-s6-of-8,age profiles of economic flows in Uruguay 1994; lifecycle deficit financed by public and private transfers
+C3F2751,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s6-of-8,geographic movement of wealth across US regions; wealth flow homonym
+C3F2757,FLOW_MEASUREMENT,NET,MIXED,FLOW_MAGNITUDE,NA,NO,OTHER,CERTAIN,hand,probe-s6-of-8,NTA estimation method for Uruguay; methodology
+C3F2760,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,UNCERTAIN,hand,probe-s6-of-8,no abstract; financial inclusion and retirement among older workers
+C3F2761,OFF_SIBLING,NA,NA,NONE,NA,NO,SDT,UNCERTAIN,hand,probe-s6-of-8,no abstract; C.3.g student debt - a drafted chapter
+C3F2763,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s6-of-8,Buddhist cosmology of wealth in Thailand; wealth flows homonym
+C3F2764,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s6-of-8,municipal economic interdependence in Allegheny County; wealth flows homonym
+C3F2765,FLOW_MEASUREMENT,NET,MIXED,FLOW_MAGNITUDE,NA,NO,OTHER,CERTAIN,hand,probe-s6-of-8,NTA across 29 countries; how older persons finance consumption through transfers assets and work
+C3F2766,OFF_TOPIC,NET,PRIVATE_FAMILY,NONE,NA,NO,SDT,UNCERTAIN,hand,probe-s6-of-8,qualitative interviews on marriage costs in China; names a change in intergenerational wealth flow but estimates nothing
+C3F2771,OFF_TOPIC,DOWNWARD,PRIVATE_FAMILY,NONE,NA,NO,OTHER,UNCERTAIN,hand,probe-s6-of-8,no abstract; inheritances and gifts in euro-area household wealth - flag for the bequest boundary ruling
+C3F2773,FLOW_MEASUREMENT,NET,MIXED,FLOW_MAGNITUDE,NA,NO,OTHER,CERTAIN,hand,probe-s6-of-8,NTA-based macroeconomic framework for demographic change
+C3F2776,INSUFFICIENT_INFO,NA,NA,NONE,NA,UNCLEAR,OTHER,UNCERTAIN,hand,probe-s6-of-8,no abstract; families caregiving and community support systems
+C3F2778,FLOW_MEASUREMENT,NET,MIXED,FLOW_MAGNITUDE,NA,NO,OTHER,CERTAIN,hand,probe-s6-of-8,NTA gender-specific net transfer benefits by life stage in Europe
+C3F2779,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s6-of-8,Covid-19 mortality and economic loss in Moldova
+C3F2780,FLOW_MEASUREMENT,NET,MIXED,FLOW_MAGNITUDE,NA,NO,OTHER,CERTAIN,hand,probe-s6-of-8,NTA France; who funds consumption at each age and how the structure changed over time
+C3F2781,FLOW_MEASUREMENT,NET,MIXED,FLOW_MAGNITUDE,NA,NO,OTHER,CERTAIN,hand,probe-s6-of-8,NTA Spain; intergenerational transfers projected into the capital stock in an OLG model
+C3F2782,FLOW_MEASUREMENT,NET,PRIVATE_FAMILY,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s6-of-8,time transfer accounts for Turkey; market and non-market production by age and gender - also D.2.a
+C3F2783,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s6-of-8,statistical physics model of wealth concentration
+C3F2784,FLOW_MEASUREMENT,DOWNWARD,MIXED,NONE,NA,NO,OTHER,UNCERTAIN,hand,probe-s6-of-8,no abstract; same work as C3F1653 in a working-paper version
+C3F2786,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s6-of-8,urbanization and industrial structure in Northeast China; wealth flow homonym
+C3F2788,FLOW_MEASUREMENT,DOWNWARD,MIXED,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s6-of-8,NTA public and private education consumption across 74 economies
+C3F2789,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s6-of-8,eighteenth-century linen trade committee; wealth flowed homonym
+C3F2790,FLOW_MEASUREMENT,DOWNWARD,MIXED,FLOW_MAGNITUDE,NA,NO,SDT,CERTAIN,hand,probe-s6-of-8,net transfer burden of parents against non-parents in fourteen European countries including time transfers - the downward component priced per parent
+C3F2791,FLOW_MEASUREMENT,NET,MIXED,FLOW_MAGNITUDE,NA,NO,OTHER,CERTAIN,hand,probe-s6-of-8,NTA measurement of intergenerational transfers across 25 EU countries
+C3F2792,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s6-of-8,fiscal redistribution sustainability across generations
+C3F1092,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s3-of-8,early childhood development overview
+C3F1095,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s3-of-8,Homeric gift-giving and benefaction; transfer homonym
+C3F1096,INSUFFICIENT_INFO,NA,NA,FERTILITY,REALIZED,NO,OTHER,UNCERTAIN,hand,probe-s3-of-8,no abstract; functional analysis of fertility decisions
+C3F1097,OFF_TOPIC,NA,NA,FERTILITY,REALIZED,NO,OTHER,CERTAIN,hand,probe-s3-of-8,South African fertility transition on panel data; multi-determinant with no flow exposure
+C3F1098,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,OTHER,CERTAIN,hand,probe-s3-of-8,C.2.e - female labour force participation as the leading socioeconomic correlate
+C3F1099,OFF_SIBLING,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s3-of-8,C.3.d backward arm - fertility decline to children's well-being and gender gaps
+C3F1100,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,OTHER,CERTAIN,hand,probe-s3-of-8,C.4.a and A.7 - Davis theory of change and response applied to Puerto Rico
+C3F1101,THEORY,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s3-of-8,history of population theory; the net-flow account is one strand surveyed
+C3F1102,OFF_TOPIC,NA,NA,FERTILITY,REALIZED,NO,OTHER,CERTAIN,hand,probe-s3-of-8,natural selection and body size in a Zapotec isolate
+C3F1103,VOC_STATED,NA,PRIVATE_FAMILY,FERTILITY,DESIRED,NO,SDT,UNCERTAIN,hand,probe-s3-of-8,no abstract; title names education fertility preference and the value of children in Jakarta - a VOC instrument
+C3F1104,OFF_TOPIC,NA,NA,FERTILITY,DESIRED,NO,FDT,CERTAIN,hand,probe-s3-of-8,Yoruba family-size ideals survey; elicits ideal size not a valuation of children
+C3F1105,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,FDT,CERTAIN,hand,probe-s3-of-8,A.7 - household formation and marriage as the channel for English fertility change
+C3F1106,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s3-of-8,clinical fertility preservation in young cancer patients
+C3F1107,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s3-of-8,classroom manners
+C3F1108,OFF_SIBLING,NA,NA,NONE,NA,YES,OTHER,UNCERTAIN,hand,probe-s3-of-8,no abstract; compulsory schooling lifecycle benefits by gender
+C3F1109,OFF_SIBLING,NA,NA,NONE,NA,YES,OTHER,CERTAIN,hand,probe-s3-of-8,A.7 - compulsory schooling law and early marriage in China
+C3F1110,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s3-of-8,no abstract; parent training programme for autism
+C3F1111,OFF_TOPIC,NA,NA,FERTILITY,REALIZED,NO,OTHER,UNCERTAIN,hand,probe-s3-of-8,no abstract; social support for parenting and family size differences
+C3F1112,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s3-of-8,parenting stress and disability
+C3F1113,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s3-of-8,HPV vaccine information needs
+C3F1114,FLOW_MEASUREMENT,UPWARD,PRIVATE_FAMILY,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s3-of-8,review of child labour worldwide; measures children's work with no fertility outcome
+C3F1115,FLOW_MEASUREMENT,NET,MIXED,FLOW_MAGNITUDE,NA,NO,OTHER,CERTAIN,hand,probe-s3-of-8,NTA age profiles disaggregated by gender education and family structure for four countries
+C3F1117,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s3-of-8,demographic dividend simulation for Nigeria
+C3F1118,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,UNCERTAIN,hand,probe-s3-of-8,no abstract; sex difference in lifespan and female birth rate
+C3F1119,THEORY,NA,NA,FERTILITY,REALIZED,NO,OTHER,UNCERTAIN,hand,probe-s3-of-8,no abstract; evolutionary perspective on human fertility
+C3F2198,VOC_STATED,UPWARD,PRIVATE_FAMILY,FERTILITY,DESIRED,NO,SDT,CERTAIN,hand,probe-s5-of-8,attitudes linking family size planning to retirement planning in Ghana; the old-age-security motive elicited not estimated
+C3F2199,OFF_SIBLING,NA,NA,FERTILITY,DESIRED,NO,OTHER,CERTAIN,hand,probe-s5-of-8,A.3 - non-numeric ideal family size as an ideational marker
+C3F2200,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,OTHER,CERTAIN,hand,probe-s5-of-8,D.2.a and A.23 - in-law dynamics and childbearing in Nepal
+C3F2201,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,OTHER,UNCERTAIN,hand,probe-s5-of-8,no abstract; C.2.g urbanization
+C3F2202,OFF_TOPIC,NA,NA,FERTILITY,REALIZED,NO,SDT,CERTAIN,hand,probe-s5-of-8,economic complexity index against provincial fertility in Italy
+C3F2203,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,OTHER,UNCERTAIN,hand,probe-s5-of-8,no abstract; D.2.b family systems and fertility networks
+C3F2204,OFF_TOPIC,NA,NA,FERTILITY,REALIZED,NO,OTHER,CERTAIN,hand,probe-s5-of-8,fertility levels and HIV in North-Central Namibia
+C3F2205,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,SDT,CERTAIN,hand,probe-s5-of-8,C.2.d - tax reform and fertility in South Korea
+C3F2206,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,OTHER,CERTAIN,hand,probe-s5-of-8,C.2.g - rural-urban fertility gap and migrant adaptation in Punjab
+C3F2207,OFF_TOPIC,NA,NA,FERTILITY,REALIZED,NO,OTHER,CERTAIN,hand,probe-s5-of-8,descriptive fertility trends in Nigeria and Guinea
+C3F2208,OFF_TOPIC,NA,NA,FERTILITY,REALIZED,NO,SDT,UNCERTAIN,hand,probe-s5-of-8,no abstract; commentary on Australian low fertility
+C3F2209,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,OTHER,CERTAIN,hand,probe-s5-of-8,C.3.e - banking development and fertility panel
+C3F2210,OFF_SIBLING,NA,NA,FERTILITY,INTENDED,NO,SDT,CERTAIN,hand,probe-s5-of-8,C.2.d - public financial support for childbearing in Hungary
+C3F2211,OFF_TOPIC,NA,NA,FERTILITY,DESIRED,NO,OTHER,CERTAIN,hand,probe-s5-of-8,stability of fertility preferences in Malawi
+C3F2212,MIXED_PUBLIC_PRIVATE,UPWARD,PUBLIC_TRANSFER,FERTILITY,REALIZED,NO,OTHER,CERTAIN,hand,probe-s5-of-8,social security and fertility tested bidirectionally across 81 countries; C.3.c owns the public substitute - rubric rule 1
+C3F2213,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s5-of-8,World Fertility Survey comparability note
+C3F2214,OFF_TOPIC,NA,NA,FERTILITY,REALIZED,NO,OTHER,UNCERTAIN,hand,probe-s5-of-8,no abstract; Kenya fertility projections
+C3F2215,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,OTHER,CERTAIN,hand,probe-s5-of-8,C.2.e - educational attainment and global fertility convergence
+C3F2216,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,FDT,UNCERTAIN,hand,probe-s5-of-8,D.1.b - mass schooling and the Sri Lankan transition; check at full text whether the operative variable is the child's lost labour
+C3F2217,NET_FLOW_FERTILITY,NET,PRIVATE_FAMILY,FERTILITY,REALIZED,NO,FDT,CERTAIN,hand,probe-s5-of-8,direct test of Caldwell's claim that parents reap a NET GAIN in wealth from children; Monrovia survey - the registered estimand
+C3F2218,OFF_TOPIC,NA,NA,FERTILITY,REALIZED,NO,OTHER,UNCERTAIN,hand,probe-s5-of-8,no abstract; cross-national fertility and family planning models
+C3F2219,OFF_TOPIC,NA,NA,FERTILITY,REALIZED,NO,PM,UNCERTAIN,hand,probe-s5-of-8,no abstract; fertility in Roman Italy
+C3F2220,SHOCK_NET_FERTILITY,UPWARD,PRIVATE_FAMILY,FERTILITY,REALIZED,UNCLEAR,SDT,UNCERTAIN,hand,probe-s5-of-8,no abstract; education fertility and cobalt mining in the DRC - the same child-labour-demand shock as the lithium seed
+C3F2221,OFF_SIBLING,NA,NA,FERTILITY,DESIRED,NO,OTHER,CERTAIN,hand,probe-s5-of-8,A.3 - global decline in non-numeric fertility preferences
+C3F2222,OFF_TOPIC,NA,NA,FERTILITY,REALIZED,NO,OTHER,CERTAIN,hand,probe-s5-of-8,evolutionary and life-history perspective on fertility and religion
+C3F3291,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s7-of-8,paediatric carotid ultrasound
+C3F3292,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s7-of-8,child under-nutrition in Kabul
+C3F3293,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s7-of-8,paediatric visceral leishmaniasis
+C3F3294,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s7-of-8,book index
+C3F3295,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s7-of-8,history of premature infant nursing
+C3F3296,FLOW_MEASUREMENT,NET,MIXED,FLOW_MAGNITUDE,NA,NO,OTHER,CERTAIN,hand,probe-s7-of-8,NTA changing economic life cycle across the transition; global
+C3F3297,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s7-of-8,comparative demographic context for Uruguay
+C3F3298,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s7-of-8,ageing and food expenditure patterns
+C3F3299,REVERSE,UPWARD,PRIVATE_FAMILY,NONE,NA,NO,SDT,CERTAIN,hand,probe-s7-of-8,One-Child Policy to elderly well-being; the estimand runs from fertility to the support the elderly receive
+C3F3300,FLOW_MEASUREMENT,UPWARD,PRIVATE_FAMILY,NONE,NA,NO,OTHER,UNCERTAIN,hand,probe-s7-of-8,no abstract; same work as C3F3301
+C3F3301,FLOW_MEASUREMENT,UPWARD,PRIVATE_FAMILY,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s7-of-8,economics of bride price dowry and dower; bride price is a transfer to the bride's parents - flag for the bequest boundary ruling
+C3F3302,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,UNCERTAIN,hand,probe-s7-of-8,no abstract; farm sizing for land reform areas
+C3F3303,SHOCK_NET_FERTILITY,DOWNWARD,PRIVATE_FAMILY,FERTILITY,REALIZED,YES,SDT,CERTAIN,hand,probe-s7-of-8,natural experiment on a 2008 Namibian widows' inheritance reform to fertility; the title states the mechanism as children being poor women's wealth - identified and squarely the registered estimand
+C3F3304,SHOCK_NET_FERTILITY,NET,PRIVATE_FAMILY,FERTILITY,REALIZED,UNCLEAR,OTHER,UNCERTAIN,hand,probe-s7-of-8,no abstract; decollectivization and land reform against the fertility transition
+C3F3305,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s7-of-8,soil fertility under Eastern European land reform - agronomy sense - rubric rule 6
+C3F3306,SHOCK_NET_FERTILITY,NET,PRIVATE_FAMILY,FERTILITY,REALIZED,UNCLEAR,FDT,UNCERTAIN,hand,probe-s7-of-8,no abstract; pro-poor land reforms education and fertility on international evidence 1820-2010
+C3F3307,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s7-of-8,oil palm agroforestry and soil fertility management - agronomy sense
+C3F3308,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s7-of-8,Russian land reform; same work as C3F0539
+C3F3309,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s7-of-8,soil fertility capability classification in Thailand - agronomy sense
+C3F3310,SHOCK_NET_FERTILITY,NET,PRIVATE_FAMILY,FERTILITY,REALIZED,UNCLEAR,OTHER,UNCERTAIN,hand,probe-s7-of-8,no abstract; land reforms status and population growth
+C3F3311,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s7-of-8,Korean inheritance law reform debate; no fertility outcome
+C3F3312,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,UNCERTAIN,hand,probe-s7-of-8,preface to a land reform monograph; mentions the birth rate in passing
+C3F3313,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s7-of-8,land protection and soil fertility investment - agronomy sense
+C3F3314,OFF_TOPIC,NA,NA,NONE,NA,YES,OTHER,UNCERTAIN,hand,probe-s7-of-8,no abstract; same work as C3F3315
+C3F3315,OFF_TOPIC,NA,NA,NONE,NA,YES,OTHER,CERTAIN,hand,probe-s7-of-8,land titling and household labour supply in Mexico; no child labour or fertility outcome in the visible record
+C3F3879,FLOW_MEASUREMENT,NET,MIXED,FLOW_MAGNITUDE,NA,NO,OTHER,UNCERTAIN,hand,probe-s8-of-8,no abstract; NTA Canada provinces 1997-2017 seniors against youth
+C3F3880,FLOW_MEASUREMENT,DOWNWARD,MIXED,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8,NTA Philippine education financing and the public-private mix
+C3F3881,THEORY,NET,PRIVATE_FAMILY,FERTILITY,REALIZED,NO,OTHER,CERTAIN,hand,probe-s8-of-8,a formal wealth-flows model relating number of children to flows between generations; theory not estimate
+C3F3883,FLOW_MEASUREMENT,NET,MIXED,FLOW_MAGNITUDE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8,Philippine NTA age profiles 1991-2011 and the first demographic dividend
+C3F3885,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8,Bronze Age Egyptian settlement and harbours; flows of wealth homonym
+C3F3886,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8,thermodynamic metaphor for economic crisis; wealth flow homonym
+C3F3887,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8,duplicate deposit of C3F3886
+C3F3888,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8,no abstract; burial culture and resource circulation; wealth flow homonym
+C3F3889,FLOW_MEASUREMENT,NET,MIXED,FLOW_MAGNITUDE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8,NTA France 1979-2011 lifecycle deficit
+C3F3890,FLOW_MEASUREMENT,NET,MIXED,FLOW_MAGNITUDE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8,Philippine NTA and the treatment of overseas workers' remittances
+C3F3891,FLOW_MEASUREMENT,NET,MIXED,FLOW_MAGNITUDE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8,NTA Korea; lifecycle surplus from 27 to 56
+C3F3892,FLOW_MEASUREMENT,NET,MIXED,FLOW_MAGNITUDE,NA,NO,OTHER,UNCERTAIN,hand,probe-s8-of-8,no abstract; intergenerational reallocations in Brazil 2003-2018
+C3F3894,FLOW_MEASUREMENT,NET,MIXED,FLOW_MAGNITUDE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8,NTA methods and data for the Philippines
+C3F3895,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8,immigration and the Slovak economy
+C3F3896,FLOW_MEASUREMENT,NET,MIXED,FLOW_MAGNITUDE,NA,NO,OTHER,UNCERTAIN,hand,probe-s8-of-8,no abstract; same work as C3F3892
+C3F3897,FLOW_MEASUREMENT,NET,MIXED,FLOW_MAGNITUDE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8,dissertation whose first essay builds NTA for Canada
+C3F3898,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8,no abstract; carbon taxes and environmental policy
+C3F3901,MIXED_PUBLIC_PRIVATE,UPWARD,PUBLIC_TRANSFER,NONE,NA,UNCLEAR,SDT,UNCERTAIN,hand,probe-s8-of-8,no abstract; China's New Rural Pension Scheme - C.3.c owns the public substitute
+C3F3903,FLOW_MEASUREMENT,NET,MIXED,FLOW_MAGNITUDE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8,NTA Pakistan; quantifying wealth flows through the generational economy
+C3F3910,OFF_SIBLING,NA,NA,NONE,NA,NO,SDT,CERTAIN,hand,probe-s8-of-8,C.2.e and D.2.a - immigrant women's labour force participation
+C3F3918,OFF_SIBLING,DOWNWARD,PRIVATE_FAMILY,NONE,NA,NO,OTHER,UNCERTAIN,hand,probe-s8-of-8,no abstract; C.3.d - education as inheritance against education as opportunity
+C3F3920,FLOW_MEASUREMENT,NET,MIXED,FLOW_MAGNITUDE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8,provincial generational economy Pakistan; same programme as C3F3903
+C3F3927,THEORY,DOWNWARD,PRIVATE_FAMILY,NONE,NA,NO,OTHER,UNCERTAIN,hand,probe-s8-of-8,no abstract; social welfare parental altruism and inequality
+C3F3939,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8,no abstract; business course for Black entrepreneurs; gospel of wealth homonym
+C3F3945,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8,no abstract; duplicate deposit of C3F3939
