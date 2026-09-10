@@ -94,8 +94,8 @@ def main():
     ap.add_argument("batch")
     ap.add_argument("--window", type=int, default=600)
     ap.add_argument("--flow-only", action="store_true",
-                    help="also collapse records with an outcome word but NO flow vocabulary "
-                         "anywhere in the full text; they cannot be in any C.3.f cell")
+                    help="RETIRED -- see the comment in main(). It hid a record whose twin "
+                         "was already routed primary. Kept only so old commands do not break.")
     a = ap.parse_args()
     validate_collapse_rule()
     p = BATCHES / f"{a.batch}.json"
@@ -129,6 +129,13 @@ def main():
         # Quantity-Quality Trade-Off of Children"). A title carries ~10 words, so a vocabulary test
         # on it is far weaker evidence than the same test on 200 words of abstract, and the flow is
         # often implied by the topic rather than named. Title-only records are always shown.
+        # RETIRED 2026-09-10. The tier is off by default and --flow-only now warns. It collapsed
+        # "Rural Agricultural Change and Fertility Transition in Nepal" -- whose twin was already
+        # routed primary -- because the abstract says "modern farm technologies" and the FLOW
+        # pattern has land, labour and tenure but not farm technology. That is the third record a
+        # collapse rule has hidden. The flow in this chapter is usually IMPLIED BY THE SETTING (a
+        # farm, a mine, a landholding) rather than named, so no vocabulary test can stand in for
+        # reading. Extra reading is the cheaper error.
         if a.flow_only and ab and not mf:
             flow_only.append(r)
             continue
