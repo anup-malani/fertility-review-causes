@@ -484,6 +484,32 @@ with the search that failed described, not "weak evidence".
 
 ---
 
+## 14. The reachability ceiling — measure it before recall **[380]**
+
+`reachability-ceiling-before-recall`. Recall is meaningless against an anchor the index does not
+hold, so the anchor set was resolved before any production query exists.
+
+**Thirty usable anchors.** Fourteen inherited from D.1.b and confirmed by id in one batched request,
+14 of 14. Twenty-one hand-named works resolved: 12 clean, 2 recovered on a second pass, 2 usable at a
+different version.
+
+**Five anchors are unreachable, and three of them are the canon.** Caldwell 1982, Zelizer 1985 and
+Boserup 1965 are monographs, and OpenAlex holds **only reviews of them** — a correctly titled,
+contemporaneous record of a different work, at Jaccard 1.00. Stecklov 1997 and Mueller 1976 did not
+resolve at all; Mueller is a book chapter. **A production query cannot retrieve any of these five, so
+recall must be computed over the 30 reachable anchors and the canon handled by hand.** This is a
+property of the index, not of the query, and quoting a recall figure against all 35 would understate
+every query this chapter ever builds.
+
+**Which defence caught the reviews is worth recording, because one of the two did nothing.** The
+shadow-record text pattern — `review of`, `comment on`, `editorial` — caught **0 of 3**. All three
+reviews carry the book's title verbatim and nothing else. The author-position gate caught **3 of 3**.
+`anchor-resolver-book-canon` asks for both defences on the grounds that neither is redundant, and
+that holds: the type check is what stands between us and the remaining hole, where a review lists the
+reviewed author first. But on this canon the text pattern contributed nothing at all.
+
+---
+
 ## Provenance
 
 | artifact | produced by |
@@ -492,6 +518,7 @@ with the search that failed described, not "weak evidence".
 | `c3f-term-diagnostics-2026-09-10.{json,md}` | `source/build/goldset/376_c3f_term_diagnostics.py` |
 | `c3f-inherited-seeds-2026-09-10.{json,md}` | `source/build/goldset/377_c3f_inherited_seeds.py` |
 | `c3f-wall5-null-probe-2026-09-10.{json,md}` | `source/build/goldset/379_c3f_wall5_and_null_probe.py` |
+| `c3f-anchors-2026-09-10.{json,md}` | `source/build/goldset/380_c3f_anchors.py` (uses `source/lib/openalex.py`) |
 | `c3f-inherited-seeds-routing.md` | hand-read, 2026-09-10 |
 
 Inherited seeds come from branch `063-caldwell-wealth-flows-westernization` at `5859297e`. C.3.c

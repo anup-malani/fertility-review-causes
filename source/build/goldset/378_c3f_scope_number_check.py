@@ -196,6 +196,23 @@ def main():
     log("§3B 'number of children' x household size", 4,
         w["'number of children' INTERSECT the same"])
 
+    # ---------------------------------------------------------------- 380: the anchor set
+    d380 = load("c3f-anchors")
+    n = d380["counts"]
+    log("§14 inherited confirmed", 14, n["inherited_confirmed"])
+    log("§14 inherited total", 14, n["inherited_total"])
+    log("§14 hand-named resolved cleanly", 12, n["resolved_ok"])
+    log("§14 hand-named total", 21, n["resolved_total"])
+    log("§14 recovered on pass 2", 2, n["retry_recovered"])
+    log("§14 reviews caught by the author gate", 3, n["book_reviews_caught_by_author_gate"])
+    log("§14 reviews caught by the shadow regex", 0, n["book_reviews_caught_by_shadow_regex"])
+    versions = sum(1 for r in d380["resolved"] if r["verdict"] == "VERSION_DIFFERS")
+    log("§14 usable at a different version", 2, versions)
+    derived("§14 usable anchors (30)", 30,
+            n["inherited_confirmed"] + n["resolved_ok"] + n["retry_recovered"] + versions)
+    derived("§14 unreachable (5)", 5,
+            n["book_reviews_caught_by_author_gate"] + (n["retry_total"] - n["retry_recovered"]))
+
     # ---------------------------------------------------------------- EXTERNAL: C.3.c's verdict
     c3c = C3C.read_text()
     external = [("§4/§5 C.3.c FDT magnitude", "0.0677 births per woman"),

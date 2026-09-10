@@ -1,0 +1,817 @@
+{
+  "date": "2026-09-10",
+  "inherited": [
+    {
+      "id": "W1968681873",
+      "confirmed": true,
+      "title": "The Direction of Intergenerational Transfers and Demographic Transition: The Caldwell Hypothesis Reexamined",
+      "year": 1982,
+      "type": "article",
+      "cited_by": 45,
+      "first_author": "Robert J. Willis"
+    },
+    {
+      "id": "W2166683595",
+      "confirmed": true,
+      "title": "On Net Intergenerational Wealth Flows: An Update",
+      "year": 2005,
+      "type": "article",
+      "cited_by": 122,
+      "first_author": "John C. Caldwell"
+    },
+    {
+      "id": "W2011774072",
+      "confirmed": true,
+      "title": "The economic rationality of high fertility: An investigation illustrated with Nigerian survey data",
+      "year": 1977,
+      "type": "article",
+      "cited_by": 85,
+      "first_author": "John C. Caldwell"
+    },
+    {
+      "id": "W2080580016",
+      "confirmed": true,
+      "title": "The Economic Activities of Children in a Village in Bangladesh",
+      "year": 1977,
+      "type": "article",
+      "cited_by": 370,
+      "first_author": "Mead Cain"
+    },
+    {
+      "id": "W2291007676",
+      "confirmed": true,
+      "title": "An Anthropological Approach to the Study of the Economic Value of Children in Java and Nepal [and Comments and Reply]",
+      "year": 1978,
+      "type": "article",
+      "cited_by": 186,
+      "first_author": "Moni Nag"
+    },
+    {
+      "id": "W2123066109",
+      "confirmed": true,
+      "title": "The Modern Demographic Transition: An Analysis of Subsistence Choices and Reproductive Consequences",
+      "year": 1986,
+      "type": "article",
+      "cited_by": 125,
+      "first_author": "W. Penn Handwerker"
+    },
+    {
+      "id": "W2125236554",
+      "confirmed": true,
+      "title": "The co-evolution of human fertility and wealth inheritance strategies",
+      "year": 1998,
+      "type": "article",
+      "cited_by": 161,
+      "first_author": "Ruth Mace"
+    },
+    {
+      "id": "W2072439318",
+      "confirmed": true,
+      "title": "Darwinian Transitions?: A Comment",
+      "year": 1990,
+      "type": "article",
+      "cited_by": 13,
+      "first_author": "Thomas Fricke"
+    },
+    {
+      "id": "W2171516515",
+      "confirmed": true,
+      "title": "Useful and Priceless Children in Contemporary Welfare States",
+      "year": 2005,
+      "type": "article",
+      "cited_by": 81,
+      "first_author": "Philip S. Miller"
+    },
+    {
+      "id": "W2100112274",
+      "confirmed": true,
+      "title": "Fertility Transition in South and Southeast Asia",
+      "year": 2004,
+      "type": "article",
+      "cited_by": 7,
+      "first_author": "Anu Rammohan"
+    },
+    {
+      "id": "W4392107509",
+      "confirmed": true,
+      "title": "Lithium-ion batteries and fertility in Africa",
+      "year": 2024,
+      "type": "article",
+      "cited_by": 3,
+      "first_author": "Maurizio Malpede"
+    },
+    {
+      "id": "W4390206201",
+      "confirmed": true,
+      "title": "Long-run Impacts of Forced Labor Migration on Fertility Behaviors: Evidence from Colonial West Africa",
+      "year": 2023,
+      "type": "report",
+      "cited_by": 9,
+      "first_author": "Pascaline Dupas"
+    },
+    {
+      "id": "W1586803970",
+      "confirmed": true,
+      "title": "Rural Agricultural Change and Fertility Transition in N epal",
+      "year": 2013,
+      "type": "article",
+      "cited_by": 15,
+      "first_author": "Prem Bhandari"
+    },
+    {
+      "id": "W2133707003",
+      "confirmed": true,
+      "title": "The influence of structural change in agriculture on childbearing among Iowa's farm population",
+      "year": 1994,
+      "type": "dissertation",
+      "cited_by": 0,
+      "first_author": "Xiaodong Yang"
+    }
+  ],
+  "resolved": [
+    {
+      "verdict": "OK",
+      "best": {
+        "id": "W2071910106",
+        "doi": "https://doi.org/10.2307/1971615",
+        "title": "Toward A Restatement of Demographic Transition Theory",
+        "year": 1976,
+        "type": "article",
+        "cited_by": 1006,
+        "first_author": "John C. Caldwell",
+        "authors": [
+          "John C. Caldwell"
+        ],
+        "jaccard": 1.0,
+        "shadow": false,
+        "first_author_ok": true,
+        "author_anywhere": true,
+        "year_delta": 0
+      },
+      "n_candidates": 8,
+      "n_shadow": 0,
+      "shadow_regex_caught_it": false,
+      "kind": "ANCHOR",
+      "arm": "NET/theory",
+      "expect_author": "Caldwell",
+      "expect_year": 1976,
+      "expect_type": "ARTICLE",
+      "expect_title": "Toward a Restatement of Demographic Transition Theory"
+    },
+    {
+      "verdict": "OK",
+      "best": {
+        "id": "W2085516690",
+        "doi": "https://doi.org/10.2307/1971727",
+        "title": "A Theory of Fertility: From High Plateau to Destabilization",
+        "year": 1978,
+        "type": "article",
+        "cited_by": 258,
+        "first_author": "John C. Caldwell",
+        "authors": [
+          "John C. Caldwell"
+        ],
+        "jaccard": 1.0,
+        "shadow": false,
+        "first_author_ok": true,
+        "author_anywhere": true,
+        "year_delta": 0
+      },
+      "n_candidates": 8,
+      "n_shadow": 0,
+      "shadow_regex_caught_it": false,
+      "kind": "ANCHOR",
+      "arm": "NET/theory",
+      "expect_author": "Caldwell",
+      "expect_year": 1978,
+      "expect_type": "ARTICLE",
+      "expect_title": "A Theory of Fertility: From High Plateau to Destabilization"
+    },
+    {
+      "verdict": "REVIEW_OF_THE_WORK",
+      "best": {
+        "id": "W2031236773",
+        "doi": "https://doi.org/10.2307/1972905",
+        "title": "Theory of Fertility Decline.",
+        "year": 1983,
+        "type": "article",
+        "cited_by": 1338,
+        "first_author": "Tanja Schultz",
+        "authors": [
+          "Tanja Schultz",
+          "John C. Caldwell"
+        ],
+        "jaccard": 1.0,
+        "shadow": false,
+        "first_author_ok": false,
+        "author_anywhere": true,
+        "year_delta": 1
+      },
+      "n_candidates": 8,
+      "n_shadow": 0,
+      "shadow_regex_caught_it": false,
+      "kind": "ANCHOR",
+      "arm": "NET/theory",
+      "expect_author": "Caldwell",
+      "expect_year": 1982,
+      "expect_type": "BOOK",
+      "expect_title": "Theory of Fertility Decline"
+    },
+    {
+      "verdict": "OK",
+      "best": {
+        "id": "W2079885391",
+        "doi": "https://doi.org/10.2307/2137661",
+        "title": "Evolutionary and Wealth Flows Theories of Fertility: Empirical Tests and New Models",
+        "year": 1994,
+        "type": "article",
+        "cited_by": 354,
+        "first_author": "Hillard Kaplan",
+        "authors": [
+          "Hillard Kaplan"
+        ],
+        "jaccard": 1.0,
+        "shadow": false,
+        "first_author_ok": true,
+        "author_anywhere": true,
+        "year_delta": 0
+      },
+      "n_candidates": 8,
+      "n_shadow": 1,
+      "shadow_regex_caught_it": false,
+      "kind": "ANCHOR",
+      "arm": "NET/theory",
+      "expect_author": "Kaplan",
+      "expect_year": 1994,
+      "expect_type": "ARTICLE",
+      "expect_title": "Evolutionary and Wealth Flows Theories of Fertility: Empirical Tests and New Models"
+    },
+    {
+      "verdict": "OK",
+      "best": {
+        "id": "W2035781515",
+        "doi": "https://doi.org/10.2307/1973405",
+        "title": "Evolution and the Demand for Children",
+        "year": 1989,
+        "type": "article",
+        "cited_by": 268,
+        "first_author": "Paul W. Turke",
+        "authors": [
+          "Paul W. Turke"
+        ],
+        "jaccard": 1.0,
+        "shadow": false,
+        "first_author_ok": true,
+        "author_anywhere": true,
+        "year_delta": 0
+      },
+      "n_candidates": 8,
+      "n_shadow": 0,
+      "shadow_regex_caught_it": false,
+      "kind": "ANCHOR",
+      "arm": "NET/theory",
+      "expect_author": "Turke",
+      "expect_year": 1989,
+      "expect_type": "ARTICLE",
+      "expect_title": "Evolution and the Demand for Children"
+    },
+    {
+      "verdict": "WRONG_AUTHOR",
+      "best": {
+        "id": "W1586495778",
+        "doi": "https://doi.org/10.5860/choice.49-5183",
+        "title": "Population aging and the generational economy: a global perspective",
+        "year": 2012,
+        "type": "book-review",
+        "cited_by": 359,
+        "first_author": "",
+        "authors": [],
+        "jaccard": 1.0,
+        "shadow": false,
+        "first_author_ok": false,
+        "author_anywhere": false,
+        "year_delta": 1
+      },
+      "n_candidates": 8,
+      "n_shadow": 0,
+      "shadow_regex_caught_it": false,
+      "kind": "ANCHOR",
+      "arm": "NET/measurement",
+      "expect_author": "Lee",
+      "expect_year": 2011,
+      "expect_type": "BOOK",
+      "expect_title": "Population Aging and the Generational Economy: A Global Perspective"
+    },
+    {
+      "verdict": "OK",
+      "best": {
+        "id": "W1527576846",
+        "doi": "https://doi.org/10.1007/s10680-009-9186-x",
+        "title": "Fertility, Human Capital, and Economic Growth over the Demographic Transition",
+        "year": 2009,
+        "type": "article",
+        "cited_by": 419,
+        "first_author": "Ronald Lee",
+        "authors": [
+          "Ronald Lee",
+          "Andrew Mason"
+        ],
+        "jaccard": 1.0,
+        "shadow": false,
+        "first_author_ok": true,
+        "author_anywhere": true,
+        "year_delta": 1
+      },
+      "n_candidates": 8,
+      "n_shadow": 0,
+      "shadow_regex_caught_it": false,
+      "kind": "ANCHOR",
+      "arm": "NET/measurement",
+      "expect_author": "Lee",
+      "expect_year": 2010,
+      "expect_type": "ARTICLE",
+      "expect_title": "Fertility Human Capital and Economic Growth over the Demographic Transition"
+    },
+    {
+      "verdict": "WRONG_AUTHOR",
+      "best": {
+        "id": "W1575883952",
+        "doi": null,
+        "title": "Effectiveness and welfare impacts of alternative polices to address atmospheric pollution in urban road transport",
+        "year": 1998,
+        "type": "report",
+        "cited_by": 6,
+        "first_author": "Stef Proost",
+        "authors": [
+          "Stef Proost",
+          "Kurt Van Dender"
+        ],
+        "jaccard": 0.083,
+        "shadow": false,
+        "first_author_ok": false,
+        "author_anywhere": false,
+        "year_delta": 1
+      },
+      "n_candidates": 8,
+      "n_shadow": 0,
+      "shadow_regex_caught_it": false,
+      "kind": "ANCHOR",
+      "arm": "NET/measurement",
+      "expect_author": "Stecklov",
+      "expect_year": 1997,
+      "expect_type": "ARTICLE",
+      "expect_title": "Intergenerational Resource Flows in Cote d Ivoire: Empirical Analysis of Aggregate Flows"
+    },
+    {
+      "verdict": "WRONG_AUTHOR",
+      "best": {
+        "id": "W2259946919",
+        "doi": "https://doi.org/10.22004/ag.econ.209629",
+        "title": "The Role of Agriculture in Economic Development",
+        "year": 1961,
+        "type": "preprint",
+        "cited_by": 644,
+        "first_author": "H. A. Oluwasanmi",
+        "authors": [
+          "H. A. Oluwasanmi",
+          "Oluwasanmi, H.A."
+        ],
+        "jaccard": 0.5,
+        "shadow": false,
+        "first_author_ok": false,
+        "author_anywhere": false,
+        "year_delta": 15
+      },
+      "n_candidates": 8,
+      "n_shadow": 1,
+      "shadow_regex_caught_it": false,
+      "kind": "ANCHOR",
+      "arm": "UPWARD",
+      "expect_author": "Mueller",
+      "expect_year": 1976,
+      "expect_type": "ARTICLE",
+      "expect_title": "The Economic Value of Children in Peasant Agriculture"
+    },
+    {
+      "verdict": "REVIEW_OF_THE_WORK",
+      "best": {
+        "id": "W2156290409",
+        "doi": "https://doi.org/10.2307/1864520",
+        "title": "Pricing the Priceless Child: The Changing Social Value of Children",
+        "year": 1986,
+        "type": "article",
+        "cited_by": 1228,
+        "first_author": "Miriam Z. Langsam",
+        "authors": [
+          "Miriam Z. Langsam",
+          "Viviana A. Zelizer"
+        ],
+        "jaccard": 1.0,
+        "shadow": false,
+        "first_author_ok": false,
+        "author_anywhere": true,
+        "year_delta": 1
+      },
+      "n_candidates": 8,
+      "n_shadow": 0,
+      "shadow_regex_caught_it": false,
+      "kind": "ANCHOR",
+      "arm": "DOWNWARD",
+      "expect_author": "Zelizer",
+      "expect_year": 1985,
+      "expect_type": "BOOK",
+      "expect_title": "Pricing the Priceless Child: The Changing Social Value of Children"
+    },
+    {
+      "verdict": "VERSION_DIFFERS",
+      "best": {
+        "id": "W4300037787",
+        "doi": "https://doi.org/10.1515/9781400870066",
+        "title": "Fertility and Scarcity in America",
+        "year": 2015,
+        "type": "book",
+        "cited_by": 4,
+        "first_author": "Peter H. Lindert",
+        "authors": [
+          "Peter H. Lindert"
+        ],
+        "jaccard": 1.0,
+        "shadow": false,
+        "first_author_ok": true,
+        "author_anywhere": true,
+        "year_delta": 37
+      },
+      "n_candidates": 8,
+      "n_shadow": 1,
+      "shadow_regex_caught_it": false,
+      "kind": "ANCHOR",
+      "arm": "DOWNWARD",
+      "expect_author": "Lindert",
+      "expect_year": 1978,
+      "expect_type": "BOOK",
+      "expect_title": "Fertility and Scarcity in America"
+    },
+    {
+      "verdict": "OK",
+      "best": {
+        "id": "W2929932278",
+        "doi": "https://doi.org/10.1257/aer.20190098",
+        "title": "Can Policy Change Culture? Government Pension Plans and Traditional Kinship Practices",
+        "year": 2021,
+        "type": "article",
+        "cited_by": 48,
+        "first_author": "Natalie Bau",
+        "authors": [
+          "Natalie Bau"
+        ],
+        "jaccard": 1.0,
+        "shadow": false,
+        "first_author_ok": true,
+        "author_anywhere": true,
+        "year_delta": 0
+      },
+      "n_candidates": 8,
+      "n_shadow": 0,
+      "shadow_regex_caught_it": false,
+      "kind": "ANCHOR",
+      "arm": "CH2/identified",
+      "expect_author": "Bau",
+      "expect_year": 2021,
+      "expect_type": "ARTICLE",
+      "expect_title": "Can Policy Change Culture? Government Pension Plans and Traditional Kinship Practices"
+    },
+    {
+      "verdict": "OK",
+      "best": {
+        "id": "W2112203404",
+        "doi": "https://doi.org/10.1257/0895330053147895",
+        "title": "Child Labor in the Global Economy",
+        "year": 2005,
+        "type": "article",
+        "cited_by": 464,
+        "first_author": "Eric V. Edmonds",
+        "authors": [
+          "Eric V. Edmonds",
+          "Nina Pavcnik"
+        ],
+        "jaccard": 1.0,
+        "shadow": false,
+        "first_author_ok": true,
+        "author_anywhere": true,
+        "year_delta": 0
+      },
+      "n_candidates": 8,
+      "n_shadow": 0,
+      "shadow_regex_caught_it": false,
+      "kind": "ANCHOR",
+      "arm": "CH2/identified",
+      "expect_author": "Edmonds",
+      "expect_year": 2005,
+      "expect_type": "ARTICLE",
+      "expect_title": "Child Labor in the Global Economy"
+    },
+    {
+      "verdict": "OK",
+      "best": {
+        "id": "W2119566744",
+        "doi": "https://doi.org/10.1016/j.jinteco.2004.04.001",
+        "title": "The effect of trade liberalization on child labor",
+        "year": 2004,
+        "type": "article",
+        "cited_by": 301,
+        "first_author": "Eric V. Edmonds",
+        "authors": [
+          "Eric V. Edmonds",
+          "Nina Pavcnik"
+        ],
+        "jaccard": 1.0,
+        "shadow": false,
+        "first_author_ok": true,
+        "author_anywhere": true,
+        "year_delta": 1
+      },
+      "n_candidates": 8,
+      "n_shadow": 0,
+      "shadow_regex_caught_it": false,
+      "kind": "ANCHOR",
+      "arm": "CH2/identified",
+      "expect_author": "Edmonds",
+      "expect_year": 2005,
+      "expect_type": "ARTICLE",
+      "expect_title": "The Effect of Trade Liberalization on Child Labor"
+    },
+    {
+      "verdict": "OK",
+      "best": {
+        "id": "W2041407368",
+        "doi": "https://doi.org/10.2307/1973379",
+        "title": "The Old-Age Security Motive for Fertility",
+        "year": 1985,
+        "type": "article",
+        "cited_by": 307,
+        "first_author": "Jeffrey B. Nugent",
+        "authors": [
+          "Jeffrey B. Nugent"
+        ],
+        "jaccard": 1.0,
+        "shadow": false,
+        "first_author_ok": true,
+        "author_anywhere": true,
+        "year_delta": 0
+      },
+      "n_candidates": 8,
+      "n_shadow": 1,
+      "shadow_regex_caught_it": false,
+      "kind": "DECOY",
+      "arm": "C.3.c old-age security",
+      "expect_author": "Nugent",
+      "expect_year": 1985,
+      "expect_type": "ARTICLE",
+      "expect_title": "The Old-Age Security Motive for Fertility"
+    },
+    {
+      "verdict": "OK",
+      "best": {
+        "id": "W1517466339",
+        "doi": "https://doi.org/10.1086/260166",
+        "title": "On the Interaction between the Quantity and Quality of Children",
+        "year": 1973,
+        "type": "article",
+        "cited_by": 507,
+        "first_author": "Gary S. Becker",
+        "authors": [
+          "Gary S. Becker",
+          "H. Gregg Lewis"
+        ],
+        "jaccard": 1.0,
+        "shadow": false,
+        "first_author_ok": true,
+        "author_anywhere": true,
+        "year_delta": 0
+      },
+      "n_candidates": 8,
+      "n_shadow": 0,
+      "shadow_regex_caught_it": false,
+      "kind": "DECOY",
+      "arm": "C.3.d quantity-quality",
+      "expect_author": "Becker",
+      "expect_year": 1973,
+      "expect_type": "ARTICLE",
+      "expect_title": "On the Interaction between the Quantity and Quality of Children"
+    },
+    {
+      "verdict": "OK",
+      "best": {
+        "id": "W2031727718",
+        "doi": "https://doi.org/10.1353/dem.2001.0039",
+        "title": "The developmental paradigm, reading history sideways, and family change",
+        "year": 2001,
+        "type": "article",
+        "cited_by": 326,
+        "first_author": "Arland Thornton",
+        "authors": [
+          "Arland Thornton"
+        ],
+        "jaccard": 1.0,
+        "shadow": false,
+        "first_author_ok": true,
+        "author_anywhere": true,
+        "year_delta": 0
+      },
+      "n_candidates": 8,
+      "n_shadow": 0,
+      "shadow_regex_caught_it": false,
+      "kind": "DECOY",
+      "arm": "D.1.b developmental idealism",
+      "expect_author": "Thornton",
+      "expect_year": 2001,
+      "expect_type": "ARTICLE",
+      "expect_title": "The Developmental Paradigm Reading History Sideways and Family Change"
+    },
+    {
+      "verdict": "REVIEW_OF_THE_WORK",
+      "best": {
+        "id": "W2992290772",
+        "doi": "https://doi.org/10.2307/1528968",
+        "title": "The Conditions of Agricultural Growth. The Economics of Agrarian Change under Population Pressure",
+        "year": 1966,
+        "type": "article",
+        "cited_by": 1824,
+        "first_author": "Augustine Crispin",
+        "authors": [
+          "Augustine Crispin",
+          "Ester Boserup"
+        ],
+        "jaccard": 1.0,
+        "shadow": false,
+        "first_author_ok": false,
+        "author_anywhere": true,
+        "year_delta": 1
+      },
+      "n_candidates": 8,
+      "n_shadow": 0,
+      "shadow_regex_caught_it": false,
+      "kind": "DECOY",
+      "arm": "C.3.a mode of production",
+      "expect_author": "Boserup",
+      "expect_year": 1965,
+      "expect_type": "BOOK",
+      "expect_title": "The Conditions of Agricultural Growth: The Economics of Agrarian Change under Population Pressure"
+    },
+    {
+      "verdict": "OK",
+      "best": {
+        "id": "W2035671284",
+        "doi": "https://doi.org/10.1162/rest_a_00266",
+        "title": "Do Family Wealth Shocks Affect Fertility Choices? Evidence from the Housing Market",
+        "year": 2012,
+        "type": "article",
+        "cited_by": 330,
+        "first_author": "Michael Lovenheim",
+        "authors": [
+          "Michael Lovenheim",
+          "Kevin J. Mumford"
+        ],
+        "jaccard": 1.0,
+        "shadow": false,
+        "first_author_ok": true,
+        "author_anywhere": true,
+        "year_delta": 1
+      },
+      "n_candidates": 8,
+      "n_shadow": 0,
+      "shadow_regex_caught_it": false,
+      "kind": "DECOY",
+      "arm": "C.1.a income and wealth shocks",
+      "expect_author": "Lovenheim",
+      "expect_year": 2013,
+      "expect_type": "ARTICLE",
+      "expect_title": "Do Family Wealth Shocks Affect Fertility Choices? Evidence from the Housing Market"
+    },
+    {
+      "verdict": "WRONG_AUTHOR",
+      "best": {
+        "id": "W2898829726",
+        "doi": "https://doi.org/10.1007/s13524-018-0727-y",
+        "title": "Intergenerational Transmission of Multipartner Fertility",
+        "year": 2018,
+        "type": "article",
+        "cited_by": 23,
+        "first_author": "Trude Lappeg\u00e5rd",
+        "authors": [
+          "Trude Lappeg\u00e5rd",
+          "Elizabeth Thomson"
+        ],
+        "jaccard": 0.444,
+        "shadow": false,
+        "first_author_ok": false,
+        "author_anywhere": false,
+        "year_delta": 16
+      },
+      "n_candidates": 8,
+      "n_shadow": 1,
+      "shadow_regex_caught_it": false,
+      "kind": "DECOY",
+      "arm": "A.19 transmission of fertility",
+      "expect_author": "Murphy",
+      "expect_year": 2002,
+      "expect_type": "ARTICLE",
+      "expect_title": "The Intergenerational Transmission of Fertility in Contemporary Denmark"
+    },
+    {
+      "verdict": "VERSION_DIFFERS",
+      "best": {
+        "id": "W1541891808",
+        "doi": "https://doi.org/10.22004/ag.econ.45852",
+        "title": "Expenditures on Children by Families, 2007",
+        "year": 2008,
+        "type": "preprint",
+        "cited_by": 133,
+        "first_author": "Mark Lino",
+        "authors": [
+          "Mark Lino",
+          "Lino, Mark"
+        ],
+        "jaccard": 0.833,
+        "shadow": false,
+        "first_author_ok": true,
+        "author_anywhere": true,
+        "year_delta": 9
+      },
+      "n_candidates": 8,
+      "n_shadow": 0,
+      "shadow_regex_caught_it": false,
+      "kind": "DECOY",
+      "arm": "C.2.b direct costs",
+      "expect_author": "Lino",
+      "expect_year": 2017,
+      "expect_type": "ARTICLE",
+      "expect_title": "Expenditures on Children by Families"
+    }
+  ],
+  "retried": [
+    {
+      "expect_author": "Lee",
+      "expect_year": 2011,
+      "expect_title": "Population Aging and the Generational Economy: A Global Perspective",
+      "pass1_verdict": "WRONG_AUTHOR",
+      "n_candidates": 5,
+      "best": {
+        "id": "W7111906193",
+        "title": "Population Aging and the Generational Economy",
+        "year": null,
+        "type": "book",
+        "cited_by": 0,
+        "first_author": "Andrew Mason",
+        "jaccard": 0.667
+      },
+      "verdict": "RECOVERED"
+    },
+    {
+      "expect_author": "Stecklov",
+      "expect_year": 1997,
+      "expect_title": "Intergenerational Resource Flows in Cote d Ivoire: Empirical Analysis of Aggregate Flows",
+      "pass1_verdict": "WRONG_AUTHOR",
+      "n_candidates": 0,
+      "best": null,
+      "verdict": "STILL_MISSING"
+    },
+    {
+      "expect_author": "Mueller",
+      "expect_year": 1976,
+      "expect_title": "The Economic Value of Children in Peasant Agriculture",
+      "pass1_verdict": "WRONG_AUTHOR",
+      "n_candidates": 0,
+      "best": null,
+      "verdict": "STILL_MISSING"
+    },
+    {
+      "expect_author": "Murphy",
+      "expect_year": 2002,
+      "expect_title": "The Intergenerational Transmission of Fertility in Contemporary Denmark",
+      "pass1_verdict": "WRONG_AUTHOR",
+      "n_candidates": 1,
+      "best": {
+        "id": "W2168476128",
+        "title": "The intergenerational transmission of fertility in contemporary Denmark: The effects of number of siblings (full and half), birth order, and whether male or female",
+        "year": 2002,
+        "type": "article",
+        "cited_by": 175,
+        "first_author": "Madhuvanti M. Murphy",
+        "jaccard": 0.4
+      },
+      "verdict": "RECOVERED"
+    }
+  ],
+  "errors": [],
+  "counts": {
+    "inherited_confirmed": 14,
+    "inherited_total": 14,
+    "resolved_ok": 12,
+    "resolved_total": 21,
+    "retry_recovered": 2,
+    "retry_total": 4,
+    "book_reviews_caught_by_author_gate": 3,
+    "book_reviews_caught_by_shadow_regex": 0
+  }
+}

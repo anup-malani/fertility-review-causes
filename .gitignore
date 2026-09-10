@@ -59,3 +59,4 @@ literature/search-logs/.cache/
 .env
 .env.*
 !.env.example
+temp/c3f-anchor-cache.json
