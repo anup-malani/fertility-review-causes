@@ -55,7 +55,7 @@ def sentence_at(text, pos, span=190):
     return s if len(s) <= span else s[:span] + "…"
 
 
-def validate_collapse_rule():
+def validate_collapse_rule(check_flow_only):
     """The collapse rule states a confident negative, so it is checked against every record already
     hand-routed to a primary cell. If the rule would have hidden one, it is broken and the script
     refuses to run (`safeguards-must-be-measured-not-trusted`,
@@ -74,16 +74,16 @@ def validate_collapse_rule():
         if not r:
             continue
         blob = f"{r.get('title') or ''} {r.get('abstract') or ''}"
-        if (r.get("abstract") or "").strip() and not FLOW.search(blob):  # tier 2
-            hidden.append((sid, (r.get("title") or "")[:70]))
+        if check_flow_only and (r.get("abstract") or "").strip() and not FLOW.search(blob):
+            hidden.append((sid, (r.get("title") or "")[:70]))          # tier 2, only if active
         if (r.get("abstract") or "").strip() and not OUTCOME.search(blob) \
                 and not FLOW.search(blob):  # tier 1
             hidden.append((sid, (r.get("title") or "")[:70]))
     if hidden:
         for sid, t in hidden:
             print(f"  COLLAPSE RULE WOULD HIDE {sid}  {t}", file=sys.stderr)
-        sys.exit(f"the collapse rule would hide {len(hidden)} of {len(primary)} known primary "
-                 "records. Widen the patterns before reading anything with it.")
+        sys.exit(f"the ACTIVE collapse rule would hide {len(hidden)} of {len(primary)} known "
+                 "primary records. Do not read anything with it.")
     print(f"[collapse rules checked against {len(primary)} known primary records — including the "
           f"stricter flow-only tier: hides none]",
           file=sys.stderr)
@@ -97,7 +97,7 @@ def main():
                     help="RETIRED -- see the comment in main(). It hid a record whose twin "
                          "was already routed primary. Kept only so old commands do not break.")
     a = ap.parse_args()
-    validate_collapse_rule()
+    validate_collapse_rule(a.flow_only)
     p = BATCHES / f"{a.batch}.json"
     if not p.exists():
         sys.exit(f"no such batch: {p}")
