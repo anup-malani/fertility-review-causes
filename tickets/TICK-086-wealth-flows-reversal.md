@@ -8,7 +8,7 @@
 **Touches:** literature/search-logs/wealth-flows-reversal-*, extraction/wealth-flows-reversal-*, output/chapters/wealth-flows-reversal.md, source/build/goldset/37[6-9]*, source/build/goldset/38*, source/build/goldset/304_candidate_frame_probe.py
 
 ## Acceptance criteria
-- [ ] 2. Search strategy and scope drafted
+- [x] 2. Search strategy and scope drafted — `literature/search-logs/wealth-flows-reversal-search-scope.md`, 2026-09-10. Direction ruling, 10 walls, estimand cells, required tags, pooling rule and the single demsig route frozen; 5 PI calls open. All 83 quoted figures asserted against their logs by `378`, verified to fire on three classes of mutation
 - [ ] 3. Literature search and AI screening, both phases (§5.1)
 - [ ] 4. RA title/abstract review
 - [ ] 5. Full-text retrieval
