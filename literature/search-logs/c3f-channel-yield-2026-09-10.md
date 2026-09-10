@@ -16,18 +16,18 @@ as a measurement of the channel.
 
 | channel | size | screened | coverage | primary | unique | yield | |
 |---|---|---|---|---|---|---|---|
+| `TERM:SHOCK inheritance and land` | 320 | 33 | 10% | 7 | 7 | 21.2% | **thin** |
 | `TERM:ROW5 labour demand x child work` | 46 | 46 | 100% | 7 | 6 | 15.2% |  |
-| `TERM:SHOCK inheritance and land` | 320 | 21 | 7% | 4 | 4 | 19.0% | **thin** |
-| `CITATION:forward (cited-by, outcome-gated)` | 1,207 | 63 | 5% | 2 | 1 | 3.2% | **thin** |
-| `CITATION:backward (references)` | 322 | 33 | 10% | 1 | 0 | 3.0% | **thin** |
-| `TERM:THEORY (rebuilt, 383)` | 940 | 17 | 2% | 1 | 0 | 5.9% | **thin** |
-| `TERM:MEASUREMENT` | 151 | 10 | 7% | 1 | 0 | 10.0% | **thin** |
-| `FLOWMEAS:flow accounting, UNGATED by outcome` | 984 | 103 | 10% | 0 | 0 | 0.0% | **thin** |
+| `TERM:THEORY (rebuilt, 383)` | 940 | 25 | 3% | 2 | 0 | 8.0% | **thin** |
+| `CITATION:forward (cited-by, outcome-gated)` | 1,207 | 67 | 6% | 2 | 1 | 3.0% | **thin** |
+| `TERM:MEASUREMENT` | 151 | 14 | 9% | 2 | 0 | 14.3% | **thin** |
+| `CITATION:backward (references)` | 322 | 35 | 11% | 1 | 0 | 2.9% | **thin** |
+| `TERM:SHOCK remittances to parents` | 335 | 18 | 5% | 1 | 1 | 5.6% | **thin** |
+| `FLOWMEAS:flow accounting, UNGATED by outcome` | 984 | 111 | 11% | 0 | 0 | 0.0% | **thin** |
 | `SEED:anchor or decoy not otherwise retrieved` | 15 | 0 | 0% | 0 | 0 | 0.0% | **thin** |
-| `TERM:SHOCK schooling and child-labour law` | 365 | 12 | 3% | 0 | 0 | 0.0% | **thin** |
-| `TERM:SHOCK remittances to parents` | 335 | 6 | 2% | 0 | 0 | 0.0% | **thin** |
+| `TERM:SHOCK schooling and child-labour law` | 365 | 25 | 7% | 0 | 0 | 0.0% | **thin** |
 | `TERM:SHOCK filial-responsibility law` | 5 | 1 | 20% | 0 | 0 | 0.0% |  |
 
-Totals: **13 primary records** from **288 verdicts**.
+Totals: **18 primary records** from **342 verdicts**.
 
 The only row that is a finished measurement is the one at 100% coverage.

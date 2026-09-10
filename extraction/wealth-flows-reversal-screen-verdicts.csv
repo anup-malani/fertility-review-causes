@@ -197,8 +197,8 @@ C3F3310,SHOCK_NET_FERTILITY,NET,PRIVATE_FAMILY,FERTILITY,REALIZED,UNCLEAR,OTHER,
 C3F3311,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s7-of-8,Korean inheritance law reform debate; no fertility outcome
 C3F3312,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,UNCERTAIN,hand,probe-s7-of-8,preface to a land reform monograph; mentions the birth rate in passing
 C3F3313,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s7-of-8,land protection and soil fertility investment - agronomy sense
-C3F3314,OFF_TOPIC,NA,NA,NONE,NA,YES,OTHER,UNCERTAIN,hand,probe-s7-of-8,no abstract; same work as C3F3315
-C3F3315,OFF_TOPIC,NA,NA,NONE,NA,YES,OTHER,CERTAIN,hand,probe-s7-of-8,land titling and household labour supply in Mexico; no child labour or fertility outcome in the visible record
+C3F3314,FLOW_MEASUREMENT,UPWARD,PRIVATE_FAMILY,FLOW_MAGNITUDE,NA,YES,OTHER,CERTAIN,hand,probe-s7-of-8,CORRECTED 2026-09-10: land titling in Mexico reduced the number of children working on their own farms - a child-labour outcome. My first read stopped at 330 chars and that sentence is at 542; script 390's beyond-window flag caught it
+C3F3315,FLOW_MEASUREMENT,UPWARD,PRIVATE_FAMILY,FLOW_MAGNITUDE,NA,YES,OTHER,CERTAIN,hand,probe-s7-of-8,CORRECTED 2026-09-10: land titling in Mexico reduced the number of children working on their own farms - a child-labour outcome. My first read stopped at 330 chars and that sentence is at 542; script 390's beyond-window flag caught it
 C3F3879,FLOW_MEASUREMENT,NET,MIXED,FLOW_MAGNITUDE,NA,NO,OTHER,UNCERTAIN,hand,probe-s8-of-8,no abstract; NTA Canada provinces 1997-2017 seniors against youth
 C3F3880,FLOW_MEASUREMENT,DOWNWARD,MIXED,NONE,NA,NO,OTHER,CERTAIN,hand,probe-s8-of-8,NTA Philippine education financing and the public-private mix
 C3F3881,THEORY,NET,PRIVATE_FAMILY,FERTILITY,REALIZED,NO,OTHER,CERTAIN,hand,probe-s8-of-8,a formal wealth-flows model relating number of children to flows between generations; theory not estimate
@@ -287,3 +287,57 @@ C3F3426,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:row5-01,organic 
 C3F2149,OFF_TOPIC,NA,NA,NONE,NA,NO,FDT,CERTAIN,hand,chan-term:row5-01,apprenticeship after abolition in Sierra Leone
 C3F0528,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,YES,SDT,CERTAIN,hand,chan-term:row5-01,A.5 - long-term demographic role of community family planning in Bangladesh
 C3F3736,FLOW_MEASUREMENT,UPWARD,PRIVATE_FAMILY,NONE,NA,UNCLEAR,SDT,UNCERTAIN,hand,chan-term:row5-01,no abstract; commodity income shock and child labour poverty traps - link 1 of the §7 row 5 chain
+C3F3658,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,SDT,CERTAIN,hand,chan-term:shock-00,C.2.d - family support policy design in EU and OECD countries
+C3F3352,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-00,soil quality under Ukrainian land reform - agronomy sense of fertility
+C3F3586,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-00,East Java governorship poverty programmes
+C3F3447,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,YES,SDT,UNCERTAIN,hand,chan-term:shock-00,no abstract; C.2.e and Alexandra's chapter - compulsory schooling and women's marriage and motherhood
+C3F3484,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,YES,FDT,CERTAIN,hand,chan-term:shock-00,C.3.d - quantity-quality model tested on a school construction programme; the operative variable is the return to the child's schooling
+C3F4087,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-00,share repurchases and bondholder wealth
+C3F1966,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,YES,SDT,UNCERTAIN,hand,chan-term:shock-00,no abstract; Alexandra's chapter - compulsory schooling and fertility in Europe
+C3F3715,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-00,learning difficulties and educational support in Iceland
+C3F1614,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,SDT,CERTAIN,hand,chan-term:shock-00,A.5 - family planning and the demographic dividend in India and Nigeria
+C3F3620,OFF_SIBLING,NA,NA,FERTILITY,INTENDED,NO,SDT,CERTAIN,hand,chan-term:shock-00,C.2.d - corporate flexible-work standards for working parents in Russia
+C3F0065,THEORY,NA,NA,FERTILITY,REALIZED,NO,OTHER,UNCERTAIN,hand,chan-term:shock-00,no abstract; NAS volume on determinants of fertility in developing countries - a survey
+C3F4442,OFF_TOPIC,NA,NA,FERTILITY,INTENDED,NO,SDT,CERTAIN,hand,chan-term:shock-00,qualitative study of low childbearing intentions among Iranian faculty
+C3F1328,FLOW_MEASUREMENT,UPWARD,PRIVATE_FAMILY,NONE,NA,NO,SDT,CERTAIN,hand,chan-term:shock-00,transition from familial support of the elderly to individual saving in Taiwan and the US; the upward flow is the object but the outcome is saving
+C3F3595,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-00,child labour as a barrier to schooling; advocacy
+C3F3391,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-00,optimal farm sizes after Ukrainian land reform - agronomy sense
+C3F2241,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,SDT,CERTAIN,hand,chan-term:shock-00,A.5 - family planning fieldworkers in Bangladesh
+C3F0707,OFF_TOPIC,NA,NA,FERTILITY,REALIZED,NO,SDT,CERTAIN,hand,chan-term:shock-00,the Kerala model; land reform named among many non-health sectors with no estimate
+C3F3206,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-00,book review of a popular demography title
+C3F2623,OFF_TOPIC,NA,NA,FERTILITY,REALIZED,NO,SDT,CERTAIN,hand,chan-term:shock-00,Ethiopian demographic dividend; the 1975 land reform enters as background to labour force growth
+C3F1246,SHOCK_NET_FERTILITY,UPWARD,PRIVATE_FAMILY,FERTILITY,REALIZED,NO,FDT,CERTAIN,hand,chan-term:shock-00,land tenancy and agricultural production patterns against the child-woman ratio in Philippine barrios; the land-labour-demand channel
+C3F1635,NET_FLOW_FERTILITY,NET,PRIVATE_FAMILY,FERTILITY,REALIZED,NO,FDT,CERTAIN,hand,chan-term:shock-00,states the net-flow case for Bangladesh directly - children give labour in childhood and sons support parents after - against the rationality of the large family
+C3F2724,FLOW_MEASUREMENT,NET,MIXED,FLOW_MAGNITUDE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-00,NTA Mali; the surplus of ages 28-66 covers 46 percent of dependants' demand
+C3F2138,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-00,mosquito control; fecundity in the entomological sense
+C3F0851,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-00,parental stress in neonatal intensive care
+C3F1542,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-00,catchment management in South Africa
+C3F3395,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-00,agricultural land use efficiency - agronomy sense
+C3F3390,OFF_TOPIC,NA,NA,FERTILITY,REALIZED,NO,FDT,UNCERTAIN,hand,chan-term:shock-00,henequen industry dissertation; birth rates related to income proxies in passing alongside a land reform narrative
+C3F3566,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-00,report on institutional meal services in Thailand
+C3F2121,OFF_SIBLING,UPWARD,PRIVATE_FAMILY,FERTILITY,REALIZED,YES,FDT,CERTAIN,hand,chan-term:shock-00,Alexandra's chapter - child labour laws and compulsory schooling on education and fertility with a border-DID; coordinate rather than wall per scope §8
+C3F1713,OFF_TOPIC,NA,NA,FERTILITY,REALIZED,NO,OTHER,UNCERTAIN,hand,chan-term:shock-00,no abstract; systematic review of fertility theories in sub-Saharan Africa
+C3F4295,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-00,duplicate deposit of C3F4294; Treasury bond system
+C3F4362,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-00,capital tax regime proposal; inheritance named as a taxable event only
+C3F3513,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,YES,SDT,CERTAIN,hand,chan-term:shock-00,C.2.e - Thai women's education on marriage and fertility with IPWRA
+C3F0369,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-00,book review on ADHD diagnosis and medication
+C3F3151,NET_FLOW_FERTILITY,NET,PRIVATE_FAMILY,FERTILITY,REALIZED,NO,FDT,CERTAIN,hand,chan-term:shock-00,children's role in the patriarchal Russian peasant economy set against the non-economic value of children and the high pre-transition fertility level
+C3F2013,OFF_TOPIC,NA,NA,FERTILITY,REALIZED,NO,SDT,CERTAIN,hand,chan-term:shock-00,multi-determinant test of transition theory in India
+C3F2336,OFF_SIBLING,NA,NA,FERTILITY,INTENDED,NO,SDT,CERTAIN,hand,chan-term:shock-00,C.2.b and C.2.f - China's double-reduction tutoring policy against the three-child policy
+C3F1605,THEORY,UPWARD,MIXED,FERTILITY,REALIZED,NO,OTHER,UNCERTAIN,hand,chan-term:shock-00,no abstract; title couples fertility savings and old-age social security in a theory paper
+C3F2675,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-00,nonresident fathers' perceptions of their parenting
+C3F3260,VOC_STATED,UPWARD,PRIVATE_FAMILY,NONE,STATED_VALUATION,NO,SDT,CERTAIN,hand,chan-term:shock-00,value of children by gender among the Talang Mamak; parents rely on children for a better future - elicited valuation
+C3F3202,OFF_TOPIC,UPWARD,PRIVATE_FAMILY,NONE,NA,NO,FDT,CERTAIN,hand,chan-term:shock-00,journal back matter - but it describes Craig's estimate of the value of children in mid-19th-century agriculture challenging the frontier child-labour explanation; CHASE THAT STUDY
+C3F3455,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-00,parental awareness of Philippine anti-child-labour law
+C3F0812,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,YES,SDT,UNCERTAIN,hand,chan-term:shock-00,no abstract; C.2.e - women's education and fertility in China
+C3F2899,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,UNCLEAR,SDT,UNCERTAIN,hand,chan-term:shock-00,no abstract; C.2.e - more education fewer children
+C3F3358,SHOCK_NET_FERTILITY,DOWNWARD,PRIVATE_FAMILY,FERTILITY,REALIZED,UNCLEAR,SDT,UNCERTAIN,hand,chan-term:shock-00,no abstract; women's property rights reform in India against the quantity-quality tradeoff - an inheritance-rights design like C3F3303; could route to C.3.d at full text
+C3F0411,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,SDT,CERTAIN,hand,chan-term:shock-00,C.2.d and D.2.a - work-life balance discourse in Europe
+C3F4315,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-00,Ecuador-China trade relations; flujos de riqueza homonym
+C3F3328,OFF_SIBLING,NA,NA,FERTILITY,REALIZED,NO,SDT,CERTAIN,hand,chan-term:shock-00,policy proposal coupling birth control urbanization land reform and social security in China; a proposal not an estimate
+C3F1537,SHOCK_NET_FERTILITY,UPWARD,PRIVATE_FAMILY,FERTILITY,DESIRED,NO,FDT,CERTAIN,hand,chan-term:shock-00,land reform tenure form against family size attitudes in Costa Rica; individual ownership incentives said to raise desired family size - the land-security channel
+C3F3539,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-00,statistical compendium chapter on education
+C3F1090,OFF_TOPIC,NA,NA,FERTILITY,REALIZED,NO,FDT,CERTAIN,hand,chan-term:shock-00,descriptive fertility trends in Taiwan against modernization indices
+C3F3671,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-00,oncologists' attitudes to posthumous parenting
+C3F0810,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-00,gender equality and development literature review
+C3F2560,OFF_TOPIC,NA,NA,NONE,NA,NO,OTHER,CERTAIN,hand,chan-term:shock-00,overlapping generations game theory
