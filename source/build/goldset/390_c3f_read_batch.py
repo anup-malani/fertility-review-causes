@@ -39,12 +39,12 @@ BATCHES = ROOT / "extraction" / "wealth-flows-reversal-screen-batches"
 # abstract; the cost of a false negative is a discarded record reported as out of scope.
 OUTCOME = re.compile(r"fertilit|birth|childbear|children|child\b|famil|number of children|"
                      r"childless|parity|reproduct|motherhood|marriage|marital|offspring|"
-                     r"son\b|daughter|kids", re.I)
+                     r"son\b|daughter|kids|population growth|natalit|nuptial|household size", re.I)
 FLOW = re.compile(r"transfer|wealth|flow|old.age|support|child labou?r|bequest|inherit|"
                   r"remittance|dowry|bride price|filial|lifecycle deficit|life cycle deficit|"
                   r"national transfer account|value of children|children's work|land reform|"
                   r"land titl|property right|pension|social security|cost of children|"
-                  r"economic value|investment", re.I)
+                  r"economic value|investment|land|landhold|landown|tenure|estate|dowry|lifecycle surplus|life cycle surplus|generational|old age|elder", re.I)
 
 
 def sentence_at(text, pos, span=190):
@@ -74,7 +74,10 @@ def validate_collapse_rule():
         if not r:
             continue
         blob = f"{r.get('title') or ''} {r.get('abstract') or ''}"
-        if (r.get("abstract") or "").strip() and not FLOW.search(blob):
+        if (r.get("abstract") or "").strip() and not FLOW.search(blob):  # tier 2
+            hidden.append((sid, (r.get("title") or "")[:70]))
+        if (r.get("abstract") or "").strip() and not OUTCOME.search(blob) \
+                and not FLOW.search(blob):  # tier 1
             hidden.append((sid, (r.get("title") or "")[:70]))
     if hidden:
         for sid, t in hidden:
@@ -111,7 +114,13 @@ def main():
         ab = (r.get("abstract") or "").strip()
         blob = f"{r.get('title') or ''} {ab}"
         mo, mf = OUTCOME.search(blob), FLOW.search(blob)
-        if not mo and not mf:
+        # BOTH tiers apply only to records that HAVE an abstract. Tier 1 hid
+        # "Landowning, Status and Population Growth" -- a title-only record, and the same work as a
+        # record already routed primary -- because OUTCOME lacked "population growth" and FLOW
+        # lacked bare "land". That is the second time a title-only record slipped a collapse rule.
+        # Ten words of title is not enough evidence to state a confident negative on, whatever the
+        # patterns say, so title-only records are now always read.
+        if ab and not mo and not mf:
             skipped.append(r)
             continue
         # Only for records that HAVE an abstract. The validation refused the first version of this
