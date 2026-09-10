@@ -1,0 +1,295 @@
+{
+  "date": "2026-09-10",
+  "source_branch": "063-caldwell-wealth-flows-westernization",
+  "source_commit": "5859297eb985da5d81d87d6901ffa2edcd74d385",
+  "source_path": "output/caldwell-wealth-flows-westernization-PARTIAL-routing-queues.json",
+  "queue_key": "C.3.f",
+  "n": 28,
+  "flag_counts": {
+    "fertility_outcome_named": 15,
+    "pension_vocabulary": 4
+  },
+  "note": "Flags mark records to read first. Routing is decided by hand in the scope document; these reasons were written by another chapter's rubric.",
+  "records": [
+    {
+      "paperId": "W7167691870",
+      "doi": "10.1108/s1530-353520260000036006",
+      "title": "Elder Care and Challenges of Family Caregivers in Iran",
+      "year": 2026,
+      "estimand_cell": "OFF_WEALTH_FLOWS_C3f",
+      "reason": "Qualitative account of old-age support obligations downstream of fertility decline; upward transfers place it with C.3.f, not this chapter.",
+      "flag_outcome_named": true,
+      "flag_pension_vocabulary": false
+    },
+    {
+      "paperId": "W4409371491",
+      "doi": "10.1186/s13643-025-02833-z",
+      "title": "Understanding intergenerational dynamics and social support\u2019s impact on health and well-being of older adults in South Asia: a scoping review",
+      "year": 2025,
+      "estimand_cell": "OFF_WEALTH_FLOWS_C3f",
+      "reason": "Operative variable is upward intergenerational transfers and old-age support (Wall 1).",
+      "flag_outcome_named": false,
+      "flag_pension_vocabulary": false
+    },
+    {
+      "paperId": "W4414382890",
+      "doi": "10.1186/s12877-025-06220-0",
+      "title": "Impact of adult son migration on the health wellbeing of older parents and shifts in caregiving patterns: a study in India",
+      "year": 2025,
+      "estimand_cell": "OFF_WEALTH_FLOWS_C3f",
+      "reason": "Operative variable is old-age support and intergenerational caregiving flows, with no fertility outcome.",
+      "flag_outcome_named": true,
+      "flag_pension_vocabulary": false
+    },
+    {
+      "paperId": "W4392107509",
+      "doi": "10.1007/s00148-024-01005-y",
+      "title": "Lithium-ion batteries and fertility in Africa",
+      "year": 2024,
+      "estimand_cell": "OFF_WEALTH_FLOWS_C3f",
+      "reason": "Operative variable is child labour in mines raising household wealth \u2014 a wealth-flow mechanism (Wall 1).",
+      "flag_outcome_named": true,
+      "flag_pension_vocabulary": false
+    },
+    {
+      "paperId": "W4401746385",
+      "doi": "10.1080/08959420.2024.2384183",
+      "title": "Can Long-Term Care Insurance Change Eldercare Patterns? Evidence from China",
+      "year": 2024,
+      "estimand_cell": "OFF_WEALTH_FLOWS_C3f",
+      "reason": "Operative variable is upward intergenerational support and old-age care, squarely the wealth-flows estimand.",
+      "flag_outcome_named": false,
+      "flag_pension_vocabulary": true
+    },
+    {
+      "paperId": "W3013628590",
+      "doi": "10.1257/pol.20200440",
+      "title": "Pensions and Fertility: Microeconomic Evidence",
+      "year": 2023,
+      "estimand_cell": "OFF_WEALTH_FLOWS_C3f",
+      "reason": "Operative variable is old-age support substituting for transfers from children, which is the wealth-flows estimand (Wall 1).",
+      "flag_outcome_named": true,
+      "flag_pension_vocabulary": true
+    },
+    {
+      "paperId": "W4323315823",
+      "doi": "10.1080/13504851.2023.2186345",
+      "title": "Remittances and fertility in Jamaica",
+      "year": 2023,
+      "estimand_cell": "OFF_WEALTH_FLOWS_C3f",
+      "reason": "Operative variable is an intergenerational/cross-border transfer flow, not exposure to an external family model (Wall 1).",
+      "flag_outcome_named": true,
+      "flag_pension_vocabulary": false
+    },
+    {
+      "paperId": "W4390206201",
+      "doi": "10.3386/w31993",
+      "title": "Long-run Impacts of Forced Labor Migration on Fertility Behaviors: Evidence from Colonial West Africa",
+      "year": 2023,
+      "estimand_cell": "OFF_WEALTH_FLOWS_C3f",
+      "reason": "Colonial exposure works through mode of production and reduced need for child labour, with empowerment and human capital ruled out (Wall 1)",
+      "flag_outcome_named": true,
+      "flag_pension_vocabulary": false
+    },
+    {
+      "paperId": "W3207094258",
+      "doi": "10.1002/jid.3570",
+      "title": "More remittances, fewer kids\u2014Impact of remittances on fertility in Morocco",
+      "year": 2021,
+      "estimand_cell": "OFF_WEALTH_FLOWS_C3f",
+      "reason": "Operative variable is a monetary transfer flow acting through income and human-capital accumulation, not an imported family model.",
+      "flag_outcome_named": true,
+      "flag_pension_vocabulary": false
+    },
+    {
+      "paperId": "W3023507493",
+      "doi": "10.1111/padr.12337",
+      "title": "Another Gendered Demographic Dividend: Adjusting to a Future without Sons",
+      "year": 2020,
+      "estimand_cell": "OFF_WEALTH_FLOWS_C3f",
+      "reason": "Outcome is old-age support expectations, an intergenerational-transfer variable, and the direction runs from fertility outcomes to attitudes.",
+      "flag_outcome_named": true,
+      "flag_pension_vocabulary": false
+    },
+    {
+      "paperId": "W2511565890",
+      "doi": null,
+      "title": "Son Preference and Children's Housework: The Case of India",
+      "year": 2013,
+      "estimand_cell": "OFF_WEALTH_FLOWS_C3f",
+      "reason": "Operative outcome is children's labour contribution within the household, a flow variable, with no fertility estimand.",
+      "flag_outcome_named": true,
+      "flag_pension_vocabulary": false
+    },
+    {
+      "paperId": "W1586803970",
+      "doi": "10.1111/ruso.12007",
+      "title": "Rural Agricultural Change and Fertility Transition in <scp>N</scp>epal",
+      "year": 2013,
+      "estimand_cell": "OFF_WEALTH_FLOWS_C3f",
+      "reason": "Operative variable is demand for child farm labour; wealth-flows estimand under Wall 1.",
+      "flag_outcome_named": true,
+      "flag_pension_vocabulary": false
+    },
+    {
+      "paperId": "W2234268896",
+      "doi": "10.20561/00037801",
+      "title": "Marriage as women's old age insurance : evidence from migration and land inheritance practices in rural Tanzania",
+      "year": 2012,
+      "estimand_cell": "OFF_WEALTH_FLOWS_C3f",
+      "reason": "Operative variable is old-age support/security through inheritance transfers (Wall 1).",
+      "flag_outcome_named": false,
+      "flag_pension_vocabulary": true
+    },
+    {
+      "paperId": "W2141234594",
+      "doi": "10.1177/0022022110372195",
+      "title": "Adolescents\u2019 Value of Children and Their Intentions to Have Children: A Cross-Cultural and Multilevel Analysis",
+      "year": 2010,
+      "estimand_cell": "OFF_WEALTH_FLOWS_C3f",
+      "reason": "Value-of-children instrument measuring the utility children provide to parents, not a belief about or exposure to an external modern family model (Wall 1).",
+      "flag_outcome_named": false,
+      "flag_pension_vocabulary": false
+    },
+    {
+      "paperId": "W2171516515",
+      "doi": "10.1093/sp/jxi001",
+      "title": "Useful and Priceless Children in Contemporary Welfare States",
+      "year": 2005,
+      "estimand_cell": "OFF_WEALTH_FLOWS_C3f",
+      "reason": "Historical sociology of children's work and usefulness \u2014 a flow-of-contribution argument, Wall 1 routes to C.3.f.",
+      "flag_outcome_named": false,
+      "flag_pension_vocabulary": false
+    },
+    {
+      "paperId": "W2166683595",
+      "doi": "10.1111/j.1728-4457.2005.00095.x",
+      "title": "On Net Intergenerational Wealth Flows: An Update",
+      "year": 2005,
+      "estimand_cell": "OFF_WEALTH_FLOWS_C3f",
+      "reason": "Explicit restatement of the net-wealth-flows mechanism, which routes to C.3.f.",
+      "flag_outcome_named": false,
+      "flag_pension_vocabulary": false
+    },
+    {
+      "paperId": "W2100112274",
+      "doi": "10.1355/ae21-2c",
+      "title": "Fertility Transition in South and Southeast Asia",
+      "year": 2004,
+      "estimand_cell": "OFF_WEALTH_FLOWS_C3f",
+      "reason": "Reviews the shift of children from economic assets to liabilities via production costs, a structural/wealth-flows mechanism rather than an ideational one.",
+      "flag_outcome_named": true,
+      "flag_pension_vocabulary": false
+    },
+    {
+      "paperId": "W2133827875",
+      "doi": "10.1002/ajhb.10040",
+      "title": "Evolutionary demography and intrahousehold time allocation: School attendance and child labor among the Okavango Delta Peoples of Botswana",
+      "year": 2002,
+      "estimand_cell": "OFF_WEALTH_FLOWS_C3f",
+      "reason": "Child labour contribution and intrahousehold transfers are the operative variables (Wall 1).",
+      "flag_outcome_named": false,
+      "flag_pension_vocabulary": false
+    },
+    {
+      "paperId": "W2125236554",
+      "doi": "10.1098/rstb.1998.0217",
+      "title": "The co-evolution of human fertility and wealth inheritance strategies",
+      "year": 1998,
+      "estimand_cell": "OFF_WEALTH_FLOWS_C3f",
+      "reason": "Operative variable is intergenerational wealth transfer and parental investment cost, which is the wealth-flows estimand (Wall 1).",
+      "flag_outcome_named": true,
+      "flag_pension_vocabulary": false
+    },
+    {
+      "paperId": "W2133707003",
+      "doi": "10.31274/rtd-180813-9946",
+      "title": "The influence of structural change in agriculture on childbearing among Iowa's farm population",
+      "year": 1994,
+      "estimand_cell": "OFF_WEALTH_FLOWS_C3f",
+      "reason": "Explicitly a wealth-flow-theory analysis of farm production structure and family labour, with the operative variable a productive/intergenerational flow rather than a family ideal.",
+      "flag_outcome_named": true,
+      "flag_pension_vocabulary": false
+    },
+    {
+      "paperId": "W2079728356",
+      "doi": "10.17730/humo.50.2.513325k780500060",
+      "title": "Education, Tradition, and Household Labor among Rendille Pastoralists of Northern Kenya",
+      "year": 1991,
+      "estimand_cell": "OFF_WEALTH_FLOWS_C3f",
+      "reason": "Operative variable is children's household labour contribution interpreted through the wealth-flows model (Wall 1), and the outcome is schooling allocation, not fertility.",
+      "flag_outcome_named": true,
+      "flag_pension_vocabulary": false
+    },
+    {
+      "paperId": "W2072439318",
+      "doi": "10.2307/1972531",
+      "title": "Darwinian Transitions?: A Comment",
+      "year": 1990,
+      "estimand_cell": "OFF_WEALTH_FLOWS_C3f",
+      "reason": "Theoretical comment whose operative variable is Caldwell's wealth-flows/kin-support transfers, which Wall 1 routes hard to C.3.f.",
+      "flag_outcome_named": false,
+      "flag_pension_vocabulary": false
+    },
+    {
+      "paperId": "W2503951556",
+      "doi": "10.1007/978-1-349-09644-2_6",
+      "title": "Welfare and Management of Demographic Uncertainty",
+      "year": 1988,
+      "estimand_cell": "OFF_WEALTH_FLOWS_C3f",
+      "reason": "Operative variable is intergenerational transfers and the old-age security value of children (Wall 1).",
+      "flag_outcome_named": false,
+      "flag_pension_vocabulary": true
+    },
+    {
+      "paperId": "W2123066109",
+      "doi": "10.1525/aa.1986.88.2.02a00070",
+      "title": "The Modern Demographic Transition: An Analysis of Subsistence Choices and Reproductive Consequences",
+      "year": 1986,
+      "estimand_cell": "OFF_WEALTH_FLOWS_C3f",
+      "reason": "Explicitly an extension of Caldwell's wealth-flows model with expected intergenerational income flows as the operative variable (Wall 1).",
+      "flag_outcome_named": false,
+      "flag_pension_vocabulary": false
+    },
+    {
+      "paperId": "W1968681873",
+      "doi": "10.2307/2808116",
+      "title": "The Direction of Intergenerational Transfers and Demographic Transition: The Caldwell Hypothesis Reexamined",
+      "year": 1982,
+      "estimand_cell": "OFF_WEALTH_FLOWS_C3f",
+      "reason": "Operative variable is the direction of intergenerational wealth flows \u2014 Wall 1 routes to C.3.f.",
+      "flag_outcome_named": false,
+      "flag_pension_vocabulary": false
+    },
+    {
+      "paperId": "W2291007676",
+      "doi": "10.1086/202076",
+      "title": "An Anthropological Approach to the Study of the Economic Value of Children in Java and Nepal [and Comments and Reply]",
+      "year": 1978,
+      "estimand_cell": "OFF_WEALTH_FLOWS_C3f",
+      "reason": "Operative variable is the child-to-parent flow (labour input, coresidence, old-age support), which is the wealth-flows estimand (Wall 1).",
+      "flag_outcome_named": false,
+      "flag_pension_vocabulary": false
+    },
+    {
+      "paperId": "W2080580016",
+      "doi": "10.2307/1971889",
+      "title": "The Economic Activities of Children in a Village in Bangladesh",
+      "year": 1977,
+      "estimand_cell": "OFF_WEALTH_FLOWS_C3f",
+      "reason": "Operative variable is the intergenerational flow of child production and consumption; Wall 1 routes to C.3.f.",
+      "flag_outcome_named": false,
+      "flag_pension_vocabulary": false
+    },
+    {
+      "paperId": "W2011774072",
+      "doi": "10.1080/00324728.1977.10412744",
+      "title": "The economic rationality of high fertility: An investigation illustrated with Nigerian survey data",
+      "year": 1977,
+      "estimand_cell": "OFF_WEALTH_FLOWS_C3f",
+      "reason": "Operative variable is the economic advantage children confer on parents, despite the closing westernization-versus-modernization claim (Wall 1).",
+      "flag_outcome_named": true,
+      "flag_pension_vocabulary": false
+    }
+  ]
+}
