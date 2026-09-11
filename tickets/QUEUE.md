@@ -1,6 +1,6 @@
 # Work Queue
 
-Last updated: 2026-09-08
+Last updated: 2026-09-11
 
 Pick the first open ticket assigned to you or `any`. Before starting, pull/sync, then **claim** it
 before doing the work. The active mode is **Mode B (branch-per-ticket)** — the simplest path is
@@ -93,7 +93,7 @@ tickets can be worked concurrently.
 
 | Ticket | Title | Owner | Branch (the claim) | Claimed (UTC) | Touches |
 |--------|-------|-------|--------------------|---------------|---------|
-| [TICK-080](TICK-080-cross-chapter-statistics-comparability.md) | Cross-chapter statistics — comparability, the demsig routes, and the sign-blind R². **Standing methods ticket, not a hypothesis; items 2, 4 and 5 are retroactive to drafted chapters** | Shravan | `080-cross-chapter-statistics-comparability` | 2026-09-06T17:25:24Z | `PROTOCOL.md`, `decisions/`, `docs/chapter-template.md`, `source/analysis/`, `output/tables/` |
+| [TICK-080](TICK-080-cross-chapter-statistics-comparability.md) | Cross-chapter statistics — comparability, the demsig routes, and the sign-blind R². **Standing methods ticket, not a hypothesis.** Scoped to 12 items on the branch 2026-09-06 (`main`'s copy of the ticket still shows 8); items 2, 4, 5 and 6 retroactive to drafted chapters, items 10–11 conditions on the cross-chapter table that must be settled before it is built. No ruling recorded yet — all 14 acceptance criteria open | Shravan | `080-cross-chapter-statistics-comparability` | 2026-09-06T17:25:24Z | `PROTOCOL.md` §4.1–§4.3, `decisions/`, `docs/chapter-template.md`, `source/analysis/`, `output/tables/` |
 | [TICK-079](TICK-079-child-cost-direct.md) | C.2.b Rising Direct Costs of Children — smallest remaining frame (587) and the first candidate the fixed coverage check surfaced; the stage-2 ruling that matters is that the estimand is a price faced, not an expenditure observed — chapter drafted 2026-09-03 — SDT MINOR at 13%; stage 11 is one rater of three, stages 13 and 14 open | Shravan | `079-child-cost-direct` | 2026-09-03T16:57:27Z | `literature/search-logs/child-cost-direct-*`, `extraction/child-cost-direct-*`, `output/chapters/child-cost-direct.md` |
 | [TICK-078](TICK-078-easterlin-relative-income.md) | C.6.a Easterlin Relative Income / Cohort Size — chapter drafted 2026-09-02; SDT MINOR, GRADE VERY LOW; three PI calls open | Shravan | `078-easterlin-relative-income` | 2026-09-02T16:07:13Z | `literature/search-logs/easterlin-relative-income-*`, `extraction/easterlin-relative-income-*`, `output/chapters/easterlin-relative-income.md` |
 | [TICK-077](TICK-077-credit-constraints-liquidity.md) | C.3.e Credit Constraints and Liquidity — inherits the C.2.c/C.3.g/A.23 "what varies" boundary rule and the `MIXED_PRICE_CREDIT` routing — chapter drafted 2026-09-01 on the 22% of the pool retrieved | Shravan | `077-credit-constraints-liquidity` | 2026-09-01T16:49:06Z | `literature/search-logs/credit-constraints-*`, `extraction/credit-constraints-*`, `output/chapters/credit-constraints.md` |
