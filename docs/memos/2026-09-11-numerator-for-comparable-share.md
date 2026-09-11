@@ -8,16 +8,14 @@
 
 We are trying to operationalize the question: "How much of the fertility decline can be explained by a given hypothesis?"  
 Formally speaking, let $\mathcal{D}$ be our set of hypotheses. We are looking for a function $s_{p,\ell}:\mathcal D \to \mathbb{R}$, possibly dependent on time period $p$ and location $\ell$, that maps each hypothesis to an "explanation score".  
-I began with three axioms that a reasonable function $s$ had to satisfy, and the memo's development forced two more:
+I began with five axioms that a reasonable function $s$ had to satisfy:
  * **Comparability**: For any two hypotheses $D_1,D_2 \in \mathcal D$, the ratio between $s_{p,\ell}(D_1)$ and $s_{p,\ell}(D_2)$ should reflect the relative contributions of $D_1$ and $D_2$ to the fertility decline. This imposes that $s_{p,\ell}$ be linear in the hypothesis' true contribution.
  * **Computability**: $s_{p,\ell}$ should be computable exclusively using quantities that we extract while writing chapters - effect sizes, CIs, and $R^2$ values.
  * **Minimal assumptions**: In calculating $s_{p,\ell}(D)$, we should impose minimal structural/functional-form assumptions, particularly if they are not economically motivated.
- * **Normalization** (enforced later): $\sum_{D \in \mathcal D} s_{p,\ell}(D)=1$ for all $(p,\ell)$ pairs.
- * **Non-redundancy** (added in §5): if $D_1$'s effect on fertility runs through $D_2$, then $s_{p,\ell}(D_1)$ and $s_{p,\ell}(D_2)$ must not both count that channel.
+ * **Normalization**: $\sum_{D \in \mathcal D} s_{p,\ell}(D)=1$ for all $(p,\ell)$ pairs.
+ * **Non-redundancy**: if $D_1$'s effect on fertility runs through $D_2$, then $s_{p,\ell}(D_1)$ and $s_{p,\ell}(D_2)$ must not both count that channel.
 
 Anup's 2026-08-30 memo builds what we might call the "denominator" of the function $s_{p,\ell}$. Without getting into the details of that memo, it requires that we determine, within each period-location pair, how much change in fertility _is_ there to explain? We'll refer to this number as $\Delta \text{TFR}_{p,\ell}$. This memo begins to answer the question of what the numerator should be.
-
-**This draft revises an earlier one.** That draft carried four axioms and recommended $\hat\beta_D\cdot\Delta X_D$ as the numerator. The score counts a mediated channel twice, once in the hypothesis that causes it and once in the hypothesis that transmits it, so it satisfies Normalization only through a bookkeeping device that constrains nothing. Axiom 5 names the gap and §5 closes it, at the cost of a graph over the hypotheses.
 
 ## 1. Recommendation
 
@@ -31,24 +29,26 @@ supports, and $\Delta\varepsilon_{D,p,\ell}$ is the **autonomous movement** of $
 within the cell: the observed movement $\Delta X_{D,p,\ell}$ less the part that $D$'s causal parents
 among the other hypotheses drove. Call $s_{p,\ell}$ the **attributable share**.
 
-Two things changed from the earlier draft. The exposure term now residualizes against a graph, and the
-memo therefore needs that graph. The effect term did not change, which matters: $\hat\beta_D$ stays the
-total effect that our designs identify and that PROTOCOL §4.1 already graded. §5 shows that of the two
-corrections the graph makes available, this is the one our evidence base can support.
+**The score residualizes the exposure and leaves the effect alone.** $\hat\beta_D$ is the total effect
+our designs identify and PROTOCOL §4.1 already graded, so the graph enters through
+$\Delta\varepsilon_{D,p,\ell}$ and we refit no estimate. §5 derives the two corrections a graph
+makes available and shows why our evidence base supports this one.
+
+**PROTOCOL already computes the uncorrected version and then buckets it.** §4.2's second bullet, slope
+sufficiency, forms $\hat\beta_D \cdot \Delta X_D$, compares it to the observed range of TFR, and reports
+the comparison as *sufficient / partial / insufficient*. Call
+$\hat\beta_D \Delta X_D / \Delta\text{TFR}_{p,\ell}$ the **uncorrected share**. Its numerator, its
+denominator and the ratio itself all sit in the pipeline, and §4.2 throws the ratio away.
 
 **The correction is targeted rather than global.** A hypothesis with no causal parents in $\mathcal{D}$
-has $\Delta\varepsilon_D = \Delta X_D$ and keeps the earlier draft's score. Only hypotheses whose
-exposure other hypotheses move are rescored, and §5 gives the excess a row per causal edge.
-
-**We already compute the uncorrected version and then bucket it.** PROTOCOL §4.2's second bullet,
-slope sufficiency, forms $\hat\beta_D \cdot \Delta X_D$, compares it to the observed range of TFR, and
-reports the comparison as *sufficient / partial / insufficient*. The numerator, the denominator and the
-ratio all sit in the pipeline, and §4.2 discards the ratio.
+has $\Delta\varepsilon_D = \Delta X_D$, so its attributable share equals its uncorrected share. Only
+hypotheses whose exposure other hypotheses move get corrected, and §5 gives the correction a row per
+causal edge.
 
 **The attributable share differs from "share of variation explained."** Section 4 shows that the score
 satisfying Axiom 1 in a variance frame is the correlation coefficient $r$, and that
-$r = \beta\,\mathrm{sd}(X)/\mathrm{sd}(Y)$ is the earlier draft's score with standard deviations in
-place of observed changes.
+$r = \beta\,\mathrm{sd}(X)/\mathrm{sd}(Y)$ is the uncorrected share with standard deviations in place
+of observed changes.
 
 ## 2. What the axioms require
 
@@ -84,14 +84,15 @@ literatures that we cannot supply. Axiom 4 is also the axiom N3 was built to sat
 decomposition sums to one by construction. It therefore pulls toward N3, and Axiom 2 is the only reason
 we cannot go there.
 
-**Axiom 5 carries the content that Axiom 4 lost.** Scores assembled from separate literatures sum past
-one, because every chapter estimates a total effect in a literature that did not condition on the other
-sixty-nine. The earlier draft handled this by adding a residual hypothesis $D_0$ to the set, defining
-$s(D_0) = 1 - \sum_{D} s(D)$, and reading Axiom 4 on $\mathcal{D}^+ = \mathcal{D}\cup\{D_0\}$, where it
-then holds by construction. **It holds by construction whatever the individual scores are**, which
-makes it a definition of $s(D_0)$ and not a restriction on $s$. Keep $D_0$ for reporting the unexplained
-share of the decline, and read Axiom 5 as the restriction we wanted: the scores must form an additive
-decomposition of $\Delta\text{TFR}$, with each causal channel counted once.
+**Axiom 4 needs Axiom 5 to have any content.** Scores assembled from separate literatures sum past one,
+because every chapter estimates a total effect in a literature that did not condition on the other
+sixty-nine. The cheap repair adds a residual hypothesis $D_0$ to the set, defines
+$s(D_0) = 1 - \sum_{D} s(D)$, and reads Axiom 4 on $\mathcal{D}^+ = \mathcal{D}\cup\{D_0\}$, where it
+then holds. **It holds whatever the individual scores are**, which makes it a definition of $s(D_0)$ and
+no restriction at all on $s$. Keep $D_0$, since the unexplained share of the decline is worth reporting
+and a negative value flags over-claiming. Axiom 5 supplies the restriction the sum was supposed to
+impose: the scores must form an additive decomposition of $\Delta\text{TFR}$, with each causal channel
+counted once.
 
 **Indexing $s$ by $(p,\ell)$ commits us to one score per cell rather than one per hypothesis.** M2 in §8
 forces this, and v3 designed it that way: v3 §7 says "the resulting grid of location by period by
@@ -106,7 +107,7 @@ numerator $n$, and the implied $c$ column decides among them.
 
 | | Numerator $n_{p,\ell}(D)$ | Implied $c_{p,\ell}$ | Ax. 1 | Ax. 2 | Ax. 3 | Ax. 5 |
 |---|---|---|---|---|---|---|
-| **N1** | $\hat\beta_D \cdot \Delta\varepsilon_{D,p,\ell}$ | $1/\Delta\text{TFR}_{p,\ell}$, a constant of the cell | **Yes** | **Yes** for $\hat\beta$; the graph is new (§6) | 8 named assumptions (§8) | **Yes**, given the graph |
+| **N1** | $\hat\beta_D \cdot \Delta\varepsilon_{D,p,\ell}$ | $1/\Delta\text{TFR}_{p,\ell}$, a constant of the cell | **Yes** | **Yes** for $\hat\beta$; the graph is an added input (§6) | 8 named assumptions (§8) | **Yes**, given the graph |
 | **N2** | partial $R^2_D \times \mathrm{Var}(\text{TFR})$, v3 §9 as written | $\propto \hat\beta_D \mathrm{Var}(X_D)$, **depends on $D$** | **No** (§4) | No; papers rarely report partial $R^2$ | Needs a correct specification and the control set v3 §10 defers | No |
 | **N3** | Formal decomposition (Bongaarts, Oaxaca-Blinder) | $1/\Delta\text{TFR}_{p,\ell}$ | Yes | No; needs a decomposition on macro data, not a paper | Heavy: the multiplicative proximate-determinants identity, or linear additive separability | Yes by construction |
 | **N4** | Within-paper attributable $R^2$ share, v3 §12 interim | depends on the **paper's own frame**, hence on $D$ | **No** | Weak; needs regression output we mostly lack | Rests on an assumption v3 itself calls false | No |
@@ -200,10 +201,10 @@ set it moving. That choice is `decisions/2026-06-14-proximate-vs-root-cause-cate
 arithmetic, and the graph makes it explicit rather than leaving it to whichever estimand a chapter
 happened to extract.
 
-**The earlier draft's score is neither identity.** It paired the total effect with the raw exposure
-change, $\hat\beta_j \Delta X_j$, which gives $X_1$ credit for the path it drives through $X_2$ and
-gives $X_2$ credit for its full movement including the part $X_1$ drove. Summing the uncorrected scores
-overshoots identity (II) by
+**The uncorrected share is neither identity.** It pairs the total effect with the raw exposure change,
+$\hat\beta_j \Delta X_j$, which gives $X_1$ credit for the path it drives through $X_2$ and gives $X_2$
+credit for its full movement including the part $X_1$ drove. Summing uncorrected shares overshoots
+identity (II) by
 
 $$\text{excess}_{p,\ell} \;=\; \sum_j \hat\beta_j \left(\Delta X_j - \Delta\varepsilon_j\right) \;=\; \sum_j \hat\beta_j \sum_{k \in \mathrm{pa}(j)} \alpha_{jk}\,\Delta X_k$$
 
@@ -225,8 +226,8 @@ hypotheses in the first place.
 
 ## 6. What the graph must supply, and what it costs
 
-Identity (II) needs one new input beyond the earlier draft: the $\alpha_{jk}$ for each edge, the effect
-of one hypothesis' exposure on another's. **These are not identified anywhere in our evidence base, and
+Identity (II) needs one input that no chapter produces: the $\alpha_{jk}$ for each edge, which is the
+effect of one hypothesis' exposure on another's. **These are not identified anywhere in our evidence base, and
 most of them are not identified anywhere.** Axiom 5 costs us this, and it trades against
 Axioms 2 and 3. Four things keep the price payable.
 
@@ -235,12 +236,12 @@ in TICK-080 item 10, with edges between blocks and no edges drawn inside one. A 
 2,415 pairwise judgments we cannot defend; a 10-node graph asks for 45.
 
 **Most of the content sits in the edges we omit.** An absent edge sets its correction term to zero and
-needs no estimate. The $\alpha$ values matter only for the edges we assert, and the memo's arithmetic
-degrades to the earlier draft's score wherever we assert nothing.
+needs no estimate. The $\alpha$ values matter only for the edges we assert, and the arithmetic falls
+back to the uncorrected share wherever we assert nothing.
 
 **Sign restrictions give bounds where point estimates fail.** Knowing that $\alpha_{jk} > 0$ and
 $\Delta X_k < 0$ signs the correction term, so we can report $s_{p,\ell}$ as an interval running from
-the uncorrected score to a bound built from the largest defensible $\alpha$. An interval that excludes
+the uncorrected share to a bound built from the largest defensible $\alpha$. An interval that excludes
 zero settles the question a point estimate would have settled.
 
 **Merge cycles into a single block.** Female labor supply and fertility plausibly cause each other, as
@@ -311,7 +312,7 @@ returned 0 of 18 countries consistent, and splitting the window gave 14 of 18 ea
 Eight assumptions, each attached to a specific extractable field or to a published edge. Axiom 3 asks
 for that rather than for a score resting on nothing, so a reader can list what $s_{p,\ell}$ assumes and
 check the assumptions one at a time. M7 and M8 are the two that Axiom 5 added, and they are the two we
-would be making silently today if we scored $\hat\beta_D \Delta X_D$ and let the columns sum to 3.
+would be making in silence today if we published the uncorrected share and let the columns sum to 3.
 
 ## 9. Next steps
 
@@ -321,7 +322,7 @@ would be making silently today if we scored $\hat\beta_D \Delta X_D$ and let the
 2. **Add the conditioning field to extraction**, so that M4 becomes checkable on the chapters already
    drafted rather than assumed.
 3. **Pilot on C.6.a.** Print three numbers beside each other: the chapter's existing $R^2$, the
-   uncorrected $\hat\beta_D \Delta X_D / \Delta\text{TFR}$, and the corrected $s_{p,\ell}$. C.6.a has 18
+   uncorrected share, and the attributable share $s_{p,\ell}$. C.6.a has 18
    SDT countries, a computed $R^2$, and a slope test pointing the other way, so the scores will diverge
    on numbers we already hold. Relative cohort size sits downstream of at least one other hypothesis, so
    the gap between the second and third numbers is the first double-count we measure.
