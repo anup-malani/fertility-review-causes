@@ -27,7 +27,9 @@ $$s_{p,\ell}(D) \;=\; \frac{\hat\beta_D \cdot \Delta\varepsilon_{D,p,\ell}}{\Del
 Here $\hat\beta_D$ is the identified total effect $d\,\text{TFR}/d\,X_D$ that $D$'s evidence base
 supports, and $\Delta\varepsilon_{D,p,\ell}$ is the **autonomous movement** of $D$'s exposure variable
 within the cell: the observed movement $\Delta X_{D,p,\ell}$ _minus_ the part that $D$'s causal parents
-among the other hypotheses drove. Call $s_{p,\ell}$ the **attributable share**.
+among the other hypotheses drove. Call $s_{p,\ell}$ the **attributable share**, and call
+$\hat\beta_D \Delta X_D / \Delta\text{TFR}_{p,\ell}$, which leaves the exposure term alone, the
+**uncorrected share**.
 
 **The score residualizes the exposure and leaves the effect alone.** $\hat\beta_D$ is the total effect
 our designs identify and PROTOCOL §4.1 already graded, so the graph enters through
@@ -116,6 +118,11 @@ N3 stays the strongest score and the least available one. Where a published deco
 chapter, it remains the standard, and §5 shows that N1 with the graph correction is the same arithmetic
 built from meta-analytic parts. N1 is the one we can compute 21 times.
 
+**Most of N1 is already in the pipeline.** PROTOCOL §4.2's second bullet, slope sufficiency, forms
+$\hat\beta_D \cdot \Delta X_D$, compares it to the observed range of TFR, and reports the comparison as
+*sufficient / partial / insufficient*. It therefore computes the uncorrected share's numerator, its
+denominator and the ratio itself, and then throws the ratio away. Only $\Delta\varepsilon$ is new.
+
 ## 4. Why $R^2$ violates Axiom 1, and what the variance frame's correct score is
 
 In the bivariate case $R^2 = \beta^2 \mathrm{Var}(X)/\mathrm{Var}(Y)$, so for two hypotheses measured
@@ -166,7 +173,7 @@ graph $G$:
 
 $$X_j \;=\; \sum_{k \in \mathrm{pa}(j)} \alpha_{jk} X_k + \varepsilon_j, \qquad \text{TFR} \;=\; \sum_j \beta_j^{\mathrm{dir}} X_j + \varepsilon_{\text{TFR}}$$
 
-where $\mathrm{pa}(j)$ collects the parents of cause $X_j$, $\alpha_{jk}$ is the effect of $X_k$ on
+where $\mathrm{pa}(j)$ collects the parents of $X_j$, $\alpha_{jk}$ is the effect of $X_k$ on
 $X_j$, and $\beta_j^{\mathrm{dir}}$ is the **direct** effect of $X_j$ on TFR holding the other exposures
 fixed. The total effect $\hat\beta_j$ that a chapter identifies sums the direct effect and every
 indirect path: in matrix form $\hat\beta = (I-A)^{-\top}\beta^{\mathrm{dir}}$, where $A$ collects the
