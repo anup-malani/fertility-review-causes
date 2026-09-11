@@ -13,7 +13,7 @@ I began with three axioms that a reasonable function $s$ had to satisfy:
  * **Computability**: $s_{p,\ell}$ should be computable exclusively using quantities that we extract while writing chapters - effect sizes, CIs, and $R^2$ values.
  * **Minimal assumptions**: In calculating $s_{p,\ell}(D)$, we should impose minimal structural/functional-form assumptions, particularly if they are not economically motivated.
 
-Anup's 2026-08-30 memo builds what we might call the "denominator" of the function $s_{p,\ell}$. Without getting into the details of that memo, it requires that we determine, within each period-location pair, how much variation in fertility _is_ there to explain? We'll refer to this number as $\Delta \text{TFR}_{p,\ell}$. This memo begins to answer the question of what the numerator should be.
+Anup's 2026-08-30 memo builds what we might call the "denominator" of the function $s_{p,\ell}$. Without getting into the details of that memo, it requires that we determine, within each period-location pair, how much change in fertility _is_ there to explain? We'll refer to this number as $\Delta \text{TFR}_{p,\ell}$. This memo begins to answer the question of what the numerator should be.
 
 ## 1. Recommendation
 
@@ -67,22 +67,28 @@ would need — is rarely reported in the papers even where a model $R^2$ is.
 that $s_{p,\ell}$ carries and what checks each.
 
 One further observation about the formalism itself. **Indexing $s$ by $(p,\ell)$ is a substantive
-commitment, not bookkeeping.** It says a hypothesis has no single score — it has one per cell — which
-is the right consequence of M2 below, and which makes the verdict grid wider than PROTOCOL §4.3's
-three rows.
+commitment, not bookkeeping.** It says a hypothesis has no single score — it has one per cell. That is
+the right consequence of M2 below, and it is also v3's own design rather than our inference: §7 says
+"the resulting grid of location by period by outcome is what a theory is tested against," and that
+"both a theory's external validity and its economic significance are judged against those same cells."
+§8 below works out what that costs PROTOCOL §4.3.
 
-## 3. The denominator: the notation says change, the gloss says variation
+## 3. The denominator is a change, not a variance
 
-§0 writes the denominator $\Delta \text{TFR}_{p,\ell}$ and glosses it as "how much variation in
-fertility *is* there to explain." The symbol is a change; the gloss is a variance. v3 has the identical
-split — §3 and §9 speak of the share of *variation* explained, while §5 and §12 Step One define periods
-as *states* a region occupies, which supports a change within a cell.
+**Settled: $\Delta\text{TFR}_{p,\ell}$ is a change.** §0 now says so, and the ruling is recorded here
+because it was genuinely open and because everything downstream turns on it.
 
-**Recommendation: close it as a change.** The review's question is what share of the *decline* a
-mechanism carries; PROTOCOL §4.2.1 already fixes the change convention as binding; and a share of a
-decline is what a reader of the verdict grid will take the number to mean. The variance reading
-answers a real but different question — why regions differ from one another — and if we want it, §5
-says exactly what it costs: the score must be $r$, not $R^2$, or Axiom 1 fails.
+The fork was real on both sides. v3 §3 and §9 speak of the share of *variation* explained, while §5
+and §12 Step One define periods as *states* a region occupies, which supports a change within a cell.
+Three reasons settle it as a change: the review's question is what share of the *decline* a mechanism
+carries; PROTOCOL §4.2.1 already fixes the change convention as binding; and a share of a decline is
+what a reader of the verdict grid will take the number to mean.
+
+The variance branch is closed, not refuted. §5 prices it exactly — under a standard-deviation
+denominator the score that satisfies Axiom 1 is $r$, and $r$ is $s_{p,\ell}$ with $\mathrm{sd}()$ in
+place of $\Delta$. If a reader ever wants the cross-region question — why regions differ from one
+another rather than why fertility fell within one — that is the statistic, reported in a separate and
+separately labelled column.
 
 ## 4. Four candidate numerators
 
@@ -150,6 +156,13 @@ strange thing for a review organized around identification to do.
 
 ## 6. Specifying the three inputs
 
+One structural point first, because the draft above collapsed two levels that v3 keeps apart. The
+**cell** $(p,\ell)$ is a region crossed with a milestone state, because §5 makes milestones regional:
+"the unit for defining a period is typically the region." The **unit of analysis inside a cell** is the
+country, per §12 Step Two. So the region fixes *when the window is*, and countries supply the
+observations that construct $\Delta X$ and $\Delta\text{TFR}$ within it. One denominator per cell,
+many countries beneath it.
+
 - **$\hat\beta_D$.** The pooled estimate where the arm is poolable (≥3 studies *after* stratification),
   the best-identified single estimate otherwise. The GRADE rating travels with the number unchanged.
 - **Units.** `docs/meta-analysis-effect-size-harmonization.md` already defines the ladder, with births
@@ -176,19 +189,82 @@ Five assumptions, each attached to a specific extractable field. That is what Ax
 practice — not that the score is assumption-free, but that a reader can enumerate what it rests on and
 check the assumptions one at a time.
 
-## 8. Calls for you
+## 8. Rulings
 
-1. **Is $\Delta\text{TFR}_{p,\ell}$ a change or a variance?** (§3.) Everything downstream turns on it,
-   and §5 prices the variance branch: the score becomes $r$.
-2. **Does the numerator come from $\hat\beta_D$ or from a macro refit?** Identification inheritance
-   says $\hat\beta_D$.
-3. **§0 indexes $s$ by $(p,\ell)$, which settles cell-level versus pooled scoring in favour of
-   cell-level.** Confirm that is intended: it widens PROTOCOL §4.3's grid from three phenomenon rows
-   to a full region × state grid.
-4. **Does $s_{p,\ell}$ replace the three-route disjunction in §4.2 entirely, or join it as a fourth
-   route?** The disjunction is what TICK-080 item 1 is about, and a single score dissolves it.
+**1. $\Delta\text{TFR}_{p,\ell}$ is a change, not a variance.** §3.
 
-## 9. Next step
+**2. The numerator comes from $\hat\beta_D$, not from a macro refit.** Identification inheritance: the
+effect arrives from a design already graded under §4.1, and a refit on a country-year panel is a new
+unidentified regression whose value depends on a control set v3 §10 defers.
+
+**3. Cell-level scoring — and v3 endorses it, with one hazard our axiom catches.** v3 §7 settles the
+question directly: economic significance is "judged against those same cells," where the cells are the
+grid of location by period. So indexing $s$ by $(p,\ell)$ is v3's design, not our addition. Two
+qualifications follow from reading §7 and §8 together, and they differ in kind.
+
+*Benign.* §8 filters the grid per theory — decline theories are scored only on periods at or after the
+FDT. Different hypotheses are therefore scored on different subsets of cells. This does **not** threaten
+Axiom 1, which is a within-cell statement: it compares $D_1$ and $D_2$ at a fixed $(p,\ell)$, and a
+hypothesis that makes no claim about a cell simply has no score there. An out-of-scope cell is
+UNEVALUATED, not zero — the distinction TICK-080 item 5 asks GRADE for, arriving here on the
+demographic-significance side.
+
+*Not benign.* §7 also allows the **unit itself to vary by theory**: "individual countries available as
+a finer unit inside a region where a theory's treatment variable is measured at that level." If $D_1$
+is scored on a region cell and $D_2$ on country cells inside that region, their denominators differ,
+so $c$ depends on $D$ and **Axiom 1 fails by construction** — the same defect that disqualifies N2 and
+N4, arriving through the frame rather than through the statistic. Recommend closing this in favour of a
+cell fixed at region × state for every hypothesis, with country-level data used to *construct*
+$\Delta X$ inside the cell where it exists. Measurement quality may vary by hypothesis; the denominator
+may not.
+
+The consequence for PROTOCOL §4.3 is larger than "wider." The grid becomes **region × milestone state,
+and ragged** — filtered per hypothesis, with cells that are legitimately empty. It also bears on
+TICK-080 item 11: hypotheses scored on different cell sets cannot be ranked by a single number at all,
+so only within-cell comparisons survive, which is an independent argument for a tier list with the
+surviving pairwise comparisons rather than an ordered list.
+
+**4. $s_{p,\ell}$ replaces the three-route disjunction in PROTOCOL §4.2 entirely.** Not a fourth route.
+The disjunction, the 10% threshold and the 0.15 threshold all go; what replaces them is one score per
+cell, reported with its interval.
+
+A scope note, since these rulings touch a protocol section that does two jobs at once. **All four are
+economic-significance rulings only.** They change §4.2 and §4.2.1 and leave §4.1 untouched: GRADE rates
+the causal claim, and nothing here rates or re-rates it. The two columns of the §4.3 verdict grid stay
+separate, which is the point of §1 of the protocol.
+
+## 9. What these rulings settle in TICK-080
+
+Six of the ticket's twelve items are consequences of the three-route disjunction and its thresholds.
+Ruling 4 dissolves them rather than answering them:
+
+| Item | Status under these rulings |
+|---|---|
+| 1 — routes OR'd, contradict, mean vs variance | **Dissolved.** One score, and ruling 1 fixes the moment |
+| 2 — $R^2$ is sign-blind | **Dissolved.** $s_{p,\ell}$ is signed; C.6.a's six wrong-signed clearers show in the score |
+| 3 — "conditional $R^2$" names two statistics | **Dissolved.** No $R^2$ route survives |
+| 4 — 0.15 is below the spurious-regression floor | **Dissolved.** No threshold survives |
+| 10 — shares sum past 1 | **Becomes measurable.** Orthogonality gives $\sum_D s = 1$, so the excess measures overlap, inflation and non-comparability |
+| 12 — the comparison object does not exist | **Specified.** It is $s_{p,\ell}$ over the ragged grid |
+
+Three items survive unchanged and are unaffected by anything here: **5** and **6** (GRADE bands for the
+empty cell and the non-effect estimand) because those are §4.1, and **9** (pooling) because it governs
+which $\hat\beta_D$ enters the numerator.
+
+Two change character rather than resolving. **11** (winner's curse) is sharpened by ruling 3's ragged
+grid, as above. And **8** — endpoint tests on non-monotone exposures — is promoted from a reporting
+nicety to a first-order defect, because $\Delta X_{D,p,\ell}$ *is* an endpoint difference. C.6.a is the
+warning: its full-window sign test returned 0 of 18 countries consistent, and splitting the window gave
+14 of 18 early and 0 of 18 late. A hump inside a cell nets to a small $\Delta X$ and drives
+$s_{p,\ell}$ toward zero for an exposure that moved a great deal. Any cyclical exposure needs peak
+year, amplitude and net/amplitude reported beside $\Delta X$, with the split derived from outside the
+data.
+
+Item **7** (variance components, and what PM's range denominator admits) is reshaped twice over: ruling
+1 removes the variance reading it was built on, and v3 §8 filters PM out of the grid for decline
+theories. It needs rewriting rather than answering.
+
+## 10. Next step
 
 Compute $s_{p,\ell}$ end-to-end on one drafted chapter and print it beside that chapter's existing
 $R^2$. C.6.a is the natural pilot: it already has 18 SDT countries, a computed $R^2$, and a slope test
