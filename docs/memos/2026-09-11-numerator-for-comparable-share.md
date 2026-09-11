@@ -26,19 +26,13 @@ $$s_{p,\ell}(D) \;=\; \frac{\hat\beta_D \cdot \Delta\varepsilon_{D,p,\ell}}{\Del
 
 Here $\hat\beta_D$ is the identified total effect $d\,\text{TFR}/d\,X_D$ that $D$'s evidence base
 supports, and $\Delta\varepsilon_{D,p,\ell}$ is the **autonomous movement** of $D$'s exposure variable
-within the cell: the observed movement $\Delta X_{D,p,\ell}$ less the part that $D$'s causal parents
+within the cell: the observed movement $\Delta X_{D,p,\ell}$ _minus_ the part that $D$'s causal parents
 among the other hypotheses drove. Call $s_{p,\ell}$ the **attributable share**.
 
 **The score residualizes the exposure and leaves the effect alone.** $\hat\beta_D$ is the total effect
 our designs identify and PROTOCOL §4.1 already graded, so the graph enters through
 $\Delta\varepsilon_{D,p,\ell}$ and we refit no estimate. §5 derives the two corrections a graph
 makes available and shows why our evidence base supports this one.
-
-**PROTOCOL already computes the uncorrected version and then buckets it.** §4.2's second bullet, slope
-sufficiency, forms $\hat\beta_D \cdot \Delta X_D$, compares it to the observed range of TFR, and reports
-the comparison as *sufficient / partial / insufficient*. Call
-$\hat\beta_D \Delta X_D / \Delta\text{TFR}_{p,\ell}$ the **uncorrected share**. Its numerator, its
-denominator and the ratio itself all sit in the pipeline, and §4.2 throws the ratio away.
 
 **The correction is targeted rather than global.** A hypothesis with no causal parents in $\mathcal{D}$
 has $\Delta\varepsilon_D = \Delta X_D$, so its attributable share equals its uncorrected share. Only
@@ -165,14 +159,14 @@ regression with no identification, and its value depends on the control set v3 �
 organized around identification should not build its headline score out of a statistic that discards
 it.
 
-## 5. The graph, and the two decompositions it licenses
+## 5. DAG
 
 Suppose the hypothesis exposures $X_1,\dots,X_n$ and TFR obey a linear structural system on an acyclic
 graph $G$:
 
 $$X_j \;=\; \sum_{k \in \mathrm{pa}(j)} \alpha_{jk} X_k + \varepsilon_j, \qquad \text{TFR} \;=\; \sum_j \beta_j^{\mathrm{dir}} X_j + \varepsilon_{\text{TFR}}$$
 
-where $\mathrm{pa}(j)$ collects the hypotheses that cause $X_j$, $\alpha_{jk}$ is the effect of $X_k$ on
+where $\mathrm{pa}(j)$ collects the parents of cause $X_j$, $\alpha_{jk}$ is the effect of $X_k$ on
 $X_j$, and $\beta_j^{\mathrm{dir}}$ is the **direct** effect of $X_j$ on TFR holding the other exposures
 fixed. The total effect $\hat\beta_j$ that a chapter identifies sums the direct effect and every
 indirect path: in matrix form $\hat\beta = (I-A)^{-\top}\beta^{\mathrm{dir}}$, where $A$ collects the
