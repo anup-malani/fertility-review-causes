@@ -25,7 +25,7 @@ $$s_{p,\ell}(D) \;=\; \frac{\hat\beta_D \cdot \Delta X_{D,p,\ell}}{\Delta \text{
 
 where $\hat\beta_D$ is the identified effect $d\,\text{TFR}/d\,X_D$ that $D$'s evidence base supports,
 and $\Delta X_{D,p,\ell}$ is the observed movement of $D$'s exposure variable within the cell. Call it
-the **attributable share**. Of the four candidate numerators in §4 it is the only one that satisfies
+the **attributable share**. Of the four candidate numerators in §3 it is the only one that satisfies
 all three axioms.
 
 Two remarks:
@@ -35,7 +35,7 @@ forms $\hat\beta_D \cdot \Delta X_D$, compares it to the observed range of TFR, 
 comparison as *sufficient / partial / insufficient*. The numerator and denominator are both already in
 the pipeline.
 
-**This is not the exact same as "share of variation explained."** Section 5 shows that the variance-frame
+**This is not the exact same as "share of variation explained."** Section 4 shows that the variance-frame
 score satisfying Axiom 1 is the correlation coefficient $r$, and that
 $r = \beta\,\mathrm{sd}(X)/\mathrm{sd}(Y)$ is exactly $s_{p,\ell}$ with standard deviations in place of
 observed changes.
@@ -57,7 +57,7 @@ $c \cdot \text{contrib}$ for *some* $c$; what separates them is whether $c$ is a
 hypothesis being scored. A $c$ that depends on $D$ rescales each hypothesis by a different factor
 before comparing them, which is precisely the comparison Axiom 1 forbids.
 
-**Axiom 2** restricts the admissible inputs to what a chapter actually produces. **Axiom 3** should be read as *few, named, and separately checkable*, not as *none*. §7 lists the six
+**Axiom 2** restricts the admissible inputs to what a chapter actually produces. **Axiom 3** should be read as *few, named, and separately checkable*, not as *none*. §6 lists the six
 that $s_{p,\ell}$ carries and what checks each.
 
 **Axiom 4** does something the other three do not: it pins a constant they leave free. Axiom 1
@@ -92,37 +92,20 @@ discarded.
 
 One further observation about the formalism itself. **Indexing $s$ by $(p,\ell)$ is a substantive
 commitment, not bookkeeping.** It says a hypothesis has no single score — it has one per cell. That is
-the right consequence of M2 below, and it is also v3's own design rather than our inference: §7 says
+the right consequence of M2 below, and it is also v3's own design rather than our inference: v3 §7 says
 "the resulting grid of location by period by outcome is what a theory is tested against," and that
 "both a theory's external validity and its economic significance are judged against those same cells."
-§8 below works out what that costs PROTOCOL §4.3.
+That makes the PROTOCOL §4.3 verdict grid a region × state grid rather than three phenomenon rows.
 
-## 3. The denominator is a change, not a variance
-
-**Settled: $\Delta\text{TFR}_{p,\ell}$ is a change.** §0 now says so, and the ruling is recorded here
-because it was genuinely open and because everything downstream turns on it.
-
-The fork was real on both sides. v3 §3 and §9 speak of the share of *variation* explained, while §5
-and §12 Step One define periods as *states* a region occupies, which supports a change within a cell.
-Three reasons settle it as a change: the review's question is what share of the *decline* a mechanism
-carries; PROTOCOL §4.2.1 already fixes the change convention as binding; and a share of a decline is
-what a reader of the verdict grid will take the number to mean.
-
-The variance branch is closed, not refuted. §5 prices it exactly — under a standard-deviation
-denominator the score that satisfies Axiom 1 is $r$, and $r$ is $s_{p,\ell}$ with $\mathrm{sd}()$ in
-place of $\Delta$. If a reader ever wants the cross-region question — why regions differ from one
-another rather than why fertility fell within one — that is the statistic, reported in a separate and
-separately labelled column.
-
-## 4. Four candidate numerators
+## 3. Four candidate numerators
 
 Writing $s_{p,\ell}(D) = n_{p,\ell}(D) / \Delta\text{TFR}_{p,\ell}$, the candidates differ in the
 numerator $n$, and the column that decides the question is the third.
 
 | | Numerator $n_{p,\ell}(D)$ | Implied $c_{p,\ell}$ | Axiom 1 | Axiom 2 | Axiom 3 |
 |---|---|---|---|---|---|
-| **N1** | $\hat\beta_D \cdot \Delta X_{D,p,\ell}$ | $1/\Delta\text{TFR}_{p,\ell}$ — cell only | **Satisfied** | **Satisfied** — $\hat\beta$ and CI are extracted | 5 named assumptions (§7) |
-| **N2** | partial $R^2_D \times \mathrm{Var}(\text{TFR})$ — v3 §9 as written | $\propto \hat\beta_D \mathrm{Var}(X_D)$ — **depends on $D$** | **Violated** (§5) | Violated — no $R^2$ field; partial $R^2$ rarely reported | Needs a correct specification and the control set v3 §10 defers |
+| **N1** | $\hat\beta_D \cdot \Delta X_{D,p,\ell}$ | $1/\Delta\text{TFR}_{p,\ell}$ — cell only | **Satisfied** | **Satisfied** — $\hat\beta$ and CI are extracted | 6 named assumptions (§6) |
+| **N2** | partial $R^2_D \times \mathrm{Var}(\text{TFR})$ — v3 §9 as written | $\propto \hat\beta_D \mathrm{Var}(X_D)$ — **depends on $D$** | **Violated** (§4) | Violated — no $R^2$ field; partial $R^2$ rarely reported | Needs a correct specification and the control set v3 §10 defers |
 | **N3** | Formal decomposition (Bongaarts, Oaxaca-Blinder) | $1/\Delta\text{TFR}_{p,\ell}$ | Satisfied by construction | Violated — needs a decomposition on macro data, not a paper | Heavy: the multiplicative proximate-determinants identity, or linear additive separability |
 | **N4** | Within-paper attributable $R^2$ share — v3 §12 interim | depends on the **paper's own frame**, hence on $D$ | **Violated** | Weak — needs regression output we mostly lack | Rests on an assumption v3 itself calls false |
 
@@ -140,7 +123,7 @@ to the joint $R^2$, so there is nothing for a normalization to normalize.
 N3 is the strongest score and the least available one. It stays the gold standard in the few chapters
 where a published decomposition exists. N1 is the one that can be computed 21 times.
 
-## 5. Why $R^2$ violates Axiom 1, and what the variance frame's correct score is
+## 4. Why $R^2$ violates Axiom 1, and what the variance frame's correct score is
 
 In the bivariate case $R^2 = \beta^2 \mathrm{Var}(X)/\mathrm{Var}(Y)$, so for two hypotheses measured
 on exposures of equal variance,
@@ -162,6 +145,10 @@ place of $\Delta$. **If the denominator is a change, the score is $s_{p,\ell}$; 
 deviation, the score is $r$. In neither case is it $R^2$.** v3's "share of variation explained" is
 right in spirit and one power too far in execution.
 
+This memo works in the change frame, which is also PROTOCOL §4.2.1's binding convention. $r$ is what
+answers the cross-region question — why regions differ from one another, rather than why fertility fell
+within one — and if that question is ever put, $r$ is reported in its own separately labelled column.
+
 Three consequences follow.
 
 **The sign returns for free.** $r$ carries the sign that $R^2$ discards. On C.6.a, six of eighteen SDT
@@ -182,10 +169,10 @@ regression whose value depends on a control set v3 §10 explicitly defers. Build
 out of $R^2$ throws away the identification the review spent 21 chapters establishing, which is a
 strange thing for a review organized around identification to do.
 
-## 6. Specifying the three inputs
+## 5. Specifying the three inputs
 
 One structural point first, because the draft above collapsed two levels that v3 keeps apart. The
-**cell** $(p,\ell)$ is a region crossed with a milestone state, because §5 makes milestones regional:
+**cell** $(p,\ell)$ is a region crossed with a milestone state, because v3 §5 makes milestones regional:
 "the unit for defining a period is typically the region." The **unit of analysis inside a cell** is the
 country, per §12 Step Two. So the region fixes *when the window is*, and countries supply the
 observations that construct $\Delta X$ and $\Delta\text{TFR}$ within it. One denominator per cell,
@@ -213,7 +200,7 @@ no claim about a cell has no score there rather than a score of zero.
   $\hat\beta_D$'s interval scaled by $\Delta X/\Delta\text{TFR}$ — no delta method, no simulation. That
   is a further point for Axiom 2.
 
-## 7. The structural assumptions
+## 6. The structural assumptions
 
 | | Assumption | Check or bound |
 |---|---|---|
@@ -234,7 +221,7 @@ Six assumptions, each attached to a specific extractable field. That is what Axi
 practice — not that the score is assumption-free, but that a reader can enumerate what it rests on and
 check the assumptions one at a time.
 
-## 8. Next step
+## 7. Next step
 
 Compute $s_{p,\ell}$ end-to-end on one drafted chapter and print it beside that chapter's existing
 $R^2$. C.6.a is the natural pilot: it already has 18 SDT countries, a computed $R^2$, and a slope test
