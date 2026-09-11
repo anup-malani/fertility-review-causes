@@ -12,7 +12,7 @@ I began with three axioms that a reasonable function $s$ had to satisfy:
  * **Comparability**: For any two hypotheses $D_1,D_2 \in \mathcal D$, the ratio between $s_{p,\ell}(D_1)$ and $s_{p,\ell}(D_2)$ should reflect the relative contributions of $D_1$ and $D_2$ to the fertility decline. This imposes that $s_{p,\ell}$ be linear in the hypothesis' true contribution.
  * **Computability**: $s_{p,\ell}$ should be computable exclusively using quantities that we extract while writing chapters - effect sizes, CIs, and $R^2$ values.
  * **Minimal assumptions**: In calculating $s_{p,\ell}(D)$, we should impose minimal structural/functional-form assumptions, particularly if they are not economically motivated.
- * **Normalization**: $\sum_{D \in \mathcal D} s_{p,\ell}(D)=1$ for all $(p,\ell)$ pairs.
+ * **Normalization** (enforced later): $\sum_{D \in \mathcal D} s_{p,\ell}(D)=1$ for all $(p,\ell)$ pairs.
 
 Anup's 2026-08-30 memo builds what we might call the "denominator" of the function $s_{p,\ell}$. Without getting into the details of that memo, it requires that we determine, within each period-location pair, how much change in fertility _is_ there to explain? We'll refer to this number as $\Delta \text{TFR}_{p,\ell}$. This memo begins to answer the question of what the numerator should be.
 
@@ -28,24 +28,17 @@ and $\Delta X_{D,p,\ell}$ is the observed movement of $D$'s exposure variable wi
 the **attributable share**. Of the four candidate numerators in §4 it is the only one that satisfies
 all three axioms.
 
-Two remarks before the argument.
+Two remarks:
 
-**We already compute this and then discard it.** PROTOCOL §4.2's second bullet — slope sufficiency —
+**We already compute this and then bucket it.** PROTOCOL §4.2's second bullet — slope sufficiency —
 forms $\hat\beta_D \cdot \Delta X_D$, compares it to the observed range of TFR, and reports the
 comparison as *sufficient / partial / insufficient*. The numerator and denominator are both already in
-the pipeline; what is thrown away is the ratio itself. Recovering $s_{p,\ell}$ is less a new statistic
-than an instruction to stop bucketing an existing one.
+the pipeline.
 
-**This does not reject v3's "share of variation explained."** Section 5 shows that the variance-frame
-score satisfying Axiom 1 is the correlation coefficient $r$, not $R^2$, and that
+**This is not the exact same as "share of variation explained."** Section 5 shows that the variance-frame
+score satisfying Axiom 1 is the correlation coefficient $r$, and that
 $r = \beta\,\mathrm{sd}(X)/\mathrm{sd}(Y)$ is exactly $s_{p,\ell}$ with standard deviations in place of
-observed changes. The change frame and the variance frame give the same score against two different
-benchmarks of movement. $R^2$ is that score squared, and the squaring is what breaks Axiom 1.
-
-**It replaces the PROTOCOL §4.2 disjunction rather than joining it.** Not a fourth route: the
-disjunction, the 10% threshold and the 0.15 threshold all go, and one score per cell reported with its
-interval takes their place. This is an economic-significance change only. §4.1 is untouched — GRADE
-rates the causal claim, and nothing here rates or re-rates it.
+observed changes.
 
 ## 2. What the axioms require
 
@@ -64,12 +57,7 @@ $c \cdot \text{contrib}$ for *some* $c$; what separates them is whether $c$ is a
 hypothesis being scored. A $c$ that depends on $D$ rescales each hypothesis by a different factor
 before comparing them, which is precisely the comparison Axiom 1 forbids.
 
-**Axiom 2** restricts the admissible inputs to what a chapter actually produces. In practice this is
-narrower than the axiom states: effect sizes and CIs, not $R^2$. No extraction table in any of the 21
-chapters carries an $R^2$ column, and partial or incremental $R^2$ — the quantity an $R^2$-based score
-would need — is rarely reported in the papers even where a model $R^2$ is.
-
-**Axiom 3** should be read as *few, named, and separately checkable*, not as *none*. §7 lists the six
+**Axiom 2** restricts the admissible inputs to what a chapter actually produces. **Axiom 3** should be read as *few, named, and separately checkable*, not as *none*. §7 lists the six
 that $s_{p,\ell}$ carries and what checks each.
 
 **Axiom 4** does something the other three do not: it pins a constant they leave free. Axiom 1
@@ -78,43 +66,29 @@ determines $s$ only up to a positive $c_{p,\ell}$; Axiom 4 chooses it. Together 
 $$s_{p,\ell}(D) \;=\; \frac{\text{contrib}_{p,\ell}(D)}{\sum_{D' \in \mathcal{D}} \text{contrib}_{p,\ell}(D')}$$
 
 a share in the literal sense. It also discriminates further against the $R^2$ family, because the
-$R^2$s of correlated regressors do not sum to the joint $R^2$ and no rescaling repairs that without a
+$R^2$'s of correlated regressors do not sum to the joint $R^2$ and no rescaling repairs that without a
 variance decomposition — Shapley or LMG — which needs a joint distribution over seventy separate
 literatures that we cannot supply. And it is the axiom N3 was built to satisfy: a decomposition sums
 to one by construction, which is what makes it a decomposition. Axiom 4 therefore pulls toward N3, and
 Axiom 2 is the only reason we cannot go there.
 
-**But $s_{p,\ell}$ as defined in §1 does not satisfy Axiom 4 on $\mathcal{D}$, and no score assembled
-from independent literatures will.** Every chapter estimates a total effect in a literature that did
-not condition on the other sixty-nine. Where $D_1$ operates through $D_2$, both literatures report a
-real effect and both chapters correctly claim the same share of the decline, so the raw scores sum past
-one for reasons that have nothing to do with any chapter being wrong. Three responses, and only the
-third keeps what we want.
+**Imposing Axiom 4.** $s_{p,\ell}$ as defined in §1 does not satisfy Axiom 4 on $\mathcal{D}$, and no
+score assembled from independent literatures will. Every chapter estimates a total effect in a
+literature that did not condition on the other sixty-nine, so where $D_1$ operates through $D_2$ both
+literatures report a real effect and both chapters correctly claim the same share of the decline. The
+raw scores sum past one for reasons that have nothing to do with any chapter being wrong.
 
-*Rescale.* Set $\tilde{s}(D) = s(D)/\sum_{D'} s(D')$. This preserves Axiom 1 — the factor is a constant
-of the cell, not of the hypothesis — and is therefore formally admissible. It is also expensive. It
-destroys the absolute magnitude: "explains 30% of the decline" becomes "explains 30% of whatever we
-happened to enumerate," so if our seventy hypotheses jointly carry 40% of the fall, every number is
-silently inflated by two and a half. It makes each score depend on $\mathcal{D}$, so no chapter's
-number is final until all seventy exist and adding a hypothesis moves every other score. It divides
-away precisely the excess that is worth reporting. And it is ill-defined when
-$\sum_{D'} s(D') \approx 0$, which is reachable — a mechanism whose exposure moved the wrong way
-contributes a negative score, and C.6.a is exactly that case.
+**We impose Axiom 4 by adding the residual to the set.** Let
+$\mathcal{D}^+ = \mathcal{D} \cup \{D_0\}$ with
 
-*Enforce orthogonality.* Admissible only if the hypotheses are genuinely non-overlapping. They are not,
-by construction: C.2.b, C.2.c and C.3.e are not independent mechanisms, and D.1.a is plausibly upstream
-of much of category C.
+$$s_{p,\ell}(D_0) \;:=\; 1 - \sum_{D \in \mathcal{D}} s_{p,\ell}(D)$$
 
-*Add the residual to the set.* Let $\mathcal{D}^+ = \mathcal{D} \cup \{D_0\}$ with
-
-$$s_{p,\ell}(D_0) \;:=\; 1 - \sum_{D \in \mathcal{D}} s_{p,\ell}(D).$$
-
-**Recommendation: read Axiom 4 as holding on $\mathcal{D}^+$.** It then holds by construction, with no
-rescaling to contaminate any individual score and no loss of absolute magnitude. $s(D_0)$ is the
-unexplained share of the decline — plausibly the review's most quotable single number, and one that
-rescaling would have legislated out of existence. When the enumerated hypotheses over-claim, $s(D_0)$
-goes negative, and its magnitude is the overlap-plus-inflation signal, now carried in a named element
-of the set rather than discarded.
+and read the axiom as a statement about $\mathcal{D}^+$, where it holds by construction. No individual
+score is rescaled, so $s_{p,\ell}(D)$ keeps its absolute meaning — this share of the observed decline,
+not this share of whatever we happened to enumerate. $s(D_0)$ is the unexplained share, plausibly the
+review's most quotable single number. Where the enumerated hypotheses over-claim it goes negative, and
+its magnitude is the overlap-plus-inflation signal, carried in a named element of the set rather than
+discarded.
 
 One further observation about the formalism itself. **Indexing $s$ by $(p,\ell)$ is a substantive
 commitment, not bookkeeping.** It says a hypothesis has no single score — it has one per cell. That is
