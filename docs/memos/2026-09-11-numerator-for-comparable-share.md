@@ -12,6 +12,7 @@ I began with three axioms that a reasonable function $s$ had to satisfy:
  * **Comparability**: For any two hypotheses $D_1,D_2 \in \mathcal D$, the ratio between $s_{p,\ell}(D_1)$ and $s_{p,\ell}(D_2)$ should reflect the relative contributions of $D_1$ and $D_2$ to the fertility decline. This imposes that $s_{p,\ell}$ be linear in the hypothesis' true contribution.
  * **Computability**: $s_{p,\ell}$ should be computable exclusively using quantities that we extract while writing chapters - effect sizes, CIs, and $R^2$ values.
  * **Minimal assumptions**: In calculating $s_{p,\ell}(D)$, we should impose minimal structural/functional-form assumptions, particularly if they are not economically motivated.
+ * **Normalization**: $\sum_{D \in \mathcal D} s_{p,\ell}(D)=1$ for all $(p,\ell)$ pairs.
 
 Anup's 2026-08-30 memo builds what we might call the "denominator" of the function $s_{p,\ell}$. Without getting into the details of that memo, it requires that we determine, within each period-location pair, how much change in fertility _is_ there to explain? We'll refer to this number as $\Delta \text{TFR}_{p,\ell}$. This memo begins to answer the question of what the numerator should be.
 
@@ -41,6 +42,11 @@ $r = \beta\,\mathrm{sd}(X)/\mathrm{sd}(Y)$ is exactly $s_{p,\ell}$ with standard
 observed changes. The change frame and the variance frame give the same score against two different
 benchmarks of movement. $R^2$ is that score squared, and the squaring is what breaks Axiom 1.
 
+**It replaces the PROTOCOL §4.2 disjunction rather than joining it.** Not a fourth route: the
+disjunction, the 10% threshold and the 0.15 threshold all go, and one score per cell reported with its
+interval takes their place. This is an economic-significance change only. §4.1 is untouched — GRADE
+rates the causal claim, and nothing here rates or re-rates it.
+
 ## 2. What the axioms require
 
 Axiom 1 has sharp formal content worth extracting, because it is what separates the candidates. Write
@@ -63,8 +69,52 @@ narrower than the axiom states: effect sizes and CIs, not $R^2$. No extraction t
 chapters carries an $R^2$ column, and partial or incremental $R^2$ — the quantity an $R^2$-based score
 would need — is rarely reported in the papers even where a model $R^2$ is.
 
-**Axiom 3** should be read as *few, named, and separately checkable*, not as *none*. §7 lists the five
+**Axiom 3** should be read as *few, named, and separately checkable*, not as *none*. §7 lists the six
 that $s_{p,\ell}$ carries and what checks each.
+
+**Axiom 4** does something the other three do not: it pins a constant they leave free. Axiom 1
+determines $s$ only up to a positive $c_{p,\ell}$; Axiom 4 chooses it. Together they give
+
+$$s_{p,\ell}(D) \;=\; \frac{\text{contrib}_{p,\ell}(D)}{\sum_{D' \in \mathcal{D}} \text{contrib}_{p,\ell}(D')}$$
+
+a share in the literal sense. It also discriminates further against the $R^2$ family, because the
+$R^2$s of correlated regressors do not sum to the joint $R^2$ and no rescaling repairs that without a
+variance decomposition — Shapley or LMG — which needs a joint distribution over seventy separate
+literatures that we cannot supply. And it is the axiom N3 was built to satisfy: a decomposition sums
+to one by construction, which is what makes it a decomposition. Axiom 4 therefore pulls toward N3, and
+Axiom 2 is the only reason we cannot go there.
+
+**But $s_{p,\ell}$ as defined in §1 does not satisfy Axiom 4 on $\mathcal{D}$, and no score assembled
+from independent literatures will.** Every chapter estimates a total effect in a literature that did
+not condition on the other sixty-nine. Where $D_1$ operates through $D_2$, both literatures report a
+real effect and both chapters correctly claim the same share of the decline, so the raw scores sum past
+one for reasons that have nothing to do with any chapter being wrong. Three responses, and only the
+third keeps what we want.
+
+*Rescale.* Set $\tilde{s}(D) = s(D)/\sum_{D'} s(D')$. This preserves Axiom 1 — the factor is a constant
+of the cell, not of the hypothesis — and is therefore formally admissible. It is also expensive. It
+destroys the absolute magnitude: "explains 30% of the decline" becomes "explains 30% of whatever we
+happened to enumerate," so if our seventy hypotheses jointly carry 40% of the fall, every number is
+silently inflated by two and a half. It makes each score depend on $\mathcal{D}$, so no chapter's
+number is final until all seventy exist and adding a hypothesis moves every other score. It divides
+away precisely the excess that is worth reporting. And it is ill-defined when
+$\sum_{D'} s(D') \approx 0$, which is reachable — a mechanism whose exposure moved the wrong way
+contributes a negative score, and C.6.a is exactly that case.
+
+*Enforce orthogonality.* Admissible only if the hypotheses are genuinely non-overlapping. They are not,
+by construction: C.2.b, C.2.c and C.3.e are not independent mechanisms, and D.1.a is plausibly upstream
+of much of category C.
+
+*Add the residual to the set.* Let $\mathcal{D}^+ = \mathcal{D} \cup \{D_0\}$ with
+
+$$s_{p,\ell}(D_0) \;:=\; 1 - \sum_{D \in \mathcal{D}} s_{p,\ell}(D).$$
+
+**Recommendation: read Axiom 4 as holding on $\mathcal{D}^+$.** It then holds by construction, with no
+rescaling to contaminate any individual score and no loss of absolute magnitude. $s(D_0)$ is the
+unexplained share of the decline — plausibly the review's most quotable single number, and one that
+rescaling would have legislated out of existence. When the enumerated hypotheses over-claim, $s(D_0)$
+goes negative, and its magnitude is the overlap-plus-inflation signal, now carried in a named element
+of the set rather than discarded.
 
 One further observation about the formalism itself. **Indexing $s$ by $(p,\ell)$ is a substantive
 commitment, not bookkeeping.** It says a hypothesis has no single score — it has one per cell. That is
@@ -109,6 +159,10 @@ assumption known to be false." **That assumption is exactly Axiom 1 applied to N
 of frames is what would make $c$ independent of $D$. v3 and this memo reach the same verdict on N4 by
 different routes, which is some evidence the axiom is the right one.
 
+On Axiom 4 the ordering is different and worth noting: N3 satisfies it by construction, N1 satisfies it
+on $\mathcal{D}^+$, and N2 and N4 cannot satisfy it at all — correlated regressors' $R^2$s do not sum
+to the joint $R^2$, so there is nothing for a normalization to normalize.
+
 N3 is the strongest score and the least available one. It stays the gold standard in the few chapters
 where a published decomposition exists. N1 is the one that can be computed 21 times.
 
@@ -141,12 +195,12 @@ countries clear $R^2 \ge 0.15$ and all six do so with the correlation running *a
 prediction. Under $r$ that is visible in the score; under $R^2$ it took a separate audit to find, and
 TICK-080 item 2 exists only because $R^2$ hides it.
 
-**Shares become additive, and the sum is interpretable.** If contributions are orthogonal and exhaust
-the decline then $\sum_D \text{contrib}_{p,\ell}(D) = \Delta\text{TFR}_{p,\ell}$, so Axiom 1 gives
-$\sum_D s_{p,\ell}(D) = 1$. An observed column summing to 3.4 is then a *measurement* of the failure
-of orthogonality, plus literature inflation, plus non-comparability — the three-way attribution
-TICK-080 item 10 proposes to report as a result. Under N2 no such identity exists and a sum past 1
-means nothing at all.
+**Shares are additive, which is what makes Axiom 4 statable at all.** Because $s_{p,\ell}$ is linear in
+$\beta$ and denominated in the units of the decline, the scores in a column can be summed and the sum
+means something: a column totalling 3.4 measures the failure of orthogonality, plus literature
+inflation, plus non-comparability, and §2 carries that excess in $s(D_0)$ rather than discarding it.
+Under N2 there is no such arithmetic — correlated regressors' $R^2$s do not sum to the joint $R^2$ —
+so Axiom 4 could not be written down for an $R^2$-based score at all, let alone satisfied.
 
 **Identification is inherited rather than discarded.** $\hat\beta_D$ arrives from a design already
 graded under PROTOCOL §4.1. An $R^2$ refit on a country-year macro panel is a new and unidentified
@@ -162,6 +216,16 @@ One structural point first, because the draft above collapsed two levels that v3
 country, per §12 Step Two. So the region fixes *when the window is*, and countries supply the
 observations that construct $\Delta X$ and $\Delta\text{TFR}$ within it. One denominator per cell,
 many countries beneath it.
+
+**The cell must be fixed at region × state for every hypothesis.** v3 §7 allows the unit to float —
+"individual countries available as a finer unit inside a region where a theory's treatment variable is
+measured at that level" — and that is not admissible here. If $D_1$ is scored on a region cell and
+$D_2$ on country cells inside it, their denominators differ, so $c$ depends on $D$ and Axiom 1 fails by
+construction: the defect that disqualifies N2 and N4, arriving through the frame instead of through the
+statistic. Country-level data should be used to *construct* $\Delta X$ inside a fixed cell. Measurement
+quality may vary by hypothesis; the denominator may not. v3 §8's per-theory *filtering* is a different
+thing and is harmless — Axiom 1 compares $D_1$ and $D_2$ at a fixed $(p,\ell)$, so a hypothesis making
+no claim about a cell has no score there rather than a score of zero.
 
 - **$\hat\beta_D$.** The pooled estimate where the arm is poolable (≥3 studies *after* stratification),
   the best-identified single estimate otherwise. The GRADE rating travels with the number unchanged.
@@ -184,87 +248,19 @@ many countries beneath it.
 | M3 | A micro effect scales to an aggregate one | No cheap fix. Flag, and sign the likely GE offset where theory gives one |
 | M4 | $\hat\beta_D$ is a total effect, not a partial one | v3 §10's control-variable tension, arriving from the other side. Prefer designs whose estimand is the total effect |
 | M5 | $X_D$ is measured comparably across the frame | v3 Step Four; fails loudest for the cultural and policy exposures |
+| M6 | $\Delta X$ summarizes the exposure's movement in the cell | Only true where that movement is monotone. Report peak year, amplitude and net/amplitude beside $\Delta X$, with the split taken from outside the data |
 
-Five assumptions, each attached to a specific extractable field. That is what Axiom 3 should mean in
+M6 deserves a note, because adopting $s_{p,\ell}$ promotes it from a reporting nicety to a first-order
+defect: $\Delta X_{D,p,\ell}$ *is* an endpoint difference, so a hump inside a cell nets the rise against
+the fall and drives the score toward zero for an exposure that moved a great deal. C.6.a is the
+warning — its full-window sign test returned 0 of 18 countries consistent, and splitting the window
+gave 14 of 18 early and 0 of 18 late.
+
+Six assumptions, each attached to a specific extractable field. That is what Axiom 3 should mean in
 practice — not that the score is assumption-free, but that a reader can enumerate what it rests on and
 check the assumptions one at a time.
 
-## 8. Rulings
-
-**1. $\Delta\text{TFR}_{p,\ell}$ is a change, not a variance.** §3.
-
-**2. The numerator comes from $\hat\beta_D$, not from a macro refit.** Identification inheritance: the
-effect arrives from a design already graded under §4.1, and a refit on a country-year panel is a new
-unidentified regression whose value depends on a control set v3 §10 defers.
-
-**3. Cell-level scoring — and v3 endorses it, with one hazard our axiom catches.** v3 §7 settles the
-question directly: economic significance is "judged against those same cells," where the cells are the
-grid of location by period. So indexing $s$ by $(p,\ell)$ is v3's design, not our addition. Two
-qualifications follow from reading §7 and §8 together, and they differ in kind.
-
-*Benign.* §8 filters the grid per theory — decline theories are scored only on periods at or after the
-FDT. Different hypotheses are therefore scored on different subsets of cells. This does **not** threaten
-Axiom 1, which is a within-cell statement: it compares $D_1$ and $D_2$ at a fixed $(p,\ell)$, and a
-hypothesis that makes no claim about a cell simply has no score there. An out-of-scope cell is
-UNEVALUATED, not zero — the distinction TICK-080 item 5 asks GRADE for, arriving here on the
-demographic-significance side.
-
-*Not benign.* §7 also allows the **unit itself to vary by theory**: "individual countries available as
-a finer unit inside a region where a theory's treatment variable is measured at that level." If $D_1$
-is scored on a region cell and $D_2$ on country cells inside that region, their denominators differ,
-so $c$ depends on $D$ and **Axiom 1 fails by construction** — the same defect that disqualifies N2 and
-N4, arriving through the frame rather than through the statistic. Recommend closing this in favour of a
-cell fixed at region × state for every hypothesis, with country-level data used to *construct*
-$\Delta X$ inside the cell where it exists. Measurement quality may vary by hypothesis; the denominator
-may not.
-
-The consequence for PROTOCOL §4.3 is larger than "wider." The grid becomes **region × milestone state,
-and ragged** — filtered per hypothesis, with cells that are legitimately empty. It also bears on
-TICK-080 item 11: hypotheses scored on different cell sets cannot be ranked by a single number at all,
-so only within-cell comparisons survive, which is an independent argument for a tier list with the
-surviving pairwise comparisons rather than an ordered list.
-
-**4. $s_{p,\ell}$ replaces the three-route disjunction in PROTOCOL §4.2 entirely.** Not a fourth route.
-The disjunction, the 10% threshold and the 0.15 threshold all go; what replaces them is one score per
-cell, reported with its interval.
-
-A scope note, since these rulings touch a protocol section that does two jobs at once. **All four are
-economic-significance rulings only.** They change §4.2 and §4.2.1 and leave §4.1 untouched: GRADE rates
-the causal claim, and nothing here rates or re-rates it. The two columns of the §4.3 verdict grid stay
-separate, which is the point of §1 of the protocol.
-
-## 9. What these rulings settle in TICK-080
-
-Six of the ticket's twelve items are consequences of the three-route disjunction and its thresholds.
-Ruling 4 dissolves them rather than answering them:
-
-| Item | Status under these rulings |
-|---|---|
-| 1 — routes OR'd, contradict, mean vs variance | **Dissolved.** One score, and ruling 1 fixes the moment |
-| 2 — $R^2$ is sign-blind | **Dissolved.** $s_{p,\ell}$ is signed; C.6.a's six wrong-signed clearers show in the score |
-| 3 — "conditional $R^2$" names two statistics | **Dissolved.** No $R^2$ route survives |
-| 4 — 0.15 is below the spurious-regression floor | **Dissolved.** No threshold survives |
-| 10 — shares sum past 1 | **Becomes measurable.** Orthogonality gives $\sum_D s = 1$, so the excess measures overlap, inflation and non-comparability |
-| 12 — the comparison object does not exist | **Specified.** It is $s_{p,\ell}$ over the ragged grid |
-
-Three items survive unchanged and are unaffected by anything here: **5** and **6** (GRADE bands for the
-empty cell and the non-effect estimand) because those are §4.1, and **9** (pooling) because it governs
-which $\hat\beta_D$ enters the numerator.
-
-Two change character rather than resolving. **11** (winner's curse) is sharpened by ruling 3's ragged
-grid, as above. And **8** — endpoint tests on non-monotone exposures — is promoted from a reporting
-nicety to a first-order defect, because $\Delta X_{D,p,\ell}$ *is* an endpoint difference. C.6.a is the
-warning: its full-window sign test returned 0 of 18 countries consistent, and splitting the window gave
-14 of 18 early and 0 of 18 late. A hump inside a cell nets to a small $\Delta X$ and drives
-$s_{p,\ell}$ toward zero for an exposure that moved a great deal. Any cyclical exposure needs peak
-year, amplitude and net/amplitude reported beside $\Delta X$, with the split derived from outside the
-data.
-
-Item **7** (variance components, and what PM's range denominator admits) is reshaped twice over: ruling
-1 removes the variance reading it was built on, and v3 §8 filters PM out of the grid for decline
-theories. It needs rewriting rather than answering.
-
-## 10. Next step
+## 8. Next step
 
 Compute $s_{p,\ell}$ end-to-end on one drafted chapter and print it beside that chapter's existing
 $R^2$. C.6.a is the natural pilot: it already has 18 SDT countries, a computed $R^2$, and a slope test
