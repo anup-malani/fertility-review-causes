@@ -497,6 +497,51 @@ adding terms: the remaining six fail for reasons term choice cannot fix. A recal
 against a topical gold would have looked far better and meant nothing
 (`recall-against-an-estimand-filtered-gold`).
 
+## 15. Snowball round 1, and the bridge test **[409]**
+
+*Appended at stage 3. Bears directly on §12's prediction.*
+
+Phase 2 was run as the **primary** channel per §14. Round 1 from the 15 resolved anchors:
+**2,815** candidates — 558 distinct backward references plus object-filtered forward citations —
+of which **741** are linked by ≥2 seeds and **258** by ≥3. The object filter removed 77% of raw
+forward citations overall and 99% of Link and Phelan 2001's 8,624, which would otherwise have
+flooded the pool with the general stigma-theory literature `404` measured as 148 records of
+HIV-stigma contamination. Cleland and Wilson 1987 and Lesthaeghe 1983 have **no reference list in
+the index**, so the backward channel is empty for two of the three anchors the term channel also
+missed.
+
+**The bridge test.** §14's diagnosis was that A.6's construct spans two literatures sharing only 20
+records of vocabulary. A study actually estimating A.6's parameter would have to engage both halves
+and would plausibly *cite both canons* even if no query reaches it. Candidates linked by seeds from
+both `STIGMA_CANON` and `OPPOSITION` are therefore this chapter's highest-prior candidates for
+`PRIMARY_NORM_FERTILITY`. The flag orders screening; it admits nothing.
+
+**There are 8 bridges in 2,815 candidates, and not one is an identified study with a fertility
+outcome.** In full, because the list is short enough to state and decisive enough to matter:
+
+| bridge | what it is |
+|---|---|
+| DeLamater 2013, *Handbook of Social Psychology* | a textbook |
+| ICPD 1994, *Programme of Action* | a policy document |
+| Coast 2014, *Trajectories to abortion and abortion-related care* | a conceptual framework |
+| Jansen 2024, *Abortion Within Reason or Right* | qualitative |
+| Loi 2018, *Decision-making preceding induced abortion* | qualitative |
+| Ciren 2019, *Pragmatics of everyday life … Tibetan women* | qualitative |
+| Aladago 2016, *Factors influencing adolescents' access …* | service-utilisation, descriptive |
+| Makenzius 2019, *Stigma related to contraceptive use and abortion in Kenya* | **scale development and validation** |
+
+A textbook, a policy document, two conceptual frameworks, three qualitative studies and one
+measurement-instrument paper. Zero identified designs; zero fertility outcomes.
+
+**This confirms §12's pre-registered prediction rather than discovering it.** Four independent
+measurements now agree: 12 of 668 frame records carry an identified-design marker (§3); 58 carry
+realized-fertility vocabulary (§2); the frame reaches 0 of 15 canonical anchors (§14); and the
+citation structure yields 8 bridges, none of them an estimate (here). The honest verdict for
+`PRIMARY_NORM_FERTILITY` is **empty** — reported as UNEVALUATED with the failed route named, per
+§12 — and the remaining work is to establish that emptiness properly by screening, not to hunt for
+a result that four channels agree is absent (`empty-cell-is-the-result`,
+`empty-cell-needs-second-channel` — here it has four).
+
 ## Provenance
 
 | artifact | produced by |

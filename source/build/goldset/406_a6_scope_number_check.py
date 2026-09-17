@@ -200,6 +200,19 @@ if AN.exists() and RD.exists():
                    ("A.6 has no canonical literature of its own", "PI call 1's sharpened form")]:
         in_doc(s, why)
 
+# --- section 15, appended at stage 3 by 409 -----------------------------------------------------
+SB = pathlib.Path(f"literature/search-logs/a6-snowball-round1-{STAMP}.json")
+if SB.exists():
+    sb = json.loads(SB.read_text())["summary"]
+    for k, expected in [("pool", 2815), ("bridges", 8), ("degree_ge2", 741),
+                        ("degree_ge3", 258), ("backward_distinct", 558), ("seeds", 15)]:
+        if sb.get(k) != expected:
+            fails.append(f"\u00a715 snowball {k!r}: json={sb.get(k)} doc asserts {expected}")
+    for s, why in [("There are 8 bridges in 2,815 candidates, and not one is an identified study",
+                    "\u00a715's decisive sentence"),
+                   ("Zero identified designs; zero fertility outcomes", "\u00a715 bridge tally")]:
+        in_doc(s, why)
+
 if fails:
     print(f"{len(fails)} MISMATCH(ES) between the scope doc and the measurements:\n", file=sys.stderr)
     for f in fails:

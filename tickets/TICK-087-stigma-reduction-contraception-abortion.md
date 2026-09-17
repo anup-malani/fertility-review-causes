@@ -11,7 +11,7 @@
 
 ## Acceptance criteria
 - [x] 2. Search strategy and scope drafted — `literature/search-logs/stigma-reduction-contraception-abortion-search-scope.md`, frozen 2026-09-17, six PI calls open, numbers asserted by `406`
-- [~] 3. Literature search and AI screening, both phases (§5.1) — **retrieval design settled, no screening yet.** `407` resolved 15/20 anchors; `408` found the stage-2 frame reaches 0/15 and replaced it with a two-arm design reaching 9/15 (union 7,001 records). Phase 1 saturation screen and Phase 2 snowball still to run; per §14 the snowball must carry recall, not the term channel
+- [~] 3. Literature search and AI screening, both phases (§5.1) — **retrieval design settled, no screening yet.** `407` resolved 15/20 anchors; `408` found the stage-2 frame reaches 0/15 and replaced it with a two-arm design reaching 9/15 (union 7,001 records). Phase 2 snowball round 1 built by `409` — 2,815 candidates, 741 at degree >=2, and only **8 bridges**, none of them an identified study with a fertility outcome (§15). Phase 1 saturation screen over the two arms still to run, and nothing is screened yet
 - [ ] 4. RA title/abstract review
 - [ ] 5. Full-text retrieval
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
