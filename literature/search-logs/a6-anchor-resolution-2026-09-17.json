@@ -1,0 +1,259 @@
+{
+ "generated": "2026-09-17",
+ "script": "source/build/goldset/407_a6_anchor_resolution.py",
+ "frame_probed": "(\"abortion stigma\" OR \"contraceptive stigma\" OR \"contraception stigma\" OR \"family planning stigma\" OR \"stigma\" OR \"taboo\" OR \"social disapproval\" OR \"moral opposition\") AND (\"contraception\" OR \"contraceptive\" OR \"abortion\" OR \"family planning\" OR \"birth control\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+ "frame_corrected": "(\"abortion stigma\" OR \"contraceptive stigma\" OR \"contraception stigma\" OR \"family planning stigma\" OR \"stigma\" OR \"taboo\" OR \"social disapproval\" OR \"moral opposition\" OR \"legitimation\" OR \"normalization\" OR \"normalisation\" OR \"social acceptability\" OR \"moral acceptability\" OR \"disapproval\") AND (\"contraception\" OR \"contraceptive\" OR \"abortion\" OR \"family planning\" OR \"birth control\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+ "summary": {
+  "anchors": 20,
+  "resolved": 15,
+  "unresolved": 5,
+  "refused": 0,
+  "reachable_probed": 0,
+  "reachable_corrected": 1
+ },
+ "by_stratum": {
+  "REGISTERED": {
+   "resolved": 3,
+   "reachable_probed": 0,
+   "reachable_corrected": 0
+  },
+  "STIGMA_CANON": {
+   "resolved": 6,
+   "reachable_probed": 0,
+   "reachable_corrected": 0
+  },
+  "OPPOSITION": {
+   "resolved": 6,
+   "reachable_probed": 0,
+   "reachable_corrected": 1
+  }
+ },
+ "anchors": [
+  {
+   "stratum": "REGISTERED",
+   "asked": "Cleland 1987",
+   "title_asked": "Demand theories of the fertility transition an iconoclastic view",
+   "status": "resolved",
+   "id": "W1966843838",
+   "title": "Demand Theories of the Fertility Transition: An Iconoclastic View",
+   "year": 1987,
+   "cited_by": 903,
+   "first_author": "John G.F. Cleland",
+   "in_probed": false,
+   "in_corrected": false
+  },
+  {
+   "stratum": "REGISTERED",
+   "asked": "Bongaarts 1996",
+   "title_asked": "Social interactions and contemporary fertility transitions",
+   "status": "resolved",
+   "id": "W1965972316",
+   "title": "Social Interactions and Contemporary Fertility Transitions",
+   "year": 1996,
+   "cited_by": 1048,
+   "first_author": "John Bongaarts",
+   "in_probed": false,
+   "in_corrected": false
+  },
+  {
+   "stratum": "REGISTERED",
+   "asked": "Goldin 2002",
+   "title_asked": "The power of the pill oral contraceptives and women's career and marriage decisions",
+   "status": "UNRESOLVED"
+  },
+  {
+   "stratum": "REGISTERED",
+   "asked": "Lesthaeghe 1983",
+   "title_asked": "A century of demographic and cultural change in Western Europe",
+   "status": "resolved",
+   "id": "W2316299365",
+   "title": "A Century of Demographic and Cultural Change in Western Europe: An Exploration of Underlying Dimensions",
+   "year": 1983,
+   "cited_by": 622,
+   "first_author": "Ronny Lesthaeghe",
+   "in_probed": false,
+   "in_corrected": false
+  },
+  {
+   "stratum": "STIGMA_CANON",
+   "asked": "Kumar 2009",
+   "title_asked": "Conceptualising abortion stigma",
+   "status": "resolved",
+   "id": "W2155252130",
+   "title": "Conceptualising abortion stigma",
+   "year": 2009,
+   "cited_by": 756,
+   "first_author": "Anuradha Kumar",
+   "in_probed": false,
+   "in_corrected": false
+  },
+  {
+   "stratum": "STIGMA_CANON",
+   "asked": "Norris 2011",
+   "title_asked": "Abortion stigma a reconceptualization of constituents causes and consequences",
+   "status": "resolved",
+   "id": "W2161992970",
+   "title": "Abortion Stigma: A Reconceptualization of Constituents, Causes, and Consequences",
+   "year": 2011,
+   "cited_by": 399,
+   "first_author": "Alison Norris",
+   "in_probed": false,
+   "in_corrected": false
+  },
+  {
+   "stratum": "STIGMA_CANON",
+   "asked": "Cockrill 2013",
+   "title_asked": "The stigma of having an abortion development of a scale and characteristics of women experiencing abortion stigma",
+   "status": "resolved",
+   "id": "W2102341859",
+   "title": "The Stigma of Having an Abortion: Development of a Scale and Characteristics of Women Experiencing Abortion Stigma",
+   "year": 2013,
+   "cited_by": 205,
+   "first_author": "Kate Cockrill",
+   "in_probed": false,
+   "in_corrected": false
+  },
+  {
+   "stratum": "STIGMA_CANON",
+   "asked": "Cockrill 2013",
+   "title_asked": "I'm not that type of person managing the stigma of having an abortion",
+   "status": "resolved",
+   "id": "W2162298751",
+   "title": "\u201cI'm Not That Type of Person\u201d: Managing the Stigma of Having an Abortion",
+   "year": 2013,
+   "cited_by": 244,
+   "first_author": "Kate Cockrill",
+   "in_probed": false,
+   "in_corrected": false
+  },
+  {
+   "stratum": "STIGMA_CANON",
+   "asked": "Shellenberg 2011",
+   "title_asked": "Social stigma and disclosure about induced abortion understanding stigma and disclosure",
+   "status": "UNRESOLVED"
+  },
+  {
+   "stratum": "STIGMA_CANON",
+   "asked": "Coast 2016",
+   "title_asked": "Trajectories of women's abortion-related care a conceptual framework",
+   "status": "UNRESOLVED"
+  },
+  {
+   "stratum": "STIGMA_CANON",
+   "asked": "Link 2001",
+   "title_asked": "Conceptualizing stigma",
+   "status": "resolved",
+   "id": "W4213367093",
+   "title": "Conceptualizing Stigma",
+   "year": 2001,
+   "cited_by": 8716,
+   "first_author": "Bruce G. Link",
+   "in_probed": false,
+   "in_corrected": false
+  },
+  {
+   "stratum": "STIGMA_CANON",
+   "asked": "Hessini 2005",
+   "title_asked": "Global progress in abortion advocacy and policy an assessment of the decade since ICPD",
+   "status": "resolved",
+   "id": "W2096458789",
+   "title": "Global Progress in Abortion Advocacy and Policy: An Assessment of the Decade since ICPD",
+   "year": 2005,
+   "cited_by": 61,
+   "first_author": "Leila Hessini",
+   "in_probed": false,
+   "in_corrected": false
+  },
+  {
+   "stratum": "STIGMA_CANON",
+   "asked": "Rossier 2007",
+   "title_asked": "Abortion an open secret rumor and social networks in Burkina Faso",
+   "status": "UNRESOLVED"
+  },
+  {
+   "stratum": "OPPOSITION",
+   "asked": "Bongaarts 1995",
+   "title_asked": "The causes of unmet need for contraception and the social content of services",
+   "status": "resolved",
+   "id": "W2056921527",
+   "title": "The Causes of Unmet Need for Contraception and the Social Content of Services",
+   "year": 1995,
+   "cited_by": 388,
+   "first_author": "John Bongaarts",
+   "in_probed": false,
+   "in_corrected": true
+  },
+  {
+   "stratum": "OPPOSITION",
+   "asked": "Casterline 2000",
+   "title_asked": "Unmet need for family planning in developing countries and implications for population policy",
+   "status": "resolved",
+   "id": "W2137877360",
+   "title": "Unmet Need for Family Planning in Developing Countries and Implications for Population Policy",
+   "year": 2000,
+   "cited_by": 371,
+   "first_author": "John B. Casterline",
+   "in_probed": false,
+   "in_corrected": false
+  },
+  {
+   "stratum": "OPPOSITION",
+   "asked": "Casterline 2001",
+   "title_asked": "Obstacles to contraceptive use in Pakistan a study in Punjab",
+   "status": "resolved",
+   "id": "W2144097362",
+   "title": "Obstacles to Contraceptive Use in Pakistan: A Study in Punjab",
+   "year": 2001,
+   "cited_by": 241,
+   "first_author": "John B. Casterline",
+   "in_probed": false,
+   "in_corrected": false
+  },
+  {
+   "stratum": "OPPOSITION",
+   "asked": "Casterline 1997",
+   "title_asked": "Factors underlying unmet need for family planning in the Philippines",
+   "status": "resolved",
+   "id": "W2064454615",
+   "title": "Factors Underlying Unmet Need for Family Planning in the Philippines",
+   "year": 1997,
+   "cited_by": 176,
+   "first_author": "John B. Casterline",
+   "in_probed": false,
+   "in_corrected": false
+  },
+  {
+   "stratum": "OPPOSITION",
+   "asked": "Sedgh 2014",
+   "title_asked": "Reasons for contraceptive nonuse among women having unmet need for contraception in developing countries",
+   "status": "resolved",
+   "id": "W2057749648",
+   "title": "Reasons for Contraceptive Nonuse among Women Having Unmet Need for Contraception in Developing Countries",
+   "year": 2014,
+   "cited_by": 431,
+   "first_author": "Gilda Sedgh",
+   "in_probed": false,
+   "in_corrected": false
+  },
+  {
+   "stratum": "OPPOSITION",
+   "asked": "Bongaarts 1991",
+   "title_asked": "The KAP-gap and the unmet need for contraception",
+   "status": "resolved",
+   "id": "W2066062954",
+   "title": "The KAP-Gap and the Unmet Need for Contraception",
+   "year": 1991,
+   "cited_by": 126,
+   "first_author": "John Bongaarts",
+   "in_probed": false,
+   "in_corrected": false
+  },
+  {
+   "stratum": "OPPOSITION",
+   "asked": "Sedgh 2016",
+   "title_asked": "Insights from demographic and health surveys on reasons for nonuse of contraception",
+   "status": "UNRESOLVED"
+  }
+ ],
+ "refusals": []
+}

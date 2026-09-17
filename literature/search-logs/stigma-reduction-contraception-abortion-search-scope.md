@@ -2,10 +2,18 @@
 
 **Hypothesis:** A.6, slug `stigma-reduction-contraception-abortion`, HYPOTHESES-v5.md §A.6
 **Ticket:** TICK-087 · branch `087-stigma-reduction-contraception-abortion`
-**Status:** stage 2, drafted 2026-09-17 (Shravan). The outcome ruling, the frame correction, the six
-walls, the estimand cells, the required tags, the pooling rule and the demographic-significance
-route are frozen below. Six PI calls open (§13). This ticket was parked and resumed on the same day;
-the resumption note in the ticket Log is load-bearing for §3.
+**Status:** stage 2, drafted 2026-09-17 (Shravan). The outcome ruling, the six walls, the estimand
+cells, the required tags, the pooling rule and the demographic-significance route are frozen below.
+Six PI calls open (§13). This ticket was parked and resumed on the same day; the resumption note in
+the ticket Log is load-bearing for §3.
+
+> **Amended 2026-09-17 at stage 3 (`407`, `408`). The frame frozen in §3 is WITHDRAWN as the
+> primary retrieval channel.** It reaches 0 of 15 resolved canonical anchors on the probed spelling
+> and 1 of 15 on the corrected one. §14 records the diagnosis — A.6's construct spans two
+> literatures with disjoint vocabularies — and the two-arm design that replaces it, which reaches 9
+> of 15. §3 is retained unaltered because its term-pricing is still the correct account of *why* the
+> single-frame approach failed, and because the withdrawal is only legible against it. Amendments
+> are marked **[408]**.
 
 **What is measured here and what is not.** Every count comes from
 `source/build/goldset/404_a6_term_diagnostics.py` (this branch, commit `9857481`), from
@@ -364,12 +372,22 @@ for stratum 3 only under a heading that says it is the link and not the claim.
 
 ## 13. Open PI calls
 
-1. **Is A.6 separable from A.2, given that the registry assigns Goldin and Katz 2002 to both?**
-   Wall 1 overlap is 60 records, 9.0% of our frame, with 1 identified. §4 records that A.6's
+1. **Is A.6 separable at all, given that none of its four registered seminal works is a stigma
+   paper?** This call was sharpened by `408` and is now the most consequential of the six. Wall 1
+   overlap with A.2 is 60 records, 9.0% of our frame, with 1 identified, and §4 records that A.6's
    best-identified corner — the US pill-access and Comstock literature — is A.2's under ruling 1.
-   *Recommendation: keep the wall as ruled and accept that A.6's primary cell may be empty as a
-   result. The alternative — letting A.6 claim legal-access designs as legitimation signals —
-   makes A.6 unfalsifiable and duplicates A.4.*
+   `408` adds the stronger form: Cleland and Wilson 1987, Bongaarts and Watkins 1996 and
+   Lesthaeghe 1983 are the **ideational-change** canon, not a stigma canon, and are unreachable by
+   A.6's vocabulary *and* by A.3's own pass-4 block; Goldin and Katz 2002 is A.2's technology canon
+   and did not resolve in `407`. On the registry's own citation list **A.6 has no canonical
+   literature of its own**: its canon belongs to A.2, A.3 and D.1.a, and the literature that is
+   genuinely about its construct (Kumar 2009, Norris 2011, Cockrill 2013) carries no fertility
+   outcome. *Recommendation: keep ruling 1 and proceed, but put this to Anup as a live question
+   about whether A.6 should be **redefined** rather than searched — specifically as "normative and
+   opposition-based barriers to contraceptive use", whose literature is reachable (ARM B, §14),
+   whose dose unit already exists (§5), and whose seminal list would then be Bongaarts and Bruce
+   1995 / Casterline 2000 / Sedgh 2014 rather than three papers belonging to neighbours. As
+   registered, the most likely honest outcome of this chapter is a documented empty cell.*
 
 2. **Does A.6 own the contraceptive-use link, or only the fertility effect?** 479 records take use
    as the outcome against 58 carrying realized fertility. Ruling 2 says fertility; that ruling is
@@ -405,11 +423,88 @@ for stratum 3 only under a heading that says it is the link and not the claim.
    because a subset of it — HIV-status stigma suppressing contraceptive use — may be admissible
    link evidence on inspection.*
 
+## 14. Reachability ceiling and the production design **[408]**
+
+*Appended at stage 3. Supersedes §3's single frame as the retrieval instrument.*
+
+`407` built a 20-work cold-start anchor set in three strata — the four registered seminals, the
+abortion-stigma measurement canon, and the unmet-need / reason-for-non-use literature where §5's
+dose unit lives — and resolved 15 of 20 with first-author and year verification. Then it asked of
+each: would our frame have retrieved it?
+
+| frame | records | anchors reached (of 15) |
+|---|---|---|
+| frozen 3-block, as probed (§3) | 668 | **0** |
+| frozen 3-block, corrected (§3) | 1,225 | **1** |
+| ARM A — compound-stigma × object, no outcome block | 472 | 4 |
+| ARM B — opposition / unmet-need × object, no outcome block | 6,549 | 5 |
+| ARM B *with* the outcome block — rejected | 1,866 | (3) |
+| **union of the two arms** | **7,001** | **9** |
+
+The reachability test is positive-controlled: records drawn from inside the frozen frame read as
+reachable, so 0 of 15 is a property of the frame and not of the test
+(`validate-a-null-detector-on-positives`).
+
+**The diagnosis is not a missing-abstract artefact** — 14 of 15 anchors have abstracts in the index.
+Testing each block of the conjunction separately against each anchor shows two literatures with
+disjoint vocabularies:
+
+- the **demographic** canon (Cleland and Wilson 1987, Bongaarts and Watkins 1996, Bongaarts and
+  Bruce 1995, Casterline 2000 and 1997, Sedgh 2014, Bongaarts 1991, Lesthaeghe 1983) satisfies the
+  object block, often the outcome block, and **fails the stigma block**. This literature does not
+  use the word *stigma*. It says unmet need, reasons for non-use, opposition, disapproval.
+- the **stigma** canon (Kumar 2009, Norris 2011, Cockrill 2013 ×2, Link and Phelan 2001) satisfies
+  the stigma block and **fails the outcome block**. It does not mention fertility.
+
+A.6's registered exposure is the intersection of the two, and that intersection is nearly empty of
+canonical work: ARM A ∩ ARM B is **20 records**. The 668 the probe measured were therefore not this
+literature's core but a thin and partly accidental slice — a hand sample of three drawn from it
+included a paper on rheumatic heart disease in Uganda.
+
+**Two design consequences, both forced by measurement rather than chosen.**
+
+1. **Two arms, pulled separately and deduplicated by id**, because an AND-containing arm cannot be
+   OR'd into a union. The union is computed exactly by inclusion–exclusion (472 + 6,549 − 20).
+2. **The fertility-outcome restriction moves from retrieval to screening.** Requiring a fertility
+   word at retrieval costs ARM B two of its nine reachable demographic anchors (3/9 with it, 5/9
+   without) and costs ARM A four of six. This is ruling 2's price made concrete: almost nothing in
+   either literature states a fertility outcome in title or abstract. Keeping the restriction at
+   retrieval would delete the literature before a human saw it; moving it to the screen makes the
+   `outcome_level` tag of §10 the instrument that enforces ruling 2, which is where it belongs.
+
+**`unmet need` is load-bearing and expensive.** It is what takes ARM B from a small frame to 6,549
+records, and it is also the only term that reaches Bongaarts and Bruce 1995, Casterline 2000,
+Sedgh 2014 and Bongaarts 1991 — the entire dose-unit literature. It cannot be dropped. The cost is
+that much of ARM B is a *supply*-side literature, which is A.5's territory, so ARM B will pull
+`MIXED_NORM_SUPPLY` in volume. This raises the stakes on PI call 4 and is an argument for treating
+A.5 as a bundle rather than a wall.
+
+**Six anchors remain unreachable by either arm, and they divide into three kinds.** Link and Phelan
+2001 (general stigma theory, no contraceptive object) and Hessini 2005 (advocacy and policy) are
+arguably outside the claim and their absence is correct. Casterline 2001 is a genuine miss.
+Cleland and Wilson 1987, Bongaarts and Watkins 1996 and Lesthaeghe 1983 are unreachable by **any**
+operational vocabulary — including A.3's own pass-4 block, tested directly — because they are broad
+theoretical papers whose abstracts carry no operational terms at all.
+
+**Therefore the term channel cannot be primary for A.6.** Phase 2 citation snowball (PROTOCOL §5.1)
+from the 15 resolved anchors has to carry recall, and the two arms are a supplement to it rather
+than the other way round. The three unreachable ideational seminals enter only as snowball seeds.
+This is the same conclusion C.3.f reached by a different route, and it should be expected rather
+than rediscovered for any hypothesis whose exposure is a norm.
+
+**Recall is 9 of 15 and that is the ceiling this chapter reports**, not a number to be improved by
+adding terms: the remaining six fail for reasons term choice cannot fix. A recall estimate computed
+against a topical gold would have looked far better and meant nothing
+(`recall-against-an-estimand-filtered-gold`).
+
 ## Provenance
 
 | artifact | produced by |
 |---|---|
 | `literature/search-logs/a6-term-diagnostics-2026-09-17.{json,md}` | `source/build/goldset/404_a6_term_diagnostics.py`, this branch, commit `9857481` |
+| `literature/search-logs/a6-anchor-resolution-2026-09-17.{json,md}` | `source/build/goldset/407_a6_anchor_resolution.py`, this branch |
+| `literature/search-logs/a6-retrieval-design-2026-09-17.{json,md}` | `source/build/goldset/408_a6_retrieval_design.py`, this branch |
+| assertion that §§3, 8, 13 and 14 agree with the above | `source/build/goldset/406_a6_scope_number_check.py`, this branch |
 | `literature/search-logs/candidate-frame-probe-2026-09-13.{json,md}` | `source/build/goldset/304_candidate_frame_probe.py`, branch `080-cross-chapter-statistics-comparability`, commit `31836fb` |
 | `literature/search-logs/a3-term-diagnostics-2026-09-17.{json,md}` | `source/build/goldset/405_a3_term_diagnostics.py`, branch `088-diffusion-of-fertility-control`, commit `23388fd` |
 | the registry claim, phenomena, seminal list and note | `HYPOTHESES-v5.md` §A.6 |

@@ -19,7 +19,7 @@ DOC = pathlib.Path("literature/search-logs/stigma-reduction-contraception-aborti
 c = json.loads(A6.read_text())["counts"]
 # Whitespace-folded, because the required phrasings are prose and markdown wraps them across lines;
 # a line break inside a required sentence is not a missing sentence.
-doc = re.sub(r"\s+", " ", DOC.read_text())
+doc = re.sub(r"\s+", " ", re.sub(r"(?m)^>\s?", "", DOC.read_text()))
 fails = []
 
 
@@ -144,10 +144,71 @@ for s, why in [("**No production query has been run, no anchor resolved, and no 
                ("The small numbers are not reassurance", "section 8 inherited C.3.d finding")]:
     in_doc(s, why)
 
+# --- section 14, appended at stage 3 by 407 and 408 ---------------------------------------------
+AN = pathlib.Path(f"literature/search-logs/a6-anchor-resolution-{STAMP}.json")
+RD = pathlib.Path(f"literature/search-logs/a6-retrieval-design-{STAMP}.json")
+if AN.exists() and RD.exists():
+    an = json.loads(AN.read_text())
+    rd = json.loads(RD.read_text())
+    r = rd["counts"]
+
+    if an["summary"]["resolved"] != 15 or an["summary"]["anchors"] != 20:
+        fails.append(f"anchor set: json resolved {an['summary']['resolved']}/"
+                     f"{an['summary']['anchors']}, doc asserts 15/20")
+    if r.get("positive control passed") is not True:
+        fails.append("the reachability positive control did not pass; §14's 0-of-15 is unusable")
+
+    S14 = {"size: frozen 3-block (probed)": 668,
+           "size: frozen 3-block (corrected)": 1225,
+           "size: ARM A compound-stigma x object": 472,
+           "size: ARM B opposition x object": 6549,
+           "size: ARM B with outcome block (rejected)": 1866,
+           "size: ARM A intersect ARM B": 20,
+           "size: union of arms (inclusion-exclusion)": 7001,
+           "reachable: frozen 3-block (probed)": 0,
+           "reachable: frozen 3-block (corrected)": 1,
+           "reachable: ARM A compound-stigma x object": 4,
+           "reachable: ARM B opposition x object": 5,
+           "reachable: ARM B with outcome block (rejected)": 3,
+           "reachable: either arm": 9}
+    for label, expected in S14.items():
+        if r.get(label) != expected:
+            fails.append(f"§14 {label!r}: json={r.get(label)} doc asserts {expected}")
+
+    # the union must actually be inclusion-exclusion, not a typo
+    ie = (r["size: ARM A compound-stigma x object"] + r["size: ARM B opposition x object"]
+          - r["size: ARM A intersect ARM B"])
+    if ie != r["size: union of arms (inclusion-exclusion)"]:
+        fails.append(f"§14 union is not inclusion-exclusion: {ie} vs "
+                     f"{r['size: union of arms (inclusion-exclusion)']}")
+
+    # the abstract claim: 14 of 15 anchors have abstracts, so this is not a missing-abstract artefact
+    with_abs = sum(1 for a in rd["anchors"] if a.get("has_abstract") is True)
+    if with_abs != 14:
+        fails.append(f"§14 asserts 14 of 15 anchors have abstracts; json says {with_abs}")
+
+    # none of the three ideational seminals may be reachable by A.3's block
+    for k in ("Cleland 1987", "Bongaarts 1996", "Lesthaeghe 1983"):
+        if r.get(f"A.3 block reaches {k}") is not False:
+            fails.append(f"§14/PI-1 asserts A.3's block does not reach {k}; "
+                         f"json says {r.get(f'A.3 block reaches {k}')}")
+
+    for s, why in [("The frame frozen in §3 is WITHDRAWN as the primary retrieval channel",
+                    "the §14 withdrawal, stated in the status block"),
+                   ("Therefore the term channel cannot be primary for A.6",
+                    "§14's conclusion"),
+                   ("A.6 has no canonical literature of its own", "PI call 1's sharpened form")]:
+        in_doc(s, why)
+
 if fails:
     print(f"{len(fails)} MISMATCH(ES) between the scope doc and the measurements:\n", file=sys.stderr)
     for f in fails:
         print(f"  - {f}", file=sys.stderr)
     sys.exit(1)
+checked_s14 = AN.exists() and RD.exists()
 print(f"scope doc agrees with {A6.name}: {len(GAINS)} gains, {len(WALLS)} walls (both sides), "
-      f"frame {frame}, all required phrasings present")
+      f"frame {frame}, all required phrasings present"
+      + (f"; §14 also checked against {AN.name} and {RD.name} "
+         f"({len(S14)} sizes and reachability counts, the inclusion-exclusion union, "
+         f"the abstract tally and the three A.3 negatives)" if checked_s14
+         else "; §14 NOT checked — stage-3 artifacts absent"))
