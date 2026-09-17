@@ -356,3 +356,74 @@ So stigma attached to *premarital sex* raises contraceptive use while stigma att
 recover either sign. A.6's registered claim assumes only the second. This belongs in the
 chapter's identification-threats section and would not have been found from an abstract.
 
+## PI call 4 — the A.5 bundle inspection (`421`, `422`)
+
+Call 4 ruled A.5 a **bundle, not a wall**, so the 25 `MIXED_NORM_SUPPLY` records are
+admissible pending a full-text pass asking whether the norm component was separately
+dosed. This is that pass — one of the two live routes to a non-empty primary cell,
+because 3 of the 5 identified records across the substantive walls sit in A.5.
+
+`421` retrieved **12 of 25**. Of those, **0** pair a
+separately dosed norm with a fertility outcome — the conjunction the primary cell
+requires.
+
+**Triage note, recorded before reading:** against `410`'s flags none of the 25 carried
+both a fertility-outcome marker and an identified-design marker (22 had the fertility
+marker alone, 3 neither), so the prior was low and this was a confirmation exercise.
+It was still done record by record, because a design an abstract does not name is how a
+primary-cell study hides.
+
+### The decisive record
+
+`W3153104329` — Kramer, Hackman, Schacht and Davis, *Scientific Reports* 2021,
+"Effects of family planning on fertility behaviour across the demographic
+transition". The one A.5 record whose outcome is unambiguously **realized fertility**:
+Maya women tracked across 90 years, natural to contracepting, 32 fertility-outcome
+terms. Its exposure is **family-planning adoption, not a norm**. All 10 occurrences of
+"norms" are in the discussion, as something that *emerges* from changing fertility
+variance — never a dosed variable. It fails the exposure gate, which is the mirror of
+how `W1986910339` failed at stage 6b: right outcome, absent exposure.
+
+### All records
+
+| id | read | words | norm terms | norm near a model | fertility terms | dosed norm + fertility outcome |
+|---|---|---|---|---|---|---|
+| `W1567212772` | yes | 8,114 | 6 | 0 | 2 | **no** |
+| `W2109708169` | yes | 8,932 | 14 | 0 | 8 | **no** |
+| `W2121978793` | yes | 5,146 | 5 | 0 | 1 | **no** |
+| `W2805409943` | yes | 5,637 | 7 | 0 | 4 | **no** |
+| `W2885614896` | yes | 19,613 | 140 | 10 | 6 | **no** |
+| `W2907821531` | yes | 6,847 | 8 | 0 | 3 | **no** |
+| `W3153104329` | yes | 9,632 | 10 | 0 | 32 | **no** |
+| `W3167364314` | yes | 15,790 | 12 | 0 | 10 | **no** |
+| `W4283386002` | yes | 6,632 | 40 | 3 | 2 | **no** |
+| `W4387670899` | yes | 6,375 | 23 | 1 | 7 | **no** |
+| `W4417191722` | yes | 10,947 | 6 | 1 | 1 | **no** |
+| `W7168518835` | yes | 7,738 | 9 | 0 | 0 | **no** |
+| `W171539392` | **not retrieved** (closed) | — | — | — | — | unknown |
+| `W2086018683` | **not retrieved** (closed) | — | — | — | — | unknown |
+| `W2124099101` | **not retrieved** (closed) | — | — | — | — | unknown |
+| `W2284204841` | **not retrieved** (green) | — | — | — | — | unknown |
+| `W2571358951` | **not retrieved** (green) | — | — | — | — | unknown |
+| `W2791325438` | **not retrieved** (closed) | — | — | — | — | unknown |
+| `W2873531723` | **not retrieved** (gold) | — | — | — | — | unknown |
+| `W2908089093` | **not retrieved** (diamond) | — | — | — | — | unknown |
+| `W4213049136` | **not retrieved** (closed) | — | — | — | — | unknown |
+| `W4220840589` | **not retrieved** (gold) | — | — | — | — | unknown |
+| `W4231166027` | **not retrieved** (gold) | — | — | — | — | unknown |
+| `W4416785715` | **not retrieved** (gold) | — | — | — | — | unknown |
+| `W7165854256` | **not retrieved** (gold) | — | — | — | — | unknown |
+
+### What this does and does not settle
+
+The A.5 route is **closed for the 12 records read** and **conditional on the
+13 that could not be retrieved** — six `oa_status: closed`, seven
+advertising an OA copy whose URL failed. Two of the unread are substantively the most
+interesting in the set and are now top of the wantlist:
+
+- `W2086018683` — *The Long-term Demographic Role of Community-based Family Planning in Rural Bangladesh* (1996) — the Matlab programme, the canonical A.5 quasi-experiment, with a demographic outcome. If any A.5 record separately doses a norm, this design is the one that could.
+- `W2124099101` — *Barriers to family planning service use among the urban poor in Pakistan* (2005), 125 citations — barriers work in the Casterline tradition, where opposition is routinely dosed as a reason for non-use.
+
+Until those are read, `PRIMARY_NORM_FERTILITY = 0` remains conditional on this route
+as well as on ARM C.
+

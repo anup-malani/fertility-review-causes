@@ -33,3 +33,26 @@ Titles, for searching a catalogue by hand:
 ## Added by the second read (`418`)
 
 - `W4403613268` — *Abortion Within Reason or Right: Navigating Reproductive Governance and Abortion Stigma in Madagascar's Urban …* (2024), `10.1007/s12116-024-09444-0`, Studies in Comparative International Development. Closed at Springer, no OA copy. Screened on title only; the cell cannot be confirmed without full text.
+
+## Added by the PI call 4 inspection (`421`, `422`) — A.5 bundle
+
+13 of the 25 `MIXED_NORM_SUPPLY` records could not be retrieved by open
+access. The two starred records are the highest-value outstanding items in the
+chapter: if any A.5 study separately doses a norm component alongside a demographic
+outcome, they are where it would be.
+
+| id | OA status | DOI | priority |
+|---|---|---|---|
+| `W7165854256` | gold | `10.2196/preprints.88887` | standard |
+| `W4231166027` | gold | `10.31899/rh11.1016` | standard |
+| `W2571358951` | green | `10.1177/0002716216678591` | standard |
+| `W171539392` | closed | — none — | standard |
+| `W2284204841` | green | `10.17615/0fk7-fr51` | standard |
+| `W2124099101` | closed | `10.18356/e54a6ab6-en` | **HIGH — see screen log** |
+| `W2086018683` | closed | `10.2307/2137954` | **HIGH — see screen log** |
+| `W4220840589` | gold | `10.1136/bmjopen-2021-054188` | standard |
+| `W2873531723` | gold | `10.1186/s12889-018-5799-5` | standard |
+| `W2791325438` | closed | `10.1002/ijgo.12488` | standard |
+| `W4416785715` | gold | `10.1186/s40834-025-00404-0` | standard |
+| `W4213049136` | closed | `10.1002/9781405186407.wbiecp078` | standard |
+| `W2908089093` | diamond | `10.15296/ijwhr.2018.69` | standard |
