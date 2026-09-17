@@ -10,7 +10,7 @@
 **Scope hazard:** three of A.6's boundaries are with *unstarted* candidates — A.4 (29 shared records), A.5 (81), A.2 (59). The usual move of citing the neighbouring chapter's scope doc is unavailable, so stage 2 has to define those three walls from scratch. `stigma` unrestricted is 202,130 records, so the 680 holds only as long as the bracketing does.
 
 ## Acceptance criteria
-- [ ] 2. Search strategy and scope drafted
+- [x] 2. Search strategy and scope drafted — `literature/search-logs/stigma-reduction-contraception-abortion-search-scope.md`, frozen 2026-09-17, six PI calls open, numbers asserted by `406`
 - [ ] 3. Literature search and AI screening, both phases (§5.1)
 - [ ] 4. RA title/abstract review
 - [ ] 5. Full-text retrieval
