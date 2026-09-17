@@ -1,5 +1,5 @@
 # TICK-088: A.3 Diffusion and Social-Learning of Fertility Control
-**Status:** open
+**Status:** in-progress
 **Assigned:** Shravan
 **Hypothesis:** `diffusion-of-fertility-control` — HYPOTHESES-v5.md §A.3
 **Parallel-safe:** yes
