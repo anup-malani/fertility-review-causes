@@ -70,3 +70,70 @@ sampled) — the sampled tail, plus both term arms from scope §14. The absence 
 rests on the exhaustive strata; the sample exists to bound the chance that the
 flagger misrouted a primary-cell study out of them, and it has not yet been read.
 
+## Full-text stage (`412`, `413`)
+
+`412` retrieved **2 of 8** of the unresolved records. Six remain `oa_status: closed` with no PDF in
+OpenAlex or Unpaywall; they are on the library wantlist, not resolved.
+
+### The decider, read
+
+`W108787496` — *Essays on Fertility and Fertility Preferences in India* (Rajan, Duke,
+2014), 40,538 words, retrieved through the DSpace REST API after the plain bitstream
+URL returned HTML.
+
+| chapter | exposure | dependent variable | verdict |
+|---|---|---|---|
+| ch2 | accounting decomposition of the preference-behaviour gap | realized fertility | a framework, not a norm effect |
+| ch3 | education, two-way fixed effects | **Desired Family Size** | `outcome_level: DESIRED`; exposure not normative |
+| ch4 | **community norms**, multilevel logit with community-level predictors | **Contraceptive Use** — odds of spacing, odds of stopping | A.6's exposure, but a use outcome |
+
+Chapter 4 is A.6's exposure almost exactly, and its outcome is use. Under ruling 2 the
+decider is **`LINK_NORM_USE`** — the best-designed record this chapter has found, and
+not an estimate of its parameter. The record with the strongest prior in the whole
+2,815-record pool fails the same way every other near-miss failed: on the outcome, not
+on the exposure.
+
+### `PRIMARY_NORM_FERTILITY`: **0**
+
+Empty, and now closed as far as retrievable evidence allows. Every stratum that
+could contain a primary-cell study has been read exhaustively (164 records), and
+the single highest-prior record has been read at full text rather than inferred
+from an abstract. Six channels agree: the identified-design share (12/668), the
+realized-fertility share (58/668), anchor reachability (0/15 on the stage-2
+frame), the citation bridge test (8, none an estimate), the exhaustive screen (0
+of 164) and now the full text of the decider.
+
+Per scope §12 the verdict is **UNEVALUATED with the failed route named** — R1 for
+want of an identified fertility outcome, R3 for want of a pre-1985 dose series —
+and explicitly not 'weak evidence'.
+
+`LINK_NORM_USE` stands at **25** records and is poolable under scope
+§12 stratum 3. It must be reported under a heading that disclaims it as the
+chapter's parameter.
+
+### Still blocked: **6**
+
+| id | why it is blocked |
+|---|---|
+| `W2112312272` | Fertility outcome across countries; exposure may be normative. FULL TEXT. |
+| `W1986910339` | Persistent high fertility in the southeast; exposure may be normative. FULL TEXT. |
+| `W3121483375` | Religious beliefs, contraceptive use and long-run development - the closest thing in S4 to an identified economic estima |
+| `W4403200839` | Title alone cannot separate desire from norm, and the outcome may be realized. FULL TEXT. |
+| `W1976018943` | Partner opposition as exposure AND the decision to STOP CHILDBEARING as an outcome - the one S4 record whose outcome may |
+| `W2187750596` | Cultural persistence and the pill; an economics paper that may identify a norm effect separately from the technology. Si |
+
+### Tally across 164 screened records
+
+| cell | n |
+|---|---|
+| `CONTEXT_STIGMA_MEASURE` | 63 |
+| `OFF_OTHER` | 27 |
+| `LINK_NORM_USE` | 25 |
+| `MIXED_NORM_SUPPLY` | 25 |
+| `MIXED_NORM_DIFFUSION` | 10 |
+| `INSUFFICIENT_INFO` | 6 |
+| `OFF_HIV_STIGMA` | 3 |
+| `MIXED_NORM_SECULAR` | 2 |
+| `MIXED_NORM_TECH` | 1 |
+| `OFF_OTHER_STIGMA` | 1 |
+| `MIXED_NORM_LAW` | 1 |

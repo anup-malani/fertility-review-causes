@@ -13,8 +13,8 @@
 - [x] 2. Search strategy and scope drafted — `literature/search-logs/stigma-reduction-contraception-abortion-search-scope.md`, frozen 2026-09-17, six PI calls open, numbers asserted by `406`
 - [~] 3. Literature search and AI screening, both phases (§5.1) — **retrieval design settled, no screening yet.** `407` resolved 15/20 anchors; `408` found the stage-2 frame reaches 0/15 and replaced it with a two-arm design reaching 9/15 (union 7,001 records). Phase 2 snowball round 1 built by `409` — 2,815 candidates, 741 at degree >=2, and only **8 bridges**, none of them an identified study with a fertility outcome (§15). Phase 1 saturation screen over the two arms still to run
 - [~] 4. RA title/abstract review — **164 records screened, all four exhaustive strata complete: `PRIMARY_NORM_FERTILITY` = 0, `INSUFFICIENT_INFO` = 8 awaiting full text.** Rubric and log beside the scope doc; decisions in `extraction/stigma-reduction-contraception-abortion-screened.csv`. The sampled tail (S5/S6/S7, 240 records) and the two term arms are not yet read
-- [ ] 5. Full-text retrieval
-- [ ] 6. Full-text screen, RA spot-checks 5–10%
+- [~] 5. Full-text retrieval — **2 of 8 retrieved, including the decider.** `W108787496` came via the DSpace REST API (40,538 words); six remain `oa_status: closed` with no PDF in OpenAlex or Unpaywall and are on `*-library-wantlist.md` for Zotero + UChicago proxy
+- [~] 6. Full-text screen — both retrieved records read. **The decider resolves to `LINK_NORM_USE`, not the primary cell**: its ch4 exposure is community norms but its dependent variable is contraceptive use. `PRIMARY_NORM_FERTILITY` = 0 and closed as far as retrievable evidence allows; `LINK_NORM_USE` = 25 and poolable. Second read owed on `W108787496` per the rubric's asymmetric spot-check rule
 - [ ] 7. Extraction to `extraction/stigma-reduction-contraception-abortion.csv`, RA verifies a random 10%
 - [ ] 8. Risk-of-bias assessment per study
 - [ ] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise
