@@ -137,3 +137,55 @@ chapter's parameter.
 | `MIXED_NORM_TECH` | 1 |
 | `OFF_OTHER_STIGMA` | 1 |
 | `MIXED_NORM_LAW` | 1 |
+
+## Library full-text stage (`414`, `415`)
+
+Shravan pulled all six remaining records by hand through the UChicago proxy. Four
+carry a text layer and were read; two are Wiley page-image scans held at `needs_ocr`,
+because a record that cannot be read has not been excluded.
+
+| id | what it is | cell | why |
+|---|---|---|---|
+| `W1986910339` | Yüceşahin and Özgür 2008, provincial TFR in Turkey by multiple regression | `OFF_OTHER` | **the only library record with a realized-fertility outcome, and it fails on the exposure** — no normative regressor in Table 4 |
+| `W2187750596` | Ragan 2012, out-of-wedlock norms and Pill demand in Sweden | `LINK_NORM_USE` | the closest the chapter has come; outcome is Pill demand, so ruling 2 applies |
+| `W3121483375` | Prettner and Strulik 2017, two-steady-state theory | `CONTEXT_STIGMA_MEASURE` | theory with numerical simulation; no estimation |
+| `W4403200839` | Yeatman and Sennott 2024, conceptual model | `CONTEXT_STIGMA_MEASURE` | framework; separates acceptability from accessibility |
+
+### The near-miss, stated plainly
+
+`W1986910339` is worth dwelling on because it is the mirror image of every other
+near-miss in this chapter. Everywhere else the exposure was right and the outcome was
+contraceptive use. Here the outcome is right — provincial TFR, 1980–2000 — and the
+exposure is wrong: illiteracy, ethnicity shares, female employment, child mortality and
+GDP, with no norm dosed at all. The chapter has now failed to find a study with A.6's
+exposure and A.6's outcome from both directions.
+
+### Rubric gap — PI call 7
+
+Ragan's exposure is norms about premarital sex and out-of-wedlock childbearing, which
+is **D.2.b**'s registered territory, and the rubric has no `MIXED_NORM_MARRIAGE` cell.
+S4 position 84 is a second instance, so this is a class. The rubric says to add a cell
+and re-run over completed batches; that is deliberately **not** done here, because
+which way an A.6/D.2.b boundary should cut is a scope question and D.2.b is not among
+the scope doc's six walls. Both records are flagged for second read.
+
+### `PRIMARY_NORM_FERTILITY`: **0** · `LINK_NORM_USE`: **26** · still unreadable: **2**
+
+- `W2112312272` — Caldwell, PDR 1999 - filename says 2004, watermark and DOI say 1999
+- `W1976018943` — Wolff, Studies in Family Planning 2000 - filename says 2003, watermark says 2000; the one record whose outcome may be parity rather than use
+
+### Tally across 164 screened records
+
+| cell | n |
+|---|---|
+| `CONTEXT_STIGMA_MEASURE` | 65 |
+| `OFF_OTHER` | 28 |
+| `LINK_NORM_USE` | 26 |
+| `MIXED_NORM_SUPPLY` | 25 |
+| `MIXED_NORM_DIFFUSION` | 10 |
+| `OFF_HIV_STIGMA` | 3 |
+| `MIXED_NORM_SECULAR` | 2 |
+| `INSUFFICIENT_INFO` | 2 |
+| `MIXED_NORM_TECH` | 1 |
+| `OFF_OTHER_STIGMA` | 1 |
+| `MIXED_NORM_LAW` | 1 |
