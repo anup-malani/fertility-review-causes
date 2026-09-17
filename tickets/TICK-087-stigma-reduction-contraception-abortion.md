@@ -17,10 +17,10 @@
 - [~] 6. Full-text screen — both retrieved records read. **The decider resolves to `LINK_NORM_USE`, not the primary cell**: its ch4 exposure is community norms but its dependent variable is contraceptive use. `PRIMARY_NORM_FERTILITY` = 0 and closed as far as retrievable evidence allows; `LINK_NORM_USE` = 25 and poolable. **8 of 8 read. `PRIMARY_NORM_FERTILITY` = 0 and CLOSED**; `LINK_NORM_USE` = 27. Seven channels agree. Wolff 2000 is the closest exposure match in the pool and its authors name the missing prospective study themselves; Caldwell 1999 is the only substantial FDT treatment and argues rather than estimates. Adversarial self-re-read of all 5 flagged records done (`418`): 3 confirmed, **2 changed** — `W4224236986` `MIXED_NORM_SECULAR` → `LINK_NORM_USE` (the paper separately doses "moral opposition to birth control"), `W4403613268` → `INSUFFICIENT_INFO` (call rested on title; closed at Springer). Primary cell unchanged at 0; `LINK_NORM_USE` now 28. **A genuine independent second read is still owed** — judgment-blinded sheet at `output/*-second-review-sheet.csv` for Alexandra or Anup; PI call 7 raised on a rubric gap (no `MIXED_NORM_MARRIAGE` cell for D.2.b-owned premarital-sex norms)
 - [ ] 7. Extraction to `extraction/stigma-reduction-contraception-abortion.csv`, RA verifies a random 10%
 - [ ] 8. Risk-of-bias assessment per study
-- [ ] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise
-- [ ] 10. Demographic significance against PM / FDT / SDT
-- [ ] 11. GRADE rating, 3 independent raters
-- [ ] 12. Chapter draft on the §6 template
+- [x] 9. Narrative synthesis — n=1 in the primary cell, so no pooling; the pre-registered pooling rule predicted this
+- [x] 10. Demographic significance — PM NOT ASSESSED (out of scope by the claim), FDT NOT ASSESSED (R1 only; R2 not convertible, R3 no pre-1985 dose series), SDT NOT ASSESSED (dose measured where the phenomenon is not)
+- [~] 11. GRADE — FDT **VERY LOW** (risk of bias, indirectness, imprecision); PM and SDT **No evidence**. **One rater, not three — requirement unmet**
+- [x] 12. Chapter drafted — `output/chapters/stigma-reduction-contraception-abortion.md`, ~6,500 words, all seven mandatory sentences present, template checklist worked
 - [ ] 13. RA lay-readability check
 - [ ] 14. PI review and sign-off
 
