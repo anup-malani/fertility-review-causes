@@ -46,6 +46,19 @@ Apply in order. Stop at the first rule that fires.
 4. **Exposure gate.** Is the exposure a normative or social-cost construct — stigma, taboo,
    disapproval, opposition, acceptability, legitimation, shame, secrecy, religious objection,
    partner or community disapproval? If no → `OFF_OTHER`.
+
+   **The stigma OBJECT may be either the method or the behaviour (PI call 7, reading (a),
+   2026-09-17).** A.6's registered object is "contraception and abortion", but the PI ruled that
+   norms about premarital sex and out-of-wedlock childbearing fall inside A.6's exposure, with
+   contraception as the response to them rather than the thing disapproved of. So a record whose
+   exposure is disapproval of nonmarital sex or illegitimacy passes this gate. Do **not** route it
+   out on the object. Ragan 2012 (`W2187750596`) is the worked example, and it is reachable only by
+   ARM C.
+
+   **Record which object applies**, because the two push contraceptive use in opposite directions:
+   stigma of contraception lowers use, while stigma of premarital sex can raise it (McLoughlin
+   Brooks and Weitzman's "contraceptive work-around"). Use `stigma_object` for this, and never pool
+   across it — pooling across the two objects is pooling across a sign flip.
 5. **Bundling check (ruling 1).** Does the exposure vary *together with* technology, law or
    programme supply, with no separate dose on the norm component? If yes → `MIXED_NORM_TECH`,
    `MIXED_NORM_LAW` or `MIXED_NORM_SUPPLY` as appropriate. Also `MIXED_NORM_DIFFUSION` (A.3, where

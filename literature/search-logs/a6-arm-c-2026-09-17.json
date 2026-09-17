@@ -1,0 +1,40 @@
+{
+ "generated": "2026-09-17",
+ "script": "source/build/goldset/420_a6_call7_arm_c.py",
+ "ruling": "PI call 7 = no cell, no wall, reading (a): premarital-sex and out-of-wedlock norms fall INSIDE A.6's exposure",
+ "queries": {
+  "ARM A (frozen)": "(\"abortion stigma\" OR \"contraceptive stigma\" OR \"contraception stigma\" OR \"family planning stigma\") AND (\"contraception\" OR \"contraceptive\" OR \"abortion\" OR \"family planning\" OR \"birth control\")",
+  "ARM B (frozen)": "(\"unmet need\" OR \"reasons for nonuse\" OR \"reasons for non-use\" OR \"opposition to use\" OR \"husband opposition\" OR \"partner opposition\" OR \"religious objection\" OR \"moral objection\" OR \"disapproval\" OR \"social acceptability\" OR \"legitimation\" OR \"normative approval\") AND (\"contraception\" OR \"contraceptive\" OR \"abortion\" OR \"family planning\" OR \"birth control\")",
+  "ARM A intersect ARM B": "(\"abortion stigma\" OR \"contraceptive stigma\" OR \"contraception stigma\" OR \"family planning stigma\") AND (\"unmet need\" OR \"reasons for nonuse\" OR \"reasons for non-use\" OR \"opposition to use\" OR \"husband opposition\" OR \"partner opposition\" OR \"religious objection\" OR \"moral objection\" OR \"disapproval\" OR \"social acceptability\" OR \"legitimation\" OR \"normative approval\") AND (\"contraception\" OR \"contraceptive\" OR \"abortion\" OR \"family planning\" OR \"birth control\")",
+  "ARM C (call 7 reading a)": "(\"stigma\" OR \"taboo\" OR \"social disapproval\" OR \"moral opposition\" OR \"disapproval\" OR \"shame\" OR \"social sanction\" OR \"illegitimacy\") AND (\"premarital sex\" OR \"pre-marital sex\" OR \"nonmarital childbearing\" OR \"non-marital childbearing\" OR \"out-of-wedlock\" OR \"out of wedlock\" OR \"unwed motherhood\" OR \"unmarried motherhood\" OR \"illegitimate birth\" OR \"teenage pregnancy\")",
+  "ARM C intersect ARM A": "(\"stigma\" OR \"taboo\" OR \"social disapproval\" OR \"moral opposition\" OR \"disapproval\" OR \"shame\" OR \"social sanction\" OR \"illegitimacy\") AND (\"premarital sex\" OR \"pre-marital sex\" OR \"nonmarital childbearing\" OR \"non-marital childbearing\" OR \"out-of-wedlock\" OR \"out of wedlock\" OR \"unwed motherhood\" OR \"unmarried motherhood\" OR \"illegitimate birth\" OR \"teenage pregnancy\") AND (\"abortion stigma\" OR \"contraceptive stigma\" OR \"contraception stigma\" OR \"family planning stigma\") AND (\"contraception\" OR \"contraceptive\" OR \"abortion\" OR \"family planning\" OR \"birth control\")",
+  "ARM C intersect ARM B": "(\"stigma\" OR \"taboo\" OR \"social disapproval\" OR \"moral opposition\" OR \"disapproval\" OR \"shame\" OR \"social sanction\" OR \"illegitimacy\") AND (\"premarital sex\" OR \"pre-marital sex\" OR \"nonmarital childbearing\" OR \"non-marital childbearing\" OR \"out-of-wedlock\" OR \"out of wedlock\" OR \"unwed motherhood\" OR \"unmarried motherhood\" OR \"illegitimate birth\" OR \"teenage pregnancy\") AND (\"unmet need\" OR \"reasons for nonuse\" OR \"reasons for non-use\" OR \"opposition to use\" OR \"husband opposition\" OR \"partner opposition\" OR \"religious objection\" OR \"moral objection\" OR \"disapproval\" OR \"social acceptability\" OR \"legitimation\" OR \"normative approval\") AND (\"contraception\" OR \"contraceptive\" OR \"abortion\" OR \"family planning\" OR \"birth control\")",
+  "ARM C AND a method object": "(\"stigma\" OR \"taboo\" OR \"social disapproval\" OR \"moral opposition\" OR \"disapproval\" OR \"shame\" OR \"social sanction\" OR \"illegitimacy\") AND (\"premarital sex\" OR \"pre-marital sex\" OR \"nonmarital childbearing\" OR \"non-marital childbearing\" OR \"out-of-wedlock\" OR \"out of wedlock\" OR \"unwed motherhood\" OR \"unmarried motherhood\" OR \"illegitimate birth\" OR \"teenage pregnancy\") AND (\"contraception\" OR \"contraceptive\" OR \"abortion\" OR \"family planning\" OR \"birth control\")",
+  "ARM C AND a fertility outcome": "(\"stigma\" OR \"taboo\" OR \"social disapproval\" OR \"moral opposition\" OR \"disapproval\" OR \"shame\" OR \"social sanction\" OR \"illegitimacy\") AND (\"premarital sex\" OR \"pre-marital sex\" OR \"nonmarital childbearing\" OR \"non-marital childbearing\" OR \"out-of-wedlock\" OR \"out of wedlock\" OR \"unwed motherhood\" OR \"unmarried motherhood\" OR \"illegitimate birth\" OR \"teenage pregnancy\") AND (\"fertility\" OR \"childbearing\" OR \"birth rate\" OR \"total fertility rate\" OR \"family size\" OR \"number of children\")",
+  "ARM C AND identified-design markers": "(\"stigma\" OR \"taboo\" OR \"social disapproval\" OR \"moral opposition\" OR \"disapproval\" OR \"shame\" OR \"social sanction\" OR \"illegitimacy\") AND (\"premarital sex\" OR \"pre-marital sex\" OR \"nonmarital childbearing\" OR \"non-marital childbearing\" OR \"out-of-wedlock\" OR \"out of wedlock\" OR \"unwed motherhood\" OR \"unmarried motherhood\" OR \"illegitimate birth\" OR \"teenage pregnancy\") AND (\"instrumental variable\" OR \"difference-in-differences\" OR \"natural experiment\" OR \"regression discontinuity\" OR \"randomized controlled trial\" OR \"event study\")"
+ },
+ "counts": {
+  "ARM A (frozen)": 472,
+  "ARM B (frozen)": 6549,
+  "ARM A intersect ARM B": 20,
+  "ARM C (call 7 reading a)": 1222,
+  "ARM C intersect ARM A": 2,
+  "ARM C intersect ARM B": 55,
+  "ARM C AND a method object": 339,
+  "ARM C AND a fertility outcome": 179,
+  "ARM C AND identified-design markers": 6,
+  "union A+B (frozen, \u00a714)": 7001,
+  "union A+B+C, upper bound": 8166,
+  "ARM C marginal, upper bound": 1165,
+  "ARM C reaches W2187750596": true,
+  "ARM A reaches W2187750596": false,
+  "ARM B reaches W2187750596": false,
+  "ARM C reaches W4224236986": false,
+  "ARM A reaches W4224236986": false,
+  "ARM B reaches W4224236986": false,
+  "ARM C reaches W2562118812": false,
+  "ARM A reaches W2562118812": true,
+  "ARM B reaches W2562118812": false
+ },
+ "refusals": []
+}

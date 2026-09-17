@@ -383,7 +383,7 @@ for stratum 3 only under a heading that says it is the link and not the claim.
 > | 4 | **A.5 is a bundle, not a wall.** |
 > | 5 | **As recommended.** A.6 owns a religious authority's ruling as a shock to acceptability, and others' perceived approval; D.1.a owns the secular decline in religiosity as value change. |
 > | 6 | **Open the cell.** `OFF_HIV_STIGMA` stands as its own cell. |
-> | 7 | **No.** A.6 does **not** get a `MIXED_NORM_MARRIAGE` cell, and D.2.b is not added as a wall. |
+> | 7 | **No**, under reading **(a)**: no `MIXED_NORM_MARRIAGE` cell and no D.2.b wall, because premarital-sex and out-of-wedlock norms fall *inside* A.6's exposure. No record reclassified, but it opens a third retrieval arm — see §13's call-7 note and `420`. |
 >
 > **Call 1 is the most consequential, and it decides the chapter's output.** The recommendation
 > below proposed redefining A.6 around the literature that turned out to be reachable. That was an
@@ -407,8 +407,10 @@ for stratum 3 only under a heading that says it is the link and not the claim.
 > `PRIMARY_NORM_FERTILITY` — so the primary cell is **not** closed for good until that pass is
 > done. §15's closure statement is conditional on it.
 >
-> **Call 7's ruling needs one clarification before it can be applied** — see the note at the end of
-> this section.
+> **Call 7 is ruled (a)**, which reclassifies nothing but opens ARM C: 1,222 records, almost
+> disjoint from both frozen arms, 6 carrying identified-design markers. With call 4's 25 records
+> that gives the primary cell **two live routes**, and every closure statement in this document is
+> conditional on both.
 
 ### The calls as put to the PI
 
@@ -463,7 +465,59 @@ for stratum 3 only under a heading that says it is the link and not the claim.
    because a subset of it — HIV-status stigma suppressing contraceptive use — may be admissible
    link evidence on inspection.*
 
-### Call 7 — the ruling is clear, its application is not
+### Call 7 — **RULED: reading (a)**, and it opens a third arm **[420]**
+
+The PI's reading is **(a)**: norms about premarital sex and out-of-wedlock childbearing fall
+*inside* A.6's exposure. For screened records this is a no-op — Ragan 2012 stays `LINK_NORM_USE`
+and nothing is reclassified. For **retrieval** it is not, and `420` measures the cost.
+
+Both arms frozen in §14 were built on the registry's literal object, "contraception and abortion".
+Reading (a) admits stigma whose object is the *behaviour*, with contraception as the response to it.
+
+| frame | records |
+|---|---|
+| ARM A (frozen) | 472 |
+| ARM B (frozen) | 6,549 |
+| frozen union A+B | 7,001 |
+| **ARM C** — stigma vocabulary × behaviour object | **1,222** |
+| ARM C ∩ ARM A | 2 |
+| ARM C ∩ ARM B | 55 |
+| **ARM C marginal, upper bound** | **1,165 — 17% on top of the frozen union** |
+| ARM C ∩ a fertility outcome | 179 |
+| ARM C ∩ identified-design markers | **6** |
+
+ARM C is very nearly disjoint from both frozen arms, so the ruling adds an arm rather than widening
+one. Two consequences, and the positive control makes the first of them sharp:
+
+| record | ARM C | ARM A | ARM B |
+|---|---|---|---|
+| `W2187750596` Ragan 2012 — prompted the call | **yes** | no | no |
+| `W4224236986` McLoughlin Brooks and Weitzman 2022 | no | no | no |
+| `W2562118812` an abortion-stigma record, as a contrast | no | yes | no |
+
+1. **Ragan is reachable only by ARM C.** The chapter's second-best-designed record would never have
+   been found by the frozen term channel; it entered the pool because the snowball happened to
+   reach it from a seed. And McLoughlin Brooks — the best-designed record in `LINK_NORM_USE` — is
+   reachable by **no arm at all**. Both arrived by citation, not by vocabulary. That is §14's
+   "the term channel cannot be primary" demonstrated twice more, on the two records that matter
+   most.
+2. **ARM C is unscreened, and 6 of its records carry identified-design markers with 179 carrying a
+   fertility outcome.** So §14's "9 of 15" is no longer the ceiling and §15's closure is
+   provisional on this arm as well as on call 4's 25 records.
+
+**The primary cell now has two live routes**, both opened by PI rulings rather than by new
+evidence: call 4's A.5 bundle (25 records to inspect for a separately dosed norm) and call 7(a)'s
+ARM C (up to 1,165 records, 6 with design markers). Neither was open an hour ago.
+
+**A tension inside A.6's own exposure, created by reading (a).** Under (a) both stigma objects
+belong to A.6: stigma of contraception and stigma of premarital sex. McLoughlin Brooks shows they
+push contraceptive use in **opposite directions** — her "contraceptive work-around" has religious
+women using hormonal methods *more* to conceal stigmatised nonmarital sex, while moral opposition to
+birth control pushes use *down*. This is no longer a boundary question with D.2.b; it is an internal
+sign ambiguity in A.6's exposure, and §11 must carry it: a study that does not separate the two
+objects can recover either sign, and pooling across them is pooling across a sign flip.
+
+### The two readings, as put to the PI (retained; (a) was chosen)
 
 The ruling is **no cell and no wall**. Two readings follow, and they differ by a record:
 
@@ -479,9 +533,8 @@ Ragan's stigma attaches to out-of-wedlock childbearing, with contraception as th
 But (b) also discards a panel study whose dependent variable is Pill demand, which is squarely the
 link this chapter is now reporting under call 2.
 
-**Not resolved unilaterally.** Awaiting the PI's reading; recorded here rather than guessed, because
-the last time this document inferred a borderline routing call from a plausible premise, `418` got
-it wrong and `419` had to correct the audit trail.
+**Ruled (a) by the PI on 2026-09-17.** Ragan stays `LINK_NORM_USE`. The retrieval consequence is
+measured in the call-7 note above.
 
 ## 14. Reachability ceiling and the production design **[408]**
 
