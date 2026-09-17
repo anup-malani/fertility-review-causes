@@ -1,5 +1,5 @@
 # TICK-087: A.6 Reduction in Stigma Around Contraception and Abortion
-**Status:** open
+**Status:** in-progress
 **Assigned:** Shravan
 **Hypothesis:** `stigma-reduction-contraception-abortion` — HYPOTHESES-v5.md §A.6
 **Parallel-safe:** yes
