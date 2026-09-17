@@ -427,3 +427,80 @@ interesting in the set and are now top of the wantlist:
 Until those are read, `PRIMARY_NORM_FERTILITY = 0` remains conditional on this route
 as well as on ARM C.
 
+## ARM C screen (`423`) — the arm call 7(a) opened
+
+`423` pulled ARM C in full: **1,222 records**, of which 5 are already screened and 3 are already in
+the snowball pool, leaving **1,214 genuinely new**. Positive control passes — Ragan 2012, the record
+that prompted call 7, lands in a read stratum.
+
+| stratum | new records | read |
+|---|---|---|
+| `C1_DECISIVE` — norm + design + fertility | **0** | — |
+| `C2_DESIGN` — norm + design, no fertility | 5 | exhaustive |
+| `C3_FERT_NODESIGN` — norm + fertility, no design | 269 | **exhaustive** |
+| `C4_NORM_ONLY` | 826 | sampled 60 |
+| `C5_WEAK` | 26 | sampled 40 |
+| `C6_NOABSTRACT` | 88 | sampled 40 |
+
+**A standard I had to correct mid-pass.** `423` initially set `C3_FERT_NODESIGN` to a sample of 80
+of 269. That is a weaker standard than `410` applied to the identical stratum type in the frozen
+arms, where all 152 of `S4_FERT_NODESIGN` were read exhaustively on the reasoning that a design an
+abstract does not name is how a primary-cell study hides. Sampling here and not there would have
+made the absence claim quietly weaker for ARM C than for the rest of the chapter. All 269 were
+read.
+
+### `C2_DESIGN` — 5 records, none primary
+
+All five are **sex-education or SRHR intervention evaluations**: the "Get Up Speak Out" trial in
+Uganda and its version twin, traditional-art media, an animated-video education study, and a
+teenage-parenthood package. The design marker fires because they are trials; the exposure is a
+health-education *intervention* and the outcomes are knowledge, intention, or maternal and neonatal
+health. `MIXED_NORM_SUPPLY` under rule 5, none with a fertility outcome.
+
+### `C3_FERT_NODESIGN` — 269 read, and the chapter's first real primary-cell candidates
+
+This is the first stratum anywhere in the chapter to contain records that pair a **normative
+exposure** with a **birth outcome**. Seven, flagged for full text:
+
+| record | exposure → outcome |
+|---|---|
+| *Female Sexual Attitudes and the Rise of Illegitimacy: A Case Study* (1981, 29 cites) | sexual attitudes → illegitimacy rate |
+| *Adolescent background and fertility norms: implications for racial differences in early childbearing* (1990) | fertility norms → early childbearing |
+| *Social Approval, Values, and AFDC: A Reexamination of the Illegitimacy Debate* (2001, 46 cites) | social approval → illegitimacy |
+| *From Shame to Game in One Hundred Years … and its De-stigmatization* (82 cites) | destigmatisation of premarital sex → premarital sex |
+| *Religion Affects Whether US Women Marry Early … or Have a Nonmarital Birth* (2026) | religiosity → nonmarital birth |
+| *A Time Series Analysis of Swedish Illegitimacy Rates, 1911–1974* (1983) | — |
+| *Illegitimate Births and Bridal Pregnancy: Deviations from Societal Rules* (2008) | — |
+
+**They may test the opposite sign, which is why this needs a ruling and not a screener.** Their
+outcome is the illegitimacy ratio or the nonmarital birth rate: a birth, hence "realized", but a
+**recomposition** of fertility rather than a change in its level. And the predicted direction is
+inverted — destigmatising nonmarital childbearing *raises* nonmarital births, where A.6's registered
+claim is that destigmatising *contraception lowers* fertility. This is the sign flip §11 records
+after McLoughlin Brooks, no longer a footnote but an entire literature that call 7(a) brought into
+scope.
+
+### PI call 8 — raised here
+
+**Does a nonmarital-birth-rate or illegitimacy-ratio outcome satisfy ruling 2's "realized
+fertility"?** If yes, ARM C can populate `PRIMARY_NORM_FERTILITY` and the chapter acquires an
+evidence base whose sign is opposite to its registered claim, which §1's parameter statement would
+have to absorb. If no, these seven are `OFF_OTHER` — they measure the composition of fertility, not
+its level — and the primary cell stays empty on a defensible narrowing.
+
+*Recommendation: no.* §1's parameter is "the change in **realized fertility**", and §5's dose unit
+and demographic-significance routes are all built on fertility **levels** (R1 sign on fertility, R3
+a counterfactual on TFR). An illegitimacy ratio cannot enter R1 or R3 without changing what the
+chapter claims to measure. Admitting it would also import the sign flip into the primary cell, so
+the pooled estimate would average a positive and a negative effect of two different constructs.
+Recommend routing the seven to a new `OFF_COMPOSITION` cell rather than `OFF_OTHER`, so they are
+visible and reusable if D.2.b or A.7 wants them.
+
+### A data-quality finding, worse than TICK-084 records
+
+Version copies are pervasive in ARM C, not occasional. *From Shame to Game* appears **five times**
+under four title variants and years (2010, 2010, 2011, 2011, 2014); Ragan 2012 appears at least
+three more times, as *Sex and the Single Girl: The Role of Culture in Contraception Demand* (2011)
+and *Cultural Persistence and the Pill* (2017). **Any count over ARM C is inflated until deduped**,
+including the 1,222 and the 269 above. TICK-084 treats version-pair splitting as a resolver defect;
+this arm shows it is also a *counting* defect that can misstate a frame size.
