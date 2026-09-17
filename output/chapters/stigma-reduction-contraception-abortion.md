@@ -3,7 +3,7 @@
 **Category:** Proximate (HYPOTHESES-v5.md §A.6)
 **Primary mechanism:** A fall in the social cost of being known to control fertility lets couples who already want fewer children act on that want, so births fall without any change in desired family size.
 **Cross-references:** A.2 (contraceptive technology) · A.3 (diffusion of fertility control) · A.4 (abortion access) · A.5 (family-planning programmes) · D.1.a (postmaterialism and secularisation) · D.2.b (marriage and family norms) · B.5 (fetal loss, clinical homonym)
-**Status:** Draft, TICK-087, 2026-09-17. **Not PI-reviewed.** Eight PI calls were put and answered during scoping; one further question, raised by the single admissible study, is open (§11). Written on 24 of 39 wanted full texts (62%).
+**Status:** Draft, TICK-087, 2026-09-17. **Not PI-reviewed. §9 GRADE is provisional on one rater of the three PROTOCOL §5.1 requires.** Eight PI calls were put and answered during scoping; one further question, raised by the single admissible study, is open (§11). Written on 24 of 39 wanted full texts (62%).
 
 ---
 
@@ -227,24 +227,87 @@ The second clause is the durable problem and it is worth stating plainly, becaus
 
 ## 9. GRADE rating
 
-| phenomenon | starting level | downgrades | final |
-|---|---|---|---|
-| PM | — | cell empty — out of scope by the claim | **No evidence** |
-| FDT | Low (observational) | −1 **risk of bias**: no exogenous shock, no comparison population, structural reverse causation unaddressed · −1 **indirectness**: the exposure measures pressure to marry rather than the social cost of fertility control, and the outcome may be a recomposition · −1 **imprecision**: n = 1, single country, single period | **VERY LOW** |
-| SDT | — | cell empty — no admissible study | **No evidence** |
+Rated per phenomenon against `PROTOCOL.md` §4.1, which fixes the bands by design class. **The
+starting level is read off the design, not assumed**, and that matters here: §4.1's **Low** band is
+defined as "cross-sectional or panel with controls, no clear identification". The absence of an
+identification strategy is therefore *already priced into the starting level*, and downgrading again
+for "no exogenous shock" would double-count it. Only defects beyond that are taken.
 
-**Link evidence, rated separately and not to be read as the chapter's verdict:** `LINK_NORM_USE` at 28 records would be **LOW** for the stigma→use link — observational throughout, with one weekly panel and one community fixed-effects design as the ceiling, downgraded for common-method bias (stigma is self-reported by the treated, and the bias runs in the direction of the hypothesis) and for non-commensurable effect measures.
+### 9.1 First Demographic Transition — the only cell with evidence
 
-`No evidence` rather than `VERY LOW` is used wherever the cell is empty, paired with NOT ASSESSED
-demographic significance: VERY LOW would imply evidence was found and judged, and none was.
+Body of evidence: one study (Kelly and Cutright 1983), a multivariate regression on annual change in
+a national time series with controls and no identification strategy.
 
-A single rater produced these ratings. **PROTOCOL §5.1 step 11 requires three independent raters, and that requirement is unmet** (§11).
+**Starting level: Low.** It is a panel/time-series with controls and no clear identification, which
+is §4.1's Low band verbatim. It is not Moderate: there is no IV, DiD, RD or event study, and no
+second setting. It is not yet Very low: the mechanism is not speculative and the estimate is not
+merely correlational — the legitimation measure is dosed separately from three named alternatives
+and enters a multivariate specification.
+
+| domain | assessment | downgrade |
+|---|---|---|
+| **Risk of bias (body as a whole)** | Structural, bidirectional reverse causation over exactly the estimation window: falling fertility normalises fertility control, so the exposure is partly an outcome. This is **beyond** the generic non-identification already priced into Low, because the direction of confounding is known and runs both ways rather than being merely unaddressed. | **−1** |
+| **Indirectness** | The exposure is pressure to *legitimate by marriage*, not the social cost of controlling fertility; the outcome may be a recomposition of births between marital and nonmarital rather than a change in their number. On both sides the evidence answers a neighbouring question — D.2.b's — rather than A.6's. | **−1** |
+| **Imprecision** | The estimate is significant at all ages but is not reported in §5.1's dose unit and cannot be converted without the age-specific unmarried share. Precision *in the chapter's units* is therefore unknown rather than wide. Recorded, **not** taken as a separate downgrade, because the floor is already reached and stacking a third downgrade would imply a distinction the band structure cannot express. | 0 (noted) |
+| **Inconsistency** | **Unassessable.** One study; no replication exists to be consistent or inconsistent with. Not a downgrade, and not silently omitted either — a single-study body cannot earn or lose on this domain. | n/a |
+| **Publication bias** | **Unassessable, and probably the wrong frame.** With n = 1 no funnel or selection test is possible. More importantly the chapter's pattern — 1.8% identified-design share, 8 of 2,815 citation bridges, no study pairing A.6's exposure with A.6's outcome from either direction — is an absence of *research*, not suppression of *results*. Naming it publication bias would misattribute a gap in a research agenda to a gap in a publication record. | n/a |
+
+**Low − 2, floored at the bottom band: VERY LOW.**
+
+### 9.2 Pre-modern and Second Demographic Transition — empty cells
+
+| phenomenon | rating | what would have to exist to earn a rating |
+|---|---|---|
+| PM | **No evidence** | A pre-modern population with measured variation in the social cost of fertility control *within unions* and a fertility outcome. The registry does not open PM for A.6 and the claim excludes it: pre-modern illegitimacy and premarital-sex norms are D.2.b's and A.7's. |
+| SDT | **No evidence** | One study, post-1965, pairing a normative exposure with a fertility level. None of 166 screened records does. The 28 link records are SDT-heavy but all have use outcomes; the one primary record closes in 1974. |
+
+**`No evidence`, not `VERY LOW`.** VERY LOW rates a body that exists and is badly identified. These
+cells contain nothing, and rating them VERY LOW would make it look as though the question had been
+investigated and answered poorly rather than not investigated. Each pairs with NOT ASSESSED in §8.
+
+### 9.3 The link stratum, rated separately
+
+`LINK_NORM_USE` is **not** this chapter's parameter and its rating must not be read as the
+chapter's verdict. It is rated because §7.2 reports it and an unrated reported body invites
+misreading.
+
+Body: 28 studies of a normative exposure on contraceptive or abortion use. Twenty-four are
+cross-sectional with controls; the ceiling is one weekly longitudinal panel with a mediation design
+(McLoughlin Brooks and Weitzman 2022, 39,806 person-weeks) and one community fixed-effects panel
+(Ragan 2012).
+
+**Starting level: Low** — §4.1's band for panel and cross-sectional designs with controls.
+
+| domain | assessment | downgrade |
+|---|---|---|
+| **Risk of bias** | Common-method bias in 24 of 28: exposure and outcome are self-reported by the same respondent in the same instrument, and a woman who has internalised destigmatisation reports less stigma *and* reports more use. The bias runs in the direction of the hypothesis. The D.3.b instrument added a common-method-bias domain for this reason and this chapter inherits it. | **−1** |
+| **Inconsistency** | Apparent sign disagreement across studies is **explained, not unexplained**: stigma of contraception lowers use while stigma of premarital sex raises it (§2). GRADE does not downgrade for heterogeneity that stratification resolves, and the synthesis refuses to pool across `stigma_object`. No downgrade. | 0 |
+| **Indirectness** | None *for the link*. These studies measure exactly the stigma→use relationship they are being rated on. The indirectness is to the *chapter's* parameter, which is handled by not pooling them into it rather than by downgrading them here. | 0 |
+
+**Low − 1: VERY LOW for the body.** Stated with one qualification that carries information the band
+alone loses: rated on the two best-designed records alone — the weekly panel and the community
+fixed-effects panel, neither of which has the common-method problem in the same form — the link
+stratum would be **LOW**. The body is dragged down by two dozen cross-sectional self-reports, not by
+its ceiling.
+
+### 9.4 Rater independence — the requirement is unmet
+
+`PROTOCOL.md` §5.1 step 11 requires **three independent raters**. This section is the work of
+**one**, and the same reader made every screening and full-text call it rests on. Simulating two
+further raters would produce agreement by construction and is not done, for the same reason the
+adversarial re-read in the screen log is labelled a self-check rather than a second opinion.
+
+A judgment-blinded rating sheet is at
+`output/stigma-reduction-contraception-abortion-grade-rater-sheet.csv`: it carries the design facts,
+the study list and the domain prompts, with **every rating and downgrade withheld**, for Alexandra
+and Anup to complete independently. Until two further ratings exist, §9 is **provisional** and the
+chapter's status line says so.
 
 ## 10. Verdict
 
 **The hypothesis that destigmatising contraception and abortion lowered fertility is, on the evidence that exists, unevaluated rather than supported or refuted — and the reason is that the study it requires has not been done.**
 
-A search over three arms and a citation snowball, screening 166 records and reading 24 full texts, found exactly **one** study pairing a normative exposure with a convertible fertility outcome: a 1983 regression on Swedish nonmarital birth rates, 1911–1974, whose exposure is pressure to marry rather than pressure not to contracept, and whose outcome may describe how a birth is labelled rather than whether it occurs. It is graded **VERY LOW** for the First Demographic Transition. The pre-modern and Second Demographic Transition cells are **NOT ASSESSED**.
+A search over three arms and a citation snowball, screening 166 records and reading 24 full texts, found exactly **one** study pairing a normative exposure with a convertible fertility outcome: a 1983 regression on Swedish nonmarital birth rates, 1911–1974, whose exposure is pressure to marry rather than pressure not to contracept, and whose outcome may describe how a birth is labelled rather than whether it occurs. It is graded **VERY LOW** for the First Demographic Transition — Low by design class, downgraded once for structural reverse causation and once for indirectness of both exposure and outcome. The pre-modern and Second Demographic Transition cells are **No evidence**, paired with NOT ASSESSED demographic significance: not a body of evidence judged poor, but no body at all.
 
 The one number to carry away is not an effect size. It is **58 of 668** — numerator: records carrying realized-fertility vocabulary; denominator: the 668-record frozen retrieval frame as measured by `404` on 2026-09-17; window: the frame, not a phenomenon — against 479 records taking contraceptive use instead. It is a statement about a literature's attention, **not a demographic-significance share**, and it is not banded as one. A.6 is well evidenced at a link it does not own — twenty-eight studies of normative barriers to contraceptive *use*, the best of them finding that partner opposition accounts for about 15% of unmet need — and essentially unevidenced at the link it does. Wolff and colleagues said as much in 2000: answering this chapter's question "would require a prospective study over time to observe the fertility outcomes of disagreement." Nothing in this review has done it.
 
@@ -254,7 +317,7 @@ That is a finding about a literature, not a finding about the world. Destigmatis
 
 **1. Is Kelly and Cutright's estimate a fertility effect or a recomposition?** The single primary record turns on this. Its outcome — age-specific illegitimacy rates per 1,000 unmarried women — is convertible in form, satisfying the admissibility test. But its exposure is pressure to *legitimate by marriage*, which acts on whether a conception becomes a marital or a nonmarital birth. If the marriage happens and the birth follows, total fertility is unchanged and only the label moves. **This is the chapter's most consequential open question**: resolved one way the primary cell holds one VERY LOW record, resolved the other it is empty and §10's verdict changes from "one study, very low" to "no study". Recommendation: request the age-specific unmarried-share series and test whether the fitted legitimation effect survives aggregation to the general fertility rate. If it does not, reclassify to `OFF_COMPOSITION`.
 
-**2. Three independent GRADE raters are required and one was used.** §9 is provisional on this.
+**2. Three independent GRADE raters are required and one was used.** §9 is provisional on this. A judgment-blinded sheet with every rating, downgrade and starting level withheld is at `output/stigma-reduction-contraception-abortion-grade-rater-sheet.csv`, with the instrument and the evidence facts in `output/stigma-reduction-contraception-abortion-grade-evidence-brief.md`. Raters should not read §9 first. Disagreements are to be resolved rather than averaged, with the reason recorded beside the final band.
 
 **3. An independent second read is owed.** The same reader made every screening call. A judgment-blinded sheet with first-pass cells withheld is at `output/stigma-reduction-contraception-abortion-second-review-sheet.csv`. Adversarial self-re-reading of five flagged records changed two of them, which is evidence the exercise finds things and also evidence it is not a substitute for independence.
 
