@@ -265,3 +265,60 @@ is poolable as stratum 3 under a heading that disclaims it as the parameter.
 | `MIXED_NORM_TECH` | 1 |
 | `OFF_OTHER_STIGMA` | 1 |
 | `MIXED_NORM_LAW` | 1 |
+
+## Second read (`418`)
+
+**This was not an independent second read.** The same reader made all five first-pass
+calls, and the point of a second reader is independence. What was done is an
+*adversarial self-re-read*: for each record the question was not "is my call
+defensible" but "what is the strongest case that this is `PRIMARY_NORM_FERTILITY`, and
+does it survive the text". It caught two errors. It cannot substitute for independence,
+so `output/stigma-reduction-contraception-abortion-second-review-sheet.csv` is emitted with the first-pass cell **withheld**, for Alexandra or Anup.
+
+| id | first pass | after second read | basis |
+|---|---|---|---|
+| `W108787496` | `LINK_NORM_USE` | **confirmed** | only DVs are Desired Family Size and Contraceptive Use; no table pairs a norm regressor with a fertility outcome |
+| `W1976018943` | `LINK_NORM_USE` | **confirmed** | only DVs are unmet need and method mix; "number of children" appears only as a survey attitude item |
+| `W2187750596` | `LINK_NORM_USE` | **confirmed** | Tables 2–6 each state Pill demand is the DV; out-of-wedlock births are the regressor |
+| `W4224236986` | `MIXED_NORM_SECULAR` | **CHANGED to `LINK_NORM_USE`** | the paper decomposes religiosity and separately doses "moral opposition to birth control" on a 0–4 scale |
+| `W4403613268` | `CONTEXT_STIGMA_MEASURE` | **CHANGED to `INSUFFICIENT_INFO`** | the call rested on the title; closed at Springer, no OA copy, so it cannot be resolved |
+
+### The change that matters
+
+`W4224236986` (McLoughlin Brooks and Weitzman, *Demography* 2022) was routed wholly to
+D.1.a on the reasoning that religiosity is a value. That was too crude. The paper
+decomposes religiosity, and among its separately measured mediators is **"moral
+opposition to birth control" on a 0–4 scale**, with disapproval of premarital sex,
+anticipated guilt after sex, and fear of being stigmatised. Wall 5 gives D.1.a *what
+people value* and A.6 *what they can be seen doing at fixed values* — this paper
+measures both and separates them. It is a weekly longitudinal panel with a mediation
+design and it cites Bongaarts and Watkins 1996, one of A.6's four registered seminals.
+It is now the **best-designed record in `LINK_NORM_USE`**, and it makes PI call 5
+answerable from evidence rather than from taste.
+
+It was also **gold open access all along** and should have been retrieved at stage 5;
+`412` never fetched it because the screen had not flagged it as `INSUFFICIENT_INFO`.
+That is a gap in the pipeline, not in this record: **a borderline routing call can need
+full text just as much as an unresolved one**, and only the latter was queued for
+retrieval.
+
+### `PRIMARY_NORM_FERTILITY`: **0** — unchanged by the second read
+
+`LINK_NORM_USE` rises to **28**. Unresolved returns to **1**
+(`W4403613268`, closed at Springer).
+
+### Tally across 164 screened records
+
+| cell | n |
+|---|---|
+| `CONTEXT_STIGMA_MEASURE` | 65 |
+| `LINK_NORM_USE` | 28 |
+| `OFF_OTHER` | 28 |
+| `MIXED_NORM_SUPPLY` | 25 |
+| `MIXED_NORM_DIFFUSION` | 10 |
+| `OFF_HIV_STIGMA` | 3 |
+| `INSUFFICIENT_INFO` | 1 |
+| `MIXED_NORM_TECH` | 1 |
+| `OFF_OTHER_STIGMA` | 1 |
+| `MIXED_NORM_SECULAR` | 1 |
+| `MIXED_NORM_LAW` | 1 |

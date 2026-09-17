@@ -25,3 +25,11 @@ Titles, for searching a catalogue by hand:
 - `W4403200839` — *Fertility Desires and Contraceptive Transition* (2024)
 - `W1976018943` — *The Role of Couple Negotiation in Unmet Need for Contraception and the Decision to Stop Childbearing in Uganda* (2000)
 - `W2187750596` — *Sex and the Single Girl: Cultural Persistence and the Pill* (2012)
+
+## Added by the second read (`418`)
+
+- `W4403613268` — *Abortion Within Reason or Right: Navigating Reproductive Governance and Abortion Stigma in Madagascar's Urban …* (2024), `10.1007/s12116-024-09444-0`, Studies in Comparative International Development. Closed at Springer, no OA copy. Screened on title only; the cell cannot be confirmed without full text.
+
+## Added by the second read (`418`)
+
+- `W4403613268` — *Abortion Within Reason or Right: Navigating Reproductive Governance and Abortion Stigma in Madagascar's Urban …* (2024), `10.1007/s12116-024-09444-0`, Studies in Comparative International Development. Closed at Springer, no OA copy. Screened on title only; the cell cannot be confirmed without full text.
