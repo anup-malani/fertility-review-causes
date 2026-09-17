@@ -29,7 +29,7 @@ tickets can be worked concurrently.
 > commit message dated 07-21 to 07-25 against this table; in commit messages from Alexandra's schooling
 > workstream, `TICK-032` means the compulsory-education split and needs no translation.
 >
-> **Next free number is TICK-087.** Claim a number by pushing its QUEUE.md row before starting work,
+> **Next free number is TICK-088.** Claim a number by pushing its QUEUE.md row before starting work,
 > not after. That is what would have prevented the collision. TICK-047 through TICK-053 were claimed
 > for the D.3.b climate-anxiety chain on 2026-07-27; TICK-054 (A.10) and TICK-055 (C.2.c) on
 > 2026-07-31; TICK-056 opens C.2.c library retrieval. TICK-075 (A.23) was claimed on 2026-08-27.
@@ -48,6 +48,7 @@ tickets can be worked concurrently.
 
 | Ticket | Title | Assigned | Parallel-safe |
 |--------|-------|----------|---------------|
+| [TICK-087](TICK-087-stigma-reduction-contraception-abortion.md) | A.6 Reduction in Stigma Around Contraception and Abortion | Shravan | yes |
 | [TICK-086](TICK-086-wealth-flows-reversal.md) | C.3.f Intergenerational Wealth Flows Reversal | Shravan | yes |
 | [TICK-084](TICK-084-shared-resolver-version-pair-citations.md) | Version-pair citation splitting belongs in the shared resolver — A.12 said so on 2026-08-21 and it recurred on C.3.d, plus two instances of a worse shape where no twin exists to merge | any | yes |
 | [TICK-083](TICK-083-quantity-quality-tradeoff.md) | C.3.d Quantity-Quality Tradeoff | Shravan | yes |
