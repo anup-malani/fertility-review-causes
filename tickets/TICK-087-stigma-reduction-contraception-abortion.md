@@ -1,5 +1,5 @@
 # TICK-087: A.6 Reduction in Stigma Around Contraception and Abortion
-**Status:** parked 2026-09-17 — the selection that opened this ticket does not survive measurement (see Log). A.3 took its place as TICK-088. Stage 2 is not begun; the diagnostic in `404` is complete and inheritable.
+**Status:** in-progress — resumed 2026-09-17 after `405` reversed the finding that parked this ticket. A.6 is the strict-smallest candidate on a like-for-like corrected comparison (1,225 v. A.3's 1,584–2,419). PI directed: proceed on A.6 and do not re-rank the rest of the block first.
 **Assigned:** Shravan
 **Hypothesis:** `stigma-reduction-contraception-abortion` — HYPOTHESES-v5.md §A.6
 **Parallel-safe:** yes
@@ -26,7 +26,7 @@
 
 ## Log
 
-**2026-09-17 — parked before stage 2, on the diagnostic that was meant to open it.**
+**2026-09-17 — parked before stage 2, then RESUMED the same day. Read the resumption note at the end of this entry before acting on anything above it.**
 
 *Result.* `404_a6_term_diagnostics.py` audited the frame that selected A.6 and it does not hold.
 Two defects, the second decisive:
@@ -69,3 +69,30 @@ are present in the block at all. Until that check is added to `304`, every frame
 lower bound of unknown tightness, and the two-block/three-block distinction should be recorded per
 candidate so conjunction depth is visible in the ranking table. Raised as a PI call on TICK-088
 rather than fixed here, since it is a `304` change and `304` belongs to TICK-080.
+
+**2026-09-17 — resumed. The park was based on a comparison that was not like-for-like.**
+
+`405` (TICK-088, branch `088-diffusion-of-fertility-control`, commit `23388fd`) applied this
+ticket's own completeness test to A.3, the candidate that displaced A.6. A.3 fails it harder:
+"legitimation" is in A.3's registered claim, absent from its pass-4 block, and worth **+865 records
+alone** (719 → 1,584); all twelve terms A.3 owns give **2,419**.
+
+Corrected, like for like:
+
+| candidate | as probed | corrected |
+|---|---|---|
+| **A.6** | 668 | **1,225** |
+| A.3 | 719 | 1,584 (legitimation only) – 2,419 (all own terms) |
+| C.3.a | 1,808 | uncorrected |
+
+So A.6 is the smallest of the two, the probe's original ordering was directionally right, and the
+park rested on `404` correcting A.6 and then comparing the result against A.3's *uncorrected*
+number. The error was in the application, not the test.
+
+Two measured facts from `405` cut against A.6 on grounds other than size, and the chapter should
+carry them rather than bury them: A.3's frame is nearly free of homonyms (7 / 1 / 7 / 8 records)
+where A.6 carries **148** records of HIV-stigma and 92 of mental-illness stigma, 22% and 14% of its
+frame; and A.3 has **154** in-frame records with realized-fertility vocabulary against A.6's **58**.
+A.6 is cheaper to screen and less likely to yield an estimable parameter. That tension is a PI call
+in the scope doc, not a reason to switch again — the PI has directed that work continue on A.6
+regardless of whether other candidates are smaller.
