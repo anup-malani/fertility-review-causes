@@ -56,3 +56,18 @@ outcome, they are where it would be.
 | `W4416785715` | gold | `10.1186/s40834-025-00404-0` | standard |
 | `W4213049136` | closed | `10.1002/9781405186407.wbiecp078` | standard |
 | `W2908089093` | diamond | `10.15296/ijwhr.2018.69` | standard |
+
+## Added by the call-8 convertibility test (`424`)
+
+5 of the 7 ARM C candidates could not be retrieved by open access, including every
+version. These are the gate on PI call 8: if any reports an illegitimacy **rate** (births per
+unmarried woman) rather than a **ratio** (share of births), its outcome is convertible to
+realized-fertility terms and call 8 may have to be answered yes.
+
+| id | study |
+|---|---|
+| `W2314052622` | *Female Sexual Attitudes and the Rise of Illegitimacy: A Case Study* (1981, 29 cites) |
+| `W222766436` | *Adolescent background and fertility norms: implications for racial differences in early childbearing* (1990) — **HIGH: exposure is explicitly fertility norms and the outcome may be a level** |
+| `W7124168863` | *Religion Affects Whether US Women Marry Early, Without Cohabiting or Having a Nonmarital Birth* (2026) |
+| `W1968910820` | *A Time Series Analysis of Swedish Illegitimacy Rates, 1911–1974* (1983) — **HIGH: title says rates, and a 63-year series is estimable** |
+| `W4251999233` | *Illegitimate Births and Bridal Pregnancy: Deviations from Societal Rules* (2008) |

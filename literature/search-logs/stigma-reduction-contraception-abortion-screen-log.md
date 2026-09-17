@@ -504,3 +504,50 @@ three more times, as *Sex and the Single Girl: The Role of Culture in Contracept
 and *Cultural Persistence and the Pill* (2017). **Any count over ARM C is inflated until deduped**,
 including the 1,222 and the 269 above. TICK-084 treats version-pair splitting as a resolver defect;
 this arm shows it is also a *counting* defect that can misstate a frame size.
+
+## Call 8 — the convertibility test (`424`)
+
+The PI's test: **can these outcomes be converted into realized-fertility terms? If not, then no.**
+That has a precise answer and it turns on which measure a paper uses.
+
+| measure | convertible? |
+|---|---|
+| illegitimacy **ratio** — nonmarital births ÷ all births | **No.** A composition. It can move with no change in fertility at all, and cannot be recovered as a level without the total-birth denominator and the female population. |
+| illegitimacy **rate** — nonmarital births per 1,000 unmarried women | **Yes.** A genuine fertility rate for a subpopulation; it enters the general fertility rate additively, weighted by the unmarried share. Coale's `I_h` rather than a composition index. |
+| a fertility **level** — TFR, GFR, completed fertility, children ever born | Admissible directly under ruling 2; no conversion needed. |
+
+`424` retrieved **2 of the 7** studies, using the version copies as extra retrieval surface — the
+1999 working-paper version of *Social Approval* was reachable where the 2001 published version was
+not. Both read records fail, and on **two** grounds each rather than one:
+
+**`W2892194071` — Nechyba, *Social Approval, Values, and AFDC* (1999/2001).** Not an estimate: a
+dynamic theoretical model that "treats welfare policy as an exogenous factor", with steady states,
+transition paths and illustrative figures. Its outcome is also a **ratio despite its name** —
+"illegitimacy rates significantly above 10%" is a percentage of births, not births per unmarried
+woman. Fails rule 6 and fails convertibility. → `CONTEXT_STIGMA_MEASURE`, `SIMULATION`.
+
+**`W2102216183` — Fernández-Villaverde, Greenwood and Guner, *From Shame to Game in One Hundred
+Years* (NBER w15677).** A calibrated economic model — 10 calibration references, 12 steady-state
+references — whose outcomes are premarital sex (123 mentions) and out-of-wedlock births (72). Not
+an effect estimate under rule 6, and the outcome is composition with the sign inverted:
+de-stigmatisation *raises* premarital sex and nonmarital births. Same class as Prettner and Strulik.
+→ `CONTEXT_STIGMA_MEASURE`, `SIMULATION`.
+
+### The answer, and what it rests on
+
+**On the evidence read, call 8 is `no`** — and notably it does not even need the convertibility test,
+because both records fail rule 6 first. Neither is an estimate of anything.
+
+**But 5 of 7 are unread**, and two of those could plausibly report a convertible measure, so the
+answer is provisional rather than settled:
+
+| study | why it could still qualify |
+|---|---|
+| *A Time Series Analysis of Swedish Illegitimacy Rates, 1911–1974* (1983) | the title says **rates** over a 63-year series; if it is births per unmarried woman it is convertible, and a time series is estimable |
+| *Adolescent background and fertility norms: implications for racial differences in early childbearing* (1990) | "early childbearing" may be a timing or level measure rather than a ratio, and the exposure is explicitly **fertility norms** |
+| *Female Sexual Attitudes and the Rise of Illegitimacy* (1981) | attitudes as exposure; measure unknown |
+| *Religion Affects Whether US Women Marry Early … or Have a Nonmarital Birth* (2026) | a hazard of nonmarital birth is closer to a rate than a ratio |
+| *Illegitimate Births and Bridal Pregnancy* (2008) | measure unknown |
+
+All five are on the wantlist. Until they are read, `PRIMARY_NORM_FERTILITY = 0` remains conditional
+on them as well as on the 13 unretrieved A.5 records.
