@@ -189,3 +189,79 @@ the scope doc's six walls. Both records are flagged for second read.
 | `MIXED_NORM_TECH` | 1 |
 | `OFF_OTHER_STIGMA` | 1 |
 | `MIXED_NORM_LAW` | 1 |
+
+## Primary cell closed (`416`, `417`)
+
+All **8 of 8** unresolved records are now read — 2 by open access, 6 by hand through the UChicago proxy, 2 of those 6 only after OCR.
+
+### The last two
+
+| id | what it is | cell |
+|---|---|---|
+| `W1976018943` | Wolff et al., *Stud Fam Plann* 2000 — **partner opposition** and unmet need in Uganda | `LINK_NORM_USE` |
+| `W2112312272` | Caldwell, *PDR* 1999 — moral and religious disapproval and the delayed Western decline | `CONTEXT_STIGMA_MEASURE` |
+
+Wolff is the closest match to A.6's registered exposure in the whole pool: partner
+opposition itself, quantified at roughly 15% of unmet need overall. Its outcome is
+unmet need and method mix. **The authors name the missing study themselves** — the
+question A.6 asks "would require a prospective study over time to observe the fertility
+outcomes of disagreement", which they did not do and which nothing in these 164
+screened records has done.
+
+Caldwell is the only substantial **FDT** treatment of A.6's mechanism in the corpus, and
+the FDT cell is otherwise empty. It argues the case historically — zero regressions, one
+table — rather than estimating it.
+
+### `PRIMARY_NORM_FERTILITY`: **0** — closed
+
+Empty, with **every retrievable record read**. Seven channels agree:
+
+| channel | result |
+|---|---|
+| identified-design share of the frame | 12 / 668 |
+| realized-fertility share of the frame | 58 / 668 |
+| anchor reachability, stage-2 frame | 0 / 15 |
+| citation bridges | 8, none an estimate |
+| exhaustive screen | 0 / 164 |
+| full text of the decider | `LINK_NORM_USE` |
+| full text of the remaining 7 | 0 primary |
+
+The finding is not that the evidence is weak. It is that the study A.6 requires —
+normative exposure, fertility outcome, identification — does not exist in this
+literature, and two of its best papers say so in their own words: Wolff by naming
+the prospective study nobody has run, Caldwell by arguing the case historically
+instead of estimating it.
+
+Per scope §12 the verdict is **UNEVALUATED with the failed route named** — R1 for
+want of an identified fertility outcome, R3 for want of a pre-1985 dose series —
+and explicitly not "weak evidence". `LINK_NORM_USE` stands at **27** and
+is poolable as stratum 3 under a heading that disclaims it as the parameter.
+
+### What is still open
+
+- **5 records flagged for second read**, per the rubric's asymmetric
+  rule: `W108787496` and `W2187750596` (reclassifications of the two highest-prior records), plus the batch-1 provisional calls.
+- **PI call 7** — the `MIXED_NORM_MARRIAGE` rubric gap on the A.6/D.2.b boundary.
+- **The sampled tail** (S5/S6/S7, 240 of 2,651 records) is unread. It bounds the
+  chance the flagger misrouted a primary-cell study out of the exhaustive strata;
+  that bound is not yet established.
+- **OCR noise**: `416` recovered 548 and 821 words/page, ample for screening, but
+  Wiley's vertical watermark interleaves with body text and two-column pages mix
+  across line breaks. Cell assignments rest on abstracts, headings and table
+  structure, which survived cleanly. **Any quotation from those two must be checked
+  against the PDF before it reaches a chapter.**
+
+### Tally across 164 screened records
+
+| cell | n |
+|---|---|
+| `CONTEXT_STIGMA_MEASURE` | 66 |
+| `OFF_OTHER` | 28 |
+| `LINK_NORM_USE` | 27 |
+| `MIXED_NORM_SUPPLY` | 25 |
+| `MIXED_NORM_DIFFUSION` | 10 |
+| `OFF_HIV_STIGMA` | 3 |
+| `MIXED_NORM_SECULAR` | 2 |
+| `MIXED_NORM_TECH` | 1 |
+| `OFF_OTHER_STIGMA` | 1 |
+| `MIXED_NORM_LAW` | 1 |
