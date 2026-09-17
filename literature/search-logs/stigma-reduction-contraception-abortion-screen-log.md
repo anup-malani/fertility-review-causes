@@ -322,3 +322,37 @@ retrieval.
 | `OFF_OTHER_STIGMA` | 1 |
 | `MIXED_NORM_SECULAR` | 1 |
 | `MIXED_NORM_LAW` | 1 |
+
+## Correction to the second read (`419`)
+
+`W4224236986` was reclassified by `418` on **ten keyword greps and roughly 2,500 characters
+of context windows** out of a 9,619-word paper. The abstract, measures, specification
+and tables were not read, yet the note asserted a design and a measurement scale. The
+cell was right; the basis was not adequate, and a note that overstates what was read is
+worse than a wrong cell, because a later reader cannot tell which claims were checked.
+
+Verified read, and what changed:
+
+| claim in `418`'s note | status after reading |
+|---|---|
+| weekly longitudinal panel | **confirmed** — RDSL, 39,806 person-weeks across 680 women, weekly journals over 2.5 years |
+| mediation design | **confirmed** — the paper's own framing: religiosity "operates largely through women's reproductive attitudes, anticipated feelings of guilt after sex" |
+| "moral opposition to birth control" on a 0–4 scale | **corrected** — the item is *"birth control is morally wrong"*, a real repeatedly-measured variable, but an **internal moral belief**, which wall 5 puts nearer D.1.a |
+| A.6's construct is separately dosed | **confirmed on a different measure** — *"friends' approval of sex without birth control"* (0–5), with parents' and friends' approval: the normative-environment block, i.e. social cost |
+
+The reclassification to `LINK_NORM_USE` therefore stands, on **stronger** grounds than
+`418` gave: the record separately measures both sides of wall 5 — private moral belief
+(D.1.a) and perceived social approval (A.6) — which makes it the cleanest empirical
+statement of that distinction in the corpus and the natural evidence base for PI call 5.
+`stigma_bearer` corrected from `SELF` to `COMMUNITY` accordingly.
+
+### A wrinkle for §11, found only by reading it
+
+The paper's **"contraceptive work-around"** mechanism runs *against* A.6's predicted
+sign. Because a nonmarital pregnancy would expose stigmatised sexual activity, highly
+religious women who do have sex may use hormonal contraception **more**, to conceal it.
+So stigma attached to *premarital sex* raises contraceptive use while stigma attached to
+*contraception* lowers it, and a study that does not separate the two objects can
+recover either sign. A.6's registered claim assumes only the second. This belongs in the
+chapter's identification-threats section and would not have been found from an abstract.
+
