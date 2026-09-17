@@ -370,7 +370,47 @@ R1 for want of an identified fertility outcome, R3 for want of a pre-1985 dose s
 explicitly **not** "weak evidence" (`empty-cell-is-the-result`). A pooled estimate will be reported
 for stratum 3 only under a heading that says it is the link and not the claim.
 
-## 13. Open PI calls
+## 13. PI calls — **ALL SEVEN RESOLVED 2026-09-17**
+
+> **Rulings, as given. These are now binding on the chapter and supersede the recommendations
+> below, which are retained so the reasoning that was put to the PI stays visible.**
+>
+> | call | ruling |
+> |---|---|
+> | 1 | **A.6 stays as registered. Do not redefine.** *"If there are no papers, we should keep that. It's better to report an honest output given our pre-registered plan than to change it given findings related to evidence."* |
+> | 2 | **Hold ruling 2.** Report the 28 `LINK_NORM_USE` records as link evidence under a heading disclaiming them as the parameter. |
+> | 3 | **Fix `304` under TICK-080** — check the registry's own nouns, record conjunction depth, then re-rank. Does not block TICK-087. |
+> | 4 | **A.5 is a bundle, not a wall.** |
+> | 5 | **As recommended.** A.6 owns a religious authority's ruling as a shock to acceptability, and others' perceived approval; D.1.a owns the secular decline in religiosity as value change. |
+> | 6 | **Open the cell.** `OFF_HIV_STIGMA` stands as its own cell. |
+> | 7 | **No.** A.6 does **not** get a `MIXED_NORM_MARRIAGE` cell, and D.2.b is not added as a wall. |
+>
+> **Call 1 is the most consequential, and it decides the chapter's output.** The recommendation
+> below proposed redefining A.6 around the literature that turned out to be reachable. That was an
+> outcome-driven scope change — the evidence base was inspected first and the estimand proposed
+> second — which is the thing pre-registration exists to prevent. The ruling rejects it. The
+> chapter therefore reports the **empty primary cell** as its result, per §12: **UNEVALUATED with
+> the failed route named**, R1 for want of an identified fertility outcome and R3 for want of a
+> pre-1985 dose series.
+>
+> The structural fact remains reportable as a **finding** rather than as grounds for redefinition:
+> A.6 as registered has no canonical literature of its own — three of its four seminals are the
+> ideational-change canon and the fourth is A.2's — and no study in 164 screened records pairs its
+> exposure with its outcome. Wolff et al. 2000 say why in their own words. That belongs in the
+> chapter and in the future-research section; it does not license rewriting the claim.
+>
+> **Call 4's ruling has teeth, and it reopens a route a pure wall would have closed.** Treating A.5
+> as a bundle means the **25 `MIXED_NORM_SUPPLY` records are admissible pending inspection**, not
+> routed out: the full-text screen must ask of each whether the norm component was separately
+> dosed. Three of the five identified records across the substantive walls sit in A.5. If any of
+> them carries a separately dosed norm *and* a fertility outcome, it enters
+> `PRIMARY_NORM_FERTILITY` — so the primary cell is **not** closed for good until that pass is
+> done. §15's closure statement is conditional on it.
+>
+> **Call 7's ruling needs one clarification before it can be applied** — see the note at the end of
+> this section.
+
+### The calls as put to the PI
 
 1. **Is A.6 separable at all, given that none of its four registered seminal works is a stigma
    paper?** This call was sharpened by `408` and is now the most consequential of the six. Wall 1
@@ -422,6 +462,26 @@ for stratum 3 only under a heading that says it is the link and not the claim.
    because at this volume it will otherwise dominate the off-cell counts and hide the rest, and
    because a subset of it — HIV-status stigma suppressing contraceptive use — may be admissible
    link evidence on inspection.*
+
+### Call 7 — the ruling is clear, its application is not
+
+The ruling is **no cell and no wall**. Two readings follow, and they differ by a record:
+
+- **(a) No cell is needed because premarital-sex and out-of-wedlock norms fall *inside* A.6's
+  exposure.** Then Ragan 2012 stays `LINK_NORM_USE` and nothing changes.
+- **(b) No cell is needed because they fall *outside* A.6 altogether.** Then Ragan's stigma object
+  is nonmarital sex rather than contraception, the rubric's object gate applies to the exposure as
+  well as the outcome, and Ragan becomes `OFF_OTHER` — dropping `LINK_NORM_USE` to 27 and removing
+  the second-best-designed record from the link stratum.
+
+The registry supports (b) on a literal reading: §A.6's object is "contraception and abortion", and
+Ragan's stigma attaches to out-of-wedlock childbearing, with contraception as the *response* to it.
+But (b) also discards a panel study whose dependent variable is Pill demand, which is squarely the
+link this chapter is now reporting under call 2.
+
+**Not resolved unilaterally.** Awaiting the PI's reading; recorded here rather than guessed, because
+the last time this document inferred a borderline routing call from a plausible premise, `418` got
+it wrong and `419` had to correct the audit trail.
 
 ## 14. Reachability ceiling and the production design **[408]**
 
@@ -541,6 +601,13 @@ citation structure yields 8 bridges, none of them an estimate (here). The honest
 §12 — and the remaining work is to establish that emptiness properly by screening, not to hunt for
 a result that four channels agree is absent (`empty-cell-is-the-result`,
 `empty-cell-needs-second-channel` — here it has four).
+
+> **Amended 2026-09-17 by PI call 4.** The emptiness is **not yet final.** Ruling A.5 a bundle
+> rather than a wall makes the 25 `MIXED_NORM_SUPPLY` records admissible pending inspection, and
+> three of the five identified records across the substantive walls sit in A.5. Any one of them
+> carrying a separately dosed norm component *and* a fertility outcome enters
+> `PRIMARY_NORM_FERTILITY`. Until that full-text pass is done, every closure statement in this
+> document and in the screen log is conditional on it.
 
 ## Provenance
 

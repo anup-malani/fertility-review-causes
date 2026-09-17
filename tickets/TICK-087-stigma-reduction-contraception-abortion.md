@@ -96,3 +96,32 @@ frame; and A.3 has **154** in-frame records with realized-fertility vocabulary a
 A.6 is cheaper to screen and less likely to yield an estimable parameter. That tension is a PI call
 in the scope doc, not a reason to switch again — the PI has directed that work continue on A.6
 regardless of whether other candidates are smaller.
+
+**2026-09-17 — all seven PI calls resolved. Recorded in scope §13.**
+
+Rulings: (1) **A.6 stays as registered, no redefinition** — report the honest empty cell given the
+pre-registered plan rather than change the plan on the strength of what evidence exists;
+(2) hold ruling 2, report the 28 link records under a disclaiming heading; (3) fix `304` under
+TICK-080 then re-rank; (4) **A.5 is a bundle, not a wall**; (5) as recommended on religious
+opposition; (6) `OFF_HIV_STIGMA` gets its own cell; (7) **no** `MIXED_NORM_MARRIAGE` cell and no
+D.2.b wall.
+
+Two consequences that change the remaining work.
+
+**Call 1 settles the output.** The verdict is UNEVALUATED with the failed route named (R1, R3). The
+recommendation this ticket put to the PI — redefining A.6 around the reachable literature — was an
+outcome-driven scope change, and was rejected on exactly that ground. The structural fact stays
+reportable as a *finding*: A.6 as registered has no canonical literature of its own, and no study
+in 164 screened records pairs its exposure with its outcome.
+
+**Call 4 reopens the primary cell.** Ruling A.5 a bundle makes the 25 `MIXED_NORM_SUPPLY` records
+admissible pending a full-text pass that asks whether the norm component was separately dosed, and
+3 of the 5 identified records across the substantive walls sit in A.5. Any one of them with a
+separately dosed norm and a fertility outcome enters `PRIMARY_NORM_FERTILITY`. **Every closure
+statement in the scope doc and the screen log is now conditional on that pass**, which is the next
+substantive work on this ticket.
+
+Open: call 7's ruling is clear but its application is ambiguous (does Ragan 2012 stay
+`LINK_NORM_USE` or become `OFF_OTHER`?) and is recorded unresolved rather than guessed. Call 3
+needs a ticket number for the `304` fix, deferred until the push works so the reservation is
+visible.
