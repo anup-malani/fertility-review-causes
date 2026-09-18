@@ -21,7 +21,7 @@
 - [ ] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise
 - [ ] 10. Demographic significance against PM / FDT / SDT
 - [ ] 11. GRADE rating, 3 independent raters
-- [ ] 12. Chapter draft on the §6 template
+- [~] 12. Chapter draft on the §6 template — **methods-complete scaffold** at `output/chapters/diffusion-of-fertility-control.md` (§§1–6 supported; §§7–10 pending extraction)
 - [ ] 13. RA lay-readability check
 - [ ] 14. PI review and sign-off
 
@@ -105,10 +105,23 @@ correctness lives in the assembler); JSON extraction made robust to a preamble-b
 per-batch retry added so stochastic single-record slips self-heal. One multi-worker cascade was the
 account session-limit, not code. These make the screen runner reusable for the next chapter.
 
-*Next.* Two AI-executable branches remain (GACS D2b Sonnet precision/estimand pass; discriminative-term
-+ CV + production-query recall grading) plus the human gates (freeze gold after the 3 VoR swaps; RA
-title/abstract gate on the 252 + UNCERTAIN; full-text retrieval; GRADE panel; PI sign-off). Gold still
-NOT frozen.
+**2026-09-18 — Stage 12 methods-complete chapter scaffold drafted.**
+
+*Result.* `output/chapters/diffusion-of-fertility-control.md` on the authoritative `docs/chapter-template.md`,
+with the seven mandatory sentences. §§1–6 (claim, mechanism, six-wall search strategy, PRISMA funnel,
+ideal design, naive-estimator check) are fully supported by the scope + screen. §§7–10 (synthesis,
+demographic significance, GRADE, verdict) are honestly marked **pending full-text extraction** — no
+pooled estimate, no GRADE above "No evidence," every results cell NOT ASSESSED with its sign stated.
+Provenance: written on 0/44 wanted full texts. The demographic-significance units check (S4) is written:
+diffusion's output (a share of the transition's pace net of economics) is commensurable with the
+phenomenon (births per woman), so unlike A.12 the units do not rule it out a priori — magnitude is the
+empirical question the 44-study identified core must answer.
+
+*Next — the pipeline now hits human gates and cost/PI decisions (needs input).* (a) RA title/abstract
+gate on the 252 pooling + 818 UNCERTAIN; (b) full-text retrieval of the 44 identified core (RA library
+proxy for non-OA; automated OA fetch possible for a fraction); (c) the 3 VoR gold swaps + RA sign-off to
+freeze the gold; (d) optional GACS D2b Sonnet precision pass (LLM cost, account is limit-sensitive);
+(e) PI ratification of the A.20 channel-excluded ruling before extraction. Stages 4–11, 13–14 remain.
 
 
 **2026-09-17 — parked the same day it was opened, by its own opening measurement.**
