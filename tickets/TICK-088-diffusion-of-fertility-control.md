@@ -69,9 +69,46 @@ forward-seeded; harmless and recall-positive, frame stayed at 3.5k. (2) Coale-Wa
 the De Gruyter reprint's "Chapter 7" fragment, not the whole EFP volume, so its citation contribution
 is only that chapter's; title-key the volume on freeze.
 
-*Next.* Screen the 3,524-candidate Tier-B frame (Haiku→Sonnet, mirror 75/76 D.3.b) on the six-wall
-rubric; this is the first heavy-LLM step. Gold still NOT frozen — freeze waits on the VoR swaps
-(Kohler→Demography, Spolaore-Wacziarg→EJ, Coale-Watkins→title-key) and RA sign-off.
+**2026-09-18 — Stage 3 cont'd: screen infrastructure built and piloted (3/89 batches).**
+
+*Result.* `91_a3_make_screen_batches.py` blinded the 3,524-candidate frame into 89 batches of ≤40
+(SEED 883; coverage invariant enforced) and wrote the six-wall screening rubric v1
+(`diffusion-of-fertility-control-screen-rubric.md`). `92_a3_validate_screen.py` (validator) and
+`93_a3_run_screen.py` (resumable, fail-closed runner mirroring 60) run each batch through
+`claude -p --model claude-haiku-4-5` (GACS D2a recall filter) with atomic writes and a non-secret
+execution log. A 3-batch Haiku pilot (120 papers) validated clean: 92 NOT_RELEVANT / 17 UNCERTAIN /
+11 RELEVANT; all six walls exercised; A.3 cells populating; identification tag 18 descriptive-residual
+vs 9 separates-from-common-shock (the predicted thin identified core).
+
+*Two rubric fixes made during the pilot (both in the committed scripts).* (1) Verdict↔cell convention
+made explicit: `RELEVANT` is reserved for A.3's own primary/theory cells; a route-away paper is
+`NOT_RELEVANT` with the `OFF_*` cell recording its destination (the first pilot pass failed because the
+model, sensibly, marked walls NOT_RELEVANT while the validator copied child-labor's strict
+NOT_RELEVANT⇒NA rule). (2) `evidence_type` widened to add `historical`/`qualitative`/`descriptive` —
+A.3's literature is heavily those and the child-labor 7-value vocab rejected them.
+
+**2026-09-18 — Stage 3 cont'd: full 89-batch Haiku screen complete + assembled.**
+
+*Result.* All 3,524 candidates screened (89/89 batches, 0 invalid, 0 conformance errors), parallelized
+across ~8 disjoint-range workers. Assembler `94_a3_assemble_screen.py` (mirror 76) → 330 RELEVANT /
+818 UNCERTAIN / 2,376 NOT_RELEVANT; tiers T1 27 / T2 303 / T3 818. **Pooling set 252 distinct**
+(RELEVANT ∩ PRIMARY ∩ non-review/theory): social-exposure 139, spatial-diffusion 70, legitimation 24,
+cultural-boundary 19. Split by `identification_of_diffusion`: **44 identified core vs 194 descriptive
+residual** — the thin-identified-core asymmetry the scope predicted, realized (4.4×). Theory stream
+113. Routing validated: all 5 decoy duplicates in-frame routed away correctly (soap operas/cable TV →
+A.20, the Pill → A.2, Fernández-Fogli → A.19). Outputs in `output/diffusion-of-fertility-control-{screen-tiers,estimand-ready,theory-stream,screen-report}`;
+scripts 91–94 + rubric + manifest committed.
+
+*Runner hardening (four fixes during the run, all in 92/93).* evidence_type widened to free-text
+(review/theory the only load-bearing tokens); verdict↔cell pairing enforcement dropped (pooling
+correctness lives in the assembler); JSON extraction made robust to a preamble-before-fence; bounded
+per-batch retry added so stochastic single-record slips self-heal. One multi-worker cascade was the
+account session-limit, not code. These make the screen runner reusable for the next chapter.
+
+*Next.* Two AI-executable branches remain (GACS D2b Sonnet precision/estimand pass; discriminative-term
++ CV + production-query recall grading) plus the human gates (freeze gold after the 3 VoR swaps; RA
+title/abstract gate on the 252 + UNCERTAIN; full-text retrieval; GRADE panel; PI sign-off). Gold still
+NOT frozen.
 
 
 **2026-09-17 — parked the same day it was opened, by its own opening measurement.**

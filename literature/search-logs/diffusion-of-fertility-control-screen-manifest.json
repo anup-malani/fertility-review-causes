@@ -1,0 +1,646 @@
+{
+  "slug": "diffusion-of-fertility-control",
+  "stage": "blinded_title_abstract_screen_input",
+  "source": "literature/search-logs/diffusion-of-fertility-control-tier-b-frame.json",
+  "source_sha256": "11c4a6d16b8cab61528307d1115e3c09cd675a1654f5bf14eb7b21a072082208",
+  "seed": 883,
+  "batch_size": 40,
+  "records": 3524,
+  "batches": 89,
+  "records_with_abstract": 2609,
+  "blinded_fields": [
+    "doi",
+    "authors",
+    "venue",
+    "cited_by_count",
+    "discovery_channels",
+    "seed_ids",
+    "gold_status"
+  ],
+  "coverage_verified": true,
+  "manifest": [
+    {
+      "batch": 1,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_001.json",
+      "input_sha256": "e4aff6f26f0b0c70e9afab719a18f941eaa45e158c57f659396858c8d43c90bd",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_001.json"
+    },
+    {
+      "batch": 2,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_002.json",
+      "input_sha256": "fd6e5dfa50f76c1bfa3c613dd9cb5102438a92739d21ac7ea64e1b10c33faf56",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_002.json"
+    },
+    {
+      "batch": 3,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_003.json",
+      "input_sha256": "ea1357e4c0388d4db5167189c62948acfc65ba1dd779f0f38ea197562a95cc9a",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_003.json"
+    },
+    {
+      "batch": 4,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_004.json",
+      "input_sha256": "75907897e2561c918b41c5fa265d0b6ec79cd494108c838c432e5097d3dbb99d",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_004.json"
+    },
+    {
+      "batch": 5,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_005.json",
+      "input_sha256": "498b647c1e774ddf2ada8aed978b69f50f739e5326476b09345340a46b92a36f",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_005.json"
+    },
+    {
+      "batch": 6,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_006.json",
+      "input_sha256": "84b5ba8f4ec437d5821e90cddfe82c4e498dbff9c53b8e4a2e11f3aad0f78238",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_006.json"
+    },
+    {
+      "batch": 7,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_007.json",
+      "input_sha256": "96777d2542148bab311319a3915eb507c3161d768583a4fe7776000643908f61",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_007.json"
+    },
+    {
+      "batch": 8,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_008.json",
+      "input_sha256": "31bfa26527d66fc1e3e59980400aa50f22d7ce7d6929b003dc905a80a86965ab",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_008.json"
+    },
+    {
+      "batch": 9,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_009.json",
+      "input_sha256": "9dd3ef17bfb9214786c3f06e29a0ac2dc22f8c13d3d53f63ed6630fa441c3250",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_009.json"
+    },
+    {
+      "batch": 10,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_010.json",
+      "input_sha256": "1b0cfe8dddfe8a010efc12adbcdb4011bedc6c7bbd89a267fa1987bf400228bb",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_010.json"
+    },
+    {
+      "batch": 11,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_011.json",
+      "input_sha256": "7ac0079fbe2963e3b43e4789dcf8fb5353ee5c3cebccd48f43bee2adf38c6ae3",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_011.json"
+    },
+    {
+      "batch": 12,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_012.json",
+      "input_sha256": "93ebe660b4b231aedff23550f68dd5d8beb6ebdf76dc976df4c6f342d50e870d",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_012.json"
+    },
+    {
+      "batch": 13,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_013.json",
+      "input_sha256": "a6eaf3ee750b05a3401be48618400037e00f6bd3aab4f722cd52ce8b0e2c8e97",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_013.json"
+    },
+    {
+      "batch": 14,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_014.json",
+      "input_sha256": "5d15fc296fcac19ffff3c6a70cf4a124b94833ce2d40eea2c6874face5c62591",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_014.json"
+    },
+    {
+      "batch": 15,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_015.json",
+      "input_sha256": "4fb4202f1d8b92d80154da29d1fe390a73d5e879ee8106412ba4112c715726ce",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_015.json"
+    },
+    {
+      "batch": 16,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_016.json",
+      "input_sha256": "4078cf6834c7cff67a3183580fb3bb56258a6e7bf2371e26e5b1652b7db45f93",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_016.json"
+    },
+    {
+      "batch": 17,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_017.json",
+      "input_sha256": "9e7779f6c8262f59c0a2a93aaec1221191f2fcc17449d88ef63bd3ad8ed584fd",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_017.json"
+    },
+    {
+      "batch": 18,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_018.json",
+      "input_sha256": "6b0e1504623024591d254bf212a0c03aa59043f693e20ebdae8f65c5684a9500",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_018.json"
+    },
+    {
+      "batch": 19,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_019.json",
+      "input_sha256": "ff3208e02a68253385b4701d9352859490c2483692708a5a8154dff767ad8867",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_019.json"
+    },
+    {
+      "batch": 20,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_020.json",
+      "input_sha256": "c8925a2fa707fcfa89afe5b2fe7f4ca45f49599e669c24d3e1f27811094899a2",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_020.json"
+    },
+    {
+      "batch": 21,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_021.json",
+      "input_sha256": "db1c3235f5c777aeb2c0465e25fe821dc78e5aaff3f92ca2ca986354849e9211",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_021.json"
+    },
+    {
+      "batch": 22,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_022.json",
+      "input_sha256": "f7a1f0c35a0feef6187eecc2e203403c2f8a41bb241fbd02776b6e83151f3262",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_022.json"
+    },
+    {
+      "batch": 23,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_023.json",
+      "input_sha256": "b3fc661a6404353e4708e98a46ff30e82e01e85f2a04b586cd62434ca5dfd605",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_023.json"
+    },
+    {
+      "batch": 24,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_024.json",
+      "input_sha256": "434411b49537d88c37714767859d7fb1d580619002dedf5fab2009419e491ce5",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_024.json"
+    },
+    {
+      "batch": 25,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_025.json",
+      "input_sha256": "ec71696a0b0c5c72ab23a1077b831a7c6373c59c5f5795941f65d466010d7459",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_025.json"
+    },
+    {
+      "batch": 26,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_026.json",
+      "input_sha256": "a8ac69b1473d01e3faf344258170ae268306a29f638643a14fe68dd7be942aee",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_026.json"
+    },
+    {
+      "batch": 27,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_027.json",
+      "input_sha256": "8c064b6250790422c67b5af0265ce40a3ed122991422cfcf4d16ade97f26d208",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_027.json"
+    },
+    {
+      "batch": 28,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_028.json",
+      "input_sha256": "3d18c7e6cadd154799219b785177a5c976489c616a38c9258e2b7d8506d59018",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_028.json"
+    },
+    {
+      "batch": 29,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_029.json",
+      "input_sha256": "7aba04cbcb38599167963cf71a8eb64d072825e59df36139f332a206ac3724c4",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_029.json"
+    },
+    {
+      "batch": 30,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_030.json",
+      "input_sha256": "0705d9ba65c60ed50d84570a9f937d833150ff873db01a1e336982457dfb11c9",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_030.json"
+    },
+    {
+      "batch": 31,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_031.json",
+      "input_sha256": "b86854fd26d8ec508b076f07bf37df8bdd9f8ad5eed89b9ca21ce2149bd346d7",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_031.json"
+    },
+    {
+      "batch": 32,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_032.json",
+      "input_sha256": "69be0ca2a4c23ff1a6cf381aea85f444a72534674a0ca00d9c2da44313326f79",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_032.json"
+    },
+    {
+      "batch": 33,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_033.json",
+      "input_sha256": "760e8426a3379237cfb08a5c3beb6ff3cc321e21098f1c0972998273df35f651",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_033.json"
+    },
+    {
+      "batch": 34,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_034.json",
+      "input_sha256": "2f37cb827670669625b9c2190e49aa3c50a350e616f39d0bd6d71a36ab0090ea",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_034.json"
+    },
+    {
+      "batch": 35,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_035.json",
+      "input_sha256": "ab45b3741e7ac90d1f98a433a9a480bcdf0d047d1c491c66d8f369a59a38d2e1",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_035.json"
+    },
+    {
+      "batch": 36,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_036.json",
+      "input_sha256": "7abe6618518a6cef4a0b8222edab4d58575be5bac0275a8996eeb671527919ef",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_036.json"
+    },
+    {
+      "batch": 37,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_037.json",
+      "input_sha256": "8a7626b5670d908c189bbcd113cf4b3bd7cd0f842fccd899164794cbf18c79a0",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_037.json"
+    },
+    {
+      "batch": 38,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_038.json",
+      "input_sha256": "2a33dd37f6df5d34800b57283117fa097eec452ee843e501d090e9fec69af58e",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_038.json"
+    },
+    {
+      "batch": 39,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_039.json",
+      "input_sha256": "5790ca1fea45a840662e1bdf8639ce0125ff005241515eb6029c2f8b34ec8ff2",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_039.json"
+    },
+    {
+      "batch": 40,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_040.json",
+      "input_sha256": "176d360a6868fb810eb3a4fa2086f62ecfc4f618ac6e770d5d5c4768a504505a",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_040.json"
+    },
+    {
+      "batch": 41,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_041.json",
+      "input_sha256": "2381532c8d6966bb4fefa5b9117a544ac547c68fcf2c90000a8175f61a053399",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_041.json"
+    },
+    {
+      "batch": 42,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_042.json",
+      "input_sha256": "dfff66ff020f5b3ee9c6afff03ccf7c1f70c50e09fe9d2d459a4ff026ce5cd3d",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_042.json"
+    },
+    {
+      "batch": 43,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_043.json",
+      "input_sha256": "60ee71e32149aa86d91827377e4be80cc516b2815edd3268cf30c914c8d77788",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_043.json"
+    },
+    {
+      "batch": 44,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_044.json",
+      "input_sha256": "67285fad0f14d6ee35c2f23c543e36f36278cd50189c1b44b90ac3b6ad4c4d6a",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_044.json"
+    },
+    {
+      "batch": 45,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_045.json",
+      "input_sha256": "0521b56b9af6540daac45ea7735bda495aabc0a5d767358c2eeae33dcf7e938f",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_045.json"
+    },
+    {
+      "batch": 46,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_046.json",
+      "input_sha256": "34ed51049ff60a296f00bf8ca61ed1fac6a68244edfaba811b879a7aeacc992b",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_046.json"
+    },
+    {
+      "batch": 47,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_047.json",
+      "input_sha256": "b3dad4eed0a33afff96697fb42ad35a00b5cb6b77005ea7e576e866c3587a25d",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_047.json"
+    },
+    {
+      "batch": 48,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_048.json",
+      "input_sha256": "fce18785ae1af52fb734fa4c1f7708a8a151b1b7ece335ea94418c1de2ec72fb",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_048.json"
+    },
+    {
+      "batch": 49,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_049.json",
+      "input_sha256": "1eda5a38363839c9e2ee95bb2d61e536cbd8e2cbf3044d2a47ddf7efe00fc482",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_049.json"
+    },
+    {
+      "batch": 50,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_050.json",
+      "input_sha256": "2178fc2a7cdede3bdbcf326d5f61f5d8d000a73f521c009d98508cc668fe6102",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_050.json"
+    },
+    {
+      "batch": 51,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_051.json",
+      "input_sha256": "4e91c1ec68577c76d02bab67a9d62c7e9306e607d1ae5ac8ad130539ff91465c",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_051.json"
+    },
+    {
+      "batch": 52,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_052.json",
+      "input_sha256": "816b558931ed26be470b8b610aa1ec50cca5f888197e75925968dcaae26e5bd5",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_052.json"
+    },
+    {
+      "batch": 53,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_053.json",
+      "input_sha256": "cf43263e9eebc5c031c38b067f919c823e569cb439c06e9e4c13f38121b1f2bd",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_053.json"
+    },
+    {
+      "batch": 54,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_054.json",
+      "input_sha256": "04fdffd1e2ac6ba488afa4a50e60333d7d6743ebc71ced7779f92f08d7c9aef3",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_054.json"
+    },
+    {
+      "batch": 55,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_055.json",
+      "input_sha256": "f4cb204344733af61ca132743c51fadb0e1f77e361bcda794509924c4f951f98",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_055.json"
+    },
+    {
+      "batch": 56,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_056.json",
+      "input_sha256": "53b521c962f1fffce162382ddbcabe5030bf71ef9fb3a98bce781b42f01ab4c1",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_056.json"
+    },
+    {
+      "batch": 57,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_057.json",
+      "input_sha256": "b9f3307de281c8180f91dd11fdc304d53074e4e36e6b8731dcb167c1947f358c",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_057.json"
+    },
+    {
+      "batch": 58,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_058.json",
+      "input_sha256": "c65c24c60f1dbebe54678bad52f3f9adf7ae4abc32de729cd190a54ef0d2d690",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_058.json"
+    },
+    {
+      "batch": 59,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_059.json",
+      "input_sha256": "817f945ccd5ff7531ed3664b1164abd8a0453bd8fac7c335d02bf867af5651be",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_059.json"
+    },
+    {
+      "batch": 60,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_060.json",
+      "input_sha256": "0a3d25b6296451a5b00ca46dd13fc579775e9263fba16aad3368c75302d78a69",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_060.json"
+    },
+    {
+      "batch": 61,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_061.json",
+      "input_sha256": "1954dea20eac455189897fe66bc313551f1d5ef92443521aa851516c1b635794",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_061.json"
+    },
+    {
+      "batch": 62,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_062.json",
+      "input_sha256": "ec28463a5d5c24a8f696463339d566ec6004b8a68997fb4f017322a67b99fb6f",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_062.json"
+    },
+    {
+      "batch": 63,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_063.json",
+      "input_sha256": "cb6b4881ecf4a18c6ec112da4e49a2bfaa14866ff557e9a2ffe49622ca7fe299",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_063.json"
+    },
+    {
+      "batch": 64,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_064.json",
+      "input_sha256": "d124266dcdeee38454d52bec1a77d18d7fe88a7ae233514e5993e0a6422e6a3c",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_064.json"
+    },
+    {
+      "batch": 65,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_065.json",
+      "input_sha256": "de78ba6ddd848f578b22275294161fe24a88d4ebff819752f8b37d5c67742eae",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_065.json"
+    },
+    {
+      "batch": 66,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_066.json",
+      "input_sha256": "5b53179e316a2339eca32b1c96660ccb320e4df649cbb8b93172266258871354",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_066.json"
+    },
+    {
+      "batch": 67,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_067.json",
+      "input_sha256": "2d3dbbb9d9c848179cee610885254cad60db1f1f3e119063cc693f3e83d4fb67",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_067.json"
+    },
+    {
+      "batch": 68,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_068.json",
+      "input_sha256": "e8d91ec51ba3152a33ba2558ba566a9dadd6e820efc124f84d948ebddd196ff5",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_068.json"
+    },
+    {
+      "batch": 69,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_069.json",
+      "input_sha256": "31d692c19210f1de889a1d29332ce4ac074fabc44fde9cef0cf2936cf5cd0456",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_069.json"
+    },
+    {
+      "batch": 70,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_070.json",
+      "input_sha256": "e68a39fb1352fa48cfe5bb938149b91cdeb0b03f188eddc3889f072923be51db",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_070.json"
+    },
+    {
+      "batch": 71,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_071.json",
+      "input_sha256": "2a7000ec96c71ec4ded8c4dbc501806ef675bcf034a6059c13290e7c8929b9d2",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_071.json"
+    },
+    {
+      "batch": 72,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_072.json",
+      "input_sha256": "cd2013fec5ba1c9e70553737bd6c8e64e11d3b5b1a9ecd766d1e2f805545920c",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_072.json"
+    },
+    {
+      "batch": 73,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_073.json",
+      "input_sha256": "21d81bb0e8377854e98dee48670c333bac848b051ed24cb1a131651156a664cc",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_073.json"
+    },
+    {
+      "batch": 74,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_074.json",
+      "input_sha256": "6b54612b6e8c4fbebd9b1390c909dea41136b6b54194e3a15567e86a59d648fd",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_074.json"
+    },
+    {
+      "batch": 75,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_075.json",
+      "input_sha256": "7b9c0a2f7b4db024051cdd97ea7c9819d42c0df01b703bb9a7913555a6cbdfc5",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_075.json"
+    },
+    {
+      "batch": 76,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_076.json",
+      "input_sha256": "9f8e5d06b5f690ace0538e75a153c1657544319ad15c91d91d9d59a0f7c649fe",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_076.json"
+    },
+    {
+      "batch": 77,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_077.json",
+      "input_sha256": "61263384a0e5761e949ef3fb7a8d1aa97defe1aa22019fdc2cbcc60df45afe23",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_077.json"
+    },
+    {
+      "batch": 78,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_078.json",
+      "input_sha256": "0628ad8750e5991300911a7fa4e06c2bf1f1e284152091aaf5b796038d347653",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_078.json"
+    },
+    {
+      "batch": 79,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_079.json",
+      "input_sha256": "9d28b78e4a244570c73c6f90e5bb051aabe8a0cb4e4be37b9a700907697e8159",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_079.json"
+    },
+    {
+      "batch": 80,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_080.json",
+      "input_sha256": "5b61c026dc90bd1b71236200aa617b5da65e31fd6636efa2d8f096aeb57479cc",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_080.json"
+    },
+    {
+      "batch": 81,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_081.json",
+      "input_sha256": "f2b8e60c0153f98c8fda56654a95ec4c6db7177273ed06cad52598ebe7c84d44",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_081.json"
+    },
+    {
+      "batch": 82,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_082.json",
+      "input_sha256": "a830f36d2bffa940c296b714991e8eb9b9678a1d7186901bcede618650787d10",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_082.json"
+    },
+    {
+      "batch": 83,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_083.json",
+      "input_sha256": "1b7cb83e407262996d0fa0a5472a7a1b8396ed1c836bb3e36da12733bb7f3099",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_083.json"
+    },
+    {
+      "batch": 84,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_084.json",
+      "input_sha256": "af839d391824874ebda80b74f85cacc0829101fe46b1203e7fe86112df7cf999",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_084.json"
+    },
+    {
+      "batch": 85,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_085.json",
+      "input_sha256": "875e10999136ae481c29fa483066169180a5e7ef1882202470c9bcc2469a3c67",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_085.json"
+    },
+    {
+      "batch": 86,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_086.json",
+      "input_sha256": "588c6c992ebc1f7ae0c95f8a3a093c349362e776e72c747f67b7c8eec9fad784",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_086.json"
+    },
+    {
+      "batch": 87,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_087.json",
+      "input_sha256": "7f152f97623ee9ff34f3d32e0ca65816628c721ab265422c6acf4335fc36ee18",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_087.json"
+    },
+    {
+      "batch": 88,
+      "n": 40,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_088.json",
+      "input_sha256": "0cc2699324931c0c21408bbfc3d44e9a43f5fa9fc660aabeb07a56aa873d16d0",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_088.json"
+    },
+    {
+      "batch": 89,
+      "n": 4,
+      "input": "temp/screen/diffusion-of-fertility-control/batch_089.json",
+      "input_sha256": "4ca6c5d90b0a0c003575089f526122342afe136358fd17db65372ae48d795e72",
+      "output": "temp/screen/diffusion-of-fertility-control/verdict_089.json"
+    }
+  ]
+}
