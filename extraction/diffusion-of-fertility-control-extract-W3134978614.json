@@ -1,0 +1,18 @@
+{
+  "paperId": "W3134978614",
+  "title": "Segregation, fertility, and son preference: the case of the Roma in Serbia",
+  "year": 2021,
+  "venue": "Journal of Demographic Economics",
+  "design_class": "observational (OLS on number of children + Cox proportional-hazard model of birth spacing; no exogenous/quasi-experimental variation in segregation)",
+  "exposure": "residential segregation of Roma settlements, coded categorically as only Roma / mostly Roma / few Roma (interpreted as exposure to the low-fertility Serbian majority culture and thus to cultural diffusion of the small-family and son-preference norms)",
+  "outcome": "marital/completed fertility (number of living children, intensive margin); also birth-spacing hazard and sex ratio at last birth (son preference)",
+  "effect_estimate": "Descriptive: households in 'few Roma' settlements have ~0.8 fewer children (Table 1: 2.811 vs 3.581 in 'only Roma'). OLS baseline (Table 2, col 1): few Roma -0.791*** children, mostly Roma -0.341*; with full controls (col 7): few Roma -0.459***, mostly Roma -0.215**. Birth spacing (Table 3, Panel B, col 1): few Roma coefficient -0.449*** on subsequent-birth hazard (~36% less likely to have an extra child). Son preference: 'few Roma-male' spacing coefficient -0.604* (Table 4).",
+  "effect_se_or_ci": "OLS col 1: few Roma SE 0.189, mostly Roma SE 0.185; col 7: few Roma SE 0.140, mostly Roma SE 0.094. Hazard Table 3 col 1: few Roma SE 0.156. Table 4 few Roma-male SE 0.260. Robust SEs clustered at settlement level with Moulton confidence intervals.",
+  "direction": "yes",
+  "identifies_diffusion_vs_common_shock": "no — authors explicitly state segregation 'does not stem from quasi-experimental variation' and that they 'do not estimate causal effects'; the diffusion interpretation is a descriptive residual (controls shrink but do not close the gap), and selection/common-cause confounding is conceded.",
+  "phenomenon": "FDT",
+  "setting_sample": "Belgrade, Serbia; primary survey Fall 2010; 300 Roma households across 13 settlements (with MICS 2010 non-Roma Serb comparison); women observed at intensive margin.",
+  "routing_check": "confirmed A.3 — Wall-1 residential-segregation paper, but its estimand is genuinely diffusion-of-fertility-control content: segregation is framed as a diffusion-limiting social structure governing exposure to the Serbian majority's low-fertility and son-preference norms, and the paper documents cultural transmission (not just composition). Not A.20 (content is the norm itself, not a content-agnostic channel).",
+  "risk_of_bias": "serious — confounding: no exogenous variation in segregation and self-acknowledged omitted-variable/common-shock confounding; also selection (sample trimmed of most desegregated households, non-representative).",
+  "notes": "All estimates are full-text (Tables 1-4), not abstract-only. Authors' own framing is associational, not causal. Mechanism evidence for diffusion is indirect: less-segregated Roma both have lower fertility and stronger son preference matching the surrounding Serbs, which they read as cultural assimilation from majority to minority. Useful as suggestive/descriptive support for A.3 but must be graded as unidentified."
+}

@@ -1,0 +1,18 @@
+{
+  "paperId": "W4285406628",
+  "title": "Bring a Friend: Strengthening Women's Social Networks and Reproductive Autonomy in India",
+  "year": 2022,
+  "venue": "IZA Discussion Paper No. 15381 (working paper); study registered AEARCTR-0003283",
+  "design_class": "RCT — individual-level stratified randomization into 3 arms (control n=350; 'Own' voucher n=156; 'Bring-a-Friend' (BAF) voucher n=165); OLS on endline outcomes with village fixed effects",
+  "exposure": "randomized inducement to expand/strengthen female peer social ties: the BAF voucher lets a woman offer accompanying female peers their own FP voucher (peer-engagement treatment), benchmarked against the 'Own' voucher (financial access only). Clean social-network parameter = BAF minus Own",
+  "outcome": "modern contraceptive adoption (also: FP clinic visits, number of close peers in village, FP-related peer engagement, fear of stigma)",
+  "effect_estimate": "Modern contraceptive use rose 6 percentage points for both voucher arms vs control (a 56% increase over the 12% control mean). BAF vs Own difference not significant on average (peer effect significant only in subgroups facing social barriers, e.g. +11 p.p. for women valuing concealability). BAF expanded close peers in village by 0.13 (21% over control mean 0.64) and cut fear of stigma by 38%.",
+  "effect_se_or_ci": "6 p.p. contraceptive effect NOT significant at conventional levels: p-values 0.116 (Own) and 0.106 (BAF). Close-peers +0.13 and stigma -38% reported as significant (SEs not transcribed from tables; robust SEs, robust to village clustering and wild-cluster bootstrap)",
+  "direction": "yes (for adoption) — voucher access raises modern-contraceptive adoption; the incremental peer-support (BAF) channel raises adoption/network size only for socially constrained subgroups",
+  "identifies_diffusion_vs_common_shock": "yes — randomized assignment eliminates the reflection/common-shock problem by design; the BAF-vs-Own contrast cleanly isolates the peer-network channel net of the financial (voucher) channel",
+  "phenomenon": "SDT",
+  "setting_sample": "Rural India, Jaunpur district, Uttar Pradesh; 671 married women aged 18-30, 28 villages; 10-month intervention, baseline 2018",
+  "routing_check": "confirmed A.3 for the BAF-vs-Own contrast (identified peer/social-network channel raising contraceptive adoption net of the FP program), but blended with A.5 (the voucher IS a family-planning-program subsidy and drives the headline 6 p.p. / 56% adoption effect) and A.6 (measures fear-of-stigma, cut 38% by BAF). The pooled contraceptive headline is the A.5 voucher effect, not the A.3 peer effect.",
+  "risk_of_bias": "moderate — well-conducted registered RCT with balance checks and Lee bounds; but statistically underpowered (headline contraceptive effect only marginally significant, p~0.11; peer effect significant only in subgroups), small cluster count (28 villages), and some baseline imbalance in mother-in-law opposition and baseline FP use",
+  "notes": "Full-text working paper. Note the mechanism is peer accompaniment/support to physically access an FP clinic and overcome mother-in-law opposition (instrumental social support), NOT the informational/normative social learning about the acceptability of limiting births that A.3 centrally describes; the paper does not measure peer adoption -> own adoption. Study is on contemporary unmet-need FP access, hence SDT-era developing-country context."
+}

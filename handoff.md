@@ -9,17 +9,24 @@ A.20's channel terms to A.3; priced as its own conjoined frame it is ~719, under
 A.3/A.20 wall was resolved **channel-excluded** (A.3 = diffused content, A.20 = channels), an RA
 operational call pending PI ratification before extraction.
 
-Pipeline state: scope frozen; cold-start gold (20 anchors, existence-verified, 0 ghosts) and Tier-A/B
-frame (7 empirical seeds, 3,524-candidate Tier B) built; full 3,524-record Haiku screen done and
-assembled — 330 RELEVANT / 818 UNCERTAIN / 2,376 NOT_RELEVANT, a **252-study pooling set (44 identified
-core / 194 descriptive residual)** and a 113-study theory stream, with all decoys routed away. Chapter
-scaffold at `output/chapters/diffusion-of-fertility-control.md`: §§1–6 supported, §§7–10 pending
-full-text extraction (written on 0/44 wanted full texts).
+Pipeline state: scope frozen; cold-start gold (20 anchors, 0 ghosts) and Tier-A/B frame (3,524
+candidates) built; full Haiku screen done — 252-study pooling set (44 identified core / 194 descriptive)
+and 113-study theory stream, all decoys routed away. Freeze-ready gold (3 VoR swaps), RA gate sheet
+(1,148 rows), and automated OA retrieval (10/44 core, 60/252 pool) done. Three extraction agents read
+the 10 retrieved core PDFs → `extraction/diffusion-of-fertility-control.csv`. Chapter written on the 10
+at `output/chapters/diffusion-of-fertility-control.md` (10/44 full texts).
 
-The screen runner (`source/build/goldset/89`–`94`) was hardened four times and is reusable for the next
-chapter. Next steps are human/PI gates and a cost decision: RA title/abstract gate, full-text retrieval
-of the 44 identified core, 3 version-of-record gold swaps + RA freeze, an optional Sonnet precision
-pass, and PI ratification of the A.20 ruling. Nothing merged to `main` yet; commits sit on the branch.
+**Headline finding: of the 10 studies the screen called "identified," full text finds only 2 identify
+by design, 3 partial, 5 observational — and even the 2 blend economic (China) or program (India)
+channels; the naive correlation overstates diffusion (shrinks 180% / flips sign under proper controls);
+the one retrieved historical-transition study (Bavaria) is counter-evidence.** Verdict: a real but
+modest individual-level effect; demographic significance NOT ASSESSED (no macro panel, no channel-clean
+magnitude); GRADE provisional Very low. The screen runner (`89`–`97`) is hardened and reusable.
+
+Next are human/PI gates: RA reviews the gate sheet; library retrieval of the 34 missing core studies +
+the paywalled anchors (could raise the identified fraction and move the verdict); RA extraction verify;
+gold-freeze sign-off; formal 3-rater GRADE panel at full retrieval; PI ratification of the A.20 ruling;
+PI sign-off. Nothing merged to `main`; commits sit on the branch.
 
 ---
 

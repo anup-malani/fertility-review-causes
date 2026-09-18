@@ -12,16 +12,16 @@
 
 ## Acceptance criteria
 - [x] 2. Search strategy and scope drafted — `literature/search-logs/diffusion-of-fertility-control-search-scope.md`
-- [ ] 3. Literature search and AI screening, both phases (§5.1)
-- [ ] 4. RA title/abstract review
-- [ ] 5. Full-text retrieval
-- [ ] 6. Full-text screen, RA spot-checks 5–10%
-- [ ] 7. Extraction to `extraction/diffusion-of-fertility-control.csv`, RA verifies a random 10%
-- [ ] 8. Risk-of-bias assessment per study
-- [ ] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise
-- [ ] 10. Demographic significance against PM / FDT / SDT
-- [ ] 11. GRADE rating, 3 independent raters
-- [~] 12. Chapter draft on the §6 template — **methods-complete scaffold** at `output/chapters/diffusion-of-fertility-control.md` (§§1–6 supported; §§7–10 pending extraction)
+- [x] 3. Literature search and AI screening — GACS: gold (89), frame (90), Haiku screen 3,524 (91–94)
+- [~] 4. RA title/abstract review — hand-off sheet built (96); **awaits human RA** (`output/diffusion-of-fertility-control-ra-review.csv`, 1,148 rows)
+- [~] 5. Full-text retrieval — automated OA done (97): 10/44 core, 60/252 pool; 192 queued for human (`-missing-pdf-dois.csv`)
+- [~] 6. Full-text screen — routing re-checked on the 10 retrieved; all confirmed A.3, none a wall (2 flags: Denmark mechanism-mismatch, Bavaria off-estimand)
+- [~] 7. Extraction to `extraction/diffusion-of-fertility-control.csv` — 10 retrieved extracted; **RA random-10% verify pending**
+- [~] 8. Risk-of-bias — ROBINS-I coded for the 10 (in the extraction CSV)
+- [~] 9. Synthesis — narrative (no ≥3 comparable effects; heterogeneous exposure units); done on the 10
+- [~] 10. Demographic significance — NOT ASSESSED PM/FDT/SDT with sharpened reasoning + break-even; no macro panel + no poolable magnitude
+- [~] 11. GRADE — provisional **Very low** FDT & SDT with named downgrades; **formal 3-rater panel pending** full retrieval
+- [~] 12. Chapter draft on the §6 template — `output/chapters/diffusion-of-fertility-control.md`, results now on 10/44 retrieved
 - [ ] 13. RA lay-readability check
 - [ ] 14. PI review and sign-off
 
@@ -122,6 +122,29 @@ gate on the 252 pooling + 818 UNCERTAIN; (b) full-text retrieval of the 44 ident
 proxy for non-OA; automated OA fetch possible for a fraction); (c) the 3 VoR gold swaps + RA sign-off to
 freeze the gold; (d) optional GACS D2b Sonnet precision pass (LLM cost, account is limit-sensitive);
 (e) PI ratification of the A.20 channel-excluded ruling before extraction. Stages 4–11, 13–14 remain.
+
+**2026-09-18 — Stages 5–12 on the retrieved subset (RA directive: "write on whatever you could retrieve").**
+
+*Result.* Freeze-ready gold (95, 3 VoR swaps), RA gate sheet (96), OA retrieval (97: 10/44 core,
+60/252 pool). Three parallel extraction agents read the 10 retrieved identified-core PDFs to
+`extraction/diffusion-of-fertility-control.csv` (+ per-paper JSON). Chapter §§5.3–10 rewritten on the 10.
+
+**The load-bearing finding is about the evidence, not the effect: of the 10 the screen tagged
+"identified", full text finds only 2 identify by design (Rossi-Xiao China IV+DiD; Anukriti India RCT),
+3 partial (Iyer-Weeks Kenya GMM+rainfall-IV; Behrman-Kohler-Watkins Kenya FE; Ciliberto Denmark
+bounds), and 5 are observational/descriptive.** Even the identified two are channel-contaminated (China
+blends quantity-quality economics; India rides an A.5 voucher + A.6 stigma). The naive correlation
+overstates diffusion — it shrinks 180% under FE (Kenya) and flips sign under firm RE (Denmark). The one
+retrieved historical-transition study (Brown-Guinnane Bavaria) is counter-evidence: the residual
+vanishes once economics is measured. No poolable set (heterogeneous exposure units) → narrative
+synthesis. Demographic significance NOT ASSESSED (no macro panel, no channel-clean magnitude); GRADE
+provisional Very low FDT & SDT. Verdict: a real but modest individual-level effect, demographic share
+not assessed and likelier small than large on current evidence.
+
+*Next (unchanged human/PI gates).* RA reviews the gate sheet; library retrieval of the 34 missing core
++ anchors (they may raise the identified fraction and move the verdict); RA random-10% extraction verify;
+gold-freeze RA sign-off; formal 3-rater GRADE panel at full retrieval; PI ratification of A.20; PI
+sign-off. Branch unmerged.
 
 
 **2026-09-17 — parked the same day it was opened, by its own opening measurement.**

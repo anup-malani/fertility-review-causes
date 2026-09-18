@@ -1,0 +1,18 @@
+{
+  "paperId": "W3036455314",
+  "title": "Spillovers in Childbearing Decisions and Fertility Transitions: Evidence from China",
+  "year": 2020,
+  "venue": "Tinbergen Institute Discussion Paper TI 2020-031/V (working paper)",
+  "design_class": "quasi-experimental (partial-population experiment; IV with DiD/event-study support). Instrument = Han policy-exposure (ER) x local Han share; endogenous regressor = leave-me-out reference-group mean completed fertility",
+  "exposure": "reference-group average completed fertility of peers (women in same prefecture, same hukou, same birth cohort); peer exposure driven by Han family-planning-policy shock interacted with local Han share",
+  "outcome": "completed fertility (children ever born) of ethnic-minority women",
+  "effect_estimate": "IV estimate theta = 0.648 (Table 4, col 3): a minority woman gives birth to 0.65 fewer children when her reference-group average completed fertility is exogenously reduced by one child. Reduced-form Han-share x Exposure coefficient = -0.193 (Table 4, col 1). Direct Han policy effect (Han sample) rho = -0.22 births per one-birth expected reduction.",
+  "effect_se_or_ci": "theta: SE 0.102, 95% CI [0.45, 0.85]; reduced-form -0.193 SE 0.041; both significant at 1%; first-stage F > 100 (=103.1)",
+  "direction": "yes — a peer (reference-group) reduction in fertility causally lowers a woman's own fertility (social multiplier); indirect/spillover component is ~one third of total policy effect",
+  "identifies_diffusion_vs_common_shock": "yes — exogenous variation from staggered LLF-campaign rollout across provinces and cohorts (Han were subject to quotas, minorities exempt) interacted with local Han share; parallel pre-trends shown via event study and placebo test on older cohorts, and confounders (Great Famine, Cultural Revolution, Send-down movement) explicitly controlled",
+  "phenomenon": "FDT",
+  "setting_sample": "China, 1970s-1980s family-planning era; 1% sample of 1990 census, cohorts born 1926-1945 (women aged 45-64); 57,570 minority and 726,907 Han women",
+  "routing_check": "confirmed A.3 — provides an identified estimate of a peer/spillover (social-multiplier) effect on fertility; note the authors decompose it into a SOCIAL (conformism) channel and an ECONOMIC (quantity-quality / equilibrium price of a child) channel, and explicitly test and rule out 'social learning about birth control' as the mechanism, so part of theta is economic rather than pure social diffusion",
+  "risk_of_bias": "low to moderate — strong quasi-experimental design with rich robustness (event study, placebo, confounding-shock controls); main residual threat is the non-testable exclusion restriction (that Han-share x exposure affects minority fertility only through peer mean fertility, e.g. imperfect enforcement of minority exemptions), which the authors address but cannot fully prove",
+  "notes": "Full-text working paper with complete regression tables (Table 4). theta stable across specifications: 0.65 baseline, 0.63 controlling ER directly, 0.55 in most conservative spec, 0.74 in the 12-cohort placebo-matched sample. Phenomenon coded FDT because this is China's first (marital) fertility transition from high to low deliberate-control fertility, but note the calendar timing (1970s) falls inside the review's SDT window rather than the 1870-1965 FDT window."
+}

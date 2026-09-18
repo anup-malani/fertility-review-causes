@@ -1,0 +1,18 @@
+{
+  "paperId": "W4223963695",
+  "title": "Diffusion Test of Fertility Decline in Arab Countries of the Middle East and North Africa (MENA) Region",
+  "year": 2022,
+  "venue": "Journal of Population and Social Studies (JPSS), Vol. 30, pp. 562-590",
+  "design_class": "descriptive (spatiotemporal Knox statistic with 1,000 Monte Carlo simulations; supported by a random-effects panel regression to impute the Ig marital-fertility index)",
+  "exposure": "spatiotemporal proximity of countries — Knox pairing of geographic closeness (shared border or centroid distance < first quartile, 1,130 km) with temporal closeness (onset of fertility decline in the same 5-year period)",
+  "outcome": "onset/timing of marital fertility decline dated two ways: Schmertmann et al. 2010 method on TFR (SA) and Coale & Treadway 1986 method on Coale's Ig marital-fertility index (CT)",
+  "effect_estimate": "none reported (no effect size). The paper reports two Knox test results only: CT method p-value = 0.3796 (contingency 9/18/36/90); SA method p-value = 0.0549 (contingency 8/8/37/100)",
+  "effect_se_or_ci": "n/a (Knox test p-values via Monte Carlo; no coefficient, SE, or CI)",
+  "direction": "mixed — CT method finds NO significant spatiotemporal clustering (contagion rejected, p=0.38); SA method finds weak clustering significant only at the 6% level (p=0.055)",
+  "identifies_diffusion_vs_common_shock": "no — a Knox spatiotemporal-clustering test cannot separate true contagion from a common regional shock; the authors themselves state spatiotemporal interaction is only evidence 'if it is not explained by the spatiotemporal patterns of other relevant variables', and they fall back on descriptive 'favorable context' / elite-first narrative (a descriptive-residual argument)",
+  "phenomenon": "FDT",
+  "setting_sample": "18 Arab MENA countries, fertility transition c. 1965-2019; UN World Population Prospects estimates 1950-2025, supplemented for pre-1970 nuptiality",
+  "routing_check": "confirmed A.3 — the paper's explicit aim is to test whether the MENA marital-fertility decline resulted from spatiotemporal diffusion (contagion) of deliberate birth control among countries",
+  "risk_of_bias": "serious — inconclusive/contradictory results across the two dating methods; ecological country-level analysis with no control for common economic/cultural determinants (confounding); arbitrary spatial-proximity thresholds; cannot rule out simultaneous common shocks",
+  "notes": "Full-text article; all numeric content is descriptive (Knox p-values in Tables 3-4, onset dates in Tables 1-2, Ig maps in Fig 4). No usable causal effect size. Conclusion is agnostic: authors say the decline was EITHER contagious (SA) OR an intrinsic within-country social/vertical diffusion led by urban elites (CT); they lean on contextual descriptives (elites/cities transitioning first). Phenomenon coded FDT as MENA's first marital-fertility transition, but the calendar timing (1965-2019) lies in the review's SDT window."
+}

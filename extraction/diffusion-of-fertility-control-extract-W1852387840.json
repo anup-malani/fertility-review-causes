@@ -1,0 +1,18 @@
+{
+  "paperId": "W1852387840",
+  "title": "The Fertility Transition in Bavaria",
+  "year": 2001,
+  "venue": "Yale University Economic Growth Center Discussion Paper No. 821",
+  "design_class": "observational (county-level fixed-effects panel regression of marital fertility, 1880-1910, with IV for infant mortality using elevation and milch-cows-per-capita, and year dummies)",
+  "exposure": "none direct for diffusion — the innovation/diffusion ('Princeton') hypothesis is tested only indirectly via whether year dummies ('time itself') retain explanatory power for marital fertility net of measured economic/social change; no measure of social/spatial exposure to prior adopters is constructed",
+  "outcome": "index of marital fertility (Ig) / marital fertility rate at the county and urban-district level",
+  "effect_estimate": "none reported for diffusion. Descriptive decline: overall Bavarian marital fertility fell ~19.6% 1880-1910 (rural ~11.5%, urban ~36.8%). Key finding against pure diffusion: once economic/social variables are included, the year dummies 'tell us nothing' — i.e., the residual time trend that diffusion theories rely on vanishes. Textile employment and rising female wages exert strong downward effects on fertility; Catholicism and secularization (SPD vote) matter; urbanization eventually lowers fertility.",
+  "effect_se_or_ci": "n/a (elasticities and coefficients in Tables 3-4, not extracted; adjusted R-squared .94 rural, .79 urban)",
+  "direction": "n/a — no social-diffusion exposure estimated; the paper argues economic/structural + cultural (religion/secularization) change, not diffusion, drives the transition",
+  "identifies_diffusion_vs_common_shock": "no — no diffusion exposure variable exists; the residual time/'simultaneity' effect that would proxy diffusion is precisely the common-shock/reflection confound, and the authors show it disappears once economic and social change are measured (evidence against, not for, a distinct diffusion effect)",
+  "phenomenon": "FDT",
+  "setting_sample": "Kingdom of Bavaria, Germany; 176 rural counties (Bezirksaemter) and urban districts; census years 1880, 1885, 1895, 1900, 1910; period 1880-1910 (broader descriptive series 1846-1912)",
+  "routing_check": "confirmed A.3-relevant — an explicit econometric test/critique of the European Fertility Project (Princeton) innovation/diffusion interpretation of the fertility transition; bears directly on the A.3 hypothesis by rebutting the 'time itself'/diffusion residual. Provides no diffusion parameter of its own.",
+  "risk_of_bias": "ROBINS-I overall (for the A.3 diffusion question): serious to critical — no diffusion measure; the reflection problem is not solved but rather shown to dissolve into measured economics. (The IV is for infant mortality, a control, not for diffusion.)",
+  "notes": "This is the Princeton-tradition descriptive-residual case flagged in the brief: it works by asking whether the aggregate synchrony/time-effect that diffusion theory invokes survives better economic and social measurement, and finds it does not. Its contribution to A.3 is as counter-evidence to pure diffusion, not as an identified diffusion estimate. Identification of diffusion = no."
+}

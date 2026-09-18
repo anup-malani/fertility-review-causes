@@ -1,0 +1,18 @@
+{
+  "paperId": "W1557995479",
+  "title": "How Can We Measure the Causal Effects of Social Networks Using Observational Data? Evidence from the Diffusion of Family Planning and AIDS Worries in South Nyanza District, Kenya",
+  "year": 2001,
+  "venue": "Max Planck Institute for Demographic Research (MPIDR) Working Paper WP 2001-022",
+  "design_class": "observational (individual fixed-effects panel / linear probability model; OLS comparison)",
+  "exposure": "number (and presence) of a woman's informal family-planning conversational-network partners who use contraception, measured prior to time t; also spatial/AIDS-worry network composition",
+  "outcome": "probability a woman is currently using modern contraception (also ever-use, want-no-more-children, and own perceived AIDS risk)",
+  "effect_estimate": "Individual fixed-effects LPM: probability of current contraceptive use rises by 'a little more than 0.038' per network partner who is a user on average; 'having one contraceptive user among the network partners increases the probability of the female respondent being a current user significantly by about 0.054'; each additional user beyond the first raises probability 'by about 0.032'. OLS estimate of the average per-user effect is biased upward by '180 percent' relative to FE. Effects are larger for men than for women.",
+  "effect_se_or_ci": "n/a in text (point estimates significant; SEs/robust SEs reported in Table 5, not reproduced in narrative). One related regression: past use predicts 0.63 more current user-partners, t-ratio 4.43 in OLS, collapsing to ~0 with fixed effects.",
+  "direction": "yes — more network partners who are contraceptive users RAISES the respondent's own probability of adopting/using contraception",
+  "identifies_diffusion_vs_common_shock": "partial — individual fixed effects sweep out time-invariant homophily/selection and fixed community unobservables (authors show OLS is upward-biased 180%), but there is no instrument or exogenous shock; identification rests on a maintained (untested) assumption that within-person changes in network composition are uncorrelated with period-specific random shocks, so time-varying common shocks are not fully excluded",
+  "phenomenon": "SDT",
+  "setting_sample": "Rural South Nyanza District, Nyanza Province, Kenya (Luo agro-pastoralists); Kenyan Diffusion and Ideational Change Project 3-wave longitudinal survey 1994/95, 1996/97, 2000; 497 women (324 men) present in all three waves used for family-planning FE estimates",
+  "routing_check": "confirmed A.3 — person-to-person social diffusion of modern family planning through conversational networks, net of individual/community controls. Note: despite the methodological title it delivers an APPLIED fertility-control estimate (not method/theory only). Radio (A.20) and schooling are controls, not the diffusion channel of interest.",
+  "risk_of_bias": "ROBINS-I overall: moderate — FE addresses selection/homophily and confounding by fixed traits (main strength); residual threats are time-varying confounding (period shocks), recall/systematic measurement error in reported networks, and sample attrition (authors test attrition, find little bias)",
+  "notes": "Strongest-identified of the four A.3 PDFs. Best available FE estimates that social networks have a significant, substantial causal effect on contraceptive use (raising probability of use by ~one-third at sample means) and on AIDS-risk perception; effects nonlinear/asymmetric and larger for men. Applied, not merely methodological."
+}

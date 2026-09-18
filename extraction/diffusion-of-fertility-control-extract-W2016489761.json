@@ -1,0 +1,18 @@
+{
+  "paperId": "W2016489761",
+  "title": "Social Transmission and the Spread of Modern Contraception in Rural Ethiopia",
+  "year": 2011,
+  "venue": "PLoS ONE 6(7): e22515",
+  "design_class": "observational (discrete-time event-history hazard model with AIC-based model comparison / model averaging)",
+  "exposure": "proportion of ever-users of modern contraception within a woman's (and her husband's) friendship network at time t-1 (unbiased and prestige-biased); minimum spatial distance to a contraceptive ever-user at t-1; network centrality (in/out-degree)",
+  "outcome": "hazard of first-ever uptake of modern contraception (year of first use)",
+  "effect_estimate": "Social-diffusion variables do NOT improve model fit: best model is individual factors + social environment (excludes network social-interaction terms; Akaike weight 0.29). Only a weak conditional interaction is detected: Parity x unbiased proportion of ever-users in women's network OR = 1.30. Non-interacted network exposure, spatial distance, and centrality are effectively null with high model uncertainty. By contrast individual/environment predictors are strong: parity OR = 1.43; education OR = 2.16; Orthodox Christian (vs Muslim) OR = 0.22; frequent radio use OR = 2.12.",
+  "effect_se_or_ci": "Parity x prop.ever-users WNT: 95% CI [1.14; 1.51]. Comparators: parity [1.28;1.62]; education [1.53;3.03]; religion (Christian) [0.10;0.52]; radio [1.18;3.78]",
+  "direction": "mixed/no — person-to-person social diffusion (friendship/spatial networks) does NOT robustly raise adoption; its role is marginal and only conditionally positive for high-parity women",
+  "identifies_diffusion_vs_common_shock": "no — cross-sectional survey-reconstructed networks; uses t-1 network composition to argue temporal ordering but has no instrument/exogenous variation and cannot separate genuine contagion from shared local conditions or homophily (authors themselves cite the Manski reflection problem and Shalizi-Thomas homophily-contagion confounding)",
+  "phenomenon": "SDT",
+  "setting_sample": "Community of agro-pastoralists in 4 villages, Arsi zone, southern rural Ethiopia; 936 ever-married women aged 15-52 surveyed 2008/9; adoption histories 1995-2008; contraceptive prevalence reached 18.8% by 2008",
+  "routing_check": "confirmed A.3 — direct micro-level test of social transmission/diffusion of fertility control through friendship and spatial networks. Radio (A.20 media) and religion (A.6/D.1) enter only as controls; the A.3 diffusion channel is the object of study and is found marginal.",
+  "risk_of_bias": "ROBINS-I overall: serious — reflection/homophily confounding unaddressed, recall-based retrospective adoption dates, censored/incomplete network data, association-only. (Result is a well-executed but non-identified micro test.)",
+  "notes": "IMPORTANT: this file is titled 'Correction:...' but the PDF is the COMPLETE standalone article carrying all data, tables and results (not a content-free erratum) — usable as a full study. A rare 'first-cases' micro-diffusion test whose honest conclusion is that person-to-person diffusion contributes little to early contraceptive uptake once individual and religious/media factors are controlled; phenomenon is a contemporary (post-1965) developing-country early transition, coded SDT by era though structurally an FDT-type onset."
+}
