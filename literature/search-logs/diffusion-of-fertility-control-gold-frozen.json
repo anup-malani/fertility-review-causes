@@ -1,0 +1,425 @@
+{
+  "slug": "diffusion-of-fertility-control",
+  "freeze_status": "vor_swapped_pending_ra_signoff",
+  "note": "Candidate freeze. RA sign-off is the human gate that flips this to frozen. VoR swaps re-resolved live via Crossref + doi.org; no DOI hand-asserted.",
+  "n_anchors": 20,
+  "anchors": [
+    {
+      "title": "Demand theories of the fertility transition: An iconoclastic view",
+      "authors": [
+        "John Cleland",
+        "Christopher Wilson"
+      ],
+      "year": 1987,
+      "provenance_channel": "hypothesis_canon",
+      "provisional_cell": "DIFFUSION_THEORY",
+      "query_cluster_family": "ideational-theory",
+      "source_note": "Population Studies 41(1):5-30. The Cleland-Wilson ideational argument: fertility fell faster and more uniformly than demand theory predicts, implicating idea/legitimation diffusion.",
+      "doi": "10.1080/0032472031000142516",
+      "identity_source": "https://doi.org/10.1080/0032472031000142516",
+      "identity_verified": true,
+      "existence": "FOUND",
+      "match_jaccard": 1.0,
+      "container": "Population Studies",
+      "gold_status": "vor_confirmed_pending_ra_signoff"
+    },
+    {
+      "title": "Social interactions and contemporary fertility transitions",
+      "authors": [
+        "John Bongaarts",
+        "Susan Cotts Watkins"
+      ],
+      "year": 1996,
+      "provenance_channel": "hypothesis_canon",
+      "provisional_cell": "DIFFUSION_THEORY",
+      "query_cluster_family": "social-interaction-theory",
+      "source_note": "Population and Development Review 22(4):639-682. One of A.3's four registered seminals; the social-interaction account of transition timing. Shared seminal with A.20 (channels).",
+      "doi": "10.2307/2137804",
+      "identity_source": "https://doi.org/10.2307/2137804",
+      "identity_verified": true,
+      "existence": "FOUND",
+      "match_jaccard": 1.0,
+      "container": "Population and Development Review",
+      "gold_status": "vor_confirmed_pending_ra_signoff"
+    },
+    {
+      "title": "Social learning, social influence, and new models of fertility",
+      "authors": [
+        "Mark R. Montgomery",
+        "John B. Casterline"
+      ],
+      "year": 1996,
+      "provenance_channel": "hypothesis_canon",
+      "provisional_cell": "DIFFUSION_THEORY",
+      "query_cluster_family": "social-learning-theory",
+      "source_note": "Population and Development Review 22(Suppl):151-175. The canonical social-learning vs social-influence distinction that defines A.3's mechanism.",
+      "doi": "10.2307/2808010",
+      "identity_source": "https://doi.org/10.2307/2808010",
+      "identity_verified": true,
+      "existence": "FOUND",
+      "match_jaccard": 1.0,
+      "container": "Population and Development Review",
+      "gold_status": "vor_confirmed_pending_ra_signoff"
+    },
+    {
+      "title": "Modelling diffusion effects in fertility transition",
+      "authors": [
+        "Luis Rosero-Bixby",
+        "John B. Casterline"
+      ],
+      "year": 1993,
+      "provenance_channel": "hypothesis_canon",
+      "provisional_cell": "DIFFUSION_THEORY",
+      "query_cluster_family": "social-learning-theory",
+      "source_note": "Population Studies 47(1):147-167. Formal diffusion model; an A.3 registered seminal.",
+      "doi": "10.1080/0032472031000146786",
+      "identity_source": "https://doi.org/10.1080/0032472031000146786",
+      "identity_verified": true,
+      "existence": "FOUND",
+      "match_jaccard": 1.0,
+      "container": "Population Studies",
+      "gold_status": "vor_confirmed_pending_ra_signoff"
+    },
+    {
+      "title": "Lessons from the past: Policy implications of historical fertility studies",
+      "authors": [
+        "John Knodel",
+        "Etienne van de Walle"
+      ],
+      "year": 1979,
+      "provenance_channel": "channel1_synthesis_included_study",
+      "provisional_cell": "PRINCETON_CANON",
+      "query_cluster_family": "princeton-efp",
+      "source_note": "Population and Development Review 5(2):217-245. The Princeton EFP synthesis of the language/religion clustering residual that is A.3's empirical signature.",
+      "doi": "10.2307/1971824",
+      "identity_source": "https://doi.org/10.2307/1971824",
+      "identity_verified": true,
+      "existence": "FOUND",
+      "match_jaccard": 1.0,
+      "container": "Population and Development Review",
+      "gold_status": "vor_confirmed_pending_ra_signoff"
+    },
+    {
+      "title": "The Decline of Fertility in Europe",
+      "authors": [
+        "Ansley J. Coale",
+        "Susan Cotts Watkins"
+      ],
+      "year": 1986,
+      "provenance_channel": "channel1_synthesis_included_study",
+      "provisional_cell": "PRINCETON_CANON",
+      "query_cluster_family": "princeton-efp",
+      "source_note": "Princeton University Press (EFP capstone volume). Book: expected Crossref-index miss; carried as the privileged channel-1 synthesis whose province studies seed anchors.",
+      "doi": null,
+      "identity_source": "https://doi.org/10.1515/9781400886692-012",
+      "identity_verified": true,
+      "existence": "FOUND",
+      "match_jaccard": 0.462,
+      "container": "The Decline of Fertility in Europe",
+      "cr_year": 2017,
+      "gold_status": "vor_swapped_book_title_keyed_pending_ra_signoff",
+      "note": "Exact-title match (J=0.462) with year drift: candidate 1986 vs Crossref 2017 (preprint/WP-vs-VoR or undated chapter). Kept keyed on title.",
+      "identity_key": "title",
+      "vor_swap": {
+        "from": "10.1515/9781400886692-012",
+        "to": null,
+        "note": "EFP book: no article DOI; keep keyed on title, doi=null"
+      }
+    },
+    {
+      "title": "Diffusion Processes and Fertility Transition: Selected Perspectives",
+      "authors": [
+        "John B. Casterline"
+      ],
+      "year": 2001,
+      "provenance_channel": "channel1_synthesis_included_study",
+      "provisional_cell": "PRINCETON_CANON",
+      "query_cluster_family": "social-learning-theory",
+      "source_note": "National Academies Press edited volume. Book: expected article-index miss; the second channel-1 synthesis seed. Cleland's 'Potatoes and pills' overview is a chapter here.",
+      "doi": "10.17226/10228",
+      "identity_source": "https://doi.org/10.17226/10228",
+      "identity_verified": true,
+      "existence": "FOUND",
+      "match_jaccard": 0.714,
+      "container": "",
+      "gold_status": "vor_confirmed_pending_ra_signoff"
+    },
+    {
+      "title": "The density of social networks and fertility decisions: Evidence from South Nyanza District, Kenya",
+      "authors": [
+        "Hans-Peter Kohler",
+        "Jere R. Behrman",
+        "Susan C. Watkins"
+      ],
+      "year": 2001,
+      "provenance_channel": "direct_empirical_bibliographic_search",
+      "provisional_cell": "PRIMARY_SOCIAL_EXPOSURE",
+      "query_cluster_family": "social-network-empirical",
+      "source_note": "Demography 38(1):43-58. Identified social-network effect on contraceptive/fertility decisions.",
+      "doi": "10.2307/3088287",
+      "identity_source": "https://doi.org/10.2307/3088287",
+      "identity_verified": true,
+      "existence": "FOUND",
+      "match_jaccard": 1.0,
+      "container": "Fertility and Social Interaction",
+      "gold_status": "vor_swapped_pending_ra_signoff",
+      "vor_swap": {
+        "from": "10.1093/0199244596.003.0003",
+        "to": "10.2307/3088287",
+        "jaccard": 1.0,
+        "container": "demography",
+        "existence": "FOUND",
+        "note": "OUP book-chapter DOI -> Demography 38(1) VoR"
+      }
+    },
+    {
+      "title": "Social norms and the fertility transition",
+      "authors": [
+        "Kaivan Munshi",
+        "Jacques Myaux"
+      ],
+      "year": 2006,
+      "provenance_channel": "direct_empirical_bibliographic_search",
+      "provisional_cell": "PRIMARY_SOCIAL_EXPOSURE",
+      "query_cluster_family": "social-network-empirical",
+      "source_note": "Journal of Development Economics 80(1):1-38. Matlab, Bangladesh; one of the more credibly identified social-interaction fertility papers.",
+      "doi": "10.1016/j.jdeveco.2005.01.002",
+      "identity_source": "https://doi.org/10.1016/j.jdeveco.2005.01.002",
+      "identity_verified": true,
+      "existence": "FOUND",
+      "match_jaccard": 1.0,
+      "container": "Journal of Development Economics",
+      "gold_status": "vor_confirmed_pending_ra_signoff"
+    },
+    {
+      "title": "Social networks and changes in contraceptive use over time: Evidence from a longitudinal study in rural Kenya",
+      "authors": [
+        "Jere R. Behrman",
+        "Hans-Peter Kohler",
+        "Susan C. Watkins"
+      ],
+      "year": 2002,
+      "provenance_channel": "direct_empirical_bibliographic_search",
+      "provisional_cell": "PRIMARY_SOCIAL_EXPOSURE",
+      "query_cluster_family": "social-network-empirical",
+      "source_note": "Demography 39(4):713-738. Longitudinal social-network -> contraceptive adoption.",
+      "doi": "10.1353/dem.2002.0033",
+      "identity_source": "https://doi.org/10.1353/dem.2002.0033",
+      "identity_verified": true,
+      "existence": "FOUND",
+      "match_jaccard": 1.0,
+      "container": "Demography",
+      "gold_status": "vor_confirmed_pending_ra_signoff"
+    },
+    {
+      "title": "Fertility and modernity",
+      "authors": [
+        "Enrico Spolaore",
+        "Romain Wacziarg"
+      ],
+      "year": 2022,
+      "provenance_channel": "direct_empirical_bibliographic_search",
+      "provisional_cell": "PRIMARY_CULTURAL_BOUNDARY_CONTENT",
+      "query_cluster_family": "spatial-cultural-diffusion",
+      "source_note": "The Economic Journal 132(642):796-833. Fertility decline diffuses along ancestral/linguistic distance from the French frontier — the cultural-boundary content signature, net of development.",
+      "doi": "10.1093/ej/ueab066",
+      "identity_source": "https://doi.org/10.1093/ej/ueab066",
+      "identity_verified": true,
+      "existence": "FOUND",
+      "match_jaccard": 1.0,
+      "container": "",
+      "cr_year": 2019,
+      "gold_status": "vor_swapped_pending_ra_signoff",
+      "note": "Exact-title match (J=1.0) with year drift: candidate 2022 vs Crossref 2019 (preprint/WP-vs-VoR or undated chapter). Kept keyed on title.",
+      "vor_swap": {
+        "from": "10.3386/w25957",
+        "to": "10.1093/ej/ueab066",
+        "jaccard": 1.0,
+        "container": "the economic journal",
+        "existence": "FOUND",
+        "note": "NBER working paper -> Economic Journal VoR (Crossref dates it 2021 online-first)"
+      }
+    },
+    {
+      "title": "Can internal migration foster the convergence in regional fertility rates? Evidence from nineteenth century France",
+      "authors": [
+        "Guillaume Daudin",
+        "Raphael Franck",
+        "Hillel Rapoport"
+      ],
+      "year": 2019,
+      "provenance_channel": "direct_empirical_bibliographic_search",
+      "provisional_cell": "PRIMARY_SPATIAL_DIFFUSION",
+      "query_cluster_family": "spatial-cultural-diffusion",
+      "source_note": "The Economic Journal 129(620):1618-1692. Migration-carried diffusion of fertility control across 19th-century French departments; identified spatial diffusion.",
+      "doi": "10.1111/ecoj.12623",
+      "identity_source": "https://doi.org/10.1111/ecoj.12623",
+      "identity_verified": true,
+      "existence": "FOUND",
+      "match_jaccard": 0.875,
+      "container": "The Economic Journal",
+      "gold_status": "vor_confirmed_pending_ra_signoff"
+    },
+    {
+      "title": "Culture and the historical fertility transition",
+      "authors": [
+        "Brian Beach",
+        "W. Walker Hanlon"
+      ],
+      "year": 2023,
+      "provenance_channel": "direct_empirical_bibliographic_search",
+      "provisional_cell": "PRIMARY_CULTURAL_BOUNDARY_CONTENT",
+      "query_cluster_family": "spatial-cultural-diffusion",
+      "source_note": "Review of Economic Studies. Culture/language and the timing of the British fertility transition; identified cultural-boundary diffusion. Year may drift 2022/2023 (VoR vs online).",
+      "doi": "10.1093/restud/rdac059",
+      "identity_source": "https://doi.org/10.1093/restud/rdac059",
+      "identity_verified": true,
+      "existence": "FOUND",
+      "match_jaccard": 1.0,
+      "container": "The Review of Economic Studies",
+      "gold_status": "vor_confirmed_pending_ra_signoff"
+    },
+    {
+      "title": "Interaction diffusion and fertility transition in Costa Rica",
+      "authors": [
+        "Luis Rosero-Bixby",
+        "John B. Casterline"
+      ],
+      "year": 1994,
+      "provenance_channel": "direct_empirical_bibliographic_search",
+      "provisional_cell": "PRIMARY_SOCIAL_EXPOSURE",
+      "query_cluster_family": "social-network-empirical",
+      "source_note": "Social Forces 73(2):435-462. Empirical companion to the 1993 diffusion model.",
+      "doi": "10.2307/2579816",
+      "identity_source": "https://doi.org/10.2307/2579816",
+      "identity_verified": true,
+      "existence": "FOUND",
+      "match_jaccard": 1.0,
+      "container": "Social Forces",
+      "gold_status": "vor_confirmed_pending_ra_signoff"
+    },
+    {
+      "title": "Soap operas and fertility: Evidence from Brazil",
+      "authors": [
+        "Eliana La Ferrara",
+        "Alberto Chong",
+        "Suzanne Duryea"
+      ],
+      "year": 2012,
+      "provenance_channel": "routing_decoy_A20",
+      "provisional_cell": "OFF_CHANNEL_A20",
+      "query_cluster_family": "ROUTING_DECOY",
+      "routing_note": "Mass-media CHANNEL (Globo soap-opera rollout). Cleanest identified estimate in the neighbourhood, but it is a conduit effect -> A.20 under the channel-excluded A.3 wall.",
+      "doi": "10.2139/ssrn.3907394",
+      "identity_source": "https://doi.org/10.2139/ssrn.3907394",
+      "identity_verified": true,
+      "existence": "FOUND",
+      "match_jaccard": 1.0,
+      "container": "",
+      "cr_year": 2021,
+      "gold_status": "vor_confirmed_pending_ra_signoff",
+      "note": "Exact-title match (J=1.0) with year drift: candidate 2012 vs Crossref 2021 (preprint/WP-vs-VoR or undated chapter). Kept keyed on title."
+    },
+    {
+      "title": "The power of TV: Cable television and women's status in India",
+      "authors": [
+        "Robert Jensen",
+        "Emily Oster"
+      ],
+      "year": 2009,
+      "provenance_channel": "routing_decoy_A20",
+      "provisional_cell": "OFF_CHANNEL_A20",
+      "query_cluster_family": "ROUTING_DECOY",
+      "routing_note": "Cable-TV CHANNEL effect on fertility/autonomy -> A.20; not A.3's diffused content.",
+      "doi": "10.3386/w13305",
+      "identity_source": "https://doi.org/10.3386/w13305",
+      "identity_verified": true,
+      "existence": "FOUND",
+      "match_jaccard": 1.0,
+      "container": "",
+      "cr_year": 2007,
+      "gold_status": "vor_confirmed_pending_ra_signoff",
+      "note": "Exact-title match (J=1.0) with year drift: candidate 2009 vs Crossref 2007 (preprint/WP-vs-VoR or undated chapter). Kept keyed on title."
+    },
+    {
+      "title": "The power of the pill: Oral contraceptives and women's career and marriage decisions",
+      "authors": [
+        "Claudia Goldin",
+        "Lawrence F. Katz"
+      ],
+      "year": 2002,
+      "provenance_channel": "routing_decoy_A2",
+      "provisional_cell": "OFF_TECHNOLOGY_A2",
+      "query_cluster_family": "ROUTING_DECOY",
+      "routing_note": "Diffusion of the contraceptive TECHNOLOGY (the Pill) -> A.2; shares the word 'diffusion' with A.3 but the object is the method, not the idea. The Wall-2 test case.",
+      "doi": "10.3386/w7527",
+      "identity_source": "https://doi.org/10.3386/w7527",
+      "identity_verified": true,
+      "existence": "FOUND",
+      "match_jaccard": 1.0,
+      "container": "",
+      "cr_year": 2000,
+      "gold_status": "vor_confirmed_pending_ra_signoff",
+      "note": "Exact-title match (J=1.0) with year drift: candidate 2002 vs Crossref 2000 (preprint/WP-vs-VoR or undated chapter). Kept keyed on title."
+    },
+    {
+      "title": "Culture: An empirical investigation of beliefs, work, and fertility",
+      "authors": [
+        "Raquel Fernandez",
+        "Alessandra Fogli"
+      ],
+      "year": 2009,
+      "provenance_channel": "routing_decoy_A19",
+      "provisional_cell": "OFF_VERTICAL_A19",
+      "query_cluster_family": "ROUTING_DECOY",
+      "routing_note": "Epidemiological/vertical transmission of fertility beliefs (country-of-ancestry) -> A.19; horizontal social diffusion is A.3. The Wall-4 test case.",
+      "doi": "10.3386/w11268",
+      "identity_source": "https://doi.org/10.3386/w11268",
+      "identity_verified": true,
+      "existence": "FOUND",
+      "match_jaccard": 1.0,
+      "container": "",
+      "cr_year": 2005,
+      "gold_status": "vor_confirmed_pending_ra_signoff",
+      "note": "Exact-title match (J=1.0) with year drift: candidate 2009 vs Crossref 2005 (preprint/WP-vs-VoR or undated chapter). Kept keyed on title."
+    },
+    {
+      "title": "Contraception as development? New evidence from family planning in Colombia",
+      "authors": [
+        "Grant Miller"
+      ],
+      "year": 2010,
+      "provenance_channel": "routing_decoy_A5",
+      "provisional_cell": "OFF_PROGRAM_A5",
+      "query_cluster_family": "ROUTING_DECOY",
+      "routing_note": "Exogenous family-planning PROGRAM supply (Profamilia) -> A.5; endogenous social diffusion is A.3. The Wall-5 test case.",
+      "doi": "10.3386/w11704",
+      "identity_source": "https://doi.org/10.3386/w11704",
+      "identity_verified": true,
+      "existence": "FOUND",
+      "match_jaccard": 1.0,
+      "container": "",
+      "cr_year": 2005,
+      "gold_status": "vor_confirmed_pending_ra_signoff",
+      "note": "Exact-title match (J=1.0) with year drift: candidate 2010 vs Crossref 2005 (preprint/WP-vs-VoR or undated chapter). Kept keyed on title."
+    },
+    {
+      "title": "The unfolding story of the second demographic transition",
+      "authors": [
+        "Ron Lesthaeghe"
+      ],
+      "year": 2010,
+      "provenance_channel": "routing_decoy_D1a",
+      "provisional_cell": "OFF_VALUE_D1",
+      "query_cluster_family": "ROUTING_DECOY",
+      "routing_note": "The underlying VALUE shift (postmaterialism/secularization) -> D.1.a; A.3 carries the value only as a diffusing object, not as the thing to be explained. The Wall-6 test case.",
+      "doi": "10.1111/j.1728-4457.2010.00328.x",
+      "identity_source": "https://doi.org/10.1111/j.1728-4457.2010.00328.x",
+      "identity_verified": true,
+      "existence": "FOUND",
+      "match_jaccard": 1.0,
+      "container": "Population and Development Review",
+      "gold_status": "vor_confirmed_pending_ra_signoff"
+    }
+  ]
+}
