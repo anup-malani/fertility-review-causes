@@ -29,7 +29,7 @@ tickets can be worked concurrently.
 > commit message dated 07-21 to 07-25 against this table; in commit messages from Alexandra's schooling
 > workstream, `TICK-032` means the compulsory-education split and needs no translation.
 >
-> **Next free number is TICK-090.** Claim a number by pushing its QUEUE.md row before starting work,
+> **Next free number is TICK-091.** Claim a number by pushing its QUEUE.md row before starting work,
 > not after. That is what would have prevented the collision. TICK-047 through TICK-053 were claimed
 > for the D.3.b climate-anxiety chain on 2026-07-27; TICK-054 (A.10) and TICK-055 (C.2.c) on
 > 2026-07-31; TICK-056 opens C.2.c library retrieval. TICK-075 (A.23) was claimed on 2026-08-27.
@@ -48,6 +48,7 @@ tickets can be worked concurrently.
 
 | Ticket | Title | Assigned | Parallel-safe |
 |--------|-------|----------|---------------|
+| [TICK-090](TICK-090-scope-number-checks-assert-against-copies.md) | Scope-number checks assert against a copy of the table, not the table — `406` reads **none** of A.6's numbers out of A.6's scope doc, and that doc carries a drafted chapter's verdict | any | yes |
 | [TICK-089](TICK-089-son-preference-gender-biased-norms.md) | D.2.c Son Preference and Gender-Biased Fertility Norms | Shravan | yes |
 | [TICK-088](TICK-088-diffusion-of-fertility-control.md) | A.3 Diffusion and Social-Learning of Fertility Control — took A.6's place as the smallest candidate after `404`. **Opens with a registered-construct completeness test; A.3 has not been cleared of the defect that unseated A.6** | Shravan | yes |
 | [TICK-087](TICK-087-stigma-reduction-contraception-abortion.md) | A.6 Reduction in Stigma Around Contraception and Abortion — **PARKED 2026-09-17 before stage 2** on branch `087-stigma-reduction-contraception-abortion`: `404` found the selecting frame omits the registry's own construct ("legitimation") and corrects 668 → 1,225, so A.6 is not the smallest. Still live and unstarted; reopen by reading that branch's ticket Log first | Shravan | yes |
