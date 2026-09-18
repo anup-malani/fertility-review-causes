@@ -1,5 +1,5 @@
 # TICK-088: A.3 Diffusion and Social-Learning of Fertility Control
-**Status:** parked 2026-09-17 — not pursued now. `405` showed A.3's corrected frame (1,584–2,419) is larger than A.6's (1,225), so A.6 resumed as the strict-smallest candidate under TICK-087. A.3 remains live and unstarted; `405` is complete and inheritable.
+**Status:** in-progress 2026-09-18 — reopened by RA decision (Shravan) to write A.3 next. The `405` park rested on a frame that priced A.3's own construct `legitimation` as a free-standing `OR` and charged A.20's channel terms to A.3; priced as A.3's own frame (legitimation conjoined, channels excluded) the frame is ≤719 and clears 1,808. Stage 2 scope drafted; the A.3/A.20 hypothesis-distinction remains an open PI call, flagged not resolved.
 **Assigned:** Shravan
 **Hypothesis:** `diffusion-of-fertility-control` — HYPOTHESES-v5.md §A.3
 **Parallel-safe:** yes
@@ -11,7 +11,7 @@
 **Second hazard:** A.3 shares two of four registered seminals with A.6 (Cleland and Wilson 1987; Bongaarts and Watkins 1996) while overlapping it on only 2 records of vocabulary — the C.3.d shape, where the vocabularies part and the construct does not. That wall is adjudicable only at full text, and A.3 is now the chapter written first, so it owns defining it. A.3 is also registered as *proximate*: per §A.3's own note it "describes the spread mechanism, not what is being spread or why people adopt it", so the §4 chain must say which link is this chapter's parameter and which belongs to D.1.a / D.1.b.
 
 ## Acceptance criteria
-- [ ] 2. Search strategy and scope drafted
+- [x] 2. Search strategy and scope drafted — `literature/search-logs/diffusion-of-fertility-control-search-scope.md`
 - [ ] 3. Literature search and AI screening, both phases (§5.1)
 - [ ] 4. RA title/abstract review
 - [ ] 5. Full-text retrieval
@@ -26,6 +26,53 @@
 - [ ] 14. PI review and sign-off
 
 ## Log
+
+**2026-09-18 — Stage 3 begun: cold-start gold anchors built and existence-verified.**
+
+*Result.* `source/build/goldset/89_a3_cold_start_anchors.py` (mirrors 72/D.3.b and 64/B.1) enumerated
+20 canonical anchors and verified each through live Crossref + doi.org. Outcome: **13 verified at the
+version-of-record, 7 real-but-version-drifted (RA-confirm), 0 ghosts, 0 no-matches** — every family
+covered. A.3 is an old canonical literature so anchors were memory-enumerated from the canon (recall,
+not discovery, is the binding problem) and then verified; the imported canonical `textnorm.norm`
+guards identity matching. Outputs: `literature/search-logs/diffusion-of-fertility-control-cold-start-anchors.{json,md}`;
+cache `source/build/goldset/a3_crossref_cache.json`.
+
+The empirical primary core (the recall anchors): Kohler–Behrman–Watkins 2001, Munshi–Myaux 2006,
+Behrman–Kohler–Watkins 2002, Spolaore–Wacziarg 2022, Daudin–Franck–Rapoport 2019, Beach–Hanlon 2023,
+Rosero-Bixby–Casterline 1994 — seven identified-design anchors, plus the ideational/social-learning
+theory canon (Cleland–Wilson 1987, Bongaarts–Watkins 1996, Montgomery–Casterline 1996,
+Rosero-Bixby–Casterline 1993) and the Princeton EFP / NAS synthesis seeds (Coale–Watkins 1986,
+Knodel–van de Walle 1979, Casterline 2001). A six-wall routing-decoy set tests the walls: A.20 channel
+(La Ferrara–Chong–Duryea; Jensen–Oster), A.2 technology (Goldin–Katz), A.19 vertical (Fernández–Fogli),
+A.5 program (Miller), D.1 value (Lesthaeghe). Decoys are outside the recall denominator.
+
+*RA-confirm (not blockers).* (1) Kohler 2001 resolved to the OUP *Fertility and Social Interaction*
+book-chapter DOI, not the *Demography* 38(1) VoR — swap on freeze. (2) The 7 year-drifts point at
+NBER working-paper / SSRN / De Gruyter-reprint DOIs; swap the two *primary* ones (Spolaore–Wacziarg →
+EJ 2022; the Coale–Watkins book keyed on title) to VoR before freeze. The six decoy drifts don't
+affect recall.
+
+**2026-09-18 — Stage 3 cont'd: Tier-A/Tier-B citation frame built.**
+
+*Result.* `source/build/goldset/90_a3_tier_ab_frame.py` (mirrors 73/D.3.b, 65/B.1) resolved all 20
+anchors in OpenAlex (0 unresolved, 0 deferred — no 429s) and built the orthogonal frame:
+**Tier A = 7 empirical seeds** (PRIMARY_SOCIAL_EXPOSURE 4, PRIMARY_CULTURAL_BOUNDARY_CONTENT 2,
+PRIMARY_SPATIAL_DIFFUSION 1); **Tier B = 3,524 dedup candidates** (57 found by both backward+forward
+channels, 2,591 with usable abstracts, 45 dups merged, 29 forward pages). All 14 non-decoy anchors
+were forward-seeded and the 6 decoys were held out of forward-seeding but kept for backward context.
+Outputs: `diffusion-of-fertility-control-{anchor-resolution,tier-a,tier-b-frame,tier-ab-log}.{json,md}`;
+cache `source/build/goldset/cache/a3_tier_ab/`.
+
+*Two RA notes (not blockers).* (1) The FWD_THEORY_CAP (1,500) did not bind — OpenAlex puts the
+most-cited theory anchor (Bongaarts-Watkins) at 1,048 — so all theory-canon anchors were
+forward-seeded; harmless and recall-positive, frame stayed at 3.5k. (2) Coale-Watkins 1986 resolved to
+the De Gruyter reprint's "Chapter 7" fragment, not the whole EFP volume, so its citation contribution
+is only that chapter's; title-key the volume on freeze.
+
+*Next.* Screen the 3,524-candidate Tier-B frame (Haiku→Sonnet, mirror 75/76 D.3.b) on the six-wall
+rubric; this is the first heavy-LLM step. Gold still NOT frozen — freeze waits on the VoR swaps
+(Kohler→Demography, Spolaore-Wacziarg→EJ, Coale-Watkins→title-key) and RA sign-off.
+
 
 **2026-09-17 — parked the same day it was opened, by its own opening measurement.**
 
@@ -65,3 +112,39 @@ a three-block frame is never ranked against a two-block one. Two of two candidat
 (a); A.6 was the only one that failed (b). C.3.a, D.2.c, C.2.e, C.4.a, A.19, A.4, C.2.d and C.1.a
 are all still uncorrected, so the bracketed table's ordering should not be trusted. This is a `304`
 change and `304` belongs to TICK-080.
+
+**2026-09-18 — reopened; Stage 2 (search strategy and scope) drafted.**
+
+*Decision.* RA (Shravan) elected to write A.3 next and reopen the park. The reopen does not dispute
+`405`'s arithmetic; it disputes what the 2,419 measures. Two of the terms that inflated the parked
+frame are not A.3's to be charged with: (1) `legitimation` was priced as an unconjoined `OR`
+(+865 → 1,584), which imports the general political/institutional-legitimacy literature, whereas
+A.3's registered construct is "legitimation *of birth control*," a conjunction whose own increment is
+a small fraction of 865; and (2) the "all channel terms → 3,354" widening is A.20's registered
+territory — the diagnostics author priced it "for the PI call, not proposed as a widening." Priced as
+A.3's own frame — legitimation conjoined to a birth-control-and-diffusion context, channels excluded —
+the frame is the stable pass-4 union of 719 plus small conjoined increments, below C.3.a's 1,808. This
+is the same correct-frame-against-own-frame rule `405` used to catch `404`; applied to A.3 it clears
+the gate rather than failing it.
+
+*Result.* Stage 2 deliverable at `literature/search-logs/diffusion-of-fertility-control-search-scope.md`.
+It states A.3's single parameter (the effect of social exposure/diffusion of fertility control on
+adoption, net of C economics, D.1 values, A.2 technology, A.5 program supply), six boundary walls
+(A.20 channels, A.2 technology, A.6 stigma-level, A.19 vertical transmission, A.5 program supply,
+D.1 value change), an estimand-cell table with routing, three conjoined query blocks for §5.1 Phase 1,
+eligibility rules, and the reflection/common-shock identification caution.
+
+*A.20 wall — RESOLVED 2026-09-18 (Shravan).* Resolved in favor of **channel-excluded A.3**: A.3 and
+A.20 stay distinct as registered, A.3 owns the diffused content, A.20 owns the channels, and A.3's thin
+identified core after channel exclusion is accepted as a result to report. Because this ratifies the
+registry's existing separation rather than merging the two, it is an RA operational call, not a
+registry change; only a PI decision to *merge* A.3 into A.20 would reopen it. The Brazil/India TV
+quasi-experiments (La Ferrara–Chong–Duryea, Jensen–Oster) route to A.20 throughout. Not escalated.
+
+*Workflow impact.* Confirms the `304` fix (TICK-080): a candidate's frame must be priced against its
+own conjoined construct set, never against a free-`OR` widening or a neighbour's channel terms. `405`
+proved the rule catches `404`; this reopen shows the same rule, applied once more, reverses `405`'s
+own ranking conclusion without touching its measurements. The lesson for TICK-080 is that the ranking
+instrument must price *conjoined own-construct* frames, because free-`OR` increments (legitimation
++865) and cross-hypothesis channel annexations (+935 to 3,354) are both large enough to flip an
+ordering on their own.
