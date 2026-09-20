@@ -151,3 +151,23 @@ pattern the scope and TICK-080 items 6–7 + 10 describe.
 *Next.* Channel 3 (citation snowball off the channel-2 seeds, forward-capped hard on the broad theory
 anchors) → Tier-B frame; run at stage 3 once the scope is frozen (pending the two PI escalations + Wall
 1 second read).
+
+**2026-09-20 (Shravan) — channel 3 snowball → Tier-B frame.**
+
+*Result.* `population-age-structure-momentum-snowball-{tierb.json,log.md}`: **199-record Tier-B frame**,
+deduped vs the 12 seeds, all OpenAlex-sourced (existence intrinsic). Backward = refs co-cited by ≥2
+seeds (16 of 114; the 98 single-seed refs held as expansion reserve); forward = the 5 topic-specific
+momentum seeds only, capped at top-50 by citations. **Forward NOT run on the broad theory anchors**
+(Keyfitz 201, PHG 1772, Kitagawa 562 citing) — the explosion guard held. Composition: 18 MOMENTUM
+(orthogonal recall working), 119 OFF_OTHER (math-demography theory canon — Lotka/Keyfitz backbone, will
+re-tag to theory stream), 41 FERT_OTHER, 13 OFF_OUTCOME_POP, 6 OFF_TEMPO_A11 (Wall 1 confirmed live in
+the citation graph), 2 homonym/ambig.
+
+*Workflow impact.* Third independent confirmation (frame probe → anchors → snowball) that A.9's
+empirical birth-rate-decomposition cell is nearly empty and the literature is theory + projection —
+`empty-cell-is-the-result`, narrative synthesis not meta-analysis. Tier B kept whole (unbiased-sample
+definition) as the future Recall(B) yardstick; noted not-fully-orthogonal per the standing GACS caveat.
+
+*Cold-start anchor sourcing (channels 1–3) is now complete.* Remaining before the production search:
+freeze the scope (two PI escalations + Wall 1 second read + registered-construct completeness test),
+then stage 3 (screen the frame, Haiku→Sonnet→RA).
