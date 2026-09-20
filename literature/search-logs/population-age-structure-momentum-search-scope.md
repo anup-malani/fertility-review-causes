@@ -269,15 +269,20 @@ TICK-080's to write, but A.9 proceeds on these rulings now:
 
 *Done — `population-age-structure-momentum-cold-start-anchors.{json,log.md}`: 17 records, all
 existence-verified (FOUND), 15 identity-verified. Channel 1 (systematic reviews/meta-analyses) is
-**empty** — the only `type:review` hit is off-topic — confirming A.9 has no effect literature to
-synthesize (it is an accounting identity). Channel 2 yielded 12 verified anchors, but the **empirical
-birth-rate/count decomposition cell has just one** (Preston & Guillot); the rest is momentum theory or
-population-size projection, so `empty-cell-is-the-result` is live and the gold is far below the ≥30 CV
-floor by nature, not by search failure — the production cause axis will be set from the frame-probe
-vocabulary, not fold-local mining. Two candidates were dropped by the existence gate (a non-resolving
-"Espenshade correspondence" title; the Das Gupta 1993 Census manual, no DOI). Decoys carried for
-routing: Bongaarts–Feeney (A.11), Lutz et al. population-ageing (OFF_OUTCOME_POP), Caswell/ecology
-(homonym). Channel 3 snowball not yet run.*
+**empty** — the only `type:review` hit is off-topic — confirming A.9 has never been *systematically
+reviewed*. Channel 2 yielded 12 verified anchors. Decoys carried for routing: Bongaarts–Feeney (A.11),
+Lutz et al. population-ageing (OFF_OUTCOME_POP), Caswell/ecology (homonym). Channel 3 built a 199-record
+Tier-B frame.*
+
+**CORRECTION (2026-09-20, recall check — see `…-recall-check-report.md`).** An earlier reading here and
+in the core screen said the empirical birth-rate-decomposition cell had ~1–2 studies and that
+`empty-cell-is-the-result` was live. **That is retracted.** The targeted recall check found **~15
+genuine A.9 primaries** — multi-component CBR/birth-count decompositions (China, Korea ×3, South Africa
+×2, Malawi, Mexico, India, US ×3 incl. 1932) from which the age-structure contribution share is one
+extractable component. The undercount came from a title-only heuristic and from wrongly dropping the
+gated generic axis wholesale (it held the real decompositions mixed with epidemiological rate-
+standardization). The cell is real; stage 9 is a quantitative synthesis of the composition share, not
+narrative-only.
 
 Verified anchors are stored in `population-age-structure-momentum-cold-start-anchors.json`. Every
 anchor clears the **mandatory existence-verification gate** (a live DOI or a Crossref/publisher record)

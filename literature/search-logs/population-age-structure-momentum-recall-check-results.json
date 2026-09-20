@@ -1,0 +1,219 @@
+[
+ {
+  "title": "A Demographic Decomposition of the Recent Increase in Crude Birth Rates in China",
+  "year": 1991,
+  "doi": "10.2307/1971949",
+  "verdict": "RELEVANT_PRIMARY",
+  "reason": "triple standardization: age structure + marriage + marital fertility -> CBR, China (PRIMARY_COMPOSITION_CBR)"
+ },
+ {
+  "title": "A decomposition of trends in the nonmarital fertility ratios of blacks and whites in the united states, 1960\u20131992",
+  "year": 1996,
+  "doi": "10.2307/2061868",
+  "verdict": "RELEVANT_PRIMARY",
+  "reason": "Das Gupta: age distribution among components of nonmarital fertility ratio, US 1960-92 (PRIMARY_COMPOSITION)"
+ },
+ {
+  "title": "A decomposition of declining crude birth rate in South Korea, 1990\u20132015",
+  "year": 2022,
+  "doi": "10.1007/s12546-022-09287-3",
+  "verdict": "RELEVANT_PRIMARY",
+  "reason": "CBR decomposition, South Korea 1990-2015 (PRIMARY_COMPOSITION_CBR)"
+ },
+ {
+  "title": "Effects of fertility and international migration on changing age composition in Canada",
+  "year": 1991,
+  "doi": "10.3233/sju-1991-8102",
+  "verdict": "OFF",
+  "reason": "fertility+migration -> future age composition, Canada projection (OFF_OUTCOME_POP)"
+ },
+ {
+  "title": "Impact of change in maternal age composition on the incidence of Caesarean section and low birth weight: analysis of delivery records at a tertiary hospital in Tanzania, 1999\u20132005",
+  "year": 2009,
+  "doi": "10.1186/1471-2393-9-30",
+  "verdict": "OFF",
+  "reason": "maternal age -> C-section/LBW, outcome not birth rate (OFF)"
+ },
+ {
+  "title": "Can Immigration Affect Age Composition When Fertility is Below Replacement?",
+  "year": 1992,
+  "doi": "10.25336/p6xs3f",
+  "verdict": "OFF",
+  "reason": "immigration -> age composition outcome, below-replacement (OFF_OUTCOME_POP)"
+ },
+ {
+  "title": "Fertility, Mortality and Age Composition Effects of Population Transition in China and India: 1950-2015",
+  "year": 2017,
+  "doi": "10.12765/cpos-2017-12",
+  "verdict": "RELEVANT_PRIMARY",
+  "reason": "decomposes population growth into intrinsic vs momentum(age composition), China/India (PRIMARY_MOMENTUM, growth outcome)"
+ },
+ {
+  "title": "The effect of present trends in fertility and mortality upon the future populaltion of England and Wales and upon its age composition",
+  "year": 1935,
+  "doi": "",
+  "verdict": "OFF",
+  "reason": "population projection (OFF_OUTCOME_POP)"
+ },
+ {
+  "title": "Marriage and Marital Fertility: A Further Decomposition of Their Effects in the Study of Levels and Changes in Birth Rate",
+  "year": 1983,
+  "doi": "10.25336/p6kw20",
+  "verdict": "RELEVANT_PRIMARY",
+  "reason": "married-women volume + marital fertility + age pattern -> birth rate, India (PRIMARY_COMPOSITION, borderline)"
+ },
+ {
+  "title": "Stable aggregate fertility in a time of family change: A decomposition of trends in American fertility, 1970\u20131999",
+  "year": 2005,
+  "doi": "10.1080/19485565.2002.9989096",
+  "verdict": "RELEVANT_PRIMARY",
+  "reason": "GFR decomposed into age distribution + marital status + rates, US 1970-99 (PRIMARY_COMPOSITION)"
+ },
+ {
+  "title": "II.\u2014The Effect of Present Trends in Fertility and Mortality upon the Future Population of Scotland and upon its Age Composition",
+  "year": 1937,
+  "doi": "10.1017/s0370164600014887",
+  "verdict": "OFF",
+  "reason": "projection of future population/age composition, Scotland 1937 (OFF_OUTCOME_POP)"
+ },
+ {
+  "title": "Age Structure, Unwanted Fertility, and the Association Between Racial Composition and Family Planning Programs: A Comment on Wright",
+  "year": 1979,
+  "doi": "10.1093/sf/57.4.1387",
+  "verdict": "OFF",
+  "reason": "family-planning-program comment -> A.5 (OFF)"
+ },
+ {
+  "title": "Demographic Patterns: Age Structure, Fertility, Mortality, and Population Growth",
+  "year": 2007,
+  "doi": "10.1007/978-0-387-71943-6_4",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "textbook chapter (THEORY)"
+ },
+ {
+  "title": "Relative age and the Early Years Foundation Stage Profile: How do birth month and peer group age composition determine attribution of a \u2018Good Level of Development\u2019\u2014and what does this tell us about how \u2018good\u2019 the Early Years Foundation Stage Profile is?",
+  "year": 2021,
+  "doi": "10.1002/berj.3771",
+  "verdict": "OFF",
+  "reason": "education relative-age homonym (OFF)"
+ },
+ {
+  "title": "Decomposing Fertility Differences Across World Regions and Over Time: Is Improved Health More Important than Women's Schooling?",
+  "year": 2011,
+  "doi": "10.2139/ssrn.1817203",
+  "verdict": "OFF",
+  "reason": "decomposes fertility diffs by health vs schooling, not age structure (OFF->C.1/edu)"
+ },
+ {
+  "title": "Age Structure, Unwanted Fertility, and the Association between Racial Composition and Family Planning Programs: A Comment on Wright",
+  "year": 1979,
+  "doi": "10.2307/2577277",
+  "verdict": "OFF",
+  "reason": "family-planning-program comment -> A.5 (OFF)"
+ },
+ {
+  "title": "Decomposing Fertility Differences Across World Regions and Over Time: Is Improved Health More Important than Women's Schooling?",
+  "year": 2000,
+  "doi": "10.2139/ssrn.223583",
+  "verdict": "OFF",
+  "reason": "same, health vs schooling (OFF)"
+ },
+ {
+  "title": "Is a rising cesarean delivery rate explained by late birth trend? A decomposition analysis of health insurance claims data (2013\u20132022) from South Korea",
+  "year": 2024,
+  "doi": "10.1002/ijgo.16013",
+  "verdict": "OFF",
+  "reason": "outcome is cesarean-delivery rate, not a birth rate (OFF)"
+ },
+ {
+  "title": "Trends in Age Composition and in Specific Birth-Rates, 1920-30",
+  "year": 1932,
+  "doi": "10.1086/215925",
+  "verdict": "RELEVANT_PRIMARY",
+  "reason": "age composition vs specific birth rates, US 1920-30 (PRIMARY_COMPOSITION_CBR, historical)"
+ },
+ {
+  "title": "[The effects of fertility compression on birth sequence and age composition in Taiwan: a simulation].",
+  "year": 1996,
+  "doi": "",
+  "verdict": "OFF",
+  "reason": "outcome is age composition (reverse)"
+ },
+ {
+  "title": "Age composition of the working-age population, by place of birth, 2005-06",
+  "year": 2012,
+  "doi": "10.1787/9789264171534-graph3-en",
+  "verdict": "OFF",
+  "reason": "working-age age composition by place of birth (OFF)"
+ },
+ {
+  "title": "[The fertility and age composition of the mammalian populations in a primary tropical forest in eastern Indochina].",
+  "year": 1995,
+  "doi": "",
+  "verdict": "OFF",
+  "reason": "homonym"
+ },
+ {
+  "title": "Rural-Urban Fertility Disparity in The Gambia: Standardized Rate, Decomposition, Parity Progression, and Determinants",
+  "year": 2024,
+  "doi": "10.25133/jpssv332025.011",
+  "verdict": "OFF",
+  "reason": "rural-urban CEB disparity by determinants -> C.2.g/urbanization (OFF/UNCERTAIN)"
+ },
+ {
+  "title": "Fertility Decline in Malawi: A Decomposition Analysis",
+  "year": 2024,
+  "doi": "10.22146/jp.102685",
+  "verdict": "RELEVANT_PRIMARY",
+  "reason": "age structure + nuptiality + marital fertility -> TFR, Malawi (PRIMARY_COMPOSITION)"
+ },
+ {
+  "title": "Decomposition of South African crude birth rates, 1996-2001",
+  "year": 2011,
+  "doi": "",
+  "verdict": "RELEVANT_PRIMARY",
+  "reason": "CBR decomposition, South Africa 1996-2001 (PRIMARY_COMPOSITION_CBR)"
+ },
+ {
+  "title": "Decomposition of Change in the Total Number of Births and Future Projections",
+  "year": 2019,
+  "doi": "10.22823/jkea.25.1.201904.37",
+  "verdict": "RELEVANT_PRIMARY",
+  "reason": "decomposition of total number of births + projections, Korea (PRIMARY_COMPOSITION_BIRTHS)"
+ },
+ {
+  "title": "A Decomposition of Change in the Number of Birth in Korea, 1992~2021: Effects of Changes in Female Population, Marriage, and Marital Fertility by Number of Children",
+  "year": 2023,
+  "doi": "10.31693/kjps.2023.09.46.3.4",
+  "verdict": "RELEVANT_PRIMARY",
+  "reason": "birth-count change: female population(age structure) + marriage + marital fertility, Korea 1992-2021 (PRIMARY_COMPOSITION_BIRTHS)"
+ },
+ {
+  "title": "[Analysis of the seasonality of birth effect in schizophrenic patients in Poland with the application of the seasonal decomposition method].",
+  "year": 2007,
+  "doi": "",
+  "verdict": "OFF",
+  "reason": "homonym"
+ },
+ {
+  "title": "Decomposition of first births in Poland, according to timing of marriage and conception",
+  "year": 2018,
+  "doi": "10.5604/01.3001.0014.0727",
+  "verdict": "OFF",
+  "reason": "first births by marriage timing -> A.7/A.11 (OFF)"
+ },
+ {
+  "title": "[Decomposition of change in the crude birth rate in Mexico in recent decades].",
+  "year": 1991,
+  "doi": "",
+  "verdict": "RELEVANT_PRIMARY",
+  "reason": "CBR decomp incl. age-sex distribution, Mexico 1970-87 (PRIMARY_COMPOSITION_CBR)"
+ },
+ {
+  "title": "A decomposition analysis of fertility rate in South Africa by population - groups and provinces",
+  "year": 2019,
+  "doi": "",
+  "verdict": "RELEVANT_PRIMARY",
+  "reason": "age-sex structure among components, South Africa provinces (PRIMARY_COMPOSITION)"
+ }
+]

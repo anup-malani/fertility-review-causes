@@ -232,3 +232,27 @@ unlikely to move the verdict (recommendation in the report: targeted recall chec
 *Next (decision):* (i) targeted recall check, (ii) full PRISMA pass, or (iii) proceed to full-text
 retrieval of the 2–3 primary candidates and draft. Plus the standing TICK-080 formalization + Anup
 sign-off before the verdict grid is final.
+
+**2026-09-20 (Shravan) — targeted recall check: EMPTY-CELL FINDING RETRACTED.**
+
+*Result.* `…-recall-check-{results.json,report.md}`. Focused queries at the empirical cell found **~15
+genuine A.9 primaries**, not ~2 — multi-component CBR/birth-count decompositions (China, Korea ×3, South
+Africa ×2, Malawi, Mexico, India, US ×3 incl. a 1932 study) from which the **age-structure contribution
+share** is one extractable component (other components → A.7/A.2 at component level).
+
+*Correction (mine to own).* The core-screen `empty-cell-is-the-result` call was **wrong**, from (a) a
+title-only heuristic on the high-prior subset and (b) my dropping the gated generic axis wholesale — it
+held the real decompositions mixed with epidemiological rate-standardization noise. The recall check
+(the user's chosen path) caught it before any verdict was written. Production query updated: the gated
+axis is **refined, not dropped** (age-structure term must co-occur with a birth/fertility term AND a
+decomposition term). Retracted the empty-cell language in the scope and core-screen report.
+
+*What changes.* Stage 9 is now a **quantitative synthesis of the composition-share magnitude** across
+~15 studies, not narrative-only; the demsig CBR/births cell is empirically anchored, not just
+definitional. GRADE stays NOT RATEABLE (decomposition shares, not effect sizes); demsig still per
+outcome.
+
+*Next.* Full-text retrieval of the ~15 primaries (several non-English/no-DOI → likely RA/library
+procurement), then extract the age-structure share (magnitude, sign, period, setting, method, outcome
+level) → `extraction/population-age-structure-momentum.csv`. A full PRISMA pass over the remaining
+worklist is now clearly worthwhile.

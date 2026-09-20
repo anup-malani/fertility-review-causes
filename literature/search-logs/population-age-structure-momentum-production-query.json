@@ -68,7 +68,7 @@
         "rate component"
       ],
       "rationale": "Frame probe: bare generic terms contribute ~3,000 mostly-off-topic records (ecology, general demography) for a handful of true hits. The co-occurrence gate keeps the decomposition studies and drops the flood.",
-      "tested_and_dropped": "Run 2026-09-20: the gated axis (generic age-structure terms AND a decomposition/rate co-term AND the effect axis) returned 324 records, but they are dominated by EPIDEMIOLOGICAL rate-standardization/decomposition papers (age-standardized disease-rate methodology), not birth-rate composition -- only ~19 PRIMARY_COMPOSITION hits. The gated extension is therefore DROPPED from the production frame; its few true birth-rate-decomposition hits are expected via the tight axis's explicit 'decomposition of the birth rate' phrases and via the Tier-B snowball. Effective production frame = tight cause axis (~570) UNION Tier-B (199)."
+      "tested_refined_NOT_dropped": "Run 2026-09-20: the gated axis (generic age-structure terms AND a decomposition/rate co-term AND the effect axis) returned 324 records dominated by EPIDEMIOLOGICAL rate-standardization (age-standardized DISEASE rates). INITIALLY dropped as noise -- but the 2026-09-20 recall check showed that drop discarded ~13 GENUINE A.9 birth-rate decompositions mixed into it (see recall-check-report.md). CORRECTED: the gated axis is REFINED, not dropped -- require the age-structure term to co-occur with BOTH a birth/fertility term AND a decomposition term (recall query Q1), which isolates the real age-structure->birth-rate decompositions from the disease-rate standardization. The empirical primary cell is ~15 studies, not empty."
     }
   },
   "boundary_notes": {
