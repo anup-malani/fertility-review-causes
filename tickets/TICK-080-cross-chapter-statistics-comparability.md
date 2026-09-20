@@ -180,6 +180,17 @@ Two consequences for item 10's partial order:
   outcome level (item 9's "outcome level is not fixed") and the accounting-layer netting are the same
   decision.
 
+**Ruling recorded 2026-09-20 (via TICK-089).** Two decisions were made to unblock A.9 and are captured
+here as the standing methods position, pending this ticket's formal PROTOCOL amendment + `decisions/`
+entry: **(a)** A.9 (composition-momentum) **owns and defines the mechanical-composition component**;
+the behavioural aggregate-count chapters report *net of* it, and A.9's CBR/births verdict is "the
+mechanical share of observed change," not an independent additive contribution — i.e. the item-10
+accounting layer is real and A.9 is its home. **(b)** A non-effect estimand is rated **NOT RATEABLE**
+(item 6) and its demographic significance is reported **per outcome** with the construction stated
+(item 7), never as a single significant/not-significant label. These now need to be written into
+PROTOCOL §4.1–§4.3 and a `decisions/` entry as part of this ticket's acceptance criteria; A.9's frozen
+scope already proceeds on them.
+
 ### 11. A ranked output invites winner's curse, and nothing currently guards against it
 
 Publication bias distorts a **ranking** far more than it distorts any single estimate. Whichever
