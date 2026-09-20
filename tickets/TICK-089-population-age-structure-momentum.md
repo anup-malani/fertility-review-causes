@@ -292,3 +292,23 @@ CBR/growth demsig cell empirically.
 *Next.* Extract the 2 OA PDFs in hand; hand the 13-item procurement list to the RA; then extract those
 as PDFs arrive → stage 9 quantitative synthesis + stage 10 per-outcome demsig + stage 11 GRADE
 (NOT RATEABLE) + stage 12 chapter. TICK-080 formalization + Anup sign-off still precede the final verdict grid.
+
+**2026-09-20 (Shravan) — extraction from Shravan-procured PDFs (`~/Downloads/A9/`).**
+
+*Result.* `extraction/population-age-structure-momentum-extraction-report.md` + updated CSV.
+**10/16 now have extracted data** (6 numeric: A9-02/03/07/08/09/16; 2 qualitative: A9-05/10; 2 partial:
+A9-11/15). A9-14 (India 1983) is a **scanned PDF → needs OCR**. **5 still to procure** (A9-01 China
+2014, A9-04 Korea 2023, A9-06 SA 2019, A9-12 China 1991 PDR, A9-13 Mexico 1991). Three downloaded files
+are **not A.9** and excluded: a China age-structure→*economic-growth* paper, a Korean old-housing→birth-
+rate spatial paper (→ C.2.c), and Zeng Yi et al. *Genus* 1993 (parity decomposition; a different paper
+than A9-12, which it cites — so A9-12 is real and still needed).
+
+*Emerging synthesis signal.* The age-structure contribution to CBR/birth-count change is **large but
+highly setting/period-dependent and signed both ways**: dominant in momentum-heavy transitions
+(Hong Kong ~80%, South Africa +60%, China/India ~80–100% of growth), secondary where marriage/marital
+fertility carry the decline (Malawi ~0–20%, Korea, China 2021), compensating/positive in the US GFR;
+**zero by construction for period TFR / CCF** (A9-07 confirms). This is the per-outcome, per-setting
+verdict the scope + TICK-080 anticipated — report the *distribution* of the composition share, not one
+number.
+
+*Next.* OCR A9-14; procure the 5 missing; pin exact numbers for A9-05/10/11; then stage 9.
