@@ -1,0 +1,122 @@
+[
+ {
+  "group": "control",
+  "label": "C.3.e control (expect ~85)",
+  "n": 85,
+  "err": null,
+  "outcome": "narrow",
+  "axis": "(\"credit constraint\" OR \"liquidity constraint\")"
+ },
+ {
+  "group": "frame",
+  "label": "NARROW frame (\u2229 fertility)",
+  "n": 502,
+  "err": null,
+  "outcome": "narrow",
+  "axis": "(\"population momentum\" OR \"demographic momentum\" OR \"population age structure\")"
+ },
+ {
+  "group": "frame",
+  "label": "WIDE frame (\u2229 fertility)",
+  "n": 3636,
+  "err": null,
+  "outcome": "narrow",
+  "axis": "(\"population momentum\" OR \"demographic momentum\" OR \"age structure\" OR \"age composition\" OR \"tempo effect\" OR \"compositional change\")"
+ },
+ {
+  "group": "frame",
+  "label": "UNION frame (\u2229 fertility)",
+  "n": 3636,
+  "err": null,
+  "outcome": "narrow",
+  "axis": "(\"population momentum\" OR \"demographic momentum\" OR \"population age structure\" OR \"age structure\" OR \"age composition\" OR \"tempo effect\" OR \"compositional change\")"
+ },
+ {
+  "group": "frame",
+  "label": "UNION frame (\u2229 fertility WIDE outcome)",
+  "n": 3805,
+  "err": null,
+  "outcome": "wide",
+  "axis": "(\"population momentum\" OR \"demographic momentum\" OR \"population age structure\" OR \"age structure\" OR \"age composition\" OR \"tempo effect\" OR \"compositional change\")"
+ },
+ {
+  "group": "sublit",
+  "label": "momentum core: pop/demographic momentum",
+  "n": 192,
+  "err": null,
+  "outcome": "narrow",
+  "axis": "(\"population momentum\" OR \"demographic momentum\")"
+ },
+ {
+  "group": "sublit",
+  "label": "\"population age structure\" alone",
+  "n": 314,
+  "err": null,
+  "outcome": "narrow",
+  "axis": "\"population age structure\""
+ },
+ {
+  "group": "sublit",
+  "label": "\"age structure\" OR \"age composition\" alone",
+  "n": 3213,
+  "err": null,
+  "outcome": "narrow",
+  "axis": "(\"age structure\" OR \"age composition\")"
+ },
+ {
+  "group": "sublit",
+  "label": "\"compositional change\" alone",
+  "n": 235,
+  "err": null,
+  "outcome": "narrow",
+  "axis": "\"compositional change\""
+ },
+ {
+  "group": "sublit",
+  "label": "\"tempo effect\" alone (A.11 term)",
+  "n": 49,
+  "err": null,
+  "outcome": "narrow",
+  "axis": "\"tempo effect\""
+ },
+ {
+  "group": "homonym",
+  "label": "demographic momentum, UNRESTRICTED",
+  "n": 85,
+  "err": null,
+  "outcome": null,
+  "axis": "\"demographic momentum\""
+ },
+ {
+  "group": "homonym",
+  "label": "population momentum, UNRESTRICTED",
+  "n": 230,
+  "err": null,
+  "outcome": null,
+  "axis": "\"population momentum\""
+ },
+ {
+  "group": "homonym",
+  "label": "\"age structure\" UNRESTRICTED (all fields)",
+  "n": 32363,
+  "err": null,
+  "outcome": null,
+  "axis": "\"age structure\""
+ },
+ {
+  "group": "homonym",
+  "label": "age-structure ecology residue INSIDE frame",
+  "n": 106,
+  "err": null,
+  "outcome": "narrow",
+  "axis": "(\"age structure\" OR \"age composition\") AND (\"ecology\" OR \"wildlife\" OR \"fish stock\" OR \"population genetics\" OR \"forest\")"
+ },
+ {
+  "group": "boundary",
+  "label": "A.11 tempo overlap INSIDE frame",
+  "n": 136,
+  "err": null,
+  "outcome": "narrow",
+  "axis": "(\"population momentum\" OR \"demographic momentum\" OR \"population age structure\" OR \"age structure\" OR \"age composition\" OR \"tempo effect\" OR \"compositional change\") AND (\"tempo\" OR \"postponement\" OR \"quantum\" OR \"Bongaarts-Feeney\")"
+ }
+]

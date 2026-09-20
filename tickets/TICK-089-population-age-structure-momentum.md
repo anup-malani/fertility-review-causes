@@ -100,3 +100,25 @@ outcome split parallels A.11 tempo and should be cross-linked when both are fina
 *Next.* Stage 2 open items before freeze: run the frame probe (`304_candidate_frame_probe.py`, on the
 TICK-080 branch) on A.9; registered-construct completeness test; homonym-residue check ("momentum",
 "age structure"); second read on Wall 1; then anchor sourcing (channels 1–3, existence-gated).
+
+**2026-09-20 (Shravan) — frame probe run (literature sized).**
+
+*Result.* `population-age-structure-momentum-frame-probe.{md,json}`. Reused 304's exact `count()`
+mechanics; control C.3.e = 85 (matches 304's 09-13 run). A.9 is a **small literature**: anchored
+momentum core (`population momentum`/`demographic momentum` ∩ fertility) = **192**; working frame
+(+`population age structure`) = **502**. The WIDE frame (~3,636) is **homonym-inflated** and discarded
+— the generic pair `age structure`/`age composition` is 3,213 of it and 32,363 unrestricted (an
+ecology / population-genetics term; 106 ecology records leak in even with the fertility gate). Momentum
+vocabulary itself is clean (`demographic momentum` = 85 even unrestricted). A.11-tempo overlap inside
+the frame = 136 (bounded; split at component level per Wall 1). This closes stage-2 item 1; homonym
+check (item 3) is effectively answered by the same run.
+
+*Workflow impact.* The homonym decomposition is the reusable lesson: a candidate whose WIDE frame is
+7× its core is a vocabulary artifact, not a literature — here `age structure`/`age composition` must be
+gated by a decomposition/CBR co-term, never admitted bare. Production cause axis (stage 3) anchors on
+momentum-specific vocabulary; expect the estimand-ready cell to be a small fraction even of the ~200
+core because much of the momentum literature's outcome is population size/growth, not a birth rate
+(Wall 3 / `OFF_OUTCOME_POP`; `empty-cell-is-the-result` live).
+
+*Still open before freeze:* registered-construct completeness test (item 2), Wall 1 second read, and
+the two PI escalations above. Then anchor sourcing.

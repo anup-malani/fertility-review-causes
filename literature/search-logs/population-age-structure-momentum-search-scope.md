@@ -268,10 +268,14 @@ is this chapter's binding constraint**, exactly as it was for A.10.
 
 ## Open items before freeze (from TICK-089)
 
-1. **Run the frame probe.** `source/build/goldset/304_candidate_frame_probe.py` (currently on the
-   unmerged TICK-080 branch) has not measured A.9. Run it: record A.9's union frame, its anchored core,
-   and the core-of-union ratio (the "anchored literature" signature that made C.2.f/C.3.d preferable to
-   loose residual frames). The "smallest" claim for A.9 is qualitative until this exists.
+1. **Run the frame probe.** *(Done 2026-09-20 — `population-age-structure-momentum-frame-probe.md`.)*
+   A.9 anchored **momentum core ≈ 200** (`population momentum`/`demographic momentum`), working frame
+   **≈ 500** (adding `population age structure`). The WIDE frame (~3,600) is **homonym-inflated** —
+   almost entirely the generic pair `age structure`/`age composition` (3,213 alone; 32,363 unrestricted,
+   an ecology/population-genetics term), which leaks 106 ecology records into the frame even with the
+   fertility gate. **Do not use WIDE as the frame.** Anchor the production cause axis on momentum-specific
+   vocabulary and admit generic age-structure terms only under a decomposition/CBR gate (see the probe
+   doc's "Implication for the production query"). Control (C.3.e) = 85, matching 304's run.
 2. **Registered-construct completeness test.** A.6 and A.3 each led on raw count and were passed over
    because the selecting frame omitted the registry's own construct and undercounted the literature
    (`404`, TICK-087/088). Confirm the A.9 frame carries the registry's construct vocabulary —
