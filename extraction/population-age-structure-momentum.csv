@@ -1,0 +1,17 @@
+study_id,year,setting,doi,oa_status,outcome_level,decomposition_method,age_structure_component_share,age_structure_multiplier_on_CBR,sign,other_components,source_location,extraction_status,notes
+A9-01,2014,China,,no_DOI,,,,,,,,RA_PROCURE,
+A9-02,2021,China,10.1007/s42379-021-00094-6,closed,,,,,,,,RA_PROCURE,
+A9-03,2022,South Korea,10.1007/s12546-022-09287-3,closed,,,,,,,,RA_PROCURE,
+A9-04,2023,South Korea,10.31693/kjps.2023.09.46.3.4,closed,,,,,,,,RA_PROCURE,
+A9-05,2019,South Korea,10.22823/jkea.25.1.201904.37,closed,,,,,,,,RA_PROCURE,
+A9-06,2019,South Africa,,no_DOI,,,,,,,,RA_PROCURE,
+A9-07,2017,China/India,10.12765/cpos-2017-12,open_access,natural growth rate (r); CBR via age-composition multiplier ab,Kitagawa (1955) two-component: intrinsic (fertility+mortality) vs age-composition/momentum,India 2010-15: age component = 10.338 of r=12.970 = ~80%; China 2010-15: age component 6.378 of r=5.391 = >100% (intrinsic ~0),"ab: China 1.013-1.206 (inflated CBR up to ~21%, esp 1985-95); India 1.070-1.149 (up to ~15%)",positive (age composition inflated the CBR / growth rate; momentum),intrinsic (fertility+mortality) component; fertility decline induced -164% (China) / -151% (India) of growth change 1950-2015,"Table 2, p.161; Fig 2 / sec 5, p.162",EXTRACTED,outcome is natural GROWTH rate (OFF_OUTCOME_POP tension) but age-composition effect on CBR (ab) is directly A.9; period TFR is composition-free by construction (paper's f=w x TFR/35 confirms)
+A9-08,2024,Malawi,10.22146/jp.102685,open_access,,,,,,,,OA_pdf_in_hand_pending,
+A9-09,2011,South Africa,,no_DOI,,,,,,,,RA_PROCURE,
+A9-10,2005,USA,10.1080/19485565.2002.9989096,closed,,,,,,,,RA_PROCURE,
+A9-11,1996,USA,10.2307/2061868,closed,,,,,,,,RA_PROCURE,
+A9-12,1991,China,10.2307/1971949,closed,,,,,,,,RA_PROCURE,
+A9-13,1991,Mexico,,no_DOI,,,,,,,,RA_PROCURE,
+A9-14,1983,India,10.25336/p6kw20,open_access,,,,,,,,OA_pdf_in_hand_pending,
+A9-15,1932,USA,10.1086/215925,closed,,,,,,,,RA_PROCURE,
+A9-16,1968,Hong Kong,10.1080/00324728.1968.10405534,closed,,,,,,,,RA_PROCURE,

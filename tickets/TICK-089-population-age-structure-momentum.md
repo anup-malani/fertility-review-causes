@@ -272,3 +272,23 @@ items (South Africa 2019/2011, China 2014, Mexico 1991, Korean/Chinese-language)
 *Next.* Stages 5–7: full-text retrieval (AI-accessible first) → extract the age-structure contribution
 share into `extraction/population-age-structure-momentum.csv` (magnitude, sign, period, setting, method,
 CBR vs births), RA verifies 10%. Then stage 9 quantitative synthesis of the composition share.
+
+**2026-09-20 (Shravan) — extraction started (stages 5–7); OA subset.**
+
+*Result.* `extraction/population-age-structure-momentum.csv` (16 rows) +
+`…-RA-procurement.csv` (13 closed items). OA availability: **only 3/16 are open access**; 13 closed →
+RA/library queue (several non-English: Korea ×3, China 2014, Mexico 1991).
+- **1 study fully extracted** — Chaurasia 2017 (China/India, *Comparative Population Studies*, OA):
+  Kitagawa two-component decomposition; **age-composition (momentum) component ≈ 80% of India's natural
+  growth rate 2010-15, >100% for China** (intrinsic ~0); age-composition multiplier on the CBR (ab)
+  **1.01–1.21** (inflated CBR up to ~21%). Confirms the A.9 signal is large for CBR/growth; the paper's
+  own `f = w × TFR/35` confirms period TFR is composition-free (our by-construction claim).
+- 2 OA PDFs in hand (Malawi 2024, India 1983) pending extraction; 13 need RA procurement.
+
+*Workflow impact.* Extraction is feasible and the numbers are real; the binding constraint is now PDF
+access (PROTOCOL stage-5 human gate), not screening. The first extracted magnitude already anchors the
+CBR/growth demsig cell empirically.
+
+*Next.* Extract the 2 OA PDFs in hand; hand the 13-item procurement list to the RA; then extract those
+as PDFs arrive → stage 9 quantitative synthesis + stage 10 per-outcome demsig + stage 11 GRADE
+(NOT RATEABLE) + stage 12 chapter. TICK-080 formalization + Anup sign-off still precede the final verdict grid.
