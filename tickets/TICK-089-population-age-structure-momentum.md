@@ -9,7 +9,7 @@
 
 ## Acceptance criteria
 - [x] 2. Search strategy and scope drafted — `literature/search-logs/population-age-structure-momentum-search-scope.md` (DRAFT, not frozen)
-- [ ] 3. Literature search and AI screening, both phases (§5.1)
+- [x] 3. Literature search and AI screening, both phases (§5.1) — production query + full PRISMA pass; `…-screen-report.md`, 16 included
 - [ ] 4. RA title/abstract review
 - [ ] 5. Full-text retrieval
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
@@ -256,3 +256,19 @@ outcome.
 procurement), then extract the age-structure share (magnitude, sign, period, setting, method, outcome
 level) → `extraction/population-age-structure-momentum.csv`. A full PRISMA pass over the remaining
 worklist is now clearly worthwhile.
+
+**2026-09-20 (Shravan) — full PRISMA pass; included set finalized at 16.**
+
+*Result.* `…-screen-{full.json,report.md}`, `…-included-studies.json`. Screened the full deduped universe
+(**1,299** records = tight 738 ∪ refined-gated 434 ∪ Tier-B 199, seeds removed). PRISMA: **16 included
+empirical primaries**, 38 → JEL theory stream (+12 canon anchors), 26 → A.11 (tempo), 123 pop-growth
+off-cell, 81 homonym, ~1,001 off/topical. The full pass added exactly **one** primary beyond the recall
+check (Hong Kong 1968) → the included set is stable and near-complete. Included spread: China ×3, Korea
+×3, USA ×3, South Africa ×2, + China/India, Malawi, Mexico, India; 1932–2024.
+
+*Stage 3 complete (acceptance criterion 3 checked).* RA procurement flagged for the no-DOI / non-English
+items (South Africa 2019/2011, China 2014, Mexico 1991, Korean/Chinese-language).
+
+*Next.* Stages 5–7: full-text retrieval (AI-accessible first) → extract the age-structure contribution
+share into `extraction/population-age-structure-momentum.csv` (magnitude, sign, period, setting, method,
+CBR vs births), RA verifies 10%. Then stage 9 quantitative synthesis of the composition share.
