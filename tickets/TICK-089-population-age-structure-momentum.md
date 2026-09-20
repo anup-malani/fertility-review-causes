@@ -15,7 +15,7 @@
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
 - [ ] 7. Extraction to `extraction/population-age-structure-momentum.csv`, RA verifies a random 10%
 - [ ] 8. Risk-of-bias assessment per study
-- [ ] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise
+- [x] 9. Structured quantitative synthesis (NOT pooled — decomposition shares across heterogeneous outcomes/signs); `output/tables/population-age-structure-momentum-synthesis.md`
 - [ ] 10. Demographic significance against PM / FDT / SDT
 - [ ] 11. GRADE rating, 3 independent raters
 - [ ] 12. Chapter draft on the §6 template
@@ -312,3 +312,23 @@ verdict the scope + TICK-080 anticipated — report the *distribution* of the co
 number.
 
 *Next.* OCR A9-14; procure the 5 missing; pin exact numbers for A9-05/10/11; then stage 9.
+
+**2026-09-20 (Shravan) — stage 9 quantitative synthesis (on 10/16; 6 unprocurable).**
+
+*Result.* `output/tables/population-age-structure-momentum-synthesis.md`. 6 studies marked
+`not_retrieved` (unavailable per Shravan); synthesis runs on the 10 in hand. **Not pooled** — the
+estimands are decomposition shares across heterogeneous outcomes with opposite signs, so a `metafor`
+number would be a category error (TICK-080 item 8 + non-effect estimand). Reported as the
+distribution + moderators instead.
+
+*Finding.* The age-structure share of an observed CBR/birth-count movement spans **~0–3% (Malawi, Korea)
+to ~60–100% (South Africa +60%, Hong Kong ~80%, China/India momentum ~80–100% of growth)**, and is
+**signed both ways** — negative where a shrinking/aging reproductive-age population coincides with
+decline (Korea, China, HK), positive where a youthful/momentum-laden structure inflates or props up the
+CBR (South Africa, China/India, US GFR compensation). Moderators: momentum/distance-from-stationarity,
+window length, and whether marriage/marital fertility carry the change. **Zero by construction for period
+TFR and CCF** (Chaurasia confirms analytically). The dispersion *is* the result — no central "A.9 effect."
+
+*Next.* Stage 10 demsig (per outcome: CBR/births significant-but-setting-specific, both signs; TFR/CCF
+zero by construction) → stage 11 GRADE (NOT RATEABLE) → stage 12 chapter draft (+ signed dot/range figure,
+not a forest plot). TICK-080 formalization + Anup sign-off precede the final verdict grid.
