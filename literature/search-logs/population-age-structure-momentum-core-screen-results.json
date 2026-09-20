@@ -1,0 +1,560 @@
+[
+ {
+  "title": "Study the Effect of Population Age Structure Changes on the Crude Birth Rate in China",
+  "year": 2014,
+  "doi": "",
+  "provisional_cell": "AGE_STRUCT_AMBIG",
+  "src": "keyword",
+  "verdict": "RELEVANT_PRIMARY",
+  "reason": "decomposes CBR change into an age-structure contribution share, China 1949-2011; the unambiguous A.9 PRIMARY_COMPOSITION_CBR study"
+ },
+ {
+  "title": "Fertility rates and future population trends: will Europe's birth rate recover or continue to decline?",
+  "year": 2006,
+  "doi": "10.1111/j.1365-2605.2005.00639.x",
+  "provisional_cell": "FERT_OTHER",
+  "src": "keyword+tierb",
+  "verdict": "OFF",
+  "reason": "off-cell / topical overlap"
+ },
+ {
+  "title": "Demographic Momentum and Fertility Responses to Pronatalist Policies: The Case of Ethnic Minorities in Russia",
+  "year": 2026,
+  "doi": "10.1002/psp.70241",
+  "provisional_cell": "MOMENTUM",
+  "src": "keyword",
+  "verdict": "OFF",
+  "reason": "pronatalist policy effect (Maternal Capital), tempo/quantum -> C.2.d/A.11; 'momentum' is loose in title"
+ },
+ {
+  "title": "A 100-year Projection of Population Aging in Iran Through the Decomposition of Population Momentum",
+  "year": 2026,
+  "doi": "",
+  "provisional_cell": "MOMENTUM",
+  "src": "keyword",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "formal population-momentum theory -> JEL theory stream (not an empirical birth-rate decomposition)"
+ },
+ {
+  "title": "Cultural Momentum, Demographic Divergence, and Population Prospects in India, 2100: Son Preference as a Structural Driver of Fertility and Long-Term Projections",
+  "year": 2026,
+  "doi": "",
+  "provisional_cell": "MOMENTUM",
+  "src": "keyword",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "formal population-momentum theory -> JEL theory stream (not an empirical birth-rate decomposition)"
+ },
+ {
+  "title": "A 100-Year Projection of Population Aging Trends in Iran: Decomposition of Population Momentum",
+  "year": 2025,
+  "doi": "10.32598/sija.2025.2814.3",
+  "provisional_cell": "MOMENTUM",
+  "src": "keyword+tierb",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "formal population-momentum theory -> JEL theory stream (not an empirical birth-rate decomposition)"
+ },
+ {
+  "title": "On the momentum of pseudostable populations",
+  "year": 2025,
+  "doi": "10.4054/demres.2025.52.15",
+  "provisional_cell": "MOMENTUM",
+  "src": "keyword+tierb",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "formal population-momentum theory -> JEL theory stream (not an empirical birth-rate decomposition)"
+ },
+ {
+  "title": "Does Inequality Have Momentum? The Implications of Convex Inequality Regimes for Mortality Dynamics",
+  "year": 2024,
+  "doi": "10.1111/padr.12649",
+  "provisional_cell": "MOMENTUM",
+  "src": "tierb",
+  "verdict": "OFF",
+  "reason": "homonym (ecology/soil/other), not demographic momentum"
+ },
+ {
+  "title": "The optimal momentum of population growth and decline",
+  "year": 2023,
+  "doi": "10.1016/j.tpb.2023.12.002",
+  "provisional_cell": "MOMENTUM",
+  "src": "keyword",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "formal population-momentum theory -> JEL theory stream (not an empirical birth-rate decomposition)"
+ },
+ {
+  "title": "The momentum of population growth",
+  "year": 2023,
+  "doi": "10.18356/9789210052467c012",
+  "provisional_cell": "MOMENTUM",
+  "src": "keyword",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "formal population-momentum theory -> JEL theory stream (not an empirical birth-rate decomposition)"
+ },
+ {
+  "title": "ON THE MOMENTUM OF PSEUDOSTABLE POPULATIONS",
+  "year": 2023,
+  "doi": "10.1553/0x003e187b",
+  "provisional_cell": "MOMENTUM",
+  "src": "keyword",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "formal population-momentum theory -> JEL theory stream (not an empirical birth-rate decomposition)"
+ },
+ {
+  "title": "Intrinsic and Momentum Components of World Population Growth: 1950-2020",
+  "year": 2021,
+  "doi": "10.2139/ssrn.3874699",
+  "provisional_cell": "MOMENTUM",
+  "src": "keyword",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "formal population-momentum theory -> JEL theory stream (not an empirical birth-rate decomposition)"
+ },
+ {
+  "title": "Population Momentum",
+  "year": 2021,
+  "doi": "10.1007/978-3-030-22009-9_659",
+  "provisional_cell": "MOMENTUM",
+  "src": "tierb",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "formal population-momentum theory -> JEL theory stream (not an empirical birth-rate decomposition)"
+ },
+ {
+  "title": "Population Momentum",
+  "year": 2020,
+  "doi": "10.4324/9781003076674-19",
+  "provisional_cell": "MOMENTUM",
+  "src": "keyword",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "formal population-momentum theory -> JEL theory stream (not an empirical birth-rate decomposition)"
+ },
+ {
+  "title": "Momentum Pertumbuhan Penduduk Tersembunyi Sebagai Salah Satu Faktor Penurunan Laju Pertumbuhan Penduduk Di Jawa Barat",
+  "year": 2020,
+  "doi": "10.31845/jwk.v14i2.292",
+  "provisional_cell": "MOMENTUM",
+  "src": "keyword",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "formal population-momentum theory -> JEL theory stream (not an empirical birth-rate decomposition)"
+ },
+ {
+  "title": "Population Momentum",
+  "year": 2019,
+  "doi": "10.1007/978-3-319-69892-2_659-1",
+  "provisional_cell": "MOMENTUM",
+  "src": "keyword+tierb",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "formal population-momentum theory -> JEL theory stream (not an empirical birth-rate decomposition)"
+ },
+ {
+  "title": "Low Fertility, Population Momentum, and Future Demographic Prospects of South Korea",
+  "year": 2018,
+  "doi": "10.15709/hswr.2018.38.2.9",
+  "provisional_cell": "MOMENTUM",
+  "src": "keyword+tierb",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "momentum -> future population prospects (Korea); theory/OFF_OUTCOME_POP"
+ },
+ {
+  "title": "China\u2019s population momentum under low fertility",
+  "year": 2017,
+  "doi": "10.4324/9781315109398-15",
+  "provisional_cell": "MOMENTUM",
+  "src": "keyword",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "momentum -> future population growth (China); theory/OFF_OUTCOME_POP"
+ },
+ {
+  "title": "Age Structure and Population Momentum in South Korea",
+  "year": 2015,
+  "doi": "10.21588/dns.2015.44.2.008",
+  "provisional_cell": "MOMENTUM",
+  "src": "keyword",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "age structure -> population momentum -> future GROWTH (Korea); PRIMARY_MOMENTUM but growth outcome (Wall 3)"
+ },
+ {
+  "title": "Population Dynamics: Momentum of Population Growth",
+  "year": 2015,
+  "doi": "10.1016/b978-0-08-097086-8.31020-0",
+  "provisional_cell": "MOMENTUM",
+  "src": "tierb",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "formal population-momentum theory -> JEL theory stream (not an empirical birth-rate decomposition)"
+ },
+ {
+  "title": "On Nonstable and Stable Population Momentum",
+  "year": 2011,
+  "doi": "10.1007/s13524-011-0063-y",
+  "provisional_cell": "MOMENTUM",
+  "src": "keyword+tierb",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "formal population-momentum theory -> JEL theory stream (not an empirical birth-rate decomposition)"
+ },
+ {
+  "title": "On \"Weak\" and \"Strong\" Population Momentum",
+  "year": 2009,
+  "doi": "",
+  "provisional_cell": "MOMENTUM",
+  "src": "keyword+tierb",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "formal population-momentum theory -> JEL theory stream (not an empirical birth-rate decomposition)"
+ },
+ {
+  "title": "Population Momentum: Implications for Wildlife Management",
+  "year": 2006,
+  "doi": "10.2193/0022-541x(2006)70[19:pmifwm]2.0.co;2",
+  "provisional_cell": "MOMENTUM",
+  "src": "keyword",
+  "verdict": "OFF",
+  "reason": "homonym (ecology/soil/other), not demographic momentum"
+ },
+ {
+  "title": "Population dynamics in Germany: the role of immigration and population momentum",
+  "year": 2006,
+  "doi": "10.1007/s11113-006-9011-8",
+  "provisional_cell": "MOMENTUM",
+  "src": "keyword",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "formal population-momentum theory -> JEL theory stream (not an empirical birth-rate decomposition)"
+ },
+ {
+  "title": "The Momentum of Real Population Under Linear Fertility Transition",
+  "year": 2006,
+  "doi": "10.1080/08898480600620035",
+  "provisional_cell": "MOMENTUM",
+  "src": "keyword",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "formal population-momentum theory -> JEL theory stream (not an empirical birth-rate decomposition)"
+ },
+ {
+  "title": "Population momentum across vertebrate life histories",
+  "year": 2006,
+  "doi": "10.1016/j.ecolmodel.2006.03.034",
+  "provisional_cell": "MOMENTUM",
+  "src": "tierb",
+  "verdict": "OFF",
+  "reason": "homonym (ecology/soil/other), not demographic momentum"
+ },
+ {
+  "title": "The momentum of mortality change",
+  "year": 2005,
+  "doi": "10.1080/00324720500223427",
+  "provisional_cell": "MOMENTUM",
+  "src": "keyword+tierb",
+  "verdict": "OFF",
+  "reason": "momentum of MORTALITY change -> A.1 seam, not birth-rate composition"
+ },
+ {
+  "title": "Modeling momentum in gradual demographic transitions",
+  "year": 2003,
+  "doi": "10.1353/dem.2003.0040",
+  "provisional_cell": "MOMENTUM",
+  "src": "keyword+tierb",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "formal population-momentum theory -> JEL theory stream (not an empirical birth-rate decomposition)"
+ },
+ {
+  "title": "Modeling Momentum in Gradual Demographic Transitions",
+  "year": 2003,
+  "doi": "10.2307/1515200",
+  "provisional_cell": "MOMENTUM",
+  "src": "keyword",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "formal population-momentum theory -> JEL theory stream (not an empirical birth-rate decomposition)"
+ },
+ {
+  "title": "On the Impact of Spatial Momentum",
+  "year": 2002,
+  "doi": "10.4054/demres.2002.6.3",
+  "provisional_cell": "MOMENTUM",
+  "src": "keyword+tierb",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "formal population-momentum theory -> JEL theory stream (not an empirical birth-rate decomposition)"
+ },
+ {
+  "title": "Population momentum for gradual demographic transitions: an alternative approach",
+  "year": 2002,
+  "doi": "10.1353/dem.2002.0004",
+  "provisional_cell": "MOMENTUM",
+  "src": "keyword",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "formal population-momentum theory -> JEL theory stream (not an empirical birth-rate decomposition)"
+ },
+ {
+  "title": "Population Momentum for Gradual Demographic Transitions: An Alternative Approach",
+  "year": 2002,
+  "doi": "10.2307/3088364",
+  "provisional_cell": "MOMENTUM",
+  "src": "keyword",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "formal population-momentum theory -> JEL theory stream (not an empirical birth-rate decomposition)"
+ },
+ {
+  "title": "On the impact of spatial momentum",
+  "year": 2002,
+  "doi": "",
+  "provisional_cell": "MOMENTUM",
+  "src": "tierb",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "formal population-momentum theory -> JEL theory stream (not an empirical birth-rate decomposition)"
+ },
+ {
+  "title": "Population Dynamics: Momentum of Population Growth",
+  "year": 2001,
+  "doi": "10.1016/b0-08-043076-7/02106-9",
+  "provisional_cell": "MOMENTUM",
+  "src": "keyword+tierb",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "formal population-momentum theory -> JEL theory stream (not an empirical birth-rate decomposition)"
+ },
+ {
+  "title": "Population momentum for gradual demographic transitions",
+  "year": 1999,
+  "doi": "10.1080/00324720308078",
+  "provisional_cell": "MOMENTUM",
+  "src": "keyword",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "formal population-momentum theory -> JEL theory stream (not an empirical birth-rate decomposition)"
+ },
+ {
+  "title": "Deconstructing population momentum.",
+  "year": 1999,
+  "doi": "",
+  "provisional_cell": "MOMENTUM",
+  "src": "keyword",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "formal population-momentum theory -> JEL theory stream (not an empirical birth-rate decomposition)"
+ },
+ {
+  "title": "Momentum Under a Gradual Approach to Zero Growth",
+  "year": 1998,
+  "doi": "10.1080/0032472031000150476",
+  "provisional_cell": "MOMENTUM",
+  "src": "keyword",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "formal population-momentum theory -> JEL theory stream (not an empirical birth-rate decomposition)"
+ },
+ {
+  "title": "Population momentum as a measure of ageing",
+  "year": 1996,
+  "doi": "10.1007/bf01797165",
+  "provisional_cell": "MOMENTUM",
+  "src": "tierb",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "formal population-momentum theory -> JEL theory stream (not an empirical birth-rate decomposition)"
+ },
+ {
+  "title": "Demographic momentum. International population assistance should be a continued priority during the 1990s.",
+  "year": 1992,
+  "doi": "",
+  "provisional_cell": "MOMENTUM",
+  "src": "keyword",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "formal population-momentum theory -> JEL theory stream (not an empirical birth-rate decomposition)"
+ },
+ {
+  "title": "Momentum and the growth-free segment of a population",
+  "year": 1991,
+  "doi": "10.2307/2061341",
+  "provisional_cell": "MOMENTUM",
+  "src": "tierb",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "formal population-momentum theory -> JEL theory stream (not an empirical birth-rate decomposition)"
+ },
+ {
+  "title": "Population momentum\u2014A formulation based on a stochastic population process",
+  "year": 1985,
+  "doi": "10.1016/0025-5564(85)90094-x",
+  "provisional_cell": "MOMENTUM",
+  "src": "keyword+tierb",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "formal population-momentum theory -> JEL theory stream (not an empirical birth-rate decomposition)"
+ },
+ {
+  "title": "The dynamics of population momentum.",
+  "year": 1984,
+  "doi": "",
+  "provisional_cell": "MOMENTUM",
+  "src": "keyword",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "formal population-momentum theory -> JEL theory stream (not an empirical birth-rate decomposition)"
+ },
+ {
+  "title": "The momentum of population growth with time dependent net maternity function",
+  "year": 1978,
+  "doi": "10.2307/2060495",
+  "provisional_cell": "MOMENTUM",
+  "src": "keyword",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "formal population-momentum theory -> JEL theory stream (not an empirical birth-rate decomposition)"
+ },
+ {
+  "title": "Population momentum: A wider definition",
+  "year": 1977,
+  "doi": "10.1080/00324728.1977.10412766",
+  "provisional_cell": "MOMENTUM",
+  "src": "keyword",
+  "verdict": "RELEVANT_THEORY",
+  "reason": "formal population-momentum theory -> JEL theory stream (not an empirical birth-rate decomposition)"
+ },
+ {
+  "title": "DIFFERENTIAL URBANISATION IN MALAYSIA, 1980-2010",
+  "year": 2022,
+  "doi": "10.21837/pm.v20i23.1158",
+  "provisional_cell": "OFF_OTHER",
+  "src": "keyword+tierb",
+  "verdict": "OFF",
+  "reason": "off-cell / topical overlap"
+ },
+ {
+  "title": "Growing rich without growing old: the impact of internal migration in China",
+  "year": 2020,
+  "doi": "10.1080/17441730.2020.1750187",
+  "provisional_cell": "OFF_OTHER",
+  "src": "keyword+tierb",
+  "verdict": "OFF",
+  "reason": "off-cell / topical overlap"
+ },
+ {
+  "title": "28 Mathematical Demography",
+  "year": 2019,
+  "doi": "10.1007/978-3-030-10910-3_29",
+  "provisional_cell": "OFF_OTHER",
+  "src": "keyword+tierb",
+  "verdict": "OFF",
+  "reason": "off-cell / topical overlap"
+ },
+ {
+  "title": "Two centuries of demographic change in Canada",
+  "year": 2014,
+  "doi": "10.25336/p6ns4b",
+  "provisional_cell": "OFF_OTHER",
+  "src": "keyword+tierb",
+  "verdict": "OFF",
+  "reason": "off-cell / topical overlap"
+ },
+ {
+  "title": "The demographic drivers of future ethnic group populations for UK local areas 2001\u20132051",
+  "year": 2012,
+  "doi": "10.1111/j.1475-4959.2012.00471.x",
+  "provisional_cell": "OFF_OTHER",
+  "src": "keyword+tierb",
+  "verdict": "OFF",
+  "reason": "off-cell / topical overlap"
+ },
+ {
+  "title": "Stages of the Demographic Transition from a Child's Perspective: Family Size, Cohort Size, and Children's Resources",
+  "year": 2008,
+  "doi": "10.1111/j.1728-4457.2008.00218.x",
+  "provisional_cell": "OFF_OTHER",
+  "src": "keyword+tierb",
+  "verdict": "OFF",
+  "reason": "off-cell / topical overlap"
+ },
+ {
+  "title": "Completing the demographic transition",
+  "year": 1999,
+  "doi": "10.31899/pgy6.1026",
+  "provisional_cell": "OFF_OTHER",
+  "src": "keyword+tierb",
+  "verdict": "OFF",
+  "reason": "off-cell / topical overlap"
+ },
+ {
+  "title": "Population Policy Options in the Developing World",
+  "year": 1994,
+  "doi": "10.1126/science.8303293",
+  "provisional_cell": "OFF_OTHER",
+  "src": "keyword+tierb",
+  "verdict": "OFF",
+  "reason": "off-cell / topical overlap"
+ },
+ {
+  "title": "Drivers of future population growth in six most populous countries: Effect of demographic components on the population growth using decomposition analysis",
+  "year": 2023,
+  "doi": "10.12688/gatesopenres.14741.1",
+  "provisional_cell": "OFF_OUTCOME_POP",
+  "src": "keyword+tierb",
+  "verdict": "OFF",
+  "reason": "outcome is population growth/size, not a birth rate (Wall 3)"
+ },
+ {
+  "title": "Fewer Couples, Fewer Births: Decomposing the Fertility Decline",
+  "year": 2026,
+  "doi": "10.2139/ssrn.7127101",
+  "provisional_cell": "PRIMARY_COMPOSITION",
+  "src": "keyword",
+  "verdict": "OFF",
+  "reason": "decomposes decline into couple/union formation vs marital fertility -> A.7 marriage, not A.9 age structure"
+ },
+ {
+  "title": "Decomposition of Fertility Change in Nigeria from the 2018 to the 2023\u201324 NDHS Using Proximate Determinants and Contextual Socioeconomic Shifts with Microdata",
+  "year": 2026,
+  "doi": "10.38124/ijisrt/26jan073",
+  "provisional_cell": "PRIMARY_COMPOSITION",
+  "src": "keyword",
+  "verdict": "OFF",
+  "reason": "Bongaarts proximate determinants (marriage/contraception/breastfeeding) -> A.2/A.5/A.13, not A.9"
+ },
+ {
+  "title": "Residential and wealth-related disparities of high fertility preferences in Ethiopia: A decomposition analysis",
+  "year": 2024,
+  "doi": "10.1371/journal.pone.0299443",
+  "provisional_cell": "PRIMARY_COMPOSITION",
+  "src": "keyword",
+  "verdict": "OFF",
+  "reason": "Oaxaca decomposition of fertility PREFERENCES by residence/wealth -> not age structure, not a birth rate"
+ },
+ {
+  "title": "Declining number of births in China: a decomposition analysis",
+  "year": 2021,
+  "doi": "10.1007/s42379-021-00094-6",
+  "provisional_cell": "PRIMARY_COMPOSITION",
+  "src": "keyword",
+  "verdict": "RELEVANT_PRIMARY",
+  "reason": "'Declining number of births in China: a decomposition' -> almost certainly age-structure vs rate split on birth counts; PRIMARY_COMPOSITION_BIRTHS (confirm at full text)"
+ },
+ {
+  "title": "Did Pro-natal Policy in Korea Fail?: A Decomposition of Fertility Change from 2000 to 2016",
+  "year": 2018,
+  "doi": "10.22841/kjes.2018.66.3.001",
+  "provisional_cell": "PRIMARY_COMPOSITION",
+  "src": "keyword",
+  "verdict": "UNCERTAIN",
+  "reason": "'Decomposition of fertility change' Korea 2000-2016; could be tempo/quantum or age-specific; full text needed, lean OFF"
+ },
+ {
+  "title": "The application of exogenous cellulase to improve soil fertility and plant growth due to acceleration of straw decomposition",
+  "year": 2010,
+  "doi": "10.1016/j.biortech.2009.12.104",
+  "provisional_cell": "PRIMARY_COMPOSITION",
+  "src": "keyword",
+  "verdict": "OFF",
+  "reason": "homonym: literal decomposition (soil/biology)"
+ },
+ {
+  "title": "First and second births in first and second unions: a decomposition of fertility decline in Bulgaria and Russia since the 1989 economic and political transition",
+  "year": 2007,
+  "doi": "10.4054/mpidr-wp-2007-001",
+  "provisional_cell": "PRIMARY_COMPOSITION",
+  "src": "keyword",
+  "verdict": "OFF",
+  "reason": "union/parity decomposition (Bulgaria/Russia) -> A.7/tempo, not A.9 age structure"
+ },
+ {
+  "title": "Decomposition of Fertility Levels and Trends in Upper Egypt during the Period 1992-2003",
+  "year": 2006,
+  "doi": "10.21608/mskas.2006.301959",
+  "provisional_cell": "PRIMARY_COMPOSITION",
+  "src": "keyword",
+  "verdict": "OFF",
+  "reason": "Bongaarts-Potter proximate determinants (contraception/amenorrhea) -> A.2/A.13, not A.9"
+ },
+ {
+  "title": "Experimental studies on impacts of pesticides on litter decomposition soil fertility and organisms in a soil litter system",
+  "year": 1979,
+  "doi": "",
+  "provisional_cell": "PRIMARY_COMPOSITION",
+  "src": "keyword",
+  "verdict": "OFF",
+  "reason": "homonym: literal decomposition (soil/biology)"
+ }
+]

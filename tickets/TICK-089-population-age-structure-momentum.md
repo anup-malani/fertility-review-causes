@@ -208,3 +208,27 @@ is the biggest compute step and there is **no `sequential-screen.mjs`/`snowball-
 branch** — it is an inline LLM effort or needs that tooling. Also open: the protocol-level rulings
 (escalations 1–2) were made to unblock A.9 but the **formal PROTOCOL amendment + `decisions/` entry
 remain TICK-080's**, and Anup's sign-off at a sync is the clean closure. Paused here for a go-ahead.
+
+**2026-09-20 (Shravan) — core-first screen (62 highest-prior records).**
+
+*Result.* `…-core-screen-{results.json,report.md}`. Screened the plausibly-primary cells + 21
+multi-channel Tier-1 candidates on title+abstract: **2 RELEVANT_PRIMARY, 1 UNCERTAIN, 37
+RELEVANT_THEORY, 22 OFF.** The empirical A.9 cell is **~2 studies** — both China age-structure→CBR/births
+decompositions ("…Age Structure Changes on the Crude Birth Rate in China" 2014; "Declining number of
+births in China: a decomposition" 2021). **`empty-cell-is-the-result` confirmed** on the actual
+records, not just predicted.
+
+*Load-bearing routing finding:* "fertility decomposition" ≠ "age-structure decomposition." The other
+decomposition papers route OUT of A.9 — Bongaarts proximate determinants (Nigeria, Egypt → A.2/A.5/A.13),
+union composition (→ A.7), preference disparities (off). A.9 owns only the age-structure-vs-rate split.
+The momentum literature (37) is formal theory (→ JEL theory stream) or population-growth outcomes
+(OFF_OUTCOME_POP).
+
+*Consequence:* stage 9 = narrative synthesis, not meta-analysis; demsig verdict rests on the 2
+decompositions + accounting/momentum theory (near-determinate per outcome). The full ~700 pass is
+unlikely to move the verdict (recommendation in the report: targeted recall check on the residual
+"decomposition"-titled records, then full-text the 2–3 primaries and draft on the empty-cell finding).
+
+*Next (decision):* (i) targeted recall check, (ii) full PRISMA pass, or (iii) proceed to full-text
+retrieval of the 2–3 primary candidates and draft. Plus the standing TICK-080 formalization + Anup
+sign-off before the verdict grid is final.
