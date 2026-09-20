@@ -1,14 +1,14 @@
-study_id,year,setting,doi,title,note
-A9-01,2014,China,,Study the Effect of Population Age Structure Changes on the Crude Birth Rate in China,UChicago library/proxy; non-English likely for Korea/China/Mexico items
-A9-02,2021,China,10.1007/s42379-021-00094-6,Declining number of births in China: a decomposition analysis,UChicago library/proxy; non-English likely for Korea/China/Mexico items
-A9-03,2022,South Korea,10.1007/s12546-022-09287-3,A decomposition of declining crude birth rate in South Korea,UChicago library/proxy; non-English likely for Korea/China/Mexico items
-A9-04,2023,South Korea,10.31693/kjps.2023.09.46.3.4,A Decomposition of Change in the Number of Birth in Korea,UChicago library/proxy; non-English likely for Korea/China/Mexico items
-A9-05,2019,South Korea,10.22823/jkea.25.1.201904.37,Decomposition of Change in the Total Number of Births and Future Projections,UChicago library/proxy; non-English likely for Korea/China/Mexico items
-A9-06,2019,South Africa,,A decomposition analysis of fertility rate in South Africa by population,UChicago library/proxy; non-English likely for Korea/China/Mexico items
-A9-09,2011,South Africa,,Decomposition of South African crude birth rates,UChicago library/proxy; non-English likely for Korea/China/Mexico items
-A9-10,2005,USA,10.1080/19485565.2002.9989096,Stable aggregate fertility in a time of family change,UChicago library/proxy; non-English likely for Korea/China/Mexico items
-A9-11,1996,USA,10.2307/2061868,A decomposition of trends in the nonmarital fertility ratios of blacks and whites,UChicago library/proxy; non-English likely for Korea/China/Mexico items
-A9-12,1991,China,10.2307/1971949,A Demographic Decomposition of the Recent Increase in Crude Birth Rates in China,UChicago library/proxy; non-English likely for Korea/China/Mexico items
-A9-13,1991,Mexico,,Decomposition of change in the crude birth rate in Mexico,UChicago library/proxy; non-English likely for Korea/China/Mexico items
-A9-15,1932,USA,10.1086/215925,Trends in Age Composition and in Specific Birth-Rates,UChicago library/proxy; non-English likely for Korea/China/Mexico items
-A9-16,1968,Hong Kong,10.1080/00324728.1968.10405534,Recent fertility declines in Hong Kong: the role of the changing age structure,UChicago library/proxy; non-English likely for Korea/China/Mexico items
+study_id,year,setting,doi,title,authors,venue,alt_ids,note
+A9-01,2014,China,,Study the Effect of Population Age Structure Changes on the Crude Birth Rate in China,Yuan Xiao-pin,Xibei renkou (Northwest Population),openalex:W2366982396; MAG 2366982396,Chinese-language; no DOI
+A9-02,2021,China,10.1007/s42379-021-00094-6,Declining number of births in China: a decomposition analysis,,,,UChicago library/proxy; non-English likely for Korea/China/Mexico items
+A9-03,2022,South Korea,10.1007/s12546-022-09287-3,A decomposition of declining crude birth rate in South Korea,,,,UChicago library/proxy; non-English likely for Korea/China/Mexico items
+A9-04,2023,South Korea,10.31693/kjps.2023.09.46.3.4,A Decomposition of Change in the Number of Birth in Korea,,,,UChicago library/proxy; non-English likely for Korea/China/Mexico items
+A9-05,2019,South Korea,10.22823/jkea.25.1.201904.37,Decomposition of Change in the Total Number of Births and Future Projections,,,,UChicago library/proxy; non-English likely for Korea/China/Mexico items
+A9-06,2019,South Africa,,A decomposition analysis of fertility rate in South Africa by population,C.G. Seakgwa,North-West University (Boloka repository),openalex:W3162170618,likely thesis/dissertation; no DOI
+A9-09,2011,South Africa,,Decomposition of South African crude birth rates,Martin E. Palamuleni,Southern African Journal of Demography,openalex:W2567055393,on JSTOR; no DOI
+A9-10,2005,USA,10.1080/19485565.2002.9989096,Stable aggregate fertility in a time of family change,,,,UChicago library/proxy; non-English likely for Korea/China/Mexico items
+A9-11,1996,USA,10.2307/2061868,A decomposition of trends in the nonmarital fertility ratios of blacks and whites,,,,UChicago library/proxy; non-English likely for Korea/China/Mexico items
+A9-12,1991,China,10.2307/1971949,A Demographic Decomposition of the Recent Increase in Crude Birth Rates in China,,,,UChicago library/proxy; non-English likely for Korea/China/Mexico items
+A9-13,1991,Mexico,,Decomposition of change in the crude birth rate in Mexico,Carlos Welti,(Mexican demography journal),pmid:12316455; openalex:W2282387524,Spanish-language; no DOI
+A9-15,1932,USA,10.1086/215925,Trends in Age Composition and in Specific Birth-Rates,,,,UChicago library/proxy; non-English likely for Korea/China/Mexico items
+A9-16,1968,Hong Kong,10.1080/00324728.1968.10405534,Recent fertility declines in Hong Kong: the role of the changing age structure,,,,UChicago library/proxy; non-English likely for Korea/China/Mexico items
