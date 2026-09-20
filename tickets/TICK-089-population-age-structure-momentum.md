@@ -8,7 +8,7 @@
 **Touches:** literature/search-logs/population-age-structure-momentum-*, extraction/population-age-structure-momentum-*, output/chapters/population-age-structure-momentum.md
 
 ## Acceptance criteria
-- [ ] 2. Search strategy and scope drafted
+- [x] 2. Search strategy and scope drafted — `literature/search-logs/population-age-structure-momentum-search-scope.md` (DRAFT, not frozen)
 - [ ] 3. Literature search and AI screening, both phases (§5.1)
 - [ ] 4. RA title/abstract review
 - [ ] 5. Full-text retrieval
@@ -63,3 +63,40 @@ rather than a novel-evidence chapter. `empty-cell-is-the-result` / `empty-cell-n
 apply if the identified-design cell is thin.
 
 ## Log
+
+**2026-09-20 (Shravan) — stage 2 search scope drafted.**
+
+*Result.* Drafted `literature/search-logs/population-age-structure-momentum-search-scope.md` (DRAFT,
+not frozen). Key rulings:
+- A.9 is a **non-effect estimand** (decomposition/accounting + demographic momentum), not a treatment.
+  Two constructs held apart: age-composition effects on period *counts/CBR*, and Keyfitz-style
+  demographic momentum.
+- **Load-bearing correction:** the composition effect lands on the **CBR and birth counts**, is **zero
+  by construction on the period TFR** (which is already age-standardized) and **zero on completed cohort
+  fertility.** The v5 claim text ("...crude birth rates and period TFR...") is imprecise on the TFR
+  clause — flagged for TICK-001; tempo (A.11), not composition, is what moves period TFR.
+- Four boundary walls: **W1 A.9 vs A.11 tempo** (composition/weights vs timing/rates — the sharpest),
+  **W2 A.9 as the shared accounting residual** (A.10's Wall 4 already routes `MECHANICAL_COMPOSITION →
+  A.9`; A.9's CBR verdict is *not additive* with other chapters), **W3 A.9 vs population-size/growth
+  outcomes** (`OFF_OUTCOME_POP`, expected largest cell), **W4 A.9 vs A.1 mortality** (determinant of the
+  age structure).
+- Adopts TICK-080 §5–6 provisionally: GRADE **NOT RATEABLE — non-effect estimand**; demographic
+  significance reported **per outcome** (CBR/births large-by-construction → report magnitude not
+  pass/fail; period TFR = 0; CCF = 0), not a single label.
+
+*Escalations to Anup (recorded here; no repo-wide escalation-log.md exists — same practice as A.10 /
+TICK-054):*
+1. **Non-additive proximate causes / mechanical-composition ownership.** Does A.9 own and *define* the
+   mechanical-composition component that A.1/A.7/A.8/A.10 then report *net of*? Same item TICK-054
+   (A.10 Wall 2) and TICK-080 raise; A.9 is the natural place to land the rule. **Blocks freeze.**
+2. **Rating a non-effect estimand.** Confirm GRADE "NOT RATEABLE" and the per-outcome demsig reporting
+   for A.9 (this is the concrete case behind TICK-080 §5–6). **Blocks freeze.**
+
+*Workflow impact.* First chapter whose primary estimand is an accounting identity; it is the test case
+for TICK-080's non-effect-estimand GRADE band and per-outcome demsig reporting, and the landing site
+for the review-wide non-additivity rule. Reusable: the "the outcome is not the period TFR" three-way
+outcome split parallels A.11 tempo and should be cross-linked when both are finalized.
+
+*Next.* Stage 2 open items before freeze: run the frame probe (`304_candidate_frame_probe.py`, on the
+TICK-080 branch) on A.9; registered-construct completeness test; homonym-residue check ("momentum",
+"age structure"); second read on Wall 1; then anchor sourcing (channels 1–3, existence-gated).
