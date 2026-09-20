@@ -11,14 +11,14 @@
 - [x] 2. Search strategy and scope drafted — `literature/search-logs/population-age-structure-momentum-search-scope.md` (DRAFT, not frozen)
 - [x] 3. Literature search and AI screening, both phases (§5.1) — production query + full PRISMA pass; `…-screen-report.md`, 16 included
 - [ ] 4. RA title/abstract review
-- [ ] 5. Full-text retrieval
+- [~] 5. Full-text retrieval — 10/16 retrieved (3 OA + 7 Shravan-procured); 6 not procurable (marked not_retrieved)
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
-- [ ] 7. Extraction to `extraction/population-age-structure-momentum.csv`, RA verifies a random 10%
-- [ ] 8. Risk-of-bias assessment per study
+- [~] 7. Extraction to `extraction/population-age-structure-momentum.csv` — 10/16 extracted (6 numeric, 2 qual, 2 partial); RA 10% verify pending
+- [x] 8. Risk-of-bias — **N/A (non-effect estimand):** ROBINS-I/RoB2 grade causal designs; A.9's are identity decompositions. Replaced by method-quality (exhaustive vs residual; base-schedule) in §5–§6.
 - [x] 9. Structured quantitative synthesis (NOT pooled — decomposition shares across heterogeneous outcomes/signs); `output/tables/population-age-structure-momentum-synthesis.md`
-- [ ] 10. Demographic significance against PM / FDT / SDT
-- [ ] 11. GRADE rating, 3 independent raters
-- [ ] 12. Chapter draft on the §6 template
+- [x] 10. Demographic significance against PM / FDT / SDT — §8 (per outcome; 0%/NEGLIGIBLE on completed fertility, SUBSTANTIAL–DOMINANT but setting-specific on CBR/births; PM NOT ASSESSED)
+- [x] 11. GRADE — **NOT RATEABLE — non-effect estimand** (§9; TICK-080 item 5); 3-rater panel moot for a structural band
+- [x] 12. Chapter draft on the template — `output/chapters/population-age-structure-momentum.md`
 - [ ] 13. RA lay-readability check
 - [ ] 14. PI review and sign-off
 
@@ -332,3 +332,18 @@ TFR and CCF** (Chaurasia confirms analytically). The dispersion *is* the result 
 *Next.* Stage 10 demsig (per outcome: CBR/births significant-but-setting-specific, both signs; TFR/CCF
 zero by construction) → stage 11 GRADE (NOT RATEABLE) → stage 12 chapter draft (+ signed dot/range figure,
 not a forest plot). TICK-080 formalization + Anup sign-off precede the final verdict grid.
+
+**2026-09-20 (Shravan) — stages 10–12: chapter drafted.**
+
+*Result.* `output/chapters/population-age-structure-momentum.md` — full §1–§12 + provenance on the
+authoritative template (S1–S7 present). §8 demsig **per outcome**: completed fertility **0% / NEGLIGIBLE**
+(FDT, SDT) by construction; CBR/births **SUBSTANTIAL–DOMINANT but setting/period-specific and signed both
+ways**; PM **NOT ASSESSED** (out of registry scope). §9 GRADE **NOT RATEABLE — non-effect estimand**
+(all phenomena). §10 carry-away: **0% of completed-fertility change**; A.9 is the accounting layer the
+behavioural chapters net out. Stage 8 risk-of-bias marked **N/A** (identity decomposition; replaced by
+method-quality in §5–§6). Written on 10/16 (63%), stated in status line + provenance (S6/S7).
+
+*Remaining before close:* the signed dot/range figure (§7/§8 visual — not yet made); stage 13 RA
+lay-readability; stage 6 RA spot-check + stage 7 RA 10% verification; stage 14 PI review; and the
+standing TICK-080 formalization + Anup sign-off on the NOT RATEABLE band / per-outcome demsig / item-10
+accounting-layer designation, on which §8–§9 depend.
