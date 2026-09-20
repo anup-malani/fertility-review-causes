@@ -29,7 +29,7 @@ tickets can be worked concurrently.
 > commit message dated 07-21 to 07-25 against this table; in commit messages from Alexandra's schooling
 > workstream, `TICK-032` means the compulsory-education split and needs no translation.
 >
-> **Next free number is TICK-089.** Claim a number by pushing its QUEUE.md row before starting work,
+> **Next free number is TICK-090.** Claim a number by pushing its QUEUE.md row before starting work,
 > not after. That is what would have prevented the collision. TICK-047 through TICK-053 were claimed
 > for the D.3.b climate-anxiety chain on 2026-07-27; TICK-054 (A.10) and TICK-055 (C.2.c) on
 > 2026-07-31; TICK-056 opens C.2.c library retrieval. TICK-075 (A.23) was claimed on 2026-08-27.
@@ -48,6 +48,7 @@ tickets can be worked concurrently.
 
 | Ticket | Title | Assigned | Parallel-safe |
 |--------|-------|----------|---------------|
+| [TICK-089](TICK-089-population-age-structure-momentum.md) | A.9 Population Age Structure and Demographic Momentum — smallest open A-section candidate (accounting/measurement mechanism). **Not yet measured by the frame probe; stage 2 must run the probe + registered-construct completeness test (the A.6/A.3 lesson) before the "smallest" claim is trusted** | Shravan | yes |
 | [TICK-088](TICK-088-diffusion-of-fertility-control.md) | A.3 Diffusion and Social-Learning of Fertility Control — took A.6's place as the smallest candidate after `404`. **Opens with a registered-construct completeness test; A.3 has not been cleared of the defect that unseated A.6** | Shravan | yes |
 | [TICK-087](TICK-087-stigma-reduction-contraception-abortion.md) | A.6 Reduction in Stigma Around Contraception and Abortion — **PARKED 2026-09-17 before stage 2** on branch `087-stigma-reduction-contraception-abortion`: `404` found the selecting frame omits the registry's own construct ("legitimation") and corrects 668 → 1,225, so A.6 is not the smallest. Still live and unstarted; reopen by reading that branch's ticket Log first | Shravan | yes |
 | [TICK-086](TICK-086-wealth-flows-reversal.md) | C.3.f Intergenerational Wealth Flows Reversal | Shravan | yes |
