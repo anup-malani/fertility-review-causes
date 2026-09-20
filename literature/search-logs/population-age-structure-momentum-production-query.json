@@ -1,0 +1,81 @@
+{
+  "slug": "population-age-structure-momentum",
+  "hypothesis": "A.9",
+  "breadth": {
+    "Nf": null,
+    "Np": null,
+    "cv_fitted": false,
+    "note": "No fold-local cross-validation term mining. The empirical primary cell (birth-rate/count decompositions) has a single anchor (Preston-Guillot), far below the >=30 CV floor -- by nature, not by search failure (A.9 is an accounting identity; see cold-start-anchors-log.md). The cause axis is therefore set from the frame probe vocabulary, not learned from gold. Orthogonal recall is carried by the channel-3 Tier-B frame (199 records)."
+  },
+  "effect_block": {
+    "note": "A.9's outcome is the CBR and the birth COUNT; period TFR and completed cohort fertility are composition-free/irrelevant BY CONSTRUCTION and are not the target outcomes (scope: 'the outcome is not the period TFR'). Backbone therefore emphasizes crude/period birth measures and counts, plus the general fertility terms needed for recall.",
+    "backbone": [
+      "crude birth rate",
+      "birth rate",
+      "birth rates",
+      "births",
+      "number of births",
+      "annual births",
+      "general fertility rate",
+      "period fertility",
+      "fertility",
+      "childbearing",
+      "total fertility rate",
+      "reproduction rate",
+      "gross reproduction rate",
+      "net reproduction rate"
+    ],
+    "mined_expansion": []
+  },
+  "cause_block": {
+    "note": "Two tiers. 'backbone' = momentum- and decomposition-specific vocabulary that is clean on the homonym check (frame probe: 'demographic momentum' = 85 even unrestricted). 'gated_extension' = the generic age-structure terms, which are homonym-inflated (bare 'age structure' = 32,363 unrestricted, an ecology/population-genetics term; 3,213 even intersected with fertility) and are admitted ONLY in co-occurrence with a decomposition/CBR term. Bare 'age structure'/'age composition' are NEVER admitted alone.",
+    "backbone": [
+      "population momentum",
+      "demographic momentum",
+      "momentum of population growth",
+      "momentum factor",
+      "built-in population growth",
+      "population age structure",
+      "changing age structure",
+      "age-structure effect",
+      "composition effect",
+      "compositional change",
+      "compositional effect",
+      "decomposition of the birth rate",
+      "decomposition of fertility",
+      "rate-composition decomposition",
+      "Kitagawa decomposition",
+      "standardization of rates",
+      "standardisation of rates",
+      "components of change in the birth rate",
+      "stable population"
+    ],
+    "gated_extension": {
+      "generic_terms": [
+        "age structure",
+        "age composition",
+        "age distribution",
+        "age-sex composition",
+        "population structure"
+      ],
+      "require_cooccurrence_with_any_of": [
+        "decomposition",
+        "standardization",
+        "standardisation",
+        "crude birth rate",
+        "components of change",
+        "compositional",
+        "rate component"
+      ],
+      "rationale": "Frame probe: bare generic terms contribute ~3,000 mostly-off-topic records (ecology, general demography) for a handful of true hits. The co-occurrence gate keeps the decomposition studies and drops the flood.",
+      "tested_and_dropped": "Run 2026-09-20: the gated axis (generic age-structure terms AND a decomposition/rate co-term AND the effect axis) returned 324 records, but they are dominated by EPIDEMIOLOGICAL rate-standardization/decomposition papers (age-standardized disease-rate methodology), not birth-rate composition -- only ~19 PRIMARY_COMPOSITION hits. The gated extension is therefore DROPPED from the production frame; its few true birth-rate-decomposition hits are expected via the tight axis's explicit 'decomposition of the birth rate' phrases and via the Tier-B snowball. Effective production frame = tight cause axis (~570) UNION Tier-B (199)."
+    }
+  },
+  "boundary_notes": {
+    "A.11_tempo": "OFF_TEMPO_A11. 'tempo effect'/'postponement'/'quantum'/'Bongaarts-Feeney' route to A.11 at the component level (Wall 1); ~136 in-frame overlap measured.",
+    "OFF_OUTCOME_POP": "Papers whose outcome is population SIZE/GROWTH/aging, not a birth rate, route off-cell (Wall 3, expected largest class).",
+    "ecology_homonym": "Age-structured models of non-human populations route to OFF_OTHER."
+  },
+  "orthogonal_channel": "population-age-structure-momentum-snowball-tierb.json (199 records) is the Tier-B recall yardstick; it, not a broadened keyword axis, carries recall of quirky-titled canon.",
+  "status": "frozen 2026-09-20 (scope frozen same day)"
+}

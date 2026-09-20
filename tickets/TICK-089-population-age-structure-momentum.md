@@ -191,3 +191,20 @@ Completeness test + homonym check were already satisfied by the frame probe.
 *Next.* Stage 3 — production keyword search (momentum-anchored cause axis per the frame probe; generic
 age-structure terms gated by a decomposition/CBR co-term) + screen the 199-record Tier-B frame and the
 keyword pull through Haiku→Sonnet→RA; report Recall(B) against the Tier-B frame.
+
+**2026-09-20 (Shravan) — production query built + keyword pull; stage-3 screen not yet run.**
+
+*Result.* `population-age-structure-momentum-production-query.json` (frozen) and
+`…-production-search-log.md`. Tight momentum axis = 570; **the gated generic age-structure extension
+(324) was tested and DROPPED** — even co-term-gated it is mostly epidemiological rate-standardization,
+~19 true birth-rate-decomposition hits. Effective frame = tight axis (**565** after seed removal) ∪
+Tier-B (**199**) ≈ **700 to screen**. Worklist (`…-screen-worklist.json`): ~45 plausibly-primary (35
+MOMENTUM + 9 PRIMARY_COMPOSITION + 1 ambig), 81 OFF_OUTCOME_POP, 6 OFF_TEMPO_A11, 21 multi-channel
+Tier-1 core candidates; the rest topical-overlap noise. Fourth confirmation that the empirical cell is
+near-empty.
+
+*Checkpoint.* Everything up to the screen is done. Stage 3's LLM screen (~700 records, D1→Haiku→Sonnet→RA)
+is the biggest compute step and there is **no `sequential-screen.mjs`/`snowball-citations.mjs` on this
+branch** — it is an inline LLM effort or needs that tooling. Also open: the protocol-level rulings
+(escalations 1–2) were made to unblock A.9 but the **formal PROTOCOL amendment + `decisions/` entry
+remain TICK-080's**, and Anup's sign-off at a sync is the clean closure. Paused here for a go-ahead.
