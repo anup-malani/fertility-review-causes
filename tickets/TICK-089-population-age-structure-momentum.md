@@ -1,5 +1,5 @@
 # TICK-089: A.9 Population Age Structure and Demographic Momentum
-**Status:** open
+**Status:** in-progress
 **Assigned:** Shravan
 **Hypothesis:** `population-age-structure-momentum` — HYPOTHESES-v5.md §A.9
 **Parallel-safe:** yes
