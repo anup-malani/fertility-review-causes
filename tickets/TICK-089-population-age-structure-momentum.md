@@ -171,3 +171,23 @@ definition) as the future Recall(B) yardstick; noted not-fully-orthogonal per th
 *Cold-start anchor sourcing (channels 1–3) is now complete.* Remaining before the production search:
 freeze the scope (two PI escalations + Wall 1 second read + registered-construct completeness test),
 then stage 3 (screen the frame, Haiku→Sonnet→RA).
+
+**2026-09-20 (Shravan) — escalations resolved; scope FROZEN.**
+
+*Resolutions (directing the work; formal PROTOCOL amendment + `decisions/` entry are TICK-080's):*
+1. **A.9 owns and defines the mechanical-composition component.** The other proximate chapters
+   (A.1/A.7/A.8/A.10) report their aggregate-count effects *net of* it; A.9's CBR/births verdict is
+   "the mechanical share of observed change," never an independent additive contribution. Carried into
+   TICK-080 item 10 (accounting layer netted out, not a competing tier).
+2. **GRADE = NOT RATEABLE — non-effect estimand; demsig reported per outcome** (CBR/births = report the
+   composition-share magnitude, not pass/fail; period TFR = 0 by construction; CCF = 0). Adopted, not
+   provisional (TICK-080 items 6–7).
+3. **Wall 1 (A.9 vs A.11) confirmed as drafted** — composition/weights vs timing/rates, component-level
+   split.
+Completeness test + homonym check were already satisfied by the frame probe.
+
+*Result.* `population-age-structure-momentum-search-scope.md` **FROZEN**. All stage-2 gates cleared.
+
+*Next.* Stage 3 — production keyword search (momentum-anchored cause axis per the frame probe; generic
+age-structure terms gated by a decomposition/CBR co-term) + screen the 199-record Tier-B frame and the
+keyword pull through Haiku→Sonnet→RA; report Recall(B) against the Tier-B frame.

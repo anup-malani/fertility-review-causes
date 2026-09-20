@@ -3,11 +3,21 @@
 **Hypothesis:** A.9 (HYPOTHESES-v5.md)
 **Hypothesis slug:** `population-age-structure-momentum`
 **Target phenomena:** FDT, SDT (registry §A.9; PM is **not** listed — see "Phenomena" below).
-**Status:** DRAFT (Shravan, 2026-09-20) — walls, outcome convention, and estimand cells proposed,
-**not yet frozen.** Freeze requires (a) the frame-probe run and registered-construct completeness test
-the ticket demands, (b) a second read on Wall 1 (A.9 vs A.11 tempo), and (c) a PI ruling on how A.9's
-non-effect estimand is rated and reported (escalated below; it is the same review-wide accounting item
-TICK-080 §5–6 and TICK-054 Wall 2 already raised). Gold anchors not yet sourced.
+**Status:** **FROZEN (Shravan, 2026-09-20).** All freeze gates cleared:
+(a) frame probe run (`…-frame-probe.md`; momentum core ≈192, working frame ≈502) and the
+registered-construct completeness test satisfied by it (the momentum construct vocabulary is present
+and clean — `demographic momentum` = 85 even unrestricted);
+(b) Wall 1 (A.9 vs A.11 tempo) **confirmed as drafted** — composition/weights vs timing/rates, split at
+the component level; and
+(c) the two escalations **resolved 2026-09-20** (recorded in the ticket Log and carried into TICK-080):
+**(1) A.9 owns and defines the mechanical-composition component** — the other proximate chapters
+(A.1/A.7/A.8/A.10) report their aggregate-count effects *net of* it, and A.9's CBR/births contribution
+is stated as "the mechanical share of observed change," not an independent additive contribution;
+**(2) A.9 is rated NOT RATEABLE — non-effect estimand**, and demographic significance is reported
+**per outcome** (CBR/births = report the composition-share magnitude, not a pass/fail; period TFR = 0 by
+construction; CCF = 0 by construction).
+Cold-start anchors sourced (channels 1–3): `…-cold-start-anchors.json` (12 canon anchors, channel 1
+empty) and `…-snowball-tierb.json` (199-record Tier-B frame).
 
 ## What A.9 is — the accounting bucket, not a behavioural cause
 
@@ -123,10 +133,12 @@ contributions — it is the mechanical component *already embedded in* their agg
 separate independent push. A review that sums per-hypothesis CBR contributions and then adds A.9 double-
 counts. This needs a review-wide accounting rule; it is the same escalation A.10 (Wall 2/Wall 5) and
 TICK-080 raise, and A.9 is the natural place to *land* that rule because A.9 *is* the accounting
-component. **Escalate to Anup, folded into the existing non-additive-proximate-causes question:** does
-A.9 own and define the mechanical-composition component that the other chapters then report *net of*,
-and is A.9's CBR verdict stated as "the mechanical share of observed CBR change" rather than as an
-independent contribution? Blocks the freeze of this scope; does not block anchor sourcing.
+component. **RESOLVED 2026-09-20: A.9 owns and defines the mechanical-composition component.** The
+other proximate chapters (A.1/A.7/A.8/A.10) report their aggregate-count effects *net of* it, and A.9's
+CBR/births verdict is stated as **"the mechanical share of observed CBR/births change,"** never as an
+independent additive contribution. Carried into TICK-080 item 10 (the accounting layer is netted out
+before the behavioural tiers are read, not placed in a competing tier); the formal PROTOCOL §4.2/§4.3
+amendment and `decisions/` entry are TICK-080's to write.
 
 **Wall 3 — A.9 vs population growth/size as the outcome (the "not-fertility" wall).** The demographic-
 momentum literature's dominant outcome is **future population size or the growth rate**, not fertility.
@@ -223,8 +235,9 @@ from population aging now suppresses births and growth at constant or recovering
 
 ## GRADE and demographic-significance flags (tie-in to TICK-080)
 
-A.9 is the concrete case that motivated two of TICK-080's proposed protocol amendments, so this scope
-adopts them provisionally and the chapter must not be finalized until TICK-080 rules:
+A.9 is the concrete case that motivated two of TICK-080's protocol amendments. **Resolved 2026-09-20;
+adopted (no longer provisional).** The formal PROTOCOL §4.1/§4.2 amendment and `decisions/` entry are
+TICK-080's to write, but A.9 proceeds on these rulings now:
 
 - **GRADE:** rate A.9 **NOT RATEABLE — non-effect estimand** (TICK-080 §5), not on the identification
   ladder. A decomposition's credibility is about data quality and method validity, not about an
@@ -278,7 +291,7 @@ decoys** — momentum→population-size, a Bongaarts–Feeney tempo paper (A.11)
 structure paper (A.1) — so the query is tested on routing, not just retrieval. **Routing, not retrieval,
 is this chapter's binding constraint**, exactly as it was for A.10.
 
-## Open items before freeze (from TICK-089)
+## Open items before freeze (from TICK-089) — ALL CLEARED 2026-09-20; scope FROZEN
 
 1. **Run the frame probe.** *(Done 2026-09-20 — `population-age-structure-momentum-frame-probe.md`.)*
    A.9 anchored **momentum core ≈ 200** (`population momentum`/`demographic momentum`), working frame
@@ -288,14 +301,17 @@ is this chapter's binding constraint**, exactly as it was for A.10.
    fertility gate. **Do not use WIDE as the frame.** Anchor the production cause axis on momentum-specific
    vocabulary and admit generic age-structure terms only under a decomposition/CBR gate (see the probe
    doc's "Implication for the production query"). Control (C.3.e) = 85, matching 304's run.
-2. **Registered-construct completeness test.** A.6 and A.3 each led on raw count and were passed over
-   because the selecting frame omitted the registry's own construct and undercounted the literature
-   (`404`, TICK-087/088). Confirm the A.9 frame carries the registry's construct vocabulary —
-   *demographic momentum*, *population momentum*, *age structure / age composition*, *tempo–quantum /
-   rate–composition decomposition*, *standardization* — before its count is trusted.
-3. **Homonym residue check.** "Momentum" is a physics and finance word; "age structure" and "population
-   structure" are population-genetics and ecology words. Run the homonym-residue check *inside* the
-   fertility-restricted frame, as C.3.f did, and record the residue fraction wherever a count is quoted.
-4. **Wall 1 second read** (A.9 vs A.11 tempo) and the **Wall 2 escalation** (the non-additive
-   accounting rule / whether A.9 defines the mechanical-composition component the other chapters report
-   net of). Both block the freeze; neither blocks anchor sourcing.
+2. **Registered-construct completeness test.** *(Cleared by the frame probe.)* The A.9 frame carries
+   the registry's construct vocabulary — *demographic momentum*, *population momentum*, *age structure /
+   age composition*, *rate–composition decomposition*, *standardization*; the momentum construct is
+   clean (`demographic momentum` = 85 even unrestricted), so A.9 does not have A.6/A.3's undercounting
+   defect. The risk is the opposite (over-count from the generic age-structure terms), handled by the
+   decomposition/CBR gate on the breadth extension.
+3. **Homonym residue check.** *(Done — same frame-probe run.)* `age structure`/`age composition` =
+   32,363 unrestricted (ecology/population-genetics), 106 leaking into the fertility frame; momentum
+   terms clean. Recorded in the probe doc; the production query gates the generic terms accordingly.
+4. **Wall 1 second read** (A.9 vs A.11 tempo) — **CONFIRMED as drafted 2026-09-20** (composition/weights
+   vs timing/rates, split at the component level). **Wall 2 escalation — RESOLVED 2026-09-20:** A.9 owns
+   and defines the mechanical-composition component (see Wall 2 above; carried into TICK-080 item 10).
+   Escalation 2 (non-effect-estimand GRADE + per-outcome demsig) — **RESOLVED 2026-09-20** (see the
+   "GRADE and demographic-significance flags" section; now adopted, not provisional).
