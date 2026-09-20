@@ -252,9 +252,21 @@ adopts them provisionally and the chapter must not be finalized until TICK-080 r
 5. Production-query terms are mined fold-locally once the gold frame exists; never mined from a paper and
    then evaluated on it.
 
-## Pre-query anchor audit (not yet built)
+## Pre-query anchor audit (built 2026-09-20)
 
-Verified anchors will be stored in `population-age-structure-momentum-cold-start-anchors.json`. Every
+*Done — `population-age-structure-momentum-cold-start-anchors.{json,log.md}`: 17 records, all
+existence-verified (FOUND), 15 identity-verified. Channel 1 (systematic reviews/meta-analyses) is
+**empty** — the only `type:review` hit is off-topic — confirming A.9 has no effect literature to
+synthesize (it is an accounting identity). Channel 2 yielded 12 verified anchors, but the **empirical
+birth-rate/count decomposition cell has just one** (Preston & Guillot); the rest is momentum theory or
+population-size projection, so `empty-cell-is-the-result` is live and the gold is far below the ≥30 CV
+floor by nature, not by search failure — the production cause axis will be set from the frame-probe
+vocabulary, not fold-local mining. Two candidates were dropped by the existence gate (a non-resolving
+"Espenshade correspondence" title; the Das Gupta 1993 Census manual, no DOI). Decoys carried for
+routing: Bongaarts–Feeney (A.11), Lutz et al. population-ageing (OFF_OUTCOME_POP), Caswell/ecology
+(homonym). Channel 3 snowball not yet run.*
+
+Verified anchors are stored in `population-age-structure-momentum-cold-start-anchors.json`. Every
 anchor clears the **mandatory existence-verification gate** (a live DOI or a Crossref/publisher record)
 before it enters any recall denominator — the standing rule from the 2026-07-08 OAS run that found ~40%
 of the frozen Tier B was fabricated. The seminal names in the v5 entry (Keyfitz 1971; Bongaarts &

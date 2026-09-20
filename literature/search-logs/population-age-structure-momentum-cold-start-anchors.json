@@ -1,0 +1,326 @@
+[
+  {
+    "title": "On the momentum of population growth",
+    "authors": [
+      "Nathan Keyfitz"
+    ],
+    "year": 1971,
+    "provenance_channel": "channel2_canon_v5seminal",
+    "provisional_cell": "MOMENTUM_THEORY",
+    "query_cluster_family": "momentum-formal",
+    "source_note": "v5 seminal. Founding derivation of the population-momentum factor (ratio of ultimate to current size at NRR=1). Theory; seeds the JEL theory stream, not empirical recall.",
+    "doi": "10.2307/2060339",
+    "identity_source": "openalex:title.search",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "container": "Demography",
+    "gold_status": "candidate_unfrozen",
+    "title_jaccard": 1.0
+  },
+  {
+    "title": "Population momentum: its relation to the moments of replacement level fertility",
+    "authors": [
+      "S. Krishnamoorthy",
+      "Robert G. Potter",
+      "David K. Pickard"
+    ],
+    "year": 1981,
+    "provenance_channel": "channel2_canon",
+    "provisional_cell": "MOMENTUM_THEORY",
+    "query_cluster_family": "momentum-formal",
+    "source_note": "Analytic relation between the momentum factor and the fertility path to replacement. Replaces an unresolvable 'Espenshade correspondence' candidate that failed the existence gate.",
+    "doi": "10.1016/0025-5564(81)90037-7",
+    "identity_source": "openalex:title.search",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "container": "Mathematical Biosciences",
+    "gold_status": "candidate_unfrozen",
+    "title_jaccard": 0.86
+  },
+  {
+    "title": "The Future of Population Growth: Alternative Paths to Equilibrium.",
+    "authors": [
+      "Jean Bourgeois\u2010Pichat",
+      "Tom\u00e1\u0161 Frejka"
+    ],
+    "year": 1974,
+    "provenance_channel": "channel2_canon",
+    "provisional_cell": "MOMENTUM_THEORY",
+    "query_cluster_family": "momentum-formal",
+    "source_note": "Early quantification of built-in growth from a young age structure.",
+    "doi": "10.2307/2060568",
+    "identity_source": "openalex:title.search",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "container": "Demography",
+    "gold_status": "candidate_unfrozen",
+    "title_jaccard": 1.0
+  },
+  {
+    "title": "Completing the Demographic Transition",
+    "authors": [
+      "John Bongaarts",
+      "Rodolfo A. Bulatao"
+    ],
+    "year": 1999,
+    "provenance_channel": "channel2_canon_v5seminal",
+    "provisional_cell": "PRIMARY_MOMENTUM",
+    "query_cluster_family": "momentum-formal",
+    "source_note": "v5 seminal. Decomposes future growth into momentum vs above-replacement fertility vs declining mortality. Outcome is population GROWTH -> borderline OFF_OUTCOME_POP; the momentum component is A.9's. Extract the component, not the growth total.",
+    "doi": "10.1111/j.1728-4457.1999.00515.x",
+    "identity_source": "openalex:title.search",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "container": "Population and Development Review",
+    "gold_status": "candidate_unfrozen",
+    "title_jaccard": 1.0
+  },
+  {
+    "title": "Europe's Population at a Turning Point",
+    "authors": [
+      "Wolfgang Lutz",
+      "Brian C. O\u2019Neill",
+      "Sergei Scherbov"
+    ],
+    "year": 2003,
+    "provenance_channel": "channel2_canon_v5seminal",
+    "provisional_cell": "PRIMARY_MOMENTUM",
+    "query_cluster_family": "momentum-formal",
+    "source_note": "v5 seminal. NEGATIVE momentum from an aged structure (SDT). Science; outcome is population size -> OFF_OUTCOME_POP tension, extract the momentum/age-structure component.",
+    "doi": "10.1126/science.1080316",
+    "identity_source": "openalex:title.search",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "container": "Science",
+    "gold_status": "candidate_unfrozen",
+    "title_jaccard": 1.0
+  },
+  {
+    "title": "Population momentum expresses population aging",
+    "authors": [
+      "Young Jin Kim",
+      "Robert Schoen"
+    ],
+    "year": 1997,
+    "provenance_channel": "channel2_canon",
+    "provisional_cell": "MOMENTUM_THEORY",
+    "query_cluster_family": "momentum-formal",
+    "source_note": "Recasts momentum as an aging phenomenon; the bridge between the momentum reading and the age-composition reading of A.9.",
+    "doi": "10.2307/3038294",
+    "identity_source": "openalex:title.search",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "container": "Demography",
+    "gold_status": "candidate_unfrozen",
+    "title_jaccard": 1.0
+  },
+  {
+    "title": "Movement toward stability as a fundamental principle of population dynamics",
+    "authors": [
+      "Robert Schoen",
+      "Young Jin Kim"
+    ],
+    "year": 1991,
+    "provenance_channel": "channel2_canon",
+    "provisional_cell": "MOMENTUM_THEORY",
+    "query_cluster_family": "momentum-formal",
+    "source_note": "Stable-population convergence, the formal basis of momentum.",
+    "doi": "10.2307/2061467",
+    "identity_source": "openalex:title.search",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "container": "Demography",
+    "gold_status": "candidate_unfrozen",
+    "title_jaccard": 1.0
+  },
+  {
+    "title": "Population Momentum Across the Demographic Transition",
+    "authors": [
+      "Laura Blue",
+      "Thomas J. Espenshade"
+    ],
+    "year": 2011,
+    "provenance_channel": "channel2_canon",
+    "provisional_cell": "PRIMARY_MOMENTUM",
+    "query_cluster_family": "momentum-formal",
+    "source_note": "Momentum factor traced across transition stages; directly FDT/SDT-relevant.",
+    "doi": "10.1111/j.1728-4457.2011.00454.x",
+    "identity_source": "openalex:title.search",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "container": "Population and Development Review",
+    "gold_status": "candidate_unfrozen",
+    "title_jaccard": 1.0
+  },
+  {
+    "title": "Demography, Measuring and Modeling Population Processes",
+    "authors": [
+      "Jacques V\u00e9ron",
+      "Samuel H. Preston",
+      "Patrick Heuveline",
+      "Michel Guillot"
+    ],
+    "year": 2002,
+    "provenance_channel": "channel2_canon",
+    "provisional_cell": "MOMENTUM_THEORY",
+    "query_cluster_family": "standardization-decomposition",
+    "source_note": "Canonical textbook. Standardization/decomposition and stable-population methodology. Theory/method, not an effect estimate.",
+    "doi": "10.2307/1535065",
+    "identity_source": "openalex:title.search",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "container": "Population",
+    "gold_status": "candidate_unfrozen",
+    "title_jaccard": 1.0
+  },
+  {
+    "title": "Components of a Difference Between Two Rates*",
+    "authors": [
+      "Evelyn M. Kitagawa"
+    ],
+    "year": 1955,
+    "provenance_channel": "channel2_canon_method",
+    "provisional_cell": "MOMENTUM_THEORY",
+    "query_cluster_family": "standardization-decomposition",
+    "source_note": "Kitagawa decomposition: the rate-vs-composition method an empirical A.9 paper uses to split a CBR change. Method canon. (Das Gupta's 1993 user's manual did not resolve in OpenAlex and is noted in the log, not anchored.)",
+    "doi": "10.1080/01621459.1955.10501299",
+    "identity_source": "openalex:title.search",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "container": "Journal of the American Statistical Association",
+    "gold_status": "candidate_unfrozen",
+    "title_jaccard": 1.0
+  },
+  {
+    "title": "Demographic Transition Patterns and Their Impact on the Age Structure",
+    "authors": [
+      "Jean-Claude Chesnais"
+    ],
+    "year": 1990,
+    "provenance_channel": "channel2_canon",
+    "provisional_cell": "EXPOSURE_DETERMINANT",
+    "query_cluster_family": "age-structure-transition",
+    "source_note": "How the transition builds the age structure; the determinant side (context, cross-ref A.1).",
+    "doi": "10.2307/1971593",
+    "identity_source": "openalex:title.search",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "container": "Population and Development Review",
+    "gold_status": "candidate_unfrozen",
+    "title_jaccard": 1.0
+  },
+  {
+    "title": "Population dynamics in an age of declining fertility",
+    "authors": [
+      "Samuel H. Preston",
+      "Michel Guillot"
+    ],
+    "year": 2009,
+    "provenance_channel": "channel2_canon",
+    "provisional_cell": "PRIMARY_COMPOSITION_BIRTHS",
+    "query_cluster_family": "momentum-formal",
+    "source_note": "Births/age-structure dynamics under sub-replacement fertility. OpenAlex metadata drifted (dates it 2009, source 'Archined'; true venue Genus ~1997) -- kept keyed on title+authors per the drifted-identifier rule.",
+    "doi": "10.4402/genus-47",
+    "identity_source": "openalex:title.search",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "container": "Archined",
+    "gold_status": "candidate_unfrozen",
+    "title_jaccard": 1.0
+  },
+  {
+    "title": "On the Quantum and Tempo of Fertility",
+    "authors": [
+      "John Bongaarts",
+      "Griffith Feeney"
+    ],
+    "year": 1998,
+    "provenance_channel": "channel2_decoy",
+    "provisional_cell": "OFF_TEMPO_A11",
+    "query_cluster_family": "DECOY-tempo",
+    "source_note": "DECOY -> A.11. Tempo distortion of the period TFR. Must NOT route to A.9 (Wall 1). If a query pulls this into A.9's core, the cause axis is too loose.",
+    "doi": "10.2307/2807974",
+    "identity_source": "openalex:title.search",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "container": "Population and Development Review",
+    "gold_status": "candidate_unfrozen",
+    "title_jaccard": 1.0
+  },
+  {
+    "title": "The Effects of Changes in Mortality and Fertility on Age Composition",
+    "authors": [
+      "Ansley J. Coale"
+    ],
+    "year": 1956,
+    "provenance_channel": "channel2_decoy",
+    "provisional_cell": "EXPOSURE_DETERMINANT",
+    "query_cluster_family": "DECOY-mortality",
+    "source_note": "DECOY on the A.1/A.9 seam. Classic Coale result that fertility, not mortality, drives age composition -> determinant of A.9's exposure, context only.",
+    "doi": "10.2307/3348332",
+    "identity_source": "openalex:title.search",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "container": "The Milbank Memorial Fund Quarterly",
+    "gold_status": "candidate_unfrozen",
+    "title_jaccard": 1.0
+  },
+  {
+    "title": "The coming acceleration of global population ageing",
+    "authors": [
+      "Wolfgang Lutz",
+      "Warren C. Sanderson",
+      "Sergei Scherbov"
+    ],
+    "year": 2008,
+    "provenance_channel": "channel2_decoy",
+    "provisional_cell": "OFF_OUTCOME_POP",
+    "query_cluster_family": "DECOY-popsize",
+    "source_note": "DECOY -> OFF_OUTCOME_POP. Outcome is population ageing/size, not a birth rate (Wall 3). The largest expected off-cell class.",
+    "doi": "10.1038/nature06516",
+    "identity_source": "openalex:title.search",
+    "identity_verified": true,
+    "existence": "FOUND",
+    "container": "Nature",
+    "gold_status": "candidate_unfrozen",
+    "title_jaccard": 1.0
+  },
+  {
+    "title": "MATRIX POPULATION MODELS: CONSTRUCTION ANALYSIS AND INTERPRETATION",
+    "authors": [
+      "Floyd W. Weckerly"
+    ],
+    "year": 2001,
+    "provenance_channel": "channel2_decoy",
+    "provisional_cell": "OFF_OTHER",
+    "query_cluster_family": "DECOY-ecology-homonym",
+    "source_note": "DECOY for the 'age structure' homonym. Age-structured models of NON-human populations (ecology/pop-genetics), the 32k-record contamination the frame probe flagged. OpenAlex's top match is the published review of Caswell's monograph; a real off-topic 'age structure' record either way. OFF_OTHER.",
+    "doi": "10.1111/j.1939-7445.2001.tb00075.x",
+    "identity_source": "openalex:title.search",
+    "identity_verified": false,
+    "existence": "FOUND",
+    "container": "Natural Resource Modeling",
+    "gold_status": "candidate_unfrozen",
+    "title_jaccard": 1.0
+  },
+  {
+    "title": "Are population issues mainstreamed into climate change policies and action in Nigeria? Evidence from a systematic review of national climate change documents",
+    "authors": [
+      "Nnamdi Ifeanyi Maduekwe",
+      "Nasir Isa Kwarra",
+      "Aisha Abdulazeez-Adamu"
+    ],
+    "year": 2025,
+    "provenance_channel": "channel1_SR_nearmiss",
+    "provisional_cell": "CHANNEL1_SR_NEARMISS",
+    "query_cluster_family": "channel1-review",
+    "source_note": "The ONLY type:review hit for ('population momentum' OR 'demographic momentum') AND fertility (count=1). Off-topic (climate-policy mainstreaming). Recorded so the audit shows channel 1 was worked and is empty -- no systematic review / meta-analysis of A.9 exists, because A.9 is an accounting identity, not an effect literature. Contributes zero empirical anchors.",
+    "doi": "10.1080/14693062.2025.2527852",
+    "identity_source": "openalex:title.search",
+    "identity_verified": false,
+    "existence": "FOUND",
+    "container": "Climate Policy",
+    "gold_status": "candidate_unfrozen",
+    "title_jaccard": 0.53
+  }
+]

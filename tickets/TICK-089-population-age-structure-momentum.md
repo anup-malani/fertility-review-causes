@@ -122,3 +122,32 @@ core because much of the momentum literature's outcome is population size/growth
 
 *Still open before freeze:* registered-construct completeness test (item 2), Wall 1 second read, and
 the two PI escalations above. Then anchor sourcing.
+
+**2026-09-20 (Shravan) — cold-start anchor sourcing (channels 1–2), existence-gated.**
+
+*Result.* `population-age-structure-momentum-cold-start-anchors.{json,log.md}`: 17 records, **all
+existence-verified against OpenAlex** (no DOI asserted from memory), 15 identity-verified. Findings:
+- **Channel 1 empty** — no systematic review / meta-analysis of A.9→fertility exists (only off-topic
+  `type:review` hit). Third chapter in a row (D.3.b, C.2.c, A.9), and for A.9 it's the thesis, not an
+  accident: an accounting identity has no effect literature to synthesize. First confirmation of the
+  non-effect-estimand framing at the evidence stage.
+- **Channel 2: 12 verified anchors**, but the empirical birth-rate/count decomposition cell has **one**
+  (Preston & Guillot); the rest is momentum theory (Keyfitz 1971 v5-seminal, Kim–Schoen, Kitagawa
+  method, PHG textbook, …) or population-size projection (Bongaarts–Bulatao, Lutz et al., both v5
+  seminal, both OFF_OUTCOME_POP-tensioned). **`empty-cell-is-the-result` is live**; gold is far below
+  the ≥30 CV floor by nature — production cause axis will come from the frame-probe vocabulary, not
+  fold-local mining (no CV term-learning on a one-item cell).
+- **Existence gate fired twice:** dropped a non-resolving "Espenshade correspondence" title (ghost risk)
+  and the Das Gupta 1993 Census manual (no DOI); replaced/covered by verified Krishnamoorthy 1981 and
+  Kitagawa 1955.
+- **Decoys carried for routing** (A.9's binding constraint): Bongaarts–Feeney 1998 (→A.11),
+  Lutz–Sanderson–Scherbov 2008 (→OFF_OUTCOME_POP), Caswell/matrix-models (→ ecology homonym).
+
+*Workflow impact.* A.9 is shaping up as a theory-plus-decomposition synthesis chapter, not a
+meta-analysis — the meta-analytic branch of the pipeline (stage 9) will almost certainly resolve to
+narrative synthesis. This is the cleanest instance yet of the accounting-identity / non-effect-estimand
+pattern the scope and TICK-080 items 6–7 + 10 describe.
+
+*Next.* Channel 3 (citation snowball off the channel-2 seeds, forward-capped hard on the broad theory
+anchors) → Tier-B frame; run at stage 3 once the scope is frozen (pending the two PI escalations + Wall
+1 second read).
