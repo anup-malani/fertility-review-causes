@@ -158,6 +158,28 @@ speaks to inflation, the extraction tables to comparability, a block tiering to 
 attributing the excess across the three is reachable **without solving the decomposition problem at
 all**. Treat it as a candidate headline result rather than an embarrassment to be normalized away.
 
+**The accounting layer is not a competing tier — it is netted out first (the A.9 / A.11 case).** The
+general shape above is "A operates through B, both claim the same share." A.9 (population age structure
+and momentum) and A.11 (tempo) are the *degenerate* form of it, and they break the partial order unless
+handled separately. A.9 is an **accounting identity, not a mechanism**: its entire contribution to the
+CBR and the birth count is, by construction, the mechanical-composition component **already embedded in
+every behavioural chapter's aggregate-count number.** It does not overlap with A.1 / A.7 / A.8 / A.10 —
+it *is* the composition part of their births. The A.10 scope already wires this from the other side
+(`MECHANICAL_COMPOSITION → A.9`); the A.9 scope (TICK-089) states the same rule and escalates it here.
+Two consequences for item 10's partial order:
+
+- **A.9 and A.11 are a measurement/accounting layer that is subtracted before the behavioural shares
+  are read, not a tier that competes for share.** Put A.9 in a competing tier and it double-counts by
+  construction — the pathology is not "shares overlap," it is "one row is the shared denominator of the
+  others." So the top of the partial order is not a root *cause*; it is an accounting layer that is
+  netted out, then the residual (real quantum change) is what the behavioural tiers partition.
+- **This also fixes which outcome the column is even in.** A.9's contribution is zero by construction on
+  the period TFR and on completed cohort fertility (item 7's near-definitional-share problem, in its
+  cleanest form), and large by construction on the CBR / births. A column built on the CBR must net the
+  accounting layer first; a column built on cohort fertility never admits A.9 at all. The choice of
+  outcome level (item 9's "outcome level is not fixed") and the accounting-layer netting are the same
+  decision.
+
 ### 11. A ranked output invites winner's curse, and nothing currently guards against it
 
 Publication bias distorts a **ranking** far more than it distorts any single estimate. Whichever
@@ -241,7 +263,9 @@ Four references worth having before starting, none of which needs to be re-deriv
 - [ ] The three pooling rulings either promoted to PROTOCOL §5 or explicitly recorded as chapter-local
 - [ ] A **partial order over hypothesis blocks** committed to the repo — eight to twelve families,
       tiers only, within-tier ordering left undirected where undefended — with the rule that a share
-      may not be claimed by two chapters in different tiers without a note saying which is upstream
+      may not be claimed by two chapters in different tiers without a note saying which is upstream,
+      and with the **accounting/measurement layer (A.9 composition-momentum, A.11 tempo) designated as
+      netted out before the behavioural tiers are read**, not placed in a competing tier
 - [ ] The protocol says what to do when a column's shares sum past 1, including the option of
       reporting the excess and its attribution as a result
 - [ ] A shrinkage/partial-pooling step specified for any ranked output, and the ranked output
