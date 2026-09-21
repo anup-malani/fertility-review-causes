@@ -54,3 +54,34 @@ registry's "3G carrier rollout" gloss is imprecise and is corrected in the scope
 *Next (stage 3, heavy infrastructure).* Cold-start anchor build + existence-verify (mirror script
 89), Tier-A/B citation frame (mirror 90), and the blinded LLM title/abstract screen (91–94). These
 need OpenAlex/Crossref API access and LLM screen budget. Checkpoint with RA before spending it.
+
+**2026-09-21 — Stage 3 frame probe run (the cheap confirmatory step, before any screen spend).**
+
+*Result.* `source/build/goldset/52_c2h_frame_probe.py` (mirrors A.3's `405`) measured C.2.h's own
+conjoined frame and its walls in ~43 OpenAlex counting requests, 0 refusals →
+`literature/search-logs/c2h-frame-probe-2026-09-21.{json,md}`.
+
+**The probe refutes the "smallest" prior — as intended.** C.2.h's own frame is **1,592** (narrow,
+fertility-only) to **1,911** (production, partnering outcomes included), against A.3 = 719, A.6
+corrected = 1,225, and C.3.a's 1,808 "smallest" bar. Housing (a written chapter) reproduced at 181
+vs. `405`'s 205, so the counter is sound. **C.2.h is a mid-sized literature, not the smallest** — it
+sits at/above the C.3.a bar and above both parked A-section candidates.
+
+**But the completeness test passes cleanly** (unlike A.6/A.3): every registered construct is already
+in the frame (smartphone / social media / screen time / video game each +0 marginal), the genuine
+additions are legitimate C.2.h territory (streaming +1,674, gaming +1,075, pornography +142), and the
+two generic design words are correctly caught as free-OR inflaters and excluded (`substitution`
++4,891, `attention` +19,348). There is no missing-construct or channel-annexation defect — the frame
+is honestly built, it is just not small.
+
+**Walls:** C.2.e (overlap 3 / neighbour 1,337 / identified 0), A.24 (16 / 75 / 1 — A.24's whole
+frame is only 75), A.14 (9 / 8,521 / 1), D.1.a (15 / 849 / 0) are thin and cleanly routable. **D.3.a
+(mental health) is load-bearing: 281 overlap, 23 identified** — the screen-time→anxiety→fertility
+literature is the routing challenge and Wall 5 will be exercised hard. Frame carries 73 identified-
+design markers (3.8%) — a thin-but-real potential core, A.3-shaped.
+
+*Decision needed (returns to the board rule).* Per the A.3/A.6 precedent, a frame at/above the 1,808
+bar means the "smallest" selection is not supported. C.2.h is still genuinely unstarted, cleanly
+scoped, and well-anchored, so it is a defensible *deliberate* pick — but it is a deviation from
+smallest-first, and the honest alternative is to cheaply probe other unstarted candidates (D.3.a,
+B.4, A.16) before spending screen budget. Paused here for RA call; no screen spend yet.
