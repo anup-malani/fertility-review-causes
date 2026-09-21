@@ -1,0 +1,467 @@
+{
+  "slug": "digital-leisure-substitution",
+  "stage": "blinded_title_abstract_screen_input",
+  "source": "literature/search-logs/digital-leisure-substitution-screen-frame.json",
+  "source_sha256": "86de88e4157d47b2d6712a275f88ad004fd535591b45901918d43a1bb14f4a8a",
+  "seed": 2107,
+  "batch_size": 40,
+  "records": 2546,
+  "batches": 64,
+  "records_with_abstract": 2063,
+  "blinded_fields": [
+    "doi",
+    "cited_by_count",
+    "source_channels"
+  ],
+  "coverage_verified": true,
+  "manifest": [
+    {
+      "batch": 1,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_001.json",
+      "input_sha256": "74a0f077ec81898a37daa289c97b294d33d7e1fdec626e98247752aaf07d31e3",
+      "output": "temp/screen/digital-leisure-substitution/verdict_001.json"
+    },
+    {
+      "batch": 2,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_002.json",
+      "input_sha256": "1645b6586e5e639ebf817f3ddded556a42f1a6f6d7106c121903c11fd5548300",
+      "output": "temp/screen/digital-leisure-substitution/verdict_002.json"
+    },
+    {
+      "batch": 3,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_003.json",
+      "input_sha256": "3d6d7bcbda12c96d577e4daa2db9d526450aeef6f8941dfbc7ee8746cce67006",
+      "output": "temp/screen/digital-leisure-substitution/verdict_003.json"
+    },
+    {
+      "batch": 4,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_004.json",
+      "input_sha256": "18ef48b2326017bb3b766036a5c9ff19aad43aa1423ad6c9e4d5f8fca2947732",
+      "output": "temp/screen/digital-leisure-substitution/verdict_004.json"
+    },
+    {
+      "batch": 5,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_005.json",
+      "input_sha256": "306b24fc79702e30684da94a34e08020511f0524d064c92ca37d9ee2d8fd7c6e",
+      "output": "temp/screen/digital-leisure-substitution/verdict_005.json"
+    },
+    {
+      "batch": 6,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_006.json",
+      "input_sha256": "87ab34c2080812f17f642b95e4182ba6657e5ddfe69b1243f2d405a1141db13b",
+      "output": "temp/screen/digital-leisure-substitution/verdict_006.json"
+    },
+    {
+      "batch": 7,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_007.json",
+      "input_sha256": "1e989233dd021002d2a7e624c60400da248a1a126423bc7875821fd87166f529",
+      "output": "temp/screen/digital-leisure-substitution/verdict_007.json"
+    },
+    {
+      "batch": 8,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_008.json",
+      "input_sha256": "5accd0f15360595acd64d672c752a1acbf221363f7a2d20ee00b6f4f3dbc6dd0",
+      "output": "temp/screen/digital-leisure-substitution/verdict_008.json"
+    },
+    {
+      "batch": 9,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_009.json",
+      "input_sha256": "f54db1e88385c11399e50196b79f5c3c4dc6c2be2f5cd51816e69579406b118a",
+      "output": "temp/screen/digital-leisure-substitution/verdict_009.json"
+    },
+    {
+      "batch": 10,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_010.json",
+      "input_sha256": "73f7e21f40fcf194dcc5c8f70e4bd89cdad08e20865abb0419bee7de9f96512f",
+      "output": "temp/screen/digital-leisure-substitution/verdict_010.json"
+    },
+    {
+      "batch": 11,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_011.json",
+      "input_sha256": "f756b16c6d9d74ca92754bfa11a19c4e7f9e7f574362b26eb4176896d02d135c",
+      "output": "temp/screen/digital-leisure-substitution/verdict_011.json"
+    },
+    {
+      "batch": 12,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_012.json",
+      "input_sha256": "1b1269971250d6cc7a2a8eab271c703ee7f5fa3d1c456ec7cbebbd181cdcb1a0",
+      "output": "temp/screen/digital-leisure-substitution/verdict_012.json"
+    },
+    {
+      "batch": 13,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_013.json",
+      "input_sha256": "f554b1ff03020ddcc51e04976f0e4d374357118bc11f3f331aba85a0604a38dc",
+      "output": "temp/screen/digital-leisure-substitution/verdict_013.json"
+    },
+    {
+      "batch": 14,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_014.json",
+      "input_sha256": "31f4c8a4ab8eeed47da4ccc4acf6e017e73382c65dbae82d49eef89d36aac5c4",
+      "output": "temp/screen/digital-leisure-substitution/verdict_014.json"
+    },
+    {
+      "batch": 15,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_015.json",
+      "input_sha256": "c6f537ab79c86114085cc17e5a98aa8bd34206fe60cbe82711e82d3b71eb7326",
+      "output": "temp/screen/digital-leisure-substitution/verdict_015.json"
+    },
+    {
+      "batch": 16,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_016.json",
+      "input_sha256": "1043ed85afbc5fa8971f3c7cabec586b4f725e4d578fc2ae38c7d256f7fb5f27",
+      "output": "temp/screen/digital-leisure-substitution/verdict_016.json"
+    },
+    {
+      "batch": 17,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_017.json",
+      "input_sha256": "571fddaee3b50b5fe061b5d74be2bff4e03118663122ccaf0f160c0eb3d2ee38",
+      "output": "temp/screen/digital-leisure-substitution/verdict_017.json"
+    },
+    {
+      "batch": 18,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_018.json",
+      "input_sha256": "3d4a0f28cf082c08e7bc60ebb6692da080c7156a13a5a658c45c018f70468fcd",
+      "output": "temp/screen/digital-leisure-substitution/verdict_018.json"
+    },
+    {
+      "batch": 19,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_019.json",
+      "input_sha256": "c58eb2a98a6e3d289711173daca8e89b524609805bf7374efcfb389acc7d90bc",
+      "output": "temp/screen/digital-leisure-substitution/verdict_019.json"
+    },
+    {
+      "batch": 20,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_020.json",
+      "input_sha256": "61d550fe61eb10dd2f875fcfd9e315b8211d06e08b2d40754267e2c2011b3751",
+      "output": "temp/screen/digital-leisure-substitution/verdict_020.json"
+    },
+    {
+      "batch": 21,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_021.json",
+      "input_sha256": "dd6f6e4be966f2cb0cffb8249dcad911965be1d24f86bb5433fd2408a60b78ce",
+      "output": "temp/screen/digital-leisure-substitution/verdict_021.json"
+    },
+    {
+      "batch": 22,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_022.json",
+      "input_sha256": "969d38ff2578c39da42076fe8af33a5d37c83f6dfa9dd5bdd813515d18106711",
+      "output": "temp/screen/digital-leisure-substitution/verdict_022.json"
+    },
+    {
+      "batch": 23,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_023.json",
+      "input_sha256": "f8da9c88cf40efbb98d67cd834edb19aaa156b82d15fb6d2dd521a94fab11843",
+      "output": "temp/screen/digital-leisure-substitution/verdict_023.json"
+    },
+    {
+      "batch": 24,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_024.json",
+      "input_sha256": "d8ecb5784e4ed03afe2e3c3e74913a1d4114ed3a732e6084bd0d53fee297e33b",
+      "output": "temp/screen/digital-leisure-substitution/verdict_024.json"
+    },
+    {
+      "batch": 25,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_025.json",
+      "input_sha256": "e8ae4cc59800d6cb4319e3eb9cc75395e295a0e8a0d00f0ac858c876a1ab2a80",
+      "output": "temp/screen/digital-leisure-substitution/verdict_025.json"
+    },
+    {
+      "batch": 26,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_026.json",
+      "input_sha256": "c5951c707b3ea5ee5fa93127ade943aa9c0106f866cd53ff1ff93fe17e0cdeea",
+      "output": "temp/screen/digital-leisure-substitution/verdict_026.json"
+    },
+    {
+      "batch": 27,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_027.json",
+      "input_sha256": "7a2b7094bf8957dc9ed7066ea5a930c706c6197a27c932c15500553fb1da1425",
+      "output": "temp/screen/digital-leisure-substitution/verdict_027.json"
+    },
+    {
+      "batch": 28,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_028.json",
+      "input_sha256": "579bf8d07ddac1915b884badbe8f9285ddbcc587d0eadec2e87095eaec2a90ba",
+      "output": "temp/screen/digital-leisure-substitution/verdict_028.json"
+    },
+    {
+      "batch": 29,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_029.json",
+      "input_sha256": "470769eea038d585c8d62b0afcbf53f87969b8f0edfb501d188ed12c54cf7c9c",
+      "output": "temp/screen/digital-leisure-substitution/verdict_029.json"
+    },
+    {
+      "batch": 30,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_030.json",
+      "input_sha256": "5b84a44491bb53048f63ad6ef6fa7b43fa6dc61f1b4e3b35c6f028a43a2a0f2c",
+      "output": "temp/screen/digital-leisure-substitution/verdict_030.json"
+    },
+    {
+      "batch": 31,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_031.json",
+      "input_sha256": "0b88bef360fe7c12b200b0d1b8597c26659cb939f6a82e2e1594cb7c52240db4",
+      "output": "temp/screen/digital-leisure-substitution/verdict_031.json"
+    },
+    {
+      "batch": 32,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_032.json",
+      "input_sha256": "f0d642c651958c92a29e97d1fd06518a63b228d50aee7625efc6876c74a42a59",
+      "output": "temp/screen/digital-leisure-substitution/verdict_032.json"
+    },
+    {
+      "batch": 33,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_033.json",
+      "input_sha256": "c3e30f2cb2e0d4d307715602f61e49268116811ff41570ea20996d9ac713b73b",
+      "output": "temp/screen/digital-leisure-substitution/verdict_033.json"
+    },
+    {
+      "batch": 34,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_034.json",
+      "input_sha256": "b3d3d3585f4fdc1592f1e9db8eca4638deb7d0f007c03096ce96e316d63f422f",
+      "output": "temp/screen/digital-leisure-substitution/verdict_034.json"
+    },
+    {
+      "batch": 35,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_035.json",
+      "input_sha256": "82b5b9e90dbdd0b5e979a1948786150d29643049ddd7f1b43b21da7ac0409bc0",
+      "output": "temp/screen/digital-leisure-substitution/verdict_035.json"
+    },
+    {
+      "batch": 36,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_036.json",
+      "input_sha256": "3d3bb8a90987099db72da37c0ae8759853e729b9e9719edf1692f8e535639b71",
+      "output": "temp/screen/digital-leisure-substitution/verdict_036.json"
+    },
+    {
+      "batch": 37,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_037.json",
+      "input_sha256": "2eb47f70c87765d38b966606786f2ed76b3b6c843d935fcb72729c0e23cc3ec5",
+      "output": "temp/screen/digital-leisure-substitution/verdict_037.json"
+    },
+    {
+      "batch": 38,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_038.json",
+      "input_sha256": "5c777369cc186ae11593d8e520db84ae8917e33c23116c3f9e4f504c193b9e6e",
+      "output": "temp/screen/digital-leisure-substitution/verdict_038.json"
+    },
+    {
+      "batch": 39,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_039.json",
+      "input_sha256": "88cfe9d6bd54793ca3466f8a2d990ffa4db21e00d01d2ccae0ad5b5de9685467",
+      "output": "temp/screen/digital-leisure-substitution/verdict_039.json"
+    },
+    {
+      "batch": 40,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_040.json",
+      "input_sha256": "57ba5855d1462209f7d8c5c1c6c63081c9e84e895f668880fd77fa5a346a82b6",
+      "output": "temp/screen/digital-leisure-substitution/verdict_040.json"
+    },
+    {
+      "batch": 41,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_041.json",
+      "input_sha256": "e450a79b27f76505810a7a7daedaca04cc31660c2501b148b86ad390433d0e17",
+      "output": "temp/screen/digital-leisure-substitution/verdict_041.json"
+    },
+    {
+      "batch": 42,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_042.json",
+      "input_sha256": "954f235fc03a7c4a9b5977a20d49454b8bdf559fd5c04a14e1c0f8115a447e7b",
+      "output": "temp/screen/digital-leisure-substitution/verdict_042.json"
+    },
+    {
+      "batch": 43,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_043.json",
+      "input_sha256": "6bbc26b3ba90a74101fe05615ddb3bc51f587cd6da9a69667c97102bccfa8395",
+      "output": "temp/screen/digital-leisure-substitution/verdict_043.json"
+    },
+    {
+      "batch": 44,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_044.json",
+      "input_sha256": "060d71a94ece43021e1bd8e50a646c435414fa984b8e663da39612a0721f23cb",
+      "output": "temp/screen/digital-leisure-substitution/verdict_044.json"
+    },
+    {
+      "batch": 45,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_045.json",
+      "input_sha256": "dc3add8566d616619e7eb6172a29bfba13058316c016e5f602527138f8826b84",
+      "output": "temp/screen/digital-leisure-substitution/verdict_045.json"
+    },
+    {
+      "batch": 46,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_046.json",
+      "input_sha256": "a3166e1bbedb7dac61f2cecb58d2caf4aededf39c629b705acb063448ce54f9c",
+      "output": "temp/screen/digital-leisure-substitution/verdict_046.json"
+    },
+    {
+      "batch": 47,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_047.json",
+      "input_sha256": "5fa7ee7067b52242502625acc1e586db8f6b1aa8769113f9eeddabc4dfa2dd47",
+      "output": "temp/screen/digital-leisure-substitution/verdict_047.json"
+    },
+    {
+      "batch": 48,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_048.json",
+      "input_sha256": "e48e1c6c2a4f8515ff17622ab6b7b94caa664b5bd09a6b975c4d377cbb39ec58",
+      "output": "temp/screen/digital-leisure-substitution/verdict_048.json"
+    },
+    {
+      "batch": 49,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_049.json",
+      "input_sha256": "91ee8e4ec2ce5183e93f76e9ac6f57d5ed7b044235bd156bcfc613990e91ecf9",
+      "output": "temp/screen/digital-leisure-substitution/verdict_049.json"
+    },
+    {
+      "batch": 50,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_050.json",
+      "input_sha256": "4bd0e2909c184cfd472bdf67384e34ae6c209a5c87f648de6b012d5396b9eb55",
+      "output": "temp/screen/digital-leisure-substitution/verdict_050.json"
+    },
+    {
+      "batch": 51,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_051.json",
+      "input_sha256": "2cd81ed1aed4df83460da8f5c0e75e940eec932d52777c04127c5b761ecfda71",
+      "output": "temp/screen/digital-leisure-substitution/verdict_051.json"
+    },
+    {
+      "batch": 52,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_052.json",
+      "input_sha256": "979b1f1204c5ab2efb52c51ccee734e62908410496db33845391c7b626ad1ec2",
+      "output": "temp/screen/digital-leisure-substitution/verdict_052.json"
+    },
+    {
+      "batch": 53,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_053.json",
+      "input_sha256": "6ed35dd787eaab826ab1608128c7301972df8239f9bcb913df32e9219eedae58",
+      "output": "temp/screen/digital-leisure-substitution/verdict_053.json"
+    },
+    {
+      "batch": 54,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_054.json",
+      "input_sha256": "34d831b4163c065be44f1a1f2ee514b9942e31755805ced529ee28f20a68bdb6",
+      "output": "temp/screen/digital-leisure-substitution/verdict_054.json"
+    },
+    {
+      "batch": 55,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_055.json",
+      "input_sha256": "1b152e4ee3ca84a61fe767d2286f915905eddc35bf1d46d02d617fd65fb77aed",
+      "output": "temp/screen/digital-leisure-substitution/verdict_055.json"
+    },
+    {
+      "batch": 56,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_056.json",
+      "input_sha256": "8e3d57bd56b495e2d5bb2b291c7bd6833ae242c75801e2e65353e30339e37863",
+      "output": "temp/screen/digital-leisure-substitution/verdict_056.json"
+    },
+    {
+      "batch": 57,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_057.json",
+      "input_sha256": "57ac9283c63cc4bb45f4c5daf2004ee721db38f0cd1dad6207f7149db8a03977",
+      "output": "temp/screen/digital-leisure-substitution/verdict_057.json"
+    },
+    {
+      "batch": 58,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_058.json",
+      "input_sha256": "34b0a92f67986746b65aef6da9cba36d0998534318f7a3d5d4344c2c0165b0ad",
+      "output": "temp/screen/digital-leisure-substitution/verdict_058.json"
+    },
+    {
+      "batch": 59,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_059.json",
+      "input_sha256": "68144ea2859b1bc7d0b45fb26c42b48fe2ff1fc3bc1894f16a0b126edec534c7",
+      "output": "temp/screen/digital-leisure-substitution/verdict_059.json"
+    },
+    {
+      "batch": 60,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_060.json",
+      "input_sha256": "962cb7431f597f08cda5ce6ce376d7afaa11fc282ff1ae3a88c18b36fa1c29b2",
+      "output": "temp/screen/digital-leisure-substitution/verdict_060.json"
+    },
+    {
+      "batch": 61,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_061.json",
+      "input_sha256": "4366c821845256f9b6ef6769dbecb2918b24b757f3f173c0328d0afa55affcc4",
+      "output": "temp/screen/digital-leisure-substitution/verdict_061.json"
+    },
+    {
+      "batch": 62,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_062.json",
+      "input_sha256": "9e3698044649d48dac9f9296207c26127520d80063af0b9bd267b1821f46cc26",
+      "output": "temp/screen/digital-leisure-substitution/verdict_062.json"
+    },
+    {
+      "batch": 63,
+      "n": 40,
+      "input": "temp/screen/digital-leisure-substitution/batch_063.json",
+      "input_sha256": "b875aadf5522fee9ab209a6d35bc494de9f5172c107061804d1592290823ff92",
+      "output": "temp/screen/digital-leisure-substitution/verdict_063.json"
+    },
+    {
+      "batch": 64,
+      "n": 26,
+      "input": "temp/screen/digital-leisure-substitution/batch_064.json",
+      "input_sha256": "8094050d5db2200ec52ff49725f9bf5e14cab3702219c65aa50f3ef8f74670ce",
+      "output": "temp/screen/digital-leisure-substitution/verdict_064.json"
+    }
+  ]
+}
