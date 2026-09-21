@@ -1,0 +1,308 @@
+[
+  {
+    "title": "Is the iPhone Birth Control? Causal Evidence from AT&T's 2007-2011 Carrier Monopoly",
+    "authors": [
+      "Caitlin K. Myers",
+      "Ezekiel Hooper"
+    ],
+    "year": 2026,
+    "family": "device-diffusion-empirical",
+    "provisional_cell": "PRIMARY_LEISURE_PRICE",
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "expect_no_doi": true,
+    "note": "NBER Working Paper w35310. Web-verified 2026-09-21 (nber.org/papers/w35310, SSRN 6897299). AT&T exclusive-iPhone-carrier instrument; attributes 33-52% of the post-2007 GFR decline. The chapter's primary anchor and the study to beat. NBER WP: expected Crossref-index miss.",
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.2139/ssrn.6897299",
+      "matched_title": "Is the iPhone Birth Control? Causal Evidence from AT&amp;T\u2019s 2007\u20132011 Carrier Monopoly",
+      "matched_year": 2026,
+      "jaccard": 0.933
+    },
+    "doi": "10.2139/ssrn.6897299",
+    "doi_reaffirm": "blocked",
+    "state": "verified",
+    "identity_verified": true
+  },
+  {
+    "title": "Does broadband Internet affect fertility?",
+    "authors": [
+      "Francesco C. Billari",
+      "Osea Giuntella",
+      "Luca Stella"
+    ],
+    "year": 2019,
+    "family": "broadband-diffusion-empirical",
+    "provisional_cell": "PRIMARY_LEISURE_PRICE",
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "note": "Population Studies 73(3):297-316. Broadband diffusion in Germany and fertility; the closest published identified analogue to Myers-Hooper on the leisure-price channel.",
+    "expect_no_doi": false,
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.2139/ssrn.3029806",
+      "matched_title": "Does Broadband Internet Affect Fertility?",
+      "matched_year": 2017,
+      "jaccard": 1.0
+    },
+    "doi": "10.2139/ssrn.3029806",
+    "doi_reaffirm": "blocked",
+    "state": "version_drift",
+    "identity_verified": true
+  },
+  {
+    "title": "Offline effects of online connecting: the impact of broadband diffusion on teen fertility decisions",
+    "authors": [
+      "Melanie Guldi",
+      "Chris M. Herbst"
+    ],
+    "year": 2017,
+    "family": "broadband-diffusion-empirical",
+    "provisional_cell": "PRIMARY_LEISURE_PRICE",
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "note": "Journal of Population Economics 30(1):69-91. Broadband diffusion and teen fertility in the US; identified off state-level broadband rollout.",
+    "expect_no_doi": false,
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.2139/ssrn.2612328",
+      "matched_title": "Offline Effects of Online Connecting: The Impact of Broadband Diffusion on Teen Fertility Decisions",
+      "matched_year": 2015,
+      "jaccard": 1.0
+    },
+    "doi": "10.2139/ssrn.2612328",
+    "doi_reaffirm": "blocked",
+    "state": "version_drift",
+    "identity_verified": true
+  },
+  {
+    "title": "The impact of Internet diffusion on marriage rates: evidence from the broadband market",
+    "authors": [
+      "Andriana Bellou"
+    ],
+    "year": 2015,
+    "family": "broadband-diffusion-empirical",
+    "provisional_cell": "PRIMARY_SOCIAL_DISPLACEMENT",
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "note": "Journal of Population Economics 28(2):265-297. Internet/broadband diffusion and marriage \u2014 the partnering (union-formation) outcome; identifies a social-displacement/matching effect.",
+    "expect_no_doi": false,
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.2139/ssrn.2250294",
+      "matched_title": "The Impact of Internet Diffusion on Marriage Rates: Evidence from the Broadband Market",
+      "matched_year": 2013,
+      "jaccard": 1.0
+    },
+    "doi": "10.2139/ssrn.2250294",
+    "doi_reaffirm": "blocked",
+    "state": "version_drift",
+    "identity_verified": true
+  },
+  {
+    "title": "Leisure Luxuries and the Labor Supply of Young Men",
+    "authors": [
+      "Mark Aguiar",
+      "Mark Bils",
+      "Kerwin Kofi Charles",
+      "Erik Hurst"
+    ],
+    "year": 2021,
+    "family": "timeuse-mechanism",
+    "provisional_cell": "MECHANISM_TIMEUSE",
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "note": "Journal of Political Economy 129(2):337-382. Video games/recreational computing and young men's hours; the time-use mechanism (no direct fertility outcome) \u2014 a MECHANISM anchor.",
+    "expect_no_doi": false,
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.3386/w23552",
+      "matched_title": "Leisure Luxuries and the Labor Supply of Young Men",
+      "matched_year": 2017,
+      "jaccard": 1.0
+    },
+    "doi": "10.3386/w23552",
+    "doi_reaffirm": "resolves",
+    "state": "version_drift",
+    "identity_verified": true
+  },
+  {
+    "title": "Pornography and the marriage market",
+    "authors": [
+      "Jiwon Ryu"
+    ],
+    "year": 2024,
+    "family": "pornography-substitution-empirical",
+    "provisional_cell": "PRIMARY_PORN_SUBSTITUTION",
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "note": "Registry seed (Jiwon Ryu 2024, porn substitution and the marriage market). Exact title/venue uncertain; Crossref adjudicates and this may resolve to version_drift or need RA confirmation.",
+    "expect_no_doi": false,
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.4135/9781483369532.n379",
+      "matched_title": "Pornography",
+      "matched_year": 2017,
+      "jaccard": 0.2
+    },
+    "state": "ghost_low_match",
+    "identity_verified": false
+  },
+  {
+    "title": "A Theory of the Allocation of Time",
+    "authors": [
+      "Gary S. Becker"
+    ],
+    "year": 1965,
+    "family": "time-allocation-theory",
+    "provisional_cell": "MECHANISM_TIMEUSE",
+    "provenance_channel": "hypothesis_canon",
+    "known_doi": "10.2307/2228949",
+    "note": "The Economic Journal 75(299):493-517. The household-production/time-allocation foundation in which digital leisure is a cheaper substitute for the time children require. Theory seed. Crossref bibliographic search mis-ranks this canonical paper, so its DOI is pinned and verified directly at doi.org (a curated override, not an asserted-from-memory id).",
+    "expect_no_doi": false,
+    "doi": "10.2307/2228949",
+    "doi_reaffirm": "blocked",
+    "state": "verified_pinned",
+    "identity_verified": true
+  },
+  {
+    "title": "iGen: Why Today's Super-Connected Kids Are Growing Up Less Rebellious, More Tolerant, Less Happy",
+    "authors": [
+      "Jean M. Twenge"
+    ],
+    "year": 2017,
+    "family": "descriptive-theory",
+    "provisional_cell": "MECHANISM_TIMEUSE",
+    "provenance_channel": "hypothesis_canon",
+    "expect_no_doi": true,
+    "note": "Atria Books. Registry seed; the descriptive case that the smartphone generation delays partnering/independence milestones. Book: expected Crossref article-index miss.",
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.1080/17482798.2017.1417091",
+      "matched_title": "iGen: why today\u2019s super-connected kids are growing up less rebellious, more tolerant, less happy \u2013 and completely unprepared for adulthood",
+      "matched_year": 2018,
+      "jaccard": 0.737
+    },
+    "doi": "10.1080/17482798.2017.1417091",
+    "doi_reaffirm": "blocked",
+    "state": "verified",
+    "identity_verified": true
+  },
+  {
+    "title": "Fertility, female labor force participation, and the demographic dividend",
+    "authors": [
+      "David E. Bloom",
+      "David Canning",
+      "Guenther Fink",
+      "Jocelyn E. Finlay"
+    ],
+    "year": 2009,
+    "family": "ROUTING_DECOY",
+    "provisional_cell": "OFF_WAGE_C2E",
+    "provenance_channel": "routing_decoy_C2e",
+    "routing_note": "Female LFP / opportunity-cost-of-time channel -> C.2.e. Same Becker substitution structure as C.2.h but the price that moves is the wage, not the leisure good. Wall 1.",
+    "expect_no_doi": false,
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.3386/w13583",
+      "matched_title": "Fertility, Female Labor Force Participation, and the Demographic Dividend",
+      "matched_year": 2007,
+      "jaccard": 1.0
+    },
+    "doi": "10.3386/w13583",
+    "doi_reaffirm": "resolves",
+    "state": "version_drift",
+    "identity_verified": true
+  },
+  {
+    "title": "Disintermediating your friends: How online dating in the United States displaces other ways of meeting",
+    "authors": [
+      "Michael J. Rosenfeld",
+      "Reuben J. Thomas",
+      "Sonia Hausen"
+    ],
+    "year": 2019,
+    "family": "ROUTING_DECOY",
+    "provisional_cell": "OFF_DATINGAPP_A24",
+    "provenance_channel": "routing_decoy_A24",
+    "routing_note": "Dating-app MATCHING technology and how couples meet -> A.24. Same device, but the estimand is matching, not leisure time crowd-out. Wall 2 (the near wall).",
+    "expect_no_doi": false,
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.1073/pnas.1908630116",
+      "matched_title": "Disintermediating your friends: How online dating in the United States displaces other ways of meeting",
+      "matched_year": 2019,
+      "jaccard": 1.0
+    },
+    "doi": "10.1073/pnas.1908630116",
+    "doi_reaffirm": "blocked",
+    "state": "verified",
+    "identity_verified": true
+  },
+  {
+    "title": "A framework for analyzing the proximate determinants of fertility",
+    "authors": [
+      "John Bongaarts"
+    ],
+    "year": 1978,
+    "family": "ROUTING_DECOY",
+    "provisional_cell": "OFF_COITAL_A14",
+    "provenance_channel": "routing_decoy_A14",
+    "routing_note": "The coital-frequency -> fecundability -> births proximate-determinant identity -> A.14. C.2.h owns only the digital-leisure CAUSE of a frequency change, not the identity. Wall 3.",
+    "expect_no_doi": false,
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.2307/1972149",
+      "matched_title": "A Framework for Analyzing the Proximate Determinants of Fertility",
+      "matched_year": 1978,
+      "jaccard": 1.0
+    },
+    "doi": "10.2307/1972149",
+    "doi_reaffirm": "resolves",
+    "state": "verified",
+    "identity_verified": true
+  },
+  {
+    "title": "The unfolding story of the second demographic transition",
+    "authors": [
+      "Ron Lesthaeghe"
+    ],
+    "year": 2010,
+    "family": "ROUTING_DECOY",
+    "provisional_cell": "OFF_VALUES_D1A",
+    "provenance_channel": "routing_decoy_D1a",
+    "routing_note": "The value shift valorizing self-oriented leisure -> D.1.a. C.2.h holds tastes fixed and moves the price of the leisure substitute. Wall 4.",
+    "expect_no_doi": false,
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.1111/j.1728-4457.2010.00328.x",
+      "matched_title": "The Unfolding Story of the Second Demographic Transition",
+      "matched_year": 2010,
+      "jaccard": 1.0
+    },
+    "doi": "10.1111/j.1728-4457.2010.00328.x",
+    "doi_reaffirm": "blocked",
+    "state": "verified",
+    "identity_verified": true
+  },
+  {
+    "title": "Increases in depressive symptoms, suicide-related outcomes, and suicide rates among U.S. adolescents after 2010 and links to increased new media screen time",
+    "authors": [
+      "Jean M. Twenge",
+      "Thomas E. Joiner",
+      "Megan L. Rogers",
+      "Gabrielle N. Martin"
+    ],
+    "year": 2018,
+    "family": "ROUTING_DECOY",
+    "provisional_cell": "OFF_MENTALHEALTH_D3A",
+    "provenance_channel": "routing_decoy_D3a",
+    "routing_note": "Screen time -> depression/mental-health pathway -> D.3.a. The load-bearing wall (281 frame overlap in the probe): C.2.h is the direct time/attention crowd-out, D.3.a the affective/clinical mediator. Wall 5.",
+    "expect_no_doi": false,
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.1177/2167702617723376",
+      "matched_title": "Increases in Depressive Symptoms, Suicide-Related Outcomes, and Suicide Rates Among U.S. Adolescents After 2010 and Links to Increased New Media Screen Time",
+      "matched_year": 2018,
+      "jaccard": 1.0
+    },
+    "doi": "10.1177/2167702617723376",
+    "doi_reaffirm": "blocked",
+    "state": "verified",
+    "identity_verified": true
+  }
+]
