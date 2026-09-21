@@ -1,5 +1,5 @@
 # TICK-090: C.2.h Digital Leisure Substitution
-**Status:** open
+**Status:** in-progress
 **Assigned:** Shravan
 **Hypothesis:** `digital-leisure-substitution` — HYPOTHESES-v5.md §C.2.h
 **Parallel-safe:** yes
