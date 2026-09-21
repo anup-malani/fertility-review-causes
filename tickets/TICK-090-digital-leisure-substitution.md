@@ -124,3 +124,28 @@ OpenAlex, backward+forward citation snowball) then the blinded LLM title/abstrac
 citation frame is a large OpenAlex spend (highly-cited theory anchors like Becker/Bongaarts/Lesthaeghe
 need a forward-citation cap) and ~43 of today's ~100-request allowance is already used on the probe,
 so the frame + screen are the next work session on fresh budget. Paused here.
+
+**2026-09-21 — Stage 3 search complete: citation frame + production keyword frame merged.**
+
+*Result — the two §5.1 Phase-1 channels are built and merged into one deduped screen input.*
+`54_c2h_citation_frame.py` resolved all **12/12** verified anchors to their OpenAlex version of record
+(by title, cited_by-sorted, so the SSRN/NBER preprint DOIs did not cost the citation graph — Billari
+106, Guldi 80, Bellou 84, Aguiar 115 citations; Myers-Hooper 0 as expected for a 2026 WP). Forward-
+seeded the 5-paper empirical core only (theory + the 5 wall decoys contribute backward refs and
+routing tests, not forward citations, since Becker alone is cited 10,343×). Citation frame = **653**
+(319 forward, 334 backward). `55_c2h_production_frame.py` pulled the production keyword frame (topic
+AND outcome, verbatim from the scope) = **1,909** (matches the probe's 1,911). Merged, deduped by
+OpenAlex id → **2,546 unique** (2,063 with abstracts).
+
+**The two channels are nearly disjoint — only 16 records in both** — so supplementing the citation
+neighbourhood with the keyword query was load-bearing for recall: the citation frame surfaced 637
+papers the keyword query missed, the keyword query 1,893 the citation frame missed. Screen input:
+`literature/search-logs/digital-leisure-substitution-screen-frame.json`.
+
+*Budget.* ~79 of today's ~100-request OpenAlex allowance used (44 probe + 25 frame + 10 production);
+all cached and resumable.
+
+*PAUSED before the LLM screen (as agreed).* The 2,063 abstract-bearing records are the blinded
+title/abstract screen input; the 483 title-only records are the RA-resolution/UNCERTAIN queue. Stage
+3's search half (acceptance criterion 3, first phase) is done; the AI screen (second phase) is the
+next, LLM-budget-heavy step. Stages 4–14 remain.
