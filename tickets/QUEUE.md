@@ -29,7 +29,7 @@ tickets can be worked concurrently.
 > commit message dated 07-21 to 07-25 against this table; in commit messages from Alexandra's schooling
 > workstream, `TICK-032` means the compulsory-education split and needs no translation.
 >
-> **Next free number is TICK-091.** Claim a number by pushing its QUEUE.md row before starting work,
+> **Next free number is TICK-092.** Claim a number by pushing its QUEUE.md row before starting work,
 > not after. That is what would have prevented the collision. TICK-047 through TICK-053 were claimed
 > for the D.3.b climate-anxiety chain on 2026-07-27; TICK-054 (A.10) and TICK-055 (C.2.c) on
 > 2026-07-31; TICK-056 opens C.2.c library retrieval. TICK-075 (A.23) was claimed on 2026-08-27.
@@ -48,6 +48,7 @@ tickets can be worked concurrently.
 
 | Ticket | Title | Assigned | Parallel-safe |
 |--------|-------|----------|---------------|
+| [TICK-091](TICK-091-coital-frequency-biological.md) | A.14 Coital Frequency and Fecundability — smallest genuinely-unstarted hypothesis by measured frame (scout: 373, an order of magnitude below the ~1,808 bar and below every other unstarted candidate; see TICK-091 Log). Bongaarts proximate-determinant #3; spans PM/FDT/SDT. **Stage 3 must still run the full frame probe + registered-construct completeness test (the A.6/A.3 lesson) to harden the "smallest" claim** | Shravan | yes |
 | [TICK-090](TICK-090-digital-leisure-substitution.md) | C.2.h Digital Leisure Substitution — genuinely unstarted (no branch/chapter); picked as the smallest untouched literature (NEW v5, SDT-only, anchored on Myers–Hooper 2026). **Not measured by the frame probe; stage 2 runs the probe + registered-construct completeness test (the A.6/A.3 lesson) before the "smallest" claim is trusted** | Shravan | yes |
 | [TICK-089](TICK-089-population-age-structure-momentum.md) | A.9 Population Age Structure and Demographic Momentum — smallest open A-section candidate (accounting/measurement mechanism). **Not yet measured by the frame probe; stage 2 must run the probe + registered-construct completeness test (the A.6/A.3 lesson) before the "smallest" claim is trusted** | Shravan | yes |
 | [TICK-088](TICK-088-diffusion-of-fertility-control.md) | A.3 Diffusion and Social-Learning of Fertility Control — took A.6's place as the smallest candidate after `404`. **Opens with a registered-construct completeness test; A.3 has not been cleared of the defect that unseated A.6** | Shravan | yes |
