@@ -1,5 +1,5 @@
 # TICK-091: A.14 Coital Frequency and Fecundability
-**Status:** open
+**Status:** in-progress
 **Assigned:** Shravan
 **Hypothesis:** `coital-frequency-biological` — HYPOTHESES-v5.md §A.14
 **Parallel-safe:** yes
