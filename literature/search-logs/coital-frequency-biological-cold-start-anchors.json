@@ -1,0 +1,334 @@
+[
+  {
+    "title": "The risk of conception on different days of the menstrual cycle",
+    "authors": [
+      "J. C. Barrett",
+      "John Marshall"
+    ],
+    "year": 1969,
+    "family": "biometric-fecundability",
+    "provisional_cell": "PRIMARY_FREQ_BIOMETRIC",
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "note": "Population Studies 23(3):455-461. The classic estimate of per-cycle conception probability by day of cycle and by coital frequency; the slope of the frequency->fecundability identity.",
+    "expect_no_doi": false,
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.1080/00324728.1969.10405297",
+      "matched_title": "The risk of conception on different days of the menstrual cycle",
+      "matched_year": 1969,
+      "jaccard": 1.0
+    },
+    "doi": "10.1080/00324728.1969.10405297",
+    "doi_reaffirm": "blocked",
+    "state": "verified",
+    "identity_verified": true
+  },
+  {
+    "title": "Timing of sexual intercourse in relation to ovulation. Effects on the probability of conception, survival of the pregnancy, and sex of the baby",
+    "authors": [
+      "Allen J. Wilcox",
+      "Clarice R. Weinberg",
+      "Donna D. Baird"
+    ],
+    "year": 1995,
+    "family": "biometric-fecundability",
+    "provisional_cell": "PRIMARY_FREQ_BIOMETRIC",
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "note": "New England Journal of Medicine 333(23):1517-1521. Prospective daily-diary study of intercourse timing and conception; the modern biometric anchor for the fertile-window/frequency relationship.",
+    "expect_no_doi": false,
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.1056/nejm199512073332301",
+      "matched_title": "Timing of Sexual Intercourse in Relation to Ovulation \u2014 Effects on the Probability of Conception, Survival of the Pregnancy, and Sex of the Baby",
+      "matched_year": 1995,
+      "jaccard": 1.0
+    },
+    "doi": "10.1056/nejm199512073332301",
+    "doi_reaffirm": "blocked",
+    "state": "verified",
+    "identity_verified": true
+  },
+  {
+    "title": "The role of marital sexual abstinence in determining fertility: a study of the Yoruba in Nigeria",
+    "authors": [
+      "John C. Caldwell",
+      "Pat Caldwell"
+    ],
+    "year": 1977,
+    "family": "abstinence-natural",
+    "provisional_cell": "PRIMARY_ABSTINENCE_WINDOW",
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "note": "Population Studies 31(2):193-217. Registry seminal. Post-partum sexual abstinence taboo and its fertility effect \u2014 the classic abstinence-window natural experiment. Wall 3 (vs A.13 lactation).",
+    "expect_no_doi": false,
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.2307/2173915",
+      "matched_title": "The Role of Marital Sexual Abstinence in Determining Fertility: A Study of the Yoruba in Nigeria",
+      "matched_year": 1977,
+      "jaccard": 1.0
+    },
+    "doi": "10.2307/2173915",
+    "doi_reaffirm": "resolves",
+    "state": "verified",
+    "identity_verified": true
+  },
+  {
+    "title": "The short- and long-term effects of U.S. migration experience on Mexican women's fertility",
+    "authors": [
+      "David P. Lindstrom",
+      "Silvia Giorguli Saucedo"
+    ],
+    "year": 2002,
+    "family": "separation-natural",
+    "provisional_cell": "PRIMARY_SEPARATION_SHOCK",
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "note": "Social Forces 80(4):1341-1368. Labour migration and spousal separation as a shock to coital exposure within intact unions -> fertility. Wall 2 (union persists; only exposure falls).",
+    "expect_no_doi": false,
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.1353/sof.2002.0030",
+      "matched_title": "The Short- and Long-Term Effects of U.S. Migration Experience on Mexican Women's Fertility",
+      "matched_year": 2002,
+      "jaccard": 1.0
+    },
+    "doi": "10.1353/sof.2002.0030",
+    "doi_reaffirm": "blocked",
+    "state": "verified",
+    "identity_verified": true
+  },
+  {
+    "title": "Declines in sexual frequency among American adults, 1989-2014",
+    "authors": [
+      "Jean M. Twenge",
+      "Ryne A. Sherman",
+      "Brooke E. Wells"
+    ],
+    "year": 2017,
+    "family": "frequency-trend",
+    "provisional_cell": "PRIMARY_FREQ_DECLINE",
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "note": "Archives of Sexual Behavior 46(8):2389-2401. The canonical 'sex recession' documentation. Frequency trend; routes to MECHANISM_FREQ_ONLY unless it carries a fertility link.",
+    "expect_no_doi": false,
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.1007/s10508-017-0953-1",
+      "matched_title": "Declines in Sexual Frequency among American Adults, 1989\u20132014",
+      "matched_year": 2017,
+      "jaccard": 1.0
+    },
+    "doi": "10.1007/s10508-017-0953-1",
+    "doi_reaffirm": "resolves",
+    "state": "verified",
+    "identity_verified": true
+  },
+  {
+    "title": "Trends in frequency of sexual activity and number of sexual partners among adults aged 18 to 44 years in the US, 2000-2018",
+    "authors": [
+      "Peter Ueda",
+      "Catherine H. Mercer",
+      "Cyrus Ghaznavi",
+      "Debby Herbenick"
+    ],
+    "year": 2020,
+    "family": "frequency-trend",
+    "provisional_cell": "PRIMARY_FREQ_DECLINE",
+    "provenance_channel": "direct_empirical_bibliographic_search",
+    "note": "JAMA Network Open 3(6):e203833. Corroborating US frequency-decline evidence; frequency trend (mechanism) unless linked to a fertility outcome.",
+    "expect_no_doi": false,
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.1001/jamanetworkopen.2020.3833",
+      "matched_title": "Trends in Frequency of Sexual Activity and Number of Sexual Partners Among Adults Aged 18 to 44 Years in the US, 2000-2018",
+      "matched_year": 2020,
+      "jaccard": 1.0
+    },
+    "doi": "10.1001/jamanetworkopen.2020.3833",
+    "doi_reaffirm": "blocked",
+    "state": "verified",
+    "identity_verified": true
+  },
+  {
+    "title": "A framework for analyzing the proximate determinants of fertility",
+    "authors": [
+      "John Bongaarts"
+    ],
+    "year": 1978,
+    "family": "proximate-determinant-theory",
+    "provisional_cell": "MECHANISM_FREQ_ONLY",
+    "provenance_channel": "hypothesis_canon",
+    "note": "Population and Development Review 4(1):105-132. Registry seminal. The framework in which coital frequency sits inside the residual fecundability term (Cm, Cc, Ca, Ci are the named indices). Theory seed \u2014 the decomposition risk the scope names.",
+    "expect_no_doi": false,
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.2307/1972149",
+      "matched_title": "A Framework for Analyzing the Proximate Determinants of Fertility",
+      "matched_year": 1978,
+      "jaccard": 1.0
+    },
+    "doi": "10.2307/1972149",
+    "doi_reaffirm": "resolves",
+    "state": "verified",
+    "identity_verified": true
+  },
+  {
+    "title": "Social structure and fertility: an analytic framework",
+    "authors": [
+      "Kingsley Davis",
+      "Judith Blake"
+    ],
+    "year": 1956,
+    "family": "proximate-determinant-theory",
+    "provisional_cell": "MECHANISM_FREQ_ONLY",
+    "provenance_channel": "hypothesis_canon",
+    "expect_no_doi": true,
+    "note": "Economic Development and Cultural Change 4(3):211-235. Registry seminal. The original intermediate-variables framework listing coital frequency as an intercourse variable. Old canon: possible Crossref-index miss.",
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.4324/9780203787724-21",
+      "matched_title": "Social Structure and Fertility: An Analytic Framework",
+      "matched_year": 2017,
+      "jaccard": 1.0
+    },
+    "doi": "10.4324/9780203787724-21",
+    "doi_reaffirm": "resolves",
+    "state": "version_drift",
+    "identity_verified": true
+  },
+  {
+    "title": "Fecundity and natural fertility in humans",
+    "authors": [
+      "James W. Wood"
+    ],
+    "year": 1989,
+    "family": "proximate-determinant-theory",
+    "provisional_cell": "MECHANISM_FREQ_ONLY",
+    "provenance_channel": "hypothesis_canon",
+    "expect_no_doi": true,
+    "note": "Oxford Reviews of Reproductive Biology 11:61-109. Registry seminal (Wood 1989). The biometric review of fecundability and its coital-frequency component. Review-series: possible index miss.",
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.1016/b978-0-08-091698-9.50011-7",
+      "matched_title": "A Macrosimulation Model and Applications to Fecundity and Natural Fertility",
+      "matched_year": 1983,
+      "jaccard": 0.364
+    },
+    "state": "expected_no_doi",
+    "identity_verified": false
+  },
+  {
+    "title": "More power to the pill: the impact of contraceptive freedom on women's life cycle labor supply",
+    "authors": [
+      "Martha J. Bailey"
+    ],
+    "year": 2006,
+    "family": "ROUTING_DECOY",
+    "provisional_cell": "OFF_CONTRACEPTION",
+    "provenance_channel": "routing_decoy_A2A6",
+    "routing_note": "Contraceptive access (the Cc index) -> A.2-A.6. A.14 is the exposure identity NET of contraception; the explicit 'independently of contraceptive use' wall. Wall 1 (load-bearing).",
+    "expect_no_doi": false,
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.1162/003355306776083491",
+      "matched_title": "More Power to the Pill: The Impact of Contraceptive Freedom on Women's Life Cycle Labor Supply",
+      "matched_year": 2006,
+      "jaccard": 1.0
+    },
+    "doi": "10.1162/003355306776083491",
+    "doi_reaffirm": "blocked",
+    "state": "verified",
+    "identity_verified": true
+  },
+  {
+    "title": "European marriage patterns in perspective",
+    "authors": [
+      "John Hajnal"
+    ],
+    "year": 1965,
+    "family": "ROUTING_DECOY",
+    "provisional_cell": "OFF_UNION_FORMATION",
+    "provenance_channel": "routing_decoy_A7C7",
+    "expect_no_doi": true,
+    "note": "In Glass & Eversley (eds), Population in History. The proportion-married (Cm) channel -> A.7/C.7. A.14 owns coital frequency WITHIN a union, not the existence of the union. Wall 2. Book chapter: expected Crossref-index miss.",
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.4324/9781315127019-7",
+      "matched_title": "European Marriage Patterns in Perspective",
+      "matched_year": 2017,
+      "jaccard": 1.0
+    },
+    "doi": "10.4324/9781315127019-7",
+    "doi_reaffirm": "resolves",
+    "state": "version_drift",
+    "identity_verified": true
+  },
+  {
+    "title": "Consensus statement on the use of breastfeeding as a family planning method",
+    "authors": [
+      "Kathy I. Kennedy",
+      "Roberto Rivera",
+      "Alan S. McNeilly"
+    ],
+    "year": 1989,
+    "family": "ROUTING_DECOY",
+    "provisional_cell": "OFF_LACTATION",
+    "provenance_channel": "routing_decoy_A13",
+    "routing_note": "Lactational amenorrhoea / postpartum infecundability (the Ci index) -> A.13. Distinct from the postpartum ABSTINENCE taboo (which is A.14). Wall 3.",
+    "expect_no_doi": false,
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.2307/1966594",
+      "matched_title": "\"Consensus Statement on the Use of Breastfeeding as a Family Planning Method\"",
+      "matched_year": 1990,
+      "jaccard": 1.0
+    },
+    "doi": "10.2307/1966594",
+    "doi_reaffirm": "resolves",
+    "state": "verified",
+    "identity_verified": true
+  },
+  {
+    "title": "Age and infertility",
+    "authors": [
+      "Jane Menken",
+      "James Trussell",
+      "Ulla Larsen"
+    ],
+    "year": 1986,
+    "family": "ROUTING_DECOY",
+    "provisional_cell": "OFF_FECUNDITY_CAPACITY",
+    "provenance_channel": "routing_decoy_A15",
+    "known_doi": "10.1126/science.3755843",
+    "routing_note": "Age-related fecundity decline (the fecundability ceiling) -> A.15. A.14 changes frequency at a fixed fecund capacity; the age confound is the routing challenge. Wall 4.",
+    "expect_no_doi": false,
+    "doi": "10.1126/science.3755843",
+    "doi_reaffirm": "blocked",
+    "state": "verified_pinned",
+    "identity_verified": true
+  },
+  {
+    "title": "Incidence of early loss of pregnancy",
+    "authors": [
+      "Allen J. Wilcox",
+      "Clarice R. Weinberg",
+      "John F. O'Connor",
+      "Donna D. Baird"
+    ],
+    "year": 1988,
+    "family": "ROUTING_DECOY",
+    "provisional_cell": "OFF_FETAL_LOSS",
+    "provenance_channel": "routing_decoy_B5",
+    "routing_note": "Loss of an established pregnancy -> B.5. A.14 governs whether a conception OCCURS; B.5 whether it SURVIVES. Wall 6. (Distinct Wilcox paper from the 1995 timing study.)",
+    "expect_no_doi": false,
+    "crossref_ok": true,
+    "crossref_best": {
+      "doi": "10.1056/nejm198812013192214",
+      "matched_title": "Incidence of Early Loss of Pregnancy",
+      "matched_year": 1988,
+      "jaccard": 1.0
+    },
+    "doi": "10.1056/nejm198812013192214",
+    "doi_reaffirm": "blocked",
+    "state": "verified",
+    "identity_verified": true
+  }
+]

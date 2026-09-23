@@ -1,0 +1,544 @@
+{
+  "slug": "coital-frequency-biological",
+  "stage": "blinded_title_abstract_screen_input",
+  "source": "literature/search-logs/coital-frequency-biological-screen-frame.json",
+  "source_sha256": "3c92efbcc3d27b9ae4824558a05ba57f0794252ce0c037c06ce768d2e3bc8790",
+  "seed": 1114,
+  "batch_size": 40,
+  "n_records": 3035,
+  "n_batches": 76,
+  "manifest": [
+    {
+      "batch": 1,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_001.json",
+      "input_sha256": "f6d0813da9c73d3ea38c8648a5c103f9f19b3bf1a732ce3687f6a0a4eeb98bc9",
+      "output": "temp/screen/coital-frequency-biological/verdict_001.json"
+    },
+    {
+      "batch": 2,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_002.json",
+      "input_sha256": "ed022412b325aacfc2d5a2193bb629f42241c22b906523a48985123dcf35e2d5",
+      "output": "temp/screen/coital-frequency-biological/verdict_002.json"
+    },
+    {
+      "batch": 3,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_003.json",
+      "input_sha256": "453ece62c89b5d9fedb5711f672214f82a8b45d6d1df42a464d16caf49424706",
+      "output": "temp/screen/coital-frequency-biological/verdict_003.json"
+    },
+    {
+      "batch": 4,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_004.json",
+      "input_sha256": "18ecb028c45ae524123470caaeff199bf652a6a80ff9cf5b6cbc73ddfb927c33",
+      "output": "temp/screen/coital-frequency-biological/verdict_004.json"
+    },
+    {
+      "batch": 5,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_005.json",
+      "input_sha256": "29fa4a88eb0c6e8e599df2d1e5da219d0d19df2ed9bc183f4fa520cfeb2bd0e0",
+      "output": "temp/screen/coital-frequency-biological/verdict_005.json"
+    },
+    {
+      "batch": 6,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_006.json",
+      "input_sha256": "72e5f58d7354d1888b6532aac22bcd540faf711b695e7fe66c190e2e9a6b7c56",
+      "output": "temp/screen/coital-frequency-biological/verdict_006.json"
+    },
+    {
+      "batch": 7,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_007.json",
+      "input_sha256": "a8a5d026630e3009127a878f08425805fa52a8576f608e2085a45c69645aa168",
+      "output": "temp/screen/coital-frequency-biological/verdict_007.json"
+    },
+    {
+      "batch": 8,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_008.json",
+      "input_sha256": "a814971270c3f2264334ecdc6dadb1cfaa86a060fdf0ba412e8e95265d1c3042",
+      "output": "temp/screen/coital-frequency-biological/verdict_008.json"
+    },
+    {
+      "batch": 9,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_009.json",
+      "input_sha256": "6bb6f96f5b50d92ba8c366a2eaf050df40719a9830c43907163688f8453a273d",
+      "output": "temp/screen/coital-frequency-biological/verdict_009.json"
+    },
+    {
+      "batch": 10,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_010.json",
+      "input_sha256": "f7b673ce1902cb434e69e47477e7fcfba16e3da7003633fb989e6d6931952935",
+      "output": "temp/screen/coital-frequency-biological/verdict_010.json"
+    },
+    {
+      "batch": 11,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_011.json",
+      "input_sha256": "c77c9230a24348bfaaf238fe04035f9e6df8d7e57b468f5b01aeec4585de0a35",
+      "output": "temp/screen/coital-frequency-biological/verdict_011.json"
+    },
+    {
+      "batch": 12,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_012.json",
+      "input_sha256": "82ef4055c3eed0aa6ce5cc8d7413f2b377b6312669958e5f777317bcc903bceb",
+      "output": "temp/screen/coital-frequency-biological/verdict_012.json"
+    },
+    {
+      "batch": 13,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_013.json",
+      "input_sha256": "1d009e774714af61b518210f554f973cf72b2548da1bc0fd5b5221c6a18d4224",
+      "output": "temp/screen/coital-frequency-biological/verdict_013.json"
+    },
+    {
+      "batch": 14,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_014.json",
+      "input_sha256": "f702e729dbe40e87f228cd89ded11246786b03edb931f28fbda9279909b7ac3f",
+      "output": "temp/screen/coital-frequency-biological/verdict_014.json"
+    },
+    {
+      "batch": 15,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_015.json",
+      "input_sha256": "15e58efc4409c4509bb778fbecd2ebbd8cb671f9ce7605d03ad5027a16f5e763",
+      "output": "temp/screen/coital-frequency-biological/verdict_015.json"
+    },
+    {
+      "batch": 16,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_016.json",
+      "input_sha256": "8fb5fdc01b734d97684f20c91b215c0e3ebad40212d4cf02f45bc6b42004ad41",
+      "output": "temp/screen/coital-frequency-biological/verdict_016.json"
+    },
+    {
+      "batch": 17,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_017.json",
+      "input_sha256": "87c6dd5666c242704e1b567c129c539dada1a6c60d3ae4a7b1f9bbc74a995f10",
+      "output": "temp/screen/coital-frequency-biological/verdict_017.json"
+    },
+    {
+      "batch": 18,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_018.json",
+      "input_sha256": "af247b1e1690245c13abe5f493ed96928a9113e5610e39cbaf0e11e9448a0d10",
+      "output": "temp/screen/coital-frequency-biological/verdict_018.json"
+    },
+    {
+      "batch": 19,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_019.json",
+      "input_sha256": "c13aca92b0c9d753c0b2d5b58b44ee38bdb6b7efd016523bf57152349a2494e8",
+      "output": "temp/screen/coital-frequency-biological/verdict_019.json"
+    },
+    {
+      "batch": 20,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_020.json",
+      "input_sha256": "5f05ff803dc14ee1373b11e462c4ebcefa120ac3d36825dbf4cb76af467c9273",
+      "output": "temp/screen/coital-frequency-biological/verdict_020.json"
+    },
+    {
+      "batch": 21,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_021.json",
+      "input_sha256": "0d4df3f4e766b8c0f09e1c0b0c12126307bcc9735e6caf854714401316efc3a9",
+      "output": "temp/screen/coital-frequency-biological/verdict_021.json"
+    },
+    {
+      "batch": 22,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_022.json",
+      "input_sha256": "d79ed0f84cf97b179b63e19c76c6c4a633c1c2d56c431b594833665c97ffce27",
+      "output": "temp/screen/coital-frequency-biological/verdict_022.json"
+    },
+    {
+      "batch": 23,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_023.json",
+      "input_sha256": "a28b4d71edb136231718b2fd51e72f1506fd386be1e0dcc4b5afd7cd34de010c",
+      "output": "temp/screen/coital-frequency-biological/verdict_023.json"
+    },
+    {
+      "batch": 24,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_024.json",
+      "input_sha256": "fbe34309d8cd606da4e8787fea79d8117f176db199bcefab8916c99adef6851e",
+      "output": "temp/screen/coital-frequency-biological/verdict_024.json"
+    },
+    {
+      "batch": 25,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_025.json",
+      "input_sha256": "0c8cb2e060f38296a4a3562bb588cdadb47d238d047546a59042f3e52faa2537",
+      "output": "temp/screen/coital-frequency-biological/verdict_025.json"
+    },
+    {
+      "batch": 26,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_026.json",
+      "input_sha256": "2f7a95dbb011f81c7155d72a8c7c9e9fab507bc788ed8ffbe4502fcfb7737d57",
+      "output": "temp/screen/coital-frequency-biological/verdict_026.json"
+    },
+    {
+      "batch": 27,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_027.json",
+      "input_sha256": "0f899b4d57663e75b010b9b3576bc2adf95196fb2d60e141b2051baaf2787643",
+      "output": "temp/screen/coital-frequency-biological/verdict_027.json"
+    },
+    {
+      "batch": 28,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_028.json",
+      "input_sha256": "03767a766af018e01cf1e1806f213af1e834b042369f5de6b53af4d48636b71f",
+      "output": "temp/screen/coital-frequency-biological/verdict_028.json"
+    },
+    {
+      "batch": 29,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_029.json",
+      "input_sha256": "ae4be46b76dd46708fae0f48a47f59aa041ad209be2f69f0aa898a9bd1bf88f8",
+      "output": "temp/screen/coital-frequency-biological/verdict_029.json"
+    },
+    {
+      "batch": 30,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_030.json",
+      "input_sha256": "ff8d03af37d0fcaaa7e8267bc24119ebbe8f2dc5490cc4e6a08fec5803b7bb35",
+      "output": "temp/screen/coital-frequency-biological/verdict_030.json"
+    },
+    {
+      "batch": 31,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_031.json",
+      "input_sha256": "11b02789c7822fbb1fa706d7dfa6496e05e3cad09fe6ad1e6d15b34b4070bb16",
+      "output": "temp/screen/coital-frequency-biological/verdict_031.json"
+    },
+    {
+      "batch": 32,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_032.json",
+      "input_sha256": "98cfe41fc48968ae6e1bb92106e85369e87d9b17a486b1c61345521e1e2621e1",
+      "output": "temp/screen/coital-frequency-biological/verdict_032.json"
+    },
+    {
+      "batch": 33,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_033.json",
+      "input_sha256": "50e1b99182d9bff9a14c3ccbe971f6ee8ca67a53a9cd492e226f2cacfe153088",
+      "output": "temp/screen/coital-frequency-biological/verdict_033.json"
+    },
+    {
+      "batch": 34,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_034.json",
+      "input_sha256": "98e5ee0045832eba43d6c02fbafd7ffd7c589b71175717f1da69146b74f34669",
+      "output": "temp/screen/coital-frequency-biological/verdict_034.json"
+    },
+    {
+      "batch": 35,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_035.json",
+      "input_sha256": "7233be1209aa2eaca3e8ddc8def92ff80a7d83ced5117dedba48da8192accc83",
+      "output": "temp/screen/coital-frequency-biological/verdict_035.json"
+    },
+    {
+      "batch": 36,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_036.json",
+      "input_sha256": "07732062b70ed1e8a7180472b5d1dd3cf19d169944c6d8777b7c16b2ef3d28f2",
+      "output": "temp/screen/coital-frequency-biological/verdict_036.json"
+    },
+    {
+      "batch": 37,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_037.json",
+      "input_sha256": "9912e50a53564725126d86397758d476d82d6f8073fd6bea143801d7b4b22eab",
+      "output": "temp/screen/coital-frequency-biological/verdict_037.json"
+    },
+    {
+      "batch": 38,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_038.json",
+      "input_sha256": "b48c4f3e9f10a939b32dd2a0ca060fb97cc20585fa57f94df1463272ee86dd93",
+      "output": "temp/screen/coital-frequency-biological/verdict_038.json"
+    },
+    {
+      "batch": 39,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_039.json",
+      "input_sha256": "7233a95eed3bc6e6cbebdccec6a73145d8c800d129793e4773444e7dcc119f53",
+      "output": "temp/screen/coital-frequency-biological/verdict_039.json"
+    },
+    {
+      "batch": 40,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_040.json",
+      "input_sha256": "1edf65110c6e6939ed5be7075100e838ce46ed866b6fad16b85bcff6cced8b58",
+      "output": "temp/screen/coital-frequency-biological/verdict_040.json"
+    },
+    {
+      "batch": 41,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_041.json",
+      "input_sha256": "0941827a12d964b41aff4eede6908b6831f27500515f45dae862e42fc2319443",
+      "output": "temp/screen/coital-frequency-biological/verdict_041.json"
+    },
+    {
+      "batch": 42,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_042.json",
+      "input_sha256": "629de3663ac152a8fefea40b560fd56fd873e3b98c9a605f12ceddfc77e5a430",
+      "output": "temp/screen/coital-frequency-biological/verdict_042.json"
+    },
+    {
+      "batch": 43,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_043.json",
+      "input_sha256": "a3959db105be09938dc3539701dd86a8d152db1bcfb81bc723a19eb34ac8a974",
+      "output": "temp/screen/coital-frequency-biological/verdict_043.json"
+    },
+    {
+      "batch": 44,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_044.json",
+      "input_sha256": "e8475934d0333fb38de9fae907f18a49e0af4c5be1a4f775a1c4d44d1deb2cdd",
+      "output": "temp/screen/coital-frequency-biological/verdict_044.json"
+    },
+    {
+      "batch": 45,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_045.json",
+      "input_sha256": "212d5b56f6c3bc8690c9d464f92c5c9577978c1d19e51c65fb8f09c70875f95c",
+      "output": "temp/screen/coital-frequency-biological/verdict_045.json"
+    },
+    {
+      "batch": 46,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_046.json",
+      "input_sha256": "691655adbbe78d85ef2bc9baca8f8d0450c8c53828f15fc10bbac798f1dbb3ef",
+      "output": "temp/screen/coital-frequency-biological/verdict_046.json"
+    },
+    {
+      "batch": 47,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_047.json",
+      "input_sha256": "1675ba16e83ffc0ec4296a984371cd3060840744de3e86d7bf35ca9399252945",
+      "output": "temp/screen/coital-frequency-biological/verdict_047.json"
+    },
+    {
+      "batch": 48,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_048.json",
+      "input_sha256": "88d1ffbd66428475c79fdcb1d9d309dc62bea124e04639c0962162b873cd78c6",
+      "output": "temp/screen/coital-frequency-biological/verdict_048.json"
+    },
+    {
+      "batch": 49,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_049.json",
+      "input_sha256": "ec73722656f8920a552d40cb38b00179a5a37b23989cdabbfc0e8b0baa75b129",
+      "output": "temp/screen/coital-frequency-biological/verdict_049.json"
+    },
+    {
+      "batch": 50,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_050.json",
+      "input_sha256": "8607f599b8148ce849b094cda6908c181fdf05d8d69bc876f18639bac01d8563",
+      "output": "temp/screen/coital-frequency-biological/verdict_050.json"
+    },
+    {
+      "batch": 51,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_051.json",
+      "input_sha256": "cd008856b6d3641e1d4049ec4a00224a97bb8a09d14fc380db8735d3b24abd2d",
+      "output": "temp/screen/coital-frequency-biological/verdict_051.json"
+    },
+    {
+      "batch": 52,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_052.json",
+      "input_sha256": "0d88a2f1487720d296d2933796ffa1f9a1363d50074efb45dac50535ccea6e14",
+      "output": "temp/screen/coital-frequency-biological/verdict_052.json"
+    },
+    {
+      "batch": 53,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_053.json",
+      "input_sha256": "0684240dba4f22becbe64529b118a762d515487d4dda0c5ce5ba7f8ef53e4bbd",
+      "output": "temp/screen/coital-frequency-biological/verdict_053.json"
+    },
+    {
+      "batch": 54,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_054.json",
+      "input_sha256": "145b4eff58b60658067e5afbba394155457e929952f7c06cc28077036e589c1a",
+      "output": "temp/screen/coital-frequency-biological/verdict_054.json"
+    },
+    {
+      "batch": 55,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_055.json",
+      "input_sha256": "3b9e898c67672b888abeba551890c7aaeb8dba6c309e093a8f57dfdbe86a9d7d",
+      "output": "temp/screen/coital-frequency-biological/verdict_055.json"
+    },
+    {
+      "batch": 56,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_056.json",
+      "input_sha256": "54498d9c1427d49173e6fae787a8dcfdfc1cf7850dbdc76a8e2864cfab0e935e",
+      "output": "temp/screen/coital-frequency-biological/verdict_056.json"
+    },
+    {
+      "batch": 57,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_057.json",
+      "input_sha256": "1e463fb7fbb3a40eea61f674c7fe9a38519b0796ed831f0890ce044c3325d350",
+      "output": "temp/screen/coital-frequency-biological/verdict_057.json"
+    },
+    {
+      "batch": 58,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_058.json",
+      "input_sha256": "20e7d91b1251a401b05aabbcea549bafeb4491984dc8200013b58eb2642d26bb",
+      "output": "temp/screen/coital-frequency-biological/verdict_058.json"
+    },
+    {
+      "batch": 59,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_059.json",
+      "input_sha256": "d931d606af20d430ed9681ce7de086738244d1083ebf4568b36c54da71c8bd62",
+      "output": "temp/screen/coital-frequency-biological/verdict_059.json"
+    },
+    {
+      "batch": 60,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_060.json",
+      "input_sha256": "90aba9d5d5acef5413c35b1d158bc883c179374b1471efccfe6287e3db88c46f",
+      "output": "temp/screen/coital-frequency-biological/verdict_060.json"
+    },
+    {
+      "batch": 61,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_061.json",
+      "input_sha256": "49db4da12ed2a1f1864af6c31a1700e4b5152a014295889e92c7c622537b1e49",
+      "output": "temp/screen/coital-frequency-biological/verdict_061.json"
+    },
+    {
+      "batch": 62,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_062.json",
+      "input_sha256": "2f2bd4d95bda72b2ac572908d010dcc1381288f7c09f9d71d919afb2a158cc3f",
+      "output": "temp/screen/coital-frequency-biological/verdict_062.json"
+    },
+    {
+      "batch": 63,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_063.json",
+      "input_sha256": "44679e815c370f8494c155d4e871b531d0d417cba032200b96a127d564553d31",
+      "output": "temp/screen/coital-frequency-biological/verdict_063.json"
+    },
+    {
+      "batch": 64,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_064.json",
+      "input_sha256": "079f5a8ddd21d2d1caf36bcd0a6bcf4a5b0369b8bb446ae310e987bc095413ec",
+      "output": "temp/screen/coital-frequency-biological/verdict_064.json"
+    },
+    {
+      "batch": 65,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_065.json",
+      "input_sha256": "db81f8f6e1e68deaf7cb4bf50de019bb6ec6ea801385fceac17ba47175a98016",
+      "output": "temp/screen/coital-frequency-biological/verdict_065.json"
+    },
+    {
+      "batch": 66,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_066.json",
+      "input_sha256": "7443b5e52e25a516ed978767089ae9add722d21f9242a9c6a2f70b74a97afc8b",
+      "output": "temp/screen/coital-frequency-biological/verdict_066.json"
+    },
+    {
+      "batch": 67,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_067.json",
+      "input_sha256": "34dda68a472751ab7688c97741f14aa8f104e11873c46e87a2bd7c9c9fc26408",
+      "output": "temp/screen/coital-frequency-biological/verdict_067.json"
+    },
+    {
+      "batch": 68,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_068.json",
+      "input_sha256": "7b9d8936f93ce78fb7d4ae0803e39a074627aa0e20ef57fc32c3d9f76de640e8",
+      "output": "temp/screen/coital-frequency-biological/verdict_068.json"
+    },
+    {
+      "batch": 69,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_069.json",
+      "input_sha256": "b0eeebceba35ab218f22941aaee214756548a5e17d0905b8011280703031f3e4",
+      "output": "temp/screen/coital-frequency-biological/verdict_069.json"
+    },
+    {
+      "batch": 70,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_070.json",
+      "input_sha256": "28dc5ebbd4508b84cb98df4faa283fa90057b9bfa4fc860401680c99d065adba",
+      "output": "temp/screen/coital-frequency-biological/verdict_070.json"
+    },
+    {
+      "batch": 71,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_071.json",
+      "input_sha256": "957d1af91eec1bbed45818fc11bab56194d72595f9ebdfb73741afad95c09f12",
+      "output": "temp/screen/coital-frequency-biological/verdict_071.json"
+    },
+    {
+      "batch": 72,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_072.json",
+      "input_sha256": "91f9ffa9c9e848d4e6c077bae60a2afafd27f74cfbf2dc6c8d479b027822cf5b",
+      "output": "temp/screen/coital-frequency-biological/verdict_072.json"
+    },
+    {
+      "batch": 73,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_073.json",
+      "input_sha256": "a8ff984941d8ec86f2f9761aec86d449d8529af09f532ea5dbe83128314151c4",
+      "output": "temp/screen/coital-frequency-biological/verdict_073.json"
+    },
+    {
+      "batch": 74,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_074.json",
+      "input_sha256": "196266d2d9c1f22ddfd9e572be39801672d1b0f59f327cfe294b2228b570665d",
+      "output": "temp/screen/coital-frequency-biological/verdict_074.json"
+    },
+    {
+      "batch": 75,
+      "n": 40,
+      "input": "temp/screen/coital-frequency-biological/batch_075.json",
+      "input_sha256": "14434887a53b5ebb560ca1a2c192f6297732599e199b3ef8f1027cda50e68213",
+      "output": "temp/screen/coital-frequency-biological/verdict_075.json"
+    },
+    {
+      "batch": 76,
+      "n": 35,
+      "input": "temp/screen/coital-frequency-biological/batch_076.json",
+      "input_sha256": "e5c16c3df8848c9442924449830f9c541e62d5d0aff50bd6015da43942f93d74",
+      "output": "temp/screen/coital-frequency-biological/verdict_076.json"
+    }
+  ]
+}
