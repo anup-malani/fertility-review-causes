@@ -1,0 +1,28 @@
+{
+  "hypothesis": "A.14 Coital Frequency and Fecundability",
+  "slug": "coital-frequency-biological",
+  "rated": "2026-09-23",
+  "method": "Three independent raters, identical blinded evidence package, parallel subagents. Rating is the causal credibility that coital-frequency VARIATION causes fertility VARIATION in each phenomenon (not merely that the frequency->fecundability identity exists).",
+  "consensus": {
+    "PM": "MODERATE",
+    "FDT": "VERY LOW",
+    "SDT": "LOW"
+  },
+  "agreement": {
+    "PM": "unanimous (3/3 MODERATE)",
+    "FDT": "unanimous (3/3 VERY LOW)",
+    "SDT": "majority LOW (2/3); rater 1 dissented to VERY LOW on the ground that no extracted study quantifies the sex recession's fertility contribution. Consensus taken as LOW (median/majority), reported with the dissent."
+  },
+  "key_reasoning": "Coital frequency is a near-certain proximate determinant (the frequency->fecundability slope is established biology: fertile-window-timed intercourse 85/100 vs 1/100; Bongaarts-Potter once/week ~12mo wait vs once/month ~43mo), but as an EXPLANATION of the phenomena it is largely a MEDIATOR of contraception and union change, rising to an autonomous CAUSE only where frequency is shocked independently: spousal separation and customary/post-partum abstinence (PM), and possibly involuntary sexlessness (SDT). PM is MODERATE because separation quasi-experiments in near-natural-fertility settings (Clifford Tajikistan, Nie China) supply exogenous within-union exposure shocks with dose-response and selection-correction; FDT is VERY LOW because the historic transition is a deliberate-marital-control story with no extracted evidence of an autonomous frequency channel; SDT is LOW because the sex recession is real and documented (Moriki) but unquantified, partly downstream of union change, and the only extracted RCT is a null with a failed manipulation.",
+  "downgrades": {
+    "PM": "From HIGH biometric-identity ceiling: -1 indirectness (best evidence is modern separation quasi-experiments and clinical fecundability, not direct natural-fertility coital-frequency measurement; marquee abstinence anchor Caldwell&Caldwell 1977 un-extracted); -1 tempo-vs-quantum (Clifford's short window identifies a period effect; completed-fertility persistence not established, though Nie finds no reunification catch-up).",
+    "FDT": "-2 no extracted study links coital-frequency variation to the 1870-1965 decline; -1 strong prior that the FDT is a contraception/stopping phenomenon. Not 'No evidence' because the biometric identity makes any frequency change mechanically consequential.",
+    "SDT": "-1 sex recession real but Moriki estimates no fertility effect and the marquee anchor (Twenge 2017) is un-extracted; -1/-2 no quantitative frequency->SDT-fertility estimate net of union/contraception change; -1 the one internally-clean RCT (Pleasure&Pregnancy) is null with a FAILED manipulation (frequency did not move), so uninformative; indirectness/mediator concern (sex recession partly downstream of fewer/later unions)."
+  },
+  "raters": [
+    {"rater": "1", "PM": "MODERATE", "FDT": "VERY LOW", "SDT": "VERY LOW"},
+    {"rater": "2", "PM": "MODERATE", "FDT": "VERY LOW", "SDT": "LOW"},
+    {"rater": "3", "PM": "MODERATE", "FDT": "VERY LOW", "SDT": "LOW"}
+  ],
+  "caveat": "Ratings would rise with extraction of the un-retrieved marquee anchors (Barrett-Marshall 1969, Wilcox 1995, Caldwell&Caldwell 1977, Lindstrom-Saucedo 2002, Twenge 2017), a natural-fertility study that directly measures coital frequency and separates it from lactational amenorrhoea (A.13), and any credible estimate of an autonomous frequency effect on COMPLETED (quantum) fertility net of contraception and union timing."
+}

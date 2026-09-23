@@ -14,13 +14,13 @@
 - [x] 3. Literature search and AI screening, both phases (§5.1) — frame probe + completeness test (89), cold-start anchors (90), citation frame (91), production frame (92), blinded Haiku screen 76 batches (93–95), assembled (96). RELEVANT 565 / UNCERTAIN 525 / NOT_RELEVANT 1,945; pooling set 307 (identified core 139)
 - [ ] 4. RA title/abstract review
 - [~] 5. Full-text retrieval — automated OA pass run (97); RA proxy/ILL handoff for the closed remainder
-- [ ] 6. Full-text screen, RA spot-checks 5–10%
-- [ ] 7. Extraction to `extraction/coital-frequency-biological.csv`, RA verifies a random 10%
-- [ ] 8. Risk-of-bias assessment per study
-- [ ] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise
-- [ ] 10. Demographic significance against PM / FDT / SDT
-- [ ] 11. GRADE rating, 3 independent raters
-- [ ] 12. Chapter draft on the §6 template
+- [x] 6. Full-text screen (7 identified-core PDFs read by parallel agents; 3 survive + 1 weak, 1 excluded, 1 null, 1 context) — `extraction/coital-frequency-biological-fulltext-screen.csv`. RA 5–10% spot-check owed
+- [x] 7. Extraction to `extraction/coital-frequency-biological.csv` (19 effects, 98) — RA 10% verification owed
+- [x] 8. Risk-of-bias assessment per study — `extraction/coital-frequency-biological-risk-of-bias.csv` (99; single-reader)
+- [x] 9. Narrative synthesis (meta-analysis not warranted: heterogeneous, non-poolable estimands)
+- [x] 10. Demographic significance — PM MODERATE(localised) / FDT MINOR / SDT MINOR (East-Asia exception flagged)
+- [x] 11. GRADE, 3 independent raters — PM MODERATE (3/3), FDT VERY LOW (3/3), SDT LOW (2/3; one VERY LOW) — `extraction/coital-frequency-biological-grade.json`
+- [x] 12. Chapter draft on the §6 template — `output/chapters/coital-frequency-biological.md`
 - [ ] 13. RA lay-readability check
 - [ ] 14. PI review and sign-off
 
@@ -135,3 +135,44 @@ on a curated identified core spanning all four primary cells and all three pheno
 flagged as an RA extraction backlog (the B.1 precedent).
 
 *Next — Stage 5 retrieval (running) → Stage 7 extraction of the identified core.*
+
+**2026-09-23 — Stages 5-12 complete: retrieval, extraction, risk-of-bias, synthesis, demsig, GRADE, chapter.**
+
+*Stage 5 (97).* Automated OA retrieval on the 307-record pool, identified core first: **29/307** (core
+10/139); 278 to the RA proxy/ILL handoff. The marquee anchors (Barrett-Marshall, Wilcox, Caldwell,
+Lindstrom-Saucedo, Twenge) are old/paywalled — on the handoff, not extracted.
+
+*Stages 6-7 (98).* Seven identified-core PDFs full-text read by parallel extraction agents → 19 effects
+with table locators. **Survivors:** Nie 2020 (Fujian; separation ORs 0.03-0.30, no reunification catch-
+up) and Clifford 2009 (Tajikistan near-natural-fertility; selection-corrected, full-year absence OR
+0.25, ≥6mo OR 0.58, dose-response) — the demographic anchors; Bouchard 2018 (fertile-window 85 vs 1) —
+the biometric slope. **Weak:** Mturi 1997 (abstinence amalgamated with lactational amenorrhoea/A.13; only
+polygamy HR 0.87 and absence HR 0.62 isolate A.14). **Null:** Pleasure&Pregnancy RCT (RR 0.86; manipulation
+FAILED — frequency didn't move). **Excluded:** Koo 2018 (predictor is AMH → A.15). **Context:** Moriki 2012
+(Japan sexless marriage). Not poolable (heterogeneous estimands) → narrative synthesis.
+
+*Stage 8 (99).* RoB: Nie/Clifford MODERATE; Bouchard/Mturi SERIOUS; P&P LOW internal / SERIOUS
+indirectness. Load-bearing domains: contraception control (Wall 1) and selection/age (Wall 4).
+
+*The chapter's spine (stages 9-10).* A.14 is an accounting IDENTITY whose slope is near-certain biology
+but which **saturates** above ~weekly intercourse, so it bites demographically only in the low-frequency
+tail (separation, deep abstinence, sexlessness). It is therefore mostly a MEDIATOR of other causes,
+rising to an autonomous cause only where an independent force pushes frequency into the binding region.
+Demsig: **PM MODERATE (localised — abstinence/separation), FDT MINOR (a deliberate-control story), SDT
+MINOR** (sex recession real but largely downstream of union change; autonomous within-union component —
+Japanese sexless marriages even among couples wanting children — possibly SUBSTANTIAL in East Asia but
+unquantified).
+
+*Stage 11 (GRADE, 3 raters).* PM **MODERATE** (3/3), FDT **VERY LOW** (3/3), SDT **LOW** (2/3; one VERY
+LOW). All three converged on the mediator-vs-autonomous-cause framing.
+
+*Stage 12.* `output/chapters/coital-frequency-biological.md` on the authoritative template (§1-§12,
+plain-before-technical, ideal-design/distance table, per-phenomenon GRADE + demsig, standalone verdict).
+**Verdict: coital frequency is secure as plumbing, not as an explanation — a certified proximate
+determinant whose demographic importance is confined to the low-frequency tail; MODERATE/VERY LOW/LOW for
+PM/FDT/SDT.**
+
+*Interim standing.* Draft rests on 7 of 139 identified-core studies (29/307 retrieved); the marquee
+anchors are un-extracted (RA backlog). Direction unlikely to change; the SDT demographic weight is the
+most likely to move. Remaining: 4 RA title/abstract gate, 13 RA lay-readability, 14 PI review; plus the
+owed single-reader verification spot-checks.
