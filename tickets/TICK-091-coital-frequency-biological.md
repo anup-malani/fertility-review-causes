@@ -11,9 +11,9 @@
 
 ## Acceptance criteria
 - [x] 2. Search strategy and scope drafted — `literature/search-logs/coital-frequency-biological-search-scope.md`
-- [~] 3. Literature search and AI screening, both phases (§5.1) — frame probe + registered-construct completeness test done (`89_a14_frame_probe.py`); cold-start anchors, citation/production frames, and the LLM screen remain (paused for RA before screen spend)
+- [x] 3. Literature search and AI screening, both phases (§5.1) — frame probe + completeness test (89), cold-start anchors (90), citation frame (91), production frame (92), blinded Haiku screen 76 batches (93–95), assembled (96). RELEVANT 565 / UNCERTAIN 525 / NOT_RELEVANT 1,945; pooling set 307 (identified core 139)
 - [ ] 4. RA title/abstract review
-- [ ] 5. Full-text retrieval
+- [~] 5. Full-text retrieval — automated OA pass run (97); RA proxy/ILL handoff for the closed remainder
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
 - [ ] 7. Extraction to `extraction/coital-frequency-biological.csv`, RA verifies a random 10%
 - [ ] 8. Risk-of-bias assessment per study
@@ -91,3 +91,47 @@ cold-start anchors + existence-verify (mirror 53/89; seeds: Bongaarts 1978, Wood
 labour-migration fertility studies), then the Tier-A/B citation frame (mirror 54) merged with the
 production keyword frame (add "coitus"/"sexual intercourse" to the block), then the blinded Haiku
 title/abstract screen (mirror 56–59). No LLM screen budget spent yet.
+
+**2026-09-23 — Stage 3 completed: cold-start anchors, citation + production frames, blinded screen, assembly.**
+
+*Anchors (90).* 13 existence-verified via Crossref (Jaccard ≥ 0.72 AND year ±1): the biometric core
+(Barrett–Marshall 1969, Wilcox 1995), the separation/abstinence naturals (Caldwell & Caldwell 1977
+Yoruba post-partum abstinence, Lindstrom–Saucedo 2002 Mexican migration), the sex-recession trend
+(Twenge 2017, Ueda 2020), the proximate-determinant canon (Bongaarts 1978, Davis & Blake 1956, Wood
+1989), and 5 wall decoys (Bailey→A.2-A.6, Hajnal→A.7, Kennedy→A.13, Menken→A.15, Wilcox 1988→B.5). Menken
+"Age and Infertility" pinned via a live author-qualified Crossref lookup (3-word title too generic for
+the bibliographic ranker); the biometric methods paper I mis-titled was dropped; Wood 1989 correctly
+`expected_no_doi`. doi.org second re-affirm is best-effort and blocked (403) here — Crossref is the gate.
+
+*Citation frame (91).* All 13 anchors resolved to their OpenAlex VoR; forward-seeded the empirical core
+only (biometric/separation/abstinence/frequency-trend), theory + decoys backward-only. Tier B = 1,632
+(1,330 forward, 302 backward; 1,067 abstracts).
+
+*Production frame (92).* Recall block = the precise A.14 vocabulary + the clean synonym "coitus", with
+"sexual intercourse" / "sexual activity" / "libido" / "sexual desire" DROPPED per the completeness test
+(their probe gains are dominated by contraception / adolescent-sexuality / STI / sexual-medicine
+literature the walls route away; the frequency-focused genuine studies are caught by "frequency of
+intercourse" + "coital frequency" + "coitus"). Keyword frame 1,462; **merged screen frame 3,035** (59
+in both channels — nearly disjoint, so both were load-bearing for recall).
+
+*Screen (93–96).* 76 batches, blinded {id,title,year,abstract}, Haiku (`claude-haiku-4-5`), resumable /
+fail-closed. Haiku's known row-drop failure mode recurred on the harder batches ("expected 40, got 36");
+handled by re-running with more retries and re-screening one stubborn batch (46) on `claude-sonnet-5`.
+Validator: 76 valid / 0 missing / 0 bad. **RELEVANT 565 / UNCERTAIN 525 / NOT_RELEVANT 1,945.**
+
+*Pooling set = RELEVANT ∩ PRIMARY ∩ non-review/theory = **307*** (identified core — frequency-shock or
+prospective — **139**; associational 168). By cell: biometric 129, abstinence 97, separation 44,
+frequency-decline 37. **Recall held:** the top identified core by citation is Barrett–Marshall (the
+anchor), the day-specific conception-probability biometric literature, Lindstrom–Saucedo (separation),
+Caldwell's rural-South-India abstinence study, and "Fecundability, coital frequency and the viability of
+ova." Walls absorbed heavily and cleanly (OFF_CONTRACEPTION 404, OFF_FECUNDITY_CAPACITY 206, OFF_OUTCOME
+210, OFF_OTHER 307, OFF_UNION_FORMATION 59, OFF_LACTATION 30, OFF_FETAL_LOSS 32). Theory/mechanism
+stream 304.
+
+*Scale note.* This pool (307) is an order of magnitude larger than the recent SDT-only biological
+chapters (C.2.h pooled 25). A.14 spans PM/FDT/SDT and has a 50-year biometric + natural-fertility +
+historical-demography literature. Full extraction of 307 is a scaling task; the chapter will be drafted
+on a curated identified core spanning all four primary cells and all three phenomena, with the residual
+flagged as an RA extraction backlog (the B.1 precedent).
+
+*Next — Stage 5 retrieval (running) → Stage 7 extraction of the identified core.*
