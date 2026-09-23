@@ -1,0 +1,42 @@
+{
+  "slug": "coital-frequency-biological",
+  "runs": [
+    {
+      "started_utc": "2026-09-23T18:00:52.212294+00:00",
+      "command_executable": "claude",
+      "command_args": [
+        "-p",
+        "--model",
+        "claude-haiku-4-5-20251001"
+      ],
+      "selected_batches": [
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "force": false,
+      "results": [
+        {
+          "batch": 46,
+          "status": "schema_error",
+          "seconds": 109.94,
+          "attempt": 6,
+          "errors": [
+            "batch 046: expected 40 verdicts, got 36"
+          ]
+        }
+      ],
+      "finished_utc": "2026-09-23T18:11:44.124465+00:00"
+    }
+  ]
+}

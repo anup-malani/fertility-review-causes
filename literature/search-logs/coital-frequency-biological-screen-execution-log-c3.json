@@ -1,0 +1,104 @@
+{
+  "slug": "coital-frequency-biological",
+  "runs": [
+    {
+      "started_utc": "2026-09-23T18:12:26.273241+00:00",
+      "command_executable": "claude",
+      "command_args": [
+        "-p",
+        "--model",
+        "claude-haiku-4-5-20251001"
+      ],
+      "selected_batches": [
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "force": false,
+      "results": [
+        {
+          "batch": 47,
+          "status": "written_valid",
+          "seconds": 67.53,
+          "attempts": 2
+        },
+        {
+          "batch": 48,
+          "status": "written_valid",
+          "seconds": 106.04,
+          "attempts": 1
+        },
+        {
+          "batch": 49,
+          "status": "written_valid",
+          "seconds": 125.44,
+          "attempts": 1
+        },
+        {
+          "batch": 50,
+          "status": "written_valid",
+          "seconds": 155.41,
+          "attempts": 1
+        },
+        {
+          "batch": 51,
+          "status": "written_valid",
+          "seconds": 129.82,
+          "attempts": 1
+        },
+        {
+          "batch": 52,
+          "status": "written_valid",
+          "seconds": 220.51,
+          "attempts": 1
+        },
+        {
+          "batch": 53,
+          "status": "written_valid",
+          "seconds": 158.06,
+          "attempts": 1
+        },
+        {
+          "batch": 54,
+          "status": "written_valid",
+          "seconds": 74.34,
+          "attempts": 1
+        },
+        {
+          "batch": 55,
+          "status": "written_valid",
+          "seconds": 105.73,
+          "attempts": 1
+        },
+        {
+          "batch": 56,
+          "status": "written_valid",
+          "seconds": 89.18,
+          "attempts": 1
+        },
+        {
+          "batch": 57,
+          "status": "written_valid",
+          "seconds": 80.03,
+          "attempts": 1
+        },
+        {
+          "batch": 58,
+          "status": "written_valid",
+          "seconds": 219.22,
+          "attempts": 1
+        }
+      ],
+      "finished_utc": "2026-09-23T19:12:31.393745+00:00"
+    }
+  ]
+}

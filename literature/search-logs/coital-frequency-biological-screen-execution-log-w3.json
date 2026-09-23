@@ -1,0 +1,84 @@
+{
+  "slug": "coital-frequency-biological",
+  "runs": [
+    {
+      "started_utc": "2026-09-23T15:55:11.584000+00:00",
+      "command_executable": "claude",
+      "command_args": [
+        "-p",
+        "--model",
+        "claude-haiku-4-5-20251001"
+      ],
+      "selected_batches": [
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58
+      ],
+      "force": false,
+      "results": [
+        {
+          "batch": 40,
+          "status": "written_valid",
+          "seconds": 156.53,
+          "attempts": 3
+        },
+        {
+          "batch": 41,
+          "status": "written_valid",
+          "seconds": 106.59,
+          "attempts": 1
+        },
+        {
+          "batch": 42,
+          "status": "written_valid",
+          "seconds": 139.1,
+          "attempts": 1
+        },
+        {
+          "batch": 43,
+          "status": "written_valid",
+          "seconds": 84.67,
+          "attempts": 1
+        },
+        {
+          "batch": 44,
+          "status": "written_valid",
+          "seconds": 86.26,
+          "attempts": 1
+        },
+        {
+          "batch": 45,
+          "status": "written_valid",
+          "seconds": 89.17,
+          "attempts": 1
+        },
+        {
+          "batch": 46,
+          "status": "schema_error",
+          "seconds": 136.1,
+          "attempt": 3,
+          "errors": [
+            "batch 046: expected 40 verdicts, got 34"
+          ]
+        }
+      ],
+      "finished_utc": "2026-09-23T16:15:59.914708+00:00"
+    }
+  ]
+}

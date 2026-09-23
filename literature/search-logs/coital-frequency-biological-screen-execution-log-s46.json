@@ -1,0 +1,27 @@
+{
+  "slug": "coital-frequency-biological",
+  "runs": [
+    {
+      "started_utc": "2026-09-23T18:12:32.241049+00:00",
+      "command_executable": "claude",
+      "command_args": [
+        "-p",
+        "--model",
+        "claude-sonnet-5"
+      ],
+      "selected_batches": [
+        46
+      ],
+      "force": false,
+      "results": [
+        {
+          "batch": 46,
+          "status": "written_valid",
+          "seconds": 219.69,
+          "attempts": 1
+        }
+      ],
+      "finished_utc": "2026-09-23T18:16:11.938291+00:00"
+    }
+  ]
+}
