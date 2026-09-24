@@ -1,0 +1,48 @@
+{
+  "slug": "son-preference-cultural",
+  "runs": [
+    {
+      "started_utc": "2026-09-24T19:27:38.482533+00:00",
+      "command_executable": "claude",
+      "command_args": [
+        "-p",
+        "--model",
+        "claude-haiku-4-5-20251001"
+      ],
+      "selected_batches": [
+        49,
+        50,
+        51,
+        52
+      ],
+      "force": false,
+      "results": [
+        {
+          "batch": 49,
+          "status": "written_valid",
+          "seconds": 120.02,
+          "attempts": 1
+        },
+        {
+          "batch": 50,
+          "status": "written_valid",
+          "seconds": 90.15,
+          "attempts": 1
+        },
+        {
+          "batch": 51,
+          "status": "written_valid",
+          "seconds": 121.34,
+          "attempts": 2
+        },
+        {
+          "batch": 52,
+          "status": "written_valid",
+          "seconds": 98.09,
+          "attempts": 1
+        }
+      ],
+      "finished_utc": "2026-09-24T19:36:24.225112+00:00"
+    }
+  ]
+}

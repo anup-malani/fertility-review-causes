@@ -1,0 +1,409 @@
+# D.2.c blinded screen — assembly report
+
+Frame 4035 records (3040 with abstracts), 101 batches. Assembled by `96_d2c_assemble_screen.py`.
+
+## Verdict tiers
+
+- RELEVANT (T1): **1509**
+- UNCERTAIN (T2): **771**
+- NOT_RELEVANT (T3): **1755**
+
+## Pooling set (RELEVANT ∩ PRIMARY ∩ non-review/theory)
+
+- Pooling set: **1047**
+  - identified core (natural-experiment or revealed-stopping): **380**
+  - associational only: **667**
+- by primary cell: {'PRIMARY_SEXSEL_SUBSTITUTION': 291, 'PRIMARY_DIFFERENTIAL_STOPPING': 471, 'PRIMARY_NORM_INTENSITY': 285}
+- by sub-mechanism: {'SEXSEL_ABORTION': 299, 'STOPPING': 484, 'NORM_INTENSITY': 256, 'MORTALITY_INTERACTION': 4, 'NA': 4}
+
+## Routing (wall absorption)
+
+- OFF cell tally: {'OFF_ADULT_SEX_RATIO': 44, 'OFF_OUTCOME': 340, 'OFF_ABORTION_GENERAL': 33, 'OFF_PARITY_STOPPING': 24, 'OFF_OTHER': 148, 'OFF_GENDER_EQUITY': 32, 'OFF_OLD_AGE_SECURITY': 24, 'OFF_CHILD_MORTALITY': 7, 'REVERSE': 12}
+- theory/mechanism stream: **360**
+
+## Full non-NOT_RELEVANT cell tally
+
+{'INSUFFICIENT_INFO': 743, 'PRIMARY_DIFFERENTIAL_STOPPING': 486, 'PRIMARY_SEXSEL_SUBSTITUTION': 338, 'MECHANISM_PREFERENCE_ONLY': 323, 'PRIMARY_NORM_INTENSITY': 301, 'OFF_OUTCOME': 54, 'THEORY': 21, 'OFF_ABORTION_GENERAL': 3, 'OFF_ADULT_SEX_RATIO': 3, 'OFF_OTHER': 2, 'OFF_OLD_AGE_SECURITY': 2, 'REVERSE': 2, 'OFF_GENDER_EQUITY': 1, 'OFF_PARITY_STOPPING': 1}
+
+## Identified core (the studies to read first)
+
+- [PRIMARY_NORM_INTENSITY] The Power of TV: Cable Television and Women's Status in India * — son preference acceptability, women's autonomy, fertility; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Multiple Experiments for the Causal Link between the Quantity and Quality of Children — parity progression; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Five Decades of Missing Females in China — sex ratio at birth / missing females; historical
+- [PRIMARY_DIFFERENTIAL_STOPPING] Son Preference, the Family-building Process and Child Mortality in India — parity progression, fertility behavior; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] The Demand for Sons — higher fertility with first-born daughter; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Why Are Indian Children So Short? The Role of Birth Order and Son Preference — birth order, family size decisions; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Fertility Decline and Increased Manifestation of Sex Bias in India — sex ratio at birth, missing girls, sex-selective abortion; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] The “Missing Girls” of China and the Unintended Consequences of the One Child Policy — sex ratio at birth; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] The Decline of Son Preference in South Korea: The Roles of Development and Public Policy — sex ratio at birth, fertility; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Son Preference and the Persistence of Culture: Evidence from South and East Asian Immigran — sex ratio (male excess at higher parities); observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Estimating the Effect of the One-Child Policy on the Sex Ratio Imbalance in China: Identif — sex ratio at birth; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Explaining Asia's “Missing Women”: A New Look at the Data — female survival and sex ratio in population; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Gendering family composition: Sex preferences for children and childbearing behavior in th — parity progression, birth risk; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Land Reform and Sex Selection in China — sex ratio at birth; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Prenatal Sex Selection and Missing Girls in China: Evidence from the Diffusion of Diagnost — sex ratio at birth; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] An Increase in the Sex Ratio of Births to India‐born Mothers in England and Wales: Evidenc — sex ratio at birth by birth order; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Estimating a Dynamic Model of Sex Selection in China — sex selection; fertility; structural
+- [PRIMARY_SEXSEL_SUBSTITUTION] Are There Missing Girls in the United States? Evidence from Birth Data — sex-selective abortion, skewed sex ratio at birth; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Fertility and Son Preference in Korea — parity progression, birth intervals, completed fertility; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Son Preference in Vietnam — total fertility rate, birth intervals, parity progression; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Recent Increase in Sex Ratio at Birth in Viet Nam — sex ratio at birth; prenatal sex determination; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] The relationship of family size and composition to fertility desires, contraceptive adopti — parity progression intentions, contraceptive use; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Does a legal ban on sex-selective abortions improve child sex ratios? Evidence from a poli — sex ratio at birth; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Missing Girls in India: Infanticide, Feticide and Made-to-Order Pregnancies? Insights from — sex ratio at birth; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Son Preference and Fertility in Bangladesh — parity progression; subsequent births; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Son Preference in the Context of Fertility Decline: Limits to New Constructions of Gender  — completed fertility, parity progression; qualitative
+- [PRIMARY_DIFFERENTIAL_STOPPING] New Evidence on the Causal Link Between the Quantity and Quality of Children — woman's marriage timing and fertility behavior; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Effects of Sex Preference on Contraceptive Use, Abortion and Fertility in Matlab, Banglade — contraceptive use, abortion, and fertility; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Preference for sons, family size, and sex ratio: an empirical study in Korea. — Sex ratio at birth; parity progression; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] The role of son preference in reproductive behaviour in Pakistan. — fertility intentions and contraceptive use; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] CHANGES IN SEX RATIO AT BIRTH IN CHINA: A DECOMPOSITION BY BIRTH ORDER — sex ratio at birth by birth order; descriptive
+- [PRIMARY_SEXSEL_SUBSTITUTION] High Sex Ratios at Birth in the Caucasus: Modern Technology to Satisfy Old Desires — sex ratio at birth, parity progression; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Financial Incentives and the Fertility-Sex Ratio Trade-Off — fertility decline, sex ratio at birth worsens; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Preferences for the sex of children and their influence on reproductive behaviour — parity progression, contraceptive use; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Sex Ratios, Family Size, and Birth Order — parity progression, probability of further births; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Son Preference, Fertility and Family Structure: Evidence from Reproductive Behavior among  — completed fertility; contraceptive use; birth spacing; family structure; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] SON PREFERENCE AND FERTILITY IN CHINA — hazard of second and third birth; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] The Demand for Sons: Evidence from Divorce, Fertility, and Shotgun Marriage — probability of additional birth, marriage behavior, fertility stopping; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Falling sex ratios and emerging evidence of sex-selective abortion in Nepal: evidence from — sex ratio at birth, conditional sex ratios; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Birth Spacing and Sibling Inequality: Asymmetric Information within the Family — parity progression, spacing, and existence of 3rd child by prior children's sex composition; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Fertility rates in Denmark in relation to the sexes of preceding children in the family — fertility rates (parity progression); observational
+- [PRIMARY_NORM_INTENSITY] Unintended Consequences of Women’s Inheritance Rights on Female Mortality in India — female child mortality, fertility; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Preference for Sons, Family Size, and Sex Ratio: An Empirical Study in Korea — parity progression and completed fertility; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Can Hepatitis B Mothers Account for the Number of Missing Women? Evidence from Three Milli — sex ratio at birth; observational
+- [PRIMARY_NORM_INTENSITY] Transition of Son Preference: Evidence From South Korea — fertility (extensive margin), sex ratio at birth, parental investment; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Sex Preference for Children and Its Implications for Fertility in Rural Bangladesh — parity progression, contraceptive use, fertility; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Agency in Fertility Decisions in Western Europe During the Demographic Transition: A Compa — probability of additional births, parity progression; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] In the Pursuit of Sons: Additional Births or Sex‐Selective Abortion in Pakistan? — parity progression ratios; observational
+- [PRIMARY_NORM_INTENSITY] Long-Term Financial Incentives And Investment In Daughters: Evidence From Conditional Cash — sex ratio of living children, fertility preferences, investment in daughters; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Sex preferences and fertility in South Korea during the year of theHorse — fertility; sex ratio at birth; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Ultrasonography and Sex Ratios in China — sex ratio at birth; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] On the Quantity and Quality of Girls: Fertility, Parental Investments and Mortality — sex ratio at birth, fertility (parity progression), gender gap in under-five mortality; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Gender preference and birth spacing in matlab, Bangladesh — risk of subsequent birth, parity progression, birth spacing; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Changing Status of Daughters in Indonesia — fertility patterns, birth spacing, sex composition; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Emerging Parental Gender Indifference? Sex Composition of Children and the Third Birth — parity progression (third birth); observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Contraceptive Use in Matlab, Bangladesh: The Role of Gender Preference — contraceptive acceptance and discontinuation, parity progression; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Trends in missing females at birth in India from 1981 to 2016: analyses of 2·1 million bir — sex ratio at birth, missing girls; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Land Reform and Sex Selection in China — sex ratio at birth, parity progression; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] The Fourth Korean Child: The Effect of Son Preference on Subsequent Fertility — parity progression to fourth child; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Son Preference and Gender-Biased Breastfeeding in Pakistan — breastfeeding duration, parity progression (via birth interval mechanism); observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Consistency and predictive ability of fertility preference indicators: longitudinal eviden — probability of further births, contraceptive use; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] China's Skewed Sex Ratio and the One-Child Policy — sex ratio at birth; comparative
+- [PRIMARY_DIFFERENTIAL_STOPPING] When is the Local Average Treatment Close to the Average?: Evidence from Fertility and Lab — fertility, parity progression; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Abortion Patterns and Reported Sex Ratios at Birth in Rural Yunnan, China — sex ratio at birth, abortion patterns by parity and child sex; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] PARENTAL PREFERENCE FOR SONS AND DAUGHTERS IN A WESTERN INDUSTRIAL SETTING: EVIDENCE AND I — parity progression (3rd/4th births); observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Sex preference for children in German villages during the fertility transition — parity progression to fifth birth; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] TWO SONS AND A DAUGHTER: SEX COMPOSITION AND WOMEN'S REPRODUCTIVE BEHAVIOUR IN MADHYA PRAD — parity progression, contraceptive use, abortion, sterilization; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Female foeticide in rural Haryana. — sex ratio at birth, sex-selective abortion; descriptive
+- [PRIMARY_DIFFERENTIAL_STOPPING] Factors Associated with Contraceptive Use among Women of Reproductive Age in Rural Distric — contraceptive use (proxy for stopping/parity progression); observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] ‘Maternity migration’ and the increased sex ratio at birth in Hong Kong SAR — sex ratio at birth by parity; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Son preference and sterilisation use among young married women in two slums in Bengaluru c — sterilization (fertility stopping); quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] More Women Missing, Fewer Girls Dying: The Impact of Abortion on Sex Ratios at Birth and E — sex ratio at birth, total fertility; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Intention to have a second child, family support and actual fertility behavior in current  — second-birth hazard / parity progression; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] The Mystery of Missing Female Children in the Caucasus: An Analysis of Sex Ratios by Birth — sex ratio at birth by birth order; missing female births; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Risk Aversion and Son Preference: Experimental Evidence from Chinese Twin Parents — sex selection; parity progression; experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Sex Preferences for Children Revisited: New Evidence from Germany — fertility intentions; parity progression by sex of previous children; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Sex of preceding child and birth spacing among Nigerian ethnic groups. — birth interval / probability of next birth; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Changes in sex ratio at birth among immigrant groups in Sweden — sex ratio at birth, parity progression; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Sex Ratio at Birth in India, Its Relation to Birth Order, Sex of Previous Children and Use — sex ratio at birth; sex ratio by previous-child gender; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Is prenatal sex selection associated with lower female child mortality? — sex ratio at birth; sex-differential child mortality (substitution); quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Lost and Found — sex ratio at birth; family size; qualitative
+- [PRIMARY_DIFFERENTIAL_STOPPING] PARENTAL STATUS AND GENDER PREFERENCES FOR CHILDREN: IS DIFFERENTIAL FERTILITY STOPPING CO — parity progression; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Offspring sex preferences among patrilineal and matrilineal Mosuo in Southwest China revea — parity progression; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Disappearing Daughters and Intensification of Gender Bias: Evidence from Two Village Studi — sex-selective abortion and skewed sex ratio; qualitative
+- [PRIMARY_DIFFERENTIAL_STOPPING] Sex Preferences, Family Planning, and Fertility: An Israeli Subpopulation in Transition — parity progression; contraceptive initiation; fertility; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Dimensions of Rational Decision-Making during the Demographic Transition; Aranjuez (Spain) — parity progression, fertility regulation conditional on sex composition; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] O Sister, Where Art Thou? The Role of Son Preference and Sex Choice: Evidence from Immigra — Sex ratio at birth; parity progression conditional on prior children's sex; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] THE RELATION OF SON PREFERENCE AND RELIGION TO INDUCED ABORTION: THE CASE OF SOUTH KOREA — induced abortion by sex composition; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Islamic Inheritance Law, Son Preference and Fertility Behavior of Muslim Couples in Indone — parity progression and family size; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Effectiveness of India’s National Programme to save the girl child: experience of Beti Bac — sex ratio at birth; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Fertility control in historical China revisited: New methods for an old debate — parity progression, probability of additional births; structural
+- [PRIMARY_DIFFERENTIAL_STOPPING] Son preference in Pakistan: an analysis of intentions vs. behavior. — subsequent fertility, parity progression; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Is There Still Son Preference in the United States? — probability of further births, living without father; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Do Secure Land Use Rights Reduce Fertility? The Case of Meitan County in China — demand for third child, parity progression; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Son Preference, Number of Children, Education and Occupational Choice in Rural Nepal — number of children; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Sex ratios at birth among second-generation mothers of South Asian ethnicity in Ontario, C — sex ratio at birth; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Childhood health and the wantedness of male and female children — parity progression, child health; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] The effect of family sex composition on fertility desires and family planning behaviors in — desire for more children, family planning use; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] DAUGHTER DISCRIMINATION AND FUTURE SEX RATIO AT BIRTH IN INDIA — sex ratio at birth, parity progression ratios by sex; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] The Role of Conflict in Sex Discrimination: The Case of Missing Girls — sex ratio among children; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Son preference and the fertility squeeze in India — parity progression; sex ratio at birth; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Determinants of imbalanced sex ratio at birth in Nepal: evidence from secondary analysis o — skewed sex ratio at birth, especially at higher parity; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Offspring Sex Preference in Frontier America — birth stopping and spacing conditional on sex composition; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Son Preference, Sex Selection and Economic Development: Theory and Evidence from South Kor — sex ratio at birth, parental sex choice; structural
+- [PRIMARY_DIFFERENTIAL_STOPPING] O Sister, Where Art Thou? The Role of Son Preference and Sex Choice: Evidence from Immigra — sex ratio at birth (parity-specific); observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Effects of family sex composition on fertility preference and behaviour in rural Banglades — contraceptive use, subsequent fertility; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Son Preference and Early Childhood Investments in China — sex-selective abortion incidence, postnatal investments by child sex; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Immigrant mothers’ preferences for children’s sexes: A register-based study of fertility b — third birth hazard rate; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] The Unintended Effects of a Ban on Sex-Selective Abortion on Infant Mortality: Evidence fr — sex ratio at birth (increase in female births); quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] On the Quantity and Quality of Girls : Fertility, Parental Investments, and Mortality — fertility stopping and girl mortality; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Fertility and the household's economic status: A natural experiment using Indian micro dat — parity progression (third birth); quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Does the Sex of Firstborn Children Influence Subsequent Fertility Behavior?: Evidence from — parity progression, fertility; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] SEX RATIO AT BIRTH AND FAMILY COMPOSITION IN SUB-SAHARAN AFRICA: INTER-COUPLE VARIATIONS — sex ratio at birth by prior birth composition; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Sex composition and its impact on future childbearing: a longitudinal study from urban Utt — parity progression, contraceptive use, desire for another child; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] The impact of childhood mortality on fertility in six rural thanas of Bangladesh — subsequent fertility, parity progression; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Adapting Family Size and Composition: Childhood Mortality and Fertility in Rural Spain, 17 — probability of additional conception; parity progression; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Sex Pattern and Size of Family — probability of further births / family size; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Son Preference and Fertility Decisions: Evidence From Spatiotemporal Variation in Korea — parity progression; third child birth; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Prenatal sex selection and female infant mortality are more common in India after firstbor — sex ratio at birth, parity progression, female infant mortality; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Prevalence and correlates of sex-selective abortions and missing girls in Nepal: evidence  — sex ratio at birth, missing girls; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Property Rights and Gender Bias: Evidence from Land Reform in West Bengal — male child survival, sex ratio at birth; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Causal effects of sex preference on sex-blind and sex-selective child avoidance and substi — parity progression, birth avoidance; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Why Are Indian Children So Short? — completed fertility / family size; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] THE IMPACT OF THE STOPPING RULE ON SEX RATIO OF LAST BIRTHS IN VIETNAM — parity progression, sex ratio at last births; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Abortion Legalization, Sex Selection, and Female University Enrollment in Taiwan — sex-selective abortion, female university enrollment; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] More Women Missing, Fewer Girls Dying: The Impact of Abortion on Sex Ratios at Birth and E — sex ratio at birth; female neo-natal mortality; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] The Limits (and Human Costs) of Population Policy: Fertility Decline and Sex Selection in  — total fertility rate, male-biased fertility stopping rules; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Prenatal sex determination: a new family-building strategy. — sex ratio at birth; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] New Evidence on the Causal Link Between the Quantity and Quality of Children — fertility progression, marriage timing; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Survival and sex composition of offspring: Individual-level responses in the quantum and t — parity progression to next birth; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Son preference, gender asymmetries and parity progressions: the case of Kyrgyzstan — parity progression risks; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Unwanted daughters: the unintended consequences of a ban on sex-selective abortions on the — sex ratio at birth / number of females born; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Are there missing girls in the United States? Evidence on gender preference and gender sel — parity progression, probability of another birth, sex of subsequent births; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Impact of fertility on objective and subjective poverty in Malawi — completed fertility; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Son‐biased fertility stopping, birth spacing, and child nutritional status in Pakistan — parity progression, birth spacing, nutritional status differences; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Sex Preferences Among Mothers Delivering at Patan Hospital — Sex ratio at birth; parity progression; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Skewed Sex Ratios in India: “Physician, Heal Thyself” — sex ratio at birth (38% reduced likelihood of female birth after daughter); observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Reassessing the relationship between women's empowerment and fertility: Evidence from Indi — fertility increase and higher proportion of sons in treated families; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Segregation, fertility, and son preference: the case of the Roma in Serbia — fertility, parity progression; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Economic development, female wages and missing female births in Spain, 1900–1930 — sex ratio at birth; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Poverty and Fertility - An Instrumental Variables Analysis on Indian Micro Data — completed fertility; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Infant mortality and the pace of childbearing in Ghana: some evidence of son preference — birth intervals and parity progression; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Gender Preference and Sex Imbalance in the Population and Their Implications in Korea — parity progression, completed fertility, sex ratio at birth; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Can Biological Factors Like Hepatitis B Explain the Bulk of Gender Imbalance in China? A R — sex ratio at birth; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Preference for Boys, Family Size and Educational Attainment in India — family size (fertility); quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Culture and son preference: Evidence from immigrants to the United States — family size conditional on first-born sex; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Explaining third birth patterns in India: causal effects of sibling sex composition — third-birth probability; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Transition to third birth among immigrant mothers in Sweden: Does having two daughters acc — parity progression (third birth); observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Son preference and child replacement in Bangladesh: a new look at the child survival hypot — birth spacing (intervals between births); observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] The determinants of first and subsequent births in urban and rural areas of Bangladesh — probability of subsequent birth / birth interval; observational
+- [PRIMARY_NORM_INTENSITY] Does female off-farm employment affect fertility desire? Evidence from rural China — desired number of children, desire for second child; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Sex composition of children, parental separation, and parity progression: Is Finland a Nor — parity progression; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Development, Modernization, and Son Preference in Fertility Decisions — parity progression, continued childbearing; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Testing for Son Preference in South Africa — inter-birth intervals, parity progression; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Gender bias in reproductive behaviour in Georgia, Indonesia, and Vietnam: An application o — parity progression and sex ratio at birth; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] The Effect of China’s One Child Policy on Sex Selection, Family Size, and the School Enrol — family size; sex ratio at birth; daughter school enrollment; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] The Effect of Ultrasound Testing during Pregnancy on Pregnancy Termination and the Sex Rat — pregnancy termination, sex ratio at birth; quasi-experimental
+- [PRIMARY_NORM_INTENSITY] Housing prices and son preference: Evidence from China’s housing reform — sex ratio at birth, parity progression; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Does Hepatitis B Infection Or Son Preference Explain The Bulk Of Gender Imbalance In China — sex ratio at birth, parity progression; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Effects of son preference on fertility: A parity progression analysis — parity progression, probability of continued childbearing; observational
+- [PRIMARY_NORM_INTENSITY] Female Early Marriage and Son Preference in Pakistan — fertility discontinuation; parity progression; birth spacing; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Sex ratios and ‘missing women’ among Asian minority and migrant populations in Aotearoa/Ne — probability of third child, family size; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Religion and son preference in India and Bangladesh: Three essays on comparing Hindus and  — parity progression, completed fertility, sex ratio at birth; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Son Preference, Sex Selection and Economic Development: The Case of South Korea — sex ratio at birth; structural
+- [PRIMARY_DIFFERENTIAL_STOPPING] Role of Gender in Contraceptive Use among Currently Married Women in Uttar Pradesh and Bih — contraceptive use and parity progression; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] The ethics of population control in rural China, 1979–92 — sex ratio at birth, total fertility, sex-selective abortion incidence; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Fertility, female labor supply, and household saving evidence from relaxing the one-child  — family size; fertility; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Sex preference versus number preference: the case of Korea. — parity progression, fertility rates; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] The Limits and Consequences of Population Policy: Evidence from China’s Wan Xi Shao Campai — TFR decline and doubled male-biased stopping rules / postnatal missing girls; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] From Local to Global: External Validity in a Fertility Natural Experiment — fertility and labor supply; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] MATERNAL NUTRITION AND SEX RATIO AT BIRTH IN ETHIOPIA — parity progression (stopping after son birth); observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] GENDER SATURATION IN THE SOUTHERN CAUCASUS: FAMILY COMPOSITION AND SEX-SELECTIVE ABORTION — parity progression, sex ratio at birth; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] The sex preference for children in Europe: Children’s sex and the probability and timing o — parity progression, timing of next birth; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Son-preference and fertility behavior — fertility, parity progression; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] The demographic consequences of sex‐selection technology — family size; sex composition of children; structural
+- [PRIMARY_DIFFERENTIAL_STOPPING] The Interplay of Sibling Sex Composition, Son Preference, and Child Education in China: Ev — child education outcomes; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] IMPACT OF SEX COMPOSITION OF LIVING CHILDREN AND COUPLES’ AGREEMENT ON SUBSEQUENT FERTILIT — subsequent fertility, additional pregnancies; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Labour markets in developing countries — parity progression ratios; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] When is the Local Average Treatment Close to the Average? — fertility and parity progression; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Role of maternal and child health services on the uptake of contraceptive use in India: A  — contraceptive adoption timing after last birth; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Gender composition of children and desires for the next child in “son preference” countrie — desires for next child; fertility intentions; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Missing women in the United Kingdom — sex ratio, missing women, family balancing; observational
+- [PRIMARY_NORM_INTENSITY] Fertility targets: linkages between desire for sons and sterilization in India — sterilization decision, fertility stopping; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Son Preference in a Sharecropping Society: Gender Composition of Children and Reproduction — parity progression, fertility; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Girls and boys: Economic crisis, fertility, and birth outcomes — natality (number of births), birth weight; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Fertility behaviors in South Korea and their association with ultrasound prenatal sex scre — sex ratio at birth; fertility stopping rule; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Rural–Urban Fertility Convergence, Differential Stopping Behavior, and Contraceptive Metho — contraceptive adoption and fertility stopping; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] The effect of China’s One Child Policy on sex selection, family size, and the school enrol — family size; sex ratio at birth; daughter school enrollment; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Sons and daughters in China. — parity progression, 1-child certificate adoption; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Preferences for a mixed-sex composition of offspring: A multigenerational approach — family size; parity progression (third+ child); quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] A demographic history of settler South Africa — fertility, parity progression; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Son Preference Remains Strong Among Vietnamese Women, but Has Only a Modest Effect on Fert — likelihood of another birth, parity progression; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Why are Adult Women Missing? Son Preference and Maternal Survival in India — parity progression and continued childbearing; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Gendering the family composition: sex preferences for children and childbearing behavior i — parity progression, second birth probability; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Explaining Residential Clustering of Large Families — parity progression to third child; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Son Targeting Fertility Behaviour in Albania — parity progression, birth spacing; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Sex-selective Abortion Bans are Not Associated with Changes in Sex Ratios at Birth among A — sex ratio at birth; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Estimating the Effects of Expanding Ultrasound Use on Sex Selection in India — sex ratio at birth / probability male at first parity; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Effects of the family formation norms on demographic behaviors: case of Okinawa in Japan. — parity progression, completed fertility, sex ratio at youngest child; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Sex-Selective Abortion in Gujarat and Haryana: Some Empirical Evidence — sex-selective abortion, sex ratio at birth; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Son-preference, number of children, education and occupational choice in rural Nepal — number of children; observational
+- [PRIMARY_NORM_INTENSITY] All You Need is Cable TV? — son preference reduction and fertility decline; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Prenatal Care, Son Preference, and the Sex Ratio at Birth — sex ratio at birth; fertility; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] The impact of boy preference on fertility in China. — probability of next child, birth intervals, completed fertility; observational
+- [PRIMARY_NORM_INTENSITY] Immigrant Parents' Preferences for Children's Sex: A Register-Based Study of Fertility Beh — fertility behavior; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Culture, fertility, and son preference. — parity progression and sex ratio at birth; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Effects of Induced Abortion and Son Preference on the Imbalance of Sex Ratio in Korea. — sex ratio at birth and induced abortion; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Effect of male child preference on the decision making of women in choosing contraception — contraceptive method choice and permanent contraception; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] [[Child-sex effects on further births]]. — parity progression and differential intentions for further births; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Sex preference in urban Nepal — sex ratio at birth by parity; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] How does a ban on sex‐selective abortions affect child health? — sex ratio at birth and child health outcomes; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Fertility patterns and sex composition preferences in immigrant–native unions in Sweden — third-birth progression; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] The Fertility-Sex Ratio Trade-Off: Unintended Consequences of Financial Incentives — fertility and sex ratio at birth; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] The Transition of Son Preference: Evidence from Southeast Asian Countries — completed fertility, number of children; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Indirect evidence of sex-selective abortion practices to the imbalanced sex ratio at birth — sex ratio at birth, parity by sex composition; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Children and maternal migration: evidence from exogenous variations in family size — maternal labor supply (domestic vs international migration); quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Essays on Fertility, Gender Preference and Family Planning in Iran — parity progression probability, completed fertility; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Islamic Inheritance Law, Son Preference and Fertility Behavior of Muslim Couples in Indone — parity progression, proportion of sons, completed fertility; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] A hazard rate analysis of fertility using duration data from Malaysia. — hazard rate of conception; structural
+- [PRIMARY_DIFFERENTIAL_STOPPING] The impact of Wealth and Female autonomy on Fertility Decisions in Nepal: An Econometric A — parity progression and completed fertility; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Factors divide fertility between east and west areas of Bangladesh: implications for furth — fertility (births, contraceptive use); observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] [A study of the effect of sex composition on fertility control behavior (author's transl)] — contraceptive practice, parity progression, induced abortion; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Development, Modernization, and Childbearing: The Role of Family Sex Composition — parity progression / completed fertility; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] The dynamics of prenatal sex selection and excess female child mortality in contexts with  — sex ratio at birth, excess female mortality; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Husband, sons and fertility gap: Evidence from India — fertility gap, probability of exceeding ideal family size; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Fertility preferences in Nepal — fertility behavior and parity progression; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Induced abortion after advent of fetal sex detection technology and child sex at birth — sex ratio at birth, gender-biased sex selection; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Son preference and children sex composition in Uttar Pradesh: An empirical analysis — Family size; sex composition of children; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] The list experiment: An approach to measuring stigmatized behaviours related to sex-select — prenatal sex determination and sex-selective abortion practice; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Temperature and Sex Ratios at Birth — sex ratio at birth, sex-selective abortion; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Isolating a culture of son preference among Armenian, Georgian and Azeri Parents in Soviet — parity progression, completed fertility by sex composition; quasi-experimental
+- [PRIMARY_NORM_INTENSITY] The evolution of birth-order-specific son preference and compulsory primary education: Evi — probability of son-starting behavior (parity progression); quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Fertility impact of sex composition and sequence among Korean women: an exploratory study. — parity progression, probability of additional birth; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Female Labor Supply and Fertility. Causal Evidence for Latin America — fertility, female labor supply; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Son Preference, Sex Selection and the Problem of Missing Women in India — sex ratio at birth; parity progression; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Financial Incentives and Fertility Choices: Evidence from India — probability of higher-order births; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Changes in the determinants of fertility in Korea: analyses of pregnancy intervals and out — pregnancy intervals, parity progression, abortion outcomes; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] The Impact of Social Health Insurance on Sex Selection — sex ratio at birth; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Morality Policy and Unintended Consequences: China's “One-Child” Policy — Sex ratio imbalance; fertility (constrained by policy); observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] A study on attitude belief and practice of mother-in-law and her son regarding son prefere — parity progression; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Sex-selective abortion in Vietnam during 1999-2009: the first quantitative study at nation — sex ratio at birth; descriptive
+- [PRIMARY_DIFFERENTIAL_STOPPING] The Effect of Sibling's Gender on Earnings, Education and Family Formation — number of children, family formation; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] In the pursuit of sons: sex-selective abortion and differential stopping in Pakistan — sex ratio at birth, parity progression by sex composition; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] China’s One-Child Policy: Population Control and Its Unintended Consequences — sex ratio imbalance; descriptive
+- [PRIMARY_DIFFERENTIAL_STOPPING] Gender Preference for a Third or More Children: Evidence from Indonesia — desire for additional children; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Research on the Parity and Its Sex Progression of Chinese Women — sex ratio at birth by household sex composition, fertility by parity; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Access to Abortion, Investments in Neonatal Health, and Sex-Selection: Evidence from Nepal — sex ratio at birth, total births; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Health and Education Effects of Policy Changes — sex ratio at birth and parity-specific sex composition; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Childbearing Trends in Iceland 1982-2013 : Critical junctures and subsequent fertility dev — parity progression to second and third births; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Women's Inheritance Rights Reform and the Preference for Sons in India — sex composition of births (fewer girls), excess female infant mortality, son-biased fertility stopping; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Analysis of Socio-Political and Health Practices Influencing Sex Ratio at Birth in Viet Na — sex ratio at birth in Vietnam; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Son Preference and Fertility Transition in South Korea — parity progression, probability of transition to next parity; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Child Traits and the Choice of Family Size. — family size, probability of further births; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Sex ratios and ‘missing women’ among Asian minority and migrant populations in Aotearoa/Ne — probability of third child; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Birth Spacing, Child Survival and Fertility Decisions : Analysis of Causal Mechanismsa — birth spacing, parity progression, total fertility; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] GIRLS WANTED: L'influence de la politique publique sur la sélection sexuelle en Corée du S — sex ratio at birth, sex-selective abortion prevalence; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Fertility decline and gender preference--an experience of Kerala. — contraceptive use and choice, parity progression, completed fertility; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Essays on Fertility and Sex Ratios in India — fertility and sex ratio at birth; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Privatization and patriarchy: How market transitions have shaped inheritance beliefs and s — fertility; sex selection; sex ratio at birth; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Can Abortion Mitigate Transitory Shocks? — abortion incidence, sex ratio at birth; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Can Legal Bans on Sex Detection Technology Reduce Gender Discrimination — fertility, sex ratio at birth, gender discrimination; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] The lexicographic preference for a son: evidence from household data in Vietnam — parity progression, birth spacing, continued childbearing; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Agriculture, development and structural change in reform-era China — sex ratio at birth; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Sex-selective abortions over the past four decades in China — sex ratio at birth, proportion sex-selective abortions; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Sex of Offspring and Fertility in South Asia: Demographic Variance and Decision Procedures — birth intervals, parity progression, completed fertility; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Morality Policy and Unintended Consequences: China's "One-Child" Policy — sex ratio at birth, population growth rate; quasi-experimental
+- [PRIMARY_NORM_INTENSITY] The role of conflict in sex discrimination: The case of missing girls — sex ratio at birth; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Mechanism on Sex Selection and Childbearing Behavior in Chinese Families:A Study Based on  — probability of son at next parity; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Firstborn Daughters and Family Structure in Sub-Saharan Africa — parity progression, number of children, family structure; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] A Further Study of the Late Second Childbearing by A Comparison Among 3 Towns in H Provinc — late second childbearing, sex ratio at birth; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Divorce, Abortion and Sex Ratio at Birth: The Eect of the Amended Divorce Law in China — sex ratio at birth, sex-selective abortion; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Sex of First Child and Actual Fertility Among Vietnamese Women from Generations X, Y, and  — probability and timing of subsequent children; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] The Sex Ratio at Birth: The Role of Ionizing Radiation Vs. Social Factors — sex ratio at birth; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Replication data for: Financial Incentives and the Fertility-Sex Ratio Trade-Off — fertility and sex ratio at birth trade-off; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Is There Still Son Preference in the United States? — fertility, family structure; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Did the Great Recession Affect Sex Ratios at Birth for Groups with a Son Preference — sex ratio at birth, fraction of newborn boys; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Poverty, income fluctuations and work: Argentina, 1991-2002. — further childbearing probability; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Essays on Development Economics — sex ratio and fertility; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Preference for Boys and Length of Birth Intervals in Pakistan [Préférence pour les garçons — birth intervals and parity progression; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Essays on economics of microcredit and economics of fertility — Fertility; labor force participation; structural
+- [PRIMARY_NORM_INTENSITY] The effects of female political participation on missing women: Evidence from the Egyptian — missing women (sex ratio imbalance); quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Asian Business Consortium, USA | ABC-JAR Page 8 — parity progression ratio, sex ratio at last birth; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Social Change and Selective Reproduction — sex ratio at birth; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Early-term abortion bans and sex selection after Dobbs v Jackson — sex ratio at birth (first-parity children); parity progression; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] The Limits and Consequences of Population Policy: Evidence from China's Wan Xi Shao Campai — fertility; use of male-biased stopping rules; sex ratio at birth; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Why Healthcare CCTs may not Improve Children's Health:Insights from India's Janani Suraksh — fertility increase, newborn mortality patterns by sex; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] The "One-and-A-Half Child Policy":An Analysis from the Perspective of Gender and Social Po — sex ratio at birth, sex-selective abortion; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Sex-selective Abortion Bans are Not Associated with Changes in Sex Ratios at Birth in Illi — sex ratio at birth; quasi-experimental
+- [PRIMARY_NORM_INTENSITY] Yixuan Li's Thesis of Three Chapters — sex ratio at birth (male-to-female births); quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] 2.4-O2Do son-biased sex ratios at birth persist among second generation South Asian women  — sex ratio at birth by parity and previous births; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Fertility behaviour and son preference in the punjab province of Pakistan: evidence from a — fertility (number of children, desire for more, birth intervals); observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Family Size and the Demand for Sex Selection: Evidence From China — sex ratio at birth, fertility; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Offspring’s sex composition and childbirth timing in third child transition among Indian m — parity progression (third child); observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Sex Ratios at Birth Following Non‐Invasive Prenatal Testing in Victoria, Australia — sex ratio at birth; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Hi-tech Sexism? Evidence from Bangladesh — birth intervals; probability of further birth; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] A Tale of Two Choices: Son Preference and Reproductive Outcomes in Uzbekistan — parity progression, birth spacing, contraceptive use; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Three Essays on Development and Health Economics — abortions and sex ratio at birth; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Data for: Divorce, abortion, and the child sex ratio: The impact of divorce reform in Chin — sex ratio at birth / probability of male child; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Son Preference, Childbearing Behavior and Respondent Socio-Demographic Characteristics in  — parity progression ratio / family size; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Child sex preferences in Estonia, Czechia and Finland — parity progression to third child; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Preference for Boys and Length of Birth Intervals in Pakistan — birth intervals, parity progression, risky births; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Research on the Mechanism of High Sex Ratio at Birth in Rural of China — sex ratio at birth; descriptive
+- [PRIMARY_SEXSEL_SUBSTITUTION] Faculty Opinions recommendation of China's excess males, sex selective abortion, and one c — sex ratio at birth, excess males; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Understanding parental gender preferences in advanced societies: lessons from Sweden and F — third-birth rates; observational
+- [PRIMARY_NORM_INTENSITY] Rice Culture and Family Size — family size; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Gender Preferences in Central and Eastern Europe as Reflected in Partnership and Fertility — parity progression, relationship stability; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] From Local to Global: External Validity in a Fertility Natural Experiment — fertility, parity progression, labor supply; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] An Essay on the Household- and Aggregate-Level Fertility Consequences of China's One-Child — fertility, sex ratio at birth, number of girls born; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Trend Analysis of Sex Ratio at Birth in India (2015–2024): A Secondary Data Study on the I — sex ratio at birth; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Essays on Women's Fertility, Education, and Female Labor Supply in Vietnam — family size; sex ratio at birth; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] The Gender-Biased Fertility Behavior: Evidence from Southeast Asian Countries — additional children, completed fertility; observational
+- [PRIMARY_NORM_INTENSITY] Social Media and Son Preference: Evidence from India — son preference attitudes / fertility preferences; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Son preference, fertility and family structure : evidence from reproductive behavior among — parity progression, contraceptive use, birth intervals, union formation; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] The Impact of Family Planning Relaxation on Household Saving Rate: An Investigation on the — completed fertility under policy relaxation; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Estimating the Effect on the Sex Ratio of the Two-Child Policy: Evidence from China — sex ratio at birth, gender imbalance; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] A Tale of Two Choices: Son Preference and Reproductive Outcomes in Uzbekistan — parity progression and birth intervals; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] The Sex Composition of Two-Children Families: Heterogeneity and Selection for the Third Ch — parity progression ratios by sex composition; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Sex ratio at last birth: an indicator of son preference — parity progression and sex ratio at last birth; descriptive
+- [PRIMARY_SEXSEL_SUBSTITUTION] Changing reproductive patterns in rural China : The influence of policy and gender — sex ratio at birth and induced abortion; descriptive
+- [PRIMARY_DIFFERENTIAL_STOPPING] Effects of Socio-demographic Factors on the Decreasing Trend in the Sex Ratio at Birth in  — sex ratio at birth by birth order; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Does Central Europe Import the Missing Women Phenomenon — sex ratio at birth; parity-specific births; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Empirical Essays on Development Economics in China — sex ratio at birth (higher-order births following daughters); quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Beyond the Numbers — sex ratio at birth (conditional on parity and earlier child sex); observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Evaluating the impact on the sex ratio at birth of a Chinese pilot programme prohibiting p — sex ratio at birth; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] The One-Child Policy on Timing of First Births and Prenatal Sex Selection in China — sex ratio at birth, prenatal sex selection; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Effects of Son Preference and Sociodemographic Determinants on Parity Progression in Bangl — parity progression probability; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Sex-selective abortion bans in the United States: evidence from laws passed 2010-2019 — sex ratio at birth; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Essays on Economic Development in Southeast Asia — fertility effects on labor outcomes (fertility as mediator); quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Son preference: the case of Hong Kong — completed fertility, parity progression, sex composition of future births; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Son preference across time and space — parity progression, completed fertility, sex ratio at birth; observational
+- [PRIMARY_NORM_INTENSITY] Daughters, Dowries, Deliveries: The Effect of Marital Payments on Fertility Choices in Ind — differential fertility by daughters' presence; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Son Preference at the Crossroads: A Comparison of Parity Progressions Across Birth Cohorts — parity progression, completed fertility; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Sex of preceding child and birth spacing among Nigerian ethnic groups : original research  — birth interval / parity progression by sex of preceding child; observational
+- [PRIMARY_NORM_INTENSITY] Confucianism and Imbalance in the Sex Ratio at Birth in Modern China — sex ratio at birth; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Three Essays on the Effects of Childbearing on Economic Well-being and Health — parity progression and infant mortality by sex; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Traditional Agricultural Practices and Sex Ratios at Birth in Modern Times — sex ratio at birth, parity progression by sex of last birth; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Explaining residential clustering of fertility — parity progression; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] IS THERE SON PREFERENCE IN INDIA? - AN ANALYSIS BASED ON SEX RATIO AT BIRTH AND ORDER OF B — sex ratio at birth, parity progression, stopping behavior; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Preference for sons: still a trend? Evidence from individual-level data from Finland, 1960 — total number of children; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Gender discrimination and sequences of Birth History among Indian Mothers — sex ratio at birth, parity progression by sibling sex composition; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Son preference at the crossroads : A comparison of parity progressions across birth cohort — parity progression to third birth, completed fertility; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] SON PREFERENCE: SEX-SELECTIVE ABORTION AND DETERMINANTS OF SEX OF THE LAST BIRTH IN VIETNA — sex-selective abortion incidence, sex ratio at birth, parity progression by prior sex composition; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] The dynamics of fertility decision-making among wives and their husbands in Chitwan, Nepal — Contraceptive adoption by parity and son count; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] A Tale of Two Choices: Son Preference and Reproductive Outcomes in Uzbekistan: Son Prefere — parity progression, completed fertility, contraceptive use; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] The Chinese economic experience, 1978 to today — sex ratio at birth, fertility, female child survival; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Speeding up for a son? Fertility transitions among Migrants to Canada — sex ratio at second birth, parity progression, birth spacing; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] The Estimation of the Number of Aborted Girls in South Korea — sex ratio at birth (aborted girls); observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Child Gender Preferences and the Possible Effect onReproductive Behaviour — 3rd and 4th birth parity progression; observational
+- [PRIMARY_NORM_INTENSITY] Does female off-farm employment affect fertility desire? Evidence from rural China — desired number of children, desire for second child; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] The Effect of Sex of Firstborn Children on Fertility Preferences — fertility preferences, ideal family size, desired sons and daughters; quasi-experimental
+- [PRIMARY_NORM_INTENSITY] Extreme Heat and Family Fertility Decisions: Evidence From Rural China — fertility intentions and completed fertility; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Early-life adverse shocks, son preference and gender inequalities in later life : evidence — cohort sex ratios and gender gap in education; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Trend Analysis of Sex Ratio at Birth in India (2015–2024): A Secondary Data Study on the I — sex ratio at birth; descriptive
+- [PRIMARY_DIFFERENTIAL_STOPPING] Sexo del primer hijo y resultados laborales de la madre: Evidencia para América Latina — maternal labor supply, completed fertility; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Curbing population growth in Republic of Korea. — contraceptive practice and continued childbearing; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Essays on the Impact of Female Education, Female Empowerment and Public Policy — female birth rate, sex ratio at birth; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] 난관복원수술을 원하는 여성의 동기분석 — sterilization reversal requests, parity progression; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Analytical survey of scenario for permanent method of contraception — completed family size, tubal ligation decisions; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] ?Missing girls? in the south Caucasus countries : trends, possible causes, and policy opti — sex ratio at birth; descriptive
+- [PRIMARY_DIFFERENTIAL_STOPPING] ESSAYS ON PREFERENCE ESTIMATION, SCHOOLING OUTCOMES AND SEGREGATION — birth spacing (third birth interval); quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Missing Women More and More: Sex-Selective Abortion Increases Boys Born but Decreases Girl — sex ratio at birth, sex-specific infant mortality; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Unexpected Consequences: Three Papers on How Law Can Shape Behaviour — sex ratio at birth; quasi-experimental
+- [PRIMARY_NORM_INTENSITY] Changes in parental gender preferences in offspring in rural Spain during the twentieth ce — parity progression, fertility decisions, parental investment by child gender; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Son Preference and Second Birth in China — second birth risk and parity progression; observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] Four-year follow-up of CHARM2, an effective family planning intervention, on number and se — sex ratio at birth, number of girl births; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Parental gender preferences in Central and Eastern Europe and differential early life disa — fertility decisions, further births; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Stopping rule as sex-selective abortions and instrumental births. A unified framework and  — parity progression, fertility; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Sex composition of children, sex preference for the next child and subsequent fertility de — fertility desire, parity progression; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] Essays on Son Preference in Pakistan — parity progression, birth spacing; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Mothers’ education and son preference: evidence from China’s compulsory schooling laws — probability of second birth, male ratio at parity 2; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Replication data for: Property Rights and Gender Bias: Evidence from Land Reform in West B — male child survival, sex ratio at birth; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Religion and Abortion: The Role of Politician Identity — sex-selective abortion rate, fertility, female infant mortality; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Fertility and the Daughter-to-Son-Ratio During China’s (More-than) One-Child Policy — sex composition and fertility during one-child policy; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Sex-Selective Abortion Bans are Not Associated with Changes in Sex Ratios at Birth Among A — sex ratio at birth; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] MATERNAL NUTRITION AND SEX RATIO AT BIRTH IN ETHIOPIA — parity progression, completed fertility; observational
+- [PRIMARY_DIFFERENTIAL_STOPPING] [On preferences for sex of children among the Japanese]. — parity progression ratio (probability of further birth by prior children's sex composition); observational
+- [PRIMARY_SEXSEL_SUBSTITUTION] THE LITTLE PUSH: ROLE OF INCENTIVES IN DETERMINING HOUSEHOLD BEHAVIOUR IN INDIA — fertility and sex-selective abortion behavior; quasi-experimental
+- [PRIMARY_DIFFERENTIAL_STOPPING] Agency in Fertility Decisions in Western Europe during the Demographic Transition : The Ro — hazard of additional births; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] Girls wanted : the influence of public policy on sex selection in South Korea, India and V — sex ratio at birth; sex-selection prevalence; quasi-experimental
+- [PRIMARY_SEXSEL_SUBSTITUTION] The impact of the one child policy on China’s infant mortality from 1970-1989: a quasi-exp — infant mortality (female infanticide/neglect as manifestation of sex selection); quasi-experimental

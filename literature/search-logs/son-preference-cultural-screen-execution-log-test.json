@@ -1,0 +1,27 @@
+{
+  "slug": "son-preference-cultural",
+  "runs": [
+    {
+      "started_utc": "2026-09-24T17:19:55.618885+00:00",
+      "command_executable": "claude",
+      "command_args": [
+        "-p",
+        "--model",
+        "claude-haiku-4-5-20251001"
+      ],
+      "selected_batches": [
+        1
+      ],
+      "force": false,
+      "results": [
+        {
+          "batch": 1,
+          "status": "written_valid",
+          "seconds": 120.55,
+          "attempts": 1
+        }
+      ],
+      "finished_utc": "2026-09-24T17:21:56.174918+00:00"
+    }
+  ]
+}

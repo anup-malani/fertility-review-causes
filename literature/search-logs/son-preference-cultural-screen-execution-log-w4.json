@@ -1,0 +1,139 @@
+{
+  "slug": "son-preference-cultural",
+  "runs": [
+    {
+      "started_utc": "2026-09-24T17:23:40.957299+00:00",
+      "command_executable": "claude",
+      "command_args": [
+        "-p",
+        "--model",
+        "claude-haiku-4-5-20251001"
+      ],
+      "selected_batches": [
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        69
+      ],
+      "force": false,
+      "results": [
+        {
+          "batch": 53,
+          "status": "written_valid",
+          "seconds": 100.65,
+          "attempts": 2
+        },
+        {
+          "batch": 54,
+          "status": "written_valid",
+          "seconds": 142.43,
+          "attempts": 1
+        },
+        {
+          "batch": 55,
+          "status": "written_valid",
+          "seconds": 106.49,
+          "attempts": 1
+        },
+        {
+          "batch": 56,
+          "status": "written_valid",
+          "seconds": 113.87,
+          "attempts": 1
+        },
+        {
+          "batch": 57,
+          "status": "written_valid",
+          "seconds": 110.46,
+          "attempts": 1
+        },
+        {
+          "batch": 58,
+          "status": "written_valid",
+          "seconds": 83.29,
+          "attempts": 3
+        },
+        {
+          "batch": 59,
+          "status": "written_valid",
+          "seconds": 114.54,
+          "attempts": 2
+        },
+        {
+          "batch": 60,
+          "status": "written_valid",
+          "seconds": 81.65,
+          "attempts": 1
+        },
+        {
+          "batch": 61,
+          "status": "written_valid",
+          "seconds": 99.02,
+          "attempts": 1
+        },
+        {
+          "batch": 62,
+          "status": "written_valid",
+          "seconds": 107.85,
+          "attempts": 1
+        },
+        {
+          "batch": 63,
+          "status": "written_valid",
+          "seconds": 113.58,
+          "attempts": 1
+        },
+        {
+          "batch": 64,
+          "status": "written_valid",
+          "seconds": 104.82,
+          "attempts": 1
+        },
+        {
+          "batch": 65,
+          "status": "written_valid",
+          "seconds": 84.87,
+          "attempts": 1
+        },
+        {
+          "batch": 66,
+          "status": "written_valid",
+          "seconds": 91.96,
+          "attempts": 1
+        },
+        {
+          "batch": 67,
+          "status": "written_valid",
+          "seconds": 137.5,
+          "attempts": 2
+        },
+        {
+          "batch": 68,
+          "status": "written_valid",
+          "seconds": 119.94,
+          "attempts": 1
+        },
+        {
+          "batch": 69,
+          "status": "written_valid",
+          "seconds": 109.75,
+          "attempts": 1
+        }
+      ],
+      "finished_utc": "2026-09-24T18:13:33.236251+00:00"
+    }
+  ]
+}

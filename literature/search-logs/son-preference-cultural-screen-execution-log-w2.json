@@ -1,0 +1,125 @@
+{
+  "slug": "son-preference-cultural",
+  "runs": [
+    {
+      "started_utc": "2026-09-24T17:23:40.805334+00:00",
+      "command_executable": "claude",
+      "command_args": [
+        "-p",
+        "--model",
+        "claude-haiku-4-5-20251001"
+      ],
+      "selected_batches": [
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35
+      ],
+      "force": false,
+      "results": [
+        {
+          "batch": 19,
+          "status": "written_valid",
+          "seconds": 144.92,
+          "attempts": 1
+        },
+        {
+          "batch": 20,
+          "status": "written_valid",
+          "seconds": 103.73,
+          "attempts": 1
+        },
+        {
+          "batch": 21,
+          "status": "written_valid",
+          "seconds": 116.1,
+          "attempts": 2
+        },
+        {
+          "batch": 22,
+          "status": "written_valid",
+          "seconds": 128.96,
+          "attempts": 2
+        },
+        {
+          "batch": 23,
+          "status": "written_valid",
+          "seconds": 140.81,
+          "attempts": 1
+        },
+        {
+          "batch": 24,
+          "status": "written_valid",
+          "seconds": 362.29,
+          "attempts": 1
+        },
+        {
+          "batch": 25,
+          "status": "written_valid",
+          "seconds": 144.58,
+          "attempts": 1
+        },
+        {
+          "batch": 26,
+          "status": "written_valid",
+          "seconds": 147.65,
+          "attempts": 2
+        },
+        {
+          "batch": 27,
+          "status": "written_valid",
+          "seconds": 103.43,
+          "attempts": 1
+        },
+        {
+          "batch": 28,
+          "status": "written_valid",
+          "seconds": 113.23,
+          "attempts": 2
+        },
+        {
+          "batch": 29,
+          "status": "written_valid",
+          "seconds": 113.88,
+          "attempts": 2
+        },
+        {
+          "batch": 30,
+          "status": "written_valid",
+          "seconds": 126.77,
+          "attempts": 1
+        },
+        {
+          "batch": 31,
+          "status": "written_valid",
+          "seconds": 104.46,
+          "attempts": 1
+        },
+        {
+          "batch": 32,
+          "status": "schema_error",
+          "seconds": 112.56,
+          "attempt": 3,
+          "errors": [
+            "batch 032 row 1: invalid identification 'THEORY'",
+            "batch 032 row 19: invalid identification 'OBSERVATIONAL'"
+          ]
+        }
+      ],
+      "finished_utc": "2026-09-24T18:22:04.138779+00:00"
+    }
+  ]
+}

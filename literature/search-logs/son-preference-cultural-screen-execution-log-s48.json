@@ -1,0 +1,27 @@
+{
+  "slug": "son-preference-cultural",
+  "runs": [
+    {
+      "started_utc": "2026-09-24T19:27:38.457248+00:00",
+      "command_executable": "claude",
+      "command_args": [
+        "-p",
+        "--model",
+        "claude-sonnet-5"
+      ],
+      "selected_batches": [
+        48
+      ],
+      "force": false,
+      "results": [
+        {
+          "batch": 48,
+          "status": "written_valid",
+          "seconds": 241.78,
+          "attempts": 1
+        }
+      ],
+      "finished_utc": "2026-09-24T19:31:40.246721+00:00"
+    }
+  ]
+}

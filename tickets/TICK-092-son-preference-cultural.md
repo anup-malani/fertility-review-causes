@@ -11,7 +11,7 @@
 
 ## Acceptance criteria
 - [x] 2. Search strategy and scope drafted — `literature/search-logs/son-preference-cultural-search-scope.md`
-- [~] 3. Literature search and AI screening, both phases (§5.1) — frame probe + registered-construct completeness test run (`89_d2c_frame_probe.py`); **paused before the budget-heavy cold-start/citation-frame/blinded-screen remainder** at the RA checkpoint (the C.2.h/A.14 precedent)
+- [x] 3. Literature search and AI screening, both phases (§5.1) — frame probe + completeness test (89), cold-start anchors (90), citation frame (91), production frame (92), blinded Haiku screen 101 batches (93–96; batch 48 on Sonnet). RELEVANT 1,509 / UNCERTAIN 771 / NOT_RELEVANT 1,755; pooling set 1,047 (identified core 380)
 - [ ] 4. RA title/abstract review
 - [ ] 5. Full-text retrieval
 - [ ] 6. Full-text screen, RA spot-checks 5–10%
@@ -100,3 +100,43 @@ Gupta 2007, Ebenstein 2010, Lin Liu & Qian 2014, and wall decoys → A.10/A.4/A.
 Tier-A/B citation frame merged with the production keyword frame (add the clean completeness-test gainers:
 sex composition, sex ratio at birth, male preference, stopping behavior/behaviour), then the blinded Haiku
 title/abstract screen. No LLM screen budget spent yet.
+
+**2026-09-24 — Stage 3 completed: cold-start anchors, citation + production frames, blinded screen, assembly.**
+
+*Anchors (90).* 14 existence-verified via Crossref (11 verified, 3 version-drift, all identity_verified):
+the differential-stopping core (Ben-Porath & Welch 1976, Clark 2000, Arnold-Choe-Roy 1998), the
+sex-selection substitution naturals (Ebenstein 2010, Lin-Liu-Qian 2014, Jayachandran 2017 → resolved to
+its NBER w20272 preprint, the drift), the norm-intensity trend (Chung & Das Gupta 2007), the son-preference
+norm canon (Das Gupta 1987), and 6 wall decoys (Angrist 2002 → A.10, Pop-Eleches 2006 → A.4, Knodel 1987 →
+A.8, Nugent 1985 → C.3.c, Jejeebhoy 1995 → D.2.a, Preston 1978 → A.1).
+
+*Citation frame (91).* All 14 anchors resolved to their OpenAlex VoR; forward-seeded the empirical core only
+(differential-stopping / substitution / norm-intensity), theory + decoys backward-only. Tier B = 1,948
+(1,652 forward, 296 backward; 1,298 abstracts).
+
+*Production frame (92).* Recall block = the scope vocabulary + the clean completeness-test gainers ("sex
+composition", "sex ratio at birth", "male preference", "stopping behavior/behaviour"); the free-OR inflaters
+("sex ratio", "preference", "gender", "son") DROPPED. Outcome axis added the substitution-expression outcome
+"sex ratio at birth" so pure sex-selection papers are caught. Keyword frame 2,490; **merged screen frame
+4,035** (403 in both channels; 3,040 abstracts).
+
+*Screen (93–96).* 101 batches, blinded {id,title,year,abstract}, Haiku (`claude-haiku-4-5`), resumable /
+fail-closed. Haiku's known row-drop failure recurred on batches 8/32/42/48 ("expected 40, got N"); handled
+by re-running with more retries; batch 48 (stubborn) re-screened on `claude-sonnet-5`. Validator: 101 valid /
+0 missing / 0 bad. **RELEVANT 1,509 / UNCERTAIN 771 / NOT_RELEVANT 1,755.**
+
+*Pooling set = RELEVANT ∩ PRIMARY ∩ non-review/theory = **1,047*** (identified core — natural-experiment or
+revealed-stopping — **380**; associational 667). By cell: differential stopping 471, sex-selection
+substitution 291, norm intensity 285. Walls absorbed cleanly and correctly: OFF_OUTCOME 340 (son preference
+→ excess female mortality / child health / schooling — routed out), OFF_ADULT_SEX_RATIO 44 (A.10),
+OFF_ABORTION_GENERAL 33 (A.4), OFF_GENDER_EQUITY 32 (D.2.a), OFF_PARITY_STOPPING 24 (A.8),
+OFF_OLD_AGE_SECURITY 24 (C.3.c), OFF_CHILD_MORTALITY 7 (A.1), REVERSE 12, OFF_OTHER 148. Theory/mechanism
+stream 360.
+
+*Scale note.* This pool (1,047) and identified core (380) are an order of magnitude larger than the recent
+SDT-only chapters and larger than A.14 (307). D.2.c spans PM/FDT/SDT and has a 50-year South/East-Asian
+demographic-economics literature. Full extraction of the identified core is a scaling task; the chapter will
+be drafted on a curated identified core spanning all three primary cells and all three phenomena, with the
+residual flagged as an RA extraction backlog (the A.14/B.1 precedent).
+
+*Next — Stage 5 retrieval → Stage 7 extraction of a curated identified core.*
