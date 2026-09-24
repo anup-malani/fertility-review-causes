@@ -1,5 +1,5 @@
 # TICK-092: D.2.c Son Preference and Gender-Biased Fertility Norms
-**Status:** open
+**Status:** in-progress
 **Assigned:** Shravan
 **Hypothesis:** `son-preference-cultural` — HYPOTHESES-v5.md §D.2.c
 **Parallel-safe:** yes
