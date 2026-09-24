@@ -13,14 +13,14 @@
 - [x] 2. Search strategy and scope drafted — `literature/search-logs/son-preference-cultural-search-scope.md`
 - [x] 3. Literature search and AI screening, both phases (§5.1) — frame probe + completeness test (89), cold-start anchors (90), citation frame (91), production frame (92), blinded Haiku screen 101 batches (93–96; batch 48 on Sonnet). RELEVANT 1,509 / UNCERTAIN 771 / NOT_RELEVANT 1,755; pooling set 1,047 (identified core 380)
 - [ ] 4. RA title/abstract review
-- [ ] 5. Full-text retrieval
-- [ ] 6. Full-text screen, RA spot-checks 5–10%
-- [ ] 7. Extraction to `extraction/son-preference-cultural.csv`, RA verifies a random 10%
-- [ ] 8. Risk-of-bias assessment per study
-- [ ] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise
-- [ ] 10. Demographic significance against PM / FDT / SDT
-- [ ] 11. GRADE rating, 3 independent raters
-- [ ] 12. Chapter draft on the §6 template
+- [~] 5. Full-text retrieval — automated OA pass (97): 97/380 identified core; 950-row RA proxy/ILL handoff (283 core + 667 associational)
+- [x] 6. Full-text screen (9 curated identified-core PDFs read by parallel agents; 5 SURVIVES + 2 WEAK + 2 CONTEXT) — `extraction/son-preference-cultural-fulltext-screen.csv`. RA 5–10% spot-check owed
+- [x] 7. Extraction to `extraction/son-preference-cultural.csv` (23 effects, 98) — RA 10% verification owed
+- [x] 8. Risk-of-bias assessment per study — `extraction/son-preference-cultural-risk-of-bias.csv` (99; single-reader)
+- [x] 9. Narrative synthesis (meta-analysis not warranted: heterogeneous non-poolable estimands across regions/regimes)
+- [x] 10. Demographic significance — PM MINOR(localised) / FDT MINOR–MODERATE (South/East Asia) / SDT MINOR
+- [x] 11. GRADE, 3 independent raters — PM LOW (2/3), FDT MODERATE (3/3), SDT MODERATE (2/3) — `extraction/son-preference-cultural-grade.json`
+- [x] 12. Chapter draft on the §6 template — `output/chapters/son-preference-cultural.md`
 - [ ] 13. RA lay-readability check
 - [ ] 14. PI review and sign-off
 
@@ -140,3 +140,52 @@ be drafted on a curated identified core spanning all three primary cells and all
 residual flagged as an RA extraction backlog (the A.14/B.1 precedent).
 
 *Next — Stage 5 retrieval → Stage 7 extraction of a curated identified core.*
+
+**2026-09-24 — Stages 5-12 complete: retrieval, extraction, risk-of-bias, synthesis, demsig, GRADE, chapter.**
+
+*Stage 5 (97).* Automated OA retrieval, identified core first: **97/380** (associational 667 deferred to
+RA backlog, not attempted this pass). 950-row RA proxy/ILL handoff. Retrieval rate far exceeds A.14
+(10/139) — son preference has a large OA econ/demography base.
+
+*Stages 6-7 (98).* Nine curated identified-core PDFs full-text read by parallel extraction agents,
+spanning the three cells and the regional gradient → 23 effects with table locators. **SURVIVES (strong
+identified):** Dahl & Moretti 2008 (US differential stopping, sex as-good-as-random: 2G-vs-2B +0.89pp
+P(3rd)/+2-5%; same design internationally China +54%, Vietnam +24% — the magnitude gradient),
+Almond-Li-Zhang 2013 (China land reform → +3.0pp P(2nd male), clean first-birth placebo, **fertility
+null** −0.027 n.s. → works via sex selection here; ~58% of 1978-86 rural SRB rise), Anukriti-Bhalotra-Tam
+2021 (India firstborn-girl +0.155 births, **attenuated 40-57%** by ultrasound diffusion — stopping AND
+substitution jointly identified). **SURVIVES (descriptive):** Jiang 2017 (China SRB birth-order gradient
+107→159). **SURVIVES (null):** Kevane-Levine 2003 (documented ABSENCE of son preference in Indonesian
+fertility). **WEAK:** Sahni 2008 (Delhi hospital 2nd-child SRB 716 after firstborn girl; single-hospital
+selection), Fayehun 2011 (Nigeria spacing, national null; confounded with A.13). **CONTEXT:** Anukriti
+2018 (OA file = online appendix only; main DD on backlog), Iversen-Palmer-Jones 2018 (cable→attitudes,
+underpowered). Not poolable (heterogeneous estimands across regions/regimes) → narrative synthesis.
+
+*Stage 8 (99).* RoB: Dahl-Moretti / Almond-Li-Zhang **LOW**, Anukriti-Bhalotra-Tam **MODERATE**;
+descriptive/null studies SERIOUS/MODERATE. Load-bearing domains: parity-stopping isolation (Wall A.8),
+substitution handling (Walls 1/2), mortality isolation (Wall A.6).
+
+*The chapter's spine (stages 9-10).* Son preference is a genuine, well-identified cause of higher fertility
+via differential stopping — but **regionally bounded** (large in China/India/Vietnam, weak in SSA, absent
+in SE Asia) and **regime-dependent**: once sex selection is available the preference converts from a
+fertility cause into a sex-ratio cause (substitution). Demsig on fertility LEVELS: **PM MINOR(localised)**
+(PM expression is largely infanticide, a mortality margin), **FDT MINOR–MODERATE** (South/East Asia; a
+fraction of a birth per woman), **SDT MINOR** (substituted away; footprint moves to the sex ratio at
+birth, which is A.10's estimand).
+
+*Stage 11 (GRADE, 3 raters).* PM **LOW** (2/3; one VERY LOW), FDT **MODERATE** (3/3), SDT **MODERATE**
+(2/3; one LOW). Causal credibility is strong where the norm is strong (near-random sex of children +
+staggered ultrasound give real identification); held down as an EXPLANATION by regime-dependence and
+region-specificity.
+
+*Stage 12.* `output/chapters/son-preference-cultural.md` on the §6 template. **Verdict: a genuine,
+well-identified, regionally-bounded cause of higher fertility that sex-selection technology switches off —
+converting it from a fertility cause into a sex-ratio cause; MINOR/MINOR–MODERATE/MINOR for PM/FDT/SDT
+fertility levels, GRADE LOW/MODERATE/MODERATE.**
+
+*Interim standing.* Draft rests on 9 of 380 identified-core studies (97/380 retrieved); marquee paywalled
+anchors (Ben-Porath & Welch, Clark, Arnold-Choe-Roy, Jayachandran VoR, Lin-Liu-Qian, Ebenstein) and the
+667 associational records are the RA extraction backlog. Direction unlikely to change; the FDT/SDT demsig
+magnitudes are the most likely to move once the Asian anchors and substitution-netted quantum estimates
+are in. Remaining: 4 RA title/abstract gate, 13 RA lay-readability, 14 PI review; plus the owed
+single-reader verification spot-checks.

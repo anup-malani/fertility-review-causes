@@ -1,0 +1,28 @@
+{
+  "hypothesis": "D.2.c Son Preference and Gender-Biased Fertility Norms",
+  "slug": "son-preference-cultural",
+  "rated": "2026-09-24",
+  "method": "Three independent raters, identical blinded evidence package, parallel subagents. Rating is the causal credibility that son-preference VARIATION causes fertility VARIATION in each phenomenon (differential stopping raising realized fertility), not the size of that effect (that is the demographic-significance verdict) and not the well-established fact that son preference skews the sex ratio at birth (a composition outcome outside the TFR estimand).",
+  "consensus": {
+    "PM": "LOW",
+    "FDT": "MODERATE",
+    "SDT": "MODERATE"
+  },
+  "agreement": {
+    "PM": "majority LOW (2/3); rater 2 dissented to VERY LOW on the ground that no extracted study identifies a son-preference fertility effect in a genuine pre-modern natural-fertility population, where deliberate stopping is by definition weak. Consensus taken as LOW, reported with the dissent.",
+    "FDT": "unanimous (3/3 MODERATE)",
+    "SDT": "majority MODERATE (2/3); rater 1 dissented to LOW on the ground that in the sex-selection era the effect on fertility LEVELS is small and substituted away (the demographic action moves to the sex ratio). Consensus MODERATE for causal credibility, reported with the dissent."
+  },
+  "key_reasoning": "That son preference causally raises realized fertility through differential stopping is well identified where the norm is strong: Dahl & Moretti exploit the as-good-as-random sex of children to show US all-girl families are 2-5% more likely to have another child, and run the SAME design internationally to recover far larger effects (China +54%, Vietnam +24%); Anukriti, Bhalotra & Tam identify a +0.155-birth firstborn-girl gap in India that narrows 40-57% as ultrasound diffuses; Almond, Li & Zhang show land reform raises sex selection with a clean first-birth placebo null. The mechanism is therefore causally secure. Two facts pull the rating down as an EXPLANATION of the transitions. First, the effect is strongly regime-dependent: once sex-selective abortion is available the preference is re-expressed as a skewed sex ratio at birth and the fertility effect attenuates or vanishes (Almond-Li-Zhang fertility null; Anukriti attenuation), so son preference converts from a fertility cause into a composition cause in the SDT. Second, it is strongly region-specific: null in sub-Saharan Africa (Fayehun) and documented absent in Southeast Asia (Kevane & Levine Indonesia), so any world-aggregate fertility contribution is bounded to South and East Asia. PM is LOW because genuine pre-modern populations near natural fertility did little deliberate stopping and the extracted identified core is modern; FDT is MODERATE because the differential-stopping quasi-experiments sit in transitional South/East Asia; SDT is MODERATE because the causal effect is cleanly identified even though its fertility-level footprint is small and shrinking.",
+  "downgrades": {
+    "PM": "From the differential-stopping mechanism ceiling: -1 indirectness (every extracted identified study is modern; the PM inference rests on historical demography and the cross-cultural ubiquity of the norm, not on a clean natural-fertility fertility estimate); -1 the differential-stopping channel requires deliberate stopping, which is weak in true natural-fertility PM populations, so the PM-relevant expression is largely female infanticide (a mortality/OFF_OUTCOME margin), not extra births.",
+    "FDT": "From MODERATE quasi-experimental base: not upgraded because the identification is DiD/DDD rather than a single clean experiment, and the marquee FDT-era anchors (Ben-Porath & Welch 1976, Arnold-Choe-Roy 1998, Clark 2000) are un-extracted (on the RA backlog); not downgraded further because Anukriti-Bhalotra-Tam and the Dahl-Moretti international extension consistently identify the effect in transitional settings.",
+    "SDT": "-1 the effect on fertility LEVELS is small and substituted by sex selection (Almond-Li-Zhang fertility null; Anukriti 40-57% attenuation), so its SDT footprint is largely the sex ratio at birth, a composition outcome outside the TFR estimand; not downgraded further because the causal claim itself is cleanly identified (Dahl-Moretti near-random sex; Almond-Li-Zhang natural experiment)."
+  },
+  "raters": [
+    {"rater": "1", "PM": "LOW", "FDT": "MODERATE", "SDT": "LOW"},
+    {"rater": "2", "PM": "VERY LOW", "FDT": "MODERATE", "SDT": "MODERATE"},
+    {"rater": "3", "PM": "LOW", "FDT": "MODERATE", "SDT": "MODERATE"}
+  ],
+  "caveat": "Ratings would sharpen with extraction of the un-retrieved marquee anchors (Ben-Porath & Welch 1976, Clark 2000, Arnold-Choe-Roy 1998, Jayachandran 2017 VoR, Chung & Das Gupta 2007, Lin-Liu-Qian 2014, Ebenstein 2010), a genuine pre-modern natural-fertility study that separates son-preference differential continuation from female infanticide (A.1) and lactational spacing (A.13), and any estimate that nets the son-preference fertility effect against the sex-selection substitution to recover the completed-fertility (quantum) contribution by region and era."
+}
