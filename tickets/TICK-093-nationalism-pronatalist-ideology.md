@@ -11,16 +11,16 @@
 
 ## Acceptance criteria
 - [x] 2. Search strategy and scope drafted — `literature/search-logs/nationalism-pronatalist-ideology-search-scope.md`
-- [ ] 3. Literature search and AI screening, both phases (§5.1)
+- [x] 3. Literature search and AI screening (§5.1) — frame probe (89, frame 1,751), anchors (90, 10/10 verified), citation frame (91, 693), production frame (92, merged 2,867), blinded Haiku screen 72 batches (93–96). RELEVANT 478 / UNCERTAIN 559 / NOT_RELEVANT 1,830; pooling set 159 (identified core 19)
 - [ ] 4. RA title/abstract review
-- [ ] 5. Full-text retrieval
-- [ ] 6. Full-text screen, RA spot-checks 5–10%
-- [ ] 7. Extraction to `extraction/nationalism-pronatalist-ideology.csv`, RA verifies a random 10%
-- [ ] 8. Risk-of-bias assessment per study
-- [ ] 9. Meta-analysis if ≥3 extractable effects, narrative synthesis otherwise
-- [ ] 10. Demographic significance against PM / FDT / SDT
-- [ ] 11. GRADE rating, 3 independent raters
-- [ ] 12. Chapter draft on the §6 template
+- [~] 5. Full-text retrieval — automated OA pass (97): 4/19 identified core; 155-row RA proxy/ILL handoff (incl. the OSF framing experiments + paywalled coercion canon)
+- [x] 6. Full-text screen (4 OA identified-core PDFs read by parallel agents; 3 SURVIVES + 1 WEAK/CONTEXT) — `extraction/nationalism-pronatalist-ideology-fulltext-screen.csv`. RA 5–10% spot-check owed
+- [x] 7. Extraction to `extraction/nationalism-pronatalist-ideology.csv` (11 effects, 98) — RA 10% verification owed
+- [x] 8. Risk-of-bias assessment per study — `extraction/nationalism-pronatalist-ideology-risk-of-bias.csv` (99; single-reader)
+- [x] 9. Narrative synthesis (meta-analysis not warranted: heterogeneous, non-poolable, every effect bundles ideology with transfers/coercion)
+- [x] 10. Demographic significance — PM NOT ASSESSED (out of scope) / FDT NOT ASSESSED / SDT NEGLIGIBLE
+- [x] 11. GRADE, 3 independent raters — PM No evidence, FDT VERY LOW (2/3), SDT VERY LOW (2/3) — `extraction/nationalism-pronatalist-ideology-grade.json`
+- [x] 12. Chapter draft on the §6 template — `output/chapters/nationalism-pronatalist-ideology.md`
 - [ ] 13. RA lay-readability check
 - [ ] 14. PI review and sign-off
 
@@ -107,10 +107,61 @@ behave as the scope predicted, and the frame is honestly built. Artifacts:
 
 *Budget.* ~57 of today's ~100-request OpenAlex allowance used; all cached.
 
-*Next — the budget-heavy Stage-3 remainder (PAUSED for RA/PI checkpoint, per the C.2.h/A.14/D.2.c
-precedent).* Build cold-start anchors + existence-verify (mirror `90_d2c`; seeds from the registry —
-Demeny 1986, Gauthier 1996, Quine 1996, King 1998 — plus the natural-experiment naturals for the two
-load-bearing walls: Romania Decree 770 / Pop-Eleches 2006 as the A.4-coercion decoy, and the C.2.d
-transfer canon — Milligan 2005, Cohen-Dehejia-Romanov 2013 — as the transfer decoy), then the Tier-A/B
-citation frame merged with the production keyword frame, then the blinded Haiku title/abstract screen. No
-LLM screen budget spent yet.
+**2026-09-26 — Stages 3 (remainder) and 5-12 complete: anchors, frames, screen, retrieval, extraction, RoB, synthesis, demsig, GRADE, chapter.**
+
+*Stage 3 remainder.* Anchors (90): 10/10 verified/version-drift via Crossref (Demeny 1986, King 1998,
+Fargues 2000 forward-seeds; Quine/Gauthier books expected_no_doi; 6 wall decoys). Citation frame (91): 693
+(290 fwd / 403 back). Production keyword frame (92): 2,217 (clean probe frame + the completeness-endorsed
+gainers nationalism/nationalist/patriotism/patriotic-duty; natalism/national/population-policy/propaganda
+inflaters excluded). Merged screen frame 2,867 (2,378 with abstracts). Blinded Haiku screen (93–96), 72
+batches, seed 931: **RELEVANT 478 / UNCERTAIN 559 / NOT_RELEVANT 1,830**; pooling set 159 = clean-primary 60
++ MIXED/bundled 99; identified core 19; associational 140. Walls absorbed as scoped: OFF_TRANSFERS 179
+(C.2.d), OFF_ABORTION_BAN 51 (A.4), REVERSE 51, OFF_RELIGIOSITY 64, OFF_SECULARIZATION 43, theory/mech 321.
+Two batches needed reruns (Haiku row-drop; one out-of-vocab sub_mechanism → validator relaxed to accept any
+nonblank descriptive sub_mechanism). Validator also missing OFF_OLD_AGE_SECURITY (Wall 6) — fixed after the
+batch-1 smoke test.
+
+*Stage 5 (97).* Automated OA retrieval, identified-core first: **4/19** (all MIXED_IDEOLOGY_TRANSFER natural
+experiments — Turkey political-Islam RD, Russia maternity capital x2, Mongolia OGM). 155-row RA proxy/ILL
+handoff. Low OA rate: the clean framing experiments (Israel ethnic-threat, Guns vs Wombs) are OSF/Zenodo
+landing pages needing browser/API navigation, and the FDT coercion canon (Romania, Hungary) is paywalled.
+
+*Stages 6-7 (98).* Four OA PDFs full-text read by parallel agents → 11 effects with locators. **The
+decisive study is Aksoy & Billari 2018 (AJS)**: a clean close-election RDD (passes McCrary + placebo) where
+Islamist pronatalist rule raised fertility (+0.14 births/woman, a-GFR +7.75) and marriage — but the
+mediation routes the effect through MATERIAL welfare (health insurance +0.28) with **NULL effects on the
+ideational mediators (ideal children 0.12 n.s.; religiosity 0.05 n.s.)**. Validova 2021 (Russia): 91% tempo
+/ 9% quantum, reverses after 2015. Tang et al 2022 (Mongolia OGM honorific+cash): +4.3/+2.3/+2.6pp at low
+parities, null at higher goals; the honorific instrument is empirically a transfer → routes to C.2.d. Wang
+2026: descriptive, structural. Not poolable → narrative synthesis.
+
+*Stage 8 (99).* RoB: Aksoy-Billari LOW (for the AKP-rule effect), Tang MODERATE, Validova SERIOUS, Wang
+CRITICAL — but ALL fail transfer_isolation (SERIOUS): none identifies the D.1.d ideology channel.
+
+*The chapter's spine (stages 9-12).* **Pronatalist ideology is a real state project with no demonstrated
+power to raise fertility on its own.** Pronatalist regimes/policies in power are reliably associated with
+higher fertility, and the association survives clean identification (Turkey RD) — but wherever the mechanism
+is tested it runs through the accompanying transfers/coercion, not the framing; the one direct test of the
+ideational mediator is null. The larger apparent effects (Russia) are mostly tempo and reverse. The
+honorific-award instrument the claim names (Mongolia) is empirically a cash transfer. Demsig on fertility
+LEVELS: **PM NOT ASSESSED** (out of scope — modern-state phenomenon), **FDT NOT ASSESSED** (no isolated
+study; the interwar/communist cases are coercion/transfer bundles), **SDT NEGLIGIBLE** (the ideology-
+specific share is indistinguishable from zero; the largest identified aggregate effect is a local
+one-seventh of a child via welfare).
+
+*Stage 11 (GRADE, 3 raters).* PM **No evidence**, FDT **VERY LOW** (2/3; one No evidence), SDT **VERY LOW**
+(2/3; one LOW). Dominant downgrade: indirectness — the literature identifies the pronatalist bundle, the
+review's question is the ideology channel. No >1-level disagreement, so no PI escalation.
+
+*Stage 12.* `output/chapters/nationalism-pronatalist-ideology.md` on the §6 template. **Verdict: a real
+state project that has never been shown to raise fertility on its own; the fertility gains under pronatalist
+regimes run through money and coercion, not the message; MINOR/NOT ASSESSED aside, the carry-away is ~0.14
+births/woman in the cleanest case with none attributable to ideology once welfare is netted out. GRADE No
+evidence / VERY LOW / VERY LOW for PM/FDT/SDT.**
+
+*Interim standing.* Draft rests on 4 of 19 identified-core studies (4/159 pooling set); all four are SDT.
+The paywalled FDT coercion canon and the OSF framing experiments are the RA extraction backlog. Direction
+and the central identification finding (effect runs through transfers, not ideology) are unlikely to change;
+the FDT magnitudes and the size of any residual ideational channel are the most likely to move. Remaining: 4
+RA title/abstract gate, 13 RA lay-readability, 14 PI review; plus the owed single-reader verification
+spot-checks. Three PI calls flagged in the chapter §11.

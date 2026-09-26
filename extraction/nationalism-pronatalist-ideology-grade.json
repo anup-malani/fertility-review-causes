@@ -1,0 +1,31 @@
+{
+  "hypothesis": "D.1.d nationalist and pronatalist ideology",
+  "slug": "nationalism-pronatalist-ideology",
+  "ticket": "TICK-093",
+  "date": "2026-09-26",
+  "estimand_rated": "The causal effect of state-sponsored nationalist/pronatalist IDEOLOGY (framing of childbearing as patriotic/national duty), holding fixed the financial transfers and coercive fertility-control restrictions it is bundled with, on realized fertility.",
+  "panel": "3 independent agent raters (single session); disagreements >1 level flagged for PI.",
+  "rating_scale": ["No evidence", "Very low", "Low", "Moderate", "High"],
+  "phenomena": {
+    "PM": {
+      "consensus": "No evidence",
+      "raters": ["No evidence", "No evidence", "No evidence"],
+      "downgrades": [],
+      "rationale": "Out of scope: organized nationalist-pronatalist ideology is a modern-state phenomenon with no pre-modern expression (registry lists FDT/SDT only). The cell is empty, so the rating is No evidence, not Very low. Pairs with a NOT ASSESSED demographic-significance verdict."
+    },
+    "FDT": {
+      "consensus": "Very low",
+      "raters": ["Very low", "Very low", "No evidence"],
+      "downgrades": ["risk of bias (the interwar/communist cases are descriptive/quasi-experimental with poor identification)", "indirectness (the famous FDT-era cases — Ceausescu's Romania 1966, Hungary 1953 — bundle ideology with abortion bans, i.e. A.4 coercion, and with transfers)", "no isolation of the ideology channel"],
+      "rationale": "A real documented body exists (Fascist Italy's Battle for Births, Nazi/Vichy/Soviet natalism, the Eastern-European pronatalist programmes) but it was not OA-retrievable and is characterised only at abstract level here; where its effects are cited they are inseparable from coercion (abortion bans) and transfers. Two raters rate Very low (a body exists but is badly confounded and does not isolate ideology); one rates No evidence (no identified FDT-window ideology study in the read set). The split is one adjacent level — no PI escalation. Recorded as Very low with the coercion/transfer confound named."
+    },
+    "SDT": {
+      "consensus": "Very low",
+      "raters": ["Very low", "Very low", "Low"],
+      "downgrades": ["indirectness (the strong designs identify the pronatalist-policy/rule BUNDLE, not the ideology channel; the cleanest natural experiment's mediation routes the effect to material welfare and finds NULL effects on the ideational mediators)", "risk of bias in the body as a whole (the transfer/ideology confound is SERIOUS in every study)", "imprecision/transience (the largest decomposed effect is 91% tempo and reverses)"],
+      "rationale": "The evidence base is unusually well-identified for the AGGREGATE claim — Aksoy-Billari (2018) is a clean close-election RDD, replicated across three datasets, and Tang et al. (2022) is a credible DiD — but neither identifies the D.1.d estimand. Aksoy-Billari's own mediation shows the fertility gain under Islamist pronatalist rule runs through health-insurance/welfare, with null effects on desired fertility and religiosity; Validova (2021) shows Russia's pronatalist-package effect is 91% tempo; Tang et al. cannot separate the honorific award from the cash. Two raters rate Very low for the isolated ideology channel (indirectness + a direct null on the ideational mediator); one rates Low, crediting the replicated quasi-experimental evidence that pronatalist regimes/policies in power raise fertility even if the ideational share is unresolved. The split is one adjacent level — no PI escalation. Recorded as Very low."
+    }
+  },
+  "pi_escalation": false,
+  "note": "No cell has a >1-level disagreement, so no GRADE-panel escalation to the PI is triggered. The dominant downgrade throughout is indirectness: the review's question is the ideology channel, and the literature identifies the bundle."
+}
