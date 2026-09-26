@@ -29,7 +29,7 @@ tickets can be worked concurrently.
 > commit message dated 07-21 to 07-25 against this table; in commit messages from Alexandra's schooling
 > workstream, `TICK-032` means the compulsory-education split and needs no translation.
 >
-> **Next free number is TICK-093.** Claim a number by pushing its QUEUE.md row before starting work,
+> **Next free number is TICK-094.** Claim a number by pushing its QUEUE.md row before starting work,
 > not after. That is what would have prevented the collision. TICK-047 through TICK-053 were claimed
 > for the D.3.b climate-anxiety chain on 2026-07-27; TICK-054 (A.10) and TICK-055 (C.2.c) on
 > 2026-07-31; TICK-056 opens C.2.c library retrieval. TICK-075 (A.23) was claimed on 2026-08-27.
@@ -48,6 +48,7 @@ tickets can be worked concurrently.
 
 | Ticket | Title | Assigned | Parallel-safe |
 |--------|-------|----------|---------------|
+| [TICK-093](TICK-093-nationalism-pronatalist-ideology.md) | D.1.d Nationalist and Pronatalist Ideology — next-smallest genuinely-unstarted hypothesis (no branch, no chapter, no prior ticket). Selected on TICK-092's extended cultural/demographic scout, where D.1.d ranked next after D.2.c at **1,720** (below the ~1,808 bar; next A.20 1,968, A.19 2,414, B.2 4,475). Per the user (2026-09-26) the fresh cross-field scout is skipped and D.1.d is taken directly. State-sponsored nationalist/pronatalist ideology → fertility via patriotic-duty framing; spans FDT/SDT. **Stage 3 must run the full frame probe + registered-construct completeness test (the A.6/A.3 lesson). LOAD-BEARING walls: C.2.d (the transfers bundled with the ideology), A.4/A.2 (regimes that use abortion/contraception bans, not persuasion), and the REVERSE cell (fertility decline *causes* pronatalist politics)** | Shravan | yes |
 | [TICK-092](TICK-092-son-preference-cultural.md) | D.2.c Son Preference and Gender-Biased Fertility Norms — smallest genuinely-unstarted hypothesis by measured frame (extended scout: 1,134, below the ~1,808 bar; next were D.1.d 1,720, A.20 1,968, A.19 2,414, B.2 4,475; see TICK-092 Log). Cultural mechanism; spans PM/FDT/SDT. **Stage 3 must run the full frame probe + registered-construct completeness test (the A.6/A.3 lesson) — the son-preference literature is entangled with the sex-ratio (A.10) and sex-selective-abortion cells, so the walls are load-bearing** | Shravan | yes |
 | [TICK-091](TICK-091-coital-frequency-biological.md) | A.14 Coital Frequency and Fecundability — smallest genuinely-unstarted hypothesis by measured frame (scout: 373, an order of magnitude below the ~1,808 bar and below every other unstarted candidate; see TICK-091 Log). Bongaarts proximate-determinant #3; spans PM/FDT/SDT. **Stage 3 must still run the full frame probe + registered-construct completeness test (the A.6/A.3 lesson) to harden the "smallest" claim** | Shravan | yes |
 | [TICK-090](TICK-090-digital-leisure-substitution.md) | C.2.h Digital Leisure Substitution — genuinely unstarted (no branch/chapter); picked as the smallest untouched literature (NEW v5, SDT-only, anchored on Myers–Hooper 2026). **Not measured by the frame probe; stage 2 runs the probe + registered-construct completeness test (the A.6/A.3 lesson) before the "smallest" claim is trusted** | Shravan | yes |
