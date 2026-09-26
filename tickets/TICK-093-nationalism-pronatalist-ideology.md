@@ -1,5 +1,5 @@
 # TICK-093: D.1.d Nationalist and Pronatalist Ideology
-**Status:** open
+**Status:** in-progress
 **Assigned:** Shravan
 **Hypothesis:** `nationalism-pronatalist-ideology` — HYPOTHESES-v5.md §D.1.d
 **Parallel-safe:** yes
