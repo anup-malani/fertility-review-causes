@@ -1,0 +1,44 @@
+{
+  "slug": "nationalism-pronatalist-ideology",
+  "runs": [
+    {
+      "started_utc": "2026-09-26T17:01:32.449697+00:00",
+      "command_executable": "claude",
+      "command_args": [
+        "-p",
+        "--model",
+        "claude-haiku-4-5-20251001"
+      ],
+      "selected_batches": [
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ],
+      "force": false,
+      "results": [
+        {
+          "batch": 29,
+          "status": "written_valid",
+          "seconds": 122.57,
+          "attempts": 1
+        },
+        {
+          "batch": 30,
+          "status": "schema_error",
+          "seconds": 113.62,
+          "attempt": 3,
+          "errors": [
+            "batch 030: expected 40 verdicts, got 38"
+          ]
+        }
+      ],
+      "finished_utc": "2026-09-26T17:08:51.123078+00:00"
+    }
+  ]
+}

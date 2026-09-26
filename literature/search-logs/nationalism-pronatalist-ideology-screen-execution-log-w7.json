@@ -1,0 +1,83 @@
+{
+  "slug": "nationalism-pronatalist-ideology",
+  "runs": [
+    {
+      "started_utc": "2026-09-26T17:01:32.458278+00:00",
+      "command_executable": "claude",
+      "command_args": [
+        "-p",
+        "--model",
+        "claude-haiku-4-5-20251001"
+      ],
+      "selected_batches": [
+        56,
+        57,
+        58,
+        59,
+        60,
+        61,
+        62,
+        63,
+        64
+      ],
+      "force": false,
+      "results": [
+        {
+          "batch": 56,
+          "status": "written_valid",
+          "seconds": 92.54,
+          "attempts": 1
+        },
+        {
+          "batch": 57,
+          "status": "written_valid",
+          "seconds": 180.64,
+          "attempts": 1
+        },
+        {
+          "batch": 58,
+          "status": "written_valid",
+          "seconds": 118.42,
+          "attempts": 1
+        },
+        {
+          "batch": 59,
+          "status": "written_valid",
+          "seconds": 89.28,
+          "attempts": 2
+        },
+        {
+          "batch": 60,
+          "status": "written_valid",
+          "seconds": 99.65,
+          "attempts": 1
+        },
+        {
+          "batch": 61,
+          "status": "written_valid",
+          "seconds": 174.46,
+          "attempts": 2
+        },
+        {
+          "batch": 62,
+          "status": "written_valid",
+          "seconds": 166.26,
+          "attempts": 1
+        },
+        {
+          "batch": 63,
+          "status": "written_valid",
+          "seconds": 141.95,
+          "attempts": 1
+        },
+        {
+          "batch": 64,
+          "status": "written_valid",
+          "seconds": 145.67,
+          "attempts": 3
+        }
+      ],
+      "finished_utc": "2026-09-26T17:29:35.972478+00:00"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "slug": "nationalism-pronatalist-ideology",
+  "runs": [
+    {
+      "started_utc": "2026-09-26T17:01:32.456611+00:00",
+      "command_executable": "claude",
+      "command_args": [
+        "-p",
+        "--model",
+        "claude-haiku-4-5-20251001"
+      ],
+      "selected_batches": [
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "force": false,
+      "results": [
+        {
+          "batch": 11,
+          "status": "written_valid",
+          "seconds": 92.54,
+          "attempts": 1
+        },
+        {
+          "batch": 12,
+          "status": "written_valid",
+          "seconds": 115.26,
+          "attempts": 1
+        },
+        {
+          "batch": 13,
+          "status": "written_valid",
+          "seconds": 85.9,
+          "attempts": 1
+        },
+        {
+          "batch": 14,
+          "status": "written_valid",
+          "seconds": 92.38,
+          "attempts": 2
+        },
+        {
+          "batch": 15,
+          "status": "written_valid",
+          "seconds": 99.23,
+          "attempts": 1
+        },
+        {
+          "batch": 16,
+          "status": "written_valid",
+          "seconds": 105.04,
+          "attempts": 1
+        },
+        {
+          "batch": 17,
+          "status": "schema_error",
+          "seconds": 119.54,
+          "attempt": 3,
+          "errors": [
+            "batch 017 row 1: invalid sub_mechanism 'NATIONALISM_PATRIOTIC_FRAMING'",
+            "batch 017 row 16: invalid sub_mechanism 'NATIONALISM_PATRIOTIC_FRAMING'",
+            "batch 017 row 18: invalid sub_mechanism 'NATIONALISM_PATRIOTIC_FRAMING'"
+          ]
+        }
+      ],
+      "finished_utc": "2026-09-26T17:19:24.232745+00:00"
+    }
+  ]
+}

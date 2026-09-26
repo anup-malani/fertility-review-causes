@@ -1,0 +1,2710 @@
+[
+  {
+    "id": "https://openalex.org/W4400017090",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_COERCION",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "birth rate",
+    "identification": "NATURAL_EXPERIMENT",
+    "evidence_type": "descriptive",
+    "reason": "Romanian Decree 770 (1966) pronatalist campaign inseparably bundled with abortion/contraception ban; natural experiment but cannot isolate ideology.",
+    "title": "S\u0103 umplem casele de copii! Campaniile pronataliste \u015fi scrisorile-invita\u0163ie, 1966-1974 (Let\u2019s fill our homes with children! Pronatalist campaign and letters of invitation. 1966-1974)",
+    "doi": null,
+    "year": 2014,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W7147266273",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "NA",
+    "outcome": "fertility / population change",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "descriptive",
+    "reason": "Documents Jiyo Parsi program combining ethnic/religious identity ideology with subsidies and fertility treatments; mechanism bundled, cannot isolate ideology per Wall 1.",
+    "title": "Ep. 680: The Eternal Flame: Zoroastrianism's Modern Survival",
+    "doi": "https://doi.org/10.5281/zenodo.19360766",
+    "year": 2026,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W226736635",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "NA",
+    "outcome": "fertility decline / TFR",
+    "identification": "UNCLEAR",
+    "evidence_type": "descriptive",
+    "reason": "Describes Iranian pronatalist policy post-1979 with incentives but does not isolate its effect; focuses on education improvements as drivers; mechanism unclear.",
+    "title": "Fertility decline in the Islamic Republic of Iran 1980-2006 : a case study",
+    "doi": null,
+    "year": 2010,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 8
+  },
+  {
+    "id": "https://openalex.org/W2472256284",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_COERCION",
+    "sub_mechanism": "NA",
+    "outcome": "TFR, fertility patterns",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "descriptive",
+    "reason": "Documents Eastern European pronatalist policies bundling ideology with abortion restrictions; cannot isolate ideology from coercion per Wall 2; before/after confounded.",
+    "title": "Replacement-Level Fertility has Now Become the Rule In Most of Eastern Europe",
+    "doi": "https://doi.org/10.2307/2135548",
+    "year": 1992,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 6
+  },
+  {
+    "id": "https://openalex.org/W1638213720",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "births, marriage patterns",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "descriptive",
+    "reason": "East German pro-natalist measures (1976) raised births 37%, but bundled with favoring unmarried mothers (transfers); cannot isolate ideology from policy package.",
+    "title": "Bilan de la politique familiale en R\u00e9publique D\u00e9mocratique allemande: un r\u00e9examen",
+    "doi": "https://doi.org/10.2307/1533588",
+    "year": 1989,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 11
+  },
+  {
+    "id": "https://openalex.org/W129928107",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_CAMPAIGN_EXPOSURE",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "fertility rate, births",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "descriptive",
+    "reason": "Documents 'pronatalist campaign' in 1978 Chile with fertility increase, but before/after comparison confounded; identification is observational only.",
+    "title": "[Chilean history of infant and maternal mortality, 1940 -1985].",
+    "doi": null,
+    "year": 1987,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 10
+  },
+  {
+    "id": "https://openalex.org/W2170644342",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "fertility, family formation",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "French family policy described as 'explicitly pro-natalist' with 'strong direct socio-economic impact'; but bundled transfers (maternity leave, allowances) cannot be separated from ideology.",
+    "title": "Comparing Family Policy in Britain, France and Germany",
+    "doi": "https://doi.org/10.1017/s0047279400021607",
+    "year": 1994,
+    "source_channels": [
+      "backward_reference"
+    ],
+    "cited_by_count": 60
+  },
+  {
+    "id": "https://openalex.org/W4414182556",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "second-child fertility intentions, births",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "qualitative",
+    "reason": "China's two-child policy as 'state-led pronatalist ambitions' examined against fertility intentions; cannot separate ideology from structural policy package.",
+    "title": "Second-Child Fertility Intentions Among Urban Women in Beijing Under the Two-Child Policy",
+    "doi": "https://doi.org/10.56397/jrssh.2025.08.03",
+    "year": 2025,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W1625930028",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_RHETORIC_INTENSITY",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "fertility",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "descriptive",
+    "reason": "Reviews Czechoslovak fertility increase in 1970s and 'various social and pronatalist measures'; temporal association but confounded with policy changes.",
+    "title": "The Czech Republic's demographic waves in the 1970s.",
+    "doi": null,
+    "year": 1995,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W7110696576",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_PATRIOTIC_FRAMING_MICRO",
+    "sub_mechanism": "RHETORIC_INTENSITY",
+    "outcome": "DINK lifestyle, childlessness choice",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "qualitative",
+    "reason": "Singapore DINK couples' rejection of 'persistent pro-natalist policies'; measures ideational resistance to pronatalist framing but identifies via survey response, not exogenous exposure.",
+    "title": "DINK lifestyle in pro-natalist Singapore",
+    "doi": null,
+    "year": 2025,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W4399830227",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_COERCION",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "births, family size",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "descriptive",
+    "reason": "Romania's 'extreme pronatalism' with patriotic framing ('mothers as heroes'), but bundled inseparably with coercive abortion restrictions (Decree 770); upper bound on ideological channel.",
+    "title": "Political demography",
+    "doi": "https://doi.org/10.4324/9781003398349-30",
+    "year": 2024,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W2321987154",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "total fertility rate, family formation",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "France's higher fertility attributed to 'collective infrastructures to encourage births' with 'explicit natalist objectives'; but confounded with maternity leave, childcare, family allowances (C.2.d).",
+    "title": "The possible impact of family policy on fertility in France and the United Kingdom",
+    "doi": null,
+    "year": 1992,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 1
+  },
+  {
+    "id": "https://openalex.org/W2789619723",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "fertility rates, marriage rates",
+    "identification": "NATURAL_EXPERIMENT",
+    "evidence_type": "quasi-experimental",
+    "reason": "Uses regression discontinuity design on AK Parti electoral victory (explicitly pro-natalist, Islamist platform) to identify effects on fertility and marriage; ideology and welfare transfers inseparably bundled, with transfers identified as primary mechanism but ideology may contribute.",
+    "title": "Political Islam, Marriage, and Fertility: Evidence from a Natural Experiment",
+    "doi": "https://doi.org/10.1086/696193",
+    "year": 2018,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 33
+  },
+  {
+    "id": "https://openalex.org/W1832488350",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "fertility policy, births",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "descriptive",
+    "reason": "Examines Zionist and religious origins of pronatalism in Israel across multiple policy mechanisms (taxation, labor, welfare, abortion, reproductive technologies); ideology bundled inseparably with transfers and restrictions.",
+    "title": "Fertility Policy in Israel. The Politics of Religion, Gender, and Nation",
+    "doi": "https://doi.org/10.2307/1535043",
+    "year": 2000,
+    "source_channels": [
+      "keyword_production",
+      "backward_reference"
+    ],
+    "cited_by_count": 100
+  },
+  {
+    "id": "https://openalex.org/W7166336156",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "fertility rate",
+    "identification": "NATURAL_EXPERIMENT",
+    "evidence_type": "quasi-experimental",
+    "reason": "Compares pronatalist policy packages in Latvia and South Korea (parental leave, childcare, transfers) via interrupted time series; identifies off economic/structural policies rather than nationalist ideology framing.",
+    "title": "Understanding the Efficacy of Pronatalist Policies",
+    "doi": "https://doi.org/10.5281/zenodo.20963191",
+    "year": 2026,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W2284835880",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_COERCION",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "none",
+    "identification": "UNCLEAR",
+    "evidence_type": "qualitative",
+    "reason": "Documents Ceau\u0219escu's pronatalist rhetoric and restrictive reproductive policies; ideology bundled inseparably with abortion restrictions; no isolated causal effect on fertility reported.",
+    "title": "The Politics of Reproduction in Ceau\u015fescu's Romania: a Case Study in Political Culture",
+    "doi": "https://doi.org/10.1177/0888325492006003010",
+    "year": 1992,
+    "source_channels": [
+      "backward_reference"
+    ],
+    "cited_by_count": 94
+  },
+  {
+    "id": "https://openalex.org/W899897897",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_RHETORIC_INTENSITY",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "fertility transition",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Documents pronatalist ideology persistence among Tibetan exiles despite fertility decline; identifies off political discourse and changing cultural norms with limited causal identification.",
+    "title": "Chapter Five. Tempering Pronatalism: Political Discourse And The Fertility Transition Among Tibetan Exiles",
+    "doi": "https://doi.org/10.1163/ej.9789004168084.i-323.38",
+    "year": 2008,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W2065328200",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_COERCION",
+    "sub_mechanism": "NA",
+    "outcome": "births and abortions",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "structural",
+    "reason": "Simultaneous-equation econometric model of Hungary's pronatalist and abortion policies; likely confounds ideological framing with coercive restrictions and financial transfers.",
+    "title": "An Econometric Model of Pronatalist and Abortion Policies",
+    "doi": "https://doi.org/10.1086/260729",
+    "year": 1978,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 20
+  },
+  {
+    "id": "https://openalex.org/W4413755442",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "total fertility rate",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Compares pronatalist policies including symbolic campaigns promoting family values bundled inseparably with financial incentives, childcare, and structural measures across countries; cannot isolate ideology from transfers.",
+    "title": "\u041c\u041e\u0414\u0415\u041b\u0406 \u0420\u0415\u0410\u0413\u0423\u0412\u0410\u041d\u041d\u042f \u0414\u0415\u0420\u0416\u0410\u0412 \u041d\u0410 \u0421\u041a\u041e\u0420\u041e\u0427\u0415\u041d\u041d\u042f \u041d\u0410\u0421\u0415\u041b\u0415\u041d\u041d\u042f: \u0412\u0406\u0414 \u041f\u0420\u041e\u041d\u0410\u0422\u0410\u041b\u0406\u0417\u041c\u0423 \u0414\u041e \u0410\u0414\u0410\u041f\u0422\u0410\u0426\u0406\u0407",
+    "doi": "https://doi.org/10.32702/2307-2105.2025.8.60",
+    "year": 2025,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 1
+  },
+  {
+    "id": "https://openalex.org/W4387220349",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "fertility rate",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "descriptive",
+    "reason": "Describes China's three-child policy including active promotion campaigns bundled inseparably with financial measures (tax relief, housing support); cannot separate ideology from transfers.",
+    "title": "New Demographic Three-Child Policy in China",
+    "doi": "https://doi.org/10.19181/demis.2023.3.3.2",
+    "year": 2023,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 4
+  },
+  {
+    "id": "https://openalex.org/W4298275865",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_RHETORIC_INTENSITY",
+    "sub_mechanism": "NA",
+    "outcome": "fertility rate",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Examines whether Mexican pronatalist values/ideology explain fertility differences; concludes racial stratification context more important than ideology alone.",
+    "title": "A cross-over in Mexican and Mexican-American fertility rates: Evidence and explanations for an emerging paradox",
+    "doi": null,
+    "year": 2005,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 13
+  },
+  {
+    "id": "https://openalex.org/W4389783797",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "fertility rate",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "descriptive",
+    "reason": "Describes China's pronatalist policy reorientation including active promotion of large families bundled inseparably with financial measures (tax relief, housing, child payments); cannot isolate ideology from transfers.",
+    "title": "National features of the new Chinese pronatalism",
+    "doi": "https://doi.org/10.19181/population.2023.26.4.4",
+    "year": 2023,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 1
+  },
+  {
+    "id": "https://openalex.org/W4391442880",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "RHETORIC_INTENSITY",
+    "outcome": "fertility patterns, completed fertility cohorts",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "descriptive",
+    "reason": "Examines Russian pronatalist policy bundling monetarist transfers with conservative-traditionalist ideology; no isolation of ideology alone from financial package.",
+    "title": "Three Decades on Russia\u2019s Path of the Second Demographic Transition: How Patterns of Fertility are Changing Under an Unstable Demographic Policy",
+    "doi": "https://doi.org/10.12765/cpos-2024-02",
+    "year": 2024,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 6
+  },
+  {
+    "id": "https://openalex.org/W3143717664",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "RHETORIC_INTENSITY",
+    "outcome": "births, fertility, reproduction model, children ever born",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "descriptive",
+    "reason": "Describes Czechoslovak pronatalist measures (1968\u201373) and subsequent fertility recovery, but does not isolate ideology from transfers or other policy components; uses raw before/after comparisons.",
+    "title": "Woman's fertility in Czechoslovakia during 1970-1979.",
+    "doi": null,
+    "year": 1981,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 2
+  },
+  {
+    "id": "https://openalex.org/W4406404045",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_PATRIOTIC_FRAMING_MICRO",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "support for group-serving pronatalism, intentions to have children to advance national/political goals",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Examines Christian nationalism \u2192 patriotic-duty framing of childbearing as means to advance national and political interests; outcome is beliefs/intentions rather than realized fertility behavior.",
+    "title": "Make One for the Team: Culture Wars and Group-Serving Pronatalism",
+    "doi": "https://doi.org/10.1017/s1049096524001069",
+    "year": 2025,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 11
+  },
+  {
+    "id": "https://openalex.org/W2611491339",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "NA",
+    "outcome": "contraceptive use",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Studies contraceptive use in Kuwait with pronatalist policies and ideals; identifies neither ideology nor transfers alone, both bundled (Wall 1).",
+    "title": "Socio-cultural dimensions of contraceptive use in Kuwait.",
+    "doi": null,
+    "year": 1993,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 1
+  },
+  {
+    "id": "https://openalex.org/W1993708167",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_COERCION",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "fertility, birth rates",
+    "identification": "NATURAL_EXPERIMENT",
+    "evidence_type": "quasi-experimental",
+    "reason": "Examines Soviet and Eastern European pronatalist programs combining ideology with abortion restrictions and family allowances; Wall 2 bundle \u2014 coercion inseparable from framing.",
+    "title": "Pronatalist programmes in Eastern Europe",
+    "doi": "https://doi.org/10.1080/09668137508411012",
+    "year": 1975,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 21
+  },
+  {
+    "id": "https://openalex.org/W2049918801",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_RHETORIC_INTENSITY",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "births / fertility behavior / family ideology",
+    "identification": "NATURAL_EXPERIMENT",
+    "evidence_type": "historical",
+    "reason": "Chapters on pronatalist ideology in wartime France, Britain, and Germany (1914\u20131918) with evidence from primary sources; state-sponsored wartime nationalism and fertility framing.",
+    "title": "The Upheaval of War: Family, Work and Welfare in Europe, 1914-1918.",
+    "doi": "https://doi.org/10.2307/1973723",
+    "year": 1989,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 86
+  },
+  {
+    "id": "https://openalex.org/W193950026",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_RHETORIC_INTENSITY",
+    "sub_mechanism": "RHETORIC_INTENSITY",
+    "outcome": "fertility decline / demographic change",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "qualitative",
+    "reason": "Explicitly examines nationalism, pronatalism, and demographic crisis construction in Quebec (1960\u20131988); identifies association between nationalist politics and pronatalist framing after fertility decline, but direction and causality are unclear (potential reverse causation: fertility decline \u2192 nationalist concern).",
+    "title": "\u201cWho has the baby?\u201d Nationalism, pronatalism and the construction of a \u201cdemographic crisis\u201d in Quebec 1960\u20131988",
+    "doi": "https://doi.org/10.1080/19187033.1992.11675416",
+    "year": 1992,
+    "source_channels": [
+      "backward_reference"
+    ],
+    "cited_by_count": 26
+  },
+  {
+    "id": "https://openalex.org/W4214767524",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_PATRIOTIC_FRAMING_MICRO",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "fertility preferences",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Analyzes impact of Erdo\u011fan's pronatalist rhetoric on Turkish women's fertility preferences (2008\u20132013) using religiosity interaction; identifies rhetoric independent of subsequent transfers.",
+    "title": "The Effect of Pronatalist Rhetoric on Women's Fertility Preferences in Turkey",
+    "doi": "https://doi.org/10.1111/padr.12466",
+    "year": 2022,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 16
+  },
+  {
+    "id": "https://openalex.org/W187737152",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "entry age into motherhood, attitudes toward fertility timing",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "mixed-methods",
+    "reason": "Bundles nationalist messaging ('one for the country') inseparably with financial Baby Bonus; cannot isolate ideational effect from cash transfer.",
+    "title": "Investigating the Australian lump-sum Baby Bonus and the reach of its pronatalist messages with young women in Far North Queensland",
+    "doi": "https://doi.org/10.25903/y1q4-4664",
+    "year": 2023,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 2
+  },
+  {
+    "id": "https://openalex.org/W2928531066",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_COERCION",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "births, fertility behavior",
+    "identification": "NATURAL_EXPERIMENT",
+    "evidence_type": "qualitative",
+    "reason": "Hungarian 1953 abortion ban with pronatalist propaganda; identification inseparably confounds ideology with contraception restriction (Wall 2 confound), still relevant as upper bound.",
+    "title": "\u2018For Girls it is an Honor \u2026\u2019: Women, Work, and Abortion in Communist Hungary, 1948\u201356",
+    "doi": "https://doi.org/10.1177/0022009418824390",
+    "year": 2019,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 1
+  },
+  {
+    "id": "https://openalex.org/W3201166674",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_RHETORIC_INTENSITY",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "fertility intentions, public sentiment",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "qualitative",
+    "reason": "Analyzes Turkish parliamentary pronatalist rhetoric and discourse intensity (AKP messaging, slogans); mechanism/context on nationalism-fertility discourse.",
+    "title": "Discursive Construction of Population Politics:Parliamentary Debates on Declining Fertility Rates in Turkey",
+    "doi": "https://doi.org/10.18261/issn.1891-1781-2021-02-03-06",
+    "year": 2021,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 1
+  },
+  {
+    "id": "https://openalex.org/W7154474320",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "birth rate/baby boom",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "descriptive",
+    "reason": "Attributes Franco-era fertility increase to pro-natalist policies alongside economic recovery, but cannot isolate ideology from concurrent economic change.",
+    "title": "La transici\u00f3n demogr\u00e1fica",
+    "doi": "https://doi.org/10.5281/zenodo.19589540",
+    "year": 2010,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W3099490140",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "none",
+    "identification": "NA",
+    "evidence_type": "historical",
+    "reason": "Documents pronatalist ideology and propaganda (depopulation anxiety, lobby organizations) bundled inseparably with welfare transfers (child benefits, tax relief, maternal/infant protection) during French Third Republic and Vichy; reports ideology/rhetoric but not isolated fertility effect.",
+    "title": "\"As far as Numbers are concerned, we are beaten\". Finis Galliae and the Nexus between Fears of Depopulation, Welfare Reform, and the Military in France during the Third Republic, 1870-1940",
+    "doi": "https://doi.org/10.12759/hsr.45.2020.2.68-113",
+    "year": 2020,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 7
+  },
+  {
+    "id": "https://openalex.org/W4412593165",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_PATRIOTIC_FRAMING_MICRO",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "attitudes toward medically assisted reproduction",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Survey of Hungarian public attitudes (N=2024) finds nationalist sentiment and population-decline concern predict support for fertility-related treatment access; contextualizes Hungary's selective pronatalist policies but relies on correlational evidence without exogenous variation.",
+    "title": "Selective Pronatalism and Reproductive Autonomy: Attitudes Toward Medically Assisted Reproduction in Hungary",
+    "doi": "https://doi.org/10.17645/si.10390",
+    "year": 2025,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 6
+  },
+  {
+    "id": "https://openalex.org/W2518973803",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "TFR, fertility rates",
+    "identification": "UNCLEAR",
+    "evidence_type": "structural",
+    "reason": "System dynamics model of Thai fertility trends; attributes 1950s TFR increase to government pronatalist policy and later decline to anti-natalist policy intensity; does not isolate ideology from transfers or other mechanisms.",
+    "title": "Exploring the decline in fertility rates with system dynamics: The case of Thailand",
+    "doi": null,
+    "year": 2014,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W2030411117",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_COERCION",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "fertility decisions, family size intentions",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "qualitative",
+    "reason": "Qualitative study (55 interviews, Poland, 2000\u20132007) examines fertility decisions under bundled pronatalist rhetoric, abortion/contraception restrictions, and withdrawal of work-family policies; does not isolate ideology from coercion (Wall 2).",
+    "title": "Irrational non-reproduction? The \u2018dying nation\u2019 and the postsocialist logics of declining motherhood in Poland",
+    "doi": "https://doi.org/10.1080/13648470.2012.675048",
+    "year": 2012,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 39
+  },
+  {
+    "id": "https://openalex.org/W4395666646",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_COERCION",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "birth rate, family values",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "historical",
+    "reason": "Historical analysis of Soviet demographic policies during WW2; examines bundled effects of material support, legal divorce/abortion restrictions, and moral encouragement on fertility and family values; does not isolate ideology from coercion (Wall 2).",
+    "title": "Demographic Policy of the Soviet State during the Great Patriotic War: Legal Novels and their Social Consequences",
+    "doi": "https://doi.org/10.37399/issn2072-909x.2024.4.5-14",
+    "year": 2024,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W4254362591",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "reproductive technology uptake, family formation via ART",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "qualitative",
+    "reason": "Israel's fertility subsidies bundled inseparably with nationalist demographic goals; study examines how male continuity and national identity shape reproductive choices and technology access.",
+    "title": "A Critical Age: Single Motherhood, Male Continuity, and the Making of Family and Nation in Israel",
+    "doi": "https://doi.org/10.18130/v3p53c",
+    "year": 2014,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 2
+  },
+  {
+    "id": "https://openalex.org/W2298226919",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "RHETORIC_INTENSITY",
+    "outcome": "female fertility decline and convergence",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Czechoslovak regional fertility variation: 'reaction to pronatalist population measures' varied by prior fertility level; FDT-era data, but measures not separated from ideology, transfers, or coercion.",
+    "title": "[Geographical variations in female fertility in Czechoslovakia and changes in the 1970s].",
+    "doi": null,
+    "year": 1985,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W2300097124",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_RHETORIC_INTENSITY",
+    "sub_mechanism": "RHETORIC_INTENSITY",
+    "outcome": "fertility trends",
+    "identification": "UNCLEAR",
+    "evidence_type": "observational",
+    "reason": "Examines impact of pro-natalist policies on fertility in Bulgaria and Czechoslovakia 1965\u20131980 using period/cohort decomposition; design and policy bundling unclear.",
+    "title": "[A new view on fertility developments during the years 1965-1980 in Bulgaria and Czechoslovakia].",
+    "doi": null,
+    "year": 1983,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W3025129176",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "fertility / TFR",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Fixed-effects panel of government pronatalist policies 1976\u20132013 across 150+ countries; finds short-term effects at ultra-low fertility; cannot separate ideology from bundled transfers.",
+    "title": "Government policy and global fertility change: a reappraisal",
+    "doi": "https://doi.org/10.1080/17441730.2020.1757850",
+    "year": 2020,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 15
+  },
+  {
+    "id": "https://openalex.org/W3114997887",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_RHETORIC_INTENSITY",
+    "sub_mechanism": "RHETORIC_INTENSITY",
+    "outcome": "reproductive behavior",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Examines education \u2192 values \u2192 fertility, noting Russian women respond more to civic duty/state patriotism than religiosity; suggests nationalist framing pathway but is correlational.",
+    "title": "Impact of education on reproductive behavior through individual values",
+    "doi": "https://doi.org/10.31857/s086904990012118-1",
+    "year": 2020,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 3
+  },
+  {
+    "id": "https://openalex.org/W2012782619",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "fertility; birth rates",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Examines Palestinian and Israeli fertility amid protracted conflict where pronatalism becomes a 'dimension of nationalism'; conflates political/institutional redistribution with ideological framing.",
+    "title": "Protracted National Conflict and Fertility Change: Palestinians and Israelis in the Twentieth Century",
+    "doi": "https://doi.org/10.1111/j.1728-4457.2000.00441.x",
+    "year": 2000,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 118
+  },
+  {
+    "id": "https://openalex.org/W1512865001",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_COERCION",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "reproductive autonomy / contraceptive use",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "qualitative",
+    "reason": "Nationalist-pronatalist ideology bundled inseparably with contraceptive and abortion restrictions; qualitative study of women's reproductive autonomy in repatriarchalizing Croatia.",
+    "title": "What\u2019s a Girl to Do: Repatriarchalization and Croatian Women\u2019s Reproductive Freedom",
+    "doi": null,
+    "year": 2007,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W1756667698",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "fertility growth post-WWII",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "descriptive",
+    "reason": "Post-war French baby boom attributed to pronatalist programs and psychological factors; ideology and transfers bundled inseparably.",
+    "title": "\u0421\u043e\u0432\u0440\u0435\u043c\u0435\u043d\u043d\u044b\u0435 \u0434\u0435\u043c\u043e\u0433\u0440\u0430\u0444\u0438\u0447\u0435\u0441\u043a\u0438\u0435 \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u044b \u0424\u0440\u0430\u043d\u0446\u0438\u0438 \u0432 \u043a\u043e\u043d\u0442\u0435\u043a\u0441\u0442\u0435 \u043f\u043e\u0441\u043b\u0435\u0434\u0441\u0442\u0432\u0438\u0439 \u043f\u043e\u0441\u043b\u0435\u0432\u043e\u0435\u043d\u043d\u043e\u0433\u043e \u0431\u044d\u0431\u0438-\u0431\u0443\u043c\u0430",
+    "doi": null,
+    "year": 2014,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W2001684172",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_COERCION",
+    "sub_mechanism": "NA",
+    "outcome": "total fertility rate",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Eastern European socialist pronatalist policies in 1950s\u201380s; bundles abortion/contraception restrictions with incentives; 1953\u201354 spike in Hungary coincides with policy; cannot isolate ideology from coercion.",
+    "title": "Inverted Easterlin Fertility Cycles and Kornai's \"Soft\" Budget Constraint",
+    "doi": "https://doi.org/10.2307/1973759",
+    "year": 1992,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 16
+  },
+  {
+    "id": "https://openalex.org/W3120046323",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "NA",
+    "outcome": "fertility intentions",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Examines Iranian fertility intentions under pronatalist policy context; identifies off government incentives (transfers) without isolating ideology; cross-sectional design.",
+    "title": "Proximate Determinants of Fertility Intentions in Tehran, Iran",
+    "doi": null,
+    "year": 2015,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 1
+  },
+  {
+    "id": "https://openalex.org/W604597094",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_RHETORIC_INTENSITY",
+    "sub_mechanism": "NA",
+    "outcome": "fertility and mortality",
+    "identification": "UNCLEAR",
+    "evidence_type": "mechanism",
+    "reason": "Edited collection directly examining influence of nationalism and ethnicity on fertility and mortality in Israel; Zionist demographic project as nationalist ideology; SDT period.",
+    "title": "Israel's Destiny",
+    "doi": "https://doi.org/10.4324/9780203788127",
+    "year": 2017,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 7
+  },
+  {
+    "id": "https://openalex.org/W2318220394",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "NA",
+    "outcome": "fertility trends",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "descriptive",
+    "reason": "Singapore's shift to pronatalist policy motivated by ethnic/nationalist concerns; bundles financial incentives with nationalist framing; notes limited fertility response; cannot isolate ideology from transfers.",
+    "title": "Fertility Decline and Pronatalist Policy in Singapore",
+    "doi": "https://doi.org/10.2307/2133557",
+    "year": 1991,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 31
+  },
+  {
+    "id": "https://openalex.org/W1625823558",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "NA",
+    "outcome": "births",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "descriptive",
+    "reason": "Discusses Japanese pro-natalist incentives but does not isolate ideology channel from financial transfers or measure fertility effects.",
+    "title": "Beyond the demographic transition: The case of Japan",
+    "doi": "https://doi.org/10.34917/2329970",
+    "year": 2020,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 1
+  },
+  {
+    "id": "https://openalex.org/W2605832124",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_COERCION",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "TFR",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "descriptive",
+    "reason": "Describes demographic outcomes of Eastern European pronatalist policies (notably Romania's Decree 770 / 1966\u20131967 TFR jump from 1.9 to 3.7). Romania's policy bundled ideology inseparably with abortion ban; cannot isolate ideology alone. Upper bound on ideational channel.",
+    "title": "Demographic trends: World War II to the present.",
+    "doi": null,
+    "year": 1993,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W3160679491",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_RHETORIC_INTENSITY",
+    "sub_mechanism": "RHETORIC_INTENSITY",
+    "outcome": "childbearing desires",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Survey of 5,200 Iranians measures gender differences in childbearing desires and attitudes toward official pronatalist policy. Correlates demographic attitudes with pronatalist policy stance; economics held fixed via gender-attitude stratification. Identification is associational, not exogenous.",
+    "title": "\u0645\u0644\u0627\u062d\u0638\u0627\u062a \u062c\u0646\u0633\u06cc\u062a\u06cc \u0645\u0631\u062a\u0628\u0637 \u0628\u0627 \u0646\u06af\u0631\u0634\u0647\u0627\u06cc \u062c\u0645\u0639\u06cc\u062a\u0634\u0646\u0627\u062e\u062a\u06cc \u062f\u0631 \u0627\u06cc\u0631\u0627\u0646",
+    "doi": "https://doi.org/10.22035/jicr.2021.434",
+    "year": 2020,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W7208838022",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_PATRIOTIC_FRAMING_MICRO",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "fertility intentions; reproductive decision-making",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "qualitative",
+    "reason": "Examines how pronatalist norms and emotionally framed persuasion in Turkey shape women's fertility decisions and intentions; no exogenous variation identified.",
+    "title": "A woman but not a mother: social regulation and the experiences of voluntarily childless women in T\u00fcrkiye",
+    "doi": "https://doi.org/10.1080/13691058.2026.2723255",
+    "year": 2026,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W2778148194",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "NA",
+    "outcome": "fertility indicators; period and cohort fertility rates",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Evaluates Russia's post-2006 pronatalist policy package (financial measures) effects on fertility; policies bundle ideology and transfers, cannot be separated.",
+    "title": "The modest demographic results of pronatalist policy against the background of the long-term evolution of fertility in Russia",
+    "doi": "https://doi.org/10.17323/demreview.v3i5.7310",
+    "year": 2017,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 14
+  },
+  {
+    "id": "https://openalex.org/W2488086655",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_COERCION",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "fertility behavior (through policy mechanisms)",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "descriptive",
+    "reason": "Analyzes Soviet pronatalist ideology and abortion/contraception restriction inseparably bundled; documents how ideology and coercion together perpetuated pronatalism.",
+    "title": "Liberation without Contraception?",
+    "doi": "https://doi.org/10.1093/acprof:oso/9780199311071.003.0010",
+    "year": 2015,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 5
+  },
+  {
+    "id": "https://openalex.org/W7128677113",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_CAMPAIGN_EXPOSURE",
+    "sub_mechanism": "NA",
+    "outcome": "fertility intentions; reluctance to third birth",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "qualitative",
+    "reason": "Examines state pronatalist campaign (Three-Child Policy) exposure and rural women's fertility intentions; outcome is resistance and low intentions, not ideological persuasion.",
+    "title": "Has the \u201cThree-Child Policy\u201d also encountered reluctance in rural China?\u2014evidence from new-generation women of childbearing age in western rural China",
+    "doi": "https://doi.org/10.1016/j.jrurstud.2026.104039",
+    "year": 2026,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 1
+  },
+  {
+    "id": "https://openalex.org/W4413464908",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "NA",
+    "outcome": "fertility rates",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Comparative analysis of pronatalist policy packages (financial incentives, childcare, parental leave, tax) effects on fertility; policies bundled inseparably.",
+    "title": "Comparative Study of Effectiveness Pronatalist Policies in South Korea, Japan, Taiwan, and Singapore 2015-2023",
+    "doi": "https://doi.org/10.30983/humanisma.v9i1.9235",
+    "year": 2025,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W2547454187",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_RHETORIC_INTENSITY",
+    "sub_mechanism": "RHETORIC_INTENSITY",
+    "outcome": "fertility levels",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Examines nationalism and familism as values affecting fertility of secular Jews in Israel; documents nationalism's role in unusually high fertility via cultural intensity.",
+    "title": "Seculars in a Religious Society: Fertility of Jews in Israel",
+    "doi": null,
+    "year": 2012,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W7167482332",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "NA",
+    "outcome": "fertility rates",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Compares Latvia and South Korea pronatalist policy packages (parental leave, childcare, institutional reforms); policies bundle ideology and structures inseparably.",
+    "title": "Understanding the Efficacy of Pronatalist Policies",
+    "doi": "https://doi.org/10.5281/zenodo.21216810",
+    "year": 2026,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W7157368849",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_COERCION",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "fertility attitudes and intentions; number of births",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "qualitative",
+    "reason": "Examines one-child policy's persistent effects via coercion (forced abortions, sterilizations) bundled with propaganda; documents internalized norms and reduced fertility intentions.",
+    "title": "Persistent effects of China\u2019s one-child policy on childbearing attitudes of the Chinese diaspora in the United States: a qualitative study",
+    "doi": "https://doi.org/10.1017/s0021932026100510",
+    "year": 2026,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W2093090759",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "RHETORIC_INTENSITY",
+    "outcome": "TFR / childbearing patterns",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Compares East and West German pronatalist policies and fertility outcomes; cannot separate ideology from full policy packages (transfers, childcare, benefits), upper bound on ideational channel.",
+    "title": "Family life cycle and fertility in Germany before unification: 1947\u20131989",
+    "doi": "https://doi.org/10.1016/s1081-602x(97)90018-x",
+    "year": 1997,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 2
+  },
+  {
+    "id": "https://openalex.org/W4414223781",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "queer kinship and family formation decisions",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "qualitative",
+    "reason": "Ethnographic study of South Korean pronatalist policies' effects on reproductive decisions and kinship; bundles ideological framing with welfare incentives inseparably.",
+    "title": "On reproductive straightening: Pronatalism, privatization, and queer kin in South Korea",
+    "doi": "https://doi.org/10.1177/13634607251381234",
+    "year": 2025,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 1
+  },
+  {
+    "id": "https://openalex.org/W2884927260",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "RHETORIC_INTENSITY",
+    "outcome": "births and TFR",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Evaluates Singapore's 'selectively pro-natalist' policy on fertility; policy bundles tax incentives and rhetoric inseparably, cannot isolate ideology from transfers.",
+    "title": "Singapore\u2019s \u2018Three or More\u2019 policy: The first five years",
+    "doi": "https://doi.org/10.18356/c9887638-en",
+    "year": 1996,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 25
+  },
+  {
+    "id": "https://openalex.org/W4285900225",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "reproductive decisions and medical interactions",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "qualitative",
+    "reason": "Qualitative study of women's reproductive experiences in Hungary under pronatalist policy and rhetoric; examines how gendered pronatalist framing affects reproductive behavior, but cannot separate ideology from bundled transfers.",
+    "title": "Narrated Experiences of Medically Assisted Reproduction in Hungary - Infertility from a Multimethod Perspective",
+    "doi": "https://doi.org/10.14267/phd.2022029",
+    "year": 2022,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 1
+  },
+  {
+    "id": "https://openalex.org/W2994135663",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_COERCION",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "fertility rate, births",
+    "identification": "NATURAL_EXPERIMENT",
+    "evidence_type": "descriptive",
+    "reason": "Romania's 1966 Decree 770 bundles pronatalist ideology (women termed 'deserters', patriotic duty framing) inseparably with abortion restriction; cannot separate ideological from coercive channel; upper bound on ideology effect (Wall 2).",
+    "title": "How Romania tries to govern fertility.",
+    "doi": null,
+    "year": 1987,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 1
+  },
+  {
+    "id": "https://openalex.org/W7213792797",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_PATRIOTIC_FRAMING_MICRO",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "fertility intentions (second/third child)",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "qualitative",
+    "reason": "Qualitative study documenting how China's pronatalist policy discourse shapes reproductive intentions among urban mothers; ideology-intentions link present but not causally identified.",
+    "title": "Between desire and constraint: reproductive intentions among working mothers in urban Shanghai\u2014a qualitative study",
+    "doi": "https://doi.org/10.1186/s12905-026-04914-0",
+    "year": 2026,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W3123820737",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "NA",
+    "outcome": "births (probability of occurrence)",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "quasi-experimental",
+    "reason": "Estimates effects of municipal pronatal policies (noncash benefits) on fertility using geographic variation; cannot isolate ideology from bundled policy package.",
+    "title": "Estimating the Effects of Pronatal Policies on Residential Choice and Fertility",
+    "doi": "https://doi.org/10.24545/00001093",
+    "year": 2012,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W2036487789",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "birth rate",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "quasi-experimental",
+    "reason": "Examines Fascist pronatalist campaign bundling propaganda, welfare benefits, tax breaks, and medals; cannot separate ideology from cash transfers; documents campaign failed to raise overall fertility.",
+    "title": "Battle for Births: The Fascist Pronatalist Campaign in Italy 1925 to 1938",
+    "doi": "https://doi.org/10.1111/j.1556-5823.2010.00002.x",
+    "year": 2010,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 15
+  },
+  {
+    "id": "https://openalex.org/W100928540",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "cohort fertility by parity",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "quasi-experimental",
+    "reason": "Analyzes GDR pronatalist policy measures (1976 onward) bundling incentives; finds increase in 2nd/3rd children; cannot separate ideology from economic transfers in design.",
+    "title": "[Are the pro-natalist measures of the German Democratic Republic succeeding? A comparative description of fertility trends in both German states].",
+    "doi": null,
+    "year": 1984,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W7130657935",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_PATRIOTIC_FRAMING_MICRO",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "fertility intentions",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Examines association between national identity and fertility intentions in pronatalist Hungary; stronger national identity linked to lower childlessness intention; cross-sectional design only.",
+    "title": "National Identity and Fertility Intentions: Evidence from Hungary",
+    "doi": "https://doi.org/10.1111/padr.70051",
+    "year": 2026,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W7161724375",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_PATRIOTIC_FRAMING_MICRO",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "attitudes toward pronatalism/gender equality",
+    "identification": "FRAMING_EXPERIMENT",
+    "evidence_type": "quasi-experimental",
+    "reason": "3-arm framing experiment testing how security-fertility-linkage frame affects pronatalist attitudes and gender norm endorsement in South Korea; frames low fertility as national security crisis.",
+    "title": "Guns vs. Wombs: How Security and Fertility Crises Shape Women's Responsibilities",
+    "doi": "https://doi.org/10.17605/osf.io/qhyzj",
+    "year": 2026,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W7169572491",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_PATRIOTIC_FRAMING_MICRO",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "fertility intentions",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "qualitative",
+    "reason": "Qualitative study of Iranian working mothers identifies pronatalist influences (patriotic/demographic concerns) as one driver of childbearing motivations alongside religious and personal factors.",
+    "title": "Motivations of Childbearing Among Iranian Working Mothers With Two or More Children: A Qualitative Study",
+    "doi": "https://doi.org/10.1002/hsr2.72831",
+    "year": 2026,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W7164787047",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_PATRIOTIC_FRAMING_MICRO",
+    "sub_mechanism": "NA",
+    "outcome": "fertility intentions",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "descriptive",
+    "reason": "Singapore Gen Z study examines perceptions of pro-natalist policies and fertility intentions; shows policy messaging insufficient to overcome structural barriers.",
+    "title": "Youth, family and the state: Gen Z perspectives on Singapore's fertility policies",
+    "doi": null,
+    "year": 2026,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W1883583692",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_COERCION",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "births",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "descriptive",
+    "reason": "Russian demographic history; notes 1936 abortion ban and 1980s pronatalist policy effects on births; policies bundle ideology with coercion and transfers inseparably (Wall 2).",
+    "title": "[The population of Russia: demography]",
+    "doi": null,
+    "year": 1993,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W1967294445",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_COERCION",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "births",
+    "identification": "NATURAL_EXPERIMENT",
+    "evidence_type": "quasi-experimental",
+    "reason": "Eastern European pronatalist policies: Romania's 1966 abortion ban (Wall 2) and Hungary/GDR's economic incentives (Wall 1); ideology bundled inseparably with coercion and transfers.",
+    "title": "Can Government Regulate Fertility? An Assessment of Pronatalist Policy in Eastern Europe",
+    "doi": "https://doi.org/10.1177/106591298603900411",
+    "year": 1986,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 26
+  },
+  {
+    "id": "https://openalex.org/W4415457074",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_RHETORIC_INTENSITY",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "births/fertility",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "descriptive",
+    "reason": "Examines pronatalist campaigns across China, Japan, Singapore, South Korea 1945+; documents rhetoric intensity variation but fertility continued to decline despite campaigns.",
+    "title": "Engineering a New Future",
+    "doi": "https://doi.org/10.1093/oso/9780197745038.003.0006",
+    "year": 2025,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W7135536546",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_RHETORIC_INTENSITY",
+    "sub_mechanism": "RHETORIC_INTENSITY",
+    "outcome": "fertility rate, births, unplanned pregnancies, abortions, marriage",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Iranian pronatalist rhetoric and policy shift (early 2000s) \u2192 fertility and reproductive outcomes; contemporary demographic nationalism case (SDT).",
+    "title": "Pronatalism, family, and fertility change in Iran since the early 21st century",
+    "doi": null,
+    "year": 2025,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W2017214075",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_CAMPAIGN_EXPOSURE",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "birth rate",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "quasi-experimental",
+    "reason": "Examines Fascist pronatalist campaign in Milan during FDT and factors limiting fertility response (including illegal abortion access) despite propaganda.",
+    "title": "Flowers for the Doctor: Pro-Natalism and Abortion in Fascist Milan",
+    "doi": "https://doi.org/10.1080/13532949608454768",
+    "year": 1996,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 2
+  },
+  {
+    "id": "https://openalex.org/W2346176032",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_RHETORIC_INTENSITY",
+    "sub_mechanism": "RHETORIC_INTENSITY",
+    "outcome": "birth rate, fertility decline",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Explicitly examines state ideologies' role in fertility decision-making via micrological survey approach; causal claim insufficiently isolated (no exogenous variation).",
+    "title": "A closer look at fertility decline in Singapore : state ideologies as the prime influence in fertility decision making.",
+    "doi": null,
+    "year": 2013,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W43119426",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_PATRIOTIC_FRAMING_MICRO",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "family size",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "qualitative",
+    "reason": "Ethnographic study links changing nationalist ideals directly to family-size decisions among Palestinian refugees; purely observational (no exogenous variation).",
+    "title": "Changing Influences on Family Size for Palestinian Refugee Women in Beirut",
+    "doi": null,
+    "year": 2013,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W2608304947",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_PATRIOTIC_FRAMING_MICRO",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "reproductive intentions and social roles",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "qualitative",
+    "reason": "Examines pronatalist ideology-essentialism and its stigmatizing effects on fertility and women's reproductive roles; qualitative/observational without exogenous variation.",
+    "title": "Social representations of \u2018childless\u2019 women in Bangladesh",
+    "doi": null,
+    "year": 2016,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W7212147800",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "fertility decline, marriage formation, births",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Examines Singapore's pronatalist policy package (bundled messaging and transfers) and decomposition of fertility decline by stage; identifies why ideology + policy fails to raise fertility.",
+    "title": "The Fertility Conversion Gap: Marriage Bottlenecks, Opportunity Costs, and the Limits of Pronatalist Policy in Singapore",
+    "doi": "https://doi.org/10.47772/ijriss.2026.100800459",
+    "year": 2026,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W7145773811",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "HONORIFIC_AWARDS",
+    "outcome": "fertility at high parity",
+    "identification": "NATURAL_EXPERIMENT",
+    "evidence_type": "quasi-experimental",
+    "reason": "Mongolia's 'Order of Glorious Mother' program bundles honorific status with financial transfers; quasi-experimental design with unclear separation of ideology from money.",
+    "title": "Do Financial Incentives on High Parity Birth Affect Fertility? Evidence from the Order of Glorious Mother in Mongolia",
+    "doi": null,
+    "year": 2022,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W2904044631",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_COERCION",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "fertility, marriage, reproduction patterns",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "descriptive",
+    "reason": "Analyzes Romania's communist demographic policies including Ceau\u0219escu's pronatalism and Decree 770 (abortion ban); ideology and coercion appear bundled and not separately identified.",
+    "title": "The Demography of Romania During the Period of the Communist Regime (1948\u20131989)",
+    "doi": "https://doi.org/10.3917/adh.128.0023",
+    "year": 2014,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 1
+  },
+  {
+    "id": "https://openalex.org/W2147261311",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_COERCION",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "total fertility rate",
+    "identification": "NATURAL_EXPERIMENT",
+    "evidence_type": "quasi-experimental",
+    "reason": "Time-series test of Ceausescu's pronatalist regime (1967\u20131989); bundles abortion ban, ideology, and enforcement inseparably; upper bound on ideology channel.",
+    "title": "Fertility Policy in Ceausescu's Romania",
+    "doi": "https://doi.org/10.1177/036319909902400405",
+    "year": 1999,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 37
+  },
+  {
+    "id": "https://openalex.org/W2184551377",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_COERCION",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "completed fertility, parity progression",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Retrospective survey of fertility behavior under Ceausescu's pronatalist regime; bundles ideology, abortion ban, and enforcement inseparably; upper bound on ideology.",
+    "title": "PRONATALIST POLICY IMPACT ON ROMANIAN PROCREATIVE BEHAVIOUR THROUGHOUT THE 20 TH CENTURY",
+    "doi": null,
+    "year": 2012,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W2302693129",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "NA",
+    "outcome": "total fertility rate",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Examines pronatalist social policy effects on regional European fertility; cannot separate ideology from institutional programs via multilevel cross-sectional design.",
+    "title": "The Role of Institutional Context in European Regional Fertility Patterns",
+    "doi": null,
+    "year": 2004,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 2
+  },
+  {
+    "id": "https://openalex.org/W3207647903",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "NA",
+    "outcome": "total fertility rate, births",
+    "identification": "NATURAL_EXPERIMENT",
+    "evidence_type": "quasi-experimental",
+    "reason": "Measures effect of 2007 Russian pronatalist policy reforms (maternity capital + rhetoric) on fertility; bundles ideology and financial transfers, cannot separate.",
+    "title": "Pronatalist Policies and Fertility in Russia: Estimating Tempo and Quantum Effects",
+    "doi": "https://doi.org/10.12765/cpos-2021-15",
+    "year": 2021,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 8
+  },
+  {
+    "id": "https://openalex.org/W7160179369",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "NA",
+    "outcome": "total fertility rate, births, structural-demographic factors",
+    "identification": "NATURAL_EXPERIMENT",
+    "evidence_type": "quasi-experimental",
+    "reason": "Analyzes Russian fertility dynamics 2003\u20132023, demonstrating pronatalist policy effects; policy measures bundle ideology and financial transfers, decomposed into tempo vs. quantum effects.",
+    "title": "Fertility in Russia at the Turn of Eras: Dynamics and Mechanisms of Demographic Change (2003\u20132023)",
+    "doi": "https://doi.org/10.24158/tipor.2026.3.8",
+    "year": 2026,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W4416144884",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "NA",
+    "outcome": "fertility",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "descriptive",
+    "reason": "Reviews China's pronatalist policy responses and their limited effectiveness, but does not isolate ideological mechanisms from financial incentives or legal restrictions.",
+    "title": "Pronatalist Pivot: Assessing China\u2019s Policy Efforts to Boost Fertility",
+    "doi": "https://doi.org/10.7249/rra4348-1",
+    "year": 2025,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W2057134047",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_COERCION",
+    "sub_mechanism": "NA",
+    "outcome": "fertility",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "historical",
+    "reason": "Examines Bulgarian socialist pronatalist policies bundled with abortion restrictions; unable to separate ideological framing from reproductive coercion.",
+    "title": "Creating a \u2018socialist way of life\u2019: family and reproduction policies in Bulgaria, 1944\u20131989",
+    "doi": "https://doi.org/10.1017/s0268416004005004",
+    "year": 2004,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 28
+  },
+  {
+    "id": "https://openalex.org/W1981903218",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_PATRIOTIC_FRAMING_MICRO",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "gendered responses / social values affecting fertility",
+    "identification": "UNCLEAR",
+    "evidence_type": "observational",
+    "reason": "Examines women's responses to Singapore's pronatalist policy shift and ideology's role in reshaping social values around childbearing, though fertility outcome not explicitly quantified.",
+    "title": "Interweaving the public and the private: women's responses to population policy shifts in Singapore",
+    "doi": "https://doi.org/10.1002/(sici)1099-1220(199903/04)5:2<79::aid-ijpg125>3.0.co;2-1",
+    "year": 1999,
+    "source_channels": [
+      "forward_citation"
+    ],
+    "cited_by_count": 19
+  },
+  {
+    "id": "https://openalex.org/W7128158449",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_PATRIOTIC_FRAMING_MICRO",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "fertility intentions / reproductive behavior",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "qualitative",
+    "reason": "Examines how pronatalist cultural norms shape women's reproductive behaviors and social identity in Pakistan; fertility outcome present but not quantified.",
+    "title": "\u201cMother in the making\u201d: Motherhood performativity of childless women in rural Pakistan",
+    "doi": "https://doi.org/10.1371/journal.pone.0326698",
+    "year": 2026,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W4301059022",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_COERCION",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "family planning service access and contraceptive availability",
+    "identification": "UNCLEAR",
+    "evidence_type": "descriptive",
+    "reason": "Describes Polish state pronatalism under Gierek and Catholic anti-family-planning campaigns bundled with contraceptive supply restriction; no causal effect estimate.",
+    "title": "Poland: a step backwards.",
+    "doi": null,
+    "year": 1981,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W2040644507",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_RHETORIC_INTENSITY",
+    "sub_mechanism": "RHETORIC_INTENSITY",
+    "outcome": "fertility (policy-implied)",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "qualitative",
+    "reason": "Italy: examines nationalist framing of fertility as demographic emergency; traces how pronatalist rhetoric ('social Viagra') shapes fertility policy bundled with transfers and reproductive restrictions.",
+    "title": "Fertility Politics as \u201cSocial Viagra\u201d: Reproducing Boundaries, Social Cohesion, and Modernity in Italy",
+    "doi": "https://doi.org/10.1525/aa.2007.109.2.350",
+    "year": 2007,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 52
+  },
+  {
+    "id": "https://openalex.org/W7135410529",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_PATRIOTIC_FRAMING_MICRO",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "support for selective and general pronatalism policies",
+    "identification": "FRAMING_EXPERIMENT",
+    "evidence_type": "observational",
+    "reason": "Tests Christian nationalism and national identity framing \u2192 support for selective pronatalism; uses nationally representative survey with experimental wording component.",
+    "title": "The Right Kind of Children: Christian Nationalism, Religiosity, and Support for Selective Versus General Pronatalism",
+    "doi": "https://doi.org/10.1111/jssr.70034",
+    "year": 2026,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 4
+  },
+  {
+    "id": "https://openalex.org/W2891880903",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "RHETORIC_INTENSITY",
+    "outcome": "fertility",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "descriptive",
+    "reason": "Germany: pronatalist policy framed through nationalist concerns about population 'quality'; bundles ideology with employment/family support transfers; policy description, not causal estimate.",
+    "title": "Demographische Frage, \u201eQualit\u00e4t\u201c der Bev\u00f6lkerung und pronatalistische Politik \u2013 ungleichheitssoziologisch betrachtet",
+    "doi": "https://doi.org/10.32387/prokla.v37i146.526",
+    "year": 2007,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 6
+  },
+  {
+    "id": "https://openalex.org/W2494616202",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_RHETORIC_INTENSITY",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "fertility",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "descriptive",
+    "reason": "Addresses Fascist regime's ideological effort to inject 'totalitarian spirit' and reshape Italian consciousness via pronatalist and martial culture; historical narrative without quasi-experimental isolation.",
+    "title": "The realization of totalitarian demography I: Spatial population management",
+    "doi": "https://doi.org/10.1017/cbo9780511581953.005",
+    "year": 1996,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W4292708053",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "RHETORIC_INTENSITY",
+    "outcome": "fertility",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "qualitative",
+    "reason": "Examines pronatalist ideology as social engineering in 1960s\u201370s Romania via selective welfare incentives designed to favor urban working class; ideology and transfers inseparably bundled (upper bound on ideational channel).",
+    "title": "Whose Children?",
+    "doi": "https://doi.org/10.4324/9781003161080-7",
+    "year": 2022,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W4404353053",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_PATRIOTIC_FRAMING_MICRO",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "childlessness/refusal to reproduce",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "qualitative",
+    "reason": "Examines reproductive decisions of women in context of nationalist ideology instrumentalizing motherhood; literary analysis of resistance to pronatalist framing.",
+    "title": "Choosing Childlessness: Familial and National Acts of Resistance in Preti Taneja\u2019s We That Are Young (2017)",
+    "doi": "https://doi.org/10.1007/978-3-031-66697-1_10",
+    "year": 2024,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W4293603672",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_RHETORIC_INTENSITY",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "number of children, completed fertility",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "qualitative",
+    "reason": "Russian state pronatalist ideology and conservative gender ideology \u2192 women's fertility choices; documents how 'pragmatic individualism' contradicts state pronatalism.",
+    "title": "How the Everyday Logic of Pragmatic Individualism Undermines Russian State Pronatalism",
+    "doi": "https://doi.org/10.17645/si.v10i3.5272",
+    "year": 2022,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 3
+  },
+  {
+    "id": "https://openalex.org/W7127432704",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_PATRIOTIC_FRAMING_MICRO",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "childlessness",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "qualitative",
+    "reason": "Voluntary childlessness in strongly pronatalist Israeli society; examines how patriotic-duty framing affects fertility behavior through women's resistance.",
+    "title": "Beyond motherhood: understanding the lives of voluntarily childless women in a pronatalist society",
+    "doi": "https://doi.org/10.1080/13691058.2026.2618746",
+    "year": 2026,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 2
+  },
+  {
+    "id": "https://openalex.org/W2033202677",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "NA",
+    "outcome": "fertility transition onset and progress",
+    "identification": "NATURAL_EXPERIMENT",
+    "evidence_type": "quasi-experimental",
+    "reason": "Examines Soviet-era pronatalist policies (minimal effect on fertility transition); ideology inseparable from social development programs.",
+    "title": "Nuptiality, Fertility, Use of Contraception, and Family Policies in Uzbekistan",
+    "doi": "https://doi.org/10.1080/0032472031000149056",
+    "year": 1996,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 26
+  },
+  {
+    "id": "https://openalex.org/W2462680527",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "above-replacement period and cohort fertility",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Identifies off nationalist ideology (women as biological reproducers of nation) bundled inseparably with state/family financial support.",
+    "title": "An investigation of the unexpectedly high fertility of secular, native-born Jews in Israel",
+    "doi": "https://doi.org/10.1080/00324728.2016.1195913",
+    "year": 2016,
+    "source_channels": [
+      "keyword_production",
+      "forward_citation"
+    ],
+    "cited_by_count": 38
+  },
+  {
+    "id": "https://openalex.org/W2059465947",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "NA",
+    "outcome": "period total fertility rate; cohort fertility",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "descriptive",
+    "reason": "Evaluates Russian pronatalist policy packages on fertility; cannot isolate ideological effects from transfers.",
+    "title": "The Apparent Failure of Russia's Pronatalist Family Policies",
+    "doi": "https://doi.org/10.1111/j.1728-4457.2013.00631.x",
+    "year": 2013,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 68
+  },
+  {
+    "id": "https://openalex.org/W7135797133",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "NA",
+    "outcome": "fertility indicators by age and cohort",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Examines Eastern bloc pronatalist policy effects on fertility; policies bundled family allowances, birth payments, and abortion restrictions.",
+    "title": "Pronatalist population policy in the 1970s in the countries of Eastern block",
+    "doi": null,
+    "year": 2021,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W3136569828",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "NA",
+    "outcome": "fertility rates, births by age and region",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Evaluates Russian pronatalist policy package (financial support, mortgage, maternity funds, childcare) on fertility; cannot isolate ideology from transfers.",
+    "title": "REFLECTION OF DEMOGRAPHIC POLICY IN FERTILITY RATES IN RUSSIA",
+    "doi": "https://doi.org/10.34022/2658-3712-2021-42-1-75-85",
+    "year": 2021,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 8
+  },
+  {
+    "id": "https://openalex.org/W10549867",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_COERCION",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "fertility levels",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "qualitative",
+    "reason": "Documents Bulgarian socialist pronatalist policies including 1968 abortion ban bundled with ideological messaging; notes fertility continued to decline despite measures.",
+    "title": "'Creating a Socialist Way of Life': Family and Reproduction Policies in Socialist Bulgaria (1944-1989)",
+    "doi": null,
+    "year": 2004,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W4416623091",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "implied: fertility or population-related behavior",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "qualitative",
+    "reason": "Historical analysis of agrarian populism and pronatalist-nationalist ideology in interwar Turkey and Nazi Germany; documents ideology and bundled policies but unclear if empirical fertility estimates provided.",
+    "title": "Blood, Soil, and Fertility",
+    "doi": "https://doi.org/10.4324/9781003622000-11",
+    "year": 2025,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W195578667",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_COERCION",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "fertility / birth rates",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "descriptive",
+    "reason": "Comparative review of Eastern European and French pronatalist policies including bundled ideology, abortion bans, and incentives; notes modest transient fertility recovery but continued decline.",
+    "title": "Pronatalist policies in Eastern Europe and France.",
+    "doi": null,
+    "year": 1983,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 2
+  },
+  {
+    "id": "https://openalex.org/W2275798326",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_RHETORIC_INTENSITY",
+    "sub_mechanism": "NA",
+    "outcome": "TFR and fertility decline",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "descriptive",
+    "reason": "Describes pronatalist cultural values in Pacific populations and their correlation with high fertility and resistance to decline; no exogenous identification strategy.",
+    "title": "Pacific population: problems and prospects.",
+    "doi": null,
+    "year": 1982,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W1763915767",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "NA",
+    "outcome": "births (37% increase 1976\u20131980)",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "descriptive",
+    "reason": "East German pro-natalist measures (1976+) with bundled transfers; fertility outcome documented but cannot separate ideology from social legislation favoring single mothers.",
+    "title": "The effects of family policies in the German Democratic Republic: a re-evaluation.",
+    "doi": null,
+    "year": 1990,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 12
+  },
+  {
+    "id": "https://openalex.org/W4298241326",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_COERCION",
+    "sub_mechanism": "NA",
+    "outcome": "birth rate",
+    "identification": "UNCLEAR",
+    "evidence_type": "descriptive",
+    "reason": "Bulgarian demographic development and nationalist-motivated anti-Malthusianism; policy bundles nationalist ideology with restrictions on contraception and abortion, cannot separate channels.",
+    "title": "Demographische Entwicklung und Bev\u00f6lkerungspolitik in Bulgarien",
+    "doi": "https://doi.org/10.1515/soeu-1986-350202",
+    "year": 1986,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W155818704",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_RHETORIC_INTENSITY",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "mean family size and parity progression",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Pronatalist sentiments and ethnic cultural identity as determinants of Mexican-American fertility; cross-sectional regression without exogenous variation.",
+    "title": "ETHNICITY AND FERTILITY: THE FERTILITY EXPECTATIONS AND FAMILY SIZE OF MEXICAN-AMERICAN AND ANGLO ADOLESCENTS AND ADULTS, HUSBANDS AND WIVES (BIRTHS, HISPANIC).",
+    "doi": null,
+    "year": 1985,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W2106365409",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "NA",
+    "outcome": "fertility patterns and completed fertility",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Israeli fertility model with social conformity norms to childbearing bundled inseparably with child allowances; cannot separate ideological from transfer mechanisms.",
+    "title": "Private Incentives and Social Interactions: Fertility Puzzles in Israel",
+    "doi": "https://doi.org/10.1162/154247603322256800",
+    "year": 2003,
+    "source_channels": [
+      "backward_reference"
+    ],
+    "cited_by_count": 88
+  },
+  {
+    "id": "https://openalex.org/W2300462616",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "NA",
+    "outcome": "fertility and mortality rates",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "descriptive",
+    "reason": "Bulgarian fertility dynamics with pro-natalist policy (1960\u20131983); before/after comparison confounded with policy mix, cannot isolate ideological channel.",
+    "title": "[The status and dynamics of fertility and mortality in Bulgaria].",
+    "doi": null,
+    "year": 1985,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W4247371836",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_RHETORIC_INTENSITY",
+    "sub_mechanism": "NA",
+    "outcome": "third and higher-order births",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Ecological analysis of pronatalist value sets (religious/ethnic) in NSW regions and third+ fertility; identifies correlation but no exogenous variation.",
+    "title": "Higher Order Nuptial Fertility in New South Wales, 1996: context, process, implications",
+    "doi": "https://doi.org/10.1080/00049180124090",
+    "year": 2001,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W7201994023",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_PATRIOTIC_FRAMING_MICRO",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "fertility intentions",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "qualitative",
+    "reason": "Qualitative interviews examining individuals' awareness of pronatalist framing and resistance strategies in Hungary; documents ideological exposure and fertility-intention responses but without exogenous variation.",
+    "title": "I would never have a third kid : pronatal awareness, resistance, and strategic compliance in Hungary and the United States",
+    "doi": "https://doi.org/10.60644/7597",
+    "year": 2019,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W2091848200",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_RHETORIC_INTENSITY",
+    "sub_mechanism": "RHETORIC_INTENSITY",
+    "outcome": "fertility policies; TFR",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Analyzes relationship between nationalist ideologies and pronatalist programs in France, Romania, Singapore, Israel; cross-national comparison of policy rhetoric without exogenous variation.",
+    "title": "Demographic trends, pronatalism, and nationalist ideologies in the late twentieth century",
+    "doi": "https://doi.org/10.1080/01419870020036701d",
+    "year": 2002,
+    "source_channels": [
+      "keyword_production",
+      "forward_citation"
+    ],
+    "cited_by_count": 57
+  },
+  {
+    "id": "https://openalex.org/W4390344398",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_COERCION",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "reproductive choices; fertility",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "historical",
+    "reason": "Historical analysis of Cuban state's use of nationalist ideology and reproductive coercion targeting racial groups; documents bundled ideology-coercion mechanism.",
+    "title": "Race and Reproduction in Cuba",
+    "doi": "https://doi.org/10.1215/00182168-11085669",
+    "year": 2023,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W7110577124",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_PATRIOTIC_FRAMING_MICRO",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "birth rate attitudes and intentions",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "qualitative",
+    "reason": "Qualitative study of Russian public attitudes toward state pronatalist measures and childbearing during COVID; no exogenous variation or experimental design; observational only.",
+    "title": "\u0412\u0437\u0433\u043b\u044f\u0434\u044b \u043d\u0430\u0441\u0435\u043b\u0435\u043d\u0438\u044f \u0440\u0435\u0433\u0438\u043e\u043d\u043e\u0432 \u0420\u0424 \u043d\u0430 \u0440\u043e\u0436\u0434\u0430\u0435\u043c\u043e\u0441\u0442\u044c \u0432 \u0443\u0441\u043b\u043e\u0432\u0438\u044f\u0445 \u043f\u0430\u043d\u0434\u0435\u043c\u0438\u0438: \u0440\u0435\u0437\u0443\u043b\u044c\u0442\u0430\u0442\u044b \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0433\u043e \u0438\u0441\u0441\u043b\u0435\u0434\u043e\u0432\u0430\u043d\u0438\u044f",
+    "doi": null,
+    "year": null,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W622241810",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "birth rate and completed family size",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "descriptive",
+    "reason": "Conference proceedings review of Hungarian pronatalist policies; policies bundled with financial transfers (family allowances); timing effects found but limited family-size impact; cannot separate ideology from transfers.",
+    "title": "Population and population policy in Hungary",
+    "doi": null,
+    "year": 1984,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 1
+  },
+  {
+    "id": "https://openalex.org/W4295925532",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "fertility intentions and benefit access decisions",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "qualitative",
+    "reason": "Women navigating Hungary's pronatalist regime bundled inseparably with financial transfers; women trade off patriotic framing and benefits against reproduction costs, but ideology cannot be separated from cash.",
+    "title": "Risk, Reward, and Resistance: Navigating Work and Family under Hungary\u2019s New Pronatalism",
+    "doi": "https://doi.org/10.1093/sp/jxac033",
+    "year": 2022,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 6
+  },
+  {
+    "id": "https://openalex.org/W3087680262",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_COERCION",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "fertility policy (denial of contraception/abortion access)",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "historical",
+    "reason": "Greek state biopolitics bundled pronatalist ideology with denial of abortion/contraception access; cannot separate ideological framing from legal coercion.",
+    "title": "Issues of biopolitics of reproduction in post-war Greece",
+    "doi": "https://doi.org/10.1016/j.shpsc.2020.101276",
+    "year": 2020,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 1
+  },
+  {
+    "id": "https://openalex.org/W2977254390",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_RHETORIC_INTENSITY",
+    "sub_mechanism": "RHETORIC_INTENSITY",
+    "outcome": "fertility by birth order, share of second/subsequent births",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Before-after correlation between Ukraine's pronatalist policy intensification (2006\u20132012) and structural fertility increases, but no exogenous shock or control group for clean identification.",
+    "title": "\u0420\u043e\u0436\u0434\u0430\u0435\u043c\u043e\u0441\u0442\u044c \u043f\u043e \u043e\u0447\u0435\u0440\u0435\u0434\u043d\u043e\u0441\u0442\u0438 \u0440\u043e\u0436\u0434\u0435\u043d\u0438\u044f \u0432 \u0423\u043a\u0440\u0430\u0438\u043d\u0435: \u0441\u0442\u0440\u0443\u043a\u0442\u0443\u0440\u043d\u044b\u0435 \u0441\u0434\u0432\u0438\u0433\u0438 \u043f\u043e\u0441\u043b\u0435\u0434\u043d\u0435\u0433\u043e \u043f\u044f\u0442\u043d\u0430\u0434\u0446\u0430\u0442\u0438\u043b\u0435\u0442\u0438\u044f",
+    "doi": null,
+    "year": 2017,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W7164626668",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_PATRIOTIC_FRAMING_MICRO",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "fertility_intentions",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "qualitative",
+    "reason": "Qualitative study examining how Singapore's state pronatalist discourses shape individual fertility intentions; documents cultural framing effects without exogenous variation.",
+    "title": "Beyond economic realities: negotiating fertility intentions within state discourse and lived realities",
+    "doi": null,
+    "year": 2026,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W3201566128",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "birth rate",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "qualitative",
+    "reason": "Russian pronatalist policy bundles ideology with 'cash for babies' transfers; cannot isolate ideational channel.",
+    "title": "Russian Pro-Natalist Policy and Its Hidden Dilemma",
+    "doi": "https://doi.org/10.31063/2073-6517/2021.18-3.5",
+    "year": 2021,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 2
+  },
+  {
+    "id": "https://openalex.org/W2553161712",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_RHETORIC_INTENSITY",
+    "sub_mechanism": "RHETORIC_INTENSITY",
+    "outcome": "population growth",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "descriptive",
+    "reason": "Documents Turkey's 1923\u20131955 pronatalist policy period and resulting population doubling; no causal isolation from economic/policy changes.",
+    "title": "1919-1955 YILLARI ARASINDA T\u00dcRK\u0130YE\u2019N\u0130N N\u00dcFUS YAPISI VE UYGULANAN N\u00dcFUS POL\u0130T\u0130KALARI",
+    "doi": null,
+    "year": 2016,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W4413913565",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_PATRIOTIC_FRAMING_MICRO",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "fertility intentions",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Individual national identity correlated with fertility intentions in Hungary; identified associationally, not experimentally.",
+    "title": "Sz\u00fclj a haz\u00e1\u00e9rt?",
+    "doi": "https://doi.org/10.15170/sq.2025.01.01.04",
+    "year": 2025,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W4390581990",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_COERCION",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "clandestine abortion; fertility resistance",
+    "identification": "UNCLEAR",
+    "evidence_type": "qualitative",
+    "reason": "Wartime Slovak state pronatalist ideology bundled inseparably with abortion criminalization; upper bound on ideational channel.",
+    "title": "In the Name of Helping Women: Women Against the Family Policy of the Slovak State",
+    "doi": "https://doi.org/10.1080/14790963.2023.2294409",
+    "year": 2023,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 1
+  },
+  {
+    "id": "https://openalex.org/W2956613644",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_PATRIOTIC_FRAMING_MICRO",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "fertility treatment decisions and intentions",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "qualitative",
+    "reason": "Examines how national/Jewish identity consciousness and fear of demographic loss shape fertility treatment choices in Israel.",
+    "title": "KAMPEN FOR OVERLEVELSE: Demografisk bevidsthed og forestillinger om forbundethed i den israelsk-j\u00f8diske",
+    "doi": "https://doi.org/10.7146/ta.v0i50.106933",
+    "year": 2004,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W2922848352",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_PATRIOTIC_FRAMING_MICRO",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "fertility rebound post-massacre",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "qualitative",
+    "reason": "Community-led pronatalist ideology encourages fertility among massacre survivors; identified associationally through ethnographic reconstruction.",
+    "title": "Beyond excess mortality: the demographic life of aMayan community after a war of massacres",
+    "doi": null,
+    "year": 2018,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W7172428743",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "abortion-seeking behavior",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "qualitative",
+    "reason": "Qualitative study of abortion decisions in Iran's pronatalist policy environment; cannot isolate ideology from transfers in bundled policy package.",
+    "title": "Exploring the reasons behind induced abortion among Iranian couples: a qualitative study",
+    "doi": "https://doi.org/10.1136/bmjopen-2025-113236",
+    "year": 2026,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W2485307334",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "birth rate",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "descriptive",
+    "reason": "Describes Russia's 2006 pronatalist package (child benefits, maternity leave, cash payments); bundles ideology with large financial transfers inseparably.",
+    "title": "The Demographic Transformation of Post-Socialist Countries: Causes, Consequences, and Questions",
+    "doi": "https://doi.org/10.1057/9780230361836_3",
+    "year": 2012,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 14
+  },
+  {
+    "id": "https://openalex.org/W7167103170",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "cohort fertility and births per woman",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "quasi-experimental",
+    "reason": "Estimates Russia's 2006\u20132024 pronatalist policy effect at 0.1 births/woman; policies bundle ideology with transfers, preventing ideology isolation.",
+    "title": "The Long-Term Transformation of Russia\u2019s Fertility Pattern and Demographic Policy in 2006\u20132024",
+    "doi": "https://doi.org/10.31063/altereconomics/2026.23-2.10",
+    "year": 2026,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W2023460849",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_COERCION",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "fertility after policy reversal",
+    "identification": "NATURAL_EXPERIMENT",
+    "evidence_type": "quasi-experimental",
+    "reason": "Argues mid-20th-century Eastern European pronatalist policies interrupted fertility decline; policies bundled ideology with restrictions (e.g., Romania 1966).",
+    "title": "History, Population Policies, and Fertility Decline in Eastern Europe",
+    "doi": "https://doi.org/10.1177/0363199006297732",
+    "year": 2007,
+    "source_channels": [
+      "keyword_production",
+      "forward_citation"
+    ],
+    "cited_by_count": 37
+  },
+  {
+    "id": "https://openalex.org/W4415296842",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_RHETORIC_INTENSITY",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "fertility rate decline",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "descriptive",
+    "reason": "Documents high official pronatalism and paternalism in Soviet Ukraine but notes attempts were ineffective; attributes fertility decline to urbanization, female employment, and abortion access rather than ideology.",
+    "title": "Birth Rates and Demographic Policy in Ukraine During the 1950s \u2013 1980s",
+    "doi": "https://doi.org/10.17721/2518-1270.2025.77.15",
+    "year": 2025,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W579571569",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_PATRIOTIC_FRAMING_MICRO",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "fertility behavior and intentions",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Survey and interviews document how Buddhist national/ethnic identity and political mobilization around culture loss associate with fertility decisions; no exogenous variation.",
+    "title": "The Politics of Fertility: Population and Pronatalism in Ladakh",
+    "doi": null,
+    "year": 2013,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 18
+  },
+  {
+    "id": "https://openalex.org/W2142811665",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "total fertility rate",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "quasi-experimental",
+    "reason": "Examines Israeli pronatalist policies' effects on fertility across ethnic/religious groups; bundles ideology with financial transfers (child allowances) without clear separation.",
+    "title": "The failure of pronatalism in developed states \u2018with cultural\u2013ethnic hegemony\u2019: the Israeli lesson",
+    "doi": "https://doi.org/10.1002/psp.476",
+    "year": 2008,
+    "source_channels": [
+      "keyword_production",
+      "forward_citation"
+    ],
+    "cited_by_count": 3
+  },
+  {
+    "id": "https://openalex.org/W7112881809",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "NA",
+    "outcome": "TFR increase and maintained births",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "descriptive",
+    "reason": "Describes Hungarian pronatalist policy package (Family Protection Action Plan) and reports TFR increase; bundled ideology with financial transfers.",
+    "title": "Magyar csal\u00e1dpolitikai folyamatok a Csal\u00e1dv\u00e9delmi Akci\u00f3terv 2019. szeptember v\u00e9g\u00e9n rendelkez\u00e9sre \u00e1ll\u00f3 eredm\u00e9nyeinek t\u00fckr\u00e9ben = Hungarian Family Policy Processes in Light of the Results of the Family Protection Action Plan Available at the End of September 2019",
+    "doi": null,
+    "year": 2019,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W210596440",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_PATRIOTIC_FRAMING_MICRO",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "actual number of children",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "qualitative",
+    "reason": "Ethnographic study of Palestinian women's fertility choices under nationalist-pronatalist ideology (PLO demographic framing); finds ideology has limited effect as women employ contraception despite framing.",
+    "title": "Birthing the Nation: Strategies of Palestinian Women in Israel",
+    "doi": null,
+    "year": 2003,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 3
+  },
+  {
+    "id": "https://openalex.org/W3111768561",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_PATRIOTIC_FRAMING_MICRO",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "Marriage and fertility aspirations; fertility preferences",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Pronatalist attitudes correlate with young women's fertility and marriage preferences; associational only, cross-sectional design, measures attitudes not exposure to campaign.",
+    "title": "Marriage and Fertility Preferences among Young Women in China: Changes over Time",
+    "doi": "https://doi.org/10.1177/0192513x20980040",
+    "year": 2020,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 33
+  },
+  {
+    "id": "https://openalex.org/W4412593084",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_PATRIOTIC_FRAMING_MICRO",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "Support for medically assisted reproduction",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Nationalist sentiment and concerns about population decline correlate with support for fertility treatment; attitudes toward reproduction correlate with nationalism; not identified causal effect.",
+    "title": null,
+    "doi": "https://doi.org/10.17645/si.i523",
+    "year": 2025,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W4236116901",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "IVF uptake and treatment persistence",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Israeli women's high IVF commitment described as rooted in 'Jewish pronatalism and consistent state support'; ideology bundled inseparably with state funding of fertility treatment; cannot isolate ideational from financial channel.",
+    "title": "Female fertility: basic research",
+    "doi": "https://doi.org/10.1093/humrep/dem1104",
+    "year": 2007,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W2298917141",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_COERCION",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "Fertility and birth rates",
+    "identification": "UNCLEAR",
+    "evidence_type": "observational",
+    "reason": "Iran's pronatalist policy shift after 1979 Revolution bundled with suspension of family planning and eight-year war; ideology, coercion (contraception restriction), and warfare inseparably mixed; cannot isolate ideology.",
+    "title": "Unintended pregnancies in the Islamic Republic of Iran: Levels and correlates",
+    "doi": "https://doi.org/10.18356/8813ed72-en",
+    "year": 2004,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 31
+  },
+  {
+    "id": "https://openalex.org/W7160511991",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_PATRIOTIC_FRAMING_MICRO",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "fertility preferences",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Examines ethnic-nationalist identity and pronatalist fertility ideals among politically discriminated groups in ethnonationalist conflict; measures fertility preferences, not causal effect via clean identification.",
+    "title": "Yearning for a Bigger Population? The Relevance of Ethnic Minority Status for Fertility in Ethiopia",
+    "doi": "https://doi.org/10.17045/sthlmuni.32205072",
+    "year": 2026,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W2283792508",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "fertility, population growth",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "qualitative",
+    "reason": "Examines Canadian/Quebec pronatalist policy with explicit nationalist framing ('preserve Quebec culture through population growth'); bundles ideology with financial transfers; also critiques state racial/ethnic targeting in fertility control.",
+    "title": "Population ideology: a Canadian perspective.",
+    "doi": null,
+    "year": 1994,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W4378783659",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_PATRIOTIC_FRAMING_MICRO",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "total fertility rate, fertility behavior",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "qualitative",
+    "reason": "Rohingya fertility and 'politically motivated' pronatalist attitudes to expand ethnic-national group; documents nationalism-driven framing as mechanism for high fertility via qualitative interviews without clean causal identification.",
+    "title": "Understanding fertility behavior of the Forcibly Displaced Myanmar Nationals in Bangladesh: A qualitative study",
+    "doi": "https://doi.org/10.1371/journal.pone.0285675",
+    "year": 2023,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 12
+  },
+  {
+    "id": "https://openalex.org/W2419673724",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_RHETORIC_INTENSITY",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "fertility timing, marriage timing, birth rate",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Documents WWII Japanese pronatalist policies and post-war fertility control alongside shifts in marriage and childbearing timing; timing association demonstrated but causality confounded by wartime/post-war structural changes.",
+    "title": "[[Demographic life stages of Japanese women: cohort trends and socioeconomic variations]].",
+    "doi": null,
+    "year": 1990,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W4303001581",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_COERCION",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "births, natural increase rate (3.9%)",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "descriptive",
+    "reason": "Documents Iraq's pronatalist measures (state-set goal of 4+ children per woman, maternity leave) bundled inseparably with contraceptive restrictions; cannot separate ideology from coercion.",
+    "title": "Spotlight: Iraq.",
+    "doi": null,
+    "year": 1990,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W2287027967",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_COERCION",
+    "sub_mechanism": "RHETORIC_INTENSITY",
+    "outcome": "fertility trends, completed fertility",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Documents that Eastern European pronatalist legislation and abortion-law changes co-vary with fertility changes in FDT period; pronatalist effects bundled inseparably with legal restrictions on abortion/contraception.",
+    "title": "La f\u00e9condit\u00e9 en Europe de l'Est depuis 1950",
+    "doi": "https://doi.org/10.2307/1533404",
+    "year": 1991,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 3
+  },
+  {
+    "id": "https://openalex.org/W2000661299",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_COERCION",
+    "sub_mechanism": "NA",
+    "outcome": "births",
+    "identification": "NATURAL_EXPERIMENT",
+    "evidence_type": "quasi-experimental",
+    "reason": "Depo-Provera ban combines nationalist self-assertion with contraceptive restriction inseparably (Wall 2); upper bound on ideological effects.",
+    "title": "A threat to the nation and a threat to the men: the banning of Depo\u2010Provera in Zimbabwe, 1981",
+    "doi": "https://doi.org/10.1080/03057079808708580",
+    "year": 1998,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 41
+  },
+  {
+    "id": "https://openalex.org/W3183318916",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_RHETORIC_INTENSITY",
+    "sub_mechanism": "RHETORIC_INTENSITY",
+    "outcome": "reproductive and childcare policies, demographic sustainability",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "qualitative",
+    "reason": "Analyzes how pronatalist framing activated in Czech policy debates influences reproductive/childcare policies and demographic outcomes.",
+    "title": "Children of the state?",
+    "doi": "https://doi.org/10.7765/9781526150226.00019",
+    "year": 2021,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 3
+  },
+  {
+    "id": "https://openalex.org/W1996850572",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_RHETORIC_INTENSITY",
+    "sub_mechanism": "NA",
+    "outcome": "fertility",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "observational",
+    "reason": "Tests minority status combined with pronatalism as predictor of fertility differences; associational only without experimental manipulation.",
+    "title": "Minority-Group Status and Fertility: A More Detailed Test of the Hypothesis",
+    "doi": "https://doi.org/10.1111/j.1533-8525.1984.tb00204.x",
+    "year": 1984,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 20
+  },
+  {
+    "id": "https://openalex.org/W7204184726",
+    "verdict": "RELEVANT",
+    "estimand_cell": "PRIMARY_PATRIOTIC_FRAMING_MICRO",
+    "sub_mechanism": "PATRIOTIC_FRAMING",
+    "outcome": "fertility intentions, desired family size, ideal family size",
+    "identification": "FRAMING_EXPERIMENT",
+    "evidence_type": "quasi-experimental",
+    "reason": "Survey experiment randomizes ethnic identity/demographic continuity framing versus economic framing versus control to test effects on fertility preferences.",
+    "title": "Does Ethnic Threat Shape Fertility Preferences? Experimental Evidence from Israel",
+    "doi": "https://doi.org/10.17605/osf.io/6dzqj",
+    "year": 2026,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W7112448407",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_TRANSFER",
+    "sub_mechanism": "HONORIFIC_AWARDS",
+    "outcome": "high-parity births",
+    "identification": "NATURAL_EXPERIMENT",
+    "evidence_type": "quasi-experimental",
+    "reason": "Quasi-experiment on Mongolia's Order of Glorious Mother program; exogenous change in award criteria; award bundles ideology (honorific) with financial transfers; identifies upper bound on ideational channel.",
+    "title": "Do Financial Incentives on High Parity Birth Affect Fertility? Evidence from the Order of Glorious Mother in Mongolia",
+    "doi": null,
+    "year": null,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 0
+  },
+  {
+    "id": "https://openalex.org/W2019707186",
+    "verdict": "RELEVANT",
+    "estimand_cell": "MIXED_IDEOLOGY_COERCION",
+    "sub_mechanism": "PROPAGANDA_CAMPAIGN",
+    "outcome": "birth timing, completed cohort fertility",
+    "identification": "ASSOCIATIONAL_ONLY",
+    "evidence_type": "historical",
+    "reason": "Soviet pronatalist propaganda (1930s-40s) bundled inseparably with abortion/contraception restrictions; abstract reports propaganda 'failed to yield serious effects' but 1980s maternity policies shifted birth timing.",
+    "title": "Russian Federation: From the first to second demographic transition",
+    "doi": "https://doi.org/10.4054/demres.2008.19.24",
+    "year": 2008,
+    "source_channels": [
+      "keyword_production"
+    ],
+    "cited_by_count": 186
+  }
+]

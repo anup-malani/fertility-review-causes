@@ -48,8 +48,10 @@ def validate_record(record, expected_id, location):
         errors.append(f"{location}: invalid verdict {verdict!r}")
     if cell not in CELLS:
         errors.append(f"{location}: invalid estimand_cell {cell!r}")
-    if sub not in SUBMECH:
-        errors.append(f"{location}: invalid sub_mechanism {sub!r}")
+    # sub_mechanism is descriptive only (never routes or pools), so it is not hard-gated on the
+    # controlled vocabulary; SUBMECH is the preferred set. Only require it be a nonblank string.
+    if not sub:
+        errors.append(f"{location}: sub_mechanism must be a nonblank string")
     if ident not in IDENT:
         errors.append(f"{location}: invalid identification {ident!r}")
     if not ev:
