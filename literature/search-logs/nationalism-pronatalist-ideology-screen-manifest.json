@@ -1,0 +1,516 @@
+{
+  "slug": "nationalism-pronatalist-ideology",
+  "stage": "blinded_title_abstract_screen_input",
+  "source": "literature/search-logs/nationalism-pronatalist-ideology-screen-frame.json",
+  "source_sha256": "ab37494023e514ee9fc98b4a3c2191df4892c7af2faa7ec87a7ecf9960c4894d",
+  "seed": 931,
+  "batch_size": 40,
+  "n_records": 2867,
+  "n_batches": 72,
+  "manifest": [
+    {
+      "batch": 1,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_001.json",
+      "input_sha256": "5511ac55d8c1d09cdcd8ed8aafbe3ca83ded77d121727e094d19dcba315c9daf",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_001.json"
+    },
+    {
+      "batch": 2,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_002.json",
+      "input_sha256": "1fba8a21952a53cf0b978003dbdf0b0652b04abf23625a107324970875e54f78",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_002.json"
+    },
+    {
+      "batch": 3,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_003.json",
+      "input_sha256": "875172fafc16931155222fe1952fd0f79168c4929640d3c87ddc5761f8e920ae",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_003.json"
+    },
+    {
+      "batch": 4,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_004.json",
+      "input_sha256": "1c4076730d22987d511dfa0e262ef5dd2e7d1306e37ee9857db2dd5265a441a8",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_004.json"
+    },
+    {
+      "batch": 5,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_005.json",
+      "input_sha256": "dca1335030174758c1a1132866f83febd29623bafb0eaa7252639d11309a2127",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_005.json"
+    },
+    {
+      "batch": 6,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_006.json",
+      "input_sha256": "a49cce36da0318c05b6f850424843965a9e16ff16948c25fbc4ac6fa29a9cea5",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_006.json"
+    },
+    {
+      "batch": 7,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_007.json",
+      "input_sha256": "23e3a940cc15c274fe8a31ad5db885902c0d5466a1245518b3499112d830eb21",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_007.json"
+    },
+    {
+      "batch": 8,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_008.json",
+      "input_sha256": "310ec4aec1dcfc89bd1d6099ac345d05b2c1de3c56a819e7eee9f6d0c4dcb270",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_008.json"
+    },
+    {
+      "batch": 9,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_009.json",
+      "input_sha256": "6b056390dc7581e60adee3c80caf060ea642421de874b23a8895832f01f7e621",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_009.json"
+    },
+    {
+      "batch": 10,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_010.json",
+      "input_sha256": "8a1bbcc74698f989299f1dbb3438c5752d48430c717aa372bb20458a5afc1541",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_010.json"
+    },
+    {
+      "batch": 11,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_011.json",
+      "input_sha256": "201c656e042250bdc93ecbed3fd8970381b32568e19c91435dfb52e26c43b830",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_011.json"
+    },
+    {
+      "batch": 12,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_012.json",
+      "input_sha256": "04b8a8ad582ff46caf355ff7700d899bd4616fca816ac8cd6cb28ee4ce15d6a6",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_012.json"
+    },
+    {
+      "batch": 13,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_013.json",
+      "input_sha256": "d1d276accdc3ef05f8579f6706d8bc0bf2fa0129085b7ab72f2663a08970840c",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_013.json"
+    },
+    {
+      "batch": 14,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_014.json",
+      "input_sha256": "3678d35503ea3841540520ad9d6f03b940d0047d4aa64075b62fc575fc990650",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_014.json"
+    },
+    {
+      "batch": 15,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_015.json",
+      "input_sha256": "b794c2c2717d0e8aff2b6975f7bb89d82d38bad035f46a611f928ff3a7b1e1b0",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_015.json"
+    },
+    {
+      "batch": 16,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_016.json",
+      "input_sha256": "6bcda5f169fe174ff18258c93a3f997d6ffdf79401938cddc75bdf3e9a5be98c",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_016.json"
+    },
+    {
+      "batch": 17,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_017.json",
+      "input_sha256": "72e558b962aaaddbfa4996e526131d7c1a3c89379fa3f9a2e44eb6799c641452",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_017.json"
+    },
+    {
+      "batch": 18,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_018.json",
+      "input_sha256": "86835b3a20ed9721dc2eaf28ac0740297cbc3d501cba554e57d8640b6714ddfe",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_018.json"
+    },
+    {
+      "batch": 19,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_019.json",
+      "input_sha256": "c7b53775453f7bdc2d8a1ca339888ef6f39cd6796944b1a081725c8dadc07de0",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_019.json"
+    },
+    {
+      "batch": 20,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_020.json",
+      "input_sha256": "1f6491b05e86760d57aa1339828381ab41a07992401b0e2d22a89cd601e3100c",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_020.json"
+    },
+    {
+      "batch": 21,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_021.json",
+      "input_sha256": "575ef35a5874f18f577fb67c1021eca3c58bb03414ae308e750192bfd655feea",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_021.json"
+    },
+    {
+      "batch": 22,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_022.json",
+      "input_sha256": "c01a772d18e5897e4c069d72377e12d93b20f5a3db90592564017c0b8b31371b",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_022.json"
+    },
+    {
+      "batch": 23,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_023.json",
+      "input_sha256": "39c0b1f020e3643412d343bc235f7d6214a278d9c72be52de3b2b095ab7a6a07",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_023.json"
+    },
+    {
+      "batch": 24,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_024.json",
+      "input_sha256": "a314009a1653b8c64cc885189d666c96dc1f610eba22442057c9949db107cb4e",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_024.json"
+    },
+    {
+      "batch": 25,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_025.json",
+      "input_sha256": "8cf955e2e8b2b8fbb8d405662a5b7cc9b76170f04ee9d49afce18078765bd863",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_025.json"
+    },
+    {
+      "batch": 26,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_026.json",
+      "input_sha256": "ceccba57fe1858903adbb5091465044f001d32c17908991bfeb8adc3c94cc8cd",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_026.json"
+    },
+    {
+      "batch": 27,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_027.json",
+      "input_sha256": "128b29672a572b56e07271d8ac5fdae55ce963fc3ac95fc089e76f845d500625",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_027.json"
+    },
+    {
+      "batch": 28,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_028.json",
+      "input_sha256": "062d914760ae4c14f4b9986ac48ef0b0f2c44d822baa12d61d81b018bb175880",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_028.json"
+    },
+    {
+      "batch": 29,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_029.json",
+      "input_sha256": "d0a0c4fe7a35819d91f3257b186df852ce2adae866b8eae167a1fedbf5891d08",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_029.json"
+    },
+    {
+      "batch": 30,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_030.json",
+      "input_sha256": "1a95b4646e753364b49947633030b08fe2eded924a3858f48cfa478149e3dd04",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_030.json"
+    },
+    {
+      "batch": 31,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_031.json",
+      "input_sha256": "bec9cfed7e4730ec37bd80f57d05b9bacc531cd52d3976c8358adfe2911077f6",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_031.json"
+    },
+    {
+      "batch": 32,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_032.json",
+      "input_sha256": "e49d8bda1d50322b74144cbfb20d4b3e42a96786b0848777e09f148bf18d8043",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_032.json"
+    },
+    {
+      "batch": 33,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_033.json",
+      "input_sha256": "70d64728831d2a721c47f5af09f95ffff4c57d5305c18d060ef2d56b7daa3f56",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_033.json"
+    },
+    {
+      "batch": 34,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_034.json",
+      "input_sha256": "bf02ccaf96f21e59b018f4f333d09fff394d9010c936836b254e6e8030c9c066",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_034.json"
+    },
+    {
+      "batch": 35,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_035.json",
+      "input_sha256": "8e69353cbfb4420e486034ff53f0b7ab75bebd53a90976ffa9cdccebd9ec01a9",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_035.json"
+    },
+    {
+      "batch": 36,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_036.json",
+      "input_sha256": "50da1c3d074d52db13266681861ae353d115af7e37276b47c668916b9abcea21",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_036.json"
+    },
+    {
+      "batch": 37,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_037.json",
+      "input_sha256": "7a5481f10510a9401b819a8671442a4ceeacba6cafb722d558413e96755a7ce4",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_037.json"
+    },
+    {
+      "batch": 38,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_038.json",
+      "input_sha256": "8e95a422cca60202eb278acbcf726318c653e7f0aa2dbc2076a492dde6611e99",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_038.json"
+    },
+    {
+      "batch": 39,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_039.json",
+      "input_sha256": "765eb2432a8d6781740c9a16394ee4e0b61e833f6c75768baece7e13a49cc2c1",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_039.json"
+    },
+    {
+      "batch": 40,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_040.json",
+      "input_sha256": "5245398a8a3aa27fddef56a0d71e2cd180866b89cac9c58415814317f274abaa",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_040.json"
+    },
+    {
+      "batch": 41,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_041.json",
+      "input_sha256": "e0b95fdd180457ab5f1acceb1c4a2977dc5a5d856668cfb2f30c39ddcfff72a1",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_041.json"
+    },
+    {
+      "batch": 42,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_042.json",
+      "input_sha256": "da6586051937a0810c888736dcaa91f8dbd7a02fe4123531dda6075130c04679",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_042.json"
+    },
+    {
+      "batch": 43,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_043.json",
+      "input_sha256": "8952cfca106508cff873534e824c6289c75f42420ea7c374acd5a409115475a0",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_043.json"
+    },
+    {
+      "batch": 44,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_044.json",
+      "input_sha256": "cac801f688296f805fb44256b7edbf831ef975b5a7b42270a58e803701d37748",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_044.json"
+    },
+    {
+      "batch": 45,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_045.json",
+      "input_sha256": "4b04a86e3095fc99c7656d832c3b7c298ba4919084d32f336efc6973773c27a9",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_045.json"
+    },
+    {
+      "batch": 46,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_046.json",
+      "input_sha256": "a33cccafb31713239d20540e685ecf13df05122d3e0fbf951490566a5da443a7",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_046.json"
+    },
+    {
+      "batch": 47,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_047.json",
+      "input_sha256": "8c3a58d9a8b25a1c921c7fc4c9fce2cd095ab261cf54e38bdd99ff6c4dc1dfe8",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_047.json"
+    },
+    {
+      "batch": 48,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_048.json",
+      "input_sha256": "49530058767d150d831ac06168bddb0456b5cbd4ee30c55022937637e373cdb1",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_048.json"
+    },
+    {
+      "batch": 49,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_049.json",
+      "input_sha256": "710054194e4ee019ddc8574c74dd9fa9af98eda0713bb2aa2cf73ce9fe8b13a7",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_049.json"
+    },
+    {
+      "batch": 50,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_050.json",
+      "input_sha256": "6e989d7c9c6af820f763cb605e2db5e0b0e089758d34eeb7133cfeee7ba78dd8",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_050.json"
+    },
+    {
+      "batch": 51,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_051.json",
+      "input_sha256": "213b4ef012e154d66dd9706614f894d282514b8a10571d3724b7957bd4ddce7e",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_051.json"
+    },
+    {
+      "batch": 52,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_052.json",
+      "input_sha256": "1bfb93d692129f7838a7699561bfecb8c7ea0489cb8e6eb606db194f7ee65013",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_052.json"
+    },
+    {
+      "batch": 53,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_053.json",
+      "input_sha256": "421c63bce7946027a00156538594deaa081a3c69d2ade287c6e4e86a672310a3",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_053.json"
+    },
+    {
+      "batch": 54,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_054.json",
+      "input_sha256": "2f9d8945ba95a506b3628a30a8ce8695d23b5db025fb6f49c745db9377be2d4b",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_054.json"
+    },
+    {
+      "batch": 55,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_055.json",
+      "input_sha256": "a23c098b277f50fb209678090924c6c03c3759d2a4f58847937a3a38df24f936",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_055.json"
+    },
+    {
+      "batch": 56,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_056.json",
+      "input_sha256": "8bc3e2b09d64058aebf70857e4b3206cae7cab5b4959fde731dcc6051a1539f8",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_056.json"
+    },
+    {
+      "batch": 57,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_057.json",
+      "input_sha256": "2001a1caf2061ddb7ae48f2c7b6e50fb2e449d6ea553ee2b77c3bf1152af634c",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_057.json"
+    },
+    {
+      "batch": 58,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_058.json",
+      "input_sha256": "b175e7ab0b2b9b747c647c671fd106f199d91295c2178cd7d30ee41a62e7f92f",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_058.json"
+    },
+    {
+      "batch": 59,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_059.json",
+      "input_sha256": "b005e862ad296199de55e396c97886f7dbfbf2177f769e7d908b7455140b67bb",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_059.json"
+    },
+    {
+      "batch": 60,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_060.json",
+      "input_sha256": "d66e1105740e39a4c9a660ae8b8168afe65ecd2a36249af79a5afd38d41942b8",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_060.json"
+    },
+    {
+      "batch": 61,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_061.json",
+      "input_sha256": "d055d8ed9353fdf803451927f92b940e5686b0ba67ce96f9dcb4b1e65f522a21",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_061.json"
+    },
+    {
+      "batch": 62,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_062.json",
+      "input_sha256": "f2b154d66f9aeeda613aa2fa1af59fb842d0c19f2c35244bdacb2b683184e56b",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_062.json"
+    },
+    {
+      "batch": 63,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_063.json",
+      "input_sha256": "e0dc07d9ba58136ce84188d248f0398e8d000cd394b0d30d61eff795a30e92a4",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_063.json"
+    },
+    {
+      "batch": 64,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_064.json",
+      "input_sha256": "61667443c7a1e95e98ee356375cbbaa83c50e7b84f8389815391615057e4b248",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_064.json"
+    },
+    {
+      "batch": 65,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_065.json",
+      "input_sha256": "babf98fd2ff5d008995b7f32a3930d8484f207eac75ef5a005e30ced7314974a",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_065.json"
+    },
+    {
+      "batch": 66,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_066.json",
+      "input_sha256": "5431f158e93cc89f9915e4939121f95485e89d427044152817e4c15aa045bcb0",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_066.json"
+    },
+    {
+      "batch": 67,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_067.json",
+      "input_sha256": "adf28b81a426f8bc1227e83fcef49573a2d9b307fbf9e663e434347302b19d59",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_067.json"
+    },
+    {
+      "batch": 68,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_068.json",
+      "input_sha256": "aec5830b7d9b88a323c05b00a42734c62d56fa7eb06d95a270fc598f63b517be",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_068.json"
+    },
+    {
+      "batch": 69,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_069.json",
+      "input_sha256": "d1c6556c5beb1b74e1b6efa0ebc6214f1745d834f3146ac36fba1c546d904c0e",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_069.json"
+    },
+    {
+      "batch": 70,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_070.json",
+      "input_sha256": "92c96ad5a48e2c4a40167e0600349c467a24d250dd5eb80f8b39e8338ede5369",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_070.json"
+    },
+    {
+      "batch": 71,
+      "n": 40,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_071.json",
+      "input_sha256": "1a241d26beca0f834a3d16d58048d6275dc756b2b97c79f5dfc798a89ec7aff2",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_071.json"
+    },
+    {
+      "batch": 72,
+      "n": 27,
+      "input": "temp/screen/nationalism-pronatalist-ideology/batch_072.json",
+      "input_sha256": "f65d2298443bc2a2daeb5b21001d3f03248114aef200dee6cf5e6e4a5cab111b",
+      "output": "temp/screen/nationalism-pronatalist-ideology/verdict_072.json"
+    }
+  ]
+}
